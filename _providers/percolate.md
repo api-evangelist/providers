@@ -41,7 +41,7 @@ name: Percolate
 nav: Providers
 network: true
 overview: Percolate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Content Marketing, Marketing Technology, and Marketing Enablement.
-random_paper: 14
+random_paper: 13
 screenshot: https://raw.githubusercontent.com/api-evangelist/percolate/refs/heads/main/screenshots/percolate-2026-09-02T151036.png
 security:
 - kind: domain-security

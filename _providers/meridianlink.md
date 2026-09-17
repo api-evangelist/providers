@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A powerful web service enabling software applications to retrieve consumer credit data in XML format, supporting lending and financial institution workflows.
@@ -78,7 +78,7 @@ plans:
 - name: Meridianlink Plans Pricing
   plan_count: 3
   slug: meridianlink-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Meridianlink Rate Limits
@@ -109,7 +109,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

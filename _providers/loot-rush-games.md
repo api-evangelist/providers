@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://third-party.lootrush.com
@@ -177,7 +177,7 @@ overview: 'Loot Rush Games publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Loot Rush Games'' developer surface includes documentation, API reference, getting-started guide, authentication, support, and 14 more developer resources.'
-random_paper: 20
+random_paper: 15
 score:
   band: thin
   composite: 35.6
@@ -213,7 +213,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 5
   slug: edmunds-agentic-access
   summary_line: 5 operations
-api_count: 1
+api_count: 2
 apis:
 - description: The Edmunds Dealership API is a tool that provides real-time access to data on cars for sale at dealerships across the country. By connecting to the API, users can search for specific makes and models
   name: Edmunds Dealership API
@@ -58,9 +58,9 @@ apis:
   slug: edmunds-vehicle-api
 - baseURL: https://api.edmunds.com
   baseurl_source: declared
-  description: The only machine-readable contract Edmunds serves. An OpenAPI 3.0.1 document published at https://api.edmunds.com/openapi.yaml and pointed at by Edmunds' own OpenAI plugin manifest at /.well-known/ai-
-  name: Edmunds Cars API
-  slug: edmunds-cars-api
+  description: The Aiplugin API from Edmunds — 2 operation(s) for aiplugin.
+  name: Edmunds Aiplugin API
+  slug: edmunds-aiplugin-api
 artifact_total: 14
 collections:
 - collection_type: open
@@ -73,6 +73,16 @@ collections:
   name: Edmunds Vehicle API
   slug: open-edmunds
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/overlays/edmunds-cars-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/edmunds-cars-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/mcp/edmunds-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/edmunds-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -206,15 +216,15 @@ modified: '2026-09-06'
 name: Edmunds
 nav: Providers
 network: true
-overview: 'Edmunds publishes 2 APIs on the [APIs.io](https://apis.io/) network: Vehicle API and Cars API. Tagged areas include Automobiles, Cars, Vehicles, Vehicle Data, and Dealerships.
+overview: 'Edmunds publishes 2 APIs on the [APIs.io](https://apis.io/) network: Vehicle API and Aiplugin API. Tagged areas include Automobiles, Cars, Vehicles, Vehicle Data, and Dealership.
 
 
-  Edmunds'' developer surface includes authentication, developer portal, documentation, FAQ, engineering blog, API reference, support, and 19 more developer resources.'
+  Edmunds'' developer surface includes authentication, developer portal, documentation, FAQ, engineering blog, API reference, support, and 21 more developer resources.'
 plans:
 - name: Edmunds Plans Pricing
   plan_count: 0
   slug: edmunds-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Edmunds Rate Limits
@@ -244,12 +254,12 @@ score:
     contracts:
       callable: 100.0
       derived: 2
-      marker_coverage: 100.0
+      marker_coverage: 66.7
       total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -271,7 +281,7 @@ tags:
 - Cars
 - Vehicles
 - Vehicle Data
-- Dealerships
+- Dealership
 - Reviews
 - Pricing
 - Automotive

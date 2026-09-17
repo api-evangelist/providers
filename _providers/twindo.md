@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Public machine-readable company profile Twindo publishes for LLMs and agents (linked from the site footer as "LLM JSON API"): products, pricing, output formats, use cases, case studies, and resources '
@@ -120,7 +120,7 @@ overview: 'Twindo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Twindo''s developer surface includes engineering blog, pricing, signup flow, getting-started guide, support, authentication, changelog, and 8 more developer resources.'
-random_paper: 10
+random_paper: 1
 score:
   band: emerging
   composite: 24.4
@@ -141,7 +141,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 24.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ tags:
 - LiDAR
 - Scan to CAD
 - BIM
-- Digital Twins
+- Digital Twin
 - Reality Capture
 - Architecture
 - Construction

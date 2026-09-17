@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
 - baseURL: https://{network}.infura.io/v3/{apiKey}
   baseurl_source: declared
   description: The Infura (MetaMask Developer) JSON RPC API API from Infura — 1 operation(s) for infura (metamask developer) json rpc api.
-  name: Infura Infura (MetaMask Developer) JSON RPC API API
+  name: Infura (MetaMask Developer) JSON RPC API
   slug: infura-infura-metamask-developer-json-rpc-api-api
 artifact_total: 17
 asyncapis:
@@ -133,11 +133,11 @@ finops:
   slug: infura-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infura.png
 layout: provider
-modified: '2026-05-29'
+modified: '2026-09-16'
 name: Infura
 nav: Providers
 network: true
-overview: 'Infura publishes 2 APIs on the [APIs.io](https://apis.io/) network: JSON-RPC API and Infura (MetaMask Developer) JSON RPC API API. Tagged areas include Web3, Blockchain, RPC, Infrastructure, and MetaMask.
+overview: 'Infura publishes 2 APIs on the [APIs.io](https://apis.io/) network: JSON-RPC API and (MetaMask Developer) JSON RPC API. Tagged areas include Web3, Blockchain, RPC, Infrastructure, and MetaMask.
 
 
   The Infura catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -148,7 +148,7 @@ plans:
 - name: Infura Plans Pricing
   plan_count: 4
   slug: infura-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Infura Rate Limits
@@ -192,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

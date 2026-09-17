@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
 - baseURL: https://rpc.monad.xyz
   baseurl_source: declared
   description: The Monad JSON RPC API API from Monad — 1 operation(s) for monad json rpc api.
-  name: Monad Monad JSON RPC API API
+  name: Monad JSON RPC API
   slug: monad-monad-json-rpc-api-api
 artifact_total: 22
 collections:
@@ -182,11 +182,11 @@ graphqls:
   slug: monad-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monad.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: Monad
 nav: Providers
 network: true
-overview: 'Monad publishes 1 API on the [APIs.io](https://apis.io/) network: Monad JSON RPC API API. Tagged areas include Blockchain, Layer 1, EVM, High Performance, and Parallel Execution.
+overview: 'Monad publishes 1 API on the [APIs.io](https://apis.io/) network: JSON RPC API. Tagged areas include Blockchain, Layer 1, EVM, High Performance, and Parallel Execution.
 
 
   Monad''s developer surface includes documentation, getting-started guide, API reference, GitHub presence, engineering blog, and 13 more developer resources.'
@@ -194,7 +194,7 @@ plans:
 - name: Monad Plans Pricing
   plan_count: 1
   slug: monad-plans-pricing
-random_paper: 2
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Monad Rate Limits
@@ -226,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

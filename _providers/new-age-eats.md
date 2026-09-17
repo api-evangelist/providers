@@ -34,7 +34,7 @@ name: New Age Eats
 nav: Providers
 network: true
 overview: New Age Eats is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Cultivated Meat, Alternative Protein, and Biotechnology.
-random_paper: 16
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-age-eats/refs/heads/main/screenshots/new-age-eats-2026-09-02T150745.png
 slug: new-age-eats
 tags:

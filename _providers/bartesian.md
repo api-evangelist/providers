@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Bartesian Shopify storefront. The store publishes a Universal Commerce Protocol merchant profile at https://bartesian.com/.well-known/ucp declaring UCP version
@@ -109,7 +109,7 @@ overview: 'Bartesian publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Bartesian''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 8
+random_paper: 7
 scopes:
 - name: Bartesian Scopes
   scope_count: 4
@@ -144,7 +144,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

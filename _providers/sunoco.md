@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 14
 common:
@@ -107,11 +107,11 @@ modified: '2026-05-23'
 name: Sunoco LP
 nav: Providers
 network: true
-overview: 'Sunoco LP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fuels, Fuel Distribution, Convenience Stores, and Midstream.
+overview: 'Sunoco LP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fuel, Fuel Distribution, Convenience Stores, and Midstream.
 
 
   Sunoco LP''s developer surface includes product news, authentication, and 4 more developer resources.'
-random_paper: 12
+random_paper: 3
 score:
   band: minimal
   composite: 9.5
@@ -138,7 +138,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -153,12 +153,12 @@ security:
 slug: sunoco
 tags:
 - Energy
-- Fuels
+- Fuel
 - Fuel Distribution
 - Convenience Stores
 - Midstream
 - Pipelines
-- Terminals
+- Terminal
 - Retail
 use_cases:
 - description: Wholesale supply of motor fuels to approximately 11,000 branded and partner-branded retail outlets.

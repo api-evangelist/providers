@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ modified: '2026-06-13'
 name: Trakstar
 nav: Providers
 network: true
-overview: 'Trakstar publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Candidate Messages API, Candidates API, and 9 more. Tagged areas include HR, Human Resources, Performance Management, Talent Management, and Applicant Tracking.
+overview: 'Trakstar publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Candidate Messages API, Candidates API, and 9 more. Tagged areas include Human Resources, Performance Management, Talent Management, Applicant Tracking, and Learning Management.
 
 
   The Trakstar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -273,7 +273,7 @@ plans:
 - name: Trakstar Plans Pricing
   plan_count: 4
   slug: trakstar-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Trakstar Rate Limits
@@ -322,7 +322,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -343,7 +343,6 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: trakstar
 tags:
-- HR
 - Human Resources
 - Performance Management
 - Talent Management

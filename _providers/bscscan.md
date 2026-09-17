@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -130,6 +130,10 @@ collections:
   name: BscScan Accounts Transactions API
   slug: open-bscscan-transactions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bscscan.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bscscan/refs/heads/main/agentic-access/bscscan-agentic-access.yml
   title: ''
@@ -186,7 +190,7 @@ jsonld:
   property_count: 36
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: BscScan
 nav: Providers
 network: true
@@ -196,12 +200,12 @@ overview: 'BscScan publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The BscScan catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  BscScan''s developer surface includes authentication and 3 more developer resources.'
+  BscScan''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 19
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -244,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -273,4 +277,5 @@ tags:
 - Smart Contracts
 - DeFi
 - EVM
+website: https://bscscan.com
 ---

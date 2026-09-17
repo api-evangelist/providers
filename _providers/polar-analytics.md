@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server that doubles as Polar's HTTP API surface; invoke tools at POST https://api.polaranalytics.com/mcp/tool/<tool_name> with a Bearer API key. Exposes 8 tools for gener
@@ -159,7 +159,7 @@ overview: 'Polar Analytics publishes 2 APIs on the [APIs.io](https://apis.io/) n
 
 
   Polar Analytics'' developer surface includes authentication, documentation, support, pricing, engineering blog, and 17 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: thin
   composite: 30.3
@@ -184,7 +184,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

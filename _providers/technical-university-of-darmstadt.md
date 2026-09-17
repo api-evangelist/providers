@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: 'REST API of TUdatalib, the institutional research-data repository of TU Darmstadt. Verified live 2026-09-01: the API root returns HAL/JSON with dspaceName "TUdatalib System", dspaceVersion "DSpace 9.3'
@@ -185,7 +185,7 @@ plans:
 - name: Technical University Of Darmstadt Plans Pricing
   plan_count: 2
   slug: technical-university-of-darmstadt-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Technical University Of Darmstadt Rate Limits
@@ -226,7 +226,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

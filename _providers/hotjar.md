@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: Hotjar REST Authentication User Lookup API
   slug: open-hotjar-user-lookup-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://hotjar.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/agentic-access/hotjar-agentic-access.yml
   title: ''
@@ -207,22 +211,22 @@ jsonld:
   property_count: 7
   slug: hotjar-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Hotjar
 nav: Providers
 network: true
-overview: 'Hotjar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Survey Responses API, Surveys API, and 1 more.
+overview: 'Hotjar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Survey Responses API, Surveys API, and 1 more. Tagged areas include Analytics, Surveys, Tracking, Personalization, and Segmentation.
 
 
   The Hotjar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Hotjar''s developer surface includes authentication and 7 more developer resources.'
+  Hotjar''s developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Hotjar Plans Pricing
   plan_count: 6
   slug: hotjar-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Hotjar Rate Limits
@@ -240,21 +244,21 @@ rules:
   slug: hotjar-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.3
+  composite: 29.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 40.3
+    catalog_earned: 45.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.8
+    catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 61.1
     developer_ergonomics: 21.4
-    discoverability: 44.4
+    discoverability: 53.7
     operational_transparency: 5.3
   previous_composite: 28.3
   provenance:
@@ -264,11 +268,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -284,4 +285,11 @@ security:
   slug: hotjar-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: hotjar
+tags:
+- Analytics
+- Surveys
+- Tracking
+- Personalization
+- Segmentation
+website: https://hotjar.com
 ---

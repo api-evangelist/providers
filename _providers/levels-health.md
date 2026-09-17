@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.levelshealth.com
@@ -116,7 +116,7 @@ plans:
 - name: Levels Health Plans Pricing
   plan_count: 4
   slug: levels-health-plans-pricing
-random_paper: 3
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Levels Health Rate Limits
@@ -147,7 +147,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

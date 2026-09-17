@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-04-28'
 name: Las Vegas Sands
 nav: Providers
 network: true
-overview: 'Las Vegas Sands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Casino, Conventions, Entertainment, Hospitality, and Hotels.
+overview: 'Las Vegas Sands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Casinos, Conventions, Entertainment, Hospitality, and Hotels.
 
 
   Las Vegas Sands'' developer surface includes product news and 7 more developer resources.'
@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: Las Vegas Sands details 2026 proxy and pay overhaul
   url: https://www.stocktitan.net/sec-filings/LVS/def-14a-las-vegas-sands-corp-definitive-proxy-statement-a4938dbbd0c8.html
-random_paper: 11
+random_paper: 7
 score:
   band: minimal
   composite: 7.1
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -132,7 +132,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: las-vegas-sands
 tags:
-- Casino
+- Casinos
 - Conventions
 - Entertainment
 - Hospitality

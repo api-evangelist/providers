@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - baseURL: https://api.windfalldata.com/v1
   baseurl_source: declared
   description: The Windfall API API from Windfall Data — 1 operation(s) for windfall api.
-  name: Windfall Data Windfall API API
+  name: Windfall Data Windfall API
   slug: windfall-data-windfall-api-api
 artifact_total: 9
 collections:
@@ -201,11 +201,11 @@ created: '2026-07-17'
 description: 'Windfall (windfall.com, formerly windfalldata.com) is a people-intelligence and AI platform that personalizes go-to-market workflows with wealth and career data. Its developer-facing Windfall API delivers enriched household and career data on a single-record basis in real time: submit a person record with basic PII and receive that individual''s household net worth, a stable Windfall ID, and career signals such as a LinkedIn URL and title, returned as JSON in one sub-second request. Coverage is United States, data is refreshed weekly, and the API is used for real-time lead routing and grading, marketing enrichment, and analytics scoring. Authentication is a Windfall-issued header token with a dedicated sandbox environment of deterministic test personas. Windfall is SOC 2 Type 2 certified.'
 image: https://api-docs.windfall.com/logo.svg
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Windfall Data
 nav: Providers
 network: true
-overview: 'Windfall Data publishes 1 API on the [APIs.io](https://apis.io/) network: Windfall API API. Tagged areas include Company, Data, Data Enrichment, Wealth Data, and People Intelligence.
+overview: 'Windfall Data publishes 1 API on the [APIs.io](https://apis.io/) network: Windfall API. Tagged areas include Company, Data, Data Enrichment, Wealth Data, and People Intelligence.
 
 
   Windfall Data''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, code examples, support, and 23 more developer resources.'
@@ -213,7 +213,7 @@ plans:
 - name: Windfall Data Plans Pricing
   plan_count: 0
   slug: windfall-data-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Windfall Data Rate Limits
@@ -248,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -9,32 +9,121 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 62.0
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 70.6
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- description: REST/HTTP API to discover, inspect, run and poll third-party agent tools, with smart-run capabilities, leaderboards, wallet balance and agent self-registration. Exposes OpenAPI 3.1, two hosted MCP ser
-  name: Cracked API
-  slug: cracked-api
-artifact_total: 12
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Apps API from Cracked API — 6 operation(s) for apps.
+  name: Cracked API Apps API
+  slug: cracked-apps-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Auth API from Cracked API — 1 operation(s) for auth.
+  name: Cracked API Auth API
+  slug: cracked-auth-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Batches API from Cracked API — 4 operation(s) for batches.
+  name: Cracked API Batches API
+  slug: cracked-batches-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Datasets API from Cracked API — 2 operation(s) for datasets.
+  name: Cracked API Datasets API
+  slug: cracked-datasets-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Discover API from Cracked API — 1 operation(s) for discover.
+  name: Cracked API Discover API
+  slug: cracked-discover-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Inspect API from Cracked API — 1 operation(s) for inspect.
+  name: Cracked API Inspect API
+  slug: cracked-inspect-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Providers API from Cracked API — 1 operation(s) for providers.
+  name: Cracked API Providers API
+  slug: cracked-providers-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Referrals API from Cracked API — 1 operation(s) for referrals.
+  name: Cracked API Referrals API
+  slug: cracked-referrals-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Refunds API from Cracked API — 1 operation(s) for refunds.
+  name: Cracked API Refunds API
+  slug: cracked-refunds-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Relay API from Cracked API — 4 operation(s) for relay.
+  name: Cracked API Relay API
+  slug: cracked-relay-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Run API from Cracked API — 1 operation(s) for run.
+  name: Cracked API Run API
+  slug: cracked-run-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Runs API from Cracked API — 3 operation(s) for runs.
+  name: Cracked API Runs API
+  slug: cracked-runs-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Schedules API from Cracked API — 2 operation(s) for schedules.
+  name: Cracked API Schedules API
+  slug: cracked-schedules-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Secrets API from Cracked API — 3 operation(s) for secrets.
+  name: Cracked API Secrets API
+  slug: cracked-secrets-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The Wallet API from Cracked API — 2 operation(s) for wallet.
+  name: Cracked API Wallet API
+  slug: cracked-wallet-api
+- baseURL: https://cracked.ai/v1
+  baseurl_source: declared
+  description: The X402 API from Cracked API — 1 operation(s) for x402.
+  name: Cracked API X402 API
+  slug: cracked-x402-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Cracked Webhooks
   slug: cracked-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://cracked.ai/mcp
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://cracked.ai/SKILL.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://cracked.ai/mcp/public
 - group: company
   title: ''
   type: Website
@@ -235,18 +324,18 @@ modified: '2026-09-03'
 name: Cracked API
 nav: Providers
 network: true
-overview: 'Cracked API publishes 1 API on the [APIs.io](https://apis.io/) network: Cracked API. Tagged areas include AI Agents, Agent Tools, MCP, Tool Router, and API Aggregator.
+overview: 'Cracked API publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Auth API, Batches API, and 13 more. Tagged areas include AI Agents, Agent Tools, MCP, Tool Router, and API Aggregator.
 
 
   The Cracked API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cracked API''s developer surface includes authentication, sandbox, changelog, CLI, API reference, getting-started guide, pricing, and 32 more developer resources.'
+  Cracked API''s developer surface includes authentication, sandbox, changelog, CLI, API reference, getting-started guide, pricing, and 35 more developer resources.'
 plans:
 - name: Cracked Plans Pricing
   plan_count: 3
   slug: cracked-plans-pricing
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Cracked Rate Limits
@@ -257,8 +346,8 @@ scopes:
   slug: cracked-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 64.9
+  band: exemplar
+  composite: 67.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 61.0
@@ -266,26 +355,26 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 2.3
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 49.8
+    contract_quality: 58.7
     developer_ergonomics: 88.1
     discoverability: 75.9
     operational_transparency: 81.6
-  previous_composite: 64.0
+  previous_composite: 64.9
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 16
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

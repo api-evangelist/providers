@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 2
@@ -55,11 +55,6 @@ apis:
   description: The Admin API from Picker — 132 operation(s) for admin.
   name: Picker Admin API
   slug: picker-admin-api
-- baseURL: https://api.pickerexpress.com
-  baseurl_source: declared
-  description: The antiFraud API from Picker — 2 operation(s) for antifraud.
-  name: Picker antiFraud API
-  slug: picker-antifraud-api
 - baseURL: https://api.pickerexpress.com
   baseurl_source: declared
   description: The appVersion API from Picker — 3 operation(s) for appversion.
@@ -145,11 +140,6 @@ apis:
   description: The chatbot API from Picker — 1 operation(s) for chatbot.
   name: Picker chatbot API
   slug: picker-chatbot-api
-- baseURL: https://api.pickerexpress.com
-  baseurl_source: declared
-  description: The cronJobs API from Picker — 1 operation(s) for cronjobs.
-  name: Picker cronJobs API
-  slug: picker-cronjobs-api
 - baseURL: https://api.pickerexpress.com
   baseurl_source: declared
   description: The customer API from Picker — 20 operation(s) for customer.
@@ -292,11 +282,6 @@ apis:
   slug: picker-service-api
 - baseURL: https://api.pickerexpress.com
   baseurl_source: declared
-  description: The serviceProvider API from Picker — 6 operation(s) for serviceprovider.
-  name: Picker serviceProvider API
-  slug: picker-serviceprovider-api
-- baseURL: https://api.pickerexpress.com
-  baseurl_source: declared
   description: The Share My Ride API from Picker — 3 operation(s) for share my ride.
   name: Picker Share My Ride API
   slug: picker-share-my-ride-api
@@ -365,6 +350,21 @@ apis:
   description: The vtex API from Picker — 1 operation(s) for vtex.
   name: Picker vtex API
   slug: picker-vtex-api
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The anti Fraud API from Picker — 2 operation(s) for anti fraud.
+  name: Picker anti Fraud API
+  slug: picker-anti-fraud-api
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The Cron Jobs API from Picker — 1 operation(s) for cron jobs.
+  name: Picker Cron Jobs API
+  slug: picker-cron-jobs-api
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The Service Provider API from Picker — 6 operation(s) for service provider.
+  name: Picker Service Provider API
+  slug: picker-service-provider-api
 artifact_total: 132
 asyncapis:
 - description: ''
@@ -673,14 +673,14 @@ modified: '2026-07-20'
 name: Picker
 nav: Providers
 network: true
-overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, including accounting API, Admin API, antiFraud API, and 61 more. Tagged areas include Company, Logistics, Delivery, Last Mile, and Couriers.
+overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, including accounting API, Admin API, appVersion API, and 61 more. Tagged areas include Company, Logistics, Delivery, Last Mile, and Couriers.
 
 
   The Picker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Picker''s developer surface includes authentication, sandbox, documentation, API reference, pricing, signup flow, engineering blog, and 15 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: thin
   composite: 28.9
@@ -716,7 +716,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

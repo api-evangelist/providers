@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ overview: 'Intuition Robotics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Intuition Robotics'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 19
+random_paper: 17
 score:
   band: minimal
   composite: 10.3
@@ -122,7 +122,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

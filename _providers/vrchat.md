@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The HTTP API at api.vrchat.cloud/api/1 that backs the VRChat client and the vrchat.com website — authentication, users, friends, worlds, avatars, instances, groups, files and notifications. VRChat ope
@@ -171,11 +171,11 @@ modified: '2026-08-05'
 name: VRChat
 nav: Providers
 network: true
-overview: 'VRChat publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Reality, Social Networks, Gaming, and Metaverse.
+overview: 'VRChat publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Reality, Social Network, Gaming, and Metaverse.
 
 
   VRChat''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, changelog, CLI, and 20 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: thin
   composite: 33.0
@@ -198,7 +198,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +214,7 @@ slug: vrchat
 tags:
 - Company
 - Virtual Reality
-- Social Networks
+- Social Network
 - Gaming
 - Metaverse
 - Avatars

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing SegmentStream's marketing measurement, attribution, budget-optimization, and BigQuery query capabilities as agent-callable tools (read-only reporting by d
@@ -204,7 +204,7 @@ plans:
 - name: Segmentstream Plans Pricing
   plan_count: 3
   slug: segmentstream-plans-pricing
-random_paper: 0
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Segmentstream Rate Limits
@@ -233,7 +233,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

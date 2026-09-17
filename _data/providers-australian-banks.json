@@ -27,7 +27,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -66,24 +66,24 @@
      "slug": "up-bank",
      "description": "Up is an Australian digital-only neobank founded in 2018 as a collaboration between Melbourne software company Ferocia and Bendigo and Adelaide Bank. Up is not a mutual and is not separately licensed; it operates as a brand of ASX-listed Bendigo and Adelaide Bank, which holds the Authorised Deposit-taking Institution (ADI) licence, provides the underlying deposit products, and acquired full ownership of Ferocia and Up in 2021. Marketed as Australia's first fully cloud-hosted bank, Up serves more than one million customers through a mobile-first app with no monthly account fees, high-interest savers, and rich transaction categorisation. Up has a strong public API posture for its size - it exposes both a documented personal-banking developer API (accounts, transactions, tags, webhooks) and, as required of every Australian data holder under the Consumer Data Right (CDR / Open Banking), a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png",
-     "score": 46.8,
+     "score": 49.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 56.9,
+      "contract_quality": 60.9,
       "contract_governance": 4.5,
       "operational_transparency": 28.9,
       "developer_ergonomics": 49.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 78.5,
+      "score": 88.6,
       "matched_via": "tags",
       "jurisdictions_satisfied": 1,
       "jurisdictions": [
@@ -134,7 +134,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -191,7 +191,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -248,7 +248,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -305,7 +305,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -355,7 +355,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -412,7 +412,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -469,7 +469,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -519,7 +519,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -569,7 +569,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -626,7 +626,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -683,7 +683,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -725,6 +725,56 @@
      "rank": 13
     },
     {
+     "name": "Bendigo and Adelaide Bank",
+     "slug": "bendigo-and-adelaide-bank",
+     "description": "Bendigo and Adelaide Bank Limited (ASX:BEN) is one of Australia's largest retail banks, formed by the 2007 merger of the community-focused Bendigo Bank and the wholesale-strong Adelaide Bank, and headquartered in Bendigo, Victoria. The group serves millions of customers through the Bendigo Bank, Adelaide Bank, Rural Bank, and Up (neobank) brands, with a distinctive Community Bank branch-franchise model. As an authorised deposit-taking institution and accredited Consumer Data Right (CDR) data holder, the bank exposes public, unauthenticated Product Reference Data (PRD) APIs conforming to the Australian Consumer Data Standards, alongside the authenticated CDR consumer data-sharing surface governed by the ACCC/DSB rules.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png",
+     "score": 43.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 60.9,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 48.2,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 68.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Bank of Queensland",
      "slug": "bank-of-queensland",
      "description": "Bank of Queensland Limited (ASX code BOQ) is one of Australia's oldest banks, founded in Brisbane in 1874, and today an APRA-regulated authorised deposit-taking institution (ADI) and ASX-listed regional retail and commercial bank - a publicly listed company, not a customer-owned mutual. Its banking group includes the ME Bank, Virgin Money Australia and BOQ Specialist brands. As an accredited Consumer Data Right (CDR) data holder, BOQ exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Australian Consumer Data Standards, while consumer data sharing runs through the regulated CDR / Accredited Data Recipient (ADR) model with OAuth2 / OIDC (FAPI) authorization.",
@@ -740,7 +790,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -772,7 +822,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Great Southern Bank",
@@ -790,7 +840,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -822,7 +872,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "HSBC Bank Australia",
@@ -840,7 +890,7 @@
       "developer_ergonomics": 53.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -872,7 +922,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "AMP Bank",
@@ -890,7 +940,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -922,7 +972,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Macquarie Bank",
@@ -940,7 +990,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -972,7 +1022,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Commonwealth Bank",
@@ -984,13 +1034,13 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 12.6,
+      "contract_quality": 12.5,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
       "developer_ergonomics": 58.9,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1022,7 +1072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Beyond Bank Australia",
@@ -1040,7 +1090,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1072,7 +1122,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Summerland Bank",
@@ -1090,7 +1140,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1129,56 +1179,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
-    },
-    {
-     "name": "Bendigo and Adelaide Bank",
-     "slug": "bendigo-and-adelaide-bank",
-     "description": "Bendigo and Adelaide Bank Limited (ASX:BEN) is one of Australia's largest retail banks, formed by the 2007 merger of the community-focused Bendigo Bank and the wholesale-strong Adelaide Bank, and headquartered in Bendigo, Victoria. The group serves millions of customers through the Bendigo Bank, Adelaide Bank, Rural Bank, and Up (neobank) brands, with a distinctive Community Bank branch-franchise model. As an authorised deposit-taking institution and accredited Consumer Data Right (CDR) data holder, the bank exposes public, unauthenticated Product Reference Data (PRD) APIs conforming to the Australian Consumer Data Standards, alongside the authenticated CDR consumer data-sharing surface governed by the ACCC/DSB rules.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png",
-     "score": 40.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 56.9,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 48.2,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 58.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 22
     },
     {
@@ -1197,7 +1197,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1247,7 +1247,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1297,7 +1297,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1354,7 +1354,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1404,7 +1404,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1472,7 +1472,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1529,7 +1529,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1579,7 +1579,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1636,7 +1636,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1693,7 +1693,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1743,7 +1743,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1800,7 +1800,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1850,7 +1850,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1900,7 +1900,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1957,7 +1957,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2007,7 +2007,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2064,7 +2064,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2114,7 +2114,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2164,7 +2164,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2206,35 +2206,35 @@
      "rank": 41
     },
     {
-     "name": "MyState Bank",
-     "slug": "mystate-bank",
-     "description": "MyState Bank is an Australian retail bank headquartered in Hobart, Tasmania, and the principal banking brand of ASX-listed MyState Limited (ASX:MYS). It traces its origins to a Tasmanian credit union serving teachers, police and nurses, formed its current group in the 2009 merger of Tasmanian Perpetual Trustees and MyState Financial, was authorised to use the MyState Bank name in 2014, and in February 2025 completed a merger with Queensland regional lender Auswide Bank to create one of Australia's larger regional banking groups. As an authorised deposit-taking institution (ADI) it is a regulated data holder under the Australian Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS). Consumer data sharing beyond PRD is protected under the CDR's accredited-data-recipient model.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png",
-     "score": 33.7,
+     "name": "Bank of Sydney",
+     "slug": "bank-of-sydney",
+     "description": "Bank of Sydney Ltd is an Australian authorised deposit-taking institution (ADI) headquartered in Sydney, New South Wales, offering personal and business banking, home loans, deposits, and everyday accounts. It is a wholly owned subsidiary of Lebanon-based Bank of Beirut and operates a national branch and digital footprint across Australia. As a regulated ADI, Bank of Sydney participates in Australia's Consumer Data Right (CDR) / Open Banking regime, exposing a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards. Consumer-facing account and transaction data sharing is delivered to Accredited Data Recipients (ADRs) under the CDR authorisation model, backed by OAuth2/OIDC.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png",
+     "score": 33.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 68.5,
       "contract_quality": 49.7,
-      "contract_governance": 4.5,
+      "contract_governance": 18.2,
       "operational_transparency": 7.9,
-      "developer_ergonomics": 35.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 42.3,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 41.8,
+      "score": 50.6,
       "matched_via": "tags"
      },
-     "agent_score": 22.1,
+     "agent_score": 23.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
@@ -2256,35 +2256,35 @@
      "rank": 42
     },
     {
-     "name": "Bank of Sydney",
-     "slug": "bank-of-sydney",
-     "description": "Bank of Sydney Ltd is an Australian authorised deposit-taking institution (ADI) headquartered in Sydney, New South Wales, offering personal and business banking, home loans, deposits, and everyday accounts. It is a wholly owned subsidiary of Lebanon-based Bank of Beirut and operates a national branch and digital footprint across Australia. As a regulated ADI, Bank of Sydney participates in Australia's Consumer Data Right (CDR) / Open Banking regime, exposing a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards. Consumer-facing account and transaction data sharing is delivered to Accredited Data Recipients (ADRs) under the CDR authorisation model, backed by OAuth2/OIDC.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png",
-     "score": 33.2,
+     "name": "MyState Bank",
+     "slug": "mystate-bank",
+     "description": "MyState Bank is an Australian retail bank headquartered in Hobart, Tasmania, and the principal banking brand of ASX-listed MyState Limited (ASX:MYS). It traces its origins to a Tasmanian credit union serving teachers, police and nurses, formed its current group in the 2009 merger of Tasmanian Perpetual Trustees and MyState Financial, was authorised to use the MyState Bank name in 2014, and in February 2025 completed a merger with Queensland regional lender Auswide Bank to create one of Australia's larger regional banking groups. As an authorised deposit-taking institution (ADI) it is a regulated data holder under the Australian Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS). Consumer data sharing beyond PRD is protected under the CDR's accredited-data-recipient model.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png",
+     "score": 32.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 75.9,
       "contract_quality": 49.7,
-      "contract_governance": 18.2,
+      "contract_governance": 4.5,
       "operational_transparency": 7.9,
-      "developer_ergonomics": 42.3,
-      "access_clarity": 0.0
+      "developer_ergonomics": 35.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 50.6,
+      "score": 31.6,
       "matched_via": "tags"
      },
-     "agent_score": 23.9,
+     "agent_score": 22.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
+      "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
@@ -2321,7 +2321,7 @@
       "developer_ergonomics": 29.2,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2371,7 +2371,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2421,7 +2421,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2471,7 +2471,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2528,7 +2528,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2585,7 +2585,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2646,7 +2646,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

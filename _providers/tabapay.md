@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.tabapay.com
@@ -106,11 +106,6 @@ apis:
   slug: tabapay-transaction-api
 - baseURL: https://api.tabapay.com
   baseurl_source: declared
-  description: This resource represents a TransactionRequest One-time Payment Portal (<<glossary:OTPP>>)
-  name: TabaPay TransactionRequest API
-  slug: tabapay-transactionrequest-api
-- baseURL: https://api.tabapay.com
-  baseurl_source: declared
   description: This resource represents a Client's User.
   name: TabaPay User API
   slug: tabapay-user-api
@@ -119,6 +114,11 @@ apis:
   description: This resource represents a Client's Verification.
   name: TabaPay Verification API
   slug: tabapay-verification-api
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a TransactionRequest One-time Payment Portal (>)
+  name: TabaPay Transaction Request API
+  slug: tabapay-transaction-request-api
 artifact_total: 37
 collections:
 - collection_type: open
@@ -350,7 +350,7 @@ overview: 'TabaPay publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TabaPay''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 28 more developer resources.'
-random_paper: 3
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Tabapay Rate Limits
@@ -390,7 +390,7 @@ score:
     regime_id: payments
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

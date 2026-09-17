@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ overview: 'Brandtrack publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brandtrack''s developer surface includes documentation, API reference, authentication, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 2
+random_paper: 18
 scopes:
 - name: Brandtrack Scopes
   scope_count: 1
@@ -293,7 +293,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

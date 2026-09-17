@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: First-party remote Model Context Protocol server that exposes Channel99 marketing intelligence - visits, pixel impressions, vendor and channel scores, audiences, account identity and pipeline influenc
@@ -187,10 +187,10 @@ common:
   type: DomainSecurity
   url: security/channel99-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/channel99-pulsar-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/openapi/_original/channel99-pulsar-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/channel99-pulsar-openapi.json
+  url: openapi/_original/channel99-pulsar-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/overlays/channel99-pulsar-overlay.yaml
   title: ''
@@ -279,7 +279,7 @@ mcp_servers:
 - description: Channel99 operates a first-party, remote Model Context Protocol server that exposes its B2B marketing performance data - website visits, pixel impressions, vendor and channel scores, audiences, accoun
   name: Channel99 MCP Server
   slug: channel99-mcp-server
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: Channel99
 nav: Providers
 network: true
@@ -291,7 +291,7 @@ plans:
 - name: Channel99 Plans Pricing
   plan_count: 0
   slug: channel99-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Channel99 Rate Limits
@@ -330,7 +330,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

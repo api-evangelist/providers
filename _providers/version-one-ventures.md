@@ -21,14 +21,14 @@ modified: '2026-07-17'
 name: Version One Ventures
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 10
 slug: version-one-ventures
 tags:
 - Venture Capital
 - Pre-Seed
 - Seed
 - Early Stage
-- Marketplaces
+- Marketplace
 - Fintech
 - Crypto
 - Artificial Intelligence

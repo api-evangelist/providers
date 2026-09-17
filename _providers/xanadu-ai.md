@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - description: 'PennyLane is the flagship open-source Python framework for quantum differentiable programming — train and optimize variational quantum circuits with the same automatic differentiation engines used in '
@@ -261,7 +261,7 @@ overview: 'Xanadu publishes 14 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Xanadu''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, YouTube channel, release notes, and 23 more developer resources.'
-random_paper: 6
+random_paper: 8
 score:
   band: thin
   composite: 31.2
@@ -285,7 +285,7 @@ score:
     score: 65.0
   previous_composite: 31.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -307,7 +307,7 @@ tags:
 - PennyLane
 - Open-Source
 - Compilers
-- Simulators
+- Simulator
 - Continuous Variable
 - Gaussian Boson Sampling
 - Fault Tolerance

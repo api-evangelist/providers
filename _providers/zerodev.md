@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Zerodev Plans Pricing
   plan_count: 4
   slug: zerodev-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Zerodev Rate Limits
@@ -170,7 +170,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

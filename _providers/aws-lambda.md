@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -790,11 +790,11 @@ mcp_servers:
 - description: Official AWS Labs MCP server that turns AWS Lambda functions into MCP tools. It acts as a bridge between MCP clients and Lambda, letting generative-AI models select and invoke Lambda functions as tool
   name: AWS Lambda MCP Server
   slug: aws-lambda-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: AWS Lambda
 nav: Providers
 network: true
-overview: 'AWS Lambda publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Concurrency API, Event Source Mappings API, and 5 more.
+overview: 'AWS Lambda publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Aliases API, Concurrency API, Event Source Mappings API, and 5 more. Tagged areas include Serverless, Monitoring, Observability, Logging, and Telemetry.
 
 
   The AWS Lambda catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -805,7 +805,7 @@ plans:
 - name: Aws Lambda Plans Pricing
   plan_count: 7
   slug: aws-lambda-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 13
   name: Aws Lambda Rate Limits
@@ -845,21 +845,21 @@ rules:
   slug: aws-lambda-spectral-rules
 score:
   band: strong
-  composite: 60.3
+  composite: 61.1
   coverage:
     artifact_dirs: 31
-    catalog_earned: 61.5
+    catalog_earned: 66.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 63.2
     contract_governance: 33.3
     contract_quality: 82.0
     developer_ergonomics: 65.5
-    discoverability: 59.3
+    discoverability: 68.5
     operational_transparency: 55.3
   open_source:
     applies: true
@@ -874,11 +874,8 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -902,6 +899,12 @@ security:
   slug: aws-lambda-trust-center
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: aws-lambda
+tags:
+- Serverless
+- Monitoring
+- Observability
+- Logging
+- Telemetry
 use_cases:
 - description: Automatically process files uploaded to S3, such as image resizing, video transcoding, or document indexing.
   name: Real-Time File Processing

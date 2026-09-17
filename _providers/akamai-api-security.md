@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -249,32 +249,32 @@ apis:
 - baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the attack groups and rules that you're currently evaluating for your security policies.
-  name: 'Akamai API Security Security policy: Conditions and exceptions API'
+  name: 'Akamai API Security policy: Conditions and exceptions API'
   slug: akamai-api-security-security-policy-conditions-and-exceptions-api
 - baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the attack groups that you're evaluating for your security configurations and policies.
-  name: 'Akamai API Security Security policy: Evaluation attack groups API'
+  name: 'Akamai API Security policy: Evaluation attack groups API'
   slug: akamai-api-security-security-policy-evaluation-attack-groups-api
 - baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage hostnames you're currently evaluating for security policies.
-  name: 'Akamai API Security Security policy: Evaluation hostnames API'
+  name: 'Akamai API Security policy: Evaluation hostnames API'
   slug: akamai-api-security-security-policy-evaluation-hostnames-api
 - baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Set the evaluation mode for your security policies. This mode runs concurrently with your existing Web Application Firewall Rule settings and records how the rules would respond if applied to live tra
-  name: 'Akamai API Security Security policy: Evaluation mode API'
+  name: 'Akamai API Security policy: Evaluation mode API'
   slug: akamai-api-security-security-policy-evaluation-mode-api
 - baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the penalty box settings that you're evaluating for your security policies.
-  name: 'Akamai API Security Security policy: Evaluation penalty box API'
+  name: 'Akamai API Security policy: Evaluation penalty box API'
   slug: akamai-api-security-security-policy-evaluation-penalty-box-api
 - baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the rules you're currently evaluating for security policies.
-  name: 'Akamai API Security Security policy: Evaluation rules API'
+  name: 'Akamai API Security policy: Evaluation rules API'
   slug: akamai-api-security-security-policy-evaluation-rules-api
 - baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
@@ -1313,7 +1313,7 @@ jsonld:
   property_count: 180
   slug: akamai-api-security-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Akamai API Security
 nav: Providers
 network: true
@@ -1328,7 +1328,7 @@ plans:
 - name: Akamai Api Security Plans Pricing
   plan_count: 3
   slug: akamai-api-security-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Akamai Api Security Rate Limits
@@ -1382,7 +1382,7 @@ score:
       marker_coverage: 0.0
       total: 64
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

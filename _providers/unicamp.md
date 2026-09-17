@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REDU (Repositorio de Dados de Pesquisa da Unicamp) is Unicamp's institutional research data repository, self-hosted on the open-source Dataverse platform at redu.unicamp.br - a Unicamp-owned host, not
@@ -42,11 +42,6 @@ apis:
 - description: 'OAI-PMH 2.0 metadata harvesting endpoint for REDU, on Unicamp''s own host. Verified live 2026-09-01: verb=Identify returns 200 for repository "Repositorio de Dados de Pesquisa da Unicamp Dataverse OAI '
   name: REDU OAI-PMH Metadata Endpoint
   slug: redu-oai-pmh
-- baseURL: https://api.dados.unicamp.br
-  baseurl_source: declared
-  description: API gateway (Kong) for Unicamp's Escritorio de Dados e Apoio a Tomada de Decisao (EDAT), the university's data office. It backs catalogo.dados.unicamp.br and apoio.dados.unicamp.br. Verified live 2026
-  name: EDAT Data Platform API
-  slug: edat-data-api
 - description: 'Unicamp-operated Keycloak authorization server (realm `edat`) that issues the credentials for the EDAT data platform. Verified live 2026-09-01: the OIDC discovery document at /realms/edat/.well-known/'
   name: EDAT Keycloak OpenID Connect Provider
   slug: edat-keycloak-oidc
@@ -71,7 +66,17 @@ apis:
 - description: Unicamp is registered in the Research Organization Registry as https://ror.org/04wffgt70, with domain unicamp.br, established 1966, and cross-references to GRID (grid.411087.b), ISNI (0000 0001 0723 2
   name: ROR Organization Registration
   slug: ror-registration
-artifact_total: 18
+- baseURL: https://redu.unicamp.br/api
+  baseurl_source: declared
+  description: Role and permission metadata backing the EDAT Superset dashboards.
+  name: University of Campinas Authorization API
+  slug: unicamp-authorization-api
+- baseURL: https://redu.unicamp.br/api
+  baseurl_source: declared
+  description: Support desk system registry.
+  name: University of Campinas Support API
+  slug: unicamp-support-api
+artifact_total: 19
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/security/unicamp-domain-security.yml
@@ -161,7 +166,7 @@ modified: '2026-09-01'
 name: University of Campinas
 nav: Providers
 network: true
-overview: 'University of Campinas publishes 1 API on the [APIs.io](https://apis.io/) network: EDAT Data Platform API. Tagged areas include Education, Higher Education, University, Public Research University, and Brazil.
+overview: 'University of Campinas publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authorization API and Support API. Tagged areas include Education, Higher Education, University, Public Research University, and Brazil.
 
 
   The University of Campinas catalog on APIs.io includes 1 JSON-LD context.
@@ -172,7 +177,7 @@ plans:
 - name: Unicamp Plans Pricing
   plan_count: 2
   slug: unicamp-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Unicamp Rate Limits
@@ -184,7 +189,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.1
+  composite: 49.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 64.0
@@ -192,11 +197,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 59.5
+    contract_quality: 59.8
     developer_ergonomics: 26.2
     discoverability: 68.5
     operational_transparency: 21.1
@@ -214,7 +219,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 1
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
@@ -222,7 +227,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

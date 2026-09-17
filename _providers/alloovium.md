@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Alloovium's public REST API v2 for document intelligence over construction projects — vault (projects, documents, hybrid search), chat (grounded, cited answers), workflows (automation runs), and templ
@@ -187,7 +187,7 @@ overview: 'Alloovium publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Alloovium''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, support, authentication, and 21 more developer resources.'
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Alloovium Rate Limits
@@ -226,7 +226,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

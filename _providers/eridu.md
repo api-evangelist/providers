@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,9 +77,9 @@ apis:
   slug: eridu-discovery-api
 - baseURL: https://eridu.ai/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for eridu.ai URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any published post or page.
-  name: Eridu oEmbed API
-  slug: eridu-oembed-api
+  description: oEmbed 1.0 provider endpoint for eridu.ai URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any published post or page.
+  name: Eridu o Embed API
+  slug: eridu-o-embed-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -104,6 +104,11 @@ collections:
   name: Eridu Taxonomy API
   slug: open-eridu-taxonomy-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/overlays/eridu-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/eridu-oembed-api-overlay.yaml
 - group: other
   title: ''
   type: ParentCompany
@@ -259,12 +264,12 @@ network: true
 overview: 'Eridu publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Pages API, Media API, and 4 more. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Networking, and Semiconductors.
 
 
-  Eridu''s developer surface includes engineering blog, product news, YouTube channel, authentication, code examples, and 27 more developer resources.'
+  Eridu''s developer surface includes engineering blog, product news, YouTube channel, authentication, code examples, and 28 more developer resources.'
 plans:
 - name: Eridu Plans Pricing
   plan_count: 0
   slug: eridu-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Eridu Rate Limits
@@ -299,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -322,7 +327,7 @@ tags:
 - AI Infrastructure
 - Networking
 - Semiconductors
-- Data Centers
+- Data-Center
 - Silicon
 - Network Switching
 - Interconnect

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: OAuth2-secured wealth-data API covering the Connect flow (connectors, sessions, SCA resolution), Credentials, Entities, Aggregation, and Letters, returning standardized portfolios, investments, accoun
@@ -193,7 +193,7 @@ overview: 'Flanks publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Flanks'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 23 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: thin
   composite: 29.7
@@ -235,7 +235,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -266,7 +266,7 @@ tags:
 - Financial Data
 - Data Aggregation
 - Fintech
-- Investments
+- Investment
 - Open Banking
 website: https://www.flanks.io/
 ---

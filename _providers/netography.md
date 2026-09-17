@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 14
@@ -64,11 +64,6 @@ apis:
   description: The Auto Thresholds API from Netography — 3 operation(s) for auto thresholds.
   name: Netography Auto Thresholds API
   slug: netography-auto-thresholds-api
-- baseURL: https://api.netography.com
-  baseurl_source: declared
-  description: The Block List API from Netography — 1 operation(s) for block list.
-  name: Netography Block List API
-  slug: netography-block-list-api
 - baseURL: https://api.netography.com
   baseurl_source: declared
   description: The Configuration API from Netography — 1 operation(s) for configuration.
@@ -184,6 +179,11 @@ apis:
   description: The Users API from Netography — 3 operation(s) for users.
   name: Netography Users API
   slug: netography-users-api
+- baseURL: https://api.netography.com
+  baseurl_source: declared
+  description: The Blocklist API from Netography — 1 operation(s) for blocklist.
+  name: Netography Blocklist API
+  slug: netography-blocklist-api
 artifact_total: 63
 asyncapis:
 - description: ''
@@ -406,7 +406,7 @@ overview: 'Netography publishes 28 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Netography''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 18 more developer resources.'
-random_paper: 18
+random_paper: 11
 score:
   band: thin
   composite: 37.6
@@ -437,7 +437,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,24 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
-- baseURL: https://ruor.uottawa.ca/server/api
-  baseurl_source: declared
-  description: 'Public DSpace 8.3 REST/HATEOAS API for uO Research (Recherche uO Research), the University of Ottawa Library''s self-hosted institutional repository. Probed 2026-09-01: the root returns HTTP 200 applic'
-  name: uO Research DSpace REST API
-  slug: ruor-rest
-- baseURL: https://ruor.uottawa.ca/server/oai/request
-  baseurl_source: declared
-  description: 'OAI-PMH 2.0 metadata-harvesting provider for uO Research. Probed 2026-09-01: Identify returns repositoryName "Recherche uO Research", repositoryIdentifier ruor.uottawa.ca, adminEmail ruor@uottawa.ca, '
-  name: uO Research OAI-PMH
-  slug: ruor-oai
-- baseURL: https://www.uottawa.ca/en/jsonapi
-  baseurl_source: declared
-  description: 'Undocumented, anonymously readable JSON:API 1.0 surface on the University of Ottawa''s own Drupal web platform. Probed 2026-09-01: https://www.uottawa.ca/jsonapi returns HTTP 200 application/vnd.api+js'
-  name: uottawa.ca Content JSON:API
-  slug: www-jsonapi
 - description: 'The University of Ottawa''s own SAML 2.0 identity provider and its published federation metadata. Probed 2026-09-01: https://fca-caf.uottawa.ca/idp/shibboleth returns HTTP 200 application/xml (7,299 by'
   name: uOttawa Shibboleth Identity Provider (Canadian Access Federation)
   slug: caf-idp
@@ -72,7 +57,47 @@ apis:
 - description: 'The University of Ottawa is registered in the Research Organization Registry as https://ror.org/03c4mmv16, domain uottawa.ca, created 2018-11-14 and last modified 2026-07-20 in the ROR record. Probed '
   name: ROR registration (03c4mmv16)
   slug: ror
-artifact_total: 21
+- baseURL: https://ruor.uottawa.ca/server/api
+  baseurl_source: declared
+  description: The Authn API from University of Ottawa — 1 operation(s) for authn.
+  name: University of Ottawa Authn API
+  slug: university-of-ottawa-authn-api
+- baseURL: https://ruor.uottawa.ca/server/api
+  baseurl_source: declared
+  description: The Core API from University of Ottawa — 6 operation(s) for core.
+  name: University of Ottawa Core API
+  slug: university-of-ottawa-core-api
+- baseURL: https://ruor.uottawa.ca/server/api
+  baseurl_source: declared
+  description: The Discover API from University of Ottawa — 1 operation(s) for discover.
+  name: University of Ottawa Discover API
+  slug: university-of-ottawa-discover-api
+- baseURL: https://ruor.uottawa.ca/server/api
+  baseurl_source: declared
+  description: The Node API from University of Ottawa — 3 operation(s) for node.
+  name: University of Ottawa Node API
+  slug: university-of-ottawa-node-api
+- baseURL: https://ruor.uottawa.ca/server/api
+  baseurl_source: declared
+  description: The Request API from University of Ottawa — 1 operation(s) for request.
+  name: University of Ottawa Request API
+  slug: university-of-ottawa-request-api
+- baseURL: https://ruor.uottawa.ca/server/api
+  baseurl_source: declared
+  description: The Taxonomy Term API from University of Ottawa — 1 operation(s) for taxonomy term.
+  name: University of Ottawa Taxonomy Term API
+  slug: university-of-ottawa-taxonomy-term-api
+- baseURL: https://ruor.uottawa.ca/server/api
+  baseurl_source: declared
+  description: The UO Research (Recherche UO Research) DSpace REST API API from University of Ottawa — 1 operation(s) for uo research (recherche uo research) dspace rest api.
+  name: University of Ottawa UO Research (Recherche UO Research) DSpace REST API
+  slug: university-of-ottawa-uo-research-recherche-uo-research-dspace-rest-api-api
+- baseURL: https://ruor.uottawa.ca/server/api
+  baseurl_source: declared
+  description: The Uottawa.ca Content JSON:API API from University of Ottawa — 1 operation(s) for uottawa.ca content json:api.
+  name: University of Ottawa Uottawa.ca Content JSON:API API
+  slug: university-of-ottawa-uottawa-ca-content-json-api-api
+artifact_total: 26
 common:
 - group: company
   title: ''
@@ -127,10 +152,10 @@ common:
   type: AITooling
   url: https://www.uottawa.ca/library/copyright/additional-resources/generative-ai
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/university-of-ottawa-ruor-dspace-rest-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/openapi/_original/university-of-ottawa-ruor-dspace-rest-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-ottawa-ruor-dspace-rest-openapi.yml
+  url: openapi/_original/university-of-ottawa-ruor-dspace-rest-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/university-of-ottawa/refs/heads/main/json-schema/university-of-ottawa-ruor-community-schema.json
   title: ''
@@ -229,11 +254,11 @@ jsonld:
   property_count: 14
   slug: university-of-ottawa-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-09-16'
 name: University of Ottawa
 nav: Providers
 network: true
-overview: 'University of Ottawa publishes 3 APIs on the [APIs.io](https://apis.io/) network: uO Research DSpace REST API, uO Research OAI-PMH, and uottawa.ca Content JSON:API. Tagged areas include University, Higher Education, Education, Canada, and Ontario.
+overview: 'University of Ottawa publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authn API, Core API, Discover API, and 5 more. Tagged areas include University, Higher Education, Education, Canada, and Ontario.
 
 
   The University of Ottawa catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -244,7 +269,7 @@ plans:
 - name: University Of Ottawa Plans Pricing
   plan_count: 2
   slug: university-of-ottawa-plans-pricing
-random_paper: 2
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: University Of Ottawa Rate Limits
@@ -262,19 +287,19 @@ rules:
   slug: university-of-ottawa-rules
 score:
   band: developing
-  composite: 44.4
+  composite: 45.5
   coverage:
     artifact_dirs: 16
-    catalog_earned: 81.0
+    catalog_earned: 85.0
     catalog_earned_first_party: 5.0
-    catalog_gap: 34.0
+    catalog_gap: 30.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 39.5
     contract_governance: 15.2
-    contract_quality: 60.5
+    contract_quality: 64.9
     developer_ergonomics: 23.8
     discoverability: 74.1
     operational_transparency: 26.3
@@ -292,7 +317,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 3
+      total: 8
   regulatory:
     applies: true
     matched_via: tags
@@ -300,7 +325,7 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

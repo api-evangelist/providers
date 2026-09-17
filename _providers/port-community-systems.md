@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-05-19'
 name: Port Community Systems
 nav: Providers
 network: true
-overview: 'Port Community Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including CargoManifests API, Containers API, CustomsDeclarations API, and 2 more. Tagged areas include Maritime, Port, Logistics, Customs, and Cargo.
+overview: 'Port Community Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including CargoManifests API, Containers API, CustomsDeclarations API, and 2 more. Tagged areas include Maritime, Ports, Logistics, Customs, and Cargo.
 
 
   The Port Community Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -173,7 +173,7 @@ plans:
 - name: Port Community Systems Plans Pricing
   plan_count: 3
   slug: port-community-systems-plans-pricing
-random_paper: 1
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Port Community Systems Rate Limits
@@ -232,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -250,7 +250,7 @@ security:
 slug: port-community-systems
 tags:
 - Maritime
-- Port
+- Ports
 - Logistics
 - Customs
 - Cargo

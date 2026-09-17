@@ -42,14 +42,14 @@ modified: '2026-07-21'
 name: Uninstall
 nav: Providers
 network: true
-overview: Uninstall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Analytics, Uninstall Tracking, Mobile Apps, and SDK.
-random_paper: 20
+overview: Uninstall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Analytics, Uninstall Tracking, Mobile App, and SDK.
+random_paper: 18
 slug: uninstall
 tags:
 - Company
 - Mobile Analytics
 - Uninstall Tracking
-- Mobile Apps
+- Mobile App
 - SDK
 - Analytics
 - Defunct

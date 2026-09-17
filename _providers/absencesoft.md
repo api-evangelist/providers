@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: API-first REST API powering leave and accommodations case management, employee data, employer configuration, and communications. OpenAPI 3.1, OAuth2 (password and client credentials flows), HTTPS-only
@@ -129,14 +129,14 @@ modified: '2026-07-17'
 name: AbsenceSoft
 nav: Providers
 network: true
-overview: 'AbsenceSoft publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Leave Management, Absence Management, Accommodations, and HR Tech.
+overview: 'AbsenceSoft publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Leave Management, Absence Management, Accommodation, and Human Resources.
 
 
   The AbsenceSoft catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   AbsenceSoft''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 10
+random_paper: 21
 score:
   band: thin
   composite: 38.1
@@ -159,7 +159,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -184,11 +184,10 @@ tags:
 - Company
 - Leave Management
 - Absence Management
-- Accommodations
-- HR Tech
+- Accommodation
+- Human Resources
 - Compliance
 - FMLA
-- ADA
-- Human Resources
+- ADAS
 website: https://absencesoft.com
 ---

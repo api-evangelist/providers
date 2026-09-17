@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - baseURL: https://api.osmosis.ai
   baseurl_source: declared
   description: The Osmosis Agent Improvement API API from Osmosis — 1 operation(s) for osmosis agent improvement api.
-  name: Osmosis Osmosis Agent Improvement API API
+  name: Osmosis Agent Improvement API
   slug: osmosis-osmosis-agent-improvement-api-api
 artifact_total: 12
 asyncapis:
@@ -224,21 +224,21 @@ mcp_servers:
 - description: 'An open-source Model Context Protocol server that uses the Osmosis-Apply-1.7B model (served locally via Ollama) to merge code edits into files. Integrates into AI IDE / MCP-client workflows. Requires '
   name: Osmosis MCP Server
   slug: osmosis-mcp-server
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Osmosis
 nav: Providers
 network: true
-overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: agent API, knowledge API, and Osmosis Agent Improvement API API. Tagged areas include Company, Artificial Intelligence, Reinforcement Learning, LLM, and Post-Training.
+overview: 'Osmosis publishes 3 APIs on the [APIs.io](https://apis.io/) network: agent API, knowledge API, and Agent Improvement API. Tagged areas include Company, Artificial Intelligence, Reinforcement Learning, LLM, and Post-Training.
 
 
   The Osmosis catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Osmosis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 23 more developer resources.'
-random_paper: 4
+random_paper: 11
 score:
   band: developing
-  composite: 45.2
+  composite: 43.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -246,11 +246,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 62.0
+    contract_quality: 56.7
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 26.3
@@ -259,14 +259,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

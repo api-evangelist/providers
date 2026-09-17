@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,11 +70,11 @@ modified: '2026-07-19'
 name: Jolly
 nav: Providers
 network: true
-overview: 'Jolly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Engagement, Employee Rewards, Gamification, and HR Tech.
+overview: 'Jolly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Engagement, Employee Rewards, Gamification, and Human Resources.
 
 
   Jolly''s developer surface includes support and 5 more developer resources.'
-random_paper: 8
+random_paper: 4
 score:
   band: emerging
   composite: 11.5
@@ -97,7 +97,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +115,7 @@ tags:
 - Workforce Engagement
 - Employee Rewards
 - Gamification
-- HR Tech
+- Human Resources
 - Frontline Workforce
 - Workforce Management
 - Recruiting

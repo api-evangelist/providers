@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful API for reading and modifying 15Five account data, including users, groups, objectives (OKRs), check-ins, review cycles, and performance data. Supports bulk list fetches with pagination and us
@@ -128,7 +128,7 @@ modified: '2026-06-12'
 name: 15Five
 nav: Providers
 network: true
-overview: '15Five publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Performance Management, Employee Engagement, OKRs, Check-ins, and HR.
+overview: '15Five publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Performance Management, Employee Engagement, OKRs, Check-in, and Human Resources.
 
 
   The 15Five catalog on APIs.io includes 1 JSON-LD context.
@@ -139,7 +139,7 @@ plans:
 - name: 15Five Plans Pricing
   plan_count: 3
   slug: 15five-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: 15Five Rate Limits
@@ -166,7 +166,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -187,8 +187,7 @@ tags:
 - Performance Management
 - Employee Engagement
 - OKRs
-- Check-ins
-- HR
+- Check-in
 - Human Resources
 - 1-on-1 Meetings
 - Pulse Surveys

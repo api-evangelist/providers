@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -114,11 +114,6 @@ apis:
   slug: smtp2go-emails-api
 - baseURL: https://api.smtp2go.com/v3
   baseurl_source: declared
-  description: Manage the account IP allow list for SMTP and API access
-  name: SMTP2GO IP Allow List API
-  slug: smtp2go-ip-allow-list-api
-- baseURL: https://api.smtp2go.com/v3
-  baseurl_source: declared
   description: Manage IP-authenticated sending entries
   name: SMTP2GO IP AUTH API
   slug: smtp2go-ip-auth-api
@@ -137,6 +132,11 @@ apis:
   description: Delivery, bounce, spam, unsubscribe and cycle statistics
   name: SMTP2GO STATISTICS API
   slug: smtp2go-statistics-api
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Manage the account IP allow list for SMTP and API access
+  name: SMTP2GO IP Allowlist API
+  slug: smtp2go-ip-allowlist-api
 artifact_total: 45
 asyncapis:
 - description: ''
@@ -411,7 +411,7 @@ plans:
 - name: Smtp2Go Plans Pricing
   plan_count: 4
   slug: smtp2go-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 9
   name: Smtp2Go Rate Limits
@@ -463,7 +463,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: wss://fills.mngo.cloud
@@ -90,7 +90,7 @@ overview: 'Mango Markets publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mango Markets'' developer surface includes documentation and 5 more developer resources.'
-random_paper: 11
+random_paper: 14
 rules:
 - effective_rule_count: 33
   extends:
@@ -129,7 +129,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

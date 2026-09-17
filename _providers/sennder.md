@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: sennder offers partner-gated integration APIs that allow shippers, carriers, and TMS vendors to connect to the sennOS platform for shipment booking, dispatch, status updates, and real-time visibility.
@@ -134,7 +134,7 @@ modified: '2026-05-23'
 name: sennder
 nav: Providers
 network: true
-overview: 'sennder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Carriers, Digital Freight, Europe, Freight Forwarding, and Logistics.
+overview: 'sennder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Carrier, Digital Freight, Europe, Freight Forwarding, and Logistics.
 
 
   sennder''s developer surface includes engineering blog, developer portal, YouTube channel, and 17 more developer resources.'
@@ -142,7 +142,7 @@ plans:
 - name: Sennder Plans Pricing
   plan_count: 1
   slug: sennder-plans-pricing
-random_paper: 16
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Sennder Rate Limits
@@ -179,7 +179,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -193,7 +193,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: sennder
 tags:
-- Carriers
+- Carrier
 - Digital Freight
 - Europe
 - Freight Forwarding

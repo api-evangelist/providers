@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -484,7 +484,7 @@ overview: 'Isometric publishes 35 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Isometric''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 9
+random_paper: 7
 score:
   band: thin
   composite: 29.7
@@ -524,7 +524,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -564,7 +564,7 @@ tags:
 - Net Zero
 - LCA
 - Greenhouse Gas
-- Protocols
+- Protocol
 - Artificial Intelligence
 - MCP
 website: https://isometric.com

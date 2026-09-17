@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Real-time GET query to authenticate a LeadiD token against an account code, confirming lead capture provenance. Credentials are passed as query parameters (lac account code, id LeadiD token).
@@ -184,7 +184,7 @@ plans:
 - name: Infutor Plans Pricing
   plan_count: 0
   slug: infutor-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Infutor Rate Limits
@@ -212,7 +212,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

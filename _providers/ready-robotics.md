@@ -73,12 +73,12 @@ modified: '2026-09-15'
 name: Ready Robotics
 nav: Providers
 network: true
-overview: Ready Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Robotics, Industrial Automation, Manufacturing, Operating Systems, and Industrial IoT.
+overview: Ready Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Robotics, Industrial Automation, Manufacturing, Operating System, and Industrial IoT.
 plans:
 - name: Ready Robotics Plans Pricing
   plan_count: 0
   slug: ready-robotics-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Ready Robotics Rate Limits
@@ -93,7 +93,7 @@ tags:
 - Robotics
 - Industrial Automation
 - Manufacturing
-- Operating Systems
+- Operating System
 - Industrial IoT
 - Robot Operating System
 - Defunct

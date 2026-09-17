@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: APIs for agile planning, backlog management, sprint tracking, roadmapping, and team capacity planning tools used in the planning phase of the software development lifecycle.
@@ -147,7 +147,7 @@ plans:
 - name: Software Development Lifecycle Plans Pricing
   plan_count: 3
   slug: software-development-lifecycle-plans-pricing
-random_paper: 9
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Software Development Lifecycle Rate Limits
@@ -183,7 +183,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

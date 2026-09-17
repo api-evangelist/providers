@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.<your-subdomain>/v2.5
@@ -263,7 +263,7 @@ overview: 'OPAQUE publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   OPAQUE''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 19 more developer resources.'
-random_paper: 0
+random_paper: 13
 score:
   band: developing
   composite: 41.7
@@ -293,7 +293,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -317,7 +317,7 @@ tags:
 - Trusted Execution Environment
 - Attestation
 - Agentic Workflows
-- Retrieval Augmented Generation
+- RAG
 - Enterprise AI
 - secure-analytics
 - Data Clean Room

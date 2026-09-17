@@ -29,7 +29,7 @@ name: Blissmo
 nav: Providers
 network: true
 overview: Blissmo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 5
+random_paper: 13
 security:
 - kind: domain-security
   name: Blissmo Domain Security

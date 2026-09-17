@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Retrieve the assessments available to an employer - both content the employer has authored and items selected from Vervoe's public Assessment Library - so an external system such as an ATS can display
@@ -102,7 +102,7 @@ modified: '2026-07-10'
 name: Vervoe
 nav: Providers
 network: true
-overview: 'Vervoe publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hiring, Recruitment, Skills Assessment, Talent, and HR Tech.
+overview: 'Vervoe publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hiring, Recruitment, Skills Assessment, Talent, and Human Resources.
 
 
   Vervoe''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -110,7 +110,7 @@ plans:
 - name: Vervoe Plans Pricing
   plan_count: 2
   slug: vervoe-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Vervoe Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -153,7 +153,7 @@ tags:
 - Recruitment
 - Skills Assessment
 - Talent
-- HR Tech
+- Human Resources
 - AI Grading
 - ATS Integration
 website: https://vervoe.com

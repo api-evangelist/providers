@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: MultiLynq's single normalized API for electronic fixed income trading across every major and emerging U.S. venue. It abstracts each venue's native messaging and trading protocol — RFQ negotiation, por
@@ -125,7 +125,7 @@ plans:
 - name: Multilynq Plans Pricing
   plan_count: 0
   slug: multilynq-plans-pricing
-random_paper: 20
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Multilynq Rate Limits
@@ -158,7 +158,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,11 +65,11 @@ modified: '2026-07-18'
 name: Dazzle AI
 nav: Providers
 network: true
-overview: 'Dazzle AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Consumer, Pre-Launch, and Startup.
+overview: 'Dazzle AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Consumer, Pre-Launch, and Startups.
 
 
   Dazzle AI''s developer surface includes support and 4 more developer resources.'
-random_paper: 15
+random_paper: 17
 score:
   band: minimal
   composite: 10.2
@@ -92,7 +92,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -110,6 +110,6 @@ tags:
 - Artificial Intelligence
 - Consumer
 - Pre-Launch
-- Startup
+- Startups
 website: https://dazzle.ai
 ---

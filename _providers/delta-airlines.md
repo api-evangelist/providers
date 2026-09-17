@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Delta API Suite is a partner-facing collection of APIs covering flight search, flight offers and order management, customer journey events, and operational data. Access is restricted to approved p
@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: Delta Air Lines, Inc – Digital Transformation Strategies
   url: https://www.globaldata.com/store/report/delta-air-lines-enterprise-tech-analysis/
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Delta Airlines Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

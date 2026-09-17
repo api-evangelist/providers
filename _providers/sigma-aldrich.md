@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ modified: '2026-05-19'
 name: Sigma-Aldrich
 nav: Providers
 network: true
-overview: 'Sigma-Aldrich publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Pricing and Availability API, Products API, Safety Data Sheets API, and 1 more. Tagged areas include Life Science, Chemistry, Biochemistry, Laboratory, and Research.
+overview: 'Sigma-Aldrich publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Pricing and Availability API, Products API, Safety Data Sheets API, and 1 more. Tagged areas include Life Sciences, Chemistry, Biochemistry, Laboratory, and Research.
 
 
   The Sigma-Aldrich catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -187,7 +187,7 @@ press:
 - date: '2026-05-25'
   title: Sigma-Aldrich® and The Scripps Research Institute ...
   url: https://www.fiercebiotech.com/research/sigma-aldrich%C2%AE-and-scripps-research-institute-partner-to-accelerate-commercialization-of
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Sigma Aldrich Rate Limits
@@ -247,7 +247,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -265,7 +265,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: sigma-aldrich
 tags:
-- Life Science
+- Life Sciences
 - Chemistry
 - Biochemistry
 - Laboratory

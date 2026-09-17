@@ -35,89 +35,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
-api_count: 21
+  scored_at: '2026-09-16'
+api_count: 20
 apis:
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: 'Session and token issuance for the TVU public HTTP API — obtain a SID (session ID) used as an HTTP request header, alongside the Authorization: Bearer AppSecret and AccessKey signature schemes documen'
-  name: TVU Networks Authentication
-  slug: authentication
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: TVU Channel FAST playout — channel definition, scheduling and playout control for 24/7 linear and FAST channel distribution. Contract assembled from the 14 per-endpoint OpenAPI 3.0.1 exports TVU publi
-  name: TVU Networks Channel API
-  slug: channel-api
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: 'TVU Remote Commentator — event, session and audio-mix control for remote commentary contribution into a live production. Contract assembled from the 8 per-endpoint OpenAPI 3.0.1 exports TVU publishes '
-  name: TVU Networks Commentator API
-  slug: commentator-api
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: Media export and thumbnail job submission — submit an export or thumbnail job with an optional idempotency uuid and callbackUrl webhook, then poll or receive the completed asset. Contract assembled fr
-  name: TVU Networks Export
-  slug: export
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: TVU Grid device and transmission control — device listing and status, pairing tokens, grid metadata, geolocation of paired transmitters, live start/stop and real-time live parameters. Contract assembl
-  name: TVU Networks Grid API
-  slug: grid-api
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: Input and output module management — encoder profiles, input modules, output modules and preview decoders for TVU transmission endpoints. Contract assembled from the 23 per-endpoint OpenAPI 3.0.1 expo
-  name: TVU Networks Input & Output Module API
-  slug: input-output-module-api
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: Media information lookup — metadata and technical detail for a media asset held in the TVU platform. Contract assembled from the 2 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API docum
-  name: TVU Networks Media Info
-  slug: media-info
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: Media service endpoints backing TVU Producer — tvucc-media and tvucc-share output settings, share video start/stop, go-live and account information. Contract assembled from the 11 per-endpoint OpenAPI
-  name: TVU Networks Media Service For Producer
-  slug: media-service-for-producer
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: TVU MediaHub cloud routing — create and manage source objects, outputs, encoding profiles, destinations, projects and routes, and connect or disconnect live signal paths between any input and any outp
-  name: TVU Networks MediaHub API
-  slug: mediahub-api
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: TVU MediaMind story creation — create and manage stories that assemble media, transcripts and metadata for newsroom production. Contract assembled from the 1 per-endpoint OpenAPI 3.0.1 exports TVU pub
-  name: TVU Networks MediaMind Story Creation
-  slug: mediamind-story-creation
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: MOS (Media Object Server) gateway — newsroom computer system integration for TVU Channel and playout. Contract assembled from the 3 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API docu
-  name: TVU Networks MOS Gateway API
-  slug: mos-gateway-api
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: TVU object and tangible model — the REST and GraphQL surface over TVU objects, tangibles, relationships and tags that gives every TVU resource (pack, receiver, grid, SDI port, shared memory) an addres
-  name: TVU Networks Object API
-  slug: object-api
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: TVU Partyline remote collaboration and cloud conferencing — party creation and membership, participant state, audio mixing and picture-in-picture control for live guest workflows. Contract assembled f
-  name: TVU Networks Partyline API
-  slug: partyline-api
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: TVU Producer cloud production switcher — programs, input sources, overlays, clip player and playlists, collaborators, followers and Producer AI, exposed through the graphql2rest operation set. Contrac
-  name: TVU Networks Producer API
-  slug: producer-api
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: Publicly reachable TVU endpoints that require no session — health, version and no-login status lookups. Contract assembled from the 4 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API do
-  name: TVU Networks Public Endpoints
-  slug: public
-- baseURL: https://api.tvunetworks.com
-  baseurl_source: declared
-  description: SCTE-35 ad-marker insertion — enable SCTE on a channel and inject manual SCTE cues into a live playout stream. Contract assembled from the 2 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own
-  name: TVU Networks ScteService API
-  slug: scteservice-api
 - baseURL: https://api.tvunetworks.com
   baseurl_source: declared
   description: TVU Search / MediaMind media search and metadata — cross-type media content search, slug and recording management, speech transcription and face-recognition metadata, export and thumbnail jobs, and we
@@ -125,30 +45,450 @@ apis:
   slug: search-api
 - baseURL: https://api.tvunetworks.com
   baseurl_source: declared
-  description: TVU shortcut operations — saved one-touch actions that trigger a composed TVU workflow. Contract assembled from the 5 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API documentation site
-  name: TVU Networks Shortcut API
-  slug: shortcut-api
+  description: The Channel API API from TVU Networks — 8 operation(s) for channel api.
+  name: TVU Networks Channel API
+  slug: tvu-networks-channel-api-api
 - baseURL: https://api.tvunetworks.com
   baseurl_source: declared
-  description: Ungrouped TVU public API endpoints — object service CRUD, resource estimation and metadata, dashboards proxy, and slug recording operations that TVU publishes outside a named folder in its API documen
-  name: TVU Networks Ungrouped Endpoints
-  slug: uncategorized
+  description: The Channel API/clone API from TVU Networks — 2 operation(s) for channel api/clone.
+  name: TVU Networks Channel API/clone API
+  slug: tvu-networks-channel-api-clone-api
 - baseURL: https://api.tvunetworks.com
   baseurl_source: declared
-  description: TVU usage reporting — device usage information for billing and utilisation reporting. Contract assembled from the 1 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API documentation site.
+  description: The Channel API/Event API from TVU Networks — 2 operation(s) for channel api/event.
+  name: TVU Networks Channel API/Event API
+  slug: tvu-networks-channel-api-event-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Channel API/scheduleMapping API from TVU Networks — 1 operation(s) for channel api/schedulemapping.
+  name: TVU Networks Channel API/scheduleMapping API
+  slug: tvu-networks-channel-api-schedulemapping-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Channel API/SCTE API from TVU Networks — 1 operation(s) for channel api/scte.
+  name: TVU Networks Channel API/SCTE API
+  slug: tvu-networks-channel-api-scte-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Commentator API/event API from TVU Networks — 8 operation(s) for commentator api/event.
+  name: TVU Networks Commentator API/event API
+  slug: tvu-networks-commentator-api-event-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Dashboards API from TVU Networks — 1 operation(s) for dashboards.
+  name: TVU Networks Dashboards API
+  slug: tvu-networks-dashboards-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Export API from TVU Networks — 6 operation(s) for export.
+  name: TVU Networks Export API
+  slug: tvu-networks-export-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Grid API API from TVU Networks — 28 operation(s) for grid api.
+  name: TVU Networks Grid API
+  slug: tvu-networks-grid-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Input&Output Module API/Authentication API API from TVU Networks — 1 operation(s) for input&output module api/authentication api.
+  name: TVU Networks Input&Output Module API/Authentication API
+  slug: tvu-networks-input-output-module-api-authentication-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Input&Output Module API/encoder-profile-api API from TVU Networks — 6 operation(s) for input&output module api/encoder-profile-api.
+  name: TVU Networks Input&Output Module API/encoder-profile-api API
+  slug: tvu-networks-input-output-module-api-encoder-profile-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Input&Output Module API/input-module-api API from TVU Networks — 3 operation(s) for input&output module api/input-module-api.
+  name: TVU Networks Input&Output Module API/input-module-api API
+  slug: tvu-networks-input-output-module-api-input-module-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Input&Output Module API/output-module-api API from TVU Networks — 3 operation(s) for input&output module api/output-module-api.
+  name: TVU Networks Input&Output Module API/output-module-api API
+  slug: tvu-networks-input-output-module-api-output-module-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Maintain API from TVU Networks — 1 operation(s) for maintain.
+  name: TVU Networks Maintain API
+  slug: tvu-networks-maintain-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Media Info API from TVU Networks — 2 operation(s) for media info.
+  name: TVU Networks Media Info API
+  slug: tvu-networks-media-info-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Media Service For Producer/tvucc-media API from TVU Networks — 3 operation(s) for media service for producer/tvucc-media.
+  name: TVU Networks Media Service For Producer/tvucc-media API
+  slug: tvu-networks-media-service-for-producer-tvucc-media-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Media Service For Producer/tvucc-media/output Setting API from TVU Networks — 4 operation(s) for media service for producer/tvucc-media/output setting.
+  name: TVU Networks Media Service For Producer/tvucc-media/output Setting API
+  slug: tvu-networks-media-service-for-producer-tvucc-media-output-setting-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Media Service For Producer/tvucc-share/output API from TVU Networks — 2 operation(s) for media service for producer/tvucc-share/output.
+  name: TVU Networks Media Service For Producer/tvucc-share/output API
+  slug: tvu-networks-media-service-for-producer-tvucc-share-output-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Media Service For Producer/tvucc-share/share Video API from TVU Networks — 2 operation(s) for media service for producer/tvucc-share/share video.
+  name: TVU Networks Media Service For Producer/tvucc-share/share Video API
+  slug: tvu-networks-media-service-for-producer-tvucc-share-share-video-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaHub API/destination-api API from TVU Networks — 3 operation(s) for mediahub api/destination-api.
+  name: TVU Networks MediaHub API/destination-api API
+  slug: tvu-networks-mediahub-api-destination-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaHub API/encoder-profile-api API from TVU Networks — 3 operation(s) for mediahub api/encoder-profile-api.
+  name: TVU Networks MediaHub API/encoder-profile-api API
+  slug: tvu-networks-mediahub-api-encoder-profile-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaHub API/output-encoder-api API from TVU Networks — 4 operation(s) for mediahub api/output-encoder-api.
+  name: TVU Networks MediaHub API/output-encoder-api API
+  slug: tvu-networks-mediahub-api-output-encoder-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaHub API/preview-decoder-api API from TVU Networks — 2 operation(s) for mediahub api/preview-decoder-api.
+  name: TVU Networks MediaHub API/preview-decoder-api API
+  slug: tvu-networks-mediahub-api-preview-decoder-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaHub API/project-api API from TVU Networks — 6 operation(s) for mediahub api/project-api.
+  name: TVU Networks MediaHub API/project-api API
+  slug: tvu-networks-mediahub-api-project-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaHub API/RouteApi API from TVU Networks — 3 operation(s) for mediahub api/routeapi.
+  name: TVU Networks MediaHub API/RouteApi API
+  slug: tvu-networks-mediahub-api-routeapi-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaHub API/setting-api API from TVU Networks — 2 operation(s) for mediahub api/setting-api.
+  name: TVU Networks MediaHub API/setting-api API
+  slug: tvu-networks-mediahub-api-setting-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaHub API/source-object-api API from TVU Networks — 4 operation(s) for mediahub api/source-object-api.
+  name: TVU Networks MediaHub API/source-object-api API
+  slug: tvu-networks-mediahub-api-source-object-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaHub API/switcher-api API from TVU Networks — 1 operation(s) for mediahub api/switcher-api.
+  name: TVU Networks MediaHub API/switcher-api API
+  slug: tvu-networks-mediahub-api-switcher-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MediaMind Story Creation API from TVU Networks — 1 operation(s) for mediamind story creation.
+  name: TVU Networks MediaMind Story Creation API
+  slug: tvu-networks-mediamind-story-creation-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MOS Gateway API API from TVU Networks — 1 operation(s) for mos gateway api.
+  name: TVU Networks MOS Gateway API
+  slug: tvu-networks-mos-gateway-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The MOS Gateway API/Channel for MOS API from TVU Networks — 2 operation(s) for mos gateway api/channel for mos.
+  name: TVU Networks MOS Gateway API/Channel for MOS API
+  slug: tvu-networks-mos-gateway-api-channel-for-mos-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Object API/GraphQL/object API from TVU Networks — 1 operation(s) for object api/graphql/object.
+  name: TVU Networks Object API/GraphQL/object API
+  slug: tvu-networks-object-api-graphql-object-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Object API/RESTful API from TVU Networks — 6 operation(s) for object api/restful.
+  name: TVU Networks Object API/RESTful API
+  slug: tvu-networks-object-api-restful-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Object API/RESTful/res.tvu.ai API from TVU Networks — 3 operation(s) for object api/restful/res.tvu.ai.
+  name: TVU Networks Object API/RESTful/res.tvu.ai API
+  slug: tvu-networks-object-api-restful-res-tvu-ai-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Partyline API/party API from TVU Networks — 24 operation(s) for partyline api/party.
+  name: TVU Networks Partyline API/party API
+  slug: tvu-networks-partyline-api-party-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Producer API/Audio Mixer API from TVU Networks — 1 operation(s) for producer api/audio mixer.
+  name: TVU Networks Producer API/Audio Mixer API
+  slug: tvu-networks-producer-api-audio-mixer-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Producer API/Clip Player API from TVU Networks — 10 operation(s) for producer api/clip player.
+  name: TVU Networks Producer API/Clip Player API
+  slug: tvu-networks-producer-api-clip-player-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Producer API/Collaborator API from TVU Networks — 3 operation(s) for producer api/collaborator.
+  name: TVU Networks Producer API/Collaborator API
+  slug: tvu-networks-producer-api-collaborator-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Producer API/Followers API from TVU Networks — 3 operation(s) for producer api/followers.
+  name: TVU Networks Producer API/Followers API
+  slug: tvu-networks-producer-api-followers-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Producer API/Input Source API from TVU Networks — 11 operation(s) for producer api/input source.
+  name: TVU Networks Producer API/Input Source API
+  slug: tvu-networks-producer-api-input-source-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Producer API/Overlay API from TVU Networks — 16 operation(s) for producer api/overlay.
+  name: TVU Networks Producer API/Overlay API
+  slug: tvu-networks-producer-api-overlay-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Producer API/Playlist for Clip Player API from TVU Networks — 7 operation(s) for producer api/playlist for clip player.
+  name: TVU Networks Producer API/Playlist for Clip Player API
+  slug: tvu-networks-producer-api-playlist-for-clip-player-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Producer API/Producer AI API from TVU Networks — 4 operation(s) for producer api/producer ai.
+  name: TVU Networks Producer API/Producer AI API
+  slug: tvu-networks-producer-api-producer-ai-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Producer API/Programs API from TVU Networks — 7 operation(s) for producer api/programs.
+  name: TVU Networks Producer API/Programs API
+  slug: tvu-networks-producer-api-programs-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The public API from TVU Networks — 4 operation(s) for public.
+  name: TVU Networks Public API
+  slug: tvu-networks-public-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Resource API from TVU Networks — 3 operation(s) for resource.
+  name: TVU Networks Resource API
+  slug: tvu-networks-resource-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Route Object API from TVU Networks — 11 operation(s) for route object.
+  name: TVU Networks Route Object API
+  slug: tvu-networks-route-object-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The ScteService API API from TVU Networks — 2 operation(s) for scteservice api.
+  name: TVU Networks ScteService API
+  slug: tvu-networks-scteservice-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/event API from TVU Networks — 7 operation(s) for search api/event.
+  name: TVU Networks Search API/event API
+  slug: tvu-networks-search-api-event-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/extract API from TVU Networks — 5 operation(s) for search api/extract.
+  name: TVU Networks Search API/extract API
+  slug: tvu-networks-search-api-extract-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/public API from TVU Networks — 1 operation(s) for search api/public.
+  name: TVU Networks Search API/public API
+  slug: tvu-networks-search-api-public-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search API from TVU Networks — 28 operation(s) for search api/search.
+  name: TVU Networks Search API/search API
+  slug: tvu-networks-search-api-search-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/apiv2 API from TVU Networks — 1 operation(s) for search api/search/apiv2.
+  name: TVU Networks Search API/search/apiv2 API
+  slug: tvu-networks-search-api-search-apiv2-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/appearance API from TVU Networks — 2 operation(s) for search api/search/appearance.
+  name: TVU Networks Search API/search/appearance API
+  slug: tvu-networks-search-api-search-appearance-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/caption API from TVU Networks — 2 operation(s) for search api/search/caption.
+  name: TVU Networks Search API/search/caption API
+  slug: tvu-networks-search-api-search-caption-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/doc API from TVU Networks — 1 operation(s) for search api/search/doc.
+  name: TVU Networks Search API/search/doc API
+  slug: tvu-networks-search-api-search-doc-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/health API from TVU Networks — 1 operation(s) for search api/search/health.
+  name: TVU Networks Search API/search/health API
+  slug: tvu-networks-search-api-search-health-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/object API from TVU Networks — 8 operation(s) for search api/search/object.
+  name: TVU Networks Search API/search/object API
+  slug: tvu-networks-search-api-search-object-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/person API from TVU Networks — 2 operation(s) for search api/search/person.
+  name: TVU Networks Search API/search/person API
+  slug: tvu-networks-search-api-search-person-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/query API from TVU Networks — 3 operation(s) for search api/search/query.
+  name: TVU Networks Search API/search/query API
+  slug: tvu-networks-search-api-search-query-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/recording API from TVU Networks — 2 operation(s) for search api/search/recording.
+  name: TVU Networks Search API/search/recording API
+  slug: tvu-networks-search-api-search-recording-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/scene API from TVU Networks — 1 operation(s) for search api/search/scene.
+  name: TVU Networks Search API/search/scene API
+  slug: tvu-networks-search-api-search-scene-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/session API from TVU Networks — 1 operation(s) for search api/search/session.
+  name: TVU Networks Search API/search/session API
+  slug: tvu-networks-search-api-search-session-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/slug API from TVU Networks — 1 operation(s) for search api/search/slug.
+  name: TVU Networks Search API/search/slug API
+  slug: tvu-networks-search-api-search-slug-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The Search API/search/srt API from TVU Networks — 1 operation(s) for search api/search/srt.
+  name: TVU Networks Search API/search/srt API
+  slug: tvu-networks-search-api-search-srt-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The shortcut API API from TVU Networks — 5 operation(s) for shortcut api.
+  name: TVU Networks shortcut API
+  slug: tvu-networks-shortcut-api-api
+- baseURL: https://api.tvunetworks.com
+  baseurl_source: declared
+  description: The UsageService API API from TVU Networks — 1 operation(s) for usageservice api.
   name: TVU Networks UsageService API
-  slug: usageservice-api
+  slug: tvu-networks-usageservice-api-api
 - baseURL: https://api.tvunetworks.com
   baseurl_source: declared
-  description: TVU workflow orchestration — define and run automated media workflows across the TVU ecosystem. Contract assembled from the 5 per-endpoint OpenAPI 3.0.1 exports TVU publishes on its own API documentat
+  description: The Workflow API API from TVU Networks — 2 operation(s) for workflow api.
   name: TVU Networks Workflow API
-  slug: workflow-api
-artifact_total: 26
+  slug: tvu-networks-workflow-api-api
+artifact_total: 74
 asyncapis:
 - description: ''
   name: Tvu Networks Webhooks
   slug: tvu-networks-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-authentication-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-authentication-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-channel-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-channel-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-commentator-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-commentator-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-export-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-export-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-grid-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-grid-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-input-and-output-module-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-input-and-output-module-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-media-info-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-media-info-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-media-service-for-producer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-media-service-for-producer-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-mediahub-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-mediahub-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-mediamind-story-creation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-mediamind-story-creation-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-mos-gateway-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-mos-gateway-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-object-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-object-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-partyline-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-partyline-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-producer-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-producer-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-public-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-public-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-scteservice-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-scteservice-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-shortcut-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-shortcut-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-uncategorized-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-uncategorized-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-usageservice-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-usageservice-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/overlays/tvu-networks-workflow-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tvu-networks-workflow-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tvu-networks/refs/heads/main/security/tvu-networks-domain-security.yml
   title: ''
@@ -270,39 +610,39 @@ modified: '2026-09-01'
 name: TVU Networks
 nav: Providers
 network: true
-overview: 'TVU Networks publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Authentication, Channel API, Commentator API, and 18 more. Tagged areas include Company, Media, Video, Broadcast, and Live Streaming.
+overview: 'TVU Networks publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Search API, Channel API, Channel API/clone API, and 66 more. Tagged areas include Company, Media, Video, Broadcast, and Live Streaming.
 
 
   The TVU Networks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TVU Networks'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
+  TVU Networks'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 38 more developer resources.'
 plans:
 - name: Tvu Networks Plans Pricing
   plan_count: 0
   slug: tvu-networks-plans-pricing
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Tvu Networks Rate Limits
   slug: tvu-networks-rate-limits
 score:
   band: developing
-  composite: 44.5
+  composite: 44.2
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 60.5
+    contract_quality: 61.7
     developer_ergonomics: 44.6
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -316,11 +656,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 69
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

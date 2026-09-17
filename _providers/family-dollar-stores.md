@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -150,7 +150,7 @@ press:
 - date: '2026-05-25'
   title: Why is Dollar Tree sign removed from Family Dollar?
   url: https://www.facebook.com/groups/615443083940178/posts/1194301942720953/
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Family Dollar Stores Rate Limits
@@ -182,7 +182,7 @@ score:
     - north-america
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

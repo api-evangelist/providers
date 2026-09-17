@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -45,9 +45,9 @@ api_count: 1
 apis:
 - baseURL: https://management.azure.com
   baseurl_source: declared
-  description: The WebApps API from Azure Function Apps — 30 operation(s) for webapps.
-  name: Azure Function Apps WebApps API
-  slug: azure-function-apps-webapps-api
+  description: The Web Apps API from Azure Function Apps — 30 operation(s) for web apps.
+  name: Azure Function Apps Web Apps API
+  slug: azure-function-apps-web-apps-api
 artifact_total: 72
 collections:
 - collection_type: open
@@ -319,7 +319,7 @@ modified: '2026-05-19'
 name: Azure Function Apps
 nav: Providers
 network: true
-overview: 'Azure Function Apps publishes 1 API on the [APIs.io](https://apis.io/) network: WebApps API. Tagged areas include Azure, Compute, Function-as-a-Service, Functions, and Serverless.
+overview: 'Azure Function Apps publishes 1 API on the [APIs.io](https://apis.io/) network: Web Apps API. Tagged areas include Azure, Compute, Function-as-a-Service, Functions, and Serverless.
 
 
   The Azure Function Apps catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -330,7 +330,7 @@ plans:
 - name: Azure Function Apps Plans Pricing
   plan_count: 3
   slug: azure-function-apps-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Azure Function Apps Rate Limits
@@ -384,7 +384,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

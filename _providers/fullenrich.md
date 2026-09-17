@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,33 +47,28 @@ api_count: 1
 apis:
 - baseURL: https://app.fullenrich.com/api/v2
   baseurl_source: declared
-  description: Submit up to 100 contacts per request for asynchronous waterfall enrichment across 25+ data sources, then collect the most probable work email, personal email and mobile phone by webhook or by polling
-  name: FullEnrich Contact Enrichment API
-  slug: fullenrich-contact-enrichment-api
-- baseURL: https://app.fullenrich.com/api/v2
-  baseurl_source: declared
-  description: Resolve the person and company behind one or more email addresses in bulk, asynchronously, returning the full profile and employment history.
-  name: FullEnrich Reverse Email Lookup API
-  slug: fullenrich-reverse-email-lookup-api
-- baseURL: https://app.fullenrich.com/api/v2
-  baseurl_source: declared
-  description: Synchronously search 800M people and 50M companies with structured filters across role, seniority, function, industry, location, company size and more. Values within a field are OR'd; fields are AND'd
-  name: FullEnrich Search API
-  slug: fullenrich-search-api
-- baseURL: https://app.fullenrich.com/api/v2
-  baseurl_source: declared
-  description: Look up a single best-matching person or company from deterministic identifiers — professional network URL or ID, company domain, or full name plus a company identifier.
-  name: FullEnrich Lookup API
-  slug: fullenrich-lookup-api
-- baseURL: https://app.fullenrich.com/api/v2
-  baseurl_source: declared
   description: Check the workspace credit balance before spending, and validate that an API key is active. Both operations are free.
   name: FullEnrich Account API
   slug: fullenrich-account-api
 - description: First-party remote Model Context Protocol server exposing 13 tools for B2B contact and company search, waterfall enrichment, and CSV/JSON export. Streamable HTTP transport with browser OAuth against a
   name: FullEnrich MCP Server
   slug: fullenrich-mcp-server
-artifact_total: 22
+- baseURL: https://app.fullenrich.com/api/v2
+  baseurl_source: declared
+  description: The Company API from FullEnrich — 2 operation(s) for company.
+  name: FullEnrich Company API
+  slug: fullenrich-company-api
+- baseURL: https://app.fullenrich.com/api/v2
+  baseurl_source: declared
+  description: The Contact API from FullEnrich — 4 operation(s) for contact.
+  name: FullEnrich Contact API
+  slug: fullenrich-contact-api
+- baseURL: https://app.fullenrich.com/api/v2
+  baseurl_source: declared
+  description: The People API from FullEnrich — 2 operation(s) for people.
+  name: FullEnrich People API
+  slug: fullenrich-people-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Fullenrich Webhooks
@@ -95,6 +90,26 @@ collections:
   name: FullEnrich API
   slug: open-fullenrich
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/overlays/fullenrich-contact-enrichment-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fullenrich-contact-enrichment-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/overlays/fullenrich-reverse-email-lookup-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fullenrich-reverse-email-lookup-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/overlays/fullenrich-search-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fullenrich-search-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/overlays/fullenrich-lookup-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fullenrich-lookup-api-overlay.yaml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/_original/fullenrich-openapi.yml
   title: ''
@@ -279,6 +294,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://fullenrich.com/privacy-policy
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@fullenrich.com
 created: '2026-07-01'
 description: FullEnrich is a B2B contact enrichment platform that finds verified business emails, personal emails and mobile phone numbers by running a waterfall across 25+ data vendors, billing credits only when data is found and passes verification. Its v2 REST API covers four surfaces — asynchronous bulk contact enrichment, bulk reverse email lookup, and synchronous people/company search and lookup across 800M people and 50M companies. Alongside the REST API it operates a first-party remote MCP server with 13 tools, publishes nine MIT-licensed Agent Skills, serves an A2A agent card, and maintains a machine-readable pricing document written for AI agents to read.
 finops:
@@ -295,18 +314,18 @@ modified: '2026-08-14'
 name: FullEnrich
 nav: Providers
 network: true
-overview: 'FullEnrich publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contact Enrichment API, Reverse Email Lookup API, Search API, and 2 more. Tagged areas include B2B Data, Contact Enrichment, Email Finder, Phone Finder, and Waterfall Enrichment.
+overview: 'FullEnrich publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Company API, Contact API, and 1 more. Tagged areas include B2B Data, Contact Enrichment, Email Finder, Phone Finder, and Waterfall Enrichment.
 
 
   The FullEnrich catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  FullEnrich''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
+  FullEnrich''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 38 more developer resources.'
 plans:
 - name: Fullenrich Plans Pricing
   plan_count: 3
   slug: fullenrich-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Fullenrich Rate Limits
@@ -318,7 +337,7 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 59.9
+  composite: 59.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 64.0
@@ -326,11 +345,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 86.8
     contract_governance: 18.2
-    contract_quality: 67.1
+    contract_quality: 64.9
     developer_ergonomics: 44.0
     discoverability: 75.9
     operational_transparency: 60.5
@@ -342,11 +361,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 4
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

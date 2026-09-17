@@ -62,7 +62,7 @@ press:
 - date: '2026-05-25'
   title: Investors - Governance - Board of Directors
   url: https://www.albertsonscompanies.com/investors/governance/board-of-directors/default.aspx
-random_paper: 1
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/delta-tucker-holdings/refs/heads/main/screenshots/delta-tucker-holdings-2026-06-20T175904.png
 slug: delta-tucker-holdings
 tags:

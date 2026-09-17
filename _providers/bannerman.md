@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ name: bannerman
 nav: Providers
 network: true
 overview: bannerman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Physical Security, Security Guards, and Marketplace.
-random_paper: 1
+random_paper: 0
 score:
   band: minimal
   composite: 6.3
@@ -84,7 +84,7 @@ score:
     - north-america
   previous_composite: 6.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -104,6 +104,6 @@ tags:
 - Security Guards
 - Marketplace
 - Workforce Management
-- Field Services
+- Field Service
 website: https://bannerman.com
 ---

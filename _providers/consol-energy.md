@@ -33,39 +33,59 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
-api_count: 6
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
 - description: Machine-readable filing data for the post-merger company is published by the U.S. Securities and Exchange Commission, not by the company itself. CIK 0001710366 is the CONSOL Energy Inc. registrant, re
   name: SEC EDGAR Filings (Core Natural Resources, CIK 1710366)
   slug: sec-edgar-filings
 - baseURL: https://corenaturalresources.com/wp-json
   baseurl_source: declared
-  description: 'The "mine" custom post type on the company''s own WordPress host: profiles for 11 mines — Bailey, Enlow Fork, Harvey (the former CONSOL Pennsylvania Mining Complex), Beckley, Itmann, Mountain Laurel, L'
-  name: Core Natural Resources Mines Content API
-  slug: mines-content-api
-- baseURL: https://corenaturalresources.com/wp-json
-  baseurl_source: declared
-  description: 'The "leader" custom post type: 16 executive leadership and board-member profiles, with a leader-category taxonomy separating the board of directors from executive leadership. Served anonymously by the'
-  name: Core Natural Resources Leadership Content API
-  slug: leadership-content-api
-- baseURL: https://corenaturalresources.com/wp-json
-  baseurl_source: declared
-  description: 'The "article" custom post type: 40 news releases and corporate articles, grouped by the news-series-title taxonomy (9 terms), alongside the core WordPress post, category and tag types. This is the mac'
-  name: Core Natural Resources News Content API
-  slug: news-content-api
-- baseURL: https://corenaturalresources.com/wp-json
-  baseurl_source: declared
-  description: Corporate pages (22, including investors, suppliers, sustainability, careers and contact) and the 173-item media library, which is where the supplier terms and conditions, the Supplier Code of Conduct
-  name: Core Natural Resources Site Content API
-  slug: site-content-api
-- baseURL: https://corenaturalresources.com/wp-json
-  baseurl_source: declared
   description: 'Self-describing metadata for the host: registered content types and taxonomies, post statuses, cross-type search across all 89 published items, and oEmbed 1.0. This is the surface that makes the rest '
   name: Core Natural Resources Discovery API
   slug: discovery-api
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: Executive and board profiles (custom post type "leader") and the leader-category taxonomy.
+  name: CONSOL Energy Leadership API
+  slug: consol-energy-leadership-api
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: Mine profiles (custom post type "mine") and the mine-location taxonomy.
+  name: CONSOL Energy Mines API
+  slug: consol-energy-mines-api
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: News releases and articles (custom post type "article"), the news-series-title taxonomy, and the core post/category/tag types.
+  name: CONSOL Energy News API
+  slug: consol-energy-news-api
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: Corporate pages and the media library.
+  name: CONSOL Energy Site API
+  slug: consol-energy-site-api
 artifact_total: 12
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/overlays/consol-energy-mines-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/consol-energy-mines-content-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/overlays/consol-energy-leadership-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/consol-energy-leadership-content-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/overlays/consol-energy-news-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/consol-energy-news-content-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/overlays/consol-energy-site-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/consol-energy-site-content-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -186,10 +206,10 @@ modified: '2026-09-05'
 name: CONSOL Energy
 nav: Providers
 network: true
-overview: 'CONSOL Energy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core Natural Resources Mines Content API, Core Natural Resources Leadership Content API, Core Natural Resources News Content API, and 2 more. Tagged areas include Bituminous Coal, Coal Mining, Core Natural Resources, Energy, and Investor Relations.
+overview: 'CONSOL Energy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core Natural Resources Discovery API, Leadership API, Mines API, and 2 more. Tagged areas include Bituminous Coal, Coal Mining, Core Natural Resources, Energy, and Investor Relations.
 
 
-  CONSOL Energy''s developer surface includes authentication and 22 more developer resources.'
+  CONSOL Energy''s developer surface includes authentication and 26 more developer resources.'
 plans:
 - name: Consol Energy Plans Pricing
   plan_count: 0
@@ -210,7 +230,7 @@ press:
 - date: '2026-05-25'
   title: 'Earnings call: CONSOL Energy reported a net income of $58 ...'
   url: https://www.investing.com/news/stock-market-news/earnings-call-consol-energy-reported-a-net-income-of-58-million-93CH-3562829
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Consol Energy Rate Limits
@@ -255,7 +275,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

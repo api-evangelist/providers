@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ apis:
 - baseURL: https://api.artie.com
   baseurl_source: declared
   description: The Artie API API from Artie — 0 operation(s) for artie api.
-  name: Artie Artie API
+  name: Artie API
   slug: artie-artie-api-api
 artifact_total: 24
 asyncapis:
@@ -281,7 +281,7 @@ created: '2026-07-17'
 description: Artie is a real-time data replication platform that streams database changes to cloud data warehouses and lakehouses with sub-minute latency and exactly-once delivery. It captures change data (CDC) from sources such as PostgreSQL, MySQL, MongoDB, Oracle, and DynamoDB and continuously merges them into destinations including Snowflake, BigQuery, Databricks, Redshift, and Apache Iceberg, eliminating the need to build and operate Kafka or Debezium infrastructure. Artie handles advanced backfills, schema evolution, column-level encryption and hashing, data catalog search, PrivateLink/SSH connectivity, and observability, and exposes a REST API plus a webhook event stream so teams can programmatically manage pipelines, connectors, and source readers. Artie is venture-backed by Canaan Partners and General Catalyst.
 image: https://avatars.githubusercontent.com/artie-labs
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Artie
 nav: Providers
 network: true
@@ -292,10 +292,10 @@ overview: 'Artie publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Artie''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 8
+random_paper: 5
 score:
   band: developing
-  composite: 46.9
+  composite: 47.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -303,11 +303,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 46.1
     contract_governance: 4.5
-    contract_quality: 62.0
+    contract_quality: 64.4
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 26.3
@@ -323,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -346,7 +346,7 @@ tags:
 - Data Integration
 - ETL
 - Streaming
-- Databases
+- Database
 - Data Warehouse
 - Data Engineering
 website: https://www.artie.com

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://beta-api.fixture.app/api/v1
@@ -59,7 +59,7 @@ apis:
 - baseURL: https://beta-api.fixture.app/api/v1
   baseurl_source: declared
   description: The Fixture API API from Fixture — 1 operation(s) for fixture api.
-  name: Fixture Fixture API API
+  name: Fixture API
   slug: fixture-fixture-api-api
 - baseURL: https://beta-api.fixture.app/api/v1
   baseurl_source: declared
@@ -266,7 +266,7 @@ mcp_servers:
 - description: ''
   name: Fixture MCP
   slug: fixture-mcp
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Fixture
 nav: Providers
 network: true
@@ -274,7 +274,7 @@ overview: 'Fixture publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Fixture''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 22 more developer resources.'
-random_paper: 19
+random_paper: 5
 scopes:
 - name: Fixture Scopes
   scope_count: 0
@@ -309,7 +309,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

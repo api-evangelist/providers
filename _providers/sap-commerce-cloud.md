@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -101,11 +101,6 @@ apis:
   slug: sap-commerce-cloud-consents-api
 - baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
   baseurl_source: declared
-  description: CronJob management and execution
-  name: SAP Commerce Cloud CronJobs API
-  slug: sap-commerce-cloud-cronjobs-api
-- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
-  baseurl_source: declared
   description: Customer lookup and 360 view
   name: SAP Commerce Cloud Customers API
   slug: sap-commerce-cloud-customers-api
@@ -164,6 +159,11 @@ apis:
   description: User account management
   name: SAP Commerce Cloud Users API
   slug: sap-commerce-cloud-users-api
+- baseURL: https://{tenant}.{region}.commercecloud.sap/occ/v2
+  baseurl_source: declared
+  description: CronJob management and execution
+  name: SAP Commerce Cloud Cron Jobs API
+  slug: sap-commerce-cloud-cron-jobs-api
 artifact_total: 157
 collections:
 - collection_type: open
@@ -257,6 +257,10 @@ collections:
   name: SAP Commerce Cloud Admin Addresses Users API
   slug: open-sap-commerce-cloud-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sap.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/capabilities/sap-commerce-cloud-capability-edges.yml
   title: ''
@@ -688,7 +692,7 @@ jsonld:
   property_count: 14
   slug: sap-commerce-cloud-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: SAP Commerce Cloud
 nav: Providers
 network: true
@@ -698,12 +702,12 @@ overview: 'SAP Commerce Cloud publishes 24 APIs on the [APIs.io](https://apis.io
   The SAP Commerce Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP Commerce Cloud''s developer surface includes authentication, developer portal, getting-started guide, support, and 26 more developer resources.'
+  SAP Commerce Cloud''s developer surface includes authentication, developer portal, getting-started guide, support, and 27 more developer resources.'
 plans:
 - name: Sap Commerce Cloud Plans Pricing
   plan_count: 1
   slug: sap-commerce-cloud-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Sap Commerce Cloud Rate Limits
@@ -737,7 +741,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 42.4
+  composite: 42.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 59.5
@@ -745,11 +749,11 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 34.2
     contract_governance: 28.8
-    contract_quality: 64.1
+    contract_quality: 62.9
     developer_ergonomics: 21.4
     discoverability: 72.2
     operational_transparency: 23.7
@@ -762,7 +766,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -790,5 +794,5 @@ tags:
 - E-Commerce
 - Omnichannel
 - Retail
-website: https://api.sap.com/
+website: https://sap.com
 ---

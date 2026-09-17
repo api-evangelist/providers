@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Authenticated REST API for Palette's multimodal generation platform, accessed with API keys managed in the Studio profile. The base path /api/v1 is auth-gated (returns HTTP 401 without credentials). N
@@ -111,7 +111,7 @@ overview: 'Palette 2 publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Palette 2''s developer surface includes signup flow, authentication, and 11 more developer resources.'
-random_paper: 6
+random_paper: 10
 score:
   band: emerging
   composite: 20.1
@@ -132,7 +132,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

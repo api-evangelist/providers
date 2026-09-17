@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   description: The AI content API from Gleap — 9 operation(s) for ai content.
   name: Gleap AI content API
   slug: gleap-ai-content-api
-- baseURL: https://api.gleap.io
-  baseurl_source: declared
-  description: The AiModels API from Gleap — 1 operation(s) for aimodels.
-  name: Gleap AiModels API
-  slug: gleap-aimodels-api
 - baseURL: https://api.gleap.io
   baseurl_source: declared
   description: The Code API from Gleap — 1 operation(s) for code.
@@ -210,6 +205,11 @@ apis:
   description: The User API from Gleap — 11 operation(s) for user.
   name: Gleap User API
   slug: gleap-user-api
+- baseURL: https://api.gleap.io
+  baseurl_source: declared
+  description: The AI Models API from Gleap — 1 operation(s) for ai models.
+  name: Gleap AI Models API
+  slug: gleap-ai-models-api
 artifact_total: 106
 collections:
 - collection_type: open
@@ -494,7 +494,7 @@ modified: '2026-06-13'
 name: Gleap
 nav: Providers
 network: true
-overview: 'Gleap publishes 33 APIs on the [APIs.io](https://apis.io/) network, including AI content API, AiModels API, Code API, and 30 more. Tagged areas include Customer Feedback, Bug Reporting, In-App Support, Feature Requests, and Roadmaps.
+overview: 'Gleap publishes 33 APIs on the [APIs.io](https://apis.io/) network, including AI content API, Code API, ContactMemory API, and 30 more. Tagged areas include Customer Feedback, Bug Reporting, In-App Support, Feature Requests, and Roadmaps.
 
 
   The Gleap catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -505,7 +505,7 @@ plans:
 - name: Gleap Plans Pricing
   plan_count: 4
   slug: gleap-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Gleap Rate Limits
@@ -535,7 +535,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 61.6
+    contract_quality: 61.5
     developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 34.2
@@ -549,7 +549,7 @@ score:
       total: 33
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

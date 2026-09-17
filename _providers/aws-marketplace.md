@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -58,11 +58,6 @@ apis:
   slug: commerce-analytics-service
 - baseURL: https://catalog.marketplace.us-east-1.amazonaws.com
   baseurl_source: declared
-  description: The Change Sets API from AWS Marketplace — 4 operation(s) for change sets.
-  name: AWS Marketplace Change Sets API
-  slug: aws-marketplace-change-sets-api
-- baseURL: https://catalog.marketplace.us-east-1.amazonaws.com
-  baseurl_source: declared
   description: The Entities API from AWS Marketplace — 3 operation(s) for entities.
   name: AWS Marketplace Entities API
   slug: aws-marketplace-entities-api
@@ -76,6 +71,11 @@ apis:
   description: The Tags API from AWS Marketplace — 3 operation(s) for tags.
   name: AWS Marketplace Tags API
   slug: aws-marketplace-tags-api
+- baseURL: https://catalog.marketplace.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Changesets API from AWS Marketplace — 4 operation(s) for changesets.
+  name: AWS Marketplace Changesets API
+  slug: aws-marketplace-changesets-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -167,11 +167,11 @@ modified: '2026-05-11'
 name: AWS Marketplace
 nav: Providers
 network: true
-overview: 'AWS Marketplace publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Change Sets API, Entities API, Resource Policies API, and 1 more. Tagged areas include Cloud Marketplace, Procurement, Software-as-a-Service, Software Distribution, and Catalog.
+overview: 'AWS Marketplace publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Resource Policies API, Tags API, and 1 more. Tagged areas include Cloud Marketplace, Procurement, Software-as-a-Service, Software Distribution, and Catalog.
 
 
   AWS Marketplace''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 4
+random_paper: 19
 score:
   band: thin
   composite: 29.9
@@ -199,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

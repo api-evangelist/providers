@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -134,11 +134,11 @@ modified: '2026-05-25'
 name: Audi Connect / myAudi
 nav: Providers
 network: true
-overview: 'Audi Connect / myAudi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Vehicle, Connected Car, Telematics, and Mobility.
+overview: 'Audi Connect / myAudi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Vehicles, Connected Car, Telematics, and Mobility.
 
 
   Audi Connect / myAudi''s developer surface includes privacy policy, terms of service, GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 13
+random_paper: 0
 score:
   band: minimal
   composite: 6.9
@@ -173,7 +173,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -188,7 +188,7 @@ security:
 slug: audi-connect
 tags:
 - Automotive
-- Connected Vehicle
+- Connected Vehicles
 - Connected Car
 - Telematics
 - Mobility
@@ -196,7 +196,7 @@ tags:
 - Emergency Call
 - eCall
 - Infotainment
-- Electric Vehicle
+- Electric Vehicles
 - EV Charging
 - Geofencing
 - Stolen Vehicle Recovery

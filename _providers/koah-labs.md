@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Beta REST API for Koah publisher team accounts. Resource-oriented URLs, JSON responses, standard HTTP verbs and status codes, Bearer token authentication. Covers publisher CRUD and daily reporting for
@@ -202,7 +202,7 @@ plans:
 - name: Koah Labs Plans Pricing
   plan_count: 0
   slug: koah-labs-plans-pricing
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Koah Labs Rate Limits
@@ -231,7 +231,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

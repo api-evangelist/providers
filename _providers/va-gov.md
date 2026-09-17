@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -18,7 +18,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-09-15'
+  score: 30.2
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -88,11 +88,6 @@ apis:
   description: Allows authenticated and authorized users to access claims data for a single claim by ID, or for all claims based on claimant data. No data is returned if the user is not authenticated and authorized.
   name: VA Lighthouse Claims API
   slug: va-gov-claims-api
-- baseURL: https://api.va.gov/services/va_facilities/v1
-  baseurl_source: declared
-  description: The DirectDeposit API from VA Lighthouse — 1 operation(s) for directdeposit.
-  name: VA Lighthouse DirectDeposit API
-  slug: va-gov-directdeposit-api
 - baseURL: https://api.va.gov/services/va_facilities/v1
   baseurl_source: declared
   description: Used for 526 claims.
@@ -200,15 +195,15 @@ apis:
   slug: va-gov-uploads-api
 - baseURL: https://api.va.gov/services/va_facilities/v1
   baseurl_source: declared
-  description: Veteran Confirmation - Veteran Status
-  name: VA Lighthouse veteran_confirmation_status API
-  slug: va-gov-veteran-confirmation-status-api
-- baseURL: https://api.va.gov/services/va_facilities/v1
-  baseurl_source: declared
   description: The Veteran Verification API from VA Lighthouse — 3 operation(s) for veteran verification.
   name: VA Lighthouse Veteran Verification API
   slug: va-gov-veteran-verification-api
-artifact_total: 115
+- baseURL: https://api.va.gov/services/appeals/v2
+  baseurl_source: declared
+  description: The Direct Deposit API from VA Lighthouse — 1 operation(s) for direct deposit.
+  name: VA Lighthouse Direct Deposit API
+  slug: va-gov-direct-deposit-api
+artifact_total: 114
 collections:
 - collection_type: open
   name: API Collection
@@ -580,14 +575,14 @@ modified: '2026-05-25'
 name: VA Lighthouse
 nav: Providers
 network: true
-overview: 'VA Lighthouse publishes 30 APIs on the [APIs.io](https://apis.io/) network, including 5103 Waiver API, ACA Coverage API, AddressValidation-v3 API, and 27 more. Tagged areas include Government, Veterans Affairs, Veterans, Healthcare, and Benefits.
+overview: 'VA Lighthouse publishes 29 APIs on the [APIs.io](https://apis.io/) network, including 5103 Waiver API, ACA Coverage API, AddressValidation-v3 API, and 26 more. Tagged areas include Government, Veterans Affairs, Veterans, Healthcare, and Benefits.
 
 
   The VA Lighthouse catalog on APIs.io includes 1 JSON-LD context.
 
 
   VA Lighthouse''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, support, engineering blog, and 35 more developer resources.'
-random_paper: 4
+random_paper: 20
 scopes:
 - name: Va Gov Scopes
   scope_count: 35
@@ -595,21 +590,21 @@ scopes:
   summary_line: 35 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 43.1
+  composite: 45.4
   coverage:
     artifact_dirs: 9
-    catalog_earned: 35.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 64.9
+    contract_quality: 66.7
     developer_ergonomics: 31.0
-    discoverability: 50.0
+    discoverability: 68.5
     operational_transparency: 18.4
   previous_composite: 43.1
   provenance:
@@ -618,7 +613,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 30
+      total: 29
   regulatory:
     applies: true
     matched_via: tags
@@ -626,7 +621,7 @@ score:
     regime_id: government
     score: 68.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

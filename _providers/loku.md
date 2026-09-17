@@ -24,7 +24,7 @@ name: Loku
 nav: Providers
 network: true
 overview: Loku is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Local, Recommendations, and Acquired.
-random_paper: 2
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/loku/refs/heads/main/screenshots/loku-2026-07-25T225505.png
 slug: loku
 tags:

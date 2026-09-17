@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -73,7 +73,7 @@ apis:
 - baseURL: https://cm.lfx.dev/api/v1
   baseurl_source: declared
   description: API endpoints for managing project affiliations, including listing and bulk updating affiliation relationships within a profile.
-  name: Crowd.dev Member Affiliations API API
+  name: Crowd.dev Member Affiliations API
   slug: crowddev-member-affiliations-api-api
 - baseURL: https://cm.lfx.dev/api/v1
   baseurl_source: declared
@@ -83,7 +83,7 @@ apis:
 - baseURL: https://cm.lfx.dev/api/v1
   baseurl_source: declared
   description: API endpoints for managing work history organizations, including creating, reading, updating, and deleting organization relationships for profiles.
-  name: Crowd.dev Member Organizations API API
+  name: Crowd.dev Member Organizations API
   slug: crowddev-member-organizations-api-api
 - baseURL: https://cm.lfx.dev/api/v1
   baseurl_source: declared
@@ -345,7 +345,7 @@ created: '2026-07-17'
 description: Crowd.dev is an open-source developer data platform that centralizes community, product, and commercial data to unify contributor identities, resolve who is engaging with an open-source project, and activate that data for developer relations and community-led growth. Founded in Berlin and backed by Seedcamp, crowd.dev was acquired by the Linux Foundation in April 2024 and now powers the LFX Community Data Platform (CDP). The codebase is Apache-2.0 open source at github.com/CrowdDotDev (now linuxfoundation/crowd.dev), and the CDP Public API exposes transactional REST endpoints for member and organization profiles, identity verification, work-experience and project-affiliation management, contributor affiliation lookups, and open-source package/stewardship intelligence.
 image: https://avatars.githubusercontent.com/u/85551972?v=4
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Crowd.dev
 nav: Providers
 network: true
@@ -357,7 +357,7 @@ plans:
 - name: Crowddev Plans Pricing
   plan_count: 1
   slug: crowddev-plans-pricing
-random_paper: 1
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Crowddev Rate Limits
@@ -369,7 +369,7 @@ scopes:
   summary_line: 17 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.1
+  composite: 53.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 60.0
@@ -377,11 +377,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 57.6
+    contract_quality: 57.9
     developer_ergonomics: 70.8
     discoverability: 81.5
     operational_transparency: 50.0
@@ -397,7 +397,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

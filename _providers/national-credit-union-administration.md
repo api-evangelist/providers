@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The NCUA publishes downloadable Call Report data, Financial Performance Reports, and a Research a Credit Union tool. There is no documented public REST API at this time; data is available as downloada
@@ -83,7 +83,7 @@ modified: '2026-04-28'
 name: National Credit Union Administration
 nav: Providers
 network: true
-overview: 'National Credit Union Administration publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Unions, Federal-Government, Finance, and Banking.
+overview: 'National Credit Union Administration publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Credit Union, Federal-Government, Finance, and Banking.
 
 
   National Credit Union Administration''s developer surface includes developer portal and 6 more developer resources.'
@@ -91,7 +91,7 @@ plans:
 - name: National Credit Union Administration Plans Pricing
   plan_count: 3
   slug: national-credit-union-administration-plans-pricing
-random_paper: 12
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: National Credit Union Administration Rate Limits
@@ -122,7 +122,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -140,7 +140,7 @@ security:
   summary_line: Bugcrowd
 slug: national-credit-union-administration
 tags:
-- Credit Unions
+- Credit Union
 - Federal-Government
 - Finance
 - Banking

@@ -45,7 +45,7 @@ overview: 'Jumbo Privacy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Jumbo Privacy''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 5
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumboprivacy/refs/heads/main/screenshots/jumboprivacy-2026-07-25T223312.png
 security:
 - kind: domain-security

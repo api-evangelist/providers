@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: REST APIs for the Nexus digital reality platform enabling manufacturers to build connected workflows integrating metrology, quality inspection, and production monitoring data. All endpoints are authen
@@ -233,7 +233,7 @@ plans:
 - name: Hexagon Plans Pricing
   plan_count: 3
   slug: hexagon-plans-pricing
-random_paper: 11
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Hexagon Rate Limits
@@ -267,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,31 +35,16 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 59.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 8
-  human_in_the_loop: 0
+- acting_count: 132
+  human_in_the_loop: 1
   name: Nylas Agentic Access
-  operation_count: 22
+  operation_count: 210
   slug: nylas-agentic-access
-  summary_line: 22 operations · 8 acting
+  summary_line: 210 operations · 132 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://api.us.nylas.com
-  baseurl_source: declared
-  description: 'Application-level administration: Nylas applications, API keys, custom domains, connectors and connector credentials, workspaces, and the rules, policies and lists that govern them.'
-  name: Nylas Admin API
-  slug: nylas-admin-api
-- baseURL: https://api.us.nylas.com
-  baseurl_source: declared
-  description: Authentication. Hosted OAuth 2.1 authorization and token exchange, custom (non-OAuth) grant creation for Agent Accounts, token refresh and revocation, and ID token validation.
-  name: Nylas Auth API
-  slug: nylas-auth-api
-- baseURL: https://api.us.nylas.com
-  baseurl_source: declared
-  description: Calendars. List and manage a grant's calendars, query free/busy availability across participants, and read room and resource calendars.
-  name: Nylas Calendars API
-  slug: nylas-calendars-api
 - baseURL: https://api.us.nylas.com
   baseurl_source: declared
   description: Contacts. Read, create, update and delete a grant's contacts and contact groups.
@@ -77,19 +62,9 @@ apis:
   slug: nylas-events-api
 - baseURL: https://api.us.nylas.com
   baseurl_source: declared
-  description: Grants. A grant represents one authenticated mailbox and calendar. List, retrieve and delete grants, and inspect grant state and scopes.
-  name: Nylas Grants API
-  slug: nylas-grants-api
-- baseURL: https://api.us.nylas.com
-  baseurl_source: declared
   description: Messages. List, search, read, update and delete email messages. Send immediately, schedule a send and cancel a scheduled send, with folders, signatures and attachments alongside.
   name: Nylas Messages API
   slug: nylas-messages-api
-- baseURL: https://api.us.nylas.com
-  baseurl_source: declared
-  description: Scheduler. Booking configurations, scheduling sessions, availability lookups and booking lifecycle management for hosted and component-based booking flows.
-  name: Nylas Scheduling API
-  slug: nylas-scheduling-api
 - baseURL: https://api.us.nylas.com
   baseurl_source: declared
   description: Threads. List, search, read and update email threads, and manage thread-level folders and state.
@@ -97,20 +72,180 @@ apis:
   slug: nylas-threads-api
 - baseURL: https://api.us.nylas.com
   baseurl_source: declared
-  description: 'Change notifications. Nylas pushes events for messages, threads, calendars, events, grants and Notetaker over three interchangeable transports carrying the same payloads: HTTPS webhooks, Google Cloud '
-  name: Nylas Notifications API
-  slug: nylas-notifications-api
-- baseURL: https://api.us.nylas.com
-  baseurl_source: declared
   description: Meeting notetaker. Send a notetaker to a Google Meet, Microsoft Teams or Zoom call, then retrieve the recording, transcript, summary and action items. Available grant-scoped, or standalone with no con
   name: Nylas Notetaker API
   slug: nylas-notetaker-api
 - baseURL: https://api.us.nylas.com
   baseurl_source: declared
-  description: The Templates and Workflows API from Nylas — 12 operation(s) for templates and workflows.
-  name: Nylas Templates and Workflows API
-  slug: nylas-templates-and-workflows-api
-artifact_total: 35
+  description: Amazon SNS notification channels allow you to receive Nylas event notifications through Amazon Simple Notification Service (SNS) instead of webhooks. To use Amazon SNS notifications, you need to set u
+  name: Nylas Amazon SNS Notifications API
+  slug: nylas-amazon-sns-notifications-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'Before you begin, you should already have: - Linked your v2 and v3 Nylas organizations. If you''re not sure if your organizations are linked and you have a contract with us, [contact Nylas Support](/do'
+  name: Nylas App migration API
+  slug: nylas-app-migration-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Application-level templates let you create reusable messages with dynamic content. Each template is linked to the Nylas application associated with the API key specified in a [Create Template request]
+  name: Nylas Application-level templates API
+  slug: nylas-application-level-templates-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Application-level workflows automatically send messages to certain users when a defined event is triggered. For example, if you want to send a confirmation message when a user schedules a booking, you
+  name: Nylas Application-level workflows API
+  slug: nylas-application-level-workflows-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'In the context of the Nylas APIs, an "application" is the object record of your Nylas application. <div id="admonition-info">🔍 <b>The term "application" can refer to any of three concepts</b>: your Ny'
+  name: Nylas Applications API
+  slug: nylas-applications-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: You can use the `attachments` schema in a [Send Message request](/docs/reference/api/messages/send-message/) to send attachments, regardless of the email provider. You use the [Drafts](/docs/reference
+  name: Nylas Attachments API
+  slug: nylas-attachments-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'Nylas provides two ways to handle authentication: - **Bring Your Own (BYO) Authentication**, which uses the [`/v3/connect/custom` endpoint](/docs/reference/api/manage-grants/byo_auth/). In BYO Authent'
+  name: Nylas Authentication APIs API
+  slug: nylas-authentication-apis-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Nylas Scheduler uses the `/v3/scheduling/availability` endpoint to retrieve availability information. When you make a request, Nylas validates the provided session ID and uses it to retrieve the relat
+  name: Nylas Availability API
+  slug: nylas-availability-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'Nylas Scheduler uses the `/v3/scheduling/bookings` endpoint to manage bookings. Bookings work the same way when the organizer is an [Agent Account](/docs/v3/scheduler/agent-accounts/): the event is cr'
+  name: Nylas Bookings API
+  slug: nylas-bookings-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: The Nylas Calendar API allows you to create and manage calendars, and access the events they contain. Nylas uses the same commands to manage calendars across providers, and you can refer to specific c
+  name: Nylas Calendar API
+  slug: nylas-calendar-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: A configuration is a collection of event settings and preferences. Nylas Scheduler stores Configuration objects in the Scheduler database and loads them as Scheduling Pages in the Scheduler UI. A conf
+  name: Nylas Configurations API
+  slug: nylas-configurations-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'A Nylas connector credential is a special type of record that securely stores information (such as provider settings) that allows you to connect using an administrator account. Nylas securely stores, '
+  name: Nylas Connector credentials API
+  slug: nylas-connector-credentials-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: In Nylas, a connector (formerly called an "integration") stores information that allows your Nylas application to connect to a third party services, such as a provider auth application from Google (GC
+  name: Nylas Connectors (Integrations) API
+  slug: nylas-connectors-integrations-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: In Nylas v2, you used the unique Nylas ID to locate data and objects in Nylas's synced data. In Nylas v3, you use the provider ID directly. These APIs look up the provider IDs for your v2 data. Becaus
+  name: Nylas Data migration API
+  slug: nylas-data-migration-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: To simplify your experience, the Nylas Email API uses the same commands to manage both folders and labels, and can refer to specific folders using the provider's `folder_id`. The Email API also expose
+  name: Nylas Folders API
+  slug: nylas-folders-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Grant-level templates let you create reusable messages with dynamic content. Each template is linked to the grant specified in a [Create Template request](/docs/reference/api/grant-level-templates/cre
+  name: Nylas Grant-level templates API
+  slug: nylas-grant-level-templates-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Grant-level workflows automatically send messages to certain users when a defined event is triggered. For example, if you want to send a confirmation message when a user schedules a booking, you can c
+  name: Nylas Grant-level workflows API
+  slug: nylas-grant-level-workflows-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Group meetings let you host events with multiple participants. Unlike one-on-one meetings, group events are designed for collaborative scheduling where multiple attendees are invited to the same event
+  name: Nylas Group Events API
+  slug: nylas-group-events-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'The Lists endpoints let you manage typed collections of values (email addresses, domains, or top-level domains) that can be referenced by Rules using the `in_list` condition operator. Lists provide a '
+  name: Nylas Lists API
+  slug: nylas-lists-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'The Manage API Keys endpoints let you create, list, and delete API keys from your Nylas application outside of the Nylas Dashboard. ## Nylas Service Account <div id="admonition-warning">⚠️ <b>Before y'
+  name: Nylas Manage API keys API
+  slug: nylas-manage-api-keys-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: The Manage Domains endpoints let you register, verify, update, and delete email domains for use with [Transactional Send](/docs/v3/getting-started/transactional-send/) and [Nylas Agent Accounts](/docs
+  name: Nylas Manage Domains API
+  slug: nylas-manage-domains-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Grants are the main objects that power Nylas, because they _grant_ your Nylas application specific scopes of access (for example, permission to read email messages) to the user's resources and data on
+  name: Nylas Manage Grants API
+  slug: nylas-manage-grants-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: The Policies endpoints let you define the operational configuration for Nylas Agent Accounts, including message limits, attachment constraints, spam detection settings, and linked rules for inbound me
+  name: Nylas Policies API
+  slug: nylas-policies-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Nylas offers two ways to get notifications of what's happening on the provider. You can either subscribe to webhook notifications, or you can set up a notification channel. Nylas offers Pub/Sub and Am
+  name: Nylas Pub/Sub Notifications API
+  slug: nylas-pub-sub-notifications-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'The Nylas Contacts API allows you to return information about rooms that you can book for meetings, conferences, and other events. ## Room resource booking scopes The table below lists the Microsoft a'
+  name: Nylas Room resources API
+  slug: nylas-room-resources-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: The Rules endpoints let you define automated filtering and routing logic for Nylas Agent Accounts. Each rule specifies a `trigger` (`inbound` or `outbound`), matching conditions, and actions to perfor
+  name: Nylas Rules API
+  slug: nylas-rules-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Nylas Scheduler uses session IDs to authorize requests to the [`/v3/scheduling/availability`](/docs/reference/api/availability/) and [`/v3/scheduling/bookings`](/docs/reference/api/bookings/) endpoint
+  name: Nylas Sessions API
+  slug: nylas-sessions-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: The Nylas Signatures API lets you create and store HTML email signatures on Nylas, and reference them by ID when sending messages or creating drafts. Nylas appends the signature to the end of the emai
+  name: Nylas Signatures API
+  slug: nylas-signatures-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'The Smart Compose endpoints extend the Nylas Messages API. Currently, Smart Compose supports only two methods of getting AI responses: you can either receive them as a REST response in a single JSON b'
+  name: Nylas Smart compose API
+  slug: nylas-smart-compose-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Nylas Notetaker is a real-time meeting bot that you can invite to your online meetings. It records and transcribes your discussion, and delivers results to you using the Nylas API and webhook notifica
+  name: Nylas Standalone Notetaker API
+  slug: nylas-standalone-notetaker-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Nylas' Transactional Send endpoint lets you send messages directly from an email domain that you've verified with Nylas. You can use this to send password reset emails, account verifications, or syste
+  name: Nylas Transactional send API
+  slug: nylas-transactional-send-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: Nylas Scheduler uses the `/v3/scheduling/should-redirect/<V2_SCHEDULER_SLUG>` endpoint to redirect existing v2 Scheduling Pages to v3.
+  name: Nylas v2 Redirects API
+  slug: nylas-v2-redirects-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'Your application receives information about changes to user accounts and data through Nylas webhooks. <div id="admonition-info"> 🔍 <b>The term "webhook" can refer to any of three component parts</b>: '
+  name: Nylas Webhook Notifications API
+  slug: nylas-webhook-notifications-api
+- baseURL: https://api.us.nylas.com
+  baseurl_source: declared
+  description: 'Workspaces group and organize grants in a Nylas application by a common attribute, such as the email address domain (for example, `nylas.com`). ## Assign grants to workspaces Nylas offers two endpoint'
+  name: Nylas Workspaces API
+  slug: nylas-workspaces-api
+artifact_total: 62
 collections:
 - collection_type: open
   name: API Collection
@@ -371,7 +506,7 @@ modified: '2026-04-28'
 name: Nylas
 nav: Providers
 network: true
-overview: 'Nylas publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, Calendars API, and 10 more. Tagged areas include Calendar, Communications, Contacts, Email, and Messaging.
+overview: 'Nylas publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Drafts API, Events API, and 37 more. Tagged areas include Calendar, Communications, Contacts, Email, and Messaging.
 
 
   Nylas'' developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, CLI, support, and 41 more developer resources.'
@@ -379,28 +514,28 @@ plans:
 - name: Nylas Plans Pricing
   plan_count: 5
   slug: nylas-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 10
   name: Nylas Rate Limits
   slug: nylas-rate-limits
 score:
   band: exemplar
-  composite: 76.6
+  composite: 74.9
   coverage:
     artifact_dirs: 17
-    catalog_earned: 69.0
+    catalog_earned: 56.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 59.1
+    contract_quality: 61.6
     developer_ergonomics: 92.9
-    discoverability: 87.0
+    discoverability: 63.0
     operational_transparency: 86.8
   previous_composite: 76.6
   provenance:
@@ -410,10 +545,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 13
+      total: 40
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

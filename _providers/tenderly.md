@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Core REST API for managing Tenderly projects including smart contract simulations, alerts, Web3 Actions, contract management, wallet tracking, and virtual test environments.
@@ -56,6 +56,10 @@ apis:
   slug: tenderly-web3-actions-api
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tenderly.co
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tenderly/refs/heads/main/security/tenderly-domain-security.yml
   title: ''
@@ -137,19 +141,19 @@ finops:
   slug: finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenderly.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Tenderly
 nav: Providers
 network: true
 overview: 'Tenderly publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Web3, Blockchain, Smart Contracts, Ethereum, and EVM.
 
 
-  Tenderly''s developer surface includes developer portal, documentation, pricing, signup flow, engineering blog, status page, GitHub presence, and 11 more developer resources.'
+  Tenderly''s developer surface includes developer portal, documentation, pricing, signup flow, engineering blog, status page, GitHub presence, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 10
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -176,7 +180,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

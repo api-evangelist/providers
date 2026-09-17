@@ -25,7 +25,7 @@ name: Mech Mocha
 nav: Providers
 network: true
 overview: Mech Mocha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, and Defunct.
-random_paper: 12
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/mech-mocha/refs/heads/main/screenshots/mech-mocha-2026-08-07T172307.png
 slug: mech-mocha
 tags:

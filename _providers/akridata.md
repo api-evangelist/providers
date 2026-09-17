@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Programmatic access to Akridata Data Explorer via the first-party Python SDK (akride) and ingest CLI: data/dataset registration, catalog operations, explore and analyze jobs, image-based similarity se'
@@ -132,7 +132,7 @@ overview: 'Akridata publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Akridata''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, signup flow, CLI, and 11 more developer resources.'
-random_paper: 14
+random_paper: 19
 score:
   band: thin
   composite: 26.6
@@ -153,7 +153,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

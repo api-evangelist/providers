@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -285,7 +285,7 @@ overview: 'Understudy Labs publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Understudy Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 21 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: developing
   composite: 43.2
@@ -316,7 +316,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -338,7 +338,7 @@ tags:
 - Machine-Learning
 - Open-Source
 - Model Routing
-- Evaluations
+- Evaluation
 - Fine-Tuning
 - AI Infrastructure
 - Developer Tools

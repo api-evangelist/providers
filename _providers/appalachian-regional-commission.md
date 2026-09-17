@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - baseURL: https://www.arc.gov/wp-json
@@ -234,7 +234,7 @@ plans:
 - name: Appalachian Regional Commission Plans Pricing
   plan_count: 0
   slug: appalachian-regional-commission-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Appalachian Regional Commission Rate Limits
@@ -274,7 +274,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

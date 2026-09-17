@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The backend half of the Truecaller OAuth SDK flow. After the mobile SDK returns an authorization code, partners exchange it at POST /v1/token (authorization_code grant with PKCE code_verifier; refresh
@@ -211,7 +211,7 @@ overview: 'Truecaller publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Truecaller''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 4
+random_paper: 19
 scopes:
 - name: Truecaller Scopes
   scope_count: 6
@@ -245,7 +245,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

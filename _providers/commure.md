@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api-{tenant-id}.developer.commure.com
@@ -76,10 +76,10 @@ common:
   type: Postman
   url: https://www.postman.com/commure/commure/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-fhir-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/_original/commure-fhir-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/commure-fhir-openapi.yml
+  url: openapi/_original/commure-fhir-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/authentication/commure-authentication.yml
   title: ''
@@ -273,7 +273,7 @@ description: Commure is a San Francisco-based AI-native healthcare technology co
   contract is Commure's public Postman workspace, which publishes a 59-request "Commure FHIR API" collection covering the HL7 FHIR RESTful, terminology and Bulk Data operations plus the OpenID Connect / SMART App Launch authentication endpoints, alongside five clinical-scenario collections. Home market is the United States.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-08-15'
+modified: '2026-09-16'
 name: Commure
 nav: Providers
 network: true
@@ -285,7 +285,7 @@ plans:
 - name: Commure Plans Pricing
   plan_count: 0
   slug: commure-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Commure Rate Limits
@@ -337,7 +337,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

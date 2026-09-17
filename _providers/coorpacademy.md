@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - baseURL: https://content.coorpacademy.com/api/v2
@@ -325,11 +325,6 @@ apis:
   slug: coorpacademy-scripts-api
 - baseURL: https://content.coorpacademy.com/api/v2
   baseurl_source: declared
-  description: The sendEmail API from Coorpacademy — 1 operation(s) for sendemail.
-  name: Coorpacademy Send Email API
-  slug: coorpacademy-sendemail-api
-- baseURL: https://content.coorpacademy.com/api/v2
-  baseurl_source: declared
   description: The Signed S3 url BULK SCORM upload API from Coorpacademy — 1 operation(s) for signed s3 url bulk scorm upload.
   name: Coorpacademy Signed S3 url BULK SCORM upload API
   slug: coorpacademy-signed-s3-url-bulk-scorm-upload-api
@@ -353,6 +348,11 @@ apis:
   description: The upload API from Coorpacademy — 1 operation(s) for upload.
   name: Coorpacademy Upload API
   slug: coorpacademy-upload-api
+- baseURL: https://content.coorpacademy.com/api/v2
+  baseurl_source: declared
+  description: The SEND EMAIL API from Coorpacademy — 1 operation(s) for send email.
+  name: Coorpacademy SEND EMAIL API
+  slug: coorpacademy-send-email-api
 artifact_total: 68
 asyncapis:
 - description: ''
@@ -524,14 +524,14 @@ plans:
 - name: Coorpacademy Plans Pricing
   plan_count: 0
   slug: coorpacademy-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Coorpacademy Rate Limits
   slug: coorpacademy-rate-limits
 score:
   band: developing
-  composite: 44.1
+  composite: 45.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 27.0
@@ -539,11 +539,11 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 57.0
+    contract_quality: 56.0
     developer_ergonomics: 37.5
     discoverability: 50.0
     operational_transparency: 18.4
@@ -574,11 +574,11 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
-    score: 22.2
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png
 security:
 - kind: authentication
@@ -604,7 +604,7 @@ tags:
 - User Provisioning
 - Learning Analytics
 - Skills
-- Certifications
+- Certification
 - Gamification
 - France
 - Switzerland

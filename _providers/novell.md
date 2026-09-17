@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: REST/JSON administration API for a GroupWise system, served by the GroupWise Administration Service that installs alongside the GroupWise agents. Introduced under the "Windermere" codename for GroupWi
@@ -152,7 +152,7 @@ plans:
 - name: Novell Plans Pricing
   plan_count: 0
   slug: novell-plans-pricing
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Novell Rate Limits
@@ -179,7 +179,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

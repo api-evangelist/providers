@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: MALK Organics's agent-facing commerce API, implemented via the Shopify Universal Commerce Protocol (UCP) over MCP and served from MALK's own host. Agents can search and look up the MALK product catalo
@@ -162,7 +162,7 @@ plans:
 - name: Malk Organics Plans Pricing
   plan_count: 0
   slug: malk-organics-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Malk Organics Rate Limits
@@ -196,7 +196,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -223,7 +223,7 @@ tags:
 - Plant-Based
 - Organic
 - Direct to Consumer
-- Agent Commerce
+- Agentic Commerce
 - MCP
 - Shopify
 website: https://malkorganics.com/

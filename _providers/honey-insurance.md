@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -153,7 +153,7 @@ overview: 'Honey Insurance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Honey Insurance''s developer surface includes engineering blog, support, FAQ, signup flow, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 20
 scopes:
 - name: Honey Insurance Scopes
   scope_count: 14
@@ -194,7 +194,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

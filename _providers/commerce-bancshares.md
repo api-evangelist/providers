@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Commerce Bank's corporate API program, published through a registration-gated external developer portal and the CommercePayments developer platform, covering payments, treasury, and embedded-banking i
@@ -96,7 +96,7 @@ overview: 'Commerce Bank publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Commerce Bank''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 6
+random_paper: 2
 score:
   band: emerging
   composite: 12.6
@@ -130,7 +130,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

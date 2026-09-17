@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,21 +15,28 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-09-15'
+  score: 34.0
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: REST API for food & nutrition data — search, barcode lookup, food-by-id, popular foods, categories, and health probe. Bearer auth optional; read endpoints work anonymously.
-  name: DietlyAPI
-  slug: dietlyapi
-artifact_total: 5
+- baseURL: https://api.getdietly.com
+  baseurl_source: declared
+  description: Read-only nutrition data from a worldwide catalog. Public reads work without a key at 30 requests/minute per IP; send a Bearer key for account-level paid limits.
+  name: DietlyAPI Foods API
+  slug: dietlyapi-foods-api
+- baseURL: https://api.getdietly.com
+  baseurl_source: declared
+  description: Service health.
+  name: DietlyAPI Meta API
+  slug: dietlyapi-meta-api
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -158,7 +165,7 @@ modified: '2026-09-03'
 name: DietlyAPI
 nav: Providers
 network: true
-overview: 'DietlyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: DietlyAPI. Tagged areas include Food, Nutrition, Barcodes, open-food-facts, and Health.
+overview: 'DietlyAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Foods API and Meta API. Tagged areas include Food, Nutrition, Barcodes, open-food-facts, and Health.
 
 
   DietlyAPI''s developer surface includes authentication, changelog, sandbox, getting-started guide, API reference, pricing, support, and 19 more developer resources.'
@@ -166,14 +173,14 @@ plans:
 - name: Dietlyapi Plans Pricing
   plan_count: 4
   slug: dietlyapi-plans-pricing
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Dietlyapi Rate Limits
   slug: dietlyapi-rate-limits
 score:
   band: strong
-  composite: 54.5
+  composite: 59.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 58.0
@@ -181,11 +188,11 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 54.8
     developer_ergonomics: 66.1
     discoverability: 70.4
     operational_transparency: 63.2
@@ -196,7 +203,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     mcp: derived
     skills: derived
   regulatory:
@@ -206,8 +213,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

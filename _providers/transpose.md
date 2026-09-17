@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,32 +48,32 @@ apis:
 - baseURL: https://api.transpose.io
   baseurl_source: declared
   description: Low-level blockchain primitives including accounts, blocks, transactions, logs, and traces across EVM chains.
-  name: Transpose Block API API
+  name: Transpose Block API
   slug: transpose-block-api-api
 - baseURL: https://api.transpose.io
   baseurl_source: declared
   description: Ethereum Name Service records and transfer history.
-  name: Transpose ENS API API
+  name: Transpose ENS API
   slug: transpose-ens-api-api
 - baseURL: https://api.transpose.io
   baseurl_source: declared
   description: NFT collections, ownership, sales, and transfers for ERC-721 and ERC-1155 tokens.
-  name: Transpose NFT API API
+  name: Transpose NFT API
   slug: transpose-nft-api-api
 - baseURL: https://api.transpose.io
   baseurl_source: declared
   description: Custom SQL query interface against Transpose's entire indexed blockchain dataset.
-  name: Transpose SQL Analytics API API
+  name: Transpose SQL Analytics API
   slug: transpose-sql-analytics-api-api
 - baseURL: https://api.transpose.io
   baseurl_source: declared
   description: ERC-20, ERC-777, and native token balances, transfers, and DEX swaps.
-  name: Transpose Token API API
+  name: Transpose Token API
   slug: transpose-token-api-api
 - baseURL: https://api.transpose.io
   baseurl_source: declared
   description: Real-time and historical OHLC price data for any token including LP tokens.
-  name: Transpose Token Prices API API
+  name: Transpose Token Prices API
   slug: transpose-token-prices-api-api
 artifact_total: 31
 collections:
@@ -99,6 +99,10 @@ collections:
   name: Transpose Block API Token Prices API API
   slug: open-transpose-token-prices-api-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://transpose.io
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/agentic-access/transpose-agentic-access.yml
   title: ''
@@ -200,22 +204,22 @@ jsonld:
   property_count: 0
   slug: apis
 layout: provider
-modified: '2026-06-14'
+modified: '2026-09-16'
 name: Transpose
 nav: Providers
 network: true
-overview: 'Transpose publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Block API API, ENS API API, NFT API API, and 3 more. Tagged areas include Blockchain, NFT, Cryptocurrency, Web3, and Ethereum.
+overview: 'Transpose publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Block API, ENS API, NFT API, and 3 more. Tagged areas include Blockchain, NFT, Cryptocurrency, Web3, and Ethereum.
 
 
   The Transpose catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Transpose''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 7 more developer resources.'
+  Transpose''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 4
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Rate Limits
@@ -258,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -289,5 +293,5 @@ tags:
 - Historical Data
 - DeFi
 - DEX
-website: https://app.transpose.io
+website: https://transpose.io
 ---

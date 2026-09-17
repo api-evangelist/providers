@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -64,11 +64,6 @@ apis:
   description: CRM contact records (name, address, phone, email).
   name: CoreLogic (Cotality) Contacts API
   slug: corelogic-contacts-api
-- baseURL: https://api.cotality.com/trestle/odata
-  baseurl_source: declared
-  description: MLS-specific extensions to the RESO Property resource.
-  name: CoreLogic (Cotality) CustomProperty API
-  slug: corelogic-customproperty-api
 - baseURL: https://api.cotality.com/trestle/odata
   baseurl_source: declared
   description: Aggregated dashboard data for the agent home screen.
@@ -151,16 +146,6 @@ apis:
   slug: corelogic-propertyunittypes-api
 - baseURL: https://api.cotality.com/trestle/odata
   baseurl_source: declared
-  description: Saved listing search criteria with auto-email schedules.
-  name: CoreLogic (Cotality) SavedSearches API
-  slug: corelogic-savedsearches-api
-- baseURL: https://api.cotality.com/trestle/odata
-  baseurl_source: declared
-  description: Membership relationships between teams and members.
-  name: CoreLogic (Cotality) TeamMembers API
-  slug: corelogic-teammembers-api
-- baseURL: https://api.cotality.com/trestle/odata
-  baseurl_source: declared
   description: MLS team records.
   name: CoreLogic (Cotality) Teams API
   slug: corelogic-teams-api
@@ -169,6 +154,21 @@ apis:
   description: Per-user preference key/value store.
   name: CoreLogic (Cotality) UserRegistry API
   slug: corelogic-userregistry-api
+- baseURL: https://api.cotality.com/trestle/rets
+  baseurl_source: declared
+  description: MLS-specific extensions to the RESO Property resource.
+  name: CoreLogic (Cotality) Custom Property API
+  slug: corelogic-custom-property-api
+- baseURL: https://api.cotality.com/trestle/rets
+  baseurl_source: declared
+  description: Saved listing search criteria with auto-email schedules.
+  name: CoreLogic (Cotality) Saved Searches API
+  slug: corelogic-saved-searches-api
+- baseURL: https://api.cotality.com/trestle/rets
+  baseurl_source: declared
+  description: Membership relationships between teams and members.
+  name: CoreLogic (Cotality) Team Members API
+  slug: corelogic-team-members-api
 artifact_total: 75
 collections:
 - collection_type: open
@@ -442,7 +442,7 @@ modified: '2026-05-23'
 name: CoreLogic (Cotality)
 nav: Providers
 network: true
-overview: 'CoreLogic (Cotality) publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, CustomProperty API, DashboardAPI API, and 19 more. Tagged areas include Climate Risk, CoreLogic, Cotality, Direct Web API, and Hazard Data.
+overview: 'CoreLogic (Cotality) publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, DashboardAPI API, DataSystem API, and 19 more. Tagged areas include Climate Risk, CoreLogic, Cotality, Direct Web API, and Hazard Data.
 
 
   The CoreLogic (Cotality) catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -453,7 +453,7 @@ plans:
 - name: Corelogic Plans Pricing
   plan_count: 4
   slug: corelogic-plans-pricing
-random_paper: 6
+random_paper: 5
 rate_limits:
 - limit_count: 8
   name: Corelogic Rate Limits
@@ -498,21 +498,21 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 59.5
+  composite: 58.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 87.0
+    catalog_earned: 82.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 28.0
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 56.6
     contract_governance: 69.7
     contract_quality: 61.5
     developer_ergonomics: 50.0
-    discoverability: 61.1
+    discoverability: 51.9
     operational_transparency: 34.2
   previous_composite: 59.5
   provenance:
@@ -529,7 +529,7 @@ score:
     regime_id: insurance
     score: 57.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

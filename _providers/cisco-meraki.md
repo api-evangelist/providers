@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 88
@@ -273,7 +273,7 @@ overview: 'Cisco Meraki publishes 20 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cisco Meraki''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
-random_paper: 10
+random_paper: 19
 score:
   band: thin
   composite: 30.0
@@ -288,7 +288,7 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 55.8
+    contract_quality: 55.5
     developer_ergonomics: 45.2
     discoverability: 74.1
     operational_transparency: 2.6
@@ -301,7 +301,7 @@ score:
       marker_coverage: 100.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

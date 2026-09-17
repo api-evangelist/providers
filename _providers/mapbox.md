@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - baseURL: https://api.mapbox.com
   baseurl_source: declared
   description: The Mapbox Tiling Service API API from Mapbox — 1 operation(s) for mapbox tiling service api.
-  name: Mapbox Mapbox Tiling Service API API
+  name: Mapbox Tiling Service API
   slug: mapbox-mapbox-tiling-service-api-api
 - baseURL: https://api.mapbox.com
   baseurl_source: declared
@@ -234,11 +234,11 @@ finops:
   slug: mapbox-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mapbox.png
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Mapbox
 nav: Providers
 network: true
-overview: 'Mapbox publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activity API, Mapbox Tiling Service API API, and Tilesets API. Tagged areas include Mapping, Maps, Geospatial, and Location.
+overview: 'Mapbox publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activity API, Tiling Service API, and Tilesets API. Tagged areas include Mapping, Maps, Geospatial, and Location.
 
 
   Mapbox''s developer surface includes support, authentication, signup flow, privacy policy, getting-started guide, engineering blog, and 20 more developer resources.'
@@ -246,7 +246,7 @@ plans:
 - name: Mapbox Plans Pricing
   plan_count: 8
   slug: mapbox-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Mapbox Rate Limits
@@ -279,7 +279,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

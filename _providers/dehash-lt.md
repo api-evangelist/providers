@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Hash decryption MD5, SHA1, SHA3, SHA256, SHA384, SHA512
@@ -57,7 +57,7 @@ name: Dehash.lt
 nav: Providers
 network: true
 overview: Dehash.lt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 8
+random_paper: 10
 score:
   band: minimal
   composite: 5.0
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

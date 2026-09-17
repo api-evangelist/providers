@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Create and confirm Afterpay checkouts for merchant integrations.
@@ -109,7 +109,7 @@ plans:
 - name: Afterpay Plans Pricing
   plan_count: 1
   slug: afterpay-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Afterpay Rate Limits
@@ -140,7 +140,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

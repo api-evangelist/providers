@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -54,16 +54,6 @@ apis:
   description: A record in our system to link financials and analyses to.
   name: Fincura Borrowers API
   slug: fincura-borrowers-api
-- baseURL: https://api.fincura.com
-  baseurl_source: declared
-  description: The CustomAttributes API from Fincura — 2 operation(s) for customattributes.
-  name: Fincura CustomAttributes API
-  slug: fincura-customattributes-api
-- baseURL: https://api.fincura.com
-  baseurl_source: declared
-  description: The DataViews API from Fincura — 7 operation(s) for dataviews.
-  name: Fincura DataViews API
-  slug: fincura-dataviews-api
 - baseURL: https://api.fincura.com
   baseurl_source: declared
   description: The DscrAnalysis API from Fincura — 4 operation(s) for dscranalysis.
@@ -136,14 +126,24 @@ apis:
   slug: fincura-spreadingtemplate-api
 - baseURL: https://api.fincura.com
   baseurl_source: declared
-  description: The TenantSettings API from Fincura — 1 operation(s) for tenantsettings.
-  name: Fincura TenantSettings API
-  slug: fincura-tenantsettings-api
-- baseURL: https://api.fincura.com
-  baseurl_source: declared
   description: '## Supported Events The following are events you can listen to via webhooks. | Event Type | Description | | --------------------------------------------- | -------------------------- | | GlobalCashflo'
   name: Fincura Webhooks API
   slug: fincura-webhooks-api
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The Custom Attributes API from Fincura — 2 operation(s) for custom attributes.
+  name: Fincura Custom Attributes API
+  slug: fincura-custom-attributes-api
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The data views API from Fincura — 7 operation(s) for data views.
+  name: Fincura data views API
+  slug: fincura-data-views-api
+- baseURL: https://api.fincura.com
+  baseurl_source: declared
+  description: The Tenant Settings API from Fincura — 1 operation(s) for tenant settings.
+  name: Fincura Tenant Settings API
+  slug: fincura-tenant-settings-api
 arazzos:
 - description: Creates a borrower, uploads a financial document for automated spreading, retrieves the normalized data view, then runs a DSCR analysis and downloads it.
   name: Spread a borrower financial statement and run DSCR analysis
@@ -328,17 +328,17 @@ modified: '2026-07-19'
 name: Fincura
 nav: Providers
 network: true
-overview: 'Fincura publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Api-Key API, Borrowers API, CustomAttributes API, and 17 more. Tagged areas include Financial-Services, Lending, Credit Analysis, Financial Spreading, and Banking.
+overview: 'Fincura publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Api-Key API, Borrowers API, DscrAnalysis API, and 17 more. Tagged areas include Financial-Services, Lending, Credit Analysis, Financial Spreading, and Banking.
 
 
   The Fincura catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Fincura''s developer surface includes authentication and 20 more developer resources.'
-random_paper: 9
+random_paper: 18
 score:
   band: thin
-  composite: 33.1
+  composite: 32.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -346,11 +346,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
-    contract_quality: 59.4
+    contract_quality: 55.8
     developer_ergonomics: 28.0
     discoverability: 75.9
     operational_transparency: 10.5
@@ -359,7 +359,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 20
@@ -372,7 +372,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -118,7 +118,7 @@ overview: 'Nexu is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Nexu''s developer surface includes support, FAQ, engineering blog, and 10 more developer resources.'
-random_paper: 7
+random_paper: 8
 score:
   band: minimal
   composite: 6.4
@@ -146,7 +146,7 @@ score:
     - latin-america
   previous_composite: 6.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

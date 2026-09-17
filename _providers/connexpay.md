@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -46,16 +46,6 @@ agentic_access:
   summary_line: 90 operations · 73 acting · 3 human-in-the-loop
 api_count: 10
 apis:
-- baseURL: https://salesapi.connexpay.com
-  baseurl_source: declared
-  description: The 3ds API from ConnexPay — 2 operation(s) for 3ds.
-  name: ConnexPay 3ds API
-  slug: connexpay-3ds-api
-- baseURL: https://salesapi.connexpay.com
-  baseurl_source: declared
-  description: The 3DSecure API from ConnexPay — 1 operation(s) for 3dsecure.
-  name: ConnexPay 3 D Secure API
-  slug: connexpay-3dsecure-api
 - baseURL: https://salesapi.connexpay.com
   baseurl_source: declared
   description: The Accounting API from ConnexPay — 2 operation(s) for accounting.
@@ -178,11 +168,6 @@ apis:
   slug: connexpay-purchaseeventhistory-api
 - baseURL: https://salesapi.connexpay.com
   baseurl_source: declared
-  description: The PushToCard API from ConnexPay — 8 operation(s) for pushtocard.
-  name: ConnexPay Push To Card API
-  slug: connexpay-pushtocard-api
-- baseURL: https://salesapi.connexpay.com
-  baseurl_source: declared
   description: The Returns API from ConnexPay — 2 operation(s) for returns.
   name: ConnexPay Returns API
   slug: connexpay-returns-api
@@ -194,7 +179,7 @@ apis:
 - baseURL: https://salesapi.connexpay.com
   baseurl_source: declared
   description: The Sales Api API from ConnexPay — 1 operation(s) for sales api.
-  name: ConnexPay Sales Api API
+  name: ConnexPay Sales Api
   slug: connexpay-sales-api-api
 - baseURL: https://salesapi.connexpay.com
   baseurl_source: declared
@@ -241,6 +226,21 @@ apis:
   description: The Void API from ConnexPay — 1 operation(s) for void.
   name: ConnexPay Void API
   slug: connexpay-void-api
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The 3 DS API from ConnexPay — 2 operation(s) for 3 ds.
+  name: ConnexPay 3 DS API
+  slug: connexpay-3-ds-api
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The 3D Secure API from ConnexPay — 1 operation(s) for 3d secure.
+  name: ConnexPay 3D Secure API
+  slug: connexpay-3d-secure-api
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The push to card API from ConnexPay — 8 operation(s) for push to card.
+  name: ConnexPay push to card API
+  slug: connexpay-push-to-card-api
 artifact_total: 83
 asyncapis:
 - description: ''
@@ -529,18 +529,18 @@ created: '2026-08-09'
 description: ConnexPay is a Milwaukee-founded B2B payments platform that combines merchant acquiring and card issuing in one integration, so a company's incoming customer payments directly fund its outgoing supplier payments with no float in between. An inbound Sale (PayIn) returns an Incoming Transaction Code that funds the virtual cards, ACH credits, push-to-card payouts, checks and international bank-to-bank transfers issued against it (PayOuts). The platform is used heavily in leisure and business travel, advertising and media buying, insurance claims, and embedded-payments software, and is delivered through ten REST APIs — Sales, Purchases, Push to Card, Payment Valet payment instructions, Checkout Session, Merchant Payor, Stop Payment, Chargebacks (CMS), and two Reporting surfaces — plus a browser payments SDK, a Hosted Payment Page, the Bridge operator console, and a 51-event webhook surface called CXP Eventing. ConnexPay is a registered ISO/MSP of The Central Trust Bank and MVB Bank.
 image: https://www.connexpay.com/favicon.ico
 layout: provider
-modified: '2026-08-09'
+modified: '2026-09-16'
 name: ConnexPay
 nav: Providers
 network: true
-overview: 'ConnexPay publishes 39 APIs on the [APIs.io](https://apis.io/) network, including 3ds API, 3 D Secure API, Accounting API, and 36 more. Tagged areas include Payments, Virtual Cards, Card Issuing, Merchant Acquiring, and Payouts.
+overview: 'ConnexPay publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Addendum API, Authenticate API, and 36 more. Tagged areas include Payments, Virtual Cards, Card Issuing, Merchant Acquiring, and Payouts.
 
 
   The ConnexPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ConnexPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 27 more developer resources.'
-random_paper: 15
+random_paper: 13
 score:
   band: developing
   composite: 51.0
@@ -555,7 +555,7 @@ score:
   facets:
     access_clarity: 46.1
     contract_governance: 4.5
-    contract_quality: 64.0
+    contract_quality: 64.1
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 15.8
@@ -577,7 +577,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

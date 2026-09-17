@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -100,15 +100,15 @@ collections:
   slug: open-ferc-eforms-api-openapi-derived
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-data-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/_original/ferc-data-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/ferc-data-api-openapi.json
+  url: openapi/_original/ferc-data-api-openapi.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/ferc-eforms-api-openapi-derived.yml
+  href: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/openapi/_original/ferc-eforms-api-openapi-derived.yml
   title: ''
   type: OpenAPI
-  url: openapi/ferc-eforms-api-openapi-derived.yml
+  url: openapi/_original/ferc-eforms-api-openapi-derived.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/overlays/ferc-data-api-overlay.yaml
   title: ''
@@ -294,7 +294,7 @@ description: The Federal Energy Regulatory Commission (FERC) is the independent 
   gas transactions, FERC Form 556 qualifying facility certifications, Company Registration, Annual Charges, Information Collections Management, and the NEPA infrastructure schedule. FERC also runs a credentialed OAuth2 XBRL submission API at ecollection.ferc.gov for the mandated eForms filings (Form Nos. 1, 2, 3-Q, 6, 60, 552, 714). What FERC does NOT do is any part of consumer energy data — there is no Green Button, no ESPI, no consumer data right, and no individual customer usage or billing API anywhere in FERC's surface, because retail customer data is outside its statutory reach. FERC is therefore an open-market-data, zero-consumer-data regulator, and it publishes a better documented API than most of the utilities it indirectly touches.
 image: https://ecollection.ferc.gov/assets/images/ferc-logo/ferc%20logo.png
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: FERC
 nav: Providers
 network: true
@@ -302,7 +302,7 @@ overview: 'FERC publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   FERC''s developer surface includes authentication, code examples, changelog, sandbox, developer console, developer portal, documentation, and 35 more developer resources.'
-random_paper: 17
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Ferc Rate Limits
@@ -350,7 +350,7 @@ score:
     regime_id: energy_utilities
     score: 59.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

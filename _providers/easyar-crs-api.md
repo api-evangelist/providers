@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for cloud image recognition: target management endpoints (/targets/, /target/<id>, /grade/detection/, /ping) and a recognition endpoint (/search), plus a token exchange service. Uses per'
@@ -148,7 +148,7 @@ plans:
 - name: Easyar Crs Api Plans Pricing
   plan_count: 3
   slug: easyar-crs-api-plans-pricing
-random_paper: 12
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Easyar Crs Api Rate Limits
@@ -176,7 +176,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

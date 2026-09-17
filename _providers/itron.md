@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -279,7 +279,7 @@ modified: '2026-05-23'
 name: Itron
 nav: Providers
 network: true
-overview: 'Itron publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Device Templates API, Devices API, Observations API, and 1 more. Tagged areas include Itron, Utilities, Smart Meters, Smart Grid, and Smart Cities.
+overview: 'Itron publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Device Templates API, Devices API, Observations API, and 1 more. Tagged areas include Itron, Utilities, Smart Meter, Smart Grid, and Smart Cities.
 
 
   The Itron catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -290,7 +290,7 @@ plans:
 - name: Itron Plans Pricing
   plan_count: 4
   slug: itron-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Itron Rate Limits
@@ -350,7 +350,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -369,7 +369,7 @@ slug: itron
 tags:
 - Itron
 - Utilities
-- Smart Meters
+- Smart Meter
 - Smart Grid
 - Smart Cities
 - Internet of Things

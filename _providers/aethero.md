@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The authenticated fleet-management and over-the-air update API behind Aethero's "Aether" user portal at cloud.aethero.com. The service is a self-hosted deployment of RDFM (Remote Device Fleet Manager)
@@ -103,7 +103,7 @@ modified: '2026-07-18'
 name: Aethero
 nav: Providers
 network: true
-overview: 'Aethero publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Edge Computing, Satellites, and Artificial Intelligence.
+overview: 'Aethero publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Edge Computing, Satellite, and Artificial Intelligence.
 
 
   Aethero''s developer surface includes pricing, engineering blog, and 10 more developer resources.'
@@ -111,7 +111,7 @@ plans:
 - name: Aethero Plans Pricing
   plan_count: 4
   slug: aethero-plans-pricing
-random_paper: 9
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Aethero Rate Limits
@@ -141,7 +141,7 @@ score:
     - north-america
   previous_composite: 16.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +158,7 @@ tags:
 - Company
 - Space
 - Edge Computing
-- Satellites
+- Satellite
 - Artificial Intelligence
 - Machine-Learning
 - Aerospace

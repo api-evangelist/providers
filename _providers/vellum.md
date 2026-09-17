@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -252,7 +252,7 @@ modified: '2026-05-23'
 name: Vellum AI
 nav: Providers
 network: true
-overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_deployments API, subpackage_documentIndexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluations, and LLMOps.
+overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_deployments API, subpackage_documentIndexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluation, and LLMOps.
 
 
   Vellum AI''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, and 10 more developer resources.'
@@ -260,7 +260,7 @@ plans:
 - name: Vellum Plans Pricing
   plan_count: 1
   slug: vellum-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Vellum Rate Limits
@@ -292,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -312,7 +312,7 @@ tags:
 - LLM Platform
 - Prompt Engineering
 - Workflows
-- Evaluations
+- Evaluation
 - LLMOps
 - RAG
 - Observability

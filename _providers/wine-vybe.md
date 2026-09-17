@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'The Wine Vybe Wine API provides access to thousands of wines with data including wine regions, grape varieties, tasting notes, food pairing recommendations, awards, producer details, and custom taste '
@@ -129,7 +129,7 @@ plans:
 - name: Wine Vybe Plans Pricing
   plan_count: 3
   slug: wine-vybe-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Wine Vybe Rate Limits
@@ -165,7 +165,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 24.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

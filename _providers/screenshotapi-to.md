@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://screenshotapi.to
@@ -39,15 +39,20 @@ collections:
 - collection_type: open
   name: Screenshot Screenshots API
   slug: open-screenshotapi-to-screenshots-api
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://screenshotapi.to
 created: '2026-08-02'
 description: 'ScreenshotAPI (screenshotapi.to) is a hosted screenshot and PDF capture API — send a URL or raw HTML, get back a PNG, JPEG, WebP or PDF without running browser infrastructure. The contract is deliberately small: one screenshot resource answering both GET and POST, plus a health check. What sets it apart from its size is the agent-readable surface around it — an llms.txt on the root, a 302KB llms-full.txt, a separate docs llms.txt, an agent install guide, a dedicated AI-agents page, and per-page markdown by appending .md to any /docs/ URL. An MCP server exists but runs locally over stdio and is not yet published to npm, so it is described here rather than advertised as a hosted endpoint. Not to be confused with ScreenshotAPI.net, a different company in the same category — see the screenshotapi-net entry.'
 layout: provider
-modified: '2026-08-02'
+modified: '2026-09-16'
 name: ScreenshotAPI
 nav: Providers
 network: true
 overview: 'ScreenshotAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Screenshots API. Tagged areas include Screenshots, Website Screenshots, URL to Image, URL to PDF, and HTML to Image.'
-random_paper: 13
+random_paper: 0
 score:
   band: emerging
   composite: 25.3
@@ -74,7 +79,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -91,4 +96,5 @@ tags:
 - Web Automation
 - Visual Testing
 - Agent-readable
+website: https://screenshotapi.to
 ---

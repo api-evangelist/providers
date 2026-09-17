@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -135,7 +135,7 @@ plans:
 - name: 908 Devices Plans Pricing
   plan_count: 0
   slug: 908-devices-plans-pricing
-random_paper: 0
+random_paper: 21
 score:
   band: emerging
   composite: 13.3
@@ -162,7 +162,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

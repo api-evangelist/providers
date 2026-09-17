@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for managing products, variants, offer codes, custom fields, sales, subscribers, license keys, resource subscriptions (webhooks), and the authenticated user account on Gumroad. Authentication
@@ -93,11 +93,11 @@ modified: '2026-05-30'
 name: Gumroad
 nav: Providers
 network: true
-overview: 'Gumroad publishes 1 API on the [APIs.io](https://apis.io/) network: v2 API. Tagged areas include Digital Commerce, Creator Economy, Digital Products, Memberships, and License Keys.
+overview: 'Gumroad publishes 1 API on the [APIs.io](https://apis.io/) network: v2 API. Tagged areas include Digital Commerce, Creator Economy, Digital Products, Membership, and License Keys.
 
 
   Gumroad''s developer surface includes documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 16
+random_paper: 3
 score:
   band: thin
   composite: 28.4
@@ -118,7 +118,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -135,7 +135,7 @@ tags:
 - Digital Commerce
 - Creator Economy
 - Digital Products
-- Memberships
+- Membership
 - License Keys
 - Affiliates
 - E-Commerce

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -100,6 +100,10 @@ collections:
   name: Telefoon Voice API
   slug: open-telefoon-voice
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://telefoon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/capabilities/telefoon-capability-edges.yml
   title: ''
@@ -188,7 +192,7 @@ jsonld:
   property_count: 18
   slug: telefoon-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Telefoon
 nav: Providers
 network: true
@@ -198,12 +202,12 @@ overview: 'Telefoon publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Telefoon catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Telefoon''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, and 9 more developer resources.'
+  Telefoon''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Telefoon Plans Pricing
   plan_count: 1
   slug: telefoon-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Telefoon Rate Limits
@@ -271,7 +275,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -298,5 +302,5 @@ tags:
 - SMS
 - Telephony
 - Voice
-website: https://www.telefoon.com
+website: https://telefoon.com
 ---

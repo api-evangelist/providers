@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 68.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -88,11 +88,6 @@ apis:
   slug: carsxe-market-value-api
 - baseURL: https://api.carsxe.com
   baseurl_source: declared
-  description: License plate decoding — 3 operations (decodePlate, decodeUsPlate, decodePlateV2) resolving a registration plate plus country/state to vehicle make, model, year and (where available) VIN, across 50+ c
-  name: CarsXE Plate Decoder API
-  slug: carsxe-plate-api
-- baseURL: https://api.carsxe.com
-  baseurl_source: declared
   description: Safety recall lookup — 6 operations covering single-VIN recalls, recalls by year/make/model, and the asynchronous Recalls Batch surface (submit up to 10,000 VINs, poll status, retrieve or download res
   name: CarsXE Recalls API
   slug: carsxe-recalls-api
@@ -129,6 +124,11 @@ apis:
 - description: 'Remote Model Context Protocol server exposing the CarsXE vehicle-data endpoints as 12 named agent tools over streamable HTTP, authenticated with an X-API-Key header or an OAuth 2.1 authorization code '
   name: CarsXE MCP Server
   slug: carsxe-mcp-server
+- baseURL: https://api.carsxe.com
+  baseurl_source: declared
+  description: Decode license plates into vehicle data
+  name: CarsXE Plate Decoder API
+  slug: carsxe-plate-decoder-api
 artifact_total: 38
 asyncapis:
 - description: ''
@@ -157,6 +157,11 @@ collections:
   name: CarsXE Vehicle Data API
   slug: open-carsxe
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/overlays/carsxe-plate-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/carsxe-plate-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/agentic-access/carsxe-agentic-access.yml
   title: ''
@@ -391,25 +396,25 @@ modified: '2026-09-05'
 name: CarsXE
 nav: Providers
 network: true
-overview: 'CarsXE publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Specifications API, Market Value API, Plate Decoder API, and 7 more. Tagged areas include Automotive, Vehicles, VIN, Vehicle Data, and License Plate.
+overview: 'CarsXE publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Specifications API, Market Value API, Recalls API, and 7 more. Tagged areas include Automotive, Vehicles, VIN, Vehicle Data, and License Plate.
 
 
   The CarsXE catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  CarsXE''s developer surface includes CLI, authentication, code examples, sandbox, developer portal, documentation, API reference, and 40 more developer resources.'
+  CarsXE''s developer surface includes CLI, authentication, code examples, sandbox, developer portal, documentation, API reference, and 41 more developer resources.'
 plans:
 - name: Carsxe Plans Pricing
   plan_count: 4
   slug: carsxe-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 39
   name: Carsxe Rate Limits
   slug: carsxe-rate-limits
 score:
   band: exemplar
-  composite: 74.2
+  composite: 73.5
   coverage:
     artifact_dirs: 28
     catalog_earned: 74.0
@@ -417,11 +422,11 @@ score:
     catalog_gap: 41.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 70.2
+    contract_quality: 67.7
     developer_ergonomics: 80.4
     discoverability: 87.0
     operational_transparency: 65.8
@@ -437,7 +442,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

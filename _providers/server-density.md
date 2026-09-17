@@ -25,7 +25,7 @@ name: Server Density
 nav: Providers
 network: true
 overview: Server Density is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 6
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/server-density/refs/heads/main/screenshots/server-density-2026-09-02T154955.png
 slug: server-density
 tags:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -86,6 +86,10 @@ collections:
   name: RSC ChemSpider Compounds Filter Tools API
   slug: open-rsc-tools-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://rsc.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/agentic-access/rsc-agentic-access.yml
   title: ''
@@ -156,7 +160,7 @@ jsonld:
   property_count: 15
   slug: rsc-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: RSC
 nav: Providers
 network: true
@@ -166,12 +170,12 @@ overview: 'RSC publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
   The RSC catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RSC''s developer surface includes authentication, developer portal, signup flow, and 6 more developer resources.'
+  RSC''s developer surface includes authentication, developer portal, signup flow, and 7 more developer resources.'
 plans:
 - name: Rsc Plans Pricing
   plan_count: 3
   slug: rsc-plans-pricing
-random_paper: 13
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Rsc Rate Limits
@@ -225,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -246,5 +250,5 @@ tags:
 - Cheminformatics
 - Chemical Data
 - Science
-website: https://developer.rsc.org/
+website: https://rsc.org
 ---

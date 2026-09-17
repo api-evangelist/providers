@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -128,6 +128,10 @@ collections:
   name: Docling CLI as REST Async Tasks API
   slug: open-docling-tasks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://docling-project.github.io
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -299,7 +303,7 @@ jsonld:
   property_count: 12
   slug: docling-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Docling
 nav: Providers
 network: true
@@ -309,8 +313,8 @@ overview: 'Docling publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   The Docling catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Docling''s developer surface includes developer portal, documentation, getting-started guide, CLI, release notes, changelog, engineering blog, and 23 more developer resources.'
-random_paper: 1
+  Docling''s developer surface includes developer portal, documentation, getting-started guide, CLI, release notes, changelog, engineering blog, and 24 more developer resources.'
+random_paper: 10
 rules:
 - effective_rule_count: 6
   extends: []
@@ -360,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -382,5 +386,5 @@ tags:
 - MCP
 - Knowledge Graph
 - Generative AI
-website: https://docling-project.github.io/docling/
+website: https://docling-project.github.io
 ---

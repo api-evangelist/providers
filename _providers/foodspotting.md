@@ -24,7 +24,7 @@ name: Foodspotting
 nav: Providers
 network: true
 overview: Foodspotting is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 10
+random_paper: 14
 slug: foodspotting
 tags:
 - Company

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A direct system-to-system API that Emirates SkyCargo advertises on its own Digital Booking Channels page, described as connecting a freight forwarder's in-house system for real-time instant booking co
@@ -84,11 +84,11 @@ modified: '2026-07-30'
 name: Emirates SkyCargo
 nav: Providers
 network: true
-overview: 'Emirates SkyCargo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Logistics, Supply Chain, United Arab Emirates, Air Cargo, and Airline.
+overview: 'Emirates SkyCargo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Logistics, Supply Chain, United Arab Emirates, Air Cargo, and Airlines.
 
 
   Emirates SkyCargo''s developer surface includes developer portal, documentation, support, FAQ, training material, engineering blog, and 5 more developer resources.'
-random_paper: 6
+random_paper: 10
 score:
   band: emerging
   composite: 15.4
@@ -120,7 +120,7 @@ score:
       reason: never_enriched
   previous_composite: 15.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -133,7 +133,7 @@ tags:
 - Supply Chain
 - United Arab Emirates
 - Air Cargo
-- Airline
+- Airlines
 - Freight
 - Track and Trace
 - EDI

@@ -24,7 +24,7 @@ name: OxfordCaps
 nav: Providers
 network: true
 overview: OxfordCaps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 10
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxfordcaps/refs/heads/main/screenshots/oxfordcaps-2026-08-07T191204.png
 slug: oxfordcaps
 tags:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -55,11 +55,6 @@ apis:
   description: Manage contacts.
   name: ClickSend Contact API
   slug: clicksend-contact-api
-- baseURL: https://rest.clicksend.com/v3
-  baseurl_source: declared
-  description: Manage contact lists.
-  name: ClickSend ContactList API
-  slug: clicksend-contactlist-api
 - baseURL: https://rest.clicksend.com/v3
   baseurl_source: declared
   description: Send and view transactional email.
@@ -95,6 +90,11 @@ apis:
   description: Send and view voice (text-to-speech) messages.
   name: ClickSend Voice API
   slug: clicksend-voice-api
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Manage contact lists.
+  name: ClickSend Contact List API
+  slug: clicksend-contact-list-api
 artifact_total: 29
 collections:
 - collection_type: open
@@ -201,7 +201,7 @@ modified: '2026-07-01'
 name: ClickSend
 nav: Providers
 network: true
-overview: 'ClickSend publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Contact API, ContactList API, and 7 more. Tagged areas include Communications, SMS, MMS, Voice, and Email.
+overview: 'ClickSend publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Contact API, Email API, and 7 more. Tagged areas include Communications, SMS, MMS, Voice, and Email.
 
 
   ClickSend''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -247,7 +247,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

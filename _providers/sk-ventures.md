@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,11 +57,11 @@ modified: '2026-07-21'
 name: SK Ventures
 nav: Providers
 network: true
-overview: 'SK Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Investors, Seed Stage, and Startups.
+overview: 'SK Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Investor, Seed Stage, and Startups.
 
 
   SK Ventures'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 4
+random_paper: 15
 score:
   band: minimal
   composite: 5.2
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -98,7 +98,7 @@ slug: sk-ventures
 tags:
 - Company
 - Venture Capital
-- Investors
+- Investor
 - Seed Stage
 - Startups
 - Technology

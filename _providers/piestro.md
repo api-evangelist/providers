@@ -50,7 +50,7 @@ name: Piestro
 nav: Providers
 network: true
 overview: Piestro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Automation, Food Service, and Restaurant Technology.
-random_paper: 18
+random_paper: 4
 security:
 - kind: domain-security
   name: Piestro Domain Security

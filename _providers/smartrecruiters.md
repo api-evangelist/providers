@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-09-15'
+  score: 21.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -71,19 +71,9 @@ apis:
   slug: smartrecruiters-candidates-api
 - baseURL: https://api.smartrecruiters.com
   baseurl_source: declared
-  description: The Documents API from SmartRecruiters — 1 operation(s) for documents.
-  name: SmartRecruiters Documents API
-  slug: smartrecruiters-documents-api
-- baseURL: https://api.smartrecruiters.com
-  baseurl_source: declared
   description: The Jobs API from SmartRecruiters — 5 operation(s) for jobs.
   name: SmartRecruiters Jobs API
   slug: smartrecruiters-jobs-api
-- baseURL: https://api.smartrecruiters.com
-  baseurl_source: declared
-  description: The Messages API from SmartRecruiters — 1 operation(s) for messages.
-  name: SmartRecruiters Messages API
-  slug: smartrecruiters-messages-api
 - baseURL: https://api.smartrecruiters.com
   baseurl_source: declared
   description: The Postings API from SmartRecruiters — 2 operation(s) for postings.
@@ -94,7 +84,7 @@ apis:
   description: The Teams API from SmartRecruiters — 1 operation(s) for teams.
   name: SmartRecruiters Teams API
   slug: smartrecruiters-teams-api
-artifact_total: 66
+artifact_total: 64
 collections:
 - collection_type: open
   name: API Collection
@@ -307,7 +297,7 @@ modified: '2026-05-19'
 name: SmartRecruiters
 nav: Providers
 network: true
-overview: 'SmartRecruiters publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Candidates API, Documents API, and 4 more. Tagged areas include Human Resources, Recruiting, Talent Acquisition, Applicant Tracking, and HR Technology.
+overview: 'SmartRecruiters publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Candidates API, Jobs API, and 2 more. Tagged areas include Human Resources, Recruiting, Talent Acquisition, Applicant Tracking, and HR Technology.
 
 
   The SmartRecruiters catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -318,7 +308,7 @@ plans:
 - name: Smartrecruiters Plans Pricing
   plan_count: 4
   slug: smartrecruiters-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Smartrecruiters Rate Limits
@@ -352,7 +342,7 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 34.4
+  composite: 34.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.5
@@ -360,11 +350,11 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 62.4
+    contract_quality: 62.9
     developer_ergonomics: 17.9
     discoverability: 81.5
     operational_transparency: 10.5
@@ -375,9 +365,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

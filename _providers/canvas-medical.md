@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -52,19 +52,9 @@ apis:
   slug: canvas-medical-sdk
 - baseURL: https://fumage-{canvas-instance}.canvasmedical.com
   baseurl_source: declared
-  description: Allergy and intolerance records
-  name: Canvas Medical AllergyIntolerance API
-  slug: canvas-medical-allergyintolerance-api
-- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
-  baseurl_source: declared
   description: Appointment scheduling and management
   name: Canvas Medical Appointment API
   slug: canvas-medical-appointment-api
-- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
-  baseurl_source: declared
-  description: Care plan management
-  name: Canvas Medical CarePlan API
-  slug: canvas-medical-careplan-api
 - baseURL: https://fumage-{canvas-instance}.canvasmedical.com
   baseurl_source: declared
   description: Care team coordination
@@ -102,11 +92,6 @@ apis:
   slug: canvas-medical-diagnosticreport-api
 - baseURL: https://fumage-{canvas-instance}.canvasmedical.com
   baseurl_source: declared
-  description: Clinical documents and attachments
-  name: Canvas Medical DocumentReference API
-  slug: canvas-medical-documentreference-api
-- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
-  baseurl_source: declared
   description: Clinical encounters and visits
   name: Canvas Medical Encounter API
   slug: canvas-medical-encounter-api
@@ -125,11 +110,6 @@ apis:
   description: Physical practice locations
   name: Canvas Medical Location API
   slug: canvas-medical-location-api
-- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
-  baseurl_source: declared
-  description: Medication prescriptions and orders
-  name: Canvas Medical MedicationRequest API
-  slug: canvas-medical-medicationrequest-api
 - baseURL: https://fumage-{canvas-instance}.canvasmedical.com
   baseurl_source: declared
   description: FHIR server capabilities
@@ -190,6 +170,26 @@ apis:
   description: Clinical and administrative tasks
   name: Canvas Medical Task API
   slug: canvas-medical-task-api
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Allergy and intolerance records
+  name: Canvas Medical Allergy Intolerance API
+  slug: canvas-medical-allergy-intolerance-api
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Care plan management
+  name: Canvas Medical Care plan API
+  slug: canvas-medical-care-plan-api
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Clinical documents and attachments
+  name: Canvas Medical Document Reference API
+  slug: canvas-medical-document-reference-api
+- baseURL: https://fumage-{canvas-instance}.canvasmedical.com
+  baseurl_source: declared
+  description: Medication prescriptions and orders
+  name: Canvas Medical Medication Request API
+  slug: canvas-medical-medication-request-api
 arazzos:
 - description: Locate a patient, find a practitioner's schedule, search for a free slot, then book and confirm an appointment.
   name: Canvas Medical Appointment Scheduling
@@ -556,7 +556,7 @@ modified: '2026-08-14'
 name: Canvas Medical
 nav: Providers
 network: true
-overview: 'Canvas Medical publishes 28 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, Appointment API, CarePlan API, and 25 more. Tagged areas include EHR, FHIR, Healthcare, Electronic Health Records, and Virtual Care.
+overview: 'Canvas Medical publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Appointment API, CareTeam API, Claim API, and 25 more. Tagged areas include EHR, FHIR, Healthcare, Electronic Health Records, and Virtual Care.
 
 
   The Canvas Medical catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -630,7 +630,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

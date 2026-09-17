@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Bloomberg's primary secure messaging service for financial professionals, providing real-time message delivery, group chats, broadcast lists, and file sharing within the Bloomberg Terminal and Bloombe
@@ -44,6 +44,10 @@ apis:
   slug: bloomberg-email-gateway
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -94,19 +98,19 @@ finops:
   slug: bloomberg-message-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-message.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Message
 nav: Providers
 network: true
 overview: 'Bloomberg Message publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Messaging, Financial Communication, Bloomberg IB, Compliance, and Trading Communication.
 
 
-  Bloomberg Message''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Message''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Message Plans Pricing
   plan_count: 3
   slug: bloomberg-message-plans-pricing
-random_paper: 17
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Bloomberg Message Rate Limits
@@ -131,7 +135,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -160,5 +164,5 @@ use_cases:
   name: Compliance Records
 - description: Share market commentary and analysis with clients through broadcast messages.
   name: Market Commentary
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

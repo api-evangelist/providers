@@ -34,37 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Aalto's own Red Hat 3scale API gateway, the front door to every institution-operated API at Aalto. Five API products are documented on the portal; the underlying ActiveDocs index is public and lists f
   name: Aalto API Gateway
   slug: api-gateway
-- baseURL: https://facilities.api.aalto.fi/api/aalto
-  baseurl_source: declared
-  description: Buildings, building details, opening hours, rooms and room reservations across Aalto's Espoo campus. OpenAPI 3.0.1, version 1.0.2, contact it-integ@aalto.fi, served from facilities.api.aalto.fi. Docum
-  name: Aalto Facilities API
-  slug: facilities
-- baseURL: https://course.api.aalto.fi/api/sisu/v1
-  baseurl_source: declared
-  description: Course units and course-unit realisations drawn from SISU, the Finnish higher-education student information system Aalto runs. OpenAPI 3.0.1, version 0.0.18, titled "Sisu API (replaces /oodiapi)" — th
-  name: Aalto Course API (SISU)
-  slug: course-sisu
-- baseURL: https://research.api.aalto.fi/api/acris/v1
-  baseurl_source: declared
-  description: Aalto's own four-path gateway contract over Acris, its research information system, exposing research outputs, a single output by id, an enhanced output view and output fingerprints. OpenAPI 3.0.0 ser
-  name: Aalto Research Publications API (Acris gateway)
-  slug: acris-research
-- baseURL: https://api.aalto.fi/api/dw_projects
-  baseurl_source: declared
-  description: Administrative reference data — cost centres, projects, departments and schools — from Aalto's data warehouse. OpenAPI 3.0.0, version 1.0.10, X-ApiKey header, served from api.aalto.fi. The contract st
-  name: Aalto Projects and Cost Centers API
-  slug: projects-costcenters
-- baseURL: https://aaltopeople.api.aalto.fi/api/aaltopeople/v1
-  baseurl_source: declared
-  description: A two-path proxy over Aaltopeople returning groups and public staff profiles. OpenAPI 3.0.1, version 1.0.3, contact it-integ@aalto.fi, served from aaltopeople.api.aalto.fi. Present in the public Activ
-  name: Aalto People Profile API
-  slug: people-profile
 - description: 'The Oodi-sourced course API, still published on the portal and explicitly marked deprecated: "This API source is OODI and should not be used." Swagger 2.0, two paths, superseded by the SISU Course API'
   name: Aalto Open API — Course API (Oodi, deprecated)
   slug: course-oodi-deprecated
@@ -86,7 +61,57 @@ apis:
 - description: sisu.aalto.fi is Aalto's deployment of SISU, the student information system built by Funidata, a company jointly owned by Finnish universities. It is the system of record behind the SISU Course API on
   name: SISU student information system (Funidata)
   slug: sisu-sis
-artifact_total: 21
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: Aalto Building related data
+  name: Aalto University Buildings API
+  slug: aalto-buildings-api
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: The Groups API from Aalto University — 1 operation(s) for groups.
+  name: Aalto University Groups API
+  slug: aalto-groups-api
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: The Organisational Data API from Aalto University — 2 operation(s) for organisational data.
+  name: Aalto University Organisational Data API
+  slug: aalto-organisational-data-api
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: The Profiles API from Aalto University — 1 operation(s) for profiles.
+  name: Aalto University Profiles API
+  slug: aalto-profiles-api
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: The Projects API from Aalto University — 1 operation(s) for projects.
+  name: Aalto University Projects API
+  slug: aalto-projects-api
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: The research-outputs API from Aalto University — 3 operation(s) for research-outputs.
+  name: Aalto University Research Outputs API
+  slug: aalto-research-outputs-api
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: The research-outputs-enhanced API from Aalto University — 1 operation(s) for research-outputs-enhanced.
+  name: Aalto University Research Outputs Enhanced API
+  slug: aalto-research-outputs-enhanced-api
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: Room reservations.
+  name: Aalto University Reservations API
+  slug: aalto-reservations-api
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: The SISU Courses API from Aalto University — 4 operation(s) for sisu courses.
+  name: Aalto University SISU Courses API
+  slug: aalto-sisu-courses-api
+- baseURL: https://3scale.apps.ocp4.aalto.fi
+  baseurl_source: declared
+  description: The Cost Centers API from Aalto University — 1 operation(s) for cost centers.
+  name: Aalto University Cost Centers API
+  slug: aalto-cost-centers-api
+artifact_total: 26
 common:
 - group: company
   title: ''
@@ -226,7 +251,7 @@ modified: '2026-08-30'
 name: Aalto University
 nav: Providers
 network: true
-overview: 'Aalto University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Aalto Facilities API, Aalto Course API (SISU), Aalto Research Publications API (Acris gateway), and 2 more. Tagged areas include University, Higher Education, Education, Finland, and Europe.
+overview: 'Aalto University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Buildings API, Groups API, Organisational Data API, and 7 more. Tagged areas include University, Higher Education, Education, Finland, and Europe.
 
 
   The Aalto University catalog on APIs.io includes 1 JSON-LD context.
@@ -237,26 +262,26 @@ plans:
 - name: Aalto Plans Pricing
   plan_count: 2
   slug: aalto-plans-pricing
-random_paper: 4
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Aalto Rate Limits
   slug: aalto-rate-limits
 score:
   band: developing
-  composite: 42.2
+  composite: 43.5
   coverage:
     artifact_dirs: 13
-    catalog_earned: 63.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 54.7
+    contract_quality: 60.2
     developer_ergonomics: 38.1
     discoverability: 55.6
     operational_transparency: 23.7
@@ -274,8 +299,8 @@ score:
     contracts:
       callable: 60.0
       derived: 0
-      marker_coverage: 100.0
-      total: 5
+      marker_coverage: 0.0
+      total: 10
   regulatory:
     applies: true
     matched_via: tags
@@ -283,7 +308,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,7 +107,7 @@ plans:
 - name: Medix Infusion Plans Pricing
   plan_count: 0
   slug: medix-infusion-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Medix Infusion Rate Limits
@@ -149,7 +149,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

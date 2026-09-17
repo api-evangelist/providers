@@ -29,7 +29,7 @@ name: Koo
 nav: Providers
 network: true
 overview: Koo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Social Networking, Microblogging, and India.
-random_paper: 14
+random_paper: 21
 security:
 - kind: domain-security
   name: Koo Domain Security

@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://freidok.uni-freiburg.de/jsonApi/v1/
-  baseurl_source: declared
-  description: Read-only JSON API for FreiDok plus, the institutional repository and university bibliography built and operated by the Universitätsbibliothek Freiburg on the university's own host. Four anonymous col
-  name: FreiDok plus JSON API
-  slug: freidok-json
 - description: OAI-PMH 2.0 metadata-harvesting endpoint for FreiDok plus, on the university's own host. Identify (probed 2026-09-01) reports repositoryName "FreiDok plus", repositoryIdentifier freidok.uni-freiburg.d
   name: FreiDok plus OAI-PMH
   slug: freidok-oai
@@ -65,7 +60,27 @@ apis:
 - description: The institution's Research Organization Registry identifier, https://ror.org/0245cg223, carrying its names in German and English and its website. Recorded as a registry membership; the ROR API is ROR'
   name: ROR organization identifier
   slug: ror-record
-artifact_total: 21
+- baseURL: https://freidok.uni-freiburg.de/jsonApi/v1/
+  baseurl_source: declared
+  description: The institutions API from University of Freiburg — 1 operation(s) for institutions.
+  name: University of Freiburg Institutions API
+  slug: university-of-freiburg-institutions-api
+- baseURL: https://freidok.uni-freiburg.de/jsonApi/v1/
+  baseurl_source: declared
+  description: The persons API from University of Freiburg — 1 operation(s) for persons.
+  name: University of Freiburg Persons API
+  slug: university-of-freiburg-persons-api
+- baseURL: https://freidok.uni-freiburg.de/jsonApi/v1/
+  baseurl_source: declared
+  description: The projects API from University of Freiburg — 1 operation(s) for projects.
+  name: University of Freiburg Projects API
+  slug: university-of-freiburg-projects-api
+- baseURL: https://freidok.uni-freiburg.de/jsonApi/v1/
+  baseurl_source: declared
+  description: The publications API from University of Freiburg — 1 operation(s) for publications.
+  name: University of Freiburg Publications API
+  slug: university-of-freiburg-publications-api
+artifact_total: 24
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/security/university-of-freiburg-vulnerability-disclosure.yml
@@ -184,7 +199,7 @@ modified: '2026-09-01'
 name: University of Freiburg
 nav: Providers
 network: true
-overview: 'University of Freiburg publishes 1 API on the [APIs.io](https://apis.io/) network: FreiDok plus JSON API. Tagged areas include Education, Higher Education, University, Research, and Research Data.
+overview: 'University of Freiburg publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Institutions API, Persons API, Projects API, and 1 more. Tagged areas include Education, Higher Education, University, Research, and Research Data.
 
 
   The University of Freiburg catalog on APIs.io includes 1 JSON-LD context.
@@ -195,14 +210,14 @@ plans:
 - name: University Of Freiburg Plans Pricing
   plan_count: 2
   slug: university-of-freiburg-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: University Of Freiburg Rate Limits
   slug: university-of-freiburg-rate-limits
 score:
   band: developing
-  composite: 44.0
+  composite: 44.2
   coverage:
     artifact_dirs: 14
     catalog_earned: 74.0
@@ -210,11 +225,11 @@ score:
     catalog_gap: 41.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 62.7
+    contract_quality: 63.7
     developer_ergonomics: 21.4
     discoverability: 79.6
     operational_transparency: 36.8
@@ -233,7 +248,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 1
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
@@ -241,7 +256,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

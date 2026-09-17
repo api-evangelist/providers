@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'SilverStripe''s GraphQL API provides a content API layer for getting data in and out of the CMS. It supports schema generation from DataObject models, custom types and queries, and extensible schemas. '
@@ -148,7 +148,7 @@ plans:
 - name: Silverstripe Plans Pricing
   plan_count: 2
   slug: silverstripe-plans-pricing
-random_paper: 1
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Silverstripe Rate Limits
@@ -176,7 +176,7 @@ score:
     score: 65.0
   previous_composite: 40.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

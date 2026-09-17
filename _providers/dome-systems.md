@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -180,7 +180,7 @@ overview: 'Dome Systems is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Dome Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 19
+random_paper: 4
 score:
   band: thin
   composite: 35.1
@@ -210,7 +210,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

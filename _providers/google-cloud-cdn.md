@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,13 +52,13 @@ apis:
 - baseURL: https://compute.googleapis.com
   baseurl_source: declared
   description: Invalidate cached content
-  name: Google Cloud CDN CacheInvalidation API
-  slug: google-cloud-cdn-cacheinvalidation-api
+  name: Google Cloud CDN Cache Invalidation API
+  slug: google-cloud-cdn-cache-invalidation-api
 - baseURL: https://compute.googleapis.com
   baseurl_source: declared
   description: Manage URL maps for routing
-  name: Google Cloud CDN UrlMaps API
-  slug: google-cloud-cdn-urlmaps-api
+  name: Google Cloud CDN URL maps API
+  slug: google-cloud-cdn-url-maps-api
 artifact_total: 22
 collections:
 - collection_type: postman
@@ -190,7 +190,7 @@ modified: '2026-05-19'
 name: Google Cloud CDN
 nav: Providers
 network: true
-overview: 'Google Cloud CDN publishes 3 APIs on the [APIs.io](https://apis.io/) network: BackendServices API, CacheInvalidation API, and UrlMaps API. Tagged areas include Caching, CDN, Content Delivery, Google Cloud, and Networking.
+overview: 'Google Cloud CDN publishes 3 APIs on the [APIs.io](https://apis.io/) network: BackendServices API, Cache Invalidation API, and URL maps API. Tagged areas include Caching, CDN, Content Delivery, Google Cloud, and Networking.
 
 
   The Google Cloud CDN catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -201,7 +201,7 @@ plans:
 - name: Google Cloud Cdn Plans Pricing
   plan_count: 3
   slug: google-cloud-cdn-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Google Cloud Cdn Rate Limits
@@ -249,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

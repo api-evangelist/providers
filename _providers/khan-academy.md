@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Legacy REST API previously documented at api-explorer.khanacademy.org (now redirects). Some endpoints under https://www.khanacademy.org/api/v1/ remain accessible for content topic trees and exercise d
@@ -105,7 +105,7 @@ plans:
 - name: Khan Academy Plans Pricing
   plan_count: 1
   slug: khan-academy-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Khan Academy Rate Limits
@@ -136,7 +136,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

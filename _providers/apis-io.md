@@ -14,7 +14,8 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: near-conformant
     agent_skills: true
@@ -25,34 +26,31 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
-    idempotency: verified
+    idempotency: documented
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: verified
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 75.0
-  scored_at: '2026-09-15'
+  score: 72.1
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 1
-  human_in_the_loop: 0
+- acting_count: 48
+  human_in_the_loop: 12
   name: Apis Io Agentic Access
-  operation_count: 64
+  operation_count: 274
   slug: apis-io-agentic-access
-  summary_line: 64 operations · 1 acting
+  summary_line: 274 operations · 48 acting · 12 human-in-the-loop
 api_count: 19
 apis:
 - description: Discover a domain's machine-readable API surface and submit a provider for review — the Add-API door, documented first-party from the serving Lambda.
   name: APIs.io Submit API
   slug: apisio-submit-api
-- description: Index of HTTP application programming interfaces.
-  name: APIs.io APIs API
-  slug: apis-io-apis-api
 - description: The API Evangelist areas taxonomy — curated topic collections (authentication, webhooks, payments, …), each a scored provider index with its own site. Pro.
   name: APIs.io Areas API
   slug: apis-io-areas-api
@@ -101,6 +99,21 @@ apis:
 - description: Venture-capital firms as a first-class entity — fund identity plus a network-matched, rated portfolio graph, and the reverse edge from a provider to the VCs that back it. 4 operations of the APIs.io A
   name: APIs.io Venture Capital API
   slug: apis-io-venture-capital-api
+- baseURL: https://apis.io
+  baseurl_source: declared
+  description: Claim, correct and improve your own listing. Most operations require the Influence plan; reporting that our data is wrong is free and always will be.
+  name: APIs.io Provider Control API
+  slug: apis-io-provider-control-api
+- baseURL: https://apis.io
+  baseurl_source: declared
+  description: The Watches API from APIs.io — 0 operation(s) for watches.
+  name: APIs.io Watches API
+  slug: apis-io-watches-api
+- baseURL: https://apis.io
+  baseurl_source: declared
+  description: Individual APIs, each owned by a provider and described by artifacts.
+  name: APIs.io AP Is API
+  slug: apis-io-apis-api
 arazzos:
 - description: Run two keyword searches against APIs.io and compare how many APIs the index holds for each term.
   name: APIs.io Compare Keyword Coverage
@@ -114,7 +127,7 @@ arazzos:
 - description: Submit a valid APIs.json to the APIs.io index, then search the registry to confirm the submitted API appears.
   name: APIs.io Submit and Verify API
   slug: apis-io-submit-and-verify-api-workflow
-artifact_total: 98
+artifact_total: 100
 asyncapis:
 - description: 'Events APIs.io sends to a provider watching their own listing. Register with `POST /v1/me/watch/{slug}` (Influence), supplying `callback_url` for the signed-webhook delivery described here, `contact` '
   name: APIs.io Watch Events
@@ -190,6 +203,15 @@ collections:
   name: .io Search APIs Tags API
   slug: open-apis-io-tags-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: https://apis.io/artifacts/overlays/apis-io-apis-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/mcp/apis-io-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/apis-io-mcp.yml
 - group: docs
   title: ''
   type: AsyncAPI
@@ -461,6 +483,10 @@ common:
   title: ''
   type: Go SDK
   url: https://github.com/api-evangelist/apis-io/tree/main/sdk/go
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:info@apis.io
 created: '2026-03-26'
 description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Postman collections, JSON Schema, JSON-LD contexts, Spectral rulesets, vocabularies, OAuth scopes, plans, rate limits and FinOps profiles — and lets developers and agents search that catalog by keyword, capability, tag, industry, region, artifact type and quality band. As of August 2026 the network published roughly 26,414 providers, 109,100 APIs and 120,595 schemas across 71 industries and 77 curated areas. Every provider is scored with the Kin Score, a 0–100 composite across six weighted facets plus a standalone agent-readiness score. The same read-only OpenAPI 3.1 contract powers three surfaces — a REST API at https://apis.io/api/v1, a Streamable-HTTP MCP server at https://apis.io/mcp,
   and a set of published Agent Skills — alongside an RFC 9727 api-catalog linkset, an llms.txt and an APIs.json self-description. It is maintained by API Evangelist and serves both API producers submitting profiles and API consumers discovering APIs.
@@ -596,28 +622,28 @@ jsonld:
   slug: apis-io-context
 layout: provider
 mcp_servers:
-- description: The APIs.io catalog as a Model Context Protocol server over streamable HTTP — 137 tools and 36 guided prompts across API, provider, tag, artifact, operation, cohort and rating discovery. Anonymous cal
-  name: APIs.io MCP Server
-  slug: mcp
-- description: 'Hosted streamable-HTTP endpoint for the APIs.io catalog MCP server. Descriptor and tool inventory: mcp/apis-io-mcp.yml.'
+- description: ''
   name: APIs.io MCP Server
   slug: apisio-mcp-server
+- description: 'Hosted streamable-HTTP endpoint for the APIs.io catalog MCP server. Descriptor and tool inventory: mcp/apis-io-mcp.yml.'
+  name: APIs.io MCP Server
+  slug: apisio-mcp-server-2
 modified: '2026-09-11'
 name: APIs.io
 nav: Providers
 network: true
-overview: 'APIs.io publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Submit API, APIs API, Areas API, and 15 more. Tagged areas include API Aggregation, API Directory, API Discovery, API Indexing, and API Rating.
+overview: 'APIs.io publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Submit API, Areas API, Artifact Types API, and 17 more. Tagged areas include API Aggregation, API Directory, API Discovery, API Indexing, and API Rating.
 
 
   The APIs.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, sandbox, and 60 more developer resources.'
+  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, sandbox, and 63 more developer resources.'
 plans:
 - name: Apis Io Plans Pricing
   plan_count: 4
   slug: apis-io-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 8
   name: Apis Io Rate Limits
@@ -651,7 +677,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 90.0
+  composite: 89.4
   coverage:
     artifact_dirs: 38
     catalog_earned: 101.5
@@ -659,11 +685,11 @@ score:
     catalog_gap: 13.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 84.2
     contract_governance: 45.5
-    contract_quality: 80.7
+    contract_quality: 78.4
     developer_ergonomics: 95.2
     discoverability: 92.6
     operational_transparency: 76.3
@@ -675,11 +701,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 21
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -706,7 +732,7 @@ tags:
 - API Indexing
 - API Rating
 - API Search
-- APIs.json
+- Apis.json
 - Search Engines
 - API Catalog
 - Agent Discovery

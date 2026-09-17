@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The agent-callable commerce surface for LinusBio''s Traced environmental exposure test, served from the traced.life storefront. It implements the Universal Commerce Protocol (UCP) 2026-04-08 over MCP: '
@@ -167,7 +167,7 @@ plans:
 - name: Linusbio Plans Pricing
   plan_count: 0
   slug: linusbio-plans-pricing
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Linusbio Rate Limits
@@ -212,7 +212,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

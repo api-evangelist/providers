@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Shippers Group provides third-party logistics services including warehousing, co-packaging, fulfillment, and transportation management. As a national 3PL provider operating across 12 US locations,
@@ -146,7 +146,7 @@ plans:
 - name: Shippers Group Plans Pricing
   plan_count: 3
   slug: shippers-group-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Shippers Group Rate Limits
@@ -187,7 +187,7 @@ score:
     - north-america
   previous_composite: 19.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

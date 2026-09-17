@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -79,11 +79,6 @@ apis:
   slug: hellosign-fax-line-api
 - baseURL: https://api.hellosign.com/v3
   baseurl_source: declared
-  description: '{''$ref'': ''./markdown/en/tags/oauth-tag-description.md''}'
-  name: Dropbox Sign (HelloSign) OAuth API
-  slug: hellosign-oauth-api
-- baseURL: https://api.hellosign.com/v3
-  baseurl_source: declared
   description: '{''$ref'': ''./markdown/en/tags/report-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Report API
   slug: hellosign-report-api
@@ -112,6 +107,11 @@ apis:
   description: The Callbacks and Events API from Dropbox Sign (HelloSign) — 0 operation(s) for callbacks and events.
   name: Dropbox Sign (HelloSign) Callbacks and Events API
   slug: hellosign-callbacks-and-events-api
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/oauth-tag-description.md''}'
+  name: Dropbox Sign (HelloSign) O Auth API
+  slug: hellosign-oauth-api
 artifact_total: 46
 asyncapis:
 - description: ''
@@ -194,6 +194,10 @@ collections:
   name: Dropbox Sign Account Unclaimed Draft API
   slug: open-hellosign-unclaimed-draft-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://hellosign.com
 - group: other
   title: ''
   type: ParentCompany
@@ -372,18 +376,18 @@ mcp_servers:
 - description: Official hosted MCP server published by Dropbox Sign (formerly HelloSign) for AI client integration (Claude Code, Cursor, etc.), advertised in the docs llms.txt. Serves the Dropbox Sign developer docu
   name: Dropbox Sign (HelloSign) MCP Server
   slug: dropbox-sign-hellosign-mcp-server
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Dropbox Sign (HelloSign)
 nav: Providers
 network: true
-overview: 'Dropbox Sign (HelloSign) publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Bulk Send Job API, and 10 more. Tagged areas include Company, E-Signature, Electronic Signatures, Documents, and Digital Agreements.
+overview: 'Dropbox Sign (HelloSign) publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Bulk Send Job API, and 10 more. Tagged areas include Company, E-Signature, Electronic Signature, Documents, and Digital Agreements.
 
 
   The Dropbox Sign (HelloSign) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
-random_paper: 20
+  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 31 more developer resources.'
+random_paper: 19
 scopes:
 - name: Hellosign Scopes
   scope_count: 7
@@ -391,7 +395,7 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 56.6
+  composite: 56.7
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -399,11 +403,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 64.0
+    contract_quality: 64.2
     developer_ergonomics: 64.9
     discoverability: 75.9
     operational_transparency: 50.0
@@ -419,7 +423,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -446,11 +450,11 @@ slug: hellosign
 tags:
 - Company
 - E-Signature
-- Electronic Signatures
+- Electronic Signature
 - Documents
 - Digital Agreements
 - Signature Workflow
 - Embedded Signing
 - Compliance
-website: https://developers.hellosign.com/
+website: https://hellosign.com
 ---

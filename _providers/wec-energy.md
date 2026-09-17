@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Web and mobile API powering the WEC Energy Group customer self-service portal. Enables customers to view account information, pay bills, manage alerts, view energy usage history, and report outages. A
@@ -167,7 +167,7 @@ press:
 - date: '2026-05-25'
   title: WEC Energy Group announces plan to increase dividend by ...
   url: https://investor.wecenergygroup.com/investors/news-releases/press-release-details/2025/WEC-Energy-Group-announces-plan-to-increase-dividend-by-6-7-percent/default.aspx
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Wec Energy Rate Limits
@@ -209,7 +209,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

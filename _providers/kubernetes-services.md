@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -95,19 +95,19 @@ apis:
   slug: kubernetes-services-namespaces-api
 - baseURL: https://kubernetes.default.svc
   baseurl_source: spec
-  description: NetworkPolicy resources controlling Pod-level traffic ingress and egress based on label selectors, namespace selectors, and IP CIDR blocks.
-  name: Kubernetes Services NetworkPolicy API
-  slug: kubernetes-services-networkpolicy-api
-- baseURL: https://kubernetes.default.svc
-  baseurl_source: spec
   description: The Services API from Kubernetes Services — 1 operation(s) for services.
-  name: Kubernetes Services Services API
+  name: Kubernetes Services API
   slug: kubernetes-services-services-api
 - baseURL: https://kubernetes.default.svc
   baseurl_source: spec
+  description: NetworkPolicy resources controlling Pod-level traffic ingress and egress based on label selectors, namespace selectors, and IP CIDR blocks.
+  name: Kubernetes Services Network Policy API
+  slug: kubernetes-services-network-policy-api
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
   description: Status subresource operations for Services, used to update load balancer provisioning state and conditions.
-  name: Kubernetes Services ServiceStatus API
-  slug: kubernetes-services-servicestatus-api
+  name: Kubernetes Services Service Status API
+  slug: kubernetes-services-service-status-api
 artifact_total: 90
 asyncapis:
 - description: The Kubernetes Services watch API provides streaming event notifications for networking resources including Services, Ingresses, EndpointSlices, NetworkPolicies, and Gateway API resources. Clients sub
@@ -423,7 +423,7 @@ jsonld:
   property_count: 28
   slug: kubernetes-services-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Kubernetes Services
 nav: Providers
 network: true
@@ -438,7 +438,7 @@ plans:
 - name: Kubernetes Services Plans Pricing
   plan_count: 1
   slug: kubernetes-services-plans-pricing
-random_paper: 19
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Kubernetes Services Rate Limits
@@ -495,7 +495,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

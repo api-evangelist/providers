@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,16 +46,56 @@ api_count: 1
 apis:
 - baseURL: https://www.fmcs.gov/wp-json
   baseurl_source: declared
-  description: The anonymous, read-only WordPress REST API behind www.fmcs.gov. Serves the agency's 117 programme and services pages, its 1,122-item document library (where the monthly F-7 collective bargaining noti
-  name: FMCS Public Content API
-  slug: fmcs-public-content-api
-artifact_total: 9
+  description: The published neutrals directory and site author list. Personal data.
+  name: Federal Mediation and Conciliation Service Directory API
+  slug: federal-mediation-and-conciliation-service-directory-api
+- baseURL: https://www.fmcs.gov/wp-json
+  baseurl_source: declared
+  description: Registered content types, taxonomies, statuses and oEmbed.
+  name: Federal Mediation and Conciliation Service Discovery API
+  slug: federal-mediation-and-conciliation-service-discovery-api
+- baseURL: https://www.fmcs.gov/wp-json
+  baseurl_source: declared
+  description: The media library — F-7 notice workbooks, FOIA reports, audit reports and programme PDFs.
+  name: Federal Mediation and Conciliation Service Documents API
+  slug: federal-mediation-and-conciliation-service-documents-api
+- baseURL: https://www.fmcs.gov/wp-json
+  baseurl_source: declared
+  description: FMCS training and convening announcements and their registration taxonomies.
+  name: Federal Mediation and Conciliation Service Events API
+  slug: federal-mediation-and-conciliation-service-events-api
+- baseURL: https://www.fmcs.gov/wp-json
+  baseurl_source: declared
+  description: The FAQ post type classified by the FMCS service taxonomy.
+  name: Federal Mediation and Conciliation Service FAQ API
+  slug: federal-mediation-and-conciliation-service-faq-api
+- baseURL: https://www.fmcs.gov/wp-json
+  baseurl_source: declared
+  description: Posts published to www.fmcs.gov, including the agency history timeline.
+  name: Federal Mediation and Conciliation Service News API
+  slug: federal-mediation-and-conciliation-service-news-api
+- baseURL: https://www.fmcs.gov/wp-json
+  baseurl_source: declared
+  description: Programme, services and administrative pages.
+  name: Federal Mediation and Conciliation Service Pages API
+  slug: federal-mediation-and-conciliation-service-pages-api
+- baseURL: https://www.fmcs.gov/wp-json
+  baseurl_source: declared
+  description: Cross-type site search.
+  name: Federal Mediation and Conciliation Service Search API
+  slug: federal-mediation-and-conciliation-service-search-api
+- baseURL: https://www.fmcs.gov/wp-json
+  baseurl_source: declared
+  description: Categories, tags and the FMCS service taxonomy.
+  name: Federal Mediation and Conciliation Service Taxonomy API
+  slug: federal-mediation-and-conciliation-service-taxonomy-api
+artifact_total: 17
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/federal-mediation-and-conciliation-service-wp-content-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/openapi/_original/federal-mediation-and-conciliation-service-wp-content-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/federal-mediation-and-conciliation-service-wp-content-openapi.yml
+  url: openapi/_original/federal-mediation-and-conciliation-service-wp-content-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/federal-mediation-and-conciliation-service/refs/heads/main/overlays/federal-mediation-and-conciliation-service-wp-content-overlay.yaml
   title: ''
@@ -175,11 +215,11 @@ examples:
   slug: federal-mediation-and-conciliation-service-types
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/federal-mediation-and-conciliation-service.png
 layout: provider
-modified: '2026-09-09'
+modified: '2026-09-16'
 name: Federal Mediation and Conciliation Service
 nav: Providers
 network: true
-overview: 'Federal Mediation and Conciliation Service publishes 1 API on the [APIs.io](https://apis.io/) network: FMCS Public Content API. Tagged areas include Federal-Government, Labor, Mediation, Arbitration, and Dispute Resolution.
+overview: 'Federal Mediation and Conciliation Service publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Directory API, Discovery API, Documents API, and 6 more. Tagged areas include Federal-Government, Labor, Mediation, Arbitration, and Dispute Resolution.
 
 
   Federal Mediation and Conciliation Service''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
@@ -187,7 +227,7 @@ plans:
 - name: Federal Mediation And Conciliation Service Plans Pricing
   plan_count: 0
   slug: federal-mediation-and-conciliation-service-plans-pricing
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Federal Mediation And Conciliation Service Rate Limits
@@ -216,9 +256,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 9
       marker_coverage: 100.0
-      total: 1
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -228,7 +268,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -30,24 +30,21 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.3
-  scored_at: '2026-09-15'
+  score: 30.6
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 135
-  human_in_the_loop: 1
+- acting_count: 19
+  human_in_the_loop: 0
   name: Nuix Agentic Access
-  operation_count: 241
+  operation_count: 34
   slug: nuix-agentic-access
-  summary_line: 241 operations · 135 acting · 1 human-in-the-loop
+  summary_line: 34 operations · 19 acting
 api_count: 1
 apis:
-- description: Primary RESTful service for processing unstructured data, managing forensic cases, ingesting evidence, running search queries, performing OCR and entity extraction, and orchestrating asynchronous proc
-  name: Nuix Core Engine REST API
-  slug: nuix-core-engine-rest-api
 - description: GraphQL-based API for querying and managing discovery data within Nuix Discover, supporting queries and mutations for document review, production sets, and legal analytics workflows.
   name: Nuix Discover Connect API
   slug: nuix-discover-connect-api
@@ -106,7 +103,7 @@ apis:
   description: The Utility API from Nuix — 3 operation(s) for utility.
   name: Nuix Utility API
   slug: nuix-utility-api
-artifact_total: 368
+artifact_total: 367
 collections:
 - collection_type: open
   name: API Collection
@@ -145,6 +142,10 @@ collections:
   name: NUIX ECC REST API Command Reference Case Utility API
   slug: open-nuix-utility-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://nuix.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/agentic-access/nuix-agentic-access.yml
   title: ''
@@ -1227,22 +1228,22 @@ jsonld:
   property_count: 7
   slug: nuix-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Nuix
 nav: Providers
 network: true
-overview: 'Nuix publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Core Engine REST API, Case API, Collection and Survey API, and 9 more. Tagged areas include Forensics, eDiscovery, Investigations, Compliance, and Data Processing.
+overview: 'Nuix publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Case API, Collection and Survey API, Collection Configuration API, and 8 more. Tagged areas include Forensics, eDiscovery, Investigations, Compliance, and Data Processing.
 
 
   The Nuix catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Nuix''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, status page, support, and 8 more developer resources.'
+  Nuix''s developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, status page, support, and 9 more developer resources.'
 plans:
 - name: Nuix Plans Pricing
   plan_count: 4
   slug: nuix-plans-pricing
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Nuix Rate Limits
@@ -1283,9 +1284,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1313,5 +1314,5 @@ tags:
 - Data Processing
 - Legal Technology
 - Intelligence
-website: https://developer.nuix.com/
+website: https://nuix.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Scrapy is an open-source Python web crawling framework for extracting structured data from websites using spiders and built-in data pipelines.
@@ -82,7 +82,7 @@ plans:
 - name: Scrapy Plans Pricing
   plan_count: 3
   slug: scrapy-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Scrapy Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

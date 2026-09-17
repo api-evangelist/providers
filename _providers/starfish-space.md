@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -486,11 +486,11 @@ modified: '2026-08-02'
 name: Starfish Space
 nav: Providers
 network: true
-overview: 'Starfish Space publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Block Directory API, Block Patterns API, Block Renderer API, and 31 more. Tagged areas include Company, Aerospace, Space, Satellites, and Satellite Servicing.
+overview: 'Starfish Space publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Block Directory API, Block Patterns API, Block Renderer API, and 31 more. Tagged areas include Company, Aerospace, Space, Satellite, and Satellite Servicing.
 
 
   Starfish Space''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 9
+random_paper: 7
 scopes:
 - name: Starfish Space Scopes
   scope_count: 1
@@ -526,7 +526,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -546,7 +546,7 @@ tags:
 - Company
 - Aerospace
 - Space
-- Satellites
+- Satellite
 - Satellite Servicing
 - Spacecraft
 - Space Robotics

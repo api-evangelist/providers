@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: bugsnag-comments-api
 - baseURL: https://api.bugsnag.com
   baseurl_source: declared
-  description: Access information about the currently authenticated user.
-  name: bugsnag CurrentUser API
-  slug: bugsnag-currentuser-api
-- baseURL: https://api.bugsnag.com
-  baseurl_source: declared
   description: Access and manage errors within projects. Errors represent groups of similar events that have been detected by Bugsnag.
   name: bugsnag Errors API
   slug: bugsnag-errors-api
@@ -80,11 +75,6 @@ apis:
   description: Access individual error events. Events represent individual occurrences of an error within a project.
   name: bugsnag Events API
   slug: bugsnag-events-api
-- baseURL: https://api.bugsnag.com
-  baseurl_source: declared
-  description: Send error and exception notifications to Bugsnag. Each notification can contain one or more events representing individual error occurrences.
-  name: bugsnag Notifications API
-  slug: bugsnag-notifications-api
 - baseURL: https://api.bugsnag.com
   baseurl_source: declared
   description: Access and manage organizations. An organization is the top-level entity in Bugsnag that contains projects and collaborators.
@@ -125,7 +115,12 @@ apis:
   description: Access trend data for errors and projects. Trends provide time-series data showing how error rates and stability change over time.
   name: bugsnag Trends API
   slug: bugsnag-trends-api
-artifact_total: 111
+- baseURL: https://api.bugsnag.com
+  baseurl_source: declared
+  description: Access information about the currently authenticated user.
+  name: Bugsnag Current User API
+  slug: bugsnag-current-user-api
+artifact_total: 110
 asyncapis:
 - description: 'Bugsnag webhooks deliver real-time notifications about error events to a configured callback URL via HTTP POST. The webhook integration sends JSON payloads containing information about the triggering '
   name: Bugsnag Webhook Events
@@ -198,6 +193,10 @@ collections:
   name: Bugsnag Build Builds Trends API
   slug: open-bugsnag-trends-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bugsnag.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/agentic-access/bugsnag-agentic-access.yml
   title: ''
@@ -415,22 +414,22 @@ jsonld:
   property_count: 7
   slug: bugsnag-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Bugsnag
 nav: Providers
 network: true
-overview: 'Bugsnag publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Collaborators API, Comments API, and 13 more.
+overview: 'Bugsnag publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Collaborators API, Comments API, and 12 more.
 
 
   The Bugsnag catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Bugsnag''s developer surface includes authentication and 9 more developer resources.'
+  Bugsnag''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Bugsnag Plans Pricing
   plan_count: 4
   slug: bugsnag-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Bugsnag Rate Limits
@@ -471,7 +470,7 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 66.9
+    contract_quality: 67.0
     developer_ergonomics: 21.4
     discoverability: 50.0
     operational_transparency: 10.5
@@ -479,15 +478,15 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 93.8
+      callable: 93.3
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 15
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -507,4 +506,5 @@ security:
   slug: bugsnag-vulnerability-disclosure
   summary_line: disclosure policy published
 slug: bugsnag
+website: https://bugsnag.com
 ---

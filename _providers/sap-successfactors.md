@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,11 +66,6 @@ apis:
   slug: sap-successfactors-focompany-api
 - baseURL: https://api.successfactors.com/odata/v4
   baseurl_source: declared
-  description: The Oauth API from SAP SuccessFactors — 1 operation(s) for oauth.
-  name: SAP SuccessFactors Oauth API
-  slug: sap-successfactors-oauth-api
-- baseURL: https://api.successfactors.com/odata/v4
-  baseurl_source: declared
   description: The PerPerson API from SAP SuccessFactors — 1 operation(s) for perperson.
   name: SAP SuccessFactors PerPerson API
   slug: sap-successfactors-perperson-api
@@ -89,6 +84,11 @@ apis:
   description: The User('{userId}') API from SAP SuccessFactors — 1 operation(s) for user('{userid}').
   name: SAP SuccessFactors User('{userId}') API
   slug: sap-successfactors-user-userid-api
+- baseURL: https://api.successfactors.com/odata/v4
+  baseurl_source: declared
+  description: The Oauth API from SAP SuccessFactors — 1 operation(s) for oauth.
+  name: SAP SuccessFactors OAUTH API
+  slug: sap-successfactors-oauth-api
 artifact_total: 25
 collections:
 - collection_type: open
@@ -183,11 +183,11 @@ modified: '2026-08-21'
 name: SAP SuccessFactors
 nav: Providers
 network: true
-overview: 'SAP SuccessFactors publishes 8 APIs on the [APIs.io](https://apis.io/) network, including EmpEmployment API, EmpJob API, FOCompany API, and 5 more. Tagged areas include HCM, HR, Human Resources, Talent Management, and Payroll.
+overview: 'SAP SuccessFactors publishes 8 APIs on the [APIs.io](https://apis.io/) network, including EmpEmployment API, EmpJob API, FOCompany API, and 5 more. Tagged areas include HCM, Human Resources, Talent Management, Payroll, and Enterprise.
 
 
   SAP SuccessFactors'' developer surface includes authentication, documentation, and 10 more developer resources.'
-random_paper: 15
+random_paper: 14
 scopes:
 - name: Sap Successfactors Scopes
   scope_count: 0
@@ -220,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -242,7 +242,6 @@ security:
 slug: sap-successfactors
 tags:
 - HCM
-- HR
 - Human Resources
 - Talent Management
 - Payroll

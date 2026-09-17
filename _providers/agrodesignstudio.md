@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: A live, unauthenticated remote Model Context Protocol endpoint served at the AgroBox structural-biology service site. The server is the Wix "Site Visitor Assistant" — a PLATFORM-AUTHORED MCP surface g
@@ -123,7 +123,7 @@ plans:
 - name: Agrodesignstudio Plans Pricing
   plan_count: 0
   slug: agrodesignstudio-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Agrodesignstudio Rate Limits
@@ -164,7 +164,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

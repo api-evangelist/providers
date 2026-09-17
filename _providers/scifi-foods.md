@@ -19,7 +19,7 @@ name: SCiFi Foods
 nav: Providers
 network: true
 overview: SCiFi Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cultivated Meat, Food Technology, Biotechnology, and Cell-Cultured Meat.
-random_paper: 18
+random_paper: 10
 slug: scifi-foods
 tags:
 - Company

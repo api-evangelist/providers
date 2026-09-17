@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'HTTP Reports API for accredited registrars: retrieves weekly domain and billing report files (CSV, gzip-compressed) from the Identity Digital registry. Authenticated with registrar login credentials o'
@@ -90,7 +90,7 @@ overview: 'Donuts publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Donuts'' developer surface includes documentation, API reference, support, engineering blog, and 5 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: emerging
   composite: 16.9
@@ -117,7 +117,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

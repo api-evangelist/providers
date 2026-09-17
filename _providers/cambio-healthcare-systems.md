@@ -16,117 +16,142 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.3
-  scored_at: '2026-09-15'
-api_count: 19
+  score: 39.7
+  scored_at: '2026-09-16'
+api_count: 38
 apis:
-- baseURL: https://api.openservices.cambio.se/api/open/attentionsignals
-  baseurl_source: declared
-  description: 'Intended Use: The intended use of this API is to retrieve attention signals for a given patient. Attention signals can be information about allergies, contagious infections and more that is relevant w'
-  name: Attention signal
-  slug: cambio-healthcare-systems-attention-signal
-- baseURL: https://api.openservices.cambio.se/auth/realms/COS
-  baseurl_source: declared
-  description: OpenId Connect API for Authorizer. This is needed in between the developer portal and Keycloak since it seems the dev portals HTTP client can't speak properly directly with Keycloak for some reason. P
-  name: Authorizer - OpenId Connect
-  slug: cambio-healthcare-systems-authorizer-openid-connect
-- baseURL: https://api.openservices.cambio.se/api/open/appointments
-  baseurl_source: declared
-  description: 'Intended Use: Booked appointments of all types for a patient. The intended use for reading data with this API is in first hand that the API is applied for direct access and should not be used to trans'
-  name: Booked appointments
-  slug: cambio-healthcare-systems-booked-appointments
-- baseURL: https://api.openservices.cambio.se/api/open/contacts
-  baseurl_source: declared
-  description: 'Note: Deprecated All types of care contacts. Part of Cambio Open Services (COS), the business-to-business open API programme that lets third-party applications read and write data in the Cambio COSMIC'
-  name: Care contacts
-  slug: cambio-healthcare-systems-care-contacts
-- baseURL: https://api.openservices.cambio.se/api/open/contacts
-  baseurl_source: declared
-  description: 'Intended Use: The Care Contacts API is intended to be used for fetching all care contacts for a given patient within a certain time frame. The intended use for reading data with this API is in first h'
-  name: Care contacts (v2)
-  slug: cambio-healthcare-systems-care-contacts-v2
-- baseURL: https://api.openservices.cambio.se/api/open/chemistrylabreports
-  baseurl_source: declared
-  description: DEPRECATED All existing chemistry lab results for a given patient. Part of Cambio Open Services (COS), the business-to-business open API programme that lets third-party applications read and write dat
-  name: Chemistry lab results (deprecated)
-  slug: cambio-healthcare-systems-chemistry-lab-results
-- baseURL: https://api.openservices.cambio.se/api/open/chemistrylabreports
-  baseurl_source: declared
-  description: 'Intended Use: The intended use of this API is to retrieve chemistry lab results for a given patient. The result may be filtered using a specific time interval. The intended use for reading data with t'
-  name: Chemistry lab results (v2)
-  slug: cambio-healthcare-systems-chemistry-lab-results-v2
-- baseURL: https://api.openservices.cambio.se/api/open/diagnosis
-  baseurl_source: declared
-  description: 'Diagnosis API in Cambio Open Services (COS), the B2B open API programme for the Cambio COSMIC electronic health record. Part of Cambio Open Services (COS), the business-to-business open API programme '
-  name: Diagnosis (deprecated)
-  slug: cambio-healthcare-systems-diagnosis
-- baseURL: https://api.openservices.cambio.se/api/open/diagnosis
-  baseurl_source: declared
-  description: 'Intended Use: The Diagnosis API is intended to be used for fetching all diagnoses for a specific patient within a specified time frame. The intended use for reading data with this API is in first hand'
-  name: Diagnosis (v2)
-  slug: cambio-healthcare-systems-diagnosis-v2
-- baseURL: https://api.openservices.cambio.se/api/open/fhir
-  baseurl_source: declared
-  description: 'The Cambio FHIR R4 Public Profiles are available at Simplifier. Please look in the implementation guide for available resources: https://fhir.openservices.cambio.se/site/index.html Part of Cambio Open'
-  name: FHIR R4 Public Profiles
-  slug: cambio-healthcare-systems-fhir-r4-public-profiles
-- baseURL: https://api.openservices.cambio.se/api/open/journalnotes
-  baseurl_source: declared
-  description: Journal notes API in Cambio Open Services (COS), the B2B open API programme for the Cambio COSMIC electronic health record. Part of Cambio Open Services (COS), the business-to-business open API progra
-  name: Journal notes (deprecated)
-  slug: cambio-healthcare-systems-journal-notes
-- baseURL: https://api.openservices.cambio.se/api/open/journalnotes
-  baseurl_source: declared
-  description: 'Intended Use: The Journal Note API is intended to be used for fetching all journal notes for a given patient within a specified time interval. The intended use for reading data with this API is in fir'
-  name: Journal notes (v2)
-  slug: cambio-healthcare-systems-journal-notes-v2
-- baseURL: https://api.openservices.cambio.se/open/api/medications
-  baseurl_source: declared
-  description: Medication prescriptions API in Cambio Open Services (COS), the B2B open API programme for the Cambio COSMIC electronic health record. Part of Cambio Open Services (COS), the business-to-business open
-  name: Medication prescriptions (deprecated)
-  slug: cambio-healthcare-systems-medication-prescriptions
-- baseURL: https://api.openservices.cambio.se/api/open/medications
-  baseurl_source: declared
-  description: 'Intended use: The intended use of this API is to retrieve all prescriptions for the given patient. The result can be filtered by using a time interval. The intended use for reading data with this API '
-  name: Medication prescriptions (v2)
-  slug: cambio-healthcare-systems-medication-prescriptions-v2
-- baseURL: https://api.openservices.cambio.se/api/open/patient
-  baseurl_source: declared
-  description: Demographic patient information about a given patient. Part of Cambio Open Services (COS), the business-to-business open API programme that lets third-party applications read and write data in the Cam
-  name: Patient information (deprecated)
-  slug: cambio-healthcare-systems-patient-information
-- baseURL: https://api.openservices.cambio.se/api/open/patient
-  baseurl_source: declared
-  description: 'Intended Use: The intended use for reading data with this API is in first hand that the API is applied for direct access and should not be used to transfer data between caregivers. If it should be use'
-  name: Patient information (v2)
-  slug: cambio-healthcare-systems-patient-information-v2
-- baseURL: https://api.openservices.cambio.se/api/open/paymentnotice
-  baseurl_source: declared
-  description: 'Intended Use: The intended use of this API is to register the payment for a given appointment for the given patient. Specific Rules and Limitations: Rule: The only status that can be set is PAID. One '
-  name: Payment notice
-  slug: cambio-healthcare-systems-payment-notice
-- baseURL: https://api.openservices.cambio.se/api/open/referrals
-  baseurl_source: declared
-  description: Referral requests API in Cambio Open Services (COS), the B2B open API programme for the Cambio COSMIC electronic health record. Part of Cambio Open Services (COS), the business-to-business open API pr
-  name: Referral requests
-  slug: cambio-healthcare-systems-referral-requests
-- baseURL: https://api.openservices.cambio.se/open/api/videomeetings
-  baseurl_source: declared
-  description: 'Note: Deprecated - Will be removed in COSMIC 4.1.0 Booked appointments supporting remote participation through video. Part of Cambio Open Services (COS), the business-to-business open API programme th'
-  name: Video meetings
-  slug: cambio-healthcare-systems-video-meetings
 - description: HL7 FHIR R4 (4.0.1) server exposing Cambio COSMIC clinical data through 24 FHIR resource types — Patient, Practitioner, Organization, Encounter, Condition, Observation, MedicationRequest, MedicationDi
   name: Cambio Open Services FHIR R4 API
   slug: cambio-healthcare-systems-fhir-r4
-artifact_total: 25
+- baseURL: https://api.openservices.cambio.se/api/open/attentionsignals
+  baseurl_source: declared
+  description: The Booked Appointments API from Cambio Healthcare Systems — 1 operation(s) for booked appointments.
+  name: Cambio Healthcare Systems Booked Appointments API
+  slug: cambio-healthcare-systems-booked-appointments-api
+- baseURL: https://api.openservices.cambio.se/api/open/attentionsignals
+  baseurl_source: declared
+  description: The * API from Cambio Healthcare Systems — 1 operation(s) for *.
+  name: Cambio Healthcare Systems * API
+  slug: cambio-healthcare-systems-default-api
+- baseURL: https://api.openservices.cambio.se/api/open/attentionsignals
+  baseurl_source: declared
+  description: The Payment Notice API from Cambio Healthcare Systems — 1 operation(s) for payment notice.
+  name: Cambio Healthcare Systems Payment Notice API
+  slug: cambio-healthcare-systems-payment-notice-api
+- baseURL: https://api.openservices.cambio.se/api/open/attentionsignals
+  baseurl_source: declared
+  description: The Protocol API from Cambio Healthcare Systems — 2 operation(s) for protocol.
+  name: Cambio Healthcare Systems Protocol API
+  slug: cambio-healthcare-systems-protocol-api
+- baseURL: https://api.openservices.cambio.se/api/open/attentionsignals
+  baseurl_source: declared
+  description: The .well Known API from Cambio Healthcare Systems — 1 operation(s) for .well known.
+  name: Cambio Healthcare Systems .well Known API
+  slug: cambio-healthcare-systems-well-known-api
+artifact_total: 11
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-attention-signal-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-attention-signal-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-authorizer-openid-connect-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-authorizer-openid-connect-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-booked-appointments-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-booked-appointments-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-care-contacts-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-care-contacts-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-care-contacts-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-care-contacts-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-chemistry-lab-results-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-chemistry-lab-results-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-chemistry-lab-results-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-chemistry-lab-results-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-diagnosis-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-diagnosis-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-diagnosis-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-diagnosis-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-fhir-r4-public-profiles-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-fhir-r4-public-profiles-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-journal-notes-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-journal-notes-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-journal-notes-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-journal-notes-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-medication-prescriptions-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-medication-prescriptions-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-medication-prescriptions-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-medication-prescriptions-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-patient-information-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-patient-information-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-patient-information-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-patient-information-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-payment-notice-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-payment-notice-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-referral-requests-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-referral-requests-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/overlays/cambio-healthcare-systems-video-meetings-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-healthcare-systems-video-meetings-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/security/cambio-healthcare-systems-domain-security.yml
   title: ''
@@ -299,15 +324,15 @@ modified: '2026-09-02'
 name: Cambio Healthcare Systems
 nav: Providers
 network: true
-overview: 'Cambio Healthcare Systems publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Attention signal, Authorizer - OpenId Connect, Booked appointments, and 16 more. Tagged areas include Healthcare, Electronic Health Records, EHR, Clinical Decision Support, and FHIR.
+overview: 'Cambio Healthcare Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Booked Appointments API, * API, Payment Notice API, and 2 more. Tagged areas include Healthcare, Electronic Health Records, EHR, Clinical Decision Support, and FHIR.
 
 
-  Cambio Healthcare Systems'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 29 more developer resources.'
+  Cambio Healthcare Systems'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 48 more developer resources.'
 plans:
 - name: Cambio Healthcare Systems Plans Pricing
   plan_count: 0
   slug: cambio-healthcare-systems-plans-pricing
-random_paper: 1
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Cambio Healthcare Systems Rate Limits
@@ -318,8 +343,8 @@ scopes:
   slug: cambio-healthcare-systems-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.7
+  band: developing
+  composite: 54.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -327,11 +352,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 59.1
+    contract_quality: 57.2
     developer_ergonomics: 66.1
     discoverability: 81.5
     operational_transparency: 26.3
@@ -350,7 +375,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -360,7 +385,7 @@ score:
     regime_id: health
     score: 67.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -385,7 +410,7 @@ tags:
 - Interoperability
 - Health IT
 - Sweden
-- Nordics
+- Nordic
 - Patient Data
 - Medical Records
 - openEHR

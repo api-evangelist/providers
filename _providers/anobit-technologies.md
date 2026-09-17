@@ -19,7 +19,7 @@ name: Anobit Technologies
 nav: Providers
 network: true
 overview: Anobit Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Flash Memory, NAND Flash, and SSD.
-random_paper: 13
+random_paper: 8
 slug: anobit-technologies
 tags:
 - Company

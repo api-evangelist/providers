@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Artera's outbound SMS API, marketed to health systems and Artera Marketplace vendors as the SendMessage API. It sends real-time text messages to patients from the health system's trusted Artera number
@@ -229,7 +229,7 @@ plans:
 - name: Artera Plans Pricing
   plan_count: 0
   slug: artera-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Artera Rate Limits
@@ -271,7 +271,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

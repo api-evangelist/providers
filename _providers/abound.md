@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ apis:
 - baseURL: https://production-api.withabound.com
   baseurl_source: declared
   description: The Abound API V4 API from Abound — 0 operation(s) for abound api v4.
-  name: Abound Abound API V4 API
+  name: Abound API V4 API
   slug: abound-abound-api-v4-api
 arazzos:
 - description: Create a user, collect their Form W-9, then run and read back a real-time TIN verification against the IRS.
@@ -291,18 +291,18 @@ created: '2026-07-17'
 description: 'Abound was a US tax-compliance API company for platforms, marketplaces and fintechs serving the 1099 economy. Its v4 REST API covered the full information-return lifecycle: collecting Form W-9, W-8BEN and W-8BEN-E from payees, running real-time TIN verification against the IRS, then generating, filing, correcting, voiding and physically mailing Form 1099-NEC, 1099-MISC, 1099-K and 1099-INT to federal and state tax authorities. It also shipped drop-in UI components for payee onboarding, a 44-event webhook surface, and an official TypeScript SDK. Abound was acquired (announced November 2024) and the service has since been retired: the withabound.com DNS zone is fully de-delegated, the API and docs hosts no longer resolve, and the GitHub organization has been removed. This profile preserves the API surface, recovered from the first-party Fern API Definition shipped inside the official npm package.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abound.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Abound
 nav: Providers
 network: true
-overview: 'Abound publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1099-INT API, 1099-K API, 1099-MISC API, and 11 more. Tagged areas include Company, Taxes, Tax Compliance, Regulatory Compliance, and Financial-Services.
+overview: 'Abound publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1099-INT API, 1099-K API, 1099-MISC API, and 11 more. Tagged areas include Company, Tax, Tax Compliance, Regulatory Compliance, and Financial-Services.
 
 
   The Abound catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Abound''s developer surface includes authentication, sandbox, and 21 more developer resources.'
-random_paper: 3
+random_paper: 17
 score:
   band: thin
   composite: 30.9
@@ -339,7 +339,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -356,7 +356,7 @@ security:
 slug: abound
 tags:
 - Company
-- Taxes
+- Tax
 - Tax Compliance
 - Regulatory Compliance
 - Financial-Services

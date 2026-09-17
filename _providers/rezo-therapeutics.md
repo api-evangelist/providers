@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ overview: 'Rezo Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Rezo Therapeutics'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 5
+random_paper: 8
 score:
   band: minimal
   composite: 9.5
@@ -142,7 +142,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: Home Depot Retail API
   slug: open-home-depot-retail-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://homedepot.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/agentic-access/home-depot-agentic-access.yml
   title: ''
@@ -96,14 +100,14 @@ graphqls:
   slug: home-depot-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/home-depot.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: The Home Depot
 nav: Providers
 network: true
 overview: 'The Home Depot publishes 1 API on the [APIs.io](https://apis.io/) network: home-depot Retail API. Tagged areas include Fortune 100.
 
 
-  The Home Depot''s developer surface includes authentication and 4 more developer resources.'
+  The Home Depot''s developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Home Depot Plans Pricing
   plan_count: 1
@@ -124,7 +128,7 @@ press:
 - date: '2026-05-25'
   title: The Home Depot Introduces Magic Apron, a Suite of ...
   url: https://ir.homedepot.com/news-releases/2025/03-06-2025-130241718
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Home Depot Rate Limits
@@ -156,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -175,4 +179,5 @@ security:
 slug: home-depot
 tags:
 - Fortune 100
+website: https://homedepot.com
 ---

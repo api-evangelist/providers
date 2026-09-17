@@ -38,33 +38,223 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.6
-  scored_at: '2026-09-15'
-api_count: 8
+  scored_at: '2026-09-16'
+api_count: 15
 apis:
-- baseURL: https://app.textql.com/v2
-  baseurl_source: declared
-  description: The REST-native second generation of the TextQL Platform API. Standard HTTP methods, resource IDs in the path, query-parameter filtering and cursor pagination, a plain JSON error envelope, and SSE str
-  name: TextQL v2 API
-  slug: textql-v2-api
-- baseURL: https://app.textql.com/v1
-  baseurl_source: declared
-  description: The first-generation TextQL Platform API, exposed as Connect-RPC over HTTP POST. Documented as deprecated in favour of the v2 REST API but still published and served. Covers chat execution and streami
-  name: TextQL Platform API (v1)
-  slug: textql-platform-api-v1
-- baseURL: https://app.textql.com/rpc/public
-  baseurl_source: declared
-  description: The full public Connect-RPC surface of the TextQL platform, generated from the protobuf service definitions and published with code samples. 407 operations across twenty services — dashboards, connect
-  name: TextQL Public RPC API
-  slug: textql-public-rpc-api
 - description: TextQL's hosted, remote Model Context Protocol server. Any MCP-compatible client — Claude, Claude Code, Cursor, Windsurf, ChatGPT, Microsoft Copilot — points at the endpoint, authorizes once over OAut
   name: Ana MCP Server
   slug: textql-ana-mcp-server
-artifact_total: 13
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The AgentService API from TextQL — 13 operation(s) for agentservice.
+  name: TextQL Agent Service API
+  slug: textql-agentservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Mint and revoke scoped platform API keys
+  name: TextQL API Keys API
+  slug: textql-api-keys-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: 'AppService manages data apps: the generative app execution primitive. An app is agent-authored single-file HTML/JS/CSS executing in a CSP sandbox, fed a snapshot of its declared data sources. First-cl'
+  name: TextQL App Service API
+  slug: textql-appservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The AuditLogService API from TextQL — 11 operation(s) for auditlogservice.
+  name: TextQL Audit Log Service API
+  slug: textql-auditlogservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Review, approve, and deny Ontology changes
+  name: TextQL Changes API
+  slug: textql-changes-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Create and manage AI chat sessions
+  name: TextQL Chat API
+  slug: textql-chat-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The ChatService API from TextQL — 38 operation(s) for chatservice.
+  name: TextQL Chat Service API
+  slug: textql-chatservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: List available data connectors
+  name: TextQL Connectors API
+  slug: textql-connectors-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The ConnectorService API from TextQL — 17 operation(s) for connectorservice.
+  name: TextQL Connector Service API
+  slug: textql-connectorservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The DashboardService API from TextQL — 24 operation(s) for dashboardservice.
+  name: TextQL Dashboard Service API
+  slug: textql-dashboardservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The DatasetService API from TextQL — 14 operation(s) for datasetservice.
+  name: TextQL Dataset Service API
+  slug: textql-datasetservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The MCPService API from TextQL — 7 operation(s) for mcpservice.
+  name: TextQL MCP Service API
+  slug: textql-mcpservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The Members API from TextQL — 5 operation(s) for members.
+  name: TextQL Members API
+  slug: textql-members-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The MetricsExportService API from TextQL — 5 operation(s) for metricsexportservice.
+  name: TextQL Metrics Export Service API
+  slug: textql-metricsexportservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The ObservabilityService API from TextQL — 30 operation(s) for observabilityservice.
+  name: TextQL Observability Service API
+  slug: textql-observabilityservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The OntologyManagementService API from TextQL — 69 operation(s) for ontologymanagementservice.
+  name: TextQL Ontology Management Service API
+  slug: textql-ontologymanagementservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Create, configure, and run automated playbooks
+  name: TextQL Playbooks API
+  slug: textql-playbooks-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The PlaybookService API from TextQL — 39 operation(s) for playbookservice.
+  name: TextQL Playbook Service API
+  slug: textql-playbookservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The PowerBIService API from TextQL — 10 operation(s) for powerbiservice.
+  name: TextQL Power BI Service API
+  slug: textql-powerbiservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The Roles API from TextQL — 2 operation(s) for roles.
+  name: TextQL Roles API
+  slug: textql-roles-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The SandboxAdminService API from TextQL — 9 operation(s) for sandboxadminservice.
+  name: TextQL Sandbox Admin Service API
+  slug: textql-sandboxadminservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The SandboxCapabilityService API from TextQL — 6 operation(s) for sandboxcapabilityservice.
+  name: TextQL Sandbox Capability Service API
+  slug: textql-sandboxcapabilityservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The SandboxExecService API from TextQL — 5 operation(s) for sandboxexecservice.
+  name: TextQL Sandbox Exec Service API
+  slug: textql-sandboxexecservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The SandboxQueryService API from TextQL — 2 operation(s) for sandboxqueryservice.
+  name: TextQL Sandbox Query Service API
+  slug: textql-sandboxqueryservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Manage Python sandbox environments for code execution
+  name: TextQL Sandcastles API
+  slug: textql-sandcastles-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The ScimService API from TextQL — 6 operation(s) for scimservice.
+  name: TextQL SCIM Service API
+  slug: textql-scimservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The SecretService API from TextQL — 5 operation(s) for secretservice.
+  name: TextQL Secret Service API
+  slug: textql-secretservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The SettingsService API from TextQL — 7 operation(s) for settingsservice.
+  name: TextQL Settings Service API
+  slug: textql-settingsservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The SlackService API from TextQL — 8 operation(s) for slackservice.
+  name: TextQL Slack Service API
+  slug: textql-slackservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The TableauService API from TextQL — 13 operation(s) for tableauservice.
+  name: TextQL Tableau Service API
+  slug: textql-tableauservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: The TeamsService API from TextQL — 8 operation(s) for teamsservice.
+  name: TextQL Teams Service API
+  slug: textql-teamsservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Platform Agent Service - External API for triggering agent webhooks
+  name: TextQL Textql.rpc.platform.Agent Service API
+  slug: textql-textql-rpc-platform-agentservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Platform API Access Key Service - External API for managing API access keys
+  name: TextQL Textql.rpc.platform.Api Access Key Service API
+  slug: textql-textql-rpc-platform-apiaccesskeyservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Platform Chat Service - External API for chat management
+  name: TextQL Textql.rpc.platform.Chat Service API
+  slug: textql-textql-rpc-platform-chatservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Platform Connector Service - External API for connector management
+  name: TextQL Textql.rpc.platform.Connector Service API
+  slug: textql-textql-rpc-platform-connectorservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Platform Playbook Service - External API for playbook management
+  name: TextQL Textql.rpc.platform.Playbook Service API
+  slug: textql-textql-rpc-platform-playbookservice-api
+- baseURL: https://app.textql.com/v2
+  baseurl_source: declared
+  description: Platform Sandbox Service - External API for creating and managing Python sandbox environments
+  name: TextQL Textql.rpc.platform.Sandbox Service API
+  slug: textql-textql-rpc-platform-sandboxservice-api
+- baseURL: https://app.textql.com/mcp
+  baseurl_source: declared
+  description: RBAC service for managing roles, permissions, and access control
+  name: TextQL RBAC Service API
+  slug: textql-rbac-service-api
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Textql Webhooks
   slug: textql-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/overlays/textql-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/textql-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/overlays/textql-v1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/textql-v1-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/overlays/textql-platform-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/textql-platform-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -258,18 +448,18 @@ modified: '2026-08-30'
 name: TextQL
 nav: Providers
 network: true
-overview: 'TextQL publishes 3 APIs on the [APIs.io](https://apis.io/) network: v2 API, Platform API (v1), and Public RPC API. Tagged areas include Company, Artificial Intelligence, Analytics, Business Intelligence, and Data.
+overview: 'TextQL publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Agent Service API, API Keys API, App Service API, and 35 more. Tagged areas include Company, Artificial Intelligence, Analytics, Business Intelligence, and Data.
 
 
   The TextQL catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TextQL''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 32 more developer resources.'
+  TextQL''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 35 more developer resources.'
 plans:
 - name: Textql Plans Pricing
   plan_count: 3
   slug: textql-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Textql Rate Limits
@@ -281,38 +471,38 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 67.6
+  composite: 66.9
   coverage:
     artifact_dirs: 25
-    catalog_earned: 52.0
+    catalog_earned: 39.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: -0.7
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
-    contract_quality: 54.6
+    contract_quality: 57.2
     developer_ergonomics: 78.6
-    discoverability: 81.5
+    discoverability: 57.4
     operational_transparency: 42.1
-  previous_composite: 66.6
+  previous_composite: 67.6
   provenance:
     conformance: first-party
     contracts:
-      callable: 25.0
+      callable: 84.2
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 38
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
-    score: 88.9
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/screenshots/textql-2026-09-02T163306.png
 security:
 - kind: authentication

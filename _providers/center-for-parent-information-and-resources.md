@@ -33,31 +33,86 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.parentcenterhub.org/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated read access to the national Parent Center directory - the machine-readable form of the Find Your Parent Center finder. Each entry is a Parent Training and Information Center (P
-  name: CPIR Parent Center Directory API
-  slug: cpir-parent-center-directory-api
+  description: Visitor account routes exposed by the directory plugin. Gated behind a request nonce; not invoked during profiling.
+  name: Center for Parent Information and Resources Account API
+  slug: center-for-parent-information-and-resources-account-api
 - baseURL: https://www.parentcenterhub.org/wp-json
   baseurl_source: declared
-  description: 'Public, unauthenticated reference data served alongside the Parent Center directory: ISO 3166-1 country records with alpha-2 and alpha-3 codes, ISO 4217 currency and calling codes; administrative subd'
-  name: CPIR Geography Reference API
-  slug: cpir-geography-reference-api
+  description: Type-ahead lookup over directory fields, backing the finder's search form.
+  name: Center for Parent Information and Resources Autocomplete API
+  slug: center-for-parent-information-and-resources-autocomplete-api
 - baseURL: https://www.parentcenterhub.org/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated oEmbed 1.0 provider endpoint for parentcenterhub.org. Given the URL of any CPIR page it returns a conformant oEmbed document naming the provider, title, author and embeddable H
-  name: CPIR oEmbed API
-  slug: cpir-oembed-api
+  description: The state and territory taxonomy the directory is organised by.
+  name: Center for Parent Information and Resources Categories API
+  slug: center-for-parent-information-and-resources-categories-api
 - baseURL: https://www.parentcenterhub.org/wp-json
   baseurl_source: declared
-  description: 'The anonymously readable metadata layer of the parentcenterhub.org WordPress REST API - the discovery root enumerating 34 namespaces and 717 routes with their argument schemas, the registered content '
-  name: CPIR Site Metadata API
-  slug: cpir-site-metadata-api
-artifact_total: 8
+  description: ISO 3166-1 country reference records.
+  name: Center for Parent Information and Resources Countries API
+  slug: center-for-parent-information-and-resources-countries-api
+- baseURL: https://www.parentcenterhub.org/wp-json
+  baseurl_source: declared
+  description: The API root that enumerates every namespace and route on the host.
+  name: Center for Parent Information and Resources Discovery API
+  slug: center-for-parent-information-and-resources-discovery-api
+- baseURL: https://www.parentcenterhub.org/wp-json
+  baseurl_source: declared
+  description: Parent Center directory records — PTIs, CPRCs and regional Parent Technical Assistance Centers.
+  name: Center for Parent Information and Resources Entries API
+  slug: center-for-parent-information-and-resources-entries-api
+- baseURL: https://www.parentcenterhub.org/wp-json
+  baseurl_source: declared
+  description: Country boundary geometry as GeoJSON.
+  name: Center for Parent Information and Resources Geometry API
+  slug: center-for-parent-information-and-resources-geometry-api
+- baseURL: https://www.parentcenterhub.org/wp-json
+  baseurl_source: declared
+  description: Registered content types, taxonomies and publication statuses.
+  name: Center for Parent Information and Resources Metadata API
+  slug: center-for-parent-information-and-resources-metadata-api
+- baseURL: https://www.parentcenterhub.org/wp-json
+  baseurl_source: declared
+  description: Administrative subdivisions of a country, with centroid and bounding box.
+  name: Center for Parent Information and Resources Regions API
+  slug: center-for-parent-information-and-resources-regions-api
+- baseURL: https://www.parentcenterhub.org/wp-json
+  baseurl_source: declared
+  description: Yoast SEO head document for a CPIR URL.
+  name: Center for Parent Information and Resources SEO API
+  slug: center-for-parent-information-and-resources-seo-api
+- baseURL: https://www.parentcenterhub.org/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoints.
+  name: Center for Parent Information and Resources o Embed API
+  slug: center-for-parent-information-and-resources-o-embed-api
+artifact_total: 15
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/overlays/center-for-parent-information-and-resources-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/center-for-parent-information-and-resources-oembed-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/overlays/center-for-parent-information-and-resources-parent-center-directory-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/center-for-parent-information-and-resources-parent-center-directory-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/overlays/center-for-parent-information-and-resources-geography-reference-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/center-for-parent-information-and-resources-geography-reference-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/overlays/center-for-parent-information-and-resources-site-metadata-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/center-for-parent-information-and-resources-site-metadata-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/security/center-for-parent-information-and-resources-domain-security.yml
   title: ''
@@ -164,22 +219,22 @@ modified: '2026-09-05'
 name: Center for Parent Information and Resources
 nav: Providers
 network: true
-overview: 'Center for Parent Information and Resources publishes 4 APIs on the [APIs.io](https://apis.io/) network, including CPIR Parent Center Directory API, CPIR Geography Reference API, CPIR oEmbed API, and 1 more. Tagged areas include Disability, Education, Families, Federal-Government, and Parent Centers.
+overview: 'Center for Parent Information and Resources publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Autocomplete API, Categories API, and 8 more. Tagged areas include Disability, Education, Families, Federal-Government, and Parent Centers.
 
 
-  Center for Parent Information and Resources'' developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
+  Center for Parent Information and Resources'' developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
 plans:
 - name: Center For Parent Information And Resources Plans Pricing
   plan_count: 0
   slug: center-for-parent-information-and-resources-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Center For Parent Information And Resources Rate Limits
   slug: center-for-parent-information-and-resources-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 18.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -187,11 +242,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 6.6
     contract_governance: 18.2
-    contract_quality: 15.5
+    contract_quality: 15.3
     developer_ergonomics: 20.8
     discoverability: 68.5
     operational_transparency: 0.0
@@ -200,9 +255,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 11
       marker_coverage: 100.0
-      total: 4
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -212,7 +267,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,11 +47,6 @@ apis:
 - description: Emissary-Ingress supports a subset of the Kubernetes Gateway API standard, including GatewayClass, Gateway, and HTTPRoute resources. This enables teams to use the next-generation Kubernetes ingress st
   name: Emissary-Ingress Gateway API
   slug: emissary-ingress-gateway-api
-- baseURL_template: https://{kubernetes-api-server}
-  baseurl_source: spec_template
-  description: Operations for managing AuthService custom resources that configure external authentication and authorization services. Emissary-Ingress will call the configured auth service before forwarding request
-  name: Emissary-Ingress AuthService API
-  slug: emissary-ingress-authservice-api
 - baseURL_template: https://{kubernetes-api-server}
   baseurl_source: spec_template
   description: Operations for managing Host custom resources that configure domain names, TLS certificate management via ACME/Let's Encrypt, and TLS termination for ingress traffic. A Host binds a hostname to TLS co
@@ -72,6 +67,11 @@ apis:
   description: Operations for managing TLSContext custom resources that define reusable TLS configuration including certificates, cipher suites, minimum protocol versions, and client certificate validation settings.
   name: Emissary-Ingress TLSContext API
   slug: emissary-ingress-tlscontext-api
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing AuthService custom resources that configure external authentication and authorization services. Emissary-Ingress will call the configured auth service before forwarding request
+  name: Emissary-Ingress Auth Service API
+  slug: emissary-ingress-auth-service-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -193,7 +193,7 @@ modified: '2026-05-19'
 name: Emissary-Ingress
 nav: Providers
 network: true
-overview: 'Emissary-Ingress publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AuthService API, Host API, Mapping API, and 2 more. Tagged areas include API Gateway, Cloud-Native, Envoy, Incubating, and Ingress.
+overview: 'Emissary-Ingress publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Host API, Mapping API, RateLimitService API, and 2 more. Tagged areas include API Gateway, Cloud-Native, Envoy, Incubating, and Ingress.
 
 
   The Emissary-Ingress catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -204,7 +204,7 @@ plans:
 - name: Emissary Ingress Plans Pricing
   plan_count: 3
   slug: emissary-ingress-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Emissary Ingress Rate Limits
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

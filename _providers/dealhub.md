@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 21
 apis:
 - baseURL: https://api.dealhub.io
@@ -90,11 +90,6 @@ apis:
   description: The Authentication API from DealHub — 5 operation(s) for authentication.
   name: DealHub Authentication API
   slug: dealhub-authentication-api
-- baseURL: https://api.dealhub.io
-  baseurl_source: declared
-  description: The BankTransactions API from DealHub — 3 operation(s) for banktransactions.
-  name: DealHub Bank Transactions API
-  slug: dealhub-banktransactions-api
 - baseURL: https://api.dealhub.io
   baseurl_source: declared
   description: The Billing API from DealHub — 38 operation(s) for billing.
@@ -167,11 +162,6 @@ apis:
   slug: dealhub-experimental-api
 - baseURL: https://api.dealhub.io
   baseurl_source: declared
-  description: The External Query API from DealHub — 1 operation(s) for external query.
-  name: DealHub External Query API
-  slug: dealhub-external-query-api
-- baseURL: https://api.dealhub.io
-  baseurl_source: declared
   description: The Foreign Exchange API from DealHub — 4 operation(s) for foreign exchange.
   name: DealHub Foreign Exchange API
   slug: dealhub-foreign-exchange-api
@@ -215,11 +205,6 @@ apis:
   description: The Jobs API from DealHub — 4 operation(s) for jobs.
   name: DealHub Jobs API
   slug: dealhub-jobs-api
-- baseURL: https://api.dealhub.io
-  baseurl_source: declared
-  description: The MetricsReporting API from DealHub — 3 operation(s) for metricsreporting.
-  name: DealHub Metrics Reporting API
-  slug: dealhub-metricsreporting-api
 - baseURL: https://api.dealhub.io
   baseurl_source: declared
   description: The Notifications API from DealHub — 3 operation(s) for notifications.
@@ -287,11 +272,6 @@ apis:
   slug: dealhub-quote-management-api
 - baseURL: https://api.dealhub.io
   baseurl_source: declared
-  description: The RateCard API from DealHub — 5 operation(s) for ratecard.
-  name: DealHub Rate Card API
-  slug: dealhub-ratecard-api
-- baseURL: https://api.dealhub.io
-  baseurl_source: declared
   description: The Refunds API from DealHub — 2 operation(s) for refunds.
   name: DealHub Refunds API
   slug: dealhub-refunds-api
@@ -355,7 +335,22 @@ apis:
   description: Endpoints for retrieving, creating, and managing versions.
   name: DealHub Version Management API
   slug: dealhub-version-management-api
-artifact_total: 82
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Bank Transactions API from DealHub — 3 operation(s) for bank transactions.
+  name: DealHub Bank Transactions API
+  slug: dealhub-bank-transactions-api
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Metrics/Reporting API from DealHub — 3 operation(s) for metrics/reporting.
+  name: DealHub Metrics/Reporting API
+  slug: dealhub-metrics-reporting-api
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Rate Card API from DealHub — 5 operation(s) for rate card.
+  name: DealHub Rate Card API
+  slug: dealhub-rate-card-api
+artifact_total: 81
 asyncapis:
 - description: ''
   name: Dealhub Webhooks
@@ -604,7 +599,7 @@ modified: '2026-08-12'
 name: DealHub
 nav: Providers
 network: true
-overview: 'DealHub publishes 63 APIs on the [APIs.io](https://apis.io/) network, including CRM Import API, Account API, Accounting API, and 60 more. Tagged areas include Company, CPQ, Quote-to-Cash, Contract Lifecycle Management, and Subscription Management.
+overview: 'DealHub publishes 62 APIs on the [APIs.io](https://apis.io/) network, including CRM Import API, Account API, Accounting API, and 59 more. Tagged areas include Company, CPQ, Quote-to-Cash, Contract Lifecycle Management, and Subscription Management.
 
 
   The DealHub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -615,14 +610,14 @@ plans:
 - name: Dealhub Plans Pricing
   plan_count: 0
   slug: dealhub-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Dealhub Rate Limits
   slug: dealhub-rate-limits
 score:
   band: developing
-  composite: 52.5
+  composite: 52.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -630,11 +625,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 57.6
+    contract_quality: 57.9
     developer_ergonomics: 54.2
     discoverability: 81.5
     operational_transparency: 18.4
@@ -642,14 +637,14 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 96.8
+      callable: 98.4
       derived: 0
       marker_coverage: 0.0
-      total: 63
+      total: 62
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 412
   human_in_the_loop: 6
@@ -781,7 +781,7 @@ modified: '2026-06-13'
 name: Misskey
 nav: Providers
 network: true
-overview: 'Misskey publishes 32 APIs on the [APIs.io](https://apis.io/) network, including account API, Admin API, antennas API, and 29 more. Tagged areas include Open-Source, Social Networks, Fediverse, ActivityPub, and Decentralized.
+overview: 'Misskey publishes 32 APIs on the [APIs.io](https://apis.io/) network, including account API, Admin API, antennas API, and 29 more. Tagged areas include Open-Source, Social Network, Fediverse, ActivityPub, and Decentralized.
 
 
   The Misskey catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -792,7 +792,7 @@ plans:
 - name: Misskey Plans Pricing
   plan_count: 3
   slug: misskey-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Misskey Rate Limits
@@ -838,7 +838,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -856,7 +856,7 @@ security:
 slug: misskey
 tags:
 - Open-Source
-- Social Networks
+- Social Network
 - Fediverse
 - ActivityPub
 - Decentralized

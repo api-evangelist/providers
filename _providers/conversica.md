@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - baseURL: https://integrations-api.conversica.com
   baseurl_source: declared
   description: The Conversica Integrations API API from Conversica — 0 operation(s) for conversica integrations api.
-  name: Conversica Conversica Integrations API
+  name: Conversica Integrations API
   slug: conversica-conversica-integrations-api-api
 - baseURL: https://integrations-api.conversica.com
   baseurl_source: declared
@@ -248,11 +248,11 @@ examples:
   slug: conversica-message-sent
 image: https://cdn.prod.website-files.com/685300c814434f10e21dadd0/687ab25d596cea9ade1ebbc6_logo.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Conversica
 nav: Providers
 network: true
-overview: 'Conversica publishes 2 APIs on the [APIs.io](https://apis.io/) network: Conversica Integrations API and Leads API. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Agents, and Sales.
+overview: 'Conversica publishes 2 APIs on the [APIs.io](https://apis.io/) network: Integrations API and Leads API. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Agents, and Sales.
 
 
   The Conversica catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -263,7 +263,7 @@ plans:
 - name: Conversica Plans Pricing
   plan_count: 0
   slug: conversica-plans-pricing
-random_paper: 19
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Conversica Rate Limits
@@ -304,7 +304,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

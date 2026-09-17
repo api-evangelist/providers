@@ -28,15 +28,15 @@ modified: '2026-07-20'
 name: Digitalk
 nav: Providers
 network: true
-overview: Digitalk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Developer Tools, Programming Languages, and Smalltalk.
-random_paper: 1
+overview: Digitalk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Developer Tools, Programming Language, and Smalltalk.
+random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/digitalk/refs/heads/main/screenshots/digitalk-2026-07-25T212023.png
 slug: digitalk
 tags:
 - Company
 - Enterprise Software
 - Developer Tools
-- Programming Languages
+- Programming Language
 - Smalltalk
 - Object-Oriented
 - Integrated Development Environment

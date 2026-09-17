@@ -38,7 +38,7 @@ name: Tradegecko
 nav: Providers
 network: true
 overview: Tradegecko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Inventory, Order, Commerce, and B2B.
-random_paper: 20
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradegecko/refs/heads/main/screenshots/tradegecko-2026-09-02T164047.png
 slug: tradegecko
 tags:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Ematic Solutions Core API is a RESTful, JSON-only web service (labelled "beta" by Ematic) that lets an e-commerce site record product events — browse, cart, checkout and conversion — plus batch ev
@@ -176,7 +176,7 @@ plans:
 - name: Ematic Solutions Plans Pricing
   plan_count: 0
   slug: ematic-solutions-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Ematic Solutions Rate Limits
@@ -205,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

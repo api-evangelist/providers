@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - baseURL: https://api.monetate.net/api/data/v1/{retailerShortname}/production
@@ -273,14 +273,14 @@ plans:
 - name: Monetate Plans Pricing
   plan_count: 0
   slug: monetate-plans-pricing
-random_paper: 0
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Monetate Rate Limits
   slug: monetate-rate-limits
 score:
   band: developing
-  composite: 52.2
+  composite: 52.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -288,11 +288,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 53.1
+    contract_quality: 55.5
     developer_ergonomics: 66.1
     discoverability: 81.5
     operational_transparency: 34.2
@@ -307,7 +307,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

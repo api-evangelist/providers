@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -276,6 +276,10 @@ collections:
   name: SAP AI Core Addresses Tax Numbers API
   slug: open-sap-tax-numbers-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sap.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/capabilities/sap-capability-edges.yml
   title: ''
@@ -748,7 +752,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-08-21'
+modified: '2026-09-16'
 name: SAP
 nav: Providers
 network: true
@@ -758,12 +762,12 @@ overview: 'SAP publishes 16 APIs on the [APIs.io](https://apis.io/) network, inc
   The SAP catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 39 more developer resources.'
+  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 40 more developer resources.'
 plans:
 - name: Sap Plans Pricing
   plan_count: 1
   slug: sap-plans-pricing
-random_paper: 9
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Sap Rate Limits
@@ -833,7 +837,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -872,5 +876,5 @@ use_cases:
 - Integrating SAP ERP with third-party CRM, e-commerce, and analytics platforms
 - Managing business partner master data across multi-system landscapes
 - Building digital workplace experiences with unified work zone portals
-website: https://developers.sap.com/
+website: https://sap.com
 ---

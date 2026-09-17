@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -58,19 +58,9 @@ apis:
   slug: server-sdk
 - baseURL: https://{deployment-name}.convex.cloud
   baseurl_source: declared
-  description: Create and manage Team Access Tokens used for authenticating Management API requests on behalf of a team.
-  name: Convex AccessTokens API
-  slug: convex-accesstokens-api
-- baseURL: https://{deployment-name}.convex.cloud
-  baseurl_source: declared
   description: Execute action functions for general-purpose server-side operations, including calling external services, performing non-transactional work, and orchestrating other functions.
   name: Convex Actions API
   slug: convex-actions-api
-- baseURL: https://{deployment-name}.convex.cloud
-  baseurl_source: declared
-  description: Configure custom domain names for Convex deployments. Supports both convexCloud (function API) and convexSite (HTTP actions) request destinations.
-  name: Convex CustomDomains API
-  slug: convex-customdomains-api
 - baseURL: https://{deployment-name}.convex.cloud
   baseurl_source: declared
   description: Create and manage deploy keys for CLI operations and CI/CD pipelines. Deploy keys authenticate the Convex CLI when pushing function code to a deployment.
@@ -81,11 +71,6 @@ apis:
   description: Create, list, retrieve, update, and delete Convex cloud and local deployments. Deployments are the runtime environments where Convex backend functions execute.
   name: Convex Deployments API
   slug: convex-deployments-api
-- baseURL: https://{deployment-name}.convex.cloud
-  baseurl_source: declared
-  description: Manage environment variables for a Convex deployment. Environment variables are key-value pairs accessible to backend functions at runtime via process.env. Changes to environment variables take effect
-  name: Convex EnvironmentVariables API
-  slug: convex-environmentvariables-api
 - baseURL: https://{deployment-name}.convex.cloud
   baseurl_source: declared
   description: Execute any deployed function by its identifier using the unified run endpoint, which accepts the function type implicitly based on the deployed function definition.
@@ -111,6 +96,21 @@ apis:
   description: Manage Convex teams, team members, and team-level access tokens. Teams are the billing and administrative unit that owns projects.
   name: Convex Teams API
   slug: convex-teams-api
+- baseURL: wss://{deployment-name}.convex.cloud/api/{clientVersion}/sync
+  baseurl_source: declared
+  description: Create and manage Team Access Tokens used for authenticating Management API requests on behalf of a team.
+  name: Convex Access Tokens API
+  slug: convex-access-tokens-api
+- baseURL: wss://{deployment-name}.convex.cloud/api/{clientVersion}/sync
+  baseurl_source: declared
+  description: Configure custom domain names for Convex deployments. Supports both convexCloud (function API) and convexSite (HTTP actions) request destinations.
+  name: Convex Custom Domains API
+  slug: convex-custom-domains-api
+- baseURL: wss://{deployment-name}.convex.cloud/api/{clientVersion}/sync
+  baseurl_source: declared
+  description: Manage environment variables for a Convex deployment. Environment variables are key-value pairs accessible to backend functions at runtime via process.env. Changes to environment variables take effect
+  name: Convex Environment Variables API
+  slug: convex-environment-variables-api
 artifact_total: 74
 asyncapis:
 - description: AsyncAPI description of the Convex WebSocket sync protocol used between Convex client SDKs (browser/Node/React/React Native) and a Convex deployment's sync worker. The client opens a WebSocket to `wss
@@ -370,7 +370,7 @@ modified: '2026-05-29'
 name: Convex
 nav: Providers
 network: true
-overview: 'Convex publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Sync Protocol, AccessTokens API, Actions API, and 9 more. Tagged areas include Backend, Database, Functions, Real-Time, and Reactive.
+overview: 'Convex publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Sync Protocol, Actions API, DeployKeys API, and 9 more. Tagged areas include Backend, Database, Functions, Real-Time, and Reactive.
 
 
   The Convex catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 5 Spectral governance rulesets.
@@ -381,7 +381,7 @@ plans:
 - name: Convex Plans Pricing
   plan_count: 3
   slug: convex-plans-pricing
-random_paper: 8
+random_paper: 21
 rate_limits:
 - limit_count: 28
   name: Convex Rate Limits
@@ -469,7 +469,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

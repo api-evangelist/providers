@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports personalized playback, search, user feedbac
@@ -164,7 +164,7 @@ modified: '2026-05-02'
 name: Sirius XM
 nav: Providers
 network: true
-overview: 'Sirius XM publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Streaming, Radio, Music, and Podcast.
+overview: 'Sirius XM publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Streaming, Radio, Music, and Podcasts.
 
 
   The Sirius XM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -175,7 +175,7 @@ plans:
 - name: Sirius Xm Plans Pricing
   plan_count: 1
   slug: sirius-xm-plans-pricing
-random_paper: 0
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Sirius Xm Rate Limits
@@ -211,7 +211,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -229,7 +229,7 @@ tags:
 - Streaming
 - Radio
 - Music
-- Podcast
+- Podcasts
 - Advertising
 - Entertainment
 website: https://www.siriusxm.com/

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -103,11 +103,6 @@ apis:
   slug: coinme-locations-api
 - baseURL: https://caas.coinme.com/services
   baseurl_source: declared
-  description: The MobileAuth API from Coinme — 1 operation(s) for mobileauth.
-  name: Coinme MobileAuth API
-  slug: coinme-mobileauth-api
-- baseURL: https://caas.coinme.com/services
-  baseurl_source: declared
   description: The MobileAuthFinish API from Coinme — 1 operation(s) for mobileauthfinish.
   name: Coinme MobileAuthFinish API
   slug: coinme-mobileauthfinish-api
@@ -116,11 +111,6 @@ apis:
   description: The Order Template API from Coinme — 4 operation(s) for order template.
   name: Coinme Order Template API
   slug: coinme-order-template-api
-- baseURL: https://caas.coinme.com/services
-  baseurl_source: declared
-  description: The Paymentmethods API from Coinme — 3 operation(s) for paymentmethods.
-  name: Coinme Paymentmethods API
-  slug: coinme-paymentmethods-api
 - baseURL: https://caas.coinme.com/services
   baseurl_source: declared
   description: The Quote And Transaction API from Coinme — 1 operation(s) for quote and transaction.
@@ -158,11 +148,6 @@ apis:
   slug: coinme-transaction-api
 - baseURL: https://caas.coinme.com/services
   baseurl_source: declared
-  description: The Transactionhistory API from Coinme — 1 operation(s) for transactionhistory.
-  name: Coinme Transactionhistory API
-  slug: coinme-transactionhistory-api
-- baseURL: https://caas.coinme.com/services
-  baseurl_source: declared
   description: The Transactionlimits API from Coinme — 1 operation(s) for transactionlimits.
   name: Coinme Transactionlimits API
   slug: coinme-transactionlimits-api
@@ -186,6 +171,21 @@ apis:
   description: The Widget API from Coinme — 1 operation(s) for widget.
   name: Coinme Widget API
   slug: coinme-widget-api
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Mobile Auth API from Coinme — 1 operation(s) for mobile auth.
+  name: Coinme Mobile Auth API
+  slug: coinme-mobile-auth-api
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Payment Methods API from Coinme — 3 operation(s) for payment methods.
+  name: Coinme Payment Methods API
+  slug: coinme-payment-methods-api
+- baseURL: https://caas.coinme.com/services
+  baseurl_source: declared
+  description: The Transaction History API from Coinme — 1 operation(s) for transaction history.
+  name: Coinme Transaction History API
+  slug: coinme-transaction-history-api
 arazzos:
 - description: Authorize as a partner, KYC-onboard an end user, create an executable buy quote, and execute it against the quote. Operation ids are verified against openapi/coinme-caas-openapi.json.
   name: Coinme — onboard a customer and buy crypto
@@ -538,7 +538,7 @@ overview: 'Coinme publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Coinme''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 5
+random_paper: 19
 scopes:
 - name: Coinme Scopes
   scope_count: 3
@@ -558,7 +558,7 @@ score:
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
-    contract_quality: 63.5
+    contract_quality: 63.8
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 15.8
@@ -585,7 +585,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

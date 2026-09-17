@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The Check Payroll API is a comprehensive REST API for embedding end-to-end U.S. payroll inside another platform. It models companies, workplaces, employees, contractors, pay schedules, paydays, payrol
@@ -148,7 +148,7 @@ overview: 'Check publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Check''s developer surface includes documentation, developer portal, developer console, sandbox, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: emerging
   composite: 20.7
@@ -175,7 +175,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,6 @@ tags:
 - Tax Filing
 - Tax Calculation
 - Money Movement
-- HR
 - Human Resources
 - Workforce Management
 - Fintech

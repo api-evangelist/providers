@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: Server-side API for generating signed payment requests that redirect customers to the LiqPay hosted checkout page. Supports one-time payments, donations, split payments, two-stage holds, and QR-code p
@@ -65,6 +65,10 @@ apis:
   slug: liqpay-payment-archive-api
 artifact_total: 13
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://liqpay.ua
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/liqpay/refs/heads/main/security/liqpay-domain-security.yml
   title: ''
@@ -130,19 +134,19 @@ finops:
   slug: finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/liqpay.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: LiqPay
 nav: Providers
 network: true
 overview: 'LiqPay publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Fintech, Ukraine, Cards, and Subscription.
 
 
-  LiqPay''s developer surface includes developer portal, documentation, sandbox, authentication, status page, support, and 8 more developer resources.'
+  LiqPay''s developer surface includes developer portal, documentation, sandbox, authentication, status page, support, and 9 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -179,7 +183,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -200,5 +204,5 @@ tags:
 - Invoicing
 - P2P Transfers
 - PrivatBank
-website: https://www.liqpay.ua/en/developers
+website: https://liqpay.ua
 ---

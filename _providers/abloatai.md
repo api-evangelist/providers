@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -295,7 +295,7 @@ plans:
 - name: Abloatai Plans Pricing
   plan_count: 3
   slug: abloatai-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 6
   name: Abloatai Rate Limits
@@ -330,7 +330,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

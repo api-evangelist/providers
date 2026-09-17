@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -166,6 +166,10 @@ collections:
   name: Sage HR API
   slug: open-sage-hr
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sage.hr
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/agentic-access/sage-hr-agentic-access.yml
   title: ''
@@ -254,22 +258,22 @@ jsonld:
   property_count: 7
   slug: sage-hr-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Sage HR
 nav: Providers
 network: true
-overview: 'Sage HR publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Employee API, Integrations API, and 11 more. Tagged areas include HR, HRIS, People, SMB, and Leave Management.
+overview: 'Sage HR publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Employee API, Integrations API, and 11 more. Tagged areas include Human Resources, HRIS, People, SMB, and Leave Management.
 
 
   The Sage HR catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sage HR''s developer surface includes authentication, developer portal, documentation, support, pricing, GitHub presence, and 10 more developer resources.'
+  Sage HR''s developer surface includes authentication, developer portal, documentation, support, pricing, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Sage Hr Plans Pricing
   plan_count: 6
   slug: sage-hr-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Sage Hr Rate Limits
@@ -312,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -333,7 +337,7 @@ security:
   summary_line: security.txt · contact published
 slug: sage-hr
 tags:
-- HR
+- Human Resources
 - HRIS
 - People
 - SMB
@@ -342,5 +346,5 @@ tags:
 - Performance
 - Timesheets
 - Onboarding
-website: https://sage.hr/
+website: https://sage.hr
 ---

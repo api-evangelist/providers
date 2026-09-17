@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST booking API for searching experiences, retrieving options and availability, and assembling and confirming booking orders. Authenticated with an X-API-Key header; versioned in the URI path (/v2).
@@ -130,11 +130,11 @@ modified: '2026-07-21'
 name: Turneo
 nav: Providers
 network: true
-overview: 'Turneo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Travel, Hospitality, and Hotels.
+overview: 'Turneo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Travel, Hospitality, and Hotels.
 
 
   Turneo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: emerging
   composite: 24.5
@@ -157,7 +157,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +176,7 @@ security:
 slug: turneo
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Travel
 - Hospitality
 - Hotels

@@ -24,7 +24,7 @@ name: Uptime
 nav: Providers
 network: true
 overview: Uptime is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Predictive Maintenance, Elevators, and Internet of Things.
-random_paper: 9
+random_paper: 0
 slug: uptime
 tags:
 - Company

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: Synchronize employee records and organizational unit (OU) structures between external systems and Cornerstone. Supports create, read, update, and deactivate operations for users and organizational hie
@@ -144,7 +144,7 @@ modified: '2026-06-13'
 name: Cornerstone OnDemand
 nav: Providers
 network: true
-overview: 'Cornerstone OnDemand publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Management, Learning Management, Performance Management, Recruiting, and HR.
+overview: 'Cornerstone OnDemand publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Management, Learning Management, Performance Management, Recruiting, and Human Resources.
 
 
   The Cornerstone OnDemand catalog on APIs.io includes 1 JSON-LD context.
@@ -155,7 +155,7 @@ plans:
 - name: Cornerstone Plans Pricing
   plan_count: 5
   slug: cornerstone-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Cornerstone Rate Limits
@@ -186,7 +186,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -204,7 +204,7 @@ tags:
 - Learning Management
 - Performance Management
 - Recruiting
-- HR
+- Human Resources
 - Workforce Analytics
 - Succession Planning
 - Enterprise

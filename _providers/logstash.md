@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Logstash Monitoring API exposes node info, plugin info, node stats, hot threads, and a health report endpoint over HTTP on port 9600 by default. There is no published OpenAPI specification; see El
@@ -91,7 +91,7 @@ modified: '2026-04-28'
 name: Logstash
 nav: Providers
 network: true
-overview: 'Logstash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Processing, ETL, Log Management, and Pipeline.
+overview: 'Logstash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Processing, ETL, Log Management, and Pipelines.
 
 
   Logstash''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -99,7 +99,7 @@ plans:
 - name: Logstash Plans Pricing
   plan_count: 3
   slug: logstash-plans-pricing
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Logstash Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -145,6 +145,6 @@ tags:
 - Data Processing
 - ETL
 - Log Management
-- Pipeline
+- Pipelines
 website: https://www.elastic.co/logstash
 ---

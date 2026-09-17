@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Upway's agent-facing commerce surface. A remote Model Context Protocol server at https://upway.co/api/ucp/mcp implementing the Universal Commerce Protocol shopping service, version 2026-08-25. Anonymo
@@ -163,7 +163,7 @@ plans:
 - name: Upway Plans Pricing
   plan_count: 0
   slug: upway-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Upway Rate Limits
@@ -197,7 +197,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

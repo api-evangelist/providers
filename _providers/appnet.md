@@ -16,6 +16,10 @@ apis:
   slug: appnet-stream-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://app.net
 - group: build
   title: ''
   type: GitHubOrganization
@@ -82,15 +86,15 @@ created: '2026-07-17'
 description: 'App.net (ADN) was a paid, ad-free real-time social networking and microblogging platform launched in 2012 by Dalton Caldwell''s Mixed Media Labs after a public crowdfunding campaign. It was explicitly developer-first: the App.net Stream API exposed posts, users, follows, files, channels, private messaging, filters and a real-time streaming/subscription surface, all governed by OAuth 2.0 bearer tokens and a consistent data/meta response envelope. Third-party clients (Alpha, and many community apps) were built entirely on the public API. App.net announced in 2016 that it would not renew and the service was shut down on 2017-03-14; the live API hosts (api.app.net, developers.app.net) no longer resolve and the app.net domain is now operated by an unrelated apps directory. The API documentation (appdotnet/api-spec), terms of service, and official SDKs remain publicly preserved on the appdotnet GitHub organization, which is the basis for this profile.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appnet.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: App.net
 nav: Providers
 network: true
 overview: 'App.net publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Microblogging, Messaging, and Real-Time.
 
 
-  App.net''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 18
+  App.net''s developer surface includes documentation, authentication, and 12 more developer resources.'
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Appnet Rate Limits
@@ -117,4 +121,5 @@ tags:
 - Developer Platform
 - Authentication
 - Defunct
+website: https://app.net
 ---

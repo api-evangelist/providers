@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Domo API allows users to integrate and interact with data from various sources within the Domo platform. With Domo API, users can access real-time data, automate data processes, and create custom data
@@ -74,12 +74,12 @@ modified: '2026-04-28'
 name: Domo
 nav: Providers
 network: true
-overview: Domo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analysis, Business Intelligence, Data, Pipelines, and Visualizations.
+overview: Domo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analysis, Business Intelligence, Data, Pipelines, and Visualization.
 plans:
 - name: Domo Plans Pricing
   plan_count: 3
   slug: domo-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Domo Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -122,6 +122,6 @@ tags:
 - Business Intelligence
 - Data
 - Pipelines
-- Visualizations
+- Visualization
 website: https://www.domo.com
 ---

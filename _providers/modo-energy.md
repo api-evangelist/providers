@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,6 +81,10 @@ collections:
   name: Modo Energy API
   slug: open-modo-energy
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://modoenergy.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/modo-energy/refs/heads/main/agentic-access/modo-energy-agentic-access.yml
   title: ''
@@ -112,19 +116,19 @@ finops:
   slug: modo-energy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modo-energy.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Modo Energy
 nav: Providers
 network: true
 overview: 'Modo Energy publishes 3 APIs on the [APIs.io](https://apis.io/) network: ERCOT API, GB API, and NEM API. Tagged areas include Energy, Battery Storage, Utilities, and Data.
 
 
-  Modo Energy''s developer surface includes authentication and 4 more developer resources.'
+  Modo Energy''s developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Modo Energy Plans Pricing
   plan_count: 3
   slug: modo-energy-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Modo Energy Rate Limits
@@ -162,7 +166,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -184,4 +188,5 @@ tags:
 - Battery Storage
 - Utilities
 - Data
+website: https://modoenergy.com
 ---

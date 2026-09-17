@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -76,11 +76,6 @@ apis:
   slug: looker-studio-manifest-api
 - baseURL: https://datastudio.googleapis.com/v1
   baseurl_source: declared
-  description: oEmbed-compatible endpoint for platforms that support the oEmbed standard.
-  name: Looker Studio oEmbed API
-  slug: looker-studio-oembed-api
-- baseURL: https://datastudio.googleapis.com/v1
-  baseurl_source: declared
   description: Operations for managing asset permissions including getting, updating, adding, and revoking member access.
   name: Looker Studio Permissions API
   slug: looker-studio-permissions-api
@@ -99,6 +94,11 @@ apis:
   description: Operations for loading and rendering community visualizations in Looker Studio reports.
   name: Looker Studio Visualization API
   slug: looker-studio-visualization-api
+- baseURL: https://datastudio.googleapis.com/v1
+  baseurl_source: declared
+  description: oEmbed-compatible endpoint for platforms that support the oEmbed standard.
+  name: Looker Studio o Embed API
+  slug: looker-studio-o-embed-api
 artifact_total: 85
 collections:
 - collection_type: postman
@@ -433,7 +433,7 @@ plans:
 - name: Looker Studio Plans Pricing
   plan_count: 2
   slug: looker-studio-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Looker Studio Rate Limits
@@ -481,7 +481,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

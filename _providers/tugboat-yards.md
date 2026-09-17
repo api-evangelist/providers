@@ -53,7 +53,7 @@ overview: 'Tugboat Yards publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   The Tugboat Yards catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
-random_paper: 6
+random_paper: 8
 security:
 - kind: authentication
   name: Tugboat Yards Authentication

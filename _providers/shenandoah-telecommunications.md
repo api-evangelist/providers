@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,14 +82,14 @@ modified: '2026-05-02'
 name: Shenandoah Telecommunications
 nav: Providers
 network: true
-overview: 'Shenandoah Telecommunications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Broadband, Fiber Optic, Internet Service Provider, and Telecommunications.
+overview: 'Shenandoah Telecommunications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Broadband, Fiber Optics, Internet Service Provider, and Telecommunications.
 
 
   The Shenandoah Telecommunications catalog on APIs.io includes 1 JSON-LD context.
 
 
   Shenandoah Telecommunications'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 9
+random_paper: 19
 score:
   band: minimal
   composite: 5.1
@@ -116,7 +116,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -131,7 +131,7 @@ security:
 slug: shenandoah-telecommunications
 tags:
 - Broadband
-- Fiber Optic
+- Fiber Optics
 - Internet Service Provider
 - Telecommunications
 website: https://www.shentel.com

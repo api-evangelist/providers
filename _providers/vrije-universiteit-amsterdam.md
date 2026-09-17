@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for the Vrije Universiteit Amsterdam Repository, served from the institution's own domain and administered by the VU University Library (adminEmail pure.ub@vu
@@ -204,7 +204,7 @@ plans:
 - name: Vrije Universiteit Amsterdam Plans Pricing
   plan_count: 2
   slug: vrije-universiteit-amsterdam-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Vrije Universiteit Amsterdam Rate Limits
@@ -245,7 +245,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

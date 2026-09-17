@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 15
@@ -426,7 +426,7 @@ overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   H2O.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 8
+random_paper: 6
 score:
   band: developing
   composite: 50.9
@@ -457,7 +457,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -487,8 +487,8 @@ tags:
 - Machine-Learning
 - MLOps
 - Generative AI
-- Large Language Models
-- Retrieval Augmented Generation
+- LLM
+- RAG
 - Data Science
 - Model Deployment
 - AI Agents

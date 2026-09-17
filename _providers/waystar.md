@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -219,7 +219,7 @@ plans:
 - name: Waystar Plans Pricing
   plan_count: 2
   slug: waystar-plans-pricing
-random_paper: 2
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Waystar Rate Limits
@@ -253,7 +253,7 @@ score:
     regime_id: health
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -284,6 +284,6 @@ tags:
 - X12 EDI
 - Eligibility
 - Claims
-- Remittance
+- Remittances
 website: https://www.waystar.com/
 ---

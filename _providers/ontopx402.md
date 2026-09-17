@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://ontopx402.com
@@ -131,7 +131,7 @@ modified: '2026-09-03'
 name: OnTopX402
 nav: Providers
 network: true
-overview: 'OnTopX402 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Bidding API and Leaderboard API. Tagged areas include x402, USDC, Agent Payments, paid-placement, and Leaderboard.
+overview: 'OnTopX402 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Bidding API and Leaderboard API. Tagged areas include x402, USDC, Agent Payments, paid-placement, and Leaderboards.
 
 
   OnTopX402''s developer surface includes authentication, pricing, and 13 more developer resources.'
@@ -139,7 +139,7 @@ plans:
 - name: Ontopx402 Plans Pricing
   plan_count: 1
   slug: ontopx402-plans-pricing
-random_paper: 11
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Ontopx402 Rate Limits
@@ -179,7 +179,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -200,6 +200,6 @@ tags:
 - USDC
 - Agent Payments
 - paid-placement
-- Leaderboard
+- Leaderboards
 website: https://ontopx402.com/
 ---

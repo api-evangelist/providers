@@ -30,7 +30,7 @@ name: SenSage
 nav: Providers
 network: true
 overview: SenSage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, SIEM, Log Management, and Security Analytics.
-random_paper: 7
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensage/refs/heads/main/screenshots/sensage-2026-09-02T154848.png
 security:
 - kind: domain-security

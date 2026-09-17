@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The production GraphQL API behind the Wellth member mobile app and the Wellth internal dashboard. Confirmed live at https://api.wellthapp.com/graphql: the endpoint is an Apollo Server deployment (stac'
@@ -138,7 +138,7 @@ overview: 'Wellth publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Wellth''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 5
+random_paper: 18
 score:
   band: emerging
   composite: 20.3
@@ -173,7 +173,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

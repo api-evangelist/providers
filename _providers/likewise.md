@@ -29,7 +29,7 @@ name: LikeWise
 nav: Providers
 network: true
 overview: LikeWise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Storage, Identity, and Security.
-random_paper: 0
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/likewise/refs/heads/main/screenshots/likewise-2026-07-25T225147.png
 slug: likewise
 tags:

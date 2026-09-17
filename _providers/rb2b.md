@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Credit-metered Identification endpoints that convert anonymous web signals (IP addresses) into business identifiers — POST /ip_to_company, POST /ip_to_hem (hashed email, ranked by confidence) and POST
@@ -267,7 +267,7 @@ plans:
 - name: Rb2B Plans Pricing
   plan_count: 5
   slug: rb2b-plans-pricing
-random_paper: 3
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Rb2B Rate Limits
@@ -296,7 +296,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

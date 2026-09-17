@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -281,6 +281,10 @@ collections:
   name: Uber Vouchers API
   slug: open-uber-vouchers
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://uber.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/capabilities/uber-capability-edges.yml
   title: ''
@@ -562,7 +566,7 @@ jsonld:
   property_count: 30
   slug: uber-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-16'
 name: Uber
 nav: Providers
 network: true
@@ -572,12 +576,12 @@ overview: 'Uber publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
   The Uber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Uber''s developer surface includes authentication, developer portal, documentation, developer console, signup flow, getting-started guide, pricing, and 18 more developer resources.'
+  Uber''s developer surface includes authentication, developer portal, documentation, developer console, signup flow, getting-started guide, pricing, and 19 more developer resources.'
 plans:
 - name: Uber Plans Pricing
   plan_count: 1
   slug: uber-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Uber Rate Limits
@@ -634,7 +638,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -667,5 +671,5 @@ use_cases:
   name: Corporate Travel And Meals
 - description: Healthcare, hospitality, and service businesses use Guest Rides to request trips on behalf of customers who do not have an Uber account.
   name: Guest Ride Provisioning
-website: https://developer.uber.com/
+website: https://uber.com
 ---

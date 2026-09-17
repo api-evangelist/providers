@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.mystars.tg
@@ -251,7 +251,7 @@ plans:
 - name: Mystars Plans Pricing
   plan_count: 0
   slug: mystars-plans-pricing
-random_paper: 10
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Mystars Rate Limits
@@ -291,7 +291,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

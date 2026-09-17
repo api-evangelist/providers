@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -57,11 +57,6 @@ apis:
   slug: onelogin-mfa-api
 - baseURL: https://<subdomain>.onelogin.com
   baseurl_source: declared
-  description: OAuth 2.0 token generation and revocation
-  name: OneLogin OAuth API
-  slug: onelogin-oauth-api
-- baseURL: https://<subdomain>.onelogin.com
-  baseurl_source: declared
   description: Role management
   name: OneLogin Roles API
   slug: onelogin-roles-api
@@ -75,6 +70,11 @@ apis:
   description: User management
   name: OneLogin Users API
   slug: onelogin-users-api
+- baseURL: https://<subdomain>.onelogin.com
+  baseurl_source: declared
+  description: OAuth 2.0 token generation and revocation
+  name: OneLogin O Auth API
+  slug: onelogin-oauth-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -149,11 +149,11 @@ finops:
   slug: onelogin-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onelogin.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: OneLogin
 nav: Providers
 network: true
-overview: 'OneLogin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Apps API, MFA API, OAuth API, and 3 more. Tagged areas include Identity, Access Management, Single Sign-On, Multi-Factor Authentication, and SAML.
+overview: 'OneLogin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Apps API, MFA API, Roles API, and 3 more. Tagged areas include Identity, Access Management, SSO, Multi-Factor Authentication, and SAML.
 
 
   OneLogin''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
@@ -161,7 +161,7 @@ plans:
 - name: Onelogin Plans Pricing
   plan_count: 3
   slug: onelogin-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Onelogin Rate Limits
@@ -193,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -212,9 +212,10 @@ slug: onelogin
 tags:
 - Identity
 - Access Management
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
 - SAML
 - Authentication
+- Identity Federation
 website: https://www.onelogin.com
 ---

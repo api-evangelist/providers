@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,11 +58,6 @@ apis:
   description: Faceted, anonymous search across archived objects in UNAL's institutional repository, on the university's own host. Verified live 2026-09-01.
   name: National University of Colombia REST - Discover API
   slug: national-university-of-colombia-rest-discover-api
-- baseURL: https://revistas.unal.edu.co/index.php/index
-  baseurl_source: declared
-  description: 'A SECOND institution-operated OAI-PMH 2.0 endpoint, found in this run and not previously catalogued: the Portal de Revistas UN, UNAL''s own journal publishing platform on revistas.unal.edu.co, running '
-  name: National University of Colombia Portal de Revistas UN OAI-PMH API
-  slug: national-university-of-colombia-journals-oai-pmh-api
 - description: UNAL's open data is not published on its own portal. datosabiertos.unal.edu.co is a static informational page with no catalogue and no API; the actual datasets sit on Colombia's national Socrata porta
   name: UNAL open data on datos.gov.co (Socrata)
   slug: datos-gov-co-publisher
@@ -75,7 +70,7 @@ apis:
 - description: catalogo.unal.edu.co runs Ex Libris Aleph on UNAL's own infrastructure (168.176.5.96), not on an Ex Libris cloud tenancy — the host verdict is institution, but the product is a vendor's and no Aleph c
   name: SINAB library catalog (self-hosted Ex Libris Aleph)
   slug: library-catalog-aleph
-artifact_total: 27
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -203,7 +198,7 @@ modified: '2026-09-01'
 name: National University of Colombia
 nav: Providers
 network: true
-overview: 'National University of Colombia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OAI-PMH API, REST - Core API, REST - Discover API, and 1 more. Tagged areas include Education, Higher Education, University, Public Research University, and Colombia.
+overview: 'National University of Colombia publishes 3 APIs on the [APIs.io](https://apis.io/) network: OAI-PMH API, REST - Core API, and REST - Discover API. Tagged areas include Education, Higher Education, University, Public Research University, and Colombia.
 
 
   The National University of Colombia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -214,7 +209,7 @@ plans:
 - name: National University Of Colombia Plans Pricing
   plan_count: 2
   slug: national-university-of-colombia-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: National University Of Colombia Rate Limits
@@ -242,7 +237,7 @@ rules:
   slug: national-university-of-colombia-rules
 score:
   band: thin
-  composite: 30.6
+  composite: 32.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 77.3
@@ -250,11 +245,11 @@ score:
     catalog_gap: 37.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 51.4
+    contract_quality: 58.1
     developer_ergonomics: 9.5
     discoverability: 68.5
     operational_transparency: 23.7
@@ -269,9 +264,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 25.0
-      total: 4
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
@@ -279,7 +274,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

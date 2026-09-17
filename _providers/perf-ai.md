@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: PerfAI is an autonomous agentic AppSec and auto-fix platform for AI-built applications, automating privacy, security, and governance.
@@ -84,7 +84,7 @@ plans:
 - name: Perf Ai Plans Pricing
   plan_count: 3
   slug: perf-ai-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Perf Ai Rate Limits
@@ -109,7 +109,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Zip Procurement API is a REST-based interface for automating and integrating enterprise procurement workflows. It provides endpoints for managing intake requests, vendor onboarding, approval routi
@@ -136,7 +136,7 @@ plans:
 - name: Zip Plans Pricing
   plan_count: 1
   slug: zip-plans-pricing
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Zip Rate Limits
@@ -161,7 +161,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 34.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

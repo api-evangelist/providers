@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 0
@@ -151,16 +151,6 @@ apis:
   slug: m3ter-currency-api
 - baseURL: https://api.m3ter.com
   baseurl_source: declared
-  description: 'Endpoints for retrieving and updating Custom Fields at the Organization level for all entities that support them. Custom Fields in m3ter allow you to store custom data in the form of number or string '
-  name: M3ter CustomField API
-  slug: m3ter-customfield-api
-- baseURL: https://api.m3ter.com
-  baseurl_source: declared
-  description: Endpoints for querying the Data Explorer and saving query selections. The Data Explorer is a m3ter analytics tool, enabling you to query the Usage, Billing, and Prepayments data collected for your Org
-  name: M3ter DataExplorer API
-  slug: m3ter-dataexplorer-api
-- baseURL: https://api.m3ter.com
-  baseurl_source: declared
   description: 'Endpoints for querying and filtering Usage data collected for your Organization. **IMPORTANT: Request Rate Limits for Data Explorer v2!** As part of the Config API, requests made to the Data Explorer '
   name: M3ter DataExplorerV2 API
   slug: m3ter-dataexplorerv2-api
@@ -191,11 +181,6 @@ apis:
   slug: m3ter-exportdestination-api
 - baseURL: https://api.m3ter.com
   baseurl_source: declared
-  description: Endpoints for retrieving/querying Data Export jobs. **Preview Version!** The Data Export feature is currently available only in Preview release version. See [Feature Release Stages](https://www.m3ter.
-  name: M3ter ExportJob API
-  slug: m3ter-exportjob-api
-- baseURL: https://api.m3ter.com
-  baseurl_source: declared
   description: Endpoints for creating, updating, retrieving, or deleting Data Export schedules. You can set up an Export Schedule to export one of two types of data from your m3ter Organization - either *Usage data*
   name: M3ter ExportSchedule API
   slug: m3ter-exportschedule-api
@@ -219,11 +204,6 @@ apis:
   description: Endpoint for retrieving a list of line items for Bills in an Organization.
   name: M3ter Line Item API
   slug: m3ter-line-item-api
-- baseURL: https://api.m3ter.com
-  baseurl_source: declared
-  description: Endpoints for creating/updating/deleting Lookup Tables. Lookup Tables enable you to manage dynamic data mappings that your calculations reference. Use them for currency conversion, pricing tiers, disc
-  name: M3ter LookupTable API
-  slug: m3ter-lookuptable-api
 - baseURL: https://api.m3ter.com
   baseurl_source: declared
   description: Endpoints for creating/updating/deleting Lookup Table Revisions. Lookup Tables utilize a "Table and Revision" model, which lets you update data cleanly, and extend the schema without modifying existin
@@ -334,6 +314,26 @@ apis:
   description: Endpoints for creating/updating Users
   name: M3ter User API
   slug: m3ter-user-api
+- baseURL: https://api.m3ter.com
+  baseurl_source: declared
+  description: Endpoints for retrieving and updating Custom Fields at the Organization level for all entities that support them.
+  name: M3ter Custom Field API
+  slug: m3ter-custom-field-api
+- baseURL: https://api.m3ter.com
+  baseurl_source: declared
+  description: Endpoints for querying the Data Explorer and saving query selections.
+  name: M3ter Data Explorer API
+  slug: m3ter-data-explorer-api
+- baseURL: https://api.m3ter.com
+  baseurl_source: declared
+  description: Endpoints for retrieving/querying Data Export jobs.
+  name: M3ter Export Job API
+  slug: m3ter-export-job-api
+- baseURL: https://api.m3ter.com
+  baseurl_source: declared
+  description: Endpoints for creating/updating/deleting Lookup Tables.
+  name: M3ter Lookup Table API
+  slug: m3ter-lookup-table-api
 artifact_total: 127
 collections:
 - collection_type: open
@@ -596,7 +596,7 @@ plans:
 - name: M3Ter Plans Pricing
   plan_count: 3
   slug: m3ter-plans-pricing
-random_paper: 8
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: M3Ter Rate Limits
@@ -633,7 +633,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ overview: 'Precium is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Precium''s developer surface includes documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: emerging
   composite: 13.8
@@ -123,7 +123,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

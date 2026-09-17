@@ -35,7 +35,7 @@ name: Ureeka
 nav: Providers
 network: true
 overview: Ureeka is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Small Business, Mentorship, Community, and Entrepreneurship.
-random_paper: 7
+random_paper: 21
 screenshot: https://raw.githubusercontent.com/api-evangelist/ureeka/refs/heads/main/screenshots/ureeka-2026-09-02T165214.png
 security:
 - kind: domain-security

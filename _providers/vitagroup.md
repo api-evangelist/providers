@@ -23,40 +23,160 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://sandkiste.ehrbase.org/ehrbase
   baseurl_source: declared
-  description: EHRbase's implementation of the official openEHR REST API (ITS-REST) — EHR, EHR_STATUS, COMPOSITION, DIRECTORY, CONTRIBUTION, versioned objects, ADL 1.4 / ADL 2 template definitions and Archetype Quer
-  name: HIP EHRbase openEHR REST API
-  slug: hip-ehrbase-openehr
+  description: The ADL 1.4 TEMPLATE API from vitagroup — 3 operation(s) for adl 1.4 template.
+  name: vitagroup ADL 1.4 TEMPLATE API
+  slug: vitagroup-adl-1-4-template-api
 - baseURL: https://sandkiste.ehrbase.org/ehrbase
   baseurl_source: declared
-  description: EHRbase's non-standard administrative API — hard delete and update of EHRs, compositions, contributions, directories, stored queries and templates, plus the HIP EHRbase Merge EHR operations (merge, me
-  name: HIP EHRbase Admin API
-  slug: hip-ehrbase-admin
+  description: The ADL 2 TEMPLATE API from vitagroup — 2 operation(s) for adl 2 template.
+  name: vitagroup ADL 2 TEMPLATE API
+  slug: vitagroup-adl-2-template-api
 - baseURL: https://sandkiste.ehrbase.org/ehrbase
   baseurl_source: declared
-  description: Experimental EHRbase API for attaching, reading and deleting ITEM_TAG key/value annotations on EHR_STATUS and COMPOSITION versioned objects, addressed by openEHR path. 2 paths / 6 operations. Marked e
-  name: HIP EHRbase Item Tag Experimental API
-  slug: hip-ehrbase-item-tags
-- baseURL: https://{ehrbaseBaseUrl}
-  baseurl_source: declared
-  description: The closed-source HIP EHRbase enterprise plugin API — Event Trigger management (AQL-defined hooks that forward composition and EHR_STATUS events over HTTP, AMQP/RabbitMQ or Kafka), Multi-tenant provis
-  name: HIP EHRbase Enterprise API
-  slug: hip-ehrbase-enterprise
+  description: The Admin - Composition API from vitagroup — 1 operation(s) for admin - composition.
+  name: vitagroup Admin - Composition API
+  slug: vitagroup-admin-composition-api
 - baseURL: https://sandkiste.ehrbase.org/ehrbase
   baseurl_source: declared
-  description: The OpenAPI document served by vitagroup's public EHRbase sandbox instance at sandkiste.ehrbase.org, harvested from /ehrbase/v3/api-docs. Combines the openEHR, EHR-Scape (ECIS), Admin and Status surfa
-  name: EHRbase Sandbox (live springdoc api-docs)
-  slug: ehrbase-sandbox-live
-artifact_total: 12
+  description: The Admin - Contribution API from vitagroup — 1 operation(s) for admin - contribution.
+  name: vitagroup Admin - Contribution API
+  slug: vitagroup-admin-contribution-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - Directory API from vitagroup — 1 operation(s) for admin - directory.
+  name: vitagroup Admin - Directory API
+  slug: vitagroup-admin-directory-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - EHR API from vitagroup — 1 operation(s) for admin - ehr.
+  name: vitagroup Admin - EHR API
+  slug: vitagroup-admin-ehr-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - EHR-Merge API from vitagroup — 4 operation(s) for admin - ehr-merge.
+  name: vitagroup Admin - EHR-Merge API
+  slug: vitagroup-admin-ehr-merge-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - Heartbeat API from vitagroup — 1 operation(s) for admin - heartbeat.
+  name: vitagroup Admin - Heartbeat API
+  slug: vitagroup-admin-heartbeat-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - Stored-Query API from vitagroup — 1 operation(s) for admin - stored-query.
+  name: vitagroup Admin - Stored-Query API
+  slug: vitagroup-admin-stored-query-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - Template API from vitagroup — 2 operation(s) for admin - template.
+  name: vitagroup Admin - Template API
+  slug: vitagroup-admin-template-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Compensation API from vitagroup — 1 operation(s) for compensation.
+  name: vitagroup Compensation API
+  slug: vitagroup-compensation-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The COMPOSITION API from vitagroup — 5 operation(s) for composition.
+  name: vitagroup COMPOSITION API
+  slug: vitagroup-composition-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The COMPOSITION ITEM_TAG API from vitagroup — 1 operation(s) for composition item_tag.
+  name: vitagroup COMPOSITION ITEM_TAG API
+  slug: vitagroup-composition-item-tag-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The CONTRIBUTION API from vitagroup — 2 operation(s) for contribution.
+  name: vitagroup CONTRIBUTION API
+  slug: vitagroup-contribution-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The DIRECTORY API from vitagroup — 2 operation(s) for directory.
+  name: vitagroup DIRECTORY API
+  slug: vitagroup-directory-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The EHR API from vitagroup — 2 operation(s) for ehr.
+  name: vitagroup EHR API
+  slug: vitagroup-ehr-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The EHR_STATUS API from vitagroup — 2 operation(s) for ehr_status.
+  name: vitagroup EHR STATUS API
+  slug: vitagroup-ehr-status-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The EHR_STATUS ITEM_TAGS API from vitagroup — 1 operation(s) for ehr_status item_tags.
+  name: vitagroup EHR_STATUS ITEM_TAGS API
+  slug: vitagroup-ehr-status-item-tags-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Event Trigger API from vitagroup — 3 operation(s) for event trigger.
+  name: vitagroup Event Trigger API
+  slug: vitagroup-event-trigger-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Multi tenant API from vitagroup — 2 operation(s) for multi tenant.
+  name: vitagroup Multi tenant API
+  slug: vitagroup-multi-tenant-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The QUERY API from vitagroup — 3 operation(s) for query.
+  name: vitagroup QUERY API
+  slug: vitagroup-query-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: Heartbeat, Version info, Status
+  name: vitagroup Status API
+  slug: vitagroup-status-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The STORED_QUERY API from vitagroup — 3 operation(s) for stored_query.
+  name: vitagroup STORED QUERY API
+  slug: vitagroup-stored-query-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The TEMPLATE API from vitagroup — 3 operation(s) for template.
+  name: vitagroup TEMPLATE API
+  slug: vitagroup-template-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The VERSIONED_COMPOSITION API from vitagroup — 4 operation(s) for versioned_composition.
+  name: vitagroup VERSIONED COMPOSITION API
+  slug: vitagroup-versioned-composition-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The VERSIONED_EHR_STATUS API from vitagroup — 4 operation(s) for versioned_ehr_status.
+  name: vitagroup VERSIONED EHR STATUS API
+  slug: vitagroup-versioned-ehr-status-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Vitagroup Event Trigger Webhooks
   slug: vitagroup-event-trigger-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/overlays/vitagroup-hip-ehrbase-admin-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/vitagroup-hip-ehrbase-admin-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/overlays/vitagroup-hip-ehrbase-item-tags-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/vitagroup-hip-ehrbase-item-tags-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vitagroup/refs/heads/main/overlays/vitagroup-hip-ehrbase-enterprise-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/vitagroup-hip-ehrbase-enterprise-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -230,18 +350,18 @@ modified: '2026-09-02'
 name: vitagroup
 nav: Providers
 network: true
-overview: 'vitagroup publishes 5 APIs on the [APIs.io](https://apis.io/) network, including HIP EHRbase openEHR REST API, HIP EHRbase Admin API, HIP EHRbase Item Tag Experimental API, and 2 more. Tagged areas include Company, Healthcare, Health IT, Electronic Health Records, and openEHR.
+overview: 'vitagroup publishes 26 APIs on the [APIs.io](https://apis.io/) network, including ADL 1.4 TEMPLATE API, ADL 2 TEMPLATE API, Admin - Composition API, and 23 more. Tagged areas include Company, Healthcare, Health IT, Electronic Health Records, and openEHR.
 
 
   The vitagroup catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  vitagroup''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 29 more developer resources.'
+  vitagroup''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 32 more developer resources.'
 plans:
 - name: Vitagroup Plans Pricing
   plan_count: 0
   slug: vitagroup-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Vitagroup Rate Limits
@@ -253,7 +373,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.2
+  composite: 53.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -261,11 +381,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 46.1
+    contract_quality: 57.2
     developer_ergonomics: 66.1
     discoverability: 74.1
     operational_transparency: 44.7
@@ -281,10 +401,10 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 26
     mcp: derived
     skills: derived
   regulatory:
@@ -294,7 +414,7 @@ score:
     regime_id: health
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

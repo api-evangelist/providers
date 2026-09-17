@@ -32,7 +32,7 @@ name: Stay Alfred
 nav: Providers
 network: true
 overview: Stay Alfred is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Travel, Hospitality, and Lodging.
-random_paper: 3
+random_paper: 16
 slug: stay-alfred
 tags:
 - Company
@@ -41,9 +41,9 @@ tags:
 - Hospitality
 - Lodging
 - Short-Term Rental
-- Vacation Rental
+- Vacation Rentals
 - Corporate Housing
-- Accommodations
+- Accommodation
 - Real-Estate
 - Consumer
 ---

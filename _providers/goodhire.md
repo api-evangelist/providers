@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
 - baseURL: https://api.goodhire.com
   baseurl_source: declared
   description: The GoodHire API API from GoodHire — 0 operation(s) for goodhire api.
-  name: GoodHire GoodHire API
+  name: GoodHire API
   slug: goodhire-goodhire-api-api
 artifact_total: 16
 collections:
@@ -142,11 +142,11 @@ finops:
   slug: goodhire-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/goodhire.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-09-16'
 name: GoodHire
 nav: Providers
 network: true
-overview: 'GoodHire publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Packages API, Partner API, Reports API, and 2 more. Tagged areas include Background Checks, Employment Screening, Identity Verification, HR, and Compliance.
+overview: 'GoodHire publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Packages API, Partner API, Reports API, and 2 more. Tagged areas include Background Checks, Employment Screening, Identity Verification, Human Resources, and Compliance.
 
 
   GoodHire''s developer surface includes authentication, documentation, pricing, and 7 more developer resources.'
@@ -154,7 +154,7 @@ plans:
 - name: Goodhire Plans Pricing
   plan_count: 4
   slug: goodhire-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Goodhire Rate Limits
@@ -186,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -206,7 +206,7 @@ tags:
 - Background Checks
 - Employment Screening
 - Identity Verification
-- HR
+- Human Resources
 - Compliance
 - FCRA
 - Checkr

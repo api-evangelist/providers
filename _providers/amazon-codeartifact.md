@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -193,6 +193,10 @@ collections:
   name: CodeArtifact Authorization Token#domain Untag#resourceArn API
   slug: open-amazon-codeartifact-untag-resourcearn-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/mcp/amazon-codeartifact-mcp.yml
   title: ''
@@ -1650,7 +1654,7 @@ jsonld:
   property_count: 76
   slug: amazon-codeartifact-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon CodeArtifact
 nav: Providers
 network: true
@@ -1660,8 +1664,8 @@ overview: 'Amazon CodeArtifact publishes 13 APIs on the [APIs.io](https://apis.i
   The Amazon CodeArtifact catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 22 more developer resources.'
-random_paper: 16
+  Amazon CodeArtifact''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 23 more developer resources.'
+random_paper: 12
 rules:
 - effective_rule_count: 5
   extends: []
@@ -1713,7 +1717,7 @@ score:
       total: 13
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1759,5 +1763,5 @@ use_cases:
   name: Multi-Team Package Governance
 - description: Integrate with CI/CD systems using native package manager support (npm, Maven, pip, NuGet) to fetch and publish packages as part of automated build and release workflows.
   name: CI/CD Pipeline Integration
-website: https://aws.amazon.com/codeartifact/
+website: https://amazon.com
 ---

@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 40
-  human_in_the_loop: 0
+- acting_count: 228
+  human_in_the_loop: 5
   name: Deel Com Agentic Access
-  operation_count: 93
+  operation_count: 484
   slug: deel-com-agentic-access
-  summary_line: 93 operations · 40 acting
-api_count: 8
+  summary_line: 484 operations · 228 acting · 5 human-in-the-loop
+api_count: 99
 apis:
 - baseURL: https://api.letsdeel.com/rest/v2
   baseurl_source: declared
@@ -83,7 +83,7 @@ apis:
 - baseURL: https://api.letsdeel.com/rest/v2
   baseurl_source: declared
   description: Device provisioning and equipment lifecycle
-  name: Deel Deel IT API
+  name: Deel IT API
   slug: deel-com-deel-it-api
 - baseURL: https://api.letsdeel.com/rest/v2
   baseurl_source: declared
@@ -241,461 +241,451 @@ apis:
   name: Deel Webhooks API
   slug: deel-com-webhooks-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
-  description: The Default API from Deel — 1 operation(s) for default.
-  name: Deel Default API
-  slug: deel-default-api
+  baseurl_source: declared
+  description: The Com Default API from Deel — 1 operation(s) for com default.
+  name: Deel Com Default API
+  slug: deel-com-default-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_accounting API from Deel — 6 operation(s) for subpackage_accounting.
-  name: Deel subpackage_accounting API
-  slug: deel-subpackage-accounting-api
+  name: Deel Subpackage Accounting API
+  slug: deel-com-subpackage-accounting-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_adjustments API from Deel — 4 operation(s) for subpackage_adjustments.
-  name: Deel subpackage_adjustments API
-  slug: deel-subpackage-adjustments-api
+  name: Deel Subpackage Adjustments API
+  slug: deel-com-subpackage-adjustments-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_assets API from Deel — 2 operation(s) for subpackage_assets.
-  name: Deel subpackage_assets API
-  slug: deel-subpackage-assets-api
+  name: Deel Subpackage Assets API
+  slug: deel-com-subpackage-assets-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_ats API from Deel — 20 operation(s) for subpackage_ats.
-  name: Deel subpackage_ats API
-  slug: deel-subpackage-ats-api
+  name: Deel Subpackage Ats API
+  slug: deel-com-subpackage-ats-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_candidates API from Deel — 1 operation(s) for subpackage_candidates.
-  name: Deel subpackage_candidates API
-  slug: deel-subpackage-candidates-api
+  name: Deel Subpackage Candidates API
+  slug: deel-com-subpackage-candidates-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_consent API from Deel — 1 operation(s) for subpackage_consent.
-  name: Deel subpackage_consent API
-  slug: deel-subpackage-consent-api
+  name: Deel Subpackage Consent API
+  slug: deel-com-subpackage-consent-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_contractorAmendments API from Deel — 1 operation(s) for subpackage_contractoramendments.
-  name: Deel subpackage_contractorAmendments API
-  slug: deel-subpackage-contractoramendments-api
+  name: Deel Subpackage Contractor Amendments API
+  slug: deel-com-subpackage-contractoramendments-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_contractorHiring API from Deel — 6 operation(s) for subpackage_contractorhiring.
-  name: Deel subpackage_contractorHiring API
-  slug: deel-subpackage-contractorhiring-api
+  name: Deel Subpackage Contractor Hiring API
+  slug: deel-com-subpackage-contractorhiring-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_contracts API from Deel — 10 operation(s) for subpackage_contracts.
-  name: Deel subpackage_contracts API
-  slug: deel-subpackage-contracts-api
+  name: Deel Subpackage Contracts API
+  slug: deel-com-subpackage-contracts-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_costCalculator API from Deel — 1 operation(s) for subpackage_costcalculator.
-  name: Deel subpackage_costCalculator API
-  slug: deel-subpackage-costcalculator-api
+  name: Deel Subpackage Cost Calculator API
+  slug: deel-com-subpackage-costcalculator-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_costCenters API from Deel — 3 operation(s) for subpackage_costcenters.
-  name: Deel subpackage_costCenters API
-  slug: deel-subpackage-costcenters-api
+  name: Deel Subpackage Cost Centers API
+  slug: deel-com-subpackage-costcenters-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_customFieldsContracts API from Deel — 4 operation(s) for subpackage_customfieldscontracts.
-  name: Deel subpackage_customFieldsContracts API
-  slug: deel-subpackage-customfieldscontracts-api
+  name: Deel Subpackage Custom Fields Contracts API
+  slug: deel-com-subpackage-customfieldscontracts-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_customFieldsPeople API from Deel — 4 operation(s) for subpackage_customfieldspeople.
-  name: Deel subpackage_customFieldsPeople API
-  slug: deel-subpackage-customfieldspeople-api
+  name: Deel Subpackage Custom Fields People API
+  slug: deel-com-subpackage-customfieldspeople-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_deelAsAService API from Deel — 2 operation(s) for subpackage_deelasaservice.
-  name: Deel subpackage_deelAsAService API
-  slug: deel-subpackage-deelasaservice-api
+  name: Deel Subpackage Deel As A Service API
+  slug: deel-com-subpackage-deelasaservice-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_employeeInformation API from Deel — 1 operation(s) for subpackage_employeeinformation.
-  name: Deel subpackage_employeeInformation API
-  slug: deel-subpackage-employeeinformation-api
+  name: Deel Subpackage Employee Information API
+  slug: deel-com-subpackage-employeeinformation-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_employees API from Deel — 1 operation(s) for subpackage_employees.
-  name: Deel subpackage_employees API
-  slug: deel-subpackage-employees-api
+  name: Deel Subpackage Employees API
+  slug: deel-com-subpackage-employees-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_enrollments API from Deel — 1 operation(s) for subpackage_enrollments.
-  name: Deel subpackage_enrollments API
-  slug: deel-subpackage-enrollments-api
+  name: Deel Subpackage Enrollments API
+  slug: deel-com-subpackage-enrollments-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorAmendments API from Deel — 9 operation(s) for subpackage_eoramendments.
-  name: Deel subpackage_eorAmendments API
-  slug: deel-subpackage-eoramendments-api
+  name: Deel Subpackage Eor Amendments API
+  slug: deel-com-subpackage-eoramendments-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorBenefits API from Deel — 1 operation(s) for subpackage_eorbenefits.
-  name: Deel subpackage_eorBenefits API
-  slug: deel-subpackage-eorbenefits-api
+  name: Deel Subpackage Eor Benefits API
+  slug: deel-com-subpackage-eorbenefits-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorContract API from Deel — 3 operation(s) for subpackage_eorcontract.
-  name: Deel subpackage_eorContract API
-  slug: deel-subpackage-eorcontract-api
+  name: Deel Subpackage Eor Contract API
+  slug: deel-com-subpackage-eorcontract-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorContractDocuments API from Deel — 1 operation(s) for subpackage_eorcontractdocuments.
-  name: Deel subpackage_eorContractDocuments API
-  slug: deel-subpackage-eorcontractdocuments-api
+  name: Deel Subpackage Eor Contract Documents API
+  slug: deel-com-subpackage-eorcontractdocuments-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorHiring API from Deel — 9 operation(s) for subpackage_eorhiring.
-  name: Deel subpackage_eorHiring API
-  slug: deel-subpackage-eorhiring-api
+  name: Deel Subpackage Eor Hiring API
+  slug: deel-com-subpackage-eorhiring-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorJobScopes API from Deel — 2 operation(s) for subpackage_eorjobscopes.
-  name: Deel subpackage_eorJobScopes API
-  slug: deel-subpackage-eorjobscopes-api
+  name: Deel Subpackage Eor Job Scopes API
+  slug: deel-com-subpackage-eorjobscopes-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorOffboarding API from Deel — 8 operation(s) for subpackage_eoroffboarding.
-  name: Deel subpackage_eorOffboarding API
-  slug: deel-subpackage-eoroffboarding-api
+  name: Deel Subpackage Eor Offboarding API
+  slug: deel-com-subpackage-eoroffboarding-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
-  description: The subpackage_eorPayslips API from Deel — 1 operation(s) for subpackage_eorpayslips.
-  name: Deel subpackage_eorPayslips API
-  slug: deel-subpackage-eorpayslips-api
-- baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorProjectAssignment API from Deel — 3 operation(s) for subpackage_eorprojectassignment.
-  name: Deel subpackage_eorProjectAssignment API
-  slug: deel-subpackage-eorprojectassignment-api
+  name: Deel Subpackage Eor Project Assignment API
+  slug: deel-com-subpackage-eorprojectassignment-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorTerminations API from Deel — 4 operation(s) for subpackage_eorterminations.
-  name: Deel subpackage_eorTerminations API
-  slug: deel-subpackage-eorterminations-api
+  name: Deel Subpackage Eor Terminations API
+  slug: deel-com-subpackage-eorterminations-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerAccounts API from Deel — 1 operation(s) for subpackage_eorworkeraccounts.
-  name: Deel subpackage_eorWorkerAccounts API
-  slug: deel-subpackage-eorworkeraccounts-api
+  name: Deel Subpackage Eor Worker Accounts API
+  slug: deel-com-subpackage-eorworkeraccounts-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerAgreements API from Deel — 3 operation(s) for subpackage_eorworkeragreements.
-  name: Deel subpackage_eorWorkerAgreements API
-  slug: deel-subpackage-eorworkeragreements-api
+  name: Deel Subpackage Eor Worker Agreements API
+  slug: deel-com-subpackage-eorworkeragreements-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerBanks API from Deel — 2 operation(s) for subpackage_eorworkerbanks.
-  name: Deel subpackage_eorWorkerBanks API
-  slug: deel-subpackage-eorworkerbanks-api
+  name: Deel Subpackage Eor Worker Banks API
+  slug: deel-com-subpackage-eorworkerbanks-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerBenefits API from Deel — 1 operation(s) for subpackage_eorworkerbenefits.
-  name: Deel subpackage_eorWorkerBenefits API
-  slug: deel-subpackage-eorworkerbenefits-api
+  name: Deel Subpackage Eor Worker Benefits API
+  slug: deel-com-subpackage-eorworkerbenefits-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerCompliance API from Deel — 5 operation(s) for subpackage_eorworkercompliance.
-  name: Deel subpackage_eorWorkerCompliance API
-  slug: deel-subpackage-eorworkercompliance-api
+  name: Deel Subpackage Eor Worker Compliance API
+  slug: deel-com-subpackage-eorworkercompliance-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerDocuments API from Deel — 1 operation(s) for subpackage_eorworkerdocuments.
-  name: Deel subpackage_eorWorkerDocuments API
-  slug: deel-subpackage-eorworkerdocuments-api
+  name: Deel Subpackage Eor Worker Documents API
+  slug: deel-com-subpackage-eorworkerdocuments-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerInformation API from Deel — 3 operation(s) for subpackage_eorworkerinformation.
-  name: Deel subpackage_eorWorkerInformation API
-  slug: deel-subpackage-eorworkerinformation-api
+  name: Deel Subpackage Eor Worker Information API
+  slug: deel-com-subpackage-eorworkerinformation-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerMailboxes API from Deel — 1 operation(s) for subpackage_eorworkermailboxes.
-  name: Deel subpackage_eorWorkerMailboxes API
-  slug: deel-subpackage-eorworkermailboxes-api
+  name: Deel Subpackage Eor Worker Mailboxes API
+  slug: deel-com-subpackage-eorworkermailboxes-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerOffboarding API from Deel — 5 operation(s) for subpackage_eorworkeroffboarding.
-  name: Deel subpackage_eorWorkerOffboarding API
-  slug: deel-subpackage-eorworkeroffboarding-api
+  name: Deel Subpackage Eor Worker Offboarding API
+  slug: deel-com-subpackage-eorworkeroffboarding-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_eorWorkerPayslips API from Deel — 1 operation(s) for subpackage_eorworkerpayslips.
-  name: Deel subpackage_eorWorkerPayslips API
-  slug: deel-subpackage-eorworkerpayslips-api
+  name: Deel Subpackage Eor Worker Payslips API
+  slug: deel-com-subpackage-eorworkerpayslips-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_equityTokens API from Deel — 1 operation(s) for subpackage_equitytokens.
-  name: Deel subpackage_equityTokens API
-  slug: deel-subpackage-equitytokens-api
+  name: Deel Subpackage Equity Tokens API
+  slug: deel-com-subpackage-equitytokens-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_forms API from Deel — 2 operation(s) for subpackage_forms.
-  name: Deel subpackage_forms API
-  slug: deel-subpackage-forms-api
+  name: Deel Subpackage Forms API
+  slug: deel-com-subpackage-forms-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_globalPayroll API from Deel — 3 operation(s) for subpackage_globalpayroll.
-  name: Deel subpackage_globalPayroll API
-  slug: deel-subpackage-globalpayroll-api
+  name: Deel Subpackage Global Payroll API
+  slug: deel-com-subpackage-globalpayroll-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_gpHiring API from Deel — 2 operation(s) for subpackage_gphiring.
-  name: Deel subpackage_gpHiring API
-  slug: deel-subpackage-gphiring-api
+  name: Deel Subpackage Gp Hiring API
+  slug: deel-com-subpackage-gphiring-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_groups API from Deel — 3 operation(s) for subpackage_groups.
-  name: Deel subpackage_groups API
-  slug: deel-subpackage-groups-api
+  name: Deel Subpackage Groups API
+  slug: deel-com-subpackage-groups-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_hrxDocuments API from Deel — 2 operation(s) for subpackage_hrxdocuments.
-  name: Deel subpackage_hrxDocuments API
-  slug: deel-subpackage-hrxdocuments-api
+  name: Deel Subpackage Hrx Documents API
+  slug: deel-com-subpackage-hrxdocuments-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_icInvoicingTaxes API from Deel — 2 operation(s) for subpackage_icinvoicingtaxes.
-  name: Deel subpackage_icInvoicingTaxes API
-  slug: deel-subpackage-icinvoicingtaxes-api
+  name: Deel Subpackage Ic Invoicing Taxes API
+  slug: deel-com-subpackage-icinvoicingtaxes-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_immigration API from Deel — 10 operation(s) for subpackage_immigration.
-  name: Deel subpackage_immigration API
-  slug: deel-subpackage-immigration-api
+  name: Deel Subpackage Immigration API
+  slug: deel-com-subpackage-immigration-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_integrations API from Deel — 1 operation(s) for subpackage_integrations.
-  name: Deel subpackage_integrations API
-  slug: deel-subpackage-integrations-api
+  name: Deel Subpackage Integrations API
+  slug: deel-com-subpackage-integrations-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_invoiceAdjustments API from Deel — 4 operation(s) for subpackage_invoiceadjustments.
-  name: Deel subpackage_invoiceAdjustments API
-  slug: deel-subpackage-invoiceadjustments-api
+  name: Deel Subpackage Invoice Adjustments API
+  slug: deel-com-subpackage-invoiceadjustments-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_knowledgeHub API from Deel — 1 operation(s) for subpackage_knowledgehub.
-  name: Deel subpackage_knowledgeHub API
-  slug: deel-subpackage-knowledgehub-api
+  name: Deel Subpackage Knowledge Hub API
+  slug: deel-com-subpackage-knowledgehub-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_learning API from Deel — 1 operation(s) for subpackage_learning.
-  name: Deel subpackage_learning API
-  slug: deel-subpackage-learning-api
+  name: Deel Subpackage Learning API
+  slug: deel-com-subpackage-learning-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_legalEntities API from Deel — 4 operation(s) for subpackage_legalentities.
-  name: Deel subpackage_legalEntities API
-  slug: deel-subpackage-legalentities-api
+  name: Deel Subpackage Legal Entities API
+  slug: deel-com-subpackage-legalentities-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_listCycles API from Deel — 1 operation(s) for subpackage_listcycles.
-  name: Deel subpackage_listCycles API
-  slug: deel-subpackage-listcycles-api
+  name: Deel Subpackage List Cycles API
+  slug: deel-com-subpackage-listcycles-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_lookups API from Deel — 6 operation(s) for subpackage_lookups.
-  name: Deel subpackage_lookups API
-  slug: deel-subpackage-lookups-api
+  name: Deel Subpackage Lookups API
+  slug: deel-com-subpackage-lookups-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
-  description: The subpackage_magicLink API from Deel — 1 operation(s) for subpackage_magiclink.
-  name: Deel subpackage_magicLink API
-  slug: deel-subpackage-magiclink-api
-- baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_managers API from Deel — 2 operation(s) for subpackage_managers.
-  name: Deel subpackage_managers API
-  slug: deel-subpackage-managers-api
+  name: Deel Subpackage Managers API
+  slug: deel-com-subpackage-managers-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_milestones API from Deel — 2 operation(s) for subpackage_milestones.
-  name: Deel subpackage_milestones API
-  slug: deel-subpackage-milestones-api
+  name: Deel Subpackage Milestones API
+  slug: deel-com-subpackage-milestones-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_offboarding API from Deel — 3 operation(s) for subpackage_offboarding.
-  name: Deel subpackage_offboarding API
-  slug: deel-subpackage-offboarding-api
+  name: Deel Subpackage Offboarding API
+  slug: deel-com-subpackage-offboarding-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_offCycle API from Deel — 2 operation(s) for subpackage_offcycle.
-  name: Deel subpackage_offCycle API
-  slug: deel-subpackage-offcycle-api
+  name: Deel Subpackage Off Cycle API
+  slug: deel-com-subpackage-offcycle-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_onboarding API from Deel — 3 operation(s) for subpackage_onboarding.
-  name: Deel subpackage_onboarding API
-  slug: deel-subpackage-onboarding-api
+  name: Deel Subpackage Onboarding API
+  slug: deel-com-subpackage-onboarding-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_orders API from Deel — 2 operation(s) for subpackage_orders.
-  name: Deel subpackage_orders API
-  slug: deel-subpackage-orders-api
+  name: Deel Subpackage Orders API
+  slug: deel-com-subpackage-orders-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_organizations API from Deel — 7 operation(s) for subpackage_organizations.
-  name: Deel subpackage_organizations API
-  slug: deel-subpackage-organizations-api
+  name: Deel Subpackage Organizations API
+  slug: deel-com-subpackage-organizations-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_organizationStructure API from Deel — 6 operation(s) for subpackage_organizationstructure.
-  name: Deel subpackage_organizationStructure API
-  slug: deel-subpackage-organizationstructure-api
+  name: Deel Subpackage Organization Structure API
+  slug: deel-com-subpackage-organizationstructure-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_organizationTasks API from Deel — 1 operation(s) for subpackage_organizationtasks.
-  name: Deel subpackage_organizationTasks API
-  slug: deel-subpackage-organizationtasks-api
+  name: Deel Subpackage Organization Tasks API
+  slug: deel-com-subpackage-organizationtasks-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_payouts API from Deel — 11 operation(s) for subpackage_payouts.
-  name: Deel subpackage_payouts API
-  slug: deel-subpackage-payouts-api
+  name: Deel Subpackage Payouts API
+  slug: deel-com-subpackage-payouts-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_payroll API from Deel — 2 operation(s) for subpackage_payroll.
-  name: Deel subpackage_payroll API
-  slug: deel-subpackage-payroll-api
+  name: Deel Subpackage Payroll API
+  slug: deel-com-subpackage-payroll-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_payslips API from Deel — 1 operation(s) for subpackage_payslips.
-  name: Deel subpackage_payslips API
-  slug: deel-subpackage-payslips-api
+  name: Deel Subpackage Payslips API
+  slug: deel-com-subpackage-payslips-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_paystubs API from Deel — 1 operation(s) for subpackage_paystubs.
-  name: Deel subpackage_paystubs API
-  slug: deel-subpackage-paystubs-api
+  name: Deel Subpackage Paystubs API
+  slug: deel-com-subpackage-paystubs-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_people API from Deel — 5 operation(s) for subpackage_people.
-  name: Deel subpackage_people API
-  slug: deel-subpackage-people-api
+  name: Deel Subpackage People API
+  slug: deel-com-subpackage-people-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_personalInformation API from Deel — 2 operation(s) for subpackage_personalinformation.
-  name: Deel subpackage_personalInformation API
-  slug: deel-subpackage-personalinformation-api
+  name: Deel Subpackage Personal Information API
+  slug: deel-com-subpackage-personalinformation-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_plans401K API from Deel — 5 operation(s) for subpackage_plans401k.
-  name: Deel subpackage_plans401K API
-  slug: deel-subpackage-plans401k-api
+  name: Deel Subpackage Plans401 K API
+  slug: deel-com-subpackage-plans401k-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_policies API from Deel — 1 operation(s) for subpackage_policies.
-  name: Deel subpackage_policies API
-  slug: deel-subpackage-policies-api
+  name: Deel Subpackage Policies API
+  slug: deel-com-subpackage-policies-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_positions API from Deel — 3 operation(s) for subpackage_positions.
-  name: Deel subpackage_positions API
-  slug: deel-subpackage-positions-api
+  name: Deel Subpackage Positions API
+  slug: deel-com-subpackage-positions-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_projects API from Deel — 5 operation(s) for subpackage_projects.
-  name: Deel subpackage_projects API
-  slug: deel-subpackage-projects-api
+  name: Deel Subpackage Projects API
+  slug: deel-com-subpackage-projects-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_reports API from Deel — 4 operation(s) for subpackage_reports.
-  name: Deel subpackage_reports API
-  slug: deel-subpackage-reports-api
+  name: Deel Subpackage Reports API
+  slug: deel-com-subpackage-reports-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_screenings API from Deel — 6 operation(s) for subpackage_screenings.
-  name: Deel subpackage_screenings API
-  slug: deel-subpackage-screenings-api
+  name: Deel Subpackage Screenings API
+  slug: deel-com-subpackage-screenings-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_serviceProviderConfig API from Deel — 1 operation(s) for subpackage_serviceproviderconfig.
-  name: Deel subpackage_serviceProviderConfig API
-  slug: deel-subpackage-serviceproviderconfig-api
+  name: Deel Subpackage Service Provider Config API
+  slug: deel-com-subpackage-serviceproviderconfig-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_tasks API from Deel — 5 operation(s) for subpackage_tasks.
-  name: Deel subpackage_tasks API
-  slug: deel-subpackage-tasks-api
+  name: Deel Subpackage Tasks API
+  slug: deel-com-subpackage-tasks-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_terminations API from Deel — 1 operation(s) for subpackage_terminations.
-  name: Deel subpackage_terminations API
-  slug: deel-subpackage-terminations-api
+  name: Deel Subpackage Terminations API
+  slug: deel-com-subpackage-terminations-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_timeOff API from Deel — 11 operation(s) for subpackage_timeoff.
-  name: Deel subpackage_timeOff API
-  slug: deel-subpackage-timeoff-api
+  name: Deel Subpackage Time Off API
+  slug: deel-com-subpackage-timeoff-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_timesheets API from Deel — 4 operation(s) for subpackage_timesheets.
-  name: Deel subpackage_timesheets API
-  slug: deel-subpackage-timesheets-api
+  name: Deel Subpackage Timesheets API
+  slug: deel-com-subpackage-timesheets-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_timeTracking API from Deel — 5 operation(s) for subpackage_timetracking.
-  name: Deel subpackage_timeTracking API
-  slug: deel-subpackage-timetracking-api
+  name: Deel Subpackage Time Tracking API
+  slug: deel-com-subpackage-timetracking-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_timeTrackingShifts API from Deel — 4 operation(s) for subpackage_timetrackingshifts.
-  name: Deel subpackage_timeTrackingShifts API
-  slug: deel-subpackage-timetrackingshifts-api
+  name: Deel Subpackage Time Tracking Shifts API
+  slug: deel-com-subpackage-timetrackingshifts-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_treasury API from Deel — 2 operation(s) for subpackage_treasury.
-  name: Deel subpackage_treasury API
-  slug: deel-subpackage-treasury-api
+  name: Deel Subpackage Treasury API
+  slug: deel-com-subpackage-treasury-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_user API from Deel — 1 operation(s) for subpackage_user.
-  name: Deel subpackage_user API
-  slug: deel-subpackage-user-api
+  name: Deel Subpackage User API
+  slug: deel-com-subpackage-user-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_users API from Deel — 3 operation(s) for subpackage_users.
-  name: Deel subpackage_users API
-  slug: deel-subpackage-users-api
+  name: Deel Subpackage Users API
+  slug: deel-com-subpackage-users-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_webhooks API from Deel — 3 operation(s) for subpackage_webhooks.
-  name: Deel subpackage_webhooks API
-  slug: deel-subpackage-webhooks-api
+  name: Deel Subpackage Webhooks API
+  slug: deel-com-subpackage-webhooks-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_workerHr API from Deel — 1 operation(s) for subpackage_workerhr.
-  name: Deel subpackage_workerHr API
-  slug: deel-subpackage-workerhr-api
+  name: Deel Subpackage Worker Hr API
+  slug: deel-com-subpackage-workerhr-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_workerInformation API from Deel — 8 operation(s) for subpackage_workerinformation.
-  name: Deel subpackage_workerInformation API
-  slug: deel-subpackage-workerinformation-api
+  name: Deel Subpackage Worker Information API
+  slug: deel-com-subpackage-workerinformation-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_workerRelations API from Deel — 15 operation(s) for subpackage_workerrelations.
-  name: Deel subpackage_workerRelations API
-  slug: deel-subpackage-workerrelations-api
+  name: Deel Subpackage Worker Relations API
+  slug: deel-com-subpackage-workerrelations-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_workers API from Deel — 5 operation(s) for subpackage_workers.
-  name: Deel subpackage_workers API
-  slug: deel-subpackage-workers-api
+  name: Deel Subpackage Workers API
+  slug: deel-com-subpackage-workers-api
 - baseURL: https://api.letsdeel.com/rest/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: The subpackage_workerSession API from Deel — 2 operation(s) for subpackage_workersession.
-  name: Deel subpackage_workerSession API
-  slug: deel-subpackage-workersession-api
-artifact_total: 219
+  name: Deel Subpackage Worker Session API
+  slug: deel-com-subpackage-workersession-api
+artifact_total: 217
 asyncapis:
 - description: AsyncAPI definition for Deel's webhook surface. Deel webhooks are HTTP POST deliveries from Deel to a subscriber-controlled `url` registered via the Deel Webhooks API (`POST /rest/v2/webhooks`). A sub
   name: Deel Webhooks
@@ -1055,11 +1045,11 @@ jsonld:
   property_count: 9
   slug: deel-com-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Deel
 nav: Providers
 network: true
-overview: 'Deel publishes 130 APIs on the [APIs.io](https://apis.io/) network, including Adjustments API, Applications API, Candidates API, and 127 more. Tagged areas include HR, Payroll, Global Payroll, Employer of Record, and Contractors.
+overview: 'Deel publishes 128 APIs on the [APIs.io](https://apis.io/) network, including Adjustments API, Applications API, Candidates API, and 125 more. Tagged areas include Human Resources, Payroll, Global Payroll, Employer of Record, and Contractors.
 
 
   The Deel catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -1070,7 +1060,7 @@ plans:
 - name: Deel Com Plans Pricing
   plan_count: 15
   slug: deel-com-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Deel Com Rate Limits
@@ -1087,8 +1077,8 @@ rules:
     warn: 4
   slug: deel-com-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 65.7
+  band: exemplar
+  composite: 66.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 78.3
@@ -1096,11 +1086,11 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 78.2
+    contract_quality: 81.1
     developer_ergonomics: 64.3
     discoverability: 68.5
     operational_transparency: 63.2
@@ -1111,10 +1101,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 130
+      total: 128
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1131,7 +1121,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: deel-com
 tags:
-- HR
+- Human Resources
 - Payroll
 - Global Payroll
 - Employer of Record

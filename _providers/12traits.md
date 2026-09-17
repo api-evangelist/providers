@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the Solsten assessment and persona platform. Documented operations cover listing users who completed an assessment (paged, 500 per page, one-hour cache), checking a single user's assessme
@@ -173,7 +173,7 @@ plans:
 - name: 12Traits Plans Pricing
   plan_count: 0
   slug: 12traits-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: 12Traits Rate Limits
@@ -206,7 +206,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

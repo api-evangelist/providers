@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST/JSON API for the AttackIQ Security Optimization Platform. Manage assessments, tests, scenarios, and assets and retrieve execution results. Authenticated with a per-user API token (Authorization: '
@@ -160,7 +160,7 @@ overview: 'AttackIQ publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   AttackIQ''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 17 more developer resources.'
-random_paper: 10
+random_paper: 14
 score:
   band: emerging
   composite: 22.8
@@ -184,7 +184,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Brands report new orders, order updates (including partial returns), and cancellations to Button server-to-server, passing the Button Attribution Token (btn_ref) captured by the Merchant Library; docu
@@ -49,7 +49,7 @@ apis:
 - baseURL: https://api.usebutton.com/v1/brands
   baseurl_source: declared
   description: The Brands Api API from Button — 1 operation(s) for brands api.
-  name: Button Brands Api API
+  name: Button Brands Api
   slug: usebutton-brands-api-api
 - baseURL: https://api.usebutton.com/v1/brands
   baseurl_source: declared
@@ -59,7 +59,7 @@ apis:
 - baseURL: https://api.usebutton.com/v1/brands
   baseurl_source: declared
   description: The Links Api API from Button — 1 operation(s) for links api.
-  name: Button Links Api API
+  name: Button Links Api
   slug: usebutton-links-api-api
 - baseURL: https://api.usebutton.com/v1/brands
   baseurl_source: declared
@@ -290,18 +290,18 @@ created: '2026-07-17'
 description: 'Button (usebutton.com) is a mobile commerce technology company whose platform connects Publishers and Brands in a two-sided marketplace: publishers deep-link their users into retailer apps and sites with full attribution, and brands acquire and re-engage customers through those optimized journeys. Its server-to-server APIs cover personalized Offers, attributed Link and Shortlink generation (including Amazon creator links), Brand partnership details, Billing/affiliation transaction reporting, and Order reporting, complemented by Publisher SDKs, Merchant Libraries, and HMAC-signed transaction webhooks.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/usebutton.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Button
 nav: Providers
 network: true
-overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Brands Api API, Create API, and 3 more. Tagged areas include Commerce, Mobile Commerce, Affiliates, Attribution, and Deep Linking.
+overview: 'Button publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Brands Api, Create API, and 3 more. Tagged areas include Commerce, Mobile Commerce, Affiliates, Attribution, and Deep Linking.
 
 
   The Button catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Button''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 30 more developer resources.'
-random_paper: 14
+random_paper: 11
 score:
   band: developing
   composite: 49.2
@@ -331,7 +331,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -24,7 +24,7 @@ name: Nanno
 nav: Providers
 network: true
 overview: Nanno is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Childcare, Babysitting, Marketplace, and Consumer App.
-random_paper: 13
+random_paper: 10
 slug: nanno
 tags:
 - Company

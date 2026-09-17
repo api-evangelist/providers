@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.bey.dev
@@ -124,6 +124,10 @@ collections:
   name: Fast Agents Sessions API
   slug: open-beyond-presence-sessions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bey.dev
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -277,7 +281,7 @@ created: '2026-07-17'
 description: 'Beyond Presence (brand "bey") is a Europe-based AI company building real-time conversational AI video agents and speech-to-video (S2V) technology. Its platform lets developers deploy hyper-realistic AI video avatars that respond in real time (sub-1.2s latency at up to 1080p) across HR, sales, support, and coaching use cases. Two products are exposed through one REST API at api.bey.dev: a Speech-to-Video API that turns audio streams into lifelike avatars over LiveKit, and a Managed Agents API that runs end-to-end conversational agents with knowledge files, external LLM/API configuration, and webhook events. Official Python and TypeScript SDKs, an OpenAPI spec, and GDPR / SOC 2 Type II compliance are published. Surfaced as an HV Capital portfolio company and enriched from its public developer surface.'
 image: https://beyondpresence.ai/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Beyond Presence
 nav: Providers
 network: true
@@ -287,8 +291,8 @@ overview: 'Beyond Presence publishes 7 APIs on the [APIs.io](https://apis.io/) n
   The Beyond Presence catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 6
+  Beyond Presence''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
+random_paper: 21
 score:
   band: developing
   composite: 53.5
@@ -318,7 +322,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -348,5 +352,5 @@ tags:
 - Agents
 - Speech To Video
 - Real-Time Communication
-website: https://docs.bey.dev
+website: https://bey.dev
 ---

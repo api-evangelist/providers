@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -125,11 +125,11 @@ modified: '2026-07-25'
 name: Blink Charging
 nav: Providers
 network: true
-overview: 'Blink Charging publishes 3 APIs on the [APIs.io](https://apis.io/) network: Locations API, Search API, and Status API. Tagged areas include EV Charging, Electric Vehicle, Charging Stations, OCPI, and OCPP.
+overview: 'Blink Charging publishes 3 APIs on the [APIs.io](https://apis.io/) network: Locations API, Search API, and Status API. Tagged areas include EV Charging, Electric Vehicles, Charging Stations, OCPI, and OCPP.
 
 
   Blink Charging''s developer surface includes authentication, documentation, product news, engineering blog, and 6 more developer resources.'
-random_paper: 3
+random_paper: 0
 score:
   band: minimal
   composite: 9.1
@@ -163,7 +163,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ security:
 slug: blink
 tags:
 - EV Charging
-- Electric Vehicle
+- Electric Vehicles
 - Charging Stations
 - OCPI
 - OCPP

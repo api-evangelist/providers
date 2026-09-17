@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: Customs Brokerage
 nav: Providers
 network: true
-random_paper: 9
+random_paper: 13
 slug: customs-brokerage
 tags:
 - ABI
@@ -36,7 +36,7 @@ tags:
 - Entry Summary
 - Export
 - Freight Forwarding
-- Imports
+- Import
 - PGA
 - Trade
 ---

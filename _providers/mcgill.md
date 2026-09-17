@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://shibboleth.mcgill.ca
-  baseurl_source: declared
-  description: McGill's SAML 2.0 identity provider and the only machine-readable surface in this profile that McGill itself operates. The federation metadata document at /idp/shibboleth is served unauthenticated (HT
-  name: McGill University Authentication Service — Shibboleth SAML 2.0 Identity Provider
-  slug: shibboleth-idp
 - description: McGill's institutional research repository, running as a tenant on Scholaris. It exposes a DSpace REST (HAL) root at /server/api and a conformant OAI-PMH 2.0 endpoint at /server/oai/request advertisin
   name: eScholarship@McGill on Scholaris (tenant)
   slug: escholarship-scholaris
@@ -51,7 +46,22 @@ apis:
 - description: McGill's official course catalogue, published on CourseLeaf. It carries an undocumented but live machine-readable course-detail endpoint — GET /ribbit/index.cgi?page=getcourse.rjs with a space-separat
   name: McGill Course Catalogue on CourseLeaf (tenant)
   slug: coursecatalogue-courseleaf
-artifact_total: 10
+- baseURL: https://shibboleth.mcgill.ca
+  baseurl_source: declared
+  description: SAML 2.0 entity metadata published for relying parties and federations.
+  name: McGill University Metadata API
+  slug: mcgill-metadata-api
+- baseURL: https://shibboleth.mcgill.ca
+  baseurl_source: declared
+  description: SAML 2.0 single sign-on and single logout profile endpoints.
+  name: McGill University SSO API
+  slug: mcgill-sso-api
+- baseURL: https://shibboleth.mcgill.ca
+  baseurl_source: declared
+  description: Identity provider operational status.
+  name: McGill University Status API
+  slug: mcgill-status-api
+artifact_total: 12
 common:
 - group: company
   title: ''
@@ -152,7 +162,7 @@ modified: '2026-08-30'
 name: McGill University
 nav: Providers
 network: true
-overview: 'McGill University publishes 1 API on the [APIs.io](https://apis.io/) network: Authentication Service — Shibboleth SAML 2.0 Identity Provider. Tagged areas include University, Higher Education, Education, Canada, and Quebec.
+overview: 'McGill University publishes 3 APIs on the [APIs.io](https://apis.io/) network: Metadata API, SSO API, and Status API. Tagged areas include University, Higher Education, Education, Canada, and Quebec.
 
 
   The McGill University catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -163,7 +173,7 @@ plans:
 - name: Mcgill Plans Pricing
   plan_count: 2
   slug: mcgill-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Mcgill Rate Limits
@@ -182,7 +192,7 @@ rules:
   slug: mcgill-rules
 score:
   band: developing
-  composite: 45.1
+  composite: 45.0
   coverage:
     artifact_dirs: 11
     catalog_earned: 71.0
@@ -190,11 +200,11 @@ score:
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 50.0
     contract_governance: 45.5
-    contract_quality: 48.8
+    contract_quality: 48.3
     developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 21.1
@@ -212,7 +222,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 1
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
@@ -220,7 +230,7 @@ score:
     regime_id: education
     score: 37.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

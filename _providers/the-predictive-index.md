@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://integrations.predictiveindex.com
@@ -193,14 +193,14 @@ modified: '2026-07-21'
 name: The Predictive Index
 nav: Providers
 network: true
-overview: 'The Predictive Index publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Behavioral Assessments API, Candidates API, Employees API, and 1 more. Tagged areas include Company, Talent Optimization, HR, Human Resources, and Assessments.
+overview: 'The Predictive Index publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Behavioral Assessments API, Candidates API, Employees API, and 1 more. Tagged areas include Company, Talent Optimization, Human Resources, Assessment, and Behavioral Science.
 
 
   The The Predictive Index catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 17 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: developing
   composite: 44.1
@@ -229,7 +229,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -252,9 +252,8 @@ slug: the-predictive-index
 tags:
 - Company
 - Talent Optimization
-- HR
 - Human Resources
-- Assessments
+- Assessment
 - Behavioral Science
 - Hiring
 - Recruiting

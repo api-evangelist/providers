@@ -63,7 +63,7 @@ name: Iron Ox
 nav: Providers
 network: true
 overview: Iron Ox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Robotics, and Automation.
-random_paper: 2
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/iron-ox/refs/heads/main/screenshots/iron-ox-2026-09-02T145924.png
 slug: iron-ox
 tags:

@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.6
-  scored_at: '2026-09-15'
+  score: 31.5
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,20 +47,15 @@ api_count: 3
 apis:
 - baseURL: https://app.choozle.com/api
   baseurl_source: declared
-  description: Returns the advertising account structure the API user can reach — accounts, their campaigns, and each campaign's ad groups — in one unpaginated document. One operation, read-only.
-  name: Choozle Accounts API
-  slug: choozle-accounts-api
-- baseURL: https://app.choozle.com/api
-  baseurl_source: declared
   description: The token exchange. POST an API profile email, an ISO 8601 timestamp within five minutes of server time, and an HMAC-SHA256 hex signature to receive a token valid two hours. One operation, the API's o
   name: Choozle Authorization API
   slug: choozle-authorization-api
 - baseURL: https://app.choozle.com/api
   baseurl_source: declared
-  description: Returns one performance row per active ad group per day for an account, optionally filtered by date range and by exactly one of campaign, campaign status, or ad group ids. Rows are omitted for days wi
-  name: Choozle Reports API
-  slug: choozle-reports-api
-artifact_total: 18
+  description: Account structure and campaign performance reporting.
+  name: Choozle Reporting API
+  slug: choozle-reporting-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -75,6 +70,16 @@ collections:
   name: Choozle Reporting Reports API
   slug: open-choozle-reports-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/overlays/choozle-accounts-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/choozle-accounts-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/overlays/choozle-reports-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/choozle-reports-api-overlay.yaml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/openapi/_original/openapi.yml
   title: ''
@@ -245,18 +250,18 @@ modified: '2026-08-13'
 name: Choozle
 nav: Providers
 network: true
-overview: 'Choozle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Authorization API, and Reports API. Tagged areas include Digital Advertising, Programmatic Advertising, DSP, Advertising Reporting, and Campaign Reporting.
+overview: 'Choozle publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authorization API and Reporting API. Tagged areas include Digital Advertising, Programmatic Advertising, DSP, Advertising Reporting, and Campaign Reporting.
 
 
   The Choozle catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Choozle''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
+  Choozle''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Choozle Plans Pricing
   plan_count: 2
   slug: choozle-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Choozle Rate Limits
@@ -274,7 +279,7 @@ rules:
   slug: choozle-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.6
+  composite: 43.7
   coverage:
     artifact_dirs: 26
     catalog_earned: 62.3
@@ -282,11 +287,11 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
     contract_governance: 43.2
-    contract_quality: 66.0
+    contract_quality: 66.3
     developer_ergonomics: 47.0
     discoverability: 74.1
     operational_transparency: 2.6
@@ -303,11 +308,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 2
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

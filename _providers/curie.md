@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://chat.curie.app
@@ -168,7 +168,7 @@ overview: 'Curie publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ca
 
 
   Curie''s developer surface includes documentation, pricing, authentication, and 17 more developer resources.'
-random_paper: 11
+random_paper: 8
 scopes:
 - name: Curie Scopes
   scope_count: 1
@@ -203,7 +203,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: API for the Open Voice Network, providing programmatic access to open standards and interoperability frameworks for AI-enabled voice assistance systems across platforms and devices.
@@ -41,6 +41,10 @@ apis:
   slug: open-voice-network-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://openvoicenetwork.org
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/open-voice-network/refs/heads/main/security/open-voice-network-domain-security.yml
   title: ''
@@ -66,19 +70,19 @@ finops:
   slug: open-voice-network-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/open-voice-network.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Open Voice Network
 nav: Providers
 network: true
 overview: 'Open Voice Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Linux Foundation, Standards, and Voice.
 
 
-  Open Voice Network''s developer surface includes documentation and 3 more developer resources.'
+  Open Voice Network''s developer surface includes documentation and 4 more developer resources.'
 plans:
 - name: Open Voice Network Plans Pricing
   plan_count: 3
   slug: open-voice-network-plans-pricing
-random_paper: 9
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Open Voice Network Rate Limits
@@ -103,7 +107,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -121,4 +125,5 @@ tags:
 - Linux Foundation
 - Standards
 - Voice
+website: https://openvoicenetwork.org
 ---

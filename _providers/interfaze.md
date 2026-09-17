@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -190,6 +190,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/interfaze-domain-security.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@interfaze.ai
 created: '2026-07-17'
 description: Interfaze is a Y Combinator (P26) startup building a new model architecture for deterministic developer tasks. Interfaze-beta is a multimodal, OpenAI-compatible Chat Completion API (a hybrid Mixture-of-Architecture combining specialized DNN/CNN vision and audio models with a transformer layer) tuned for high accuracy, precision, and consistency on jobs like OCR, speech-to-text, strict structured/JSON output, object detection with bounding boxes, web search, and web scraping through a single endpoint. It exposes a 1M-token context window, 32k max output, verifiable outputs with confidence scores, built-in sandboxed compute and headless browser tools, and works with the OpenAI, Vercel AI, and LangChain SDKs by swapping the base URL. Founded in 2025 by Yoeven D Khemlani and Harsha Vardhan Khurdula (evolved from JigsawStack) and based in San Francisco.
 image: https://interfaze.ai/banner.png
@@ -201,8 +205,8 @@ network: true
 overview: 'Interfaze publishes 1 API on the [APIs.io](https://apis.io/) network: Chat API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and OCR.
 
 
-  Interfaze''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 2
+  Interfaze''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 23 more developer resources.'
+random_paper: 0
 score:
   band: developing
   composite: 46.8
@@ -238,7 +242,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

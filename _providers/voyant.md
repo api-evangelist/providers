@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 4
@@ -391,11 +391,6 @@ apis:
   slug: voyant-org-settings-api
 - baseURL: https://voice-forge-production.up.railway.app
   baseurl_source: declared
-  description: PDF upload and processing. Extract text and structure from documents.
-  name: Voyant.io PD Fs API
-  slug: voyant-pdfs-api
-- baseURL: https://voice-forge-production.up.railway.app
-  baseurl_source: declared
   description: Pipeline framework for multi-step agent workflows (Blueprints).
   name: Voyant.io Pipeline API
   slug: voyant-pipeline-api
@@ -466,11 +461,6 @@ apis:
   slug: voyant-target-graph-api
 - baseURL: https://voice-forge-production.up.railway.app
   baseurl_source: declared
-  description: Target graph queries and relationship mapping.
-  name: Voyant.io Targetgraph API
-  slug: voyant-targetgraph-api
-- baseURL: https://voice-forge-production.up.railway.app
-  baseurl_source: declared
   description: The Targets API from Voyant.io — 1 operation(s) for targets.
   name: Voyant.io Targets API
   slug: voyant-targets-api
@@ -539,7 +529,12 @@ apis:
   description: 'YouTube video tracking: tutorials, reviews, mentions, and developer content about your product.'
   name: Voyant.io Youtube Signals API
   slug: voyant-youtube-signals-api
-artifact_total: 107
+- baseURL: https://voice-forge-production.up.railway.app/mcp
+  baseurl_source: declared
+  description: PDF upload and processing. Extract text and structure from documents.
+  name: Voyant.io PD Fs API
+  slug: voyant-pdfs-api
+artifact_total: 106
 asyncapis:
 - description: Event surface for the VoyantIO brand-context platform, derived from the provider's own published streaming architecture document at `GET /api/context-streams/streaming/architecture` (anonymous, HTTP 2
   name: VoyantIO Streaming Knowledge Base
@@ -693,7 +688,7 @@ modified: '2026-08-13'
 name: Voyant.io
 nav: Providers
 network: true
-overview: 'Voyant.io publishes 98 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin Migration API, AI Assistant API, and 95 more. Tagged areas include Artificial Intelligence, Context Management, Brand Governance, Product Marketing, and gtm-operations.
+overview: 'Voyant.io publishes 97 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin Migration API, AI Assistant API, and 94 more. Tagged areas include Artificial Intelligence, Context Management, Brand Governance, Product Marketing, and gtm-operations.
 
 
   The Voyant.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -704,7 +699,7 @@ plans:
 - name: Voyant Plans Pricing
   plan_count: 4
   slug: voyant-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Voyant Rate Limits
@@ -732,14 +727,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 93.9
+      callable: 93.8
       derived: 0
       marker_coverage: 0.0
-      total: 98
+      total: 97
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

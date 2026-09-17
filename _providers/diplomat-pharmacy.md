@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Diplomat Pharmacy agrees to $300 million buyout by ...
   url: https://www.reuters.com/article/business/diplomat-pharmacy-agrees-to-300-million-buyout-by-unitedhealth-idUSKBN1YD12Q/
-random_paper: 13
+random_paper: 18
 score:
   band: minimal
   composite: 3.3
@@ -115,7 +115,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

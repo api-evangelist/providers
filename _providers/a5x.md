@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The trading, market data and post-trade interfaces A5X exposes to exchange participants — order entry and drop copy over FIX, a binary market data feed, and post-trade capture, allocation, positioning
@@ -124,7 +124,7 @@ plans:
 - name: A5X Plans Pricing
   plan_count: 0
   slug: a5x-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: A5X Rate Limits
@@ -164,7 +164,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

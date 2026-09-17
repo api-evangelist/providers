@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -114,6 +114,10 @@ collections:
   name: Amazon Serverless Application Repository API
   slug: open-amazon-serverless-application-repository
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/agentic-access/amazon-serverless-application-repository-agentic-access.yml
   title: ''
@@ -385,7 +389,7 @@ jsonld:
   property_count: 13
   slug: amazon-serverless-application-repository-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Serverless Application Repository
 nav: Providers
 network: true
@@ -395,7 +399,7 @@ overview: 'Amazon Serverless Application Repository publishes 4 APIs on the [API
   The Amazon Serverless Application Repository catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Serverless Application Repository''s developer surface includes authentication, developer portal, getting-started guide, documentation, API reference, developer console, signup flow, and 37 more developer resources.'
+  Amazon Serverless Application Repository''s developer surface includes authentication, developer portal, getting-started guide, documentation, API reference, developer console, signup flow, and 38 more developer resources.'
 plans:
 - name: Amazon Serverless Application Repository Plans Pricing
   plan_count: 3
@@ -454,7 +458,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -496,5 +500,5 @@ use_cases:
   name: Microservice Templates
 - description: Automate deployment of pre-vetted serverless infrastructure patterns via CI/CD pipelines.
   name: DevOps Automation
-website: https://aws.amazon.com/serverless/serverlessrepo/
+website: https://amazon.com
 ---

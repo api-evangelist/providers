@@ -19,7 +19,7 @@ name: MRU
 nav: Providers
 network: true
 overview: MRU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Student Loans, Education Finance, Fintech, and Financial-Services.
-random_paper: 4
+random_paper: 10
 slug: mru
 tags:
 - Company

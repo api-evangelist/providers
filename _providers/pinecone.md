@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -847,7 +847,7 @@ modified: '2026-05-19'
 name: Pinecone
 nav: Providers
 network: true
-overview: 'Pinecone publishes 9 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Bulk Operations API, Inference API, and 6 more. Tagged areas include Vector Databases, Artificial Intelligence, Embeddings, and RAG.
+overview: 'Pinecone publishes 9 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Bulk Operations API, Inference API, and 6 more. Tagged areas include Vector Database, Artificial Intelligence, Embeddings, and RAG.
 
 
   The Pinecone catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -858,7 +858,7 @@ plans:
 - name: Pinecone Plans Pricing
   plan_count: 4
   slug: pinecone-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Pinecone Rate Limits
@@ -901,7 +901,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -922,7 +922,7 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: pinecone
 tags:
-- Vector Databases
+- Vector Database
 - Artificial Intelligence
 - Embeddings
 - RAG

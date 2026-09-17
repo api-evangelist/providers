@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
 - baseURL: https://api2.gtx.dev
   baseurl_source: declared
   description: Translate content at runtime and queue files for translation.
-  name: General Translation Translation API
+  name: General Translation API
   slug: general-translation-translation-api
 artifact_total: 27
 asyncapis:
@@ -306,7 +306,7 @@ created: '2026-07-17'
 description: General Translation is an end-to-end internationalization (i18n) and localization platform for developers, backed by a16z. It combines open-source i18n libraries for React, Next.js, React Native, Node.js, and Python with an AI-powered translation API, a context platform (glossaries and translation instructions), and Locadex, an AI coding agent that internationalizes source code and opens pull requests. The public REST API (api2.gtx.dev, plus the runtime host runtime2.gtx.dev) uploads source files, queues and downloads translations, manages branches and tags, reads project and job status, and translates content at runtime. It is used by developer-first teams including Cursor, Windsurf, Ramp, Mintlify, and ClickHouse.
 image: https://avatars.githubusercontent.com/u/153253056?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: General Translation
 nav: Providers
 network: true
@@ -317,14 +317,14 @@ overview: 'General Translation publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   General Translation''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 30 more developer resources.'
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: General Translation Rate Limits
   slug: general-translation-rate-limits
 score:
   band: strong
-  composite: 64.3
+  composite: 63.7
   coverage:
     artifact_dirs: 25
     catalog_earned: 49.0
@@ -332,11 +332,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 62.2
+    contract_quality: 59.5
     developer_ergonomics: 81.5
     discoverability: 75.9
     operational_transparency: 73.7
@@ -352,7 +352,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

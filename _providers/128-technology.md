@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The northbound API of the Juniper Session Smart Router (SSR) and Session Smart Conductor. A YANG-modeled configuration and state tree is exposed over a REST API rooted at /api/v1, an equivalent GraphQ
@@ -155,7 +155,7 @@ plans:
 - name: 128 Technology Plans Pricing
   plan_count: 0
   slug: 128-technology-plans-pricing
-random_paper: 3
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: 128 Technology Rate Limits
@@ -188,7 +188,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: http://localhost:33334/
@@ -212,7 +212,7 @@ overview: 'Looking Glass publishes 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Looking Glass'' developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 15
+random_paper: 18
 score:
   band: thin
   composite: 37.1
@@ -247,7 +247,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

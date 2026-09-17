@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The REST API behind the tvScientific Campaign Management UI, named by tvScientific's own status page as the "Campaign Management API" component running at api.tvscientific.app. Two major versions serv
@@ -138,7 +138,7 @@ plans:
 - name: Tvscientific Plans Pricing
   plan_count: 0
   slug: tvscientific-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Tvscientific Rate Limits
@@ -165,7 +165,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

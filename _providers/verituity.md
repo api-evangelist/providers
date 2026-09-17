@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Verification-as-a-Service. A single POST /v1/verifications call declares which verification modules to run — organization_identity, individual_identity, payment_method and payee_qualification (PQS) — '
@@ -166,7 +166,7 @@ plans:
 - name: Verituity Plans Pricing
   plan_count: 0
   slug: verituity-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Verituity Rate Limits
@@ -200,7 +200,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -24,25 +24,70 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 64.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://app.medblocks.com
   baseurl_source: declared
-  description: Server-to-server developer API for the Medblocks Platform. Create patients, start hosted PatientSessions that authorize a patient against one or more EHRs, inspect the resulting connections, read unif
-  name: Medblocks Platform API
-  slug: medblocks-platform-api
-- baseURL: https://medblocks.com
+  description: Verify a training certificate issued by Medblocks.
+  name: Medblocks Certificates API
+  slug: medblocks-certificates-api
+- baseURL: https://app.medblocks.com
   baseurl_source: declared
-  description: 'A narrow, unauthenticated, read-only API that medblocks.com publishes for third-party and automated use: training-certificate verification plus the machine-readable blog RSS feed and sitemap index. De'
-  name: Medblocks Public Site API
-  slug: medblocks-public-site-api
-artifact_total: 9
+  description: The Connections API from Medblocks — 2 operation(s) for connections.
+  name: Medblocks Connections API
+  slug: medblocks-connections-api
+- baseURL: https://app.medblocks.com
+  baseurl_source: declared
+  description: The Events API from Medblocks — 1 operation(s) for events.
+  name: Medblocks Events API
+  slug: medblocks-events-api
+- baseURL: https://app.medblocks.com
+  baseurl_source: declared
+  description: Machine-readable indexes of site content.
+  name: Medblocks Feeds API
+  slug: medblocks-feeds-api
+- baseURL: https://app.medblocks.com
+  baseurl_source: declared
+  description: The Health API from Medblocks — 1 operation(s) for health.
+  name: Medblocks Health API
+  slug: medblocks-health-api
+- baseURL: https://app.medblocks.com
+  baseurl_source: declared
+  description: The Launch Contexts API from Medblocks — 1 operation(s) for launch contexts.
+  name: Medblocks Launch Contexts API
+  slug: medblocks-launch-contexts-api
+- baseURL: https://app.medblocks.com
+  baseurl_source: declared
+  description: The Patient Sessions API from Medblocks — 2 operation(s) for patient sessions.
+  name: Medblocks Patient Sessions API
+  slug: medblocks-patient-sessions-api
+- baseURL: https://app.medblocks.com
+  baseurl_source: declared
+  description: The Patients API from Medblocks — 5 operation(s) for patients.
+  name: Medblocks Patients API
+  slug: medblocks-patients-api
+- baseURL: https://app.medblocks.com
+  baseurl_source: declared
+  description: The Webhooks API from Medblocks — 4 operation(s) for webhooks.
+  name: Medblocks Webhooks API
+  slug: medblocks-webhooks-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Medblocks Webhooks
   slug: medblocks-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/overlays/medblocks-platform-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/medblocks-platform-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/overlays/medblocks-public-site-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/medblocks-public-site-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/security/medblocks-domain-security.yml
   title: ''
@@ -222,18 +267,18 @@ modified: '2026-09-02'
 name: Medblocks
 nav: Providers
 network: true
-overview: 'Medblocks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Platform API and Public Site API. Tagged areas include Health, Healthcare, FHIR, openEHR, and Interoperability.
+overview: 'Medblocks publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Connections API, Events API, and 6 more. Tagged areas include Health, Healthcare, FHIR, openEHR, and Interoperability.
 
 
   The Medblocks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Medblocks'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
+  Medblocks'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
 plans:
 - name: Medblocks Plans Pricing
   plan_count: 2
   slug: medblocks-plans-pricing
-random_paper: 3
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Medblocks Rate Limits
@@ -245,7 +290,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.9
+  composite: 65.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 53.0
@@ -253,11 +298,11 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 63.5
+    contract_quality: 65.3
     developer_ergonomics: 78.6
     discoverability: 75.9
     operational_transparency: 47.4
@@ -268,7 +313,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 9
     mcp: first-party
     skills: first-party
   regulatory:
@@ -284,7 +329,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

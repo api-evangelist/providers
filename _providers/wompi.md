@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -293,7 +293,7 @@ modified: '2026-07-17'
 name: Wompi
 nav: Providers
 network: true
-overview: 'Wompi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Merchants API, Payment Links API, Payment Sources API, and 3 more. Tagged areas include Payments, Fintech, Colombia, LatAm, and Payment Gateway.
+overview: 'Wompi publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Merchants API, Payment Links API, Payment Sources API, and 3 more. Tagged areas include Payments, Fintech, Colombia, Latin America, and Payment Gateway.
 
 
   The Wompi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -304,7 +304,7 @@ plans:
 - name: Wompi Plans Pricing
   plan_count: 2
   slug: wompi-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Wompi Rate Limits
@@ -350,7 +350,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -378,7 +378,7 @@ tags:
 - Payments
 - Fintech
 - Colombia
-- LatAm
+- Latin America
 - Payment Gateway
 - PSE
 - Nequi

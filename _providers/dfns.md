@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -76,11 +76,6 @@ apis:
   slug: dfns-policies-api
 - baseURL: https://api.dfns.io
   baseurl_source: declared
-  description: Machine identities and their access tokens.
-  name: Dfns ServiceAccounts API
-  slug: dfns-serviceaccounts-api
-- baseURL: https://api.dfns.io
-  baseurl_source: declared
   description: Raw signature generation from keys.
   name: Dfns Signatures API
   slug: dfns-signatures-api
@@ -104,6 +99,11 @@ apis:
   description: Event webhooks and delivery logs.
   name: Dfns Webhooks API
   slug: dfns-webhooks-api
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Machine identities and their access tokens.
+  name: Dfns Service Accounts API
+  slug: dfns-service-accounts-api
 artifact_total: 32
 collections:
 - collection_type: open
@@ -215,7 +215,7 @@ plans:
 - name: Dfns Plans Pricing
   plan_count: 3
   slug: dfns-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Dfns Rate Limits
@@ -253,7 +253,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -11,15 +11,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.4
-  scored_at: '2026-09-15'
+  score: 30.4
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -365,7 +365,7 @@ plans:
 - name: Allegion Plans Pricing
   plan_count: 3
   slug: allegion-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 7
   name: Allegion Rate Limits
@@ -435,7 +435,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

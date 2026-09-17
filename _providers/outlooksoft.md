@@ -24,7 +24,7 @@ name: OutlookSoft
 nav: Providers
 network: true
 overview: OutlookSoft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Corporate Performance Management, Financial Planning, Budgeting and Forecasting, and Financial Consolidation.
-random_paper: 7
+random_paper: 15
 slug: outlooksoft
 tags:
 - Company

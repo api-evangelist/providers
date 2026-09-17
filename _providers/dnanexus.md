@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The DNAnexus Platform API is a JSON-over-HTTPS API of roughly 206 documented methods. Each method is invoked with an HTTP POST to a route of the form /class-xxxx/method (for example /file-xxxx/describ
@@ -240,7 +240,7 @@ overview: 'DNAnexus publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   DNAnexus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, developer console, pricing, and 33 more developer resources.'
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 8
   name: Dnanexus Rate Limits
@@ -279,7 +279,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

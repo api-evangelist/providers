@@ -23,14 +23,14 @@ modified: '2026-07-19'
 name: Fincentric
 nav: Providers
 network: true
-overview: Fincentric is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Core Banking, Credit Unions, and Wealth Management.
-random_paper: 11
+overview: Fincentric is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Core Banking, Credit Union, and Wealth Management.
+random_paper: 5
 slug: fincentric
 tags:
 - Company
 - Banking
 - Core Banking
-- Credit Unions
+- Credit Union
 - Wealth Management
 - Financial-Services
 - Defunct

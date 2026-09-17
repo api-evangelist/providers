@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -577,7 +577,7 @@ modified: '2026-06-13'
 name: SumUp
 nav: Providers
 network: true
-overview: 'SumUp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Checkouts API, Customers API, Members API, and 7 more. Tagged areas include Payments, Point-of-Sale, Card Readers, Checkout, and Fintech.
+overview: 'SumUp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Checkouts API, Customers API, Members API, and 7 more. Tagged areas include Payments, Point-of-Sale, Card Reader, Checkout, and Fintech.
 
 
   The SumUp catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -588,7 +588,7 @@ plans:
 - name: Sumup Plans Pricing
   plan_count: 5
   slug: sumup-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Sumup Rate Limits
@@ -646,7 +646,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -669,7 +669,7 @@ slug: sumup
 tags:
 - Payments
 - Point-of-Sale
-- Card Readers
+- Card Reader
 - Checkout
 - Fintech
 - Mobile Payments

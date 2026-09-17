@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Hosted, authenticated Model Context Protocol server for managing assessments, reviewing candidates, and analyzing hiring data. Streamable-HTTP transport; Bearer MeritFirst API key (mf_) required.
@@ -105,11 +105,11 @@ modified: '2026-07-20'
 name: Meritfirst
 nav: Providers
 network: true
-overview: 'Meritfirst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hiring, Recruiting, Assessments, and Talent.
+overview: 'Meritfirst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hiring, Recruiting, Assessment, and Talent.
 
 
   Meritfirst''s developer surface includes signup flow, authentication, and 9 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: emerging
   composite: 12.7
@@ -132,7 +132,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +157,7 @@ tags:
 - Company
 - Hiring
 - Recruiting
-- Assessments
+- Assessment
 - Talent
 - Skills-Based Hiring
 - MCP

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 1
@@ -141,19 +141,9 @@ apis:
   slug: mediavalet-home-api
 - baseURL: https://api.mediavalet.com
   baseurl_source: declared
-  description: Groupings of custom metadata attributes.
-  name: MediaValet Attribute Groups API
-  slug: mediavalet-attributegroups-api
-- baseURL: https://api.mediavalet.com
-  baseurl_source: declared
   description: Branded Portals — externally shareable, branded views onto a subset of the library.
   name: MediaValet Branded Portals API
   slug: mediavalet-brandedportals-api
-- baseURL: https://api.mediavalet.com
-  baseurl_source: declared
-  description: Direct/CDN links to assets and renditions for external distribution.
-  name: MediaValet Direct Links API
-  slug: mediavalet-directlinks-api
 - baseURL: https://api.mediavalet.com
   baseurl_source: declared
   description: Introductory and help resources served by the API.
@@ -166,29 +156,39 @@ apis:
   slug: mediavalet-keywordgroups-api
 - baseURL: https://api.mediavalet.com
   baseurl_source: declared
-  description: Organizational units (libraries) and their configuration.
-  name: MediaValet Org Unit API
-  slug: mediavalet-orgunit-api
-- baseURL: https://api.mediavalet.com
-  baseurl_source: declared
   description: Version 2 of the usage and activity reporting surface.
   name: MediaValet Reports V2 API
   slug: mediavalet-reportsv2-api
 - baseURL: https://api.mediavalet.com
   baseurl_source: declared
+  description: Groupings of custom metadata attributes.
+  name: MediaValet Attribute Groups API
+  slug: mediavalet-attribute-groups-api
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Direct/CDN links to assets and renditions for external distribution.
+  name: MediaValet Direct Links API
+  slug: mediavalet-direct-links-api
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Organizational units (libraries) and their configuration.
+  name: MediaValet Org unit API
+  slug: mediavalet-org-unit-api
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
   description: Saved searches and their execution.
   name: MediaValet Saved Searches API
-  slug: mediavalet-savedsearches-api
+  slug: mediavalet-saved-searches-api
 - baseURL: https://api.mediavalet.com
   baseurl_source: declared
   description: Terms and conditions acceptance.
   name: MediaValet Terms And Conditions API
-  slug: mediavalet-termsandconditions-api
+  slug: mediavalet-terms-and-conditions-api
 - baseURL: https://api.mediavalet.com
   baseurl_source: declared
   description: User groups and group membership.
   name: MediaValet User Groups API
-  slug: mediavalet-usergroups-api
+  slug: mediavalet-user-groups-api
 artifact_total: 68
 asyncapis:
 - description: SkyHOOK is MediaValet's event subscription service. It delivers MediaValet asset, category, keyword and attribute events either directly to a subscriber-owned HTTPS endpoint (webhook) or into a privat
@@ -516,7 +516,7 @@ plans:
 - name: Mediavalet Plans Pricing
   plan_count: 2
   slug: mediavalet-plans-pricing
-random_paper: 2
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Mediavalet Rate Limits
@@ -556,7 +556,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

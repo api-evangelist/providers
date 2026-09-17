@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ plans:
 - name: Efi Bank Plans Pricing
   plan_count: 4
   slug: efi-bank-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Efi Bank Rate Limits
@@ -221,7 +221,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

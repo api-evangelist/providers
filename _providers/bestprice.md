@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Read-only shopping tools for finding grouped products, comparing current merchant offers and delivered totals, and checking price history.
@@ -43,6 +43,10 @@ apis:
   slug: shopping-mcp
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bestprice.gr
 - group: commercial
   title: ''
   type: License
@@ -214,19 +218,19 @@ mcp_servers:
 - description: ''
   name: Probed MCP server profile (tools, schemas, deployment)
   slug: probed-mcp-server-profile-tools-schemas-deployment
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: BestPrice Agent Commerce
 nav: Providers
 network: true
 overview: 'BestPrice Agent Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping, Price Comparison, E-Commerce, Retail, and MCP.
 
 
-  BestPrice Agent Commerce''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 25 more developer resources.'
+  BestPrice Agent Commerce''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 26 more developer resources.'
 plans:
 - name: Bestprice Plans Pricing
   plan_count: 0
   slug: bestprice-plans-pricing
-random_paper: 16
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Bestprice Rate Limits
@@ -261,7 +265,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -289,7 +293,7 @@ tags:
 - Retail
 - MCP
 - WebMCP
-- Agent Commerce
+- Agentic Commerce
 - Greece
-website: https://www.bestprice.gr/mcp
+website: https://bestprice.gr
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: AssetPlanner is Ameresco's enterprise asset management and capital planning platform, served to customer tenants at https://assetplanner.com/logon and certified to ISO/IEC 27001:2022. Ameresco's own p
@@ -171,7 +171,7 @@ plans:
 - name: Ameresco Plans Pricing
   plan_count: 0
   slug: ameresco-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Ameresco Rate Limits
@@ -204,7 +204,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

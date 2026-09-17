@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Fieldpoint Data Transfer Service (FPDTS) is Fieldpoint's open REST API that enables data exchange between the Fieldpoint FSM platform and external enterprise systems. The API supports creating and
@@ -117,7 +117,7 @@ plans:
 - name: Fieldpoint Plans Pricing
   plan_count: 2
   slug: fieldpoint-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Fieldpoint Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

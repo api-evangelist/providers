@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://api.deluxe.com/dpp/v1
@@ -68,16 +68,6 @@ apis:
   slug: deluxe-invoices-api
 - baseURL: https://api.deluxe.com/dpp/v1
   baseurl_source: declared
-  description: The paymentlinks API from Deluxe Corporation — 2 operation(s) for paymentlinks.
-  name: Deluxe Corporation Paymentlinks API
-  slug: deluxe-paymentlinks-api
-- baseURL: https://api.deluxe.com/dpp/v1
-  baseurl_source: declared
-  description: The paymentmethods API from Deluxe Corporation — 7 operation(s) for paymentmethods.
-  name: Deluxe Corporation Paymentmethods API
-  slug: deluxe-paymentmethods-api
-- baseURL: https://api.deluxe.com/dpp/v1
-  baseurl_source: declared
   description: The payments API from Deluxe Corporation — 6 operation(s) for payments.
   name: Deluxe Corporation Payments API
   slug: deluxe-payments-api
@@ -101,6 +91,16 @@ apis:
   description: The subscriptions API from Deluxe Corporation — 2 operation(s) for subscriptions.
   name: Deluxe Corporation Subscriptions API
   slug: deluxe-subscriptions-api
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The Payment Links API from Deluxe Corporation — 2 operation(s) for payment links.
+  name: Deluxe Corporation Payment Links API
+  slug: deluxe-payment-links-api
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The Payment Methods API from Deluxe Corporation — 7 operation(s) for payment methods.
+  name: Deluxe Corporation Payment Methods API
+  slug: deluxe-payment-methods-api
 artifact_total: 23
 asyncapis:
 - description: ''
@@ -141,10 +141,10 @@ common:
   type: Overlay
   url: overlays/deluxe-postman-sandbox-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/deluxe-dpp-gateway-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/openapi/_original/deluxe-dpp-gateway-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/deluxe-dpp-gateway-openapi.yml
+  url: openapi/_original/deluxe-dpp-gateway-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/authentication/deluxe-authentication.yml
   title: ''
@@ -292,7 +292,7 @@ finops:
   slug: deluxe-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deluxe.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Deluxe Corporation
 nav: Providers
 network: true
@@ -307,7 +307,7 @@ plans:
 - name: Deluxe Plans Pricing
   plan_count: 0
   slug: deluxe-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Deluxe Rate Limits
@@ -326,7 +326,7 @@ score:
   facets:
     access_clarity: 18.4
     contract_governance: 4.5
-    contract_quality: 22.7
+    contract_quality: 22.8
     developer_ergonomics: 33.9
     discoverability: 74.1
     operational_transparency: 7.9
@@ -347,7 +347,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

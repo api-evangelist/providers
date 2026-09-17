@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Hosted generation API that turns a prompt and optional reference images or video into physically accurate, simulation-ready 3D assets (USD / Isaac Sim / MuJoCo). Jobs are submitted to POST /api/jobs/ '
@@ -97,7 +97,7 @@ overview: 'MoonLake AI publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   MoonLake AI''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
   composite: 14.5
@@ -118,7 +118,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 14.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -143,7 +143,7 @@ tags:
 - Embodied AI
 - Robotics
 - 3D Generation
-- Digital Twins
+- Digital Twin
 - Synthetic Data
 website: https://moonlakeai.com/
 ---

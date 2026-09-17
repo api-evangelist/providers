@@ -18,13 +18,13 @@ modified: '2026-09-15'
 name: Looking Glass Networks
 nav: Providers
 network: true
-overview: Looking Glass Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Fiber Optic, Networking, and Colocation.
-random_paper: 8
+overview: Looking Glass Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Fiber Optics, Networking, and Colocation.
+random_paper: 10
 slug: looking-glass-networks
 tags:
 - Company
 - Telecommunications
-- Fiber Optic
+- Fiber Optics
 - Networking
 - Colocation
 - Ethernet

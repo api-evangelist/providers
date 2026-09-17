@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://api.viagogo.net
@@ -69,11 +69,6 @@ apis:
   description: The ListingConstraints API from viagogo — 3 operation(s) for listingconstraints.
   name: viagogo Listing Constraints API
   slug: viagogo-listingconstraints-api
-- baseURL: https://api.viagogo.net
-  baseurl_source: declared
-  description: The PaymentMethods API from viagogo — 1 operation(s) for paymentmethods.
-  name: viagogo Payment Methods API
-  slug: viagogo-paymentmethods-api
 - baseURL: https://api.viagogo.net
   baseurl_source: declared
   description: The Payments API from viagogo — 3 operation(s) for payments.
@@ -144,6 +139,11 @@ apis:
   description: When configuring a webhook, you can choose the topics you would like to receive payloads for. You should only subscribe to the specific topics that you plan on handling so that you can limit the numbe
   name: viagogo Topics API
   slug: viagogo-topics-api
+- baseURL: https://api.viagogo.net
+  baseurl_source: declared
+  description: The Payment Methods API from viagogo — 1 operation(s) for payment methods.
+  name: viagogo Payment Methods API
+  slug: viagogo-payment-methods-api
 artifact_total: 46
 asyncapis:
 - description: ''
@@ -373,7 +373,7 @@ overview: 'viagogo publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   viagogo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 24 more developer resources.'
-random_paper: 13
+random_paper: 0
 scopes:
 - name: Viagogo Scopes
   scope_count: 17
@@ -408,7 +408,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ overview: 'Trip.com publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Trip.com''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 10
+random_paper: 18
 score:
   band: emerging
   composite: 25.3
@@ -197,7 +197,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

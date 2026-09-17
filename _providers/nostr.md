@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: 'NIP-01 defines the core Nostr protocol: event format (id, pubkey, created_at, kind, tags, content, sig), client-to-relay messages (EVENT, REQ, CLOSE), and relay-to-client messages (EVENT, OK, EOSE, CL'
@@ -123,7 +123,7 @@ modified: '2026-05-29'
 name: Nostr
 nav: Providers
 network: true
-overview: 'Nostr publishes 2 APIs on the [APIs.io](https://apis.io/) network: Protocol (NIP-01) and Relay WebSocket Interface. Tagged areas include Nostr, Decentralized Social, Open Protocol, Relays, and WebSocket.
+overview: 'Nostr publishes 2 APIs on the [APIs.io](https://apis.io/) network: Protocol (NIP-01) and Relay WebSocket Interface. Tagged areas include Nostr, Decentralized Social, Open Protocol, Relay, and WebSocket.
 
 
   The Nostr catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -134,7 +134,7 @@ plans:
 - name: Nostr Plans Pricing
   plan_count: 1
   slug: nostr-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Nostr Rate Limits
@@ -174,7 +174,7 @@ score:
     score: 25.0
   previous_composite: 30.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -191,7 +191,7 @@ tags:
 - Nostr
 - Decentralized Social
 - Open Protocol
-- Relays
+- Relay
 - WebSocket
 - Signed Events
 - NIP

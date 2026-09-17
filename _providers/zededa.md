@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 5
@@ -74,11 +74,6 @@ apis:
   description: The CloudDiagnostics API from Zededa — 8 operation(s) for clouddiagnostics.
   name: Zededa CloudDiagnostics API
   slug: zededa-clouddiagnostics-api
-- baseURL: https://zedcontrol.zededa.net/api
-  baseurl_source: declared
-  description: APIs for managing cluster groups including creation, deletion, status monitoring, and manifest generation
-  name: Zededa ClusterGroups API
-  slug: zededa-clustergroups-api
 - baseURL: https://zedcontrol.zededa.net/api
   baseurl_source: declared
   description: The ClusterStatus API from Zededa — 3 operation(s) for clusterstatus.
@@ -219,6 +214,11 @@ apis:
   description: APIs for managing ZKS (ZEDEDA Kubernetes Service) cluster instances including creation, management, node operations, and status monitoring
   name: Zededa ZKSClusterInstances API
   slug: zededa-zksclusterinstances-api
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: APIs for managing cluster groups including creation, deletion, status monitoring, and manifest generation
+  name: Zededa cluster groups API
+  slug: zededa-cluster-groups-api
 artifact_total: 75
 collections:
 - collection_type: open
@@ -472,7 +472,7 @@ overview: 'Zededa publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Zededa''s developer surface includes API reference, documentation, authentication, support, engineering blog, and 23 more developer resources.'
-random_paper: 12
+random_paper: 5
 score:
   band: thin
   composite: 38.8
@@ -487,7 +487,7 @@ score:
   facets:
     access_clarity: 43.4
     contract_governance: 4.5
-    contract_quality: 52.4
+    contract_quality: 52.3
     developer_ergonomics: 43.5
     discoverability: 81.5
     operational_transparency: 2.6
@@ -503,7 +503,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

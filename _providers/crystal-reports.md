@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -73,19 +73,19 @@ apis:
   slug: crystal-reports-metadata-api
 - baseURL: https://api.sap.com/crystal/v1
   baseurl_source: declared
-  description: OData data service for report row and summary data
-  name: Crystal Reports OData API
-  slug: crystal-reports-odata-api
-- baseURL: https://api.sap.com/crystal/v1
-  baseurl_source: declared
   description: Report summary and URI information
-  name: Crystal Reports Reports API
+  name: Crystal Reports API
   slug: crystal-reports-reports-api
 - baseURL: https://api.sap.com/crystal/v1
   baseurl_source: declared
   description: Infostore repository navigation and folder browsing
   name: Crystal Reports Repository API
   slug: crystal-reports-repository-api
+- baseURL: https://www.sap.com/sdk/crystal
+  baseurl_source: declared
+  description: OData data service for report row and summary data
+  name: Crystal Reports O Data API
+  slug: crystal-reports-odata-api
 artifact_total: 115
 collections:
 - collection_type: open
@@ -401,7 +401,7 @@ jsonld:
   property_count: 54
   slug: crystal-reports-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Crystal Reports
 nav: Providers
 network: true
@@ -416,7 +416,7 @@ plans:
 - name: Crystal Reports Plans Pricing
   plan_count: 2
   slug: crystal-reports-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Crystal Reports Rate Limits
@@ -471,7 +471,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

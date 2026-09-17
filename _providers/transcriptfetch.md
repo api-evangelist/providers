@@ -23,20 +23,39 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.2
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://transcriptfetch.com
   baseurl_source: declared
-  description: REST API (current version v2, path-prefixed) for fetching timestamped transcripts from YouTube, TikTok, Instagram, Spotify, Apple Podcasts, podcast RSS feeds, and direct media files, with AI audio tra
-  name: TranscriptFetch REST API
-  slug: transcriptfetch-rest-api
-artifact_total: 11
+  description: Service health and metadata
+  name: TranscriptFetch System API
+  slug: transcriptfetch-system-api
+- baseURL: https://transcriptfetch.com
+  baseurl_source: declared
+  description: Transcript and video-list endpoints
+  name: TranscriptFetch Transcripts API
+  slug: transcriptfetch-transcripts-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Transcriptfetch Webhooks
   slug: transcriptfetch-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/overlays/transcriptfetch-api-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/transcriptfetch-api-v2-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://transcriptfetch.com/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/mcp/transcriptfetch-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/transcriptfetch-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -220,18 +239,18 @@ modified: '2026-09-09'
 name: TranscriptFetch
 nav: Providers
 network: true
-overview: 'TranscriptFetch publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Transcripts, Speech-to-Text, Captions, YouTube, and TikTok.
+overview: 'TranscriptFetch publishes 2 APIs on the [APIs.io](https://apis.io/) network: System API and Transcripts API. Tagged areas include Transcripts, Speech-to-Text, Captions, YouTube, and TikTok.
 
 
   The TranscriptFetch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TranscriptFetch''s developer surface includes authentication, changelog, pricing, engineering blog, support, signup flow, getting-started guide, and 30 more developer resources.'
+  TranscriptFetch''s developer surface includes authentication, changelog, pricing, engineering blog, support, signup flow, getting-started guide, and 33 more developer resources.'
 plans:
 - name: Transcriptfetch Plans Pricing
   plan_count: 6
   slug: transcriptfetch-plans-pricing
-random_paper: 3
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Transcriptfetch Rate Limits
@@ -243,7 +262,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.7
+  composite: 64.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 59.0
@@ -251,21 +270,26 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 63.1
+    contract_quality: 63.8
     developer_ergonomics: 58.9
     discoverability: 72.2
     operational_transparency: 89.5
   previous_composite: 64.7
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

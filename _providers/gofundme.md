@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GoFundMe Pro's single sign-on service, implemented against OpenID Connect, letting third-party apps register and log people in with their Classy/GoFundMe Pro account. Authorization endpoint at login.c
@@ -228,11 +228,6 @@ apis:
   slug: gofundme-like-api
 - baseURL: https://pro.gofundme.com/api/2.0
   baseurl_source: declared
-  description: MagicLink
-  name: GoFundMe Magic Link API
-  slug: gofundme-magiclink-api
-- baseURL: https://pro.gofundme.com/api/2.0
-  baseurl_source: declared
   description: A matched transaction can be created when a normal transaction may be matched with a future transaction. This might occur in the case of an employer match, a sponsor pledge, or some other form of matc
   name: GoFundMe Matched Transaction API
   slug: gofundme-matched-transaction-api
@@ -396,6 +391,11 @@ apis:
   description: 'A record indicating one of the possible currencies that an organization is allowing for fundraising and transactions. If no such records exist for an organization, it is assumed that the organization '
   name: GoFundMe Whitelisted Currency API
   slug: gofundme-whitelisted-currency-api
+- baseURL: https://login.classy.org
+  baseurl_source: declared
+  description: MagicLink
+  name: GoFundMe Magic Link API
+  slug: gofundme-magic-link-api
 artifact_total: 150
 asyncapis:
 - description: ''
@@ -791,7 +791,7 @@ overview: 'GoFundMe publishes 70 APIs on the [APIs.io](https://apis.io/) network
 
 
   GoFundMe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Gofundme Rate Limits
@@ -815,7 +815,7 @@ score:
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 65.4
+    contract_quality: 65.3
     developer_ergonomics: 47.0
     discoverability: 50.0
     operational_transparency: 73.7
@@ -836,7 +836,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

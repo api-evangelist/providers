@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: ExxonMobil announces merger with Pioneer Natural ...
   url: https://corporate.exxonmobil.com/news/news-releases/2023/1011_exxonmobil-announces-merger-with-pioneer-natural-resources-in-an-all-stock-transaction
-random_paper: 7
+random_paper: 16
 score:
   band: minimal
   composite: 1.2
@@ -106,7 +106,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -85,11 +85,6 @@ apis:
   slug: spare-customer-api
 - baseURL: https://ob.tryspare.com/api/v1.0/authentication
   baseurl_source: declared
-  description: The DirectDebit API from Spare — 1 operation(s) for directdebit.
-  name: Spare DirectDebit API
-  slug: spare-directdebit-api
-- baseURL: https://ob.tryspare.com/api/v1.0/authentication
-  baseurl_source: declared
   description: The Parties API from Spare — 1 operation(s) for parties.
   name: Spare Parties API
   slug: spare-parties-api
@@ -128,6 +123,11 @@ apis:
   description: The Transaction API from Spare — 5 operation(s) for transaction.
   name: Spare Transaction API
   slug: spare-transaction-api
+- baseURL: https://ob.tryspare.com/api/v1.0/authentication
+  baseurl_source: declared
+  description: The Direct Debit API from Spare — 1 operation(s) for direct debit.
+  name: Spare Direct Debit API
+  slug: spare-direct-debit-api
 artifact_total: 41
 asyncapis:
 - description: ''
@@ -355,7 +355,7 @@ overview: 'Spare publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spare''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 26 more developer resources.'
-random_paper: 14
+random_paper: 11
 scopes:
 - name: Spare Scopes
   scope_count: 0
@@ -363,7 +363,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.2
+  composite: 54.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -371,11 +371,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 43.4
     contract_governance: 4.5
-    contract_quality: 58.3
+    contract_quality: 55.2
     developer_ergonomics: 78.0
     discoverability: 81.5
     operational_transparency: 10.5
@@ -391,7 +391,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 17
@@ -404,7 +404,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -440,6 +440,6 @@ tags:
 - MENA
 - Saudi Arabia
 - Bahrain
-- UAE
+- United Arab Emirates
 website: https://tryspare.com
 ---

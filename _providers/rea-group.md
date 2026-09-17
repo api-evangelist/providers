@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -97,11 +97,6 @@ apis:
   description: The Match API from REA Group — 1 operation(s) for match.
   name: REA Group Match API
   slug: rea-group-match-api
-- baseURL: https://data.proptrack.com
-  baseurl_source: declared
-  description: The Oauth2 API from REA Group — 1 operation(s) for oauth2.
-  name: REA Group Oauth2 API
-  slug: rea-group-oauth2-api
 - baseURL: https://data.proptrack.com
   baseurl_source: declared
   description: Property Planning Overlays
@@ -167,6 +162,11 @@ apis:
   description: Property Transactions
   name: REA Group Transactions API
   slug: rea-group-transactions-api
+- baseURL: https://reaxml.realestate.com.au
+  baseurl_source: declared
+  description: The Oauth2 API from REA Group — 1 operation(s) for oauth2.
+  name: REA Group Oauth2 API
+  slug: rea-group-oauth2-api
 artifact_total: 40
 collections:
 - collection_type: open
@@ -381,7 +381,7 @@ modified: '2026-07-27T12:00:00Z'
 name: REA Group
 nav: Providers
 network: true
-overview: 'REA Group publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Auction Results API, AVM API, and 20 more. Tagged areas include Real-Estate, Property Data, Valuations, AVM, and Market Insights.
+overview: 'REA Group publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Auction Results API, AVM API, and 20 more. Tagged areas include Real-Estate, Property Data, Valuation, AVM, and Market Insights.
 
 
   REA Group''s developer surface includes documentation, API reference, getting-started guide, YouTube channel, engineering blog, support, FAQ, and 32 more developer resources.'
@@ -389,28 +389,28 @@ plans:
 - name: Rea Group Plans
   plan_count: 2
   slug: rea-group-plans
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 16
   name: Rea Group Rate Limits
   slug: rea-group-rate-limits
 score:
   band: developing
-  composite: 49.0
+  composite: 50.8
   coverage:
     artifact_dirs: 21
-    catalog_earned: 47.0
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 68.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 57.7
     developer_ergonomics: 62.5
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 50.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -431,7 +431,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -454,7 +454,7 @@ slug: rea-group
 tags:
 - Real-Estate
 - Property Data
-- Valuations
+- Valuation
 - AVM
 - Market Insights
 - Listings

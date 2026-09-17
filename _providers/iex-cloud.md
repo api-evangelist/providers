@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Real-time and historical US equity quotes, intraday and historical prices, OHLCV charts, news, dividends, splits, options chains, fundamentals, and corporate actions. Pricing was message-based: each e'
@@ -41,6 +41,10 @@ apis:
   slug: core-data-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://iexcloud.io
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/iex-cloud/refs/heads/main/security/iex-cloud-domain-security.yml
   title: ''
@@ -132,19 +136,19 @@ finops:
   slug: iex-cloud-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iex-cloud.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-09-16'
 name: IEX Cloud
 nav: Providers
 network: true
 overview: 'IEX Cloud publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Market Data, Stocks, Reference, and Sunset.
 
 
-  IEX Cloud''s developer surface includes developer portal, documentation, changelog, authentication, and 14 more developer resources.'
+  IEX Cloud''s developer surface includes developer portal, documentation, changelog, authentication, and 15 more developer resources.'
 plans:
 - name: Iex Cloud Plans Pricing
   plan_count: 4
   slug: iex-cloud-plans-pricing
-random_paper: 3
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Iex Cloud Rate Limits
@@ -175,7 +179,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -199,5 +203,5 @@ tags:
 - Reference
 - Sunset
 - Historical
-website: https://www.iexcloud.io/
+website: https://iexcloud.io
 ---

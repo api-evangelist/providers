@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -43,8 +43,8 @@ modified: '2026-07-02'
 name: API Evangelist Network
 nav: Providers
 network: true
-overview: API Evangelist Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Directory, Index, and Network.
-random_paper: 9
+overview: API Evangelist Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Directory, Index, and Networks.
+random_paper: 12
 score:
   band: minimal
   composite: 2.6
@@ -73,7 +73,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -84,5 +84,5 @@ slug: api-evangelist-network
 tags:
 - Directory
 - Index
-- Network
+- Networks
 ---

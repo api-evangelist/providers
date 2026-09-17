@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
+- acting_count: 22
+  human_in_the_loop: 4
   name: Miso Agentic Access
-  operation_count: 69
+  operation_count: 145
   slug: miso-agentic-access
-  summary_line: 69 operations
+  summary_line: 145 operations · 22 acting · 4 human-in-the-loop
 api_count: 7
 apis:
 - description: 'MISO''s long-running bulk market report surface — the second fully anonymous layer of its open market data, and the archive the Data Exchange APIs sit on top of. Every published report is a plain HTTP '
@@ -175,11 +175,6 @@ apis:
   slug: miso-offer-api
 - baseURL: https://public-api.misoenergy.org
   baseurl_source: declared
-  description: The Real Time API from MISO — 17 operation(s) for real time.
-  name: MISO Real Time API
-  slug: miso-real-time-api
-- baseURL: https://public-api.misoenergy.org
-  baseurl_source: declared
   description: The RealTimeRSGCommitments API from MISO — 1 operation(s) for realtimersgcommitments.
   name: MISO Real Time RSG Commitments API
   slug: miso-realtimersgcommitments-api
@@ -223,6 +218,11 @@ apis:
   description: The WindSolar API from MISO — 7 operation(s) for windsolar.
   name: MISO Wind Solar API
   slug: miso-windsolar-api
+- baseURL: https://docs.misoenergy.org/marketreports
+  baseurl_source: declared
+  description: The Realtime API from MISO — 17 operation(s) for realtime.
+  name: MISO Realtime API
+  slug: miso-realtime-api
 artifact_total: 139
 collections:
 - collection_type: open
@@ -685,14 +685,14 @@ plans:
 - name: Miso Plans
   plan_count: 5
   slug: miso-plans
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Miso Rate Limits
   slug: miso-rate-limits
 score:
   band: developing
-  composite: 51.9
+  composite: 51.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 56.0
@@ -700,11 +700,11 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 33.5
+    contract_quality: 30.8
     developer_ergonomics: 66.1
     discoverability: 66.7
     operational_transparency: 52.6
@@ -720,9 +720,9 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 96.9
-      derived: 16
-      marker_coverage: 53.1
+      callable: 93.8
+      derived: 19
+      marker_coverage: 62.5
       total: 32
     mcp: derived
     skills: derived
@@ -733,7 +733,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

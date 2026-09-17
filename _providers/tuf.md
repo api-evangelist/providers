@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: The TUF specification defines the structure of update repositories including the root, targets, snapshot, and timestamp metadata files. Each metadata file has a defined schema with signatures, expirat
@@ -196,7 +196,7 @@ plans:
 - name: Tuf Plans Pricing
   plan_count: 3
   slug: tuf-plans-pricing
-random_paper: 20
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Tuf Rate Limits
@@ -232,7 +232,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 28.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

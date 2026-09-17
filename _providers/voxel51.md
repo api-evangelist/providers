@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://docs.voxel51.com
@@ -126,7 +126,7 @@ plans:
 - name: Voxel51 Plans Pricing
   plan_count: 4
   slug: voxel51-plans-pricing
-random_paper: 9
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Voxel51 Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 33.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

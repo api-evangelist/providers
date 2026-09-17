@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -318,7 +318,7 @@ overview: 'Nex publishes 16 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Nex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 16
+random_paper: 1
 scopes:
 - name: Nex Scopes
   scope_count: 18
@@ -354,7 +354,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

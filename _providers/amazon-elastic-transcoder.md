@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -142,6 +142,10 @@ collections:
   name: Amazon Elastic Transcoder
   slug: open-amazon-elastic-transcoder
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/capabilities/amazon-elastic-transcoder-capability-edges.yml
   title: ''
@@ -1567,7 +1571,7 @@ jsonld:
   property_count: 108
   slug: amazon-elastic-transcoder-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Elastic Transcoder
 nav: Providers
 network: true
@@ -1577,12 +1581,12 @@ overview: 'Amazon Elastic Transcoder publishes 6 APIs on the [APIs.io](https://a
   The Amazon Elastic Transcoder catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Elastic Transcoder''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 27 more developer resources.'
+  Amazon Elastic Transcoder''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 28 more developer resources.'
 plans:
 - name: Amazon Elastic Transcoder Plans Pricing
   plan_count: 3
   slug: amazon-elastic-transcoder-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Transcoder Rate Limits
@@ -1636,7 +1640,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1674,5 +1678,5 @@ use_cases:
   name: HLS Streaming
 - description: Convert audio files between different formats and bitrates
   name: Audio File Conversion
-website: https://aws.amazon.com/elastictranscoder/
+website: https://amazon.com
 ---

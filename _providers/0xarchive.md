@@ -27,36 +27,302 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 57.7
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 66.9
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- description: Current and historical market data across Hyperliquid core, Spot, HIP-3, HIP-4, and Lighter. Direct market-data requests use X-API-Key.
-  name: 0xArchive REST API
-  slug: 0xarchive-rest-api
 - description: Real-time subscriptions for supported Hyperliquid channels and historical replay for Hyperliquid and Lighter. Clients authenticate during the handshake with a bearer API key.
   name: 0xArchive WebSocket API
   slug: 0xarchive-websocket-api
 - description: Read-only market-data discovery and retrieval for MCP clients. Hosted MCP uses client-managed OAuth and requires no 0xArchive API key.
   name: 0xArchive Hosted MCP
   slug: 0xarchive-hosted-mcp
-artifact_total: 12
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'Data quality monitoring: system status, coverage, incidents, latency, and SLA metrics.'
+  name: 0xArchive Data Quality API
+  slug: 0xarchive-data-quality-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'HIP-3 market breadth snapshots: percentage of eligible instruments trading above their current UTC-session VWAP.'
+  name: 0xArchive HIP-3 Builder Perps - Breadth API
+  slug: 0xarchive-hip-3-builder-perps-breadth-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'HIP-3 Builder Perps OHLCV candle data. Intervals: 1m, 5m, 15m, 30m, 1h, 4h, 1d, 1w. Coverage is symbol-specific; verify the selected market before choosing a time range.'
+  name: 0xArchive HIP-3 Builder Perps - Candles API
+  slug: 0xarchive-hip-3-builder-perps-candles-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'HIP-3 convenience endpoints: freshness, summary, and price history.'
+  name: 0xArchive HIP-3 Builder Perps - Convenience API
+  slug: 0xarchive-hip-3-builder-perps-convenience-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Full-depth aggregated L2 order book snapshots, checkpoint history, and diffs for HIP-3 builder perps derived from L4 data. Full-depth checkpoints and diffs where available.
+  name: 0xArchive HIP-3 Builder Perps - Full-Depth L2 Order Book API
+  slug: 0xarchive-hip-3-builder-perps-full-depth-l2-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-3 Builder Perps funding rate history. Coverage is symbol-specific; inspect `/v1/symbols` `coverage_by_type.funding` before choosing a time range.
+  name: 0xArchive HIP-3 Builder Perps - Funding API
+  slug: 0xarchive-hip-3-builder-perps-funding-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-3 Builder Perps instrument discovery. Use this route with `/v1/symbols` `coverage_by_type` to resolve the current inventory and schema-specific dates.
+  name: 0xArchive HIP-3 Builder Perps - Instruments API
+  slug: 0xarchive-hip-3-builder-perps-instruments-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Individual order-level (L4) orderbook data for HIP-3 builder perps.
+  name: 0xArchive HIP-3 Builder Perps - L4 Order Book API
+  slug: 0xarchive-hip-3-builder-perps-l4-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-3 Builder Perps liquidation-related fills. Coverage is symbol-specific; verify the selected market before choosing a time range.
+  name: 0xArchive HIP-3 Builder Perps - Liquidations API
+  slug: 0xarchive-hip-3-builder-perps-liquidations-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-3 Builder Perps historical open interest data. Coverage is symbol-specific; inspect `/v1/symbols` `coverage_by_type.oi` before choosing a time range.
+  name: 0xArchive HIP-3 Builder Perps - Open Interest API
+  slug: 0xarchive-hip-3-builder-perps-open-interest-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: The HIP-3 Builder Perps - Oracle API from 0xArchive — 2 operation(s) for hip-3 builder perps - oracle.
+  name: 0xArchive HIP-3 Builder Perps - Oracle API
+  slug: 0xarchive-hip-3-builder-perps-oracle-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-3 Builder Perps venue-native L2 order book snapshots. Native Hyperliquid source snapshots are capped at 20 levels per side; use the full-depth L2 routes for full-depth aggregated L2.
+  name: 0xArchive HIP-3 Builder Perps - Order Book API
+  slug: 0xarchive-hip-3-builder-perps-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Order lifecycle events for HIP-3 builder perps.
+  name: 0xArchive HIP-3 Builder Perps - Orders API
+  slug: 0xarchive-hip-3-builder-perps-orders-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-3 Builder Perps historical trade/fill data. Coverage is symbol-specific; inspect `/v1/symbols` `coverage_by_type.trades` before choosing a time range.
+  name: 0xArchive HIP-3 Builder Perps - Trades API
+  slug: 0xarchive-hip-3-builder-perps-trades-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: The HIP-3 Builder Perps - Wallets API from 0xArchive — 1 operation(s) for hip-3 builder perps - wallets.
+  name: 0xArchive HIP-3 Builder Perps - Wallets API
+  slug: 0xarchive-hip-3-builder-perps-wallets-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: The HIP-3 - Liquidations API from 0xArchive — 2 operation(s) for hip-3 - liquidations.
+  name: 0xArchive HIP-3 - Liquidations API
+  slug: 0xarchive-hip-3-liquidations-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: The HIP-3 - Orders API from 0xArchive — 2 operation(s) for hip-3 - orders.
+  name: 0xArchive HIP-3 - Orders API
+  slug: 0xarchive-hip-3-orders-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: OHLCV candles for HIP-4 outcome sides. Prices are implied probabilities (0..1); quote_volume in USDH.
+  name: 0xArchive HIP-4 Outcomes - Candles API
+  slug: 0xarchive-hip-4-outcomes-candles-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'HIP-4 convenience endpoints: freshness, summary, and price history. `mark_price` for HIP-4 is an implied probability in [0,1], not a USD price.'
+  name: 0xArchive HIP-4 Outcomes - Convenience API
+  slug: 0xarchive-hip-4-outcomes-convenience-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'HIP-4 per-side instrument discovery (one row per `#N` coin). Each outcome has two sides: side 0 (Yes) and side 1 (No). Coins are `#`-prefixed. Data from May 2026.'
+  name: 0xArchive HIP-4 Outcomes - Instruments API
+  slug: 0xarchive-hip-4-outcomes-instruments-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-4 outcome markets per-side open interest history. Display/paired/parity aggregates live on the `/outcomes/{outcome_id}` detail endpoint, not here. Data from May 2026.
+  name: 0xArchive HIP-4 Outcomes - Open Interest API
+  slug: 0xarchive-hip-4-outcomes-open-interest-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-4 outcome markets L2 and L4 order book snapshots and diffs. Coins are referenced by numeric id (0, 1, 10, 11, ...); the `#`-prefixed form is also accepted. Data from May 2026.
+  name: 0xArchive HIP-4 Outcomes - Order Book API
+  slug: 0xarchive-hip-4-outcomes-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'Order lifecycle events for HIP-4 outcome markets: placements, cancellations, fills, and TP/SL triggers.'
+  name: 0xArchive HIP-4 Outcomes - Orders API
+  slug: 0xarchive-hip-4-outcomes-orders-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-4 outcome market discovery (one row per outcome, both sides combined). Use these to enumerate live and settled binary outcome markets. Data from May 2026.
+  name: 0xArchive HIP-4 Outcomes - Outcomes API
+  slug: 0xarchive-hip-4-outcomes-outcomes-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: The HIP-4 Outcomes - Questions API from 0xArchive — 2 operation(s) for hip-4 outcomes - questions.
+  name: 0xArchive HIP-4 Outcomes - Questions API
+  slug: 0xarchive-hip-4-outcomes-questions-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: HIP-4 outcome markets historical trade/fill data. Data from May 2026.
+  name: 0xArchive HIP-4 Outcomes - Trades API
+  slug: 0xarchive-hip-4-outcomes-trades-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'Hyperliquid OHLCV candle data. Intervals: 1m, 5m, 15m, 30m, 1h, 4h, 1d, 1w.'
+  name: 0xArchive Hyperliquid - Candles API
+  slug: 0xarchive-hyperliquid-candles-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'Hyperliquid convenience endpoints: freshness, summary, and price history.'
+  name: 0xArchive Hyperliquid - Convenience API
+  slug: 0xarchive-hyperliquid-convenience-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Full-depth aggregated L2 order book snapshots, checkpoint history, and diffs for Hyperliquid perpetuals derived from L4 data. Full-depth checkpoints and diffs where available.
+  name: 0xArchive Hyperliquid - Full-Depth L2 Order Book API
+  slug: 0xarchive-hyperliquid-full-depth-l2-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Hyperliquid funding rate history. Data from May 2023.
+  name: 0xArchive Hyperliquid - Funding API
+  slug: 0xarchive-hyperliquid-funding-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Hyperliquid available trading instruments and their specifications. Authenticated inventory contains 232 core perpetual rows.
+  name: 0xArchive Hyperliquid - Instruments API
+  slug: 0xarchive-hyperliquid-instruments-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Individual resting-order (L4) book state for Hyperliquid perpetuals, including price, size, order ID, wallet attribution, queue priority, diffs, and checkpoints.
+  name: 0xArchive Hyperliquid - L4 Order Book API
+  slug: 0xarchive-hyperliquid-l4-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Hyperliquid liquidation events with user attribution. The observed global floor is July 27, 2025; exact starts vary by symbol.
+  name: 0xArchive Hyperliquid - Liquidations API
+  slug: 0xarchive-hyperliquid-liquidations-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Hyperliquid historical open interest and market context data. Data from May 2023.
+  name: 0xArchive Hyperliquid - Open Interest API
+  slug: 0xarchive-hyperliquid-open-interest-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Hyperliquid venue-native L2 order book snapshots. Native Hyperliquid source snapshots are capped at 20 levels per side; use the full-depth L2 routes for full-depth aggregated L2.
+  name: 0xArchive Hyperliquid - Order Book API
+  slug: 0xarchive-hyperliquid-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'Order lifecycle events for Hyperliquid perpetuals: placements, cancellations, fills, and TP/SL triggers.'
+  name: 0xArchive Hyperliquid - Orders API
+  slug: 0xarchive-hyperliquid-orders-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Hyperliquid Spot pair, order book, trade, reconstruction, TWAP, and freshness routes.
+  name: 0xArchive Hyperliquid Spot API
+  slug: 0xarchive-hyperliquid-spot-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: OHLCV candles for spot pairs (1m base, rolled up on demand).
+  name: 0xArchive Hyperliquid Spot - Candles API
+  slug: 0xarchive-hyperliquid-spot-candles-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: The Hyperliquid Spot - Order Book API from 0xArchive — 1 operation(s) for hyperliquid spot - order book.
+  name: 0xArchive Hyperliquid Spot - Order Book API
+  slug: 0xarchive-hyperliquid-spot-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Hyperliquid historical trade/fill data with full execution details. Data from April 2023.
+  name: 0xArchive Hyperliquid - Trades API
+  slug: 0xarchive-hyperliquid-trades-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: The Hyperliquid - Wallets API from 0xArchive — 1 operation(s) for hyperliquid - wallets.
+  name: 0xArchive Hyperliquid - Wallets API
+  slug: 0xarchive-hyperliquid-wallets-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Deprecated endpoints that default to Hyperliquid. Use the exchange-specific endpoints (`/v1/hyperliquid/*`, `/v1/lighter/*`, `/v1/hyperliquid/hip3/*`) instead.
+  name: 0xArchive Legacy API
+  slug: 0xarchive-legacy-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'Lighter OHLCV candle data. Intervals: 1m, 5m, 15m, 30m, 1h, 4h, 1d, 1w. Data from August 2025.'
+  name: 0xArchive Lighter - Candles API
+  slug: 0xarchive-lighter-candles-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: 'Lighter convenience endpoints: freshness, summary, and price history.'
+  name: 0xArchive Lighter - Convenience API
+  slug: 0xarchive-lighter-convenience-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Lighter funding rate history. Data from August 2025.
+  name: 0xArchive Lighter - Funding API
+  slug: 0xarchive-lighter-funding-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Lighter available trading instruments and their specifications.
+  name: 0xArchive Lighter - Instruments API
+  slug: 0xarchive-lighter-instruments-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Individual order-level (L3) orderbook data for Lighter. Data from March 2026.
+  name: 0xArchive Lighter - L3 Order Book API
+  slug: 0xarchive-lighter-l3-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: The Lighter - Liquidations API from 0xArchive — 2 operation(s) for lighter - liquidations.
+  name: 0xArchive Lighter - Liquidations API
+  slug: 0xarchive-lighter-liquidations-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Lighter historical open interest data. Data from August 2025.
+  name: 0xArchive Lighter - Open Interest API
+  slug: 0xarchive-lighter-open-interest-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Lighter L2 order book snapshots with configurable granularity. Checkpoint history starts January 29, 2026; 30s/10s/1s start January 30, 2026; tick reconstruction available.
+  name: 0xArchive Lighter - Order Book API
+  slug: 0xarchive-lighter-order-book-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Lighter historical fill data across more than 200 markets. Served history begins August 27, 2025, with exact starts varying by market.
+  name: 0xArchive Lighter - Trades API
+  slug: 0xarchive-lighter-trades-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: Health checks and system status
+  name: 0xArchive System API
+  slug: 0xarchive-system-api
+- baseURL: https://api.0xarchive.io
+  baseurl_source: declared
+  description: SIWE authentication for existing wallet accounts and autonomous paid wallet access via x402. Standard Free accounts are created through the browser signup flow.
+  name: 0xArchive Web3 Authentication API
+  slug: 0xarchive-web3-authentication-api
+artifact_total: 64
 asyncapis:
 - description: ''
   name: 0Xarchive Websocket Channels
   slug: 0xarchive-websocket-channels
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.0xarchive.io/mcp
 - group: company
   title: ''
   type: Website
@@ -137,10 +403,10 @@ common:
   type: Authentication
   url: authentication/0xarchive-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/openapi/0xarchive-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/openapi/_original/0xarchive-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/0xarchive-openapi.json
+  url: openapi/_original/0xarchive-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/overlays/0xarchive-openapi-overlay.yaml
   title: ''
@@ -301,28 +567,28 @@ description: '0xArchive is a replayable market-data archive for two decentralise
 image: https://0xarchive.io/logo-mark.svg
 layout: provider
 mcp_servers:
-- description: 'Live MCP, gated: initialize returns 401 "Missing Authorization". Present and auth-required, not absent. Found via their own .well-known/mcp.json descriptor. Verified 2026-09-01.'
-  name: 0xArchive MCP Server
-  slug: 0xarchive-mcp-server
 - description: Read-only market-data discovery and retrieval for MCP clients across Hyperliquid (core perps, HIP-3 builder perps, HIP-4 outcome markets, Spot) and Lighter.
   name: 0xArchive MCP
   slug: 0xarchive-mcp
-modified: '2026-09-01'
+- description: ''
+  name: 0xArchive MCP Server
+  slug: 0xarchive-mcp-server
+modified: '2026-09-16'
 name: 0xArchive
 nav: Providers
 network: true
-overview: '0xArchive publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Market Data, Historical Data, Crypto, DeFi, and Perpetuals.
+overview: '0xArchive publishes 53 APIs on the [APIs.io](https://apis.io/) network, including Data Quality API, HIP-3 Builder Perps - Breadth API, HIP-3 Builder Perps - Candles API, and 50 more. Tagged areas include Market Data, Historical Data, Crypto, DeFi, and Perpetuals.
 
 
   The 0xArchive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  0xArchive''s developer surface includes developer portal, pricing, status page, changelog, support, authentication, CLI, and 46 more developer resources.'
+  0xArchive''s developer surface includes developer portal, pricing, status page, changelog, support, authentication, CLI, and 47 more developer resources.'
 plans:
 - name: 0Xarchive Plans Pricing
   plan_count: 5
   slug: 0xarchive-plans-pricing
-random_paper: 3
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: 0Xarchive Rate Limits
@@ -334,7 +600,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.7
+  composite: 76.4
   coverage:
     artifact_dirs: 25
     catalog_earned: 61.0
@@ -342,11 +608,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.7
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 54.5
+    contract_quality: 69.6
     developer_ergonomics: 85.7
     discoverability: 94.4
     operational_transparency: 71.1
@@ -357,7 +623,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 53
     mcp: first-party
     skills: first-party
   regulatory:
@@ -367,7 +633,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

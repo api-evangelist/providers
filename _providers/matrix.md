@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -259,7 +259,7 @@ overview: 'Matrix publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Matrix''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 10
+random_paper: 1
 rules:
 - effective_rule_count: 32
   extends:
@@ -299,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

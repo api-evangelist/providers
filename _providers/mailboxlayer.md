@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,11 +47,6 @@ agentic_access:
   summary_line: 1 operation
 api_count: 2
 apis:
-- baseURL: https://apilayer.net/api
-  baseurl_source: declared
-  description: Email address validation and verification operations.
-  name: mailboxlayer Verification API
-  slug: mailboxlayer-verification-api
 - description: 'REST/JSON API for real-time email validation: syntax check, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free detection, and quality score. Available via legacy api'
   name: Mailboxlayer Email Validation API
   slug: mailboxlayer-email-validation-api
@@ -65,7 +60,7 @@ apis:
   description: The Check API from Mailboxlayer — 1 operation(s) for check.
   name: Mailboxlayer Check API
   slug: mailboxlayer-check-api
-artifact_total: 55
+artifact_total: 54
 collections:
 - collection_type: postman
   name: mailboxlayer Verification API
@@ -354,7 +349,7 @@ modified: '2026-08-14'
 name: Mailboxlayer
 nav: Providers
 network: true
-overview: 'Mailboxlayer publishes 3 APIs on the [APIs.io](https://apis.io/) network: Verification API, Bulk Check API, and Check API. Tagged areas include Email, Email Verification, Email Validation, SMTP, and MX Records.
+overview: 'Mailboxlayer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Bulk Check API and Check API. Tagged areas include Email, Email Verification, Email Validation, SMTP, and MX Records.
 
 
   The Mailboxlayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -365,7 +360,7 @@ plans:
 - name: Mailboxlayer Plans Pricing
   plan_count: 5
   slug: mailboxlayer-plans-pricing
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Mailboxlayer Rate Limits
@@ -394,19 +389,19 @@ rules:
   slug: mailboxlayer-rules
 score:
   band: exemplar
-  composite: 71.9
+  composite: 69.5
   coverage:
     artifact_dirs: 29
-    catalog_earned: 91.5
+    catalog_earned: 81.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 23.5
+    catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 84.2
     contract_governance: 47.0
-    contract_quality: 72.1
+    contract_quality: 62.6
     developer_ergonomics: 82.7
     discoverability: 83.3
     operational_transparency: 50.0
@@ -418,11 +413,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 2
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

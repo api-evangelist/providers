@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://qlty.sh
@@ -126,7 +126,7 @@ plans:
 - name: Qlty Plans Pricing
   plan_count: 4
   slug: qlty-plans-pricing
-random_paper: 17
+random_paper: 18
 rate_limits:
 - limit_count: 6
   name: Qlty Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

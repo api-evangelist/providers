@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: OpenAI-compatible model-inference API over Infini-AI's catalog of open- and closed-source models. Bearer (API Key) authentication; chat/completions, models, embeddings and image/video generation endpo
@@ -113,11 +113,11 @@ modified: '2026-07-18'
 name: Infini-AI (无问芯穹)
 nav: Providers
 network: true
-overview: 'Infini-AI (无问芯穹) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Model as a Service.
+overview: 'Infini-AI (无问芯穹) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Model as a Service.
 
 
   Infini-AI (无问芯穹)''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 8 more developer resources.'
-random_paper: 5
+random_paper: 7
 score:
   band: emerging
   composite: 12.4
@@ -140,7 +140,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +161,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Model as a Service
 - Inference
 - ComfyUI

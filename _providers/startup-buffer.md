@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,14 +90,14 @@ modified: '2026-05-02'
 name: Startup Buffer
 nav: Providers
 network: true
-overview: 'Startup Buffer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Directory, Product Discovery, Startups, Listing, and Community.
+overview: 'Startup Buffer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Directory, Product Discovery, Startups, Listings, and Community.
 
 
   The Startup Buffer catalog on APIs.io includes 1 JSON-LD context.
 
 
   Startup Buffer''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 17
+random_paper: 14
 score:
   band: emerging
   composite: 11.8
@@ -118,7 +118,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -134,7 +134,7 @@ tags:
 - Directory
 - Product Discovery
 - Startups
-- Listing
+- Listings
 - Community
 website: https://startupbuffer.com/
 ---

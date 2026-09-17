@@ -33,29 +33,34 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 66.5
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
 - description: The APILayer marketplace gateway at api.apilayer.com fronts the third-party APIs listed on marketplace.apilayer.com (Bank Data, Tax Data and others) behind a single subscription. Authentication here i
   name: APILayer Marketplace API
   slug: apilayer-api
-- baseURL: https://api.exchangerate.host
+- baseURL: https://api.apilayer.com
   baseurl_source: declared
-  description: Real-time and historical foreign exchange rates for 168 world currencies, with live quotes, single-day historical rates, date-range time frames, change queries and currency conversion. Five GET endpoi
-  name: ExchangeRate.host API
-  slug: exchangerate-host-api
-- baseURL: https://api.exchangeratesapi.io/v1
-  baseurl_source: declared
-  description: 'Foreign exchange rate data for 170 world currencies drawn from 15+ sources: latest rates, single-date historical rates, time series, fluctuation between two dates, currency conversion and a supported-'
-  name: Exchange Rates API
-  slug: exchange-rates-api
-- baseURL: https://api.ipapi.com/api
-  baseurl_source: declared
-  description: Real-time IP to geolocation lookup returning location, connection, timezone, currency and optional threat-assessment data for an IPv4 or IPv6 address, plus a /check endpoint that resolves the caller's
-  name: ipapi
-  slug: ipapi
-artifact_total: 38
+  description: The Endpoints API from APILayer — 12 operation(s) for endpoints.
+  name: APILayer Endpoints API
+  slug: apilayer-endpoints-api
+artifact_total: 36
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apilayer/refs/heads/main/overlays/apilayer-exchangerate-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apilayer-exchangerate-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apilayer/refs/heads/main/overlays/apilayer-exchangeratesapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apilayer-exchangeratesapi-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apilayer/refs/heads/main/overlays/apilayer-ipapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apilayer-ipapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -308,18 +313,18 @@ modified: '2026-09-12'
 name: APILayer
 nav: Providers
 network: true
-overview: 'APILayer publishes 3 APIs on the [APIs.io](https://apis.io/) network: ExchangeRate.host API, Exchange Rates API, and ipapi. Tagged areas include API Marketplace, API Catalog, API Discovery, Developer Tools, and SaaS APIs.
+overview: 'APILayer publishes 1 API on the [APIs.io](https://apis.io/) network: Endpoints API. Tagged areas include API Marketplace, API Catalog, API Discovery, Developer Tools, and SaaS APIs.
 
 
   The APILayer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  APILayer''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, FAQ, engineering blog, and 35 more developer resources.'
+  APILayer''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, FAQ, engineering blog, and 38 more developer resources.'
 plans:
 - name: Apilayer Plans Pricing
   plan_count: 15
   slug: apilayer-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 8
   name: Apilayer Rate Limits
@@ -342,7 +347,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 67.0
+  composite: 67.2
   coverage:
     artifact_dirs: 27
     catalog_earned: 89.3
@@ -350,11 +355,11 @@ score:
     catalog_gap: 25.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 77.6
     contract_governance: 43.2
-    contract_quality: 64.6
+    contract_quality: 65.3
     developer_ergonomics: 67.3
     discoverability: 81.5
     operational_transparency: 65.8
@@ -371,11 +376,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 1
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -409,7 +414,7 @@ tags:
 - SaaS APIs
 - Geolocation
 - Currency
-- Data APIs
+- Data API
 use_cases:
 - description: Determine user location, timezone, and geographic data from IP addresses using IPstack or IPapi.
   name: IP Geolocation

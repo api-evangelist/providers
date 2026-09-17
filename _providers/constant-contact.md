@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -57,12 +57,12 @@ apis:
 - baseURL: https://api.cc.email/v3
   baseurl_source: declared
   description: Endpoints and methods to get, create, delete, and update one or more contact lists.
-  name: Constant Contact Contact Lists API
+  name: Constant Contact Lists API
   slug: constant-contact-contact-lists-api
 - baseURL: https://api.cc.email/v3
   baseurl_source: declared
   description: Endpoints and methods to get, create, delete, and update one or more contact tags.
-  name: Constant Contact Contact Tags API
+  name: Constant Contact Tags API
   slug: constant-contact-contact-tags-api
 - baseURL: https://api.cc.email/v3
   baseurl_source: declared
@@ -426,11 +426,11 @@ jsonld:
   property_count: 8
   slug: constant-contact-context
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Constant Contact
 nav: Providers
 network: true
-overview: 'Constant Contact publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Bulk Activities API, Contact Lists API, and 16 more. Tagged areas include Campaigns, Contacts, Email Marketing, Event, and Reporting.
+overview: 'Constant Contact publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Bulk Activities API, Lists API, and 16 more. Tagged areas include Campaigns, Contacts, Email Marketing, Event, and Reporting.
 
 
   The Constant Contact catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -441,7 +441,7 @@ plans:
 - name: Constant Contact Plans Pricing
   plan_count: 3
   slug: constant-contact-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Constant Contact Rate Limits
@@ -509,7 +509,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Managed ClickHouse-based columnar cloud database (AWS us-east-1) pre-loaded with two petabytes of AlgoSeek historical and near-real-time market data, queried with full SQL. Programmatic access is docu
@@ -68,11 +68,6 @@ apis:
   description: The BucketUpdate API from AlgoSeek — 4 operation(s) for bucketupdate.
   name: AlgoSeek BucketUpdate API
   slug: algoseek-bucketupdate-api
-- baseURL: https://metadata-services.algoseek.com/api/v1
-  baseurl_source: declared
-  description: The CloudStorage API from AlgoSeek — 6 operation(s) for cloudstorage.
-  name: AlgoSeek CloudStorage API
-  slug: algoseek-cloudstorage-api
 - baseURL: https://metadata-services.algoseek.com/api/v1
   baseurl_source: declared
   description: The CSVColumn API from AlgoSeek — 4 operation(s) for csvcolumn.
@@ -140,11 +135,6 @@ apis:
   slug: algoseek-documentation-api
 - baseURL: https://metadata-services.algoseek.com/api/v1
   baseurl_source: declared
-  description: The Healthcheck API from AlgoSeek — 1 operation(s) for healthcheck.
-  name: AlgoSeek Healthcheck API
-  slug: algoseek-healthcheck-api
-- baseURL: https://metadata-services.algoseek.com/api/v1
-  baseurl_source: declared
   description: The Identity API from AlgoSeek — 2 operation(s) for identity.
   name: AlgoSeek Identity API
   slug: algoseek-identity-api
@@ -168,11 +158,6 @@ apis:
   description: The S3Object API from AlgoSeek — 5 operation(s) for s3object.
   name: AlgoSeek S3Object API
   slug: algoseek-s3object-api
-- baseURL: https://metadata-services.algoseek.com/api/v1
-  baseurl_source: declared
-  description: The SampleData API from AlgoSeek — 5 operation(s) for sampledata.
-  name: AlgoSeek SampleData API
-  slug: algoseek-sampledata-api
 - baseURL: https://metadata-services.algoseek.com/api/v1
   baseurl_source: declared
   description: The SQLColumn API from AlgoSeek — 4 operation(s) for sqlcolumn.
@@ -203,6 +188,21 @@ apis:
   description: The Vendor API from AlgoSeek — 4 operation(s) for vendor.
   name: AlgoSeek Vendor API
   slug: algoseek-vendor-api
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Cloud Storage API from AlgoSeek — 6 operation(s) for cloud storage.
+  name: AlgoSeek Cloud Storage API
+  slug: algoseek-cloud-storage-api
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Health Check API from AlgoSeek — 1 operation(s) for health check.
+  name: AlgoSeek Health Check API
+  slug: algoseek-health-check-api
+- baseURL: https://metadata-services.algoseek.com/api/v1
+  baseurl_source: declared
+  description: The Sample Data API from AlgoSeek — 5 operation(s) for sample data.
+  name: AlgoSeek Sample Data API
+  slug: algoseek-sample-data-api
 artifact_total: 70
 collections:
 - collection_type: open
@@ -308,6 +308,21 @@ collections:
   name: metadata-api AWSAccount Vendor API
   slug: open-algoseek-vendor-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/overlays/algoseek-cloudstorage-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/algoseek-cloudstorage-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/overlays/algoseek-healthcheck-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/algoseek-healthcheck-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/overlays/algoseek-sampledata-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/algoseek-sampledata-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/algoseek/refs/heads/main/capabilities/algoseek-capability-edges.yml
   title: ''
@@ -450,11 +465,11 @@ network: true
 overview: 'AlgoSeek publishes 33 APIs on the [APIs.io](https://apis.io/) network, including AWSAccount API, AWSResourceType API, BucketGroup API, and 30 more. Tagged areas include Financial, Market Data, Stocks, Options, and Futures.
 
 
-  AlgoSeek''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, changelog, and 22 more developer resources.'
-random_paper: 3
+  AlgoSeek''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, support, changelog, and 25 more developer resources.'
+random_paper: 7
 score:
   band: developing
-  composite: 42.7
+  composite: 41.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -462,11 +477,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 57.9
+    contract_quality: 52.5
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 18.4
@@ -479,7 +494,7 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 33
@@ -492,7 +507,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

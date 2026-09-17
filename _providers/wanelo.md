@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the wanelo.com storefront: a Universal Commerce Protocol (UCP) MCP endpoint for search/cart/checkout, Shopify Customer Account OAuth/OIDC, and unauthenticated Shopify'
@@ -109,7 +109,7 @@ overview: 'wanelo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   wanelo''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 16
+random_paper: 8
 scopes:
 - name: Wanelo Scopes
   scope_count: 4
@@ -138,7 +138,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +161,7 @@ tags:
 - E-Commerce
 - Retail
 - Commerce
-- Agent Commerce
+- Agentic Commerce
 - MCP
 - Shopify
 - Artificial Intelligence

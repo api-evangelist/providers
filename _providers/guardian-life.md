@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 15
 apis:
 - description: 'Secure, real-time EOI decisioning on a benefit technology partner''s platform when required by an elected Guardian benefit. Employees required to submit EOI are presented the required health questions '
@@ -159,7 +159,7 @@ press:
 - date: '2026-05-25'
   title: AM Best Affirms Credit Ratings of Guardian Life Insurance ...
   url: https://news.ambest.com/newscontent.aspx?refnum=242902&altsrc=23
-random_paper: 2
+random_paper: 6
 score:
   band: emerging
   composite: 17.4
@@ -186,7 +186,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

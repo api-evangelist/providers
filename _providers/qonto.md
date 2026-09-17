@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 7
@@ -64,11 +64,6 @@ apis:
   description: The International Transfers API from Qonto — 2 operation(s) for international transfers.
   name: Qonto International Transfers API
   slug: qonto-international-transfers-api
-- baseURL: https://thirdparty.qonto.com/v2
-  baseurl_source: declared
-  description: The OAuth API from Qonto — 1 operation(s) for oauth.
-  name: Qonto OAuth API
-  slug: qonto-oauth-api
 - baseURL: https://thirdparty.qonto.com/v2
   baseurl_source: declared
   description: The Organizations & Accounts API from Qonto — 4 operation(s) for organizations & accounts.
@@ -101,14 +96,19 @@ apis:
   slug: qonto-terminals-api
 - baseURL: https://thirdparty.qonto.com/v2
   baseurl_source: declared
-  description: The Transactions & Statements API from Qonto — 3 operation(s) for transactions & statements.
-  name: Qonto Transactions & Statements API
-  slug: qonto-transactions-statements-api
-- baseURL: https://thirdparty.qonto.com/v2
-  baseurl_source: declared
   description: The Webhooks API from Qonto — 2 operation(s) for webhooks.
   name: Qonto Webhooks API
   slug: qonto-webhooks-api
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The OAuth API from Qonto — 1 operation(s) for oauth.
+  name: Qonto O Auth API
+  slug: qonto-oauth-api
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Transactions and Statements API from Qonto — 3 operation(s) for transactions and statements.
+  name: Qonto Transactions and Statements API
+  slug: qonto-transactions-and-statements-api
 artifact_total: 51
 asyncapis:
 - description: ''
@@ -438,7 +438,7 @@ plans:
 - name: Qonto Plans Pricing
   plan_count: 6
   slug: qonto-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Qonto Rate Limits
@@ -495,7 +495,7 @@ score:
     regime_id: banking_open_finance
     score: 74.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -103,7 +103,7 @@ name: OctoAI
 nav: Providers
 network: true
 overview: OctoAI publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Defunct, AI Inference, Generative AI, and LLM.
-random_paper: 9
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/octoai/refs/heads/main/screenshots/octoai-2026-06-20T190611.png
 security:
 - kind: domain-security

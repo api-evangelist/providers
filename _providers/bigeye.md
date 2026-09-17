@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -52,11 +52,6 @@ apis:
   description: The AgentService API from Bigeye — 5 operation(s) for agentservice.
   name: Bigeye Agent Service API
   slug: bigeye-agentservice-api
-- baseURL: https://app.bigeye.com
-  baseurl_source: declared
-  description: The ApiKeyService API from Bigeye — 6 operation(s) for apikeyservice.
-  name: Bigeye API Key Service API
-  slug: bigeye-apikeyservice-api
 - baseURL: https://app.bigeye.com
   baseurl_source: declared
   description: The CatalogRebuildsService API from Bigeye — 3 operation(s) for catalogrebuildsservice.
@@ -189,11 +184,6 @@ apis:
   slug: bigeye-objectownerservice-api
 - baseURL: https://app.bigeye.com
   baseurl_source: declared
-  description: The QueryService API from Bigeye — 1 operation(s) for queryservice.
-  name: Bigeye Query Service API
-  slug: bigeye-queryservice-api
-- baseURL: https://app.bigeye.com
-  baseurl_source: declared
   description: The RoleService API from Bigeye — 4 operation(s) for roleservice.
   name: Bigeye Role Service API
   slug: bigeye-roleservice-api
@@ -217,11 +207,6 @@ apis:
   description: The SchemaService API from Bigeye — 6 operation(s) for schemaservice.
   name: Bigeye Schema Service API
   slug: bigeye-schemaservice-api
-- baseURL: https://app.bigeye.com
-  baseurl_source: declared
-  description: The SearchService API from Bigeye — 1 operation(s) for searchservice.
-  name: Bigeye Search Service API
-  slug: bigeye-searchservice-api
 - baseURL: https://app.bigeye.com
   baseurl_source: declared
   description: The ServiceAccountApiKeyService API from Bigeye — 4 operation(s) for serviceaccountapikeyservice.
@@ -267,6 +252,21 @@ apis:
   description: The WorkspaceService API from Bigeye — 4 operation(s) for workspaceservice.
   name: Bigeye Workspace Service API
   slug: bigeye-workspaceservice-api
+- baseURL: https://mcpgateway.bigeye.com/mcp
+  baseurl_source: declared
+  description: The Api Key Service API from Bigeye — 6 operation(s) for api key service.
+  name: Bigeye Api Key Service API
+  slug: bigeye-api-key-service-api
+- baseURL: https://mcpgateway.bigeye.com/mcp
+  baseurl_source: declared
+  description: The Query Service API from Bigeye — 1 operation(s) for query service.
+  name: Bigeye Query Service API
+  slug: bigeye-query-service-api
+- baseURL: https://mcpgateway.bigeye.com/mcp
+  baseurl_source: declared
+  description: The Search Service API from Bigeye — 1 operation(s) for search service.
+  name: Bigeye Search Service API
+  slug: bigeye-search-service-api
 artifact_total: 97
 asyncapis:
 - description: ''
@@ -600,31 +600,31 @@ modified: '2026-08-02'
 name: Bigeye
 nav: Providers
 network: true
-overview: 'Bigeye publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Agent Service API, API Key Service API, Catalog Rebuilds Service API, and 41 more. Tagged areas include Company, Data Observability, Data Quality, Data Lineage, and Data Governance.
+overview: 'Bigeye publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Agent Service API, Catalog Rebuilds Service API, Classifier Service API, and 41 more. Tagged areas include Company, Data Observability, Data Quality, Data Lineage, and Data Governance.
 
 
   The Bigeye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 32 more developer resources.'
-random_paper: 20
+random_paper: 13
 score:
   band: developing
-  composite: 49.3
+  composite: 51.2
   coverage:
     artifact_dirs: 21
-    catalog_earned: 27.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 32.9
     contract_governance: 4.5
     contract_quality: 57.3
     developer_ergonomics: 60.1
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 44.7
   previous_composite: 49.3
   provenance:
@@ -638,7 +638,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

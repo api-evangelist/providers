@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -65,22 +65,22 @@ apis:
   description: Retrieve audience tokens for managed account API access.
   name: WatchGuard Authorization API
   slug: watchguard-authorization-api
-- baseURL: https://api.usa.cloud.watchguard.com/rest
+- baseURL: https://api.usa.cloud.watchguard.com/rest/endpoint-security/management/api/v1
   baseurl_source: spec
   description: Manage endpoint security configurations.
   name: WatchGuard Configurations API
   slug: watchguard-configurations-api
-- baseURL: https://api.usa.cloud.watchguard.com/rest
+- baseURL: https://api.usa.cloud.watchguard.com/rest/endpoint-security/management/api/v1
   baseurl_source: spec
   description: Perform actions on endpoint devices such as isolation and scanning.
   name: WatchGuard Device Actions API
   slug: watchguard-device-actions-api
-- baseURL: https://api.usa.cloud.watchguard.com/rest
+- baseURL: https://api.usa.cloud.watchguard.com/rest/endpoint-security/management/api/v1
   baseurl_source: spec
   description: Manage and query endpoint devices.
   name: WatchGuard Devices API
   slug: watchguard-devices-api
-- baseURL: https://api.usa.cloud.watchguard.com/rest
+- baseURL: https://api.usa.cloud.watchguard.com/rest/endpoint-security/management/api/v1
   baseurl_source: spec
   description: Retrieve endpoint security license information.
   name: WatchGuard Licenses API
@@ -90,12 +90,12 @@ apis:
   description: Manage WatchGuard Cloud operator users.
   name: WatchGuard Operators API
   slug: watchguard-operators-api
-- baseURL: https://api.usa.cloud.watchguard.com/rest
+- baseURL: https://api.usa.cloud.watchguard.com/rest/endpoint-security/management/api/v1
   baseurl_source: spec
   description: Retrieve risk assessment summaries and detected risks.
   name: WatchGuard Risk Assessment API
   slug: watchguard-risk-assessment-api
-- baseURL: https://api.usa.cloud.watchguard.com/rest
+- baseURL: https://api.usa.cloud.watchguard.com/rest/endpoint-security/management/api/v1
   baseurl_source: spec
   description: Retrieve security event data and overviews.
   name: WatchGuard Security Events API
@@ -281,7 +281,7 @@ plans:
 - name: Watchguard Plans Pricing
   plan_count: 3
   slug: watchguard-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Watchguard Rate Limits
@@ -336,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

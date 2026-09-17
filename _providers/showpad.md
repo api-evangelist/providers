@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Access analytics and insights for coaching and training programs, including learning paths, skill assessments, roleplay AI analysis, and coach analytics data.
@@ -143,19 +143,19 @@ apis:
   slug: showpad-tickets-api
 - baseURL: https://{subdomain}.showpad.biz/api/v3
   baseurl_source: declared
-  description: The usergroups API from Showpad — 14 operation(s) for usergroups.
-  name: Showpad Usergroups API
-  slug: showpad-usergroups-api
-- baseURL: https://{subdomain}.showpad.biz/api/v3
-  baseurl_source: declared
-  description: The userpermissions API from Showpad — 6 operation(s) for userpermissions.
-  name: Showpad Userpermissions API
-  slug: showpad-userpermissions-api
-- baseURL: https://{subdomain}.showpad.biz/api/v3
-  baseurl_source: declared
   description: The users API from Showpad — 22 operation(s) for users.
   name: Showpad Users API
   slug: showpad-users-api
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The User Groups API from Showpad — 14 operation(s) for user groups.
+  name: Showpad User Groups API
+  slug: showpad-user-groups-api
+- baseURL: https://{subdomain}.showpad.biz/api/v3
+  baseurl_source: declared
+  description: The User Permissions API from Showpad — 6 operation(s) for user permissions.
+  name: Showpad User Permissions API
+  slug: showpad-user-permissions-api
 artifact_total: 35
 asyncapis:
 - description: ''
@@ -413,7 +413,7 @@ plans:
 - name: Showpad Plans Pricing
   plan_count: 3
   slug: showpad-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Showpad Rate Limits
@@ -452,7 +452,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

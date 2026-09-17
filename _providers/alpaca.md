@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 58.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -49,11 +49,6 @@ apis:
   description: The Alpaca Trading API enables commission-free trading of US-listed equities, options, and crypto. It exposes endpoints for orders, positions, account information, watchlists, calendar, clock, and ass
   name: Alpaca Trading API
   slug: trading-api
-- baseURL: https://api.alpaca.markets/oauth
-  baseurl_source: declared
-  description: The Alpaca OAuth API allows third-party applications to authenticate Alpaca users and obtain access tokens for the Trading and Market Data APIs.
-  name: Alpaca OAuth API
-  slug: oauth-api
 - baseURL: https://api.alpaca.markets/v2
   baseurl_source: declared
   description: The Accounts API from Alpaca — 14 operation(s) for accounts.
@@ -82,7 +77,7 @@ apis:
 - baseURL: https://api.alpaca.markets/v2
   baseurl_source: declared
   description: The Crypto Pricing Data API API from Alpaca — 17 operation(s) for crypto pricing data api.
-  name: Alpaca Crypto Pricing Data API API
+  name: Alpaca Crypto Pricing Data API
   slug: alpaca-crypto-pricing-data-api-api
 - baseURL: https://api.alpaca.markets/v2
   baseurl_source: declared
@@ -122,13 +117,18 @@ apis:
 - baseURL: https://api.alpaca.markets/v2
   baseurl_source: declared
   description: The Stock Pricing Data API API from Alpaca — 16 operation(s) for stock pricing data api.
-  name: Alpaca Stock Pricing Data API API
+  name: Alpaca Stock Pricing Data API
   slug: alpaca-stock-pricing-data-api-api
 - baseURL: https://api.alpaca.markets/v2
   baseurl_source: declared
   description: The Watchlist API from Alpaca — 2 operation(s) for watchlist.
   name: Alpaca Watchlist API
   slug: alpaca-watchlist-api
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: The OAuth API from Alpaca — 3 operation(s) for oauth.
+  name: Alpaca O Auth API
+  slug: alpaca-oauth-api
 artifact_total: 77
 asyncapis:
 - description: AsyncAPI 2.6 description of Alpaca's public WebSocket streaming APIs. Covers real-time stock market data (IEX / SIP / delayed SIP / BOATS), real-time crypto market data (US and Global), real-time news
@@ -280,6 +280,11 @@ collections:
   name: Broker Account Activities Watchlists API
   slug: open-alpaca-watchlists-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/overlays/alpaca-oauth-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/alpaca-oauth-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -497,22 +502,22 @@ mcp_servers:
 - description: ''
   name: Alpaca MCP Server
   slug: alpaca-mcp-server
-modified: '2026-07-22'
+modified: '2026-09-16'
 name: Alpaca
 nav: Providers
 network: true
-overview: 'Alpaca publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Trading API, OAuth API, Accounts API, and 14 more. Tagged areas include Fintech, Trading, Stocks, Crypto, and Brokerage.
+overview: 'Alpaca publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Trading API, Accounts API, Assets API, and 14 more. Tagged areas include Fintech, Trading, Stocks, Crypto, and Brokerage.
 
 
   The Alpaca catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Alpaca''s developer surface includes authentication, sandbox, changelog, CLI, API reference, getting-started guide, support, and 38 more developer resources.'
+  Alpaca''s developer surface includes authentication, sandbox, changelog, CLI, API reference, getting-started guide, support, and 39 more developer resources.'
 plans:
 - name: Alpaca Plans Pricing
   plan_count: 3
   slug: alpaca-plans-pricing
-random_paper: 1
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Alpaca Rate Limits
@@ -574,7 +579,7 @@ score:
     regime_id: securities_market_data
     score: 73.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

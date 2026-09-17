@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -357,7 +357,7 @@ overview: 'Volteras publishes 19 APIs on the [APIs.io](https://apis.io/) network
 
 
   Volteras'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Volteras Rate Limits
@@ -403,7 +403,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

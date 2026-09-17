@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Newton is a Python library and physics simulation engine. It is consumed programmatically via Python (not as an HTTP API), targeting robotics simulation, reinforcement learning, and physics-based AI t
@@ -41,6 +41,10 @@ apis:
   slug: newton
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://newton-physics.github.io
 - group: operate
   title: ''
   type: IssueTracker
@@ -89,19 +93,19 @@ finops:
   slug: newton-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newton.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Newton
 nav: Providers
 network: true
 overview: 'Newton publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Linux Foundation, Physics, Simulation, and Robotics.
 
 
-  Newton''s developer surface includes documentation and 9 more developer resources.'
+  Newton''s developer surface includes documentation and 10 more developer resources.'
 plans:
 - name: Newton Plans Pricing
   plan_count: 3
   slug: newton-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Newton Rate Limits
@@ -129,7 +133,7 @@ score:
     score: 100.0
   previous_composite: 24.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -144,4 +148,5 @@ tags:
 - Simulation
 - Robotics
 - GPU
+website: https://newton-physics.github.io
 ---

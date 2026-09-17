@@ -46,7 +46,7 @@ name: Ofo
 nav: Providers
 network: true
 overview: Ofo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Transportation, Mobility, and Micromobility.
-random_paper: 9
+random_paper: 16
 security:
 - kind: domain-security
   name: Ofo Domain Security

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,72 +51,72 @@ apis:
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Accounts API from Cardano — 12 operation(s) for cardano » accounts.
-  name: Cardano Cardano » Accounts API
+  name: Cardano » Accounts API
   slug: cardano-cardano-accounts-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Addresses API from Cardano — 7 operation(s) for cardano » addresses.
-  name: Cardano Cardano » Addresses API
+  name: Cardano » Addresses API
   slug: cardano-cardano-addresses-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Assets API from Cardano — 7 operation(s) for cardano » assets.
-  name: Cardano Cardano » Assets API
+  name: Cardano » Assets API
   slug: cardano-cardano-assets-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Blocks API from Cardano — 11 operation(s) for cardano » blocks.
-  name: Cardano Cardano » Blocks API
+  name: Cardano » Blocks API
   slug: cardano-cardano-blocks-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Epochs API from Cardano — 10 operation(s) for cardano » epochs.
-  name: Cardano Cardano » Epochs API
+  name: Cardano » Epochs API
   slug: cardano-cardano-epochs-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Governance API from Cardano — 20 operation(s) for cardano » governance.
-  name: Cardano Cardano » Governance API
+  name: Cardano » Governance API
   slug: cardano-cardano-governance-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Ledger API from Cardano — 1 operation(s) for cardano » ledger.
-  name: Cardano Cardano » Ledger API
+  name: Cardano » Ledger API
   slug: cardano-cardano-ledger-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Mempool API from Cardano — 3 operation(s) for cardano » mempool.
-  name: Cardano Cardano » Mempool API
+  name: Cardano » Mempool API
   slug: cardano-cardano-mempool-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Metadata API from Cardano — 3 operation(s) for cardano » metadata.
-  name: Cardano Cardano » Metadata API
+  name: Cardano » Metadata API
   slug: cardano-cardano-metadata-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Network API from Cardano — 2 operation(s) for cardano » network.
-  name: Cardano Cardano » Network API
+  name: Cardano » Network API
   slug: cardano-cardano-network-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Pools API from Cardano — 12 operation(s) for cardano » pools.
-  name: Cardano Cardano » Pools API
+  name: Cardano » Pools API
   slug: cardano-cardano-pools-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Scripts API from Cardano — 7 operation(s) for cardano » scripts.
-  name: Cardano Cardano » Scripts API
+  name: Cardano » Scripts API
   slug: cardano-cardano-scripts-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Transactions API from Cardano — 14 operation(s) for cardano » transactions.
-  name: Cardano Cardano » Transactions API
+  name: Cardano » Transactions API
   slug: cardano-cardano-transactions-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
   description: The Cardano » Utilities API from Cardano — 3 operation(s) for cardano » utilities.
-  name: Cardano Cardano » Utilities API
+  name: Cardano » Utilities API
   slug: cardano-cardano-utilities-api
 - baseURL: https://cardano-mainnet.blockfrost.io/api/v0
   baseurl_source: declared
@@ -882,11 +882,11 @@ jsonld:
   property_count: 113
   slug: blockfrost-cardano-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Cardano
 nav: Providers
 network: true
-overview: 'Cardano publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Cardano » Accounts API, Cardano » Addresses API, Cardano » Assets API, and 17 more. Tagged areas include Blockchain, Cryptocurrency, Proof of Stake, Smart Contracts, and Web3.
+overview: 'Cardano publishes 20 APIs on the [APIs.io](https://apis.io/) network, including » Accounts API, » Addresses API, » Assets API, and 17 more. Tagged areas include Blockchain, Cryptocurrency, Proof of Stake, Smart Contracts, and Web3.
 
 
   The Cardano catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -897,7 +897,7 @@ plans:
 - name: Cardano Plans Pricing
   plan_count: 4
   slug: cardano-plans-pricing
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Cardano Rate Limits
@@ -915,7 +915,7 @@ rules:
   slug: cardano-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.9
+  composite: 41.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 78.3
@@ -923,11 +923,11 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 61.3
+    contract_quality: 63.9
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 31.6
@@ -940,7 +940,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

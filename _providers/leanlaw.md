@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: LeanLaw operates a remote Model Context Protocol server at https://api.leanlaw.io/mcp that lets an AI assistant work with a firm's clients, matters, time entries, expenses, fixed fees and invoices. It
@@ -54,11 +54,6 @@ apis:
   description: The Codes API from LeanLaw — 1 operation(s) for codes.
   name: LeanLaw Codes API
   slug: leanlaw-codes-api
-- baseURL: https://api.leanlaw.io
-  baseurl_source: declared
-  description: The CustomField API from LeanLaw — 1 operation(s) for customfield.
-  name: LeanLaw Custom Field API
-  slug: leanlaw-customfield-api
 - baseURL: https://api.leanlaw.io
   baseurl_source: declared
   description: The Expense API from LeanLaw — 2 operation(s) for expense.
@@ -86,14 +81,19 @@ apis:
   slug: leanlaw-practicearea-api
 - baseURL: https://api.leanlaw.io
   baseurl_source: declared
-  description: The TimeEntry API from LeanLaw — 2 operation(s) for timeentry.
-  name: LeanLaw Time Entry API
-  slug: leanlaw-timeentry-api
-- baseURL: https://api.leanlaw.io
-  baseurl_source: declared
   description: The User API from LeanLaw — 2 operation(s) for user.
   name: LeanLaw User API
   slug: leanlaw-user-api
+- baseURL: https://api.leanlaw.io/mcp
+  baseurl_source: declared
+  description: The Custom Field API from LeanLaw — 1 operation(s) for custom field.
+  name: LeanLaw Custom Field API
+  slug: leanlaw-custom-field-api
+- baseURL: https://api.leanlaw.io/mcp
+  baseurl_source: declared
+  description: The Time entry API from LeanLaw — 2 operation(s) for time entry.
+  name: LeanLaw Time entry API
+  slug: leanlaw-time-entry-api
 artifact_total: 16
 common:
 - group: other
@@ -229,7 +229,7 @@ modified: '2026-08-25'
 name: LeanLaw
 nav: Providers
 network: true
-overview: 'LeanLaw publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Client API, Codes API, Custom Field API, and 7 more. Tagged areas include Legal, Legal Billing, Law Firms, Time Tracking, and Billing.
+overview: 'LeanLaw publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Client API, Codes API, Expense API, and 7 more. Tagged areas include Legal, Legal Billing, Law Firms, Time Tracking, and Billing.
 
 
   LeanLaw''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
@@ -237,7 +237,7 @@ plans:
 - name: Leanlaw Plans Pricing
   plan_count: 4
   slug: leanlaw-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Leanlaw Rate Limits
@@ -282,7 +282,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

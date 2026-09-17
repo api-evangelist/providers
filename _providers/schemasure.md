@@ -24,16 +24,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://schemasure.com
   baseurl_source: declared
-  description: REST API (OpenAPI 3.1) exposing POST /v2/extract for text/HTML and POST /v2/extract-image for document images (both x402 V2 paid, charge-only-on-success), a deprecated legacy POST /extract with 3 free
-  name: SchemaSure Structured Extraction API
-  slug: schemasure-structured-extraction-api
-artifact_total: 7
+  description: The Health API from SchemaSure — 1 operation(s) for health.
+  name: SchemaSure Health API
+  slug: schemasure-health-api
+- baseURL: https://schemasure.com
+  baseurl_source: declared
+  description: The Image extraction · x402 V2 API from SchemaSure — 1 operation(s) for image extraction · x402 v2.
+  name: SchemaSure Image extraction · x402 V2 API
+  slug: schemasure-image-extraction-x402-v2-api
+- baseURL: https://schemasure.com
+  baseurl_source: declared
+  description: The Legacy V1 evaluation API API from SchemaSure — 1 operation(s) for legacy v1 evaluation api.
+  name: SchemaSure Legacy V1 evaluation API
+  slug: schemasure-legacy-v1-evaluation-api-api
+- baseURL: https://schemasure.com
+  baseurl_source: declared
+  description: The Primary x402 V2 API API from SchemaSure — 1 operation(s) for primary x402 v2 api.
+  name: SchemaSure Primary x402 V2 API
+  slug: schemasure-primary-x402-v2-api-api
+artifact_total: 10
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/schemasure/refs/heads/main/overlays/schemasure-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/schemasure-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -155,22 +175,22 @@ modified: '2026-09-03'
 name: SchemaSure
 nav: Providers
 network: true
-overview: 'SchemaSure publishes 1 API on the [APIs.io](https://apis.io/) network: Structured Extraction API. Tagged areas include Structured Data Extraction, text-to-JSON, JSON-Schema, Document Parsing, and Data Cleaning.
+overview: 'SchemaSure publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Image extraction · x402 V2 API, Legacy V1 evaluation API, and 1 more. Tagged areas include Structured Data Extraction, text-to-JSON, JSON-Schema, Document Parsing, and Data Cleaning.
 
 
-  SchemaSure''s developer surface includes authentication, sandbox, pricing, support, and 19 more developer resources.'
+  SchemaSure''s developer surface includes authentication, sandbox, pricing, support, and 20 more developer resources.'
 plans:
 - name: Schemasure Plans Pricing
   plan_count: 2
   slug: schemasure-plans-pricing
-random_paper: 1
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Schemasure Rate Limits
   slug: schemasure-rate-limits
 score:
   band: developing
-  composite: 39.6
+  composite: 41.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 45.0
@@ -178,21 +198,26 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 2.1
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 44.2
+    contract_quality: 52.7
     developer_ergonomics: 42.3
     discoverability: 83.3
     operational_transparency: 10.5
-  previous_composite: 38.6
+  previous_composite: 39.6
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

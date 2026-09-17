@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -99,7 +99,7 @@ overview: 'connectFirst Credit Union is profiled on the [APIs.io](https://apis.i
 
 
   connectFirst Credit Union''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
-random_paper: 17
+random_paper: 3
 scopes:
 - name: Connect First Credit Union Scopes
   scope_count: 0
@@ -140,7 +140,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

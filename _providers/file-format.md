@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,8 +60,8 @@ modified: '2026-04-28'
 name: File Format
 nav: Providers
 network: true
-overview: File Format is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include File Format, File Formats, Media Types, MIME Types, and Encoding.
-random_paper: 18
+overview: File Format is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include File Format, Media Types, MIME Types, Encoding, and Serialization.
+random_paper: 10
 score:
   band: minimal
   composite: 6.8
@@ -90,7 +90,7 @@ score:
       reason: never_enriched
   previous_composite: 6.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -100,7 +100,6 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/file-format/refs/he
 slug: file-format
 tags:
 - File Format
-- File Formats
 - Media Types
 - MIME Types
 - Encoding

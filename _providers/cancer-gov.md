@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 1
-  human_in_the_loop: 0
+- acting_count: 85
+  human_in_the_loop: 32
   name: Cancer Gov Agentic Access
-  operation_count: 6
+  operation_count: 231
   slug: cancer-gov-agentic-access
-  summary_line: 6 operations · 1 acting
-api_count: 9
+  summary_line: 231 operations · 85 acting · 32 human-in-the-loop
+api_count: 17
 apis:
 - description: RESTful API that lets developers build applications, search tools, and digital platforms over NCI-supported cancer clinical trials data sourced from NCI's Clinical Trials Reporting Program (CTRP). The
   name: NCI Clinical Trials Search API
@@ -51,21 +51,6 @@ apis:
 - description: 'The external-facing REST interface for the NCI Genomic Data Commons. Drives the GDC Data Portal and GDC Submission Portal and is open for programmatic access. Provides query, download, and submission '
   name: NCI Genomic Data Commons (GDC) API
   slug: gdc-api
-- baseURL: https://api.seer.cancer.gov
-  baseurl_source: declared
-  description: RESTful API for the Surveillance, Epidemiology, and End Results (SEER) Program. Supports SEER datasets plus staging APIs for cancer staging (TNM and Collaborative Stage algorithms), enabling developer
-  name: NCI SEER API
-  slug: seer-api
-- baseURL: https://modac.cancer.gov
-  baseurl_source: declared
-  description: The NCI Model and Data Clearinghouse (MoDaC) API provides programmatic access to cancer research data, computational models, and associated tools hosted in MoDaC. Developers can search, retrieve metad
-  name: NCI MoDaC API
-  slug: modac-api
-- baseURL: https://api-evsrest.nci.nih.gov
-  baseurl_source: declared
-  description: 'Enterprise Vocabulary Services (EVS) exposes NCI Thesaurus and NCI Metathesaurus content — over 192,000 concepts, 154,000 textual definitions, 623,000 synonyms and 630,000 inter-concept relationships '
-  name: NCI EVS Terminology API
-  slug: evs-api
 - description: A suite of syndicated content channels — RSS feeds, the NCI Dictionary Widget, and syndicated publication content — that partner sites and health platforms can embed to deliver authoritative cancer co
   name: NCI Content Syndication Services
   slug: syndication-services
@@ -89,32 +74,212 @@ apis:
   description: The Trials API from Cancer.gov — 2 operation(s) for trials.
   name: Cancer.gov Trials API
   slug: cancer-gov-trials-api
-- baseURL: https://webapis.cancer.gov/glossary/v1
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
   baseurl_source: declared
-  description: Serves the NCI Dictionary of Cancer Terms — the authoritative plain-language and health-professional definitions used across cancer.gov and by the NCI Dictionary Widget. Supports autosuggest, full-tex
-  name: NCI Glossary Term API
-  slug: glossary-api
-- baseURL: https://webapis.cancer.gov/drugdictionary/v1
+  description: The Application version endpoint API from Cancer.gov — 1 operation(s) for application version endpoint.
+  name: Cancer.gov Application version endpoint API
+  slug: cancer-gov-application-version-endpoint-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
   baseurl_source: declared
-  description: Serves the NCI Drug Dictionary — definitions of drugs and drug combinations used in cancer treatment and prevention, matched across generic names, brand names and code names. Supports autosuggest, sea
-  name: NCI Drug Dictionary API
-  slug: drug-dictionary-api
-- baseURL: https://webapis.cancer.gov/sitewidesearch/v1
+  description: The asset-details-controller API from Cancer.gov — 1 operation(s) for asset-details-controller.
+  name: Cancer.gov Asset Details Controller API
+  slug: cancer-gov-asset-details-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
   baseurl_source: declared
-  description: 'The search service behind cancer.gov''s own site search: full-text search and autosuggest across NCI web content, with per-collection scoping and status reporting. No credential required.'
-  name: Cancer.gov Site-Wide Search API
-  slug: sitewide-search-api
-- baseURL: https://webapis.cancer.gov/bestbets/v1
+  description: The Autosuggest API from Cancer.gov — 4 operation(s) for autosuggest.
+  name: Cancer.gov Autosuggest API
+  slug: cancer-gov-autosuggest-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
   baseurl_source: declared
-  description: Returns NCI's editorially curated 'best bet' results for a search term — the promoted, hand-picked answers cancer.gov surfaces above algorithmic search results. No credential required.
+  description: The Concept endpoints API from Cancer.gov — 21 operation(s) for concept endpoints.
+  name: Cancer.gov Concept endpoints API
+  slug: cancer-gov-concept-endpoints-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The delete-collection-controller API from Cancer.gov — 1 operation(s) for delete-collection-controller.
+  name: Cancer.gov Delete Collection Controller API
+  slug: cancer-gov-delete-collection-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The delete-data-file-controller API from Cancer.gov — 1 operation(s) for delete-data-file-controller.
+  name: Cancer.gov Delete Data File Controller API
+  slug: cancer-gov-delete-data-file-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The delete-predictions-controller API from Cancer.gov — 1 operation(s) for delete-predictions-controller.
+  name: Cancer.gov Delete Predictions Controller API
+  slug: cancer-gov-delete-predictions-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: Hematopoietic, lymphoid neoplasms and solid tumor diseases
+  name: Cancer.gov Disease API
+  slug: cancer-gov-disease-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The doe-collection-controller API from Cancer.gov — 1 operation(s) for doe-collection-controller.
+  name: Cancer.gov Doe Collection Controller API
+  slug: cancer-gov-doe-collection-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The doe-create-bulk-datafile-controller API from Cancer.gov — 1 operation(s) for doe-create-bulk-datafile-controller.
+  name: Cancer.gov Doe Create Bulk Datafile Controller API
+  slug: cancer-gov-doe-create-bulk-datafile-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The doe-create-collection-controller API from Cancer.gov — 1 operation(s) for doe-create-collection-controller.
+  name: Cancer.gov Doe Create Collection Controller API
+  slug: cancer-gov-doe-create-collection-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The doe-create-datafile-controller API from Cancer.gov — 1 operation(s) for doe-create-datafile-controller.
+  name: Cancer.gov Doe Create Datafile Controller API
+  slug: cancer-gov-doe-create-datafile-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The doe-download-controller API from Cancer.gov — 1 operation(s) for doe-download-controller.
+  name: Cancer.gov Doe Download Controller API
+  slug: cancer-gov-doe-download-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The doe-download-files-controller API from Cancer.gov — 1 operation(s) for doe-download-files-controller.
+  name: Cancer.gov Doe Download Files Controller API
+  slug: cancer-gov-doe-download-files-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The doe-retry-download-task-controller API from Cancer.gov — 1 operation(s) for doe-retry-download-task-controller.
+  name: Cancer.gov Doe Retry Download Task Controller API
+  slug: cancer-gov-doe-retry-download-task-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The doe-retry-uploadtask-controller API from Cancer.gov — 1 operation(s) for doe-retry-uploadtask-controller.
+  name: Cancer.gov Doe Retry Uploadtask Controller API
+  slug: cancer-gov-doe-retry-uploadtask-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The doe-sync-download-controller API from Cancer.gov — 1 operation(s) for doe-sync-download-controller.
+  name: Cancer.gov Doe Sync Download Controller API
+  slug: cancer-gov-doe-sync-download-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Drugs API from Cancer.gov — 6 operation(s) for drugs.
+  name: Cancer.gov Drugs API
+  slug: cancer-gov-drugs-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: A glossary of cancer-related terms
+  name: Cancer.gov Glossary API
+  slug: cancer-gov-glossary-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: Healthcare Common Procedure Coding Systems (HCPCS) nomenclatures
+  name: Cancer.gov Hcpcs API
+  slug: cancer-gov-hcpcs-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The History endpoints API from Cancer.gov — 2 operation(s) for history endpoints.
+  name: Cancer.gov History endpoints API
+  slug: cancer-gov-history-endpoints-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The home-controller API from Cancer.gov — 1 operation(s) for home-controller.
+  name: Cancer.gov Home Controller API
+  slug: cancer-gov-home-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Mapset endpoints API from Cancer.gov — 3 operation(s) for mapset endpoints.
+  name: Cancer.gov Mapset endpoints API
+  slug: cancer-gov-mapset-endpoints-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Metadata endpoints API from Cancer.gov — 24 operation(s) for metadata endpoints.
+  name: Cancer.gov Metadata endpoints API
+  slug: cancer-gov-metadata-endpoints-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: Multiple Primary and Histology Coding Rules
+  name: Cancer.gov Mph API
+  slug: cancer-gov-mph-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: NAACCR Documentation
+  name: Cancer.gov Naaccr API
+  slug: cancer-gov-naaccr-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: A searchable mirror of National Drug Codes (NDC)
+  name: Cancer.gov Ndc API
+  slug: cancer-gov-ndc-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The perform-inferencing-controller API from Cancer.gov — 2 operation(s) for perform-inferencing-controller.
+  name: Cancer.gov Perform Inferencing Controller API
+  slug: cancer-gov-perform-inferencing-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: Recode algorithms
+  name: Cancer.gov Recode API
+  slug: cancer-gov-recode-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The release-notes-notifications-controller API from Cancer.gov — 1 operation(s) for release-notes-notifications-controller.
+  name: Cancer.gov Release Notes Notifications Controller API
+  slug: cancer-gov-release-notes-notifications-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Resource API from Cancer.gov — 1 operation(s) for resource.
+  name: Cancer.gov Resource API
+  slug: cancer-gov-resource-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Resources API from Cancer.gov — 1 operation(s) for resources.
+  name: Cancer.gov Resources API
+  slug: cancer-gov-resources-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The rest-api-common-controller API from Cancer.gov — 17 operation(s) for rest-api-common-controller.
+  name: Cancer.gov Rest API Common Controller API
+  slug: cancer-gov-rest-api-common-controller-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: Antineoplastic drugs database
+  name: Cancer.gov Rx API
+  slug: cancer-gov-rx-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Search API from Cancer.gov — 2 operation(s) for search.
+  name: Cancer.gov Search API
+  slug: cancer-gov-search-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Search endpoint API from Cancer.gov — 4 operation(s) for search endpoint.
+  name: Cancer.gov Search endpoint API
+  slug: cancer-gov-search-endpoint-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: Staging Algorithms
+  name: Cancer.gov Staging API
+  slug: cancer-gov-staging-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Subset endpoints API from Cancer.gov — 3 operation(s) for subset endpoints.
+  name: Cancer.gov Subset endpoints API
+  slug: cancer-gov-subset-endpoints-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: SEER Site-Specific Surgery Codes
+  name: Cancer.gov Surgery API
+  slug: cancer-gov-surgery-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Best Bets API from Cancer.gov — 2 operation(s) for best bets.
   name: Cancer.gov Best Bets API
-  slug: best-bets-api
-- baseURL: https://webapis.cancer.gov/r4r/v1
+  slug: cancer-gov-best-bets-api
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
   baseurl_source: declared
-  description: Backs NCI's Resources for Researchers directory — searchable metadata about NCI tools, datasets, repositories and services available to the cancer research community. No credential required.
-  name: NCI Resources for Researchers API
-  slug: r4r-api
-artifact_total: 28
+  description: The Health Check API from Cancer.gov — 1 operation(s) for health check.
+  name: Cancer.gov Health Check API
+  slug: cancer-gov-health-check-api
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -135,6 +300,41 @@ collections:
   name: NCI Clinical Trials Search API
   slug: open-cancer-gov
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/overlays/cancer-gov-modac-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cancer-gov-modac-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/overlays/cancer-gov-evs-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cancer-gov-evs-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/overlays/cancer-gov-glossary-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cancer-gov-glossary-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/overlays/cancer-gov-drug-dictionary-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cancer-gov-drug-dictionary-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/overlays/cancer-gov-sitewide-search-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cancer-gov-sitewide-search-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/overlays/cancer-gov-best-bets-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cancer-gov-best-bets-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/overlays/cancer-gov-r4r-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cancer-gov-r4r-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/capabilities/cancer-gov-capability-edges.yml
   title: ''
@@ -329,46 +529,46 @@ modified: '2026-09-05'
 name: Cancer.gov
 nav: Providers
 network: true
-overview: 'Cancer.gov publishes 12 APIs on the [APIs.io](https://apis.io/) network, including NCI SEER API, NCI MoDaC API, NCI EVS Terminology API, and 9 more. Tagged areas include Cancer, Federal-Government, Healthcare, Research, and Clinical Trials.
+overview: 'Cancer.gov publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Diseases API, Interventions API, Terms API, and 42 more. Tagged areas include Cancer, Federal-Government, Healthcare, Research, and Clinical Trials.
 
 
-  Cancer.gov''s developer surface includes authentication, engineering blog, CLI, changelog, documentation, API reference, signup flow, and 32 more developer resources.'
+  Cancer.gov''s developer surface includes authentication, engineering blog, CLI, changelog, documentation, API reference, signup flow, and 39 more developer resources.'
 plans:
 - name: Cancer Gov Plans Pricing
   plan_count: 1
   slug: cancer-gov-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Cancer Gov Rate Limits
   slug: cancer-gov-rate-limits
 score:
   band: developing
-  composite: 51.8
+  composite: 53.0
   coverage:
     artifact_dirs: 25
-    catalog_earned: 58.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 41.5
+    contract_quality: 48.6
     developer_ergonomics: 61.3
-    discoverability: 64.8
+    discoverability: 59.3
     operational_transparency: 57.9
   previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
-      total: 12
+      callable: 50.0
+      derived: 3
+      marker_coverage: 6.7
+      total: 45
     mcp: derived
     skills: derived
   regulatory:
@@ -378,7 +578,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

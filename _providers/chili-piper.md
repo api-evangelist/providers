@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -77,11 +77,6 @@ apis:
   slug: chili-piper-distro-api
 - baseURL: https://fire.chilipiper.com/api/fire-edge
   baseurl_source: declared
-  description: The handoff API from Chili Piper — 3 operation(s) for handoff.
-  name: Chili Piper Handoff API
-  slug: chili-piper-handoff-api
-- baseURL: https://fire.chilipiper.com/api/fire-edge
-  baseurl_source: declared
   description: The meeting-type API from Chili Piper — 4 operation(s) for meeting-type.
   name: Chili Piper Meeting Type API
   slug: chili-piper-meeting-type-api
@@ -102,11 +97,6 @@ apis:
   slug: chili-piper-rule-api
 - baseURL: https://fire.chilipiper.com/api/fire-edge
   baseurl_source: declared
-  description: The schedulingLinks API from Chili Piper — 13 operation(s) for schedulinglinks.
-  name: Chili Piper Scheduling Links API
-  slug: chili-piper-schedulinglinks-api
-- baseURL: https://fire.chilipiper.com/api/fire-edge
-  baseurl_source: declared
   description: The team API from Chili Piper — 5 operation(s) for team.
   name: Chili Piper Team API
   slug: chili-piper-team-api
@@ -125,6 +115,16 @@ apis:
   description: The workspace API from Chili Piper — 4 operation(s) for workspace.
   name: Chili Piper Workspace API
   slug: chili-piper-workspace-api
+- baseURL: https://fire.chilipiper.com/api/fire-edge/v1/org/mcp
+  baseurl_source: declared
+  description: The Hand off API from Chili Piper — 3 operation(s) for hand off.
+  name: Chili Piper Hand off API
+  slug: chili-piper-hand-off-api
+- baseURL: https://fire.chilipiper.com/api/fire-edge/v1/org/mcp
+  baseurl_source: declared
+  description: The Scheduling Links API from Chili Piper — 13 operation(s) for scheduling links.
+  name: Chili Piper Scheduling Links API
+  slug: chili-piper-scheduling-links-api
 artifact_total: 42
 asyncapis:
 - description: ''
@@ -378,7 +378,7 @@ plans:
 - name: Chili Piper Plans Pricing
   plan_count: 4
   slug: chili-piper-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Chili Piper Rate Limits
@@ -418,7 +418,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
-api_count: 18
+  scored_at: '2026-09-16'
+api_count: 7
 apis:
 - description: The Census Management REST API allows developers to programmatically manage syncs, connections, models, segments, and destinations within Census workspaces and organizations. Supports both workspace-l
   name: Census Management API
@@ -49,41 +49,6 @@ apis:
 - description: Connect Links enable embedded Activations flows for Powered by Fivetran partners, letting end users configure destinations and syncs from within a host application via hosted URLs.
   name: Census Connect Links (Powered by Fivetran)
   slug: census-connect-links-api
-- baseURL: https://app.getcensus.com/api/v1
-  baseurl_source: spec
-  description: Destination connections to operational systems
-  name: Census Destinations API
-  slug: census-destinations-api
-- baseURL: https://app.getcensus.com/api/v1
-  baseurl_source: spec
-  description: Modeled queries that drive activations
-  name: Census Models API
-  slug: census-models-api
-- baseURL: https://app.getcensus.com/api/v1
-  baseurl_source: spec
-  description: Audience segments
-  name: Census Segments API
-  slug: census-segments-api
-- baseURL: https://app.getcensus.com/api/v1
-  baseurl_source: spec
-  description: Source connections to data warehouses
-  name: Census Sources API
-  slug: census-sources-api
-- baseURL: https://app.getcensus.com/api/v1
-  baseurl_source: spec
-  description: Sync executions
-  name: Census SyncRuns API
-  slug: census-syncruns-api
-- baseURL: https://app.getcensus.com/api/v1
-  baseurl_source: spec
-  description: Sync configurations
-  name: Census Syncs API
-  slug: census-syncs-api
-- baseURL: https://app.getcensus.com/api/v1
-  baseurl_source: spec
-  description: Organization-level workspace management
-  name: Census Workspaces API
-  slug: census-workspaces-api
 - description: The Connectors API from Census — 2 operation(s) for connectors.
   name: Census Connectors API
   slug: census-ci-connectors-api
@@ -105,6 +70,41 @@ apis:
 - description: The Syncs API from Census — 3 operation(s) for syncs.
   name: Census Syncs API
   slug: census-ci-syncs-api
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: Destination connections to operational systems
+  name: Census Destinations API
+  slug: getcensus-destinations-api
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: Modeled queries that drive activations
+  name: Census Models API
+  slug: getcensus-models-api
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: Audience segments
+  name: Census Segments API
+  slug: getcensus-segments-api
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: Source connections to data warehouses
+  name: Census Sources API
+  slug: getcensus-sources-api
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: Sync executions
+  name: Census Sync Runs API
+  slug: getcensus-syncruns-api
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: Sync configurations
+  name: Census Syncs API
+  slug: getcensus-syncs-api
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: declared
+  description: Organization-level workspace management
+  name: Census Workspaces API
+  slug: getcensus-workspaces-api
 artifact_total: 26
 asyncapis:
 - description: ''
@@ -290,14 +290,14 @@ plans:
 - name: Getcensus Plans Pricing
   plan_count: 4
   slug: getcensus-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Getcensus Rate Limits
   slug: getcensus-rate-limits
 score:
-  band: developing
-  composite: 50.1
+  band: strong
+  composite: 62.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 58.0
@@ -305,11 +305,11 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.4
   facets:
     access_clarity: 86.8
     contract_governance: 18.2
-    contract_quality: 11.4
+    contract_quality: 61.1
     developer_ergonomics: 66.7
     discoverability: 64.8
     operational_transparency: 65.8
@@ -323,8 +323,8 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -350,7 +350,7 @@ tags:
 - CRM
 - Marketing Automation
 - Segments
-- Syncs
+- Sync
 - SQL
 website: https://www.getcensus.com/
 ---

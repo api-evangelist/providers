@@ -19,7 +19,7 @@ name: SDLC
 nav: Providers
 network: true
 overview: SDLC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Development Process, Project Management, Quality Assurance, and Software Engineering.
-random_paper: 2
+random_paper: 4
 slug: sdlc
 tags:
 - Development Process

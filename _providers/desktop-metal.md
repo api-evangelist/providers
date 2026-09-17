@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.desktopmetal.com
@@ -104,7 +104,7 @@ modified: '2026-06-20'
 name: Desktop Metal
 nav: Providers
 network: true
-overview: 'Desktop Metal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Printer Fleet & Live Suite, Fabricate Software, and Materials. Tagged areas include 3D Printing, Additive Manufacturing, Metal, Hardware, and Manufacturing Software.
+overview: 'Desktop Metal publishes 3 APIs on the [APIs.io](https://apis.io/) network: Printer Fleet & Live Suite, Fabricate Software, and Materials. Tagged areas include 3D Printing, Additive Manufacturing, Metals, Hardware, and Manufacturing Software.
 
 
   Desktop Metal''s developer surface includes documentation and 6 more developer resources.'
@@ -112,7 +112,7 @@ plans:
 - name: Desktop Metal Plans Pricing
   plan_count: 1
   slug: desktop-metal-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Desktop Metal Rate Limits
@@ -137,7 +137,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -153,7 +153,7 @@ slug: desktop-metal
 tags:
 - 3D Printing
 - Additive Manufacturing
-- Metal
+- Metals
 - Hardware
 - Manufacturing Software
 website: https://www.desktopmetal.com

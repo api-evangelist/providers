@@ -33,74 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Access API from Pinterest — 3 operation(s) for access.
-  name: Pinterest Access API
-  slug: pinterest-access-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Accounts API from Pinterest — 74 operation(s) for accounts.
-  name: Pinterest Accounts API
-  slug: pinterest-accounts-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
   description: The Ad API from Pinterest — 63 operation(s) for ad.
   name: Pinterest Ad API
   slug: pinterest-ad-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Ad_groups API from Pinterest — 1 operation(s) for ad_groups.
-  name: Pinterest Ad_groups API
-  slug: pinterest-ad-groups-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Ads API from Pinterest — 7 operation(s) for ads.
-  name: Pinterest Ads API
-  slug: pinterest-ads-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Analytics API from Pinterest — 14 operation(s) for analytics.
-  name: Pinterest Analytics API
-  slug: pinterest-analytics-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Assets API from Pinterest — 9 operation(s) for assets.
-  name: Pinterest Assets API
-  slug: pinterest-assets-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Audience API from Pinterest — 3 operation(s) for audience.
-  name: Pinterest Audience API
-  slug: pinterest-audience-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Audience_insights API from Pinterest — 1 operation(s) for audience_insights.
-  name: Pinterest Audience_insights API
-  slug: pinterest-audience-insights-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Audiences API from Pinterest — 1 operation(s) for audiences.
-  name: Pinterest Audiences API
-  slug: pinterest-audiences-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Batch API from Pinterest — 2 operation(s) for batch.
-  name: Pinterest Batch API
-  slug: pinterest-batch-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Bid API from Pinterest — 1 operation(s) for bid.
-  name: Pinterest Bid API
-  slug: pinterest-bid-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Billing API from Pinterest — 8 operation(s) for billing.
-  name: Pinterest Billing API
-  slug: pinterest-billing-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
   description: The Board API from Pinterest — 5 operation(s) for board.
@@ -113,19 +53,9 @@ apis:
   slug: pinterest-boards-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Bulk API from Pinterest — 3 operation(s) for bulk.
-  name: Pinterest Bulk API
-  slug: pinterest-bulk-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Business API from Pinterest — 13 operation(s) for business.
   name: Pinterest Business API
   slug: pinterest-business-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Campaigns API from Pinterest — 4 operation(s) for campaigns.
-  name: Pinterest Campaigns API
-  slug: pinterest-campaigns-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
   description: The Catalogs API from Pinterest — 1 operation(s) for catalogs.
@@ -133,94 +63,9 @@ apis:
   slug: pinterest-catalogs-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Commerce API from Pinterest — 2 operation(s) for commerce.
-  name: Pinterest Commerce API
-  slug: pinterest-commerce-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Conversion API from Pinterest — 4 operation(s) for conversion.
-  name: Pinterest Conversion API
-  slug: pinterest-conversion-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Conversions API from Pinterest — 1 operation(s) for conversions.
-  name: Pinterest Conversions API
-  slug: pinterest-conversions-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Countries API from Pinterest — 1 operation(s) for countries.
-  name: Pinterest Countries API
-  slug: pinterest-countries-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Counts API from Pinterest — 1 operation(s) for counts.
-  name: Pinterest Counts API
-  slug: pinterest-counts-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Credit API from Pinterest — 2 operation(s) for credit.
-  name: Pinterest Credit API
-  slug: pinterest-credit-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Custom API from Pinterest — 1 operation(s) for custom.
-  name: Pinterest Custom API
-  slug: pinterest-custom-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Customer API from Pinterest — 2 operation(s) for customer.
-  name: Pinterest Customer API
-  slug: pinterest-customer-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Customer_lists API from Pinterest — 1 operation(s) for customer_lists.
-  name: Pinterest Customer_lists API
-  slug: pinterest-customer-lists-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Customers API from Pinterest — 1 operation(s) for customers.
-  name: Pinterest Customers API
-  slug: pinterest-customers-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Deliveries API from Pinterest — 1 operation(s) for deliveries.
-  name: Pinterest Deliveries API
-  slug: pinterest-deliveries-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Discounts API from Pinterest — 1 operation(s) for discounts.
-  name: Pinterest Discounts API
-  slug: pinterest-discounts-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Downloads API from Pinterest — 1 operation(s) for downloads.
-  name: Pinterest Downloads API
-  slug: pinterest-downloads-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Eligible API from Pinterest — 1 operation(s) for eligible.
-  name: Pinterest Eligible API
-  slug: pinterest-eligible-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Employers API from Pinterest — 1 operation(s) for employers.
   name: Pinterest Employers API
   slug: pinterest-employers-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Events API from Pinterest — 1 operation(s) for events.
-  name: Pinterest Events API
-  slug: pinterest-events-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The External API from Pinterest — 1 operation(s) for external.
-  name: Pinterest External API
-  slug: pinterest-external-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Feed API from Pinterest — 3 operation(s) for feed.
-  name: Pinterest Feed API
-  slug: pinterest-feed-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
   description: The Feeds API from Pinterest — 4 operation(s) for feeds.
@@ -228,89 +73,14 @@ apis:
   slug: pinterest-feeds-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Filters API from Pinterest — 1 operation(s) for filters.
-  name: Pinterest Filters API
-  slug: pinterest-filters-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Floor API from Pinterest — 1 operation(s) for floor.
-  name: Pinterest Floor API
-  slug: pinterest-floor-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Follow API from Pinterest — 1 operation(s) for follow.
-  name: Pinterest Follow API
-  slug: pinterest-follow-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Followers API from Pinterest — 1 operation(s) for followers.
-  name: Pinterest Followers API
-  slug: pinterest-followers-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Following API from Pinterest — 3 operation(s) for following.
-  name: Pinterest Following API
-  slug: pinterest-following-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Forms API from Pinterest — 4 operation(s) for forms.
-  name: Pinterest Forms API
-  slug: pinterest-forms-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Groups API from Pinterest — 15 operation(s) for groups.
-  name: Pinterest Groups API
-  slug: pinterest-groups-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Id API from Pinterest — 1 operation(s) for id.
-  name: Pinterest Id API
-  slug: pinterest-id-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Ingest API from Pinterest — 1 operation(s) for ingest.
-  name: Pinterest Ingest API
-  slug: pinterest-ingest-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Insertion API from Pinterest — 3 operation(s) for insertion.
-  name: Pinterest Insertion API
-  slug: pinterest-insertion-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Insights API from Pinterest — 2 operation(s) for insights.
-  name: Pinterest Insights API
-  slug: pinterest-insights-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Integrations API from Pinterest — 5 operation(s) for integrations.
   name: Pinterest Integrations API
   slug: pinterest-integrations-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Interest API from Pinterest — 1 operation(s) for interest.
-  name: Pinterest Interest API
-  slug: pinterest-interest-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Interests API from Pinterest — 1 operation(s) for interests.
-  name: Pinterest Interests API
-  slug: pinterest-interests-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Invites API from Pinterest — 3 operation(s) for invites.
   name: Pinterest Invites API
   slug: pinterest-invites-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Issues API from Pinterest — 1 operation(s) for issues.
-  name: Pinterest Issues API
-  slug: pinterest-issues-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Item API from Pinterest — 1 operation(s) for item.
-  name: Pinterest Item API
-  slug: pinterest-item-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
   description: The Items API from Pinterest — 3 operation(s) for items.
@@ -323,84 +93,14 @@ apis:
   slug: pinterest-keywords-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Lead API from Pinterest — 4 operation(s) for lead.
-  name: Pinterest Lead API
-  slug: pinterest-lead-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Line API from Pinterest — 1 operation(s) for line.
-  name: Pinterest Line API
-  slug: pinterest-line-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Lines API from Pinterest — 3 operation(s) for lines.
-  name: Pinterest Lines API
-  slug: pinterest-lines-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Logs API from Pinterest — 1 operation(s) for logs.
-  name: Pinterest Logs API
-  slug: pinterest-logs-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Media API from Pinterest — 2 operation(s) for media.
   name: Pinterest Media API
   slug: pinterest-media-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Member API from Pinterest — 1 operation(s) for member.
-  name: Pinterest Member API
-  slug: pinterest-member-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Members API from Pinterest — 4 operation(s) for members.
-  name: Pinterest Members API
-  slug: pinterest-members-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Metrics API from Pinterest — 3 operation(s) for metrics.
-  name: Pinterest Metrics API
-  slug: pinterest-metrics-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Multiple API from Pinterest — 1 operation(s) for multiple.
-  name: Pinterest Multiple API
-  slug: pinterest-multiple-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Order API from Pinterest — 4 operation(s) for order.
-  name: Pinterest Order API
-  slug: pinterest-order-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Orders API from Pinterest — 3 operation(s) for orders.
-  name: Pinterest Orders API
-  slug: pinterest-orders-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Page API from Pinterest — 1 operation(s) for page.
-  name: Pinterest Page API
-  slug: pinterest-page-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Partners API from Pinterest — 5 operation(s) for partners.
-  name: Pinterest Partners API
-  slug: pinterest-partners-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Pin API from Pinterest — 4 operation(s) for pin.
-  name: Pinterest Pin API
-  slug: pinterest-pin-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Pins API from Pinterest — 11 operation(s) for pins.
   name: Pinterest Pins API
   slug: pinterest-pins-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Previews API from Pinterest — 1 operation(s) for previews.
-  name: Pinterest Previews API
-  slug: pinterest-previews-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
   description: The Processing API from Pinterest — 2 operation(s) for processing.
@@ -413,54 +113,9 @@ apis:
   slug: pinterest-product-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Product_groups API from Pinterest — 1 operation(s) for product_groups.
-  name: Pinterest Product_groups API
-  slug: pinterest-product-groups-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Products API from Pinterest — 2 operation(s) for products.
   name: Pinterest Products API
   slug: pinterest-products-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Profiles API from Pinterest — 1 operation(s) for profiles.
-  name: Pinterest Profiles API
-  slug: pinterest-profiles-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Promotion API from Pinterest — 1 operation(s) for promotion.
-  name: Pinterest Promotion API
-  slug: pinterest-promotion-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Promotions API from Pinterest — 2 operation(s) for promotions.
-  name: Pinterest Promotions API
-  slug: pinterest-promotions-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Questions API from Pinterest — 1 operation(s) for questions.
-  name: Pinterest Questions API
-  slug: pinterest-questions-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Ready API from Pinterest — 1 operation(s) for ready.
-  name: Pinterest Ready API
-  slug: pinterest-ready-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Redeem API from Pinterest — 1 operation(s) for redeem.
-  name: Pinterest Redeem API
-  slug: pinterest-redeem-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Region API from Pinterest — 1 operation(s) for region.
-  name: Pinterest Region API
-  slug: pinterest-region-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Related API from Pinterest — 1 operation(s) for related.
-  name: Pinterest Related API
-  slug: pinterest-related-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
   description: The Reports API from Pinterest — 5 operation(s) for reports.
@@ -468,29 +123,9 @@ apis:
   slug: pinterest-reports-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Request API from Pinterest — 1 operation(s) for request.
-  name: Pinterest Request API
-  slug: pinterest-request-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Resources API from Pinterest — 6 operation(s) for resources.
   name: Pinterest Resources API
   slug: pinterest-resources-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Results API from Pinterest — 2 operation(s) for results.
-  name: Pinterest Results API
-  slug: pinterest-results-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Sandbox API from Pinterest — 1 operation(s) for sandbox.
-  name: Pinterest Sandbox API
-  slug: pinterest-sandbox-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Save API from Pinterest — 1 operation(s) for save.
-  name: Pinterest Save API
-  slug: pinterest-save-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
   description: The Search API from Pinterest — 3 operation(s) for search.
@@ -498,74 +133,9 @@ apis:
   slug: pinterest-search-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Section API from Pinterest — 2 operation(s) for section.
-  name: Pinterest Section API
-  slug: pinterest-section-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Sections API from Pinterest — 3 operation(s) for sections.
-  name: Pinterest Sections API
-  slug: pinterest-sections-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Service API from Pinterest — 1 operation(s) for service.
-  name: Pinterest Service API
-  slug: pinterest-service-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The State API from Pinterest — 1 operation(s) for state.
-  name: Pinterest State API
-  slug: pinterest-state-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Statistics API from Pinterest — 1 operation(s) for statistics.
-  name: Pinterest Statistics API
-  slug: pinterest-statistics-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Status API from Pinterest — 2 operation(s) for status.
-  name: Pinterest Status API
-  slug: pinterest-status-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Subscriptions API from Pinterest — 2 operation(s) for subscriptions.
-  name: Pinterest Subscriptions API
-  slug: pinterest-subscriptions-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Suggested API from Pinterest — 1 operation(s) for suggested.
-  name: Pinterest Suggested API
-  slug: pinterest-suggested-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Tags API from Pinterest — 4 operation(s) for tags.
-  name: Pinterest Tags API
-  slug: pinterest-tags-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Targeting API from Pinterest — 1 operation(s) for targeting.
-  name: Pinterest Targeting API
-  slug: pinterest-targeting-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Template API from Pinterest — 1 operation(s) for template.
-  name: Pinterest Template API
-  slug: pinterest-template-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Templates API from Pinterest — 3 operation(s) for templates.
-  name: Pinterest Templates API
-  slug: pinterest-templates-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Terms API from Pinterest — 3 operation(s) for terms.
   name: Pinterest Terms API
   slug: pinterest-terms-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Test API from Pinterest — 1 operation(s) for test.
-  name: Pinterest Test API
-  slug: pinterest-test-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
   description: The Token API from Pinterest — 1 operation(s) for token.
@@ -573,55 +143,15 @@ apis:
   slug: pinterest-token-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The Top API from Pinterest — 3 operation(s) for top.
-  name: Pinterest Top API
-  slug: pinterest-top-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Trend API from Pinterest — 1 operation(s) for trend.
-  name: Pinterest Trend API
-  slug: pinterest-trend-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Type API from Pinterest — 2 operation(s) for type.
-  name: Pinterest Type API
-  slug: pinterest-type-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The User_account API from Pinterest — 3 operation(s) for user_account.
-  name: Pinterest User_account API
-  slug: pinterest-user-account-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The User API from Pinterest — 11 operation(s) for user.
   name: Pinterest User API
   slug: pinterest-user-api
 - baseURL: https://api.pinterest.com/v5
   baseurl_source: declared
-  description: The User Names API from Pinterest — 2 operation(s) for user names.
-  name: Pinterest User Names API
-  slug: pinterest-user-names-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
   description: The Users API from Pinterest — 1 operation(s) for users.
   name: Pinterest Users API
   slug: pinterest-users-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Verifications API from Pinterest — 1 operation(s) for verifications.
-  name: Pinterest Verifications API
-  slug: pinterest-verifications-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Videos API from Pinterest — 1 operation(s) for videos.
-  name: Pinterest Videos API
-  slug: pinterest-videos-api
-- baseURL: https://api.pinterest.com/v5
-  baseurl_source: declared
-  description: The Visit API from Pinterest — 1 operation(s) for visit.
-  name: Pinterest Visit API
-  slug: pinterest-visit-api
-artifact_total: 247
+artifact_total: 153
 collections:
 - collection_type: open
   name: API Collection
@@ -1128,7 +658,7 @@ modified: '2026-05-30'
 name: Pinterest
 nav: Providers
 network: true
-overview: 'Pinterest publishes 117 APIs on the [APIs.io](https://apis.io/) network, including Access API, Accounts API, Ad API, and 114 more. Tagged areas include Image, Social-Media, and Videos.
+overview: 'Pinterest publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Ad API, Board API, Boards API, and 20 more. Tagged areas include Image, Social-Media, and Video.
 
 
   Pinterest''s developer surface includes product news, engineering blog, support, developer portal, documentation, changelog, getting-started guide, and 24 more developer resources.'
@@ -1136,28 +666,28 @@ plans:
 - name: Pinterest Plans Pricing
   plan_count: 3
   slug: pinterest-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Pinterest Rate Limits
   slug: pinterest-rate-limits
 score:
   band: developing
-  composite: 50.1
+  composite: 50.8
   coverage:
     artifact_dirs: 10
-    catalog_earned: 37.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 61.0
+    contract_quality: 61.8
     developer_ergonomics: 52.4
-    discoverability: 61.1
+    discoverability: 66.7
     operational_transparency: 42.1
   previous_composite: 50.1
   provenance:
@@ -1165,9 +695,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 118
+      total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1182,6 +712,6 @@ slug: pinterest
 tags:
 - Image
 - Social-Media
-- Videos
+- Video
 website: https://www.pinterest.com/
 ---

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://eu.rest.relexsolutions.com
@@ -164,10 +164,10 @@ common:
   type: StatusPage
   url: https://status.relexsolutions.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-data-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/_original/relex-data-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/relex-data-api-openapi.json
+  url: openapi/_original/relex-data-api-openapi.json
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/authentication/relex-authentication.yml
   title: ''
@@ -258,7 +258,7 @@ description: 'RELEX Solutions is a Helsinki-headquartered supply chain and retai
   the full RELEX Developer Portal at docs.relexsolutions.com sits behind an Auth0 login.'
 image: https://s32519.pcdn.co/wp-content/uploads/2024/01/RELEX-logo-1200x627-social.png
 layout: provider
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: RELEX Solutions
 nav: Providers
 network: true
@@ -273,7 +273,7 @@ plans:
 - name: Relex Plans Pricing
   plan_count: 0
   slug: relex-plans-pricing
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Relex Rate Limits
@@ -318,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

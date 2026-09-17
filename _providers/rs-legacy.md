@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: State AGs Keep Eye On RadioShack Customers' Personal Data
   url: https://www.law360.com/articles/636062/state-ags-keep-eye-on-radioshack-customers-personal-data
-random_paper: 0
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []
@@ -142,7 +142,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

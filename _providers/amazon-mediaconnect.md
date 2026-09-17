@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -139,6 +139,10 @@ collections:
   name: AWS MediaConnect Bridges Tags API
   slug: open-amazon-mediaconnect-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/capabilities/amazon-mediaconnect-capability-edges.yml
   title: ''
@@ -2346,7 +2350,7 @@ jsonld:
   property_count: 170
   slug: amazon-mediaconnect-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon MediaConnect
 nav: Providers
 network: true
@@ -2356,12 +2360,12 @@ overview: 'Amazon MediaConnect publishes 8 APIs on the [APIs.io](https://apis.io
   The Amazon MediaConnect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaConnect''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon MediaConnect''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Mediaconnect Plans Pricing
   plan_count: 3
   slug: amazon-mediaconnect-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Amazon Mediaconnect Rate Limits
@@ -2415,7 +2419,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2453,5 +2457,5 @@ use_cases:
   name: Content Sharing
 - description: Provide redundant video pathways for business continuity in broadcast workflows.
   name: Disaster Recovery
-website: https://aws.amazon.com/mediaconnect/
+website: https://amazon.com
 ---

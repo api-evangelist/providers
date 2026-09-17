@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
   name: Tana Agentic Access
-  operation_count: 4
+  operation_count: 1
   slug: tana-agentic-access
-  summary_line: 4 operations · 1 acting
+  summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
 - baseURL: https://europe-west1-tagr-prod.cloudfunctions.net
@@ -213,7 +213,7 @@ overview: 'Tana publishes 1 API on the [APIs.io](https://apis.io/) network: AddT
 
 
   Tana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 24 more developer resources.'
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Tana Rate Limits
@@ -248,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 121
   slug: loc-agentic-access
   summary_line: 121 operations
-api_count: 2
+api_count: 11
 apis:
 - description: The Chronicling America API provides access to the historic American newspapers collection digitized by the Library of Congress and its partners. Endpoints allow searching and retrieving pages, titles
   name: Chronicling America API
@@ -90,7 +90,7 @@ apis:
 - baseURL: https://www.loc.gov
   baseurl_source: declared
   description: Returns congress and congressional sessions data from the API
-  name: Library of Congress congress API
+  name: Library of Congress API
   slug: loc-congress-api
 - baseURL: https://www.loc.gov
   baseurl_source: declared
@@ -167,52 +167,27 @@ apis:
   description: Returns treaty data from the API
   name: Library of Congress treaty API
   slug: loc-treaty-api
-- baseURL: https://www.loc.gov
-  baseurl_source: declared
-  description: The Bills API from Library of Congress — 3 operation(s) for bills.
-  name: Library of Congress Bills API
-  slug: library-of-congress-bills-api
-- baseURL: https://www.loc.gov
-  baseurl_source: declared
-  description: The Committees API from Library of Congress — 1 operation(s) for committees.
-  name: Library of Congress Committees API
-  slug: library-of-congress-committees-api
-- baseURL: https://www.loc.gov
-  baseurl_source: declared
-  description: The Congressional Record API from Library of Congress — 1 operation(s) for congressional record.
-  name: Library of Congress Congressional Record API
-  slug: library-of-congress-congressional-record-api
-- baseURL: https://www.loc.gov
+- baseURL: https://chroniclingamerica.loc.gov
   baseurl_source: declared
   description: The Issues API from Library of Congress — 1 operation(s) for issues.
   name: Library of Congress Issues API
-  slug: library-of-congress-issues-api
-- baseURL: https://www.loc.gov
-  baseurl_source: declared
-  description: The Laws API from Library of Congress — 1 operation(s) for laws.
-  name: Library of Congress Laws API
-  slug: library-of-congress-laws-api
-- baseURL: https://www.loc.gov
-  baseurl_source: declared
-  description: The Members API from Library of Congress — 2 operation(s) for members.
-  name: Library of Congress Members API
-  slug: library-of-congress-members-api
-- baseURL: https://www.loc.gov
+  slug: loc-issues-api
+- baseURL: https://chroniclingamerica.loc.gov
   baseurl_source: declared
   description: The Pages API from Library of Congress — 1 operation(s) for pages.
   name: Library of Congress Pages API
-  slug: library-of-congress-pages-api
-- baseURL: https://www.loc.gov
+  slug: loc-pages-api
+- baseURL: https://chroniclingamerica.loc.gov
   baseurl_source: declared
   description: The Resources API from Library of Congress — 1 operation(s) for resources.
   name: Library of Congress Resources API
-  slug: library-of-congress-resources-api
-- baseURL: https://www.loc.gov
+  slug: loc-resources-api
+- baseURL: https://chroniclingamerica.loc.gov
   baseurl_source: declared
   description: The Titles API from Library of Congress — 3 operation(s) for titles.
   name: Library of Congress Titles API
-  slug: library-of-congress-titles-api
-artifact_total: 70
+  slug: loc-titles-api
+artifact_total: 65
 collections:
 - collection_type: open
   name: API Collection
@@ -387,11 +362,11 @@ jsonld:
   property_count: 26
   slug: loc-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Library of Congress
 nav: Providers
 network: true
-overview: 'Library of Congress publishes 33 APIs on the [APIs.io](https://apis.io/) network, including amendments API, bill API, bound-congressional-record API, and 30 more. Tagged areas include Library, Government, Congress, Legislative Data, and Digital Collections.
+overview: 'Library of Congress publishes 28 APIs on the [APIs.io](https://apis.io/) network, including amendments API, bill API, bound-congressional-record API, and 25 more. Tagged areas include Library, Government, Congress, Legislative Data, and Digital Collections.
 
 
   The Library of Congress catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -402,7 +377,7 @@ plans:
 - name: Loc Plans Pricing
   plan_count: 3
   slug: loc-plans-pricing
-random_paper: 3
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Loc Rate Limits
@@ -420,30 +395,30 @@ rules:
   slug: loc-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.4
+  composite: 45.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 66.3
+    catalog_earned: 69.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.8
+    catalog_gap: 45.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 54.5
+    contract_quality: 60.2
     developer_ergonomics: 31.0
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 5.3
   previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
-      callable: 27.3
+      callable: 28.6
       derived: 0
       marker_coverage: 0.0
-      total: 33
+      total: 28
   regulatory:
     applies: true
     matched_via: tags
@@ -451,7 +426,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -38,7 +38,7 @@ name: Styvio
 nav: Providers
 network: true
 overview: Styvio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Public APIs, and Defunct.
-random_paper: 14
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/styvio/refs/heads/main/screenshots/styvio-2026-06-20T194628.png
 security:
 - kind: domain-security

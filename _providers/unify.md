@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -49,57 +49,22 @@ apis:
   description: Server-side event collection for the Unify Analytics API - identify, page and track events posted from a website or product with a public write key over HTTP Basic. 3 operation(s).
   name: Unify Analytics Events API
   slug: unify-events-api
-- baseURL: https://api.unifygtm.com/data/v1
-  baseurl_source: declared
-  description: 'Asynchronous Bulk API export of collected analytics events: create a query job, poll its status, page the results, or cancel it. 5 operation(s).'
-  name: Unify Event Query Jobs API
-  slug: unify-event-query-jobs-api
-- baseURL: https://api.unifygtm.com/data/v1
-  baseurl_source: declared
-  description: Create, read, update and delete the objects (tables) of the Unify data platform, covering both the standard company/person/user objects and custom objects. 5 operation(s).
-  name: Unify Objects API
-  slug: unify-objects-api
-- baseURL: https://api.unifygtm.com/data/v1
-  baseurl_source: declared
-  description: Manage the attributes (fields) defined on a Unify object, including type, uniqueness and lifecycle. 5 operation(s).
-  name: Unify Object Attributes API
-  slug: unify-object-attributes-api
-- baseURL: https://api.unifygtm.com/data/v1
-  baseurl_source: declared
-  description: Manage the allowed option values on select-style Unify object attributes. 5 operation(s).
-  name: Unify Object Attribute Options API
-  slug: unify-object-attribute-options-api
-- baseURL: https://api.unifygtm.com/data/v1
-  baseurl_source: declared
-  description: Create, read, update, delete, upsert and find-unique the records of any Unify object, with a validation_mode dry-run for writes. 6 operation(s).
-  name: Unify Object Records API
-  slug: unify-object-records-api
-- baseURL: https://api.unifygtm.com/data/v1
-  baseurl_source: declared
-  description: 'Asynchronous Bulk API export of object records: create a query job with structured filters, poll it, page the results, or cancel it. 5 operation(s).'
-  name: Unify Object Record Query Jobs API
-  slug: unify-object-record-query-jobs-api
 - baseURL: https://api.unifygtm.com/sequences/v1
   baseurl_source: declared
   description: List, retrieve, pause, resume and delete Unify outbound sequences and read their ordered steps. 7 operation(s).
   name: Unify Sequences API
   slug: unify-sequences-api
-- baseURL: https://api.unifygtm.com/sequences/v1
-  baseurl_source: declared
-  description: Enroll people in sequences and pause, resume, cancel, list and bulk-export those enrollments. 11 operation(s).
-  name: Unify Sequence Enrollments API
-  slug: unify-sequence-enrollments-api
-- baseURL: https://api.unifygtm.com/sequences/v1
-  baseurl_source: declared
-  description: Asynchronous Bulk API export of executed sequence enrollment steps. 5 operation(s).
-  name: Unify Sequence Enrollment Steps API
-  slug: unify-sequence-enrollment-steps-api
 - baseURL: https://api.unifygtm.com/tasks/v1
   baseurl_source: declared
   description: Create, read, update, complete, delete, list and bulk-export the outreach tasks - emails, calls, LinkedIn touches and manual action items - assigned to Unify users against a person. 11 operation(s).
   name: Unify Tasks API
   slug: unify-tasks-api
-artifact_total: 32
+- baseURL: https://api.unifyintent.com/analytics/v1
+  baseurl_source: declared
+  description: The Data API from Unify — 18 operation(s) for data.
+  name: Unify Data API
+  slug: unify-data-api
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Unify Webhooks
@@ -357,7 +322,7 @@ modified: '2026-08-13'
 name: Unify
 nav: Providers
 network: true
-overview: 'Unify publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Analytics Events API, Event Query Jobs API, Objects API, and 8 more. Tagged areas include Sales, Marketing, Go-To-Market, Outbound, and Intent Data.
+overview: 'Unify publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics Events API, Sequences API, Tasks API, and 1 more. Tagged areas include Sales, Marketing, Go-To-Market, Outbound, and Intent Data.
 
 
   The Unify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -368,7 +333,7 @@ plans:
 - name: Unify Plans Pricing
   plan_count: 4
   slug: unify-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 7
   name: Unify Rate Limits
@@ -380,7 +345,7 @@ scopes:
   summary_line: 14 scopes
 score:
   band: exemplar
-  composite: 66.9
+  composite: 68.0
   coverage:
     artifact_dirs: 25
     catalog_earned: 64.0
@@ -388,11 +353,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 60.1
+    contract_quality: 64.4
     developer_ergonomics: 71.4
     discoverability: 81.5
     operational_transparency: 57.9
@@ -404,11 +369,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 4
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

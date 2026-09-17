@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -90,16 +90,6 @@ apis:
   slug: para-t-esmms-api
 - baseURL: https://api.parasut.com/v4
   baseurl_source: declared
-  description: The InventoryLevels API from Paraşüt — 1 operation(s) for inventorylevels.
-  name: Paraşüt InventoryLevels API
-  slug: para-t-inventorylevels-api
-- baseURL: https://api.parasut.com/v4
-  baseurl_source: declared
-  description: The ItemCategories API from Paraşüt — 2 operation(s) for itemcategories.
-  name: Paraşüt ItemCategories API
-  slug: para-t-itemcategories-api
-- baseURL: https://api.parasut.com/v4
-  baseurl_source: declared
   description: The Products API from Paraşüt — 2 operation(s) for products.
   name: Paraşüt Products API
   slug: para-t-products-api
@@ -115,29 +105,9 @@ apis:
   slug: para-t-salaries-api
 - baseURL: https://api.parasut.com/v4
   baseurl_source: declared
-  description: The SalesInvoices API from Paraşüt — 8 operation(s) for salesinvoices.
-  name: Paraşüt SalesInvoices API
-  slug: para-t-salesinvoices-api
-- baseURL: https://api.parasut.com/v4
-  baseurl_source: declared
-  description: The SalesOffers API from Paraşüt — 8 operation(s) for salesoffers.
-  name: Paraşüt SalesOffers API
-  slug: para-t-salesoffers-api
-- baseURL: https://api.parasut.com/v4
-  baseurl_source: declared
-  description: The ShipmentDocuments API from Paraşüt — 2 operation(s) for shipmentdocuments.
-  name: Paraşüt ShipmentDocuments API
-  slug: para-t-shipmentdocuments-api
-- baseURL: https://api.parasut.com/v4
-  baseurl_source: declared
   description: The StockMovements API from Paraşüt — 1 operation(s) for stockmovements.
   name: Paraşüt StockMovements API
   slug: para-t-stockmovements-api
-- baseURL: https://api.parasut.com/v4
-  baseurl_source: declared
-  description: The StockUpdates API from Paraşüt — 1 operation(s) for stockupdates.
-  name: Paraşüt StockUpdates API
-  slug: para-t-stockupdates-api
 - baseURL: https://api.parasut.com/v4
   baseurl_source: declared
   description: The Tags API from Paraşüt — 2 operation(s) for tags.
@@ -163,6 +133,36 @@ apis:
   description: The Warehouses API from Paraşüt — 2 operation(s) for warehouses.
   name: Paraşüt Warehouses API
   slug: para-t-warehouses-api
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Inventory Levels API from Paraşüt — 1 operation(s) for inventory levels.
+  name: Paraşüt Inventory Levels API
+  slug: para-t-inventory-levels-api
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Item Categories API from Paraşüt — 2 operation(s) for item categories.
+  name: Paraşüt Item Categories API
+  slug: para-t-item-categories-api
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Sales Invoices API from Paraşüt — 8 operation(s) for sales invoices.
+  name: Paraşüt Sales Invoices API
+  slug: para-t-sales-invoices-api
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Sales Offers API from Paraşüt — 8 operation(s) for sales offers.
+  name: Paraşüt Sales Offers API
+  slug: para-t-sales-offers-api
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Shipment documents API from Paraşüt — 2 operation(s) for shipment documents.
+  name: Paraşüt Shipment documents API
+  slug: para-t-shipment-documents-api
+- baseURL: https://api.parasut.com/v4
+  baseurl_source: declared
+  description: The Stock Updates API from Paraşüt — 1 operation(s) for stock updates.
+  name: Paraşüt Stock Updates API
+  slug: para-t-stock-updates-api
 arazzos:
 - description: Create a contact, issue a sales invoice, officialize it as an e-Arşiv document, and poll the trackable job until done.
   name: Paraşüt — invoice a customer and officialize as e-Arşiv
@@ -385,7 +385,7 @@ overview: 'Paraşüt publishes 24 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paraşüt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 14
+random_paper: 9
 scopes:
 - name: Para T Scopes
   scope_count: 0
@@ -428,7 +428,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

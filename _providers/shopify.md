@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -102,9 +102,7 @@ apis:
 - description: Shopify CLI is a command-line tool that helps developers create Shopify apps, themes, and custom storefronts. It accelerates development with scaffolding, local development servers, and deployment too
   name: Shopify CLI
   slug: shopify-cli
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The About API from Shopify — 6 operation(s) for about.
+- description: The About API from Shopify — 6 operation(s) for about.
   name: Shopify About API
   slug: shopify-about-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
@@ -112,194 +110,96 @@ apis:
   description: Manage access scopes and tokens
   name: Shopify Access API
   slug: shopify-access-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Account API from Shopify — 12 operation(s) for account.
+- description: The Account API from Shopify — 12 operation(s) for account.
   name: Shopify Account API
   slug: shopify-account-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Accounts API from Shopify — 6 operation(s) for accounts.
-  name: Shopify Accounts API
-  slug: shopify-accounts-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Activation API from Shopify — 6 operation(s) for activation.
-  name: Shopify Activation API
-  slug: shopify-activation-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Active API from Shopify — 6 operation(s) for active.
+- description: The Active API from Shopify — 6 operation(s) for active.
   name: Shopify Active API
   slug: shopify-active-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Address API from Shopify — 30 operation(s) for address.
+- description: The Address API from Shopify — 30 operation(s) for address.
   name: Shopify Address API
   slug: shopify-address-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Addresses API from Shopify — 12 operation(s) for addresses.
+- description: The Addresses API from Shopify — 12 operation(s) for addresses.
   name: Shopify Addresses API
   slug: shopify-addresses-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Admin API from Shopify — 6 operation(s) for admin.
+- description: The Admin API from Shopify — 6 operation(s) for admin.
   name: Shopify Admin API
   slug: shopify-admin-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The All API from Shopify — 107 operation(s) for all.
+- description: The All API from Shopify — 107 operation(s) for all.
   name: Shopify All API
   slug: shopify-all-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Amount API from Shopify — 6 operation(s) for amount.
-  name: Shopify Amount API
-  slug: shopify-amount-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Another API from Shopify — 12 operation(s) for another.
+- description: The Another API from Shopify — 12 operation(s) for another.
   name: Shopify Another API
   slug: shopify-another-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Applications API from Shopify — 86 operation(s) for applications.
+- description: The Applications API from Shopify — 86 operation(s) for applications.
   name: Shopify Applications API
   slug: shopify-applications-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Approves API from Shopify — 1 operation(s) for approves.
+- description: The Approves API from Shopify — 1 operation(s) for approves.
   name: Shopify Approves API
   slug: shopify-approves-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Article API from Shopify — 20 operation(s) for article.
+- description: The Article API from Shopify — 20 operation(s) for article.
   name: Shopify Article API
   slug: shopify-article-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Assets API from Shopify — 6 operation(s) for assets.
+- description: The Assets API from Shopify — 6 operation(s) for assets.
   name: Shopify Assets API
   slug: shopify-assets-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Associated API from Shopify — 31 operation(s) for associated.
+- description: The Associated API from Shopify — 31 operation(s) for associated.
   name: Shopify Associated API
   slug: shopify-associated-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Authenticated API from Shopify — 2 operation(s) for authenticated.
-  name: Shopify Authenticated API
-  slug: shopify-authenticated-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Authors API from Shopify — 6 operation(s) for authors.
-  name: Shopify Authors API
-  slug: shopify-authors-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Available API from Shopify — 6 operation(s) for available.
+- description: The Available API from Shopify — 6 operation(s) for available.
   name: Shopify Available API
   slug: shopify-available-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Balance API from Shopify — 7 operation(s) for balance.
+- description: The Balance API from Shopify — 7 operation(s) for balance.
   name: Shopify Balance API
   slug: shopify-balance-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Belong API from Shopify — 6 operation(s) for belong.
+- description: The Belong API from Shopify — 6 operation(s) for belong.
   name: Shopify Belong API
   slug: shopify-belong-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Belonging API from Shopify — 12 operation(s) for belonging.
+- description: The Belonging API from Shopify — 12 operation(s) for belonging.
   name: Shopify Belonging API
   slug: shopify-belonging-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Blog API from Shopify — 14 operation(s) for blog.
+- description: The Blog API from Shopify — 14 operation(s) for blog.
   name: Shopify Blog API
   slug: shopify-blog-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Blogs API from Shopify — 2 operation(s) for blogs.
-  name: Shopify Blogs API
-  slug: shopify-blogs-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Bulk API from Shopify — 6 operation(s) for bulk.
-  name: Shopify Bulk API
-  slug: shopify-bulk-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Calls API from Shopify — 2 operation(s) for calls.
-  name: Shopify Calls API
-  slug: shopify-calls-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Cancel API from Shopify — 6 operation(s) for cancel.
+- description: The Cancel API from Shopify — 6 operation(s) for cancel.
   name: Shopify Cancel API
   slug: shopify-cancel-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Cancels API from Shopify — 12 operation(s) for cancels.
+- description: The Cancels API from Shopify — 12 operation(s) for cancels.
   name: Shopify Cancels API
   slug: shopify-cancels-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Card API from Shopify — 24 operation(s) for card.
+- description: The Card API from Shopify — 24 operation(s) for card.
   name: Shopify Card API
   slug: shopify-card-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Cards API from Shopify — 18 operation(s) for cards.
+- description: The Cards API from Shopify — 18 operation(s) for cards.
   name: Shopify Cards API
   slug: shopify-cards-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Carrier API from Shopify — 12 operation(s) for carrier.
+- description: The Carrier API from Shopify — 12 operation(s) for carrier.
   name: Shopify Carrier API
   slug: shopify-carrier-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
+- baseURL_template: https://{store}.myshopify.com
   baseurl_source: spec_template
   description: Manage the shopping cart
   name: Shopify Cart API
   slug: shopify-cart-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Charge API from Shopify — 42 operation(s) for charge.
+- description: The Charge API from Shopify — 42 operation(s) for charge.
   name: Shopify Charge API
   slug: shopify-charge-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Charges API from Shopify — 18 operation(s) for charges.
+- description: The Charges API from Shopify — 18 operation(s) for charges.
   name: Shopify Charges API
   slug: shopify-charges-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Checkout API from Shopify — 36 operation(s) for checkout.
+- description: The Checkout API from Shopify — 36 operation(s) for checkout.
   name: Shopify Checkout API
   slug: shopify-checkout-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Checkouts API from Shopify — 6 operation(s) for checkouts.
+- description: The Checkouts API from Shopify — 6 operation(s) for checkouts.
   name: Shopify Checkouts API
   slug: shopify-checkouts-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Code API from Shopify — 36 operation(s) for code.
+- description: The Code API from Shopify — 36 operation(s) for code.
   name: Shopify Code API
   slug: shopify-code-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Collect API from Shopify — 6 operation(s) for collect.
+- description: The Collect API from Shopify — 6 operation(s) for collect.
   name: Shopify Collect API
   slug: shopify-collect-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Collection API from Shopify — 66 operation(s) for collection.
+- description: The Collection API from Shopify — 66 operation(s) for collection.
   name: Shopify Collection API
   slug: shopify-collection-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
@@ -307,86 +207,39 @@ apis:
   description: Retrieve collection data
   name: Shopify Collections API
   slug: shopify-collections-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Comments API from Shopify — 8 operation(s) for comments.
+- description: The Comments API from Shopify — 8 operation(s) for comments.
   name: Shopify Comments API
   slug: shopify-comments-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Complete API from Shopify — 6 operation(s) for complete.
+- description: The Complete API from Shopify — 6 operation(s) for complete.
   name: Shopify Complete API
   slug: shopify-complete-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Configuration API from Shopify — 6 operation(s) for configuration.
+- description: The Configuration API from Shopify — 6 operation(s) for configuration.
   name: Shopify Configuration API
   slug: shopify-configuration-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Connects API from Shopify — 6 operation(s) for connects.
+- description: The Connects API from Shopify — 6 operation(s) for connects.
   name: Shopify Connects API
   slug: shopify-connects-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Contains API from Shopify — 6 operation(s) for contains.
+- description: The Contains API from Shopify — 6 operation(s) for contains.
   name: Shopify Contains API
   slug: shopify-contains-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Count API from Shopify — 121 operation(s) for count.
+- description: The Count API from Shopify — 121 operation(s) for count.
   name: Shopify Count API
   slug: shopify-count-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Countries API from Shopify — 12 operation(s) for countries.
+- description: The Countries API from Shopify — 12 operation(s) for countries.
   name: Shopify Countries API
   slug: shopify-countries-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Country API from Shopify — 18 operation(s) for country.
+- description: The Country API from Shopify — 18 operation(s) for country.
   name: Shopify Country API
   slug: shopify-country-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Counts API from Shopify — 6 operation(s) for counts.
-  name: Shopify Counts API
-  slug: shopify-counts-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The County API from Shopify — 6 operation(s) for county.
+- description: The County API from Shopify — 6 operation(s) for county.
   name: Shopify County API
   slug: shopify-county-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Create API from Shopify — 34 operation(s) for create.
+- description: The Create API from Shopify — 34 operation(s) for create.
   name: Shopify Create API
   slug: shopify-create-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Creation API from Shopify — 18 operation(s) for creation.
-  name: Shopify Creation API
-  slug: shopify-creation-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Credit API from Shopify — 12 operation(s) for credit.
-  name: Shopify Credit API
-  slug: shopify-credit-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Currencies API from Shopify — 6 operation(s) for currencies.
+- description: The Currencies API from Shopify — 6 operation(s) for currencies.
   name: Shopify Currencies API
   slug: shopify-currencies-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Current API from Shopify — 6 operation(s) for current.
-  name: Shopify Current API
-  slug: shopify-current-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Custom API from Shopify — 24 operation(s) for custom.
-  name: Shopify Custom API
-  slug: shopify-custom-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
   baseurl_source: spec_template
   description: Manage manual collections
@@ -397,9 +250,7 @@ apis:
   description: Manage customer addresses
   name: Shopify Customer Addresses API
   slug: shopify-customer-addresses-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Customer API from Shopify — 30 operation(s) for customer.
+- description: The Customer API from Shopify — 30 operation(s) for customer.
   name: Shopify Customer API
   slug: shopify-customer-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
@@ -407,74 +258,25 @@ apis:
   description: Manage customer records
   name: Shopify Customers API
   slug: shopify-customers-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Date API from Shopify — 8 operation(s) for date.
-  name: Shopify Date API
-  slug: shopify-date-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Days API from Shopify — 8 operation(s) for days.
-  name: Shopify Days API
-  slug: shopify-days-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Deletes API from Shopify — 108 operation(s) for deletes.
+- description: The Deletes API from Shopify — 108 operation(s) for deletes.
   name: Shopify Deletes API
   slug: shopify-deletes-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Disables API from Shopify — 6 operation(s) for disables.
-  name: Shopify Disables API
-  slug: shopify-disables-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Discount API from Shopify — 36 operation(s) for discount.
+- description: The Discount API from Shopify — 36 operation(s) for discount.
   name: Shopify Discount API
   slug: shopify-discount-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Dispute API from Shopify — 1 operation(s) for dispute.
+- description: The Dispute API from Shopify — 1 operation(s) for dispute.
   name: Shopify Dispute API
   slug: shopify-dispute-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Disputes API from Shopify — 2 operation(s) for disputes.
-  name: Shopify Disputes API
-  slug: shopify-disputes-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Enabled API from Shopify — 12 operation(s) for enabled.
-  name: Shopify Enabled API
-  slug: shopify-enabled-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Endpoint API from Shopify — 8 operation(s) for endpoint.
+- description: The Endpoint API from Shopify — 8 operation(s) for endpoint.
   name: Shopify Endpoint API
   slug: shopify-endpoint-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Events API from Shopify — 30 operation(s) for events.
+- description: The Events API from Shopify — 30 operation(s) for events.
   name: Shopify Events API
   slug: shopify-events-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Existing API from Shopify — 78 operation(s) for existing.
+- description: The Existing API from Shopify — 78 operation(s) for existing.
   name: Shopify Existing API
   slug: shopify-existing-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Files API from Shopify — 6 operation(s) for files.
-  name: Shopify Files API
-  slug: shopify-files-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Format API from Shopify — 2 operation(s) for format.
-  name: Shopify Format API
-  slug: shopify-format-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Fulfillment API from Shopify — 155 operation(s) for fulfillment.
+- description: The Fulfillment API from Shopify — 155 operation(s) for fulfillment.
   name: Shopify Fulfillment API
   slug: shopify-fulfillment-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
@@ -487,54 +289,16 @@ apis:
   description: Manage order fulfillments
   name: Shopify Fulfillments API
   slug: shopify-fulfillments-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Generate API from Shopify — 6 operation(s) for generate.
-  name: Shopify Generate API
-  slug: shopify-generate-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Get API from Shopify — 28 operation(s) for get.
+- description: The Get API from Shopify — 28 operation(s) for get.
   name: Shopify Get API
   slug: shopify-get-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Gift API from Shopify — 30 operation(s) for gift.
-  name: Shopify Gift API
-  slug: shopify-gift-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Have API from Shopify — 6 operation(s) for have.
-  name: Shopify Have API
-  slug: shopify-have-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Holds API from Shopify — 1 operation(s) for holds.
-  name: Shopify Holds API
-  slug: shopify-holds-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Identifiers API from Shopify — 75 operation(s) for identifiers.
+- description: The Identifiers API from Shopify — 75 operation(s) for identifiers.
   name: Shopify Identifiers API
   slug: shopify-identifiers-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Image API from Shopify — 18 operation(s) for image.
-  name: Shopify Image API
-  slug: shopify-image-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Images API from Shopify — 18 operation(s) for images.
+- description: The Images API from Shopify — 18 operation(s) for images.
   name: Shopify Images API
   slug: shopify-images-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Information API from Shopify — 24 operation(s) for information.
-  name: Shopify Information API
-  slug: shopify-information-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Inventory API from Shopify — 43 operation(s) for inventory.
+- description: The Inventory API from Shopify — 43 operation(s) for inventory.
   name: Shopify Inventory API
   slug: shopify-inventory-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
@@ -547,209 +311,28 @@ apis:
   description: Manage inventory quantities at locations
   name: Shopify Inventory Levels API
   slug: shopify-inventory-levels-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Invites API from Shopify — 6 operation(s) for invites.
-  name: Shopify Invites API
-  slug: shopify-invites-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Issued API from Shopify — 6 operation(s) for issued.
-  name: Shopify Issued API
-  slug: shopify-issued-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Item API from Shopify — 30 operation(s) for item.
-  name: Shopify Item API
-  slug: shopify-item-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Items API from Shopify — 12 operation(s) for items.
-  name: Shopify Items API
-  slug: shopify-items-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Jobs API from Shopify — 18 operation(s) for jobs.
-  name: Shopify Jobs API
-  slug: shopify-jobs-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Keys API from Shopify — 6 operation(s) for keys.
-  name: Shopify Keys API
-  slug: shopify-keys-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Levels API from Shopify — 31 operation(s) for levels.
-  name: Shopify Levels API
-  slug: shopify-levels-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Line API from Shopify — 6 operation(s) for line.
-  name: Shopify Line API
-  slug: shopify-line-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Listing API from Shopify — 9 operation(s) for listing.
-  name: Shopify Listing API
-  slug: shopify-listing-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Listings API from Shopify — 9 operation(s) for listings.
-  name: Shopify Listings API
-  slug: shopify-listings-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Lists API from Shopify — 291 operation(s) for lists.
+- description: The Lists API from Shopify — 291 operation(s) for lists.
   name: Shopify Lists API
   slug: shopify-lists-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Location API from Shopify — 48 operation(s) for location.
-  name: Shopify Location API
-  slug: shopify-location-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
   baseurl_source: spec_template
   description: Retrieve store locations
   name: Shopify Locations API
   slug: shopify-locations-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Make API from Shopify — 6 operation(s) for make.
-  name: Shopify Make API
-  slug: shopify-make-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Managed API from Shopify — 6 operation(s) for managed.
-  name: Shopify Managed API
-  slug: shopify-managed-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Many API from Shopify — 6 operation(s) for many.
-  name: Shopify Many API
-  slug: shopify-many-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Mark API from Shopify — 12 operation(s) for mark.
-  name: Shopify Mark API
-  slug: shopify-mark-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Match API from Shopify — 12 operation(s) for match.
-  name: Shopify Match API
-  slug: shopify-match-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Merchant API from Shopify — 6 operation(s) for merchant.
-  name: Shopify Merchant API
-  slug: shopify-merchant-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Metafields API from Shopify — 12 operation(s) for metafields.
-  name: Shopify Metafields API
-  slug: shopify-metafields-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Modifies API from Shopify — 6 operation(s) for modifies.
-  name: Shopify Modifies API
-  slug: shopify-modifies-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Modify API from Shopify — 12 operation(s) for modify.
-  name: Shopify Modify API
-  slug: shopify-modify-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Move API from Shopify — 6 operation(s) for move.
-  name: Shopify Move API
-  slug: shopify-move-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Moves API from Shopify — 6 operation(s) for moves.
-  name: Shopify Moves API
-  slug: shopify-moves-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Multiple API from Shopify — 6 operation(s) for multiple.
-  name: Shopify Multiple API
-  slug: shopify-multiple-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Number API from Shopify — 6 operation(s) for number.
-  name: Shopify Number API
-  slug: shopify-number-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Numbers API from Shopify — 1 operation(s) for numbers.
-  name: Shopify Numbers API
-  slug: shopify-numbers-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Open API from Shopify — 6 operation(s) for open.
-  name: Shopify Open API
-  slug: shopify-open-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Operations API from Shopify — 6 operation(s) for operations.
-  name: Shopify Operations API
-  slug: shopify-operations-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Order API from Shopify — 129 operation(s) for order.
+- description: The Order API from Shopify — 129 operation(s) for order.
   name: Shopify Order API
   slug: shopify-order-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Ordered API from Shopify — 9 operation(s) for ordered.
-  name: Shopify Ordered API
-  slug: shopify-ordered-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
   baseurl_source: spec_template
   description: Manage orders
   name: Shopify Orders API
   slug: shopify-orders-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Particular API from Shopify — 6 operation(s) for particular.
-  name: Shopify Particular API
-  slug: shopify-particular-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Past API from Shopify — 8 operation(s) for past.
-  name: Shopify Past API
-  slug: shopify-past-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Payments API from Shopify — 18 operation(s) for payments.
-  name: Shopify Payments API
-  slug: shopify-payments-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Payouts API from Shopify — 6 operation(s) for payouts.
-  name: Shopify Payouts API
-  slug: shopify-payouts-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Policies API from Shopify — 6 operation(s) for policies.
-  name: Shopify Policies API
-  slug: shopify-policies-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
+- baseURL_template: https://{store}.myshopify.com
   baseurl_source: spec_template
   description: Search suggestions for products, collections, pages, and articles
   name: Shopify Predictive Search API
   slug: shopify-predictive-search-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Previously API from Shopify — 1 operation(s) for previously.
-  name: Shopify Previously API
-  slug: shopify-previously-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Private API from Shopify — 2 operation(s) for private.
-  name: Shopify Private API
-  slug: shopify-private-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Product API from Shopify — 54 operation(s) for product.
+- description: The Product API from Shopify — 54 operation(s) for product.
   name: Shopify Product API
   slug: shopify-product-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
@@ -757,7 +340,7 @@ apis:
   description: Manage images associated with products
   name: Shopify Product Images API
   slug: shopify-product-images-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
+- baseURL_template: https://{store}.myshopify.com
   baseurl_source: spec_template
   description: Get product recommendations
   name: Shopify Product Recommendations API
@@ -772,171 +355,27 @@ apis:
   description: Manage products in a Shopify store
   name: Shopify Products API
   slug: shopify-products-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Progress API from Shopify — 6 operation(s) for progress.
-  name: Shopify Progress API
-  slug: shopify-progress-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Providing API from Shopify — 6 operation(s) for providing.
-  name: Shopify Providing API
-  slug: shopify-providing-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Province API from Shopify — 6 operation(s) for province.
-  name: Shopify Province API
-  slug: shopify-province-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Public API from Shopify — 6 operation(s) for public.
-  name: Shopify Public API
-  slug: shopify-public-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Publish API from Shopify — 9 operation(s) for publish.
-  name: Shopify Publish API
-  slug: shopify-publish-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Published API from Shopify — 30 operation(s) for published.
+- description: The Published API from Shopify — 30 operation(s) for published.
   name: Shopify Published API
   slug: shopify-published-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Queries API from Shopify — 12 operation(s) for queries.
-  name: Shopify Queries API
-  slug: shopify-queries-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Rates API from Shopify — 6 operation(s) for rates.
-  name: Shopify Rates API
-  slug: shopify-rates-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Ready API from Shopify — 2 operation(s) for ready.
-  name: Shopify Ready API
-  slug: shopify-ready-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Recurring API from Shopify — 18 operation(s) for recurring.
-  name: Shopify Recurring API
-  slug: shopify-recurring-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Redirect API from Shopify — 12 operation(s) for redirect.
+- description: The Redirect API from Shopify — 12 operation(s) for redirect.
   name: Shopify Redirect API
   slug: shopify-redirect-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Redirects API from Shopify — 12 operation(s) for redirects.
-  name: Shopify Redirects API
-  slug: shopify-redirects-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Refund API from Shopify — 6 operation(s) for refund.
+- description: The Refund API from Shopify — 6 operation(s) for refund.
   name: Shopify Refund API
   slug: shopify-refund-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Refunds API from Shopify — 6 operation(s) for refunds.
-  name: Shopify Refunds API
-  slug: shopify-refunds-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Releases API from Shopify — 1 operation(s) for releases.
-  name: Shopify Releases API
-  slug: shopify-releases-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Reports API from Shopify — 12 operation(s) for reports.
+- description: The Reports API from Shopify — 12 operation(s) for reports.
   name: Shopify Reports API
   slug: shopify-reports-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Requests API from Shopify — 42 operation(s) for requests.
-  name: Shopify Requests API
-  slug: shopify-requests-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Required API from Shopify — 8 operation(s) for required.
-  name: Shopify Required API
-  slug: shopify-required-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Resource API from Shopify — 12 operation(s) for resource.
+- description: The Resource API from Shopify — 12 operation(s) for resource.
   name: Shopify Resource API
   slug: shopify-resource-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Retrieves API from Shopify — 619 operation(s) for retrieves.
+- description: The Retrieves API from Shopify — 619 operation(s) for retrieves.
   name: Shopify Retrieves API
   slug: shopify-retrieves-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Risk API from Shopify — 12 operation(s) for risk.
-  name: Shopify Risk API
-  slug: shopify-risk-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Rules API from Shopify — 6 operation(s) for rules.
-  name: Shopify Rules API
-  slug: shopify-rules-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Saved API from Shopify — 24 operation(s) for saved.
-  name: Shopify Saved API
-  slug: shopify-saved-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Scheduled API from Shopify — 4 operation(s) for scheduled.
-  name: Shopify Scheduled API
-  slug: shopify-scheduled-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Scopes API from Shopify — 1 operation(s) for scopes.
-  name: Shopify Scopes API
-  slug: shopify-scopes-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Script API from Shopify — 18 operation(s) for script.
+- description: The Script API from Shopify — 18 operation(s) for script.
   name: Shopify Script API
   slug: shopify-script-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Search API from Shopify — 18 operation(s) for search.
-  name: Shopify Search API
-  slug: shopify-search-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Searches API from Shopify — 24 operation(s) for searches.
-  name: Shopify Searches API
-  slug: shopify-searches-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Sends API from Shopify — 18 operation(s) for sends.
-  name: Shopify Sends API
-  slug: shopify-sends-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Sent API from Shopify — 24 operation(s) for sent.
-  name: Shopify Sent API
-  slug: shopify-sent-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Sessions API from Shopify — 6 operation(s) for sessions.
-  name: Shopify Sessions API
-  slug: shopify-sessions-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Sets API from Shopify — 12 operation(s) for sets.
-  name: Shopify Sets API
-  slug: shopify-sets-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Shipping API from Shopify — 12 operation(s) for shipping.
-  name: Shopify Shipping API
-  slug: shopify-shipping-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
   baseurl_source: spec_template
   description: Retrieve shop configuration
@@ -944,139 +383,15 @@ apis:
   slug: shopify-shop-api
 - baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
   baseurl_source: spec_template
-  description: The Single API from Shopify — 183 operation(s) for single.
-  name: Shopify Single API
-  slug: shopify-single-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Smart API from Shopify — 24 operation(s) for smart.
-  name: Shopify Smart API
-  slug: shopify-smart-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
   description: Manage automated collections
   name: Shopify Smart Collections API
   slug: shopify-smart-collections-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Spam API from Shopify — 2 operation(s) for spam.
-  name: Shopify Spam API
-  slug: shopify-spam-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Specific API from Shopify — 78 operation(s) for specific.
-  name: Shopify Specific API
-  slug: shopify-specific-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Storefront API from Shopify — 12 operation(s) for storefront.
-  name: Shopify Storefront API
-  slug: shopify-storefront-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Subscriptions API from Shopify — 18 operation(s) for subscriptions.
-  name: Shopify Subscriptions API
-  slug: shopify-subscriptions-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Summaries API from Shopify — 18 operation(s) for summaries.
+- description: The Summaries API from Shopify — 18 operation(s) for summaries.
   name: Shopify Summaries API
   slug: shopify-summaries-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Tender API from Shopify — 6 operation(s) for tender.
-  name: Shopify Tender API
-  slug: shopify-tender-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Theme API from Shopify — 18 operation(s) for theme.
-  name: Shopify Theme API
-  slug: shopify-theme-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Themes API from Shopify — 6 operation(s) for themes.
-  name: Shopify Themes API
-  slug: shopify-themes-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Time API from Shopify — 4 operation(s) for time.
-  name: Shopify Time API
-  slug: shopify-time-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Tokens API from Shopify — 19 operation(s) for tokens.
-  name: Shopify Tokens API
-  slug: shopify-tokens-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Topic API from Shopify — 12 operation(s) for topic.
-  name: Shopify Topic API
-  slug: shopify-topic-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Tracking API from Shopify — 7 operation(s) for tracking.
-  name: Shopify Tracking API
-  slug: shopify-tracking-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Transactions API from Shopify — 7 operation(s) for transactions.
-  name: Shopify Transactions API
-  slug: shopify-transactions-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Type API from Shopify — 6 operation(s) for type.
-  name: Shopify Type API
-  slug: shopify-type-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Update API from Shopify — 13 operation(s) for update.
-  name: Shopify Update API
-  slug: shopify-update-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Usage API from Shopify — 6 operation(s) for usage.
-  name: Shopify Usage API
-  slug: shopify-usage-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Used API from Shopify — 6 operation(s) for used.
-  name: Shopify Used API
-  slug: shopify-used-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Users API from Shopify — 18 operation(s) for users.
-  name: Shopify Users API
-  slug: shopify-users-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Variants API from Shopify — 6 operation(s) for variants.
-  name: Shopify Variants API
-  slug: shopify-variants-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Vault API from Shopify — 6 operation(s) for vault.
-  name: Shopify Vault API
-  slug: shopify-vault-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Versions API from Shopify — 26 operation(s) for versions.
+- description: The Versions API from Shopify — 26 operation(s) for versions.
   name: Shopify Versions API
   slug: shopify-versions-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: Create and manage webhook subscriptions
-  name: Shopify Webhook Subscriptions API
-  slug: shopify-webhook-subscriptions-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Zip API from Shopify — 6 operation(s) for zip.
-  name: Shopify Zip API
-  slug: shopify-zip-api
-- baseURL_template: https://{store}.myshopify.com/admin/api/2025-01
-  baseurl_source: spec_template
-  description: The Zones API from Shopify — 6 operation(s) for zones.
-  name: Shopify Zones API
-  slug: shopify-zones-api
 arazzos:
 - description: Confirm a product exists, add a new variant to it, then read the variant list back.
   name: Shopify Add a Variant to an Existing Product
@@ -1144,7 +459,7 @@ arazzos:
 - description: Find a webhook subscription for a topic and update its address if it exists, otherwise create it.
   name: Shopify Upsert a Webhook by Topic
   slug: shopify-upsert-webhook-by-topic-workflow
-artifact_total: 482
+artifact_total: 371
 asyncapis:
 - description: ''
   name: Shopify Webhooks
@@ -2282,11 +1597,11 @@ mcp_servers:
 - description: Shopify ships more MCP surface than any other commerce platform in this catalog, across four distinct servers. One is a hosted, anonymous, cross-merchant server on Shopify's own domain (Global Catalog
   name: Shopify Global Catalog MCP (remote) + Storefront/Cart/Checkout MCP + Dev MCP (stdio)
   slug: shopify-global-catalog-mcp-remote-storefrontcartcheckout-mcp-dev-mcp-stdio
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Shopify
 nav: Providers
 network: true
-overview: 'Shopify publishes 197 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Multipass API, About API, and 194 more. Tagged areas include Commerce, E-Commerce, Payments, Retail, and Shopping Cart.
+overview: 'Shopify publishes 86 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Multipass API, About API, and 83 more. Tagged areas include Commerce, E-Commerce, Payments, Retail, and Shopping Cart.
 
 
   The Shopify catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -2297,7 +1612,7 @@ plans:
 - name: Shopify Plans Pricing
   plan_count: 4
   slug: shopify-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 7
   name: Shopify Rate Limits
@@ -2342,7 +1657,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 90.2
+  composite: 88.0
   coverage:
     artifact_dirs: 38
     catalog_earned: 89.5
@@ -2350,11 +1665,11 @@ score:
     catalog_gap: 25.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 84.3
+    contract_quality: 75.4
     developer_ergonomics: 96.4
     discoverability: 66.7
     operational_transparency: 94.7
@@ -2363,10 +1678,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 24.4
       derived: 0
       marker_coverage: 0.0
-      total: 197
+      total: 86
     mcp: first-party
     skills: first-party
   regulatory:
@@ -2376,7 +1691,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2407,5 +1722,6 @@ tags:
 - Retail
 - Shopping Cart
 - T1
+- Shopify
 website: https://www.shopify.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 735 operations
 api_count: 1
 apis:
-- baseURL: http://zap
-  baseurl_source: declared
-  description: The accessControl API from OWASP ZAP — 4 operation(s) for accesscontrol.
-  name: OWASP ZAP accessControl API
-  slug: owasp-zap-accesscontrol-api
 - baseURL: http://zap
   baseurl_source: declared
   description: The acsrf API from OWASP ZAP — 6 operation(s) for acsrf.
@@ -142,11 +137,6 @@ apis:
   slug: owasp-zap-forceduser-api
 - baseURL: http://zap
   baseurl_source: declared
-  description: The graphql API from OWASP ZAP — 20 operation(s) for graphql.
-  name: OWASP ZAP graphql API
-  slug: owasp-zap-graphql-api
-- baseURL: http://zap
-  baseurl_source: declared
   description: The httpSessions API from OWASP ZAP — 16 operation(s) for httpsessions.
   name: OWASP ZAP httpSessions API
   slug: owasp-zap-httpsessions-api
@@ -175,11 +165,6 @@ apis:
   description: The oast API from OWASP ZAP — 11 operation(s) for oast.
   name: OWASP ZAP oast API
   slug: owasp-zap-oast-api
-- baseURL: http://zap
-  baseurl_source: declared
-  description: The openapi API from OWASP ZAP — 2 operation(s) for openapi.
-  name: OWASP ZAP openapi API
-  slug: owasp-zap-openapi-api
 - baseURL: http://zap
   baseurl_source: declared
   description: The paramDigger API from OWASP ZAP — 1 operation(s) for paramdigger.
@@ -257,11 +242,6 @@ apis:
   slug: owasp-zap-selenium-api
 - baseURL: http://zap
   baseurl_source: declared
-  description: The sessionManagement API from OWASP ZAP — 4 operation(s) for sessionmanagement.
-  name: OWASP ZAP sessionManagement API
-  slug: owasp-zap-sessionmanagement-api
-- baseURL: http://zap
-  baseurl_source: declared
   description: The soap API from OWASP ZAP — 2 operation(s) for soap.
   name: OWASP ZAP soap API
   slug: owasp-zap-soap-api
@@ -290,6 +270,26 @@ apis:
   description: The websocket API from OWASP ZAP — 6 operation(s) for websocket.
   name: OWASP ZAP websocket API
   slug: owasp-zap-websocket-api
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The Access Control API from OWASP ZAP — 4 operation(s) for access control.
+  name: OWASP ZAP Access Control API
+  slug: owasp-zap-access-control-api
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The Graph QL API from OWASP ZAP — 20 operation(s) for graph ql.
+  name: OWASP ZAP Graph QL API
+  slug: owasp-zap-graph-ql-api
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The Open API API from OWASP ZAP — 2 operation(s) for open api.
+  name: OWASP ZAP Open API
+  slug: owasp-zap-open-api-api
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The Session Management API from OWASP ZAP — 4 operation(s) for session management.
+  name: OWASP ZAP Session Management API
+  slug: owasp-zap-session-management-api
 artifact_total: 107
 collections:
 - collection_type: open
@@ -535,7 +535,7 @@ modified: '2026-05-19'
 name: OWASP ZAP
 nav: Providers
 network: true
-overview: 'OWASP ZAP publishes 49 APIs on the [APIs.io](https://apis.io/) network, including accessControl API, acsrf API, ajaxSpider API, and 46 more. Tagged areas include Security Testing, Application Security, Vulnerability Scanning, Testing, and Open-Source.
+overview: 'OWASP ZAP publishes 49 APIs on the [APIs.io](https://apis.io/) network, including acsrf API, ajaxSpider API, alert API, and 46 more. Tagged areas include Security Testing, Application Security, Vulnerability Scanning, Testing, and Open-Source.
 
 
   OWASP ZAP''s developer surface includes authentication, engineering blog, documentation, and 15 more developer resources.'
@@ -550,7 +550,7 @@ rate_limits:
   slug: owasp-zap-rate-limits
 score:
   band: thin
-  composite: 37.5
+  composite: 38.4
   coverage:
     artifact_dirs: 10
     catalog_earned: 46.0
@@ -558,11 +558,11 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 36.3
+    contract_quality: 40.4
     developer_ergonomics: 33.3
     discoverability: 68.5
     operational_transparency: 36.8
@@ -578,7 +578,7 @@ score:
       marker_coverage: 0.0
       total: 49
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

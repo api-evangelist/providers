@@ -34,7 +34,7 @@ name: Interface Specifications
 nav: Providers
 network: true
 overview: Interface Specifications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Documentation, Software Architecture, System Integration, and Technical Specifications.
-random_paper: 4
+random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/interface-specifications/refs/heads/main/screenshots/interface-specifications-2026-06-20T183450.png
 security:
 - kind: domain-security

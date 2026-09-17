@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: The pnpm command-line interface for managing JavaScript/Node.js packages. Provides commands for installing, updating, and removing dependencies; running package scripts; executing one-off packages via
@@ -229,7 +229,7 @@ overview: 'pnpm publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   pnpm''s developer surface includes developer portal, getting-started guide, documentation, release notes, legal docs, changelog, support, and 21 more developer resources.'
-random_paper: 2
+random_paper: 3
 score:
   band: emerging
   composite: 20.4
@@ -250,7 +250,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

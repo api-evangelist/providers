@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -51,19 +51,9 @@ apis:
   slug: ordo-account-data-client-hosted-api
 - baseURL: https://test.api.ordopay.com/payments
   baseurl_source: declared
-  description: The Account Data - Ordo Hosted API from Ordo — 7 operation(s) for account data - ordo hosted.
-  name: Ordo Account Data - Ordo Hosted API
-  slug: ordo-account-data-ordo-hosted-api
-- baseURL: https://test.api.ordopay.com/payments
-  baseurl_source: declared
   description: The Account Verification - Client Hosted API from Ordo — 6 operation(s) for account verification - client hosted.
   name: Ordo Account Verification - Client Hosted API
   slug: ordo-account-verification-client-hosted-api
-- baseURL: https://test.api.ordopay.com/payments
-  baseurl_source: declared
-  description: The Account Verification - Ordo Hosted API from Ordo — 6 operation(s) for account verification - ordo hosted.
-  name: Ordo Account Verification - Ordo Hosted API
-  slug: ordo-account-verification-ordo-hosted-api
 - baseURL: https://test.api.ordopay.com/payments
   baseurl_source: declared
   description: The Bank accounts API from Ordo — 3 operation(s) for bank accounts.
@@ -82,14 +72,14 @@ apis:
 - baseURL: https://test.api.ordopay.com/payments
   baseurl_source: declared
   description: The Ordo hosted API from Ordo — 8 operation(s) for ordo hosted.
-  name: Ordo Ordo hosted API
+  name: Ordo hosted API
   slug: ordo-ordo-hosted-api
 - baseURL: https://test.api.ordopay.com/payments
   baseurl_source: declared
   description: The Retrieve mandate details API from Ordo — 4 operation(s) for retrieve mandate details.
   name: Ordo Retrieve mandate details API
   slug: ordo-retrieve-mandate-details-api
-artifact_total: 18
+artifact_total: 16
 collections:
 - collection_type: open
   name: ACCOUNT DATA - Client Hosted
@@ -236,18 +226,18 @@ description: Ordo (operated by The Smart Request Company Ltd, ordohq.com / ordop
   offline. Its API posture is documented here honestly from six OpenAPI 3.0.1 definitions harvested verbatim from the archived developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-09-16'
 name: Ordo
 nav: Providers
 network: true
-overview: 'Ordo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account Data - Client Hosted API, Account Data - Ordo Hosted API, Account Verification - Client Hosted API, and 6 more. Tagged areas include Payments, United Kingdom, Open Banking, Account-to-Account, and Payment Initiation.
+overview: 'Ordo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account Data - Client Hosted API, Account Verification - Client Hosted API, Bank accounts API, and 4 more. Tagged areas include Payments, United Kingdom, Open Banking, Account-to-Account, and Payment Initiation.
 
 
   Ordo''s developer surface includes authentication, API reference, getting-started guide, support, and 22 more developer resources.'
-random_paper: 16
+random_paper: 18
 score:
   band: thin
-  composite: 34.5
+  composite: 33.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 40.0
@@ -255,11 +245,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 56.4
+    contract_quality: 54.0
     developer_ergonomics: 35.1
     discoverability: 81.5
     operational_transparency: 2.6
@@ -279,7 +269,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -295,7 +285,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

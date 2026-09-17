@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,7 +94,7 @@ overview: 'Scytale is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Scytale''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: emerging
   composite: 14.3
@@ -115,7 +115,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 14.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

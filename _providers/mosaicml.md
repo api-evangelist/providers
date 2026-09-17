@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -196,7 +196,7 @@ overview: 'MosaicML is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MosaicML''s developer surface includes getting-started guide, CLI, changelog, documentation, GitHub presence, code examples, engineering blog, and 28 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: emerging
   composite: 20.9
@@ -222,7 +222,7 @@ score:
     - north-america
   previous_composite: 20.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -92,16 +92,6 @@ apis:
   slug: google-analytics-reports-api
 - baseURL: https://www.googleapis.com/analytics/v3
   baseurl_source: declared
-  description: The User Deletion API from Google Analytics — 1 operation(s) for user deletion.
-  name: Google Analytics User Deletion API
-  slug: google-analytics-user-deletion-api
-- baseURL: https://analyticsreporting.googleapis.com
-  baseurl_source: declared
-  description: The userActivity API from Google Analytics — 1 operation(s) for useractivity.
-  name: Google Analytics userActivity API
-  slug: google-analytics-useractivity-api
-- baseURL: https://www.googleapis.com/analytics/v3
-  baseurl_source: declared
   description: The userDeletion API from Google Analytics — 1 operation(s) for userdeletion.
   name: Google Analytics userDeletion API
   slug: google-analytics-userdeletion-api
@@ -110,6 +100,11 @@ apis:
   description: The Validation API from Google Analytics — 1 operation(s) for validation.
   name: Google Analytics Validation API
   slug: google-analytics-validation-api
+- baseURL: https://analyticsadmin.googleapis.com
+  baseurl_source: declared
+  description: The User Activity API from Google Analytics — 1 operation(s) for user activity.
+  name: Google Analytics User Activity API
+  slug: google-analytics-user-activity-api
 arazzos:
 - description: List accessible accounts, then search the change history of the chosen account.
   name: Google Analytics Account Change History Audit
@@ -147,7 +142,7 @@ arazzos:
 - description: Confirm an audience export is active, then page through the users it contains.
   name: Google Analytics Query Audience Export Users
   slug: google-analytics-query-audience-export-users-workflow
-artifact_total: 466
+artifact_total: 465
 collections:
 - collection_type: postman
   name: Google Analytics Admin accounts API
@@ -1692,7 +1687,7 @@ modified: '2026-08-13'
 name: Google Analytics
 nav: Providers
 network: true
-overview: 'Google Analytics publishes 13 APIs on the [APIs.io](https://apis.io/) network, including accounts API, accountSummaries API, data API, and 10 more. Tagged areas include Analytics, Data, Google, Metrics, and Reporting.
+overview: 'Google Analytics publishes 12 APIs on the [APIs.io](https://apis.io/) network, including accounts API, accountSummaries API, data API, and 9 more. Tagged areas include Analytics, Data, Google, Metrics, and Reporting.
 
 
   The Google Analytics catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1703,7 +1698,7 @@ plans:
 - name: Google Analytics Plans Pricing
   plan_count: 2
   slug: google-analytics-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 26
   name: Google Analytics Rate Limits
@@ -1737,7 +1732,7 @@ scopes:
   summary_line: 7 scopes
 score:
   band: exemplar
-  composite: 69.0
+  composite: 69.6
   coverage:
     artifact_dirs: 36
     catalog_earned: 75.5
@@ -1745,11 +1740,11 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 63.8
+    contract_quality: 66.3
     developer_ergonomics: 80.4
     discoverability: 75.9
     operational_transparency: 84.2
@@ -1761,11 +1756,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 12
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

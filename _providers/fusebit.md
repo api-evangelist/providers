@@ -9,15 +9,114 @@ access_model:
   - none
   trial: false
   try_now: false
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://api.us-west-1.on.fusebit.io
   baseurl_source: declared
-  description: 'The Fusebit HTTP API managed and executed everything on the platform across two concurrent major versions on one host. v1 (Core, 49 operations) covered accounts, subscriptions, boundaries, serverless '
-  name: Fusebit HTTP API
-  slug: apis
-artifact_total: 6
+  description: Account management operations
+  name: Fusebit Accounts API
+  slug: fusebit-accounts-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: Boundary management operations
+  name: Fusebit Boundaries API
+  slug: fusebit-boundaries-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: Client management operations
+  name: Fusebit Clients API
+  slug: fusebit-clients-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: Management for external credentials
+  name: Fusebit Connector API
+  slug: fusebit-connector-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: The Connector/Tags API from Fusebit — 3 operation(s) for connector/tags.
+  name: Fusebit Connector/Tags API
+  slug: fusebit-connector-tags-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: Function management operations
+  name: Fusebit Functions API
+  slug: fusebit-functions-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: A managed credential for a remote service, on behalf of a customer
+  name: Fusebit Identity API
+  slug: fusebit-identity-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: The Identity/Tags API from Fusebit — 3 operation(s) for identity/tags.
+  name: Fusebit Identity/Tags API
+  slug: fusebit-identity-tags-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: A fully configured integration for a customer
+  name: Fusebit Install API
+  slug: fusebit-install-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: The Install/Tags API from Fusebit — 4 operation(s) for install/tags.
+  name: Fusebit Install/Tags API
+  slug: fusebit-install-tags-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: The logic necessary to integrate between two services
+  name: Fusebit Integration API
+  slug: fusebit-integration-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: The Integration/Tags API from Fusebit — 3 operation(s) for integration/tags.
+  name: Fusebit Integration/Tags API
+  slug: fusebit-integration-tags-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: Issuer management operations
+  name: Fusebit Issuers API
+  slug: fusebit-issuers-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: The Registry API from Fusebit — 1 operation(s) for registry.
+  name: Fusebit Registry API
+  slug: fusebit-registry-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: An active configuration phase for a customer
+  name: Fusebit Session API
+  slug: fusebit-session-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: The Storage API from Fusebit — 3 operation(s) for storage.
+  name: Fusebit Storage API
+  slug: fusebit-storage-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: Subscription management operations
+  name: Fusebit Subscriptions API
+  slug: fusebit-subscriptions-api
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: User management operations
+  name: Fusebit Users API
+  slug: fusebit-users-api
+artifact_total: 23
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://fusebit.io
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/overlays/fusebit-core-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fusebit-core-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fusebit/refs/heads/main/overlays/fusebit-integrations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fusebit-integrations-overlay.yaml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -117,19 +216,19 @@ finops:
   slug: fusebit-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fusebit.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Fusebit
 nav: Providers
 network: true
-overview: 'Fusebit publishes 1 API on the [APIs.io](https://apis.io/) network: HTTP API. Tagged areas include Developer Tools, Embedded iPaaS, Integration, Serverless, and Authentication.
+overview: 'Fusebit publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Boundaries API, Clients API, and 15 more. Tagged areas include Developer Tools, Embedded iPaaS, Integration, Serverless, and Authentication.
 
 
-  Fusebit''s developer surface includes changelog, authentication, CLI, and 16 more developer resources.'
+  Fusebit''s developer surface includes changelog, authentication, CLI, and 19 more developer resources.'
 plans:
 - name: Fusebit Plans Pricing
   plan_count: 0
   slug: fusebit-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Fusebit Rate Limits
@@ -151,4 +250,6 @@ tags:
 - Serverless
 - Authentication
 - Acquired
+- Defunct
+website: https://fusebit.io
 ---

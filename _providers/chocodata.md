@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -35,10 +35,40 @@ api_count: 1
 apis:
 - baseURL: https://api.chocodata.com
   baseurl_source: declared
-  description: REST API (HTTP + JSON, API-key auth via ?api_key=) returning structured data from a catalog of sites. Endpoints include Product, Search, Universal Web Scraper, and Batch (async). Base host is api.choc
-  name: Chocodata Scraper API
-  slug: chocodata-scraper-api
-artifact_total: 8
+  description: The Amazon API from Chocodata — 3 operation(s) for amazon.
+  name: Chocodata Amazon API
+  slug: chocodata-amazon-api
+- baseURL: https://api.chocodata.com
+  baseurl_source: declared
+  description: The Chocodata API from Chocodata — 1 operation(s) for chocodata.
+  name: Chocodata Chocodata API
+  slug: chocodata-chocodata-api
+- baseURL: https://api.chocodata.com
+  baseurl_source: declared
+  description: The Reddit API from Chocodata — 1 operation(s) for reddit.
+  name: Chocodata Reddit API
+  slug: chocodata-reddit-api
+- baseURL: https://api.chocodata.com
+  baseurl_source: declared
+  description: The Universal API from Chocodata — 1 operation(s) for universal.
+  name: Chocodata Universal API
+  slug: chocodata-universal-api
+- baseURL: https://api.chocodata.com
+  baseurl_source: declared
+  description: The Youtube API from Chocodata — 2 operation(s) for youtube.
+  name: Chocodata Youtube API
+  slug: chocodata-youtube-api
+- baseURL: https://api.chocodata.com
+  baseurl_source: declared
+  description: The App Store API from Chocodata — 2 operation(s) for app store.
+  name: Chocodata App Store API
+  slug: chocodata-app-store-api
+- baseURL: https://api.chocodata.com
+  baseurl_source: declared
+  description: The Google Play API from Chocodata — 1 operation(s) for google play.
+  name: Chocodata Google Play API
+  slug: chocodata-google-play-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Chocodata Webhooks
@@ -213,7 +243,7 @@ modified: '2026-09-03'
 name: Chocodata
 nav: Providers
 network: true
-overview: 'Chocodata publishes 1 API on the [APIs.io](https://apis.io/) network: Scraper API. Tagged areas include Web Scraping, Data Extraction, SERP, E-Commerce Data, and social-media-data.
+overview: 'Chocodata publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Amazon API, Chocodata API, Reddit API, and 4 more. Tagged areas include Web Scraping, Data Extraction, SERP, E-Commerce Data, and social-media-data.
 
 
   The Chocodata catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -231,7 +261,7 @@ rate_limits:
   slug: chocodata-rate-limits
 score:
   band: strong
-  composite: 61.9
+  composite: 62.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 61.0
@@ -239,11 +269,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 55.7
+    contract_quality: 56.3
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 81.6
@@ -255,11 +285,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

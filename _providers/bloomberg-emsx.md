@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -105,6 +105,10 @@ collections:
   name: Bloomberg EMSX Trading API
   slug: open-bloomberg-emsx-trading
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/capabilities/bloomberg-emsx-capability-edges.yml
   title: ''
@@ -177,7 +181,7 @@ jsonld:
   property_count: 6
   slug: bloomberg-emsx-context
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg EMSX
 nav: Providers
 network: true
@@ -187,12 +191,12 @@ overview: 'Bloomberg EMSX publishes 6 APIs on the [APIs.io](https://apis.io/) ne
   The Bloomberg EMSX catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bloomberg EMSX''s developer surface includes authentication, developer portal, documentation, support, and 7 more developer resources.'
+  Bloomberg EMSX''s developer surface includes authentication, developer portal, documentation, support, and 8 more developer resources.'
 plans:
 - name: Bloomberg Emsx Plans Pricing
   plan_count: 3
   slug: bloomberg-emsx-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Bloomberg Emsx Rate Limits
@@ -241,7 +245,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -267,5 +271,5 @@ tags:
 - Financial-Services
 - Order Management
 - Trading
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

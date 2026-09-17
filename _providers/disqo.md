@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://projects-api.audience.disqo.com
@@ -158,11 +158,11 @@ modified: '2026-08-04'
 name: DISQO
 nav: Providers
 network: true
-overview: 'DISQO publishes 1 API on the [APIs.io](https://apis.io/) network: Audience Projects API. Tagged areas include Company, Audience, Market Research, Surveys, and Consumer Insights.
+overview: 'DISQO publishes 1 API on the [APIs.io](https://apis.io/) network: Audience Projects API. Tagged areas include Company, Audiences, Market Research, Surveys, and Consumer Insights.
 
 
   DISQO''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 14 more developer resources.'
-random_paper: 19
+random_paper: 16
 score:
   band: thin
   composite: 28.8
@@ -186,7 +186,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -205,7 +205,7 @@ security:
 slug: disqo
 tags:
 - Company
-- Audience
+- Audiences
 - Market Research
 - Surveys
 - Consumer Insights

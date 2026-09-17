@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The League platform API, served from the Kong-fronted gateway at api.league.com. Unauthenticated requests return an RFC-shaped JSON:API error document (content-type application/vnd.api+json) and carry
@@ -142,7 +142,7 @@ plans:
 - name: League Plans Pricing
   plan_count: 0
   slug: league-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: League Rate Limits
@@ -175,7 +175,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

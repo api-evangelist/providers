@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Review and try the existing APIs in the Mayo Clinic Apigee API catalog portal. Provides programmatic access to healthcare data and clinical services.
@@ -70,7 +70,7 @@ modified: '2026-04-28'
 name: Mayo Clinic
 nav: Providers
 network: true
-overview: 'Mayo Clinic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clinical Data, Healthcare, Hospital, and Medical.
+overview: 'Mayo Clinic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clinical Data, Healthcare, Hospitals, and Medical.
 
 
   Mayo Clinic''s developer surface includes developer portal and 3 more developer resources.'
@@ -78,7 +78,7 @@ plans:
 - name: Mayo Clinic Plans Pricing
   plan_count: 3
   slug: mayo-clinic-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Mayo Clinic Rate Limits
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -125,7 +125,7 @@ slug: mayo-clinic
 tags:
 - Clinical Data
 - Healthcare
-- Hospital
+- Hospitals
 - Medical
 website: https://www.mayoclinic.org/
 ---

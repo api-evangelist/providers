@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: HTTP/JSON API for Advanced Navigation's Kinematica cloud GNSS/INS post-processing kinematic (PPK) service. Eleven documented calls let a customer application create a data set, upload primary and seco
@@ -165,7 +165,7 @@ plans:
 - name: Advancednavigation Plans Pricing
   plan_count: 3
   slug: advancednavigation-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Advancednavigation Rate Limits
@@ -193,7 +193,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

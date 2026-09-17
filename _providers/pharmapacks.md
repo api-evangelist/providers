@@ -67,7 +67,7 @@ overview: 'Pharmapacks is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Pharmapacks'' developer surface includes support and 5 more developer resources.'
-random_paper: 8
+random_paper: 19
 screenshot: https://raw.githubusercontent.com/api-evangelist/pharmapacks/refs/heads/main/screenshots/pharmapacks-2026-09-02T151132.png
 security:
 - kind: domain-security

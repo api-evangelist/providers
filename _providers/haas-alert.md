@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,11 +78,11 @@ modified: '2026-07-19'
 name: HAAS Alert
 nav: Providers
 network: true
-overview: 'HAAS Alert is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Connected Vehicle, Road Safety, Emergency Response, and Fleet Telematics.
+overview: 'HAAS Alert is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Connected Vehicles, Road Safety, Emergency Response, and Fleet Telematics.
 
 
   HAAS Alert''s developer surface includes support, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 7
+random_paper: 4
 score:
   band: emerging
   composite: 13.0
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -122,7 +122,7 @@ security:
 slug: haas-alert
 tags:
 - Company
-- Connected Vehicle
+- Connected Vehicles
 - Road Safety
 - Emergency Response
 - Fleet Telematics

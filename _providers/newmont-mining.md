@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Newmont and Goldcorp Combine to Create World's ...
   url: https://www.newswire.ca/news-releases/newmont-and-goldcorp-combine-to-create-world-s-leading-gold-company-806405145.html
-random_paper: 14
+random_paper: 11
 score:
   band: minimal
   composite: 2.6
@@ -95,7 +95,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

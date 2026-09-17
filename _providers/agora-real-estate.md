@@ -23,22 +23,37 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://websiteapi.agorareal.com/wp-json
-  baseurl_source: declared
-  description: The anonymous, read-mostly content API behind agorareal.com. The marketing site is a headless WordPress install at websiteapi.agorareal.com fronted by a Next.js application, and its WordPress REST API
-  name: Agora Website Content API
-  slug: agora-website-content-api
 - description: 'The tenant-scoped HTTPS API behind Agora''s client platform and investor portal. Its existence and shape are established from Agora''s own production surface: certificate transparency shows per-tenant h'
   name: Agora Client Platform API
   slug: agora-client-platform-api
 - description: Agora's OAuth 2.0 / OpenID Connect authorization server, served on its own domain at auth.agorareal.com and reached by redirect from the Cortex sign-in host (cortex.agorareal.com → auth.agorareal.com/
   name: Agora Authorization Server
   slug: agora-authorization-server
-artifact_total: 9
+- baseURL: https://websiteapi.agorareal.com/wp-json
+  baseurl_source: declared
+  description: Agora's own first-party agora/v1 namespace.
+  name: Agora Real Estate Agora Content API
+  slug: agora-real-estate-agora-content-api
+- baseURL: https://websiteapi.agorareal.com/wp-json
+  baseurl_source: declared
+  description: Public read routes of the stock wp/v2 namespace.
+  name: Agora Real Estate WordPress Content API
+  slug: agora-real-estate-wordpress-content-api
+- baseURL: https://{tenant}.acp.agorareal.com/api
+  baseurl_source: declared
+  description: oEmbed representation of an agorareal.com URL.
+  name: Agora Real Estate o Embed API
+  slug: agora-real-estate-o-embed-api
+artifact_total: 11
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/overlays/agora-real-estate-website-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/agora-real-estate-website-content-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/security/agora-real-estate-domain-security.yml
   title: ''
@@ -149,15 +164,15 @@ modified: '2026-09-12'
 name: Agora Real Estate
 nav: Providers
 network: true
-overview: 'Agora Real Estate publishes 1 API on the [APIs.io](https://apis.io/) network: Agora Website Content API. Tagged areas include Real-Estate, Investment Management, Private Equity, Fund Administration, and Investor Relations.
+overview: 'Agora Real Estate publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agora Content API, WordPress Content API, and o Embed API. Tagged areas include Real-Estate, Investment Management, Private Equity, Fund Administration, and Investor Relations.
 
 
-  Agora Real Estate''s developer surface includes engineering blog, pricing, support, changelog, authentication, and 17 more developer resources.'
+  Agora Real Estate''s developer surface includes engineering blog, pricing, support, changelog, authentication, and 18 more developer resources.'
 plans:
 - name: Agora Real Estate Plans Pricing
   plan_count: 3
   slug: agora-real-estate-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Agora Real Estate Rate Limits
@@ -192,7 +207,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: first-party
     skills: derived
   regulatory:
@@ -206,7 +221,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

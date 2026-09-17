@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: Submit orders to Riskified for fraud and chargeback risk evaluation, in either a pre-authorization (Decide / Decision) or post-authorization (Submit / Decide) flow. Returns an APPROVED, DECLINED, or S
@@ -296,7 +296,7 @@ overview: 'Riskified publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Riskified''s developer surface includes developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, pricing, and 42 more developer resources.'
-random_paper: 9
+random_paper: 8
 score:
   band: thin
   composite: 34.7
@@ -323,7 +323,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -356,7 +356,7 @@ tags:
 - Machine-Learning
 - Account Takeover
 - Policy Abuse
-- 3DS
+- 3D
 - PSD2
 - Returns
 use_cases:

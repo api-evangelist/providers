@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -162,6 +162,10 @@ collections:
   name: QuickBooks Online Accounting API
   slug: open-quickbooks-accounting
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://intuit.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/capabilities/intuit-capability-edges.yml
   title: ''
@@ -634,7 +638,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Intuit
 nav: Providers
 network: true
@@ -644,7 +648,7 @@ overview: 'Intuit publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Intuit catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Intuit''s developer surface includes authentication, signup flow, engineering blog, support, sandbox, developer console, FAQ, and 44 more developer resources.'
+  Intuit''s developer surface includes authentication, signup flow, engineering blog, support, sandbox, developer console, FAQ, and 45 more developer resources.'
 plans:
 - name: Intuit Plans Pricing
   plan_count: 3
@@ -665,7 +669,7 @@ press:
 - date: '2026-05-25'
   title: Intuit and OpenAI Join Forces to Revolutionize Financial ...
   url: https://investors.intuit.com/news-events/press-releases/detail/1284/intuit-and-openai-join-forces-to-revolutionize-financial-intelligence-powering-every-person-business-and-dream-with-personalized-experiences
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Intuit Rate Limits
@@ -741,7 +745,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -770,7 +774,6 @@ tags:
 - Small Business
 - Tax
 - Tax Preparation
-- Taxes
 - Time Tracking
 - Fortune 1000
 use_cases:
@@ -784,5 +787,5 @@ use_cases:
   name: Tax Compliance
 - description: Build custom financial reports and dashboards by querying QuickBooks accounting data programmatically.
   name: Financial Reporting
-website: https://developer.intuit.com
+website: https://intuit.com
 ---

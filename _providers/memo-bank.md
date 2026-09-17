@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://api.memo.bank
@@ -68,19 +68,9 @@ apis:
   slug: memo-bank-collections-api
 - baseURL: https://api.memo.bank
   baseurl_source: declared
-  description: 'IBANs are identifiers for bank accounts. There are two types of IBANs at Memo Bank: * Main IBANs, which act as primary identifiers for a bank account. There is exactly one main IBAN per bank account. '
-  name: Memo Bank IBA Ns API
-  slug: memo-bank-ibans-api
-- baseURL: https://api.memo.bank
-  baseurl_source: declared
   description: Mandate signature requests are a way to prepare and send collection mandates for signature. The mandate debtor receives an email with a link so they can complete and sign the mandate. Once it has been
   name: Memo Bank Mandate signature requests API
   slug: memo-bank-mandate-signature-requests-api
-- baseURL: https://api.memo.bank
-  baseurl_source: declared
-  description: OAuth2 token management endpoints.
-  name: Memo Bank O Auth2 API
-  slug: memo-bank-oauth2-api
 - baseURL: https://api.memo.bank
   baseurl_source: declared
   description: Payment Initiation Service. Payment initiation is done using the **integrated OAuth2** authentication flow described in NextGenPSD2 specifications. This means you first have to initiate a payment usin
@@ -116,6 +106,16 @@ apis:
   description: Wire transfers are transfers going through Swift. They allow you to send funds outside the SEPA network and to transfer money in foreign currencies. Initiating a wire transfer may require you to uploa
   name: Memo Bank Wire Transfers API
   slug: memo-bank-wire-transfers-api
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: 'IBANs are identifiers for bank accounts. There are two types of IBANs at Memo Bank: * Main IBANs, which act as primary identifiers for a bank account. There is exactly one main IBAN per bank account. '
+  name: Memo Bank IBA Ns API
+  slug: memo-bank-ibans-api
+- baseURL: https://api.memo.bank
+  baseurl_source: declared
+  description: OAuth2 token management endpoints.
+  name: Memo Bank O Auth2 API
+  slug: memo-bank-oauth2-api
 artifact_total: 23
 asyncapis:
 - description: ''
@@ -343,7 +343,7 @@ plans:
 - name: Memo Bank Plans Pricing
   plan_count: 2
   slug: memo-bank-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Memo Bank Rate Limits
@@ -406,7 +406,7 @@ score:
     regime_id: banking_open_finance
     score: 87.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

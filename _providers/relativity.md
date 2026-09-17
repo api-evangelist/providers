@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 421
   human_in_the_loop: 21
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 733
   slug: relativity-agentic-access
   summary_line: 733 operations · 421 acting · 21 human-in-the-loop
-api_count: 31
+api_count: 32
 apis:
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
@@ -161,11 +161,6 @@ apis:
   slug: relativity-import-source-module-api
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
-  description: The JobActions API from Relativity — 2 operation(s) for jobactions.
-  name: Relativity JobActions API
-  slug: relativity-jobactions-api
-- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
-  baseurl_source: declared
   description: The JobInformation API from Relativity — 1 operation(s) for jobinformation.
   name: Relativity JobInformation API
   slug: relativity-jobinformation-api
@@ -222,48 +217,43 @@ apis:
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
   description: The Relativity Automated Workflows API from Relativity — 4 operation(s) for relativity automated workflows.
-  name: Relativity Relativity Automated Workflows API
+  name: Relativity Automated Workflows API
   slug: relativity-relativity-automated-workflows-api
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
   description: The Relativity Environment Module v1 API from Relativity — 93 operation(s) for relativity environment module v1.
-  name: Relativity Relativity Environment Module v1 API
+  name: Relativity Environment Module v1 API
   slug: relativity-relativity-environment-module-v1-api
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
   description: The Relativity Infrastructure Module v1 API from Relativity — 70 operation(s) for relativity infrastructure module v1.
-  name: Relativity Relativity Infrastructure Module v1 API
+  name: Relativity Infrastructure Module v1 API
   slug: relativity-relativity-infrastructure-module-v1-api
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
   description: The Relativity Mass Operation Module v2 API from Relativity — 26 operation(s) for relativity mass operation module v2.
-  name: Relativity Relativity Mass Operation Module v2 API
+  name: Relativity Mass Operation Module v2 API
   slug: relativity-relativity-mass-operation-module-v2-api
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
   description: The Relativity Notifications Module v1 API from Relativity — 1 operation(s) for relativity notifications module v1.
-  name: Relativity Relativity Notifications Module v1 API
+  name: Relativity Notifications Module v1 API
   slug: relativity-relativity-notifications-module-v1-api
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
   description: The Relativity Pivot Module v1 API from Relativity — 7 operation(s) for relativity pivot module v1.
-  name: Relativity Relativity Pivot Module v1 API
+  name: Relativity Pivot Module v1 API
   slug: relativity-relativity-pivot-module-v1-api
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
   description: The Relativity Structured Analytics v1 API from Relativity — 10 operation(s) for relativity structured analytics v1.
-  name: Relativity Relativity Structured Analytics v1 API
+  name: Relativity Structured Analytics v1 API
   slug: relativity-relativity-structured-analytics-v1-api
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
   description: The Reports API from Relativity — 7 operation(s) for reports.
   name: Relativity Reports API
   slug: relativity-reports-api
-- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
-  baseurl_source: declared
-  description: The RestoreJobs API from Relativity — 2 operation(s) for restorejobs.
-  name: Relativity RestoreJobs API
-  slug: relativity-restorejobs-api
 - baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
   baseurl_source: declared
   description: The ShortMessageViewerService API from Relativity — 5 operation(s) for shortmessageviewerservice.
@@ -299,7 +289,22 @@ apis:
   description: The WorkspaceJob API from Relativity — 2 operation(s) for workspacejob.
   name: Relativity WorkspaceJob API
   slug: relativity-workspacejob-api
-artifact_total: 115
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: Tab Manager is an API which exposes methods for interacting with tab objects in Relativity.
+  name: Relativity Tab Manager v1 API
+  slug: relativity-tab-manager-v1-api
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Job Actions API from Relativity — 2 operation(s) for job actions.
+  name: Relativity Job Actions API
+  slug: relativity-job-actions-api
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Restore Jobs API from Relativity — 2 operation(s) for restore jobs.
+  name: Relativity Restore Jobs API
+  slug: relativity-restore-jobs-api
+artifact_total: 116
 collections:
 - collection_type: open
   name: API Collection
@@ -461,6 +466,10 @@ collections:
   name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService WorkspaceJob API
   slug: open-relativity-workspacejob-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://relativity.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/capabilities/relativity-capability-edges.yml
   title: ''
@@ -577,22 +586,22 @@ jsonld:
   property_count: 22
   slug: relativity-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Relativity
 nav: Providers
 network: true
-overview: 'Relativity publishes 51 APIs on the [APIs.io](https://apis.io/) network, including AnnotationService API, ArchiveJobs API, ARM Module v1 API, and 48 more. Tagged areas include eDiscovery, Legal, Document Review, Legal Technology, and Data Processing.
+overview: 'Relativity publishes 52 APIs on the [APIs.io](https://apis.io/) network, including AnnotationService API, ArchiveJobs API, ARM Module v1 API, and 49 more. Tagged areas include eDiscovery, Legal, Document Review, Legal Technology, and Data Processing.
 
 
   The Relativity catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Relativity''s developer surface includes authentication, documentation, getting-started guide, changelog, GitHub presence, pricing, engineering blog, and 16 more developer resources.'
+  Relativity''s developer surface includes authentication, documentation, getting-started guide, changelog, GitHub presence, pricing, engineering blog, and 17 more developer resources.'
 plans:
 - name: Relativity Plans Pricing
   plan_count: 3
   slug: relativity-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Relativity Rate Limits
@@ -604,7 +613,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 46.4
+  composite: 47.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 71.0
@@ -612,11 +621,11 @@ score:
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 57.9
     contract_governance: 0.0
-    contract_quality: 56.7
+    contract_quality: 60.8
     developer_ergonomics: 45.2
     discoverability: 68.5
     operational_transparency: 42.1
@@ -624,12 +633,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 7.8
       derived: 0
       marker_coverage: 0.0
       total: 53
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -662,5 +671,5 @@ tags:
 - AI Review
 - Litigation
 - Compliance
-website: https://platform.relativity.com/RelativityOne/Content/Relativity_Platform/Platform_APIs.htm
+website: https://relativity.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,14 +75,14 @@ apis:
   slug: gotham-greens-discovery-api
 - baseURL: https://www.gothamgreens.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for gothamgreens.com URLs, returning embeddable rich metadata for Journal posts and site pages.
-  name: Gotham Greens oEmbed API
-  slug: gotham-greens-oembed-api
-- baseURL: https://www.gothamgreens.com/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its JSON-LD schema graph for any gothamgreens.com URL.
   name: Gotham Greens SEO Metadata API
   slug: gotham-greens-seo-api
+- baseURL: https://www.gothamgreens.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 discovery for Gotham Greens site URLs.
+  name: Gotham Greens o Embed API
+  slug: gotham-greens-o-embed-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -110,6 +110,11 @@ collections:
   name: Gotham Greens Taxonomy API
   slug: open-gotham-greens-taxonomy-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/overlays/gotham-greens-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/gotham-greens-oembed-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/capabilities/gotham-greens-capability-edges.yml
   title: ''
@@ -253,8 +258,8 @@ network: true
 overview: 'Gotham Greens publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Journal Posts API, Pages API, Media API, and 5 more. Tagged areas include Company, Agriculture, Controlled Environment Agriculture, Hydroponics, and Food.
 
 
-  Gotham Greens'' developer surface includes engineering blog, support, authentication, code examples, and 25 more developer resources.'
-random_paper: 6
+  Gotham Greens'' developer surface includes engineering blog, support, authentication, code examples, and 26 more developer resources.'
+random_paper: 9
 score:
   band: thin
   composite: 37.4
@@ -285,7 +290,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

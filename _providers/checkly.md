@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -128,11 +128,6 @@ apis:
   description: The Check status API from Checkly — 2 operation(s) for check status.
   name: Checkly Check status API
   slug: checkly-check-status-api
-- baseURL: https://api.checklyhq.com
-  baseurl_source: declared
-  description: The Client certificates API from Checkly — 4 operation(s) for client certificates.
-  name: Checkly Client certificates API
-  slug: checkly-client-certificates-api
 - baseURL: https://api.checklyhq.com
   baseurl_source: declared
   description: The Deployment Triggers API from Checkly — 2 operation(s) for deployment triggers.
@@ -253,6 +248,11 @@ apis:
   description: The Triggers API from Checkly — 9 operation(s) for triggers.
   name: Checkly Triggers API
   slug: checkly-triggers-api
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Clientcertificates API from Checkly — 2 operation(s) for clientcertificates.
+  name: Checkly Clientcertificates API
+  slug: checkly-clientcertificates-api
 artifact_total: 73
 asyncapis:
 - description: ''
@@ -571,7 +571,7 @@ plans:
 - name: Checkly Plans Pricing
   plan_count: 4
   slug: checkly-plans-pricing
-random_paper: 4
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Checkly Rate Limits
@@ -611,7 +611,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

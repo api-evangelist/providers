@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1250
   human_in_the_loop: 41
@@ -47,19 +47,9 @@ api_count: 2
 apis:
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
-  description: Add & Manage Access Controls
-  name: Kaltura accessControl API
-  slug: kaltura-accesscontrol-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
   description: Manage access control profiles
   name: Kaltura accessControlProfile API
   slug: kaltura-accesscontrolprofile-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
-  description: Manage details for the administrative user
-  name: Kaltura adminUser API
-  slug: kaltura-adminuser-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
   description: api for getting analytics data
@@ -125,11 +115,6 @@ apis:
   description: Att Uverse Service
   name: Kaltura attUverse API
   slug: kaltura-attuverse-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
-  description: The Audit Trail service allows you to keep track of changes made to various Kaltura objects. This service is disabled by default.
-  name: Kaltura auditTrail API
-  slug: kaltura-audittrail-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
   description: AVN service
@@ -432,11 +417,6 @@ apis:
   slug: kaltura-eventnotificationtemplate-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
-  description: Export CSV service is used to manage CSV exports of objects
-  name: Kaltura exportcsv API
-  slug: kaltura-exportcsv-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
   description: The exportTask API from Kaltura — 5 operation(s) for exporttask.
   name: Kaltura exportTask API
   slug: kaltura-exporttask-api
@@ -445,11 +425,6 @@ apis:
   description: The externalChannelProfile API from Kaltura — 4 operation(s) for externalchannelprofile.
   name: Kaltura externalChannelProfile API
   slug: kaltura-externalchannelprofile-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
-  description: External media service lets you upload and manage embed codes and external playable content
-  name: Kaltura externalMedia API
-  slug: kaltura-externalmedia-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
   description: The favorite API from Kaltura — 3 operation(s) for favorite.
@@ -505,11 +480,6 @@ apis:
   description: The group API from Kaltura — 6 operation(s) for group.
   name: Kaltura group API
   slug: kaltura-group-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
-  description: Add & Manage GroupUser
-  name: Kaltura groupUser API
-  slug: kaltura-groupuser-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
   description: The homeNetwork API from Kaltura — 4 operation(s) for homenetwork.
@@ -627,24 +597,9 @@ apis:
   slug: kaltura-media-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
-  description: The mediaFile API from Kaltura — 4 operation(s) for mediafile.
-  name: Kaltura mediaFile API
-  slug: kaltura-mediafile-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
   description: The mediaFileType API from Kaltura — 4 operation(s) for mediafiletype.
   name: Kaltura mediaFileType API
   slug: kaltura-mediafiletype-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
-  description: Media Info service
-  name: Kaltura mediaInfo API
-  slug: kaltura-mediainfo-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
-  description: The messageTemplate API from Kaltura — 2 operation(s) for messagetemplate.
-  name: Kaltura messageTemplate API
-  slug: kaltura-messagetemplate-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
   description: The meta API from Kaltura — 4 operation(s) for meta.
@@ -717,11 +672,6 @@ apis:
   slug: kaltura-partnercatalogitem-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
-  description: The partnerConfiguration API from Kaltura — 1 operation(s) for partnerconfiguration.
-  name: Kaltura partnerConfiguration API
-  slug: kaltura-partnerconfiguration-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
   description: The paymentGatewayProfile API from Kaltura — 6 operation(s) for paymentgatewayprofile.
   name: Kaltura paymentGatewayProfile API
   slug: kaltura-paymentgatewayprofile-api
@@ -785,11 +735,6 @@ apis:
   description: The pricePlan API from Kaltura — 2 operation(s) for priceplan.
   name: Kaltura pricePlan API
   slug: kaltura-priceplan-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
-  description: The productPrice API from Kaltura — 1 operation(s) for productprice.
-  name: Kaltura productPrice API
-  slug: kaltura-productprice-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
   description: The purchaseSettings API from Kaltura — 2 operation(s) for purchasesettings.
@@ -887,11 +832,6 @@ apis:
   slug: kaltura-seriesrecording-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
-  description: Server Node service
-  name: Kaltura serverNode API
-  slug: kaltura-servernode-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
   description: The session API from Kaltura — 8 operation(s) for session.
   name: Kaltura session API
   slug: kaltura-session-api
@@ -900,11 +840,6 @@ apis:
   description: Kaltura Sharepoint Extension Service
   name: Kaltura sharepointExtension API
   slug: kaltura-sharepointextension-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
-  description: Short link service
-  name: Kaltura shortLink API
-  slug: kaltura-shortlink-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
   description: The social API from Kaltura — 8 operation(s) for social.
@@ -1017,11 +952,6 @@ apis:
   slug: kaltura-transaction-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
-  description: The transactionHistory API from Kaltura — 1 operation(s) for transactionhistory.
-  name: Kaltura transactionHistory API
-  slug: kaltura-transactionhistory-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
   description: TVCom service
   name: Kaltura tvCom API
   slug: kaltura-tvcom-api
@@ -1082,16 +1012,6 @@ apis:
   slug: kaltura-userloginpin-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
-  description: The userRole API from Kaltura — 6 operation(s) for userrole.
-  name: Kaltura userRole API
-  slug: kaltura-userrole-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
-  description: The userScore API from Kaltura — 3 operation(s) for userscore.
-  name: Kaltura userScore API
-  slug: kaltura-userscore-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
   description: Uverse Service
   name: Kaltura uverse API
   slug: kaltura-uverse-api
@@ -1147,14 +1067,94 @@ apis:
   slug: kaltura-widget-api
 - baseURL: https://www.kaltura.com/api_v3
   baseurl_source: declared
-  description: Internal Service is used for actions that are used internally in Kaltura applications and might be changed in the future without any notice.
-  name: Kaltura xInternal API
-  slug: kaltura-xinternal-api
-- baseURL: https://www.kaltura.com/api_v3
-  baseurl_source: declared
   description: The zoomVendor API from Kaltura — 9 operation(s) for zoomvendor.
   name: Kaltura zoomVendor API
   slug: kaltura-zoomvendor-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: Add & Manage Access Controls
+  name: Kaltura Access Control API
+  slug: kaltura-access-control-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: Manage details for the administrative user
+  name: Kaltura Admin User API
+  slug: kaltura-admin-user-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: The Audit Trail service allows you to keep track of changes made to various Kaltura objects. This service is disabled by default.
+  name: Kaltura Audit Trail API
+  slug: kaltura-audit-trail-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: Export CSV service is used to manage CSV exports of objects
+  name: Kaltura Export Csv API
+  slug: kaltura-export-csv-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: External media service lets you upload and manage embed codes and external playable content
+  name: Kaltura external Media API
+  slug: kaltura-external-media-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: Add & Manage GroupUser
+  name: Kaltura Group User API
+  slug: kaltura-group-user-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: The media File API from Kaltura — 4 operation(s) for media file.
+  name: Kaltura media File API
+  slug: kaltura-media-file-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: Media Info service
+  name: Kaltura Media Info API
+  slug: kaltura-media-info-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: The Message Template API from Kaltura — 2 operation(s) for message template.
+  name: Kaltura Message Template API
+  slug: kaltura-message-template-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: The Partner Configuration API from Kaltura — 1 operation(s) for partner configuration.
+  name: Kaltura Partner Configuration API
+  slug: kaltura-partner-configuration-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: The Product Price API from Kaltura — 1 operation(s) for product price.
+  name: Kaltura Product Price API
+  slug: kaltura-product-price-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: Server Node service
+  name: Kaltura Server Node API
+  slug: kaltura-server-node-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: Short link service
+  name: Kaltura Short Link API
+  slug: kaltura-short-link-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: The Transaction History API from Kaltura — 1 operation(s) for transaction history.
+  name: Kaltura Transaction History API
+  slug: kaltura-transaction-history-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: The User Role API from Kaltura — 6 operation(s) for user role.
+  name: Kaltura User Role API
+  slug: kaltura-user-role-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: The User Score API from Kaltura — 3 operation(s) for user score.
+  name: Kaltura User Score API
+  slug: kaltura-user-score-api
+- baseURL: https://www.kaltura.com/api_v3
+  baseurl_source: declared
+  description: Internal Service is used for actions that are used internally in Kaltura applications and might be changed in the future without any notice.
+  name: Kaltura x Internal API
+  slug: kaltura-x-internal-api
 artifact_total: 491
 collections:
 - collection_type: open
@@ -2028,7 +2028,7 @@ modified: '2026-06-13'
 name: Kaltura
 nav: Providers
 network: true
-overview: 'Kaltura publishes 222 APIs on the [APIs.io](https://apis.io/) network, including accessControl API, accessControlProfile API, adminUser API, and 219 more. Tagged areas include Video, Live Streaming, Transcoding, Media Management, and Player.
+overview: 'Kaltura publishes 222 APIs on the [APIs.io](https://apis.io/) network, including accessControlProfile API, analytics API, annotation API, and 219 more. Tagged areas include Video, Live Streaming, Transcoding, Media Management, and Player.
 
 
   The Kaltura catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -2039,7 +2039,7 @@ plans:
 - name: Kaltura Plans Pricing
   plan_count: 6
   slug: kaltura-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Kaltura Rate Limits
@@ -2057,7 +2057,7 @@ rules:
   slug: kaltura-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 48.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 65.3
@@ -2065,11 +2065,11 @@ score:
     catalog_gap: 49.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 58.2
+    contract_quality: 62.6
     developer_ergonomics: 35.7
     discoverability: 44.4
     operational_transparency: 52.6
@@ -2077,12 +2077,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 60.8
       derived: 0
       marker_coverage: 0.0
       total: 222
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

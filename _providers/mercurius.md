@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GraphQL adapter for Fastify enabling high-performance GraphQL servers and gateways with JIT compilation, query caching, subscriptions, and federation.
@@ -96,7 +96,7 @@ overview: 'Mercurius publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Mercurius'' developer surface includes documentation and 8 more developer resources.'
-random_paper: 4
+random_paper: 1
 score:
   band: emerging
   composite: 19.2
@@ -117,7 +117,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

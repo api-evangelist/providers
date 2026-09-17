@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 197
   human_in_the_loop: 5
@@ -4679,7 +4679,7 @@ plans:
 - name: Merge Plans Pricing
   plan_count: 5
   slug: merge-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Merge Rate Limits
@@ -4734,7 +4734,7 @@ score:
       total: 117
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

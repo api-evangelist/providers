@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The AnnounceKit API provides GraphQL and REST endpoints for programmatically creating and updating posts, syncing user data, managing widgets, and automating product changelog workflows. Supports 11 w
@@ -195,7 +195,7 @@ plans:
 - name: Announcekit Plans Pricing
   plan_count: 5
   slug: announcekit-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Announcekit Rate Limits
@@ -229,7 +229,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

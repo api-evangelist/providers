@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 2
+- acting_count: 64
   human_in_the_loop: 0
   name: Fairmarkit Agentic Access
-  operation_count: 5
+  operation_count: 118
   slug: fairmarkit-agentic-access
-  summary_line: 5 operations · 2 acting
+  summary_line: 118 operations · 64 acting
 api_count: 2
 apis:
 - baseURL: https://staging.fairmarkit.com
@@ -345,7 +345,7 @@ overview: 'Fairmarkit publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fairmarkit''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 22 more developer resources.'
-random_paper: 16
+random_paper: 10
 score:
   band: developing
   composite: 49.6
@@ -360,7 +360,7 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 64.2
+    contract_quality: 64.1
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 44.7
@@ -376,7 +376,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

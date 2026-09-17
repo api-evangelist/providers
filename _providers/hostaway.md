@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -326,7 +326,7 @@ modified: '2026-05-25'
 name: Hostaway
 nav: Providers
 network: true
-overview: 'Hostaway publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Listings API, Reservations API, Calendar API, and 7 more. Tagged areas include Vacation Rentals, Short-Term Rentals, Property Management, Channel Manager, and Airbnb.
+overview: 'Hostaway publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Listings API, Reservations API, Calendar API, and 7 more. Tagged areas include Vacation Rentals, Short-Term Rental, Property Management, Channel Manager, and Airbnb.
 
 
   The Hostaway catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -337,7 +337,7 @@ plans:
 - name: Hostaway Plans Pricing
   plan_count: 2
   slug: hostaway-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Hostaway Rate Limits
@@ -385,7 +385,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -403,7 +403,7 @@ security:
 slug: hostaway
 tags:
 - Vacation Rentals
-- Short-Term Rentals
+- Short-Term Rental
 - Property Management
 - Channel Manager
 - Airbnb

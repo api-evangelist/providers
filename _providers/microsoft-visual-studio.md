@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The Visual Studio Extensibility API enables developers to create extensions that customize and extend Visual Studio IDE functionality. Extensions can add custom tool windows, commands, code analyzers,
@@ -132,7 +132,7 @@ plans:
 - name: Microsoft Visual Studio Plans Pricing
   plan_count: 3
   slug: microsoft-visual-studio-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Microsoft Visual Studio Rate Limits
@@ -157,7 +157,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 28.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -31,15 +31,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 52.0
-  scored_at: '2026-09-15'
+  score: 54.5
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,16 +52,6 @@ apis:
 - description: Regal publishes 40+ reporting webhook event types covering agent activity, call lifecycle (placed, completed, IVR triggered, wrapup), call recording and transcript availability, AI call analysis, task
   name: Regal Reporting Webhooks
   slug: regal-reporting-webhooks
-- baseURL: https://api.regal.ai/v1
-  baseurl_source: declared
-  description: Carrier-level branded caller ID and spam remediation
-  name: Regal Branded Phone Numbers API
-  slug: regal-ai-branded-phone-numbers-api
-- baseURL: https://api.regal.ai/v1
-  baseurl_source: declared
-  description: The Business Profiles API from Regal — 1 operation(s) for business profiles.
-  name: Regal Business Profiles API
-  slug: regal-ai-business-profiles-api
 - baseURL: https://api.regal.ai/v1
   baseurl_source: declared
   description: The Campaigns API from Regal — 1 operation(s) for campaigns.
@@ -84,19 +74,29 @@ apis:
   slug: regal-ai-messages-api
 - baseURL: https://api.regal.ai/v1
   baseurl_source: declared
-  description: The Phone Numbers API from Regal — 1 operation(s) for phone numbers.
-  name: Regal Phone Numbers API
-  slug: regal-ai-phone-numbers-api
-- baseURL: https://api.regal.ai/v1
-  baseurl_source: declared
   description: List and retrieve Regal user accounts — both human agents and AI agents — with their skills, teams, custom attributes and eligible routing queues. List Users supports cursor pagination and filtering b
   name: Regal Users API
   slug: regal-ai-users-api
 - baseURL: https://api.regal.ai/v1
   baseurl_source: declared
-  description: Retrieve routing instructions and call metadata after a Regal AI voice agent leaves a live call. The response carries the routing decision (route.type of skill, external, agent or hangup, plus route.v
+  description: The ActivePhoneNumbers API from Regal — 1 operation(s) for activephonenumbers.
+  name: Regal Active Phone Numbers API
+  slug: regal-ai-activephonenumbers-api
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: The BrandedPhoneNumbers API from Regal — 2 operation(s) for brandedphonenumbers.
+  name: Regal Branded Phone Numbers API
+  slug: regal-ai-brandedphonenumbers-api
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: The BusinessProfiles API from Regal — 1 operation(s) for businessprofiles.
+  name: Regal Business Profiles API
+  slug: regal-ai-businessprofiles-api
+- baseURL: https://api.regal.ai/v1
+  baseurl_source: declared
+  description: The CallHandoffs API from Regal — 1 operation(s) for callhandoffs.
   name: Regal Call Handoffs API
-  slug: regal-ai-call-handoffs-api
+  slug: regal-ai-callhandoffs-api
 artifact_total: 71
 asyncapis:
 - description: Regal Reporting Webhooks deliver 40+ event types covering agent activity, call lifecycle, recordings and transcripts, AI analysis, tasks, SMS, MMS, email, voicemail, contact lifecycle, scheduling, and
@@ -161,6 +161,26 @@ collections:
   name: Regal Messages API
   slug: open-regal-messages-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/overlays/regal-ai-branded-phone-numbers-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/regal-ai-branded-phone-numbers-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/overlays/regal-ai-business-profiles-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/regal-ai-business-profiles-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/overlays/regal-ai-phone-numbers-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/regal-ai-phone-numbers-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/overlays/regal-ai-call-handoffs-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/regal-ai-call-handoffs-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -611,18 +631,18 @@ modified: '2026-08-14'
 name: Regal
 nav: Providers
 network: true
-overview: 'Regal publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Reporting Webhooks, Branded Phone Numbers API, Business Profiles API, and 7 more. Tagged areas include Artificial Intelligence, AI Agents, Voice AI, Contact Center, and Outbound Calling.
+overview: 'Regal publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Reporting Webhooks, Campaigns API, Dispositions API, and 7 more. Tagged areas include Artificial Intelligence, AI Agents, Voice AI, Contact Center, and Outbound Calling.
 
 
   The Regal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Regal''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, signup flow, pricing, and 78 more developer resources.'
+  Regal''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, signup flow, pricing, and 82 more developer resources.'
 plans:
 - name: Regal Ai Plans Pricing
   plan_count: 1
   slug: regal-ai-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 8
   name: Regal Ai Rate Limits
@@ -667,7 +687,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 77.1
+  composite: 76.7
   coverage:
     artifact_dirs: 33
     catalog_earned: 85.5
@@ -675,11 +695,11 @@ score:
     catalog_gap: 29.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 72.4
     contract_governance: 47.0
-    contract_quality: 79.7
+    contract_quality: 78.4
     developer_ergonomics: 63.7
     discoverability: 72.2
     operational_transparency: 84.2
@@ -706,7 +726,7 @@ score:
     regime_id: telecommunications
     score: 75.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -55,7 +55,7 @@ overview: 'Upsight is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Upsight''s developer surface includes documentation, API reference, and 5 more developer resources.'
-random_paper: 16
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsight/refs/heads/main/screenshots/upsight-2026-09-02T165208.png
 slug: upsight
 tags:

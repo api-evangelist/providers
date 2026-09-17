@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'DEPRECATED / HISTORICAL. The Search Recipes endpoint (GET http://api.yummly.com/v1/api/recipes) returned recipe matches as JSON with optional filters combined via AND - free-text query (q), maxResult '
@@ -90,7 +90,7 @@ plans:
 - name: Yummly Plans Pricing
   plan_count: 4
   slug: yummly-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Yummly Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

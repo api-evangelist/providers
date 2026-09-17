@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,6 +92,10 @@ collections:
   name: Amazon QuickSight API
   slug: open-amazon-quicksight
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/agentic-access/amazon-quicksight-agentic-access.yml
   title: ''
@@ -371,7 +375,7 @@ jsonld:
   property_count: 7
   slug: amazon-quicksight-schema.json-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon QuickSight
 nav: Providers
 network: true
@@ -381,12 +385,12 @@ overview: 'Amazon QuickSight publishes 2 APIs on the [APIs.io](https://apis.io/)
   The Amazon QuickSight catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon QuickSight''s developer surface includes authentication, engineering blog, support, developer portal, CLI, documentation, pricing, and 39 more developer resources.'
+  Amazon QuickSight''s developer surface includes authentication, engineering blog, support, developer portal, CLI, documentation, pricing, and 40 more developer resources.'
 plans:
 - name: Amazon Quicksight Plans Pricing
   plan_count: 3
   slug: amazon-quicksight-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Quicksight Rate Limits
@@ -440,7 +444,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -469,5 +473,5 @@ tags:
 - Machine-Learning
 - Reporting
 - Visualization
-website: https://quicksight.aws.amazon.com/
+website: https://amazon.com
 ---

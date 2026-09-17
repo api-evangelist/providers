@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 18
 apis:
 - description: First-party remote Model Context Protocol server exposing 35 tools across Email, SMS, WhatsApp, Web Push, Mobile App and Architect — 28 read-only and 7 that create drafts for human review. Authenticat
@@ -162,11 +162,11 @@ apis:
   description: The Web Push APIs API from Insider — 3 operation(s) for web push apis.
   name: Insider Web Push APIs API
   slug: insider-web-push-apis-api
-- baseURL: https://unification.useinsider.com
+- baseURL: https://mcp.insiderone.com/mcp
   baseurl_source: declared
-  description: The WhatsApp API from Insider — 4 operation(s) for whatsapp.
+  description: The Whats App API from Insider — 4 operation(s) for whats app.
   name: Insider Whats App API
-  slug: insider-whatsapp-api
+  slug: insider-whats-app-api
 artifact_total: 53
 asyncapis:
 - description: ''
@@ -511,7 +511,7 @@ plans:
 - name: Insider Plans Pricing
   plan_count: 0
   slug: insider-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 60
   name: Insider Rate Limits
@@ -560,7 +560,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ overview: 'Uncapped publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Uncapped''s developer surface includes authentication, documentation, getting-started guide, API reference, changelog, sandbox, and 16 more developer resources.'
-random_paper: 8
+random_paper: 12
 score:
   band: thin
   composite: 31.9
@@ -244,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

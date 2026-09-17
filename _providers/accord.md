@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 14
 common:
@@ -91,7 +91,7 @@ modified: '2026-05-16'
 name: Accord
 nav: Providers
 network: true
-overview: 'Accord is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Insurance, United Kingdom, and Mortgages.
+overview: 'Accord is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Insurance, United Kingdom, and Mortgage.
 
 
   Accord''s developer surface includes authentication and 3 more developer resources.'
@@ -99,7 +99,7 @@ plans:
 - name: Accord Plans Pricing
   plan_count: 1
   slug: accord-plans-pricing
-random_paper: 11
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Accord Rate Limits
@@ -138,7 +138,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -149,7 +149,7 @@ tags:
 - Financial-Services
 - Insurance
 - United Kingdom
-- Mortgages
+- Mortgage
 use_cases:
 - description: Authorized intermediaries originating residential and buy-to-let mortgages on behalf of UK borrowers.
   name: Broker-Originated Mortgages

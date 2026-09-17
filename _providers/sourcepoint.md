@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
@@ -40,16 +40,6 @@ apis:
   description: The GDPR reporting API API from Sourcepoint — 2 operation(s) for gdpr reporting api.
   name: Sourcepoint GDPR reporting API
   slug: sourcepoint-gdpr-reporting-api-api
-- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
-  baseurl_source: declared
-  description: The GDPR Standard end-user consent status API from Sourcepoint — 2 operation(s) for gdpr standard end-user consent status.
-  name: Sourcepoint GDPR Standard end-user consent status API
-  slug: sourcepoint-gdpr-standard-end-user-consent-status-api
-- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
-  baseurl_source: declared
-  description: The GDPR Standard vendor list API from Sourcepoint — 2 operation(s) for gdpr standard vendor list.
-  name: Sourcepoint GDPR Standard vendor list API
-  slug: sourcepoint-gdpr-standard-vendor-list-api
 - baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
   baseurl_source: declared
   description: The GDPR TCF end-user consent status API from Sourcepoint — 3 operation(s) for gdpr tcf end-user consent status.
@@ -60,11 +50,6 @@ apis:
   description: The GDPR TCF vendor list API from Sourcepoint — 3 operation(s) for gdpr tcf vendor list.
   name: Sourcepoint GDPR TCF vendor list API
   slug: sourcepoint-gdpr-tcf-vendor-list-api
-- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
-  baseurl_source: declared
-  description: The Global Enterprise end-user consent status API from Sourcepoint — 2 operation(s) for global enterprise end-user consent status.
-  name: Sourcepoint Global Enterprise end-user consent status API
-  slug: sourcepoint-global-enterprise-end-user-consent-status-api
 - baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
   baseurl_source: declared
   description: The Preferences end-user history API from Sourcepoint — 2 operation(s) for preferences end-user history.
@@ -80,7 +65,7 @@ apis:
   description: The U.S. Multi-State Privacy reporting API API from Sourcepoint — 2 operation(s) for u.s. multi-state privacy reporting api.
   name: Sourcepoint U.S. Multi-State Privacy reporting API
   slug: sourcepoint-u-s-multi-state-privacy-reporting-api-api
-artifact_total: 37
+artifact_total: 34
 collections:
 - collection_type: open
   name: Sourcepoint GDPR Standard API
@@ -465,7 +450,7 @@ modified: '2026-08-12'
 name: Sourcepoint
 nav: Providers
 network: true
-overview: 'Sourcepoint publishes 9 APIs on the [APIs.io](https://apis.io/) network, including GDPR reporting API, GDPR Standard end-user consent status API, GDPR Standard vendor list API, and 6 more. Tagged areas include Privacy, Consent Management, Consent Management Platform, CMP, and GDPR.
+overview: 'Sourcepoint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including GDPR reporting API, GDPR TCF end-user consent status API, GDPR TCF vendor list API, and 3 more. Tagged areas include Privacy, Consent Management, Consent Management Platform, CMP, and GDPR.
 
 
   Sourcepoint''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, product news, and 70 more developer resources.'
@@ -473,14 +458,14 @@ plans:
 - name: Sourcepoint Plans Pricing
   plan_count: 3
   slug: sourcepoint-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Sourcepoint Rate Limits
   slug: sourcepoint-rate-limits
 score:
   band: strong
-  composite: 54.9
+  composite: 55.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 52.0
@@ -488,11 +473,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 45.7
+    contract_quality: 49.4
     developer_ergonomics: 64.9
     discoverability: 81.5
     operational_transparency: 28.9
@@ -510,11 +495,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 6
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

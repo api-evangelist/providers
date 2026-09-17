@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Newman is the open source command-line companion for Postman that runs Postman collections from the CLI for automated API testing in CI/CD pipelines.
@@ -93,7 +93,7 @@ plans:
 - name: Newman Plans Pricing
   plan_count: 3
   slug: newman-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Newman Rate Limits
@@ -121,7 +121,7 @@ score:
     score: 60.0
   previous_composite: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Submit checkout and sale events to Signifyd's Commerce Protection Platform for real-time fraud and chargeback risk evaluation. The Checkout flow supports pre-authorization screening, while the Sale fl
@@ -196,7 +196,7 @@ overview: 'Signifyd publishes 8 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Signifyd''s developer surface includes developer portal, documentation, getting-started guide, authentication, pricing, engineering blog, support, and 19 more developer resources.'
-random_paper: 0
+random_paper: 3
 score:
   band: emerging
   composite: 26.1
@@ -223,7 +223,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

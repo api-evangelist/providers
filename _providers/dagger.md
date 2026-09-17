@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,9 +59,9 @@ apis:
   slug: cloud
 - baseURL: http://127.0.0.1:{DAGGER_SESSION_PORT}
   baseurl_source: declared
-  description: The GraphQL API from Dagger — 1 operation(s) for graphql.
-  name: Dagger GraphQL API
-  slug: dagger-graphql-api
+  description: The Graph QL API from Dagger — 1 operation(s) for graph ql.
+  name: Dagger Graph QL API
+  slug: dagger-graph-ql-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -74,6 +74,11 @@ collections:
   name: Dagger HTTP GraphQL API
   slug: open-dagger
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/overlays/dagger-graphql-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dagger-graphql-api-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -312,25 +317,25 @@ modified: '2026-09-07'
 name: Dagger
 nav: Providers
 network: true
-overview: 'Dagger publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Build Automation, BuildKit, CI/CD, Containers, and DAG.
+overview: 'Dagger publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Build Automation, BuildKit, CI/CD, Containers, and DAG.
 
 
   The Dagger catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Dagger''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, YouTube channel, and 41 more developer resources.'
+  Dagger''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, YouTube channel, and 42 more developer resources.'
 plans:
 - name: Dagger Plans Pricing
   plan_count: 3
   slug: dagger-plans-pricing
-random_paper: 9
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Dagger Rate Limits
   slug: dagger-rate-limits
 score:
   band: strong
-  composite: 55.9
+  composite: 56.6
   coverage:
     artifact_dirs: 26
     catalog_earned: 65.0
@@ -338,11 +343,11 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 71.1
     contract_governance: 33.3
-    contract_quality: 57.8
+    contract_quality: 60.5
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 26.3
@@ -358,7 +363,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

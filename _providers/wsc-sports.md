@@ -15,22 +15,22 @@ agent_readiness:
     event_surface_described: true
     idempotency: na
     mcp_server: verified
-    openapi_examples: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.7
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 43.1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://blazefeed.clipro.tv
   baseurl_source: declared
-  description: Server-side pull API for the WSC Sports Experiences content catalog. Seven read-only GET operations return Stories, Moments and Videos metadata — filtered by title, labels, status, geo, live state, cr
-  name: WSC Sports Blaze Feed API
-  slug: wsc-sports-blaze-feed-api
+  description: The Feed API from WSC Sports — 7 operation(s) for feed.
+  name: WSC Sports Feed API
+  slug: wsc-sports-feed-api
 artifact_total: 8
 asyncapis:
 - description: ''
@@ -202,7 +202,7 @@ modified: '2026-09-04'
 name: WSC Sports
 nav: Providers
 network: true
-overview: 'WSC Sports publishes 1 API on the [APIs.io](https://apis.io/) network: Blaze Feed API. Tagged areas include Company, Sports, Video, Media, and Artificial Intelligence.
+overview: 'WSC Sports publishes 1 API on the [APIs.io](https://apis.io/) network: Feed API. Tagged areas include Company, Sports, Video, Media, and Artificial Intelligence.
 
 
   The WSC Sports catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -213,14 +213,14 @@ plans:
 - name: Wsc Sports Plans Pricing
   plan_count: 0
   slug: wsc-sports-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Wsc Sports Rate Limits
   slug: wsc-sports-rate-limits
 score:
   band: developing
-  composite: 41.5
+  composite: 42.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -228,11 +228,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 50.7
+    contract_quality: 54.4
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 34.2
@@ -240,14 +240,14 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 50.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 1
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

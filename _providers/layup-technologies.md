@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -55,11 +55,6 @@ apis:
   description: The AbsaEftService API from LayUp Technologies — 2 operation(s) for absaeftservice.
   name: LayUp Technologies AbsaEftService API
   slug: layup-technologies-absaeftservice-api
-- baseURL: https://api.layup.co.za
-  baseurl_source: declared
-  description: The authService API from LayUp Technologies — 6 operation(s) for authservice.
-  name: LayUp Technologies authService API
-  slug: layup-technologies-authservice-api
 - baseURL: https://api.layup.co.za
   baseurl_source: declared
   description: The BankService API from LayUp Technologies — 2 operation(s) for bankservice.
@@ -147,11 +142,6 @@ apis:
   slug: layup-technologies-paymentprovidersettlementservice-api
 - baseURL: https://api.layup.co.za
   baseurl_source: declared
-  description: The PaymentService API from LayUp Technologies — 10 operation(s) for paymentservice.
-  name: LayUp Technologies PaymentService API
-  slug: layup-technologies-paymentservice-api
-- baseURL: https://api.layup.co.za
-  baseurl_source: declared
   description: The PaymentServiceV2 API from LayUp Technologies — 2 operation(s) for paymentservicev2.
   name: LayUp Technologies PaymentServiceV2 API
   slug: layup-technologies-paymentservicev2-api
@@ -190,6 +180,16 @@ apis:
   description: The VerifyService API from LayUp Technologies — 1 operation(s) for verifyservice.
   name: LayUp Technologies VerifyService API
   slug: layup-technologies-verifyservice-api
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The Auth Service API from LayUp Technologies — 6 operation(s) for auth service.
+  name: LayUp Technologies Auth Service API
+  slug: layup-technologies-auth-service-api
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The Payment Service API from LayUp Technologies — 10 operation(s) for payment service.
+  name: LayUp Technologies Payment Service API
+  slug: layup-technologies-payment-service-api
 artifact_total: 63
 asyncapis:
 - description: ''
@@ -438,17 +438,17 @@ modified: '2026-07-20'
 name: LayUp Technologies
 nav: Providers
 network: true
-overview: 'LayUp Technologies publishes 29 APIs on the [APIs.io](https://apis.io/) network, including AbsaDebiCheckService API, AbsaEftService API, authService API, and 26 more. Tagged areas include Payments, Lay-By, Save Now Buy Later, Buy Now Pay Later, and Instalments.
+overview: 'LayUp Technologies publishes 29 APIs on the [APIs.io](https://apis.io/) network, including AbsaDebiCheckService API, AbsaEftService API, BankService API, and 26 more. Tagged areas include Payments, Lay-By, Save Now Buy Later, Buy Now Pay Later, and Instalments.
 
 
   The LayUp Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   LayUp Technologies'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 15
+random_paper: 14
 score:
   band: thin
-  composite: 31.7
+  composite: 32.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -456,11 +456,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
-    contract_quality: 47.5
+    contract_quality: 51.5
     developer_ergonomics: 53.0
     discoverability: 75.9
     operational_transparency: 10.5
@@ -487,7 +487,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

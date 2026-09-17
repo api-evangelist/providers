@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The openapi CLI and Node.js library. Consumes an OpenAPI 2.0 or 3.0 specification and writes a typed TypeScript client (models, services, and core runtime) for fetch, node-fetch, XHR, Axios, or Angula
@@ -159,7 +159,7 @@ plans:
 - name: Openapi Typescript Codegen Plans Pricing
   plan_count: 1
   slug: openapi-typescript-codegen-plans-pricing
-random_paper: 7
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Openapi Typescript Codegen Rate Limits
@@ -186,7 +186,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

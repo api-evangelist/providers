@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ press:
 - date: '2026-05-25'
   title: Russia strikes Kyiv with drones and hypersonic missile, in photos - AP News
   url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbThJREdLUzlHemk3YXFZaWdBRHA2akh2UkJxT0ZxVmlGN05nMndYUUZ2VWFJY0prc2EteWdoZ0lEeUJUUDBIZi1oTVhIeDN1UjdfVEI3ZWpadU9tTjlLaFZUVmdidE10X3dNbkc4Zi03aXhSYlBueVdWTzZMX3ZuRnJNVG5rVC1kMk40WURxbHBHV0JaYjJPVXhnZXRKUUVmaE90cmwydkx3V1duSFI4dF9XdFZjNXZNRG1lS3VrRW8?oc=5
-random_paper: 14
+random_paper: 19
 score:
   band: minimal
   composite: 4.9
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

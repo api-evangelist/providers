@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ overview: 'char.gy publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   char.gy''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 24 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: thin
   composite: 35.9
@@ -260,7 +260,7 @@ score:
     regime_id: energy_utilities
     score: 58.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: gRPC service that streams raw Ethereum mempool transactions. StreamService.StreamRawTransactions accepts filters, includes, and an auth header, returning a server stream of RLP-encoded raw transaction
@@ -72,7 +72,7 @@ name: Eden Network
 nav: Providers
 network: true
 overview: Eden Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Ethereum, MEV, and Blockchain.
-random_paper: 17
+random_paper: 3
 score:
   band: emerging
   composite: 15.1
@@ -93,7 +93,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

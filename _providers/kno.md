@@ -19,7 +19,7 @@ name: KNO
 nav: Providers
 network: true
 overview: KNO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Digital Textbooks, and Ebooks.
-random_paper: 13
+random_paper: 20
 slug: kno
 tags:
 - Company

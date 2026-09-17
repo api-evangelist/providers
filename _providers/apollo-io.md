@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 80
   slug: apollo-io-agentic-access
   summary_line: 80 operations · 54 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 5
 apis:
 - baseURL: https://api.apollo.io/api/v1
   baseurl_source: declared
@@ -117,27 +117,7 @@ apis:
   description: The Users API from Apollo.io — 1 operation(s) for users.
   name: Apollo.io Users API
   slug: apollo-io-users-api
-- baseURL: https://api.apollo.io/api/v1
-  baseurl_source: declared
-  description: Match and enrich company records, single or in bulk.
-  name: Apollo.io Organization Enrichment API
-  slug: apollo-enrich-organization-enrichment-api
-- baseURL: https://api.apollo.io/api/v1
-  baseurl_source: declared
-  description: Search Apollo's company database.
-  name: Apollo.io Organization Search API
-  slug: apollo-enrich-organization-search-api
-- baseURL: https://api.apollo.io/api/v1
-  baseurl_source: declared
-  description: Match and enrich person records, single or in bulk.
-  name: Apollo.io People Enrichment API
-  slug: apollo-enrich-people-enrichment-api
-- baseURL: https://api.apollo.io/api/v1
-  baseurl_source: declared
-  description: Search Apollo's people database for prospects.
-  name: Apollo.io People Search API
-  slug: apollo-enrich-people-search-api
-artifact_total: 55
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Apollo Io Webhooks
@@ -404,7 +384,7 @@ modified: '2026-08-13'
 name: Apollo.io
 nav: Providers
 network: true
-overview: 'Apollo.io publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Enrichment API, Search API, Accounts API, and 15 more. Tagged areas include Sales Intelligence, Prospecting, Engagement, B2B Data, and Enrichment.
+overview: 'Apollo.io publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Enrichment API, Search API, Accounts API, and 11 more. Tagged areas include Sales Intelligence, Prospecting, Engagement, B2B Data, and Enrichment.
 
 
   The Apollo.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -415,7 +395,7 @@ plans:
 - name: Apollo Io Plans Pricing
   plan_count: 4
   slug: apollo-io-plans-pricing
-random_paper: 5
+random_paper: 6
 rate_limits:
 - limit_count: 12
   name: Apollo Io Rate Limits
@@ -427,21 +407,21 @@ scopes:
   summary_line: 91 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.1
+  composite: 64.6
   coverage:
     artifact_dirs: 26
-    catalog_earned: 64.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.5
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 53.7
-    developer_ergonomics: 58.3
-    discoverability: 75.9
+    contract_quality: 70.5
+    developer_ergonomics: 57.1
+    discoverability: 81.5
     operational_transparency: 50.0
   previous_composite: 60.1
   provenance:
@@ -451,11 +431,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 14
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

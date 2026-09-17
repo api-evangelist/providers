@@ -57,7 +57,7 @@ name: AgentSquared
 nav: Providers
 network: true
 overview: AgentSquared is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Real Estate Technology, Marketing Automation, and MLS.
-random_paper: 3
+random_paper: 8
 slug: agentsquared
 tags:
 - Company

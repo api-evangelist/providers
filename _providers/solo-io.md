@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://portal.example.com/v1
@@ -48,11 +48,6 @@ apis:
   description: API product catalog endpoints
   name: Solo.io API Products API
   slug: solo-io-api-products-api
-- baseURL: https://portal.example.com/v1
-  baseurl_source: declared
-  description: The APIs API from Solo.io — 5 operation(s) for apis.
-  name: Solo.io AP Is API
-  slug: solo-io-apis-api
 - baseURL: https://portal.example.com/v1
   baseurl_source: declared
   description: The Applications API from Solo.io — 8 operation(s) for applications.
@@ -113,6 +108,11 @@ apis:
   description: The Webhooks API from Solo.io — 2 operation(s) for webhooks.
   name: Solo.io Webhooks API
   slug: solo-io-webhooks-api
+- baseURL: https://portal.example.com/v1
+  baseurl_source: declared
+  description: The APIs API from Solo.io — 5 operation(s) for apis.
+  name: Solo.io AP Is API
+  slug: solo-io-apis-api
 artifact_total: 74
 asyncapis:
 - description: ''
@@ -545,7 +545,7 @@ modified: '2026-08-08'
 name: Solo.io
 nav: Providers
 network: true
-overview: 'Solo.io publishes 15 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, API Products API, AP Is API, and 12 more. Tagged areas include Company, API Gateway, Service Mesh, Kubernetes, and Istio.
+overview: 'Solo.io publishes 15 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, API Products API, Applications API, and 12 more. Tagged areas include Company, API Gateway, Service Mesh, Kubernetes, and Istio.
 
 
   The Solo.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -556,7 +556,7 @@ plans:
 - name: Solo Io Plans Pricing
   plan_count: 3
   slug: solo-io-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Solo Io Rate Limits
@@ -574,7 +574,7 @@ rules:
   slug: solo-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.3
+  composite: 62.4
   coverage:
     artifact_dirs: 31
     catalog_earned: 62.3
@@ -582,11 +582,11 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 65.8
     contract_governance: 29.5
-    contract_quality: 69.6
+    contract_quality: 69.7
     developer_ergonomics: 78.6
     discoverability: 81.5
     operational_transparency: 52.6
@@ -604,7 +604,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -26,7 +26,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -87,7 +87,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -137,7 +137,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -176,18 +176,18 @@
      "slug": "politecnico-di-torino",
      "description": "Politecnico di Torino (PoliTO) is Italy's oldest technical university, founded in Turin in 1859, with roughly 38,000 students across engineering, architecture and design. Unusually for this cohort, its programmable footprint is genuinely its own rather than a vendor's: the university publishes the OpenAPI definition of the REST API behind its official student and faculty mobile applications in the verified @polito GitHub organisation (polito/api-spec, authored in TypeSpec and emitted as two client contracts, Polito Faculty API and Polito Students API), and the React Native apps that consume it are open-sourced under EUPL-1.2 in polito/rn-apps and polito/students-app. That API runs on the university's own host, app.didattica.polito.it, and covers announcements, authentication with MFA, room and slot bookings, courses, lectures, news, people, places, exams, grades, degree offering, job offers, surveys, support tickets and the European Student Card. It is not a self-service developer programme: the production base path returns 403 to an anonymous caller, every operation is bearer authenticated against a PoliTO account, and no key can be requested by an outsider. Two further institution-operated machine-readable surfaces exist and are recorded here for the first time — a Shibboleth SAML 2.0 identity provider registered in IDEM GARR and eduGAIN since 2020, and an OAI-PMH 2.0 harvesting service over the IRIS research repository, the latter a CINECA tenant deployment rather than PoliTO engineering. A fourth institution-operated surface was found on 2026-08-30 and is the only one an outsider can actually call: four keyless JSON web services behind the polito.it site search — staff, departments and teachings at mypoli.polito.it/dotnet/ws_anagrafe and a campus room locator at legacyprod.polito.it — all returning HTTP 200 and real data with no credential, on hosts inside the university's own GARR address space. They are undocumented and unversioned, PoliTO does not present them as a developer product, and the OpenAPI held here is derived from probing rather than published. The university also runs HPC@PoliTO, an academic computing service managed in-house, whose allocation process is entirely by email with no programmatic surface. The institutional open-data portal publishes downloadable datasets only, with no API behind it, and there is no data.polito.it or api.polito.it host in service.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/screenshots/politecnico-di-torino-2026-06-20T191855.png",
-     "score": 45.7,
+     "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 58.5,
+      "contract_quality": 56.3,
       "contract_governance": 13.6,
       "operational_transparency": 52.6,
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -226,18 +226,18 @@
      "slug": "politecnico-di-milano",
      "description": "Politecnico di Milano is Italy's largest technical university — engineering, architecture and design — and a public research institution in Milan, ROR 01nffqt88. Like almost every university it is a federation of buyers rather than an API producer: there is no developer portal, no public API key, no status page and no changelog anywhere on polimi.it. What it does operate itself is real and was verified live on 2026-09-01. An open data portal at www.opendata.polimi.it publishes a DCAT-AP_IT catalogue in RDF Turtle describing 25 datasets, each with a CSV and a JSON distribution at a stable unauthenticated URL — all 25 returned 200 and 38,255 rows on probe, covering the course catalogue, enrolments, graduates, mobility, internships, grade distributions and research output under CC BY 4.0. Two separate OAI-PMH 2.0 endpoints are served from its own hosts: Re.Public@Polimi for research products and POLITESI for theses, the latter also harvestable in the DataCite kernel-4 metadata schema. It runs its own Shibboleth identity provider, shibidp.polimi.it, whose SAML 2.0 metadata is public and whose entityID is registered in the Italian IDEM GARR federation. Against that, the surfaces it does NOT own are recorded as such: the authenticated IRIS REST API on its repository host is CINECA's product contract, not the university's, and api.polimi.it is a live Kong gateway with no publicly routable endpoint behind it. This profile saves contracts only for the surfaces the institution itself operates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/screenshots/politecnico-di-milano-2026-06-20T191910.png",
-     "score": 42.9,
+     "score": 42.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 29.4,
+      "contract_quality": 29.3,
       "contract_governance": 60.6,
       "operational_transparency": 21.1,
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -298,7 +298,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -348,7 +348,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -398,7 +398,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -458,7 +458,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -501,7 +501,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -551,7 +551,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -601,7 +601,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -651,7 +651,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -701,7 +701,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -751,7 +751,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -801,7 +801,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -851,7 +851,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -893,7 +893,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -943,7 +943,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -986,7 +986,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1029,7 +1029,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1079,7 +1079,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1129,7 +1129,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1179,7 +1179,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1229,7 +1229,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1279,7 +1279,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1338,7 +1338,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1388,7 +1388,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1431,7 +1431,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1481,7 +1481,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1524,7 +1524,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1574,7 +1574,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1624,7 +1624,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1674,7 +1674,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1724,7 +1724,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1774,7 +1774,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1824,7 +1824,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1874,7 +1874,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1924,7 +1924,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1974,7 +1974,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2024,7 +2024,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2074,7 +2074,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2124,7 +2124,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2174,7 +2174,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2217,7 +2217,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2267,7 +2267,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2317,7 +2317,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

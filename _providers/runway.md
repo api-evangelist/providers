@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 17
   slug: runway-agentic-access
   summary_line: 17 operations · 15 acting
-api_count: 3
+api_count: 9
 apis:
 - description: The Runway Python SDK provides a convenient Python library for interacting with the Runway API. Supports Python 3.8+ with type annotations compatible with MyPy. Includes automatic retries, best-practi
   name: Runway Python SDK
@@ -125,35 +125,15 @@ apis:
   slug: runway-video-upscale-api
 - baseURL: https://api.dev.runwayml.com/v1
   baseurl_source: declared
-  description: Generate video from an image and prompt (Gen-4 Turbo, Gen-4.5).
-  name: Runway Image-to-Video API
-  slug: runwayml-image-to-video-api
-- baseURL: https://api.dev.runwayml.com/v1
-  baseurl_source: declared
   description: Usage tier and credit balance for the API organization.
   name: Runway Organization API
-  slug: runwayml-organization-api
-- baseURL: https://api.dev.runwayml.com/v1
-  baseurl_source: declared
-  description: Generate images from a prompt (Gen-4 Image, Gen-4 Image Turbo).
-  name: Runway Text-to-Image API
-  slug: runwayml-text-to-image-api
+  slug: runway-organization-api
 - baseURL: https://api.dev.runwayml.com/v1
   baseurl_source: declared
   description: Synthesize speech audio from text.
-  name: Runway Text-to-Speech API
-  slug: runwayml-text-to-speech-api
-- baseURL: https://api.dev.runwayml.com/v1
-  baseurl_source: declared
-  description: Upscale a video to higher resolution.
-  name: Runway Upscale API
-  slug: runwayml-upscale-api
-- baseURL: https://api.dev.runwayml.com/v1
-  baseurl_source: declared
-  description: Edit / restyle an existing video (Aleph).
-  name: Runway Video-to-Video API
-  slug: runwayml-video-to-video-api
-artifact_total: 89
+  name: Runway Text To Speech API
+  slug: runway-text-to-speech-api
+artifact_total: 85
 asyncapis:
 - description: The Runway Characters realtime event interface describes the WebRTC-based communication protocol for live conversational avatar sessions powered by GWM-1. Once a realtime session is created via the RE
   name: Runway Characters Realtime Events
@@ -420,7 +400,7 @@ modified: '2026-05-19'
 name: Runway
 nav: Providers
 network: true
-overview: 'Runway publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Character Performance API, Documents API, and 17 more. Tagged areas include Video Generation, Image-Generation, Artificial Intelligence, Machine-Learning, and Generative AI.
+overview: 'Runway publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Character Performance API, Documents API, and 13 more. Tagged areas include Video Generation, Image-Generation, Artificial Intelligence, Machine-Learning, and Generative AI.
 
 
   The Runway catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -431,7 +411,7 @@ plans:
 - name: Runway Plans Pricing
   plan_count: 5
   slug: runway-plans-pricing
-random_paper: 6
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Runway Rate Limits
@@ -471,7 +451,7 @@ rules:
   slug: runway-rules
 score:
   band: developing
-  composite: 51.6
+  composite: 52.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 57.5
@@ -479,11 +459,11 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 43.4
     contract_governance: 28.8
-    contract_quality: 67.9
+    contract_quality: 71.3
     developer_ergonomics: 39.3
     discoverability: 72.2
     operational_transparency: 34.2
@@ -497,10 +477,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 20
+      total: 16
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

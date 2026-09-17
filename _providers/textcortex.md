@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -201,11 +201,11 @@ modified: '2026-07-21'
 name: Textcortex
 nav: Providers
 network: true
-overview: 'Textcortex publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Chat Completions API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Text Generation, Large Language Models, and Chat Completions.
+overview: 'Textcortex publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Chat Completions API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, Text Generation, LLM, and Chat Completions.
 
 
   Textcortex''s developer surface includes authentication, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 1
+random_paper: 14
 score:
   band: thin
   composite: 35.2
@@ -242,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -262,7 +262,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Text Generation
-- Large Language Models
+- LLM
 - Chat Completions
 - OpenAI-Compatible
 - Content Generation

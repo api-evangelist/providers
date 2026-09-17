@@ -32,19 +32,69 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://www.entergy.com/wp-json
-  baseurl_source: declared
-  description: The public, anonymous, machine-readable REST API that entergy.com's own content management system serves at https://www.entergy.com/wp-json/. It is the WordPress core REST API (plus site plugins), adv
-  name: Entergy WordPress REST API
-  slug: entergy-wordpress-rest-api
 - description: Entergy's electric-network GIS platform at gis.entergy.com, running Esri ArcGIS Server 10.7.1. The service-info document answers anonymously and declares token-based security with a token service at h
   name: Entergy ArcGIS Server
   slug: entergy-arcgis-server
-artifact_total: 6
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The mdd_pro/v2 API from Entergy — 13 operation(s) for mdd_pro/v2.
+  name: Entergy Mdd Pro/v2 API
+  slug: entergy-mdd-pro-v2-api
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The oembed/1.0 API from Entergy — 3 operation(s) for oembed/1.0.
+  name: Entergy Oembed/1.0 API
+  slug: entergy-oembed-1-0-api
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The wp-abilities/v1 API from Entergy — 5 operation(s) for wp-abilities/v1.
+  name: Entergy Wp Abilities/v1 API
+  slug: entergy-wp-abilities-v1-api
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The wp API from Entergy — 1 operation(s) for wp.
+  name: Entergy Wp API
+  slug: entergy-wp-api
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The wp-block-editor/v1 API from Entergy — 4 operation(s) for wp-block-editor/v1.
+  name: Entergy Wp Block Editor/v1 API
+  slug: entergy-wp-block-editor-v1-api
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The wp-site-health/v1 API from Entergy — 8 operation(s) for wp-site-health/v1.
+  name: Entergy Wp Site Health/v1 API
+  slug: entergy-wp-site-health-v1-api
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The wp/v2 API from Entergy — 108 operation(s) for wp/v2.
+  name: Entergy Wp/v2 API
+  slug: entergy-wp-v2-api
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The wpe/cache-plugin/v1 API from Entergy — 3 operation(s) for wpe/cache-plugin/v1.
+  name: Entergy Wpe/cache Plugin/v1 API
+  slug: entergy-wpe-cache-plugin-v1-api
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The wpe_sign_on_plugin/v1 API from Entergy — 4 operation(s) for wpe_sign_on_plugin/v1.
+  name: Entergy Wpe Sign On Plugin/v1 API
+  slug: entergy-wpe-sign-on-plugin-v1-api
+- baseURL: https://www.entergy.com/wp-json
+  baseurl_source: declared
+  description: The wpsl/v1 API from Entergy — 2 operation(s) for wpsl/v1.
+  name: Entergy Wpsl/v1 API
+  slug: entergy-wpsl-v1-api
+artifact_total: 15
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/overlays/entergy-wordpress-rest-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/entergy-wordpress-rest-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/entergy/refs/heads/main/security/entergy-domain-security.yml
   title: ''
@@ -152,10 +202,10 @@ modified: '2026-09-06'
 name: Entergy
 nav: Providers
 network: true
-overview: 'Entergy publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Electricity, Energy, Fortune 500, Utility, and Nuclear.
+overview: 'Entergy publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Mdd Pro/v2 API, Oembed/1.0 API, Wp Abilities/v1 API, and 7 more. Tagged areas include Electricity, Energy, Fortune 500, Utility, and Nuclear.
 
 
-  Entergy''s developer surface includes engineering blog, authentication, support, and 19 more developer resources.'
+  Entergy''s developer surface includes engineering blog, authentication, support, and 20 more developer resources.'
 plans:
 - name: Entergy Plans Pricing
   plan_count: 0
@@ -176,7 +226,7 @@ press:
 - date: '2026-05-25'
   title: Data centers and Entergy customers - We power life.
   url: https://www.entergy.com/datacenters
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Entergy Rate Limits
@@ -209,9 +259,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 10
       marker_coverage: 100.0
-      total: 1
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -221,7 +271,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

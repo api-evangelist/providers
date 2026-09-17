@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ modified: '2026-07-03'
 name: ServiceM8
 nav: Providers
 network: true
-overview: 'ServiceM8 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Badges API, Clients API, and 8 more. Tagged areas include Field Service, Job Management, Trades, Scheduling, and Dispatch.
+overview: 'ServiceM8 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Badges API, Clients API, and 8 more. Tagged areas include Field Service, Job Management, Trade, Scheduling, and Dispatch.
 
 
   ServiceM8''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -221,7 +221,7 @@ plans:
 - name: Servicem8 Plans Pricing
   plan_count: 5
   slug: servicem8-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Servicem8 Rate Limits
@@ -259,7 +259,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -282,7 +282,7 @@ slug: servicem8
 tags:
 - Field Service
 - Job Management
-- Trades
+- Trade
 - Scheduling
 - Dispatch
 - Invoicing

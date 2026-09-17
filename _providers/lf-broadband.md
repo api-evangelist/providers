@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'VOLTHA (Virtual Optical Line Termination Hardware Abstraction) is an open source platform that virtualizes multi-vendor Passive Optical Network (PON) hardware, exposing a vendor-agnostic gRPC API for '
@@ -109,7 +109,7 @@ plans:
 - name: Lf Broadband Plans Pricing
   plan_count: 3
   slug: lf-broadband-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Lf Broadband Rate Limits
@@ -143,7 +143,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

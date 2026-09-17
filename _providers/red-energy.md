@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,22 +74,22 @@ apis:
 - baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
   baseurl_source: declared
   description: Energy Account Balance endpoints
-  name: Red Energy Energy Account Balances API
+  name: Red Energy Account Balances API
   slug: red-energy-energy-account-balances-api
 - baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
   baseurl_source: declared
   description: Energy Account Billing endpoints
-  name: Red Energy Energy Account Billing API
+  name: Red Energy Account Billing API
   slug: red-energy-energy-account-billing-api
 - baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
   baseurl_source: declared
   description: Energy Account endpoints
-  name: Red Energy Energy Accounts API
+  name: Red Energy Accounts API
   slug: red-energy-energy-accounts-api
 - baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
   baseurl_source: declared
   description: Energy Plan endpoints
-  name: Red Energy Energy Plans API
+  name: Red Energy Plans API
   slug: red-energy-energy-plans-api
 arazzos:
 - description: Check that Red Energy's CDR implementation is available, then list its published electricity plans and pull the full tariff detail for one of them. Every step is unauthenticated — no API key, no signu
@@ -323,7 +323,7 @@ examples:
   slug: red-energy-list-energy-plans-example
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/red-energy.png
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: Red Energy
 nav: Providers
 network: true
@@ -331,7 +331,7 @@ overview: 'Red Energy publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Red Energy''s developer surface includes authentication, changelog, code examples, status page, documentation, API reference, support, and 35 more developer resources.'
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 15
   name: Red Energy Rate Limits
@@ -384,7 +384,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

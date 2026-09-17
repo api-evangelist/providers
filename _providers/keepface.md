@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The public server-side affiliate tracking API for Keepface. Brands POST sale and refund events from their own backend (or from Shopify, or from the browser JS pixel) and Keepface attributes them to th
@@ -222,7 +222,7 @@ plans:
 - name: Keepface Plans Pricing
   plan_count: 0
   slug: keepface-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Keepface Rate Limits
@@ -255,7 +255,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

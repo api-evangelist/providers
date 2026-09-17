@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Reform's public integration surface. It is not a REST management API — no endpoint exists to create, read or update forms and submissions. What Reform publishes is the hosted form host (forms.reform.a
@@ -197,7 +197,7 @@ plans:
 - name: Reform Plans Pricing
   plan_count: 4
   slug: reform-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Reform Rate Limits
@@ -224,7 +224,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

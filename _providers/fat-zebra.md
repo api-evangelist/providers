@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -147,11 +147,6 @@ apis:
   slug: fat-zebra-payment-plans-api
 - baseURL: https://gateway.pmnts.io/v1.0
   baseurl_source: declared
-  description: The Paypal API from Fat Zebra — 15 operation(s) for paypal.
-  name: Fat Zebra Paypal API
-  slug: fat-zebra-paypal-api
-- baseURL: https://gateway.pmnts.io/v1.0
-  baseurl_source: declared
   description: The Purchases API from Fat Zebra — 11 operation(s) for purchases.
   name: Fat Zebra Purchases API
   slug: fat-zebra-purchases-api
@@ -197,9 +192,14 @@ apis:
   slug: fat-zebra-utlities-api
 - baseURL: https://gateway.pmnts.io/v1.0
   baseurl_source: declared
-  description: The Web Hooks API from Fat Zebra — 2 operation(s) for web hooks.
-  name: Fat Zebra Web Hooks API
-  slug: fat-zebra-web-hooks-api
+  description: The Pay Pal API from Fat Zebra — 15 operation(s) for pay pal.
+  name: Fat Zebra Pay Pal API
+  slug: fat-zebra-pay-pal-api
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Webhooks API from Fat Zebra — 2 operation(s) for webhooks.
+  name: Fat Zebra Webhooks API
+  slug: fat-zebra-webhooks-api
 artifact_total: 40
 asyncapis:
 - description: ''
@@ -448,7 +448,7 @@ overview: 'Fat Zebra publishes 31 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Fat Zebra''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 39 more developer resources.'
-random_paper: 10
+random_paper: 12
 score:
   band: strong
   composite: 55.7
@@ -492,7 +492,7 @@ score:
     regime_id: payments
     score: 58.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

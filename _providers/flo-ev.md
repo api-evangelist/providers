@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The only live, anonymously callable machine-readable surface in FLO's estate. FLO's hardware and accessories store runs on Shopify, and that platform serves a Model Context Protocol server at https://
@@ -190,7 +190,7 @@ overview: 'FLO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   FLO''s developer surface includes authentication, engineering blog, support, documentation, and 26 more developer resources.'
-random_paper: 18
+random_paper: 13
 scopes:
 - name: Flo Ev Scopes
   scope_count: 38
@@ -233,7 +233,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: MOSN is a cloud-native network proxy that supports multiple protocols (HTTP/1.1, HTTP/2, gRPC), dynamic routing, load balancing, observability via Prometheus metrics, TLS, and WASM-based custom extens
@@ -41,6 +41,10 @@ apis:
   slug: mosn
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mosn.io
 - group: operate
   title: ''
   type: IssueTracker
@@ -74,19 +78,19 @@ finops:
   slug: mosn-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mosn.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: MOSN
 nav: Providers
 network: true
 overview: 'MOSN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Service Mesh, Proxy, API Gateway, Cloud-Native, and Open-Source.
 
 
-  MOSN''s developer surface includes engineering blog and 5 more developer resources.'
+  MOSN''s developer surface includes engineering blog and 6 more developer resources.'
 plans:
 - name: Mosn Plans Pricing
   plan_count: 3
   slug: mosn-plans-pricing
-random_paper: 4
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Mosn Rate Limits
@@ -114,7 +118,7 @@ score:
     score: 50.0
   previous_composite: 18.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -133,4 +137,5 @@ tags:
 - API Gateway
 - Cloud-Native
 - Open-Source
+website: https://mosn.io
 ---

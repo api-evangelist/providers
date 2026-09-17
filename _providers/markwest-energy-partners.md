@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: MarkWest Energy Partners
 nav: Providers
 network: true
-overview: MarkWest Energy Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Pipeline, Acquired, and MPLX.
+overview: MarkWest Energy Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Pipelines, Acquired, and MPLX.
 press:
 - date: '2026-05-25'
   title: John Fox, Founder, Former Chairman and CEO of ...
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: MLP of Marathon Petroleum Acquires MarkWest Energy ...
   url: https://www.oilandgas360.com/mlp-of-marathon-petroleum-acquires-markwest-energy-partners-for-20-billion/
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 3.3
@@ -101,7 +101,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -117,7 +117,7 @@ slug: markwest-energy-partners
 tags:
 - Energy
 - Natural Gas
-- Pipeline
+- Pipelines
 - Acquired
 - MPLX
 website: https://www.mplx.com

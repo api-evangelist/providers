@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RuhAN exposes two HTTP endpoints under https://www.ruhan.co/api and publishes no contract for either. GET /api/health returns 200 application/json and is named in the provider's own llms.txt; on 2026-
@@ -120,7 +120,7 @@ plans:
 - name: Ruhan Plans Pricing
   plan_count: 3
   slug: ruhan-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Ruhan Rate Limits
@@ -154,7 +154,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

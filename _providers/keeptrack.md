@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,6 +89,10 @@ collections:
   name: KeepTrack Space API
   slug: open-keeptrack
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://keeptrack.space
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/agentic-access/keeptrack-agentic-access.yml
   title: ''
@@ -112,19 +116,19 @@ finops:
   slug: keeptrack-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keeptrack.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: KeepTrack
 nav: Providers
 network: true
-overview: 'KeepTrack publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Orbits API, Positions API, and 1 more. Tagged areas include Satellites and Space.
+overview: 'KeepTrack publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Orbits API, Positions API, and 1 more. Tagged areas include Satellite and Space.
 
 
-  KeepTrack''s developer surface includes authentication and 2 more developer resources.'
+  KeepTrack''s developer surface includes authentication and 3 more developer resources.'
 plans:
 - name: Keeptrack Plans Pricing
   plan_count: 3
   slug: keeptrack-plans-pricing
-random_paper: 9
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Keeptrack Rate Limits
@@ -156,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -174,6 +178,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: keeptrack
 tags:
-- Satellites
+- Satellite
 - Space
+website: https://keeptrack.space
 ---

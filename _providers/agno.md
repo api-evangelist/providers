@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 1
@@ -142,36 +142,15 @@ apis:
   slug: agno-traces-api
 - baseURL: https://api.agno.com
   baseurl_source: declared
-  description: The Whatsapp API from Agno — 2 operation(s) for whatsapp.
-  name: Agno Whatsapp API
-  slug: agno-whatsapp-api
-- baseURL: https://api.agno.com
-  baseurl_source: declared
   description: The Workflows API from Agno — 5 operation(s) for workflows.
   name: Agno Workflows API
   slug: agno-workflows-api
-- description: Run and manage individual agents.
-  name: Agno Agents API
-  slug: agno-agi-agents-api
-- description: Evaluation runs for quality and reliability.
-  name: Agno Evals API
-  slug: agno-agi-evals-api
-- description: Knowledge base content used for retrieval.
-  name: Agno Knowledge API
-  slug: agno-agi-knowledge-api
-- description: Persistent per-user memories.
-  name: Agno Memory API
-  slug: agno-agi-memory-api
-- description: Conversation history and state for agents, teams, and workflows.
-  name: Agno Sessions API
-  slug: agno-agi-sessions-api
-- description: Run and manage teams of agents.
-  name: Agno Teams API
-  slug: agno-agi-teams-api
-- description: Run and manage multi-step workflows.
-  name: Agno Workflows API
-  slug: agno-agi-workflows-api
-artifact_total: 71
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Whats App API from Agno — 2 operation(s) for whats app.
+  name: Agno Whats App API
+  slug: agno-whats-app-api
+artifact_total: 64
 collections:
 - collection_type: open
   name: API Collection
@@ -373,7 +352,7 @@ modified: '2026-06-12'
 name: Agno
 nav: Providers
 network: true
-overview: 'Agno publishes 28 APIs on the [APIs.io](https://apis.io/) network, including A2A API, Agents API, AGUI API, and 25 more. Tagged areas include AI Agents, Multi-Agent Systems, Python Framework, LLM, and Machine-Learning.
+overview: 'Agno publishes 21 APIs on the [APIs.io](https://apis.io/) network, including A2A API, Agents API, AGUI API, and 18 more. Tagged areas include AI Agents, Multi-Agent Systems, Python Framework, LLM, and Machine-Learning.
 
 
   The Agno catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -384,7 +363,7 @@ plans:
 - name: Agno Plans Pricing
   plan_count: 3
   slug: agno-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Agno Rate Limits
@@ -402,32 +381,32 @@ rules:
   slug: agno-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.5
+  composite: 46.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 78.3
+    catalog_earned: 83.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.8
+    catalog_gap: 31.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 69.4
-    developer_ergonomics: 32.1
-    discoverability: 59.3
+    contract_quality: 63.9
+    developer_ergonomics: 23.8
+    discoverability: 68.5
     operational_transparency: 50.0
   previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 artifact_total: 6
 collections:
@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: Celanese's Chemille AI Assistant Revolutionizes Material ...
   url: https://www.linkedin.com/posts/useready_materialsscience-enterpriseai-chemicalindustry-activity-7433474582881259520-V9F8
-random_paper: 13
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Celanese Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

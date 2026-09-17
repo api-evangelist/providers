@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Wagtail REST API v2 exposes site content — pages, images, documents, and redirects — as JSON. Endpoints support filtering by field value, tree relationships (child_of, ancestor_of, descendant_of),
@@ -124,7 +124,7 @@ plans:
 - name: Wagtail Plans Pricing
   plan_count: 5
   slug: wagtail-plans-pricing
-random_paper: 10
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Wagtail Rate Limits
@@ -149,7 +149,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

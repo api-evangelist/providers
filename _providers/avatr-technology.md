@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Wix Site MCP endpoint served from the official AVATR Hong Kong site. Answers an anonymous JSON-RPC tools/list with 9 tools over the public marketing site (business details, in-site search, plus Wix do
@@ -134,7 +134,7 @@ name: Avatr Technology
 nav: Providers
 network: true
 overview: Avatr Technology publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Electric Vehicles, Smart Cockpit, and Autonomous Driving.
-random_paper: 12
+random_paper: 21
 score:
   band: emerging
   composite: 13.7
@@ -164,7 +164,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

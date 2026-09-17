@@ -34,24 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.8
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
-- baseURL: https://www.wgtn.ac.nz/api/globalobject
-  baseurl_source: declared
-  description: 'A public, keyless JSON endpoint served by the university''s own website CMS at www.wgtn.ac.nz/api/globalobject. It returns the global site object every page is built from: canonical base URLs including'
-  name: Website Global Object
-  slug: website-global-object
-- baseURL: https://idp.vuw.ac.nz/idp/shibboleth
-  baseurl_source: declared
-  description: The university's own SAML 2.0 Identity Provider. entityID https://idp.vuw.ac.nz/idp/shibboleth, shibmd:Scope vuw.ac.nz, metadata served unauthenticated over HTTPS GET and republished in the signed Tua
-  name: Shibboleth Identity Provider (Tuakiri / eduGAIN)
-  slug: identity-federation
-- baseURL: https://ir.wgtn.ac.nz/
-  baseurl_source: declared
-  description: 'The university''s institutional repository, ir.wgtn.ac.nz, running DSpace 7.6.7 on the institution''s OWN infrastructure: the host sits under its own registrable domain, carries no CNAME to any vendor, '
-  name: Institutional Repository (self-hosted DSpace)
-  slug: institutional-repository
 - description: The university's Open Access institutional repository is a Figshare portal running on the institution's own vanity domain openaccess.wgtn.ac.nz, which CNAMEs to figshare.com, with wellington.figshare.
   name: Open Access Repository (Figshare tenancy)
   slug: open-access-repository-figshare
@@ -73,6 +58,21 @@ apis:
 - description: 'Production browser single sign-on for the university''s student-facing services federates to a Microsoft Entra ID tenant, cfe63e23-6951-427e-8683-bb84dcf1d20c, observed on the Nuku learning-management '
   name: Microsoft Entra ID Tenant (production browser sign-on)
   slug: entra-id-federation
+- baseURL: https://www.wgtn.ac.nz/api/globalobject
+  baseurl_source: declared
+  description: Anonymous read and harvesting surfaces of the institution's own repository.
+  name: Victoria University of Wellington Research Repository API
+  slug: victoria-university-of-wellington-researchrepository-api
+- baseURL: https://www.wgtn.ac.nz/api/globalobject
+  baseurl_source: declared
+  description: Public website configuration served by the university's own CMS.
+  name: Victoria University of Wellington Website API
+  slug: victoria-university-of-wellington-website-api
+- baseURL: https://openaccess.wgtn.ac.nz/
+  baseurl_source: declared
+  description: SAML 2.0 identity federation surfaces operated by the institution.
+  name: Victoria University of Wellington Identity Federation API
+  slug: victoria-university-of-wellington-identity-federation-api
 artifact_total: 21
 common:
 - group: company
@@ -232,7 +232,7 @@ modified: '2026-08-30'
 name: Victoria University of Wellington
 nav: Providers
 network: true
-overview: 'Victoria University of Wellington publishes 3 APIs on the [APIs.io](https://apis.io/) network: Website Global Object, Shibboleth Identity Provider (Tuakiri / eduGAIN), and Institutional Repository (self-hosted DSpace). Tagged areas include University, Higher Education, Education, New Zealand, and Public Research University.
+overview: 'Victoria University of Wellington publishes 3 APIs on the [APIs.io](https://apis.io/) network: Research Repository API, Website API, and Identity Federation API. Tagged areas include University, Higher Education, Education, New Zealand, and Public Research University.
 
 
   The Victoria University of Wellington catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -243,7 +243,7 @@ plans:
 - name: Victoria University Of Wellington Plans Pricing
   plan_count: 2
   slug: victoria-university-of-wellington-plans-pricing
-random_paper: 3
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Victoria University Of Wellington Rate Limits
@@ -267,7 +267,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.1
+  composite: 36.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 79.0
@@ -275,11 +275,11 @@ score:
     catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 34.2
     contract_governance: 45.5
-    contract_quality: 26.8
+    contract_quality: 26.5
     developer_ergonomics: 23.8
     discoverability: 74.1
     operational_transparency: 7.9
@@ -303,7 +303,7 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

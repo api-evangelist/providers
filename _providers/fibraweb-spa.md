@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,11 +70,11 @@ modified: '2026-07-19'
 name: Fibraweb, S.p.a.
 nav: Providers
 network: true
-overview: 'Fibraweb, S.p.a. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Fiber Optic, Broadband, and Connectivity.
+overview: 'Fibraweb, S.p.a. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Fiber Optics, Broadband, and Connectivity.
 
 
   Fibraweb, S.p.a.''s developer surface includes support and 5 more developer resources.'
-random_paper: 6
+random_paper: 15
 score:
   band: emerging
   composite: 11.6
@@ -111,7 +111,7 @@ score:
     regime_id: telecommunications
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -127,7 +127,7 @@ slug: fibraweb-spa
 tags:
 - Company
 - Telecommunications
-- Fiber Optic
+- Fiber Optics
 - Broadband
 - Connectivity
 - Internet Service Provider

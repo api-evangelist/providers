@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: GraphQL API for MSPs covering clients, tickets, assets, users, invoices, knowledge base, and service catalog. US and EU data centers.
@@ -179,7 +179,7 @@ overview: 'SuperOps publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   SuperOps'' developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Superops Rate Limits
@@ -208,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

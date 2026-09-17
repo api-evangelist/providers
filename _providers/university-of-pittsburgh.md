@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://www.tycho.pitt.edu/api
-  baseurl_source: declared
-  description: Project Tycho is an open-access repository for global health surveillance data, built and run at the University of Pittsburgh and served from www.tycho.pitt.edu. It holds case counts for 78 notifiable
-  name: Project Tycho API
-  slug: project-tycho
 - description: WPRDC is a regional open data portal led by the University Center for Social and Urban Research (UCSUR) at the University of Pittsburgh, in partnership with Allegheny County and the City of Pittsburgh
   name: Western Pennsylvania Regional Data Center (WPRDC) CKAN API
   slug: wprdc-ckan
@@ -57,7 +52,17 @@ apis:
 - description: PittAPI is an unofficial, community-maintained Python library published by the Pitt Computer Science Club that scrapes University of Pittsburgh web sources for courses, dining, library, news, laundry,
   name: PittAPI (Pitt Computer Science Club) — student-built
   slug: pittapi
-artifact_total: 18
+- baseURL: https://www.tycho.pitt.edu/api
+  baseurl_source: declared
+  description: Filtered retrieval of Project Tycho surveillance rows.
+  name: University of Pittsburgh Data API
+  slug: university-of-pittsburgh-data-api
+- baseURL: https://www.tycho.pitt.edu/api
+  baseurl_source: declared
+  description: Listings of the controlled values available for each variable of the Project Tycho Pre-compiled Data Format version 1.0, except PeriodStartDate and PeriodEndDate.
+  name: University of Pittsburgh Variables API
+  slug: university-of-pittsburgh-variables-api
+artifact_total: 19
 common:
 - group: commercial
   title: ''
@@ -164,10 +169,10 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-pittsburgh/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/university-of-pittsburgh-project-tycho-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/openapi/_original/university-of-pittsburgh-project-tycho-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-pittsburgh-project-tycho-api-openapi.yml
+  url: openapi/_original/university-of-pittsburgh-project-tycho-api-openapi.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/university-of-pittsburgh/refs/heads/main/conformance/university-of-pittsburgh-education-standards-conformance.yml
   title: ''
@@ -276,11 +281,11 @@ jsonld:
   property_count: 9
   slug: university-of-pittsburgh-context
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: University of Pittsburgh
 nav: Providers
 network: true
-overview: 'University of Pittsburgh publishes 1 API on the [APIs.io](https://apis.io/) network: Project Tycho API. Tagged areas include University, Higher Education, Education, United States, and Public Research University.
+overview: 'University of Pittsburgh publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data API and Variables API. Tagged areas include University, Higher Education, Education, United States, and Public Research University.
 
 
   The University of Pittsburgh catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -291,7 +296,7 @@ plans:
 - name: University Of Pittsburgh Plans Pricing
   plan_count: 2
   slug: university-of-pittsburgh-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: University Of Pittsburgh Rate Limits
@@ -315,7 +320,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 39.8
+  composite: 39.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 70.0
@@ -323,11 +328,11 @@ score:
     catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 52.6
     contract_governance: 15.2
-    contract_quality: 27.4
+    contract_quality: 27.1
     developer_ergonomics: 35.7
     discoverability: 59.3
     operational_transparency: 23.7
@@ -343,9 +348,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
@@ -353,7 +358,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

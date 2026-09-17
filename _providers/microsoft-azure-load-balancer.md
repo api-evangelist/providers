@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ modified: '2026-05-19'
 name: Azure Load Balancer
 nav: Providers
 network: true
-overview: 'Azure Load Balancer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Load Balancers API and Operations API. Tagged areas include Azure, High Availability, Layer 4, Load Balancing, and Network.
+overview: 'Azure Load Balancer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Load Balancers API and Operations API. Tagged areas include Azure, High Availability, Layer 4, Load Balancing, and Networks.
 
 
   Azure Load Balancer''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 9 more developer resources.'
@@ -173,7 +173,7 @@ plans:
 - name: Microsoft Azure Load Balancer Plans Pricing
   plan_count: 3
   slug: microsoft-azure-load-balancer-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Load Balancer Rate Limits
@@ -210,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -231,7 +231,7 @@ tags:
 - High Availability
 - Layer 4
 - Load Balancing
-- Network
+- Networks
 use_cases:
 - description: Distribute traffic across multiple web servers for improved reliability and uptime.
   name: Web Application High Availability

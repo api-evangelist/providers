@@ -34,33 +34,58 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.8
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 5
 apis:
-- baseURL: https://json.astrologyapi.com/v1
-  baseurl_source: declared
-  description: 'The AstrologyAPI JSON API — 158 documented operations covering Vedic (Jyotish) and Western astrology, Human Design and AstroCartoGraphy. Includes birth details, planetary positions, divisional and KP '
-  name: Astrology API
-  slug: astrology-api
-- baseURL: https://pdf.astrologyapi.com/v1
-  baseurl_source: declared
-  description: White-labeled PDF report generation for Vedic and Western astrology — mini, basic and professional Kundli, matchmaking, gemstone, Varshaphal, pro numerology, natal, solar return, life forecast, synast
-  name: AstrologyAPI PDF Reports API
-  slug: astrology-api-pdf
-- baseURL: https://vision.astrologyapi.com
-  baseurl_source: declared
-  description: Image-based palm reading. Submit a palm photograph as a public URL or base64 data URL (jpeg, jpg, png or webp, up to 5MB) together with a date of birth and gender to obtain a palm_id, then read struct
-  name: AstrologyAPI Palmistry API
-  slug: astrology-api-palmistry
-- baseURL: https://vision.astrologyapi.com/face-reading
-  baseurl_source: declared
-  description: Image-based face reading. Submit a face photograph with date of birth and gender to obtain a face_id, then read structured analysis of face shape, eyes, nose, cheeks and cheekbones, mouth, chin and ja
-  name: AstrologyAPI Face Reading API
-  slug: astrology-api-face-reading
 - description: First-party hosted Model Context Protocol server exposing AstrologyAPI's calculation engine to LLM agents and IDEs. The provider advertises 109 tools spanning Vedic and Western astrology, configured w
   name: AstrologyAPI MCP Server
   slug: astrology-api-mcp
-artifact_total: 27
+- baseURL: https://json.astrologyapi.com/v1
+  baseurl_source: declared
+  description: The Astrocartography API from Astrology API — 3 operation(s) for astrocartography.
+  name: Astrology API Astrocartography API
+  slug: astrology-api-astrocartography-api
+- baseURL: https://json.astrologyapi.com/v1
+  baseurl_source: declared
+  description: The Face Reading API from Astrology API — 24 operation(s) for face reading.
+  name: Astrology API Face Reading API
+  slug: astrology-api-face-reading-api
+- baseURL: https://json.astrologyapi.com/v1
+  baseurl_source: declared
+  description: The Human Design API from Astrology API — 5 operation(s) for human design.
+  name: Astrology API Human Design API
+  slug: astrology-api-human-design-api
+- baseURL: https://json.astrologyapi.com/v1
+  baseurl_source: declared
+  description: The Palm Reading API from Astrology API — 18 operation(s) for palm reading.
+  name: Astrology API Palm Reading API
+  slug: astrology-api-palm-reading-api
+- baseURL: https://json.astrologyapi.com/v1
+  baseurl_source: declared
+  description: The Palmistry Service API API from Astrology API — 1 operation(s) for palmistry service api.
+  name: Astrology API Palmistry Service API
+  slug: astrology-api-palmistry-service-api-api
+- baseURL: https://json.astrologyapi.com/v1
+  baseurl_source: declared
+  description: The PDF Reports API from Astrology API — 12 operation(s) for pdf reports.
+  name: Astrology API PDF Reports API
+  slug: astrology-api-pdf-reports-api
+- baseURL: https://json.astrologyapi.com/v1
+  baseurl_source: declared
+  description: The Prediction API from Astrology API — 3 operation(s) for prediction.
+  name: Astrology API Prediction API
+  slug: astrology-api-prediction-api
+- baseURL: https://json.astrologyapi.com/v1
+  baseurl_source: declared
+  description: The Vedic Astrology API from Astrology API — 99 operation(s) for vedic astrology.
+  name: Astrology API Vedic Astrology API
+  slug: astrology-api-vedic-astrology-api
+- baseURL: https://json.astrologyapi.com/v1
+  baseurl_source: declared
+  description: The Western Astrology API from Astrology API — 51 operation(s) for western astrology.
+  name: Astrology API Western Astrology API
+  slug: astrology-api-western-astrology-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Astrology Api Webhooks
@@ -76,6 +101,26 @@ collections:
   name: API Collection
   slug: open-astrology-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/overlays/astrology-api-json-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/astrology-api-json-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/overlays/astrology-api-pdf-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/astrology-api-pdf-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/overlays/astrology-api-palmistry-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/astrology-api-palmistry-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/overlays/astrology-api-face-reading-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/astrology-api-face-reading-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -290,18 +335,18 @@ modified: '2026-09-07'
 name: Astrology API
 nav: Providers
 network: true
-overview: 'Astrology API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Astrology API, AstrologyAPI PDF Reports API, AstrologyAPI Palmistry API, and 1 more. Tagged areas include Astrology, Horoscopes, Zodiac, Vedic Astrology, and Western Astrology.
+overview: 'Astrology API publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Astrocartography API, Face Reading API, Human Design API, and 6 more. Tagged areas include Astrology, Horoscopes, Zodiac, Vedic Astrology, and Western Astrology.
 
 
   The Astrology API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Astrology API''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
+  Astrology API''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 37 more developer resources.'
 plans:
 - name: Astrology Api Plans Pricing
   plan_count: 5
   slug: astrology-api-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Astrology Api Rate Limits
@@ -313,34 +358,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.1
+  composite: 61.3
   coverage:
     artifact_dirs: 26
-    catalog_earned: 52.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 60.7
+    contract_quality: 59.2
     developer_ergonomics: 78.0
-    discoverability: 75.9
+    discoverability: 81.5
     operational_transparency: 34.2
   previous_composite: 61.1
   provenance:
     conformance: first-party
     contracts:
-      callable: 75.0
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 9
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

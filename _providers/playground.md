@@ -15,24 +15,66 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 26.8
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- description: Free stateful mock REST API with session-scoped mutation overlays, dynamic collections, media generators, chaos simulation, and simulated JWT auth. Canonical HTTPS base is playground.nileslabs.com/api
-  name: Playground REST API
-  slug: playground-rest-api
 - description: GraphQL gateway providing stateful mock query and mutation access to the same dataset, with an interactive explorer.
   name: Playground GraphQL API
   slug: playground-graphql-api
-artifact_total: 7
+- baseURL: https://playground.nileslabs.com/api/v1
+  baseurl_source: declared
+  description: The Auth API from Playground API — Free Stateful Mock REST & GraphQL Service — 4 operation(s) for auth.
+  name: Playground API — Free Stateful Mock REST & GraphQL Service Auth API
+  slug: playground-auth-api
+- baseURL: https://playground.nileslabs.com/api/v1
+  baseurl_source: declared
+  description: The Avatars API from Playground API — Free Stateful Mock REST & GraphQL Service — 1 operation(s) for avatars.
+  name: Playground API — Free Stateful Mock REST & GraphQL Service Avatars API
+  slug: playground-avatars-api
+- baseURL: https://playground.nileslabs.com/api/v1
+  baseurl_source: declared
+  description: The Comments API from Playground API — Free Stateful Mock REST & GraphQL Service — 2 operation(s) for comments.
+  name: Playground API — Free Stateful Mock REST & GraphQL Service Comments API
+  slug: playground-comments-api
+- baseURL: https://playground.nileslabs.com/api/v1
+  baseurl_source: declared
+  description: The Custom API from Playground API — Free Stateful Mock REST & GraphQL Service — 4 operation(s) for custom.
+  name: Playground API — Free Stateful Mock REST & GraphQL Service Custom API
+  slug: playground-custom-api
+- baseURL: https://playground.nileslabs.com/api/v1
+  baseurl_source: declared
+  description: The Posts API from Playground API — Free Stateful Mock REST & GraphQL Service — 2 operation(s) for posts.
+  name: Playground API — Free Stateful Mock REST & GraphQL Service Posts API
+  slug: playground-posts-api
+- baseURL: https://playground.nileslabs.com/api/v1
+  baseurl_source: declared
+  description: The Session API from Playground API — Free Stateful Mock REST & GraphQL Service — 3 operation(s) for session.
+  name: Playground API — Free Stateful Mock REST & GraphQL Service Session API
+  slug: playground-session-api
+- baseURL: https://playground.nileslabs.com/api/v1
+  baseurl_source: declared
+  description: The Thumbnails API from Playground API — Free Stateful Mock REST & GraphQL Service — 1 operation(s) for thumbnails.
+  name: Playground API — Free Stateful Mock REST & GraphQL Service Thumbnails API
+  slug: playground-thumbnails-api
+- baseURL: https://playground.nileslabs.com/api/v1
+  baseurl_source: declared
+  description: The Users API from Playground API — Free Stateful Mock REST & GraphQL Service — 2 operation(s) for users.
+  name: Playground API — Free Stateful Mock REST & GraphQL Service Users API
+  slug: playground-users-api
+- baseURL: https://playground.nileslabs.com/api/v1/graphql
+  baseurl_source: declared
+  description: The To Dos API from Playground API — Free Stateful Mock REST & GraphQL Service — 2 operation(s) for to dos.
+  name: Playground API — Free Stateful Mock REST & GraphQL Service To Dos API
+  slug: playground-to-dos-api
+artifact_total: 15
 common:
 - group: company
   title: ''
@@ -136,7 +178,7 @@ modified: '2026-09-14'
 name: Playground API — Free Stateful Mock REST & GraphQL Service
 nav: Providers
 network: true
-overview: 'Playground API — Free Stateful Mock REST & GraphQL Service publishes 1 API on the [APIs.io](https://apis.io/) network: Playground REST API. Tagged areas include Developer Tools, Testing, Mock API, api-sandbox, and REST.
+overview: 'Playground API — Free Stateful Mock REST & GraphQL Service publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Avatars API, Comments API, and 6 more. Tagged areas include Developer Tools, Testing, Mock API, api-sandbox, and REST.
 
 
   Playground API — Free Stateful Mock REST & GraphQL Service''s developer surface includes getting-started guide, sandbox, authentication, and 16 more developer resources.'
@@ -144,14 +186,14 @@ plans:
 - name: Playground Plans Pricing
   plan_count: 1
   slug: playground-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Playground Rate Limits
   slug: playground-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 32.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -159,11 +201,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 42.6
+    contract_quality: 48.2
     developer_ergonomics: 47.0
     discoverability: 66.7
     operational_transparency: 5.3
@@ -174,11 +216,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

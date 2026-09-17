@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Calypso Workstation is the end-user desktop application for the Nasdaq Calypso platform. It delivers real-time market data, trade entry, order management, risk monitoring, P&L, scenario analysis, and '
@@ -124,7 +124,7 @@ plans:
 - name: Calypso Workstation Plans Pricing
   plan_count: 0
   slug: calypso-workstation-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Calypso Workstation Rate Limits
@@ -155,7 +155,7 @@ score:
     regime_id: securities_market_data
     score: 50.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

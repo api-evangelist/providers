@@ -15,22 +15,138 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-09-15'
+  score: 35.8
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: 'Public REST API over the Brazilian CNPJ registry: business-idea evaluation, CNPJ lookup, advanced search/export, free-text-to-filters IA translation, geolocation, and anonymous monitoring. Mostly no-a'
-  name: Radar CNPJ API
-  slug: radar-cnpj-api
-artifact_total: 8
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Apis.json API from Radar CNPJ — 1 operation(s) for apis.json.
+  name: Radar CNPJ Apis.json API
+  slug: radar-cnpj-apis-json-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Avaliar API from Radar CNPJ — 1 operation(s) for avaliar.
+  name: Radar CNPJ Avaliar API
+  slug: radar-cnpj-avaliar-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Busca API from Radar CNPJ — 1 operation(s) for busca.
+  name: Radar CNPJ Busca API
+  slug: radar-cnpj-busca-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Cnpj API from Radar CNPJ — 1 operation(s) for cnpj.
+  name: Radar CNPJ Cnpj API
+  slug: radar-cnpj-cnpj-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Contact API from Radar CNPJ — 1 operation(s) for contact.
+  name: Radar CNPJ Contact API
+  slug: radar-cnpj-contact-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Contato API from Radar CNPJ — 1 operation(s) for contato.
+  name: Radar CNPJ Contato API
+  slug: radar-cnpj-contato-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Credito API from Radar CNPJ — 1 operation(s) for credito.
+  name: Radar CNPJ Credito API
+  slug: radar-cnpj-credito-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Export API from Radar CNPJ — 1 operation(s) for export.
+  name: Radar CNPJ Export API
+  slug: radar-cnpj-export-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Health API from Radar CNPJ — 1 operation(s) for health.
+  name: Radar CNPJ Health API
+  slug: radar-cnpj-health-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Ia API from Radar CNPJ — 3 operation(s) for ia.
+  name: Radar CNPJ Ia API
+  slug: radar-cnpj-ia-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Local API from Radar CNPJ — 1 operation(s) for local.
+  name: Radar CNPJ Local API
+  slug: radar-cnpj-local-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Mcp API from Radar CNPJ — 1 operation(s) for mcp.
+  name: Radar CNPJ MCP API
+  slug: radar-cnpj-mcp-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Me API from Radar CNPJ — 4 operation(s) for me.
+  name: Radar CNPJ Me API
+  slug: radar-cnpj-me-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Metrics API from Radar CNPJ — 1 operation(s) for metrics.
+  name: Radar CNPJ Metrics API
+  slug: radar-cnpj-metrics-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Monitor API from Radar CNPJ — 3 operation(s) for monitor.
+  name: Radar CNPJ Monitor API
+  slug: radar-cnpj-monitor-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Municipio Proximo API from Radar CNPJ — 1 operation(s) for municipio proximo.
+  name: Radar CNPJ Municipio Proximo API
+  slug: radar-cnpj-municipio-proximo-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Okf API from Radar CNPJ — 1 operation(s) for okf.
+  name: Radar CNPJ Okf API
+  slug: radar-cnpj-okf-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Radar CNPJ API from Radar CNPJ — 1 operation(s) for radar cnpj.
+  name: Radar CNPJ Radar CNPJ API
+  slug: radar-cnpj-radar-cnpj-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Ref API from Radar CNPJ — 1 operation(s) for ref.
+  name: Radar CNPJ Ref API
+  slug: radar-cnpj-ref-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The Sugerir API from Radar CNPJ — 1 operation(s) for sugerir.
+  name: Radar CNPJ Sugerir API
+  slug: radar-cnpj-sugerir-api
+- baseURL: https://radar-cnpj.com
+  baseurl_source: declared
+  description: The .well Known API from Radar CNPJ — 1 operation(s) for .well known.
+  name: Radar CNPJ .well Known API
+  slug: radar-cnpj-well-known-api
+artifact_total: 28
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://radar-cnpj.com/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/radar-cnpj/refs/heads/main/mcp/radar-cnpj-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/radar-cnpj-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/radar-cnpj/refs/heads/main/overlays/radar-cnpj-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/radar-cnpj-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -93,19 +209,19 @@ modified: '2026-09-05'
 name: Radar CNPJ
 nav: Providers
 network: true
-overview: Radar CNPJ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business & Company Data, Government/Open Data, Receita Federal, CNPJ, and Brazil.
+overview: Radar CNPJ publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Apis.json API, Avaliar API, Busca API, and 18 more. Tagged areas include Business & Company Data, Government/Open Data, Receita Federal, CNPJ, and Brazil.
 plans:
 - name: Radar Cnpj Plans Pricing
   plan_count: 2
   slug: radar-cnpj-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Radar Cnpj Rate Limits
   slug: radar-cnpj-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 45.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 57.0
@@ -113,11 +229,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.2
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 33.3
+    contract_quality: 50.2
     developer_ergonomics: 23.2
     discoverability: 75.9
     operational_transparency: 42.1
@@ -135,7 +251,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 21
     mcp: first-party
     skills: derived
   regulatory:
@@ -145,7 +261,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

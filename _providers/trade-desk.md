@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -76,22 +76,22 @@ apis:
   description: The OfflineConversion API from The Trade Desk — 1 operation(s) for offlineconversion.
   name: The Trade Desk OfflineConversion API
   slug: trade-desk-offlineconversion-api
-- baseURL: https://usw-data.adsrvr.org
-  baseurl_source: declared
-  description: The ThirdParty API from The Trade Desk — 1 operation(s) for thirdparty.
-  name: The Trade Desk ThirdParty API
-  slug: trade-desk-thirdparty-api
-- baseURL: https://usw-data.adsrvr.org
-  baseurl_source: declared
-  description: IP-address ingestion endpoints of the TTD Data API — upload first-party or third-party IP-address-based targeting data for use in audience targeting. Discovered 2026-08-13 in the provider-published Sw
-  name: The Trade Desk IPAddress Data API
-  slug: trade-desk-ipaddress-api
 - description: The Trade Desk Real-Time Conversions API (formerly the Real-Time Conversion Events API) allows advertisers to send conversion events server-side in real time, enabling more accurate attribution, cross
   name: The Trade Desk Real-Time Conversions API
   slug: the-trade-desk-real-time-conversions-api
 - description: The Trade Desk Reporting API provides programmatic access to campaign performance data including impressions, clicks, conversions, spend, win rates, viewability, effective CPM, completion rates, and 2
   name: The Trade Desk Reporting API
   slug: the-trade-desk-reporting-api
+- baseURL: https://api.thetradedesk.com/v3
+  baseurl_source: declared
+  description: The IP Address API from The Trade Desk — 2 operation(s) for ip address.
+  name: The Trade Desk IP Address API
+  slug: trade-desk-ip-address-api
+- baseURL: https://api.thetradedesk.com/v3
+  baseurl_source: declared
+  description: The Third Party API from The Trade Desk — 1 operation(s) for third party.
+  name: The Trade Desk Third Party API
+  slug: trade-desk-third-party-api
 artifact_total: 28
 collections:
 - collection_type: open
@@ -116,6 +116,11 @@ collections:
   name: TTD Data Advertiser ThirdParty API
   slug: open-trade-desk-thirdparty-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/overlays/trade-desk-ipaddress-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/trade-desk-ipaddress-api-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -424,12 +429,12 @@ network: true
 overview: 'The Trade Desk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Advertiser API, DeletionOptOut API, OfflineConversion API, and 2 more. Tagged areas include Advertising, Programmatic Advertising, DSP, AdTech, and Connected TV.
 
 
-  The Trade Desk''s developer surface includes API reference, signup flow, support, changelog, sandbox, authentication, developer portal, and 59 more developer resources.'
+  The Trade Desk''s developer surface includes API reference, signup flow, support, changelog, sandbox, authentication, developer portal, and 60 more developer resources.'
 plans:
 - name: Trade Desk Plans Pricing
   plan_count: 0
   slug: trade-desk-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Trade Desk Rate Limits
@@ -441,7 +446,7 @@ scopes:
   summary_line: 91 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 53.0
+  composite: 51.7
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -449,11 +454,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 49.7
+    contract_quality: 44.2
     developer_ergonomics: 80.4
     discoverability: 75.9
     operational_transparency: 42.1
@@ -462,14 +467,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

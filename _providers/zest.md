@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -252,7 +252,7 @@ overview: 'Zest publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zest''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 19 more developer resources.'
-random_paper: 13
+random_paper: 14
 score:
   band: developing
   composite: 44.2
@@ -283,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -305,7 +305,7 @@ tags:
 - Private Markets
 - Fintech
 - Equity
-- Investors
+- Investor
 - Escrow
 - SPaaS
 - MENA

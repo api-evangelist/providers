@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://marketplace.appdirect.com/api
@@ -273,11 +273,6 @@ apis:
   slug: appdirect-payment-methods-api
 - baseURL: https://marketplace.appdirect.com/api
   baseurl_source: declared
-  description: The PaymentInstrument API from AppDirect — 4 operation(s) for paymentinstrument.
-  name: AppDirect PaymentInstrument API
-  slug: appdirect-paymentinstrument-api
-- baseURL: https://marketplace.appdirect.com/api
-  baseurl_source: declared
   description: The PaymentPlan API from AppDirect — 3 operation(s) for paymentplan.
   name: AppDirect PaymentPlan API
   slug: appdirect-paymentplan-api
@@ -294,18 +289,13 @@ apis:
 - baseURL: https://marketplace.appdirect.com/api
   baseurl_source: declared
   description: The Product Management API API from AppDirect — 4 operation(s) for product management api.
-  name: AppDirect Product Management API API
+  name: AppDirect Product Management API
   slug: appdirect-product-management-api-api
 - baseURL: https://marketplace.appdirect.com/api
   baseurl_source: declared
   description: The ProductContext API from AppDirect — 2 operation(s) for productcontext.
   name: AppDirect ProductContext API
   slug: appdirect-productcontext-api
-- baseURL: https://marketplace.appdirect.com/api
-  baseurl_source: declared
-  description: The PurchaseOrder API from AppDirect — 7 operation(s) for purchaseorder.
-  name: AppDirect PurchaseOrder API
-  slug: appdirect-purchaseorder-api
 - baseURL: https://marketplace.appdirect.com/api
   baseurl_source: declared
   description: The Question API from AppDirect — 2 operation(s) for question.
@@ -358,16 +348,6 @@ apis:
   slug: appdirect-settings-api
 - baseURL: https://marketplace.appdirect.com/api
   baseurl_source: declared
-  description: Operations related to shopping carts
-  name: AppDirect ShoppingCart API
-  slug: appdirect-shoppingcart-api
-- baseURL: https://marketplace.appdirect.com/api
-  baseurl_source: declared
-  description: The SubscriptionAssignments API from AppDirect — 2 operation(s) for subscriptionassignments.
-  name: AppDirect SubscriptionAssignments API
-  slug: appdirect-subscriptionassignments-api
-- baseURL: https://marketplace.appdirect.com/api
-  baseurl_source: declared
   description: The Subscriptions API from AppDirect — 19 operation(s) for subscriptions.
   name: AppDirect Subscriptions API
   slug: appdirect-subscriptions-api
@@ -408,9 +388,29 @@ apis:
   slug: appdirect-user-api
 - baseURL: https://marketplace.appdirect.com/api
   baseurl_source: declared
-  description: The UserAccounts API from AppDirect — 1 operation(s) for useraccounts.
-  name: AppDirect UserAccounts API
-  slug: appdirect-useraccounts-api
+  description: The Payment Instrument API from AppDirect — 4 operation(s) for payment instrument.
+  name: AppDirect Payment Instrument API
+  slug: appdirect-payment-instrument-api
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Purchase Order API from AppDirect — 7 operation(s) for purchase order.
+  name: AppDirect Purchase Order API
+  slug: appdirect-purchase-order-api
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Operations related to shopping carts
+  name: AppDirect Shopping Cart API
+  slug: appdirect-shopping-cart-api
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Subscription Assignments API from AppDirect — 2 operation(s) for subscription assignments.
+  name: AppDirect Subscription Assignments API
+  slug: appdirect-subscription-assignments-api
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The User Accounts API from AppDirect — 1 operation(s) for user accounts.
+  name: AppDirect User Accounts API
+  slug: appdirect-user-accounts-api
 artifact_total: 155
 asyncapis:
 - description: ''
@@ -822,7 +822,7 @@ created: '2026-07-17'
 description: AppDirect is a subscription commerce platform that powers B2B digital marketplaces, billing, provisioning, and reseller/distribution channels for millions of cloud subscriptions worldwide. Its developer platform exposes OAuth 2.0-authenticated REST and GraphQL APIs to manage companies, users and memberships, products and editions, subscriptions and assignments, invoices and metered usage billing, and to receive real-time webhooks. AppDirect also ships Devs.ai, an API for building LLM/agent experiences, plus a Storefront Toolkit CLI and embeddable UI components. Enriched from the public developer portal, OpenAPI specs, and live probes by the API Evangelist pipeline.
 image: https://www.appdirect.com/favicon.ico
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-16'
 name: AppDirect
 nav: Providers
 network: true
@@ -833,42 +833,42 @@ overview: 'AppDirect publishes 75 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AppDirect''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 31 more developer resources.'
-random_paper: 11
+random_paper: 10
 scopes:
 - name: Appdirect Scopes
   scope_count: 15
   slug: appdirect-scopes
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 56.1
+  band: developing
+  composite: 54.0
   coverage:
     artifact_dirs: 21
-    catalog_earned: 37.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 59.7
+    contract_quality: 58.8
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 39.5
   previous_composite: 56.1
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 74.7
       derived: 0
       marker_coverage: 0.0
       total: 75
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

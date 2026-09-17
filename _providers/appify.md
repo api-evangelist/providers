@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Appify platform's tenant-facing REST API. Appify's public pricing page lists "REST API access" among the standard capabilities included in a subscription. The API is served from the platform appli
@@ -111,7 +111,7 @@ overview: 'Appify publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Appify''s developer surface includes pricing and 8 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: emerging
   composite: 12.4
@@ -132,7 +132,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

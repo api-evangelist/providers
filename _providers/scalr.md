@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 182
   human_in_the_loop: 3
@@ -61,7 +61,7 @@ apis:
   description: The Cloud Credentials API from Scalr — 4 operation(s) for cloud credentials.
   name: Scalr Cloud Credentials API
   slug: scalr-cloud-credentials-api
-- baseURL: /api/v1beta0/account
+- baseURL: /api/v1beta0/user
   baseurl_source: spec
   description: The Clouds API from Scalr — 2 operation(s) for clouds.
   name: Scalr Clouds API
@@ -76,7 +76,7 @@ apis:
   description: The Environments API from Scalr — 6 operation(s) for environments.
   name: Scalr Environments API
   slug: scalr-environments-api
-- baseURL: /api/v1beta0/account
+- baseURL: /api/v1beta0/user
   baseurl_source: spec
   description: The Event Logs API from Scalr — 2 operation(s) for event logs.
   name: Scalr Event Logs API
@@ -86,12 +86,12 @@ apis:
   description: The Events API from Scalr — 5 operation(s) for events.
   name: Scalr Events API
   slug: scalr-events-api
-- baseURL: /api/v1beta0/account
+- baseURL: /api/v1beta0/user
   baseurl_source: spec
   description: The Farm Roles API from Scalr — 13 operation(s) for farm roles.
   name: Scalr Farm Roles API
   slug: scalr-farm-roles-api
-- baseURL: /api/v1beta0/account
+- baseURL: /api/v1beta0/user
   baseurl_source: spec
   description: The Farms API from Scalr — 16 operation(s) for farms.
   name: Scalr Farms API
@@ -106,7 +106,7 @@ apis:
   description: The Images API from Scalr — 12 operation(s) for images.
   name: Scalr Images API
   slug: scalr-images-api
-- baseURL: /api/v1beta0/account
+- baseURL: /api/v1beta0/user
   baseurl_source: spec
   description: The Orchestration Logs API from Scalr — 2 operation(s) for orchestration logs.
   name: Scalr Orchestration Logs API
@@ -141,7 +141,7 @@ apis:
   description: The Scaling Metrics API from Scalr — 4 operation(s) for scaling metrics.
   name: Scalr Scaling Metrics API
   slug: scalr-scaling-metrics-api
-- baseURL: /api/v1beta0/account
+- baseURL: /api/v1beta0/user
   baseurl_source: spec
   description: The Script Executions API from Scalr — 1 operation(s) for script executions.
   name: Scalr Script Executions API
@@ -151,7 +151,7 @@ apis:
   description: The Scripts API from Scalr — 10 operation(s) for scripts.
   name: Scalr Scripts API
   slug: scalr-scripts-api
-- baseURL: /api/v1beta0/account
+- baseURL: /api/v1beta0/user
   baseurl_source: spec
   description: The Servers API from Scalr — 9 operation(s) for servers.
   name: Scalr Servers API
@@ -381,7 +381,7 @@ plans:
 - name: Scalr Plans Pricing
   plan_count: 2
   slug: scalr-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Scalr Rate Limits
@@ -409,7 +409,7 @@ rules:
   slug: scalr-rules
 score:
   band: thin
-  composite: 32.3
+  composite: 33.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 58.3
@@ -417,11 +417,11 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 13.2
     contract_governance: 25.0
-    contract_quality: 51.0
+    contract_quality: 57.7
     developer_ergonomics: 31.0
     discoverability: 72.2
     operational_transparency: 10.5
@@ -440,7 +440,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

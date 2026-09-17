@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 6
+- acting_count: 51
   human_in_the_loop: 0
   name: Moodys Agentic Access
-  operation_count: 17
+  operation_count: 94
   slug: moodys-agentic-access
-  summary_line: 17 operations · 6 acting
+  summary_line: 94 operations · 51 acting
 api_count: 5
 apis:
 - baseURL: https://api.economy.com
@@ -96,11 +96,6 @@ apis:
   slug: moodys-forecast-api
 - baseURL: https://api.economy.com
   baseurl_source: declared
-  description: The HealthCheck API from Moody's — 1 operation(s) for healthcheck.
-  name: Moody's Health Check API
-  slug: moodys-healthcheck-api
-- baseURL: https://api.economy.com
-  baseurl_source: declared
   description: The Interpolation API from Moody's — 1 operation(s) for interpolation.
   name: Moody's Interpolation API
   slug: moodys-interpolation-api
@@ -136,11 +131,6 @@ apis:
   slug: moodys-vin-api
 - baseURL: https://api.economy.com
   baseurl_source: declared
-  description: The FileTypes API from Moody's — 1 operation(s) for filetypes.
-  name: Moody's File Types API
-  slug: moodys-filetypes-api
-- baseURL: https://api.economy.com
-  baseurl_source: declared
   description: The Frequency API from Moody's — 1 operation(s) for frequency.
   name: Moody's Frequency API
   slug: moodys-frequency-api
@@ -154,6 +144,16 @@ apis:
   description: The Vintage API from Moody's — 1 operation(s) for vintage.
   name: Moody's Vintage API
   slug: moodys-vintage-api
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The File Types API from Moody's — 1 operation(s) for file types.
+  name: Moody's File Types API
+  slug: moodys-file-types-api
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Health Check API from Moody's — 1 operation(s) for health check.
+  name: Moody's Health Check API
+  slug: moodys-health-check-api
 artifact_total: 113
 collections:
 - collection_type: postman
@@ -588,7 +588,7 @@ press:
 - date: '2026-05-25'
   title: Moody's Advances Decision-Grade Credit Intelligence ...
   url: https://www.businesswire.com/news/home/20260421137955/en/Moodys-Advances-Decision-Grade-Credit-Intelligence-Across-Enterprise-AI-Workflows-Powered-by-Microsoft-365-Copilot
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Moodys Rate Limits
@@ -622,7 +622,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.3
+  composite: 55.4
   coverage:
     artifact_dirs: 33
     catalog_earned: 62.5
@@ -630,11 +630,11 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 52.8
+    contract_quality: 53.0
     developer_ergonomics: 76.8
     discoverability: 74.1
     operational_transparency: 34.2
@@ -656,7 +656,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

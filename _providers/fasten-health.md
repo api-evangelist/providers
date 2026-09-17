@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -316,6 +316,10 @@ common:
   title: ''
   type: Overlay
   url: overlays/fasten-health-connect-overlay.yaml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@fastenhealth.com
 created: '2026-05-25'
 description: Fasten Health is a healthcare data interoperability company offering a unified medical record platform that gives patients and developers access to clinical data across the U.S. healthcare system. Fasten began as an open-source project — Fasten OnPrem, a self-hosted personal/family electronic medical record manager that ingests FHIR Bundles and is distributed under GPL-3.0 with 2.7k+ GitHub stars. The team then productized the connectivity layer as Fasten Connect, a commercial REST + FHIR API and Stitch client SDK suite that lets developers retrieve clinical records from 50,000+ healthcare systems and 60,000+ organizations including Epic, Cerner, MyChart, Kaiser Permanente, HCA, Ascension, Humana, and Medicare. Founded by engineers who lived through the fragmentation of health data firsthand and based in New York City, Fasten ships GPL/MIT/Apache 2.0 open source repos alongside the hosted Fasten Connect platform.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fasten-health.png
@@ -330,12 +334,12 @@ overview: 'Fasten Health publishes 1 API on the [APIs.io](https://apis.io/) netw
   The Fasten Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fasten Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, signup flow, pricing, and 45 more developer resources.'
+  Fasten Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, signup flow, pricing, and 46 more developer resources.'
 plans:
 - name: Fasten Health Plans Pricing
   plan_count: 0
   slug: fasten-health-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Fasten Health Rate Limits
@@ -347,7 +351,7 @@ scopes:
   summary_line: 5 scopes
 score:
   band: strong
-  composite: 58.8
+  composite: 60.4
   coverage:
     artifact_dirs: 26
     catalog_earned: 32.0
@@ -355,11 +359,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 57.5
+    contract_quality: 64.2
     developer_ergonomics: 78.6
     discoverability: 66.7
     operational_transparency: 42.1
@@ -386,7 +390,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

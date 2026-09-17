@@ -52,7 +52,7 @@ name: Peach
 nav: Providers
 network: true
 overview: Peach is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Apparel, and Direct Sales.
-random_paper: 9
+random_paper: 7
 screenshot: https://raw.githubusercontent.com/api-evangelist/peach/refs/heads/main/screenshots/peach-2026-09-02T150926.png
 security:
 - kind: domain-security

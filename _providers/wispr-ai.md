@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.wisprflow.ai
@@ -139,11 +139,6 @@ apis:
   slug: wispr-ai-keyboard-telemetry-api
 - baseURL: https://api.wisprflow.ai
   baseurl_source: declared
-  description: The LinkedIn API from Wispr AI — 3 operation(s) for linkedin.
-  name: Wispr AI LinkedIn API
-  slug: wispr-ai-linkedin-api
-- baseURL: https://api.wisprflow.ai
-  baseurl_source: declared
   description: The LLM API from Wispr AI — 20 operation(s) for llm.
   name: Wispr AI LLM API
   slug: wispr-ai-llm-api
@@ -244,11 +239,6 @@ apis:
   slug: wispr-ai-teams-api
 - baseURL: https://api.wisprflow.ai
   baseurl_source: declared
-  description: The Todos API from Wispr AI — 1 operation(s) for todos.
-  name: Wispr AI Todos API
-  slug: wispr-ai-todos-api
-- baseURL: https://api.wisprflow.ai
-  baseurl_source: declared
   description: The Tracking API from Wispr AI — 1 operation(s) for tracking.
   name: Wispr AI Tracking API
   slug: wispr-ai-tracking-api
@@ -287,6 +277,16 @@ apis:
   description: The Wispr Backend API from Wispr AI — 1 operation(s) for wispr backend.
   name: Wispr AI Wispr Backend API
   slug: wispr-ai-wispr-backend-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The Linked In API from Wispr AI — 3 operation(s) for linked in.
+  name: Wispr AI Linked In API
+  slug: wispr-ai-linked-in-api
+- baseURL: https://api.wisprflow.ai
+  baseurl_source: declared
+  description: The To Dos API from Wispr AI — 1 operation(s) for to dos.
+  name: Wispr AI To Dos API
+  slug: wispr-ai-to-dos-api
 artifact_total: 105
 collections:
 - collection_type: open
@@ -592,10 +592,10 @@ overview: 'Wispr AI publishes 50 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wispr AI''s developer surface includes engineering blog, pricing, support, signup flow, changelog, authentication, and 24 more developer resources.'
-random_paper: 14
+random_paper: 20
 score:
   band: developing
-  composite: 49.4
+  composite: 48.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -603,11 +603,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 52.8
+    contract_quality: 47.4
     developer_ergonomics: 20.8
     discoverability: 75.9
     operational_transparency: 36.8
@@ -615,14 +615,14 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 50
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

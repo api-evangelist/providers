@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Read-only REST API for fetching reporting data across dimensions and metrics to analyze campaign performance. Write operations are deprecated; use the GraphQL API for write operations.
@@ -269,7 +269,7 @@ plans:
 - name: Stackadapt Plans Pricing
   plan_count: 5
   slug: stackadapt-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Stackadapt Rate Limits
@@ -303,7 +303,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

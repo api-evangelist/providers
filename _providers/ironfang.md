@@ -23,20 +23,64 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.ironfang.uk/renderwolf
   baseurl_source: declared
-  description: 'Production REST/JSON rendering API: screenshots, PDFs, templated images, QR codes, video, site previews, signed URLs, async jobs, batches, destinations/deliveries and usage. Bearer API-key auth.'
-  name: Renderwolf API
-  slug: renderwolf-api
-artifact_total: 9
+  description: Usage against quota.
+  name: Ironfang Account API
+  slug: ironfang-account-api
+- baseURL: https://api.ironfang.uk/renderwolf
+  baseurl_source: declared
+  description: Up to 100 renders submitted, and refused, together.
+  name: Ironfang Batches API
+  slug: ironfang-batches-api
+- baseURL: https://api.ironfang.uk/renderwolf
+  baseurl_source: declared
+  description: Where a finished job goes - a signed webhook, or your own S3 bucket.
+  name: Ironfang Destinations API
+  slug: ironfang-destinations-api
+- baseURL: https://api.ironfang.uk/renderwolf
+  baseurl_source: declared
+  description: The Jobs API from Ironfang — 4 operation(s) for jobs.
+  name: Ironfang Jobs API
+  slug: ironfang-jobs-api
+- baseURL: https://api.ironfang.uk/renderwolf
+  baseurl_source: declared
+  description: Turn a URL or HTML into an image, PDF or video.
+  name: Ironfang Render API
+  slug: ironfang-render-api
+- baseURL: https://api.ironfang.uk/renderwolf
+  baseurl_source: declared
+  description: Shareable render URLs that need no API key.
+  name: Ironfang Signed URLs API
+  slug: ironfang-signed-urls-api
+- baseURL: https://api.ironfang.uk/renderwolf
+  baseurl_source: declared
+  description: Stored HTML with `{{variable}}` placeholders, rendered on demand.
+  name: Ironfang Templates API
+  slug: ironfang-templates-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Ironfang Webhooks
   slug: ironfang-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/overlays/ironfang-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/ironfang-openapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/heads/main/mcp/ironfang-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/ironfang-mcp.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.ironfang.uk/mcp
 - group: company
   title: ''
   type: Website
@@ -167,18 +211,18 @@ modified: '2026-09-02'
 name: Ironfang
 nav: Providers
 network: true
-overview: 'Ironfang publishes 1 API on the [APIs.io](https://apis.io/) network: Renderwolf API. Tagged areas include Developer Tools, screenshot-api, website screenshot, HTML to PDF, and PDF API.
+overview: 'Ironfang publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Batches API, Destinations API, and 4 more. Tagged areas include Developer Tools, screenshot-api, website screenshot, HTML to PDF, and PDF API.
 
 
   The Ironfang catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ironfang''s developer surface includes authentication, CLI, sandbox, getting-started guide, support, pricing, signup flow, and 18 more developer resources.'
+  Ironfang''s developer surface includes authentication, CLI, sandbox, getting-started guide, support, pricing, signup flow, and 21 more developer resources.'
 plans:
 - name: Ironfang Plans Pricing
   plan_count: 4
   slug: ironfang-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Ironfang Rate Limits
@@ -190,7 +234,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.5
+  composite: 64.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 61.0
@@ -198,11 +242,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
-    contract_quality: 65.9
+    contract_quality: 66.8
     developer_ergonomics: 78.0
     discoverability: 75.9
     operational_transparency: 57.9
@@ -213,11 +257,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

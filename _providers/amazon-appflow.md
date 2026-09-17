@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -83,6 +83,10 @@ collections:
   name: Amazon AppFlow Connectors Tags API
   slug: open-amazon-appflow-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -805,7 +809,7 @@ jsonld:
   property_count: 120
   slug: amazon-appflow-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon AppFlow
 nav: Providers
 network: true
@@ -815,8 +819,8 @@ overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   The Amazon AppFlow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
-random_paper: 3
+  Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 28 more developer resources.'
+random_paper: 0
 rules:
 - effective_rule_count: 6
   extends: []
@@ -841,21 +845,21 @@ rules:
   slug: amazon-appflow-spectral-rules
 score:
   band: developing
-  composite: 46.3
+  composite: 42.8
   coverage:
     artifact_dirs: 22
-    catalog_earned: 67.5
+    catalog_earned: 47.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.5
+    catalog_gap: 67.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
     access_clarity: 52.6
     contract_governance: 33.3
-    contract_quality: 32.3
+    contract_quality: 25.5
     developer_ergonomics: 65.5
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 28.9
   previous_composite: 46.3
   provenance:
@@ -868,7 +872,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -909,5 +913,5 @@ use_cases:
   name: Cross-Application Automation
 - description: Securely extract and archive regulated data from SaaS applications into encrypted AWS storage for compliance auditing.
   name: Data Compliance
-website: https://aws.amazon.com/appflow/
+website: https://amazon.com
 ---

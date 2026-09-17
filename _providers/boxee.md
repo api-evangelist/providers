@@ -28,7 +28,7 @@ name: Boxee
 nav: Providers
 network: true
 overview: Boxee is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Media Center, Streaming, and Set-Top Box.
-random_paper: 6
+random_paper: 3
 slug: boxee
 tags:
 - Company

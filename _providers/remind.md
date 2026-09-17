@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -139,7 +139,7 @@ overview: 'Remind is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Remind''s developer surface includes pricing, privacy policy, terms of service, GitHub presence, YouTube channel, and 17 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 9.0
@@ -166,7 +166,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

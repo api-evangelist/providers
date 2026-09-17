@@ -23,16 +23,70 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://kronos.seshat.markets/api
   baseurl_source: declared
-  description: Live REST/JSON API with 32 endpoints for price-path forecasting, market/risk context, accuracy audits, and agent signals. Several endpoints are free; the rest are paid per-request via x402 USDC microp
-  name: Kronos Quant Signal REST API
-  slug: kronos-quant-signal-rest-api
-artifact_total: 7
+  description: The Agent API from Seshat Markets — 7 operation(s) for agent.
+  name: Seshat Markets Agent API
+  slug: seshat-markets-agent-api
+- baseURL: https://kronos.seshat.markets/api
+  baseurl_source: declared
+  description: The Agent Intelligence API from Seshat Markets — 2 operation(s) for agent intelligence.
+  name: Seshat Markets Agent Intelligence API
+  slug: seshat-markets-agent-intelligence-api
+- baseURL: https://kronos.seshat.markets/api
+  baseurl_source: declared
+  description: The Analysis API from Seshat Markets — 8 operation(s) for analysis.
+  name: Seshat Markets Analysis API
+  slug: seshat-markets-analysis-api
+- baseURL: https://kronos.seshat.markets/api
+  baseurl_source: declared
+  description: The Discovery API from Seshat Markets — 2 operation(s) for discovery.
+  name: Seshat Markets Discovery API
+  slug: seshat-markets-discovery-api
+- baseURL: https://kronos.seshat.markets/api
+  baseurl_source: declared
+  description: The Experimental API from Seshat Markets — 1 operation(s) for experimental.
+  name: Seshat Markets Experimental API
+  slug: seshat-markets-experimental-api
+- baseURL: https://kronos.seshat.markets/api
+  baseurl_source: declared
+  description: The Forecast API from Seshat Markets — 4 operation(s) for forecast.
+  name: Seshat Markets Forecast API
+  slug: seshat-markets-forecast-api
+- baseURL: https://kronos.seshat.markets/api
+  baseurl_source: declared
+  description: The Market Intelligence API from Seshat Markets — 2 operation(s) for market intelligence.
+  name: Seshat Markets Market Intelligence API
+  slug: seshat-markets-market-intelligence-api
+- baseURL: https://kronos.seshat.markets/api
+  baseurl_source: declared
+  description: The Semantic Similarity API from Seshat Markets — 2 operation(s) for semantic similarity.
+  name: Seshat Markets Semantic Similarity API
+  slug: seshat-markets-semantic-similarity-api
+- baseURL: https://kronos.seshat.markets/api
+  baseurl_source: declared
+  description: The Signal API from Seshat Markets — 1 operation(s) for signal.
+  name: Seshat Markets Signal API
+  slug: seshat-markets-signal-api
+- baseURL: https://kronos.seshat.markets/api
+  baseurl_source: declared
+  description: The Verification API from Seshat Markets — 3 operation(s) for verification.
+  name: Seshat Markets Verification API
+  slug: seshat-markets-verification-api
+artifact_total: 16
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://kronos.seshat.markets/kronos/skill.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/seshat-markets/refs/heads/main/overlays/seshat-markets-kronos-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/seshat-markets-kronos-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -172,22 +226,22 @@ modified: '2026-09-05'
 name: Seshat Markets
 nav: Providers
 network: true
-overview: 'Seshat Markets publishes 1 API on the [APIs.io](https://apis.io/) network: Kronos Quant Signal REST API. Tagged areas include Finance, Fintech, Crypto, Commodities, and Forecasting.
+overview: 'Seshat Markets publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Agent Intelligence API, Analysis API, and 7 more. Tagged areas include Finance, Fintech, Crypto, Commodities, and Forecasting.
 
 
-  Seshat Markets'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, sandbox, and 21 more developer resources.'
+  Seshat Markets'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, sandbox, and 23 more developer resources.'
 plans:
 - name: Seshat Markets Plans Pricing
   plan_count: 0
   slug: seshat-markets-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 9
   name: Seshat Markets Rate Limits
   slug: seshat-markets-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 49.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -195,11 +249,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 51.7
+    contract_quality: 51.2
     developer_ergonomics: 54.8
     discoverability: 75.9
     operational_transparency: 57.9
@@ -210,7 +264,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 10
     mcp: first-party
     skills: first-party
   regulatory:
@@ -220,7 +274,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -245,7 +299,7 @@ tags:
 - Crypto
 - Commodities
 - Forecasting
-- Prediction
+- Predictions
 - Market Data
 - trading-signals
 - Research

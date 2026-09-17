@@ -35,16 +35,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.stockgro.club
   baseurl_source: declared
-  description: Real-time scoring service for intraday trade predictions, published as an auto-generated FastAPI OpenAPI 3.1.0 document served without authentication at api.stockgro.club/openapi.json. Three operation
-  name: TradeView Intraday Model API
-  slug: stockgro-tradeview-intraday-model-api
-artifact_total: 5
+  description: The Health API from StockGro — 1 operation(s) for health.
+  name: StockGro Health API
+  slug: stockgro-health-api
+- baseURL: https://api.stockgro.club
+  baseurl_source: declared
+  description: The Process API from StockGro — 1 operation(s) for process.
+  name: StockGro Process API
+  slug: stockgro-process-api
+- baseURL: https://api.stockgro.club
+  baseurl_source: declared
+  description: The TradeView Intraday Model API API from StockGro — 1 operation(s) for tradeview intraday model api.
+  name: StockGro TradeView Intraday Model API
+  slug: stockgro-tradeview-intraday-model-api-api
+artifact_total: 7
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stockgro/refs/heads/main/overlays/stockgro-tradeview-intraday-model-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stockgro-tradeview-intraday-model-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -130,22 +145,22 @@ modified: '2026-08-29'
 name: StockGro
 nav: Providers
 network: true
-overview: 'StockGro publishes 1 API on the [APIs.io](https://apis.io/) network: TradeView Intraday Model API. Tagged areas include Company, Financial-Services, Stock Market, Investing, and Market Data.
+overview: 'StockGro publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Process API, and TradeView Intraday Model API. Tagged areas include Company, Financial-Services, Stock Market, Investing, and Market Data.
 
 
-  StockGro''s developer surface includes engineering blog, support, signup flow, pricing, and 13 more developer resources.'
+  StockGro''s developer surface includes engineering blog, support, signup flow, pricing, and 14 more developer resources.'
 plans:
 - name: Stockgro Plans Pricing
   plan_count: 0
   slug: stockgro-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Stockgro Rate Limits
   slug: stockgro-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 36.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -153,11 +168,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 38.8
+    contract_quality: 42.4
     developer_ergonomics: 37.5
     discoverability: 75.9
     operational_transparency: 2.6
@@ -171,6 +186,11 @@ score:
   previous_composite: 36.0
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
     mcp: derived
     skills: derived
   regulatory:
@@ -180,7 +200,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

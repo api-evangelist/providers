@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,11 +77,11 @@ modified: '2026-07-19'
 name: Ellis
 nav: Providers
 network: true
-overview: 'Ellis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Legal Tech, Visas, and Green Cards.
+overview: 'Ellis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Legal Tech, Visa, and Green Cards.
 
 
   Ellis'' developer surface includes pricing, engineering blog, and 6 more developer resources.'
-random_paper: 12
+random_paper: 9
 score:
   band: emerging
   composite: 11.5
@@ -108,7 +108,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -125,7 +125,7 @@ tags:
 - Company
 - Immigration
 - Legal Tech
-- Visas
+- Visa
 - Green Cards
 - Human Resources
 - Compliance

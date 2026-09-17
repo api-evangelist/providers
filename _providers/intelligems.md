@@ -30,13 +30,13 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
-    rate_limit_signal: verified
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.7
-  scored_at: '2026-09-15'
+  score: 55.2
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -46,30 +46,55 @@ agentic_access:
   summary_line: 16 operations · 13 acting
 api_count: 1
 apis:
-- baseURL: https://api.intelligems.io
-  baseurl_source: declared
-  description: Experience-level and sitewide analytics.
-  name: Intelligems Analytics API
-  slug: intelligems-analytics-api
-- baseURL: https://api.intelligems.io
-  baseurl_source: declared
-  description: Create, read, update, and control A/B tests and personalizations.
-  name: Intelligems Experiences API
-  slug: intelligems-experiences-api
-- baseURL: https://api.intelligems.io
-  baseurl_source: declared
-  description: Event/holiday benchmark analytics.
-  name: Intelligems Holiday Benchmark API
-  slug: intelligems-holiday-benchmark-api
-- baseURL: https://api.intelligems.io
-  baseurl_source: declared
-  description: Define the client-side behaviors Intelligems tracks on a storefront — click events, scroll depth, page views, product and collection page views, element-viewed and custom JavaScript events — so they c
-  name: Intelligems Custom Events API
-  slug: intelligems-custom-events-api
 - description: Official hosted Model Context Protocol server exposing 46 tools over HTTP and SSE — experiment discovery and lifecycle, price-test prepare/commit, experiment and sitewide analytics, seasonal benchmark
   name: Intelligems MCP Server
   slug: intelligems-mcp-server
-artifact_total: 18
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: 'The following custom event types are supported by the Intelligems Custom Events API: - `clickEvent` — Fires when a visitor clicks an element matching one or more CSS selectors - `scrollDepth` — Fires '
+  name: Intelligems Create Custom Event API
+  slug: intelligems-create-custom-event-api
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: 'The following experience types are supported by the Intelligems Experiments API: - `content/advanced` — Advanced content test (custom CSS/JS injection) - `content/onsiteEdits` — Onsite edits (visual e'
+  name: Intelligems Create Experience API
+  slug: intelligems-create-experience-api
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: The Fetch Experience Data API from Intelligems — 3 operation(s) for fetch experience data.
+  name: Intelligems Fetch Experience Data API
+  slug: intelligems-fetch-experience-data-api
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: The Fetch Experience List API from Intelligems — 1 operation(s) for fetch experience list.
+  name: Intelligems Fetch Experience List API
+  slug: intelligems-fetch-experience-list-api
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: The Fetch Sitewide Analytics API from Intelligems — 4 operation(s) for fetch sitewide analytics.
+  name: Intelligems Fetch Sitewide Analytics API
+  slug: intelligems-fetch-sitewide-analytics-api
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: The Get Experience Export API from Intelligems — 1 operation(s) for get experience export.
+  name: Intelligems Get Experience Export API
+  slug: intelligems-get-experience-export-api
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: The Get Holiday Benchmark Data API from Intelligems — 2 operation(s) for get holiday benchmark data.
+  name: Intelligems Get Holiday Benchmark Data API
+  slug: intelligems-get-holiday-benchmark-data-api
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: Lifecycle actions for managing experience state transitions (start, pause, end).
+  name: Intelligems Perform Experience Action API
+  slug: intelligems-perform-experience-action-api
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: Updates an existing experience. This is a full PUT replacement — the entire experience configuration is replaced with the provided data. All required fields must be included in every request. Any opti
+  name: Intelligems Update Experience API
+  slug: intelligems-update-experience-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Intelligems Webhooks
@@ -271,7 +296,7 @@ modified: '2026-08-13'
 name: Intelligems
 nav: Providers
 network: true
-overview: 'Intelligems publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Experiences API, Holiday Benchmark API, and 1 more. Tagged areas include Company, A/B Testing, E-Commerce, Pricing, and Personalization.
+overview: 'Intelligems publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Create Custom Event API, Create Experience API, Fetch Experience Data API, and 6 more. Tagged areas include Company, A/B Testing, E-Commerce, Pricing, and Personalization.
 
 
   The Intelligems catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -282,7 +307,7 @@ plans:
 - name: Intelligems Plans Pricing
   plan_count: 2
   slug: intelligems-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Intelligems Rate Limits
@@ -294,7 +319,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.0
+  composite: 59.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 57.0
@@ -302,11 +327,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 65.1
+    contract_quality: 63.0
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 55.3
@@ -318,15 +343,15 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 9
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
-    score: 33.3
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/screenshots/intelligems-2026-07-25T222646.png
 security:
 - kind: authentication

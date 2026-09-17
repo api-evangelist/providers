@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Pyramid's main programmatic surface. All calls are HTTP POST against /API3/<section>/<method> on the customer's own Pyramid server, carrying a JSON body and a "paToken" security token in the HTTP head
@@ -185,7 +185,7 @@ plans:
 - name: Pyramid Analytics Plans Pricing
   plan_count: 0
   slug: pyramid-analytics-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Pyramid Analytics Rate Limits
@@ -213,7 +213,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

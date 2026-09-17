@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 2
@@ -243,7 +243,7 @@ plans:
 - name: Zulip Plans Pricing
   plan_count: 3
   slug: zulip-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Zulip Rate Limits
@@ -274,7 +274,7 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 11.4
-    contract_quality: 63.0
+    contract_quality: 63.2
     developer_ergonomics: 28.6
     discoverability: 50.0
     operational_transparency: 13.2
@@ -287,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

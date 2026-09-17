@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: An OpenAI-compatible LLM inference API operated by ZIH and ScaDS.AI Dresden/Leipzig for TU Dresden staff, students and ScaDS.AI affiliates, served from a LiteLLM proxy on the university's own network.
@@ -281,7 +281,7 @@ plans:
 - name: Tu Dresden Plans Pricing
   plan_count: 2
   slug: tu-dresden-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Tu Dresden Rate Limits
@@ -322,7 +322,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

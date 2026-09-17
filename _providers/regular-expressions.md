@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 6
 common:
@@ -125,7 +125,7 @@ overview: 'Regular Expressions is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Regular Expressions'' developer surface includes documentation, code examples, and 12 more developer resources.'
-random_paper: 2
+random_paper: 16
 rules:
 - effective_rule_count: 5
   extends: []
@@ -157,7 +157,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

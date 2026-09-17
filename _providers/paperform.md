@@ -12,7 +12,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -30,23 +30,88 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 27.0
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 28.7
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://api.paperform.co
-  baseurl_source: declared
-  description: REST API for managing Paperform forms, submissions, partial submissions, products, coupons, webhooks, spaces, and translations. Standard API access is included on Pro plans; Business API endpoints (fo
-  name: Paperform API
-  slug: paperform-api
 - description: REST API for managing Papersign electronic signature documents, folders, spaces, and webhooks. Requires a separate Papersign API plan and provides endpoints to list, create, send, copy, cancel, and mo
   name: Papersign API
   slug: papersign-api
-artifact_total: 7
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Coupons API from Paperform — 2 operation(s) for coupons.
+  name: Paperform Coupons API
+  slug: paperform-coupons-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Files API from Paperform — 1 operation(s) for files.
+  name: Paperform Files API
+  slug: paperform-files-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Form Fields API from Paperform — 2 operation(s) for form fields.
+  name: Paperform Form Fields API
+  slug: paperform-form-fields-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Forms API from Paperform — 2 operation(s) for forms.
+  name: Paperform Forms API
+  slug: paperform-forms-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Papersign Documents API from Paperform — 10 operation(s) for papersign documents.
+  name: Paperform Papersign Documents API
+  slug: paperform-papersign-documents-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Papersign Folders API from Paperform — 1 operation(s) for papersign folders.
+  name: Paperform Papersign Folders API
+  slug: paperform-papersign-folders-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Papersign Spaces API from Paperform — 1 operation(s) for papersign spaces.
+  name: Paperform Papersign Spaces API
+  slug: paperform-papersign-spaces-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Papersign Webhooks API from Paperform — 2 operation(s) for papersign webhooks.
+  name: Paperform Papersign Webhooks API
+  slug: paperform-papersign-webhooks-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Partial Submissions API from Paperform — 3 operation(s) for partial submissions.
+  name: Paperform Partial Submissions API
+  slug: paperform-partial-submissions-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Products API from Paperform — 4 operation(s) for products.
+  name: Paperform Products API
+  slug: paperform-products-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Spaces API from Paperform — 3 operation(s) for spaces.
+  name: Paperform Spaces API
+  slug: paperform-spaces-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Submissions API from Paperform — 3 operation(s) for submissions.
+  name: Paperform Submissions API
+  slug: paperform-submissions-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Translations API from Paperform — 2 operation(s) for translations.
+  name: Paperform Translations API
+  slug: paperform-translations-api
+- baseURL: https://api.paperform.co
+  baseurl_source: declared
+  description: The Webhooks API from Paperform — 2 operation(s) for webhooks.
+  name: Paperform Webhooks API
+  slug: paperform-webhooks-api
+artifact_total: 20
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/security/paperform-domain-security.yml
@@ -141,7 +206,7 @@ modified: 2026-06-13
 name: Paperform
 nav: Providers
 network: true
-overview: 'Paperform publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Forms, Payments, Submissions, Surveys, and E-Signature.
+overview: 'Paperform publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Coupons API, Files API, Form Fields API, and 11 more. Tagged areas include Forms, Payments, Submissions, Surveys, and E-Signature.
 
 
   The Paperform catalog on APIs.io includes 1 JSON-LD context.
@@ -152,14 +217,14 @@ plans:
 - name: Paperform Plans Pricing
   plan_count: 5
   slug: paperform-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Paperform Rate Limits
   slug: paperform-rate-limits
 score:
-  band: thin
-  composite: 37.7
+  band: developing
+  composite: 40.0
   coverage:
     artifact_dirs: 8
     catalog_earned: 71.0
@@ -167,15 +232,21 @@ score:
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 54.5
+    contract_quality: 63.8
     developer_ergonomics: 14.3
     discoverability: 87.0
     operational_transparency: 42.1
   previous_composite: 37.7
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
   regulatory:
     applies: true
     matched_via: tags
@@ -183,7 +254,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

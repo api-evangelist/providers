@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -131,16 +131,7 @@ apis:
 - description: Reactive-stack web framework for building non-blocking, event-driven web applications on top of Project Reactor. Supports annotated controllers and functional endpoints with reactive programming model
   name: Spring WebFlux Reactive API
   slug: spring-webflux
-- description: The Generation API from Spring Framework — 2 operation(s) for generation.
-  name: Spring Framework Generation API
-  slug: spring-framework-generation-api
-- description: The Management API from Spring Framework — 2 operation(s) for management.
-  name: Spring Framework Management API
-  slug: spring-framework-management-api
-- description: The Metadata API from Spring Framework — 2 operation(s) for metadata.
-  name: Spring Framework Metadata API
-  slug: spring-framework-metadata-api
-artifact_total: 61
+artifact_total: 58
 collections:
 - collection_type: open
   name: API Collection
@@ -320,7 +311,7 @@ modified: '2026-08-08'
 name: Spring Framework
 nav: Providers
 network: true
-overview: 'Spring Framework publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Environment API, Health API, and 13 more. Tagged areas include Artificial Intelligence, Cloud-Native, Enterprise, Framework, and Java.
+overview: 'Spring Framework publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Environment API, Health API, and 10 more. Tagged areas include Artificial Intelligence, Cloud-Native, Enterprise, Framework, and Java.
 
 
   The Spring Framework catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -331,7 +322,7 @@ plans:
 - name: Spring Plans Pricing
   plan_count: 2
   slug: spring-plans-pricing
-random_paper: 8
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Spring Rate Limits
@@ -396,7 +387,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

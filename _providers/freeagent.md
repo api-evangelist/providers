@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -48,11 +48,6 @@ apis:
   slug: rest-api
 - baseURL: https://api.freeagent.com/v2
   baseurl_source: declared
-  description: The BankAccounts API from FreeAgent — 2 operation(s) for bankaccounts.
-  name: FreeAgent BankAccounts API
-  slug: freeagent-bankaccounts-api
-- baseURL: https://api.freeagent.com/v2
-  baseurl_source: declared
   description: The Contacts API from FreeAgent — 2 operation(s) for contacts.
   name: FreeAgent Contacts API
   slug: freeagent-contacts-api
@@ -61,6 +56,11 @@ apis:
   description: The Invoices API from FreeAgent — 10 operation(s) for invoices.
   name: FreeAgent Invoices API
   slug: freeagent-invoices-api
+- baseURL: https://api.freeagent.com/v2
+  baseurl_source: declared
+  description: The Bank Accounts API from FreeAgent — 2 operation(s) for bank accounts.
+  name: FreeAgent Bank Accounts API
+  slug: freeagent-bank-accounts-api
 artifact_total: 14
 collections:
 - collection_type: open
@@ -148,11 +148,11 @@ modified: '2026-05-11'
 name: FreeAgent
 nav: Providers
 network: true
-overview: 'FreeAgent publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API, BankAccounts API, Contacts API, and 1 more. Tagged areas include Accounting, Small Business, Invoicing, Bookkeeping, and Expenses.
+overview: 'FreeAgent publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API, Contacts API, Invoices API, and 1 more. Tagged areas include Accounting, Small Business, Invoicing, Bookkeeping, and Expenses.
 
 
   FreeAgent''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 0
+random_paper: 21
 scopes:
 - name: Freeagent Scopes
   scope_count: 0
@@ -185,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The University's own Shibboleth identity provider, entityID https://idp.unimelb.edu.au/idp/shibboleth, serving public SAML 2.0 metadata at that URL (verified 200 application/xml, 2026-08-19) with an I
@@ -122,20 +122,20 @@ common:
   type: LinkedIn
   url: https://au.linkedin.com/school/university-of-melbourne/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-sudo-geonode-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/_original/university-of-melbourne-sudo-geonode-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-melbourne-sudo-geonode-openapi.yml
+  url: openapi/_original/university-of-melbourne-sudo-geonode-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-minerva-access-dspace-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/_original/university-of-melbourne-minerva-access-dspace-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-melbourne-minerva-access-dspace-openapi.yml
+  url: openapi/_original/university-of-melbourne-minerva-access-dspace-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/university-of-melbourne-minerva-access-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/openapi/_original/university-of-melbourne-minerva-access-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-melbourne-minerva-access-oai-pmh-openapi.yml
+  url: openapi/_original/university-of-melbourne-minerva-access-oai-pmh-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/json-schema/university-of-melbourne-sudo-dataset.json
   title: ''
@@ -262,7 +262,7 @@ jsonld:
   property_count: 0
   slug: university-of-melbourne-organization
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: University of Melbourne
 nav: Providers
 network: true
@@ -277,7 +277,7 @@ plans:
 - name: University Of Melbourne Plans Pricing
   plan_count: 2
   slug: university-of-melbourne-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: University Of Melbourne Rate Limits
@@ -338,7 +338,7 @@ score:
     regime_id: education
     score: 68.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

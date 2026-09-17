@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -102,6 +102,10 @@ collections:
   name: Azure Stream Analytics REST API
   slug: open-microsoft-azure-stream-analytics
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://microsoft.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/agentic-access/microsoft-azure-stream-analytics-agentic-access.yml
   title: ''
@@ -173,19 +177,19 @@ finops:
   slug: microsoft-azure-stream-analytics-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-stream-analytics.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Azure Stream Analytics
 nav: Providers
 network: true
 overview: 'Azure Stream Analytics publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Functions API, Inputs API, and 3 more. Tagged areas include Stream Processing, Real-Time Analytics, IoT, and Event Processing.
 
 
-  Azure Stream Analytics'' developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 8 more developer resources.'
+  Azure Stream Analytics'' developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Microsoft Azure Stream Analytics Plans Pricing
   plan_count: 3
   slug: microsoft-azure-stream-analytics-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Stream Analytics Rate Limits
@@ -217,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -238,5 +242,5 @@ tags:
 - Real-Time Analytics
 - IoT
 - Event Processing
-website: https://portal.azure.com/
+website: https://microsoft.com
 ---

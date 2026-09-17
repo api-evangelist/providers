@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 1
@@ -93,7 +93,7 @@ apis:
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
   description: The Mixedbread Embeddings API API from Mixedbread — 1 operation(s) for mixedbread embeddings api.
-  name: Mixedbread Mixedbread Embeddings API API
+  name: Mixedbread Embeddings API
   slug: mixedbread-ai-mixedbread-embeddings-api-api
 - baseURL: https://api.mixedbread.com
   baseurl_source: declared
@@ -404,7 +404,7 @@ jsonld:
   property_count: 9
   slug: mixedbread-ai-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Mixedbread
 nav: Providers
 network: true
@@ -419,7 +419,7 @@ plans:
 - name: Mixedbread Ai Plans Pricing
   plan_count: 4
   slug: mixedbread-ai-plans-pricing
-random_paper: 11
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Mixedbread Ai Rate Limits
@@ -480,7 +480,7 @@ score:
       total: 14
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

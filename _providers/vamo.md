@@ -24,7 +24,7 @@ name: Vamo
 nav: Providers
 network: true
 overview: Vamo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Trip Planning, Transportation, and Acquired.
-random_paper: 15
+random_paper: 17
 slug: vamo
 tags:
 - Company

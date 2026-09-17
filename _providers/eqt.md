@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: EQT Introduces AI Infrastructure Strategy to Help Build ...
   url: https://www.prnewswire.com/news-releases/eqt-introduces-ai-infrastructure-strategy-to-help-build-the-foundation-of-the-ai-economy-302748973.html
-random_paper: 15
+random_paper: 0
 score:
   band: emerging
   composite: 13.9
@@ -176,7 +176,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

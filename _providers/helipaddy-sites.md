@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Helicopter and passenger drone landing site directory, Helipaddy data and much more
@@ -61,8 +61,8 @@ modified: '2026-05-28'
 name: Helipaddy sites
 nav: Providers
 network: true
-overview: Helipaddy sites publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Vehicle and Public APIs.
-random_paper: 12
+overview: Helipaddy sites publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Vehicles and Public APIs.
+random_paper: 5
 score:
   band: minimal
   composite: 7.6
@@ -83,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -97,7 +97,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: helipaddy-sites
 tags:
-- Vehicle
+- Vehicles
 - Public APIs
 website: https://helipaddy.com/api/
 ---

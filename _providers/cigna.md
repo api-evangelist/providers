@@ -11,15 +11,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.9
-  scored_at: '2026-09-15'
+  score: 28.7
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,16 +71,6 @@ apis:
   slug: cigna-explanationofbenefit-api
 - baseURL: https://fhir.cigna.com/PatientAccess/v1
   baseurl_source: declared
-  description: The HealthcareService API from Cigna — 1 operation(s) for healthcareservice.
-  name: Cigna HealthcareService API
-  slug: cigna-healthcareservice-api
-- baseURL: https://fhir.cigna.com/PatientAccess/v1
-  baseurl_source: declared
-  description: The InsurancePlan API from Cigna — 2 operation(s) for insuranceplan.
-  name: Cigna InsurancePlan API
-  slug: cigna-insuranceplan-api
-- baseURL: https://fhir.cigna.com/PatientAccess/v1
-  baseurl_source: declared
   description: The Location API from Cigna — 1 operation(s) for location.
   name: Cigna Location API
   slug: cigna-location-api
@@ -89,11 +79,6 @@ apis:
   description: The MedicationKnowledge API from Cigna — 1 operation(s) for medicationknowledge.
   name: Cigna MedicationKnowledge API
   slug: cigna-medicationknowledge-api
-- baseURL: https://fhir.cigna.com/PatientAccess/v1
-  baseurl_source: declared
-  description: The MedicationRequest API from Cigna — 1 operation(s) for medicationrequest.
-  name: Cigna MedicationRequest API
-  slug: cigna-medicationrequest-api
 - baseURL: https://fhir.cigna.com/PatientAccess/v1
   baseurl_source: declared
   description: The Observation API from Cigna — 1 operation(s) for observation.
@@ -116,9 +101,24 @@ apis:
   slug: cigna-practitioner-api
 - baseURL: https://fhir.cigna.com/PatientAccess/v1
   baseurl_source: declared
-  description: The PractitionerRole API from Cigna — 1 operation(s) for practitionerrole.
-  name: Cigna PractitionerRole API
-  slug: cigna-practitionerrole-api
+  description: The Healthcare Service API from Cigna — 1 operation(s) for healthcare service.
+  name: Cigna Healthcare Service API
+  slug: cigna-healthcare-service-api
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Insurance Plan API from Cigna — 2 operation(s) for insurance plan.
+  name: Cigna Insurance Plan API
+  slug: cigna-insurance-plan-api
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Medication Request API from Cigna — 1 operation(s) for medication request.
+  name: Cigna Medication Request API
+  slug: cigna-medication-request-api
+- baseURL: https://fhir.cigna.com/PatientAccess/v1
+  baseurl_source: declared
+  description: The Practitioner Role API from Cigna — 1 operation(s) for practitioner role.
+  name: Cigna Practitioner Role API
+  slug: cigna-practitioner-role-api
 artifact_total: 63
 collections:
 - collection_type: postman
@@ -386,7 +386,7 @@ press:
 - date: '2020-11-17'
   title: Veterans Recovery Resources of Mobile Receives $100,000 Cigna Foundation Grant to Provide Mental Health Services to Area Veterans
   url: https://www.cigna.com/newsroom/news-releases/2020/veterans-recovery-resources-of-mobile-receives-100000-cigna-foundation-grant-to-provide-mental-health-services-to-area-veterans.html
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Cigna Rate Limits
@@ -409,19 +409,19 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 37.1
+  composite: 38.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 50.3
+    catalog_earned: 56.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.8
-    catalog_max: 100.0
+    catalog_gap: 58.8
+    catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
-    access_clarity: 21.4
+    access_clarity: 23.7
     contract_governance: 9.8
-    contract_quality: 54.8
+    contract_quality: 57.1
     developer_ergonomics: 15.5
     discoverability: 81.5
     operational_transparency: 7.9
@@ -440,7 +440,7 @@ score:
     regime_id: health
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

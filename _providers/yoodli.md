@@ -23,20 +23,40 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://app.yoodli.ai/api
   baseurl_source: declared
-  description: Yoodli's public REST API (OpenAPI 3.1.0, 13 operations) for administrative programmatic access to the platform — listing, inviting and removing Organization members, creating, updating and deleting Us
-  name: Yoodli API
-  slug: yoodli-api
-artifact_total: 8
+  description: Operations on Multi Org feature.
+  name: Yoodli Multi Org Management API
+  slug: yoodli-multi-org-management-api
+- baseURL: https://app.yoodli.ai/api
+  baseurl_source: declared
+  description: Operations on members of Organizations and their User Groups.
+  name: Yoodli Organization User Management API
+  slug: yoodli-organization-user-management-api
+- baseURL: https://app.yoodli.ai/api
+  baseurl_source: declared
+  description: Operations on recordings and their feedback exports.
+  name: Yoodli Speech API
+  slug: yoodli-speech-api
+- baseURL: https://app.yoodli.ai/api
+  baseurl_source: declared
+  description: Operations on User Groups.
+  name: Yoodli User Group Management API
+  slug: yoodli-user-group-management-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Yoodli Web Embed Events
   slug: yoodli-web-embed-events
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/yoodli/refs/heads/main/overlays/yoodli-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/yoodli-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -197,25 +217,25 @@ modified: '2026-09-04'
 name: Yoodli
 nav: Providers
 network: true
-overview: 'Yoodli publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Communications, Coaching, Learning and Development, and Sales Enablement.
+overview: 'Yoodli publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Multi Org Management API, Organization User Management API, Speech API, and 1 more. Tagged areas include Artificial Intelligence, Communications, Coaching, Learning and Development, and Sales Enablement.
 
 
   The Yoodli catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Yoodli''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 26 more developer resources.'
+  Yoodli''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Yoodli Plans Pricing
   plan_count: 4
   slug: yoodli-plans-pricing
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Yoodli Rate Limits
   slug: yoodli-rate-limits
 score:
   band: strong
-  composite: 54.8
+  composite: 55.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 61.0
@@ -223,11 +243,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 85.5
     contract_governance: 4.5
-    contract_quality: 59.1
+    contract_quality: 60.7
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 57.9
@@ -243,11 +263,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

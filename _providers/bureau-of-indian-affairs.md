@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Indian Affairs GIS Open Data Hub publishes authoritative geospatial datasets as downloadable and machine-readable resources via Esri ArcGIS Hub, including federally recognized tribal boundaries, l
@@ -112,7 +112,7 @@ plans:
 - name: Bureau Of Indian Affairs Plans Pricing
   plan_count: 3
   slug: bureau-of-indian-affairs-plans-pricing
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Bureau Of Indian Affairs Rate Limits
@@ -148,7 +148,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

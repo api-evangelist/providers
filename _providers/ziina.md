@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -49,11 +49,6 @@ apis:
   description: Retrieve the authenticated account profile.
   name: Ziina Account API
   slug: ziina-account-api
-- baseURL: https://api-v2.ziina.com/api
-  baseurl_source: declared
-  description: Service status.
-  name: Ziina HealthCheck API
-  slug: ziina-healthcheck-api
 - baseURL: https://api-v2.ziina.com/api
   baseurl_source: declared
   description: The Log API from Ziina — 1 operation(s) for log.
@@ -79,6 +74,11 @@ apis:
   description: Register or delete a webhook endpoint for payment events.
   name: Ziina Webhook API
   slug: ziina-webhook-api
+- baseURL: https://api-v2.ziina.com/api
+  baseurl_source: declared
+  description: Service status.
+  name: Ziina Health Check API
+  slug: ziina-health-check-api
 arazzos:
 - description: Create a payment intent, then poll it until the payment reaches a terminal status. Seed inputs with test=true to run in Ziina test mode.
   name: Ziina - accept a payment and confirm
@@ -341,7 +341,7 @@ modified: '2026-07-17'
 name: Ziina
 nav: Providers
 network: true
-overview: 'Ziina publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, HealthCheck API, Log API, and 4 more. Tagged areas include Payments, Fintech, UAE, MENA, and Money Transfer.
+overview: 'Ziina publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Log API, PaymentIntent API, and 4 more. Tagged areas include Payments, Fintech, United Arab Emirates, MENA, and Money Transfer.
 
 
   The Ziina catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -352,7 +352,7 @@ plans:
 - name: Ziina Plans Pricing
   plan_count: 3
   slug: ziina-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Ziina Rate Limits
@@ -364,7 +364,7 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 65.7
+  composite: 65.9
   coverage:
     artifact_dirs: 27
     catalog_earned: 60.0
@@ -372,11 +372,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 51.5
+    contract_quality: 52.3
     developer_ergonomics: 67.3
     discoverability: 75.9
     operational_transparency: 31.6
@@ -403,7 +403,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -430,7 +430,7 @@ slug: ziina
 tags:
 - Payments
 - Fintech
-- UAE
+- United Arab Emirates
 - MENA
 - Money Transfer
 - Wallets

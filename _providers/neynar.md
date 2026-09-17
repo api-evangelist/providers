@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -97,11 +97,6 @@ apis:
   slug: neynar-feed-api
 - baseURL: https://api.neynar.com
   baseurl_source: declared
-  description: Operations related to FIDs.
-  name: Neynar Fids API
-  slug: neynar-fids-api
-- baseURL: https://api.neynar.com
-  baseurl_source: declared
   description: Operations related to fname
   name: Neynar fname API
   slug: neynar-fname-api
@@ -155,11 +150,6 @@ apis:
   description: Operations related to notifications
   name: Neynar Notifications API
   slug: neynar-notifications-api
-- baseURL: https://api.neynar.com
-  baseurl_source: declared
-  description: Operations related to onchain data
-  name: Neynar Onchain API
-  slug: neynar-onchain-api
 - baseURL: https://api.neynar.com
   baseurl_source: declared
   description: Operations related to on-chain events.
@@ -222,11 +212,6 @@ apis:
   slug: neynar-user-api
 - baseURL: https://api.neynar.com
   baseurl_source: declared
-  description: Operations related to user data.
-  name: Neynar UserData API
-  slug: neynar-userdata-api
-- baseURL: https://api.neynar.com
-  baseurl_source: declared
   description: Operations related to usernames.
   name: Neynar Usernames API
   slug: neynar-usernames-api
@@ -240,6 +225,21 @@ apis:
   description: Operations related to a webhook
   name: Neynar Webhook API
   slug: neynar-webhook-api
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to FIDs.
+  name: Neynar Fids API
+  slug: neynar-fids-api
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to onchain data
+  name: Neynar On Chain API
+  slug: neynar-on-chain-api
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to user data.
+  name: Neynar User Data API
+  slug: neynar-user-data-api
 artifact_total: 595
 collections:
 - collection_type: open
@@ -363,6 +363,10 @@ collections:
   name: Neynar Action Webhook API
   slug: open-neynar-webhook-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://neynar.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/capabilities/neynar-capability-edges.yml
   title: ''
@@ -1935,7 +1939,7 @@ jsonld:
   property_count: 0
   slug: webhook
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Neynar
 nav: Providers
 network: true
@@ -1945,12 +1949,12 @@ overview: 'Neynar publishes 39 APIs on the [APIs.io](https://apis.io/) network, 
   The Neynar catalog on APIs.io includes 9 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Neynar''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
+  Neynar''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
 plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 2
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1968,7 +1972,7 @@ rules:
   slug: neynar-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.7
+  composite: 42.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 50.3
@@ -1976,11 +1980,11 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 63.7
+    contract_quality: 63.6
     developer_ergonomics: 35.7
     discoverability: 51.9
     operational_transparency: 7.9
@@ -1993,7 +1997,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2018,7 +2022,7 @@ tags:
 - Social Graph
 - Casts
 - Channels
-- Feeds
+- Feed
 - Reactions
 - Notification
 - Webhook

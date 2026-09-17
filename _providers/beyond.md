@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -70,11 +70,6 @@ apis:
   slug: beyond-listings-api
 - baseURL: https://developers.beyondpricing.com/api/v1/
   baseurl_source: declared
-  description: The OAuth2 API from Beyond — 1 operation(s) for oauth2.
-  name: Beyond OAuth2 API
-  slug: beyond-oauth2-api
-- baseURL: https://developers.beyondpricing.com/api/v1/
-  baseurl_source: declared
   description: The Users API from Beyond — 3 operation(s) for users.
   name: Beyond Users API
   slug: beyond-users-api
@@ -83,6 +78,11 @@ apis:
   description: The Webhooks API from Beyond — 0 operation(s) for webhooks.
   name: Beyond Webhooks API
   slug: beyond-webhooks-api
+- baseURL: https://developers.beyondpricing.com/api/v1/
+  baseurl_source: declared
+  description: The OAuth2 API from Beyond — 1 operation(s) for oauth2.
+  name: Beyond O Auth2 API
+  slug: beyond-oauth2-api
 artifact_total: 22
 asyncapis:
 - description: ''
@@ -270,14 +270,14 @@ modified: '2026-07-18'
 name: Beyond
 nav: Providers
 network: true
-overview: 'Beyond publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 5 more. Tagged areas include Company, Consumer, Travel, Hospitality, and Short-Term Rentals.
+overview: 'Beyond publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 5 more. Tagged areas include Company, Consumer, Travel, Hospitality, and Short-Term Rental.
 
 
   The Beyond catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Beyond''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 24 more developer resources.'
-random_paper: 11
+random_paper: 3
 scopes:
 - name: Beyond Scopes
   scope_count: 9
@@ -313,7 +313,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -334,7 +334,7 @@ tags:
 - Consumer
 - Travel
 - Hospitality
-- Short-Term Rentals
+- Short-Term Rental
 - Vacation Rentals
 - Revenue Management
 - Dynamic Pricing

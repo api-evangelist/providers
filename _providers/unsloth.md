@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -152,7 +152,7 @@ overview: 'Unsloth is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Unsloth''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, changelog, CLI, and 16 more developer resources.'
-random_paper: 4
+random_paper: 11
 score:
   band: thin
   composite: 26.3
@@ -175,7 +175,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The store's Shopify-provided Universal Commerce Protocol agent-commerce surface — a live MCP shopping endpoint (search_catalog, create_cart, create_checkout, update_checkout, complete_checkout) docume
@@ -100,7 +100,7 @@ overview: 'Matchaful publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Matchaful''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 4
+random_paper: 3
 score:
   band: emerging
   composite: 17.3
@@ -124,7 +124,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -141,8 +141,8 @@ tags:
 - E-Commerce
 - Direct to Consumer
 - Shopify
-- Agent Commerce
-- UCP
+- Agentic Commerce
+- Universal Commerce Protocol
 - MCP
 website: https://matchaful.com/
 ---

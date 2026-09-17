@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ overview: 'QiDZ Holding is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   QiDZ Holding''s developer surface includes support, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 8
+random_paper: 16
 score:
   band: emerging
   composite: 13.0
@@ -115,7 +115,7 @@ score:
     - middle-east
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -136,7 +136,7 @@ tags:
 - Entertainment
 - Mobile App
 - Consumer
-- UAE
+- United Arab Emirates
 - Middle East
 - Discovery
 website: https://qidz.com

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.3
-  scored_at: '2026-09-15'
+  score: 33.1
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,14 +41,69 @@ agentic_access:
   operation_count: 55
   slug: api-league-agentic-access
   summary_line: 55 operations
-api_count: 1
+api_count: 13
 apis:
 - baseURL: https://api.apileague.com
   baseurl_source: declared
-  description: 'The API League Platform exposes 55 read-only GET operations across twelve categories: Books (2), News (3), Humor (6), Food (4), Knowledge (5), Games (3), Art (4), Web (6), Text (13), Media (6), Math ('
-  name: API League Platform
-  slug: api-league-platform
-artifact_total: 19
+  description: The Art API from API League — 4 operation(s) for art.
+  name: API League Art API
+  slug: api-league-art-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Books API from API League — 2 operation(s) for books.
+  name: API League Books API
+  slug: api-league-books-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Food API from API League — 4 operation(s) for food.
+  name: API League Food API
+  slug: api-league-food-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Games API from API League — 3 operation(s) for games.
+  name: API League Games API
+  slug: api-league-games-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Humor API from API League — 6 operation(s) for humor.
+  name: API League Humor API
+  slug: api-league-humor-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Knowledge API from API League — 5 operation(s) for knowledge.
+  name: API League Knowledge API
+  slug: api-league-knowledge-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Math API from API League — 1 operation(s) for math.
+  name: API League Math API
+  slug: api-league-math-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Media API from API League — 6 operation(s) for media.
+  name: API League Media API
+  slug: api-league-media-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The News API from API League — 3 operation(s) for news.
+  name: API League News API
+  slug: api-league-news-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Storage API from API League — 2 operation(s) for storage.
+  name: API League Storage API
+  slug: api-league-storage-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Text API from API League — 13 operation(s) for text.
+  name: API League Text API
+  slug: api-league-text-api
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: The Web API from API League — 6 operation(s) for web.
+  name: API League Web API
+  slug: api-league-web-api
+artifact_total: 30
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/agentic-access/api-league-agentic-access.yml
@@ -228,7 +283,7 @@ modified: '2026-09-02'
 name: API League
 nav: Providers
 network: true
-overview: 'API League publishes 1 API on the [APIs.io](https://apis.io/) network: Platform. Tagged areas include API Marketplace, Books, Developer Tools, Food, and Humor.
+overview: 'API League publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Art API, Books API, Food API, and 9 more. Tagged areas include API Marketplace, Books, Developer Tools, Food, and Humor.
 
 
   API League''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
@@ -236,28 +291,28 @@ plans:
 - name: Api League Plans Pricing
   plan_count: 4
   slug: api-league-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 12
   name: Api League Rate Limits
   slug: api-league-rate-limits
 score:
   band: strong
-  composite: 54.9
+  composite: 60.6
   coverage:
     artifact_dirs: 22
-    catalog_earned: 64.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.7
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 53.7
     developer_ergonomics: 75.6
-    discoverability: 75.9
+    discoverability: 81.5
     operational_transparency: 50.0
   previous_composite: 54.9
   provenance:
@@ -271,8 +326,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

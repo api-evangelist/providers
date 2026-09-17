@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ modified: '2026-05-25'
 name: Estated
 nav: Providers
 network: true
-overview: 'Estated publishes 1 API on the [APIs.io](https://apis.io/) network: Property API. Tagged areas include Property Data, Real-Estate, Property Records, Assessor, and Parcels.
+overview: 'Estated publishes 1 API on the [APIs.io](https://apis.io/) network: Property API. Tagged areas include Property Data, Real-Estate, Property Records, Assessor, and Parcel.
 
 
   The Estated catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -162,7 +162,7 @@ plans:
 - name: Estated Plans Pricing
   plan_count: 3
   slug: estated-plans-pricing
-random_paper: 11
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Estated Rate Limits
@@ -216,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -238,7 +238,7 @@ tags:
 - Real-Estate
 - Property Records
 - Assessor
-- Parcels
+- Parcel
 - APN
 - FIPS
 - Deeds

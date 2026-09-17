@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -49,7 +49,7 @@ name: Sila
 nav: Providers
 network: true
 overview: Sila is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier, Battery, Materials, and Energy.
-random_paper: 5
+random_paper: 7
 score:
   band: minimal
   composite: 2.1
@@ -82,7 +82,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://neomorph.com/wp-json
@@ -75,11 +75,6 @@ apis:
   slug: neomorph-discovery-api
 - baseURL: https://neomorph.com/wp-json
   baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for neomorph.com permalinks.
-  name: Neomorph oEmbed API
-  slug: neomorph-oembed-api
-- baseURL: https://neomorph.com/wp-json
-  baseurl_source: declared
   description: 'News taxonomy. Two terms are registered on this deployment: Press Release (13 posts) and In The Media (1 post).'
   name: Neomorph Categories API
   slug: neomorph-categories-api
@@ -98,6 +93,11 @@ apis:
   description: 'team_category taxonomy grouping the Team collection. Four terms are registered: Management (11), Board of Directors (7), Scientific Founders (4) and Scientific Advisory Board (0).'
   name: Neomorph Team Categories API
   slug: neomorph-team-categories-api
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for neomorph.com URLs. Verified anonymously on 2026-08-26.
+  name: Neomorph o Embed API
+  slug: neomorph-o-embed-api
 artifact_total: 16
 common:
 - group: company
@@ -245,7 +245,7 @@ plans:
 - name: Neomorph Plans Pricing
   plan_count: 0
   slug: neomorph-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Neomorph Rate Limits
@@ -285,7 +285,7 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

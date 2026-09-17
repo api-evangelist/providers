@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.sleeper.app/v1
@@ -219,7 +219,7 @@ overview: 'Sleeper publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sleeper''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: thin
   composite: 27.4
@@ -249,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -273,7 +273,7 @@ tags:
 - Fantasy Football
 - Gaming
 - Sports Data
-- Leagues
+- League
 - Consumer
 website: https://www.sleeper.com/
 ---

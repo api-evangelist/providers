@@ -35,7 +35,7 @@ name: Medrobotics
 nav: Providers
 network: true
 overview: Medrobotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Surgical Robotics, Robotics, and Healthcare.
-random_paper: 3
+random_paper: 13
 slug: medrobotics
 tags:
 - Company

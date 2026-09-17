@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://hcti.io/v1
   baseurl_source: declared
   description: The Image Generation API from HTML/CSS to Image — 5 operation(s) for image generation.
-  name: HTML/CSS to Image Image Generation API
+  name: HTML/CSS to Image Generation API
   slug: htmlcsstoimage-image-generation-api
 - baseURL: https://hcti.io/v1
   baseurl_source: declared
@@ -131,11 +131,11 @@ finops:
   slug: htmlcsstoimage-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/htmlcsstoimage.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: HTML/CSS to Image
 nav: Providers
 network: true
-overview: 'HTML/CSS to Image publishes 3 APIs on the [APIs.io](https://apis.io/) network: Image Generation API, Signed URLs API, and Templates API. Tagged areas include Image-Generation, HTML to Image, CSS to Image, Rendering, and Screenshots.
+overview: 'HTML/CSS to Image publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generation API, Signed URLs API, and Templates API. Tagged areas include Image-Generation, HTML to Image, CSS to Image, Rendering, and Screenshots.
 
 
   HTML/CSS to Image''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -143,7 +143,7 @@ plans:
 - name: Htmlcsstoimage Plans Pricing
   plan_count: 12
   slug: htmlcsstoimage-plans-pricing
-random_paper: 17
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Htmlcsstoimage Rate Limits
@@ -175,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

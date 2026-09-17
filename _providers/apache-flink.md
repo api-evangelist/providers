@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -63,16 +63,6 @@ apis:
   slug: apache-flink-datasets-api
 - baseURL: http://localhost:8081
   baseurl_source: declared
-  description: The Jars API from Apache Flink — 5 operation(s) for jars.
-  name: Apache Flink Jars API
-  slug: apache-flink-jars-api
-- baseURL: http://localhost:8081
-  baseurl_source: declared
-  description: The Jobmanager API from Apache Flink — 5 operation(s) for jobmanager.
-  name: Apache Flink Jobmanager API
-  slug: apache-flink-jobmanager-api
-- baseURL: http://localhost:8081
-  baseurl_source: declared
   description: The Jobs API from Apache Flink — 42 operation(s) for jobs.
   name: Apache Flink Jobs API
   slug: apache-flink-jobs-api
@@ -88,9 +78,19 @@ apis:
   slug: apache-flink-savepoint-disposal-api
 - baseURL: http://localhost:8081
   baseurl_source: declared
-  description: The Taskmanagers API from Apache Flink — 6 operation(s) for taskmanagers.
-  name: Apache Flink Taskmanagers API
-  slug: apache-flink-taskmanagers-api
+  description: The Jars API from Apache Flink — 5 operation(s) for jars.
+  name: Apache Flink Jars API
+  slug: apache-flink-jars-api
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Job Manager API from Apache Flink — 5 operation(s) for job manager.
+  name: Apache Flink Job Manager API
+  slug: apache-flink-job-manager-api
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Task Managers API from Apache Flink — 6 operation(s) for task managers.
+  name: Apache Flink Task Managers API
+  slug: apache-flink-task-managers-api
 artifact_total: 446
 collections:
 - collection_type: open
@@ -1450,7 +1450,7 @@ plans:
 - name: Apache Flink Plans Pricing
   plan_count: 3
   slug: apache-flink-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Apache Flink Rate Limits
@@ -1507,7 +1507,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

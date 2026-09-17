@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-09-15'
+  score: 27.7
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
   slug: teachable-courses-api
 - baseURL: https://developers.teachable.com/v1
   baseurl_source: declared
-  description: Endpoints for the authenticated current user
-  name: Teachable CurrentUser API
-  slug: teachable-currentuser-api
-- baseURL: https://developers.teachable.com/v1
-  baseurl_source: declared
   description: Enrollment management endpoints
   name: Teachable Enrollments API
   slug: teachable-enrollments-api
@@ -64,11 +59,6 @@ apis:
   description: Lecture management endpoints
   name: Teachable Lectures API
   slug: teachable-lectures-api
-- baseURL: https://developers.teachable.com/v1
-  baseurl_source: declared
-  description: Pricing plan endpoints
-  name: Teachable PricingPlans API
-  slug: teachable-pricingplans-api
 - baseURL: https://developers.teachable.com/v1
   baseurl_source: declared
   description: Quiz and quiz response endpoints
@@ -94,6 +84,16 @@ apis:
   description: Webhook configuration and event endpoints
   name: Teachable Webhooks API
   slug: teachable-webhooks-api
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Endpoints for the authenticated current user
+  name: Teachable Current User API
+  slug: teachable-current-user-api
+- baseURL: https://developers.teachable.com/v1
+  baseurl_source: declared
+  description: Pricing plan endpoints
+  name: Teachable Pricing Plans API
+  slug: teachable-pricing-plans-api
 artifact_total: 42
 collections:
 - collection_type: open
@@ -269,7 +269,7 @@ modified: '2026-06-12'
 name: Teachable
 nav: Providers
 network: true
-overview: 'Teachable publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Courses API, CurrentUser API, Enrollments API, and 7 more. Tagged areas include Online Courses, E-Learning, Education, Course Management, and Enrollments.
+overview: 'Teachable publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Courses API, Enrollments API, Lectures API, and 7 more. Tagged areas include Online Courses, E-Learning, Education, Course Management, and Enrollment.
 
 
   The Teachable catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -280,7 +280,7 @@ plans:
 - name: Teachable Plans Pricing
   plan_count: 5
   slug: teachable-plans-pricing
-random_paper: 18
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Teachable Rate Limits
@@ -334,7 +334,7 @@ score:
     regime_id: education
     score: 70.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -363,9 +363,9 @@ tags:
 - E-Learning
 - Education
 - Course Management
-- Enrollments
+- Enrollment
 - Coaching
-- Memberships
+- Membership
 - Transaction
 website: https://teachable.com
 ---

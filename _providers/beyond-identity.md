@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -81,7 +81,7 @@ apis:
 - baseURL: https://api-us.beyondidentity.com
   baseurl_source: declared
   description: Identity providers enable integration with external systems to support IdP-authorized workflows, such as passkey enrollment. They serve as the counterpart to SSO applications, focusing on initiating a
-  name: Beyond Identity Identity Provider API
+  name: Beyond Identity Provider API
   slug: beyond-identity-identity-provider-api
 - baseURL: https://api-us.beyondidentity.com
   baseurl_source: declared
@@ -346,7 +346,7 @@ jsonld:
   property_count: 24
   slug: beyond-identity-context
 layout: provider
-modified: '2026-06-12'
+modified: '2026-09-16'
 name: Beyond Identity
 nav: Providers
 network: true
@@ -361,7 +361,7 @@ plans:
 - name: Beyond Identity Plans Pricing
   plan_count: 3
   slug: beyond-identity-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Beyond Identity Rate Limits
@@ -404,7 +404,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -434,5 +434,6 @@ tags:
 - Device Security
 - OIDC
 - SCIM
+- Identity Federation
 website: https://www.beyondidentity.com/
 ---

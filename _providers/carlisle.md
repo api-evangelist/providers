@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Carlisle Construction Materials and Carlisle's other operating segments exchange purchase orders, acknowledgments, advance ship notices, and invoices with distributors, retailers, and large contractor
@@ -102,7 +102,7 @@ modified: '2026-07-25'
 name: Carlisle Companies
 nav: Providers
 network: true
-overview: Carlisle Companies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Building Envelope, Building Products, Construction, Contractor Portal, and Distributors.
+overview: Carlisle Companies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Building Envelope, Building Products, Construction, Contractor Portal, and Distributor.
 plans:
 - name: Carlisle Plans Pricing
   plan_count: 3
@@ -123,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: Ducker Carlisle Adds Data and AI Services to Help Clients ...
   url: https://www.prnewswire.com/news-releases/ducker-carlisle-adds-data-and-ai-services-to-help-clients-accelerate-growth-302309287.html
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Carlisle Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -166,7 +166,7 @@ tags:
 - Building Products
 - Construction
 - Contractor Portal
-- Distributors
+- Distributor
 - EDI
 - Insulation
 - Manufacturing

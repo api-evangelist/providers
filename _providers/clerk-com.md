@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 16
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 426
   slug: clerk-com-agentic-access
   summary_line: 426 operations · 273 acting · 16 human-in-the-loop
-api_count: 3
+api_count: 7
 apis:
 - baseURL: https://api.clerk.com/v1
   baseurl_source: declared
@@ -131,11 +131,6 @@ apis:
   description: The Dev Browser API from Clerk — 2 operation(s) for dev browser.
   name: Clerk Dev Browser API
   slug: clerk-com-dev-browser-api
-- baseURL: https://api.clerk.com/v1
-  baseurl_source: declared
-  description: Used to handle dev browsers.
-  name: Clerk DevBrowser API
-  slug: clerk-com-devbrowser-api
 - baseURL: https://api.clerk.com/v1
   baseurl_source: declared
   description: Domains represent each instance's URLs and DNS setup.
@@ -363,11 +358,6 @@ apis:
   slug: clerk-com-sign-ins-api
 - baseURL: https://api.clerk.com/v1
   baseurl_source: declared
-  description: Sign-up objects track the progress of a sign-up attempt and store any field collected from user input.
-  name: Clerk Sign Ups API
-  slug: clerk-com-sign-ups-api
-- baseURL: https://api.clerk.com/v1
-  baseurl_source: declared
   description: Used to interact with billing statements for users and organizations.
   name: Clerk Statements API
   slug: clerk-com-statements-api
@@ -477,48 +467,12 @@ apis:
 - description: Public repository of OpenAPI specifications for Clerk's APIs, used as the source for generated SDKs and documentation.
   name: Clerk OpenAPI Specifications
   slug: openapi-specs
-- description: The Invitations API from Clerk — 2 operation(s) for invitations.
-  name: Clerk Invitations API
-  slug: clerk-invitations-api
-- description: The JwtTemplates API from Clerk — 1 operation(s) for jwttemplates.
-  name: Clerk JwtTemplates API
-  slug: clerk-jwttemplates-api
-- description: The Organizations API from Clerk — 4 operation(s) for organizations.
-  name: Clerk Organizations API
-  slug: clerk-organizations-api
-- description: The Sessions API from Clerk — 4 operation(s) for sessions.
-  name: Clerk Sessions API
-  slug: clerk-sessions-api
-- description: The SignInTokens API from Clerk — 2 operation(s) for signintokens.
-  name: Clerk SignInTokens API
-  slug: clerk-signintokens-api
-- description: The Users API from Clerk — 4 operation(s) for users.
-  name: Clerk Users API
-  slug: clerk-users-api
-- description: The Webhooks API from Clerk — 1 operation(s) for webhooks.
-  name: Clerk Webhooks API
-  slug: clerk-webhooks-api
 - baseURL: https://api.clerk.com/v1
   baseurl_source: declared
-  description: Identifiers permitted or denied from signing up.
-  name: Clerk Allowlist & Blocklist API
-  slug: clerk-dev-allowlist-blocklist-api
-- baseURL: https://api.clerk.com/v1
-  baseurl_source: declared
-  description: Email addresses, phone numbers, and message templates.
-  name: Clerk Email & SMS API
-  slug: clerk-dev-email-sms-api
-- baseURL: https://api.clerk.com/v1
-  baseurl_source: declared
-  description: Enterprise SSO connections.
-  name: Clerk SAML & Enterprise Connections API
-  slug: clerk-dev-saml-enterprise-connections-api
-- baseURL: https://api.clerk.com/v1
-  baseurl_source: declared
-  description: Sign-up attempts, sign-in tokens, and actor tokens.
-  name: Clerk Sign-ups & Tokens API
-  slug: clerk-dev-sign-ups-tokens-api
-artifact_total: 325
+  description: Sign-up objects track the progress of a sign-up attempt and store any field collected from user input.
+  name: Clerk Signups API
+  slug: clerk-com-signups-api
+artifact_total: 313
 collections:
 - collection_type: postman
   name: Clerk Backend Account Portal API
@@ -1496,11 +1450,11 @@ jsonld:
   property_count: 6
   slug: clerk-com-context
 layout: provider
-modified: '2026-05-22'
+modified: '2026-09-16'
 name: Clerk
 nav: Providers
 network: true
-overview: 'Clerk publishes 88 APIs on the [APIs.io](https://apis.io/) network, including Account Portal API, Active Sessions API, Actor Tokens API, and 85 more. Tagged areas include Authentication, Authorization, B2B SaaS, CIAM, and Identity Management.
+overview: 'Clerk publishes 76 APIs on the [APIs.io](https://apis.io/) network, including Account Portal API, Active Sessions API, Actor Tokens API, and 73 more. Tagged areas include Authentication, Authorization, B2B SaaS, CIAM, and Identity Management.
 
 
   The Clerk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1511,7 +1465,7 @@ plans:
 - name: Clerk Com Plans Pricing
   plan_count: 4
   slug: clerk-com-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Clerk Com Rate Limits
@@ -1539,8 +1493,8 @@ rules:
     warn: 3
   slug: clerk-rules
 score:
-  band: strong
-  composite: 65.8
+  band: exemplar
+  composite: 66.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 69.5
@@ -1548,11 +1502,11 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 77.6
     contract_governance: 28.8
-    contract_quality: 71.5
+    contract_quality: 75.2
     developer_ergonomics: 72.6
     discoverability: 75.9
     operational_transparency: 36.8
@@ -1563,10 +1517,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 81
+      total: 76
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1601,5 +1555,6 @@ tags:
 - Sessions
 - SSO
 - User Management
+- Identity Federation
 website: https://clerk.com
 ---

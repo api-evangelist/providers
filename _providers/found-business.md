@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Free business checking with a Mastercard business debit card, team cards with spend controls, check and cash deposits, wires, check payments, contractor payments, and sub-accounts. App feature only; n
@@ -118,7 +118,7 @@ modified: '2026-06-20'
 name: Found
 nav: Providers
 network: true
-overview: 'Found publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Banking, Bookkeeping, Taxes, and 2 more. Tagged areas include Fintech, Business Banking, Bookkeeping, Taxes, and Self-Employed.
+overview: 'Found publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Banking, Bookkeeping, Taxes, and 2 more. Tagged areas include Fintech, Business Banking, Bookkeeping, Tax, and Self-Employed.
 
 
   Found''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -126,7 +126,7 @@ plans:
 - name: Found Business Plans Pricing
   plan_count: 3
   slug: found-business-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Found Business Rate Limits
@@ -159,7 +159,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -184,7 +184,7 @@ tags:
 - Fintech
 - Business Banking
 - Bookkeeping
-- Taxes
+- Tax
 - Self-Employed
 website: https://found.com/
 ---

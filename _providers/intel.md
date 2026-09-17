@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -87,6 +87,10 @@ collections:
   name: Intel Trust Authority API
   slug: open-intel-trust-authority-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://intel.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/capabilities/intel-capability-edges.yml
   title: ''
@@ -125,14 +129,14 @@ graphqls:
   slug: intel-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intel.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Intel
 nav: Providers
 network: true
 overview: 'Intel publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Attestation API, Policies API, Tokens API, and 1 more. Tagged areas include Fortune 100.
 
 
-  Intel''s developer surface includes engineering blog and 5 more developer resources.'
+  Intel''s developer surface includes engineering blog and 6 more developer resources.'
 plans:
 - name: Intel Plans Pricing
   plan_count: 3
@@ -153,7 +157,7 @@ press:
 - date: '2026-05-25'
   title: NVIDIA and Intel to Develop AI Infrastructure and Personal ...
   url: http://nvidianews.nvidia.com/news/nvidia-and-intel-to-develop-ai-infrastructure-and-personal-computing-products
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Intel Rate Limits
@@ -185,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -199,4 +203,5 @@ security:
 slug: intel
 tags:
 - Fortune 100
+website: https://intel.com
 ---

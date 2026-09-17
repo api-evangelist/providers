@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A remote Model Context Protocol endpoint served from Verto Education's own WordPress installation and advertised through RFC 9728 protected-resource metadata. Access requires an OAuth 2.0 access token
@@ -148,7 +148,7 @@ plans:
 - name: Verto Education Plans Pricing
   plan_count: 0
   slug: verto-education-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Verto Education Rate Limits
@@ -187,7 +187,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

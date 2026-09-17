@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,8 +57,8 @@ modified: '2026-07-20'
 name: Mayflower
 nav: Providers
 network: true
-overview: Mayflower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, HR Tech, Compliance, and Visa.
-random_paper: 16
+overview: Mayflower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Immigration, Human Resources, Compliance, and Visa.
+random_paper: 14
 score:
   band: minimal
   composite: 5.0
@@ -84,7 +84,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -100,7 +100,7 @@ slug: mayflower
 tags:
 - Company
 - Immigration
-- HR Tech
+- Human Resources
 - Compliance
 - Visa
 - Artificial Intelligence

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,11 +55,6 @@ apis:
   slug: apache-shardingsphere-databases-api
 - baseURL: https://shardingsphere.example.com/api
   baseurl_source: spec
-  description: The DataSources API from Apache ShardingSphere — 1 operation(s) for datasources.
-  name: Apache ShardingSphere DataSources API
-  slug: apache-shardingsphere-datasources-api
-- baseURL: https://shardingsphere.example.com/api
-  baseurl_source: spec
   description: The ReadwriteSplitting API from Apache ShardingSphere — 1 operation(s) for readwritesplitting.
   name: Apache ShardingSphere ReadwriteSplitting API
   slug: apache-shardingsphere-readwritesplitting-api
@@ -68,6 +63,11 @@ apis:
   description: The ShardingRules API from Apache ShardingSphere — 1 operation(s) for shardingrules.
   name: Apache ShardingSphere ShardingRules API
   slug: apache-shardingsphere-shardingrules-api
+- baseURL: https://shardingsphere.example.com/api
+  baseurl_source: spec
+  description: The Data Sources API from Apache ShardingSphere — 1 operation(s) for data sources.
+  name: Apache ShardingSphere Data Sources API
+  slug: apache-shardingsphere-data-sources-api
 artifact_total: 78
 collections:
 - collection_type: open
@@ -89,6 +89,10 @@ collections:
   name: Apache ShardingSphere REST Cluster ShardingRules API
   slug: open-apache-shardingsphere-shardingrules-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apache.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/agentic-access/apache-shardingsphere-agentic-access.yml
   title: ''
@@ -299,22 +303,22 @@ jsonld:
   property_count: 27
   slug: apache-shardingsphere-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Apache ShardingSphere
 nav: Providers
 network: true
-overview: 'Apache ShardingSphere publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Databases API, DataSources API, and 2 more. Tagged areas include Database, Distributed SQL, Read-Write Splitting, Sharding, and SQL.
+overview: 'Apache ShardingSphere publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Databases API, ReadwriteSplitting API, and 2 more. Tagged areas include Database, Distributed SQL, Read-Write Splitting, Sharding, and SQL.
 
 
   The Apache ShardingSphere catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache ShardingSphere''s developer surface includes documentation and 8 more developer resources.'
+  Apache ShardingSphere''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Apache Shardingsphere Plans Pricing
   plan_count: 3
   slug: apache-shardingsphere-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Apache Shardingsphere Rate Limits
@@ -368,7 +372,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -401,4 +405,5 @@ use_cases:
   name: Read Scaling
 - description: Online data migration between database clusters
   name: Data Migration
+website: https://apache.org
 ---

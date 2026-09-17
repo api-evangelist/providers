@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -314,7 +314,7 @@ plans:
 - name: Awin Affiliate Plans Pricing
   plan_count: 4
   slug: awin-affiliate-plans-pricing
-random_paper: 2
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Awin Affiliate Rate Limits
@@ -349,7 +349,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

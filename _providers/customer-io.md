@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 62.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 29
+- acting_count: 92
   human_in_the_loop: 0
   name: Customer Io Agentic Access
-  operation_count: 52
+  operation_count: 191
   slug: customer-io-agentic-access
-  summary_line: 52 operations · 29 acting
+  summary_line: 191 operations · 92 acting
 api_count: 4
 apis:
 - baseURL: https://track.customer.io
@@ -151,7 +151,7 @@ apis:
 - baseURL: https://track.customer.io
   baseurl_source: declared
   description: The Customer.io App API API from Customer.io — 0 operation(s) for customer.io app api.
-  name: Customer.io Customer.io App API
+  name: Customer.io App API
   slug: customer-io-customer-io-app-api-api
 - baseURL: https://track.customer.io
   baseurl_source: declared
@@ -605,6 +605,10 @@ common:
   title: ''
   type: Academy
   url: https://academy.customer.io/pages/get-started
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:press@customer.io
 created: '2024-01-01'
 description: Customer.io is a customer engagement platform that combines a customer data platform, marketing automation, and messaging delivery to send behavior-triggered email, push, SMS, and in-app messages. Its API surface includes the Track API for sending behavioral data and customer profile updates, the App API for managing workspace resources and sending transactional and broadcast messages, the Pipelines API which is a Segment-spec data ingestion interface, and outbound reporting webhooks that deliver message lifecycle events.
 finops:
@@ -636,22 +640,22 @@ mcp_servers:
 - description: 'Customer.io operates a first-party, hosted Model Context Protocol server that exposes the full Journeys App API and the CDP Data Pipelines API to any MCP client. It is a remote HTTP endpoint an agent '
   name: Customer.io MCP
   slug: customerio-mcp
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Customer.io
 nav: Providers
 network: true
-overview: 'Customer.io publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Track API, Activities API, Alias API, and 38 more. Tagged areas include Behavioral Data, Broadcasts, Campaigns, CDP, and Customer Data.
+overview: 'Customer.io publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Track API, Activities API, Alias API, and 38 more. Tagged areas include Behavioral Data, Broadcast, Campaigns, CDP, and Customer Data.
 
 
   The Customer.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Customer.io''s developer surface includes authentication, documentation, CLI, changelog, sandbox, API reference, getting-started guide, and 50 more developer resources.'
+  Customer.io''s developer surface includes authentication, documentation, CLI, changelog, sandbox, API reference, getting-started guide, and 51 more developer resources.'
 plans:
 - name: Customer Io Plans Pricing
   plan_count: 4
   slug: customer-io-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 6
   name: Customer Io Rate Limits
@@ -730,7 +734,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -756,7 +760,7 @@ security:
 slug: customer-io
 tags:
 - Behavioral Data
-- Broadcasts
+- Broadcast
 - Campaigns
 - CDP
 - Customer Data

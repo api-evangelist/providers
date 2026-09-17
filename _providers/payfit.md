@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -176,11 +176,11 @@ modified: '2026-05-11'
 name: PayFit
 nav: Providers
 network: true
-overview: 'PayFit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Collaborators API, Company API, and 4 more. Tagged areas include Payroll, Human Resources, HR Tech, Europe Payroll, and Time and Attendance.
+overview: 'PayFit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Collaborators API, Company API, and 4 more. Tagged areas include Payroll, Human Resources, Europe Payroll, Time and Attendance, and Employee Management.
 
 
   PayFit''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 2
+random_paper: 15
 score:
   band: thin
   composite: 26.5
@@ -208,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -235,7 +235,6 @@ slug: payfit
 tags:
 - Payroll
 - Human Resources
-- HR Tech
 - Europe Payroll
 - Time and Attendance
 - Employee Management

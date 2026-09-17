@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,14 +52,14 @@ apis:
   slug: secureworks-authentication-api
 - baseURL: https://api.ctpx.secureworks.com
   baseurl_source: declared
-  description: The GraphQL API from Secureworks — 1 operation(s) for graphql.
-  name: Secureworks GraphQL API
-  slug: secureworks-graphql-api
-- baseURL: https://api.ctpx.secureworks.com
-  baseurl_source: declared
   description: The System API from Secureworks — 1 operation(s) for system.
   name: Secureworks System API
   slug: secureworks-system-api
+- baseURL: https://api.ctpx.secureworks.com
+  baseurl_source: declared
+  description: The Graph QL API from Secureworks — 1 operation(s) for graph ql.
+  name: Secureworks Graph QL API
+  slug: secureworks-graph-ql-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -188,7 +188,7 @@ modified: '2026-05-19'
 name: Secureworks
 nav: Providers
 network: true
-overview: 'Secureworks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, GraphQL API, and System API. Tagged areas include Cybersecurity, XDR, Threat Detection, Security Operations, and Incident Response.
+overview: 'Secureworks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, System API, and Graph QL API. Tagged areas include Cybersecurity, XDR, Threat Detection, Security Operations, and Incident Response.
 
 
   The Secureworks catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -199,7 +199,7 @@ plans:
 - name: Secureworks Plans Pricing
   plan_count: 3
   slug: secureworks-plans-pricing
-random_paper: 16
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Secureworks Rate Limits
@@ -253,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

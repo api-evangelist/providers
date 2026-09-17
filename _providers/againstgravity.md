@@ -62,7 +62,7 @@ overview: 'Against Gravity is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Against Gravity''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 5
+random_paper: 21
 security:
 - kind: domain-security
   name: Againstgravity Domain Security

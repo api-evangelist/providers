@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 540
   human_in_the_loop: 26
@@ -595,7 +595,7 @@ apis:
 - baseURL: https://{wazo_stack}/api/auth/0.1
   baseurl_source: declared
   description: The wazo API from Wazo — 1 operation(s) for wazo.
-  name: Wazo Wazo API
+  name: Wazo API
   slug: wazo-wazo-api
 - baseURL: https://{wazo_stack}/api/auth/0.1
   baseurl_source: declared
@@ -966,7 +966,7 @@ created: '2026-08-17'
 description: 'Wazo Communication Inc. builds the Wazo Platform, an open-source (GPL-3.0) programmable unified-communications and contact-centre platform assembled from Asterisk, Kamailio, RabbitMQ, PostgreSQL and nginx, which MSPs, carriers, telecom integrators and enterprises self-host or resell white-label as UCaaS. The platform is API-first: thirteen HTTP microservices — authentication, stack configuration (confd), runtime call control (calld), call detail records, directories, call-centre agents, presence and chat, phone auto-provisioning, webhooks, plugin management, the Asterisk Manager facade and initial setup — each publish their own Swagger 2.0 contract totalling 932 operations, share a single X-Auth-Token bearer model governed by 788 fine-grained ACL permissions, and emit 327 named events onto a RabbitMQ bus that wazo-webhookd relays as HTTP webhooks and wazo-websocketd streams over WebSocket. There is no public multi-tenant API host: every base URL is the customer''s own stack.'
 image: https://wazo-platform.org/images/logo-black.svg
 layout: provider
-modified: '2026-08-17'
+modified: '2026-09-16'
 name: Wazo
 nav: Providers
 network: true
@@ -981,14 +981,14 @@ plans:
 - name: Wazo Plans Pricing
   plan_count: 0
   slug: wazo-plans-pricing
-random_paper: 8
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Wazo Rate Limits
   slug: wazo-rate-limits
 score:
   band: thin
-  composite: 38.2
+  composite: 38.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -996,11 +996,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 26.5
+    contract_quality: 26.7
     developer_ergonomics: 80.4
     discoverability: 75.9
     operational_transparency: 26.3
@@ -1010,8 +1010,8 @@ score:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 112
-      marker_coverage: 100.0
+      derived: 109
+      marker_coverage: 97.3
       total: 112
     mcp: derived
     skills: derived
@@ -1022,7 +1022,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

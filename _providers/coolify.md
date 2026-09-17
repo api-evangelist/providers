@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -344,7 +344,7 @@ overview: 'Coolify publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Coolify''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 20 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: developing
   composite: 45.1
@@ -372,7 +372,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Backend API for the hosted Intlayer CMS at back.intlayer.org — dictionaries, projects, organizations, environments and tags. Secured with OAuth 2.0 client_credentials (per-project access keys issued a
@@ -142,7 +142,7 @@ plans:
 - name: Intlayer Plans Pricing
   plan_count: 4
   slug: intlayer-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Intlayer Rate Limits
@@ -171,7 +171,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

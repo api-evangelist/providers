@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 53.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,10 +222,10 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-website-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/_original/photon-website-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/photon-website-api-openapi.json
+  url: openapi/_original/photon-website-api-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/overlays/photon-website-api-overlay.yaml
   title: ''
@@ -277,7 +277,7 @@ created: '2026-07-24'
 description: Photon Health is a United States prescription-infrastructure and e-prescribing (eRx) platform that lets digital-health companies embed prescribing, pharmacy selection, prescription routing, and fulfillment tracking into their clinical applications. Rather than an HL7 FHIR interface, Photon exposes a native GraphQL Clinical API - a single POST /graphql endpoint covering patients, prescriptions, orders, pharmacies, the medication/treatment catalog, drug-drug and drug-allergy screening, webhooks, and organization/user administration - plus a Patient Benefits API for pharmacy benefit checks and coverage. It also ships Photon Elements, prebuilt WebComponent UI for prescribing. The API is secured with OAuth2 client-credentials (Auth0) using machine-to-machine and user access tokens and prescription/order scopes; a sandbox runs on neutron.health. Photon serves prescribers and pharmacy-innovation partners including Amazon Pharmacy, Sesame, WeightWatchers, and Found.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24T18:00:00Z'
+modified: '2026-09-16'
 name: Photon
 nav: Providers
 network: true
@@ -292,7 +292,7 @@ plans:
 - name: Photon Plans Pricing
   plan_count: 0
   slug: photon-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Photon Rate Limits
@@ -349,7 +349,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

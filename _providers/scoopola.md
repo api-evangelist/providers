@@ -24,7 +24,7 @@ name: Scoopola
 nav: Providers
 network: true
 overview: Scoopola is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Live Music, Theater, and Ticketing.
-random_paper: 3
+random_paper: 6
 slug: scoopola
 tags:
 - Company

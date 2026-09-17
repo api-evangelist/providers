@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Cowboy Ventures
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 12
 slug: cowboy-ventures
 tags:
 - Venture Capital

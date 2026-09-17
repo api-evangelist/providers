@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -426,6 +426,10 @@ collections:
   name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.UpdateWebhook API'
   slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-updatewebhook-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/capabilities/amazon-codebuild-capability-edges.yml
   title: ''
@@ -2572,7 +2576,7 @@ jsonld:
   property_count: 29
   slug: amazon-codebuild-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon CodeBuild
 nav: Providers
 network: true
@@ -2582,8 +2586,8 @@ overview: 'Amazon CodeBuild publishes 47 APIs on the [APIs.io](https://apis.io/)
   The Amazon CodeBuild catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeBuild''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 25 more developer resources.'
-random_paper: 13
+  Amazon CodeBuild''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 26 more developer resources.'
+random_paper: 2
 rules:
 - effective_rule_count: 5
   extends: []
@@ -2620,7 +2624,7 @@ score:
   facets:
     access_clarity: 52.6
     contract_governance: 33.3
-    contract_quality: 71.2
+    contract_quality: 71.0
     developer_ergonomics: 59.5
     discoverability: 70.4
     operational_transparency: 18.4
@@ -2635,7 +2639,7 @@ score:
       total: 47
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2677,5 +2681,5 @@ use_cases:
   name: Multi-Environment Build Matrix
 - description: Use CodeBuild as the build and test stage in an AWS CodePipeline CD pipeline for fully automated code delivery from commit to deployment.
   name: AWS CodePipeline Integration
-website: https://aws.amazon.com/codebuild/
+website: https://amazon.com
 ---

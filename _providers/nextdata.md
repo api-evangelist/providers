@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Nextdata OS platform for building autonomous data products across structured and unstructured data, with AI-native data management, governance, and discovery primitives.
@@ -79,7 +79,7 @@ plans:
 - name: Nextdata Plans Pricing
   plan_count: 3
   slug: nextdata-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Nextdata Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

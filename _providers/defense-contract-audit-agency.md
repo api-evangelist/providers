@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The public JSON backend of DCAA's Field Audit Office Branch Locator. It resolves the DCAA field audit office cognizant over a contractor from a CAGE code (searchType 0), a SAM.gov Unique Entity Identi
@@ -147,7 +147,7 @@ plans:
 - name: Defense Contract Audit Agency Plans Pricing
   plan_count: 0
   slug: defense-contract-audit-agency-plans-pricing
-random_paper: 16
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Defense Contract Audit Agency Rate Limits
@@ -186,7 +186,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,21 +34,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 11
-  human_in_the_loop: 0
+- acting_count: 189
+  human_in_the_loop: 20
   name: Dynamic Labs Agentic Access
-  operation_count: 22
+  operation_count: 294
   slug: dynamic-labs-agentic-access
-  summary_line: 22 operations · 11 acting
-api_count: 1
+  summary_line: 294 operations · 189 acting · 20 human-in-the-loop
+api_count: 31
 apis:
-- baseURL: https://app.dynamicauth.com/api/v0
-  baseurl_source: declared
-  description: Gate authentication with allowlists.
-  name: Dynamic Allowlists API
-  slug: dynamic-labs-allowlists-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: Retrieve aggregate environment analytics.
@@ -104,153 +99,153 @@ apis:
   baseurl_source: declared
   description: The Chainalysis API from Dynamic — 3 operation(s) for chainalysis.
   name: Dynamic Chainalysis API
-  slug: dynamic-xyz-chainalysis-api
+  slug: dynamic-labs-chainalysis-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Chains API from Dynamic — 1 operation(s) for chains.
   name: Dynamic Chains API
-  slug: dynamic-xyz-chains-api
+  slug: dynamic-labs-chains-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Custom Fields API from Dynamic — 2 operation(s) for custom fields.
   name: Dynamic Custom Fields API
-  slug: dynamic-xyz-custom-fields-api
+  slug: dynamic-labs-custom-fields-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Custom Networks API from Dynamic — 2 operation(s) for custom networks.
   name: Dynamic Custom Networks API
-  slug: dynamic-xyz-custom-networks-api
-- baseURL: https://app.dynamicauth.com/api/v0
-  baseurl_source: declared
-  description: The CustomHostnames API from Dynamic — 2 operation(s) for customhostnames.
-  name: Dynamic CustomHostnames API
-  slug: dynamic-xyz-customhostnames-api
+  slug: dynamic-labs-custom-networks-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The DeeplinkUrls API from Dynamic — 2 operation(s) for deeplinkurls.
-  name: Dynamic DeeplinkUrls API
-  slug: dynamic-xyz-deeplinkurls-api
+  name: Dynamic Deeplink URLS API
+  slug: dynamic-labs-deeplinkurls-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Events API from Dynamic — 3 operation(s) for events.
   name: Dynamic Events API
-  slug: dynamic-xyz-events-api
+  slug: dynamic-labs-events-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The ExternalJwt API from Dynamic — 1 operation(s) for externaljwt.
-  name: Dynamic ExternalJwt API
-  slug: dynamic-xyz-externaljwt-api
+  name: Dynamic External JWT API
+  slug: dynamic-labs-externaljwt-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Gates API from Dynamic — 4 operation(s) for gates.
   name: Dynamic Gates API
-  slug: dynamic-xyz-gates-api
+  slug: dynamic-labs-gates-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The GlobalWalletAccessControl API from Dynamic — 5 operation(s) for globalwalletaccesscontrol.
-  name: Dynamic GlobalWalletAccessControl API
-  slug: dynamic-xyz-globalwalletaccesscontrol-api
+  name: Dynamic Global Wallet Access Control API
+  slug: dynamic-labs-globalwalletaccesscontrol-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The GlobalWalletConnections API from Dynamic — 1 operation(s) for globalwalletconnections.
-  name: Dynamic GlobalWalletConnections API
-  slug: dynamic-xyz-globalwalletconnections-api
+  name: Dynamic Global Wallet Connections API
+  slug: dynamic-labs-globalwalletconnections-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The GlobalWallets API from Dynamic — 3 operation(s) for globalwallets.
-  name: Dynamic GlobalWallets API
-  slug: dynamic-xyz-globalwallets-api
+  name: Dynamic Global Wallets API
+  slug: dynamic-labs-globalwallets-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Invites API from Dynamic — 3 operation(s) for invites.
   name: Dynamic Invites API
-  slug: dynamic-xyz-invites-api
+  slug: dynamic-labs-invites-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Members API from Dynamic — 4 operation(s) for members.
   name: Dynamic Members API
-  slug: dynamic-xyz-members-api
+  slug: dynamic-labs-members-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Mfa API from Dynamic — 2 operation(s) for mfa.
   name: Dynamic Mfa API
-  slug: dynamic-xyz-mfa-api
-- baseURL: https://app.dynamicauth.com/api/v0
-  baseurl_source: declared
-  description: The MfaSettings API from Dynamic — 3 operation(s) for mfasettings.
-  name: Dynamic MfaSettings API
-  slug: dynamic-xyz-mfasettings-api
+  slug: dynamic-labs-mfa-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The NameServices API from Dynamic — 4 operation(s) for nameservices.
-  name: Dynamic NameServices API
-  slug: dynamic-xyz-nameservices-api
+  name: Dynamic Name Services API
+  slug: dynamic-labs-nameservices-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Organizations API from Dynamic — 8 operation(s) for organizations.
   name: Dynamic Organizations API
-  slug: dynamic-xyz-organizations-api
+  slug: dynamic-labs-organizations-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Origins API from Dynamic — 2 operation(s) for origins.
   name: Dynamic Origins API
-  slug: dynamic-xyz-origins-api
+  slug: dynamic-labs-origins-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Projects API from Dynamic — 2 operation(s) for projects.
   name: Dynamic Projects API
-  slug: dynamic-xyz-projects-api
+  slug: dynamic-labs-projects-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The SDK API from Dynamic — 124 operation(s) for sdk.
   name: Dynamic SDK API
-  slug: dynamic-xyz-sdk-api
+  slug: dynamic-labs-sdk-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The SDK Views API from Dynamic — 2 operation(s) for sdk views.
   name: Dynamic SDK Views API
-  slug: dynamic-xyz-sdk-views-api
+  slug: dynamic-labs-sdk-views-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Sessions API from Dynamic — 3 operation(s) for sessions.
   name: Dynamic Sessions API
-  slug: dynamic-xyz-sessions-api
+  slug: dynamic-labs-sessions-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Settings API from Dynamic — 9 operation(s) for settings.
   name: Dynamic Settings API
-  slug: dynamic-xyz-settings-api
+  slug: dynamic-labs-settings-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The TestAccount API from Dynamic — 1 operation(s) for testaccount.
-  name: Dynamic TestAccount API
-  slug: dynamic-xyz-testaccount-api
-- baseURL: https://app.dynamicauth.com/api/v0
-  baseurl_source: declared
-  description: The Tokens API from Dynamic — 2 operation(s) for tokens.
-  name: Dynamic Tokens API
-  slug: dynamic-xyz-tokens-api
-- baseURL: https://app.dynamicauth.com/api/v0
-  baseurl_source: declared
-  description: The UserApiTokens API from Dynamic — 2 operation(s) for userapitokens.
-  name: Dynamic UserApiTokens API
-  slug: dynamic-xyz-userapitokens-api
+  name: Dynamic Test Account API
+  slug: dynamic-labs-testaccount-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Visits API from Dynamic — 1 operation(s) for visits.
   name: Dynamic Visits API
-  slug: dynamic-xyz-visits-api
+  slug: dynamic-labs-visits-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The Waas API from Dynamic — 14 operation(s) for waas.
   name: Dynamic Waas API
-  slug: dynamic-xyz-waas-api
+  slug: dynamic-labs-waas-api
 - baseURL: https://app.dynamicauth.com/api/v0
   baseurl_source: declared
   description: The WalletConnect API from Dynamic — 1 operation(s) for walletconnect.
-  name: Dynamic WalletConnect API
-  slug: dynamic-xyz-walletconnect-api
-artifact_total: 62
+  name: Dynamic Wallet Connect API
+  slug: dynamic-labs-walletconnect-api
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: Gate authentication with allowlists.
+  name: Dynamic Allow Lists API
+  slug: dynamic-labs-allow-lists-api
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Custom Hostnames API from Dynamic — 2 operation(s) for custom hostnames.
+  name: Dynamic Custom Hostnames API
+  slug: dynamic-labs-custom-hostnames-api
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The MFA Settings API from Dynamic — 3 operation(s) for mfa settings.
+  name: Dynamic MFA Settings API
+  slug: dynamic-labs-mfa-settings-api
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The User API Tokens API from Dynamic — 2 operation(s) for user api tokens.
+  name: Dynamic User API Tokens API
+  slug: dynamic-labs-user-api-tokens-api
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -357,7 +352,7 @@ modified: '2026-07-01'
 name: Dynamic
 nav: Providers
 network: true
-overview: 'Dynamic publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Allowlists API, Analytics API, API Tokens API, and 37 more. Tagged areas include Web3, Authentication, Embedded Wallets, Wallets, and MPC.
+overview: 'Dynamic publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, API Tokens API, Embedded Wallets API, and 36 more. Tagged areas include Web3, Authentication, Embedded Wallets, Wallets, and MPC.
 
 
   Dynamic''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -365,14 +360,14 @@ plans:
 - name: Dynamic Labs Plans Pricing
   plan_count: 3
   slug: dynamic-labs-plans-pricing
-random_paper: 7
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Dynamic Labs Rate Limits
   slug: dynamic-labs-rate-limits
 score:
   band: developing
-  composite: 41.2
+  composite: 42.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 64.0
@@ -380,11 +375,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 49.9
+    contract_quality: 53.4
     developer_ergonomics: 29.8
     discoverability: 68.5
     operational_transparency: 34.2
@@ -395,7 +390,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 40
+      total: 39
   regulatory:
     applies: true
     matched_via: tags
@@ -403,7 +398,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

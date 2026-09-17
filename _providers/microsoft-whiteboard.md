@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Microsoft Graph Whiteboard API enables developers to manage Microsoft Whiteboard resources programmatically. Applications can create whiteboards, manage participants, and export whiteboard content
@@ -103,7 +103,7 @@ plans:
 - name: Microsoft Whiteboard Plans Pricing
   plan_count: 3
   slug: microsoft-whiteboard-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Microsoft Whiteboard Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

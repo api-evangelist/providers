@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API for the Gatekeeper contract and vendor management platform. Exposes vendors, contracts, employees, custom data, files, events, and workflows. The base URL and interactive docume
@@ -93,7 +93,7 @@ overview: 'Gatekeeper publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Gatekeeper''s developer surface includes documentation, pricing, signup flow, support, academy / training, engineering blog, and 3 more developer resources.'
-random_paper: 3
+random_paper: 19
 score:
   band: emerging
   composite: 25.3
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 25.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

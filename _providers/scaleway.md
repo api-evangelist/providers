@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -53,11 +53,6 @@ apis:
   description: Network Access Control Lists (ACLs) allow you to manage inbound network traffic by setting up ACL rules
   name: Scaleway Access Control List API
   slug: scaleway-access-control-list-api
-- baseURL: https://api.scaleway.com
-  baseurl_source: spec
-  description: Network Access Control Lists allow you to control incoming network traffic by setting up ACL rules.
-  name: Scaleway ACLs API
-  slug: scaleway-acls-api
 - baseURL: https://api.scaleway.com
   baseurl_source: spec
   description: The Alert Subscribers object. It represents a subscription to alerts about Scaleway incidents impacting a given Load Balancer. Use this endpoint to create subscribers (email addresses or webhooks), su
@@ -193,16 +188,6 @@ apis:
   description: The Load Balancer IP address object. It represents a flexible IP address which can be attached to a Load Balancer. Use this endpoint to create, list, get, update and delete your Load Balancer IP addre
   name: Scaleway IP addresses API
   slug: scaleway-ip-addresses-api
-- baseURL: https://api.scaleway.com
-  baseurl_source: spec
-  description: A flexible IP address is an IP address which you hold independently of any Instance. You can attach it to any of your Instances and do live migration of the IP address between your Instances. Note tha
-  name: Scaleway IPs API
-  slug: scaleway-ips-api
-- baseURL: https://api.scaleway.com
-  baseurl_source: spec
-  description: The JWTs API from Scaleway — 2 operation(s) for jwts.
-  name: Scaleway JWTs API
-  slug: scaleway-jwts-api
 - baseURL: https://api.scaleway.com
   baseurl_source: spec
   description: The main Load Balancer object. A Scaleway Load Balancer is a representation of a fully-managed, highly-available Instance configured to direct traffic across multiple servers. Use the Load Balancer en
@@ -405,14 +390,29 @@ apis:
   slug: scaleway-vpc-connectors-api
 - baseURL: https://api.scaleway.com
   baseurl_source: spec
-  description: A Virtual Private Cloud (VPC) allows you to group your regional Private Networks together. Note that a Private Network can be a part of only one VPC.
-  name: Scaleway VPCs API
-  slug: scaleway-vpcs-api
-- baseURL: https://api.scaleway.com
-  baseurl_source: spec
   description: Webhooks enable real-time communication and automation between systems by sending messages through all protocols supported by SNS, such as HTTP, HTTPS, and Serverless Functions, allowing for immediate
   name: Scaleway Webhooks API
   slug: scaleway-webhooks-api
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Network Access Control Lists allow you to control incoming network traffic by setting up ACL rules.
+  name: Scaleway AC Ls API
+  slug: scaleway-acls-api
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A flexible IP address is an IP address which you hold independently of any Instance. You can attach it to any of your Instances and do live migration of the IP address between your Instances. Note tha
+  name: Scaleway I Ps API
+  slug: scaleway-ips-api
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The JWTs API from Scaleway — 2 operation(s) for jwts.
+  name: Scaleway JW Ts API
+  slug: scaleway-jwts-api
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A Virtual Private Cloud (VPC) allows you to group your regional Private Networks together. Note that a Private Network can be a part of only one VPC.
+  name: Scaleway VP Cs API
+  slug: scaleway-vpcs-api
 artifact_total: 589
 collections:
 - collection_type: postman
@@ -887,6 +887,10 @@ collections:
   name: Managed Database for PostgreSQL and MySQL Access Control List Webhooks API
   slug: open-scaleway-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://scaleway.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/capabilities/scaleway-capability-edges.yml
   title: ''
@@ -2058,22 +2062,22 @@ jsonld:
   property_count: 31
   slug: scaleway-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Scaleway
 nav: Providers
 network: true
-overview: 'Scaleway publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Access Control List API, ACLs API, Alert Subscribers API, and 70 more. Tagged areas include Artificial Intelligence, Cloud Computing, Containers, Database, and European Cloud.
+overview: 'Scaleway publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Access Control List API, Alert Subscribers API, API Keys API, and 70 more. Tagged areas include Artificial Intelligence, Cloud Computing, Containers, Database, and European Cloud.
 
 
   The Scaleway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scaleway''s developer surface includes authentication, developer portal, documentation, API reference, GitHub presence, CLI, pricing, and 20 more developer resources.'
+  Scaleway''s developer surface includes authentication, developer portal, documentation, API reference, GitHub presence, CLI, pricing, and 21 more developer resources.'
 plans:
 - name: Scaleway Plans Pricing
   plan_count: 2
   slug: scaleway-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Scaleway Rate Limits
@@ -2113,7 +2117,7 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 25.0
-    contract_quality: 60.5
+    contract_quality: 60.6
     developer_ergonomics: 81.0
     discoverability: 59.3
     operational_transparency: 26.3
@@ -2126,7 +2130,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2160,5 +2164,5 @@ tags:
 - Kubernetes
 - Serverless
 - Storage
-website: https://www.scaleway.com/en/developers/
+website: https://scaleway.com
 ---

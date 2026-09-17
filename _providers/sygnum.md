@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: Real-time account and balance retrieval across fiat, digital assets and traditional securities held at Sygnum, with role-based permissions, exposed to B2B partners as REST.
@@ -258,7 +258,7 @@ plans:
 - name: Sygnum Plans Pricing
   plan_count: 0
   slug: sygnum-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Sygnum Rate Limits
@@ -307,7 +307,7 @@ score:
     regime_id: banking_open_finance
     score: 74.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -73,6 +73,10 @@ collections:
   name: Amazon Lookout for Vision Projects Tags API
   slug: open-amazon-lookout-for-vision-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1366,7 +1370,7 @@ jsonld:
   property_count: 64
   slug: amazon-lookout-for-vision-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Lookout for Vision
 nav: Providers
 network: true
@@ -1376,12 +1380,12 @@ overview: 'Amazon Lookout for Vision publishes 2 APIs on the [APIs.io](https://a
   The Amazon Lookout for Vision catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lookout for Vision''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Lookout for Vision''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Lookout For Vision Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-vision-plans-pricing
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Vision Rate Limits
@@ -1435,7 +1439,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1476,5 +1480,5 @@ use_cases:
   name: Pharmaceutical Packaging
 - description: Detect cracks, scratches, and dimensional defects in automotive components.
   name: Automotive Parts Inspection
-website: https://aws.amazon.com/lookout-for-vision/
+website: https://amazon.com
 ---

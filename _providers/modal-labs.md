@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - baseURL: https://<workspace>--<app>-<function>.modal.run
   baseurl_source: declared
   description: The Modal Web Endpoints (Representative) API from Modal — 2 operation(s) for modal web endpoints (representative).
-  name: Modal Modal Web Endpoints (Representative) API
+  name: Modal Web Endpoints (Representative) API
   slug: modal-labs-modal-web-endpoints-representative-api
 - description: Defines, deploys, and invokes serverless Python Functions on Modal with per-function GPU/CPU/memory configuration, autoscaling, and sub-second cold starts.
   name: Modal Functions API
@@ -176,11 +176,11 @@ finops:
   slug: modal-labs-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modal-labs.png
 layout: provider
-modified: '2026-07-01'
+modified: '2026-09-16'
 name: Modal
 nav: Providers
 network: true
-overview: 'Modal publishes 1 API on the [APIs.io](https://apis.io/) network: Modal Web Endpoints (Representative) API. Tagged areas include Serverless, Compute, GPU, AI Infrastructure, and Sandboxes.
+overview: 'Modal publishes 1 API on the [APIs.io](https://apis.io/) network: Web Endpoints (Representative) API. Tagged areas include Serverless, Compute, GPU, AI Infrastructure, and Sandbox.
 
 
   Modal''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -188,7 +188,7 @@ plans:
 - name: Modal Labs Plans Pricing
   plan_count: 4
   slug: modal-labs-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Modal Labs Rate Limits
@@ -220,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -236,7 +236,7 @@ tags:
 - Compute
 - GPU
 - AI Infrastructure
-- Sandboxes
+- Sandbox
 - Infrastructure as Code
 website: https://modal.com/
 ---

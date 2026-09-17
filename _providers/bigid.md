@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,18 +65,18 @@ apis:
   description: Run Data Subject Access Requests (DSARs) and retrieve the resulting reports. Inspect available DSAR profiles and identifier attributes, submit new DSAR scans, poll status, and download short or full r
   name: BigID DSAR API
   slug: bigid-dsar-api
-- baseURL: https://sandbox.bigid.tools/api/v1
-  baseurl_source: spec
+- baseURL_template: https://{deployment}.bigid.com/api/v1
+  baseurl_source: spec_template
   description: DSPM cases and remediation.
   name: BigID Actionable Insights API
   slug: bigid-actionable-insights-api
-- baseURL: https://sandbox.bigid.tools/api/v1
-  baseurl_source: spec
+- baseURL_template: https://{deployment}.bigid.com/api/v1
+  baseurl_source: spec_template
   description: Browse catalog objects.
   name: BigID Catalog API
   slug: bigid-catalog-api
-- baseURL: https://sandbox.bigid.tools/api/v1
-  baseurl_source: spec
+- baseURL_template: https://{deployment}.bigid.com/api/v1
+  baseurl_source: spec_template
   description: Cluster analysis operations.
   name: BigID Clusters API
   slug: bigid-clusters-api
@@ -85,8 +85,8 @@ apis:
   description: Inspect available connector templates.
   name: BigID Connector Templates API
   slug: bigid-connector-templates-api
-- baseURL: https://sandbox.bigid.tools/api/v1
-  baseurl_source: spec
+- baseURL_template: https://{deployment}.bigid.com/api/v1
+  baseurl_source: spec_template
   description: Export catalog metadata.
   name: BigID Metadata Export API
   slug: bigid-metadata-export-api
@@ -426,7 +426,7 @@ plans:
 - name: Bigid Plans Pricing
   plan_count: 4
   slug: bigid-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Bigid Rate Limits
@@ -486,7 +486,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

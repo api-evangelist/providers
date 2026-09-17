@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.pyannote.ai
@@ -63,11 +63,6 @@ asyncapis:
   name: Pyannoteai Webhooks
   slug: pyannoteai-webhooks
 common:
-- group: other
-  href: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/overlays/pyannoteai-api-overlay.yaml
-  title: ''
-  type: Overlay
-  url: overlays/pyannoteai-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/security/pyannoteai-trust-center.yml
   title: ''
@@ -223,6 +218,10 @@ common:
   title: ''
   type: Plans
   url: plans/pyannoteai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@pyannote.ai
 created: '2026-08-17'
 description: 'pyannoteAI builds speaker intelligence infrastructure for voice AI: a hosted REST and WebSocket API that answers "who spoke when" (speaker diarization) and "who is speaking" (speaker identification via voiceprints) for both batch audio files and live streams. The company commercializes the widely adopted open-source pyannote.audio library, offering batch diarization, real-time streaming diarization over a WebSocket gateway, voiceprint enrollment and matching, and speech-to-text orchestration that returns speaker-attributed transcripts in a single call. Developers authenticate with a bearer API key, submit asynchronous jobs, and receive results by polling or signed webhooks.'
 image: https://framerusercontent.com/images/myoVIwP9SQzshWrwvnPNrwVIn8.png
@@ -231,7 +230,7 @@ mcp_servers:
 - description: ''
   name: pyannoteAI
   slug: pyannoteai
-modified: '2026-08-17'
+modified: '2026-09-16'
 name: PyannoteAI
 nav: Providers
 network: true
@@ -246,14 +245,14 @@ plans:
 - name: Pyannoteai Plans Pricing
   plan_count: 3
   slug: pyannoteai-plans-pricing
-random_paper: 9
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Pyannoteai Rate Limits
   slug: pyannoteai-rate-limits
 score:
   band: strong
-  composite: 60.8
+  composite: 61.4
   coverage:
     artifact_dirs: 25
     catalog_earned: 61.0
@@ -261,24 +260,26 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 78.9
-    contract_governance: 0.0
+    contract_governance: 4.5
     contract_quality: 59.7
     developer_ergonomics: 78.6
     discoverability: 75.9
     operational_transparency: 57.9
   previous_composite: 60.8
   provenance:
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: first-party
+    skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

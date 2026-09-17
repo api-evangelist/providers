@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -166,11 +166,6 @@ apis:
   slug: mux-com-playback-restrictions-api
 - baseURL: https://api.mux.com
   baseurl_source: declared
-  description: 'The Mux Data Real-time API has been deprecated, please refer to the Mux Data `Monitoring` APIs which provide the same functionality. Mux Data Monitoring metrics are available to Mux Data customers on '
-  name: Mux Real-Time API
-  slug: mux-com-real-time-api
-- baseURL: https://api.mux.com
-  baseurl_source: declared
   description: Signing keys are used to sign JSON Web Tokens (JWTs) for securing certain requests, such as secure playback URLs and access to real-time viewer counts in Mux Data. **One signing key can be used to sig
   name: Mux Signing Keys API
   slug: mux-com-signing-keys-api
@@ -232,8 +227,13 @@ apis:
 - baseURL: https://api.mux.com
   baseurl_source: declared
   description: The Mux API API from Mux — 0 operation(s) for mux api.
-  name: Mux Mux API
+  name: Mux API
   slug: mux-com-mux-api-api
+- baseURL: https://api.mux.com
+  baseurl_source: declared
+  description: 'The Mux Data Real-time API has been deprecated, please refer to the Mux Data `Monitoring` APIs which provide the same functionality. Mux Data Monitoring metrics are available to Mux Data customers on '
+  name: Mux Realtime API
+  slug: mux-com-realtime-api
 arazzos:
 - description: Confirm the active environment with whoami, then list per-asset delivery usage for a timeframe to audit billed delivery.
   name: Mux Account Delivery Usage Audit
@@ -848,7 +848,7 @@ jsonld:
   property_count: 4
   slug: mux-com-context
 layout: provider
-modified: '2026-08-08'
+modified: '2026-09-16'
 name: Mux
 nav: Providers
 network: true
@@ -863,7 +863,7 @@ plans:
 - name: Mux Com Plans Pricing
   plan_count: 11
   slug: mux-com-plans-pricing
-random_paper: 17
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Mux Com Rate Limits
@@ -908,7 +908,7 @@ score:
       total: 37
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

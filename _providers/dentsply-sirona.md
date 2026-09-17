@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -41,32 +41,57 @@ agentic_access:
   operation_count: 30
   slug: dentsply-sirona-agentic-access
   summary_line: 30 operations · 11 acting
-api_count: 3
+api_count: 6
 apis:
 - description: DS Core is the open cloud platform from Dentsply Sirona that connects dental practices, laboratories, and DSOs through a single web-based experience. The DS Core API enables Practice Management System
   name: DS Core API
   slug: ds-core-api
-- baseURL: https://localhost:43809/api/dsio/modality/v1
+- baseURL: https://api.dscore.com
   baseurl_source: declared
-  description: A 17-operation OpenAPI 3.0.1 contract for acquisition and control of Dentsply Sirona intraoral sensors. Devices operations retrieve names, icons, battery and status for connected USB and WiFi sensor i
-  name: Dentsply Sirona Intraoral Imaging Modality API
-  slug: dsio-modality-api
-- baseURL: https://localhost:43809/api/dsio/filters/v1
+  description: The device management API provides methods to retrieve information, such as names, icons and status for devices.
+  name: Dentsply Sirona Devices API
+  slug: dentsply-sirona-devices-api
+- baseURL: https://api.dscore.com
   baseurl_source: declared
-  description: A 9-operation OpenAPI 3.0.1 contract for applying Dentsply Sirona's Select, Supreme and AE image filters to 16-bit grayscale intraoral images. An image resource is created either by uploading a PNG or
-  name: Dentsply Sirona Intraoral Imaging Filters API
-  slug: dsio-filters-api
-- baseURL: https://virtserver.swaggerhub.com/JohnGoyette/intraoral-exposure-service/1.0
+  description: Exposure data from generators
+  name: Dentsply Sirona Exposures API
+  slug: dentsply-sirona-exposures-api
+- baseURL: https://api.dscore.com
   baseurl_source: declared
-  description: A 4-operation, read-only OpenAPI 3.0.0 contract for exchanging intraoral X-ray exposure dose information, so exposure data can be stored alongside a patient's media and dental record. It is a SPECIFIC
-  name: Intraoral Exposure API
-  slug: io-exposure-api
-artifact_total: 14
+  description: Filters that can be applied to image resources
+  name: Dentsply Sirona Filters API
+  slug: dentsply-sirona-filters-api
+- baseURL: https://api.dscore.com
+  baseurl_source: declared
+  description: Intraoral X-ray tube generators
+  name: Dentsply Sirona Generators API
+  slug: dentsply-sirona-generators-api
+- baseURL: https://api.dscore.com
+  baseurl_source: declared
+  description: Manage image resources for processing
+  name: Dentsply Sirona Images API
+  slug: dentsply-sirona-images-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Dentsply Sirona Event Surface
   slug: dentsply-sirona-event-surface
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/overlays/dentsply-sirona-modality-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dentsply-sirona-modality-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/overlays/dentsply-sirona-filters-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dentsply-sirona-filters-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/overlays/dentsply-sirona-exposure-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dentsply-sirona-exposure-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/dentsply-sirona/refs/heads/main/agentic-access/dentsply-sirona-agentic-access.yml
   title: ''
@@ -281,13 +306,13 @@ modified: '2026-09-06'
 name: Dentsply Sirona
 nav: Providers
 network: true
-overview: 'Dentsply Sirona publishes 3 APIs on the [APIs.io](https://apis.io/) network: Intraoral Imaging Modality API, Intraoral Imaging Filters API, and Intraoral Exposure API. Tagged areas include CAD/CAM, CEREC, Dental, DS Core, and Imaging.
+overview: 'Dentsply Sirona publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Exposures API, Filters API, and 2 more. Tagged areas include CAD/CAM, CEREC, Dental, DS Core, and Imaging.
 
 
   The Dentsply Sirona catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Dentsply Sirona''s developer surface includes authentication, changelog, sandbox, documentation, signup flow, pricing, support, and 37 more developer resources.'
+  Dentsply Sirona''s developer surface includes authentication, changelog, sandbox, documentation, signup flow, pricing, support, and 40 more developer resources.'
 plans:
 - name: Dentsply Sirona Plans Pricing
   plan_count: 4
@@ -308,28 +333,28 @@ press:
 - date: '2026-05-25'
   title: Dentsply Sirona presents Primescan® 2 powered by DS ...
   url: https://www.prnewswire.com/news-releases/dentsply-sirona-presents-primescan-2-powered-by-ds-core-the-first-cloud-native-intraoral-scanning-solution-302239312.html
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Dentsply Sirona Rate Limits
   slug: dentsply-sirona-rate-limits
 score:
-  band: strong
-  composite: 65.6
+  band: exemplar
+  composite: 66.5
   coverage:
     artifact_dirs: 27
-    catalog_earned: 60.0
+    catalog_earned: 65.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 55.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 84.2
     contract_governance: 19.7
-    contract_quality: 66.8
+    contract_quality: 66.7
     developer_ergonomics: 75.6
-    discoverability: 64.8
+    discoverability: 74.1
     operational_transparency: 44.7
   previous_composite: 65.6
   provenance:
@@ -339,7 +364,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -349,7 +374,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

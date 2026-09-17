@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +54,6 @@ apis:
   description: The Media API from HouseSigma — 2 operation(s) for media.
   name: HouseSigma Media API
   slug: housesigma-media-api
-- baseURL: https://housesigma.com/blog-en/wp-json
-  baseurl_source: declared
-  description: The oEmbed API from HouseSigma — 1 operation(s) for oembed.
-  name: HouseSigma O Embed API
-  slug: housesigma-oembed-api
 - baseURL: https://housesigma.com/blog-en/wp-json
   baseurl_source: declared
   description: The Pages API from HouseSigma — 2 operation(s) for pages.
@@ -89,6 +84,11 @@ apis:
   description: The Users API from HouseSigma — 2 operation(s) for users.
   name: HouseSigma Users API
   slug: housesigma-users-api
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The o Embed API from HouseSigma — 1 operation(s) for o embed.
+  name: HouseSigma o Embed API
+  slug: housesigma-o-embed-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -256,11 +256,11 @@ modified: '2026-07-26'
 name: HouseSigma
 nav: Providers
 network: true
-overview: 'HouseSigma publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Media API, O Embed API, and 6 more. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and Valuation.
+overview: 'HouseSigma publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Media API, Pages API, and 6 more. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and Valuation.
 
 
   HouseSigma''s developer surface includes authentication, engineering blog, code examples, support, FAQ, and 25 more developer resources.'
-random_paper: 6
+random_paper: 21
 score:
   band: thin
   composite: 32.0
@@ -298,7 +298,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

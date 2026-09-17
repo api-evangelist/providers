@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 4
@@ -58,11 +58,6 @@ apis:
   slug: daily-co-calltransfer-api
 - baseURL: https://api.daily.co/v1
   baseurl_source: declared
-  description: The DialIn API from Daily — 1 operation(s) for dialin.
-  name: Daily DialIn API
-  slug: daily-co-dialin-api
-- baseURL: https://api.daily.co/v1
-  baseurl_source: declared
   description: The DialOut API from Daily — 3 operation(s) for dialout.
   name: Daily DialOut API
   slug: daily-co-dialout-api
@@ -73,24 +68,9 @@ apis:
   slug: daily-co-domain-api
 - baseURL: https://api.daily.co/v1
   baseurl_source: declared
-  description: The LiveStreaming API from Daily — 3 operation(s) for livestreaming.
-  name: Daily LiveStreaming API
-  slug: daily-co-livestreaming-api
-- baseURL: https://api.daily.co/v1
-  baseurl_source: declared
   description: The Meetings API from Daily — 3 operation(s) for meetings.
   name: Daily Meetings API
   slug: daily-co-meetings-api
-- baseURL: https://api.daily.co/v1
-  baseurl_source: declared
-  description: The MeetingTokens API from Daily — 2 operation(s) for meetingtokens.
-  name: Daily MeetingTokens API
-  slug: daily-co-meetingtokens-api
-- baseURL: https://api.daily.co/v1
-  baseurl_source: declared
-  description: The PhoneNumbers API from Daily — 4 operation(s) for phonenumbers.
-  name: Daily PhoneNumbers API
-  slug: daily-co-phonenumbers-api
 - baseURL: https://api.daily.co/v1
   baseurl_source: declared
   description: The Presence API from Daily — 1 operation(s) for presence.
@@ -116,6 +96,26 @@ apis:
   description: The Webhooks API from Daily — 2 operation(s) for webhooks.
   name: Daily Webhooks API
   slug: daily-co-webhooks-api
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Dial In API from Daily — 1 operation(s) for dial in.
+  name: Daily Dial In API
+  slug: daily-co-dial-in-api
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Live Streaming API from Daily — 3 operation(s) for live streaming.
+  name: Daily Live Streaming API
+  slug: daily-co-live-streaming-api
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Meeting Tokens API from Daily — 2 operation(s) for meeting tokens.
+  name: Daily Meeting Tokens API
+  slug: daily-co-meeting-tokens-api
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Phone Numbers API from Daily — 4 operation(s) for phone numbers.
+  name: Daily Phone Numbers API
+  slug: daily-co-phone-numbers-api
 artifact_total: 39
 asyncapis:
 - description: ''
@@ -272,7 +272,7 @@ modified: '2026-05-08'
 name: Daily
 nav: Providers
 network: true
-overview: 'Daily publishes 13 APIs on the [APIs.io](https://apis.io/) network, including CallTransfer API, DialIn API, DialOut API, and 10 more. Tagged areas include Real-Time, WebRTC, Video, Audio, and SDK.
+overview: 'Daily publishes 13 APIs on the [APIs.io](https://apis.io/) network, including CallTransfer API, DialOut API, Domain API, and 10 more. Tagged areas include Real-Time, WebRTC, Video, Audio, and SDK.
 
 
   The Daily catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -283,14 +283,14 @@ plans:
 - name: Daily Co Plans Pricing
   plan_count: 5
   slug: daily-co-plans-pricing
-random_paper: 9
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Daily Co Rate Limits
   slug: daily-co-rate-limits
 score:
   band: developing
-  composite: 46.7
+  composite: 47.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 46.0
@@ -298,11 +298,11 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 60.7
+    contract_quality: 63.1
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 63.2
@@ -318,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

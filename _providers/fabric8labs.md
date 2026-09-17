@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -321,7 +321,7 @@ plans:
 - name: Fabric8Labs Plans Pricing
   plan_count: 0
   slug: fabric8labs-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Fabric8Labs Rate Limits
@@ -367,7 +367,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -393,7 +393,7 @@ tags:
 - Electrochemical Additive Manufacturing
 - Thermal Management
 - Liquid Cooling
-- Data Centers
+- Data-Center
 - Semiconductors
 - Electronics
 - Aerospace

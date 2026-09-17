@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The first-party GraphQL API behind the flytedesk application — the campus advertising marketplace covering suppliers (campus media organizations), campuses, buyers, audiences, ad shops, campaigns, ads
@@ -120,7 +120,7 @@ plans:
 - name: Flytedesk Plans Pricing
   plan_count: 0
   slug: flytedesk-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Flytedesk Rate Limits
@@ -155,7 +155,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

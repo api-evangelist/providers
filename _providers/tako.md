@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - baseURL: https://tako.com/api
   baseurl_source: declared
   description: The tako API from Tako — 7 operation(s) for tako.
-  name: Tako tako API
+  name: Tako API
   slug: tako-tako-api
 artifact_total: 11
 collections:
@@ -224,15 +224,15 @@ mcp_servers:
 - description: ''
   name: Tako MCP Server
   slug: tako-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Tako
 nav: Providers
 network: true
-overview: 'Tako publishes 2 APIs on the [APIs.io](https://apis.io/) network: agent API and tako API. Tagged areas include Company, Artificial Intelligence, Data, Search, and Answer Engine.
+overview: 'Tako publishes 2 APIs on the [APIs.io](https://apis.io/) network, including agent API, and 1 more. Tagged areas include Company, Artificial Intelligence, Data, Search, and Answer Engine.
 
 
   Tako''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Tako Rate Limits
@@ -267,7 +267,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

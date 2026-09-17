@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -111,6 +111,10 @@ collections:
   name: AWS Control Tower API
   slug: open-amazon-control-tower
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/agentic-access/amazon-control-tower-agentic-access.yml
   title: ''
@@ -659,7 +663,7 @@ jsonld:
   property_count: 36
   slug: amazon-control-tower-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Control Tower
 nav: Providers
 network: true
@@ -669,12 +673,12 @@ overview: 'Amazon Control Tower publishes 4 APIs on the [APIs.io](https://apis.i
   The Amazon Control Tower catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Control Tower''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
+  Amazon Control Tower''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
 plans:
 - name: Amazon Control Tower Plans Pricing
   plan_count: 3
   slug: amazon-control-tower-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Control Tower Rate Limits
@@ -728,7 +732,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -758,7 +762,7 @@ tags:
 - Landing Zone
 - Multi-Account
 - Security
-- Controls
+- Control
 use_cases:
 - description: Quickly set up a secure, well-architected multi-account AWS environment with landing zone configuration completed in under 30 minutes.
   name: Multi-Account Environment Setup
@@ -770,5 +774,5 @@ use_cases:
   name: OU Governance
 - description: Continuously monitor compliance posture across all accounts and receive alerts when controls are violated or drift is detected.
   name: Risk and Posture Management
-website: https://aws.amazon.com/controltower/
+website: https://amazon.com
 ---

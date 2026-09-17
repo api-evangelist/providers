@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -98,6 +98,10 @@ collections:
   name: Amazon Application Discovery Service Agents Tags API
   slug: open-amazon-application-discovery-service-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/mcp/amazon-application-discovery-service-mcp.yml
   title: ''
@@ -776,7 +780,7 @@ jsonld:
   property_count: 113
   slug: amazon-application-discovery-service-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon Application Discovery Service
 nav: Providers
 network: true
@@ -786,8 +790,8 @@ overview: 'Amazon Application Discovery Service publishes 6 APIs on the [APIs.io
   The Amazon Application Discovery Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Application Discovery Service''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 15
+  Amazon Application Discovery Service''s developer surface includes authentication and 10 more developer resources.'
+random_paper: 16
 rules:
 - effective_rule_count: 5
   extends: []
@@ -839,7 +843,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -871,4 +875,5 @@ use_cases:
 - Import existing server inventory from CMDBs or spreadsheets without installing agents
 - Track migration readiness across thousands of servers in a single dashboard
 - Identify unknown servers and shadow IT in large enterprise environments
+website: https://amazon.com
 ---

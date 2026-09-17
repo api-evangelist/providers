@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://status.order.co/api/v2
@@ -57,11 +57,6 @@ apis:
   description: Self-describing route, type and taxonomy introspection.
   name: Order.co Discovery API
   slug: orderco-discovery-api
-- baseURL: https://status.order.co/api/v2
-  baseurl_source: declared
-  description: Question-and-answer entries used across the site.
-  name: Order.co FA Qs API
-  slug: orderco-faqs-api
 - baseURL: https://status.order.co/api/v2
   baseurl_source: declared
   description: Open and historical incidents with their dated updates.
@@ -107,6 +102,11 @@ apis:
   description: Published Order.co vendor/supplier case studies.
   name: Order.co Vendor Stories API
   slug: orderco-vendor-stories-api
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Question-and-answer entries used across the site.
+  name: Order.co FA Qs API
+  slug: orderco-faqs-api
 artifact_total: 42
 collections:
 - collection_type: open
@@ -310,7 +310,7 @@ overview: 'Order.co publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Order.co''s developer surface includes authentication, code examples, engineering blog, and 21 more developer resources.'
-random_paper: 15
+random_paper: 2
 score:
   band: thin
   composite: 31.3
@@ -352,7 +352,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

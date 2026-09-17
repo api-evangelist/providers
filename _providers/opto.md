@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,11 +77,11 @@ modified: '2026-07-20'
 name: Opto
 nav: Providers
 network: true
-overview: 'Opto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Markets, Wealth Management, Investments, and Fintech.
+overview: 'Opto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Markets, Wealth Management, Investment, and Fintech.
 
 
   Opto''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 9
+random_paper: 10
 score:
   band: emerging
   composite: 14.0
@@ -102,7 +102,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -119,7 +119,7 @@ tags:
 - Company
 - Private Markets
 - Wealth Management
-- Investments
+- Investment
 - Fintech
 - Alternative Investments
 - Private Equity

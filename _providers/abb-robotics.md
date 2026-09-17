@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Robot Web Services is the canonical REST/HTTP(S) API exposed by ABB OmniCore (RobotWare 7) and IRC5 controllers. It provides programmatic access to RAPID program data and execution, IO signals, motion
@@ -247,7 +247,7 @@ overview: 'ABB Robotics publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ABB Robotics'' developer surface includes developer portal, documentation, engineering blog, support, YouTube channel, and 35 more developer resources.'
-random_paper: 10
+random_paper: 19
 score:
   band: emerging
   composite: 20.2
@@ -274,7 +274,7 @@ score:
     - europe
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -305,6 +305,6 @@ tags:
 - Discrete Automation
 - Robot Web Services
 - REST
-- WebSockets
+- WebSocket
 website: https://global.abb/group/en/
 ---

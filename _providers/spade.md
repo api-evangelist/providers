@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -311,7 +311,7 @@ plans:
 - name: Spade Plans Pricing
   plan_count: 3
   slug: spade-plans-pricing
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Spade Rate Limits
@@ -356,7 +356,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

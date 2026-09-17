@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
   description: The Casts API from Airstack — 4 operation(s) for casts.
   name: Airstack Casts API
   slug: airstack-casts-api
-- baseURL: https://api.airstack.xyz/graphql
-  baseurl_source: declared
-  description: The FIDs API from Airstack — 1 operation(s) for fids.
-  name: Airstack FIDs API
-  slug: airstack-fids-api
 - baseURL: https://api.airstack.xyz/graphql
   baseurl_source: declared
   description: The HubEvents API from Airstack — 2 operation(s) for hubevents.
@@ -89,11 +84,6 @@ apis:
   slug: airstack-submitmessage-api
 - baseURL: https://api.airstack.xyz/graphql
   baseurl_source: declared
-  description: The UserData API from Airstack — 1 operation(s) for userdata.
-  name: Airstack UserData API
-  slug: airstack-userdata-api
-- baseURL: https://api.airstack.xyz/graphql
-  baseurl_source: declared
   description: The Usernames API from Airstack — 2 operation(s) for usernames.
   name: Airstack Usernames API
   slug: airstack-usernames-api
@@ -112,6 +102,16 @@ apis:
   description: The Webhooks API from Airstack — 3 operation(s) for webhooks.
   name: Airstack Webhooks API
   slug: airstack-webhooks-api
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The FIDs API from Airstack — 1 operation(s) for fids.
+  name: Airstack FI Ds API
+  slug: airstack-fids-api
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The User Data API from Airstack — 1 operation(s) for user data.
+  name: Airstack User Data API
+  slug: airstack-user-data-api
 artifact_total: 34
 collections:
 - collection_type: open
@@ -157,6 +157,10 @@ collections:
   name: Farcaster Hub REST Casts Webhooks API
   slug: open-airstack-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://airstack.xyz
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/agentic-access/airstack-agentic-access.yml
   title: ''
@@ -236,18 +240,18 @@ json_schemas:
   property_count: 0
   slug: farcaster-hub-api-schemas
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Airstack
 nav: Providers
 network: true
-overview: 'Airstack publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Casts API, FIDs API, HubEvents API, and 10 more. Tagged areas include Web3, Blockchain, GraphQL, NFT, and Tokens.
+overview: 'Airstack publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Casts API, HubEvents API, Links API, and 10 more. Tagged areas include Web3, Blockchain, GraphQL, NFT, and Tokens.
 
 
   The Airstack catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Airstack''s developer surface includes authentication, GitHub presence, engineering blog, and 13 more developer resources.'
-random_paper: 10
+  Airstack''s developer surface includes authentication, GitHub presence, engineering blog, and 14 more developer resources.'
+random_paper: 14
 rules:
 - effective_rule_count: 6
   extends: []
@@ -292,7 +296,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -323,4 +327,5 @@ tags:
 - Social Graph
 - Wallets
 - Identity
+website: https://airstack.xyz
 ---

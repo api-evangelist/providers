@@ -31,7 +31,7 @@ overview: 'Guidelines.md is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Guidelines.md''s developer surface includes documentation and 1 more developer resources.'
-random_paper: 17
+random_paper: 21
 screenshot: https://raw.githubusercontent.com/api-evangelist/guidelines-md/refs/heads/main/screenshots/guidelines-md-2026-06-20T182432.png
 slug: guidelines-md
 tags:

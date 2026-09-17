@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: Enables integration of the Google Pay payment method into web applications, allowing merchants to accept payments from cards saved to Google Accounts. The API provides JavaScript client methods for im
@@ -280,7 +280,7 @@ plans:
 - name: Google Pay Plans Pricing
   plan_count: 1
   slug: google-pay-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Google Pay Rate Limits
@@ -320,7 +320,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

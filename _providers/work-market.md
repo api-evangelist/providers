@@ -35,14 +35,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://www.workmarket.com/api/v1
-  baseurl_source: declared
-  description: The Addressbook API from Work Market — 5 operation(s) for addressbook.
-  name: Work Market Addressbook API
-  slug: work-market-addressbook-api
 - baseURL: https://www.workmarket.com/api/v1
   baseurl_source: declared
   description: The Assignments API from Work Market — 39 operation(s) for assignments.
@@ -88,6 +83,11 @@ apis:
   description: The UpdateCheckIn API from Work Market — 2 operation(s) for updatecheckin.
   name: Work Market UpdateCheckIn API
   slug: work-market-updatecheckin-api
+- baseURL: https://www.workmarket.com/api/v1
+  baseurl_source: declared
+  description: The Address Book API from Work Market — 5 operation(s) for address book.
+  name: Work Market Address Book API
+  slug: work-market-address-book-api
 artifact_total: 34
 asyncapis:
 - description: ''
@@ -302,14 +302,14 @@ modified: '2026-07-21'
 name: Work Market
 nav: Providers
 network: true
-overview: 'Work Market publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Addressbook API, Assignments API, Authorization API, and 7 more. Tagged areas include Workforce Management, Contractors, Freelance, Gig Economy, and Human Resources.
+overview: 'Work Market publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Authorization API, Constants API, and 7 more. Tagged areas include Workforce Management, Contractors, Freelance, Gig Economy, and Human Resources.
 
 
   The Work Market catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Work Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 23 more developer resources.'
-random_paper: 6
+random_paper: 18
 score:
   band: developing
   composite: 41.2
@@ -345,7 +345,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -368,7 +368,7 @@ tags:
 - Gig Economy
 - Human Resources
 - Payments
-- Field Services
+- Field Service
 - Staffing
 website: https://workmarket.com
 ---

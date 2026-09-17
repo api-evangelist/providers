@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
 - baseURL: https://{accountName}.blob.core.windows.net
   baseurl_source: declared
   description: The Azure Blob Storage REST API API from Azure Blob Storage — 1 operation(s) for azure blob storage rest api.
-  name: Azure Blob Storage Azure Blob Storage REST API API
+  name: Azure Blob Storage Azure Blob Storage REST API
   slug: microsoft-azure-blob-storage-azure-blob-storage-rest-api-api
 - baseURL: https://{accountName}.blob.core.windows.net
   baseurl_source: declared
@@ -338,11 +338,11 @@ json_structures:
   property_count: 0
   slug: azure-blob-storage-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Azure Blob Storage
 nav: Providers
 network: true
-overview: 'Azure Blob Storage publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Append Blobs API, Azure Blob Storage REST API API, Blobs API, and 8 more. Tagged areas include Azure, Blobs, Cloud Storage, Microsoft, and Object Storage.
+overview: 'Azure Blob Storage publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Append Blobs API, Azure Blob Storage REST API, Blobs API, and 8 more. Tagged areas include Azure, Blobs, Cloud Storage, Microsoft, and Object Storage.
 
 
   The Azure Blob Storage catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -353,7 +353,7 @@ plans:
 - name: Microsoft Azure Blob Storage Plans Pricing
   plan_count: 6
   slug: microsoft-azure-blob-storage-plans-pricing
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Microsoft Azure Blob Storage Rate Limits
@@ -399,7 +399,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

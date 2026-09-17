@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ plans:
 - name: Nimble Plans Pricing
   plan_count: 1
   slug: nimble-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Nimble Rate Limits
@@ -309,7 +309,7 @@ score:
   facets:
     access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 57.7
+    contract_quality: 57.5
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 15.8
@@ -330,7 +330,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

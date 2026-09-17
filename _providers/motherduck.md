@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Clients connect to MotherDuck through DuckDB's native protocol using a connection string of the form `md:` plus an access token. Officially supported clients include DuckDB CLI, Python, Node.js, JDBC,
@@ -113,7 +113,7 @@ plans:
 - name: Motherduck Plans Pricing
   plan_count: 3
   slug: motherduck-plans-pricing
-random_paper: 7
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Motherduck Rate Limits
@@ -140,7 +140,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

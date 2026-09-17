@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://api.v7.unrealspeech.com
   baseurl_source: declared
   description: Synchronous text-to-speech returning an MP3 and timestamp URLs.
-  name: Unreal Speech Speech API
+  name: Unreal Speech API
   slug: unrealspeech-speech-api
 - baseURL: https://api.v7.unrealspeech.com
   baseurl_source: declared
@@ -131,11 +131,11 @@ finops:
   slug: unrealspeech-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unrealspeech.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-09-16'
 name: Unreal Speech
 nav: Providers
 network: true
-overview: 'Unreal Speech publishes 3 APIs on the [APIs.io](https://apis.io/) network: Speech API, Stream API, and Synthesis Tasks API. Tagged areas include Text-to-Speech, TTS, Speech Synthesis, Audio, and Voice.
+overview: 'Unreal Speech publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Stream API, Synthesis Tasks API, and 1 more. Tagged areas include Text-to-Speech, TTS, Speech Synthesis, Audio, and Voice.
 
 
   Unreal Speech''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -143,7 +143,7 @@ plans:
 - name: Unrealspeech Plans Pricing
   plan_count: 6
   slug: unrealspeech-plans-pricing
-random_paper: 19
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Unrealspeech Rate Limits
@@ -175,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -78,7 +78,7 @@ plans:
 - name: Synapsefi Plans Pricing
   plan_count: 0
   slug: synapsefi-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Synapsefi Rate Limits

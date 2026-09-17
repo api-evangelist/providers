@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -975,6 +975,10 @@ collections:
   name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API'
   slug: open-amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/capabilities/amazon-proton-capability-edges.yml
   title: ''
@@ -5361,7 +5365,7 @@ jsonld:
   property_count: 135
   slug: amazon-proton-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Proton
 nav: Providers
 network: true
@@ -5371,12 +5375,12 @@ overview: 'Amazon Proton publishes 84 APIs on the [APIs.io](https://apis.io/) ne
   The Amazon Proton catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Proton''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 546 more developer resources.'
+  Amazon Proton''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 547 more developer resources.'
 plans:
 - name: Amazon Proton Plans Pricing
   plan_count: 3
   slug: amazon-proton-plans-pricing
-random_paper: 0
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Proton Rate Limits
@@ -5405,7 +5409,7 @@ rules:
   slug: amazon-proton-spectral-rules
 score:
   band: developing
-  composite: 53.1
+  composite: 52.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 53.5
@@ -5413,11 +5417,11 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 68.7
+    contract_quality: 66.0
     developer_ergonomics: 58.3
     discoverability: 44.4
     operational_transparency: 26.3
@@ -5430,7 +5434,7 @@ score:
       marker_coverage: 0.0
       total: 84
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -5474,5 +5478,5 @@ use_cases:
   name: Microservices Orchestration
 - description: Deploy Lambda-based serverless applications with standardized infrastructure patterns.
   name: Serverless Workflows
-website: https://aws.amazon.com/proton/
+website: https://amazon.com
 ---

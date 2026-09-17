@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: On-appliance REST API exposed by every SC//HyperCore (HC3) clustered node for automating virtual machines, virtual disks, networks, snapshots, snapshot schedules, replication, node and cluster operati
@@ -88,11 +88,6 @@ apis:
   slug: scale-computing-organization-salesforce-account-api
 - baseURL: https://api.scalecomputing.com
   baseurl_source: declared
-  description: The OrganizationRoles API from Scale Computing — 2 operation(s) for organizationroles.
-  name: Scale Computing Organization Roles API
-  slug: scale-computing-organizationroles-api
-- baseURL: https://api.scalecomputing.com
-  baseurl_source: declared
   description: The Organizations API from Scale Computing — 4 operation(s) for organizations.
   name: Scale Computing Organizations API
   slug: scale-computing-organizations-api
@@ -101,11 +96,6 @@ apis:
   description: The OrganizationUser API from Scale Computing — 1 operation(s) for organizationuser.
   name: Scale Computing Organization User API
   slug: scale-computing-organizationuser-api
-- baseURL: https://api.scalecomputing.com
-  baseurl_source: declared
-  description: The OrganizationUsers API from Scale Computing — 1 operation(s) for organizationusers.
-  name: Scale Computing Organization Users API
-  slug: scale-computing-organizationusers-api
 - baseURL: https://api.scalecomputing.com
   baseurl_source: declared
   description: The Salesforce API from Scale Computing — 1 operation(s) for salesforce.
@@ -121,11 +111,21 @@ apis:
   description: The Users API from Scale Computing — 13 operation(s) for users.
   name: Scale Computing Users API
   slug: scale-computing-users-api
-- baseURL: https://api.scalecomputing.com
+- baseURL: https://{clustered_node_ip}/rest/v1
   baseurl_source: declared
   description: Virtual Machines on SC//HyperCore clusters
   name: Scale Computing Vms API
   slug: scale-computing-vms-api
+- baseURL: https://{clustered_node_ip}/rest/v1
+  baseurl_source: declared
+  description: The Organization Roles API from Scale Computing — 2 operation(s) for organization roles.
+  name: Scale Computing Organization Roles API
+  slug: scale-computing-organization-roles-api
+- baseURL: https://{clustered_node_ip}/rest/v1
+  baseurl_source: declared
+  description: The Organization Users API from Scale Computing — 1 operation(s) for organization users.
+  name: Scale Computing Organization Users API
+  slug: scale-computing-organization-users-api
 artifact_total: 25
 common:
 - group: other
@@ -292,14 +292,14 @@ plans:
 - name: Scale Computing Plans Pricing
   plan_count: 0
   slug: scale-computing-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Scale Computing Rate Limits
   slug: scale-computing-rate-limits
 score:
   band: thin
-  composite: 36.4
+  composite: 37.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -307,11 +307,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 40.1
+    contract_quality: 43.0
     developer_ergonomics: 54.2
     discoverability: 74.1
     operational_transparency: 5.3
@@ -326,7 +326,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

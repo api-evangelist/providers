@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: Create, retrieve, update, and delete individual consumer customer resources for a brand and run Know-Your-Customer (KYC) identity verification against them. Endpoints start and retrieve KYC status, re
@@ -215,7 +215,7 @@ overview: 'Bond publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bond''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 22 more developer resources.'
-random_paper: 20
+random_paper: 1
 score:
   band: developing
   composite: 51.0
@@ -251,7 +251,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

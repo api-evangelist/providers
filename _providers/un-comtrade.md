@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -96,6 +96,10 @@ collections:
   name: UN Comtrade Data Bulk Download Tariffline Data API
   slug: open-un-comtrade-tariffline-data-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://un.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/agentic-access/un-comtrade-agentic-access.yml
   title: ''
@@ -126,7 +130,7 @@ json_schemas:
   property_count: 47
   slug: trade-record
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: UN Comtrade
 nav: Providers
 network: true
@@ -138,7 +142,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -181,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -210,4 +214,5 @@ tags:
 - Bilateral Trade
 - HS Codes
 - SITC
+website: https://un.org
 ---

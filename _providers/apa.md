@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,11 +70,6 @@ apis:
   slug: apa-pages-api
 - baseURL: https://apacorp.com/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated read access to the APA Corporation Media Hub — the presto-videos custom post type carrying APA corporate video content — and to the WordPress media library backing apacorp.com,
-  name: APA Corporation Media Hub API
-  slug: apa-media-hub-api
-- baseURL: https://apacorp.com/wp-json
-  baseurl_source: declared
   description: Public, unauthenticated read access to the syndicated feed items APA Corporation aggregates onto apacorp.com — the wprss_feed_item custom post type produced by the site's RSS aggregator. Verified live
   name: APA Corporation Feed Items API
   slug: apa-feed-items-api
@@ -95,11 +90,26 @@ apis:
   slug: apa-search-api
 - baseURL: https://apacorp.com/wp-json
   baseurl_source: declared
-  description: 'Public, unauthenticated oEmbed 1.0 provider for apacorp.com URLs. Given any apacorp.com page or post URL it returns the standard oEmbed rich/link payload — provider name, author, title, thumbnail and '
-  name: APA Corporation oEmbed API
-  slug: apa-oembed-api
+  description: APA Corporation video content and media library assets.
+  name: APA Corporation Media API
+  slug: apa-media-api
+- baseURL: https://apacorp.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 discovery and embed payloads for apacorp.com URLs.
+  name: APA Corporation o Embed API
+  slug: apa-o-embed-api
 artifact_total: 28
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/overlays/apa-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apa-oembed-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/overlays/apa-media-hub-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apa-media-hub-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/apa/refs/heads/main/security/apa-domain-security.yml
   title: ''
@@ -251,12 +261,12 @@ network: true
 overview: 'APA Corporation publishes 11 APIs on the [APIs.io](https://apis.io/) network, including APA Corporation, Ticker API, Newsroom API, and 8 more. Tagged areas include Oil and Gas, Energy, Exploration, Production, and WordPress.
 
 
-  APA Corporation''s developer surface includes support, engineering blog, authentication, code examples, and 20 more developer resources.'
+  APA Corporation''s developer surface includes support, engineering blog, authentication, code examples, and 22 more developer resources.'
 plans:
 - name: Apa Plans Pricing
   plan_count: 0
   slug: apa-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Apa Rate Limits
@@ -302,7 +312,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

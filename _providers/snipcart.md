@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 30 operations · 12 acting
 api_count: 1
 apis:
-- baseURL: https://app.snipcart.com/api
-  baseurl_source: declared
-  description: View and track abandoned shopping carts
-  name: Snipcart AbandonedCarts API
-  slug: snipcart-abandonedcarts-api
 - baseURL: https://app.snipcart.com/api
   baseurl_source: declared
   description: View and manage customer data
@@ -87,9 +82,14 @@ apis:
   slug: snipcart-refunds-api
 - baseURL: https://app.snipcart.com/api
   baseurl_source: declared
+  description: View and track abandoned shopping carts
+  name: Snipcart Abandoned Carts API
+  slug: snipcart-abandoned-carts-api
+- baseURL: https://app.snipcart.com/api
+  baseurl_source: declared
   description: Retrieve user session information
-  name: Snipcart UserSessions API
-  slug: snipcart-usersessions-api
+  name: Snipcart User Sessions API
+  slug: snipcart-user-sessions-api
 artifact_total: 26
 collections:
 - collection_type: open
@@ -219,7 +219,7 @@ modified: '2026-06-12'
 name: Snipcart
 nav: Providers
 network: true
-overview: 'Snipcart publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AbandonedCarts API, Customers API, Discounts API, and 6 more. Tagged areas include E-Commerce, Shopping Cart, Order, Product, and Payments.
+overview: 'Snipcart publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Discounts API, Domains API, and 6 more. Tagged areas include E-Commerce, Shopping Cart, Order, Product, and Payments.
 
 
   The Snipcart catalog on APIs.io includes 1 JSON-LD context.
@@ -230,7 +230,7 @@ plans:
 - name: Snipcart Plans Pricing
   plan_count: 3
   slug: snipcart-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Snipcart Rate Limits
@@ -268,7 +268,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

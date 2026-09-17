@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Redox's modern FHIR API for exchanging clinical and administrative healthcare data across the Redox network using HL7 FHIR resources and notifications, authenticated with OAuth2.
@@ -378,7 +378,7 @@ plans:
 - name: Redox Plans Pricing
   plan_count: 0
   slug: redox-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Redox Rate Limits
@@ -430,7 +430,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

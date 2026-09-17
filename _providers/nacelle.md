@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://storefront.api.nacelle.com/graphql/v1/spaces
@@ -141,7 +141,7 @@ plans:
 - name: Nacelle Plans Pricing
   plan_count: 1
   slug: nacelle-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Nacelle Rate Limits
@@ -166,7 +166,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 32.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

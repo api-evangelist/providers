@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,6 +84,10 @@ collections:
   name: Yearn Finance yDaemon REST Chains Vaults API
   slug: open-yearn-vaults-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://yearn.fi
 - group: operate
   title: ''
   type: IssueTracker
@@ -122,7 +126,7 @@ jsonld:
   property_count: 11
   slug: context
 layout: provider
-modified: 2026-06-13
+modified: '2026-09-16'
 name: Yearn Finance
 nav: Providers
 network: true
@@ -134,7 +138,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 18
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -180,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

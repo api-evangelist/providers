@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -109,9 +109,6 @@ apis:
   description: Product component version discovery.
   name: D2L Brightspace Versions API
   slug: brightspace-versions-api
-- description: The core Learning Platform API provides access to organizational units, user accounts, enrollments, roles, permissions, and configuration variables. Manage courses, departments, semesters, and the ful
-  name: Brightspace Learning Platform (LP) API
-  slug: brightspace-lp-api
 - description: The Learning Environment API provides access to course content, dropbox folders, grade objects, grade values, quizzes, surveys, discussions, forums, checklists, rubrics, release conditions, and intell
   name: Brightspace Learning Environment (LE) API
   slug: brightspace-le-api
@@ -126,7 +123,7 @@ apis:
 - description: The IPSIS API provides a standardized interface for Student Information System (SIS) integration with Brightspace, enabling automated provisioning and management of courses, sections, users, enrollmen
   name: Brightspace IPSIS (SIS Integration) API
   slug: brightspace-ipsis-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -250,7 +247,7 @@ modified: '2026-07-03'
 name: D2L Brightspace
 nav: Providers
 network: true
-overview: 'D2L Brightspace publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendar API, Content API, and 12 more. Tagged areas include LMS, Learning Management System, EdTech, Education, and Valence.
+overview: 'D2L Brightspace publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendar API, Content API, and 11 more. Tagged areas include LMS, Learning Management System, EdTech, Education, and Valence.
 
 
   D2L Brightspace''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -258,7 +255,7 @@ plans:
 - name: Brightspace Plans Pricing
   plan_count: 3
   slug: brightspace-plans-pricing
-random_paper: 9
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Brightspace Rate Limits
@@ -301,7 +298,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

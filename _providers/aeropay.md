@@ -23,21 +23,51 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://api.aeropay.com/v2
-  baseurl_source: declared
-  description: The Aeropay v2 REST API for pay-by-bank money movement. Issue merchant- or userForMerchant-scoped bearer tokens, create and confirm users, obtain Aerosync bank-linking credentials and attach the resul
-  name: Aeropay v2 API
-  slug: aeropay-v2-api
 - description: 'Outbound HTTPS webhook deliveries covering nine topics across the ACH, RfP and RTP rails — transaction_completed, transaction_voided, transaction_refunded, transaction_declined, transaction_resolved, '
   name: Aeropay Webhooks
   slug: aeropay-webhooks
 - description: A remote Model Context Protocol server hosted by Aeropay at https://dev.aero.inc/mcp, documented for Cursor, Windsurf and Claude Desktop. Anonymous tools/list returns four spec-driven tools — list-end
   name: Aeropay API MCP Server
   slug: aeropay-mcp
-artifact_total: 11
+- baseURL: https://api.aeropay.com/v2
+  baseurl_source: declared
+  description: The Authentication API from Aeropay — 1 operation(s) for authentication.
+  name: Aeropay Authentication API
+  slug: aeropay-authentication-api
+- baseURL: https://api.aeropay.com/v2
+  baseurl_source: declared
+  description: The Bank Connection API from Aeropay — 4 operation(s) for bank connection.
+  name: Aeropay Bank Connection API
+  slug: aeropay-bank-connection-api
+- baseURL: https://api.aeropay.com/v2
+  baseurl_source: declared
+  description: The Create & Manage Transactions API from Aeropay — 12 operation(s) for create & manage transactions.
+  name: Aeropay Create & Manage Transactions API
+  slug: aeropay-create-manage-transactions-api
+- baseURL: https://api.aeropay.com/v2
+  baseurl_source: declared
+  description: The Merchant Management API from Aeropay — 2 operation(s) for merchant management.
+  name: Aeropay Merchant Management API
+  slug: aeropay-merchant-management-api
+- baseURL: https://api.aeropay.com/v2
+  baseurl_source: declared
+  description: The Reports API from Aeropay — 3 operation(s) for reports.
+  name: Aeropay Reports API
+  slug: aeropay-reports-api
+- baseURL: https://api.aeropay.com/v2
+  baseurl_source: declared
+  description: The User Management API from Aeropay — 2 operation(s) for user management.
+  name: Aeropay User Management API
+  slug: aeropay-user-management-api
+- baseURL: https://api.aeropay.com/v2
+  baseurl_source: declared
+  description: The Webhooks API from Aeropay — 2 operation(s) for webhooks.
+  name: Aeropay Webhooks API
+  slug: aeropay-webhooks-api
+artifact_total: 17
 asyncapis:
 - description: Aeropay delivers transaction and user lifecycle events to a merchant-registered callback URL over HTTPS POST. A subscription is created with POST /v2/webhook by naming a topic and a url; the same call
   name: Aeropay Webhooks
@@ -255,7 +285,7 @@ modified: '2026-09-10'
 name: Aeropay
 nav: Providers
 network: true
-overview: 'Aeropay publishes 1 API on the [APIs.io](https://apis.io/) network: v2 API. Tagged areas include Payments, Pay by Bank, ACH, Open Banking, and Fintech.
+overview: 'Aeropay publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Bank Connection API, Create & Manage Transactions API, and 4 more. Tagged areas include Payments, Pay by Bank, ACH, Open Banking, and Fintech.
 
 
   The Aeropay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -266,14 +296,14 @@ plans:
 - name: Aeropay Plans Pricing
   plan_count: 0
   slug: aeropay-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Aeropay Rate Limits
   slug: aeropay-rate-limits
 score:
   band: developing
-  composite: 49.9
+  composite: 50.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -281,11 +311,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 58.4
+    contract_quality: 59.3
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 18.4
@@ -301,7 +331,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     mcp: first-party
     skills: derived
   regulatory:
@@ -311,7 +341,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

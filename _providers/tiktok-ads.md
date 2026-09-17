@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 2
@@ -53,11 +53,6 @@ apis:
   description: The Ad API from TikTok Marketing API — 8 operation(s) for ad.
   name: TikTok Marketing API Ad API
   slug: tiktok-ads-ad-api
-- baseURL: https://business-api.tiktok.com/open_api
-  baseurl_source: declared
-  description: The Adgroup API from TikTok Marketing API — 4 operation(s) for adgroup.
-  name: TikTok Marketing API Adgroup API
-  slug: tiktok-ads-adgroup-api
 - baseURL: https://business-api.tiktok.com/open_api
   baseurl_source: declared
   description: The Ads Management API from TikTok Marketing API — 1 operation(s) for ads management.
@@ -133,6 +128,11 @@ apis:
   description: The Video API from TikTok Marketing API — 1 operation(s) for video.
   name: TikTok Marketing API Video API
   slug: tiktok-ads-video-api
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Ad Group API from TikTok Marketing API — 4 operation(s) for ad group.
+  name: TikTok Marketing API Ad Group API
+  slug: tiktok-ads-ad-group-api
 artifact_total: 29
 asyncapis:
 - description: ''
@@ -153,10 +153,10 @@ common:
   type: CapabilityMap
   url: capabilities/tiktok-ads-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-marketing-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/_original/tiktok-ads-marketing-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/tiktok-ads-marketing-api-openapi.yml
+  url: openapi/_original/tiktok-ads-marketing-api-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/overlays/tiktok-ads-marketing-api-overlay.yaml
   title: ''
@@ -364,11 +364,11 @@ mcp_servers:
 - description: ''
   name: TikTok for Business MCP Server
   slug: tiktok-for-business-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: TikTok Marketing API
 nav: Providers
 network: true
-overview: 'TikTok Marketing API publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Ad API, Adgroup API, and 15 more. Tagged areas include Advertising, Marketing, Social-Media, Ad Campaigns, and Performance Marketing.
+overview: 'TikTok Marketing API publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Ad API, Ads Management API, and 15 more. Tagged areas include Advertising, Marketing, Social-Media, Ad Campaigns, and Performance Marketing.
 
 
   The TikTok Marketing API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -379,7 +379,7 @@ plans:
 - name: Tiktok Ads Plans Pricing
   plan_count: 0
   slug: tiktok-ads-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Tiktok Ads Rate Limits
@@ -390,8 +390,8 @@ scopes:
   slug: tiktok-ads-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 54.0
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -399,11 +399,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 58.9
+    contract_quality: 56.6
     developer_ergonomics: 78.0
     discoverability: 75.9
     operational_transparency: 60.5
@@ -419,7 +419,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

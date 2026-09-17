@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Wikimapia REST API provides access to crowdsourced geographic data including places, categories, streets, and languages. Supports place search by bounding box, coordinates, or full-text query; pla
@@ -102,7 +102,7 @@ plans:
 - name: Wikimapia Plans Pricing
   plan_count: 2
   slug: wikimapia-plans-pricing
-random_paper: 11
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Wikimapia Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 16.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

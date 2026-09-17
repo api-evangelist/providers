@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Hostfully Property Management Platform REST API v3.x covering properties (single and multi-unit), leads (inquiries, booking requests, bookings, group bookings, holds, cancellations, rebooking), orders
@@ -182,11 +182,11 @@ modified: '2026-05-25'
 name: Hostfully
 nav: Providers
 network: true
-overview: 'Hostfully publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Short-Term Rental, Vacation Rental, Property Management, PMS, and Hospitality.
+overview: 'Hostfully publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Short-Term Rental, Vacation Rentals, Property Management, PMS, and Hospitality.
 
 
   Hostfully''s developer surface includes documentation, pricing, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
-random_paper: 15
+random_paper: 12
 score:
   band: emerging
   composite: 19.4
@@ -212,7 +212,7 @@ score:
     - north-america
   previous_composite: 19.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -227,7 +227,7 @@ security:
 slug: hostfully
 tags:
 - Short-Term Rental
-- Vacation Rental
+- Vacation Rentals
 - Property Management
 - PMS
 - Hospitality

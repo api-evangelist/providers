@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: WestJet's IATA New Distribution Capability (NDC) direct-connect interface for travel sellers, offered in NDC schema versions 17.2 and 21.3/24.1 and delivered on Accelya's FLX/Farelogix platform. Publi
@@ -189,14 +189,14 @@ modified: '2026-07-28'
 name: WestJet
 nav: Providers
 network: true
-overview: 'WestJet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airline, and Distribution.
+overview: 'WestJet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airlines, and Distribution.
 
 
   The WestJet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   WestJet''s developer surface includes getting-started guide, changelog, engineering blog, developer portal, documentation, signup flow, support, and 25 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: thin
   composite: 37.9
@@ -226,7 +226,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -243,7 +243,7 @@ tags:
 - Travel
 - Canada
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - NDC
 - Booking

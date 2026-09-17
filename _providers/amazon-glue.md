@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 202
   human_in_the_loop: 9
@@ -2276,6 +2276,10 @@ collections:
   name: AWS Glue
   slug: open-amazon-glue
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/capabilities/amazon-glue-capability-edges.yml
   title: ''
@@ -6675,7 +6679,7 @@ jsonld:
   property_count: 330
   slug: amazon-glue-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Glue
 nav: Providers
 network: true
@@ -6685,12 +6689,12 @@ overview: 'Amazon Glue publishes 202 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Glue catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Glue''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Glue''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Glue Plans Pricing
   plan_count: 3
   slug: amazon-glue-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Glue Rate Limits
@@ -6744,7 +6748,7 @@ score:
       marker_coverage: 0.0
       total: 202
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -6786,5 +6790,5 @@ use_cases:
   name: Real-Time Streaming ETL
 - description: Prepare and transform training datasets for machine learning using Glue Studio.
   name: Machine Learning Data Prep
-website: https://aws.amazon.com/glue/
+website: https://amazon.com
 ---

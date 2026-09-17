@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -77,7 +77,7 @@ apis:
 - baseURL: https://console.neon.tech/api/v2
   baseurl_source: declared
   description: Manage Data API configuration for branches, including enabling and disabling the PostgREST-compatible HTTP interface.
-  name: Neon Data API API
+  name: Neon Data API
   slug: neon-data-api-api
 - baseURL: https://console.neon.tech/api/v2
   baseurl_source: declared
@@ -387,11 +387,11 @@ jsonld:
   property_count: 7
   slug: neon-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Neon
 nav: Providers
 network: true
-overview: 'Neon publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth, API Keys API, Auth API, and 8 more. Tagged areas include Databases, Serverless, Postgres, Infrastructure, and Authentication.
+overview: 'Neon publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth, API Keys API, Auth API, and 8 more. Tagged areas include Database, Serverless, Postgres, Infrastructure, and Authentication.
 
 
   The Neon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -402,7 +402,7 @@ plans:
 - name: Neon Plans Pricing
   plan_count: 3
   slug: neon-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Neon Rate Limits
@@ -456,7 +456,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -501,7 +501,7 @@ skills:
   slug: score-eval
 slug: neon
 tags:
-- Databases
+- Database
 - Serverless
 - Postgres
 - Infrastructure

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,6 +164,10 @@ collections:
   name: Macrostrat API
   slug: open-macrostrat
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://macrostrat.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/agentic-access/macrostrat-agentic-access.yml
   title: ''
@@ -186,7 +190,7 @@ finops:
   slug: macrostrat-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/macrostrat.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Macrostrat
 nav: Providers
 network: true
@@ -195,7 +199,7 @@ plans:
 - name: Macrostrat Plans Pricing
   plan_count: 3
   slug: macrostrat-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Macrostrat Rate Limits
@@ -227,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -246,4 +250,5 @@ tags:
 - Rocks
 - Paleontology
 - Earth Science
+website: https://macrostrat.org
 ---

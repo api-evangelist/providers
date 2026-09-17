@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 346
   human_in_the_loop: 8
@@ -150,11 +150,6 @@ apis:
   slug: letta-jobs-api
 - baseURL: https://api.letta.com
   baseurl_source: declared
-  description: List available LLM models and configurations.
-  name: Letta LLMs API
-  slug: letta-llms-api
-- baseURL: https://api.letta.com
-  baseurl_source: declared
   description: Register external Model Context Protocol servers and expose their tools to agents.
   name: Letta MCP Servers API
   slug: letta-mcp-servers-api
@@ -250,45 +245,10 @@ apis:
   slug: letta-voice-api
 - baseURL: https://chat.letta.com
   baseurl_source: declared
-  description: Cloud-only versioned agent configuration templates.
-  name: Letta Agent Templates API
-  slug: letta-agent-templates-api
-- baseURL: https://chat.letta.com
-  baseurl_source: declared
-  description: Out-of-context long-term memory archives and passages.
-  name: Letta Archival Memory API
-  slug: letta-archival-memory-api
-- baseURL: https://chat.letta.com
-  baseurl_source: declared
-  description: OpenAI-compatible chat completions backed by a Letta agent.
-  name: Letta Chat Completions API
-  slug: letta-chat-completions-api
-- baseURL: https://chat.letta.com
-  baseurl_source: declared
-  description: Core-memory blocks shared across agents, groups, and identities.
-  name: Letta Memory Blocks API
-  slug: letta-memory-blocks-api
-- baseURL: https://chat.letta.com
-  baseurl_source: declared
-  description: Available models and configured BYOK model providers.
-  name: Letta Models and Providers API
-  slug: letta-models-and-providers-api
-- baseURL: https://chat.letta.com
-  baseurl_source: declared
-  description: Groups of agents coordinating around shared memory.
-  name: Letta Multi-Agent Groups API
-  slug: letta-multi-agent-groups-api
-- baseURL: https://chat.letta.com
-  baseurl_source: declared
-  description: Asynchronous execution history behind agent messages.
-  name: Letta Runs, Jobs and Steps API
-  slug: letta-runs-jobs-and-steps-api
-- baseURL: https://chat.letta.com
-  baseurl_source: declared
-  description: Uploaded files and folders used for agent grounding and retrieval.
-  name: Letta Sources and Files API
-  slug: letta-sources-and-files-api
-artifact_total: 503
+  description: List available LLM models and configurations.
+  name: Letta LL Ms API
+  slug: letta-llms-api
+artifact_total: 495
 asyncapis:
 - description: AsyncAPI 2.6 description of Letta's **agent message streaming** surface. Letta does not publish a WebSocket API. The only asynchronous / event-style transport documented in Letta's OpenAPI spec (https
   name: Letta Agent Message Streaming (HTTP + SSE)
@@ -1753,7 +1713,7 @@ modified: '2026-08-08'
 name: Letta
 nav: Providers
 network: true
-overview: 'Letta publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agents API, Archives API, and 45 more. Tagged areas include Artificial Intelligence, Agents, Stateful Agents, Memory, and MemGPT.
+overview: 'Letta publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agents API, Archives API, and 37 more. Tagged areas include Artificial Intelligence, Agents, Stateful Agents, Memory, and MemGPT.
 
 
   The Letta catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -1764,7 +1724,7 @@ plans:
 - name: Letta Plans Pricing
   plan_count: 3
   slug: letta-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Letta Rate Limits
@@ -1793,7 +1753,7 @@ rules:
   slug: letta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.3
+  composite: 50.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 72.5
@@ -1801,11 +1761,11 @@ score:
     catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 79.8
+    contract_quality: 80.2
     developer_ergonomics: 31.0
     discoverability: 70.4
     operational_transparency: 23.7
@@ -1816,9 +1776,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 48
+      total: 40
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://{store_domain}/wp-json/ciloo/v1
@@ -204,7 +204,7 @@ plans:
 - name: Ciloo Plans Pricing
   plan_count: 0
   slug: ciloo-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Ciloo Rate Limits
@@ -244,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

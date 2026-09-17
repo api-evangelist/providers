@@ -25,7 +25,7 @@ name: Mr. Draper
 nav: Providers
 network: true
 overview: Mr. Draper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 3
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/mr-draper/refs/heads/main/screenshots/mr-draper-2026-08-07T184416.png
 slug: mr-draper
 tags:

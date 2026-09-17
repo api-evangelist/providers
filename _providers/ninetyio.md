@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 19
@@ -264,7 +264,7 @@ overview: 'Ninety.io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ninety.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 18
+random_paper: 21
 score:
   band: developing
   composite: 47.0
@@ -295,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -322,7 +322,7 @@ tags:
 - Business Management
 - Meetings
 - Productivity
-- Scorecard
+- Scorecards
 - Team Management
 - Goal Tracking
 website: https://www.ninety.io/

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ name: 360leiliang
 nav: Providers
 network: true
 overview: 360leiliang is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Textiles, Lace, Fabric, Apparel, and Manufacturing.
-random_paper: 3
+random_paper: 0
 score:
   band: minimal
   composite: 10.0
@@ -106,7 +106,7 @@ score:
     - greater-china
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -85,11 +85,6 @@ apis:
   slug: howler-events-api
 - baseURL: https://www.howler.co.za/api/v3/consumer_portal
   baseurl_source: declared
-  description: The OAuth API from Howler — 4 operation(s) for oauth.
-  name: Howler OAuth API
-  slug: howler-oauth-api
-- baseURL: https://www.howler.co.za/api/v3/consumer_portal
-  baseurl_source: declared
   description: The Third Party OAuth API from Howler — 5 operation(s) for third party oauth.
   name: Howler Third Party OAuth API
   slug: howler-third-party-oauth-api
@@ -128,6 +123,11 @@ apis:
   description: The User API from Howler — 4 operation(s) for user.
   name: Howler User API
   slug: howler-user-api
+- baseURL: https://www.howler.co.za/api/v3/consumer_portal
+  baseurl_source: declared
+  description: The OAuth API from Howler — 4 operation(s) for oauth.
+  name: Howler O Auth API
+  slug: howler-oauth-api
 artifact_total: 40
 collections:
 - collection_type: open
@@ -319,7 +319,7 @@ overview: 'Howler publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Howler''s developer surface includes documentation, API reference, developer portal, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 6
+random_paper: 19
 scopes:
 - name: Howler Scopes
   scope_count: 3
@@ -366,7 +366,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

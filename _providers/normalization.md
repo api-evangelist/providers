@@ -20,11 +20,11 @@ modified: '2026-04-28'
 name: Normalization
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 7
 slug: normalization
 tags:
 - Data Management
-- Databases
+- Database
 - Normalization
 - Data Quality
 - Data Modeling

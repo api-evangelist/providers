@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 14
+- acting_count: 43
   human_in_the_loop: 0
   name: Bolt Financial Agentic Access
-  operation_count: 16
+  operation_count: 58
   slug: bolt-financial-agentic-access
-  summary_line: 16 operations · 14 acting
+  summary_line: 58 operations · 43 acting
 api_count: 4
 apis:
 - description: 'Bolt exposes two Model Context Protocol surfaces: a hosted documentation MCP server advertised at help.boltapp.com/mcp with search_docs, get_doc_page and list_doc_sections tools, and a Speakeasy-gener'
@@ -64,11 +64,6 @@ apis:
   description: Use this resource to retrieve and set Merchant Callback URLs. Bolt uses these URLs to exchange information with your commerce server. See our related guide [About the Merchant Callback API](https://he
   name: Bolt Financial Configuration API
   slug: bolt-financial-configuration-api
-- baseURL: https://api.boltapp.com
-  baseurl_source: declared
-  description: Use this endpoint to retrieve an OAuth token. Use the token to allow your ecommerce server to make calls to the Account endpoint and create a one-click checkout experience for shoppers. See related gu
-  name: Bolt Financial O Auth API
-  slug: bolt-financial-oauth-api
 - baseURL: https://api.boltapp.com
   baseurl_source: declared
   description: Use the Orders API to interact with the customer's cart throughout the checkout process. Pre-checkout, perform actions such as validating inventory, verifying discounts, and calculating taxes. Post-ch
@@ -109,6 +104,11 @@ apis:
   description: Set up webhooks to notify your backend of events within Bolt. These webhooks can communicate with your OMS or other systems to keep them up to date with Bolt. See our related guide on [Webhooks](https
   name: Bolt Financial Webhooks API
   slug: bolt-financial-webhooks-api
+- baseURL: https://help.boltapp.com/mcp
+  baseurl_source: declared
+  description: Use this endpoint to retrieve an OAuth token. Use the token to allow your ecommerce server to make calls to the Account endpoint and create a one-click checkout experience for shoppers. See related gu
+  name: Bolt Financial O Auth API
+  slug: bolt-financial-oauth-api
 artifact_total: 27
 asyncapis:
 - description: ''
@@ -372,7 +372,7 @@ plans:
 - name: Bolt Financial Plans Pricing
   plan_count: 1
   slug: bolt-financial-plans-pricing
-random_paper: 4
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Bolt Financial Rate Limits
@@ -418,7 +418,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

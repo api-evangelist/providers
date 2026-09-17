@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,11 +75,6 @@ apis:
   slug: cruz-foam-discovery-api
 - baseURL: https://cruzfoam.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for cruzfoam.com URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any post, page or customer showcase entry.
-  name: Cruz Foam oEmbed API
-  slug: cruz-foam-oembed-api
-- baseURL: https://cruzfoam.com/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any cruzfoam.com URL — a structured-data view of every page without scraping the HTML.
   name: Cruz Foam SEO Metadata API
   slug: cruz-foam-seo-api
@@ -103,6 +98,11 @@ apis:
   description: Public author records.
   name: Cruz Foam Users API
   slug: cruz-foam-users-api
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint.
+  name: Cruz Foam o Embed API
+  slug: cruz-foam-o-embed-api
 artifact_total: 26
 collections:
 - collection_type: open
@@ -133,6 +133,11 @@ collections:
   name: Cruz Foam Taxonomy API
   slug: open-cruz-foam-taxonomy-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/overlays/cruz-foam-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cruz-foam-oembed-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/capabilities/cruz-foam-capability-edges.yml
   title: ''
@@ -289,12 +294,12 @@ network: true
 overview: 'Cruz Foam publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Customers API, and 9 more. Tagged areas include Company, Materials Science, Sustainable Packaging, Compostable Materials, and Biomaterials.
 
 
-  Cruz Foam''s developer surface includes engineering blog, authentication, code examples, and 29 more developer resources.'
+  Cruz Foam''s developer surface includes engineering blog, authentication, code examples, and 30 more developer resources.'
 plans:
 - name: Cruz Foam Plans Pricing
   plan_count: 0
   slug: cruz-foam-plans-pricing
-random_paper: 13
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Cruz Foam Rate Limits
@@ -329,7 +334,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

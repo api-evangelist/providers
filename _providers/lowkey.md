@@ -19,7 +19,7 @@ name: Lowkey
 nav: Providers
 network: true
 overview: Lowkey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Social, Video, and Esports.
-random_paper: 16
+random_paper: 7
 slug: lowkey
 tags:
 - Company

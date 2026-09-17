@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -389,7 +389,7 @@ plans:
 - name: Booking Com Plans Pricing
   plan_count: 1
   slug: booking-com-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Booking Com Rate Limits
@@ -435,7 +435,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

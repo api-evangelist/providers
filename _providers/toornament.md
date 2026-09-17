@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -249,7 +249,7 @@ modified: '2026-05-19'
 name: Toornament
 nav: Providers
 network: true
-overview: 'Toornament publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Disciplines API, Matches API, Participants API, and 5 more. Tagged areas include Esports, Gaming, Tournaments, Brackets, and Competition.
+overview: 'Toornament publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Disciplines API, Matches API, Participants API, and 5 more. Tagged areas include Esports, Gaming, Tournaments, Brackets, and Competitions.
 
 
   The Toornament catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -260,7 +260,7 @@ plans:
 - name: Toornament Plans Pricing
   plan_count: 3
   slug: toornament-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Toornament Rate Limits
@@ -319,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -340,7 +340,7 @@ tags:
 - Gaming
 - Tournaments
 - Brackets
-- Competition
+- Competitions
 use_cases:
 - name: Esports Tournament Platform
 - name: Game Publisher Tournament Integration

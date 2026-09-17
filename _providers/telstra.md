@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,11 +49,6 @@ apis:
   description: OAuth 2.0 client credentials token issuance.
   name: Telstra Authentication API
   slug: telstra-authentication-api
-- baseURL: https://tapi.telstra.com/v2
-  baseurl_source: declared
-  description: Service health checks for SMS and MMS messaging surfaces.
-  name: Telstra HealthCheck API
-  slug: telstra-healthcheck-api
 - baseURL: https://tapi.telstra.com/v2
   baseurl_source: declared
   description: Send, retrieve, and check status of MMS messages.
@@ -74,6 +69,11 @@ apis:
   description: Mobile number verification operations.
   name: Telstra Verification API
   slug: telstra-verification-api
+- baseURL: https://tapi.telstra.com/v2
+  baseurl_source: declared
+  description: Service health checks for SMS and MMS messaging surfaces.
+  name: Telstra Health Check API
+  slug: telstra-health-check-api
 artifact_total: 51
 collections:
 - collection_type: postman
@@ -122,6 +122,10 @@ collections:
   name: Telstra Messaging Authentication Verification API
   slug: open-telstra-verification-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://telstra.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -304,22 +308,22 @@ jsonld:
   property_count: 5
   slug: telstra-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Telstra
 nav: Providers
 network: true
-overview: 'Telstra publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, HealthCheck API, MMS API, and 3 more. Tagged areas include Telecommunications, Telco, Mobile, Messaging, and SMS.
+overview: 'Telstra publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, MMS API, Provisioning API, and 3 more. Tagged areas include Telecommunications, Telco, Mobile, Messaging, and SMS.
 
 
   The Telstra catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Telstra''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, GitHub presence, and 24 more developer resources.'
+  Telstra''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, GitHub presence, and 25 more developer resources.'
 plans:
 - name: Telstra Plans Pricing
   plan_count: 2
   slug: telstra-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Telstra Rate Limits
@@ -391,7 +395,7 @@ score:
     regime_id: telecommunications
     score: 52.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -417,5 +421,5 @@ tags:
 - Networks
 - Australia
 - Verification
-website: https://dev.telstra.com
+website: https://telstra.com
 ---

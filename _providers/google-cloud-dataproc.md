@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,8 +57,8 @@ apis:
 - baseURL: https://dataproc.googleapis.com/v1
   baseurl_source: declared
   description: Operations on workflow templates
-  name: Google Cloud Dataproc WorkflowTemplates API
-  slug: google-cloud-dataproc-workflowtemplates-api
+  name: Google Cloud Dataproc Workflow Templates API
+  slug: google-cloud-dataproc-workflow-templates-api
 artifact_total: 22
 collections:
 - collection_type: postman
@@ -185,7 +185,7 @@ modified: '2026-05-19'
 name: Google Cloud Dataproc
 nav: Providers
 network: true
-overview: 'Google Cloud Dataproc publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Jobs API, and WorkflowTemplates API. Tagged areas include Big Data, Data Processing, Google Cloud, Hadoop, and Spark.
+overview: 'Google Cloud Dataproc publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Jobs API, and Workflow Templates API. Tagged areas include Big Data, Data Processing, Google Cloud, Hadoop, and Spark.
 
 
   The Google Cloud Dataproc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -196,7 +196,7 @@ plans:
 - name: Google Cloud Dataproc Plans Pricing
   plan_count: 3
   slug: google-cloud-dataproc-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Google Cloud Dataproc Rate Limits
@@ -244,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

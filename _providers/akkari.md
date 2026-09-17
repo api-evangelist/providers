@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,7 +70,7 @@ name: Akkari
 nav: Providers
 network: true
 overview: Akkari is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Operations, Customer Success, Artificial Intelligence, and Automation.
-random_paper: 18
+random_paper: 11
 score:
   band: minimal
   composite: 10.5
@@ -91,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

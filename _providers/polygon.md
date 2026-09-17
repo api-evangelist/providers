@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 63.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,36 +54,6 @@ apis:
   slug: websocket-api
 - baseURL: https://api.polygon.io
   baseurl_source: declared
-  description: Crypto aggregate bars.
-  name: Polygon Aggregates API
-  slug: polygon-aggregates-api
-- baseURL: https://api.polygon.io
-  baseurl_source: declared
-  description: Level-2 order book.
-  name: Polygon Books API
-  slug: polygon-books-api
-- baseURL: https://api.polygon.io
-  baseurl_source: declared
-  description: Option contract reference data.
-  name: Polygon Contracts API
-  slug: polygon-contracts-api
-- baseURL: https://api.polygon.io
-  baseurl_source: declared
-  description: Real-time currency conversion.
-  name: Polygon Conversion API
-  slug: polygon-conversion-api
-- baseURL: https://api.polygon.io
-  baseurl_source: declared
-  description: Stock splits and dividends.
-  name: Polygon CorporateActions API
-  slug: polygon-corporateactions-api
-- baseURL: https://api.polygon.io
-  baseurl_source: declared
-  description: Daily open/close.
-  name: Polygon DailyBars API
-  slug: polygon-dailybars-api
-- baseURL: https://api.polygon.io
-  baseurl_source: declared
   description: Markets, exchanges, holidays, and status.
   name: Polygon Markets API
   slug: polygon-markets-api
@@ -92,16 +62,6 @@ apis:
   description: Ticker news.
   name: Polygon News API
   slug: polygon-news-api
-- baseURL: https://api.polygon.io
-  baseurl_source: declared
-  description: FX quote endpoints.
-  name: Polygon Quotes API
-  slug: polygon-quotes-api
-- baseURL: https://api.polygon.io
-  baseurl_source: declared
-  description: Snapshot endpoints.
-  name: Polygon Snapshots API
-  slug: polygon-snapshots-api
 - baseURL: https://api.polygon.io
   baseurl_source: declared
   description: Ticker reference and metadata.
@@ -402,24 +362,41 @@ apis:
   description: The us_stocks_reference API from Polygon — 3 operation(s) for us_stocks_reference.
   name: Polygon Us Stocks Reference API
   slug: polygon-us-stocks-reference-api
-- description: 'Real-time and historical US equity market data including aggregates (minute/hour/day bars), trades, NBBO quotes, snapshots, ticker reference, splits, dividends, and financials. Available via REST and '
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: 'Real-time and historical US equity market data including aggregates (minute/hour/day bars), trades, NBBO quotes, snapshots, ticker reference, splits, dividends, and financials. Available via REST and '
   name: Polygon.io Stocks API
   slug: polygonio-stocks-api
-- description: 'OPRA-licensed options market data via REST and WebSocket: aggregates, trades, quotes, snapshots, contract reference, and option chains.'
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: 'OPRA-licensed options market data via REST and WebSocket: aggregates, trades, quotes, snapshots, contract reference, and option chains.'
   name: Polygon.io Options API
   slug: polygonio-options-api
-- description: Real-time and historical index values for major US and global indices via REST and WebSocket.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Real-time and historical index values for major US and global indices via REST and WebSocket.
   name: Polygon.io Indices API
   slug: polygonio-indices-api
-- description: Real-time and historical FX prices for 1,000+ currency pairs via REST and WebSocket.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Real-time and historical FX prices for 1,000+ currency pairs via REST and WebSocket.
   name: Polygon.io Forex API
   slug: polygonio-forex-api
-- description: Aggregates, trades, snapshots, level-2 books, and L2 streaming for crypto pairs across major exchanges.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Aggregates, trades, snapshots, level-2 books, and L2 streaming for crypto pairs across major exchanges.
   name: Polygon.io Crypto API
   slug: polygonio-crypto-api
-- description: Real-time and historical futures market data including aggregates, trades, quotes, and snapshots.
+- baseURL: https://api.polygon.io
+  baseurl_source: declared
+  description: Real-time and historical futures market data including aggregates, trades, quotes, and snapshots.
   name: Polygon.io Futures API
   slug: polygonio-futures-api
+- baseURL: wss://socket.polygon.io
+  baseurl_source: declared
+  description: Stock splits and dividends.
+  name: Polygon Corporate Actions API
+  slug: polygon-corporate-actions-api
 arazzos:
 - description: Resolve a ticker, then list its stock splits and dividends history.
   name: Polygon Corporate Actions Review
@@ -457,8 +434,11 @@ arazzos:
 - description: Resolve a ticker's details, pull recent news, and read its previous close.
   name: Polygon Ticker News Context
   slug: polygon-ticker-news-context-workflow
-artifact_total: 168
+artifact_total: 162
 asyncapis:
+- description: 'Streaming WebSocket APIs from Polygon.io (now operating as Massive) for real-time and delayed US Stocks, Options, Forex, Crypto, Indices, and Futures market data. Clients connect to a market-specific '
+  name: Polygon.io WebSocket APIs
+  slug: polygon-io-asyncapi
 - description: 'Polygon real-time market data WebSocket clusters. Each asset class (stocks, options, indices, forex, crypto) has its own dedicated cluster at `wss://socket.polygon.io/{cluster}`. Clients authenticate '
   name: Polygon WebSocket Streaming API
   slug: polygon-websocket-asyncapi
@@ -575,12 +555,12 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://polygon.io
+  url: https://massive.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-openapi-original.json
+  href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/_original/polygon-openapi-original.json
   title: ''
   type: OpenAPI
-  url: openapi/polygon-openapi-original.json
+  url: openapi/_original/polygon-openapi-original.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/overlays/polygon-openapi-overlay.yaml
   title: ''
@@ -924,22 +904,22 @@ mcp_servers:
 - description: ''
   name: Massive MCP server — remote https://mcp.massive.com (OAuth) + open-source mcp_massive (stdio)
   slug: massive-mcp-server-remote-httpsmcpmassivecom-oauth-open-source-mcp-massive-stdio
-modified: '2026-09-15'
-name: Polygon
+modified: '2026-09-16'
+name: Massive (formerly Polygon.io)
 nav: Providers
 network: true
-overview: 'Polygon publishes 77 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Aggregates API, Books API, and 74 more. Tagged areas include Finance, Fintech, Market Data, Stocks, and Options.
+overview: 'Massive (formerly Polygon.io) publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Polygon WebSocket API, Polygon Markets API, Polygon News API, and 67 more. Tagged areas include Finance, Fintech, Market Data, Stocks, and Options.
 
 
-  The Polygon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Massive (formerly Polygon.io) catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Polygon''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, signup flow, and 52 more developer resources.'
+  Massive (formerly Polygon.io)''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, signup flow, and 52 more developer resources.'
 plans:
 - name: Polygon Plans Pricing
   plan_count: 12
   slug: polygon-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Polygon Rate Limits
@@ -948,7 +928,7 @@ rules:
 - effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: Polygon API Rules
+  name: Massive (formerly Polygon.io) API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -958,7 +938,7 @@ rules:
   slug: polygon-asyncapi-spectral-rules
 - effective_rule_count: 5
   extends: []
-  name: Polygon API Rules
+  name: Massive (formerly Polygon.io) API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -969,7 +949,7 @@ rules:
 - effective_rule_count: 62
   extends:
   - spectral:oas
-  name: Polygon API Rules
+  name: Massive (formerly Polygon.io) API Rules
   rule_count: 21
   severity_counts:
     error: 4
@@ -983,22 +963,22 @@ scopes:
   slug: polygon-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 68.3
+  band: strong
+  composite: 65.7
   coverage:
     artifact_dirs: 32
-    catalog_earned: 94.5
+    catalog_earned: 74.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 20.5
+    catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 77.6
     contract_governance: 33.3
-    contract_quality: 72.5
+    contract_quality: 69.4
     developer_ergonomics: 53.0
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 57.9
   previous_composite: 68.3
   provenance:
@@ -1008,7 +988,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 70
+      total: 63
     mcp: first-party
     skills: derived
   regulatory:
@@ -1018,7 +998,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -1052,7 +1032,7 @@ tags:
 - Crypto
 - Indices
 - Futures
-- WebSockets
+- WebSocket
 - Real-Time
 - Historical
 - Public APIs
@@ -1067,5 +1047,5 @@ use_cases:
   name: Analytics dashboards
 - description: Drive options Greeks, volatility surfaces, and FX hedging models with reliable feeds.
   name: Quant pipelines
-website: https://polygon.io
+website: https://massive.com
 ---

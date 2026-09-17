@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,16 +80,21 @@ apis:
   slug: harbinger-discovery-api
 - baseURL: https://harbingermotors.com/wp-json
   baseurl_source: declared
-  description: 'The oEmbed 1.0 provider endpoint for harbingermotors.com. Given the URL of any Harbinger Motors page, post or event it returns a rich-embed descriptor — provider name, author, title, thumbnail and an '
-  name: Harbinger Motors oEmbed API
-  slug: harbinger-oembed-api
-- baseURL: https://harbingermotors.com/wp-json
-  baseurl_source: declared
   description: The Yoast SEO `get_head` endpoint on harbingermotors.com. For any site URL it returns the fully rendered head block — canonical URL, robots directives, Open Graph and Twitter card metadata, and the sc
   name: Harbinger Motors SEO Metadata API
   slug: harbinger-seo-api
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 rich-embed descriptors.
+  name: Harbinger o Embed API
+  slug: harbinger-o-embed-api
 artifact_total: 14
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/overlays/harbinger-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/harbinger-oembed-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -241,12 +246,12 @@ network: true
 overview: 'Harbinger publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Motors Posts API, Motors Pages API, Motors Events API, and 6 more. Tagged areas include Company, Automotive, Electric Vehicles, Commercial Vehicles, and Medium Duty Trucks.
 
 
-  Harbinger''s developer surface includes engineering blog, support, YouTube channel, authentication, code examples, and 26 more developer resources.'
+  Harbinger''s developer surface includes engineering blog, support, YouTube channel, authentication, code examples, and 27 more developer resources.'
 plans:
 - name: Harbinger Plans Pricing
   plan_count: 0
   slug: harbinger-plans-pricing
-random_paper: 1
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Harbinger Rate Limits
@@ -287,7 +292,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -4684,7 +4684,7 @@ plans:
 - name: Unified To Plans Pricing
   plan_count: 4
   slug: unified-to-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Unified To Rate Limits
@@ -4738,7 +4738,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

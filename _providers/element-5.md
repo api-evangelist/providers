@@ -24,7 +24,7 @@ name: element 5 AG
 nav: Providers
 network: true
 overview: element 5 AG is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Software Distribution, Digital Goods, and Payments.
-random_paper: 4
+random_paper: 8
 screenshot: https://raw.githubusercontent.com/api-evangelist/element-5/refs/heads/main/screenshots/element-5-2026-07-25T213124.png
 slug: element-5
 tags:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Historical partner/owner REST API used by fleet-management integrators (CarSync, FleetWire, Kitts) to sync bookings onto external calendars, block vehicle availability, generate invoices for professio
@@ -138,7 +138,7 @@ overview: 'Getaround publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Getaround''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
-random_paper: 3
+random_paper: 1
 score:
   band: minimal
   composite: 10.1
@@ -159,7 +159,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 10.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

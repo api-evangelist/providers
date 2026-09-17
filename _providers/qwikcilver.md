@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: QwikCilver / Woohoo gift card and prepaid commerce API for browsing brand catalogs, placing gift card orders, activating and redeeming cards, checking balances, and running reward programs. OAuth2 cli
@@ -90,7 +90,7 @@ overview: 'QwikCilver publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   QwikCilver''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 18
+random_paper: 11
 score:
   band: emerging
   composite: 13.3
@@ -124,7 +124,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

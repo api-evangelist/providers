@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: On-device RESTful management API served by each CENTAURI wireless laser device over HTTPS with token-based authentication. Used to view and modify device configuration, alignment, and monitoring setti
@@ -101,7 +101,7 @@ overview: 'Transcelestial publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Transcelestial''s developer surface includes documentation, support, engineering blog, changelog, authentication, CLI, and 5 more developer resources.'
-random_paper: 11
+random_paper: 6
 score:
   band: emerging
   composite: 19.1
@@ -128,7 +128,7 @@ score:
     regime_id: telecommunications
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

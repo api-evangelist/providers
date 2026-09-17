@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -113,27 +113,27 @@ apis:
   baseurl_source: declared
   description: Manage linked third-party connections and connection webhooks per tenant.
   name: Revert Connection Management API
-  slug: revert-api-connection-management-api
+  slug: revert-connection-management-api
 - baseURL: https://api.revert.dev
   baseurl_source: declared
   description: Unified CRM models - contacts, leads, companies, deals, notes, events, tasks, users.
   name: Revert CRM API
-  slug: revert-api-crm-api
+  slug: revert-crm-api
 - baseURL: https://api.revert.dev
   baseurl_source: declared
   description: Environment / app configuration for the connect UI.
   name: Revert Metadata API
-  slug: revert-api-metadata-api
+  slug: revert-metadata-api
 - baseURL: https://api.revert.dev
   baseurl_source: declared
   description: Passthrough proxy to the underlying provider's native API.
   name: Revert Proxy API
-  slug: revert-api-proxy-api
+  slug: revert-proxy-api
 - baseURL: https://api.revert.dev
   baseurl_source: declared
   description: Unified ticketing models - tasks, users, comments, collections.
   name: Revert Ticketing API
-  slug: revert-api-ticketing-api
+  slug: revert-ticketing-api
 artifact_total: 47
 collections:
 - collection_type: open
@@ -284,7 +284,7 @@ plans:
 - name: Revert Plans Pricing
   plan_count: 3
   slug: revert-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Revert Rate Limits
@@ -312,7 +312,7 @@ rules:
   slug: revert-rules
 score:
   band: thin
-  composite: 33.4
+  composite: 36.3
   coverage:
     artifact_dirs: 14
     catalog_earned: 70.3
@@ -320,11 +320,11 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.9
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 42.5
+    contract_quality: 54.0
     developer_ergonomics: 20.2
     discoverability: 59.3
     operational_transparency: 34.2
@@ -337,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

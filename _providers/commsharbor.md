@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -13,28 +13,129 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.6
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 43.1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- description: REST/HTTP API (OpenAPI 3.1) for transactional email, deliverability, sending domains, permission-based marketing, CRM, and multi-tenancy governance across 96 paths. Cross-linked with a hosted MCP serv
-  name: CommsHarbor API
-  slug: commsharbor-api
-artifact_total: 9
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Apis.json API from CommsHarbor — 1 operation(s) for apis.json.
+  name: CommsHarbor Apis.json API
+  slug: commsharbor-apis-json-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Auth API from CommsHarbor — 3 operation(s) for auth.
+  name: CommsHarbor Auth API
+  slug: commsharbor-auth-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Aws API from CommsHarbor — 1 operation(s) for aws.
+  name: CommsHarbor Aws API
+  slug: commsharbor-aws-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Billing API from CommsHarbor — 1 operation(s) for billing.
+  name: CommsHarbor Billing API
+  slug: commsharbor-billing-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The CommsHarbor API from CommsHarbor — 1 operation(s) for commsharbor.
+  name: CommsHarbor Comms Harbor API
+  slug: commsharbor-commsharbor-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Context API from CommsHarbor — 1 operation(s) for context.
+  name: CommsHarbor Context API
+  slug: commsharbor-context-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Credito API from CommsHarbor — 1 operation(s) for credito.
+  name: CommsHarbor Credito API
+  slug: commsharbor-credito-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Health API from CommsHarbor — 1 operation(s) for health.
+  name: CommsHarbor Health API
+  slug: commsharbor-health-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Invitations API from CommsHarbor — 1 operation(s) for invitations.
+  name: CommsHarbor Invitations API
+  slug: commsharbor-invitations-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Mcp API from CommsHarbor — 1 operation(s) for mcp.
+  name: CommsHarbor MCP API
+  slug: commsharbor-mcp-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Me API from CommsHarbor — 1 operation(s) for me.
+  name: CommsHarbor Me API
+  slug: commsharbor-me-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Messages API from CommsHarbor — 1 operation(s) for messages.
+  name: CommsHarbor Messages API
+  slug: commsharbor-messages-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Metrics API from CommsHarbor — 1 operation(s) for metrics.
+  name: CommsHarbor Metrics API
+  slug: commsharbor-metrics-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Okf API from CommsHarbor — 1 operation(s) for okf.
+  name: CommsHarbor Okf API
+  slug: commsharbor-okf-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Organizations API from CommsHarbor — 70 operation(s) for organizations.
+  name: CommsHarbor Organizations API
+  slug: commsharbor-organizations-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Platform API from CommsHarbor — 7 operation(s) for platform.
+  name: CommsHarbor Platform API
+  slug: commsharbor-platform-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The Preferences API from CommsHarbor — 2 operation(s) for preferences.
+  name: CommsHarbor Preferences API
+  slug: commsharbor-preferences-api
+- baseURL: https://commsharbor.com
+  baseurl_source: declared
+  description: The .well Known API from CommsHarbor — 1 operation(s) for .well known.
+  name: CommsHarbor .well Known API
+  slug: commsharbor-well-known-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Commsharbor Webhooks
   slug: commsharbor-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://commsharbor.com/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/commsharbor/refs/heads/main/mcp/commsharbor-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/commsharbor-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/commsharbor/refs/heads/main/overlays/commsharbor-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/commsharbor-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -126,25 +227,25 @@ modified: '2026-09-05'
 name: CommsHarbor
 nav: Providers
 network: true
-overview: 'CommsHarbor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email, Transactional Email, Email Marketing, Communications, and Messaging.
+overview: 'CommsHarbor publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Apis.json API, Auth API, Aws API, and 15 more. Tagged areas include Email, Transactional Email, Email Marketing, Communications, and Messaging.
 
 
   The CommsHarbor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CommsHarbor''s developer surface includes authentication and 15 more developer resources.'
+  CommsHarbor''s developer surface includes authentication and 18 more developer resources.'
 plans:
 - name: Commsharbor Plans Pricing
   plan_count: 3
   slug: commsharbor-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Commsharbor Rate Limits
   slug: commsharbor-rate-limits
 score:
   band: developing
-  composite: 45.6
+  composite: 50.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.0
@@ -152,17 +253,22 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.4
   facets:
     access_clarity: 59.2
     contract_governance: 4.5
-    contract_quality: 45.5
+    contract_quality: 63.0
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 50.0
   previous_composite: 45.6
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 18
     mcp: first-party
     skills: derived
   regulatory:
@@ -172,7 +278,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

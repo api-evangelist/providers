@@ -29,7 +29,7 @@ name: CucumberTown
 nav: Providers
 network: true
 overview: CucumberTown is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Recipes, Food, and Food Blogging.
-random_paper: 8
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/cucumbertown/refs/heads/main/screenshots/cucumbertown-2026-07-25T210905.png
 slug: cucumbertown
 tags:

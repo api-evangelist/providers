@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -415,6 +415,10 @@ collections:
   name: Freshworks Freshcaller Accounts Vendors API
   slug: open-freshworks-vendors-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://freshworks.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/capabilities/freshworks-capability-edges.yml
   title: ''
@@ -728,22 +732,22 @@ jsonld:
   property_count: 9
   slug: freshworks-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Freshworks
 nav: Providers
 network: true
-overview: 'Freshworks publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Agents API, Applicants API, and 39 more.
+overview: 'Freshworks publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Agents API, Applicants API, and 39 more. Tagged areas include Analytics, Campaigns, Email Marketing, Marketing, and Marketing Automation.
 
 
   The Freshworks catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Freshworks'' developer surface includes authentication and 9 more developer resources.'
+  Freshworks'' developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Freshworks Plans Pricing
   plan_count: 3
   slug: freshworks-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Freshworks Rate Limits
@@ -796,11 +800,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -816,4 +817,11 @@ security:
   slug: freshworks-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: freshworks
+tags:
+- Analytics
+- Campaigns
+- Email Marketing
+- Marketing
+- Marketing Automation
+website: https://freshworks.com
 ---

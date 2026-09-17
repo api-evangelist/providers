@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 8
@@ -43,11 +43,6 @@ agentic_access:
   summary_line: 165 operations · 88 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://api.cloud.wherobots.com
-  baseurl_source: declared
-  description: The apikey API from Wherobots — 2 operation(s) for apikey.
-  name: Wherobots apikey API
-  slug: wherobots-apikey-api
 - baseURL: https://api.cloud.wherobots.com
   baseurl_source: declared
   description: The audit-log API from Wherobots — 2 operation(s) for audit-log.
@@ -213,6 +208,11 @@ apis:
   description: The workos API from Wherobots — 1 operation(s) for workos.
   name: Wherobots workos API
   slug: wherobots-workos-api
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The API Key API from Wherobots — 2 operation(s) for api key.
+  name: Wherobots API Key API
+  slug: wherobots-api-key-api
 artifact_total: 75
 collections:
 - collection_type: open
@@ -496,11 +496,11 @@ modified: '2026-07-21'
 name: Wherobots
 nav: Providers
 network: true
-overview: 'Wherobots publishes 34 APIs on the [APIs.io](https://apis.io/) network, including apikey API, audit-log API, catalogs API, and 31 more. Tagged areas include Company, Geospatial, Spatial Analytics, Apache Sedona, and Spatial SQL.
+overview: 'Wherobots publishes 34 APIs on the [APIs.io](https://apis.io/) network, including audit-log API, catalogs API, cloud-connections API, and 31 more. Tagged areas include Company, Geospatial, Spatial Analytics, Apache Sedona, and Spatial SQL.
 
 
   Wherobots'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 2
+random_paper: 21
 score:
   band: developing
   composite: 54.0
@@ -531,7 +531,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

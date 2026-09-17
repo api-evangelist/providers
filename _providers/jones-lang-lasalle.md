@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ press:
 - date: '2026-05-25'
   title: JLL News and Press Releases
   url: https://www.prnewswire.com/news/jll/
-random_paper: 0
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Jones Lang Lasalle Rate Limits
@@ -190,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

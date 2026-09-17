@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Business REST APIs over the GRC Foundation object model — Area of Compliance, Asset, Asset Class, Control, Evidence, Exception, Financial Accounts, Function, Framework/Model Reference, Objectives, Pro
@@ -197,7 +197,7 @@ plans:
 - name: Metricstream Plans Pricing
   plan_count: 0
   slug: metricstream-plans-pricing
-random_paper: 15
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Metricstream Rate Limits
@@ -226,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

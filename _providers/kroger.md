@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - description: The authorization endpoints provide a token that will allow your service or application to call Kroger APIs.
@@ -80,6 +80,10 @@ apis:
   slug: kroger-locker-integration-apis-partners
 artifact_total: 21
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://kroger.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/kroger/refs/heads/main/security/kroger-domain-security.yml
   title: ''
@@ -212,14 +216,14 @@ finops:
   slug: kroger-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kroger.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Kroger
 nav: Providers
 network: true
 overview: 'Kroger publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Groceries, Grocery Retail, Retail, E-Commerce, and Product Catalog.
 
 
-  Kroger''s developer surface includes developer portal, authentication, sandbox, documentation, getting-started guide, API reference, support, and 20 more developer resources.'
+  Kroger''s developer surface includes developer portal, authentication, sandbox, documentation, getting-started guide, API reference, support, and 21 more developer resources.'
 plans:
 - name: Kroger Plans Pricing
   plan_count: 2
@@ -240,7 +244,7 @@ press:
 - date: '2026-05-25'
   title: Kroger and Instacart Announce Expanded Relationship ...
   url: https://ir.kroger.com/news/news-details/2025/Kroger-and-Instacart-Announce-Expanded-Relationship-Investing-in-AI-to-Simplify-Customer-Experience-Improve-Efficiency/default.aspx
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Kroger Rate Limits
@@ -273,7 +277,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -306,5 +310,5 @@ tags:
 - Authentication
 - Partner API
 - Fortune 100
-website: https://developer.kroger.com/
+website: https://kroger.com
 ---

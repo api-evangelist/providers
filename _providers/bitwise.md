@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,11 +46,6 @@ api_count: 1
 apis:
 - baseURL: https://api.bitwiseinvestments.com
   baseurl_source: declared
-  description: Bitwise exchange-traded fund listings and details.
-  name: Bitwise ETFs API
-  slug: bitwise-etfs-api
-- baseURL: https://api.bitwiseinvestments.com
-  baseurl_source: declared
   description: Per-fund market data (NAV, AUM, holdings, performance).
   name: Bitwise Funds API
   slug: bitwise-funds-api
@@ -59,6 +54,11 @@ apis:
   description: Bitwise crypto index metadata, history, and constituents.
   name: Bitwise Indexes API
   slug: bitwise-indexes-api
+- baseURL: https://api.bitwiseinvestments.com
+  baseurl_source: declared
+  description: Bitwise exchange-traded fund listings and details.
+  name: Bitwise ET Fs API
+  slug: bitwise-etfs-api
 artifact_total: 10
 collections:
 - collection_type: open
@@ -160,11 +160,11 @@ modified: '2026-07-18'
 name: Bitwise
 nav: Providers
 network: true
-overview: 'Bitwise publishes 3 APIs on the [APIs.io](https://apis.io/) network: ETFs API, Funds API, and Indexes API. Tagged areas include Company, Fintech, Cryptocurrency, Asset Management, and Market Data.
+overview: 'Bitwise publishes 3 APIs on the [APIs.io](https://apis.io/) network: Funds API, Indexes API, and ET Fs API. Tagged areas include Company, Fintech, Cryptocurrency, Asset Management, and Market Data.
 
 
   Bitwise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: thin
   composite: 32.3
@@ -201,7 +201,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

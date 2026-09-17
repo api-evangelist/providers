@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.imagekit.io
   baseurl_source: declared
   description: The Account Management API API from ImageKit — 5 operation(s) for account management api.
-  name: ImageKit Account Management API API
+  name: ImageKit Account Management API
   slug: imagekit-account-management-api-api
 - baseURL: https://api.imagekit.io
   baseurl_source: declared
@@ -265,11 +265,11 @@ jsonld:
   property_count: 50
   slug: imagekit-context
 layout: provider
-modified: '2026-06-12'
+modified: '2026-09-16'
 name: ImageKit
 nav: Providers
 network: true
-overview: 'ImageKit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Management API API, Caching API, Digital Asset Management (DAM) API, and 3 more. Tagged areas include Image, Video, CDN, Media, and Optimization.
+overview: 'ImageKit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Caching API, Digital Asset Management (DAM) API, and 3 more. Tagged areas include Image, Video, CDN, Media, and Optimization.
 
 
   The ImageKit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -280,7 +280,7 @@ plans:
 - name: Imagekit Plans Pricing
   plan_count: 7
   slug: imagekit-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Imagekit Rate Limits
@@ -323,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

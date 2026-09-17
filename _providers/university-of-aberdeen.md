@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: The University's own Shibboleth Identity Provider, entityID https://shibserv.abdn.ac.uk/shibboleth, asserting shibmd:Scope abdn.ac.uk. Its entity descriptor is published as signed, machine-readable SA
@@ -185,7 +185,7 @@ plans:
 - name: University Of Aberdeen Plans Pricing
   plan_count: 2
   slug: university-of-aberdeen-plans-pricing
-random_paper: 0
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: University Of Aberdeen Rate Limits
@@ -226,7 +226,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

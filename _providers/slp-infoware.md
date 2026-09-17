@@ -19,7 +19,7 @@ name: SLP InfoWare
 nav: Providers
 network: true
 overview: SLP InfoWare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Churn Analytics, Customer Retention, and Fraud Detection.
-random_paper: 0
+random_paper: 7
 slug: slp-infoware
 tags:
 - Company

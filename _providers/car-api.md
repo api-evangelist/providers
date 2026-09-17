@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -126,17 +126,7 @@ apis:
   description: The Years API from Car API (carapi.app) — 1 operation(s) for years.
   name: Car API (carapi.app) Years API
   slug: car-api-years-api
-- baseURL: https://carapi.app/api
-  baseurl_source: declared
-  description: Endpoints for obtaining a JWT token for API access.
-  name: Car API (carapi.app) Authentication API
-  slug: car-api-authentication-api
-- baseURL: https://carapi.app/api
-  baseurl_source: declared
-  description: Operations for retrieving vehicle models, trims, and attributes.
-  name: Car API (carapi.app) Vehicles API
-  slug: car-api-vehicles-api
-artifact_total: 57
+artifact_total: 55
 collections:
 - collection_type: open
   name: API Collection
@@ -311,7 +301,7 @@ modified: '2026-05-19'
 name: Car API (carapi.app)
 nav: Providers
 network: true
-overview: 'Car API (carapi.app) publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Bodies API, and 13 more. Tagged areas include Automobiles, Automotive Data, Cars, License Plate Decoder, and OBD-II.
+overview: 'Car API (carapi.app) publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Bodies API, and 11 more. Tagged areas include Automobiles, Automotive Data, Cars, License Plate Decoder, and OBD-II.
 
 
   The Car API (carapi.app) catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -322,7 +312,7 @@ plans:
 - name: Car Api Plans Pricing
   plan_count: 4
   slug: car-api-plans-pricing
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Car Api Rate Limits
@@ -352,7 +342,7 @@ score:
   facets:
     access_clarity: 53.9
     contract_governance: 9.8
-    contract_quality: 55.6
+    contract_quality: 55.5
     developer_ergonomics: 21.4
     discoverability: 68.5
     operational_transparency: 10.5
@@ -363,7 +353,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 15
   regulatory:
     applies: true
     matched_via: tags
@@ -371,7 +361,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

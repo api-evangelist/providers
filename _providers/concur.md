@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ modified: '2026-05-19'
 name: SAP Concur
 nav: Providers
 network: true
-overview: 'SAP Concur publishes 2 APIs on the [APIs.io](https://apis.io/) network: Expense Reports API and Expenses API. Tagged areas include Expense Management, Finance, Invoice, SAP, and Travel.
+overview: 'SAP Concur publishes 2 APIs on the [APIs.io](https://apis.io/) network: Expense Reports API and Expenses API. Tagged areas include Expense Management, Finance, Invoices, SAP, and Travel.
 
 
   The SAP Concur catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -276,7 +276,7 @@ plans:
 - name: Concur Plans Pricing
   plan_count: 1
   slug: concur-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Concur Rate Limits
@@ -330,7 +330,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -353,7 +353,7 @@ slug: concur
 tags:
 - Expense Management
 - Finance
-- Invoice
+- Invoices
 - SAP
 - Travel
 use_cases:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 3
@@ -1235,6 +1235,10 @@ collections:
   name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ValidateMatchmakingRuleSet API'
   slug: open-amazon-gamelift-x-amz-target-gamelift-validatematchmakingruleset-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/capabilities/amazon-gamelift-capability-edges.yml
   title: ''
@@ -5047,7 +5051,7 @@ jsonld:
   property_count: 270
   slug: amazon-gamelift-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon GameLift
 nav: Providers
 network: true
@@ -5057,12 +5061,12 @@ overview: 'Amazon GameLift publishes 104 APIs on the [APIs.io](https://apis.io/)
   The Amazon GameLift catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon GameLift''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
+  Amazon GameLift''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 28 more developer resources.'
 plans:
 - name: Amazon Gamelift Plans Pricing
   plan_count: 3
   slug: amazon-gamelift-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Gamelift Rate Limits
@@ -5116,7 +5120,7 @@ score:
       marker_coverage: 0.0
       total: 104
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -5159,5 +5163,5 @@ use_cases:
   name: Cost-Optimized Hosting
 - description: Deploy game servers across multiple AWS regions to minimize player latency worldwide.
   name: Global Game Distribution
-website: https://aws.amazon.com/gamelift/
+website: https://amazon.com
 ---

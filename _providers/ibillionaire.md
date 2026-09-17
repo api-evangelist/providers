@@ -24,7 +24,7 @@ name: iBillionaire
 nav: Providers
 network: true
 overview: iBillionaire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 7
+random_paper: 13
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibillionaire/refs/heads/main/screenshots/ibillionaire-2026-07-25T221954.png
 slug: ibillionaire
 tags:

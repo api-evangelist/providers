@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - baseURL: https://relay.flashbots.net
   baseurl_source: declared
   description: The Flashbots Auction & MEV Share Relay (JSON RPC) API from Flashbots — 1 operation(s) for flashbots auction & mev share relay (json rpc).
-  name: Flashbots Flashbots Auction & MEV Share Relay (JSON RPC) API
+  name: Flashbots Auction & MEV Share Relay (JSON RPC) API
   slug: flashbots-flashbots-auction-mev-share-relay-json-rpc-api
 artifact_total: 16
 collections:
@@ -155,11 +155,11 @@ finops:
   slug: flashbots-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flashbots.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: Flashbots
 nav: Providers
 network: true
-overview: 'Flashbots publishes 1 API on the [APIs.io](https://apis.io/) network: Flashbots Auction & MEV Share Relay (JSON RPC) API. Tagged areas include MEV, Ethereum, Blockchain, JSON-RPC, and Relay.
+overview: 'Flashbots publishes 1 API on the [APIs.io](https://apis.io/) network: Auction & MEV Share Relay (JSON RPC) API. Tagged areas include MEV, Ethereum, Blockchain, JSON-RPC, and Relay.
 
 
   Flashbots'' developer surface includes authentication, developer portal, documentation, engineering blog, GitHub presence, and 11 more developer resources.'
@@ -167,7 +167,7 @@ plans:
 - name: Flashbots Plans Pricing
   plan_count: 1
   slug: flashbots-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Flashbots Rate Limits
@@ -203,7 +203,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -230,6 +230,6 @@ tags:
 - Flashbots Protect
 - SUAVE
 - Block Builders
-- Validators
+- Validator
 website: https://www.flashbots.net
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Aible API server (self-reported version 2.0.0) is the control plane behind the Aible platform. Its published route index lists 394 routes under the /v1 prefix across 29 modules — account, project,
@@ -139,7 +139,7 @@ plans:
 - name: Aible Plans Pricing
   plan_count: 4
   slug: aible-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Aible Rate Limits
@@ -172,7 +172,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

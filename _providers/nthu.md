@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 23 operations · 1 acting
 api_count: 1
 apis:
-- baseURL: https://oauth.ccxp.nthu.edu.tw/v1.1
-  baseurl_source: declared
-  description: The one API National Tsing Hua University operates itself. An OAuth 2.0 authorization-code service run by the Computer and Communication Center on NTHU's own host, letting a reviewed external applicat
-  name: NTHU Academic Information System OAuth 2.0 Service
-  slug: nthu-oauth-api
 - baseURL: https://api.nthusa.tw
   baseurl_source: declared
   description: A live, keyless, MIT-licensed FastAPI service publishing 22 paths over NTHU campus data — announcements by unit, campus bus routes and schedules, the course catalog and course search, department direc
@@ -60,6 +55,11 @@ apis:
 - description: 'NTHU Library''s discovery service on Ex Libris Primo VE. Notable for what it reveals rather than what it offers: its sign-in link declares authenticationProfile=NTHU_SAML and auth=SAML, which is the on'
   name: NTHU Library Discovery (Primo VE tenant)
   slug: nthu-library-discovery
+- baseURL: https://api.nthusa.tw
+  baseurl_source: declared
+  description: Authorization-code flow against NTHU Academic Information System accounts.
+  name: National Tsing Hua University O Auth API
+  slug: nthu-oauth-api
 artifact_total: 39
 collections:
 - collection_type: open
@@ -283,11 +283,11 @@ jsonld:
   property_count: 12
   slug: nthu-context
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: National Tsing Hua University
 nav: Providers
 network: true
-overview: 'National Tsing Hua University publishes 2 APIs on the [APIs.io](https://apis.io/) network: NTHU Academic Information System OAuth 2.0 Service and NTHU Data API. Tagged areas include Education, Higher Education, University, Taiwan, and Public Research University.
+overview: 'National Tsing Hua University publishes 2 APIs on the [APIs.io](https://apis.io/) network: NTHU Data API and O Auth API. Tagged areas include Education, Higher Education, University, Taiwan, and Public Research University.
 
 
   The National Tsing Hua University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -298,7 +298,7 @@ plans:
 - name: Nthu Plans Pricing
   plan_count: 2
   slug: nthu-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Nthu Rate Limits
@@ -330,8 +330,8 @@ scopes:
   slug: nthu-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 36.7
+  band: developing
+  composite: 44.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 75.3
@@ -339,11 +339,11 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.0
   facets:
     access_clarity: 39.5
     contract_governance: 29.5
-    contract_quality: 22.0
+    contract_quality: 54.1
     developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 26.3
@@ -360,8 +360,8 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 10
-      marker_coverage: 100.0
+      derived: 1
+      marker_coverage: 10.0
       total: 10
   regulatory:
     applies: true
@@ -370,8 +370,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -399,5 +399,6 @@ tags:
 - Course Catalog
 - Research Repository
 - Library
+- Identity Federation
 website: https://www.nthu.edu.tw/
 ---

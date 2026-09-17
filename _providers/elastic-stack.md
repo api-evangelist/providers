@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - baseURL: https://localhost:9200
   baseurl_source: declared
   description: The Elasticsearch API API from Elastic Stack — 1 operation(s) for elasticsearch api.
-  name: Elastic Stack Elasticsearch API API
+  name: Elastic Stack Elasticsearch API
   slug: elastic-stack-elasticsearch-api-api
 - baseURL: https://localhost:9200
   baseurl_source: declared
@@ -166,7 +166,7 @@ graphqls:
   slug: elastic-stack-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastic-stack.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Elastic Stack
 nav: Providers
 network: true
@@ -178,7 +178,7 @@ plans:
 - name: Elastic Stack Plans Pricing
   plan_count: 3
   slug: elastic-stack-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Elastic Stack Rate Limits
@@ -210,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

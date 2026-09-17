@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -162,11 +162,11 @@ jsonld:
   property_count: 0
   slug: context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Looker
 nav: Providers
 network: true
-overview: 'Google Looker publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Looks API, and Users API.
+overview: 'Google Looker publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Looks API, and Users API. Tagged areas include Analytics, Business Intelligence, Data Visualization, and Reporting.
 
 
   The Google Looker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -177,7 +177,7 @@ plans:
 - name: Google Looker Plans Pricing
   plan_count: 4
   slug: google-looker-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 7
   name: Google Looker Rate Limits
@@ -230,11 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -254,5 +251,10 @@ security:
   slug: google-looker-vulnerability-disclosure
   summary_line: security.txt · contact published
 slug: google-looker
+tags:
+- Analytics
+- Business Intelligence
+- Data Visualization
+- Reporting
 website: https://www.google.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,11 +54,6 @@ apis:
   description: The Manifests API from Pitney Bowes — 1 operation(s) for manifests.
   name: Pitney Bowes Manifests API
   slug: pitney-bowes-manifests-api
-- baseURL: https://shipping-api.pitneybowes.com
-  baseurl_source: declared
-  description: The Oauth API from Pitney Bowes — 1 operation(s) for oauth.
-  name: Pitney Bowes Oauth API
-  slug: pitney-bowes-oauth-api
 - baseURL: https://shipping-api.pitneybowes.com
   baseurl_source: declared
   description: The Pickups API from Pitney Bowes — 2 operation(s) for pickups.
@@ -84,6 +79,11 @@ apis:
   description: The Tracking API from Pitney Bowes — 1 operation(s) for tracking.
   name: Pitney Bowes Tracking API
   slug: pitney-bowes-tracking-api
+- baseURL: https://shipping-api.pitneybowes.com
+  baseurl_source: declared
+  description: The Oauth API from Pitney Bowes — 1 operation(s) for oauth.
+  name: Pitney Bowes OAUTH API
+  slug: pitney-bowes-oauth-api
 artifact_total: 25
 collections:
 - collection_type: open
@@ -117,6 +117,10 @@ collections:
   name: Pitney Bowes Shipping API
   slug: open-pitney-bowes
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://pitneybowes.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/capabilities/pitney-bowes-capability-edges.yml
   title: ''
@@ -162,14 +166,14 @@ finops:
   slug: pitney-bowes-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pitney-bowes.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Pitney Bowes
 nav: Providers
 network: true
-overview: 'Pitney Bowes publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Address API, Manifests API, Oauth API, and 5 more. Tagged areas include Mailing, Shipping, and Fortune 1000.
+overview: 'Pitney Bowes publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Address API, Manifests API, Pickups API, and 5 more. Tagged areas include Mailing, Shipping, and Fortune 1000.
 
 
-  Pitney Bowes'' developer surface includes authentication, engineering blog, and 6 more developer resources.'
+  Pitney Bowes'' developer surface includes authentication, engineering blog, and 7 more developer resources.'
 plans:
 - name: Pitney Bowes Plans Pricing
   plan_count: 1
@@ -190,7 +194,7 @@ press:
 - date: '2026-05-25'
   title: Pitney Bowes to Deploy Ambi Robotics AI-Powered ...
   url: https://www.ambirobotics.com/media/pitney-bowes-deploys-ambisort/
-random_paper: 15
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Pitney Bowes Rate Limits
@@ -227,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -247,4 +251,5 @@ tags:
 - Mailing
 - Shipping
 - Fortune 1000
+website: https://pitneybowes.com
 ---

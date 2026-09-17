@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.yubico.com/wsapi/2.0
@@ -212,7 +212,7 @@ overview: 'Yubico publishes 1 API on the [APIs.io](https://apis.io/) network: Va
 
 
   Yubico''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 26 more developer resources.'
-random_paper: 0
+random_paper: 13
 score:
   band: strong
   composite: 55.1
@@ -242,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

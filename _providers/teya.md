@@ -10,15 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.2
-  scored_at: '2026-09-15'
+  score: 42.2
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -75,11 +75,6 @@ apis:
   slug: teya-pay-at-table-api
 - baseURL: https://api.teya.com
   baseurl_source: declared
-  description: APIs exposed for pay by link customers
-  name: Teya PayByLink API
-  slug: teya-paybylink-api
-- baseURL: https://api.teya.com
-  baseurl_source: declared
   description: The Payment Requests API from Teya — 4 operation(s) for payment requests.
   name: Teya Payment Requests API
   slug: teya-payment-requests-api
@@ -100,11 +95,6 @@ apis:
   slug: teya-refunds-api
 - baseURL: https://api.teya.com
   baseurl_source: declared
-  description: The Reversals API from Teya — 1 operation(s) for reversals.
-  name: Teya Reversals API
-  slug: teya-reversals-api
-- baseURL: https://api.teya.com
-  baseurl_source: declared
   description: The Stores API from Teya — 3 operation(s) for stores.
   name: Teya Stores API
   slug: teya-stores-api
@@ -123,7 +113,12 @@ apis:
   description: Transactions
   name: Teya Transactions API
   slug: teya-transactions-api
-artifact_total: 37
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: APIs exposed for pay by link customers
+  name: Teya Pay by Link API
+  slug: teya-pay-by-link-api
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -328,11 +323,11 @@ modified: '2026-07-21'
 name: Teya
 nav: Providers
 network: true
-overview: 'Teya publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Captures API, DCC API, ePOS Registration API, and 13 more. Tagged areas include Company, Payments, Payment Processing, Card Acquiring, and Online Payments.
+overview: 'Teya publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Captures API, DCC API, ePOS Registration API, and 12 more. Tagged areas include Company, Payments, Payment Processing, Card Acquiring, and Online Payments.
 
 
   Teya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 15
+random_paper: 17
 scopes:
 - name: Teya Scopes
   scope_count: 2
@@ -340,7 +335,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.9
+  composite: 46.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -348,11 +343,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 54.7
+    contract_quality: 54.9
     developer_ergonomics: 35.1
     discoverability: 81.5
     operational_transparency: 2.6
@@ -366,10 +361,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 15
     mcp: derived
     skills: derived
   regulatory:
@@ -379,7 +374,7 @@ score:
     regime_id: payments
     score: 67.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,8 +57,8 @@ apis:
 - baseURL: https://vision.googleapis.com/v1
   baseurl_source: declared
   description: Search for products similar to an image
-  name: Google Cloud Vision ProductSearch API
-  slug: google-cloud-vision-productsearch-api
+  name: Google Cloud Vision Product Search API
+  slug: google-cloud-vision-product-search-api
 artifact_total: 20
 collections:
 - collection_type: postman
@@ -180,7 +180,7 @@ modified: '2026-05-19'
 name: Google Cloud Vision
 nav: Providers
 network: true
-overview: 'Google Cloud Vision publishes 3 APIs on the [APIs.io](https://apis.io/) network: Files API, Images API, and ProductSearch API. Tagged areas include Computer-Vision, Google Cloud, Image Analysis, Machine-Learning, and OCR.
+overview: 'Google Cloud Vision publishes 3 APIs on the [APIs.io](https://apis.io/) network: Files API, Images API, and Product Search API. Tagged areas include Computer-Vision, Google Cloud, Image Analysis, Machine-Learning, and OCR.
 
 
   The Google Cloud Vision catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -191,7 +191,7 @@ plans:
 - name: Google Cloud Vision Plans Pricing
   plan_count: 3
   slug: google-cloud-vision-plans-pricing
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Google Cloud Vision Rate Limits
@@ -239,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

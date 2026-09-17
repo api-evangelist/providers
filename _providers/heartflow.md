@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Production REST API behind the Heartflow One platform, observed live at https://api.heartflow.net. Every probed route answers with the Django REST Framework challenge {"detail":"Authentication credent
@@ -148,7 +148,7 @@ plans:
 - name: Heartflow Plans Pricing
   plan_count: 0
   slug: heartflow-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Heartflow Rate Limits
@@ -197,7 +197,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

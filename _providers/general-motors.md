@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: You can reach customers in their cars using GMs powerful, in-vehicle platform. Our tools can provide access to close to 200 data points, allowing you to monitor vehicle data in real-time to deliver th
@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: Using AI to advance manufacturing at General Motors
   url: https://news.gm.com/home.detail.html/Pages/topic/us/en/2025/mar/0311-ai.html
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: General Motors Rate Limits
@@ -178,7 +178,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 18.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -29,12 +29,12 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-09-15'
+  score: 29.8
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 3
@@ -95,7 +95,7 @@ apis:
 - baseURL: https://useast.api.elasticpath.com
   baseurl_source: declared
   description: 'Use the Administrator Latest Releases Catalog View API to retrieve product, hierarchy and node information. :::danger The Administrator Latest Releases Catalog View API is for Administrator use only. '
-  name: Elastic Path Administrator Latest Releases Catalog API API
+  name: Elastic Path Administrator Latest Releases Catalog API
   slug: elastic-path-administrator-latest-releases-catalog-api-api
 - baseURL: https://useast.api.elasticpath.com
   baseurl_source: declared
@@ -480,7 +480,7 @@ apis:
 - baseURL: https://useast.api.elasticpath.com
   baseurl_source: declared
   description: Use the Shopper Catalog View API to retrieve hierarchy, node and product information for a catalog release. When you publish a catalog for a store, you can define catalog rules so that you can show ca
-  name: Elastic Path Shopper Catalog API API
+  name: Elastic Path Shopper Catalog API
   slug: elastic-path-shopper-catalog-api-api
 - baseURL: https://useast.api.elasticpath.com
   baseurl_source: declared
@@ -986,7 +986,7 @@ json_schemas:
   property_count: 0
   slug: subscriptions
 layout: provider
-modified: 2026-06-13
+modified: '2026-09-16'
 name: Elastic Path
 nav: Providers
 network: true
@@ -1001,7 +1001,7 @@ plans:
 - name: Elastic Path Plans Pricing
   plan_count: 0
   slug: elastic-path-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Elastic Path Rate Limits
@@ -1019,7 +1019,7 @@ rules:
   slug: elastic-path-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.0
+  composite: 42.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.3
@@ -1027,11 +1027,11 @@ score:
     catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 64.8
+    contract_quality: 64.4
     developer_ergonomics: 33.3
     discoverability: 50.0
     operational_transparency: 52.6
@@ -1050,7 +1050,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1077,7 +1077,7 @@ tags:
 - E-Commerce
 - B2B
 - Product
-- Catalogs
+- Catalog
 - Order
 - Promotions
 - Subscription

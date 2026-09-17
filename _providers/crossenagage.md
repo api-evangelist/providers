@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 12
 apis:
 - baseURL: https://api.crossengage.io
@@ -40,11 +40,6 @@ apis:
   description: The Event management API from CrossEngage — 1 operation(s) for event management.
   name: CrossEngage Event management API
   slug: crossenagage-event-management-api
-- baseURL: https://api.crossengage.io
-  baseurl_source: declared
-  description: The File Attachment API API from CrossEngage — 1 operation(s) for file attachment api.
-  name: CrossEngage File Attachment API
-  slug: crossenagage-file-attachment-api-api
 - baseURL: https://api.crossengage.io
   baseurl_source: declared
   description: The Lead management API from CrossEngage — 1 operation(s) for lead management.
@@ -62,16 +57,6 @@ apis:
   slug: crossenagage-product-feed-api
 - baseURL: https://api.crossengage.io
   baseurl_source: declared
-  description: The Raw Export API API from CrossEngage — 5 operation(s) for raw export api.
-  name: CrossEngage Raw Export API
-  slug: crossenagage-raw-export-api-api
-- baseURL: https://api.crossengage.io
-  baseurl_source: declared
-  description: The Statistics API API from CrossEngage — 4 operation(s) for statistics api.
-  name: CrossEngage Statistics API
-  slug: crossenagage-statistics-api-api
-- baseURL: https://api.crossengage.io
-  baseurl_source: declared
   description: The User Attribute Management API from CrossEngage — 2 operation(s) for user attribute management.
   name: CrossEngage User Attribute Management API
   slug: crossenagage-user-attribute-management-api
@@ -80,7 +65,42 @@ apis:
   description: The User profile management API from CrossEngage — 5 operation(s) for user profile management.
   name: CrossEngage User profile management API
   slug: crossenagage-user-profile-management-api
-artifact_total: 22
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Destination API from CrossEngage — 2 operation(s) for destination.
+  name: CrossEngage Destination API
+  slug: crossenagage-destination-api
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Detailed API from CrossEngage — 1 operation(s) for detailed.
+  name: CrossEngage Detailed API
+  slug: crossenagage-detailed-api
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Event Class API from CrossEngage — 1 operation(s) for event class.
+  name: CrossEngage Event Class API
+  slug: crossenagage-event-class-api
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Export API from CrossEngage — 2 operation(s) for export.
+  name: CrossEngage Export API
+  slug: crossenagage-export-api
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Files API from CrossEngage — 1 operation(s) for files.
+  name: CrossEngage Files API
+  slug: crossenagage-files-api
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Kpi API from CrossEngage — 2 operation(s) for kpi.
+  name: CrossEngage Kpi API
+  slug: crossenagage-kpi-api
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Overall API from CrossEngage — 1 operation(s) for overall.
+  name: CrossEngage Overall API
+  slug: crossenagage-overall-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Crossenagage Webhooks
@@ -297,7 +317,7 @@ modified: '2026-08-13'
 name: CrossEngage
 nav: Providers
 network: true
-overview: 'CrossEngage publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Event management API, File Attachment API, Lead management API, and 6 more. Tagged areas include Company, Customer Data Platform, Marketing, Customer Engagement, and Marketing Automation.
+overview: 'CrossEngage publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Event management API, Lead management API, Opt-out management API, and 10 more. Tagged areas include Company, Customer Data Platform, Marketing, Customer Engagement, and Marketing Automation.
 
 
   The CrossEngage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -308,14 +328,14 @@ plans:
 - name: Crossenagage Plans Pricing
   plan_count: 0
   slug: crossenagage-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Crossenagage Rate Limits
   slug: crossenagage-rate-limits
 score:
-  band: developing
-  composite: 47.8
+  band: strong
+  composite: 55.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -323,11 +343,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.1
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 20.4
+    contract_quality: 52.8
     developer_ergonomics: 70.8
     discoverability: 81.5
     operational_transparency: 36.8
@@ -344,14 +364,14 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 8
-      marker_coverage: 88.9
-      total: 9
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 33.3
@@ -385,7 +405,7 @@ tags:
 - Predictive Analytics
 - Segmentation
 - Campaign Management
-- Product Feed
+- Product Feeds
 - Data Export
 - Webhook
 - Web Tracking

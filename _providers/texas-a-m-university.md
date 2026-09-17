@@ -34,35 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 8
 apis:
-- baseURL: https://geoservices.tamu.edu/Api/Geocode/V5/
-  baseurl_source: declared
-  description: Free geocoding, address normalisation and standardisation, census intersection and reverse geocoding from Texas A&M GeoServices. Version 5.0.0 returns up to 172 output fields; an API key from a free s
-  name: Texas A&M GeoServices Geocoding API
-  slug: geoservices-geocode
-- baseURL: https://api.aggiemap.tamu.edu
-  baseurl_source: declared
-  description: Read-only GeoJSON feed of Texas A&M campus dining locations with live open/closed state, status message, street address and an occupancy signal, served from the university's own Aggie Map backend. Ver
-  name: Aggie Map Dining Locations API
-  slug: aggiemap-dining
-- baseURL: https://veoride.geoservices.tamu.edu
-  baseurl_source: declared
-  description: Live positions of shared micromobility vehicles on and around campus as GeoJSON, served from veoride.geoservices.tamu.edu inside Texas A&M's own geoservices estate. Verified 200 on 2026-09-01 returnin
-  name: Campus Micromobility Vehicle Positions API
-  slug: campus-micromobility
 - description: Public Esri ArcGIS Server operated by Texas A&M IT, serving campus base maps, ADA routes, construction, department search, transit lots, bike maps and event pedestrian/vehicle flow layers. The service
   name: Texas A&M IT ArcGIS REST Services
   slug: gis-arcgis-rest
 - description: 'OAI-PMH 2.0 harvesting endpoint for OAKTrust, the Texas A&M University Libraries institutional repository. Verified 200 on 2026-09-01: repositoryName "OAKTrust", repositoryIdentifier oaktrust.library.'
   name: OAKTrust Institutional Repository — OAI-PMH
   slug: oaktrust-oaipmh
-- baseURL: https://idp.tamu.edu/idp/shibboleth
-  baseurl_source: declared
-  description: SAML 2.0 metadata for Texas A&M University's own Shibboleth Identity Provider, published unauthenticated from idp.tamu.edu. Verified 200 with content-type application/xml on 2026-09-01; the entityID s
-  name: Texas A&M Shibboleth Identity Provider Metadata
-  slug: identity-federation
 - description: Texas A&M University's registration in the InCommon identity federation, resolvable through InCommon's per-entity Metadata Query service under entityID urn:mace:incommon:tamu.edu. Verified 200 as appl
   name: InCommon Federation Registration
   slug: incommon-registration
@@ -84,6 +64,26 @@ apis:
 - description: 'Texas A&M University is registered in the Research Organization Registry as https://ror.org/01f5ytq51, with domain tamu.edu, established 1876, types education and funder, and cross-references to GRID '
   name: ROR Registration
   slug: ror-registration
+- baseURL: https://geoservices.tamu.edu/Api/Geocode/V5/
+  baseurl_source: declared
+  description: Campus dining locations and live status.
+  name: Texas A&M University Dining API
+  slug: texas-a-m-university-dining-api
+- baseURL: https://geoservices.tamu.edu/Api/Geocode/V5/
+  baseurl_source: declared
+  description: SAML 2.0 identity federation metadata.
+  name: Texas A&M University Federation API
+  slug: texas-a-m-university-federation-api
+- baseURL: https://geoservices.tamu.edu/Api/Geocode/V5/
+  baseurl_source: declared
+  description: Address to coordinate resolution with optional census intersection.
+  name: Texas A&M University Geocoding API
+  slug: texas-a-m-university-geocoding-api
+- baseURL: https://geoservices.tamu.edu/Api/Geocode/V5/
+  baseurl_source: declared
+  description: Shared vehicle positions on campus.
+  name: Texas A&M University Micromobility API
+  slug: texas-a-m-university-micromobility-api
 artifact_total: 26
 common:
 - group: company
@@ -242,7 +242,7 @@ modified: '2026-09-01'
 name: Texas A&M University
 nav: Providers
 network: true
-overview: 'Texas A&M University publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Texas A&M GeoServices Geocoding API, Aggie Map Dining Locations API, Campus Micromobility Vehicle Positions API, and 1 more. Tagged areas include University, Higher Education, Education, United States, and Texas.
+overview: 'Texas A&M University publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Dining API, Federation API, Geocoding API, and 1 more. Tagged areas include University, Higher Education, Education, United States, and Texas.
 
 
   The Texas A&M University catalog on APIs.io includes 1 JSON-LD context.
@@ -253,26 +253,26 @@ plans:
 - name: Texas A M University Plans Pricing
   plan_count: 2
   slug: texas-a-m-university-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Texas A M University Rate Limits
   slug: texas-a-m-university-rate-limits
 score:
   band: developing
-  composite: 42.7
+  composite: 43.4
   coverage:
     artifact_dirs: 13
-    catalog_earned: 56.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 54.5
+    contract_quality: 57.1
     developer_ergonomics: 38.1
     discoverability: 64.8
     operational_transparency: 7.9
@@ -298,7 +298,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

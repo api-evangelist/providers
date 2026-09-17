@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Clicklane is Asbury Automotive's proprietary online vehicle purchase platform that enables customers to complete the full car buying process digitally, including vehicle selection, financing, trade-in
@@ -78,7 +78,7 @@ modified: '2026-04-19'
 name: Asbury Automotive Group
 nav: Providers
 network: true
-overview: 'Asbury Automotive Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealerships, Retail, Vehicles, and Fortune 500.
+overview: 'Asbury Automotive Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, Retail, Vehicles, and Fortune 500.
 
 
   Asbury Automotive Group''s developer surface includes developer portal and 2 more developer resources.'
@@ -102,7 +102,7 @@ press:
 - date: '2026-05-25'
   title: Asbury Automotive Group chooses Tekion Corp's DMS
   url: https://www.linkedin.com/posts/colintrichardson_asbury-tekion-rollout-reaches-jim-koons-dealerships-activity-7325886275754885120-NLKR
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Asbury Automotive Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -141,7 +141,7 @@ security:
 slug: asbury-automotive
 tags:
 - Automotive
-- Dealerships
+- Dealership
 - Retail
 - Vehicles
 - Fortune 500

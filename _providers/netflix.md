@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Netflix Open Connect is the purpose-built content delivery network that delivers Netflix streaming traffic. The Open Connect program provides partner ISPs with embedded appliances and peering arrangem
@@ -120,7 +120,7 @@ press:
 - date: '2026-05-25'
   title: Netflix aims to be an innovator in using AI in the creative ...
   url: https://www.instagram.com/reel/DXNX3-8DBcV/?hl=en
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Netflix Rate Limits
@@ -145,7 +145,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

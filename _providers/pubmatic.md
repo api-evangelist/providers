@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'PubMatic''s Model Context Protocol (MCP) server — the company''s public agent-facing API surface for programmatic advertising. It exposes four published tools over JSON-RPC 2.0: deal_management (create '
@@ -280,7 +280,7 @@ plans:
 - name: Pubmatic Plans Pricing
   plan_count: 0
   slug: pubmatic-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Pubmatic Rate Limits
@@ -314,7 +314,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

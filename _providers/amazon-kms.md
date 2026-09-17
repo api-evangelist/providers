@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -98,6 +98,10 @@ collections:
   name: Amazon KMS API
   slug: open-amazon-kms
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/agentic-access/amazon-kms-agentic-access.yml
   title: ''
@@ -279,7 +283,7 @@ jsonld:
   property_count: 7
   slug: amazon-kms-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon KMS
 nav: Providers
 network: true
@@ -289,12 +293,12 @@ overview: 'Amazon KMS publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon KMS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon KMS''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 25 more developer resources.'
+  Amazon KMS''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 26 more developer resources.'
 plans:
 - name: Amazon Kms Plans Pricing
   plan_count: 3
   slug: amazon-kms-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Amazon Kms Rate Limits
@@ -348,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -387,5 +391,5 @@ use_cases:
   name: Digital Signatures
 - description: Import your own cryptographic key material into AWS KMS for compliance requirements.
   name: BYOK (Bring Your Own Key)
-website: https://aws.amazon.com/kms/
+website: https://amazon.com
 ---

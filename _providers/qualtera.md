@@ -48,7 +48,7 @@ overview: 'Qualtera is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Qualtera''s developer surface includes product news and 3 more developer resources.'
-random_paper: 2
+random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualtera/refs/heads/main/screenshots/qualtera-2026-09-02T152604.png
 slug: qualtera
 tags:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ overview: 'People First Bank publishes 7 APIs on the [APIs.io](https://apis.io/)
 
 
   People First Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, support, and 17 more developer resources.'
-random_paper: 19
+random_paper: 5
 score:
   band: thin
   composite: 35.9
@@ -270,7 +270,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

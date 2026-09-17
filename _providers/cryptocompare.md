@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -104,11 +104,6 @@ apis:
   slug: cryptocompare-options-api
 - baseURL: https://min-api.cryptocompare.com/data
   baseurl_source: declared
-  description: Top-of-book order book data across integrated exchanges.
-  name: CryptoCompare Order Book API
-  slug: cryptocompare-order-book-api
-- baseURL: https://min-api.cryptocompare.com/data
-  baseurl_source: declared
   description: Cross-cutting overview endpoints (market cap, dominance).
   name: CryptoCompare Overview API
   slug: cryptocompare-overview-api
@@ -132,6 +127,11 @@ apis:
   description: Top list endpoints by 24h volume, market cap, exchange volume, and pair volume.
   name: CryptoCompare Top Lists API
   slug: cryptocompare-top-lists-api
+- baseURL: wss://streamer.cryptocompare.com/v2
+  baseurl_source: declared
+  description: Top-of-book order book data across integrated exchanges.
+  name: CryptoCompare Orderbook API
+  slug: cryptocompare-orderbook-api
 arazzos:
 - description: Rank assets, read one asset's detail and supply history, then search news.
   name: CryptoCompare Asset Research
@@ -227,6 +227,11 @@ collections:
   name: CoinDesk Data API (CCData) Asset Top Lists API
   slug: open-cryptocompare-top-lists-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/overlays/cryptocompare-order-book-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cryptocompare-order-book-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/agentic-access/cryptocompare-agentic-access.yml
   title: ''
@@ -554,12 +559,12 @@ overview: 'CryptoCompare publishes 17 APIs on the [APIs.io](https://apis.io/) ne
   The CryptoCompare catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  CryptoCompare''s developer surface includes authentication, developer portal, signup flow, pricing, support, engineering blog, documentation, and 41 more developer resources.'
+  CryptoCompare''s developer surface includes authentication, developer portal, signup flow, pricing, support, engineering blog, documentation, and 42 more developer resources.'
 plans:
 - name: Cryptocompare Plans Pricing
   plan_count: 4
   slug: cryptocompare-plans-pricing
-random_paper: 9
+random_paper: 8
 rate_limits:
 - limit_count: 11
   name: Cryptocompare Rate Limits
@@ -633,7 +638,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

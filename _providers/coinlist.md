@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -45,19 +45,9 @@ api_count: 1
 apis:
 - baseURL: https://api.coinlist.co
   baseurl_source: declared
-  description: The DocumentSubmissions API from CoinList — 1 operation(s) for documentsubmissions.
-  name: CoinList DocumentSubmissions API
-  slug: coinlist-documentsubmissions-api
-- baseURL: https://api.coinlist.co
-  baseurl_source: declared
   description: The KYC API from CoinList — 1 operation(s) for kyc.
   name: CoinList KYC API
   slug: coinlist-kyc-api
-- baseURL: https://api.coinlist.co
-  baseurl_source: declared
-  description: The OAuth API from CoinList — 3 operation(s) for oauth.
-  name: CoinList OAuth API
-  slug: coinlist-oauth-api
 - baseURL: https://api.coinlist.co
   baseurl_source: declared
   description: The Offers API from CoinList — 4 operation(s) for offers.
@@ -98,6 +88,16 @@ apis:
   description: The Wallet Ownership API from CoinList — 1 operation(s) for wallet ownership.
   name: CoinList Wallet Ownership API
   slug: coinlist-wallet-ownership-api
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The OAuth API from CoinList — 3 operation(s) for oauth.
+  name: CoinList O Auth API
+  slug: coinlist-oauth-api
+- baseURL: https://api.coinlist.co
+  baseurl_source: declared
+  description: The document submissions API from CoinList — 1 operation(s) for document submissions.
+  name: CoinList document submissions API
+  slug: coinlist-document-submissions-api
 arazzos:
 - description: Load an offer, check on-chain balance/allowance, prove and allow-list the wallet, then create and track a participation.
   name: CoinList Passage - Invest flow
@@ -299,11 +299,11 @@ modified: '2026-07-18'
 name: CoinList
 nav: Providers
 network: true
-overview: 'CoinList publishes 11 APIs on the [APIs.io](https://apis.io/) network, including DocumentSubmissions API, KYC API, OAuth API, and 8 more. Tagged areas include Company, Fintech, Cryptocurrency, Token Sales, and Tokenized Equities.
+overview: 'CoinList publishes 11 APIs on the [APIs.io](https://apis.io/) network, including KYC API, Offers API, Participations API, and 8 more. Tagged areas include Company, Fintech, Cryptocurrency, Token Sales, and Tokenized Equities.
 
 
   CoinList''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 25 more developer resources.'
-random_paper: 8
+random_paper: 11
 scopes:
 - name: Coinlist Scopes
   scope_count: 0
@@ -345,7 +345,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the Teladoc Health Solo virtual-care platform. Manages patients, appointments, waiting rooms, appointment slots, visit notes, attachments, patient documents, episodes of care, encounter r
@@ -238,7 +238,7 @@ plans:
 - name: Teladoc Plans Pricing
   plan_count: 0
   slug: teladoc-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Teladoc Rate Limits
@@ -276,7 +276,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

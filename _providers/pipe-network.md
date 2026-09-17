@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Content-addressed decentralized object storage on Solana. Create users, upload/download files, resolve deterministic public URLs, and manage prepaid USDC credits. Auth is SIWS (Sign In With Solana -> '
@@ -157,11 +157,11 @@ modified: '2026-07-20'
 name: Pipe Network
 nav: Providers
 network: true
-overview: 'Pipe Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Storage, Decentralized Storage, and Content Delivery Network.
+overview: 'Pipe Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Storage, Decentralized Storage, and CDN.
 
 
   Pipe Network''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 18 more developer resources.'
-random_paper: 14
+random_paper: 21
 score:
   band: emerging
   composite: 17.5
@@ -189,7 +189,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ tags:
 - Crypto Web3
 - Storage
 - Decentralized Storage
-- Content Delivery Network
+- CDN
 - Solana
 - Encryption
 - AI Agents

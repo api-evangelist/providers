@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Swytchcode''s publicly consumable surfaces: developer documentation and a published llms.txt. The primary interface is an npm-installable CLI (`swy`) plus a local MCP server (stdio/localhost, not a hos'
@@ -177,7 +177,7 @@ plans:
 - name: Swytchcode Plans Pricing
   plan_count: 3
   slug: swytchcode-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Swytchcode Rate Limits
@@ -205,7 +205,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

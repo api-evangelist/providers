@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'CCC''s only publicly named API product. Secure Share is described by CCC as "a network using cloud-based APIs to permit more than 22,000 collision repairers to connect to apps using the CIECA BMS data '
@@ -198,7 +198,7 @@ overview: 'CCC Intelligent Solutions publishes 3 APIs on the [APIs.io](https://a
 
 
   CCC Intelligent Solutions'' developer surface includes documentation, engineering blog, support, signup flow, authentication, and 26 more developer resources.'
-random_paper: 16
+random_paper: 4
 scopes:
 - name: Ccc Intelligent Solutions Scopes
   scope_count: 9
@@ -239,7 +239,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

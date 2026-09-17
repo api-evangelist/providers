@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 13
+- acting_count: 0
   human_in_the_loop: 0
   name: Hyperice Agentic Access
-  operation_count: 21
+  operation_count: 8
   slug: hyperice-agentic-access
-  summary_line: 21 operations · 13 acting
+  summary_line: 8 operations
 api_count: 1
 apis:
 - description: The Shopify Storefront GraphQL API served on Hyperice's own domain. Full introspection succeeded unauthenticated on 2026-07-31 — 424 types, 35 QueryRoot fields, 41 Mutation fields — making this the ri
@@ -129,10 +129,10 @@ common:
   type: GraphQL
   url: graphql/hyperice-storefront.graphql
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-storefront-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/_original/hyperice-storefront-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/hyperice-storefront-openapi.yml
+  url: openapi/_original/hyperice-storefront-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/overlays/hyperice-storefront-overlay.yaml
   title: ''
@@ -260,7 +260,7 @@ mcp_servers:
 - description: Hyperice runs a live, publicly addressable MCP server as the transport for the Universal Commerce Protocol (UCP) shopping service on its Shopify storefront. The server is declared by Hyperice's own UC
   name: Hyperice MCP Server
   slug: hyperice-mcp-server
-modified: '2026-07-31'
+modified: '2026-09-16'
 name: Hyperice
 nav: Providers
 network: true
@@ -268,7 +268,7 @@ overview: 'Hyperice publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Hyperice''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 32 more developer resources.'
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Hyperice Rate Limits
@@ -319,7 +319,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

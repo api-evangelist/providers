@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   description: OpenTelemetry trace ingestion
   name: Highlight (highlight.io) Traces API
   slug: highlight-io-traces-api
-- baseURL: https://example.com
-  baseurl_source: spec
-  description: Inbound webhook delivery from Highlight
-  name: Highlight (highlight.io) Webhooks API
-  slug: highlight-io-webhooks-api
 arazzos:
 - description: Record a backend error as an OTLP error span and a matching error log so Highlight groups it into an error group.
   name: Highlight Backend Error Report
@@ -108,7 +103,7 @@ arazzos:
 - description: Open a session, attach track-event properties to it, then flush a recording payload.
   name: Highlight Session Track Event
   slug: highlight-io-session-track-event-workflow
-artifact_total: 64
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Highlight OTLP Logs API
@@ -156,6 +151,10 @@ collections:
   name: Highlight Webhooks API
   slug: open-highlight-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://highlight.io
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/agentic-access/highlight-io-agentic-access.yml
   title: ''
@@ -502,22 +501,22 @@ jsonld:
   property_count: 8
   slug: highlight-io-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Highlight (highlight.io)
 nav: Providers
 network: true
-overview: 'Highlight (highlight.io) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Logs API, Metrics API, Sessions API, and 2 more. Tagged areas include Observability, Session Replay, Error Monitoring, APM, and Logging.
+overview: 'Highlight (highlight.io) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Logs API, Metrics API, Sessions API, and 1 more. Tagged areas include Observability, Session Replay, Error Monitoring, APM, and Logging.
 
 
   The Highlight (highlight.io) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Highlight (highlight.io)''s developer surface includes developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, changelog, and 62 more developer resources.'
+  Highlight (highlight.io)''s developer surface includes developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, changelog, and 63 more developer resources.'
 plans:
 - name: Highlight Io Plans Pricing
   plan_count: 6
   slug: highlight-io-plans-pricing
-random_paper: 16
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Highlight Io Rate Limits
@@ -546,7 +545,7 @@ rules:
   slug: highlight-io-rules
 score:
   band: strong
-  composite: 65.5
+  composite: 65.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 86.5
@@ -554,11 +553,11 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 92.1
     contract_governance: 28.8
-    contract_quality: 62.7
+    contract_quality: 62.1
     developer_ergonomics: 56.0
     discoverability: 64.8
     operational_transparency: 84.2
@@ -569,9 +568,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -594,5 +593,5 @@ tags:
 - Open-Source
 - Frontend Monitoring
 - Full Stack Monitoring
-website: https://www.highlight.io
+website: https://highlight.io
 ---

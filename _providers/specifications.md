@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 13
 apis:
 - description: The OpenAPI Specification (formerly Swagger) is the dominant industry standard for describing HTTP-based RESTful APIs. OAS describes endpoints, operations, parameters, request/response schemas, authen
@@ -252,11 +252,11 @@ modified: '2026-05-22'
 name: API Specifications
 nav: Providers
 network: true
-overview: 'API Specifications publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Specification, Specification Languages, API Design, Contracts, and Schemas.
+overview: 'API Specifications publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Specification, Specification Languages, API Design, Contracts, and Schema.
 
 
   The API Specifications catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 1
+random_paper: 18
 rules:
 - effective_rule_count: 5
   extends: []
@@ -288,7 +288,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 22.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -306,7 +306,7 @@ tags:
 - Specification Languages
 - API Design
 - Contracts
-- Schemas
+- Schema
 - Interface Definitions
 - Standards
 use_cases:

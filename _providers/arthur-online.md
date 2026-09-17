@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -203,9 +203,9 @@ apis:
   slug: arthur-online-viewings-api
 - baseURL: https://api.arthuronline.co.uk/v2
   baseurl_source: declared
-  description: The Workorders API from Arthur Online — 29 operation(s) for workorders.
-  name: Arthur Online Workorders API
-  slug: arthur-online-workorders-api
+  description: The Work Orders API from Arthur Online — 29 operation(s) for work orders.
+  name: Arthur Online Work Orders API
+  slug: arthur-online-work-orders-api
 arazzos:
 - description: 'The UK lettings funnel in Arthur Online: confirm the entity, create an applicant, book a viewing on a unit, record the offer, convert the viewing into a tenancy, add the tenant and register the deposi'
   name: Arthur Online - applicant to tenancy
@@ -599,7 +599,7 @@ plans:
 - name: Arthur Online Plans
   plan_count: 3
   slug: arthur-online-plans
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Arthur Online Rate Limits
@@ -618,7 +618,7 @@ score:
   facets:
     access_clarity: 76.3
     contract_governance: 8.3
-    contract_quality: 27.8
+    contract_quality: 27.7
     developer_ergonomics: 63.7
     discoverability: 57.4
     operational_transparency: 31.6
@@ -652,7 +652,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

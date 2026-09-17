@@ -24,7 +24,7 @@ name: Pazpo
 nav: Providers
 network: true
 overview: Pazpo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Property, PropTech, and Marketplace.
-random_paper: 8
+random_paper: 4
 slug: pazpo
 tags:
 - Company

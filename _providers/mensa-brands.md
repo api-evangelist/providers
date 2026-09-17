@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,12 +54,12 @@ created: '2026-07-17'
 description: Mensa Brands (rebranded BRND.ME) is an India-based, technology-led house of brands founded in 2021 by Ananth Narayanan (former Myntra CEO), building and scaling digital-first consumer brands across fashion, beauty, personal care, home and FMCG. Backed by Accel, Tiger Global and Prosus Ventures, it reached unicorn status and operates a portfolio of acquired D2C brands. This profile was surfaced as a portfolio company of prosus-ventures; a public developer API surface was searched for and none was found — the company exposes a corporate/consumer web presence rather than a developer platform.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mensa-brands.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Mensa Brands
 nav: Providers
 network: true
 overview: Mensa Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Retail, and Fashion.
-random_paper: 14
+random_paper: 1
 score:
   band: minimal
   composite: 5.0
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -102,5 +102,6 @@ tags:
 - Beauty
 - House of Brands
 - D2C
+- Direct to Consumer
 website: https://mensabrands.com
 ---

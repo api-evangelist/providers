@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -84,6 +84,10 @@ collections:
   name: Amazon Lake Formation API
   slug: open-amazon-lake-formation
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/agentic-access/amazon-lake-formation-agentic-access.yml
   title: ''
@@ -262,7 +266,7 @@ jsonld:
   property_count: 7
   slug: amazon-lake-formation-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Lake Formation
 nav: Providers
 network: true
@@ -272,12 +276,12 @@ overview: 'Amazon Lake Formation publishes 1 API on the [APIs.io](https://apis.i
   The Amazon Lake Formation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lake Formation''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 23 more developer resources.'
+  Amazon Lake Formation''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 24 more developer resources.'
 plans:
 - name: Amazon Lake Formation Plans Pricing
   plan_count: 3
   slug: amazon-lake-formation-plans-pricing
-random_paper: 3
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Lake Formation Rate Limits
@@ -331,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -368,5 +372,5 @@ use_cases:
   name: Self-Service Analytics
 - description: Share data lake resources across AWS accounts and organizations.
   name: Cross-Account Data Sharing
-website: https://aws.amazon.com/lake-formation/
+website: https://amazon.com
 ---

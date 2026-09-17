@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://star-therapeutics.com/wp-json
@@ -59,11 +59,6 @@ apis:
   slug: star-therapeutics-media-api
 - baseURL: https://star-therapeutics.com/wp-json
   baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for star-therapeutics.com URLs.
-  name: Star Therapeutics Oembed API
-  slug: star-therapeutics-oembed-api
-- baseURL: https://star-therapeutics.com/wp-json
-  baseurl_source: declared
   description: Corporate pages (11 published at harvest time).
   name: Star Therapeutics Pages API
   slug: star-therapeutics-pages-api
@@ -82,6 +77,11 @@ apis:
   description: Categories and tags. Five categories are registered; the post_tag taxonomy is registered but empty.
   name: Star Therapeutics Taxonomy API
   slug: star-therapeutics-taxonomy-api
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for star-therapeutics.com URLs.
+  name: Star Therapeutics o Embed API
+  slug: star-therapeutics-o-embed-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -239,7 +239,7 @@ overview: 'Star Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/)
 
 
   Star Therapeutics'' developer surface includes product news, authentication, and 23 more developer resources.'
-random_paper: 20
+random_paper: 2
 score:
   band: thin
   composite: 36.7
@@ -274,7 +274,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -47,19 +47,9 @@ api_count: 1
 apis:
 - baseURL: https://memory-db.us-east-1.amazonaws.com
   baseurl_source: declared
-  description: The ACLs API from Amazon MemoryDB — 1 operation(s) for acls.
-  name: Amazon MemoryDB ACLs API
-  slug: amazon-memorydb-acls-api
-- baseURL: https://memory-db.us-east-1.amazonaws.com
-  baseurl_source: declared
   description: The Clusters API from Amazon MemoryDB — 1 operation(s) for clusters.
   name: Amazon MemoryDB Clusters API
   slug: amazon-memorydb-clusters-api
-- baseURL: https://memory-db.us-east-1.amazonaws.com
-  baseurl_source: declared
-  description: The EngineVersions API from Amazon MemoryDB — 1 operation(s) for engineversions.
-  name: Amazon MemoryDB EngineVersions API
-  slug: amazon-memorydb-engineversions-api
 - baseURL: https://memory-db.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Events API from Amazon MemoryDB — 1 operation(s) for events.
@@ -70,11 +60,6 @@ apis:
   description: The NodeTypes API from Amazon MemoryDB — 1 operation(s) for nodetypes.
   name: Amazon MemoryDB NodeTypes API
   slug: amazon-memorydb-nodetypes-api
-- baseURL: https://memory-db.us-east-1.amazonaws.com
-  baseurl_source: declared
-  description: The ParameterGroups API from Amazon MemoryDB — 1 operation(s) for parametergroups.
-  name: Amazon MemoryDB ParameterGroups API
-  slug: amazon-memorydb-parametergroups-api
 - baseURL: https://memory-db.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The ReservedNodes API from Amazon MemoryDB — 2 operation(s) for reservednodes.
@@ -92,11 +77,6 @@ apis:
   slug: amazon-memorydb-snapshots-api
 - baseURL: https://memory-db.us-east-1.amazonaws.com
   baseurl_source: declared
-  description: The SubnetGroups API from Amazon MemoryDB — 1 operation(s) for subnetgroups.
-  name: Amazon MemoryDB SubnetGroups API
-  slug: amazon-memorydb-subnetgroups-api
-- baseURL: https://memory-db.us-east-1.amazonaws.com
-  baseurl_source: declared
   description: The Tags API from Amazon MemoryDB — 1 operation(s) for tags.
   name: Amazon MemoryDB Tags API
   slug: amazon-memorydb-tags-api
@@ -105,6 +85,26 @@ apis:
   description: The Users API from Amazon MemoryDB — 1 operation(s) for users.
   name: Amazon MemoryDB Users API
   slug: amazon-memorydb-users-api
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ACLs API from Amazon MemoryDB — 1 operation(s) for acls.
+  name: Amazon MemoryDB AC Ls API
+  slug: amazon-memorydb-acls-api
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Engine Versions API from Amazon MemoryDB — 1 operation(s) for engine versions.
+  name: Amazon MemoryDB Engine Versions API
+  slug: amazon-memorydb-engine-versions-api
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Parameter Groups API from Amazon MemoryDB — 1 operation(s) for parameter groups.
+  name: Amazon MemoryDB Parameter Groups API
+  slug: amazon-memorydb-parameter-groups-api
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Subnet Groups API from Amazon MemoryDB — 1 operation(s) for subnet groups.
+  name: Amazon MemoryDB Subnet Groups API
+  slug: amazon-memorydb-subnet-groups-api
 artifact_total: 87
 collections:
 - collection_type: postman
@@ -186,6 +186,10 @@ collections:
   name: Amazon MemoryDB API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -381,22 +385,22 @@ jsonld:
   property_count: 21
   slug: amazon-memorydb-memorydb-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon MemoryDB
 nav: Providers
 network: true
-overview: 'Amazon MemoryDB publishes 12 APIs on the [APIs.io](https://apis.io/) network, including ACLs API, Clusters API, EngineVersions API, and 9 more. Tagged areas include Broadcasting, Media Processing, and Media.
+overview: 'Amazon MemoryDB publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Events API, NodeTypes API, and 9 more. Tagged areas include Broadcasting, Media Processing, and Media.
 
 
   The Amazon MemoryDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MemoryDB''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon MemoryDB''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Memorydb Plans Pricing
   plan_count: 3
   slug: amazon-memorydb-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Memorydb Rate Limits
@@ -450,7 +454,7 @@ score:
       marker_coverage: 100.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -487,5 +491,5 @@ use_cases:
   name: Caching Layer
 - description: Build real-time messaging and event streaming with Redis pub/sub patterns.
   name: Pub/Sub Messaging
-website: https://aws.amazon.com/memorydb/
+website: https://amazon.com
 ---

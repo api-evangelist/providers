@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Commercial REST API over the Tastewise food and beverage intelligence graph. Publicly documented operations span recipes (popular/trending), ingredients, dishes and side dishes, restaurants (search, d
@@ -171,7 +171,7 @@ plans:
 - name: Tastewise Plans Pricing
   plan_count: 0
   slug: tastewise-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Tastewise Rate Limits
@@ -199,7 +199,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -57,19 +57,9 @@ apis:
   slug: amazon-glue-databrew-jobs-api
 - baseURL: https://databrew.amazonaws.com
   baseurl_source: declared
-  description: The ProfileJobs API from Amazon Glue DataBrew — 2 operation(s) for profilejobs.
-  name: Amazon Glue DataBrew ProfileJobs API
-  slug: amazon-glue-databrew-profilejobs-api
-- baseURL: https://databrew.amazonaws.com
-  baseurl_source: declared
   description: The Projects API from Amazon Glue DataBrew — 4 operation(s) for projects.
   name: Amazon Glue DataBrew Projects API
   slug: amazon-glue-databrew-projects-api
-- baseURL: https://databrew.amazonaws.com
-  baseurl_source: declared
-  description: The RecipeJobs API from Amazon Glue DataBrew — 2 operation(s) for recipejobs.
-  name: Amazon Glue DataBrew RecipeJobs API
-  slug: amazon-glue-databrew-recipejobs-api
 - baseURL: https://databrew.amazonaws.com
   baseurl_source: declared
   description: The Recipes API from Amazon Glue DataBrew — 5 operation(s) for recipes.
@@ -95,6 +85,16 @@ apis:
   description: The Tags API from Amazon Glue DataBrew — 2 operation(s) for tags.
   name: Amazon Glue DataBrew Tags API
   slug: amazon-glue-databrew-tags-api
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The Profile Jobs API from Amazon Glue DataBrew — 2 operation(s) for profile jobs.
+  name: Amazon Glue DataBrew Profile Jobs API
+  slug: amazon-glue-databrew-profile-jobs-api
+- baseURL: https://databrew.amazonaws.com
+  baseurl_source: declared
+  description: The Recipe Jobs API from Amazon Glue DataBrew — 2 operation(s) for recipe jobs.
+  name: Amazon Glue DataBrew Recipe Jobs API
+  slug: amazon-glue-databrew-recipe-jobs-api
 artifact_total: 736
 collections:
 - collection_type: postman
@@ -161,6 +161,10 @@ collections:
   name: AWS Glue DataBrew Datasets Tags API
   slug: open-amazon-glue-databrew-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2325,22 +2329,22 @@ jsonld:
   property_count: 152
   slug: amazon-glue-databrew-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Glue DataBrew
 nav: Providers
 network: true
-overview: 'Amazon Glue DataBrew publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Jobs API, ProfileJobs API, and 7 more. Tagged areas include Data Analytics, Data Preparation, ETL, and Machine-Learning.
+overview: 'Amazon Glue DataBrew publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Jobs API, Projects API, and 7 more. Tagged areas include Data Analytics, Data Preparation, ETL, and Machine-Learning.
 
 
   The Amazon Glue DataBrew catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Glue DataBrew''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Glue DataBrew''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Glue Databrew Plans Pricing
   plan_count: 3
   slug: amazon-glue-databrew-plans-pricing
-random_paper: 12
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Glue Databrew Rate Limits
@@ -2394,7 +2398,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2432,5 +2436,5 @@ use_cases:
   name: Data Quality Validation
 - description: Automate recurring data transformation jobs as part of data pipeline workflows.
   name: ETL Pipeline Automation
-website: https://aws.amazon.com/glue/features/databrew/
+website: https://amazon.com
 ---

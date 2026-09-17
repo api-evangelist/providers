@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ overview: 'Packlink publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Packlink''s developer surface includes developer portal, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 5
+random_paper: 9
 score:
   band: thin
   composite: 27.1
@@ -266,7 +266,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ tags:
 - Shipping
 - Logistics
 - Parcel Delivery
-- Carriers
+- Carrier
 - Fulfillment
 website: http://www.packlink.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: Private connected-vehicle backend (formerly branded Subaru STARLINK) that powers the MySubaru mobile app and owner portal. Supports remote lock / unlock, remote engine start with climate control, vehi
@@ -131,7 +131,7 @@ modified: '2026-05-23'
 name: Subaru of America
 nav: Providers
 network: true
-overview: 'Subaru of America publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Automotive, Cars, Vehicles, and Connected Vehicle.
+overview: 'Subaru of America publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Automotive, Cars, Vehicles, and Connected Vehicles.
 
 
   Subaru of America''s developer surface includes support and 13 more developer resources.'
@@ -139,7 +139,7 @@ plans:
 - name: Subaru Of America Plans Pricing
   plan_count: 5
   slug: subaru-of-america-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Subaru Of America Rate Limits
@@ -164,7 +164,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ tags:
 - Automotive
 - Cars
 - Vehicles
-- Connected Vehicle
+- Connected Vehicles
 - Telematics
 - OEM
 website: https://www.subaru.com/

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Timely's REST API (version 1.1) at api.timelyapp.com, secured with OAuth 2.0, for programmatic access to accounts, projects, clients, users, events (time entries), labels and reports.
@@ -139,7 +139,7 @@ overview: 'Memory publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Memory''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 14
+random_paper: 5
 score:
   band: thin
   composite: 32.8
@@ -162,7 +162,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

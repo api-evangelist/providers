@@ -29,7 +29,7 @@ name: AirMap
 nav: Providers
 network: true
 overview: AirMap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Drones, Airspace, and Unmanned Traffic Management.
-random_paper: 4
+random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/airmap/refs/heads/main/screenshots/airmap-2026-07-25T195428.png
 security:
 - kind: domain-security

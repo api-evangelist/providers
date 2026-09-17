@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -48,32 +48,32 @@ apis:
 - baseURL: https://api.imentiv.ai
   baseurl_source: declared
   description: 'The AI Insights API provides conversational AI-powered analysis of emotional data from your media content. **Features:** - Ask natural language questions about detected emotions, patterns, and trends '
-  name: Imentiv AI AI Insights API API
+  name: Imentiv AI AI Insights API
   slug: imentiv-ai-ai-insights-api-api
 - baseURL: https://api.imentiv.ai
   baseurl_source: declared
   description: 'The Audio Emotion Analysis API processes audio files or YouTube URLs to analyze emotions and transcripts. The API provides: **Speaker Diarization:** Identifies and segments audio by speakers. **Audio '
-  name: Imentiv AI Audio Emotion API API
+  name: Imentiv AI Audio Emotion API
   slug: imentiv-ai-audio-emotion-api-api
 - baseURL: https://api.imentiv.ai
   baseurl_source: declared
   description: The Image Emotion Recognition API by Imentiv analyzes human facial expressions in an image and returns the detected emotions. It can detect multiple faces and evaluate each face's emotional state, pro
-  name: Imentiv AI Image Emotion API API
+  name: Imentiv AI Image Emotion API
   slug: imentiv-ai-image-emotion-api-api
 - baseURL: https://api.imentiv.ai
   baseurl_source: declared
   description: The Report API provides comprehensive emotion analysis reports in PDF format for analyzed media content. **Features:** - Generate detailed PDF reports for video emotion analysis - Includes visual char
-  name: Imentiv AI Report API API
+  name: Imentiv AI Report API
   slug: imentiv-ai-report-api-api
 - baseURL: https://api.imentiv.ai
   baseurl_source: declared
   description: The Text Emotion Analysis API by Imentiv analyzes a given piece of text and returns the detected emotional tone(s). **Features:** - The API processes the text, detects emotions for each paragraph, and
-  name: Imentiv AI Text Emotion API API
+  name: Imentiv AI Text Emotion API
   slug: imentiv-ai-text-emotion-api-api
 - baseURL: https://api.imentiv.ai
   baseurl_source: declared
   description: The Video Emotion Analysis API by Imentiv analyzes the emotional states of individuals in a video. It performs multi-modal emotion detection using facial expressions, audio, and text transcript, and h
-  name: Imentiv AI Video Emotion API API
+  name: Imentiv AI Video Emotion API
   slug: imentiv-ai-video-emotion-api-api
 artifact_total: 20
 collections:
@@ -133,11 +133,11 @@ finops:
   slug: imentiv-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/imentiv-ai.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Imentiv AI
 nav: Providers
 network: true
-overview: 'Imentiv AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Insights API API, Audio Emotion API API, Image Emotion API API, and 3 more. Tagged areas include Artificial Intelligence, Emotion Detection, Machine-Learning, and Video Analysis.
+overview: 'Imentiv AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Insights API, Audio Emotion API, Image Emotion API, and 3 more. Tagged areas include Artificial Intelligence, Emotion Detection, Machine-Learning, and Video Analysis.
 
 
   Imentiv AI''s developer surface includes authentication and 4 more developer resources.'
@@ -145,14 +145,14 @@ plans:
 - name: Imentiv Ai Plans Pricing
   plan_count: 3
   slug: imentiv-ai-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Imentiv Ai Rate Limits
   slug: imentiv-ai-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 27.5
   coverage:
     artifact_dirs: 9
     catalog_earned: 41.0
@@ -160,11 +160,11 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 56.2
+    contract_quality: 50.8
     developer_ergonomics: 21.4
     discoverability: 59.3
     operational_transparency: 7.9
@@ -172,12 +172,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

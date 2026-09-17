@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 35
   slug: blockchain.com-agentic-access
   summary_line: 35 operations · 5 acting
-api_count: 3
+api_count: 11
 apis:
 - description: Real-time WebSocket gateway for the Blockchain.com Exchange. Anonymous channels stream heartbeat, L2/L3 order books, prices, symbols, ticker and trades; authenticated channels cover auth, balances and
   name: Blockchain.com Exchange WebSocket API
@@ -126,46 +126,46 @@ apis:
 - description: 'Partner API for embedding Blockchain.com crypto purchases. Covers authentication, eligibility (supported currencies / regions), quotes (pricing for crypto transactions), and order state. Rate-limited '
   name: Blockchain.com Pay Partner API
   slug: blockchaincom-pay-partner-api
-- baseURL: https://blockchain.info
+- baseURL: wss://ws.blockchain.info/mercury-gateway/v1/ws
   baseurl_source: declared
   description: Bitcoin address summaries and unspent outputs.
   name: Blockchain.com Addresses API
-  slug: blockchain-addresses-api
-- baseURL: https://blockchain.info
+  slug: blockchain.com-addresses-api
+- baseURL: wss://ws.blockchain.info/mercury-gateway/v1/ws
   baseurl_source: declared
   description: Bitcoin block lookups and the latest block.
   name: Blockchain.com Blocks API
-  slug: blockchain-blocks-api
-- baseURL: https://blockchain.info
+  slug: blockchain.com-blocks-api
+- baseURL: wss://ws.blockchain.info/mercury-gateway/v1/ws
   baseurl_source: declared
   description: Historical time-series datasets for Bitcoin network metrics.
   name: Blockchain.com Charts API
-  slug: blockchain-charts-api
-- baseURL: https://blockchain.info
+  slug: blockchain.com-charts-api
+- baseURL: wss://ws.blockchain.info/mercury-gateway/v1/ws
   baseurl_source: declared
   description: Bitcoin exchange rates and fiat conversion.
   name: Blockchain.com Market Data API
-  slug: blockchain-market-data-api
-- baseURL: https://blockchain.info
+  slug: blockchain.com-market-data-api
+- baseURL: wss://ws.blockchain.info/mercury-gateway/v1/ws
   baseurl_source: declared
   description: Simple network metrics — difficulty, block height, supply, ETA, averages.
   name: Blockchain.com Network API
-  slug: blockchain-network-api
-- baseURL: https://blockchain.info
+  slug: blockchain.com-network-api
+- baseURL: wss://ws.blockchain.info/mercury-gateway/v1/ws
   baseurl_source: declared
   description: Mining pool distribution.
   name: Blockchain.com Pools API
-  slug: blockchain-pools-api
-- baseURL: https://blockchain.info
+  slug: blockchain.com-pools-api
+- baseURL: wss://ws.blockchain.info/mercury-gateway/v1/ws
   baseurl_source: declared
   description: Real-time blockchain statistics.
   name: Blockchain.com Stats API
-  slug: blockchain-stats-api
-- baseURL: https://blockchain.info
+  slug: blockchain.com-stats-api
+- baseURL: wss://ws.blockchain.info/mercury-gateway/v1/ws
   baseurl_source: declared
   description: Bitcoin transaction lookups.
   name: Blockchain.com Transactions API
-  slug: blockchain-transactions-api
+  slug: blockchain.com-transactions-api
 artifact_total: 46
 asyncapis:
 - description: ''
@@ -403,7 +403,7 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 52.5
+  composite: 53.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 54.0
@@ -411,11 +411,11 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 42.4
+    contract_quality: 44.9
     developer_ergonomics: 66.1
     discoverability: 81.5
     operational_transparency: 52.6
@@ -437,7 +437,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -285,7 +285,7 @@ plans:
 - name: Lemmy Plans Pricing
   plan_count: 3
   slug: lemmy-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Lemmy Rate Limits
@@ -328,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -350,6 +350,6 @@ tags:
 - Fediverse
 - Link Aggregator
 - Open-Source
-- Social Networks
+- Social Network
 website: https://join-lemmy.org
 ---

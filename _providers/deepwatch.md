@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The authenticated GraphQL API behind the Deepwatch Security Center console (devportal.deepwatch.com). The endpoint is an AWS AppSync GraphQL service at devportalapi.deepwatch.com/graphql/ with a realt
@@ -163,7 +163,7 @@ overview: 'Deepwatch publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Deepwatch''s developer surface includes engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 4
+random_paper: 3
 scopes:
 - name: Deepwatch Scopes
   scope_count: 7
@@ -191,7 +191,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

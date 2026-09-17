@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ plans:
 - name: Pokemon Tcg Plans Pricing
   plan_count: 3
   slug: pokemon-tcg-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Pokemon Tcg Rate Limits
@@ -197,7 +197,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

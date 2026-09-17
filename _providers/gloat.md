@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API to sync users, jobs, candidacies, projects, learning items, and the Skills Foundation job architecture into Gloat, plus RBAC authorization and company settings.
@@ -164,7 +164,7 @@ overview: 'Gloat publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gloat''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, sandbox, and 17 more developer resources.'
-random_paper: 10
+random_paper: 7
 score:
   band: thin
   composite: 39.1
@@ -189,7 +189,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -218,6 +218,5 @@ tags:
 - Skills
 - Workforce
 - Internal Mobility
-- HR Tech
 website: https://www.gloat.com/
 ---

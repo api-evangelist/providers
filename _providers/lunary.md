@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -55,11 +55,6 @@ apis:
   slug: lunary-analytics-api
 - baseURL: https://api.lunary.ai/v1
   baseurl_source: declared
-  description: The AuditLogs API from Lunary — 1 operation(s) for auditlogs.
-  name: Lunary AuditLogs API
-  slug: lunary-auditlogs-api
-- baseURL: https://api.lunary.ai/v1
-  baseurl_source: declared
   description: The Checklists API from Lunary — 2 operation(s) for checklists.
   name: Lunary Checklists API
   slug: lunary-checklists-api
@@ -70,19 +65,9 @@ apis:
   slug: lunary-datasets-api
 - baseURL: https://api.lunary.ai/v1
   baseurl_source: declared
-  description: The DatasetsV2 API from Lunary — 13 operation(s) for datasetsv2.
-  name: Lunary DatasetsV2 API
-  slug: lunary-datasetsv2-api
-- baseURL: https://api.lunary.ai/v1
-  baseurl_source: declared
   description: The Evals API from Lunary — 7 operation(s) for evals.
   name: Lunary Evals API
   slug: lunary-evals-api
-- baseURL: https://api.lunary.ai/v1
-  baseurl_source: declared
-  description: The ExternalUsers API from Lunary — 2 operation(s) for externalusers.
-  name: Lunary ExternalUsers API
-  slug: lunary-externalusers-api
 - baseURL: https://api.lunary.ai/v1
   baseurl_source: declared
   description: The Models API from Lunary — 2 operation(s) for models.
@@ -113,6 +98,21 @@ apis:
   description: The Views API from Lunary — 2 operation(s) for views.
   name: Lunary Views API
   slug: lunary-views-api
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Audit Logs API from Lunary — 1 operation(s) for audit logs.
+  name: Lunary Audit Logs API
+  slug: lunary-audit-logs-api
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The Datasets V2 API from Lunary — 13 operation(s) for datasets v2.
+  name: Lunary Datasets V2 API
+  slug: lunary-datasets-v2-api
+- baseURL: https://api.lunary.ai/v1
+  baseurl_source: declared
+  description: The External Users API from Lunary — 2 operation(s) for external users.
+  name: Lunary External Users API
+  slug: lunary-external-users-api
 artifact_total: 35
 collections:
 - collection_type: open
@@ -227,7 +227,7 @@ modified: '2026-05-08'
 name: Lunary
 nav: Providers
 network: true
-overview: 'Lunary publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, AuditLogs API, Checklists API, and 10 more. Tagged areas include AI Evaluation, Observability, Open-Source, LLM, and Tracing.
+overview: 'Lunary publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Checklists API, Datasets API, and 10 more. Tagged areas include AI Evaluation, Observability, Open-Source, LLM, and Tracing.
 
 
   Lunary''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
@@ -235,7 +235,7 @@ plans:
 - name: Lunary Plans Pricing
   plan_count: 4
   slug: lunary-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Lunary Rate Limits
@@ -268,7 +268,7 @@ score:
       total: 13
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

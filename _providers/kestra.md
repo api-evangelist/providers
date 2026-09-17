@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   slug: kestra-flows-api
 - baseURL: http://localhost:8080
   baseurl_source: spec
-  description: Manage namespace-scoped key-value pairs.
-  name: Kestra KVStore API
-  slug: kestra-kvstore-api
-- baseURL: http://localhost:8080
-  baseurl_source: spec
   description: Manage namespaces.
   name: Kestra Namespaces API
   slug: kestra-namespaces-api
@@ -78,6 +73,11 @@ apis:
   description: Manage and test triggers.
   name: Kestra Triggers API
   slug: kestra-triggers-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Manage namespace-scoped key-value pairs.
+  name: Kestra KV Store API
+  slug: kestra-kv-store-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -261,7 +261,7 @@ plans:
 - name: Kestra Plans Pricing
   plan_count: 3
   slug: kestra-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Kestra Rate Limits
@@ -297,7 +297,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

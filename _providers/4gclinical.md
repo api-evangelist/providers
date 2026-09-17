@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Production API host operated by 4G Clinical on AWS API Gateway at api.4gclinical.com. Anonymous requests to every probed path return HTTP 403 ForbiddenException, so no route, contract or discovery doc
@@ -138,7 +138,7 @@ plans:
 - name: 4Gclinical Plans Pricing
   plan_count: 0
   slug: 4gclinical-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: 4Gclinical Rate Limits
@@ -182,7 +182,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

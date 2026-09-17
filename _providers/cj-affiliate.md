@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 10
@@ -304,7 +304,7 @@ modified: '2026-08-13'
 name: CJ Affiliate
 nav: Providers
 network: true
-overview: 'CJ Affiliate publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CJ Commission Detail API, CJ Product Search API, Advertiser Lookup API, and 5 more. Tagged areas include Affiliate Marketing, Affiliate Network, Commission, Product Search, and Publishers.
+overview: 'CJ Affiliate publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CJ Commission Detail API, CJ Product Search API, Advertiser Lookup API, and 5 more. Tagged areas include Affiliate Marketing, Affiliate Network, Commissions, Product Search, and Publishers.
 
 
   The CJ Affiliate catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -315,7 +315,7 @@ plans:
 - name: Cj Affiliate Plans Pricing
   plan_count: 2
   slug: cj-affiliate-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Cj Affiliate Rate Limits
@@ -350,7 +350,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -369,10 +369,10 @@ slug: cj-affiliate
 tags:
 - Affiliate Marketing
 - Affiliate Network
-- Commission
+- Commissions
 - Product Search
 - Publishers
-- Advertiser
+- Advertisers
 - GraphQL
 - E-Commerce
 - Product Feeds

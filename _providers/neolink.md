@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for managing Reolink cameras through the Neolink bridge, providing RTSP streaming, camera control, and motion detection integration.
@@ -62,7 +62,7 @@ plans:
 - name: Neolink Plans Pricing
   plan_count: 3
   slug: neolink-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Neolink Rate Limits
@@ -87,7 +87,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

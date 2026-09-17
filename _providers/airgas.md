@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Airgas provides industrial, medical, and specialty gases and related products. The Airgas online platform supports B2B ordering, account management, order tracking, digital proof of delivery, and supp
@@ -211,7 +211,7 @@ press:
 - date: '2026-05-25'
   title: Air Liquide continues on its successful trajectory in Q1 2026
   url: https://www.webdisclosure.com/press-release/air-liquide-epa-ai-growth-performance-and-record-investments-air-liquide-continues-on-its-successful-trajectory-in-q1-2026-w7jxGDiQpbI
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Airgas Rate Limits
@@ -255,7 +255,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

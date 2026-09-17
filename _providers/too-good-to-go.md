@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -163,7 +163,7 @@ plans:
 - name: Too Good To Go Plans Pricing
   plan_count: 0
   slug: too-good-to-go-plans-pricing
-random_paper: 16
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Too Good To Go Rate Limits
@@ -197,7 +197,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

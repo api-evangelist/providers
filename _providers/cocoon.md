@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,11 +81,11 @@ modified: '2026-07-18'
 name: Cocoon
 nav: Providers
 network: true
-overview: 'Cocoon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Leave Management, HR Tech, and Compliance.
+overview: 'Cocoon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Leave Management, Compliance, and Payroll.
 
 
   Cocoon''s developer surface includes engineering blog, pricing, changelog, and 6 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: emerging
   composite: 16.8
@@ -106,7 +106,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 16.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -127,7 +127,6 @@ tags:
 - Company
 - Human Resources
 - Leave Management
-- HR Tech
 - Compliance
 - Payroll
 - HRIS

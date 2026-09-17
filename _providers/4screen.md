@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The production 4.screen API. Automakers and mobility service providers integrate it into infotainment and navigation systems to render 4.screen content in the vehicle, and the 4.screen customer portal
@@ -173,7 +173,7 @@ plans:
 - name: 4Screen Plans Pricing
   plan_count: 0
   slug: 4screen-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: 4Screen Rate Limits
@@ -214,7 +214,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -240,7 +240,7 @@ tags:
 - AdTech
 - Automotive
 - Mobility
-- Connected Vehicle
+- Connected Vehicles
 - In-Car Commerce
 - Location
 - Navigation

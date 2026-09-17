@@ -30,7 +30,7 @@ name: InVisionApp
 nav: Providers
 network: true
 overview: InVisionApp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Design, Product Design, Prototyping, and Design Collaboration.
-random_paper: 3
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/invisionapp/refs/heads/main/screenshots/invisionapp-2026-08-07T170949.png
 security:
 - kind: domain-security

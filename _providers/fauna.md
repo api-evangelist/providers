@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
 - description: The Fauna Event Feeds API provides a polling-based approach to change data capture, complementing the real-time Event Streaming API. Event feeds allow developers to retrieve batches of change events a
   name: Fauna Event Feeds API
   slug: event-feeds-api
-- baseURL: https://graphql.fauna.com
-  baseurl_source: declared
-  description: 'The Fauna GraphQL API allows developers to interact with their Fauna databases using standard GraphQL queries and mutations. By uploading a GraphQL schema, Fauna automatically generates the necessary '
-  name: Fauna GraphQL API
-  slug: graphql-api
 - description: The Fauna JavaScript Driver is the official client SDK for interacting with Fauna from JavaScript and TypeScript applications. It provides template-based FQL query interpolation with type safety and a
   name: Fauna JavaScript Driver
   slug: javascript-driver
@@ -81,6 +76,11 @@ apis:
   description: Fetch, update, validate, and manage a database's schema as FSL files. Supports staged schema changes with status checking, committing, and abandoning.
   name: fauna Schema API
   slug: fauna-schema-api
+- baseURL: https://db.fauna.com
+  baseurl_source: declared
+  description: Execute GraphQL queries and mutations against a Fauna database.
+  name: Fauna Graph QL API
+  slug: fauna-graph-ql-api
 artifact_total: 48
 asyncapis:
 - description: The Fauna Event Streaming API enables real-time change data capture by maintaining an open connection to the Fauna database and pushing events to clients as they occur. Developers can subscribe to doc
@@ -106,6 +106,10 @@ collections:
   name: Fauna Core HTTP EventFeeds Schema API
   slug: open-fauna-schema-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://fauna.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/agentic-access/fauna-agentic-access.yml
   title: ''
@@ -229,22 +233,22 @@ jsonld:
   property_count: 9
   slug: fauna-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Fauna
 nav: Providers
 network: true
-overview: 'Fauna publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Event Streaming API, GraphQL API, EventFeeds API, and 2 more.
+overview: 'Fauna publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Event Streaming API, EventFeeds API, Query API, and 2 more.
 
 
   The Fauna catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Fauna''s developer surface includes authentication and 7 more developer resources.'
+  Fauna''s developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Fauna Plans Pricing
   plan_count: 4
   slug: fauna-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Fauna Rate Limits
@@ -301,7 +305,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -317,4 +321,5 @@ security:
   slug: fauna-domain-security
   summary_line: DMARC
 slug: fauna
+website: https://fauna.com
 ---

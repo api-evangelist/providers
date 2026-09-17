@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -87,11 +87,6 @@ apis:
   slug: ascend-financeestimate-api
 - baseURL: https://api.useascend.com
   baseurl_source: declared
-  description: A payment plan broken down over a seriies of regular installments
-  name: Ascend InstallmentPlans API
-  slug: ascend-installmentplans-api
-- baseURL: https://api.useascend.com
-  baseurl_source: declared
   description: An single installment on a installment plan
   name: Ascend Installments API
   slug: ascend-installments-api
@@ -110,11 +105,6 @@ apis:
   description: Loan details for a financed program
   name: Ascend Loans API
   slug: ascend-loans-api
-- baseURL: https://api.useascend.com
-  baseurl_source: declared
-  description: Represents records of a transaction between an insured and an agency or MGA.
-  name: Ascend OneTimePayments API
-  slug: ascend-onetimepayments-api
 - baseURL: https://api.useascend.com
   baseurl_source: declared
   description: The Organization Account Users API from Ascend — 2 operation(s) for organization account users.
@@ -160,6 +150,16 @@ apis:
   description: The Wholesalers API from Ascend — 1 operation(s) for wholesalers.
   name: Ascend Wholesalers API
   slug: ascend-wholesalers-api
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: A payment plan broken down over a seriies of regular installments
+  name: Ascend Installment Plans API
+  slug: ascend-installment-plans-api
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents records of a transaction between an insured and an agency or MGA.
+  name: Ascend One-Time Payments API
+  slug: ascend-one-time-payments-api
 artifact_total: 52
 asyncapis:
 - description: ''
@@ -383,10 +383,10 @@ overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Ascend''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 21 more developer resources.'
-random_paper: 13
+random_paper: 6
 score:
   band: developing
-  composite: 48.4
+  composite: 48.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -394,11 +394,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 58.1
+    contract_quality: 59.0
     developer_ergonomics: 44.6
     discoverability: 75.9
     operational_transparency: 26.3
@@ -420,7 +420,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Intellectible projects - list and run workflows synchronously, and manage Library files (create signed upload URLs, upload bytes, finalize, retrieve, list, and d
@@ -112,7 +112,7 @@ overview: 'Intellectible publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Intellectible''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 11
+random_paper: 12
 score:
   band: emerging
   composite: 20.9
@@ -141,7 +141,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

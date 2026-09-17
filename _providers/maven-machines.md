@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 21
 apis:
 - baseURL: https://integrations.mavenmachines.com
@@ -136,11 +136,6 @@ apis:
   slug: maven-machines-return-events-api
 - baseURL: https://integrations.mavenmachines.com
   baseurl_source: declared
-  description: The routeplans API from Maven Machines — 1 operation(s) for routeplans.
-  name: Maven Machines Routeplans API
-  slug: maven-machines-routeplans-api
-- baseURL: https://integrations.mavenmachines.com
-  baseurl_source: declared
   description: The servicetechs API from Maven Machines — 3 operation(s) for servicetechs.
   name: Maven Machines Servicetechs API
   slug: maven-machines-servicetechs-api
@@ -179,6 +174,11 @@ apis:
   description: The Vehicles API from Maven Machines — 3 operation(s) for vehicles.
   name: Maven Machines Vehicles API
   slug: maven-machines-vehicles-api
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The Route Plans API from Maven Machines — 1 operation(s) for route plans.
+  name: Maven Machines Route Plans API
+  slug: maven-machines-route-plans-api
 artifact_total: 33
 asyncapis:
 - description: ''
@@ -352,7 +352,7 @@ plans:
 - name: Maven Machines Plans Pricing
   plan_count: 0
   slug: maven-machines-plans-pricing
-random_paper: 13
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Maven Machines Rate Limits
@@ -371,7 +371,7 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 65.0
+    contract_quality: 65.2
     developer_ergonomics: 47.0
     discoverability: 81.5
     operational_transparency: 18.4
@@ -386,7 +386,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 5
+- acting_count: 8
   human_in_the_loop: 0
   name: 6Sense Agentic Access
-  operation_count: 7
+  operation_count: 16
   slug: 6sense-agentic-access
-  summary_line: 7 operations · 5 acting
+  summary_line: 16 operations · 8 acting
 api_count: 7
 apis:
 - baseURL: https://epsilon.6sense.com
@@ -367,7 +367,7 @@ plans:
 - name: 6Sense Plans Pricing
   plan_count: 4
   slug: 6sense-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: 6Sense Rate Limits
@@ -390,7 +390,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 70.6
+  composite: 71.2
   coverage:
     artifact_dirs: 31
     catalog_earned: 90.3
@@ -398,11 +398,11 @@ score:
     catalog_gap: 24.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 93.4
     contract_governance: 43.2
-    contract_quality: 67.7
+    contract_quality: 70.1
     developer_ergonomics: 58.9
     discoverability: 81.5
     operational_transparency: 81.6
@@ -418,7 +418,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

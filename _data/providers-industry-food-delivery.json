@@ -27,7 +27,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -81,7 +81,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
@@ -135,7 +135,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -182,7 +182,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
@@ -225,7 +225,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
@@ -268,7 +268,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -311,7 +311,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
@@ -354,7 +354,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -397,7 +397,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -447,7 +447,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -490,7 +490,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -543,7 +543,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -571,22 +571,65 @@
      "rank": 12
     },
     {
+     "name": "Delivery Hero",
+     "slug": "delivery-hero",
+     "description": "Delivery Hero SE is a Berlin-based multinational online food-delivery and quick-commerce company operating in 70+ markets through local brands including foodpanda, Talabat, Glovo, PedidosYa, Yemeksepeti, Hungerstation and Pandamart. Its public developer surface exposes logistics and partner-integration APIs. The flagship On Demand Rider (ODR) API lets merchants request on-demand courier delivery across brands such as Glovo and pandago — registering outlets, estimating delivery fees and times, creating and tracking orders, retrieving proof of pickup/delivery/return, and receiving order-status, courier-location and refund webhooks. Additional Q-Commerce and Restaurant (POS) integration APIs handle order transmission and grocery assortment/promotion sync for restaurant and quick-commerce partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png",
+     "score": 37.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 65.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 37.5,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "agent_score": 33.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
      "name": "Grubhub",
      "slug": "grubhub",
      "description": "Grubhub works with brands, point of sale companies, and online ordering providers to power an ordering experience in Grubhub Marketplace and within restaurant-branded web experiences. This documentation describes the normalized endpoints required for ingesting menu content and facilitating order transmission.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png",
-     "score": 37.4,
+     "score": 37.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 74.4,
+      "contract_quality": 74.0,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -615,7 +658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Wolt",
@@ -633,7 +676,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -658,7 +701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Petpooja",
@@ -676,7 +719,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -701,24 +744,24 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Just Eat",
      "slug": "just-eat",
      "description": "Just Eat Takeaway.com is a leading global online food-delivery marketplace, formed by the 2020 merger of Just Eat and Takeaway.com and headquartered in Amsterdam. It connects consumers with local restaurants and a last-mile delivery network across the UK, Europe, Australia/New Zealand and North America. Its public developer surface (developers.just-eat.com) exposes the Just Eat UK API for restaurant discovery and search, product catalogue and menu ingestion, order-lifecycle management, delivery-state tracking, checkout and basket, and consumer communication preferences, plus specialised partner integrations: JET Connect (point-of-sale) and JET Go (delivery as a service). Order-lifecycle and delivery-state events are pushed to partners through an extensive webhook surface, including async webhooks that use a callback URL.",
-     "score": 34.8,
+     "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 60.6,
+      "contract_quality": 62.7,
       "contract_governance": 4.5,
       "operational_transparency": 10.5,
       "developer_ergonomics": 32.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
@@ -743,7 +786,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Getir",
@@ -761,7 +804,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -786,7 +829,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Taker",
@@ -804,7 +847,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -820,49 +863,6 @@
       "rate_limit_signal": false,
       "event_surface_described": true,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "Delivery Hero",
-     "slug": "delivery-hero",
-     "description": "Delivery Hero SE is a Berlin-based multinational online food-delivery and quick-commerce company operating in 70+ markets through local brands including foodpanda, Talabat, Glovo, PedidosYa, Yemeksepeti, Hungerstation and Pandamart. Its public developer surface exposes logistics and partner-integration APIs. The flagship On Demand Rider (ODR) API lets merchants request on-demand courier delivery across brands such as Glovo and pandago — registering outlets, estimating delivery fees and times, creating and tracking orders, retrieving proof of pickup/delivery/return, and receiving order-status, courier-location and refund webhooks. Additional Q-Commerce and Restaurant (POS) integration APIs handle order transmission and grocery assortment/promotion sync for restaurant and quick-commerce partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png",
-     "score": 33.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 48.1,
-      "contract_governance": 4.5,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 37.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "agent_score": 25.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -890,7 +890,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 23.3,
      "agent_band": "agent-aware",
@@ -933,7 +933,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -983,7 +983,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1033,7 +1033,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1076,7 +1076,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1147,7 +1147,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -1175,107 +1175,22 @@
      "rank": 25
     },
     {
-     "name": "Takealot",
-     "slug": "takealot",
-     "description": "Takealot is South Africa's largest online retailer and the flagship brand of the Takealot Group, a Cape Town-headquartered e-commerce holding company that is majority-owned (approximately 96%) by Naspers through its consumer-internet arm Prosus. The Group operates a connected ecosystem of consumer brands — Takealot.com (general merchandise marketplace), Mr D (on-demand food and grocery delivery), Superbalist.com (fashion and homeware, divested in September 2024 to a South African consortium led by Blank Canvas Capital but historically associated with the Group), and TFS (Takealot Fulfilment Services, the Group's first- and last-mile logistics arm) — and employs more than 7,300 people across South Africa. Takealot.com itself is a 1P-plus-3P hybrid marketplace where Takealot Retail sells its own inventory alongside thousands of third-party Marketplace sellers; sellers list, price, fulfil, and analyse their offers through the Seller Portal at seller.takealot.com and programmatically via the public Takealot Seller API. The Seller API is the company's primary external developer surface — a Swagger 2.0 / OpenAPI REST API at seller-api.takealot.com that exposes offer management (single and 10,000-item batch create / update / patch), stock-health and storage-fee diagnostics, and sales / order / customer-invoice reporting, authenticated with per-seller API keys minted from the Seller Portal and governed by per-key rate-limit headers (x-RateLimit-Limit / Remaining / Reset). There is no public buyer-side / catalog / consumer-facing API, no published OAuth flow, no webhook surface, no SDKs, no CLI, and no developer Slack / forum; the Group's GitHub presence (TAKEALOT org) is a small set of archived infrastructure forks (Diamond, statsite, kafka-connect-bigquery, protoc-gen-bq-schema, Newtonsoft.Json, Lithium) rather than a maintained developer platform. The Seller API is the integration point that powers South Africa's marketplace-listing tool ecosystem (Stock2Shop, Wherehouse, Flowgear, OrderEazi, and similar) and is the canonical artifact to profile for any Takealot capability work.",
-     "score": 24.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 46.4,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "agent_score": 22.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 26
-    },
-    {
-     "name": "Zerocater",
-     "slug": "zerocater",
-     "description": "Zerocater is a San Francisco-founded corporate catering and workplace food company that builds and manages office food programs for businesses. It acts as an intermediary between employers and a curated network of local restaurants, caterers and chefs, covering daily corporate catering (buffet and individually boxed), chef-led on-site corporate cafeterias with snack and barista programs, and full-service event catering with on-site staffing. Its CaterAi product uses AI to recommend and assemble menus from a team's stated preferences, dietary restrictions and order history, and to book on-site staff and event decor. Zerocater states it serves 500+ companies across 12+ major U.S. metros including the SF Bay Area, New York, Austin, Boston, Los Angeles, Chicago, Washington DC, Seattle, Denver, Dallas, Atlanta, Philadelphia and Phoenix. It runs a customer-facing ordering web application at app.zerocater.com backed by an undocumented Django REST Framework token-authenticated JSON API (v3), whose hypermedia root index is served anonymously, and it publishes a first-party Python client library on PyPI.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/screenshots/zerocater-2026-09-02T171641.png",
-     "score": 24.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "agent_score": 5.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 27
-    },
-    {
      "name": "2ndKitchen",
      "slug": "2ndkitchen",
      "description": "2ndKitchen was a Chicago-based food-technology startup (Techstars '18) that let businesses without an on-site kitchen — bars, breweries, hotels, and apartment communities — offer custom food menus sourced from nearby partner restaurants, handling ordering, pricing, payment, and delivery on their behalf. The company was acquired by REEF Technology in December 2021 and its 2ndkitchen.com domain now redirects to reeftechnology.com. This API Evangelist profile captures the set of nine microservice OpenAPI definitions still published on the legacy Swagger UI at docs.2ndkitchen.com (authentication, business, user, restaurant, order, pricing, payment, delivery, and indexing services), preserved here as a historical record of the platform's API surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/screenshots/2ndkitchen-2026-07-25T181134.png",
-     "score": 24.1,
+     "score": 25.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 43.7,
+      "contract_quality": 50.2,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 28.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1307,6 +1222,91 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 26
+    },
+    {
+     "name": "Takealot",
+     "slug": "takealot",
+     "description": "Takealot is South Africa's largest online retailer and the flagship brand of the Takealot Group, a Cape Town-headquartered e-commerce holding company that is majority-owned (approximately 96%) by Naspers through its consumer-internet arm Prosus. The Group operates a connected ecosystem of consumer brands — Takealot.com (general merchandise marketplace), Mr D (on-demand food and grocery delivery), Superbalist.com (fashion and homeware, divested in September 2024 to a South African consortium led by Blank Canvas Capital but historically associated with the Group), and TFS (Takealot Fulfilment Services, the Group's first- and last-mile logistics arm) — and employs more than 7,300 people across South Africa. Takealot.com itself is a 1P-plus-3P hybrid marketplace where Takealot Retail sells its own inventory alongside thousands of third-party Marketplace sellers; sellers list, price, fulfil, and analyse their offers through the Seller Portal at seller.takealot.com and programmatically via the public Takealot Seller API. The Seller API is the company's primary external developer surface — a Swagger 2.0 / OpenAPI REST API at seller-api.takealot.com that exposes offer management (single and 10,000-item batch create / update / patch), stock-health and storage-fee diagnostics, and sales / order / customer-invoice reporting, authenticated with per-seller API keys minted from the Seller Portal and governed by per-key rate-limit headers (x-RateLimit-Limit / Remaining / Reset). There is no public buyer-side / catalog / consumer-facing API, no published OAuth flow, no webhook surface, no SDKs, no CLI, and no developer Slack / forum; the Group's GitHub presence (TAKEALOT org) is a small set of archived infrastructure forks (Diamond, statsite, kafka-connect-bigquery, protoc-gen-bq-schema, Newtonsoft.Json, Lithium) rather than a maintained developer platform. The Seller API is the integration point that powers South Africa's marketplace-listing tool ecosystem (Stock2Shop, Wherehouse, Flowgear, OrderEazi, and similar) and is the canonical artifact to profile for any Takealot capability work.",
+     "score": 24.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 46.4,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "agent_score": 22.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 27
+    },
+    {
+     "name": "Zerocater",
+     "slug": "zerocater",
+     "description": "Zerocater is a San Francisco-founded corporate catering and workplace food company that builds and manages office food programs for businesses. It acts as an intermediary between employers and a curated network of local restaurants, caterers and chefs, covering daily corporate catering (buffet and individually boxed), chef-led on-site corporate cafeterias with snack and barista programs, and full-service event catering with on-site staffing. Its CaterAi product uses AI to recommend and assemble menus from a team's stated preferences, dietary restrictions and order history, and to book on-site staff and event decor. Zerocater states it serves 500+ companies across 12+ major U.S. metros including the SF Bay Area, New York, Austin, Boston, Los Angeles, Chicago, Washington DC, Seattle, Denver, Dallas, Atlanta, Philadelphia and Phoenix. It runs a customer-facing ordering web application at app.zerocater.com backed by an undocumented Django REST Framework token-authenticated JSON API (v3), whose hypermedia root index is served anonymously, and it publishes a first-party Python client library on PyPI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/screenshots/zerocater-2026-09-02T171641.png",
+     "score": 24.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 28
     },
     {
@@ -1325,7 +1325,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1368,7 +1368,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 5.6,
      "agent_band": "agent-aware",
@@ -1411,7 +1411,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1461,7 +1461,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1504,7 +1504,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1547,7 +1547,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1597,7 +1597,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1640,7 +1640,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1683,7 +1683,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -1726,7 +1726,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1768,7 +1768,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -1811,7 +1811,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1854,7 +1854,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1896,7 +1896,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1939,7 +1939,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1982,7 +1982,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2025,7 +2025,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -2068,7 +2068,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2111,7 +2111,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2154,7 +2154,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2207,7 +2207,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2250,7 +2250,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2293,7 +2293,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2336,7 +2336,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2379,7 +2379,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2422,7 +2422,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2465,7 +2465,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2508,7 +2508,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2550,7 +2550,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -2593,7 +2593,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2636,7 +2636,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2679,7 +2679,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2721,7 +2721,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -2764,7 +2764,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -2807,7 +2807,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2850,7 +2850,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2893,7 +2893,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2936,7 +2936,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2979,7 +2979,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3022,7 +3022,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3065,7 +3065,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3108,7 +3108,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3151,7 +3151,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3194,7 +3194,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3237,7 +3237,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3280,7 +3280,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3323,7 +3323,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3411,7 +3411,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3460,7 +3460,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3503,7 +3503,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3546,7 +3546,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3634,7 +3634,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3676,7 +3676,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3719,7 +3719,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3762,7 +3762,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3805,7 +3805,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3892,7 +3892,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3934,7 +3934,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3976,7 +3976,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4062,7 +4062,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4105,7 +4105,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4148,7 +4148,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4277,7 +4277,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4364,7 +4364,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4407,7 +4407,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4450,7 +4450,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4500,7 +4500,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4550,7 +4550,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

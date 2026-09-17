@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,11 +53,6 @@ apis:
 - description: REST API (v2.2) for the RUCKUS IoT Platform Controller. Manages the IoT controller, IoT-enabled access points, and downstream devices and sensors.
   name: RUCKUS IoT Platform API
   slug: ruckus-iot-api
-- baseURL: https://api.ruckus.cloud
-  baseurl_source: declared
-  description: Wi-Fi access points (APs) registered to a tenant.
-  name: CommScope Holding AccessPoints API
-  slug: commscope-holding-accesspoints-api
 - baseURL: https://api.ruckus.cloud
   baseurl_source: declared
   description: Track asynchronous request status.
@@ -93,6 +88,11 @@ apis:
   description: Physical sites that group networks and devices.
   name: CommScope Holding Venues API
   slug: commscope-holding-venues-api
+- baseURL: https://api.ruckus.cloud
+  baseurl_source: declared
+  description: Wi-Fi access points (APs) registered to a tenant.
+  name: CommScope Holding Access Points API
+  slug: commscope-holding-access-points-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -222,7 +222,7 @@ modified: '2026-05-19'
 name: CommScope Holding
 nav: Providers
 network: true
-overview: 'CommScope Holding publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AccessPoints API, Activities API, Authentication API, and 5 more. Tagged areas include Access Points, Cabling, Connectivity, ICX Switches, and Infrastructure.
+overview: 'CommScope Holding publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Authentication API, Clients API, and 5 more. Tagged areas include Access Points, Cabling, Connectivity, ICX Switches, and Infrastructure.
 
 
   The CommScope Holding catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -258,7 +258,7 @@ press:
 - date: '2025-11-14'
   title: RUCKUS Networks Unveils AI and Wi-Fi 7 Innovations to Elevate Resident Experience and help Optimize Costs for MDU Stakeholders
   url: https://www.commscope.com/press-release-archive/2025/ruckus-networks-unveils-ai-and-wi-fi-7-innovations-to-elevate-resident-experience-and-help-optimize-costs-for-mdu-stakeholders/
-random_paper: 9
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Commscope Holding Rate Limits
@@ -312,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ name: Butter Systems
 nav: Providers
 network: true
 overview: Butter Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant Technology, Point-of-Sale, Food and Beverage, and Ordering.
-random_paper: 8
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/butter-systems/refs/heads/main/screenshots/butter-systems-2026-07-25T204122.png
 slug: butter-systems
 tags:

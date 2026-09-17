@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
 - baseURL: https://api.bitvore.com/muni/alerts/
   baseurl_source: declared
   description: Alerts API
-  name: Bitvore Alert API API
+  name: Bitvore Alert API
   slug: bitvore-alert-api-api
 - baseURL: https://api.bitvore.com/bondapi/
   baseurl_source: declared
@@ -65,7 +65,7 @@ apis:
 - baseURL: https://api.bitvore.com/v2/corp/
   baseurl_source: declared
   description: Export Files and Reports
-  name: Bitvore Datasets API API
+  name: Bitvore Datasets API
   slug: bitvore-datasets-api-api
 - baseURL: https://api.bitvore.com/econnews/
   baseurl_source: declared
@@ -80,7 +80,7 @@ apis:
 - baseURL: https://api.bitvore.com/v2/corp/
   baseurl_source: declared
   description: Financial Filings, Submissions and Summaries
-  name: Bitvore Filings API API
+  name: Bitvore Filings API
   slug: bitvore-filings-api-api
 - baseURL: https://api.bitvore.com/financialfiling/
   baseurl_source: declared
@@ -100,7 +100,7 @@ apis:
 - baseURL: https://api.bitvore.com/muni/api/
   baseurl_source: declared
   description: Municipal API
-  name: Bitvore Muni API API
+  name: Bitvore Muni API
   slug: bitvore-muni-api-api
 - baseURL: https://api.bitvore.com/muninews/
   baseurl_source: declared
@@ -110,17 +110,12 @@ apis:
 - baseURL: https://api.bitvore.com/v2/
   baseurl_source: declared
   description: Precision and Economic News
-  name: Bitvore News API API
+  name: Bitvore News API
   slug: bitvore-news-api-api
-- baseURL: https://api.bitvore.com/oauth/
-  baseurl_source: declared
-  description: Bitvore OAuth2 Authorization Server API
-  name: Bitvore O Auth2 API
-  slug: bitvore-oauth2-api
 - baseURL: https://api.bitvore.com/v2/corp/
   baseurl_source: declared
   description: Organization Details and Search
-  name: Bitvore Organizations API API
+  name: Bitvore Organizations API
   slug: bitvore-organizations-api-api
 - baseURL: https://api.bitvore.com/portfolioapi/
   baseurl_source: declared
@@ -130,18 +125,23 @@ apis:
 - baseURL: https://api.bitvore.com/v2/
   baseurl_source: declared
   description: Manage Organization-based Portfolios
-  name: Bitvore Portfolios API API
+  name: Bitvore Portfolios API
   slug: bitvore-portfolios-api-api
 - baseURL: https://api.bitvore.com/v2/corp/
   baseurl_source: declared
   description: Organization Scores
-  name: Bitvore Sentiment Scores API API
+  name: Bitvore Sentiment Scores API
   slug: bitvore-sentiment-scores-api-api
 - baseURL: https://api.bitvore.com/sentimentscores/
   baseurl_source: declared
   description: Company Sentiment Score API
   name: Bitvore Sentiment Scores API
   slug: bitvore-sentiment-scores-api
+- baseURL: https://api.bitvore.com/muni/alerts/
+  baseurl_source: declared
+  description: Bitvore OAuth2 Authorization Server API
+  name: Bitvore O Auth2 API
+  slug: bitvore-oauth2-api
 artifact_total: 45
 collections:
 - collection_type: open
@@ -365,11 +365,11 @@ created: '2026-08-07'
 description: 'Bitvore Corp. builds Cellenus, an AI/NLP platform that reads unstructured public text — global news, press releases, SEC filings and proxy statements, earnings-call transcripts — and turns it into structured material business events, signals, trended sentiment, and growth and risk scores. Coverage spans 500,000+ surveilled companies across 60,000+ sources, sold as two separately licensed datasets: Cellenus Corporate Intelligence (corporate and economic news, organizations, financial filings, sentiment scores) and Cellenus Municipal (municipal bond news by CUSIP, location, FIPS and sector), with an ESG signal and scoring layer over both. Access is by REST API, bulk dataset and changeset exports, and a Microsoft-certified Power Platform connector. Bitvore''s fixed-income data-analytics unit was acquired by BondWave in November 2024; bitvore.com now redirects to bondwave.com/muni-news/, while developer.bitvore.com and api.bitvore.com remain live and serving the Cellenus API surface.'
 image: https://conn-afd-prod-endpoint-bmc9bqahasf3grgk.b01.azurefd.net/u/shgogna/version-mismatches-special-train/1.0.1670.3520/bitvorecellenus/icon.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Bitvore
 nav: Providers
 network: true
-overview: 'Bitvore publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Alert API API, Bond API, Corporate News API, and 16 more. Tagged areas include Financial Data, Market Intelligence, Alternative Data, News API, and NLP.
+overview: 'Bitvore publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Alert API, Bond API, Corporate News API, and 16 more. Tagged areas include Financial Data, Market Intelligence, Alternative Data, News API, and NLP.
 
 
   Bitvore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 27 more developer resources.'
@@ -377,7 +377,7 @@ plans:
 - name: Bitvore Plans Pricing
   plan_count: 0
   slug: bitvore-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Bitvore Rate Limits
@@ -423,7 +423,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

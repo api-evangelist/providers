@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -3361,7 +3361,7 @@ plans:
 - name: Amazon Workspaces Plans Pricing
   plan_count: 3
   slug: amazon-workspaces-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Amazon Workspaces Rate Limits
@@ -3415,7 +3415,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

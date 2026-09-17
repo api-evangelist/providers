@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -52,11 +52,6 @@ apis:
   slug: propelauth-api-keys-api
 - baseURL_template: https://{authId}.propelauthtest.com
   baseurl_source: spec_template
-  description: OAuth 2.0 / OpenID Connect identity-provider endpoints exposed by your PropelAuth Auth URL. Use PropelAuth as an OIDC provider for first-party and third-party OAuth clients, including no-code / low-co
-  name: PropelAuth OAuth2 API
-  slug: propelauth-oauth2-api
-- baseURL_template: https://{authId}.propelauthtest.com
-  baseurl_source: spec_template
   description: Mint short-lived access tokens for impersonation and testing
   name: PropelAuth Access Tokens API
   slug: propelauth-access-tokens-api
@@ -65,8 +60,8 @@ apis:
   description: OpenID Connect discovery
   name: PropelAuth Discovery API
   slug: propelauth-discovery-api
-- baseURL_template: https://{authId}.propelauthtest.com
-  baseurl_source: spec_template
+- baseURL: https://auth.example.com
+  baseurl_source: spec
   description: RFC 7591 dynamic client registration
   name: PropelAuth Dynamic Client Registration API
   slug: propelauth-dynamic-client-registration-api
@@ -85,8 +80,8 @@ apis:
   description: Issue one-time magic links for login flows
   name: PropelAuth Magic Links API
   slug: propelauth-magic-links-api
-- baseURL_template: https://{authId}.propelauthtest.com
-  baseurl_source: spec_template
+- baseURL: https://auth.example.com
+  baseurl_source: spec
   description: OAuth 2.1 flows for MCP clients
   name: PropelAuth MCP OAuth 2.1 API
   slug: propelauth-mcp-oauth-2-1-api
@@ -95,8 +90,8 @@ apis:
   description: Add, remove, invite, and change roles for users within an organization
   name: PropelAuth Members API
   slug: propelauth-members-api
-- baseURL_template: https://{authId}.propelauthtest.com
-  baseurl_source: spec_template
+- baseURL: https://auth.example.com
+  baseurl_source: spec
   description: Authorization server metadata discovery
   name: PropelAuth Metadata API
   slug: propelauth-metadata-api
@@ -135,6 +130,11 @@ apis:
   description: Validate end-user, personal, organization, and imported API keys
   name: PropelAuth Validation API
   slug: propelauth-validation-api
+- baseURL_template: https://{authId}.propelauthtest.com
+  baseurl_source: spec_template
+  description: Authorize, token, refresh, and userinfo endpoints
+  name: PropelAuth O Auth2 API
+  slug: propelauth-oauth2-api
 arazzos:
 - description: Create a user, fetch it back, then enrich the profile with a follow-up update.
   name: PropelAuth Create And Update User
@@ -655,11 +655,11 @@ jsonld:
   property_count: 4
   slug: propelauth-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: PropelAuth
 nav: Providers
 network: true
-overview: 'PropelAuth publishes 18 APIs on the [APIs.io](https://apis.io/) network, including End-User API Keys API, OAuth2 API, Access Tokens API, and 15 more. Tagged areas include Authentication, Identity, B2B, Multi-Tenancy, and Authorization.
+overview: 'PropelAuth publishes 18 APIs on the [APIs.io](https://apis.io/) network, including End-User API Keys API, Access Tokens API, Discovery API, and 15 more. Tagged areas include Authentication, Identity, B2B, Multi-Tenancy, and Authorization.
 
 
   The PropelAuth catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -670,7 +670,7 @@ plans:
 - name: Propelauth Plans Pricing
   plan_count: 4
   slug: propelauth-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Propelauth Rate Limits
@@ -699,7 +699,7 @@ rules:
   slug: propelauth-rules
 score:
   band: strong
-  composite: 64.4
+  composite: 64.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 86.5
@@ -707,11 +707,11 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 92.1
     contract_governance: 28.8
-    contract_quality: 69.3
+    contract_quality: 68.0
     developer_ergonomics: 63.1
     discoverability: 64.8
     operational_transparency: 52.6
@@ -719,12 +719,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 83.3
       derived: 0
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -755,5 +755,6 @@ tags:
 - SCIM
 - MCP
 - APIKeys
+- Identity Federation
 website: https://www.propelauth.com/
 ---

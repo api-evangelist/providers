@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -184,6 +184,10 @@ collections:
   name: Oracle Enterprise Manager Cloud Control REST Blackouts Targets API
   slug: open-oracle-enterprise-manager-targets-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/capabilities/oracle-enterprise-manager-capability-edges.yml
   title: ''
@@ -935,7 +939,7 @@ jsonld:
   property_count: 13
   slug: oracle-enterprise-manager-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Oracle Enterprise Manager
 nav: Providers
 network: true
@@ -945,12 +949,12 @@ overview: 'Oracle Enterprise Manager publishes 6 APIs on the [APIs.io](https://a
   The Oracle Enterprise Manager catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle Enterprise Manager''s developer surface includes authentication, changelog, CLI, developer portal, documentation, support, pricing, and 32 more developer resources.'
+  Oracle Enterprise Manager''s developer surface includes authentication, changelog, CLI, developer portal, documentation, support, pricing, and 33 more developer resources.'
 plans:
 - name: Oracle Enterprise Manager Plans Pricing
   plan_count: 6
   slug: oracle-enterprise-manager-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Oracle Enterprise Manager Rate Limits
@@ -1006,7 +1010,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1038,5 +1042,5 @@ use_cases:
   name: Incident Response
 - description: Analyze metric trends over time to forecast resource needs and optimize infrastructure utilization.
   name: Capacity Planning
-website: https://www.oracle.com/enterprise-manager/
+website: https://oracle.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Bounces API API from Postmark — 5 operation(s) for bounces api.
-  name: Postmark Bounces API API
+  name: Postmark Bounces API
   slug: postmark-bounces-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
@@ -92,7 +92,7 @@ apis:
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Domains API API from Postmark — 6 operation(s) for domains api.
-  name: Postmark Domains API API
+  name: Postmark Domains API
   slug: postmark-domains-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
@@ -106,18 +106,13 @@ apis:
   slug: postmark-email-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
-  description: The Emailclients API from Postmark — 1 operation(s) for emailclients.
-  name: Postmark Emailclients API
-  slug: postmark-emailclients-api
-- baseURL: https://api.postmarkapp.com
-  baseurl_source: declared
   description: The Inbound API from Postmark — 4 operation(s) for inbound.
   name: Postmark Inbound API
   slug: postmark-inbound-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Inbound Rules API API from Postmark — 2 operation(s) for inbound rules api.
-  name: Postmark Inbound Rules API API
+  name: Postmark Inbound Rules API
   slug: postmark-inbound-rules-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
@@ -132,7 +127,7 @@ apis:
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Messages API API from Postmark — 11 operation(s) for messages api.
-  name: Postmark Messages API API
+  name: Postmark Messages API
   slug: postmark-messages-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
@@ -147,22 +142,22 @@ apis:
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Sender Signatures API API from Postmark — 5 operation(s) for sender signatures api.
-  name: Postmark Sender Signatures API API
+  name: Postmark Sender Signatures API
   slug: postmark-sender-signatures-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Sending API API from Postmark — 4 operation(s) for sending api.
-  name: Postmark Sending API API
+  name: Postmark Sending API
   slug: postmark-sending-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Server Configuration API API from Postmark — 1 operation(s) for server configuration api.
-  name: Postmark Server Configuration API API
+  name: Postmark Server Configuration API
   slug: postmark-server-configuration-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Server Management API API from Postmark — 2 operation(s) for server management api.
-  name: Postmark Server Management API API
+  name: Postmark Server Management API
   slug: postmark-server-management-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
@@ -172,12 +167,12 @@ apis:
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Stats API API from Postmark — 12 operation(s) for stats api.
-  name: Postmark Stats API API
+  name: Postmark Stats API
   slug: postmark-stats-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
   description: The Templates API API from Postmark — 6 operation(s) for templates api.
-  name: Postmark Templates API API
+  name: Postmark Templates API
   slug: postmark-templates-api-api
 - baseURL: https://api.postmarkapp.com
   baseurl_source: declared
@@ -194,6 +189,11 @@ apis:
   description: The Triggers API from Postmark — 4 operation(s) for triggers.
   name: Postmark Triggers API
   slug: postmark-triggers-api
+- baseURL: https://api.postmarkapp.com
+  baseurl_source: declared
+  description: The Email Clients API from Postmark — 1 operation(s) for email clients.
+  name: Postmark Email Clients API
+  slug: postmark-email-clients-api
 artifact_total: 133
 asyncapis:
 - description: AsyncAPI description of Postmark's outbound webhook surface. Postmark delivers event notifications by issuing HTTP POST requests with a JSON body to a URL the customer configures per server (and per s
@@ -348,6 +348,11 @@ collections:
   name: Postmark Account Activate Validate API
   slug: open-postmark-validate-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/overlays/postmark-emailclients-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/postmark-emailclients-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/overlays/postmark-messages-inbound-messageid-api-overlay.yaml
   title: ''
@@ -742,22 +747,22 @@ mcp_servers:
 - description: Postmark ships an official, first-party MCP server. It is distributed ONLY as a local-stdio npm package — there is no hosted remote endpoint an MCP client can POST to. Postmark's own landing page (htt
   name: Postmark MCP Server
   slug: postmark-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Postmark
 nav: Providers
 network: true
-overview: 'Postmark publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Activate API, Alias API, Batch API, and 27 more. Tagged areas include Emails, Messaging, Transactional Email, Deliverability, and SMTP.
+overview: 'Postmark publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Activate API, Alias API, Batch API, and 27 more. Tagged areas include Email, Messaging, Transactional Email, Deliverability, and SMTP.
 
 
   The Postmark catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Postmark''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 57 more developer resources.'
+  Postmark''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 58 more developer resources.'
 plans:
 - name: Postmark Plans Pricing
   plan_count: 4
   slug: postmark-plans-pricing
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 11
   name: Postmark Rate Limits
@@ -786,7 +791,7 @@ rules:
   slug: postmark-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.3
+  composite: 71.8
   coverage:
     artifact_dirs: 31
     catalog_earned: 76.5
@@ -794,11 +799,11 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 82.9
     contract_governance: 33.3
-    contract_quality: 58.4
+    contract_quality: 60.1
     developer_ergonomics: 90.5
     discoverability: 81.5
     operational_transparency: 81.6
@@ -814,7 +819,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -849,7 +854,7 @@ skills:
   slug: postmark
 slug: postmark
 tags:
-- Emails
+- Email
 - Messaging
 - Transactional Email
 - Deliverability

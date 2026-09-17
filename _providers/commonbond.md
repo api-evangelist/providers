@@ -30,7 +30,7 @@ name: CommonBond
 nav: Providers
 network: true
 overview: CommonBond is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Fintech, Lending, and Student Loans.
-random_paper: 18
+random_paper: 12
 slug: commonbond
 tags:
 - Company

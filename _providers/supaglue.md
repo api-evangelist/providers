@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -98,16 +98,6 @@ apis:
   slug: supaglue-customers-api
 - baseURL: https://api.supaglue.io/crm/v2
   baseurl_source: declared
-  description: A `Custom Object` is an instance of a `Custom Object Schema`.
-  name: Supaglue CustomObjects API
-  slug: supaglue-customobjects-api
-- baseURL: https://api.supaglue.io/crm/v2
-  baseurl_source: declared
-  description: A `Custom Object Schema` is an object schema defined by the user.
-  name: Supaglue CustomObjectSchemas API
-  slug: supaglue-customobjectschemas-api
-- baseURL: https://api.supaglue.io/crm/v2
-  baseurl_source: declared
   description: A `Destination` is a data store where we write data in your infrastructure.
   name: Supaglue Destinations API
   slug: supaglue-destinations-api
@@ -156,11 +146,6 @@ apis:
   description: A `Provider` is a third-party SaaS tool we can connect to (e.g. Salesforce).
   name: Supaglue Providers API
   slug: supaglue-providers-api
-- baseURL: https://api.supaglue.io/crm/v2
-  baseurl_source: declared
-  description: A `Schema Mapping` is a mapping between a [Schema](https://docs.supaglue.com/platform/objects/overview#schemas) field and fields in your customer's Provider object.
-  name: Supaglue SchemaMappings API
-  slug: supaglue-schemamappings-api
 - baseURL: https://api.supaglue.io/crm/v2
   baseurl_source: declared
   description: A [`Schema`](https://docs.supaglue.com/platform/objects/overview#schemas) allows you to normalize fields for customers across a single Provider object. Supaglue uses Schemas for Managed Syncs and Acti
@@ -251,6 +236,21 @@ apis:
   description: The Webhook Events API from Supaglue — 0 operation(s) for webhook events.
   name: Supaglue Webhook Events API
   slug: supaglue-webhook-events-api
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Custom Object Schema` is an object schema defined by the user.
+  name: Supaglue Custom Object Schemas API
+  slug: supaglue-custom-object-schemas-api
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Custom Object` is an instance of a `Custom Object Schema`.
+  name: Supaglue Custom Objects API
+  slug: supaglue-custom-objects-api
+- baseURL: https://api.supaglue.io/crm/v2
+  baseurl_source: declared
+  description: A `Schema Mapping` is a mapping between a Schema field and fields in your customer's Provider object.
+  name: Supaglue Schema Mappings API
+  slug: supaglue-schema-mappings-api
 artifact_total: 100
 asyncapis:
 - description: ''
@@ -393,6 +393,10 @@ collections:
   name: Unified CRM Accounts Users API
   slug: open-supaglue-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://supaglue.io
 - group: commercial
   title: ''
   type: License
@@ -615,7 +619,7 @@ jsonld:
   property_count: 22
   slug: supaglue-context
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Supaglue
 nav: Providers
 network: true
@@ -625,12 +629,12 @@ overview: 'Supaglue publishes 41 APIs on the [APIs.io](https://apis.io/) network
   The Supaglue catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Supaglue''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, and 37 more developer resources.'
+  Supaglue''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Supaglue Plans Pricing
   plan_count: 1
   slug: supaglue-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Supaglue Rate Limits
@@ -659,21 +663,21 @@ rules:
   slug: supaglue-rules
 score:
   band: strong
-  composite: 56.4
+  composite: 54.6
   coverage:
     artifact_dirs: 29
-    catalog_earned: 63.5
+    catalog_earned: 53.5
     catalog_earned_first_party: 8.0
-    catalog_gap: 51.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 57.9
     contract_governance: 31.8
     contract_quality: 68.2
     developer_ergonomics: 42.3
-    discoverability: 74.1
+    discoverability: 55.6
     operational_transparency: 42.1
   previous_composite: 56.4
   provenance:
@@ -687,7 +691,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -720,4 +724,5 @@ tags:
 - Enrichment
 - Webhook
 - Archived
+website: https://supaglue.io
 ---

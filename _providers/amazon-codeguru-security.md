@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,6 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- baseURL: https://codeguru-security.us-east-1.amazonaws.com
-  baseurl_source: declared
-  description: The AccountConfiguration API from Amazon CodeGuru Security — 1 operation(s) for accountconfiguration.
-  name: Amazon CodeGuru Security AccountConfiguration API
-  slug: amazon-codeguru-security-accountconfiguration-api
-- baseURL: https://codeguru-security.us-east-1.amazonaws.com
-  baseurl_source: declared
-  description: The BatchGetFindings API from Amazon CodeGuru Security — 1 operation(s) for batchgetfindings.
-  name: Amazon CodeGuru Security BatchGetFindings API
-  slug: amazon-codeguru-security-batchgetfindings-api
 - baseURL: https://codeguru-security.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Findings API from Amazon CodeGuru Security — 1 operation(s) for findings.
@@ -76,14 +66,24 @@ apis:
   slug: amazon-codeguru-security-tags-api
 - baseURL: https://codeguru-security.us-east-1.amazonaws.com
   baseurl_source: declared
-  description: The UpdateAccountConfiguration API from Amazon CodeGuru Security — 1 operation(s) for updateaccountconfiguration.
-  name: Amazon CodeGuru Security UpdateAccountConfiguration API
-  slug: amazon-codeguru-security-updateaccountconfiguration-api
+  description: The Account Configuration API from Amazon CodeGuru Security — 1 operation(s) for account configuration.
+  name: Amazon CodeGuru Security Account Configuration API
+  slug: amazon-codeguru-security-account-configuration-api
 - baseURL: https://codeguru-security.us-east-1.amazonaws.com
   baseurl_source: declared
-  description: The UploadUrl API from Amazon CodeGuru Security — 1 operation(s) for uploadurl.
-  name: Amazon CodeGuru Security UploadUrl API
-  slug: amazon-codeguru-security-uploadurl-api
+  description: The Batch Get Findings API from Amazon CodeGuru Security — 1 operation(s) for batch get findings.
+  name: Amazon CodeGuru Security Batch Get Findings API
+  slug: amazon-codeguru-security-batch-get-findings-api
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Update Account Configuration API from Amazon CodeGuru Security — 1 operation(s) for update account configuration.
+  name: Amazon CodeGuru Security Update Account Configuration API
+  slug: amazon-codeguru-security-update-account-configuration-api
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Upload URL API from Amazon CodeGuru Security — 1 operation(s) for upload url.
+  name: Amazon CodeGuru Security Upload URL API
+  slug: amazon-codeguru-security-upload-url-api
 artifact_total: 261
 collections:
 - collection_type: postman
@@ -138,6 +138,10 @@ collections:
   name: Amazon CodeGuru Security AccountConfiguration UploadUrl API
   slug: open-amazon-codeguru-security-uploadurl-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/overlays/amazon-codeguru-security-openapi-overlay.yaml
   title: ''
@@ -941,18 +945,18 @@ jsonld:
   property_count: 70
   slug: amazon-codeguru-security-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon CodeGuru Security
 nav: Providers
 network: true
-overview: 'Amazon CodeGuru Security publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AccountConfiguration API, BatchGetFindings API, Findings API, and 5 more. Tagged areas include Amazon, Security, SAST, Code Analysis, and DevSecOps.
+overview: 'Amazon CodeGuru Security publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Findings API, Metrics API, Scans API, and 5 more. Tagged areas include Amazon, Security, SAST, Code Analysis, and DevSecOps.
 
 
   The Amazon CodeGuru Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeGuru Security''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 8
+  Amazon CodeGuru Security''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 21 more developer resources.'
+random_paper: 0
 rules:
 - effective_rule_count: 5
   extends: []
@@ -1004,7 +1008,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1042,5 +1046,5 @@ use_cases:
   name: Security Audit and Compliance
 - description: Scan infrastructure-as-code templates for security misconfigurations before provisioning cloud resources.
   name: IaC Security Validation
-website: https://aws.amazon.com/codegurusecurity/
+website: https://amazon.com
 ---

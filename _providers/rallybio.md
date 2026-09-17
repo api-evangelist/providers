@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,11 +68,11 @@ modified: '2026-07-20'
 name: Rallybio
 nav: Providers
 network: true
-overview: 'Rallybio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Rare Diseases, and Healthcare.
+overview: 'Rallybio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Rare Disease, and Healthcare.
 
 
   Rallybio''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 1
+random_paper: 4
 score:
   band: minimal
   composite: 9.1
@@ -110,7 +110,7 @@ score:
     regime_id: health
     score: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -122,7 +122,7 @@ tags:
 - Company
 - Biotechnology
 - Pharmaceuticals
-- Rare Diseases
+- Rare Disease
 - Healthcare
 - Life Sciences
 - Clinical Stage

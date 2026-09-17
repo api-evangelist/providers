@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 2
@@ -52,11 +52,6 @@ apis:
   slug: webmethods-integration-server
 - baseURL: http://localhost:5555/rest/apigateway
   baseurl_source: declared
-  description: API lifecycle management operations
-  name: Software AG APIs API
-  slug: software-ag-apis-api
-- baseURL: http://localhost:5555/rest/apigateway
-  baseurl_source: declared
   description: Application and consumer management
   name: Software AG Applications API
   slug: software-ag-applications-api
@@ -70,6 +65,11 @@ apis:
   description: API portal publishing operations
   name: Software AG Publishing API
   slug: software-ag-publishing-api
+- baseURL: https://www.softwareag.com/
+  baseurl_source: declared
+  description: API lifecycle management operations
+  name: Software AG AP Is API
+  slug: software-ag-apis-api
 artifact_total: 25
 collections:
 - collection_type: open
@@ -202,7 +202,7 @@ modified: '2026-08-21'
 name: Software AG
 nav: Providers
 network: true
-overview: 'Software AG publishes 4 APIs on the [APIs.io](https://apis.io/) network, including APIs API, Applications API, Policies API, and 1 more. Tagged areas include API Management, Enterprise Integration, iPaaS, webMethods, and Integration Platform.
+overview: 'Software AG publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Policies API, Publishing API, and 1 more. Tagged areas include API Management, Enterprise Integration, iPaaS, webMethods, and Integration Platform.
 
 
   The Software AG catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -213,7 +213,7 @@ plans:
 - name: Software Ag Plans Pricing
   plan_count: 1
   slug: software-ag-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Software Ag Rate Limits
@@ -269,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

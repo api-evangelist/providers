@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,11 +61,11 @@ modified: '2026-07-18'
 name: Arcion Labs
 nav: Providers
 network: true
-overview: 'Arcion Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Change Data Capture, Data Replication, Databases, and Data Integration.
+overview: 'Arcion Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Change Data Capture, Data Replication, Database, and Data Integration.
 
 
   Arcion Labs'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: minimal
   composite: 7.2
@@ -86,7 +86,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 7.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -103,7 +103,7 @@ tags:
 - Company
 - Change Data Capture
 - Data Replication
-- Databases
+- Database
 - Data Integration
 - Real-Time
 - ETL

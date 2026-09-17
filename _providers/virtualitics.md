@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The developer surface of the Virtualitics AI Platform. Developers author AI Apps in Python with the Virtualitics SDK (App, Step, Page, Section, Card, Elements, Assets, LLM/Iris, Store, Audit, Triggers
@@ -184,7 +184,7 @@ plans:
 - name: Virtualitics Plans Pricing
   plan_count: 0
   slug: virtualitics-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Virtualitics Rate Limits
@@ -218,7 +218,7 @@ score:
     regime_id: government
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

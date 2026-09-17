@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://elasticache.amazonaws.com
   baseurl_source: declared
   description: The Amazon ElastiCache API API from Amazon ElastiCache — 1 operation(s) for amazon elasticache api.
-  name: Amazon ElastiCache Amazon ElastiCache API API
+  name: Amazon ElastiCache Amazon ElastiCache API
   slug: amazon-elasticache-amazon-elasticache-api-api
 - baseURL: https://elasticache.amazonaws.com
   baseurl_source: declared
@@ -111,6 +111,10 @@ collections:
   name: Amazon ElastiCache API
   slug: open-amazon-elasticache
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/agentic-access/amazon-elasticache-agentic-access.yml
   title: ''
@@ -324,22 +328,22 @@ jsonld:
   property_count: 3
   slug: amazon-elasticache-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon ElastiCache
 nav: Providers
 network: true
-overview: 'Amazon ElastiCache publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Amazon ElastiCache API API, #CreateReplicationGroup API, #DeleteCacheCluster API, and 1 more. Tagged areas include Amazon Web Services, Caching, Database, ElastiCache, and In-Memory.
+overview: 'Amazon ElastiCache publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Amazon ElastiCache API, #CreateReplicationGroup API, #DeleteCacheCluster API, and 1 more. Tagged areas include Amazon Web Services, Caching, Database, ElastiCache, and In-Memory.
 
 
   The Amazon ElastiCache catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon ElastiCache''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 27 more developer resources.'
+  Amazon ElastiCache''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 28 more developer resources.'
 plans:
 - name: Amazon Elasticache Plans Pricing
   plan_count: 3
   slug: amazon-elasticache-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Elasticache Rate Limits
@@ -393,7 +397,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -434,5 +438,5 @@ use_cases:
   name: Real-Time Analytics
 - description: Build real-time leaderboards and gaming backends with Redis sorted sets
   name: Leaderboards and Gaming
-website: https://aws.amazon.com/elasticache/
+website: https://amazon.com
 ---

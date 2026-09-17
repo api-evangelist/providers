@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -82,14 +82,14 @@ apis:
   slug: singlestore-secrets-api
 - baseURL: https://{workspaceHost}
   baseurl_source: declared
-  description: Create, list, retrieve, update, and delete workspace groups within a SingleStore Helios organization. Workspace groups are logical containers that group workspaces by region and network configuration.
-  name: SingleStore WorkspaceGroups API
-  slug: singlestore-workspacegroups-api
-- baseURL: https://{workspaceHost}
-  baseurl_source: declared
   description: Create, list, retrieve, update, suspend, resume, and delete workspaces within a workspace group. Workspaces are the compute resources that connect to a SingleStore database.
   name: SingleStore Workspaces API
   slug: singlestore-workspaces-api
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: Create, list, retrieve, update, and delete workspace groups within a SingleStore Helios organization. Workspace groups are logical containers that group workspaces by region and network configuration.
+  name: SingleStore Workspace Groups API
+  slug: singlestore-workspace-groups-api
 artifact_total: 45
 collections:
 - collection_type: postman
@@ -274,7 +274,7 @@ plans:
 - name: Singlestore Plans Pricing
   plan_count: 3
   slug: singlestore-plans-pricing
-random_paper: 2
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Singlestore Rate Limits
@@ -327,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

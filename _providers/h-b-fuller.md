@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The H.B. Fuller Company API provides access to platform services and data for enterprise integration and automation.
@@ -86,7 +86,7 @@ modified: '2026-08-08'
 name: H.B. Fuller Company
 nav: Providers
 network: true
-overview: H.B. Fuller Company publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Adhesives, Sealants, and Chemical.
+overview: H.B. Fuller Company publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Adhesives, Sealants, and Chemicals.
 plans:
 - name: H B Fuller Plans Pricing
   plan_count: 1
@@ -132,7 +132,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -148,6 +148,6 @@ slug: h-b-fuller
 tags:
 - Adhesives
 - Sealants
-- Chemical
+- Chemicals
 website: https://www.hbfuller.com
 ---

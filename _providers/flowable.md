@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 4
@@ -368,25 +368,7 @@ apis:
 - description: 'Flowable also ships a packaged REST API webapp that exposes the Process Engine services over HTTP. The REST API covers process definitions and deployments, process instances and variables, user tasks '
   name: Flowable REST API
   slug: rest-api
-- description: The CMMN API from Flowable — 4 operation(s) for cmmn.
-  name: Flowable CMMN API
-  slug: flowable-api-cmmn-api
-- description: The Deployments API from Flowable — 3 operation(s) for deployments.
-  name: Flowable Deployments API
-  slug: flowable-api-deployments-api
-- description: The Models API from Flowable — 1 operation(s) for models.
-  name: Flowable Models API
-  slug: flowable-api-models-api
-- description: The ProcessDefinitions API from Flowable — 2 operation(s) for processdefinitions.
-  name: Flowable ProcessDefinitions API
-  slug: flowable-api-processdefinitions-api
-- description: The ProcessInstances API from Flowable — 1 operation(s) for processinstances.
-  name: Flowable ProcessInstances API
-  slug: flowable-api-processinstances-api
-- description: The Tasks API from Flowable — 2 operation(s) for tasks.
-  name: Flowable Tasks API
-  slug: flowable-api-tasks-api
-artifact_total: 157
+artifact_total: 151
 collections:
 - collection_type: open
   name: API Collection
@@ -749,7 +731,7 @@ modified: '2026-06-13'
 name: Flowable
 nav: Providers
 network: true
-overview: 'Flowable publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Accounts API, Acquire and Execute API, and 67 more. Tagged areas include Business Process Management, Workflows, BPMN, CMMN, and DMN.
+overview: 'Flowable publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Accounts API, Acquire and Execute API, and 61 more. Tagged areas include Business Process Management, Workflows, BPMN, CMMN, and DMN.
 
 
   The Flowable catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -760,7 +742,7 @@ plans:
 - name: Flowable Plans Pricing
   plan_count: 3
   slug: flowable-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Flowable Rate Limits
@@ -778,7 +760,7 @@ rules:
   slug: flowable-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.2
+  composite: 43.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 61.3
@@ -786,11 +768,11 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 57.9
     contract_governance: 25.0
-    contract_quality: 58.1
+    contract_quality: 56.4
     developer_ergonomics: 28.6
     discoverability: 50.0
     operational_transparency: 36.8
@@ -806,7 +788,7 @@ score:
       marker_coverage: 0.0
       total: 64
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

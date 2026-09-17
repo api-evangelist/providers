@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Genspark's hosted (remote) Model Context Protocol server, exposing Genspark's AI agent tools, resources, and prompts to MCP-capable clients over HTTP under OAuth 2.1.
@@ -101,6 +101,10 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.genspark.ai/privacy
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@genspark.ai
 created: '2026-07-17'
 description: Genspark is an all-in-one AI workspace and autonomous "Super Agent" platform that plans and executes multi-step tasks on a user's behalf. It bundles a suite of AI agent tools — deep research, AI slides, AI sheets, AI docs, AI chat, a "Call For Me" voice agent, and a built-in AI browser — into a single natural-language workspace, alongside companion products such as Genspark Claw, Speakly, GenClipboard, and GenTerminal and native iOS and Android apps. For developers and agents, Genspark operates a hosted, remote Model Context Protocol (MCP) server at /api/mcp that exposes its tools, resources, and prompts over HTTP, gated by OAuth 2.1 (authorization_code with PKCE, refresh tokens, and dynamic client registration). Genspark is backed by Emergence Capital.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genspark.png
@@ -116,8 +120,8 @@ network: true
 overview: 'Genspark publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, MCP, and Productivity.
 
 
-  Genspark''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
-random_paper: 19
+  Genspark''s developer surface includes authentication, engineering blog, support, and 11 more developer resources.'
+random_paper: 1
 scopes:
 - name: Genspark Scopes
   scope_count: 4
@@ -146,7 +150,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

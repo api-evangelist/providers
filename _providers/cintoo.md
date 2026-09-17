@@ -28,12 +28,12 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-09-15'
+  score: 33.2
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -337,7 +337,7 @@ overview: 'Cintoo publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cintoo''s developer surface includes documentation, support, engineering blog, authentication, sandbox, CLI, and 17 more developer resources.'
-random_paper: 1
+random_paper: 14
 scopes:
 - name: Cintoo Scopes
   scope_count: 0
@@ -373,7 +373,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

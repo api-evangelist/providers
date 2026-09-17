@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.pavoot.com
@@ -90,11 +90,6 @@ apis:
   description: The AddPhotographerToProjects API from Pavoot — 1 operation(s) for addphotographertoprojects.
   name: Pavoot Add Photographer To Projects API
   slug: pavoot-addphotographertoprojects-api
-- baseURL: https://api.pavoot.com
-  baseurl_source: declared
-  description: The AddProject API from Pavoot — 1 operation(s) for addproject.
-  name: Pavoot Add Project API
-  slug: pavoot-addproject-api
 - baseURL: https://api.pavoot.com
   baseurl_source: declared
   description: The AddRecipients API from Pavoot — 1 operation(s) for addrecipients.
@@ -202,16 +197,6 @@ apis:
   slug: pavoot-createfolder-api
 - baseURL: https://api.pavoot.com
   baseurl_source: declared
-  description: The CreateMultipartUpload API from Pavoot — 1 operation(s) for createmultipartupload.
-  name: Pavoot Create Multipart Upload API
-  slug: pavoot-createmultipartupload-api
-- baseURL: https://api.pavoot.com
-  baseurl_source: declared
-  description: The CreateShareLink API from Pavoot — 1 operation(s) for createsharelink.
-  name: Pavoot Create Share Link API
-  slug: pavoot-createsharelink-api
-- baseURL: https://api.pavoot.com
-  baseurl_source: declared
   description: The CreateUploadLink API from Pavoot — 1 operation(s) for createuploadlink.
   name: Pavoot Create Upload Link API
   slug: pavoot-createuploadlink-api
@@ -255,11 +240,6 @@ apis:
   description: The DeletePhotographer API from Pavoot — 1 operation(s) for deletephotographer.
   name: Pavoot Delete Photographer API
   slug: pavoot-deletephotographer-api
-- baseURL: https://api.pavoot.com
-  baseurl_source: declared
-  description: The DeleteProject API from Pavoot — 1 operation(s) for deleteproject.
-  name: Pavoot Delete Project API
-  slug: pavoot-deleteproject-api
 - baseURL: https://api.pavoot.com
   baseurl_source: declared
   description: The DeleteRecipient API from Pavoot — 1 operation(s) for deleterecipient.
@@ -342,19 +322,9 @@ apis:
   slug: pavoot-generatebrandfolders-api
 - baseURL: https://api.pavoot.com
   baseurl_source: declared
-  description: The GenerateDownloadUrl API from Pavoot — 1 operation(s) for generatedownloadurl.
-  name: Pavoot Generate Download URL API
-  slug: pavoot-generatedownloadurl-api
-- baseURL: https://api.pavoot.com
-  baseurl_source: declared
   description: The GeneratePresignedUrls API from Pavoot — 1 operation(s) for generatepresignedurls.
   name: Pavoot Generate Presigned URLS API
   slug: pavoot-generatepresignedurls-api
-- baseURL: https://api.pavoot.com
-  baseurl_source: declared
-  description: The GenerateThumbnail API from Pavoot — 1 operation(s) for generatethumbnail.
-  name: Pavoot Generate Thumbnail API
-  slug: pavoot-generatethumbnail-api
 - baseURL: https://api.pavoot.com
   baseurl_source: declared
   description: The GetAllTags API from Pavoot — 1 operation(s) for getalltags.
@@ -400,11 +370,6 @@ apis:
   description: The GetFaces API from Pavoot — 1 operation(s) for getfaces.
   name: Pavoot Get Faces API
   slug: pavoot-getfaces-api
-- baseURL: https://api.pavoot.com
-  baseurl_source: declared
-  description: The GetImages API from Pavoot — 1 operation(s) for getimages.
-  name: Pavoot Get Images API
-  slug: pavoot-getimages-api
 - baseURL: https://api.pavoot.com
   baseurl_source: declared
   description: The GetImagesWithUnknownFaces API from Pavoot — 1 operation(s) for getimageswithunknownfaces.
@@ -545,11 +510,6 @@ apis:
   description: The GetProjectPersons API from Pavoot — 1 operation(s) for getprojectpersons.
   name: Pavoot Get Project Persons API
   slug: pavoot-getprojectpersons-api
-- baseURL: https://api.pavoot.com
-  baseurl_source: declared
-  description: The GetProjects API from Pavoot — 1 operation(s) for getprojects.
-  name: Pavoot Get Projects API
-  slug: pavoot-getprojects-api
 - baseURL: https://api.pavoot.com
   baseurl_source: declared
   description: The GetProjectStorage API from Pavoot — 1 operation(s) for getprojectstorage.
@@ -925,6 +885,46 @@ apis:
   description: The UpsertProjectAttendee API from Pavoot — 1 operation(s) for upsertprojectattendee.
   name: Pavoot Upsert Project Attendee API
   slug: pavoot-upsertprojectattendee-api
+- baseURL: https://api.pavoot.com
+  baseurl_source: declared
+  description: The Add Project API from Pavoot — 1 operation(s) for add project.
+  name: Pavoot Add Project API
+  slug: pavoot-add-project-api
+- baseURL: https://api.pavoot.com
+  baseurl_source: declared
+  description: The Create Multipart Upload API from Pavoot — 1 operation(s) for create multipart upload.
+  name: Pavoot Create Multipart Upload API
+  slug: pavoot-create-multipart-upload-api
+- baseURL: https://api.pavoot.com
+  baseurl_source: declared
+  description: The Create Share Link API from Pavoot — 1 operation(s) for create share link.
+  name: Pavoot Create Share Link API
+  slug: pavoot-create-share-link-api
+- baseURL: https://api.pavoot.com
+  baseurl_source: declared
+  description: The Delete Project API from Pavoot — 1 operation(s) for delete project.
+  name: Pavoot Delete Project API
+  slug: pavoot-delete-project-api
+- baseURL: https://api.pavoot.com
+  baseurl_source: declared
+  description: The Generate Download Url API from Pavoot — 1 operation(s) for generate download url.
+  name: Pavoot Generate Download Url API
+  slug: pavoot-generate-download-url-api
+- baseURL: https://api.pavoot.com
+  baseurl_source: declared
+  description: The Generate Thumbnail API from Pavoot — 1 operation(s) for generate thumbnail.
+  name: Pavoot Generate Thumbnail API
+  slug: pavoot-generate-thumbnail-api
+- baseURL: https://api.pavoot.com
+  baseurl_source: declared
+  description: The Get Images API from Pavoot — 1 operation(s) for get images.
+  name: Pavoot Get Images API
+  slug: pavoot-get-images-api
+- baseURL: https://api.pavoot.com
+  baseurl_source: declared
+  description: The Get Projects API from Pavoot — 1 operation(s) for get projects.
+  name: Pavoot Get Projects API
+  slug: pavoot-get-projects-api
 artifact_total: 183
 common:
 - group: other
@@ -986,7 +986,7 @@ modified: '2026-08-13'
 name: Pavoot
 nav: Providers
 network: true
-overview: 'Pavoot publishes 178 APIs on the [APIs.io](https://apis.io/) network, including Abort Multipart Upload API, Add Brand API, Add Brand To Projects API, and 175 more. Tagged areas include Company, Event, Event Management, Marketing, and AI Agent.
+overview: 'Pavoot publishes 178 APIs on the [APIs.io](https://apis.io/) network, including Abort Multipart Upload API, Add Brand API, Add Brand To Projects API, and 175 more. Tagged areas include Company, Event, Event Management, Marketing, and AI Agents.
 
 
   Pavoot''s developer surface includes support and 10 more developer resources.'
@@ -994,7 +994,7 @@ plans:
 - name: Pavoot Plans Pricing
   plan_count: 0
   slug: pavoot-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Pavoot Rate Limits
@@ -1033,7 +1033,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1054,10 +1054,10 @@ tags:
 - Event
 - Event Management
 - Marketing
-- AI Agent
+- AI Agents
 - Attendee Intelligence
 - Go-To-Market
 - Field Marketing
-- Pipeline
+- Pipelines
 website: https://pavoot.com
 ---

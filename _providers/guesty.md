@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-05-19'
 name: Guesty
 nav: Providers
 network: true
-overview: 'Guesty publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Conversations API, Guests API, and 2 more. Tagged areas include Booking, Hospitality, Property Management, Reservations, and Short-Term Rentals.
+overview: 'Guesty publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Conversations API, Guests API, and 2 more. Tagged areas include Booking, Hospitality, Property Management, Reservations, and Short-Term Rental.
 
 
   Guesty''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, API reference, and 7 more developer resources.'
@@ -170,7 +170,7 @@ plans:
 - name: Guesty Plans Pricing
   plan_count: 3
   slug: guesty-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Guesty Rate Limits
@@ -202,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -223,7 +223,7 @@ tags:
 - Hospitality
 - Property Management
 - Reservations
-- Short-Term Rentals
+- Short-Term Rental
 - Vacation Rentals
 website: https://www.guesty.com/
 ---

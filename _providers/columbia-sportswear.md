@@ -33,17 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - description: Columbia Sportswear's partner-facing API platform, hosted on Microsoft Azure API Management. The portal at columbia.developer.azure-api.net lists API products, offers a try-it console, and takes subsc
   name: Columbia Sportswear Digital Developer Portal
   slug: digital-developer-portal
-- baseURL: https://api.columbia.com/ContentHubExternal
+- baseURL: https://api.columbia.com/
   baseurl_source: declared
-  description: 'Columbia Sportswear''s ContentHub image service for external customers. A read-only API with two GET operations: look up product imagery ("seasonal assets") for a single 10-digit material number, or pa'
-  name: Content Hub External API
-  slug: content-hub-external
+  description: The ExternalImage API from Columbia Sportswear — 2 operation(s) for externalimage.
+  name: Columbia Sportswear External Image API
+  slug: columbia-sportswear-externalimage-api
 artifact_total: 8
 common:
 - group: company
@@ -180,7 +180,7 @@ modified: '2026-09-05'
 name: Columbia Sportswear
 nav: Providers
 network: true
-overview: 'Columbia Sportswear publishes 1 API on the [APIs.io](https://apis.io/) network: Content Hub External API. Tagged areas include Apparel, B2B, Consumer Management, Content Management, and Digital Asset Management.
+overview: 'Columbia Sportswear publishes 1 API on the [APIs.io](https://apis.io/) network: External Image API. Tagged areas include Apparel, B2B, Consumer Management, Content Management, and Digital Asset Management.
 
 
   The Columbia Sportswear catalog on APIs.io includes 1 JSON-LD context.
@@ -207,14 +207,14 @@ press:
 - date: '2026-05-25'
   title: Columbia Sportswear Company Advances Its Succession ...
   url: https://via.tt.se/pressmeddelande/4139504/columbia-sportswear-company-advances-its-succession-plans-and-appoints-co-presidents-peter-j-bragdon-and-joseph-p-boyle?publisherId=259167&lang=en
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Columbia Sportswear Rate Limits
   slug: columbia-sportswear-rate-limits
 score:
   band: developing
-  composite: 45.1
+  composite: 45.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 61.0
@@ -222,21 +222,26 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 63.2
     contract_governance: 19.7
-    contract_quality: 55.8
+    contract_quality: 59.2
     developer_ergonomics: 44.6
     discoverability: 68.5
     operational_transparency: 2.6
   previous_composite: 45.1
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -262,7 +267,7 @@ tags:
 - Footwear
 - Fortune 1000
 - Outdoor
-- Partner APIs
+- Partner API
 - Product Imagery
 - Retail
 website: https://www.columbia.com/

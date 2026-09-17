@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Asynchronous document-image enhancement REST API. POST /api/enhance accepts a base64-encoded image plus a preset (document, auto-crop, photo or watermark) and returns a result_url immediately; GET /ap
@@ -152,7 +152,7 @@ plans:
 - name: Onymos Plans Pricing
   plan_count: 0
   slug: onymos-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Onymos Rate Limits
@@ -186,7 +186,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

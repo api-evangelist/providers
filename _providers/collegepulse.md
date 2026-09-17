@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,11 +77,11 @@ modified: '2026-07-18'
 name: Collegepulse
 nav: Providers
 network: true
-overview: 'Collegepulse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Research, Survey, Polling, and Higher Education.
+overview: 'Collegepulse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Research, Surveys, Polling, and Higher Education.
 
 
   Collegepulse''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 3
+random_paper: 8
 score:
   band: minimal
   composite: 6.7
@@ -110,7 +110,7 @@ score:
     regime_id: education
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -126,7 +126,7 @@ slug: collegepulse
 tags:
 - Company
 - Market Research
-- Survey
+- Surveys
 - Polling
 - Higher Education
 - College Students

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,11 +73,11 @@ modified: '2026-07-20'
 name: Onecard
 nav: Providers
 network: true
-overview: 'Onecard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit, Fintech, Credit Card, and Payments.
+overview: 'Onecard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Credit, Fintech, Credit Cards, and Payments.
 
 
   Onecard''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: minimal
   composite: 9.1
@@ -111,7 +111,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -128,7 +128,7 @@ tags:
 - Company
 - Credit
 - Fintech
-- Credit Card
+- Credit Cards
 - Payments
 - Banking
 - India

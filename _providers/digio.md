@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -64,14 +64,14 @@ apis:
   slug: digio-emandate-api
 - baseURL: https://api.digio.in
   baseurl_source: declared
-  description: DigiSign - Aadhaar and OTP based legally-valid electronic signatures.
-  name: Digio eSign API
-  slug: digio-esign-api
-- baseURL: https://api.digio.in
-  baseurl_source: declared
   description: DigiKYC - identity verification via CKYC, KRA, DigiLocker, and offline Aadhaar.
   name: Digio KYC API
   slug: digio-kyc-api
+- baseURL: https://api.digio.in
+  baseurl_source: declared
+  description: DigiSign - Aadhaar and OTP based legally-valid electronic signatures.
+  name: Digio e Sign API
+  slug: digio-e-sign-api
 artifact_total: 24
 asyncapis:
 - description: ''
@@ -281,7 +281,7 @@ modified: '2026-06-20'
 name: Digio
 nav: Providers
 network: true
-overview: 'Digio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, eMandate API, eSign API, and 1 more. Tagged areas include eSign, KYC, eNACH, eMandate, and Digital Signature.
+overview: 'Digio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, eMandate API, KYC API, and 1 more. Tagged areas include eSign, KYC, eNACH, eMandate, and Digital Signature.
 
 
   The Digio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -292,7 +292,7 @@ plans:
 - name: Digio Plans Pricing
   plan_count: 1
   slug: digio-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Digio Rate Limits
@@ -334,7 +334,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

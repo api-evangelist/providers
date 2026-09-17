@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: simplifi-simplifipay-card-program-api
 - baseURL: https://uat-lb.simplifipay.com
   baseurl_source: declared
-  description: The Document API from Simplifi/Simplifipay — 2 operation(s) for document.
-  name: Simplifi/Simplifipay Document API
-  slug: simplifi-simplifipay-document-api
-- baseURL: https://uat-lb.simplifipay.com
-  baseurl_source: declared
   description: The Fee API from Simplifi/Simplifipay — 5 operation(s) for fee.
   name: Simplifi/Simplifipay Fee API
   slug: simplifi-simplifipay-fee-api
@@ -90,7 +85,7 @@ apis:
   description: The Webhook API from Simplifi/Simplifipay — 4 operation(s) for webhook.
   name: Simplifi/Simplifipay Webhook API
   slug: simplifi-simplifipay-webhook-api
-artifact_total: 23
+artifact_total: 22
 asyncapis:
 - description: 'Outbound webhook events SimpliFi delivers to a client-configured HTTPS endpoint. Async model: an API call returns 2xx/202 on receipt; the outcome arrives here. Each delivery carries X-SimpliFi-Webhook'
   name: SimpliFi Webhooks
@@ -265,14 +260,14 @@ modified: '2026-09-15'
 name: Simplifipay
 nav: Providers
 network: true
-overview: 'Simplifipay publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Simplifi/Simplifipay Auth API, Simplifi/Simplifipay Card API, Simplifi/Simplifipay Card Program API, and 6 more. Tagged areas include Company, Cards, Card Issuing, Virtual Cards, and Fintech.
+overview: 'Simplifipay publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Simplifi/Simplifipay Auth API, Simplifi/Simplifipay Card API, Simplifi/Simplifipay Card Program API, and 5 more. Tagged areas include Company, Cards, Card Issuing, Virtual Cards, and Fintech.
 
 
   The Simplifipay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Simplifipay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: developing
   composite: 53.1
@@ -287,7 +282,7 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 67.6
+    contract_quality: 67.7
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 7.9
@@ -304,7 +299,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -314,7 +309,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

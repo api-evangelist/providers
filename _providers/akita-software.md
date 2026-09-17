@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'Akita Software provided an API observability platform that used passive traffic monitoring to automatically discover, map, and model APIs without requiring code changes or proxying. It could generate '
@@ -173,7 +173,7 @@ plans:
 - name: Akita Software Plans Pricing
   plan_count: 0
   slug: akita-software-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Akita Software Rate Limits
@@ -203,7 +203,7 @@ score:
   provenance:
     mcp: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

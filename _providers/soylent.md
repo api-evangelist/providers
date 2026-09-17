@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Soylent storefront implementing the Universal Commerce Protocol over MCP: catalog search, cart, checkout, and fulfillment with a buyer-approval invariant on payme'
@@ -125,7 +125,7 @@ overview: 'Soylent publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Soylent''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 5
+random_paper: 12
 scopes:
 - name: Soylent Scopes
   scope_count: 4
@@ -154,7 +154,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -180,7 +180,7 @@ tags:
 - E-Commerce
 - Retail
 - Direct to Consumer
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - Shopify
 - MCP

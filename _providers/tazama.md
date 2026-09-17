@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ collections:
   name: Tazama Transaction Monitoring Service API
   slug: open-tazama-transaction-monitoring-service
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tazama.org
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/capabilities/tazama-capability-edges.yml
   title: ''
@@ -185,7 +189,7 @@ jsonld:
   property_count: 0
   slug: tazama-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Tazama
 nav: Providers
 network: true
@@ -195,12 +199,12 @@ overview: 'Tazama publishes 2 APIs on the [APIs.io](https://apis.io/) network: H
   The Tazama catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tazama''s developer surface includes engineering blog, documentation, and 17 more developer resources.'
+  Tazama''s developer surface includes engineering blog, documentation, and 18 more developer resources.'
 plans:
 - name: Tazama Plans Pricing
   plan_count: 3
   slug: tazama-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Tazama Rate Limits
@@ -257,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -278,4 +282,5 @@ tags:
 - Transaction Monitoring
 - ISO 20022
 - Real-Time
+website: https://tazama.org
 ---

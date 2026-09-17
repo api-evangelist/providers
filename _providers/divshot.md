@@ -88,7 +88,7 @@ overview: 'Divshot is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Divshot''s developer surface includes CLI, authentication, and 10 more developer resources.'
-random_paper: 13
+random_paper: 21
 security:
 - kind: authentication
   name: Divshot Authentication

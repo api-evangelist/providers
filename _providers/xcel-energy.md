@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bound
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.8
-  scored_at: '2026-09-15'
+  score: 26.6
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -66,11 +66,6 @@ apis:
   slug: xcel-energy-configuration-api
 - baseURL: https://api.xcelenergy.com
   baseurl_source: declared
-  description: Demand Response programs and load control events.
-  name: Xcel Energy DemandResponse API
-  slug: xcel-energy-demandresponse-api
-- baseURL: https://api.xcelenergy.com
-  baseurl_source: declared
   description: Distributed Energy Resource programs, controls, and settings.
   name: Xcel Energy DER API
   slug: xcel-energy-der-api
@@ -79,16 +74,6 @@ apis:
   description: Root resource that lists the function sets supported by the meter.
   name: Xcel Energy DeviceCapability API
   slug: xcel-energy-devicecapability-api
-- baseURL: https://api.xcelenergy.com
-  baseurl_source: declared
-  description: Manufacturer, hardware, and firmware metadata for a device.
-  name: Xcel Energy DeviceInformation API
-  slug: xcel-energy-deviceinformation-api
-- baseURL: https://api.xcelenergy.com
-  baseurl_source: declared
-  description: Operational status, op-time, and event indicators for a device.
-  name: Xcel Energy DeviceStatus API
-  slug: xcel-energy-devicestatus-api
 - baseURL: https://api.xcelenergy.com
   baseurl_source: declared
   description: Aggregate power-quality measurements for a UsagePoint.
@@ -171,11 +156,6 @@ apis:
   slug: xcel-energy-selfdevice-api
 - baseURL: https://api.xcelenergy.com
   baseurl_source: declared
-  description: Operational status of the Green Button Connect My Data service.
-  name: Xcel Energy ServiceStatus API
-  slug: xcel-energy-servicestatus-api
-- baseURL: https://api.xcelenergy.com
-  baseurl_source: declared
   description: Subscription/notification resources for resource-change events.
   name: Xcel Energy Subscription API
   slug: xcel-energy-subscription-api
@@ -189,6 +169,26 @@ apis:
   description: Logical metered points that produce energy usage data for a service.
   name: Xcel Energy UsagePoint API
   slug: xcel-energy-usagepoint-api
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Demand Response programs and load control events.
+  name: Xcel Energy Demand Response API
+  slug: xcel-energy-demand-response-api
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Manufacturer, hardware, and firmware metadata for a device.
+  name: Xcel Energy Device Information API
+  slug: xcel-energy-device-information-api
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Operational status, op-time, and event indicators for a device.
+  name: Xcel Energy Device Status API
+  slug: xcel-energy-device-status-api
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Operational status of the Green Button Connect My Data service.
+  name: Xcel Energy Service Status API
+  slug: xcel-energy-service-status-api
 artifact_total: 95
 collections:
 - collection_type: open
@@ -425,7 +425,7 @@ press:
 - date: '2026-05-25'
   title: 'Xcel Energy: Brings AI-driven wildfire detection to Wisconsin'
   url: https://www.wispolitics.com/2026/xcel-energy-brings-ai-driven-wildfire-detection-to-wisconsin/
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Xcel Energy Rate Limits
@@ -473,7 +473,7 @@ score:
     regime_id: energy_utilities
     score: 39.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

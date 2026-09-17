@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://revistas.unav.edu/index.php/index/oai
-  baseurl_source: declared
-  description: 'Live OAI-PMH 2.0 metadata harvesting interface over the university press''s journal portfolio, running on a self-hosted Open Journal Systems 3.4.0.8 instance. Verified 2026-09-01: 100 sets (one per jou'
-  name: Revistas Cientificas OAI-PMH (Servicio de Publicaciones)
-  slug: revistas-oai-pmh
 - description: The university's own Shibboleth/SAML identity provider, published through RedIRIS's SIR2 national identity federation and interfederated into eduGAIN. This is the institution's strongest institution-o
   name: Institutional SAML Identity Provider (RedIRIS SIR2 / eduGAIN)
   slug: sir2-edugain-idp
@@ -62,6 +57,11 @@ apis:
 - description: The library's guides platform, including the institution's public generative AI guidance for students and researchers (definitions, ethics, tooling). Hosted on Springshare LibGuides; the guidance cont
   name: BiblioGuias (Springshare LibGuides tenancy)
   slug: biblioguias
+- baseURL: https://revistas.unav.edu/index.php/index/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs for harvesting scholarly metadata
+  name: University of Navarra Harvesting API
+  slug: university-of-navarra-harvesting-api
 artifact_total: 14
 common:
 - group: company
@@ -101,10 +101,10 @@ common:
   type: AITooling
   url: https://biblioguias.unav.edu/inteligencia-artificial-generativa
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/openapi/university-of-navarra-revistas-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/openapi/_original/university-of-navarra-revistas-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-navarra-revistas-oai-pmh-openapi.yml
+  url: openapi/_original/university-of-navarra-revistas-oai-pmh-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/authentication/university-of-navarra-authentication.yml
   title: ''
@@ -163,11 +163,11 @@ jsonld:
   property_count: 2
   slug: university-of-navarra-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-09-16'
 name: University of Navarra
 nav: Providers
 network: true
-overview: 'University of Navarra publishes 1 API on the [APIs.io](https://apis.io/) network: Revistas Cientificas OAI-PMH (Servicio de Publicaciones). Tagged areas include Education, Higher Education, University, Spain, and Private Research University.
+overview: 'University of Navarra publishes 1 API on the [APIs.io](https://apis.io/) network: Harvesting API. Tagged areas include Education, Higher Education, University, Spain, and Private Research University.
 
 
   The University of Navarra catalog on APIs.io includes 1 JSON-LD context.
@@ -178,7 +178,7 @@ plans:
 - name: University Of Navarra Plans Pricing
   plan_count: 2
   slug: university-of-navarra-plans-pricing
-random_paper: 9
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: University Of Navarra Rate Limits
@@ -224,7 +224,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

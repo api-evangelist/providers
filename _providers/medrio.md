@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: List the studies available to your account and read their configuration - domains, enabled features, reason-for-data-change options, and the reference data a study is built from (sites, roles, groups,
@@ -120,7 +120,7 @@ plans:
 - name: Medrio Plans Pricing
   plan_count: 1
   slug: medrio-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Medrio Rate Limits
@@ -151,7 +151,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

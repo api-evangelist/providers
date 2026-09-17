@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -55,11 +55,6 @@ apis:
   description: Endpoints for retrieving gateway traffic analytics, including request counts, response times, error rates, and usage patterns.
   name: RapidAPI Analytics API
   slug: rapidapi-analytics-api
-- baseURL: https://rapidapi.com
-  baseurl_source: spec
-  description: The Apis API from RapidAPI — 6 operation(s) for apis.
-  name: RapidAPI Apis API
-  slug: rapidapi-apis-api
 - baseURL: https://platform.rapidapi.com/v1
   baseurl_source: spec
   description: Endpoints for creating, updating, and deleting applications and their associated authorizations within the Enterprise Hub.
@@ -110,11 +105,6 @@ apis:
   description: Endpoints for managing gateway instances, including creating, configuring, and monitoring custom API gateways.
   name: RapidAPI Gateways API
   slug: rapidapi-gateways-api
-- baseURL: https://platform.rapidapi.com
-  baseurl_source: spec
-  description: The single GraphQL endpoint that accepts all queries and mutations for managing the Enterprise Hub, including APIs, collections, organizations, users, and hub configuration.
-  name: RapidAPI GraphQL API
-  slug: rapidapi-graphql-api
 - baseURL: https://testing.rapidapi.com/v1
   baseurl_source: spec
   description: Endpoints for listing available monitoring locations across global AWS regions where tests can be executed.
@@ -190,6 +180,16 @@ apis:
   description: Endpoints for managing users within the Enterprise Hub, including user roles, permissions, and account configurations.
   name: RapidAPI Users API
   slug: rapidapi-users-api
+- baseURL: https://rapidapi.com
+  baseurl_source: spec
+  description: The Apis API from RapidAPI — 6 operation(s) for apis.
+  name: RapidAPI APIS API
+  slug: rapidapi-apis-api
+- baseURL: https://platform.rapidapi.com
+  baseurl_source: spec
+  description: The single GraphQL endpoint that accepts all queries and mutations for managing the Enterprise Hub, including APIs, collections, organizations, users, and hub configuration.
+  name: RapidAPI Graph QL API
+  slug: rapidapi-graph-ql-api
 artifact_total: 148
 collections:
 - collection_type: open
@@ -618,7 +618,7 @@ modified: '2026-05-19'
 name: RapidAPI
 nav: Providers
 network: true
-overview: 'RapidAPI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Analytics API, Apis API, and 26 more. Tagged areas include API Marketplace, API Management, API Testing, API Gateway, and API Design.
+overview: 'RapidAPI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Analytics API, Applications API, and 26 more. Tagged areas include API Marketplace, API Management, API Testing, API Gateway, and API Design.
 
 
   The RapidAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -629,7 +629,7 @@ plans:
 - name: Rapidapi Plans Pricing
   plan_count: 1
   slug: rapidapi-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Rapidapi Rate Limits
@@ -683,7 +683,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

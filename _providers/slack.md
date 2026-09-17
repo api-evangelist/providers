@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -254,11 +254,6 @@ apis:
   slug: slack-team-api
 - baseURL: https://slack.com/api
   baseurl_source: declared
-  description: Manage user groups
-  name: Slack Usergroups API
-  slug: slack-usergroups-api
-- baseURL: https://slack.com/api
-  baseurl_source: declared
   description: The Users API from Slack — 32 operation(s) for users.
   name: Slack Users API
   slug: slack-users-api
@@ -272,6 +267,11 @@ apis:
   description: The Workflows API from Slack — 5 operation(s) for workflows.
   name: Slack Workflows API
   slug: slack-workflows-api
+- baseURL: https://slack.com/api
+  baseurl_source: declared
+  description: Manage user groups
+  name: Slack User Groups API
+  slug: slack-user-groups-api
 arazzos:
 - description: Add a link bookmark to a channel and post a message about it.
   name: Slack Add a Channel Bookmark and Announce It
@@ -865,6 +865,10 @@ collections:
   name: Slack Workflows
   slug: open-slack-workflows
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://slack.dev
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/capabilities/slack-capability-edges.yml
   title: ''
@@ -1385,7 +1389,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Slack
 nav: Providers
 network: true
@@ -1395,12 +1399,12 @@ overview: 'Slack publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
   The Slack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Slack''s developer surface includes authentication, developer portal, getting-started guide, code examples, sandbox, engineering blog, support, and 87 more developer resources.'
+  Slack''s developer surface includes authentication, developer portal, getting-started guide, code examples, sandbox, engineering blog, support, and 88 more developer resources.'
 plans:
 - name: Slack Plans Pricing
   plan_count: 4
   slug: slack-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Slack Rate Limits
@@ -1470,7 +1474,7 @@ score:
       marker_coverage: 0.0
       total: 41
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1511,5 +1515,5 @@ use_cases:
 - name: Engineering teams integrating CI/CD pipelines and code review notifications
 - name: IT admins provisioning users and managing workspace security at scale
 - name: Product teams collecting feedback with interactive surveys and polls
-website: https://api.slack.com/
+website: https://slack.dev
 ---

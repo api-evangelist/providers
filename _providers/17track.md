@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -179,7 +179,7 @@ modified: '2026-06-13'
 name: 17TRACK
 nav: Providers
 network: true
-overview: '17TRACK publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tracking API and Webhooks API. Tagged areas include Shipping, Package Tracking, Logistics, Carriers, and Delivery.
+overview: '17TRACK publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tracking API and Webhooks API. Tagged areas include Shipping, Package Tracking, Logistics, Carrier, and Delivery.
 
 
   The 17TRACK catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -190,7 +190,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -239,7 +239,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -259,7 +259,7 @@ tags:
 - Shipping
 - Package Tracking
 - Logistics
-- Carriers
+- Carrier
 - Delivery
 - Webhook
 website: https://www.17track.net

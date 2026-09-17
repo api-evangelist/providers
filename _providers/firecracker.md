@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -76,7 +76,7 @@ apis:
 - baseURL: http://localhost/
   baseurl_source: declared
   description: The Firecracker API API from Firecracker — 1 operation(s) for firecracker api.
-  name: Firecracker Firecracker API API
+  name: Firecracker API
   slug: firecracker-firecracker-api-api
 - baseURL: http://localhost/
   baseurl_source: declared
@@ -278,11 +278,11 @@ finops:
   slug: firecracker-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firecracker.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Firecracker
 nav: Providers
 network: true
-overview: 'Firecracker publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Balloon API, Boot Source API, and 16 more. Tagged areas include Containers, MicroVMs, Open-Source, Serverless, and Virtualization.
+overview: 'Firecracker publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Balloon API, Boot Source API, and 16 more. Tagged areas include Containers, MicroVM, Open-Source, Serverless, and Virtualization.
 
 
   Firecracker''s developer surface includes documentation, getting-started guide, changelog, FAQ, engineering blog, and 12 more developer resources.'
@@ -290,7 +290,7 @@ plans:
 - name: Firecracker Plans Pricing
   plan_count: 3
   slug: firecracker-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Firecracker Rate Limits
@@ -325,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -334,7 +334,7 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/he
 slug: firecracker
 tags:
 - Containers
-- MicroVMs
+- MicroVM
 - Open-Source
 - Serverless
 - Virtualization

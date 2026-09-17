@@ -28,22 +28,53 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 45.2
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 48.1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- description: Which crawler a User-Agent header belongs to, who operates it, whether it documents obeying robots.txt, how to verify it is genuine against the operator's own published IP ranges, and what blocking it
-  name: AI Crawler Index
-  slug: ai-crawler-index
-artifact_total: 9
+- baseURL: https://www.pathwren.workers.dev
+  baseurl_source: declared
+  description: The whole dataset in several shapes.
+  name: AI Crawler Index Bulk API
+  slug: pathwren-bulk-api
+- baseURL: https://www.pathwren.workers.dev
+  baseurl_source: declared
+  description: One record per crawler.
+  name: AI Crawler Index Crawlers API
+  slug: pathwren-crawlers-api
+- baseURL: https://www.pathwren.workers.dev
+  baseurl_source: declared
+  description: Operator-published prefixes, normalised.
+  name: AI Crawler Index Ip Ranges API
+  slug: pathwren-ip-ranges-api
+- baseURL: https://www.pathwren.workers.dev
+  baseurl_source: declared
+  description: Ready-made robots.txt policy files.
+  name: AI Crawler Index Robots API
+  slug: pathwren-robots-api
+- baseURL: https://www.pathwren.workers.dev
+  baseurl_source: declared
+  description: Freshness of the upstream sources.
+  name: AI Crawler Index Status API
+  slug: pathwren-status-api
+artifact_total: 12
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/overlays/pathwren-ai-crawler-index-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/pathwren-ai-crawler-index-overlay.yaml
+- group: company
+  title: ''
+  type: Website
+  url: https://pathwren.workers.dev
 - group: start
   title: ''
   type: DeveloperPortal
@@ -143,32 +174,29 @@ json_schemas:
   slug: pathwren-crawler.schema
 layout: provider
 mcp_servers:
-- description: Mirrored from the provider's own x-mcp-server property so the canonical reader sees it. Verified 2026-09-01.
-  name: AI Crawler Index MCP Server
-  slug: ai-crawler-index-mcp-server
 - description: ''
   name: AI Crawler Index MCP Server
-  slug: ai-crawler-index-mcp-server-2
-modified: '2026-09-01'
+  slug: ai-crawler-index-mcp-server
+modified: '2026-09-16'
 name: AI Crawler Index
 nav: Providers
 network: true
-overview: 'AI Crawler Index publishes 1 API on the [APIs.io](https://apis.io/) network: AI Crawler Index. Tagged areas include AI crawlers, web crawlers, Robots.txt, User Agents, and Bot Detection.
+overview: 'AI Crawler Index publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bulk API, Crawlers API, Ip Ranges API, and 2 more. Tagged areas include AI crawlers, web crawlers, Robots.txt, User Agents, and Bot Detection.
 
 
-  AI Crawler Index''s developer surface includes documentation, support, changelog, and 16 more developer resources.'
+  AI Crawler Index''s developer surface includes documentation, support, changelog, and 18 more developer resources.'
 plans:
 - name: Pathwren Plans Pricing
   plan_count: 1
   slug: pathwren-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Pathwren Rate Limits
   slug: pathwren-rate-limits
 score:
   band: developing
-  composite: 45.0
+  composite: 47.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 51.0
@@ -176,11 +204,11 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 41.3
+    contract_quality: 50.7
     developer_ergonomics: 56.5
     discoverability: 83.3
     operational_transparency: 42.1
@@ -191,7 +219,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 5
     mcp: first-party
     skills: derived
   regulatory:
@@ -201,7 +229,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -233,5 +261,5 @@ tags:
 - crawler IP ranges
 - llms-txt
 - Open Data
-website: https://www.pathwren.workers.dev/
+website: https://pathwren.workers.dev
 ---

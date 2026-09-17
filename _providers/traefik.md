@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,11 +75,6 @@ apis:
   slug: traefik-mesh
 - baseURL: http://localhost:8080/api
   baseurl_source: declared
-  description: Endpoints for listing configured entry points.
-  name: Traefik Labs Entrypoints API
-  slug: traefik-entrypoints-api
-- baseURL: http://localhost:8080/api
-  baseurl_source: declared
   description: Health check and ping endpoints for liveness probes.
   name: Traefik Labs Health API
   slug: traefik-health-api
@@ -103,6 +98,11 @@ apis:
   description: Endpoints for inspecting UDP routers and services.
   name: Traefik Labs UDP API
   slug: traefik-udp-api
+- baseURL: http://localhost:8080/api
+  baseurl_source: declared
+  description: Endpoints for listing configured entry points.
+  name: Traefik Labs Entry Points API
+  slug: traefik-entry-points-api
 artifact_total: 40
 collections:
 - collection_type: open
@@ -369,7 +369,7 @@ modified: '2026-05-19'
 name: Traefik Labs
 nav: Providers
 network: true
-overview: 'Traefik Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Entrypoints API, Health API, HTTP API, and 3 more. Tagged areas include AI Gateway, API Gateway, API Management, Developer Portal, and GitOps.
+overview: 'Traefik Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Health API, HTTP API, Overview API, and 3 more. Tagged areas include AI Gateway, API Gateway, API Management, Developer Portal, and GitOps.
 
 
   The Traefik Labs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -380,7 +380,7 @@ plans:
 - name: Traefik Plans Pricing
   plan_count: 5
   slug: traefik-plans-pricing
-random_paper: 7
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Traefik Rate Limits
@@ -433,7 +433,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -186,6 +186,10 @@ collections:
   name: Pixelfed REST Accounts Timelines API
   slug: open-pixelfed-timelines-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://pixelfed.org
 - group: operate
   title: ''
   type: IssueTracker
@@ -243,7 +247,7 @@ jsonld:
   property_count: 0
   slug: pixelfed
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Pixelfed
 nav: Providers
 network: true
@@ -253,12 +257,12 @@ overview: 'Pixelfed publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The Pixelfed catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Pixelfed''s developer surface includes authentication and 9 more developer resources.'
+  Pixelfed''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Rate Limits
@@ -298,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -323,4 +327,5 @@ tags:
 - Decentralized
 - Mastodon Compatible
 - Federation
+website: https://pixelfed.org
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.orthogonal.com/v1
@@ -564,7 +564,7 @@ plans:
 - name: Orthogonal Plans Pricing
   plan_count: 2
   slug: orthogonal-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Orthogonal Rate Limits
@@ -609,7 +609,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

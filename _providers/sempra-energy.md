@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Sempra Energy runs a Google Apigee API program. api.sempra.com is the Apigee runtime gateway — an unrouted request returns the genuine Apigee messaging.adaptors.http.flow.ApplicationNotFound JSON faul
@@ -152,7 +152,7 @@ press:
 - date: '2026-05-08'
   title: '<a href="https://www.sempra.com/newsroom/spotlight-articles/energy-and-national-security-conversation-with-jeffrey-w-martin" hreflang="en">Energy and National Security: Conversation with Jeffrey W. Martin and LTG H.R. McMaster </a>'
   url: https://www.sempra.com/newsroom/spotlight-articles/energy-and-national-security-conversation-with-jeffrey-w-martin
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Sempra Energy Rate Limits
@@ -188,7 +188,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

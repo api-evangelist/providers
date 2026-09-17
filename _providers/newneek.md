@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ modified: '2026-08-13'
 name: Newneek
 nav: Providers
 network: true
-overview: 'Newneek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Newsletter, News, and Content.
+overview: 'Newneek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Newsletters, News, and Content.
 
 
   Newneek''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
@@ -104,7 +104,7 @@ plans:
 - name: Newneek Plans Pricing
   plan_count: 0
   slug: newneek-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Newneek Rate Limits
@@ -136,7 +136,7 @@ score:
     - japan-korea
   previous_composite: 14.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ slug: newneek
 tags:
 - Company
 - Media
-- Newsletter
+- Newsletters
 - News
 - Content
 - Consumer

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 521
   human_in_the_loop: 15
@@ -1946,7 +1946,7 @@ overview: 'Juniper Mist AI publishes 210 APIs on the [APIs.io](https://apis.io/)
 
 
   Juniper Mist AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, training material, tooling, and 35 more developer resources.'
-random_paper: 20
+random_paper: 10
 score:
   band: developing
   composite: 46.5
@@ -1974,7 +1974,7 @@ score:
       marker_coverage: 0.0
       total: 210
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

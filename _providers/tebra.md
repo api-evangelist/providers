@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Tebra Agentic Access
-  operation_count: 14
+  operation_count: 34
   slug: tebra-agentic-access
-  summary_line: 14 operations
+  summary_line: 34 operations
 api_count: 2
 apis:
 - description: SOAP operations for patient records - GetPatient, GetPatients, GetAllPatients, CreatePatient, UpdatePatient, UpdatePatientsExternalID, and UpdatePrimaryPatientCase. Part of the former Kareo Integratio
@@ -78,16 +78,6 @@ apis:
   slug: tebra-patient-api
 - baseURL: https://webservice.kareo.com/services/soap/2.1
   baseurl_source: declared
-  description: The AllergyIntolerance API from Tebra — 1 operation(s) for allergyintolerance.
-  name: Tebra Allergy Intolerance API
-  slug: tebra-allergyintolerance-api
-- baseURL: https://webservice.kareo.com/services/soap/2.1
-  baseurl_source: declared
-  description: The CarePlan API from Tebra — 1 operation(s) for careplan.
-  name: Tebra Care Plan API
-  slug: tebra-careplan-api
-- baseURL: https://webservice.kareo.com/services/soap/2.1
-  baseurl_source: declared
   description: The CareTeam API from Tebra — 1 operation(s) for careteam.
   name: Tebra Care Team API
   slug: tebra-careteam-api
@@ -106,11 +96,6 @@ apis:
   description: The DiagnosticReport API from Tebra — 1 operation(s) for diagnosticreport.
   name: Tebra Diagnostic Report API
   slug: tebra-diagnosticreport-api
-- baseURL: https://webservice.kareo.com/services/soap/2.1
-  baseurl_source: declared
-  description: The DocumentReference API from Tebra — 1 operation(s) for documentreference.
-  name: Tebra Document Reference API
-  slug: tebra-documentreference-api
 - baseURL: https://webservice.kareo.com/services/soap/2.1
   baseurl_source: declared
   description: The Encounter API from Tebra — 1 operation(s) for encounter.
@@ -138,11 +123,6 @@ apis:
   slug: tebra-medication-api
 - baseURL: https://webservice.kareo.com/services/soap/2.1
   baseurl_source: declared
-  description: The MedicationRequest API from Tebra — 1 operation(s) for medicationrequest.
-  name: Tebra Medication Request API
-  slug: tebra-medicationrequest-api
-- baseURL: https://webservice.kareo.com/services/soap/2.1
-  baseurl_source: declared
   description: The Observation API from Tebra — 1 operation(s) for observation.
   name: Tebra Observation API
   slug: tebra-observation-api
@@ -158,11 +138,6 @@ apis:
   slug: tebra-practitioner-api
 - baseURL: https://webservice.kareo.com/services/soap/2.1
   baseurl_source: declared
-  description: The PractitionerRole API from Tebra — 1 operation(s) for practitionerrole.
-  name: Tebra Practitioner Role API
-  slug: tebra-practitionerrole-api
-- baseURL: https://webservice.kareo.com/services/soap/2.1
-  baseurl_source: declared
   description: The Procedure API from Tebra — 1 operation(s) for procedure.
   name: Tebra Procedure API
   slug: tebra-procedure-api
@@ -171,6 +146,31 @@ apis:
   description: The Provenance API from Tebra — 1 operation(s) for provenance.
   name: Tebra Provenance API
   slug: tebra-provenance-api
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Allergy Intolerance API from Tebra — 1 operation(s) for allergy intolerance.
+  name: Tebra Allergy Intolerance API
+  slug: tebra-allergy-intolerance-api
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Care plan API from Tebra — 1 operation(s) for care plan.
+  name: Tebra Care plan API
+  slug: tebra-care-plan-api
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Document Reference API from Tebra — 1 operation(s) for document reference.
+  name: Tebra Document Reference API
+  slug: tebra-document-reference-api
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Medication Request API from Tebra — 1 operation(s) for medication request.
+  name: Tebra Medication Request API
+  slug: tebra-medication-request-api
+- baseURL: https://webservice.kareo.com/services/soap/2.1
+  baseurl_source: declared
+  description: The Practitioner Role API from Tebra — 1 operation(s) for practitioner role.
+  name: Tebra Practitioner Role API
+  slug: tebra-practitioner-role-api
 artifact_total: 39
 collections:
 - collection_type: open
@@ -343,7 +343,7 @@ plans:
 - name: Tebra Plans Pricing
   plan_count: 3
   slug: tebra-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Tebra Rate Limits
@@ -397,7 +397,7 @@ score:
     regime_id: health
     score: 86.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

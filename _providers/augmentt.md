@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,22 +26,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-09-15'
-api_count: 4
+  score: 31.0
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://api.augmentt.com
-  baseurl_source: declared
-  description: The Augmentt API is a read-only reporting interface over the Augmentt platform. Twelve GET endpoints expose the managed customer list, Augmentt module seat consumption, Microsoft 365 licensing, and th
-  name: Augmentt API
-  slug: augmentt-api
 - description: Augmentt Discover provides SaaS discovery and Shadow IT detection capabilities for MSPs, identifying all cloud applications used across managed client environments.
   name: Augmentt Discover
   slug: augmentt-discover
@@ -51,7 +46,22 @@ apis:
 - description: Augmentt Engage provides SaaS administration, management, and automation capabilities allowing MSPs to centralize SaaS security policy enforcement and user lifecycle management across Microsoft 365 an
   name: Augmentt Engage
   slug: augmentt-engage
-artifact_total: 24
+- baseURL: https://api.augmentt.com
+  baseurl_source: declared
+  description: Companies (tenants) configured under Configuration > Companies in the Augmentt portal.
+  name: Augmentt Customers API
+  slug: augmentt-customers-api
+- baseURL: https://api.augmentt.com
+  baseurl_source: declared
+  description: Augmentt module license consumption and Microsoft 365 licensing reports.
+  name: Augmentt Licensing API
+  slug: augmentt-licensing-api
+- baseURL: https://api.augmentt.com
+  baseurl_source: declared
+  description: MFA, security posture, threat and summary reporting for managed tenants.
+  name: Augmentt Security Reports API
+  slug: augmentt-security-reports-api
+artifact_total: 26
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/augmentt/refs/heads/main/security/augmentt-vulnerability-disclosure.yml
@@ -245,7 +255,7 @@ modified: '2026-09-14'
 name: Augmentt
 nav: Providers
 network: true
-overview: 'Augmentt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include MSP, Microsoft-365, SaaS Management, SaaS Security, and Shadow IT.
+overview: 'Augmentt publishes 3 APIs on the [APIs.io](https://apis.io/) network: Customers API, Licensing API, and Security Reports API. Tagged areas include MSP, Microsoft-365, SaaS Management, SaaS Security, and Shadow IT.
 
 
   Augmentt''s developer surface includes engineering blog, pricing, documentation, API reference, getting-started guide, support, signup flow, and 30 more developer resources.'
@@ -253,41 +263,41 @@ plans:
 - name: Augmentt Plans Pricing
   plan_count: 5
   slug: augmentt-plans-pricing
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Augmentt Rate Limits
   slug: augmentt-rate-limits
 score:
   band: developing
-  composite: 48.1
+  composite: 47.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 89.5
     contract_governance: 0.0
-    contract_quality: 15.1
+    contract_quality: 15.0
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 50.0
   previous_composite: 48.1
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 3
       marker_coverage: 100.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

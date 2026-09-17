@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - baseURL: https://demo.buk.cl/api/v1/chile
@@ -103,11 +103,6 @@ apis:
   description: The Days worked API from Buk — 2 operation(s) for days worked.
   name: Buk Days worked API
   slug: buk-days-worked-api
-- baseURL: https://demo.buk.cl/api/v1/chile
-  baseurl_source: declared
-  description: The Dismissal API from Buk — 1 operation(s) for dismissal.
-  name: Buk Dismissal API
-  slug: buk-dismissal-api
 - baseURL: https://demo.buk.cl/api/v1/chile
   baseurl_source: declared
   description: The Documents API from Buk — 5 operation(s) for documents.
@@ -220,19 +215,9 @@ apis:
   slug: buk-overtime-api
 - baseURL: https://demo.buk.cl/api/v1/chile
   baseurl_source: declared
-  description: The Pay stubs API from Buk — 5 operation(s) for pay stubs.
-  name: Buk Pay stubs API
-  slug: buk-pay-stubs-api
-- baseURL: https://demo.buk.cl/api/v1/chile
-  baseurl_source: declared
   description: The Payment documents API from Buk — 5 operation(s) for payment documents.
   name: Buk Payment documents API
   slug: buk-payment-documents-api
-- baseURL: https://demo.buk.cl/api/v1/chile
-  baseurl_source: declared
-  description: The Payrolls API from Buk — 1 operation(s) for payrolls.
-  name: Buk Payrolls API
-  slug: buk-payrolls-api
 - baseURL: https://demo.buk.cl/api/v1/chile
   baseurl_source: declared
   description: The People API from Buk — 1 operation(s) for people.
@@ -368,7 +353,7 @@ apis:
   description: The Workflows API from Buk — 1 operation(s) for workflows.
   name: Buk Workflows API
   slug: buk-workflows-api
-artifact_total: 137
+artifact_total: 134
 asyncapis:
 - description: ''
   name: Buk Webhooks
@@ -814,17 +799,17 @@ modified: '2026-08-08'
 name: Buk
 nav: Providers
 network: true
-overview: 'Buk publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Absences requests API, Accounting Structures API, Applicant API, and 63 more. Tagged areas include Human Resources, Payroll, HR Tech, Time and Attendance, and Benefits.
+overview: 'Buk publishes 63 APIs on the [APIs.io](https://apis.io/) network, including Absences requests API, Accounting Structures API, Applicant API, and 60 more. Tagged areas include Human Resources, Payroll, Time and Attendance, Benefits, and Recruiting.
 
 
   The Buk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Buk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 42 more developer resources.'
-random_paper: 7
+random_paper: 14
 score:
   band: developing
-  composite: 49.5
+  composite: 50.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -832,11 +817,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 52.9
+    contract_quality: 58.7
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 31.6
@@ -852,11 +837,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 66
+      total: 63
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -879,7 +864,6 @@ slug: buk
 tags:
 - Human Resources
 - Payroll
-- HR Tech
 - Time and Attendance
 - Benefits
 - Recruiting

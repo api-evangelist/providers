@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Google Nest Device Access REST API for accessing, controlling, and managing authorized Nest devices (thermostats, cameras, doorbells, Hub Max) via enterprises/structures/rooms/devices resources and a '
@@ -184,7 +184,7 @@ overview: 'Nest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nest''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, authentication, and 20 more developer resources.'
-random_paper: 1
+random_paper: 2
 scopes:
 - name: Nest Scopes
   scope_count: 1
@@ -214,7 +214,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

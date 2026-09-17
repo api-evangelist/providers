@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -57,11 +57,6 @@ apis:
   description: Operations for managing containers within a Google Tag Manager account.
   name: Google Tag Manager Containers API
   slug: google-tag-manager-containers-api
-- baseURL: https://tagmanager.googleapis.com
-  baseurl_source: declared
-  description: The Tagmanager API from Google Tag Manager — 3 operation(s) for tagmanager.
-  name: Google Tag Manager Tagmanager API
-  slug: google-tag-manager-tagmanager-api
 - baseURL: https://tagmanager.googleapis.com
   baseurl_source: declared
   description: Operations for managing triggers within a workspace that control when tags fire.
@@ -87,6 +82,11 @@ apis:
   description: Operations for managing workspaces within a container, including version creation and conflict resolution.
   name: Google Tag Manager Workspaces API
   slug: google-tag-manager-workspaces-api
+- baseURL: https://tagmanager.googleapis.com
+  baseurl_source: declared
+  description: The Tag Manager API from Google Tag Manager — 3 operation(s) for tag manager.
+  name: Google Tag Manager Tag Manager API
+  slug: google-tag-manager-tag-manager-api
 arazzos:
 - description: List a container's version headers, then fetch the newest one in full.
   name: Google Tag Manager Audit Container Versions
@@ -874,7 +874,7 @@ modified: '2026-08-13'
 name: Google Tag Manager
 nav: Providers
 network: true
-overview: 'Google Tag Manager publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Containers API, Tagmanager API, and 5 more. Tagged areas include Analytics, Conversion Tracking, Marketing, Tag Management, and Tracking.
+overview: 'Google Tag Manager publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Containers API, Triggers API, and 5 more. Tagged areas include Analytics, Conversion Tracking, Marketing, Tag Management, and Tracking.
 
 
   The Google Tag Manager catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -885,7 +885,7 @@ plans:
 - name: Google Tag Manager Plans Pricing
   plan_count: 2
   slug: google-tag-manager-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Google Tag Manager Rate Limits
@@ -947,7 +947,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

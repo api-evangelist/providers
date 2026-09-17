@@ -21,13 +21,13 @@ modified: '2026-05-19'
 name: Technology Standards
 nav: Providers
 network: true
-random_paper: 14
+random_paper: 3
 slug: technology-standards
 tags:
 - IEEE
 - IETF
 - ISO
-- Protocols
+- Protocol
 - Standards
 - Technology Standards
 - W3C

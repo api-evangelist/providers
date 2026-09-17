@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -139,7 +139,52 @@ apis:
   description: The wikidata API from Wikipedia / MediaWiki — 3 operation(s) for wikidata.
   name: Wikipedia / MediaWiki wikidata API
   slug: wikipedia-wikidata-api
-artifact_total: 309
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Create/modify page content (action=edit)
+  name: Wikipedia / MediaWiki Edit API
+  slug: wikipedia-edit-api
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Media file metadata
+  name: Wikipedia / MediaWiki Files API
+  slug: wikipedia-files-api
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Page revision history and edit statistics
+  name: Wikipedia / MediaWiki History API
+  slug: wikipedia-history-api
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Page relationships - language and media links
+  name: Wikipedia / MediaWiki Links API
+  slug: wikipedia-links-api
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Page metadata, HTML, source, create, update
+  name: Wikipedia / MediaWiki Pages API
+  slug: wikipedia-pages-api
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Read-only data retrieval (action=query) — pages, revisions, links, search
+  name: Wikipedia / MediaWiki Query API
+  slug: wikipedia-query-api
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Individual revision retrieval and comparison
+  name: Wikipedia / MediaWiki Revisions API
+  slug: wikipedia-revisions-api
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Title and full-text search
+  name: Wikipedia / MediaWiki Search API
+  slug: wikipedia-search-api
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: SPARQL 1.1 query endpoint
+  name: Wikipedia / MediaWiki SPARQL API
+  slug: wikipedia-sparql-api
+artifact_total: 318
 collections:
 - collection_type: open
   name: API Collection
@@ -1169,7 +1214,7 @@ modified: '2026-05-29'
 name: Wikipedia / MediaWiki
 nav: Providers
 network: true
-overview: 'Wikipedia / MediaWiki publishes 19 APIs on the [APIs.io](https://apis.io/) network, including articles API, batches API, Citation API, and 16 more. Tagged areas include Open Data, Public APIs, Open Knowledge, Encyclopedia, and Knowledge Graph.
+overview: 'Wikipedia / MediaWiki publishes 28 APIs on the [APIs.io](https://apis.io/) network, including articles API, batches API, Citation API, and 25 more. Tagged areas include Open Data, Public APIs, Open Knowledge, Encyclopedia, and Knowledge Graph.
 
 
   The Wikipedia / MediaWiki catalog on APIs.io includes 6 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1180,7 +1225,7 @@ plans:
 - name: Wikipedia Plans Pricing
   plan_count: 3
   slug: wikipedia-plans-pricing
-random_paper: 6
+random_paper: 5
 rate_limits:
 - limit_count: 9
   name: Wikipedia Rate Limits
@@ -1209,7 +1254,7 @@ rules:
   slug: wikipedia-spectral-rules
 score:
   band: developing
-  composite: 49.6
+  composite: 50.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 81.5
@@ -1217,11 +1262,11 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 36.7
+    contract_quality: 40.0
     developer_ergonomics: 42.9
     discoverability: 81.5
     operational_transparency: 34.2
@@ -1240,7 +1285,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

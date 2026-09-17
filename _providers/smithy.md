@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Smithy Interface Definition Language (IDL) is a specification for defining API models using shapes and traits. Models can be written in the Smithy IDL syntax or the JSON AST representation. Smithy
@@ -152,7 +152,7 @@ plans:
 - name: Smithy Plans Pricing
   plan_count: 3
   slug: smithy-plans-pricing
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Smithy Rate Limits
@@ -202,7 +202,7 @@ score:
     score: 65.0
   previous_composite: 27.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

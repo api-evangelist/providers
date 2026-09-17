@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ modified: '2026-06-25'
 name: Evident
 nav: Providers
 network: true
-overview: 'Evident publishes 3 APIs on the [APIs.io](https://apis.io/) network: Results API, Submission API, and Verification Requests API. Tagged areas include Identity Verification, Credential Verification, Background Check, Insurance Verification, and COI.
+overview: 'Evident publishes 3 APIs on the [APIs.io](https://apis.io/) network: Results API, Submission API, and Verification Requests API. Tagged areas include Identity Verification, Credential Verification, Background Checks, Insurance Verification, and COI.
 
 
   Evident''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -144,7 +144,7 @@ plans:
 - name: Evident Id Plans Pricing
   plan_count: 4
   slug: evident-id-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Evident Id Rate Limits
@@ -182,7 +182,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -201,7 +201,7 @@ slug: evident-id
 tags:
 - Identity Verification
 - Credential Verification
-- Background Check
+- Background Checks
 - Insurance Verification
 - COI
 website: https://www.evidentid.com

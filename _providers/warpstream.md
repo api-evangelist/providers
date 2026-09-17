@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 15 operations · 12 acting
 api_count: 1
 apis:
-- baseURL: https://api.warpstream.com
-  baseurl_source: declared
-  description: Manage Kafka ACL rules for access control
-  name: WarpStream ACLs API
-  slug: warpstream-acls-api
 - baseURL: https://api.warpstream.com
   baseurl_source: declared
   description: Manage API keys and access grants
@@ -84,6 +79,11 @@ apis:
   description: Manage WarpStream workspaces (account-level)
   name: WarpStream Workspaces API
   slug: warpstream-workspaces-api
+- baseURL: https://api.warpstream.com
+  baseurl_source: declared
+  description: Manage Kafka ACL rules for access control
+  name: WarpStream AC Ls API
+  slug: warpstream-acls-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -229,7 +229,7 @@ modified: 2026-06-13
 name: WarpStream
 nav: Providers
 network: true
-overview: 'WarpStream publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ACLs API, API Keys API, Monitoring API, and 5 more. Tagged areas include Kafka, Streaming, Serverless, Object Storage, and BYOC.
+overview: 'WarpStream publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Monitoring API, Pipelines API, and 5 more. Tagged areas include Kafka, Streaming, Serverless, Object Storage, and BYOC.
 
 
   The WarpStream catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -240,7 +240,7 @@ plans:
 - name: Warpstream Plans Pricing
   plan_count: 6
   slug: warpstream-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Warpstream Rate Limits
@@ -283,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

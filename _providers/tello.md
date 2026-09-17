@@ -19,7 +19,7 @@ name: Tello
 nav: Providers
 network: true
 overview: Tello is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Feedback, Customer Service, Reviews and Ratings, and Software-as-a-Service.
-random_paper: 19
+random_paper: 16
 slug: tello
 tags:
 - Company

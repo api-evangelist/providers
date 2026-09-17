@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
 - baseURL: https://api.merchants.zalando.com
   baseurl_source: declared
   description: The Discovery API API from Zalando — 1 operation(s) for discovery api.
-  name: Zalando Discovery API API
+  name: Zalando Discovery API
   slug: zalando-discovery-api-api
 - baseURL: https://api.merchants.zalando.com
   baseurl_source: declared
@@ -125,11 +125,6 @@ apis:
   slug: zalando-returned-items-api
 - baseURL: https://api.merchants.zalando.com
   baseurl_source: declared
-  description: The SalesChannels API from Zalando — 1 operation(s) for saleschannels.
-  name: Zalando SalesChannels API
-  slug: zalando-saleschannels-api
-- baseURL: https://api.merchants.zalando.com
-  baseurl_source: declared
   description: The Shipments API from Zalando — 2 operation(s) for shipments.
   name: Zalando Shipments API
   slug: zalando-shipments-api
@@ -143,6 +138,11 @@ apis:
   description: The Types API from Zalando — 1 operation(s) for types.
   name: Zalando Types API
   slug: zalando-types-api
+- baseURL: https://api.merchants.zalando.com
+  baseurl_source: declared
+  description: The Sales Channels API from Zalando — 1 operation(s) for sales channels.
+  name: Zalando Sales Channels API
+  slug: zalando-sales-channels-api
 artifact_total: 45
 collections:
 - collection_type: open
@@ -350,7 +350,7 @@ created: '2026-07-17'
 description: 'Zalando is Europe''s leading online platform for fashion and lifestyle, connecting customers, brands and partners across more than 20 markets. Its zDirect Platform (formerly the Zalando Partner / Merchant Platform) exposes a suite of REST APIs that let merchants and integration partners manage the full article lifecycle: onboarding and enriching products, submitting attributes, controlling prices and stock, blocking or unblocking offers, managing sales channels and logistic centers, retrieving orders, and operating Zalando Fulfillment Solutions (ZFS) stock movements and cross-border reporting. All APIs are OAuth 2.0 client-credentials protected, follow the widely referenced Zalando RESTful API and Event Guidelines, use JSON (with JSON:API media types on several services), and offer a full sandbox environment. Zalando was surfaced as an HV Capital portfolio company and enriched into the API Evangelist network from its public developer surface.'
 image: https://avatars.githubusercontent.com/u/1564818?s=200&v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Zalando
 nav: Providers
 network: true
@@ -358,15 +358,15 @@ overview: 'Zalando publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Zalando''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, engineering blog, and 23 more developer resources.'
-random_paper: 10
+random_paper: 19
 scopes:
 - name: Zalando Scopes
   scope_count: 16
   slug: zalando-scopes
   summary_line: 16 scopes · clientCredentials
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 39.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -374,11 +374,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 13.2
     contract_governance: 4.5
-    contract_quality: 46.7
+    contract_quality: 49.4
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 28.9
@@ -400,7 +400,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

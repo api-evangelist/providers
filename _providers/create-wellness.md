@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol endpoint served from the Create Wellness storefront, exposed over the Model Context Protocol. Thirteen tools cover catalog search and lookup, cart create/read/update/ca
@@ -152,7 +152,7 @@ plans:
 - name: Create Wellness Plans Pricing
   plan_count: 0
   slug: create-wellness-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Create Wellness Rate Limits
@@ -192,7 +192,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

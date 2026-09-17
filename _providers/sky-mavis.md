@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: REST Web3 data API on the Ronin blockchain — query accounts, NFTs, tokens, collections, blocks, smart contracts and transactions. Authenticated with an X-API-KEY issued from the Ronin Developer Consol
@@ -47,6 +47,10 @@ apis:
   slug: ronin-waypoint-account-service
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://skymavis.com
 - group: start
   title: ''
   type: DeveloperPortal
@@ -166,14 +170,14 @@ created: '2026-07-17'
 description: 'Sky Mavis is the studio behind Axie Infinity and Ronin, an EVM blockchain crafted for developers building games with player-owned economies. Its developer platform exposes a set of API-gateway products for building on Ronin: the Skynet Web3 API (query accounts, NFTs, tokens, blocks, contracts and transactions), a Ronin JSON-RPC API for node connectivity, the Axie Infinity Origins and AXP game-data APIs, Ronin Market and Ronin Store partner APIs, and Ronin Waypoint, an OAuth2/OIDC account service and keyless wallet for game onboarding. Access to gateway products is authenticated with an X-API-KEY issued from the Ronin Developer Console, while public JSON-RPC and the Waypoint OIDC surface are openly reachable. Official SDKs ship for JavaScript/TypeScript, Unity, Android and iOS.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sky-mavis.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Sky Mavis
 nav: Providers
 network: true
 overview: 'Sky Mavis publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Web3, Gaming, and NFT.
 
 
-  Sky Mavis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 18 more developer resources.'
+  Sky Mavis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 19 more developer resources.'
 random_paper: 8
 scopes:
 - name: Sky Mavis Scopes
@@ -210,7 +214,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -237,5 +241,5 @@ tags:
 - JSON-RPC
 - Cryptocurrency
 - Developer Tools
-website: https://developers.roninchain.com/
+website: https://skymavis.com
 ---

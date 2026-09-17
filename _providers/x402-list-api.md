@@ -11,26 +11,97 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 30.3
-  scored_at: '2026-09-15'
+  score: 38.2
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: 'Public REST API (OpenAPI 3.1) providing access to the x402 services directory, uptime, pricing, facilitator volumes, networks, stats, rankings, and change events. Free reads (rate-limited), with x402 '
-  name: x402 List API
-  slug: x402-list-api
-artifact_total: 9
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: On-demand paid AI assessment of a service shortlist (x402)
+  name: x402 List API Assess API
+  slug: x402-list-api-assess-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: 'Change events detected on the live x402 wire: payTo rotations, price moves, and schema changes'
+  name: x402 List API Changes API
+  slug: x402-list-api-changes-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: Access monitoring check logs - the raw heartbeat of the x402 ecosystem
+  name: x402 List API Checks API
+  slug: x402-list-api-checks-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: Independently on-chain-verified USDC settlement volume per x402 facilitator (multi-chain)
+  name: x402 List API Facilitators API
+  slug: x402-list-api-facilitators-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: Rank the best x402 service(s) for a need (the public HTTP recommender)
+  name: x402 List API Recommender API
+  slug: x402-list-api-recommender-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: 'Reference data: supported networks, categories, and service tags'
+  name: x402 List API Reference API
+  slug: x402-list-api-reference-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: Browse and query x402 services, their endpoints, uptime, and pricing
+  name: x402 List API Services API
+  slug: x402-list-api-services-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: Aggregate statistics about the x402 ecosystem
+  name: x402 List API Stats API
+  slug: x402-list-api-stats-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: Get a quick health overview of all monitored services
+  name: x402 List API Status API
+  slug: x402-list-api-status-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: Submit new x402 services or facilitators for review and listing
+  name: x402 List API Submissions API
+  slug: x402-list-api-submissions-api
+- baseURL: https://x402-list.com/api/v1
+  baseurl_source: declared
+  description: Post paid suggestions for the directory (feedback in x402)
+  name: x402 List API Suggestions API
+  slug: x402-list-api-suggestions-api
+artifact_total: 19
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.x402-list.com/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/mcp/x402-list-api-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/x402-list-api-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/overlays/x402-list-api-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/x402-list-api-openapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/x402-list-api/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -112,18 +183,18 @@ modified: '2026-09-02'
 name: x402 List API
 nav: Providers
 network: true
-overview: 'x402 List API publishes 1 API on the [APIs.io](https://apis.io/) network: x402 List API. Tagged areas include x402, Crypto, 402, Agentic Payments, and API Directory.
+overview: 'x402 List API publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Assess API, Changes API, Checks API, and 8 more. Tagged areas include x402, Crypto, 402, Agentic Payments, and API Directory.
 
 
   The x402 List API catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  x402 List API''s developer surface includes engineering blog, support, and 13 more developer resources.'
+  x402 List API''s developer surface includes engineering blog, support, and 17 more developer resources.'
 plans:
 - name: X402 List Api Plans Pricing
   plan_count: 2
   slug: x402-list-api-plans-pricing
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: X402 List Api Rate Limits
@@ -142,7 +213,7 @@ rules:
   slug: x402-list-api-spectral
 score:
   band: strong
-  composite: 55.9
+  composite: 61.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 68.0
@@ -150,11 +221,11 @@ score:
     catalog_gap: 47.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
     access_clarity: 52.6
     contract_governance: 50.0
-    contract_quality: 33.3
+    contract_quality: 56.5
     developer_ergonomics: 58.9
     discoverability: 87.0
     operational_transparency: 68.4
@@ -165,7 +236,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: first-party
     skills: derived
   regulatory:
@@ -175,8 +246,8 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

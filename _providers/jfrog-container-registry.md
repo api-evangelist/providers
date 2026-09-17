@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: JFrog Container Registry is a free, hybrid, and multi-cloud Docker registry and Helm chart repository for managing and distributing container images with advanced access control and vulnerability scan
@@ -252,7 +252,7 @@ plans:
 - name: Jfrog Container Registry Plans Pricing
   plan_count: 6
   slug: jfrog-container-registry-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Jfrog Container Registry Rate Limits
@@ -286,7 +286,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

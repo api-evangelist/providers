@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -46,30 +46,10 @@ api_count: 2
 apis:
 - baseURL: https://trk.mtrl.me/v2
   baseurl_source: declared
-  description: The Categories API from Metrilo — 2 operation(s) for categories.
-  name: Metrilo Categories API
-  slug: metrilo-categories-api
-- baseURL: https://trk.mtrl.me/v2
-  baseurl_source: declared
-  description: The Customers API from Metrilo — 4 operation(s) for customers.
-  name: Metrilo Customers API
-  slug: metrilo-customers-api
-- baseURL: https://trk.mtrl.me/v2
-  baseurl_source: declared
-  description: The Orders API from Metrilo — 2 operation(s) for orders.
-  name: Metrilo Orders API
-  slug: metrilo-orders-api
-- baseURL: https://trk.mtrl.me/v2
-  baseurl_source: declared
-  description: The Products API from Metrilo — 2 operation(s) for products.
-  name: Metrilo Products API
-  slug: metrilo-products-api
-- baseURL: https://trk.mtrl.me/v2
-  baseurl_source: declared
   description: The API API from Metrilo — 10 operation(s) for api.
   name: Metrilo API
   slug: metrilo-api-api
-artifact_total: 15
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -242,7 +222,7 @@ modified: '2026-08-13'
 name: Metrilo
 nav: Providers
 network: true
-overview: 'Metrilo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Orders API, and 2 more. Tagged areas include Company, E-Commerce, Analytics, CRM, and Email Marketing.
+overview: 'Metrilo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Analytics, CRM, and Email Marketing.
 
 
   Metrilo''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 25 more developer resources.'
@@ -250,14 +230,14 @@ plans:
 - name: Metrilo Plans Pricing
   plan_count: 3
   slug: metrilo-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Metrilo Rate Limits
   slug: metrilo-rate-limits
 score:
-  band: developing
-  composite: 46.0
+  band: strong
+  composite: 56.0
   coverage:
     artifact_dirs: 23
     catalog_earned: 49.0
@@ -265,11 +245,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 13.7
+    contract_quality: 53.7
     developer_ergonomics: 60.1
     discoverability: 75.9
     operational_transparency: 18.4
@@ -279,14 +259,14 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 80.0
-      total: 5
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 22.2

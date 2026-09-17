@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 5
@@ -150,11 +150,6 @@ apis:
   slug: convert-locations-api
 - baseURL: https://api.convert.com/api/v2
   baseurl_source: declared
-  description: Manage OAuth clients and authorized sessions.
-  name: Convert OAuth API
-  slug: convert-oauth-api
-- baseURL: https://api.convert.com/api/v2
-  baseurl_source: declared
   description: 'Delegated authorization endpoints for third-party OAuth clients. Typical flow: * OAuth client initiates GET request in browser (`/oauth/authorize`) with `client_id` + `response_type=code` + `scope` + '
   name: Convert OAuth Authorization API
   slug: convert-oauth-authorization-api
@@ -208,6 +203,11 @@ apis:
   description: The Visitors Data API from Convert — 7 operation(s) for visitors data.
   name: Convert Visitors Data API
   slug: convert-visitors-data-api
+- baseURL: https://api.convert.com/api/v2
+  baseurl_source: declared
+  description: Manage OAuth clients and authorized sessions.
+  name: Convert O Auth API
+  slug: convert-oauth-api
 artifact_total: 74
 collections:
 - collection_type: open
@@ -389,7 +389,7 @@ plans:
 - name: Convert Plans Pricing
   plan_count: 1
   slug: convert-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Convert Rate Limits
@@ -421,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

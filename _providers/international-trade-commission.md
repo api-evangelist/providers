@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The USITC DataWeb provides interactive access to U.S. international trade statistics and U.S. tariff data, including imports, exports, and production by commodity and country.
@@ -74,7 +74,7 @@ plans:
 - name: International Trade Commission Plans Pricing
   plan_count: 3
   slug: international-trade-commission-plans-pricing
-random_paper: 20
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: International Trade Commission Rate Limits
@@ -116,7 +116,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

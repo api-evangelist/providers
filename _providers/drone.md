@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -98,22 +98,7 @@ apis:
 - description: Bearer-token authenticated REST API exposed by every Drone server. Endpoints under /api/ for repos, builds, cron, secrets, users, templates, logs and queue status. Default port 8080.
   name: Drone Server REST API
   slug: rest
-- description: The Builds API from Drone — 9 operation(s) for builds.
-  name: Drone Builds API
-  slug: drone-ci-builds-api
-- description: The Cron API from Drone — 1 operation(s) for cron.
-  name: Drone Cron API
-  slug: drone-ci-cron-api
-- description: The Secrets API from Drone — 1 operation(s) for secrets.
-  name: Drone Secrets API
-  slug: drone-ci-secrets-api
-- description: The Templates API from Drone — 1 operation(s) for templates.
-  name: Drone Templates API
-  slug: drone-ci-templates-api
-- description: The User API from Drone — 1 operation(s) for user.
-  name: Drone User API
-  slug: drone-ci-user-api
-artifact_total: 41
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -262,7 +247,7 @@ modified: '2026-06-12'
 name: Drone
 nav: Providers
 network: true
-overview: 'Drone publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Cron API, Nodes API, and 12 more. Tagged areas include CI/CD, Continuous Integration, Continuous Delivery, DevOps, and Containers.
+overview: 'Drone publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Cron API, Nodes API, and 7 more. Tagged areas include CI/CD, Continuous Integration, Continuous Delivery, DevOps, and Containers.
 
 
   The Drone catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -273,7 +258,7 @@ plans:
 - name: Drone Plans Pricing
   plan_count: 3
   slug: drone-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Drone Rate Limits
@@ -316,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,13 +48,8 @@ apis:
 - baseURL: https://datasync.amazonaws.com
   baseurl_source: declared
   description: The Amazon DataSync REST API API from Amazon DataSync — 1 operation(s) for amazon datasync rest api.
-  name: Amazon DataSync Amazon DataSync REST API API
+  name: Amazon DataSync Amazon DataSync REST API
   slug: amazon-datasync-amazon-datasync-rest-api-api
-- baseURL: https://datasync.amazonaws.com
-  baseurl_source: declared
-  description: 'The #CreateAgent API from Amazon DataSync — 1 operation(s) for #createagent.'
-  name: 'Amazon DataSync #CreateAgent API'
-  slug: amazon-datasync-createagent-api
 - baseURL: https://datasync.amazonaws.com
   baseurl_source: declared
   description: 'The #CreateLocationS3 API from Amazon DataSync — 1 operation(s) for #createlocations3.'
@@ -75,6 +70,11 @@ apis:
   description: 'The #StartTaskExecution API from Amazon DataSync — 1 operation(s) for #starttaskexecution.'
   name: 'Amazon DataSync #StartTaskExecution API'
   slug: amazon-datasync-starttaskexecution-api
+- baseURL: https://datasync.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Create Agent API from Amazon DataSync — 1 operation(s) for #create agent.'
+  name: 'Amazon DataSync #Create Agent API'
+  slug: amazon-datasync-create-agent-api
 artifact_total: 74
 collections:
 - collection_type: postman
@@ -120,6 +120,10 @@ collections:
   name: 'Amazon DataSync REST Amazon DataSync REST API #StartTaskExecution API'
   slug: open-amazon-datasync-starttaskexecution-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -343,22 +347,22 @@ jsonld:
   property_count: 3
   slug: amazon-datasync-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon DataSync
 nav: Providers
 network: true
-overview: 'Amazon DataSync publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Amazon DataSync REST API API, #CreateAgent API, #CreateLocationS3 API, and 3 more. Tagged areas include Data Transfer, Migration, Storage, Automation, and Hybrid Cloud.
+overview: 'Amazon DataSync publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Amazon DataSync REST API, #CreateLocationS3 API, #DescribeTask API, and 3 more. Tagged areas include Data Transfer, Migration, Storage, Automation, and Hybrid Cloud.
 
 
   The Amazon DataSync catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DataSync''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
+  Amazon DataSync''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
 plans:
 - name: Amazon Datasync Plans Pricing
   plan_count: 3
   slug: amazon-datasync-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Amazon Datasync Rate Limits
@@ -412,7 +416,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -453,5 +457,5 @@ use_cases:
   name: Data Distribution
 - description: Stage large datasets from S3 or on-premises storage to FSx for Lustre for high-performance computing workloads on AWS.
   name: HPC Data Staging
-website: https://aws.amazon.com/datasync/
+website: https://amazon.com
 ---

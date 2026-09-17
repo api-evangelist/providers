@@ -25,7 +25,7 @@ name: TrueLens
 nav: Providers
 network: true
 overview: TrueLens is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Social-Media, Analytics, and Marketing.
-random_paper: 0
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/truelens/refs/heads/main/screenshots/truelens-2026-09-02T164352.png
 slug: truelens
 tags:

@@ -33,7 +33,7 @@ name: Enevate
 nav: Providers
 network: true
 overview: Enevate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Battery Technology, Lithium-Ion, Electric Vehicles, and Energy Storage.
-random_paper: 9
+random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/enevate/refs/heads/main/screenshots/enevate-2026-09-02T145400.png
 slug: enevate
 tags:

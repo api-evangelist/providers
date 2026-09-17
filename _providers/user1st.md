@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,11 +91,11 @@ modified: '2026-07-21'
 name: User1st
 nav: Providers
 network: true
-overview: 'User1st is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accessibility, Digital Accessibility, WCAG, and ADA.
+overview: 'User1st is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accessibility, Digital Accessibility, WCAG, and ADAS.
 
 
   User1st''s developer surface includes pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: minimal
   composite: 6.2
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -134,7 +134,7 @@ tags:
 - Accessibility
 - Digital Accessibility
 - WCAG
-- ADA
+- ADAS
 - EAA Compliance
 - Web Accessibility
 - Mobile Accessibility

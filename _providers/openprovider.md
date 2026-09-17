@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -48,11 +48,6 @@ apis:
 - description: The Openprovider Reseller API provides programmatic access to domain registration and management, DNS, SSL certificate provisioning, hosting products, and customer/billing operations across the Openpr
   name: Openprovider API
   slug: openprovider-api
-- baseURL: https://api.openprovider.eu/v1beta
-  baseurl_source: declared
-  description: The AdditionalData API from Openprovider — 1 operation(s) for additionaldata.
-  name: Openprovider AdditionalData API
-  slug: openprovider-additionaldata-api
 - baseURL: https://api.openprovider.eu/v1beta
   baseurl_source: declared
   description: The ApproverEmail API from Openprovider — 1 operation(s) for approveremail.
@@ -113,11 +108,6 @@ apis:
   description: The Email API from Openprovider — 2 operation(s) for email.
   name: Openprovider Email API
   slug: openprovider-email-api
-- baseURL: https://api.openprovider.eu/v1beta
-  baseurl_source: declared
-  description: The EmailVerification API from Openprovider — 3 operation(s) for emailverification.
-  name: Openprovider EmailVerification API
-  slug: openprovider-emailverification-api
 - baseURL: https://api.openprovider.eu/v1beta
   baseurl_source: declared
   description: The InvoiceService API from Openprovider — 1 operation(s) for invoiceservice.
@@ -218,6 +208,16 @@ apis:
   description: The ZoneService API from Openprovider — 2 operation(s) for zoneservice.
   name: Openprovider ZoneService API
   slug: openprovider-zoneservice-api
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Additional Data API from Openprovider — 1 operation(s) for additional data.
+  name: Openprovider Additional Data API
+  slug: openprovider-additional-data-api
+- baseURL: https://api.openprovider.eu/v1beta
+  baseurl_source: declared
+  description: The Email Verification API from Openprovider — 3 operation(s) for email verification.
+  name: Openprovider Email Verification API
+  slug: openprovider-email-verification-api
 artifact_total: 78
 collections:
 - collection_type: open
@@ -398,7 +398,7 @@ modified: '2026-04-28'
 name: Openprovider
 nav: Providers
 network: true
-overview: 'Openprovider publishes 34 APIs on the [APIs.io](https://apis.io/) network, including AdditionalData API, ApproverEmail API, Auth API, and 31 more. Tagged areas include Domains, DNS, Hosting, Reseller, and SSL Certificates.
+overview: 'Openprovider publishes 34 APIs on the [APIs.io](https://apis.io/) network, including ApproverEmail API, Auth API, AuthCode API, and 31 more. Tagged areas include Domains, DNS, Hosting, Reseller, and SSL Certificates.
 
 
   Openprovider''s developer surface includes authentication, documentation, support, engineering blog, and 9 more developer resources.'
@@ -406,7 +406,7 @@ plans:
 - name: Openprovider Plans Pricing
   plan_count: 3
   slug: openprovider-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Openprovider Rate Limits
@@ -438,7 +438,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

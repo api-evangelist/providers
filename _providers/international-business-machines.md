@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -140,11 +140,6 @@ apis:
   description: Manage block storage volumes.
   name: International Business Machines Volumes API
   slug: international-business-machines-volumes-api
-- baseURL: https://us-south.iaas.cloud.ibm.com
-  baseurl_source: spec
-  description: Manage Virtual Private Clouds.
-  name: International Business Machines VPCs API
-  slug: international-business-machines-vpcs-api
 - baseURL: https://containers.cloud.ibm.com
   baseurl_source: spec
   description: Manage worker nodes.
@@ -155,6 +150,11 @@ apis:
   description: Manage worker pools.
   name: International Business Machines Worker Pools API
   slug: international-business-machines-worker-pools-api
+- baseURL: https://us-south.iaas.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage Virtual Private Clouds.
+  name: International Business Machines VP Cs API
+  slug: international-business-machines-vpcs-api
 artifact_total: 73
 collections:
 - collection_type: open
@@ -361,7 +361,7 @@ plans:
 - name: International Business Machines Plans Pricing
   plan_count: 3
   slug: international-business-machines-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: International Business Machines Rate Limits
@@ -404,7 +404,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

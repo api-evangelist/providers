@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 6
@@ -566,7 +566,7 @@ overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CoreStory''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 20 more developer resources.'
-random_paper: 15
+random_paper: 12
 scopes:
 - name: Corestory Scopes
   scope_count: 7
@@ -601,7 +601,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

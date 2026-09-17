@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -54,11 +54,6 @@ apis:
   description: The Chart API from Binarly — 7 operation(s) for chart.
   name: Binarly Chart API
   slug: binarly-chart-api
-- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
-  baseurl_source: declared
-  description: The CustomRules API from Binarly — 4 operation(s) for customrules.
-  name: Binarly CustomRules API
-  slug: binarly-customrules-api
 - baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
   baseurl_source: declared
   description: The Escalation API from Binarly — 1 operation(s) for escalation.
@@ -144,6 +139,11 @@ apis:
   description: The Vulnerability API from Binarly — 2 operation(s) for vulnerability.
   name: Binarly Vulnerability API
   slug: binarly-vulnerability-api
+- baseURL: https://dashboard-{slug}.binarly.cloud/api/v4
+  baseurl_source: declared
+  description: The Custom Rules API from Binarly — 4 operation(s) for custom rules.
+  name: Binarly Custom Rules API
+  slug: binarly-custom-rules-api
 arazzos:
 - description: For a scanned image, export the full set of supply-chain assurance artifacts — CycloneDX and SPDX SBOMs, an OpenVEX VEX, a CBOM, and a findings report — for procurement and regulatory evidence.
   name: Generate supply-chain compliance artifacts with Binarly
@@ -348,11 +348,11 @@ modified: '2026-07-18'
 name: Binarly
 nav: Providers
 network: true
-overview: 'Binarly publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Assistant API, Chart API, CustomRules API, and 17 more. Tagged areas include Company, Security, Firmware Security, Supply Chain Security, and Vulnerability Management.
+overview: 'Binarly publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Assistant API, Chart API, Escalation API, and 17 more. Tagged areas include Company, Security, Firmware Security, Supply Chain Security, and Vulnerability Management.
 
 
   Binarly''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 21 more developer resources.'
-random_paper: 18
+random_paper: 5
 score:
   band: developing
   composite: 44.7
@@ -383,7 +383,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

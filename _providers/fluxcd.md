@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Flux is a set of continuous and progressive delivery solutions for Kubernetes that are open and extensible, enabling GitOps-based automation for keeping Kubernetes clusters in sync with sources of con
@@ -95,7 +95,7 @@ plans:
 - name: Fluxcd Plans Pricing
   plan_count: 3
   slug: fluxcd-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Fluxcd Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

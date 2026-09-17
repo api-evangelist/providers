@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,11 +92,11 @@ modified: '2026-07-18'
 name: Bankjoy
 nav: Providers
 network: true
-overview: 'Bankjoy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Digital Banking, Banking, and Credit Unions.
+overview: 'Bankjoy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Digital Banking, Banking, and Credit Union.
 
 
   Bankjoy''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 15
+random_paper: 2
 score:
   band: emerging
   composite: 16.4
@@ -125,7 +125,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -147,7 +147,7 @@ tags:
 - Fintech
 - Digital Banking
 - Banking
-- Credit Unions
+- Credit Union
 - Community Banks
 - Financial-Services
 - Account Opening

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -48,39 +48,64 @@ api_count: 2
 apis:
 - baseURL: https://api.elaneglobal.com
   baseurl_source: declared
-  description: The AIS Dataset API from ShipFinder AIS Data API — 7 operation(s) for ais dataset.
-  name: ShipFinder AIS Data API AIS Dataset API
-  slug: shipfinder-ais-data-api-ais-dataset-api
+  description: The 1 AIS Dataset/1.1 Vessel Position API from ShipFinder AIS Data API — 3 operation(s) for 1 ais dataset/1.1 vessel position.
+  name: ShipFinder AIS Data API 1 AIS Dataset/1.1 Vessel Position API
+  slug: shipfinder-ais-data-api-1-ais-dataset-1-1-vessel-position-api
 - baseURL: https://api.elaneglobal.com
   baseurl_source: declared
-  description: The China Coastline Warning Dataset API from ShipFinder AIS Data API — 1 operation(s) for china coastline warning dataset.
-  name: ShipFinder AIS Data API China Coastline Warning Dataset API
-  slug: shipfinder-ais-data-api-china-coastline-warning-dataset-api
+  description: The 1 AIS Dataset API from ShipFinder AIS Data API — 4 operation(s) for 1 ais dataset.
+  name: ShipFinder AIS Data API 1 AIS Dataset API
+  slug: shipfinder-ais-data-api-1-ais-dataset-api
 - baseURL: https://api.elaneglobal.com
   baseurl_source: declared
-  description: The Event Dataset API from ShipFinder AIS Data API — 14 operation(s) for event dataset.
-  name: ShipFinder AIS Data API Event Dataset API
-  slug: shipfinder-ais-data-api-event-dataset-api
+  description: The 2 Voyage Dataset API from ShipFinder AIS Data API — 4 operation(s) for 2 voyage dataset.
+  name: ShipFinder AIS Data API 2 Voyage Dataset API
+  slug: shipfinder-ais-data-api-2-voyage-dataset-api
 - baseURL: https://api.elaneglobal.com
   baseurl_source: declared
-  description: The History Dataset API from ShipFinder AIS Data API — 6 operation(s) for history dataset.
-  name: ShipFinder AIS Data API History Dataset API
-  slug: shipfinder-ais-data-api-history-dataset-api
+  description: The 3 History Dataset API from ShipFinder AIS Data API — 6 operation(s) for 3 history dataset.
+  name: ShipFinder AIS Data API 3 History Dataset API
+  slug: shipfinder-ais-data-api-3-history-dataset-api
 - baseURL: https://api.elaneglobal.com
   baseurl_source: declared
-  description: The Meteorology Dataset API from ShipFinder AIS Data API — 5 operation(s) for meteorology dataset.
-  name: ShipFinder AIS Data API Meteorology Dataset API
-  slug: shipfinder-ais-data-api-meteorology-dataset-api
+  description: The 4 Prediction Dataset API from ShipFinder AIS Data API — 3 operation(s) for 4 prediction dataset.
+  name: ShipFinder AIS Data API 4 Prediction Dataset API
+  slug: shipfinder-ais-data-api-4-prediction-dataset-api
 - baseURL: https://api.elaneglobal.com
   baseurl_source: declared
-  description: The Prediction Dataset API from ShipFinder AIS Data API — 3 operation(s) for prediction dataset.
-  name: ShipFinder AIS Data API Prediction Dataset API
-  slug: shipfinder-ais-data-api-prediction-dataset-api
+  description: The 5 Meteorology Dataset/5.1 Global Tropical Cyclone API from ShipFinder AIS Data API — 2 operation(s) for 5 meteorology dataset/5.1 global tropical cyclone.
+  name: ShipFinder AIS Data API 5 Meteorology Dataset/5.1 Global Tropical Cyclone API
+  slug: shipfinder-ais-data-api-5-meteorology-dataset-5-1-global-tropical-cyclone-api
 - baseURL: https://api.elaneglobal.com
   baseurl_source: declared
-  description: The Voyage Dataset API from ShipFinder AIS Data API — 4 operation(s) for voyage dataset.
-  name: ShipFinder AIS Data API Voyage Dataset API
-  slug: shipfinder-ais-data-api-voyage-dataset-api
+  description: The 5 Meteorology Dataset/5.2 Global Port Tide Predictions API from ShipFinder AIS Data API — 2 operation(s) for 5 meteorology dataset/5.2 global port tide predictions.
+  name: ShipFinder AIS Data API 5 Meteorology Dataset/5.2 Global Port Tide Predictions API
+  slug: shipfinder-ais-data-api-5-meteorology-dataset-5-2-global-port-tide-predictions-api
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The 5 Meteorology Dataset API from ShipFinder AIS Data API — 1 operation(s) for 5 meteorology dataset.
+  name: ShipFinder AIS Data API 5 Meteorology Dataset API
+  slug: shipfinder-ais-data-api-5-meteorology-dataset-api
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The 6 China Region Coastline Warning Dataset API from ShipFinder AIS Data API — 1 operation(s) for 6 china region coastline warning dataset.
+  name: ShipFinder AIS Data API 6 China Region Coastline Warning Dataset API
+  slug: shipfinder-ais-data-api-6-china-region-coastline-warning-dataset-api
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The 7 Event Dataset/7.1 Monitored Fleet Management API from ShipFinder AIS Data API — 7 operation(s) for 7 event dataset/7.1 monitored fleet management.
+  name: ShipFinder AIS Data API 7 Event Dataset/7.1 Monitored Fleet Management API
+  slug: shipfinder-ais-data-api-7-event-dataset-7-1-monitored-fleet-management-api
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The 7 Event Dataset/7.2 Geofence Monitoring Push API from ShipFinder AIS Data API — 4 operation(s) for 7 event dataset/7.2 geofence monitoring push.
+  name: ShipFinder AIS Data API 7 Event Dataset/7.2 Geofence Monitoring Push API
+  slug: shipfinder-ais-data-api-7-event-dataset-7-2-geofence-monitoring-push-api
+- baseURL: https://api.elaneglobal.com
+  baseurl_source: declared
+  description: The 7 Event Dataset/7.3 Vessel Speed Alert Push API from ShipFinder AIS Data API — 3 operation(s) for 7 event dataset/7.3 vessel speed alert push.
+  name: ShipFinder AIS Data API 7 Event Dataset/7.3 Vessel Speed Alert Push API
+  slug: shipfinder-ais-data-api-7-event-dataset-7-3-vessel-speed-alert-push-api
 arazzos:
 - description: Native Arazzo workflow over the ShipFinder Global Maritime Data API. Generated by API Evangelist on 2026-08-09; every operationId is verified against openapi/shipfinder-ais-data-api-openapi.yml.
   name: Resolve a port and read berthed, anchored and inbound vessels
@@ -91,7 +116,7 @@ arazzos:
 - description: Native Arazzo workflow over the ShipFinder Global Maritime Data API. Generated by API Evangelist on 2026-08-09; every operationId is verified against openapi/shipfinder-ais-data-api-openapi.yml.
   name: Plan a port-to-port route, predict ETA and check active tropical cyclones
   slug: voyage-plan-and-eta
-artifact_total: 25
+artifact_total: 30
 asyncapis:
 - description: 'DERIVED artifact. ShipFinder documents seven push event types under its Event Dataset, each with a published JSON payload schema, but publishes no AsyncAPI document of its own. API Evangelist derived '
   name: ShipFinder Event Dataset (push)
@@ -302,7 +327,7 @@ modified: '2026-08-09'
 name: ShipFinder AIS Data API
 nav: Providers
 network: true
-overview: 'ShipFinder AIS Data API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including AIS Dataset API, China Coastline Warning Dataset API, Event Dataset API, and 4 more. Tagged areas include AIS, Maritime Data, Vessel Tracking, Ship Tracking, and Vessel Data.
+overview: 'ShipFinder AIS Data API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including 1 AIS Dataset/1.1 Vessel Position API, 1 AIS Dataset API, 2 Voyage Dataset API, and 9 more. Tagged areas include AIS, Maritime Data, Vessel Tracking, Ship Tracking, and Vessel Data.
 
 
   The ShipFinder AIS Data API catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -313,14 +338,14 @@ plans:
 - name: Shipfinder Ais Data Api Plans
   plan_count: 4
   slug: shipfinder-ais-data-api-plans
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Shipfinder Ais Data Api Rate Limits
   slug: shipfinder-ais-data-api-rate-limits
 score:
   band: developing
-  composite: 51.7
+  composite: 48.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 54.0
@@ -328,11 +353,11 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.5
   facets:
     access_clarity: 65.8
     contract_governance: 19.7
-    contract_quality: 62.0
+    contract_quality: 48.0
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 7.9
@@ -341,14 +366,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
-      marker_coverage: 100.0
-      total: 7
+      marker_coverage: 0.0
+      total: 12
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

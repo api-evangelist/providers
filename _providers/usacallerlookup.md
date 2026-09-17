@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,31 +15,43 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.2
-  scored_at: '2026-09-15'
+  score: 34.0
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: 'No-auth, read-only REST API with three GET endpoints: reverse phone number lookup, area-code aggregates, and dataset stats. Backed by a public OpenAPI 3.1.0 contract.'
-  name: USACallerLookup Free Phone Lookup API
-  slug: usacallerlookup-free-phone-lookup-api
-artifact_total: 5
+- baseURL: https://www.usacallerlookup.com/wp-json/ucl/v1
+  baseurl_source: declared
+  description: Aggregate figures for one area code
+  name: USACallerLookup Area codes API
+  slug: usacallerlookup-area-codes-api
+- baseURL: https://www.usacallerlookup.com/wp-json/ucl/v1
+  baseurl_source: declared
+  description: Headline figures for the whole dataset
+  name: USACallerLookup Dataset API
+  slug: usacallerlookup-dataset-api
+- baseURL: https://www.usacallerlookup.com/wp-json/ucl/v1
+  baseurl_source: declared
+  description: Per-number carrier, location and complaint profile
+  name: USACallerLookup Numbers API
+  slug: usacallerlookup-numbers-api
+artifact_total: 7
 common:
 - group: company
   title: ''
   type: Website
   url: https://www.usacallerlookup.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/usacallerlookup/refs/heads/main/openapi/usacallerlookup-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/usacallerlookup/refs/heads/main/openapi/_original/usacallerlookup-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/usacallerlookup-openapi.json
+  url: openapi/_original/usacallerlookup-openapi.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/usacallerlookup/refs/heads/main/llms/usacallerlookup-llms.txt
   title: ''
@@ -142,11 +154,11 @@ created: '2026-09-14'
 description: A free, read-only JSON REST API over US phone-numbering data and FTC robocall complaint records. No API key or signup required; access is throttled at 60 requests/minute per IP. Data is sourced from FTC Do Not Call complaints and the NANPA registry and dedicated to the public domain under CC0.
 image: https://www.usacallerlookup.com/favicon.ico
 layout: provider
-modified: '2026-09-14'
+modified: '2026-09-16'
 name: USACallerLookup
 nav: Providers
 network: true
-overview: 'USACallerLookup publishes 1 API on the [APIs.io](https://apis.io/) network: Free Phone Lookup API. Tagged areas include Phone Lookup, Caller ID, robocall, FTC, and Telecom.
+overview: 'USACallerLookup publishes 3 APIs on the [APIs.io](https://apis.io/) network: Area codes API, Dataset API, and Numbers API. Tagged areas include Phone Lookup, Caller ID, robocall, FTC, and Telecom.
 
 
   USACallerLookup''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 18 more developer resources.'
@@ -154,14 +166,14 @@ plans:
 - name: Usacallerlookup Plans Pricing
   plan_count: 0
   slug: usacallerlookup-plans-pricing
-random_paper: 5
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Usacallerlookup Rate Limits
   slug: usacallerlookup-rate-limits
 score:
   band: thin
-  composite: 30.8
+  composite: 36.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -169,11 +181,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.7
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 55.8
     developer_ergonomics: 44.6
     discoverability: 75.9
     operational_transparency: 26.3
@@ -184,7 +196,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
   regulatory:
@@ -194,8 +206,8 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

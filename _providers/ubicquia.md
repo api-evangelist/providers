@@ -35,16 +35,56 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://config.api.ubicquia.com/api/
   baseurl_source: declared
-  description: The publicly described Ubicquia configuration and provisioning API ("Ubi Api", OpenAPI 3.0.0, 39 operations) covering sales orders, fulfillment details, device serial numbers and production files, dis
-  name: Ubicquia Config API
-  slug: ubicquia-config-api
-artifact_total: 6
+  description: Operations about Auth Check
+  name: Ubicquia Auth Check API
+  slug: ubicquia-authcheck-api
+- baseURL: https://config.api.ubicquia.com/api/
+  baseurl_source: declared
+  description: Get Customer Detail
+  name: Ubicquia Customer Detail API
+  slug: ubicquia-customer-detail-api
+- baseURL: https://config.api.ubicquia.com/api/
+  baseurl_source: declared
+  description: Operation about fulfillment details
+  name: Ubicquia Fulfillment Details API
+  slug: ubicquia-fulfillment-details-api
+- baseURL: https://config.api.ubicquia.com/api/
+  baseurl_source: declared
+  description: Operations about ICCID master
+  name: Ubicquia ICCID Master API
+  slug: ubicquia-iccid-master-api
+- baseURL: https://config.api.ubicquia.com/api/
+  baseurl_source: declared
+  description: Operations about Sales Order
+  name: Ubicquia Sales Order API
+  slug: ubicquia-sales-order-api
+- baseURL: https://config.api.ubicquia.com/api/
+  baseurl_source: declared
+  description: Import serial Number details
+  name: Ubicquia Serial Number API
+  slug: ubicquia-serial-number-api
+- baseURL: https://config.api.ubicquia.com/api/
+  baseurl_source: declared
+  description: Operation about transformer file upload
+  name: Ubicquia Transformer Details API
+  slug: ubicquia-transformer-details-api
+- baseURL: https://config.api.ubicquia.com/api/
+  baseurl_source: declared
+  description: User
+  name: Ubicquia User API
+  slug: ubicquia-user-api
+artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ubicquia/refs/heads/main/overlays/ubicquia-config-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/ubicquia-config-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -165,22 +205,22 @@ modified: '2026-09-01'
 name: Ubicquia
 nav: Providers
 network: true
-overview: 'Ubicquia publishes 1 API on the [APIs.io](https://apis.io/) network: Config API. Tagged areas include Company, Smart Cities, Internet of Things, Energy, and Utilities.
+overview: 'Ubicquia publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth Check API, Customer Detail API, Fulfillment Details API, and 5 more. Tagged areas include Company, Smart Cities, Internet of Things, Energy, and Utilities.
 
 
-  Ubicquia''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 19 more developer resources.'
+  Ubicquia''s developer surface includes engineering blog, support, signup flow, pricing, authentication, and 20 more developer resources.'
 plans:
 - name: Ubicquia Plans Pricing
   plan_count: 0
   slug: ubicquia-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Ubicquia Rate Limits
   slug: ubicquia-rate-limits
 score:
   band: developing
-  composite: 41.2
+  composite: 42.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -188,11 +228,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 45.3
+    contract_quality: 49.9
     developer_ergonomics: 20.8
     discoverability: 75.9
     operational_transparency: 5.3
@@ -203,7 +243,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -213,7 +253,7 @@ score:
     regime_id: energy_utilities
     score: 55.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

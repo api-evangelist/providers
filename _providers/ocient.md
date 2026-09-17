@@ -34,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://docs.ocient.com/api-playgrounds/ocient-http-query-api
   baseurl_source: declared
   description: The Ocient HTTP Query API API from Ocient — 10 operation(s) for ocient http query api.
-  name: Ocient Ocient HTTP Query API API
+  name: Ocient HTTP Query API
   slug: ocient-ocient-http-query-api-api
 - baseURL: https://docs.ocient.com/api-playgrounds/ocient-http-query-api
   baseurl_source: declared
@@ -224,6 +224,10 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:info@ocient.com
 created: '2026-08-02'
 description: Ocient is a Chicago-based data platform company founded in 2016 that builds OcientAIQ, a unified data platform for petabyte-scale analytics and production AI. Its Compute-Adjacent Storage Architecture (CASA) colocates NVMe storage with compute so that ingest, query optimization, machine learning, geospatial analysis, security and governance run against very large datasets without moving the data. The platform is reached with standard SQL over a JDBC driver, the pyocient Python DB-API 2.0 driver, a SQLAlchemy dialect, an Apache Spark connector, and an HTTP Query API that executes SQL statements over REST and returns JSON. Ocient serves communications service providers, national security and intelligence, adtech, and financial services customers, and offers OcientCloud, customer-deployed, and hybrid deployment models.
 image: https://ocient.com/wp-content/uploads/2024/03/logo_adjust-2r.png
@@ -232,15 +236,15 @@ mcp_servers:
 - description: ''
   name: Ocient Documentation
   slug: ocient-documentation
-modified: '2026-08-02'
+modified: '2026-09-16'
 name: Ocient
 nav: Providers
 network: true
-overview: 'Ocient publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ocient HTTP Query API API and System Information REST Endpoints API. Tagged areas include Company, Data, Analytics, Data Warehouse, and Database.
+overview: 'Ocient publishes 2 APIs on the [APIs.io](https://apis.io/) network: HTTP Query API and System Information REST Endpoints API. Tagged areas include Company, Data, Analytics, Data Warehouse, and Database.
 
 
-  Ocient''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 29 more developer resources.'
-random_paper: 12
+  Ocient''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, CLI, and 30 more developer resources.'
+random_paper: 4
 score:
   band: developing
   composite: 48.2
@@ -275,7 +279,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

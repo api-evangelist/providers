@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - baseURL_template: http://{host}
   baseurl_source: spec_template
   description: The KServe Inference Protocol API from KServe — 1 operation(s) for kserve inference protocol.
-  name: KServe KServe Inference Protocol API
+  name: KServe Inference Protocol API
   slug: kserve-kserve-inference-protocol-api
 - baseURL_template: http://{host}
   baseurl_source: spec_template
@@ -122,11 +122,11 @@ finops:
   slug: kserve-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kserve.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: KServe
 nav: Providers
 network: true
-overview: 'KServe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, KServe Inference Protocol API, and Models API. Tagged areas include Inference, Kubernetes, Machine-Learning, MLOps, and Model Serving.
+overview: 'KServe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Inference Protocol API, and Models API. Tagged areas include Inference, Kubernetes, Machine-Learning, MLOps, and Model Serving.
 
 
   KServe''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 4 more developer resources.'
@@ -134,7 +134,7 @@ plans:
 - name: Kserve Plans Pricing
   plan_count: 3
   slug: kserve-plans-pricing
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Kserve Rate Limits
@@ -166,7 +166,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

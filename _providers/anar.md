@@ -41,7 +41,7 @@ overview: 'Anar is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Anar''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 19
+random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/anar/refs/heads/main/screenshots/anar-2026-07-25T200155.png
 security:
 - kind: domain-security

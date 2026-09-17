@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for querying biomedical and genomic datasets (now the QuartzBio EDP REST API). Served per-customer on instance hosts; requires authentication.
@@ -41,6 +41,10 @@ apis:
   slug: solvebio-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://solvebio.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/solvebio/refs/heads/main/security/solvebio-domain-security.yml
   title: ''
@@ -94,15 +98,15 @@ created: '2026-07-17'
 description: 'SolveBio is a platform for biomedical and genomic datasets that lets developers query, harmonize, and automate bioinformatics workflows over curated reference data through a REST API and first-party client libraries (Python, JavaScript, Ruby, and R). SolveBio has been rebranded to QuartzBio, a Precision for Medicine company: the solvebio.com website now redirects to quartz.bio, the legacy API is served as the QuartzBio EDP REST API on per-customer instance hosts, and the SolveBio SDKs are being deprecated in favor of the quartzbio packages (Python client end of maintenance 2026-03-31). Surfaced as a portfolio company of a16z and enriched from its public GitHub organization and package registries.'
 image: https://avatars.githubusercontent.com/u/3717969?s=200&v=4
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: SolveBio
 nav: Providers
 network: true
 overview: 'SolveBio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Genomics, Bioinformatics, Life Sciences, and Precision Medicine.
 
 
-  SolveBio''s developer surface includes CLI, authentication, and 8 more developer resources.'
-random_paper: 6
+  SolveBio''s developer surface includes CLI, authentication, and 9 more developer resources.'
+random_paper: 9
 score:
   band: emerging
   composite: 13.6
@@ -129,7 +133,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -154,4 +158,5 @@ tags:
 - Biomedical Data
 - Datasets
 - SDK
+website: https://solvebio.com
 ---

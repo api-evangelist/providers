@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   description: Register and manage merchant customers, attach their bank accounts, and run identity verifications. Persisted customer records pre-fill payment fields and accelerate repeat checkouts; verifications co
   name: Fintecture Customers API
   slug: fintecture-customers-api
-- baseURL: https://api.fintecture.com
-  baseurl_source: spec
-  description: Issues access tokens via authorization_code and client_credentials grants. Distinct scopes for PIS, AIS, Customers, E-Mandates, and OAC (Organisation Access Credentials, beta). Access tokens are valid
-  name: Fintecture OAuth and Tokens API
-  slug: fintecture-oauth-api
 - baseURL: https://api.fintecture.com
   baseurl_source: spec
   description: Inspect transactions and settlements. Settlements represent outgoing disbursements from the merchant's Local Acquiring account to their own bank account. Sandbox includes a transaction simulator endpo
@@ -155,6 +150,11 @@ apis:
   description: Customer identity verifications
   name: Fintecture Verifications API
   slug: fintecture-verifications-api
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Access and refresh tokens
+  name: Fintecture O Auth API
+  slug: fintecture-oauth-api
 arazzos:
 - description: List a connection's accounts, read the first account's holders, then run an AIS identity verification.
   name: Fintecture Account Holders and Identity Verification
@@ -587,7 +587,7 @@ modified: '2026-05-25'
 name: Fintecture
 nav: Providers
 network: true
-overview: 'Fintecture publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Customers API, OAuth and Tokens API, Transactions and Settlements API, and 19 more. Tagged areas include Open Banking, Payments, PSD2, France, and Account Information.
+overview: 'Fintecture publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Transactions and Settlements API, Accounts API, and 19 more. Tagged areas include Open Banking, Payments, PSD2, France, and Account Information.
 
 
   The Fintecture catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -598,7 +598,7 @@ plans:
 - name: Fintecture Plans Pricing
   plan_count: 9
   slug: fintecture-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Fintecture Rate Limits
@@ -666,7 +666,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

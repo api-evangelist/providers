@@ -33,28 +33,53 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 8
 apis:
 - description: Gloo Edge is a feature-rich, Kubernetes-native ingress controller and API gateway built on Envoy Proxy, supporting advanced routing, security policies, and observability for cloud-native workloads. It
   name: Gloo Edge
   slug: gloo-edge
-- baseURL: https://docs.solo.io/gateway/latest/
+- baseURL: https://docs.solo.io/gloo-edge/latest/
   baseurl_source: declared
-  description: Gloo Gateway is the next-generation API gateway from Solo.io built on Envoy Proxy and implementing the Kubernetes Gateway API specification. It provides advanced traffic management, security, and exte
-  name: Gloo Gateway
-  slug: gloo-gateway
-- baseURL: https://docs.solo.io/gloo-mesh-enterprise/latest/
+  description: The API Products API from Gloo — 3 operation(s) for api products.
+  name: Gloo API Products API
+  slug: gloo-api-products-api
+- baseURL: https://docs.solo.io/gloo-edge/latest/
   baseurl_source: declared
-  description: Gloo Mesh is an enterprise service mesh management platform from Solo.io built on Istio, providing multi-cluster and multi-mesh traffic management, security policy enforcement, and observability acros
-  name: Gloo Mesh
-  slug: gloo-mesh
-- baseURL: https://docs.solo.io/gateway/latest/portal/
+  description: The Applications API from Gloo — 8 operation(s) for applications.
+  name: Gloo Applications API
+  slug: gloo-applications-api
+- baseURL: https://docs.solo.io/gloo-edge/latest/
   baseurl_source: declared
-  description: Gloo Portal is a developer portal product from Solo.io that enables organizations to expose, document, and manage API products for internal and external consumers. It integrates with Gloo Gateway to p
-  name: Gloo Portal
-  slug: gloo-portal
-artifact_total: 12
+  description: The Me API from Gloo — 1 operation(s) for me.
+  name: Gloo Me API
+  slug: gloo-me-api
+- baseURL: https://docs.solo.io/gloo-edge/latest/
+  baseurl_source: declared
+  description: The Subscriptions API from Gloo — 2 operation(s) for subscriptions.
+  name: Gloo Subscriptions API
+  slug: gloo-subscriptions-api
+- baseURL: https://docs.solo.io/gloo-edge/latest/
+  baseurl_source: declared
+  description: The Teams API from Gloo — 5 operation(s) for teams.
+  name: Gloo Teams API
+  slug: gloo-teams-api
+- baseURL: https://docs.solo.io/gloo-edge/latest/
+  baseurl_source: declared
+  description: The User API from Gloo — 1 operation(s) for user.
+  name: Gloo User API
+  slug: gloo-user-api
+- baseURL: https://docs.solo.io/gloo-edge/latest/
+  baseurl_source: declared
+  description: The Webhooks API from Gloo — 2 operation(s) for webhooks.
+  name: Gloo Webhooks API
+  slug: gloo-webhooks-api
+- baseURL: https://docs.solo.io/gloo-edge/latest/
+  baseurl_source: declared
+  description: The APIs API from Gloo — 5 operation(s) for apis.
+  name: Gloo AP Is API
+  slug: gloo-apis-api
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Gloo Webhooks
@@ -270,7 +295,7 @@ modified: '2026-09-12'
 name: Gloo
 nav: Providers
 network: true
-overview: 'Gloo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Gateway, Mesh, and Portal. Tagged areas include API Gateway, Cloud-Native, Developer Portal, Envoy, and Istio.
+overview: 'Gloo publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Products API, Applications API, Me API, and 5 more. Tagged areas include API Gateway, Cloud-Native, Developer Portal, Envoy, and Istio.
 
 
   The Gloo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -281,14 +306,14 @@ plans:
 - name: Gloo Plans Pricing
   plan_count: 0
   slug: gloo-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Gloo Rate Limits
   slug: gloo-rate-limits
 score:
   band: strong
-  composite: 56.3
+  composite: 57.1
   coverage:
     artifact_dirs: 26
     catalog_earned: 43.0
@@ -296,11 +321,11 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 60.9
+    contract_quality: 63.9
     developer_ergonomics: 80.4
     discoverability: 81.5
     operational_transparency: 44.7
@@ -311,11 +336,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

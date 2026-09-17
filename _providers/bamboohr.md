@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -191,11 +191,11 @@ modified: '2026-05-30'
 name: BambooHR
 nav: Providers
 network: true
-overview: 'BambooHR publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Directory API, Employees API, and 4 more. Tagged areas include HR, HRIS, Human Resources, Payroll, and Time Tracking.
+overview: 'BambooHR publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Directory API, Employees API, and 4 more. Tagged areas include Human Resources, HRIS, Payroll, Time Tracking, and Applicant Tracking.
 
 
   BambooHR''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, and 10 more developer resources.'
-random_paper: 2
+random_paper: 6
 scopes:
 - name: Bamboohr Scopes
   scope_count: 1
@@ -228,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -253,9 +253,8 @@ security:
   summary_line: SOC 2, PCI DSS
 slug: bamboohr
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Payroll
 - Time Tracking
 - Applicant Tracking

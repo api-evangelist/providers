@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Gated, enterprise real-time de-identification API named on the HealthVerity Identity Manager product page. Under the "sync on demand" modality, customers write records to the HealthVerity Identity API
@@ -170,7 +170,7 @@ plans:
 - name: Healthverity Plans Pricing
   plan_count: 0
   slug: healthverity-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Healthverity Rate Limits
@@ -211,7 +211,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

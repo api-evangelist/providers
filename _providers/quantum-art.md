@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -137,7 +137,7 @@ apis:
 - baseURL: https://qaas.quantum-art.tech
   baseurl_source: declared
   description: The QaaS Backend API API from Quantum Art — 1 operation(s) for qaas backend api.
-  name: Quantum Art QaaS Backend API API
+  name: Quantum Art QaaS Backend API
   slug: quantum-art-qaas-backend-api-api
 - baseURL: https://qaas.quantum-art.tech
   baseurl_source: declared
@@ -347,7 +347,7 @@ created: '2026-07-17'
 description: Quantum Art is a quantum computing company building best-in-class, scalable quantum computers for commercial applications. Its technology combines advanced multi-qubit gates that implement up to 1,000 standard two-qubit operations in a single action with a dynamically reconfigurable multi-core trapped-ion architecture that runs tens of independent cores in parallel with microsecond reconfiguration. Quantum Art targets chemistry and materials science, machine learning, process optimization, and finance. It exposes its systems through a Quantum-as-a-Service (QaaS) platform whose QaaS Backend API offers a Qiskit-provider-compatible interface for listing backends, submitting and managing quantum jobs, retrieving results, plus account, task, artifact, and administration management. Backed by Battery Ventures.
 image: https://qaas.quantum-art.tech/logo-square.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Quantum Art
 nav: Providers
 network: true
@@ -355,10 +355,10 @@ overview: 'Quantum Art publishes 24 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quantum Art''s developer surface includes authentication, documentation, API reference, signup flow, and 18 more developer resources.'
-random_paper: 17
+random_paper: 7
 score:
   band: thin
-  composite: 33.0
+  composite: 31.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -366,11 +366,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 51.4
+    contract_quality: 45.9
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 0.0
@@ -379,14 +379,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 24
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -11,35 +11,385 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.8
-  scored_at: '2026-09-15'
-api_count: 66
+  score: 38.2
+  scored_at: '2026-09-16'
+api_count: 131
 apis:
-- baseURL: https://yce-api-01.makeupar.com
-  baseurl_source: declared
-  description: Asynchronous, task-based REST API for 60+ AI features — skin and face analysis, hair and beard, body reshaping, makeup and nail virtual try-on, apparel, footwear, jewellery and watch try-on, image gen
-  name: YouCam AI REST API
-  slug: youcam-ai-rest-api
 - description: Three hosted, remote Model Context Protocol servers fronting the YouCam AI API, split by solution category — Beauty & Skin Care (47 tools), Fashion & Retail (18 tools) and Creators (34 tools). All thr
   name: YouCam MCP Servers
   slug: youcam-mcp-servers
-artifact_total: 12
+- baseURL: https://yce-api-01.makeupar.com
+  baseurl_source: declared
+  description: The S2s API from Perfect Corp — 5 operation(s) for s2s.
+  name: Perfect Corp S2s API
+  slug: perfect-corp-s2s-api
+- baseURL: https://yce-api-01.makeupar.com
+  baseurl_source: declared
+  description: Transform your upper-body photo with AI-generated six-pack abs using the AI Abs Filter API.
+  name: Perfect Corp V1.0 API
+  slug: perfect-corp-v1-0-api
+- baseURL: https://yce-api-01.makeupar.com
+  baseurl_source: declared
+  description: The V2.0 API from Perfect Corp — 32 operation(s) for v2.0.
+  name: Perfect Corp V2.0 API
+  slug: perfect-corp-v2-0-api
+- baseURL: https://yce-api-01.makeupar.com
+  baseurl_source: declared
+  description: Powered by updated AI technology and new style templates, the platform can create new hairstyles, apply specific template‑based looks, and transfer styles from user‑provided reference images.
+  name: Perfect Corp V2.1 API
+  slug: perfect-corp-v2-1-api
+- baseURL: https://yce-api-01.makeupar.com
+  baseurl_source: declared
+  description: AI Avatar Generator API allows you to generate avatars from a source image using predefined templates and output count settings.
+  name: Perfect Corp V3.0 API
+  slug: perfect-corp-v3-0-api
+- baseURL: https://yce-api-01.makeupar.com
+  baseurl_source: declared
+  description: Enhanced capabilities to include virtual try-on for outerwear, including jackets and vests. You can now choose from Full Body, Upper Body, Lower Body, Shoes, or Outerwear for virtual try-on, or simply
+  name: Perfect Corp V4.0 API
+  slug: perfect-corp-v4-0-api
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Perfect Corp Webhooks
   slug: perfect-corp-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_abs_filter-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_abs_filter-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_aging_simulation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_aging_simulation-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_avatar_generator-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_avatar_generator-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_background_removal-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_background_removal-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_bag-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_bag-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_bangs-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_bangs-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_beard_style-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_beard_style-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_body_reshape-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_body_reshape-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_bracelet-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_bracelet-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_breast_augmentation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_breast_augmentation-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_clothes-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_clothes-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_color_correction-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_color_correction-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_earrings-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_earrings-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_eye_color_lens-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_eye_color_lens-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_fabric-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_fabric-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_face_analyzer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_face_analyzer-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_face_lift-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_face_lift-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_face_reshape-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_face_reshape-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_face_swap-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_face_swap-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_fitzpatrick_skin_type-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_fitzpatrick_skin_type-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_hair_color-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_hair_color-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_hair_density_detection-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_hair_density_detection-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_hair_extension-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_hair_extension-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_hair_frizziness_detection-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_hair_frizziness_detection-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_hair_length_detection-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_hair_length_detection-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_hair_type_detection-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_hair_type_detection-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_hair_volume-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_hair_volume-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_hairstyle-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_hairstyle-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_hat-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_hat-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_headshot_generator-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_headshot_generator-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_image_extender-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_image_extender-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_image_generator-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_image_generator-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_look_vto-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_look_vto-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_makeup_transfer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_makeup_transfer-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_nail_transfer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_nail_transfer-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_nail_vto-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_nail_vto-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_necklace-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_necklace-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_object_removal_pro-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_object_removal_pro-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_photo_background_blur-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_photo_background_blur-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_photo_background_change-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_photo_background_change-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_photo_colorize-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_photo_colorize-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_photo_enhance-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_photo_enhance-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_photo_lighting-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_photo_lighting-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_replace-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_replace-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_scarf-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_scarf-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_shoes-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_shoes-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_skin_analysis-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_skin_analysis-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_skin_simulation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_skin_simulation-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_skin_tone_analysis-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_skin_tone_analysis-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_smile-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_smile-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_studio_generator-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_studio_generator-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_teeth_whitening-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_teeth_whitening-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_video_background_replace-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_video_background_replace-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_video_enhancer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_video_enhancer-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_video_face_swap-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_video_face_swap-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_video_generator-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_video_generator-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_video_object_removal-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_video_object_removal-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_video_style_transfer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_video_style_transfer-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_watch-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_watch-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ai_wavy_hair-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ai_wavy_hair-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-file-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-file-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-makeup_vto-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-makeup_vto-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-ring_vto-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-ring_vto-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-task_management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-task_management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/overlays/perfect-corp-unit_system-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/perfect-corp-unit_system-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -231,18 +581,18 @@ modified: '2026-09-02'
 name: Perfect Corp
 nav: Providers
 network: true
-overview: 'Perfect Corp publishes 1 API on the [APIs.io](https://apis.io/) network: YouCam AI REST API. Tagged areas include Beauty, Skincare, Cosmetics, Fashion, and Apparel.
+overview: 'Perfect Corp publishes 6 APIs on the [APIs.io](https://apis.io/) network, including S2s API, V1.0 API, V2.0 API, and 3 more. Tagged areas include Beauty, Skincare, Cosmetics, Fashion, and Apparel.
 
 
   The Perfect Corp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Perfect Corp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Perfect Corp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 95 more developer resources.'
 plans:
 - name: Perfect Corp Plans Pricing
   plan_count: 0
   slug: perfect-corp-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Perfect Corp Rate Limits
@@ -254,7 +604,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.4
+  composite: 54.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 48.0
@@ -262,11 +612,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 57.0
+    contract_quality: 59.4
     developer_ergonomics: 66.1
     discoverability: 81.5
     operational_transparency: 44.7
@@ -277,11 +627,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 65
+      total: 6
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

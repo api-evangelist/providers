@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Raken Public API 3.0 is a REST API protected by OAuth 2.0 that exposes the core entities of the Raken construction field-management platform: projects (and their child projects, notes, members, produc'
@@ -229,7 +229,7 @@ overview: 'Raken publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Raken''s developer surface includes developer portal, documentation, changelog, signup flow, pricing, engineering blog, support, and 32 more developer resources.'
-random_paper: 4
+random_paper: 1
 score:
   band: emerging
   composite: 25.9
@@ -257,7 +257,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

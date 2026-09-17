@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -66,11 +66,6 @@ apis:
   slug: indykite-authorization-policies-api
 - baseURL: https://us.api.indykite.com
   baseurl_source: declared
-  description: Authorization API implemented according to [AuthZEN specification](https://openid.net/wg/authzen/specifications/).
-  name: Indykite AuthZEN API
-  slug: indykite-authzen-api
-- baseURL: https://us.api.indykite.com
-  baseurl_source: declared
   description: Capture REST API represents the service interface for data capture.
   name: Indykite Capture API
   slug: indykite-capture-api
@@ -81,11 +76,6 @@ apis:
   slug: indykite-contx-iq-api
 - baseURL: https://us.api.indykite.com
   baseurl_source: declared
-  description: DataSchema enables customers to define their own data models within the Identity Knowledge Graph (IKG)
-  name: Indykite DataSchema API
-  slug: indykite-dataschema-api
-- baseURL: https://us.api.indykite.com
-  baseurl_source: declared
   description: The Deprecated API from Indykite — 2 operation(s) for deprecated.
   name: Indykite Deprecated API
   slug: indykite-deprecated-api
@@ -94,11 +84,6 @@ apis:
   description: Entity Matching Pipeline configuration
   name: Indykite Entity Matching API
   slug: indykite-entity-matching-api
-- baseURL: https://us.api.indykite.com
-  baseurl_source: declared
-  description: The EntityMatching API from Indykite — 3 operation(s) for entitymatching.
-  name: Indykite EntityMatching API
-  slug: indykite-entitymatching-api
 - baseURL: https://us.api.indykite.com
   baseurl_source: declared
   description: Event Sink configuration
@@ -149,6 +134,16 @@ apis:
   description: Trust Score Profile management
   name: Indykite Trust Score API
   slug: indykite-trust-score-api
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Authorization API implemented according to AuthZEN specification.
+  name: Indykite Auth ZEN API
+  slug: indykite-auth-zen-api
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: DataSchema enables customers to define their own data models within the Identity Knowledge Graph (IKG)
+  name: Indykite Data Schema API
+  slug: indykite-data-schema-api
 arazzos:
 - description: Upsert nodes and a relationship into the Identity Knowledge Graph, then ask AuthZEN/KBAC whether a subject may act on a resource.
   name: Capture graph data then make an authorization decision
@@ -156,7 +151,7 @@ arazzos:
 - description: Create a project, an application and an application agent, then mint an AppAgent credential for data-plane calls.
   name: Provision an IndyKite project and AppAgent credential
   slug: indykite-provision-project-appagent
-artifact_total: 52
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Indykite Event Sinks Webhooks
@@ -229,6 +224,10 @@ collections:
   name: Config REST Application Agent Credentials Trust Score API
   slug: open-indykite-trust-score-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://indykite.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/overlays/indykite-config-overlay.yaml
   title: ''
@@ -390,18 +389,18 @@ mcp_servers:
 - description: ''
   name: Indykite MCP Server
   slug: indykite-mcp-server
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Indykite
 nav: Providers
 network: true
-overview: 'Indykite publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Application Agent Credentials API, Application Agents API, Applications API, and 18 more. Tagged areas include Company, Identity, Authorization, Access Control, and Knowledge Graph.
+overview: 'Indykite publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Application Agent Credentials API, Application Agents API, Applications API, and 17 more. Tagged areas include Company, Identity, Authorization, Access Control, and Knowledge Graph.
 
 
   The Indykite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Indykite''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 26 more developer resources.'
-random_paper: 4
+  Indykite''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 27 more developer resources.'
+random_paper: 7
 score:
   band: developing
   composite: 51.3
@@ -428,11 +427,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 20
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -466,5 +465,5 @@ tags:
 - MCP
 - Security
 - AuthZEN
-website: https://developer.indykite.com/
+website: https://indykite.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: bswift's partner-facing REST API, served from an AWS API Gateway at api.bswift.com. bswift publicly describes API coverage for demographics and employment data, with lifecycle domains (plan, rate, enr
@@ -129,7 +129,7 @@ overview: 'bswift publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   bswift''s developer surface includes engineering blog, changelog, and 12 more developer resources.'
-random_paper: 4
+random_paper: 17
 score:
   band: emerging
   composite: 23.8
@@ -164,7 +164,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

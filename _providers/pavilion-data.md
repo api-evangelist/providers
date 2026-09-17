@@ -66,7 +66,7 @@ name: Pavilion
 nav: Providers
 network: true
 overview: Pavilion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Flash Storage, NVMe, and NVMe over Fabrics.
-random_paper: 19
+random_paper: 1
 security:
 - kind: domain-security
   name: Pavilion Data Domain Security

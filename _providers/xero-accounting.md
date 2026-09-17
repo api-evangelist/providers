@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,16 +53,6 @@ apis:
   slug: xero-accounting-accounts-api
 - baseURL: https://api.xero.com/api.xro/2.0
   baseurl_source: declared
-  description: The BankTransactions API from Xero Accounting — 2 operation(s) for banktransactions.
-  name: Xero Accounting BankTransactions API
-  slug: xero-accounting-banktransactions-api
-- baseURL: https://api.xero.com/api.xro/2.0
-  baseurl_source: declared
-  description: The BankTransfers API from Xero Accounting — 1 operation(s) for banktransfers.
-  name: Xero Accounting BankTransfers API
-  slug: xero-accounting-banktransfers-api
-- baseURL: https://api.xero.com/api.xro/2.0
-  baseurl_source: declared
   description: The BatchPayments API from Xero Accounting — 1 operation(s) for batchpayments.
   name: Xero Accounting BatchPayments API
   slug: xero-accounting-batchpayments-api
@@ -76,6 +66,16 @@ apis:
   description: The Invoices API from Xero Accounting — 1 operation(s) for invoices.
   name: Xero Accounting Invoices API
   slug: xero-accounting-invoices-api
+- baseURL: https://api.xero.com/connections
+  baseurl_source: declared
+  description: The Bank Transactions API from Xero Accounting — 2 operation(s) for bank transactions.
+  name: Xero Accounting Bank Transactions API
+  slug: xero-accounting-bank-transactions-api
+- baseURL: https://api.xero.com/connections
+  baseurl_source: declared
+  description: The Bank Transfers API from Xero Accounting — 1 operation(s) for bank transfers.
+  name: Xero Accounting Bank Transfers API
+  slug: xero-accounting-bank-transfers-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -171,11 +171,11 @@ modified: '2026-05-19'
 name: Xero Accounting
 nav: Providers
 network: true
-overview: 'Xero Accounting publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, BankTransactions API, BankTransfers API, and 3 more. Tagged areas include Accounting, Small Business, Invoicing, Bookkeeping, and Financial Reporting.
+overview: 'Xero Accounting publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, BatchPayments API, Contacts API, and 3 more. Tagged areas include Accounting, Small Business, Invoicing, Bookkeeping, and Financial Reporting.
 
 
   Xero Accounting''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 4
+random_paper: 18
 scopes:
 - name: Xero Accounting Scopes
   scope_count: 6
@@ -208,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

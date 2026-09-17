@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Moxtra's REST API for building embedded collaboration experiences, covering users, binders (workspaces), pages, messages, files, meetings, todos, signatures, and webhooks. Authentication uses OAuth 2.
@@ -94,7 +94,7 @@ overview: 'Moxtra publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Moxtra''s developer surface includes documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 16
+random_paper: 7
 score:
   band: emerging
   composite: 17.8
@@ -115,7 +115,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 17.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

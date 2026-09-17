@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://research-management.mq.edu.au/ws/oai
-  baseurl_source: declared
-  description: 'The one institution-operated, keyless, machine-readable API surface Macquarie publishes. OAI-PMH 2.0 metadata harvesting for the Macquarie University Research Portal, served from the university''s own '
-  name: Macquarie University Research Portal OAI-PMH
-  slug: research-portal-oai-pmh
 - description: Macquarie operates its own Shibboleth identity provider at idp.mq.edu.au, publishing SAML 2.0 metadata anonymously at /idp/shibboleth and registered in the Australian Access Federation as entityID urn
   name: Macquarie University Identity Provider (Shibboleth / SAML 2.0)
   slug: idp-shibboleth
@@ -63,6 +58,11 @@ apis:
 - description: Library discovery for Macquarie runs on Ex Libris Primo at multisearch.mq.edu.au. The holdings are Macquarie's; Primo and the Alma platform beneath it are Ex Libris's, and the Alma/Primo APIs are gate
   name: Macquarie University Library MultiSearch (Ex Libris Primo)
   slug: library-multisearch-primo
+- baseURL: https://research-management.mq.edu.au/ws/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs for incremental metadata harvesting.
+  name: Macquarie University Harvesting API
+  slug: macquarie-harvesting-api
 artifact_total: 15
 common:
 - group: company
@@ -173,7 +173,7 @@ modified: '2026-08-30'
 name: Macquarie University
 nav: Providers
 network: true
-overview: 'Macquarie University publishes 1 API on the [APIs.io](https://apis.io/) network: Research Portal OAI-PMH. Tagged areas include University, Higher Education, Education, Australia, and Group of Eight Peer.
+overview: 'Macquarie University publishes 1 API on the [APIs.io](https://apis.io/) network: Harvesting API. Tagged areas include University, Higher Education, Education, Australia, and Group of Eight Peer.
 
 
   The Macquarie University catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -184,7 +184,7 @@ plans:
 - name: Macquarie Plans Pricing
   plan_count: 2
   slug: macquarie-plans-pricing
-random_paper: 7
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Macquarie Rate Limits
@@ -241,7 +241,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

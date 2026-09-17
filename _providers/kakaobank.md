@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: REST API for managing KakaoBank accounts including demand deposits, savings accounts, and group accounts. Provides access to account balances, transaction history, and account holder information for a
@@ -117,7 +117,7 @@ modified: '2026-06-13'
 name: KakaoBank
 nav: Providers
 network: true
-overview: 'KakaoBank publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Finance, Open Banking, Korea, and Fintech.
+overview: 'KakaoBank publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Finance, Open Banking, South Korea, and Fintech.
 
 
   KakaoBank''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -163,7 +163,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -180,7 +180,7 @@ tags:
 - Banking
 - Finance
 - Open Banking
-- Korea
+- South Korea
 - Fintech
 - Account Management
 - Transfers

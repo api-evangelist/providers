@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1702
   human_in_the_loop: 67
@@ -285,11 +285,6 @@ apis:
   slug: genesys-notifications-api
 - baseURL: https://api.mypurecloud.com
   baseurl_source: declared
-  description: OAuth clients, providers
-  name: Genesys OAuth API
-  slug: genesys-oauth-api
-- baseURL: https://api.mypurecloud.com
-  baseurl_source: declared
   description: Access-controlled objects in the platform
   name: Genesys Objects API
   slug: genesys-objects-api
@@ -478,6 +473,11 @@ apis:
   description: Adherence, Schedules, Forecasts, Intraday Monitoring, Time Off Requests, Configuration
   name: Genesys Workforce Management API
   slug: genesys-workforce-management-api
+- baseURL: https://api.mypurecloud.com
+  baseurl_source: declared
+  description: OAuth clients, providers
+  name: Genesys O Auth API
+  slug: genesys-oauth-api
 artifact_total: 182
 asyncapis:
 - description: ''
@@ -916,7 +916,7 @@ overview: 'Genesys publishes 87 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Genesys'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
-random_paper: 10
+random_paper: 18
 scopes:
 - name: Genesys Scopes
   scope_count: 135
@@ -966,7 +966,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

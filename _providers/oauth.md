@@ -23,7 +23,7 @@ modified: '2026-05-19'
 name: OAuth
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 17
 slug: oauth
 tags:
 - Access Control

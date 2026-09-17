@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Token endpoint for OAuth 2.0 Client Credentials authentication used to authorize requests to all USPS API products.
@@ -101,7 +101,7 @@ overview: 'USPS publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   USPS''s developer surface includes documentation, getting-started guide, signup flow, GitHub presence, engineering blog, and 3 more developer resources.'
-random_paper: 18
+random_paper: 19
 score:
   band: emerging
   composite: 24.8
@@ -122,7 +122,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -19,7 +19,7 @@ name: Polywork
 nav: Providers
 network: true
 overview: Polywork is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 0
+random_paper: 1
 slug: polywork
 tags:
 - Company

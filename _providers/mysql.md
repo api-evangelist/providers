@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -71,6 +71,10 @@ collections:
   name: MySQL REST Service (MRS) Runtime API
   slug: open-mysql
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mysql.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/mysql/refs/heads/main/agentic-access/mysql-agentic-access.yml
   title: ''
@@ -130,19 +134,19 @@ finops:
   slug: mysql-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mysql.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: MySQL
 nav: Providers
 network: true
 overview: 'MySQL publishes 1 API on the [APIs.io](https://apis.io/) network: Authentication API. Tagged areas include Database, Open-Source, RDBMS, Relational Database, and SQL.
 
 
-  MySQL''s developer surface includes authentication, getting-started guide, documentation, engineering blog, Stack Overflow tag, and 7 more developer resources.'
+  MySQL''s developer surface includes authentication, getting-started guide, documentation, engineering blog, Stack Overflow tag, and 8 more developer resources.'
 plans:
 - name: Mysql Plans Pricing
   plan_count: 3
   slug: mysql-plans-pricing
-random_paper: 20
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Mysql Rate Limits
@@ -174,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -196,5 +200,5 @@ tags:
 - RDBMS
 - Relational Database
 - SQL
-website: https://www.mysql.com
+website: https://mysql.com
 ---

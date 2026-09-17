@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 32
+- acting_count: 69
   human_in_the_loop: 0
   name: Gallop Agentic Access
-  operation_count: 32
+  operation_count: 69
   slug: gallop-agentic-access
-  summary_line: 32 operations · 32 acting
+  summary_line: 69 operations · 69 acting
 api_count: 3
 apis:
 - baseURL: https://api.prod.gallop.run/v1
@@ -192,7 +192,7 @@ overview: 'Gallop publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Gallop''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Gallop Rate Limits
@@ -227,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

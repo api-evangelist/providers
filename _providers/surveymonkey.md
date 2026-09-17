@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -81,9 +81,9 @@ apis:
   slug: surveymonkey-users-api
 - baseURL: https://api.surveymonkey.com/v3
   baseurl_source: declared
-  description: The Workgroups API from SurveyMonkey — 2 operation(s) for workgroups.
-  name: SurveyMonkey Workgroups API
-  slug: surveymonkey-workgroups-api
+  description: The Work Groups API from SurveyMonkey — 2 operation(s) for work groups.
+  name: SurveyMonkey Work Groups API
+  slug: surveymonkey-work-groups-api
 artifact_total: 28
 asyncapis:
 - description: AsyncAPI 2.6 description of the SurveyMonkey v3 webhook surface. SurveyMonkey delivers events as HTTP POST requests to a `subscription_url` that the consumer registers via the REST endpoint `POST /v3/
@@ -121,6 +121,10 @@ collections:
   name: SurveyMonkey API v3
   slug: open-surveymonkey
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://surveymonkey.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/agentic-access/surveymonkey-agentic-access.yml
   title: ''
@@ -158,7 +162,7 @@ finops:
   slug: surveymonkey-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/surveymonkey.png
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: SurveyMonkey
 nav: Providers
 network: true
@@ -168,12 +172,12 @@ overview: 'SurveyMonkey publishes 8 APIs on the [APIs.io](https://apis.io/) netw
   The SurveyMonkey catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  SurveyMonkey''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
+  SurveyMonkey''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
 plans:
 - name: Surveymonkey Plans Pricing
   plan_count: 5
   slug: surveymonkey-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Surveymonkey Rate Limits
@@ -223,7 +227,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -250,4 +254,5 @@ tags:
 - NPS
 - Forms
 - Authentication
+website: https://surveymonkey.com
 ---

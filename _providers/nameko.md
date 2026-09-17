@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Nameko is a microservices framework for Python that provides tools for building, testing, and running services. It supports RPC over AMQP, HTTP endpoints, WebSocket connections, and timer-based worker
@@ -97,7 +97,7 @@ modified: '2026-04-28'
 name: Nameko
 nav: Providers
 network: true
-overview: 'Nameko publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AMQP, Dependency Injection, Frameworks, Microservices, and Python.
+overview: 'Nameko publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AMQP, Dependency Injection, Framework, Microservices, and Python.
 
 
   The Nameko catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -108,7 +108,7 @@ plans:
 - name: Nameko Plans Pricing
   plan_count: 3
   slug: nameko-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Nameko Rate Limits
@@ -147,7 +147,7 @@ score:
     score: 50.0
   previous_composite: 20.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +158,7 @@ slug: nameko
 tags:
 - AMQP
 - Dependency Injection
-- Frameworks
+- Framework
 - Microservices
 - Python
 - RPC

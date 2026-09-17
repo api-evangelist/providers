@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.kriya.co/payments/
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://api.kriya.co/payments/
   baseurl_source: declared
   description: The Onboarding API API from Kriya — 2 operation(s) for onboarding api.
-  name: Kriya Onboarding API API
+  name: Kriya Onboarding API
   slug: kriya-onboarding-api-api
 - baseURL: https://api.kriya.co/payments/
   baseurl_source: declared
@@ -224,18 +224,18 @@ created: '2026-07-17'
 description: Kriya (Kriya Finance Limited, London) is a UK B2B embedded-finance and working-capital provider that lets merchants offer trade credit to their business buyers. Its products span Embedded PayLater (B2B buy-now-pay-later terms at checkout), Invoice Finance, working capital loans, buyer authentication, offline payments and a Kriya-on-Stripe integration. Kriya publishes two partner-facing REST APIs — the Payments API for buyer registration, risk decisioning, order lifecycle and payment deductions, and the Onboarding API for automating company and KYC checks — alongside a hosted Payments Journey and Onboarding Journey web flow, HMAC-signed webhooks, a dedicated test environment with scenario simulators, and e-commerce plugins for BigCommerce, Magento, nopCommerce, PrestaShop and Salesforce. Kriya was acquired by Allica Bank in October 2025.
 image: https://cdn.kriya.co/images/KriyaPaymentsAPI-API-Integration-Sequence-Flow.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Kriya
 nav: Providers
 network: true
-overview: 'Kriya publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Buyers API, Onboarding API API, OnboardingJourney API, and 3 more. Tagged areas include Company, Fintech, Payments, Embedded Finance, and Buy Now Pay Later.
+overview: 'Kriya publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Buyers API, Onboarding API, OnboardingJourney API, and 3 more. Tagged areas include Company, Fintech, Payments, Embedded Finance, and Buy Now Pay Later.
 
 
   The Kriya catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Kriya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 20 more developer resources.'
-random_paper: 19
+random_paper: 16
 score:
   band: developing
   composite: 39.7
@@ -279,7 +279,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

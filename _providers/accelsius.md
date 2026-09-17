@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -270,11 +270,11 @@ modified: '2026-08-06'
 name: Accelsius
 nav: Providers
 network: true
-overview: 'Accelsius publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Resources Content API, News API, Pages API, and 7 more. Tagged areas include Company, Data Centers, Liquid Cooling, Thermal Management, and Direct-to-Chip Cooling.
+overview: 'Accelsius publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Resources Content API, News API, Pages API, and 7 more. Tagged areas include Company, Data-Center, Liquid Cooling, Thermal Management, and Direct-to-Chip Cooling.
 
 
   Accelsius'' developer surface includes authentication, support, FAQ, engineering blog, code examples, and 24 more developer resources.'
-random_paper: 11
+random_paper: 10
 score:
   band: thin
   composite: 28.2
@@ -305,7 +305,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -324,7 +324,7 @@ security:
 slug: accelsius
 tags:
 - Company
-- Data Centers
+- Data-Center
 - Liquid Cooling
 - Thermal Management
 - Direct-to-Chip Cooling

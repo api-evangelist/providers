@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -81,11 +81,6 @@ apis:
   slug: cable-helper-api
 - baseURL: https://api.cable.tech
   baseurl_source: declared
-  description: The identityVerification API from Cable — 1 operation(s) for identityverification.
-  name: Cable identityVerification API
-  slug: cable-identityverification-api
-- baseURL: https://api.cable.tech
-  baseurl_source: declared
   description: The onboardingFlow API from Cable — 1 operation(s) for onboardingflow.
   name: Cable onboardingFlow API
   slug: cable-onboardingflow-api
@@ -99,11 +94,6 @@ apis:
   description: The retail API from Cable — 8 operation(s) for retail.
   name: Cable retail API
   slug: cable-retail-api
-- baseURL: https://api.cable.tech
-  baseurl_source: declared
-  description: The riskAssessment API from Cable — 1 operation(s) for riskassessment.
-  name: Cable riskAssessment API
-  slug: cable-riskassessment-api
 - baseURL: https://api.cable.tech
   baseurl_source: declared
   description: The screening API from Cable — 2 operation(s) for screening.
@@ -144,6 +134,16 @@ apis:
   description: The utilities API from Cable — 1 operation(s) for utilities.
   name: Cable utilities API
   slug: cable-utilities-api
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The Identity Verification API from Cable — 1 operation(s) for identity verification.
+  name: Cable Identity Verification API
+  slug: cable-identity-verification-api
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The Risk Assessment API from Cable — 1 operation(s) for risk assessment.
+  name: Cable Risk Assessment API
+  slug: cable-risk-assessment-api
 artifact_total: 47
 collections:
 - collection_type: open
@@ -369,7 +369,7 @@ overview: 'Cable publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 25 more developer resources.'
-random_paper: 20
+random_paper: 19
 score:
   band: developing
   composite: 46.0
@@ -406,7 +406,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

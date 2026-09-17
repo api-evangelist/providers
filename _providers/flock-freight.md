@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,7 +94,7 @@ overview: 'Flock Freight is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Flock Freight''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 15
+random_paper: 19
 score:
   band: emerging
   composite: 15.0
@@ -115,7 +115,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

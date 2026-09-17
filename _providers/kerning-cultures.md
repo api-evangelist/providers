@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,8 +48,8 @@ modified: '2026-07-19'
 name: Kerning Cultures
 nav: Providers
 network: true
-overview: Kerning Cultures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Podcast, Audio, and Content.
-random_paper: 2
+overview: Kerning Cultures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Podcasts, Audio, and Content.
+random_paper: 10
 score:
   band: minimal
   composite: 5.0
@@ -81,7 +81,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -92,7 +92,7 @@ slug: kerning-cultures
 tags:
 - Company
 - Media
-- Podcast
+- Podcasts
 - Audio
 - Content
 - Storytelling

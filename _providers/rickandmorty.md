@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: RESTful API providing access to characters, locations, and episodes from the Rick and Morty animated series. Returns paginated JSON responses with up to 20 results per page.
@@ -124,7 +124,7 @@ modified: '2026-06-13'
 name: Rick and Morty API
 nav: Providers
 network: true
-overview: 'Rick and Morty API publishes 1 API on the [APIs.io](https://apis.io/) network: Rick and Morty REST API. Tagged areas include Rick and Morty, Characters, Episodes, Locations, and Entertainment.
+overview: 'Rick and Morty API publishes 1 API on the [APIs.io](https://apis.io/) network: Rick and Morty REST API. Tagged areas include Rick and Morty, Characters, Episodes, Location, and Entertainment.
 
 
   Rick and Morty API''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
@@ -132,7 +132,7 @@ plans:
 - name: Rickandmorty Plans Pricing
   plan_count: 1
   slug: rickandmorty-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Rickandmorty Rate Limits
@@ -157,7 +157,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -174,7 +174,7 @@ tags:
 - Rick and Morty
 - Characters
 - Episodes
-- Locations
+- Location
 - Entertainment
 - GraphQL
 - REST

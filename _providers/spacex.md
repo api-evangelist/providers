@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -439,7 +439,7 @@ modified: '2026-05-29'
 name: SpaceX (Community API)
 nav: Providers
 network: true
-overview: 'SpaceX (Community API) publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Capsules API, Company API, Cores API, and 11 more. Tagged areas include Space, Launch, Satellites, Starlink, and Falcon 9.
+overview: 'SpaceX (Community API) publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Capsules API, Company API, Cores API, and 11 more. Tagged areas include Space, Launches, Satellite, Starlink, and Falcon 9.
 
 
   The SpaceX (Community API) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -450,7 +450,7 @@ plans:
 - name: Spacex Plans Pricing
   plan_count: 2
   slug: spacex-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Spacex Rate Limits
@@ -479,21 +479,21 @@ rules:
   slug: spacex-rules
 score:
   band: thin
-  composite: 36.4
+  composite: 39.0
   coverage:
     artifact_dirs: 15
-    catalog_earned: 64.5
+    catalog_earned: 79.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.5
+    catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
     access_clarity: 21.1
     contract_governance: 28.8
-    contract_quality: 19.0
+    contract_quality: 25.8
     developer_ergonomics: 54.8
-    discoverability: 50.0
+    discoverability: 59.3
     operational_transparency: 50.0
   previous_composite: 36.4
   provenance:
@@ -510,7 +510,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -529,8 +529,8 @@ security:
 slug: spacex
 tags:
 - Space
-- Launch
-- Satellites
+- Launches
+- Satellite
 - Starlink
 - Falcon 9
 - Falcon Heavy

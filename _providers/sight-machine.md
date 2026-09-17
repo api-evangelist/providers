@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: REST endpoint that returns the fully-resolved values behind a Sight Machine dashboard, panel by panel, so dashboard data can be consumed by external enterprise applications. Authenticated with a tenan
@@ -185,7 +185,7 @@ plans:
 - name: Sight Machine Plans Pricing
   plan_count: 0
   slug: sight-machine-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Sight Machine Rate Limits
@@ -213,7 +213,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

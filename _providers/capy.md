@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -276,11 +276,11 @@ modified: '2026-07-18'
 name: Capy
 nav: Providers
 network: true
-overview: 'Capy publishes 12 APIs on the [APIs.io](https://apis.io/) network, including automations API, browser-snapshots API, environment-variables API, and 9 more. Tagged areas include Company, Artificial Intelligence, AI Coding Agent, Software Engineering, and Developer Tools.
+overview: 'Capy publishes 12 APIs on the [APIs.io](https://apis.io/) network, including automations API, browser-snapshots API, environment-variables API, and 9 more. Tagged areas include Company, Artificial Intelligence, AI Coding Agents, Software Engineering, and Developer Tools.
 
 
   Capy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 9
+random_paper: 11
 score:
   band: developing
   composite: 49.2
@@ -311,7 +311,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -338,7 +338,7 @@ slug: capy
 tags:
 - Company
 - Artificial Intelligence
-- AI Coding Agent
+- AI Coding Agents
 - Software Engineering
 - Developer Tools
 - Automation

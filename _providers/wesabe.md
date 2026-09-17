@@ -25,7 +25,7 @@ name: Wesabe
 nav: Providers
 network: true
 overview: Wesabe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 1
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/wesabe/refs/heads/main/screenshots/wesabe-2026-09-02T170626.png
 slug: wesabe
 tags:

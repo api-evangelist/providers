@@ -15,23 +15,58 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-09-15'
-api_count: 29
+  score: 34.7
+  scored_at: '2026-09-16'
+api_count: 30
 apis:
 - baseURL: https://api.squared.ai/api/v1/
   baseurl_source: declared
-  description: REST API for the AI Squared platform covering connectors (data and AI/ML sources and destinations), connector definitions and connection checks, models, catalogs, syncs, scheduled/manual sync triggers
-  name: AI Squared API
-  slug: ai-squared-api
-artifact_total: 8
+  description: The Catalogs API from AI Squared — 2 operation(s) for catalogs.
+  name: AI Squared Catalogs API
+  slug: ai-squared-catalogs-api
+- baseURL: https://api.squared.ai/api/v1/
+  baseurl_source: declared
+  description: The Connector Definitions API from AI Squared — 3 operation(s) for connector definitions.
+  name: AI Squared Connector Definitions API
+  slug: ai-squared-connector-definitions-api
+- baseURL: https://api.squared.ai/api/v1/
+  baseurl_source: declared
+  description: The Connectors API from AI Squared — 4 operation(s) for connectors.
+  name: AI Squared Connectors API
+  slug: ai-squared-connectors-api
+- baseURL: https://api.squared.ai/api/v1/
+  baseurl_source: declared
+  description: The Models API from AI Squared — 2 operation(s) for models.
+  name: AI Squared Models API
+  slug: ai-squared-models-api
+- baseURL: https://api.squared.ai/api/v1/
+  baseurl_source: declared
+  description: The SyncRecords API from AI Squared — 1 operation(s) for syncrecords.
+  name: AI Squared Sync Records API
+  slug: ai-squared-syncrecords-api
+- baseURL: https://api.squared.ai/api/v1/
+  baseurl_source: declared
+  description: The SyncRun API from AI Squared — 1 operation(s) for syncrun.
+  name: AI Squared Sync Run API
+  slug: ai-squared-syncrun-api
+- baseURL: https://api.squared.ai/api/v1/
+  baseurl_source: declared
+  description: The SyncRuns API from AI Squared — 1 operation(s) for syncruns.
+  name: AI Squared Sync Runs API
+  slug: ai-squared-syncruns-api
+- baseURL: https://api.squared.ai/api/v1/
+  baseurl_source: declared
+  description: The Syncs API from AI Squared — 6 operation(s) for syncs.
+  name: AI Squared Syncs API
+  slug: ai-squared-syncs-api
+artifact_total: 15
 common:
 - group: company
   title: ''
@@ -102,10 +137,10 @@ common:
   type: Compliance
   url: https://docs.squared.ai/deployment-and-security/security-and-compliance/overview
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/ai-squared-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/openapi/_original/ai-squared-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/ai-squared-openapi.yml
+  url: openapi/_original/ai-squared-openapi.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ai-squared/refs/heads/main/llms/ai-squared-llms.txt
   title: ''
@@ -219,11 +254,11 @@ mcp_servers:
 - description: An anonymous, read-mostly MCP server over the AI Squared documentation corpus, advertised by AI Squared at /.well-known/mcp.json on its own documentation host. It exposes documentation search, a read-
   name: AI Squared Documentation MCP Server
   slug: ai-squared-documentation-mcp-server
-modified: '2026-09-13'
+modified: '2026-09-16'
 name: AI Squared
 nav: Providers
 network: true
-overview: 'AI Squared publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data Integration, Reverse ETL, Artificial Intelligence, Machine-Learning, and Customer Data Platform.
+overview: 'AI Squared publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Catalogs API, Connector Definitions API, Connectors API, and 5 more. Tagged areas include Data Integration, Reverse ETL, Artificial Intelligence, Machine-Learning, and Customer Data Platform.
 
 
   AI Squared''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
@@ -231,14 +266,14 @@ plans:
 - name: Ai Squared Plans Pricing
   plan_count: 3
   slug: ai-squared-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Ai Squared Rate Limits
   slug: ai-squared-rate-limits
 score:
   band: strong
-  composite: 57.9
+  composite: 59.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 60.0
@@ -246,11 +281,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 47.7
+    contract_quality: 54.0
     developer_ergonomics: 71.4
     discoverability: 81.5
     operational_transparency: 52.6
@@ -261,11 +296,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 1
+      total: 8
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

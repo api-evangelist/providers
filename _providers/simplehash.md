@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Multi-chain REST API providing NFT metadata, ownership, transfers, floor prices, listings, bids, spam scores, and fungible token market prices across 80+ blockchains and testnets. Supports bulk lookup
@@ -115,7 +115,7 @@ modified: '2026-06-12'
 name: SimpleHash
 nav: Providers
 network: true
-overview: 'SimpleHash publishes 1 API on the [APIs.io](https://apis.io/) network: NFT & Token API. Tagged areas include NFT, Blockchain, Web3, Cryptocurrency, and Token.
+overview: 'SimpleHash publishes 1 API on the [APIs.io](https://apis.io/) network: NFT & Token API. Tagged areas include NFT, Blockchain, Web3, Cryptocurrency, and Tokens.
 
 
   The SimpleHash catalog on APIs.io includes 1 JSON-LD context.
@@ -126,7 +126,7 @@ plans:
 - name: Simplehash Plans Pricing
   plan_count: 2
   slug: simplehash-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Simplehash Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -173,7 +173,7 @@ tags:
 - Blockchain
 - Web3
 - Cryptocurrency
-- Token
+- Tokens
 - Metadata
 - Multi-Chain
 - Ethereum

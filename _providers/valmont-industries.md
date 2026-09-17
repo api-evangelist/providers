@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -129,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Valmont and Prospera Technologies Announce Roadmap ...
   url: https://www.prnewswire.com/news-releases/valmont-and-prospera-technologies-announce-roadmap-to-autonomous-crop-management-technology-through-global-partnership-300797955.html
-random_paper: 1
+random_paper: 20
 rules:
 - effective_rule_count: 5
   extends: []
@@ -161,7 +161,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

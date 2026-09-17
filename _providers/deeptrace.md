@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.deeptrace.com
@@ -212,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -237,6 +237,6 @@ tags:
 - Root Cause Analysis
 - Monitoring
 - DevOps
-- AI Agent
+- AI Agents
 website: https://deeptrace.com
 ---

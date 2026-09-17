@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 17
 apis:
 - baseURL: https://inflammatix.com/wp-json/wp/v2
@@ -47,11 +47,6 @@ apis:
   description: The Comments API from Inflammatix — 2 operation(s) for comments.
   name: Inflammatix Comments API
   slug: inflammatix-comments-api
-- baseURL: https://inflammatix.com/wp-json/wp/v2
-  baseurl_source: declared
-  description: The CourseCategories API from Inflammatix — 2 operation(s) for coursecategories.
-  name: Inflammatix Course Categories API
-  slug: inflammatix-coursecategories-api
 - baseURL: https://inflammatix.com/wp-json/wp/v2
   baseurl_source: declared
   description: The Courses API from Inflammatix — 2 operation(s) for courses.
@@ -122,6 +117,11 @@ apis:
   description: The Types API from Inflammatix — 1 operation(s) for types.
   name: Inflammatix Types API
   slug: inflammatix-types-api
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Course Categories API from Inflammatix — 2 operation(s) for course categories.
+  name: Inflammatix Course Categories API
+  slug: inflammatix-course-categories-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -264,11 +264,11 @@ modified: '2026-08-01'
 name: Inflammatix
 nav: Providers
 network: true
-overview: 'Inflammatix publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Course Categories API, and 14 more. Tagged areas include Company, Health, Healthcare, Diagnostics, and Medical Devices.
+overview: 'Inflammatix publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Courses API, and 14 more. Tagged areas include Company, Health, Healthcare, Diagnostics, and Medical Devices.
 
 
   Inflammatix''s developer surface includes support, engineering blog, authentication, and 25 more developer resources.'
-random_paper: 2
+random_paper: 12
 score:
   band: thin
   composite: 29.2
@@ -309,7 +309,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

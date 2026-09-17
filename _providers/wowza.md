@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 10
@@ -121,11 +121,6 @@ apis:
   description: Operations related to quality of experience metrics.
   name: Wowza quality_of_experience API
   slug: wowza-quality-of-experience-api
-- baseURL: https://api.video.wowza.com/api/v2.0
-  baseurl_source: declared
-  description: Operations related to Real-Time Streaming at Scale. If your audience is fewer than 300 viewers or you want to deliver a stream in near real time alongside other delivery protocols, <a href="https://ww
-  name: Wowza real_time API
-  slug: wowza-real-time-api
 - baseURL: https://api.video.wowza.com/api/v2.0
   baseurl_source: declared
   description: <blockquote>The <strong>recordings</strong> operations are deprecated in 2.0. Use the <strong>/videos</strong> endpoints instead.</blockquote> Operations related to recordings, which are created throu
@@ -276,6 +271,11 @@ apis:
   description: The Webhooks API from Wowza — 6 operation(s) for webhooks.
   name: Wowza Webhooks API
   slug: wowza-webhooks-api
+- baseURL: https://www.wowza.com
+  baseurl_source: declared
+  description: Operations related to Real-Time Streaming at Scale. If your audience is fewer than 300 viewers or you want to deliver a stream in near real time alongside other delivery protocols, use our WebRTC solu
+  name: Wowza Realtime API
+  slug: wowza-realtime-api
 artifact_total: 141
 collections:
 - collection_type: open
@@ -633,7 +633,7 @@ overview: 'Wowza publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Wowza''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, pricing, and 28 more developer resources.'
-random_paper: 1
+random_paper: 18
 score:
   band: developing
   composite: 49.9
@@ -666,7 +666,7 @@ score:
       marker_coverage: 0.0
       total: 44
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

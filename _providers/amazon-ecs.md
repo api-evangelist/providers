@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -173,6 +173,10 @@ collections:
   name: Amazon ECS Amazon Elastic Container Service (ECS) API
   slug: open-amazon-ecs
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/capabilities/amazon-ecs-capability-edges.yml
   title: ''
@@ -766,7 +770,7 @@ jsonld:
   property_count: 0
   slug: amazon-ecs-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon ECS
 nav: Providers
 network: true
@@ -776,12 +780,12 @@ overview: 'Amazon ECS publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
   The Amazon ECS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon ECS''s developer surface includes authentication, documentation, pricing, FAQ, getting-started guide, engineering blog, CLI, and 28 more developer resources.'
+  Amazon ECS''s developer surface includes authentication, documentation, pricing, FAQ, getting-started guide, engineering blog, CLI, and 29 more developer resources.'
 plans:
 - name: Amazon Ecs Plans Pricing
   plan_count: 3
   slug: amazon-ecs-plans-pricing
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Amazon Ecs Rate Limits
@@ -838,7 +842,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -879,5 +883,5 @@ use_cases:
   name: Hybrid Cloud Workloads
 - description: Deploy ML models as containerized inference endpoints with auto-scaling based on demand.
   name: Machine Learning Inference
-website: https://aws.amazon.com/ecs/
+website: https://amazon.com
 ---

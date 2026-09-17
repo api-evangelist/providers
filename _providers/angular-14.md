@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Core Angular 14 framework APIs including components, directives, pipes, dependency injection, and change detection. Angular 14 introduced standalone components, protected component template members, t
@@ -62,6 +62,10 @@ apis:
   slug: angular-cdk-api
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://angular.io
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/angular-14/refs/heads/main/security/angular-14-domain-security.yml
   title: ''
@@ -127,19 +131,19 @@ finops:
   slug: angular-14-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/angular-14.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Angular 14
 nav: Providers
 network: true
 overview: 'Angular 14 publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Frontend, JavaScript, Open-Source, and Single Page Application.
 
 
-  Angular 14''s developer surface includes documentation, GitHub presence, changelog, engineering blog, Stack Overflow tag, and 9 more developer resources.'
+  Angular 14''s developer surface includes documentation, GitHub presence, changelog, engineering blog, Stack Overflow tag, and 10 more developer resources.'
 plans:
 - name: Angular 14 Plans Pricing
   plan_count: 3
   slug: angular-14-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Angular 14 Rate Limits
@@ -164,7 +168,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 17.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -185,4 +189,5 @@ tags:
 - Single Page Application
 - TypeScript
 - Web Development
+website: https://angular.io
 ---

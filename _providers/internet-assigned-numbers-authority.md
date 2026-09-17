@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The IANA Protocol Registries publish the authoritative assignments for Internet protocol parameters. Bulk registry data is available as XML, CSV, and plain-text files distributed via rsync and FTP for
@@ -84,7 +84,7 @@ modified: '2026-04-28'
 name: Internet Assigned Numbers Authority
 nav: Providers
 network: true
-overview: 'Internet Assigned Numbers Authority publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Domains, DNS, IP Addressing, Media Types, and Protocols.
+overview: 'Internet Assigned Numbers Authority publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Domains, DNS, IP Addressing, Media Types, and Protocol.
 
 
   The Internet Assigned Numbers Authority catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -95,7 +95,7 @@ plans:
 - name: Internet Assigned Numbers Authority Plans Pricing
   plan_count: 3
   slug: internet-assigned-numbers-authority-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Internet Assigned Numbers Authority Rate Limits
@@ -131,7 +131,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -149,8 +149,8 @@ tags:
 - DNS
 - IP Addressing
 - Media Types
-- Protocols
+- Protocol
 - Standards
-- Timezones
+- Timezone
 website: https://www.iana.org/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 0
@@ -131,11 +131,6 @@ apis:
   slug: influxdata-notificationendpoints-api
 - baseURL: https://us-east-1-1.aws.cloud2.influxdata.com/api/v2
   baseurl_source: declared
-  description: The NotificationRules API from InfluxData — 4 operation(s) for notificationrules.
-  name: InfluxData NotificationRules API
-  slug: influxdata-notificationrules-api
-- baseURL: https://us-east-1-1.aws.cloud2.influxdata.com/api/v2
-  baseurl_source: declared
   description: Manage your [organization](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#organization). An organization is a workspace for a group of users. Organizations can be used to separate diff
   name: InfluxData Organizations API
   slug: influxdata-organizations-api
@@ -154,11 +149,6 @@ apis:
   description: The Ready API from InfluxData — 1 operation(s) for ready.
   name: InfluxData Ready API
   slug: influxdata-ready-api
-- baseURL: https://us-east-1-1.aws.cloud2.influxdata.com/api/v2
-  baseurl_source: declared
-  description: The RemoteConnections API from InfluxData — 2 operation(s) for remoteconnections.
-  name: InfluxData RemoteConnections API
-  slug: influxdata-remoteconnections-api
 - baseURL: https://us-east-1-1.aws.cloud2.influxdata.com/api/v2
   baseurl_source: declared
   description: The Replications API from InfluxData — 3 operation(s) for replications.
@@ -204,11 +194,6 @@ apis:
   description: The Setup API from InfluxData — 2 operation(s) for setup.
   name: InfluxData Setup API
   slug: influxdata-setup-api
-- baseURL: https://us-east-1-1.aws.cloud2.influxdata.com/api/v2
-  baseurl_source: declared
-  description: The Signin API from InfluxData — 1 operation(s) for signin.
-  name: InfluxData Signin API
-  slug: influxdata-signin-api
 - baseURL: https://us-east-1-1.aws.cloud2.influxdata.com/api/v2
   baseurl_source: declared
   description: The Signout API from InfluxData — 1 operation(s) for signout.
@@ -269,6 +254,21 @@ apis:
   description: Write time series data to [buckets](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#bucket).
   name: InfluxData Write API
   slug: influxdata-write-api
+- baseURL: https://us-east-1-1.aws.cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Notification Rules API from InfluxData — 4 operation(s) for notification rules.
+  name: InfluxData Notification Rules API
+  slug: influxdata-notification-rules-api
+- baseURL: https://us-east-1-1.aws.cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Remote Connections API from InfluxData — 2 operation(s) for remote connections.
+  name: InfluxData Remote Connections API
+  slug: influxdata-remote-connections-api
+- baseURL: https://us-east-1-1.aws.cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Sign In API from InfluxData — 1 operation(s) for sign in.
+  name: InfluxData Sign In API
+  slug: influxdata-sign-in-api
 artifact_total: 96
 collections:
 - collection_type: open
@@ -589,24 +589,24 @@ overview: 'InfluxData publishes 45 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   InfluxData''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
-random_paper: 1
+random_paper: 16
 score:
   band: developing
-  composite: 50.5
+  composite: 52.3
   coverage:
     artifact_dirs: 20
-    catalog_earned: 24.0
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 91.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 51.6
     developer_ergonomics: 73.2
-    discoverability: 51.9
+    discoverability: 70.4
     operational_transparency: 44.7
   previous_composite: 50.5
   provenance:
@@ -620,7 +620,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

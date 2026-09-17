@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Alpen''s public JSON-RPC interface exposed by the full node and bundler on the Alpen Testnet (chain ID 8150, Signet BTC). Supports standard Ethereum eth_* methods, twenty-five Strata-specific strata_* '
@@ -40,6 +40,10 @@ apis:
   slug: alpen-testnet-json-rpc
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://alpenlabs.io
 - group: start
   title: ''
   type: DeveloperPortal
@@ -116,15 +120,15 @@ created: '2026-07-17'
 description: 'Alpen Labs is a Bitcoin infrastructure company building Alpen (formerly Strata), an EVM-compatible zero-knowledge validity rollup on Bitcoin that lets developers deploy standard Solidity smart contracts and applications settled to the Bitcoin base layer. The developer surface is a public JSON-RPC interface: an Ethereum-compatible full node exposing standard eth_* methods, twenty-five Strata-specific strata_* methods, and an ERC-4337 account-abstraction bundler (EIP-7769). Developers get a testnet (chain ID 8150, Signet BTC), a PoW faucet, a block/checkpoint explorer, and the first-party Rust alpen CLI for wallet, deposit, withdraw and bridge operations. Backed by Ribbit Capital.'
 image: https://cdn.prod.website-files.com/67cfca80708eb505376820af/68401b6ec3fbeab26b54650f_OpenGAlpen.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-16'
 name: Alpen Labs
 nav: Providers
 network: true
 overview: 'Alpen Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Bitcoin, Blockchain, and Rollup.
 
 
-  Alpen Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 9 more developer resources.'
-random_paper: 4
+  Alpen Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 10 more developer resources.'
+random_paper: 1
 score:
   band: emerging
   composite: 23.4
@@ -147,7 +151,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -175,5 +179,5 @@ tags:
 - JSON-RPC
 - Web3
 - Smart Contracts
-website: https://docs.alpenlabs.io/
+website: https://alpenlabs.io
 ---

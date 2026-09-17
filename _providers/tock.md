@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.exploretock.com
@@ -632,7 +632,7 @@ plans:
 - name: Tock Plans Pricing
   plan_count: 2
   slug: tock-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Tock Rate Limits
@@ -668,7 +668,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 37.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

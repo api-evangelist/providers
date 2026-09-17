@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: amazon-kendra-experience-api
 - baseURL: https://kendra.amazonaws.com
   baseurl_source: declared
-  description: Operations for managing FAQ entries
-  name: Amazon Kendra FAQs API
-  slug: amazon-kendra-faqs-api
-- baseURL: https://kendra.amazonaws.com
-  baseurl_source: declared
   description: Operations for creating and managing search indexes
   name: Amazon Kendra Indexes API
   slug: amazon-kendra-indexes-api
@@ -85,6 +80,11 @@ apis:
   description: Operations for managing custom synonyms
   name: Amazon Kendra Thesaurus API
   slug: amazon-kendra-thesaurus-api
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing FAQ entries
+  name: Amazon Kendra FA Qs API
+  slug: amazon-kendra-faqs-api
 arazzos:
 - description: Load an FAQ file from S3 into an index, wait until it is active, then query for FAQ-backed answers.
   name: Amazon Kendra Create FAQ and Query
@@ -158,6 +158,10 @@ collections:
   name: Amazon Kendra API
   slug: open-amazon-kendra
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/agentic-access/amazon-kendra-agentic-access.yml
   title: ''
@@ -390,7 +394,7 @@ jsonld:
   property_count: 16
   slug: amazon-kendra-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Kendra
 nav: Providers
 network: true
@@ -400,12 +404,12 @@ overview: 'Amazon Kendra publishes 8 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Kendra catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Kendra''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 29 more developer resources.'
+  Amazon Kendra''s developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 30 more developer resources.'
 plans:
 - name: Amazon Kendra Plans Pricing
   plan_count: 3
   slug: amazon-kendra-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Amazon Kendra Rate Limits
@@ -459,7 +463,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -500,5 +504,5 @@ use_cases:
   name: Generative AI Applications
 - description: Index and search across multiple heterogeneous data sources to create a unified knowledge search experience.
   name: Enterprise Knowledge Management
-website: https://aws.amazon.com/kendra/
+website: https://amazon.com
 ---

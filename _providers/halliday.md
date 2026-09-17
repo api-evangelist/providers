@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ overview: 'Halliday publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Halliday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, sandbox, and 23 more developer resources.'
-random_paper: 0
+random_paper: 4
 score:
   band: developing
   composite: 50.9
@@ -275,7 +275,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -298,7 +298,7 @@ tags:
 - Blockchain
 - Web3
 - On-Ramp
-- Swaps
+- Swap
 - DeFi
 - Agentic Workflows
 - Fintech

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -147,14 +147,14 @@ modified: '2026-05-23'
 name: Standard Industries
 nav: Providers
 network: true
-overview: 'Standard Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Building Materials, Chemicals, Industrial Holding, Investments, and Logistics.
+overview: 'Standard Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Building Materials, Chemicals, Industrial Holding, Investment, and Logistics.
 
 
   The Standard Industries catalog on APIs.io includes 1 JSON-LD context.
 
 
   Standard Industries'' developer surface includes developer portal, documentation, engineering blog, GitHub presence, and 20 more developer resources.'
-random_paper: 18
+random_paper: 12
 score:
   band: emerging
   composite: 16.9
@@ -180,7 +180,7 @@ score:
     - north-america
   previous_composite: 16.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -197,7 +197,7 @@ tags:
 - Building Materials
 - Chemicals
 - Industrial Holding
-- Investments
+- Investment
 - Logistics
 - Manufacturing
 - Performance Materials

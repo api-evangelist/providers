@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,121 +32,116 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.8
-  scored_at: '2026-09-15'
-api_count: 22
+  score: 23.0
+  scored_at: '2026-09-16'
+api_count: 21
 apis:
 - baseURL: https://api.themoviedb.org
   baseurl_source: declared
-  description: The full TMDB REST API surface (v3). Covers movies, TV series, seasons, episodes, people, credits, images, collections, companies, networks, keywords, genres, reviews, lists, certifications, find, tre
-  name: TMDB API
-  slug: tmdb-api
-- baseURL: https://api.themoviedb.org/3
-  baseurl_source: declared
   description: The Account API from The Movie Database — 11 operation(s) for account.
   name: The Movie Database Account API
-  slug: the-movie-database-account-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-account-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Authentication API from The Movie Database — 7 operation(s) for authentication.
   name: The Movie Database Authentication API
-  slug: the-movie-database-authentication-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-authentication-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Certification API from The Movie Database — 2 operation(s) for certification.
   name: The Movie Database Certification API
-  slug: the-movie-database-certification-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-certification-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Collection API from The Movie Database — 3 operation(s) for collection.
   name: The Movie Database Collection API
-  slug: the-movie-database-collection-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-collection-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Company API from The Movie Database — 3 operation(s) for company.
   name: The Movie Database Company API
-  slug: the-movie-database-company-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-company-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Configuration API from The Movie Database — 6 operation(s) for configuration.
   name: The Movie Database Configuration API
-  slug: the-movie-database-configuration-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-configuration-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Credit API from The Movie Database — 1 operation(s) for credit.
   name: The Movie Database Credit API
-  slug: the-movie-database-credit-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-credit-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Discover API from The Movie Database — 2 operation(s) for discover.
   name: The Movie Database Discover API
-  slug: the-movie-database-discover-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-discover-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Find API from The Movie Database — 1 operation(s) for find.
   name: The Movie Database Find API
-  slug: the-movie-database-find-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-find-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Genre API from The Movie Database — 2 operation(s) for genre.
   name: The Movie Database Genre API
-  slug: the-movie-database-genre-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-genre-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Guest Session API from The Movie Database — 3 operation(s) for guest session.
   name: The Movie Database Guest Session API
-  slug: the-movie-database-guest-session-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-guest-session-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Keyword API from The Movie Database — 2 operation(s) for keyword.
   name: The Movie Database Keyword API
-  slug: the-movie-database-keyword-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-keyword-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The List API from The Movie Database — 6 operation(s) for list.
   name: The Movie Database List API
-  slug: the-movie-database-list-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-list-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Movie API from The Movie Database — 23 operation(s) for movie.
   name: The Movie Database Movie API
-  slug: the-movie-database-movie-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-movie-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Network API from The Movie Database — 3 operation(s) for network.
   name: The Movie Database Network API
-  slug: the-movie-database-network-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-network-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Person API from The Movie Database — 12 operation(s) for person.
   name: The Movie Database Person API
-  slug: the-movie-database-person-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-person-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Review API from The Movie Database — 1 operation(s) for review.
   name: The Movie Database Review API
-  slug: the-movie-database-review-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-review-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Search API from The Movie Database — 7 operation(s) for search.
   name: The Movie Database Search API
-  slug: the-movie-database-search-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-search-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Trending API from The Movie Database — 4 operation(s) for trending.
   name: The Movie Database Trending API
-  slug: the-movie-database-trending-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-trending-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Tv API from The Movie Database — 46 operation(s) for tv.
   name: The Movie Database Tv API
-  slug: the-movie-database-tv-api
-- baseURL: https://api.themoviedb.org/3
+  slug: tmdb-tv-api
+- baseURL: https://api.themoviedb.org
   baseurl_source: declared
   description: The Watch API from The Movie Database — 3 operation(s) for watch.
   name: The Movie Database Watch API
-  slug: the-movie-database-watch-api
-artifact_total: 476
+  slug: tmdb-watch-api
+artifact_total: 475
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/security/tmdb-domain-security.yml
@@ -1652,7 +1647,7 @@ modified: '2026-05-30'
 name: The Movie Database
 nav: Providers
 network: true
-overview: 'The Movie Database publishes 22 APIs on the [APIs.io](https://apis.io/) network, including TMDB API, Account API, Authentication API, and 19 more. Tagged areas include Catalog, Discovery, Entertainment, Image, and Media.
+overview: 'The Movie Database publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Certification API, and 18 more. Tagged areas include Catalog, Discovery, Entertainment, Image, and Media.
 
 
   The The Movie Database catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1663,7 +1658,7 @@ plans:
 - name: Tmdb Plans Pricing
   plan_count: 2
   slug: tmdb-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Tmdb Rate Limits
@@ -1692,7 +1687,7 @@ rules:
   slug: tmdb-rules
 score:
   band: strong
-  composite: 56.0
+  composite: 55.9
   coverage:
     artifact_dirs: 13
     catalog_earned: 83.5
@@ -1700,11 +1695,11 @@ score:
     catalog_gap: 31.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 63.2
     contract_governance: 28.8
-    contract_quality: 60.9
+    contract_quality: 60.5
     developer_ergonomics: 45.2
     discoverability: 81.5
     operational_transparency: 63.2
@@ -1716,7 +1711,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

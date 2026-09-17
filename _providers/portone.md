@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 34
@@ -49,11 +49,6 @@ apis:
 - description: Legacy V1 (Iamport) REST API on api.iamport.kr — token-authenticated (POST /users/getToken with imp_key/imp_secret) payment lookup, cancellation, non-authenticated and scheduled payments, virtual acco
   name: PortOne REST API (V1, legacy Iamport)
   slug: portone-rest-api-v1
-- baseURL: https://api.portone.io
-  baseurl_source: declared
-  description: The B2b API from PortOne — 26 operation(s) for b2b.
-  name: PortOne B2b API
-  slug: portone-b2b-api
 - baseURL: https://api.portone.io
   baseurl_source: declared
   description: The Banks API from PortOne — 1 operation(s) for banks.
@@ -144,6 +139,11 @@ apis:
   description: The Token API from PortOne — 1 operation(s) for token.
   name: PortOne Token API
   slug: portone-token-api
+- baseURL: https://api.iamport.kr
+  baseurl_source: declared
+  description: The B2 B API from PortOne — 26 operation(s) for b2 b.
+  name: PortOne B2 B API
+  slug: portone-b2-b-api
 artifact_total: 69
 asyncapis:
 - description: ''
@@ -461,7 +461,7 @@ modified: '2026-07-17'
 name: PortOne
 nav: Providers
 network: true
-overview: 'PortOne publishes 19 APIs on the [APIs.io](https://apis.io/) network, including B2b API, Banks API, Billing Keys API, and 16 more. Tagged areas include Payments, Payment Orchestration, Fintech, Korea, and Billing.
+overview: 'PortOne publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Banks API, Billing Keys API, Cash Receipts API, and 16 more. Tagged areas include Payments, Payment Orchestration, Fintech, South Korea, and Billing.
 
 
   The PortOne catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -472,7 +472,7 @@ plans:
 - name: Portone Plans Pricing
   plan_count: 3
   slug: portone-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Portone Rate Limits
@@ -520,7 +520,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -548,7 +548,7 @@ tags:
 - Payments
 - Payment Orchestration
 - Fintech
-- Korea
+- South Korea
 - Billing
 - Identity Verification
 website: https://portone.io/

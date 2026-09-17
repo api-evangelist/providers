@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - baseURL: https://developer.finalcad.cloud/api
@@ -362,7 +362,7 @@ plans:
 - name: Finalcad Plans Pricing
   plan_count: 0
   slug: finalcad-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Finalcad Rate Limits
@@ -381,7 +381,7 @@ score:
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 69.2
+    contract_quality: 69.1
     developer_ergonomics: 70.8
     discoverability: 74.1
     operational_transparency: 42.1
@@ -396,7 +396,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

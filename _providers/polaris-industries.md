@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: Polaris Industries is selling Indian Motorcycle
   url: https://www.ktiv.com/2025/10/14/polaris-industries-is-selling-indian-motorcycle/
-random_paper: 15
+random_paper: 13
 scopes:
 - name: Polaris Industries Scopes
   scope_count: 0
@@ -166,7 +166,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

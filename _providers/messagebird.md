@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -135,12 +135,7 @@ apis:
   description: Operations for managing conversation webhooks that receive real-time event notifications.
   name: messagebird Webhooks API
   slug: messagebird-webhooks-api
-- baseURL: https://rest.messagebird.com
-  baseurl_source: declared
-  description: Operations for sending and receiving WhatsApp messages through the Conversations API interface.
-  name: messagebird WhatsApp Messages API
-  slug: messagebird-whatsapp-messages-api
-artifact_total: 152
+artifact_total: 151
 asyncapis:
 - description: The MessageBird Conversations webhook system delivers real-time notifications for conversation events across all messaging channels including SMS, WhatsApp, Facebook Messenger, Telegram, and more. Web
   name: MessageBird Conversations Events
@@ -243,6 +238,10 @@ collections:
   name: MessageBird WhatsApp API
   slug: open-messagebird-whatsapp
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://messagebird.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/agentic-access/messagebird-agentic-access.yml
   title: ''
@@ -549,22 +548,22 @@ jsonld:
   property_count: 8
   slug: messagebird-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Messagebird
 nav: Providers
 network: true
-overview: 'Messagebird publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Available Numbers API, Balance API, Call Flows API, and 16 more.
+overview: 'Messagebird publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Available Numbers API, Balance API, Call Flows API, and 15 more.
 
 
   The Messagebird catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Messagebird''s developer surface includes authentication and 10 more developer resources.'
+  Messagebird''s developer surface includes authentication and 11 more developer resources.'
 plans:
 - name: Messagebird Plans Pricing
   plan_count: 6
   slug: messagebird-plans-pricing
-random_paper: 3
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Messagebird Rate Limits
@@ -605,7 +604,7 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 72.7
+    contract_quality: 72.6
     developer_ergonomics: 21.4
     discoverability: 57.4
     operational_transparency: 10.5
@@ -616,12 +615,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 18
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -641,4 +640,5 @@ security:
   slug: messagebird-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
 slug: messagebird
+website: https://messagebird.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Spear is a developer platform focused on API development workflows, providing tools for API design, collaboration, and delivery through a unified workspace experience.
@@ -91,7 +91,7 @@ plans:
 - name: Spear Plans Pricing
   plan_count: 3
   slug: spear-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Spear Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

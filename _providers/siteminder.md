@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: pmsXchange is SiteMinder's integration API for property management systems (PMS), revenue management systems (RMS), and central reservation systems (CRS) that need to synchronize rooms, rates, availab
@@ -52,6 +52,10 @@ apis:
   slug: direct-booking-api
 artifact_total: 40
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://siteminder.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/siteminder/refs/heads/main/security/siteminder-vulnerability-disclosure.yml
   title: ''
@@ -170,15 +174,15 @@ mcp_servers:
 - description: ''
   name: SiteMinder MCP Server
   slug: siteminder-mcp-server
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: SiteMinder
 nav: Providers
 network: true
 overview: 'SiteMinder publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Hotel Distribution, Channel Manager, Booking Engine, and Travel.
 
 
-  SiteMinder''s developer surface includes developer portal, getting-started guide, signup flow, pricing, support, FAQ, engineering blog, and 9 more developer resources.'
-random_paper: 5
+  SiteMinder''s developer surface includes developer portal, getting-started guide, signup flow, pricing, support, FAQ, engineering blog, and 10 more developer resources.'
+random_paper: 20
 score:
   band: thin
   composite: 29.2
@@ -199,7 +203,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 29.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -248,5 +252,5 @@ use_cases:
   name: Metasearch Publication
 - description: AI agents and assistants shop and book hotel inventory through the Channels Plus MCP server using Model Context Protocol tools.
   name: AI Agent Booking
-website: https://developer.siteminder.com/
+website: https://siteminder.com
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ plans:
 - name: Dimensions Plans Pricing
   plan_count: 0
   slug: dimensions-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Dimensions Rate Limits
@@ -317,7 +317,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -347,5 +347,6 @@ tags:
 - Datasets
 - Policy Documents
 - MCP
+- Research Data
 website: https://www.dimensions.ai/
 ---

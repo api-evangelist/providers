@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -335,6 +335,10 @@ collections:
   name: SAP Ariba Procurement Invoices Suppliers API
   slug: open-sap-ariba-suppliers-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sap.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/capabilities/sap-ariba-capability-edges.yml
   title: ''
@@ -900,7 +904,7 @@ jsonld:
   property_count: 0
   slug: sap-ariba-procurement-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: SAP Ariba
 nav: Providers
 network: true
@@ -910,12 +914,12 @@ overview: 'SAP Ariba publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The SAP Ariba catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SAP Ariba''s developer surface includes authentication, getting-started guide, support, release notes, developer portal, documentation, code examples, and 23 more developer resources.'
+  SAP Ariba''s developer surface includes authentication, getting-started guide, support, release notes, developer portal, documentation, code examples, and 24 more developer resources.'
 plans:
 - name: Sap Ariba Plans Pricing
   plan_count: 1
   slug: sap-ariba-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Sap Ariba Rate Limits
@@ -974,7 +978,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1011,5 +1015,5 @@ use_cases:
   name: Supplier Risk Management
 - description: Manage internal and external catalogs for guided buying experiences.
   name: Catalog Management
-website: https://developer.ariba.com
+website: https://sap.com
 ---

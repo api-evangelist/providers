@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: verified
     mcp_server: platform
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.5
-  scored_at: '2026-09-15'
+  score: 42.0
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 7
@@ -69,11 +69,6 @@ apis:
   slug: stigg-customers-api
 - baseURL: https://api.stigg.io
   baseurl_source: spec
-  description: Feature access and entitlement checks.
-  name: Stigg Entitlements API
-  slug: stigg-entitlements-api
-- baseURL: https://api.stigg.io
-  baseurl_source: spec
   description: Subscription lifecycle management.
   name: Stigg Subscriptions API
   slug: stigg-subscriptions-api
@@ -82,7 +77,7 @@ apis:
   description: Usage reporting and metering.
   name: Stigg Usage API
   slug: stigg-usage-api
-artifact_total: 55
+artifact_total: 54
 collections:
 - collection_type: open
   name: API Collection
@@ -264,7 +259,7 @@ modified: '2026-06-13'
 name: Stigg
 nav: Providers
 network: true
-overview: 'Stigg publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Coupons API, Customers API, Entitlements API, and 2 more. Tagged areas include FinOps, Pricing, Billing, Entitlements, and Usage-Based Billing.
+overview: 'Stigg publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Coupons API, Customers API, Subscriptions API, and 1 more. Tagged areas include FinOps, Pricing, Billing, Entitlements, and Usage-Based Billing.
 
 
   The Stigg catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -275,7 +270,7 @@ plans:
 - name: Stigg Plans Pricing
   plan_count: 3
   slug: stigg-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Stigg Rate Limits
@@ -327,10 +322,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

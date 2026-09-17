@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,11 +86,11 @@ modified: '2026-07-18'
 name: Clockster
 nav: Providers
 network: true
-overview: 'Clockster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR, Workforce Management, Time Tracking, and Attendance.
+overview: 'Clockster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Workforce Management, Time Tracking, and Attendance.
 
 
   Clockster''s developer surface includes signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 4
+random_paper: 2
 score:
   band: minimal
   composite: 8.5
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -126,7 +126,7 @@ security:
 slug: clockster
 tags:
 - Company
-- HR
+- Human Resources
 - Workforce Management
 - Time Tracking
 - Attendance

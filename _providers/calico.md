@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -77,19 +77,19 @@ apis:
   slug: calico-hostendpoint-api
 - baseURL: https://{kube_apiserver_host}/apis/projectcalico.org/v3
   baseurl_source: declared
-  description: The IPPool API from Calico — 2 operation(s) for ippool.
-  name: Calico IPPool API
-  slug: calico-ippool-api
-- baseURL: https://{kube_apiserver_host}/apis/projectcalico.org/v3
-  baseurl_source: declared
-  description: The NetworkPolicy API from Calico — 2 operation(s) for networkpolicy.
-  name: Calico NetworkPolicy API
-  slug: calico-networkpolicy-api
-- baseURL: https://{kube_apiserver_host}/apis/projectcalico.org/v3
-  baseurl_source: declared
   description: The Profile API from Calico — 2 operation(s) for profile.
   name: Calico Profile API
   slug: calico-profile-api
+- baseURL: https://{kube_apiserver_host}/apis/projectcalico.org/v3
+  baseurl_source: declared
+  description: The IP Pool API from Calico — 2 operation(s) for ip pool.
+  name: Calico IP Pool API
+  slug: calico-ip-pool-api
+- baseURL: https://{kube_apiserver_host}/apis/projectcalico.org/v3
+  baseurl_source: declared
+  description: The Network Policy API from Calico — 2 operation(s) for network policy.
+  name: Calico Network Policy API
+  slug: calico-network-policy-api
 artifact_total: 29
 collections:
 - collection_type: open
@@ -120,6 +120,16 @@ collections:
   name: Project Calico API (projectcalico.org/v3)
   slug: open-calico
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/overlays/calico-ippool-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/calico-ippool-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/overlays/calico-networkpolicy-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/calico-networkpolicy-api-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -390,12 +400,12 @@ network: true
 overview: 'Calico publishes 7 APIs on the [APIs.io](https://apis.io/) network, including BGPConfiguration API, BGPPeer API, GlobalNetworkPolicy API, and 4 more. Tagged areas include CNI, Containers, eBPF, Kubernetes, and Network Policy.
 
 
-  Calico''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, training material, CLI, and 48 more developer resources.'
+  Calico''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, training material, CLI, and 50 more developer resources.'
 plans:
 - name: Calico Plans Pricing
   plan_count: 3
   slug: calico-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Calico Rate Limits
@@ -444,7 +454,7 @@ score:
     regime_id: insurance
     score: 80.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

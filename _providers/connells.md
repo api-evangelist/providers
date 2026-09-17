@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,10 +86,10 @@ common:
   type: DomainSecurity
   url: security/connells-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/connells-website-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/openapi/_original/connells-website-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/connells-website-openapi.yml
+  url: openapi/_original/connells-website-openapi.yml
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/examples/_index.yml
   title: ''
@@ -240,7 +240,7 @@ examples:
   slug: connells-testimonials-response
 image: https://www.connellsgroup.co.uk/Assets/images/favicons/apple-icon-180x180.png
 layout: provider
-modified: '2026-07-26'
+modified: '2026-09-16'
 name: Connells Group
 nav: Providers
 network: true
@@ -248,7 +248,7 @@ overview: 'Connells Group publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 30 more developer resources.'
-random_paper: 1
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Connells Rate Limits
@@ -297,7 +297,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

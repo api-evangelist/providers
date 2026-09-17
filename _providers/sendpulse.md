@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 382
   human_in_the_loop: 7
@@ -850,7 +850,7 @@ plans:
 - name: Sendpulse Plans Pricing
   plan_count: 8
   slug: sendpulse-plans-pricing
-random_paper: 13
+random_paper: 11
 rate_limits:
 - limit_count: 9
   name: Sendpulse Rate Limits
@@ -900,7 +900,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ name: Kyte
 nav: Providers
 network: true
 overview: Kyte is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Transportation, Car Rental, and Vehicle Delivery.
-random_paper: 4
+random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyte/refs/heads/main/screenshots/kyte-2026-07-25T224402.png
 slug: kyte
 tags:

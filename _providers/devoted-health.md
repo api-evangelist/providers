@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
+- acting_count: 164
+  human_in_the_loop: 9
   name: Devoted Health Agentic Access
-  operation_count: 6
+  operation_count: 300
   slug: devoted-health-agentic-access
-  summary_line: 6 operations
+  summary_line: 300 operations · 164 acting · 9 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://api.prod.devoted.com/fhir
@@ -64,16 +64,6 @@ apis:
   description: The ExplanationOfBenefit API from Devoted Health — 1 operation(s) for explanationofbenefit.
   name: Devoted Health ExplanationOfBenefit API
   slug: devoted-health-explanationofbenefit-api
-- baseURL: https://api.prod.devoted.com/fhir
-  baseurl_source: declared
-  description: The HealthcareService FHIR resource type
-  name: Devoted Health HealthcareService API
-  slug: devoted-health-healthcareservice-api
-- baseURL: https://api.prod.devoted.com/fhir
-  baseurl_source: declared
-  description: The InsurancePlan FHIR resource type
-  name: Devoted Health InsurancePlan API
-  slug: devoted-health-insuranceplan-api
 - baseURL: https://api.prod.devoted.com/fhir
   baseurl_source: declared
   description: The List FHIR resource type
@@ -121,16 +111,6 @@ apis:
   slug: devoted-health-practitioner-api
 - baseURL: https://api.prod.devoted.com/fhir
   baseurl_source: declared
-  description: The PractitionerRole FHIR resource type
-  name: Devoted Health PractitionerRole API
-  slug: devoted-health-practitionerrole-api
-- baseURL: https://api.prod.devoted.com/fhir
-  baseurl_source: declared
-  description: The SearchParameter FHIR resource type
-  name: Devoted Health SearchParameter API
-  slug: devoted-health-searchparameter-api
-- baseURL: https://api.prod.devoted.com/fhir
-  baseurl_source: declared
   description: The StructureDefinition FHIR resource type
   name: Devoted Health StructureDefinition API
   slug: devoted-health-structuredefinition-api
@@ -155,6 +135,26 @@ apis:
 - description: Public FHIR R4 API for drug formulary information, based on the Da Vinci PDEX US Drug Formulary implementation guide.
   name: Plan Coverage & Formularies API
   slug: plan-coverage-formularies-api
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The HealthcareService FHIR resource type
+  name: Devoted Health Healthcare Service API
+  slug: devoted-health-healthcare-service-api
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The InsurancePlan FHIR resource type
+  name: Devoted Health Insurance Plan API
+  slug: devoted-health-insurance-plan-api
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The PractitionerRole FHIR resource type
+  name: Devoted Health Practitioner Role API
+  slug: devoted-health-practitioner-role-api
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The SearchParameter FHIR resource type
+  name: Devoted Health Search Parameter API
+  slug: devoted-health-search-parameter-api
 artifact_total: 49
 collections:
 - collection_type: open
@@ -485,7 +485,7 @@ overview: 'Devoted Health publishes 21 APIs on the [APIs.io](https://apis.io/) n
 
 
   Devoted Health''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, getting-started guide, and 45 more developer resources.'
-random_paper: 15
+random_paper: 14
 scopes:
 - name: Devoted Health Scopes
   scope_count: 14
@@ -493,7 +493,7 @@ scopes:
   summary_line: 14 scopes
 score:
   band: developing
-  composite: 47.6
+  composite: 49.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -501,11 +501,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 45.4
+    contract_quality: 51.5
     developer_ergonomics: 58.9
     discoverability: 81.5
     operational_transparency: 2.6
@@ -527,7 +527,7 @@ score:
     regime_id: health
     score: 70.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

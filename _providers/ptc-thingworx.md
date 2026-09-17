@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -197,11 +197,11 @@ jsonld:
   property_count: 27
   slug: ptc-thingworx-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: PTC ThingWorx
 nav: Providers
 network: true
-overview: 'PTC ThingWorx publishes 7 APIs on the [APIs.io](https://apis.io/) network, including WebSocket/AlwaysOn API, ptc-thingworx DataShapes API, ptc-thingworx Events API, and 4 more.
+overview: 'PTC ThingWorx publishes 7 APIs on the [APIs.io](https://apis.io/) network, including WebSocket/AlwaysOn API, ptc-thingworx DataShapes API, ptc-thingworx Events API, and 4 more. Tagged areas include Manufacturing, IoT, WebSocket, and CAD.
 
 
   The PTC ThingWorx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -212,7 +212,7 @@ plans:
 - name: Ptc Thingworx Plans Pricing
   plan_count: 1
   slug: ptc-thingworx-plans-pricing
-random_paper: 9
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Ptc Thingworx Rate Limits
@@ -270,11 +270,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -289,5 +286,10 @@ security:
   slug: ptc-thingworx-domain-security
   summary_line: TLSv1.3 · DMARC
 slug: ptc-thingworx
+tags:
+- Manufacturing
+- IoT
+- WebSocket
+- CAD
 website: https://www.ptc.com/en/technologies/iiot/thingworx-platform
 ---

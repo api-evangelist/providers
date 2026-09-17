@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 2
@@ -157,11 +157,6 @@ apis:
   slug: amazon-iot-core-dimensions-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
-  description: The DomainConfigurations API from Amazon IoT Core — 2 operation(s) for domainconfigurations.
-  name: Amazon IoT Core DomainConfigurations API
-  slug: amazon-iot-core-domainconfigurations-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
   description: The Dynamic Thing Groups API from Amazon IoT Core — 1 operation(s) for dynamic thing groups.
   name: Amazon IoT Core Dynamic Thing Groups API
   slug: amazon-iot-core-dynamic-thing-groups-api
@@ -217,11 +212,6 @@ apis:
   slug: amazon-iot-core-keys-and-certificate-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
-  description: The LoggingOptions API from Amazon IoT Core — 1 operation(s) for loggingoptions.
-  name: Amazon IoT Core LoggingOptions API
-  slug: amazon-iot-core-loggingoptions-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
   description: The Managed Job Templates API from Amazon IoT Core — 2 operation(s) for managed job templates.
   name: Amazon IoT Core Managed Job Templates API
   slug: amazon-iot-core-managed-job-templates-api
@@ -235,11 +225,6 @@ apis:
   description: The Mitigationactions API from Amazon IoT Core — 2 operation(s) for mitigationactions.
   name: Amazon IoT Core Mitigationactions API
   slug: amazon-iot-core-mitigationactions-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
-  description: The OtaUpdates API from Amazon IoT Core — 2 operation(s) for otaupdates.
-  name: Amazon IoT Core OtaUpdates API
-  slug: amazon-iot-core-otaupdates-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
   description: The Policies API from Amazon IoT Core — 4 operation(s) for policies.
@@ -372,19 +357,9 @@ apis:
   slug: amazon-iot-core-untag-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
-  description: The V2LoggingLevel API from Amazon IoT Core — 1 operation(s) for v2logginglevel.
-  name: Amazon IoT Core V2LoggingLevel API
-  slug: amazon-iot-core-v2logginglevel-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
   description: The V2LoggingLevel#targetType&targetName API from Amazon IoT Core — 1 operation(s) for v2logginglevel#targettype&targetname.
   name: Amazon IoT Core V2LoggingLevel#targetType&targetName API
   slug: amazon-iot-core-v2logginglevel-targettype-targetname-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
-  description: The V2LoggingOptions API from Amazon IoT Core — 1 operation(s) for v2loggingoptions.
-  name: Amazon IoT Core V2LoggingOptions API
-  slug: amazon-iot-core-v2loggingoptions-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
   description: The Violation Events#startTime&endTime API from Amazon IoT Core — 1 operation(s) for violation events#starttime&endtime.
@@ -395,6 +370,31 @@ apis:
   description: The Violations API from Amazon IoT Core — 1 operation(s) for violations.
   name: Amazon IoT Core Violations API
   slug: amazon-iot-core-violations-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Domain Configurations API from Amazon IoT Core — 2 operation(s) for domain configurations.
+  name: Amazon IoT Core Domain Configurations API
+  slug: amazon-iot-core-domain-configurations-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Logging Options API from Amazon IoT Core — 1 operation(s) for logging options.
+  name: Amazon IoT Core Logging Options API
+  slug: amazon-iot-core-logging-options-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The OTA Updates API from Amazon IoT Core — 2 operation(s) for ota updates.
+  name: Amazon IoT Core OTA Updates API
+  slug: amazon-iot-core-ota-updates-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2 Logging Level API from Amazon IoT Core — 1 operation(s) for v2 logging level.
+  name: Amazon IoT Core V2 Logging Level API
+  slug: amazon-iot-core-v2-logging-level-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2 Logging Options API from Amazon IoT Core — 1 operation(s) for v2 logging options.
+  name: Amazon IoT Core V2 Logging Options API
+  slug: amazon-iot-core-v2-logging-options-api
 artifact_total: 836
 collections:
 - collection_type: postman
@@ -2780,7 +2780,7 @@ plans:
 - name: Amazon Iot Core Plans Pricing
   plan_count: 3
   slug: amazon-iot-core-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Core Rate Limits
@@ -2821,7 +2821,7 @@ score:
   facets:
     access_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 71.0
+    contract_quality: 70.8
     developer_ergonomics: 58.3
     discoverability: 53.7
     operational_transparency: 26.3
@@ -2834,7 +2834,7 @@ score:
       marker_coverage: 0.0
       total: 70
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

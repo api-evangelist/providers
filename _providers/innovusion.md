@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A live, OAuth-gated Model Context Protocol endpoint served from Seyond's own corporate host at https://seyond.com/wp-json/mcp/mcp-oauth-server. It is provided by the WordPress MCP adapter running on s
@@ -196,7 +196,7 @@ plans:
 - name: Innovusion Plans Pricing
   plan_count: 0
   slug: innovusion-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Innovusion Rate Limits
@@ -229,7 +229,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

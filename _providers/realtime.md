@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 26
 apis:
 - description: A full-duplex communication protocol over a single TCP connection, standardized by the IETF as RFC 6455 and defined in the WHATWG WebSocket API on the client side. WebSocket is the most widely deploye
@@ -228,7 +228,7 @@ overview: 'Realtime publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   Realtime''s developer surface includes developer portal, GitHub presence, code examples, and 7 more developer resources.'
-random_paper: 11
+random_paper: 15
 rules:
 - effective_rule_count: 5
   extends: []
@@ -260,7 +260,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

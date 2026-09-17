@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -202,7 +202,7 @@ overview: 'Niyo Solutions is profiled on the [APIs.io](https://apis.io/) network
 
 
   Niyo Solutions'' developer surface includes legal docs, privacy policy, engineering blog, YouTube channel, and 34 more developer resources.'
-random_paper: 9
+random_paper: 4
 score:
   band: minimal
   composite: 4.8
@@ -236,7 +236,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -257,8 +257,8 @@ tags:
 - Forex Card
 - Zero Forex Markup
 - Multi-Currency
-- Prepaid Card
-- Debit Card
+- Prepaid Cards
+- Debit Cards
 - Secured Credit Card
 - Savings Account
 - Outbound Remittance

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,14 +51,14 @@ apis:
   slug: google-cloud-composer-environments-api
 - baseURL: https://composer.googleapis.com
   baseurl_source: declared
-  description: Operations for listing available image versions
-  name: Google Cloud Composer ImageVersions API
-  slug: google-cloud-composer-imageversions-api
-- baseURL: https://composer.googleapis.com
-  baseurl_source: declared
   description: Long-running operation management
   name: Google Cloud Composer Operations API
   slug: google-cloud-composer-operations-api
+- baseURL: https://composer.googleapis.com
+  baseurl_source: declared
+  description: Operations for listing available image versions
+  name: Google Cloud Composer image versions API
+  slug: google-cloud-composer-image-versions-api
 artifact_total: 22
 collections:
 - collection_type: postman
@@ -185,7 +185,7 @@ modified: '2026-05-19'
 name: Google Cloud Composer
 nav: Providers
 network: true
-overview: 'Google Cloud Composer publishes 3 APIs on the [APIs.io](https://apis.io/) network: Environments API, ImageVersions API, and Operations API. Tagged areas include Apache Airflow, Data Pipeline, Google Cloud, and Workflow Orchestration.
+overview: 'Google Cloud Composer publishes 3 APIs on the [APIs.io](https://apis.io/) network: Environments API, Operations API, and image versions API. Tagged areas include Apache Airflow, Data Pipeline, Google Cloud, and Workflow Orchestration.
 
 
   The Google Cloud Composer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -196,7 +196,7 @@ plans:
 - name: Google Cloud Composer Plans Pricing
   plan_count: 3
   slug: google-cloud-composer-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Google Cloud Composer Rate Limits
@@ -244,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

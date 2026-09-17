@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: Create new orders and update, cancel, or get information about existing outbound B2C orders. Includes shipment details such as shipping box dimensions, contents, and tracking information.
@@ -162,7 +162,7 @@ plans:
 - name: Shipwire Plans Pricing
   plan_count: 1
   slug: shipwire-plans-pricing
-random_paper: 14
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Shipwire Rate Limits
@@ -193,7 +193,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -216,6 +216,6 @@ tags:
 - Inventory
 - Order
 - Returns
-- Carriers
+- Carrier
 website: https://www.shipwire.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Read-only API to retrieve compliance reports and their associated files for your fleet, exposed through the Fleetworthy Compliance API portal (Azure API Management).
@@ -135,7 +135,7 @@ overview: 'Fleetworthy publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fleetworthy''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 11 more developer resources.'
-random_paper: 16
+random_paper: 3
 score:
   band: thin
   composite: 33.3
@@ -156,7 +156,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

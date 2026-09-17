@@ -24,7 +24,7 @@ name: myBOX
 nav: Providers
 network: true
 overview: myBOX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Self Storage, On-Demand Storage, Logistics, and Consumer.
-random_paper: 13
+random_paper: 9
 slug: mybox
 tags:
 - Company

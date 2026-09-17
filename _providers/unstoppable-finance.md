@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.iron.xyz/api
@@ -60,29 +60,29 @@ apis:
   slug: unstoppable-finance-customer-api
 - baseURL: https://api.iron.xyz/api
   baseurl_source: declared
-  description: Operations on Exchange Rate
-  name: Unstoppable Finance (Iron) ExchangeRate API
-  slug: unstoppable-finance-exchangerate-api
-- baseURL: https://api.iron.xyz/api
-  baseurl_source: declared
-  description: Operations on Fee Profiles
-  name: Unstoppable Finance (Iron) FeeProfiles API
-  slug: unstoppable-finance-feeprofiles-api
-- baseURL: https://api.iron.xyz/api
-  baseurl_source: declared
   description: Operations for Sandbox Testing
   name: Unstoppable Finance (Iron) Sandbox API
   slug: unstoppable-finance-sandbox-api
 - baseURL: https://api.iron.xyz/api
   baseurl_source: declared
-  description: Operations on Terms and Conditions
-  name: Unstoppable Finance (Iron) TermsAndConditions API
-  slug: unstoppable-finance-termsandconditions-api
-- baseURL: https://api.iron.xyz/api
-  baseurl_source: declared
   description: Operations on Webhooks
   name: Unstoppable Finance (Iron) Webhooks API
   slug: unstoppable-finance-webhooks-api
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Exchange Rate
+  name: Unstoppable Finance (Iron) Exchange Rate API
+  slug: unstoppable-finance-exchange-rate-api
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Fee Profiles
+  name: Unstoppable Finance (Iron) Fee Profiles API
+  slug: unstoppable-finance-fee-profiles-api
+- baseURL: https://api.iron.xyz/api
+  baseurl_source: declared
+  description: Operations on Terms and Conditions
+  name: Unstoppable Finance (Iron) Terms And Conditions API
+  slug: unstoppable-finance-terms-and-conditions-api
 artifact_total: 33
 asyncapis:
 - description: ''
@@ -314,7 +314,7 @@ overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://
 
 
   Unstoppable Finance (Iron)''s developer surface includes documentation, getting-started guide, authentication, sandbox, CLI, support, pricing, and 26 more developer resources.'
-random_paper: 13
+random_paper: 8
 score:
   band: strong
   composite: 57.8
@@ -354,7 +354,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

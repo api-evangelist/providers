@@ -25,7 +25,7 @@ name: FlightCar
 nav: Providers
 network: true
 overview: FlightCar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Transportation, Travel, and Automotive.
-random_paper: 3
+random_paper: 2
 security:
 - kind: domain-security
   name: Flightcar Domain Security

@@ -104,7 +104,7 @@ plans:
 - name: Solar Mosaic Plans Pricing
   plan_count: 0
   slug: solar-mosaic-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Solar Mosaic Rate Limits

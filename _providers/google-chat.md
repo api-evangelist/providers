@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -45,13 +45,8 @@ api_count: 1
 apis:
 - baseURL: https://chat.googleapis.com
   baseurl_source: declared
-  description: The customEmojis API from Google Chat — 1 operation(s) for customemojis.
-  name: Google Chat customEmojis API
-  slug: google-chat-customemojis-api
-- baseURL: https://chat.googleapis.com
-  baseurl_source: declared
   description: The Google Chat API API from Google Chat — 1 operation(s) for google chat api.
-  name: Google Chat Google Chat API API
+  name: Google Chat Google Chat API
   slug: google-chat-google-chat-api-api
 - baseURL: https://chat.googleapis.com
   baseurl_source: declared
@@ -78,6 +73,11 @@ apis:
   description: The Spaces:setup API from Google Chat — 1 operation(s) for spaces:setup.
   name: Google Chat Spaces:setup API
   slug: google-chat-spaces-setup-api
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Custom Emojis API from Google Chat — 1 operation(s) for custom emojis.
+  name: Google Chat Custom Emojis API
+  slug: google-chat-custom-emojis-api
 artifact_total: 31
 collections:
 - collection_type: postman
@@ -210,11 +210,11 @@ jsonld:
   property_count: 4
   slug: json-ld
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Chat
 nav: Providers
 network: true
-overview: 'Google Chat publishes 7 APIs on the [APIs.io](https://apis.io/) network, including customEmojis API, Google Chat API API, Members API, and 4 more. Tagged areas include Chat, Collaboration, Google, Google Workspace, and Messaging.
+overview: 'Google Chat publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Google Chat API, Members API, Messages API, and 4 more. Tagged areas include Chat, Collaboration, Google, Google Workspace, and Messaging.
 
 
   The Google Chat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -225,7 +225,7 @@ plans:
 - name: Google Chat Plans Pricing
   plan_count: 3
   slug: google-chat-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Google Chat Rate Limits
@@ -268,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -290,6 +290,6 @@ tags:
 - Google
 - Google Workspace
 - Messaging
-- Spaces
+- Space
 website: https://www.google.com/
 ---

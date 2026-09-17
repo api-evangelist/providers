@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: The Zonos Graph is the company's supported integration surface — a single GraphQL endpoint covering landed cost, classification, country of origin, export control, item and party restriction screening
@@ -136,7 +136,7 @@ overview: 'Zonos publishes 6 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Zonos'' developer surface includes documentation, API reference, authentication, pricing, signup flow, developer portal, engineering blog, and 12 more developer resources.'
-random_paper: 2
+random_paper: 19
 score:
   band: emerging
   composite: 25.1
@@ -170,7 +170,7 @@ score:
       reason: never_enriched
   previous_composite: 25.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

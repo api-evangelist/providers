@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 8
@@ -160,11 +160,6 @@ apis:
   slug: websphere-notifications-api
 - baseURL: https://localhost:9443/ibm/api
   baseurl_source: declared
-  description: MicroProfile OpenAPI documentation endpoints
-  name: IBM WebSphere OpenAPI API
-  slug: websphere-openapi-api
-- baseURL: https://localhost:9443/ibm/api
-  baseurl_source: declared
   description: Queue manager administration
   name: IBM WebSphere Queue Manager API
   slug: websphere-queue-manager-api
@@ -218,6 +213,11 @@ apis:
   description: Security vulnerability tracking and remediation
   name: IBM WebSphere Vulnerabilities API
   slug: websphere-vulnerabilities-api
+- baseURL: service:jmx:rmi:///jndi/rmi://localhost:2809/jmxrmi
+  baseurl_source: declared
+  description: MicroProfile OpenAPI documentation endpoints
+  name: IBM WebSphere Open API
+  slug: websphere-open-api-api
 arazzos:
 - description: Deploy an application archive, confirm it installed, and start it.
   name: WebSphere Deploy and Start Application
@@ -1760,7 +1760,7 @@ plans:
 - name: Websphere Plans Pricing
   plan_count: 1
   slug: websphere-plans-pricing
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Websphere Rate Limits
@@ -1814,7 +1814,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

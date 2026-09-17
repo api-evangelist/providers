@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -67,18 +67,18 @@ apis:
 - baseURL: https://your-kubeflow-host/pipeline
   baseurl_source: declared
   description: Manage pipeline definitions
-  name: Kubeflow Pipelines Pipelines API
+  name: Kubeflow Pipelines API
   slug: kubeflow-pipelines-pipelines-api
-- baseURL: https://your-kubeflow-host/pipeline
-  baseurl_source: declared
-  description: Manage versions of pipelines
-  name: Kubeflow Pipelines PipelineVersions API
-  slug: kubeflow-pipelines-pipelineversions-api
 - baseURL: https://your-kubeflow-host/pipeline
   baseurl_source: declared
   description: Pipeline runs
   name: Kubeflow Pipelines Runs API
   slug: kubeflow-pipelines-runs-api
+- baseURL: https://pypi.org/project/kfp/
+  baseurl_source: declared
+  description: Manage versions of pipelines
+  name: Kubeflow Pipelines Pipeline Versions API
+  slug: kubeflow-pipelines-pipeline-versions-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -182,11 +182,11 @@ finops:
   slug: kubeflow-pipelines-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kubeflow-pipelines.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Kubeflow Pipelines
 nav: Providers
 network: true
-overview: 'Kubeflow Pipelines publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Experiments API, Health API, Pipelines API, and 2 more. Tagged areas include Data Science, Kubernetes, Machine-Learning, MLOps, and Orchestration.
+overview: 'Kubeflow Pipelines publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Experiments API, Health API, and 3 more. Tagged areas include Data Science, Kubernetes, Machine-Learning, MLOps, and Orchestration.
 
 
   Kubeflow Pipelines'' developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 12 more developer resources.'
@@ -194,7 +194,7 @@ plans:
 - name: Kubeflow Pipelines Plans Pricing
   plan_count: 3
   slug: kubeflow-pipelines-plans-pricing
-random_paper: 8
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Kubeflow Pipelines Rate Limits
@@ -229,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

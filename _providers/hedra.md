@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ overview: 'Hedra publishes 1 API on the [APIs.io](https://apis.io/) network: Pub
 
 
   Hedra''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 28 more developer resources.'
-random_paper: 12
+random_paper: 10
 score:
   band: developing
   composite: 48.5
@@ -282,7 +282,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 20
@@ -45,14 +45,10 @@ agentic_access:
   summary_line: 191 operations · 119 acting · 20 human-in-the-loop
 api_count: 3
 apis:
-- baseURL: https://api-ar.agstack.org
-  baseurl_source: spec
-  description: The api API from AgStack Foundation — 57 operation(s) for api.
-  name: AgStack Foundation api API
+- description: The api API from AgStack Foundation — 57 operation(s) for api.
+  name: AgStack Foundation api
   slug: agstack-api-api
-- baseURL: https://api-ar.agstack.org
-  baseurl_source: spec
-  description: The Auth API from AgStack Foundation — 2 operation(s) for auth.
+- description: The Auth API from AgStack Foundation — 2 operation(s) for auth.
   name: AgStack Foundation Auth API
   slug: agstack-auth-api
 - baseURL: https://api-ar.agstack.org
@@ -60,9 +56,7 @@ apis:
   description: The Authentication API from AgStack Foundation — 1 operation(s) for authentication.
   name: AgStack Foundation Authentication API
   slug: agstack-authentication-api
-- baseURL: https://api-ar.agstack.org
-  baseurl_source: spec
-  description: The Data API from AgStack Foundation — 6 operation(s) for data.
+- description: The Data API from AgStack Foundation — 6 operation(s) for data.
   name: AgStack Foundation Data API
   slug: agstack-data-api
 - baseURL: https://api-ar.agstack.org
@@ -75,9 +69,7 @@ apis:
   description: The Field Retrieval & Queries API from AgStack Foundation — 4 operation(s) for field retrieval & queries.
   name: AgStack Foundation Field Retrieval & Queries API
   slug: agstack-field-retrieval-queries-api
-- baseURL: https://api-ar.agstack.org
-  baseurl_source: spec
-  description: The Linkeddata API from AgStack Foundation — 5 operation(s) for linkeddata.
+- description: The Linkeddata API from AgStack Foundation — 5 operation(s) for linkeddata.
   name: AgStack Foundation Linkeddata API
   slug: agstack-linkeddata-api
 artifact_total: 267
@@ -887,11 +879,11 @@ jsonld:
   property_count: 6
   slug: agstack-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: AgStack Foundation
 nav: Providers
 network: true
-overview: 'AgStack Foundation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api API, Auth API, Authentication API, and 4 more. Tagged areas include Agriculture, Linux Foundation, Open-Source, Geospatial, and Precision Agriculture.
+overview: 'AgStack Foundation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Authentication API, and 5 more. Tagged areas include Agriculture, Linux Foundation, Open-Source, Geospatial, and Precision Agriculture.
 
 
   The AgStack Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -902,7 +894,7 @@ plans:
 - name: Agstack Plans Pricing
   plan_count: 3
   slug: agstack-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Agstack Rate Limits
@@ -931,7 +923,7 @@ rules:
   slug: agstack-spectral-rules
 score:
   band: developing
-  composite: 40.9
+  composite: 40.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 68.5
@@ -939,11 +931,11 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 70.5
+    contract_quality: 69.1
     developer_ergonomics: 48.8
     discoverability: 59.3
     operational_transparency: 13.2
@@ -951,12 +943,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 42.9
       derived: 0
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

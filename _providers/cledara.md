@@ -33,18 +33,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.cledara.com
-  baseurl_source: declared
-  description: 'Cledara''s public REST API over your own workspace. As of 2026-09-05 it is three read-only GET operations: list applications (software subscriptions with status, owner, teams, budget, balance, next ren'
-  name: Cledara API
-  slug: cledara-api
 - description: Cledara's public SaaS and AI market dataset — market share, adoption, rank movement and spend benchmarks across 9,300+ software products, built from aggregated anonymized purchasing signals from compa
   name: Cledara SaaS Market Data Hub
   slug: cledara-saas-market-data-hub
-artifact_total: 11
+- baseURL: https://api.cledara.com
+  baseurl_source: declared
+  description: The Applications API from Cledara — 1 operation(s) for applications.
+  name: Cledara Applications API
+  slug: cledara-applications-api
+- baseURL: https://api.cledara.com
+  baseurl_source: declared
+  description: The Transactions API from Cledara — 2 operation(s) for transactions.
+  name: Cledara Transactions API
+  slug: cledara-transactions-api
+artifact_total: 12
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/security/cledara-trust-center.yml
@@ -234,7 +239,7 @@ modified: '2026-09-05'
 name: Cledara
 nav: Providers
 network: true
-overview: 'Cledara publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, SaaS Management, Software Spending, Spend Management, and Subscription Management.
+overview: 'Cledara publishes 2 APIs on the [APIs.io](https://apis.io/) network: Applications API and Transactions API. Tagged areas include Finance, SaaS Management, Software Spending, Spend Management, and Subscription Management.
 
 
   Cledara''s developer surface includes documentation, pricing, engineering blog, API reference, getting-started guide, support, signup flow, and 31 more developer resources.'
@@ -242,7 +247,7 @@ plans:
 - name: Cledara Plans Pricing
   plan_count: 3
   slug: cledara-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Cledara Rate Limits
@@ -254,7 +259,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.2
+  composite: 65.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 60.0
@@ -262,11 +267,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 50.3
+    contract_quality: 53.1
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 47.4
@@ -277,7 +282,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     mcp: first-party
     skills: derived
   regulatory:
@@ -287,7 +292,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

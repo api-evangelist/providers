@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 3
+- acting_count: 41
   human_in_the_loop: 0
   name: Cerner Agentic Access
-  operation_count: 11
+  operation_count: 135
   slug: cerner-agentic-access
-  summary_line: 11 operations · 3 acting
+  summary_line: 135 operations · 41 acting
 api_count: 54
 apis:
 - description: The Cerner Millennium DSTU2 FHIR API supports legacy SMART on FHIR applications and integrations with Meaningful Use 2015 CEHRT certification criteria, and remains available alongside the newer R4 imp
@@ -99,11 +99,6 @@ apis:
   slug: cerner-account-api
 - baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
   baseurl_source: declared
-  description: FHIR R4 AllergyIntolerance resource as implemented by Oracle Health Millennium Platform.
-  name: Oracle Health (Cerner) Allergy Intolerance API
-  slug: cerner-allergyintolerance-api
-- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
-  baseurl_source: declared
   description: FHIR R4 Appointment resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Appointment API
   slug: cerner-appointment-api
@@ -117,16 +112,6 @@ apis:
   description: FHIR R4 Binary resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Binary API
   slug: cerner-binary-api
-- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
-  baseurl_source: declared
-  description: FHIR R4 CapabilityStatement resource as implemented by Oracle Health Millennium Platform.
-  name: Oracle Health (Cerner) Capability Statement API
-  slug: cerner-capabilitystatement-api
-- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
-  baseurl_source: declared
-  description: FHIR R4 CarePlan resource as implemented by Oracle Health Millennium Platform.
-  name: Oracle Health (Cerner) Care Plan API
-  slug: cerner-careplan-api
 - baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
   baseurl_source: declared
   description: FHIR R4 CareTeam resource as implemented by Oracle Health Millennium Platform.
@@ -164,11 +149,6 @@ apis:
   slug: cerner-diagnosticreport-api
 - baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
   baseurl_source: declared
-  description: FHIR R4 DocumentReference resource as implemented by Oracle Health Millennium Platform.
-  name: Oracle Health (Cerner) Document Reference API
-  slug: cerner-documentreference-api
-- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
-  baseurl_source: declared
   description: Kick off a bulk export job.
   name: Oracle Health (Cerner) Export API
   slug: cerner-export-api
@@ -194,11 +174,6 @@ apis:
   slug: cerner-immunization-api
 - baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
   baseurl_source: declared
-  description: FHIR R4 InsurancePlan resource as implemented by Oracle Health Millennium Platform.
-  name: Oracle Health (Cerner) Insurance Plan API
-  slug: cerner-insuranceplan-api
-- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
-  baseurl_source: declared
   description: Poll and cancel bulk export jobs.
   name: Oracle Health (Cerner) Jobs API
   slug: cerner-jobs-api
@@ -214,19 +189,9 @@ apis:
   slug: cerner-media-api
 - baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
   baseurl_source: declared
-  description: FHIR R4 MedicationAdministration resource as implemented by Oracle Health Millennium Platform.
-  name: Oracle Health (Cerner) Medication Administration API
-  slug: cerner-medicationadministration-api
-- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
-  baseurl_source: declared
   description: FHIR R4 MedicationDispense resource as implemented by Oracle Health Millennium Platform.
   name: Oracle Health (Cerner) Medication Dispense API
   slug: cerner-medicationdispense-api
-- baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
-  baseurl_source: declared
-  description: FHIR R4 MedicationRequest resource as implemented by Oracle Health Millennium Platform.
-  name: Oracle Health (Cerner) Medication Request API
-  slug: cerner-medicationrequest-api
 - baseURL: https://fhir-ehr.cerner.com/r4/{tenant}
   baseurl_source: declared
   description: FHIR R4 NutritionOrder resource as implemented by Oracle Health Millennium Platform.
@@ -307,6 +272,41 @@ apis:
   description: 'System-level FHIR interactions: conformance metadata and batch.'
   name: Oracle Health (Cerner) System API
   slug: cerner-system-api
+- baseURL: https://fhir-ehr.cerner.com/dstu2/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 AllergyIntolerance resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Allergy Intolerance API
+  slug: cerner-allergy-intolerance-api
+- baseURL: https://fhir-ehr.cerner.com/dstu2/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 CapabilityStatement resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Capability Statement API
+  slug: cerner-capability-statement-api
+- baseURL: https://fhir-ehr.cerner.com/dstu2/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 CarePlan resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Care plan API
+  slug: cerner-care-plan-api
+- baseURL: https://fhir-ehr.cerner.com/dstu2/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 DocumentReference resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Document Reference API
+  slug: cerner-document-reference-api
+- baseURL: https://fhir-ehr.cerner.com/dstu2/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 InsurancePlan resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Insurance Plan API
+  slug: cerner-insurance-plan-api
+- baseURL: https://fhir-ehr.cerner.com/dstu2/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 MedicationAdministration resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Medication Administration API
+  slug: cerner-medication-administration-api
+- baseURL: https://fhir-ehr.cerner.com/dstu2/{tenant}
+  baseurl_source: declared
+  description: FHIR R4 MedicationRequest resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Medication Request API
+  slug: cerner-medication-request-api
 arazzos:
 - description: Locate a patient, create a FHIR resource against that patient, then update it by id.
   name: Cerner Oracle Health Clinical Resource Write-Back
@@ -595,7 +595,7 @@ press:
 - date: '2026-05-25'
   title: Oracle must stop kicking the Cerner can down the road— ...
   url: https://www.hfsresearch.com/research/oracle-kicking-cerner-decisive/
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Cerner Rate Limits
@@ -607,21 +607,21 @@ scopes:
   summary_line: 303 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.4
+  composite: 50.3
   coverage:
     artifact_dirs: 29
-    catalog_earned: 30.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 85.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 26.5
     developer_ergonomics: 68.5
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 18.4
   previous_composite: 48.4
   provenance:
@@ -641,7 +641,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

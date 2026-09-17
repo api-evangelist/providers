@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://packback.co
@@ -112,7 +112,7 @@ modified: '2026-06-21'
 name: Packback
 nav: Providers
 network: true
-overview: 'Packback publishes 3 APIs on the [APIs.io](https://apis.io/) network: Questions / Discussions, Writing / Deep Dives, and LTI Integration. Tagged areas include Education, EdTech, Artificial Intelligence, Discussion, and Writing Feedback.
+overview: 'Packback publishes 3 APIs on the [APIs.io](https://apis.io/) network: Questions / Discussions, Writing / Deep Dives, and LTI Integration. Tagged areas include Education, EdTech, Artificial Intelligence, Discussions, and Writing Feedback.
 
 
   Packback''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -120,7 +120,7 @@ plans:
 - name: Packback Plans Pricing
   plan_count: 3
   slug: packback-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Packback Rate Limits
@@ -151,7 +151,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -168,7 +168,7 @@ tags:
 - Education
 - EdTech
 - Artificial Intelligence
-- Discussion
+- Discussions
 - Writing Feedback
 - LTI
 - LMS

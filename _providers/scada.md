@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: OPC-UA (IEC 62541) is the industrial interoperability standard for secure, reliable data exchange in industrial automation and IoT environments. It provides a platform-independent, service-oriented ar
@@ -131,7 +131,7 @@ plans:
 - name: Scada Plans Pricing
   plan_count: 3
   slug: scada-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Scada Rate Limits
@@ -167,7 +167,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 19.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

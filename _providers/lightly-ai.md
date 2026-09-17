@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -53,11 +53,6 @@ apis:
   description: Create and manage LightlyOne datasets.
   name: Lightly Datasets API
   slug: lightly-ai-datasets-api
-- baseURL: https://api.lightly.ai/v1
-  baseurl_source: declared
-  description: Configure and inspect the cloud datasource backing a dataset.
-  name: Lightly Datasources API
-  slug: lightly-ai-datasources-api
 - baseURL: https://api.lightly.ai/v1
   baseurl_source: declared
   description: Manage dataset embeddings and trigger 2D projection jobs.
@@ -83,6 +78,11 @@ apis:
   description: Manage and export dataset tags.
   name: Lightly Tags API
   slug: lightly-ai-tags-api
+- baseURL: https://github.com/lightly-ai/lightly
+  baseurl_source: declared
+  description: Configure and inspect the cloud datasource backing a dataset.
+  name: Lightly Data Sources API
+  slug: lightly-ai-data-sources-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -175,7 +175,7 @@ modified: '2026-06-21'
 name: Lightly
 nav: Providers
 network: true
-overview: 'Lightly publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Datasources API, Embeddings API, and 4 more. Tagged areas include Artificial Intelligence, Computer-Vision, Data Curation, Active Learning, and Embeddings.
+overview: 'Lightly publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Embeddings API, Jobs API, and 4 more. Tagged areas include Artificial Intelligence, Computer-Vision, Data Curation, Active Learning, and Embeddings.
 
 
   Lightly''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -183,7 +183,7 @@ plans:
 - name: Lightly Ai Plans Pricing
   plan_count: 4
   slug: lightly-ai-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Lightly Ai Rate Limits
@@ -215,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

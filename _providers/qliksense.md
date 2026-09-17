@@ -29,13 +29,13 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.9
-  scored_at: '2026-09-15'
-api_count: 90
+  score: 43.6
+  scored_at: '2026-09-16'
+api_count: 78
 apis:
 - description: JSON-RPC WebSocket API for interacting with the Qlik Associative Engine, creating and manipulating apps, and building visualizations.
   name: Qlik Engine API
@@ -53,396 +53,6 @@ apis:
   description: Qlik's first-party remote Model Context Protocol server, generally available since 2026-02-10 and included from the Starter plan up. It exposes Qlik Cloud analytics — datasets and data quality, data p
   name: Qlik MCP Server
   slug: mcp-server
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/apps/evaluations
-  baseurl_source: declared
-  description: Qlik Cloud Apps API. 7 operations published as OpenAPI 3.0.0 at https://qlik.dev/specs/rest/analytics/apps.json
-  name: Qlik Apps API
-  slug: analytics-apps-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/change-stores
-  baseurl_source: declared
-  description: Retrieve user-entered changes from write tables for export or further processing.
-  name: Qlik Change stores API
-  slug: analytics-change-stores-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/discovery-agent/adaptive-cards
-  baseurl_source: declared
-  description: Qlik Cloud Adaptive cards API. 1 operations published as OpenAPI 3.0.0 at https://qlik.dev/specs/rest/analytics/discovery-agent/adaptive-cards.json
-  name: Qlik Adaptive cards API
-  slug: analytics-discovery-agent-adaptive-cards-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/odag-apps
-  baseurl_source: declared
-  description: Retrieve and filter on-demand generated analytics applications by type.
-  name: Qlik ODAG apps API
-  slug: analytics-odag-apps-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/odag-links
-  baseurl_source: declared
-  description: Create, manage, and retrieve on-demand analytics generation links between selection and template applications.
-  name: Qlik ODAG links API
-  slug: analytics-odag-links-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/odag-requests
-  baseurl_source: declared
-  description: Submit, track, and manage on-demand analytics generation requests and their generated applications.
-  name: Qlik ODAG requests API
-  slug: analytics-odag-requests-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/odag-settings
-  baseurl_source: declared
-  description: Read and configure tenant-level on-demand analytics generation settings.
-  name: Qlik ODAG settings API
-  slug: analytics-odag-settings-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/api-keys
-  baseurl_source: declared
-  description: API keys can be used by developers to gain programmatic access to the Qlik platform, acting as their own user.
-  name: Qlik API keys API
-  slug: api-keys-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/apps
-  baseurl_source: declared
-  description: Manage Qlik Sense applications including creating, updating, publishing, and deleting apps in Qlik Cloud.
-  name: Qlik Apps API
-  slug: apps-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/assistants
-  baseurl_source: declared
-  description: Assistants provide a chat interface for asking questions and getting personalized, relevant answers for Qlik Answers.
-  name: Qlik Assistants API
-  slug: assistants-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/audits
-  baseurl_source: declared
-  description: Access events emitted upon each action taken in a tenant for detailed audit logging and compliance.
-  name: Qlik Audits API
-  slug: audits-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automation-connections
-  baseurl_source: declared
-  description: Automation Connections are used by Qlik Automate connectors during automation execution.
-  name: Qlik Automation connections API
-  slug: automation-connections-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automation-connectors
-  baseurl_source: declared
-  description: Automation connectors let you integrate third-party services and applications into your data analytics workflows. Use this API to discover available connectors and understand billing characteristics.
-  name: Qlik Automation connectors API
-  slug: automation-connectors-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automations
-  baseurl_source: declared
-  description: Create and manage no-code automation workflows in Qlik Automate that connect applications together.
-  name: Qlik Automations API
-  slug: automations-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automl-deployments
-  baseurl_source: declared
-  description: Use your ML deployment to generate real-time results returned as JSON in a synchronous manner to predict future outcomes on new data.
-  name: Qlik AutoML real-time predictions API
-  slug: automl-deployments-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automl-predictions
-  baseurl_source: declared
-  description: Use your ML deployment to generate batch data in file format to predict future outcomes on new data.
-  name: Qlik AutoML dataset predictions API
-  slug: automl-predictions-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/banners
-  baseurl_source: declared
-  description: Banners display short messages at the top of the client interface to share tenant-wide information, warnings, or issues. When embedding content, banners aren't shown inside qlik-embed UIs. The only em
-  name: Qlik Banners API
-  slug: banners-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/brands
-  baseurl_source: declared
-  description: Brands allow you to apply tenant level branding across most user interfaces.
-  name: Qlik Brands API
-  slug: brands-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/collections
-  baseurl_source: declared
-  description: Collections provide the framework to catalog various content a user has access to using tags, public and private collections, and favorites.
-  name: Qlik Collections API
-  slug: collections-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/conditions
-  baseurl_source: declared
-  description: Conditions are used by features such as data alerting and subscriptions to determine when action should be taken, based on data in a Qlik app.
-  name: Qlik Conditions API
-  slug: conditions-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/consumption/executions
-  baseurl_source: declared
-  description: Tracks usage of entitled features in a tenant, used for the consumption metrics in the admin console in a tenant.
-  name: Qlik Entitlement consumption API
-  slug: consumption-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/core/auth-settings
-  baseurl_source: declared
-  description: Configure and retrieve authentication settings for your Qlik Cloud tenant.
-  name: Qlik Auth settings API
-  slug: core-auth-settings-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/core/ip-policies
-  baseurl_source: declared
-  description: 'IP policies let you control which IP addresses can access your Qlik Cloud tenant. Use this API to manage allowlisting rules by creating, listing, updating, and deleting IP policies. When allowlisting '
-  name: Qlik IP Policies API
-  slug: core-ip-policies-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/csp-origins
-  baseurl_source: declared
-  description: CSP origins allow you to configure domains, or origins, that Qlik Sense client visualizations/extensions are allowed to communicate with.
-  name: Qlik CSP origins API
-  slug: csp-origins-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/csrf-token
-  baseurl_source: declared
-  description: A CSRF token is a secure random token (e.g., synchronizer token or challenge token) that is used to prevent CSRF attacks. This API retrieves the token for the current user session.
-  name: Qlik CSRF token API
-  slug: csrf-token-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-alerts
-  baseurl_source: declared
-  description: Supports chart sharing, chart monitoring and alerting features. The legacy sharing APIs refer to chart sharing and chart monitoring, which is a feature that allows the user to send an e-mail with an e
-  name: Qlik Data alerts API
-  slug: data-alerts-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-assets
-  baseurl_source: declared
-  description: Data assets are part of the catalog in Qlik Cloud. A data asset is a member of a data store, and may contain multiple data sets.
-  name: Qlik Data assets API
-  slug: data-assets-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-connections
-  baseurl_source: declared
-  description: Create and manage data connections to various data sources in Qlik Cloud.
-  name: Qlik Data Connections API
-  slug: data-connections-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-credentials/actions/filter-orphan
-  baseurl_source: declared
-  description: Data credentials are the stored credentials leveraged by the data-connections service to connect to external data sources.
-  name: Qlik Data credentials API
-  slug: data-credentials-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-files
-  baseurl_source: declared
-  description: Data files represent the flat file storage associated with spaces in your Qlik Cloud tenant. Each space will have a corresponding data files connection, which you can list with data-connections.
-  name: Qlik Data files API
-  slug: data-files-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/data-governance/data-products
-  baseurl_source: declared
-  description: Data products are packages that group related datasets within a single, curated offering. Use the Data products API to create, manage, and activate data products for consumption by business users.
-  name: Qlik Data products API
-  slug: data-governance-data-products-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/data-governance/data-qualities/batch-computations
-  baseurl_source: declared
-  description: The Data qualities API enables you to assess the quality of your datasets through asynchronous computations.
-  name: Qlik Data qualities API
-  slug: data-governance-data-qualities-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/data-governance/trust-scores/results/data-sets/actions/filter
-  baseurl_source: declared
-  description: The Trust Scores API retrieves the Qlik Trust Score™ for datasets in bulk, including overall score and per-axis and per-metric breakdowns.
-  name: Qlik Trust scores API
-  slug: data-governance-trust-scores-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-qualities/computations
-  baseurl_source: declared
-  description: API for triggering data quality computations and retrieving global results to assess the quality of your datasets.
-  name: Qlik Data qualities API
-  slug: data-qualities-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-sets
-  baseurl_source: declared
-  description: Data sets are part of the catalog in Qlik Cloud. A data set is a member of a data asset.
-  name: Qlik Data sets API
-  slug: data-sets-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-sources
-  baseurl_source: declared
-  description: Lists data sources available on the tenant for the creation of data connections.
-  name: Qlik Data sources API
-  slug: data-sources-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-stores
-  baseurl_source: declared
-  description: Data stores are part of the catalog in Qlik Cloud. A data store may contain one or more data stores, which in turn may contain multiple data sets.
-  name: Qlik Data stores API
-  slug: data-stores-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/di-projects
-  baseurl_source: declared
-  description: Data integration projects are used to group and organize data tasks that move, transform, or prepare data for consumption.
-  name: Qlik Data integration projects API
-  slug: di-projects-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/direct-access-agents
-  baseurl_source: declared
-  description: API for remotely managing configuration settings of Direct Access Gateway agents.
-  name: Qlik Direct Access Agents API
-  slug: direct-access-agents-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/encryption/keyproviders
-  baseurl_source: declared
-  description: Tenants in Qlik Cloud can be encrypted with a key you provide via a supported KMS. This API allows you to configure and manage encryption keys.
-  name: Qlik Encryption API
-  slug: encryption-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/extensions
-  baseurl_source: declared
-  description: Visualization extensions is a capability in Qlik Sense which allows third-party visualizations and other presentation objects to be used in the Qlik Sense client.
-  name: Qlik Extensions API
-  slug: extensions-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/glossaries
-  baseurl_source: declared
-  description: A glossary is a collection of common and agreed upon (business) terms, typically focused on defining the meaning of data and described in terms that everyone understands.
-  name: Qlik Glossaries API
-  slug: glossaries-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/groups
-  baseurl_source: declared
-  description: Groups is the resource representing a group in the system, to which space and tenant roles can be assigned to simplify access control management.
-  name: Qlik Groups API
-  slug: groups-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/identity-providers
-  baseurl_source: declared
-  description: Identity providers define how your users authenticate to your tenant when attempting to access content.
-  name: Qlik Identity providers API
-  slug: identity-providers-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/items
-  baseurl_source: declared
-  description: Items provides a list of core resources in the Qlik platform, including resources such as apps, automations, and data sets that a user has access to.
-  name: Qlik Items API
-  slug: items-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/knowledgebases
-  baseurl_source: declared
-  description: Knowledgebases are collections of individual data sources, that are indexed for use in generating responses to user questions via Assistants for Qlik Answers.
-  name: Qlik Knowledgebases API
-  slug: knowledgebases-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/licenses/assignments
-  baseurl_source: declared
-  description: Licenses define tenant and user entitlements, and can be used in conjunction with the consumption API to get a picture of entitlement usage.
-  name: Qlik Licenses API
-  slug: licenses-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/lineage-graphs/impact
-  baseurl_source: declared
-  description: Lineage-graphs represents the lineage information for a specific Qlik item.
-  name: Qlik Lineage graphs API
-  slug: lineage-graphs-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/login
-  baseurl_source: declared
-  description: This API is used to initiate interactive logins, or to process JWT login requests.
-  name: Qlik Login API
-  slug: login-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/ml/deployments
-  baseurl_source: declared
-  description: Generate profile insights, create and manage ML experiments, deploy models, and run predictions in Qlik Cloud.
-  name: Qlik Machine Learning API
-  slug: ml-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/notes/settings
-  baseurl_source: declared
-  description: Notes provide a collaborative experience to support analytics consumption in your tenant. This API enables or disables notes.
-  name: Qlik Notes API
-  slug: notes-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/notifications
-  baseurl_source: declared
-  description: Notifications is the resource representing the various notifications that notification-prep can render
-  name: Qlik Notifications API
-  slug: notifications-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/oauth-clients
-  baseurl_source: declared
-  description: Create and manage the configuration of OAuth clients in your tenant.
-  name: Qlik OAuth clients API
-  slug: oauth-clients-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/oauth-tokens
-  baseurl_source: declared
-  description: List and revoke active OAuth tokens issued for your tenant.
-  name: Qlik OAuth tokens API
-  slug: oauth-tokens-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/questions/actions/ask
-  baseurl_source: declared
-  description: Parse natural language queries with support for language configuration, visualization generation, and conversation context.
-  name: Qlik Natural Language API
-  slug: natural-language-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/quotas
-  baseurl_source: declared
-  description: Quotas returns entitled attributes based on your license.
-  name: Qlik Quotas API
-  slug: quotas-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/reload-tasks
-  baseurl_source: declared
-  description: Reloads tasks allow you to schedule reloads of analytics applications in your tenant.
-  name: Qlik Reload tasks API
-  slug: reload-tasks-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/reloads
-  baseurl_source: declared
-  description: Trigger and manage data reload operations for Qlik Sense apps.
-  name: Qlik Reload API
-  slug: reloads-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/report-templates
-  baseurl_source: declared
-  description: Create and manage report templates for consistent report generation and distribution.
-  name: Qlik Report templates API
-  slug: report-templates-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/reports
-  baseurl_source: declared
-  description: Generate downloadable report assets from data with configurable templates and output formats.
-  name: Qlik Reports API
-  slug: reports-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/roles
-  baseurl_source: declared
-  description: Tenant roles are assigned to users or groups in the tenant, and define what permissions they have.
-  name: Qlik Roles API
-  slug: roles-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/scheduling/tasks
-  baseurl_source: declared
-  description: Qlik Cloud Tasks API. 16 operations published as OpenAPI 3.0.0 at https://qlik.dev/specs/rest/scheduling/tasks.json
-  name: Qlik Tasks API
-  slug: scheduling-tasks-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/sharing-tasks
-  baseurl_source: declared
-  description: For scheduled capabilities such as reports, data alerts, subscriptions, and more, sharing tasks defines when these tasks execute, and tie together the resource definition with any conditions on execut
-  name: Qlik Sharing tasks API
-  slug: sharing-tasks-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/spaces
-  baseurl_source: declared
-  description: Manage shared and managed spaces for collaboration and content organization in Qlik Cloud.
-  name: Qlik Spaces API
-  slug: spaces-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/tasks
-  baseurl_source: declared
-  description: API for managing tasks and task chains in Qlik Cloud. The requesting user needs the "reload" permission on the target resource to use this set of endpoints. A tenant admin can use GET /v1/tasks and DE
-  name: Qlik Tasks API
-  slug: tasks-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/temp-contents
-  baseurl_source: declared
-  description: Services such as app and data-files which may import or export larger files can opt to leverage the temporary contents service to handle these requests. Acts as a temporary file store.
-  name: Qlik Temporary contents API
-  slug: temp-contents-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/tenant-settings
-  baseurl_source: declared
-  description: Configure tenant-wide settings for security, appearance, and operational preferences.
-  name: Qlik Tenant settings API
-  slug: tenant-settings-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/tenants
-  baseurl_source: declared
-  description: Configure and manage Qlik Cloud tenants including settings, licenses, and administrative operations.
-  name: Qlik Tenants API
-  slug: tenants-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/themes
-  baseurl_source: declared
-  description: Themes enable you to customize/style the Qlik Sense client experience.
-  name: Qlik Themes API
-  slug: themes-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/transports/email-config
-  baseurl_source: declared
-  description: Transports supports configuration of the tenant-level SMTP service. For the SMTP service in Qlik Automate, review the automation-connections API.
-  name: Qlik Email configuration API
-  slug: transports-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/ui-config/pinned-links
-  baseurl_source: declared
-  description: Pinned links are administrator-defined URLs which appear for all users under the More button in the global navigation menu.
-  name: Qlik Pinned links API
-  slug: ui-config-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/users
-  baseurl_source: declared
-  description: Manage users, groups, and authentication in Qlik Cloud tenants.
-  name: Qlik Users API
-  slug: users-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/web-integrations
-  baseurl_source: declared
-  description: A web integration is a resource representing a list of whitelisted origins that can make requests to a specified tenant. It is the implementation of the CORS mechanism within Qlik Cloud.
-  name: Qlik Web integrations API
-  slug: web-integrations-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/web-notifications
-  baseurl_source: declared
-  description: Web notifications is the resource representing a user's notification
-  name: Qlik Web notifications API
-  slug: web-notifications-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/webhooks
-  baseurl_source: declared
-  description: Create and manage webhooks to provide other applications with real-time information from Qlik Cloud events.
-  name: Qlik Webhooks API
-  slug: webhooks-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/workflows/automation-connections
-  baseurl_source: declared
-  description: Automation Connections are used by Qlik Automate connectors during automation execution.
-  name: Qlik Automation connections API
-  slug: workflows-automation-connections-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/workflows/automation-connectors
-  baseurl_source: declared
-  description: Automation connectors let you integrate third-party services and applications into your data analytics workflows. Use this API to discover available connectors and understand billing characteristics.
-  name: Qlik Automation connectors API
-  slug: workflows-automation-connectors-api
-- baseURL: https://{tenant}.{region}.qlikcloud.com/api/workflows/automations
-  baseurl_source: declared
-  description: Automations in Qlik Automate are no-code workflows which connect applications together.
-  name: Qlik Automations API
-  slug: workflows-automations-api
 - description: WebSocket-based API for interacting with the Qlik Associative Engine, including data modeling, selections, and visualizations.
   name: Qlik Sense Engine API
   slug: qlik-sense-engine-api
@@ -458,16 +68,637 @@ apis:
 - description: JavaScript API for embedding Qlik Sense visualizations and mashups into web applications.
   name: Qlik Embedding API
   slug: qlik-embedding-api
-- description: Manage Qlik Sense analytics applications including creating, copying, importing, exporting, publishing, and retrieving app metadata.
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The alerting actions API from Qlik Sense — 2 operation(s) for alerting actions.
+  name: Qlik Sense alerting actions API
+  slug: qliksense-alerting-actions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The alerting settings API from Qlik Sense — 1 operation(s) for alerting settings.
+  name: Qlik Sense alerting settings API
+  slug: qliksense-alerting-settings-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The alerting tasks API from Qlik Sense — 4 operation(s) for alerting tasks.
+  name: Qlik Sense alerting tasks API
+  slug: qliksense-alerting-tasks-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The alerting tasks executions API from Qlik Sense — 4 operation(s) for alerting tasks executions.
+  name: Qlik Sense alerting tasks executions API
+  slug: qliksense-alerting-tasks-executions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The aliases API from Qlik Sense — 2 operation(s) for aliases.
+  name: Qlik Sense Aliases API
+  slug: qliksense-aliases-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Analytics API from Qlik Sense — 1 operation(s) for analytics.
+  name: Qlik Sense Analytics API
+  slug: qliksense-analytics-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The api-keys API from Qlik Sense — 2 operation(s) for api-keys.
+  name: Qlik Sense API Keys API
+  slug: qliksense-api-keys-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The api-keys configurations API from Qlik Sense — 1 operation(s) for api-keys configurations.
+  name: Qlik Sense api-keys configurations API
+  slug: qliksense-api-keys-configurations-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The api settings API from Qlik Sense — 1 operation(s) for api settings.
+  name: Qlik Sense api settings API
+  slug: qliksense-api-settings-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Apps API from Qlik Sense — 23 operation(s) for apps.
   name: Qlik Sense Apps API
-  slug: qlik-sense-apps-api
-- description: Trigger and manage data reloads for apps to refresh data from connected sources.
+  slug: qliksense-apps-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The assignments API from Qlik Sense — 2 operation(s) for assignments.
+  name: Qlik Sense Assignments API
+  slug: qliksense-assignments-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The assistants API from Qlik Sense — 4 operation(s) for assistants.
+  name: Qlik Sense Assistants API
+  slug: qliksense-assistants-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The async actions API from Qlik Sense — 1 operation(s) for async actions.
+  name: Qlik Sense async actions API
+  slug: qliksense-async-actions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The audits API from Qlik Sense — 7 operation(s) for audits.
+  name: Qlik Sense Audits API
+  slug: qliksense-audits-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The automation-connections API from Qlik Sense — 10 operation(s) for automation-connections.
+  name: Qlik Sense Automation Connections API
+  slug: qliksense-automation-connections-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The automation-connectors API from Qlik Sense — 4 operation(s) for automation-connectors.
+  name: Qlik Sense Automation Connectors API
+  slug: qliksense-automation-connectors-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The automations API from Qlik Sense — 30 operation(s) for automations.
+  name: Qlik Sense Automations API
+  slug: qliksense-automations-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The automl-deployments API from Qlik Sense — 1 operation(s) for automl-deployments.
+  name: Qlik Sense Automl Deployments API
+  slug: qliksense-automl-deployments-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The automl-predictions API from Qlik Sense — 6 operation(s) for automl-predictions.
+  name: Qlik Sense Automl Predictions API
+  slug: qliksense-automl-predictions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The banner API from Qlik Sense — 2 operation(s) for banner.
+  name: Qlik Sense Banner API
+  slug: qliksense-banner-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The brands API from Qlik Sense — 6 operation(s) for brands.
+  name: Qlik Sense Brands API
+  slug: qliksense-brands-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The categories API from Qlik Sense — 2 operation(s) for categories.
+  name: Qlik Sense Categories API
+  slug: qliksense-categories-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The change-stores API from Qlik Sense — 2 operation(s) for change-stores.
+  name: Qlik Sense Change Stores API
+  slug: qliksense-change-stores-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The changes API from Qlik Sense — 2 operation(s) for changes.
+  name: Qlik Sense Changes API
+  slug: qliksense-changes-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The chat API from Qlik Sense — 2 operation(s) for chat.
+  name: Qlik Sense Chat API
+  slug: qliksense-chat-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The collections API from Qlik Sense — 5 operation(s) for collections.
+  name: Qlik Sense Collections API
+  slug: qliksense-collections-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The computation API from Qlik Sense — 5 operation(s) for computation.
+  name: Qlik Sense Computation API
+  slug: qliksense-computation-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The condition preview API from Qlik Sense — 2 operation(s) for condition preview.
+  name: Qlik Sense condition preview API
+  slug: qliksense-condition-preview-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The conditions API from Qlik Sense — 2 operation(s) for conditions.
+  name: Qlik Sense Conditions API
+  slug: qliksense-conditions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Consumption API from Qlik Sense — 1 operation(s) for consumption.
+  name: Qlik Sense Consumption API
+  slug: qliksense-consumption-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The csp-origins API from Qlik Sense — 3 operation(s) for csp-origins.
+  name: Qlik Sense Csp Origins API
+  slug: qliksense-csp-origins-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The csrf API from Qlik Sense — 1 operation(s) for csrf.
+  name: Qlik Sense Csrf API
+  slug: qliksense-csrf-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-asset API from Qlik Sense — 2 operation(s) for data-asset.
+  name: Qlik Sense Data Asset API
+  slug: qliksense-data-asset-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-connections API from Qlik Sense — 5 operation(s) for data-connections.
+  name: Qlik Sense Data Connections API
+  slug: qliksense-data-connections-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-credentials API from Qlik Sense — 2 operation(s) for data-credentials.
+  name: Qlik Sense Data Credentials API
+  slug: qliksense-data-credentials-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-product-activation API from Qlik Sense — 2 operation(s) for data-product-activation.
+  name: Qlik Sense Data Product Activation API
+  slug: qliksense-data-product-activation-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-product API from Qlik Sense — 4 operation(s) for data-product.
+  name: Qlik Sense Data Product API
+  slug: qliksense-data-product-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-product-changelog API from Qlik Sense — 1 operation(s) for data-product-changelog.
+  name: Qlik Sense Data Product Changelog API
+  slug: qliksense-data-product-changelog-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-product-data-quality API from Qlik Sense — 1 operation(s) for data-product-data-quality.
+  name: Qlik Sense Data Product Data Quality API
+  slug: qliksense-data-product-data-quality-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-product-generate-provider-url API from Qlik Sense — 1 operation(s) for data-product-generate-provider-url.
+  name: Qlik Sense Data Product Generate Provider URL API
+  slug: qliksense-data-product-generate-provider-url-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data project actions API from Qlik Sense — 2 operation(s) for data project actions.
+  name: Qlik Sense data project actions API
+  slug: qliksense-data-project-actions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data project API from Qlik Sense — 2 operation(s) for data project.
+  name: Qlik Sense data project API
+  slug: qliksense-data-project-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data project deployment API from Qlik Sense — 5 operation(s) for data project deployment.
+  name: Qlik Sense data project deployment API
+  slug: qliksense-data-project-deployment-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-quality API from Qlik Sense — 4 operation(s) for data-quality.
+  name: Qlik Sense Data Quality API
+  slug: qliksense-data-quality-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data-sources API from Qlik Sense — 4 operation(s) for data-sources.
+  name: Qlik Sense Data Sources API
+  slug: qliksense-data-sources-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data task actions API from Qlik Sense — 4 operation(s) for data task actions.
+  name: Qlik Sense data task actions API
+  slug: qliksense-data-task-actions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data task API from Qlik Sense — 2 operation(s) for data task.
+  name: Qlik Sense data task API
+  slug: qliksense-data-task-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The data task runtime API from Qlik Sense — 4 operation(s) for data task runtime.
+  name: Qlik Sense data task runtime API
+  slug: qliksense-data-task-runtime-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The datafiles API from Qlik Sense — 9 operation(s) for datafiles.
+  name: Qlik Sense Datafiles API
+  slug: qliksense-datafiles-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The deliveries API from Qlik Sense — 3 operation(s) for deliveries.
+  name: Qlik Sense Deliveries API
+  slug: qliksense-deliveries-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The deployments API from Qlik Sense — 6 operation(s) for deployments.
+  name: Qlik Sense Deployments API
+  slug: qliksense-deployments-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The direct-access-agent-benchmarking API from Qlik Sense — 3 operation(s) for direct-access-agent-benchmarking.
+  name: Qlik Sense Direct Access Agent Benchmarking API
+  slug: qliksense-direct-access-agent-benchmarking-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The direct-access-agent-configuration API from Qlik Sense — 7 operation(s) for direct-access-agent-configuration.
+  name: Qlik Sense Direct Access Agent Configuration API
+  slug: qliksense-direct-access-agent-configuration-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The editable-columns API from Qlik Sense — 1 operation(s) for editable-columns.
+  name: Qlik Sense Editable Columns API
+  slug: qliksense-editable-columns-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The email-config-actions API from Qlik Sense — 3 operation(s) for email-config-actions.
+  name: Qlik Sense Email Config Actions API
+  slug: qliksense-email-config-actions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The email-config API from Qlik Sense — 1 operation(s) for email-config.
+  name: Qlik Sense Email Config API
+  slug: qliksense-email-config-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The evaluation API from Qlik Sense — 10 operation(s) for evaluation.
+  name: Qlik Sense Evaluation API
+  slug: qliksense-evaluation-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The evaluations API from Qlik Sense — 2 operation(s) for evaluations.
+  name: Qlik Sense Evaluations API
+  slug: qliksense-evaluations-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The experiments API from Qlik Sense — 7 operation(s) for experiments.
+  name: Qlik Sense Experiments API
+  slug: qliksense-experiments-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The extensions API from Qlik Sense — 4 operation(s) for extensions.
+  name: Qlik Sense Extensions API
+  slug: qliksense-extensions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The filters API from Qlik Sense — 3 operation(s) for filters.
+  name: Qlik Sense Filters API
+  slug: qliksense-filters-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The glossaries API from Qlik Sense — 4 operation(s) for glossaries.
+  name: Qlik Sense Glossaries API
+  slug: qliksense-glossaries-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The groups API from Qlik Sense — 3 operation(s) for groups.
+  name: Qlik Sense Groups API
+  slug: qliksense-groups-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The groups-settings API from Qlik Sense — 1 operation(s) for groups-settings.
+  name: Qlik Sense Groups Settings API
+  slug: qliksense-groups-settings-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The iam-resources API from Qlik Sense — 3 operation(s) for iam-resources.
+  name: Qlik Sense Iam Resources API
+  slug: qliksense-iam-resources-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The idp API from Qlik Sense — 5 operation(s) for idp.
+  name: Qlik Sense Idp API
+  slug: qliksense-idp-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The impact API from Qlik Sense — 4 operation(s) for impact.
+  name: Qlik Sense Impact API
+  slug: qliksense-impact-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The insight-analyses API from Qlik Sense — 3 operation(s) for insight-analyses.
+  name: Qlik Sense Insight Analyses API
+  slug: qliksense-insight-analyses-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The invite API from Qlik Sense — 1 operation(s) for invite.
+  name: Qlik Sense Invite API
+  slug: qliksense-invite-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The items API from Qlik Sense — 4 operation(s) for items.
+  name: Qlik Sense Items API
+  slug: qliksense-items-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The items-settings API from Qlik Sense — 1 operation(s) for items-settings.
+  name: Qlik Sense Items Settings API
+  slug: qliksense-items-settings-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The jobs API from Qlik Sense — 1 operation(s) for jobs.
+  name: Qlik Sense Jobs API
+  slug: qliksense-jobs-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The licenses API from Qlik Sense — 8 operation(s) for licenses.
+  name: Qlik Sense Licenses API
+  slug: qliksense-licenses-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The lineage-graphs API from Qlik Sense — 4 operation(s) for lineage-graphs.
+  name: Qlik Sense Lineage Graphs API
+  slug: qliksense-lineage-graphs-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Link API from Qlik Sense — 4 operation(s) for link.
+  name: Qlik Sense Link API
+  slug: qliksense-link-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The links API from Qlik Sense — 1 operation(s) for links.
+  name: Qlik Sense Links API
+  slug: qliksense-links-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The login API from Qlik Sense — 1 operation(s) for login.
+  name: Qlik Sense Login API
+  slug: qliksense-login-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The notifications API from Qlik Sense — 1 operation(s) for notifications.
+  name: Qlik Sense Notifications API
+  slug: qliksense-notifications-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The oauth-clients API from Qlik Sense — 6 operation(s) for oauth-clients.
+  name: Qlik Sense OAUTH Clients API
+  slug: qliksense-oauth-clients-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The oauth-tokens API from Qlik Sense — 2 operation(s) for oauth-tokens.
+  name: Qlik Sense OAUTH Tokens API
+  slug: qliksense-oauth-tokens-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The outputs API from Qlik Sense — 1 operation(s) for outputs.
+  name: Qlik Sense Outputs API
+  slug: qliksense-outputs-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The owl API from Qlik Sense — 1 operation(s) for owl.
+  name: Qlik Sense Owl API
+  slug: qliksense-owl-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The pinned links API from Qlik Sense — 4 operation(s) for pinned links.
+  name: Qlik Sense pinned links API
+  slug: qliksense-pinned-links-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The predictions API from Qlik Sense — 6 operation(s) for predictions.
+  name: Qlik Sense Predictions API
+  slug: qliksense-predictions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The profile API from Qlik Sense — 1 operation(s) for profile.
+  name: Qlik Sense Profile API
+  slug: qliksense-profile-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The profile-insights API from Qlik Sense — 2 operation(s) for profile-insights.
+  name: Qlik Sense Profile Insights API
+  slug: qliksense-profile-insights-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The questions API from Qlik Sense — 2 operation(s) for questions.
+  name: Qlik Sense Questions API
+  slug: qliksense-questions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The quotas API from Qlik Sense — 2 operation(s) for quotas.
+  name: Qlik Sense Quotas API
+  slug: qliksense-quotas-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The reload-tasks API from Qlik Sense — 2 operation(s) for reload-tasks.
+  name: Qlik Sense Reload Tasks API
+  slug: qliksense-reload-tasks-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The reloads API from Qlik Sense — 3 operation(s) for reloads.
   name: Qlik Sense Reloads API
-  slug: qlik-sense-reloads-api
-- description: Manage spaces, which are logical containers within a tenant that control access for users and groups through role-based assignments.
+  slug: qliksense-reloads-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The report-templates API from Qlik Sense — 3 operation(s) for report-templates.
+  name: Qlik Sense Report Templates API
+  slug: qliksense-report-templates-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The reports API from Qlik Sense — 1 operation(s) for reports.
+  name: Qlik Sense Reports API
+  slug: qliksense-reports-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Request API from Qlik Sense — 6 operation(s) for request.
+  name: Qlik Sense Request API
+  slug: qliksense-request-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The roles API from Qlik Sense — 2 operation(s) for roles.
+  name: Qlik Sense Roles API
+  slug: qliksense-roles-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The search API from Qlik Sense — 2 operation(s) for search.
+  name: Qlik Sense Search API
+  slug: qliksense-search-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The setting API from Qlik Sense — 1 operation(s) for setting.
+  name: Qlik Sense Setting API
+  slug: qliksense-setting-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Settings API from Qlik Sense — 2 operation(s) for settings.
+  name: Qlik Sense Settings API
+  slug: qliksense-settings-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The shares API from Qlik Sense — 2 operation(s) for shares.
+  name: Qlik Sense Shares API
+  slug: qliksense-shares-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The sharing settings API from Qlik Sense — 1 operation(s) for sharing settings.
+  name: Qlik Sense sharing settings API
+  slug: qliksense-sharing-settings-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The sharing tasks actions API from Qlik Sense — 2 operation(s) for sharing tasks actions.
+  name: Qlik Sense sharing tasks actions API
+  slug: qliksense-sharing-tasks-actions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The sharing tasks API from Qlik Sense — 2 operation(s) for sharing tasks.
+  name: Qlik Sense sharing tasks API
+  slug: qliksense-sharing-tasks-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The sharing tasks executions API from Qlik Sense — 3 operation(s) for sharing tasks executions.
+  name: Qlik Sense sharing tasks executions API
+  slug: qliksense-sharing-tasks-executions-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The spaces API from Qlik Sense — 3 operation(s) for spaces.
   name: Qlik Sense Spaces API
-  slug: qlik-sense-spaces-api
-artifact_total: 157
+  slug: qliksense-spaces-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The starters API from Qlik Sense — 3 operation(s) for starters.
+  name: Qlik Sense Starters API
+  slug: qliksense-starters-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The status API from Qlik Sense — 1 operation(s) for status.
+  name: Qlik Sense Status API
+  slug: qliksense-status-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The task API from Qlik Sense — 14 operation(s) for task.
+  name: Qlik Sense Task API
+  slug: qliksense-task-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The task-graph API from Qlik Sense — 5 operation(s) for task-graph.
+  name: Qlik Sense Task Graph API
+  slug: qliksense-task-graph-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The task run history API from Qlik Sense — 3 operation(s) for task run history.
+  name: Qlik Sense task run history API
+  slug: qliksense-task-run-history-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Temporary contents API from Qlik Sense — 5 operation(s) for temporary contents.
+  name: Qlik Sense Temporary contents API
+  slug: qliksense-temporary-contents-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The tenant key migration information API from Qlik Sense — 1 operation(s) for tenant key migration information.
+  name: Qlik Sense tenant key migration information API
+  slug: qliksense-tenant-key-migration-information-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The tenant key provider management API from Qlik Sense — 3 operation(s) for tenant key provider management.
+  name: Qlik Sense tenant key provider management API
+  slug: qliksense-tenant-key-provider-management-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The tenant key provider operations API from Qlik Sense — 3 operation(s) for tenant key provider operations.
+  name: Qlik Sense tenant key provider operations API
+  slug: qliksense-tenant-key-provider-operations-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The tenant-settings API from Qlik Sense — 4 operation(s) for tenant-settings.
+  name: Qlik Sense Tenant Settings API
+  slug: qliksense-tenant-settings-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The tenants API from Qlik Sense — 5 operation(s) for tenants.
+  name: Qlik Sense Tenants API
+  slug: qliksense-tenants-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The terms API from Qlik Sense — 4 operation(s) for terms.
+  name: Qlik Sense Terms API
+  slug: qliksense-terms-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The themes API from Qlik Sense — 4 operation(s) for themes.
+  name: Qlik Sense Themes API
+  slug: qliksense-themes-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The threads API from Qlik Sense — 7 operation(s) for threads.
+  name: Qlik Sense Threads API
+  slug: qliksense-threads-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The tokens API from Qlik Sense — 1 operation(s) for tokens.
+  name: Qlik Sense Tokens API
+  slug: qliksense-tokens-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The trust-score-result API from Qlik Sense — 1 operation(s) for trust-score-result.
+  name: Qlik Sense Trust Score Result API
+  slug: qliksense-trust-score-result-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The users API from Qlik Sense — 5 operation(s) for users.
+  name: Qlik Sense Users API
+  slug: qliksense-users-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The web-integrations API from Qlik Sense — 2 operation(s) for web-integrations.
+  name: Qlik Sense Web Integrations API
+  slug: qliksense-web-integrations-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The web-notifications API from Qlik Sense — 3 operation(s) for web-notifications.
+  name: Qlik Sense Web Notifications API
+  slug: qliksense-web-notifications-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The webhooks API from Qlik Sense — 3 operation(s) for webhooks.
+  name: Qlik Sense Webhooks API
+  slug: qliksense-webhooks-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Dataset API from Qlik Sense — 2 operation(s) for dataset.
+  name: Qlik Sense Dataset API
+  slug: qliksense-dataset-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Datastore API from Qlik Sense — 4 operation(s) for datastore.
+  name: Qlik Sense Datastore API
+  slug: qliksense-datastore-api
+- baseURL: wss://your-tenant.qlikcloud.com/app/
+  baseurl_source: declared
+  description: The Knowledge Bases API from Qlik Sense — 11 operation(s) for knowledge bases.
+  name: Qlik Sense Knowledge Bases API
+  slug: qliksense-knowledge-bases-api
+artifact_total: 202
 asyncapis:
 - description: ''
   name: Qliksense Asyncapi Index
@@ -476,6 +707,396 @@ asyncapis:
   name: Qliksense Webhooks
   slug: qliksense-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-analytics-apps-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-analytics-apps-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-analytics-change-stores-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-analytics-change-stores-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-analytics-discovery-agent-adaptive-cards-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-analytics-discovery-agent-adaptive-cards-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-analytics-odag-apps-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-analytics-odag-apps-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-analytics-odag-links-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-analytics-odag-links-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-analytics-odag-requests-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-analytics-odag-requests-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-analytics-odag-settings-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-analytics-odag-settings-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-api-keys-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-api-keys-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-apps-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-apps-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-assistants-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-assistants-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-audits-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-audits-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-automation-connections-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-automation-connections-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-automation-connectors-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-automation-connectors-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-automations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-automations-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-automl-deployments-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-automl-deployments-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-automl-predictions-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-automl-predictions-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-banners-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-banners-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-brands-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-brands-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-collections-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-collections-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-conditions-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-conditions-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-consumption-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-consumption-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-core-auth-settings-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-core-auth-settings-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-core-ip-policies-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-core-ip-policies-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-csp-origins-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-csp-origins-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-csrf-token-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-csrf-token-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-alerts-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-alerts-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-assets-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-assets-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-connections-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-connections-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-credentials-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-credentials-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-files-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-files-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-governance-data-products-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-governance-data-products-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-governance-data-qualities-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-governance-data-qualities-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-governance-trust-scores-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-governance-trust-scores-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-qualities-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-qualities-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-sets-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-sets-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-sources-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-sources-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-data-stores-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-data-stores-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-di-projects-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-di-projects-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-direct-access-agents-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-direct-access-agents-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-encryption-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-encryption-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-extensions-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-extensions-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-glossaries-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-glossaries-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-groups-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-groups-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-identity-providers-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-identity-providers-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-items-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-items-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-knowledgebases-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-knowledgebases-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-licenses-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-licenses-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-lineage-graphs-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-lineage-graphs-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-login-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-login-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-ml-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-ml-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-notes-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-notes-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-notifications-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-notifications-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-oauth-clients-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-oauth-clients-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-oauth-tokens-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-oauth-tokens-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-questions-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-questions-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-quotas-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-quotas-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-reload-tasks-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-reload-tasks-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-reloads-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-reloads-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-report-templates-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-report-templates-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-reports-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-reports-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-roles-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-roles-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-scheduling-tasks-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-scheduling-tasks-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-sharing-tasks-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-sharing-tasks-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-spaces-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-spaces-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-tasks-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-tasks-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-temp-contents-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-temp-contents-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-tenant-settings-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-tenant-settings-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-tenants-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-tenants-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-themes-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-themes-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-transports-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-transports-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-ui-config-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-ui-config-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-users-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-users-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-web-integrations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-web-integrations-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-web-notifications-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-web-notifications-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-webhooks-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-webhooks-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-workflows-automation-connections-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-workflows-automation-connections-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-workflows-automation-connectors-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-workflows-automation-connectors-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/overlays/qliksense-workflows-automations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/qliksense-workflows-automations-overlay.yaml
 - group: commercial
   title: ''
   type: License
@@ -870,18 +1491,18 @@ modified: '2026-09-15'
 name: Qlik Sense
 nav: Providers
 network: true
-overview: 'Qlik Sense publishes 83 APIs on the [APIs.io](https://apis.io/) network, including Qlik Cloud System Events, Qlik MCP Server, Qlik Apps API, and 80 more. Tagged areas include Agents, Analytics, Artificial Intelligence, Business Intelligence, and Cloud.
+overview: 'Qlik Sense publishes 128 APIs on the [APIs.io](https://apis.io/) network, including Qlik Cloud System Events, Qlik MCP Server, alerting actions API, and 125 more. Tagged areas include Agents, Analytics, Artificial Intelligence, Business Intelligence, and Cloud.
 
 
   The Qlik Sense catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Qlik Sense''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, engineering blog, and 44 more developer resources.'
+  Qlik Sense''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, support, engineering blog, and 122 more developer resources.'
 plans:
 - name: Qliksense Plans Pricing
   plan_count: 5
   slug: qliksense-plans-pricing
-random_paper: 9
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Qliksense Rate Limits
@@ -893,21 +1514,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.5
+  composite: 69.7
   coverage:
     artifact_dirs: 27
-    catalog_earned: 64.0
+    catalog_earned: 59.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 55.1
+    contract_quality: 55.8
     developer_ergonomics: 78.6
-    discoverability: 68.5
+    discoverability: 59.3
     operational_transparency: 84.2
   previous_composite: 70.5
   provenance:
@@ -916,11 +1537,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 56
+      total: 126
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The GraphQL API behind the BillGO Exchange biller portal. A live graphql-java server answers POST requests at https://exchange.billgo.com/graphql; schema introspection is disabled by the server, so no
@@ -154,7 +154,7 @@ overview: 'BillGO publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   BillGO''s developer surface includes engineering blog, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 3
+random_paper: 17
 scopes:
 - name: Billgo Scopes
   scope_count: 8
@@ -188,7 +188,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

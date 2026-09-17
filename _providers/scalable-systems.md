@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -187,7 +187,7 @@ plans:
 - name: Scalable Systems Plans Pricing
   plan_count: 3
   slug: scalable-systems-plans-pricing
-random_paper: 1
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Scalable Systems Rate Limits
@@ -230,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -258,7 +258,7 @@ tags:
 - High Availability
 - Infrastructure
 - Load Balancing
-- Message Queues
+- Message Queue
 - Platform Engineering
 - Scalable Architecture
 - Service Discovery

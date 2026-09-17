@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: First Round Capital
 nav: Providers
 network: true
-random_paper: 17
+random_paper: 14
 slug: first-round-capital
 tags:
 - Venture Capital

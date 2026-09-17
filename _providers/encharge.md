@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -62,19 +62,9 @@ apis:
   slug: encharge-broadcasts-api
 - baseURL: https://api.encharge.io/v1
   baseurl_source: declared
-  description: The Custom Objects API from Encharge — 18 operation(s) for creating, reading, searching and associating custom objects and companies.
-  name: Encharge Custom Objects API
-  slug: encharge-customobjects-api
-- baseURL: https://api.encharge.io/v1
-  baseurl_source: declared
   description: The Custom Objects Schema API from Encharge — 10 operation(s) for defining object types, their fields, and the associations between them.
   name: Encharge Custom Objects Schema API
   slug: encharge-customobjectsschema-api
-- baseURL: https://api.encharge.io/v1
-  baseurl_source: declared
-  description: The Email Templates API from Encharge — 9 operation(s) for creating and versioning email templates.
-  name: Encharge Email Templates API
-  slug: encharge-emailtemplates-api
 - baseURL: https://api.encharge.io/v1
   baseurl_source: declared
   description: The Folders API from Encharge — 2 operation(s) for organizing assets into folders.
@@ -115,6 +105,16 @@ apis:
   description: The Webhooks API from Encharge — 2 operation(s) for creating and deleting event subscriptions against Encharge's event catalog.
   name: Encharge Webhooks API
   slug: encharge-webhooks-api
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Custom Objects API from Encharge — 11 operation(s) for custom objects.
+  name: Encharge Custom Objects API
+  slug: encharge-custom-objects-api
+- baseURL: https://api.encharge.io/v1
+  baseurl_source: declared
+  description: The Email Templates API from Encharge — 7 operation(s) for email templates.
+  name: Encharge Email Templates API
+  slug: encharge-email-templates-api
 artifact_total: 34
 asyncapis:
 - description: ''
@@ -360,7 +360,7 @@ plans:
 - name: Encharge Plans Pricing
   plan_count: 3
   slug: encharge-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Encharge Rate Limits
@@ -372,7 +372,7 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.2
+  composite: 64.2
   coverage:
     artifact_dirs: 24
     catalog_earned: 49.0
@@ -380,11 +380,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 78.9
     contract_governance: 4.5
-    contract_quality: 53.3
+    contract_quality: 57.3
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 34.2
@@ -400,7 +400,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

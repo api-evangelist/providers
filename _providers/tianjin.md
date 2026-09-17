@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: The university's own Shibboleth identity provider, and the only credential-free, machine-readable contract anywhere in this profile. https://idp.tju.edu.cn/idp/shibboleth returns HTTP 200 and 14,410 b
@@ -145,7 +145,7 @@ plans:
 - name: Tianjin Plans Pricing
   plan_count: 2
   slug: tianjin-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Tianjin Rate Limits
@@ -185,7 +185,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +214,7 @@ tags:
 - Identity Federation
 - Shibboleth
 - SAML
-- Single Sign-On
+- SSO
 - Library
 - Research Repository
 - Persistent Identifiers

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The IT Glue API is a JSON:API-conformant REST interface over the IT Glue IT-documentation platform — organizations, configurations, contacts, locations, passwords, documents, flexible assets and flexi
@@ -52,11 +52,6 @@ apis:
   slug: myitprocess
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The AccountCodes API from Kaseya — 1 operation(s) for accountcodes.
-  name: Kaseya Account Codes API
-  slug: kaseya-accountcodes-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The AccountInvoiceSettings API from Kaseya — 5 operation(s) for accountinvoicesettings.
   name: Kaseya Account Invoice Settings API
   slug: kaseya-accountinvoicesettings-api
@@ -65,11 +60,6 @@ apis:
   description: The Accounts API from Kaseya — 10 operation(s) for accounts.
   name: Kaseya Accounts API
   slug: kaseya-accounts-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The AccountTypes API from Kaseya — 1 operation(s) for accounttypes.
-  name: Kaseya Account Types API
-  slug: kaseya-accounttypes-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The ActionTypes API from Kaseya — 7 operation(s) for actiontypes.
@@ -90,11 +80,6 @@ apis:
   description: The AgentProcedure API from Kaseya — 1 operation(s) for agentprocedure.
   name: Kaseya Agent Procedure API
   slug: kaseya-agentprocedure-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The ApiVersion API from Kaseya — 1 operation(s) for apiversion.
-  name: Kaseya API Version API
-  slug: kaseya-apiversion-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The Appointments API from Kaseya — 7 operation(s) for appointments.
@@ -217,11 +202,6 @@ apis:
   slug: kaseya-batchactionlog-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The BillingCodes API from Kaseya — 6 operation(s) for billingcodes.
-  name: Kaseya Billing Codes API
-  slug: kaseya-billingcodes-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The BillingItemApprovalLevels API from Kaseya — 7 operation(s) for billingitemapprovallevels.
   name: Kaseya Billing Item Approval Levels API
   slug: kaseya-billingitemapprovallevels-api
@@ -307,19 +287,9 @@ apis:
   slug: kaseya-companyattachmentschild-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The CompanyCategories API from Kaseya — 7 operation(s) for companycategories.
-  name: Kaseya Company Categories API
-  slug: kaseya-companycategories-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The CompanyContactsChild API from Kaseya — 5 operation(s) for companycontactschild.
   name: Kaseya Company Contacts Child API
   slug: kaseya-companycontactschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The CompanyLocations API from Kaseya — 6 operation(s) for companylocations.
-  name: Kaseya Company Locations API
-  slug: kaseya-companylocations-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The CompanyLocationsChild API from Kaseya — 5 operation(s) for companylocationschild.
@@ -345,11 +315,6 @@ apis:
   description: The CompanyNotesChild API from Kaseya — 5 operation(s) for companynoteschild.
   name: Kaseya Company Notes Child API
   slug: kaseya-companynoteschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The CompanySettings API from Kaseya — 1 operation(s) for companysettings.
-  name: Kaseya Company Settings API
-  slug: kaseya-companysettings-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The CompanySiteConfigurations API from Kaseya — 6 operation(s) for companysiteconfigurations.
@@ -565,11 +530,6 @@ apis:
   description: The ContactGroupContactsChild API from Kaseya — 5 operation(s) for contactgroupcontactschild.
   name: Kaseya Contact Group Contacts Child API
   slug: kaseya-contactgroupcontactschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The ContactGroups API from Kaseya — 7 operation(s) for contactgroups.
-  name: Kaseya Contact Groups API
-  slug: kaseya-contactgroups-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The Contacts API from Kaseya — 13 operation(s) for contacts.
@@ -847,11 +807,6 @@ apis:
   slug: kaseya-currencies-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The CustomFields API from Kaseya — 3 operation(s) for customfields.
-  name: Kaseya Custom Fields API
-  slug: kaseya-customfields-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The Dashboard API from Kaseya — 18 operation(s) for dashboard.
   name: Kaseya Dashboard API
   slug: kaseya-dashboard-api
@@ -877,19 +832,9 @@ apis:
   slug: kaseya-departments-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The DocumentAttachments API from Kaseya — 5 operation(s) for documentattachments.
-  name: Kaseya Document Attachments API
-  slug: kaseya-documentattachments-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The DocumentAttachmentsChild API from Kaseya — 2 operation(s) for documentattachmentschild.
   name: Kaseya Document Attachments Child API
   slug: kaseya-documentattachmentschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The DocumentCategories API from Kaseya — 7 operation(s) for documentcategories.
-  name: Kaseya Document Categories API
-  slug: kaseya-documentcategories-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The DocumentChecklistItems API from Kaseya — 6 operation(s) for documentchecklistitems.
@@ -1007,11 +952,6 @@ apis:
   slug: kaseya-domainregistrars-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The EmailTemplates API from Kaseya — 1 operation(s) for emailtemplates.
-  name: Kaseya Email Templates API
-  slug: kaseya-emailtemplates-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The Employees API from Kaseya — 2 operation(s) for employees.
   name: Kaseya Employees API
   slug: kaseya-employees-api
@@ -1022,11 +962,6 @@ apis:
   slug: kaseya-etilize-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The EventLogs API from Kaseya — 1 operation(s) for eventlogs.
-  name: Kaseya Event Logs API
-  slug: kaseya-eventlogs-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The ExpenseItemAttachments API from Kaseya — 5 operation(s) for expenseitemattachments.
   name: Kaseya Expense Item Attachments API
   slug: kaseya-expenseitemattachments-api
@@ -1035,11 +970,6 @@ apis:
   description: The ExpenseItemAttachmentsChild API from Kaseya — 2 operation(s) for expenseitemattachmentschild.
   name: Kaseya Expense Item Attachments Child API
   slug: kaseya-expenseitemattachmentschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The ExpenseItems API from Kaseya — 6 operation(s) for expenseitems.
-  name: Kaseya Expense Items API
-  slug: kaseya-expenseitems-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The ExpenseItemsChild API from Kaseya — 5 operation(s) for expenseitemschild.
@@ -1057,19 +987,9 @@ apis:
   slug: kaseya-expensereportattachmentschild-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The ExpenseReports API from Kaseya — 7 operation(s) for expensereports.
-  name: Kaseya Expense Reports API
-  slug: kaseya-expensereports-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The ExpenseSheets API from Kaseya — 2 operation(s) for expensesheets.
   name: Kaseya Expense Sheets API
   slug: kaseya-expensesheets-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The ExpenseTypes API from Kaseya — 1 operation(s) for expensetypes.
-  name: Kaseya Expense Types API
-  slug: kaseya-expensetypes-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The HardwareAsset API from Kaseya — 6 operation(s) for hardwareasset.
@@ -1112,11 +1032,6 @@ apis:
   slug: kaseya-internallocationwithbusinesshours-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The InventoryItems API from Kaseya — 7 operation(s) for inventoryitems.
-  name: Kaseya Inventory Items API
-  slug: kaseya-inventoryitems-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The InventoryItemSerialNumbers API from Kaseya — 6 operation(s) for inventoryitemserialnumbers.
   name: Kaseya Inventory Item Serial Numbers API
   slug: kaseya-inventoryitemserialnumbers-api
@@ -1125,16 +1040,6 @@ apis:
   description: The InventoryItemSerialNumbersChild API from Kaseya — 5 operation(s) for inventoryitemserialnumberschild.
   name: Kaseya Inventory Item Serial Numbers Child API
   slug: kaseya-inventoryitemserialnumberschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The InventoryLocations API from Kaseya — 7 operation(s) for inventorylocations.
-  name: Kaseya Inventory Locations API
-  slug: kaseya-inventorylocations-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The InventoryProducts API from Kaseya — 7 operation(s) for inventoryproducts.
-  name: Kaseya Inventory Products API
-  slug: kaseya-inventoryproducts-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The InventoryStockedItems API from Kaseya — 6 operation(s) for inventorystockeditems.
@@ -1192,24 +1097,9 @@ apis:
   slug: kaseya-invoices-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The InvoiceTemplates API from Kaseya — 6 operation(s) for invoicetemplates.
-  name: Kaseya Invoice Templates API
-  slug: kaseya-invoicetemplates-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The IssueTypes API from Kaseya — 2 operation(s) for issuetypes.
-  name: Kaseya Issue Types API
-  slug: kaseya-issuetypes-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The ITG API from Kaseya — 16 operation(s) for itg.
   name: Kaseya ITG API
   slug: kaseya-itg-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The JobTitle API from Kaseya — 1 operation(s) for jobtitle.
-  name: Kaseya Job Title API
-  slug: kaseya-jobtitle-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The K1AccessControls API from Kaseya — 5 operation(s) for k1accesscontrols.
@@ -1247,19 +1137,9 @@ apis:
   slug: kaseya-k1user-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The KnowledgeBaseArticles API from Kaseya — 6 operation(s) for knowledgebasearticles.
-  name: Kaseya Knowledge Base Articles API
-  slug: kaseya-knowledgebasearticles-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The KnowledgeBaseArticlesChild API from Kaseya — 5 operation(s) for knowledgebasearticleschild.
   name: Kaseya Knowledge Base Articles Child API
   slug: kaseya-knowledgebasearticleschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The KnowledgeBaseCategories API from Kaseya — 7 operation(s) for knowledgebasecategories.
-  name: Kaseya Knowledge Base Categories API
-  slug: kaseya-knowledgebasecategories-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The Listing API from Kaseya — 3 operation(s) for listing.
@@ -1290,11 +1170,6 @@ apis:
   description: The MyTickets API from Kaseya — 3 operation(s) for mytickets.
   name: Kaseya My Tickets API
   slug: kaseya-mytickets-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The NotificationHistory API from Kaseya — 6 operation(s) for notificationhistory.
-  name: Kaseya Notification History API
-  slug: kaseya-notificationhistory-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The Opportunities API from Kaseya — 12 operation(s) for opportunities.
@@ -1340,11 +1215,6 @@ apis:
   description: The OrganizationalResourcesChild API from Kaseya — 5 operation(s) for organizationalresourceschild.
   name: Kaseya Organizational Resources Child API
   slug: kaseya-organizationalresourceschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The PaymentTerms API from Kaseya — 7 operation(s) for paymentterms.
-  name: Kaseya Payment Terms API
-  slug: kaseya-paymentterms-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The Phases API from Kaseya — 6 operation(s) for phases.
@@ -1487,11 +1357,6 @@ apis:
   slug: kaseya-projects-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The ProjectStatuses API from Kaseya — 5 operation(s) for projectstatuses.
-  name: Kaseya Project Statuses API
-  slug: kaseya-projectstatuses-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The PurchaseApprovals API from Kaseya — 7 operation(s) for purchaseapprovals.
   name: Kaseya Purchase Approvals API
   slug: kaseya-purchaseapprovals-api
@@ -1515,11 +1380,6 @@ apis:
   description: The PurchaseOrderItemsChild API from Kaseya — 5 operation(s) for purchaseorderitemschild.
   name: Kaseya Purchase Order Items Child API
   slug: kaseya-purchaseorderitemschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The PurchaseOrders API from Kaseya — 7 operation(s) for purchaseorders.
-  name: Kaseya Purchase Orders API
-  slug: kaseya-purchaseorders-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The QbdAccountCodes API from Kaseya — 2 operation(s) for qbdaccountcodes.
@@ -1612,11 +1472,6 @@ apis:
   slug: kaseya-quotations-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The QuoteItems API from Kaseya — 6 operation(s) for quoteitems.
-  name: Kaseya Quote Items API
-  slug: kaseya-quoteitems-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The QuoteItemsChild API from Kaseya — 5 operation(s) for quoteitemschild.
   name: Kaseya Quote Items Child API
   slug: kaseya-quoteitemschild-api
@@ -1630,11 +1485,6 @@ apis:
   description: The Quotes API from Kaseya — 7 operation(s) for quotes.
   name: Kaseya Quotes API
   slug: kaseya-quotes-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The QuoteTemplates API from Kaseya — 6 operation(s) for quotetemplates.
-  name: Kaseya Quote Templates API
-  slug: kaseya-quotetemplates-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The ResourceAttachments API from Kaseya — 5 operation(s) for resourceattachments.
@@ -1675,11 +1525,6 @@ apis:
   description: The ResourceRoleQueuesChild API from Kaseya — 5 operation(s) for resourcerolequeueschild.
   name: Kaseya Resource Role Queues Child API
   slug: kaseya-resourcerolequeueschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The ResourceRoles API from Kaseya — 6 operation(s) for resourceroles.
-  name: Kaseya Resource Roles API
-  slug: kaseya-resourceroles-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The ResourceRolesChild API from Kaseya — 5 operation(s) for resourceroleschild.
@@ -1777,29 +1622,14 @@ apis:
   slug: kaseya-salesorderattachmentschild-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The SalesOrders API from Kaseya — 7 operation(s) for salesorders.
-  name: Kaseya Sales Orders API
-  slug: kaseya-salesorders-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The SalesOrdersChild API from Kaseya — 5 operation(s) for salesorderschild.
   name: Kaseya Sales Orders Child API
   slug: kaseya-salesorderschild-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The SchedulerJobs API from Kaseya — 1 operation(s) for schedulerjobs.
-  name: Kaseya Scheduler Jobs API
-  slug: kaseya-schedulerjobs-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The Security API from Kaseya — 4 operation(s) for security.
   name: Kaseya Security API
   slug: kaseya-security-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The SecurityRoles API from Kaseya — 1 operation(s) for securityroles.
-  name: Kaseya Security Roles API
-  slug: kaseya-securityroles-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The Service API from Kaseya — 8 operation(s) for service.
@@ -1902,11 +1732,6 @@ apis:
   slug: kaseya-settings-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The ShippingTypes API from Kaseya — 6 operation(s) for shippingtypes.
-  name: Kaseya Shipping Types API
-  slug: kaseya-shippingtypes-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The Skills API from Kaseya — 6 operation(s) for skills.
   name: Kaseya Skills API
   slug: kaseya-skills-api
@@ -1967,19 +1792,9 @@ apis:
   slug: kaseya-tagaliaseschild-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The TagGroups API from Kaseya — 7 operation(s) for taggroups.
-  name: Kaseya Tag Groups API
-  slug: kaseya-taggroups-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The Tags API from Kaseya — 7 operation(s) for tags.
   name: Kaseya Tags API
   slug: kaseya-tags-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The TaskAttachments API from Kaseya — 5 operation(s) for taskattachments.
-  name: Kaseya Task Attachments API
-  slug: kaseya-taskattachments-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The TaskAttachmentsChild API from Kaseya — 2 operation(s) for taskattachmentschild.
@@ -2037,24 +1852,9 @@ apis:
   slug: kaseya-tasksecondaryresourceschild-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The TaxCategories API from Kaseya — 7 operation(s) for taxcategories.
-  name: Kaseya Tax Categories API
-  slug: kaseya-taxcategories-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The Taxes API from Kaseya — 7 operation(s) for taxes.
   name: Kaseya Taxes API
   slug: kaseya-taxes-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The TaxRegions API from Kaseya — 7 operation(s) for taxregions.
-  name: Kaseya Tax Regions API
-  slug: kaseya-taxregions-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The TeamsChannel API from Kaseya — 6 operation(s) for teamschannel.
-  name: Kaseya Teams Channel API
-  slug: kaseya-teamschannel-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The TenantLookups API from Kaseya — 1 operation(s) for tenantlookups.
@@ -2085,11 +1885,6 @@ apis:
   description: The TicketAdditionalContactsChild API from Kaseya — 5 operation(s) for ticketadditionalcontactschild.
   name: Kaseya Ticket Additional Contacts Child API
   slug: kaseya-ticketadditionalcontactschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The TicketAttachments API from Kaseya — 5 operation(s) for ticketattachments.
-  name: Kaseya Ticket Attachments API
-  slug: kaseya-ticketattachments-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The TicketAttachmentsChild API from Kaseya — 2 operation(s) for ticketattachmentschild.
@@ -2272,11 +2067,6 @@ apis:
   slug: kaseya-ticketwebhookudffieldschild-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The TimeEntries API from Kaseya — 7 operation(s) for timeentries.
-  name: Kaseya Time Entries API
-  slug: kaseya-timeentries-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The TimeEntryAttachments API from Kaseya — 5 operation(s) for timeentryattachments.
   name: Kaseya Time Entry Attachments API
   slug: kaseya-timeentryattachments-api
@@ -2285,16 +2075,6 @@ apis:
   description: The TimeEntryAttachmentsChild API from Kaseya — 2 operation(s) for timeentryattachmentschild.
   name: Kaseya Time Entry Attachments Child API
   slug: kaseya-timeentryattachmentschild-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The TimeLogs API from Kaseya — 1 operation(s) for timelogs.
-  name: Kaseya Time Logs API
-  slug: kaseya-timelogs-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
-  description: The TimeOffRequests API from Kaseya — 6 operation(s) for timeoffrequests.
-  name: Kaseya Time Off Requests API
-  slug: kaseya-timeoffrequests-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
   description: The TimeOffRequestsApprove API from Kaseya — 3 operation(s) for timeoffrequestsapprove.
@@ -2427,11 +2207,6 @@ apis:
   slug: kaseya-warehouse-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The WebhookConfiguration API from Kaseya — 4 operation(s) for webhookconfiguration.
-  name: Kaseya Webhook Configuration API
-  slug: kaseya-webhookconfiguration-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The WebhookDeliveryLog API from Kaseya — 3 operation(s) for webhookdeliverylog.
   name: Kaseya Webhook Delivery Log API
   slug: kaseya-webhookdeliverylog-api
@@ -2462,14 +2237,239 @@ apis:
   slug: kaseya-worktypemodifiers-api
 - baseURL: https://api.bms.kaseya.com
   baseurl_source: declared
-  description: The WorkTypes API from Kaseya — 1 operation(s) for worktypes.
-  name: Kaseya Work Types API
-  slug: kaseya-worktypes-api
-- baseURL: https://api.bms.kaseya.com
-  baseurl_source: declared
   description: The ZoneInformationApiIntegration API from Kaseya — 1 operation(s) for zoneinformationapiintegration.
   name: Kaseya Zone Information API Integration API
   slug: kaseya-zoneinformationapiintegration-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Account Codes API from Kaseya — 1 operation(s) for account codes.
+  name: Kaseya Account Codes API
+  slug: kaseya-account-codes-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Account Types API from Kaseya — 1 operation(s) for account types.
+  name: Kaseya Account Types API
+  slug: kaseya-account-types-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The API Version API from Kaseya — 1 operation(s) for api version.
+  name: Kaseya API Version API
+  slug: kaseya-api-version-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Billing Codes API from Kaseya — 6 operation(s) for billing codes.
+  name: Kaseya Billing Codes API
+  slug: kaseya-billing-codes-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: 'The Company: Categories API from Kaseya — 7 operation(s) for company: categories.'
+  name: 'Kaseya Company: Categories API'
+  slug: kaseya-company-categories-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Company Locations API from Kaseya — 6 operation(s) for company locations.
+  name: Kaseya Company Locations API
+  slug: kaseya-company-locations-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Company Settings API from Kaseya — 1 operation(s) for company settings.
+  name: Kaseya Company Settings API
+  slug: kaseya-company-settings-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Contact Groups API from Kaseya — 7 operation(s) for contact groups.
+  name: Kaseya Contact Groups API
+  slug: kaseya-contact-groups-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Custom Fields API from Kaseya — 3 operation(s) for custom fields.
+  name: Kaseya Custom Fields API
+  slug: kaseya-custom-fields-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Document Attachments API from Kaseya — 5 operation(s) for document attachments.
+  name: Kaseya Document Attachments API
+  slug: kaseya-document-attachments-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Document Categories API from Kaseya — 7 operation(s) for document categories.
+  name: Kaseya Document Categories API
+  slug: kaseya-document-categories-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Email Templates API from Kaseya — 1 operation(s) for email templates.
+  name: Kaseya Email Templates API
+  slug: kaseya-email-templates-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Event Logs API from Kaseya — 1 operation(s) for event logs.
+  name: Kaseya Event Logs API
+  slug: kaseya-event-logs-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Expense Items API from Kaseya — 6 operation(s) for expense items.
+  name: Kaseya Expense Items API
+  slug: kaseya-expense-items-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Expense Reports API from Kaseya — 7 operation(s) for expense reports.
+  name: Kaseya Expense Reports API
+  slug: kaseya-expense-reports-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Expense Types API from Kaseya — 1 operation(s) for expense types.
+  name: Kaseya Expense Types API
+  slug: kaseya-expense-types-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Inventory Items API from Kaseya — 7 operation(s) for inventory items.
+  name: Kaseya Inventory Items API
+  slug: kaseya-inventory-items-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Inventory Locations API from Kaseya — 7 operation(s) for inventory locations.
+  name: Kaseya Inventory Locations API
+  slug: kaseya-inventory-locations-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Inventory Products API from Kaseya — 7 operation(s) for inventory products.
+  name: Kaseya Inventory Products API
+  slug: kaseya-inventory-products-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Invoice Templates API from Kaseya — 6 operation(s) for invoice templates.
+  name: Kaseya Invoice Templates API
+  slug: kaseya-invoice-templates-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Issue Types API from Kaseya — 2 operation(s) for issue types.
+  name: Kaseya Issue Types API
+  slug: kaseya-issue-types-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Job Title API from Kaseya — 1 operation(s) for job title.
+  name: Kaseya Job Title API
+  slug: kaseya-job-title-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Knowledge Base Articles API from Kaseya — 6 operation(s) for knowledge base articles.
+  name: Kaseya Knowledge Base Articles API
+  slug: kaseya-knowledge-base-articles-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Knowledge Base Categories API from Kaseya — 7 operation(s) for knowledge base categories.
+  name: Kaseya Knowledge Base Categories API
+  slug: kaseya-knowledge-base-categories-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Notification History API from Kaseya — 6 operation(s) for notification history.
+  name: Kaseya Notification History API
+  slug: kaseya-notification-history-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Payment Terms API from Kaseya — 7 operation(s) for payment terms.
+  name: Kaseya Payment Terms API
+  slug: kaseya-payment-terms-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Project Statuses API from Kaseya — 5 operation(s) for project statuses.
+  name: Kaseya Project Statuses API
+  slug: kaseya-project-statuses-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Purchase Orders API from Kaseya — 7 operation(s) for purchase orders.
+  name: Kaseya Purchase Orders API
+  slug: kaseya-purchase-orders-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Quote Items API from Kaseya — 6 operation(s) for quote items.
+  name: Kaseya Quote Items API
+  slug: kaseya-quote-items-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Quote Templates API from Kaseya — 6 operation(s) for quote templates.
+  name: Kaseya Quote Templates API
+  slug: kaseya-quote-templates-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Resource Roles API from Kaseya — 6 operation(s) for resource roles.
+  name: Kaseya Resource Roles API
+  slug: kaseya-resource-roles-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Sales Orders API from Kaseya — 7 operation(s) for sales orders.
+  name: Kaseya Sales Orders API
+  slug: kaseya-sales-orders-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Scheduler/Jobs API from Kaseya — 1 operation(s) for scheduler/jobs.
+  name: Kaseya Scheduler/Jobs API
+  slug: kaseya-scheduler-jobs-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Security/Roles API from Kaseya — 1 operation(s) for security/roles.
+  name: Kaseya Security/Roles API
+  slug: kaseya-security-roles-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Shipping Types API from Kaseya — 6 operation(s) for shipping types.
+  name: Kaseya Shipping Types API
+  slug: kaseya-shipping-types-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Tag Groups API from Kaseya — 7 operation(s) for tag groups.
+  name: Kaseya Tag Groups API
+  slug: kaseya-tag-groups-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Task Attachments API from Kaseya — 5 operation(s) for task attachments.
+  name: Kaseya Task Attachments API
+  slug: kaseya-task-attachments-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Tax Categories API from Kaseya — 7 operation(s) for tax categories.
+  name: Kaseya Tax Categories API
+  slug: kaseya-tax-categories-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Tax Regions API from Kaseya — 7 operation(s) for tax regions.
+  name: Kaseya Tax Regions API
+  slug: kaseya-tax-regions-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Teams channel API from Kaseya — 6 operation(s) for teams channel.
+  name: Kaseya Teams channel API
+  slug: kaseya-teams-channel-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Ticket Attachments API from Kaseya — 5 operation(s) for ticket attachments.
+  name: Kaseya Ticket Attachments API
+  slug: kaseya-ticket-attachments-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Time Entries API from Kaseya — 7 operation(s) for time entries.
+  name: Kaseya Time Entries API
+  slug: kaseya-time-entries-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Time Logs API from Kaseya — 1 operation(s) for time logs.
+  name: Kaseya Time Logs API
+  slug: kaseya-time-logs-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Time Off Requests API from Kaseya — 6 operation(s) for time off requests.
+  name: Kaseya Time Off Requests API
+  slug: kaseya-time-off-requests-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Webhook Configuration API from Kaseya — 4 operation(s) for webhook configuration.
+  name: Kaseya Webhook Configuration API
+  slug: kaseya-webhook-configuration-api
+- baseURL: https://api.itglue.com
+  baseurl_source: declared
+  description: The Work Types API from Kaseya — 1 operation(s) for work types.
+  name: Kaseya Work Types API
+  slug: kaseya-work-types-api
 artifact_total: 497
 asyncapis:
 - description: ''
@@ -2680,35 +2680,35 @@ modified: '2026-08-01'
 name: Kaseya
 nav: Providers
 network: true
-overview: 'Kaseya publishes 484 APIs on the [APIs.io](https://apis.io/) network, including Account Codes API, Account Invoice Settings API, Accounts API, and 481 more. Tagged areas include Company, IT Management, Managed Service Providers, Remote Monitoring and Management, and Professional Services Automation.
+overview: 'Kaseya publishes 484 APIs on the [APIs.io](https://apis.io/) network, including Account Invoice Settings API, Accounts API, Action Types API, and 481 more. Tagged areas include Company, IT Management, Managed Service Providers, Remote Monitoring and Management, and Professional Services Automation.
 
 
   The Kaseya catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Kaseya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, legal docs, and 34 more developer resources.'
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Kaseya Rate Limits
   slug: kaseya-rate-limits
 score:
-  band: developing
-  composite: 51.8
+  band: strong
+  composite: 54.6
   coverage:
     artifact_dirs: 20
-    catalog_earned: 39.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 54.0
+    contract_quality: 57.9
     developer_ergonomics: 63.7
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -2726,7 +2726,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

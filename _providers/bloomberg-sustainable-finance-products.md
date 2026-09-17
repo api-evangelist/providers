@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Access Bloomberg ESG scores, environmental KPIs, social metrics, and governance data for thousands of companies globally. Sourced from company disclosures and standardized for comparability across sec
@@ -50,6 +50,10 @@ apis:
   slug: sfdr-api
 artifact_total: 19
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -100,19 +104,19 @@ finops:
   slug: bloomberg-sustainable-finance-products-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-sustainable-finance-products.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Sustainable Finance Products
 nav: Providers
 network: true
 overview: 'Bloomberg Sustainable Finance Products publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sustainable Finance, ESG, Green Bonds, Climate Risk, and SFDR.
 
 
-  Bloomberg Sustainable Finance Products'' developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Sustainable Finance Products'' developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Sustainable Finance Products Plans Pricing
   plan_count: 3
   slug: bloomberg-sustainable-finance-products-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Bloomberg Sustainable Finance Products Rate Limits
@@ -137,7 +141,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -169,5 +173,5 @@ use_cases:
   name: Climate Risk Disclosure
 - description: Measure and report the environmental and social impact of investments.
   name: Impact Measurement
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

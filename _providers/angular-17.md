@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: Core Angular 17 framework APIs featuring stable Signals for reactive state management, deferrable views (@defer blocks) for lazy loading template dependencies, new built-in control flow syntax (@if, @
@@ -59,6 +59,10 @@ apis:
   slug: angular-cdk-api
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://angular.io
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/angular-17/refs/heads/main/security/angular-17-domain-security.yml
   title: ''
@@ -124,19 +128,19 @@ finops:
   slug: angular-17-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/angular-17.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Angular 17
 nav: Providers
 network: true
 overview: 'Angular 17 publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Deferrable Views, Framework, Frontend, JavaScript, and Open-Source.
 
 
-  Angular 17''s developer surface includes documentation, GitHub presence, changelog, engineering blog, Stack Overflow tag, and 9 more developer resources.'
+  Angular 17''s developer surface includes documentation, GitHub presence, changelog, engineering blog, Stack Overflow tag, and 10 more developer resources.'
 plans:
 - name: Angular 17 Plans Pricing
   plan_count: 3
   slug: angular-17-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Angular 17 Rate Limits
@@ -161,7 +165,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 17.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -184,4 +188,5 @@ tags:
 - Single Page Application
 - TypeScript
 - Web Development
+website: https://angular.io
 ---

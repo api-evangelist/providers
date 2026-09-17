@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Authentication-gated API gateway host for the Inovalon ONE Platform. The host responds with HTTP 401 to unauthenticated requests; no public OpenAPI or docs surface was retrievable (corporate site is W
@@ -77,7 +77,7 @@ name: Inovalon
 nav: Providers
 network: true
 overview: Inovalon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Data Analytics, Cloud Platform, and Risk Adjustment.
-random_paper: 9
+random_paper: 12
 score:
   band: emerging
   composite: 13.1
@@ -112,7 +112,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

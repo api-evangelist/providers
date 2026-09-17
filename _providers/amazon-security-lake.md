@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -103,6 +103,10 @@ collections:
   name: Amazon Security Lake API
   slug: open-amazon-security-lake
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/agentic-access/amazon-security-lake-agentic-access.yml
   title: ''
@@ -344,7 +348,7 @@ jsonld:
   property_count: 18
   slug: amazon-security-lake-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Security Lake
 nav: Providers
 network: true
@@ -354,12 +358,12 @@ overview: 'Amazon Security Lake publishes 3 APIs on the [APIs.io](https://apis.i
   The Amazon Security Lake catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Security Lake''s developer surface includes authentication, developer portal, getting-started guide, documentation, API reference, developer console, signup flow, and 33 more developer resources.'
+  Amazon Security Lake''s developer surface includes authentication, developer portal, getting-started guide, documentation, API reference, developer console, signup flow, and 34 more developer resources.'
 plans:
 - name: Amazon Security Lake Plans Pricing
   plan_count: 3
   slug: amazon-security-lake-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Amazon Security Lake Rate Limits
@@ -413,7 +417,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -455,5 +459,5 @@ use_cases:
   name: Security Analytics
 - description: Centralize security data from on-premises and other cloud providers alongside AWS security data.
   name: Multi-Cloud Security Data
-website: https://aws.amazon.com/security-lake/
+website: https://amazon.com
 ---

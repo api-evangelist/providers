@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: eqr-def14a_20200625.htm
   url: https://www.sec.gov/Archives/edgar/data/906107/000156459020017733/eqr-def14a_20200625.htm
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Equity Residential Rate Limits
@@ -161,7 +161,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

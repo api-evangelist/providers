@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'SPP''s officially documented programmatic interface to its public data. The SPP Public Data Access guide (v3.0, July 2023) names FTP as the programmatic access path for Integrated Marketplace, Western '
@@ -65,11 +65,6 @@ apis:
   slug: spp-monitoring-sets-api
 - baseURL: ftp://pubftp.spp.org
   baseurl_source: declared
-  description: If permitted by the Clearinghouse Provider, its Ratings Providers can use these functions to exchange real-time ratings, supplementing or replacing traditional telemetry protocols like ICCP. These rat
-  name: Southwest Power Pool Real Time API
-  slug: spp-real-time-api
-- baseURL: ftp://pubftp.spp.org
-  baseurl_source: declared
   description: Seasonal ratings are static ratings associated with extended durations, typically months. These are typically used in both planning and operations. Power system resources that are exempt from providin
   name: Southwest Power Pool Seasonal API
   slug: spp-seasonal-api
@@ -83,6 +78,11 @@ apis:
   description: A [Temporary AAR Exception](https://trolie.energy/concepts#temporary-aar-exception) is provided by the Ratings Provider when a Ratings Obligation cannot be fulfilled, due to some temporary operating c
   name: Southwest Power Pool Temporary AAR Exceptions API
   slug: spp-temporary-aar-exceptions-api
+- baseURL: ftp://pubftp.spp.org
+  baseurl_source: declared
+  description: If permitted by the Clearinghouse Provider, its Ratings Providers can use these functions to exchange real-time ratings, supplementing or replacing traditional telemetry protocols like ICCP.
+  name: Southwest Power Pool Realtime API
+  slug: spp-realtime-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -245,11 +245,11 @@ modified: '2026-07-27'
 name: Southwest Power Pool
 nav: Providers
 network: true
-overview: 'Southwest Power Pool publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Forecasting API, Monitoring Sets API, Real Time API, and 3 more. Tagged areas include Energy, United States, Energy Markets, Electricity, and Grid.
+overview: 'Southwest Power Pool publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Forecasting API, Monitoring Sets API, Seasonal API, and 3 more. Tagged areas include Energy, United States, Energy Markets, Electricity, and Grid.
 
 
   Southwest Power Pool''s developer surface includes authentication, sandbox, code examples, developer portal, documentation, getting-started guide, signup flow, and 23 more developer resources.'
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Spp Rate Limits
@@ -261,7 +261,7 @@ scopes:
   summary_line: 15 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.8
+  composite: 49.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 32.0
@@ -269,11 +269,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 63.2
+    contract_quality: 62.5
     developer_ergonomics: 62.5
     discoverability: 59.3
     operational_transparency: 5.3
@@ -300,7 +300,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

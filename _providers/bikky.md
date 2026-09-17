@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Bikky provides push-button API integrations with leading POS, online ordering, loyalty, and marketing providers, sending data in real time for most POS and ordering sources and nightly for reservation
@@ -136,7 +136,7 @@ plans:
 - name: Bikky Plans Pricing
   plan_count: 0
   slug: bikky-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Bikky Rate Limits
@@ -169,7 +169,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

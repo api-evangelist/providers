@@ -4,29 +4,29 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "54.3 – 66.4",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "band": "exemplar",
+   "label": "Exemplar",
+   "range": "66.5+",
+   "blurb": "Reference-quality API operations across every facet.",
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Aedifion",
      "slug": "aedifion",
      "description": "aedifion GmbH is a Cologne-based PropTech founded in 2017 that operates a vendor-neutral, patented cloud platform for the optimized operation of non-residential buildings. The platform ingests real-time operating data from all building trades via plug-and-play edge devices, applies analytics and AI to detect faults and inefficiencies, and autonomously controls HVAC and building services based on weather forecasts, occupancy and electricity prices - cutting energy use, CO2 emissions and operating costs by up to 40% without structural retrofits. Products span aedifion.io (connectivity and monitoring), aedifion.analytics, aedifion.controls, aedifion.dynamics (demand-side management) and aedifion.smartkit. Developers get a documented HTTP API (OpenAPI 3.0, 208 operations across projects, datapoints, timeseries, analytics, controls, alerts and tasks), an MQTT broker and a Kafka interface for streaming building telemetry. The company serves owners, operators and asset managers of commercial real estate and supports decarbonization, ESG reporting and DGNB, ISO 50001 and GEG certification.",
-     "score": 65.8,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 66.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 55.6,
+      "contract_quality": 59.2,
       "contract_governance": 18.2,
       "operational_transparency": 63.2,
       "developer_ergonomics": 66.1,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -59,24 +59,35 @@
       "agentic_commerce": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
     {
      "name": "FieldPulse",
      "slug": "fieldpulse",
      "description": "FieldPulse is an all-in-one field service management (FSM) platform, founded in 2015 and headquartered in Dallas, Texas, serving residential and commercial service contractors across HVAC/R, electrical, plumbing, garage door, locksmith, appliance repair, fire and security, septic, glass, and property management trades. The platform combines scheduling and dispatch, customer and job management, estimates, invoices, payments, purchase orders, material lists, timesheets, projects, custom forms, reporting, and workflow automation, with add-on products for VoIP (Engage), Operator AI, Pricebook, FieldPulse Payments, and fleet tracking. FieldPulse publishes a public REST API — the \"Open API\", available on the Enterprise plan — documented on a Mintlify docs site with a machine-readable OpenAPI 3.0 definition covering 57 paths and 109 operations across 25 resource areas, authenticated with an x-api-key header issued by support, rate limited to 50 requests per second, plus an outbound webhook surface for job, estimate, and invoice events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png",
-     "score": 61.4,
+     "score": 61.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 67.1,
+      "contract_quality": 66.9,
       "contract_governance": 4.5,
       "operational_transparency": 65.8,
       "developer_ergonomics": 68.5,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -126,18 +137,18 @@
      "slug": "carrier-global",
      "description": "Carrier Global Corporation is a global provider of healthy, safe, sustainable, and intelligent building and cold-chain solutions, spanning HVAC, refrigeration, fire, security, and building automation technologies. Its digital ecosystem includes the Lynx Fleet telematics platform (Lynx APIs for transport refrigeration units and marine containers), the Abound building management platform, i-Vu and Carrier Comfort Network for commercial building automation, and the Carrier SmartHome app for residential smart thermostats. Lynx Fleet is the only Carrier product publishing machine-readable API contracts: three OpenAPI 3.0.0 documents covering 16 operations across truck/trailer telematics, two-way refrigeration control and container telemetry, served through the developer portal's public GraphQL backend rather than as static files.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/screenshots/carrier-global-2026-06-20T174016.png",
-     "score": 52.5,
+     "score": 53.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 64.2,
+      "contract_quality": 67.8,
       "contract_governance": 19.7,
       "operational_transparency": 39.5,
       "developer_ergonomics": 54.2,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 41.5,
      "agent_band": "agent-ready",
@@ -180,7 +191,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -223,7 +234,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -261,18 +272,18 @@
      "name": "VergeSense",
      "slug": "vergesense",
      "description": "VergeSense is the occupancy intelligence platform for corporate real estate and workplace teams. It combines first-party AI-powered area, entryway and infinity sensors with a cloud analytics platform (Meridian, including a Large Spatial Model) to measure how buildings, floors, neighborhoods and individual spaces are actually used. The public VergeSense API is a key-authenticated REST surface at api.vergesense.com covering buildings, floors, spaces, space types, detections, threshold crossings, hourly and aggregate occupancy metrics, hardware inventory (sensors and gateways), a Predict API built on the Large Spatial Model, and a fully managed webhook subscription surface that pushes space_report, space_availability and motion_detected events to customer endpoints. Collection responses follow the JSON:API specification, timestamps are ISO 8601, and the API is date-versioned (YYYY-MM-DD) via the vs-version request header. VergeSense also operates an OAuth-protected remote MCP server at mcp.vergesense.com for agent access.",
-     "score": 49.1,
+     "score": 50.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 63.6,
+      "contract_quality": 68.7,
       "contract_governance": 18.2,
       "operational_transparency": 55.3,
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 43.3,
      "agent_band": "agent-ready",
@@ -315,7 +326,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 50.2,
      "agent_band": "agent-ready",
@@ -358,7 +369,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -400,7 +411,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -450,7 +461,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -493,7 +504,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -521,72 +532,22 @@
      "rank": 11
     },
     {
-     "name": "PassiveLogic",
-     "slug": "passivelogic",
-     "description": "PassiveLogic builds a physics-based autonomy platform for buildings and industrial systems — the Hive, Hive Mini and Cell edge controllers, the Sense wireless sensor line, and the Autonomy Suite design/operate applications (Blueprint, Creator, Lens, Live, Portfolio, Qortex). Its software core is Quantum, an open physics-based digital twin ontology and data model for autonomous systems, developed with the U.S. Department of Energy and the Quantum Alliance consortium. The Quantum API is exposed as a GraphQL query and subscription surface over the digital twin graph, sat behind a documented HTTP REST API covering authentication, API-key issuance, organizations, auth groups, images, bindings, device registration, CSV property-history export and QuantumSync WebSocket data sync. Authentication is handled by an external Keycloak identity provider (OpenID Connect) with JWT, XSRF-protected session tokens and long-lived PL API keys.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/screenshots/passivelogic-2026-08-07T191536.png",
-     "score": 40.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 56.3,
-      "contract_governance": 8.3,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 42.3,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 45.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
-    {
      "name": "Verdigris Technologies",
      "slug": "verdigris-technologies",
      "description": "Verdigris Technologies builds AI-powered building energy intelligence, pairing proprietary current-sensor hardware clamped onto a building's electrical panels with cloud software that monitors every circuit in real time. The Verdigris API exposes that telemetry through OAuth2-secured REST endpoints (the Data API v4): energy, power, voltage, current, power factor, total harmonic distortion, weather, energy forecasts, building controls, and high-resolution Pro Capture waveforms, all queryable at building, panel, circuit, and breaker granularity with batch variants for pulling many entities in a single request. Developers use it to power enterprise data lakes, internal power-monitoring dashboards, and sustainability and energy-optimization applications for smart buildings.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/screenshots/verdigris-technologies-2026-08-17T082727.png",
-     "score": 40.4,
+     "score": 40.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 56.5,
+      "contract_quality": 56.1,
       "contract_governance": 4.5,
       "operational_transparency": 2.6,
       "developer_ergonomics": 39.9,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -618,10 +579,59 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 12
+    },
+    {
+     "name": "PassiveLogic",
+     "slug": "passivelogic",
+     "description": "PassiveLogic builds a physics-based autonomy platform for buildings and industrial systems — the Hive, Hive Mini and Cell edge controllers, the Sense wireless sensor line, and the Autonomy Suite design/operate applications (Blueprint, Creator, Lens, Live, Portfolio, Qortex). Its software core is Quantum, an open physics-based digital twin ontology and data model for autonomous systems, developed with the U.S. Department of Energy and the Quantum Alliance consortium. The Quantum API is exposed as a GraphQL query and subscription surface over the digital twin graph, sat behind a documented HTTP REST API covering authentication, API-key issuance, organizations, auth groups, images, bindings, device registration, CSV property-history export and QuantumSync WebSocket data sync. Authentication is handled by an external Keycloak identity provider (OpenID Connect) with JWT, XSRF-protected session tokens and long-lived PL API keys.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/screenshots/passivelogic-2026-08-07T191536.png",
+     "score": 40.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 53.0,
+      "contract_governance": 8.3,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 42.3,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 45.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
      "rank": 13
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "thin",
@@ -647,7 +657,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -690,7 +700,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -722,18 +732,18 @@
      "slug": "brick",
      "description": "BRICK is an open-source community-driven ontology standard for standardizing semantic descriptions of physical, logical, and virtual assets in buildings and the relationships between them. Using Semantic Web (RDF/OWL) technology, BRICK v1.4.4 enables interoperability across building management systems, reducing the cost of deploying analytics and energy efficiency initiatives. It supports HVAC, lighting, fire, security, and other building subsystems under a unified extensible vocabulary with SHACL-based validation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/screenshots/brick-2026-06-20T173653.png",
-     "score": 37.3,
+     "score": 37.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 44.2,
+      "contract_quality": 45.2,
       "contract_governance": 22.0,
       "operational_transparency": 18.4,
       "developer_ergonomics": 54.2,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -783,7 +793,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -833,7 +843,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -882,7 +892,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -925,7 +935,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -975,7 +985,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -1018,7 +1028,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -1061,7 +1071,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1111,7 +1121,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1154,7 +1164,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1204,7 +1214,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1264,7 +1274,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -1307,7 +1317,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1356,7 +1366,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1399,7 +1409,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1456,7 +1466,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1506,7 +1516,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1556,7 +1566,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1606,7 +1616,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1656,7 +1666,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1698,7 +1708,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1741,7 +1751,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1783,7 +1793,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1833,7 +1843,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1883,7 +1893,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1926,7 +1936,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1969,7 +1979,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2019,7 +2029,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2069,7 +2079,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2112,7 +2122,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2155,7 +2165,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2205,7 +2215,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2255,7 +2265,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2298,7 +2308,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2350,7 +2360,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2400,7 +2410,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2443,7 +2453,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2493,7 +2503,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2543,7 +2553,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2593,7 +2603,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2643,7 +2653,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2693,7 +2703,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2736,7 +2746,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2778,7 +2788,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2821,7 +2831,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2864,7 +2874,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2906,7 +2916,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2956,7 +2966,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2998,7 +3008,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3041,7 +3051,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3084,7 +3094,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3176,7 +3186,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3225,7 +3235,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3268,7 +3278,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3317,7 +3327,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3367,7 +3377,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3417,7 +3427,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

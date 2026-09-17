@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ modified: '2026-06-21'
 name: CharlieHR
 nav: Providers
 network: true
-overview: 'CharlieHR publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Company API, Leave / Absences API, Leave Allowances API, and 1 more. Tagged areas include HR, HRIS, People, Leave, and Time Off.
+overview: 'CharlieHR publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Company API, Leave / Absences API, Leave Allowances API, and 1 more. Tagged areas include Human Resources, HRIS, People, Leave, and Time Off.
 
 
   CharlieHR''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -165,7 +165,7 @@ plans:
 - name: Charliehr Plans Pricing
   plan_count: 4
   slug: charliehr-plans-pricing
-random_paper: 1
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Charliehr Rate Limits
@@ -202,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -224,7 +224,7 @@ security:
   summary_line: ISO 27001, GDPR
 slug: charliehr
 tags:
-- HR
+- Human Resources
 - HRIS
 - People
 - Leave

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ apis:
 - baseURL: https://api.uber.com
   baseurl_source: declared
   description: The Eats API from Uber Eats — 9 operation(s) for eats.
-  name: Uber Eats Eats API
+  name: Uber Eats API
   slug: uber-eats-eats-api
 artifact_total: 71
 collections:
@@ -354,11 +354,11 @@ jsonld:
   property_count: 58
   slug: uber-eats-uber-direct-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-16'
 name: Uber Eats
 nav: Providers
 network: true
-overview: 'Uber Eats publishes 2 APIs on the [APIs.io](https://apis.io/) network: Customers API and Eats API. Tagged areas include Uber Eats, Uber Direct, Food Delivery, Last-Mile Logistics, and Restaurant.
+overview: 'Uber Eats publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Customers API, and 1 more. Tagged areas include Uber Eats, Uber Direct, Food Delivery, Last-Mile Logistics, and Restaurant.
 
 
   The Uber Eats catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -369,7 +369,7 @@ plans:
 - name: Uber Eats Plans Pricing
   plan_count: 6
   slug: uber-eats-plans-pricing
-random_paper: 1
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Uber Eats Rate Limits
@@ -427,7 +427,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

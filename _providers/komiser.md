@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Open-source cloud cost inspector providing cost visibility, optimization recommendations, security checks, and governance across multi-cloud environments. Distributed as a self-hosted dashboard with G
@@ -102,7 +102,7 @@ plans:
 - name: Komiser Plans Pricing
   plan_count: 3
   slug: komiser-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Komiser Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 16.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

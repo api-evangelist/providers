@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -98,11 +98,6 @@ apis:
   slug: airslate-invites-api
 - baseURL: https://www.airslate.com/workflow
   baseurl_source: declared
-  description: The OAuth API from airSlate — 1 operation(s) for oauth.
-  name: airSlate OAuth API
-  slug: airslate-oauth-api
-- baseURL: https://www.airslate.com/workflow
-  baseurl_source: declared
   description: The Smart Fields API from airSlate — 1 operation(s) for smart fields.
   name: airSlate Smart Fields API
   slug: airslate-smart-fields-api
@@ -121,6 +116,11 @@ apis:
   description: The Webhooks API from airSlate — 2 operation(s) for webhooks.
   name: airSlate Webhooks API
   slug: airslate-webhooks-api
+- baseURL: https://www.airslate.com/workflow
+  baseurl_source: declared
+  description: The OAuth API from airSlate — 1 operation(s) for oauth.
+  name: airSlate O Auth API
+  slug: airslate-oauth-api
 artifact_total: 37
 collections:
 - collection_type: open
@@ -222,7 +222,7 @@ plans:
 - name: Airslate Plans Pricing
   plan_count: 1
   slug: airslate-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Airslate Rate Limits
@@ -254,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

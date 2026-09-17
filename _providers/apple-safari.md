@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: API for building Safari Web Extensions that extend and customize the browsing experience.
@@ -264,7 +264,7 @@ plans:
 - name: Apple Safari Plans Pricing
   plan_count: 3
   slug: apple-safari-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Apple Safari Rate Limits
@@ -293,7 +293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

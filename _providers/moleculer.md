@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Moleculer is a fast, modern, and powerful microservices framework for Node.js. It provides built-in service discovery, load balancing, fault tolerance with circuit breaker, request retries, distribute
@@ -117,7 +117,7 @@ modified: '2026-04-28'
 name: Moleculer
 nav: Providers
 network: true
-overview: 'Moleculer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fault Tolerance, Frameworks, JavaScript, Load Balancing, and Microservices.
+overview: 'Moleculer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fault Tolerance, Framework, JavaScript, Load Balancing, and Microservices.
 
 
   The Moleculer catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -128,7 +128,7 @@ plans:
 - name: Moleculer Plans Pricing
   plan_count: 3
   slug: moleculer-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Moleculer Rate Limits
@@ -167,7 +167,7 @@ score:
     score: 100.0
   previous_composite: 32.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ security:
 slug: moleculer
 tags:
 - Fault Tolerance
-- Frameworks
+- Framework
 - JavaScript
 - Load Balancing
 - Microservices

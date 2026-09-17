@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Pico API let developers build custom workflows and integrations on the Pico creator platform — including searching and managing contacts across an account. Every request authenticated with an X-Ap
@@ -96,7 +96,7 @@ modified: '2026-08-13'
 name: Pico
 nav: Providers
 network: true
-overview: 'Pico publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, CRM, Memberships, and Payments.
+overview: 'Pico publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, CRM, Membership, and Payments.
 
 
   Pico''s developer surface includes support, authentication, and 5 more developer resources.'
@@ -104,7 +104,7 @@ plans:
 - name: Pico Plans Pricing
   plan_count: 0
   slug: pico-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Pico Rate Limits
@@ -135,7 +135,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -156,7 +156,7 @@ tags:
 - Company
 - Creator Economy
 - CRM
-- Memberships
+- Membership
 - Payments
 - Email Marketing
 - Newsletters

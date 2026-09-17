@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -130,6 +130,10 @@ collections:
   name: Flagsmith Admin Environments Webhooks API
   slug: open-flagsmith-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://flagsmith.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/agentic-access/flagsmith-agentic-access.yml
   title: ''
@@ -183,7 +187,7 @@ jsonld:
   property_count: 9
   slug: flagsmith-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Flagsmith
 nav: Providers
 network: true
@@ -193,12 +197,12 @@ overview: 'Flagsmith publishes 9 APIs on the [APIs.io](https://apis.io/) network
   The Flagsmith catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Flagsmith''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
+  Flagsmith''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
 plans:
 - name: Flagsmith Plans Pricing
   plan_count: 3
   slug: flagsmith-plans-pricing
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Flagsmith Rate Limits
@@ -256,7 +260,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -272,4 +276,5 @@ security:
   slug: flagsmith-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: flagsmith
+website: https://flagsmith.com
 ---

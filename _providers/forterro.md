@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,11 +125,11 @@ modified: '2026-07-19'
 name: Forterro
 nav: Providers
 network: true
-overview: 'Forterro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ERP, Enterprise Resource Planning, Industrial Software, and Manufacturing.
+overview: 'Forterro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ERP, Industrial Software, Manufacturing, and Warehouse Management.
 
 
   Forterro''s developer surface includes support, engineering blog, product news, and 16 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: emerging
   composite: 12.1
@@ -156,7 +156,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 12.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +176,6 @@ slug: forterro
 tags:
 - Company
 - ERP
-- Enterprise Resource Planning
 - Industrial Software
 - Manufacturing
 - Warehouse Management

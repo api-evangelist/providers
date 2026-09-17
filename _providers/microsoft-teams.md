@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -93,7 +93,7 @@ apis:
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: Operations for managing teams.
-  name: Microsoft Teams Teams API
+  name: Microsoft Teams API
   slug: microsoft-teams-teams-api
 arazzos:
 - description: Add a member to a team and post a welcome message to a chosen channel.
@@ -574,7 +574,7 @@ jsonld:
   property_count: 22
   slug: microsoft-teams-graph-api-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Microsoft Teams
 nav: Providers
 network: true
@@ -589,7 +589,7 @@ plans:
 - name: Microsoft Teams Plans Pricing
   plan_count: 3
   slug: microsoft-teams-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Microsoft Teams Rate Limits
@@ -661,7 +661,7 @@ score:
       total: 9
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

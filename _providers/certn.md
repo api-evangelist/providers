@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-07-03'
 name: Certn
 nav: Providers
 network: true
-overview: 'Certn publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Checks API, Packages API, and 3 more. Tagged areas include Background Checks, Identity Verification, Criminal Record Check, Screening, and HR Tech.
+overview: 'Certn publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Checks API, Packages API, and 3 more. Tagged areas include Background Checks, Identity Verification, Criminal Record Check, Screening, and Human Resources.
 
 
   Certn''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -177,7 +177,7 @@ plans:
 - name: Certn Plans Pricing
   plan_count: 4
   slug: certn-plans-pricing
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Certn Rate Limits
@@ -209,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -234,7 +234,7 @@ tags:
 - Identity Verification
 - Criminal Record Check
 - Screening
-- HR Tech
+- Human Resources
 - Compliance
 - Trust and Safety
 website: https://certn.co

@@ -34,29 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
-- baseURL: https://centaur.reading.ac.uk/cgi/oai2
-  baseurl_source: declared
-  description: 'OAI-PMH 2.0 metadata harvesting interface for CentAUR, the Central Archive at the University of Reading — the institutional repository of the university''s research outputs. Operated by the university '
-  name: CentAUR OAI-PMH Metadata API
-  slug: centaur-oai-pmh
-- baseURL: https://researchdata.reading.ac.uk/cgi/oai2
-  baseurl_source: declared
-  description: OAI-PMH 2.0 metadata harvesting interface for the University of Reading Research Data Archive, the institution's multidisciplinary service for registering, preserving and publishing research datasets.
-  name: Research Data Archive OAI-PMH Metadata API
-  slug: research-data-archive-oai-pmh
-- baseURL: https://centaur.reading.ac.uk/rest/
-  baseurl_source: declared
-  description: The read-only EPrints REST interface on CentAUR. GET /rest/ returns the dataset index (eprint, user, subject) and GET /rest/eprint/ enumerates every record id — 6.5 MB of ids at probe time — each link
-  name: CentAUR Repository REST Listings
-  slug: centaur-eprints-rest
-- baseURL: https://researchdata.reading.ac.uk/rest/
-  baseurl_source: declared
-  description: The same read-only EPrints REST interface on the Research Data Archive host. GET /rest/, /rest/eprint/ (47 KB of dataset ids) and /rest/subject/ each returned 200 unauthenticated on 2026-09-01; GET /r
-  name: Research Data Archive REST Listings
-  slug: research-data-archive-eprints-rest
 - description: The University of Reading's own SAML identity provider entity, registered in the UK Access Management Federation and published in eduGAIN. entityID https://reading.ac.uk/oala/metadata, OrganizationNam
   name: UK Access Management Federation Identity Provider Entity
   slug: uk-federation-idp
@@ -87,7 +67,17 @@ apis:
 - description: 'Student and staff timetabling at timetable.reading.ac.uk. Operator is the institution — the host is the university''s own registrable domain and the deployment is theirs — while the application itself '
   name: CMISGo Timetabling (gated)
   slug: timetable
-artifact_total: 21
+- baseURL: https://centaur.reading.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs served by the repository at /cgi/oai2.
+  name: University of Reading OAI PMH API
+  slug: university-of-reading-oai-pmh-api
+- baseURL: https://centaur.reading.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: Read-only EPrints REST dataset listings served by the university's repositories.
+  name: University of Reading Repository API
+  slug: university-of-reading-repository-api
+artifact_total: 19
 common:
 - group: company
   title: ''
@@ -207,7 +197,7 @@ modified: '2026-09-01'
 name: University of Reading
 nav: Providers
 network: true
-overview: 'University of Reading publishes 4 APIs on the [APIs.io](https://apis.io/) network, including CentAUR OAI-PMH Metadata API, Research Data Archive OAI-PMH Metadata API, CentAUR Repository REST Listings, and 1 more. Tagged areas include University, Higher Education, Education, Research, and Research Repository.
+overview: 'University of Reading publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAI PMH API and Repository API. Tagged areas include University, Higher Education, Education, Research, and Research Repository.
 
 
   The University of Reading catalog on APIs.io includes 1 JSON-LD context.
@@ -218,14 +208,14 @@ plans:
 - name: University Of Reading Plans Pricing
   plan_count: 2
   slug: university-of-reading-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: University Of Reading Rate Limits
   slug: university-of-reading-rate-limits
 score:
-  band: thin
-  composite: 38.1
+  band: developing
+  composite: 47.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 67.0
@@ -233,11 +223,11 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.2
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 19.8
+    contract_quality: 56.6
     developer_ergonomics: 28.6
     discoverability: 74.1
     operational_transparency: 21.1
@@ -254,9 +244,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
-      marker_coverage: 100.0
-      total: 3
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
@@ -264,8 +254,8 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

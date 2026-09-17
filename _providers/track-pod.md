@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: track-pod-order-api
 - baseURL: https://api.track-pod.com
   baseurl_source: declared
-  description: The RejectReason API from Track-POD — 1 operation(s) for rejectreason.
-  name: Track-POD RejectReason API
-  slug: track-pod-rejectreason-api
-- baseURL: https://api.track-pod.com
-  baseurl_source: declared
   description: The Route API from Track-POD — 24 operation(s) for route.
   name: Track-POD Route API
   slug: track-pod-route-api
@@ -85,6 +80,11 @@ apis:
   description: The VehicleCheck API from Track-POD — 3 operation(s) for vehiclecheck.
   name: Track-POD VehicleCheck API
   slug: track-pod-vehiclecheck-api
+- baseURL: https://api.track-pod.com
+  baseurl_source: declared
+  description: The Reject Reason API from Track-POD — 1 operation(s) for reject reason.
+  name: Track-POD Reject Reason API
+  slug: track-pod-reject-reason-api
 artifact_total: 60
 collections:
 - collection_type: postman
@@ -331,7 +331,7 @@ plans:
 - name: Track Pod Plans Pricing
   plan_count: 8
   slug: track-pod-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Track Pod Rate Limits
@@ -360,7 +360,7 @@ rules:
   slug: track-pod-rules
 score:
   band: strong
-  composite: 57.4
+  composite: 56.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 88.5
@@ -368,11 +368,11 @@ score:
     catalog_gap: 26.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 73.7
     contract_governance: 28.8
-    contract_quality: 63.9
+    contract_quality: 58.6
     developer_ergonomics: 48.8
     discoverability: 68.5
     operational_transparency: 39.5
@@ -380,12 +380,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

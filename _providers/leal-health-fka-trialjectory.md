@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Private platform API host backing the Leal Health patient-matching web application and the Patient Match Optimizer dashboard. Verified live on 2026-07-19: the root path returns HTTP 200 with a {"succe'
@@ -108,7 +108,7 @@ overview: 'Leal Health (fka TrialJectory) publishes 1 API on the [APIs.io](https
 
 
   Leal Health (fka TrialJectory)''s developer surface includes signup flow, support, FAQ, and 10 more developer resources.'
-random_paper: 0
+random_paper: 21
 score:
   band: emerging
   composite: 16.1
@@ -141,7 +141,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Validate email addresses, phone numbers, VAT numbers and domain names
@@ -69,7 +69,7 @@ name: Cloudmersive Validate
 nav: Providers
 network: true
 overview: Cloudmersive Validate publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Email and Public APIs.
-random_paper: 1
+random_paper: 7
 score:
   band: minimal
   composite: 7.6
@@ -90,7 +90,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

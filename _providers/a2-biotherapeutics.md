@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://www.a2bio.com/wp-json/
@@ -227,7 +227,7 @@ overview: 'A2 Biotherapeutics publishes 5 APIs on the [APIs.io](https://apis.io/
 
 
   A2 Biotherapeutics'' developer surface includes engineering blog, authentication, and 25 more developer resources.'
-random_paper: 18
+random_paper: 21
 scopes:
 - name: A2 Biotherapeutics Scopes
   scope_count: 1
@@ -273,7 +273,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

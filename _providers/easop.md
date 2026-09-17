@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,11 +81,11 @@ modified: '2026-07-18'
 name: Easop
 nav: Providers
 network: true
-overview: 'Easop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Equity Compensation, Stock Options, and HR Tech.
+overview: 'Easop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Applicative Saas, Equity Compensation, Stock Options, and Human Resources.
 
 
   Easop''s developer surface includes engineering blog, signup flow, support, and 6 more developer resources.'
-random_paper: 11
+random_paper: 8
 score:
   band: emerging
   composite: 11.9
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -124,7 +124,7 @@ tags:
 - Applicative Saas
 - Equity Compensation
 - Stock Options
-- HR Tech
+- Human Resources
 - Legal Operations
 - Global Compliance
 - Cap Table

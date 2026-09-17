@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,11 +113,11 @@ modified: '2026-07-20'
 name: Mito Ai
 nav: Providers
 network: true
-overview: 'Mito Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Analytics, Jupyter, Spreadsheet, and Artificial Intelligence.
+overview: 'Mito Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Analytics, Jupyter, Spreadsheets, and Artificial Intelligence.
 
 
   Mito Ai''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 8 more developer resources.'
-random_paper: 16
+random_paper: 6
 score:
   band: emerging
   composite: 21.9
@@ -140,7 +140,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +157,7 @@ tags:
 - Company
 - Data Analytics
 - Jupyter
-- Spreadsheet
+- Spreadsheets
 - Artificial Intelligence
 - Python
 - Data Science

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -130,14 +130,14 @@ apis:
   slug: coin-metrics-taxonomy-metadata-api
 - baseURL: https://api.coinmetrics.io/v4
   baseurl_source: declared
-  description: Endpoints for fetching metrics, market data, indexes and other time series data.
-  name: Coin Metrics Timeseries API
-  slug: coin-metrics-timeseries-api
-- baseURL: https://api.coinmetrics.io/v4
-  baseurl_source: declared
   description: WebSocket endpoints for getting a real-time stream of metrics, market data, indexes and other time series data.
   name: Coin Metrics Timeseries stream API
   slug: coin-metrics-timeseries-stream-api
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Endpoints for fetching metrics, market data, indexes and other time series data.
+  name: Coin Metrics Time Series API
+  slug: coin-metrics-time-series-api
 artifact_total: 44
 asyncapis:
 - description: WebSocket streaming surface of the Coin Metrics API v4, derived from the published OpenAPI 3.0.2 definition (timeseries-stream tag). Real-time streams of metrics, market trades, quotes, order books, c
@@ -205,6 +205,11 @@ collections:
   name: Coin Metrics API v4 Blockchain Explorer Job Timeseries stream API
   slug: open-coin-metrics-timeseries-stream-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/overlays/coin-metrics-timeseries-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/coin-metrics-timeseries-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/security/coin-metrics-domain-security.yml
   title: ''
@@ -364,8 +369,8 @@ overview: 'Coin Metrics publishes 19 APIs on the [APIs.io](https://apis.io/) net
   The Coin Metrics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coin Metrics'' developer surface includes authentication, developer portal, documentation, engineering blog, pricing, support, API reference, and 25 more developer resources.'
-random_paper: 11
+  Coin Metrics'' developer surface includes authentication, developer portal, documentation, engineering blog, pricing, support, API reference, and 26 more developer resources.'
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Coin Metrics Rate Limits
@@ -411,7 +416,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -433,7 +438,7 @@ tags:
 - Crypto
 - Blockchain
 - On-Chain Data
-- Indexes
+- Index
 - Reference Rates
 - Order Book
 - Real-Time

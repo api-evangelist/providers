@@ -30,7 +30,7 @@ name: IMAP
 nav: Providers
 network: true
 overview: IMAP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Email, IMAP, Messaging, and Protocol.
-random_paper: 3
+random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/imap/refs/heads/main/screenshots/imap-2026-06-20T183242.png
 security:
 - kind: domain-security

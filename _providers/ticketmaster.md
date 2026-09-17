@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Ticketmaster Agentic Access
-  operation_count: 2
+  operation_count: 11
   slug: ticketmaster-agentic-access
-  summary_line: 2 operations
+  summary_line: 11 operations
 api_count: 2
 apis:
 - description: The Ticketmaster Partner API is a restricted API for authorized distribution partners that enables reserving, purchasing, and retrieving ticket and event information programmatically. Authentication u
@@ -231,7 +231,7 @@ plans:
 - name: Ticketmaster Plans Pricing
   plan_count: 2
   slug: ticketmaster-plans-pricing
-random_paper: 15
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Ticketmaster Rate Limits
@@ -285,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://action.parabol.co/graphql
@@ -204,7 +204,7 @@ overview: 'Parabol publishes 1 API on the [APIs.io](https://apis.io/) network: G
 
 
   Parabol''s developer surface includes API reference, documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 2
+random_paper: 11
 scopes:
 - name: Parabol Scopes
   scope_count: 16
@@ -234,7 +234,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

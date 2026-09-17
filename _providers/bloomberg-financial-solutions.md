@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Core Bloomberg API providing real-time and reference data access for financial applications across trading, risk, analytics, and compliance workflows.
@@ -47,6 +47,10 @@ apis:
   slug: aim-api
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -99,19 +103,19 @@ finops:
   slug: bloomberg-financial-solutions-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-financial-solutions.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Financial Solutions
 nav: Providers
 network: true
 overview: 'Bloomberg Financial Solutions publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Solutions, Market Data, Analytics, Trading, and Risk Management.
 
 
-  Bloomberg Financial Solutions'' developer surface includes developer portal, documentation, support, and 5 more developer resources.'
+  Bloomberg Financial Solutions'' developer surface includes developer portal, documentation, support, and 6 more developer resources.'
 plans:
 - name: Bloomberg Financial Solutions Plans Pricing
   plan_count: 3
   slug: bloomberg-financial-solutions-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Bloomberg Financial Solutions Rate Limits
@@ -142,7 +146,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -171,5 +175,5 @@ use_cases:
   name: Risk Management
 - description: FX, fixed income, and liquidity management solutions for corporates.
   name: Corporate Treasury
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

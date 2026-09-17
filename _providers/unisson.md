@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 28
@@ -69,11 +69,6 @@ apis:
   description: The analytics API from Unisson — 1 operation(s) for analytics.
   name: Unisson analytics API
   slug: unisson-analytics-api
-- baseURL: https://api.unisson.ai
-  baseurl_source: declared
-  description: The apis API from Unisson — 12 operation(s) for apis.
-  name: Unisson apis API
-  slug: unisson-apis-api
 - baseURL: https://api.unisson.ai
   baseurl_source: declared
   description: The appdb API from Unisson — 7 operation(s) for appdb.
@@ -142,7 +137,7 @@ apis:
 - baseURL: https://api.unisson.ai
   baseurl_source: declared
   description: The external-api API from Unisson — 5 operation(s) for external-api.
-  name: Unisson external-api API
+  name: Unisson external-api
   slug: unisson-external-api-api
 - baseURL: https://api.unisson.ai
   baseurl_source: declared
@@ -252,7 +247,7 @@ apis:
 - baseURL: https://api.unisson.ai
   baseurl_source: declared
   description: The Unisson API from Unisson — 1 operation(s) for unisson.
-  name: Unisson Unisson API
+  name: Unisson API
   slug: unisson-unisson-api
 - baseURL: https://api.unisson.ai
   baseurl_source: declared
@@ -269,6 +264,11 @@ apis:
   description: The widget API from Unisson — 10 operation(s) for widget.
   name: Unisson widget API
   slug: unisson-widget-api
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The apis API from Unisson — 12 operation(s) for apis.
+  name: Unisson APIS API
+  slug: unisson-apis-api
 artifact_total: 96
 asyncapis:
 - description: ''
@@ -520,7 +520,7 @@ common:
 created: '2026-07-17'
 description: Unisson (YC W26) builds AI agents that act as subject-matter experts for B2B software implementation and customer-facing teams. Its Runner agent executes complex deployment, onboarding, and administration tasks directly inside a product, while Explorer maintains an always up-to-date knowledge base of how the product works. Agents are reachable over Slack, Microsoft Teams, WhatsApp, email, and an embeddable widget, and the platform exposes a bearer-token REST API (api.unisson.ai) covering agents, runs, scheduled runs, skills, knowledge base, integrations, customers, meetings, and an external Runner API for triggering runs and receiving webhook callbacks from your own tools.
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Unisson
 nav: Providers
 network: true
@@ -531,10 +531,10 @@ overview: 'Unisson publishes 45 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Unisson''s developer surface includes authentication, support, and 20 more developer resources.'
-random_paper: 6
+random_paper: 13
 score:
   band: thin
-  composite: 38.4
+  composite: 37.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 35.0
@@ -542,11 +542,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 63.1
+    contract_quality: 59.1
     developer_ergonomics: 18.5
     discoverability: 64.8
     operational_transparency: 7.9
@@ -555,14 +555,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 45
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

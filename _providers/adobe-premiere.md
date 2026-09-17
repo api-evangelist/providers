@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,22 +27,22 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-09-15'
+  score: 40.0
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 5
+- acting_count: 17
   human_in_the_loop: 0
   name: Adobe Premiere Agentic Access
-  operation_count: 10
+  operation_count: 28
   slug: adobe-premiere-agentic-access
-  summary_line: 10 operations · 5 acting
+  summary_line: 28 operations · 17 acting
 api_count: 1
 apis:
 - description: Adobe Premiere Pro extension APIs using UXP (Unified Extensibility Platform) and CEP (Common Extensibility Platform) for building plugins and panels that automate video editing workflows, add custom e
@@ -62,11 +63,21 @@ apis:
   description: Manage element representations and renditions
   name: Adobe Premiere Pro Representations API
   slug: adobe-premiere-representations-api
-- baseURL: https://cc-libraries.adobe.io
+- baseURL: https://developer.adobe.com/premiere-pro/uxp/
   baseurl_source: declared
-  description: Adobe's published REST API for Creative Cloud Libraries — the shared asset store (colors, character styles, brushes, graphics, patterns and video) that Premiere Pro panels read and write. 25 operation
-  name: Adobe Creative Cloud Libraries API
-  slug: adobe-creative-cloud-libraries-api
+  description: App-facing APIs for Adobe CC Libraries.
+  name: Adobe Premiere Pro Library Service API
+  slug: adobe-premiere-library-service-api
+- baseURL: https://developer.adobe.com/premiere-pro/uxp/
+  baseurl_source: declared
+  description: App-facing APIs specifically for Adobe CC Library Bookmarks.
+  name: Adobe Premiere Pro Library Service - Bookmarks API
+  slug: adobe-premiere-library-service-bookmarks-api
+- baseURL: https://developer.adobe.com/premiere-pro/uxp/
+  baseurl_source: declared
+  description: App-facing APIs specifically for Adobe CC Public Libraries.
+  name: Adobe Premiere Pro Library Service - Public API
+  slug: adobe-premiere-library-service-public-api
 arazzos:
 - description: Create a library, add an element to it, then read the element back.
   name: Adobe Premiere Add Element to Creative Cloud Library
@@ -89,7 +100,7 @@ arazzos:
 - description: Read a library, update its name, then read it back to confirm the change.
   name: Adobe Premiere Rename and Verify Creative Cloud Library
   slug: adobe-premiere-rename-and-verify-library-workflow
-artifact_total: 73
+artifact_total: 75
 asyncapis:
 - description: ''
   name: Adobe Premiere Libraries Webhooks
@@ -487,7 +498,7 @@ modified: '2026-04-19'
 name: Adobe Premiere Pro
 nav: Providers
 network: true
-overview: 'Adobe Premiere Pro publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Elements API, Libraries API, Representations API, and 1 more. Tagged areas include Adobe, Automation, Creative Cloud, Media, and Premiere Pro.
+overview: 'Adobe Premiere Pro publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Elements API, Libraries API, Representations API, and 3 more. Tagged areas include Adobe, Automation, Creative Cloud, Media, and Premiere Pro.
 
 
   The Adobe Premiere Pro catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -498,7 +509,7 @@ plans:
 - name: Adobe Premiere Plans Pricing
   plan_count: 0
   slug: adobe-premiere-plans-pricing
-random_paper: 2
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Adobe Premiere Rate Limits
@@ -532,7 +543,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.1
+  composite: 58.3
   coverage:
     artifact_dirs: 32
     catalog_earned: 70.5
@@ -540,11 +551,11 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 28.9
     contract_governance: 47.0
-    contract_quality: 79.2
+    contract_quality: 76.2
     developer_ergonomics: 74.4
     discoverability: 68.5
     operational_transparency: 52.6
@@ -556,11 +567,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 6
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

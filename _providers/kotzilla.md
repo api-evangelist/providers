@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Hosted remote Model Context Protocol server that connects an AI coding assistant to the Kotzilla Platform. Fifteen tools covering app registration, SDK onboarding, telemetry, issue detection and conte
@@ -217,7 +217,7 @@ plans:
 - name: Kotzilla Plans Pricing
   plan_count: 2
   slug: kotzilla-plans-pricing
-random_paper: 13
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Kotzilla Rate Limits
@@ -256,7 +256,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

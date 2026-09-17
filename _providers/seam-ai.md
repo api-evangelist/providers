@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://enricher.getseam.ai
@@ -61,10 +61,6 @@ common:
   title: ''
   type: GettingStarted
   url: https://docs.getseam.ai/onboarding/getting-started/overview
-- group: operate
-  title: ''
-  type: Support
-  url: mailto:support@getseam.ai
 - group: company
   title: ''
   type: Blog
@@ -180,19 +176,19 @@ network: true
 overview: 'Seam AI publishes 1 API on the [APIs.io](https://apis.io/) network: Completions API. Tagged areas include Company, Ai Ml, Account Based Marketing, Sales Intelligence, and Marketing.
 
 
-  Seam AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
+  Seam AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
 plans:
 - name: Seam Ai Plans Pricing
   plan_count: 3
   slug: seam-ai-plans-pricing
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Seam Ai Rate Limits
   slug: seam-ai-rate-limits
 score:
   band: developing
-  composite: 49.4
+  composite: 48.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -200,12 +196,12 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 55.8
-    developer_ergonomics: 47.6
+    developer_ergonomics: 42.9
     discoverability: 75.9
     operational_transparency: 0.0
   previous_composite: 49.4
@@ -219,7 +215,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

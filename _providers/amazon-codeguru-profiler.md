@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   slug: amazon-codeguru-profiler-internal-api
 - baseURL: https://codeguru-profiler.us-east-1.amazonaws.com
   baseurl_source: declared
-  description: The ProfilingGroups API from Amazon CodeGuru Profiler — 12 operation(s) for profilinggroups.
-  name: Amazon CodeGuru Profiler ProfilingGroups API
-  slug: amazon-codeguru-profiler-profilinggroups-api
-- baseURL: https://codeguru-profiler.us-east-1.amazonaws.com
-  baseurl_source: declared
   description: The ProfilingGroups#clientToken API from Amazon CodeGuru Profiler — 1 operation(s) for profilinggroups#clienttoken.
   name: Amazon CodeGuru Profiler ProfilingGroups#clientToken API
   slug: amazon-codeguru-profiler-profilinggroups-clienttoken-api
@@ -63,6 +58,11 @@ apis:
   description: The Tags API from Amazon CodeGuru Profiler — 2 operation(s) for tags.
   name: Amazon CodeGuru Profiler Tags API
   slug: amazon-codeguru-profiler-tags-api
+- baseURL: https://codeguru-profiler.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Profiling Groups API from Amazon CodeGuru Profiler — 12 operation(s) for profiling groups.
+  name: Amazon CodeGuru Profiler Profiling Groups API
+  slug: amazon-codeguru-profiler-profiling-groups-api
 artifact_total: 344
 asyncapis:
 - description: ''
@@ -85,6 +85,11 @@ collections:
   name: Amazon CodeGuru Profiler Internal Tags API
   slug: open-amazon-codeguru-profiler-tags-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/overlays/amazon-codeguru-profiler-profilinggroups-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/amazon-codeguru-profiler-profilinggroups-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -1282,18 +1287,18 @@ modified: '2026-09-01'
 name: Amazon CodeGuru Profiler
 nav: Providers
 network: true
-overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Internal API, ProfilingGroups API, ProfilingGroups#clientToken API, and 1 more. Tagged areas include Amazon, Application Performance, Profiling, DevOps, and Machine-Learning.
+overview: 'Amazon CodeGuru Profiler publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Internal API, ProfilingGroups#clientToken API, Tags API, and 1 more. Tagged areas include Amazon, Application Performance, Profiling, DevOps, and Machine-Learning.
 
 
   The Amazon CodeGuru Profiler catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Amazon CodeGuru Profiler''s developer surface includes getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, signup flow, and 41 more developer resources.'
+  Amazon CodeGuru Profiler''s developer surface includes getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, signup flow, and 42 more developer resources.'
 plans:
 - name: Amazon Codeguru Profiler Plans Pricing
   plan_count: 2
   slug: amazon-codeguru-profiler-plans-pricing
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Amazon Codeguru Profiler Rate Limits
@@ -1350,7 +1355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

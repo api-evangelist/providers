@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,11 +53,6 @@ apis:
   description: Email domain management
   name: Apache James Domains API
   slug: apache-james-domains-api
-- baseURL: http://localhost:8000
-  baseurl_source: spec
-  description: System health monitoring
-  name: Apache James HealthCheck API
-  slug: apache-james-healthcheck-api
 - baseURL: http://localhost:8000
   baseurl_source: spec
   description: Mailbox management
@@ -88,6 +83,11 @@ apis:
   description: User account management
   name: Apache James Users API
   slug: apache-james-users-api
+- baseURL: http://localhost:8000
+  baseurl_source: spec
+  description: System health monitoring
+  name: Apache James Health Check API
+  slug: apache-james-health-check-api
 artifact_total: 72
 collections:
 - collection_type: open
@@ -317,7 +317,7 @@ modified: '2026-05-19'
 name: Apache James
 nav: Providers
 network: true
-overview: 'Apache James publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Domains API, HealthCheck API, Mailboxes API, and 5 more. Tagged areas include Email, IMAP, Java, JMAP, and Mail Server.
+overview: 'Apache James publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Mailboxes API, MailQueues API, and 5 more. Tagged areas include Email, IMAP, Java, JMAP, and Mail Server.
 
 
   The Apache James catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -328,7 +328,7 @@ plans:
 - name: Apache James Plans Pricing
   plan_count: 3
   slug: apache-james-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Apache James Rate Limits
@@ -382,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

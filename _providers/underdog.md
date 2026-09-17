@@ -11,14 +11,15 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: platform
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -26,14 +27,14 @@ agent_readiness:
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.1
-  scored_at: '2026-09-15'
+  score: 41.2
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: 'The Universal Commerce Protocol (UCP) shopping service Underdog serves from its own domain. A remote MCP endpoint that answers tools/list anonymously with 13 tools covering catalog search and lookup, '
@@ -48,7 +49,7 @@ apis:
 - description: 'Read-only, unauthenticated JSON representations of the Underdog catalogue published by the Shopify storefront: /products.json, /products/{handle}.json, /collections/{handle}/products.json and /search?'
   name: Underdog Storefront JSON Endpoints
   slug: underdog-storefront-json
-artifact_total: 6
+artifact_total: 10
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/underdog/refs/heads/main/security/underdog-domain-security.yml
@@ -123,11 +124,6 @@ common:
   title: ''
   type: Lifecycle
   url: lifecycle/underdog-lifecycle.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/underdog/refs/heads/main/lifecycle/underdog-lifecycle.yml
-  title: ''
-  type: Deprecation
-  url: lifecycle/underdog-lifecycle.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/underdog/refs/heads/main/data-model/underdog-data-model.yml
   title: ''
@@ -174,21 +170,34 @@ description: 'Underdog (legal entity Older is Better, RCS Nantes 918 609 629) is
 image: https://underdog.shop/cdn/shop/files/UND-logo-Noir_1_3878927d-05f3-4209-b1e5-6113f92e6567.png?v=1762513808
 layout: provider
 mcp_servers:
-- description: ''
-  name: Underdog MCP Server
-  slug: underdog-mcp-server
-modified: '2026-08-17'
+- description: Two remote MCP endpoints served from Underdog's own storefront host (Shopify platform). The UCP commerce server exposes 13 Universal Commerce Protocol shopping tools; the storefront server exposes one
+  name: Underdog MCP servers
+  slug: underdog-mcp-servers
+modified: '2026-09-16'
 name: Underdog
 nav: Providers
 network: true
 overview: 'Underdog publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate Tech, Circular Economy, Refurbished Electronics, and Home Appliances.
 
 
-  Underdog''s developer surface includes documentation, authentication, support, and 22 more developer resources.'
-random_paper: 16
+  Underdog''s developer surface includes documentation, authentication, support, and 21 more developer resources.'
+plans:
+- name: Underdog Plans Pricing
+  plan_count: 0
+  slug: underdog-plans-pricing
+random_paper: 20
+rate_limits:
+- limit_count: 0
+  name: Underdog Rate Limits
+  slug: underdog-rate-limits
+scopes:
+- name: Underdog Scopes
+  scope_count: 4
+  slug: underdog-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.0
+  composite: 31.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -196,14 +205,14 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 27.6
-    contract_governance: 0.0
+    contract_governance: 18.2
     contract_quality: 37.2
-    developer_ergonomics: 33.3
+    developer_ergonomics: 28.0
     discoverability: 81.5
-    operational_transparency: 10.5
+    operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -213,8 +222,12 @@ score:
     - europe
     - france-iberia
   previous_composite: 31.0
+  provenance:
+    conformance: first-party
+    mcp: first-party
+    skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -222,6 +235,10 @@ score:
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/underdog/refs/heads/main/screenshots/underdog-2026-09-02T164849.png
 security:
+- kind: authentication
+  name: Underdog Authentication
+  slug: underdog-authentication
+  summary_line: none/oauth2/openIdConnect/http · 5 schemes
 - kind: domain-security
   name: Underdog Domain Security
   slug: underdog-domain-security

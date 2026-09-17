@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -55,9 +55,9 @@ apis:
   slug: google-classroom-invitations-api
 - baseURL: https://classroom.googleapis.com
   baseurl_source: declared
-  description: The userProfiles API from Google Classroom — 1 operation(s) for userprofiles.
-  name: Google Classroom userProfiles API
-  slug: google-classroom-userprofiles-api
+  description: The User Profiles API from Google Classroom — 1 operation(s) for user profiles.
+  name: Google Classroom User Profiles API
+  slug: google-classroom-user-profiles-api
 artifact_total: 19
 collections:
 - collection_type: postman
@@ -175,7 +175,7 @@ modified: '2026-05-19'
 name: Google Classroom
 nav: Providers
 network: true
-overview: 'Google Classroom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Courses API, Invitations API, and userProfiles API. Tagged areas include Assignments, Classroom, Courses, Education, and Google.
+overview: 'Google Classroom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Courses API, Invitations API, and User Profiles API. Tagged areas include Assignments, Classroom, Courses, Education, and Google.
 
 
   The Google Classroom catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -186,7 +186,7 @@ plans:
 - name: Google Classroom Plans Pricing
   plan_count: 3
   slug: google-classroom-plans-pricing
-random_paper: 2
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Google Classroom Rate Limits
@@ -235,7 +235,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

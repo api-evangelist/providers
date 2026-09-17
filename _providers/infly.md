@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,8 +74,8 @@ modified: '2026-07-19'
 name: INF Tech
 nav: Providers
 network: true
-overview: INF Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Generative AI.
-random_paper: 0
+overview: INF Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Generative AI.
+random_paper: 18
 score:
   band: minimal
   composite: 7.2
@@ -101,7 +101,7 @@ score:
     - greater-china
   previous_composite: 7.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -118,7 +118,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Generative AI
 - AI Agents
 - Document Parsing

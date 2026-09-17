@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   slug: paytronix-menu-items-api
 - baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
   baseurl_source: declared
-  description: Guest authentication and token issuance.
-  name: Paytronix OAuth API
-  slug: paytronix-oauth-api
-- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
-  baseurl_source: declared
   description: Order creation, retrieval, and submission.
   name: Paytronix Orders API
   slug: paytronix-orders-api
@@ -105,6 +100,11 @@ apis:
   description: Loyalty and stored-value transaction processing at the POS.
   name: Paytronix Transaction API
   slug: paytronix-transaction-api
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Guest authentication and token issuance.
+  name: Paytronix O Auth API
+  slug: paytronix-oauth-api
 artifact_total: 187
 collections:
 - collection_type: open
@@ -689,7 +689,7 @@ plans:
 - name: Paytronix Plans Pricing
   plan_count: 2
   slug: paytronix-plans-pricing
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Paytronix Rate Limits
@@ -749,7 +749,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

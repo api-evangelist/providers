@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: 'Query bookings by Zencargo reference and retrieve booking details: cargo, consignor/consignee, forwarder, incoterms, load type, mode of transport, bills of lading, required delivery date, and attached'
@@ -129,7 +129,7 @@ plans:
 - name: Zencargo Plans Pricing
   plan_count: 1
   slug: zencargo-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Zencargo Rate Limits
@@ -156,7 +156,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +179,7 @@ tags:
 - Logistics
 - Ocean Freight
 - Shipment Tracking
-- Bookings
+- Booking
 - Supply Chain Visibility
 - Freight
 - Software-as-a-Service

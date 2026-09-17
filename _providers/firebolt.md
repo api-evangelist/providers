@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,13 +51,8 @@ apis:
 - baseURL: https://api.app.firebolt.io
   baseurl_source: declared
   description: The Firebolt REST API API from Firebolt — 1 operation(s) for firebolt rest api.
-  name: Firebolt Firebolt REST API API
+  name: Firebolt REST API
   slug: firebolt-firebolt-rest-api-api
-- baseURL: https://api.app.firebolt.io
-  baseurl_source: declared
-  description: The Oauth API from Firebolt — 1 operation(s) for oauth.
-  name: Firebolt Oauth API
-  slug: firebolt-oauth-api
 - baseURL: https://api.app.firebolt.io
   baseurl_source: declared
   description: The Query API from Firebolt — 1 operation(s) for query.
@@ -68,6 +63,11 @@ apis:
   description: The Web API from Firebolt — 1 operation(s) for web.
   name: Firebolt Web API
   slug: firebolt-web-api
+- baseURL: https://api.app.firebolt.io
+  baseurl_source: declared
+  description: The Oauth API from Firebolt — 1 operation(s) for oauth.
+  name: Firebolt OAUTH API
+  slug: firebolt-oauth-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -165,11 +165,11 @@ finops:
   slug: firebolt-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firebolt.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-09-16'
 name: Firebolt
 nav: Providers
 network: true
-overview: 'Firebolt publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Firebolt REST API API, Oauth API, Query API, and 1 more. Tagged areas include Data Warehouse, Cloud, SQL, and Analytics.
+overview: 'Firebolt publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API, Query API, Web API, and 1 more. Tagged areas include Data Warehouse, Cloud, SQL, and Analytics.
 
 
   Firebolt''s developer surface includes authentication, developer portal, pricing, engineering blog, and 11 more developer resources.'
@@ -177,7 +177,7 @@ plans:
 - name: Firebolt Plans Pricing
   plan_count: 3
   slug: firebolt-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Firebolt Rate Limits
@@ -209,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -51,19 +51,9 @@ apis:
   slug: sarvam-chat-api
 - baseURL: https://api.sarvam.ai
   baseurl_source: declared
-  description: The documentIntelligence API from Sarvam — 5 operation(s) for documentintelligence.
-  name: Sarvam documentIntelligence API
-  slug: sarvam-documentintelligence-api
-- baseURL: https://api.sarvam.ai
-  baseurl_source: declared
   description: The pronunciationDictionary API from Sarvam — 2 operation(s) for pronunciationdictionary.
   name: Sarvam pronunciationDictionary API
   slug: sarvam-pronunciationdictionary-api
-- baseURL: https://api.sarvam.ai
-  baseurl_source: declared
-  description: The speechToText API from Sarvam — 2 operation(s) for speechtotext.
-  name: Sarvam speechToText API
-  slug: sarvam-speechtotext-api
 - baseURL: https://api.sarvam.ai
   baseurl_source: declared
   description: The speechToTextJob API from Sarvam — 5 operation(s) for speechtotextjob.
@@ -81,9 +71,19 @@ apis:
   slug: sarvam-text-api
 - baseURL: https://api.sarvam.ai
   baseurl_source: declared
-  description: The textToSpeech API from Sarvam — 2 operation(s) for texttospeech.
-  name: Sarvam textToSpeech API
-  slug: sarvam-texttospeech-api
+  description: The Document Intelligence API from Sarvam — 5 operation(s) for document intelligence.
+  name: Sarvam Document Intelligence API
+  slug: sarvam-document-intelligence-api
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The Speech To Text API from Sarvam — 2 operation(s) for speech to text.
+  name: Sarvam Speech To Text API
+  slug: sarvam-speech-to-text-api
+- baseURL: https://api.sarvam.ai
+  baseurl_source: declared
+  description: The Text To Speech API from Sarvam — 2 operation(s) for text to speech.
+  name: Sarvam Text To Speech API
+  slug: sarvam-text-to-speech-api
 artifact_total: 22
 asyncapis:
 - description: ''
@@ -262,14 +262,14 @@ modified: '2026-07-21'
 name: Sarvam
 nav: Providers
 network: true
-overview: 'Sarvam publishes 8 APIs on the [APIs.io](https://apis.io/) network, including chat API, documentIntelligence API, pronunciationDictionary API, and 5 more. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine-Learning, and Speech-to-Text.
+overview: 'Sarvam publishes 8 APIs on the [APIs.io](https://apis.io/) network, including chat API, pronunciationDictionary API, speechToTextJob API, and 5 more. Tagged areas include Company, Ai Ml, Artificial Intelligence, Machine-Learning, and Speech-to-Text.
 
 
   The Sarvam catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Sarvam''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 22 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: developing
   composite: 47.4
@@ -300,7 +300,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -324,7 +324,7 @@ tags:
 - Speech-to-Text
 - Text-to-Speech
 - Translation
-- Large Language Models
+- LLM
 - Document Intelligence
 - Indian Languages
 - Voice

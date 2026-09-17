@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ overview: 'Wexler is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Wexler''s developer surface includes signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 12
+random_paper: 3
 score:
   band: emerging
   composite: 13.4
@@ -104,7 +104,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

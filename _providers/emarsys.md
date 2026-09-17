@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -85,11 +85,6 @@ apis:
   description: The Contact API from SAP Emarsys — 10 operation(s) for contact.
   name: SAP Emarsys Contact API
   slug: emarsys-contact-api
-- baseURL: https://api.emarsys.net/api
-  baseurl_source: declared
-  description: The Contactlist API from SAP Emarsys — 10 operation(s) for contactlist.
-  name: SAP Emarsys Contactlist API
-  slug: emarsys-contactlist-api
 - baseURL: https://api.emarsys.net/api
   baseurl_source: declared
   description: The Delivery Reports API from SAP Emarsys — 1 operation(s) for delivery reports.
@@ -195,6 +190,11 @@ apis:
   description: The Wishlist API from SAP Emarsys — 1 operation(s) for wishlist.
   name: SAP Emarsys Wishlist API
   slug: emarsys-wishlist-api
+- baseURL: https://api.emarsys.net/api
+  baseurl_source: declared
+  description: The Contact List API from SAP Emarsys — 10 operation(s) for contact list.
+  name: SAP Emarsys Contact List API
+  slug: emarsys-contact-list-api
 artifact_total: 64
 asyncapis:
 - description: ''
@@ -632,7 +632,7 @@ plans:
 - name: Emarsys Plans Pricing
   plan_count: 0
   slug: emarsys-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Emarsys Rate Limits
@@ -656,7 +656,7 @@ score:
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 61.0
+    contract_quality: 61.1
     developer_ergonomics: 70.8
     discoverability: 75.9
     operational_transparency: 73.7
@@ -682,7 +682,7 @@ score:
     regime_id: telecommunications
     score: 80.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

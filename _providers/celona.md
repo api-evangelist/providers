@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Celona Orchestrator REST API for network monitoring, event querying, device experience, system status, and audit logs. Authenticated with an X-API-Key generated in the Orchestrator.
@@ -177,7 +177,7 @@ overview: 'Celona publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Celona''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 17
+random_paper: 10
 score:
   band: developing
   composite: 48.7
@@ -212,7 +212,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GraphQL subgraph API for querying Beefy Finance protocol data including vaults, investors, positions, harvests, and TVL snapshots across multiple chains via The Graph protocol.
@@ -40,6 +40,10 @@ apis:
   slug: beefy-finance-graphql-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://beefy.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/beefy-finance/refs/heads/main/security/beefy-finance-domain-security.yml
   title: ''
@@ -57,15 +61,15 @@ graphqls:
   slug: beefy-finance-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beefy-finance.png
 layout: provider
-modified: '2026-06-14'
+modified: '2026-09-16'
 name: Beefy Finance
 nav: Providers
 network: true
 overview: 'Beefy Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Yield Optimizer, Multi-Chain, Blockchain, and Ethereum.
 
 
-  Beefy Finance''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 11
+  Beefy Finance''s developer surface includes engineering blog and 2 more developer resources.'
+random_paper: 16
 score:
   band: emerging
   composite: 17.5
@@ -86,7 +90,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

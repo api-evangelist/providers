@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-06-13'
 name: PubMed
 nav: Providers
 network: true
-overview: 'PubMed publishes 6 APIs on the [APIs.io](https://apis.io/) network, including History API, Info API, Links API, and 3 more. Tagged areas include Biomedical, Life Science, Research, Literature, and Citations.
+overview: 'PubMed publishes 6 APIs on the [APIs.io](https://apis.io/) network, including History API, Info API, Links API, and 3 more. Tagged areas include Biomedical, Life Sciences, Research, Literature, and Citations.
 
 
   The PubMed catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -182,7 +182,7 @@ plans:
 - name: Entrez Eutils
   plan_count: 2
   slug: entrez-eutils
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Entrez Eutils
@@ -231,7 +231,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -249,7 +249,7 @@ security:
 slug: pubmed
 tags:
 - Biomedical
-- Life Science
+- Life Sciences
 - Research
 - Literature
 - Citations

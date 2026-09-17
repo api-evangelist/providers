@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.arkm.com
@@ -92,11 +92,6 @@ apis:
   description: The Loans API from Arkham — 2 operation(s) for loans.
   name: Arkham Loans API
   slug: arkham-loans-api
-- baseURL: https://api.arkm.com
-  baseurl_source: declared
-  description: The Marketdata API from Arkham — 1 operation(s) for marketdata.
-  name: Arkham Marketdata API
-  slug: arkham-marketdata-api
 - baseURL: https://api.arkm.com
   baseurl_source: declared
   description: The Networks API from Arkham — 2 operation(s) for networks.
@@ -162,6 +157,11 @@ apis:
   description: The Ws API from Arkham — 8 operation(s) for ws.
   name: Arkham Ws API
   slug: arkham-ws-api
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Market Data API from Arkham — 1 operation(s) for market data.
+  name: Arkham Market Data API
+  slug: arkham-market-data-api
 artifact_total: 57
 asyncapis:
 - description: ''
@@ -387,14 +387,14 @@ plans:
 - name: Arkham Plans
   plan_count: 4
   slug: arkham-plans
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Arkham Rate Limits
   slug: arkham-rate-limits
 score:
   band: developing
-  composite: 52.1
+  composite: 50.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 64.0
@@ -402,11 +402,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 58.8
+    contract_quality: 53.4
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 39.5
@@ -414,7 +414,7 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 25
@@ -427,7 +427,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

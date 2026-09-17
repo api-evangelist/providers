@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -74,11 +74,6 @@ apis:
   slug: plausible-query-api
 - baseURL: https://plausible.io/api/v1
   baseurl_source: declared
-  description: The SharedLinks API from Plausible — 1 operation(s) for sharedlinks.
-  name: Plausible SharedLinks API
-  slug: plausible-sharedlinks-api
-- baseURL: https://plausible.io/api/v1
-  baseurl_source: declared
   description: The Sites API from Plausible — 2 operation(s) for sites.
   name: Plausible Sites API
   slug: plausible-sites-api
@@ -87,6 +82,11 @@ apis:
   description: The Teams API from Plausible — 1 operation(s) for teams.
   name: Plausible Teams API
   slug: plausible-teams-api
+- baseURL: https://plausible.io/api/v1
+  baseurl_source: declared
+  description: The Shared Links API from Plausible — 1 operation(s) for shared links.
+  name: Plausible Shared Links API
+  slug: plausible-shared-links-api
 artifact_total: 27
 collections:
 - collection_type: open
@@ -126,6 +126,11 @@ collections:
   name: Plausible Events CustomProps Teams API
   slug: open-plausible-teams-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/overlays/plausible-sharedlinks-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/plausible-sharedlinks-api-overlay.yaml
 - group: commercial
   title: ''
   type: License
@@ -370,19 +375,19 @@ network: true
 overview: 'Plausible publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CustomProps API, Events API, Goals API, and 5 more. Tagged areas include Analytics, Cookie-Free, Event Tracking, GDPR, and Goal Conversions.
 
 
-  Plausible''s developer surface includes changelog, sandbox, API reference, authentication, documentation, getting-started guide, engineering blog, and 45 more developer resources.'
+  Plausible''s developer surface includes changelog, sandbox, API reference, authentication, documentation, getting-started guide, engineering blog, and 46 more developer resources.'
 plans:
 - name: Plausible Plans Pricing
   plan_count: 4
   slug: plausible-plans-pricing
-random_paper: 16
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Plausible Rate Limits
   slug: plausible-rate-limits
 score:
   band: strong
-  composite: 60.7
+  composite: 61.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 67.0
@@ -390,11 +395,11 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 75.0
     contract_governance: 18.2
-    contract_quality: 49.3
+    contract_quality: 53.5
     developer_ergonomics: 69.6
     discoverability: 74.1
     operational_transparency: 81.6
@@ -410,7 +415,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

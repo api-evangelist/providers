@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Official hosted Model Context Protocol server for Rohlik online grocery. Search the catalog, manage a cart, discover recipes, track and repeat orders, manage shopping lists, and reach customer service
@@ -152,7 +152,7 @@ overview: 'Rohlik publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rohlik''s developer surface includes documentation, authentication, support, pricing, and 17 more developer resources.'
-random_paper: 19
+random_paper: 11
 scopes:
 - name: Rohlik Scopes
   scope_count: 3
@@ -187,7 +187,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

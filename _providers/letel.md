@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,11 +74,11 @@ modified: '2026-07-19'
 name: Letel
 nav: Providers
 network: true
-overview: 'Letel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Centers, Networking, Telecommunications, and Hardware.
+overview: 'Letel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data-Center, Networking, Telecommunications, and Hardware.
 
 
   Letel''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 9
+random_paper: 6
 score:
   band: minimal
   composite: 4.0
@@ -112,7 +112,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -127,7 +127,7 @@ security:
 slug: letel
 tags:
 - Company
-- Data Centers
+- Data-Center
 - Networking
 - Telecommunications
 - Hardware

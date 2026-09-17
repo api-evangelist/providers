@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -72,20 +72,30 @@ apis:
   slug: hightouch-campaigns-api
 - baseURL: https://api.hightouch.com/api/v1
   baseurl_source: declared
-  description: Decision-engine flows, their message variants, guardrails and runs.
-  name: Hightouch AI Decisioning API
-  slug: hightouch-ai-decisioning-api
-- baseURL: https://api.hightouch.com/api/v1
-  baseurl_source: declared
   description: First-party event governance — event contracts and event domains.
   name: Hightouch Events API
   slug: hightouch-events-api
 - baseURL: https://api.hightouch.com/api/v1
   baseurl_source: declared
-  description: Identity graph runs, reprocessing queues and run statistics.
-  name: Hightouch Identity Resolution API
-  slug: hightouch-identity-resolution-api
-artifact_total: 25
+  description: The Decision Engine API from Hightouch — 5 operation(s) for decision engine.
+  name: Hightouch Decision Engine API
+  slug: hightouch-decision-engine-api
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: The Id Graphs API from Hightouch — 1 operation(s) for id graphs.
+  name: Hightouch Id Graphs API
+  slug: hightouch-id-graphs-api
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: The Idr API from Hightouch — 4 operation(s) for idr.
+  name: Hightouch Idr API
+  slug: hightouch-idr-api
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: The Sync Sequences API from Hightouch — 2 operation(s) for sync sequences.
+  name: Hightouch Sync Sequences API
+  slug: hightouch-sync-sequences-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Hightouch Webhooks
@@ -325,7 +335,7 @@ modified: '2026-08-13'
 name: Hightouch
 nav: Providers
 network: true
-overview: 'Hightouch publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Sources API, Models API, Destinations API, and 5 more. Tagged areas include CDP, Data Activation, Reverse ETL, Audience Management, and Identity Resolution.
+overview: 'Hightouch publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Sources API, Models API, Destinations API, and 7 more. Tagged areas include CDP, Data Activation, Reverse ETL, Audience Management, and Identity Resolution.
 
 
   The Hightouch catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -336,7 +346,7 @@ plans:
 - name: Hightouch Plans Pricing
   plan_count: 3
   slug: hightouch-plans-pricing
-random_paper: 18
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Hightouch Rate Limits
@@ -360,7 +370,7 @@ score:
   facets:
     access_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 71.4
+    contract_quality: 71.6
     developer_ergonomics: 75.6
     discoverability: 75.9
     operational_transparency: 47.4
@@ -372,11 +382,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 10
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

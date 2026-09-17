@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The SAFE REST API (v3) gives customers and partners programmatic access to the SAFE One platform: users, assets/technology, findings, risk scenarios, reports, audit-log export, and full lifecycle mana'
@@ -227,7 +227,7 @@ plans:
 - name: Safe Security Plans Pricing
   plan_count: 0
   slug: safe-security-plans-pricing
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Safe Security Rate Limits
@@ -255,7 +255,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

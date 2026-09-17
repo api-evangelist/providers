@@ -34,116 +34,296 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 21
 apis:
-- baseURL: https://esl.caseys.io/casapi
-  baseurl_source: declared
-  description: Stores POS Activity Report documents from Casey's point-of-sale estate, implementing the Conexxus POS Back Office Interface / POS Activity Reporting API standard. Publishes report and journal document
-  name: Casey's CasApi
-  slug: caseys-casapi
-- baseURL: https://esl.caseys.io/casgatewayapi
-  baseurl_source: declared
-  description: Gateway for POS POSJournal document management, implementing the Conexxus POS Back Office Interface standard. Accepts journal, report and journal-reconciliation postings and serves individual CPJR doc
-  name: Casey's CasGatewayApi
-  slug: caseys-casgatewayapi
-- baseURL: https://esl.caseys.io/devopsmetricsapi
-  baseurl_source: declared
-  description: Internal DevOps metrics API. The publicly exported contract exposes only a v1 heartbeat health check and the OpenAPI document; the metrics operations themselves are not present in the published defini
-  name: Casey's DevOpsMetricsApi
-  slug: caseys-devopsmetricsapi
-- baseURL: https://esl.caseys.io/digitalproductionplannerapi
-  baseurl_source: declared
-  description: GraphQL surface for digital production-planner data used by Casey's kitchen and prepared-food production planning. The published REST contract exposes a single POST /graphql operation plus the OpenAPI
-  name: Casey's DigitalProductionPlannerApi
-  slug: caseys-digitalproductionplannerapi
-- baseURL: https://esl.caseys.io/fuelpriceapi
-  baseurl_source: declared
-  description: Returns fuel price data for Casey's stores. POST a list of store numbers to /fuelprices to retrieve current fuel pricing per store, with a heartbeat health check.
-  name: Casey's FuelPriceApi
-  slug: caseys-fuelpriceapi
 - baseURL: https://esl.caseys.io/itemapi
   baseurl_source: declared
   description: Item Master (Pricebook) API. Returns up-to-date item data for a store, related items by UPC, and an unbuffered variant of the store-items read, alongside a GraphQL endpoint for item data.
   name: Casey's ItemApi
   slug: caseys-itemapi
-- baseURL: https://esl.caseys.io/itsmapi
-  baseurl_source: declared
-  description: Creates, updates and attaches files to incidents in Casey's IT service management tool, with a v1 heartbeat health check.
-  name: Casey's ItsmApi
-  slug: caseys-itsmapi
-- baseURL: https://esl.caseys.io/kitchensupplyorderingapi
-  baseurl_source: declared
-  description: GraphQL surface for kitchen supply ordering data used by Casey's prepared-food kitchens, plus a v1 heartbeat health check.
-  name: Casey's KitchenSupplyOrderingapi
-  slug: caseys-kitchensupplyorderingapi
-- baseURL: https://esl.caseys.io/oldstoreapi
-  baseurl_source: declared
-  description: Legacy store-information API. Twenty-eight operations cover stores, brands, regions, hours and the organization hierarchy; the v0 surface is explicitly tagged deprecated in the published contract in f
-  name: Casey's OldStoreApi
-  slug: caseys-oldstoreapi
-- baseURL: https://esl.caseys.io/powerinventoryapi
-  baseurl_source: declared
-  description: GraphQL surface for power inventory data, plus a v1 heartbeat health check.
-  name: Casey's PowerInventoryApi
-  slug: caseys-powerinventoryapi
-- baseURL: https://esl.caseys.io/productionplannerapi
-  baseurl_source: declared
-  description: GraphQL surface for production-planner data driving prepared-food production schedules. The published REST contract exposes POST /graphql and the OpenAPI document only.
-  name: Casey's ProductionPlannerApi
-  slug: caseys-productionplannerapi
-- baseURL: https://esl.caseys.io/shelflabelprintapi
-  baseurl_source: declared
-  description: GraphQL surface for shelf-label print data used to drive in-store shelf label printing, plus a v1 heartbeat health check.
-  name: Casey's ShelfLabelPrintApi
-  slug: caseys-shelflabelprintapi
 - baseURL: https://esl.caseys.io/storeapi
   baseurl_source: declared
   description: The Store API represents key points of information about Casey's stores. Thirty-seven operations cover stores, store hours, amenities, brands, locations, districts, divisions, regions and the wider or
   name: Casey's StoreApi
   slug: caseys-storeapi
-- baseURL: https://esl.caseys.io/storedetailsapi
-  baseurl_source: declared
-  description: Store detail reads across the Casey's estate — stores, brands, regions, hours and the all-stores organization hierarchy — as a twenty-three operation successor surface to the legacy store API.
-  name: Casey's StoreDetailsApi
-  slug: caseys-storedetailsapi
-- baseURL: https://esl.caseys.io/storemessagingapi
-  baseurl_source: declared
-  description: Allows services running in a Casey's store to receive messages from external sources. Registers store agents (v1 and v2 registration), lists registered services, sends messages to a store, and carries
-  name: Casey's StoreMessagingApi
-  slug: caseys-storemessagingapi
-- baseURL: https://esl.caseys.io/storenumberapi
-  baseurl_source: declared
-  description: The Store Number Generator API returns available store numbers and version/health information for Casey's store-numbering system.
-  name: Casey's StoreNumberApi
-  slug: caseys-storenumberapi
 - baseURL: https://esl.caseys.io/supplierapi
   baseurl_source: declared
   description: Returns the list of suppliers for a given store and exposes a GraphQL endpoint for supplier data, plus a v1 heartbeat health check.
   name: Casey's SupplierApi
   slug: caseys-supplierapi
-- baseURL: https://esl.caseys.io/tanklevelapi
+- baseURL: https://esl.caseys.io/casapi
   baseurl_source: declared
-  description: Fuel tank telemetry. Reads the most recent tank level readings and accepts new tank level readings for Casey's fuel sites, with a v1 heartbeat health check.
-  name: Casey's TankLevelApi
-  slug: caseys-tanklevelapi
-- baseURL: https://esl.caseys.io/taxapi
+  description: The brands API from Casey's General Stores — 2 operation(s) for brands.
+  name: Casey's General Stores Brands API
+  slug: caseys-general-stores-brands-api
+- baseURL: https://esl.caseys.io/casapi
   baseurl_source: declared
-  description: 'Tax calculation and configuration for Casey''s stores: POST /Taxes for tax calculation, plus per-store tax strategies, tax levels and compound taxes.'
-  name: Casey's TaxApi
-  slug: caseys-taxapi
-- baseURL: https://esl.caseys.io/teammemberapi
+  description: The Caseys.StoreApi API from Casey's General Stores — 1 operation(s) for caseys.storeapi.
+  name: Casey's General Stores Caseys.Store API
+  slug: caseys-general-stores-caseys-storeapi-api
+- baseURL: https://esl.caseys.io/casapi
   baseurl_source: declared
-  description: Team member information API. The publicly exported contract exposes only the heartbeat health check and the OpenAPI document; the team member reads themselves are not present in the published definiti
-  name: Casey's TeamMemberApi
-  slug: caseys-teammemberapi
-- baseURL: https://esl.caseys.io/vendorcheckinapi
+  description: The Caseys.StoreNumberGenerator.Api API from Casey's General Stores — 2 operation(s) for caseys.storenumbergenerator.api.
+  name: Casey's General Stores Caseys.Store Number Generator.Api API
+  slug: caseys-general-stores-caseys-storenumbergenerator-api-api
+- baseURL: https://esl.caseys.io/casapi
   baseurl_source: declared
-  description: GraphQL surface for vendor check-in data covering deliveries and vendor visits to Casey's stores, plus a v1 heartbeat health check.
-  name: Casey's VendorCheckinApi
-  slug: caseys-vendorcheckinapi
-artifact_total: 25
+  description: The Districts API from Casey's General Stores — 2 operation(s) for districts.
+  name: Casey's General Stores Districts API
+  slug: caseys-general-stores-districts-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Divisions API from Casey's General Stores — 2 operation(s) for divisions.
+  name: Casey's General Stores Divisions API
+  slug: caseys-general-stores-divisions-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Health API from Casey's General Stores — 1 operation(s) for health.
+  name: Casey's General Stores Health API
+  slug: caseys-general-stores-health-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The heartbeat API from Casey's General Stores — 2 operation(s) for heartbeat.
+  name: Casey's General Stores Heartbeat API
+  slug: caseys-general-stores-heartbeat-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The hours API from Casey's General Stores — 4 operation(s) for hours.
+  name: Casey's General Stores Hours API
+  slug: caseys-general-stores-hours-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The incident API from Casey's General Stores — 2 operation(s) for incident.
+  name: Casey's General Stores Incident API
+  slug: caseys-general-stores-incident-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Location API from Casey's General Stores — 2 operation(s) for location.
+  name: Casey's General Stores Location API
+  slug: caseys-general-stores-location-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The organization hierarchy API from Casey's General Stores — 12 operation(s) for organization hierarchy.
+  name: Casey's General Stores organization hierarchy API
+  slug: caseys-general-stores-organization-hierarchy-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Organizational API from Casey's General Stores — 3 operation(s) for organizational.
+  name: Casey's General Stores Organizational API
+  slug: caseys-general-stores-organizational-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Print API from Casey's General Stores — 1 operation(s) for print.
+  name: Casey's General Stores Print API
+  slug: caseys-general-stores-print-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The pull API from Casey's General Stores — 2 operation(s) for pull.
+  name: Casey's General Stores Pull API
+  slug: caseys-general-stores-pull-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The push API from Casey's General Stores — 3 operation(s) for push.
+  name: Casey's General Stores Push API
+  slug: caseys-general-stores-push-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Regions API from Casey's General Stores — 2 operation(s) for regions.
+  name: Casey's General Stores Regions API
+  slug: caseys-general-stores-regions-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Register API from Casey's General Stores — 2 operation(s) for register.
+  name: Casey's General Stores Register API
+  slug: caseys-general-stores-register-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Registrations API from Casey's General Stores — 1 operation(s) for registrations.
+  name: Casey's General Stores Registrations API
+  slug: caseys-general-stores-registrations-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The StoreAmenities API from Casey's General Stores — 1 operation(s) for storeamenities.
+  name: Casey's General Stores Store Amenities API
+  slug: caseys-general-stores-storeamenities-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The StoreOrganizational API from Casey's General Stores — 2 operation(s) for storeorganizational.
+  name: Casey's General Stores Store Organizational API
+  slug: caseys-general-stores-storeorganizational-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Stores API from Casey's General Stores — 6 operation(s) for stores.
+  name: Casey's General Stores Stores API
+  slug: caseys-general-stores-stores-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Swagger API from Casey's General Stores — 1 operation(s) for swagger.
+  name: Casey's General Stores Swagger API
+  slug: caseys-general-stores-swagger-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The tankLevels API from Casey's General Stores — 2 operation(s) for tanklevels.
+  name: Casey's General Stores Tank Levels API
+  slug: caseys-general-stores-tanklevels-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Taxes API from Casey's General Stores — 1 operation(s) for taxes.
+  name: Casey's General Stores Taxes API
+  slug: caseys-general-stores-taxes-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Unbuffered Store Items API from Casey's General Stores — 1 operation(s) for unbuffered store items.
+  name: Casey's General Stores Unbuffered Store Items API
+  slug: caseys-general-stores-unbuffered-store-items-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The v0 API from Casey's General Stores — 1 operation(s) for v0.
+  name: Casey's General Stores V0 API
+  slug: caseys-general-stores-v0-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The v1 API from Casey's General Stores — 1 operation(s) for v1.
+  name: Casey's General Stores V1 API
+  slug: caseys-general-stores-v1-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The V1StoreById API from Casey's General Stores — 1 operation(s) for v1storebyid.
+  name: Casey's General Stores V1 Store By ID API
+  slug: caseys-general-stores-v1storebyid-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The V1StoreHours API from Casey's General Stores — 1 operation(s) for v1storehours.
+  name: Casey's General Stores V1 Store Hours API
+  slug: caseys-general-stores-v1storehours-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The V1StoreHoursByStoreNumber API from Casey's General Stores — 1 operation(s) for v1storehoursbystorenumber.
+  name: Casey's General Stores V1 Store Hours By Store Number API
+  slug: caseys-general-stores-v1storehoursbystorenumber-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The V1Stores API from Casey's General Stores — 1 operation(s) for v1stores.
+  name: Casey's General Stores V1 Stores API
+  slug: caseys-general-stores-v1stores-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The v2 API from Casey's General Stores — 1 operation(s) for v2.
+  name: Casey's General Stores V2 API
+  slug: caseys-general-stores-v2-api
+- baseURL: https://esl.caseys.io/casapi
+  baseurl_source: declared
+  description: The Version API from Casey's General Stores — 1 operation(s) for version.
+  name: Casey's General Stores Version API
+  slug: caseys-general-stores-version-api
+- baseURL: https://esl.caseys.io/itemapi
+  baseurl_source: declared
+  description: The Fuel Prices API from Casey's General Stores — 1 operation(s) for fuel prices.
+  name: Casey's General Stores Fuel Prices API
+  slug: caseys-general-stores-fuel-prices-api
+- baseURL: https://esl.caseys.io/itemapi
+  baseurl_source: declared
+  description: The Graph QL API from Casey's General Stores — 1 operation(s) for graph ql.
+  name: Casey's General Stores Graph QL API
+  slug: caseys-general-stores-graph-ql-api
+- baseURL: https://esl.caseys.io/itemapi
+  baseurl_source: declared
+  description: The Open API API from Casey's General Stores — 2 operation(s) for open api.
+  name: Casey's General Stores Open API
+  slug: caseys-general-stores-open-api-api
+artifact_total: 43
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-cas-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-cas-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-cas-gateway-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-cas-gateway-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-devops-metrics-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-devops-metrics-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-digital-production-planner-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-digital-production-planner-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-fuel-price-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-fuel-price-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-itsm-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-itsm-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-kitchen-supply-ordering-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-kitchen-supply-ordering-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-old-store-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-old-store-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-power-inventory-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-power-inventory-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-production-planner-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-production-planner-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-shelf-label-print-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-shelf-label-print-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-store-details-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-store-details-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-store-messaging-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-store-messaging-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-store-number-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-store-number-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-tank-level-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-tank-level-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-tax-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-tax-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-team-member-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-team-member-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/overlays/caseys-general-stores-vendor-checkin-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/caseys-general-stores-vendor-checkin-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/security/caseys-general-stores-domain-security.yml
   title: ''
@@ -287,10 +467,10 @@ modified: '2026-09-05'
 name: Casey's General Stores
 nav: Providers
 network: true
-overview: 'Casey''s General Stores publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Casey''s CasApi, Casey''s CasGatewayApi, Casey''s DevOpsMetricsApi, and 18 more. Tagged areas include Azure API Management, Conexxus, Convenience Stores, Food Service, and Fortune 500.
+overview: 'Casey''s General Stores publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Casey''s ItemApi, Casey''s StoreApi, Casey''s SupplierApi, and 36 more. Tagged areas include Azure API Management, Conexxus, Convenience Stores, Food Service, and Fortune 500.
 
 
-  Casey''s General Stores'' developer surface includes getting-started guide, authentication, sandbox, and 27 more developer resources.'
+  Casey''s General Stores'' developer surface includes getting-started guide, authentication, sandbox, and 45 more developer resources.'
 plans:
 - name: Caseys General Stores Plans Pricing
   plan_count: 0
@@ -311,28 +491,28 @@ press:
 - date: '2026-05-25'
   title: 'Q&A: The mind behind Casey''s digital transformation efforts'
   url: https://www.cstoredive.com/news/caseys-digital-transformation-art-sebastian-interview/636695/
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Caseys General Stores Rate Limits
   slug: caseys-general-stores-rate-limits
 score:
   band: thin
-  composite: 37.9
+  composite: 35.6
   coverage:
     artifact_dirs: 21
-    catalog_earned: 40.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.3
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 49.1
+    contract_quality: 49.5
     developer_ergonomics: 42.3
-    discoverability: 74.1
+    discoverability: 50.0
     operational_transparency: 0.0
   previous_composite: 37.9
   provenance:
@@ -341,11 +521,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 39
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

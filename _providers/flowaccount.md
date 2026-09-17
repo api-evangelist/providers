@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -43,11 +43,6 @@ agentic_access:
   summary_line: 153 operations · 104 acting
 api_count: 1
 apis:
-- baseURL: https://openapi.flowaccount.com/v3-alpha
-  baseurl_source: declared
-  description: The BatchImport API from FlowAccount — 10 operation(s) for batchimport.
-  name: FlowAccount BatchImport API
-  slug: flowaccount-batchimport-api
 - baseURL: https://openapi.flowaccount.com/v3-alpha
   baseurl_source: declared
   description: The BillingNote API from FlowAccount — 8 operation(s) for billingnote.
@@ -70,11 +65,6 @@ apis:
   slug: flowaccount-contact-api
 - baseURL: https://openapi.flowaccount.com/v3-alpha
   baseurl_source: declared
-  description: The CreditNote API from FlowAccount — 9 operation(s) for creditnote.
-  name: FlowAccount CreditNote API
-  slug: flowaccount-creditnote-api
-- baseURL: https://openapi.flowaccount.com/v3-alpha
-  baseurl_source: declared
   description: The DebitNote API from FlowAccount — 9 operation(s) for debitnote.
   name: FlowAccount DebitNote API
   slug: flowaccount-debitnote-api
@@ -90,16 +80,6 @@ apis:
   slug: flowaccount-expense-api
 - baseURL: https://openapi.flowaccount.com/v3-alpha
   baseurl_source: declared
-  description: The ProductCategory API from FlowAccount — 2 operation(s) for productcategory.
-  name: FlowAccount ProductCategory API
-  slug: flowaccount-productcategory-api
-- baseURL: https://openapi.flowaccount.com/v3-alpha
-  baseurl_source: declared
-  description: The ProductInventory API from FlowAccount — 2 operation(s) for productinventory.
-  name: FlowAccount ProductInventory API
-  slug: flowaccount-productinventory-api
-- baseURL: https://openapi.flowaccount.com/v3-alpha
-  baseurl_source: declared
   description: The Products API from FlowAccount — 3 operation(s) for products.
   name: FlowAccount Products API
   slug: flowaccount-products-api
@@ -113,11 +93,6 @@ apis:
   description: The Purchase API from FlowAccount — 8 operation(s) for purchase.
   name: FlowAccount Purchase API
   slug: flowaccount-purchase-api
-- baseURL: https://openapi.flowaccount.com/v3-alpha
-  baseurl_source: declared
-  description: The PurchaseOrder API from FlowAccount — 8 operation(s) for purchaseorder.
-  name: FlowAccount PurchaseOrder API
-  slug: flowaccount-purchaseorder-api
 - baseURL: https://openapi.flowaccount.com/v3-alpha
   baseurl_source: declared
   description: The Quotation API from FlowAccount — 10 operation(s) for quotation.
@@ -138,6 +113,31 @@ apis:
   description: The TaxInvoice API from FlowAccount — 9 operation(s) for taxinvoice.
   name: FlowAccount TaxInvoice API
   slug: flowaccount-taxinvoice-api
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Batch Import API from FlowAccount — 10 operation(s) for batch import.
+  name: FlowAccount Batch Import API
+  slug: flowaccount-batch-import-api
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Credit Note API from FlowAccount — 9 operation(s) for credit note.
+  name: FlowAccount Credit Note API
+  slug: flowaccount-credit-note-api
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Product Category API from FlowAccount — 2 operation(s) for product category.
+  name: FlowAccount Product Category API
+  slug: flowaccount-product-category-api
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Product Inventory API from FlowAccount — 2 operation(s) for product inventory.
+  name: FlowAccount Product Inventory API
+  slug: flowaccount-product-inventory-api
+- baseURL: https://openapi.flowaccount.com/v3-alpha
+  baseurl_source: declared
+  description: The Purchase Order API from FlowAccount — 8 operation(s) for purchase order.
+  name: FlowAccount Purchase Order API
+  slug: flowaccount-purchase-order-api
 artifact_total: 45
 asyncapis:
 - description: ''
@@ -329,14 +329,14 @@ modified: '2026-07-19'
 name: FlowAccount
 nav: Providers
 network: true
-overview: 'FlowAccount publishes 19 APIs on the [APIs.io](https://apis.io/) network, including BatchImport API, BillingNote API, CashInvoice API, and 16 more. Tagged areas include Company, Accounting, Invoicing, Payroll, and Point-of-Sale.
+overview: 'FlowAccount publishes 19 APIs on the [APIs.io](https://apis.io/) network, including BillingNote API, CashInvoice API, CompanyCurrency API, and 16 more. Tagged areas include Company, Accounting, Invoicing, Payroll, and Point-of-Sale.
 
 
   The FlowAccount catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   FlowAccount''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, changelog, and 19 more developer resources.'
-random_paper: 13
+random_paper: 1
 scopes:
 - name: Flowaccount Scopes
   scope_count: 1
@@ -344,7 +344,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 57.2
+  composite: 57.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -352,11 +352,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 57.5
+    contract_quality: 58.7
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 52.6
@@ -377,7 +377,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

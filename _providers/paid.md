@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.agentpaid.io/api/v2
@@ -377,7 +377,7 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Paid''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 15
+random_paper: 18
 score:
   band: strong
   composite: 59.3
@@ -413,7 +413,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

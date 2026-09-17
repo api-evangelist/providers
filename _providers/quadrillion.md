@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 195
   human_in_the_loop: 8
@@ -171,11 +171,6 @@ apis:
   slug: quadrillion-onboarding-api
 - baseURL: https://api.quadrillion.io
   baseurl_source: declared
-  description: The Openrouter API from Quadrillion — 1 operation(s) for openrouter.
-  name: Quadrillion Openrouter API
-  slug: quadrillion-openrouter-api
-- baseURL: https://api.quadrillion.io
-  baseurl_source: declared
   description: The org API from Quadrillion — 8 operation(s) for org.
   name: Quadrillion org API
   slug: quadrillion-org-api
@@ -187,7 +182,7 @@ apis:
 - baseURL: https://api.quadrillion.io
   baseurl_source: declared
   description: The Quadrillion Cloud API API from Quadrillion — 1 operation(s) for quadrillion cloud api.
-  name: Quadrillion Quadrillion Cloud API API
+  name: Quadrillion Cloud API
   slug: quadrillion-quadrillion-cloud-api-api
 - baseURL: https://api.quadrillion.io
   baseurl_source: declared
@@ -299,6 +294,11 @@ apis:
   description: The You API from Quadrillion — 1 operation(s) for you.
   name: Quadrillion You API
   slug: quadrillion-you-api
+- baseURL: https://api.quadrillion.io
+  baseurl_source: declared
+  description: The Open Router API from Quadrillion — 1 operation(s) for open router.
+  name: Quadrillion Open Router API
+  slug: quadrillion-open-router-api
 artifact_total: 107
 collections:
 - collection_type: open
@@ -584,7 +584,7 @@ created: '2026-07-17'
 description: Quadrillion Labs builds Qualia, an AI coding agent for researchers that runs hundreds of agents in parallel to compress weeks of research into hours. Qualia is a Jupyter-compatible notebook IDE with autonomous mode, a central knowledge graph, reusable skills, and MCP integrations to tools like Snowflake, arXiv, Google Drive, Slack, and Atlassian. The Quadrillion Cloud API is the public cloud backend behind the desktop app, exposing cloud-safe endpoints for LLM provider proxying (OpenAI, Anthropic, Gemini, Cerebras, OpenRouter, Fireworks), API-key and session management, org/WorkOS SSO administration, compute and kernel orchestration, notebooks, projects/tasks, the knowledge graph, and Stripe billing.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quadrillion.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Quadrillion
 nav: Providers
 network: true
@@ -592,10 +592,10 @@ overview: 'Quadrillion publishes 51 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quadrillion''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, support, authentication, and 20 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: developing
-  composite: 47.6
+  composite: 46.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -603,11 +603,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 49.2
+    contract_quality: 44.5
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 31.6
@@ -616,14 +616,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 51
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

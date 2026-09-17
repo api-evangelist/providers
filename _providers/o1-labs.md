@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -149,7 +149,7 @@ overview: 'o1 Labs is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   o1 Labs'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, sandbox, and 16 more developer resources.'
-random_paper: 14
+random_paper: 7
 score:
   band: thin
   composite: 26.8
@@ -173,7 +173,7 @@ score:
     score: 50.0
   previous_composite: 26.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

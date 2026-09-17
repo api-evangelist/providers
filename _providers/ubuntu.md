@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,11 +70,6 @@ apis:
   description: Snap category listings
   name: Ubuntu Categories API
   slug: ubuntu-categories-api
-- baseURL: https://api.launchpad.net/1.0
-  baseurl_source: declared
-  description: CVE security vulnerabilities
-  name: Ubuntu CVEs API
-  slug: ubuntu-cves-api
 - baseURL: https://api.launchpad.net/1.0
   baseurl_source: declared
   description: Ubuntu distribution resources
@@ -120,6 +115,11 @@ apis:
   description: Snap search and discovery
   name: Ubuntu Search API
   slug: ubuntu-search-api
+- baseURL: https://contracts.canonical.com/
+  baseurl_source: declared
+  description: CVE security vulnerabilities
+  name: Ubuntu CV Es API
+  slug: ubuntu-cves-api
 artifact_total: 47
 collections:
 - collection_type: open
@@ -225,7 +225,7 @@ modified: '2026-05-19'
 name: Ubuntu
 nav: Providers
 network: true
-overview: 'Ubuntu publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bugs API, Categories API, CVEs API, and 9 more. Tagged areas include Cloud, Containers, DevOps, Enterprise, and Linux.
+overview: 'Ubuntu publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bugs API, Categories API, Distributions API, and 9 more. Tagged areas include Cloud, Containers, DevOps, Enterprise, and Linux.
 
 
   The Ubuntu catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -236,7 +236,7 @@ plans:
 - name: Ubuntu Plans Pricing
   plan_count: 3
   slug: ubuntu-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Ubuntu Rate Limits
@@ -290,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

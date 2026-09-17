@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Bluetooth Core Specification defines the complete Bluetooth wireless communication protocol stack including BLE (LE) and Classic Bluetooth. The current stable version is Bluetooth 6.0. The specifi
@@ -159,7 +159,7 @@ modified: '2026-04-21'
 name: BLE
 nav: Providers
 network: true
-overview: 'BLE publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include BLE, Bluetooth, Embedded, IoT, and Protocols.
+overview: 'BLE publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include BLE, Bluetooth, Embedded, IoT, and Protocol.
 
 
   The BLE catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -170,7 +170,7 @@ plans:
 - name: Ble Plans Pricing
   plan_count: 3
   slug: ble-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Ble Rate Limits
@@ -216,7 +216,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 25.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -238,7 +238,7 @@ tags:
 - Bluetooth
 - Embedded
 - IoT
-- Protocols
+- Protocol
 - Standards
 - Wireless
 use_cases:

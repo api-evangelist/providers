@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -101,6 +101,10 @@ collections:
   name: PANGAEA Data Download Services DOI Filter Terms API
   slug: open-pangaea-terms-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://pangaea.de
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/agentic-access/pangaea-agentic-access.yml
   title: ''
@@ -133,7 +137,7 @@ finops:
   slug: finops
 image: https://www.pangaea.de/assets/img/pangaea-logo.png
 layout: provider
-modified: 2026-06-13
+modified: '2026-09-16'
 name: PANGAEA
 nav: Providers
 network: true
@@ -142,7 +146,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -180,7 +184,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -204,5 +208,5 @@ tags:
 - Geoscience
 - Open Data
 - Scientific Data
-website: https://www.pangaea.de/
+website: https://pangaea.de
 ---

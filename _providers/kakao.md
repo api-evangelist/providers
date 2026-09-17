@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -98,11 +98,6 @@ apis:
   slug: kakaomobility-business
 - baseURL: https://kapi.kakao.com
   baseurl_source: declared
-  description: Kakao Login OAuth 2.0 authorization, token, and logout flows.
-  name: Kakao OAuth API
-  slug: kakao-oauth-api
-- baseURL: https://kapi.kakao.com
-  baseurl_source: declared
   description: OpenID Connect discovery, JWKS, and user info.
   name: Kakao OIDC API
   slug: kakao-oidc-api
@@ -116,6 +111,11 @@ apis:
   description: Logged-in user information, scopes, and account linking.
   name: Kakao User API
   slug: kakao-user-api
+- baseURL: https://kapi.kakao.com
+  baseurl_source: declared
+  description: Kakao Login OAuth 2.0 authorization, token, and logout flows.
+  name: Kakao O Auth API
+  slug: kakao-oauth-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -233,7 +233,7 @@ modified: '2026-05-23'
 name: Kakao
 nav: Providers
 network: true
-overview: 'Kakao publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OAuth API, OIDC API, Service Terms API, and 1 more. Tagged areas include Messaging, Maps, Navigation, Payments, and Search.
+overview: 'Kakao publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OIDC API, Service Terms API, User API, and 1 more. Tagged areas include Messaging, Maps, Navigation, Payments, and Search.
 
 
   Kakao''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 16 more developer resources.'
@@ -241,7 +241,7 @@ plans:
 - name: Kakao Plans Pricing
   plan_count: 1
   slug: kakao-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Kakao Rate Limits
@@ -286,7 +286,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -308,7 +308,7 @@ tags:
 - Navigation
 - Payments
 - Search
-- Korea
+- South Korea
 - Identity
 - Authentication
 - KakaoTalk

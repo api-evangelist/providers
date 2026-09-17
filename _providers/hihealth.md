@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The embedded credit-card API that powers hi.health. Partners issue and manage cards, cardholders, transactions, receipts, payments, statements and external transfers, with OAuth2 client-credentials au
@@ -212,7 +212,7 @@ overview: 'hi.health publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   hi.health''s developer surface includes engineering blog, pricing, signup flow, documentation, API reference, getting-started guide, support, and 25 more developer resources.'
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Hihealth Rate Limits
@@ -251,7 +251,7 @@ score:
     regime_id: insurance
     score: 80.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

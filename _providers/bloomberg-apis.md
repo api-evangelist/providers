@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -54,11 +54,6 @@ apis:
 - description: Bulk data delivery service for historical and reference data.
   name: Bloomberg Data License API
   slug: bloomberg-data-license-api
-- baseURL_template: blpapi+session://{session}
-  baseurl_source: spec_template
-  description: API Authorization Service — entitlements and identity
-  name: Bloomberg APIs apiauth API
-  slug: bloomberg-apis-apiauth-api
 - baseURL_template: blpapi+session://{session}
   baseurl_source: spec_template
   description: API Field Information Service — discover and search Bloomberg fields
@@ -91,14 +86,19 @@ apis:
   slug: bloomberg-apis-pagedata-api
 - baseURL_template: blpapi+session://{session}
   baseurl_source: spec_template
-  description: Reference Data Service operations — request/response paradigm
-  name: Bloomberg APIs refdata API
-  slug: bloomberg-apis-refdata-api
-- baseURL_template: blpapi+session://{session}
-  baseurl_source: spec_template
   description: Technical Analysis Service — historical, intraday, and real-time studies
   name: Bloomberg APIs tasvc API
   slug: bloomberg-apis-tasvc-api
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: API Authorization Service — entitlements and identity
+  name: Bloomberg APIs API Auth API
+  slug: bloomberg-apis-api-auth-api
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: Reference Data Service operations — request/response paradigm
+  name: Bloomberg APIs Ref Data API
+  slug: bloomberg-apis-ref-data-api
 artifact_total: 30
 collections:
 - collection_type: open
@@ -135,6 +135,10 @@ collections:
   name: Bloomberg API (BLPAPI)
   slug: open-bloomberg-blpapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -187,19 +191,19 @@ finops:
   slug: bloomberg-apis-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-apis.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg APIs
 nav: Providers
 network: true
-overview: 'Bloomberg APIs publishes 9 APIs on the [APIs.io](https://apis.io/) network, including apiauth API, apiflds API, instruments API, and 6 more. Tagged areas include Analytics, Financial Data, Market Data, News, and Terminal.
+overview: 'Bloomberg APIs publishes 9 APIs on the [APIs.io](https://apis.io/) network, including apiflds API, instruments API, mktbar API, and 6 more. Tagged areas include Analytics, Financial Data, Market Data, News, and Terminal.
 
 
-  Bloomberg APIs'' developer surface includes authentication, developer portal, getting-started guide, support, and 6 more developer resources.'
+  Bloomberg APIs'' developer surface includes authentication, developer portal, getting-started guide, support, and 7 more developer resources.'
 plans:
 - name: Bloomberg Apis Plans Pricing
   plan_count: 3
   slug: bloomberg-apis-plans-pricing
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Bloomberg Apis Rate Limits
@@ -237,7 +241,7 @@ score:
     regime_id: securities_market_data
     score: 53.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -263,5 +267,5 @@ tags:
 - Market Data
 - News
 - Terminal
-website: https://developer.bloomberg.com/
+website: https://bloomberg.com
 ---

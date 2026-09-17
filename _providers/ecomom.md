@@ -25,7 +25,7 @@ name: EcoMom
 nav: Providers
 network: true
 overview: EcoMom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Backed, 500 Global, Portfolio Lead, and Defunct.
-random_paper: 10
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecomom/refs/heads/main/screenshots/ecomom-2026-07-25T212804.png
 slug: ecomom
 tags:

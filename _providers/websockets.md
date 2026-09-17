@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 12
 asyncapis:
@@ -145,7 +145,7 @@ overview: 'WebSockets is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   The WebSockets catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.'
-random_paper: 11
+random_paper: 4
 rules:
 - effective_rule_count: 31
   extends:
@@ -194,7 +194,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 21.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

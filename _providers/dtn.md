@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -66,11 +66,6 @@ apis:
   description: The API Endpoints API from DTN — 4 operation(s) for api endpoints.
   name: DTN API Endpoints API
   slug: dtn-api-endpoints-api
-- baseURL: https://weather.api.dtn.com
-  baseurl_source: declared
-  description: Endpoints for the api/catalog resources
-  name: DTN AP Is API
-  slug: dtn-apis-api
 - baseURL: https://weather.api.dtn.com
   baseurl_source: declared
   description: The Archive API from DTN — 2 operation(s) for archive.
@@ -124,12 +119,12 @@ apis:
 - baseURL: https://weather.api.dtn.com
   baseurl_source: declared
   description: The DTN API from DTN — 3 operation(s) for dtn.
-  name: DTN DTN API
+  name: DTN API
   slug: dtn-dtn-api
 - baseURL: https://weather.api.dtn.com
   baseurl_source: declared
   description: The DTN Tropical Cyclone API API from DTN — 1 operation(s) for dtn tropical cyclone api.
-  name: DTN DTN Tropical Cyclone API
+  name: DTN Tropical Cyclone API
   slug: dtn-dtn-tropical-cyclone-api-api
 - baseURL: https://weather.api.dtn.com
   baseurl_source: declared
@@ -536,6 +531,11 @@ apis:
   description: On demand Zulu (Icing) AIRMETs via API
   name: DTN Zulu (Icing) AIRMET API
   slug: dtn-zulu-icing-airmet-api
+- baseURL: https://point-forecast.weather.mg
+  baseurl_source: declared
+  description: Endpoints for the api/catalog resources
+  name: DTN AP Is API
+  slug: dtn-apis-api
 artifact_total: 148
 asyncapis:
 - description: Faithful AsyncAPI rendering of DTN's Agency Bulletin WebSocket API, which streams global weather agency bulletins in real time over a WebSocket upgrade (HTTP 101). Derived from the provider's publishe
@@ -837,7 +837,7 @@ jsonld:
   property_count: 20
   slug: dtn-context
 layout: provider
-modified: '2026-07-22'
+modified: '2026-09-16'
 name: DTN
 nav: Providers
 network: true
@@ -852,7 +852,7 @@ plans:
 - name: Dtn Plans Pricing
   plan_count: 2
   slug: dtn-plans-pricing
-random_paper: 11
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Dtn Rate Limits
@@ -875,7 +875,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.7
+  composite: 56.0
   coverage:
     artifact_dirs: 27
     catalog_earned: 55.3
@@ -883,11 +883,11 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 34.2
     contract_governance: 14.4
-    contract_quality: 64.8
+    contract_quality: 65.7
     developer_ergonomics: 68.5
     discoverability: 75.9
     operational_transparency: 36.8
@@ -909,7 +909,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

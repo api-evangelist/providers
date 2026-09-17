@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - baseURL: https://jenavalve.com/wp-json
@@ -59,11 +59,6 @@ apis:
   slug: jenavalve-technology-media-api
 - baseURL: https://jenavalve.com/wp-json
   baseurl_source: declared
-  description: oEmbed provider endpoint for discover-ar.com URLs.
-  name: JenaValve Technology O Embed API
-  slug: jenavalve-technology-oembed-api
-- baseURL: https://jenavalve.com/wp-json
-  baseurl_source: declared
   description: Yoast SEO head-metadata endpoint.
   name: JenaValve Technology SEO API
   slug: jenavalve-technology-seo-api
@@ -72,6 +67,11 @@ apis:
   description: The articles / videos / audio / presentations category taxonomy.
   name: JenaValve Technology Taxonomy API
   slug: jenavalve-technology-taxonomy-api
+- baseURL: https://jenavalve.com/wp-json
+  baseurl_source: declared
+  description: oEmbed provider endpoint for discover-ar.com URLs.
+  name: JenaValve Technology o Embed API
+  slug: jenavalve-technology-o-embed-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -235,7 +235,7 @@ overview: 'JenaValve Technology publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   JenaValve Technology''s developer surface includes engineering blog, product news, support, documentation, authentication, and 23 more developer resources.'
-random_paper: 6
+random_paper: 17
 score:
   band: thin
   composite: 37.7
@@ -250,7 +250,7 @@ score:
   facets:
     access_clarity: 57.1
     contract_governance: 4.5
-    contract_quality: 49.0
+    contract_quality: 49.3
     developer_ergonomics: 20.8
     discoverability: 74.1
     operational_transparency: 0.0
@@ -260,7 +260,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 44.4
+      marker_coverage: 100.0
       total: 9
     skills: derived
   regulatory:
@@ -270,7 +270,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

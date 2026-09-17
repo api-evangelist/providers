@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -145,11 +145,6 @@ apis:
   description: Manage tax profiles, exemptions, and overrides
   name: Avalara Customization API
   slug: avalara-customization-api
-- baseURL_template: http://{{baseurl}}
-  baseurl_source: spec_template
-  description: The DataSources API from Avalara — 3 operation(s) for datasources.
-  name: Avalara DataSources API
-  slug: avalara-datasources-api
 - baseURL: https://rest.avatax.com
   baseurl_source: spec
   description: Query tax content definitions, rates, and jurisdictions
@@ -347,19 +342,9 @@ apis:
   slug: avalara-tax-rates-api
 - baseURL_template: http://{{baseurl}}
   baseurl_source: spec_template
-  description: The TaxCodes API from Avalara — 3 operation(s) for taxcodes.
-  name: Avalara TaxCodes API
-  slug: avalara-taxcodes-api
-- baseURL_template: http://{{baseurl}}
-  baseurl_source: spec_template
   description: The TaxContent API from Avalara — 5 operation(s) for taxcontent.
   name: Avalara TaxContent API
   slug: avalara-taxcontent-api
-- baseURL: https://rest.avatax.com
-  baseurl_source: spec
-  description: Manage tax rules and overrides for companies
-  name: Avalara TaxRules API
-  slug: avalara-taxrules-api
 - baseURL: https://avataxbr-sandbox.avalarabrasil.com.br/v3
   baseurl_source: spec
   description: Manage tax transactions
@@ -400,6 +385,21 @@ apis:
   description: The Shipping Verification API from Avalara — 3 operation(s) for shipping verification.
   name: Avalara Shipping Verification API
   slug: avalara-shipping-verification-api
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The Data Sources API from Avalara — 3 operation(s) for data sources.
+  name: Avalara Data Sources API
+  slug: avalara-data-sources-api
+- baseURL_template: http://{{baseurl}}
+  baseurl_source: spec_template
+  description: The Tax Codes API from Avalara — 3 operation(s) for tax codes.
+  name: Avalara Tax Codes API
+  slug: avalara-tax-codes-api
+- baseURL: https://rest.avatax.com
+  baseurl_source: spec
+  description: Manage tax rules and overrides for companies
+  name: Avalara Tax Rules API
+  slug: avalara-tax-rules-api
 arazzos:
 - description: Retrieve a committed transaction and adjust it with a corrected, documented replacement.
   name: Avalara Adjust a Committed Transaction
@@ -2867,7 +2867,7 @@ modified: '2026-06-20'
 name: Avalara
 nav: Providers
 network: true
-overview: 'Avalara publishes 68 APIs on the [APIs.io](https://apis.io/) network, including 1099 Forms API, Accounts API, Addresses API, and 65 more. Tagged areas include Taxes.
+overview: 'Avalara publishes 68 APIs on the [APIs.io](https://apis.io/) network, including 1099 Forms API, Accounts API, Addresses API, and 65 more. Tagged areas include Tax.
 
 
   The Avalara catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -2878,7 +2878,7 @@ plans:
 - name: Avalara Plans Pricing
   plan_count: 5
   slug: avalara-plans-pricing
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Avalara Rate Limits
@@ -2923,7 +2923,7 @@ scopes:
   summary_line: 24 scopes
 score:
   band: strong
-  composite: 62.0
+  composite: 62.3
   coverage:
     artifact_dirs: 34
     catalog_earned: 52.5
@@ -2931,11 +2931,11 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 65.8
     contract_governance: 47.0
-    contract_quality: 71.1
+    contract_quality: 72.3
     developer_ergonomics: 69.0
     discoverability: 57.4
     operational_transparency: 42.1
@@ -2950,7 +2950,7 @@ score:
       total: 68
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2971,7 +2971,7 @@ security:
   summary_line: SOC 2 Type 2
 slug: avalara
 tags:
-- Taxes
+- Tax
 use_cases:
 - description: Automatically calculate and collect sales tax on every transaction across all US jurisdictions.
   name: E-Commerce Tax Compliance

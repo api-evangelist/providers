@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -163,7 +163,7 @@ plans:
 - name: Ianacare Plans Pricing
   plan_count: 0
   slug: ianacare-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Ianacare Rate Limits
@@ -207,7 +207,7 @@ score:
     regime_id: health
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -232,7 +232,7 @@ tags:
 - Digital Health
 - Care Navigation
 - Health Plans
-- Mobile Application
+- Mobile Applications
 - Identity
 website: https://ianacare.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,6 +82,10 @@ collections:
   name: Spring Batch 5.1 Actuator API
   slug: open-spring-batch-51
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://spring.io
 - group: operate
   title: ''
   type: Support
@@ -183,7 +187,7 @@ jsonld:
   property_count: 25
   slug: spring-batch-5-1-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Spring Batch 5.1
 nav: Providers
 network: true
@@ -193,12 +197,12 @@ overview: 'Spring Batch 5.1 publishes 3 APIs on the [APIs.io](https://apis.io/) 
   The Spring Batch 5.1 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Batch 5.1''s developer surface includes support, engineering blog, Stack Overflow tag, and 13 more developer resources.'
+  Spring Batch 5.1''s developer surface includes support, engineering blog, Stack Overflow tag, and 14 more developer resources.'
 plans:
 - name: Spring Batch 5 1 Plans Pricing
   plan_count: 3
   slug: spring-batch-5-1-plans-pricing
-random_paper: 3
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Spring Batch 5 1 Rate Limits
@@ -252,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -277,5 +281,5 @@ tags:
 - Java
 - Job Scheduling
 - Spring Framework
-website: https://spring.io/projects/spring-batch
+website: https://spring.io
 ---

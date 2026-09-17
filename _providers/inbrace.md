@@ -53,7 +53,7 @@ name: InBrace
 nav: Providers
 network: true
 overview: InBrace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Orthodontics, Dental, Medical Devices, and Health.
-random_paper: 10
+random_paper: 20
 screenshot: https://raw.githubusercontent.com/api-evangelist/inbrace/refs/heads/main/screenshots/inbrace-2026-09-02T145846.png
 security:
 - kind: domain-security

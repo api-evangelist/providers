@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: 'The Boeing Aircraft Models API provides model characteristics of commercial and business aviation aircraft including ICAO/IATA codes, engine specifications, wingspan, weight, and height. Data sourced '
@@ -106,7 +106,7 @@ modified: '2026-04-21'
 name: Boeing
 nav: Providers
 network: true
-overview: 'Boeing publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, Airplanes, Aerospace, Flight, and Aeronautical.
+overview: 'Boeing publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, Airplanes, Aerospace, Flights, and Aeronautical.
 
 
   Boeing''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: News Releases | Boeing Newsroom
   url: https://boeing.mediaroom.com/news-releases-statements?item=131225
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Boeing Rate Limits
@@ -155,7 +155,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +172,7 @@ tags:
 - Aviation
 - Airplanes
 - Aerospace
-- Flight
+- Flights
 - Aeronautical
 - Fortune 100
 website: https://www.boeing.com

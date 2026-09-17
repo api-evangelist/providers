@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 0
@@ -357,7 +357,7 @@ plans:
 - name: Google Display Video 360 Plans Pricing
   plan_count: 0
   slug: google-display-video-360-plans-pricing
-random_paper: 13
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Google Display Video 360 Rate Limits
@@ -408,7 +408,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

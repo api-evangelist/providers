@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Prosus Ventures
 nav: Providers
 network: true
-random_paper: 4
+random_paper: 15
 slug: prosus-ventures
 tags:
 - Venture Capital
@@ -33,7 +33,7 @@ tags:
 - E-Commerce
 - Fintech
 - Artificial Intelligence
-- Marketplaces
+- Marketplace
 - Food Delivery
 - Logistics
 - India

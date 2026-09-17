@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://api.virtuosis.ai/v1.3
@@ -216,7 +216,7 @@ modified: '2026-08-19'
 name: Virtuosis Voice Biomarker API
 nav: Providers
 network: true
-overview: 'Virtuosis Voice Biomarker API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 1 more. Tagged areas include Digital Health, voice biomarkers, Speech Analysis, acoustic analysis, and Medical Device.
+overview: 'Virtuosis Voice Biomarker API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 1 more. Tagged areas include Digital Health, voice biomarkers, Speech Analysis, acoustic analysis, and Medical Devices.
 
 
   Virtuosis Voice Biomarker API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
@@ -224,7 +224,7 @@ plans:
 - name: Virtuosis Voice Biomarker Api Plans Pricing
   plan_count: 0
   slug: virtuosis-voice-biomarker-api-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Virtuosis Voice Biomarker Api Rate Limits
@@ -264,7 +264,7 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -285,7 +285,7 @@ tags:
 - voice biomarkers
 - Speech Analysis
 - acoustic analysis
-- Medical Device
+- Medical Devices
 - Mental Health
 - Wellbeing
 - neurodegenerative screening

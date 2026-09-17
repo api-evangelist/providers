@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: REST API for managing procurement operations including requisitions, purchase orders, and supplier information.
@@ -56,6 +56,10 @@ apis:
   slug: receipts-api
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/oracle-procurement/refs/heads/main/security/oracle-procurement-domain-security.yml
   title: ''
@@ -93,19 +97,19 @@ finops:
   slug: oracle-procurement-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-procurement.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Oracle Procurement
 nav: Providers
 network: true
 overview: 'Oracle Procurement publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include ERP, Procurement, Purchasing, Spend Management, and Suppliers.
 
 
-  Oracle Procurement''s developer surface includes getting-started guide, authentication, developer portal, support, and 3 more developer resources.'
+  Oracle Procurement''s developer surface includes getting-started guide, authentication, developer portal, support, and 4 more developer resources.'
 plans:
 - name: Oracle Procurement Plans Pricing
   plan_count: 3
   slug: oracle-procurement-plans-pricing
-random_paper: 10
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Oracle Procurement Rate Limits
@@ -130,7 +134,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 27.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -149,5 +153,5 @@ tags:
 - Purchasing
 - Spend Management
 - Suppliers
-website: https://cloud.oracle.com/
+website: https://oracle.com
 ---

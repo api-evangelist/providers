@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.henchman.io
@@ -116,7 +116,7 @@ plans:
 - name: Henchman Plans Pricing
   plan_count: 3
   slug: henchman-plans-pricing
-random_paper: 15
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Henchman Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

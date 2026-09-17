@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Single GraphQL endpoint delivering Spire's satellite AIS maritime data - vessel positions, voyages, port calls, and predicted ETAs - with flexible querying for analytics and integration use cases. Now
@@ -122,12 +122,12 @@ modified: '2026-05-23'
 name: Spire Global
 nav: Providers
 network: true
-overview: Spire Global publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Satellites, Earth Observation, AIS, Maritime, and ADS-B.
+overview: Spire Global publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Satellite, Earth Observation, AIS, Maritime, and ADS-B.
 plans:
 - name: Spire Global Plans Pricing
   plan_count: 1
   slug: spire-global-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Spire Global Rate Limits
@@ -152,7 +152,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -166,7 +166,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: spire-global
 tags:
-- Satellites
+- Satellite
 - Earth Observation
 - AIS
 - Maritime

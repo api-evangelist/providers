@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ name: YesGraph
 nav: Providers
 network: true
 overview: YesGraph is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Referrals, Recommendations, Contacts, and Social Graph.
-random_paper: 6
+random_paper: 9
 score:
   band: minimal
   composite: 7.8
@@ -99,7 +99,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 7.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

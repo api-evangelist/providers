@@ -21,7 +21,7 @@ modified: '2026-04-19'
 name: AUTHORS.md
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 16
 slug: authors-md
 tags:
 - Attribution
@@ -31,5 +31,5 @@ tags:
 - File Format
 - Contributor Management
 - License Compliance
-- Standard
+- Standards
 ---

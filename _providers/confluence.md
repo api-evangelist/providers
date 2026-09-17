@@ -27,31 +27,37 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 51.6
-  scored_at: '2026-09-15'
+  score: 50.8
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 11
-  human_in_the_loop: 0
+- acting_count: 151
+  human_in_the_loop: 7
   name: Confluence Agentic Access
-  operation_count: 27
+  operation_count: 355
   slug: confluence-agentic-access
-  summary_line: 27 operations · 11 acting
-api_count: 1
+  summary_line: 355 operations · 151 acting · 7 human-in-the-loop
+api_count: 3
 apis:
-- description: Store and retrieve custom data against Confluence content.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Store and retrieve custom data against Confluence content.
   name: Confluence Content Properties API
   slug: confluence-content-properties-api
-- description: Search for content in Confluence using CQL (Confluence Query Language).
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Search for content in Confluence using CQL (Confluence Query Language).
   name: Confluence Search API
   slug: confluence-search-api
-- description: Create, read, update, delete, and archive content including pages and blog posts in Confluence Cloud.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Create, read, update, delete, and archive content including pages and blog posts in Confluence Cloud.
   name: Confluence Content API
   slug: confluence-content-api
 - baseURL: https://your-domain.atlassian.net/wiki/rest/api
@@ -59,31 +65,49 @@ apis:
   description: Manage Confluence spaces including creation, configuration, permissions, and settings.
   name: Confluence Space API
   slug: confluence-space-api
-- description: Add, remove, and manage labels on Confluence content for organization and discovery.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Add, remove, and manage labels on Confluence content for organization and discovery.
   name: Confluence Content Labels API
   slug: confluence-content-labels-api
-- description: Retrieve analytics data including content views and viewer counts for Confluence Cloud.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Retrieve analytics data including content views and viewer counts for Confluence Cloud.
   name: Confluence Analytics API
   slug: confluence-analytics-api
-- description: Access and manage audit log records for compliance and security tracking in Confluence Cloud.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Access and manage audit log records for compliance and security tracking in Confluence Cloud.
   name: Confluence Audit API
   slug: confluence-audit-api
-- description: Manage content templates and blueprints for standardized page creation in Confluence Cloud.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage content templates and blueprints for standardized page creation in Confluence Cloud.
   name: Confluence Template API
   slug: confluence-template-api
-- description: Manage user groups and group membership in Confluence Cloud.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage user groups and group membership in Confluence Cloud.
   name: Confluence Group API
   slug: confluence-group-api
-- description: Retrieve user information, manage user properties, and check permissions in Confluence Cloud.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Retrieve user information, manage user properties, and check permissions in Confluence Cloud.
   name: Confluence Users API
   slug: confluence-users-api
-- description: Manage content workflow states such as draft, in progress, and review in Confluence Cloud.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage content workflow states such as draft, in progress, and review in Confluence Cloud.
   name: Confluence Content States API
   slug: confluence-content-states-api
-- description: Manage read and update restrictions on Confluence content for access control.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage read and update restrictions on Confluence content for access control.
   name: Confluence Content Restrictions API
   slug: confluence-content-restrictions-api
-- description: Manage permissions for Confluence spaces including user and group access levels.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage permissions for Confluence spaces including user and group access levels.
   name: Confluence Space Permissions API
   slug: confluence-space-permissions-api
 - description: Query Confluence data using GraphQL for efficient cross-product data retrieval with field-level precision.
@@ -92,52 +116,84 @@ apis:
 - description: REST API for Confluence Data Center and Server for on-premise content, space, and user management.
   name: Confluence Data Center REST API
   slug: confluence-data-center-rest-api
-- description: Upload, retrieve, update, and delete file attachments on Confluence content.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Upload, retrieve, update, and delete file attachments on Confluence content.
   name: Confluence Content Attachments API
   slug: confluence-content-attachments-api
-- description: Convert content body representations between storage, editor, view, and export formats.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Convert content body representations between storage, editor, view, and export formats.
   name: Confluence Content Body API
   slug: confluence-content-body-api
-- description: Retrieve children and descendants of Confluence content for navigating content hierarchies.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Retrieve children and descendants of Confluence content for navigating content hierarchies.
   name: Confluence Content Children and Descendants API
   slug: confluence-content-children-and-descendants-api
-- description: Retrieve the body of a macro in Confluence content by macro ID.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Retrieve the body of a macro in Confluence content by macro ID.
   name: Confluence Content Macro Body API
   slug: confluence-content-macro-body-api
-- description: Check content permissions for users to determine read and update access.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Check content permissions for users to determine read and update access.
   name: Confluence Content Permissions API
   slug: confluence-content-permissions-api
-- description: Manage content version history including retrieval, restoration, and deletion of versions.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage content version history including retrieval, restoration, and deletion of versions.
   name: Confluence Content Versions API
   slug: confluence-content-versions-api
-- description: Manage content and space watches to receive notifications on updates.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage content and space watches to receive notifications on updates.
   name: Confluence Content Watches API
   slug: confluence-content-watches-api
-- description: Register and manage dynamic modules for Confluence Connect apps.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Register and manage dynamic modules for Confluence Connect apps.
   name: Confluence Dynamic Modules API
   slug: confluence-dynamic-modules-api
-- description: Experimental endpoints for Confluence Cloud that may change or be removed.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Experimental endpoints for Confluence Cloud that may change or be removed.
   name: Confluence Experimental API
   slug: confluence-experimental-api
-- description: Retrieve information about labels used across Confluence content.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Retrieve information about labels used across Confluence content.
   name: Confluence Label Info API
   slug: confluence-label-info-api
-- description: Monitor the status and results of long-running asynchronous tasks in Confluence.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Monitor the status and results of long-running asynchronous tasks in Confluence.
   name: Confluence Long-Running Task API
   slug: confluence-long-running-task-api
-- description: Manage relationships between Confluence entities such as content and users.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage relationships between Confluence entities such as content and users.
   name: Confluence Relation API
   slug: confluence-relation-api
-- description: Retrieve and manage Confluence site settings and configuration.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Retrieve and manage Confluence site settings and configuration.
   name: Confluence Settings API
   slug: confluence-settings-api
-- description: Manage settings for individual Confluence spaces.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Manage settings for individual Confluence spaces.
   name: Confluence Space Settings API
   slug: confluence-space-settings-api
-- description: Retrieve theme information for Confluence spaces and the global site.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Retrieve theme information for Confluence spaces and the global site.
   name: Confluence Themes API
   slug: confluence-themes-api
-- description: Store and retrieve custom properties associated with Confluence users.
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Store and retrieve custom properties associated with Confluence users.
   name: Confluence User Properties API
   slug: confluence-user-properties-api
 - description: Create, retrieve, update, and delete pages using the Confluence Cloud REST API v2.
@@ -257,22 +313,257 @@ apis:
   description: Retrieve and manage Confluence spaces
   name: Confluence Space API
   slug: confluence-space-api
-- baseURL: https://{your-domain}/wiki/api/v2
-  baseurl_source: declared
-  description: The recommended Confluence Cloud REST surface. 218 cursor-paginated operations under /wiki/api/v2 covering pages, blog posts, spaces, attachments, comments, labels, versions, tasks, custom content, da
-  name: Confluence Cloud REST API v2
-  slug: confluence-cloud-rest-api-v2
-- baseURL: https://your-domain.atlassian.net
-  baseurl_source: declared
-  description: The legacy Confluence Cloud REST surface under /wiki/rest/api. 130 operations, still the only place several capabilities are published — CQL search, audit records, groups and users, content restrictio
-  name: Confluence Cloud REST API v1
-  slug: confluence-cloud-rest-api-v1
 - description: The Atlassian GraphQL gateway. Anonymous introspection succeeds and returns 27,710 types, of which 1,113 are Confluence-prefixed, across 3,369 Query fields; executing most Confluence fields requires a
   name: Confluence Cloud GraphQL API
   slug: confluence-cloud-graphql-api
 - description: Atlassian's official remote Model Context Protocol server. The Confluence permission groups (read_confluence, write_confluence, search_confluence) expose 60 named tools over streamable HTTP at https:/
   name: Atlassian Rovo MCP Server (Confluence tools)
   slug: atlassian-rovo-mcp-server
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The [Admin Key feature](https://support.atlassian.com/confluence-cloud/docs/bypass-access-restrictions-on-a-page-with-admin-key/) is only offered with Confluence Cloud Premium and Enterprise to organi
+  name: Confluence Admin Key API
+  slug: confluence-admin-key-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Analytics API from Confluence — 2 operation(s) for analytics.
+  name: Confluence Analytics API
+  slug: confluence-analytics-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Ancestors API from Confluence — 5 operation(s) for ancestors.
+  name: Confluence Ancestors API
+  slug: confluence-ancestors-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The App Properties API from Confluence — 2 operation(s) for app properties.
+  name: Confluence App Properties API
+  slug: confluence-app-properties-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Audit API from Confluence — 4 operation(s) for audit.
+  name: Confluence Audit API
+  slug: confluence-audit-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Children API from Confluence — 7 operation(s) for children.
+  name: Confluence Children API
+  slug: confluence-children-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Classification Level API from Confluence — 10 operation(s) for classification level.
+  name: Confluence Classification Level API
+  slug: confluence-classification-level-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content API from Confluence — 4 operation(s) for content.
+  name: Confluence Content API
+  slug: confluence-content-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content - attachments API from Confluence — 4 operation(s) for content - attachments.
+  name: Confluence Content - attachments API
+  slug: confluence-content-attachments-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content body API from Confluence — 3 operation(s) for content body.
+  name: Confluence Content body API
+  slug: confluence-content-body-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content - children and descendants API from Confluence — 5 operation(s) for content - children and descendants.
+  name: Confluence Content - children and descendants API
+  slug: confluence-content-children-and-descendants-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content labels API from Confluence — 2 operation(s) for content labels.
+  name: Confluence Content labels API
+  slug: confluence-content-labels-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content - macro body API from Confluence — 3 operation(s) for content - macro body.
+  name: Confluence Content - macro body API
+  slug: confluence-content-macro-body-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content permissions API from Confluence — 1 operation(s) for content permissions.
+  name: Confluence Content permissions API
+  slug: confluence-content-permissions-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content Properties API from Confluence — 18 operation(s) for content properties.
+  name: Confluence Content Properties API
+  slug: confluence-content-properties-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content restrictions API from Confluence — 5 operation(s) for content restrictions.
+  name: Confluence Content restrictions API
+  slug: confluence-content-restrictions-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content states API from Confluence — 6 operation(s) for content states.
+  name: Confluence Content states API
+  slug: confluence-content-states-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content versions API from Confluence — 2 operation(s) for content versions.
+  name: Confluence Content versions API
+  slug: confluence-content-versions-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Content watches API from Confluence — 6 operation(s) for content watches.
+  name: Confluence Content watches API
+  slug: confluence-content-watches-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Custom Content API from Confluence — 5 operation(s) for custom content.
+  name: Confluence Custom Content API
+  slug: confluence-custom-content-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Data Policies API from Confluence — 2 operation(s) for data policies.
+  name: Confluence Data Policies API
+  slug: confluence-data-policies-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Database API from Confluence — 2 operation(s) for database.
+  name: Confluence Database API
+  slug: confluence-database-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Descendants API from Confluence — 5 operation(s) for descendants.
+  name: Confluence Descendants API
+  slug: confluence-descendants-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Dynamic modules API from Confluence — 1 operation(s) for dynamic modules.
+  name: Confluence Dynamic modules API
+  slug: confluence-dynamic-modules-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: APIs in this section can change without any prior deprecation notice.
+  name: Confluence Experimental API
+  slug: confluence-experimental-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Folder API from Confluence — 2 operation(s) for folder.
+  name: Confluence Folder API
+  slug: confluence-folder-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: '**[WARNING](https://support.atlassian.com/user-management/docs/create-and-update-groups/) The standard Atlassian group names are default names only and can be edited or deleted.** For example, an admi'
+  name: Confluence Group API
+  slug: confluence-group-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Label info API from Confluence — 1 operation(s) for label info.
+  name: Confluence Label info API
+  slug: confluence-label-info-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Like API from Confluence — 8 operation(s) for like.
+  name: Confluence Like API
+  slug: confluence-like-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Long-running task API from Confluence — 2 operation(s) for long-running task.
+  name: Confluence Long-running task API
+  slug: confluence-long-running-task-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Operation API from Confluence — 11 operation(s) for operation.
+  name: Confluence Operation API
+  slug: confluence-operation-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Redactions API from Confluence — 2 operation(s) for redactions.
+  name: Confluence Redactions API
+  slug: confluence-redactions-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Relation API from Confluence — 3 operation(s) for relation.
+  name: Confluence Relation API
+  slug: confluence-relation-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Search API from Confluence — 2 operation(s) for search.
+  name: Confluence Search API
+  slug: confluence-search-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Settings API from Confluence — 3 operation(s) for settings.
+  name: Confluence Settings API
+  slug: confluence-settings-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Smart Link API from Confluence — 2 operation(s) for smart link.
+  name: Confluence Smart Link API
+  slug: confluence-smart-link-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Space Permission Transition API from Confluence — 4 operation(s) for space permission transition.
+  name: Confluence Space Permission Transition API
+  slug: confluence-space-permission-transition-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Space permissions API from Confluence — 5 operation(s) for space permissions.
+  name: Confluence Space permissions API
+  slug: confluence-space-permissions-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Space Properties API from Confluence — 2 operation(s) for space properties.
+  name: Confluence Space Properties API
+  slug: confluence-space-properties-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Space Roles API from Confluence — 4 operation(s) for space roles.
+  name: Confluence Space Roles API
+  slug: confluence-space-roles-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Space settings API from Confluence — 1 operation(s) for space settings.
+  name: Confluence Space settings API
+  slug: confluence-space-settings-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Task API from Confluence — 2 operation(s) for task.
+  name: Confluence Task API
+  slug: confluence-task-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Template API from Confluence — 4 operation(s) for template.
+  name: Confluence Template API
+  slug: confluence-template-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Themes API from Confluence — 4 operation(s) for themes.
+  name: Confluence Themes API
+  slug: confluence-themes-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The User API from Confluence — 3 operation(s) for user.
+  name: Confluence User API
+  slug: confluence-user-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The User properties API from Confluence — 2 operation(s) for user properties.
+  name: Confluence User properties API
+  slug: confluence-user-properties-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Users API from Confluence — 7 operation(s) for users.
+  name: Confluence Users API
+  slug: confluence-users-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Version API from Confluence — 12 operation(s) for version.
+  name: Confluence Version API
+  slug: confluence-version-api
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: The Whiteboard API from Confluence — 2 operation(s) for whiteboard.
+  name: Confluence Whiteboard API
+  slug: confluence-whiteboard-api
 arazzos:
 - description: Find a blog post by title, archive it to preserve the record, and optionally delete it.
   name: Confluence Archive or Delete a Blog Post
@@ -313,7 +604,7 @@ arazzos:
 - description: Find a page by title within a space and update it if it exists, otherwise create it.
   name: Confluence Upsert a Page by Title
   slug: confluence-upsert-page-by-title-workflow
-artifact_total: 271
+artifact_total: 318
 asyncapis:
 - description: Asynchronous event notifications from Confluence Cloud. Webhooks allow applications to receive real-time notifications when content, spaces, or other entities are created, updated, or deleted in Confl
   name: Confluence Cloud Webhooks
@@ -362,6 +653,16 @@ collections:
   name: Confluence Cloud REST API v2 Attachment Space API
   slug: open-confluence-space-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/overlays/confluence-rest-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/confluence-rest-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/overlays/confluence-rest-v1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/confluence-rest-v1-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/skills/_index.yml
   title: ''
@@ -1214,18 +1515,18 @@ modified: '2026-06-20'
 name: Confluence
 nav: Providers
 network: true
-overview: 'Confluence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Space API, Attachment API, Blog Post API, and 6 more. Tagged areas include Collaboration, Content Management, Documentation, Knowledge Base, and Wiki.
+overview: 'Confluence publishes 84 APIs on the [APIs.io](https://apis.io/) network, including Content Properties API, Search API, Content API, and 81 more. Tagged areas include Collaboration, Content Management, Documentation, Knowledge Base, and Wiki.
 
 
   The Confluence catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Confluence''s developer surface includes API reference, signup flow, changelog, CLI, sandbox, authentication, developer portal, and 82 more developer resources.'
+  Confluence''s developer surface includes API reference, signup flow, changelog, CLI, sandbox, authentication, developer portal, and 84 more developer resources.'
 plans:
 - name: Confluence Plans Pricing
   plan_count: 4
   slug: confluence-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Confluence Rate Limits
@@ -1270,35 +1571,35 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.8
+  composite: 67.4
   coverage:
     artifact_dirs: 36
-    catalog_earned: 46.5
+    catalog_earned: 49.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.5
+    catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 75.1
+    contract_quality: 71.1
     developer_ergonomics: 94.6
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 44.7
   previous_composite: 67.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 10.9
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 55
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

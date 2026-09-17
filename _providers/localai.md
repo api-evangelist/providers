@@ -36,14 +36,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
-- baseURL: http://{localai-host}:8080
-  baseurl_source: declared
-  description: The 3d API from LocalAI — 2 operation(s) for 3d.
-  name: LocalAI 3d API
-  slug: localai-3d-api
 - baseURL: http://{localai-host}:8080
   baseurl_source: declared
   description: The agent-jobs API from LocalAI — 7 operation(s) for agent-jobs.
@@ -131,11 +126,6 @@ apis:
   slug: localai-nodes-api
 - baseURL: http://{localai-host}:8080
   baseurl_source: declared
-  description: The p2p API from LocalAI — 2 operation(s) for p2p.
-  name: LocalAI P2p API
-  slug: localai-p2p-api
-- baseURL: http://{localai-host}:8080
-  baseurl_source: declared
   description: The pii API from LocalAI — 2 operation(s) for pii.
   name: LocalAI Pii API
   slug: localai-pii-api
@@ -169,6 +159,16 @@ apis:
   description: The voice-recognition API from LocalAI — 6 operation(s) for voice-recognition.
   name: LocalAI Voice Recognition API
   slug: localai-voice-recognition-api
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The 3 D API from LocalAI — 2 operation(s) for 3 d.
+  name: LocalAI 3 D API
+  slug: localai-3-d-api
+- baseURL: http://{localai-host}:8080
+  baseurl_source: declared
+  description: The P2 P API from LocalAI — 2 operation(s) for p2 p.
+  name: LocalAI P2 P API
+  slug: localai-p2-p-api
 artifact_total: 33
 asyncapis:
 - description: The LocalAI Realtime API — an OpenAI Realtime-compatible, low-latency, multi-modal (voice and text) conversation surface carried over WebSocket, with an alternative WebRTC transport negotiated through
@@ -351,7 +351,7 @@ modified: '2026-08-27'
 name: LocalAI
 nav: Providers
 network: true
-overview: 'LocalAI publishes 26 APIs on the [APIs.io](https://apis.io/) network, including 3d API, Agent Jobs API, Audio API, and 23 more. Tagged areas include Artificial Intelligence, Machine-Learning, Large Language Models, Inference, and Self-Hosted.
+overview: 'LocalAI publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Agent Jobs API, Audio API, Backends API, and 23 more. Tagged areas include Artificial Intelligence, Machine-Learning, LLM, Inference, and Self-Hosted.
 
 
   The LocalAI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -362,14 +362,14 @@ plans:
 - name: Localai Plans Pricing
   plan_count: 0
   slug: localai-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Localai Rate Limits
   slug: localai-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 39.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -377,11 +377,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 46.3
+    contract_quality: 49.0
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 36.8
@@ -396,7 +396,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -419,7 +419,7 @@ slug: localai
 tags:
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Inference
 - Self-Hosted
 - Open-Source

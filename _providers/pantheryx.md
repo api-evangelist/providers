@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Relesium direct-to-consumer storefront (a PanTheryx consumer brand, named on pantheryx.com/consumer-brands/) exposes a Universal Commerce Protocol shopping service over MCP. An anonymous POST of t
@@ -150,7 +150,7 @@ plans:
 - name: Pantheryx Plans Pricing
   plan_count: 0
   slug: pantheryx-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Pantheryx Rate Limits
@@ -190,7 +190,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

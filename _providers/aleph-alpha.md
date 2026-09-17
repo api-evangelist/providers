@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -212,11 +212,6 @@ apis:
   slug: aleph-alpha-transformations-api
 - baseURL: https://api.aleph-alpha.com
   baseurl_source: declared
-  description: '**Usecases (Applications)** Usecases are full-stack end to end AI applications. The application exposes the necessary REST endpoints so AI usecases can be consumed and, optionally, a front-end (UI) to'
-  name: Aleph Alpha Usecases API
-  slug: aleph-alpha-usecases-api
-- baseURL: https://api.aleph-alpha.com
-  baseurl_source: declared
   description: The users API from Aleph Alpha — 2 operation(s) for users.
   name: Aleph Alpha Users API
   slug: aleph-alpha-users-api
@@ -230,6 +225,11 @@ apis:
   description: A Workspace is a shared environment where users can collaborate on projects. Workspaces help in organizing and managing projects in large organizations efficiently.
   name: Aleph Alpha Workspaces API
   slug: aleph-alpha-workspaces-api
+- baseURL: https://api.aleph-alpha.com
+  baseurl_source: declared
+  description: '**Usecases (Applications)** Usecases are full-stack end to end AI applications.'
+  name: Aleph Alpha Use Cases API
+  slug: aleph-alpha-use-cases-api
 artifact_total: 80
 collections:
 - collection_type: open
@@ -567,28 +567,28 @@ modified: '2026-08-02'
 name: Aleph Alpha
 nav: Providers
 network: true
-overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) network, including API description API, Application Traces API, Benchmark Executions API, and 34 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Generative AI.
+overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) network, including API description API, Application Traces API, Benchmark Executions API, and 34 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Generative AI.
 
 
   Aleph Alpha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 38 more developer resources.'
-random_paper: 14
+random_paper: 7
 score:
   band: developing
-  composite: 46.9
+  composite: 49.5
   coverage:
     artifact_dirs: 22
-    catalog_earned: 27.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
     access_clarity: 26.3
     contract_governance: 4.5
-    contract_quality: 55.5
+    contract_quality: 56.3
     developer_ergonomics: 72.0
-    discoverability: 50.0
+    discoverability: 74.1
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -616,7 +616,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -640,7 +640,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Generative AI
 - Sovereign AI
 - Inference

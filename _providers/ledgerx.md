@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.ledgerx.com
@@ -161,7 +161,7 @@ overview: 'LedgerX (MIAX Derivatives Exchange) publishes 1 API on the [APIs.io](
 
 
   LedgerX (MIAX Derivatives Exchange)''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 13 more developer resources.'
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Ledgerx Rate Limits
@@ -194,7 +194,7 @@ score:
     regime_id: securities_market_data
     score: 36.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -221,7 +221,7 @@ tags:
 - Bitcoin
 - Exchange
 - Market Data
-- WebSockets
+- WebSocket
 - Regulated Markets
 website: https://app.ledgerx.com
 ---

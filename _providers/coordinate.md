@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://app.coordinatehq.com/api/v1
@@ -105,7 +105,7 @@ apis:
 - baseURL: https://app.coordinatehq.com/api/v1
   baseurl_source: declared
   description: The Coordinate REST API API from Coordinate — 0 operation(s) for coordinate rest api.
-  name: Coordinate Coordinate REST API
+  name: Coordinate REST API
   slug: coordinate-coordinate-rest-api-api
 artifact_total: 31
 asyncapis:
@@ -279,7 +279,7 @@ created: '2026-07-17'
 description: Coordinate (CoordinateHQ) is a client project-execution platform and branded client portal for client-facing businesses — agencies, professional services, and B2B onboarding teams. It turns repeatable workflows into automated, interactive projects with tasks, task groups, goals, progress reports, forms, eSignatures, time tracking, and in-project chat, while giving each client a simple password-free portal. Coordinate exposes a REST API (base https://app.coordinatehq.com/api/v1) for creating and syncing projects, tasks, groups, stakeholders, goals, comments, and organizations, an /entity export firehose for bulk sync, and a webhook API for real-time create/update events, alongside bi-directional Zapier integrations. This profile was enriched by the API Evangelist pipeline from Coordinate's published API reference.
 image: https://cdn.prod.website-files.com/639cbe2ae16424db11366965/68c4925a9be35099761c7e7a_coordinatehq-opengraph-sept-2025.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Coordinate
 nav: Providers
 network: true
@@ -290,7 +290,7 @@ overview: 'Coordinate publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Coordinate''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 14
+random_paper: 8
 score:
   band: developing
   composite: 41.8
@@ -320,7 +320,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

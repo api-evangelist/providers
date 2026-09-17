@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ plans:
 - name: Weave Net Plans Pricing
   plan_count: 3
   slug: weave-net-plans-pricing
-random_paper: 5
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Weave Net Rate Limits
@@ -298,7 +298,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

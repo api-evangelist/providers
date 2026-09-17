@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -63,14 +63,14 @@ apis:
   slug: podio-items-api
 - baseURL: https://api.podio.com
   baseurl_source: declared
-  description: OAuth 2.0 authorization endpoints.
-  name: Podio OAuth API
-  slug: podio-oauth-api
-- baseURL: https://api.podio.com
-  baseurl_source: declared
   description: Work tasks.
   name: Podio Tasks API
   slug: podio-tasks-api
+- baseURL: https://api.podio.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization endpoints.
+  name: Podio O Auth API
+  slug: podio-oauth-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -172,7 +172,7 @@ overview: 'Podio publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Podio''s developer surface includes authentication, documentation, pricing, signup flow, and 11 more developer resources.'
-random_paper: 14
+random_paper: 11
 scopes:
 - name: Podio Scopes
   scope_count: 5
@@ -206,7 +206,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

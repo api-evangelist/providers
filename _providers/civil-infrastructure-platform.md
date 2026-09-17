@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,16 +25,16 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-09-15'
-api_count: 6
+  score: 27.2
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
 - description: 'The CIP Kernel is a Super Long-Term Support (SLTS) Linux kernel branch maintained for ten or more years, providing a stable base for industrial systems that must remain in service across multi-decade '
   name: CIP SLTS Kernel
@@ -53,11 +53,66 @@ apis:
   slug: cip-testing
 - baseURL: https://cip-project.org/wp-json/tec/v1
   baseurl_source: declared
-  description: 'The only live, callable REST API the Civil Infrastructure Platform serves: the community event calendar behind cip-project.org/events, exposing events, venues, organizers and series. Published reads a'
-  name: CIP Events REST API
-  slug: cip-events-api
-artifact_total: 14
+  description: The Authorize API from Civil Infrastructure Platform — 1 operation(s) for authorize.
+  name: Civil Infrastructure Platform Authorize API
+  slug: civil-infrastructure-platform-authorize-api
+- baseURL: https://cip-project.org/wp-json/tec/v1
+  baseurl_source: declared
+  description: The Categories API from Civil Infrastructure Platform — 2 operation(s) for categories.
+  name: Civil Infrastructure Platform Categories API
+  slug: civil-infrastructure-platform-categories-api
+- baseURL: https://cip-project.org/wp-json/tec/v1
+  baseurl_source: declared
+  description: These operations are introduced by the Common library.
+  name: Civil Infrastructure Platform Common API
+  slug: civil-infrastructure-platform-common-api
+- baseURL: https://cip-project.org/wp-json/tec/v1
+  baseurl_source: declared
+  description: The Doc API from Civil Infrastructure Platform — 1 operation(s) for doc.
+  name: Civil Infrastructure Platform Doc API
+  slug: civil-infrastructure-platform-doc-api
+- baseURL: https://cip-project.org/wp-json/tec/v1
+  baseurl_source: declared
+  description: The Events API from Civil Infrastructure Platform — 7 operation(s) for events.
+  name: Civil Infrastructure Platform Events API
+  slug: civil-infrastructure-platform-events-api
+- baseURL: https://cip-project.org/wp-json/tec/v1
+  baseurl_source: declared
+  description: These operations are introduced by Events Pro.
+  name: Civil Infrastructure Platform Events Pro API
+  slug: civil-infrastructure-platform-events-pro-api
+- baseURL: https://cip-project.org/wp-json/tec/v1
+  baseurl_source: declared
+  description: The Organizers API from Civil Infrastructure Platform — 3 operation(s) for organizers.
+  name: Civil Infrastructure Platform Organizers API
+  slug: civil-infrastructure-platform-organizers-api
+- baseURL: https://cip-project.org/wp-json/tec/v1
+  baseurl_source: declared
+  description: The Tags API from Civil Infrastructure Platform — 2 operation(s) for tags.
+  name: Civil Infrastructure Platform Tags API
+  slug: civil-infrastructure-platform-tags-api
+- baseURL: https://cip-project.org/wp-json/tec/v1
+  baseurl_source: declared
+  description: The Venues API from Civil Infrastructure Platform — 3 operation(s) for venues.
+  name: Civil Infrastructure Platform Venues API
+  slug: civil-infrastructure-platform-venues-api
+artifact_total: 22
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/overlays/civil-infrastructure-platform-tec-v1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/civil-infrastructure-platform-tec-v1-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/overlays/civil-infrastructure-platform-events-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/civil-infrastructure-platform-events-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/overlays/civil-infrastructure-platform-zapier-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/civil-infrastructure-platform-zapier-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/authentication/civil-infrastructure-platform-authentication.yml
   title: ''
@@ -107,10 +162,10 @@ common:
   type: Blog
   url: https://cip-project.org/blog/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/openapi/civil-infrastructure-platform-tec-v1-openapi-original.json
+  href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/openapi/_original/civil-infrastructure-platform-tec-v1-openapi-original.json
   title: ''
   type: OpenAPI
-  url: openapi/civil-infrastructure-platform-tec-v1-openapi-original.json
+  url: openapi/_original/civil-infrastructure-platform-tec-v1-openapi-original.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/civil-infrastructure-platform/refs/heads/main/well-known/civil-infrastructure-platform-well-known.yml
   title: ''
@@ -251,22 +306,22 @@ jsonld:
   property_count: 0
   slug: civil-infrastructure-platform-context
 layout: provider
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: Civil Infrastructure Platform
 nav: Providers
 network: true
-overview: 'Civil Infrastructure Platform publishes 1 API on the [APIs.io](https://apis.io/) network: CIP Events REST API. Tagged areas include Embedded, Industrial, Infrastructure, Linux, and Linux Foundation.
+overview: 'Civil Infrastructure Platform publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authorize API, Categories API, Common API, and 6 more. Tagged areas include Embedded, Industrial, Infrastructure, Linux, and Linux Foundation.
 
 
   The Civil Infrastructure Platform catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Civil Infrastructure Platform''s developer surface includes authentication, GitHub presence, engineering blog, documentation, support, pricing, signup flow, and 33 more developer resources.'
+  Civil Infrastructure Platform''s developer surface includes authentication, GitHub presence, engineering blog, documentation, support, pricing, signup flow, and 36 more developer resources.'
 plans:
 - name: Civil Infrastructure Platform Plans Pricing
   plan_count: 0
   slug: civil-infrastructure-platform-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Civil Infrastructure Platform Rate Limits
@@ -285,7 +340,7 @@ rules:
   slug: civil-infrastructure-platform-rules
 score:
   band: developing
-  composite: 52.4
+  composite: 49.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 61.0
@@ -293,21 +348,26 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
     access_clarity: 47.4
     contract_governance: 63.6
-    contract_quality: 65.8
+    contract_quality: 55.8
     developer_ergonomics: 37.5
     discoverability: 83.3
     operational_transparency: 28.9
   previous_composite: 52.4
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

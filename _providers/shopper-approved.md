@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -80,6 +80,10 @@ collections:
   name: Shopper Approved API
   slug: open-shopper-approved
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://shopperapproved.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/agentic-access/shopper-approved-agentic-access.yml
   title: ''
@@ -135,7 +139,7 @@ jsonld:
   property_count: 2
   slug: shopper-approved-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Shopper Approved
 nav: Providers
 network: true
@@ -145,12 +149,12 @@ overview: 'Shopper Approved publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Shopper Approved catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Shopper Approved''s developer surface includes authentication and 4 more developer resources.'
+  Shopper Approved''s developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Shopper Approved Plans Pricing
   plan_count: 3
   slug: shopper-approved-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Shopper Approved Rate Limits
@@ -204,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -230,4 +234,5 @@ tags:
 - E-Commerce
 - Customer Feedback
 - Social Proof
+website: https://shopperapproved.com
 ---

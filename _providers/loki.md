@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - baseURL: http://localhost:3100
   baseurl_source: spec
   description: The Loki API from Loki — 17 operation(s) for loki.
-  name: Loki Loki API
+  name: Loki API
   slug: loki-loki-api
 - baseURL: http://localhost:3100
   baseurl_source: spec
@@ -151,11 +151,11 @@ finops:
   slug: loki-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loki.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Loki
 nav: Providers
 network: true
-overview: 'Loki publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Config API, Loki API, Metrics API, and 2 more. Tagged areas include Logging, Observability, Open-Source, and Grafana.
+overview: 'Loki publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Config API, Metrics API, and 3 more. Tagged areas include Logging, Observability, Open-Source, and Grafana.
 
 
   Loki''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -163,7 +163,7 @@ plans:
 - name: Loki Plans Pricing
   plan_count: 3
   slug: loki-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Loki Rate Limits
@@ -198,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

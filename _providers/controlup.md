@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 24
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
@@ -84,7 +84,7 @@ apis:
 - baseURL: https://api.controlup.com/v1
   baseurl_source: declared
   description: Dynamic SQL transformation and execution
-  name: ControlUp Dynamic Query API API
+  name: ControlUp Dynamic Query API
   slug: controlup-dynamic-query-api-api
 - baseURL: https://api.controlup.com/v1
   baseurl_source: declared
@@ -239,7 +239,7 @@ apis:
 - baseURL: https://api.controlup.com/v1
   baseurl_source: declared
   description: The Public API API from ControlUp — 11 operation(s) for public api.
-  name: ControlUp Public API API
+  name: ControlUp Public API
   slug: controlup-public-api-api
 - baseURL: https://api.controlup.com/v1
   baseurl_source: declared
@@ -790,7 +790,7 @@ mcp_servers:
 - description: ''
   name: ControlUp MCP Server
   slug: controlup-mcp-server
-modified: '2026-08-04'
+modified: '2026-09-16'
 name: ControlUp
 nav: Providers
 network: true
@@ -801,28 +801,28 @@ overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ControlUp''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 47 more developer resources.'
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Controlup Rate Limits
   slug: controlup-rate-limits
 score:
-  band: strong
-  composite: 65.6
+  band: exemplar
+  composite: 67.5
   coverage:
     artifact_dirs: 21
-    catalog_earned: 39.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 69.3
+    contract_quality: 69.7
     developer_ergonomics: 58.9
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 97.4
   previous_composite: 65.6
   provenance:
@@ -835,7 +835,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

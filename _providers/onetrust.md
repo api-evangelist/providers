@@ -31,12 +31,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 51.6
-  scored_at: '2026-09-15'
+  score: 55.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 30
@@ -48,190 +48,695 @@ api_count: 37
 apis:
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The AI Governance APIs are used to integrate external systems and streamline the flow of data with A I Governance in the OneTrust Platform. (20 operations.)
-  name: OneTrust AI Governance — AI Governance
-  slug: ai-governance-ai-governance
+  description: The Activity Log API from OneTrust — 1 operation(s) for activity log.
+  name: OneTrust Activity Log API
+  slug: onetrust-activity-log-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Platform - Global Activity API from OneTrust — 1 operation(s) documented on the OneTrust Develop er Portal.
-  name: OneTrust Platform — Global Activity
-  slug: platform-global-activity
-- baseURL: https://consent-api.onetrust.com
-  baseurl_source: declared
-  description: The Consent Interfaces APIs are used to integrate external systems and streamline the flow of data w ith Consent & Preferences user interfaces. (1 operations.)
-  name: OneTrust Consent & Preferences — Consent Interfaces
-  slug: consent-and-preferences-consent-interfaces
-- baseURL: https://mobile-data.onetrust.io
-  baseurl_source: declared
-  description: 'These are server-based APIs that will act as a medium between the OT hosted server that owns busines s logic and the client-side SDK, which will take the responsibility to render elements on UI based '
-  name: OneTrust Consent & Preferences — Consent Management Platform (CMP)
-  slug: consent-and-preferences-consent-management-platform-cmp
-- baseURL: https://app.onetrust.com/request/v1
-  baseurl_source: declared
-  description: The Consent Receipts APIs are used to integrate external systems and streamline the flow of consent receipt data with the OneTrust Platform. (3 operations.)
-  name: OneTrust Consent & Preferences — Consent Receipts
-  slug: consent-and-preferences-consent-receipts
+  description: The Applications APIs are used to manage application configurations and their associated consent experiences.
+  name: OneTrust Applications API
+  slug: onetrust-applications-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Cookie Consent APIs are used to integrate external systems and streamline the flow of data with Cookie Consent in the OneTrust Platform. (44 operations.)
-  name: OneTrust Consent & Preferences — Cookie Consent
-  slug: consent-and-preferences-cookie-consent
-- baseURL: https://customer.my.onetrust.com/api/cookiemanager
-  baseurl_source: declared
-  description: The Consent & Preferences - Cookie Consent (Swagger) API from OneTrust — 11 operation(s) documented on the OneTrust Developer Portal.
-  name: OneTrust Consent & Preferences — Cookie Consent (Swagger)
-  slug: consent-and-preferences-cookie-consent-swagger
-- baseURL: https://cookies-data.onetrust.io/bannersdk
-  baseurl_source: declared
-  description: 'Use this API to retrieve all templates, consent model, and vendor list data for a specific Website D omain by a user’s geolocation. The API returns a single JSON formatted for custom UI development. #'
-  name: OneTrust Consent & Preferences — Cookie Domain Data
-  slug: consent-and-preferences-cookie-domain-data
-- baseURL: https://consent-api.onetrust.com
-  baseurl_source: declared
-  description: The Consent & Preferences - Cross-Device Consent API from OneTrust — 1 operation(s) documented on th e OneTrust Developer Portal.
-  name: OneTrust Consent & Preferences — Cross-Device Consent
-  slug: consent-and-preferences-cross-device-consent
-- baseURL: https://customer.my.onetrust.com/bannersdk/v2
-  baseurl_source: declared
-  description: Collection of APIs for the Mobile & OTT App Compliance SDKs. (1 operations.)
-  name: OneTrust Consent & Preferences — Mobile App Consent
-  slug: consent-and-preferences-mobile-app-consent
-- baseURL: https://app.onetrust.com/api/privacynotice
-  baseurl_source: declared
-  description: The Policy & Notice Management APIs are used to list privacy notices, page through results, view ver sion history for a notice, and retrieve the version that was effective at a specific date and time.
-  name: OneTrust Consent & Preferences — Policy & Notice Management
-  slug: consent-and-preferences-policy-and-notice-management
+  description: The Assessment Actions APIs are used to perform workflows on assessments, such as launching, approving, or creating tasks.
+  name: OneTrust Assessment Actions API
+  slug: onetrust-assessment-actions-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: 'The Universal Consent & Preference Management APIs are used to integrate external systems and stream line the flow of data with Universal Consent & Preference Management in the OneTrust Platform. (97 '
-  name: OneTrust Consent & Preferences — Universal Consent & Preference Management (OAS)
-  slug: consent-and-preferences-universal-consent-and-preference-management-oas
+  description: The Assessment Management APIs are used to modify, link, and manage existing assessments.
+  name: OneTrust Assessment Management API
+  slug: onetrust-assessment-management-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Data Catalog APIs provide comprehensive functionality for managing data governance assets within Data Catalog, enabling users to create, retrieve, and organize business glossaries, terms, and tags
-  name: OneTrust Data Use Governance — Data Catalog
-  slug: data-use-governance-data-catalog
+  description: The Assessments APIs are used to retrieve assessment data and details.
+  name: OneTrust Assessments API
+  slug: onetrust-assessments-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Data Discovery API provides comprehensive REST endpoints for managing data discovery operations including data sources, scan profiles, credentials, and scan jobs with OAuth2 security and extensive
-  name: OneTrust Data Use Governance — Data Discovery
-  slug: data-use-governance-data-discovery
-- baseURL: https://app.onetrust.com:8080/api/data-discovery-bridge
-  baseurl_source: declared
-  description: The Data Discovery Worker Node APIs enables secure communication with an on-premises Data Discovery worker node. It provides operations to retrieve, classify, and catalog data from connected data sour
-  name: OneTrust Data Use Governance — Data Discovery Worker Node
-  slug: data-use-governance-data-discovery-worker-node
-- baseURL: https://app.onetrust.com/api/esg-management
-  baseurl_source: declared
-  description: The ESG Program Reporting & Disclosures API from OneTrust — 5 operation(s) documented on the OneTrus t Developer Portal.
-  name: OneTrust ESG Program Reporting & Disclosures
-  slug: esg-program-reporting-and-disclosures
+  description: The Attachments APIs are used to upload and obtain the location of files uploaded in the OneTrust Platform.
+  name: OneTrust Attachments API
+  slug: onetrust-attachments-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Access Management APIs enable you to programmatically control user access, manage organizational hierarchies, and monitor authentication activities across your OneTrust platform. (36 operations.)
-  name: OneTrust Platform — Access Management
-  slug: platform-access-management
+  description: The Attachments V4 API from OneTrust — 1 operation(s) for attachments v4.
+  name: OneTrust Attachments V4 API
+  slug: onetrust-attachments-v4-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Bulk Export APIs are used to integrate external systems and extract specific data from Cookie Co nsent and Universal Consent & Preference Management in the OneTrust platform. (7 operations.)
-  name: OneTrust Platform — Bulk Export
-  slug: platform-bulk-export
+  description: The Attribute Management APIs are used to manage attributes associated with AI Governance entities.
+  name: OneTrust Attribute Management API
+  slug: onetrust-attribute-management-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Documents API are used to integrate external systems and streamline the flow of data for documen ts in the OneTrust Platform. (3 operations.)
-  name: OneTrust Platform — Documents
-  slug: platform-documents
-- baseURL: https://app.onetrust.com/api/integrationmanager
-  baseurl_source: declared
-  description: The Integrations APIs are used to configure, manage, and automate integrations. They provide functio nality to handle system credentials, import and export workflows, and manage integration details. (
-  name: OneTrust Platform — Integrations
-  slug: platform-integrations
+  description: APIs to manage and retrieve audit logs for user activities, including login history and access patterns. These endpoints help you monitor security events, track user authentication attempts, and maint
+  name: OneTrust Audit Records API
+  slug: onetrust-audit-records-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Inventory APIs are used to manage relationships and link data within the inventory. (13 operatio ns.)
-  name: OneTrust Platform — Inventory
-  slug: platform-inventory
-- baseURL: https://app.onetrust.com/api/custom-entity
-  baseurl_source: declared
-  description: The Object Manager APIs are used to integrate external systems and streamline the flow of data for o bjects created via Object Manager in the OneTrust Platform. (38 operations.)
-  name: OneTrust Platform — Object Manager
-  slug: platform-object-manager
+  description: APIs to manage the complete audit lifecycle including creation, updates, deletion, scope assignment, and retrieval with support for approvers, auditors, and custom attributes.
+  name: OneTrust Audits API
+  slug: onetrust-audits-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Task Management APIs are used to integrate external systems and streamline the flow of data for tasks created across the OneTrust Platform. (3 operations.)
-  name: OneTrust Platform — Task Management
-  slug: platform-task-management
+  description: APIs to manage cookie consent banner configuration and behavior.
+  name: OneTrust Banner API
+  slug: onetrust-banner-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: OneTrust supports cross-domain identity management through the SCIM 2.0 specification. System for Cr oss-Domain Identity Management (SCIM) is an open specification to help facilitate the automated man
-  name: OneTrust Platform — User Provisioning
-  slug: platform-user-provisioning
+  description: The Bulk Export APIs are used to extract large volumes of cookie receipts, consent receipts, and data subjects.
+  name: OneTrust Bulk Export API
+  slug: onetrust-bulk-export-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: 'The Assessment Automation APIs provide functionality for managing assessment template lifecycle oper ations, including template export and import for cross-environment migration, retrieving published '
-  name: OneTrust Privacy Automation — Assessment Automation
-  slug: privacy-automation-assessment-automation
+  description: APIs to manage emission factors and emission transactions.
+  name: OneTrust Carbon Management API
+  slug: onetrust-carbon-management-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Data Mapping Automation APIs are used to manage structured records (assets, vendors, processing activities, and legal entities), define schema attributes, traverse parent–child hierarchies, and cr
-  name: OneTrust Privacy Automation — Data Mapping Automation
-  slug: privacy-automation-data-mapping-automation
-- baseURL: https://customer.my.onetrust.com/api
-  baseurl_source: declared
-  description: The Privacy Automation - Data Mapping Automation (Swagger) API from OneTrust — 4 operation(s) docume nted on the OneTrust Developer Portal.
-  name: OneTrust Privacy Automation — Data Mapping Automation (Swagger)
-  slug: privacy-automation-data-mapping-automation-swagger
+  description: APIs to manage catalog search operations with basic functionality and providing comprehensive filtering, faceting, and field selection capabilities for data asset discovery.
+  name: OneTrust Catalog Search V1 API
+  slug: onetrust-catalog-search-v1-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Privacy Rights Automation are used to manage, process, and fulfill data subject access requests (DSARs), including request creation, subtask management, resolution codes, verification methods, and
-  name: OneTrust Privacy Automation — Data Subject Request (DSR) Automation
-  slug: privacy-automation-data-subject-request-dsr-automation
-- baseURL: https://app.onetrust.com/api
-  baseurl_source: declared
-  description: The Incident Management API allows you to efficiently manage and respond to incidents. (7 operations .)
-  name: OneTrust Privacy Automation — Incident Management
-  slug: privacy-automation-incident-management
+  description: APIs to manage catalog search operations with enhanced scalability, featuring continuation token-based pagination for handling large volumes of search results and improved performance for enterprise-s
+  name: OneTrust Catalog Search V2 API
+  slug: onetrust-catalog-search-v2-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The The Trust Intelligence Platform - Document Gateway API from OneTrust — 1 operation(s) documented on the OneTrust Developer Portal.
-  name: OneTrust The Trust Intelligence Platform — Document Gateway
-  slug: the-trust-intelligence-platform-document-gateway
+  description: The Categorizations API from OneTrust — 2 operation(s) for categorizations.
+  name: OneTrust Categorizations API
+  slug: onetrust-categorizations-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Audit Management API provides comprehensive REST endpoints for managing enterprise audits, workp apers, and compliance assessments with OAuth2 security and advanced filtering capabilities. (11 ope
-  name: OneTrust Tech Risk & Compliance — Audit Management
-  slug: tech-risk-and-compliance-audit-management
-- baseURL: https://app.onetrust.com/api/compliance-wr
-  baseurl_source: declared
-  description: The Compliance Automation APIs are used to integrate external systems and streamline the flow of dat a with Compliance Automation in the OneTrust Platform. (3 operations.)
-  name: OneTrust Tech Risk & Compliance — Compliance Automation
-  slug: tech-risk-and-compliance-compliance-automation
-- baseURL: https://app.onetrust.com/api/enterprise-policy
-  baseurl_source: declared
-  description: The Enterprise Policy Management APIs are used to integrate external systems and streamline the flow of data with Enterprise Policy Management in the OneTrust platform. (6 operations.)
-  name: OneTrust Tech Risk & Compliance — Enterprise Policy Management
-  slug: tech-risk-and-compliance-enterprise-policy-management
-- baseURL: https://app.onetrust.com/api/issue-management
-  baseurl_source: declared
-  description: The Issues Management APIs are used to integrate external systems and streamline the flow of data wi th Issues Management in the OneTrust platform. (9 operations.)
-  name: OneTrust Tech Risk & Compliance — Issues Management
-  slug: tech-risk-and-compliance-issues-management
+  description: The Classification APIs are used to manage custom data classifiers and classification rules for Data Discovery.
+  name: OneTrust Classification API
+  slug: onetrust-classification-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The IT Risk Management API provides comprehensive REST endpoints for managing enterprise security co ntrols, threats, vulnerabilities, and their implementations with OAuth2 security and extensive cust
-  name: OneTrust Tech Risk & Compliance — IT Risk Management
-  slug: tech-risk-and-compliance-it-risk-management
-- baseURL: https://customer.my.onetrust.com/api/awareness-training
-  baseurl_source: declared
-  description: The Tech Risk & Compliance - Training API from OneTrust — 5 operation(s) documented on the OneTrust Developer Portal.
-  name: OneTrust Tech Risk & Compliance — Training
-  slug: tech-risk-and-compliance-training
+  description: The Collection Points APIs are used to manage where and how consent is collected.
+  name: OneTrust Collection Points API
+  slug: onetrust-collection-points-api
 - baseURL: https://app.onetrust.com
   baseurl_source: declared
-  description: The Third-Party Risk Management APIs provide comprehensive functionality for managing vendor relatio nships, engagements, and contracts within the GRC ecosystem, enabling organizations to assess, moni
-  name: OneTrust Third-Party Management — Third-Party Risk Management
-  slug: third-party-management-third-party-risk-management
-artifact_total: 49
+  description: The Collection Points V2 APIs are used to manage collection points using version 2 of the API.
+  name: OneTrust Collection Points V2 API
+  slug: onetrust-collection-points-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs for managing Consent Attachments.
+  name: OneTrust Consent Attachments API
+  slug: onetrust-consent-attachments-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs for managing Consent Groups and their configurations.
+  name: OneTrust Consent Groups API
+  slug: onetrust-consent-groups-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: API for optimizing consent rate.
+  name: OneTrust Consent Rate Optimization API
+  slug: onetrust-consent-rate-optimization-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Consent Receipts APIs are used to create consent receipts from a collection point to store data subject consent.
+  name: OneTrust Consent Receipts API
+  slug: onetrust-consent-receipts-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Contracts APIs are used to manage vendor contract operations including contract creation, updates, search functionality, contract type management, and schema configuration for comprehensive contra
+  name: OneTrust Contracts API
+  slug: onetrust-contracts-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to handle control implementation operations including creation, updates, entity associations, attachment management, and comprehensive search across multiple entity types.
+  name: OneTrust Control Implementations API
+  slug: onetrust-control-implementations-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to create and manage relationships between controls through bulk linking operations with support for various relationship types and custom parameters.
+  name: OneTrust Control Links API
+  slug: onetrust-control-links-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage the complete control lifecycle including creation, updates, deletion, retrieval, and entity type management with framework integration and custom attributes.
+  name: OneTrust Controls API
+  slug: onetrust-controls-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Cookies APIs are used to manage cookie definitions, categories, and their properties.
+  name: OneTrust Cookies API
+  slug: onetrust-cookies-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage credential operations including creation, updates, deletion, retrieval, and secure reference key management for multiple system authentication types.
+  name: OneTrust Credentials API
+  slug: onetrust-credentials-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Custom Index Management API from OneTrust — 2 operation(s) for custom index management.
+  name: OneTrust Custom Index Management API
+  slug: onetrust-custom-index-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage and execute custom data discovery scans across specified data sources.
+  name: OneTrust Custom Scan API
+  slug: onetrust-custom-scan-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Asset Attributes API from OneTrust — 2 operation(s) for data asset attributes.
+  name: OneTrust Data Asset Attributes API
+  slug: onetrust-data-asset-attributes-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Asset Management API from OneTrust — 2 operation(s) for data asset management.
+  name: OneTrust Data Asset Management API
+  slug: onetrust-data-asset-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Assets APIs are used to manage data asset metadata.
+  name: OneTrust Data Assets API
+  slug: onetrust-data-assets-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage data sources including creation, retrieval, updates, deletion, and comprehensive filtering with support for multiple system types and asset integration.
+  name: OneTrust Data Sources API
+  slug: onetrust-data-sources-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Subject Access Request (DSAR) API from OneTrust — 1 operation(s) for data subject access request (dsar).
+  name: OneTrust Data Subject Access Request (DSAR) API
+  slug: onetrust-data-subject-access-request-dsar-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Subject Groups APIs are used to manage groups of data subjects.
+  name: OneTrust Data Subject Groups API
+  slug: onetrust-data-subject-groups-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Subjects V4 APIs are used to manage data subject information, preferences, and consent records.
+  name: OneTrust Data Subject Groups V4 API
+  slug: onetrust-data-subject-groups-v4-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Subjects APIs are used to manage individuals whose data is being processed.
+  name: OneTrust Data Subjects API
+  slug: onetrust-data-subjects-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Subjects V2 APIs are used to manage data subjects using version 2 of the API.
+  name: OneTrust Data Subjects V2 API
+  slug: onetrust-data-subjects-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Subjects V3 APIs are used to manage data subject information, preferences, and consent records.
+  name: OneTrust Data Subjects V3 API
+  slug: onetrust-data-subjects-v3-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Subjects V4 APIs are used to manage data subject information, preferences, and consent records.
+  name: OneTrust Data Subjects V4 API
+  slug: onetrust-data-subjects-v4-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Deduplicate Data Subjects APIs are used to merge duplicate data subject profiles.
+  name: OneTrust Deduplicate Data Subjects API
+  slug: onetrust-deduplicate-data-subjects-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to retrieve a paginated list of deletion certificates.
+  name: OneTrust Deletion Certificates API
+  slug: onetrust-deletion-certificates-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Document Attachments APIs are used to manage attachments on document objects such as policies, standards, procedures, and privacy notices.
+  name: OneTrust Document Attachments API
+  slug: onetrust-document-attachments-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Document Gateway API provides secure document download functionality using tokens from the Document Service V4.
+  name: OneTrust Document Gateway API
+  slug: onetrust-document-gateway-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Documents APIs are used to manage document objects such as policies, standards, procedures, and privacy notices.
+  name: OneTrust Documents API
+  slug: onetrust-documents-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Domain Data API from OneTrust — 1 operation(s) for domain data.
+  name: OneTrust Domain Data API
+  slug: onetrust-domain-data-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Domains APIs are used to manage domain configurations and cookie scanning settings.
+  name: OneTrust Domains API
+  slug: onetrust-domains-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs for managing DROP records and privacy requests
+  name: OneTrust DROP Management API
+  slug: onetrust-drop-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Engagements APIs are used to manage vendor engagement operations including creating, retrieving, updating, and searching engagements with comprehensive attribute management, status control, workfl
+  name: OneTrust Engagements API
+  slug: onetrust-engagements-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Entity Management APIs are used to manage AI Governance entities.
+  name: OneTrust Entity Management API
+  slug: onetrust-entity-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Entity Type Management APIs are used to manage AI Governance entity types.
+  name: OneTrust Entity Type Management API
+  slug: onetrust-entity-type-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage risk entity types and source entity types, including retrieval of enabled entity configurations for risk associations.
+  name: OneTrust Entity Types API
+  slug: onetrust-entity-types-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Entity Workflow Management APIs are used to manage AI Governance entity workflows.
+  name: OneTrust Entity Workflow Management API
+  slug: onetrust-entity-workflow-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage evidence collection tasks including implementation retrieval, attachment handling (files, links, notes), and comprehensive search with interval-based collection tracking.
+  name: OneTrust Evidence Task Implementations API
+  slug: onetrust-evidence-task-implementations-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Geolocation Rules APIs are used to manage geographic rules that determine how consent experiences are applied based on user location.
+  name: OneTrust Geolocation Rules API
+  slug: onetrust-geolocation-rules-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage business glossaries, including retrieving glossary details, listing all available glossaries, and accessing glossary-specific information with associated terms and metadata.
+  name: OneTrust Glossaries API
+  slug: onetrust-glossaries-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: V2 version APIs to manage Groups.
+  name: OneTrust Groups V2 API
+  slug: onetrust-groups-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to create, update, search, and manage incidents, including linking incidents to inventories, retrieving details, and tracking their lifecycle.
+  name: OneTrust Incidents API
+  slug: onetrust-incidents-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Initiatives APIs are used to manage compliance initiatives for standards and frameworks.
+  name: OneTrust Initiatives API
+  slug: onetrust-initiatives-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to retrieve Docker image tags and installation resources for worker node deployment and version management across different environments.
+  name: OneTrust Installer API
+  slug: onetrust-installer-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to create and manage inventory records for supported schema types (processing-activities, vendors, assets, entities).
+  name: OneTrust Inventory API
+  slug: onetrust-inventory-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to list, link, and unlink child inventories under a root inventory to model organizational or data-flow trees.
+  name: OneTrust Inventory Hierarchies API
+  slug: onetrust-inventory-hierarchies-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The inventory-management-controller API from OneTrust — 3 operation(s) for inventory-management-controller.
+  name: OneTrust Inventory Management Controller API
+  slug: onetrust-inventory-management-controller-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to create, update, and delete bidirectional links between inventories and to manage associations to related items (including personal data).
+  name: OneTrust Inventory Relationships V1 API
+  slug: onetrust-inventory-relationships-v1-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Inventory Relationships V2 APIs are used to manage V2 inventory relationships.
+  name: OneTrust Inventory Relationships V2 API
+  slug: onetrust-inventory-relationships-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to define and maintain schema attributes that shape inventory data collection and validation.
+  name: OneTrust Inventory Schema API
+  slug: onetrust-inventory-schema-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Issues APIs are used to manage issues, issue tasks, and issue relationships.
+  name: OneTrust Issues API
+  slug: onetrust-issues-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Jobs APIs are used to manage scheduled jobs for bulk actions.
+  name: OneTrust Jobs API
+  slug: onetrust-jobs-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to record and retrieve user consent transactions and preferences.
+  name: OneTrust Log Consent API
+  slug: onetrust-log-consent-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Magic Link Tokens APIs are used to generate secure, one-time-use links for authentication.
+  name: OneTrust Magic Link Tokens API
+  slug: onetrust-magic-link-tokens-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Magic Link Tokens V4 APIs are used to manage secure, time-limited tokens for data subject verification and authentication.
+  name: OneTrust Magic Link Tokens V4 API
+  slug: onetrust-magic-link-tokens-v4-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage Metric related Information.
+  name: OneTrust Metric Details API
+  slug: onetrust-metric-details-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Mobile App Data API from OneTrust — 1 operation(s) for mobile app data.
+  name: OneTrust Mobile App Data API
+  slug: onetrust-mobile-app-data-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Model Management APIs are used to conduct full management of Model objects.
+  name: OneTrust Model Management API
+  slug: onetrust-model-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage OAuth 2.0 authentication for secure API access. Generate access tokens using client credentials, retrieve token information, and manage API authentication for your applications.
+  name: OneTrust OAuth Token API
+  slug: onetrust-oauth-token-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Object Attribute Management APIs are used to manage object attributes.
+  name: OneTrust Object Attribute Management API
+  slug: onetrust-object-attribute-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Object Management APIs are used to manage objects created via Object Manager, including Projects, Models, and Datasets.
+  name: OneTrust Object Management API
+  slug: onetrust-object-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Object Relationship Management APIs are used to manage relationships between objects.
+  name: OneTrust Object Relationship Management API
+  slug: onetrust-object-relationship-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Object Relationship Type Management APIs are used to manage the types of relationships that can exist between objects.
+  name: OneTrust Object Relationship Type Management API
+  slug: onetrust-object-relationship-type-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Object Task Management APIs are used to manage tasks associated with objects.
+  name: OneTrust Object Task Management API
+  slug: onetrust-object-task-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Object Type Management APIs are used to manage custom object types.
+  name: OneTrust Object Type Management API
+  slug: onetrust-object-type-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage your organizational hierarchy and structure. Create, update, and delete organizations, define parent-child relationships, and configure organization-specific settings such as default la
+  name: OneTrust Organizations API
+  slug: onetrust-organizations-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to list links to personal-data items for an inventory and update advanced attributes on those associations.
+  name: OneTrust Personal Data API
+  slug: onetrust-personal-data-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage preference center configuration and user consent choices.
+  name: OneTrust Preference Center API
+  slug: onetrust-preference-center-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Preference Centers APIs are used to manage data subjects' preferences in a preference center.
+  name: OneTrust Preference Centers API
+  slug: onetrust-preference-centers-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Preference Centers V2 APIs are used to manage preference centers using version 2 of the API.
+  name: OneTrust Preference Centers V2 API
+  slug: onetrust-preference-centers-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Preferences API from OneTrust — 1 operation(s) for preferences.
+  name: OneTrust Preferences API
+  slug: onetrust-preferences-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Consent Interfaces APIs are used by Consent & Preferences user interfaces to retrieve data subjects' preferences.
+  name: OneTrust Preferences V2 API
+  slug: onetrust-preferences-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to list privacy notices, fetch versions for a notice, and get the notice version active on a given date/time.
+  name: OneTrust Privacy Notice V2 API
+  slug: onetrust-privacy-notice-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Project Management APIs are used to conduct full management of Project objects.
+  name: OneTrust Project Management API
+  slug: onetrust-project-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Purpose Preferences APIs are used to manage preferences related to specific data collection purposes.
+  name: OneTrust Purpose Preferences API
+  slug: onetrust-purpose-preferences-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Purposes APIs are used to manage the reasons for which data is collected.
+  name: OneTrust Purposes API
+  slug: onetrust-purposes-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Purposes V2 APIs are used to manage purposes using version 2 of the API.
+  name: OneTrust Purposes V2 API
+  slug: onetrust-purposes-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Receipts APIs are used to manage records of consent transactions.
+  name: OneTrust Receipts API
+  slug: onetrust-receipts-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs for managing consent receipts (V2).
+  name: OneTrust Receipts V2 API
+  slug: onetrust-receipts-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Relationship Management APIs are used to manage relationships between AI Governance entities.
+  name: OneTrust Relationship Management API
+  slug: onetrust-relationship-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to create, search, update, and manage privacy request queues.
+  name: OneTrust Request Queues API
+  slug: onetrust-request-queues-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to create, update, delete, and retrieve resolution codes for privacy requests and subtasks.
+  name: OneTrust Resolutions API
+  slug: onetrust-resolutions-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: V3 version APIs to manager Resources Type.
+  name: OneTrust Resources V3 API
+  slug: onetrust-resources-v3-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to share results summaries.
+  name: OneTrust Results Summary API
+  slug: onetrust-results-summary-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage risk workflow actions including submissions, approvals, exceptions, and stage transitions within the risk lifecycle.
+  name: OneTrust Risk Actions API
+  slug: onetrust-risk-actions-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage risk configurations, scoring settings, categories, and metadata used across the risk management system.
+  name: OneTrust Risk Management API
+  slug: onetrust-risk-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage relationships between risks and other entities including threats, vulnerabilities, controls, and inventory items.
+  name: OneTrust Risk Relationships API
+  slug: onetrust-risk-relationships-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage risk template retrieval operations, enabling users to access detailed risk template information including inherent and target risk levels, associated threats and vulnerabilities, contro
+  name: OneTrust Risk Templates API
+  slug: onetrust-risk-templates-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage the complete risk lifecycle including creation, updates, deletion, search, and retrieval of risk details and attributes.
+  name: OneTrust Risks API
+  slug: onetrust-risks-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to control scan job execution including creation, cancellation, status monitoring, and comprehensive job history retrieval with filtering and pagination support.
+  name: OneTrust Scan Jobs API
+  slug: onetrust-scan-jobs-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to handle scan profile lifecycle management including creation, updates, deletion, and retrieval with support for catalog and catalog-scan types across various system platforms.
+  name: OneTrust Scan Profiles API
+  slug: onetrust-scan-profiles-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Scans APIs are used to manage website cookie scanning operations and results.
+  name: OneTrust Scans API
+  slug: onetrust-scans-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: V3 version APIs to manager Schemas.
+  name: OneTrust SCIM Schemas V3 API
+  slug: onetrust-scim-schemas-v3-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Scripts APIs are used to manage publishing of scripts to websites.
+  name: OneTrust Scripts API
+  slug: onetrust-scripts-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: V3 version APIs to manager the Service Provider.
+  name: OneTrust Service Provider V3 API
+  slug: onetrust-service-provider-v3-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to create, update, complete, and reprocess subtasks associated with privacy requests.
+  name: OneTrust Subtasks API
+  slug: onetrust-subtasks-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to create and update system credentials required for integrations, such as authentication keys and connection details.
+  name: OneTrust System Credentials API
+  slug: onetrust-system-credentials-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage tags for data classification, including creating new tags with various types and retrieving tag details with their associated terms.
+  name: OneTrust Tags API
+  slug: onetrust-tags-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to add, update, and retrieve structured or unstructured data discovery results linked to privacy requests.
+  name: OneTrust Targeted Data Discovery API
+  slug: onetrust-targeted-data-discovery-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Task Management APIs are used to manage tasks associated with AI Governance entities.
+  name: OneTrust Task Management API
+  slug: onetrust-task-management-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Tasks APIs are used to manage tasks, including creation, updates, and retrieval.
+  name: OneTrust Tasks API
+  slug: onetrust-tasks-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage assessment template operations including import and export functionality for cross-tenant migration, retrieval of published template listings with type-based filtering, and template del
+  name: OneTrust Template API
+  slug: onetrust-template-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Templates APIs are used to manage reusable consent templates that define the structure and behavior of consent experiences.
+  name: OneTrust Templates API
+  slug: onetrust-templates-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: 'APIs to manage glossary terms, including creating new terms with custom attributes, retrieving term lists with search and pagination capabilities, accessing individual term details, and managing term '
+  name: OneTrust Terms API
+  slug: onetrust-terms-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to handle threat library operations including threat creation, modification, deletion, and comprehensive search functionality with framework and category support.
+  name: OneTrust Threats API
+  slug: onetrust-threats-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Training API from OneTrust — 5 operation(s) for training.
+  name: OneTrust Training API
+  slug: onetrust-training-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Transactions APIs are used to manage consent transactions.
+  name: OneTrust Transactions API
+  slug: onetrust-transactions-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs for managing consent transactions.
+  name: OneTrust Transactions V2 API
+  slug: onetrust-transactions-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage Universal Consent purposes and their associated metadata.
+  name: OneTrust UC Purposes API
+  slug: onetrust-uc-purposes-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage user groups and their memberships. Create groups to organize users, assign permissions collectively, add or remove members, and retrieve information about existing groups and their memb
+  name: OneTrust User Groups API
+  slug: onetrust-user-groups-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage user groups and their memberships. Create groups to organize users, assign permissions collectively, add or remove members, and retrieve information about existing groups and their memb
+  name: OneTrust User Groups V2 API
+  slug: onetrust-user-groups-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: V3 version APIs to manager User Groups.
+  name: OneTrust User Groups V3 API
+  slug: onetrust-user-groups-v3-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage users and their memberships and access levels.
+  name: OneTrust Users V2 API
+  slug: onetrust-users-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: V3 version APIs to manager Users.
+  name: OneTrust Users V3 API
+  slug: onetrust-users-v3-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage third-party vendor information and their data processing activities.
+  name: OneTrust Vendors API
+  slug: onetrust-vendors-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to create, update, and retrieve methods for verifying a data subject's identity.
+  name: OneTrust Verification Methods API
+  slug: onetrust-verification-methods-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to manage vulnerabilities in the vulnerability library including creation, updates, deletion, and retrieval with support for bulk operations and custom attributes.
+  name: OneTrust Vulnerabilities API
+  slug: onetrust-vulnerabilities-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Websites V2 API from OneTrust — 1 operation(s) for websites v2.
+  name: OneTrust Websites V2 API
+  slug: onetrust-websites-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs used to import and export workflows in JSON format for version 2 workflows.
+  name: OneTrust Workflows V2 API
+  slug: onetrust-workflows-v2-api
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: APIs to handle audit workpaper operations including testing results, sampling outcomes, interview findings, control assessments, and workpaper attribute management.
+  name: OneTrust Workpapers API
+  slug: onetrust-workpapers-api
+artifact_total: 150
 asyncapis:
 - description: ''
   name: Onetrust Webhooks
@@ -241,6 +746,191 @@ collections:
   name: API Collection
   slug: open-.refine-report
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-ai-governance-ai-governance-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-ai-governance-ai-governance-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-platform-global-activity-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-platform-global-activity-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-consent-interfaces-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-consent-interfaces-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-consent-management-platform-cmp-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-consent-management-platform-cmp-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-consent-receipts-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-consent-receipts-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-cookie-consent-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-cookie-consent-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-cookie-consent-swagger-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-cookie-consent-swagger-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-cookie-domain-data-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-cookie-domain-data-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-cross-device-consent-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-cross-device-consent-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-mobile-app-consent-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-mobile-app-consent-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-policy-and-notice-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-policy-and-notice-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-consent-and-preferences-universal-consent-and-preference-management-oas-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-consent-and-preferences-universal-consent-and-preference-management-oas-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-data-use-governance-data-catalog-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-data-use-governance-data-catalog-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-data-use-governance-data-discovery-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-data-use-governance-data-discovery-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-data-use-governance-data-discovery-worker-node-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-data-use-governance-data-discovery-worker-node-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-esg-program-reporting-and-disclosures-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-esg-program-reporting-and-disclosures-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-platform-access-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-platform-access-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-platform-bulk-export-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-platform-bulk-export-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-platform-documents-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-platform-documents-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-platform-integrations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-platform-integrations-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-platform-inventory-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-platform-inventory-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-platform-object-manager-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-platform-object-manager-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-platform-task-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-platform-task-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-platform-user-provisioning-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-platform-user-provisioning-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-privacy-automation-assessment-automation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-privacy-automation-assessment-automation-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-privacy-automation-data-mapping-automation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-privacy-automation-data-mapping-automation-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-privacy-automation-data-mapping-automation-swagger-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-privacy-automation-data-mapping-automation-swagger-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-privacy-automation-data-subject-request-dsr-automation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-privacy-automation-data-subject-request-dsr-automation-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-privacy-automation-incident-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-privacy-automation-incident-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-the-trust-intelligence-platform-document-gateway-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-the-trust-intelligence-platform-document-gateway-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-tech-risk-and-compliance-audit-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-tech-risk-and-compliance-audit-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-tech-risk-and-compliance-compliance-automation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-tech-risk-and-compliance-compliance-automation-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-tech-risk-and-compliance-enterprise-policy-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-tech-risk-and-compliance-enterprise-policy-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-tech-risk-and-compliance-issues-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-tech-risk-and-compliance-issues-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-tech-risk-and-compliance-it-risk-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-tech-risk-and-compliance-it-risk-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-tech-risk-and-compliance-training-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-tech-risk-and-compliance-training-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/overlays/onetrust-third-party-management-third-party-risk-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/onetrust-third-party-management-third-party-risk-management-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -454,18 +1144,18 @@ modified: '2026-08-27'
 name: OneTrust
 nav: Providers
 network: true
-overview: 'OneTrust publishes 37 APIs on the [APIs.io](https://apis.io/) network, including AI Governance — AI Governance, Platform — Global Activity, Consent & Preferences — Consent Interfaces, and 34 more. Tagged areas include Privacy, GRC, Compliance, Consent, and TPRM.
+overview: 'OneTrust publishes 138 APIs on the [APIs.io](https://apis.io/) network, including Activity Log API, Applications API, Assessment Actions API, and 135 more. Tagged areas include Privacy, GRC, Compliance, Consent, and TPRM.
 
 
   The OneTrust catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OneTrust''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 35 more developer resources.'
+  OneTrust''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 72 more developer resources.'
 plans:
 - name: Onetrust Plans Pricing
   plan_count: 1
   slug: onetrust-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 12
   name: Onetrust Rate Limits
@@ -477,21 +1167,21 @@ scopes:
   summary_line: 51 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 68.2
+  composite: 70.7
   coverage:
     artifact_dirs: 26
-    catalog_earned: 50.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 65.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 55.3
     contract_governance: 18.2
-    contract_quality: 70.4
+    contract_quality: 73.1
     developer_ergonomics: 51.8
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 92.1
   previous_composite: 68.2
   provenance:
@@ -501,11 +1191,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 146
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

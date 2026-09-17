@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 12
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://api.maia-analytics.com
   baseurl_source: declared
   description: The analytics API from Maia-analytics — 1 operation(s) for analytics.
-  name: Maia-analytics analytics API
+  name: Maia-analytics API
   slug: maia-analytics-analytics-api
 - baseURL: https://api.maia-analytics.com
   baseurl_source: declared
@@ -137,7 +137,7 @@ apis:
 - baseURL: https://api.maia-analytics.com
   baseurl_source: declared
   description: The MAIA API API from Maia-analytics — 1 operation(s) for maia api.
-  name: Maia-analytics MAIA API API
+  name: Maia-analytics MAIA API
   slug: maia-analytics-maia-api-api
 - baseURL: https://api.maia-analytics.com
   baseurl_source: declared
@@ -416,18 +416,18 @@ created: '2026-07-17'
 description: MAIA Analytics is an AI-powered geospatial analysis platform that lets anyone turn complex location data into actionable insights through natural-language queries, with no GIS degree required. It unifies open and proprietary data to reveal the built environment and supports use cases such as solar-site prospecting, building and parcel analysis, redevelopment and risk screening (flood zones, aging infrastructure), and location intelligence. Every answer is source-linked and verifiable. Founded in 2023 and backed by Homebrew. This profile was enriched from MAIA's public site and its publicly-served backend OpenAPI (the application's own FastAPI backend; MAIA does not publish an external developer program).
 image: https://maia-analytics.com/MAIA-logo.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Maia-analytics
 nav: Providers
 network: true
-overview: 'Maia-analytics publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Ah API, analytics API, audit-log API, and 30 more. Tagged areas include Company, Developer Tools, Geospatial, GIS, and Location Intelligence.
+overview: 'Maia-analytics publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Ah API, audit-log API, and 31 more. Tagged areas include Company, Developer Tools, Geospatial, GIS, and Location Intelligence.
 
 
   Maia-analytics'' developer surface includes documentation, API reference, authentication, and 18 more developer resources.'
-random_paper: 14
+random_paper: 13
 score:
   band: thin
-  composite: 33.4
+  composite: 32.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -435,11 +435,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 56.1
+    contract_quality: 50.7
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 2.6
@@ -448,14 +448,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 33
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

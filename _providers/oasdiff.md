@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Oasdiff is an open-source tool for detecting breaking changes and generating changelogs from OpenAPI specifications.
@@ -74,12 +74,12 @@ modified: '2026-03-29'
 name: Oasdiff
 nav: Providers
 network: true
-overview: Oasdiff publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Breaking Changes, Changelogs, Deprecation, and OpenAPI.
+overview: Oasdiff publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Breaking Changes, Changelog, Deprecation, and OpenAPI.
 plans:
 - name: Oasdiff Plans Pricing
   plan_count: 3
   slug: oasdiff-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Oasdiff Rate Limits
@@ -106,7 +106,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -121,7 +121,7 @@ security:
 slug: oasdiff
 tags:
 - Breaking Changes
-- Changelogs
+- Changelog
 - Deprecation
 - OpenAPI
 website: https://www.oasdiff.com/

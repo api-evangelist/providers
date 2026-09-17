@@ -27,7 +27,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -89,13 +89,13 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 59.8,
+      "contract_quality": 59.6,
       "contract_governance": 18.2,
       "operational_transparency": 44.7,
       "developer_ergonomics": 70.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -145,7 +145,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -184,18 +184,18 @@
      "slug": "certifaction",
      "description": "Certifaction is a privacy-first digital signature platform built around a Zero Document Knowledge model: documents are hashed and end-to-end encrypted on the client so they can be signed and verified without Certifaction ever seeing their content. It offers Simple, Advanced, and Qualified Electronic Signatures (SES/AES/QES) compliant with eIDAS, ZertES, UETA and ESIGN, delivered through a client-hosted CLI and Local API plus an Admin API for organization, user, role and team-space management, with EU / Switzerland / on-premises data residency and ISO/IEC 27001:2022 certification.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/certifaction/refs/heads/main/screenshots/certifaction-2026-07-25T205000.png",
-     "score": 50.4,
+     "score": 50.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 53.7,
+      "contract_quality": 55.9,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 68.5,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 27.1,
      "agent_band": "agent-aware",
@@ -227,18 +227,18 @@
      "slug": "university-of-lausanne",
      "description": "The University of Lausanne (UNIL) is a public research university in Lausanne, Switzerland, founded in 1537, with roughly 17,000 students across seven faculties and ROR identifier https://ror.org/019whta54. UNIL publishes no developer portal, no API key programme, no API terms and no changelog, and no central catalogue of its own interfaces exists — but unlike most of this cohort its small programmable footprint is genuinely its own rather than a vendor's contract wearing its name. Three surfaces answer anonymously on UNIL's own registrable domain: the SPICA single-cell / spatial atlas JSON API at spica.unil.ch; the IRIS institutional research repository's DSpace-CRIS REST API at api.unil.ch/iris/server/api, behind a Kong gateway, with 253,799 indexed objects reachable through Discovery search while /core/items and /core/bitstreams answer 401; and two anonymous OAI-PMH 2.0 harvesting contexts on the same host, one of them declaring OpenAIRE Guidelines for CRIS Managers v1.1. Beyond the contracts, UNIL operates its own Shibboleth identity provider (entityID https://aai.unil.ch/idp/shibboleth, scope unil.ch) registered in SWITCHaai and exported to eduGAIN, and holds a DataCite repository registration minting DOIs under prefix 10.48657. Everything else — student information, timetables, course registration — sits behind the my.unil.ch SSO gateway and is not documented as an API anywhere. No OpenAPI, AsyncAPI or MCP server is published by UNIL itself; every contract in this repository was written by API Evangelist from live probes and is marked as such.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/screenshots/university-of-lausanne-2026-06-20T200157.png",
-     "score": 49.7,
+     "score": 49.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 85.2,
-      "contract_quality": 58.9,
+      "contract_quality": 58.4,
       "contract_governance": 35.6,
       "operational_transparency": 7.9,
       "developer_ergonomics": 33.3,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -247,8 +247,8 @@
       "score": 61.1,
       "matched_via": "tags"
      },
-     "agent_score": 29.2,
-     "agent_band": "agent-ready",
+     "agent_score": 27.7,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
@@ -257,7 +257,7 @@
       "auth_clarity": "bearer",
       "idempotency": "na",
       "error_semantics": "documented",
-      "openapi_examples": "partial",
+      "openapi_examples": "documented",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -277,18 +277,18 @@
      "slug": "eth-zurich",
      "description": "ETH Zurich (Eidgenössische Technische Hochschule Zürich) is Switzerland's federal institute of technology, founded in 1855 and part of the ETH Domain. Unlike most of the university cohort, ETH operates a genuinely first-party programmable footprint rather than a set of vendor contracts running under its name. The ETH Library API Platform (api.library.ethz.ch) publishes seven documented OpenAPI 3.0 REST APIs — Discovery, ETHorama, Geo, Persons, Research Collection v1 and v2, and Vector — written and operated by ETH Library and specified in ETH's own eth-library/opendata-apis repository. The Swiss National Supercomputing Centre (CSCS), an autonomous unit of ETH Zurich, operates FirecREST v2, an OAuth2-secured OpenAPI 3.1 REST interface to national HPC systems at api.cscs.ch. ETH also runs two live OAI-PMH endpoints on its own hosts (the Research Collection and e-rara), a Shibboleth SAML 2.0 Identity Provider whose metadata is published through SWITCHaai and eduGAIN, and 308 federated service-provider entities — more than any other Swiss institution. What ETH does NOT publish is equally part of the record: there is no public API for the VVZ course catalogue (the widely used vvzapi.ch is a student project that states plainly it is not affiliated with or endorsed by ETH), no campus-life or facilities API, and no central institution-wide developer portal — the developer portal that exists belongs to ETH Library alone. Library discovery and open data reach the public through tenant relationships on platforms ETH does not operate: swisscovery (Ex Libris Alma/Primo via SLSP) and opendata.swiss (the Swiss federal CKAN).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png",
-     "score": 44.7,
+     "score": 45.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 61.1,
-      "contract_quality": 56.9,
+      "contract_quality": 60.0,
       "contract_governance": 25.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 23.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -327,18 +327,18 @@
      "slug": "coorpacademy",
      "description": "Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as \"Coorpacademy by Go1\". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning portals, a course and certification catalogue, skills taxonomies, learner progression and adaptive review, battles/leaderboards, and HR analytics. The platform is fronted by a public Swagger UI at api.coorpacademy.com that indexes fourteen internal-but-publicly-documented REST services — content, platform/brand management, progression, progression aggregations, SCIM 2.0 user provisioning, SCORM and SCORM-content players, H5P, transactional email, mobile, review mode, media, external upload and PDF rendering. Access to every service is key-gated; there is no self-serve developer signup, no published pricing, and no partner developer portal, so the specifications are the only machine-readable public surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png",
-     "score": 44.1,
+     "score": 45.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 57.0,
+      "contract_quality": 56.0,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
       "developer_ergonomics": 37.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -388,7 +388,7 @@
       "developer_ergonomics": 50.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 39.6,
      "agent_band": "agent-ready",
@@ -431,7 +431,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -480,7 +480,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -523,7 +523,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -569,56 +569,6 @@
    "shown": 7,
    "providers": [
     {
-     "name": "University of Geneva",
-     "slug": "university-of-geneva",
-     "description": "The University of Geneva (Université de Genève, UNIGE) is a public research university in Geneva, Switzerland, founded in 1559 and ranked #93 in the QS World University Rankings 2025. Like almost every university it is a federation of buyers rather than an API producer, and it operates no central developer portal, no API gateway, no public key issuance and no self-service onboarding of any kind. What it does operate is unusually real for this cohort, and all of it sits under unige.ch: the Archive ouverte UNIGE institutional repository runs on the University's OWN software (the Identify response reports \"AoU v2.3.5\", not DSpace, EPrints or Figshare) and serves a live OAI-PMH 2.0 endpoint anonymously; Yareta, the e-Research long-term research-data preservation platform built on the Swiss DLCM/Solidify stack that UNIGE itself leads, exposes access and ingest REST modules on its own hosts with one genuinely public configuration endpoint and everything else behind a bearer token; a self-hosted GitLab serves an anonymous REST API over 1,146 public projects; and the Terminus protein-prediction service offers a small anonymous research API. UNIGE's strongest machine-readable surface is one universities are rarely credited for: its own Shibboleth SAML 2.0 Identity Provider, registered in the SWITCHaai national federation alongside 122 other unige.ch entities. Its library is a tenancy, not an asset — Ex Libris Alma/Primo operated by the SLSP consortium — and its DOI, publication and organization identifiers are registry memberships at DataCite, Crossref and ROR. There is no open-data portal, no course-catalog API (pgc.unige.ch soft-404s every /api path back to its own HTML) and no teaching-and-learning interoperability surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png",
-     "score": 36.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 42.9,
-      "contract_governance": 25.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 39.3,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
-    {
      "name": "University of Basel",
      "slug": "university-of-basel",
      "description": "The University of Basel (Universität Basel) is the oldest university in Switzerland, founded in 1460, and a canton-funded public research university. It operates no developer portal, no self-serve API program and no public product API; every machine-readable surface it runs is scholarly infrastructure, federated identity, or the back end of one of its own administrative systems. Exactly one OpenAPI contract is served under unibas.ch — the REST back end of UNIverse, the research information system, which publishes an OpenAPI 3.1.0 description and a Swagger UI anonymously while enforcing a bearer token on every data path. Beyond it, verified live on the university's own hosts: \"edoc\", the open-access institutional repository running DSpace-CRIS 7.6.2, which answers on both a DSpace REST API and an OAI-PMH 2.0 interface carrying eleven metadata formats and an OpenAIRE-CRIS profile; a SWITCHaai / eduGAIN SAML 2.0 identity provider scoped to unibas.ch, alongside thirty-two registered service providers under the same domain; an OpenID Connect issuer at the sciCORE scientific computing centre; and an LTI launch endpoint on ADAM, the university's ILIAS learning platform. Library discovery is a tenancy, not a Basel system — swisscovery is operated by SLSP on Ex Libris Alma, with Basel holding the 41SLSP_UBS institution zone. The DaSCH Service Platform API (api.dasch.swiss), previously catalogued here as Basel's, is not: DaSCH is a legally independent association hosted at the university, and that contract and its derived artifacts were removed in the 2026-08-30 pass.",
@@ -634,7 +584,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -666,6 +616,56 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 12
+    },
+    {
+     "name": "University of Geneva",
+     "slug": "university-of-geneva",
+     "description": "The University of Geneva (Université de Genève, UNIGE) is a public research university in Geneva, Switzerland, founded in 1559 and ranked #93 in the QS World University Rankings 2025. Like almost every university it is a federation of buyers rather than an API producer, and it operates no central developer portal, no API gateway, no public key issuance and no self-service onboarding of any kind. What it does operate is unusually real for this cohort, and all of it sits under unige.ch: the Archive ouverte UNIGE institutional repository runs on the University's OWN software (the Identify response reports \"AoU v2.3.5\", not DSpace, EPrints or Figshare) and serves a live OAI-PMH 2.0 endpoint anonymously; Yareta, the e-Research long-term research-data preservation platform built on the Swiss DLCM/Solidify stack that UNIGE itself leads, exposes access and ingest REST modules on its own hosts with one genuinely public configuration endpoint and everything else behind a bearer token; a self-hosted GitLab serves an anonymous REST API over 1,146 public projects; and the Terminus protein-prediction service offers a small anonymous research API. UNIGE's strongest machine-readable surface is one universities are rarely credited for: its own Shibboleth SAML 2.0 Identity Provider, registered in the SWITCHaai national federation alongside 122 other unige.ch entities. Its library is a tenancy, not an asset — Ex Libris Alma/Primo operated by the SLSP consortium — and its DOI, publication and organization identifiers are registry memberships at DataCite, Crossref and ROR. There is no open-data portal, no course-catalog API (pgc.unige.ch soft-404s every /api path back to its own HTML) and no teaching-and-learning interoperability surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png",
+     "score": 34.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 32.4,
+      "contract_governance": 25.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 39.3,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 13
     },
     {
@@ -684,7 +684,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -726,7 +726,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -776,7 +776,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -826,7 +826,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -876,7 +876,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -936,7 +936,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -993,7 +993,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1032,18 +1032,18 @@
      "slug": "kuehne-nagel",
      "description": "Kuehne+Nagel International AG is a Swiss freight forwarder and contract logistics provider headquartered in Schindellegi, Switzerland, and one of the largest forwarders in the world across sea logistics, air logistics, road logistics and contract logistics. As a forwarder it sits in the intermediation layer of the supply chain — between shippers on one side and ocean carriers, airlines, hauliers, terminals and customs authorities on the other — and most of the data it exposes is carrier and terminal data it aggregates rather than originates. Its API posture is honest but conditional: a real WSO2-based developer portal at portal.api.kuehne-nagel.com lists 17 published APIs and serves every OpenAPI definition anonymously, but every subscription is customer-contract gated — a myKN account, a Kuehne+Nagel customer ID (CID) and an account manager who completes the \"customer setup\" are stated pre-requisites, so nobody outside a commercial relationship can call the gateway. Underneath the REST veneer the company's own connectivity page still advertises EDIFACT, ANSI X.12, Tradacoms, RosettaNet, iDOC, GS1 and CargoImp over AS2, OFTP-2, (S)FTP and VAN as the primary integration path, and its one customs \"EDI\" API is an unschematized pass-through. One surface — OceanEventInbox v1 — is explicitly built to the DCSA equipment-event standard, which makes Kuehne+Nagel a non-member implementer of a carrier standards body; the other sixteen APIs are proprietary Kuehne+Nagel contracts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png",
-     "score": 23.9,
+     "score": 24.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 51.5,
+      "contract_quality": 52.1,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -1086,7 +1086,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1147,7 +1147,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1197,7 +1197,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1246,7 +1246,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1289,7 +1289,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1332,7 +1332,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1374,7 +1374,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1476,7 +1476,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1525,7 +1525,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1575,7 +1575,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1624,7 +1624,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1674,7 +1674,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1724,7 +1724,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1773,7 +1773,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

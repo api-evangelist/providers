@@ -49,8 +49,8 @@ modified: '2026-09-01'
 name: Ultra Safe Nuclear
 nav: Providers
 network: true
-overview: Ultra Safe Nuclear is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Nuclear, Advanced Reactors, and Small Modular Reactors.
-random_paper: 18
+overview: Ultra Safe Nuclear is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Nuclear, Advanced Reactors, and Small Modular Reactor.
+random_paper: 21
 security:
 - kind: domain-security
   name: Ultra Safe Nuclear Domain Security
@@ -62,7 +62,7 @@ tags:
 - Energy
 - Nuclear
 - Advanced Reactors
-- Small Modular Reactors
+- Small Modular Reactor
 - Nuclear Fuel
 - Space
 - Manufacturing

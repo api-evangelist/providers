@@ -68,7 +68,7 @@ overview: 'CLAUDE.md is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   CLAUDE.md''s developer surface includes documentation, tooling, and 7 more developer resources.'
-random_paper: 15
+random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/claude-md/refs/heads/main/screenshots/claude-md-2026-06-20T174448.png
 slug: claude-md
 tags:
@@ -80,6 +80,6 @@ tags:
 - Markdown
 - Memory
 - Project Configuration
-- Standard
+- Standards
 website: https://www.claude.com/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,7 +92,7 @@ overview: 'SuppCo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   SuppCo''s developer surface includes support and 9 more developer resources.'
-random_paper: 15
+random_paper: 6
 score:
   band: emerging
   composite: 12.5
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

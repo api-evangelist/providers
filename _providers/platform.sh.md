@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://api.upsun.com
@@ -116,11 +116,6 @@ apis:
   slug: platform.sh-domain-management-api
 - baseURL: https://api.upsun.com
   baseurl_source: declared
-  description: The Entrypoint API from Platform.sh — 1 operation(s) for entrypoint.
-  name: Platform.sh Entrypoint API
-  slug: platform.sh-entrypoint-api
-- baseURL: https://api.upsun.com
-  baseurl_source: declared
   description: The Environment Activity API from Platform.sh — 3 operation(s) for environment activity.
   name: Platform.sh Environment Activity API
   slug: platform.sh-environment-activity-api
@@ -194,11 +189,6 @@ apis:
   description: The Organizations API from Platform.sh — 4 operation(s) for organizations.
   name: Platform.sh Organizations API
   slug: platform.sh-organizations-api
-- baseURL: https://api.upsun.com
-  baseurl_source: declared
-  description: The PhoneNumber API from Platform.sh — 2 operation(s) for phonenumber.
-  name: Platform.sh Phone Number API
-  slug: platform.sh-phonenumber-api
 - baseURL: https://api.upsun.com
   baseurl_source: declared
   description: The Profiles API from Platform.sh — 2 operation(s) for profiles.
@@ -339,6 +329,16 @@ apis:
   description: These endpoints can be used to retrieve vouchers associated with a particular user as well as apply a voucher to a particular user.
   name: Platform.sh Vouchers API
   slug: platform.sh-vouchers-api
+- baseURL: https://api.upsun.com
+  baseurl_source: declared
+  description: The Entry Point API from Platform.sh — 1 operation(s) for entry point.
+  name: Platform.sh Entry Point API
+  slug: platform.sh-entry-point-api
+- baseURL: https://api.upsun.com
+  baseurl_source: declared
+  description: The Phone Number API from Platform.sh — 2 operation(s) for phone number.
+  name: Platform.sh Phone Number API
+  slug: platform.sh-phone-number-api
 artifact_total: 68
 asyncapis:
 - description: ''
@@ -564,7 +564,7 @@ plans:
 - name: Platform.Sh Plans Pricing
   plan_count: 0
   slug: platform.sh-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Platform.Sh Rate Limits
@@ -576,7 +576,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 52.8
+  composite: 52.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 27.0
@@ -584,11 +584,11 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 58.6
+    contract_quality: 58.8
     developer_ergonomics: 73.2
     discoverability: 57.4
     operational_transparency: 52.6
@@ -609,7 +609,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

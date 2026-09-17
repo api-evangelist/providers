@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 291
-  human_in_the_loop: 14
+- acting_count: 145
+  human_in_the_loop: 7
   name: Box Agentic Access
-  operation_count: 537
+  operation_count: 263
   slug: box-agentic-access
-  summary_line: 537 operations · 291 acting · 14 human-in-the-loop
+  summary_line: 263 operations · 145 acting · 7 human-in-the-loop
 api_count: 52
 apis:
 - baseURL: https://account.box.com/api/oauth2
@@ -50,11 +50,6 @@ apis:
   description: A set of endpoints used to manage user authorization process.
   name: Box Authorization API
   slug: box-authorization-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Authorize API from Box — 1 operation(s) for authorize.
-  name: Box Authorize API
-  slug: box-authorize-api
 - baseURL: https://account.box.com/api/oauth2
   baseurl_source: declared
   description: Classification labels are used for content that is sensitive or under security restrictions.
@@ -70,16 +65,6 @@ apis:
   description: Classification labels are used for folders that are sensitive or under security restrictions.
   name: Box Classifications on Folders API
   slug: box-classifications-on-folders-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Collaboration Whitelist Entries API from Box — 2 operation(s) for collaboration whitelist entries.
-  name: Box Collaboration Whitelist Entries API
-  slug: box-collaboration-whitelist-entries-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Collaboration Whitelist Exempt Targets API from Box — 2 operation(s) for collaboration whitelist exempt targets.
-  name: Box Collaboration Whitelist Exempt Targets API
-  slug: box-collaboration-whitelist-exempt-targets-api
 - baseURL: https://account.box.com/api/oauth2
   baseurl_source: declared
   description: Collaborations define access permissions for users and groups to files and folders, similar to access control lists.
@@ -125,11 +110,6 @@ apis:
   description: Email aliases provide a list of emails additional to the user's primary login email.
   name: Box Email Aliases API
   slug: box-email-aliases-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Enterprises API from Box — 1 operation(s) for enterprises.
-  name: Box Enterprises API
-  slug: box-enterprises-api
 - baseURL: https://account.box.com/api/oauth2
   baseurl_source: declared
   description: Events provide a way for an application to subscribe to any actions performed by any user, users, or service in an enterprise.
@@ -217,19 +197,9 @@ apis:
   slug: box-metadata-instances-folders-api
 - baseURL: https://account.box.com/api/oauth2
   baseurl_source: declared
-  description: The Metadata Queries API from Box — 1 operation(s) for metadata queries.
-  name: Box Metadata Queries API
-  slug: box-metadata-queries-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
   description: A metadata template describes a reusable set of key/value pairs that can be assigned to a file.
   name: Box Metadata Templates API
   slug: box-metadata-templates-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Oauth2 API from Box — 3 operation(s) for oauth2.
-  name: Box Oauth2 API
-  slug: box-oauth2-api
 - baseURL: https://account.box.com/api/oauth2
   baseurl_source: declared
   description: Recent items represent items such as files or folders that the user accessed recently.
@@ -255,21 +225,6 @@ apis:
   description: Session termination API is used to validate the roles and permissions of the group, and creates asynchronous jobs to terminate the group's sessions.
   name: Box Session Termination API
   slug: box-session-termination-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Shared Items API from Box — 1 operation(s) for shared items.
-  name: Box Shared Items API
-  slug: box-shared-items-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Shared Items#folders API from Box — 1 operation(s) for shared items#folders.
-  name: Box Shared Items#folders API
-  slug: box-shared-items-folders-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Shared Items#web Links API from Box — 1 operation(s) for shared items#web links.
-  name: Box Shared Items#web Links API
-  slug: box-shared-items-web-links-api
 - baseURL: https://account.box.com/api/oauth2
   baseurl_source: declared
   description: Files shared links are URLs that are generated for files stored in Box, which provide direct, read-only access to the resource.
@@ -322,11 +277,6 @@ apis:
   slug: box-sign-templates-api
 - baseURL: https://account.box.com/api/oauth2
   baseurl_source: declared
-  description: The Skill Invocations API from Box — 1 operation(s) for skill invocations.
-  name: Box Skill Invocations API
-  slug: box-skill-invocations-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
   description: Box Skills are designed to allow custom processing of files uploaded to Box, with the intent of enhancing the underlying metadata of the file.
   name: Box Skills API
   slug: box-skills-api
@@ -340,16 +290,6 @@ apis:
   description: Storage policy assignment represents the relation between storage zone and the assigned item (for example a file stored in a specific zone).
   name: Box Standard and Zones Storage Policy Assignments API
   slug: box-standard-and-zones-storage-policy-assignments-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Storage Policies API from Box — 2 operation(s) for storage policies.
-  name: Box Storage Policies API
-  slug: box-storage-policies-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Storage Policy Assignments API from Box — 2 operation(s) for storage policy assignments.
-  name: Box Storage Policy Assignments API
-  slug: box-storage-policy-assignments-api
 - baseURL: https://account.box.com/api/oauth2
   baseurl_source: declared
   description: A task assignment defines which task is assigned to which user to complete.
@@ -370,11 +310,6 @@ apis:
   description: A set of endpoints used to manage the status of terms of service for a particular user.
   name: Box Terms of Service User Statuses API
   slug: box-terms-of-service-user-statuses-api
-- baseURL: https://account.box.com/api/oauth2
-  baseurl_source: declared
-  description: The Terms of Services API from Box — 2 operation(s) for terms of services.
-  name: Box Terms of Services API
-  slug: box-terms-of-services-api
 - baseURL: https://account.box.com/api/oauth2
   baseurl_source: declared
   description: API designed to move all of the items (files, folders and workflows) owned by a user into another user's account.
@@ -450,7 +385,7 @@ apis:
   description: Zip downloads represent a successful request to create a ZIP archive with files and folders.
   name: Box Zip Downloads API
   slug: box-zip-downloads-api
-artifact_total: 482
+artifact_total: 469
 collections:
 - collection_type: postman
   name: Box Authorize Authorization API
@@ -1756,7 +1691,7 @@ modified: '2026-05-19'
 name: Box
 nav: Providers
 network: true
-overview: 'Box publishes 81 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Authorize API, Classifications API, and 78 more. Tagged areas include Cloud Storage, Collaboration, Content Management, Documents, and Enterprise.
+overview: 'Box publishes 68 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Classifications API, Classifications on Files API, and 65 more. Tagged areas include Cloud Storage, Collaboration, Content Management, Documents, and Enterprise.
 
 
   The Box catalog on APIs.io includes 2 Spectral governance rulesets.
@@ -1767,7 +1702,7 @@ plans:
 - name: Box Plans Pricing
   plan_count: 8
   slug: box-plans-pricing
-random_paper: 14
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Box Rate Limits
@@ -1801,7 +1736,7 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.2
+  composite: 61.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 50.5
@@ -1809,11 +1744,11 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 66.5
+    contract_quality: 69.7
     developer_ergonomics: 64.3
     discoverability: 68.5
     operational_transparency: 44.7
@@ -1821,13 +1756,13 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 86.4
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 81
+      total: 68
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

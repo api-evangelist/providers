@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 6
+- acting_count: 16
   human_in_the_loop: 0
   name: Bird Agentic Access
-  operation_count: 16
+  operation_count: 37
   slug: bird-agentic-access
-  summary_line: 16 operations · 6 acting
+  summary_line: 37 operations · 16 acting
 api_count: 6
 apis:
 - description: Sync customer data from multiple sources in real time to build a 360-degree customer view. Manage contacts, lists, segmentation, and profile enrichment programmatically.
@@ -70,16 +70,6 @@ apis:
   description: Intent recognition and dataset management operations.
   name: Bird Intent API
   slug: bird-intent-api
-- baseURL: https://api.bird.com
-  baseurl_source: declared
-  description: Language detection operations.
-  name: Bird LanguageDetection API
-  slug: bird-languagedetection-api
-- baseURL: https://api.bird.com
-  baseurl_source: declared
-  description: Named entity recognition operations.
-  name: Bird NamedEntityRecognition API
-  slug: bird-namedentityrecognition-api
 - baseURL: https://api.bird.com
   baseurl_source: declared
   description: MessageBird’s SMS API allows you to send and receive SMS messages to and from any country in the world through a REST API. Each message is identified by a unique random ID so that users can always che
@@ -115,6 +105,16 @@ apis:
   description: Discover, purchase, and manage phone numbers.
   name: Bird Numbers API
   slug: bird-numbers-api
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Language detection operations.
+  name: Bird Language Detection API
+  slug: bird-language-detection-api
+- baseURL: https://api.bird.com
+  baseurl_source: declared
+  description: Named entity recognition operations.
+  name: Bird Named Entity Recognition API
+  slug: bird-named-entity-recognition-api
 artifact_total: 44
 collections:
 - collection_type: open
@@ -272,7 +272,7 @@ modified: '2026-08-08'
 name: Bird
 nav: Providers
 network: true
-overview: 'Bird publishes 11 APIs on the [APIs.io](https://apis.io/) network, including FAQ API, Intent API, LanguageDetection API, and 8 more. Tagged areas include Communications, SMS, Email, WhatsApp, and Voice.
+overview: 'Bird publishes 11 APIs on the [APIs.io](https://apis.io/) network, including FAQ API, Intent API, SMS Messaging API, and 8 more. Tagged areas include Communications, SMS, Email, WhatsApp, and Voice.
 
 
   The Bird catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -283,7 +283,7 @@ plans:
 - name: Bird Plans Pricing
   plan_count: 3
   slug: bird-plans-pricing
-random_paper: 18
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Bird Rate Limits
@@ -301,7 +301,7 @@ rules:
   slug: bird-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.5
+  composite: 42.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 66.3
@@ -309,11 +309,11 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 57.9
     contract_governance: 9.8
-    contract_quality: 58.0
+    contract_quality: 58.3
     developer_ergonomics: 23.8
     discoverability: 74.1
     operational_transparency: 18.4
@@ -333,7 +333,7 @@ score:
     regime_id: telecommunications
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

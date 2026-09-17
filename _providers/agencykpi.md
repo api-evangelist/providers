@@ -32,7 +32,7 @@ name: AgencyKPI
 nav: Providers
 network: true
 overview: AgencyKPI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Business Intelligence, and Analytics.
-random_paper: 10
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/agencykpi/refs/heads/main/screenshots/agencykpi-2026-08-07T161130.png
 slug: agencykpi
 tags:

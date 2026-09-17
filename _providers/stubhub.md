@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -68,11 +68,6 @@ apis:
   description: The ListingConstraints API from StubHub — 3 operation(s) for listingconstraints.
   name: StubHub ListingConstraints API
   slug: stubhub-listingconstraints-api
-- baseURL: https://api.stubhub.net
-  baseurl_source: declared
-  description: The PaymentMethods API from StubHub — 3 operation(s) for paymentmethods.
-  name: StubHub PaymentMethods API
-  slug: stubhub-paymentmethods-api
 - baseURL: https://api.stubhub.net
   baseurl_source: declared
   description: The Payments API from StubHub — 3 operation(s) for payments.
@@ -118,6 +113,11 @@ apis:
   description: The Webhooks API from StubHub — 3 operation(s) for webhooks.
   name: StubHub Webhooks API
   slug: stubhub-webhooks-api
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The Payment Methods API from StubHub — 3 operation(s) for payment methods.
+  name: StubHub Payment Methods API
+  slug: stubhub-payment-methods-api
 artifact_total: 36
 asyncapis:
 - description: ''
@@ -316,14 +316,14 @@ modified: '2026-07-21'
 name: StubHub
 nav: Providers
 network: true
-overview: 'StubHub publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Addressess API, Categories API, E-Tickets API, and 12 more. Tagged areas include Company, Marketplaces, Tickets, Event, and Ticketing.
+overview: 'StubHub publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Addressess API, Categories API, E-Tickets API, and 12 more. Tagged areas include Company, Marketplace, Tickets, Event, and Ticketing.
 
 
   The StubHub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   StubHub''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 22 more developer resources.'
-random_paper: 9
+random_paper: 17
 scopes:
 - name: Stubhub Scopes
   scope_count: 9
@@ -359,7 +359,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -377,7 +377,7 @@ security:
 slug: stubhub
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Tickets
 - Event
 - Ticketing

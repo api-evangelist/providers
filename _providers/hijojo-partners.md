@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -130,7 +130,7 @@ modified: '2026-08-22'
 name: HiJoJo Partners
 nav: Providers
 network: true
-overview: 'HiJoJo Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Investment Management, Private Markets, and Secondary Markets.
+overview: 'HiJoJo Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Investment Management, Private Markets, and Secondary Market.
 
 
   HiJoJo Partners'' developer surface includes product news, support, FAQ, signup flow, and 11 more developer resources.'
@@ -138,7 +138,7 @@ plans:
 - name: Hijojo Partners Plans Pricing
   plan_count: 0
   slug: hijojo-partners-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Hijojo Partners Rate Limits
@@ -172,7 +172,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -190,7 +190,7 @@ tags:
 - Financial-Services
 - Investment Management
 - Private Markets
-- Secondary Markets
+- Secondary Market
 - Pre-IPO
 - Venture Capital
 - Fintech

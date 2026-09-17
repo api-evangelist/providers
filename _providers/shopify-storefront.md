@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,9 +53,9 @@ apis:
   slug: shopify-buy-sdk
 - baseURL: https://{store_name}.myshopify.com/api/2024-10/graphql.json
   baseurl_source: declared
-  description: The GraphQL API from Shopify Storefront API — 1 operation(s) for graphql.
-  name: Shopify Storefront API GraphQL API
-  slug: shopify-storefront-graphql-api
+  description: The Graph QL API from Shopify Storefront API — 1 operation(s) for graph ql.
+  name: Shopify Storefront API Graph QL API
+  slug: shopify-storefront-graph-ql-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -134,7 +134,7 @@ modified: '2026-05-19'
 name: Shopify Storefront API
 nav: Providers
 network: true
-overview: 'Shopify Storefront API publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Commerce, E-Commerce, Headless, GraphQL, and Storefront.
+overview: 'Shopify Storefront API publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Commerce, E-Commerce, Headless, GraphQL, and Storefront.
 
 
   The Shopify Storefront API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -145,7 +145,7 @@ plans:
 - name: Shopify Storefront Plans Pricing
   plan_count: 5
   slug: shopify-storefront-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Shopify Storefront Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

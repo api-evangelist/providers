@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -198,7 +198,7 @@ modified: '2026-07-02'
 name: Cognition Labs
 nav: Providers
 network: true
-overview: 'Cognition Labs publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Consumption API, Enterprise (v3) API, and 6 more. Tagged areas include Artificial Intelligence, AI Agent, Autonomous Coding, Software Engineering, and LLM.
+overview: 'Cognition Labs publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Consumption API, Enterprise (v3) API, and 6 more. Tagged areas include Artificial Intelligence, AI Agents, Autonomous Coding, Software Engineering, and LLM.
 
 
   Cognition Labs'' developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -206,7 +206,7 @@ plans:
 - name: Cognition Labs Plans Pricing
   plan_count: 6
   slug: cognition-labs-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Cognition Labs Rate Limits
@@ -238,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -264,7 +264,7 @@ security:
 slug: cognition-labs
 tags:
 - Artificial Intelligence
-- AI Agent
+- AI Agents
 - Autonomous Coding
 - Software Engineering
 - LLM

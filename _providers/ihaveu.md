@@ -19,7 +19,7 @@ name: Ihaveu
 nav: Providers
 network: true
 overview: Ihaveu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Luxury, Fashion, and Retail.
-random_paper: 12
+random_paper: 4
 slug: ihaveu
 tags:
 - Company

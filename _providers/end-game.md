@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 3
+- acting_count: 10
   human_in_the_loop: 0
   name: End Game Agentic Access
-  operation_count: 5
+  operation_count: 17
   slug: end-game-agentic-access
-  summary_line: 5 operations · 3 acting
+  summary_line: 17 operations · 10 acting
 api_count: 2
 apis:
 - baseURL: https://app.endgame.io
@@ -273,6 +273,10 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/end-game-website-llms.txt
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@endgame.io
 created: '2026-07-17'
 description: Endgame (Endgame Labs, Inc.) is a context graph platform for go-to-market teams and AI agents that turns sales calls, CRM records, emails, Slack conversations, meeting transcripts, and uploaded documents into structured, queryable revenue intelligence. Sales and RevOps users ask questions across their book of business in natural language, and connected AI assistants reach the same knowledge through the Endgame MCP Server. The public REST API (rooted at /api/v1) lets developers create and manage Endgame threads programmatically over HTTPS with Bearer-token authentication, while a broad connector surface ingests context from Salesforce, Gong, Chorus, Clari Copilot, Zoom, Notion, Confluence, Highspot, Seismic, Snowflake, Slack, Microsoft Teams/SharePoint/Outlook, and Google Drive. Endgame was surfaced through the API Evangelist VC-portfolio pipeline and has been enriched from its published developer documentation, OpenAPI, MCP server, and trust/security programs.
 image: https://www.endgame.io/opengraph-image
@@ -288,12 +292,12 @@ network: true
 overview: 'Endgame publishes 3 APIs on the [APIs.io](https://apis.io/) network: Threads API, Internal API, and Protected Static API. Tagged areas include Company, Sales, Revenue Intelligence, Go-To-Market, and Artificial Intelligence.
 
 
-  Endgame''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 38 more developer resources.'
+  Endgame''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 39 more developer resources.'
 plans:
 - name: End Game Plans Pricing
   plan_count: 0
   slug: end-game-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: End Game Rate Limits
@@ -333,7 +337,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

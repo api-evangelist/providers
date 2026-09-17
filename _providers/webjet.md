@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -49,11 +49,6 @@ apis:
 - description: DataStream is a separately-credentialled Trip Ninja product with its own documentation section (setup, authentication, integration lifecycle) and its own public Postman collection. It uses the same To
   name: Trip Ninja DataStream API
   slug: tripninja-datastream-api
-- baseURL: https://sandbox.tripninja.io
-  baseurl_source: declared
-  description: The Adminpanel API from Webjet — 1 operation(s) for adminpanel.
-  name: Webjet Adminpanel API
-  slug: webjet-adminpanel-api
 - baseURL: https://sandbox.tripninja.io
   baseurl_source: declared
   description: The Book API from Webjet — 5 operation(s) for book.
@@ -139,6 +134,11 @@ apis:
   description: The Ticketing API from Webjet — 1 operation(s) for ticketing.
   name: Webjet Ticketing API
   slug: webjet-ticketing-api
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Admin panel API from Webjet — 1 operation(s) for admin panel.
+  name: Webjet Admin panel API
+  slug: webjet-admin-panel-api
 arazzos:
 - description: The Trip Ninja reporting loop. These operations do not book or cancel anything with an airline — they report to Trip Ninja what your platform already did, which is what drives billing and the machine-
   name: Trip Ninja — report price confirmation, booking, ticketing and cancellation
@@ -486,18 +486,18 @@ modified: '2026-07-28'
 name: Webjet
 nav: Providers
 network: true
-overview: 'Webjet publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Trip Ninja DataStream API, Adminpanel API, Book API, and 16 more. Tagged areas include Travel, Australia, OTA, Aviation, and Booking.
+overview: 'Webjet publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Trip Ninja DataStream API, Book API, Booking API, and 16 more. Tagged areas include Travel, Australia, OTA, Aviation, and Booking.
 
 
   Webjet''s developer surface includes authentication, sandbox, API reference, getting-started guide, pricing, engineering blog, documentation, and 55 more developer resources.'
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Webjet Rate Limits
   slug: webjet-rate-limits
 score:
   band: thin
-  composite: 35.8
+  composite: 35.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 38.0
@@ -505,11 +505,11 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 49.7
+    contract_quality: 50.2
     developer_ergonomics: 35.1
     discoverability: 55.6
     operational_transparency: 23.7
@@ -532,7 +532,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

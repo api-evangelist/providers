@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Bloomberg Beta
 nav: Providers
 network: true
-random_paper: 3
+random_paper: 2
 slug: bloomberg-beta
 tags:
 - Venture Capital

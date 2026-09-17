@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Bupa Australia API estate, published through an Azure API Management managed developer portal at portal.api.bupa.com.au and served from the api.bupa.com.au gateway host. The portal is publicly rea
@@ -150,7 +150,7 @@ overview: 'Bupa publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bupa''s developer surface includes engineering blog, documentation, getting-started guide, API reference, changelog, signup flow, support, and 14 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: thin
   composite: 31.7
@@ -187,7 +187,7 @@ score:
     regime_id: insurance
     score: 40.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

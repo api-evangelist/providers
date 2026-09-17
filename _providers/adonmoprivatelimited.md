@@ -23,16 +23,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://api.adonmo.com
   baseurl_source: declared
-  description: Adonmo's common API for its portals and services, published as an OpenAPI 3.0.0 document behind a Flasgger Swagger UI at https://api.adonmo.com/apidocs/. The publicly served contract exposes two opera
-  name: Adonmo API
-  slug: adonmoprivatelimited-adonmo-api
+  description: The acumen API from Adonmo Private Limited — 2 operation(s) for acumen.
+  name: Adonmo Private Limited Acumen API
+  slug: adonmoprivatelimited-acumen-api
 artifact_total: 5
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/adonmoprivatelimited/refs/heads/main/overlays/adonmoprivatelimited-adonmo-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/adonmoprivatelimited-adonmo-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -140,15 +145,15 @@ modified: '2026-09-07'
 name: Adonmo Private Limited
 nav: Providers
 network: true
-overview: 'Adonmo Private Limited publishes 1 API on the [APIs.io](https://apis.io/) network: Adonmo API. Tagged areas include Advertising, Digital Out Of Home, Digital Signage, AdTech, and Content Management.
+overview: 'Adonmo Private Limited publishes 1 API on the [APIs.io](https://apis.io/) network: Acumen API. Tagged areas include Advertising, Digital Out Of Home, Digital Signage, AdTech, and Content Management.
 
 
-  Adonmo Private Limited''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
+  Adonmo Private Limited''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
 plans:
 - name: Adonmoprivatelimited Plans Pricing
   plan_count: 1
   slug: adonmoprivatelimited-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Adonmoprivatelimited Rate Limits
@@ -181,10 +186,15 @@ score:
   previous_composite: 38.1
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

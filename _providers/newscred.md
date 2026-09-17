@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.cmp.optimizely.com/v3
@@ -333,7 +333,7 @@ plans:
 - name: Newscred Plans Pricing
   plan_count: 0
   slug: newscred-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Newscred Rate Limits
@@ -357,7 +357,7 @@ score:
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 64.8
+    contract_quality: 64.7
     developer_ergonomics: 51.8
     discoverability: 75.9
     operational_transparency: 81.6
@@ -372,7 +372,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

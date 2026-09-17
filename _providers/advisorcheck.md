@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The first-party HTTP API behind the AdvisorCheck consumer web application, served from an AWS API Gateway custom domain at api.advisorcheck.com. It is an internal application backend, not a published '
@@ -119,7 +119,7 @@ plans:
 - name: Advisorcheck Plans Pricing
   plan_count: 2
   slug: advisorcheck-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Advisorcheck Rate Limits
@@ -151,7 +151,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

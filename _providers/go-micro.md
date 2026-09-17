@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Go Micro is a distributed systems framework for building microservices in Go, providing service discovery, load balancing, message encoding, RPC, and async messaging out of the box.
@@ -85,7 +85,7 @@ modified: '2026-04-28'
 name: Go Micro
 nav: Providers
 network: true
-overview: 'Go Micro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Distributed Systems, Frameworks, Go, Golang, and Microservices.
+overview: 'Go Micro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Distributed Systems, Framework, Go, Golang, and Microservices.
 
 
   The Go Micro catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -96,7 +96,7 @@ plans:
 - name: Go Micro Plans Pricing
   plan_count: 3
   slug: go-micro-plans-pricing
-random_paper: 20
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Go Micro Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -147,7 +147,7 @@ security:
 slug: go-micro
 tags:
 - Distributed Systems
-- Frameworks
+- Framework
 - Go
 - Golang
 - Microservices

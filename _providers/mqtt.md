@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: OASIS Standard publish/subscribe messaging protocol for IoT and M2M communication. MQTT v5.0 defines the wire format and behavior of CONNECT, PUBLISH, SUBSCRIBE, UNSUBSCRIBE, PINGREQ, DISCONNECT and o
@@ -76,7 +76,7 @@ created: '2026-05-11'
 description: 'MQTT (Message Queuing Telemetry Transport) is an OASIS-standard, lightweight publish/subscribe messaging transport protocol designed for constrained devices and low-bandwidth, high-latency, or unreliable networks, making it the de-facto messaging protocol for IoT and machine-to-machine (M2M) communication. MQTT is a protocol specification rather than a hosted API: clients connect over TCP/TLS (typically port 1883 or 8883) or WebSocket (8080/8081) to an MQTT broker (such as Mosquitto, HiveMQ, EMQX, or AWS IoT Core) and exchange CONNECT, PUBLISH, SUBSCRIBE, and other control packets defined by the standard. The current standard is MQTT Version 5.0 (OASIS Standard, 7 March 2019); MQTT 3.1.1 remains widely deployed.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mqtt.png
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: MQTT
 nav: Providers
 network: true
@@ -84,7 +84,7 @@ overview: 'MQTT publishes 1 API on the [APIs.io](https://apis.io/) network: Vers
 
 
   MQTT''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 13
+random_paper: 14
 score:
   band: emerging
   composite: 18.3
@@ -105,7 +105,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -127,5 +127,6 @@ tags:
 - Protocol
 - OASIS Standard
 - Telemetry
+- Machine-to-Machine
 website: https://mqtt.org
 ---

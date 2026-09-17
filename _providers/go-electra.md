@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Electra's Open Charge Point Interface implementation in the Charge Point Operator role — the roaming interface an e-mobility service provider calls to read Electra's locations and tariffs, authorise i
@@ -200,7 +200,7 @@ plans:
 - name: Go Electra Plans Pricing
   plan_count: 4
   slug: go-electra-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Go Electra Rate Limits
@@ -242,7 +242,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

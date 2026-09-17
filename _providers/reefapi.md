@@ -37,19 +37,89 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://api.reefapi.com
-  baseurl_source: declared
-  description: POST-based REST/JSON API fronting a catalog of web-data engines. Auth via x-api-key header; uniform {ok,data,meta,error} response envelope with stable error codes. Declared OpenAPI contract and RFC 97
-  name: ReefAPI REST API
-  slug: reefapi-rest-api
 - description: 'Hosted MCP server over streamable-HTTP with 5 discovery-first tools (search_engines, get_catalog, get_engine_schema, get_action_schema, call_engine). Auth via Authorization: Bearer ak_live_ key. Compa'
   name: ReefAPI MCP Server
   slug: reefapi-mcp-server
-artifact_total: 8
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Classifieds & Second-hand API from ReefAPI — 29 operation(s) for classifieds & second-hand.
+  name: ReefAPI Classifieds & Second-hand API
+  slug: reefapi-classifieds-second-hand-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Developer Tools API from ReefAPI — 263 operation(s) for developer tools.
+  name: ReefAPI Developer Tools API
+  slug: reefapi-developer-tools-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The E-commerce & Marketplaces API from ReefAPI — 264 operation(s) for e-commerce & marketplaces.
+  name: ReefAPI E-commerce & Marketplaces API
+  slug: reefapi-e-commerce-marketplaces-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Finance & Data API from ReefAPI — 103 operation(s) for finance & data.
+  name: ReefAPI Finance & Data API
+  slug: reefapi-finance-data-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Government & Tenders API from ReefAPI — 5 operation(s) for government & tenders.
+  name: ReefAPI Government & Tenders API
+  slug: reefapi-government-tenders-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Jobs & Hiring API from ReefAPI — 69 operation(s) for jobs & hiring.
+  name: ReefAPI Jobs & Hiring API
+  slug: reefapi-jobs-hiring-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Media, Film & Knowledge API from ReefAPI — 274 operation(s) for media, film & knowledge.
+  name: ReefAPI Media, Film & Knowledge API
+  slug: reefapi-media-film-knowledge-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Other API from ReefAPI — 57 operation(s) for other.
+  name: ReefAPI Other API
+  slug: reefapi-other-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Real Estate API from ReefAPI — 57 operation(s) for real estate.
+  name: ReefAPI Real Estate API
+  slug: reefapi-real-estate-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Reputation & Reviews API from ReefAPI — 76 operation(s) for reputation & reviews.
+  name: ReefAPI Reputation & Reviews API
+  slug: reefapi-reputation-reviews-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Search & SEO API from ReefAPI — 8 operation(s) for search & seo.
+  name: ReefAPI Search & SEO API
+  slug: reefapi-search-seo-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Social Media API from ReefAPI — 117 operation(s) for social media.
+  name: ReefAPI Social Media API
+  slug: reefapi-social-media-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Travel & Lodging API from ReefAPI — 43 operation(s) for travel & lodging.
+  name: ReefAPI Travel & Lodging API
+  slug: reefapi-travel-lodging-api
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: The Utilities & AI API from ReefAPI — 163 operation(s) for utilities & ai.
+  name: ReefAPI Utilities & AI API
+  slug: reefapi-utilities-ai-api
+artifact_total: 21
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/overlays/reefapi-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/reefapi-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -174,22 +244,22 @@ modified: '2026-08-31'
 name: ReefAPI
 nav: Providers
 network: true
-overview: 'ReefAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Web Data, Data Aggregation, Web Scraping, SERP, and E-Commerce.
+overview: 'ReefAPI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Classifieds & Second-hand API, Developer Tools API, E-commerce & Marketplaces API, and 11 more. Tagged areas include Web Data, Data Aggregation, Web Scraping, SERP, and E-Commerce.
 
 
-  ReefAPI''s developer surface includes authentication, sandbox, pricing, signup flow, support, developer console, getting-started guide, and 17 more developer resources.'
+  ReefAPI''s developer surface includes authentication, sandbox, pricing, signup flow, support, developer console, getting-started guide, and 18 more developer resources.'
 plans:
 - name: Reefapi Plans Pricing
   plan_count: 6
   slug: reefapi-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Reefapi Rate Limits
   slug: reefapi-rate-limits
 score:
   band: strong
-  composite: 56.9
+  composite: 57.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 57.0
@@ -197,21 +267,26 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 47.6
+    contract_quality: 51.1
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 39.5
   previous_composite: 56.9
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -248,7 +323,7 @@ tags:
 - llms-txt
 - API Catalog
 - Free Tier
-- Credits
-- Gateway
+- Credit
+- Gateways
 website: https://www.reefapi.com/
 ---

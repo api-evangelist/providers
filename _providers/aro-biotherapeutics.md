@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A live, anonymously reachable Model Context Protocol endpoint served from Aro Biotherapeutics' own host and advertised in the site's llms.txt. It is provided by the Wix platform, not built by Aro — it
@@ -103,7 +103,7 @@ overview: 'Aro Biotherapeutics publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Aro Biotherapeutics'' developer surface includes authentication, engineering blog, support, and 7 more developer resources.'
-random_paper: 4
+random_paper: 20
 score:
   band: emerging
   composite: 19.7
@@ -138,7 +138,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

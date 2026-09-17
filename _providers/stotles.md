@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Hosted, remote Model Context Protocol server exposing Stotles public sector market data to AI chat tools and agents. Streamable-HTTP transport at api.stotles.com/mcp, authenticated with the same x-api
@@ -184,7 +184,7 @@ plans:
 - name: Stotles Plans Pricing
   plan_count: 11
   slug: stotles-plans-pricing
-random_paper: 5
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Stotles Rate Limits
@@ -237,7 +237,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: USC's production single sign-on identity provider, operated by USC Information Technology Services on USC's own host, publishing its SAML 2.0 metadata unauthenticated. GET https://shibboleth.usc.edu/i
@@ -227,7 +227,7 @@ plans:
 - name: Usc Plans Pricing
   plan_count: 2
   slug: usc-plans-pricing
-random_paper: 16
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Usc Rate Limits
@@ -267,7 +267,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

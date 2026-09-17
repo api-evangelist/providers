@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -43,11 +43,6 @@ agentic_access:
   summary_line: 72 operations · 35 acting
 api_count: 1
 apis:
-- baseURL: https://api.physna.com/v2
-  baseurl_source: declared
-  description: The ClientCredentials API from Physna — 2 operation(s) for clientcredentials.
-  name: Physna ClientCredentials API
-  slug: physna-clientcredentials-api
 - baseURL: https://api.physna.com/v2
   baseurl_source: declared
   description: The Collections API from Physna — 13 operation(s) for collections.
@@ -83,6 +78,11 @@ apis:
   description: The Users API from Physna — 4 operation(s) for users.
   name: Physna Users API
   slug: physna-users-api
+- baseURL: https://api.physna.com/v2
+  baseurl_source: declared
+  description: The Client Credentials API from Physna — 2 operation(s) for client credentials.
+  name: Physna Client Credentials API
+  slug: physna-client-credentials-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -226,19 +226,19 @@ modified: '2026-07-20'
 name: Physna
 nav: Providers
 network: true
-overview: 'Physna publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ClientCredentials API, Collections API, Deprecated API, and 5 more. Tagged areas include Company, Artificial Intelligence, 3D, Geometric Search, and Manufacturing.
+overview: 'Physna publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Deprecated API, Folders API, and 5 more. Tagged areas include Company, Artificial Intelligence, 3D, Geometric Search, and Manufacturing.
 
 
   Physna''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 8
+random_paper: 21
 scopes:
 - name: Physna Scopes
   scope_count: 6
   slug: physna-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 36.2
+  band: developing
+  composite: 39.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -246,11 +246,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.1
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 47.6
+    contract_quality: 51.2
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 2.6
@@ -266,11 +266,11 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
-    score: 0.0
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/physna/refs/heads/main/screenshots/physna-2026-09-02T151410.png
 security:
 - kind: authentication

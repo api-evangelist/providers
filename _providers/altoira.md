@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -57,11 +57,6 @@ apis:
   slug: altoira-investment-api
 - baseURL: https://www.altoira.com
   baseurl_source: declared
-  description: Provides access to an investor's account. Generates a token to be used with the "user" endpoints below
-  name: AltoIRA OAUTH API
-  slug: altoira-oauth-api
-- baseURL: https://www.altoira.com
-  baseurl_source: declared
   description: The actions are performed as the manager of an offering, not as a specific user. Authentication uses the `Basic Auth` header
   name: AltoIRA Offering API
   slug: altoira-offering-api
@@ -70,6 +65,11 @@ apis:
   description: 'These actions are performed within the context of a specific user (uses OAuth2 with an `Authorization: Bearer` header)'
   name: AltoIRA User API
   slug: altoira-user-api
+- baseURL: https://www.altoira.com
+  baseurl_source: declared
+  description: Provides access to an investor's account. Generates a token to be used with the "user" endpoints below
+  name: AltoIRA OAUTH API
+  slug: altoira-oauth-api
 artifact_total: 18
 asyncapis:
 - description: Alto pushes investment-lifecycle events to a Platform Partner's registered webhook endpoint so the partner can track an investor's progress through the Direction of Investment (DOI), funding and any p
@@ -261,14 +261,14 @@ modified: '2026-08-06'
 name: AltoIRA
 nav: Providers
 network: true
-overview: 'AltoIRA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Handoffs API, Investment API, OAUTH API, and 2 more. Tagged areas include Company, Financial-Services, Retirement, Self-Directed IRA, and Alternative Investments.
+overview: 'AltoIRA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Handoffs API, Investment API, Offering API, and 2 more. Tagged areas include Company, Financial-Services, Retirement, Self-Directed IRA, and Alternative Investments.
 
 
   The AltoIRA catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
   AltoIRA''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 13
+random_paper: 0
 scopes:
 - name: Altoira Scopes
   scope_count: 0
@@ -276,7 +276,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.1
+  composite: 45.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -284,11 +284,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 57.8
+    contract_quality: 58.8
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 26.3
@@ -309,7 +309,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

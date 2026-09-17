@@ -48,7 +48,7 @@ name: Trooly (Airbnb)
 nav: Providers
 network: true
 overview: Trooly (Airbnb) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Trust and Safety, Machine-Learning, and Background Checks.
-random_paper: 4
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/screenshots/trooly-airbnb-2026-09-02T164311.png
 security:
 - kind: domain-security

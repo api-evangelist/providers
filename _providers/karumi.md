@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -92,10 +92,10 @@ common:
   type: ToolCrosswalk
   url: mcp/karumi-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-public-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/_original/karumi-public-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/karumi-public-api-openapi.json
+  url: openapi/_original/karumi-public-api-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/overlays/karumi-public-api-overlay.yaml
   title: ''
@@ -220,7 +220,7 @@ mcp_servers:
 - description: ''
   name: Karumi MCP Server
   slug: karumi-mcp-server-2
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Karumi
 nav: Providers
 network: true
@@ -232,7 +232,7 @@ plans:
 - name: Karumi Plans Pricing
   plan_count: 2
   slug: karumi-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Karumi Rate Limits
@@ -272,7 +272,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

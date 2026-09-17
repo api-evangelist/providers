@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: JSON-over-REST API for managing Range Teams, Users, and Check-ins (Updates). API-key (HTTP Basic) or OAuth 2.0 bearer authentication; HTTPS/TLS 1.2+ required.
@@ -173,11 +173,11 @@ modified: '2026-07-20'
 name: Range
 nav: Providers
 network: true
-overview: 'Range publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Team Collaboration, Async Communication, Standups, and Check-ins.
+overview: 'Range publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Team Collaboration, Async Communication, Standups, and Check-in.
 
 
   Range''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 0
+random_paper: 19
 score:
   band: thin
   composite: 35.5
@@ -201,7 +201,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -231,7 +231,7 @@ tags:
 - Team Collaboration
 - Async Communication
 - Standups
-- Check-ins
+- Check-in
 - Meetings
 - Goals
 - OKRs

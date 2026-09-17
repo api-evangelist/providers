@@ -59,7 +59,7 @@ name: Fluid Truck
 nav: Providers
 network: true
 overview: Fluid Truck is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Logistics, Vehicle Rental, and Fleet Management.
-random_paper: 17
+random_paper: 8
 security:
 - kind: domain-security
   name: Fluid Truck Domain Security

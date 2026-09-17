@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.4
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: 'The hosted Crawl4AI API. One key, plain JSON, one fast endpoint per job: POST /scrape turns a URL into clean Markdown or HTML, GET /search runs a browser-free multi-engine web search, GET /answer retu'
   name: Crawl4AI Cloud API
@@ -46,7 +46,12 @@ apis:
 - description: The Apache-2.0 API server that ships inside the crawl4ai project and the unclecode/crawl4ai Docker image, serving on port 11235 on infrastructure the operator runs. Exposes /crawl, /crawl/stream, /cra
   name: Crawl4AI Self-Hosted API
   slug: crawl4ai-docker
-artifact_total: 11
+- baseURL: https://gate.crawl4ai.com
+  baseurl_source: declared
+  description: The Crawl API from Crawl4AI — 2 operation(s) for crawl.
+  name: Crawl4AI Crawl API
+  slug: crawl4ai-crawl-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Crawl4Ai Webhooks
@@ -136,10 +141,10 @@ common:
   type: FinOps
   url: finops/crawl4ai-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/openapi/crawl4ai-platform-gateway-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/openapi/_original/crawl4ai-platform-gateway-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/crawl4ai-platform-gateway-openapi.json
+  url: openapi/_original/crawl4ai-platform-gateway-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/overlays/crawl4ai-platform-gateway-overlay.yaml
   title: ''
@@ -257,11 +262,11 @@ mcp_servers:
 - description: Crawl4AI ships a hosted, streamable-HTTP MCP server at https://gate.crawl4ai.com/mcp that exposes the Cloud API as five native agent tools. tools/list answers ANONYMOUSLY — the full tool set with comp
   name: Crawl4AI Cloud MCP Server
   slug: crawl4ai-cloud-mcp-server
-modified: '2026-08-29'
+modified: '2026-09-16'
 name: Crawl4AI
 nav: Providers
 network: true
-overview: 'Crawl4AI publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Automation, Web Crawling, Web Scraping, Data Extraction, and Search.
+overview: 'Crawl4AI publishes 1 API on the [APIs.io](https://apis.io/) network: Crawl API. Tagged areas include AI Automation, Web Crawling, Web Scraping, Data Extraction, and Search.
 
 
   The Crawl4AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -272,28 +277,28 @@ plans:
 - name: Crawl4Ai Plans Pricing
   plan_count: 4
   slug: crawl4ai-plans-pricing
-random_paper: 14
+random_paper: 21
 rate_limits:
 - limit_count: 8
   name: Crawl4Ai Rate Limits
   slug: crawl4ai-rate-limits
 score:
-  band: strong
-  composite: 65.6
+  band: exemplar
+  composite: 67.6
   coverage:
     artifact_dirs: 23
-    catalog_earned: 67.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
-    contract_quality: 41.6
+    contract_quality: 51.7
     developer_ergonomics: 85.7
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 97.4
   previous_composite: 65.6
   provenance:
@@ -306,7 +311,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

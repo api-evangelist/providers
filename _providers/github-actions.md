@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -180,6 +180,10 @@ collections:
   name: GitHub Actions API
   slug: open-github-actions
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://github.blog
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/capabilities/github-actions-capability-edges.yml
   title: ''
@@ -813,7 +817,7 @@ mcp_servers:
 - description: GitHub operates an official remote MCP server at https://api.githubcopilot.com/mcp/ (HTTP transport, OAuth / PAT authenticated) and ships the same server for local use via a Docker image and the VS Co
   name: GitHub Actions MCP Server
   slug: github-actions-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: GitHub Actions
 nav: Providers
 network: true
@@ -823,12 +827,12 @@ overview: 'GitHub Actions publishes 11 APIs on the [APIs.io](https://apis.io/) n
   The GitHub Actions catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  GitHub Actions'' developer surface includes authentication, engineering blog, changelog, getting-started guide, support, pricing, developer portal, and 62 more developer resources.'
+  GitHub Actions'' developer surface includes authentication, engineering blog, changelog, getting-started guide, support, pricing, developer portal, and 63 more developer resources.'
 plans:
 - name: Github Actions Plans Pricing
   plan_count: 3
   slug: github-actions-plans-pricing
-random_paper: 13
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Github Actions Rate Limits
@@ -892,7 +896,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -923,4 +927,5 @@ use_cases:
 - Building and publishing container images
 - Automated code quality and security scanning
 - Release management and artifact publishing
+website: https://github.blog
 ---

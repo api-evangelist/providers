@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Power your digital workflows using comprehensive property and location intelligence data from LightBox.
@@ -41,6 +41,10 @@ apis:
   slug: lightbox
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://lightboxre.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/security/lightbox-domain-security.yml
   title: ''
@@ -58,7 +62,7 @@ finops:
   slug: lightbox-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightbox.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: LightBox
 nav: Providers
 network: true
@@ -67,7 +71,7 @@ plans:
 - name: Lightbox Plans Pricing
   plan_count: 3
   slug: lightbox-plans-pricing
-random_paper: 4
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Lightbox Rate Limits
@@ -92,7 +96,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -109,4 +113,5 @@ tags:
 - Location Intelligence
 - Property Data
 - Real-Estate
+website: https://lightboxre.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -131,7 +131,7 @@ plans:
 - name: Cuemath Plans Pricing
   plan_count: 0
   slug: cuemath-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Cuemath Rate Limits
@@ -164,7 +164,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -185,6 +185,6 @@ tags:
 - Tutoring
 - Mathematics
 - K-12
-- Consumer Application
+- Consumer Applications
 website: https://www.cuemath.com/
 ---

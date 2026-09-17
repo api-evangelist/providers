@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 0
@@ -707,7 +707,7 @@ plans:
 - name: Cvent Event Cloud Plans Pricing
   plan_count: 3
   slug: cvent-event-cloud-plans-pricing
-random_paper: 14
+random_paper: 21
 rate_limits:
 - limit_count: 6
   name: Cvent Event Cloud Rate Limits
@@ -747,7 +747,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -782,7 +782,7 @@ tags:
 - Authentication
 - OnSite
 - OpenAPI
-- Overlay
+- Overlays
 - Registration
 - REST
 - SCIM

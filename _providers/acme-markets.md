@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Public store-locator surface used by the Acme Markets website to render store information (address, hours, services, phone, departments). Pages are rendered under the `local.acmemarkets.com` subdomain
@@ -128,7 +128,7 @@ name: Acme Markets
 nav: Providers
 network: true
 overview: Acme Markets publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Albertsons Banner, Delivery, E-Commerce, Grocery, and Loyalty.
-random_paper: 13
+random_paper: 0
 score:
   band: emerging
   composite: 12.3
@@ -149,7 +149,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 12.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

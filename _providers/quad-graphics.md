@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -140,7 +140,7 @@ press:
 - date: '2026-05-25'
   title: Quad makes audience creation easier, faster and more ...
   url: https://www.prnewswire.com/news-releases/quad-makes-audience-creation-easier-faster-and-more-precise-with-natural-language-ai-prompts-powered-by-snowflake-302578665.html
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Quad Graphics Rate Limits
@@ -165,7 +165,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

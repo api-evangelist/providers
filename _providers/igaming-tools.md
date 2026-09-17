@@ -28,27 +28,82 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 38.0
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://i-gaming.tools/api/v1
-  baseurl_source: declared
-  description: 'Token-authenticated REST API providing structured iGaming data: slot providers, slots, news articles, jobs, and regulatory entities. OpenAPI 3.0.3, cursor-paginated, ETag-friendly, with incremental sy'
-  name: iGamingScraper REST API
-  slug: igamingscraper-rest-api
 - description: 'Free public hosted MCP server (Streamable HTTP, no API key, read-only, not metered) exposing the same iGaming dataset as 17 tools: provider search and profiles, slot search and full spec sheets, serie'
   name: iGaming Tools MCP Server
   slug: igaming-tools-mcp-server
-artifact_total: 8
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The demand API from iGaming Tools — 1 operation(s) for demand.
+  name: iGaming Tools Demand API
+  slug: igaming-tools-demand-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The features API from iGaming Tools — 1 operation(s) for features.
+  name: iGaming Tools Features API
+  slug: igaming-tools-features-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The jobs API from iGaming Tools — 3 operation(s) for jobs.
+  name: iGaming Tools Jobs API
+  slug: igaming-tools-jobs-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The news API from iGaming Tools — 3 operation(s) for news.
+  name: iGaming Tools News API
+  slug: igaming-tools-news-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The providers API from iGaming Tools — 8 operation(s) for providers.
+  name: iGaming Tools Providers API
+  slug: igaming-tools-providers-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The regulators API from iGaming Tools — 3 operation(s) for regulators.
+  name: iGaming Tools Regulators API
+  slug: igaming-tools-regulators-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The series API from iGaming Tools — 2 operation(s) for series.
+  name: iGaming Tools Series API
+  slug: igaming-tools-series-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The slots API from iGaming Tools — 4 operation(s) for slots.
+  name: iGaming Tools Slots API
+  slug: igaming-tools-slots-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The sources API from iGaming Tools — 2 operation(s) for sources.
+  name: iGaming Tools Sources API
+  slug: igaming-tools-sources-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The stats API from iGaming Tools — 1 operation(s) for stats.
+  name: iGaming Tools Stats API
+  slug: igaming-tools-stats-api
+- baseURL: https://i-gaming.tools/api/v1
+  baseurl_source: declared
+  description: The themes API from iGaming Tools — 1 operation(s) for themes.
+  name: iGaming Tools Themes API
+  slug: igaming-tools-themes-api
+artifact_total: 18
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/overlays/igaming-tools-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/igaming-tools-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -154,22 +209,22 @@ modified: '2026-09-05'
 name: iGaming Tools
 nav: Providers
 network: true
-overview: 'iGaming Tools publishes 1 API on the [APIs.io](https://apis.io/) network: iGamingScraper REST API. Tagged areas include iGaming, Online Casino, Gambling, slot games, and slot metadata.
+overview: 'iGaming Tools publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Demand API, Features API, Jobs API, and 8 more. Tagged areas include iGaming, Online Casino, Gambling, slot games, and slot metadata.
 
 
-  iGaming Tools'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, and 15 more developer resources.'
+  iGaming Tools'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, and 16 more developer resources.'
 plans:
 - name: Igaming Tools Plans Pricing
   plan_count: 3
   slug: igaming-tools-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Igaming Tools Rate Limits
   slug: igaming-tools-rate-limits
 score:
   band: developing
-  composite: 51.8
+  composite: 52.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 61.0
@@ -177,21 +232,26 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 55.6
+    contract_quality: 58.1
     developer_ergonomics: 51.8
     discoverability: 75.9
     operational_transparency: 31.6
   previous_composite: 51.8
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

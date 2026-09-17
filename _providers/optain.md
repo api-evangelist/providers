@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,7 +62,7 @@ name: Optain
 nav: Providers
 network: true
 overview: Optain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Medical Imaging, and Ophthalmology.
-random_paper: 0
+random_paper: 13
 score:
   band: minimal
   composite: 6.2
@@ -89,7 +89,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -111,6 +111,6 @@ tags:
 - Retinal Screening
 - Oculomics
 - Diagnostics
-- Medical Device
+- Medical Devices
 website: https://www.optainhealth.com/us/
 ---

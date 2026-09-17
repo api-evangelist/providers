@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 6
+- acting_count: 9
   human_in_the_loop: 0
   name: Azure Event Grid Agentic Access
-  operation_count: 6
+  operation_count: 13
   slug: azure-event-grid-agentic-access
-  summary_line: 6 operations · 6 acting
+  summary_line: 13 operations · 9 acting
 api_count: 1
 apis:
 - description: Data-plane REST API for publishing events and CloudEvents to Event Grid topics and domains, and for managing namespace topics, subscriptions, and event delivery. Authentication uses Microsoft Entra ID
@@ -158,7 +158,7 @@ overview: 'Azure Event Grid publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Azure Event Grid''s developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, and 9 more developer resources.'
-random_paper: 13
+random_paper: 3
 scopes:
 - name: Azure Event Grid Scopes
   scope_count: 1
@@ -191,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

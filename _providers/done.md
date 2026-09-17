@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -56,11 +56,6 @@ apis:
   slug: done-asn-lookup-api
 - baseURL: https://underscoredone.com
   baseurl_source: declared
-  description: The cors headers API from _done — 1 operation(s) for cors headers.
-  name: _done cors headers API
-  slug: done-cors-headers-api
-- baseURL: https://underscoredone.com
-  baseurl_source: declared
   description: The data API from _done — 1 operation(s) for data.
   name: _done Data API
   slug: done-data-api
@@ -76,21 +71,6 @@ apis:
   slug: done-dmarc-api
 - baseURL: https://underscoredone.com
   baseurl_source: declared
-  description: The dns lookup API from _done — 1 operation(s) for dns lookup.
-  name: _done dns lookup API
-  slug: done-dns-lookup-api
-- baseURL: https://underscoredone.com
-  baseurl_source: declared
-  description: The domain age API from _done — 1 operation(s) for domain age.
-  name: _done domain age API
-  slug: done-domain-age-api
-- baseURL: https://underscoredone.com
-  baseurl_source: declared
-  description: The domain availability API from _done — 1 operation(s) for domain availability.
-  name: _done domain availability API
-  slug: done-domain-availability-api
-- baseURL: https://underscoredone.com
-  baseurl_source: declared
   description: The ens API from _done — 1 operation(s) for ens.
   name: _done Ens API
   slug: done-ens-api
@@ -101,19 +81,9 @@ apis:
   slug: done-hacker-news-api
 - baseURL: https://underscoredone.com
   baseurl_source: declared
-  description: The http headers API from _done — 1 operation(s) for http headers.
-  name: _done http headers API
-  slug: done-http-headers-api
-- baseURL: https://underscoredone.com
-  baseurl_source: declared
   description: The http request API from _done — 1 operation(s) for http request.
   name: _done http request API
   slug: done-http-request-api
-- baseURL: https://underscoredone.com
-  baseurl_source: declared
-  description: The http status code API from _done — 1 operation(s) for http status code.
-  name: _done http status code API
-  slug: done-http-status-code-api
 - baseURL: https://underscoredone.com
   baseurl_source: declared
   description: The json API from _done — 1 operation(s) for json.
@@ -161,11 +131,6 @@ apis:
   slug: done-shopify-rank-api
 - baseURL: https://underscoredone.com
   baseurl_source: declared
-  description: The sitemap API from _done — 1 operation(s) for sitemap.
-  name: _done Sitemap API
-  slug: done-sitemap-api
-- baseURL: https://underscoredone.com
-  baseurl_source: declared
   description: The Validation API from _done — 1 operation(s) for validation.
   name: _done Validation API
   slug: done-validation-api
@@ -176,15 +141,10 @@ apis:
   slug: done-website-screenshot-api
 - baseURL: https://underscoredone.com
   baseurl_source: declared
-  description: The website uptime API from _done — 1 operation(s) for website uptime.
-  name: _done website uptime API
-  slug: done-website-uptime-api
-- baseURL: https://email-verifier.underscoredone.com
-  baseurl_source: declared
-  description: The email verifier API from _done -- 1 operation. POST /verify takes one email address and returns a deliverability verdict (valid/risky/invalid), splits username and domain, and flags free-provider d
-  name: _done email verifier API
-  slug: done-email-verifier-validator-api
-artifact_total: 59
+  description: The Network API from _done — 1 operation(s) for network.
+  name: _done Network API
+  slug: done-network-api
+artifact_total: 51
 collections:
 - collection_type: open
   name: ASN Lookup
@@ -516,7 +476,7 @@ modified: '2026-08-11'
 name: _done
 nav: Providers
 network: true
-overview: '_done publishes 27 APIs on the [APIs.io](https://apis.io/) network, including asn lookup API, cors headers API, Data API, and 24 more. Tagged areas include Developer Tools, Utility APIs, AI Agents, agent-native, and x402.
+overview: '_done publishes 19 APIs on the [APIs.io](https://apis.io/) network, including asn lookup API, Data API, directory submission API, and 16 more. Tagged areas include Developer Tools, Utility APIs, AI Agents, agent-native, and x402.
 
 
   _done''s developer surface includes documentation, API reference, support, authentication, code examples, pricing, and 44 more developer resources.'
@@ -524,28 +484,28 @@ plans:
 - name: Done Plans Pricing
   plan_count: 1
   slug: done-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Done Rate Limits
   slug: done-rate-limits
 score:
   band: thin
-  composite: 35.8
+  composite: 37.7
   coverage:
     artifact_dirs: 20
-    catalog_earned: 35.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 80.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 26.3
     contract_governance: 4.5
-    contract_quality: 60.7
+    contract_quality: 60.8
     developer_ergonomics: 44.6
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 2.6
   previous_composite: 35.8
   provenance:
@@ -555,7 +515,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 27
+      total: 19
     mcp: derived
     skills: derived
   regulatory:
@@ -565,7 +525,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

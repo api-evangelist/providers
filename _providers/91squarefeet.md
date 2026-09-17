@@ -23,19 +23,124 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://91squarefeet.com/wp-json
-  baseurl_source: declared
-  description: The read-only WordPress REST API (`wp/v2` namespace) that 91squarefeet.com serves by default, including the custom content types the company registered for its own business content — portfolio (delive
-  name: 91Squarefeet Content API
-  slug: 91squarefeet-content-api
 - description: A Model Context Protocol endpoint present on the 91squarefeet.com host at the WordPress `mcp` REST namespace, route `mcp/mcp-adapter-default-server`, declared by the site's own /wp-json route index. I
   name: 91Squarefeet MCP Adapter Endpoint
   slug: 91squarefeet-mcp-adapter
-artifact_total: 7
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Post categories.
+  name: 91Squarefeet Category API
+  slug: 91squarefeet-category-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Brands 91Squarefeet has delivered projects for.
+  name: 91Squarefeet Client API
+  slug: 91squarefeet-client-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Taxonomy of client categories.
+  name: 91Squarefeet Client Category API
+  slug: 91squarefeet-clientcategory-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Comments on posts.
+  name: 91Squarefeet Comment API
+  slug: 91squarefeet-comment-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Taxonomy controlling where an item is displayed.
+  name: 91Squarefeet Display Location API
+  slug: 91squarefeet-displaylocation-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Media library items — project photography, video and documents.
+  name: 91Squarefeet Media API
+  slug: 91squarefeet-media-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Taxonomy of mobile display categories.
+  name: 91Squarefeet Mobile Category API
+  slug: 91squarefeet-mobilecategory-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Site pages (services, about, suppliers, careers).
+  name: 91Squarefeet Page API
+  slug: 91squarefeet-page-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Delivered fit-out projects in the 91Squarefeet portfolio.
+  name: 91Squarefeet Portfolio API
+  slug: 91squarefeet-portfolio-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Blog posts published on 91squarefeet.com.
+  name: 91Squarefeet Post API
+  slug: 91squarefeet-post-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Retail/office property listings.
+  name: 91Squarefeet Property API
+  slug: 91squarefeet-property-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Taxonomy of property locations.
+  name: 91Squarefeet Property Location API
+  slug: 91squarefeet-propertylocation-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Cross-content-type search.
+  name: 91Squarefeet Search API
+  slug: 91squarefeet-search-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Registered post statuses.
+  name: 91Squarefeet Statuses API
+  slug: 91squarefeet-statuses-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Post tags.
+  name: 91Squarefeet Tag API
+  slug: 91squarefeet-tag-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Registered taxonomies on the site.
+  name: 91Squarefeet Taxonomies API
+  slug: 91squarefeet-taxonomies-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Client testimonials.
+  name: 91Squarefeet Testimonial API
+  slug: 91squarefeet-testimonial-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Registered content types on the site.
+  name: 91Squarefeet Types API
+  slug: 91squarefeet-types-api
+- baseURL: https://91squarefeet.com/wp-json
+  baseurl_source: declared
+  description: Public author profiles.
+  name: 91Squarefeet User API
+  slug: 91squarefeet-user-api
+- baseURL: https://91squarefeet.com/wp-json/mcp/mcp-adapter-default-server
+  baseurl_source: declared
+  description: Published client case studies.
+  name: 91Squarefeet Case Study API
+  slug: 91squarefeet-case-study-api
+- baseURL: https://91squarefeet.com/wp-json/mcp/mcp-adapter-default-server
+  baseurl_source: declared
+  description: Press releases and media mentions.
+  name: 91Squarefeet Press Release API
+  slug: 91squarefeet-press-release-api
+artifact_total: 27
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/91squarefeet/refs/heads/main/overlays/91squarefeet-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/91squarefeet-content-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -120,22 +225,22 @@ modified: '2026-09-05'
 name: 91Squarefeet
 nav: Providers
 network: true
-overview: '91Squarefeet publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Construction, Retail, Interior Design, and Real-Estate.
+overview: '91Squarefeet publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Category API, Client API, Client Category API, and 18 more. Tagged areas include Company, Construction, Retail, Interior Design, and Real-Estate.
 
 
-  91Squarefeet''s developer surface includes engineering blog, support, YouTube channel, and 13 more developer resources.'
+  91Squarefeet''s developer surface includes engineering blog, support, YouTube channel, and 14 more developer resources.'
 plans:
 - name: 91Squarefeet Plans Pricing
   plan_count: 0
   slug: 91squarefeet-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: 91Squarefeet Rate Limits
   slug: 91squarefeet-rate-limits
 score:
   band: thin
-  composite: 28.7
+  composite: 27.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -143,11 +248,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 57.1
+    contract_quality: 52.4
     developer_ergonomics: 20.8
     discoverability: 75.9
     operational_transparency: 0.0
@@ -165,11 +270,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 21
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Hilton Worldwide Holdings Inc. Common Stock (HLT)
   url: https://www.financialcontent.com/quote/NY:HLT/pressReleases
-random_paper: 3
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Hilton Rate Limits
@@ -161,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

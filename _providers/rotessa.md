@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -158,10 +158,10 @@ common:
   type: PrivacyPolicy
   url: https://rotessa.com/legal/privacy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/_original/rotessa-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/rotessa-openapi.yml
+  url: openapi/_original/rotessa-openapi.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/llms/rotessa-llms.txt
   title: ''
@@ -232,7 +232,7 @@ description: Rotessa is a Winnipeg, Manitoba-based fintech that helps small and 
   open-banking payment mandate.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Rotessa
 nav: Providers
 network: true
@@ -240,7 +240,7 @@ overview: 'Rotessa publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rotessa''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 25 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: thin
   composite: 29.9
@@ -284,7 +284,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

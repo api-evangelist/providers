@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: NewsData.io API for retrieving live breaking news and historical news data from over 82,000 sources, with search, filtering, and multi-language support.
@@ -98,7 +98,7 @@ plans:
 - name: Newsdata Plans Pricing
   plan_count: 3
   slug: newsdata-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Newsdata Rate Limits
@@ -123,7 +123,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

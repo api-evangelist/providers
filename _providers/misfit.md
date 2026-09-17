@@ -42,7 +42,7 @@ name: Misfit
 nav: Providers
 network: true
 overview: Misfit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wearables, Fitness, Health, and IoT.
-random_paper: 1
+random_paper: 14
 slug: misfit
 tags:
 - Company

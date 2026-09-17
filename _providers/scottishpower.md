@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The legacy Opendatasoft Search API v1.0 still served alongside Explore v2.1 on the SP Energy Networks Open Data Portal. Verified anonymously on 2026-07-27: GET /api/datasets/1.0/search/?rows=1 returne'
@@ -258,7 +258,7 @@ overview: 'ScottishPower publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   ScottishPower''s developer surface includes authentication, changelog, code examples, API reference, getting-started guide, signup flow, documentation, and 32 more developer resources.'
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Scottishpower Rate Limits
@@ -306,7 +306,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

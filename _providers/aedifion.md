@@ -24,20 +24,80 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.2
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://api.aedifion.io
-  baseurl_source: declared
-  description: 'Versioned REST API (v2) for the aedifion.io building operations platform. Covers company, realm, project and user administration; datapoint and timeseries read/write; virtual datapoints; the semantic '
-  name: aedifion HTTP API
-  slug: aedifion-http-api
 - baseURL: mqtts://mqtt.aedifion.io:8883
   baseurl_source: declared
   description: MQTT 3.1.1 broker interface at mqtt.aedifion.io for streaming building telemetry into and out of the aedifion.io platform. TLS-only (ports 8883 for native MQTT, 9001 for MQTT over WebSockets), usernam
   name: aedifion MQTT API
   slug: aedifion-mqtt-api
-artifact_total: 10
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing AI related resources.
+  name: Aedifion AI API
+  slug: aedifion-ai-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing alerts and related resources.
+  name: Aedifion Alert API
+  slug: aedifion-alert-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing analytics and related resources.
+  name: Aedifion Analytics API
+  slug: aedifion-analytics-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing companies and related resources.
+  name: Aedifion Company API
+  slug: aedifion-company-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing components and related resources.
+  name: Aedifion Component API
+  slug: aedifion-component-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing controls apps and related resources.
+  name: Aedifion Controls API
+  slug: aedifion-controls-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing datapoints and related resources.
+  name: Aedifion Datapoint API
+  slug: aedifion-datapoint-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Meta management resources.
+  name: Aedifion Meta API
+  slug: aedifion-meta-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing projects and related resources.
+  name: Aedifion Project API
+  slug: aedifion-project-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Accessing realm-level resources.
+  name: Aedifion Realm API
+  slug: aedifion-realm-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing tasks and related resources.
+  name: Aedifion Task API
+  slug: aedifion-task-api
+- baseURL: https://api.aedifion.io
+  baseurl_source: declared
+  description: Creating, modifying, and accessing users and related resources.
+  name: Aedifion User API
+  slug: aedifion-user-api
+- baseURL: mqtts://mqtt.aedifion.io:8883
+  baseurl_source: declared
+  description: The Time Series API from Aedifion — 2 operation(s) for time series.
+  name: Aedifion Time Series API
+  slug: aedifion-time-series-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Aedifion Event Surface
@@ -111,10 +171,10 @@ common:
   type: Compliance
   url: https://www.aedifion.com/sicherheit
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/_original/aedifion-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/aedifion-openapi.yml
+  url: openapi/_original/aedifion-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/asyncapi/aedifion-mqtt-asyncapi.yml
   title: ''
@@ -229,11 +289,11 @@ description: aedifion GmbH is a Cologne-based PropTech founded in 2017 that oper
   commercial real estate and supports decarbonization, ESG reporting and DGNB, ISO 50001 and GEG certification.
 image: https://cdn.prod.website-files.com/6942a43e5bcce46ebe9f73a1/6942a43e5bcce46ebe9f7529_65f998eafa61f2995943d60d_favicon-32x32.png
 layout: provider
-modified: '2026-09-09'
+modified: '2026-09-16'
 name: Aedifion
 nav: Providers
 network: true
-overview: 'Aedifion publishes 2 APIs on the [APIs.io](https://apis.io/) network: HTTP API and MQTT API. Tagged areas include Building Automation, Smart Buildings, Energy Management, Internet of Things, and Real-Estate.
+overview: 'Aedifion publishes 14 APIs on the [APIs.io](https://apis.io/) network, including MQTT API, AI API, Alert API, and 11 more. Tagged areas include Building Automation, Smart Buildings, Energy Management, Internet of Things, and Real-Estate.
 
 
   The Aedifion catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -244,7 +304,7 @@ plans:
 - name: Aedifion Plans Pricing
   plan_count: 3
   slug: aedifion-plans-pricing
-random_paper: 12
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Aedifion Rate Limits
@@ -255,8 +315,8 @@ scopes:
   slug: aedifion-scopes
   summary_line: 13 scopes · implicit/authorizationCode/password/clientCredentials
 score:
-  band: strong
-  composite: 65.8
+  band: exemplar
+  composite: 66.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 57.0
@@ -264,11 +324,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 55.6
+    contract_quality: 59.2
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 63.2
@@ -287,7 +347,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -297,7 +357,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

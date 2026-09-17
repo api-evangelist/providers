@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -131,7 +131,7 @@ plans:
 - name: Innertrends Plans Pricing
   plan_count: 5
   slug: innertrends-plans-pricing
-random_paper: 20
+random_paper: 8
 score:
   band: emerging
   composite: 24.7
@@ -152,7 +152,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 24.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

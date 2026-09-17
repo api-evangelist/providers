@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,14 +46,14 @@ api_count: 1
 apis:
 - baseURL: https://compute.googleapis.com/compute/v1
   baseurl_source: declared
-  description: Manage security policies for Cloud Armor
-  name: Google Cloud Armor SecurityPolicies API
-  slug: google-cloud-armor-securitypolicies-api
-- baseURL: https://compute.googleapis.com/compute/v1
-  baseurl_source: declared
   description: Manage individual rules within security policies
   name: Google Cloud Armor SecurityPolicyRules API
   slug: google-cloud-armor-securitypolicyrules-api
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage security policies for Cloud Armor
+  name: Google Cloud Armor Security Policies API
+  slug: google-cloud-armor-security-policies-api
 artifact_total: 17
 collections:
 - collection_type: postman
@@ -169,7 +169,7 @@ modified: '2026-05-19'
 name: Google Cloud Armor
 nav: Providers
 network: true
-overview: 'Google Cloud Armor publishes 2 APIs on the [APIs.io](https://apis.io/) network: SecurityPolicies API and SecurityPolicyRules API. Tagged areas include DDoS Protection, Firewall, Google Cloud, Security, and WAF.
+overview: 'Google Cloud Armor publishes 2 APIs on the [APIs.io](https://apis.io/) network: SecurityPolicyRules API and Security Policies API. Tagged areas include DDoS Protection, Firewall, Google Cloud, Security, and WAF.
 
 
   The Google Cloud Armor catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -180,7 +180,7 @@ plans:
 - name: Google Cloud Armor Plans Pricing
   plan_count: 3
   slug: google-cloud-armor-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Cloud Armor Rate Limits
@@ -228,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

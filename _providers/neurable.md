@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - baseURL: https://analytics-service.neurable.com
@@ -43,11 +43,6 @@ apis:
   description: The Core API from Neurable — 2 operation(s) for core.
   name: Neurable Core API
   slug: neurable-core-api
-- baseURL: https://analytics-service.neurable.com
-  baseurl_source: declared
-  description: The OAuth API from Neurable — 3 operation(s) for oauth.
-  name: Neurable O Auth API
-  slug: neurable-oauth-api
 - baseURL: https://analytics-service.neurable.com
   baseurl_source: declared
   description: The OIDC API from Neurable — 2 operation(s) for oidc.
@@ -63,6 +58,11 @@ apis:
   description: The protected API from Neurable — 5 operation(s) for protected.
   name: Neurable Protected API
   slug: neurable-protected-api
+- baseURL: https://analytics-service.neurable.com
+  baseurl_source: declared
+  description: The OAuth API from Neurable — 3 operation(s) for oauth.
+  name: Neurable O Auth API
+  slug: neurable-oauth-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -199,11 +199,11 @@ modified: '2026-08-04'
 name: Neurable
 nav: Providers
 network: true
-overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, O Auth API, OIDC API, and 2 more. Tagged areas include Neurotechnology, Brain-Computer Interface, EEG, Neuroscience, and Wearables.
+overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, OIDC API, Open API, and 2 more. Tagged areas include Neurotechnology, Brain-Computer Interface, EEG, Neuroscience, and Wearables.
 
 
   Neurable''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 6
+random_paper: 10
 scopes:
 - name: Neurable Scopes
   scope_count: 5
@@ -211,7 +211,7 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 38.7
+  composite: 35.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -219,11 +219,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 49.4
+    contract_quality: 43.9
     developer_ergonomics: 28.0
     discoverability: 81.5
     operational_transparency: 2.6
@@ -231,7 +231,7 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
@@ -242,9 +242,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 62.5
+    score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

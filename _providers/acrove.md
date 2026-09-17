@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -152,11 +152,11 @@ modified: '2026-09-06'
 name: ACROVE, Inc.
 nav: Providers
 network: true
-overview: 'ACROVE, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplaces, Business Intelligence, and Retail.
+overview: 'ACROVE, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Business Intelligence, and Retail.
 
 
   ACROVE, Inc.''s developer surface includes engineering blog and 17 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 8.7
@@ -184,7 +184,7 @@ score:
     - japan-korea
   previous_composite: 8.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -199,10 +199,10 @@ slug: acrove
 tags:
 - Company
 - E-Commerce
-- Marketplaces
+- Marketplace
 - Business Intelligence
 - Retail
-- Consumer Brands
+- Consumer Brand
 - Adobe Commerce
 - Japan
 website: https://acrove.co.jp/

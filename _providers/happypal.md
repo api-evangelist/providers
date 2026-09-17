@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,11 +73,11 @@ modified: '2026-07-19'
 name: Happypal
 nav: Providers
 network: true
-overview: 'Happypal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Benefits, HR Tech, Fintech, and Works Council.
+overview: 'Happypal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Benefits, Human Resources, Fintech, and Works Council.
 
 
   Happypal''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 2
+random_paper: 5
 score:
   band: emerging
   composite: 11.3
@@ -106,7 +106,7 @@ score:
     - france-iberia
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -122,7 +122,7 @@ slug: happypal
 tags:
 - Company
 - Employee Benefits
-- HR Tech
+- Human Resources
 - Fintech
 - Works Council
 - CSE

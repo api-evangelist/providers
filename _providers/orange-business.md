@@ -39,14 +39,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 17
-  human_in_the_loop: 0
+- acting_count: 153
+  human_in_the_loop: 5
   name: Orange Business Agentic Access
-  operation_count: 21
+  operation_count: 278
   slug: orange-business-agentic-access
-  summary_line: 21 operations · 17 acting
+  summary_line: 278 operations · 153 acting · 5 human-in-the-loop
 api_count: 12
 apis:
 - description: Manage Orange Business cellular IoT SIM fleets worldwide — activation, suspension, usage, location, diagnostics — across 200+ countries via a single REST surface. Backs the Orange Business Mobile Conn
@@ -68,7 +68,7 @@ apis:
   name: Orange Business Contact Everyone API
   slug: orange-business-contact-everyone-api
 - description: Programmable management for Business Talk, Orange Business's enterprise SIP trunking and IP voice service. Provision lines, manage sites, and integrate voice with UCaaS platforms.
-  name: Orange Business Business Talk API
+  name: Orange Business Talk API
   slug: orange-business-business-talk-api
 - description: REST API for Cloud Avenue, Orange Business's France-sovereign VMware-based managed IaaS — provision virtual datacenters, networks, storage, and compute resources programmatically.
   name: Orange Business Cloud Avenue API
@@ -123,16 +123,6 @@ apis:
   description: Validate if the SIM of the end-user has been installed in a different device during a past period
   name: Orange Business Check Device Swap API
   slug: orange-business-check-device-swap-api
-- baseURL: https://api.orange.com/camara/playground/api/sim-swap/v1
-  baseurl_source: declared
-  description: The Check SIM swap API from Orange Business — 1 operation(s) for check sim swap.
-  name: Orange Business Check SIM swap API
-  slug: orange-business-check-sim-swap-api
-- baseURL: https://api.orange.com/camara/playground/api/device-reachability-status/v0.6
-  baseurl_source: declared
-  description: Operations to get the current reachability status of a device
-  name: Orange Business Device reachability status API
-  slug: orange-business-device-reachability-status-api
 - baseURL: https://api.orange.com/camara/playground/api/geofencing-subscriptions/v0.3
   baseurl_source: declared
   description: Operations to manage event subscriptions on geofencing events for leaving and entering an area.
@@ -143,11 +133,6 @@ apis:
   description: Retrieve the location of a device
   name: Orange Business Location retrieval API
   slug: orange-business-location-retrieval-api
-- baseURL: https://api.orange.com/camara/playground/api/location-verification/v1
-  baseurl_source: declared
-  description: Verification of the location of a device
-  name: Orange Business Location verification API
-  slug: orange-business-location-verification-api
 - baseURL: https://api.orange.com/camara/playground/api/kyc-match/v0.2
   baseurl_source: declared
   description: Operations to match a customer identity against the account data bound to their phone number.
@@ -163,11 +148,6 @@ apis:
   description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
   name: Orange Business Phone number verify API
   slug: orange-business-phone-number-verify-api
-- baseURL: https://api.orange.com/camara/playground/api/population-density-data/v0.3
-  baseurl_source: declared
-  description: Operations to retrieve population density information.
-  name: Orange Business Population Density Data API
-  slug: orange-business-population-density-data-api
 - baseURL: https://api.orange.com/camara/playground/api/quality-on-demand/v0.11
   baseurl_source: declared
   description: Manage QoS sessions
@@ -178,16 +158,6 @@ apis:
   description: Receive the last date in which the device of the end-user was swapped
   name: Orange Business Retrieve Device Swap Date API
   slug: orange-business-retrieve-device-swap-date-api
-- baseURL: https://api.orange.com/camara/playground/api/sim-swap/v1
-  baseurl_source: declared
-  description: The Retrieve SIM swap date API from Orange Business — 1 operation(s) for retrieve sim swap date.
-  name: Orange Business Retrieve SIM swap date API
-  slug: orange-business-retrieve-sim-swap-date-api
-- baseURL: https://api.orange.com/camara/playground/api/device-roaming-status/v0.6
-  baseurl_source: declared
-  description: Operation to get device roaming status and country information (if roaming) synchronously
-  name: Orange Business Roaming status retrieval API
-  slug: orange-business-roaming-status-retrieval-api
 - baseURL: https://liveobjects.orange-business.com/api/v1
   baseurl_source: declared
   description: get your accounting metrics
@@ -238,11 +208,6 @@ apis:
   description: Manage LwM2M bootstrap master entries
   name: Orange Business Bootstrap Master Entry API
   slug: orange-business-bootstrap-master-entry-api
-- baseURL: https://liveobjects.orange-business.com/api/v1
-  baseurl_source: declared
-  description: CA certificates for MQTT client cert. authentication
-  name: Orange Business CA certificates API
-  slug: orange-business-ca-certificates-api
 - baseURL: https://liveobjects.orange-business.com/api/v1
   baseurl_source: declared
   description: Management of actions on a fleet of devices
@@ -463,7 +428,12 @@ apis:
   description: manage users
   name: Orange Business Users management API
   slug: orange-business-users-management-api
-artifact_total: 127
+- baseURL: https://api.orange.com/orange-money-webpay/dev/v1
+  baseurl_source: declared
+  description: CA certificates for MQTT client cert. authentication
+  name: Orange Business Cacertificates API
+  slug: orange-business-cacertificates-api
+artifact_total: 121
 asyncapis:
 - description: ''
   name: Orange Business Webhooks
@@ -548,6 +518,36 @@ collections:
   name: SIM Swap
   slug: open-orange-business-sim-swap
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/overlays/orange-business-check-sim-swap-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/orange-business-check-sim-swap-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/overlays/orange-business-device-reachability-status-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/orange-business-device-reachability-status-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/overlays/orange-business-location-verification-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/orange-business-location-verification-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/overlays/orange-business-population-density-data-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/orange-business-population-density-data-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/overlays/orange-business-retrieve-sim-swap-date-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/orange-business-retrieve-sim-swap-date-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/overlays/orange-business-roaming-status-retrieval-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/orange-business-roaming-status-retrieval-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -852,22 +852,22 @@ mcp_servers:
 - description: 'A Model Context Protocol server exposing Orange''s CAMARA Network APIs — SIM swap, device location, reachability, roaming, KYC match, population density and quality-on-demand — plus the Orange Network '
   name: Orange CAMARA MCP Enablement PI1 server
   slug: orange-camara-mcp-enablement-pi1-server
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: Orange Business
 nav: Providers
 network: true
-overview: 'Orange Business publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Check Device Swap API, Check SIM swap API, Device reachability status API, and 66 more. Tagged areas include 5G, Artificial Intelligence, B2B, CAMARA, and Cloud.
+overview: 'Orange Business publishes 63 APIs on the [APIs.io](https://apis.io/) network, including Check Device Swap API, Geofencing subscriptions API, Location retrieval API, and 60 more. Tagged areas include 5G, Artificial Intelligence, B2B, CAMARA, and Cloud.
 
 
   The Orange Business catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 60 more developer resources.'
+  Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 66 more developer resources.'
 plans:
 - name: Orange Business Plans Pricing
   plan_count: 2
   slug: orange-business-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Orange Business Rate Limits
@@ -879,7 +879,7 @@ scopes:
   summary_line: 23 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.1
+  composite: 70.0
   coverage:
     artifact_dirs: 30
     catalog_earned: 52.0
@@ -887,11 +887,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 65.8
     contract_governance: 18.2
-    contract_quality: 68.0
+    contract_quality: 67.7
     developer_ergonomics: 82.7
     discoverability: 66.7
     operational_transparency: 78.9
@@ -914,7 +914,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 69
+      total: 63
     mcp: first-party
     skills: derived
   regulatory:
@@ -924,7 +924,7 @@ score:
     regime_id: telecommunications
     score: 75.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

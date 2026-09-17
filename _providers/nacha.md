@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -460,7 +460,7 @@ overview: 'Nacha publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nacha''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, and 44 more developer resources.'
-random_paper: 3
+random_paper: 1
 score:
   band: thin
   composite: 38.3
@@ -475,7 +475,7 @@ score:
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 50.4
+    contract_quality: 50.5
     developer_ergonomics: 54.2
     discoverability: 75.9
     operational_transparency: 0.0
@@ -504,7 +504,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

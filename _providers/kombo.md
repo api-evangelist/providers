@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -63,32 +63,32 @@ apis:
 - baseURL: https://api.kombo.dev
   baseurl_source: declared
   description: Endpoints for Kombo Connect, our end-user-facing flow for setting up new integrations.
-  name: Kombo Kombo Connect API
+  name: Kombo Connect API
   slug: kombo-kombo-connect-api
 - baseURL: https://api.kombo.dev
   baseurl_source: declared
   description: Unified endpoints to access all the ATS concepts you might need.
-  name: Kombo Unified ATS API API
+  name: Kombo Unified ATS API
   slug: kombo-unified-ats-api-api
 - baseURL: https://api.kombo.dev
   baseurl_source: declared
   description: Unified endpoints to operate Assessments and Background Checks for many applicant tracking systems.
-  name: Kombo Unified ATS (Assessment & Background Check) API API
+  name: Kombo Unified ATS (Assessment & Background Check) API
   slug: kombo-unified-ats-assessment-background-check-api-api
 - baseURL: https://api.kombo.dev
   baseurl_source: declared
   description: Unified endpoints to access all the HR concepts you might need.
-  name: Kombo Unified HRIS API API
+  name: Kombo Unified HRIS API
   slug: kombo-unified-hris-api-api
 - baseURL: https://api.kombo.dev
   baseurl_source: declared
   description: Unified endpoints to access all the LMS concepts you might need.
-  name: Kombo Unified LMS API API
+  name: Kombo Unified LMS API
   slug: kombo-unified-lms-api-api
 - baseURL: https://api.kombo.dev
   baseurl_source: declared
   description: The Kombo API API from Kombo — 0 operation(s) for kombo api.
-  name: Kombo Kombo API
+  name: Kombo API
   slug: kombo-kombo-api-api
 artifact_total: 671
 collections:
@@ -2131,7 +2131,7 @@ json_structures:
   property_count: 0
   slug: kombo-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Kombo
 nav: Providers
 network: true
@@ -2146,7 +2146,7 @@ plans:
 - name: Kombo Plans Pricing
   plan_count: 3
   slug: kombo-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Kombo Rate Limits
@@ -2195,7 +2195,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

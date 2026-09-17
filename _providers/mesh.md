@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://integration-api.meshconnect.com
@@ -120,6 +120,10 @@ collections:
   name: Mesh Connect Integration Assets Transfers API
   slug: open-mesh-transfers-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://meshconnect.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mesh/refs/heads/main/capabilities/mesh-capability-edges.yml
   title: ''
@@ -267,7 +271,7 @@ created: '2026-07-17'
 description: Mesh is the first global crypto payments network, connecting hundreds of exchanges, wallets, and financial platforms into a single, unified infrastructure layer so businesses can let users pay, get paid, deposit, and transfer digital assets from any wallet on any chain. The Mesh Connect Integration API lets developers programmatically generate Link tokens for Mesh's hosted connection UX, initiate managed crypto transfers (deposit, payment, onramp, withdrawal), read holdings, balances, and transaction history across connected exchange and self-custody accounts, verify wallet ownership, and receive HMAC-signed transfer-status webhooks. Mesh handles credential validation, MFA, OAuth, and per-integration error handling on the developer's behalf. Formerly Front Finance. SOC 2 Type II certified. Backed by Anthemis and General Catalyst.
 image: https://cdn.prod.website-files.com/656cc624086b77872a31a084/68d8116f8f0a10f661523cea_Favicon_new.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Mesh
 nav: Providers
 network: true
@@ -277,11 +281,11 @@ overview: 'Mesh publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
   The Mesh catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mesh''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 24 more developer resources.'
-random_paper: 9
+  Mesh''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 25 more developer resources.'
+random_paper: 11
 score:
   band: strong
-  composite: 54.6
+  composite: 55.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -289,11 +293,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 62.0
+    contract_quality: 64.7
     developer_ergonomics: 68.5
     discoverability: 75.9
     operational_transparency: 42.1
@@ -314,7 +318,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -342,12 +346,12 @@ tags:
 - Digital Assets
 - Financial-Services
 - Wallets
-- Exchanges
+- Exchange
 - Transfers
 - Stablecoins
 - Embedded Finance
 - Fintech
 - On-Ramp
 - Blockchain
-website: https://docs.meshconnect.com/overview
+website: https://meshconnect.com
 ---

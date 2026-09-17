@@ -34,21 +34,51 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.odni.gov/?rest_route=/
   baseurl_source: declared
-  description: The anonymous, read-only WordPress REST API behind www.odni.gov. Serves ODNI newsroom posts (press releases, remarks, interviews and reports), the site's structural pages, the media library, and the D
-  name: ODNI Public Content API
-  slug: odni-public-content-api
-artifact_total: 7
+  description: Content types, taxonomies, statuses, authors and oEmbed.
+  name: Director of National Intelligence Discovery API
+  slug: director-of-national-intelligence-discovery-api
+- baseURL: https://www.odni.gov/?rest_route=/
+  baseurl_source: declared
+  description: Media library uploads.
+  name: Director of National Intelligence Media API
+  slug: director-of-national-intelligence-media-api
+- baseURL: https://www.odni.gov/?rest_route=/
+  baseurl_source: declared
+  description: ODNI newsroom posts — press releases, remarks, interviews and reports.
+  name: Director of National Intelligence News API
+  slug: director-of-national-intelligence-news-api
+- baseURL: https://www.odni.gov/?rest_route=/
+  baseurl_source: declared
+  description: Structural site pages.
+  name: Director of National Intelligence Pages API
+  slug: director-of-national-intelligence-pages-api
+- baseURL: https://www.odni.gov/?rest_route=/
+  baseurl_source: declared
+  description: The Download Monitor catalog of published ODNI documents.
+  name: Director of National Intelligence Publications API
+  slug: director-of-national-intelligence-publications-api
+- baseURL: https://www.odni.gov/?rest_route=/
+  baseurl_source: declared
+  description: Cross-type site search.
+  name: Director of National Intelligence Search API
+  slug: director-of-national-intelligence-search-api
+- baseURL: https://www.odni.gov/?rest_route=/
+  baseurl_source: declared
+  description: Categories and tags classifying news and publications.
+  name: Director of National Intelligence Taxonomy API
+  slug: director-of-national-intelligence-taxonomy-api
+artifact_total: 13
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/director-of-national-intelligence-wp-content-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/openapi/_original/director-of-national-intelligence-wp-content-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/director-of-national-intelligence-wp-content-openapi.yml
+  url: openapi/_original/director-of-national-intelligence-wp-content-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/director-of-national-intelligence/refs/heads/main/authentication/director-of-national-intelligence-authentication.yml
   title: ''
@@ -154,11 +184,11 @@ examples:
   slug: director-of-national-intelligence-types
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/director-of-national-intelligence.png
 layout: provider
-modified: '2026-09-06'
+modified: '2026-09-16'
 name: Director of National Intelligence
 nav: Providers
 network: true
-overview: 'Director of National Intelligence publishes 1 API on the [APIs.io](https://apis.io/) network: ODNI Public Content API. Tagged areas include Federal-Government, Intelligence, National Security, Government, and Public Sector.
+overview: 'Director of National Intelligence publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, News API, and 4 more. Tagged areas include Federal-Government, Intelligence, National Security, Government, and Public Sector.
 
 
   Director of National Intelligence''s developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
@@ -166,7 +196,7 @@ plans:
 - name: Director Of National Intelligence Plans Pricing
   plan_count: 0
   slug: director-of-national-intelligence-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Director Of National Intelligence Rate Limits
@@ -185,7 +215,7 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 16.5
+    contract_quality: 16.6
     developer_ergonomics: 13.7
     discoverability: 68.5
     operational_transparency: 0.0
@@ -194,9 +224,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 7
       marker_coverage: 100.0
-      total: 1
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -206,7 +236,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

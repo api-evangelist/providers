@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: BASE_URL
@@ -219,7 +219,7 @@ plans:
 - name: Qure.Ai Plans Pricing
   plan_count: 0
   slug: qure.ai-plans-pricing
-random_paper: 0
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Qure.Ai Rate Limits
@@ -270,7 +270,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

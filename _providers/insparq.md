@@ -25,7 +25,7 @@ name: InSparq
 nav: Providers
 network: true
 overview: InSparq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 10
+random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/insparq/refs/heads/main/screenshots/insparq-2026-07-25T222543.png
 slug: insparq
 tags:

@@ -29,7 +29,7 @@ name: Koinex
 nav: Providers
 network: true
 overview: Koinex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Cryptocurrency Exchange, Digital Assets, and Trading.
-random_paper: 3
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/koinex/refs/heads/main/screenshots/koinex-2026-07-25T224111.png
 security:
 - kind: domain-security

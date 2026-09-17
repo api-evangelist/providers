@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 26
 apis:
 - baseURL: https://access.api.cotality.com.au
@@ -387,7 +387,7 @@ overview: 'CoreLogic Australia publishes 10 APIs on the [APIs.io](https://apis.i
 
 
   CoreLogic Australia''s developer surface includes documentation, getting-started guide, signup flow, authentication, sandbox, support, FAQ, and 43 more developer resources.'
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Corelogic Au Rate Limits
@@ -428,7 +428,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: An API capability that acts as a digital bridge between systems, enabling automatic creation and configuration of employee benefits plans for small and medium-sized businesses. Integrated with Employe
@@ -79,7 +79,7 @@ plans:
 - name: Equitable Plans Pricing
   plan_count: 3
   slug: equitable-plans-pricing
-random_paper: 11
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Equitable Rate Limits
@@ -110,7 +110,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

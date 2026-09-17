@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -15,24 +15,34 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.9
-  scored_at: '2026-09-15'
+  score: 32.2
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.vulncheck.com/v3
   baseurl_source: declared
-  description: 'Version 3 of the VulnCheck API. A read-only REST API exposing VulnCheck''s exploit and vulnerability intelligence: 490+ named indices browsable at /index/{name}, CVE and CPE search, PURL vulnerability '
-  name: VulnCheck API
-  slug: vulncheck-api
-artifact_total: 7
+  description: The endpoints API from VulnCheck — 13 operation(s) for endpoints.
+  name: VulnCheck Endpoints API
+  slug: vulncheck-endpoints-api
+- baseURL: https://api.vulncheck.com/v3
+  baseurl_source: declared
+  description: The indices API from VulnCheck — 508 operation(s) for indices.
+  name: VulnCheck Indices API
+  slug: vulncheck-indices-api
+artifact_total: 8
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vulncheck/refs/heads/main/overlays/vulncheck-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/vulncheck-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -175,22 +185,22 @@ modified: '2026-09-04'
 name: VulnCheck
 nav: Providers
 network: true
-overview: 'VulnCheck publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Vulnerability Intelligence, Exploit Intelligence, and Threat Intelligence.
+overview: 'VulnCheck publishes 2 APIs on the [APIs.io](https://apis.io/) network: Endpoints API and Indices API. Tagged areas include Company, Security, Vulnerability Intelligence, Exploit Intelligence, and Threat Intelligence.
 
 
-  VulnCheck''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 22 more developer resources.'
+  VulnCheck''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 23 more developer resources.'
 plans:
 - name: Vulncheck Plans Pricing
   plan_count: 1
   slug: vulncheck-plans-pricing
-random_paper: 18
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Vulncheck Rate Limits
   slug: vulncheck-rate-limits
 score:
-  band: developing
-  composite: 48.4
+  band: strong
+  composite: 55.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 53.0
@@ -198,22 +208,27 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.6
   facets:
     access_clarity: 55.3
     contract_governance: 4.5
-    contract_quality: 26.7
+    contract_quality: 53.2
     developer_ergonomics: 78.6
     discoverability: 75.9
     operational_transparency: 57.9
   previous_composite: 48.4
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'Bayes Impact is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bayes Impact''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 18
+random_paper: 5
 score:
   band: emerging
   composite: 19.0
@@ -126,7 +126,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

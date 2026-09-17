@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: JSON reporting API that lets Remerge advertisers pull daily (or hourly) campaign performance for their active campaigns into their own BI systems. A POST to /report with a start_date and end_date retu
@@ -184,7 +184,7 @@ plans:
 - name: Remerge Plans Pricing
   plan_count: 0
   slug: remerge-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Remerge Rate Limits
@@ -211,7 +211,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

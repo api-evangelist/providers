@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: TTB's open data surface is a set of static, anonymously downloadable files rather than a request/response API. Production and operations reports for beer, wine, distilled spirits and tobacco are publi
@@ -194,7 +194,7 @@ plans:
 - name: Alcohol And Tobacco Tax And Trade Bureau Plans Pricing
   plan_count: 0
   slug: alcohol-and-tobacco-tax-and-trade-bureau-plans-pricing
-random_paper: 15
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Alcohol And Tobacco Tax And Trade Bureau Rate Limits
@@ -228,7 +228,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

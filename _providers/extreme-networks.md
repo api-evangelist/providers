@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 364
   human_in_the_loop: 21
@@ -559,7 +559,7 @@ overview: 'Extreme Networks publishes 45 APIs on the [APIs.io](https://apis.io/)
 
 
   Extreme Networks'' developer surface includes authentication, API reference, GitHub presence, documentation, support, engineering blog, status page, and 20 more developer resources.'
-random_paper: 20
+random_paper: 6
 score:
   band: thin
   composite: 38.4
@@ -574,7 +574,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 57.2
+    contract_quality: 57.3
     developer_ergonomics: 59.5
     discoverability: 53.7
     operational_transparency: 5.3
@@ -587,7 +587,7 @@ score:
       marker_coverage: 0.0
       total: 45
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The one public, callable API MAI publishes. A single unauthenticated write-only endpoint, POST /api/collect, that ingests first-party commerce events from a merchant's storefront — product views, cart
@@ -179,7 +179,7 @@ plans:
 - name: Mai Plans Pricing
   plan_count: 2
   slug: mai-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Mai Rate Limits
@@ -206,7 +206,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

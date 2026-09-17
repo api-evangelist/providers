@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 12
+- acting_count: 22
   human_in_the_loop: 0
   name: Haystack Ai Agentic Access
-  operation_count: 18
+  operation_count: 37
   slug: haystack-ai-agentic-access
-  summary_line: 18 operations · 12 acting
-api_count: 1
+  summary_line: 37 operations · 22 acting
+api_count: 5
 apis:
 - description: Apache-2.0 licensed Python framework for composable LLM orchestration. Build modular Pipelines from Components (retrievers, routers, embedders, generators, evaluators) over Document Stores for RAG, se
   name: Haystack Framework (Open Source)
@@ -71,26 +71,26 @@ apis:
   description: Manage workspaces that isolate pipelines and data.
   name: Haystack / deepset Workspaces API
   slug: haystack-ai-workspaces-api
-- baseURL: http://localhost:1416
+- baseURL: https://github.com/deepset-ai/haystack
   baseurl_source: declared
-  description: The config API from Haystack — 4 operation(s) for config.
-  name: Haystack Config API
-  slug: haystack-config-api
-- baseURL: http://localhost:1416
+  description: The config API from Haystack / deepset — 4 operation(s) for config.
+  name: Haystack / deepset Config API
+  slug: haystack-ai-config-api
+- baseURL: https://github.com/deepset-ai/haystack
   baseurl_source: declared
-  description: The dashboard API from Haystack — 5 operation(s) for dashboard.
-  name: Haystack Dashboard API
-  slug: haystack-dashboard-api
-- baseURL: http://localhost:1416
+  description: The dashboard API from Haystack / deepset — 5 operation(s) for dashboard.
+  name: Haystack / deepset Dashboard API
+  slug: haystack-ai-dashboard-api
+- baseURL: https://github.com/deepset-ai/haystack
   baseurl_source: declared
-  description: The openai API from Haystack — 8 operation(s) for openai.
-  name: Haystack Openai API
-  slug: haystack-openai-api
-- baseURL: http://localhost:1416
+  description: The openai API from Haystack / deepset — 8 operation(s) for openai.
+  name: Haystack / deepset Openai API
+  slug: haystack-ai-openai-api
+- baseURL: https://github.com/deepset-ai/haystack
   baseurl_source: declared
-  description: The status API from Haystack — 2 operation(s) for status.
-  name: Haystack Status API
-  slug: haystack-status-api
+  description: The status API from Haystack / deepset — 2 operation(s) for status.
+  name: Haystack / deepset Status API
+  slug: haystack-ai-status-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -190,28 +190,28 @@ plans:
 - name: Haystack Ai Plans Pricing
   plan_count: 2
   slug: haystack-ai-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Haystack Ai Rate Limits
   slug: haystack-ai-rate-limits
 score:
-  band: thin
-  composite: 38.8
+  band: developing
+  composite: 41.0
   coverage:
     artifact_dirs: 12
-    catalog_earned: 55.0
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 50.6
+    contract_quality: 53.6
     developer_ergonomics: 44.0
-    discoverability: 66.7
+    discoverability: 81.5
     operational_transparency: 34.2
   previous_composite: 38.8
   provenance:
@@ -222,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

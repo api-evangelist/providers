@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -70,11 +70,6 @@ apis:
   description: Organize products into hierarchical category structures.
   name: commercetools Categories API
   slug: commercetools-categories-api
-- baseURL: https://api.{region}.commercetools.com
-  baseurl_source: declared
-  description: Query the audit log of resource changes across the project.
-  name: commercetools ChangeHistory API
-  slug: commercetools-changehistory-api
 - baseURL: https://api.{region}.commercetools.com
   baseurl_source: declared
   description: Manage customer accounts, addresses, authentication, and group assignments.
@@ -112,11 +107,6 @@ apis:
   slug: commercetools-products-api
 - baseURL: https://api.{region}.commercetools.com
   baseurl_source: declared
-  description: Import product variant resources into the project.
-  name: commercetools ProductVariants API
-  slug: commercetools-productvariants-api
-- baseURL: https://api.{region}.commercetools.com
-  baseurl_source: declared
   description: Read and configure project-level settings including currencies, languages, and messages.
   name: commercetools Project API
   slug: commercetools-project-api
@@ -130,6 +120,16 @@ apis:
   description: The Subscriptions API from commercetools — 2 operation(s) for subscriptions.
   name: commercetools Subscriptions API
   slug: commercetools-subscriptions-api
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Query the audit log of resource changes across the project.
+  name: commercetools Change History API
+  slug: commercetools-change-history-api
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Import product variant resources into the project.
+  name: commercetools Product Variants API
+  slug: commercetools-product-variants-api
 artifact_total: 144
 asyncapis:
 - description: The commercetools Subscriptions system delivers real-time change notifications and domain messages to external message queue destinations when resources are created, updated, or deleted within a Compo
@@ -538,7 +538,7 @@ modified: '2026-05-19'
 name: commercetools
 nav: Providers
 network: true
-overview: 'commercetools publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Carts API, Categories API, ChangeHistory API, and 11 more. Tagged areas include Commerce, Composable Commerce, E-Commerce, GraphQL, and REST.
+overview: 'commercetools publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Carts API, Categories API, Customers API, and 11 more. Tagged areas include Commerce, Composable Commerce, E-Commerce, GraphQL, and REST.
 
 
   The commercetools catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -614,7 +614,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

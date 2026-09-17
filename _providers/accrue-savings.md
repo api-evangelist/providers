@@ -24,20 +24,110 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 39.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://merchant-api.accruesavings.com
   baseurl_source: declared
-  description: The Accrue Merchant API is a JSON:API-based REST API for embedding Accrue's stored-value wallet into a merchant experience — creating and funding wallets, running payment intents and payments (authori
-  name: Accrue Merchant API
-  slug: accrue-savings-merchant-api
-artifact_total: 7
+  description: 'Banking APIs provide KYC (Know Your Customer) verification functionality to enable users to comply with financial regulations when using banking features. These endpoints manage identity verification '
+  name: Accrue Savings Banking API
+  slug: accrue-savings-banking-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Counterparties define bank accounts where funds are settled for captured payments. Settlement details live on `externalBankAccount`. There can be multiple counterparties.
+  name: Accrue Savings Counterparties API
+  slug: accrue-savings-counterparties-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Counterparty Transfers represent movements of funds between two counterparties owned by the same partner. Use these endpoints to initiate, list, and retrieve counterparty-to-counterparty transfers.
+  name: Accrue Savings Counterparty Transfers API
+  slug: accrue-savings-counterpartytransfers-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: External transactions are records of transfers that happened outside the Accrue system. E.g. purchases in an online shop using a non-Accrue payment method.
+  name: Accrue Savings External Transactions API
+  slug: accrue-savings-externaltransactions-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Gifts expose remaining spendable balance for a scanned lookUpId. Point-of-sale remaining lookup is GET /api/v1/gifts/{lookUpId}. Spend still uses payment intents with the same scanned string as lookUp
+  name: Accrue Savings Gifts API
+  slug: accrue-savings-gifts-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Identity Verification provides knowledge-based authentication for sensitive account changes. Use these endpoints to challenge a user with profile and wallet questions, then apply verified phone or ema
+  name: Accrue Savings Identity Verification API
+  slug: accrue-savings-identity-verification-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Payments are the realization of payment intents, representing the actual transfer or authorization of funds. This resource encapsulates the details of completed transactions, including the payment sta
+  name: Accrue Savings Payments API
+  slug: accrue-savings-payments-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Partner-issued rewards let trusted integrations credit customer wallets or create pre-issued rewards for recipients identified by phone number. When a recipient has an active wallet, rewards are depos
+  name: Accrue Savings Rewards API
+  slug: accrue-savings-rewards-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Simulations are used to simulate payments authorizations and captures for Card Rails (Virtual Debit Cards).
+  name: Accrue Savings Simulations API
+  slug: accrue-savings-simulations-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Sweepstakes campaigns give users the chance to win prizes by participating in merchant-sponsored promotions. Each campaign is linked to a specific merchant and tracks user entries. Users can earn entr
+  name: Accrue Savings Sweepstakes API
+  slug: accrue-savings-sweepstakes-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Users represent the end users and are the parent container of Wallets. A user is automatically created when the end-user signs into the Accrue product through various different methods using their pho
+  name: Accrue Savings Users API
+  slug: accrue-savings-users-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Wallets are where users save money and collect rewards for future payments to merchants. Each wallet is linked to a specific merchant and tracks the balance of deposits and rewards. Users can contribu
+  name: Accrue Savings Wallets API
+  slug: accrue-savings-wallets-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Webhook Topics
+  name: Accrue Savings Webhook Topics API
+  slug: accrue-savings-webhook-topics-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Webhook management APIs
+  name: Accrue Savings Webhooks API
+  slug: accrue-savings-webhooks-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: <p>Widgets are components that are embedded into applications to enrich the user experience. Some of those require additional data loaded through API endpoints.</p><p>Learn more about the different wi
+  name: Accrue Savings Widgets API
+  slug: accrue-savings-widgets-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Linked Accounts represent payment methods that users have connected to their Accrue account. These accounts can be used for funding payments or topping up the wallet.
+  name: Accrue Savings Linked Accounts API
+  slug: accrue-savings-linked-accounts-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Payment Intents represent a commitment to pay a specified amount, allowing for a structured process to handle payments from initiation to completion.
+  name: Accrue Savings Payment Intents API
+  slug: accrue-savings-payment-intents-api
+- baseURL: https://merchant-api.accruesavings.com
+  baseurl_source: declared
+  description: Webhook Event management APIs
+  name: Accrue Savings Webhook Events API
+  slug: accrue-savings-webhook-events-api
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Accrue Savings Merchant Api Webhooks
   slug: accrue-savings-merchant-api-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/accrue-savings/refs/heads/main/overlays/accrue-savings-merchant-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/accrue-savings-merchant-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/accrue-savings/refs/heads/main/security/accrue-savings-domain-security.yml
   title: ''
@@ -189,25 +279,25 @@ modified: '2026-09-06'
 name: Accrue Savings
 nav: Providers
 network: true
-overview: 'Accrue Savings publishes 1 API on the [APIs.io](https://apis.io/) network: Accrue Merchant API. Tagged areas include Company, Payments, Loyalty, Wallets, and Stored Value.
+overview: 'Accrue Savings publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Banking API, Counterparties API, Counterparty Transfers API, and 15 more. Tagged areas include Company, Payments, Loyalty, Wallets, and Stored Value.
 
 
   The Accrue Savings catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Accrue Savings'' developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 24 more developer resources.'
+  Accrue Savings'' developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 25 more developer resources.'
 plans:
 - name: Accrue Savings Plans Pricing
   plan_count: 0
   slug: accrue-savings-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Accrue Savings Rate Limits
   slug: accrue-savings-rate-limits
 score:
   band: strong
-  composite: 56.5
+  composite: 56.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -215,11 +305,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 57.8
+    contract_quality: 57.1
     developer_ergonomics: 70.8
     discoverability: 75.9
     operational_transparency: 55.3
@@ -230,7 +320,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 18
     mcp: derived
     skills: derived
   regulatory:
@@ -240,7 +330,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

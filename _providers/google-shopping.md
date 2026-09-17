@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   slug: google-shopping-accounts-api
 - baseURL: https://shoppingcontent.googleapis.com/content/v2.1
   baseurl_source: declared
-  description: Manage data feeds
-  name: Google Content API for Shopping Datafeeds API
-  slug: google-shopping-datafeeds-api
-- baseURL: https://shoppingcontent.googleapis.com/content/v2.1
-  baseurl_source: declared
   description: Manage orders
   name: Google Content API for Shopping Orders API
   slug: google-shopping-orders-api
@@ -63,6 +58,11 @@ apis:
   description: Manage product listings
   name: Google Content API for Shopping Products API
   slug: google-shopping-products-api
+- baseURL: https://shoppingcontent.googleapis.com/content/v2.1
+  baseurl_source: declared
+  description: Manage data feeds
+  name: Google Content API for Shopping Data Feeds API
+  slug: google-shopping-data-feeds-api
 artifact_total: 23
 collections:
 - collection_type: postman
@@ -189,7 +189,7 @@ modified: '2026-05-19'
 name: Google Content API for Shopping
 nav: Providers
 network: true
-overview: 'Google Content API for Shopping publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Datafeeds API, Orders API, and 1 more. Tagged areas include E-Commerce, Google Shopping, Merchant Center, Product Listings, and Retail.
+overview: 'Google Content API for Shopping publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Orders API, Products API, and 1 more. Tagged areas include E-Commerce, Google Shopping, Merchant Center, Product Listings, and Retail.
 
 
   The Google Content API for Shopping catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -200,7 +200,7 @@ plans:
 - name: Google Shopping Plans Pricing
   plan_count: 3
   slug: google-shopping-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Google Shopping Rate Limits
@@ -249,7 +249,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

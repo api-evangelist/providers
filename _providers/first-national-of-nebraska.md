@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ name: First National of Nebraska
 nav: Providers
 network: true
 overview: First National of Nebraska is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial-Services, Consumer Banking, Credit Cards, and Commercial Banking.
-random_paper: 10
+random_paper: 19
 score:
   band: minimal
   composite: 0.5
@@ -84,7 +84,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

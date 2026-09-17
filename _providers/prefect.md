@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 6
@@ -163,9 +163,6 @@ apis:
 - description: The Root API from Prefect — 1 operation(s) for root.
   name: Prefect Root API
   slug: prefect-root-api
-- description: Interact with a Workspace's Saved Searches.
-  name: Prefect SavedSearches API
-  slug: prefect-savedsearches-api
 - description: The Schemas API from Prefect — 2 operation(s) for schemas.
   name: Prefect Schemas API
   slug: prefect-schemas-api
@@ -232,6 +229,9 @@ apis:
 - description: Interact with Prefect Cloud Workspaces.
   name: Prefect Workspaces API
   slug: prefect-workspaces-api
+- description: Interact with a Workspace's Saved Searches.
+  name: Prefect Saved Searches API
+  slug: prefect-saved-searches-api
 artifact_total: 133
 collections:
 - collection_type: open
@@ -564,7 +564,7 @@ plans:
 - name: Prefect Plans Pricing
   plan_count: 3
   slug: prefect-plans-pricing
-random_paper: 10
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Prefect Rate Limits
@@ -599,7 +599,7 @@ score:
       marker_coverage: 0.0
       total: 61
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -168,6 +168,10 @@ collections:
   name: Ansible Automation Controller Playbooks API
   slug: open-ansible-playbooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ansible.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -301,7 +305,7 @@ jsonld:
   property_count: 20
   slug: ansible-playbooks-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Ansible Playbooks
 nav: Providers
 network: true
@@ -311,12 +315,12 @@ overview: 'Ansible Playbooks publishes 12 APIs on the [APIs.io](https://apis.io/
   The Ansible Playbooks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ansible Playbooks'' developer surface includes authentication, getting-started guide, engineering blog, and 15 more developer resources.'
+  Ansible Playbooks'' developer surface includes authentication, getting-started guide, engineering blog, and 16 more developer resources.'
 plans:
 - name: Ansible Playbooks Plans Pricing
   plan_count: 3
   slug: ansible-playbooks-plans-pricing
-random_paper: 16
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Ansible Playbooks Rate Limits
@@ -359,7 +363,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -394,4 +398,5 @@ use_cases:
   name: Compliance and Remediation
 - description: Automate network device configuration, firmware upgrades, and compliance checks using Ansible network collections via the API.
   name: Network Automation
+website: https://ansible.com
 ---

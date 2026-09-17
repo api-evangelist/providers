@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 5
@@ -316,7 +316,7 @@ modified: '2026-07-17'
 name: Prometeo
 nav: Providers
 network: true
-overview: 'Prometeo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Banking API, Cross-Border API, and 2 more. Tagged areas include Open Banking, Payments, Fintech, LatAm, and Financial Data.
+overview: 'Prometeo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Banking API, Cross-Border API, and 2 more. Tagged areas include Open Banking, Payments, Fintech, Latin America, and Financial Data.
 
 
   The Prometeo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -327,7 +327,7 @@ plans:
 - name: Prometeo Plans Pricing
   plan_count: 2
   slug: prometeo-plans-pricing
-random_paper: 14
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Prometeo Rate Limits
@@ -377,7 +377,7 @@ score:
     regime_id: banking_open_finance
     score: 40.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -405,7 +405,7 @@ tags:
 - Open Banking
 - Payments
 - Fintech
-- LatAm
+- Latin America
 - Financial Data
 - Account Validation
 - Cross-Border

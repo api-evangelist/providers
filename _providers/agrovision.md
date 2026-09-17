@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Fruitist (Agrovision) direct-to-consumer store. It is a Universal Commerce Protocol 2026-08-25 service exposed over MCP at https://shop.fruitist.com/api/ucp/mc
@@ -148,7 +148,7 @@ plans:
 - name: Agrovision Plans Pricing
   plan_count: 0
   slug: agrovision-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Agrovision Rate Limits
@@ -187,7 +187,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

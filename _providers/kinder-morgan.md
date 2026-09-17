@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: User | chroniclejournal.com - The Backbone of the AI Revolution
   url: http://markets.chroniclejournal.com/chroniclejournal/article/finterra-2026-4-15-the-backbone-of-the-ai-revolution-a-comprehensive-research-feature-on-kinder-morgan-inc-kmi
-random_paper: 3
+random_paper: 6
 score:
   band: minimal
   composite: 6.2
@@ -140,7 +140,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -160,6 +160,6 @@ tags:
 - Midstream
 - Natural Gas
 - Pipelines
-- Terminals
+- Terminal
 website: https://www.kindermorgan.com
 ---

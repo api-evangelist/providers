@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ overview: 'Alcresta Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Alcresta Therapeutics'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 5
+random_paper: 11
 score:
   band: minimal
   composite: 10.5
@@ -100,7 +100,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -121,7 +121,7 @@ tags:
 - Enzyme Therapy
 - Enteral Nutrition
 - Digestive Health
-- Medical Device
+- Medical Devices
 - Life Sciences
 website: https://www.alcresta.com/
 ---

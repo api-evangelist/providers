@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'OGC-standard web services served from a GeoServer instance. Verified anonymously on 2026-08-20: a WMS 1.3.0 GetCapabilities document declaring 298 layers and a WFS 2.0.0 GetCapabilities document decla'
@@ -43,7 +43,7 @@ name: Eurac Research
 nav: Providers
 network: true
 overview: Eurac Research publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, WFS, and Open Access.
-random_paper: 11
+random_paper: 10
 score:
   band: minimal
   composite: 5.9
@@ -64,7 +64,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

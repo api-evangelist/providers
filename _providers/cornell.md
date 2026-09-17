@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.5
-  scored_at: '2026-09-15'
+  score: 25.8
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 11 operations
 api_count: 2
 apis:
-- baseURL: https://classes.cornell.edu/api/2.0
-  baseurl_source: declared
-  description: 'Public, read-only API (version 2.0) for Cornell Class Roster data: scheduled classes with Course of Study detail, plus configuration lookups for rosters, academic careers, academic groups, class level'
-  name: Cornell Class Roster API
-  slug: class-roster
 - baseURL: https://catalog.library.cornell.edu
   baseurl_source: declared
   description: JSON search over Cornell University Library's catalog. The catalog is the library's own Blacklight deployment; appending .json to any catalog route returns a Solr-backed JSON envelope, and an OpenSear
@@ -68,7 +63,17 @@ apis:
   description: Search and retrieve Cornell geospatial datasets and historical maps.
   name: Cornell University Cugir API
   slug: cornell-cugir-api
-artifact_total: 22
+- baseURL: https://classes.cornell.edu/api/2.0
+  baseurl_source: declared
+  description: The config API from Cornell University — 5 operation(s) for config.
+  name: Cornell University Config API
+  slug: cornell-config-api
+- baseURL: https://classes.cornell.edu/api/2.0
+  baseurl_source: declared
+  description: The search API from Cornell University — 1 operation(s) for search.
+  name: Cornell University Search API
+  slug: cornell-search-api
+artifact_total: 23
 common:
 - group: company
   title: ''
@@ -239,7 +244,7 @@ modified: '2026-08-19'
 name: Cornell University
 nav: Providers
 network: true
-overview: 'Cornell University publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cornell Class Roster API, Library Catalog Search API, and Cugir API. Tagged areas include University, Higher Education, Education, Ivy League, and United States.
+overview: 'Cornell University publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Library Catalog Search API, Cugir API, Config API, and 1 more. Tagged areas include University, Higher Education, Education, Ivy League, and United States.
 
 
   The Cornell University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -250,7 +255,7 @@ plans:
 - name: Cornell Plans Pricing
   plan_count: 2
   slug: cornell-plans-pricing
-random_paper: 16
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Cornell Rate Limits
@@ -278,8 +283,8 @@ rules:
     warn: 4
   slug: cornell-rules
 score:
-  band: thin
-  composite: 35.7
+  band: developing
+  composite: 40.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 75.8
@@ -287,11 +292,11 @@ score:
     catalog_gap: 39.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.6
   facets:
     access_clarity: 50.0
     contract_governance: 17.4
-    contract_quality: 26.3
+    contract_quality: 44.6
     developer_ergonomics: 21.4
     discoverability: 68.5
     operational_transparency: 23.7
@@ -308,9 +313,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 3
-      marker_coverage: 100.0
-      total: 3
+      derived: 2
+      marker_coverage: 50.0
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
@@ -318,7 +323,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

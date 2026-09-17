@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ name: Techstyle Fashion Group
 nav: Providers
 network: true
 overview: Techstyle Fashion Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Apparel, Retail, and E-Commerce.
-random_paper: 20
+random_paper: 18
 score:
   band: minimal
   composite: 4.6
@@ -108,7 +108,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

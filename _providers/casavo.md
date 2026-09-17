@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Versioned REST API behind Realisti.co, the virtual-tour and property-imaging platform Casavo operates as Casavo Virtual Tools. Casavo's own help centre documented it as the integration path for estate
@@ -131,7 +131,7 @@ overview: 'Casavo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Casavo''s developer surface includes signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: emerging
   composite: 22.8
@@ -165,7 +165,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -192,6 +192,6 @@ tags:
 - Italy
 - Spain
 - France
-- Mortgages
+- Mortgage
 website: https://casavo.com/
 ---

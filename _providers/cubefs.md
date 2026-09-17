@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,11 +47,6 @@ api_count: 2
 apis:
 - baseURL_template: http://{objectNodeHost}:{objectNodePort}
   baseurl_source: spec_template
-  description: Access control list operations for buckets and objects. Supports getting and setting ACLs to control access at the bucket and object level.
-  name: CubeFS ACLs API
-  slug: cubefs-acls-api
-- baseURL_template: http://{objectNodeHost}:{objectNodePort}
-  baseurl_source: spec_template
   description: Bucket-level operations including creating, listing, and deleting buckets. In CubeFS, each S3 bucket corresponds to a CubeFS volume. Bucket names must be unique within the cluster.
   name: CubeFS Buckets API
   slug: cubefs-buckets-api
@@ -60,11 +55,6 @@ apis:
   description: Cluster-level operations including retrieving cluster status, topology, and freezing/unfreezing the cluster to control automatic partition creation.
   name: CubeFS Cluster API
   slug: cubefs-cluster-api
-- baseURL_template: http://{masterHost}:{masterPort}
-  baseurl_source: spec_template
-  description: Data node management operations including listing nodes, querying node status, decommissioning nodes, and managing data partitions on nodes.
-  name: CubeFS DataNodes API
-  slug: cubefs-datanodes-api
 - baseURL_template: http://{masterHost}:{masterPort}
   baseurl_source: spec_template
   description: Data partition management including creating, loading, decommissioning, and diagnosing data partitions within volumes.
@@ -100,6 +90,16 @@ apis:
   description: Volume lifecycle management operations including creating, updating, expanding, shrinking, and deleting volumes. Volumes are the top-level storage namespaces in CubeFS.
   name: CubeFS Volumes API
   slug: cubefs-volumes-api
+- baseURL_template: http://{objectNodeHost}:{objectNodePort}
+  baseurl_source: spec_template
+  description: Access control list operations for buckets and objects. Supports getting and setting ACLs to control access at the bucket and object level.
+  name: CubeFS AC Ls API
+  slug: cubefs-acls-api
+- baseURL_template: http://{masterHost}:{masterPort}
+  baseurl_source: spec_template
+  description: Data node management operations including listing nodes, querying node status, decommissioning nodes, and managing data partitions on nodes.
+  name: CubeFS Data Nodes API
+  slug: cubefs-data-nodes-api
 artifact_total: 36
 collections:
 - collection_type: open
@@ -258,7 +258,7 @@ modified: '2026-05-19'
 name: CubeFS
 nav: Providers
 network: true
-overview: 'CubeFS publishes 11 APIs on the [APIs.io](https://apis.io/) network, including ACLs API, Buckets API, Cluster API, and 8 more. Tagged areas include Cloud-Native, CNCF Graduated, Distributed File System, Kubernetes, and Object Storage.
+overview: 'CubeFS publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Buckets API, Cluster API, DataPartitions API, and 8 more. Tagged areas include Cloud-Native, CNCF Graduated, Distributed File System, Kubernetes, and Object Storage.
 
 
   The CubeFS catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -269,7 +269,7 @@ plans:
 - name: Cubefs Plans Pricing
   plan_count: 3
   slug: cubefs-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Cubefs Rate Limits
@@ -337,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

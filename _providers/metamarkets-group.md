@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: HTTPS event-stream ingestion API for programmatic advertising data. Customers continuously POST newline-delimited, OpenRTB-based JSON event records (gzip-compressed) to a per-customer HTTPS endpoint u
@@ -43,6 +43,10 @@ apis:
   slug: metamarkets-real-time-data-ingestion-rdi-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://metamarkets.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/metamarkets-group/refs/heads/main/security/metamarkets-group-domain-security.yml
   title: ''
@@ -104,15 +108,15 @@ created: '2026-07-17'
 description: Metamarkets was a real-time analytics platform for programmatic advertising, giving ad exchanges, SSPs, DSPs, and ad networks interactive dashboards over billions of daily bid, impression, click, and spend events. Its Real-time Data Ingestion (RDI) API accepted continuous streams of OpenRTB-based JSON event records over authenticated HTTPS POST, surfacing them in the Metamarkets dashboard within seconds. Founded in 2010 and the birthplace of the Druid analytics database (now Apache Druid), Metamarkets was acquired by Snap Inc. in 2017; its successor products live on as Rill Data. This profile enriches the dcvc portfolio lead from the surviving public documentation at docs.metamarkets.com.
 image: https://files.readme.io/7e7ea7f-small-MMX-logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Metamarkets Group
 nav: Providers
 network: true
 overview: 'Metamarkets Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Analytics, and Programmatic Advertising.
 
 
-  Metamarkets Group''s developer surface includes documentation, getting-started guide, authentication, sandbox, and 8 more developer resources.'
-random_paper: 20
+  Metamarkets Group''s developer surface includes documentation, getting-started guide, authentication, sandbox, and 9 more developer resources.'
+random_paper: 2
 score:
   band: emerging
   composite: 15.3
@@ -133,7 +137,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -160,4 +164,5 @@ tags:
 - Data Ingestion
 - OpenRTB
 - Dashboards
+website: https://metamarkets.com
 ---

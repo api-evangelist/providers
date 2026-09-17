@@ -29,7 +29,7 @@ name: Braid
 nav: Providers
 network: true
 overview: Braid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Economy, Landing Pages, Consumer, and Fintech.
-random_paper: 10
+random_paper: 8
 security:
 - kind: domain-security
   name: Braid Domain Security

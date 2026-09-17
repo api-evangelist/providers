@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://api.datahub.remax.eu/external
@@ -185,7 +185,7 @@ overview: 'RE/MAX publishes 2 APIs on the [APIs.io](https://apis.io/) network: E
 
 
   RE/MAX''s developer surface includes authentication, sandbox, engineering blog, documentation, and 21 more developer resources.'
-random_paper: 19
+random_paper: 14
 score:
   band: emerging
   composite: 18.7
@@ -223,7 +223,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

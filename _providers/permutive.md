@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 58.1
-  scored_at: '2026-09-15'
+  score: 50.2
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -53,27 +53,32 @@ apis:
 - description: Permutive's Model Context Protocol surface. A live, anonymous documentation MCP server at https://docs.permutive.com/mcp (search, virtual-filesystem query, feedback), plus an invitation-only audience-
   name: Permutive MCP Server
   slug: permutive-mcp
-- baseURL: https://api.permutive.app/cohorts-api
+- baseURL: https://api.permutive.com/ctx/v1
   baseurl_source: declared
-  description: The API version 1 API from Permutive — 2 operation(s) for api version 1.
-  name: Permutive API version 1 API
-  slug: permutive-api-version-1-api
-- baseURL: https://api.permutive.app/cohorts-api
+  description: Create, read, update and delete audience cohorts.
+  name: Permutive Cohorts API
+  slug: permutive-cohorts-api
+- baseURL: https://api.permutive.com/ctx/v1
   baseurl_source: declared
-  description: The v1 API from Permutive — 5 operation(s) for v1.
-  name: Permutive V1 API
-  slug: permutive-v1-api
-- baseURL: https://api.permutive.app/cohorts-api
+  description: Track first-party behavioural events into Permutive.
+  name: Permutive Events API
+  slug: permutive-events-api
+- baseURL: https://api.permutive.com/ctx/v1
   baseurl_source: declared
-  description: The v2.0 API from Permutive — 4 operation(s) for v2.0.
-  name: Permutive V2.0 API
-  slug: permutive-v2-0-api
-- baseURL: https://api.permutive.app/cohorts-api
+  description: Create user IDs and associate identities with a Permutive user.
+  name: Permutive Identity API
+  slug: permutive-identity-api
+- baseURL: https://api.permutive.com/ctx/v1
   baseurl_source: declared
-  description: The v2 API from Permutive — 2 operation(s) for v2.
-  name: Permutive V2 API
-  slug: permutive-v2-api
-artifact_total: 22
+  description: Cohort-based Segmentation (CCS) — evaluate a user's events into cohorts.
+  name: Permutive Segmentation API
+  slug: permutive-segmentation-api
+- baseURL: https://api.permutive.com/ctx/v1
+  baseurl_source: declared
+  description: Manage second-party data imports and their segment taxonomy.
+  name: Permutive Taxonomy API
+  slug: permutive-taxonomy-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Permutive Webhooks
@@ -328,7 +333,7 @@ modified: '2026-08-13'
 name: Permutive
 nav: Providers
 network: true
-overview: 'Permutive publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contextual API, API version 1 API, V1 API, and 2 more. Tagged areas include Company, Publishing, Advertising, AdTech, and MarTech.
+overview: 'Permutive publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contextual API, Cohorts API, Events API, and 3 more. Tagged areas include Company, Publishing, Advertising, AdTech, and MarTech.
 
 
   The Permutive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -339,14 +344,14 @@ plans:
 - name: Permutive Plans Pricing
   plan_count: 0
   slug: permutive-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Permutive Rate Limits
   slug: permutive-rate-limits
 score:
   band: developing
-  composite: 53.0
+  composite: 44.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 40.0
@@ -354,11 +359,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -8.6
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 58.0
+    contract_quality: 23.6
     developer_ergonomics: 66.7
     discoverability: 81.5
     operational_transparency: 52.6
@@ -368,14 +373,14 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 20.0
-      total: 5
+      derived: 6
+      marker_coverage: 100.0
+      total: 6
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: falling
   upsert:
     applies: true
     score: 0.0
@@ -404,7 +409,7 @@ tags:
 - Advertising
 - AdTech
 - MarTech
-- Audience
+- Audiences
 - Data Collaboration
 - Data Management Platform
 - Contextual

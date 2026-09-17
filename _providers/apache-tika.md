@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - baseURL: http://localhost:9998
   baseurl_source: spec
   description: The Apache Tika Server REST API API from Apache Tika — 1 operation(s) for apache tika server rest api.
-  name: Apache Tika Apache Tika Server REST API API
+  name: Apache Tika Apache Tika Server REST API
   slug: apache-tika-apache-tika-server-rest-api-api
 - baseURL: http://localhost:9998
   baseurl_source: spec
@@ -94,7 +94,7 @@ apis:
 - baseURL: http://localhost:9998
   baseurl_source: spec
   description: The Tika API from Apache Tika — 4 operation(s) for tika.
-  name: Apache Tika Tika API
+  name: Apache Tika API
   slug: apache-tika-tika-api
 - baseURL: http://localhost:9998
   baseurl_source: spec
@@ -252,11 +252,11 @@ integrations:
 - description: NiFi processor integration for automated document parsing workflows.
   name: Apache NiFi
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apache Tika
 nav: Providers
 network: true
-overview: 'Apache Tika publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Apache Tika Server REST API API, Detect API, Detectors API, and 9 more. Tagged areas include Content Extraction, Document Processing, Metadata, Text Extraction, and Open-Source.
+overview: 'Apache Tika publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Apache Tika Server REST API, Detect API, Detectors API, and 9 more. Tagged areas include Content Extraction, Document Processing, Metadata, Text Extraction, and Open-Source.
 
 
   Apache Tika''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 11 more developer resources.'
@@ -264,14 +264,14 @@ plans:
 - name: Apache Tika Plans Pricing
   plan_count: 3
   slug: apache-tika-plans-pricing
-random_paper: 9
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Apache Tika Rate Limits
   slug: apache-tika-rate-limits
 score:
   band: thin
-  composite: 34.5
+  composite: 35.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 44.0
@@ -279,11 +279,11 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 34.7
+    contract_quality: 37.4
     developer_ergonomics: 26.2
     discoverability: 64.8
     operational_transparency: 39.5
@@ -299,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

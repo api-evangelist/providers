@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 artifact_total: 6
 collections:
@@ -108,7 +108,7 @@ modified: '2026-07-25'
 name: Firefly Aerospace
 nav: Providers
 network: true
-overview: 'Firefly Aerospace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Space, Aerospace, Launch, Lunar, and Spacecraft.
+overview: 'Firefly Aerospace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Space, Aerospace, Launches, Lunar, and Spacecraft.
 
 
   Firefly Aerospace''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -116,7 +116,7 @@ plans:
 - name: Firefly Aerospace Plans Pricing
   plan_count: 0
   slug: firefly-aerospace-plans-pricing
-random_paper: 2
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Firefly Aerospace Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +157,7 @@ slug: firefly-aerospace
 tags:
 - Space
 - Aerospace
-- Launch
+- Launches
 - Lunar
 - Spacecraft
 website: https://fireflyspace.com/

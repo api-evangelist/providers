@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ overview: 'Vestaron publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Vestaron''s developer surface includes product news, support, legal docs, YouTube channel, authentication, code examples, and 28 more developer resources.'
-random_paper: 0
+random_paper: 2
 scopes:
 - name: Vestaron Scopes
   scope_count: 1
@@ -343,7 +343,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

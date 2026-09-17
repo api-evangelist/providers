@@ -21,12 +21,12 @@ modified: '2026-05-03'
 name: Technical Specifications
 nav: Providers
 network: true
-random_paper: 19
+random_paper: 12
 slug: technical-specifications
 tags:
 - Documentation
 - Engineering
 - Requirements
-- Specifications
+- Specification
 - Standards
 ---

@@ -19,7 +19,7 @@ name: Postini
 nav: Providers
 network: true
 overview: Postini is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Email Security, Spam Filtering, and Message Archiving.
-random_paper: 18
+random_paper: 4
 slug: postini
 tags:
 - Company

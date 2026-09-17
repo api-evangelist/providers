@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,9 +47,9 @@ api_count: 1
 apis:
 - baseURL: https://api.deepsource.com/graphql
   baseurl_source: declared
-  description: The GraphQL API from DeepSource — 1 operation(s) for graphql.
-  name: DeepSource GraphQL API
-  slug: deepsource-graphql-api
+  description: The Graph QL API from DeepSource — 1 operation(s) for graph ql.
+  name: DeepSource Graph QL API
+  slug: deepsource-graph-ql-api
 artifact_total: 11
 collections:
 - collection_type: open
@@ -128,7 +128,7 @@ modified: '2026-06-21'
 name: DeepSource
 nav: Providers
 network: true
-overview: 'DeepSource publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Code Quality, Static Analysis, Code Review, Security, and GraphQL.
+overview: 'DeepSource publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Code Quality, Static Analysis, Code Review, Security, and GraphQL.
 
 
   DeepSource''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -136,7 +136,7 @@ plans:
 - name: Deepsource Plans Pricing
   plan_count: 3
   slug: deepsource-plans-pricing
-random_paper: 0
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Deepsource Rate Limits
@@ -168,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

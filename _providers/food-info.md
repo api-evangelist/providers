@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,14 +46,14 @@ api_count: 1
 apis:
 - baseURL: https://api.food-info.org
   baseurl_source: declared
-  description: The ApiV1 API from Food Info — 6 operation(s) for apiv1.
-  name: Food Info API V1 API
-  slug: food-info-apiv1-api
+  description: The RecipesApi API from Food Info — 2 operation(s) for recipesapi.
+  name: Food Info Recipes API
+  slug: food-info-recipesapi-api
 - baseURL: https://api.food-info.org
   baseurl_source: declared
-  description: The RecipesApi API from Food Info — 2 operation(s) for recipesapi.
-  name: Food Info Recipes API API
-  slug: food-info-recipesapi-api
+  description: The api v1 API from Food Info — 6 operation(s) for api v1.
+  name: Food Info api v1 API
+  slug: food-info-api-v1-api
 artifact_total: 12
 collections:
 - collection_type: open
@@ -206,11 +206,11 @@ mcp_servers:
 - description: CANDIDATE MCP tool surface derived from the eight operations in the published OpenAPI. Food Info does NOT operate an MCP server — this is an API Evangelist proposal showing what one would look like, n
   name: Food Info MCP Server
   slug: food-info-mcp-server
-modified: '2026-08-04'
+modified: '2026-09-16'
 name: Food Info
 nav: Providers
 network: true
-overview: 'Food Info publishes 2 APIs on the [APIs.io](https://apis.io/) network: API V1 API and Recipes API API. Tagged areas include Nutrition, Food, food-composition, Nutrients, and Data.
+overview: 'Food Info publishes 2 APIs on the [APIs.io](https://apis.io/) network: Recipes API and api v1 API. Tagged areas include Nutrition, Food, food-composition, Nutrients, and Data.
 
 
   Food Info''s developer surface includes documentation, authentication, support, code examples, and 24 more developer resources.'
@@ -218,7 +218,7 @@ plans:
 - name: Food Info Plans
   plan_count: 0
   slug: food-info-plans
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Food Info Rate Limits
@@ -259,7 +259,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

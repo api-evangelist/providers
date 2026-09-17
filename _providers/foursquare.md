@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ modified: '2026-06-02'
 name: Foursquare
 nav: Providers
 network: true
-overview: 'Foursquare publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Ask API, Autocomplete API, Details API, and 5 more. Tagged areas include Restaurant, Locations, Places, Geocoding, and Recommendations.
+overview: 'Foursquare publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Ask API, Autocomplete API, Details API, and 5 more. Tagged areas include Restaurant, Location, Places, Geocoding, and Recommendations.
 
 
   The Foursquare catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -284,7 +284,7 @@ plans:
 - name: Foursquare Plans Pricing
   plan_count: 10
   slug: foursquare-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Foursquare Rate Limits
@@ -337,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -356,7 +356,7 @@ security:
 slug: foursquare
 tags:
 - Restaurant
-- Locations
+- Location
 - Places
 - Geocoding
 - Recommendations

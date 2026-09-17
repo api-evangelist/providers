@@ -24,47 +24,247 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.6
-  scored_at: '2026-09-15'
-api_count: 11
+  scored_at: '2026-09-16'
+api_count: 22
 apis:
-- baseURL: https://connect.xpansiv.com/app/api/v1
-  baseurl_source: declared
-  description: Xpansiv Connect exposes environmental commodity account, portfolio, exchange, forward deal, issuance, project, reference data, report, retirement, split lot and transfer operations over REST. Bearer t
-  name: Xpansiv Connect API
-  slug: xpansiv-connect
-- baseURL: https://www.ms.xpansiv.com/app/api/v1
-  baseurl_source: declared
-  description: Access facilities, transactions, meter readings, clean transportation, market, qualified reporting entity, building type, remote data collector and utility data from an Xpansiv Managed Solutions accou
-  name: Xpansiv Managed Solutions API
-  slug: xpansiv-managed-solutions
 - description: Real-time, end-of-day and historical transaction-based market data for environmental and energy commodities, sourced from CBL and global intermediaries including Evolution Markets. Delivered as time s
   name: Xpansiv Data API
   slug: xpansiv-data
-- baseURL: https://narenewables2.apx.com/ClientAPI
-  baseurl_source: declared
-  description: 'The North American Renewables Registry client API for retrieving and transacting NAR monthly vintage renewable energy certificates — account, ledger, subaccount and system operations behind an OAuth2 '
-  name: NAR Registry Client API
-  slug: xpansiv-nar-registry
-- baseURL: https://tigrsregistry.apx.com/clientapi
-  baseurl_source: declared
-  description: The Tradable Instrument for Global Renewables (TIGR) registry client API for retrieving and retiring TIGR certificates — corporate entity, ledger, subaccount and system operations behind an OAuth2 pas
-  name: TIGRS Registry Client API
-  slug: xpansiv-tigr-registry
-- baseURL: https://optimalapi-ext.apx.com
-  baseurl_source: declared
-  description: The Optimal Outcomes suite — a system health API, a file registry, a meter-data telemetry API, a reporting service, a resource API and a transfer position external API for viewing and managing environ
-  name: Xpansiv Optimal Outcomes APIs
-  slug: xpansiv-optimal-outcomes
-- baseURL: https://pm-file-api.apx.com
-  baseurl_source: declared
-  description: 'The APX MarketSuite file registry and reporting API used to submit and retrieve ISO scheduling files for CAISO, ERCOT, PJM, SPP, MISO, ISONE and NYISO, alongside the XML/XSD schedule schemas and REST '
-  name: APX Power Markets File Registry API
-  slug: xpansiv-apx-power-markets
 - description: The Xpansiv Marketplace Server API for retrieving real-time market data and executing and managing orders on CBL, published as rules of engagement against the FIX 4.4 specification from the FIX Tradin
   name: Xpansiv Marketplace FIX API
   slug: xpansiv-marketplace-fix
-artifact_total: 14
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Account Information
+  name: Xpansiv Account API
+  slug: xpansiv-account-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Building types
+  name: Xpansiv Building types API
+  slug: xpansiv-building-types-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Clean Transportation
+  name: Xpansiv Clean Transportation API
+  slug: xpansiv-clean-transportation-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Corporate Entities Operations
+  name: Xpansiv Corporate Entity API
+  slug: xpansiv-corporateentity-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: The Exchange APIs allow users to take various actions, both read and write, for their interactions with execution venues, such as the CBL platform. The Search Deposits API allows the user to search th
+  name: Xpansiv Exchange API
+  slug: xpansiv-exchange-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Facilities
+  name: Xpansiv Facilities API
+  slug: xpansiv-facilities-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Facility import error handling
+  name: Xpansiv Facility import error handling API
+  slug: xpansiv-facility-import-error-handling-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: View, update or upload a file
+  name: Xpansiv File Type V1 API
+  slug: xpansiv-file-type-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: the File Registry REST API
+  name: Xpansiv /file Registry API
+  slug: xpansiv-fileregistry-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: 'The Forward Deals API allows the user to search The Forward Deals associated with their Xpansiv Connect account and/or other Xpansiv Connect accounts that have granted their user that access. Forward '
+  name: Xpansiv Forward Deals API
+  slug: xpansiv-forward-deals-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: The Generators API from Xpansiv — 1 operation(s) for generators.
+  name: Xpansiv Generators API
+  slug: xpansiv-generators-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: The Instruments API from Xpansiv — 1 operation(s) for instruments.
+  name: Xpansiv Instruments API
+  slug: xpansiv-instruments-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: The Issuance API allows the user to pull information on any Issuances associated with their account, or permissioned account, for the various registries they are linked with. The Instrument details on
+  name: Xpansiv Issuances API
+  slug: xpansiv-issuances-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Ledger Operations
+  name: Xpansiv Ledger API
+  slug: xpansiv-ledger-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: View an Account's current and historical instrument details
+  name: Xpansiv Ledger V1 API
+  slug: xpansiv-ledger-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Market
+  name: Xpansiv Market API
+  slug: xpansiv-market-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: View or submit measurement data. Measurement data includes, but it is not limited to, telemetry data, emission records, verification records, etc.
+  name: Xpansiv Meter Reading V1 API
+  slug: xpansiv-meter-reading-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Meter Readings
+  name: Xpansiv Meter Readings API
+  slug: xpansiv-meter-readings-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: 'The Portfolio API allows the user to search their credit inventory (tax lot) data on active positions across all registry accounts linked to their Xpansiv Connect account and/or other Xpansiv Connect '
+  name: Xpansiv Portfolio API
+  slug: xpansiv-portfolio-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: The Project API allows the user to pull publicly available information about carbon projects registered in the registries that are integrated with Xpansiv Connect. Note - this call has a number of opt
+  name: Xpansiv Projects API
+  slug: xpansiv-projects-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Qualified reporting entities
+  name: Xpansiv Qualified reporting entities API
+  slug: xpansiv-qualified-reporting-entities-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Remote data collectors
+  name: Xpansiv Remote data collectors API
+  slug: xpansiv-remote-data-collectors-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Issuance Reports
+  name: Xpansiv Report Issuance V1 API
+  slug: xpansiv-report-issuance-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Resource Reports
+  name: Xpansiv Report Resource V1 API
+  slug: xpansiv-report-resource-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: the Reporting REST API
+  name: Xpansiv /reporting API
+  slug: xpansiv-reporting-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: The Reports API allows the user to retrieve a comprehensive credit inventory (aka Tax Lot by Program Report) on all active positions with a single call across all registry accounts linked to their Xpa
+  name: Xpansiv Reports API
+  slug: xpansiv-reports-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: View, update or create a Resource.
+  name: Xpansiv Resource V1 API
+  slug: xpansiv-resource-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: View or submit a retirement request, or redemption claim, on instrument(s).
+  name: Xpansiv Retirementbatch V1 API
+  slug: xpansiv-retirementbatch-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: The Retirements APIs allow users to take various actions, both read and write, for their retirement activity. The Create Retirements API allows users of Xpansiv Connect to retire one or more positions
+  name: Xpansiv Retirements API
+  slug: xpansiv-retirements-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: The Split Lots API allows the user to search split lot data on their Xpansiv Connect account and/or other Xpansiv Connect accounts that have granted your user that access.
+  name: Xpansiv Split Lots API
+  slug: xpansiv-split-lots-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: View or create subaccounts. Use subaccounts to organize your account’s instruments. All accounts have a "Default" subaccount, where all new issuances and incoming transfers will be deposited. Subaccou
+  name: Xpansiv Subaccount V1 API
+  slug: xpansiv-subaccount-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: System Information
+  name: Xpansiv System API
+  slug: xpansiv-system-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Check the API system health.
+  name: Xpansiv System V1 API
+  slug: xpansiv-system-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Transactions
+  name: Xpansiv Transactions API
+  slug: xpansiv-transactions-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Initiate a transfer request (between subaccounts or another account holder), view or act upon pending transfers, as well as view historical transfer details.
+  name: Xpansiv Transferbatch V1 API
+  slug: xpansiv-transferbatch-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: The Transfers APIs allow users to take various actions, both read and write, for their bilateral transaction activity. The Search Transfers API allows the user to search registry transfer data for the
+  name: Xpansiv Transfers API
+  slug: xpansiv-transfers-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Retrieve usage point identifiers for resources (projects, facilities, etc.) for which measurement readings may be submitted
+  name: Xpansiv Usage Point Identifier V1 API
+  slug: xpansiv-usage-point-identifier-v1-api
+- baseURL: https://connect.xpansiv.com/app/api/v1
+  baseurl_source: declared
+  description: Utilities
+  name: Xpansiv Utilities API
+  slug: xpansiv-utilities-api
+- baseURL: https://api.data.xpansiv.com
+  baseurl_source: declared
+  description: The Account Holders API from Xpansiv — 1 operation(s) for account holders.
+  name: Xpansiv Account Holders API
+  slug: xpansiv-account-holders-api
+- baseURL: https://api.data.xpansiv.com
+  baseurl_source: declared
+  description: The Reference Data API enables discovering Xpansiv Connect reference data types and values.
+  name: Xpansiv Reference Data API
+  slug: xpansiv-reference-data-api
+- baseURL: https://api.data.xpansiv.com
+  baseurl_source: declared
+  description: Subaccount Operations
+  name: Xpansiv Sub Account API
+  slug: xpansiv-sub-account-api
+artifact_total: 49
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xpansiv/refs/heads/main/overlays/xpansiv-managed-solutions-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/xpansiv-managed-solutions-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xpansiv/refs/heads/main/overlays/xpansiv-nar-registry-client-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/xpansiv-nar-registry-client-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xpansiv/refs/heads/main/overlays/xpansiv-tigr-registry-client-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/xpansiv-tigr-registry-client-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xpansiv/refs/heads/main/overlays/xpansiv-optimal-transfer-position-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/xpansiv-optimal-transfer-position-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xpansiv/refs/heads/main/overlays/xpansiv-apx-power-markets-file-registry-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/xpansiv-apx-power-markets-file-registry-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -216,15 +416,15 @@ modified: '2026-09-04'
 name: Xpansiv
 nav: Providers
 network: true
-overview: 'Xpansiv publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Connect API, Managed Solutions API, NAR Registry Client API, and 3 more. Tagged areas include Company, Environmental Commodities, Carbon Markets, Renewable Energy Certificates, and Registries.
+overview: 'Xpansiv publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Account API, Building types API, Clean Transportation API, and 38 more. Tagged areas include Company, Environmental Commodities, Carbon Markets, Renewable Energy Certificates, and Registries.
 
 
-  Xpansiv''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 23 more developer resources.'
+  Xpansiv''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 28 more developer resources.'
 plans:
 - name: Xpansiv Plans Pricing
   plan_count: 0
   slug: xpansiv-plans-pricing
-random_paper: 0
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Xpansiv Rate Limits
@@ -236,7 +436,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.0
+  composite: 52.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -244,11 +444,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 56.8
+    contract_quality: 57.2
     developer_ergonomics: 78.0
     discoverability: 81.5
     operational_transparency: 0.0
@@ -256,10 +456,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 90.9
+      callable: 97.6
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 41
     mcp: first-party
     skills: derived
   regulatory:
@@ -269,7 +469,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

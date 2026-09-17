@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Reflexivity's institutional REST API. Documented by the company as "JSON REST based services" whose requests are authenticated with an OAuth 2.0 Bearer token obtained from the Reflexivity OAuth servic
@@ -156,7 +156,7 @@ plans:
 - name: Reflexivity Plans Pricing
   plan_count: 0
   slug: reflexivity-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Reflexivity Rate Limits
@@ -195,7 +195,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

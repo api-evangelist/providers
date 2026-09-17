@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: vinaudit-getownershipcost-php-api
 - baseURL: https://api.vinaudit.com
   baseurl_source: declared
-  description: The Marketvalue API from VINaudit — 1 operation(s) for marketvalue.
-  name: VINaudit Marketvalue API
-  slug: vinaudit-marketvalue-api
-- baseURL: https://api.vinaudit.com
-  baseurl_source: declared
   description: The Pullreport API from VINaudit — 1 operation(s) for pullreport.
   name: VINaudit Pullreport API
   slug: vinaudit-pullreport-api
@@ -90,6 +85,11 @@ apis:
   description: The Specifications API from VINaudit — 1 operation(s) for specifications.
   name: VINaudit Specifications API
   slug: vinaudit-specifications-api
+- baseURL: https://specifications.vinaudit.com
+  baseurl_source: declared
+  description: The Market Value API from VINaudit — 1 operation(s) for market value.
+  name: VINaudit Market Value API
+  slug: vinaudit-market-value-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -214,7 +214,7 @@ modified: '2026-06-13'
 name: VINaudit
 nav: Providers
 network: true
-overview: 'VINaudit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Getownershipcost.php API, Marketvalue API, Pullreport API, and 4 more. Tagged areas include Vehicle History, VIN Decoding, Automotive, NMVTIS, and Vehicle Specifications.
+overview: 'VINaudit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Getownershipcost.php API, Pullreport API, Query API, and 4 more. Tagged areas include Vehicle History, VIN Decoding, Automotive, NMVTIS, and Vehicle Specifications.
 
 
   The VINaudit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -225,7 +225,7 @@ plans:
 - name: Vinaudit Plans Pricing
   plan_count: 4
   slug: vinaudit-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Vinaudit Rate Limits
@@ -268,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

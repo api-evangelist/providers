@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -171,6 +171,10 @@ collections:
   name: Amazon Rekognition
   slug: open-amazon-rekognition
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/agentic-access/amazon-rekognition-agentic-access.yml
   title: ''
@@ -1333,7 +1337,7 @@ mcp_servers:
 - description: ''
   name: Amazon Rekognition MCP Server
   slug: amazon-rekognition-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon Rekognition
 nav: Providers
 network: true
@@ -1343,12 +1347,12 @@ overview: 'Amazon Rekognition publishes 10 APIs on the [APIs.io](https://apis.io
   The Amazon Rekognition catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Rekognition''s developer surface includes authentication, changelog, CLI, developer portal, documentation, developer console, signup flow, and 154 more developer resources.'
+  Amazon Rekognition''s developer surface includes authentication, changelog, CLI, developer portal, documentation, developer console, signup flow, and 155 more developer resources.'
 plans:
 - name: Amazon Rekognition Plans Pricing
   plan_count: 3
   slug: amazon-rekognition-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Rekognition Rate Limits
@@ -1404,7 +1408,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1460,5 +1464,5 @@ use_cases:
   name: Media and Entertainment
 - description: Train custom classifiers to detect proprietary products, logos, brand assets, or industry-specific objects.
   name: Custom Object Detection
-website: https://aws.amazon.com/rekognition/
+website: https://amazon.com
 ---

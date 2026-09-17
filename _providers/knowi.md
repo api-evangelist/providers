@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -60,12 +60,12 @@ apis:
   description: Manage user groups.
   name: Knowi Groups API
   slug: knowi-groups-api
-- baseURL: https://knowi.com/api/1.0
+- baseURL: https://www.knowi.com
   baseurl_source: spec
   description: Retrieve dataset contents.
   name: Knowi Pull API
   slug: knowi-pull-api
-- baseURL: https://knowi.com/api/1.0
+- baseURL: https://www.knowi.com
   baseurl_source: spec
   description: Send data to Knowi datasets in real time.
   name: Knowi Push API
@@ -185,7 +185,7 @@ plans:
 - name: Knowi Plans Pricing
   plan_count: 3
   slug: knowi-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Knowi Rate Limits
@@ -217,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

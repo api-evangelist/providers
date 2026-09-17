@@ -19,7 +19,7 @@ name: Enjoy Technologies
 nav: Providers
 network: true
 overview: Enjoy Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Commerce, Mobile Commerce, and Last Mile Delivery.
-random_paper: 9
+random_paper: 8
 slug: enjoy-technologies
 tags:
 - Company

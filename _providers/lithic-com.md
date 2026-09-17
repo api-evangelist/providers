@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 1
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 215 operations · 109 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://api.lithic.com/v1
-  baseurl_source: declared
-  description: 3D Secure e-commerce authentication and decisioning.
-  name: Lithic 3DS API
-  slug: lithic-com-3ds-api
 - baseURL: https://api.lithic.com/v1
   baseurl_source: declared
   description: Top-level program accounts and their spend limits.
@@ -200,6 +195,11 @@ apis:
   description: The Transfer Limits API from Lithic — 1 operation(s) for transfer limits.
   name: Lithic Transfer Limits API
   slug: lithic-com-transfer-limits-api
+- baseURL: https://api.lithic.com/v1
+  baseurl_source: declared
+  description: 3D Secure e-commerce authentication and decisioning.
+  name: Lithic 3 DS API
+  slug: lithic-com-3-ds-api
 artifact_total: 522
 collections:
 - collection_type: open
@@ -1759,7 +1759,7 @@ modified: '2026-08-08'
 name: Lithic
 nav: Providers
 network: true
-overview: 'Lithic publishes 31 APIs on the [APIs.io](https://apis.io/) network, including 3DS API, Account API, Account Holder API, and 28 more. Tagged areas include Fintech, Card Issuing, Payments, Issuer Processor, and KYC.
+overview: 'Lithic publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Holder API, Auth Rules API, and 28 more. Tagged areas include Fintech, Card Issuing, Payments, Issuer Processor, and KYC.
 
 
   The Lithic catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1770,7 +1770,7 @@ plans:
 - name: Lithic Com Plans Pricing
   plan_count: 4
   slug: lithic-com-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 13
   name: Lithic Com Rate Limits
@@ -1788,7 +1788,7 @@ rules:
   slug: lithic-com-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 55.4
+  composite: 55.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 64.3
@@ -1796,11 +1796,11 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 68.4
     contract_governance: 9.8
-    contract_quality: 61.7
+    contract_quality: 61.3
     developer_ergonomics: 33.3
     discoverability: 70.4
     operational_transparency: 57.9
@@ -1820,7 +1820,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

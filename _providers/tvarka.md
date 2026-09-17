@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 15
@@ -47,52 +47,72 @@ agentic_access:
   summary_line: 44 operations · 31 acting · 15 human-in-the-loop
 api_count: 4
 apis:
-- baseURL: https://atk.tvarka.pro/v1
-  baseurl_source: declared
-  description: The eID authentication ceremony (`/v1/auth/*`).
-  name: Tvarka ATK API Auth API
-  slug: tvarka-atk-api-auth-api
-- baseURL: https://atk.tvarka.pro/v1
-  baseurl_source: declared
-  description: The Erasure API from Tvarka ATK API — 3 operation(s) for erasure.
-  name: Tvarka ATK API Erasure API
-  slug: tvarka-atk-api-erasure-api
-- baseURL: https://atk.tvarka.pro/v1
-  baseurl_source: declared
-  description: Post-signature timestamp and long-term-validation upgrades.
-  name: Tvarka ATK API LTV API
-  slug: tvarka-atk-api-ltv-api
-- baseURL: https://atk.tvarka.pro/v1
-  baseurl_source: declared
-  description: NFC remote pairing - complete a request by tapping a card on a different device.
-  name: Tvarka ATK API Pairing API
-  slug: tvarka-atk-api-pairing-api
-- baseURL: https://atk.tvarka.pro/v1
-  baseurl_source: declared
-  description: The QES signing ceremony (`/v1/sign/*`).
-  name: Tvarka ATK API Sign API
-  slug: tvarka-atk-api-sign-api
 - description: The Tvarka ATK API API from Tvarka ATK API — 0 operation(s) for tvarka atk api.
-  name: Tvarka ATK API Tvarka ATK API API
+  name: Tvarka ATK API Tvarka ATK API
   slug: tvarka-atk-api-tvarka-atk-api-api
 - description: The Tvarka ATK QES Signing API (paid Tier Addendum) API from Tvarka ATK API — 0 operation(s) for tvarka atk qes signing api (paid tier addendum).
   name: Tvarka ATK API Tvarka ATK QES Signing API (paid Tier Addendum) API
   slug: tvarka-atk-api-tvarka-atk-qes-signing-api-paid-tier-addendum-api
-- baseURL: https://atk.tvarka.pro/v1
-  baseurl_source: declared
-  description: Standalone advisory validation of signed artifacts.
-  name: Tvarka ATK API Validation API
-  slug: tvarka-atk-api-validation-api
-- baseURL: https://atk.tvarka.pro/v1
-  baseurl_source: declared
-  description: Keys for verifying the optional `assertion` JWT.
-  name: Tvarka ATK API Well Known API
-  slug: tvarka-atk-api-well-known-api
 - baseURL: https://sign-api.tvarka.pro
   baseurl_source: declared
   description: 'Machine channel for Tvarka Sign: post a document and a list of signers and Tvarka runs its ordinary qualified signing ceremony for each of them on the hosted page or in the Tvarka Sign mobile app (LT '
   name: Tvarka Sign API
   slug: tvarka-sign-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: The eID authentication ceremony (`/v1/auth/*`).
+  name: Tvarka ATK API Auth API
+  slug: tvarka-auth-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: The Batches API from Tvarka ATK API — 2 operation(s) for batches.
+  name: Tvarka ATK API Batches API
+  slug: tvarka-batches-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: The Erasure API from Tvarka ATK API — 3 operation(s) for erasure.
+  name: Tvarka ATK API Erasure API
+  slug: tvarka-erasure-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: The Files API from Tvarka ATK API — 2 operation(s) for files.
+  name: Tvarka ATK API Files API
+  slug: tvarka-files-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: Post-signature timestamp and long-term-validation upgrades.
+  name: Tvarka ATK API LTV API
+  slug: tvarka-ltv-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: NFC remote pairing - complete a request by tapping a card on a different device.
+  name: Tvarka ATK API Pairing API
+  slug: tvarka-pairing-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: Create and follow a signing.
+  name: Tvarka ATK API Signings API
+  slug: tvarka-signings-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: The Tvarka ATK API API from Tvarka ATK API — 0 operation(s) for tvarka atk api.
+  name: Tvarka ATK API Tvarka ATK API
+  slug: tvarka-tvarka-atk-api-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: The Tvarka Sign API API from Tvarka ATK API — 0 operation(s) for tvarka sign api.
+  name: Tvarka ATK API Tvarka Sign API
+  slug: tvarka-tvarka-sign-api-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: Standalone advisory validation of signed artifacts.
+  name: Tvarka ATK API Validation API
+  slug: tvarka-validation-api
+- baseURL: https://atk.tvarka.pro/v1
+  baseurl_source: declared
+  description: Keys for verifying the optional `assertion` JWT.
+  name: Tvarka ATK API Well Known API
+  slug: tvarka-well-known-api
 arazzos:
 - description: The full ATK authentication ceremony - create an audience-bound request on the backend, submit the card certificate, return the card signature, and read the verified identity.
   name: Authenticate a person with a Lithuanian eID card
@@ -103,7 +123,7 @@ arazzos:
 - description: The three stateless trust services in sequence - validate a container, add qualified timestamps to untimestamped XAdES, upgrade PAdES B-T to B-LT, then download the output.
   name: Validate, timestamp and archive an existing signed document
   slug: tvarka-atk-api-timestamp-and-archive
-artifact_total: 34
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Tvarka Atk Api Webhooks
@@ -408,11 +428,11 @@ mcp_servers:
 - description: ''
   name: Tvarka Sign
   slug: tvarka-sign
-modified: '2026-08-31'
+modified: '2026-09-16'
 name: Tvarka ATK API
 nav: Providers
 network: true
-overview: 'Tvarka ATK API publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Erasure API, LTV API, and 7 more. Tagged areas include Authentication, Digital Signature, eIDAS, QES, and Lithuania.
+overview: 'Tvarka ATK API publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Tvarka ATK API, Tvarka ATK QES Signing API (paid Tier Addendum) API, Tvarka Sign API, and 11 more. Tagged areas include Authentication, Digital Signature, eIDAS, QES, and Lithuania.
 
 
   The Tvarka ATK API catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -423,7 +443,7 @@ plans:
 - name: Tvarka Atk Api Plans
   plan_count: 3
   slug: tvarka-atk-api-plans
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Tvarka Atk Api Rate Limits
@@ -433,7 +453,7 @@ rate_limits:
   slug: tvarka-sign-api-rate-limits
 score:
   band: exemplar
-  composite: 68.9
+  composite: 68.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 52.0
@@ -441,11 +461,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 65.0
+    contract_quality: 64.3
     developer_ergonomics: 75.6
     discoverability: 88.9
     operational_transparency: 57.9
@@ -457,11 +477,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 12
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -96,7 +96,7 @@ apis:
 - baseURL: https://dev.enrich.so/api/v3
   baseurl_source: declared
   description: The Enrich API from Enrich — 1 operation(s) for enrich.
-  name: Enrich Enrich API
+  name: Enrich API
   slug: enrich-so-enrich-api
 - baseURL: https://dev.enrich.so/api/v3
   baseurl_source: declared
@@ -382,7 +382,7 @@ mcp_servers:
 - description: 'Enrich operates a first-party REMOTE MCP server at https://mcp.enrich.so/mcp. It is a Streamable-HTTP MCP endpoint (Express, CORS-open, mcp-session-id exposed) that an MCP client can POST to directly '
   name: Enrich MCP Server
   slug: enrich-mcp-server
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Enrich
 nav: Providers
 network: true
@@ -397,7 +397,7 @@ plans:
 - name: Enrich So Plans Pricing
   plan_count: 5
   slug: enrich-so-plans-pricing
-random_paper: 1
+random_paper: 2
 rate_limits:
 - limit_count: 18
   name: Enrich So Rate Limits
@@ -409,7 +409,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.8
+  composite: 63.2
   coverage:
     artifact_dirs: 24
     catalog_earned: 67.0
@@ -417,11 +417,11 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.4
   facets:
     access_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 53.6
+    contract_quality: 66.9
     developer_ergonomics: 62.5
     discoverability: 81.5
     operational_transparency: 73.7
@@ -437,7 +437,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

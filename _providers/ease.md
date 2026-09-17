@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,11 +76,6 @@ apis:
   slug: ease-media-api
 - baseURL: https://www.ease.com/wp-json
   baseurl_source: declared
-  description: oEmbed representation of an ease.com URL.
-  name: Ease O Embed API
-  slug: ease-oembed-api
-- baseURL: https://www.ease.com/wp-json
-  baseurl_source: declared
   description: Marketing and product pages on www.ease.com.
   name: Ease Pages API
   slug: ease-pages-api
@@ -109,6 +104,11 @@ apis:
   description: Published customer testimonials.
   name: Ease Testimonials API
   slug: ease-testimonials-api
+- baseURL: https://www.ease.com/wp-json
+  baseurl_source: declared
+  description: oEmbed representation of an ease.com URL.
+  name: Ease o Embed API
+  slug: ease-o-embed-api
 artifact_total: 26
 asyncapis:
 - description: ''
@@ -315,7 +315,7 @@ overview: 'Ease publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Ease''s developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, pricing, and 28 more developer resources.'
-random_paper: 15
+random_paper: 18
 score:
   band: developing
   composite: 41.7
@@ -359,7 +359,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

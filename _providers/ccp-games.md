@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -443,7 +443,7 @@ overview: 'CCP Games publishes 31 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CCP Games'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
-random_paper: 19
+random_paper: 0
 scopes:
 - name: Ccp Games Scopes
   scope_count: 70
@@ -463,7 +463,7 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 52.8
+    contract_quality: 52.6
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 36.8
@@ -485,7 +485,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

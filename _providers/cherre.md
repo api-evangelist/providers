@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,9 +52,9 @@ apis:
   slug: cherre-auth-api
 - baseURL: https://api.cherre.com/graphql
   baseurl_source: declared
-  description: The GraphQL API from Cherre — 1 operation(s) for graphql.
-  name: Cherre GraphQL API
-  slug: cherre-graphql-api
+  description: The Graph QL API from Cherre — 1 operation(s) for graph ql.
+  name: Cherre Graph QL API
+  slug: cherre-graph-ql-api
 artifact_total: 14
 collections:
 - collection_type: open
@@ -141,7 +141,7 @@ modified: '2026-06-21'
 name: Cherre
 nav: Providers
 network: true
-overview: 'Cherre publishes 2 APIs on the [APIs.io](https://apis.io/) network: Auth API and GraphQL API. Tagged areas include Real-Estate, Property Intelligence, Data Integration, Knowledge Graph, and GraphQL.
+overview: 'Cherre publishes 2 APIs on the [APIs.io](https://apis.io/) network: Auth API and Graph QL API. Tagged areas include Real-Estate, Property Intelligence, Data Integration, Knowledge Graph, and GraphQL.
 
 
   Cherre''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -149,7 +149,7 @@ plans:
 - name: Cherre Plans Pricing
   plan_count: 3
   slug: cherre-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Cherre Rate Limits
@@ -181,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

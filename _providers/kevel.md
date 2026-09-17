@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ modified: '2026-04-28'
 name: Kevel
 nav: Providers
 network: true
-overview: 'Kevel publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Advertisers API, Campaigns API, and 7 more. Tagged areas include Ad Serving, Advertising, API-First, Audience, and Monetization.
+overview: 'Kevel publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Advertisers API, Campaigns API, and 7 more. Tagged areas include Ad Serving, Advertising, API-First, Audiences, and Monetization.
 
 
   Kevel''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, and 8 more developer resources.'
@@ -226,7 +226,7 @@ plans:
 - name: Kevel Plans Pricing
   plan_count: 3
   slug: kevel-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Kevel Rate Limits
@@ -259,7 +259,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -283,7 +283,7 @@ tags:
 - Ad Serving
 - Advertising
 - API-First
-- Audience
+- Audiences
 - Monetization
 - Reporting
 website: https://www.kevel.com

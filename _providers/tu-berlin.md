@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH 2.0) endpoint for DepositOnce, TU Berlin's institutional repository for publications and research data, operated by the University Li
@@ -228,7 +228,7 @@ plans:
 - name: Tu Berlin Plans Pricing
   plan_count: 2
   slug: tu-berlin-plans-pricing
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Tu Berlin Rate Limits
@@ -274,7 +274,7 @@ score:
     regime_id: education
     score: 79.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

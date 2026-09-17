@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,6 +63,10 @@ collections:
   name: Arrow Electronics ItemService API
   slug: open-arrow-electronics
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://arrow.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/arrow-electronics/refs/heads/main/agentic-access/arrow-electronics-agentic-access.yml
   title: ''
@@ -129,14 +133,14 @@ integrations:
 - description: Integration with Arrow's enterprise computing division for server, storage, and cloud component procurement alongside electronic components.
   name: Arrow Enterprise Computing Solutions
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Arrow Electronics
 nav: Providers
 network: true
 overview: 'Arrow Electronics publishes 1 API on the [APIs.io](https://apis.io/) network: En API. Tagged areas include Electronics, Components, Supply Chain, Procurement, and Distribution.
 
 
-  Arrow Electronics'' developer surface includes developer portal, getting-started guide, support, and 7 more developer resources.'
+  Arrow Electronics'' developer surface includes developer portal, getting-started guide, support, and 8 more developer resources.'
 plans:
 - name: Arrow Electronics Plans Pricing
   plan_count: 1
@@ -157,7 +161,7 @@ press:
 - date: '2026-05-25'
   title: Distribution's first AI cloud companion now widely available
   url: https://www.arrow.com/globalecs/at/arrow-channel-advisor/ai-companion-arrowsphere-assistant-now-widely-available/
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Arrow Electronics Rate Limits
@@ -189,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -217,5 +221,5 @@ use_cases:
   name: Automated Procurement
 - description: Operations teams use availability data across multiple inventory pools to manage component risk and identify alternative sourcing options.
   name: Supply Chain Visibility
-website: https://developers.arrow.com/
+website: https://arrow.com
 ---

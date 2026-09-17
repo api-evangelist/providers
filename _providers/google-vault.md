@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -71,9 +71,9 @@ apis:
   slug: google-vault-operations-api
 - baseURL: https://vault.googleapis.com
   baseurl_source: declared
-  description: The SavedQueries API from Google Vault — 2 operation(s) for savedqueries.
-  name: Google Vault SavedQueries API
-  slug: google-vault-savedqueries-api
+  description: The Saved Queries API from Google Vault — 2 operation(s) for saved queries.
+  name: Google Vault Saved Queries API
+  slug: google-vault-saved-queries-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -101,6 +101,11 @@ collections:
   name: Google Vault API
   slug: open-google-vault
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/overlays/google-vault-savedqueries-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/google-vault-savedqueries-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -329,12 +334,12 @@ network: true
 overview: 'Google Vault publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Exports API, HeldAccounts API, Holds API, and 3 more. Tagged areas include eDiscovery, Legal Hold, Information Governance, Compliance, and Archiving.
 
 
-  Google Vault''s developer surface includes authentication, getting-started guide, developer console, changelog, engineering blog, documentation, API reference, and 39 more developer resources.'
+  Google Vault''s developer surface includes authentication, getting-started guide, developer console, changelog, engineering blog, documentation, API reference, and 40 more developer resources.'
 plans:
 - name: Google Vault Plans Pricing
   plan_count: 0
   slug: google-vault-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 10
   name: Google Vault Rate Limits
@@ -374,7 +379,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

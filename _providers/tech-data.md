@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ modified: '2026-05-19'
 name: Tech Data
 nav: Providers
 network: true
-overview: 'Tech Data publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cart Items API, Carts API, and 7 more. Tagged areas include Cloud, Distribution, Information Technology, Partner, and Fortune 500.
+overview: 'Tech Data publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cart Items API, Carts API, and 7 more. Tagged areas include Cloud, Distribution, Information Technology, Partners, and Fortune 500.
 
 
   The Tech Data catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -257,7 +257,7 @@ press:
 - date: '2026-05-25'
   title: data & AI
   url: https://aholddelhaize.com/about/technology-innovation/data-ai/
-random_paper: 14
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Tech Data Rate Limits
@@ -311,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -331,7 +331,7 @@ tags:
 - Cloud
 - Distribution
 - Information Technology
-- Partner
+- Partners
 - Fortune 500
 website: https://www.tdsynnex.com
 ---

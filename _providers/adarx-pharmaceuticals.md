@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - baseURL: https://www.adarx.com/wp-json
@@ -270,17 +270,17 @@ modified: '2026-08-06'
 name: ADARx Pharmaceuticals
 nav: Providers
 network: true
-overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clinics API, Content API, Embed API, and 5 more. Tagged areas include Company, Biotechnology, biopharmaceuticals, RNA Therapeutics, and siRNA.
+overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clinics API, Content API, Embed API, and 5 more. Tagged areas include Company, Biotechnology, Biopharmaceutical, RNA Therapeutics, and siRNA.
 
 
   The ADARx Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context.
 
 
   ADARx Pharmaceuticals'' developer surface includes product news, support, authentication, and 31 more developer resources.'
-random_paper: 0
+random_paper: 7
 score:
-  band: thin
-  composite: 28.5
+  band: emerging
+  composite: 22.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -288,11 +288,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -5.9
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 39.8
+    contract_quality: 16.5
     developer_ergonomics: 18.5
     discoverability: 81.5
     operational_transparency: 0.0
@@ -301,8 +301,8 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 40.0
+      derived: 10
+      marker_coverage: 100.0
       total: 10
     skills: derived
   regulatory:
@@ -312,8 +312,8 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -332,7 +332,7 @@ slug: adarx-pharmaceuticals
 tags:
 - Company
 - Biotechnology
-- biopharmaceuticals
+- Biopharmaceutical
 - RNA Therapeutics
 - siRNA
 - RNA Editing

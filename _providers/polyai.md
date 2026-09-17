@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Build, run and observe PolyAI voice and chat agents from your own systems. Three REST API families (Agents, Conversations, Webhooks & Alerts) plus Chat, SMS, Outbound Calling, Handoff, DNI, External E
@@ -144,7 +144,7 @@ overview: 'Polyai publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Polyai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, and 13 more developer resources.'
-random_paper: 3
+random_paper: 16
 score:
   band: thin
   composite: 35.6
@@ -167,7 +167,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

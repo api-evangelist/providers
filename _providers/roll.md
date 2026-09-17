@@ -36,7 +36,7 @@ overview: 'Roll is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Roll''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 0
+random_paper: 1
 security:
 - kind: domain-security
   name: Roll Domain Security

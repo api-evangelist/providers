@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -237,6 +237,10 @@ collections:
   name: Salla Apps Branches Zones API
   slug: open-salla-zones-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://salla.dev
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/capabilities/salla-capability-edges.yml
   title: ''
@@ -540,22 +544,22 @@ jsonld:
   property_count: 5
   slug: salla-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-09-16'
 name: Salla
 nav: Providers
 network: true
-overview: 'Salla publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Branches API, Brands API, and 14 more. Tagged areas include Arabic, E-Commerce, GCC, Headless Commerce, and Merchant.
+overview: 'Salla publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Branches API, Brands API, and 14 more. Tagged areas include Arabic, E-Commerce, GCC, Headless Commerce, and Merchants.
 
 
   The Salla catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salla''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, developer console, pricing, and 46 more developer resources.'
+  Salla''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, developer console, pricing, and 47 more developer resources.'
 plans:
 - name: Salla Plans Pricing
   plan_count: 5
   slug: salla-plans-pricing
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Salla Rate Limits
@@ -628,7 +632,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -658,9 +662,9 @@ tags:
 - E-Commerce
 - GCC
 - Headless Commerce
-- Merchant
+- Merchants
 - MENA
-- Online Stores
+- Online Store
 - Retail
 - Saudi Arabia
 - SMB
@@ -680,5 +684,5 @@ use_cases:
   name: AI Shopping Assistants
 - description: Generate the Saudi ZATCA Phase-1 / Phase-2 e-invoicing QR code on every receipt to remain compliant with Saudi Arabian tax authority requirements.
   name: ZATCA Compliance
-website: https://salla.com
+website: https://salla.dev
 ---

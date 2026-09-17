@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: DocSend's hosted Model Context Protocol server — the only programmatic surface DocSend publishes. An MCP client POSTs Streamable-HTTP JSON-RPC to https://docsend.com/mcp (also reachable at https://mcp
@@ -185,7 +185,7 @@ plans:
 - name: Docsend Plans Pricing
   plan_count: 3
   slug: docsend-plans-pricing
-random_paper: 1
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Docsend Rate Limits
@@ -218,7 +218,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

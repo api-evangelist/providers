@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://banking.kanastra.com.br
@@ -121,11 +121,6 @@ apis:
   slug: kanastra-pix-transfer-api
 - baseURL: https://banking.kanastra.com.br
   baseurl_source: declared
-  description: The QRCodes API from Kanastra — 3 operation(s) for qrcodes.
-  name: Kanastra QRCodes API
-  slug: kanastra-qrcodes-api
-- baseURL: https://banking.kanastra.com.br
-  baseurl_source: declared
   description: The TED Transfer API from Kanastra — 3 operation(s) for ted transfer.
   name: Kanastra TED Transfer API
   slug: kanastra-ted-transfer-api
@@ -139,6 +134,11 @@ apis:
   description: The Wallet API from Kanastra — 2 operation(s) for wallet.
   name: Kanastra Wallet API
   slug: kanastra-wallet-api
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The QR Codes API from Kanastra — 3 operation(s) for qr codes.
+  name: Kanastra QR Codes API
+  slug: kanastra-qr-codes-api
 artifact_total: 46
 asyncapis:
 - description: Webhook event surface for Kanastra Banking. Subscribing systems receive JSON payloads for bank slip (boleto) lifecycle and CNAB file-processing events. Captured from the provider-published webhook doc
@@ -277,7 +277,7 @@ overview: 'Kanastra publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Kanastra''s developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
-random_paper: 13
+random_paper: 17
 scopes:
 - name: Kanastra Scopes
   scope_count: 5
@@ -325,7 +325,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

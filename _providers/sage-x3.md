@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: RESTful web service interface for Sage X3 business objects. Supports standard HTTP methods (GET, POST, PUT, DELETE) for managing entities such as customers, suppliers, sales orders, purchase orders, i
@@ -129,7 +129,7 @@ modified: '2026-06-13'
 name: Sage X3
 nav: Providers
 network: true
-overview: 'Sage X3 publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, Enterprise Resource Planning, Manufacturing, Distribution, and Supply Chain.
+overview: 'Sage X3 publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, Manufacturing, Distribution, Supply Chain, and Financial.
 
 
   The Sage X3 catalog on APIs.io includes 1 JSON-LD context.
@@ -140,7 +140,7 @@ plans:
 - name: Sage X3 Plans Pricing
   plan_count: 2
   slug: sage-x3-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Sage X3 Rate Limits
@@ -165,7 +165,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 35.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -184,11 +184,10 @@ security:
 slug: sage-x3
 tags:
 - ERP
-- Enterprise Resource Planning
 - Manufacturing
 - Distribution
 - Supply Chain
-- Financials
+- Financial
 - Accounting
 - Inventory
 - Mid-Market

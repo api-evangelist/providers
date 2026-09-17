@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ apis:
 - baseURL: https://external-api.holidu.com
   baseurl_source: declared
   description: Length of Stay pricing push operations.
-  name: Holidu LOS Push API API
+  name: Holidu LOS Push API
   slug: holidu-los-push-api-api
 - baseURL: https://external-api.holidu.com
   baseurl_source: declared
@@ -401,18 +401,18 @@ created: '2026-07-17'
 description: 'Holidu is a Munich-based vacation-rental search engine and short-term-rental technology company that helps travellers find and book holiday homes and helps property owners and managers distribute their inventory. Holidu exposes a public Developer Hub with two production REST APIs: the Affiliate API, for searching offers, retrieving property details, checking real-time availability and syncing changes; and the Connectivity (provider) API, a v2 property-management surface of ~50 operations covering apartments, multi-unit listings, descriptions, photos, facilities, reviews, rates, length-of-stay pricing, availability, extra costs, discounts, booking terms, payment and cancellation configuration, and bookings. Authentication is via per-partner API keys (with an OAuth 2.0 security service and Bearer-JWT callbacks), sandbox and production hosts are separated, and Holidu runs a HackerOne bug-bounty program. Holidu is backed by EQT Ventures, HV Capital and Northzone.'
 image: https://www.holidu.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Holidu
 nav: Providers
 network: true
-overview: 'Holidu publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Apartment API, Availabilities API, Availability API, and 20 more. Tagged areas include Company, Travel And Leisure, Vacation Rentals, Short-Term Rentals, and Hospitality.
+overview: 'Holidu publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Apartment API, Availabilities API, Availability API, and 20 more. Tagged areas include Company, Travel And Leisure, Vacation Rentals, Short-Term Rental, and Hospitality.
 
 
   The Holidu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Holidu''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 28 more developer resources.'
-random_paper: 15
+random_paper: 7
 scopes:
 - name: Holidu Scopes
   scope_count: 0
@@ -420,7 +420,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.0
+  composite: 41.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -428,11 +428,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 59.4
+    contract_quality: 62.6
     developer_ergonomics: 42.3
     discoverability: 81.5
     operational_transparency: 48.7
@@ -454,7 +454,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -478,7 +478,7 @@ tags:
 - Company
 - Travel And Leisure
 - Vacation Rentals
-- Short-Term Rentals
+- Short-Term Rental
 - Hospitality
 - Property Management
 - Booking

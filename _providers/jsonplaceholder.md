@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -65,17 +65,17 @@ apis:
   slug: jsonplaceholder-posts-api
 - baseURL: https://jsonplaceholder.typicode.com
   baseurl_source: declared
-  description: 200 sample todo items owned by users
-  name: JSONPlaceholder Todos API
-  slug: jsonplaceholder-todos-api
-- baseURL: https://jsonplaceholder.typicode.com
-  baseurl_source: declared
   description: 10 sample users with profile, address, and company metadata
   name: JSONPlaceholder Users API
   slug: jsonplaceholder-users-api
 - description: Fake data for testing and prototyping
   name: JSONPlaceholder
   slug: jsonplaceholder
+- baseURL: https://jsonplaceholder.typicode.com
+  baseurl_source: declared
+  description: 200 sample todo items owned by users
+  name: JSONPlaceholder To Dos API
+  slug: jsonplaceholder-to-dos-api
 artifact_total: 66
 collections:
 - collection_type: open
@@ -324,7 +324,7 @@ plans:
 - name: Jsonplaceholder Plans Pricing
   plan_count: 1
   slug: jsonplaceholder-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Jsonplaceholder Rate Limits
@@ -365,7 +365,7 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 32.3
+    contract_quality: 32.6
     developer_ergonomics: 23.8
     discoverability: 75.9
     operational_transparency: 23.7
@@ -378,7 +378,7 @@ score:
       marker_coverage: 85.7
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

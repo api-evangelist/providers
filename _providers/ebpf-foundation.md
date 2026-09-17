@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,7 +109,7 @@ overview: 'eBPF Foundation is profiled on the [APIs.io](https://apis.io/) networ
 
 
   eBPF Foundation''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 4
+random_paper: 19
 score:
   band: minimal
   composite: 6.2
@@ -130,7 +130,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

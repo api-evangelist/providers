@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -66,6 +66,10 @@ collections:
   name: Amazon Aurora DSQL Clusters Multi-Region Clusters API
   slug: open-amazon-aurora-dsql-multi-region-clusters-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/mcp/amazon-aurora-dsql-mcp.yml
   title: ''
@@ -313,7 +317,7 @@ mcp_servers:
 - description: ''
   name: Amazon Aurora DSQL MCP Server
   slug: amazon-aurora-dsql-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon Aurora DSQL
 nav: Providers
 network: true
@@ -323,8 +327,8 @@ overview: 'Amazon Aurora DSQL publishes 2 APIs on the [APIs.io](https://apis.io/
   The Amazon Aurora DSQL catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Aurora DSQL''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 16
+  Amazon Aurora DSQL''s developer surface includes authentication and 8 more developer resources.'
+random_paper: 18
 rules:
 - effective_rule_count: 4
   extends: []
@@ -376,7 +380,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -408,4 +412,5 @@ use_cases:
 - Migrate PostgreSQL applications to serverless infrastructure
 - Build applications requiring strong consistency at global scale
 - Implement high-throughput transactional microservices
+website: https://amazon.com
 ---

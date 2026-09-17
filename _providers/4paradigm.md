@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 8
 apis:
 - description: The HTTP/JSON surface of OpenMLDB's optional APIServer module — insert rows into a table, invoke a deployed real-time feature-computation service, run online/offline SQL, read deployment and table met
   name: OpenMLDB APIServer REST API
@@ -32,24 +32,99 @@ apis:
 - description: The Protobuf/brpc service contracts behind an OpenMLDB cluster — TabletServer, NameServer, TaskManager, the data-sync services and the APIServer HTTP bridge — published verbatim in the OpenMLDB source
   name: OpenMLDB Cluster RPC Services
   slug: 4paradigm-openmldb-cluster-rpc
-- baseURL: http://127.0.0.1:1234/api
-  baseurl_source: declared
-  description: The REST API of OpenAIOS-Platform, 4Paradigm's Kubernetes-based AI development platform — environments, applications, Helm releases, the app store, container images, object storage, competitions, cont
-  name: OpenAIOS Platform API (Pineapple)
-  slug: 4paradigm-openaios-platform
-- baseURL: http://127.0.0.1:4321/api
-  baseurl_source: declared
-  description: The metering and billing service of OpenAIOS-Platform — user accounts, account balances, compute-unit assignment by user and group, and compute-unit pricing. Published as OpenAPI 3.0.3 in the openaios
-  name: OpenAIOS Platform Billing API
-  slug: 4paradigm-openaios-billing
 - description: 'The read-only JSON API behind 4Paradigm''s Sage App Store — the model catalogue (62 AI models with version, category and short description), the self-referencing category tree, the solutions list, the '
   name: Sage App Store Catalogue API
   slug: 4paradigm-sage-app-store
 - description: PhanthyMotus is 4Paradigm's open-source embodied-AI agent framework. Every hardware driver bundle is a Model Context Protocol server exposing typed cards — sensor, actuator, processor and resource — w
   name: PhanthyMotus Agent Core and Driver MCP Bus
   slug: 4paradigm-phanthymotus
-artifact_total: 11
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The account API from 4Paradigm — 3 operation(s) for account.
+  name: 4Paradigm Account API
+  slug: 4paradigm-account-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The applications API from 4Paradigm — 6 operation(s) for applications.
+  name: 4Paradigm Applications API
+  slug: 4paradigm-applications-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The competition API from 4Paradigm — 3 operation(s) for competition.
+  name: 4Paradigm Competition API
+  slug: 4paradigm-competition-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The computeunit API from 4Paradigm — 4 operation(s) for computeunit.
+  name: 4Paradigm Computeunit API
+  slug: 4paradigm-computeunit-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The computing_resource API from 4Paradigm — 1 operation(s) for computing_resource.
+  name: 4Paradigm Computing Resource API
+  slug: 4paradigm-computing-resource-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The environments API from 4Paradigm — 2 operation(s) for environments.
+  name: 4Paradigm Environments API
+  slug: 4paradigm-environments-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The finished API from 4Paradigm — 1 operation(s) for finished.
+  name: 4Paradigm Finished API
+  slug: 4paradigm-finished-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The images API from 4Paradigm — 6 operation(s) for images.
+  name: 4Paradigm Images API
+  slug: 4paradigm-images-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The logs API from 4Paradigm — 1 operation(s) for logs.
+  name: 4Paradigm Logs API
+  slug: 4paradigm-logs-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The releases API from 4Paradigm — 3 operation(s) for releases.
+  name: 4Paradigm Releases API
+  slug: 4paradigm-releases-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The storage API from 4Paradigm — 3 operation(s) for storage.
+  name: 4Paradigm Storage API
+  slug: 4paradigm-storage-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The users API from 4Paradigm — 3 operation(s) for users.
+  name: 4Paradigm Users API
+  slug: 4paradigm-users-api
+- baseURL: http://127.0.0.1:8080
+  baseurl_source: declared
+  description: The App Store API from 4Paradigm — 3 operation(s) for app store.
+  name: 4Paradigm App Store API
+  slug: 4paradigm-app-store-api
+artifact_total: 22
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/overlays/4paradigm-openaios-platform-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/4paradigm-openaios-platform-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/overlays/4paradigm-openaios-platform-internal-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/4paradigm-openaios-platform-internal-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/overlays/4paradigm-openaios-webterminal-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/4paradigm-openaios-webterminal-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/overlays/4paradigm-openaios-billing-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/4paradigm-openaios-billing-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/4paradigm/refs/heads/main/security/4paradigm-domain-security.yml
   title: ''
@@ -173,22 +248,22 @@ modified: '2026-09-05'
 name: 4Paradigm
 nav: Providers
 network: true
-overview: '4Paradigm publishes 2 APIs on the [APIs.io](https://apis.io/) network: OpenAIOS Platform API (Pineapple) and OpenAIOS Platform Billing API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Feature Store, and Databases.
+overview: '4Paradigm publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Applications API, Competition API, and 10 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Feature Store, and Database.
 
 
-  4Paradigm''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, changelog, and 17 more developer resources.'
+  4Paradigm''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, changelog, and 21 more developer resources.'
 plans:
 - name: 4Paradigm Plans Pricing
   plan_count: 0
   slug: 4paradigm-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: 4Paradigm Rate Limits
   slug: 4paradigm-rate-limits
 score:
   band: thin
-  composite: 36.3
+  composite: 36.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 35.0
@@ -196,11 +271,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 15.8
     contract_governance: 4.5
-    contract_quality: 46.5
+    contract_quality: 48.3
     developer_ergonomics: 60.1
     discoverability: 72.2
     operational_transparency: 18.4
@@ -211,11 +286,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 13
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -235,7 +310,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Feature Store
-- Databases
+- Database
 - Open-Source
 - MLOps
 - Agents

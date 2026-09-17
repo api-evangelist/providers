@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Submit customer profile and onboarding signals (KYC, KYB, document verification, sanctions/PEP screening, identity fraud, synthetic ID detection, behavioral biometrics, device intelligence) and receiv
@@ -255,7 +255,7 @@ overview: 'Sardine publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Sardine''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, tooling, pricing, and 33 more developer resources.'
-random_paper: 2
+random_paper: 21
 score:
   band: emerging
   composite: 20.5
@@ -281,7 +281,7 @@ score:
     - north-america
   previous_composite: 20.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

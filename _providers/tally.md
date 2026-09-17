@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ plans:
 - name: Tally Plans Pricing
   plan_count: 3
   slug: tally-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Tally Rate Limits
@@ -219,7 +219,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

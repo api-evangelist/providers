@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -112,11 +112,6 @@ apis:
   slug: shift4-payment-links-api
 - baseURL: https://api.shift4api.net/api/rest/v1
   baseurl_source: declared
-  description: The PayPal API from Shift4 — 3 operation(s) for paypal.
-  name: Shift4 Pay Pal API
-  slug: shift4-paypal-api
-- baseURL: https://api.shift4api.net/api/rest/v1
-  baseurl_source: declared
   description: The QR Payments API from Shift4 — 4 operation(s) for qr payments.
   name: Shift4 QR Payments API
   slug: shift4-qr-payments-api
@@ -150,6 +145,11 @@ apis:
   description: The Updater API from Shift4 — 2 operation(s) for updater.
   name: Shift4 Updater API
   slug: shift4-updater-api
+- baseURL: https://api.shift4api.net/api/rest/v1
+  baseurl_source: declared
+  description: The Pay Pal API from Shift4 — 3 operation(s) for pay pal.
+  name: Shift4 Pay Pal API
+  slug: shift4-pay-pal-api
 artifact_total: 27
 asyncapis:
 - description: ''
@@ -346,7 +346,7 @@ overview: 'Shift4 publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Shift4''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, sandbox, and 29 more developer resources.'
-random_paper: 6
+random_paper: 0
 score:
   band: developing
   composite: 53.7
@@ -390,7 +390,7 @@ score:
     regime_id: payments
     score: 52.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

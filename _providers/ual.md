@@ -30,12 +30,12 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-09-15'
+  score: 32.5
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - baseURL: https://checkout.developers.ar.ua.la/v2/api
   baseurl_source: declared
   description: The Ualá Bis API Cobros Online V2 API from Ualá — 0 operation(s) for ualá bis api cobros online v2.
-  name: Ualá Ualá Bis API Cobros Online V2 API
+  name: Ualá Bis API Cobros Online V2 API
   slug: ual-ual-bis-api-cobros-online-v2-api
 artifact_total: 12
 asyncapis:
@@ -226,7 +226,7 @@ created: '2026-07-17'
 description: Ualá is a Latin American fintech founded in Argentina in 2017 by Pierpaolo Barbieri, offering a neobank super-app (prepaid and credit cards, savings, investments, loans, insurance) in Argentina and Mexico, where it operates as Ualá ABC through the acquired ABC Capital bank. Its merchant arm, Ualá Bis, provides payments acceptance — link de pago, POS, e-commerce plugins, and the API Cobros Online v2, a checkout API with hosted payment links, order retrieval and listing, refunds, and webhook status notifications, documented at developers.ualabis.com.ar with official Node.js and PHP SDKs.
 image: https://developers.ualabis.com.ar/logo-large.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Ualá
 nav: Providers
 network: true
@@ -237,7 +237,7 @@ overview: 'Ualá publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Ualá''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 23 more developer resources.'
-random_paper: 7
+random_paper: 14
 score:
   band: thin
   composite: 37.3
@@ -281,7 +281,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

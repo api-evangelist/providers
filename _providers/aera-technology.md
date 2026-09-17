@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'An authenticated Model Context Protocol (MCP) endpoint served from Aera Technology''s own corporate WordPress host. Anonymous discovery works: the site publishes RFC 9728 protected-resource metadata an'
@@ -168,7 +168,7 @@ overview: 'Aera Technology publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Aera Technology''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 5
+random_paper: 20
 scopes:
 - name: Aera Technology Scopes
   scope_count: 1
@@ -197,7 +197,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

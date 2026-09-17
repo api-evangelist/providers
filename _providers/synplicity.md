@@ -32,7 +32,7 @@ name: Synplicity
 nav: Providers
 network: true
 overview: Synplicity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Electronic Design Automation, EDA, FPGA, and Semiconductors.
-random_paper: 20
+random_paper: 12
 slug: synplicity
 tags:
 - Company

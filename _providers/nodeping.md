@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -55,11 +55,6 @@ apis:
   description: The Checks API from NodePing — 2 operation(s) for checks.
   name: NodePing Checks API
   slug: nodeping-checks-api
-- baseURL: https://api.nodeping.com/api/1
-  baseurl_source: declared
-  description: The Contactgroups API from NodePing — 1 operation(s) for contactgroups.
-  name: NodePing Contactgroups API
-  slug: nodeping-contactgroups-api
 - baseURL: https://api.nodeping.com/api/1
   baseurl_source: declared
   description: The Contacts API from NodePing — 1 operation(s) for contacts.
@@ -85,6 +80,11 @@ apis:
   description: The Schedules API from NodePing — 1 operation(s) for schedules.
   name: NodePing Schedules API
   slug: nodeping-schedules-api
+- baseURL: https://api.nodeping.com/api/1
+  baseurl_source: declared
+  description: The Contact Groups API from NodePing — 1 operation(s) for contact groups.
+  name: NodePing Contact Groups API
+  slug: nodeping-contact-groups-api
 artifact_total: 27
 collections:
 - collection_type: open
@@ -182,7 +182,7 @@ modified: '2026-05-19'
 name: NodePing
 nav: Providers
 network: true
-overview: 'NodePing publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Checks API, Contactgroups API, and 5 more. Tagged areas include Monitoring, Uptime, Notification, and Software-as-a-Service.
+overview: 'NodePing publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Checks API, Contacts API, and 5 more. Tagged areas include Monitoring, Uptime, Notification, and Software-as-a-Service.
 
 
   The NodePing catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -193,7 +193,7 @@ plans:
 - name: Nodeping Plans Pricing
   plan_count: 3
   slug: nodeping-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Nodeping Rate Limits
@@ -236,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

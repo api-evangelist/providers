@@ -32,7 +32,7 @@ name: Node.io
 nav: Providers
 network: true
 overview: Node.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, CRM, Sales Intelligence, and Predictive Analytics.
-random_paper: 8
+random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nodeio/refs/heads/main/screenshots/nodeio-2026-08-07T185419.png
 slug: nodeio
 tags:

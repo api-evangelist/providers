@@ -19,7 +19,7 @@ name: IBEX Process Technology
 nav: Providers
 network: true
 overview: IBEX Process Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Process Control, Manufacturing, and Neural Networks.
-random_paper: 13
+random_paper: 11
 slug: ibex-process-technology
 tags:
 - Company

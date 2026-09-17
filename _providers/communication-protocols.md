@@ -21,7 +21,7 @@ modified: '2026-07-25'
 name: Communication Protocols
 nav: Providers
 network: true
-random_paper: 4
+random_paper: 20
 slug: communication-protocols
 tags:
 - Application Protocols

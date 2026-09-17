@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Retrieve diagnostic results from IDEXX Reference Laboratories and IDEXX in-house analyzers (VetLab Station), including real-time test status updates and the full IDEXX diagnostic history for a patient
@@ -95,7 +95,7 @@ overview: 'IDEXX publishes 5 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   IDEXX''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
   band: minimal
   composite: 9.7
@@ -122,7 +122,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

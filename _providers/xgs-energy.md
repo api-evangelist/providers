@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,11 +70,16 @@ apis:
   slug: xgs-energy-discovery-api
 - baseURL: https://www.xgsenergy.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for xgsenergy.com URLs, returning embeddable rich metadata — provider, author, title, dimensions and iframe HTML — for any post or page.
-  name: XGS Energy oEmbed API
-  slug: xgs-energy-oembed-api
+  description: The o Embed API from XGS Energy — 1 operation(s) for o embed.
+  name: XGS Energy o Embed API
+  slug: xgs-energy-o-embed-api
 artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xgs-energy/refs/heads/main/overlays/xgs-energy-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/xgs-energy-oembed-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -176,12 +181,12 @@ network: true
 overview: 'XGS Energy publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 5 more. Tagged areas include Company, Energy, Geothermal, Renewable Energy, and Clean Energy.
 
 
-  XGS Energy''s developer surface includes engineering blog, support, and 18 more developer resources.'
+  XGS Energy''s developer surface includes engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Xgs Energy Plans Pricing
   plan_count: 0
   slug: xgs-energy-plans-pricing
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Xgs Energy Rate Limits
@@ -227,7 +232,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 22
   slug: bureau-of-transportation-statistics-agentic-access
   summary_line: 22 operations
-api_count: 1
+api_count: 2
 apis:
 - description: The BTS Open Data portal powered by Socrata provides programmatic access to transportation datasets via the Socrata Open Data API (SODA). Supports filtering, querying, and aggregation across aviation,
   name: BTS Open Data SODA API
@@ -64,12 +64,47 @@ apis:
   description: Dataset resource queries via SoQL
   name: Bureau of Transportation Statistics Resource API
   slug: bureau-of-transportation-statistics-resource-api
-- baseURL: https://geodata.bts.gov
+- baseURL: https://data.bts.gov/resource/
   baseurl_source: declared
-  description: The search and catalog API behind Geospatial at the Bureau of Transportation Statistics, the home of the National Transportation Atlas Database (NTAD). It is a conformant OGC API - Records implementat
-  name: BTS Geospatial Search API (NTAD)
-  slug: bts-geospatial-search-api
-artifact_total: 17
+  description: The Catalog API from Bureau of Transportation Statistics — 1 operation(s) for catalog.
+  name: Bureau of Transportation Statistics Catalog API
+  slug: bureau-of-transportation-statistics-catalog-api
+- baseURL: https://data.bts.gov/resource/
+  baseurl_source: declared
+  description: The Collection API from Bureau of Transportation Statistics — 2 operation(s) for collection.
+  name: Bureau of Transportation Statistics Collection API
+  slug: bureau-of-transportation-statistics-collection-api
+- baseURL: https://data.bts.gov/resource/
+  baseurl_source: declared
+  description: The Geoservice-Beta API from Bureau of Transportation Statistics — 6 operation(s) for geoservice-beta.
+  name: Bureau of Transportation Statistics Geoservice Beta API
+  slug: bureau-of-transportation-statistics-geoservice-beta-api
+- baseURL: https://data.bts.gov/resource/
+  baseurl_source: declared
+  description: The OgcItem API from Bureau of Transportation Statistics — 4 operation(s) for ogcitem.
+  name: Bureau of Transportation Statistics Ogc Item API
+  slug: bureau-of-transportation-statistics-ogcitem-api
+- baseURL: https://data.bts.gov/resource/
+  baseurl_source: declared
+  description: The OgcItemAggregation API from Bureau of Transportation Statistics — 1 operation(s) for ogcitemaggregation.
+  name: Bureau of Transportation Statistics Ogc Item Aggregation API
+  slug: bureau-of-transportation-statistics-ogcitemaggregation-api
+- baseURL: https://data.bts.gov/resource/
+  baseurl_source: declared
+  description: The OgcRoot API from Bureau of Transportation Statistics — 1 operation(s) for ogcroot.
+  name: Bureau of Transportation Statistics Ogc Root API
+  slug: bureau-of-transportation-statistics-ogcroot-api
+- baseURL: https://data.bts.gov/resource/
+  baseurl_source: declared
+  description: The OgcRootConformance API from Bureau of Transportation Statistics — 1 operation(s) for ogcrootconformance.
+  name: Bureau of Transportation Statistics Ogc Root Conformance API
+  slug: bureau-of-transportation-statistics-ogcrootconformance-api
+- baseURL: https://data.bts.gov/resource/
+  baseurl_source: declared
+  description: The Queryable API from Bureau of Transportation Statistics — 1 operation(s) for queryable.
+  name: Bureau of Transportation Statistics Queryable API
+  slug: bureau-of-transportation-statistics-queryable-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -84,11 +119,16 @@ collections:
   name: BTS Open Data SODA API
   slug: open-bureau-of-transportation-statistics
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/overlays/bureau-of-transportation-statistics-geodata-search-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bureau-of-transportation-statistics-geodata-search-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-geodata-search-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/_original/bureau-of-transportation-statistics-geodata-search-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/bureau-of-transportation-statistics-geodata-search-openapi.json
+  url: openapi/_original/bureau-of-transportation-statistics-geodata-search-openapi.json
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/conformance/bureau-of-transportation-statistics-conformance.yml
   title: ''
@@ -243,26 +283,26 @@ finops:
   slug: bureau-of-transportation-statistics-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bureau-of-transportation-statistics.png
 layout: provider
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: Bureau of Transportation Statistics
 nav: Providers
 network: true
-overview: 'Bureau of Transportation Statistics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Metadata API, Resource API, and BTS Geospatial Search API (NTAD). Tagged areas include Federal-Government, Statistics, Transportation, Aviation, and Freight.
+overview: 'Bureau of Transportation Statistics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Resource API, Catalog API, and 7 more. Tagged areas include Federal-Government, Statistics, Transportation, Aviation, and Freight.
 
 
-  Bureau of Transportation Statistics'' developer surface includes changelog, API reference, getting-started guide, documentation, signup flow, support, engineering blog, and 26 more developer resources.'
+  Bureau of Transportation Statistics'' developer surface includes changelog, API reference, getting-started guide, documentation, signup flow, support, engineering blog, and 27 more developer resources.'
 plans:
 - name: Bureau Of Transportation Statistics Plans Pricing
   plan_count: 0
   slug: bureau-of-transportation-statistics-plans-pricing
-random_paper: 2
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Bureau Of Transportation Statistics Rate Limits
   slug: bureau-of-transportation-statistics-rate-limits
 score:
   band: developing
-  composite: 46.0
+  composite: 45.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 35.0
@@ -270,11 +310,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 47.0
+    contract_quality: 45.6
     developer_ergonomics: 58.9
     discoverability: 59.3
     operational_transparency: 28.9
@@ -283,10 +323,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 20.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -296,7 +336,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

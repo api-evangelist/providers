@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -105,11 +105,6 @@ apis:
   description: Chat and messaging operations
   name: JetBrains Chats API
   slug: jetbrains-chats-api
-- baseURL_template: https://{organization}.jetbrains.space/api/http
-  baseurl_source: spec_template
-  description: Code review operations
-  name: JetBrains Code Reviews API
-  slug: jetbrains-code-reviews-api
 - baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
   baseurl_source: spec_template
   description: User group management
@@ -130,11 +125,6 @@ apis:
   description: License checking operations
   name: JetBrains Licenses API
   slug: jetbrains-licenses-api
-- baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
-  baseurl_source: spec_template
-  description: OAuth2 client management
-  name: JetBrains OAuth2 API
-  slug: jetbrains-oauth2-api
 - baseURL_template: https://{organization}.jetbrains.space/api/http
   baseurl_source: spec_template
   description: Package repository operations
@@ -210,6 +200,16 @@ apis:
   description: Time tracking and work item management
   name: JetBrains Work Items API
   slug: jetbrains-work-items-api
+- baseURL_template: https://{instance}.youtrack.cloud/hub/api/rest
+  baseurl_source: spec_template
+  description: OAuth2 client management
+  name: JetBrains O Auth2 API
+  slug: jetbrains-oauth2-api
+- baseURL_template: https://{organization}.jetbrains.space/api/http
+  baseurl_source: spec_template
+  description: Code review operations
+  name: JetBrains Codereviews API
+  slug: jetbrains-codereviews-api
 artifact_total: 87
 collections:
 - collection_type: open
@@ -431,7 +431,7 @@ plans:
 - name: Jetbrains Plans Pricing
   plan_count: 7
   slug: jetbrains-plans-pricing
-random_paper: 17
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Jetbrains Rate Limits
@@ -474,7 +474,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

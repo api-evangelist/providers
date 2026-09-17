@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.8
-  scored_at: '2026-09-15'
-api_count: 10
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://cris.maastrichtuniversity.nl/ws/oai
-  baseurl_source: declared
-  description: 'Keyless OAI-PMH 2.0 metadata harvesting endpoint operated by Maastricht University on its own domain. Verified live 2026-08-30: all six verbs return 200, six metadata profiles are offered (oai_dc, qdc'
-  name: Maastricht University Research Portal OAI-PMH
-  slug: oai-pmh
 - description: 'Maastricht University runs its own identity provider on login.maastrichtuniversity.nl and publishes two machine-readable discovery documents without authentication: an OpenID Connect configuration (is'
   name: Maastricht University Identity Provider (ADFS / SURFconext / eduGAIN)
   slug: identity-federation
@@ -68,6 +63,11 @@ apis:
 - description: 'Library discovery runs on OCLC''s hosted WorldCat Discovery under an institution-specific subdomain. A textbook tenant: Maastricht''s holdings, OCLC''s platform and OCLC''s API contract. No institution-op'
   name: Maastricht University Library discovery (OCLC WorldCat)
   slug: worldcat-discovery
+- baseURL: https://cris.maastrichtuniversity.nl/ws/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs. Every response is an application/xml OAI-PMH envelope.
+  name: Maastricht University Harvesting API
+  slug: maastricht-harvesting-api
 artifact_total: 18
 common:
 - group: company
@@ -220,7 +220,7 @@ modified: '2026-08-30'
 name: Maastricht University
 nav: Providers
 network: true
-overview: 'Maastricht University publishes 1 API on the [APIs.io](https://apis.io/) network: Research Portal OAI-PMH. Tagged areas include University, Higher Education, Education, Netherlands, and Europe.
+overview: 'Maastricht University publishes 1 API on the [APIs.io](https://apis.io/) network: Harvesting API. Tagged areas include University, Higher Education, Education, Netherlands, and Europe.
 
 
   Maastricht University''s developer surface includes GitHub presence, authentication, support, engineering blog, and 26 more developer resources.'
@@ -228,7 +228,7 @@ plans:
 - name: Maastricht Plans Pricing
   plan_count: 2
   slug: maastricht-plans-pricing
-random_paper: 1
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Maastricht Rate Limits
@@ -240,21 +240,21 @@ scopes:
   summary_line: 10 scopes
 score:
   band: thin
-  composite: 37.9
+  composite: 37.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 59.0
+    catalog_earned: 56.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 50.0
     contract_governance: 15.2
     contract_quality: 14.3
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -279,7 +279,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

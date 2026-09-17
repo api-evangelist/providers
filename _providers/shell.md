@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - description: The Shell Aviation Fuel Reseller API enables aviation fuel resellers and operators to manage fuel procurement, pricing queries, order placement, and delivery logistics for Shell Aviation fuel products
   name: Shell Aviation Fuel Reseller API
   slug: aviation-fuel-reseller
-- baseURL: https://api.shell.com/mobility/v2
+- baseURL: https://api.shell.com/loyalty/v1
   baseurl_source: spec
   description: Manage loyalty accounts
   name: Shell Accounts API
@@ -57,7 +57,7 @@ apis:
   description: Manage B2B fuel cards
   name: Shell Cards API
   slug: shell-cards-api
-- baseURL: https://api.shell.com/mobility/v2
+- baseURL: https://api.shell.com/loyalty/v1
   baseurl_source: spec
   description: Browse loyalty rewards catalogue
   name: Shell Catalogue API
@@ -72,22 +72,22 @@ apis:
   description: Manage card spending limits and restrictions
   name: Shell Limits API
   slug: shell-limits-api
-- baseURL: https://api.shell.com/mobility/v2
+- baseURL: https://api.shell.com/loyalty/v1
   baseurl_source: spec
   description: Manage loyalty offers
   name: Shell Offers API
   slug: shell-offers-api
-- baseURL: https://api.shell.com/mobility/v2
+- baseURL: https://api.shell.com/lubricants/v1
   baseurl_source: spec
   description: Manage lubricants orders
   name: Shell Orders API
   slug: shell-orders-api
-- baseURL: https://api.shell.com/mobility/v2
+- baseURL: https://api.shell.com/loyalty/v1
   baseurl_source: spec
   description: Query and manage loyalty points
   name: Shell Points API
   slug: shell-points-api
-- baseURL: https://api.shell.com/mobility/v2
+- baseURL: https://api.shell.com/lubricants/v1
   baseurl_source: spec
   description: Browse lubricants product catalogue
   name: Shell Products API
@@ -407,7 +407,7 @@ plans:
 - name: Shell Plans Pricing
   plan_count: 1
   slug: shell-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Shell Rate Limits
@@ -472,7 +472,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

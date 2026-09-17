@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The one callable, machine-reachable surface in the American Eagle Outfitters estate: a Universal Commerce Protocol shopping server, transported over MCP, on the Unsubscribed brand storefront. Anonymou'
@@ -206,7 +206,7 @@ press:
 - date: '2026-05-25'
   title: American Eagle uses Meta AI ads to get Gen Z to stores
   url: https://adage.com/article/digital-marketing-ad-tech-news/american-eagle-uses-meta-ai-ads-get-gen-z-stores/2606366/
-random_paper: 4
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: American Eagle Outfitters Rate Limits
@@ -245,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

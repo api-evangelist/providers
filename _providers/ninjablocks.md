@@ -62,7 +62,7 @@ overview: 'NinjaBlocks publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   NinjaBlocks'' developer surface includes CLI and 7 more developer resources.'
-random_paper: 11
+random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/screenshots/ninjablocks-2026-08-07T185322.png
 slug: ninjablocks
 tags:

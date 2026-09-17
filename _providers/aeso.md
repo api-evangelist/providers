@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,11 +54,6 @@ apis:
   description: The AIESGenCapacity API from AESO — 1 operation(s) for aiesgencapacity.
   name: AESO AIES Gen Capacity API
   slug: aeso-aiesgencapacity-api
-- baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
-  baseurl_source: declared
-  description: The Assetlist API from AESO — 1 operation(s) for assetlist.
-  name: AESO Assetlist API
-  slug: aeso-assetlist-api
 - baseURL: https://apimgw.aeso.ca/public/poolprice-api/v1.1
   baseurl_source: declared
   description: The Csd API from AESO — 2 operation(s) for csd.
@@ -114,6 +109,11 @@ apis:
   description: The UnitCommitment API from AESO — 1 operation(s) for unitcommitment.
   name: AESO Unit Commitment API
   slug: aeso-unitcommitment-api
+- baseURL: http://ets.aeso.ca/ets_web/ip/Market/Reports
+  baseurl_source: declared
+  description: The Asset List API from AESO — 1 operation(s) for asset list.
+  name: AESO Asset List API
+  slug: aeso-asset-list-api
 arazzos:
 - description: Resolve a pool participant into its fleet, read what those assets are generating right now, and pull their settlement-grade metered volumes.
   name: AESO asset drilldown
@@ -409,7 +409,7 @@ modified: '2026-07-27'
 name: AESO
 nav: Providers
 network: true
-overview: 'AESO publishes 13 APIs on the [APIs.io](https://apis.io/) network, including AIES Gen Capacity API, Assetlist API, Csd API, and 10 more. Tagged areas include Energy, Canada, Alberta, Electricity, and Energy Markets.
+overview: 'AESO publishes 13 APIs on the [APIs.io](https://apis.io/) network, including AIES Gen Capacity API, Csd API, Interchange API, and 10 more. Tagged areas include Energy, Canada, Alberta, Electricity, and Energy Markets.
 
 
   AESO''s developer surface includes authentication, documentation, signup flow, support, engineering blog, API reference, getting-started guide, and 42 more developer resources.'
@@ -417,7 +417,7 @@ plans:
 - name: Aeso Plans
   plan_count: 1
   slug: aeso-plans
-random_paper: 4
+random_paper: 6
 score:
   band: developing
   composite: 42.9
@@ -432,7 +432,7 @@ score:
   facets:
     access_clarity: 55.3
     contract_governance: 4.5
-    contract_quality: 16.4
+    contract_quality: 16.3
     developer_ergonomics: 66.1
     discoverability: 81.5
     operational_transparency: 15.8
@@ -461,7 +461,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

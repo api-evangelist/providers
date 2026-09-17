@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -158,7 +158,7 @@ plans:
 - name: Octane Ai Plans Pricing
   plan_count: 4
   slug: octane-ai-plans-pricing
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Octane Ai Rate Limits
@@ -185,7 +185,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

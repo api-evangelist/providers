@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -41,19 +41,54 @@ agentic_access:
   operation_count: 35
   slug: ch-robinson-worldwide-agentic-access
   summary_line: 35 operations · 24 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.navisphere.com
   baseurl_source: declared
-  description: The C.H. Robinson Carrier API enables carriers to find, offer, book, and auto-create loads directly from their own TMS, send visibility updates, upload documents for faster invoicing, and check paymen
-  name: C.H. Robinson Carrier API
-  slug: carrier-api
+  description: C.H. Robinson uses OAuth v2.0 to secure connections to its APIs. oAuth v2 works by delegating user authentication to the service that hosts the user account and authorizing third-party applications to
+  name: C.H. Robinson Authentication API
+  slug: ch-robinson-worldwide-authentication-api
 - baseURL: https://api.navisphere.com
   baseurl_source: declared
-  description: The Navisphere Shipper API integrates C.H. Robinson's global transportation management system into a shipper's TMS or ERP. Capabilities include real-time rate quoting, load tendering, shipment trackin
-  name: C.H. Robinson Navisphere Shipper API
-  slug: shipper-navisphere-api
-artifact_total: 54
+  description: C.H. Robinson's Documents product allows our partners to generate, post, and retrieve documents. C.H. Robinson currently offers customers the ability to generate blank BOLs and retrieve signed BOLs, P
+  name: C.H. Robinson Documents API
+  slug: ch-robinson-worldwide-documents-api
+- baseURL: https://api.navisphere.com
+  baseurl_source: declared
+  description: C.H. Robinson's Events product gives complete, near real-time order and shipment information, including all transportation updates. Integrating with C.H. Robinson's Events API give partners near visib
+  name: C.H. Robinson Events API
+  slug: ch-robinson-worldwide-events-api
+- baseURL: https://api.navisphere.com
+  baseurl_source: declared
+  description: C.H. Robinson's financial product provides customers and carriers insight into their invoicing. Currently, customers can retrieve their invoice information from the Financials product. C.H. Robinson g
+  name: C.H. Robinson Financials API
+  slug: ch-robinson-worldwide-financials-api
+- baseURL: https://api.navisphere.com
+  baseurl_source: declared
+  description: 'A service for generating small parcel shipping labels. An associated C.H. Robinson order is also created to track the package updates through Navisphere®. Note: Configuration of your company’s parcel '
+  name: C.H. Robinson Labels API
+  slug: ch-robinson-worldwide-labels-api
+- baseURL: https://api.navisphere.com
+  baseurl_source: declared
+  description: C.H. Robinson’s Orders and Bookings products are the starting point for all freight execution in Navisphere®. They provide a unified gateway for customers to submit and manage shipment and booking det
+  name: C.H. Robinson Orders and Booking API
+  slug: ch-robinson-worldwide-orders-and-booking-api
+- baseURL: https://api.navisphere.com
+  baseurl_source: declared
+  description: C.H. Robinson's rating product allows our customers to retrieve contractual or transactional quotes. Customers can generate quotes with nothing more than weights and zip codes! However, the more detai
+  name: C.H. Robinson Rating API
+  slug: ch-robinson-worldwide-rating-api
+- baseURL: https://api.navisphere.com
+  baseurl_source: declared
+  description: C.H. Robinson's Shipments product allows our partner base to access C.H. Robinson's available shipments, send offers on those shipments, and book those shipments. Additionally, our partners can update
+  name: C.H. Robinson Shipments API
+  slug: ch-robinson-worldwide-shipments-api
+- baseURL: https://api.navisphere.com
+  baseurl_source: declared
+  description: Navisphere® Vision and Visibility tool is a global visibility technology that allows select customers to view and proactively manage their supply chain movements from a single platform. The tool combi
+  name: C.H. Robinson Visibility API
+  slug: ch-robinson-worldwide-visibility-api
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Ch Robinson Worldwide Webhooks
@@ -148,10 +183,10 @@ common:
   type: LLMsTxt
   url: llms/ch-robinson-worldwide-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/ch-robinson-worldwide-rest-apis-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/openapi/_original/ch-robinson-worldwide-rest-apis-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/ch-robinson-worldwide-rest-apis-openapi.yml
+  url: openapi/_original/ch-robinson-worldwide-rest-apis-openapi.yml
 - group: docs
   title: ''
   type: APIReference
@@ -285,11 +320,11 @@ integrations:
 - name: MercuryGate
 - name: Kuebix
 layout: provider
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: C.H. Robinson
 nav: Providers
 network: true
-overview: 'C.H. Robinson publishes 2 APIs on the [APIs.io](https://apis.io/) network: Carrier API and Navisphere Shipper API. Tagged areas include Freight, Logistics, Shipping, Supply Chain, and Transportation.
+overview: 'C.H. Robinson publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Events API, and 6 more. Tagged areas include Freight, Logistics, Shipping, Supply Chain, and Transportation.
 
 
   The C.H. Robinson catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -316,14 +351,14 @@ press:
 - date: '2026-05-25'
   title: In-House Tech and AI Agents Expand Impact
   url: https://www.chrobinson.com/en-us/about-us/newsroom/news/2026/lean-ai-growing-shipper-impact/
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Ch Robinson Worldwide Rate Limits
   slug: ch-robinson-worldwide-rate-limits
 score:
   band: developing
-  composite: 45.8
+  composite: 46.7
   coverage:
     artifact_dirs: 25
     catalog_earned: 56.0
@@ -331,11 +366,11 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 60.3
+    contract_quality: 63.9
     developer_ergonomics: 37.5
     discoverability: 75.9
     operational_transparency: 31.6
@@ -347,11 +382,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

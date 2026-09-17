@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,11 +46,6 @@ api_count: 1
 apis:
 - baseURL: https://beyondcorp.googleapis.com
   baseurl_source: declared
-  description: Operations for managing BeyondCorp app connections
-  name: Google BeyondCorp AppConnections API
-  slug: google-beyondcorp-appconnections-api
-- baseURL: https://beyondcorp.googleapis.com
-  baseurl_source: declared
   description: Operations for managing BeyondCorp app connectors
   name: Google BeyondCorp AppConnectors API
   slug: google-beyondcorp-appconnectors-api
@@ -59,6 +54,11 @@ apis:
   description: Operations for managing BeyondCorp security gateways
   name: Google BeyondCorp SecurityGateways API
   slug: google-beyondcorp-securitygateways-api
+- baseURL: https://beyondcorp.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing BeyondCorp app connections
+  name: Google BeyondCorp App Connections API
+  slug: google-beyondcorp-app-connections-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -144,7 +144,7 @@ modified: '2026-05-19'
 name: Google BeyondCorp
 nav: Providers
 network: true
-overview: 'Google BeyondCorp publishes 3 APIs on the [APIs.io](https://apis.io/) network: AppConnections API, AppConnectors API, and SecurityGateways API. Tagged areas include Access Control, Enterprise Security, Identity, Security, and VPN Alternative.
+overview: 'Google BeyondCorp publishes 3 APIs on the [APIs.io](https://apis.io/) network: AppConnectors API, SecurityGateways API, and App Connections API. Tagged areas include Access Control, Enterprise Security, Identity, Security, and VPN Alternative.
 
 
   The Google BeyondCorp catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -155,7 +155,7 @@ plans:
 - name: Google Beyondcorp Plans Pricing
   plan_count: 3
   slug: google-beyondcorp-plans-pricing
-random_paper: 16
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Google Beyondcorp Rate Limits
@@ -203,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

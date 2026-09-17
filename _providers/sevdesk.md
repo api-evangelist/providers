@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -61,11 +61,6 @@ apis:
   slug: sevdesk-contact-api
 - baseURL: https://my.sevdesk.de/api/v1
   baseurl_source: declared
-  description: Credit notes issued to contacts.
-  name: sevdesk CreditNote API
-  slug: sevdesk-creditnote-api
-- baseURL: https://my.sevdesk.de/api/v1
-  baseurl_source: declared
   description: Outgoing invoices and their lifecycle.
   name: sevdesk Invoice API
   slug: sevdesk-invoice-api
@@ -89,6 +84,11 @@ apis:
   description: Vouchers (receipts) used for expense and revenue bookkeeping.
   name: sevdesk Voucher API
   slug: sevdesk-voucher-api
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Credit notes issued to contacts.
+  name: sevdesk Credit Note API
+  slug: sevdesk-credit-note-api
 artifact_total: 26
 collections:
 - collection_type: open
@@ -195,7 +195,7 @@ plans:
 - name: Sevdesk Plans Pricing
   plan_count: 5
   slug: sevdesk-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Sevdesk Rate Limits
@@ -235,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

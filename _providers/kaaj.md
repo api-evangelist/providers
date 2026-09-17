@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Kaaj's REST API for submitting borrower application packages and receiving decision-ready credit analysis, with webhook callbacks. Access is authenticated (the base host requires credentials) and prov
@@ -129,7 +129,7 @@ overview: 'Kaaj publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kaaj''s developer surface includes documentation, engineering blog, pricing, support, YouTube channel, and 13 more developer resources.'
-random_paper: 8
+random_paper: 11
 score:
   band: emerging
   composite: 23.9
@@ -158,7 +158,7 @@ score:
     regime_id: insurance
     score: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

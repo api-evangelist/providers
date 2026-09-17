@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
-api_count: 7
+  scored_at: '2026-09-16'
+api_count: 10
 apis:
 - baseURL: https://api.leap.energy
   baseurl_source: declared
@@ -90,20 +90,10 @@ apis:
   slug: leap-webhooks-api
 - baseURL: https://api.leap.energy
   baseurl_source: declared
-  description: Endpoints for group dispatches
-  name: Leap Group Dispatches API
-  slug: leapfrog-power-group-dispatches-api
-- baseURL: https://api.leap.energy
-  baseurl_source: declared
   description: The interval_data_upload API from Leap — 6 operation(s) for interval_data_upload.
   name: Leap Interval Data Upload API
-  slug: leapfrog-power-interval-data-upload-api
-- baseURL: https://api.leap.energy
-  baseurl_source: declared
-  description: Endpoints for meter dispatches
-  name: Leap Meter Dispatches API
-  slug: leapfrog-power-meter-dispatches-api
-artifact_total: 27
+  slug: leap-interval-data-upload-api
+artifact_total: 25
 asyncapis:
 - description: Leap delivers two independent webhook surfaces to partner-hosted HTTPS receivers. 1. The general webhook platform — connect-session and meter/enrollment lifecycle events, with subscriptions managed th
   name: Leap Webhook Events
@@ -325,17 +315,17 @@ modified: '2026-07-19'
 name: Leap
 nav: Providers
 network: true
-overview: 'Leap publishes 13 APIs on the [APIs.io](https://apis.io/) network, including create meters API, group-dispatches API, Meter Details API, and 10 more. Tagged areas include Company, Energy, Electricity, Virtual Power Plant, and Demand Response.
+overview: 'Leap publishes 11 APIs on the [APIs.io](https://apis.io/) network, including create meters API, group-dispatches API, Meter Details API, and 8 more. Tagged areas include Company, Energy, Electricity, Virtual Power Plant, and Demand Response.
 
 
   The Leap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Leap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 30 more developer resources.'
-random_paper: 19
+random_paper: 0
 score:
   band: developing
-  composite: 47.6
+  composite: 48.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -343,11 +333,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 68.0
+    contract_quality: 71.8
     developer_ergonomics: 44.6
     discoverability: 81.5
     operational_transparency: 39.5
@@ -363,7 +353,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -373,7 +363,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

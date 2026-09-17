@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: http://localhost:8888
   baseurl_source: spec
   description: The Druid API from Apache Druid — 10 operation(s) for druid.
-  name: Apache Druid Druid API
+  name: Apache Druid API
   slug: apache-druid-druid-api
 artifact_total: 44
 collections:
@@ -215,11 +215,11 @@ jsonld:
   property_count: 32
   slug: apache-druid-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apache Druid
 nav: Providers
 network: true
-overview: 'Apache Druid publishes 1 API on the [APIs.io](https://apis.io/) network: Druid API. Tagged areas include Analytics, Apache, Database, Kafka, and OLAP.
+overview: 'Apache Druid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Apache, Database, Kafka, and OLAP.
 
 
   The Apache Druid catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -230,7 +230,7 @@ plans:
 - name: Apache Druid Plans Pricing
   plan_count: 3
   slug: apache-druid-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Apache Druid Rate Limits
@@ -248,7 +248,7 @@ rules:
   slug: apache-druid-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.1
+  composite: 40.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 70.3
@@ -256,11 +256,11 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 15.8
     contract_governance: 25.0
-    contract_quality: 52.4
+    contract_quality: 55.1
     developer_ergonomics: 47.6
     discoverability: 59.3
     operational_transparency: 26.3
@@ -276,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

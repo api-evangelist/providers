@@ -19,7 +19,7 @@ name: Jumptap
 nav: Providers
 network: true
 overview: Jumptap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Advertising, AdTech, and Audience Targeting.
-random_paper: 13
+random_paper: 21
 slug: jumptap
 tags:
 - Company

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 324
   human_in_the_loop: 4
@@ -674,11 +674,6 @@ apis:
   slug: datadog-logs-api
 - baseURL: https://api.datadoghq.com
   baseurl_source: declared
-  description: View and manage metric metadata and active metrics
-  name: Datadog Metric Metadata API
-  slug: datadog-metric-metadata-api
-- baseURL: https://api.datadoghq.com
-  baseurl_source: declared
   description: Manage metric tag configurations
   name: Datadog Metric Tags API
   slug: datadog-metric-tags-api
@@ -822,6 +817,11 @@ apis:
   description: The Upload API from Datadog — 2 operation(s) for upload.
   name: Datadog Upload API
   slug: datadog-upload-api
+- baseURL: https://api.datadoghq.com
+  baseurl_source: declared
+  description: View and manage metric metadata and active metrics
+  name: Datadog Metric Meta Data API
+  slug: datadog-metric-meta-data-api
 arazzos:
 - description: Search monitors by tag, then mute a matched monitor to silence alerts.
   name: Datadog Bulk Mute Monitors
@@ -2565,7 +2565,7 @@ plans:
 - name: Datadog Plans Pricing
   plan_count: 7
   slug: datadog-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Datadog Rate Limits
@@ -2599,21 +2599,21 @@ scopes:
   summary_line: 68 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.6
+  composite: 61.7
   coverage:
     artifact_dirs: 21
-    catalog_earned: 61.5
+    catalog_earned: 51.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 61.8
     contract_governance: 13.6
     contract_quality: 76.5
     developer_ergonomics: 69.0
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 36.8
   previous_composite: 63.6
   provenance:
@@ -2624,7 +2624,7 @@ score:
       marker_coverage: 0.0
       total: 107
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2663,7 +2663,7 @@ tags:
 - Monitoring
 - Platform
 - T1
-- Visualizations
+- Visualization
 use_cases:
 - description: Correlate metrics, traces, and logs across the entire application stack.
   name: Full-Stack Observability

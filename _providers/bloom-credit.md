@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,12 +53,12 @@ apis:
 - baseURL: https://api.bloomcredit.io/v1
   baseurl_source: spec
   description: Full credit bureau report retrieval
-  name: Bloom Credit Credit Reports API
+  name: Bloom Credit Reports API
   slug: bloom-credit-credit-reports-api
 - baseURL: https://api.bloomcredit.io/v1
   baseurl_source: spec
   description: Credit score retrieval
-  name: Bloom Credit Credit Scores API
+  name: Bloom Credit Scores API
   slug: bloom-credit-credit-scores-api
 - baseURL: https://api.bloomcredit.io/v1
   baseurl_source: spec
@@ -257,11 +257,11 @@ jsonld:
   property_count: 0
   slug: bloom-credit-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Bloom Credit
 nav: Providers
 network: true
-overview: 'Bloom Credit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Consumers API, Credit Reports API, Credit Scores API, and 2 more. Tagged areas include Credit Bureau, Credit Reports, Credit Scores, Fintech, and Lending.
+overview: 'Bloom Credit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Consumers API, Reports API, Scores API, and 2 more. Tagged areas include Credit Bureau, Credit Reports, Credit Score, Fintech, and Lending.
 
 
   The Bloom Credit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -272,7 +272,7 @@ plans:
 - name: Bloom Credit Plans Pricing
   plan_count: 3
   slug: bloom-credit-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Bloom Credit Rate Limits
@@ -326,7 +326,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -345,7 +345,7 @@ slug: bloom-credit
 tags:
 - Credit Bureau
 - Credit Reports
-- Credit Scores
+- Credit Score
 - Fintech
 - Lending
 - Personal Finance

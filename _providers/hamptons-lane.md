@@ -19,12 +19,12 @@ created: '2026-07-17'
 description: Hamptons Lane is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hamptons-lane.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Hamptons Lane
 nav: Providers
 network: true
 overview: Hamptons Lane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Subscription Box, E-Commerce, Food and Beverage, and Cooking.
-random_paper: 12
+random_paper: 15
 slug: hamptons-lane
 tags:
 - Company
@@ -33,5 +33,6 @@ tags:
 - Food and Beverage
 - Cooking
 - Consumer
+- Defunct
 website: https://hamptonslane.com
 ---

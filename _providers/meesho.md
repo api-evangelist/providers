@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Partner-gated API for onboarded Meesho suppliers and integration partners to sync catalog and inventory, fetch and update orders, retrieve shipping labels, and process returns/RTO. Credentials (client
@@ -108,7 +108,7 @@ overview: 'Meesho publishes 1 API on the [APIs.io](https://apis.io/) network: Su
 
 
   Meesho''s developer surface includes signup flow, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: emerging
   composite: 20.2
@@ -136,7 +136,7 @@ score:
     - india-south-asia
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -159,7 +159,6 @@ tags:
 - E-Commerce
 - Social Commerce
 - Retail
-- Marketplaces
 - India
 - Suppliers
 website: https://meesho.com

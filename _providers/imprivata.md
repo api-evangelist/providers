@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -102,11 +102,11 @@ modified: '2026-07-19'
 name: Imprivata
 nav: Providers
 network: true
-overview: 'Imprivata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Access Management, Authentication, and Single Sign-On.
+overview: 'Imprivata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Access Management, Authentication, and SSO.
 
 
   Imprivata''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 7
+random_paper: 5
 score:
   band: emerging
   composite: 23.6
@@ -133,7 +133,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -159,7 +159,7 @@ tags:
 - Identity
 - Access Management
 - Authentication
-- Single Sign-On
+- SSO
 - Privileged Access Management
 - Healthcare
 - Security

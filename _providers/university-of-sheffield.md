@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.solar.sheffield.ac.uk
-  baseurl_source: declared
-  description: The University of Sheffield's own research API, built and run by the Sheffield Solar group in the Department of Physics and Astronomy. It publishes PV_Live — near-real-time and historical estimates of
-  name: Sheffield Solar API
-  slug: sheffield-solar-api
 - description: The institution's own SAML 2.0 identity provider, entityID https://idp.shef.ac.uk/shibboleth, serving live Shibboleth metadata from Sheffield's own domain. Machine-readable, institution-operated by de
   name: University of Sheffield Shibboleth Identity Provider
   slug: shibboleth-idp
@@ -54,7 +49,57 @@ apis:
 - description: White Rose eTheses Online is the shared electronic theses repository of the same three universities, running on EPrints. Its OAI-PMH 2.0 interface Identifies as "White Rose eTheses Online" and harvest
   name: White Rose eTheses Online OAI-PMH
   slug: wreo-oai
-artifact_total: 19
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: The admin API from University of Sheffield — 7 operation(s) for admin.
+  name: University of Sheffield Admin API
+  slug: university-of-sheffield-admin-api
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: The api-auth API from University of Sheffield — 3 operation(s) for api-auth.
+  name: University of Sheffield API Auth API
+  slug: university-of-sheffield-api-auth-api
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: The auth API from University of Sheffield — 6 operation(s) for auth.
+  name: University of Sheffield Auth API
+  slug: university-of-sheffield-auth-api
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: The health API from University of Sheffield — 2 operation(s) for health.
+  name: University of Sheffield Health API
+  slug: university-of-sheffield-health-api
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: The metrics API from University of Sheffield — 1 operation(s) for metrics.
+  name: University of Sheffield Metrics API
+  slug: university-of-sheffield-metrics-api
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: PV_Forecast API endpoints.
+  name: University of Sheffield Pvforecast API
+  slug: university-of-sheffield-pvforecast-api
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: PV_Live API endpoints.
+  name: University of Sheffield Pvlive API
+  slug: university-of-sheffield-pvlive-api
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: PV_Live EU API endpoints.
+  name: University of Sheffield Pvlive Eu API
+  slug: university-of-sheffield-pvlive-eu-api
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: The User API from University of Sheffield — 7 operation(s) for user.
+  name: University of Sheffield User API
+  slug: university-of-sheffield-user-api
+- baseURL: https://api.solar.sheffield.ac.uk
+  baseurl_source: declared
+  description: The users API from University of Sheffield — 2 operation(s) for users.
+  name: University of Sheffield Users API
+  slug: university-of-sheffield-users-api
+artifact_total: 28
 common:
 - group: commercial
   title: ''
@@ -224,7 +269,7 @@ modified: '2026-08-30'
 name: University of Sheffield
 nav: Providers
 network: true
-overview: 'University of Sheffield publishes 1 API on the [APIs.io](https://apis.io/) network: Sheffield Solar API. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
+overview: 'University of Sheffield publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Auth API, Auth API, and 7 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
   The University of Sheffield catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -235,7 +280,7 @@ plans:
 - name: University Of Sheffield Plans Pricing
   plan_count: 2
   slug: university-of-sheffield-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: University Of Sheffield Rate Limits
@@ -258,21 +303,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.0
+  composite: 50.7
   coverage:
     artifact_dirs: 16
-    catalog_earned: 82.3
+    catalog_earned: 79.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 32.8
+    catalog_gap: 35.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.7
   facets:
     access_clarity: 50.0
     contract_governance: 34.1
-    contract_quality: 26.2
+    contract_quality: 55.2
     developer_ergonomics: 42.9
-    discoverability: 68.5
+    discoverability: 63.0
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -286,10 +331,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 1
-      marker_coverage: 100.0
-      total: 1
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
   regulatory:
     applies: true
     matched_via: tags
@@ -297,8 +342,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -147,7 +147,7 @@ press:
 - date: '2026-05-25'
   title: Farmers Insurance Exchange Outlook Revised To Pos
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3396101
-random_paper: 20
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Farmers Insurance Exchange Rate Limits
@@ -185,7 +185,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

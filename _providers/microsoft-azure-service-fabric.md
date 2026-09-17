@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,10 @@ collections:
   name: Azure Service Fabric REST API
   slug: open-microsoft-azure-service-fabric
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://microsoft.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/agentic-access/microsoft-azure-service-fabric-agentic-access.yml
   title: ''
@@ -145,19 +149,19 @@ finops:
   slug: microsoft-azure-service-fabric-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-service-fabric.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Azure Service Fabric
 nav: Providers
 network: true
 overview: 'Azure Service Fabric publishes 2 APIs on the [APIs.io](https://apis.io/) network: Clusters API and Operations API. Tagged areas include Microservices, Distributed Systems, Containers, and Orchestration.
 
 
-  Azure Service Fabric''s developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 9 more developer resources.'
+  Azure Service Fabric''s developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Microsoft Azure Service Fabric Plans Pricing
   plan_count: 3
   slug: microsoft-azure-service-fabric-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Service Fabric Rate Limits
@@ -194,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -215,5 +219,5 @@ tags:
 - Distributed Systems
 - Containers
 - Orchestration
-website: https://portal.azure.com/
+website: https://microsoft.com
 ---

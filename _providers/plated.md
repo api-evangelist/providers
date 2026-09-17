@@ -30,7 +30,7 @@ name: plated
 nav: Providers
 network: true
 overview: plated is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meal Kit, Food Delivery, E-Commerce, and Consumer.
-random_paper: 4
+random_paper: 18
 security:
 - kind: domain-security
   name: Plated Domain Security

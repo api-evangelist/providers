@@ -24,7 +24,7 @@ name: City Reach International
 nav: Providers
 network: true
 overview: City Reach International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Internet Infrastructure, Defunct, and United Kingdom.
-random_paper: 10
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/city-reach-international/refs/heads/main/screenshots/city-reach-international-2026-07-25T205437.png
 slug: city-reach-international
 tags:

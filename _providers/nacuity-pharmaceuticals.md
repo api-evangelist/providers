@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.nacuity.com/wp-json
@@ -47,11 +47,6 @@ apis:
   description: Media library (140 attachments at harvest time).
   name: Nacuity Pharmaceuticals Media API
   slug: nacuity-pharmaceuticals-media-api
-- baseURL: https://www.nacuity.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for nacuity.com URLs.
-  name: Nacuity Pharmaceuticals Oembed API
-  slug: nacuity-pharmaceuticals-oembed-api
 - baseURL: https://www.nacuity.com/wp-json
   baseurl_source: declared
   description: Corporate, clinical-programme and press-release pages (29 published at harvest time). Nacuity authors its news items as pages, not as posts.
@@ -82,6 +77,11 @@ apis:
   description: Categories, tags and the `portfolio-types` custom taxonomy. Categories holds one term (Uncategorized, count 0); tags is empty; portfolio-types holds one term (leadership, count 0).
   name: Nacuity Pharmaceuticals Taxonomy API
   slug: nacuity-pharmaceuticals-taxonomy-api
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for nacuity.com URLs.
+  name: Nacuity Pharmaceuticals o Embed API
+  slug: nacuity-pharmaceuticals-o-embed-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -269,14 +269,14 @@ modified: '2026-08-04'
 name: Nacuity Pharmaceuticals
 nav: Providers
 network: true
-overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 6 more. Tagged areas include Company, biopharmaceuticals, Pharmaceuticals, Ophthalmology, and Rare Disease.
+overview: 'Nacuity Pharmaceuticals publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Pages API, and 6 more. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Ophthalmology, and Rare Disease.
 
 
   The Nacuity Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context.
 
 
   Nacuity Pharmaceuticals'' developer surface includes product news, support, authentication, and 29 more developer resources.'
-random_paper: 6
+random_paper: 2
 score:
   band: thin
   composite: 31.3
@@ -316,7 +316,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -335,7 +335,7 @@ security:
 slug: nacuity-pharmaceuticals
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Pharmaceuticals
 - Ophthalmology
 - Rare Disease

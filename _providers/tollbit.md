@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://gateway.tollbit.com
@@ -60,12 +60,12 @@ apis:
 - baseURL: https://gateway.tollbit.com
   baseurl_source: declared
   description: The Tollbit Content API from Tollbit — 4 operation(s) for tollbit content.
-  name: Tollbit Tollbit Content API
+  name: Tollbit Content API
   slug: tollbit-tollbit-content-api
 - baseURL: https://gateway.tollbit.com
   baseurl_source: declared
   description: The Tollbit Subdomain API from Tollbit — 1 operation(s) for tollbit subdomain.
-  name: Tollbit Tollbit Subdomain API
+  name: Tollbit Subdomain API
   slug: tollbit-tollbit-subdomain-api
 artifact_total: 22
 asyncapis:
@@ -237,7 +237,7 @@ mcp_servers:
 - description: TollBit ships an official Model Context Protocol server ("MCP Toolbox") that connects AI agents to TollBit's dynamic toolbox — licensed search and authorized content access across TollBit publisher pr
   name: TollBit MCP Toolbox
   slug: tollbit-mcp-toolbox
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Tollbit
 nav: Providers
 network: true
@@ -248,10 +248,10 @@ overview: 'Tollbit publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Tollbit''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 6
+random_paper: 14
 score:
   band: developing
-  composite: 41.7
+  composite: 42.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -259,11 +259,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 57.6
+    contract_quality: 61.0
     developer_ergonomics: 58.3
     discoverability: 75.9
     operational_transparency: 10.5
@@ -278,7 +278,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -242,11 +242,11 @@ modified: '2026-07-20'
 name: ModernFi
 nav: Providers
 network: true
-overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, auth API, customBenchmarks API, and 4 more. Tagged areas include Company, Banking, Deposits, Fintech, and Credit Unions.
+overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, auth API, customBenchmarks API, and 4 more. Tagged areas include Company, Banking, Deposits, Fintech, and Credit Union.
 
 
   ModernFi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
-random_paper: 12
+random_paper: 16
 score:
   band: developing
   composite: 44.6
@@ -283,7 +283,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -304,7 +304,7 @@ tags:
 - Banking
 - Deposits
 - Fintech
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Deposit Network
 - Treasury

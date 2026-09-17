@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - baseURL: https://memo-therapeutics.com/wp-json
@@ -75,14 +75,14 @@ apis:
   slug: memo-therapeutics-discovery-api
 - baseURL: https://memo-therapeutics.com/wp-json
   baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for memo-therapeutics.com URLs.
-  name: Memo Therapeutics oEmbed API
-  slug: memo-therapeutics-oembed-api
-- baseURL: https://memo-therapeutics.com/wp-json
-  baseurl_source: declared
   description: Block-theme navigation menus exposed as a post type (1 published on 2026-08-25).
   name: Memo Therapeutics Navigation API
   slug: memo-therapeutics-navigation-api
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for memo-therapeutics.com URLs.
+  name: Memo Therapeutics o Embed API
+  slug: memo-therapeutics-o-embed-api
 artifact_total: 13
 common:
 - group: auth
@@ -222,7 +222,7 @@ plans:
 - name: Memo Therapeutics Plans Pricing
   plan_count: 0
   slug: memo-therapeutics-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Memo Therapeutics Rate Limits
@@ -270,7 +270,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

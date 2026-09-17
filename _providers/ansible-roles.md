@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - baseURL: https://galaxy.ansible.com/api/v1/
   baseurl_source: declared
   description: The Ansible Galaxy Roles & Collections API API from Ansible Roles — 2 operation(s) for ansible galaxy roles & collections api.
-  name: Ansible Roles Ansible Galaxy Roles & Collections API API
+  name: Ansible Roles Ansible Galaxy Roles & Collections API
   slug: ansible-roles-ansible-galaxy-roles-collections-api-api
 - baseURL: https://galaxy.ansible.com/api/v1/
   baseurl_source: declared
@@ -77,7 +77,7 @@ apis:
 - baseURL: https://galaxy.ansible.com/api/v1/
   baseurl_source: declared
   description: Legacy v1 community roles API.
-  name: Ansible Roles Roles API
+  name: Ansible Roles API
   slug: ansible-roles-roles-api
 - baseURL: https://galaxy.ansible.com/api/v1/
   baseurl_source: declared
@@ -119,6 +119,10 @@ collections:
   name: Ansible Galaxy Roles & Collections API
   slug: open-ansible-roles
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ansible.com
 - group: operate
   title: ''
   type: Releases
@@ -238,22 +242,22 @@ jsonld:
   property_count: 16
   slug: ansible-roles-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Ansible Roles
 nav: Providers
 network: true
-overview: 'Ansible Roles publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ansible Galaxy Roles & Collections API API, Collections API, Imports API, and 4 more. Tagged areas include Ansible, Automation, Collection, Configuration Management, and DevOps.
+overview: 'Ansible Roles publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ansible Galaxy Roles & Collections API, Collections API, Imports API, and 4 more. Tagged areas include Ansible, Automation, Collection, Configuration Management, and DevOps.
 
 
   The Ansible Roles catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ansible Roles'' developer surface includes authentication, getting-started guide, and 14 more developer resources.'
+  Ansible Roles'' developer surface includes authentication, getting-started guide, and 15 more developer resources.'
 plans:
 - name: Ansible Roles Plans Pricing
   plan_count: 3
   slug: ansible-roles-plans-pricing
-random_paper: 5
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Ansible Roles Rate Limits
@@ -299,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -332,4 +336,5 @@ use_cases:
   name: Private Content Distribution
 - description: Pin role and collection versions in requirements.yml files and install them via the Galaxy API in CI/CD pipelines.
   name: Dependency Management
+website: https://ansible.com
 ---

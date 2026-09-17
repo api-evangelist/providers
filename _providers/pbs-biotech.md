@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The agent-callable commerce surface of the PBS Biotech online store. Implemented by Shopify on the company's own shoppbsbiotech.com host and advertised by the store's own /llms.txt, /agents.md and /ro
@@ -177,7 +177,7 @@ plans:
 - name: Pbs Biotech Plans Pricing
   plan_count: 0
   slug: pbs-biotech-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Pbs Biotech Rate Limits
@@ -217,7 +217,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -243,7 +243,7 @@ tags:
 - Laboratory Equipment
 - Manufacturing
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - MCP
 website: https://pbsbiotech.com/
 ---

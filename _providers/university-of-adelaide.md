@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: DSpace 7.6.1 HAL/JSON REST API for the University of Adelaide institutional repository "Adelaide Research & Scholarship", exposing communities, collections, items, bundles, bitstreams, discovery searc
@@ -191,7 +191,7 @@ plans:
 - name: University Of Adelaide Plans Pricing
   plan_count: 2
   slug: university-of-adelaide-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: University Of Adelaide Rate Limits
@@ -231,7 +231,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

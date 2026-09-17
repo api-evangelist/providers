@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'Ather Energy publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Ather Energy''s developer surface includes engineering blog, support, FAQ, pricing, and 20 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: emerging
   composite: 21.7
@@ -208,7 +208,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

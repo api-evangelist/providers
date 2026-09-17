@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 service for the Tel Aviv University library record, served from TAU''s Ex Libris Alma tenant. Verified live and keyless on 2026-08-30: Iden'
@@ -207,7 +207,7 @@ plans:
 - name: Tel Aviv University Plans Pricing
   plan_count: 2
   slug: tel-aviv-university-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Tel Aviv University Rate Limits
@@ -245,7 +245,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -82,11 +82,6 @@ apis:
   description: The Documents API from Alto (Vebra / Zoopla) — 5 operation(s) for documents.
   name: Alto (Vebra / Zoopla) Documents API
   slug: alto-vebra-documents-api
-- baseURL: https://api.alto.zoopla.co.uk
-  baseurl_source: declared
-  description: The FileNotes API from Alto (Vebra / Zoopla) — 4 operation(s) for filenotes.
-  name: Alto (Vebra / Zoopla) File Notes API
-  slug: alto-vebra-filenotes-api
 - baseURL: https://api.alto.zoopla.co.uk
   baseurl_source: declared
   description: The Inventory API from Alto (Vebra / Zoopla) — 10 operation(s) for inventory.
@@ -189,9 +184,14 @@ apis:
   slug: alto-vebra-tenancies-api
 - baseURL: https://api.alto.zoopla.co.uk
   baseurl_source: declared
-  description: The WorkOrders API from Alto (Vebra / Zoopla) — 3 operation(s) for workorders.
+  description: The File Notes API from Alto (Vebra / Zoopla) — 4 operation(s) for file notes.
+  name: Alto (Vebra / Zoopla) File Notes API
+  slug: alto-vebra-file-notes-api
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Work Orders API from Alto (Vebra / Zoopla) — 3 operation(s) for work orders.
   name: Alto (Vebra / Zoopla) Work Orders API
-  slug: alto-vebra-workorders-api
+  slug: alto-vebra-work-orders-api
 artifact_total: 40
 asyncapis:
 - description: 'Event notifications Alto delivers to a partner-hosted HTTPS endpoint when data changes in an Alto agency tenancy. Faithfully transcribed by API Evangelist from the webhook catalogue Alto publishes at '
@@ -449,7 +449,7 @@ overview: 'Alto (Vebra / Zoopla) publishes 29 APIs on the [APIs.io](https://apis
 
 
   Alto (Vebra / Zoopla)''s developer surface includes authentication, documentation, developer portal, engineering blog, support, changelog, sandbox, and 41 more developer resources.'
-random_paper: 18
+random_paper: 15
 scopes:
 - name: Alto Vebra Scopes
   scope_count: 104
@@ -457,7 +457,7 @@ scopes:
   summary_line: 104 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.8
+  composite: 46.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 35.0
@@ -465,11 +465,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 55.5
+    contract_quality: 59.3
     developer_ergonomics: 66.1
     discoverability: 72.2
     operational_transparency: 36.8
@@ -493,7 +493,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://services.marinetraffic.com/api
   baseurl_source: spec
   description: The AIS API API from MarineTraffic — 3 operation(s) for ais api.
-  name: MarineTraffic AIS API API
+  name: MarineTraffic AIS API
   slug: marine-traffic-ais-api-api
 - baseURL: https://services.marinetraffic.com/api
   baseurl_source: spec
@@ -402,11 +402,11 @@ jsonld:
   property_count: 7
   slug: marine-traffic-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: MarineTraffic
 nav: Providers
 network: true
-overview: 'MarineTraffic publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AIS API API, Balances API, Fleets API, and 11 more. Tagged areas include AIS, Maritime, Vessel Tracking, Shipping, and Ports.
+overview: 'MarineTraffic publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AIS API, Balances API, Fleets API, and 11 more. Tagged areas include AIS, Maritime, Vessel Tracking, Shipping, and Ports.
 
 
   The MarineTraffic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -417,7 +417,7 @@ plans:
 - name: Marine Traffic Plans Pricing
   plan_count: 2
   slug: marine-traffic-plans-pricing
-random_paper: 9
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Marine Traffic Rate Limits
@@ -471,7 +471,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -49,39 +49,14 @@ api_count: 2
 apis:
 - baseURL: https://api.dify.ai/v1
   baseurl_source: declared
-  description: Dify is an open-source platform for building AI applications, combining Backend-as-a-Service and LLMOps. Every app published in Dify doubles as a REST API, and so does every knowledge base. The Dify S
-  name: Dify
-  slug: dify
-- baseURL: https://api.dify.ai/v1
-  baseurl_source: declared
-  description: Operations related to chat messages and interactions. 3 operation(s) from the Dify Service API.
-  name: Dify Chat Messages API
-  slug: dify-chat-api
-- baseURL: https://api.dify.ai/v1
-  baseurl_source: declared
-  description: Operations related to text generation and completion. 2 operation(s) from the Dify Service API.
-  name: Dify Completion Messages API
-  slug: dify-completion-api
-- baseURL: https://api.dify.ai/v1
-  baseurl_source: declared
   description: Operations related to managing conversations. 6 operation(s) from the Dify Service API.
   name: Dify Conversations API
   slug: dify-conversations-api
 - baseURL: https://api.dify.ai/v1
   baseurl_source: declared
-  description: Operations for managing knowledge bases, including creation, configuration, and retrieval. 6 operation(s) from the Dify Service API.
-  name: Dify Knowledge Bases API
-  slug: dify-datasets-api
-- baseURL: https://api.dify.ai/v1
-  baseurl_source: declared
   description: File upload and preview operations. 2 operation(s) from the Dify Service API.
   name: Dify Files API
   slug: dify-files-api
-- baseURL: https://api.dify.ai/v1
-  baseurl_source: declared
-  description: Operations for executing and managing workflows. 6 operation(s) from the Dify Service API.
-  name: Dify Workflow Runs API
-  slug: dify-workflows-api
 - baseURL: https://api.dify.ai/v1
   baseurl_source: declared
   description: Operations to retrieve application settings and information. 4 operation(s) from the Dify Service API.
@@ -142,7 +117,27 @@ apis:
   description: Operations for managing and running knowledge pipelines, including datasource plugins and pipeline execution. 4 operation(s) from the Dify Service API.
   name: Dify Knowledge Pipeline API
   slug: dify-knowledge-pipeline-api
-artifact_total: 37
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: declared
+  description: Operations related to chat messages and interactions.
+  name: Dify Chat Messages API
+  slug: dify-chat-messages-api
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: declared
+  description: Operations related to text generation and completion.
+  name: Dify Completion Messages API
+  slug: dify-completion-messages-api
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: declared
+  description: Operations for managing knowledge bases, including creation, configuration, and retrieval.
+  name: Dify Knowledge Bases API
+  slug: dify-knowledge-bases-api
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: declared
+  description: Operations for executing and managing workflows.
+  name: Dify Workflow Runs API
+  slug: dify-workflow-runs-api
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Dify Events
@@ -419,7 +414,7 @@ modified: '2026-09-06'
 name: Dify
 nav: Providers
 network: true
-overview: 'Dify publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Dify, Chat Messages API, Completion Messages API, and 16 more. Tagged areas include Artificial Intelligence, LLMOps, Backend-as-a-Service, Agents, and Workflows.
+overview: 'Dify publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Files API, Applications API, and 15 more. Tagged areas include Artificial Intelligence, LLMOps, Backend-as-a-Service, Agents, and Workflows.
 
 
   The Dify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -430,14 +425,14 @@ plans:
 - name: Dify Plans Pricing
   plan_count: 5
   slug: dify-plans-pricing
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Dify Rate Limits
   slug: dify-rate-limits
 score:
-  band: strong
-  composite: 64.0
+  band: exemplar
+  composite: 74.4
   coverage:
     artifact_dirs: 27
     catalog_earned: 64.0
@@ -445,11 +440,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.4
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 24.5
+    contract_quality: 66.2
     developer_ergonomics: 85.7
     discoverability: 75.9
     operational_transparency: 89.5
@@ -459,14 +454,14 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 18
-      marker_coverage: 94.7
+      derived: 0
+      marker_coverage: 0.0
       total: 19
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

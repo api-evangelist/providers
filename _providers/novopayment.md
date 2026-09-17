@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Join our developer portal forum and connect with fellow members to solve technical questions about APIs, share use cases, and collaborate on projects.
@@ -71,7 +71,7 @@ plans:
 - name: Novopayment Plans Pricing
   plan_count: 3
   slug: novopayment-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Novopayment Rate Limits
@@ -105,7 +105,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

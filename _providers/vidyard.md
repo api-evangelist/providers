@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Vidyard Dashboard API provides full CRUD access to your Vidyard account assets including players, videos, chapters, organizations, teams, users, roles, events, campaigns, tags, webhooks, embeds, a
@@ -264,7 +264,7 @@ plans:
 - name: Vidyard Plans Pricing
   plan_count: 4
   slug: vidyard-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Vidyard Rate Limits
@@ -292,7 +292,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

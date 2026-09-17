@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - baseURL: https://portal-api.prod.metabolon.com
@@ -74,11 +74,6 @@ apis:
   description: The LabVantageFiles API from Metabolon — 6 operation(s) for labvantagefiles.
   name: Metabolon Lab Vantage Files API
   slug: metabolon-labvantagefiles-api
-- baseURL: https://portal-api.prod.metabolon.com
-  baseurl_source: declared
-  description: The PipelineStatus API from Metabolon — 8 operation(s) for pipelinestatus.
-  name: Metabolon Pipeline Status API
-  slug: metabolon-pipelinestatus-api
 - baseURL: https://portal-api.prod.metabolon.com
   baseurl_source: declared
   description: The Projects API from Metabolon — 18 operation(s) for projects.
@@ -129,6 +124,11 @@ apis:
   description: The Users API from Metabolon — 90 operation(s) for users.
   name: Metabolon Users API
   slug: metabolon-users-api
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Pipeline Status API from Metabolon — 8 operation(s) for pipeline status.
+  name: Metabolon Pipeline Status API
+  slug: metabolon-pipeline-status-api
 artifact_total: 23
 common:
 - group: other
@@ -273,7 +273,7 @@ plans:
 - name: Metabolon Plans Pricing
   plan_count: 0
   slug: metabolon-plans-pricing
-random_paper: 16
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Metabolon Rate Limits
@@ -297,7 +297,7 @@ score:
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 43.0
+    contract_quality: 43.2
     developer_ergonomics: 42.3
     discoverability: 81.5
     operational_transparency: 0.0
@@ -318,7 +318,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -23,18 +23,63 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.0
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: A remote Model Context Protocol server served from the 1000satellites.de WordPress estate under the "mcp" REST namespace. Two MCP routes are advertised in the route index — mcp-oauth-server and mcp-ad
   name: 1000 Satellites MCP Server (WordPress MCP Adapter)
   slug: mcp
-- baseURL: https://1000satellites.de/wp-json
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
   baseurl_source: declared
-  description: The anonymously readable WordPress REST content surface of 1000satellites.de. Ten resources returned HTTP 200 to an unauthenticated request on 2026-09-05 — posts, pages, media, categories, tags, comme
-  name: 1000 Satellites Content API (WordPress REST wp/v2)
-  slug: content-api
-artifact_total: 8
+  description: Post categories.
+  name: 1000 Satellites Categories API
+  slug: 1000satellitescoworking-categories-api
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: Comments on posts.
+  name: 1000 Satellites Comments API
+  slug: 1000satellitescoworking-comments-api
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: Media library items (photography of the coworking locations, documents).
+  name: 1000 Satellites Media API
+  slug: 1000satellitescoworking-media-api
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: Marketing, location and legal pages of the 1000 Satellites site.
+  name: 1000 Satellites Pages API
+  slug: 1000satellitescoworking-pages-api
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: Blog posts and news articles published on 1000satellites.de.
+  name: 1000 Satellites Posts API
+  slug: 1000satellitescoworking-posts-api
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: Site-wide search across public content.
+  name: 1000 Satellites Search API
+  slug: 1000satellitescoworking-search-api
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: Registered post statuses.
+  name: 1000 Satellites Statuses API
+  slug: 1000satellitescoworking-statuses-api
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: Post tags.
+  name: 1000 Satellites Tags API
+  slug: 1000satellitescoworking-tags-api
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: Registered taxonomies on the site.
+  name: 1000 Satellites Taxonomies API
+  slug: 1000satellitescoworking-taxonomies-api
+- baseURL: https://1000satellites.de/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: Registered post types on the site.
+  name: 1000 Satellites Types API
+  slug: 1000satellitescoworking-types-api
+artifact_total: 17
 common:
 - group: company
   title: ''
@@ -178,7 +223,7 @@ modified: '2026-09-05'
 name: 1000 Satellites
 nav: Providers
 network: true
-overview: '1000 Satellites publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST wp/v2). Tagged areas include Company, Co-Working, Flex Office, Real-Estate, and Office Space.
+overview: '1000 Satellites publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Media API, and 7 more. Tagged areas include Company, Co-Working, Flex Office, Real-Estate, and Office Space.
 
 
   1000 Satellites'' developer surface includes engineering blog, support, FAQ, pricing, signup flow, authentication, and 22 more developer resources.'
@@ -186,7 +231,7 @@ plans:
 - name: 1000Satellitescoworking Plans Pricing
   plan_count: 10
   slug: 1000satellitescoworking-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: 1000Satellitescoworking Rate Limits
@@ -227,13 +272,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 10
       marker_coverage: 100.0
-      total: 1
+      total: 10
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

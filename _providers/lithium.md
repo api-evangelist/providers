@@ -11,14 +11,15 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-09-15'
+  score: 40.8
+  scored_at: '2026-09-16'
 api_count: 28
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -54,11 +55,6 @@ apis:
   description: The Admin API from Lithium — 2 operation(s) for admin.
   name: Lithium Admin API
   slug: lithium-admin-api
-- baseURL: https://api.app.lithium.com
-  baseurl_source: declared
-  description: The Agent States Api V2 API from Lithium — 1 operation(s) for agent states api v2.
-  name: Lithium Agent States Api V2 API
-  slug: lithium-agent-states-api-v2-api
 - baseURL: https://api.app.lithium.com
   baseurl_source: declared
   description: The Asset API from Lithium — 1 operation(s) for asset.
@@ -84,11 +80,6 @@ apis:
   description: The Broadcast API from Lithium — 3 operation(s) for broadcast.
   name: Lithium Broadcast API
   slug: lithium-broadcast-api
-- baseURL: https://api.flow.ai/rest/v1
-  baseurl_source: declared
-  description: The Businesshours API from Lithium — 1 operation(s) for businesshours.
-  name: Lithium Businesshours API
-  slug: lithium-businesshours-api
 - baseURL: https://api.app.lithium.com
   baseurl_source: declared
   description: The BySourceDocumentId API from Lithium — 1 operation(s) for bysourcedocumentid.
@@ -139,11 +130,6 @@ apis:
   description: The Conversation Api V2 API from Lithium — 1 operation(s) for conversation api v2.
   name: Lithium Conversation Api V2 API
   slug: lithium-conversation-api-v2-api
-- baseURL: https://api.app.lithium.com
-  baseurl_source: declared
-  description: The Conversation Tag Rules V2 API from Lithium — 1 operation(s) for conversation tag rules v2.
-  name: Lithium Conversation Tag Rules V2 API
-  slug: lithium-conversation-tag-rules-v2-api
 - baseURL: https://api.spredfast.com/v2
   baseurl_source: declared
   description: The Conversations API from Lithium — 29 operation(s) for conversations.
@@ -217,7 +203,7 @@ apis:
 - baseURL: https://api.flow.ai/rest/v1
   baseurl_source: declared
   description: The Flow Rest Api API from Lithium — 2 operation(s) for flow rest api.
-  name: Lithium Flow Rest Api API
+  name: Lithium Flow Rest Api
   slug: lithium-flow-rest-api-api
 - baseURL: https://api.spredfast.com
   baseurl_source: declared
@@ -249,11 +235,6 @@ apis:
   description: The Initiatives API from Lithium — 2 operation(s) for initiatives.
   name: Lithium Initiatives API
   slug: lithium-initiatives-api
-- baseURL: https://api.spredfast.com/v2/whoami
-  baseurl_source: declared
-  description: The Introspection Api API from Lithium — 1 operation(s) for introspection api.
-  name: Lithium Introspection Api API
-  slug: lithium-introspection-api-api
 - baseURL: https://api.app.lithium.com
   baseurl_source: declared
   description: The Khorosapi API from Lithium — 1 operation(s) for khorosapi.
@@ -264,11 +245,6 @@ apis:
   description: The Labels API from Lithium — 1 operation(s) for labels.
   name: Lithium Labels API
   slug: lithium-labels-api
-- baseURL: https://api.spredfast.com/v2/labelsets
-  baseurl_source: declared
-  description: The Labelsets Api API from Lithium — 1 operation(s) for labelsets api.
-  name: Lithium Labelsets Api API
-  slug: lithium-labelsets-api-api
 - baseURL: https://api.app.lithium.com
   baseurl_source: declared
   description: The List API from Lithium — 2 operation(s) for list.
@@ -456,18 +432,13 @@ apis:
   slug: lithium-respond-api
 - baseURL: https://api.app.lithium.com
   baseurl_source: declared
-  description: The Smart Views Api V2 API from Lithium — 1 operation(s) for smart views api v2.
-  name: Lithium Smart Views Api V2 API
-  slug: lithium-smart-views-api-v2-api
-- baseURL: https://api.app.lithium.com
-  baseurl_source: declared
   description: The SsoId API from Lithium — 1 operation(s) for ssoid.
   name: Lithium SsoId API
   slug: lithium-ssoid-api
 - baseURL: https://api.massrelevance.com
   baseurl_source: declared
   description: The Stream Api API from Lithium — 25 operation(s) for stream api.
-  name: Lithium Stream Api API
+  name: Lithium Stream Api
   slug: lithium-stream-api-api
 - baseURL: https://api.spredfast.com/v2/analytics
   baseurl_source: declared
@@ -489,11 +460,6 @@ apis:
   description: The Tag API from Lithium — 2 operation(s) for tag.
   name: Lithium Tag API
   slug: lithium-tag-api
-- baseURL: https://api.app.lithium.com
-  baseurl_source: declared
-  description: The Tag Api V2 API from Lithium — 1 operation(s) for tag api v2.
-  name: Lithium Tag Api V2 API
-  slug: lithium-tag-api-v2-api
 - baseURL: https://analytics-api.app.lithium.com/api/public
   baseurl_source: declared
   description: The Teams API from Lithium — 1 operation(s) for teams.
@@ -524,17 +490,22 @@ apis:
   description: The Uuid API from Lithium — 1 operation(s) for uuid.
   name: Lithium Uuid API
   slug: lithium-uuid-api
-- baseURL: https://api.app.lithium.com
+- baseURL: https://community.khoros.com/api/2.0
   baseurl_source: declared
-  description: The Workqueue API from Lithium — 1 operation(s) for workqueue.
-  name: Lithium Workqueue API
-  slug: lithium-workqueue-api
-- baseURL: https://api.app.lithium.com
+  description: The Business Hours API from Lithium — 1 operation(s) for business hours.
+  name: Lithium Business Hours API
+  slug: lithium-business-hours-api
+- baseURL: https://community.khoros.com/api/2.0
   baseurl_source: declared
-  description: The Workqueues API from Lithium — 1 operation(s) for workqueues.
-  name: Lithium Workqueues API
-  slug: lithium-workqueues-api
-artifact_total: 208
+  description: The Work Queue API from Lithium — 1 operation(s) for work queue.
+  name: Lithium Work Queue API
+  slug: lithium-work-queue-api
+- baseURL: https://community.khoros.com/api/2.0
+  baseurl_source: declared
+  description: The Work Queues API from Lithium — 1 operation(s) for work queues.
+  name: Lithium Work Queues API
+  slug: lithium-work-queues-api
+artifact_total: 202
 asyncapis:
 - description: ''
   name: Lithium Webhooks
@@ -1070,11 +1041,11 @@ description: 'Lithium Technologies is the enterprise online-community and social
   adding a GraphQL API behind a login.'
 image: https://avatars.githubusercontent.com/u/4430799?v=4
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Lithium
 nav: Providers
 network: true
-overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network, including AccountSet API, Active API, Admin API, and 96 more. Tagged areas include Company, MarTech, Community, Social-Media, and Customer Engagement.
+overview: 'Lithium publishes 93 APIs on the [APIs.io](https://apis.io/) network, including AccountSet API, Active API, Admin API, and 90 more. Tagged areas include Company, MarTech, Community, Social-Media, and Customer Engagement.
 
 
   The Lithium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1085,7 +1056,7 @@ plans:
 - name: Lithium Plans Pricing
   plan_count: 0
   slug: lithium-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Lithium Rate Limits
@@ -1097,34 +1068,34 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 59.7
+  composite: 60.6
   coverage:
     artifact_dirs: 25
-    catalog_earned: 44.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 62.8
+    contract_quality: 62.7
     developer_ergonomics: 44.6
-    discoverability: 77.8
+    discoverability: 87.0
     operational_transparency: 84.2
   previous_composite: 59.7
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 93.3
       derived: 0
       marker_coverage: 0.0
-      total: 99
+      total: 93
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

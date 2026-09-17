@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for Darwinbox HRMS covering employee management, attendance, recruitment, organizational management, payroll, background verification, project management, and travel. Authentication uses toke
@@ -105,7 +105,7 @@ modified: '2026-06-13'
 name: Darwinbox
 nav: Providers
 network: true
-overview: 'Darwinbox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HRMS, HR, Human Resources, Payroll, and Recruitment.
+overview: 'Darwinbox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HRMS, Human Resources, Payroll, Recruitment, and Performance Management.
 
 
   Darwinbox''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -113,7 +113,7 @@ plans:
 - name: Darwinbox Plans Pricing
   plan_count: 1
   slug: darwinbox-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Darwinbox Rate Limits
@@ -140,7 +140,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -155,7 +155,6 @@ security:
 slug: darwinbox
 tags:
 - HRMS
-- HR
 - Human Resources
 - Payroll
 - Recruitment

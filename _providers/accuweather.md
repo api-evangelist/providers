@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,11 +53,6 @@ apis:
   description: The Ads API from AccuWeather — 1 operation(s) for ads.
   name: AccuWeather Ads API
   slug: accuweather-ads-api
-- baseURL: https://dataservice.accuweather.com
-  baseurl_source: declared
-  description: The AirQuality API from AccuWeather — 1 operation(s) for airquality.
-  name: AccuWeather AirQuality API
-  slug: accuweather-airquality-api
 - baseURL: https://dataservice.accuweather.com
   baseurl_source: declared
   description: The Autocomplete API from AccuWeather — 1 operation(s) for autocomplete.
@@ -148,6 +143,11 @@ apis:
   description: The Wintercast API from AccuWeather — 1 operation(s) for wintercast.
   name: AccuWeather Wintercast API
   slug: accuweather-wintercast-api
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Air Quality API from AccuWeather — 1 operation(s) for air quality.
+  name: AccuWeather Air Quality API
+  slug: accuweather-air-quality-api
 artifact_total: 238
 collections:
 - collection_type: open
@@ -217,6 +217,10 @@ collections:
   name: AccuWeather One Active Storms Wintercast API
   slug: open-accuweather-wintercast-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://accuweather.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/agentic-access/accuweather-agentic-access.yml
   title: ''
@@ -830,22 +834,22 @@ jsonld:
   property_count: 250
   slug: accuweather-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: AccuWeather
 nav: Providers
 network: true
-overview: 'AccuWeather publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Active Storms API, Ads API, AirQuality API, and 18 more. Tagged areas include Weather, Forecast, Meteorology, Location Services, and Air Quality.
+overview: 'AccuWeather publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Active Storms API, Ads API, Autocomplete API, and 18 more. Tagged areas include Weather, Forecast, Meteorology, Location Services, and Air Quality.
 
 
   The AccuWeather catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AccuWeather''s developer surface includes developer portal, getting-started guide, FAQ, pricing, and 10 more developer resources.'
+  AccuWeather''s developer surface includes developer portal, getting-started guide, FAQ, pricing, and 11 more developer resources.'
 plans:
 - name: Accuweather Plans Pricing
   plan_count: 3
   slug: accuweather-plans-pricing
-random_paper: 9
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Accuweather Rate Limits
@@ -874,7 +878,7 @@ rules:
   slug: accuweather-spectral-rules
 score:
   band: developing
-  composite: 46.0
+  composite: 45.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 66.5
@@ -882,11 +886,11 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 58.2
+    contract_quality: 55.8
     developer_ergonomics: 42.9
     discoverability: 68.5
     operational_transparency: 23.7
@@ -894,12 +898,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -930,5 +934,5 @@ use_cases:
   name: Emergency Management
 - description: Access hyper-local weather data and forecasts for precision agriculture, crop management, and environmental monitoring.
   name: Agriculture and Environmental Monitoring
-website: https://developer.accuweather.com/
+website: https://accuweather.com
 ---

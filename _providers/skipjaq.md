@@ -24,7 +24,7 @@ name: Skipjaq
 nav: Providers
 network: true
 overview: Skipjaq is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Performance Optimization, and Performance Testing.
-random_paper: 20
+random_paper: 7
 slug: skipjaq
 tags:
 - Company

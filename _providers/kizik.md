@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Kizik's Universal Commerce Protocol surface, exposed over MCP at https://kizik.com/api/ucp/mcp. An unauthenticated tools/list returns thirteen tools covering catalog search and lookup, cart create/upd
@@ -149,7 +149,7 @@ plans:
 - name: Kizik Plans Pricing
   plan_count: 0
   slug: kizik-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Kizik Rate Limits
@@ -183,7 +183,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -206,7 +206,7 @@ tags:
 - E-Commerce
 - Footwear
 - Consumer Goods
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - Shopify

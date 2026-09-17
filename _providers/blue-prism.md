@@ -33,18 +33,98 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://{address}/api/v7
-  baseurl_source: declared
-  description: The Blue Prism API is the REST contract for Blue Prism Enterprise. It exposes work queues and work queue items, sessions and session logs, schedules, scheduled tasks and schedule logs, calendars and h
-  name: Blue Prism API
-  slug: blue-prism
 - description: Also called the Timeline API. Lets third-party clients upload data to Process Intelligence projects, drive program modules without the UI, and retrieve processed results such as timeline statistics an
   name: Process Intelligence API
   slug: process-intelligence
-artifact_total: 11
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Calendars API from Blue Prism — 8 operation(s) for calendars.
+  name: Blue Prism Calendars API
+  slug: blue-prism-calendars-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Dashboards API from Blue Prism — 5 operation(s) for dashboards.
+  name: Blue Prism Dashboards API
+  slug: blue-prism-dashboards-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Encryption Schemes API from Blue Prism — 1 operation(s) for encryption schemes.
+  name: Blue Prism Encryption Schemes API
+  slug: blue-prism-encryption-schemes-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Environment Variables API from Blue Prism — 3 operation(s) for environment variables.
+  name: Blue Prism Environment Variables API
+  slug: blue-prism-environment-variables-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Health API from Blue Prism — 1 operation(s) for health.
+  name: Blue Prism Health API
+  slug: blue-prism-health-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Licenses API from Blue Prism — 2 operation(s) for licenses.
+  name: Blue Prism Licenses API
+  slug: blue-prism-licenses-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Pools API from Blue Prism — 1 operation(s) for pools.
+  name: Blue Prism Pools API
+  slug: blue-prism-pools-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Processes API from Blue Prism — 2 operation(s) for processes.
+  name: Blue Prism Processes API
+  slug: blue-prism-processes-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Resources API from Blue Prism — 2 operation(s) for resources.
+  name: Blue Prism Resources API
+  slug: blue-prism-resources-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The ScheduleLogs API from Blue Prism — 2 operation(s) for schedulelogs.
+  name: Blue Prism Schedule Logs API
+  slug: blue-prism-schedulelogs-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Schedules API from Blue Prism — 14 operation(s) for schedules.
+  name: Blue Prism Schedules API
+  slug: blue-prism-schedules-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Sessions API from Blue Prism — 6 operation(s) for sessions.
+  name: Blue Prism Sessions API
+  slug: blue-prism-sessions-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Subscriptions API from Blue Prism — 1 operation(s) for subscriptions.
+  name: Blue Prism Subscriptions API
+  slug: blue-prism-subscriptions-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The User API from Blue Prism — 1 operation(s) for user.
+  name: Blue Prism User API
+  slug: blue-prism-user-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Work Queue Groups API from Blue Prism — 5 operation(s) for work queue groups.
+  name: Blue Prism Work Queue Groups API
+  slug: blue-prism-work-queue-groups-api
+- baseURL: https://{address}/api/v7
+  baseurl_source: declared
+  description: The Work Queues API from Blue Prism — 12 operation(s) for work queues.
+  name: Blue Prism Work Queues API
+  slug: blue-prism-work-queues-api
+- baseURL: https://{your.instance}/open-api/1.0
+  baseurl_source: declared
+  description: The Timezones API from Blue Prism — 1 operation(s) for timezones.
+  name: Blue Prism Timezones API
+  slug: blue-prism-timezones-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Blue Prism Webhooks
@@ -238,7 +318,7 @@ modified: '2026-08-29'
 name: Blue Prism
 nav: Providers
 network: true
-overview: 'Blue Prism publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI Automation, RPA, Intelligent Automation, Business Process Management, and Process Orchestration.
+overview: 'Blue Prism publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Dashboards API, Encryption Schemes API, and 14 more. Tagged areas include AI Automation, RPA, Intelligent Automation, Business Process Management, and Process Orchestration.
 
 
   The Blue Prism catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -249,7 +329,7 @@ plans:
 - name: Blue Prism Plans Pricing
   plan_count: 0
   slug: blue-prism-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Blue Prism Rate Limits
@@ -261,7 +341,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.4
+  composite: 49.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -269,11 +349,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 51.3
     contract_governance: 0.0
-    contract_quality: 60.6
+    contract_quality: 59.7
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 44.7
@@ -284,11 +364,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 17
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

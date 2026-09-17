@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -11,25 +11,57 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 34.9
+  scored_at: '2026-09-16'
+api_count: 7
 apis:
-- description: RESTful JSON API grouping five sentiment services (Reddit Stocks, X.com Stocks, Stock News, Polymarket Stocks, Reddit Crypto) with 41 base endpoints plus PRO raw-mention endpoints. Authenticated via X
-  name: Adanos Market Sentiment API
-  slug: adanos-market-sentiment-api
-artifact_total: 7
+- baseURL: https://api.adanos.org
+  baseurl_source: declared
+  description: Direct finance-tuned sentiment analysis for client-provided trading, market and investment text.
+  name: Adanos Market Sentiment API Finance Sentiment API
+  slug: adanos-market-sentiment-api-finance-sentiment-api
+- baseURL: https://api.adanos.org
+  baseurl_source: declared
+  description: Operational health and freshness checks. Useful for monitoring, not required for normal client integrations.
+  name: Adanos Market Sentiment API Health Check API
+  slug: adanos-market-sentiment-api-health-check-api
+- baseURL: https://api.adanos.org
+  baseurl_source: declared
+  description: Editorial/news sentiment with source breadth. Use `source` on supported endpoints to isolate a publisher or canonical source id.
+  name: Adanos Market Sentiment API News Stocks API
+  slug: adanos-market-sentiment-api-news-stocks-api
+- baseURL: https://api.adanos.org
+  baseurl_source: declared
+  description: Prediction-market based stock sentiment and attention from Polymarket prices, trades, liquidity and orderbook signals. Metrics are market-centric rather than mention-based.
+  name: Adanos Market Sentiment API Polymarket Stocks API
+  slug: adanos-market-sentiment-api-polymarket-stocks-api
+- baseURL: https://api.adanos.org
+  baseurl_source: declared
+  description: Crypto sentiment on Reddit with the same discovery/search/compare pattern as the stock APIs.
+  name: Adanos Market Sentiment API Reddit Crypto API
+  slug: adanos-market-sentiment-api-reddit-crypto-api
+- baseURL: https://api.adanos.org
+  baseurl_source: declared
+  description: Retail stock discussion data from Reddit. Start with `/trending`, then drill into `/stock/{ticker}` or build watchlists with `/compare`.
+  name: Adanos Market Sentiment API Reddit Stocks API
+  slug: adanos-market-sentiment-api-reddit-stocks-api
+- baseURL: https://api.adanos.org
+  baseurl_source: declared
+  description: Fast-moving stock attention from X/Twitter cashtags and tweet engagement, useful for momentum discovery and validation.
+  name: Adanos Market Sentiment API X/Twitter Stocks API
+  slug: adanos-market-sentiment-api-x-twitter-stocks-api
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -183,7 +215,7 @@ modified: '2026-09-03'
 name: Adanos Market Sentiment API
 nav: Providers
 network: true
-overview: 'Adanos Market Sentiment API publishes 1 API on the [APIs.io](https://apis.io/) network: Adanos Market Sentiment API. Tagged areas include Market, Sentiment, Stocks, Crypto, and Finance.
+overview: 'Adanos Market Sentiment API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Finance Sentiment API, Health Check API, News Stocks API, and 4 more. Tagged areas include Markets, Sentiment, Stocks, Crypto, and Finance.
 
 
   Adanos Market Sentiment API''s developer surface includes authentication, CLI, changelog, pricing, signup flow, support, engineering blog, and 24 more developer resources.'
@@ -191,37 +223,37 @@ plans:
 - name: Adanos Market Sentiment Api Plans Pricing
   plan_count: 3
   slug: adanos-market-sentiment-api-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 6
   name: Adanos Market Sentiment Api Rate Limits
   slug: adanos-market-sentiment-api-rate-limits
 score:
   band: strong
-  composite: 54.3
+  composite: 63.2
   coverage:
     artifact_dirs: 21
-    catalog_earned: 59.0
+    catalog_earned: 62.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.9
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 26.7
+    contract_quality: 60.1
     developer_ergonomics: 57.1
-    discoverability: 72.2
+    discoverability: 77.8
     operational_transparency: 76.3
   previous_composite: 54.3
   provenance:
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 7
     mcp: derived
     skills: first-party
   regulatory:
@@ -231,8 +263,8 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -256,7 +288,7 @@ skills:
   slug: adanos-market-sentiment
 slug: adanos-market-sentiment-api
 tags:
-- Market
+- Markets
 - Sentiment
 - Stocks
 - Crypto

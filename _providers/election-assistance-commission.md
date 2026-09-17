@@ -34,19 +34,94 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://www.eac.gov/jsonapi
-  baseurl_source: declared
-  description: A live, anonymous, read-only JSON:API 1.0 surface served by the EAC's own Drupal 10 web platform at https://www.eac.gov/jsonapi. The EAC does not document, advertise or link to it from any developer p
-  name: EAC Content JSON:API
-  slug: eac
 - description: 'The EAC''s federal open-data inventory, served at https://www.eac.gov/data.json and declaring conformance to the Project Open Data / DCAT-US v1.1 schema in the document itself. Probed 2026-09-06: HTTP '
   name: EAC Open Data Catalog
   slug: data-catalog
-artifact_total: 15
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Theme block placements.
+  name: Election Assistance Commission Block API
+  slug: election-assistance-commission-block-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Reusable content blocks.
+  name: Election Assistance Commission Block Content API
+  slug: election-assistance-commission-block-content-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Contact form definitions.
+  name: Election Assistance Commission Contact Form API
+  slug: election-assistance-commission-contact-form-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Site date format configuration.
+  name: Election Assistance Commission Date Format API
+  slug: election-assistance-commission-date-format-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: File entities backing media items.
+  name: Election Assistance Commission File API
+  slug: election-assistance-commission-file-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Media entities — documents (PDF reports, certifications, test reports), images and remote video.
+  name: Election Assistance Commission Media API
+  slug: election-assistance-commission-media-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Media bundle definitions.
+  name: Election Assistance Commission Media Type API
+  slug: election-assistance-commission-media-type-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Site menus.
+  name: Election Assistance Commission Menu API
+  slug: election-assistance-commission-menu-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Content nodes — the EAC's substantive records (voting systems, manufacturers, test labs, NVRA, grants, news, FAQs).
+  name: Election Assistance Commission Node API
+  slug: election-assistance-commission-node-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Node bundle definitions.
+  name: Election Assistance Commission Node Type API
+  slug: election-assistance-commission-node-type-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Layout paragraph components composing EAC landing pages.
+  name: Election Assistance Commission Paragraph API
+  slug: election-assistance-commission-paragraph-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Paragraph bundle definitions.
+  name: Election Assistance Commission Paragraphs Type API
+  slug: election-assistance-commission-paragraphs-type-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Search page configuration.
+  name: Election Assistance Commission Search Page API
+  slug: election-assistance-commission-search-page-api
+- baseURL: https://www.eac.gov/jsonapi
+  baseurl_source: declared
+  description: Controlled vocabularies the EAC maintains — states, certification statuses, manufacturer types, test lab statuses, document and news categories.
+  name: Election Assistance Commission Taxonomy Term API
+  slug: election-assistance-commission-taxonomy-term-api
+artifact_total: 28
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/overlays/election-assistance-commission-jsonapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/election-assistance-commission-jsonapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -165,22 +240,22 @@ modified: '2026-09-06'
 name: Election Assistance Commission
 nav: Providers
 network: true
-overview: 'Election Assistance Commission publishes 1 API on the [APIs.io](https://apis.io/) network: EAC Content JSON:API. Tagged areas include Federal-Government, Elections, Voting, Open Data, and Voting Systems.
+overview: 'Election Assistance Commission publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Block API, Block Content API, Contact Form API, and 11 more. Tagged areas include Federal-Government, Elections, Voting, Open Data, and Voting Systems.
 
 
-  Election Assistance Commission''s developer surface includes documentation, engineering blog, support, and 17 more developer resources.'
+  Election Assistance Commission''s developer surface includes documentation, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Election Assistance Commission Plans Pricing
   plan_count: 0
   slug: election-assistance-commission-plans-pricing
-random_paper: 13
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Election Assistance Commission Rate Limits
   slug: election-assistance-commission-rate-limits
 score:
-  band: developing
-  composite: 41.4
+  band: thin
+  composite: 38.6
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -188,11 +263,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 18.4
     contract_governance: 33.3
-    contract_quality: 57.8
+    contract_quality: 46.7
     developer_ergonomics: 30.4
     discoverability: 68.5
     operational_transparency: 15.8
@@ -201,9 +276,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
+      derived: 3
       marker_coverage: 100.0
-      total: 1
+      total: 14
     mcp: derived
     skills: derived
   regulatory:
@@ -213,7 +288,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ modified: '2026-05-23'
 name: Humanloop
 nav: Providers
 network: true
-overview: 'Humanloop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Evaluators API, Logs API, and 3 more. Tagged areas include LLM Platform, Prompt Management, Evaluations, LLMOps, and Observability.
+overview: 'Humanloop publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Evaluators API, Logs API, and 3 more. Tagged areas include LLM Platform, Prompt Management, Evaluation, LLMOps, and Observability.
 
 
   Humanloop''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
@@ -188,7 +188,7 @@ plans:
 - name: Humanloop Plans Pricing
   plan_count: 1
   slug: humanloop-plans-pricing
-random_paper: 13
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Humanloop Rate Limits
@@ -220,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -239,7 +239,7 @@ slug: humanloop
 tags:
 - LLM Platform
 - Prompt Management
-- Evaluations
+- Evaluation
 - LLMOps
 - Observability
 - Datasets

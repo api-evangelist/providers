@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 51 operations · 34 acting
 api_count: 4
 apis:
-- baseURL: https://api.rocketlawyer.com/partners/v1/auth
-  baseurl_source: declared
-  description: The Accesstoken API from Rocket Lawyer — 1 operation(s) for accesstoken.
-  name: Rocket Lawyer Accesstoken API
-  slug: rocket-lawyer-accesstoken-api
 - baseURL: https://api.rocketlawyer.com/partners/v1/auth
   baseurl_source: declared
   description: The Binders API from Rocket Lawyer — 19 operation(s) for binders.
@@ -84,6 +79,11 @@ apis:
   description: The Templates API from Rocket Lawyer — 5 operation(s) for templates.
   name: Rocket Lawyer Templates API
   slug: rocket-lawyer-templates-api
+- baseURL: https://api.rocketlawyer.com/partners/v1/auth
+  baseurl_source: declared
+  description: The Access Token API from Rocket Lawyer — 1 operation(s) for access token.
+  name: Rocket Lawyer Access Token API
+  slug: rocket-lawyer-access-token-api
 artifact_total: 25
 collections:
 - collection_type: open
@@ -283,14 +283,14 @@ modified: '2026-05-25'
 name: Rocket Lawyer
 nav: Providers
 network: true
-overview: 'Rocket Lawyer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accesstoken API, Binders API, Documents API, and 5 more. Tagged areas include Legal, Legal Technology, Legal Tech, Legal Documents, and Electronic Signature.
+overview: 'Rocket Lawyer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Binders API, Documents API, Event Consumption API, and 5 more. Tagged areas include Legal, Legal Technology, Legal Tech, Legal Documents, and Electronic Signature.
 
 
   Rocket Lawyer''s developer surface includes authentication, developer portal, getting-started guide, documentation, release notes, signup flow, support, and 29 more developer resources.'
-random_paper: 9
+random_paper: 11
 score:
   band: thin
-  composite: 35.2
+  composite: 36.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 40.0
@@ -298,11 +298,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 27.6
     contract_governance: 0.0
-    contract_quality: 53.8
+    contract_quality: 57.9
     developer_ergonomics: 35.7
     discoverability: 74.1
     operational_transparency: 18.4
@@ -315,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -347,7 +347,7 @@ tags:
 - Business Formation
 - LLC Formation
 - Registered Agent
-- Trademark
+- Trademarks
 - Wills
 - Estate Planning
 - Attorney Network

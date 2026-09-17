@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -99,6 +99,10 @@ collections:
   name: Trading 212 Public Accounts Positions API
   slug: open-trading212-positions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://trading212.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/trading212/refs/heads/main/agentic-access/trading212-agentic-access.yml
   title: ''
@@ -350,7 +354,7 @@ jsonld:
   property_count: 0
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Trading 212
 nav: Providers
 network: true
@@ -360,12 +364,12 @@ overview: 'Trading 212 publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The Trading 212 catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Trading 212''s developer surface includes authentication and 11 more developer resources.'
+  Trading 212''s developer surface includes authentication and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 18
   name: Rate Limits
@@ -414,7 +418,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -442,4 +446,5 @@ tags:
 - Portfolio
 - Commission-Free
 - ISA
+website: https://trading212.com
 ---

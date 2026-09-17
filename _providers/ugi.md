@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: UGI International manages LPG and natural gas distribution operations across Europe, primarily through Flaga, AvantiGas, and other regional brands serving 17 European countries with liquid petroleum g
@@ -41,6 +41,10 @@ apis:
   slug: ugi-international
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ugicorp.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ugi/refs/heads/main/security/ugi-domain-security.yml
   title: ''
@@ -83,7 +87,7 @@ jsonld:
   property_count: 13
   slug: ugi-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: UGI Corporation
 nav: Providers
 network: true
@@ -111,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: 'Press Release: UGI Selects IntelliShift for Vehicle AI Video ...'
   url: https://intellishift.com/resources/blog/press-release-ugi-selects-intellishift-for-vehicle-ai-video-deployment/
-random_paper: 10
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Ugi Rate Limits
@@ -153,7 +157,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -174,4 +178,5 @@ tags:
 - Electric
 - Fortune 500
 - Pennsylvania
+website: https://ugicorp.com
 ---

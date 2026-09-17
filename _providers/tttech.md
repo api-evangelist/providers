@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 11
@@ -44,20 +44,230 @@ agentic_access:
   operation_count: 228
   slug: tttech-agentic-access
   summary_line: 228 operations · 122 acting · 11 human-in-the-loop
-api_count: 2
+api_count: 4
 apis:
 - baseURL: https://trynerve1.nerve.cloud
   baseurl_source: declared
-  description: REST API of the Nerve Management System, the cloud-hosted control plane for Nerve edge nodes. Covers authentication and MFA, node registration and lifecycle, workload and workload-version management (
-  name: Nerve Management System API
-  slug: nerve-management-system-api
-- baseURL: http://172.20.2.1:3333
+  description: The operations to manage authentication and authorization of MS users
+  name: TTTech AUTH API
+  slug: tttech-auth-api
+- baseURL: https://trynerve1.nerve.cloud
   baseurl_source: declared
-  description: 'REST API served by the Nerve Local UI on each Nerve edge node. Covers node initialization and license activation, system and network configuration, proxy settings, local users and permissions, Docker '
-  name: Nerve Node API
-  slug: nerve-node-api
-artifact_total: 8
+  description: The operations to manage node capabilities
+  name: TTTech CAPABILITIES API
+  slug: tttech-capabilities-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The CODESYS PROCESS API from TTTech — 1 operation(s) for codesys process.
+  name: TTTech CODESYS PROCESS API
+  slug: tttech-codesys-process-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: Node configuration operations (onboarding, retrieving the Management system version, retrieving the node's secure ID, etc.)
+  name: TTTech CONFIGURATION API
+  slug: tttech-configuration-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage node data exchange.
+  name: TTTech DATA EXCHANGE API
+  slug: tttech-data-exchange-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The DATAPATH API from TTTech — 1 operation(s) for datapath.
+  name: TTTech DATAPATH API
+  slug: tttech-datapath-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage workload DNA configuration
+  name: TTTech DNA API
+  slug: tttech-dna-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage docker compose file
+  name: TTTech DOCKER COMPOSE FILE API
+  slug: tttech-docker-compose-file-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The DOCKER_RESOURCES_IMAGES API from TTTech — 1 operation(s) for docker_resources_images.
+  name: TTTech DOCKER RESOURCES IMAGES API
+  slug: tttech-docker-resources-images-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The DOCKER_RESOURCES_VOLUMES API from TTTech — 4 operation(s) for docker_resources_volumes.
+  name: TTTech DOCKER RESOURCES VOLUMES API
+  slug: tttech-docker-resources-volumes-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage authentication and authorization of MQTT clients
+  name: TTTech EMQX API
+  slug: tttech-emqx-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The INITIALIZATION API from TTTech — 1 operation(s) for initialization.
+  name: TTTech INITIALIZATION API
+  slug: tttech-initialization-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: Operations intended solely for testing, used to validate system behavior under invalid or edge-case data scenarios. Not for production use.
+  name: TTTech INTERNAL TEST API
+  slug: tttech-internal-test-api-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage labels
+  name: TTTech LABEL API
+  slug: tttech-label-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage LDAP users
+  name: TTTech LDAP API
+  slug: tttech-ldap-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage Docker registry
+  name: TTTech NERVE DOCKER REGISTRY API
+  slug: tttech-nerve-docker-registry-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage Nerve updates
+  name: TTTech NERVE UPDATE API
+  slug: tttech-nerve-update-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage nodes v1.
+  name: TTTech NODE API
+  slug: tttech-node-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage nodes v2.
+  name: TTTech NODE V2 API
+  slug: tttech-node-v2-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage notifications.
+  name: TTTech NOTIFICATION API
+  slug: tttech-notification-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The PROXY SETTINGS API from TTTech — 1 operation(s) for proxy settings.
+  name: TTTech PROXY SETTINGS API
+  slug: tttech-proxy-settings-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage remote connections.
+  name: TTTech REMOTE CONNECTIONS API
+  slug: tttech-remote-connections-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The REPOSITORIES API from TTTech — 4 operation(s) for repositories.
+  name: TTTech REPOSITORIES API
+  slug: tttech-repositories-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage Service OS DNA configuration
+  name: TTTech SERVICE OS DNA API
+  slug: tttech-service-os-dna-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The SETUP NETWORK API from TTTech — 3 operation(s) for setup network.
+  name: TTTech SETUP NETWORK API
+  slug: tttech-setup-network-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The SYSTEM API from TTTech — 7 operation(s) for system.
+  name: TTTech SYSTEM API
+  slug: tttech-system-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage usage reports
+  name: TTTech USAGE REPORTS API
+  slug: tttech-usage-reports-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The USERS API from TTTech — 2 operation(s) for users.
+  name: TTTech USERS API
+  slug: tttech-users-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage workload files of specific versions v3
+  name: TTTech WL VERSION FILE API
+  slug: tttech-wl-version-file-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage specific versions of workloads v2
+  name: TTTech WL VERSION V2 API
+  slug: tttech-wl-version-v2-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage specific versions of workloads v3
+  name: TTTech WL VERSION V3 API
+  slug: tttech-wl-version-v3-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage workloads v1.
+  name: TTTech WORKLOAD API
+  slug: tttech-workload-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The WORKLOAD CODESYS API from TTTech — 2 operation(s) for workload codesys.
+  name: TTTech WORKLOAD CODESYS API
+  slug: tttech-workload-codesys-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage workload configurations
+  name: TTTech WORKLOAD CONFIGURATION API
+  slug: tttech-workload-configuration-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage workloads v2.
+  name: TTTech WORKLOAD V2 API
+  slug: tttech-workload-v2-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The operations to manage workloads v3.
+  name: TTTech WORKLOAD V3 API
+  slug: tttech-workload-v3-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The WORKLOADS API from TTTech — 6 operation(s) for workloads.
+  name: TTTech WORKLOADS API
+  slug: tttech-workloads-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The WORKLOADS BACKUPS API from TTTech — 3 operation(s) for workloads backups.
+  name: TTTech WORKLOADS BACKUPS API
+  slug: tttech-workloads-backups-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The WORKLOADS COMPOSE API from TTTech — 2 operation(s) for workloads compose.
+  name: TTTech WORKLOADS COMPOSE API
+  slug: tttech-workloads-compose-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The WORKLOADS LOGS API from TTTech — 2 operation(s) for workloads logs.
+  name: TTTech WORKLOADS LOGS API
+  slug: tttech-workloads-logs-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The WORKLOADS NETWORKS API from TTTech — 1 operation(s) for workloads networks.
+  name: TTTech WORKLOADS NETWORKS API
+  slug: tttech-workloads-networks-api
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: The WORKLOADS SNAPSHOTS API from TTTech — 2 operation(s) for workloads snapshots.
+  name: TTTech WORKLOADS SNAPSHOTS API
+  slug: tttech-workloads-snapshots-api
+artifact_total: 48
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tttech/refs/heads/main/overlays/tttech-nerve-management-system-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tttech-nerve-management-system-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tttech/refs/heads/main/overlays/tttech-nerve-node-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tttech-nerve-node-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/tttech/refs/heads/main/agentic-access/tttech-agentic-access.yml
   title: ''
@@ -209,36 +419,36 @@ modified: '2026-09-01'
 name: TTTech
 nav: Providers
 network: true
-overview: 'TTTech publishes 2 APIs on the [APIs.io](https://apis.io/) network: Nerve Management System API and Nerve Node API. Tagged areas include Company, Industrial IoT, Edge Computing, Device Management, and Deterministic Networking.
+overview: 'TTTech publishes 42 APIs on the [APIs.io](https://apis.io/) network, including AUTH API, CAPABILITIES API, CODESYS PROCESS API, and 39 more. Tagged areas include Company, Industrial IoT, Edge Computing, Device Management, and Deterministic Networking.
 
 
-  TTTech''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 24 more developer resources.'
+  TTTech''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 26 more developer resources.'
 plans:
 - name: Tttech Plans Pricing
   plan_count: 0
   slug: tttech-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Tttech Rate Limits
   slug: tttech-rate-limits
 score:
   band: developing
-  composite: 52.2
+  composite: 52.8
   coverage:
     artifact_dirs: 22
-    catalog_earned: 49.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 56.6
+    contract_quality: 56.9
     developer_ergonomics: 80.4
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -251,14 +461,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 50.0
+      callable: 57.1
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 42
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

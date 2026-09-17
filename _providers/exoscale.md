@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 219
   human_in_the_loop: 24
@@ -58,11 +58,6 @@ apis:
   description: API keys are credentials for programmatic access to Exoscale APIs and services.
   name: Exoscale api-key API
   slug: exoscale-api-key-api
-- baseURL: https://api-ch-gva-2.exoscale.com/v2
-  baseurl_source: declared
-  description: Exoscale's Block Storage offers persistent externally attached volumes for your Compute instances.
-  name: Exoscale block-storage API
-  slug: exoscale-block-storage-api
 - baseURL: https://api-ch-gva-2.exoscale.com/v2
   baseurl_source: declared
   description: The ccm API from Exoscale — 1 operation(s) for ccm.
@@ -228,6 +223,11 @@ apis:
   description: A Zone represents an independent datacenter in which Exoscale infrastructure is deployed into.
   name: Exoscale zone API
   slug: exoscale-zone-api
+- baseURL: https://api-ch-gva-2.exoscale.com/v2
+  baseurl_source: declared
+  description: Exoscale's Block Storage offers persistent externally attached volumes for your Compute instances.
+  name: Exoscale Blockstorage API
+  slug: exoscale-blockstorage-api
 artifact_total: 83
 collections:
 - collection_type: open
@@ -441,7 +441,7 @@ plans:
 - name: Exoscale Plans Pricing
   plan_count: 3
   slug: exoscale-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Exoscale Rate Limits
@@ -478,7 +478,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

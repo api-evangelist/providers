@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Programmatic creation and management of gammas (presentations, documents, websites, and social posts). Asynchronous generate-and-poll workflow plus template, export, management, and analytics endpoint
@@ -125,7 +125,7 @@ overview: 'Gamma publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gamma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Gamma Rate Limits
@@ -158,7 +158,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

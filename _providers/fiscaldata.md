@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: fiscaldata-agentic-access
   summary_line: 9 operations
-api_count: 1
+api_count: 3
 apis:
 - baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
   baseurl_source: declared
@@ -77,12 +77,12 @@ apis:
   baseurl_source: declared
   description: Federal debt, public debt outstanding, and interest rate data.
   name: U.S. Treasury Fiscal Data National Debt API
-  slug: u-s-treasury-fiscal-data-national-debt-api
+  slug: fiscaldata-national-debt-api
 - baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
   baseurl_source: declared
   description: Daily and monthly Treasury financial statements.
   name: U.S. Treasury Fiscal Data Treasury Statements API
-  slug: u-s-treasury-fiscal-data-treasury-statements-api
+  slug: fiscaldata-treasury-statements-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -171,28 +171,28 @@ plans:
 - name: Fiscaldata Plans Pricing
   plan_count: 1
   slug: fiscaldata-plans-pricing
-random_paper: 7
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Fiscaldata Rate Limits
   slug: fiscaldata-rate-limits
 score:
   band: thin
-  composite: 31.9
+  composite: 32.8
   coverage:
     artifact_dirs: 7
-    catalog_earned: 66.0
+    catalog_earned: 69.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.0
+    catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 50.3
+    contract_quality: 51.4
     developer_ergonomics: 34.5
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 23.7
   previous_composite: 31.9
   provenance:
@@ -209,7 +209,7 @@ score:
     regime_id: government
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

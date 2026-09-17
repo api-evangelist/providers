@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -101,11 +101,6 @@ apis:
   slug: jinba-tools-api
 - baseURL: https://toolbox-api.jinba.dev/v1
   baseurl_source: declared
-  description: The ToolSets API from Jinba — 2 operation(s) for toolsets.
-  name: Jinba ToolSets API
-  slug: jinba-toolsets-api
-- baseURL: https://toolbox-api.jinba.dev/v1
-  baseurl_source: declared
   description: The Versions API from Jinba — 3 operation(s) for versions.
   name: Jinba Versions API
   slug: jinba-versions-api
@@ -114,6 +109,11 @@ apis:
   description: The Webhooks API from Jinba — 3 operation(s) for webhooks.
   name: Jinba Webhooks API
   slug: jinba-webhooks-api
+- baseURL: https://toolbox-api.jinba.dev/v1
+  baseurl_source: declared
+  description: The Tool Sets API from Jinba — 2 operation(s) for tool sets.
+  name: Jinba Tool Sets API
+  slug: jinba-tool-sets-api
 artifact_total: 34
 asyncapis:
 - description: ''
@@ -317,7 +317,7 @@ overview: 'Jinba publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Jinba''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, authentication, and 22 more developer resources.'
-random_paper: 12
+random_paper: 10
 score:
   band: developing
   composite: 42.0
@@ -348,7 +348,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

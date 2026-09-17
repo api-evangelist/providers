@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 1
+- acting_count: 9
   human_in_the_loop: 0
   name: Vespa Ai Agentic Access
-  operation_count: 2
+  operation_count: 18
   slug: vespa-ai-agentic-access
-  summary_line: 2 operations · 1 acting
+  summary_line: 18 operations · 9 acting
 api_count: 3
 apis:
 - description: The Vespa Deploy API (/application/v2) manages application packages on a Vespa configuration server. It supports preparing, activating, and tearing down application packages, session-based deployments
@@ -360,7 +360,7 @@ plans:
 - name: Vespa Ai Plans Pricing
   plan_count: 6
   slug: vespa-ai-plans-pricing
-random_paper: 13
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Vespa Ai Rate Limits
@@ -414,7 +414,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -441,7 +441,7 @@ tags:
 - Big Data
 - Machine-Learning
 - Semantic Search
-- Retrieval Augmented Generation
+- RAG
 - Open-Source
 - Tensor
 - Recommendations

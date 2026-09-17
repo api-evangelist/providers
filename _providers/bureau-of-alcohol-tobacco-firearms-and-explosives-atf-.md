@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
-api_count: 5
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: ATF publishes annual firearms trace data reports covering the source and age of crime guns traced by law enforcement agencies across the United States. Data includes state-level statistics on firearms
   name: ATF Firearms Trace Data
@@ -42,18 +42,33 @@ apis:
 - description: ATF publishes listings of all active Federal Firearms Licensees (FFLs) by state. The data is available as downloadable files and can be accessed programmatically for compliance verification purposes.
   name: ATF Federal Firearms Licensee (FFL) Listing
   slug: atf-federal-firearms-licensee-listing
-- baseURL: https://regulations.atf.gov/api
-  baseurl_source: declared
-  description: A read-only JSON API over the ATF regulations in Title 27 of the Code of Federal Regulations — Parts 447, 478, 479, 555, 646 and 771 — served by ATF's eRegulations deployment. It exposes the full nest
-  name: ATF eRegulations API
-  slug: atf-eregulations-api
 - description: An anonymous Esri GeoServices REST feature service carrying 77,514 geocoded Federal Firearms Licensee premises, published by ATF's National Geospatial Intelligence Branch from the same source as the a
   name: ATF Federal Firearm Licensee Locations (ArcGIS Feature Service)
   slug: atf-ffl-locations-feature-service
 - description: An anonymous Esri GeoServices REST feature service listing 537 ATF offices and field divisions across the United States, with office type, name, street address, city, state, ZIP and the field division
   name: ATF Office Locations (ArcGIS Feature Service)
   slug: atf-office-locations-feature-service
-artifact_total: 13
+- baseURL: https://www.atf.gov/firearms/docs/report/
+  baseurl_source: declared
+  description: Structural differences between two versions of a part.
+  name: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Diffs API
+  slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--diffs-api
+- baseURL: https://www.atf.gov/firearms/docs/report/
+  baseurl_source: declared
+  description: Federal Register notices that amend the ATF parts.
+  name: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Notices API
+  slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--notices-api
+- baseURL: https://www.atf.gov/firearms/docs/report/
+  baseurl_source: declared
+  description: The CFR part tree and its effective versions.
+  name: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Regulations API
+  slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--regulations-api
+- baseURL: https://www.atf.gov/firearms/docs/report/
+  baseurl_source: declared
+  description: Full-text search across regulation text.
+  name: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Search API
+  slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--search-api
+artifact_total: 16
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/security/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--domain-security.yml
@@ -89,10 +104,10 @@ common:
   type: Statistics
   url: https://www.atf.gov/resource-center/data-statistics
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/openapi/_original/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
+  url: openapi/_original/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-alcohol-tobacco-firearms-and-explosives-atf-/refs/heads/main/overlays/bureau-of-alcohol-tobacco-firearms-and-explosives-atf--eregulations-overlay.yaml
   title: ''
@@ -195,11 +210,11 @@ mcp_servers:
 - description: ''
   name: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) MCP Server
   slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf-mcp-server
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)
 nav: Providers
 network: true
-overview: 'Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) publishes 1 API on the [APIs.io](https://apis.io/) network: ATF eRegulations API. Tagged areas include Alcohol, Explosives, Federal-Government, Firearms, and Geospatial.
+overview: 'Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Diffs API, Notices API, Regulations API, and 1 more. Tagged areas include Alcohol, Explosives, Federal-Government, Firearms, and Geospatial.
 
 
   Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)''s developer surface includes authentication, documentation, API reference, and 23 more developer resources.'
@@ -207,28 +222,28 @@ plans:
 - name: Bureau Of Alcohol Tobacco Firearms And Explosives Atf  Plans Pricing
   plan_count: 0
   slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Bureau Of Alcohol Tobacco Firearms And Explosives Atf  Rate Limits
   slug: bureau-of-alcohol-tobacco-firearms-and-explosives-atf--rate-limits
 score:
   band: thin
-  composite: 34.3
+  composite: 33.6
   coverage:
     artifact_dirs: 22
-    catalog_earned: 44.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
-    contract_quality: 51.7
+    contract_quality: 51.4
     developer_ergonomics: 30.4
-    discoverability: 64.8
+    discoverability: 59.3
     operational_transparency: 2.6
   previous_composite: 34.3
   provenance:
@@ -237,7 +252,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -247,7 +262,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

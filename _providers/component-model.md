@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The Component Model specification repository under the W3C WebAssembly Community Group. Contains design documents, the formal specification drafts, the WIT grammar, the canonical ABI, and the binary a
@@ -103,7 +103,7 @@ modified: '2026-04-28'
 name: Component Model
 nav: Providers
 network: true
-overview: 'Component Model publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ABI, Bytecode Alliance, Component, Interfaces, and Modular.
+overview: 'Component Model publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ABI, Bytecode Alliance, Components, Interfaces, and Modular.
 
 
   Component Model''s developer surface includes documentation and 9 more developer resources.'
@@ -111,7 +111,7 @@ plans:
 - name: Component Model Plans Pricing
   plan_count: 3
   slug: component-model-plans-pricing
-random_paper: 20
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Component Model Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ slug: component-model
 tags:
 - ABI
 - Bytecode Alliance
-- Component
+- Components
 - Interfaces
 - Modular
 - Specification

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Educative API is a platform that provides developers with access to a wide range of educational materials and resources through an easy-to-use interface. With Educative API, developers can access tuto
@@ -122,7 +122,7 @@ plans:
 - name: Educative Plans Pricing
   plan_count: 0
   slug: educative-plans-pricing
-random_paper: 9
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Educative Rate Limits
@@ -153,7 +153,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

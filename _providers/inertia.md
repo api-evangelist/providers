@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,7 +62,7 @@ name: Inertia
 nav: Providers
 network: true
 overview: Inertia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Fusion Energy, Clean Energy, and Inertial Confinement Fusion.
-random_paper: 13
+random_paper: 0
 score:
   band: minimal
   composite: 9.1
@@ -89,7 +89,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -108,7 +108,7 @@ tags:
 - Fusion Energy
 - Clean Energy
 - Inertial Confinement Fusion
-- Laser
+- Lasers
 - Power Generation
 - Climate Tech
 website: https://inertia.com/

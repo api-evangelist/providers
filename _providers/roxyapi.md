@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: flavored
     agent_skills: true
@@ -15,21 +16,98 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: templated
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-09-15'
+  score: 39.0
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: Production REST API covering 14 spiritual intelligence domains with 210+ endpoints under a single API key, authenticated via X-API-Key header. Documented by a live OpenAPI 3.1 spec and interactive ref
-  name: RoxyAPI REST API v2
-  slug: roxyapi-rest-api-v2
-artifact_total: 7
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: Angel numbers API with meanings for 111, 222, 333, 444, 555, 666, 777, 888, 999, 1111, and 75+ sequences covering every common family. Each reading breaks down into spiritual, love, career, money, and
+  name: RoxyAPI Angel Numbers API
+  slug: roxyapi-angel-numbers-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: 'The most complete biorhythm API: 10 cycle types across 3 primary (physical, emotional, intellectual), 4 secondary (intuitive, aesthetic, awareness, spiritual), and 3 composite (passion, mastery, wisdo'
+  name: RoxyAPI Biorhythm API
+  slug: roxyapi-biorhythm-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: 'Calculate BaZi Four Pillars charts, Chinese zodiac signs, and the Chinese lunisolar calendar from any birth moment: year, month, day and hour pillars with hidden stems, Na Yin and Ten God relations, l'
+  name: RoxyAPI Chinese Astrology API
+  slug: roxyapi-chinese-astrology-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: Crystal healing API covering the most popular and widely-searched healing crystals and gemstones, from Amethyst and Rose Quartz to Moldavite and Selenite, each with its spiritual, emotional, and physi
+  name: RoxyAPI Crystals and Healing Stones API
+  slug: roxyapi-crystals-and-healing-stones-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: Dream interpretation API with a 2,000+ symbol dream dictionary and psychological meanings covering animals, objects, emotions, people, scenarios, and abstract concepts. Decode dreams about falling, fl
+  name: RoxyAPI Dreams API
+  slug: roxyapi-dreams-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: 'Compute classical feng shui from one API: Xuan Kong flying star natal charts for any of the nine periods and 24 mountains, Kua numbers and the full Eight Mansions map of favourable and unfavourable di'
+  name: RoxyAPI Feng Shui API
+  slug: roxyapi-feng-shui-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: 'Forecast API that merges upcoming transit aspects, sign ingresses, retrograde stations, new and full moons, biorhythm critical days, and Vimshottari dasha changes into one time-ordered forecast for a '
+  name: RoxyAPI Forecast API
+  slug: roxyapi-forecast-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: 'Generate the full Human Design bodygraph from a birth moment: type, strategy, inner authority, profile, definition, incarnation cross, the nine centers, defined channels, and all 26 gate activations, '
+  name: RoxyAPI Human Design API
+  slug: roxyapi-human-design-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: I-Ching oracle API with all 64 hexagrams, 384 changing lines, 8 trigrams, and modern interpretations for love, career, and decision-making. Cast readings with the authentic three-coin method, get a da
+  name: RoxyAPI I Ching API
+  slug: roxyapi-i-ching-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: List the response languages accepted by the `lang` query parameter on every i18n-aware endpoint. Use to populate language pickers, validate user input, or auto-detect available locales in agent integr
+  name: RoxyAPI Languages API
+  slug: roxyapi-languages-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: Location and timezone API with city search and geocoding across 235,000+ cities in 240+ countries, returning latitude, longitude, IANA timezone, and DST-aware UTC offset. Coverage goes down to towns o
+  name: RoxyAPI Location and Timezone API
+  slug: roxyapi-location-and-timezone-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: Numerology API to calculate life path, expression, soul urge, personality, and maturity numbers, with Pinnacle and Challenge life-phase timing, Hidden Passion, Subconscious Self, and Cornerstone and C
+  name: RoxyAPI Numerology API
+  slug: roxyapi-numerology-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: 'Tarot reading API with the complete 78-card Rider-Waite-Smith deck and card meanings for love, career, health, and spiritual growth. Celtic Cross, three-card, love, career, yes/no oracle, daily card, '
+  name: RoxyAPI Tarot API
+  slug: roxyapi-tarot-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: Monitor your API usage, check rate limits, and track request consumption. Get detailed usage breakdowns by endpoint, current month statistics, and recommendations for plan upgrades when approaching li
+  name: RoxyAPI Usage API
+  slug: roxyapi-usage-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: Vedic astrology (Jyotish) and KP API for kundli generation with 15 divisional charts (D1-D60), Ashtakoot Gun Milan kundli matching, Vimshottari Dasha predictions, dosha detection with remedies, a 301-
+  name: RoxyAPI Vedic Astrology API
+  slug: roxyapi-vedic-astrology-api
+- baseURL: https://roxyapi.com/api/v2
+  baseurl_source: declared
+  description: Western astrology API for natal birth charts, daily, weekly, monthly, and yearly horoscopes with unique content per sign and the dated sky events behind every reading, synastry compatibility scores, c
+  name: RoxyAPI Western Astrology API
+  slug: roxyapi-western-astrology-api
+artifact_total: 22
 common:
 - group: company
   title: ''
@@ -207,13 +285,13 @@ image: https://roxyapi.com/logo.png
 layout: provider
 mcp_servers:
 - description: 'RoxyAPI ships 15 first-party remote MCP servers over Streamable HTTP: one per intelligence domain at https://roxyapi.com/mcp/{domain} (207 tools total, one per REST endpoint, X-API-Key secret-key auth'
-  name: RoxyAPI remote MCP servers (14 per-domain + keyless docs server)
-  slug: roxyapi-remote-mcp-servers-14-per-domain-keyless-docs-server
+  name: RoxyAPI MCP Server
+  slug: roxyapi-mcp-server
 modified: '2026-09-03'
 name: RoxyAPI
 nav: Providers
 network: true
-overview: 'RoxyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v2. Tagged areas include Astrology, Vedic Astrology, Numerology, Tarot, and Human Design.
+overview: 'RoxyAPI publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Angel Numbers API, Biorhythm API, Chinese Astrology API, and 13 more. Tagged areas include Astrology, Vedic Astrology, Numerology, Tarot, and Human Design.
 
 
   RoxyAPI''s developer surface includes authentication, changelog, sandbox, API reference, getting-started guide, support, engineering blog, and 30 more developer resources.'
@@ -221,14 +299,14 @@ plans:
 - name: Roxyapi Plans Pricing
   plan_count: 4
   slug: roxyapi-plans-pricing
-random_paper: 3
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Roxyapi Rate Limits
   slug: roxyapi-rate-limits
 score:
   band: strong
-  composite: 55.2
+  composite: 62.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 58.0
@@ -236,22 +314,27 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.5
   facets:
     access_clarity: 77.6
     contract_governance: 4.5
-    contract_quality: 26.7
+    contract_quality: 56.7
     developer_ergonomics: 81.0
     discoverability: 70.4
     operational_transparency: 76.3
   previous_composite: 55.2
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -277,11 +360,11 @@ tags:
 - Tarot
 - Human Design
 - Forecast
-- biorhythm
-- iching
+- Biorhythm
+- I-Ching
 - crystals
 - Dreams
-- angel-numbers
+- Angel Numbers
 - Location
 - spiritual
 - Wellness

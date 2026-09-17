@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ plans:
 - name: Routerplex Plans
   plan_count: 4
   slug: routerplex-plans
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Routerplex Rate Limits
@@ -313,7 +313,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

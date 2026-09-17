@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: platform
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.7
-  scored_at: '2026-09-15'
-api_count: 5
+  score: 34.5
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
 - description: API and language reference for the M formula language used in Power Query for data transformation expressions and custom functions.
   name: Power Query M Formula Language
@@ -48,12 +48,22 @@ apis:
 - description: Development toolkit for building custom Power Query connectors using Visual Studio Code, including project scaffolding, testing, and packaging of .mez connector files.
   name: Power Query SDK
   slug: sdk
-- baseURL: https://api.fabric.microsoft.com/v1
+- baseURL: https://learn.microsoft.com/powerquery-m/
   baseurl_source: declared
-  description: REST API for the Microsoft Fabric Dataflow item - the productized Power Query mashup engine. Creates, reads, updates and deletes dataflows, publishes and retrieves their Power Query definitions, disco
-  name: Fabric Dataflow REST API (Power Query)
-  slug: fabric-api
-artifact_total: 31
+  description: The Items API from Power Query — 5 operation(s) for items.
+  name: Power Query Items API
+  slug: power-query-items-api
+- baseURL: https://learn.microsoft.com/powerquery-m/
+  baseurl_source: declared
+  description: The Background Jobs API from Power Query — 4 operation(s) for background jobs.
+  name: Power Query Background Jobs API
+  slug: power-query-background-jobs-api
+- baseURL: https://learn.microsoft.com/powerquery-m/
+  baseurl_source: declared
+  description: The Query Execution API from Power Query — 1 operation(s) for query execution.
+  name: Power Query Query Execution API
+  slug: power-query-query-execution-api
+artifact_total: 33
 common:
 - group: company
   title: ''
@@ -158,10 +168,10 @@ common:
   type: Roadmap
   url: https://roadmap.fabric.microsoft.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-fabric-dataflow-swagger.json
+  href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/_original/power-query-fabric-dataflow-swagger.json
   title: ''
   type: OpenAPI
-  url: openapi/power-query-fabric-dataflow-swagger.json
+  url: openapi/_original/power-query-fabric-dataflow-swagger.json
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/examples/fabric-dataflow/
   title: ''
@@ -343,11 +353,11 @@ mcp_servers:
 - description: Microsoft does not publish a Power Query-specific or Fabric-specific MCP server. It does operate one official, anonymous, remote MCP server — the Microsoft Learn MCP Server — which indexes the whole o
   name: Microsoft Learn MCP Server
   slug: microsoft-learn-mcp-server
-modified: '2026-08-29'
+modified: '2026-09-16'
 name: Power Query
 nav: Providers
 network: true
-overview: 'Power Query publishes 1 API on the [APIs.io](https://apis.io/) network: Fabric Dataflow REST API (Power Query). Tagged areas include Business Intelligence, Data Integration, Data Transformation, ETL, and Microsoft.
+overview: 'Power Query publishes 3 APIs on the [APIs.io](https://apis.io/) network: Items API, Background Jobs API, and Query Execution API. Tagged areas include Business Intelligence, Data Integration, Data Transformation, ETL, and Microsoft.
 
 
   The Power Query catalog on APIs.io includes 1 JSON-LD context.
@@ -358,7 +368,7 @@ plans:
 - name: Power Query Plans Pricing
   plan_count: 6
   slug: power-query-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Power Query Rate Limits
@@ -370,7 +380,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 80.0
+  composite: 80.5
   coverage:
     artifact_dirs: 26
     catalog_earned: 83.0
@@ -378,11 +388,11 @@ score:
     catalog_gap: 32.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 100.0
     contract_governance: 19.7
-    contract_quality: 54.9
+    contract_quality: 57.1
     developer_ergonomics: 80.4
     discoverability: 88.9
     operational_transparency: 89.5
@@ -393,7 +403,7 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 33.3
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
@@ -406,7 +416,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

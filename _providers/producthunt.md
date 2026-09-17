@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A GraphQL API providing access to Product Hunt's platform data including daily product launches, votes, comments, maker profiles, topics, and collections. Supports OAuth 2.0 authentication with public
@@ -118,7 +118,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 33.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

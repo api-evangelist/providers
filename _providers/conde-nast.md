@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Every Condé Nast brand site serves a top-level RSS 2.0 feed at `/feed/rss` covering the brand's most recent published articles, with Dublin Core (`dc:creator`, `dc:publisher`, `dc:subject`), Media RSS
@@ -168,7 +168,7 @@ overview: 'Condé Nast publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Condé Nast''s developer surface includes engineering blog and 15 more developer resources.'
-random_paper: 17
+random_paper: 14
 rules:
 - effective_rule_count: 5
   extends: []
@@ -200,7 +200,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 17.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

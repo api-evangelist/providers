@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: 'Verkor is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Verkor''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 14
+random_paper: 5
 score:
   band: minimal
   composite: 7.6
@@ -96,7 +96,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

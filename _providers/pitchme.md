@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: PitchMe advertises a "Custom Integration via API" for connecting any ATS or recruitment platform not covered by its native marketplace connectors. As of 2026-08-14 the company publishes no developer p
@@ -111,7 +111,7 @@ modified: '2026-08-14'
 name: PitchMe
 nav: Providers
 network: true
-overview: 'PitchMe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Data Enrichment, Talent Intelligence, and HR Tech.
+overview: 'PitchMe publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Data Enrichment, Talent Intelligence, and Human Resources.
 
 
   PitchMe''s developer surface includes engineering blog, support, and 9 more developer resources.'
@@ -119,7 +119,7 @@ plans:
 - name: Pitchme Plans Pricing
   plan_count: 0
   slug: pitchme-plans-pricing
-random_paper: 11
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Pitchme Rate Limits
@@ -147,7 +147,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -165,7 +165,7 @@ tags:
 - Recruitment
 - Data Enrichment
 - Talent Intelligence
-- HR Tech
+- Human Resources
 - Candidate Data
 - ATS Integration
 - Sourcing

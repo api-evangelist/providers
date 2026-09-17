@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,11 +61,6 @@ apis:
   slug: heyform-forms-api
 - baseURL: https://api.heyform.net
   baseurl_source: declared
-  description: Primary data API (GraphQL over HTTP)
-  name: HeyForm GraphQL API
-  slug: heyform-graphql-api
-- baseURL: https://api.heyform.net
-  baseurl_source: declared
   description: Image proxy and resizing
   name: HeyForm Images API
   slug: heyform-images-api
@@ -79,6 +74,11 @@ apis:
   description: File upload
   name: HeyForm Upload API
   slug: heyform-upload-api
+- baseURL: https://api.heyform.net
+  baseurl_source: declared
+  description: Primary data API (GraphQL over HTTP)
+  name: HeyForm Graph QL API
+  slug: heyform-graph-ql-api
 artifact_total: 27
 collections:
 - collection_type: open
@@ -210,7 +210,7 @@ plans:
 - name: Heyform Plans Pricing
   plan_count: 6
   slug: heyform-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 10
   name: Heyform Rate Limits
@@ -253,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

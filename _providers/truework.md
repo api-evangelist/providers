@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -71,7 +71,7 @@ apis:
 - baseURL: https://js.truework.com/v1
   baseurl_source: declared
   description: The Truework Webhooks API from Truework — 0 operation(s) for truework webhooks.
-  name: Truework Truework Webhooks API
+  name: Truework Webhooks API
   slug: truework-truework-webhooks-api
 artifact_total: 46
 collections:
@@ -341,7 +341,7 @@ jsonld:
   property_count: 8
   slug: truework-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-09-16'
 name: Truework
 nav: Providers
 network: true
@@ -356,7 +356,7 @@ plans:
 - name: Truework Plans Pricing
   plan_count: 3
   slug: truework-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Truework Rate Limits
@@ -405,7 +405,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -428,7 +428,7 @@ tags:
 - VOIE
 - Mortgage
 - Lending
-- Credit Unions
+- Credit Union
 - Identity
 - KYC
 - Fintech

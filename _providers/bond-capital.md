@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: BOND
 nav: Providers
 network: true
-random_paper: 1
+random_paper: 10
 slug: bond-capital
 tags:
 - Venture Capital

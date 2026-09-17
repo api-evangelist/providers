@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 20
 common:
@@ -128,7 +128,7 @@ plans:
 - name: U S Access Board Plans Pricing
   plan_count: 3
   slug: u-s-access-board-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: U S Access Board Rate Limits
@@ -159,7 +159,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

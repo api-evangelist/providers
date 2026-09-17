@@ -24,7 +24,7 @@ name: DevOps
 nav: Providers
 network: true
 overview: DevOps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, CI/CD, Configuration Management, Containers, and Continuous Deployment.
-random_paper: 6
+random_paper: 19
 screenshot: https://raw.githubusercontent.com/api-evangelist/devops/refs/heads/main/screenshots/devops-2026-06-20T175951.png
 slug: devops
 tags:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
 - baseURL: https://api.rtcstats.com/v1.0
   baseurl_source: declared
   description: The rtcStats API API from rtcStats — 8 operation(s) for rtcstats api.
-  name: rtcStats rtcStats API API
+  name: rtcStats API
   slug: rtcstats-rtcstats-api-api
 artifact_total: 9
 collections:
@@ -232,11 +232,11 @@ mcp_servers:
 - description: rtcStats operates a first-party hosted MCP server over Streamable HTTP at https://api.rtcstats.com/v1.0/mcp. It is stateless JSON-RPC 2.0 and is also declared in the OpenAPI as the mcpStreamablePost o
   name: rtcStats MCP Server
   slug: rtcstats-mcp-server
-modified: '2026-08-09'
+modified: '2026-09-16'
 name: rtcStats
 nav: Providers
 network: true
-overview: 'rtcStats publishes 1 API on the [APIs.io](https://apis.io/) network: rtcStats API API. Tagged areas include WebRTC, Observability, Monitoring, Debugging, and Real-Time Communications.
+overview: 'rtcStats publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include WebRTC, Observability, Monitoring, Debugging, and Real-Time Communication.
 
 
   rtcStats'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 29 more developer resources.'
@@ -244,7 +244,7 @@ plans:
 - name: Rtcstats Plans
   plan_count: 3
   slug: rtcstats-plans
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Rtcstats Rate Limits
@@ -282,7 +282,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -303,7 +303,7 @@ tags:
 - Observability
 - Monitoring
 - Debugging
-- Real-Time Communications
+- Real-Time Communication
 - Video
 - Voice
 - Artificial Intelligence

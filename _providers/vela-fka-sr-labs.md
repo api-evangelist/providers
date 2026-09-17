@@ -43,7 +43,7 @@ name: Vela (FKA SR Labs)
 nav: Providers
 network: true
 overview: Vela (FKA SR Labs) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial, Market Data, Trading, and Low Latency.
-random_paper: 0
+random_paper: 16
 security:
 - kind: domain-security
   name: Vela Fka Sr Labs Domain Security

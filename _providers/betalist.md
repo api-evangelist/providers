@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Read-only REST API over the BetaList startup directory. Three documented collections — startups (list + detail, filterable by region_id and market_id), regions (list + detail), and markets (list; mark
@@ -185,7 +185,7 @@ plans:
 - name: Betalist Plans Pricing
   plan_count: 0
   slug: betalist-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Betalist Rate Limits
@@ -213,7 +213,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.askmiso.com
@@ -45,7 +45,7 @@ apis:
 - baseURL: https://api.askmiso.com
   baseurl_source: declared
   description: The Bulk API provides an efficient interface for making multiple Search / Recommendations / Q&A requests in one API call. These requests will be executed concurrently at the Miso side, and returned at
-  name: miso.ai Bulk API API
+  name: miso.ai Bulk API
   slug: misoai-bulk-api-api
 - baseURL: https://api.askmiso.com
   baseurl_source: declared
@@ -262,15 +262,15 @@ created: '2026-07-17'
 description: Miso (Miso Technologies, askmiso.com) is an AI personalization, search, and answers platform for publishers, media companies, and retailers. Miso trains machine-learning "Engines" on three data sets a site already has — its log of historical and real-time user interactions, its catalog of products/content, and its users — and exposes the output as REST APIs for personalized semantic search, typo-tolerant autocomplete, product and user recommendations, and an LLM-grounded Q&A / "Answers" experience that answers questions using only the customer's own content (reducing hallucination). The platform ships JavaScript (client + server), Python, and PHP SDKs, a WordPress plugin, embeddable Ask / Explore / Hybrid Search web modules, and the Dojo console for training engines and managing API keys and environments.
 image: https://miso.ai/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: miso.ai
 nav: Providers
 network: true
-overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ask APIs API, Bulk API API, Experiment APIs API, and 7 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Search, and Recommendations.
+overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ask APIs API, Bulk API, Experiment APIs API, and 7 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Search, and Recommendations.
 
 
   miso.ai''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, pricing, signup flow, and 23 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: thin
   composite: 37.0
@@ -300,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

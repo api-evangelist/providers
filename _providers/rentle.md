@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ overview: 'Rentle publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rentle''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 15 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: developing
   composite: 39.6
@@ -295,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -319,7 +319,7 @@ tags:
 - Circular Economy
 - Resale
 - Subscription
-- Bookings
+- Booking
 - Webhook
 - Software-as-a-Service
 website: https://www.twicecommerce.com/

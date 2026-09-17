@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,11 +90,11 @@ modified: '2026-07-21'
 name: Thunkable
 nav: Providers
 network: true
-overview: 'Thunkable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No-Code, App Builder, Mobile Apps, and Low-Code.
+overview: 'Thunkable is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No-Code, App Builder, Mobile App, and Low-Code.
 
 
   Thunkable''s developer surface includes documentation, engineering blog, support, pricing, signup flow, and 6 more developer resources.'
-random_paper: 13
+random_paper: 12
 score:
   band: emerging
   composite: 18.0
@@ -115,7 +115,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -132,7 +132,7 @@ tags:
 - Company
 - No-Code
 - App Builder
-- Mobile Apps
+- Mobile App
 - Low-Code
 - iOS
 - Android

@@ -53,7 +53,7 @@ name: Forever Oceans
 nav: Providers
 network: true
 overview: Forever Oceans is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aquaculture, Seafood, Food Production, and Sustainability.
-random_paper: 11
+random_paper: 9
 security:
 - kind: domain-security
   name: Forever Oceans Domain Security

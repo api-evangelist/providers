@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 12
@@ -106,11 +106,6 @@ apis:
   description: The Accounts API from Marqeta — 1 operation(s) for accounts.
   name: Marqeta Accounts API
   slug: marqeta-accounts-api
-- baseURL: https://sandbox-api.marqeta.com/v3
-  baseurl_source: declared
-  description: The AccountUsers API from Marqeta — 1 operation(s) for accountusers.
-  name: Marqeta AccountUsers API
-  slug: marqeta-accountusers-api
 - baseURL: https://sandbox-api.marqeta.com/v3
   baseurl_source: declared
   description: // Conditional snippet for beta or internal content include::../../maturity-admonition-banner.adoc[] Use the adjustments endpoints to create and retrieve account adjustments on Marqeta's credit platfo
@@ -221,11 +216,6 @@ apis:
   description: // Conditional snippet for beta or internal content include::../../maturity-admonition-banner.adoc[] Use the delinquency endpoints to retrieve details on a credit account's delinquency state and trans
   name: Marqeta Delinquency API
   slug: marqeta-delinquency-api
-- baseURL: https://sandbox-api.marqeta.com/v3
-  baseurl_source: declared
-  description: The Depositaccounts API from Marqeta — 1 operation(s) for depositaccounts.
-  name: Marqeta Depositaccounts API
-  slug: marqeta-depositaccounts-api
 - baseURL: https://sandbox-api.marqeta.com/v3
   baseurl_source: declared
   description: '// Conditional snippet for beta or internal content include::../../maturity-admonition-banner.adoc[] The Marqeta platform facilitates the use of digital wallets for storing tokenized cards and making '
@@ -446,6 +436,16 @@ apis:
   description: // Conditional snippet for beta or internal content include::../../maturity-admonition-banner.adoc[] Webhooks are notifications about API events, sent as they occur. The Marqeta platform sends these n
   name: Marqeta Webhooks API
   slug: marqeta-webhooks-api
+- baseURL: https://sandbox-api.marqeta.com/v3/webhooks
+  baseurl_source: declared
+  description: The Account Users API from Marqeta — 1 operation(s) for account users.
+  name: Marqeta Account Users API
+  slug: marqeta-account-users-api
+- baseURL: https://sandbox-api.marqeta.com/v3/webhooks
+  baseurl_source: declared
+  description: The Deposit Accounts API from Marqeta — 1 operation(s) for deposit accounts.
+  name: Marqeta Deposit Accounts API
+  slug: marqeta-deposit-accounts-api
 artifact_total: 179
 asyncapis:
 - description: Marqeta delivers real-time event notifications to a developer-configured HTTPS endpoint when specific events occur within a card program. Each program supports up to five active webhook configurations
@@ -822,7 +822,7 @@ plans:
 - name: Marqeta Plans Pricing
   plan_count: 2
   slug: marqeta-plans-pricing
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Marqeta Rate Limits
@@ -863,7 +863,7 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 13.6
-    contract_quality: 72.9
+    contract_quality: 73.0
     developer_ergonomics: 23.8
     discoverability: 63.0
     operational_transparency: 50.0
@@ -871,7 +871,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 10.0
       derived: 0
       marker_coverage: 0.0
       total: 79
@@ -882,7 +882,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

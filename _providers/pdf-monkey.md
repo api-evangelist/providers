@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-09-15'
+  score: 24.8
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,12 +60,7 @@ apis:
   description: Manage document templates for PDF generation
   name: PDF Monkey Templates API
   slug: pdf-monkey-templates-api
-- baseURL: https://api.pdfmonkey.io/api/v1
-  baseurl_source: declared
-  description: Lightweight document representations for status polling and listing.
-  name: PDF Monkey Document Cards API
-  slug: pdf-monkey-document-cards-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -186,7 +181,7 @@ modified: '2026-08-08'
 name: PDF Monkey
 nav: Providers
 network: true
-overview: 'PDF Monkey publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Templates API, and 1 more. Tagged areas include PDF, Document Generation, Templates, Handlebars, and REST API.
+overview: 'PDF Monkey publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Documents API, and Templates API. Tagged areas include PDF, Document Generation, Templates, Handlebars, and REST API.
 
 
   The PDF Monkey catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -197,7 +192,7 @@ plans:
 - name: Pdf Monkey Plans Pricing
   plan_count: 5
   slug: pdf-monkey-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Pdf Monkey Rate Limits
@@ -215,7 +210,7 @@ rules:
   slug: pdf-monkey-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.5
+  composite: 40.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 60.3
@@ -223,11 +218,11 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 68.1
+    contract_quality: 68.8
     developer_ergonomics: 23.8
     discoverability: 68.5
     operational_transparency: 10.5
@@ -238,9 +233,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

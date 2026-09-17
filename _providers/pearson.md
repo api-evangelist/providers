@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Pearson's named API program. Historically served the LearningStudio RESTful Course APIs, the SOAP SIS APIs, an eventing surface and a Financial Times Education API via api.pearson.com. The platform wa
@@ -165,7 +165,7 @@ plans:
 - name: Pearson Plans Pricing
   plan_count: 0
   slug: pearson-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Pearson Rate Limits
@@ -204,7 +204,7 @@ score:
     regime_id: education
     score: 68.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

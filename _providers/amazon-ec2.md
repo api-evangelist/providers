@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: amazon-ec2-instances-api
 - baseURL: https://ec2.amazonaws.com
   baseurl_source: declared
-  description: Operations for managing SSH key pairs used for instance access
-  name: Amazon EC2 Key Pairs API
-  slug: amazon-ec2-key-pairs-api
-- baseURL: https://ec2.amazonaws.com
-  baseurl_source: declared
   description: Operations for managing reusable instance launch configurations
   name: Amazon EC2 Launch Templates API
   slug: amazon-ec2-launch-templates-api
@@ -85,6 +80,11 @@ apis:
   description: Operations for requesting and managing Spot Instances
   name: Amazon EC2 Spot Instances API
   slug: amazon-ec2-spot-instances-api
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing SSH key pairs used for instance access
+  name: Amazon EC2 Keypairs API
+  slug: amazon-ec2-keypairs-api
 arazzos:
 - description: Allocate a VPC Elastic IP, confirm the instance is running, then associate the address.
   name: Amazon EC2 Allocate and Associate Elastic IP
@@ -179,6 +179,10 @@ collections:
   name: Amazon EC2 API
   slug: open-amazon-ec2
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/agentic-access/amazon-ec2-agentic-access.yml
   title: ''
@@ -472,7 +476,7 @@ jsonld:
   property_count: 35
   slug: amazon-ec2-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon EC2
 nav: Providers
 network: true
@@ -482,7 +486,7 @@ overview: 'Amazon EC2 publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon EC2 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EC2''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 38 more developer resources.'
+  Amazon EC2''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 39 more developer resources.'
 plans:
 - name: Amazon Ec2 Plans Pricing
   plan_count: 3
@@ -541,7 +545,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -583,5 +587,5 @@ use_cases:
   name: SAP and Enterprise Workloads
 - description: Flexible on-demand compute for CI/CD pipelines, dev environments, and test automation.
   name: Development and Testing
-website: https://aws.amazon.com/ec2/
+website: https://amazon.com
 ---

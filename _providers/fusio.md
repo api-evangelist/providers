@@ -29,52 +29,257 @@ agent_readiness:
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 48.9
-  scored_at: '2026-09-15'
-api_count: 5
+  score: 50.6
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
-- baseURL: https://demo.fusio-project.org
-  baseurl_source: declared
-  description: The Fusio Backend API provides a REST interface to configure and manage all aspects of a Fusio API management instance. It covers operations, routes, schemas, actions, connections, apps, users, and ma
-  name: Fusio Backend API
-  slug: fusio-backend-api
-- baseURL: https://demo.fusio-project.org
-  baseurl_source: declared
-  description: The Fusio Consumer API is used by the developer portal application and enables third-party developers to request access tokens, manage their apps, and interact with protected API endpoints. It provide
-  name: Fusio Consumer API
-  slug: fusio-consumer-api
 - description: The Fusio Worker API enables executing API action logic in multiple programming languages by forwarding requests to external worker processes. Workers are implemented in the target language (JavaScrip
   name: Fusio Worker API
   slug: fusio-worker-api
 - baseURL: https://demo.fusio-project.org
   baseurl_source: declared
-  description: The Fusio System API is the meta surface every Fusio instance exposes without configuration. It carries the discovery document at the root, the health check, the route table, and the specification gen
+  description: The account API from Fusio — 9 operation(s) for account.
+  name: Fusio Account API
+  slug: fusio-account-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The action API from Fusio — 6 operation(s) for action.
+  name: Fusio Action API
+  slug: fusio-action-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The agent API from Fusio — 7 operation(s) for agent.
+  name: Fusio Agent API
+  slug: fusio-agent-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The app API from Fusio — 5 operation(s) for app.
+  name: Fusio App API
+  slug: fusio-app-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The audit API from Fusio — 2 operation(s) for audit.
+  name: Fusio Audit API
+  slug: fusio-audit-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The authorization API from Fusio — 2 operation(s) for authorization.
+  name: Fusio Authorization API
+  slug: fusio-authorization-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The backup API from Fusio — 2 operation(s) for backup.
+  name: Fusio Backup API
+  slug: fusio-backup-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The bundle API from Fusio — 3 operation(s) for bundle.
+  name: Fusio Bundle API
+  slug: fusio-bundle-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The category API from Fusio — 2 operation(s) for category.
+  name: Fusio Category API
+  slug: fusio-category-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The config API from Fusio — 2 operation(s) for config.
+  name: Fusio Config API
+  slug: fusio-config-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The connection API from Fusio — 14 operation(s) for connection.
+  name: Fusio Connection API
+  slug: fusio-connection-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The cronjob API from Fusio — 2 operation(s) for cronjob.
+  name: Fusio Cronjob API
+  slug: fusio-cronjob-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The dashboard API from Fusio — 1 operation(s) for dashboard.
+  name: Fusio Dashboard API
+  slug: fusio-dashboard-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The event API from Fusio — 4 operation(s) for event.
+  name: Fusio Event API
+  slug: fusio-event-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The firewall API from Fusio — 2 operation(s) for firewall.
+  name: Fusio Firewall API
+  slug: fusio-firewall-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The form API from Fusio — 4 operation(s) for form.
+  name: Fusio Form API
+  slug: fusio-form-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The generator API from Fusio — 2 operation(s) for generator.
+  name: Fusio Generator API
+  slug: fusio-generator-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The grant API from Fusio — 2 operation(s) for grant.
+  name: Fusio Grant API
+  slug: fusio-grant-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The identity API from Fusio — 7 operation(s) for identity.
+  name: Fusio Identity API
+  slug: fusio-identity-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The log API from Fusio — 6 operation(s) for log.
+  name: Fusio Log API
+  slug: fusio-log-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The marketplace API from Fusio — 6 operation(s) for marketplace.
+  name: Fusio Marketplace API
+  slug: fusio-marketplace-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The operation API from Fusio — 2 operation(s) for operation.
+  name: Fusio Operation API
+  slug: fusio-operation-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The page API from Fusio — 4 operation(s) for page.
+  name: Fusio Page API
+  slug: fusio-page-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The payment API from Fusio — 2 operation(s) for payment.
+  name: Fusio Payment API
+  slug: fusio-payment-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The plan API from Fusio — 4 operation(s) for plan.
+  name: Fusio Plan API
+  slug: fusio-plan-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The rate API from Fusio — 2 operation(s) for rate.
+  name: Fusio Rate API
+  slug: fusio-rate-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The role API from Fusio — 2 operation(s) for role.
+  name: Fusio Role API
+  slug: fusio-role-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The schema API from Fusio — 4 operation(s) for schema.
+  name: Fusio Schema API
+  slug: fusio-schema-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The scope API from Fusio — 5 operation(s) for scope.
+  name: Fusio Scope API
+  slug: fusio-scope-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The sdk API from Fusio — 1 operation(s) for sdk.
+  name: Fusio SDK API
+  slug: fusio-sdk-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The specification API from Fusio — 3 operation(s) for specification.
+  name: Fusio Specification API
+  slug: fusio-specification-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The statistic API from Fusio — 17 operation(s) for statistic.
+  name: Fusio Statistic API
+  slug: fusio-statistic-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The System API from Fusio — 7 operation(s) for system.
   name: Fusio System API
   slug: fusio-system-api
 - baseURL: https://demo.fusio-project.org
   baseurl_source: declared
-  description: The Fusio Authorization API is the OAuth2 authorization server Fusio ships in the product. It issues and refreshes access tokens across the authorization_code, client_credentials, password and refresh
-  name: Fusio Authorization API
-  slug: fusio-authorization-api
-artifact_total: 31
+  description: The taxonomy API from Fusio — 2 operation(s) for taxonomy.
+  name: Fusio Taxonomy API
+  slug: fusio-taxonomy-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The tenant API from Fusio — 1 operation(s) for tenant.
+  name: Fusio Tenant API
+  slug: fusio-tenant-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The test API from Fusio — 2 operation(s) for test.
+  name: Fusio Test API
+  slug: fusio-test-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The token API from Fusio — 4 operation(s) for token.
+  name: Fusio Token API
+  slug: fusio-token-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The transaction API from Fusio — 4 operation(s) for transaction.
+  name: Fusio Transaction API
+  slug: fusio-transaction-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The trash API from Fusio — 2 operation(s) for trash.
+  name: Fusio Trash API
+  slug: fusio-trash-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The trigger API from Fusio — 2 operation(s) for trigger.
+  name: Fusio Trigger API
+  slug: fusio-trigger-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The user API from Fusio — 3 operation(s) for user.
+  name: Fusio User API
+  slug: fusio-user-api
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The webhook API from Fusio — 4 operation(s) for webhook.
+  name: Fusio Webhook API
+  slug: fusio-webhook-api
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Fusio Webhooks
   slug: fusio-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/overlays/fusio-consumer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fusio-consumer-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/overlays/fusio-system-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fusio-system-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/overlays/fusio-authorization-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fusio-authorization-overlay.yaml
 - group: company
   title: ''
   type: Website
   url: https://www.fusio-project.org/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-backend.json
+  href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/_original/fusio-backend.json
   title: ''
   type: OpenAPI
-  url: openapi/fusio-backend.json
+  url: openapi/_original/fusio-backend.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/mcp/fusio-mcp.yml
   title: ''
@@ -318,22 +523,22 @@ mcp_servers:
 - description: 'Fusio ships a first-party Model Context Protocol server inside the product itself. It is not a separate package or a hosted vendor endpoint: every Fusio instance can expose its own operations as MCP t'
   name: Fusio MCP Server
   slug: fusio-mcp-server
-modified: '2026-08-29'
+modified: '2026-09-16'
 name: Fusio
 nav: Providers
 network: true
-overview: 'Fusio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Backend API, Consumer API, System API, and 1 more. Tagged areas include API Management, Open-Source, REST API, API Gateway, and Developer Portal.
+overview: 'Fusio publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account API, Action API, Agent API, and 39 more. Tagged areas include API Management, Open-Source, REST API, API Gateway, and Developer Portal.
 
 
   The Fusio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fusio''s developer surface includes CLI, sandbox, changelog, API reference, authentication, documentation, getting-started guide, and 39 more developer resources.'
+  Fusio''s developer surface includes CLI, sandbox, changelog, API reference, authentication, documentation, getting-started guide, and 42 more developer resources.'
 plans:
 - name: Fusio Plans Pricing
   plan_count: 0
   slug: fusio-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Fusio Rate Limits
@@ -345,21 +550,21 @@ scopes:
   summary_line: 58 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 54.2
+  composite: 53.2
   coverage:
     artifact_dirs: 26
-    catalog_earned: 51.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 64.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 7.9
     contract_governance: 18.2
-    contract_quality: 60.6
+    contract_quality: 65.5
     developer_ergonomics: 80.4
-    discoverability: 81.5
+    discoverability: 57.4
     operational_transparency: 71.1
   open_source:
     applies: true
@@ -371,11 +576,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 42
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

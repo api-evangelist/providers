@@ -22,7 +22,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.5
-  scored_at: '2026-09-15'
+  score: 37.7
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://studio.edgeimpulse.com/v1
@@ -82,19 +82,9 @@ apis:
   slug: edge-impulse-dsp-api
 - baseURL: https://studio.edgeimpulse.com/v1
   baseurl_source: declared
-  description: The EmailVerification API from Edge Impulse — 4 operation(s) for emailverification.
-  name: Edge Impulse EmailVerification API
-  slug: edge-impulse-emailverification-api
-- baseURL: https://studio.edgeimpulse.com/v1
-  baseurl_source: declared
   description: The Export API from Edge Impulse — 1 operation(s) for export.
   name: Edge Impulse Export API
   slug: edge-impulse-export-api
-- baseURL: https://studio.edgeimpulse.com/v1
-  baseurl_source: declared
-  description: The FeatureFlags API from Edge Impulse — 1 operation(s) for featureflags.
-  name: Edge Impulse FeatureFlags API
-  slug: edge-impulse-featureflags-api
 - baseURL: https://studio.edgeimpulse.com/v1
   baseurl_source: declared
   description: The Health API from Edge Impulse — 2 operation(s) for health.
@@ -103,7 +93,7 @@ apis:
 - baseURL: https://studio.edgeimpulse.com/v1
   baseurl_source: declared
   description: The Impulse API from Edge Impulse — 13 operation(s) for impulse.
-  name: Edge Impulse Impulse API
+  name: Edge Impulse API
   slug: edge-impulse-impulse-api
 - baseURL: https://studio.edgeimpulse.com/v1
   baseurl_source: declared
@@ -152,11 +142,6 @@ apis:
   slug: edge-impulse-organizationdatacampaigns-api
 - baseURL: https://studio.edgeimpulse.com/v1
   baseurl_source: declared
-  description: The OrganizationJobs API from Edge Impulse — 8 operation(s) for organizationjobs.
-  name: Edge Impulse OrganizationJobs API
-  slug: edge-impulse-organizationjobs-api
-- baseURL: https://studio.edgeimpulse.com/v1
-  baseurl_source: declared
   description: The OrganizationPipelines API from Edge Impulse — 5 operation(s) for organizationpipelines.
   name: Edge Impulse OrganizationPipelines API
   slug: edge-impulse-organizationpipelines-api
@@ -192,11 +177,6 @@ apis:
   slug: edge-impulse-themes-api
 - baseURL: https://studio.edgeimpulse.com/v1
   baseurl_source: declared
-  description: The ThirdPartyAuth API from Edge Impulse — 4 operation(s) for thirdpartyauth.
-  name: Edge Impulse ThirdPartyAuth API
-  slug: edge-impulse-thirdpartyauth-api
-- baseURL: https://studio.edgeimpulse.com/v1
-  baseurl_source: declared
   description: The UploadPortal API from Edge Impulse — 7 operation(s) for uploadportal.
   name: Edge Impulse UploadPortal API
   slug: edge-impulse-uploadportal-api
@@ -205,11 +185,6 @@ apis:
   description: The User API from Edge Impulse — 43 operation(s) for user.
   name: Edge Impulse User API
   slug: edge-impulse-user-api
-- baseURL: https://studio.edgeimpulse.com/v1
-  baseurl_source: declared
-  description: The Whitelabels API from Edge Impulse — 5 operation(s) for whitelabels.
-  name: Edge Impulse Whitelabels API
-  slug: edge-impulse-whitelabels-api
 - description: The Ingestion API sends new device data into an Edge Impulse project. It accepts sensor (JSON/CBOR/CSV/Parquet), audio (WAV), image (JPG/PNG) and video (MP4/AVI) samples on the training, validation, t
   name: Edge Impulse Ingestion API
   slug: edge-impulse-ingestion-api
@@ -218,7 +193,42 @@ apis:
   description: 'A two-way WebSocket protocol between edge devices and Edge Impulse Studio, used to drive a connected device — request a sample, follow acquisition progress and stream snapshot frames. Devices connect '
   name: Edge Impulse Remote Management API
   slug: edge-impulse-remote-management-api
-artifact_total: 82
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Integrations API from Edge Impulse — 2 operation(s) for integrations.
+  name: Edge Impulse Integrations API
+  slug: edge-impulse-integrations-api
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The PostProcessing API from Edge Impulse — 3 operation(s) for postprocessing.
+  name: Edge Impulse Post Processing API
+  slug: edge-impulse-postprocessing-api
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Email Verification API from Edge Impulse — 4 operation(s) for email verification.
+  name: Edge Impulse Email Verification API
+  slug: edge-impulse-email-verification-api
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Feature Flags API from Edge Impulse — 1 operation(s) for feature flags.
+  name: Edge Impulse Feature Flags API
+  slug: edge-impulse-feature-flags-api
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Organization Jobs API from Edge Impulse — 8 operation(s) for organization jobs.
+  name: Edge Impulse Organization Jobs API
+  slug: edge-impulse-organization-jobs-api
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The Third Party Auth API from Edge Impulse — 4 operation(s) for third party auth.
+  name: Edge Impulse Third Party Auth API
+  slug: edge-impulse-third-party-auth-api
+- baseURL: https://studio.edgeimpulse.com/v1
+  baseurl_source: declared
+  description: The White Labels API from Edge Impulse — 5 operation(s) for white labels.
+  name: Edge Impulse White Labels API
+  slug: edge-impulse-white-labels-api
+artifact_total: 84
 asyncapis:
 - description: DERIVED, NOT PUBLISHED. Edge Impulse does not ship an AsyncAPI document. This one is derived by API Evangelist from the provider's own written WebSocket protocol reference at https://docs.edgeimpulse.
   name: Edge Impulse Remote Management API
@@ -333,6 +343,31 @@ collections:
   name: Edge Impulse Whitelabels API
   slug: open-edge-impulse-whitelabels-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/overlays/edge-impulse-emailverification-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/edge-impulse-emailverification-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/overlays/edge-impulse-featureflags-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/edge-impulse-featureflags-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/overlays/edge-impulse-organizationjobs-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/edge-impulse-organizationjobs-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/overlays/edge-impulse-thirdpartyauth-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/edge-impulse-thirdpartyauth-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/overlays/edge-impulse-whitelabels-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/edge-impulse-whitelabels-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/authentication/edge-impulse-authentication.yml
   title: ''
@@ -558,22 +593,22 @@ mcp_servers:
 - description: 'Edge Impulse ships MCP two ways, and they are different products. A REMOTE, anonymous documentation MCP endpoint answers tools/list today at https://docs.edgeimpulse.com/mcp (3 read-only docs tools). '
   name: Edge Impulse MCP Servers
   slug: edge-impulse-mcp-servers
-modified: '2026-09-06'
+modified: '2026-09-16'
 name: Edge Impulse
 nav: Providers
 network: true
-overview: 'Edge Impulse publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, Canary API, and 32 more. Tagged areas include Artificial Intelligence, Machine-Learning, Embedded Machine Learning, Edge AI, and MLOps.
+overview: 'Edge Impulse publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, Canary API, and 34 more. Tagged areas include Artificial Intelligence, Machine-Learning, Embedded Machine Learning, Edge AI, and MLOps.
 
 
   The Edge Impulse catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Edge Impulse''s developer surface includes authentication, documentation, engineering blog, FAQ, signup flow, CLI, API reference, and 41 more developer resources.'
+  Edge Impulse''s developer surface includes authentication, documentation, engineering blog, FAQ, signup flow, CLI, API reference, and 46 more developer resources.'
 plans:
 - name: Edge Impulse Plans Pricing
   plan_count: 2
   slug: edge-impulse-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Edge Impulse Rate Limits
@@ -585,7 +620,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.0
+  composite: 67.4
   coverage:
     artifact_dirs: 25
     catalog_earned: 48.0
@@ -593,11 +628,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 57.8
+    contract_quality: 55.6
     developer_ergonomics: 90.5
     discoverability: 75.9
     operational_transparency: 39.5
@@ -608,11 +643,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 34
+      total: 36
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Daily-updated CSV dataset containing information on 85,000+ airports worldwide, including ICAO/IATA codes, coordinates, elevation, type, scheduled service status, and links to official and Wikipedia p
@@ -56,6 +56,10 @@ apis:
   slug: ourairports-regions-dataset
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ourairports.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -102,7 +106,7 @@ jsonld:
   property_count: 0
   slug: dataset
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: OurAirports
 nav: Providers
 network: true
@@ -114,7 +118,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -145,7 +149,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

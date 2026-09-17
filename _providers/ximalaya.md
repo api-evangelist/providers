@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The core Ximalaya Open Platform HTTP+JSON API on api.ximalaya.com: free on-demand content (albums, tracks, categories, tags), paid on-demand content metadata, content search with hot/suggest words, re'
@@ -182,7 +182,7 @@ plans:
 - name: Ximalaya Plans Pricing
   plan_count: 0
   slug: ximalaya-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Ximalaya Rate Limits
@@ -222,7 +222,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

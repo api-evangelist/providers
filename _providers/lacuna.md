@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 57.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ agentic_access:
   operation_count: 3
   slug: lacuna-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Hosted Model Context Protocol server (Streamable HTTP) at https://www.lacuna.fm/mcp, protocol 2025-06-18. initialize and tools/list answer anonymously and return real input schemas; tools/call require
   name: Lacuna MCP Server
@@ -64,9 +64,9 @@ apis:
   description: Music generation endpoints.
   name: Lacuna Music API
   slug: lacuna-music-api
-- baseURL: https://www.lacuna.fm/api
+- baseURL: https://www.lacuna.fm/mcp
   baseurl_source: declared
-  description: Free introspection of the calling credential — account id, subscription plan, credit balance (subscription vs one-time), the effective requests-per-minute and concurrent-generation limits for this key
+  description: Account, plan and credential introspection.
   name: Lacuna Account API
   slug: lacuna-account-api
 arazzos:
@@ -89,6 +89,11 @@ collections:
   name: Lacuna Music API
   slug: open-lacuna-music-api
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/skills/lacuna-preflight-and-budget.md
+  title: ''
+  type: AgentSkill
+  url: skills/lacuna-preflight-and-budget.md
 - group: company
   title: ''
   type: Website
@@ -308,12 +313,12 @@ overview: 'Lacuna publishes 3 APIs on the [APIs.io](https://apis.io/) network: M
   The Lacuna catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lacuna''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 36 more developer resources.'
+  Lacuna''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 37 more developer resources.'
 plans:
 - name: Lacuna Plans
   plan_count: 4
   slug: lacuna-plans
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Lacuna Rate Limits
@@ -325,7 +330,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.1
+  composite: 63.0
   coverage:
     artifact_dirs: 26
     catalog_earned: 61.0
@@ -333,11 +338,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 55.5
+    contract_quality: 58.8
     developer_ergonomics: 78.6
     discoverability: 75.9
     operational_transparency: 63.2
@@ -353,7 +358,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -383,7 +388,7 @@ tags:
 - Songwriting
 - Generative AI
 - MCP Server
-- AgentSkill
+- Agent Skills
 - A2A
 - Developer Tools
 - Account

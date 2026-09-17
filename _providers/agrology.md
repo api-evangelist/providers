@@ -23,16 +23,96 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.agrology.ag/v2
   baseurl_source: declared
-  description: The Agrology Public API v2 exposes site and node configuration, GeoJSON geometry, historical ground-truth sensor telemetry, historical and forecast weather service data, ML-derived synthetic microclim
-  name: Agrology Public API v2
-  slug: agrology-public-api-v2
-artifact_total: 6
+  description: The Alerts API from Agrology — 1 operation(s) for alerts.
+  name: Agrology Alerts API
+  slug: agrology-alerts-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Charts API from Agrology — 2 operation(s) for charts.
+  name: Agrology Charts API
+  slug: agrology-charts-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Dashboards API from Agrology — 10 operation(s) for dashboards.
+  name: Agrology Dashboards API
+  slug: agrology-dashboards-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Experiments API from Agrology — 14 operation(s) for experiments.
+  name: Agrology Experiments API
+  slug: agrology-experiments-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Feedback API from Agrology — 1 operation(s) for feedback.
+  name: Agrology Feedback API
+  slug: agrology-feedback-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Files API from Agrology — 3 operation(s) for files.
+  name: Agrology Files API
+  slug: agrology-files-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Ground Truth API from Agrology — 5 operation(s) for ground truth.
+  name: Agrology Ground Truth API
+  slug: agrology-ground-truth-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Metrics API from Agrology — 6 operation(s) for metrics.
+  name: Agrology Metrics API
+  slug: agrology-metrics-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Microclimate API from Agrology — 4 operation(s) for microclimate.
+  name: Agrology Microclimate API
+  slug: agrology-microclimate-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Reports API from Agrology — 5 operation(s) for reports.
+  name: Agrology Reports API
+  slug: agrology-reports-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Summary Data API from Agrology — 1 operation(s) for summary data.
+  name: Agrology Summary Data API
+  slug: agrology-summary-data-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Synthetics API from Agrology — 2 operation(s) for synthetics.
+  name: Agrology Synthetics API
+  slug: agrology-synthetics-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Topology API from Agrology — 5 operation(s) for topology.
+  name: Agrology Topology API
+  slug: agrology-topology-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The User API from Agrology — 1 operation(s) for user.
+  name: Agrology User API
+  slug: agrology-user-api
+- baseURL: https://api.agrology.ag/v2
+  baseurl_source: declared
+  description: The Weather API from Agrology — 6 operation(s) for weather.
+  name: Agrology Weather API
+  slug: agrology-weather-api
+artifact_total: 20
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/overlays/agrology-public-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/agrology-public-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -92,15 +172,15 @@ modified: '2026-09-13'
 name: Agrology
 nav: Providers
 network: true
-overview: 'Agrology publishes 1 API on the [APIs.io](https://apis.io/) network: Public API v2. Tagged areas include Company, Agriculture, AgTech, Climate, and Sensors.
+overview: 'Agrology publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Charts API, Dashboards API, and 12 more. Tagged areas include Company, Agriculture, AgTech, Climate, and Sensors.
 
 
-  Agrology''s developer surface includes documentation, API reference, engineering blog, support, and 8 more developer resources.'
+  Agrology''s developer surface includes documentation, API reference, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Agrology Plans Pricing
   plan_count: 0
   slug: agrology-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Agrology Rate Limits
@@ -112,7 +192,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.9
+  composite: 34.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -120,11 +200,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 44.9
+    contract_quality: 49.8
     developer_ergonomics: 37.5
     discoverability: 68.5
     operational_transparency: 5.3
@@ -135,11 +215,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 15
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

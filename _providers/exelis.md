@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: SAIC
   url: https://www.govconwire.com/s/company/saic/page/770
-random_paper: 20
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/screenshots/exelis-2026-06-20T180930.png
 security:
 - kind: domain-security

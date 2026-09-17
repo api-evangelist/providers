@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -980,7 +980,7 @@ plans:
 - name: Nginx Plans Pricing
   plan_count: 6
   slug: nginx-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Nginx Rate Limits
@@ -1037,7 +1037,7 @@ score:
       marker_coverage: 11.5
       total: 26
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

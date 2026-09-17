@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: LDAP v3 protocol interface provided by the slapd directory server for reading, writing, and managing hierarchical directory entries. Authentication is via simple bind, SASL mechanisms, or TLS client c
@@ -85,7 +85,7 @@ overview: 'OpenLDAP publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   OpenLDAP''s developer surface includes documentation, FAQ, and 6 more developer resources.'
-random_paper: 11
+random_paper: 15
 score:
   band: minimal
   composite: 8.2
@@ -106,7 +106,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 8.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

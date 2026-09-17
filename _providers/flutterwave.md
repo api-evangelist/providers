@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -69,11 +69,6 @@ apis:
   description: Outbound webhook callbacks delivered by Flutterwave for charges, transfers, refunds, chargebacks, and virtual account funding. Receivers validate the `verif-hash` header against the merchant's configu
   name: Flutterwave Webhooks API
   slug: flutterwave-webhooks-api
-- baseURL: https://api.flutterwave.cloud/f4b/production
-  baseurl_source: declared
-  description: Bank account name resolution before initiating payouts.
-  name: Flutterwave AccountResolution API
-  slug: flutterwave-accountresolution-api
 - baseURL: https://api.flutterwave.cloud/f4b/production
   baseurl_source: declared
   description: Manage and respond to chargebacks raised by customers.
@@ -111,11 +106,6 @@ apis:
   slug: flutterwave-orders-api
 - baseURL: https://api.flutterwave.cloud/f4b/production
   baseurl_source: declared
-  description: Tokenize, register, and look up payment methods (cards, mobile money, bank, USSD).
-  name: Flutterwave PaymentMethods API
-  slug: flutterwave-paymentmethods-api
-- baseURL: https://api.flutterwave.cloud/f4b/production
-  baseurl_source: declared
   description: Real-time FX conversion rates for international transfers.
   name: Flutterwave Rates API
   slug: flutterwave-rates-api
@@ -136,9 +126,19 @@ apis:
   slug: flutterwave-senders-api
 - baseURL: https://api.flutterwave.cloud/f4b/production
   baseurl_source: declared
+  description: Bank account name resolution before initiating payouts.
+  name: Flutterwave Account Resolution API
+  slug: flutterwave-account-resolution-api
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Tokenize, register, and look up payment methods (cards, mobile money, bank, USSD).
+  name: Flutterwave Payment Methods API
+  slug: flutterwave-payment-methods-api
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
   description: Issue virtual NUBANs for pay-with-bank-transfer collections.
-  name: Flutterwave VirtualAccounts API
-  slug: flutterwave-virtualaccounts-api
+  name: Flutterwave Virtual Accounts API
+  slug: flutterwave-virtual-accounts-api
 arazzos:
 - description: Look up supported banks for a country, resolve the destination account, then create a recipient and send a payout.
   name: Flutterwave Bank Directory Then Payout
@@ -687,7 +687,7 @@ plans:
 - name: Flutterwave Plans Pricing
   plan_count: 9
   slug: flutterwave-plans-pricing
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Flutterwave Rate Limits
@@ -757,7 +757,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -780,7 +780,7 @@ tags:
 - Cards
 - Africa
 - Fintech
-- Remittance
+- Remittances
 - Virtual Accounts
 - Chargebacks
 - Multi-Currency

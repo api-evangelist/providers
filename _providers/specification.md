@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Specification
 nav: Providers
 network: true
-random_paper: 12
+random_paper: 13
 slug: specification
 tags:
 - API Design
@@ -30,6 +30,6 @@ tags:
 - Contract Testing
 - JSON-Schema
 - OpenAPI
-- Specifications
+- Specification
 - Standards
 ---

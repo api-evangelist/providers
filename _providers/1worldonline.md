@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The first-party HTTP backend behind the 1World Online publisher portal, widget frontend and loyalty applications. Its host is declared by 1World Online's own frontend configuration (URL_SERVER_API_NEW
@@ -134,7 +134,7 @@ plans:
 - name: 1Worldonline Plans Pricing
   plan_count: 0
   slug: 1worldonline-plans-pricing
-random_paper: 7
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: 1Worldonline Rate Limits
@@ -161,7 +161,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

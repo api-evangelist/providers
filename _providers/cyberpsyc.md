@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,7 +82,7 @@ created: '2026-07-17'
 description: CyberPsyc Software Solutions, operating as WellTrack Boost (now part of ProtoCall Services), builds self-guided, clinically-supported digital cognitive behavioral therapy (CBT) tools for behavioral health and wellness. The platform lets users assess and understand their mental health on their own devices and schedule through MoodCheck mood tracking, the Zen Room, a Thought Diary, an Activity Scheduler, Fun and Achievement planning, and guided modules for stress, anxiety, and depression. WellTrack Boost is deployed by college counseling centers and certified community behavioral health clinics, offering institutional single sign-on through a SAML integration surface. No public developer REST API or OpenAPI is currently published.
 image: https://welltrack.com/wp-content/uploads/2022/08/logo-main.svg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Cyberpsyc
 nav: Providers
 network: true
@@ -90,7 +90,7 @@ overview: 'Cyberpsyc is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cyberpsyc''s developer surface includes support, engineering blog, getting-started guide, and 7 more developer resources.'
-random_paper: 14
+random_paper: 12
 score:
   band: emerging
   composite: 12.1
@@ -117,7 +117,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -144,5 +144,6 @@ tags:
 - Healthcare
 - Higher Education
 - SSO
+- Identity Federation
 website: https://welltrack.com
 ---

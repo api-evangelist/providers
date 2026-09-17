@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 258
   human_in_the_loop: 0
@@ -328,7 +328,7 @@ apis:
 - baseURL: https://earthnode-dev.vopay.com/api/v2
   baseurl_source: declared
   description: The Vopay Instant Endpoints API from VoPay — 3 operation(s) for vopay instant endpoints.
-  name: VoPay Vopay Instant Endpoints API
+  name: VoPay Instant Endpoints API
   slug: vopay-vopay-instant-endpoints-api
 - baseURL: https://earthnode-dev.vopay.com/api/v2
   baseurl_source: declared
@@ -621,7 +621,7 @@ created: '2026-07-24'
 description: VoPay is a Vancouver, Canada based fintech offering an API-first embedded finance and payments-as-a-service platform that lets software companies, marketplaces, lenders, and enterprises move money across Canadian and North American bank rails from a single set of REST endpoints. Its Fintech-as-a-Service suite spans EFT, Interac e-Transfer, ACH, RTP/FedNow/FedWire, VoPay Instant, card and digital-wallet payments, cross-border and global cash management, virtual accounts, ledgering, scheduled and recurring payments, bank-account verification (IQ11), KYC/AML onboarding, and dispute management. VoPay ships a genuine public developer portal (docs.vopay.com) with a sandbox, an OpenAPI-backed API reference segmented by product, webhooks for transaction and account events, and API-key-plus-shared-secret signature authentication with IP whitelisting. Its home market is Canada, where it operates as an API-native money-movement layer over Interac and Payments Canada rails.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-09-16'
 name: VoPay
 nav: Providers
 network: true
@@ -632,7 +632,7 @@ overview: 'VoPay publishes 61 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   VoPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 34 more developer resources.'
-random_paper: 13
+random_paper: 9
 score:
   band: developing
   composite: 51.9
@@ -647,7 +647,7 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 58.3
+    contract_quality: 58.4
     developer_ergonomics: 57.7
     discoverability: 66.7
     operational_transparency: 44.7
@@ -676,7 +676,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

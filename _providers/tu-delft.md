@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: TU Delft's SimpleSAMLphp identity provider — the machine-readable half of NetID. It publishes a signed SAML 2.0 EntityDescriptor with an IDPSSODescriptor and is registered in SURFconext, the Dutch nat
@@ -274,7 +274,7 @@ plans:
 - name: Tu Delft Plans Pricing
   plan_count: 2
   slug: tu-delft-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Tu Delft Rate Limits
@@ -337,7 +337,7 @@ score:
     regime_id: education
     score: 90.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

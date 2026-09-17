@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Khosla Ventures
 nav: Providers
 network: true
-random_paper: 4
+random_paper: 17
 slug: khosla-ventures
 tags:
 - Venture Capital

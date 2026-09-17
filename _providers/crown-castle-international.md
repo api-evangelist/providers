@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: Form 10-K for Crown Castle INC filed 02/23/2024 - Investors
   url: https://investor.crowncastle.com/static-files/3a8ab5af-bd9f-4219-a5ca-c4f4d924a6a4
-random_paper: 12
+random_paper: 17
 score:
   band: minimal
   composite: 1.8
@@ -132,7 +132,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

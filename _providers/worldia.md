@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Worldia production REST API. An API Platform (Symfony) deployment that content-negotiates application/vnd.worldia+json, application/ld+json (Hydra) and application/problem+json. A subset of collection
@@ -204,7 +204,7 @@ plans:
 - name: Worldia Plans Pricing
   plan_count: 0
   slug: worldia-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Worldia Rate Limits
@@ -237,7 +237,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

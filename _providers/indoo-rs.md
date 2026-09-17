@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,11 +52,11 @@ modified: '2026-07-19'
 name: Indoo Rs
 nav: Providers
 network: true
-overview: 'Indoo Rs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Indoor Positioning, IPs, Indoor Mapping, and Geospatial.
+overview: 'Indoo Rs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Indoor Positioning, IP, Indoor Mapping, and Geospatial.
 
 
   Indoo Rs'' developer surface includes documentation and 1 more developer resources.'
-random_paper: 13
+random_paper: 19
 score:
   band: minimal
   composite: 6.9
@@ -83,7 +83,7 @@ score:
       reason: never_enriched
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -94,7 +94,7 @@ slug: indoo-rs
 tags:
 - Company
 - Indoor Positioning
-- IPs
+- IP
 - Indoor Mapping
 - Geospatial
 - GIS

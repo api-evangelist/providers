@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
   description: The api API from MobileAPI.dev — 2 operation(s) for api.
-  name: MobileAPI.dev api API
+  name: MobileAPI.dev api
   slug: mobileapi-dev-api-api
 - baseURL: https://api.mobileapi.dev/
   baseurl_source: declared
@@ -466,11 +466,11 @@ jsonld:
   property_count: 7
   slug: mobileapi-dev-context
 layout: provider
-modified: '2026-05-06'
+modified: '2026-09-16'
 name: MobileAPI.dev
 nav: Providers
 network: true
-overview: 'MobileAPI.dev publishes 9 APIs on the [APIs.io](https://apis.io/) network, including api API, api-token-auth API, demo-x7k9m2p4 API, and 6 more. Tagged areas include Data API, Developer Tools, Device Specifications, Mobile Data, and Phone Specs.
+overview: 'MobileAPI.dev publishes 9 APIs on the [APIs.io](https://apis.io/) network, including api-token-auth API, demo-x7k9m2p4 API, and 7 more. Tagged areas include Data API, Developer Tools, Device Specifications, Mobile Data, and Phone Specs.
 
 
   The MobileAPI.dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -481,7 +481,7 @@ plans:
 - name: Mobileapi Dev Plans Pricing
   plan_count: 3
   slug: mobileapi-dev-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Mobileapi Dev Rate Limits
@@ -509,22 +509,22 @@ rules:
     warn: 4
   slug: mobileapi-rules
 score:
-  band: strong
-  composite: 56.8
+  band: developing
+  composite: 53.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 83.5
+    catalog_earned: 63.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 31.5
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 72.4
     contract_governance: 13.6
-    contract_quality: 64.9
+    contract_quality: 59.9
     developer_ergonomics: 58.3
-    discoverability: 70.4
+    discoverability: 51.9
     operational_transparency: 50.0
   previous_composite: 56.8
   provenance:
@@ -535,7 +535,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Hashnode Public API is a GraphQL API that queries publication data, manages posts and drafts, and creates content via mutations. All requests are POSTed to a single endpoint at https://gql-beta.ha
@@ -241,7 +241,7 @@ plans:
 - name: Hashnode Plans Pricing
   plan_count: 3
   slug: hashnode-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Hashnode Rate Limits
@@ -270,7 +270,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -26,81 +26,601 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 49.8
-  scored_at: '2026-09-15'
-api_count: 118
+  score: 52.3
+  scored_at: '2026-09-16'
+api_count: 196
 apis:
 - baseURL: https://tts.apib2b.citi.com/citiconnect/prod
   baseurl_source: declared
-  description: OAuth 2.0 token issuance for every Citi institutional API. Four concurrent versions (V1-V4) of the authentication endpoint are published; each product API's own specification names the version it requ
-  name: Citi API Authentication Services
-  slug: citi-api-authentication-services
-- baseURL: https://tts.apib2b.citi.com/citiconnect/prod/accountstatementservices
-  baseurl_source: declared
-  description: 'Real-time and intraday account information across Citi''s global network: balance inquiry, prior-day and intraday statements (ISO 20022 camt), account services, account statement blocks and filters, an'
-  name: Citi Account Reporting APIs
-  slug: citi-account-reporting-apis
-- baseURL: https://tts.apib2b.citi.com/citiconnect/prod/paymentservices/v3
-  baseurl_source: declared
-  description: 'Payment initiation, status, cancellation, refund, enhanced inquiry, reconfirmation, bulk payments, instant/express payments and WorldLink cross-border payouts. Message bodies are ISO 20022 (pain.001, '
-  name: Citi Outgoing Payments APIs
-  slug: citi-outgoing-payments-apis
+  description: The Account Notification API from Citi — 1 operation(s) for account notification.
+  name: Citi Account Notification API
+  slug: citi-account-notification-api
 - baseURL: https://tts.apib2b.citi.com/citiconnect/prod
   baseurl_source: declared
-  description: 'Collections and payment acceptance: online payment acceptance, direct debit and e-mandates, PayerID management, Brazil PIX dynamic and due-date collections, and instant direct debit. Citi publishes 10'
-  name: Citi Payment Acceptance APIs
-  slug: citi-payment-acceptance-apis
-- baseURL: https://tts.apib2b.citi.com/tts/cards
-  baseurl_source: declared
-  description: Virtual Card Account lifecycle, mobile virtual cards, payment-intermediary VCA management, authorization notifications and webhooks, clearing exception reporting, purchase template details, mobile wal
-  name: Citi Commercial Cards and Virtual Card Accounts APIs
-  slug: citi-commercial-cards-and-virtual-card-accounts-apis
-- baseURL: https://api.citivelocity.com/markets
-  baseurl_source: declared
-  description: Foreign exchange quoting, order placement, order cancellation and reporting over the CitiFX Gateway and Instant FX services, each published in matched synchronous and asynchronous variants, plus a FIX
-  name: CitiFX Gateway and Instant FX APIs
-  slug: citifx-gateway-and-instant-fx-apis
-- baseURL: https://api.citivelocity.com/markets/dod
-  baseurl_source: declared
-  description: 'Custody and securities servicing: safekeeping accounts and positions, cash balances and transactions, securities transactions, custody penalties, tax reclaims, FX transactions, billing, and ETF order '
-  name: Citi Custody and Securities Services APIs
-  slug: citi-custody-and-securities-services-apis
-- baseURL: https://b2b.api.icg.citi.com/citiconnect/prod/iis/api/funds/transferagency
-  baseurl_source: declared
-  description: Fund transfer agency data for investors, accounts, holdings and transactions, served through the CitiConnect institutional investor services gateway. Citi publishes 4 machine-readable specifications f
-  name: Citi Funds Transfer Agency APIs
-  slug: citi-funds-transfer-agency-apis
-- baseURL: https://b2b.tts.icgservices.citi.com/citiconnect/openbanking/ukr/accountconsentservices/v1
-  baseurl_source: declared
-  description: 'Regulated open banking surfaces: Ukraine bank data sharing, Ukraine OAuth2 authentication and payment service initiation, and European commercial card account balance and statement transaction inquiry'
-  name: Citi Open Banking APIs
-  slug: citi-open-banking-apis
+  description: The Accounts API from Citi — 6 operation(s) for accounts.
+  name: Citi Accounts API
+  slug: citi-accounts-api
 - baseURL: https://tts.apib2b.citi.com/citiconnect/prod
   baseurl_source: declared
-  description: 'Trade finance over a lightweight message exchange interface: standby letters of credit, trade finance undertakings, amendment and cancellation, and receivables finance. Citi publishes 2 machine-readab'
-  name: CitiConnect Trade Services APIs
-  slug: citiconnect-trade-services-apis
-- baseURL: https://b2b.api.icg.citi.com/citiconnect/prod/gatewayservices
+  description: The Addonservices API from Citi — 1 operation(s) for addonservices.
+  name: Citi Addonservices API
+  slug: citi-addonservices-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
   baseurl_source: declared
-  description: 'Marketplace and gateway management for CitiConnect: onboarding, entitlement and configuration operations used to administer a client''s API estate. Citi publishes 1 machine-readable specification for t'
-  name: Citi Gateway Services API
-  slug: citi-gateway-services-api
-- baseURL: https://tts.apib2b.citi.com/citiconnect/prod/selfservices/v1
+  description: The Authentication API from Citi — 3 operation(s) for authentication.
+  name: Citi Authentication API
+  slug: citi-authentication-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
   baseurl_source: declared
-  description: 'Payment-adjacent services: beneficiary account validation and search, entity whitelisting, self-service integration operations, and Request to Pay. Citi publishes 4 machine-readable specifications for'
-  name: Citi Additional Payment Services APIs
-  slug: citi-additional-payment-services-apis
-artifact_total: 20
+  description: The Authenticationservices API from Citi — 4 operation(s) for authenticationservices.
+  name: Citi Authenticationservices API
+  slug: citi-authenticationservices-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Dual Auth Authorization Request and Response
+  name: Citi Authorization API
+  slug: citi-authorization-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Balance API from Citi — 1 operation(s) for balance.
+  name: Citi Balance API
+  slug: citi-balance-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: API services to provide accounts, balances and transactions details.
+  name: Citi Bank Data Sharing API
+  slug: citi-bankdatasharing-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: 'Before initiating payment, POST beneficiary validation details to confirm that you are sending to the correct beneficiary. Validating beneficiary information is a two-step process: 1. Make a POST requ'
+  name: Citi Beneficiary Validation API
+  slug: citi-beneficiary-validation-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Billing API from Citi — 6 operation(s) for billing.
+  name: Citi Billing API
+  slug: citi-billing-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: API services to provide Block & Filters in an account.
+  name: Citi Blocks & Filters API
+  slug: citi-blocks-filters-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Branch API from Citi — 1 operation(s) for branch.
+  name: Citi Branch API
+  slug: citi-branch-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Cancel API from Citi — 1 operation(s) for cancel.
+  name: Citi Cancel API
+  slug: citi-cancel-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: KYC certification submission and retrieval
+  name: Citi Certification API
+  slug: citi-certification-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Citiconnect API from Citi — 2 operation(s) for citiconnect.
+  name: Citi Citiconnect API
+  slug: citi-citiconnect-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Reúne endpoints destinados a lidar com gerenciamento de cobranças associadas a uma recorrência.
+  name: Citi Cob R API
+  slug: citi-cobr-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Collection API from Citi — 4 operation(s) for collection.
+  name: Citi Collection API
+  slug: citi-collection-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Contract status inquiry API from Citi — 1 operation(s) for contract status inquiry.
+  name: Citi Contract status inquiry API
+  slug: citi-contract-status-inquiry-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Create API from Citi — 1 operation(s) for create.
+  name: Citi Create API
+  slug: citi-create-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operations related to dispute management
+  name: Citi Create Dispute request API
+  slug: citi-create-dispute-request-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Digitalpayments API from Citi — 5 operation(s) for digitalpayments.
+  name: Citi Digitalpayments API
+  slug: citi-digitalpayments-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Webhook notification to be sent to clients for case status
+  name: Citi Dispute webhook API
+  slug: citi-dispute-webhook-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Document API from Citi — 1 operation(s) for document.
+  name: Citi Document API
+  slug: citi-document-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Emandateservices API from Citi — 4 operation(s) for emandateservices.
+  name: Citi Emandateservices API
+  slug: citi-emandateservices-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: File management
+  name: Citi File API
+  slug: citi-file-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Fx API from Citi — 2 operation(s) for fx.
+  name: Citi Fx API
+  slug: citi-fx-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Fxgateway API from Citi — 13 operation(s) for fxgateway.
+  name: Citi Fxgateway API
+  slug: citi-fxgateway-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: API services to support FX Rate Inquiry
+  name: Citi Fx Rate Inquiry API
+  slug: citi-fxrateinquiry-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operations for retrieving VCA transaction notifications
+  name: Citi Get Notifications API
+  slug: citi-get-notifications-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The GetVcaDetails API from Citi — 1 operation(s) for getvcadetails.
+  name: Citi Get Vca Details API
+  slug: citi-getvcadetails-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operations related to Holdings
+  name: Citi Holdings API
+  slug: citi-holdings-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operations related to Investors
+  name: Citi Investors API
+  slug: citi-investors-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Ipscheme API from Citi — 1 operation(s) for ipscheme.
+  name: Citi Ipscheme API
+  slug: citi-ipscheme-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Account linkage operations for external payments
+  name: Citi Link Account API
+  slug: citi-linkaccount-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Mandate API
+  name: Citi Mandate API
+  slug: citi-mandate-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Mandates API from Citi — 4 operation(s) for mandates.
+  name: Citi Mandates API
+  slug: citi-mandates-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Merchant onboarding and management operations
+  name: Citi Merchant Creation API
+  slug: citi-merchantcreation-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Modify API from Citi — 1 operation(s) for modify.
+  name: Citi Modify API
+  slug: citi-modify-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Mvca API from Citi — 3 operation(s) for mvca.
+  name: Citi Mvca API
+  slug: citi-mvca-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Non-Payment Messages API from Citi — 2 operation(s) for non-payment messages.
+  name: Citi Non-Payment Messages API
+  slug: citi-non-payment-messages-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Dual Auth Notification Request Payload
+  name: Citi Notification API
+  slug: citi-notification-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Pacs 00800108 API from Citi — 1 operation(s) for pacs 00800108.
+  name: Citi Pacs 00800108 API
+  slug: citi-pacs-00800108-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Pacs 00900108 API from Citi — 1 operation(s) for pacs 00900108.
+  name: Citi Pacs 00900108 API
+  slug: citi-pacs-00900108-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: PayerID Inquiry API has an ability to Inquiry API has an ability to inquire statuses of a single payer ID or assignee ID.
+  name: Citi Payer ID Inquiry API
+  slug: citi-payeridinquiry-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: PayerID Maintenance API has an ability to activate PayerID.
+  name: Citi Payer ID Maintenance API
+  slug: citi-payeridmaintenance-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: PayerID Reservations API has an ability to reserve PayerID.
+  name: Citi Payer ID Reservation API
+  slug: citi-payeridreservation-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: PayerID Update accounts and currencies API has an ability to update accounts and currency details of the given Payer ID.
+  name: Citi Payer ID Update Accountsand Currencies API
+  slug: citi-payeridupdateaccountsandcurrencies-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: PayerID Update assignee API has an ability to update, add or remove assignee details of the given Payer ID.
+  name: Citi Payer ID Update Assignee API
+  slug: citi-payeridupdateassignee-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Payment Acceptance API
+  name: Citi Payment Acceptance API
+  slug: citi-payment-acceptance-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Payout and payment query operations
+  name: Citi Payment API
+  slug: citi-payment-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: APIs to TPP for payment order consent creation and inquiry.
+  name: Citi Payment Order Consent API
+  slug: citi-paymentorderconsent-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Use the Payments endpoint to initiate and track instant payments. While all payments can be sent through a single CitiConnect API, it is important to observe local country requirements to avoid reject
+  name: Citi Payments API
+  slug: citi-payments-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: reúne endpoints destinados a lidar com gerenciamento de Pix recebidos.
+  name: Citi Pix API
+  slug: citi-pix-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: APIs for retrieving proof of payment reports.
+  name: Citi Proof Of Payment API
+  slug: citi-proofofpayment-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: These are operations related to provisioning requests.
+  name: Citi Provisioning API
+  slug: citi-provisioning-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Proxylookup API from Citi — 1 operation(s) for proxylookup.
+  name: Citi Proxylookup API
+  slug: citi-proxylookup-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Public Key API from Citi — 1 operation(s) for public key.
+  name: Citi Public Key API
+  slug: citi-public-key-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Webhook push notification operations for authorized and clearing transactions
+  name: Citi push Notifications API
+  slug: citi-push-notifications-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Reúne endpoints destinados a lidar com gerenciamento de recorrências.
+  name: Citi Rec API
+  slug: citi-rec-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Refunds API
+  name: Citi Refunds API
+  slug: citi-refunds-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Transaction and balance reporting operations
+  name: Citi Reporting API
+  slug: citi-reporting-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: API services to support Request for Information
+  name: Citi Request for Information API
+  slug: citi-request-for-information-api-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: API services to support Response to Request for Information
+  name: Citi Response to Request for Information API
+  slug: citi-response-to-request-for-information-api-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Request for Information operations
+  name: Citi Rfi API
+  slug: citi-rfi-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Services API from Citi — 14 operation(s) for services.
+  name: Citi Services API
+  slug: citi-services-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Sessions API from Citi — 2 operation(s) for sessions.
+  name: Citi Sessions API
+  slug: citi-sessions-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Reúne endpoints destinados a lidar com gerenciamento de solicitações de recorrências.
+  name: Citi Solic Rec API
+  slug: citi-solicrec-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Statement
+  name: Citi Statement API
+  slug: citi-statement-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Statement Services v1
+  name: Citi Statement Services v1 API
+  slug: citi-statement-services-v1-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operations related to dispute status enquiry
+  name: Citi Status Enquiry request API
+  slug: citi-status-enquiry-request-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operations related to ETF Order Approval processing
+  name: Citi Submit Action API
+  slug: citi-submitaction-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operations related to ETF basket processing
+  name: Citi Submit Plf API
+  slug: citi-submitplf-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operations related to event subscriptions
+  name: Citi Subscription API
+  slug: citi-subscription-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Token Lifecycle Events API from Citi — 1 operation(s) for token lifecycle events.
+  name: Citi Token Lifecycle Events API
+  slug: citi-token-lifecycle-events-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Token Provisioning Events API from Citi — 1 operation(s) for token provisioning events.
+  name: Citi Token Provisioning Events API
+  slug: citi-token-provisioning-events-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Tokens API
+  name: Citi Tokens API
+  slug: citi-tokens-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Trade API from Citi — 3 operation(s) for trade.
+  name: Citi Trade API
+  slug: citi-trade-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Trade Finance Undertaking API from Citi — 2 operation(s) for trade finance undertaking.
+  name: Citi Trade Finance Undertaking API
+  slug: citi-trade-finance-undertaking-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Transaction API from Citi — 2 operation(s) for transaction.
+  name: Citi Transaction API
+  slug: citi-transaction-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operations related to Transactions
+  name: Citi Transactions API
+  slug: citi-transactions-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Txrefund API from Citi — 1 operation(s) for txrefund.
+  name: Citi Txrefund API
+  slug: citi-txrefund-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The User Profile API from Citi — 1 operation(s) for user profile.
+  name: Citi User Profile API
+  slug: citi-user-profile-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Validate API from Citi — 1 operation(s) for validate.
+  name: Citi Validate API
+  slug: citi-validate-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: API services to support beneficiary/bank validation initiation
+  name: Citi Validations API
+  slug: citi-validations-api-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Vca API from Citi — 9 operation(s) for vca.
+  name: Citi Vca API
+  slug: citi-vca-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The VCA Clearing Exception Report API from Citi — 1 operation(s) for vca clearing exception report.
+  name: Citi VCA Clearing Exception Report API
+  slug: citi-vca-clearing-exception-report-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The vca-create-notification-service API from Citi — 1 operation(s) for vca-create-notification-service.
+  name: Citi Vca Create Notification Service API
+  slug: citi-vca-create-notification-service-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Virtual Account Single Entity
+  name: Citi Virtual Account Single Entity API
+  slug: citi-virtual-account-single-entity-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Virtual Account-Wallet API from Citi — 1 operation(s) for virtual account-wallet.
+  name: Citi Virtual Account-Wallet API
+  slug: citi-virtual-account-wallet-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Wallet management and balance operations
+  name: Citi Wallet API
+  slug: citi-wallet-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Reúne endpoints para gerenciamento de notificações por parte do PSP recebedor ao usuário recebedor.
+  name: Citi Webhook API
+  slug: citi-webhook-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Reúne endpoints para gerenciamento de notificações de cobranças recorrentes por parte do PSP recebedor ao usuário recebedor.
+  name: Citi Webhook Cob R API
+  slug: citi-webhookcobr-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Reúne endpoints para gerenciamento de notificações de recorrências por parte do PSP recebedor ao usuário recebedor.
+  name: Citi Webhook Rec API
+  slug: citi-webhookrec-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: Operation related to webhook requests.
+  name: Citi Webhooks API
+  slug: citi-webhooks-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The WorldLink Cancel FX API from Citi — 1 operation(s) for worldlink cancel fx.
+  name: Citi WorldLink Cancel FX API
+  slug: citi-worldlink-cancel-fx-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The WorldLink v2 API from Citi — 3 operation(s) for worldlink v2.
+  name: Citi WorldLink v2 API
+  slug: citi-worldlink-v2-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The WorldLink v3 API from Citi — 3 operation(s) for worldlink v3.
+  name: Citi WorldLink v3 API
+  slug: citi-worldlink-v3-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Worldlinkservices API from Citi — 2 operation(s) for worldlinkservices.
+  name: Citi Worldlinkservices API
+  slug: citi-worldlinkservices-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Bulk Payments API from Citi — 1 operation(s) for bulk payments.
+  name: Citi Bulk Payments API
+  slug: citi-bulk-payments-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: API services to create, retrieve, and delete account information consent.
+  name: Citi Consent Management API
+  slug: citi-consent-management-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Direct Debits API from Citi — 1 operation(s) for direct debits.
+  name: Citi Direct Debits API
+  slug: citi-direct-debits-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Payment Services API from Citi — 5 operation(s) for payment services.
+  name: Citi Payment Services API
+  slug: citi-payment-services-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: API to validate taxId status
+  name: Citi Tax ID validation API
+  slug: citi-tax-id-validation-api
+- baseURL: https://tts.apib2b.citi.com/citiconnect/prod
+  baseurl_source: declared
+  description: The Virtual Card API from Citi — 1 operation(s) for virtual card.
+  name: Citi Virtual Card API
+  slug: citi-virtual-card-api
+artifact_total: 112
 asyncapis:
 - description: ''
   name: Citi Webhooks
   slug: citi-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-authentication-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-authentication-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-account-reporting-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-account-reporting-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-outgoing-payments-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-outgoing-payments-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-accept-payments-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-accept-payments-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-commercial-cards-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-commercial-cards-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-fx-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-fx-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-custody-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-custody-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-transfer-agency-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-transfer-agency-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-open-banking-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-open-banking-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-trade-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-trade-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-gateway-services-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-gateway-services-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/overlays/citi-additional-payment-services-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citi-additional-payment-services-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -287,18 +807,18 @@ modified: '2026-09-05'
 name: Citi
 nav: Providers
 network: true
-overview: 'Citi publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API Authentication Services, Account Reporting APIs, Outgoing Payments APIs, and 9 more. Tagged areas include Banking, Financial-Services, Open Banking, Payments, and Treasury.
+overview: 'Citi publishes 104 APIs on the [APIs.io](https://apis.io/) network, including Account Notification API, Accounts API, Addonservices API, and 101 more. Tagged areas include Banking, Financial-Services, Open Banking, Payments, and Treasury.
 
 
   The Citi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Citi''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 31 more developer resources.'
+  Citi''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 43 more developer resources.'
 plans:
 - name: Citi Plans Pricing
   plan_count: 0
   slug: citi-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Citi Rate Limits
@@ -310,30 +830,30 @@ scopes:
   summary_line: 24 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 62.2
+  composite: 60.9
   coverage:
     artifact_dirs: 22
-    catalog_earned: 40.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 66.5
+    contract_quality: 67.9
     developer_ergonomics: 66.1
-    discoverability: 74.1
+    discoverability: 50.0
     operational_transparency: 44.7
   previous_composite: 62.2
   provenance:
     conformance: derived
     contracts:
-      callable: 91.3
+      callable: 95.2
       derived: 0
       marker_coverage: 0.0
-      total: 118
+      total: 107
     mcp: derived
     skills: derived
   regulatory:
@@ -341,9 +861,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 84.8
+    score: 89.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

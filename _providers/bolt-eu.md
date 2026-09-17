@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -63,17 +63,17 @@ apis:
 - baseURL: https://node.bolt.eu/delivery-provider-pos
   baseurl_source: declared
   description: The Bolt Delivery API API from Bolt — 0 operation(s) for bolt delivery api.
-  name: Bolt Bolt Delivery API
+  name: Bolt Delivery API
   slug: bolt-eu-bolt-delivery-api-api
 - baseURL: https://node.bolt.eu/delivery-provider-pos
   baseurl_source: declared
   description: The Bolt Food API API from Bolt — 0 operation(s) for bolt food api.
-  name: Bolt Bolt Food API
+  name: Bolt Food API
   slug: bolt-eu-bolt-food-api-api
 - baseURL: https://node.bolt.eu/delivery-provider-pos
   baseurl_source: declared
   description: The Bolt Stores API API from Bolt — 0 operation(s) for bolt stores api.
-  name: Bolt Bolt Stores API
+  name: Bolt Stores API
   slug: bolt-eu-bolt-stores-api-api
 artifact_total: 16
 collections:
@@ -153,7 +153,7 @@ created: '2026-07-11'
 description: Bolt (bolt.eu) is the Estonian mobility super-app operating ride-hailing, ride booking, scooter and e-bike rentals, car-sharing, and food and grocery delivery across 50+ countries in Europe and Africa. This is NOT Bolt the US checkout/payments company (bolt.com). Bolt does not offer a public ride-booking API - the company states it has no public or private APIs for ride-hailing, and business ride booking happens through the Ride Booker web tool and private travel-platform partnerships. Its documented developer surface at developer.bolt.eu is partner-gated and covers the delivery side of the platform - Food, Stores, and Delivery APIs for POS, menu, order, warehouse, and PIM integration - plus a fleet API whose credentials are issued in the Fleet Portal but whose endpoints are not publicly documented.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bolt-eu.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Bolt
 nav: Providers
 network: true
@@ -165,7 +165,7 @@ plans:
 - name: Bolt Eu Plans Pricing
   plan_count: 3
   slug: bolt-eu-plans-pricing
-random_paper: 3
+random_paper: 14
 score:
   band: thin
   composite: 31.9
@@ -193,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

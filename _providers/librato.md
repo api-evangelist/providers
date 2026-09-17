@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RETIRED. JSON REST API for submitting and retrieving time-series measurements and for managing metrics, metric attributes, spaces, charts, dashboards, instruments, annotations, alerts, notification se
@@ -133,7 +133,7 @@ overview: 'Librato publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Librato''s developer surface includes API reference, documentation, getting-started guide, authentication, and 13 more developer resources.'
-random_paper: 14
+random_paper: 1
 score:
   band: emerging
   composite: 18.5
@@ -154,7 +154,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

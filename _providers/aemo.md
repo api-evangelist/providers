@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 560
   human_in_the_loop: 21
@@ -58,24 +58,9 @@ apis:
   slug: aemo-wa-market-data-public-feed
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
-  description: Introduction
-  name: AEMO B2 B Messaging Async API
-  slug: aemo-b2bmessagingasync-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
   description: The B2BMessagingPull API is a B2B SMP API used to send and receive B2B messages between the participants in a Pull messaging pattern. The messages will be queued in the e-Hub and the receiving partici
   name: AEMO B2 B Messaging Pull API
   slug: aemo-b2bmessagingpull-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Introduction
-  name: AEMO B2 B Messaging Sync API
-  slug: aemo-b2bmessagingsync-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Introduction
-  name: AEMO B2 M Messaging Async API
-  slug: aemo-b2mmessagingasync-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
   description: Introduction
@@ -88,34 +73,9 @@ apis:
   slug: aemo-b2mmessagingsync-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
-  description: Balancing Reports v2.1
-  name: AEMO Balancing Reports v2.1 API
-  slug: aemo-balancing-reports-v2-1-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Balancing Reports v2.2
-  name: AEMO Balancing Reports v2.2 API
-  slug: aemo-balancing-reports-v2-2-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Balancing Reports v2.3
-  name: AEMO Balancing Reports v2.3 API
-  slug: aemo-balancing-reports-v2-3-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Balancing Reports v2.4
-  name: AEMO Balancing Reports v2.4 API
-  slug: aemo-balancing-reports-v2-4-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
   description: Balancing Reports v2.5
   name: AEMO Balancing Reports v2.5 API
   slug: aemo-balancing-reports-v2-5-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Balancing Reports v2
-  name: AEMO Balancing Reports v2 API
-  slug: aemo-balancing-reports-v2-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
   description: Balancing Submission v2
@@ -166,11 +126,6 @@ apis:
   description: Introduction
   name: AEMO DER Registration For Account Holders API
   slug: aemo-der-registration-for-account-holders-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Introduction
-  name: AEMO DER Registration for NSPs API
-  slug: aemo-der-registration-for-nsps-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
   description: Distributed Energy Resource endpoints
@@ -268,19 +223,9 @@ apis:
   slug: aemo-meterexemption-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
-  description: Introduction
-  name: AEMO MT PASA Offers API
-  slug: aemo-mt-pasa-offers-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
   description: Bidding Service Open API specification
   name: AEMO NEM Dispatch Bidding API
   slug: aemo-nemdispatchbidding-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: oauth-v1
-  name: AEMO OAUTH V1 API
-  slug: aemo-oauth-v1-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
   description: OIP
@@ -291,26 +236,6 @@ apis:
   description: Outage Management
   name: AEMO Outage Management API
   slug: aemo-outage-management-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Introduction
-  name: AEMO P2 P Messaging Sync API
-  slug: aemo-p2pmessagingsync-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Pre-Balancing Reports v6
-  name: AEMO Pre-Balancing Reports v6 API
-  slug: aemo-pre-balancing-reports-v6-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Pre-Balancing Reports v7.1
-  name: AEMO Pre-Balancing Reports v7.1 API
-  slug: aemo-pre-balancing-reports-v7-1-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: Pre-Balancing Reports v7
-  name: AEMO Pre-Balancing Reports v7 API
-  slug: aemo-pre-balancing-reports-v7-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
   description: Pre-Balancing Reports v8
@@ -358,39 +283,9 @@ apis:
   slug: aemo-submission-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
-  description: System Management Reports v2.1
-  name: AEMO System Management Reports v2.1 API
-  slug: aemo-system-management-reports-v2-1-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
   description: System Management Reports v2.2
   name: AEMO System Management Reports v2.2 API
   slug: aemo-system-management-reports-v2-2-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: System Management Reports v2.3
-  name: AEMO System Management Reports v2.3 API
-  slug: aemo-system-management-reports-v2-3-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: System Management Reports v2.4
-  name: AEMO System Management Reports v2.4 API
-  slug: aemo-system-management-reports-v2-4-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: System Management Reports v2.5
-  name: AEMO System Management Reports v2.5 API
-  slug: aemo-system-management-reports-v2-5-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: System Management Reports v2.6
-  name: AEMO System Management Reports v2.6 API
-  slug: aemo-system-management-reports-v2-6-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: System Management Reports v2
-  name: AEMO System Management Reports v2 API
-  slug: aemo-system-management-reports-v2-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
   description: 'The TLS Certificate Management API allows authorised participants to self-manage their AEMO-signed TLS certificates. This API provides the following features:'
@@ -423,11 +318,6 @@ apis:
   slug: aemo-wemde-dispatchcase-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
-  description: WEMDE DispatchCase V2
-  name: AEMO WEMDE DispatchCase V2 API
-  slug: aemo-wemde-dispatchcase-v2-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
   description: WEMDE DispatchInstruction
   name: AEMO WEMDE DispatchInstruction API
   slug: aemo-wemde-dispatchinstruction-api
@@ -436,11 +326,6 @@ apis:
   description: WEMDE DispatchSolution
   name: AEMO WEMDE DispatchSolution API
   slug: aemo-wemde-dispatchsolution-api
-- baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
-  baseurl_source: declared
-  description: WEMDE DispatchSolution V2
-  name: AEMO WEMDE DispatchSolution V2 API
-  slug: aemo-wemde-dispatchsolution-v2-api
 - baseURL: https://visualisations.aemo.com.au/aemo/apps/api/report
   baseurl_source: declared
   description: WEMDE DispatchSummary
@@ -471,7 +356,7 @@ apis:
   description: WEMDE TradingDayReport
   name: AEMO WEMDE TradingDayReport API
   slug: aemo-wemde-tradingdayreport-api
-artifact_total: 169
+artifact_total: 146
 asyncapis:
 - description: ''
   name: Aemo Ehub Events
@@ -960,14 +845,14 @@ modified: '2026-07-27'
 name: AEMO
 nav: Providers
 network: true
-overview: 'AEMO publishes 83 APIs on the [APIs.io](https://apis.io/) network, including B2 B Messaging Async API, B2 B Messaging Pull API, B2 B Messaging Sync API, and 80 more. Tagged areas include Energy, Australia, Electricity, Gas, and Energy Markets.
+overview: 'AEMO publishes 60 APIs on the [APIs.io](https://apis.io/) network, including B2 B Messaging Pull API, B2 M Messaging Pull API, B2 M Messaging Sync API, and 57 more. Tagged areas include Energy, Australia, Electricity, Gas, and Energy Markets.
 
 
   The AEMO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   AEMO''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 48 more developer resources.'
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Aemo Rate Limits
@@ -979,7 +864,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 58.2
+  composite: 58.1
   coverage:
     artifact_dirs: 24
     catalog_earned: 42.0
@@ -987,11 +872,11 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 34.2
     contract_governance: 19.7
-    contract_quality: 55.7
+    contract_quality: 55.2
     developer_ergonomics: 70.8
     discoverability: 68.5
     operational_transparency: 52.6
@@ -1010,7 +895,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 83
+      total: 60
     mcp: derived
     skills: derived
   regulatory:
@@ -1020,7 +905,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

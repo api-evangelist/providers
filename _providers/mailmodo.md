@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 10
+- acting_count: 22
   human_in_the_loop: 0
   name: Mailmodo Agentic Access
-  operation_count: 14
+  operation_count: 29
   slug: mailmodo-agentic-access
-  summary_line: 14 operations · 10 acting
+  summary_line: 29 operations · 22 acting
 api_count: 9
 apis:
 - baseURL: https://api.mailmodo.com
@@ -89,11 +89,6 @@ apis:
   slug: mailmodo-bulktriggercampaign-api
 - baseURL: https://api.mailmodo.com
   baseurl_source: declared
-  description: The CampaignReports API from Mailmodo — 1 operation(s) for campaignreports.
-  name: Mailmodo Campaign Reports API
-  slug: mailmodo-campaignreports-api
-- baseURL: https://api.mailmodo.com
-  baseurl_source: declared
   description: The GetAllContactLists API from Mailmodo — 1 operation(s) for getallcontactlists.
   name: Mailmodo Get All Contact Lists API
   slug: mailmodo-getallcontactlists-api
@@ -122,7 +117,7 @@ apis:
   description: The TriggerCampaign API from Mailmodo — 1 operation(s) for triggercampaign.
   name: Mailmodo Trigger Campaign API
   slug: mailmodo-triggercampaign-api
-artifact_total: 82
+artifact_total: 81
 asyncapis:
 - description: ''
   name: Mailmodo Webhooks
@@ -489,7 +484,7 @@ modified: '2026-08-13'
 name: Mailmodo
 nav: Providers
 network: true
-overview: 'Mailmodo publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contact Lists API, Contacts API, and 12 more. Tagged areas include Email, Interactive Email, AMP for Email, Marketing Automation, and Transactional Email.
+overview: 'Mailmodo publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contact Lists API, Contacts API, and 11 more. Tagged areas include Email, Interactive Email, AMP for Email, Marketing Automation, and Transactional Email.
 
 
   The Mailmodo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -500,7 +495,7 @@ plans:
 - name: Mailmodo Plans Pricing
   plan_count: 3
   slug: mailmodo-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Mailmodo Rate Limits
@@ -529,7 +524,7 @@ rules:
   slug: mailmodo-rules
 score:
   band: strong
-  composite: 63.7
+  composite: 64.0
   coverage:
     artifact_dirs: 31
     catalog_earned: 82.5
@@ -537,11 +532,11 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 78.2
+    contract_quality: 79.4
     developer_ergonomics: 57.1
     discoverability: 81.5
     operational_transparency: 34.2
@@ -561,11 +556,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 18
+      total: 17
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

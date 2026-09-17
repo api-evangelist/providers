@@ -32,7 +32,7 @@ name: Katerra
 nav: Providers
 network: true
 overview: Katerra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Construction, Construction Technology, and Building Materials.
-random_paper: 11
+random_paper: 20
 slug: katerra
 tags:
 - Company

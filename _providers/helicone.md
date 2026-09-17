@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 1
@@ -2191,7 +2191,7 @@ modified: '2026-05-19'
 name: Helicone
 nav: Providers
 network: true
-overview: 'Helicone publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Agent API, API Key API, Comparison API, and 30 more. Tagged areas include AI Gateways, AI Monitoring, Gateways, LLM Observability, and LLM Routing.
+overview: 'Helicone publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Agent API, API Key API, Comparison API, and 30 more. Tagged areas include AI Gateway, AI Monitoring, Gateways, LLM Observability, and LLM Routing.
 
 
   The Helicone catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -2202,7 +2202,7 @@ plans:
 - name: Helicone Plans Pricing
   plan_count: 6
   slug: helicone-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 11
   name: Helicone Rate Limits
@@ -2220,7 +2220,7 @@ rules:
   slug: helicone-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.3
+  composite: 49.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 46.3
@@ -2228,11 +2228,11 @@ score:
     catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.2
   facets:
     access_clarity: 53.9
     contract_governance: 9.8
-    contract_quality: 42.7
+    contract_quality: 46.5
     developer_ergonomics: 56.0
     discoverability: 70.4
     operational_transparency: 47.4
@@ -2245,11 +2245,11 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
-    score: 0.0
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/screenshots/helicone-2026-06-20T182620.png
 security:
 - kind: authentication
@@ -2262,7 +2262,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: helicone
 tags:
-- AI Gateways
+- AI Gateway
 - AI Monitoring
 - Gateways
 - LLM Observability

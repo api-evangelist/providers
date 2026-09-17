@@ -10,15 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
@@ -26,14 +26,14 @@ agent_readiness:
     idempotency: na
     mcp_server: false
     openapi_examples: documented
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.4
-  scored_at: '2026-09-15'
+  score: 38.1
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +44,34 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://gbfs.api.ridedott.com/public/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: GBFS discovery and versioning
   name: TIER Discovery API
   slug: tier-mobility-discovery-api
 - baseURL: https://gbfs.api.ridedott.com/public/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: Station information and availability
   name: TIER Stations API
   slug: tier-mobility-stations-api
 - baseURL: https://gbfs.api.ridedott.com/public/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: System-level metadata and pricing
   name: TIER System API
   slug: tier-mobility-system-api
 - baseURL: https://gbfs.api.ridedott.com/public/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: Vehicle inventory, types, and real-time status
   name: TIER Vehicles API
   slug: tier-mobility-vehicles-api
 - baseURL: https://gbfs.api.ridedott.com/public/v2
-  baseurl_source: spec
+  baseurl_source: declared
   description: Geofencing rules and operational zones
   name: TIER Zones API
   slug: tier-mobility-zones-api
 - description: Partner-facing data API from Dott (formerly TIER), providing vehicle and availability data (GBFS-style) to authorized partners. Access requires a per-partner API Key issued through Dott's registration
   name: Dott Partner API
   slug: dott-partner-api
-artifact_total: 38
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -117,23 +117,23 @@ common:
 - group: other
   title: ''
   type: Company
-  url: https://ridedott.com/about
+  url: https://ridedott.com/the-dott-way/
 - group: company
   title: ''
   type: Newsroom
-  url: https://ridedott.com/press
+  url: https://ridedott.com/press-release/
 - group: company
   title: ''
   type: Careers
-  url: https://ridedott.com/careers
+  url: https://ridedott.com/join-us/
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://ridedott.com/privacy
+  url: https://ridedott.com/privacy/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://ridedott.com/terms
+  url: https://ridedott.com/terms-and-conditions/
 - group: operate
   title: ''
   type: Support
@@ -174,6 +174,25 @@ common:
   title: ''
   type: Blog
   url: https://ridedott.com/blog/
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/well-known/tier-mobility-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/tier-mobility-well-known.yml
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/conformance/tier-mobility-conformance.yml
+  title: ''
+  type: Conformance
+  url: conformance/tier-mobility-conformance.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/llms/tier-mobility-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/tier-mobility-llms.txt
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ridedott
 created: '2026-05-25'
 description: TIER Mobility was a Berlin-headquartered shared electric micromobility operator founded in 2018 by Lawrence Leuschner, Julian Blessin, and Matthias Laug, providing e-scooter, e-bike, and e-moped sharing across European and Middle Eastern cities. In March 2024, TIER merged with Amsterdam-based Dott to form the combined European micromobility champion that now trades under the Dott brand on ridedott.com, operating in 400+ cities across roughly 22 countries including Germany, France, the United Kingdom, Italy, Spain, the Netherlands, Belgium, Sweden, Norway, Finland, Denmark, Austria, Switzerland, Poland, Greece, Hungary, Israel, Saudi Arabia, Qatar, and the UAE. All public real-time data — fleet positions, battery levels, vehicle types, pricing plans, stations, and geofencing zones — is published via GBFS 2.3 (General Bikeshare Feed Specification) endpoints at https://gbfs.api.ridedott.com/public/v2/{system_id}/, with one `system_id` per city. There is no consumer authentication
   or paid API tier; feeds are open data consumed by city regulators, MaaS aggregators, and trip-planning apps.
@@ -220,22 +239,22 @@ jsonld:
   property_count: 6
   slug: tier-mobility-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: TIER
 nav: Providers
 network: true
-overview: 'TIER publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Stations API, System API, and 2 more. Tagged areas include Mobility, Micromobility, Shared Mobility, E-Scooter, and E-Bike.
+overview: 'TIER publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Stations API, System API, and 2 more. Tagged areas include Mobility, Micromobility, Shared Mobility, E-Scooter, and E-Bikes.
 
 
   The TIER catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TIER''s developer surface includes support, engineering blog, and 17 more developer resources.'
+  TIER''s developer surface includes support, engineering blog, and 21 more developer resources.'
 plans:
 - name: Tier Mobility Plans Pricing
   plan_count: 2
   slug: tier-mobility-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Tier Mobility Rate Limits
@@ -264,22 +283,22 @@ rules:
   slug: tier-mobility-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 45.7
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 70.5
+    artifact_dirs: 18
+    catalog_earned: 75.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 44.5
+    catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 50.0
-    contract_governance: 28.8
+    contract_governance: 47.0
     contract_quality: 63.9
     developer_ergonomics: 14.3
-    discoverability: 59.3
-    operational_transparency: 0.0
+    discoverability: 68.5
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -290,6 +309,7 @@ score:
   previous_composite: 41.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -302,7 +322,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -310,6 +330,10 @@ score:
     reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/screenshots/tier-mobility-2026-06-20T195343.png
 security:
+- kind: authentication
+  name: Tier Mobility Authentication
+  slug: tier-mobility-authentication
+  summary_line: none/http · 2 schemes
 - kind: domain-security
   name: Tier Mobility Domain Security
   slug: tier-mobility-domain-security
@@ -320,7 +344,7 @@ tags:
 - Micromobility
 - Shared Mobility
 - E-Scooter
-- E-Bike
+- E-Bikes
 - Transportation
 - Smart Cities
 - MaaS

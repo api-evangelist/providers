@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 0
@@ -58,11 +58,6 @@ apis:
   description: The billFormat API from TM Forum — 2 operation(s) for billformat.
   name: TM Forum billFormat API
   slug: tm-forum-billformat-api
-- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
-  baseurl_source: spec
-  description: The billingAccount API from TM Forum — 2 operation(s) for billingaccount.
-  name: TM Forum billingAccount API
-  slug: tm-forum-billingaccount-api
 - baseURL: https://serverRoot/tmf-api/accountManagement/v4/
   baseurl_source: spec
   description: The billingCycleSpecification API from TM Forum — 2 operation(s) for billingcyclespecification.
@@ -98,21 +93,6 @@ apis:
   description: Endpoints to register and terminate an Event Listener
   name: TM Forum events subscription API
   slug: tm-forum-events-subscription-api
-- baseURL: https://serverRoot/productCatalogManagement/v5/
-  baseurl_source: spec
-  description: Operations for ExportJob Resource
-  name: TM Forum exportJob API
-  slug: tm-forum-exportjob-api
-- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
-  baseurl_source: spec
-  description: The financialAccount API from TM Forum — 2 operation(s) for financialaccount.
-  name: TM Forum financialAccount API
-  slug: tm-forum-financialaccount-api
-- baseURL: https://serverRoot/productCatalogManagement/v5/
-  baseurl_source: spec
-  description: Operations for ImportJob Resource
-  name: TM Forum importJob API
-  slug: tm-forum-importjob-api
 - baseURL: https://serverRoot/partyManagement/v5/
   baseurl_source: spec
   description: Operations for Individual Resource
@@ -145,11 +125,6 @@ apis:
   slug: tm-forum-product-api
 - baseURL: https://serverRoot/productCatalogManagement/v5/
   baseurl_source: spec
-  description: Operations for ProductCatalog Resource
-  name: TM Forum productCatalog API
-  slug: tm-forum-productcatalog-api
-- baseURL: https://serverRoot/productCatalogManagement/v5/
-  baseurl_source: spec
   description: Operations for ProductOffering Resource
   name: TM Forum productOffering API
   slug: tm-forum-productoffering-api
@@ -163,11 +138,6 @@ apis:
   description: Operations for ProductOrder Resource
   name: TM Forum productOrder API
   slug: tm-forum-productorder-api
-- baseURL: https://serverRoot/productCatalogManagement/v5/
-  baseurl_source: spec
-  description: Operations for ProductSpecification Resource
-  name: TM Forum productSpecification API
-  slug: tm-forum-productspecification-api
 - baseURL: https://serverRoot/tmf-api/quoteManagement/v4/
   baseurl_source: spec
   description: The quote API from TM Forum — 2 operation(s) for quote.
@@ -198,26 +168,6 @@ apis:
   description: The serviceCandidate API from TM Forum — 2 operation(s) for servicecandidate.
   name: TM Forum serviceCandidate API
   slug: tm-forum-servicecandidate-api
-- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
-  baseurl_source: spec
-  description: The serviceCatalog API from TM Forum — 2 operation(s) for servicecatalog.
-  name: TM Forum serviceCatalog API
-  slug: tm-forum-servicecatalog-api
-- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
-  baseurl_source: spec
-  description: The serviceCategory API from TM Forum — 2 operation(s) for servicecategory.
-  name: TM Forum serviceCategory API
-  slug: tm-forum-servicecategory-api
-- baseURL: https://serverRoot/tmf-api/serviceOrdering/v4
-  baseurl_source: spec
-  description: The serviceOrder API from TM Forum — 2 operation(s) for serviceorder.
-  name: TM Forum serviceOrder API
-  slug: tm-forum-serviceorder-api
-- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
-  baseurl_source: spec
-  description: The serviceSpecification API from TM Forum — 2 operation(s) for servicespecification.
-  name: TM Forum serviceSpecification API
-  slug: tm-forum-servicespecification-api
 - baseURL: https://serverRoot/tmf-api/accountManagement/v4/
   baseurl_source: spec
   description: The settlementAccount API from TM Forum — 2 operation(s) for settlementaccount.
@@ -225,14 +175,64 @@ apis:
   slug: tm-forum-settlementaccount-api
 - baseURL_template: '{apiRoot}/tmf-api/troubleTicket/v5/'
   baseurl_source: spec_template
-  description: Operations for TroubleTicket Resource
-  name: TM Forum troubleTicket API
-  slug: tm-forum-troubleticket-api
-- baseURL_template: '{apiRoot}/tmf-api/troubleTicket/v5/'
-  baseurl_source: spec_template
   description: Operations for TroubleTicketSpecification Resource
   name: TM Forum troubleTicketSpecification API
   slug: tm-forum-troubleticketspecification-api
+- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
+  baseurl_source: spec
+  description: The Billing Account API from TM Forum — 2 operation(s) for billing account.
+  name: TM Forum Billing Account API
+  slug: tm-forum-billing-account-api
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ExportJob Resource
+  name: TM Forum Export Job API
+  slug: tm-forum-export-job-api
+- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
+  baseurl_source: spec
+  description: The Financial Account API from TM Forum — 2 operation(s) for financial account.
+  name: TM Forum Financial Account API
+  slug: tm-forum-financial-account-api
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ImportJob Resource
+  name: TM Forum Import Job API
+  slug: tm-forum-import-job-api
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ProductCatalog Resource
+  name: TM Forum Product Catalog API
+  slug: tm-forum-product-catalog-api
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ProductSpecification Resource
+  name: TM Forum Product Specification API
+  slug: tm-forum-product-specification-api
+- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
+  baseurl_source: spec
+  description: The Service Catalog API from TM Forum — 2 operation(s) for service catalog.
+  name: TM Forum Service Catalog API
+  slug: tm-forum-service-catalog-api
+- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
+  baseurl_source: spec
+  description: The Service Category API from TM Forum — 2 operation(s) for service category.
+  name: TM Forum Service Category API
+  slug: tm-forum-service-category-api
+- baseURL: https://serverRoot/tmf-api/serviceOrdering/v4
+  baseurl_source: spec
+  description: The Service Order API from TM Forum — 2 operation(s) for service order.
+  name: TM Forum Service Order API
+  slug: tm-forum-service-order-api
+- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
+  baseurl_source: spec
+  description: The Service Specification API from TM Forum — 2 operation(s) for service specification.
+  name: TM Forum Service Specification API
+  slug: tm-forum-service-specification-api
+- baseURL_template: '{apiRoot}/tmf-api/troubleTicket/v5/'
+  baseurl_source: spec_template
+  description: Operations for TroubleTicket Resource
+  name: TM Forum Trouble Ticket API
+  slug: tm-forum-trouble-ticket-api
 artifact_total: 1602
 collections:
 - collection_type: open
@@ -4965,7 +4965,7 @@ plans:
 - name: Tm Forum Plans Pricing
   plan_count: 1
   slug: tm-forum-plans-pricing
-random_paper: 4
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Tm Forum Rate Limits
@@ -5025,7 +5025,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

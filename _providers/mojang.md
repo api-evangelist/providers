@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -603,7 +603,7 @@ overview: 'Mojang publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mojang''s developer surface includes authentication, documentation, and 19 more developer resources.'
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Mojang Rate Limits
@@ -660,7 +660,7 @@ score:
       marker_coverage: 100.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -682,7 +682,7 @@ tags:
 - Gaming
 - Identity
 - Player Profiles
-- Session
+- Sessions
 - Public APIs
 website: https://www.minecraft.net
 ---

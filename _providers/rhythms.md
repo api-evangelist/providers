@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -251,11 +251,11 @@ modified: '2026-07-21'
 name: Rhythms
 nav: Providers
 network: true
-overview: 'Rhythms publishes 13 APIs on the [APIs.io](https://apis.io/) network, including access_requests API, chat_refresh_threads API, connector_requests API, and 10 more. Tagged areas include Company, Artificial Intelligence, Productivity, Goal Tracking, and OKR.
+overview: 'Rhythms publishes 13 APIs on the [APIs.io](https://apis.io/) network, including access_requests API, chat_refresh_threads API, connector_requests API, and 10 more. Tagged areas include Company, Artificial Intelligence, Productivity, Goal Tracking, and OKRs.
 
 
   Rhythms'' developer surface includes authentication, signup flow, pricing, engineering blog, support, and 15 more developer resources.'
-random_paper: 6
+random_paper: 13
 score:
   band: thin
   composite: 29.7
@@ -286,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -311,7 +311,7 @@ tags:
 - Artificial Intelligence
 - Productivity
 - Goal Tracking
-- OKR
+- OKRs
 - Workflow-Automation
 - Team Collaboration
 - Business Reviews

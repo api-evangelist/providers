@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Hillhouse Investment
 nav: Providers
 network: true
-random_paper: 7
+random_paper: 5
 slug: hillhouse
 tags:
 - Venture Capital
@@ -30,7 +30,7 @@ tags:
 - Series A
 - Growth
 - Healthcare
-- Industrials
+- Industrial
 - Technology
 - Asia
 - Singapore

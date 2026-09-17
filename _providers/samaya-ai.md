@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Hosted remote MCP server at https://mcp.samaya.ai/mcp that connects ChatGPT, Claude and other AI applications to Samaya''s expert financial research capabilities. Live and reachable: an anonymous tools'
@@ -215,7 +215,7 @@ plans:
 - name: Samaya Ai Plans Pricing
   plan_count: 0
   slug: samaya-ai-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Samaya Ai Rate Limits
@@ -254,7 +254,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

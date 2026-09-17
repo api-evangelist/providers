@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   description: The CreateDistributionConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for createdistributionconfiguration.
   name: Amazon EC2 Image Builder CreateDistributionConfiguration API
   slug: amazon-ec2-image-builder-createdistributionconfiguration-api
-- baseURL: https://imagebuilder.amazonaws.com
-  baseurl_source: declared
-  description: The CreateImage API from Amazon EC2 Image Builder — 1 operation(s) for createimage.
-  name: Amazon EC2 Image Builder CreateImage API
-  slug: amazon-ec2-image-builder-createimage-api
 - baseURL: https://imagebuilder.amazonaws.com
   baseurl_source: declared
   description: The CreateImagePipeline API from Amazon EC2 Image Builder — 1 operation(s) for createimagepipeline.
@@ -202,11 +197,6 @@ apis:
   slug: amazon-ec2-image-builder-listcomponentbuildversions-api
 - baseURL: https://imagebuilder.amazonaws.com
   baseurl_source: declared
-  description: The ListComponents API from Amazon EC2 Image Builder — 1 operation(s) for listcomponents.
-  name: Amazon EC2 Image Builder ListComponents API
-  slug: amazon-ec2-image-builder-listcomponents-api
-- baseURL: https://imagebuilder.amazonaws.com
-  baseurl_source: declared
   description: The ListContainerRecipes API from Amazon EC2 Image Builder — 1 operation(s) for listcontainerrecipes.
   name: Amazon EC2 Image Builder ListContainerRecipes API
   slug: amazon-ec2-image-builder-listcontainerrecipes-api
@@ -240,11 +230,6 @@ apis:
   description: The ListImageRecipes API from Amazon EC2 Image Builder — 1 operation(s) for listimagerecipes.
   name: Amazon EC2 Image Builder ListImageRecipes API
   slug: amazon-ec2-image-builder-listimagerecipes-api
-- baseURL: https://imagebuilder.amazonaws.com
-  baseurl_source: declared
-  description: The ListImages API from Amazon EC2 Image Builder — 1 operation(s) for listimages.
-  name: Amazon EC2 Image Builder ListImages API
-  slug: amazon-ec2-image-builder-listimages-api
 - baseURL: https://imagebuilder.amazonaws.com
   baseurl_source: declared
   description: The ListImageScanFindingAggregations API from Amazon EC2 Image Builder — 1 operation(s) for listimagescanfindingaggregations.
@@ -315,6 +300,21 @@ apis:
   description: The UpdateInfrastructureConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for updateinfrastructureconfiguration.
   name: Amazon EC2 Image Builder UpdateInfrastructureConfiguration API
   slug: amazon-ec2-image-builder-updateinfrastructureconfiguration-api
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The Create Image API from Amazon EC2 Image Builder — 1 operation(s) for create image.
+  name: Amazon EC2 Image Builder Create Image API
+  slug: amazon-ec2-image-builder-create-image-api
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The List Components API from Amazon EC2 Image Builder — 1 operation(s) for list components.
+  name: Amazon EC2 Image Builder List Components API
+  slug: amazon-ec2-image-builder-list-components-api
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The List Images API from Amazon EC2 Image Builder — 1 operation(s) for list images.
+  name: Amazon EC2 Image Builder List Images API
+  slug: amazon-ec2-image-builder-list-images-api
 arazzos:
 - description: Build a component and container recipe, create infrastructure, and wire them into a container image pipeline.
   name: Amazon EC2 Image Builder Assemble Container Pipeline
@@ -682,6 +682,10 @@ collections:
   name: EC2 Image Builder CancelImageCreation UpdateInfrastructureConfiguration API
   slug: open-amazon-ec2-image-builder-updateinfrastructureconfiguration-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/capabilities/amazon-ec2-image-builder-capability-edges.yml
   title: ''
@@ -3933,7 +3937,7 @@ jsonld:
   property_count: 200
   slug: amazon-ec2-image-builder-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon EC2 Image Builder
 nav: Providers
 network: true
@@ -3943,12 +3947,12 @@ overview: 'Amazon EC2 Image Builder publishes 54 APIs on the [APIs.io](https://a
   The Amazon EC2 Image Builder catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EC2 Image Builder''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 32 more developer resources.'
+  Amazon EC2 Image Builder''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 33 more developer resources.'
 plans:
 - name: Amazon Ec2 Image Builder Plans Pricing
   plan_count: 3
   slug: amazon-ec2-image-builder-plans-pricing
-random_paper: 0
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Ec2 Image Builder Rate Limits
@@ -4002,7 +4006,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -4044,5 +4048,5 @@ use_cases:
   name: Container Base Image Management
 - description: Build images in a central account and distribute them to multiple AWS accounts and regions.
   name: Multi-Account Image Sharing
-website: https://aws.amazon.com/developer/
+website: https://amazon.com
 ---

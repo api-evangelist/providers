@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
 - baseURL: https://apiv2.fleetmon.com
   baseurl_source: declared
   description: Returns historical AIS position reports with fixed period and rate, by MMSI.
-  name: FleetMon Historical Track API API
+  name: FleetMon Historical Track API
   slug: fleetmon-historical-track-api-api
 - baseURL: https://apiv2.fleetmon.com
   baseurl_source: declared
@@ -410,7 +410,7 @@ created: '2026-07-11'
 description: FleetMon was a Rostock, Germany based vessel tracking and maritime data provider (founded 2007) that operated one of the world's largest terrestrial AIS receiver networks and a documented REST API (apiv2.fleetmon.com) for vessel search, live and historical AIS positions, port calls, expected arrivals, ETA and voyage planning. Kpler acquired FleetMon alongside MarineTraffic in 2023, the FleetMon platform and API were phased out from January 2024 and migrated into MarineTraffic, and in September 2025 the combined AIS assets were unified under the Kpler AIS brand. As of 2026 the fleetmon.com domain, developer portal, and API no longer resolve - this entry preserves the final archived API surface and points to the Kpler / MarineTraffic successor services.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fleetmon.png
 layout: provider
-modified: '2026-07-11'
+modified: '2026-09-16'
 name: FleetMon
 nav: Providers
 network: true
@@ -418,10 +418,10 @@ overview: 'FleetMon publishes 37 APIs on the [APIs.io](https://apis.io/) network
 
 
   FleetMon''s developer surface includes authentication and 13 more developer resources.'
-random_paper: 18
+random_paper: 0
 score:
   band: emerging
-  composite: 21.5
+  composite: 21.6
   coverage:
     artifact_dirs: 6
     catalog_earned: 37.0
@@ -429,11 +429,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 51.9
+    contract_quality: 52.3
     developer_ergonomics: 11.9
     discoverability: 68.5
     operational_transparency: 0.0
@@ -446,7 +446,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

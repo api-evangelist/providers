@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The agent-callable surface of Parsley Health's direct-to-consumer supplement store. A live, anonymous Universal Commerce Protocol MCP endpoint exposes thirteen tools for catalog search, product lookup
@@ -223,7 +223,7 @@ plans:
 - name: Parsley Health Plans Pricing
   plan_count: 0
   slug: parsley-health-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Parsley Health Rate Limits
@@ -263,7 +263,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ name: Local Motors
 nav: Providers
 network: true
 overview: Local Motors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Automotive, Manufacturing, and Additive Manufacturing.
-random_paper: 5
+random_paper: 12
 slug: local-motors
 tags:
 - Company

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -330,11 +330,11 @@ jsonld:
   property_count: 8
   slug: braintree-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Braintree
 nav: Providers
 network: true
-overview: 'Braintree publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Add-Ons API, Client Tokens API, and 7 more.
+overview: 'Braintree publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Add-Ons API, Client Tokens API, and 7 more. Tagged areas include Payments, Transaction, Mobile, and Subscription.
 
 
   The Braintree catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -345,7 +345,7 @@ plans:
 - name: Braintree Plans Pricing
   plan_count: 6
   slug: braintree-plans-pricing
-random_paper: 11
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Braintree Rate Limits
@@ -378,8 +378,8 @@ scopes:
   slug: braintree-scopes
   summary_line: 40 scopes
 score:
-  band: thin
-  composite: 36.7
+  band: developing
+  composite: 40.8
   coverage:
     artifact_dirs: 25
     catalog_earned: 42.5
@@ -387,7 +387,7 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.1
   facets:
     access_clarity: 23.7
     contract_governance: 13.6
@@ -405,10 +405,13 @@ score:
       total: 9
     mcp: first-party
   regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 59.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -432,4 +435,9 @@ security:
   slug: braintree-trust-center
   summary_line: PCI DSS, Visa Global Registry of Service Providers, Mastercard SDP, SOC 2 Type 2
 slug: braintree
+tags:
+- Payments
+- Transaction
+- Mobile
+- Subscription
 ---

@@ -42,7 +42,7 @@ name: Monedo
 nav: Providers
 network: true
 overview: Monedo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Financial-Services, Fintech, and Lending.
-random_paper: 2
+random_paper: 1
 slug: kreditech
 tags:
 - Company

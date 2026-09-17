@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The MCP server the BoltMCP Helm chart deploys into the customer's own Kubernetes cluster. Customers define their own servers and tools through the BoltMCP dashboard, so the tool surface is tenant-defi
@@ -152,7 +152,7 @@ plans:
 - name: Boltmcp Plans Pricing
   plan_count: 0
   slug: boltmcp-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Boltmcp Rate Limits
@@ -186,7 +186,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

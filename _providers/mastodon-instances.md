@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - baseURL: https://instances.social/api
   baseurl_source: declared
   description: The Instances API from Mastodon Instances — 4 operation(s) for instances.
-  name: Mastodon Instances Instances API
+  name: Mastodon Instances API
   slug: mastodon-instances-instances-api
 - baseURL: https://instances.social/api
   baseurl_source: declared
@@ -108,11 +108,11 @@ finops:
   slug: mastodon-instances-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mastodon-instances.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Mastodon Instances
 nav: Providers
 network: true
-overview: 'Mastodon Instances publishes 2 APIs on the [APIs.io](https://apis.io/) network: Instances API and Versions API. Tagged areas include Fediverse, Mastodon, Search, and Social.
+overview: 'Mastodon Instances publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Versions API, and 1 more. Tagged areas include Fediverse, Mastodon, Search, and Social.
 
 
   Mastodon Instances'' developer surface includes authentication, developer portal, signup flow, and 3 more developer resources.'
@@ -120,7 +120,7 @@ plans:
 - name: Mastodon Instances Plans Pricing
   plan_count: 3
   slug: mastodon-instances-plans-pricing
-random_paper: 13
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Mastodon Instances Rate Limits
@@ -152,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

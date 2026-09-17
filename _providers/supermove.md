@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://help.supermove.com/hc/en-us/articles/36934839868692-Developer-API-New-Lead-Endpoint
   baseurl_source: declared
   description: The Supermove Developer API New Lead Endpoint API from Supermove — 1 operation(s) for supermove developer api new lead endpoint.
-  name: Supermove Supermove Developer API New Lead Endpoint API
+  name: Supermove Developer API New Lead Endpoint API
   slug: supermove-supermove-developer-api-new-lead-endpoint-api
 artifact_total: 6
 collections:
@@ -57,6 +57,10 @@ collections:
   name: Supermove Developer API - New Lead Endpoint Supermove Developer API New Lead Endpoint API
   slug: open-supermove-supermove-developer-api-new-lead-endpoint-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://supermove.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/supermove/refs/heads/main/agentic-access/supermove-agentic-access.yml
   title: ''
@@ -76,22 +80,22 @@ description: Supermove is a cloud-based moving company operating system that man
   Supermove's own connectors rather than a general outbound public API. Access is not self-serve; Supermove is sold via demo and custom quote.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supermove.png
 layout: provider
-modified: '2026-07-04'
+modified: '2026-09-16'
 name: Supermove
 nav: Providers
 network: true
-overview: 'Supermove publishes 1 API on the [APIs.io](https://apis.io/) network: Supermove Developer API New Lead Endpoint API. Tagged areas include Moving, Moving Company Software, Logistics, Field Service, and Lead Management.
+overview: 'Supermove publishes 1 API on the [APIs.io](https://apis.io/) network: Developer API New Lead Endpoint API. Tagged areas include Moving, Moving Company Software, Logistics, Field Service, and Lead Management.
 
 
-  Supermove''s developer surface includes engineering blog and 2 more developer resources.'
+  Supermove''s developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Supermove Plans Pricing
   plan_count: 1
   slug: supermove-plans-pricing
-random_paper: 11
+random_paper: 8
 score:
-  band: emerging
-  composite: 14.2
+  band: thin
+  composite: 26.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 45.0
@@ -99,11 +103,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.4
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 49.7
     developer_ergonomics: 19.0
     discoverability: 68.5
     operational_transparency: 0.0
@@ -116,8 +120,8 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -136,4 +140,5 @@ tags:
 - Lead Management
 - Dispatch
 - Webhook
+website: https://supermove.com
 ---

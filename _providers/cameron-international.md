@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Cameron International 2026 Company Profile
   url: https://pitchbook.com/profiles/company/41282-47
-random_paper: 2
+random_paper: 8
 score:
   band: minimal
   composite: 7.8
@@ -158,7 +158,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

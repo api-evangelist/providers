@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -48,11 +48,6 @@ apis:
 - description: AnkrScan is Ankr's multi-chain block explorer covering EVM and non-EVM networks. It is a hosted UI consuming Ankr's Node API and Advanced API and does not currently publish a public REST surface.
   name: AnkrScan Block Explorer
   slug: ankr-block-explorer
-- baseURL: https://rpc.ankr.com
-  baseurl_source: declared
-  description: Standard Ethereum JSON-RPC envelope shared by every EVM chain.
-  name: ankr EVM API
-  slug: ankr-evm-api
 - baseURL: https://rpc.ankr.com
   baseurl_source: declared
   description: Liquid staking pool statistics (TVL, APR, holders, supply).
@@ -116,7 +111,7 @@ arazzos:
 - description: Read a wallet's token balances and then its recent ERC-20 transfer history.
   name: Ankr Wallet Portfolio Snapshot
   slug: ankr-wallet-portfolio-workflow
-artifact_total: 77
+artifact_total: 76
 asyncapis:
 - description: 'AsyncAPI description of Ankr''s WebSocket JSON-RPC surface for blockchain subscriptions. Ankr exposes a single multichain WSS endpoint at `wss://rpc.ankr.com/{chain_slug}/{apiKey}` for every chain its '
   name: Ankr RPC Service — WebSocket Subscriptions
@@ -443,11 +438,11 @@ jsonld:
   property_count: 5
   slug: ankr-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-09-16'
 name: Ankr
 nav: Providers
 network: true
-overview: 'Ankr publishes 8 APIs on the [APIs.io](https://apis.io/) network, including EVM API, Metrics API, NFT API, and 5 more.
+overview: 'Ankr publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Metrics API, NFT API, Query API, and 4 more. Tagged areas include Web3, EVM, and NFT.
 
 
   The Ankr catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -458,7 +453,7 @@ plans:
 - name: Ankr Plans Pricing
   plan_count: 4
   slug: ankr-plans-pricing
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Ankr Rate Limits
@@ -510,7 +505,7 @@ score:
   facets:
     access_clarity: 84.2
     contract_governance: 28.8
-    contract_quality: 77.2
+    contract_quality: 77.5
     developer_ergonomics: 63.1
     discoverability: 64.8
     operational_transparency: 36.8
@@ -521,13 +516,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 7
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -543,5 +535,9 @@ security:
   slug: ankr-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: ankr
+tags:
+- Web3
+- EVM
+- NFT
 website: https://www.ankr.com/
 ---

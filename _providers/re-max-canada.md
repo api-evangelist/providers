@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The only anonymously reachable, machine-readable API surface found anywhere in the RE/MAX Canada estate. blog.remax.ca is a WordPress VIP site (CNAME remax-promotions.go-vip.net) that serves the stock
@@ -147,7 +147,7 @@ overview: 'RE/MAX Canada publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   RE/MAX Canada''s developer surface includes authentication, engineering blog, and 18 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: emerging
   composite: 22.1
@@ -183,7 +183,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

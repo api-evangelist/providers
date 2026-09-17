@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -168,7 +168,7 @@ overview: 'Bruin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bruin''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 19 more developer resources.'
-random_paper: 19
+random_paper: 16
 score:
   band: thin
   composite: 32.4
@@ -193,7 +193,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

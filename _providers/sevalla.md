@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ modified: '2026-07-01'
 name: Sevalla
 nav: Providers
 network: true
-overview: 'Sevalla publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Company API, Databases API, and 4 more. Tagged areas include Hosting, Platform-as-a-Service, Cloud, Deployment, and Databases.
+overview: 'Sevalla publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Company API, Databases API, and 4 more. Tagged areas include Hosting, Platform-as-a-Service, Cloud, Deployment, and Database.
 
 
   Sevalla''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -179,7 +179,7 @@ plans:
 - name: Sevalla Plans Pricing
   plan_count: 4
   slug: sevalla-plans-pricing
-random_paper: 9
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Sevalla Rate Limits
@@ -212,7 +212,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -233,7 +233,7 @@ tags:
 - Platform-as-a-Service
 - Cloud
 - Deployment
-- Databases
+- Database
 - Static Sites
 - Object Storage
 website: https://sevalla.com/

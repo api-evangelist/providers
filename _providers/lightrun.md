@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -109,7 +109,7 @@ apis:
 - baseURL: https://app.lightrun.com/api/v1
   baseurl_source: declared
   description: Lightrun feature flags status API.
-  name: Lightrun Lightrun feature flags status API
+  name: Lightrun feature flags status API
   slug: lightrun-lightrun-feature-flags-status-api
 - baseURL: https://app.lightrun.com/api/v1
   baseurl_source: declared
@@ -385,7 +385,7 @@ mcp_servers:
 - description: Connect AI assistants to live runtime context for production debugging.
   name: Lightrun MCP Server
   slug: lightrun-mcp-server
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Lightrun
 nav: Providers
 network: true
@@ -396,7 +396,7 @@ overview: 'Lightrun publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Lightrun''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 28 more developer resources.'
-random_paper: 16
+random_paper: 19
 scopes:
 - name: Lightrun Scopes
   scope_count: 0
@@ -432,7 +432,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 18
+- acting_count: 3
   human_in_the_loop: 0
   name: Snapchat Agentic Access
-  operation_count: 42
+  operation_count: 5
   slug: snapchat-agentic-access
-  summary_line: 42 operations · 18 acting
+  summary_line: 5 operations · 3 acting
 api_count: 2
 apis:
 - description: Creative Kit allows developers to let users share content including Lenses, AR experiences, filters, GIFs, videos, links, and captions from a website or app directly to Snapchat's camera or preview sc
@@ -58,11 +58,6 @@ apis:
   description: Endpoints for sending web, app, and offline conversion events to Snap for campaign measurement and optimization.
   name: Snapchat Conversion Events API
   slug: snapchat-conversion-events-api
-- baseURL: https://accounts.snapchat.com
-  baseurl_source: declared
-  description: OAuth 2.0 authorization and token management endpoints for authenticating users via their Snapchat account.
-  name: Snapchat OAuth API
-  slug: snapchat-oauth-api
 - baseURL: https://kit.snapchat.com/v1
   baseurl_source: declared
   description: Endpoints for retrieving authenticated user profile information including display name and Bitmoji avatar.
@@ -71,6 +66,11 @@ apis:
 - description: Snap's first-party hosted Model Context Protocol server for the Snapchat Ads API. A supported agent connects over streamable HTTP to https://mcp.snapchat.com/ads and authenticates with OAuth 2.0 (auth
   name: Snapchat Ads MCP Server
   slug: snapchat-ads-mcp
+- baseURL: https://tr.snapchat.com/v3
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token management endpoints for authenticating users via their Snapchat account.
+  name: Snapchat O Auth API
+  slug: snapchat-oauth-api
 artifact_total: 64
 collections:
 - collection_type: open
@@ -122,6 +122,11 @@ collections:
   name: Snapchat Ads Ad Accounts User Profile API
   slug: open-snapchat-user-profile-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/overlays/snapchat-oauth-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-oauth-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/capabilities/snapchat-capability-edges.yml
   title: ''
@@ -484,18 +489,18 @@ modified: '2026-08-13'
 name: Snapchat
 nav: Providers
 network: true
-overview: 'Snapchat publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion Events API, OAuth API, and User Profile API. Tagged areas include Advertising, AR, Augmented Reality, Marketing, and Messaging.
+overview: 'Snapchat publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion Events API, User Profile API, and O Auth API. Tagged areas include Advertising, AR, Augmented Reality, Marketing, and Messaging.
 
 
   The Snapchat catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Snapchat''s developer surface includes authentication, documentation, engineering blog, support, pricing, signup flow, sandbox, and 47 more developer resources.'
+  Snapchat''s developer surface includes authentication, documentation, engineering blog, support, pricing, signup flow, sandbox, and 48 more developer resources.'
 plans:
 - name: Snapchat Plans Pricing
   plan_count: 1
   slug: snapchat-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Snapchat Rate Limits
@@ -557,7 +562,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

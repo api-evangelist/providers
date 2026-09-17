@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The GraphQL endpoint that powers the MODIVO storefront and mobile applications, exposed at https://modivo.pl/graphql with introspection left open to anonymous callers. The schema carries 770 types, 11
@@ -91,12 +91,12 @@ apis:
 - baseURL: https://modivo.pl/rest/all
   baseurl_source: declared
   description: The eobMyReturnsWebhookWebhookV1 API from MODIVO — 1 operation(s) for eobmyreturnswebhookwebhookv1.
-  name: MODIVO Eob My Returns Webhook Webhook V1 API
+  name: MODIVO Eob My Returns Webhook V1 API
   slug: modivo-eobmyreturnswebhookwebhookv1-api
 - baseURL: https://modivo.pl/rest/all
   baseurl_source: declared
   description: The eobPlaceOrderOrderManagementV1 API from MODIVO — 1 operation(s) for eobplaceorderordermanagementv1.
-  name: MODIVO Eob Place Order Order Management V1 API
+  name: MODIVO Eob Place Order Management V1 API
   slug: modivo-eobplaceorderordermanagementv1-api
 - baseURL: https://modivo.pl/rest/all
   baseurl_source: declared
@@ -131,12 +131,12 @@ apis:
 - baseURL: https://modivo.pl/rest/all
   baseurl_source: declared
   description: The marketplacePlaceOrderOrderManagementV1 API from MODIVO — 1 operation(s) for marketplaceplaceorderordermanagementv1.
-  name: MODIVO Marketplace Place Order Order Management V1 API
+  name: MODIVO Marketplace Place Order Management V1 API
   slug: modivo-marketplaceplaceorderordermanagementv1-api
 - baseURL: https://modivo.pl/rest/all
   baseurl_source: declared
   description: The modivoMyReturnsWebhookWebhookV1 API from MODIVO — 1 operation(s) for modivomyreturnswebhookwebhookv1.
-  name: MODIVO Modivo My Returns Webhook Webhook V1 API
+  name: MODIVO My Returns Webhook V1 API
   slug: modivo-modivomyreturnswebhookwebhookv1-api
 - baseURL: https://modivo.pl/rest/all
   baseurl_source: declared
@@ -213,11 +213,11 @@ apis:
   description: Shipping method management interface for guest carts.
   name: MODIVO Quote Guest Shipping Method Management V1 API
   slug: modivo-quoteguestshippingmethodmanagementv1-api
-- baseURL: https://modivo.pl/rest/all
+- baseURL: https://modivo.pl/graphql
   baseurl_source: declared
   description: Search API for all requests
-  name: MODIVO Search V1 API
-  slug: modivo-searchv1-api
+  name: MODIVO search V1 API
+  slug: modivo-search-v1-api
 artifact_total: 44
 asyncapis:
 - description: ''
@@ -364,7 +364,7 @@ description: 'MODIVO is a Polish multibrand fashion and lifestyle retailer that 
   at https://modivo.pl/graphql. Third-party sellers integrate through a Mirakl-hosted marketplace tenant, and brands buy sponsored placements through MODIVO Ads, the group''s retail-media platform spanning MODIVO and eobuwie.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modivo.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: MODIVO
 nav: Providers
 network: true
@@ -379,14 +379,14 @@ plans:
 - name: Modivo Plans Pricing
   plan_count: 0
   slug: modivo-plans-pricing
-random_paper: 3
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Modivo Rate Limits
   slug: modivo-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 42.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -394,11 +394,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 59.3
+    contract_quality: 62.8
     developer_ergonomics: 37.5
     discoverability: 75.9
     operational_transparency: 7.9
@@ -427,7 +427,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

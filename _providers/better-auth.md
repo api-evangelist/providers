@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Core TypeScript library distributed as the `better-auth` npm package. Configured in the application backend to expose sign-in / sign-up / session endpoints that the developer mounts under their own do
@@ -119,7 +119,7 @@ finops:
   slug: better-auth-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/better-auth.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: Better Auth
 nav: Providers
 network: true
@@ -131,7 +131,7 @@ plans:
 - name: Better Auth Plans Pricing
   plan_count: 1
   slug: better-auth-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Better Auth Rate Limits
@@ -167,7 +167,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -187,5 +187,6 @@ tags:
 - Open-Source
 - SSO
 - Passkeys
+- Identity Federation
 website: https://www.better-auth.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -124,6 +124,10 @@ collections:
   name: Oracle Financials Cloud REST API
   slug: open-oracle-financial-applications
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/oracle-financial-applications/refs/heads/main/agentic-access/oracle-financial-applications-agentic-access.yml
   title: ''
@@ -183,19 +187,19 @@ finops:
   slug: oracle-financial-applications-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-financial-applications.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Oracle Financial Applications
 nav: Providers
 network: true
-overview: 'Oracle Financial Applications publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cash Management API, Fixed Assets API, General Ledger API, and 2 more. Tagged areas include Accounting, Cloud Applications, Enterprise Performance Management, Enterprise Resource Planning, and EPM.
+overview: 'Oracle Financial Applications publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cash Management API, Fixed Assets API, General Ledger API, and 2 more. Tagged areas include Accounting, Cloud Applications, Enterprise Performance Management, ERP, and EPM.
 
 
-  Oracle Financial Applications'' developer surface includes authentication, developer portal, getting-started guide, support, pricing, training material, and 6 more developer resources.'
+  Oracle Financial Applications'' developer surface includes authentication, developer portal, getting-started guide, support, pricing, training material, and 7 more developer resources.'
 plans:
 - name: Oracle Financial Applications Plans Pricing
   plan_count: 3
   slug: oracle-financial-applications-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Oracle Financial Applications Rate Limits
@@ -227,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -247,10 +251,9 @@ tags:
 - Accounting
 - Cloud Applications
 - Enterprise Performance Management
-- Enterprise Resource Planning
-- EPM
 - ERP
+- EPM
 - Financial Management
 - Financial Reporting
-website: https://cloud.oracle.com/
+website: https://oracle.com
 ---

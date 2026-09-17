@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,7 +101,7 @@ overview: 'Three Chord Bourbon is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Three Chord Bourbon''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 2
+random_paper: 21
 score:
   band: emerging
   composite: 11.4
@@ -122,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

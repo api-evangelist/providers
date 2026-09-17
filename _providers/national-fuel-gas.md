@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,7 +82,7 @@ press:
 - date: '2026-05-25'
   title: National Fuel Gas furnishes Q1 2026 earnings release | NFG 8-K ...
   url: https://www.stocktitan.net/sec-filings/NFG/8-k-national-fuel-gas-co-reports-material-event-9b4c523a6a22.html
-random_paper: 7
+random_paper: 15
 score:
   band: minimal
   composite: 2.4
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

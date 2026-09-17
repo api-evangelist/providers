@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: http://{netprobeHost}:7136/v1
-  baseurl_source: declared
-  description: 'OpenAPI 3.0 REST plug-in on the Geneos Netprobe. Third-party applications PUT JSON to create or update dataviews, rows and streams on a named managed entity and sampler, DELETE them, and GET a health '
-  name: Geneos Netprobe REST API
-  slug: netprobe-rest-api
 - description: 'JSON over HTTP(S) service exposed by the Geneos Gateway so third-party applications can run commands, list available commands and command targets, resolve XPath targets, snapshot a dataview, read the '
   name: Geneos Gateway REST Command Service
   slug: gateway-rest
@@ -53,8 +48,18 @@ apis:
 - description: Scripting integration point where any executable that emits CSV on stdout becomes a Geneos sampler. The Toolkit is how most custom and third-party monitoring is bolted onto Geneos, and it is the targe
   name: Geneos Toolkit (Scripting) Plug-in
   slug: toolkit
+- baseURL: http://{netprobeHost}:7136/v1
+  baseurl_source: declared
+  description: REST API plug-in
+  name: Geneos REST API
+  slug: geneos-rest-api-api
 artifact_total: 12
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/overlays/geneos-netprobe-rest-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/geneos-netprobe-rest-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -246,22 +251,22 @@ modified: '2026-09-12'
 name: Geneos
 nav: Providers
 network: true
-overview: 'Geneos publishes 1 API on the [APIs.io](https://apis.io/) network: Netprobe REST API. Tagged areas include APM, Capital Markets, Infrastructure, ITRS, and Monitoring.
+overview: 'Geneos publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include APM, Capital Markets, Infrastructure, ITRS, and Monitoring.
 
 
-  Geneos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, training material, signup flow, and 32 more developer resources.'
+  Geneos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, training material, signup flow, and 33 more developer resources.'
 plans:
 - name: Geneos Plans Pricing
   plan_count: 0
   slug: geneos-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Geneos Rate Limits
   slug: geneos-rate-limits
 score:
   band: strong
-  composite: 59.5
+  composite: 59.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 47.0
@@ -269,11 +274,11 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 57.9
     contract_governance: 18.2
-    contract_quality: 45.8
+    contract_quality: 46.5
     developer_ergonomics: 80.4
     discoverability: 66.7
     operational_transparency: 68.4
@@ -283,12 +288,12 @@ score:
     contracts:
       callable: 0.0
       derived: 0
-      marker_coverage: 100.0
+      marker_coverage: 0.0
       total: 1
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

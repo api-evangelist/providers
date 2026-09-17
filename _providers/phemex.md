@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -123,6 +123,10 @@ collections:
   name: Phemex Contract Trading Account Wallets API
   slug: open-phemex-wallets-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://phemex.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -225,7 +229,7 @@ jsonld:
   property_count: 0
   slug: phemex
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Phemex
 nav: Providers
 network: true
@@ -235,12 +239,12 @@ overview: 'Phemex publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Phemex catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Phemex''s developer surface includes authentication, documentation, and 16 more developer resources.'
+  Phemex''s developer surface includes authentication, documentation, and 17 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Contract
@@ -301,7 +305,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -325,4 +329,5 @@ tags:
 - Futures
 - WebSocket
 - Market Data
+website: https://phemex.com
 ---

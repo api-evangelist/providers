@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ modified: '2026-05-08'
 name: MLflow
 nav: Providers
 network: true
-overview: 'MLflow publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Experiments API, Metrics API, and 3 more. Tagged areas include ML, MLOps, GenAI, Experiment Tracking, and Open-Source.
+overview: 'MLflow publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Experiments API, Metrics API, and 3 more. Tagged areas include MLS, MLOps, Generative AI, Experiment Tracking, and Open-Source.
 
 
   MLflow''s developer surface includes authentication, developer portal, engineering blog, and 15 more developer resources.'
@@ -206,7 +206,7 @@ plans:
 - name: Mlflow Plans Pricing
   plan_count: 1
   slug: mlflow-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Mlflow Rate Limits
@@ -238,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -255,9 +255,9 @@ security:
   summary_line: TLSv1.3
 slug: mlflow
 tags:
-- ML
+- MLS
 - MLOps
-- GenAI
+- Generative AI
 - Experiment Tracking
 - Open-Source
 website: https://mlflow.org/

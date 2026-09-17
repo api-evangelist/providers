@@ -33,7 +33,7 @@ name: LICENSE.md
 nav: Providers
 network: true
 overview: LICENSE.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Legal, Licensing, Open-Source, and SPDX.
-random_paper: 6
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/license-md/refs/heads/main/screenshots/license-md-2026-06-20T184504.png
 security:
 - kind: domain-security

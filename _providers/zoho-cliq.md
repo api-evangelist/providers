@@ -17,9 +17,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-09-15'
+  score: 35.6
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -49,11 +49,6 @@ apis:
   description: The Bots API from Zoho Cliq — 9 operation(s) for bots.
   name: Zoho Cliq Bots API
   slug: zoho-cliq-bots-api
-- baseURL: https://cliq.zoho.com/api/v3
-  baseurl_source: declared
-  description: Buttons Module
-  name: Zoho Cliq buttons API
-  slug: zoho-cliq-buttons-api
 - baseURL: https://cliq.zoho.com/api/v3
   baseurl_source: declared
   description: Chats Module
@@ -131,11 +126,6 @@ apis:
   slug: zoho-cliq-reminders-api
 - baseURL: https://cliq.zoho.com/api/v3
   baseurl_source: declared
-  description: Scheduled Messages Module
-  name: Zoho Cliq scheduledmessages API
-  slug: zoho-cliq-scheduledmessages-api
-- baseURL: https://cliq.zoho.com/api/v3
-  baseurl_source: declared
   description: Slash Commands Module
   name: Zoho Cliq slashcommands API
   slug: zoho-cliq-slashcommands-api
@@ -151,10 +141,15 @@ apis:
   slug: zoho-cliq-threads-api
 - baseURL: https://cliq.zoho.com/api/v3
   baseurl_source: declared
+  description: Scheduled Messages Module
+  name: Zoho Cliq Scheduled Messages API
+  slug: zoho-cliq-scheduled-messages-api
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
   description: User Preferences Module
-  name: Zoho Cliq userpreferences API
-  slug: zoho-cliq-userpreferences-api
-artifact_total: 97
+  name: Zoho Cliq User Preferences API
+  slug: zoho-cliq-user-preferences-api
+artifact_total: 96
 collections:
 - collection_type: open
   name: API Collection
@@ -443,7 +438,7 @@ modified: '2026-06-13'
 name: Zoho Cliq
 nav: Providers
 network: true
-overview: 'Zoho Cliq publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Bots API, buttons API, chats API, and 19 more. Tagged areas include Messaging, Team Collaboration, Chat, Bots, and Webhook.
+overview: 'Zoho Cliq publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Bots API, chats API, dndsettings API, and 18 more. Tagged areas include Messaging, Team Collaboration, Chat, Bots, and Webhook.
 
 
   The Zoho Cliq catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -454,7 +449,7 @@ plans:
 - name: Zoho Cliq Plans Pricing
   plan_count: 4
   slug: zoho-cliq-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Zoho Cliq Rate Limits
@@ -489,7 +484,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 70.1
+    contract_quality: 70.3
     developer_ergonomics: 11.9
     discoverability: 74.1
     operational_transparency: 21.1
@@ -500,9 +495,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 22
+      total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

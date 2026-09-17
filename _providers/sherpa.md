@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,8 +86,8 @@ modified: '2026-07-21'
 name: sherpa
 nav: Providers
 network: true
-overview: sherpa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, External Workforce Management, Vendor Management System, Managed Service Provider, and AI Agents.
-random_paper: 13
+overview: sherpa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, External Workforce Management, Vendor Management System, Managed Service Providers, and AI Agents.
+random_paper: 5
 score:
   band: minimal
   composite: 10.6
@@ -108,7 +108,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -129,12 +129,12 @@ tags:
 - Company
 - External Workforce Management
 - Vendor Management System
-- Managed Service Provider
+- Managed Service Providers
 - AI Agents
 - Contingent Labor
 - Freelancer Management
 - Staffing
 - Procurement
-- HR Tech
+- Human Resources
 website: https://sherpahq.ai
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 47.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 10
@@ -87,18 +87,13 @@ apis:
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: The ALTR Managed Collections API from ALTR — 8 operation(s) for altr managed collections.
-  name: ALTR ALTR Managed Collections API
+  name: ALTR Managed Collections API
   slug: altr-altr-managed-collections-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: Operations about anomalies
   name: ALTR Anomalies API
   slug: altr-anomalies-api
-- baseURL: https://altrnet.live.altr.com/api
-  baseurl_source: declared
-  description: Operations about ApiKeys
-  name: ALTR Apikeys API
-  slug: altr-apikeys-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: Operations about applications
@@ -112,7 +107,7 @@ apis:
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: The Auto Tagging API API from ALTR — 10 operation(s) for auto tagging api.
-  name: ALTR Auto Tagging API API
+  name: ALTR Auto Tagging API
   slug: altr-auto-tagging-api-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
@@ -232,17 +227,17 @@ apis:
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: The Query Audits API API from ALTR — 2 operation(s) for query audits api.
-  name: ALTR Query Audits API API
+  name: ALTR Query Audits API
   slug: altr-query-audits-api-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: The Query Dashboard API API from ALTR — 2 operation(s) for query dashboard api.
-  name: ALTR Query Dashboard API API
+  name: ALTR Query Dashboard API
   slug: altr-query-dashboard-api-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: The RBAC API API from ALTR — 11 operation(s) for rbac api.
-  name: ALTR RBAC API API
+  name: ALTR RBAC API
   slug: altr-rbac-api-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
@@ -292,7 +287,7 @@ apis:
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: The Sidecar Audit API API from ALTR — 2 operation(s) for sidecar audit api.
-  name: ALTR Sidecar Audit API API
+  name: ALTR Sidecar Audit API
   slug: altr-sidecar-audit-api-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
@@ -317,7 +312,7 @@ apis:
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: The Snowflake Metadata API API from ALTR — 13 operation(s) for snowflake metadata api.
-  name: ALTR Snowflake Metadata API API
+  name: ALTR Snowflake Metadata API
   slug: altr-snowflake-metadata-api-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
@@ -331,18 +326,13 @@ apis:
   slug: altr-subscriptions-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
-  description: Operations related to system audits
-  name: ALTR Systemaudits API
-  slug: altr-systemaudits-api
-- baseURL: https://altrnet.live.altr.com/api
-  baseurl_source: declared
   description: Operations related to asynchronously querying system audits
   name: ALTR Systemaudits/query API
   slug: altr-systemaudits-query-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
   description: The Tag Masking API API from ALTR — 3 operation(s) for tag masking api.
-  name: ALTR Tag Masking API API
+  name: ALTR Tag Masking API
   slug: altr-tag-masking-api-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
@@ -371,11 +361,6 @@ apis:
   slug: altr-unsubscribe-api
 - baseURL: https://altrnet.live.altr.com/api
   baseurl_source: declared
-  description: Operations related to user groups
-  name: ALTR Usergroups API
-  slug: altr-usergroups-api
-- baseURL: https://altrnet.live.altr.com/api
-  baseurl_source: declared
   description: The Users API from ALTR — 3 operation(s) for users.
   name: ALTR Users API
   slug: altr-users-api
@@ -384,6 +369,21 @@ apis:
   description: Access DIS job and third party import information.
   name: ALTR Utility API
   slug: altr-utility-api
+- baseURL: https://{orgID}.vault.live.altr.com/api/v2
+  baseurl_source: declared
+  description: Operations about ApiKeys
+  name: ALTR API Keys API
+  slug: altr-api-keys-api
+- baseURL: https://{orgID}.vault.live.altr.com/api/v2
+  baseurl_source: declared
+  description: Operations related to system audits
+  name: ALTR system Audits API
+  slug: altr-system-audits-api
+- baseURL: https://{orgID}.vault.live.altr.com/api/v2
+  baseurl_source: declared
+  description: Operations related to user groups
+  name: ALTR User Groups API
+  slug: altr-user-groups-api
 artifact_total: 143
 asyncapis:
 - description: ''
@@ -782,7 +782,7 @@ mcp_servers:
 - description: ''
   name: ALTR MCP Server
   slug: altr-mcp-server
-modified: '2026-08-06'
+modified: '2026-09-16'
 name: ALTR
 nav: Providers
 network: true
@@ -793,10 +793,10 @@ overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ALTR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 15
+random_paper: 17
 score:
   band: strong
-  composite: 56.9
+  composite: 57.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -804,11 +804,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 63.8
+    contract_quality: 65.5
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 36.8
@@ -829,7 +829,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

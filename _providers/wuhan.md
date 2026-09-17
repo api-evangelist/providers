@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: WHU's federated login, published as a SAML 2.0 EntityDescriptor at https://idp.whu.edu.cn/idp/shibboleth (HTTP 200, application/xml, 14,864 bytes). Declares HTTP-Redirect, HTTP-POST and POST-SimpleSig
@@ -213,7 +213,7 @@ plans:
 - name: Wuhan Plans Pricing
   plan_count: 2
   slug: wuhan-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Wuhan Rate Limits
@@ -258,7 +258,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -282,7 +282,7 @@ tags:
 - Research
 - China
 - Identity Federation
-- Single Sign-On
+- SSO
 - Research Data
 - GNSS
 - Library

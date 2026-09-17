@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   description: Beta These endpoints are in beta and are subject to change.
   name: Escape Beta API
   slug: escape-beta-api
-- baseURL: https://public.escape.tech/v3
-  baseurl_source: declared
-  description: Manage your custom rules. The public API provides basic CRUDs operations to manage custom rules. See [our documentation](https://docs.escape.tech/documentation/dast/custom-rules/) for more details.
-  name: Escape CustomRules API
-  slug: escape-customrules-api
 - baseURL: https://public.escape.tech/v3
   baseurl_source: declared
   description: Read scan inbox emails. The public API provides endpoints to list inbox emails and read their raw content without exposing storage links.
@@ -145,6 +140,11 @@ apis:
   description: Workflows Management The public API provides CRUDs operations to manage workflows.
   name: Escape Workflows API
   slug: escape-workflows-api
+- baseURL: https://public.escape.tech/v3
+  baseurl_source: declared
+  description: Manage your custom rules. The public API provides basic CRUDs operations to manage custom rules. See our documentation for more details.
+  name: Escape Custom Rules API
+  slug: escape-custom-rules-api
 artifact_total: 48
 collections:
 - collection_type: open
@@ -281,7 +281,7 @@ plans:
 - name: Escape Plans Pricing
   plan_count: 3
   slug: escape-plans-pricing
-random_paper: 16
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Escape Rate Limits
@@ -314,7 +314,7 @@ score:
       total: 20
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

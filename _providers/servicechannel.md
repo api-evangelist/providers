@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 368
   human_in_the_loop: 9
@@ -48,11 +48,6 @@ apis:
   description: The AfterHours API from ServiceChannel — 2 operation(s) for afterhours.
   name: ServiceChannel AfterHours API
   slug: servicechannel-afterhours-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
-  description: The AIAgents API from ServiceChannel — 9 operation(s) for aiagents.
-  name: ServiceChannel AIAgents API
-  slug: servicechannel-aiagents-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
   description: The Announcements API from ServiceChannel — 2 operation(s) for announcements.
@@ -73,11 +68,6 @@ apis:
   description: The AssetTaskResponse API from ServiceChannel — 3 operation(s) for assettaskresponse.
   name: ServiceChannel AssetTaskResponse API
   slug: servicechannel-assettaskresponse-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
-  description: The AssetTypes API from ServiceChannel — 21 operation(s) for assettypes.
-  name: ServiceChannel AssetTypes API
-  slug: servicechannel-assettypes-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
   description: The Attachments API from ServiceChannel — 28 operation(s) for attachments.
@@ -150,11 +140,6 @@ apis:
   slug: servicechannel-donotdispatch-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
-  description: The EmailNotifications API from ServiceChannel — 4 operation(s) for emailnotifications.
-  name: ServiceChannel EmailNotifications API
-  slug: servicechannel-emailnotifications-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
   description: The Eula API from ServiceChannel — 2 operation(s) for eula.
   name: ServiceChannel Eula API
   slug: servicechannel-eula-api
@@ -163,11 +148,6 @@ apis:
   description: The Feedback API from ServiceChannel — 6 operation(s) for feedback.
   name: ServiceChannel Feedback API
   slug: servicechannel-feedback-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
-  description: The GlCodes API from ServiceChannel — 5 operation(s) for glcodes.
-  name: ServiceChannel GlCodes API
-  slug: servicechannel-glcodes-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
   description: The Invitation API from ServiceChannel — 1 operation(s) for invitation.
@@ -215,16 +195,6 @@ apis:
   slug: servicechannel-notes-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
-  description: The NotificationSubscriptions API from ServiceChannel — 7 operation(s) for notificationsubscriptions.
-  name: ServiceChannel NotificationSubscriptions API
-  slug: servicechannel-notificationsubscriptions-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
-  description: The NotificationWebHooks API from ServiceChannel — 2 operation(s) for notificationwebhooks.
-  name: ServiceChannel NotificationWebHooks API
-  slug: servicechannel-notificationwebhooks-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
   description: The OutgoingXml API from ServiceChannel — 30 operation(s) for outgoingxml.
   name: ServiceChannel OutgoingXml API
   slug: servicechannel-outgoingxml-api
@@ -260,11 +230,6 @@ apis:
   slug: servicechannel-providers-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
-  description: The PushNotifications API from ServiceChannel — 4 operation(s) for pushnotifications.
-  name: ServiceChannel PushNotifications API
-  slug: servicechannel-pushnotifications-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
   description: The RefrigerantTracking API from ServiceChannel — 49 operation(s) for refrigeranttracking.
   name: ServiceChannel RefrigerantTracking API
   slug: servicechannel-refrigeranttracking-api
@@ -273,11 +238,6 @@ apis:
   description: The ResolutionCodes API from ServiceChannel — 5 operation(s) for resolutioncodes.
   name: ServiceChannel ResolutionCodes API
   slug: servicechannel-resolutioncodes-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
-  description: The Rfps API from ServiceChannel — 6 operation(s) for rfps.
-  name: ServiceChannel Rfps API
-  slug: servicechannel-rfps-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
   description: The Roles API from ServiceChannel — 1 operation(s) for roles.
@@ -295,16 +255,6 @@ apis:
   slug: servicechannel-servicerequest-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
-  description: The SingleSignOn API from ServiceChannel — 4 operation(s) for singlesignon.
-  name: ServiceChannel SingleSignOn API
-  slug: servicechannel-singlesignon-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
-  description: The SiteAudit API from ServiceChannel — 18 operation(s) for siteaudit.
-  name: ServiceChannel SiteAudit API
-  slug: servicechannel-siteaudit-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
   description: The Subscribers API from ServiceChannel — 9 operation(s) for subscribers.
   name: ServiceChannel Subscribers API
   slug: servicechannel-subscribers-api
@@ -313,11 +263,6 @@ apis:
   description: The SupplyClick API from ServiceChannel — 1 operation(s) for supplyclick.
   name: ServiceChannel SupplyClick API
   slug: servicechannel-supplyclick-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
-  description: The SurveyQuestions API from ServiceChannel — 5 operation(s) for surveyquestions.
-  name: ServiceChannel SurveyQuestions API
-  slug: servicechannel-surveyquestions-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
   description: The TemplateFilesHistory API from ServiceChannel — 1 operation(s) for templatefileshistory.
@@ -360,19 +305,74 @@ apis:
   slug: servicechannel-workactivities-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
-  description: The WorkOrders API from ServiceChannel — 70 operation(s) for workorders.
-  name: ServiceChannel WorkOrders API
-  slug: servicechannel-workorders-api
-- baseURL: https://api.servicechannel.com/v3
-  baseurl_source: declared
   description: The WorkRequestNote API from ServiceChannel — 2 operation(s) for workrequestnote.
   name: ServiceChannel WorkRequestNote API
   slug: servicechannel-workrequestnote-api
 - baseURL: https://api.servicechannel.com/v3
   baseurl_source: declared
-  description: The WorkRequests API from ServiceChannel — 13 operation(s) for workrequests.
-  name: ServiceChannel WorkRequests API
-  slug: servicechannel-workrequests-api
+  description: The Rfps API from ServiceChannel — 6 operation(s) for rfps.
+  name: ServiceChannel Rfps API
+  slug: servicechannel-rfps-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The AI Agents API from ServiceChannel — 9 operation(s) for ai agents.
+  name: ServiceChannel AI Agents API
+  slug: servicechannel-ai-agents-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Asset Types API from ServiceChannel — 21 operation(s) for asset types.
+  name: ServiceChannel Asset Types API
+  slug: servicechannel-asset-types-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Email Notifications API from ServiceChannel — 4 operation(s) for email notifications.
+  name: ServiceChannel Email Notifications API
+  slug: servicechannel-email-notifications-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The GL Codes API from ServiceChannel — 5 operation(s) for gl codes.
+  name: ServiceChannel GL Codes API
+  slug: servicechannel-gl-codes-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Notification Subscriptions API from ServiceChannel — 7 operation(s) for notification subscriptions.
+  name: ServiceChannel Notification Subscriptions API
+  slug: servicechannel-notification-subscriptions-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Notification Web Hooks API from ServiceChannel — 2 operation(s) for notification web hooks.
+  name: ServiceChannel Notification Web Hooks API
+  slug: servicechannel-notification-web-hooks-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Push Notifications API from ServiceChannel — 4 operation(s) for push notifications.
+  name: ServiceChannel Push Notifications API
+  slug: servicechannel-push-notifications-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Single Sign On API from ServiceChannel — 4 operation(s) for single sign on.
+  name: ServiceChannel Single Sign On API
+  slug: servicechannel-single-sign-on-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Site Audit API from ServiceChannel — 18 operation(s) for site audit.
+  name: ServiceChannel Site Audit API
+  slug: servicechannel-site-audit-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Survey Questions API from ServiceChannel — 5 operation(s) for survey questions.
+  name: ServiceChannel Survey Questions API
+  slug: servicechannel-survey-questions-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Work Orders API from ServiceChannel — 70 operation(s) for work orders.
+  name: ServiceChannel Work Orders API
+  slug: servicechannel-work-orders-api
+- baseURL: https://api.servicechannel.com/v3
+  baseurl_source: declared
+  description: The Work Requests API from ServiceChannel — 13 operation(s) for work requests.
+  name: ServiceChannel Work Requests API
+  slug: servicechannel-work-requests-api
 artifact_total: 138
 asyncapis:
 - description: ''
@@ -708,14 +708,14 @@ modified: '2026-07-21'
 name: ServiceChannel
 nav: Providers
 network: true
-overview: 'ServiceChannel publishes 66 APIs on the [APIs.io](https://apis.io/) network, including AfterHours API, AIAgents API, Announcements API, and 63 more. Tagged areas include Company, Services, Facilities Management, Work Orders, and Field Service.
+overview: 'ServiceChannel publishes 66 APIs on the [APIs.io](https://apis.io/) network, including AfterHours API, Announcements API, ApplicationAccess API, and 63 more. Tagged areas include Company, Services, Facilities Management, Work Orders, and Field Service.
 
 
   The ServiceChannel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ServiceChannel''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 12
+random_paper: 8
 scopes:
 - name: Servicechannel Scopes
   scope_count: 0
@@ -723,7 +723,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.2
+  composite: 45.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -731,11 +731,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 51.4
+    contract_quality: 54.0
     developer_ergonomics: 51.8
     discoverability: 75.9
     operational_transparency: 42.1
@@ -744,14 +744,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 95.5
       derived: 0
       marker_coverage: 0.0
       total: 66
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

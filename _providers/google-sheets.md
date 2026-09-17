@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -49,13 +49,8 @@ apis:
   slug: google-apps-script-spreadsheet-service
 - baseURL: https://sheets.googleapis.com/v4
   baseurl_source: declared
-  description: Operations on developer metadata
-  name: Google Sheets developerMetadata API
-  slug: google-sheets-developermetadata-api
-- baseURL: https://sheets.googleapis.com/v4
-  baseurl_source: declared
   description: Operations on individual sheets within a spreadsheet
-  name: Google Sheets Sheets API
+  name: Google Sheets API
   slug: google-sheets-sheets-api
 - baseURL: https://sheets.googleapis.com/v4
   baseurl_source: declared
@@ -67,6 +62,11 @@ apis:
   description: Operations on spreadsheet cell values
   name: Google Sheets Values API
   slug: google-sheets-values-api
+- baseURL: https://sheets.googleapis.com/v4
+  baseurl_source: declared
+  description: Operations on developer metadata
+  name: Google Sheets Developer Metadata API
+  slug: google-sheets-developer-metadata-api
 arazzos:
 - description: Create a spreadsheet, append rows including a header, then bold the header row via batchUpdate.
   name: Google Sheets Append Rows and Format the Header
@@ -1175,11 +1175,11 @@ jsonld:
   property_count: 0
   slug: google-sheets-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Google Sheets
 nav: Providers
 network: true
-overview: 'Google Sheets publishes 4 APIs on the [APIs.io](https://apis.io/) network, including developerMetadata API, Sheets API, Spreadsheets API, and 1 more. Tagged areas include Google Workspace, Productivity, and Spreadsheets.
+overview: 'Google Sheets publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Spreadsheets API, Values API, and 2 more. Tagged areas include Google Workspace, Productivity, and Spreadsheets.
 
 
   The Google Sheets catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1190,7 +1190,7 @@ plans:
 - name: Google Sheets Plans Pricing
   plan_count: 3
   slug: google-sheets-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Google Sheets Rate Limits
@@ -1251,7 +1251,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

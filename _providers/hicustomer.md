@@ -38,12 +38,12 @@ description: HiCustomer (ハイカスタマー) was a Japanese Customer Success 
   but empty) and the product is discontinued; the last archived homepage (Oct 2024) is a STUDIO-built single-page "About the company" placeholder. No public developer API, documentation, SDK, or developer portal was ever published — the Wayback record for hicustomer.jp contains no /api, /docs, /developers, /pricing or /status path at any point in its history.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hicustomer.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: HiCustomer
 nav: Providers
 network: true
 overview: HiCustomer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Success, Customer Success Management, Software-as-a-Service, and Health Score.
-random_paper: 20
+random_paper: 13
 slug: hicustomer
 tags:
 - Company
@@ -57,5 +57,6 @@ tags:
 - Japan
 - B2B SaaS
 - Digital Sales Room
+- Defunct
 website: https://hicustomer.jp
 ---

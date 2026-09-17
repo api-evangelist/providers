@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'REST API exposing NetSuite accounting and financial records as JSON resources including invoices, bills, journal entries, payments, accounts, customers, and vendors, with SuiteQL query support and an '
@@ -75,11 +75,11 @@ modified: '2026-05-11'
 name: NetSuite Accounting
 nav: Providers
 network: true
-overview: 'NetSuite Accounting publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting, Financials, General Ledger, Accounts Payable, and Accounts Receivable.
+overview: 'NetSuite Accounting publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting, Financial, General Ledger, Accounts Payable, and Accounts Receivable.
 
 
   NetSuite Accounting''s developer surface includes documentation, pricing, signup flow, and 2 more developer resources.'
-random_paper: 19
+random_paper: 13
 score:
   band: emerging
   composite: 14.1
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +115,7 @@ security:
 slug: netsuite-accounting
 tags:
 - Accounting
-- Financials
+- Financial
 - General Ledger
 - Accounts Payable
 - Accounts Receivable

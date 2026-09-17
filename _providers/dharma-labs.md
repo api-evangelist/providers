@@ -42,7 +42,7 @@ name: Dharma Labs
 nav: Providers
 network: true
 overview: Dharma Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Cryptocurrency, Ethereum, and Lending.
-random_paper: 13
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/dharma-labs/refs/heads/main/screenshots/dharma-labs-2026-07-25T211859.png
 slug: dharma-labs
 tags:

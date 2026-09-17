@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://uk.solana.dex.blxrbdn.com
@@ -188,7 +188,7 @@ overview: 'bloXroute publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   bloXroute''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Bloxroute Rate Limits
@@ -223,7 +223,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

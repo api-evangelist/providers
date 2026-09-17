@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Standard OData service endpoints including service document, metadata document, entity set CRUD operations, and batch processing as defined by the OData v4.01 specification.
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://services.odata.org/V4/TripPinService
   baseurl_source: spec
   description: The OData Service API API from OData — 3 operation(s) for odata service api.
-  name: OData OData Service API API
+  name: OData Service API
   slug: odata-odata-service-api-api
 artifact_total: 13
 collections:
@@ -110,11 +110,11 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: OData
 nav: Providers
 network: true
-overview: 'OData publishes 3 APIs on the [APIs.io](https://apis.io/) network: $Batch API, $Metadata API, and OData Service API API. Tagged areas include OASIS Standard, OData, Open Data Protocol, Query Language, and RESTful APIs.
+overview: 'OData publishes 3 APIs on the [APIs.io](https://apis.io/) network: $Batch API, $Metadata API, and Service API. Tagged areas include OASIS Standard, OData, Open Data Protocol, Query Language, and RESTful APIs.
 
 
   OData''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
@@ -122,7 +122,7 @@ plans:
 - name: Odata Plans Pricing
   plan_count: 3
   slug: odata-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Odata Rate Limits
@@ -153,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -216,10 +216,10 @@ common:
   type: Packages
   url: packages/poggio-labs-packages.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-goalkeeper-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/_original/poggio-labs-goalkeeper-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/poggio-labs-goalkeeper-openapi.json
+  url: openapi/_original/poggio-labs-goalkeeper-openapi.json
 - group: build
   title: ''
   type: SourceCode
@@ -270,7 +270,7 @@ mcp_servers:
 - description: ''
   name: Poggio Labs MCP Server
   slug: poggio-labs-mcp-server-2
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Poggio Labs
 nav: Providers
 network: true
@@ -282,7 +282,7 @@ plans:
 - name: Poggio Labs Plans Pricing
   plan_count: 3
   slug: poggio-labs-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Poggio Labs Rate Limits
@@ -322,7 +322,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

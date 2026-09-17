@@ -57,7 +57,7 @@ name: adludio
 nav: Providers
 network: true
 overview: adludio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Mobile Advertising, and Marketing Technology.
-random_paper: 3
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/adludio/refs/heads/main/screenshots/adludio-2026-07-25T181639.png
 security:
 - kind: domain-security

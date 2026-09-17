@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -65,12 +65,12 @@ apis:
 - baseURL: http://localhost:4723
   baseurl_source: declared
   description: Appium-specific device commands (app management, files, keyboard)
-  name: Appium Appium Device API
+  name: Appium Device API
   slug: appium-appium-device-api
 - baseURL: http://localhost:4723
   baseurl_source: declared
   description: Appium session settings and capabilities
-  name: Appium Appium Session API
+  name: Appium Session API
   slug: appium-appium-session-api
 - baseURL: http://localhost:4723
   baseurl_source: declared
@@ -138,6 +138,10 @@ collections:
   name: Appium Server Actions Sessions API
   slug: open-appium-sessions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://appium.io
 - group: operate
   title: ''
   type: IssueTracker
@@ -342,22 +346,22 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Appium
 nav: Providers
 network: true
-overview: 'Appium publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Appium Device API, and 7 more. Tagged areas include Android, Cross-Platform, iOS, Mobile Testing, and Open-Source.
+overview: 'Appium publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Device API, and 7 more. Tagged areas include Android, Cross-Platform, iOS, Mobile Testing, and Open-Source.
 
 
   The Appium catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Appium''s developer surface includes getting-started guide, documentation, support, Stack Overflow tag, YouTube channel, changelog, tooling, and 17 more developer resources.'
+  Appium''s developer surface includes getting-started guide, documentation, support, Stack Overflow tag, YouTube channel, changelog, tooling, and 18 more developer resources.'
 plans:
 - name: Appium Plans Pricing
   plan_count: 1
   slug: appium-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Appium Rate Limits
@@ -414,7 +418,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -468,5 +472,5 @@ use_cases:
   name: Web Automation
 - description: Using the MCP server to enable AI agents to drive test execution
   name: AI-Assisted Testing
-website: https://appium.io/apis.json
+website: https://appium.io
 ---

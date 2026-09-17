@@ -40,7 +40,7 @@ name: Brewster
 nav: Providers
 network: true
 overview: Brewster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Contacts, Address Book, and Mobile.
-random_paper: 17
+random_paper: 20
 screenshot: https://raw.githubusercontent.com/api-evangelist/brewster/refs/heads/main/screenshots/brewster-2026-07-25T203758.png
 slug: brewster
 tags:

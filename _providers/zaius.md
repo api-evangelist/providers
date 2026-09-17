@@ -31,12 +31,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.1
-  scored_at: '2026-09-15'
+  score: 32.4
+  scored_at: '2026-09-16'
 api_count: 11
 apis:
 - baseURL: https://api.us1.odp.optimizely.com/v3
@@ -96,11 +96,6 @@ apis:
   slug: zaius-objects-api
 - baseURL: https://api.us1.odp.optimizely.com/v3
   baseurl_source: declared
-  description: The Orders API from Zaius — 1 operation(s) for orders.
-  name: Zaius Orders API
-  slug: zaius-orders-api
-- baseURL: https://api.us1.odp.optimizely.com/v3
-  baseurl_source: declared
   description: The Products API from Zaius — 1 operation(s) for products.
   name: Zaius Products API
   slug: zaius-products-api
@@ -124,7 +119,7 @@ apis:
   description: The Relationships schema API from Zaius — 2 operation(s) for relationships schema.
   name: Zaius Relationships schema API
   slug: zaius-relationships-schema-api
-artifact_total: 41
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -362,7 +357,7 @@ modified: '2026-08-13'
 name: Zaius
 nav: Providers
 network: true
-overview: 'Zaius publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Compliance API, Consent API, Consent (Legacy) API, and 14 more. Tagged areas include Company, Customer Data Platform, CDP, Marketing, and Personalization.
+overview: 'Zaius publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Compliance API, Consent API, Consent (Legacy) API, and 13 more. Tagged areas include Company, Customer Data Platform, CDP, Marketing, and Personalization.
 
 
   Zaius'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
@@ -370,7 +365,7 @@ plans:
 - name: Zaius Plans Pricing
   plan_count: 0
   slug: zaius-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Zaius Rate Limits
@@ -400,11 +395,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 16
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

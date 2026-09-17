@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The public WordPress REST API served from artisight.com. It is the marketing/content API for the corporate website — posts, pages, media, taxonomies, case studies and the site route index — not a clin
@@ -164,7 +164,7 @@ overview: 'Artisight publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Artisight''s developer surface includes engineering blog, support, signup flow, authentication, and 19 more developer resources.'
-random_paper: 9
+random_paper: 7
 scopes:
 - name: Artisight Scopes
   scope_count: 1
@@ -199,7 +199,7 @@ score:
     regime_id: health
     score: 61.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

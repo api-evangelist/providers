@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -82,7 +82,7 @@ plans:
 - name: Green Software Foundation Plans Pricing
   plan_count: 3
   slug: green-software-foundation-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Green Software Foundation Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ press:
 - date: '2026-05-25'
   title: Under Armour's digital push continues through slumped ...
   url: https://www.ciodive.com/news/under-armours-digital-push-continues-through-slumped-financials/586002/
-random_paper: 10
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Under Armour Rate Limits
@@ -300,7 +300,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

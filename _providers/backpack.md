@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -483,7 +483,7 @@ plans:
 - name: Backpack Plans Pricing
   plan_count: 5
   slug: backpack-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Backpack Rate Limits
@@ -557,7 +557,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

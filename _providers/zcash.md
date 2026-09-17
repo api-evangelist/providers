@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The primary JSON-RPC interface exposed by zcashd, the original Zcash full node. Backwards compatible with Bitcoin Core 0.11.2 with Zcash-specific extensions for shielded address management and private
@@ -91,7 +91,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -119,7 +119,7 @@ score:
     score: 65.0
   previous_composite: 31.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

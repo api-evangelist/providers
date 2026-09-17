@@ -27,22 +27,22 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-09-15'
+  score: 29.0
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
+- acting_count: 153
+  human_in_the_loop: 3
   name: Agco Agentic Access
-  operation_count: 3
+  operation_count: 288
   slug: agco-agentic-access
-  summary_line: 3 operations
+  summary_line: 288 operations · 153 acting · 3 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.agcocorp.com
@@ -60,12 +60,282 @@ apis:
   description: Retrieve machine telemetry and sensor data.
   name: agco Telemetry API
   slug: agco-telemetry-api
-- baseURL: https://secure.agco-ats.com
+- baseURL: https://api.agcocorp.com
   baseurl_source: declared
-  description: 'The AGCO Technical Support (ATS) API behind AGCO''s Electronic Diagnostic Tool (EDT) and dealer software distribution platform. Publishes 285 operations across 55 tags covering authorization codes and '
-  name: AGCO ATS API
-  slug: agco-ats-api
-artifact_total: 40
+  description: The Activities API from Agco — 2 operation(s) for activities.
+  name: Agco Activities API
+  slug: agco-activities-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The ActivityRuns API from Agco — 3 operation(s) for activityruns.
+  name: Agco Activity Runs API
+  slug: agco-activityruns-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The AftermarketServices API from Agco — 6 operation(s) for aftermarketservices.
+  name: Agco Aftermarket Services API
+  slug: agco-aftermarketservices-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Agents API from Agco — 6 operation(s) for agents.
+  name: Agco Agents API
+  slug: agco-agents-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Authentication API from Agco — 9 operation(s) for authentication.
+  name: Agco Authentication API
+  slug: agco-authentication-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The AuthorizationCategories API from Agco — 4 operation(s) for authorizationcategories.
+  name: Agco Authorization Categories API
+  slug: agco-authorizationcategories-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The AuthorizationCodeDefinitions API from Agco — 3 operation(s) for authorizationcodedefinitions.
+  name: Agco Authorization Code Definitions API
+  slug: agco-authorizationcodedefinitions-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The AuthorizationCodes API from Agco — 4 operation(s) for authorizationcodes.
+  name: Agco Authorization Codes API
+  slug: agco-authorizationcodes-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The AuthorizationContactInformation API from Agco — 1 operation(s) for authorizationcontactinformation.
+  name: Agco Authorization Contact Information API
+  slug: agco-authorizationcontactinformation-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Brands API from Agco — 1 operation(s) for brands.
+  name: Agco Brands API
+  slug: agco-brands-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Bundles API from Agco — 2 operation(s) for bundles.
+  name: Agco Bundles API
+  slug: agco-bundles-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Clients API from Agco — 4 operation(s) for clients.
+  name: Agco Clients API
+  slug: agco-clients-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The ContentDefinitions API from Agco — 6 operation(s) for contentdefinitions.
+  name: Agco Content Definitions API
+  slug: agco-contentdefinitions-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The ContentRelease API from Agco — 2 operation(s) for contentrelease.
+  name: Agco Content Release API
+  slug: agco-contentrelease-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The ContentSubmissions API from Agco — 7 operation(s) for contentsubmissions.
+  name: Agco Content Submissions API
+  slug: agco-contentsubmissions-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The ContentSubmissionTypes API from Agco — 2 operation(s) for contentsubmissiontypes.
+  name: Agco Content Submission Types API
+  slug: agco-contentsubmissiontypes-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The DealerByCountry API from Agco — 1 operation(s) for dealerbycountry.
+  name: Agco Dealer By Country API
+  slug: agco-dealerbycountry-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Dealers API from Agco — 2 operation(s) for dealers.
+  name: Agco Dealers API
+  slug: agco-dealers-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Files API from Agco — 3 operation(s) for files.
+  name: Agco Files API
+  slug: agco-files-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The FileUploadIndexFields API from Agco — 1 operation(s) for fileuploadindexfields.
+  name: Agco File Upload Index Fields API
+  slug: agco-fileuploadindexfields-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The FileUploadTypes API from Agco — 1 operation(s) for fileuploadtypes.
+  name: Agco File Upload Types API
+  slug: agco-fileuploadtypes-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The GlobalImageCategories API from Agco — 2 operation(s) for globalimagecategories.
+  name: Agco Global Image Categories API
+  slug: agco-globalimagecategories-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The GlobalImages API from Agco — 3 operation(s) for globalimages.
+  name: Agco Global Images API
+  slug: agco-globalimages-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The JobRuns API from Agco — 2 operation(s) for jobruns.
+  name: Agco Job Runs API
+  slug: agco-jobruns-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Jobs API from Agco — 2 operation(s) for jobs.
+  name: Agco Jobs API
+  slug: agco-jobs-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Languages API from Agco — 2 operation(s) for languages.
+  name: Agco Languages API
+  slug: agco-languages-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The LicenseActivations API from Agco — 4 operation(s) for licenseactivations.
+  name: Agco License Activations API
+  slug: agco-licenseactivations-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Licenses API from Agco — 2 operation(s) for licenses.
+  name: Agco Licenses API
+  slug: agco-licenses-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Logs API from Agco — 2 operation(s) for logs.
+  name: Agco Logs API
+  slug: agco-logs-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Notifications API from Agco — 1 operation(s) for notifications.
+  name: Agco Notifications API
+  slug: agco-notifications-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The PackageReports API from Agco — 2 operation(s) for packagereports.
+  name: Agco Package Reports API
+  slug: agco-packagereports-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Packages API from Agco — 2 operation(s) for packages.
+  name: Agco Packages API
+  slug: agco-packages-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The PackageTypetoBundles API from Agco — 2 operation(s) for packagetypetobundles.
+  name: Agco Package Typeto Bundles API
+  slug: agco-packagetypetobundles-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Permissions API from Agco — 2 operation(s) for permissions.
+  name: Agco Permissions API
+  slug: agco-permissions-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The PriorityPackages API from Agco — 2 operation(s) for prioritypackages.
+  name: Agco Priority Packages API
+  slug: agco-prioritypackages-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Release API from Agco — 4 operation(s) for release.
+  name: Agco Release API
+  slug: agco-release-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Reporting API from Agco — 10 operation(s) for reporting.
+  name: Agco Reporting API
+  slug: agco-reporting-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Roles API from Agco — 3 operation(s) for roles.
+  name: Agco Roles API
+  slug: agco-roles-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Steps API from Agco — 2 operation(s) for steps.
+  name: Agco Steps API
+  slug: agco-steps-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The StringDefinitions API from Agco — 3 operation(s) for stringdefinitions.
+  name: Agco String Definitions API
+  slug: agco-stringdefinitions-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The StringTranslations API from Agco — 3 operation(s) for stringtranslations.
+  name: Agco String Translations API
+  slug: agco-stringtranslations-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The TranslationKeys API from Agco — 2 operation(s) for translationkeys.
+  name: Agco Translation Keys API
+  slug: agco-translationkeys-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The TranslationRequests API from Agco — 3 operation(s) for translationrequests.
+  name: Agco Translation Requests API
+  slug: agco-translationrequests-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The TranslationSets API from Agco — 9 operation(s) for translationsets.
+  name: Agco Translation Sets API
+  slug: agco-translationsets-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The UpdateGroupClientRelationships API from Agco — 2 operation(s) for updategroupclientrelationships.
+  name: Agco Update Group Client Relationships API
+  slug: agco-updategroupclientrelationships-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The UpdateGroups API from Agco — 3 operation(s) for updategroups.
+  name: Agco Update Groups API
+  slug: agco-updategroups-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The UpdateGroupSubscriptions API from Agco — 3 operation(s) for updategroupsubscriptions.
+  name: Agco Update Group Subscriptions API
+  slug: agco-updategroupsubscriptions-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The UpdateSystem API from Agco — 2 operation(s) for updatesystem.
+  name: Agco Update System API
+  slug: agco-updatesystem-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The UserContentDefinitions API from Agco — 2 operation(s) for usercontentdefinitions.
+  name: Agco User Content Definitions API
+  slug: agco-usercontentdefinitions-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Users API from Agco — 3 operation(s) for users.
+  name: Agco Users API
+  slug: agco-users-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The VoucherHistory API from Agco — 1 operation(s) for voucherhistory.
+  name: Agco Voucher History API
+  slug: agco-voucherhistory-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Vouchers API from Agco — 3 operation(s) for vouchers.
+  name: Agco Vouchers API
+  slug: agco-vouchers-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The File Uploads API from Agco — 1 operation(s) for file uploads.
+  name: Agco File Uploads API
+  slug: agco-file-uploads-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The Package Types API from Agco — 3 operation(s) for package types.
+  name: Agco Package Types API
+  slug: agco-package-types-api
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: The User Permissions API from Agco — 5 operation(s) for user permissions.
+  name: Agco User Permissions API
+  slug: agco-user-permissions-api
+artifact_total: 94
 collections:
 - collection_type: open
   name: API Collection
@@ -334,7 +604,7 @@ modified: '2026-09-04'
 name: Agco
 nav: Providers
 network: true
-overview: 'Agco publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Machines API, Telemetry API, and 1 more. Tagged areas include Fortune 500, Agriculture, Farm Equipment, Manufacturing, and Telematics.
+overview: 'Agco publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Machines API, Telemetry API, and 55 more. Tagged areas include Fortune 500, Agriculture, Farm Equipment, Manufacturing, and Telematics.
 
 
   The Agco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -361,7 +631,7 @@ press:
 - date: '2026-05-25'
   title: AGCO to Showcase Full-Line Innovation and Smart ...
   url: https://www.prnewswire.com/news-releases/agco-to-showcase-full-line-innovation-and-smart-farming-technologies-at-agritechnica-2025-302604586.html
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Agco Rate Limits
@@ -390,21 +660,21 @@ rules:
   slug: agco-spectral-rules
 score:
   band: developing
-  composite: 45.8
+  composite: 44.4
   coverage:
     artifact_dirs: 29
-    catalog_earned: 57.5
+    catalog_earned: 54.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.5
+    catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 35.5
     contract_governance: 47.0
-    contract_quality: 63.0
+    contract_quality: 59.6
     developer_ergonomics: 54.2
-    discoverability: 68.5
+    discoverability: 63.0
     operational_transparency: 2.6
   previous_composite: 45.8
   provenance:
@@ -414,11 +684,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 58
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -57,7 +57,12 @@ apis:
   description: The Mcp API from Seamless.AI — 1 operation(s) for mcp.
   name: Seamless.AI MCP API
   slug: seamless-ai-mcp-api
-artifact_total: 28
+- baseURL: https://api.seamless.ai/api/client/v1
+  baseurl_source: declared
+  description: The OAuth API from Seamless.AI — 1 operation(s) for oauth.
+  name: Seamless.AI O Auth API
+  slug: seamless-ai-oauth-api
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Seamless Ai Webhooks
@@ -392,7 +397,7 @@ modified: '2026-08-14'
 name: Seamless.AI
 nav: Providers
 network: true
-overview: 'Seamless.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Public API and MCP API. Tagged areas include B2B, Contact Data, Sales Intelligence, Prospecting, and Lead Generation.
+overview: 'Seamless.AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public API, MCP API, and O Auth API. Tagged areas include B2B, Contact Data, Sales Intelligence, Prospecting, and Lead Generation.
 
 
   The Seamless.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -403,7 +408,7 @@ plans:
 - name: Seamless Ai Plans Pricing
   plan_count: 3
   slug: seamless-ai-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Seamless Ai Rate Limits
@@ -437,7 +442,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.2
+  composite: 65.0
   coverage:
     artifact_dirs: 31
     catalog_earned: 77.5
@@ -445,11 +450,11 @@ score:
     catalog_gap: 37.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 71.1
+    contract_quality: 66.4
     developer_ergonomics: 65.5
     discoverability: 75.9
     operational_transparency: 34.2
@@ -465,7 +470,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

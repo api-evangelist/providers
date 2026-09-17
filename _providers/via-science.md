@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'VIA''s OpenID Connect / OAuth 2.0 identity layer, operated on a VIA-run Keycloak server. It is the only machine-readable contract VIA publishes: each product realm serves an anonymous OIDC discovery do'
@@ -165,7 +165,7 @@ plans:
 - name: Via Science Plans Pricing
   plan_count: 3
   slug: via-science-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Via Science Rate Limits
@@ -198,7 +198,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

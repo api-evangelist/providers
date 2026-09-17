@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -43,16 +43,6 @@ agentic_access:
   summary_line: 32 operations · 18 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- baseURL_template: https://{kubernetes-api-server}
-  baseurl_source: spec_template
-  description: Operations for managing DataSource resources. A DataSource references an existing DataVolume or VolumeSnapshot as a source for cloning into new DataVolumes.
-  name: KubeVirt DataSources API
-  slug: kubevirt-datasources-api
-- baseURL_template: https://{kubernetes-api-server}
-  baseurl_source: spec_template
-  description: Operations for managing DataVolume resources. A DataVolume is a managed PersistentVolumeClaim with an integrated import/clone pipeline that automatically populates the volume from a specified source.
-  name: KubeVirt DataVolumes API
-  slug: kubevirt-datavolumes-api
 - baseURL_template: https://{kubernetes-api-server}
   baseurl_source: spec_template
   description: Operations for managing StorageProfile resources. StorageProfiles describe the capabilities of a StorageClass and provide default clone and access mode strategies.
@@ -70,11 +60,6 @@ apis:
   slug: kubevirt-virtualmachineinstances-api
 - baseURL_template: https://{kubernetes-api-server}
   baseurl_source: spec_template
-  description: Operations for managing VirtualMachine (VM) resources. A VirtualMachine defines the desired state and configuration of a virtual machine, providing lifecycle management and persistence across restarts
-  name: KubeVirt VirtualMachines API
-  slug: kubevirt-virtualmachines-api
-- baseURL_template: https://{kubernetes-api-server}
-  baseurl_source: spec_template
   description: Subresource endpoints for accessing VM consoles via VNC, serial console, and USB redirection.
   name: KubeVirt VMConsole API
   slug: kubevirt-vmconsole-api
@@ -83,6 +68,21 @@ apis:
   description: Subresource operations for VM lifecycle management including start, stop, pause, unpause, restart, migrate, and adding/removing volumes.
   name: KubeVirt VMLifecycle API
   slug: kubevirt-vmlifecycle-api
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing DataSource resources. A DataSource references an existing DataVolume or VolumeSnapshot as a source for cloning into new DataVolumes.
+  name: KubeVirt Data Sources API
+  slug: kubevirt-data-sources-api
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing DataVolume resources. A DataVolume is a managed PersistentVolumeClaim with an integrated import/clone pipeline that automatically populates the volume from a specified source.
+  name: KubeVirt Data Volumes API
+  slug: kubevirt-data-volumes-api
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing VirtualMachine (VM) resources. A VirtualMachine defines the desired state and configuration of a virtual machine, providing lifecycle management and persistence across restarts
+  name: KubeVirt Virtual Machines API
+  slug: kubevirt-virtual-machines-api
 artifact_total: 27
 collections:
 - collection_type: open
@@ -208,7 +208,7 @@ modified: '2026-05-19'
 name: KubeVirt
 nav: Providers
 network: true
-overview: 'KubeVirt publishes 8 APIs on the [APIs.io](https://apis.io/) network, including DataSources API, DataVolumes API, StorageProfiles API, and 5 more. Tagged areas include Cloud-Native, Incubating, Kubernetes, Migration, and Virtual Machines.
+overview: 'KubeVirt publishes 8 APIs on the [APIs.io](https://apis.io/) network, including StorageProfiles API, VirtualMachineInstanceMigrations API, VirtualMachineInstances API, and 5 more. Tagged areas include Cloud-Native, Incubating, Kubernetes, Migration, and Virtual Machines.
 
 
   The KubeVirt catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -219,7 +219,7 @@ plans:
 - name: Kubevirt Plans Pricing
   plan_count: 3
   slug: kubevirt-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Kubevirt Rate Limits
@@ -265,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

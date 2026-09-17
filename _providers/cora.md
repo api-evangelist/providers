@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Cora''s transactional banking API for Direct Integration: registered boleto and carnê (installment) issuance, Pix QR codes, account data, balance and statement queries, payment and transfer initiation '
@@ -158,7 +158,7 @@ overview: 'Cora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cora''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 15 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: thin
   composite: 35.5
@@ -194,7 +194,7 @@ score:
     regime_id: banking_open_finance
     score: 34.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

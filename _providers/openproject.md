@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -160,11 +160,6 @@ apis:
   description: Notifications are created through notifiable actions in OpenProject. Notifications are triggered by actions carried out in the system by users, e.g. editing a work package, but can also be send out be
   name: OpenProject Notifications API
   slug: openproject-notifications-api
-- baseURL: https://community.openproject.org/api/v3
-  baseurl_source: declared
-  description: TBD
-  name: OpenProject OAuth 2 API
-  slug: openproject-oauth-2-api
 - baseURL: https://community.openproject.org/api/v3
   baseurl_source: declared
   description: Portfolios are one of the types of [workspaces](https://www.openproject.org/docs/api/endpoints/workspaces) in OpenProject structuring the information (e.g. work packages, wikis) into smaller sets. The
@@ -302,11 +297,6 @@ apis:
   slug: openproject-user-working-times-api
 - baseURL: https://community.openproject.org/api/v3
   baseurl_source: declared
-  description: 'The user preferences endpoints return collections or single entities of type `UserPreferences`. The following tables list the different properties of `UserPreferences` entities. ## Linked Properties |'
-  name: OpenProject UserPreferences API
-  slug: openproject-userpreferences-api
-- baseURL: https://community.openproject.org/api/v3
-  baseurl_source: declared
   description: 'The users endpoints return collections or single entities of type `User`. The following tables list the different properties of `User` entities. ## Actions | Link | Description | Condition | |:-------'
   name: OpenProject Users API
   slug: openproject-users-api
@@ -342,11 +332,6 @@ apis:
   slug: openproject-work-schedule-api
 - baseURL: https://community.openproject.org/api/v3
   baseurl_source: declared
-  description: The WorkPackages API from OpenProject — 1 operation(s) for workpackages.
-  name: OpenProject WorkPackages API
-  slug: openproject-workpackages-api
-- baseURL: https://community.openproject.org/api/v3
-  baseurl_source: declared
   description: The Workspace API from OpenProject — 1 operation(s) for workspace.
   name: OpenProject Workspace API
   slug: openproject-workspace-api
@@ -355,7 +340,17 @@ apis:
   description: Workspaces are containers for resources to be worked on and people with sets of permissions that work on the former. There is no actual workspace resource in OpenProject. Rather, it is the generic ter
   name: OpenProject Workspaces API
   slug: openproject-workspaces-api
-artifact_total: 132
+- baseURL: https://community.openproject.org/api/v3
+  baseurl_source: declared
+  description: TBD
+  name: OpenProject O Auth2 API
+  slug: openproject-oauth2-api
+- baseURL: https://community.openproject.org/api/v3
+  baseurl_source: declared
+  description: The user preferences endpoints return collections or single entities of type `UserPreferences`.
+  name: OpenProject User Preferences API
+  slug: openproject-user-preferences-api
+artifact_total: 131
 collections:
 - collection_type: open
   name: API Collection
@@ -624,7 +619,7 @@ modified: '2026-05-19'
 name: OpenProject
 nav: Providers
 network: true
-overview: 'OpenProject publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Actions & Capabilities API, Activities API, Attachments API, and 59 more. Tagged areas include Agile, Gantt, Open-Source, Project Management, and Time Tracking.
+overview: 'OpenProject publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Actions & Capabilities API, Activities API, Attachments API, and 58 more. Tagged areas include Agile, Gantt, Open-Source, Project Management, and Time Tracking.
 
 
   OpenProject''s developer surface includes authentication, documentation, GitHub presence, pricing, support, engineering blog, and 9 more developer resources.'
@@ -632,7 +627,7 @@ plans:
 - name: Openproject Plans Pricing
   plan_count: 3
   slug: openproject-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Openproject Rate Limits
@@ -651,7 +646,7 @@ score:
   facets:
     access_clarity: 32.9
     contract_governance: 0.0
-    contract_quality: 60.0
+    contract_quality: 59.9
     developer_ergonomics: 23.8
     discoverability: 53.7
     operational_transparency: 13.2
@@ -662,9 +657,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 62
+      total: 61
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

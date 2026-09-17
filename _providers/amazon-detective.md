@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 29 operations · 28 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- baseURL: https://api.detective.amazonaws.com
-  baseurl_source: declared
-  description: Data source package management operations
-  name: Amazon Detective Datasources API
-  slug: amazon-detective-datasources-api
 - baseURL: https://api.detective.amazonaws.com
   baseurl_source: declared
   description: Behavior graph management operations
@@ -80,6 +75,11 @@ apis:
   description: Resource tagging operations
   name: Amazon Detective Tags API
   slug: amazon-detective-tags-api
+- baseURL: https://api.detective.amazonaws.com
+  baseurl_source: declared
+  description: Data source package management operations
+  name: Amazon Detective Data Sources API
+  slug: amazon-detective-data-sources-api
 arazzos:
 - description: Find a behavior graph's investigations, inspect one, and archive it when it has succeeded.
   name: Amazon Detective Archive a Resolved Investigation
@@ -788,7 +788,7 @@ modified: '2026-05-19'
 name: Amazon Detective
 nav: Providers
 network: true
-overview: 'Amazon Detective publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Datasources API, Graph API, Investigations API, and 4 more. Tagged areas include Forensics, Investigation, and Security.
+overview: 'Amazon Detective publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Graph API, Investigations API, Invitations API, and 4 more. Tagged areas include Forensics, Investigations, and Security.
 
 
   The Amazon Detective catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -799,7 +799,7 @@ plans:
 - name: Amazon Detective Plans Pricing
   plan_count: 3
   slug: amazon-detective-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Detective Rate Limits
@@ -853,7 +853,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -879,7 +879,7 @@ security:
 slug: amazon-detective
 tags:
 - Forensics
-- Investigation
+- Investigations
 - Security
 use_cases:
 - description: Rapidly investigate security incidents by analyzing entity behavior, network activity, and API call patterns across your AWS environment.

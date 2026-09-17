@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -54,11 +54,6 @@ apis:
   description: Create, retrieve, update, and delete analytic objects in your analytic model. You can create, update, and delete one or more analytic objects in an API call. The supported analytic objects are <em>sub
   name: Visier Analytic Objects V2 API
   slug: visier-analyticobjectsv2-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Request an authentication token through basic authentication. With basic authentication, use your username and password to request a secure token. The response returns an ASID token that you can use i
-  name: Visier Basic Authentication API
-  slug: visier-basicauthentication-api
 - baseURL: https://{vanity_name}.api.visier.io
   baseurl_source: declared
   description: Get benchmark values.
@@ -82,28 +77,13 @@ apis:
 - baseURL: https://{vanity_name}.api.visier.io
   baseurl_source: declared
   description: Manage data export connectors and credentials, and run data export connector jobs. Data export connectors send Visier data to external systems, such as Databricks or Snowflake. Use these APIs to manag
-  name: Visier Data Export Connectors API API
+  name: Visier Data Export Connectors API
   slug: visier-dataexportconnectorsapi-api
 - baseURL: https://{vanity_name}.api.visier.io
   baseurl_source: declared
   description: Send raw or untransformed data to Visier. After we receive the data, Visier runs business rules to transform your data into the expected format for the existing mappings. <br>**Note:** <em>This API is
   name: Visier Data Intake API
   slug: visier-dataintake-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Discover the objects that make up your Visier solution and provide detailed information on the object's schema. You can retrieve detailed information about objects in Visier by retrieving a list of al
-  name: Visier Data Model API
-  slug: visier-datamodel-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Query against your data in Visier to get aggregate and list data.
-  name: Visier Data Query API
-  slug: visier-dataquery-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Send data files to Visier. After we receive the data, Visier starts a receiving job and a processing job to process the data.
-  name: Visier Data Upload API
-  slug: visier-dataupload-api
 - baseURL: https://{vanity_name}.api.visier.io
   baseurl_source: declared
   description: Export Visier data version information, such as tables, columns, and file information, in CSV format. <br>**Note:** <em>This API is in **alpha**. While in alpha, APIs may change in a breaking way with
@@ -131,11 +111,6 @@ apis:
   slug: visier-emaildomains-api
 - baseURL: https://{vanity_name}.api.visier.io
   baseurl_source: declared
-  description: Manage the encryption keys in your Visier tenant. Administrating tenants can specify the tenant in which to manage keys using the `TargetTenantID` header. For PGP keys, see `/v1/api/pgp-keys`. <br>**N
-  name: Visier Encryption Keys API
-  slug: visier-encryptionkeys-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
   description: Access over 3,300 standard jobs and get complete details in 27 languages, such as alternative titles, descriptions, and skills.
   name: Visier Jobs Library API
   slug: visier-jobs-library-api
@@ -144,16 +119,6 @@ apis:
   description: Create, retrieve, update, and delete simple and derived metrics in your analytic model. A simple metric is a metric based on one or more analytic objects. A derived metric is a metric based on a simpl
   name: Visier Metrics V2 API
   slug: visier-metricsv2-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Manage the IP addresses that can call Visier APIs. <br>**Note:** <em>This API is in **alpha**. While in alpha, APIs may change in a breaking way without notice; functionality may be removed, and no de
-  name: Visier Network Subnets API
-  slug: visier-networksubnets-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Request an authentication token through OAuth 2.0 with Open ID Connect (OIDC). With OAuth 2.0 with OIDC, use an OAuth 2.0 grant to request an authentication token. The response returns a JSON Web Toke
-  name: Visier O Auth2 API
-  slug: visier-oauth2-api
 - baseURL: https://{vanity_name}.api.visier.io
   baseurl_source: declared
   description: Manage objects in your analytic model.
@@ -241,11 +206,6 @@ apis:
   slug: visier-sources-api
 - baseURL: https://{vanity_name}.api.visier.io
   baseurl_source: declared
-  description: Check the health and status of Visier's platform and services.
-  name: Visier System Status API
-  slug: visier-systemstatus-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
   description: Use row-based management for your source data in Visier. The Table Source API supports direct SQL-based data modifications, eliminating concerns about file management or override behavior. Use the API
   name: Visier Table Source API
   slug: visier-tablesource-api
@@ -259,26 +219,6 @@ apis:
   description: 'Create analytic tenants, deprovision tenants, retrieve tenant information, and update tenant information. Tenants V2 improves upon Tenants V1 in the following ways: * Programmatically assign a Home an'
   name: Visier Tenants V2 API
   slug: visier-tenantsv2-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Manage user groups in Visier, such as creating, updating, and deleting user groups in bulk.
-  name: Visier User Groups V2 API
-  slug: visier-usergroupsv2-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Manage users within an organization, such as assigning permissions to users and retrieving user permission assignments and application logs. <br>**Tip:** Visier recommends that administrating tenant u
-  name: Visier Users V1 API
-  slug: visier-usersv1-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Manage users in bulk, such as creating, updating, and deleting many users. <br>**Tip:** Visier recommends that administrating tenant users focus primarily on managing users at the administrating tenan
-  name: Visier Users V2 API
-  slug: visier-usersv2-api
-- baseURL: https://{vanity_name}.api.visier.io
-  baseurl_source: declared
-  description: Manage users within an organization. Users V3 offers the ability to update or insert (upsert) a user.
-  name: Visier Users V3 API
-  slug: visier-usersv3-api
 - baseURL: https://{vanity_name}.api.visier.io
   baseurl_source: declared
   description: 'Manage Vee v2 instructions and safeguards for a tenant. Instructions guide Vee''s behavior when responding to queries. Safeguards prevent Vee from responding to certain types of queries. <br>**Note:** '
@@ -299,6 +239,66 @@ apis:
   description: 'Create, manage, and retrieve webhook definitions. Use webhooks to register your own HTTPS endpoints with Visier and listen for specific events. When these events occur, Visier sends an API request to '
   name: Visier Webhooks API
   slug: visier-webhooks-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Request an authentication token through OAuth 2.0 with Open ID Connect (OIDC). With OAuth 2.0 with OIDC, use an OAuth 2.0 grant to request an authentication token. The response returns a JSON Web Toke
+  name: Visier O Auth2 API
+  slug: visier-oauth2-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Request an authentication token through basic authentication. With basic authentication, use your username and password to request a secure token. The response returns an ASID token that you can use i
+  name: Visier Basic Authentication API
+  slug: visier-basic-authentication-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Discover the objects that make up your Visier solution and provide detailed information on the object's schema. You can retrieve detailed information about objects in Visier by retrieving a list of al
+  name: Visier Data Model API
+  slug: visier-data-model-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Query against your data in Visier to get aggregate and list data.
+  name: Visier Data Query API
+  slug: visier-data-query-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Send data files to Visier. After we receive the data, Visier starts a receiving job and a processing job to process the data.
+  name: Visier Data Upload API
+  slug: visier-data-upload-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: 'Manage the encryption keys in your Visier tenant. Administrating tenants can specify the tenant in which to manage keys using the `TargetTenantID` header. For PGP keys, see `/v1/api/pgp-keys`. **Note:'
+  name: Visier Encryption Keys API
+  slug: visier-encryption-keys-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Manage the IP addresses that can call Visier APIs. **Note:** This API is in **alpha**. While in alpha, APIs may change in a breaking way without notice; functionality may be removed, and no deprecatio
+  name: Visier Network Subnets API
+  slug: visier-network-subnets-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Check the health and status of Visier's platform and services.
+  name: Visier System Status API
+  slug: visier-system-status-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Manage user groups in Visier, such as creating, updating, and deleting user groups in bulk.
+  name: Visier User Groups V2 API
+  slug: visier-user-groups-v2-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Manage users within an organization, such as assigning permissions to users and retrieving user permission assignments and application logs. **Tip:** Visier recommends that administrating tenant users
+  name: Visier Users V1 API
+  slug: visier-users-v1-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Manage users in bulk, such as creating, updating, and deleting many users. **Tip:** Visier recommends that administrating tenant users focus primarily on managing users at the administrating tenant le
+  name: Visier Users V2 API
+  slug: visier-users-v2-api
+- baseURL: https://{vanity_name}.app.visier.com/visier-query-mcp
+  baseurl_source: declared
+  description: Manage users within an organization. Users V3 offers the ability to update or insert (upsert) a user.
+  name: Visier Users V3 API
+  slug: visier-users-v3-api
 artifact_total: 111
 asyncapis:
 - description: ''
@@ -651,18 +651,18 @@ mcp_servers:
 - description: ''
   name: Visier Query MCP Server
   slug: visier-query-mcp-server
-modified: '2026-08-02'
+modified: '2026-09-16'
 name: Visier
 nav: Providers
 network: true
-overview: 'Visier publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Analytic Objects V2 API, Basic Authentication API, Benchmarks API, and 47 more. Tagged areas include Company, People Analytics, Workforce Analytics, Human Resources, and HR Technology.
+overview: 'Visier publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Analytic Objects V2 API, Benchmarks API, Concepts V2 API, and 47 more. Tagged areas include Company, People Analytics, Workforce Analytics, Human Resources, and HR Technology.
 
 
   The Visier catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Visier''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 33 more developer resources.'
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Visier Rate Limits
@@ -674,21 +674,21 @@ scopes:
   summary_line: 2 scopes · authorizationCode/password
 score:
   band: strong
-  composite: 61.3
+  composite: 59.4
   coverage:
     artifact_dirs: 25
-    catalog_earned: 45.0
+    catalog_earned: 35.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 56.2
     developer_ergonomics: 82.7
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 76.3
   previous_composite: 61.3
   provenance:
@@ -702,7 +702,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

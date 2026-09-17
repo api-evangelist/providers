@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Auto-generated REST API built on top of any SQL database schema. Provides full CRUD operations on all collections, authentication endpoints, file management, user and role management, and system confi
@@ -155,7 +155,7 @@ overview: 'Directus publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Directus'' developer surface includes documentation, engineering blog, pricing, getting-started guide, API reference, YouTube channel, sandbox, and 16 more developer resources.'
-random_paper: 6
+random_paper: 9
 score:
   band: emerging
   composite: 25.0
@@ -176,7 +176,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

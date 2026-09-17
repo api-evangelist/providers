@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
 - baseURL: https://wafv2.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The AWS WAFV2 API API from AWS WAF — 1 operation(s) for aws wafv2 api.
-  name: AWS WAF AWS WAFV2 API API
+  name: AWS WAF AWS WAFV2 API
   slug: aws-waf-aws-wafv2-api-api
 artifact_total: 11
 collections:
@@ -117,15 +117,15 @@ graphqls:
   slug: aws-waf-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-waf.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: AWS WAF
 nav: Providers
 network: true
-overview: 'AWS WAF publishes 1 API on the [APIs.io](https://apis.io/) network: AWS WAFV2 API API. Tagged areas include Security, Web Application Firewall, DDoS Protection, Bot Management, and Edge Security.
+overview: 'AWS WAF publishes 1 API on the [APIs.io](https://apis.io/) network: AWS WAFV2 API. Tagged areas include Security, Web Application Firewall, DDoS Protection, Bot Management, and Edge Security.
 
 
   AWS WAF''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 1
+random_paper: 12
 score:
   band: thin
   composite: 31.5
@@ -153,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

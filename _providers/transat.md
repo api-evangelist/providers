@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The direct-connect flight shopping, booking, payment and servicing API that Air Transat publishes to OTA and technology partners under its NDC programme. The only technical contract Transat publishes '
@@ -161,11 +161,11 @@ modified: '2026-07-28'
 name: Transat
 nav: Providers
 network: true
-overview: 'Transat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airline, and Distribution.
+overview: 'Transat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airlines, and Distribution.
 
 
   Transat''s developer surface includes authentication, changelog, documentation, support, legal docs, engineering blog, and 19 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: emerging
   composite: 22.6
@@ -195,7 +195,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -216,7 +216,7 @@ tags:
 - Travel
 - Canada
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - NDC
 - Booking

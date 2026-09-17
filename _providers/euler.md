@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -101,11 +101,6 @@ apis:
   slug: euler-feeflow-api
 - baseURL: https://v3.euler.finance/v3
   baseurl_source: declared
-  description: Controlled GraphQL passthrough endpoints for indexer-backed data exploration and compatibility workflows.
-  name: Euler Finance GraphQL API
-  slug: euler-graphql-api
-- baseURL: https://v3.euler.finance/v3
-  baseurl_source: declared
   description: Liveness, readiness, and dashboard-friendly platform status checks. Use these for operational monitoring, not for reconstructing full portfolio state.
   name: Euler Finance Health API
   slug: euler-health-api
@@ -159,6 +154,11 @@ apis:
   description: Canonical vault resources, vault history, holders, borrowers, and open-interest views. In v3, vault detail is decomposed into focused endpoints instead of one large legacy response.
   name: Euler Finance Vaults API
   slug: euler-vaults-api
+- baseURL: https://app.euler.finance/api/v1
+  baseurl_source: declared
+  description: Controlled GraphQL passthrough endpoints for indexer-backed data exploration and compatibility workflows.
+  name: Euler Finance Graph QL API
+  slug: euler-graph-ql-api
 artifact_total: 255
 collections:
 - collection_type: open
@@ -935,7 +935,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 16
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Euler V3 Api
@@ -978,7 +978,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

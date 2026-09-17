@@ -32,7 +32,7 @@ name: Intarcia Therapeutics
 nav: Providers
 network: true
 overview: Intarcia Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Biotechnology, Pharmaceuticals, and Drug Delivery.
-random_paper: 1
+random_paper: 7
 slug: intarcia-therapeutics
 tags:
 - Company

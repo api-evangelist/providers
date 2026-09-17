@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -98,6 +98,10 @@ collections:
   name: Gett Business Authentication Webhooks API
   slug: open-gett-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://gett.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/agentic-access/gett-agentic-access.yml
   title: ''
@@ -181,7 +185,7 @@ jsonld:
   property_count: 10
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Gett
 nav: Providers
 network: true
@@ -191,12 +195,12 @@ overview: 'Gett publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
   The Gett catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gett''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Gett''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 16
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -239,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -265,4 +269,5 @@ tags:
 - Ride Booking
 - Business Travel
 - Expense Management
+website: https://gett.com
 ---

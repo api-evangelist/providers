@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -198,7 +198,7 @@ plans:
 - name: Nascar Plans Pricing
   plan_count: 3
   slug: nascar-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Nascar Rate Limits
@@ -231,7 +231,7 @@ score:
       total: 13
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -249,6 +249,6 @@ tags:
 - Stock Cars
 - Motorsports
 - Race Results
-- Schedules
+- Schedule
 website: https://www.nascar.com/
 ---

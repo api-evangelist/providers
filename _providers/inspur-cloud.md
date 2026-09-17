@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 18
 apis:
 - description: 'REST API for Inspur Cloud''s elastic compute service: create, start, stop, reboot, resize, rebuild and delete cloud servers, manage private images, security-group membership, attached volumes, SSH key '
@@ -241,7 +241,7 @@ plans:
 - name: Inspur Cloud Plans Pricing
   plan_count: 0
   slug: inspur-cloud-plans-pricing
-random_paper: 14
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Inspur Cloud Rate Limits
@@ -276,7 +276,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Defakto control-plane API. A gRPC service surface of sixteen versioned services covering trust domains, clusters, realms, workloads, access policy, service accounts and sessions, agent and provide
@@ -194,7 +194,7 @@ created: '2026-08-12'
 description: 'Defakto (formerly SPIRL) is a non-human identity (NHI) security company that issues short-lived, cryptographically attested identities to workloads, services, CI/CD pipelines and AI agents in place of static secrets, API keys and long-lived service accounts. The platform is built on SPIFFE and ships two products: Mint, which runs Trust Domain Servers and Agents that mint X.509-SVIDs, JWT-SVIDs and proof-of-possession WIT-SVIDs for Kubernetes, Linux, Docker and serverless workloads under a dozen attestation methods; and Ledger, which discovers, risk-scores and eradicates static secrets across AWS, Azure, GCP, Kubernetes, Anthropic, OpenAI, Bedrock AgentCore and Gemini. The control plane is driven by a gRPC management API and the spirlctl CLI, with a Go SDK, an OpenTofu/Terraform provider, workload identity federation into AWS/Azure/GCP, and OCSF 1.8.0 audit logging.'
 image: https://www.defakto.security/wp-content/uploads/2025/09/defakto-logo.svg
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: Defakto Security
 nav: Providers
 network: true
@@ -209,7 +209,7 @@ plans:
 - name: Defakto Security Plans Pricing
   plan_count: 0
   slug: defakto-security-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Defakto Security Rate Limits
@@ -237,7 +237,7 @@ score:
     conformance: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -274,5 +274,6 @@ tags:
 - Machine Identity
 - Agentic AI
 - Developer Tools
+- Identity Federation
 website: https://www.defakto.security/
 ---

@@ -33,16 +33,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://www.davita.com/wp-json
   baseurl_source: declared
-  description: 'The public, unauthenticated REST API that DaVita''s own web platform serves at https://www.davita.com/wp-json/. It carries a first-party davita/v1 namespace — a dialysis center locator, a Kidney Smart '
-  name: DaVita Web REST API
-  slug: davita-web-rest-api
-artifact_total: 5
+  description: DaVita first-party REST namespace (davita/v1)
+  name: DaVita Davita V1 API
+  slug: davita-davita-v1-api
+- baseURL: https://www.davita.com/wp-json
+  baseurl_source: declared
+  description: WordPress core REST namespace exposing DaVita dv-* content types
+  name: DaVita Wp V2 API
+  slug: davita-wp-v2-api
+artifact_total: 6
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/overlays/davita-wp-rest-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/davita-wp-rest-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: operate
   title: ''
   type: Press Release Archive
@@ -134,15 +149,15 @@ modified: '2026-09-05'
 name: DaVita
 nav: Providers
 network: true
-overview: 'DaVita publishes 1 API on the [APIs.io](https://apis.io/) network: Web REST API. Tagged areas include Chronic Kidney Disease, Dialysis, Fortune 500, Healthcare, and Home Dialysis.
+overview: 'DaVita publishes 2 APIs on the [APIs.io](https://apis.io/) network: Davita V1 API and Wp V2 API. Tagged areas include Chronic Kidney Disease, Dialysis, Fortune 500, Healthcare, and Home Dialysis.
 
 
-  DaVita''s developer surface includes authentication, engineering blog, support, and 17 more developer resources.'
+  DaVita''s developer surface includes authentication, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Davita Plans Pricing
   plan_count: 0
   slug: davita-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Davita Rate Limits
@@ -172,7 +187,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     mcp: derived
     skills: derived
   regulatory:
@@ -182,7 +197,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

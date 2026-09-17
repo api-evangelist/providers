@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 4
@@ -54,11 +54,6 @@ apis:
   description: The Access Keys API from Dream Sports — 2 operation(s) for access keys.
   name: Dream Sports Access Keys API
   slug: dream-sports-access-keys-api
-- baseURL: https://auth.dream11.com/
-  baseurl_source: declared
-  description: The AccessKeys API from Dream Sports — 1 operation(s) for accesskeys.
-  name: Dream Sports Access Keys API
-  slug: dream-sports-accesskeys-api
 - baseURL: https://auth.dream11.com/
   baseurl_source: declared
   description: The Account API from Dream Sports — 4 operation(s) for account.
@@ -176,11 +171,6 @@ apis:
   slug: dream-sports-health-api
 - baseURL: https://auth.dream11.com/
   baseurl_source: declared
-  description: The Healthcheck API from Dream Sports — 2 operation(s) for healthcheck.
-  name: Dream Sports Healthcheck API
-  slug: dream-sports-healthcheck-api
-- baseURL: https://auth.dream11.com/
-  baseurl_source: declared
   description: Journey behaviour tag management — define and manage behaviour tags linked to journeys
   name: Dream Sports Journey Behaviour API
   slug: dream-sports-journey-behaviour-api
@@ -244,11 +234,6 @@ apis:
   description: The OIDC Scope Management API from Dream Sports — 2 operation(s) for oidc scope management.
   name: Dream Sports OIDC Scope Management API
   slug: dream-sports-oidc-scope-management-api
-- baseURL: https://auth.dream11.com/
-  baseurl_source: declared
-  description: The Openapi API from Dream Sports — 1 operation(s) for openapi.
-  name: Dream Sports Openapi API
-  slug: dream-sports-openapi-api
 - baseURL: https://auth.dream11.com/
   baseurl_source: declared
   description: The Openapi.{type} API from Dream Sports — 1 operation(s) for openapi.{type}.
@@ -354,7 +339,17 @@ apis:
   description: User management endpoints
   name: Dream Sports Users API
   slug: dream-sports-users-api
-artifact_total: 129
+- baseURL: https://auth.dream11.com/
+  baseurl_source: declared
+  description: The Health Check API from Dream Sports — 2 operation(s) for health check.
+  name: Dream Sports Health Check API
+  slug: dream-sports-health-check-api
+- baseURL: https://auth.dream11.com/
+  baseurl_source: declared
+  description: The Open API API from Dream Sports — 1 operation(s) for open api.
+  name: Dream Sports Open API
+  slug: dream-sports-open-api-api
+artifact_total: 128
 asyncapis:
 - description: ''
   name: Dream Sports Webhooks
@@ -716,14 +711,14 @@ modified: '2026-08-04'
 name: Dream Sports
 nav: Providers
 network: true
-overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Account API, and 59 more. Tagged areas include Company, Sports Technology, Fantasy Sports, Open-Source, and Developer Tools.
+overview: 'Dream Sports publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Account API, Acquisition API, and 57 more. Tagged areas include Company, Sports Technology, Fantasy Sports, Open-Source, and Developer Tools.
 
 
   The Dream Sports catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Dream Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 28 more developer resources.'
-random_paper: 10
+random_paper: 17
 scopes:
 - name: Dream Sports Scopes
   scope_count: 7
@@ -731,7 +726,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.0
+  composite: 47.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 32.0
@@ -739,11 +734,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 59.6
+    contract_quality: 58.2
     developer_ergonomics: 73.2
     discoverability: 66.7
     operational_transparency: 42.1
@@ -759,14 +754,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 17.9
       derived: 0
       marker_coverage: 0.0
-      total: 61
+      total: 60
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

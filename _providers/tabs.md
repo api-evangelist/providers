@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://integrators.prod.api.tabsplatform.com
@@ -154,42 +154,22 @@ apis:
 - description: REST API for the Tabs revenue automation platform that exposes the core data model of customers, contracts, items, revenue categories, obligations, invoices, payments, and usage events. The API lets f
   name: Tabs Platform API
   slug: tabs-platform-api
-- baseURL: https://api.tabsplatform.com
-  baseurl_source: spec
-  description: The BillingTerms API from Tabs — 3 operation(s) for billingterms.
-  name: Tabs BillingTerms API
-  slug: tabs-fi-billingterms-api
-- baseURL: https://api.tabsplatform.com
-  baseurl_source: spec
-  description: The CreditMemos API from Tabs — 3 operation(s) for creditmemos.
-  name: Tabs CreditMemos API
-  slug: tabs-fi-creditmemos-api
-- baseURL: https://api.tabsplatform.com
-  baseurl_source: spec
-  description: The CustomFields API from Tabs — 1 operation(s) for customfields.
-  name: Tabs CustomFields API
-  slug: tabs-fi-customfields-api
-- baseURL: https://api.tabsplatform.com
-  baseurl_source: spec
-  description: The EventTypes API from Tabs — 2 operation(s) for eventtypes.
-  name: Tabs EventTypes API
-  slug: tabs-fi-eventtypes-api
-- baseURL: https://api.tabsplatform.com
-  baseurl_source: spec
-  description: The PerformanceObligations API from Tabs — 4 operation(s) for performanceobligations.
-  name: Tabs PerformanceObligations API
-  slug: tabs-fi-performanceobligations-api
-- baseURL: https://api.tabsplatform.com
-  baseurl_source: spec
-  description: The System API from Tabs — 4 operation(s) for system.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The System API from Tabs — 1 operation(s) for system.
   name: Tabs System API
-  slug: tabs-fi-system-api
-- baseURL: https://api.tabsplatform.com
-  baseurl_source: spec
-  description: The UsageEvents API from Tabs — 2 operation(s) for usageevents.
-  name: Tabs UsageEvents API
-  slug: tabs-fi-usageevents-api
-artifact_total: 60
+  slug: tabs-system-api
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Event Types API from Tabs — 2 operation(s) for event types.
+  name: Tabs Event Types API
+  slug: tabs-event-types-api
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Usage Events API from Tabs — 2 operation(s) for usage events.
+  name: Tabs Usage Events API
+  slug: tabs-usage-events-api
+artifact_total: 56
 collections:
 - collection_type: open
   name: API Collection
@@ -429,18 +409,18 @@ modified: '2026-07-21'
 name: Tabs
 nav: Providers
 network: true
-overview: 'Tabs publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Billing Terms API, Categories API, Classes (QBO only) API, and 27 more. Tagged areas include Billing, Revenue Automation, Accounts Receivable, Revenue Recognition, and Usage-Based Billing.
+overview: 'Tabs publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Billing Terms API, Categories API, Classes (QBO only) API, and 23 more. Tagged areas include Billing, Revenue Automation, Accounts Receivable, Revenue Recognition, and Usage-Based Billing.
 
 
   Tabs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 27 more developer resources.'
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Tabs Rate Limits
   slug: tabs-rate-limits
 score:
   band: developing
-  composite: 50.8
+  composite: 50.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -448,11 +428,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 46.4
+    contract_quality: 46.2
     developer_ergonomics: 58.9
     discoverability: 66.7
     operational_transparency: 39.5
@@ -460,14 +440,14 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 76.7
+      callable: 88.5
       derived: 2
-      marker_coverage: 76.7
-      total: 30
+      marker_coverage: 88.5
+      total: 26
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

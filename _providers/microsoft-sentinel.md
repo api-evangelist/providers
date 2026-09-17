@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,19 +47,9 @@ api_count: 5
 apis:
 - baseURL: https://management.azure.com/
   baseurl_source: declared
-  description: The AlertRules API from Microsoft Sentinel — 2 operation(s) for alertrules.
-  name: Microsoft Sentinel AlertRules API
-  slug: microsoft-sentinel-alertrules-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
   description: The Bookmarks API from Microsoft Sentinel — 1 operation(s) for bookmarks.
   name: Microsoft Sentinel Bookmarks API
   slug: microsoft-sentinel-bookmarks-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
-  description: The DataConnectors API from Microsoft Sentinel — 1 operation(s) for dataconnectors.
-  name: Microsoft Sentinel DataConnectors API
-  slug: microsoft-sentinel-dataconnectors-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: The Incidents API from Microsoft Sentinel — 2 operation(s) for incidents.
@@ -67,9 +57,19 @@ apis:
   slug: microsoft-sentinel-incidents-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
-  description: The ThreatIntelligence API from Microsoft Sentinel — 1 operation(s) for threatintelligence.
-  name: Microsoft Sentinel ThreatIntelligence API
-  slug: microsoft-sentinel-threatintelligence-api
+  description: The Alert Rules API from Microsoft Sentinel — 2 operation(s) for alert rules.
+  name: Microsoft Sentinel Alert Rules API
+  slug: microsoft-sentinel-alert-rules-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Data Connectors API from Microsoft Sentinel — 1 operation(s) for data connectors.
+  name: Microsoft Sentinel Data Connectors API
+  slug: microsoft-sentinel-data-connectors-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Threat Intelligence API from Microsoft Sentinel — 1 operation(s) for threat intelligence.
+  name: Microsoft Sentinel Threat Intelligence API
+  slug: microsoft-sentinel-threat-intelligence-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -174,7 +174,7 @@ modified: '2026-05-19'
 name: Microsoft Sentinel
 nav: Providers
 network: true
-overview: 'Microsoft Sentinel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AlertRules API, Bookmarks API, DataConnectors API, and 2 more. Tagged areas include Microsoft, Security, SIEM, SOAR, and Threat Detection.
+overview: 'Microsoft Sentinel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bookmarks API, Incidents API, Alert Rules API, and 2 more. Tagged areas include Microsoft, Security, SIEM, SOAR, and Threat Detection.
 
 
   Microsoft Sentinel''s developer surface includes authentication, developer portal, documentation, pricing, getting-started guide, support, engineering blog, and 9 more developer resources.'
@@ -182,7 +182,7 @@ plans:
 - name: Microsoft Sentinel Plans Pricing
   plan_count: 3
   slug: microsoft-sentinel-plans-pricing
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Microsoft Sentinel Rate Limits
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -29,7 +29,7 @@ name: Baker Technologies
 nav: Providers
 network: true
 overview: Baker Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cannabis, CRM, Marketing, and Dispensary.
-random_paper: 19
+random_paper: 20
 screenshot: https://raw.githubusercontent.com/api-evangelist/baker-technologies/refs/heads/main/screenshots/baker-technologies-2026-07-25T202253.png
 security:
 - kind: domain-security

@@ -31,7 +31,7 @@ name: Vesttoo
 nav: Providers
 network: true
 overview: Vesttoo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Reinsurance, and Insurance-Linked Securities.
-random_paper: 11
+random_paper: 18
 security:
 - kind: domain-security
   name: Vesttoo Domain Security

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
@@ -248,7 +248,7 @@ plans:
 - name: Cosmoplat Plans Pricing
   plan_count: 0
   slug: cosmoplat-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Cosmoplat Rate Limits
@@ -289,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

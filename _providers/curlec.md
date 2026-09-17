@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -569,6 +569,10 @@ common:
   title: ''
   type: Deprecation
   url: https://curlec.com/docs/api/changelog/
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:hello@curlec.com
 created: '2026-07-17'
 description: Curlec (Razorpay Curlec) is a Malaysian online payment solution and part of Razorpay, the RBI-authorised full-stack payment platform. Curlec lets businesses in Malaysia accept one-time and recurring payments through a Payment Gateway, Payment Links, Payment Pages, Payment Buttons, hosted Checkout, DuitNow real-time payments, FPX online banking, cards and e-wallets, plus Subscriptions and direct-debit recurring billing. It runs on the shared Razorpay REST API (https://api.razorpay.com/v1) — a RESTful, JSON, Basic-Auth API covering Orders, Payments, Refunds, Settlements, Disputes, Customers, Invoices, Plans, Subscriptions, Payment Links, QR Codes, Virtual Accounts, Transfers/Route, and the RazorpayX business-banking and payouts suite. Curlec exposes official server SDKs, webhooks, a sandbox test mode, a public Postman workspace, and an official hosted MCP server for AI-agent access.
 image: https://curlec.com/favicon.ico
@@ -587,8 +591,8 @@ overview: 'Curlec publishes 30 APIs on the [APIs.io](https://apis.io/) network, 
   The Curlec catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 8
+  Curlec''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 35 more developer resources.'
+random_paper: 0
 scopes:
 - name: Curlec Scopes
   scope_count: 1
@@ -635,7 +639,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

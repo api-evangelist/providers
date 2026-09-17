@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Bearer-authenticated REST/JSON API for listing brands and retrieving full brand detail including color palettes, website, social links, and metadata.
@@ -167,7 +167,7 @@ plans:
 - name: Motomarks Plans Pricing
   plan_count: 4
   slug: motomarks-plans-pricing
-random_paper: 2
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Motomarks Rate Limits
@@ -201,7 +201,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

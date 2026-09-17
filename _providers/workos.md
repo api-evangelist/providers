@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -249,7 +249,7 @@ apis:
 - baseURL: https://api.workos.com
   baseurl_source: declared
   description: A unified interface that simplifies authentication and authorization across customers, partners, and external SaaS tools.
-  name: WorkOS workos-connect API
+  name: WorkOS-connect API
   slug: workos-workos-connect-api
 artifact_total: 348
 collections:
@@ -1427,7 +1427,7 @@ mcp_servers:
 - description: ''
   name: Pipes MCP Server
   slug: pipes-mcp-server
-modified: '2026-05-22'
+modified: '2026-09-16'
 name: WorkOS
 nav: Providers
 network: true
@@ -1442,7 +1442,7 @@ plans:
 - name: Workos Plans Pricing
   plan_count: 7
   slug: workos-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Workos Rate Limits
@@ -1500,7 +1500,7 @@ score:
       total: 41
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1545,5 +1545,6 @@ tags:
 - B2B SaaS
 - Agents
 - MCP
+- Identity Federation
 website: https://workos.com
 ---

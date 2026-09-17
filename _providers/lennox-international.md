@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Community-maintained, reverse-engineered Python library for communicating with Lennox S30, S40, E30, and M30 climate controls via the Lennox cloud or local LAN. Powers the popular Home Assistant integ
@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Lennox International Inc. Profile
   url: https://www.bccresearch.com/company-index/profile/lennox-international-inc?srsltid=AfmBOorRBARnkkRZj2UsZOk6uoXXDrepIdMjx4-APHTr8IL-wATR43Ah
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Lennox International Rate Limits
@@ -133,7 +133,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 14.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

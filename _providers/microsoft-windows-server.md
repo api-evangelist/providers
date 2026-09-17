@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -103,8 +103,8 @@ apis:
 - baseURL: https://localhost
   baseurl_source: declared
   description: Web sites are a core entity of IIS that determine where and how requests will be handled. The web site API allows consumers to create, read, delete, or update their web sites.
-  name: Microsoft Windows Server Web Sites API
-  slug: microsoft-windows-server-web-sites-api
+  name: Microsoft Windows Server Websites API
+  slug: microsoft-windows-server-websites-api
 artifact_total: 171
 collections:
 - collection_type: postman
@@ -610,7 +610,7 @@ modified: '2026-05-19'
 name: Microsoft Windows Server
 nav: Providers
 network: true
-overview: 'Microsoft Windows Server publishes 3 APIs on the [APIs.io](https://apis.io/) network: Application Pools API, Applications API, and Web Sites API. Tagged areas include Data-Center, Enterprise, Infrastructure, Microsoft, and Operating System.
+overview: 'Microsoft Windows Server publishes 3 APIs on the [APIs.io](https://apis.io/) network: Application Pools API, Applications API, and Websites API. Tagged areas include Data-Center, Enterprise, Infrastructure, Microsoft, and Operating System.
 
 
   The Microsoft Windows Server catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -621,7 +621,7 @@ plans:
 - name: Microsoft Windows Server Plans Pricing
   plan_count: 5
   slug: microsoft-windows-server-plans-pricing
-random_paper: 15
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Microsoft Windows Server Rate Limits
@@ -675,7 +675,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

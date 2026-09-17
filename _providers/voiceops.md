@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Live first-party remote Model Context Protocol server operated by VoiceOps. JSON-RPC 2.0 over HTTP (streamable HTTP transport), authenticated with a VoiceOps API key sent in the Authorization header. '
@@ -160,7 +160,7 @@ modified: '2026-08-14'
 name: VoiceOps
 nav: Providers
 network: true
-overview: 'VoiceOps publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Conversation Intelligence, Call Centers, and Sales Coaching.
+overview: 'VoiceOps publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Conversation Intelligence, Call Center, and Sales Coaching.
 
 
   VoiceOps'' developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
@@ -168,7 +168,7 @@ plans:
 - name: Voiceops Plans Pricing
   plan_count: 0
   slug: voiceops-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Voiceops Rate Limits
@@ -201,7 +201,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +230,7 @@ tags:
 - Company
 - Ai Apps
 - Conversation Intelligence
-- Call Centers
+- Call Center
 - Sales Coaching
 - Customer Experience
 - Artificial Intelligence

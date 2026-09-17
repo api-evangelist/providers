@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ modified: '2026-08-08'
 name: Martian
 nav: Providers
 network: true
-overview: 'Martian publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat Completions API, Messages API, and Models API. Tagged areas include Artificial Intelligence, LLM, Model Router, Gateway, and Cost Optimization.
+overview: 'Martian publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat Completions API, Messages API, and Models API. Tagged areas include Artificial Intelligence, LLM, Model Router, Gateways, and Cost Optimization.
 
 
   The Martian catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -228,7 +228,7 @@ plans:
 - name: Martian Ai Plans Pricing
   plan_count: 3
   slug: martian-ai-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Martian Ai Rate Limits
@@ -274,7 +274,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -294,7 +294,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Model Router
-- Gateway
+- Gateways
 - Cost Optimization
 website: https://www.withmartian.com
 ---

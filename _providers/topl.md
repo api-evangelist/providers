@@ -17,6 +17,10 @@ apis:
   slug: apparatus-node
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://topl.tech
 - group: build
   title: ''
   type: GitHubOrganization
@@ -95,19 +99,19 @@ description: 'Topl was an impact-technology company founded in 2017 out of Rice 
   messages, still downloadable from the Buf Schema Registry, plus the published SDKs and container images.'
 image: https://raw.githubusercontent.com/Topl/Knowledge-Base/main/static/img/apparatus-logo.svg
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Topl
 nav: Providers
 network: true
 overview: 'Topl publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Distributed Ledger, gRPC, and Protobuf.
 
 
-  Topl''s developer surface includes documentation, CLI, authentication, changelog, and 11 more developer resources.'
+  Topl''s developer surface includes documentation, CLI, authentication, changelog, and 12 more developer resources.'
 plans:
 - name: Topl Plans Pricing
   plan_count: 0
   slug: topl-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Topl Rate Limits
@@ -132,4 +136,5 @@ tags:
 - Tokenization
 - Wound Down
 - Defunct
+website: https://topl.tech
 ---

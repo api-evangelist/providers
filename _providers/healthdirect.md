@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://api.fhir.nhsd.healthdirect.org.au/v4
@@ -206,7 +206,7 @@ overview: 'Healthdirect Australia publishes 1 API on the [APIs.io](https://apis.
 
 
   Healthdirect Australia''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 5
+random_paper: 11
 score:
   band: thin
   composite: 38.4
@@ -244,7 +244,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

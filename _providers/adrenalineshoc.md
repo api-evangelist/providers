@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -161,7 +161,7 @@ modified: '2026-09-07'
 name: Adrenaline Shoc
 nav: Providers
 network: true
-overview: 'Adrenaline Shoc publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverage, Energy Drinks, Consumer Packaged Goods, and Retail.
+overview: 'Adrenaline Shoc publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Energy Drinks, Consumer Packaged Goods, and Retail.
 
 
   Adrenaline Shoc''s developer surface includes documentation, authentication, support, and 19 more developer resources.'
@@ -169,7 +169,7 @@ plans:
 - name: Adrenalineshoc Plans Pricing
   plan_count: 0
   slug: adrenalineshoc-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Adrenalineshoc Rate Limits
@@ -210,7 +210,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -228,7 +228,7 @@ security:
 slug: adrenalineshoc
 tags:
 - Company
-- Beverage
+- Beverages
 - Energy Drinks
 - Consumer Packaged Goods
 - Retail

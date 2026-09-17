@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://www.lifebiosciences.com/wp-json
@@ -51,11 +51,6 @@ apis:
   description: The Media API from Life Biosciences — 2 operation(s) for media.
   name: Life Biosciences Media API
   slug: life-biosciences-media-api
-- baseURL: https://www.lifebiosciences.com/wp-json
-  baseurl_source: declared
-  description: The oEmbed API from Life Biosciences — 1 operation(s) for oembed.
-  name: Life Biosciences O Embed API
-  slug: life-biosciences-oembed-api
 - baseURL: https://www.lifebiosciences.com/wp-json
   baseurl_source: declared
   description: The Pages API from Life Biosciences — 2 operation(s) for pages.
@@ -76,6 +71,11 @@ apis:
   description: The Taxonomies API from Life Biosciences — 4 operation(s) for taxonomies.
   name: Life Biosciences Taxonomies API
   slug: life-biosciences-taxonomies-api
+- baseURL: https://www.lifebiosciences.com/wp-json
+  baseurl_source: declared
+  description: The o Embed API from Life Biosciences — 1 operation(s) for o embed.
+  name: Life Biosciences o Embed API
+  slug: life-biosciences-o-embed-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -248,7 +248,7 @@ overview: 'Life Biosciences publishes 8 APIs on the [APIs.io](https://apis.io/) 
 
 
   Life Biosciences'' developer surface includes engineering blog, authentication, code examples, and 26 more developer resources.'
-random_paper: 3
+random_paper: 14
 score:
   band: thin
   composite: 39.2
@@ -289,7 +289,7 @@ score:
     regime_id: health
     score: 40.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

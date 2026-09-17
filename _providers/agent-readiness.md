@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 15
 apis:
 - description: An open JSON-RPC protocol that lets AI agents talk to tools, resources, and prompts through a uniform server surface. MCP is the most direct expression of "an API designed for an agent" — every API su
@@ -203,7 +203,7 @@ overview: 'Agent Readiness publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Agent Readiness'' developer surface includes documentation and 9 more developer resources.'
-random_paper: 18
+random_paper: 12
 rules:
 - effective_rule_count: 5
   extends: []
@@ -235,7 +235,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

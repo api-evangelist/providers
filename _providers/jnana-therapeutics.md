@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.jnanatx.com/wp-json
@@ -53,11 +53,6 @@ apis:
   description: Media library (376 attachments at harvest time).
   name: Jnana Therapeutics Media API
   slug: jnana-therapeutics-media-api
-- baseURL: https://www.jnanatx.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for www.jnanatx.com URLs.
-  name: Jnana Therapeutics Oembed API
-  slug: jnana-therapeutics-oembed-api
 - baseURL: https://www.jnanatx.com/wp-json
   baseurl_source: declared
   description: Corporate pages — home, RAPID platform, programs, team, join us, news, contact, privacy policy, terms of use (9 published at harvest time).
@@ -98,6 +93,11 @@ apis:
   description: Author collection (4 records). Anonymously readable, exposing WordPress author display names and slugs. Flagged in conventions/ as an exposure worth reviewing, not a documented product.
   name: Jnana Therapeutics Users API
   slug: jnana-therapeutics-users-api
+- baseURL: https://www.jnanatx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for www.jnanatx.com URLs.
+  name: Jnana Therapeutics o Embed API
+  slug: jnana-therapeutics-o-embed-api
 artifact_total: 16
 common:
 - group: auth
@@ -278,7 +278,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

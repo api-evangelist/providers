@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Mandiant Advantage Threat Intelligence (MATI) API v3 provides programmatic access to Mandiant's threat intelligence, including indicators of compromise, finished intelligence reports, threat actor
@@ -44,6 +44,10 @@ apis:
   slug: mandiant-digital-threat-monitoring-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mandiant.com
 - group: start
   title: ''
   type: DeveloperPortal
@@ -102,15 +106,15 @@ created: '2026-07-17'
 description: Mandiant, now part of Google Cloud, is a threat intelligence and cyber defense company whose Mandiant Advantage platform exposes several authenticated REST APIs documented at docs.mandiant.com. The Threat Intelligence (MATI) API v3 serves indicators, finished intelligence reports, threat actors, malware families, vulnerabilities and campaigns; the Digital Threat Monitoring API surfaces exposed credentials and brand/deep-and-dark-web threats; the Attack Surface Management API inventories an organization's external assets; and the Security Validation (MSV) API drives automated testing of security controls. These APIs authenticate with an API key and secret that is exchanged for a short-lived bearer access token. Mandiant's frontline threat data now also powers Google Threat Intelligence alongside VirusTotal.
 image: https://avatars.githubusercontent.com/mandiant
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Mandiant
 nav: Providers
 network: true
 overview: 'Mandiant publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Threat Intelligence, Cybersecurity, and Incident Response.
 
 
-  Mandiant''s developer surface includes documentation, API reference, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 4
+  Mandiant''s developer surface includes documentation, API reference, engineering blog, authentication, and 9 more developer resources.'
+random_paper: 8
 score:
   band: emerging
   composite: 17.3
@@ -131,7 +135,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 17.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -158,5 +162,5 @@ tags:
 - Vulnerability Intelligence
 - Malware
 - Google Cloud
-website: https://docs.mandiant.com
+website: https://mandiant.com
 ---

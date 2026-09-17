@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,26 +11,58 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.0
-  scored_at: '2026-09-15'
+  score: 34.6
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: Non-custodial USDC payments REST API on Base. Covers one-time payments, verification, subscriptions, merchant-triggered charges, refunds, allowance restore/revoke, and gas sponsorship. Production runs
-  name: P2Flux API
-  slug: p2flux-api
-artifact_total: 6
+- baseURL: https://api.p2flux.com
+  baseurl_source: declared
+  description: Unsigned calldata for the customer's own wallet to send.
+  name: P2Flux API Cancellation API
+  slug: p2flux-api-cancellation-api
+- baseURL: https://api.p2flux.com
+  baseurl_source: declared
+  description: A single payment to a single recipient.
+  name: P2Flux API One-time payments API
+  slug: p2flux-api-one-time-payments-api
+- baseURL: https://api.p2flux.com
+  baseurl_source: declared
+  description: Signed once by the customer, charged by your renewal job.
+  name: P2Flux API Recurring payments API
+  slug: p2flux-api-recurring-payments-api
+- baseURL: https://api.p2flux.com
+  baseurl_source: declared
+  description: A transfer from the merchant's own wallet back to the wallet that paid.
+  name: P2Flux API Refunds API
+  slug: p2flux-api-refunds-api
+- baseURL: https://api.p2flux.com
+  baseurl_source: declared
+  description: Liveness.
+  name: P2Flux API Service API
+  slug: p2flux-api-service-api
+- baseURL: https://api.p2flux.com
+  baseurl_source: declared
+  description: The Subscriptions API from P2Flux API — 1 operation(s) for subscriptions.
+  name: P2Flux API Subscriptions API
+  slug: p2flux-api-subscriptions-api
+artifact_total: 11
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/overlays/p2flux-api-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/p2flux-api-openapi-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/p2flux-api/refs/heads/main/security/p2flux-api-domain-security.yml
   title: ''
@@ -185,22 +217,22 @@ modified: '2026-09-15'
 name: P2Flux API
 nav: Providers
 network: true
-overview: 'P2Flux API publishes 1 API on the [APIs.io](https://apis.io/) network: P2Flux API. Tagged areas include Payments, Payment API, Cryptocurrency, Stablecoins, and USDC.
+overview: 'P2Flux API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cancellation API, One-time payments API, Recurring payments API, and 3 more. Tagged areas include Payments, Payment API, Cryptocurrency, Stablecoins, and USDC.
 
 
-  P2Flux API''s developer surface includes documentation, getting-started guide, API reference, pricing, support, sandbox, authentication, and 24 more developer resources.'
+  P2Flux API''s developer surface includes documentation, getting-started guide, API reference, pricing, support, sandbox, authentication, and 25 more developer resources.'
 plans:
 - name: P2Flux Api Plans Pricing
   plan_count: 0
   slug: p2flux-api-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 13
   name: P2Flux Api Rate Limits
   slug: p2flux-api-rate-limits
 score:
   band: developing
-  composite: 43.5
+  composite: 48.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 46.0
@@ -208,20 +240,22 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 4.6
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 51.6
     developer_ergonomics: 70.8
     discoverability: 70.4
     operational_transparency: 52.6
+  previous_composite: 43.5
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
     mcp: derived
     skills: derived
   regulatory:
@@ -231,7 +265,8 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

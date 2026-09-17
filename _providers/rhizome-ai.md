@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://rhizomeai.com/api
@@ -174,7 +174,7 @@ overview: 'Rhizome Ai publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Rhizome Ai''s developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 17 more developer resources.'
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Rhizome Ai Rate Limits
@@ -214,7 +214,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

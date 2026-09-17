@@ -20,7 +20,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.2
-  scored_at: '2026-09-15'
+  score: 48.0
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 6
@@ -48,11 +48,6 @@ apis:
 - description: 'The Compass GraphQL API enables programmatic management of software components, scorecards, metrics, relationships, custom fields, and event ingestion within the Compass developer experience platform '
   name: Atlassian Compass GraphQL API
   slug: atlassian-compass-graphql-api
-- baseURL: https://api.atlassian.com/compass/v1
-  baseurl_source: declared
-  description: The Compass REST API v1 provides operations for component management, scorecard configuration, and webhook registration via standard HTTP REST conventions with OAuth 2.0 authentication.
-  name: Atlassian Compass REST API
-  slug: atlassian-compass-rest-api
 - baseURL: https://api.atlassian.com/graphql
   baseurl_source: declared
   description: Ingest events into a Compass event source
@@ -63,7 +58,27 @@ apis:
   description: Ingest metric values
   name: Atlassian Compass Metrics API
   slug: atlassian-compass-metrics-api
-artifact_total: 39
+- baseURL: https://api.atlassian.com/graphql
+  baseurl_source: declared
+  description: The attachment-rest-controller API from Atlassian Compass — 2 operation(s) for attachment-rest-controller.
+  name: Atlassian Compass Attachment Rest Controller API
+  slug: atlassian-compass-attachment-rest-controller-api
+- baseURL: https://api.atlassian.com/graphql
+  baseurl_source: declared
+  description: The entitlement-rest-controller API from Atlassian Compass — 1 operation(s) for entitlement-rest-controller.
+  name: Atlassian Compass Entitlement Rest Controller API
+  slug: atlassian-compass-entitlement-rest-controller-api
+- baseURL: https://api.atlassian.com/graphql
+  baseurl_source: declared
+  description: The incoming-webhooks-rest-controller API from Atlassian Compass — 1 operation(s) for incoming-webhooks-rest-controller.
+  name: Atlassian Compass Incoming Webhooks Rest Controller API
+  slug: atlassian-compass-incoming-webhooks-rest-controller-api
+- baseURL: https://api.atlassian.com/graphql
+  baseurl_source: declared
+  description: This resource represents package dependencies. Use this resource to associate package dependencies with a component.
+  name: Atlassian Compass Package Dependencies API
+  slug: atlassian-compass-package-dependencies-api
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Atlassian Compass Webhooks
@@ -350,7 +365,7 @@ modified: '2026-09-06'
 name: Atlassian Compass
 nav: Providers
 network: true
-overview: 'Atlassian Compass publishes 3 APIs on the [APIs.io](https://apis.io/) network: REST API, Events API, and Metrics API. Tagged areas include Atlassian, Component Management, Developer Experience, Software Catalog, and GraphQL.
+overview: 'Atlassian Compass publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Events API, Metrics API, Attachment Rest Controller API, and 3 more. Tagged areas include Atlassian, Component Management, Developer Experience, Software Catalog, and GraphQL.
 
 
   The Atlassian Compass catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -361,7 +376,7 @@ plans:
 - name: Atlassian Compass Plans Pricing
   plan_count: 3
   slug: atlassian-compass-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Atlassian Compass Rate Limits
@@ -373,7 +388,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.2
+  composite: 69.7
   coverage:
     artifact_dirs: 27
     catalog_earned: 64.0
@@ -381,11 +396,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 94.7
     contract_governance: 18.2
-    contract_quality: 62.4
+    contract_quality: 60.7
     developer_ergonomics: 73.2
     discoverability: 68.5
     operational_transparency: 97.4
@@ -394,14 +409,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 6
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

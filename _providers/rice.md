@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://lg4tooqkr1.execute-api.us-east-1.amazonaws.com/prod
-  baseurl_source: declared
-  description: 'The only publicly callable API Rice University itself operates. Serves the Kinder Institute for Urban Research''s Urban Data Platform: a 431-dataset catalog of Houston and Harris County urban data acro'
-  name: Rice Kinder Institute Urban Data Platform API
-  slug: kinder-udp
 - description: Rice University's own Shibboleth/SAML 2.0 identity provider, publishing a live EntityDescriptor with an IDPSSODescriptor, a shibmd:Scope of rice.edu and support for SAML 1.1, SAML 2.0 and the Shibbole
   name: Rice Shibboleth SAML 2.0 Identity Provider
   slug: sso-shibboleth
@@ -62,7 +57,17 @@ apis:
 - description: 'OAI-PMH 2.0 harvesting endpoint for the Rice Research Repository. Identify returns repositoryName "Rice Research Repository", repositoryIdentifier repository.rice.edu, adminEmail cds@rice.edu (Rice''s '
   name: Rice Research Repository (DSpaceDirect tenancy) — OAI-PMH
   slug: repository-oai
-artifact_total: 19
+- baseURL: https://lg4tooqkr1.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: The public dataset catalog of the Urban Data Platform.
+  name: Rice University Datasets API
+  slug: rice-datasets-api
+- baseURL: https://lg4tooqkr1.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: Controlled vocabularies the catalog's fields draw from.
+  name: Rice University Reference API
+  slug: rice-reference-api
+artifact_total: 20
 common:
 - group: company
   title: ''
@@ -73,10 +78,10 @@ common:
   type: OpenData
   url: https://www.kinderudp.org/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/openapi/rice-kinder-udp-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/openapi/_original/rice-kinder-udp-openapi.yml
   title: ''
   type: APIReference
-  url: openapi/rice-kinder-udp-openapi.yml
+  url: openapi/_original/rice-kinder-udp-openapi.yml
 - group: other
   title: ''
   type: ResearchRepository
@@ -201,7 +206,7 @@ modified: '2026-09-01'
 name: Rice University
 nav: Providers
 network: true
-overview: 'Rice University publishes 1 API on the [APIs.io](https://apis.io/) network: Rice Kinder Institute Urban Data Platform API. Tagged areas include University, Higher Education, Education, United States, and Texas.
+overview: 'Rice University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Datasets API and Reference API. Tagged areas include University, Higher Education, Education, United States, and Texas.
 
 
   The Rice University catalog on APIs.io includes 1 JSON-LD context.
@@ -212,7 +217,7 @@ plans:
 - name: Rice Plans Pricing
   plan_count: 2
   slug: rice-plans-pricing
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Rice Rate Limits
@@ -231,7 +236,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 15.2
-    contract_quality: 62.7
+    contract_quality: 62.8
     developer_ergonomics: 33.3
     discoverability: 68.5
     operational_transparency: 23.7
@@ -249,7 +254,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 1
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
@@ -257,7 +262,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

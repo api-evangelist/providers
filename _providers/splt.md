@@ -24,7 +24,7 @@ name: SPLT
 nav: Providers
 network: true
 overview: SPLT is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 10
+random_paper: 11
 slug: splt
 tags:
 - Company

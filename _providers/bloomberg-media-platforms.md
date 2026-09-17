@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Access Bloomberg's real-time financial news, market reports, and editorial content through Bloomberg's news data feeds. Available to Bloomberg Terminal subscribers and enterprise data license clients.
@@ -44,6 +44,10 @@ apis:
   slug: bloomberg-media-api
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -98,19 +102,19 @@ finops:
   slug: bloomberg-media-platforms-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-media-platforms.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Media Platforms
 nav: Providers
 network: true
 overview: 'Bloomberg Media Platforms publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Media, News, Financial News, Digital Media, and Bloomberg.com.
 
 
-  Bloomberg Media Platforms'' developer surface includes developer portal, documentation, support, and 5 more developer resources.'
+  Bloomberg Media Platforms'' developer surface includes developer portal, documentation, support, and 6 more developer resources.'
 plans:
 - name: Bloomberg Media Platforms Plans Pricing
   plan_count: 3
   slug: bloomberg-media-platforms-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Bloomberg Media Platforms Rate Limits
@@ -135,7 +139,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 19.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -165,5 +169,5 @@ use_cases:
   name: Research Integration
 - description: License Bloomberg content for distribution on third-party platforms.
   name: Content Licensing
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

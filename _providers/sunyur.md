@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Sunyur''s enterprise procurement open integration platform ("聚贤阁"). Exposes an accessToken-authenticated API base at https://open.sunyur.com/api that connects buyers to mainstream e-commerce platforms '
@@ -86,7 +86,7 @@ overview: 'Sunyur publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sunyur''s developer surface includes documentation, authentication, and 5 more developer resources.'
-random_paper: 1
+random_paper: 12
 score:
   band: emerging
   composite: 13.1
@@ -114,7 +114,7 @@ score:
     - greater-china
   previous_composite: 13.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

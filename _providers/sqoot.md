@@ -25,7 +25,7 @@ name: Sqoot
 nav: Providers
 network: true
 overview: Sqoot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 20
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/sqoot/refs/heads/main/screenshots/sqoot-2026-09-02T160635.png
 slug: sqoot
 tags:

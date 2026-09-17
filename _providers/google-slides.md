@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -1473,7 +1473,7 @@ plans:
 - name: Google Slides Plans Pricing
   plan_count: 3
   slug: google-slides-plans-pricing
-random_paper: 3
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Google Slides Rate Limits
@@ -1535,7 +1535,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

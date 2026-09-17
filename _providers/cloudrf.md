@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 29 operations · 18 acting
 api_count: 1
 apis:
-- baseURL: https://api.cloudrf.com
-  baseurl_source: spec
-  description: 3D coverage and model upload operations.
-  name: CloudRF 3D API
-  slug: cloudrf-3d-api
 - baseURL: https://api.cloudrf.com
   baseurl_source: spec
   description: Account-level resources such as metrics.
@@ -80,6 +75,11 @@ apis:
   description: User and system templates.
   name: CloudRF Template API
   slug: cloudrf-template-api
+- baseURL: https://api.cloudrf.com
+  baseurl_source: spec
+  description: 3D coverage and model upload operations.
+  name: CloudRF 3 D API
+  slug: cloudrf-3-d-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -194,7 +194,7 @@ modified: '2026-05-19'
 name: CloudRF
 nav: Providers
 network: true
-overview: 'CloudRF publishes 7 APIs on the [APIs.io](https://apis.io/) network, including 3D API, Account API, Analyse API, and 4 more. Tagged areas include Coverage Modeling, HF Propagation, Mesh Network, Radio Frequency, and RF.
+overview: 'CloudRF publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analyse API, Create API, and 4 more. Tagged areas include Coverage Modeling, HF Propagation, Mesh Network, Radio Frequency, and RF.
 
 
   The CloudRF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -205,7 +205,7 @@ plans:
 - name: Cloudrf Plans Pricing
   plan_count: 3
   slug: cloudrf-plans-pricing
-random_paper: 16
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Cloudrf Rate Limits
@@ -255,7 +255,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

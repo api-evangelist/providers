@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,11 +100,11 @@ modified: '2026-07-18'
 name: Atlys
 nav: Providers
 network: true
-overview: 'Atlys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Visas, Immigration, and Travel Technology.
+overview: 'Atlys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Visa, Immigration, and Travel Technology.
 
 
   Atlys'' developer surface includes engineering blog, signup flow, and 11 more developer resources.'
-random_paper: 11
+random_paper: 7
 score:
   band: emerging
   composite: 15.1
@@ -132,7 +132,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -148,7 +148,7 @@ slug: atlys
 tags:
 - Company
 - Travel
-- Visas
+- Visa
 - Immigration
 - Travel Technology
 - Consumer

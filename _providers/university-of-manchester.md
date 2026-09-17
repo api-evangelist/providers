@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -249,7 +249,7 @@ plans:
 - name: University Of Manchester Plans Pricing
   plan_count: 2
   slug: university-of-manchester-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: University Of Manchester Rate Limits
@@ -307,7 +307,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

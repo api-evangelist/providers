@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -615,7 +615,7 @@ plans:
 - name: Wpengine Plans Pricing
   plan_count: 5
   slug: wpengine-plans-pricing
-random_paper: 0
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Wpengine Rate Limits
@@ -645,7 +645,7 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 55.7
+    contract_quality: 55.9
     developer_ergonomics: 23.8
     discoverability: 68.5
     operational_transparency: 36.8
@@ -658,7 +658,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

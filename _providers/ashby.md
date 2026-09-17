@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -617,7 +617,7 @@ modified: '2026-05-19'
 name: Ashby
 nav: Providers
 network: true
-overview: 'Ashby publishes 54 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Application API, Application Feedback API, and 51 more. Tagged areas include HR, ATS, Recruiting, Analytics, and Sourcing.
+overview: 'Ashby publishes 54 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Application API, Application Feedback API, and 51 more. Tagged areas include Human Resources, ATS, Recruiting, Analytics, and Sourcing.
 
 
   Ashby''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 18 more developer resources.'
@@ -625,7 +625,7 @@ plans:
 - name: Ashby Plans Pricing
   plan_count: 6
   slug: ashby-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Ashby Rate Limits
@@ -657,7 +657,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -682,7 +682,7 @@ security:
   summary_line: SOC 2
 slug: ashby
 tags:
-- HR
+- Human Resources
 - ATS
 - Recruiting
 - Analytics

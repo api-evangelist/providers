@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ overview: 'Lime publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Lime''s developer surface includes support and 19 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: thin
   composite: 33.0
@@ -224,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -247,7 +247,7 @@ tags:
 - Electric Scooters
 - Electric Bikes
 - E-Bikes
-- E-Scooters
+- E-Scooter
 - Transportation
 - Urban Mobility
 - GBFS

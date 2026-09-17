@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
 - description: The Bloomberg Open API (BLPAPI) enables programmatic access to Bloomberg Terminal data from applications running on the same machine or connecting via Bloomberg's network. Provides real-time data subs
   name: Bloomberg Open API (BLPAPI)
@@ -48,8 +48,18 @@ apis:
 - description: Electronic trading and order management system integrated in the Bloomberg Terminal for routing orders to brokers across equities, fixed income, FX, and derivatives with FIX connectivity and algorithm
   name: Bloomberg EMSX
   slug: bloomberg-emsx
-artifact_total: 24
+- description: Remote access service extending Bloomberg Terminal functionality to any internet-connected device. Provides authentication and secure remote access to Terminal data, analytics, and messaging.
+  name: Bloomberg Anywhere
+  slug: bloomberg-anywhere
+- description: Customizable Bloomberg Terminal display consisting of smaller panels for monitoring multiple securities, markets, and data streams simultaneously. Supports custom configurations for different workflow
+  name: Bloomberg Launchpad
+  slug: bloomberg-launchpad
+artifact_total: 26
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -132,14 +142,14 @@ finops:
   slug: bloomberg-terminal-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-terminal.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Terminal
 nav: Providers
 network: true
-overview: 'Bloomberg Terminal publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Terminal, Bloomberg Professional Service, Market Data, Financial Workstation, and Trading.
+overview: 'Bloomberg Terminal publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Terminal, Bloomberg Professional Service, Market Data, Financial Workstation, and Trading.
 
 
-  Bloomberg Terminal''s developer surface includes developer portal, documentation, support, and 10 more developer resources.'
+  Bloomberg Terminal''s developer surface includes developer portal, documentation, support, and 11 more developer resources.'
 plans:
 - name: Bloomberg Terminal Plans Pricing
   plan_count: 3
@@ -175,7 +185,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -209,5 +219,5 @@ use_cases:
   name: Portfolio Management
 - description: Build quantitative models and strategies using BLPAPI data access.
   name: Quantitative Development
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

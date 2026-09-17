@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -68,11 +68,6 @@ apis:
   slug: image-api
 - baseURL: https://api.origin.fabricdata.com
   baseurl_source: declared
-  description: The Common Data API exposes reference data used across the Fabric Origin product family, including country codes, image type lookups, and video type lookups required when working with the Entertainmen
-  name: Fabric Origin Common Data API
-  slug: common-data-api
-- baseURL: https://api.origin.fabricdata.com
-  baseurl_source: declared
   description: The Entertainment API from Fabric Origin — 14 operation(s) for entertainment.
   name: Fabric Origin Entertainment API
   slug: fabric-origin-entertainment-api
@@ -88,49 +83,14 @@ apis:
   slug: fabric-origin-videos-api
 - baseURL: https://api.origin.fabricdata.com
   baseurl_source: declared
-  description: Reports GB of video delivery usage by day for the Origin Nexus video surface.
-  name: Fabric Origin Video Analytics API
-  slug: video-analytics-api
-- baseURL: https://api.origin.fabricdata.com
-  baseurl_source: declared
   description: Theatrical showtimes and ticketing — geolocation lookup, nearby theaters, movies playing, and showtime groupings by date, theater, format and amenities, linked back to Origin title identifiers.
   name: Fabric Origin Fandango API
   slug: fandango-api
 - baseURL: https://api.origin.fabricdata.com
   baseurl_source: declared
-  description: Rev-powered captioning and translation for Origin video content.
-  name: Fabric Origin Captions and Translations API
-  slug: captions-translations-api
-- baseURL: https://api.origin.fabricdata.com
-  baseurl_source: declared
   description: Metascores and Metacritic reviews for movies and TV, keyed on Origin identifiers.
   name: Fabric Origin Metacritic API
   slug: metacritic-api
-- baseURL: https://api.origin.fabricdata.com
-  baseurl_source: declared
-  description: Common Sense Media age ratings and reviews for movies and TV, keyed on Origin identifiers.
-  name: Fabric Origin Common Sense Media API
-  slug: common-sense-media-api
-- baseURL: https://api.origin.fabricdata.com
-  baseurl_source: declared
-  description: Tomatometer, Audience Scores, critic snippets and critics consensus for movies, shows, seasons and episodes, keyed on Origin identifiers.
-  name: Fabric Origin Rotten Tomatoes API
-  slug: rotten-tomatoes-api
-- baseURL: https://api.origin.fabricdata.com
-  baseurl_source: declared
-  description: Content recommendations over the Origin catalog.
-  name: Fabric Origin Rabbit Recommendations API
-  slug: rabbit-recommendations-api
-- baseURL: https://api.origin.fabricdata.com
-  baseurl_source: declared
-  description: TV listings by channel lineup — lineups, team info and linear grid data.
-  name: Fabric Origin TV Grid Online API
-  slug: tv-grid-online-api
-- baseURL: https://api.origin.fabricdata.com
-  baseurl_source: declared
-  description: Katch genomic taste data — content broken into core attributes, organised into traits and content clusters.
-  name: Fabric Origin Katch Media API
-  slug: katch-media-api
 - description: The Origin Studio metadata management API — records, record lifecycles, fields, datasets, media, credits, contributors, data deliveries, data ingress, background jobs, audit, tenants and users. Follow
   name: Origin Studio Production API
   slug: origin-studio-api
@@ -140,6 +100,46 @@ apis:
 - description: A hosted Model Context Protocol server over Origin Insights streaming market intelligence — availability, demand, TVOD pricing, subscription plans, platforms, supply, coming-soon and pre-built reports
   name: Origin Insights MCP Server
   slug: origin-insights-mcp
+- baseURL: https://api.origin.fabricdata.com
+  baseurl_source: declared
+  description: The analytics API from Fabric Origin — 1 operation(s) for analytics.
+  name: Fabric Origin Analytics API
+  slug: fabric-origin-analytics-api
+- baseURL: https://api.origin.fabricdata.com
+  baseurl_source: declared
+  description: The common API from Fabric Origin — 39 operation(s) for common.
+  name: Fabric Origin Common API
+  slug: fabric-origin-common-api
+- baseURL: https://api.origin.fabricdata.com
+  baseurl_source: declared
+  description: The commonsense API from Fabric Origin — 2 operation(s) for commonsense.
+  name: Fabric Origin Commonsense API
+  slug: fabric-origin-commonsense-api
+- baseURL: https://api.origin.fabricdata.com
+  baseurl_source: declared
+  description: The katchmedia API from Fabric Origin — 1 operation(s) for katchmedia.
+  name: Fabric Origin Katchmedia API
+  slug: fabric-origin-katchmedia-api
+- baseURL: https://api.origin.fabricdata.com
+  baseurl_source: declared
+  description: The rabbitrecommendations API from Fabric Origin — 1 operation(s) for rabbitrecommendations.
+  name: Fabric Origin Rabbitrecommendations API
+  slug: fabric-origin-rabbitrecommendations-api
+- baseURL: https://api.origin.fabricdata.com
+  baseurl_source: declared
+  description: The rev API from Fabric Origin — 3 operation(s) for rev.
+  name: Fabric Origin Rev API
+  slug: fabric-origin-rev-api
+- baseURL: https://api.origin.fabricdata.com
+  baseurl_source: declared
+  description: The rottentomatoes API from Fabric Origin — 4 operation(s) for rottentomatoes.
+  name: Fabric Origin Rottentomatoes API
+  slug: fabric-origin-rottentomatoes-api
+- baseURL: https://api.origin.fabricdata.com
+  baseurl_source: declared
+  description: The tvgrid API from Fabric Origin — 21 operation(s) for tvgrid.
+  name: Fabric Origin Tvgrid API
+  slug: fabric-origin-tvgrid-api
 artifact_total: 34
 asyncapis:
 - description: ''
@@ -438,7 +438,7 @@ plans:
 - name: Fabric Origin Plans Pricing
   plan_count: 0
   slug: fabric-origin-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Fabric Origin Rate Limits
@@ -450,21 +450,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.8
+  composite: 55.1
   coverage:
     artifact_dirs: 25
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 54.8
+    contract_quality: 54.4
     developer_ergonomics: 66.1
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 71.1
   previous_composite: 55.8
   provenance:
@@ -478,7 +478,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

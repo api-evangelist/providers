@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.lob.com/v1
@@ -178,11 +178,6 @@ apis:
   slug: lob-psc-id-api
 - baseURL: https://api.lob.com/v1
   baseurl_source: spec
-  description: The Q R Codes API from Lob — 1 operation(s) for q r codes.
-  name: Lob Q R  Codes API
-  slug: lob-q-r-codes-api
-- baseURL: https://api.lob.com/v1
-  baseurl_source: spec
   description: The Reports API from Lob — 1 operation(s) for reports.
   name: Lob Reports API
   slug: lob-reports-api
@@ -228,11 +223,6 @@ apis:
   slug: lob-templates-api
 - baseURL: https://api.lob.com/v1
   baseurl_source: spec
-  description: The U R L Shortener API from Lob — 2 operation(s) for u r l shortener.
-  name: Lob U R L  Shortener API
-  slug: lob-u-r-l-shortener-api
-- baseURL: https://api.lob.com/v1
-  baseurl_source: spec
   description: The U S Autocompletions API from Lob — 1 operation(s) for u s autocompletions.
   name: Lob U S  Autocompletions API
   slug: lob-u-s-autocompletions-api
@@ -276,6 +266,16 @@ apis:
   description: The Tracking Events API from Lob — 0 operation(s) for tracking events.
   name: Lob Tracking Events API
   slug: lob-tracking-events-api
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The QR Codes API from Lob — 1 operation(s) for qr codes.
+  name: Lob QR Codes API
+  slug: lob-qr-codes-api
+- baseURL: https://api.lob.com/v1
+  baseurl_source: spec
+  description: The URL Shortener API from Lob — 2 operation(s) for url shortener.
+  name: Lob URL Shortener API
+  slug: lob-url-shortener-api
 artifact_total: 100
 collections:
 - collection_type: open
@@ -527,7 +527,7 @@ plans:
 - name: Lob Plans Pricing
   plan_count: 3
   slug: lob-plans-pricing
-random_paper: 2
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Lob Rate Limits
@@ -546,7 +546,7 @@ score:
   facets:
     access_clarity: 55.3
     contract_governance: 0.0
-    contract_quality: 58.0
+    contract_quality: 58.1
     developer_ergonomics: 35.7
     discoverability: 50.0
     operational_transparency: 22.4
@@ -558,7 +558,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,27 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
-- baseURL: https://oauth.simaster.ugm.ac.id
-  baseurl_source: declared
-  description: Universitas Gadjah Mada's own identity API, operated by the Directorate of Information Technology (DTI) at oauth.simaster.ugm.ac.id, in front of SIMASTER, the university's integrated academic informat
-  name: UGM ID — OAuth 2.0 / OpenID Connect Authorization Server
-  slug: ugm-id
 - description: 'UGM''s own Shibboleth Identity Provider, entityID https://sso.ugm.ac.id/idp/shibboleth, publishing an unsigned SAML EntityDescriptor from the university''s own host — retrieved live on 2026-09-01 (200, '
   name: UGM Shibboleth SAML 2.0 Identity Provider
   slug: shibboleth-idp
-- baseURL: http://repository.ugm.ac.id/cgi/oai2
-  baseurl_source: declared
-  description: 'OAI-PMH 2.0 metadata harvesting endpoint for "repository civitas UGM", the institutional repository running EPrints 3.3.15 on the university''s own host. Verified live on 2026-09-01 — Identify returns '
-  name: UGM Institutional Repository OAI-PMH
-  slug: repository-oai-pmh
-- baseURL: https://journal.ugm.ac.id/index/oai
-  baseurl_source: declared
-  description: OAI-PMH 2.0 metadata harvesting endpoint for "Jurnal Universitas Gadjah Mada", the university-wide scholarly journal platform running Open Journal Systems 2.4.8.1 on UGM's own host, administered by bp
-  name: UGM Journals OAI-PMH
-  slug: journal-oai-pmh
 - description: Central Authentication Service at sso.ugm.ac.id/cas, the login surface UGM systems redirect users to. A bare GET redirects to /cas/login and returns the login form (200, verified 2026-09-01). CAS defi
   name: UGM Single Sign-On (CAS)
   slug: sso-cas
@@ -67,7 +52,37 @@ apis:
 - description: 'Universitas Gadjah Mada''s Research Organization Registry identifier, https://ror.org/03ke6d638, verified live on 2026-09-01 against the ROR v2 API. The persistent, machine-readable identifier for the '
   name: ROR organization record (ror.org/03ke6d638)
   slug: ror-record
-artifact_total: 17
+- baseURL: https://oauth.simaster.ugm.ac.id
+  baseurl_source: declared
+  description: Resource API (butuh Bearer token)
+  name: Gadjah Mada University API
+  slug: gadjah-mada-university-api-api
+- baseURL: https://oauth.simaster.ugm.ac.id
+  baseurl_source: declared
+  description: RFC 8414 & OIDC Discovery
+  name: Gadjah Mada University Discovery API
+  slug: gadjah-mada-university-discovery-api
+- baseURL: https://oauth.simaster.ugm.ac.id
+  baseurl_source: declared
+  description: Health check & infrastruktur
+  name: Gadjah Mada University Infra API
+  slug: gadjah-mada-university-infra-api
+- baseURL: https://oauth.simaster.ugm.ac.id
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
+  name: Gadjah Mada University OAI PMH API
+  slug: gadjah-mada-university-oai-pmh-api
+- baseURL: https://oauth.simaster.ugm.ac.id
+  baseurl_source: declared
+  description: Social provider login (Google, Microsoft, Facebook, LinkedIn)
+  name: Gadjah Mada University Social Login API
+  slug: gadjah-mada-university-social-login-api
+- baseURL: https://sso.ugm.ac.id/idp/profile/Metadata/SAML
+  baseurl_source: declared
+  description: Endpoint inti OAuth2/OIDC
+  name: Gadjah Mada University O Auth2 API
+  slug: gadjah-mada-university-oauth2-api
+artifact_total: 20
 common:
 - group: company
   title: ''
@@ -239,7 +254,7 @@ modified: '2026-09-01'
 name: Gadjah Mada University
 nav: Providers
 network: true
-overview: 'Gadjah Mada University publishes 3 APIs on the [APIs.io](https://apis.io/) network: UGM ID — OAuth 2.0 / OpenID Connect Authorization Server, UGM Institutional Repository OAI-PMH, and UGM Journals OAI-PMH. Tagged areas include University, Higher Education, Education, Indonesia, and Research.
+overview: 'Gadjah Mada University publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Infra API, and 4 more. Tagged areas include University, Higher Education, Education, Indonesia, and Research.
 
 
   The Gadjah Mada University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -250,7 +265,7 @@ plans:
 - name: Gadjah Mada University Plans Pricing
   plan_count: 2
   slug: gadjah-mada-university-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Gadjah Mada University Rate Limits
@@ -274,21 +289,21 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 46.6
+  composite: 43.9
   coverage:
     artifact_dirs: 17
-    catalog_earned: 75.0
+    catalog_earned: 59.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.7
   facets:
     access_clarity: 39.5
     contract_governance: 15.2
-    contract_quality: 63.0
+    contract_quality: 59.4
     developer_ergonomics: 35.7
-    discoverability: 68.5
+    discoverability: 50.0
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -303,8 +318,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 33.3
-      total: 3
+      marker_coverage: 0.0
+      total: 6
   regulatory:
     applies: true
     matched_via: tags
@@ -312,7 +327,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -60,11 +60,6 @@ apis:
   description: The Federation API from Searchcraft — 3 operation(s) for federation.
   name: Searchcraft Federation API
   slug: searchcraft-federation-api
-- baseURL: https://your-cluster.searchcraft.io
-  baseurl_source: declared
-  description: The Healthcheck API from Searchcraft — 1 operation(s) for healthcheck.
-  name: Searchcraft Healthcheck API
-  slug: searchcraft-healthcheck-api
 - baseURL: https://your-cluster.searchcraft.io
   baseurl_source: declared
   description: The Indexes API from Searchcraft — 4 operation(s) for indexes.
@@ -95,6 +90,11 @@ apis:
   description: The Transactions API from Searchcraft — 2 operation(s) for transactions.
   name: Searchcraft Transactions API
   slug: searchcraft-transactions-api
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Health Check API from Searchcraft — 1 operation(s) for health check.
+  name: Searchcraft Health Check API
+  slug: searchcraft-health-check-api
 artifact_total: 28
 collections:
 - collection_type: open
@@ -204,7 +204,7 @@ plans:
 - name: Searchcraft Plans Pricing
   plan_count: 3
   slug: searchcraft-plans-pricing
-random_paper: 3
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Searchcraft Rate Limits
@@ -236,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

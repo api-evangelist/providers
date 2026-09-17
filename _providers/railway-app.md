@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 13
 apis:
 - description: GraphQL operations for creating, reading, updating, and deleting Railway projects - the top-level container for services and environments. Queries include project and projects; mutations include proje
@@ -159,7 +159,7 @@ plans:
 - name: Railway App Plans Pricing
   plan_count: 5
   slug: railway-app-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Railway App Rate Limits
@@ -196,7 +196,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 39.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

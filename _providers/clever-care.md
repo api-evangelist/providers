@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Clever Care Agentic Access
-  operation_count: 26
+  operation_count: 2
   slug: clever-care-agentic-access
-  summary_line: 26 operations
+  summary_line: 2 operations
 api_count: 13
 apis:
 - baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
@@ -48,67 +48,7 @@ apis:
   description: The Coverage API from Clever Care — 2 operation(s) for coverage.
   name: Clever Care Coverage API
   slug: clever-care-coverage-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The Endpoint API from Clever Care — 2 operation(s) for endpoint.
-  name: Clever Care Endpoint API
-  slug: clever-care-endpoint-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The ExplanationOfBenefit API from Clever Care — 2 operation(s) for explanationofbenefit.
-  name: Clever Care ExplanationOfBenefit API
-  slug: clever-care-explanationofbenefit-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The HealthcareService API from Clever Care — 2 operation(s) for healthcareservice.
-  name: Clever Care HealthcareService API
-  slug: clever-care-healthcareservice-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The InsurancePlan API from Clever Care — 2 operation(s) for insuranceplan.
-  name: Clever Care InsurancePlan API
-  slug: clever-care-insuranceplan-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The List API from Clever Care — 2 operation(s) for list.
-  name: Clever Care List API
-  slug: clever-care-list-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The Location API from Clever Care — 2 operation(s) for location.
-  name: Clever Care Location API
-  slug: clever-care-location-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The MedicationKnowledge API from Clever Care — 2 operation(s) for medicationknowledge.
-  name: Clever Care MedicationKnowledge API
-  slug: clever-care-medicationknowledge-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The Organization API from Clever Care — 2 operation(s) for organization.
-  name: Clever Care Organization API
-  slug: clever-care-organization-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The OrganizationAffiliation API from Clever Care — 2 operation(s) for organizationaffiliation.
-  name: Clever Care OrganizationAffiliation API
-  slug: clever-care-organizationaffiliation-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The Patient API from Clever Care — 2 operation(s) for patient.
-  name: Clever Care Patient API
-  slug: clever-care-patient-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The Practitioner API from Clever Care — 2 operation(s) for practitioner.
-  name: Clever Care Practitioner API
-  slug: clever-care-practitioner-api
-- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
-  baseurl_source: declared
-  description: The PractitionerRole API from Clever Care — 2 operation(s) for practitionerrole.
-  name: Clever Care PractitionerRole API
-  slug: clever-care-practitionerrole-api
-artifact_total: 31
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -271,11 +211,11 @@ modified: '2026-07-18'
 name: Clever Care
 nav: Providers
 network: true
-overview: 'Clever Care publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Coverage API, Endpoint API, ExplanationOfBenefit API, and 10 more. Tagged areas include Company, Life Sciences, Health Insurance, Medicare Advantage, and Healthcare.
+overview: 'Clever Care publishes 1 API on the [APIs.io](https://apis.io/) network: Coverage API. Tagged areas include Company, Life Sciences, Health Insurance, Medicare Advantage, and Healthcare.
 
 
   Clever Care''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 19 more developer resources.'
-random_paper: 5
+random_paper: 19
 scopes:
 - name: Clever Care Scopes
   scope_count: 4
@@ -307,7 +247,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 1
     mcp: derived
     skills: derived
   regulatory:
@@ -321,7 +261,7 @@ score:
     regime_id: health
     score: 70.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

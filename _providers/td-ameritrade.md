@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -155,6 +155,10 @@ collections:
   name: TD Ameritrade Accounts and Trading Watchlist API
   slug: open-td-ameritrade-watchlist-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tdameritrade.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/td-ameritrade/refs/heads/main/agentic-access/td-ameritrade-agentic-access.yml
   title: ''
@@ -243,7 +247,7 @@ jsonld:
   property_count: 0
   slug: td-ameritrade
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: TD Ameritrade
 nav: Providers
 network: true
@@ -253,12 +257,12 @@ overview: 'TD Ameritrade publishes 13 APIs on the [APIs.io](https://apis.io/) ne
   The TD Ameritrade catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TD Ameritrade''s developer surface includes authentication, developer portal, getting-started guide, documentation, and 11 more developer resources.'
+  TD Ameritrade''s developer surface includes authentication, developer portal, getting-started guide, documentation, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -307,7 +311,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -330,5 +334,5 @@ tags:
 - Options
 - Market Data
 - Streaming
-website: https://developer.tdameritrade.com/
+website: https://tdameritrade.com
 ---

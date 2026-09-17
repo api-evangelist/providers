@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -110,7 +110,7 @@ overview: 'MNT-Halan is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   MNT-Halan''s developer surface includes product news, engineering blog, and 13 more developer resources.'
-random_paper: 14
+random_paper: 16
 score:
   band: minimal
   composite: 2.0
@@ -146,7 +146,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -173,7 +173,7 @@ tags:
 - Buy Now Pay Later
 - Payroll Advance
 - Savings
-- Investments
+- Investment
 - E-Commerce
 - Super App
 - Financial Inclusion
@@ -181,7 +181,7 @@ tags:
 - Egypt
 - MENA
 - Turkey
-- UAE
+- United Arab Emirates
 - Pakistan
 website: https://mnt-halan.com
 ---

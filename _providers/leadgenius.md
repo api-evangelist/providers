@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
 - baseURL: https://leadgenius.com/api/v1/
   baseurl_source: declared
   description: The LeadGenius Enrichment API API from LeadGenius — 0 operation(s) for leadgenius enrichment api.
-  name: LeadGenius LeadGenius Enrichment API
+  name: LeadGenius Enrichment API
   slug: leadgenius-leadgenius-enrichment-api-api
 artifact_total: 18
 asyncapis:
@@ -253,7 +253,7 @@ created: '2026-07-17'
 description: LeadGenius provides precision B2B contact and account intelligence for go-to-market teams, combining machine learning with a global team of human researchers so every contact and account is human-verified before delivery. The company reports 400+ customers, coverage across 42 countries and 3 billion+ data records served, with products spanning contact behavioral intelligence, advanced contact tags, contact monitoring, social tracking, buying-committee coverage and privacy compliance. Its developer surface is the LeadGenius Enrichment API — a RESTful, API-key authenticated service documented at docs.leadgenius.com that supports company enrichment, contact enrichment and contact append, offered both as asynchronous Campaigns (create a campaign, upload up to 200 records per request, receive a record-finalized webhook, retrieve the enriched results) and as real-time "rapid enrichment" requests submitted and collected by id.
 image: https://cdn.prod.website-files.com/688ff1b200d9d4cf5019d518/68906378722ec3a7e64df624_logo.svg
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: LeadGenius
 nav: Providers
 network: true
@@ -268,7 +268,7 @@ plans:
 - name: Leadgenius Plans Pricing
   plan_count: 0
   slug: leadgenius-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Leadgenius Rate Limits
@@ -303,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 460
   human_in_the_loop: 1
@@ -58,11 +58,6 @@ apis:
   description: The AccountV1 API from Moody's RMS — 21 operation(s) for accountv1.
   name: Moody's RMS Account V1 API
   slug: moodys-rms-accountv1-api
-- baseURL: https://api-use1.rms.com/platform
-  baseurl_source: declared
-  description: The AccountV2 API from Moody's RMS — 21 operation(s) for accountv2.
-  name: Moody's RMS Account V2 API
-  slug: moodys-rms-accountv2-api
 - baseURL: https://api-use1.rms.com/platform
   baseurl_source: declared
   description: The Aggregate PortfolioV1 API from Moody's RMS — 12 operation(s) for aggregate portfoliov1.
@@ -205,11 +200,6 @@ apis:
   slug: moodys-rms-logins-api
 - baseURL: https://api-use1.rms.com/platform
   baseurl_source: declared
-  description: The MetricsV1 API from Moody's RMS — 24 operation(s) for metricsv1.
-  name: Moody's RMS Metrics V1 API
-  slug: moodys-rms-metricsv1-api
-- baseURL: https://api-use1.rms.com/platform
-  baseurl_source: declared
   description: The MetricsV2 API from Moody's RMS — 27 operation(s) for metricsv2.
   name: Moody's RMS Metrics V2 API
   slug: moodys-rms-metricsv2-api
@@ -288,6 +278,16 @@ apis:
   description: The WorkflowsV1 API from Moody's RMS — 2 operation(s) for workflowsv1.
   name: Moody's RMS Workflows V1 API
   slug: moodys-rms-workflowsv1-api
+- baseURL: https://api-use1.rms.com/platform
+  baseurl_source: declared
+  description: The Account V2 API from Moody's RMS — 21 operation(s) for account v2.
+  name: Moody's RMS Account V2 API
+  slug: moodys-rms-account-v2-api
+- baseURL: https://api-use1.rms.com/platform
+  baseurl_source: declared
+  description: The Metrics V1 API from Moody's RMS — 24 operation(s) for metrics v1.
+  name: Moody's RMS Metrics V1 API
+  slug: moodys-rms-metrics-v1-api
 artifact_total: 56
 collections:
 - collection_type: open
@@ -460,10 +460,10 @@ overview: 'Moody''s RMS publishes 49 APIs on the [APIs.io](https://apis.io/) net
 
 
   Moody''s RMS''s developer surface includes changelog, getting-started guide, support, authentication, documentation, API reference, and 26 more developer resources.'
-random_paper: 0
+random_paper: 16
 score:
   band: thin
-  composite: 35.8
+  composite: 35.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 32.0
@@ -471,11 +471,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 47.6
+    contract_quality: 47.9
     developer_ergonomics: 43.5
     discoverability: 66.7
     operational_transparency: 22.4
@@ -504,7 +504,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

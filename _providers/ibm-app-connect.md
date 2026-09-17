@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The IBM App Connect API provides programmatic access to manage integration flows, connectors, accounts, and other integration platform resources.
@@ -99,7 +99,7 @@ plans:
 - name: Ibm App Connect Plans Pricing
   plan_count: 3
   slug: ibm-app-connect-plans-pricing
-random_paper: 20
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Ibm App Connect Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

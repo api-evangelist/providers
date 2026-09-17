@@ -101,7 +101,7 @@ overview: 'BlockFi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BlockFi''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 16
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockfi/refs/heads/main/screenshots/blockfi-2026-08-07T162629.png
 security:
 - kind: domain-security

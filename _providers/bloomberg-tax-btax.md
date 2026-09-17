@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Access Bloomberg Tax data including tax rates, regulations, guidance, and compliance data for integration into enterprise tax technology systems and workflows. Covers federal, state, and international
@@ -44,6 +44,10 @@ apis:
   slug: btax-transfer-pricing
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloombergtax.com
 - group: other
   title: ''
   type: ParentCompany
@@ -98,19 +102,19 @@ finops:
   slug: bloomberg-tax-btax-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-tax-btax.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Tax (BTAX)
 nav: Providers
 network: true
 overview: 'Bloomberg Tax (BTAX) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tax, Tax Research, Tax Compliance, Tax Planning, and Federal Tax.
 
 
-  Bloomberg Tax (BTAX)''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
+  Bloomberg Tax (BTAX)''s developer surface includes developer portal, documentation, support, and 6 more developer resources.'
 plans:
 - name: Bloomberg Tax Btax Plans Pricing
   plan_count: 3
   slug: bloomberg-tax-btax-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tax Btax Rate Limits
@@ -141,7 +145,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -171,5 +175,5 @@ use_cases:
   name: International Tax Compliance
 - description: Integrate Bloomberg Tax data into tax software and ERP systems.
   name: Tax Technology Integration
-website: https://pro.bloombergtax.com/
+website: https://bloombergtax.com
 ---

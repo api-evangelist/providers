@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Betterment investment and cash account data is accessible to third-party developers via the Plaid open banking aggregator. Through Plaid, developers can retrieve account balances, holdings, transactio
@@ -134,7 +134,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 11
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -165,7 +165,7 @@ score:
     regime_id: banking_open_finance
     score: 24.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

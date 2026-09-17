@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: InvestCloud's developer platform, branded "Wealthsqope Digital Developer". Its own public landing page advertises getting-started guides, "full API docs for web services and embedded widgets", video t
@@ -148,7 +148,7 @@ plans:
 - name: Investcloud Plans Pricing
   plan_count: 0
   slug: investcloud-plans-pricing
-random_paper: 3
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Investcloud Rate Limits
@@ -175,7 +175,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

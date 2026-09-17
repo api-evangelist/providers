@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ modified: '2026-05-19'
 name: Akka
 nav: Providers
 network: true
-overview: 'Akka publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bootstrap API, Cluster API, and Health API. Tagged areas include Actor Model, Distributed Systems, Frameworks, Java, and Microservices.
+overview: 'Akka publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bootstrap API, Cluster API, and Health API. Tagged areas include Actor Model, Distributed Systems, Framework, Java, and Microservices.
 
 
   The Akka catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -203,7 +203,7 @@ plans:
 - name: Akka Plans Pricing
   plan_count: 6
   slug: akka-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Akka Rate Limits
@@ -257,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -276,7 +276,7 @@ slug: akka
 tags:
 - Actor Model
 - Distributed Systems
-- Frameworks
+- Framework
 - Java
 - Microservices
 - Reactive

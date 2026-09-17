@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,11 +75,6 @@ apis:
   slug: cresilon-discovery-api
 - baseURL: https://cresilon.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for cresilon.com URLs, returning embeddable rich metadata for Cresilon news posts and site pages in JSON or XML.
-  name: Cresilon oEmbed API
-  slug: cresilon-oembed-api
-- baseURL: https://cresilon.com/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its schema.org JSON-LD graph for any cresilon.com URL — the cheapest structured description of a Cresilon page for an agent.
   name: Cresilon SEO Metadata API
   slug: cresilon-seo-api
@@ -93,6 +88,11 @@ apis:
   description: Site comments — anonymously readable, empty at capture.
   name: Cresilon Comments API
   slug: cresilon-comments-api
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 rich metadata for Cresilon URLs.
+  name: Cresilon o Embed API
+  slug: cresilon-o-embed-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -129,6 +129,11 @@ collections:
   name: Cresilon Taxonomy API
   slug: open-cresilon-taxonomy-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/overlays/cresilon-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cresilon-oembed-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/mcp/cresilon-mcp.yml
   title: ''
@@ -299,8 +304,8 @@ network: true
 overview: 'Cresilon publishes 10 APIs on the [APIs.io](https://apis.io/) network, including News & Press Releases API, Pages API, Media API, and 7 more. Tagged areas include Company, Biotechnology, Medical Devices, Health, and Hemostasis.
 
 
-  Cresilon''s developer surface includes engineering blog, support, signup flow, YouTube channel, authentication, code examples, and 30 more developer resources.'
-random_paper: 2
+  Cresilon''s developer surface includes engineering blog, support, signup flow, YouTube channel, authentication, code examples, and 31 more developer resources.'
+random_paper: 5
 score:
   band: thin
   composite: 37.0
@@ -337,7 +342,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

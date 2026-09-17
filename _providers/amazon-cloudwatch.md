@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: amazon-cloudwatch-agentic-access
   summary_line: 10 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://monitoring.us-east-1.amazonaws.com
   baseurl_source: declared
@@ -65,8 +65,8 @@ apis:
 - baseURL: https://monitoring.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Amazon CloudWatch API API from Amazon CloudWatch — 1 operation(s) for amazon cloudwatch api.
-  name: Amazon CloudWatch Amazon CloudWatch API API
-  slug: aws-cloudwatch-amazon-cloudwatch-api-api
+  name: Amazon CloudWatch Amazon CloudWatch API
+  slug: amazon-cloudwatch-amazon-cloudwatch-api-api
 artifact_total: 67
 collections:
 - collection_type: postman
@@ -357,7 +357,7 @@ mcp_servers:
 - description: Official AWS Labs CloudWatch MCP server. Runs locally (stdio) on the same host as the LLM client and uses the caller's AWS credentials to expose CloudWatch metrics, PromQL, alarms, and Logs Insights f
   name: Amazon CloudWatch MCP Server
   slug: amazon-cloudwatch-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon CloudWatch
 nav: Providers
 network: true
@@ -368,7 +368,7 @@ overview: 'Amazon CloudWatch publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CloudWatch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 18
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []
@@ -393,7 +393,7 @@ rules:
   slug: amazon-cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 57.6
+  composite: 58.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 67.5
@@ -401,11 +401,11 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 60.5
     contract_governance: 33.3
-    contract_quality: 70.7
+    contract_quality: 74.1
     developer_ergonomics: 72.6
     discoverability: 75.9
     operational_transparency: 18.4
@@ -420,7 +420,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

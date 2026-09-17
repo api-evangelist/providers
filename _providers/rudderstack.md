@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -83,12 +83,12 @@ apis:
 - baseURL: https://{dataPlaneUrl}
   baseurl_source: declared
   description: The HTTP API API from RudderStack — 7 operation(s) for http api.
-  name: RudderStack HTTP API API
+  name: RudderStack HTTP API
   slug: rudderstack-http-api-api
 - baseURL: https://{dataPlaneUrl}
   baseurl_source: declared
   description: The Internal API API from RudderStack — 5 operation(s) for internal api.
-  name: RudderStack Internal API API
+  name: RudderStack Internal API
   slug: rudderstack-internal-api-api
 artifact_total: 32
 asyncapis:
@@ -414,11 +414,11 @@ mcp_servers:
 - description: 'RudderStack operates an official, centrally hosted remote MCP server at https://mcp.rudderstack.com/mcp. It is an OAuth 2.0 protected resource: an anonymous POST of tools/list returns HTTP 401 invalid'
   name: RudderStack MCP Server
   slug: rudderstack-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: RudderStack
 nav: Providers
 network: true
-overview: 'RudderStack publishes 3 APIs on the [APIs.io](https://apis.io/) network: Webhook Source API, HTTP API API, and Internal API API. Tagged areas include Customer Data Platform, CDP, Data Pipeline, Open-Source, and Event Streaming.
+overview: 'RudderStack publishes 3 APIs on the [APIs.io](https://apis.io/) network: Webhook Source API, HTTP API, and Internal API. Tagged areas include Customer Data Platform, CDP, Data Pipeline, Open-Source, and Event Streaming.
 
 
   The RudderStack catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -429,7 +429,7 @@ plans:
 - name: Rudderstack Plans Pricing
   plan_count: 3
   slug: rudderstack-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Rudderstack Rate Limits
@@ -481,7 +481,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

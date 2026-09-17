@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 31
 apis:
 - description: A hosted, remote Model Context Protocol server on every regional Conga Advantage Platform gateway. It answers MCP JSON-RPC over Streamable HTTP, rejects anonymous calls with an RFC 6750 bearer challen
@@ -95,19 +95,9 @@ apis:
   slug: conga-accountpackagesettings-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
-  description: The AccountRoles API from Conga — 4 operation(s) for accountroles.
-  name: Conga Account Roles API
-  slug: conga-accountroles-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
   description: The Accounts API from Conga — 4 operation(s) for accounts.
   name: Conga Accounts API
   slug: conga-accounts-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The AccountSettings API from Conga — 1 operation(s) for accountsettings.
-  name: Conga Account Settings API
-  slug: conga-accountsettings-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: The AccountSigningLogos API from Conga — 1 operation(s) for accountsigninglogos.
@@ -168,11 +158,6 @@ apis:
   description: The Admin Permissions API from Conga — 1 operation(s) for admin permissions.
   name: Conga Admin Permissions API
   slug: conga-admin-permissions-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: This class contains API endpoints for admin setting
-  name: Conga Admin Settings API
-  slug: conga-adminsettings-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: Adobe sign
@@ -340,11 +325,6 @@ apis:
   slug: conga-bundlelineitemstructure-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
-  description: The business object controller
-  name: Conga Business Object API
-  slug: conga-businessobject-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
   description: The BusinessObjects API from Conga — 15 operation(s) for businessobjects.
   name: Conga Business Objects API
   slug: conga-businessobjects-api
@@ -358,16 +338,6 @@ apis:
   description: Config Debug Rule Controller
   name: Conga Cart Analyzers API
   slug: conga-cart-analyzers-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The cart actions controller
-  name: Conga Cart Actions API
-  slug: conga-cartactions-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The Cart Item Controller
-  name: Conga Cart Items API
-  slug: conga-cartitems-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: The Cart Controller
@@ -450,28 +420,23 @@ apis:
   slug: conga-configuration-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
-  description: This class contains APIs related to configuration management
-  name: Conga Configuration Management API
-  slug: conga-configurationmanagement-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
   description: The Configurations API from Conga — 1 operation(s) for configurations.
   name: Conga Configurations API
   slug: conga-configurations-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: The Conga Hooks API from Conga — 4 operation(s) for conga hooks.
-  name: Conga Conga Hooks API
+  name: Conga Hooks API
   slug: conga-conga-hooks-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: The Conga Hooks Rules API from Conga — 4 operation(s) for conga hooks rules.
-  name: Conga Conga Hooks Rules API
+  name: Conga Hooks Rules API
   slug: conga-conga-hooks-rules-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: Send transaction using Conga Sign
-  name: Conga Conga Sign API
+  name: Conga Sign API
   slug: conga-congasign-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
@@ -625,24 +590,9 @@ apis:
   slug: conga-custom-plans-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
-  description: The CustomBranding API from Conga — 3 operation(s) for custombranding.
-  name: Conga Custom Branding API
-  slug: conga-custombranding-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
   description: The CustomerOnboarded API from Conga — 1 operation(s) for customeronboarded.
   name: Conga Customer Onboarded API
   slug: conga-customeronboarded-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The CustomerRegistration API from Conga — 1 operation(s) for customerregistration.
-  name: Conga Customer Registration API
-  slug: conga-customerregistration-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The CustomFields API from Conga — 2 operation(s) for customfields.
-  name: Conga Custom Fields API
-  slug: conga-customfields-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: The CustomSettings API from Conga — 9 operation(s) for customsettings.
@@ -658,11 +608,6 @@ apis:
   description: This class contains API endpoints for data correction-related operations.
   name: Conga Data Correction API
   slug: conga-datacorrection-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The DataManagement API from Conga — 2 operation(s) for datamanagement.
-  name: Conga Data Management API
-  slug: conga-datamanagement-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: The Deal Color Bands API from Conga — 2 operation(s) for deal color bands.
@@ -723,11 +668,6 @@ apis:
   description: This class contains API endpoints for Document protection.
   name: Conga Document Protection API
   slug: conga-documentprotection-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: This class contains API endpoints for Document Review.
-  name: Conga Document Review API
-  slug: conga-documentreview-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: The Documents API from Conga — 38 operation(s) for documents.
@@ -1040,11 +980,6 @@ apis:
   slug: conga-jobs-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
-  description: API to return job status details
-  name: Conga Job Status API
-  slug: conga-jobstatus-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
   description: The Json API from Conga — 2 operation(s) for json.
   name: Conga JSON API
   slug: conga-json-api
@@ -1098,11 +1033,6 @@ apis:
   description: The Notification API from Conga — 5 operation(s) for notification.
   name: Conga Notification API
   slug: conga-notification-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The OAuth2 API from Conga — 4 operation(s) for oauth2.
-  name: Conga O Auth2 API
-  slug: conga-oauth2-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: The Object Definition API from Conga — 6 operation(s) for object definition.
@@ -1188,11 +1118,6 @@ apis:
   description: This class contains API endpoints for package migration.
   name: Conga Package Migration API
   slug: conga-packagemigration-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The PasswordPolicy API from Conga — 1 operation(s) for passwordpolicy.
-  name: Conga Password Policy API
-  slug: conga-passwordpolicy-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: Controller for managing payment terms.
@@ -1293,11 +1218,6 @@ apis:
   description: The PriceEscalator API from Conga — 2 operation(s) for priceescalator.
   name: Conga Price Escalator API
   slug: conga-priceescalator-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: Catalog APIs for Pricelists
-  name: Conga Price Lists API
-  slug: conga-pricelists-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: PriceWaterfall controller
@@ -1485,11 +1405,6 @@ apis:
   slug: conga-reviewer-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
-  description: Review Site APIs
-  name: Conga Review Sites API
-  slug: conga-reviewsites-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
   description: The Role Admin API from Conga — 7 operation(s) for role admin.
   name: Conga Role Admin API
   slug: conga-role-admin-api
@@ -1535,11 +1450,6 @@ apis:
   slug: conga-scheduler-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
-  description: This class contains APIs for Schema metadata.
-  name: Conga Schema Metadata API
-  slug: conga-schemametadata-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
   description: The Search Admin API from Conga — 10 operation(s) for search admin.
   name: Conga Search Admin API
   slug: conga-search-admin-api
@@ -1548,11 +1458,6 @@ apis:
   description: The Search Runtime API from Conga — 6 operation(s) for search runtime.
   name: Conga Search Runtime API
   slug: conga-search-runtime-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The SearchFilters API from Conga — 5 operation(s) for searchfilters.
-  name: Conga Search Filters API
-  slug: conga-searchfilters-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: The Sender API from Conga — 6 operation(s) for sender.
@@ -1590,11 +1495,6 @@ apis:
   slug: conga-signaturelayout-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
-  description: Search APIs to search product details
-  name: Conga Smart Search API
-  slug: conga-smartsearch-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
   description: The Solution API from Conga — 5 operation(s) for solution.
   name: Conga Solution API
   slug: conga-solution-api
@@ -1623,11 +1523,6 @@ apis:
   description: The Summary Groups Controller
   name: Conga Summary Groups API
   slug: conga-summarygroups-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
-  description: The SystemProperties API from Conga — 5 operation(s) for systemproperties.
-  name: Conga System Properties API
-  slug: conga-systemproperties-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
   description: TaxCodes Controller
@@ -1730,11 +1625,6 @@ apis:
   slug: conga-userdashboard-api
 - baseURL: https://rls.congacloud.com
   baseurl_source: declared
-  description: The UserGroup API from Conga — 4 operation(s) for usergroup.
-  name: Conga User Group API
-  slug: conga-usergroup-api
-- baseURL: https://rls.congacloud.com
-  baseurl_source: declared
   description: The Validation API from Conga — 2 operation(s) for validation.
   name: Conga Validation API
   slug: conga-validation-api
@@ -1773,7 +1663,107 @@ apis:
   description: The Waterfalls API from Conga — 2 operation(s) for waterfalls.
   name: Conga Waterfalls API
   slug: conga-waterfalls-api
-artifact_total: 357
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The OAuth2 API from Conga — 4 operation(s) for oauth2.
+  name: Conga O Auth2 API
+  slug: conga-oauth2-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The Account Roles API from Conga — 4 operation(s) for account roles.
+  name: Conga Account Roles API
+  slug: conga-account-roles-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The Account Settings API from Conga — 1 operation(s) for account settings.
+  name: Conga Account Settings API
+  slug: conga-account-settings-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: This class contains API endpoints for admin setting
+  name: Conga Admin Settings API
+  slug: conga-admin-settings-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The business object controller
+  name: Conga Business Object API
+  slug: conga-business-object-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The cart actions controller
+  name: Conga Cart Actions API
+  slug: conga-cart-actions-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The Cart Item Controller
+  name: Conga Cart Items API
+  slug: conga-cart-items-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: This class contains APIs related to configuration management
+  name: Conga Configuration Management API
+  slug: conga-configuration-management-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The Custom Branding API from Conga — 3 operation(s) for custom branding.
+  name: Conga Custom Branding API
+  slug: conga-custom-branding-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The Custom Fields API from Conga — 2 operation(s) for custom fields.
+  name: Conga Custom Fields API
+  slug: conga-custom-fields-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The Customer Registration API from Conga — 1 operation(s) for customer registration.
+  name: Conga Customer Registration API
+  slug: conga-customer-registration-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The Data Management API from Conga — 2 operation(s) for data management.
+  name: Conga Data Management API
+  slug: conga-data-management-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: This class contains API endpoints for Document Review.
+  name: Conga Document Review API
+  slug: conga-document-review-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: API to return job status details
+  name: Conga Job Status API
+  slug: conga-job-status-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The Password Policy API from Conga — 1 operation(s) for password policy.
+  name: Conga Password Policy API
+  slug: conga-password-policy-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: Review Site APIs
+  name: Conga Review Sites API
+  slug: conga-review-sites-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: This class contains APIs for Schema metadata.
+  name: Conga Schema Metadata API
+  slug: conga-schema-metadata-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The Search Filters API from Conga — 5 operation(s) for search filters.
+  name: Conga Search Filters API
+  slug: conga-search-filters-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: Search APIs to search product details
+  name: Conga Smart Search API
+  slug: conga-smart-search-api
+- baseURL: https://rls.congacloud.com/mcp
+  baseurl_source: declared
+  description: The System Properties API from Conga — 5 operation(s) for system properties.
+  name: Conga System Properties API
+  slug: conga-system-properties-api
+artifact_total: 355
 asyncapis:
 - description: ''
   name: Conga Webhooks
@@ -1978,11 +1968,11 @@ mcp_servers:
 - description: Conga runs a hosted, remote Model Context Protocol server at /mcp on every regional Conga Advantage Platform gateway. It is undocumented on developer.conga.com and does not appear on conga.com, but it
   name: Conga Advantage Platform MCP Server
   slug: conga-advantage-platform-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Conga
 nav: Providers
 network: true
-overview: 'Conga publishes 345 APIs on the [APIs.io](https://apis.io/) network, including 2. Order Actions API, 3. Order Line Items API, Account API, and 342 more. Tagged areas include Company, Enterprise Software, Contract Lifecycle Management, CPQ, and Revenue Lifecycle Management.
+overview: 'Conga publishes 343 APIs on the [APIs.io](https://apis.io/) network, including 2. Order Actions API, 3. Order Line Items API, Account API, and 340 more. Tagged areas include Company, Enterprise Software, Contract Lifecycle Management, CPQ, and Revenue Lifecycle Management.
 
 
   The Conga catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1993,7 +1983,7 @@ plans:
 - name: Conga Plans Pricing
   plan_count: 0
   slug: conga-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Conga Rate Limits
@@ -2005,21 +1995,21 @@ scopes:
   summary_line: 28 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 62.6
+  composite: 64.1
   coverage:
     artifact_dirs: 25
-    catalog_earned: 35.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 80.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 64.3
+    contract_quality: 66.5
     developer_ergonomics: 66.1
-    discoverability: 57.4
+    discoverability: 66.7
     operational_transparency: 71.1
   previous_composite: 62.6
   provenance:
@@ -2028,11 +2018,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 345
+      total: 343
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Grafana Loki HTTP API — 40 documented endpoints for pushing logs (native and OTLP), querying with LogQL over instants and ranges, discovering labels, series, patterns and detected fields, streamin
@@ -275,7 +275,7 @@ plans:
 - name: Grafana Loki Plans Pricing
   plan_count: 3
   slug: grafana-loki-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 14
   name: Grafana Loki Rate Limits
@@ -309,7 +309,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Modeled loan-file exchange surface - create, read, and update mortgage loan files, submit loan data to lenders/investors, and import/export loan data (LendingPad describes MISMO-style 3.2/3.4 loan-dat
@@ -106,7 +106,7 @@ plans:
 - name: Lendingpad Plans Pricing
   plan_count: 4
   slug: lendingpad-plans-pricing
-random_paper: 17
+random_paper: 12
 score:
   band: emerging
   composite: 16.8
@@ -127,7 +127,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

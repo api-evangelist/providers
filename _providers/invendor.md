@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 194
   human_in_the_loop: 3
@@ -63,11 +63,6 @@ apis:
   description: The Consumption API from Invendor — 1 operation(s) for consumption.
   name: Invendor Consumption API
   slug: invendor-consumption-api
-- baseURL: https://api.invendor.com
-  baseurl_source: declared
-  description: The DataJobs API from Invendor — 2 operation(s) for datajobs.
-  name: Invendor DataJobs API
-  slug: invendor-datajobs-api
 - baseURL: https://api.invendor.com
   baseurl_source: declared
   description: The Devices API from Invendor — 10 operation(s) for devices.
@@ -103,11 +98,6 @@ apis:
   description: The FlagTypes API from Invendor — 2 operation(s) for flagtypes.
   name: Invendor FlagTypes API
   slug: invendor-flagtypes-api
-- baseURL: https://api.invendor.com
-  baseurl_source: declared
-  description: The GlobalSettings API from Invendor — 6 operation(s) for globalsettings.
-  name: Invendor GlobalSettings API
-  slug: invendor-globalsettings-api
 - baseURL: https://api.invendor.com
   baseurl_source: declared
   description: The Gravity API from Invendor — 1 operation(s) for gravity.
@@ -235,11 +225,6 @@ apis:
   slug: invendor-units-api
 - baseURL: https://api.invendor.com
   baseurl_source: declared
-  description: The UserProfiles API from Invendor — 9 operation(s) for userprofiles.
-  name: Invendor UserProfiles API
-  slug: invendor-userprofiles-api
-- baseURL: https://api.invendor.com
-  baseurl_source: declared
   description: The Users API from Invendor — 14 operation(s) for users.
   name: Invendor Users API
   slug: invendor-users-api
@@ -253,6 +238,21 @@ apis:
   description: The WMSLocations API from Invendor — 9 operation(s) for wmslocations.
   name: Invendor WMSLocations API
   slug: invendor-wmslocations-api
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Data jobs API from Invendor — 2 operation(s) for data jobs.
+  name: Invendor Data jobs API
+  slug: invendor-data-jobs-api
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Global Settings API from Invendor — 6 operation(s) for global settings.
+  name: Invendor Global Settings API
+  slug: invendor-global-settings-api
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The User Profiles API from Invendor — 9 operation(s) for user profiles.
+  name: Invendor User Profiles API
+  slug: invendor-user-profiles-api
 artifact_total: 89
 collections:
 - collection_type: open
@@ -504,7 +504,7 @@ overview: 'Invendor publishes 42 APIs on the [APIs.io](https://apis.io/) network
 
 
   Invendor''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 8
+random_paper: 11
 scopes:
 - name: Invendor Scopes
   scope_count: 2
@@ -512,7 +512,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.8
+  composite: 35.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -520,11 +520,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 52.1
+    contract_quality: 48.4
     developer_ergonomics: 37.5
     discoverability: 75.9
     operational_transparency: 0.0
@@ -539,14 +539,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 42
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

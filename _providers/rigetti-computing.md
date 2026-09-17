@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -72,11 +72,6 @@ apis:
   slug: rigetti-computing-engagements-api
 - baseURL: https://api.qcs.rigetti.com
   baseurl_source: declared
-  description: The Healthcheck API from Rigetti Computing — 1 operation(s) for healthcheck.
-  name: Rigetti Computing Healthcheck API
-  slug: rigetti-computing-healthcheck-api
-- baseURL: https://api.qcs.rigetti.com
-  baseurl_source: declared
   description: The Quantum Processor is the heart of the Rigetti services.
   name: Rigetti Computing quantumProcessors API
   slug: rigetti-computing-quantumprocessors-api
@@ -88,8 +83,13 @@ apis:
 - baseURL: https://api.qcs.rigetti.com
   baseurl_source: declared
   description: The Rigetti QCS API API from Rigetti Computing — 2 operation(s) for rigetti qcs api.
-  name: Rigetti Computing Rigetti QCS API API
+  name: Rigetti Computing Rigetti QCS API
   slug: rigetti-computing-rigetti-qcs-api-api
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: The Health Check API from Rigetti Computing — 1 operation(s) for health check.
+  name: Rigetti Computing Health Check API
+  slug: rigetti-computing-health-check-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -246,7 +246,7 @@ created: '2026-07-17'
 description: Rigetti Computing is a full-stack quantum computing company that builds superconducting quantum processors and delivers access to them through Quantum Cloud Services (QCS). Developers program Rigetti quantum processing units (QPUs) with the Quil quantum instruction language via the open-source pyQuil SDK, compile with quilc, and simulate locally with the Quantum Virtual Machine (QVM). The QCS HTTP API (api.qcs.rigetti.com) exposes REST-style operations for quantum processors, instruction set architectures, engagements, endpoints, reservations, groups, billing, and account management, secured with OAuth2 (Okta) JWT bearer tokens. This profile was seeded as a VC-portfolio lead and enriched by the API Evangelist pipeline from Rigetti's public QCS OpenAPI, SDKs, and developer documentation.
 image: https://qcs.rigetti.com/static/img/rigetti-logo.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Rigetti Computing
 nav: Providers
 network: true
@@ -254,10 +254,10 @@ overview: 'Rigetti Computing publishes 9 APIs on the [APIs.io](https://apis.io/)
 
 
   Rigetti Computing''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 2
+random_paper: 5
 score:
   band: developing
-  composite: 39.7
+  composite: 39.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -265,11 +265,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 55.0
+    contract_quality: 55.9
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 2.6
@@ -285,7 +285,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

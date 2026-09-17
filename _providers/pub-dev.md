@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Search for packages, retrieve package metadata, version details, publisher information, and scoring data from the official Dart and Flutter package registry.
@@ -41,6 +41,10 @@ apis:
   slug: pubdev-packages-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://pub.dev
 - group: operate
   title: ''
   type: IssueTracker
@@ -107,19 +111,19 @@ finops:
   slug: finops
 image: https://pub.dev/favicon.ico
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: pub.dev
 nav: Providers
 network: true
 overview: 'pub.dev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dart, Flutter, Package Registry, Package Management, and Open-Source.
 
 
-  pub.dev''s developer surface includes documentation and 13 more developer resources.'
+  pub.dev''s developer surface includes documentation and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -147,7 +151,7 @@ score:
     score: 65.0
   previous_composite: 28.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -170,5 +174,5 @@ tags:
 - Package Registry
 - Package Management
 - Open-Source
-website: https://pub.dev/
+website: https://pub.dev
 ---

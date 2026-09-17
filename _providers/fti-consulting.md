@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The FTI Consulting API provides access to platform services and data for enterprise integration and automation.
@@ -70,7 +70,7 @@ modified: '2026-04-19'
 name: FTI Consulting
 nav: Providers
 network: true
-overview: 'FTI Consulting publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Economic, and Financial Advisory.
+overview: 'FTI Consulting publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Consulting, Economics, and Financial Advisory.
 
 
   FTI Consulting''s developer surface includes engineering blog and 3 more developer resources.'
@@ -78,7 +78,7 @@ plans:
 - name: Fti Consulting Plans Pricing
   plan_count: 1
   slug: fti-consulting-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Fti Consulting Rate Limits
@@ -103,7 +103,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -118,7 +118,7 @@ security:
 slug: fti-consulting
 tags:
 - Consulting
-- Economic
+- Economics
 - Financial Advisory
 website: https://www.fticonsulting.com
 ---

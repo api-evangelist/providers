@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://api.motionelements.com/v2
   baseurl_source: declared
   description: Retrieve individual marketplace elements.
-  name: Motion Elements Elements API
+  name: Motion Elements API
   slug: motion-elements-elements-api
 - baseURL: https://api.motionelements.com/v2
   baseurl_source: declared
@@ -193,15 +193,15 @@ created: '2026-07-17'
 description: 'MotionElements is a global creative-asset marketplace and AI production platform offering an unlimited-download subscription catalog of 26M+ royalty-free assets: stock video, music, sound effects, motion and editing templates (After Effects, Premiere Pro, Final Cut / Apple Motion, DaVinci Resolve, .mogrt), photos, vectors, GIFs and Lottie animations, plus Studio AI generative tools. Its Marketplace API v2 lets platforms search, retrieve, license and download from the catalog using HTTP Basic authentication (API secret key as username) over HTTPS.'
 image: https://static.moele.me/img/motionelements-og-en.220830.jpg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Motion Elements
 nav: Providers
 network: true
-overview: 'Motion Elements publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Elements API, Media types API, and 1 more. Tagged areas include Media, Stock Media, Video, Music, and Sound Effects.
+overview: 'Motion Elements publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Media types API, and 2 more. Tagged areas include Media, Stock Media, Video, Music, and Sound Effects.
 
 
   Motion Elements'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: developing
   composite: 41.9
@@ -232,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

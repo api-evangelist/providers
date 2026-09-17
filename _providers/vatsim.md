@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -107,11 +107,6 @@ apis:
   slug: vatsim-metar-api
 - baseURL: https://api.vatsim.net/v2
   baseurl_source: declared
-  description: The OAuth2 API from VATSIM — 2 operation(s) for oauth2.
-  name: VATSIM OAuth2 API
-  slug: vatsim-oauth2-api
-- baseURL: https://api.vatsim.net/v2
-  baseurl_source: declared
   description: The orgs API from VATSIM — 2 operation(s) for orgs.
   name: VATSIM orgs API
   slug: vatsim-orgs-api
@@ -130,6 +125,11 @@ apis:
   description: The Users API from VATSIM — 1 operation(s) for users.
   name: VATSIM Users API
   slug: vatsim-users-api
+- baseURL: https://api.vatsim.net/v2/events
+  baseurl_source: declared
+  description: The OAuth2 API from VATSIM — 2 operation(s) for oauth2.
+  name: VATSIM O Auth2 API
+  slug: vatsim-oauth2-api
 artifact_total: 40
 collections:
 - collection_type: open
@@ -178,6 +178,10 @@ collections:
   name: VATSIM AIP Airport info Users API
   slug: open-vatsim-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://vatsim.dev
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/agentic-access/vatsim-agentic-access.yml
   title: ''
@@ -205,19 +209,19 @@ finops:
   slug: finops
 image: https://vatsim.net/favicon.ico
 layout: provider
-modified: 2026-06-13
+modified: '2026-09-16'
 name: VATSIM
 nav: Providers
 network: true
 overview: 'VATSIM publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Events API, METAR API, Airport info API, and 13 more. Tagged areas include Aviation, Flight Simulation, Air Traffic Control, Real-Time Data, and Community.
 
 
-  VATSIM''s developer surface includes authentication and 3 more developer resources.'
+  VATSIM''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 9
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -254,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -276,5 +280,5 @@ tags:
 - Air Traffic Control
 - Real-Time Data
 - Community
-website: https://vatsim.dev/services/apis/
+website: https://vatsim.dev
 ---

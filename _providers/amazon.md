@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -894,7 +894,7 @@ press:
 - date: '2026-05-25'
   title: Press Center - US Press Center - Amazon's Press Releases
   url: https://press.aboutamazon.com/press-release-archive
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Amazon Rate Limits
@@ -954,7 +954,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

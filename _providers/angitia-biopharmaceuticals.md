@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,11 +93,11 @@ modified: '2026-08-06'
 name: Angitia Biopharmaceuticals
 nav: Providers
 network: true
-overview: 'Angitia Biopharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, biopharmaceuticals, Pharmaceuticals, and Life Sciences.
+overview: 'Angitia Biopharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biopharmaceutical, Pharmaceuticals, and Life Sciences.
 
 
   Angitia Biopharmaceuticals'' developer surface includes product news, support, and 6 more developer resources.'
-random_paper: 15
+random_paper: 20
 score:
   band: minimal
   composite: 10.0
@@ -124,7 +124,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -140,7 +140,7 @@ slug: angitia-biopharmaceuticals
 tags:
 - Company
 - Biotechnology
-- biopharmaceuticals
+- Biopharmaceutical
 - Pharmaceuticals
 - Life Sciences
 - Drug Development

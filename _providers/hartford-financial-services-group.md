@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,7 +97,7 @@ press:
 - date: ''
   title: Hartford Financial Services Group Digital Transformation ...
   url: https://www.businesswire.com/news/home/20240708152618/en/Hartford-Financial-Services-Group-Digital-Transformation-Strategies-2024-Innovation-Programs-Technology-Initiatives-Estimated-ICT-Budget-and-Major-ICT-Contracts
-random_paper: 12
+random_paper: 7
 score:
   band: minimal
   composite: 2.6
@@ -124,7 +124,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

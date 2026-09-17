@@ -36,55 +36,150 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-09-15'
-api_count: 8
+  scored_at: '2026-09-16'
+api_count: 9
 apis:
 - baseURL: https://{customer-host}:8080/OB-API-REST/v2
   baseurl_source: declared
-  description: Public REST API of Diebold Nixdorf for banking core system integration — authentication, account information, consumer information and account processing operations used by Vynamic Transaction Middlew
-  name: DN Open Backend API
-  slug: dn-open-backend-api
-- baseURL: https://{customer-host}:8080/tm-om-api/v4
+  description: The Accessibility API API from Diebold Nixdorf — 4 operation(s) for accessibility api.
+  name: Diebold Nixdorf Accessibility API
+  slug: diebold-accessibility-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
   baseurl_source: declared
-  description: Diebold Nixdorf Online & Mobile API — the Vynamic Transaction Middleware surface used by online and mobile banking channels for cardless and mobile-initiated self-service transactions. 35 paths, beare
-  name: DN Online & Mobile API
-  slug: dn-online-mobile-api
-- baseURL: https://{customer-host}:8080/tm-assist-api/v1
+  description: Request processing in Account BC
+  name: Diebold Nixdorf Account BC API
+  slug: diebold-account-bc-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
   baseurl_source: declared
-  description: Diebold Nixdorf API for SelfService Assistance — remote assistance, session and device interaction operations against self-service terminals. 23 paths with basic, bearer and JWE-bearer authentication;
-  name: DN Assist API
-  slug: dn-assist-api
-- baseURL: https://{customer-host}:8080/pi-api/v1
+  description: Fetches account information.
+  name: Diebold Nixdorf Account Information API
+  slug: diebold-account-information-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
   baseurl_source: declared
-  description: Public Payment Initiation API (PI-API) of Diebold Nixdorf providing access to the Vynamic Transaction Middleware for initiating payments. Declares an OpenID Connect scheme against a Microsoft Entra ID
-  name: DN Payment Initiation API
-  slug: dn-payment-initiation-api
-- baseURL: https://{customer-host}:8080/oauth-api/v1
+  description: The Account Management API API from Diebold Nixdorf — 9 operation(s) for account management api.
+  name: Diebold Nixdorf Account Management API
+  slug: diebold-account-management-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
   baseurl_source: declared
-  description: Public TM Authorization API of Diebold Nixdorf used to obtain and manage access tokens for the Vynamic Transaction Middleware. 8 paths with HTTP basic and bearer schemes; OpenAPI 3.0.3, version 1.8.1.
-  name: DN TM Authorization API
-  slug: dn-tm-authorization-api
-- baseURL: https://{customer-host}:8080/account/v1
+  description: Performs a transaction.
+  name: Diebold Nixdorf Account Processing API
+  slug: diebold-account-processing-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
   baseurl_source: declared
-  description: Public API of Diebold Nixdorf for account balance management, exposing balance and account business-component operations to the Vynamic banking stack. 5 paths; OpenAPI 3.0.1, version 1.0.0.
-  name: DN Account BC API
-  slug: dn-account-bc-api
-- baseURL: https://{customer-host}:8080/tm-sbp-api/v1
+  description: The Activation Methods API from Diebold Nixdorf — 3 operation(s) for activation methods.
+  name: Diebold Nixdorf Activation Methods API
+  slug: diebold-activation-methods-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
   baseurl_source: declared
-  description: Diebold Nixdorf API for invoking predefined, configurable business process flows with a single request (formerly the Pledge API), authorized through an external OpenID Connect provider configured in t
-  name: DN Secure Business Processing API
-  slug: dn-secure-business-processing-api
-- baseURL: https://{issuer-host}
+  description: Authentication request for a transaction.
+  name: Diebold Nixdorf Authentication API
+  slug: diebold-authentication-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
   baseurl_source: declared
-  description: Outbound Diebold Nixdorf API used to inform card issuers of services requested by, or on behalf of, their account holders, so issuers can guide the account holder experience through the token requesto
-  name: TM Pre-Digitization API (Outbound)
-  slug: tm-pre-digitization-api-outbound
-artifact_total: 14
+  description: The Authorization Processing API API from Diebold Nixdorf — 31 operation(s) for authorization processing api.
+  name: Diebold Nixdorf Authorization Processing API
+  slug: diebold-authorization-processing-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: Fetches consumer information.
+  name: Diebold Nixdorf Consumer Information API
+  slug: diebold-consumer-information-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: The Device API API from Diebold Nixdorf — 2 operation(s) for device api.
+  name: Diebold Nixdorf Device API
+  slug: diebold-device-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: The DN Assist API API from Diebold Nixdorf — 23 operation(s) for dn assist api.
+  name: Diebold Nixdorf DN Assist API
+  slug: diebold-dn-assist-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: The Miscellaneous API API from Diebold Nixdorf — 10 operation(s) for miscellaneous api.
+  name: Diebold Nixdorf Miscellaneous API
+  slug: diebold-miscellaneous-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: Public Payment Initiation API (PI-API) of DieboldNixdorf to access the Transaction Middleware.
+  name: Diebold Nixdorf Payment Initiation API
+  slug: diebold-payment-initiation-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: The Prestaged Transaction API API from Diebold Nixdorf — 7 operation(s) for prestaged transaction api.
+  name: Diebold Nixdorf Prestaged Transaction API
+  slug: diebold-prestaged-transaction-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: The SBP API API from Diebold Nixdorf — 2 operation(s) for sbp api.
+  name: Diebold Nixdorf SBP API
+  slug: diebold-sbp-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: The SEPA Credit Transfer Instant API API from Diebold Nixdorf — 2 operation(s) for sepa credit transfer instant api.
+  name: Diebold Nixdorf SEPA Credit Transfer Instant API
+  slug: diebold-sepa-credit-transfer-instant-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: The Standing Order API API from Diebold Nixdorf — 4 operation(s) for standing order api.
+  name: Diebold Nixdorf Standing Order API
+  slug: diebold-standing-order-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: The TM Authorization API API from Diebold Nixdorf — 3 operation(s) for tm authorization api.
+  name: Diebold Nixdorf TM Authorization API
+  slug: diebold-tm-authorization-api-api
+- baseURL: https://{customer-host}:8080/OB-API-REST/v2
+  baseurl_source: declared
+  description: The TM OAuth API API from Diebold Nixdorf — 5 operation(s) for tm oauth api.
+  name: Diebold Nixdorf TM OAuth API
+  slug: diebold-tm-oauth-api-api
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Diebold Webhooks
   slug: diebold-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/overlays/diebold-dn-open-backend-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diebold-dn-open-backend-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/overlays/diebold-dn-online-mobile-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diebold-dn-online-mobile-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/overlays/diebold-dn-assist-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diebold-dn-assist-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/overlays/diebold-dn-payment-initiation-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diebold-dn-payment-initiation-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/overlays/diebold-dn-tm-authorization-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diebold-dn-tm-authorization-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/overlays/diebold-dn-account-bc-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diebold-dn-account-bc-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/overlays/diebold-dn-secure-business-processing-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diebold-dn-secure-business-processing-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/overlays/diebold-tm-pre-digitization-api-outbound-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diebold-tm-pre-digitization-api-outbound-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/diebold/refs/heads/main/authentication/diebold-authentication.yml
   title: ''
@@ -224,13 +319,13 @@ modified: '2026-09-06'
 name: Diebold Nixdorf
 nav: Providers
 network: true
-overview: 'Diebold Nixdorf publishes 8 APIs on the [APIs.io](https://apis.io/) network, including DN Open Backend API, DN Online & Mobile API, DN Assist API, and 5 more. Tagged areas include Banking, Retail, ATM, Self-Service, and Point-of-Sale.
+overview: 'Diebold Nixdorf publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Accessibility API, Account BC API, Account Information API, and 16 more. Tagged areas include Banking, Retail, ATM, Self-Service, and Point-of-Sale.
 
 
   The Diebold Nixdorf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Diebold Nixdorf''s developer surface includes authentication, support, sandbox, documentation, API reference, and 23 more developer resources.'
+  Diebold Nixdorf''s developer surface includes authentication, support, sandbox, documentation, API reference, and 31 more developer resources.'
 plans:
 - name: Diebold Plans Pricing
   plan_count: 0
@@ -251,7 +346,7 @@ press:
 - date: '2026-05-25'
   title: Diebold Nixdorf taps SeeChange machine learning for self- ...
   url: https://www.kioskmarketplace.com/news/diebold-nixdorf-taps-seechange-machine-learning-for-self-checkout-solutions/
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Diebold Rate Limits
@@ -281,7 +376,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 19
     mcp: derived
     skills: derived
   regulatory:
@@ -295,7 +390,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

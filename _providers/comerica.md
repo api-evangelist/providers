@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -157,7 +157,7 @@ press:
 - date: '2026-05-25'
   title: Comerica says its AI bot performs work of six IT help desk ...
   url: https://www.americanbanker.com/news/comerica-says-its-ai-bot-performs-work-of-six-it-helpdesk-agents
-random_paper: 16
+random_paper: 21
 score:
   band: minimal
   composite: 6.5
@@ -191,7 +191,7 @@ score:
     regime_id: banking_open_finance
     score: 12.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: Patterson Dental Selects Pearl as New Integrated AI Provider
   url: https://www.businesswire.com/news/home/20231120987871/en/Patterson-Dental-Selects-Pearl-as-New-Integrated-AI-Provider
-random_paper: 5
+random_paper: 2
 score:
   band: minimal
   composite: 2.4
@@ -101,7 +101,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

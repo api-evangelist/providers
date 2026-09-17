@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -71,14 +71,14 @@ apis:
   slug: scorecard-systems-api
 - baseURL: https://api2.scorecard.io/api/v2
   baseurl_source: declared
-  description: The Testcases API from Scorecard — 2 operation(s) for testcases.
-  name: Scorecard Testcases API
-  slug: scorecard-testcases-api
+  description: The Test Cases API from Scorecard — 2 operation(s) for test cases.
+  name: Scorecard Test Cases API
+  slug: scorecard-test-cases-api
 - baseURL: https://api2.scorecard.io/api/v2
   baseurl_source: declared
-  description: The Testsets API from Scorecard — 2 operation(s) for testsets.
-  name: Scorecard Testsets API
-  slug: scorecard-testsets-api
+  description: The Test Sets API from Scorecard — 2 operation(s) for test sets.
+  name: Scorecard Test Sets API
+  slug: scorecard-test-sets-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -253,7 +253,7 @@ overview: 'Scorecard publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Scorecard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
-random_paper: 5
+random_paper: 4
 score:
   band: developing
   composite: 52.8
@@ -284,7 +284,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

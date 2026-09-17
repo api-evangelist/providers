@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ overview: 'OPay publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cas
 
 
   OPay''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, sandbox, signup flow, and 23 more developer resources.'
-random_paper: 0
+random_paper: 1
 score:
   band: thin
   composite: 33.5
@@ -296,7 +296,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -335,7 +335,7 @@ tags:
 - Wallets
 - Savings
 - Buy Now Pay Later
-- Bank Transfer
+- Bank Transfers
 - Card Payments
 - USSD
 - Agent Banking

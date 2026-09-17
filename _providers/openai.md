@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -303,7 +303,7 @@ apis:
 - baseURL: https://api.openai.com
   baseurl_source: declared
   description: The OpenAI API API from OpenAI — 0 operation(s) for openai api.
-  name: OpenAI OpenAI API
+  name: OpenAI API
   slug: openai-openai-api-api
 arazzos:
 - description: Create an assistant, open a thread, add a message, run it, poll the run, and read the reply.
@@ -1413,11 +1413,11 @@ mcp_servers:
 - description: OpenAI runs one remote MCP server of its own and it is a DOCUMENTATION server, not an API-control server. `openai-docs-mcp` lets an agent search, browse and fetch the markdown behind platform.openai.c
   name: OpenAI MCP Server
   slug: openai-mcp-server
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: OpenAI
 nav: Providers
 network: true
-overview: 'OpenAI publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Moderations API, Batch API, and 47 more. Tagged areas include Artificial Intelligence, Large Language Models, and T1.
+overview: 'OpenAI publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Moderations API, Batch API, and 47 more. Tagged areas include Artificial Intelligence, LLM, and T1.
 
 
   The OpenAI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1428,7 +1428,7 @@ plans:
 - name: Openai Plans Pricing
   plan_count: 13
   slug: openai-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 7
   name: Openai Rate Limits
@@ -1485,7 +1485,7 @@ score:
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 78.9
+    contract_quality: 79.0
     developer_ergonomics: 96.4
     discoverability: 66.7
     operational_transparency: 94.7
@@ -1501,7 +1501,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1577,7 +1577,7 @@ skills:
 slug: openai
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - T1
 use_cases:
 - description: Build chatbots, virtual assistants, and customer support agents using Chat Completions or Responses API.

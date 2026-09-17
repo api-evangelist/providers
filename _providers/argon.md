@@ -28,7 +28,7 @@ name: Argon Networks
 nav: Providers
 network: true
 overview: Argon Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Internet Infrastructure, Routing, and Switching.
-random_paper: 10
+random_paper: 7
 screenshot: https://raw.githubusercontent.com/api-evangelist/argon/refs/heads/main/screenshots/argon-2026-07-25T201139.png
 slug: argon
 tags:

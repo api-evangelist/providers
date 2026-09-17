@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The one Everlit surface an agent or a third-party CMS can call today with no credential and no onboarding. GET /oembed resolves an Everlit embed or hosted URL to an oEmbed 1.0 "rich" record (title, de
@@ -47,6 +47,10 @@ apis:
   slug: everlit-rest-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://everlit.audio
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/everlit/refs/heads/main/security/everlit-domain-security.yml
   title: ''
@@ -140,19 +144,19 @@ description: Everlit is a B2B SaaS distribution and engagement platform that con
   is undocumented and access-gated through sales.
 image: https://everlit.audio/site/images/preview.jpg
 layout: provider
-modified: '2026-08-20'
+modified: '2026-09-16'
 name: Everlit
 nav: Providers
 network: true
 overview: 'Everlit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Video, Social, Podcasts, and Media.
 
 
-  Everlit''s developer surface includes authentication, support, engineering blog, and 16 more developer resources.'
+  Everlit''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Everlit Plans Pricing
   plan_count: 0
   slug: everlit-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Everlit Rate Limits
@@ -180,7 +184,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -213,4 +217,5 @@ tags:
 - oEmbed
 - embeddable-player
 - Advertising
+website: https://everlit.audio
 ---

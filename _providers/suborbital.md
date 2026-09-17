@@ -56,7 +56,7 @@ overview: 'Suborbital is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Suborbital''s developer surface includes CLI and 6 more developer resources.'
-random_paper: 8
+random_paper: 1
 security:
 - kind: domain-security
   name: Suborbital Domain Security

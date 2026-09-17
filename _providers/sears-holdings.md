@@ -199,7 +199,7 @@ press:
 - date: '2021-07-01'
   title: How Sears Home Services Helped Keep Puerto Rico's Appliances Running When It Mattered Most
   url: https://transformco.com/press-releases/pr/2151
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 8
   name: Sears Holdings Rate Limits

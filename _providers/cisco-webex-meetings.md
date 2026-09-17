@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
 - baseURL: https://webexapis.com/v1
   baseurl_source: declared
   description: The Meetings API from Cisco Webex Meetings — 2 operation(s) for meetings.
-  name: Cisco Webex Meetings Meetings API
+  name: Cisco Webex Meetings API
   slug: cisco-webex-meetings-meetings-api
 - baseURL: https://webexapis.com/v1
   baseurl_source: declared
@@ -218,11 +218,11 @@ jsonld:
   property_count: 0
   slug: cisco-webex-meetings-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: Cisco Webex Meetings
 nav: Providers
 network: true
-overview: 'Cisco Webex Meetings publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Invitees API, Meetings API, Recordings API, and 1 more. Tagged areas include Collaboration, Communications, Enterprise, Meetings, and Video Conferencing.
+overview: 'Cisco Webex Meetings publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Invitees API, Recordings API, and 2 more. Tagged areas include Collaboration, Communications, Enterprise, Meetings, and Video Conferencing.
 
 
   The Cisco Webex Meetings catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -233,7 +233,7 @@ plans:
 - name: Cisco Webex Meetings Plans Pricing
   plan_count: 3
   slug: cisco-webex-meetings-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Cisco Webex Meetings Rate Limits
@@ -251,8 +251,8 @@ rules:
     warn: 3
   slug: cisco-webex-meetings-rules
 score:
-  band: thin
-  composite: 37.1
+  band: developing
+  composite: 46.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 64.0
@@ -260,11 +260,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.3
   facets:
     access_clarity: 26.3
     contract_governance: 45.5
-    contract_quality: 21.1
+    contract_quality: 58.4
     developer_ergonomics: 57.1
     discoverability: 59.3
     operational_transparency: 34.2
@@ -273,12 +273,12 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

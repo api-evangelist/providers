@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -94,14 +94,14 @@ apis:
   slug: harvest-tasks-api
 - baseURL: https://api.harvestapp.com/v2
   baseurl_source: declared
-  description: The TimeEntries API from Harvest — 5 operation(s) for timeentries.
-  name: Harvest TimeEntries API
-  slug: harvest-timeentries-api
-- baseURL: https://api.harvestapp.com/v2
-  baseurl_source: declared
   description: The Users API from Harvest — 3 operation(s) for users.
   name: Harvest Users API
   slug: harvest-users-api
+- baseURL: https://api.harvestapp.com/v2
+  baseurl_source: declared
+  description: The Time Entries API from Harvest — 5 operation(s) for time entries.
+  name: Harvest Time Entries API
+  slug: harvest-time-entries-api
 artifact_total: 30
 collections:
 - collection_type: open
@@ -222,7 +222,7 @@ overview: 'Harvest publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Harvest''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: thin
   composite: 34.0
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

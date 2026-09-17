@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Access BVAL evaluated prices, yield curves, spread data, and pricing transparency metadata for fixed income securities via BLPAPI and Data License. Supports corporate bonds, municipal bonds, governmen
@@ -47,6 +47,10 @@ apis:
   slug: bval-structured-products
 artifact_total: 19
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -97,14 +101,14 @@ finops:
   slug: bloomberg-valuation-service-bval-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-valuation-service-bval.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Valuation Service (BVAL)
 nav: Providers
 network: true
 overview: 'Bloomberg Valuation Service (BVAL) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include BVAL, Evaluated Pricing, Fixed Income, Fair Value, and Bond Pricing.
 
 
-  Bloomberg Valuation Service (BVAL)''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Valuation Service (BVAL)''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Valuation Service Bval Plans Pricing
   plan_count: 3
@@ -140,7 +144,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -175,5 +179,5 @@ use_cases:
   name: Collateral Valuation
 - description: Calculate accurate returns and attribution using BVAL evaluated prices.
   name: Performance Attribution
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

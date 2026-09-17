@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: Cantor Fitzgerald, L.P. is a privately held global financial services firm founded in 1945. It is a U.S. Federal Reserve primary dealer in U.S. government securities and operates investment banking, f
@@ -109,7 +109,7 @@ plans:
 - name: Cantor Fitzgerald Plans Pricing
   plan_count: 3
   slug: cantor-fitzgerald-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Cantor Fitzgerald Rate Limits
@@ -145,7 +145,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

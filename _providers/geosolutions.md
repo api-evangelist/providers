@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'OGC-standard web services served from a GeoServer instance. Verified anonymously on 2026-08-20: a WMS 1.3.0 GetCapabilities document declaring 39 layers and a WFS 2.0.0 GetCapabilities document declar'
@@ -46,7 +46,7 @@ name: GeoSolutions di Giannecchini Simone & C. s.a.s.
 nav: Providers
 network: true
 overview: GeoSolutions di Giannecchini Simone & C. s.a.s. publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, WFS, and Open Access.
-random_paper: 0
+random_paper: 3
 score:
   band: minimal
   composite: 7.8
@@ -67,7 +67,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://places.googleapis.com/v1
   baseurl_source: declared
   description: Operations for retrieving place details and media.
-  name: Google Places Places API
+  name: Google Places API
   slug: google-places-places-api
 - baseURL: https://places.googleapis.com/v1
   baseurl_source: declared
@@ -323,11 +323,11 @@ jsonld:
   property_count: 57
   slug: google-places-api-context
 layout: provider
-modified: '2026-06-02'
+modified: '2026-09-16'
 name: Google Places
 nav: Providers
 network: true
-overview: 'Google Places publishes 2 APIs on the [APIs.io](https://apis.io/) network: Places API and Search API. Tagged areas include Restaurant, Geolocation, Google, Locations, and Maps.
+overview: 'Google Places publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Search API, and 1 more. Tagged areas include Restaurant, Geolocation, Google, Location, and Maps.
 
 
   The Google Places catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -338,7 +338,7 @@ plans:
 - name: Google Places Plans Pricing
   plan_count: 3
   slug: google-places-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Google Places Rate Limits
@@ -397,7 +397,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -421,7 +421,7 @@ tags:
 - Restaurant
 - Geolocation
 - Google
-- Locations
+- Location
 - Maps
 - Places
 - Points of Interest

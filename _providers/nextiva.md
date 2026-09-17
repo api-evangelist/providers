@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://api.nextiva.com
@@ -84,9 +84,9 @@ apis:
   slug: nextiva-transfers-api
 - baseURL: https://api.nextiva.com
   baseurl_source: declared
-  description: The Workitems API from Nextiva — 4 operation(s) for workitems.
-  name: Nextiva Workitems API
-  slug: nextiva-workitems-api
+  description: The Work Items API from Nextiva — 4 operation(s) for work items.
+  name: Nextiva Work Items API
+  slug: nextiva-work-items-api
 artifact_total: 19
 asyncapis:
 - description: ''
@@ -284,7 +284,7 @@ overview: 'Nextiva publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nextiva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 28 more developer resources.'
-random_paper: 11
+random_paper: 19
 score:
   band: developing
   composite: 49.8
@@ -320,7 +320,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

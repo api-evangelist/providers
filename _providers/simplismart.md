@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   description: Large Language Model chat completion services
   name: Simplismart Chat Completion API
   slug: simplismart-chat-completion-api
-- baseURL: https://api.simplismart.live
-  baseurl_source: declared
-  description: The Flux API from Simplismart — 2 operation(s) for flux.
-  name: Simplismart Flux API
-  slug: simplismart-flux-api
 - baseURL: https://api.simplismart.live
   baseurl_source: declared
   description: Flux model training endpoints
@@ -85,7 +80,7 @@ apis:
   description: LLM/VLM model training endpoints
   name: Simplismart Training API
   slug: simplismart-training-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -261,11 +256,11 @@ modified: '2026-07-21'
 name: Simplismart
 nav: Providers
 network: true
-overview: 'Simplismart publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat Completion API, Flux API, Flux Training API, and 5 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Inference, and LLM.
+overview: 'Simplismart publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chat Completion API, Flux Training API, Llm API, and 4 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Inference, and LLM.
 
 
   Simplismart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 8
+random_paper: 17
 score:
   band: developing
   composite: 51.0
@@ -292,11 +287,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 7
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

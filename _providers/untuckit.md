@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'Live MCP endpoint implementing the Universal Commerce Protocol shopping service for the UNTUCKit store: catalog search, cart, checkout, fulfillment, discounts, and orders, with Shop Pay / Google Pay /'
@@ -134,7 +134,7 @@ overview: 'UNTUCKit publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   UNTUCKit''s developer surface includes authentication, support, engineering blog, and 13 more developer resources.'
-random_paper: 5
+random_paper: 7
 scopes:
 - name: Untuckit Scopes
   scope_count: 4
@@ -164,7 +164,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -189,6 +189,6 @@ tags:
 - Shopify
 - Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 website: https://untuckit.com
 ---

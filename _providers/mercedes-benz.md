@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 18
 apis:
 - description: Use this product to integrate always up-to-date MercedesBenz technical as well as marketing vehicle data into your solution and business model. Try it out.
@@ -92,6 +92,10 @@ apis:
   slug: waviness-api
 artifact_total: 23
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mercedes-benz.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/security/mercedes-benz-vulnerability-disclosure.yml
   title: ''
@@ -170,19 +174,19 @@ finops:
   slug: mercedes-benz-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mercedes-benz.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Mercedes-Benz
 nav: Providers
 network: true
 overview: 'Mercedes-Benz publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Cars, and Vehicles.
 
 
-  Mercedes-Benz''s developer surface includes developer portal, product news, getting-started guide, support, FAQ, signup flow, and 11 more developer resources.'
+  Mercedes-Benz''s developer surface includes developer portal, product news, getting-started guide, support, FAQ, signup flow, and 12 more developer resources.'
 plans:
 - name: Mercedes Benz Plans Pricing
   plan_count: 3
   slug: mercedes-benz-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Mercedes Benz Rate Limits
@@ -207,7 +211,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 29.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -228,5 +232,5 @@ tags:
 - Automobiles
 - Cars
 - Vehicles
-website: https://developer.mercedes-benz.com/
+website: https://mercedes-benz.com
 ---

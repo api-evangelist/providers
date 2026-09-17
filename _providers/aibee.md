@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The hosted map-data surface behind Aibee's indoor map and wayfinding products. It is not documented as a public API and has no published reference or specification; it is recorded here because Aibee's
@@ -133,7 +133,7 @@ plans:
 - name: Aibee Plans Pricing
   plan_count: 0
   slug: aibee-plans-pricing
-random_paper: 19
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Aibee Rate Limits
@@ -167,7 +167,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

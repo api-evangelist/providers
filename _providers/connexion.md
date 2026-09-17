@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Connexion is a contract-first Python web framework that loads an OpenAPI specification and routes requests to Python handlers based on operationId. It performs request validation, parameter parsing, a
@@ -105,7 +105,7 @@ plans:
 - name: Connexion Plans Pricing
   plan_count: 3
   slug: connexion-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Connexion Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

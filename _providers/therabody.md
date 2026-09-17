@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Therabody's agent-facing commerce server, implementing the Universal Commerce Protocol (UCP) shopping service over MCP on the Therabody storefront host. Anonymous tools/list returns 13 tools with full
@@ -159,7 +159,7 @@ overview: 'Therabody publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Therabody''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 17
+random_paper: 16
 scopes:
 - name: Therabody Scopes
   scope_count: 4
@@ -200,7 +200,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

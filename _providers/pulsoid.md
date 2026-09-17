@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -61,11 +61,6 @@ apis:
   slug: pulsoid-heart-rate-api
 - baseURL: https://dev.pulsoid.net
   baseurl_source: declared
-  description: The OAuth2 API from Pulsoid — 4 operation(s) for oauth2.
-  name: Pulsoid OAuth2 API
-  slug: pulsoid-oauth2-api
-- baseURL: https://dev.pulsoid.net
-  baseurl_source: declared
   description: The Profile API from Pulsoid — 1 operation(s) for profile.
   name: Pulsoid Profile API
   slug: pulsoid-profile-api
@@ -84,6 +79,11 @@ apis:
   description: The Widgets API from Pulsoid — 2 operation(s) for widgets.
   name: Pulsoid Widgets API
   slug: pulsoid-widgets-api
+- baseURL: https://dev.pulsoid.net
+  baseurl_source: declared
+  description: The OAuth2 API from Pulsoid — 4 operation(s) for oauth2.
+  name: Pulsoid O Auth2 API
+  slug: pulsoid-oauth2-api
 artifact_total: 25
 collections:
 - collection_type: open
@@ -193,7 +193,7 @@ plans:
 - name: Pulsoid Plans Pricing
   plan_count: 3
   slug: pulsoid-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Pulsoid Rate Limits
@@ -236,7 +236,7 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

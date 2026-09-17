@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 143
   slug: oracle-weblogic-agentic-access
   summary_line: 143 operations · 74 acting · 5 human-in-the-loop
-api_count: 3
+api_count: 20
 apis:
 - description: Python-based scripting interface for automating WebLogic Server administration tasks.
   name: WebLogic WLST (WebLogic Scripting Tool) API
@@ -144,17 +144,17 @@ apis:
 - baseURL: http://localhost:7001/management/weblogic/latest
   baseurl_source: declared
   description: Server lifecycle operations (start, stop, suspend, resume)
-  name: Oracle WebLogic Server Server Lifecycle API
+  name: Oracle WebLogic Server Lifecycle API
   slug: oracle-weblogic-server-lifecycle-api
 - baseURL: http://localhost:7001/management/weblogic/latest
   baseurl_source: declared
   description: Individual server runtime monitoring
-  name: Oracle WebLogic Server Server Runtime API
+  name: Oracle WebLogic Server Runtime API
   slug: oracle-weblogic-server-runtime-api
 - baseURL: http://localhost:7001/management/weblogic/latest
   baseurl_source: declared
   description: Manage server templates for dynamic server creation
-  name: Oracle WebLogic Server Server Templates API
+  name: Oracle WebLogic Server Templates API
   slug: oracle-weblogic-server-templates-api
 - baseURL: http://localhost:7001/management/weblogic/latest
   baseurl_source: declared
@@ -171,92 +171,42 @@ apis:
   description: Monitor thread pool utilization
   name: Oracle WebLogic Server Thread Pool Runtime API
   slug: oracle-weblogic-thread-pool-runtime-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: Deploy, undeploy, redeploy, and manage application configurations using the edit tree
-  name: Oracle WebLogic Server APIs Application Deployments API
-  slug: weblogic-application-deployments-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
+- baseURL: https://localhost:5556
+  baseurl_source: declared
   description: Application deployment monitoring
-  name: Oracle WebLogic Server APIs Applications API
-  slug: weblogic-applications-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: Cluster-level monitoring information
-  name: Oracle WebLogic Server APIs Clusters API
-  slug: weblogic-clusters-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: JDBC data source monitoring and metrics
-  name: Oracle WebLogic Server APIs Data Sources API
-  slug: weblogic-data-sources-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
+  name: Oracle WebLogic Server Applications API
+  slug: oracle-weblogic-applications-api
+- baseURL: https://localhost:5556
+  baseurl_source: declared
   description: Runtime deployment operations using the domain runtime deployment manager
-  name: Oracle WebLogic Server APIs Deployment Operations API
-  slug: weblogic-deployment-operations-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
+  name: Oracle WebLogic Server Deployment Operations API
+  slug: oracle-weblogic-deployment-operations-api
+- baseURL: https://localhost:5556
+  baseurl_source: declared
   description: WebLogic Diagnostic Framework (WLDF) resources
-  name: Oracle WebLogic Server APIs Diagnostics API
-  slug: weblogic-diagnostics-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: Read-only access to the domain-level configuration MBean tree including servers, clusters, data sources, JMS resources, and security realms.
-  name: Oracle WebLogic Server APIs Domain Configuration API
-  slug: weblogic-domain-configuration-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: Access to domain-level runtime MBeans including server lifecycle operations, deployment operations, and domain-wide monitoring data.
-  name: Oracle WebLogic Server APIs Domain Runtime API
-  slug: weblogic-domain-runtime-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
+  name: Oracle WebLogic Server Diagnostics API
+  slug: oracle-weblogic-diagnostics-api
+- baseURL: https://localhost:5556
+  baseurl_source: declared
   description: Configuration editing operations. An edit session must be started before making changes to the domain configuration. Changes are staged and then activated.
-  name: Oracle WebLogic Server APIs Edit API
-  slug: weblogic-edit-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
+  name: Oracle WebLogic Server Edit API
+  slug: oracle-weblogic-edit-api
+- baseURL: https://localhost:5556
+  baseurl_source: declared
   description: Server and subsystem health checks
-  name: Oracle WebLogic Server APIs Health API
-  slug: weblogic-health-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: JMS subsystem monitoring
-  name: Oracle WebLogic Server APIs JMS API
-  slug: weblogic-jms-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: Deploy and manage shared libraries
-  name: Oracle WebLogic Server APIs Library Deployments API
-  slug: weblogic-library-deployments-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
+  name: Oracle WebLogic Server Health API
+  slug: oracle-weblogic-health-api
+- baseURL: https://localhost:5556
+  baseurl_source: declared
   description: Server lifecycle management operations including starting, stopping, suspending, and resuming servers.
-  name: Oracle WebLogic Server APIs Lifecycle API
-  slug: weblogic-lifecycle-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: Read-only access to the server-level configuration MBean tree for individual managed servers.
-  name: Oracle WebLogic Server APIs Server Configuration API
-  slug: weblogic-server-configuration-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: Access to server-level runtime MBeans providing monitoring data for individual server instances including thread pools, JDBC, JMS, and application runtimes.
-  name: Oracle WebLogic Server APIs Server Runtime API
-  slug: weblogic-server-runtime-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
-  description: Server-level monitoring and health information
-  name: Oracle WebLogic Server APIs Servers API
-  slug: weblogic-servers-api
-- baseURL_template: https://{host}:{port}/management/weblogic/latest
-  baseurl_source: spec_template
+  name: Oracle WebLogic Server Lifecycle API
+  slug: oracle-weblogic-lifecycle-api
+- baseURL: https://localhost:5556
+  baseurl_source: declared
   description: Upload application archives to the administration server
-  name: Oracle WebLogic Server APIs Upload API
-  slug: weblogic-upload-api
-artifact_total: 167
+  name: Oracle WebLogic Server Upload API
+  slug: oracle-weblogic-upload-api
+artifact_total: 157
 collections:
 - collection_type: open
   name: API Collection
@@ -704,11 +654,11 @@ jsonld:
   property_count: 9
   slug: weblogic-context
 layout: provider
-modified: '2026-08-21'
+modified: '2026-09-16'
 name: Oracle WebLogic Server
 nav: Providers
 network: true
-overview: 'Oracle WebLogic Server publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Application Deployment API, Application Deployments API, Application Runtime API, and 38 more. Tagged areas include Application Server, Enterprise, Java EE, Middleware, and Oracle.
+overview: 'Oracle WebLogic Server publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Application Deployment API, Application Deployments API, Application Runtime API, and 28 more. Tagged areas include Application Server, Enterprise, Java EE, Middleware, and Oracle.
 
 
   The Oracle WebLogic Server catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -719,7 +669,7 @@ plans:
 - name: Oracle Weblogic Plans Pricing
   plan_count: 3
   slug: oracle-weblogic-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Oracle Weblogic Rate Limits
@@ -737,7 +687,7 @@ rules:
   slug: oracle-weblogic-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 42.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 60.3
@@ -745,11 +695,11 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 69.8
+    contract_quality: 71.3
     developer_ergonomics: 23.8
     discoverability: 57.4
     operational_transparency: 26.3
@@ -760,9 +710,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 41
+      total: 31
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

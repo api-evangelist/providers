@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 7
 common:
@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: Ryland/Standard Pacific merger complete as trading ...
   url: https://www.constructiondive.com/news/rylandstandard-pacific-merger-complete-as-trading-begins-for-new-calatlant/406642/
-random_paper: 13
+random_paper: 20
 rules:
 - effective_rule_count: 5
   extends: []
@@ -151,7 +151,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

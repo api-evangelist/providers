@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Investment-as-a-service REST API that allows developers to embed regulated investment products (savings, mutual funds, treasury bills, Eurobonds, equities) into their applications. Supports user accou
@@ -106,7 +106,7 @@ modified: '2026-06-13'
 name: Cowrywise
 nav: Providers
 network: true
-overview: 'Cowrywise publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Wealth Management, Investments, Savings, and Mutual Funds.
+overview: 'Cowrywise publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Wealth Management, Investment, Savings, and Mutual Funds.
 
 
   Cowrywise''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -114,7 +114,7 @@ plans:
 - name: Cowrywise Plans Pricing
   plan_count: 2
   slug: cowrywise-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Cowrywise Rate Limits
@@ -144,7 +144,7 @@ score:
     - africa
   previous_composite: 29.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ slug: cowrywise
 tags:
 - Fintech
 - Wealth Management
-- Investments
+- Investment
 - Savings
 - Mutual Funds
 - Nigeria

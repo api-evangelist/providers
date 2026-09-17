@@ -31,12 +31,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-09-15'
+  score: 33.2
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -56,11 +56,6 @@ apis:
   description: The Backship API from Back Market — 4 operation(s) for backship.
   name: Back Market Backship API
   slug: back-market-backship-api
-- baseURL: https://www.backmarket.com
-  baseurl_source: declared
-  description: The BuyBack API from Back Market — 12 operation(s) for buyback.
-  name: Back Market Buy Back API
-  slug: back-market-buyback-api
 - baseURL: https://www.backmarket.com
   baseurl_source: declared
   description: The Care API from Back Market — 6 operation(s) for care.
@@ -88,9 +83,14 @@ apis:
   slug: back-market-orders-api
 - baseURL: https://www.backmarket.com
   baseurl_source: declared
-  description: The TaskManager API from Back Market — 1 operation(s) for taskmanager.
-  name: Back Market Task Manager API
-  slug: back-market-taskmanager-api
+  description: The Buy Back API from Back Market — 12 operation(s) for buy back.
+  name: Back Market Buy Back API
+  slug: back-market-buy-back-api
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The task manager API from Back Market — 1 operation(s) for task manager.
+  name: Back Market task manager API
+  slug: back-market-task-manager-api
 artifact_total: 25
 collections:
 - collection_type: open
@@ -294,14 +294,14 @@ modified: '2026-08-02'
 name: Back Market
 nav: Providers
 network: true
-overview: 'Back Market publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Backbox API, Backship API, Buy Back API, and 6 more. Tagged areas include Company, E-Commerce, Marketplace, Retail, and Refurbished Electronics.
+overview: 'Back Market publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Backbox API, Backship API, Care API, and 6 more. Tagged areas include Company, E-Commerce, Marketplace, Retail, and Refurbished Electronics.
 
 
   The Back Market catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
   Back Market''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 13
   name: Back Market Rate Limits
@@ -320,7 +320,7 @@ rules:
   slug: back-market-rules
 score:
   band: developing
-  composite: 54.0
+  composite: 53.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 64.0
@@ -328,11 +328,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 34.2
     contract_governance: 50.0
-    contract_quality: 56.9
+    contract_quality: 55.7
     developer_ergonomics: 60.1
     discoverability: 75.9
     operational_transparency: 44.7
@@ -348,7 +348,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

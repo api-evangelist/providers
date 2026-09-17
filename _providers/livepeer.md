@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -93,11 +93,6 @@ apis:
 - description: React component for in-browser WebRTC broadcasting to a Livepeer live stream, with device selection and settings controls.
   name: Livepeer React Broadcast Component
   slug: react-broadcast
-- baseURL: https://livepeer.studio/api
-  baseurl_source: declared
-  description: Operations related to access control/signing keys api
-  name: Livepeer accessControl API
-  slug: livepeer-accesscontrol-api
 - baseURL: https://livepeer.studio/api
   baseurl_source: declared
   description: Operations related to asset/vod api
@@ -188,6 +183,11 @@ apis:
   description: Node status and information
   name: Livepeer Status API
   slug: livepeer-status-api
+- baseURL: https://livepeer.studio/api
+  baseurl_source: declared
+  description: Operations related to access control/signing keys api
+  name: Livepeer Access Control API
+  slug: livepeer-access-control-api
 arazzos:
 - description: Create a clip from a live playback ID, poll the clip task, fetch the asset.
   name: Livepeer Clip a Livestream
@@ -615,7 +615,7 @@ modified: '2026-08-08'
 name: Livepeer
 nav: Providers
 network: true
-overview: 'Livepeer publishes 19 APIs on the [APIs.io](https://apis.io/) network, including accessControl API, asset API, generate API, and 16 more. Tagged areas include Video, Streaming, Transcoding, Decentralized, and Web3.
+overview: 'Livepeer publishes 19 APIs on the [APIs.io](https://apis.io/) network, including asset API, generate API, metrics API, and 16 more. Tagged areas include Video, Streaming, Transcoding, Decentralized, and Web3.
 
 
   The Livepeer catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -626,7 +626,7 @@ plans:
 - name: Livepeer Plans Pricing
   plan_count: 1
   slug: livepeer-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Livepeer Rate Limits
@@ -691,7 +691,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

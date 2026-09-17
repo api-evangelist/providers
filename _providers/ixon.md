@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 460
   human_in_the_loop: 16
@@ -50,11 +50,6 @@ apis:
   description: The AccessRecoverList API from IXON — 1 operation(s) for accessrecoverlist.
   name: IXON AccessRecoverList API
   slug: ixon-accessrecoverlist-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
-  description: The AccessToken API from IXON — 1 operation(s) for accesstoken.
-  name: IXON AccessToken API
-  slug: ixon-accesstoken-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
   description: The AccessTokenList API from IXON — 1 operation(s) for accesstokenlist.
@@ -677,11 +672,6 @@ apis:
   slug: ixon-assetdescendantlist-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
-  description: The AssetLibrary API from IXON — 1 operation(s) for assetlibrary.
-  name: IXON AssetLibrary API
-  slug: ixon-assetlibrary-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
   description: The AssetLibraryInstanceDetach API from IXON — 1 operation(s) for assetlibraryinstancedetach.
   name: IXON AssetLibraryInstanceDetach API
   slug: ixon-assetlibraryinstancedetach-api
@@ -710,11 +700,6 @@ apis:
   description: The AssetLibraryVersionList API from IXON — 1 operation(s) for assetlibraryversionlist.
   name: IXON AssetLibraryVersionList API
   slug: ixon-assetlibraryversionlist-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
-  description: The AssetList API from IXON — 1 operation(s) for assetlist.
-  name: IXON AssetList API
-  slug: ixon-assetlist-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
   description: The AssetMembership API from IXON — 1 operation(s) for assetmembership.
@@ -830,11 +815,6 @@ apis:
   description: The AudienceDefault API from IXON — 1 operation(s) for audiencedefault.
   name: IXON AudienceDefault API
   slug: ixon-audiencedefault-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
-  description: The AudienceList API from IXON — 1 operation(s) for audiencelist.
-  name: IXON AudienceList API
-  slug: ixon-audiencelist-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
   description: The AuditLogExport API from IXON — 1 operation(s) for auditlogexport.
@@ -1027,11 +1007,6 @@ apis:
   slug: ixon-controlleddevicemembershiplist-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
-  description: The CustomProperty API from IXON — 1 operation(s) for customproperty.
-  name: IXON CustomProperty API
-  slug: ixon-customproperty-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
   description: The CustomPropertyList API from IXON — 1 operation(s) for custompropertylist.
   name: IXON CustomPropertyList API
   slug: ixon-custompropertylist-api
@@ -1040,11 +1015,6 @@ apis:
   description: The DataDeletionRequestList API from IXON — 1 operation(s) for datadeletionrequestlist.
   name: IXON DataDeletionRequestList API
   slug: ixon-datadeletionrequestlist-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
-  description: The DataExport API from IXON — 1 operation(s) for dataexport.
-  name: IXON DataExport API
-  slug: ixon-dataexport-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
   description: The DataList API from IXON — 1 operation(s) for datalist.
@@ -1100,11 +1070,6 @@ apis:
   description: The GroupRoleList API from IXON — 1 operation(s) for grouprolelist.
   name: IXON GroupRoleList API
   slug: ixon-grouprolelist-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
-  description: The GroupType API from IXON — 1 operation(s) for grouptype.
-  name: IXON GroupType API
-  slug: ixon-grouptype-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
   description: The GroupTypeList API from IXON — 1 operation(s) for grouptypelist.
@@ -1335,11 +1300,6 @@ apis:
   description: The MySector API from IXON — 1 operation(s) for mysector.
   name: IXON MySector API
   slug: ixon-mysector-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
-  description: The MyUser API from IXON — 1 operation(s) for myuser.
-  name: IXON MyUser API
-  slug: ixon-myuser-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
   description: The MyUserEmailAddressChange API from IXON — 1 operation(s) for myuseremailaddresschange.
@@ -1652,16 +1612,6 @@ apis:
   slug: ixon-routerdisplayscreensaverupload-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
-  description: The ScimSchemas API from IXON — 1 operation(s) for scimschemas.
-  name: IXON ScimSchemas API
-  slug: ixon-scimschemas-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
-  description: The ScimServiceProviderConfig API from IXON — 1 operation(s) for scimserviceproviderconfig.
-  name: IXON ScimServiceProviderConfig API
-  slug: ixon-scimserviceproviderconfig-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
   description: The Sector API from IXON — 1 operation(s) for sector.
   name: IXON Sector API
   slug: ixon-sector-api
@@ -1672,19 +1622,9 @@ apis:
   slug: ixon-sectorlist-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
-  description: The ServerTime API from IXON — 1 operation(s) for servertime.
-  name: IXON ServerTime API
-  slug: ixon-servertime-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
   description: The ServerValidation API from IXON — 1 operation(s) for servervalidation.
   name: IXON ServerValidation API
   slug: ixon-servervalidation-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
-  description: The ServiceAccount API from IXON — 1 operation(s) for serviceaccount.
-  name: IXON ServiceAccount API
-  slug: ixon-serviceaccount-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
   description: The ServiceAccountList API from IXON — 1 operation(s) for serviceaccountlist.
@@ -1762,11 +1702,6 @@ apis:
   slug: ixon-user-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
-  description: The UserList API from IXON — 1 operation(s) for userlist.
-  name: IXON UserList API
-  slug: ixon-userlist-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
   description: The UserMembership API from IXON — 1 operation(s) for usermembership.
   name: IXON UserMembership API
   slug: ixon-usermembership-api
@@ -1827,11 +1762,6 @@ apis:
   slug: ixon-webaccesssessionrecordinglist-api
 - baseURL: https://portal.ixon.cloud/api/
   baseurl_source: declared
-  description: The WebhookSubscription API from IXON — 1 operation(s) for webhooksubscription.
-  name: IXON WebhookSubscription API
-  slug: ixon-webhooksubscription-api
-- baseURL: https://portal.ixon.cloud/api/
-  baseurl_source: declared
   description: The WebhookSubscriptionList API from IXON — 1 operation(s) for webhooksubscriptionlist.
   name: IXON WebhookSubscriptionList API
   slug: ixon-webhooksubscriptionlist-api
@@ -1840,6 +1770,76 @@ apis:
   description: The WebhookSubscriptionTriggerList API from IXON — 1 operation(s) for webhooksubscriptiontriggerlist.
   name: IXON WebhookSubscriptionTriggerList API
   slug: ixon-webhooksubscriptiontriggerlist-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Access Token API from IXON — 1 operation(s) for access token.
+  name: IXON Access Token API
+  slug: ixon-access-token-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Asset Library API from IXON — 1 operation(s) for asset library.
+  name: IXON Asset Library API
+  slug: ixon-asset-library-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Asset List API from IXON — 1 operation(s) for asset list.
+  name: IXON Asset List API
+  slug: ixon-asset-list-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Audience List API from IXON — 1 operation(s) for audience list.
+  name: IXON Audience List API
+  slug: ixon-audience-list-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Custom Property API from IXON — 1 operation(s) for custom property.
+  name: IXON Custom Property API
+  slug: ixon-custom-property-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Data Export API from IXON — 1 operation(s) for data export.
+  name: IXON Data Export API
+  slug: ixon-data-export-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Group Type API from IXON — 1 operation(s) for group type.
+  name: IXON Group Type API
+  slug: ixon-group-type-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The My User API from IXON — 1 operation(s) for my user.
+  name: IXON My User API
+  slug: ixon-my-user-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The (Scim) Schemas API from IXON — 1 operation(s) for (scim) schemas.
+  name: IXON (Scim) Schemas API
+  slug: ixon-scim-schemas-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The (Scim) ServiceProviderConfig API from IXON — 1 operation(s) for (scim) serviceproviderconfig.
+  name: IXON (Scim) ServiceProviderConfig API
+  slug: ixon-scim-serviceproviderconfig-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Server Time API from IXON — 1 operation(s) for server time.
+  name: IXON Server Time API
+  slug: ixon-server-time-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Service Account API from IXON — 1 operation(s) for service account.
+  name: IXON Service Account API
+  slug: ixon-service-account-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The User List API from IXON — 1 operation(s) for user list.
+  name: IXON User List API
+  slug: ixon-user-list-api
+- baseURL: https://portal.ixon.cloud/api/
+  baseurl_source: declared
+  description: The Webhook Subscription API from IXON — 1 operation(s) for webhook subscription.
+  name: IXON Webhook Subscription API
+  slug: ixon-webhook-subscription-api
 artifact_total: 728
 collections:
 - collection_type: open
@@ -3000,7 +3000,7 @@ modified: '2026-05-19'
 name: IXON
 nav: Providers
 network: true
-overview: 'IXON publishes 359 APIs on the [APIs.io](https://apis.io/) network, including AccessRecoverList API, AccessToken API, AccessTokenList API, and 356 more. Tagged areas include IIoT, Industrial IoT, Machine Connectivity, and Remote Access.
+overview: 'IXON publishes 359 APIs on the [APIs.io](https://apis.io/) network, including AccessRecoverList API, AccessTokenList API, Agent API, and 356 more. Tagged areas include IIoT, Industrial IoT, Machine Connectivity, and Remote Access.
 
 
   IXON''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 9 more developer resources.'
@@ -3008,14 +3008,14 @@ plans:
 - name: Ixon Plans Pricing
   plan_count: 3
   slug: ixon-plans-pricing
-random_paper: 5
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Ixon Rate Limits
   slug: ixon-rate-limits
 score:
   band: thin
-  composite: 30.1
+  composite: 30.8
   coverage:
     artifact_dirs: 11
     catalog_earned: 28.0
@@ -3023,11 +3023,11 @@ score:
     catalog_gap: 87.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 48.4
+    contract_quality: 51.1
     developer_ergonomics: 41.7
     discoverability: 42.6
     operational_transparency: 10.5
@@ -3040,7 +3040,7 @@ score:
       marker_coverage: 0.0
       total: 359
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

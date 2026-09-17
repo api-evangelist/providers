@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,16 +54,16 @@ apis:
 - description: Provides access to official NIST time services for time synchronization.
   name: NIST Time API
   slug: nist-time-api
-- baseURL: https://services.nvd.nist.gov/rest/json
-  baseurl_source: declared
-  description: The Cvehistory API from National Institute of Standards and Technology (NIST) — 1 operation(s) for cvehistory.
-  name: National Institute of Standards and Technology (NIST) Cvehistory API
-  slug: nist-cvehistory-api
-- baseURL: https://services.nvd.nist.gov/rest/json
+- baseURL: https://webbook.nist.gov/cgi
   baseurl_source: declared
   description: The Cves API from National Institute of Standards and Technology (NIST) — 1 operation(s) for cves.
   name: National Institute of Standards and Technology (NIST) Cves API
   slug: nist-cves-api
+- baseURL: https://webbook.nist.gov/cgi
+  baseurl_source: declared
+  description: The CVE History API from National Institute of Standards and Technology (NIST) — 1 operation(s) for cve history.
+  name: National Institute of Standards and Technology (NIST) CVE History API
+  slug: nist-cve-history-api
 artifact_total: 15
 collections:
 - collection_type: open
@@ -79,6 +79,10 @@ collections:
   name: NIST NVD CVE API
   slug: open-nist-nvd-cve
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://nist.gov
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/agentic-access/nist-agentic-access.yml
   title: ''
@@ -106,19 +110,19 @@ finops:
   slug: nist-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nist.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: National Institute of Standards and Technology (NIST)
 nav: Providers
 network: true
-overview: 'National Institute of Standards and Technology (NIST) publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cvehistory API and Cves API. Tagged areas include Cybersecurity, Government, Measurements, Research, and Scientific Data.
+overview: 'National Institute of Standards and Technology (NIST) publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cves API and CVE History API. Tagged areas include Cybersecurity, Government, Measurements, Research, and Scientific Data.
 
 
-  National Institute of Standards and Technology (NIST)''s developer surface includes authentication, engineering blog, and 2 more developer resources.'
+  National Institute of Standards and Technology (NIST)''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
 plans:
 - name: Nist Plans Pricing
   plan_count: 2
   slug: nist-plans-pricing
-random_paper: 5
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Nist Rate Limits
@@ -156,7 +160,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -180,4 +184,5 @@ tags:
 - Research
 - Scientific Data
 - Standards
+website: https://nist.gov
 ---

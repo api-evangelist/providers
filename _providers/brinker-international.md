@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -156,7 +156,7 @@ press:
 - date: '2026-05-25'
   title: BRINKER INTERNATIONAL REPORTS THIRD QUARTER ...
   url: https://www.prnewswire.com/news-releases/brinker-international-reports-third-quarter-of-fiscal-2026-results-and-updates-fiscal-2026-guidance-302756567.html
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Brinker International Rate Limits
@@ -186,7 +186,7 @@ score:
     - north-america
   previous_composite: 13.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Public GraphQL API used by the Balancer UI and integrators. Provides pools, tokens, swaps, gauges, voting, and analytics across all supported chains.
@@ -50,6 +50,10 @@ apis:
   slug: smart-contracts
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://balancer.fi
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/balancer/refs/heads/main/security/balancer-domain-security.yml
   title: ''
@@ -110,19 +114,19 @@ graphqls:
   slug: balancer-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/balancer.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-09-16'
 name: Balancer
 nav: Providers
 network: true
 overview: 'Balancer publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Web3, DeFi, DEX, AMM, and Liquidity.
 
 
-  Balancer''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 7 more developer resources.'
+  Balancer''s developer surface includes developer portal, documentation, GitHub presence, engineering blog, and 8 more developer resources.'
 plans:
 - name: Balancer Plans Pricing
   plan_count: 2
   slug: balancer-plans-pricing
-random_paper: 5
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Balancer Rate Limits
@@ -147,7 +151,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -170,5 +174,5 @@ tags:
 - GraphQL
 - Smart Order Router
 - Open-Source
-website: https://balancer.fi/
+website: https://balancer.fi
 ---

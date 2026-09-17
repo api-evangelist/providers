@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: OAuth 2.0 identity API for now.gg Login. Publishers exchange an authorization code for a token and refresh_token, verify id_token/token server-side, and read user profile and session information for t
@@ -219,7 +219,7 @@ overview: 'Bluestacks publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Bluestacks'' developer surface includes documentation, API reference, getting-started guide, developer console, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 2
+random_paper: 17
 scopes:
 - name: Bluestacks Scopes
   scope_count: 3
@@ -253,7 +253,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

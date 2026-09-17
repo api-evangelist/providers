@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 36
@@ -70,11 +70,6 @@ apis:
   description: APIs for auth integrations.
   name: Netcracker Auth API
   slug: netcracker-auth-api
-- baseURL: https://{apihub}.qubership.org
-  baseurl_source: declared
-  description: Backup & Restore operations for DBaaS
-  name: Netcracker Backup & Restore API
-  slug: netcracker-backup-restore-api
 - baseURL: https://{apihub}.qubership.org
   baseurl_source: declared
   description: Allows to get list of available backups, trigger backup collector and restore some specific backup. All backup management is per namespace.
@@ -162,11 +157,6 @@ apis:
   slug: netcracker-global-database-operation-controller-v3-api
 - baseURL: https://{apihub}.qubership.org
   baseurl_source: declared
-  description: APIs for internal documents management.
-  name: Netcracker Internal Documents API
-  slug: netcracker-internal-documents-api
-- baseURL: https://{apihub}.qubership.org
-  baseurl_source: declared
   description: This controller contains APIs based on microservice value.
   name: Netcracker Microservice controller v3 API
   slug: netcracker-microservice-controller-v3-api
@@ -245,6 +235,16 @@ apis:
   description: Published package versions API.
   name: Netcracker Versions API
   slug: netcracker-versions-api
+- baseURL: https://{apihub}.qubership.org
+  baseurl_source: declared
+  description: Backup & Restore operations for DBaaS
+  name: Netcracker Backup And Restore API
+  slug: netcracker-backup-and-restore-api
+- baseURL: https://{apihub}.qubership.org
+  baseurl_source: declared
+  description: APIs for internal documents management.
+  name: Netcracker Internaldocuments API
+  slug: netcracker-internaldocuments-api
 artifact_total: 50
 collections:
 - collection_type: open
@@ -509,10 +509,10 @@ overview: 'Netcracker publishes 40 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 44 more developer resources.'
-random_paper: 8
+random_paper: 2
 score:
   band: strong
-  composite: 61.0
+  composite: 61.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -520,11 +520,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 57.2
+    contract_quality: 58.2
     developer_ergonomics: 75.6
     discoverability: 68.5
     operational_transparency: 28.9
@@ -556,7 +556,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

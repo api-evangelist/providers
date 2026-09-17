@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -138,6 +138,10 @@ collections:
   name: NetApp ONTAP REST Aggregates Volumes API
   slug: open-netapp-volumes-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://netapp.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/capabilities/netapp-capability-edges.yml
   title: ''
@@ -422,7 +426,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: NetApp
 nav: Providers
 network: true
@@ -432,7 +436,7 @@ overview: 'NetApp publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The NetApp catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  NetApp''s developer surface includes authentication, support, engineering blog, and 12 more developer resources.'
+  NetApp''s developer surface includes authentication, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Netapp Plans Pricing
   plan_count: 7
@@ -453,7 +457,7 @@ press:
 - date: '2026-05-25'
   title: AI in the wild | Watts the Future
   url: https://www.netapp.com/video/tM47Foy3L_U/ai-in-the-wild-watts-the-future/
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Netapp Rate Limits
@@ -510,7 +514,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -537,5 +541,5 @@ tags:
 - Infrastructure
 - Storage
 - Fortune 500
-website: https://devnet.netapp.com/
+website: https://netapp.com
 ---

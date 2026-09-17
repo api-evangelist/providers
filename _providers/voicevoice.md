@@ -29,7 +29,7 @@ name: VoiceVoice
 nav: Providers
 network: true
 overview: VoiceVoice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conferencing, Audio, Communications, and Defunct.
-random_paper: 18
+random_paper: 12
 security:
 - kind: domain-security
   name: Voicevoice Domain Security

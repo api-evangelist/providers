@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Uplight markets a Developer Platform that exposes customer, program, eligibility, enrollment, device, and energy-flexibility data to utilities and ecosystem partners through APIs. The reference is pub
@@ -147,7 +147,7 @@ overview: 'Uplight publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Uplight''s developer surface includes documentation, API reference, engineering blog, privacy policy, and 18 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: emerging
   composite: 18.7
@@ -183,7 +183,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

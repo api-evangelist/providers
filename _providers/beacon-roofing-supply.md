@@ -35,46 +35,251 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
-api_count: 11
+  scored_at: '2026-09-16'
+api_count: 21
 apis:
 - baseURL: https://beaconproplus.com/v2/rest/com/becn
   baseurl_source: declared
-  description: 'The primary Beacon Rest Services surface — 187 published operations covering the product catalog, account-specific real-time pricing, branch and region availability, cart and order submission, quotes '
-  name: Beacon PRO+ API (V2, OAuth)
-  slug: beacon-pro-plus
-- baseURL: https://beaconproplus.com
-  baseurl_source: declared
-  description: The combined Beacon Rest Services document — 145 operations spanning the V1, V2, V3 and V4 tags plus the Integrations and Beacon Stack surfaces. It is the ONLY Beacon document that assigns operationId
-  name: Beacon External Rest Service (all_api)
-  slug: beacon-rest-all-api
-- baseURL: https://beaconproplus.com/v3/rest/com/becn
-  baseurl_source: declared
-  description: Beacon's integration surface — bulk catalog, SKU, branch and product-availability extracts designed for ERP, PIM and estimating-system synchronisation, plus the Mincron ERP product mapping endpoint an
-  name: Beacon Rest Services V3 (Public / Integrations)
-  slug: beacon-rest-v3
-- baseURL: https://beaconproplus.com/v1/rest/com/becn
-  baseurl_source: declared
-  description: The original Beacon PRO+ API surface — login and logout, account switching, branch list, jobs, order history and detail, catalog item lookup, pricing, cart items, order submission and templates. Ninet
-  name: Beacon Rest Services V1 (session)
-  slug: beacon-rest-v1
-- baseURL: https://beaconproplus.com/rest/model/REST/oauth
-  baseurl_source: declared
-  description: Beacon's OAuth 2.0 token service, implementing the refresh_token grant and linking to https://oauth.net/2/grant-types/refresh-token/ in its own description. Returns access_token, token_type, expires_i
-  name: Beacon OAuth Rest Service
-  slug: beacon-oauth
-- baseURL: https://beaconproplus.com/v2/rest/com/becn/public
-  baseurl_source: declared
-  description: A small unauthenticated-user surface published at /v2/rest/com/becn/public. Beacon documents it as APIs that "do not require the user to login", though a bearer token is still required to be authorize
-  name: Beacon Rest Services Public
-  slug: beacon-rest-public
+  description: The Add Multiple Items To Order API from Beacon Roofing Supply — 1 operation(s) for add multiple items to order.
+  name: Beacon Roofing Supply Add Multiple Items To Order API
+  slug: beacon-roofing-supply-add-multiple-items-to-order-api
 - baseURL: https://beaconproplus.com/v2/rest/com/becn
   baseurl_source: declared
-  description: An internal-facing Beacon service that is nonetheless listed on the same public Swagger index and whose documentation is served without authentication — user and internal-user administration, EagleVie
-  name: Beacon Internal Rest Service
-  slug: beacon-rest-internal
-artifact_total: 27
+  description: The Beacon Stack (BASE URL:- https://beacon-api-x7xzzdp35a-uk.a.run.app) API from Beacon Roofing Supply — 2 operation(s) for beacon stack (base url:- https://beacon-api-x7xzzdp35a-uk.a.run.app).
+  name: Beacon Roofing Supply Beacon Stack (BASE URL:- https://beacon-api-x7xzzdp35a-uk.a.run.app) API
+  slug: beacon-roofing-supply-beacon-stack-base-url-https-beacon-api-x7xzzdp35a-uk-a-run-app-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Bill Trust Services API from Beacon Roofing Supply — 1 operation(s) for bill trust services.
+  name: Beacon Roofing Supply Bill Trust Services API
+  slug: beacon-roofing-supply-bill-trust-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Catalog ITEM Services API from Beacon Roofing Supply — 27 operation(s) for catalog item services.
+  name: Beacon Roofing Supply Catalog ITEM Services API
+  slug: beacon-roofing-supply-catalog-item-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Checkout API from Beacon Roofing Supply — 14 operation(s) for checkout.
+  name: Beacon Roofing Supply Checkout API
+  slug: beacon-roofing-supply-checkout-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Customer Services API from Beacon Roofing Supply — 4 operation(s) for customer services.
+  name: Beacon Roofing Supply Customer Services API
+  slug: beacon-roofing-supply-customer-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Delivery Tracking Service API from Beacon Roofing Supply — 9 operation(s) for delivery tracking service.
+  name: Beacon Roofing Supply Delivery Tracking Service API
+  slug: beacon-roofing-supply-delivery-tracking-service-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Eagle View Order API from Beacon Roofing Supply — 11 operation(s) for eagle view order.
+  name: Beacon Roofing Supply Eagle View Order API
+  slug: beacon-roofing-supply-eagle-view-order-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Eagle View Reports API from Beacon Roofing Supply — 3 operation(s) for eagle view reports.
+  name: Beacon Roofing Supply Eagle View Reports API
+  slug: beacon-roofing-supply-eagle-view-reports-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The EV Measurement to Order API from Beacon Roofing Supply — 12 operation(s) for ev measurement to order.
+  name: Beacon Roofing Supply EV Measurement to Order API
+  slug: beacon-roofing-supply-ev-measurement-to-order-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Favorites Services API from Beacon Roofing Supply — 4 operation(s) for favorites services.
+  name: Beacon Roofing Supply Favorites Services API
+  slug: beacon-roofing-supply-favorites-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The GAF Quick Measure Services API from Beacon Roofing Supply — 3 operation(s) for gaf quick measure services.
+  name: Beacon Roofing Supply GAF Quick Measure Services API
+  slug: beacon-roofing-supply-gaf-quick-measure-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Health Check API from Beacon Roofing Supply — 1 operation(s) for health check.
+  name: Beacon Roofing Supply Health Check API
+  slug: beacon-roofing-supply-health-check-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Hover Job Services API from Beacon Roofing Supply — 4 operation(s) for hover job services.
+  name: Beacon Roofing Supply Hover Job Services API
+  slug: beacon-roofing-supply-hover-job-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The IDP Token Services API from Beacon Roofing Supply — 1 operation(s) for idp token services.
+  name: Beacon Roofing Supply IDP Token Services API
+  slug: beacon-roofing-supply-idp-token-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Integration Services API from Beacon Roofing Supply — 1 operation(s) for integration services.
+  name: Beacon Roofing Supply Integration Services API
+  slug: beacon-roofing-supply-integration-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Integrations - Development API from Beacon Roofing Supply — 2 operation(s) for integrations - development.
+  name: Beacon Roofing Supply Integrations - Development API
+  slug: beacon-roofing-supply-integrations-development-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Invoiced Services API from Beacon Roofing Supply — 1 operation(s) for invoiced services.
+  name: Beacon Roofing Supply Invoiced Services API
+  slug: beacon-roofing-supply-invoiced-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Job Service API from Beacon Roofing Supply — 2 operation(s) for job service.
+  name: Beacon Roofing Supply Job Service API
+  slug: beacon-roofing-supply-job-service-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Journal Services API from Beacon Roofing Supply — 5 operation(s) for journal services.
+  name: Beacon Roofing Supply Journal Services API
+  slug: beacon-roofing-supply-journal-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Loyal Reward Services API from Beacon Roofing Supply — 1 operation(s) for loyal reward services.
+  name: Beacon Roofing Supply Loyal Reward Services API
+  slug: beacon-roofing-supply-loyal-reward-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The My Account Services API from Beacon Roofing Supply — 37 operation(s) for my account services.
+  name: Beacon Roofing Supply My Account Services API
+  slug: beacon-roofing-supply-my-account-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The OAuth Service API from Beacon Roofing Supply — 1 operation(s) for oauth service.
+  name: Beacon Roofing Supply OAuth Service API
+  slug: beacon-roofing-supply-oauth-service-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Order History Services API from Beacon Roofing Supply — 6 operation(s) for order history services.
+  name: Beacon Roofing Supply Order History Services API
+  slug: beacon-roofing-supply-order-history-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Perfect Order Services API from Beacon Roofing Supply — 4 operation(s) for perfect order services.
+  name: Beacon Roofing Supply Perfect Order Services API
+  slug: beacon-roofing-supply-perfect-order-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Pricing Services API from Beacon Roofing Supply — 2 operation(s) for pricing services.
+  name: Beacon Roofing Supply Pricing Services API
+  slug: beacon-roofing-supply-pricing-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Quote Order Services API from Beacon Roofing Supply — 8 operation(s) for quote order services.
+  name: Beacon Roofing Supply Quote Order Services API
+  slug: beacon-roofing-supply-quote-order-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Quote Services API from Beacon Roofing Supply — 13 operation(s) for quote services.
+  name: Beacon Roofing Supply Quote Services API
+  slug: beacon-roofing-supply-quote-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Rebate Services API from Beacon Roofing Supply — 10 operation(s) for rebate services.
+  name: Beacon Roofing Supply Rebate Services API
+  slug: beacon-roofing-supply-rebate-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Sales Order Hold Services API from Beacon Roofing Supply — 2 operation(s) for sales order hold services.
+  name: Beacon Roofing Supply Sales Order Hold Services API
+  slug: beacon-roofing-supply-sales-order-hold-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Saved Order Services API from Beacon Roofing Supply — 16 operation(s) for saved order services.
+  name: Beacon Roofing Supply Saved Order Services API
+  slug: beacon-roofing-supply-saved-order-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The SMS Services API from Beacon Roofing Supply — 1 operation(s) for sms services.
+  name: Beacon Roofing Supply SMS Services API
+  slug: beacon-roofing-supply-sms-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Submit Order Services API from Beacon Roofing Supply — 1 operation(s) for submit order services.
+  name: Beacon Roofing Supply Submit Order Services API
+  slug: beacon-roofing-supply-submit-order-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Suggestive Selling API from Beacon Roofing Supply — 1 operation(s) for suggestive selling.
+  name: Beacon Roofing Supply Suggestive Selling API
+  slug: beacon-roofing-supply-suggestive-selling-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The Template Services API from Beacon Roofing Supply — 11 operation(s) for template services.
+  name: Beacon Roofing Supply Template Services API
+  slug: beacon-roofing-supply-template-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The User Register Services API from Beacon Roofing Supply — 4 operation(s) for user register services.
+  name: Beacon Roofing Supply User Register Services API
+  slug: beacon-roofing-supply-user-register-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The User Tour Services API from Beacon Roofing Supply — 2 operation(s) for user tour services.
+  name: Beacon Roofing Supply User Tour Services API
+  slug: beacon-roofing-supply-user-tour-services-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The V1 API from Beacon Roofing Supply — 10 operation(s) for v1.
+  name: Beacon Roofing Supply V1 API
+  slug: beacon-roofing-supply-v1-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The V2 API from Beacon Roofing Supply — 126 operation(s) for v2.
+  name: Beacon Roofing Supply V2 API
+  slug: beacon-roofing-supply-v2-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The V3 API from Beacon Roofing Supply — 4 operation(s) for v3.
+  name: Beacon Roofing Supply V3 API
+  slug: beacon-roofing-supply-v3-api
+- baseURL: https://beaconproplus.com/v2/rest/com/becn
+  baseurl_source: declared
+  description: The V4 API from Beacon Roofing Supply — 1 operation(s) for v4.
+  name: Beacon Roofing Supply V4 API
+  slug: beacon-roofing-supply-v4-api
+artifact_total: 61
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/overlays/beacon-roofing-supply-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/beacon-roofing-supply-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/overlays/beacon-roofing-supply-all-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/beacon-roofing-supply-all-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/overlays/beacon-roofing-supply-v3-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/beacon-roofing-supply-v3-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/overlays/beacon-roofing-supply-v1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/beacon-roofing-supply-v1-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/overlays/beacon-roofing-supply-oauth2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/beacon-roofing-supply-oauth2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/overlays/beacon-roofing-supply-public-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/beacon-roofing-supply-public-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/overlays/beacon-roofing-supply-internal-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/beacon-roofing-supply-internal-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/authentication/beacon-roofing-supply-authentication.yml
   title: ''
@@ -242,10 +447,10 @@ modified: '2026-09-04'
 name: Beacon Roofing Supply
 nav: Providers
 network: true
-overview: 'Beacon Roofing Supply publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Beacon PRO+ API (V2, OAuth), Beacon External Rest Service (all_api), Beacon Rest Services V3 (Public / Integrations), and 4 more. Tagged areas include Construction, Distribution, Roofing, Building Materials, and E-Commerce.
+overview: 'Beacon Roofing Supply publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Add Multiple Items To Order API, Beacon Stack (BASE URL:- https://beacon-api-x7xzzdp35a-uk.a.run.app) API, Bill Trust Services API, and 38 more. Tagged areas include Construction, Distribution, Roofing, Building Materials, and E-Commerce.
 
 
-  Beacon Roofing Supply''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 22 more developer resources.'
+  Beacon Roofing Supply''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 29 more developer resources.'
 plans:
 - name: Beacon Roofing Supply Plans Pricing
   plan_count: 0
@@ -266,7 +471,7 @@ press:
 - date: '2026-05-25'
   title: QXO launches $11 billion tender offer for Beacon Roofing ...
   url: https://www.investing.com/news/company-news/qxo-launches-11-billion-tender-offer-for-beacon-roofing-supply-93CH-3831708
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Beacon Roofing Supply Rate Limits
@@ -278,34 +483,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.8
+  composite: 43.4
   coverage:
     artifact_dirs: 24
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 50.3
+    contract_quality: 50.9
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 23.7
   previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 85.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 41
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://external.dev.onboardpay.co
   baseurl_source: declared
   description: The exchange-external-api API from Nestcoin — 13 operation(s) for exchange-external-api.
-  name: Nestcoin exchange-external-api API
+  name: Nestcoin exchange-external-api
   slug: nestcoin-exchange-external-api-api
 - baseURL: https://external.dev.onboardpay.co
   baseurl_source: declared
@@ -352,18 +352,18 @@ created: '2026-07-17'
 description: Nestcoin is an African fintech company building Onboard, a digital-money platform and crypto exchange for on/off-ramping between fiat and crypto. Its developer product, Onboard Connect, is the SDK & API integration layer over Onboard Exchange, giving Web2 and Web3 builders access to a ready-made peer-to-peer marketplace, liquidity, offers/pricing, orders, beneficiaries, and payout accounts. The public Onboard External API Gateway (OpenAPI 3.0.3, v3.0.2) exposes 96 operations across users/auth, offers, orders, accounts, and webhooks, secured with API keys, session tokens, and HMAC-SHA256 request signing. Nestcoin is backed by Coinbase Ventures, Base Ecosystem, HashKey Capital, Hashed Emergent, Distributed Global, Electric Capital, and others.
 image: https://nestcoin.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Nestcoin
 nav: Providers
 network: true
-overview: 'Nestcoin publishes 23 APIs on the [APIs.io](https://apis.io/) network, including auth-oauth API, auth-userauth API, exchange-external-api API, and 20 more. Tagged areas include Company, Fintech, Crypto, Exchange, and On-Off Ramp.
+overview: 'Nestcoin publishes 23 APIs on the [APIs.io](https://apis.io/) network, including auth-oauth API, auth-userauth API, exchange-external-api, and 20 more. Tagged areas include Company, Fintech, Crypto, Exchange, and On-Off Ramp.
 
 
   The Nestcoin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Nestcoin''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 6
+random_paper: 9
 score:
   band: developing
   composite: 40.7
@@ -405,7 +405,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

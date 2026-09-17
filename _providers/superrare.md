@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   slug: superrare-merkle-roots-api
 - baseURL: https://api.superrare.com
   baseurl_source: declared
-  description: Search, retrieve, and manage NFT tokens and metadata
-  name: SuperRare NFTs API
-  slug: superrare-nfts-api
-- baseURL: https://api.superrare.com
-  baseurl_source: declared
   description: Retrieve token price data
   name: SuperRare Tokens API
   slug: superrare-tokens-api
@@ -85,6 +80,11 @@ apis:
   description: Retrieve user profile information
   name: SuperRare Users API
   slug: superrare-users-api
+- baseURL: https://beta.rare.xyz
+  baseurl_source: declared
+  description: Search, retrieve, and manage NFT tokens and metadata
+  name: SuperRare NF Ts API
+  slug: superrare-nfts-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -211,7 +211,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -246,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

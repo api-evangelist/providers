@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://datacatalog.googleapis.com
   baseurl_source: declared
   description: Search operations across the catalog
-  name: Google Cloud Data Catalog Catalog API
+  name: Google Cloud Data Catalog API
   slug: google-cloud-data-catalog-catalog-api
 - baseURL: https://datacatalog.googleapis.com
   baseurl_source: declared
@@ -192,11 +192,11 @@ jsonld:
   property_count: 1
   slug: google-cloud-data-catalog-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Cloud Data Catalog
 nav: Providers
 network: true
-overview: 'Google Cloud Data Catalog publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Entries API, EntryGroups API, and 1 more. Tagged areas include Data Catalog, Data Governance, Google Cloud, and Metadata.
+overview: 'Google Cloud Data Catalog publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entries API, EntryGroups API, and 2 more. Tagged areas include Data Catalog, Data Governance, Google Cloud, and Metadata.
 
 
   The Google Cloud Data Catalog catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -207,7 +207,7 @@ plans:
 - name: Google Cloud Data Catalog Plans Pricing
   plan_count: 3
   slug: google-cloud-data-catalog-plans-pricing
-random_paper: 12
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Google Cloud Data Catalog Rate Limits
@@ -255,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

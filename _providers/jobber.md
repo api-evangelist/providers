@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,9 +47,9 @@ api_count: 1
 apis:
 - baseURL: https://api.getjobber.com/api/graphql
   baseurl_source: declared
-  description: The GraphQL API from Jobber — 1 operation(s) for graphql.
-  name: Jobber GraphQL API
-  slug: jobber-graphql-api
+  description: The Graph QL API from Jobber — 1 operation(s) for graph ql.
+  name: Jobber Graph QL API
+  slug: jobber-graph-ql-api
 artifact_total: 55
 collections:
 - collection_type: open
@@ -265,7 +265,7 @@ modified: '2026-05-25'
 name: Jobber
 nav: Providers
 network: true
-overview: 'Jobber publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Field Service Management, Home Service, Scheduling, Quoting, and Invoicing.
+overview: 'Jobber publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Field Service Management, Home Service, Scheduling, Quoting, and Invoicing.
 
 
   The Jobber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -276,7 +276,7 @@ plans:
 - name: Jobber Plans Pricing
   plan_count: 4
   slug: jobber-plans-pricing
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Jobber Rate Limits
@@ -331,7 +331,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

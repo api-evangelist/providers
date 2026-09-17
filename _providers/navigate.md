@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.navigateai.co
@@ -238,7 +238,7 @@ overview: 'Navigate publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Navigate''s developer surface includes support and 11 more developer resources.'
-random_paper: 7
+random_paper: 11
 score:
   band: thin
   composite: 30.4
@@ -268,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

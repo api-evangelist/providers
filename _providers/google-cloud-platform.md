@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -75,14 +75,14 @@ apis:
   description: Manage tag keys used to organize and categorize Google Cloud resources. Tag keys define the namespace for tag values that can be attached to resources.
   name: Google Cloud Platform TagKeys API
   slug: google-cloud-platform-tagkeys-api
-- baseURL: https://compute.googleapis.com
-  baseurl_source: declared
-  description: Manage tag values associated with tag keys. Tag values are the specific labels that can be bound to resources through tag bindings.
-  name: Google Cloud Platform TagValues API
-  slug: google-cloud-platform-tagvalues-api
 - description: Unified AI platform for building, deploying, and scaling ML models.
   name: Vertex AI API
   slug: vertex-ai-api
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage tag values associated with tag keys. Tag values are the specific labels that can be bound to resources through tag bindings.
+  name: Google Cloud Platform Tag Values API
+  slug: google-cloud-platform-tag-values-api
 arazzos:
 - description: Search for a folder, fetch its record, then list the projects directly under it.
   name: Google Cloud Platform Audit Folder and Projects
@@ -956,7 +956,7 @@ plans:
 - name: Google Cloud Platform Plans Pricing
   plan_count: 5
   slug: google-cloud-platform-plans-pricing
-random_paper: 10
+random_paper: 19
 rate_limits:
 - limit_count: 7
   name: Google Cloud Platform Rate Limits
@@ -1017,7 +1017,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

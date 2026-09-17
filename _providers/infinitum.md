@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: An HTTP/JSON API over Infinitum's Motor Selection Tool (MST) and Fan Selection Tool (FST), documented by Infinitum for third-party integration with BMS, design software and internal tools. Infinitum's
@@ -116,7 +116,7 @@ plans:
 - name: Infinitum Plans Pricing
   plan_count: 0
   slug: infinitum-plans-pricing
-random_paper: 13
+random_paper: 11
 score:
   band: emerging
   composite: 19.2
@@ -145,7 +145,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ tags:
 - Manufacturing
 - Industrial Automation
 - Building Automation
-- Data Centers
+- Data-Center
 - HVAC
 - Energy Efficiency
 - Internet of Things

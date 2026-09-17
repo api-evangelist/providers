@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,12 +60,12 @@ apis:
 - baseURL: http://localhost:4000
   baseurl_source: spec
   description: The Encore API from Encore — 2 operation(s) for encore.
-  name: Encore Encore API
+  name: Encore API
   slug: encore-dev-encore-api
 - baseURL: http://localhost:4000
   baseurl_source: spec
   description: The Encore Framework API API from Encore — 1 operation(s) for encore framework api.
-  name: Encore Encore Framework API API
+  name: Encore Framework API
   slug: encore-dev-encore-framework-api-api
 artifact_total: 48
 collections:
@@ -320,11 +320,11 @@ jsonld:
   property_count: 5
   slug: encore-dev-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-09-16'
 name: Encore
 nav: Providers
 network: true
-overview: 'Encore publishes 3 APIs on the [APIs.io](https://apis.io/) network: Apps API, Encore API, and Encore Framework API API. Tagged areas include Backend, Framework, Cloud, TypeScript, and Go.
+overview: 'Encore publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Framework API, and 1 more. Tagged areas include Backend, Framework, Cloud, TypeScript, and Go.
 
 
   The Encore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -335,7 +335,7 @@ plans:
 - name: Encore Dev Plans Pricing
   plan_count: 3
   slug: encore-dev-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 9
   name: Encore Dev Rate Limits
@@ -390,7 +390,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

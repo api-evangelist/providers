@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -73,11 +73,11 @@ modified: '2026-07-19'
 name: EverySim Inc.
 nav: Providers
 network: true
-overview: 'EverySim Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Authentication, OpenID Connect, Single Sign-On, and Identity.
+overview: 'EverySim Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Authentication, OpenID Connect, SSO, and Identity.
 
 
   EverySim Inc.''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 4
+random_paper: 11
 scopes:
 - name: Everysim Inc Scopes
   scope_count: 13
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -124,7 +124,7 @@ tags:
 - Company
 - Authentication
 - OpenID Connect
-- Single Sign-On
+- SSO
 - Identity
 website: https://everysim.io
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 215
   human_in_the_loop: 1
@@ -47,19 +47,9 @@ api_count: 6
 apis:
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
-  description: The AccessGroup API from AMCS Group — 2 operation(s) for accessgroup.
-  name: AMCS Group AccessGroup API
-  slug: amcs-group-accessgroup-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
   description: The AccessPassHistory API from AMCS Group — 1 operation(s) for accesspasshistory.
   name: AMCS Group AccessPassHistory API
   slug: amcs-group-accesspasshistory-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The AccountBalance API from AMCS Group — 2 operation(s) for accountbalance.
-  name: AMCS Group AccountBalance API
-  slug: amcs-group-accountbalance-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The AccountCustomer API from AMCS Group — 3 operation(s) for accountcustomer.
@@ -105,11 +95,6 @@ apis:
   description: The ApiConfigurationService API from AMCS Group — 1 operation(s) for apiconfigurationservice.
   name: AMCS Group ApiConfigurationService API
   slug: amcs-group-apiconfigurationservice-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The ApiDocumentation API from AMCS Group — 1 operation(s) for apidocumentation.
-  name: AMCS Group ApiDocumentation API
-  slug: amcs-group-apidocumentation-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The ApiGpsDataExternal API from AMCS Group — 1 operation(s) for apigpsdataexternal.
@@ -197,11 +182,6 @@ apis:
   slug: amcs-group-authstatus-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
-  description: The AuthToken API from AMCS Group — 3 operation(s) for authtoken.
-  name: AMCS Group AuthToken API
-  slug: amcs-group-authtoken-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
   description: The Blob API from AMCS Group — 1 operation(s) for blob.
   name: AMCS Group Blob API
   slug: amcs-group-blob-api
@@ -240,11 +220,6 @@ apis:
   description: The Charge API from AMCS Group — 3 operation(s) for charge.
   name: AMCS Group Charge API
   slug: amcs-group-charge-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The CheckBalance API from AMCS Group — 1 operation(s) for checkbalance.
-  name: AMCS Group CheckBalance API
-  slug: amcs-group-checkbalance-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The CommsServerSyncStatus API from AMCS Group — 1 operation(s) for commsserversyncstatus.
@@ -290,11 +265,6 @@ apis:
   description: The ContactRegistrationStatus API from AMCS Group — 2 operation(s) for contactregistrationstatus.
   name: AMCS Group ContactRegistrationStatus API
   slug: amcs-group-contactregistrationstatus-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The ContactType API from AMCS Group — 2 operation(s) for contacttype.
-  name: AMCS Group ContactType API
-  slug: amcs-group-contacttype-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The Container API from AMCS Group — 3 operation(s) for container.
@@ -357,11 +327,6 @@ apis:
   slug: amcs-group-country-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
-  description: The CreditNote API from AMCS Group — 3 operation(s) for creditnote.
-  name: AMCS Group CreditNote API
-  slug: amcs-group-creditnote-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
   description: The Currency API from AMCS Group — 3 operation(s) for currency.
   name: AMCS Group Currency API
   slug: amcs-group-currency-api
@@ -390,11 +355,6 @@ apis:
   description: The CustomerCategory API from AMCS Group — 2 operation(s) for customercategory.
   name: AMCS Group CustomerCategory API
   slug: amcs-group-customercategory-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The CustomerGroup API from AMCS Group — 2 operation(s) for customergroup.
-  name: AMCS Group CustomerGroup API
-  slug: amcs-group-customergroup-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The CustomerHomeCache API from AMCS Group — 3 operation(s) for customerhomecache.
@@ -657,16 +617,6 @@ apis:
   slug: amcs-group-jobhandler-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
-  description: The JobLog API from AMCS Group — 5 operation(s) for joblog.
-  name: AMCS Group JobLog API
-  slug: amcs-group-joblog-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The JobMaterials API from AMCS Group — 1 operation(s) for jobmaterials.
-  name: AMCS Group JobMaterials API
-  slug: amcs-group-jobmaterials-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
   description: The JobPost API from AMCS Group — 5 operation(s) for jobpost.
   name: AMCS Group JobPost API
   slug: amcs-group-jobpost-api
@@ -730,11 +680,6 @@ apis:
   description: The Market API from AMCS Group — 2 operation(s) for market.
   name: AMCS Group Market API
   slug: amcs-group-market-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The MasterAccount API from AMCS Group — 3 operation(s) for masteraccount.
-  name: AMCS Group MasterAccount API
-  slug: amcs-group-masteraccount-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The Material API from AMCS Group — 2 operation(s) for material.
@@ -872,11 +817,6 @@ apis:
   slug: amcs-group-paymentpoint-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
-  description: The PaymentTerm API from AMCS Group — 2 operation(s) for paymentterm.
-  name: AMCS Group PaymentTerm API
-  slug: amcs-group-paymentterm-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
   description: The PaymentType API from AMCS Group — 2 operation(s) for paymenttype.
   name: AMCS Group PaymentType API
   slug: amcs-group-paymenttype-api
@@ -897,19 +837,9 @@ apis:
   slug: amcs-group-plugin-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
-  description: The PluginConfiguration API from AMCS Group — 1 operation(s) for pluginconfiguration.
-  name: AMCS Group PluginConfiguration API
-  slug: amcs-group-pluginconfiguration-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
   description: The PluginInstall API from AMCS Group — 1 operation(s) for plugininstall.
   name: AMCS Group PluginInstall API
   slug: amcs-group-plugininstall-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The PluginMetadata API from AMCS Group — 2 operation(s) for pluginmetadata.
-  name: AMCS Group PluginMetadata API
-  slug: amcs-group-pluginmetadata-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The PluginMetadataExchange API from AMCS Group — 1 operation(s) for pluginmetadataexchange.
@@ -1062,11 +992,6 @@ apis:
   slug: amcs-group-schedule-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
-  description: The ScheduledJob API from AMCS Group — 5 operation(s) for scheduledjob.
-  name: AMCS Group ScheduledJob API
-  slug: amcs-group-scheduledjob-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
   description: The Service API from AMCS Group — 2 operation(s) for service.
   name: AMCS Group Service API
   slug: amcs-group-service-api
@@ -1075,11 +1000,6 @@ apis:
   description: The ServiceAgreement API from AMCS Group — 4 operation(s) for serviceagreement.
   name: AMCS Group ServiceAgreement API
   slug: amcs-group-serviceagreement-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The ServiceCategory API from AMCS Group — 2 operation(s) for servicecategory.
-  name: AMCS Group ServiceCategory API
-  slug: amcs-group-servicecategory-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The ServiceFrequency API from AMCS Group — 2 operation(s) for servicefrequency.
@@ -1110,11 +1030,6 @@ apis:
   description: The SiteOrderItemState API from AMCS Group — 2 operation(s) for siteorderitemstate.
   name: AMCS Group SiteOrderItemState API
   slug: amcs-group-siteorderitemstate-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The SiteType API from AMCS Group — 2 operation(s) for sitetype.
-  name: AMCS Group SiteType API
-  slug: amcs-group-sitetype-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The Sso API from AMCS Group — 2 operation(s) for sso.
@@ -1167,11 +1082,6 @@ apis:
   slug: amcs-group-suppliertype-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
-  description: The SystemConfiguration API from AMCS Group — 4 operation(s) for systemconfiguration.
-  name: AMCS Group SystemConfiguration API
-  slug: amcs-group-systemconfiguration-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
   description: The TaxTemplateCollection API from AMCS Group — 2 operation(s) for taxtemplatecollection.
   name: AMCS Group TaxTemplateCollection API
   slug: amcs-group-taxtemplatecollection-api
@@ -1215,11 +1125,6 @@ apis:
   description: The UdfWorkflowActivity API from AMCS Group — 2 operation(s) for udfworkflowactivity.
   name: AMCS Group UdfWorkflowActivity API
   slug: amcs-group-udfworkflowactivity-api
-- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
-  baseurl_source: declared
-  description: The UnitOfMeasure API from AMCS Group — 2 operation(s) for unitofmeasure.
-  name: AMCS Group UnitOfMeasure API
-  slug: amcs-group-unitofmeasure-api
 - baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
   baseurl_source: declared
   description: The User API from AMCS Group — 3 operation(s) for user.
@@ -1330,6 +1235,101 @@ apis:
   description: The Zone API from AMCS Group — 2 operation(s) for zone.
   name: AMCS Group Zone API
   slug: amcs-group-zone-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Access Group API from AMCS Group — 2 operation(s) for access group.
+  name: AMCS Group Access Group API
+  slug: amcs-group-access-group-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Account Balance API from AMCS Group — 2 operation(s) for account balance.
+  name: AMCS Group Account Balance API
+  slug: amcs-group-account-balance-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The API Documentation API from AMCS Group — 1 operation(s) for api documentation.
+  name: AMCS Group API Documentation API
+  slug: amcs-group-api-documentation-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Auth - Token API from AMCS Group — 3 operation(s) for auth - token.
+  name: AMCS Group Auth - Token API
+  slug: amcs-group-auth-token-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Check Balance API from AMCS Group — 1 operation(s) for check balance.
+  name: AMCS Group Check Balance API
+  slug: amcs-group-check-balance-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Contact Type API from AMCS Group — 2 operation(s) for contact type.
+  name: AMCS Group Contact Type API
+  slug: amcs-group-contact-type-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Credit Note API from AMCS Group — 3 operation(s) for credit note.
+  name: AMCS Group Credit Note API
+  slug: amcs-group-credit-note-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Customer Group API from AMCS Group — 2 operation(s) for customer group.
+  name: AMCS Group Customer Group API
+  slug: amcs-group-customer-group-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Job Log API from AMCS Group — 5 operation(s) for job log.
+  name: AMCS Group Job Log API
+  slug: amcs-group-job-log-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Job Materials API from AMCS Group — 1 operation(s) for job materials.
+  name: AMCS Group Job Materials API
+  slug: amcs-group-job-materials-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Master Account API from AMCS Group — 3 operation(s) for master account.
+  name: AMCS Group Master Account API
+  slug: amcs-group-master-account-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Payment Term API from AMCS Group — 2 operation(s) for payment term.
+  name: AMCS Group Payment Term API
+  slug: amcs-group-payment-term-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Plugin Configuration API from AMCS Group — 1 operation(s) for plugin configuration.
+  name: AMCS Group Plugin Configuration API
+  slug: amcs-group-plugin-configuration-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Plugin Metadata API from AMCS Group — 2 operation(s) for plugin metadata.
+  name: AMCS Group Plugin Metadata API
+  slug: amcs-group-plugin-metadata-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Scheduled Job API from AMCS Group — 5 operation(s) for scheduled job.
+  name: AMCS Group Scheduled Job API
+  slug: amcs-group-scheduled-job-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Service Category API from AMCS Group — 2 operation(s) for service category.
+  name: AMCS Group Service Category API
+  slug: amcs-group-service-category-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Site Type API from AMCS Group — 2 operation(s) for site type.
+  name: AMCS Group Site Type API
+  slug: amcs-group-site-type-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The System Configuration API from AMCS Group — 4 operation(s) for system configuration.
+  name: AMCS Group System Configuration API
+  slug: amcs-group-system-configuration-api
+- baseURL: https://rstapi-sbx-svc-core.amcsplatform.com/erp/api/integrator/erp
+  baseurl_source: declared
+  description: The Unit of Measure API from AMCS Group — 2 operation(s) for unit of measure.
+  name: AMCS Group Unit of Measure API
+  slug: amcs-group-unit-of-measure-api
 artifact_total: 518
 collections:
 - collection_type: open
@@ -2244,14 +2244,14 @@ modified: '2026-07-17'
 name: AMCS Group
 nav: Providers
 network: true
-overview: 'AMCS Group publishes 257 APIs on the [APIs.io](https://apis.io/) network, including AccessGroup API, AccessPassHistory API, AccountBalance API, and 254 more. Tagged areas include Company, Waste Management, Recycling, Transport, and Logistics.
+overview: 'AMCS Group publishes 257 APIs on the [APIs.io](https://apis.io/) network, including AccessPassHistory API, AccountCustomer API, AccountingPeriod API, and 254 more. Tagged areas include Company, Waste Management, Recycling, Transport, and Logistics.
 
 
   AMCS Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 21 more developer resources.'
-random_paper: 14
+random_paper: 10
 score:
   band: developing
-  composite: 45.2
+  composite: 46.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -2259,11 +2259,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 42.6
+    contract_quality: 47.4
     developer_ergonomics: 78.0
     discoverability: 81.5
     operational_transparency: 18.4
@@ -2272,7 +2272,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 77.2
       derived: 0
       marker_coverage: 0.0
       total: 257
@@ -2285,7 +2285,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

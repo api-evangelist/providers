@@ -33,36 +33,41 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 8
 apis:
-- baseURL: https://archive.researchdata.leeds.ac.uk/cgi/oai2
-  baseurl_source: declared
-  description: 'The University of Leeds institutional research data repository, running EPrints 3 on the university''s own infrastructure, with a live unauthenticated OAI-PMH 2.0 interface. Verified 2026-08-30: Identi'
-  name: Research Data Leeds Repository (OAI-PMH)
-  slug: research-data-oai
-- baseURL: https://digital.library.leeds.ac.uk/cgi/oai2
-  baseurl_source: declared
-  description: A second, separate institution-run EPrints deployment holding digitised Special Collections — Bronte, incunabula, the Liddle Collection, cookery, history of science, the Leeds Permanent Library. It ex
-  name: Leeds Digital Library (OAI-PMH and OpenSearch)
-  slug: digital-library
-- baseURL: https://spacefinder.leeds.ac.uk
-  baseurl_source: declared
-  description: 'The data layer behind the University of Leeds Libraries wayfinding application, published as two unauthenticated static JSON documents. spaces.json returned 68 campus and library spaces on 2026-08-30 '
-  name: Spacefinder Campus Space Data
-  slug: spacefinder
-- baseURL: https://floorplans.library.leeds.ac.uk/assets/iiif
-  baseurl_source: declared
-  description: A static IIIF Image API level 0 service on the institution's own host, serving high-resolution floor plans for the Brotherton, Edward Boyle, Health Sciences and Laidlaw libraries in "original" and "cr
-  name: Library Floor Plans IIIF Image API
-  slug: library-floorplans-iiif
 - description: 'RELATIONSHIP, NOT A CONTRACT. University of Leeds Libraries discovery and resource management run on the Ex Libris Alma library services platform with the Primo discovery layer. The tenancy is a real '
   name: Library Search (Ex Libris Alma / Primo) — tenancy
   slug: library-discovery-primo
 - description: RELATIONSHIP, NOT A CONTRACT. Leeds' scholarly publications repository is White Rose Research Online, a shared EPrints platform operated by the White Rose University Consortium on behalf of Leeds, She
   name: White Rose Research Online (OAI-PMH) — consortium tenancy
   slug: white-rose-research-online
-artifact_total: 16
+- baseURL: https://archive.researchdata.leeds.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: Filtering vocabulary over the space dataset.
+  name: University of Leeds Facets API
+  slug: university-of-leeds-facets-api
+- baseURL: https://archive.researchdata.leeds.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: IIIF Image API level 0 static tile service.
+  name: University of Leeds IIIF Image API
+  slug: university-of-leeds-iiif-image-api
+- baseURL: https://archive.researchdata.leeds.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting 2.0.
+  name: University of Leeds OAI PMH API
+  slug: university-of-leeds-oai-pmh-api
+- baseURL: https://archive.researchdata.leeds.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: Campus and library study spaces.
+  name: University of Leeds Spaces API
+  slug: university-of-leeds-spaces-api
+- baseURL: https://eprints.whiterose.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: OpenSearch 1.1 description and search result feeds.
+  name: University of Leeds Open Search API
+  slug: university-of-leeds-open-search-api
+artifact_total: 17
 common:
 - group: commercial
   title: ''
@@ -205,7 +210,7 @@ modified: '2026-08-30'
 name: University of Leeds
 nav: Providers
 network: true
-overview: 'University of Leeds publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Research Data Leeds Repository (OAI-PMH), Leeds Digital Library (OAI-PMH and OpenSearch), Spacefinder Campus Space Data, and 1 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
+overview: 'University of Leeds publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Facets API, IIIF Image API, OAI PMH API, and 2 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
   The University of Leeds catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -216,7 +221,7 @@ plans:
 - name: University Of Leeds Plans Pricing
   plan_count: 2
   slug: university-of-leeds-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: University Of Leeds Rate Limits
@@ -239,7 +244,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.0
+  composite: 33.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 57.3
@@ -247,11 +252,11 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 34.2
     contract_governance: 3.8
-    contract_quality: 25.8
+    contract_quality: 24.6
     developer_ergonomics: 35.7
     discoverability: 64.8
     operational_transparency: 7.9
@@ -268,9 +273,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 5
       marker_coverage: 100.0
-      total: 4
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
@@ -278,7 +283,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

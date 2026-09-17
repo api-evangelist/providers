@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ modified: '2026-06-21'
 name: Serif Health
 nav: Providers
 network: true
-overview: 'Serif Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Distributions API and Rates API. Tagged areas include Healthcare, Price Transparency, Negotiated Rates, Payer, and Data.
+overview: 'Serif Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Distributions API and Rates API. Tagged areas include Healthcare, Price Transparency, Negotiated Rates, Payers, and Data.
 
 
   Serif Health''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -152,7 +152,7 @@ plans:
 - name: Serif Health Plans Pricing
   plan_count: 4
   slug: serif-health-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Serif Health Rate Limits
@@ -191,7 +191,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -212,7 +212,7 @@ tags:
 - Healthcare
 - Price Transparency
 - Negotiated Rates
-- Payer
+- Payers
 - Data
 website: https://www.serifhealth.com
 ---

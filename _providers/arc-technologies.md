@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Arc provides a unified financial operating platform for technology companies, combining cash management, treasury, debt capital, and AI-powered financial services. The platform is primarily accessed t
@@ -82,7 +82,7 @@ plans:
 - name: Arc Technologies Plans Pricing
   plan_count: 1
   slug: arc-technologies-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Arc Technologies Rate Limits
@@ -113,7 +113,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://otx.alienvault.com/api/v1
@@ -75,6 +75,10 @@ collections:
   name: AlienVault OTX DirectConnect Indicators Users API
   slug: open-alienvault-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://alienvault.com
 - group: other
   title: ''
   type: ParentCompany
@@ -167,15 +171,15 @@ created: '2026-07-17'
 description: AlienVault is the security company behind the Open Threat Exchange (OTX), one of the largest open threat-intelligence communities in the world. OTX lets security practitioners and researchers create and share "pulses" — curated collections of indicators of compromise (IOCs) such as malicious IPs, domains, hostnames, URLs, file hashes, and CVEs — and consume that shared intelligence to automatically update their defensive infrastructure. The OTX DirectConnect API provides programmatic access to subscribed pulses, indicator detail lookups across multiple facets (general, geo, malware, passive DNS, reputation, URL lists), pulse and user search, and indicator submission for analysis. Authentication is via an X-OTX-API-KEY header. AlienVault was acquired by AT&T in 2018, becoming AT&T Cybersecurity, and OTX now operates under the LevelBlue brand. An official Python SDK (OTXv2) is published on PyPI and GitHub.
 image: https://otx.alienvault.com/static/otx/img/otx_logo.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-16'
 name: AlienVault
 nav: Providers
 network: true
 overview: 'AlienVault publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Indicators API, Pulses API, Search API, and 1 more. Tagged areas include Company, Security, Threat Intelligence, Cybersecurity, and Open Threat Exchange.
 
 
-  AlienVault''s developer surface includes documentation, API reference, signup flow, authentication, and 15 more developer resources.'
-random_paper: 6
+  AlienVault''s developer surface includes documentation, API reference, signup flow, authentication, and 16 more developer resources.'
+random_paper: 21
 score:
   band: emerging
   composite: 24.3
@@ -205,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -229,5 +233,5 @@ tags:
 - Open Threat Exchange
 - Indicators of Compromise
 - Threat Feeds
-website: https://otx.alienvault.com/api
+website: https://alienvault.com
 ---

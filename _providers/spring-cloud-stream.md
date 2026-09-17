@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Core programmatic API for building message-driven microservice applications. Provides functional programming model with java.util.function.Function, Consumer and Supplier bindings, binding lifecycle m
@@ -133,7 +133,7 @@ plans:
 - name: Spring Cloud Stream Plans Pricing
   plan_count: 3
   slug: spring-cloud-stream-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Spring Cloud Stream Rate Limits
@@ -169,7 +169,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 30.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

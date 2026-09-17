@@ -29,7 +29,7 @@ name: FitStar
 nav: Providers
 network: true
 overview: FitStar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Fitness, and Health and Wellness.
-random_paper: 9
+random_paper: 17
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitstar/refs/heads/main/screenshots/fitstar-2026-07-25T214642.png
 security:
 - kind: domain-security

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://payhip.com/api/v2
   baseurl_source: declared
   description: The Payhip API API from Payhip — 0 operation(s) for payhip api.
-  name: Payhip Payhip API
+  name: Payhip API
   slug: payhip-payhip-api-api
 artifact_total: 13
 collections:
@@ -134,11 +134,11 @@ finops:
   slug: payhip-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/payhip.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-09-16'
 name: Payhip
 nav: Providers
 network: true
-overview: 'Payhip publishes 3 APIs on the [APIs.io](https://apis.io/) network: Coupons API, License Keys API, and Payhip API. Tagged areas include E-Commerce, Digital Products, Memberships, Creators, and Coupons.
+overview: 'Payhip publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Coupons API, License Keys API, and 1 more. Tagged areas include E-Commerce, Digital Products, Membership, Creators, and Coupons.
 
 
   Payhip''s developer surface includes authentication, documentation, API reference, and 8 more developer resources.'
@@ -146,7 +146,7 @@ plans:
 - name: Payhip Plans Pricing
   plan_count: 3
   slug: payhip-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Payhip Rate Limits
@@ -184,7 +184,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -203,7 +203,7 @@ slug: payhip
 tags:
 - E-Commerce
 - Digital Products
-- Memberships
+- Membership
 - Creators
 - Coupons
 - License Keys

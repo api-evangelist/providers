@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The API host behind the Cockpit AI (formerly Kalendar AI) product. The root of https://api.oncockpit.ai returns HTTP 200 with {"name":"Cockpit AI API","status":"active"} and /health returns OK, and th
@@ -118,7 +118,7 @@ plans:
 - name: Goomp Inc Kalendar Ai Plans Pricing
   plan_count: 0
   slug: goomp-inc-kalendar-ai-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Goomp Inc Kalendar Ai Rate Limits
@@ -150,7 +150,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

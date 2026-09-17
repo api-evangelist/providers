@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://prod-public-api.getrentcheck.com
@@ -129,11 +129,6 @@ apis:
   slug: rentcheck-maintenance-reports-v2-api
 - baseURL: https://prod-public-api.getrentcheck.com
   baseurl_source: declared
-  description: The oAuth2 API from RentCheck — 8 operation(s) for oauth2.
-  name: RentCheck oAuth2 API
-  slug: rentcheck-oauth2-api
-- baseURL: https://prod-public-api.getrentcheck.com
-  baseurl_source: declared
   description: The Permission Groups API from RentCheck — 2 operation(s) for permission groups.
   name: RentCheck Permission Groups API
   slug: rentcheck-permission-groups-api
@@ -192,6 +187,11 @@ apis:
   description: The Work Orders V2 API from RentCheck — 1 operation(s) for work orders v2.
   name: RentCheck Work Orders V2 API
   slug: rentcheck-work-orders-v2-api
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The oAuth2 API from RentCheck — 8 operation(s) for oauth2.
+  name: RentCheck O Auth2 API
+  slug: rentcheck-oauth2-api
 artifact_total: 65
 collections:
 - collection_type: open
@@ -429,10 +429,10 @@ overview: 'RentCheck publishes 31 APIs on the [APIs.io](https://apis.io/) networ
 
 
   RentCheck''s developer surface includes authentication, changelog, documentation, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 6
+random_paper: 5
 score:
   band: developing
-  composite: 50.2
+  composite: 50.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -440,11 +440,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 60.5
+    contract_quality: 62.3
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 26.3
@@ -459,7 +459,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -481,7 +481,7 @@ tags:
 - Property Inspection
 - Real-Estate
 - PropTech
-- Inspections
+- Inspection
 - Maintenance
 - Rentals
 website: https://getrentcheck.com/

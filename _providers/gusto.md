@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -52,19 +52,9 @@ apis:
   slug: embedded-react-sdk
 - baseURL: https://api.gusto.com
   baseurl_source: declared
-  description: The BankAccounts API from Gusto — 3 operation(s) for bankaccounts.
-  name: Gusto BankAccounts API
-  slug: gusto-bankaccounts-api
-- baseURL: https://api.gusto.com
-  baseurl_source: declared
   description: The Companies API from Gusto — 4 operation(s) for companies.
   name: Gusto Companies API
   slug: gusto-companies-api
-- baseURL: https://api.gusto.com
-  baseurl_source: declared
-  description: The ContractorPayments API from Gusto — 2 operation(s) for contractorpayments.
-  name: Gusto ContractorPayments API
-  slug: gusto-contractorpayments-api
 - baseURL: https://api.gusto.com
   baseurl_source: declared
   description: The Contractors API from Gusto — 2 operation(s) for contractors.
@@ -87,11 +77,6 @@ apis:
   slug: gusto-payrolls-api
 - baseURL: https://api.gusto.com
   baseurl_source: declared
-  description: The PaySchedules API from Gusto — 2 operation(s) for payschedules.
-  name: Gusto PaySchedules API
-  slug: gusto-payschedules-api
-- baseURL: https://api.gusto.com
-  baseurl_source: declared
   description: The Reports API from Gusto — 2 operation(s) for reports.
   name: Gusto Reports API
   slug: gusto-reports-api
@@ -100,6 +85,21 @@ apis:
   description: The Webhooks API from Gusto — 1 operation(s) for webhooks.
   name: Gusto Webhooks API
   slug: gusto-webhooks-api
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Bank Accounts API from Gusto — 3 operation(s) for bank accounts.
+  name: Gusto Bank Accounts API
+  slug: gusto-bank-accounts-api
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Contractor Payments API from Gusto — 2 operation(s) for contractor payments.
+  name: Gusto Contractor Payments API
+  slug: gusto-contractor-payments-api
+- baseURL: https://api.gusto.com
+  baseurl_source: declared
+  description: The Pay Schedules API from Gusto — 2 operation(s) for pay schedules.
+  name: Gusto Pay Schedules API
+  slug: gusto-pay-schedules-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -259,11 +259,11 @@ modified: '2026-05-30'
 name: Gusto
 nav: Providers
 network: true
-overview: 'Gusto publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Embedded Payroll API, BankAccounts API, Companies API, and 8 more. Tagged areas include Human Resources, Payroll, Benefits, Enterprise Software, and Embedded Finance.
+overview: 'Gusto publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Embedded Payroll API, Companies API, Contractors API, and 8 more. Tagged areas include Human Resources, Payroll, Benefits, Enterprise Software, and Embedded Finance.
 
 
   Gusto''s developer surface includes authentication, documentation, support, engineering blog, and 21 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: thin
   composite: 35.8
@@ -295,7 +295,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

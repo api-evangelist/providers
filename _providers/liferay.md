@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: Liferay Roles API
   slug: open-liferay
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://liferay.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/liferay/refs/heads/main/agentic-access/liferay-agentic-access.yml
   title: ''
@@ -102,19 +106,19 @@ finops:
   slug: liferay-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/liferay.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Liferay
 nav: Providers
 network: true
 overview: 'Liferay publishes 1 API on the [APIs.io](https://apis.io/) network: Roles API. Tagged areas include Open-Source, Digital Experience, DXP, Roles, and User.
 
 
-  Liferay''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  Liferay''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Liferay Plans Pricing
   plan_count: 3
   slug: liferay-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Liferay Rate Limits
@@ -146,7 +150,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -174,4 +178,5 @@ tags:
 - User
 - Permissions
 - Headless
+website: https://liferay.com
 ---

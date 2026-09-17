@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: The open source Renovate CLI is a Node.js application distributed via npm and as Docker images on Docker Hub and GitHub Container Registry. It can be run locally, in CI, or as a long-lived self-hosted
@@ -55,6 +55,10 @@ apis:
   slug: renovate-merge-confidence
 artifact_total: 32
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://renovatebot.com
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -282,15 +286,15 @@ features:
 - JSON Schema (renovate-schema.json) for IDE validation of every configuration option
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/renovate-bot.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Renovate
 nav: Providers
 network: true
 overview: 'Renovate publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DependencyUpdates, Developer Tools, Bots, Automation, and Software Supply Chain.
 
 
-  Renovate''s developer surface includes developer portal, documentation, getting-started guide, signup flow, changelog, support, tooling, and 42 more developer resources.'
-random_paper: 20
+  Renovate''s developer surface includes developer portal, documentation, getting-started guide, signup flow, changelog, support, tooling, and 43 more developer resources.'
+random_paper: 6
 score:
   band: thin
   composite: 28.9
@@ -311,7 +315,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 28.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -339,5 +343,5 @@ tags:
 - AGPLv3
 - Node.js
 - TypeScript
-website: https://www.mend.io/renovate/
+website: https://renovatebot.com
 ---

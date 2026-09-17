@@ -17,11 +17,11 @@ created: '2024-11-14'
 description: The Boycott Israeli Consumer Goods Dataset, maintained by TechForPalestine, is a version-controlled, golden-source repository collating consumer boycott and alternative product data into a single consumable dataset. The project aggregates data from authoritative sources including the Who Profits Research Center, the BDS Movement boycott guide, and the AFSC profiteering company list. Data is stored as YAML and exported in CSV and JSON formats for integration into software products and services.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boycott-israeli-consumer-goods-dataset.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-09-16'
 name: Boycott Israeli Consumer Goods Dataset
 nav: Providers
 network: true
-random_paper: 12
+random_paper: 5
 slug: boycott-israeli-consumer-goods-dataset
 tags:
 - Boycotts

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: GraphQL interface for Point One workflow and data management, authenticated with an API key issued from app.pointonenav.com.
@@ -161,7 +161,7 @@ overview: 'Pointonenav publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Pointonenav''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, CLI, and 16 more developer resources.'
-random_paper: 4
+random_paper: 13
 score:
   band: emerging
   composite: 22.2
@@ -187,7 +187,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

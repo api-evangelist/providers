@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The regionally partitioned HTTP API behind the HungryPanda merchant back office (merchant.hungrypanda.co) and the POS/middleware partner integrations. It carries merchant onboarding and authentication
@@ -133,7 +133,7 @@ plans:
 - name: Hungrypanda Plans Pricing
   plan_count: 0
   slug: hungrypanda-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Hungrypanda Rate Limits
@@ -164,7 +164,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

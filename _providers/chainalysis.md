@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 12
 apis:
 - description: Free public REST API that returns whether a given crypto address is identified as sanctioned by OFAC, EU, or UN sanctions authorities. No commercial licence required; widely embedded by wallets, dApps
@@ -218,7 +218,7 @@ plans:
 - name: Chainalysis Plans Pricing
   plan_count: 1
   slug: chainalysis-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Chainalysis Rate Limits
@@ -246,7 +246,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

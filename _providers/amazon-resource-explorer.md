@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -109,6 +109,10 @@ collections:
   name: Amazon Resource Explorer API
   slug: open-amazon-resource-explorer
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -382,7 +386,7 @@ jsonld:
   property_count: 3
   slug: amazon-resource-explorer-openapi-view-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Resource Explorer
 nav: Providers
 network: true
@@ -392,12 +396,12 @@ overview: 'Amazon Resource Explorer publishes 5 APIs on the [APIs.io](https://ap
   The Amazon Resource Explorer catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Resource Explorer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, code examples, and 35 more developer resources.'
+  Amazon Resource Explorer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, code examples, and 36 more developer resources.'
 plans:
 - name: Amazon Resource Explorer Plans Pricing
   plan_count: 3
   slug: amazon-resource-explorer-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Resource Explorer Rate Limits
@@ -451,7 +455,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -479,5 +483,5 @@ tags:
 - Discovery
 - Inventory
 - Resource Management
-website: https://aws.amazon.com/resourceexplorer/
+website: https://amazon.com
 ---

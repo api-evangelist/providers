@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: 'Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://mudwtr.com/api/ucp/mcp. Server identifies itself as "universal-commerce" 0.1.0 speaking MCP protocol 2025-06-18 and UCP '
@@ -191,7 +191,7 @@ plans:
 - name: Mud Wtr Plans Pricing
   plan_count: 0
   slug: mud-wtr-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Mud Wtr Rate Limits
@@ -225,7 +225,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -253,6 +253,6 @@ tags:
 - Agentic Commerce
 - MCP
 - GraphQL
-- UCP
+- Universal Commerce Protocol
 website: https://mudwtr.com
 ---

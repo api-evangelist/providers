@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://programming-quotes-api.azurewebsites.net/api
@@ -43,7 +43,7 @@ apis:
 - baseURL: https://programming-quotes-api.azurewebsites.net/api
   baseurl_source: declared
   description: Programming Quotes — Public read and authenticated write endpoints for quotes.
-  name: Programming Quotes Quotes API
+  name: Programming Quotes API
   slug: programming-quotes-quotes-api
 artifact_total: 27
 collections:
@@ -171,15 +171,15 @@ jsonld:
   property_count: 12
   slug: programming-quotes-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Programming Quotes
 nav: Providers
 network: true
-overview: 'Programming Quotes publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Quotes API. Tagged areas include Personality, Public APIs, Open-Source, Quotes, and Programming.
+overview: 'Programming Quotes publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, and 1 more. Tagged areas include Personality, Public APIs, Open-Source, Quotes, and Programming.
 
 
   The Programming Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 15
+random_paper: 13
 rules:
 - effective_rule_count: 5
   extends: []
@@ -228,7 +228,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

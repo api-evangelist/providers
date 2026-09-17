@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -59,11 +59,6 @@ apis:
   slug: stripe-balance-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: Create and manage subscriptions, recurring payments, and recurring revenue.
-  name: Stripe Billing API
-  slug: stripe-billing-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: 'The Charge object represents a single attempt to move money into your Stripe account. PaymentIntent confirmation is the most common way to create Charges, but transferring money to a different Stripe '
   name: Stripe Charges API
   slug: stripe-charges-api
@@ -77,11 +72,6 @@ apis:
   description: Stripe Climate is the easiest way to help promising permanent carbon removal technologies launch and scale. Join a growing group of ambitious businesses that are changing the course of carbon removal.
   name: Stripe Climate API
   slug: stripe-climate-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: Stripe needs to collect certain pieces of information about each account created. These requirements can differ depending on the account's country. The Country Specs API makes these rules available to
-  name: Stripe Country API
-  slug: stripe-country-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: 'A coupon contains information about a percent-off or amount-off discount you might want to apply to a customer. Coupons may be applied to subscriptions, invoices, checkout sessions, quotes, and more. '
@@ -142,11 +132,6 @@ apis:
   description: An API for businesses to instantly create, manage, and distribute payment cards.
   name: Stripe Issuing API
   slug: stripe-issuing-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: You can use the Payment Links API to create a payment link that you can share with your customers. Stripe redirects customers who open this link to a Stripe-hosted payment page.
-  name: Stripe Link API
-  slug: stripe-link-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: A PaymentIntent guides you through the process of collecting a payment from your customer. We recommend that you create exactly one PaymentIntent for each order or customer session in your system. You
@@ -244,11 +229,6 @@ apis:
   slug: stripe-tokens-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: To top up your Stripe balance, you create a top-up object. You can retrieve individual top-ups, as well as list all top-ups. Top-ups are identified by a unique, random ID.
-  name: Stripe Topups API
-  slug: stripe-topups-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: A Transfer object is created when you move funds between Stripe accounts as part of Connect.
   name: Stripe Transfers API
   slug: stripe-transfers-api
@@ -257,16 +237,6 @@ apis:
   description: Stripe Treasury is a banking-as-a-service API that lets you embed financial services in your product. With Stripe's API, you can enable businesses to hold funds, pay bills, earn yield, and manage thei
   name: Stripe Treasury API
   slug: stripe-treasury-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: Stripe Connect is a set of programmable APIs and tools that lets you facilitate payments on your software platform, build a marketplace, and pay out sellers or service providers globally.
-  name: Stripe Connect API
-  slug: stripe-connect-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Billing customer portal is a Stripe-hosted UI for subscription and billing management. A portal session describes the instantiation of the customer portal for a particular customer. By visiting th
-  name: Stripe Customer Portal API
-  slug: stripe-customer-portal-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: Entitlements enable you to map the features of your internal service to Stripe products. After you map your features, Stripe notifies you about when to provision or de-provision access according to yo
@@ -282,11 +252,6 @@ apis:
   description: The Stripe fiat-to-crypto onramp lets your customers securely purchase and exchange cryptocurrencies directly from your platform or decentralized application at checkout.
   name: Stripe Crypto Onramp API
   slug: stripe-crypto-onramp-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: Automate your accrual accounting process with Stripe Revenue Recognition. Import transaction data, set up rules, and download revenue reports for compliance with accounting standards like ASC 606.
-  name: Stripe Revenue Recognition API
-  slug: stripe-revenue-recognition-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: Meters specify how to aggregate meter events over a billing period for usage-based pricing. Meter events represent customer actions and support up to 10,000 events per second via the V2 meter event st
@@ -314,44 +279,14 @@ apis:
   slug: stripe-applications-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: The Apply API from Stripe — 1 operation(s) for apply.
-  name: Stripe Apply API
-  slug: stripe-apply-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Approve API from Stripe — 1 operation(s) for approve.
-  name: Stripe Approve API
-  slug: stripe-approve-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Attach API from Stripe — 1 operation(s) for attach.
-  name: Stripe Attach API
-  slug: stripe-attach-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Authorization API from Stripe — 5 operation(s) for authorization.
-  name: Stripe Authorization API
-  slug: stripe-authorization-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: The Balance Transactions API from Stripe — 2 operation(s) for balance transactions.
   name: Stripe Balance Transactions API
   slug: stripe-balance-transactions-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: The Bank API from Stripe — 5 operation(s) for bank.
-  name: Stripe Bank API
-  slug: stripe-bank-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: The Billing Portal API from Stripe — 3 operation(s) for billing portal.
   name: Stripe Billing Portal API
   slug: stripe-billing-portal-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Cancel API from Stripe — 3 operation(s) for cancel.
-  name: Stripe Cancel API
-  slug: stripe-cancel-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: The Capabilities API from Stripe — 1 operation(s) for capabilities.
@@ -364,59 +299,9 @@ apis:
   slug: stripe-capability-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: The Capture API from Stripe — 1 operation(s) for capture.
-  name: Stripe Capture API
-  slug: stripe-capture-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Card API from Stripe — 1 operation(s) for card.
-  name: Stripe Card API
-  slug: stripe-card-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Cards API from Stripe — 4 operation(s) for cards.
-  name: Stripe Cards API
-  slug: stripe-cards-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Cash API from Stripe — 3 operation(s) for cash.
-  name: Stripe Cash API
-  slug: stripe-cash-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Close API from Stripe — 1 operation(s) for close.
-  name: Stripe Close API
-  slug: stripe-close-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Configuration API from Stripe — 1 operation(s) for configuration.
-  name: Stripe Configuration API
-  slug: stripe-configuration-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Configurations API from Stripe — 4 operation(s) for configurations.
-  name: Stripe Configurations API
-  slug: stripe-configurations-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Confirm API from Stripe — 1 operation(s) for confirm.
-  name: Stripe Confirm API
-  slug: stripe-confirm-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Connections API from Stripe — 11 operation(s) for connections.
-  name: Stripe Connections API
-  slug: stripe-connections-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: The Country Specs API from Stripe — 2 operation(s) for country specs.
   name: Stripe Country Specs API
   slug: stripe-country-specs-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Coupon API from Stripe — 1 operation(s) for coupon.
-  name: Stripe Coupon API
-  slug: stripe-coupon-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: The Create API from Stripe — 10 operation(s) for create.
@@ -424,94 +309,9 @@ apis:
   slug: stripe-create-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: The Credit API from Stripe — 6 operation(s) for credit.
-  name: Stripe Credit API
-  slug: stripe-credit-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Customer API from Stripe — 24 operation(s) for customer.
-  name: Stripe Customer API
-  slug: stripe-customer-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Decline API from Stripe — 1 operation(s) for decline.
-  name: Stripe Decline API
-  slug: stripe-decline-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: The Delete API from Stripe — 20 operation(s) for delete.
   name: Stripe Delete API
   slug: stripe-delete-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Detach API from Stripe — 1 operation(s) for detach.
-  name: Stripe Detach API
-  slug: stripe-detach-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Disconnect API from Stripe — 2 operation(s) for disconnect.
-  name: Stripe Disconnect API
-  slug: stripe-disconnect-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Discount API from Stripe — 2 operation(s) for discount.
-  name: Stripe Discount API
-  slug: stripe-discount-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Dispute API from Stripe — 2 operation(s) for dispute.
-  name: Stripe Dispute API
-  slug: stripe-dispute-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Domain API from Stripe — 2 operation(s) for domain.
-  name: Stripe Domain API
-  slug: stripe-domain-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Domains API from Stripe — 4 operation(s) for domains.
-  name: Stripe Domains API
-  slug: stripe-domains-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Exchange API from Stripe — 2 operation(s) for exchange.
-  name: Stripe Exchange API
-  slug: stripe-exchange-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Expire API from Stripe — 1 operation(s) for expire.
-  name: Stripe Expire API
-  slug: stripe-expire-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The External API from Stripe — 2 operation(s) for external.
-  name: Stripe External API
-  slug: stripe-external-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Fee API from Stripe — 4 operation(s) for fee.
-  name: Stripe Fee API
-  slug: stripe-fee-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Finalize API from Stripe — 1 operation(s) for finalize.
-  name: Stripe Finalize API
-  slug: stripe-finalize-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Financial API from Stripe — 11 operation(s) for financial.
-  name: Stripe Financial API
-  slug: stripe-financial-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Find API from Stripe — 1 operation(s) for find.
-  name: Stripe Find API
-  slug: stripe-find-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Funding API from Stripe — 1 operation(s) for funding.
-  name: Stripe Funding API
-  slug: stripe-funding-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: The Get API from Stripe — 106 operation(s) for get.
@@ -519,59 +319,9 @@ apis:
   slug: stripe-get-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: The History API from Stripe — 2 operation(s) for history.
-  name: Stripe History API
-  slug: stripe-history-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Identifiers API from Stripe — 15 operation(s) for identifiers.
-  name: Stripe Identifiers API
-  slug: stripe-identifiers-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Increment API from Stripe — 1 operation(s) for increment.
-  name: Stripe Increment API
-  slug: stripe-increment-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Intents API from Stripe — 9 operation(s) for intents.
-  name: Stripe Intents API
-  slug: stripe-intents-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Invoiceitems API from Stripe — 2 operation(s) for invoiceitems.
-  name: Stripe Invoiceitems API
-  slug: stripe-invoiceitems-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: The Invoices API from Stripe — 12 operation(s) for invoices.
   name: Stripe Invoices API
   slug: stripe-invoices-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Item API from Stripe — 1 operation(s) for item.
-  name: Stripe Item API
-  slug: stripe-item-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Items API from Stripe — 4 operation(s) for items.
-  name: Stripe Items API
-  slug: stripe-items-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Keys API from Stripe — 2 operation(s) for keys.
-  name: Stripe Keys API
-  slug: stripe-keys-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Line API from Stripe — 3 operation(s) for line.
-  name: Stripe Line API
-  slug: stripe-line-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Lines API from Stripe — 5 operation(s) for lines.
-  name: Stripe Lines API
-  slug: stripe-lines-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: The Link Account Sessions API from Stripe — 2 operation(s) for link account sessions.
@@ -584,64 +334,9 @@ apis:
   slug: stripe-linked-accounts-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: The Linked API from Stripe — 5 operation(s) for linked.
-  name: Stripe Linked API
-  slug: stripe-linked-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Links API from Stripe — 3 operation(s) for links.
-  name: Stripe Links API
-  slug: stripe-links-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: The Lists API from Stripe — 8 operation(s) for lists.
   name: Stripe Lists API
   slug: stripe-lists-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Login API from Stripe — 1 operation(s) for login.
-  name: Stripe Login API
-  slug: stripe-login-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Mark API from Stripe — 1 operation(s) for mark.
-  name: Stripe Mark API
-  slug: stripe-mark-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Method API from Stripe — 6 operation(s) for method.
-  name: Stripe Method API
-  slug: stripe-method-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Methods API from Stripe — 6 operation(s) for methods.
-  name: Stripe Methods API
-  slug: stripe-methods-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Microdeposits API from Stripe — 1 operation(s) for microdeposits.
-  name: Stripe Microdeposits API
-  slug: stripe-microdeposits-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Note API from Stripe — 1 operation(s) for note.
-  name: Stripe Note API
-  slug: stripe-note-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Notes API from Stripe — 6 operation(s) for notes.
-  name: Stripe Notes API
-  slug: stripe-notes-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Owners API from Stripe — 2 operation(s) for owners.
-  name: Stripe Owners API
-  slug: stripe-owners-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Pay API from Stripe — 3 operation(s) for pay.
-  name: Stripe Pay API
-  slug: stripe-pay-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: The Payment Method Domains API from Stripe — 3 operation(s) for payment method domains.
@@ -654,104 +349,9 @@ apis:
   slug: stripe-payment-methods-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: The Payments API from Stripe — 23 operation(s) for payments.
-  name: Stripe Payments API
-  slug: stripe-payments-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: The Person API from Stripe — 4 operation(s) for person.
   name: Stripe Person API
   slug: stripe-person-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Persons API from Stripe — 2 operation(s) for persons.
-  name: Stripe Persons API
-  slug: stripe-persons-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Post API from Stripe — 95 operation(s) for post.
-  name: Stripe Post API
-  slug: stripe-post-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Preview API from Stripe — 2 operation(s) for preview.
-  name: Stripe Preview API
-  slug: stripe-preview-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Rate API from Stripe — 1 operation(s) for rate.
-  name: Stripe Rate API
-  slug: stripe-rate-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Rates API from Stripe — 2 operation(s) for rates.
-  name: Stripe Rates API
-  slug: stripe-rates-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Redact API from Stripe — 1 operation(s) for redact.
-  name: Stripe Redact API
-  slug: stripe-redact-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Refresh API from Stripe — 2 operation(s) for refresh.
-  name: Stripe Refresh API
-  slug: stripe-refresh-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Refund API from Stripe — 3 operation(s) for refund.
-  name: Stripe Refund API
-  slug: stripe-refund-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Reject API from Stripe — 1 operation(s) for reject.
-  name: Stripe Reject API
-  slug: stripe-reject-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Reports API from Stripe — 2 operation(s) for reports.
-  name: Stripe Reports API
-  slug: stripe-reports-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Retrieve API from Stripe — 10 operation(s) for retrieve.
-  name: Stripe Retrieve API
-  slug: stripe-retrieve-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Reverse API from Stripe — 1 operation(s) for reverse.
-  name: Stripe Reverse API
-  slug: stripe-reverse-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Search API from Stripe — 4 operation(s) for search.
-  name: Stripe Search API
-  slug: stripe-search-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Secrets API from Stripe — 3 operation(s) for secrets.
-  name: Stripe Secrets API
-  slug: stripe-secrets-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Send API from Stripe — 1 operation(s) for send.
-  name: Stripe Send API
-  slug: stripe-send-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Sessions API from Stripe — 14 operation(s) for sessions.
-  name: Stripe Sessions API
-  slug: stripe-sessions-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Settlement API from Stripe — 1 operation(s) for settlement.
-  name: Stripe Settlement API
-  slug: stripe-settlement-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Settlements API from Stripe — 2 operation(s) for settlements.
-  name: Stripe Settlements API
-  slug: stripe-settlements-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: The Setup Attempts API from Stripe — 1 operation(s) for setup attempts.
@@ -762,11 +362,6 @@ apis:
   description: The Setup Intents API from Stripe — 6 operation(s) for setup intents.
   name: Stripe Setup Intents API
   slug: stripe-setup-intents-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Subscribe API from Stripe — 1 operation(s) for subscribe.
-  name: Stripe Subscribe API
-  slug: stripe-subscribe-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
   description: The Subscription Items API from Stripe — 4 operation(s) for subscription items.
@@ -794,54 +389,19 @@ apis:
   slug: stripe-tax-rates-api
 - baseURL: https://api.stripe.com/
   baseurl_source: spec
-  description: The Transaction API from Stripe — 3 operation(s) for transaction.
-  name: Stripe Transaction API
-  slug: stripe-transaction-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Transactions API from Stripe — 10 operation(s) for transactions.
-  name: Stripe Transactions API
-  slug: stripe-transactions-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Unsubscribe API from Stripe — 1 operation(s) for unsubscribe.
-  name: Stripe Unsubscribe API
-  slug: stripe-unsubscribe-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Upcoming API from Stripe — 2 operation(s) for upcoming.
-  name: Stripe Upcoming API
-  slug: stripe-upcoming-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Update API from Stripe — 7 operation(s) for update.
-  name: Stripe Update API
-  slug: stripe-update-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Validate API from Stripe — 1 operation(s) for validate.
-  name: Stripe Validate API
-  slug: stripe-validate-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Verification API from Stripe — 6 operation(s) for verification.
-  name: Stripe Verification API
-  slug: stripe-verification-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Verify API from Stripe — 3 operation(s) for verify.
-  name: Stripe Verify API
-  slug: stripe-verify-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
-  description: The Void API from Stripe — 2 operation(s) for void.
-  name: Stripe Void API
-  slug: stripe-void-api
-- baseURL: https://api.stripe.com/
-  baseurl_source: spec
   description: The Webhook Endpoints API from Stripe — 2 operation(s) for webhook endpoints.
   name: Stripe Webhook Endpoints API
   slug: stripe-webhook-endpoints-api
+- baseURL: https://api.stripe.com/
+  baseurl_source: spec
+  description: The Invoice Items API from Stripe — 2 operation(s) for invoice items.
+  name: Stripe Invoice Items API
+  slug: stripe-invoice-items-api
+- baseURL: https://api.stripe.com/
+  baseurl_source: spec
+  description: The Top Ups API from Stripe — 3 operation(s) for top ups.
+  name: Stripe Top Ups API
+  slug: stripe-top-ups-api
 arazzos:
 - description: Add an item to a subscription, then update its quantity.
   name: Stripe Add and Scale Subscription Item
@@ -936,7 +496,7 @@ arazzos:
 - description: Create and finalize an invoice, then mark it uncollectible.
   name: Stripe Write Off Invoice
   slug: stripe-write-off-invoice-workflow
-artifact_total: 459
+artifact_total: 371
 asyncapis:
 - description: Stripe uses webhooks to notify your application when an event happens in your account. Webhooks are particularly useful for asynchronous events like when a customer's bank confirms a payment, a custom
   name: Stripe Webhooks
@@ -1603,6 +1163,41 @@ collections:
   name: Stripe Accounts Account Webhook Endpoints API
   slug: open-stripe-webhook-endpoints-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/overlays/stripe-topups-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stripe-topups-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/overlays/stripe-billing-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stripe-billing-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/overlays/stripe-country-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stripe-country-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/overlays/stripe-link-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stripe-link-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/overlays/stripe-connect-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stripe-connect-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/overlays/stripe-customer-portal-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stripe-customer-portal-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/overlays/stripe-revenue-recognition-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stripe-revenue-recognition-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/capabilities/stripe-capability-edges.yml
   title: ''
@@ -2281,22 +1876,22 @@ mcp_servers:
 - description: 'Stripe operates an official remote MCP server at https://mcp.stripe.com, authenticated with OAuth (RFC 9728 protected resource; authorization server https://access.stripe.com/mcp) or a restricted API '
   name: Stripe MCP Server manifest
   slug: stripe-mcp-server-manifest
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Stripe
 nav: Providers
 network: true
-overview: 'Stripe publishes 159 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balance API, Billing API, and 156 more. Tagged areas include Commerce, Financial-Services, Fintech, Payments, and T1.
+overview: 'Stripe publishes 71 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balance API, Charges API, and 68 more. Tagged areas include Commerce, Financial-Services, Fintech, Payments, and T1.
 
 
   The Stripe catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Stripe''s developer surface includes authentication, sandbox, changelog, CLI, signup flow, developer portal, documentation, and 122 more developer resources.'
+  Stripe''s developer surface includes authentication, sandbox, changelog, CLI, signup flow, developer portal, documentation, and 129 more developer resources.'
 plans:
 - name: Stripe Plans Pricing
   plan_count: 9
   slug: stripe-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Stripe Rate Limits
@@ -2341,7 +1936,7 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 79.7
+  composite: 80.0
   coverage:
     artifact_dirs: 40
     catalog_earned: 45.5
@@ -2349,11 +1944,11 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 76.3
     contract_governance: 33.3
-    contract_quality: 73.2
+    contract_quality: 74.6
     developer_ergonomics: 94.6
     discoverability: 48.1
     operational_transparency: 76.3
@@ -2365,7 +1960,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 159
+      total: 71
     mcp: first-party
     skills: derived
   regulatory:
@@ -2379,7 +1974,7 @@ score:
     regime_id: payments
     score: 93.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2409,5 +2004,6 @@ tags:
 - Fintech
 - Payments
 - T1
+- Stripe
 website: https://stripe.com
 ---

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 24
 apis:
 - baseURL: https://localhost:8081/mec_service_mgmt/v1
@@ -431,7 +431,7 @@ overview: 'ETSI publishes 23 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ETSI''s developer surface includes documentation, developer portal, sandbox, API reference, getting-started guide, support, engineering blog, and 50 more developer resources.'
-random_paper: 17
+random_paper: 19
 scopes:
 - name: Etsi Scopes
   scope_count: 13
@@ -480,7 +480,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

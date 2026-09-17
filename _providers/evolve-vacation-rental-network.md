@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -144,7 +144,7 @@ modified: '2026-08-12'
 name: Evolve
 nav: Providers
 network: true
-overview: 'Evolve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Vacation Rentals, and Short-Term Rentals.
+overview: 'Evolve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Vacation Rentals, and Short-Term Rental.
 
 
   Evolve''s developer surface includes engineering blog, support, pricing, authentication, and 14 more developer resources.'
@@ -152,7 +152,7 @@ plans:
 - name: Evolve Vacation Rental Network Plans Pricing
   plan_count: 0
   slug: evolve-vacation-rental-network-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Evolve Vacation Rental Network Rate Limits
@@ -184,7 +184,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -206,7 +206,7 @@ tags:
 - Travel
 - Hospitality
 - Vacation Rentals
-- Short-Term Rentals
+- Short-Term Rental
 - Property Management
 - Real-Estate
 - Booking

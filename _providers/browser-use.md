@@ -33,12 +33,12 @@ agent_readiness:
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 58.3
-  scored_at: '2026-09-15'
+  score: 60.0
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -46,27 +46,67 @@ agentic_access:
   operation_count: 103
   slug: browser-use-agentic-access
   summary_line: 103 operations · 53 acting · 10 human-in-the-loop
-api_count: 3
+api_count: 6
 apis:
-- baseURL: https://api.browser-use.com/api/v4
-  baseurl_source: declared
-  description: The current Browser Use Cloud REST API for long-horizon agent runs — create and monitor runs, continue conversations in sessions with a message queue, persist files in workspaces, launch and stop stea
-  name: Browser Use Public API v4
-  slug: browser-use-api-v4
-- baseURL: https://api.browser-use.com/api/v3
-  baseurl_source: declared
-  description: The session-based Browser Use Cloud REST API — agent sessions with streamed messages, standalone CDP browsers, persistent workspaces and files, browser profiles, billing account balance, and an x402 m
-  name: Browser Use Public API v3
-  slug: browser-use-api-v3
-- baseURL: https://api.browser-use.com/api/v2
-  baseurl_source: declared
-  description: The step-priced Browser Use Cloud REST API — tasks and task logs, sessions with public share links, presigned file upload/download URLs, browser profiles, standalone browsers, and the Skills surface t
-  name: Browser Use Public API v2
-  slug: browser-use-api-v2
 - description: Browser Use's hosted remote Model Context Protocol server. An anonymous tools/list returns six real tools — browser_task, monitor_task, list_skills, execute_skill, get_cookies and list_browser_profile
   name: Browser Use MCP Server
   slug: browser-use-mcp
-artifact_total: 14
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Billing API from Browser Use — 1 operation(s) for billing.
+  name: Browser Use Billing API
+  slug: browser-use-billing-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Browsers API from Browser Use — 3 operation(s) for browsers.
+  name: Browser Use Browsers API
+  slug: browser-use-browsers-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Files API from Browser Use — 3 operation(s) for files.
+  name: Browser Use Files API
+  slug: browser-use-files-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Profiles API from Browser Use — 2 operation(s) for profiles.
+  name: Browser Use Profiles API
+  slug: browser-use-profiles-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Runs API from Browser Use — 6 operation(s) for runs.
+  name: Browser Use Runs API
+  slug: browser-use-runs-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Sessions API from Browser Use — 8 operation(s) for sessions.
+  name: Browser Use Sessions API
+  slug: browser-use-sessions-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Skills API from Browser Use — 8 operation(s) for skills.
+  name: Browser Use Skills API
+  slug: browser-use-skills-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Skills Marketplace API from Browser Use — 4 operation(s) for skills marketplace.
+  name: Browser Use Skills Marketplace API
+  slug: browser-use-skills-marketplace-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Tasks API from Browser Use — 4 operation(s) for tasks.
+  name: Browser Use Tasks API
+  slug: browser-use-tasks-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The Workspaces API from Browser Use — 5 operation(s) for workspaces.
+  name: Browser Use Workspaces API
+  slug: browser-use-workspaces-api
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The x402 API from Browser Use — 1 operation(s) for x402.
+  name: Browser Use X402 API
+  slug: browser-use-x402-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Browser Use Webhooks
@@ -76,6 +116,11 @@ collections:
   name: API Collection
   slug: open-.refine-report
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/overlays/browser-use-api-v4-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/browser-use-api-v4-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -277,18 +322,18 @@ modified: '2026-08-29'
 name: Browser Use
 nav: Providers
 network: true
-overview: 'Browser Use publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public API v4, Public API v3, and Public API v2. Tagged areas include AI Automation, Browser Automation, Web Agents, Web Scraping, and Headless Browsers.
+overview: 'Browser Use publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Browsers API, Files API, and 8 more. Tagged areas include AI Automation, Browser Automation, Web Agents, Web Scraping, and Headless Browser.
 
 
   The Browser Use catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Browser Use''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  Browser Use''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Browser Use Plans Pricing
   plan_count: 6
   slug: browser-use-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 7
   name: Browser Use Rate Limits
@@ -300,7 +345,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.1
+  composite: 68.9
   coverage:
     artifact_dirs: 27
     catalog_earned: 67.0
@@ -308,11 +353,11 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 67.1
+    contract_quality: 66.4
     developer_ergonomics: 78.6
     discoverability: 81.5
     operational_transparency: 65.8
@@ -324,11 +369,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 11
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -349,7 +394,7 @@ tags:
 - Browser Automation
 - Web Agents
 - Web Scraping
-- Headless Browsers
+- Headless Browser
 - Agent Infrastructure
 - MCP
 - Cloud Browsers

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- baseURL: https://admanager.googleapis.com
-  baseurl_source: declared
-  description: The adUnits API from Google Ad Manager — 1 operation(s) for adunits.
-  name: Google Ad Manager adUnits API
-  slug: google-ad-manager-adunits-api
 - baseURL: https://admanager.googleapis.com
   baseurl_source: declared
   description: The Companies API from Google Ad Manager — 1 operation(s) for companies.
@@ -69,6 +64,11 @@ apis:
   description: The Reports:run API from Google Ad Manager — 1 operation(s) for reports:run.
   name: Google Ad Manager Reports:run API
   slug: google-ad-manager-reports-run-api
+- baseURL: https://admanager.googleapis.com
+  baseurl_source: declared
+  description: The Ad Units API from Google Ad Manager — 1 operation(s) for ad units.
+  name: Google Ad Manager Ad Units API
+  slug: google-ad-manager-ad-units-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -155,7 +155,7 @@ modified: '2026-05-19'
 name: Google Ad Manager
 nav: Providers
 network: true
-overview: 'Google Ad Manager publishes 5 APIs on the [APIs.io](https://apis.io/) network, including adUnits API, Companies API, Networks API, and 2 more. Tagged areas include Ad Manager, Ad Operations, Ad Serving, Creatives, and Line Items.
+overview: 'Google Ad Manager publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Networks API, Orders API, and 2 more. Tagged areas include Ad Manager, Ad Operations, Ad Serving, Creative, and Line Items.
 
 
   The Google Ad Manager catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -166,7 +166,7 @@ plans:
 - name: Google Ad Manager Plans Pricing
   plan_count: 3
   slug: google-ad-manager-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Google Ad Manager Rate Limits
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -238,7 +238,7 @@ tags:
 - Ad Manager
 - Ad Operations
 - Ad Serving
-- Creatives
+- Creative
 - Line Items
 - Order
 - Publishers

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -187,10 +187,10 @@ common:
   type: PrivacyPolicy
   url: https://www.tryprofound.com/legal/privacy-policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-external-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/_original/profound-external-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/profound-external-api-openapi.json
+  url: openapi/_original/profound-external-api-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/overlays/profound-external-api-overlay.yaml
   title: ''
@@ -322,6 +322,10 @@ common:
   title: ''
   type: Compliance
   url: https://trust.tryprofound.com
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:team@tryprofound.com
 created: '2026-07-17'
 description: Profound is a marketing platform for the AI era and a leading platform for Answer Engine Optimization (AEO). Operated by Cooper Square Technologies Inc. (dba Profound) in New York, it helps brands measure and improve how they are represented across AI answer engines and assistants — ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews and AI Mode, Copilot, and Grok — through answer-engine insights, agent analytics, prompt volumes, shopping visibility, and content optimization. Profound publishes a 125-operation OpenAPI 3.1 for its External API at api.tryprofound.com, runs a separate Agent Analytics Ingestion API, ships official Python and TypeScript SDKs, and operates a hosted remote MCP server at mcp.tryprofound.com with OAuth 2.1 and a conformant A2A agent card. API access is included on the Enterprise plan on request. Profound is SOC 2 and HIPAA aligned and publishes a responsible-disclosure policy. Backed by Kleiner Perkins.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/profound.png
@@ -330,19 +334,19 @@ mcp_servers:
 - description: ''
   name: Profound MCP Server
   slug: profound-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Profound
 nav: Providers
 network: true
 overview: 'Profound publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Beta API, Bot Traffic Reports API, and 12 more. Tagged areas include Company, Artificial Intelligence, Answer Engine Optimization, AEO, and AI Search.
 
 
-  Profound''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+  Profound''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Profound Plans Pricing
   plan_count: 3
   slug: profound-plans-pricing
-random_paper: 16
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Profound Rate Limits
@@ -382,7 +386,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

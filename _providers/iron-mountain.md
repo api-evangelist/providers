@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,7 +61,7 @@ modified: '2026-04-28'
 name: Iron Mountain
 nav: Providers
 network: true
-overview: 'Iron Mountain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Records Management, Information Management, Data Centers, Digital Transformation, and Storage.
+overview: 'Iron Mountain is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Records Management, Information Management, Data-Center, Digital Transformation, and Storage.
 
 
   The Iron Mountain catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Iron Mountain Named 2026 Google Cloud Partner of ...
   url: https://www.businesswire.com/news/home/20260421310205/en/Iron-Mountain-Named-2026-Google-Cloud-Partner-of-the-Year-Business-Applications-Media-Entertainment
-random_paper: 16
+random_paper: 18
 rules:
 - effective_rule_count: 0
   extends: []
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -131,7 +131,7 @@ slug: iron-mountain
 tags:
 - Records Management
 - Information Management
-- Data Centers
+- Data-Center
 - Digital Transformation
 - Storage
 - Fortune 1000

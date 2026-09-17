@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,11 +46,6 @@ api_count: 2
 apis:
 - baseURL: https://api.saga.einride.tech
   baseurl_source: declared
-  description: The AuthenticationService API from Einride — 1 operation(s) for authenticationservice.
-  name: Einride AuthenticationService API
-  slug: einride-authenticationservice-api
-- baseURL: https://api.saga.einride.tech
-  baseurl_source: declared
   description: The BookingService API from Einride — 7 operation(s) for bookingservice.
   name: Einride BookingService API
   slug: einride-bookingservice-api
@@ -59,6 +54,11 @@ apis:
   description: The ShipmentService API from Einride — 6 operation(s) for shipmentservice.
   name: Einride ShipmentService API
   slug: einride-shipmentservice-api
+- baseURL: https://api.saga.einride.tech
+  baseurl_source: declared
+  description: The Authentication Service API from Einride — 1 operation(s) for authentication service.
+  name: Einride Authentication Service API
+  slug: einride-authentication-service-api
 artifact_total: 11
 collections:
 - collection_type: open
@@ -246,14 +246,14 @@ modified: '2026-07-19'
 name: Einride
 nav: Providers
 network: true
-overview: 'Einride publishes 3 APIs on the [APIs.io](https://apis.io/) network: AuthenticationService API, BookingService API, and ShipmentService API. Tagged areas include Company, Sustainable Transport, Freight, Logistics, and Autonomous Vehicles.
+overview: 'Einride publishes 3 APIs on the [APIs.io](https://apis.io/) network: BookingService API, ShipmentService API, and Authentication Service API. Tagged areas include Company, Sustainable Transport, Freight, Logistics, and Autonomous Vehicles.
 
 
   Einride''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 29 more developer resources.'
-random_paper: 1
+random_paper: 10
 score:
   band: thin
-  composite: 38.3
+  composite: 37.8
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -261,11 +261,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 43.5
+    contract_quality: 41.3
     developer_ergonomics: 37.5
     discoverability: 75.9
     operational_transparency: 28.9
@@ -285,14 +285,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

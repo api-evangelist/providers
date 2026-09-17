@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
@@ -165,7 +165,7 @@ overview: 'Alectra Utilities publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Alectra Utilities'' developer surface includes documentation, developer portal, support, engineering blog, and 16 more developer resources.'
-random_paper: 1
+random_paper: 5
 scopes:
 - name: Alectra Utilities Scopes
   scope_count: 0
@@ -213,7 +213,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

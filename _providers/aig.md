@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: AIG offers commercial and personal insurance products globally including property casualty, cyber insurance, casualty, professional liability, financial lines, specialty risk, and reinsurance. AIG ser
@@ -281,7 +281,7 @@ press:
 - date: '2026-05-25'
   title: AIG Investor Day 2025
   url: https://www.aig.com/home/investor-relations/aig-investor-day-2025
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Aig Rate Limits
@@ -331,7 +331,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

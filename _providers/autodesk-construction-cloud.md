@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -71,11 +71,6 @@ apis:
   slug: autodesk-construction-cloud-issues-api
 - baseURL: https://developer.api.autodesk.com
   baseurl_source: declared
-  description: Issue type configuration
-  name: Autodesk Construction Cloud IssueTypes API
-  slug: autodesk-construction-cloud-issuetypes-api
-- baseURL: https://developer.api.autodesk.com
-  baseurl_source: declared
   description: ACC project management
   name: Autodesk Construction Cloud Projects API
   slug: autodesk-construction-cloud-projects-api
@@ -84,6 +79,11 @@ apis:
   description: Project and account user management
   name: Autodesk Construction Cloud Users API
   slug: autodesk-construction-cloud-users-api
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: Issue type configuration
+  name: Autodesk Construction Cloud Issue Types API
+  slug: autodesk-construction-cloud-issue-types-api
 artifact_total: 75
 asyncapis:
 - description: Autodesk Construction Cloud (ACC) and APS Webhooks deliver event notifications for project activities including issue creation, document updates, RFI changes, submittal status changes, and model coord
@@ -339,7 +339,7 @@ modified: '2026-05-19'
 name: Autodesk Construction Cloud
 nav: Providers
 network: true
-overview: 'Autodesk Construction Cloud publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Issues API, IssueTypes API, and 2 more. Tagged areas include Construction, BIM, Project Management, AEC, and CAD.
+overview: 'Autodesk Construction Cloud publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Issues API, Projects API, and 2 more. Tagged areas include Construction, BIM, Project Management, AEC, and CAD.
 
 
   The Autodesk Construction Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -350,7 +350,7 @@ plans:
 - name: Autodesk Construction Cloud Plans Pricing
   plan_count: 3
   slug: autodesk-construction-cloud-plans-pricing
-random_paper: 19
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Autodesk Construction Cloud Rate Limits
@@ -409,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

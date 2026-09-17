@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Prism is an open source HTTP mock and validation server from Stoplight that generates dynamic mock responses and validates requests against OpenAPI specifications.
@@ -102,7 +102,7 @@ plans:
 - name: Prism Plans Pricing
   plan_count: 3
   slug: prism-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Prism Rate Limits
@@ -130,7 +130,7 @@ score:
     score: 65.0
   previous_composite: 16.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

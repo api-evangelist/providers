@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -246,11 +246,6 @@ apis:
   slug: nationgraph-rag-files-api
 - baseURL: https://api.nationgraph.com
   baseurl_source: declared
-  description: The RFPs API from NationGraph — 5 operation(s) for rfps.
-  name: NationGraph RFPs API
-  slug: nationgraph-rfps-api
-- baseURL: https://api.nationgraph.com
-  baseurl_source: declared
   description: The Scheduling API from NationGraph — 3 operation(s) for scheduling.
   name: NationGraph Scheduling API
   slug: nationgraph-scheduling-api
@@ -324,6 +319,11 @@ apis:
   description: The YouTube API from NationGraph — 2 operation(s) for youtube.
   name: NationGraph YouTube API
   slug: nationgraph-youtube-api
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The RFPs API from NationGraph — 5 operation(s) for rfps.
+  name: NationGraph RF Ps API
+  slug: nationgraph-rfps-api
 artifact_total: 120
 collections:
 - collection_type: open
@@ -641,7 +641,7 @@ plans:
 - name: Nationgraph Plans Pricing
   plan_count: 0
   slug: nationgraph-plans-pricing
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Nationgraph Rate Limits
@@ -653,7 +653,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.0
+  composite: 48.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -661,11 +661,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 53.9
+    contract_quality: 49.2
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 2.6
@@ -674,7 +674,7 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 56
@@ -687,7 +687,7 @@ score:
     regime_id: government
     score: 74.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

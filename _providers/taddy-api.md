@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,9 +50,9 @@ apis:
   slug: taddy-comics-api
 - baseURL: https://api.taddy.org
   baseurl_source: declared
-  description: The GraphQL API from Taddy API — 1 operation(s) for graphql.
-  name: Taddy API GraphQL API
-  slug: taddy-api-graphql-api
+  description: The Graph QL API from Taddy API — 1 operation(s) for graph ql.
+  name: Taddy API Graph QL API
+  slug: taddy-api-graph-ql-api
 artifact_total: 21
 collections:
 - collection_type: postman
@@ -198,7 +198,7 @@ modified: '2026-05-19'
 name: Taddy API
 nav: Providers
 network: true
-overview: 'Taddy API publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Audio, Comics, GraphQL, Media, and Podcasts.
+overview: 'Taddy API publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Audio, Comics, GraphQL, Media, and Podcasts.
 
 
   The Taddy API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -209,7 +209,7 @@ plans:
 - name: Taddy Api Plans Pricing
   plan_count: 3
   slug: taddy-api-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Taddy Api Rate Limits
@@ -263,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

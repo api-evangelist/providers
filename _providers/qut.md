@@ -25,35 +25,20 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 37.3
-  scored_at: '2026-09-15'
-api_count: 3
+  score: 34.7
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
-- baseURL: https://eprints.qut.edu.au/cgi/oai2
-  baseurl_source: declared
-  description: Public, unauthenticated OAI-PMH 2.0 metadata harvesting interface for QUT's institutional research repository. All six verbs served. Advertises oai_dc, oai_bibl, oai_openaire and uketd_dc. Identify na
-  name: QUT ePrints OAI-PMH 2.0
-  slug: qut-eprints-oai-pmh-20
-- baseURL: https://esoe.qut.edu.au/auth/realms/qut
-  baseurl_source: declared
-  description: QUT's enterprise single sign-on authorization server, a Keycloak deployment on QUT's own address space. Publishes OpenID Connect Discovery 1.0 metadata, an RFC 8414 authorization server metadata docum
-  name: QUT ESOE OpenID Connect Provider
-  slug: qut-esoe-openid-connect-provider
 - description: QUT's self-hosted Shibboleth SAML 2.0 identity provider. Publishes per-entity metadata that dereferences from its own entityID, asserts shibmd:Scope qut.edu.au, and is registered in the Australian Acc
   name: QUT Shibboleth Identity Provider
   slug: qut-shibboleth-identity-provider
-- baseURL: https://eprints.qut.edu.au/rest
-  baseurl_source: declared
-  description: The GNU EPrints REST dataset interface. The index is open and the payload is closed — /rest/, /rest/eprint/ and /rest/subject/ return 200 without credentials, while every individual record returns 401
-  name: QUT ePrints REST Interface
-  slug: qut-eprints-rest-interface
 - description: A public agent plugin marketplace published by QUT eResearch, carrying one MCP server definition that wraps the QUT eResearch documentation site. Institution-authored and a rare find for a university.
   name: QUT eResearch Agent Plugin Marketplace
   slug: qut-eresearch-agent-plugin-marketplace
@@ -78,7 +63,42 @@ apis:
 - description: QUT is a member of the Australian Access Federation, which is interfederated with eduGAIN. Five entity descriptors naming QUT appear in the production aggregate; three are QUT-operated (the IdP at idp
   name: Australian Access Federation membership
   slug: australian-access-federation-membership
-artifact_total: 24
+- baseURL: https://eprints.qut.edu.au/cgi/oai2
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and device / CIBA initiation.
+  name: Queensland University of Technology Authorization API
+  slug: qut-authorization-api
+- baseURL: https://eprints.qut.edu.au/cgi/oai2
+  baseurl_source: declared
+  description: OpenID Connect Dynamic Client Registration.
+  name: Queensland University of Technology Client Registration API
+  slug: qut-client-registration-api
+- baseURL: https://eprints.qut.edu.au/cgi/oai2
+  baseurl_source: declared
+  description: EPrints REST dataset navigation.
+  name: Queensland University of Technology Datasets API
+  slug: qut-datasets-api
+- baseURL: https://eprints.qut.edu.au/cgi/oai2
+  baseurl_source: declared
+  description: Provider metadata documents.
+  name: Queensland University of Technology Discovery API
+  slug: qut-discovery-api
+- baseURL: https://eprints.qut.edu.au/cgi/oai2
+  baseurl_source: declared
+  description: End-user claims and session termination.
+  name: Queensland University of Technology Identity API
+  slug: qut-identity-api
+- baseURL: https://eprints.qut.edu.au/cgi/oai2
+  baseurl_source: declared
+  description: The six OAI-PMH 2.0 verbs, all dispatched from a single /oai2 resource by the `verb` parameter.
+  name: Queensland University of Technology OAI PMH API
+  slug: qut-oai-pmh-api
+- baseURL: https://eprints.qut.edu.au/cgi/oai2
+  baseurl_source: declared
+  description: Token issuance, inspection and revocation.
+  name: Queensland University of Technology Token API
+  slug: qut-token-api
+artifact_total: 28
 common:
 - group: company
   title: ''
@@ -219,7 +239,7 @@ modified: '2026-09-01'
 name: Queensland University of Technology
 nav: Providers
 network: true
-overview: 'Queensland University of Technology publishes 3 APIs on the [APIs.io](https://apis.io/) network: QUT ePrints OAI-PMH 2.0, QUT ESOE OpenID Connect Provider, and QUT ePrints REST Interface. Tagged areas include University, Higher Education, Education, Australia, and Research.
+overview: 'Queensland University of Technology publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Client Registration API, Datasets API, and 4 more. Tagged areas include University, Higher Education, Education, Australia, and Research.
 
 
   The Queensland University of Technology catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -230,7 +250,7 @@ plans:
 - name: Qut Plans Pricing
   plan_count: 2
   slug: qut-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Qut Rate Limits
@@ -253,19 +273,19 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.3
+  composite: 32.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 76.8
+    catalog_earned: 80.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.3
+    catalog_gap: 34.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.6
   facets:
     access_clarity: 28.9
     contract_governance: 11.4
-    contract_quality: 37.2
+    contract_quality: 26.8
     developer_ergonomics: 21.4
     discoverability: 85.2
     operational_transparency: 26.3
@@ -281,9 +301,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 6
       marker_coverage: 100.0
-      total: 3
+      total: 7
     mcp: first-party
   regulatory:
     applies: true
@@ -292,7 +312,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-09-15'
+  score: 31.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ modified: '2026-06-12'
 name: Loop Returns
 nav: Providers
 network: true
-overview: 'Loop Returns publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Destinations API, Fraud Reports API, and 4 more. Tagged areas include Returns, E-Commerce, Exchanges, Refunds, and Shipping.
+overview: 'Loop Returns publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Destinations API, Fraud Reports API, and 4 more. Tagged areas include Returns, E-Commerce, Exchange, Refunds, and Shipping.
 
 
   The Loop Returns catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -274,7 +274,7 @@ plans:
 - name: Loop Returns Plans Pricing
   plan_count: 3
   slug: loop-returns-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Loop Returns Rate Limits
@@ -328,7 +328,7 @@ score:
     regime_id: securities_market_data
     score: 63.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -351,7 +351,7 @@ slug: loop-returns
 tags:
 - Returns
 - E-Commerce
-- Exchanges
+- Exchange
 - Refunds
 - Shipping
 - Post-Purchase

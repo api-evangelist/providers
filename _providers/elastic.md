@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,11 +57,6 @@ apis:
   slug: elastic-cluster-api
 - baseURL: https://api.elastic-cloud.com
   baseurl_source: declared
-  description: Manage data views (formerly index patterns).
-  name: Elastic DataViews API
-  slug: elastic-dataviews-api
-- baseURL: https://api.elastic-cloud.com
-  baseurl_source: declared
   description: Manage Elasticsearch and Kibana deployments.
   name: Elastic Deployments API
   slug: elastic-deployments-api
@@ -75,11 +70,6 @@ apis:
   description: Manage indices, mappings, and settings.
   name: Elastic Indices API
   slug: elastic-indices-api
-- baseURL: https://api.elastic-cloud.com
-  baseurl_source: declared
-  description: Manage Kibana saved objects (dashboards, visualizations, searches).
-  name: Elastic SavedObjects API
-  slug: elastic-savedobjects-api
 - baseURL: https://api.elastic-cloud.com
   baseurl_source: declared
   description: Search and query operations across indices.
@@ -105,6 +95,16 @@ apis:
   description: IP and VPC traffic filter rulesets for deployments.
   name: Elastic TrafficFilters API
   slug: elastic-trafficfilters-api
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Manage data views (formerly index patterns).
+  name: Elastic data views API
+  slug: elastic-data-views-api
+- baseURL: https://api.elastic-cloud.com
+  baseurl_source: declared
+  description: Manage Kibana saved objects (dashboards, visualizations, searches).
+  name: Elastic saved objects API
+  slug: elastic-saved-objects-api
 artifact_total: 59
 collections:
 - collection_type: open
@@ -265,7 +265,7 @@ modified: '2026-05-19'
 name: Elastic
 nav: Providers
 network: true
-overview: 'Elastic publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Cluster API, DataViews API, and 9 more. Tagged areas include Search, Analytics, Observability, Security, and Visualization.
+overview: 'Elastic publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Cluster API, Deployments API, and 9 more. Tagged areas include Search, Analytics, Observability, Security, and Visualization.
 
 
   The Elastic catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -276,7 +276,7 @@ plans:
 - name: Elastic Plans Pricing
   plan_count: 3
   slug: elastic-plans-pricing
-random_paper: 6
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Elastic Rate Limits
@@ -319,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

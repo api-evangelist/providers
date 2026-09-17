@@ -24,7 +24,7 @@ name: Placemeter
 nav: Providers
 network: true
 overview: Placemeter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Computer-Vision, Video Analytics, Foot Traffic, and Smart Cities.
-random_paper: 8
+random_paper: 2
 slug: placemeter
 tags:
 - Company

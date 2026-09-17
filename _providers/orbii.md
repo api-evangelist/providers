@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 29
+- acting_count: 11
   human_in_the_loop: 0
   name: Orbii Agentic Access
-  operation_count: 161
+  operation_count: 61
   slug: orbii-agentic-access
-  summary_line: 161 operations · 29 acting
+  summary_line: 61 operations · 11 acting
 api_count: 3
 apis:
 - baseURL: https://api.orbii.ai
@@ -75,11 +75,6 @@ apis:
   slug: orbii-general-api
 - baseURL: https://api.orbii.ai
   baseurl_source: declared
-  description: The IBANs API from Orbii — 1 operation(s) for ibans.
-  name: Orbii IBANs API
-  slug: orbii-ibans-api
-- baseURL: https://api.orbii.ai
-  baseurl_source: declared
   description: The Invoices API from Orbii — 11 operation(s) for invoices.
   name: Orbii Invoices API
   slug: orbii-invoices-api
@@ -100,11 +95,6 @@ apis:
   slug: orbii-merchants-api
 - baseURL: https://api.orbii.ai
   baseurl_source: declared
-  description: The PDFs API from Orbii — 4 operation(s) for pdfs.
-  name: Orbii PDFs API
-  slug: orbii-pdfs-api
-- baseURL: https://api.orbii.ai
-  baseurl_source: declared
   description: The Risk Assessment API from Orbii — 5 operation(s) for risk assessment.
   name: Orbii Risk Assessment API
   slug: orbii-risk-assessment-api
@@ -118,6 +108,16 @@ apis:
   description: The Transactions API from Orbii — 16 operation(s) for transactions.
   name: Orbii Transactions API
   slug: orbii-transactions-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The IBANs API from Orbii — 1 operation(s) for ibans.
+  name: Orbii IBA Ns API
+  slug: orbii-ibans-api
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The PDFs API from Orbii — 4 operation(s) for pdfs.
+  name: Orbii PD Fs API
+  slug: orbii-pdfs-api
 artifact_total: 34
 collections:
 - collection_type: open
@@ -284,10 +284,10 @@ overview: 'Orbii publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Orbii''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 8
+random_paper: 5
 score:
   band: thin
-  composite: 28.3
+  composite: 29.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -295,11 +295,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 44.7
+    contract_quality: 47.3
     developer_ergonomics: 47.0
     discoverability: 81.5
     operational_transparency: 0.0
@@ -326,7 +326,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: LTK's partner/affiliate API served from the rewardStyle Developer Portal, secured with OAuth2 (client-credentials token endpoint at /oauth/token). The full API reference and specification are gated be
@@ -162,7 +162,7 @@ plans:
 - name: Ltk Plans Pricing
   plan_count: 0
   slug: ltk-plans-pricing
-random_paper: 16
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Ltk Rate Limits
@@ -195,7 +195,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -76,12 +76,12 @@ apis:
 - baseURL: https://agents.toolhouse.ai
   baseurl_source: declared
   description: The SDK API API from Toolhouse — 20 operation(s) for sdk api.
-  name: Toolhouse SDK API API
+  name: Toolhouse SDK API
   slug: toolhouse-sdk-api-api
 - baseURL: https://agents.toolhouse.ai
   baseurl_source: declared
   description: The User API API from Toolhouse — 58 operation(s) for user api.
-  name: Toolhouse User API API
+  name: Toolhouse User API
   slug: toolhouse-user-api-api
 artifact_total: 99
 collections:
@@ -413,7 +413,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-22'
+modified: '2026-09-16'
 name: Toolhouse
 nav: Providers
 network: true
@@ -424,7 +424,7 @@ overview: 'Toolhouse publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Toolhouse''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, support, tooling, and 39 more developer resources.'
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 10
   name: Toolhouse Rate Limits
@@ -453,7 +453,7 @@ rules:
   slug: toolhouse-rules
 score:
   band: developing
-  composite: 53.7
+  composite: 52.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 60.5
@@ -461,11 +461,11 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 52.6
     contract_governance: 28.8
-    contract_quality: 62.0
+    contract_quality: 56.6
     developer_ergonomics: 46.4
     discoverability: 75.9
     operational_transparency: 44.7
@@ -473,12 +473,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

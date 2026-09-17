@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,62 +47,62 @@ apis:
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: Collection of endpoints related to AI Agents (SmartCall Settings). Agents are configurable AI-powered voice/interview agents that can be linked to campaigns, question sets, and candidate attribute ext
-  name: TalkPush Agents API API
+  name: TalkPush Agents API
   slug: talkpush-agents-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: Collection of endpoints related to calls data
-  name: TalkPush Calls API API
+  name: TalkPush Calls API
   slug: talkpush-calls-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: Collection of endpoints related to Talkpush Campaigns
-  name: TalkPush Campaigns API API
+  name: TalkPush Campaigns API
   slug: talkpush-campaigns-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: List and create candidate (lead) custom attribute definitions at the company level. Definitions appear in the recruiter UI and can be written on leads via the `others` field using the attribute key. B
-  name: TalkPush Candidate Attributes API API
+  name: TalkPush Candidate Attributes API
   slug: talkpush-candidate-attributes-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: Collection of endpoints related to Document Tags (Templates)
-  name: TalkPush Document Tags API API
+  name: TalkPush Document Tags API
   slug: talkpush-document-tags-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: Collection of endpoints related to folders
-  name: TalkPush Folders API API
+  name: TalkPush Folders API
   slug: talkpush-folders-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: 'Collection of endpoints related to candidate labels. Labels are simple, company-wide tags that recruiters use to flag and filter candidates (for example: "Priority", "Referral", "Needs Review"). The s'
-  name: TalkPush Labels API API
+  name: TalkPush Labels API
   slug: talkpush-labels-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: Collection of endpoints related to leads management
-  name: TalkPush Leads API API
+  name: TalkPush Leads API
   slug: talkpush-leads-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: 'Endpoint for listing the company''s managers (platform users with role-based permissions). Use the returned IDs to discover valid managers before assigning them to campaign permissions, targeting them '
-  name: TalkPush Managers API API
+  name: TalkPush Managers API
   slug: talkpush-managers-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: Endpoints for managing Message Templates — the structured, token-based messages used by autoflows and integrations for standardised communications (interview invitations, rejection notices, offer lett
-  name: TalkPush Message Templates API API
+  name: TalkPush Message Templates API
   slug: talkpush-message-templates-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: Collection of endpoints related to sending messages
-  name: TalkPush Messaging API API
+  name: TalkPush Messaging API
   slug: talkpush-messaging-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: Endpoint for listing the company's candidate movement reasons — the configurable Shortlist Reasons and Reject Reasons that recruiters select when shortlisting or rejecting a candidate. Use these IDs/n
-  name: TalkPush Movement Reasons API API
+  name: TalkPush Movement Reasons API
   slug: talkpush-movement-reasons-api-api
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
@@ -112,7 +112,7 @@ apis:
 - baseURL: https://your-company.talkpush.com/api/talkpush_services
   baseurl_source: declared
   description: 'Endpoint for discovering the message tokens available for use inside Message Templates. Returns both system-level reserved tokens (e.g. `candidate_name`, `job_title`) and any custom tokens configured '
-  name: TalkPush Tokens API API
+  name: TalkPush Tokens API
   slug: talkpush-tokens-api-api
 artifact_total: 32
 collections:
@@ -274,18 +274,18 @@ created: '2026-07-17'
 description: 'TalkPush is a conversational recruiting and recruitment-automation CRM that helps high-volume employers source, screen, and engage job candidates across messaging channels (WhatsApp, SMS, Messenger, email) and AI voice agents. Its public REST API — the Talkpush API v2.0 — lets you plug external lead sources and HR/ATS technology into the platform: create and search leads (campaign invitations), manage recruiting campaigns and folders, run and complete interviews, send quick-reply and message templates, configure AI calling agents, and manage company labels, candidate attributes, movement reasons, and managers. Authentication is via an api_key query parameter, and the docs are published on a ReadMe developer hub with an llms.txt index for AI agents. Surfaced as a Seedcamp portfolio company and enriched by the API Evangelist pipeline from TalkPush''s own published developer documentation.'
 image: https://files.readme.io/2a5f3f7-small-logov1.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: TalkPush
 nav: Providers
 network: true
-overview: 'TalkPush publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API API, Calls API API, Campaigns API API, and 11 more. Tagged areas include Company, Recruiting, Recruitment Automation, Human Resources, and Hiring.
+overview: 'TalkPush publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Calls API, Campaigns API, and 11 more. Tagged areas include Company, Recruiting, Recruitment Automation, Human Resources, and Hiring.
 
 
   TalkPush''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 17 more developer resources.'
-random_paper: 15
+random_paper: 18
 score:
   band: thin
-  composite: 34.1
+  composite: 34.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -293,11 +293,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 48.0
+    contract_quality: 50.7
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 2.6
@@ -313,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

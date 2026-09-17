@@ -33,7 +33,7 @@ name: Fimio
 nav: Providers
 network: true
 overview: Fimio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Web3, Fraud Detection, and Smart Contracts.
-random_paper: 7
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/fimio/refs/heads/main/screenshots/fimio-2026-07-25T214459.png
 slug: fimio
 tags:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'B2B REST API for investment-portfolio consolidation and analytics: create portfolios, ingest transactions, and retrieve NAV, P&L, TWR, and IRR time series. Authenticated with a static API key in the A'
@@ -132,11 +132,11 @@ modified: '2026-07-19'
 name: Gorila
 nav: Providers
 network: true
-overview: 'Gorila publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investments, Portfolio-Management, and Wealth Management.
+overview: 'Gorila publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Investment, Portfolio-Management, and Wealth Management.
 
 
   Gorila''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: thin
   composite: 30.3
@@ -166,7 +166,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -186,7 +186,7 @@ slug: gorila
 tags:
 - Company
 - Fintech
-- Investments
+- Investment
 - Portfolio-Management
 - Wealth Management
 - Financial Data

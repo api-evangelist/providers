@@ -23,15 +23,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://connect.agendapro.com
   baseurl_source: declared
-  description: Public REST API gateway for AgendaPro. Authenticates external developers with a per-company Bearer API key, enforces scopes and rate limits, and proxies to internal services. 28 operations across 11 r
-  name: AgendaPro Connect v3 API
-  slug: agendapro-connect-v3-api
-artifact_total: 7
+  description: Query available booking slots for a service at a location
+  name: AgendaPro Available Slots API
+  slug: agendapro-available-slots-api
+- baseURL: https://connect.agendapro.com
+  baseurl_source: declared
+  description: Booking management (list, show, create, update, cancel)
+  name: AgendaPro Bookings API
+  slug: agendapro-bookings-api
+- baseURL: https://connect.agendapro.com
+  baseurl_source: declared
+  description: Shopping carts for the online payment flow
+  name: AgendaPro Carts API
+  slug: agendapro-carts-api
+- baseURL: https://connect.agendapro.com
+  baseurl_source: declared
+  description: Client management (list, show, create, update) and custom attributes
+  name: AgendaPro Clients API
+  slug: agendapro-clients-api
+- baseURL: https://connect.agendapro.com
+  baseurl_source: declared
+  description: Custom attribute templates (company-level definitions)
+  name: AgendaPro Custom Attributes API
+  slug: agendapro-custom-attributes-api
+- baseURL: https://connect.agendapro.com
+  baseurl_source: declared
+  description: Location listing and details
+  name: AgendaPro Locations API
+  slug: agendapro-locations-api
+- baseURL: https://connect.agendapro.com
+  baseurl_source: declared
+  description: Online payment requests (checkout URL) on a cart
+  name: AgendaPro Payment Requests API
+  slug: agendapro-payment-requests-api
+- baseURL: https://connect.agendapro.com
+  baseurl_source: declared
+  description: Service provider listing and details
+  name: AgendaPro Providers API
+  slug: agendapro-providers-api
+- baseURL: https://connect.agendapro.com
+  baseurl_source: declared
+  description: Sales records (read-only)
+  name: AgendaPro Sales API
+  slug: agendapro-sales-api
+- baseURL: https://connect.agendapro.com
+  baseurl_source: declared
+  description: Service catalog listing and details
+  name: AgendaPro Services API
+  slug: agendapro-services-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Agendapro Webhooks
@@ -177,7 +222,7 @@ modified: '2026-09-12'
 name: AgendaPro
 nav: Providers
 network: true
-overview: 'AgendaPro publishes 1 API on the [APIs.io](https://apis.io/) network: Connect v3 API. Tagged areas include Appointment Scheduling, Booking, Salon Software, Spa and Wellness, and Point-of-Sale.
+overview: 'AgendaPro publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Available Slots API, Bookings API, Carts API, and 7 more. Tagged areas include Appointment Scheduling, Booking, Salon Software, Spa and Wellness, and Point-of-Sale.
 
 
   The AgendaPro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -188,7 +233,7 @@ plans:
 - name: Agendapro Plans Pricing
   plan_count: 4
   slug: agendapro-plans-pricing
-random_paper: 0
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Agendapro Rate Limits
@@ -200,7 +245,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.0
+  composite: 58.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 57.0
@@ -208,11 +253,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 64.4
+    contract_quality: 63.8
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 39.5
@@ -228,7 +273,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -238,7 +283,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

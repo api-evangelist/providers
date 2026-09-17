@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.rapidata.ai/
@@ -51,11 +51,6 @@ apis:
   slug: rapidata-audience-api
 - baseURL: https://api.rapidata.ai/
   baseurl_source: declared
-  description: The BatchUpload API from Rapidata — 4 operation(s) for batchupload.
-  name: Rapidata BatchUpload API
-  slug: rapidata-batchupload-api
-- baseURL: https://api.rapidata.ai/
-  baseurl_source: declared
   description: The Benchmark API from Rapidata — 19 operation(s) for benchmark.
   name: Rapidata Benchmark API
   slug: rapidata-benchmark-api
@@ -64,11 +59,6 @@ apis:
   description: The Billing API from Rapidata — 24 operation(s) for billing.
   name: Rapidata Billing API
   slug: rapidata-billing-api
-- baseURL: https://api.rapidata.ai/
-  baseurl_source: declared
-  description: The BillingAccount API from Rapidata — 6 operation(s) for billingaccount.
-  name: Rapidata BillingAccount API
-  slug: rapidata-billingaccount-api
 - baseURL: https://api.rapidata.ai/
   baseurl_source: declared
   description: The Cache API from Rapidata — 2 operation(s) for cache.
@@ -242,7 +232,7 @@ apis:
 - baseURL: https://api.rapidata.ai/
   baseurl_source: declared
   description: The Rapidata.Identity.API API from Rapidata — 1 operation(s) for rapidata.identity.api.
-  name: Rapidata Rapidata.Identity.API API
+  name: Rapidata.Identity.API
   slug: rapidata-rapidata-identity-api-api
 - baseURL: https://api.rapidata.ai/
   baseurl_source: declared
@@ -314,6 +304,16 @@ apis:
   description: The Workflow API from Rapidata — 5 operation(s) for workflow.
   name: Rapidata Workflow API
   slug: rapidata-workflow-api
+- baseURL: https://api.rapidata.ai/
+  baseurl_source: declared
+  description: The Batch Upload API from Rapidata — 4 operation(s) for batch upload.
+  name: Rapidata Batch Upload API
+  slug: rapidata-batch-upload-api
+- baseURL: https://api.rapidata.ai/
+  baseurl_source: declared
+  description: The Billing Account API from Rapidata — 6 operation(s) for billing account.
+  name: Rapidata Billing Account API
+  slug: rapidata-billing-account-api
 artifact_total: 114
 collections:
 - collection_type: open
@@ -626,15 +626,15 @@ created: '2026-07-17'
 description: Rapidata provides human feedback at scale — crowd-sourced labeling, model evaluation, ranking, and preference data (RLHF-style) collected from real people worldwide. Teams use the Rapidata API and Python SDK to run online RLHF, refine model behavior, and evaluate model outputs (image, video, audio, and text) with pairwise A/B comparisons, ranking, and leaderboards, as well as to collect targeted human annotations (classification, locating, bounding, transcription, free text, select-words) by country, language, or demographic, with built-in quality control and confidence-based early stopping. The REST API is OAuth 2.0 / OpenID Connect secured and reaches thousands of high-quality annotations per minute. Rapidata AG is a portfolio company of Canaan Partners.
 image: https://rapidata.ai/media/rapidata.svg
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Rapidata
 nav: Providers
 network: true
-overview: 'Rapidata publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Audience API, BatchUpload API, and 52 more. Tagged areas include Company, Human Feedback, Data Labeling, Annotation, and RLHF.
+overview: 'Rapidata publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Audience API, Benchmark API, and 52 more. Tagged areas include Company, Human Feedback, Data Labeling, Annotation, and RLHF.
 
 
   Rapidata''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 19
+random_paper: 2
 scopes:
 - name: Rapidata Scopes
   scope_count: 9
@@ -642,21 +642,21 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 43.1
+  composite: 45.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 24.0
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 91.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 50.0
+    contract_quality: 52.8
     developer_ergonomics: 71.4
-    discoverability: 51.9
+    discoverability: 70.4
     operational_transparency: 18.4
   previous_composite: 43.1
   provenance:
@@ -669,7 +669,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

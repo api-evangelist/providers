@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Craft Ventures
 nav: Providers
 network: true
-random_paper: 16
+random_paper: 13
 slug: craft-ventures
 tags:
 - Venture Capital
@@ -30,7 +30,7 @@ tags:
 - Growth Equity
 - Software-as-a-Service
 - B2B
-- Marketplaces
+- Marketplace
 - Artificial Intelligence
 - Developer Tools
 - Fintech

@@ -20,7 +20,7 @@ name: Buzzer
 nav: Providers
 network: true
 overview: Buzzer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Sports, Streaming, and Media.
-random_paper: 2
+random_paper: 14
 slug: buzzer
 tags:
 - Company
@@ -29,6 +29,6 @@ tags:
 - Streaming
 - Media
 - Live Video
-- Consumer Apps
+- Consumer App
 - Sports Technology
 ---

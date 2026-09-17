@@ -23,18 +23,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- description: REST API for structured Google and public LinkedIn data, key-authenticated, with a published OpenAPI spec and an x402 agent-payment endpoint. Includes bulk/batch LinkedIn processing with webhook deliv
-  name: CrustAPI
-  slug: crustapi
-artifact_total: 8
+- baseURL: https://crustapi.com
+  baseurl_source: declared
+  description: The Demo API from CrustAPI — 1 operation(s) for demo.
+  name: CrustAPI Demo API
+  slug: crustapi-demo-api
+- baseURL: https://crustapi.com
+  baseurl_source: declared
+  description: The Search API from CrustAPI — 1 operation(s) for search.
+  name: CrustAPI Search API
+  slug: crustapi-search-api
+- baseURL: https://crustapi.com
+  baseurl_source: declared
+  description: The Linked In API from CrustAPI — 2 operation(s) for linked in.
+  name: CrustAPI Linked In API
+  slug: crustapi-linked-in-api
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Crustapi Webhooks
   slug: crustapi-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/mcp/crustapi-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/crustapi-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/crustapi/refs/heads/main/overlays/crustapi-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/crustapi-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -81,25 +108,25 @@ modified: '2026-09-10'
 name: CrustAPI
 nav: Providers
 network: true
-overview: 'CrustAPI publishes 1 API on the [APIs.io](https://apis.io/) network: CrustAPI. Tagged areas include Search, Google Maps, LinkedIn, SERP / Web Scraping, and Business & Lead Data.
+overview: 'CrustAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Demo API, Search API, and Linked In API. Tagged areas include Search, Google Maps, LinkedIn, SERP / Web Scraping, and Business & Lead Data.
 
 
   The CrustAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CrustAPI''s developer surface includes authentication and 6 more developer resources.'
+  CrustAPI''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Crustapi Plans Pricing
   plan_count: 1
   slug: crustapi-plans-pricing
-random_paper: 14
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Crustapi Rate Limits
   slug: crustapi-rate-limits
 score:
-  band: developing
-  composite: 52.3
+  band: strong
+  composite: 55.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 54.0
@@ -107,11 +134,11 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.4
   facets:
     access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 48.1
+    contract_quality: 61.7
     developer_ergonomics: 44.6
     discoverability: 70.4
     operational_transparency: 50.0
@@ -122,11 +149,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

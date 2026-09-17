@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -98,7 +98,7 @@ apis:
   description: The Spaces API from Timescale — 31 operation(s) for spaces.
   name: Timescale Spaces API
   slug: timescale-spaces-api
-- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+- baseURL: https://mcp.tigerdata.com/docs
   baseurl_source: declared
   description: Manage VPCs and their peering connections.
   name: Timescale VP Cs API
@@ -360,7 +360,7 @@ overview: 'Timescale publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Timescale''s developer surface includes authentication, CLI, changelog, release notes, sandbox, developer console, documentation, and 38 more developer resources.'
-random_paper: 6
+random_paper: 5
 score:
   band: developing
   composite: 53.3
@@ -391,7 +391,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

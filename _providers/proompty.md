@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -111,6 +111,10 @@ collections:
   name: Proompty Chat User API
   slug: open-proompty-user-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://proompty.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/agentic-access/proompty-agentic-access.yml
   title: ''
@@ -133,26 +137,26 @@ finops:
   slug: proompty-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/proompty.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Proompty
 nav: Providers
 network: true
 overview: 'Proompty publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Documents API, Me API, and 4 more. Tagged areas include Artificial Intelligence and Prompts.
 
 
-  Proompty''s developer surface includes getting-started guide and 2 more developer resources.'
+  Proompty''s developer surface includes getting-started guide and 3 more developer resources.'
 plans:
 - name: Proompty Plans Pricing
   plan_count: 3
   slug: proompty-plans-pricing
-random_paper: 3
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Proompty Rate Limits
   slug: proompty-rate-limits
 score:
   band: thin
-  composite: 26.4
+  composite: 27.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 41.0
@@ -160,11 +164,11 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 50.9
+    contract_quality: 53.6
     developer_ergonomics: 21.4
     discoverability: 59.3
     operational_transparency: 7.9
@@ -177,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -192,4 +196,5 @@ slug: proompty
 tags:
 - Artificial Intelligence
 - Prompts
+website: https://proompty.com
 ---

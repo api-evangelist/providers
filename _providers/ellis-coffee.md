@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 11
 common:
@@ -104,11 +104,11 @@ modified: '2026-05-23'
 name: Ellis Coffee Company
 nav: Providers
 network: true
-overview: 'Ellis Coffee Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Coffee, Beverage, Food Service, Wholesale, and Hospitality.
+overview: 'Ellis Coffee Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Coffee, Beverages, Food Service, Wholesale, and Hospitality.
 
 
   Ellis Coffee Company''s developer surface includes engineering blog, YouTube channel, and 9 more developer resources.'
-random_paper: 1
+random_paper: 10
 score:
   band: minimal
   composite: 5.5
@@ -134,7 +134,7 @@ score:
     - north-america
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -149,7 +149,7 @@ security:
 slug: ellis-coffee
 tags:
 - Coffee
-- Beverage
+- Beverages
 - Food Service
 - Wholesale
 - Hospitality

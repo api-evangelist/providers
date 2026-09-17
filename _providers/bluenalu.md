@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -111,7 +111,7 @@ overview: 'BlueNalu is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BlueNalu''s developer surface includes product news, FAQ, and 13 more developer resources.'
-random_paper: 16
+random_paper: 20
 score:
   band: minimal
   composite: 10.0
@@ -132,7 +132,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

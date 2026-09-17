@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Partner GraphQL API for onboarding 401(k)/403(b) retirement plans, OpenID Connect single sign-on, and webhook event subscriptions.
@@ -154,7 +154,7 @@ overview: 'Human Interest publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Human Interest''s developer surface includes documentation, pricing, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 11
+random_paper: 8
 score:
   band: thin
   composite: 38.5
@@ -177,7 +177,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

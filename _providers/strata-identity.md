@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Public management API for the Maverics platform, automated with confidential OAuth 2.0 client-credentials API clients (private_key_jwt / JWT client assertion, ES256). Region-specific auth surfaces are
@@ -156,7 +156,7 @@ description: Strata Identity is a multi-cloud identity orchestration and agentic
   the open-source Hexa project; Strata is now part of Rubrik.
 image: https://www.strata.io/wp-content/uploads/2025/07/Strata_Preview_Agentic.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Strata Identity
 nav: Providers
 network: true
@@ -164,7 +164,7 @@ overview: 'Strata Identity publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Strata Identity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: thin
   composite: 35.8
@@ -187,7 +187,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,11 +214,12 @@ tags:
 - Identity Orchestration
 - Authentication
 - Authorization
-- Single Sign-On
+- SSO
 - IAM
 - SAML
 - OpenID Connect
 - AI Identity
 - Security
+- Identity Federation
 website: https://strata.io
 ---

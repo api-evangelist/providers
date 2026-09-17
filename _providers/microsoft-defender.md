@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -219,11 +219,11 @@ jsonld:
   property_count: 5
   slug: microsoft-defender-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Microsoft Defender
 nav: Providers
 network: true
-overview: 'Microsoft Defender publishes 3 APIs on the [APIs.io](https://apis.io/) network: Alerts API, Machines API, and Vulnerabilities API.
+overview: 'Microsoft Defender publishes 3 APIs on the [APIs.io](https://apis.io/) network: Alerts API, Machines API, and Vulnerabilities API. Tagged areas include Cloud Security, Data Protection, Threat Intelligence, and Email Security.
 
 
   The Microsoft Defender catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -281,11 +281,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -305,5 +302,10 @@ security:
   slug: microsoft-defender-vulnerability-disclosure
   summary_line: security.txt · contact published
 slug: microsoft-defender
+tags:
+- Cloud Security
+- Data Protection
+- Threat Intelligence
+- Email Security
 website: https://www.microsoft.com/
 ---

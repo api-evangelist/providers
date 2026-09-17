@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -424,11 +424,11 @@ jsonld:
   property_count: 11
   slug: sendbird-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Sendbird
 nav: Providers
 network: true
-overview: 'Sendbird publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Channels API, Messages API, Moderation API, and 1 more.
+overview: 'Sendbird publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Channels API, Messages API, Moderation API, and 1 more. Tagged areas include Customer-Support, Voice, Video, Omnichannel, and WhatsApp.
 
 
   The Sendbird catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -439,7 +439,7 @@ plans:
 - name: Sendbird Plans Pricing
   plan_count: 4
   slug: sendbird-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 13
   name: Sendbird Rate Limits
@@ -468,21 +468,21 @@ rules:
   slug: sendbird-rules
 score:
   band: developing
-  composite: 46.2
+  composite: 50.2
   coverage:
     artifact_dirs: 30
-    catalog_earned: 61.5
+    catalog_earned: 66.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.0
   facets:
     access_clarity: 44.7
     contract_governance: 33.3
     contract_quality: 70.8
     developer_ergonomics: 27.4
-    discoverability: 74.1
+    discoverability: 83.3
     operational_transparency: 26.3
   previous_composite: 46.2
   provenance:
@@ -495,10 +495,13 @@ score:
       total: 4
     mcp: derived
   regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -522,5 +525,12 @@ security:
   slug: sendbird-trust-center
   summary_line: SOC 2, ISO 27001
 slug: sendbird
+tags:
+- Customer-Support
+- Voice
+- Video
+- Omnichannel
+- WhatsApp
+- SMS
 website: https://sendbird.com
 ---

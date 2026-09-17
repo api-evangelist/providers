@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Paradigm
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 1
 slug: paradigm
 tags:
 - Venture Capital

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -41,19 +41,57 @@ agentic_access:
   operation_count: 57
   slug: api-dash-agentic-access
   summary_line: 57 operations · 15 acting
-api_count: 1
+api_count: 2
 apis:
-- baseURL: https://api.apidash.dev
-  baseurl_source: spec
-  description: API Dash is an open source AI-powered cross-platform API client built with Flutter for desktop and mobile. Supports HTTP, GraphQL, and WebSocket with code generation, folder organization, and rich res
+- description: API Dash is an open source AI-powered cross-platform API client built with Flutter for desktop and mobile. Supports HTTP, GraphQL, and WebSocket with code generation, folder organization, and rich res
   name: API Dash
   slug: api-dash
 - baseURL: https://api.apidash.dev
   baseurl_source: declared
-  description: The API Dash APIs are a free, keyless, open-source REST utility API published by foss42 alongside the API Dash client and served from the company's own host at api.apidash.dev. OpenAPI 3.1.0, 57 opera
-  name: API Dash APIs
-  slug: api-dash-apis
-artifact_total: 23
+  description: The API Dash APIs API from API Dash — 1 operation(s) for api dash apis.
+  name: API Dash API Dash APIs API
+  slug: api-dash-api-dash-apis-api
+- baseURL: https://api.apidash.dev
+  baseurl_source: declared
+  description: The Case Conversion API from API Dash — 20 operation(s) for case conversion.
+  name: API Dash Case Conversion API
+  slug: api-dash-case-conversion-api
+- baseURL: https://api.apidash.dev
+  baseurl_source: declared
+  description: The Country Data API from API Dash — 6 operation(s) for country data.
+  name: API Dash Country Data API
+  slug: api-dash-country-data-api
+- baseURL: https://api.apidash.dev
+  baseurl_source: declared
+  description: The Humanize API from API Dash — 4 operation(s) for humanize.
+  name: API Dash Humanize API
+  slug: api-dash-humanize-api
+- baseURL: https://api.apidash.dev
+  baseurl_source: declared
+  description: The I/O API from API Dash — 9 operation(s) for i/o.
+  name: API Dash I/O API
+  slug: api-dash-i-o-api
+- baseURL: https://api.apidash.dev
+  baseurl_source: declared
+  description: The SSE API from API Dash — 1 operation(s) for sse.
+  name: API Dash SSE API
+  slug: api-dash-sse-api
+- baseURL: https://api.apidash.dev
+  baseurl_source: declared
+  description: The Text Conversion API from API Dash — 5 operation(s) for text conversion.
+  name: API Dash Text Conversion API
+  slug: api-dash-text-conversion-api
+- baseURL: https://api.apidash.dev
+  baseurl_source: declared
+  description: The User Authentication API from API Dash — 2 operation(s) for user authentication.
+  name: API Dash User Authentication API
+  slug: api-dash-user-authentication-api
+- baseURL: https://api.apidash.dev
+  baseurl_source: declared
+  description: The User Data API from API Dash — 3 operation(s) for user data.
+  name: API Dash User Data API
+  slug: api-dash-user-data-api
+artifact_total: 31
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/agentic-access/api-dash-agentic-access.yml
@@ -262,7 +300,7 @@ modified: '2026-09-02'
 name: API Dash
 nav: Providers
 network: true
-overview: 'API Dash publishes 2 APIs on the [APIs.io](https://apis.io/) network, including API Dash, and 1 more. Tagged areas include API Client, Open-Source, Flutter, Desktop, and Mobile.
+overview: 'API Dash publishes 9 APIs on the [APIs.io](https://apis.io/) network, including API Dash APIs API, Case Conversion API, Country Data API, and 6 more. Tagged areas include API Client, Open-Source, Flutter, Desktop, and Mobile.
 
 
   API Dash''s developer surface includes authentication, documentation, support, changelog, sandbox, API reference, getting-started guide, and 30 more developer resources.'
@@ -270,7 +308,7 @@ plans:
 - name: Api Dash Plans Pricing
   plan_count: 0
   slug: api-dash-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Api Dash Rate Limits
@@ -282,7 +320,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.2
+  composite: 43.0
   coverage:
     artifact_dirs: 24
     catalog_earned: 35.0
@@ -290,11 +328,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 46.9
+    contract_quality: 37.0
     developer_ergonomics: 56.5
     discoverability: 66.7
     operational_transparency: 34.2
@@ -306,14 +344,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 9
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

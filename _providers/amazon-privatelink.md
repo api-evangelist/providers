@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: Amazon PrivateLink Endpoint Connections VPC Endpoints API
   slug: open-amazon-privatelink-vpc-endpoints-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -644,7 +648,7 @@ jsonld:
   property_count: 34
   slug: amazon-privatelink-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon PrivateLink
 nav: Providers
 network: true
@@ -654,12 +658,12 @@ overview: 'Amazon PrivateLink publishes 4 APIs on the [APIs.io](https://apis.io/
   The Amazon PrivateLink catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon PrivateLink''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 66 more developer resources.'
+  Amazon PrivateLink''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 67 more developer resources.'
 plans:
 - name: Amazon Privatelink Plans Pricing
   plan_count: 3
   slug: amazon-privatelink-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Privatelink Rate Limits
@@ -713,7 +717,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -755,5 +759,5 @@ use_cases:
   name: Third-Party Service Integration
 - description: Access AWS services from on-premises networks via VPN or Direct Connect without public endpoints.
   name: On-Premises Private Access
-website: https://aws.amazon.com/privatelink/
+website: https://amazon.com
 ---

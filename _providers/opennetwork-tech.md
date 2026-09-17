@@ -32,19 +32,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
 description: OpenNetwork Technologies was an identity and web access management software company known for web-based single sign-on (SSO), authentication, authorization, and federated identity products for web-enabled enterprise applications. Based in Clearwater, Florida, it raised venture funding led by Battery Ventures (with JP Morgan and SI Ventures). BMC Software acquired the company in March 2005 for roughly $18 million and folded it into BMC's Identity Management Business Unit. The company no longer operates as an independent entity and publishes no public API, developer portal, or machine-readable API artifacts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opennetwork-tech.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: OpenNetwork Tech.
 nav: Providers
 network: true
-overview: OpenNetwork Tech. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Single Sign-On, Web Access Management, and Authentication.
-random_paper: 18
+overview: OpenNetwork Tech. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, SSO, Web Access Management, and Authentication.
+random_paper: 5
 score:
   band: minimal
   composite: 5.0
@@ -78,7 +78,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -88,10 +88,11 @@ slug: opennetwork-tech
 tags:
 - Company
 - Identity
-- Single Sign-On
+- SSO
 - Web Access Management
 - Authentication
 - Authorization
 - Federated Identity
 - Acquired
+- Identity Federation
 ---

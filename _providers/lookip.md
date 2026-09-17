@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.lookip.io
@@ -47,10 +47,7 @@ apis:
   description: Service index, liveness and this document.
   name: Lookip Service API
   slug: lookip-service-api
-- description: REST/HTTP IP intelligence API with LITE and MAX lookup tiers, batch lookups, and keyless public ASN endpoints. Bearer API key auth, prepaid credit metering.
-  name: Lookip API
-  slug: lookip-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lookip/refs/heads/main/well-known/lookip-provider-apis.json
@@ -89,14 +86,14 @@ modified: '2026-08-26'
 name: Lookip
 nav: Providers
 network: true
-overview: 'Lookip publishes 5 APIs on the [APIs.io](https://apis.io/) network, including ASN API, Batch API, Lookup API, and 2 more. Tagged areas include IP Lookup, Geolocation, ASN, and Proxy Detection.
+overview: 'Lookip publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ASN API, Batch API, Lookup API, and 1 more. Tagged areas include IP Lookup, Geolocation, ASN, and Proxy Detection.
 
 
   Lookip''s developer surface includes signup flow and 6 more developer resources.'
-random_paper: 3
+random_paper: 16
 score:
   band: thin
-  composite: 35.6
+  composite: 34.9
   coverage:
     artifact_dirs: 5
     catalog_earned: 30.0
@@ -104,11 +101,11 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 60.2
+    contract_quality: 57.5
     developer_ergonomics: 40.5
     discoverability: 63.0
     operational_transparency: 0.0
@@ -121,7 +118,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

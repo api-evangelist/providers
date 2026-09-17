@@ -16,9 +16,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-09-15'
+  score: 22.3
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Public REST API of the TU Wien Research Data repository, running InvenioRDM 14.0. Records, communities, affiliations, funders and vocabularies are readable anonymously; /api/names returns 403 without '
@@ -51,11 +51,6 @@ apis:
 - description: REST API of TISS, TU Wien's Information Systems & Services platform — the course catalogue, curricula, org units, people and room data behind tiss.tuwien.ac.at. The edge is reachable anonymously and r
   name: TISS REST API
   slug: tiss-api
-- baseURL: https://fundify.arisnet.ac.at/api/ris-synergy/funding/v1
-  baseurl_source: declared
-  description: TU Wien's own OpenAPI-described contract, and the only one in this repository. FUNDify publishes Austrian funding programmes and calls and lets institutions annotate them for their own researchers, im
-  name: FUNDify — RIS Synergy Funding API
-  slug: fundify-funding
 - description: Keycloak realm TU Wien operates as the identity broker for the Austrian RIS Synergy network, with SAML brokering endpoints for eleven Austrian universities. Its OpenID Connect discovery document is pu
   name: RIS Synergy Identity Broker (OpenID Connect)
   slug: ris-synergy-oidc
@@ -65,6 +60,11 @@ apis:
 - description: TU Wien's library discovery layer. Recorded as a tenant relationship, which is a real institutional fact, so that no Ex Libris contract is ever scored as TU Wien engineering. No spec is saved under th
   name: CatalogPlus library discovery (Ex Libris Primo, OBVSG-hosted)
   slug: catalogplus
+- baseURL: https://researchdata.tuwien.ac.at/api
+  baseurl_source: declared
+  description: RIS Synergy Funding API
+  name: TU Wien Public API
+  slug: tu-wien-public-api
 artifact_total: 19
 common:
 - group: commercial
@@ -80,10 +80,10 @@ common:
   type: Documentation
   url: https://researchdata.tuwien.ac.at/tuw/about/api
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/openapi/tu-wien-fundify-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/tu-wien/refs/heads/main/openapi/_original/tu-wien-fundify-api-openapi.yml
   title: ''
   type: APIReference
-  url: openapi/tu-wien-fundify-api-openapi.yml
+  url: openapi/_original/tu-wien-fundify-api-openapi.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -238,7 +238,7 @@ modified: '2026-08-30'
 name: TU Wien
 nav: Providers
 network: true
-overview: 'TU Wien publishes 1 API on the [APIs.io](https://apis.io/) network: FUNDify — RIS Synergy Funding API. Tagged areas include University, Higher Education, Education, Technical University, and Austria.
+overview: 'TU Wien publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include University, Higher Education, Education, Technical University, and Austria.
 
 
   The TU Wien catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -249,7 +249,7 @@ plans:
 - name: Tu Wien Plans Pricing
   plan_count: 2
   slug: tu-wien-plans-pricing
-random_paper: 20
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Tu Wien Rate Limits
@@ -272,8 +272,8 @@ scopes:
   slug: tu-wien-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 56.2
+  band: developing
+  composite: 53.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 86.3
@@ -281,11 +281,11 @@ score:
     catalog_gap: 28.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.4
   facets:
     access_clarity: 50.0
     contract_governance: 49.2
-    contract_quality: 67.7
+    contract_quality: 57.9
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 23.7
@@ -299,9 +299,9 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
-      marker_coverage: 100.0
+      marker_coverage: 0.0
       total: 1
   regulatory:
     applies: true
@@ -310,7 +310,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

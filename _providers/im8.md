@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The agent-native commerce surface of the IM8 Health Shopify storefront: a Universal Commerce Protocol (UCP) merchant profile with a hosted MCP shopping endpoint (catalog search, cart, checkout, fulfil'
@@ -116,7 +116,7 @@ overview: 'IM8 Health publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   IM8 Health''s developer surface includes documentation, authentication, engineering blog, and 10 more developer resources.'
-random_paper: 18
+random_paper: 6
 scopes:
 - name: Im8 Scopes
   scope_count: 0
@@ -151,7 +151,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -178,7 +178,7 @@ tags:
 - Direct to Consumer
 - Agentic Commerce
 - Shopify
-- UCP
+- Universal Commerce Protocol
 - MCP
 website: https://im8health.com
 ---

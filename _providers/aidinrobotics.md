@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: An anonymous remote Model Context Protocol endpoint served on AIDIN ROBOTICS' own host and advertised in the company's own /llms.txt under an "AI 에이전트 액세스" section. An unauthenticated JSON-RPC initial
@@ -209,7 +209,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

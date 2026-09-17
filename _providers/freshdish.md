@@ -18,12 +18,12 @@ modified: '2026-07-20'
 name: FreshDish
 nav: Providers
 network: true
-overview: FreshDish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meal Kits, Food Delivery, E-Commerce, and Consumer.
-random_paper: 15
+overview: FreshDish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Meal Kit, Food Delivery, E-Commerce, and Consumer.
+random_paper: 14
 slug: freshdish
 tags:
 - Company
-- Meal Kits
+- Meal Kit
 - Food Delivery
 - E-Commerce
 - Consumer

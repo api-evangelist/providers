@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -132,12 +132,17 @@ apis:
   description: Tickets resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
   name: Politecnico di Torino Tickets API
   slug: politecnico-di-torino-tickets-api
-- baseURL: https://mypoli.polito.it/dotnet/ws_anagrafe
+- baseURL: https://idp.polito.it/idp/shibboleth
   baseurl_source: declared
-  description: Four keyless JSON web services operated by Politecnico di Torino on its own hosts, found on 2026-08-30 in the client JavaScript behind https://www.polito.it/en/search and probed live. search_people.as
-  name: PoliTO Public Search Web Services (people, departments, teachings, rooms)
-  slug: public-search-services
-artifact_total: 54
+  description: Campus building and room lookup.
+  name: Politecnico di Torino Campus API
+  slug: politecnico-di-torino-campus-api
+- baseURL: https://idp.polito.it/idp/shibboleth
+  baseurl_source: declared
+  description: People, department and teaching lookup behind the polito.it site search.
+  name: Politecnico di Torino Directory API
+  slug: politecnico-di-torino-directory-api
+artifact_total: 55
 collections:
 - collection_type: open
   name: API Collection
@@ -362,7 +367,7 @@ modified: '2026-08-30'
 name: Politecnico di Torino
 nav: Providers
 network: true
-overview: 'Politecnico di Torino publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Announcements API, Auth API, Bookings API, and 13 more. Tagged areas include Education, Higher Education, University, Technical University, and Italy.
+overview: 'Politecnico di Torino publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Announcements API, Auth API, Bookings API, and 14 more. Tagged areas include Education, Higher Education, University, Technical University, and Italy.
 
 
   The Politecnico di Torino catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -373,7 +378,7 @@ plans:
 - name: Politecnico Di Torino Plans Pricing
   plan_count: 2
   slug: politecnico-di-torino-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Politecnico Di Torino Rate Limits
@@ -402,7 +407,7 @@ rules:
   slug: politecnico-di-torino-rules
 score:
   band: developing
-  composite: 45.7
+  composite: 45.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 58.5
@@ -410,11 +415,11 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 39.5
     contract_governance: 13.6
-    contract_quality: 58.5
+    contract_quality: 56.3
     developer_ergonomics: 21.4
     discoverability: 50.0
     operational_transparency: 52.6
@@ -435,9 +440,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 6.3
-      total: 16
+      derived: 2
+      marker_coverage: 11.8
+      total: 17
   regulatory:
     applies: true
     matched_via: tags
@@ -445,7 +450,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

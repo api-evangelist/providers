@@ -42,7 +42,7 @@ name: Tsumobi
 nav: Providers
 network: true
 overview: Tsumobi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, Mobile, J2ME, and Feature Phones.
-random_paper: 15
+random_paper: 1
 security:
 - kind: domain-security
   name: Tsumobi Domain Security

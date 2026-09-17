@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,11 +77,6 @@ apis:
   slug: siftingio-dex-api
 - baseURL: https://api.sifting.io
   baseurl_source: declared
-  description: US macro economic events.
-  name: SiftingIO Economic Calendar API
-  slug: siftingio-economiccalendar-api
-- baseURL: https://api.sifting.io
-  baseurl_source: declared
   description: 13F institutional holdings.
   name: SiftingIO Filers API
   slug: siftingio-filers-api
@@ -110,6 +105,11 @@ apis:
   description: US-equity fundamentals (SEC) and historical bars.
   name: SiftingIO Stocks API
   slug: siftingio-stocks-api
+- baseURL: wss://stream.sifting.io/ws/v1
+  baseurl_source: declared
+  description: US macro economic events.
+  name: SiftingIO Economic Calendar API
+  slug: siftingio-economic-calendar-api
 artifact_total: 21
 asyncapis:
 - description: WebSocket API for live market data. Connect to `wss://stream.sifting.io/ws/v1?key=sft_...` — the API key is passed as the `key` query parameter (the only WebSocket auth method). After connecting, send
@@ -380,7 +380,7 @@ plans:
 - name: Siftingio Plans Pricing
   plan_count: 5
   slug: siftingio-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 9
   name: Siftingio Rate Limits
@@ -421,7 +421,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

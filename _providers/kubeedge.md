@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: KubeEdge extends the Kubernetes API to manage edge nodes and devices. It includes custom resources for device management, edge application deployment, and node grouping. The EdgeController and DeviceC
@@ -82,7 +82,7 @@ plans:
 - name: Kubeedge Plans Pricing
   plan_count: 3
   slug: kubeedge-plans-pricing
-random_paper: 9
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Kubeedge Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

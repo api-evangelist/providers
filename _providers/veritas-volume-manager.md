@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: RESTful API for managing storage volumes, disk groups, and storage operations.
@@ -59,6 +59,10 @@ apis:
   slug: infoscale-for-kubernetes-api
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://veritas.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/security/veritas-volume-manager-vulnerability-disclosure.yml
   title: ''
@@ -108,19 +112,19 @@ finops:
   service_category: API
   slug: veritas-volume-manager-finops
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Veritas Volume Manager
 nav: Providers
 network: true
 overview: 'Veritas Volume Manager publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Disaster Recovery, Enterprise Storage, Filesystem, Storage, and Volume Management.
 
 
-  Veritas Volume Manager''s developer surface includes developer portal, getting-started guide, changelog, engineering blog, support, and 5 more developer resources.'
+  Veritas Volume Manager''s developer surface includes developer portal, getting-started guide, changelog, engineering blog, support, and 6 more developer resources.'
 plans:
 - name: Veritas Volume Manager Plans Pricing
   plan_count: 3
   slug: veritas-volume-manager-plans-pricing
-random_paper: 4
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Veritas Volume Manager Rate Limits
@@ -145,7 +149,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 38.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -168,5 +172,5 @@ tags:
 - Filesystem
 - Storage
 - Volume Management
-website: https://my.veritas.com
+website: https://veritas.com
 ---

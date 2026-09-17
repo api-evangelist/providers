@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: One of the sixteen demo classification APIs Classif.io advertised, named "Fashion Style classification API" in the site navigation of the last archived capture of the homepage (2025-03-21). What the A
@@ -41,6 +41,10 @@ apis:
   slug: fashion-style-classification-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://classif.io
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/classif-io/refs/heads/main/json-ld/classif-io-context.jsonld
   title: ''
@@ -89,7 +93,7 @@ jsonld:
   property_count: 0
   slug: classif-io-context
 layout: provider
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: Classif.io
 nav: Providers
 network: true
@@ -101,7 +105,7 @@ plans:
 - name: Classif Io Plans Pricing
   plan_count: 0
   slug: classif-io-plans-pricing
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Classif Io Rate Limits
@@ -138,7 +142,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -152,5 +156,6 @@ tags:
 - Fashion
 - Image Recognition
 - Machine-Learning
-- Recommendation
+- Recommendations
+website: https://classif.io
 ---

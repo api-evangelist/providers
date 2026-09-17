@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,11 +69,11 @@ modified: '2026-07-18'
 name: Blue Apron
 nav: Providers
 network: true
-overview: 'Blue Apron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Meal Kits, Food Delivery, and E-Commerce.
+overview: 'Blue Apron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Meal Kit, Food Delivery, and E-Commerce.
 
 
   Blue Apron''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 5
+random_paper: 1
 score:
   band: minimal
   composite: 10.6
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -110,7 +110,7 @@ slug: blue-apron
 tags:
 - Company
 - Consumer
-- Meal Kits
+- Meal Kit
 - Food Delivery
 - E-Commerce
 - Subscription

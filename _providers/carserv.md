@@ -95,7 +95,7 @@ overview: 'CarServ is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CarServ''s developer surface includes authentication and 14 more developer resources.'
-random_paper: 2
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/carserv/refs/heads/main/screenshots/carserv-2026-07-25T204649.png
 security:
 - kind: authentication

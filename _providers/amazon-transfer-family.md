@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -160,11 +160,6 @@ apis:
   slug: amazon-transfer-family-describecertificate-api
 - baseURL: https://transfer.amazonaws.com
   baseurl_source: declared
-  description: The DescribeConnector API from Amazon Transfer Family — 1 operation(s) for describeconnector.
-  name: Amazon Transfer Family DescribeConnector API
-  slug: amazon-transfer-family-describeconnector-api
-- baseURL: https://transfer.amazonaws.com
-  baseurl_source: declared
   description: The DescribeExecution API from Amazon Transfer Family — 1 operation(s) for describeexecution.
   name: Amazon Transfer Family DescribeExecution API
   slug: amazon-transfer-family-describeexecution-api
@@ -240,11 +235,6 @@ apis:
   slug: amazon-transfer-family-listcertificates-api
 - baseURL: https://transfer.amazonaws.com
   baseurl_source: declared
-  description: The ListConnectors API from Amazon Transfer Family — 1 operation(s) for listconnectors.
-  name: Amazon Transfer Family ListConnectors API
-  slug: amazon-transfer-family-listconnectors-api
-- baseURL: https://transfer.amazonaws.com
-  baseurl_source: declared
   description: The ListExecutions API from Amazon Transfer Family — 1 operation(s) for listexecutions.
   name: Amazon Transfer Family ListExecutions API
   slug: amazon-transfer-family-listexecutions-api
@@ -260,24 +250,9 @@ apis:
   slug: amazon-transfer-family-listhostkeys-api
 - baseURL: https://transfer.amazonaws.com
   baseurl_source: declared
-  description: The ListProfiles API from Amazon Transfer Family — 1 operation(s) for listprofiles.
-  name: Amazon Transfer Family ListProfiles API
-  slug: amazon-transfer-family-listprofiles-api
-- baseURL: https://transfer.amazonaws.com
-  baseurl_source: declared
   description: The ListSecurityPolicies API from Amazon Transfer Family — 1 operation(s) for listsecuritypolicies.
   name: Amazon Transfer Family ListSecurityPolicies API
   slug: amazon-transfer-family-listsecuritypolicies-api
-- baseURL: https://transfer.amazonaws.com
-  baseurl_source: declared
-  description: The ListServers API from Amazon Transfer Family — 1 operation(s) for listservers.
-  name: Amazon Transfer Family ListServers API
-  slug: amazon-transfer-family-listservers-api
-- baseURL: https://transfer.amazonaws.com
-  baseurl_source: declared
-  description: The ListTagsForResource API from Amazon Transfer Family — 1 operation(s) for listtagsforresource.
-  name: Amazon Transfer Family ListTagsForResource API
-  slug: amazon-transfer-family-listtagsforresource-api
 - baseURL: https://transfer.amazonaws.com
   baseurl_source: declared
   description: The ListUsers API from Amazon Transfer Family — 1 operation(s) for listusers.
@@ -330,11 +305,6 @@ apis:
   slug: amazon-transfer-family-stopserver-api
 - baseURL: https://transfer.amazonaws.com
   baseurl_source: declared
-  description: The TagResource API from Amazon Transfer Family — 1 operation(s) for tagresource.
-  name: Amazon Transfer Family TagResource API
-  slug: amazon-transfer-family-tagresource-api
-- baseURL: https://transfer.amazonaws.com
-  baseurl_source: declared
   description: The TestConnection API from Amazon Transfer Family — 1 operation(s) for testconnection.
   name: Amazon Transfer Family TestConnection API
   slug: amazon-transfer-family-testconnection-api
@@ -343,11 +313,6 @@ apis:
   description: The TestIdentityProvider API from Amazon Transfer Family — 1 operation(s) for testidentityprovider.
   name: Amazon Transfer Family TestIdentityProvider API
   slug: amazon-transfer-family-testidentityprovider-api
-- baseURL: https://transfer.amazonaws.com
-  baseurl_source: declared
-  description: The UntagResource API from Amazon Transfer Family — 1 operation(s) for untagresource.
-  name: Amazon Transfer Family UntagResource API
-  slug: amazon-transfer-family-untagresource-api
 - baseURL: https://transfer.amazonaws.com
   baseurl_source: declared
   description: The UpdateAccess API from Amazon Transfer Family — 1 operation(s) for updateaccess.
@@ -375,11 +340,6 @@ apis:
   slug: amazon-transfer-family-updatehostkey-api
 - baseURL: https://transfer.amazonaws.com
   baseurl_source: declared
-  description: The UpdateProfile API from Amazon Transfer Family — 1 operation(s) for updateprofile.
-  name: Amazon Transfer Family UpdateProfile API
-  slug: amazon-transfer-family-updateprofile-api
-- baseURL: https://transfer.amazonaws.com
-  baseurl_source: declared
   description: The UpdateServer API from Amazon Transfer Family — 1 operation(s) for updateserver.
   name: Amazon Transfer Family UpdateServer API
   slug: amazon-transfer-family-updateserver-api
@@ -398,6 +358,46 @@ apis:
   description: The UpdateWebAppCustomization API from Amazon Transfer Family — 1 operation(s) for updatewebappcustomization.
   name: Amazon Transfer Family UpdateWebAppCustomization API
   slug: amazon-transfer-family-updatewebappcustomization-api
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The Describe Connector API from Amazon Transfer Family — 1 operation(s) for describe connector.
+  name: Amazon Transfer Family Describe Connector API
+  slug: amazon-transfer-family-describe-connector-api
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The List Connectors API from Amazon Transfer Family — 1 operation(s) for list connectors.
+  name: Amazon Transfer Family List Connectors API
+  slug: amazon-transfer-family-list-connectors-api
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The List Profiles API from Amazon Transfer Family — 1 operation(s) for list profiles.
+  name: Amazon Transfer Family List Profiles API
+  slug: amazon-transfer-family-list-profiles-api
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The List Servers API from Amazon Transfer Family — 1 operation(s) for list servers.
+  name: Amazon Transfer Family List Servers API
+  slug: amazon-transfer-family-list-servers-api
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The List Tags For Resource API from Amazon Transfer Family — 1 operation(s) for list tags for resource.
+  name: Amazon Transfer Family List Tags For Resource API
+  slug: amazon-transfer-family-list-tags-for-resource-api
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The Tag Resource API from Amazon Transfer Family — 1 operation(s) for tag resource.
+  name: Amazon Transfer Family Tag Resource API
+  slug: amazon-transfer-family-tag-resource-api
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The Untag Resource API from Amazon Transfer Family — 1 operation(s) for untag resource.
+  name: Amazon Transfer Family Untag Resource API
+  slug: amazon-transfer-family-untag-resource-api
+- baseURL: https://transfer.amazonaws.com
+  baseurl_source: declared
+  description: The Update Profile API from Amazon Transfer Family — 1 operation(s) for update profile.
+  name: Amazon Transfer Family Update Profile API
+  slug: amazon-transfer-family-update-profile-api
 artifact_total: 157
 collections:
 - collection_type: open
@@ -734,7 +734,7 @@ plans:
 - name: Amazon Transfer Family Plans Pricing
   plan_count: 3
   slug: amazon-transfer-family-plans-pricing
-random_paper: 0
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Transfer Family Rate Limits
@@ -778,7 +778,7 @@ score:
       marker_coverage: 0.0
       total: 72
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

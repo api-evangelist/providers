@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 59.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -103,11 +103,6 @@ apis:
   slug: explorium-entityiddatasets-api
 - baseURL: https://api.explorium.ai
   baseurl_source: declared
-  description: Liveness and payload-size health probes for the Explorium AgentSource service.
-  name: Explorium Healthcheck API
-  slug: explorium-healthcheck-api
-- baseURL: https://api.explorium.ai
-  baseurl_source: declared
   description: Bulk (multi-record) versions of the v1 people enrichments, processing up to 50 prospect IDs per request.
   name: Explorium Prospects Bulk Enrichments API
   slug: explorium-prospectsbulkenrichments-api
@@ -156,6 +151,11 @@ apis:
   description: Report the deployed version of the Explorium AgentSource service.
   name: Explorium Version API
   slug: explorium-version-api
+- baseURL: https://mcp.explorium.ai/mcp
+  baseurl_source: declared
+  description: The Health Check API from Explorium — 2 operation(s) for health check.
+  name: Explorium Health Check API
+  slug: explorium-health-check-api
 artifact_total: 42
 asyncapis:
 - description: ''
@@ -388,6 +388,10 @@ common:
   title: ''
   type: Console
   url: https://www.explorium.ai/mcp-playground/
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@explorium.ai
 created: '2026-07-11'
 description: Explorium is the B2B data layer for AI agents and go-to-market systems. Its AgentSource platform is one external-data and enrichment API plus a hosted MCP server, resolving, fetching, enriching and monitoring a company dataset and a people dataset aggregated from 100+ external sources. The REST API at https://api.explorium.ai publishes an anonymous OpenAPI 3.1 description covering 127 operations across two parallel surfaces - v1 (stable) and v2 (beta) - spanning entity matching, filtered fetch with cursor pagination, market-sizing statistics, autocomplete, seventeen company enrichment families and three people enrichment families (single, bulk to 50, and asynchronous to 10,000), AI-powered research, eighteen business and prospect event types delivered over HMAC-signed webhooks, and a shared prepaid credit pool that meters every call. Authentication is an api_key header on REST and OAuth 2.0 on MCP. Explorium is unusually agent-forward at the discovery layer, serving an RFC 9727
   api-catalog, a conformant A2A agent card, an MCP server card, an ARD capability catalog, an agent-skills index and llms.txt from its own domain.
@@ -414,12 +418,12 @@ overview: 'Explorium publishes 21 APIs on the [APIs.io](https://apis.io/) networ
   The Explorium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Explorium''s developer surface includes authentication, documentation, engineering blog, changelog, sandbox, API reference, getting-started guide, and 36 more developer resources.'
+  Explorium''s developer surface includes authentication, documentation, engineering blog, changelog, sandbox, API reference, getting-started guide, and 37 more developer resources.'
 plans:
 - name: Explorium Plans Pricing
   plan_count: 5
   slug: explorium-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Explorium Rate Limits
@@ -454,7 +458,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

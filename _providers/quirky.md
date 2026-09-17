@@ -19,7 +19,7 @@ name: Quirky
 nav: Providers
 network: true
 overview: Quirky is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invention, Crowdsourcing, Consumer Products, and Hardware.
-random_paper: 5
+random_paper: 17
 slug: quirky
 tags:
 - Company

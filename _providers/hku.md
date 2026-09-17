@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 81
-  human_in_the_loop: 2
+- acting_count: 2
+  human_in_the_loop: 0
   name: Hku Agentic Access
-  operation_count: 157
+  operation_count: 8
   slug: hku-agentic-access
-  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
+  summary_line: 8 operations · 2 acting
 api_count: 1
 apis:
 - description: The University of Hong Kong's own Shibboleth SAML 2.0 identity provider, entityID https://hkafidp.hku.hk/idp/shibboleth, scope hku.hk. It self-publishes signed metadata (HTTP 200, application/xml, 14,
@@ -170,10 +170,10 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-hong-kong/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-identity-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/_original/hku-identity-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/hku-identity-openapi.yml
+  url: openapi/_original/hku-identity-openapi.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/well-known/hku-adfs-openid-configuration.json
   title: ''
@@ -305,7 +305,7 @@ jsonld:
   property_count: 0
   slug: hku-organization
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: University of Hong Kong
 nav: Providers
 network: true
@@ -320,7 +320,7 @@ plans:
 - name: Hku Plans Pricing
   plan_count: 2
   slug: hku-plans-pricing
-random_paper: 13
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Hku Rate Limits
@@ -380,7 +380,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -402,7 +402,7 @@ tags:
 - University
 - Hong Kong
 - Identity Federation
-- Single Sign-On
+- SSO
 - Research Data
 - Open Access
 - Artificial Intelligence

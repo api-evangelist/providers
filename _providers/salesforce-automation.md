@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -198,11 +198,6 @@ apis:
   slug: salesforce-automation-sobject-tree-api
 - baseURL: https://yourInstance.salesforce.com/services/data
   baseurl_source: declared
-  description: SObject metadata and describe operations
-  name: Salesforce Automation SObjects API
-  slug: salesforce-automation-sobjects-api
-- baseURL: https://yourInstance.salesforce.com/services/data
-  baseurl_source: declared
   description: Salesforce Object Query Language queries
   name: Salesforce Automation SOQL API
   slug: salesforce-automation-soql-api
@@ -246,6 +241,11 @@ apis:
   description: Workflow rules and process automation
   name: Salesforce Automation Workflow API
   slug: salesforce-automation-workflow-api
+- baseURL: https://yourInstance.salesforce.com/services/Soap/c
+  baseurl_source: declared
+  description: SObject metadata and describe operations
+  name: Salesforce Automation s Objects API
+  slug: salesforce-automation-s-objects-api
 artifact_total: 231
 collections:
 - collection_type: postman
@@ -952,7 +952,7 @@ plans:
 - name: Salesforce Automation Plans Pricing
   plan_count: 1
   slug: salesforce-automation-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Salesforce Automation Rate Limits
@@ -1011,7 +1011,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,12 +50,12 @@ apis:
   description: The citations API from Web of Science APIs — 3 operation(s) for citations.
   name: Web of Science APIs citations API
   slug: web-of-science-apis-citations-api
-- baseURL: https://api.clarivate.com/api/wos
+- baseURL: https://api.clarivate.com/apis/wos-starter/v1
   baseurl_source: spec
   description: The documents API from Web of Science APIs — 2 operation(s) for documents.
   name: Web of Science APIs documents API
   slug: web-of-science-apis-documents-api
-- baseURL: https://api.clarivate.com/api/wos
+- baseURL: https://api.clarivate.com/apis/wos-starter/v1
   baseurl_source: spec
   description: The journals API from Web of Science APIs — 2 operation(s) for journals.
   name: Web of Science APIs journals API
@@ -500,7 +500,7 @@ plans:
 - name: Web Of Science Apis Plans Pricing
   plan_count: 3
   slug: web-of-science-apis-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Web Of Science Apis Rate Limits
@@ -570,7 +570,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,7 +125,7 @@ overview: 'Coral is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Coral''s developer surface includes documentation, API reference, getting-started guide, CLI, changelog, and 13 more developer resources.'
-random_paper: 4
+random_paper: 1
 score:
   band: thin
   composite: 27.3
@@ -149,7 +149,7 @@ score:
     score: 100.0
   previous_composite: 27.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

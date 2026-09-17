@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -104,6 +104,10 @@ collections:
   name: Conductor Admin Workflow API
   slug: open-conductor-workflow-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://conductor-oss.github.io
 - group: operate
   title: ''
   type: IssueTracker
@@ -353,7 +357,7 @@ jsonld:
   property_count: 40
   slug: conductor-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Conductor
 nav: Providers
 network: true
@@ -363,12 +367,12 @@ overview: 'Conductor publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The Conductor catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Conductor''s developer surface includes engineering blog and 12 more developer resources.'
+  Conductor''s developer surface includes engineering blog and 13 more developer resources.'
 plans:
 - name: Conductor Plans Pricing
   plan_count: 3
   slug: conductor-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Conductor Rate Limits
@@ -436,7 +440,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -463,4 +467,5 @@ use_cases:
   name: Order Processing
 - description: Orchestrate build, test, and deployment workflows with conditional logic and parallel execution.
   name: CI/CD Pipelines
+website: https://conductor-oss.github.io
 ---

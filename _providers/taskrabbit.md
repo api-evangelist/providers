@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Taskrabbit Plans Pricing
   plan_count: 3
   slug: taskrabbit-plans-pricing
-random_paper: 13
+random_paper: 7
 scopes:
 - name: Taskrabbit Scopes
   scope_count: 0
@@ -182,7 +182,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

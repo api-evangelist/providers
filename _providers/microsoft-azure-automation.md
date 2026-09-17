@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Automation Accounts operations
-  name: Azure Automation Automation Accounts API
+  name: Azure Automation Accounts API
   slug: microsoft-azure-automation-automation-accounts-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
@@ -133,11 +133,11 @@ finops:
   slug: microsoft-azure-automation-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-automation.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Azure Automation
 nav: Providers
 network: true
-overview: 'Azure Automation publishes 2 APIs on the [APIs.io](https://apis.io/) network: Automation Accounts API and Operations API. Tagged areas include Automation, Configuration Management, Runbooks, and Update Management.
+overview: 'Azure Automation publishes 2 APIs on the [APIs.io](https://apis.io/) network: Accounts API and Operations API. Tagged areas include Automation, Configuration Management, Runbooks, and Update Management.
 
 
   Azure Automation''s developer surface includes authentication, developer portal, pricing, support, engineering blog, and 8 more developer resources.'
@@ -145,7 +145,7 @@ plans:
 - name: Microsoft Azure Automation Plans Pricing
   plan_count: 3
   slug: microsoft-azure-automation-plans-pricing
-random_paper: 3
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Automation Rate Limits
@@ -182,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

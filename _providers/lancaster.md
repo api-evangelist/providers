@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,11 +49,6 @@ apis:
   description: The one unambiguous, institution-operated public API Lancaster runs. A single HTTP endpoint that dispatches on the OAI-PMH `verb` parameter and returns OAI-PMH 2.0 XML envelopes for the Lancaster EPri
   name: Lancaster EPrints OAI-PMH 2.0 Interface
   slug: lancaster-oai2-api
-- baseURL: https://idp.lancs.ac.uk
-  baseurl_source: declared
-  description: Lancaster operates its own Shibboleth Identity Provider and self-publishes its SAML 2.0 EntityDescriptor at the canonical /idp/shibboleth location. The entity has been registered with the UK Access Fe
-  name: Lancaster Shibboleth Identity Provider (SAML 2.0 metadata)
-  slug: identity-federation
 - description: Lancaster's research information system and public research directory. The data — outputs, people, projects, impact — is Lancaster's; the platform and the contract are Elsevier's. research.lancaster-u
   name: Lancaster Research Directory (Elsevier Pure) — tenant
   slug: pure-research-directory
@@ -63,6 +58,11 @@ apis:
 - description: An AWS serverless application written and maintained by Lancaster University Library that listens for Ex Libris Alma webhook events and forwards them to backend SNS topics. It is Lancaster's own code,
   name: Lancaster Library Alma Webhook Handler (open source)
   slug: alma-webhook-handler
+- baseURL: https://eprints.lancs.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: The Idp API from Lancaster University — 1 operation(s) for idp.
+  name: Lancaster University Idp API
+  slug: lancaster-idp-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -241,7 +241,7 @@ modified: '2026-08-30'
 name: Lancaster University
 nav: Providers
 network: true
-overview: 'Lancaster University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lancaster EPrints OAI-PMH 2.0 Interface and Lancaster Shibboleth Identity Provider (SAML 2.0 metadata). Tagged areas include University, Higher Education, Education, United Kingdom, and N8 Research Partnership.
+overview: 'Lancaster University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lancaster EPrints OAI-PMH 2.0 Interface and Idp API. Tagged areas include University, Higher Education, Education, United Kingdom, and N8 Research Partnership.
 
 
   The Lancaster University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -252,7 +252,7 @@ plans:
 - name: Lancaster Plans Pricing
   plan_count: 2
   slug: lancaster-plans-pricing
-random_paper: 12
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Lancaster Rate Limits
@@ -321,7 +321,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

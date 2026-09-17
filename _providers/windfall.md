@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.windfalldata.com/v1
   baseurl_source: declared
   description: The Windfall API API from Windfall — 1 operation(s) for windfall api.
-  name: Windfall Windfall API API
+  name: Windfall API
   slug: windfall-windfall-api-api
 artifact_total: 9
 collections:
@@ -208,11 +208,11 @@ description: Windfall is an AI-powered people intelligence platform that helps g
   by Windfall and API credits were bundled into existing subscriptions when the API opened to all customers and partners in May 2026.
 image: https://api-docs.windfall.com/static/favicon.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Windfall
 nav: Providers
 network: true
-overview: 'Windfall publishes 1 API on the [APIs.io](https://apis.io/) network: Windfall API API. Tagged areas include Company, Fintech, Data Enrichment, Wealth Data, and People Intelligence.
+overview: 'Windfall publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Data Enrichment, Wealth Data, and People Intelligence.
 
 
   Windfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
@@ -220,7 +220,7 @@ plans:
 - name: Windfall Plans Pricing
   plan_count: 0
   slug: windfall-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Windfall Rate Limits
@@ -255,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

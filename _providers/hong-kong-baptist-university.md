@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: HKBU's own SAML 2.0 identity provider, entityID https://buidp01.hkbu.edu.hk/idp/shibboleth, registered in eduGAIN by the Hong Kong Access Federation (HKAF) since 2018-03-14 with scope hkbu.edu.hk. The
@@ -203,7 +203,7 @@ plans:
 - name: Hong Kong Baptist University Plans Pricing
   plan_count: 2
   slug: hong-kong-baptist-university-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Hong Kong Baptist University Rate Limits
@@ -241,7 +241,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,26 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 8
-  human_in_the_loop: 3
+- acting_count: 46
+  human_in_the_loop: 19
   name: Apiclarity Agentic Access
-  operation_count: 27
+  operation_count: 100
   slug: apiclarity-agentic-access
-  summary_line: 27 operations · 8 acting · 3 human-in-the-loop
-api_count: 5
+  summary_line: 100 operations · 46 acting · 19 human-in-the-loop
+api_count: 12
 apis:
-- baseURL: https://apiclarity-server/api
-  baseurl_source: declared
-  description: Captured API traffic events.
-  name: APIClarity API Events API
-  slug: apiclarity-api-events-api
-- baseURL: https://apiclarity-server/api
-  baseurl_source: declared
-  description: Discovered APIs and their reconstructed specifications.
-  name: APIClarity API Inventory API
-  slug: apiclarity-api-inventory-api
 - baseURL: https://apiclarity-server/api
   baseurl_source: declared
   description: Control-plane endpoints for trace sources and discovered APIs.
@@ -65,42 +55,102 @@ apis:
   description: Enabled features in the deployment.
   name: APIClarity Features API
   slug: apiclarity-features-api
-- baseURL: https://apiclarity-server/api/modules/bfla
-  baseurl_source: declared
-  description: 'Broken Function Level Authorization detection. Learns an authorization model from observed API interactions — which callers are supposed to invoke which operations — then flags violations against it. '
-  name: APIClarity BFLA Module API
-  slug: apiclarity-bfla-module-api
-- baseURL: https://apiclarity-server/api/modules/fuzzer
-  baseurl_source: declared
-  description: Active security testing. Drives generated traffic at an API based on its specification to find implementation flaws, then returns a severity-ranked report and a specification annotated with the findin
-  name: APIClarity Fuzzer Module API
-  slug: apiclarity-fuzzer-module-api
-- baseURL: https://apiclarity-server/api/modules/traceanalyzer
-  baseurl_source: declared
-  description: Analyzes the path, headers and body of observed requests and responses for weak authentication, exposure of sensitive information and potential broken object level authorization. Served under /api/mod
-  name: APIClarity Trace Analyzer Module API
-  slug: apiclarity-trace-analyzer-module-api
-- baseURL: https://apiclarity-server/api/modules/spec_differ
-  baseurl_source: declared
-  description: Compares observed API traces against the provided or reconstructed specification to surface shadow APIs (observed but undocumented), zombie APIs (observed but marked deprecated) and drift. Served unde
-  name: APIClarity Spec Differ Module API
-  slug: apiclarity-spec-differ-module-api
-- baseURL: https://apiclarity-server/api/modules/specreconstructor
-  baseurl_source: declared
-  description: Controls reconstruction of an OpenAPI specification from live traffic for a discovered API. Served under /api/modules/specreconstructor.
-  name: APIClarity Spec Reconstructor Module API
-  slug: apiclarity-spec-reconstructor-module-api
 - baseURL: https://apiclarity-server/api
   baseurl_source: declared
-  description: The Swagger 2.0 contract every APIClarity traffic-source plugin implements to push captured traffic into a deployment — POST /telemetry, GET /hostsToTrace and POST /control/newDiscoveredAPIs. Authenti
-  name: APIClarity Plugins Telemetry API
-  slug: apiclarity-plugins-telemetry-api
-- baseURL: /
-  baseurl_source: spec
-  description: 'An inverted contract — the endpoint a registered listener must implement, which APIClarity POSTs to. Six notification types share one polymorphic envelope discriminated on notificationType: NewDiscove'
-  name: APIClarity Notifications API
-  slug: apiclarity-notifications-api
-artifact_total: 36
+  description: The ApiEvents API from APIClarity — 4 operation(s) for apievents.
+  name: APIClarity API Events API
+  slug: apiclarity-apievents-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The ApiFindings API from APIClarity — 2 operation(s) for apifindings.
+  name: APIClarity API Findings API
+  slug: apiclarity-apifindings-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The ApiInventory API from APIClarity — 11 operation(s) for apiinventory.
+  name: APIClarity API Inventory API
+  slug: apiclarity-apiinventory-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The bfla API from APIClarity — 16 operation(s) for bfla.
+  name: APIClarity Bfla API
+  slug: apiclarity-bfla-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The Dashboard API from APIClarity — 3 operation(s) for dashboard.
+  name: APIClarity Dashboard API
+  slug: apiclarity-dashboard-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The Enable API from APIClarity — 1 operation(s) for enable.
+  name: APIClarity Enable API
+  slug: apiclarity-enable-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The EventAnnotations API from APIClarity — 1 operation(s) for eventannotations.
+  name: APIClarity Event Annotations API
+  slug: apiclarity-eventannotations-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The fuzzer API from APIClarity — 8 operation(s) for fuzzer.
+  name: APIClarity Fuzzer API
+  slug: apiclarity-fuzzer-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The HostsToTrace API from APIClarity — 1 operation(s) for hoststotrace.
+  name: APIClarity Hosts To Trace API
+  slug: apiclarity-hoststotrace-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The local-bfla API from APIClarity — 10 operation(s) for local-bfla.
+  name: APIClarity Local Bfla API
+  slug: apiclarity-local-bfla-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The local-fuzzer API from APIClarity — 10 operation(s) for local-fuzzer.
+  name: APIClarity Local Fuzzer API
+  slug: apiclarity-local-fuzzer-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The Modules API from APIClarity — 14 operation(s) for modules.
+  name: APIClarity Modules API
+  slug: apiclarity-modules-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The Notification API from APIClarity — 1 operation(s) for notification.
+  name: APIClarity Notification API
+  slug: apiclarity-notification-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The Start API from APIClarity — 1 operation(s) for start.
+  name: APIClarity Start API
+  slug: apiclarity-start-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The State API from APIClarity — 1 operation(s) for state.
+  name: APIClarity State API
+  slug: apiclarity-state-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The Stop API from APIClarity — 1 operation(s) for stop.
+  name: APIClarity Stop API
+  slug: apiclarity-stop-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The Telemetry API from APIClarity — 1 operation(s) for telemetry.
+  name: APIClarity Telemetry API
+  slug: apiclarity-telemetry-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The Version API from APIClarity — 1 operation(s) for version.
+  name: APIClarity Version API
+  slug: apiclarity-version-api
+- baseURL: https://apiclarity-server/api
+  baseurl_source: declared
+  description: The API Usage API from APIClarity — 1 operation(s) for api usage.
+  name: APIClarity API Usage API
+  slug: apiclarity-api-usage-api
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Apiclarity Notifications Webhooks
@@ -125,6 +175,66 @@ collections:
   name: APIClarity API
   slug: open-apiclarity
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/overlays/apiclarity-api-events-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiclarity-api-events-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/overlays/apiclarity-api-inventory-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiclarity-api-inventory-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/overlays/apiclarity-bfla-module-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiclarity-bfla-module-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/overlays/apiclarity-fuzzer-module-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiclarity-fuzzer-module-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/skills/apiclarity-run-a-fuzz-test.md
+  title: ''
+  type: AgentSkill
+  url: skills/apiclarity-run-a-fuzz-test.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/overlays/apiclarity-trace-analyzer-module-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiclarity-trace-analyzer-module-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/overlays/apiclarity-spec-differ-module-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiclarity-spec-differ-module-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/skills/apiclarity-hunt-shadow-and-zombie-apis.md
+  title: ''
+  type: AgentSkill
+  url: skills/apiclarity-hunt-shadow-and-zombie-apis.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/overlays/apiclarity-spec-reconstructor-module-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiclarity-spec-reconstructor-module-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/skills/apiclarity-reconstruct-and-approve-a-spec.md
+  title: ''
+  type: AgentSkill
+  url: skills/apiclarity-reconstruct-and-approve-a-spec.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/overlays/apiclarity-plugins-telemetry-swagger-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiclarity-plugins-telemetry-swagger-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/overlays/apiclarity-notifications-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiclarity-notifications-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/agentic-access/apiclarity-agentic-access.yml
   title: ''
@@ -286,39 +396,39 @@ modified: '2026-09-04'
 name: APIClarity
 nav: Providers
 network: true
-overview: 'APIClarity publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API Events API, API Inventory API, Control API, and 8 more. Tagged areas include API Observability, API Security, API Traffic Analysis, Cisco, and Kubernetes.
+overview: 'APIClarity publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Control API, Features API, API Events API, and 18 more. Tagged areas include API Observability, API Security, API Traffic Analysis, Cisco, and Kubernetes.
 
 
   The APIClarity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  APIClarity''s developer surface includes changelog, sandbox, getting-started guide, API reference, support, authentication, documentation, and 22 more developer resources.'
+  APIClarity''s developer surface includes changelog, sandbox, getting-started guide, API reference, support, authentication, documentation, and 34 more developer resources.'
 plans:
 - name: Apiclarity Plans Pricing
   plan_count: 0
   slug: apiclarity-plans-pricing
-random_paper: 3
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Apiclarity Rate Limits
   slug: apiclarity-rate-limits
 score:
   band: thin
-  composite: 35.3
+  composite: 37.0
   coverage:
     artifact_dirs: 23
-    catalog_earned: 38.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 7.9
     contract_governance: 4.5
-    contract_quality: 46.9
+    contract_quality: 50.1
     developer_ergonomics: 61.3
-    discoverability: 64.8
+    discoverability: 74.1
     operational_transparency: 26.3
   previous_composite: 35.3
   provenance:
@@ -328,11 +438,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 21
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

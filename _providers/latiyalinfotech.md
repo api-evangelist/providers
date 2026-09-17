@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Read-only real-time cricket data API. 51 operations on the apiv5 tier (30 on apiv3), all reads, served from https://apicricketchampion.in/apiv{3|4|5}/ with an opaque API token as the final path segmen
@@ -106,7 +106,7 @@ plans:
 - name: Latiyalinfotech Plans Pricing
   plan_count: 8
   slug: latiyalinfotech-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Latiyalinfotech Rate Limits
@@ -141,7 +141,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

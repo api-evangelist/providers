@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ plans:
 - name: Pubchem Pug Rest
   plan_count: 1
   slug: pubchem-pug-rest
-random_paper: 13
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Blast
@@ -345,7 +345,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

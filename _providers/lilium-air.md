@@ -89,7 +89,7 @@ overview: 'Lilium is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lilium''s developer surface includes engineering blog, YouTube channel, and 14 more developer resources.'
-random_paper: 5
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/lilium-air/refs/heads/main/screenshots/lilium-air-2026-06-20T184528.png
 security:
 - kind: domain-security

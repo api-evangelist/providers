@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Decap CMS communicates with Git hosting providers (GitHub, GitLab, Bitbucket, Azure, Gitea) through their REST and GraphQL APIs to read, create, update, and delete content entries, manage media file u
@@ -109,7 +109,7 @@ plans:
 - name: Decap Plans Pricing
   plan_count: 4
   slug: decap-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Decap Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 33.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

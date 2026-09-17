@@ -34,19 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
-- baseURL: https://repository.library.brown.edu/api/
-  baseurl_source: declared
-  description: The Brown University Library's public, keyless REST API over the Brown Digital Repository — an item API, a collection API, a Solr-backed search API, and a two-key link index at /api/. Live and unauthe
-  name: Brown Digital Repository (BDR) API
-  slug: bdr-api
-- baseURL: https://repository.library.brown.edu/iiif/
-  baseurl_source: declared
-  description: The BDR's IIIF surface, on the same institution-operated host. IIIF Image API 2.x (info.json reports a 6335x8560 source with a seven-step size pyramid and 512x512 tiles for the probed object) and IIIF
-  name: Brown Digital Repository IIIF Image and Presentation API
-  slug: bdr-iiif
 - description: Brown's Shibboleth identity provider, and the strongest machine-readable contract in this profile. Brown self-publishes signed per-entity SAML metadata at the entityID itself — uncommon; most institut
   name: Brown University Identity Provider (Shibboleth / SAML 2.0)
   slug: idp
@@ -62,7 +52,37 @@ apis:
 - description: Brown's university-wide events calendar, serving a public JSON feed at /live/json/events (3,128,496 bytes on 2026-08-30) and an iCalendar feed at /live/ical/events (2,101,266 bytes, RFC 5545, PRODID /
   name: Events@Brown (LiveWhale Calendar tenant)
   slug: events
-artifact_total: 33
+- baseURL: https://repository.library.brown.edu/api/
+  baseurl_source: declared
+  description: Repository collections and their membership.
+  name: Brown University Collections API
+  slug: brown-collections-api
+- baseURL: https://repository.library.brown.edu/api/
+  baseurl_source: declared
+  description: The API root link index.
+  name: Brown University Discovery API
+  slug: brown-discovery-api
+- baseURL: https://repository.library.brown.edu/api/
+  baseurl_source: declared
+  description: IIIF Image API 2.x — image information and derivative delivery.
+  name: Brown University IIIF Image API
+  slug: brown-iiif-image-api
+- baseURL: https://repository.library.brown.edu/api/
+  baseurl_source: declared
+  description: IIIF Presentation API 2.x — manifests describing an object's structure and metadata.
+  name: Brown University IIIF Presentation API
+  slug: brown-iiif-presentation-api
+- baseURL: https://repository.library.brown.edu/api/
+  baseurl_source: declared
+  description: Metadata for a single repository object, addressed by PID.
+  name: Brown University Items API
+  slug: brown-items-api
+- baseURL: https://repository.library.brown.edu/api/
+  baseurl_source: declared
+  description: Solr-backed search across public BDR objects.
+  name: Brown University Search API
+  slug: brown-search-api
+artifact_total: 37
 common:
 - group: company
   title: ''
@@ -133,15 +153,15 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/brown-university/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-bdr-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/_original/brown-bdr-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/brown-bdr-api-openapi.yml
+  url: openapi/_original/brown-bdr-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/brown-bdr-iiif-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/openapi/_original/brown-bdr-iiif-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/brown-bdr-iiif-openapi.yml
+  url: openapi/_original/brown-bdr-iiif-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/json-schema/brown-bdr-searchresponse.json
   title: ''
@@ -288,11 +308,11 @@ jsonld:
   property_count: 7
   slug: brown-context
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: Brown University
 nav: Providers
 network: true
-overview: 'Brown University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Brown Digital Repository (BDR) API and Brown Digital Repository IIIF Image and Presentation API. Tagged areas include Education, Higher Education, University, United States, and Ivy League.
+overview: 'Brown University publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Discovery API, IIIF Image API, and 3 more. Tagged areas include Education, Higher Education, University, United States, and Ivy League.
 
 
   The Brown University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -303,7 +323,7 @@ plans:
 - name: Brown Plans Pricing
   plan_count: 2
   slug: brown-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Brown Rate Limits
@@ -332,21 +352,21 @@ rules:
   slug: brown-bdr-spectral-ruleset
 score:
   band: thin
-  composite: 34.0
+  composite: 35.1
   coverage:
     artifact_dirs: 17
-    catalog_earned: 64.8
+    catalog_earned: 71.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.3
+    catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 34.2
     contract_governance: 17.4
-    contract_quality: 27.5
+    contract_quality: 29.8
     developer_ergonomics: 35.7
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -360,9 +380,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 6
       marker_coverage: 100.0
-      total: 2
+      total: 6
   regulatory:
     applies: true
     matched_via: tags
@@ -370,7 +390,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

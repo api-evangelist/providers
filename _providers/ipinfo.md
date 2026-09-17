@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,22 +77,22 @@ apis:
 - baseURL: https://api.ipinfo.io
   baseurl_source: declared
   description: IPinfo Core API - Core IP information service.
-  name: IPinfo ipinfo core API
+  name: IPinfo core API
   slug: ipinfo-ipinfo-core-api
 - baseURL: https://api.ipinfo.io
   baseurl_source: declared
   description: IPinfo Lite API - IPinfo's free API service for country and ASN information.
-  name: IPinfo ipinfo lite API
+  name: IPinfo lite API
   slug: ipinfo-ipinfo-lite-api
 - baseURL: https://api.ipinfo.io
   baseurl_source: declared
   description: IPinfo Max API - Most comprehensive IP intelligence with residential proxy detection.
-  name: IPinfo ipinfo max API
+  name: IPinfo max API
   slug: ipinfo-ipinfo-max-api
 - baseURL: https://api.ipinfo.io
   baseurl_source: declared
   description: IPinfo Plus API - Enhanced IP information service with mobile and anonymity detection.
-  name: IPinfo ipinfo plus API
+  name: IPinfo plus API
   slug: ipinfo-ipinfo-plus-api
 - baseURL: https://api.ipinfo.io
   baseurl_source: declared
@@ -755,7 +755,7 @@ mcp_servers:
 - description: ''
   name: IPinfo MCP Server
   slug: ipinfo-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: IPinfo
 nav: Providers
 network: true
@@ -770,7 +770,7 @@ plans:
 - name: Ipinfo Plans Pricing
   plan_count: 6
   slug: ipinfo-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 9
   name: Ipinfo Rate Limits
@@ -811,7 +811,7 @@ score:
   facets:
     access_clarity: 77.6
     contract_governance: 33.3
-    contract_quality: 70.1
+    contract_quality: 70.3
     developer_ergonomics: 89.3
     discoverability: 70.4
     operational_transparency: 42.1
@@ -832,7 +832,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

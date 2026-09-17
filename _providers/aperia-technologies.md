@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 8.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Halo Connect Partner API is the read-only REST integration surface of the Halo Connect tire-management portal. Partners and fleet platforms authenticate with HTTP Basic credentials and pull vehicl
@@ -142,7 +142,7 @@ overview: 'Aperia Technologies publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Aperia Technologies'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 13 more developer resources.'
-random_paper: 2
+random_paper: 19
 score:
   band: thin
   composite: 28.5
@@ -165,7 +165,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -196,6 +196,6 @@ tags:
 - Automatic Tire Inflation
 - Predictive Maintenance
 - IoT
-- Connected Vehicle
+- Connected Vehicles
 website: https://aperiatech.com/
 ---

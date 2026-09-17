@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: First-party in-world scripting API for IMVU Live Rooms. Room scripts are single-file Lua programs executed server-side in a Luau sandbox; the engine calls event functions (event_start, event_begin_ite
@@ -154,7 +154,7 @@ plans:
 - name: Imvu Plans Pricing
   plan_count: 5
   slug: imvu-plans-pricing
-random_paper: 8
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Imvu Rate Limits
@@ -182,7 +182,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

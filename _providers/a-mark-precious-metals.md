@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: A-Mark's wholesale precious metals trading platform enables dealers and financial institutions to buy and sell gold, silver, platinum, and palladium bullion products. Offers spot, forward, and deferre
@@ -198,7 +198,7 @@ press:
 - date: '2026-05-25'
   title: Global Privacy Policy
   url: https://www.amark.com/privacy-policy/
-random_paper: 16
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: A Mark Precious Metals Rate Limits
@@ -237,7 +237,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
 - description: PactFlow is SmartBear's contract testing platform that ensures API changes do not break consumer applications. It integrates with SwaggerHub for bi-directional contract testing and uses REST principle
   name: PactFlow
   slug: pactflow
-- baseURL: https://api.swaggerhub.com
-  baseurl_source: spec
-  description: Manage API definitions and versions
-  name: SmartBear APIs API
-  slug: smartbear-apis-api
 - baseURL: https://api.swaggerhub.com
   baseurl_source: spec
   description: Manage reusable domain definitions
@@ -75,6 +70,11 @@ apis:
   description: Manage SwaggerHub projects
   name: SmartBear Projects API
   slug: smartbear-projects-api
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: spec
+  description: Manage API definitions and versions
+  name: SmartBear AP Is API
+  slug: smartbear-apis-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -253,7 +253,7 @@ modified: '2026-05-19'
 name: SmartBear
 nav: Providers
 network: true
-overview: 'SmartBear publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APIs API, Domains API, Integrations API, and 2 more. Tagged areas include API Design, API Documentation, API Testing, Contract Testing, and Developer Tools.
+overview: 'SmartBear publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Integrations API, Organizations API, and 2 more. Tagged areas include API Design, API Documentation, API Testing, Contract Testing, and Developer Tools.
 
 
   The SmartBear catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -264,7 +264,7 @@ plans:
 - name: Smartbear Plans Pricing
   plan_count: 1
   slug: smartbear-plans-pricing
-random_paper: 16
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Smartbear Rate Limits
@@ -321,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

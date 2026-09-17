@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 16
   slug: mono-co-agentic-access
   summary_line: 16 operations · 7 acting
-api_count: 1
+api_count: 6
 apis:
 - baseURL: https://api.withmono.com
   baseurl_source: declared
@@ -75,32 +75,27 @@ apis:
   description: Transactions and bank statements for a linked account.
   name: Mono Transactions and Statements API
   slug: mono-co-transactions-and-statements-api
-- baseURL: https://api.withmono.com/v2
-  baseurl_source: declared
-  description: Account linking authorization and re-authorization.
-  name: Mono Connect API
-  slug: mono-africa-connect-api
-- baseURL: https://api.withmono.com/v2
+- baseURL: https://api.withmono.com
   baseurl_source: declared
   description: Affordability and credit-decisioning analysis.
   name: Mono Creditworthiness API
-  slug: mono-africa-creditworthiness-api
-- baseURL: https://api.withmono.com/v2
+  slug: mono-co-creditworthiness-api
+- baseURL: https://api.withmono.com
   baseurl_source: declared
   description: Read financial data from a linked account.
   name: Mono Financial Data API
-  slug: mono-africa-financial-data-api
-- baseURL: https://api.withmono.com/v2
+  slug: mono-co-financial-data-api
+- baseURL: https://api.withmono.com
   baseurl_source: declared
   description: Investment holdings for a linked account.
   name: Mono Investment API
-  slug: mono-africa-investment-api
-- baseURL: https://api.withmono.com/v2
+  slug: mono-co-investment-api
+- baseURL: https://api.withmono.com
   baseurl_source: declared
   description: Identity and data verification for KYC/KYB.
   name: Mono Lookup API
-  slug: mono-africa-lookup-api
-artifact_total: 26
+  slug: mono-co-lookup-api
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -197,7 +192,7 @@ modified: '2026-06-21'
 name: Mono
 nav: Providers
 network: true
-overview: 'Mono publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Linking API, Direct Debit API, and 8 more. Tagged areas include Open Banking, Financial Data, Payments, Direct Debit, and Africa.
+overview: 'Mono publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Linking API, Direct Debit API, and 7 more. Tagged areas include Open Banking, Financial Data, Payments, Direct Debit, and Africa.
 
 
   Mono''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -205,28 +200,28 @@ plans:
 - name: Mono Co Plans Pricing
   plan_count: 4
   slug: mono-co-plans-pricing
-random_paper: 3
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Mono Co Rate Limits
   slug: mono-co-rate-limits
 score:
   band: thin
-  composite: 31.9
+  composite: 33.6
   coverage:
     artifact_dirs: 10
-    catalog_earned: 64.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 37.3
+    contract_quality: 41.9
     developer_ergonomics: 32.1
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 34.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -238,9 +233,9 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 5
-      marker_coverage: 45.5
-      total: 11
+      derived: 4
+      marker_coverage: 40.0
+      total: 10
   regulatory:
     applies: true
     matched_via: tags
@@ -248,7 +243,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

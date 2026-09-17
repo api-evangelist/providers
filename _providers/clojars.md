@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,6 +90,10 @@ collections:
   name: Clojars REST Artifacts Users API
   slug: open-clojars-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://clojars.org
 - group: operate
   title: ''
   type: IssueTracker
@@ -173,7 +177,7 @@ jsonld:
   property_count: 17
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Clojars
 nav: Providers
 network: true
@@ -183,12 +187,12 @@ overview: 'Clojars publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Clojars catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clojars'' developer surface includes authentication and 10 more developer resources.'
+  Clojars'' developer surface includes authentication and 11 more developer resources.'
 plans:
 - name: Free
   plan_count: 0
   slug: free
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Default
@@ -231,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -253,5 +257,5 @@ tags:
 - Package Registry
 - Artifact Repository
 - Open-Source
-website: https://clojars.org/
+website: https://clojars.org
 ---

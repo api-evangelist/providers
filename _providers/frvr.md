@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The FRVR games SDK — one JavaScript SDK (plus Unity, Cocos Creator, and Construct 3 wrappers) that integrates ads, IAP, analytics, auth, storage, social, leaderboards, tournaments, and notifications i
@@ -137,7 +137,7 @@ overview: 'FRVR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FRVR''s developer surface includes documentation, getting-started guide, API reference, support, engineering blog, signup flow, sandbox, and 12 more developer resources.'
-random_paper: 7
+random_paper: 8
 score:
   band: thin
   composite: 27.7
@@ -160,7 +160,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

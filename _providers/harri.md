@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 6
@@ -58,19 +58,9 @@ apis:
   slug: harri-annualrates-api
 - baseURL: https://gateway.harri.com/open-api-hub
   baseurl_source: declared
-  description: The BankAccounts API from Harri — 1 operation(s) for bankaccounts.
-  name: Harri Bank Accounts API
-  slug: harri-bankaccounts-api
-- baseURL: https://gateway.harri.com/open-api-hub
-  baseurl_source: declared
   description: The Corporate Users API from Harri — 2 operation(s) for corporate users.
   name: Harri Corporate Users API
   slug: harri-corporate-users-api
-- baseURL: https://gateway.harri.com/open-api-hub
-  baseurl_source: declared
-  description: The CostCenters API from Harri — 1 operation(s) for costcenters.
-  name: Harri Cost Centers API
-  slug: harri-costcenters-api
 - baseURL: https://gateway.harri.com/open-api-hub
   baseurl_source: declared
   description: The Deprecated AnnualRates API from Harri — 2 operation(s) for deprecated annualrates.
@@ -378,11 +368,6 @@ apis:
   slug: harri-hourlyrates-api
 - baseURL: https://gateway.harri.com/open-api-hub
   baseurl_source: declared
-  description: The JobTitle API from Harri — 1 operation(s) for jobtitle.
-  name: Harri Job Title API
-  slug: harri-jobtitle-api
-- baseURL: https://gateway.harri.com/open-api-hub
-  baseurl_source: declared
   description: The Location API from Harri — 1 operation(s) for location.
   name: Harri Location API
   slug: harri-location-api
@@ -436,6 +421,21 @@ apis:
   description: The Troncs API from Harri — 2 operation(s) for troncs.
   name: Harri Troncs API
   slug: harri-troncs-api
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Bank Accounts API from Harri — 1 operation(s) for bank accounts.
+  name: Harri Bank Accounts API
+  slug: harri-bank-accounts-api
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Cost Centers API from Harri — 1 operation(s) for cost centers.
+  name: Harri Cost Centers API
+  slug: harri-cost-centers-api
+- baseURL: https://gateway.harri.com/open-api-hub
+  baseurl_source: declared
+  description: The Job Title API from Harri — 1 operation(s) for job title.
+  name: Harri Job Title API
+  slug: harri-job-title-api
 artifact_total: 163
 asyncapis:
 - description: ''
@@ -836,14 +836,14 @@ modified: '2026-08-04'
 name: Harri
 nav: Providers
 network: true
-overview: 'Harri publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Annual Rates API, Bank Accounts API, and 75 more. Tagged areas include Human Resources, Workforce Management, Hospitality, Restaurant, and Scheduling.
+overview: 'Harri publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Annual Rates API, Corporate Users API, and 75 more. Tagged areas include Human Resources, Workforce Management, Hospitality, Restaurant, and Scheduling.
 
 
   The Harri catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Harri''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, engineering blog, and 25 more developer resources.'
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Harri Rate Limits
@@ -855,21 +855,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.2
+  composite: 49.3
   coverage:
     artifact_dirs: 22
-    catalog_earned: 42.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 73.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 57.0
+    contract_quality: 56.7
     developer_ergonomics: 58.9
-    discoverability: 63.0
+    discoverability: 44.4
     operational_transparency: 55.3
   previous_composite: 51.2
   provenance:
@@ -883,7 +883,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

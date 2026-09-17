@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 created: '2024-01-15'
@@ -44,7 +44,7 @@ name: Location Based Tracking
 nav: Providers
 network: true
 overview: Location Based Tracking is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Geolocation, GPS, Location, Mapping, and Tracking.
-random_paper: 20
+random_paper: 21
 score:
   band: minimal
   composite: 4.1
@@ -73,7 +73,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

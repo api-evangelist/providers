@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: This is an OpenAPI for the Mastodon API.
@@ -102,7 +102,7 @@ modified: '2026-05-30'
 name: Mastodon
 nav: Providers
 network: true
-overview: 'Mastodon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open-Source and Social Networks.
+overview: 'Mastodon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open-Source and Social Network.
 
 
   The Mastodon catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -113,7 +113,7 @@ plans:
 - name: Mastodon Plans Pricing
   plan_count: 3
   slug: mastodon-plans-pricing
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Mastodon Rate Limits
@@ -156,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -171,6 +171,6 @@ security:
 slug: mastodon
 tags:
 - Open-Source
-- Social Networks
+- Social Network
 website: https://www.joinmastodon.org/
 ---

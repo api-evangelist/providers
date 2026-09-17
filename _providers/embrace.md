@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: A Prometheus-compatible read API for querying Embrace metrics with PromQL. Standard Embrace metrics and any Custom Metrics an organization has created are queryable across one app, several apps, or ev
@@ -237,7 +237,7 @@ plans:
 - name: Embrace Plans Pricing
   plan_count: 3
   slug: embrace-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 14
   name: Embrace Rate Limits
@@ -271,7 +271,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

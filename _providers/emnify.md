@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 1
@@ -667,7 +667,7 @@ jsonld:
   property_count: 9
   slug: emnify-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: emnify
 nav: Providers
 network: true
@@ -682,7 +682,7 @@ plans:
 - name: Emnify Plans Pricing
   plan_count: 11
   slug: emnify-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Emnify Rate Limits
@@ -742,7 +742,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -770,5 +770,6 @@ tags:
 - NTN-IoT
 - Satellite
 - SuperNetwork
+- Machine-to-Machine
 website: https://www.emnify.com/
 ---

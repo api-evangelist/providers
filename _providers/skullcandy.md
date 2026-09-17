@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Universal Commerce Protocol (UCP) merchant surface for the Skullcandy Shopify storefront. Agents discover capabilities at /.well-known/ucp and transact against a hosted MCP endpoint (catalog search, c
@@ -47,6 +47,10 @@ apis:
   slug: skullcandy-storefront-data-read-only
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://skullcandy.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/llms/skullcandy-llms.txt
   title: ''
@@ -114,15 +118,15 @@ mcp_servers:
 - description: Hosted Universal Commerce Protocol (UCP) shopping MCP server for the Skullcandy Shopify storefront. Agents call the MCP endpoint to search the catalog, build a cart, and drive a buyer-approved checkou
   name: Skullcandy MCP Server
   slug: skullcandy-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Skullcandy
 nav: Providers
 network: true
 overview: 'Skullcandy publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Electronics, Audio, Headphones, and E-Commerce.
 
 
-  Skullcandy''s developer surface includes authentication, documentation, support, and 10 more developer resources.'
-random_paper: 11
+  Skullcandy''s developer surface includes authentication, documentation, support, and 11 more developer resources.'
+random_paper: 4
 scopes:
 - name: Skullcandy Scopes
   scope_count: 4
@@ -150,7 +154,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -178,5 +182,5 @@ tags:
 - Agentic Commerce
 - MCP
 - Universal Commerce Protocol
-website: https://shopify.dev
+website: https://skullcandy.com
 ---

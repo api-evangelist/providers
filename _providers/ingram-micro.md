@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: Ingram Micro Vendor API
   slug: open-ingram-micro-vendor-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ingrammicro.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/agentic-access/ingram-micro-agentic-access.yml
   title: ''
@@ -120,7 +124,7 @@ finops:
   slug: ingram-micro-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ingram-micro.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Ingram Micro
 nav: Providers
 network: true
@@ -145,7 +149,7 @@ press:
 - date: '2026-05-25'
   title: Ingram Micro Announces Agentic AI Capabilities, Adds ...
   url: https://www.businesswire.com/news/home/20251028908276/en/Ingram-Micro-Announces-Agentic-AI-Capabilities-Adds-Googles-Gemini-Models-to-Xvantage-AI-Factory
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Ingram Micro Rate Limits
@@ -177,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -191,4 +195,5 @@ security:
 slug: ingram-micro
 tags:
 - Fortune 100
+website: https://ingrammicro.com
 ---

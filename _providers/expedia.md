@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 6
 common:
@@ -191,7 +191,7 @@ press:
 - date: '2026-05-25'
   title: Expedia Group sees reward and risk in the rise of AI- ...
   url: https://www.geekwire.com/2026/expedia-group-sees-reward-and-risk-in-the-rise-of-ai-powered-travel/
-random_paper: 1
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Expedia Rate Limits
@@ -219,7 +219,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

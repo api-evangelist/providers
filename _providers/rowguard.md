@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,26 +11,53 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-09-15'
+  score: 35.1
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: Find missing values, invalid types, out-of-range values, duplicate identifiers and CSV formula risks in one HTTP request. Results include record and column references and optional valid rows.
-  name: RowGuard CSV Validation API
+- baseURL: https://rowguard-api.rowguard-api.workers.dev
+  baseurl_source: declared
+  description: The CSV validation API from RowGuard API Catalog — 1 operation(s) for csv validation.
+  name: RowGuard API Catalog CSV validation API
   slug: rowguard-csv-validation-api
-artifact_total: 7
+- baseURL: https://rowguard-api.rowguard-api.workers.dev
+  baseurl_source: declared
+  description: The Example API from RowGuard API Catalog — 1 operation(s) for example.
+  name: RowGuard API Catalog Example API
+  slug: rowguard-example-api
+- baseURL: https://rowguard-api.rowguard-api.workers.dev
+  baseurl_source: declared
+  description: The Healthz API from RowGuard API Catalog — 1 operation(s) for healthz.
+  name: RowGuard API Catalog Healthz API
+  slug: rowguard-healthz-api
+artifact_total: 9
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rowguard/refs/heads/main/overlays/rowguard-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/rowguard-openapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rowguard/refs/heads/main/mcp/rowguard-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/rowguard-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/rowguard/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rowguard/refs/heads/main/security/rowguard-vulnerability-disclosure.yml
   title: ''
@@ -111,22 +138,22 @@ modified: '2026-09-13'
 name: RowGuard API Catalog
 nav: Providers
 network: true
-overview: 'RowGuard API Catalog publishes 1 API on the [APIs.io](https://apis.io/) network: RowGuard CSV Validation API. Tagged areas include CSV, Validation, Data Quality, Imports, and Automation.
+overview: 'RowGuard API Catalog publishes 3 APIs on the [APIs.io](https://apis.io/) network: CSV validation API, Example API, and Healthz API. Tagged areas include CSV, Validation, Data Quality, Import, and Automation.
 
 
-  RowGuard API Catalog''s developer surface includes authentication, documentation, pricing, and 13 more developer resources.'
+  RowGuard API Catalog''s developer surface includes authentication, documentation, pricing, and 16 more developer resources.'
 plans:
 - name: Rowguard Plans Pricing
   plan_count: 4
   slug: rowguard-plans-pricing
-random_paper: 14
+random_paper: 17
 rate_limits:
 - limit_count: 9
   name: Rowguard Rate Limits
   slug: rowguard-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 47.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 59.0
@@ -134,22 +161,27 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.6
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 26.7
+    contract_quality: 49.0
     developer_ergonomics: 51.8
     discoverability: 83.3
     operational_transparency: 47.4
   previous_composite: 42.0
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -172,7 +204,7 @@ tags:
 - CSV
 - Validation
 - Data Quality
-- Imports
+- Import
 - Automation
 website: https://rowguard-api.rowguard-api.workers.dev/
 ---

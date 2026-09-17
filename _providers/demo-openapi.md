@@ -33,20 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://search-api.apis.io/
-  baseurl_source: declared
-  description: Index of HTTP application programming interfaces.
-  name: Manage OpenAPI via GitHub Demo APIs API
-  slug: demo-openapi-apis-api
 - baseURL: https://search-api.apis.io/
   baseurl_source: declared
   description: Search using a cloud search engine.
   name: Manage OpenAPI via GitHub Demo Search API
   slug: demo-openapi-search-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -110,7 +105,7 @@ modified: '2026-04-28'
 name: Manage OpenAPI via GitHub Demo
 nav: Providers
 network: true
-overview: 'Manage OpenAPI via GitHub Demo publishes 2 APIs on the [APIs.io](https://apis.io/) network: APIs API and Search API. Tagged areas include APIs.json, Demo, GitHub, OpenAPI, and Reference.
+overview: 'Manage OpenAPI via GitHub Demo publishes 1 API on the [APIs.io](https://apis.io/) network: Search API. Tagged areas include Apis.json, Demo, GitHub, OpenAPI, and Reference.
 
 
   The Manage OpenAPI via GitHub Demo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -118,7 +113,7 @@ plans:
 - name: Demo Openapi Plans Pricing
   plan_count: 3
   slug: demo-openapi-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Demo Openapi Rate Limits
@@ -159,9 +154,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -174,7 +169,7 @@ security:
   summary_line: TLSv1.3
 slug: demo-openapi
 tags:
-- APIs.json
+- Apis.json
 - Demo
 - GitHub
 - OpenAPI

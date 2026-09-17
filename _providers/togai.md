@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   description: Account level calls
   name: Togai Accounts API
   slug: togai-accounts-api
-- baseURL: https://api.togai.com
-  baseurl_source: declared
-  description: The AddOns API from Togai — 2 operation(s) for addons.
-  name: Togai AddOns API
-  slug: togai-addons-api
 - baseURL: https://api.togai.com
   baseurl_source: declared
   description: Alias level calls
@@ -170,6 +165,11 @@ apis:
   description: Wallet API
   name: Togai Wallet API
   slug: togai-wallet-api
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: The Add Ons API from Togai — 2 operation(s) for add ons.
+  name: Togai Add Ons API
+  slug: togai-add-ons-api
 artifact_total: 91
 collections:
 - collection_type: postman
@@ -435,7 +435,7 @@ modified: '2026-05-19'
 name: Togai
 nav: Providers
 network: true
-overview: 'Togai publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AddOns API, Aliases API, and 22 more. Tagged areas include Billing, Metering, Usage-Based Pricing, Revenue Management, and Software-as-a-Service.
+overview: 'Togai publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Aliases API, Authentication API, and 22 more. Tagged areas include Billing, Metering, Usage-Based Pricing, Revenue Management, and Software-as-a-Service.
 
 
   The Togai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -446,7 +446,7 @@ plans:
 - name: Togai Plans Pricing
   plan_count: 3
   slug: togai-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Togai Rate Limits
@@ -487,7 +487,7 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 67.5
+    contract_quality: 67.7
     developer_ergonomics: 57.1
     discoverability: 75.9
     operational_transparency: 26.3
@@ -500,7 +500,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

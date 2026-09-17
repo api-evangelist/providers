@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,47 +49,47 @@ apis:
 - baseURL: https://api.spyfu.com
   baseurl_source: declared
   description: The Account API API from SpyFu — 3 operation(s) for account api.
-  name: SpyFu Account API API
+  name: SpyFu Account API
   slug: spyfu-account-api-api
 - baseURL: https://api.spyfu.com
   baseurl_source: declared
   description: The Ad History Research API API from SpyFu — 3 operation(s) for ad history research api.
-  name: SpyFu Ad History Research API API
+  name: SpyFu Ad History Research API
   slug: spyfu-ad-history-research-api-api
 - baseURL: https://api.spyfu.com
   baseurl_source: declared
   description: The Competitors API API from SpyFu — 3 operation(s) for competitors api.
-  name: SpyFu Competitors API API
+  name: SpyFu Competitors API
   slug: spyfu-competitors-api-api
 - baseURL: https://api.spyfu.com
   baseurl_source: declared
   description: The Domain Stats API API from SpyFu — 6 operation(s) for domain stats api.
-  name: SpyFu Domain Stats API API
+  name: SpyFu Domain Stats API
   slug: spyfu-domain-stats-api-api
 - baseURL: https://api.spyfu.com
   baseurl_source: declared
   description: The Keyword Research API API from SpyFu — 7 operation(s) for keyword research api.
-  name: SpyFu Keyword Research API API
+  name: SpyFu Keyword Research API
   slug: spyfu-keyword-research-api-api
 - baseURL: https://api.spyfu.com
   baseurl_source: declared
   description: The Kombat API API from SpyFu — 2 operation(s) for kombat api.
-  name: SpyFu Kombat API API
+  name: SpyFu Kombat API
   slug: spyfu-kombat-api-api
 - baseURL: https://api.spyfu.com
   baseurl_source: declared
   description: The PPC Research API API from SpyFu — 3 operation(s) for ppc research api.
-  name: SpyFu PPC Research API API
+  name: SpyFu PPC Research API
   slug: spyfu-ppc-research-api-api
 - baseURL: https://api.spyfu.com
   baseurl_source: declared
   description: The Ranking History API API from SpyFu — 3 operation(s) for ranking history api.
-  name: SpyFu Ranking History API API
+  name: SpyFu Ranking History API
   slug: spyfu-ranking-history-api-api
 - baseURL: https://api.spyfu.com
   baseurl_source: declared
   description: The SEO Research API API from SpyFu — 17 operation(s) for seo research api.
-  name: SpyFu SEO Research API API
+  name: SpyFu SEO Research API
   slug: spyfu-seo-research-api-api
 artifact_total: 47
 collections:
@@ -369,11 +369,11 @@ mcp_servers:
 - description: SpyFu serves a remote Model Context Protocol endpoint from its own developer portal host at https://developer.spyfu.com/mcp. A GET returns HTTP 200 with the plain-text body "This URL can only be acces
   name: SpyFu MCP Server
   slug: spyfu-mcp-server
-modified: 2026-08-13
+modified: '2026-09-16'
 name: SpyFu
 nav: Providers
 network: true
-overview: 'SpyFu publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API API, Ad History Research API API, Competitors API API, and 6 more. Tagged areas include SEO, PPC, Competitive Intelligence, Keyword Research, and Ad History.
+overview: 'SpyFu publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Ad History Research API, Competitors API, and 6 more. Tagged areas include SEO, PPC, Competitive Intelligence, Keyword Research, and Ad History.
 
 
   The SpyFu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -384,7 +384,7 @@ plans:
 - name: Spyfu Plans Pricing
   plan_count: 3
   slug: spyfu-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 9
   name: Spyfu Rate Limits
@@ -430,7 +430,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

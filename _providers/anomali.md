@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the Anomali ThreatStream Threat Intelligence Platform — manage threat intelligence, observables, investigations, imports, and integrations. Authentication uses an apikey credential in the
@@ -103,7 +103,7 @@ overview: 'Anomali publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Anomali''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 2
+random_paper: 11
 score:
   band: emerging
   composite: 16.2
@@ -124,7 +124,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

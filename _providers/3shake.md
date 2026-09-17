@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -33,20 +33,45 @@ agentic_access:
   summary_line: 15 operations · 5 acting
 api_count: 1
 apis:
-- baseURL: https://cdp-server.reckoner-api.com/api/external/v1
-  baseurl_source: declared
-  description: Public REST API for Reckoner, 3-shake's no-code ETL / data-integration SaaS. Fifteen operations across five tag groups let an external system run a workflow with parameter overrides, poll or cancel th
-  name: Reckoner External API
-  slug: reckoner-external-api
 - description: 'Public API for Securify Scan, 3-shake''s automated vulnerability-diagnosis and ASM platform. A tenant creates a public API token in the console and calls the API to start a diagnosis, typically from a '
   name: Securify Scan Public API
   slug: securify-scan-public-api
-artifact_total: 8
+- baseURL: https://cdp-server.reckoner-api.com/api/external/v1
+  baseurl_source: declared
+  description: The Accounts API from 3-shake — 1 operation(s) for accounts.
+  name: 3-shake Accounts API
+  slug: 3shake-accounts-api
+- baseURL: https://cdp-server.reckoner-api.com/api/external/v1
+  baseurl_source: declared
+  description: The Auth API from 3-shake — 1 operation(s) for auth.
+  name: 3-shake Auth API
+  slug: 3shake-auth-api
+- baseURL: https://cdp-server.reckoner-api.com/api/external/v1
+  baseurl_source: declared
+  description: The Integrations API from 3-shake — 2 operation(s) for integrations.
+  name: 3-shake Integrations API
+  slug: 3shake-integrations-api
+- baseURL: https://cdp-server.reckoner-api.com/api/external/v1
+  baseurl_source: declared
+  description: The Projects API from 3-shake — 3 operation(s) for projects.
+  name: 3-shake Projects API
+  slug: 3shake-projects-api
+- baseURL: https://cdp-server.reckoner-api.com/api/external/v1
+  baseurl_source: declared
+  description: The Workflows API from 3-shake — 8 operation(s) for workflows.
+  name: 3-shake Workflows API
+  slug: 3shake-workflows-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: 3Shake Reckoner Webhooks
   slug: 3shake-reckoner-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/overlays/3shake-reckoner-external-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/3shake-reckoner-external-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/3shake/refs/heads/main/agentic-access/3shake-agentic-access.yml
   title: ''
@@ -201,25 +226,25 @@ modified: '2026-09-05'
 name: 3-shake
 nav: Providers
 network: true
-overview: '3-shake publishes 1 API on the [APIs.io](https://apis.io/) network: Reckoner External API. Tagged areas include Company, SRE, Data Integration, ETL, and iPaaS.
+overview: '3-shake publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auth API, Integrations API, and 2 more. Tagged areas include Company, SRE, Data Integration, ETL, and iPaaS.
 
 
   The 3-shake catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  3-shake''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  3-shake''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: 3Shake Plans Pricing
   plan_count: 4
   slug: 3shake-plans-pricing
-random_paper: 8
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: 3Shake Rate Limits
   slug: 3shake-rate-limits
 score:
   band: strong
-  composite: 56.7
+  composite: 56.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -227,11 +252,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 63.3
+    contract_quality: 62.4
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 26.3
@@ -250,11 +275,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 5
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

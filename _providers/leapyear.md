@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The first-party Python client library for LeapYear Core. The Client class opens an authenticated connection to a self-hosted LeapYear server and exposes administrative resources (databases, tables, co
@@ -41,6 +41,10 @@ apis:
   slug: leapyear-python-client
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://leapyear-python-docs.readthedocs-hosted.com
 - group: docs
   title: ''
   type: Documentation
@@ -108,15 +112,15 @@ description: 'LeapYear Technologies built an enterprise platform for differentia
   Python client reference for version 4.1.1.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leapyear.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: LeapYear
 nav: Providers
 network: true
 overview: 'LeapYear publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Privacy, Differential Privacy, Machine-Learning, and Analytics.
 
 
-  LeapYear''s developer surface includes documentation, API reference, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 11
+  LeapYear''s developer surface includes documentation, API reference, getting-started guide, authentication, and 10 more developer resources.'
+random_paper: 15
 score:
   band: emerging
   composite: 16.7
@@ -139,7 +143,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -166,4 +170,5 @@ tags:
 - Privacy Enhancing Technologies
 - Python
 - Acquired
+website: https://leapyear-python-docs.readthedocs-hosted.com
 ---

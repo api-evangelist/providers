@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ plans:
 - name: Atrium Plans Pricing
   plan_count: 0
   slug: atrium-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Atrium Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

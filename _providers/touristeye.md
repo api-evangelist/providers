@@ -32,8 +32,8 @@ modified: '2026-09-15'
 name: TouristEye
 nav: Providers
 network: true
-overview: TouristEye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Trip Planning, Mobile Apps, and Consumer.
-random_paper: 4
+overview: TouristEye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Trip Planning, Mobile App, and Consumer.
+random_paper: 17
 security:
 - kind: domain-security
   name: Touristeye Domain Security
@@ -44,7 +44,7 @@ tags:
 - Company
 - Travel
 - Trip Planning
-- Mobile Apps
+- Mobile App
 - Consumer
 - Defunct
 website: https://touristeye.com

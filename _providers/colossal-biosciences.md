@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ overview: 'Colossal Biosciences publishes 10 APIs on the [APIs.io](https://apis.
 
 
   Colossal Biosciences'' developer surface includes authentication, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 10
+random_paper: 0
 score:
   band: emerging
   composite: 25.1
@@ -288,7 +288,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

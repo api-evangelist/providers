@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: '2026-06-13'
 name: Zoho Writer
 nav: Providers
 network: true
-overview: 'Zoho Writer publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Combine API, Documents API, Merge API, and 1 more. Tagged areas include Documents, Word Processor, Mail Merge, Document Generation, and Electronic Signatures.
+overview: 'Zoho Writer publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Combine API, Documents API, Merge API, and 1 more. Tagged areas include Documents, Word Processor, Mail Merge, Document Generation, and Electronic Signature.
 
 
   The Zoho Writer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -185,7 +185,7 @@ plans:
 - name: Zoho Writer Plans Pricing
   plan_count: 4
   slug: zoho-writer-plans-pricing
-random_paper: 7
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Zoho Writer Rate Limits
@@ -233,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -258,7 +258,7 @@ tags:
 - Word Processor
 - Mail Merge
 - Document Generation
-- Electronic Signatures
+- Electronic Signature
 - Zoho
 - Office Suite
 - Automation

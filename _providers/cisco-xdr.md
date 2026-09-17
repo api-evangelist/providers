@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 12
 apis:
 - baseURL: https://private.intel.amp.cisco.com
@@ -111,11 +111,6 @@ apis:
   description: Feedback Routes
   name: Cisco XDR Feedback API
   slug: cisco-xdr-feedback-api
-- baseURL: https://private.intel.amp.cisco.com
-  baseurl_source: declared
-  description: The GraphQL API from Cisco XDR — 1 operation(s) for graphql.
-  name: Cisco XDR Graph QL API
-  slug: cisco-xdr-graphql-api
 - baseURL: https://visibility.amp.cisco.com
   baseurl_source: declared
   description: This set of routes allow to check the health of your integrations setup Verify if your modules are setup correctly and if your credentials are correct.
@@ -381,11 +376,6 @@ apis:
   slug: cisco-xdr-tabletypes-api
 - baseURL: https://private.intel.amp.cisco.com
   baseurl_source: declared
-  description: The TargetGroups API from Cisco XDR — 2 operation(s) for targetgroups.
-  name: Cisco XDR Target Groups API
-  slug: cisco-xdr-targetgroups-api
-- baseURL: https://private.intel.amp.cisco.com
-  baseurl_source: declared
   description: The Targets API from Cisco XDR — 3 operation(s) for targets.
   name: Cisco XDR Targets API
   slug: cisco-xdr-targets-api
@@ -436,11 +426,6 @@ apis:
   slug: cisco-xdr-webhooks-api
 - baseURL: https://private.intel.amp.cisco.com
   baseurl_source: declared
-  description: The WorkflowInstances API from Cisco XDR — 7 operation(s) for workflowinstances.
-  name: Cisco XDR Workflow Instances API
-  slug: cisco-xdr-workflowinstances-api
-- baseURL: https://private.intel.amp.cisco.com
-  baseurl_source: declared
   description: The Workflows API from Cisco XDR — 20 operation(s) for workflows.
   name: Cisco XDR Workflows API
   slug: cisco-xdr-workflows-api
@@ -454,6 +439,21 @@ apis:
   description: The Xchange API from Cisco XDR — 4 operation(s) for xchange.
   name: Cisco XDR Xchange API
   slug: cisco-xdr-xchange-api
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Graph QL API from Cisco XDR — 1 operation(s) for graph ql.
+  name: Cisco XDR Graph QL API
+  slug: cisco-xdr-graph-ql-api
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Target Groups API from Cisco XDR — 2 operation(s) for target groups.
+  name: Cisco XDR Target Groups API
+  slug: cisco-xdr-target-groups-api
+- baseURL: https://private.intel.amp.cisco.com
+  baseurl_source: declared
+  description: The Workflow Instances API from Cisco XDR — 7 operation(s) for workflow instances.
+  name: Cisco XDR Workflow Instances API
+  slug: cisco-xdr-workflow-instances-api
 artifact_total: 93
 asyncapis:
 - description: ''
@@ -524,15 +524,15 @@ common:
   type: Portal
   url: https://developer.cisco.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-incidents-investigations-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/_original/cisco-xdr-incidents-investigations-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/cisco-xdr-incidents-investigations-openapi.json
+  url: openapi/_original/cisco-xdr-incidents-investigations-openapi.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/cisco-xdr-automation-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/openapi/_original/cisco-xdr-automation-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/cisco-xdr-automation-openapi.json
+  url: openapi/_original/cisco-xdr-automation-openapi.json
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/conventions/cisco-xdr-conventions.yml
   title: ''
@@ -697,7 +697,7 @@ mcp_servers:
 - description: ''
   name: Cisco XDR MCP Server
   slug: cisco-xdr-mcp-server-2
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: Cisco XDR
 nav: Providers
 network: true
@@ -712,7 +712,7 @@ plans:
 - name: Cisco Xdr Plans Pricing
   plan_count: 3
   slug: cisco-xdr-plans-pricing
-random_paper: 5
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Cisco Xdr Rate Limits
@@ -724,34 +724,34 @@ scopes:
   summary_line: 41 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 62.9
+  composite: 61.4
   coverage:
     artifact_dirs: 23
-    catalog_earned: 61.0
+    catalog_earned: 51.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 75.0
     contract_governance: 4.5
-    contract_quality: 61.3
+    contract_quality: 62.5
     developer_ergonomics: 66.1
-    discoverability: 68.5
+    discoverability: 50.0
     operational_transparency: 76.3
   previous_composite: 62.9
   provenance:
     conformance: derived
     contracts:
       callable: 62.2
-      derived: 0
+      derived: 1
       marker_coverage: 100.0
       total: 82
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

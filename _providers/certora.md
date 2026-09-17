@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -134,7 +134,7 @@ overview: 'Certora is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Certora''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 12 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: thin
   composite: 30.4
@@ -155,7 +155,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 30.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

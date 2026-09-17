@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 12
@@ -74,11 +74,6 @@ apis:
   description: The docker-registry API from Daytona — 3 operation(s) for docker-registry.
   name: Daytona docker-registry API
   slug: daytona-io-docker-registry-api
-- baseURL: https://app.daytona.io/api
-  baseurl_source: declared
-  description: The file-system API from Daytona — 12 operation(s) for file-system.
-  name: Daytona file-system API
-  slug: daytona-io-file-system-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The git API from Daytona — 9 operation(s) for git.
@@ -187,58 +182,63 @@ apis:
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Admin API API from Daytona — 0 operation(s) for daytona admin api.
-  name: Daytona Daytona Admin API
+  name: Daytona Admin API
   slug: daytona-io-daytona-admin-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Api Keys API API from Daytona — 0 operation(s) for daytona api keys api.
-  name: Daytona Daytona Api Keys API
+  name: Daytona Api Keys API
   slug: daytona-io-daytona-api-keys-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Health API API from Daytona — 0 operation(s) for daytona health api.
-  name: Daytona Daytona Health API
+  name: Daytona Health API
   slug: daytona-io-daytona-health-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Organizations API API from Daytona — 0 operation(s) for daytona organizations api.
-  name: Daytona Daytona Organizations API
+  name: Daytona Organizations API
   slug: daytona-io-daytona-organizations-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Preview API API from Daytona — 0 operation(s) for daytona preview api.
-  name: Daytona Daytona Preview API
+  name: Daytona Preview API
   slug: daytona-io-daytona-preview-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Sandbox API API from Daytona — 0 operation(s) for daytona sandbox api.
-  name: Daytona Daytona Sandbox API
+  name: Daytona Sandbox API
   slug: daytona-io-daytona-sandbox-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Snapshots API API from Daytona — 0 operation(s) for daytona snapshots api.
-  name: Daytona Daytona Snapshots API
+  name: Daytona Snapshots API
   slug: daytona-io-daytona-snapshots-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Toolbox API API from Daytona — 0 operation(s) for daytona toolbox api.
-  name: Daytona Daytona Toolbox API
+  name: Daytona Toolbox API
   slug: daytona-io-daytona-toolbox-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Users API API from Daytona — 0 operation(s) for daytona users api.
-  name: Daytona Daytona Users API
+  name: Daytona Users API
   slug: daytona-io-daytona-users-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Volumes API API from Daytona — 0 operation(s) for daytona volumes api.
-  name: Daytona Daytona Volumes API
+  name: Daytona Volumes API
   slug: daytona-io-daytona-volumes-api-api
 - baseURL: https://app.daytona.io/api
   baseurl_source: declared
   description: The Daytona Webhooks API API from Daytona — 0 operation(s) for daytona webhooks api.
-  name: Daytona Daytona Webhooks API
+  name: Daytona Webhooks API
   slug: daytona-io-daytona-webhooks-api-api
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Filesystem API from Daytona — 12 operation(s) for filesystem.
+  name: Daytona Filesystem API
+  slug: daytona-io-filesystem-api
 arazzos:
 - description: Register a snapshot from a container image, poll until it builds, and activate it if it lands inactive.
   name: Daytona Build and Activate a Snapshot
@@ -786,7 +786,7 @@ jsonld:
   property_count: 10
   slug: daytona-io-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Daytona
 nav: Providers
 network: true
@@ -801,7 +801,7 @@ plans:
 - name: Daytona Io Plans Pricing
   plan_count: 4
   slug: daytona-io-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Daytona Io Rate Limits
@@ -830,21 +830,21 @@ rules:
   slug: daytona-rules
 score:
   band: strong
-  composite: 63.4
+  composite: 60.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 78.5
+    catalog_earned: 62.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.5
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.8
   facets:
     access_clarity: 81.6
     contract_governance: 28.8
-    contract_quality: 62.2
+    contract_quality: 58.3
     developer_ergonomics: 89.3
-    discoverability: 68.5
+    discoverability: 50.0
     operational_transparency: 31.6
   previous_composite: 63.4
   provenance:
@@ -855,7 +855,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,19 +34,29 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://corporate.americangreetings.com/wp-json
-  baseurl_source: declared
-  description: The WordPress REST API served by American Greetings from its corporate site. It advertises a self-describing route index at /wp-json/ carrying 586 routes across 23 namespaces, of which wp/v2 is the pu
-  name: American Greetings Corporate WordPress REST API
-  slug: american-greetings-corporate-wordpress-rest-api
 - description: An api. host that resolves through Akamai but returns an identical "Access Denied" 403 HTML body to every non-browser client on every path, including the site root. No documentation, no contract and n
   name: American Greetings API
   slug: american-greetings-api
-artifact_total: 7
+- baseURL: https://corporate.americangreetings.com/wp-json
+  baseurl_source: declared
+  description: oEmbed discovery and proxy endpoints.
+  name: American Greetings Oembed/1.0 API
+  slug: american-greetings-oembed-1-0-api
+- baseURL: https://corporate.americangreetings.com/wp-json
+  baseurl_source: declared
+  description: WordPress core content namespace, including the American Greetings products and brands custom post types.
+  name: American Greetings Wp/v2 API
+  slug: american-greetings-wp-v2-api
+artifact_total: 8
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/american-greetings/refs/heads/main/overlays/american-greetings-corporate-wordpress-rest-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/american-greetings-corporate-wordpress-rest-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/american-greetings/refs/heads/main/authentication/american-greetings-authentication.yml
   title: ''
@@ -143,22 +153,22 @@ modified: '2026-09-02'
 name: American Greetings
 nav: Providers
 network: true
-overview: 'American Greetings publishes 1 API on the [APIs.io](https://apis.io/) network: Corporate WordPress REST API. Tagged areas include Greeting Cards, Gift Wrap, Celebration, Consumer Products, and Retail.
+overview: 'American Greetings publishes 2 APIs on the [APIs.io](https://apis.io/) network: Oembed/1.0 API and Wp/v2 API. Tagged areas include Greeting Cards, Gift Wrap, Celebration, Consumer Products, and Retail.
 
 
-  American Greetings'' developer surface includes authentication, engineering blog, support, and 15 more developer resources.'
+  American Greetings'' developer surface includes authentication, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: American Greetings Plans Pricing
   plan_count: 1
   slug: american-greetings-plans-pricing
-random_paper: 18
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: American Greetings Rate Limits
   slug: american-greetings-rate-limits
 score:
   band: thin
-  composite: 30.5
+  composite: 30.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 43.0
@@ -166,11 +176,11 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 58.5
+    contract_quality: 56.5
     developer_ergonomics: 20.8
     discoverability: 66.7
     operational_transparency: 2.6
@@ -186,7 +196,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     mcp: derived
     skills: derived
   regulatory:
@@ -196,7 +206,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

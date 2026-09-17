@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,6 +93,10 @@ collections:
   name: OpenCitations Index REST Authors References API
   slug: open-opencitations-references-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://opencitations.net
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/agentic-access/opencitations-agentic-access.yml
   title: ''
@@ -133,7 +137,7 @@ jsonld:
   property_count: 13
   slug: opencitations
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: OpenCitations
 nav: Providers
 network: true
@@ -143,8 +147,8 @@ overview: 'OpenCitations publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The OpenCitations catalog on APIs.io includes 1 JSON-LD context.
 
 
-  OpenCitations'' developer surface includes authentication and 2 more developer resources.'
-random_paper: 1
+  OpenCitations'' developer surface includes authentication and 3 more developer resources.'
+random_paper: 0
 score:
   band: thin
   composite: 28.3
@@ -178,7 +182,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

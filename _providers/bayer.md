@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 12
 common:
@@ -119,7 +119,7 @@ name: Bayer
 nav: Providers
 network: true
 overview: Bayer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Agriculture, Healthcare, Chemicals, and Crop Science.
-random_paper: 6
+random_paper: 3
 score:
   band: emerging
   composite: 11.9
@@ -146,7 +146,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

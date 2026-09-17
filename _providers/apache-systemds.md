@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The SystemDS Python API (systemds) provides a Python interface for building end-to-end ML pipelines. It includes Matrix and Frame types for distributed data manipulation, built-in algorithms for prepr
@@ -41,6 +41,10 @@ apis:
   slug: apache-systemds-python-api
 artifact_total: 18
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apache.github.io
 - group: build
   title: ''
   type: CodeOfConduct
@@ -115,19 +119,19 @@ integrations:
 - description: Kubernetes deployment support for SystemDS runtime via Helm charts.
   name: Kubernetes
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Apache SystemDS
 nav: Providers
 network: true
 overview: 'Apache SystemDS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AutoML, Data Science, Distributed Computing, Machine-Learning, and Open-Source.
 
 
-  Apache SystemDS''s developer surface includes documentation, developer portal, getting-started guide, release notes, and 7 more developer resources.'
+  Apache SystemDS''s developer surface includes documentation, developer portal, getting-started guide, release notes, and 8 more developer resources.'
 plans:
 - name: Apache Systemds Plans Pricing
   plan_count: 3
   slug: apache-systemds-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Apache Systemds Rate Limits
@@ -155,7 +159,7 @@ score:
     score: 65.0
   previous_composite: 24.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -185,5 +189,5 @@ use_cases:
   name: Federated Machine Learning
 - description: Integrated data preparation, feature engineering, training, and serving pipelines.
   name: End-to-End ML Pipelines
-website: https://systemds.apache.org/
+website: https://apache.github.io
 ---

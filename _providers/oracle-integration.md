@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -283,6 +283,10 @@ collections:
   name: Oracle Integration Developer Adapters Trading Partners API
   slug: open-oracle-integration-trading-partners-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -609,7 +613,7 @@ jsonld:
   property_count: 16
   slug: oracle-integration-process-automation-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Oracle Integration
 nav: Providers
 network: true
@@ -619,7 +623,7 @@ overview: 'Oracle Integration publishes 23 APIs on the [APIs.io](https://apis.io
   The Oracle Integration catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle Integration''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, changelog, support, and 37 more developer resources.'
+  Oracle Integration''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, changelog, support, and 38 more developer resources.'
 plans:
 - name: Oracle Integration Plans Pricing
   plan_count: 4
@@ -683,7 +687,7 @@ score:
       marker_coverage: 100.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -729,5 +733,5 @@ use_cases:
   name: CI/CD For Integrations
 - description: Process events and messages in real time using event-driven integration patterns and stream analytics.
   name: Real-Time Event Processing
-website: https://cloud.oracle.com/integration
+website: https://oracle.com
 ---

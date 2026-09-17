@@ -11,18 +11,43 @@ access_model:
   - security
   trial: false
   try_now: false
-api_count: 2
+api_count: 1
 apis:
-- baseURL: http://api.opentestdata.org
-  baseurl_source: declared
-  description: REST API behind opentestdata.org, test.ai's free and open database of automated test fixture data. 13 paths / 16 operations covering user signup and login, e-mail confirmation, avatars, admin promotio
-  name: OpenTestData API
-  slug: opentestdata-api
 - description: gRPC service that classifies UI element screenshots into semantic labels. A single RPC, ClassifyElements, takes a map of element id to PNG bytes plus a label hint, a confidence threshold and a weaker-
   name: test.ai Classifier
   slug: testai-classifier
-artifact_total: 6
+- baseURL: http://api.opentestdata.org
+  baseurl_source: declared
+  description: The Data API from test.ai — 2 operation(s) for data.
+  name: test.ai Data API
+  slug: test-ai-data-api
+- baseURL: http://api.opentestdata.org
+  baseurl_source: declared
+  description: The Ping API from test.ai — 1 operation(s) for ping.
+  name: test.ai Ping API
+  slug: test-ai-ping-api
+- baseURL: http://api.opentestdata.org
+  baseurl_source: declared
+  description: The Search API from test.ai — 1 operation(s) for search.
+  name: test.ai Search API
+  slug: test-ai-search-api
+- baseURL: http://api.opentestdata.org
+  baseurl_source: declared
+  description: The Tests API from test.ai — 2 operation(s) for tests.
+  name: test.ai Tests API
+  slug: test-ai-tests-api
+- baseURL: http://api.opentestdata.org
+  baseurl_source: declared
+  description: The Users API from test.ai — 7 operation(s) for users.
+  name: test.ai Users API
+  slug: test-ai-users-api
+artifact_total: 10
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/overlays/test-ai-opentestdata-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/test-ai-opentestdata-overlay.yaml
 - group: commercial
   title: ''
   type: License
@@ -92,15 +117,15 @@ modified: '2026-08-30'
 name: test.ai
 nav: Providers
 network: true
-overview: 'test.ai publishes 1 API on the [APIs.io](https://apis.io/) network: OpenTestData API. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and Artificial Intelligence.
+overview: 'test.ai publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Data API, Ping API, Search API, and 2 more. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and Artificial Intelligence.
 
 
-  test.ai''s developer surface includes documentation, getting-started guide, and 11 more developer resources.'
+  test.ai''s developer surface includes documentation, getting-started guide, and 12 more developer resources.'
 plans:
 - name: Test Ai Plans Pricing
   plan_count: 0
   slug: test-ai-plans-pricing
-random_paper: 2
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Test Ai Rate Limits

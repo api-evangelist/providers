@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -366,11 +366,6 @@ apis:
   slug: bynder-trash-api
 - baseURL: https://yourportal.bynder.com
   baseurl_source: declared
-  description: The Upload API from Bynder — 4 operation(s) for upload.
-  name: Bynder Upload API
-  slug: bynder-upload-api
-- baseURL: https://yourportal.bynder.com
-  baseurl_source: declared
   description: These endpoints return information related to the specific event. You can enrich these events with specific data about the asset or the user by making use of the [Assets API endpoints](#reference/asse
   name: Bynder User Usage API
   slug: bynder-user-usage-api
@@ -384,11 +379,6 @@ apis:
   description: Manage specific users by their ID. This includes retrieving, updating, and deleting user information based on the user ID.
   name: Bynder Users ID API
   slug: bynder-users-id-api
-- baseURL: https://yourportal.bynder.com
-  baseurl_source: declared
-  description: The Authentication API from Bynder — 3 operation(s) for authentication.
-  name: Bynder Authentication API
-  slug: bynder-authentication-api
 - baseURL: https://yourportal.bynder.com
   baseurl_source: declared
   description: This endpoint prepares the upload of a file in chunks. It returns a file ID that will be used in subsequent steps to upload the file chunks and finalize the upload.
@@ -411,11 +401,6 @@ apis:
   slug: bynder-step-3b-register-uploaded-chunk-api
 - baseURL: https://yourportal.bynder.com
   baseurl_source: declared
-  description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
-  name: Bynder Step 4 API
-  slug: bynder-step-4-api
-- baseURL: https://yourportal.bynder.com
-  baseurl_source: declared
   description: The Step 4 EITHER Finalise uploaded file API from Bynder — 1 operation(s) for step 4 either finalise uploaded file.
   name: Bynder Step 4 EITHER Finalise uploaded file API
   slug: bynder-step-4-either-finalise-uploaded-file-api
@@ -426,19 +411,9 @@ apis:
   slug: bynder-step-4-or-finalize-and-save-an-additional-uploaded-file-as-a-new-asset-api
 - baseURL: https://yourportal.bynder.com
   baseurl_source: declared
-  description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
-  name: Bynder Step 5 API
-  slug: bynder-step-5-api
-- baseURL: https://yourportal.bynder.com
-  baseurl_source: declared
   description: This endpoint allows you to check the processing status of a finalized upload. It should be called repeatedly until the response indicates that the processing is complete or provides the item IDs of t
   name: Bynder Step 5 Poll for processing status API
   slug: bynder-step-5-poll-for-processing-status-api
-- baseURL: https://yourportal.bynder.com
-  baseurl_source: declared
-  description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
-  name: Bynder Step 6 API
-  slug: bynder-step-6-api
 - baseURL: https://yourportal.bynder.com
   baseurl_source: declared
   description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
@@ -449,7 +424,7 @@ apis:
   description: The Step 6 OR Save uploaded file to existing asset API from Bynder — 1 operation(s) for step 6 or save uploaded file to existing asset.
   name: Bynder Step 6 OR Save uploaded file to existing asset API
   slug: bynder-step-6-or-save-uploaded-file-to-existing-asset-api
-artifact_total: 125
+artifact_total: 120
 asyncapis:
 - description: ''
   name: Bynder Webhooks
@@ -959,7 +934,7 @@ modified: '2026-08-13'
 name: Bynder
 nav: Providers
 network: true
-overview: 'Bynder publishes 81 APIs on the [APIs.io](https://apis.io/) network, including Access rights API, Account API, Asset Usage API, and 78 more. Tagged areas include Digital Asset Management, Brand Management, Content Management, Marketing, and Asset Workflow.
+overview: 'Bynder publishes 76 APIs on the [APIs.io](https://apis.io/) network, including Access rights API, Account API, Asset Usage API, and 73 more. Tagged areas include Digital Asset Management, Brand Management, Content Management, Marketing, and Asset Workflow.
 
 
   The Bynder catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -970,7 +945,7 @@ plans:
 - name: Bynder Plans Pricing
   plan_count: 0
   slug: bynder-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Bynder Rate Limits
@@ -982,21 +957,21 @@ scopes:
   summary_line: 29 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.2
+  composite: 55.8
   coverage:
     artifact_dirs: 24
-    catalog_earned: 45.0
+    catalog_earned: 35.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 63.5
+    contract_quality: 65.2
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 73.7
   previous_composite: 57.2
   provenance:
@@ -1006,11 +981,11 @@ score:
       callable: 45.0
       derived: 0
       marker_coverage: 0.0
-      total: 81
+      total: 76
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

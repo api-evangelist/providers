@@ -18,27 +18,47 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 31.4
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://s.api.one.vayana.com
-  baseurl_source: declared
-  description: 'Vayana Atlas is Vayana''s API marketplace for trade and compliance. The published OpenAPI 3.1 contract covers 65 operations across four suites: a Verification Suite (PAN, detailed PAN, PAN-GST link, GS'
-  name: Vayana Atlas API
-  slug: vayana-network-atlas
 - description: The Enriched API Service ("Flynn") is Vayana GSP's higher-level API suite over the three GSTN peers — the GST Returns portal, the NIC E-Way Bill portal and the IRP e-invoicing portal. "Basic" routes a
   name: Vayana Enriched API Service (EAS)
   slug: vayana-network-enriched-api-service
 - description: Vayana GSP's Pass-Through API Service is the thin, last-mile gateway to the GSTN and NIC ecosystems for integrators who want to speak the government contracts directly. The caller populates the govern
   name: Vayana GSP Pass-Through API Service (PAS)
   slug: vayana-network-gsp-pass-through
-artifact_total: 7
+- baseURL: https://s.api.one.vayana.com
+  baseurl_source: declared
+  description: The Authorization Suite API from Vayana Network — 4 operation(s) for authorization suite.
+  name: Vayana Network Authorization Suite API
+  slug: vayana-network-authorization-suite-api
+- baseURL: https://s.api.one.vayana.com
+  baseurl_source: declared
+  description: The Compliance Suite API from Vayana Network — 27 operation(s) for compliance suite.
+  name: Vayana Network Compliance Suite API
+  slug: vayana-network-compliance-suite-api
+- baseURL: https://s.api.one.vayana.com
+  baseurl_source: declared
+  description: The Support Suite API from Vayana Network — 3 operation(s) for support suite.
+  name: Vayana Network Support Suite API
+  slug: vayana-network-support-suite-api
+- baseURL: https://s.api.one.vayana.com
+  baseurl_source: declared
+  description: The Verification Suite API from Vayana Network — 30 operation(s) for verification suite.
+  name: Vayana Network Verification Suite API
+  slug: vayana-network-verification-suite-api
+artifact_total: 10
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/overlays/vayana-network-atlas-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/vayana-network-atlas-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -168,22 +188,22 @@ modified: '2026-09-02'
 name: Vayana Network
 nav: Providers
 network: true
-overview: 'Vayana Network publishes 1 API on the [APIs.io](https://apis.io/) network: Vayana Atlas API. Tagged areas include Company, Trade Finance, Supply Chain Finance, Tax Compliance, and E-Invoicing.
+overview: 'Vayana Network publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authorization Suite API, Compliance Suite API, Support Suite API, and 1 more. Tagged areas include Company, Trade Finance, Supply Chain Finance, Tax Compliance, and E-Invoicing.
 
 
-  Vayana Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 19 more developer resources.'
+  Vayana Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
 plans:
 - name: Vayana Network Plans Pricing
   plan_count: 0
   slug: vayana-network-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Vayana Network Rate Limits
   slug: vayana-network-rate-limits
 score:
   band: developing
-  composite: 44.6
+  composite: 45.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -191,11 +211,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 54.4
+    contract_quality: 57.1
     developer_ergonomics: 66.1
     discoverability: 68.5
     operational_transparency: 10.5
@@ -213,7 +233,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -223,7 +243,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

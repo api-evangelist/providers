@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,23 +46,8 @@ agentic_access:
   operation_count: 99
   slug: aetna-agentic-access
   summary_line: 99 operations
-api_count: 95
+api_count: 96
 apis:
-- baseURL: https://apif1.aetna.com/fhir
-  baseurl_source: declared
-  description: HL7 FHIR R4 Patient Access API giving Aetna members, through an app they authorize, access to their adjudicated claims, encounter data, coverage, clinical records and formulary information. Implements
-  name: Aetna Patient Access FHIR API
-  slug: aetna-patient-access-fhir-api
-- baseURL: https://apif1.aetna.com/fhir
-  baseurl_source: declared
-  description: HL7 FHIR R4 Provider Directory API implementing the Da Vinci PDex Plan Net Implementation Guide (upgraded to version 1.2.0 on 2026-06-23), covering both Medicare and Commercial networks. Exposes Pract
-  name: Aetna Provider Directory FHIR API
-  slug: aetna-provider-directory-fhir-api
-- baseURL: https://apif1.aetna.com/fhir
-  baseurl_source: declared
-  description: Da Vinci PDex US Drug Formulary 2.0.0 STU 2 formulary data, delivered as part of the Patient Access API product rather than as a separate base URL. MedicationKnowledge carries covered drugs, tiers, co
-  name: Aetna Drug Formulary FHIR API
-  slug: aetna-drug-formulary-fhir-api
 - description: 'Da Vinci prior-authorization surface built for CMS-0057-F: Coverage Requirements Discovery (STU 2.1) at /coveragerequirementsdiscovery/v1/cds-services/{id} supporting the order-sign, order-dispatch an'
   name: Aetna Prior Authorization FHIR API
   slug: aetna-prior-authorization-fhir-api
@@ -75,8 +60,68 @@ apis:
 - description: HIPAA X12 electronic data interchange for health care professionals - EDI 837 claims, 270/271 eligibility and benefits, 276/277 claim status and 835 remittance advice. This is not an Aetna-hosted REST
   name: Aetna Provider EDI Connectivity
   slug: aetna-provider-edi-api
-artifact_total: 128
+- baseURL: https://apif1.aetna.com/fhir
+  baseurl_source: declared
+  description: The Endpoint API from Aetna — 2 operation(s) for endpoint.
+  name: Aetna Endpoint API
+  slug: aetna-endpoint-api
+- baseURL: https://apif1.aetna.com/fhir
+  baseurl_source: declared
+  description: The Location API from Aetna — 2 operation(s) for location.
+  name: Aetna Location API
+  slug: aetna-location-api
+- baseURL: https://apif1.aetna.com/fhir
+  baseurl_source: declared
+  description: The Organization API from Aetna — 2 operation(s) for organization.
+  name: Aetna Organization API
+  slug: aetna-organization-api
+- baseURL: https://apif1.aetna.com/fhir
+  baseurl_source: declared
+  description: The OrganizationAffiliation API from Aetna — 1 operation(s) for organizationaffiliation.
+  name: Aetna Organization Affiliation API
+  slug: aetna-organizationaffiliation-api
+- baseURL: https://apif1.aetna.com/fhir
+  baseurl_source: declared
+  description: The Practitioner API from Aetna — 2 operation(s) for practitioner.
+  name: Aetna Practitioner API
+  slug: aetna-practitioner-api
+- baseURL: https://apif1.aetna.com/fhir
+  baseurl_source: declared
+  description: The Providerdirectorydata API from Aetna — 11 operation(s) for providerdirectorydata.
+  name: Aetna Providerdirectorydata API
+  slug: aetna-providerdirectorydata-api
+- baseURL: https://apix.cvshealth.com
+  baseurl_source: declared
+  description: The Patient Access API from Aetna — 83 operation(s) for patient access.
+  name: Aetna Patient Access API
+  slug: aetna-patient-access-api
+- baseURL: https://apix.cvshealth.com
+  baseurl_source: declared
+  description: The Provider Directory API from Aetna — 9 operation(s) for provider directory.
+  name: Aetna Provider Directory API
+  slug: aetna-provider-directory-api
+- baseURL: https://apix.cvshealth.com
+  baseurl_source: declared
+  description: The Healthcare Service API from Aetna — 2 operation(s) for healthcare service.
+  name: Aetna Healthcare Service API
+  slug: aetna-healthcare-service-api
+- baseURL: https://apix.cvshealth.com
+  baseurl_source: declared
+  description: The Insurance Plan API from Aetna — 1 operation(s) for insurance plan.
+  name: Aetna Insurance Plan API
+  slug: aetna-insurance-plan-api
+- baseURL: https://apix.cvshealth.com
+  baseurl_source: declared
+  description: The Practitioner Role API from Aetna — 1 operation(s) for practitioner role.
+  name: Aetna Practitioner Role API
+  slug: aetna-practitioner-role-api
+artifact_total: 136
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/overlays/aetna-provider-directory-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aetna-provider-directory-api-overlay.yaml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-patient-access-api-openapi.yml
   title: ''
@@ -821,10 +866,10 @@ modified: '2026-08-30'
 name: Aetna
 nav: Providers
 network: true
-overview: 'Aetna publishes 3 APIs on the [APIs.io](https://apis.io/) network: Patient Access FHIR API, Provider Directory FHIR API, and Drug Formulary FHIR API. Tagged areas include Health Insurance, Healthcare, FHIR, Patient Access, and Provider Directory.
+overview: 'Aetna publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Endpoint API, Location API, Organization API, and 8 more. Tagged areas include Health Insurance, Healthcare, FHIR, Patient Access, and Provider Directory.
 
 
-  Aetna''s developer surface includes code examples, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 79 more developer resources.'
+  Aetna''s developer surface includes code examples, authentication, changelog, sandbox, documentation, API reference, getting-started guide, and 80 more developer resources.'
 plans:
 - name: Aetna Plans Pricing
   plan_count: 0
@@ -845,7 +890,7 @@ press:
 - date: '2026-05-25'
   title: Aetna Launches New AI and Digital Tools to Improve ...
   url: https://www.cvshealth.com/news/innovation/aetna-launches-new-ai-and-digital-tools-to-improve-access-and-care.html
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Aetna Rate Limits
@@ -857,21 +902,21 @@ scopes:
   summary_line: 54 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.5
+  composite: 51.0
   coverage:
     artifact_dirs: 30
-    catalog_earned: 48.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 67.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.5
   facets:
     access_clarity: 32.9
     contract_governance: 33.3
-    contract_quality: 38.2
+    contract_quality: 59.6
     developer_ergonomics: 42.3
-    discoverability: 74.1
+    discoverability: 55.6
     operational_transparency: 31.6
   previous_composite: 47.5
   provenance:
@@ -879,9 +924,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 2
-      marker_coverage: 66.7
-      total: 3
+      derived: 1
+      marker_coverage: 9.1
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -891,7 +936,7 @@ score:
     regime_id: health
     score: 68.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -919,7 +964,7 @@ tags:
 - SMART on FHIR
 - CARIN Blue Button
 - Da Vinci
-- Payer
+- Payers
 - Fortune 100
 - CVS Health
 use_cases:

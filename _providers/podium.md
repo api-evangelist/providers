@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 24
 apis:
 - baseURL: https://api.podium.com/v4/
@@ -471,7 +471,7 @@ plans:
 - name: Podium Plans Pricing
   plan_count: 0
   slug: podium-plans-pricing
-random_paper: 3
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Podium Rate Limits
@@ -516,7 +516,7 @@ score:
     regime_id: telecommunications
     score: 59.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

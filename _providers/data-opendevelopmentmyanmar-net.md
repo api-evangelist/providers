@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: CKAN Action API for Open Development Myanmar, a consistent JSON-over-HTTP interface over a catalog of 13,484 datasets. Standard actions include package_search, package_show, package_list, organization
@@ -98,7 +98,7 @@ plans:
 - name: Data Opendevelopmentmyanmar Net Plans Pricing
   plan_count: 1
   slug: data-opendevelopmentmyanmar-net-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Data Opendevelopmentmyanmar Net Rate Limits
@@ -129,7 +129,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -49,11 +49,6 @@ apis:
   description: Address validation and standardization
   name: UPS Address Validation API
   slug: ups-address-validation-api
-- baseURL: https://onlinetools.ups.com/api
-  baseurl_source: declared
-  description: OAuth 2.0 token management
-  name: UPS OAuth API
-  slug: ups-oauth-api
 - baseURL: https://onlinetools.ups.com/api
   baseurl_source: declared
   description: International paperless document management
@@ -84,6 +79,11 @@ apis:
   description: Package tracking and status
   name: UPS Tracking API
   slug: ups-tracking-api
+- baseURL: https://onlinetools.ups.com/api
+  baseurl_source: declared
+  description: OAuth 2.0 token management
+  name: UPS O Auth API
+  slug: ups-oauth-api
 artifact_total: 58
 collections:
 - collection_type: open
@@ -268,7 +268,7 @@ modified: '2026-05-19'
 name: UPS
 nav: Providers
 network: true
-overview: 'UPS publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Address Validation API, OAuth API, Paperless Documents API, and 5 more. Tagged areas include Logistics, Shipping, Fortune 500, and Supply Chain.
+overview: 'UPS publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Address Validation API, Paperless Documents API, Pickup API, and 5 more. Tagged areas include Logistics, Shipping, Fortune 500, and Supply Chain.
 
 
   The UPS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -295,7 +295,7 @@ press:
 - date: '2026-05-25'
   title: How UPS is using AI, from shipper pricing to customs ...
   url: https://www.supplychaindive.com/news/ups-ai-employee-upskilling-network-changes/816412/
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Ups Rate Limits
@@ -354,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

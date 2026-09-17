@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -1064,7 +1064,7 @@ modified: '2026-06-03'
 name: Restaurant Brands International
 nav: Providers
 network: true
-overview: 'Restaurant Brands International publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Loyalty API, Menus API, Orders API, and 1 more. Tagged areas include Fortune 500, Franchising, Hospitality, NYSE QSR, and Quick Service Restaurants.
+overview: 'Restaurant Brands International publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Loyalty API, Menus API, Orders API, and 1 more. Tagged areas include Fortune 500, Franchising, Hospitality, NYSE QSR, and Quick Service Restaurant.
 
 
   The Restaurant Brands International catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1075,7 +1075,7 @@ plans:
 - name: Restaurant Brands Plans Pricing
   plan_count: 1
   slug: restaurant-brands-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Restaurant Brands Rate Limits
@@ -1129,7 +1129,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1150,7 +1150,7 @@ tags:
 - Franchising
 - Hospitality
 - NYSE QSR
-- Quick Service Restaurants
+- Quick Service Restaurant
 - Restaurant
 website: https://www.rbi.com
 ---

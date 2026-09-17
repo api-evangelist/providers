@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,8 +61,8 @@ modified: '2026-04-28'
 name: Java EE
 nav: Providers
 network: true
-overview: Java EE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise, Jakarta EE, Java, Java EE, and Specifications.
-random_paper: 14
+overview: Java EE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise, Jakarta EE, Java, Java EE, and Specification.
+random_paper: 5
 score:
   band: minimal
   composite: 5.7
@@ -83,7 +83,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -101,6 +101,6 @@ tags:
 - Jakarta EE
 - Java
 - Java EE
-- Specifications
+- Specification
 website: https://jakarta.ee/
 ---

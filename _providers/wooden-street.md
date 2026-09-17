@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -96,7 +96,7 @@ modified: '2026-09-04'
 name: Wooden Street
 nav: Providers
 network: true
-overview: 'Wooden Street is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture, Home Furnishing, E-Commerce, and Retail.
+overview: 'Wooden Street is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture, Home Furnishings, E-Commerce, and Retail.
 
 
   Wooden Street''s developer surface includes engineering blog, support, and 7 more developer resources.'
@@ -104,7 +104,7 @@ plans:
 - name: Wooden Street Plans Pricing
   plan_count: 0
   slug: wooden-street-plans-pricing
-random_paper: 16
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Wooden Street Rate Limits
@@ -136,7 +136,7 @@ score:
     - india-south-asia
   previous_composite: 11.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -151,7 +151,7 @@ slug: wooden-street
 tags:
 - Company
 - Furniture
-- Home Furnishing
+- Home Furnishings
 - E-Commerce
 - Retail
 - Direct to Consumer

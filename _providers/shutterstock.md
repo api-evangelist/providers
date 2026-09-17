@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -76,11 +76,6 @@ apis:
   slug: shutterstock-images-api
 - baseURL: https://api.shutterstock.com
   baseurl_source: declared
-  description: The oauth API from Shutterstock — 2 operation(s) for oauth.
-  name: Shutterstock oauth API
-  slug: shutterstock-oauth-api
-- baseURL: https://api.shutterstock.com
-  baseurl_source: declared
   description: The test API from Shutterstock — 2 operation(s) for test.
   name: Shutterstock test API
   slug: shutterstock-test-api
@@ -94,6 +89,11 @@ apis:
   description: The videos API from Shutterstock — 12 operation(s) for videos.
   name: Shutterstock videos API
   slug: shutterstock-videos-api
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The oauth API from Shutterstock — 2 operation(s) for oauth.
+  name: Shutterstock OAUTH API
+  slug: shutterstock-oauth-api
 artifact_total: 38
 collections:
 - collection_type: open
@@ -133,6 +133,10 @@ collections:
   name: Shutterstock API Reference
   slug: open-shutterstock
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://shutterstock.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/capabilities/shutterstock-capability-edges.yml
   title: ''
@@ -198,22 +202,22 @@ jsonld:
   property_count: 20
   slug: shutterstock-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Shutterstock
 nav: Providers
 network: true
-overview: 'Shutterstock publishes 10 APIs on the [APIs.io](https://apis.io/) network, including audio API, computer_vision API, contributors API, and 7 more. Tagged areas include Image, Media, Photos, Stock Images, and Videos.
+overview: 'Shutterstock publishes 10 APIs on the [APIs.io](https://apis.io/) network, including audio API, computer_vision API, contributors API, and 7 more. Tagged areas include Image, Media, Photos, Stock Images, and Video.
 
 
   The Shutterstock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Shutterstock''s developer surface includes authentication and 6 more developer resources.'
+  Shutterstock''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Shutterstock Plans Pricing
   plan_count: 3
   slug: shutterstock-plans-pricing
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Shutterstock Rate Limits
@@ -272,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -297,8 +301,9 @@ tags:
 - Media
 - Photos
 - Stock Images
-- Videos
+- Video
 - Audio
 - Licensing
 - Creative Content
+website: https://shutterstock.com
 ---

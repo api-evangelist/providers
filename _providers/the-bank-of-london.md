@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -31,28 +31,78 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-09-15'
+  score: 39.3
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.bankoflondon.com/
-  baseurl_source: declared
-  description: The Bank of London's public REST banking API (v2/v3 path-versioned), published as OpenAPI 3.0.3 from the Developer Studio. 58 operations across ten tags — Accounts, Customer Management, Virtual Accoun
-  name: Bank of London API
-  slug: bank-of-london-api
 - description: The dedicated PSD2 Third Party Provider (TPP) interface for The Bank of London, implementing the UK Open Banking Read/Write API v3.1 (AIS, PIS, PIIS, plus dynamic client registration and OpenID Connec
   name: Bank of London PSD2 / Open Banking UK API
   slug: bank-of-london-psd2-open-banking-uk-api
-artifact_total: 7
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Accounts API from The Bank of London — 3 operation(s) for accounts.
+  name: The Bank of London Accounts API
+  slug: the-bank-of-london-accounts-api
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Confirmation of Payee API from The Bank of London — 1 operation(s) for confirmation of payee.
+  name: The Bank of London Confirmation of Payee API
+  slug: the-bank-of-london-confirmation-of-payee-api
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Customer Management API from The Bank of London — 4 operation(s) for customer management.
+  name: The Bank of London Customer Management API
+  slug: the-bank-of-london-customer-management-api
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Mandates (Direct Debits) API from The Bank of London — 3 operation(s) for mandates (direct debits).
+  name: The Bank of London Mandates (Direct Debits) API
+  slug: the-bank-of-london-mandates-direct-debits-api
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Payments V2 API from The Bank of London — 9 operation(s) for payments v2.
+  name: The Bank of London Payments V2 API
+  slug: the-bank-of-london-payments-v2-api
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Standing Orders API from The Bank of London — 5 operation(s) for standing orders.
+  name: The Bank of London Standing Orders API
+  slug: the-bank-of-london-standing-orders-api
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Statements API from The Bank of London — 2 operation(s) for statements.
+  name: The Bank of London Statements API
+  slug: the-bank-of-london-statements-api
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Transactions API from The Bank of London — 4 operation(s) for transactions.
+  name: The Bank of London Transactions API
+  slug: the-bank-of-london-transactions-api
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Virtual Account Management API from The Bank of London — 7 operation(s) for virtual account management.
+  name: The Bank of London Virtual Account Management API
+  slug: the-bank-of-london-virtual-account-management-api
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Webhook Management API from The Bank of London — 4 operation(s) for webhook management.
+  name: The Bank of London Webhook Management API
+  slug: the-bank-of-london-webhook-management-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: The Bank Of London Webhooks
   slug: the-bank-of-london-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/overlays/the-bank-of-london-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/the-bank-of-london-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -203,25 +253,25 @@ modified: '2026-08-30'
 name: The Bank of London
 nav: Providers
 network: true
-overview: 'The Bank of London publishes 1 API on the [APIs.io](https://apis.io/) network: Bank of London API. Tagged areas include Company, Banking, Clearing Bank, Payments, and Banking as a Service.
+overview: 'The Bank of London publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Confirmation of Payee API, Customer Management API, and 7 more. Tagged areas include Company, Banking, Clearing Bank, Payments, and Banking as a Service.
 
 
   The The Bank of London catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  The Bank of London''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 24 more developer resources.'
+  The Bank of London''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 25 more developer resources.'
 plans:
 - name: The Bank Of London Plans Pricing
   plan_count: 0
   slug: the-bank-of-london-plans-pricing
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: The Bank Of London Rate Limits
   slug: the-bank-of-london-rate-limits
 score:
-  band: developing
-  composite: 52.2
+  band: strong
+  composite: 54.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -229,11 +279,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 57.6
+    contract_quality: 61.0
     developer_ergonomics: 66.1
     discoverability: 68.5
     operational_transparency: 52.6
@@ -248,6 +298,11 @@ score:
   previous_composite: 52.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -255,9 +310,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 38.0
+    score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

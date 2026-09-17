@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -81,7 +81,7 @@ modified: '2026-05-06'
 name: Aisin
 nav: Providers
 network: true
-overview: 'Aisin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Tier 1 Supplier, Transmissions, Drivetrain, and Toyota Group.
+overview: 'Aisin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Tier 1 Supplier, Transmission, Drivetrain, and Toyota Group.
 
 
   Aisin''s developer surface includes engineering blog and 6 more developer resources.'
@@ -89,7 +89,7 @@ plans:
 - name: Aisin Plans Pricing
   plan_count: 1
   slug: aisin-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Aisin Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -130,7 +130,7 @@ slug: aisin
 tags:
 - Automotive
 - Tier 1 Supplier
-- Transmissions
+- Transmission
 - Drivetrain
 - Toyota Group
 website: https://www.aisin.com/

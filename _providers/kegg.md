@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,6 +108,10 @@ collections:
   name: KEGG REST conv list API
   slug: open-kegg-list-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://kegg.jp
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/kegg/refs/heads/main/agentic-access/kegg-agentic-access.yml
   title: ''
@@ -126,7 +130,7 @@ finops:
   slug: overview
 image: https://www.kegg.jp/favicon.ico
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Kyoto Encyclopedia of Genes and Genomes (KEGG)
 nav: Providers
 network: true
@@ -135,7 +139,7 @@ plans:
 - name: Kegg Rest Api
   plan_count: 4
   slug: kegg-rest-api
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Kegg Rest Api
@@ -173,7 +177,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -197,5 +201,5 @@ tags:
 - Chemical Compounds
 - Enzymes
 - Orthology
-website: https://www.kegg.jp/kegg/rest/
+website: https://kegg.jp
 ---

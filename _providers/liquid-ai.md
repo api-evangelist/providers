@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Hosted inference and customization API for the LFM family. Includes Liquid Playground and LEAP customization/deployment platform. LFM models also distributed on Hugging Face and via OpenRouter for hos
@@ -105,7 +105,7 @@ plans:
 - name: Liquid Ai Plans Pricing
   plan_count: 1
   slug: liquid-ai-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Liquid Ai Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 18.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

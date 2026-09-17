@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Rhone's agent-facing commerce surface, implementing the Universal Commerce Protocol over MCP (JSON-RPC 2.0). Thirteen tools cover catalog search and lookup, product detail, cart create / update / canc
@@ -118,7 +118,7 @@ modified: '2026-08-26'
 name: Rhone Apparel
 nav: Providers
 network: true
-overview: 'Rhone Apparel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Retail, E-Commerce, Direct to Consumer, and Agent Commerce.
+overview: 'Rhone Apparel publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Retail, E-Commerce, Direct to Consumer, and Agentic Commerce.
 
 
   Rhone Apparel''s developer surface includes documentation, engineering blog, support, signup flow, and 10 more developer resources.'
@@ -126,7 +126,7 @@ plans:
 - name: Rhone Apparel Plans Pricing
   plan_count: 0
   slug: rhone-apparel-plans-pricing
-random_paper: 3
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Rhone Apparel Rate Limits
@@ -160,7 +160,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ tags:
 - Retail
 - E-Commerce
 - Direct to Consumer
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - Shopify

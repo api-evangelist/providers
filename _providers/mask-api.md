@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Mask API is a powerful and flexible tool designed to help programmers and companies customize the response format of endpoint APIs, providing control over which fields are returned in API responses.
@@ -71,7 +71,7 @@ plans:
 - name: Mask Api Plans Pricing
   plan_count: 3
   slug: mask-api-plans-pricing
-random_paper: 10
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Mask Api Rate Limits
@@ -96,7 +96,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

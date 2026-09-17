@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.bioaegistherapeutics.com/wp-json
@@ -57,11 +57,6 @@ apis:
   description: Media library — 247 attachments at harvest time.
   name: BioAegis Therapeutics Media API
   slug: bioaegis-therapeutics-media-api
-- baseURL: https://www.bioaegistherapeutics.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for bioaegistherapeutics.com URLs.
-  name: BioAegis Therapeutics Oembed API
-  slug: bioaegis-therapeutics-oembed-api
 - baseURL: https://www.bioaegistherapeutics.com/wp-json
   baseurl_source: declared
   description: Corporate pages — 14 published at harvest time (Home, About Us, Our Science, Our Platform, BTI-203 Clinical Trial, FAQs, Publications, News, Careers, Contact Us, Expanded Access Policy, Code of Ethics
@@ -87,6 +82,11 @@ apis:
   description: Categories and tags. The hierarchical `category` taxonomy holds 10 terms and carries all classification; the flat `post_tag` taxonomy is registered but empty (0 terms).
   name: BioAegis Therapeutics Taxonomy API
   slug: bioaegis-therapeutics-taxonomy-api
+- baseURL: https://www.bioaegistherapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for bioaegistherapeutics.com URLs.
+  name: BioAegis Therapeutics o Embed API
+  slug: bioaegis-therapeutics-o-embed-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -281,14 +281,14 @@ modified: '2026-08-07'
 name: BioAegis Therapeutics
 nav: Providers
 network: true
-overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Comments API, Discovery API, and 7 more. Tagged areas include Company, biopharmaceuticals, Biotechnology, Clinical Trials, and Immunology.
+overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Comments API, Discovery API, and 7 more. Tagged areas include Company, Biopharmaceutical, Biotechnology, Clinical Trials, and Immunology.
 
 
   The BioAegis Therapeutics catalog on APIs.io includes 1 JSON-LD context.
 
 
   BioAegis Therapeutics'' developer surface includes FAQ, product news, support, YouTube channel, authentication, and 28 more developer resources.'
-random_paper: 14
+random_paper: 21
 score:
   band: thin
   composite: 38.1
@@ -323,7 +323,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -342,7 +342,7 @@ security:
 slug: bioaegis-therapeutics
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Biotechnology
 - Clinical Trials
 - Immunology

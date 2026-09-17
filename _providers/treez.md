@@ -36,49 +36,234 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-15'
-api_count: 7
+  scored_at: '2026-09-16'
+api_count: 13
 apis:
-- baseURL: https://api-prod.treez.io/dispensary/v3
-  baseurl_source: declared
-  description: Per-dispensary POS surface exposing the functionality of an individual Treez retail instance - customer records and check-in queue, tickets/orders with a non-committing preview, product and stock read
-  name: Treez Dispensary API v3
-  slug: treez-dispensary-api-v3
-- baseURL: https://api-prod.treez.io/service/catalog
-  baseurl_source: declared
-  description: Organization-level central product catalog spanning every store an organization operates - products, SKUs/variants, brands, attributes and attribute categories, global and custom subcategories with pe
-  name: Treez Catalog Service API
-  slug: treez-catalog-service-api
-- baseURL: https://api-prod.treez.io/service/discount
-  baseurl_source: declared
-  description: Treez central discount service - create, read, update and delete organization-level discounts that apply across the stores in an organization. 6 operations.
-  name: Treez Discount Service API
-  slug: treez-discount-service-api
-- baseURL: https://api-prod.treez.io/service/collection
-  baseurl_source: declared
-  description: Organization-level product collections used to group products for merchandising, with product list retrieval per collection. 5 operations.
-  name: Treez Collection Service API
-  slug: treez-collection-service-api
-- baseURL: https://api-prod.treez.io/service/tag-group
-  baseurl_source: declared
-  description: Organization-level tag groups and the tags within them - read all groups, read one group, create and update tags. 5 operations.
-  name: Treez Tag Service API
-  slug: treez-tag-service-api
-- baseURL: https://api-prod.treez.io/service
-  baseurl_source: declared
-  description: Validates a self-signed JWT and returns the organizations, dispensaries and endpoints the signing certificate has been granted access to. The onboarding self-check for the v3 auth scheme. 2 operations
-  name: Treez JWT Validation Service
-  slug: treez-jwt-validation-service
-- baseURL: https://api.treez.io/v2.0/dispensary
-  baseurl_source: declared
-  description: Legacy v2.0 product surface - list products with rich filters, list products by last-updated, read a product by id, read product fields by category type, create and update products, and upload a produ
-  name: Treez Legacy SellTreez v2.0 Product API
-  slug: treez-legacy-selltreez-v20-product-api
 - description: Live, anonymous, remote MCP endpoint served on Treez's own developer-documentation host. The ReadMe-generated documentation server - initialize returns serverInfo "Treez API Documentation" 3.1.0 and t
   name: Treez Documentation MCP Server
   slug: treez-documentation-mcp-server
-artifact_total: 14
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Attachment API from Treez — 1 operation(s) for attachment.
+  name: Treez Attachment API
+  slug: treez-attachment-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Attribute API from Treez — 1 operation(s) for attribute.
+  name: Treez Attribute API
+  slug: treez-attribute-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Attributecategory API from Treez — 1 operation(s) for attributecategory.
+  name: Treez Attributecategory API
+  slug: treez-attributecategory-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Brand API from Treez — 1 operation(s) for brand.
+  name: Treez Brand API
+  slug: treez-brand-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Collections API from Treez — 2 operation(s) for collections.
+  name: Treez Collections API
+  slug: treez-collections-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Custom Subcategory API from Treez — 1 operation(s) for custom subcategory.
+  name: Treez Custom Subcategory API
+  slug: treez-custom-subcategory-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Customer API from Treez — 14 operation(s) for customer.
+  name: Treez Customer API
+  slug: treez-customer-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Discount API from Treez — 3 operation(s) for discount.
+  name: Treez Discount API
+  slug: treez-discount-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Distributor API from Treez — 3 operation(s) for distributor.
+  name: Treez Distributor API
+  slug: treez-distributor-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Entity Price API from Treez — 1 operation(s) for entity price.
+  name: Treez Entity Price API
+  slug: treez-entity-price-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Group API from Treez — 2 operation(s) for group.
+  name: Treez Group API
+  slug: treez-group-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The ImageDetail API from Treez — 1 operation(s) for imagedetail.
+  name: Treez Image Detail API
+  slug: treez-imagedetail-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Inventory API from Treez — 9 operation(s) for inventory.
+  name: Treez Inventory API
+  slug: treez-inventory-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Invoice API from Treez — 10 operation(s) for invoice.
+  name: Treez Invoice API
+  slug: treez-invoice-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Jwt Validation API from Treez — 1 operation(s) for jwt validation.
+  name: Treez Jwt Validation API
+  slug: treez-jwt-validation-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Location API from Treez — 1 operation(s) for location.
+  name: Treez Location API
+  slug: treez-location-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The New Endpoint API from Treez — 1 operation(s) for new endpoint.
+  name: Treez New Endpoint API
+  slug: treez-new-endpoint-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Organization Entity API from Treez — 1 operation(s) for organization entity.
+  name: Treez Organization Entity API
+  slug: treez-organization-entity-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Packages API from Treez — 1 operation(s) for packages.
+  name: Treez Packages API
+  slug: treez-packages-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Product_API API from Treez — 7 operation(s) for product_api.
+  name: Treez Product API
+  slug: treez-product-api-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Product API from Treez — 9 operation(s) for product.
+  name: Treez Product API
+  slug: treez-product-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Product Category API from Treez — 1 operation(s) for product category.
+  name: Treez Product Category API
+  slug: treez-product-category-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Product Subcategory API from Treez — 1 operation(s) for product subcategory.
+  name: Treez Product Subcategory API
+  slug: treez-product-subcategory-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Resolved Subcategory API from Treez — 1 operation(s) for resolved subcategory.
+  name: Treez Resolved Subcategory API
+  slug: treez-resolved-subcategory-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Search API from Treez — 1 operation(s) for search.
+  name: Treez Search API
+  slug: treez-search-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Sku API from Treez — 1 operation(s) for sku.
+  name: Treez Sku API
+  slug: treez-sku-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Stock API from Treez — 1 operation(s) for stock.
+  name: Treez Stock API
+  slug: treez-stock-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Subcategory Exclusion 1 1 API from Treez — 1 operation(s) for subcategory exclusion 1 1.
+  name: Treez Subcategory Exclusion 1 1 API
+  slug: treez-subcategory-exclusion-1-1-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Subcategory Exclusion 1 API from Treez — 1 operation(s) for subcategory exclusion 1.
+  name: Treez Subcategory Exclusion 1 API
+  slug: treez-subcategory-exclusion-1-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Subcategory Exclusion API from Treez — 1 operation(s) for subcategory exclusion.
+  name: Treez Subcategory Exclusion API
+  slug: treez-subcategory-exclusion-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Tag API from Treez — 2 operation(s) for tag.
+  name: Treez Tag API
+  slug: treez-tag-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Ticket API from Treez — 11 operation(s) for ticket.
+  name: Treez Ticket API
+  slug: treez-ticket-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Tier API from Treez — 1 operation(s) for tier.
+  name: Treez Tier API
+  slug: treez-tier-api
+- baseURL: https://api-prod.treez.io/dispensary/v3
+  baseurl_source: declared
+  description: The Trace API from Treez — 1 operation(s) for trace.
+  name: Treez Trace API
+  slug: treez-trace-api
+- baseURL: https://code.treez.io/mcp
+  baseurl_source: declared
+  description: The Payment Term API from Treez — 1 operation(s) for payment term.
+  name: Treez Payment Term API
+  slug: treez-payment-term-api
+- baseURL: https://code.treez.io/mcp
+  baseurl_source: declared
+  description: The product attribute API from Treez — 1 operation(s) for product attribute.
+  name: Treez product attribute API
+  slug: treez-product-attribute-api
+- baseURL: https://code.treez.io/mcp
+  baseurl_source: declared
+  description: The Product Attributes API from Treez — 1 operation(s) for product attributes.
+  name: Treez Product Attributes API
+  slug: treez-product-attributes-api
+artifact_total: 44
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/overlays/treez-dispensary-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/treez-dispensary-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/overlays/treez-catalog-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/treez-catalog-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/overlays/treez-discount-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/treez-discount-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/overlays/treez-collections-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/treez-collections-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/overlays/treez-tag-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/treez-tag-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/overlays/treez-jwt-check-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/treez-jwt-check-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/overlays/treez-product-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/treez-product-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -232,40 +417,45 @@ modified: '2026-08-30'
 name: Treez
 nav: Providers
 network: true
-overview: 'Treez publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dispensary API v3, Catalog Service API, Discount Service API, and 4 more. Tagged areas include Cannabis, Point-of-Sale, Retail, Dispensary, and Inventory Management.
+overview: 'Treez publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Attachment API, Attribute API, Attributecategory API, and 34 more. Tagged areas include Cannabis, Point-of-Sale, Retail, Dispensary, and Inventory Management.
 
 
-  Treez''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  Treez''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Treez Plans Pricing
   plan_count: 0
   slug: treez-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Treez Rate Limits
   slug: treez-rate-limits
 score:
   band: developing
-  composite: 45.2
+  composite: 46.8
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 45.8
+    contract_quality: 54.4
     developer_ergonomics: 51.8
-    discoverability: 92.6
+    discoverability: 87.0
     operational_transparency: 0.0
   previous_composite: 45.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 37
     mcp: first-party
     skills: derived
   regulatory:
@@ -275,7 +465,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

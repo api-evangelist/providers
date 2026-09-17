@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -67,16 +67,6 @@ apis:
   slug: nextgen-mirth-connect-integration-engine-api
 - baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
   baseurl_source: declared
-  description: https://hl7.org/fhir/R4/allergyintolerance.html
-  name: NextGen Healthcare Allergy Intolerance API
-  slug: nextgen-healthcare-allergyintolerance-api
-- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
-  baseurl_source: declared
-  description: https://hl7.org/fhir/R4/careplan.html
-  name: NextGen Healthcare Care Plan API
-  slug: nextgen-healthcare-careplan-api
-- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
-  baseurl_source: declared
   description: https://hl7.org/fhir/R4/careteam.html
   name: NextGen Healthcare Care Team API
   slug: nextgen-healthcare-careteam-api
@@ -105,11 +95,6 @@ apis:
   description: https://hl7.org/fhir/R4/diagnosticreport.html
   name: NextGen Healthcare Diagnostic Report API
   slug: nextgen-healthcare-diagnosticreport-api
-- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
-  baseurl_source: declared
-  description: https://hl7.org/fhir/R4/documentreference.html
-  name: NextGen Healthcare Document Reference API
-  slug: nextgen-healthcare-documentreference-api
 - baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
   baseurl_source: declared
   description: https://hl7.org/fhir/R4/encounter.html
@@ -142,19 +127,9 @@ apis:
   slug: nextgen-healthcare-location-api
 - baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
   baseurl_source: declared
-  description: https://hl7.org/fhir/R4/medicationadministration.html
-  name: NextGen Healthcare Medication Administration API
-  slug: nextgen-healthcare-medicationadministration-api
-- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
-  baseurl_source: declared
   description: The MedicationDispense API from NextGen Healthcare — 2 operation(s) for medicationdispense.
   name: NextGen Healthcare Medication Dispense API
   slug: nextgen-healthcare-medicationdispense-api
-- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
-  baseurl_source: declared
-  description: https://hl7.org/fhir/R4/medicationrequest.html
-  name: NextGen Healthcare Medication Request API
-  slug: nextgen-healthcare-medicationrequest-api
 - baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
   baseurl_source: declared
   description: https://hl7.org/fhir/R4/observation.html
@@ -182,11 +157,6 @@ apis:
   slug: nextgen-healthcare-practitioner-api
 - baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
   baseurl_source: declared
-  description: https://hl7.org/fhir/R4/practitionerrole.html
-  name: NextGen Healthcare Practitioner Role API
-  slug: nextgen-healthcare-practitionerrole-api
-- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
-  baseurl_source: declared
   description: https://hl7.org/fhir/R4/procedure.html
   name: NextGen Healthcare Procedure API
   slug: nextgen-healthcare-procedure-api
@@ -205,6 +175,36 @@ apis:
   description: https://hl7.org/fhir/R4/specimen.html
   name: NextGen Healthcare Specimen API
   slug: nextgen-healthcare-specimen-api
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/allergyintolerance.html
+  name: NextGen Healthcare Allergy Intolerance API
+  slug: nextgen-healthcare-allergy-intolerance-api
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/careplan.html
+  name: NextGen Healthcare Care plan API
+  slug: nextgen-healthcare-care-plan-api
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/documentreference.html
+  name: NextGen Healthcare Document Reference API
+  slug: nextgen-healthcare-document-reference-api
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/medicationadministration.html
+  name: NextGen Healthcare Medication Administration API
+  slug: nextgen-healthcare-medication-administration-api
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/medicationrequest.html
+  name: NextGen Healthcare Medication Request API
+  slug: nextgen-healthcare-medication-request-api
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/practitionerrole.html
+  name: NextGen Healthcare Practitioner Role API
+  slug: nextgen-healthcare-practitioner-role-api
 artifact_total: 46
 collections:
 - collection_type: open
@@ -451,7 +451,7 @@ modified: '2026-08-14'
 name: NextGen Healthcare
 nav: Providers
 network: true
-overview: 'NextGen Healthcare publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Care Plan API, Care Team API, and 25 more. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
+overview: 'NextGen Healthcare publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Care Team API, CCDA API, Condition API, and 25 more. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
 
 
   The NextGen Healthcare catalog on APIs.io includes 1 JSON-LD context.
@@ -462,7 +462,7 @@ plans:
 - name: Nextgen Healthcare Plans Pricing
   plan_count: 3
   slug: nextgen-healthcare-plans-pricing
-random_paper: 20
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Nextgen Healthcare Rate Limits
@@ -474,7 +474,7 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 70.4
+  composite: 71.7
   coverage:
     artifact_dirs: 27
     catalog_earned: 69.0
@@ -482,11 +482,11 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 86.8
     contract_governance: 18.2
-    contract_quality: 62.8
+    contract_quality: 68.2
     developer_ergonomics: 63.7
     discoverability: 70.4
     operational_transparency: 50.0
@@ -515,7 +515,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

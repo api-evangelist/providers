@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -127,11 +127,6 @@ apis:
   slug: outbrain-interest-targeting-api
 - baseURL: https://api.outbrain.com/amplify/v0.1
   baseurl_source: declared
-  description: The Meta Data section represents the various values (Enumarations) that can be provided as part of the different API end-points
-  name: Outbrain Meta Data API
-  slug: outbrain-meta-data-api
-- baseURL: https://api.outbrain.com/amplify/v0.1
-  baseurl_source: declared
   description: 'Multiple Conversions gives the ability to track any of the actions a user takes after clicking through to your content. You can track everything from top of funnel (page landings and time on site) to '
   name: Outbrain Multiple Conversions API
   slug: outbrain-multiple-conversions-api
@@ -160,6 +155,11 @@ apis:
   description: User represents a single person's access to Outbrain services and to the site my.outbrain.com. A User is permitted to one or more Marketer accounts, each marketer with a role that specifies the user p
   name: Outbrain Users API
   slug: outbrain-users-api
+- baseURL: https://api.outbrain.com/amplify/v0.1
+  baseurl_source: declared
+  description: The Meta Data section represents the various values (Enumarations) that can be provided as part of the different API end-points
+  name: Outbrain Metadata API
+  slug: outbrain-metadata-api
 artifact_total: 85
 collections:
 - collection_type: postman
@@ -241,6 +241,10 @@ collections:
   name: Teads Report API
   slug: open-outbrain-teads-report-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://outbrain.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -655,7 +659,7 @@ jsonld:
   property_count: 8
   slug: outbrain-context
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Outbrain
 nav: Providers
 network: true
@@ -665,12 +669,12 @@ overview: 'Outbrain publishes 22 APIs on the [APIs.io](https://apis.io/) network
   The Outbrain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Outbrain''s developer surface includes authentication, developer portal, documentation, signup flow, training material, engineering blog, support, and 76 more developer resources.'
+  Outbrain''s developer surface includes authentication, developer portal, documentation, signup flow, training material, engineering blog, support, and 77 more developer resources.'
 plans:
 - name: Outbrain Plans Pricing
   plan_count: 4
   slug: outbrain-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 7
   name: Outbrain Rate Limits
@@ -699,21 +703,21 @@ rules:
   slug: outbrain-rules
 score:
   band: exemplar
-  composite: 73.4
+  composite: 69.8
   coverage:
     artifact_dirs: 31
-    catalog_earned: 91.5
+    catalog_earned: 71.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 23.5
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.6
   facets:
     access_clarity: 89.5
     contract_governance: 33.3
-    contract_quality: 70.5
+    contract_quality: 63.5
     developer_ergonomics: 83.9
-    discoverability: 68.5
+    discoverability: 50.0
     operational_transparency: 63.2
   previous_composite: 73.4
   provenance:
@@ -727,7 +731,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -763,5 +767,5 @@ tags:
 - Performance Marketing
 - AdTech
 - Teads
-website: https://developers.teads.com
+website: https://outbrain.com
 ---

@@ -36,14 +36,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
-- baseURL: https://dtcloudapi.d-tools.cloud
-  baseurl_source: declared
-  description: The ChangeOrders API from D-Tools — 2 operation(s) for changeorders.
-  name: D-Tools Change Orders API
-  slug: d-tools-changeorders-api
 - baseURL: https://dtcloudapi.d-tools.cloud
   baseurl_source: declared
   description: The Clients API from D-Tools — 4 operation(s) for clients.
@@ -111,11 +106,6 @@ apis:
   slug: d-tools-publishvendors-api
 - baseURL: https://dtcloudapi.d-tools.cloud
   baseurl_source: declared
-  description: The PurchaseOrders API from D-Tools — 2 operation(s) for purchaseorders.
-  name: D-Tools Purchase Orders API
-  slug: d-tools-purchaseorders-api
-- baseURL: https://dtcloudapi.d-tools.cloud
-  baseurl_source: declared
   description: The Quotes API from D-Tools — 2 operation(s) for quotes.
   name: D-Tools Quotes API
   slug: d-tools-quotes-api
@@ -171,9 +161,19 @@ apis:
   slug: d-tools-subscribetimesheet-api
 - baseURL: https://dtcloudapi.d-tools.cloud
   baseurl_source: declared
-  description: The TimeEntries API from D-Tools — 1 operation(s) for timeentries.
+  description: The Change Orders API from D-Tools — 2 operation(s) for change orders.
+  name: D-Tools Change Orders API
+  slug: d-tools-change-orders-api
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The Purchase Orders API from D-Tools — 2 operation(s) for purchase orders.
+  name: D-Tools Purchase Orders API
+  slug: d-tools-purchase-orders-api
+- baseURL: https://dtcloudapi.d-tools.cloud
+  baseurl_source: declared
+  description: The Time Entries API from D-Tools — 1 operation(s) for time entries.
   name: D-Tools Time Entries API
-  slug: d-tools-timeentries-api
+  slug: d-tools-time-entries-api
 artifact_total: 34
 asyncapis:
 - description: ''
@@ -336,7 +336,7 @@ modified: '2026-08-11'
 name: D-Tools
 nav: Providers
 network: true
-overview: 'D-Tools publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Change Orders API, Clients API, Files API, and 24 more. Tagged areas include av-integration, Systems Integration, Project Management, Estimation, and Quoting.
+overview: 'D-Tools publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Files API, Message API, and 24 more. Tagged areas include av-integration, Systems Integration, Project Management, Estimation, and Quoting.
 
 
   The D-Tools catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -347,14 +347,14 @@ plans:
 - name: D Tools Plans Pricing
   plan_count: 6
   slug: d-tools-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: D Tools Rate Limits
   slug: d-tools-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 53.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 60.0
@@ -362,11 +362,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 51.8
+    contract_quality: 56.0
     developer_ergonomics: 45.8
     discoverability: 81.5
     operational_transparency: 56.6
@@ -381,7 +381,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

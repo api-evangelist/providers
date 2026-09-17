@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ modified: '2026-05-23'
 name: Tavily
 nav: Providers
 network: true
-overview: 'Tavily publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Crawl API, Extract API, Map API, and 2 more. Tagged areas include Search, Web Search, AI Agents, LLMs, and Extract.
+overview: 'Tavily publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Crawl API, Extract API, Map API, and 2 more. Tagged areas include Search, Web Search, AI Agents, LLM, and Extract.
 
 
   Tavily''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, support, and 12 more developer resources.'
@@ -194,7 +194,7 @@ plans:
 - name: Tavily Plans Pricing
   plan_count: 1
   slug: tavily-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Tavily Rate Limits
@@ -227,7 +227,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -251,7 +251,7 @@ tags:
 - Search
 - Web Search
 - AI Agents
-- LLMs
+- LLM
 - Extract
 - Crawl
 - Sitemap

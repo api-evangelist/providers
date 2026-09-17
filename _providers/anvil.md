@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ modified: '2026-06-13'
 name: Anvil
 nav: Providers
 network: true
-overview: 'Anvil publishes 2 APIs on the [APIs.io](https://apis.io/) network: Fill API and Generate Pdf API. Tagged areas include PDF, PDF Filling, PDF Generation, E-Signatures, and Document Automation.
+overview: 'Anvil publishes 2 APIs on the [APIs.io](https://apis.io/) network: Fill API and Generate Pdf API. Tagged areas include PDF, PDF Filling, PDF Generation, E-Signature, and Document Automation.
 
 
   The Anvil catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -224,7 +224,7 @@ plans:
 - name: Anvil Plans Pricing
   plan_count: 4
   slug: anvil-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Anvil Rate Limits
@@ -268,7 +268,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ tags:
 - PDF
 - PDF Filling
 - PDF Generation
-- E-Signatures
+- E-Signature
 - Document Automation
 - OCR
 - Document AI

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -291,7 +291,7 @@ overview: 'Datanomik publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Datanomik''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 26 more developer resources.'
-random_paper: 7
+random_paper: 6
 score:
   band: developing
   composite: 47.1
@@ -339,7 +339,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -366,7 +366,7 @@ tags:
 - Financial Data
 - Bank Connectivity
 - Brazil
-- LatAm
+- Latin America
 - Fintech
 website: https://datanomik.com
 ---

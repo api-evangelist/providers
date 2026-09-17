@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Adverity Management API provides programmatic access to the Adverity platform for managing datastreams, authorizations, fetches, transformations, data mappings, destinations, workspaces, and users
@@ -230,7 +230,7 @@ plans:
 - name: Adverity Plans Pricing
   plan_count: 0
   slug: adverity-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Adverity Rate Limits
@@ -263,7 +263,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

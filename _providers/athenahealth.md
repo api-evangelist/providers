@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
 - description: FHIR API Server for athenaPractice and athenaFlow products, enabling developers to build integrations with athenahealth's on-premise and hybrid deployment products using FHIR R4 standards.
   name: athenaFlex (athenaPractice/athenaFlow) API
   slug: athenaflex-api
-- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
-  baseurl_source: declared
-  description: The AllergyIntolerance API from athenahealth — 1 operation(s) for allergyintolerance.
-  name: athenahealth AllergyIntolerance API
-  slug: athena-health-allergyintolerance-api
 - baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
   baseurl_source: declared
   description: The Appointment API from athenahealth — 1 operation(s) for appointment.
@@ -104,11 +99,6 @@ apis:
   slug: athena-health-diagnosticreport-api
 - baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
   baseurl_source: declared
-  description: The DocumentReference API from athenahealth — 1 operation(s) for documentreference.
-  name: athenahealth DocumentReference API
-  slug: athena-health-documentreference-api
-- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
-  baseurl_source: declared
   description: The Documents API from athenahealth — 1 operation(s) for documents.
   name: athenahealth Documents API
   slug: athena-health-documents-api
@@ -127,11 +117,6 @@ apis:
   description: The Immunization API from athenahealth — 1 operation(s) for immunization.
   name: athenahealth Immunization API
   slug: athena-health-immunization-api
-- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
-  baseurl_source: declared
-  description: The MedicationRequest API from athenahealth — 1 operation(s) for medicationrequest.
-  name: athenahealth MedicationRequest API
-  slug: athena-health-medicationrequest-api
 - baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
   baseurl_source: declared
   description: The Observation API from athenahealth — 1 operation(s) for observation.
@@ -162,6 +147,21 @@ apis:
   description: The Subscription API from athenahealth — 3 operation(s) for subscription.
   name: athenahealth Subscription API
   slug: athena-health-subscription-api
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Allergy Intolerance API from athenahealth — 1 operation(s) for allergy intolerance.
+  name: athenahealth Allergy Intolerance API
+  slug: athenahealth-allergy-intolerance-api
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Document Reference API from athenahealth — 1 operation(s) for document reference.
+  name: athenahealth Document Reference API
+  slug: athenahealth-document-reference-api
+- baseURL: https://api.platform.athenahealth.com/v1/{practiceid}
+  baseurl_source: declared
+  description: The Medication Request API from athenahealth — 1 operation(s) for medication request.
+  name: athenahealth Medication Request API
+  slug: athenahealth-medication-request-api
 artifact_total: 71
 asyncapis:
 - description: Event-driven notifications from the athenahealth Event Subscription Platform. Delivered as FHIR Bundle notifications (R5 Backport) over rest-hook channel with id-only payloads. Subscriber webhooks mus
@@ -247,6 +247,21 @@ collections:
   name: athenahealth athenaOne REST AllergyIntolerance Subscription API
   slug: open-athenahealth-subscription-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/overlays/athenahealth-allergyintolerance-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/athenahealth-allergyintolerance-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/overlays/athenahealth-documentreference-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/athenahealth-documentreference-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/overlays/athenahealth-medicationrequest-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/athenahealth-medicationrequest-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/capabilities/athenahealth-capability-edges.yml
   title: ''
@@ -645,18 +660,18 @@ modified: '2026-08-14'
 name: athenahealth
 nav: Providers
 network: true
-overview: 'athenahealth publishes 22 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, Appointment API, Appointments API, and 19 more. Tagged areas include Healthcare, EHR, Electronic Health Records, Practice Management, and Revenue Cycle Management.
+overview: 'athenahealth publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Appointment API, Appointments API, Bulk Data API, and 19 more. Tagged areas include Healthcare, EHR, Electronic Health Records, Practice Management, and Revenue Cycle Management.
 
 
   The athenahealth catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  athenahealth''s developer surface includes documentation, engineering blog, pricing, authentication, developer portal, sandbox, support, and 72 more developer resources.'
+  athenahealth''s developer surface includes documentation, engineering blog, pricing, authentication, developer portal, sandbox, support, and 75 more developer resources.'
 plans:
 - name: Athenahealth Plans Pricing
   plan_count: 3
   slug: athenahealth-plans-pricing
-random_paper: 16
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Athenahealth Rate Limits
@@ -735,7 +750,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Public REST API for Arga's testing infrastructure — provision digital twins, deploy branches/PRs into sandboxes, run browser-agent validations, save and replay tests, manage scenarios (seed data), and
@@ -165,11 +165,11 @@ modified: '2026-07-18'
 name: Arga Labs
 nav: Providers
 network: true
-overview: 'Arga Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API Testing, Sandboxes, Digital Twins, and AI Agents.
+overview: 'Arga Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API Testing, Sandbox, Digital Twin, and AI Agents.
 
 
   Arga Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 18 more developer resources.'
-random_paper: 13
+random_paper: 16
 score:
   band: emerging
   composite: 17.3
@@ -193,7 +193,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -213,8 +213,8 @@ slug: arga-labs
 tags:
 - Company
 - API Testing
-- Sandboxes
-- Digital Twins
+- Sandbox
+- Digital Twin
 - AI Agents
 - Developer Tools
 - Testing Infrastructure

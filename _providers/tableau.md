@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -233,6 +233,10 @@ collections:
   name: Tableau REST Authentication Workbooks API
   slug: open-tableau-workbooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tableau.com
 - group: other
   title: ''
   type: ParentCompany
@@ -1278,7 +1282,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: Tableau
 nav: Providers
 network: true
@@ -1288,12 +1292,12 @@ overview: 'Tableau publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Tableau catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Tableau''s developer surface includes authentication, engineering blog, support, release notes, signup flow, documentation, Stack Overflow tag, and 19 more developer resources.'
+  Tableau''s developer surface includes authentication, engineering blog, support, release notes, signup flow, documentation, Stack Overflow tag, and 20 more developer resources.'
 plans:
 - name: Tableau Plans Pricing
   plan_count: 4
   slug: tableau-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Tableau Rate Limits
@@ -1322,21 +1326,21 @@ rules:
   slug: tableau-spectral-rules
 score:
   band: developing
-  composite: 50.4
+  composite: 47.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 54.5
+    catalog_earned: 35.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    catalog_gap: 79.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.3
   facets:
     access_clarity: 43.4
     contract_governance: 13.6
-    contract_quality: 74.3
+    contract_quality: 70.7
     developer_ergonomics: 65.5
-    discoverability: 57.4
+    discoverability: 33.3
     operational_transparency: 26.3
   previous_composite: 50.4
   provenance:
@@ -1348,7 +1352,7 @@ score:
       total: 13
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1380,5 +1384,5 @@ use_cases:
   name: Self-Service Analytics
 - description: Programmatically migrate workbooks, data sources, and configurations between Tableau environments.
   name: Content Migration
-website: https://www.tableau.com/developer
+website: https://tableau.com
 ---

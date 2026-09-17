@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
 - baseURL: https://api.open-meteo.com
   baseurl_source: declared
   description: The Elevation API API from Open-Meteo — 1 operation(s) for elevation api.
-  name: Open-Meteo Elevation API API
+  name: Open-Meteo Elevation API
   slug: open-meteo-elevation-api-api
 - baseURL: https://api.open-meteo.com
   baseurl_source: declared
@@ -214,11 +214,11 @@ jsonld:
   property_count: 59
   slug: open-meteo-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Open-Meteo
 nav: Providers
 network: true
-overview: 'Open-Meteo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Air Quality APIs API, Climate Change APIs API, Elevation API API, and 6 more. Tagged areas include Weather, Forecast, Historical Weather, Air Quality, and Marine.
+overview: 'Open-Meteo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Air Quality APIs API, Climate Change APIs API, Elevation API, and 6 more. Tagged areas include Weather, Forecast, Historical Weather, Air Quality, and Marine.
 
 
   The Open-Meteo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -229,7 +229,7 @@ plans:
 - name: Open Meteo Plans Pricing
   plan_count: 4
   slug: open-meteo-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Open Meteo Rate Limits
@@ -247,7 +247,7 @@ rules:
   slug: open-meteo-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.8
+  composite: 41.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 81.3
@@ -255,11 +255,11 @@ score:
     catalog_gap: 33.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 55.8
+    contract_quality: 53.1
     developer_ergonomics: 11.9
     discoverability: 74.1
     operational_transparency: 52.6
@@ -267,12 +267,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

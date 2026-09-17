@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -74,9 +74,9 @@ apis:
   slug: cloudfront-originaccesscontrol-api
 - baseURL: https://cloudfront.amazonaws.com
   baseurl_source: declared
-  description: The PublicKeys API from CloudFront — 1 operation(s) for publickeys.
-  name: CloudFront PublicKeys API
-  slug: cloudfront-publickeys-api
+  description: The Public Keys API from CloudFront — 1 operation(s) for public keys.
+  name: CloudFront Public Keys API
+  slug: cloudfront-public-keys-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -104,6 +104,11 @@ collections:
   name: Amazon CloudFront API
   slug: open-cloudfront
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/overlays/cloudfront-publickeys-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cloudfront-publickeys-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/capabilities/cloudfront-capability-edges.yml
   title: ''
@@ -303,19 +308,19 @@ mcp_servers:
 - description: ''
   name: CloudFront MCP Server
   slug: cloudfront-mcp-server
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: CloudFront
 nav: Providers
 network: true
 overview: 'CloudFront publishes 6 APIs on the [APIs.io](https://apis.io/) network, including CachePolicies API, Distributions API, Functions API, and 3 more. Tagged areas include Alias, CDN, Caching, Content Delivery, and Edge Computing.
 
 
-  CloudFront''s developer surface includes authentication, documentation, pricing, changelog, CLI, API reference, getting-started guide, and 35 more developer resources.'
+  CloudFront''s developer surface includes authentication, documentation, pricing, changelog, CLI, API reference, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Cloudfront Plans Pricing
   plan_count: 5
   slug: cloudfront-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 12
   name: Cloudfront Rate Limits
@@ -350,7 +355,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -381,6 +386,6 @@ tags:
 - Content Delivery
 - Edge Computing
 - Lambda@Edge
-- Network
+- Networks
 website: https://aws.amazon.com/cloudfront/
 ---

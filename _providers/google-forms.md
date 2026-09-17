@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://forms.googleapis.com/v1
   baseurl_source: declared
   description: Operations for creating, reading, and updating forms
-  name: Google Forms Forms API
+  name: Google Forms API
   slug: google-forms-forms-api
 - baseURL: https://forms.googleapis.com/v1
   baseurl_source: declared
@@ -365,11 +365,11 @@ jsonld:
   property_count: 17
   slug: google-forms-api-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Google Forms
 nav: Providers
 network: true
-overview: 'Google Forms publishes 3 APIs on the [APIs.io](https://apis.io/) network: Forms API, Responses API, and Watches API. Tagged areas include Data Collection, Forms, Google, Google Workspace, and Questionnaires.
+overview: 'Google Forms publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Watches API, and 1 more. Tagged areas include Data Collection, Forms, Google, Google Workspace, and Questionnaire.
 
 
   The Google Forms catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -380,7 +380,7 @@ plans:
 - name: Google Forms Plans Pricing
   plan_count: 3
   slug: google-forms-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Google Forms Rate Limits
@@ -441,7 +441,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -466,7 +466,7 @@ tags:
 - Forms
 - Google
 - Google Workspace
-- Questionnaires
+- Questionnaire
 - Responses
 - Surveys
 use_cases:

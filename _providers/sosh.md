@@ -19,7 +19,7 @@ name: Sosh
 nav: Providers
 network: true
 overview: Sosh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Social Discovery, Local Activities, and Consumer Mobile App.
-random_paper: 4
+random_paper: 5
 slug: sosh
 tags:
 - Company

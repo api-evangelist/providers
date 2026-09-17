@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 6
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 54
   slug: hashicorp-vault-agentic-access
   summary_line: 54 operations · 39 acting · 6 human-in-the-loop
-api_count: 1
+api_count: 8
 apis:
 - baseURL: https://127.0.0.1:8200/v1
   baseurl_source: declared
@@ -94,42 +94,27 @@ apis:
 - description: The complete Vault HTTP API gives full access to all Vault operations via REST. Includes authentication method APIs (AppRole, LDAP, JWT, Kubernetes, AWS, Azure), secrets engine APIs (Database, AWS, PK
   name: Vault HTTP API
   slug: vault-api
-- baseURL: https://vault.example.com/v1
-  baseurl_source: declared
-  description: Enable, disable, list, and configure authentication methods.
-  name: HashiCorp Vault Auth Methods API
-  slug: vault-auth-methods-api
-- baseURL: https://vault.example.com/v1
-  baseurl_source: declared
-  description: Check Vault health and initialization status.
-  name: HashiCorp Vault Health API
-  slug: vault-health-api
-- baseURL: https://vault.example.com/v1
+- baseURL: https://127.0.0.1:8200/v1
   baseurl_source: declared
   description: Create, read, update, delete, and list ACL policies.
   name: HashiCorp Vault Policies API
-  slug: vault-policies-api
-- baseURL: https://vault.example.com/v1
+  slug: hashicorp-vault-policies-api
+- baseURL: https://127.0.0.1:8200/v1
   baseurl_source: declared
   description: Configure KV v2 engine settings such as max versions and CAS required.
   name: HashiCorp Vault Secrets Config API
-  slug: vault-secrets-config-api
-- baseURL: https://vault.example.com/v1
+  slug: hashicorp-vault-secrets-config-api
+- baseURL: https://127.0.0.1:8200/v1
   baseurl_source: declared
   description: Read, write, patch, and delete secret data versions in the KV v2 engine.
   name: HashiCorp Vault Secrets Data API
-  slug: vault-secrets-data-api
-- baseURL: https://vault.example.com/v1
-  baseurl_source: declared
-  description: Mount, unmount, list, and configure secrets engines.
-  name: HashiCorp Vault Secrets Engines API
-  slug: vault-secrets-engines-api
-- baseURL: https://vault.example.com/v1
+  slug: hashicorp-vault-secrets-data-api
+- baseURL: https://127.0.0.1:8200/v1
   baseurl_source: declared
   description: Manage metadata and version history for KV v2 secrets.
   name: HashiCorp Vault Secrets Metadata API
-  slug: vault-secrets-metadata-api
-artifact_total: 43
+  slug: hashicorp-vault-secrets-metadata-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -273,7 +258,7 @@ modified: '2026-05-19'
 name: HashiCorp Vault
 nav: Providers
 network: true
-overview: 'HashiCorp Vault publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Auth - AppRole API, Auth - Token API, Auth - Userpass API, and 13 more. Tagged areas include DevOps, Encryption, Infrastructure, Secrets Management, and Security.
+overview: 'HashiCorp Vault publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auth - AppRole API, Auth - Token API, Auth - Userpass API, and 10 more. Tagged areas include DevOps, Encryption, Infrastructure, Secrets Management, and Security.
 
 
   The HashiCorp Vault catalog on APIs.io includes 2 JSON-LD contexts.
@@ -284,39 +269,39 @@ plans:
 - name: Hashicorp Vault Plans Pricing
   plan_count: 3
   slug: hashicorp-vault-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Hashicorp Vault Rate Limits
   slug: hashicorp-vault-rate-limits
 score:
   band: developing
-  composite: 42.3
+  composite: 44.5
   coverage:
     artifact_dirs: 14
-    catalog_earned: 67.0
+    catalog_earned: 70.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    catalog_gap: 45.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 51.3
+    contract_quality: 58.0
     developer_ergonomics: 46.4
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 42.1
   previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 7
-      marker_coverage: 43.8
-      total: 16
+      derived: 4
+      marker_coverage: 30.8
+      total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

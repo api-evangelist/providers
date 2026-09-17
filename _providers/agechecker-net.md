@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -87,6 +87,10 @@ collections:
   name: AgeChecker.Net Age Verification Sessions Webhooks API
   slug: open-agechecker-net-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://agechecker.net
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -227,7 +231,7 @@ jsonld:
   property_count: 25
   slug: agechecker-net-age-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: AgeChecker.Net
 nav: Providers
 network: true
@@ -237,7 +241,7 @@ overview: 'AgeChecker.Net publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   The AgeChecker.Net catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AgeChecker.Net''s developer surface includes authentication, developer portal, getting-started guide, code examples, and 15 more developer resources.'
+  AgeChecker.Net''s developer surface includes authentication, developer portal, getting-started guide, code examples, and 16 more developer resources.'
 plans:
 - name: Agechecker Net Plans Pricing
   plan_count: 3
@@ -296,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

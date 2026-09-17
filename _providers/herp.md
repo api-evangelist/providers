@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,11 +77,11 @@ modified: '2026-07-19'
 name: HERP
 nav: Providers
 network: true
-overview: 'HERP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, HR Tech, Recruiting, and Applicant Tracking.
+overview: 'HERP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Human Resources, Recruiting, and Applicant Tracking.
 
 
   HERP''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 11
+random_paper: 13
 score:
   band: minimal
   composite: 10.8
@@ -109,7 +109,7 @@ score:
     - japan-korea
   previous_composite: 10.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -125,11 +125,10 @@ slug: herp
 tags:
 - Company
 - Enterprise
-- HR Tech
+- Human Resources
 - Recruiting
 - Applicant Tracking
 - ATS
-- Human Resources
 - Software-as-a-Service
 - Japan
 website: https://herp.co.jp/

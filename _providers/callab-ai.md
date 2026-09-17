@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Callab AI's REST API, documented at docs.callab.ai/api-reference, is organized around REST principles with predictable resource-oriented URLs, standard HTTP verbs, and standard HTTP response codes for
@@ -128,7 +128,7 @@ overview: 'Callab AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Callab AI''s developer surface includes documentation, API reference, engineering blog, signup flow, support, and 12 more developer resources.'
-random_paper: 14
+random_paper: 18
 score:
   band: emerging
   composite: 14.9
@@ -152,7 +152,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,11 +65,11 @@ modified: '2026-07-21'
 name: Swish
 nav: Providers
 network: true
-overview: 'Swish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food Delivery, Quick Commerce, and Cloud Kitchens.
+overview: 'Swish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food Delivery, Quick Commerce, and Cloud Kitchen.
 
 
   Swish''s developer surface includes support and 4 more developer resources.'
-random_paper: 12
+random_paper: 8
 score:
   band: minimal
   composite: 10.2
@@ -97,7 +97,7 @@ score:
     - india-south-asia
   previous_composite: 10.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +115,7 @@ tags:
 - Consumer
 - Food Delivery
 - Quick Commerce
-- Cloud Kitchens
+- Cloud Kitchen
 - Last-Mile Logistics
 - Bengaluru
 - India

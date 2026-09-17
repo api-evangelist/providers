@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,9 +47,9 @@ api_count: 1
 apis:
 - baseURL: https://api.chargetrip.io/graphql
   baseurl_source: declared
-  description: The GraphQL API from Chargetrip — 1 operation(s) for graphql.
-  name: Chargetrip GraphQL API
-  slug: chargetrip-graphql-api
+  description: The Graph QL API from Chargetrip — 1 operation(s) for graph ql.
+  name: Chargetrip Graph QL API
+  slug: chargetrip-graph-ql-api
 artifact_total: 14
 asyncapis:
 - description: AsyncAPI 2.6 description of Chargetrip's **real-time route updates** surface. Unlike the synchronous query/mutation surface (HTTP POST to `https://api.chargetrip.io/graphql`, modeled in `openapi/charg
@@ -137,7 +137,7 @@ modified: '2026-06-21'
 name: Chargetrip
 nav: Providers
 network: true
-overview: 'Chargetrip publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include EV, Routing, Charging Stations, GraphQL, and Mobility.
+overview: 'Chargetrip publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include EV, Routing, Charging Stations, GraphQL, and Mobility.
 
 
   The Chargetrip catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -148,7 +148,7 @@ plans:
 - name: Chargetrip Plans Pricing
   plan_count: 3
   slug: chargetrip-plans-pricing
-random_paper: 15
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Chargetrip Rate Limits
@@ -192,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

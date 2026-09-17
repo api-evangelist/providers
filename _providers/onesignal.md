@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 75.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.onesignal.com
@@ -364,7 +364,7 @@ plans:
 - name: Onesignal Plans Pricing
   plan_count: 4
   slug: onesignal-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Onesignal Rate Limits
@@ -404,7 +404,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

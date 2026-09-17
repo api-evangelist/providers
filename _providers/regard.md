@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -109,7 +109,7 @@ plans:
 - name: Regard Plans Pricing
   plan_count: 0
   slug: regard-plans-pricing
-random_paper: 20
+random_paper: 13
 score:
   band: emerging
   composite: 14.6
@@ -138,7 +138,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

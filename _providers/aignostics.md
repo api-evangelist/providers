@@ -19,19 +19,19 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.3
-  scored_at: '2026-09-15'
+  score: 46.0
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://platform.aignostics.com/api/v1
   baseurl_source: declared
-  description: The public REST API of the Aignostics Platform. Lists the computational pathology applications and application versions an organization is entitled to, submits whole slide images as processing runs, t
-  name: Aignostics Platform API
-  slug: aignostics-platform-api
+  description: The Public API from Aignostics — 21 operation(s) for public.
+  name: Aignostics Public API
+  slug: aignostics-public-api
 artifact_total: 9
 asyncapis:
 - description: ''
@@ -208,7 +208,7 @@ modified: '2026-09-14'
 name: Aignostics
 nav: Providers
 network: true
-overview: 'Aignostics publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Health, and Healthcare.
+overview: 'Aignostics publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Health, and Healthcare.
 
 
   The Aignostics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -219,7 +219,7 @@ plans:
 - name: Aignostics Plans Pricing
   plan_count: 0
   slug: aignostics-plans-pricing
-random_paper: 5
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Aignostics Rate Limits
@@ -258,6 +258,11 @@ score:
   previous_composite: 56.7
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: first-party
     skills: derived
   regulatory:
@@ -267,7 +272,7 @@ score:
     regime_id: health
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

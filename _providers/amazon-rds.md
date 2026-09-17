@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,6 +138,10 @@ collections:
   name: Amazon RDS API
   slug: open-amazon-rds
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/agentic-access/amazon-rds-agentic-access.yml
   title: ''
@@ -637,22 +641,22 @@ jsonld:
   property_count: 3
   slug: amazon-rds-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon RDS
 nav: Providers
 network: true
-overview: 'Amazon RDS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including DB Clusters API, DB Engine Versions API, DB Instances API, and 1 more. Tagged areas include Cloud Databases, Database Service, Database-as-a-Service, Managed Databases, and Relational Databases.
+overview: 'Amazon RDS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including DB Clusters API, DB Engine Versions API, DB Instances API, and 1 more. Tagged areas include Cloud Databases, Database Service, Database-as-a-Service, Managed Database, and Relational Databases.
 
 
   The Amazon RDS catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon RDS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, YouTube channel, and 71 more developer resources.'
+  Amazon RDS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, signup flow, YouTube channel, and 72 more developer resources.'
 plans:
 - name: Amazon Rds Plans Pricing
   plan_count: 3
   slug: amazon-rds-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Rds Rate Limits
@@ -706,7 +710,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -735,7 +739,7 @@ tags:
 - Cloud Databases
 - Database Service
 - Database-as-a-Service
-- Managed Databases
+- Managed Database
 - Relational Databases
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.zego.com
@@ -150,7 +150,7 @@ overview: 'Zego publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zego''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 17
+random_paper: 19
 score:
   band: thin
   composite: 27.9
@@ -185,7 +185,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

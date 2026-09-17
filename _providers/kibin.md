@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ overview: 'Kibin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kibin''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 0
+random_paper: 19
 score:
   band: emerging
   composite: 13.0
@@ -116,7 +116,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

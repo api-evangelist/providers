@@ -25,22 +25,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.8
-  scored_at: '2026-09-15'
+  score: 26.7
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://content.osu.edu/v2
-  baseurl_source: declared
-  description: 'Public, unauthenticated, read-only JSON API operated by Ohio State''s Office of Technology and Digital Innovation. Serves academic term lists, full-text class search against Student Information System '
-  name: Ohio State Mobile Content API v2
-  slug: mobile-content-api
 - description: CKAN 2.10.10 open data portal operated by Ohio State's Center for Human Resource Research. The full CKAN Action API is public for read (status_show, package_list, package_show, datastore search) and c
   name: CHRR Open Data Portal (CKAN)
   slug: chrr-ckan
@@ -71,7 +66,17 @@ apis:
 - description: The Ohio State University is registered in the Research Organization Registry as https://ror.org/00rs6vg23, the identifier DataCite's provider record for Ohio State points at. Separate ROR records exi
   name: ROR Registration
   slug: ror
-artifact_total: 23
+- baseURL: https://content.osu.edu/v2
+  baseurl_source: declared
+  description: Course and section search against the Student Information System term data.
+  name: Ohio State University Classes API
+  slug: ohio-state-university-classes-api
+- baseURL: https://content.osu.edu/v2
+  baseurl_source: declared
+  description: Public campus events feed.
+  name: Ohio State University Events API
+  slug: ohio-state-university-events-api
+artifact_total: 24
 common:
 - group: company
   title: ''
@@ -193,7 +198,7 @@ modified: '2026-09-01'
 name: Ohio State University
 nav: Providers
 network: true
-overview: 'Ohio State University publishes 1 API on the [APIs.io](https://apis.io/) network: Ohio State Mobile Content API v2. Tagged areas include University, Higher Education, Education, United States, and Public Research University.
+overview: 'Ohio State University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Classes API and Events API. Tagged areas include University, Higher Education, Education, United States, and Public Research University.
 
 
   The Ohio State University catalog on APIs.io includes 1 JSON-LD context.
@@ -204,7 +209,7 @@ plans:
 - name: Ohio State University Plans Pricing
   plan_count: 2
   slug: ohio-state-university-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Ohio State University Rate Limits
@@ -239,9 +244,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
@@ -249,7 +254,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

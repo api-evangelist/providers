@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 304
   human_in_the_loop: 0
@@ -77,11 +77,6 @@ apis:
   description: The connections API from Vessel — 5 operation(s) for connections.
   name: Vessel Connections API
   slug: vessel-connections-api
-- baseURL: https://api.vessel.dev
-  baseurl_source: declared
-  description: The contactCustomFields API from Vessel — 1 operation(s) for contactcustomfields.
-  name: Vessel Contact Custom Fields API
-  slug: vessel-contactcustomfields-api
 - baseURL: https://api.vessel.dev
   baseurl_source: declared
   description: The contacts API from Vessel — 5 operation(s) for contacts.
@@ -232,6 +227,11 @@ apis:
   description: The webhooks API from Vessel — 5 operation(s) for webhooks.
   name: Vessel Webhooks API
   slug: vessel-webhooks-api
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The Contact Custom Fields API from Vessel — 1 operation(s) for contact custom fields.
+  name: Vessel Contact Custom Fields API
+  slug: vessel-contact-custom-fields-api
 artifact_total: 55
 asyncapis:
 - description: ''
@@ -516,7 +516,7 @@ plans:
 - name: Vessel Plans Pricing
   plan_count: 3
   slug: vessel-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Vessel Rate Limits
@@ -557,7 +557,7 @@ score:
   facets:
     access_clarity: 78.9
     contract_governance: 87.9
-    contract_quality: 70.2
+    contract_quality: 70.3
     developer_ergonomics: 73.2
     discoverability: 68.5
     operational_transparency: 50.0
@@ -576,7 +576,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

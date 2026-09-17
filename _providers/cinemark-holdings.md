@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -168,7 +168,7 @@ press:
 - date: '2026-05-25'
   title: Cinemark Announces Greater Movie Theater Accessibility
   url: https://afb.org/blog/entry/cinemark-announces-greater-movie-theater-accessibility
-random_paper: 0
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Cinemark Holdings Rate Limits
@@ -193,7 +193,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://data-pricing-api.lukka.tech
   baseurl_source: declared
   description: The Analytics - Analytics API API from Lukka — 3 operation(s) for analytics - analytics api.
-  name: Lukka Analytics - Analytics API API
+  name: Lukka Analytics - Analytics API
   slug: lukka-analytics-analytics-api-api
 - baseURL: https://data-pricing-api.lukka.tech
   baseurl_source: declared
@@ -587,18 +587,18 @@ mcp_servers:
 - description: ''
   name: Lukka MCP Server
   slug: lukka-mcp-server
-modified: '2026-08-04'
+modified: '2026-09-16'
 name: Lukka
 nav: Providers
 network: true
-overview: 'Lukka publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Market Data Streaming API, Analytics - Analytics API API, Analytics - Derived Data API, and 18 more. Tagged areas include Crypto, Digital Assets, Market Data, Reference Data, and Pricing.
+overview: 'Lukka publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Market Data Streaming API, Analytics - Analytics API, Analytics - Derived Data API, and 18 more. Tagged areas include Crypto, Digital Assets, Market Data, Reference Data, and Pricing.
 
 
   The Lukka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Lukka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 32 more developer resources.'
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Lukka Rate Limits
@@ -644,7 +644,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

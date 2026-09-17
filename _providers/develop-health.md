@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.develophealth.io
   baseurl_source: declared
   description: The public-api API from Develop Health — 15 operation(s) for public-api.
-  name: Develop Health public-api API
+  name: Develop Health public-api
   slug: develop-health-public-api-api
 artifact_total: 8
 asyncapis:
@@ -179,18 +179,18 @@ created: '2026-07-17'
 description: Develop Health is a San Francisco-based healthcare technology company that automates medication access for prescribers using generative AI. Its platform runs real-time medication benefit verification, clinical qualification, and end-to-end prior authorization (generating and submitting PA packages, then following up and returning structured status) so care teams spend less time on payer paperwork. The Develop Health Public API exposes these capabilities to EHRs and partners over an HTTPS JSON REST interface secured with Frontegg JWT bearer tokens, with asynchronous results delivered by signed webhooks. It integrates with EHRs such as athenahealth and Canvas. Surfaced as a portfolio company of Wing Venture Capital and enriched into the API Evangelist network.
 image: https://framerusercontent.com/images/7uigtcymLe3mrSSSwT0H9pgISWc.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Develop Health
 nav: Providers
 network: true
-overview: 'Develop Health publishes 1 API on the [APIs.io](https://apis.io/) network: public-api API. Tagged areas include Company, Healthcare, Prior Authorization, Benefit Verification, and Medication Access.
+overview: 'Develop Health publishes 1 API on the [APIs.io](https://apis.io/) network: public-api. Tagged areas include Company, Healthcare, Prior Authorization, Benefit Verification, and Medication Access.
 
 
   The Develop Health catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
   Develop Health''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 17 more developer resources.'
-random_paper: 19
+random_paper: 18
 score:
   band: developing
   composite: 44.8
@@ -232,7 +232,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

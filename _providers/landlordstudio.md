@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Landlord Studio provides a property management platform with capabilities for managing rental properties, tracking income and expenses, generating financial reports, collecting rent online, and managi
@@ -41,6 +41,10 @@ apis:
   slug: landlordstudio-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://landlordstudio.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/landlordstudio/refs/heads/main/security/landlordstudio-domain-security.yml
   title: ''
@@ -82,19 +86,19 @@ finops:
   slug: finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/landlordstudio.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Landlord Studio
 nav: Providers
 network: true
 overview: 'Landlord Studio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Property Management, Real-Estate, Rental Income, Expense Tracking, and Tenant Screening.
 
 
-  Landlord Studio''s developer surface includes pricing, engineering blog, and 6 more developer resources.'
+  Landlord Studio''s developer surface includes pricing, engineering blog, and 7 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -119,7 +123,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -143,4 +147,5 @@ tags:
 - Accounting
 - Making Tax Digital
 - MTD
+website: https://landlordstudio.com
 ---

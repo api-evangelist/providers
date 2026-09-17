@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Core REST API for Service Cloud operations: sObject CRUD over Case, CaseComment, EmailMessage, Knowledge articles and every other standard and custom object, plus SOQL query, SOSL search and composite'
@@ -79,7 +79,28 @@ apis:
   description: The versions API from Salesforce Service Cloud APIs — 1 operation(s) for versions.
   name: Salesforce Service Cloud APIs Versions API
   slug: service-cloud-versions-api
-artifact_total: 22
+- description: SOAP-based API for enterprise integration and complex service cloud operations.
+  name: Salesforce Service Cloud SOAP API
+  slug: salesforce-service-cloud-soap-api
+- description: API for managing knowledge base articles and content.
+  name: Knowledge API
+  slug: knowledge-api
+- description: API for building and managing AI-powered chatbots for customer service.
+  name: Einstein Bot API
+  slug: einstein-bot-api
+- description: API for managing omni-channel routing, agent presence, and work distribution across multiple service channels including chat, messaging, email, and voice.
+  name: Omni-Channel API
+  slug: omni-channel-api
+- description: REST API for integrating telephony systems with Service Cloud Voice, enabling programmatic management of voice calls, call recording, and real-time transcription within the service console.
+  name: Service Cloud Voice Telephony Integration API
+  slug: service-cloud-voice-telephony-integration-api
+- description: Developer API for connecting third-party telephony systems to Service Cloud Voice, including the Connector API for passing information between contact center platforms and Salesforce.
+  name: Service Cloud Voice for Partner Telephony API
+  slug: service-cloud-voice-for-partner-telephony-api
+- description: REST API for building and deploying AI-powered service agents using Agentforce, enabling headless agent interactions, session management, and seamless escalation from AI agents to human service repres
+  name: Agentforce Service Agent API
+  slug: agentforce-service-agent-api
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Service Cloud Event Surface
@@ -327,7 +348,7 @@ mcp_servers:
 - description: ''
   name: Salesforce Hosted MCP Servers + Salesforce DX MCP Server
   slug: salesforce-hosted-mcp-servers-salesforce-dx-mcp-server
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Salesforce Service Cloud APIs
 nav: Providers
 network: true
@@ -342,7 +363,7 @@ plans:
 - name: Service Cloud Plans Pricing
   plan_count: 5
   slug: service-cloud-plans-pricing
-random_paper: 10
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Service Cloud Rate Limits
@@ -381,7 +402,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

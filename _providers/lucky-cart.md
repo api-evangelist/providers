@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: 'The core Lucky Cart API. POST /cart/ticket submits a validated shopping cart — cart identifier, shopper identifier, gross and net amounts, and product lines — and Lucky Cart determines whether a game '
@@ -164,7 +164,7 @@ plans:
 - name: Lucky Cart Plans Pricing
   plan_count: 0
   slug: lucky-cart-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Lucky Cart Rate Limits
@@ -199,7 +199,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

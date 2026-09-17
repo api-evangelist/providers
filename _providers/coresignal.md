@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 8
+- acting_count: 3
   human_in_the_loop: 0
   name: Coresignal Agentic Access
-  operation_count: 11
+  operation_count: 4
   slug: coresignal-agentic-access
-  summary_line: 11 operations · 8 acting
+  summary_line: 4 operations · 3 acting
 api_count: 3
 apis:
 - description: 'The Agentic Search API enables natural language search across Coresignal''s company, employee, and jobs datasets, returning relevant records based on conversational queries. Designed for AI agents and '
@@ -495,7 +495,7 @@ plans:
 - name: Coresignal Plans Pricing
   plan_count: 8
   slug: coresignal-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 9
   name: Coresignal Rate Limits
@@ -579,7 +579,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

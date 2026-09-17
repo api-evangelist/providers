@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 22
@@ -72,7 +72,7 @@ apis:
 - baseURL: https://onerail-delivery-api-prod.azurewebsites.net
   baseurl_source: declared
   description: The Blob Storage API API from OneRail — 3 operation(s) for blob storage api.
-  name: OneRail Blob Storage API API
+  name: OneRail Blob Storage API
   slug: onerail-blob-storage-api-api
 - baseURL: https://onerail-delivery-api-prod.azurewebsites.net
   baseurl_source: declared
@@ -146,11 +146,6 @@ apis:
   slug: onerail-delivery-rating-api
 - baseURL: https://onerail-delivery-api-prod.azurewebsites.net
   baseurl_source: declared
-  description: The DeliveryNote API from OneRail — 3 operation(s) for deliverynote.
-  name: OneRail Delivery Note API
-  slug: onerail-deliverynote-api
-- baseURL: https://onerail-delivery-api-prod.azurewebsites.net
-  baseurl_source: declared
   description: The DeliveryNotificationStatuses API from OneRail — 6 operation(s) for deliverynotificationstatuses.
   name: OneRail Delivery Notification Statuses API
   slug: onerail-deliverynotificationstatuses-api
@@ -211,11 +206,6 @@ apis:
   slug: onerail-freight-audit-pay-api
 - baseURL: https://onerail-delivery-api-prod.azurewebsites.net
   baseurl_source: declared
-  description: The HealthCheck API from OneRail — 1 operation(s) for healthcheck.
-  name: OneRail Health Check API
-  slug: onerail-healthcheck-api
-- baseURL: https://onerail-delivery-api-prod.azurewebsites.net
-  baseurl_source: declared
   description: The Holiday API from OneRail — 1 operation(s) for holiday.
   name: OneRail Holiday API
   slug: onerail-holiday-api
@@ -269,11 +259,6 @@ apis:
   description: The MemWatch API from OneRail — 1 operation(s) for memwatch.
   name: OneRail Mem Watch API
   slug: onerail-memwatch-api
-- baseURL: https://onerail-delivery-api-prod.azurewebsites.net
-  baseurl_source: declared
-  description: The OAuth2 API from OneRail — 1 operation(s) for oauth2.
-  name: OneRail O Auth2 API
-  slug: onerail-oauth2-api
 - baseURL: https://onerail-delivery-api-prod.azurewebsites.net
   baseurl_source: declared
   description: The Order API from OneRail — 22 operation(s) for order.
@@ -419,6 +404,21 @@ apis:
   description: The Visibility API from OneRail — 4 operation(s) for visibility.
   name: OneRail Visibility API
   slug: onerail-visibility-api
+- baseURL: https://onerail-delivery-api-prod.azurewebsites.net
+  baseurl_source: declared
+  description: The OAuth2 API from OneRail — 1 operation(s) for oauth2.
+  name: OneRail O Auth2 API
+  slug: onerail-oauth2-api
+- baseURL: https://onerail-delivery-api-prod.azurewebsites.net
+  baseurl_source: declared
+  description: The Delivery Note API from OneRail — 3 operation(s) for delivery note.
+  name: OneRail Delivery Note API
+  slug: onerail-delivery-note-api
+- baseURL: https://onerail-delivery-api-prod.azurewebsites.net
+  baseurl_source: declared
+  description: The Health Check API from OneRail — 1 operation(s) for health check.
+  name: OneRail Health Check API
+  slug: onerail-health-check-api
 artifact_total: 158
 asyncapis:
 - description: ''
@@ -795,7 +795,7 @@ description: OneRail is an Orlando, Florida based last-mile delivery orchestrati
   organization App ID / API Key header pair, and delivery status changes are pushed to shipper-configured webhook endpoints. OneRail is embedded in the IBM Sterling Order Management and Fulfillment Suite and in SAP environments, and serves wholesale, retail, automotive, pharma, industrial, grocery, furniture, and food and beverage shippers.
 image: https://www.onerail.com/wp-content/themes/customtheme/images/logo.png
 layout: provider
-modified: '2026-08-02'
+modified: '2026-09-16'
 name: OneRail
 nav: Providers
 network: true
@@ -806,7 +806,7 @@ overview: 'OneRail publishes 75 APIs on the [APIs.io](https://apis.io/) network,
 
 
   OneRail''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 11
+random_paper: 20
 scopes:
 - name: Onerail Scopes
   scope_count: 0
@@ -814,35 +814,35 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.9
+  composite: 46.8
   coverage:
     artifact_dirs: 20
-    catalog_earned: 37.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 50.5
+    contract_quality: 49.8
     developer_ergonomics: 61.3
-    discoverability: 75.9
+    discoverability: 66.7
     operational_transparency: 23.7
   previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 17.3
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 75
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

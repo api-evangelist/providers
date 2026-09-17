@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: RESTful bulk and transactional API for importing data, exporting results, running processes, and managing models within Anaplan workspaces.
@@ -151,7 +151,7 @@ plans:
 - name: Anaplan Plans Pricing
   plan_count: 3
   slug: anaplan-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Anaplan Rate Limits
@@ -176,7 +176,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 31.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

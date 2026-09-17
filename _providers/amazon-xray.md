@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -57,11 +57,6 @@ apis:
   slug: amazon-xray-createsamplingrule-api
 - baseURL: https://xray.amazonaws.com
   baseurl_source: declared
-  description: The DeleteGroup API from Amazon X-Ray — 1 operation(s) for deletegroup.
-  name: Amazon X-Ray DeleteGroup API
-  slug: amazon-xray-deletegroup-api
-- baseURL: https://xray.amazonaws.com
-  baseurl_source: declared
   description: The DeleteResourcePolicy API from Amazon X-Ray — 1 operation(s) for deleteresourcepolicy.
   name: Amazon X-Ray DeleteResourcePolicy API
   slug: amazon-xray-deleteresourcepolicy-api
@@ -75,11 +70,6 @@ apis:
   description: The EncryptionConfig API from Amazon X-Ray — 1 operation(s) for encryptionconfig.
   name: Amazon X-Ray EncryptionConfig API
   slug: amazon-xray-encryptionconfig-api
-- baseURL: https://xray.amazonaws.com
-  baseurl_source: declared
-  description: The GetGroup API from Amazon X-Ray — 1 operation(s) for getgroup.
-  name: Amazon X-Ray GetGroup API
-  slug: amazon-xray-getgroup-api
 - baseURL: https://xray.amazonaws.com
   baseurl_source: declared
   description: The GetSamplingRules API from Amazon X-Ray — 1 operation(s) for getsamplingrules.
@@ -117,11 +107,6 @@ apis:
   slug: amazon-xray-listresourcepolicies-api
 - baseURL: https://xray.amazonaws.com
   baseurl_source: declared
-  description: The ListTagsForResource API from Amazon X-Ray — 1 operation(s) for listtagsforresource.
-  name: Amazon X-Ray ListTagsForResource API
-  slug: amazon-xray-listtagsforresource-api
-- baseURL: https://xray.amazonaws.com
-  baseurl_source: declared
   description: The PutEncryptionConfig API from Amazon X-Ray — 1 operation(s) for putencryptionconfig.
   name: Amazon X-Ray PutEncryptionConfig API
   slug: amazon-xray-putencryptionconfig-api
@@ -150,16 +135,6 @@ apis:
   description: The Service Graph API from Amazon X-Ray — 1 operation(s) for service graph.
   name: Amazon X-Ray Service Graph API
   slug: amazon-xray-service-graph-api
-- baseURL: https://xray.amazonaws.com
-  baseurl_source: declared
-  description: The ServiceGraph API from Amazon X-Ray — 1 operation(s) for servicegraph.
-  name: Amazon X-Ray ServiceGraph API
-  slug: amazon-xray-servicegraph-api
-- baseURL: https://xray.amazonaws.com
-  baseurl_source: declared
-  description: The TagResource API from Amazon X-Ray — 1 operation(s) for tagresource.
-  name: Amazon X-Ray TagResource API
-  slug: amazon-xray-tagresource-api
 - baseURL: https://xray.amazonaws.com
   baseurl_source: declared
   description: The TelemetryRecords API from Amazon X-Ray — 1 operation(s) for telemetryrecords.
@@ -192,20 +167,40 @@ apis:
   slug: amazon-xray-tracesummaries-api
 - baseURL: https://xray.amazonaws.com
   baseurl_source: declared
-  description: The UntagResource API from Amazon X-Ray — 1 operation(s) for untagresource.
-  name: Amazon X-Ray UntagResource API
-  slug: amazon-xray-untagresource-api
-- baseURL: https://xray.amazonaws.com
-  baseurl_source: declared
-  description: The UpdateGroup API from Amazon X-Ray — 1 operation(s) for updategroup.
-  name: Amazon X-Ray UpdateGroup API
-  slug: amazon-xray-updategroup-api
-- baseURL: https://xray.amazonaws.com
-  baseurl_source: declared
   description: The UpdateSamplingRule API from Amazon X-Ray — 1 operation(s) for updatesamplingrule.
   name: Amazon X-Ray UpdateSamplingRule API
   slug: amazon-xray-updatesamplingrule-api
-artifact_total: 701
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Delete Group API from Amazon X-Ray — 1 operation(s) for delete group.
+  name: Amazon X-Ray Delete Group API
+  slug: amazon-xray-delete-group-api
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Get Group API from Amazon X-Ray — 1 operation(s) for get group.
+  name: Amazon X-Ray Get Group API
+  slug: amazon-xray-get-group-api
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The List Tags For Resource API from Amazon X-Ray — 1 operation(s) for list tags for resource.
+  name: Amazon X-Ray List Tags For Resource API
+  slug: amazon-xray-list-tags-for-resource-api
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Tag Resource API from Amazon X-Ray — 1 operation(s) for tag resource.
+  name: Amazon X-Ray Tag Resource API
+  slug: amazon-xray-tag-resource-api
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Untag Resource API from Amazon X-Ray — 1 operation(s) for untag resource.
+  name: Amazon X-Ray Untag Resource API
+  slug: amazon-xray-untag-resource-api
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Update Group API from Amazon X-Ray — 1 operation(s) for update group.
+  name: Amazon X-Ray Update Group API
+  slug: amazon-xray-update-group-api
+artifact_total: 700
 collections:
 - collection_type: postman
   name: AWS X-Ray CreateGroup API
@@ -2284,7 +2279,7 @@ modified: '2026-05-19'
 name: Amazon X-Ray
 nav: Providers
 network: true
-overview: 'Amazon X-Ray publishes 32 APIs on the [APIs.io](https://apis.io/) network, including CreateGroup API, CreateSamplingRule API, DeleteGroup API, and 29 more. Tagged areas include Application Performance, Debugging, Developer Tools, Distributed Tracing, and Monitoring.
+overview: 'Amazon X-Ray publishes 31 APIs on the [APIs.io](https://apis.io/) network, including CreateGroup API, CreateSamplingRule API, DeleteResourcePolicy API, and 28 more. Tagged areas include Application Performance, Debugging, Developer Tools, Distributed Tracing, and Monitoring.
 
 
   The Amazon X-Ray catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2295,7 +2290,7 @@ plans:
 - name: Amazon Xray Plans Pricing
   plan_count: 3
   slug: amazon-xray-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Amazon Xray Rate Limits
@@ -2336,7 +2331,7 @@ score:
   facets:
     access_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 75.8
+    contract_quality: 75.6
     developer_ergonomics: 72.6
     discoverability: 53.7
     operational_transparency: 36.8
@@ -2347,9 +2342,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 32
+      total: 31
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -56,7 +56,7 @@ overview: 'WayRay is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   WayRay''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 18
+random_paper: 9
 security:
 - kind: domain-security
   name: Wayray Domain Security

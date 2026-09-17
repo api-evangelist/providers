@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -87,7 +87,7 @@ overview: 'Popular (Banco Popular) is profiled on the [APIs.io](https://apis.io/
 
 
   Popular (Banco Popular)''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 8
+random_paper: 11
 score:
   band: minimal
   composite: 9.9
@@ -121,7 +121,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

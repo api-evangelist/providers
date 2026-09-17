@@ -32,11 +32,11 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Code-first GraphQL API built with Strawberry, using Python type hints and dataclasses to define schemas. Supports queries, mutations, subscriptions, federation, dataloaders, and schema/field extension
-  name: Strawberry GraphQL GraphQL API
+  name: Strawberry GraphQL API
   slug: graphql-api
 artifact_total: 3
 common:
@@ -88,7 +88,7 @@ graphqls:
   slug: strawberry-graphql-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/strawberry-graphql.png
 layout: provider
-modified: 2026-06-14
+modified: '2026-09-16'
 name: Strawberry GraphQL
 nav: Providers
 network: true
@@ -96,7 +96,7 @@ overview: 'Strawberry GraphQL publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Strawberry GraphQL''s developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 15
+random_paper: 13
 score:
   band: emerging
   composite: 22.7
@@ -117,7 +117,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

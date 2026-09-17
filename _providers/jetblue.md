@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -161,11 +161,11 @@ modified: '2026-07-28'
 name: JetBlue
 nav: Providers
 network: true
-overview: 'JetBlue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United States, Aviation, Airline, and Distribution.
+overview: 'JetBlue is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United States, Aviation, Airlines, and Distribution.
 
 
   JetBlue''s developer surface includes authentication, documentation, legal docs, support, and 21 more developer resources.'
-random_paper: 12
+random_paper: 21
 scopes:
 - name: Jetblue Scopes
   scope_count: 7
@@ -201,7 +201,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -226,7 +226,7 @@ tags:
 - Travel
 - United States
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - NDC
 - GDS

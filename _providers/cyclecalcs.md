@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
 - baseURL: https://www.cyclecalcs.com/v2
   baseurl_source: declared
   description: The CycleCalcs Astronomy API API from CycleCalcs — 1 operation(s) for cyclecalcs astronomy api.
-  name: CycleCalcs CycleCalcs Astronomy API API
+  name: CycleCalcs Astronomy API
   slug: cyclecalcs-cyclecalcs-astronomy-api-api
 - baseURL: https://www.cyclecalcs.com/v2
   baseurl_source: declared
@@ -517,7 +517,7 @@ mcp_servers:
 - description: CycleCalcs publishes a hosted, stateless Streamable HTTP MCP server that exposes eleven read-only astronomy tools, each backed by exactly one live /v2 REST endpoint. The server speaks MCP revision 202
   name: MCP server manifest (11 tools, captured from tools/list)
   slug: mcp-server-manifest-11-tools-captured-from-toolslist
-modified: '2026-08-09'
+modified: '2026-09-16'
 name: CycleCalcs
 nav: Providers
 network: true
@@ -529,7 +529,7 @@ plans:
 - name: Cyclecalcs Plans
   plan_count: 4
   slug: cyclecalcs-plans
-random_paper: 17
+random_paper: 12
 rate_limits:
 - limit_count: 15
   name: Cyclecalcs Rate Limits
@@ -564,7 +564,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

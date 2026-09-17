@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,29 +46,29 @@ api_count: 1
 apis:
 - baseURL: https://people.googleapis.com/v1
   baseurl_source: declared
-  description: The contactGroups API from Google People — 2 operation(s) for contactgroups.
-  name: Google People contactGroups API
-  slug: google-people-contactgroups-api
-- baseURL: https://people.googleapis.com/v1
-  baseurl_source: declared
   description: The People API from Google People — 4 operation(s) for people.
-  name: Google People People API
+  name: Google People API
   slug: google-people-people-api
 - baseURL: https://people.googleapis.com/v1
   baseurl_source: declared
   description: The people:batchGet API from Google People — 1 operation(s) for people:batchget.
-  name: Google People people:batchGet API
+  name: Google People:batchGet API
   slug: google-people-people-batchget-api
 - baseURL: https://people.googleapis.com/v1
   baseurl_source: declared
-  description: The people:createContact API from Google People — 1 operation(s) for people:createcontact.
-  name: Google People people:createContact API
-  slug: google-people-people-createcontact-api
+  description: The Contact Groups API from Google People — 2 operation(s) for contact groups.
+  name: Google People Contact Groups API
+  slug: google-people-contact-groups-api
 - baseURL: https://people.googleapis.com/v1
   baseurl_source: declared
-  description: The people:searchContacts API from Google People — 1 operation(s) for people:searchcontacts.
-  name: Google People people:searchContacts API
-  slug: google-people-people-searchcontacts-api
+  description: The People:create Contact API from Google People — 1 operation(s) for people:create contact.
+  name: Google People People:create Contact API
+  slug: google-people-people-create-contact-api
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The People:search Contacts API from Google People — 1 operation(s) for people:search contacts.
+  name: Google People People:search Contacts API
+  slug: google-people-people-search-contacts-api
 artifact_total: 28
 collections:
 - collection_type: postman
@@ -199,11 +199,11 @@ jsonld:
   property_count: 0
   slug: context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google People
 nav: Providers
 network: true
-overview: 'Google People publishes 5 APIs on the [APIs.io](https://apis.io/) network, including contactGroups API, People API, people:batchGet API, and 2 more. Tagged areas include Address Book, Contacts, Google, People, and Profiles.
+overview: 'Google People publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Google People:batchGet API, Contact Groups API, and 3 more. Tagged areas include Address Book, Contacts, Google, People, and Profiles.
 
 
   The Google People catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -214,7 +214,7 @@ plans:
 - name: Google People Plans Pricing
   plan_count: 3
   slug: google-people-plans-pricing
-random_paper: 4
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Google People Rate Limits
@@ -262,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

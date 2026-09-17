@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: 3bar-biologics-agentic-access
   summary_line: 19 operations
-api_count: 9
+api_count: 1
 apis:
 - baseURL: https://www.3barbiologics.com/wp-json
   baseurl_source: declared
@@ -60,11 +60,6 @@ apis:
   slug: 3bar-biologics-media-api
 - baseURL: https://www.3barbiologics.com/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated read access to the classification terms behind the 3BarBio news archive — the post categories and post tags used to segment company news, press releases and technical insights.
-  name: 3Bar Biologics Taxonomy API
-  slug: 3bar-biologics-taxonomy-api
-- baseURL: https://www.3barbiologics.com/wp-json
-  baseurl_source: declared
   description: Public, unauthenticated read access to the public author records behind the 3BarBio news archive. Verified live on 2026-09-05 at 3 authors.
   name: 3Bar Biologics Users API
   slug: 3bar-biologics-users-api
@@ -80,16 +75,36 @@ apis:
   slug: 3bar-biologics-discovery-api
 - baseURL: https://www.3barbiologics.com/wp-json
   baseurl_source: declared
-  description: 'Public oEmbed 1.0 provider endpoint for 3barbiologics.com URLs, returning embeddable rich metadata — provider, author, title, thumbnail and iframe HTML — for any post or page on the site. This is the '
-  name: 3Bar Biologics oEmbed API
-  slug: 3bar-biologics-oembed-api
-- baseURL: https://www.3barbiologics.com/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed schema.org JSON-LD graph for any 3barbiologics.com URL — a structured-data view of every page that does not require p
   name: 3Bar Biologics SEO Metadata API
   slug: 3bar-biologics-seo-api
-artifact_total: 14
+- baseURL: https://www.3barbiologics.com/wp-json
+  baseurl_source: declared
+  description: Post categories used to segment the 3BarBio news archive.
+  name: 3Bar Biologics Categories API
+  slug: 3bar-biologics-categories-api
+- baseURL: https://www.3barbiologics.com/wp-json
+  baseurl_source: declared
+  description: Post tags applied to the 3BarBio news archive.
+  name: 3Bar Biologics Tags API
+  slug: 3bar-biologics-tags-api
+- baseURL: https://www.3barbiologics.com/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for 3barbiologics.com URLs, returning embeddable rich metadata — provider, author, title, thumbnail and iframe HTML — for any post or page on the site.
+  name: 3Bar Biologics o Embed API
+  slug: 3bar-biologics-o-embed-api
+artifact_total: 15
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/overlays/3bar-biologics-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/3bar-biologics-oembed-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/3bar-biologics/refs/heads/main/overlays/3bar-biologics-taxonomy-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/3bar-biologics-taxonomy-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -205,36 +220,36 @@ modified: '2026-09-05'
 name: 3Bar Biologics
 nav: Providers
 network: true
-overview: '3Bar Biologics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, Agriculture, AgTech, Biotechnology, and Agricultural Biologicals.
+overview: '3Bar Biologics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 7 more. Tagged areas include Company, Agriculture, AgTech, Biotechnology, and Agricultural Biologicals.
 
 
-  3Bar Biologics'' developer surface includes engineering blog, authentication, code examples, and 20 more developer resources.'
+  3Bar Biologics'' developer surface includes engineering blog, authentication, code examples, and 22 more developer resources.'
 plans:
 - name: 3Bar Biologics Plans Pricing
   plan_count: 0
   slug: 3bar-biologics-plans-pricing
-random_paper: 16
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: 3Bar Biologics Rate Limits
   slug: 3bar-biologics-rate-limits
 score:
   band: emerging
-  composite: 18.9
+  composite: 18.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
     contract_quality: 15.9
     developer_ergonomics: 16.1
-    discoverability: 74.1
+    discoverability: 68.5
     operational_transparency: 0.0
   previous_composite: 18.9
   provenance:
@@ -242,13 +257,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 9
+      derived: 10
       marker_coverage: 100.0
-      total: 9
+      total: 10
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

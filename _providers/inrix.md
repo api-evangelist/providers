@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Real-time, historical and predicted speed, travel time and reference speed for INRIX XD and TMC road segments, queried by bounding box, radius, point, segment set or corridor.
@@ -100,11 +100,6 @@ apis:
   slug: inrix-application-api
 - baseURL: https://uas-api.inrix.com
   baseurl_source: declared
-  description: The ApplicationManagement API from INRIX — 9 operation(s) for applicationmanagement.
-  name: INRIX Application Management API
-  slug: inrix-applicationmanagement-api
-- baseURL: https://uas-api.inrix.com
-  baseurl_source: declared
   description: The Auth API from INRIX — 6 operation(s) for auth.
   name: INRIX Auth API
   slug: inrix-auth-api
@@ -118,11 +113,6 @@ apis:
   description: The Device API from INRIX — 3 operation(s) for device.
   name: INRIX Device API
   slug: inrix-device-api
-- baseURL: https://uas-api.inrix.com
-  baseurl_source: declared
-  description: The EmailTemplate API from INRIX — 2 operation(s) for emailtemplate.
-  name: INRIX Email Template API
-  slug: inrix-emailtemplate-api
 - baseURL: https://uas-api.inrix.com
   baseurl_source: declared
   description: The Metadata API from INRIX — 1 operation(s) for metadata.
@@ -143,11 +133,21 @@ apis:
   description: The User API from INRIX — 18 operation(s) for user.
   name: INRIX User API
   slug: inrix-user-api
-- baseURL: https://uas-api.inrix.com
+- baseURL: https://segment-api.inrix.com
   baseurl_source: declared
-  description: The UserGroup API from INRIX — 8 operation(s) for usergroup.
+  description: The Application Management API from INRIX — 9 operation(s) for application management.
+  name: INRIX Application Management API
+  slug: inrix-application-management-api
+- baseURL: https://segment-api.inrix.com
+  baseurl_source: declared
+  description: The Email Template API from INRIX — 2 operation(s) for email template.
+  name: INRIX Email Template API
+  slug: inrix-email-template-api
+- baseURL: https://segment-api.inrix.com
+  baseurl_source: declared
+  description: The User Group API from INRIX — 8 operation(s) for user group.
   name: INRIX User Group API
-  slug: inrix-usergroup-api
+  slug: inrix-user-group-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -368,10 +368,10 @@ overview: 'INRIX publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   INRIX''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, support, and 36 more developer resources.'
-random_paper: 8
+random_paper: 4
 score:
   band: developing
-  composite: 48.2
+  composite: 49.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -379,11 +379,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
-    contract_quality: 40.9
+    contract_quality: 44.7
     developer_ergonomics: 73.2
     discoverability: 81.5
     operational_transparency: 34.2
@@ -403,7 +403,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Janio''s production REST API for cross-border logistics: order creation and batch order management, unified multi-carrier tracking, rate and transit-time quotes, shipping label and customs document gen'
@@ -166,7 +166,7 @@ plans:
 - name: Janio Plans Pricing
   plan_count: 4
   slug: janio-plans-pricing
-random_paper: 4
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Janio Rate Limits
@@ -200,7 +200,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -28,7 +28,7 @@ name: Houseparty
 nav: Providers
 network: true
 overview: Houseparty is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social, Video Chat, and Mobile.
-random_paper: 16
+random_paper: 8
 slug: houseparty
 tags:
 - Company

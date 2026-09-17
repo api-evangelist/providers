@@ -24,16 +24,101 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.anchor-x402.com
   baseurl_source: declared
-  description: Eighteen stateless pay-per-call services on one FastAPI/AWS Lambda host. Every paid route answers an unpaid request with an x402 v2 402 PaymentRequired challenge carrying an accepts[] array of Base US
-  name: anchor-x402 API
-  slug: anchor-x402-api
-artifact_total: 8
+  description: The Anchor API from anchor-x402 — 1 operation(s) for anchor.
+  name: anchor-x402 Anchor API
+  slug: anchor-x402-anchor-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Attest API from anchor-x402 — 2 operation(s) for attest.
+  name: anchor-x402 Attest API
+  slug: anchor-x402-attest-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Aura API from anchor-x402 — 1 operation(s) for aura.
+  name: anchor-x402 Aura API
+  slug: anchor-x402-aura-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Decode API from anchor-x402 — 2 operation(s) for decode.
+  name: anchor-x402 Decode API
+  slug: anchor-x402-decode-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Grade API from anchor-x402 — 1 operation(s) for grade.
+  name: anchor-x402 Grade API
+  slug: anchor-x402-grade-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Health API from anchor-x402 — 1 operation(s) for health.
+  name: anchor-x402 Health API
+  slug: anchor-x402-health-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Intel API from anchor-x402 — 1 operation(s) for intel.
+  name: anchor-x402 Intel API
+  slug: anchor-x402-intel-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Investigate API from anchor-x402 — 2 operation(s) for investigate.
+  name: anchor-x402 Investigate API
+  slug: anchor-x402-investigate-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Ledger API from anchor-x402 — 3 operation(s) for ledger.
+  name: anchor-x402 Ledger API
+  slug: anchor-x402-ledger-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Oracle API from anchor-x402 — 1 operation(s) for oracle.
+  name: anchor-x402 Oracle API
+  slug: anchor-x402-oracle-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Parse API from anchor-x402 — 1 operation(s) for parse.
+  name: anchor-x402 Parse API
+  slug: anchor-x402-parse-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Price API from anchor-x402 — 1 operation(s) for price.
+  name: anchor-x402 Price API
+  slug: anchor-x402-price-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Resolve API from anchor-x402 — 1 operation(s) for resolve.
+  name: anchor-x402 Resolve API
+  slug: anchor-x402-resolve-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Roast API from anchor-x402 — 1 operation(s) for roast.
+  name: anchor-x402 Roast API
+  slug: anchor-x402-roast-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Roll API from anchor-x402 — 1 operation(s) for roll.
+  name: anchor-x402 Roll API
+  slug: anchor-x402-roll-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Screen API from anchor-x402 — 1 operation(s) for screen.
+  name: anchor-x402 Screen API
+  slug: anchor-x402-screen-api
+- baseURL: https://api.anchor-x402.com
+  baseurl_source: declared
+  description: The Tldr API from anchor-x402 — 1 operation(s) for tldr.
+  name: anchor-x402 Tldr API
+  slug: anchor-x402-tldr-api
+artifact_total: 24
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anchor-x402/refs/heads/main/overlays/anchor-x402-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/anchor-x402-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -193,22 +278,22 @@ modified: '2026-09-11'
 name: anchor-x402
 nav: Providers
 network: true
-overview: 'anchor-x402 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, x402, Agents, Payments, and Blockchain.
+overview: 'anchor-x402 publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Anchor API, Attest API, Aura API, and 14 more. Tagged areas include Company, x402, Agents, Payments, and Blockchain.
 
 
-  anchor-x402''s developer surface includes documentation, API reference, getting-started guide, pricing, sandbox, authentication, code examples, and 24 more developer resources.'
+  anchor-x402''s developer surface includes documentation, API reference, getting-started guide, pricing, sandbox, authentication, code examples, and 25 more developer resources.'
 plans:
 - name: Anchor X402 Plans Pricing
   plan_count: 3
   slug: anchor-x402-plans-pricing
-random_paper: 5
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Anchor X402 Rate Limits
   slug: anchor-x402-rate-limits
 score:
   band: developing
-  composite: 48.2
+  composite: 48.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -216,17 +301,22 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 45.6
+    contract_quality: 47.4
     developer_ergonomics: 71.4
     discoverability: 75.9
     operational_transparency: 13.2
   previous_composite: 48.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
     mcp: first-party
     skills: first-party
   regulatory:
@@ -236,7 +326,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

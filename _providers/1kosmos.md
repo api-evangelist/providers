@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -78,11 +78,6 @@ apis:
   slug: 1kosmos-reports-api
 - baseURL: https://blockid-trial.1kosmos.net
   baseurl_source: declared
-  description: The Set up API from 1Kosmos — 2 operation(s) for set up.
-  name: 1Kosmos Set up API
-  slug: 1kosmos-set-up-api
-- baseURL: https://blockid-trial.1kosmos.net
-  baseurl_source: declared
   description: The User Management API from 1Kosmos — 3 operation(s) for user management.
   name: 1Kosmos User Management API
   slug: 1kosmos-user-management-api
@@ -94,8 +89,13 @@ apis:
 - baseURL: https://blockid-trial.1kosmos.net
   baseurl_source: declared
   description: The Workflow API API from 1Kosmos — 2 operation(s) for workflow api.
-  name: 1Kosmos Workflow API API
+  name: 1Kosmos Workflow API
   slug: 1kosmos-workflow-api-api
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The Setup API from 1Kosmos — 2 operation(s) for setup.
+  name: 1Kosmos Setup API
+  slug: 1kosmos-setup-api
 artifact_total: 26
 asyncapis:
 - description: ''
@@ -291,7 +291,7 @@ created: '2026-08-05'
 description: 1Kosmos is a digital identity company whose BlockID platform combines identity proofing, document and biometric verification, and passwordless / FIDO2 authentication into a single tenant-scoped platform used across workforce, customer and citizen identity. The platform is delivered as a REST API surface (identity verification sessions, identity assurance level lookup, one-time passcodes, user management, access codes, W3C Verifiable Credentials and Verifiable Presentations, IAL2 identity-proofing workflows and reporting/metrics) plus first-party helper SDKs for NodeJS, Java, PHP, .NET, .NET Core and Go, and native Android/iOS mobile SDKs. 1Kosmos is Kantara-approved as a full-service credential service provider conformant with NIST SP 800-63-3 at IAL2/AAL2, is FIDO2 certified, holds SOC 2 Type II and ISO 27001, and holds a FedRAMP High authorization.
 image: https://framerusercontent.com/images/CaZExN3h34OiuPCO41bzrgwhVc.png
 layout: provider
-modified: '2026-08-05'
+modified: '2026-09-16'
 name: 1Kosmos
 nav: Providers
 network: true
@@ -302,7 +302,7 @@ overview: '1Kosmos publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   1Kosmos'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, sandbox, and 26 more developer resources.'
-random_paper: 3
+random_paper: 13
 scopes:
 - name: 1Kosmos Scopes
   scope_count: 3
@@ -338,7 +338,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

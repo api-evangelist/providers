@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
 - description: Public corporate website for AmeriHealth Caritas, hosting the family-of-plans health plan finder, solutions overview, careers, member and provider portals for the federated state plans, and pointers t
   name: AmeriHealth Caritas Corporate Website
   slug: website
-- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
-  baseurl_source: declared
-  description: The AllergyIntolerance FHIR resource type
-  name: AmeriHealth Caritas AllergyIntolerance API
-  slug: amerihealth-caritas-allergyintolerance-api
 - baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
   baseurl_source: declared
   description: The Claim FHIR resource type
@@ -83,19 +78,9 @@ apis:
   slug: amerihealth-caritas-explanationofbenefit-api
 - baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
   baseurl_source: declared
-  description: The HealthcareService FHIR resource type
-  name: AmeriHealth Caritas HealthcareService API
-  slug: amerihealth-caritas-healthcareservice-api
-- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
-  baseurl_source: declared
   description: The Immunization FHIR resource type
   name: AmeriHealth Caritas Immunization API
   slug: amerihealth-caritas-immunization-api
-- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
-  baseurl_source: declared
-  description: The InsurancePlan FHIR resource type
-  name: AmeriHealth Caritas InsurancePlan API
-  slug: amerihealth-caritas-insuranceplan-api
 - baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
   baseurl_source: declared
   description: The List FHIR resource type
@@ -123,11 +108,6 @@ apis:
   slug: amerihealth-caritas-medicationknowledge-api
 - baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
   baseurl_source: declared
-  description: The MedicationRequest FHIR resource type
-  name: AmeriHealth Caritas MedicationRequest API
-  slug: amerihealth-caritas-medicationrequest-api
-- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
-  baseurl_source: declared
   description: The Observation FHIR resource type
   name: AmeriHealth Caritas Observation API
   slug: amerihealth-caritas-observation-api
@@ -153,11 +133,6 @@ apis:
   slug: amerihealth-caritas-practitioner-api
 - baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
   baseurl_source: declared
-  description: The PractitionerRole FHIR resource type
-  name: AmeriHealth Caritas PractitionerRole API
-  slug: amerihealth-caritas-practitionerrole-api
-- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
-  baseurl_source: declared
   description: The Procedure FHIR resource type
   name: AmeriHealth Caritas Procedure API
   slug: amerihealth-caritas-procedure-api
@@ -166,6 +141,31 @@ apis:
   description: Server-level operations
   name: AmeriHealth Caritas System Level Operations API
   slug: amerihealth-caritas-system-level-operations-api
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The AllergyIntolerance FHIR resource type
+  name: AmeriHealth Caritas Allergy Intolerance API
+  slug: amerihealth-caritas-allergy-intolerance-api
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The HealthcareService FHIR resource type
+  name: AmeriHealth Caritas Healthcare Service API
+  slug: amerihealth-caritas-healthcare-service-api
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The InsurancePlan FHIR resource type
+  name: AmeriHealth Caritas Insurance Plan API
+  slug: amerihealth-caritas-insurance-plan-api
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The MedicationRequest FHIR resource type
+  name: AmeriHealth Caritas Medication Request API
+  slug: amerihealth-caritas-medication-request-api
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The PractitionerRole FHIR resource type
+  name: AmeriHealth Caritas Practitioner Role API
+  slug: amerihealth-caritas-practitioner-role-api
 artifact_total: 102
 collections:
 - collection_type: open
@@ -446,7 +446,7 @@ modified: '2026-05-23'
 name: AmeriHealth Caritas
 nav: Providers
 network: true
-overview: 'AmeriHealth Caritas publishes 23 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, Claim API, Condition API, and 20 more. Tagged areas include Healthcare, Health Insurance, Managed Care, Medicaid, and Medicare.
+overview: 'AmeriHealth Caritas publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Claim API, Condition API, Coverage API, and 20 more. Tagged areas include Healthcare, Health Insurance, Managed Care, Medicaid, and Medicare.
 
 
   The AmeriHealth Caritas catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -457,7 +457,7 @@ plans:
 - name: Amerihealth Caritas Plans Pricing
   plan_count: 4
   slug: amerihealth-caritas-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Amerihealth Caritas Rate Limits
@@ -485,21 +485,21 @@ rules:
   slug: amerihealth-caritas-rules
 score:
   band: developing
-  composite: 39.8
+  composite: 45.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 67.3
+    catalog_earned: 87.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.8
+    catalog_gap: 27.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.3
   facets:
     access_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 50.5
+    contract_quality: 64.1
     developer_ergonomics: 33.3
-    discoverability: 51.9
+    discoverability: 70.4
     operational_transparency: 36.8
   previous_composite: 39.8
   provenance:
@@ -516,8 +516,8 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -63,7 +63,7 @@ overview: 'GEMINI.md is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   GEMINI.md''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 5
+random_paper: 7
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemini-md/refs/heads/main/screenshots/gemini-md-2026-06-20T181723.png
 skill_count: 3
 skills:
@@ -83,6 +83,6 @@ tags:
 - Gemini
 - Google
 - Markdown
-- Standard
+- Standards
 website: https://google.github.io/gemini-cli/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: NoRedInk's OAuth 2.0 authorization server with OpenID Connect on top, used for single sign-on and partner/classroom-rostering integrations. Advertises the authorization-code + refresh-token grants, an
@@ -144,7 +144,7 @@ overview: 'NoRedInk publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   NoRedInk''s developer surface includes support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 18
+random_paper: 0
 scopes:
 - name: Noredink Scopes
   scope_count: 1
@@ -178,7 +178,7 @@ score:
     regime_id: education
     score: 85.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +214,7 @@ tags:
 - K-12
 - Authentication
 - OpenID Connect
-- Single Sign-On
+- SSO
 - Rostering
 - Identity
 website: https://noredink.com

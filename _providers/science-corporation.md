@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'A flexible, powerful standard gRPC / Protocol Buffers API for neural interface devices. The SynapseDevice service exposes device discovery, info, configuration of on-device signal chains, start/stop, '
@@ -93,11 +93,11 @@ modified: '2026-07-21'
 name: Science Corporation
 nav: Providers
 network: true
-overview: 'Science Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Neurotechnology, Brain-Computer Interface, Neural Interface, and Medical Device.
+overview: 'Science Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Neurotechnology, Brain-Computer Interface, Neural Interface, and Medical Devices.
 
 
   Science Corporation''s developer surface includes engineering blog, documentation, getting-started guide, changelog, support, and 6 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: thin
   composite: 34.4
@@ -128,7 +128,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -146,7 +146,7 @@ tags:
 - Neurotechnology
 - Brain-Computer Interface
 - Neural Interface
-- Medical Device
+- Medical Devices
 - gRPC
 - Protocol Buffers
 - Streaming

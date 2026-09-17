@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -122,11 +122,6 @@ apis:
   slug: verato-restoresource-api
 - baseURL: https://developer.verato.com
   baseurl_source: declared
-  description: The SearchNotifications API from Verato — 1 operation(s) for searchnotifications.
-  name: Verato SearchNotifications API
-  slug: verato-searchnotifications-api
-- baseURL: https://developer.verato.com
-  baseurl_source: declared
   description: The SearchRelationshipsService API from Verato — 1 operation(s) for searchrelationshipsservice.
   name: Verato SearchRelationshipsService API
   slug: verato-searchrelationshipsservice-api
@@ -145,6 +140,11 @@ apis:
   description: The UnmergeIdentities API from Verato — 1 operation(s) for unmergeidentities.
   name: Verato UnmergeIdentities API
   slug: verato-unmergeidentities-api
+- baseURL: https://developer.verato.com
+  baseurl_source: declared
+  description: The Search Notifications API from Verato — 1 operation(s) for search notifications.
+  name: Verato Search Notifications API
+  slug: verato-search-notifications-api
 artifact_total: 46
 collections:
 - collection_type: open
@@ -359,7 +359,7 @@ overview: 'Verato publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Verato''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 22 more developer resources.'
-random_paper: 6
+random_paper: 19
 score:
   band: developing
   composite: 40.6
@@ -400,7 +400,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

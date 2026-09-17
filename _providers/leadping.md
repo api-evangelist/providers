@@ -22,21 +22,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 48.9
-  scored_at: '2026-09-15'
+  score: 56.8
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Two remote Model Context Protocol servers. A public read-only documentation server at https://leadping.ai/docs/mcp answers anonymous tools/list with search, virtual-filesystem and feedback tools. An a
@@ -97,11 +97,6 @@ apis:
   slug: leadping-leadstatuschanges-api
 - baseURL: https://api.leadping.ai
   baseurl_source: declared
-  description: Manages the lead statuses used to classify and track leads throughout their lifecycle. Use these endpoints to list, create, update, and archive organization-specific lead statuses for consistent pipel
-  name: Leadping Lead Statuses API
-  slug: leadping-leadstatuses-api
-- baseURL: https://api.leadping.ai
-  baseurl_source: declared
   description: Manages user notifications, announcements, and push-notification installations. Use these endpoints to retrieve notification feeds and unread counts, update read state, and register or remove client p
   name: Leadping Notifications API
   slug: leadping-notifications-api
@@ -115,16 +110,6 @@ apis:
   description: Reports outbound delivery pacing and sending capacity for the current organization. Use these endpoints to determine whether outbound communications can proceed and to understand active throttles, lim
   name: Leadping Outbound Delivery API
   slug: leadping-outbounddelivery-api
-- baseURL: https://api.leadping.ai
-  baseurl_source: declared
-  description: Manages organization payment methods and billing invoices. Use these endpoints to add, confirm, inspect, and remove payment methods or retrieve invoices associated with the current organization's bill
-  name: Leadping Payment Methods API
-  slug: leadping-paymentmethods-api
-- baseURL: https://api.leadping.ai
-  baseurl_source: declared
-  description: Manages phone-number discovery, purchasing, assignment, configuration, and compliance. Use these endpoints to search available numbers, manage owned numbers and caller identity, configure messaging or
-  name: Leadping Phone Numbers API
-  slug: leadping-phonenumbers-api
 - baseURL: https://api.leadping.ai
   baseurl_source: declared
   description: Sends and manages SMS and MMS communications through Leadping. Use these endpoints to send messages, upload MMS media, and cancel eligible scheduled messages while preserving conversation and delivery
@@ -180,7 +165,32 @@ apis:
   description: Manages organization wallet balances, funding, and credit activity. Use these endpoints to inspect wallet state and history, configure wallet behavior, add funds, and record credits or adjustments.
   name: Leadping Wallets API
   slug: leadping-wallets-api
-artifact_total: 40
+- baseURL: https://api.leadping.ai/mcp
+  baseurl_source: declared
+  description: Provides published Leadping blog content. Use these endpoints to list published articles and retrieve an individual article by its public slug.
+  name: Leadping Blog Articles API
+  slug: leadping-blogarticles-api
+- baseURL: https://api.leadping.ai/mcp
+  baseurl_source: declared
+  description: The Leadping API API from Leadping — 2 operation(s) for leadping api.
+  name: Leadping Leadping API
+  slug: leadping-leadping-api-api
+- baseURL: https://api.leadping.ai/mcp
+  baseurl_source: declared
+  description: Manages the lead statuses used to classify and track leads throughout their lifecycle. Use these endpoints to list, create, update, and archive organization-specific lead statuses for consistent pipel
+  name: Leadping Lead Statuses API
+  slug: leadping-lead-statuses-api
+- baseURL: https://api.leadping.ai/mcp
+  baseurl_source: declared
+  description: Manages organization payment methods and billing invoices. Use these endpoints to add, confirm, inspect, and remove payment methods or retrieve invoices associated with the current organization's bill
+  name: Leadping Payment Methods API
+  slug: leadping-payment-methods-api
+- baseURL: https://api.leadping.ai/mcp
+  baseurl_source: declared
+  description: Manages phone-number discovery, purchasing, assignment, configuration, and compliance. Use these endpoints to search available numbers, manage owned numbers and caller identity, configure messaging or
+  name: Leadping Phone Numbers API
+  slug: leadping-phone-numbers-api
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Leadping Webhooks
@@ -434,7 +444,7 @@ modified: '2026-09-03'
 name: Leadping
 nav: Providers
 network: true
-overview: 'Leadping publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Automations API, Call Events API, and 24 more. Tagged areas include Lead Management, Sales & marketing automation, SMS Messaging, A2P 10DLC, and CPaaS.
+overview: 'Leadping publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Automations API, Call Events API, and 26 more. Tagged areas include Lead Management, Sales & marketing automation, SMS Messaging, A2P 10DLC, and CPaaS.
 
 
   The Leadping catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -445,7 +455,7 @@ plans:
 - name: Leadping Plans Pricing
   plan_count: 2
   slug: leadping-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Leadping Rate Limits
@@ -457,21 +467,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 79.6
+  composite: 78.4
   coverage:
     artifact_dirs: 26
-    catalog_earned: 59.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 56.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 81.6
     contract_governance: 33.3
-    contract_quality: 67.2
+    contract_quality: 69.8
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 63.0
     operational_transparency: 76.3
   previous_composite: 79.6
   provenance:
@@ -480,7 +490,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 27
+      total: 29
     mcp: first-party
     skills: derived
   regulatory:
@@ -490,7 +500,7 @@ score:
     regime_id: telecommunications
     score: 80.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -527,7 +537,7 @@ tags:
 - MCP
 - Lead intake
 - Conversations
-- Automations
+- Automation
 - Suppression & opt-out
 - Webhook
 website: https://leadping.ai/

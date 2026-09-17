@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 32
@@ -48,11 +48,6 @@ apis:
   description: List and modify all infrastructure and failure flag agents
   name: Gremlin agents API
   slug: gremlin-agents-api
-- baseURL: https://api.gremlin.com/v1
-  baseurl_source: declared
-  description: Create, delete, activate, deactivate and list apikeys
-  name: Gremlin apikeys API
-  slug: gremlin-apikeys-api
 - baseURL: https://api.gremlin.com/v1
   baseurl_source: declared
   description: Create, halt, and list attacks
@@ -210,11 +205,6 @@ apis:
   slug: gremlin-notification-settings-api
 - baseURL: https://api.gremlin.com/v1
   baseurl_source: declared
-  description: OAuth callback endpoints
-  name: Gremlin oauth API
-  slug: gremlin-oauth-api
-- baseURL: https://api.gremlin.com/v1
-  baseurl_source: declared
   description: Get and update org preferences. Generate new and delete old client certificates
   name: Gremlin orgs API
   slug: gremlin-orgs-api
@@ -285,11 +275,6 @@ apis:
   slug: gremlin-services-api
 - baseURL: https://api.gremlin.com/v1
   baseurl_source: declared
-  description: Used for sharing agent assets (eg. K8s Namespaces) between teams
-  name: Gremlin sharedAssets API
-  slug: gremlin-sharedassets-api
-- baseURL: https://api.gremlin.com/v1
-  baseurl_source: declared
   description: Create, Retrieve, Update, and Delete endpoints for Teams
   name: Gremlin teams API
   slug: gremlin-teams-api
@@ -318,6 +303,21 @@ apis:
   description: Create, read, update, and delete webhooks
   name: Gremlin webhooks API
   slug: gremlin-webhooks-api
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: OAuth callback endpoints
+  name: Gremlin OAUTH API
+  slug: gremlin-oauth-api
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, delete, activate, deactivate and list apikeys
+  name: Gremlin API Keys API
+  slug: gremlin-api-keys-api
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Used for sharing agent assets (eg. K8s Namespaces) between teams
+  name: Gremlin Shared assets API
+  slug: gremlin-shared-assets-api
 artifact_total: 120
 collections:
 - collection_type: open
@@ -577,7 +577,7 @@ modified: '2026-05-19'
 name: Gremlin
 nav: Providers
 network: true
-overview: 'Gremlin publishes 55 APIs on the [APIs.io](https://apis.io/) network, including agents API, apikeys API, attacks API, and 52 more. Tagged areas include Chaos Engineering, Fault Injection, Infrastructure Testing, Reliability, and Site Reliability Engineering.
+overview: 'Gremlin publishes 55 APIs on the [APIs.io](https://apis.io/) network, including agents API, attacks API, aws.metadata API, and 52 more. Tagged areas include Chaos Engineering, Fault Injection, Infrastructure Testing, Reliability, and Site Reliability Engineering.
 
 
   The Gremlin catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -588,7 +588,7 @@ plans:
 - name: Gremlin Plans Pricing
   plan_count: 3
   slug: gremlin-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Gremlin Rate Limits
@@ -606,7 +606,7 @@ rules:
   slug: gremlin-rules
 score:
   band: developing
-  composite: 45.8
+  composite: 45.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 62.0
@@ -614,11 +614,11 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 55.3
     contract_governance: 30.3
-    contract_quality: 57.5
+    contract_quality: 57.7
     developer_ergonomics: 33.3
     discoverability: 83.3
     operational_transparency: 10.5
@@ -631,7 +631,7 @@ score:
       marker_coverage: 0.0
       total: 55
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

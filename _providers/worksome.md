@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Worksome public GraphQL API — a single POST endpoint at https://api.worksome.com/graphql exposing 87 queries and 113 mutations across 496 types. Covers hires and contracts, jobs and candidates, pr
@@ -235,7 +235,7 @@ plans:
 - name: Worksome Plans Pricing
   plan_count: 0
   slug: worksome-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Worksome Rate Limits
@@ -276,7 +276,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

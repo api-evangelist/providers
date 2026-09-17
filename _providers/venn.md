@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Venn's tenant-facing GraphQL API, served through an Apollo Federation gateway on AWS API Gateway. Anonymous introspection returns the full contract — 1,983 types, 320 query fields, 357 mutation fields
@@ -120,7 +120,7 @@ plans:
 - name: Venn Plans Pricing
   plan_count: 0
   slug: venn-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Venn Rate Limits
@@ -165,7 +165,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -191,6 +191,6 @@ tags:
 - Community
 - Payments
 - GraphQL
-- Mobile Apps
+- Mobile App
 website: https://venn.city/
 ---

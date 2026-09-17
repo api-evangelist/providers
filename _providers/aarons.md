@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
 - description: Aaron's online lease application and approval system enabling customers to apply for lease-to-own financing before shopping. Provides instant approval decisions and leasing power discovery for furnitu
   name: Aaron's Lease Application
@@ -45,22 +45,87 @@ apis:
 - description: Aaron's lease-to-own product catalog covering furniture (bedroom, living room, dining), electronics (TVs, laptops, gaming), and appliances (washers, dryers, refrigerators) from top brands including As
   name: Aaron's Product Catalog
   slug: aarons-product-catalog
-- baseURL: https://hpp.aarons.com
+- baseURL: https://api.aarons.com/onboarding
   baseurl_source: declared
-  description: Aaron's Hosted Payment Page service — the only surface on the Aaron's estate that publishes a machine-readable API contract. A Swagger 2.0 document is served anonymously at https://hpp.aarons.com/open
-  name: Aaron's Hosted Payment Page (HPP)
-  slug: aarons-hpp
-artifact_total: 30
+  description: The AuthorizeSession API from Aaron's — 1 operation(s) for authorizesession.
+  name: Aaron's Authorize Session API
+  slug: aarons-authorizesession-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The AutoPayCustomerRetry API from Aaron's — 1 operation(s) for autopaycustomerretry.
+  name: Aaron's Auto Pay Customer Retry API
+  slug: aarons-autopaycustomerretry-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The CreateToken API from Aaron's — 1 operation(s) for createtoken.
+  name: Aaron's Create Token API
+  slug: aarons-createtoken-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The FiservPostback API from Aaron's — 1 operation(s) for fiservpostback.
+  name: Aaron's Fiserv Postback API
+  slug: aarons-fiservpostback-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The MemoryBearerToken API from Aaron's — 1 operation(s) for memorybearertoken.
+  name: Aaron's Memory Bearer Token API
+  slug: aarons-memorybearertoken-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The MemoryTokenGuid API from Aaron's — 1 operation(s) for memorytokenguid.
+  name: Aaron's Memory Token Guid API
+  slug: aarons-memorytokenguid-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The ping API from Aaron's — 2 operation(s) for ping.
+  name: Aaron's Ping API
+  slug: aarons-ping-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The RepayAuthPostback API from Aaron's — 1 operation(s) for repayauthpostback.
+  name: Aaron's Repay Auth Postback API
+  slug: aarons-repayauthpostback-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The RepayCardVaultPostback API from Aaron's — 1 operation(s) for repaycardvaultpostback.
+  name: Aaron's Repay Card Vault Postback API
+  slug: aarons-repaycardvaultpostback-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The SaveDeviceIntelligence API from Aaron's — 1 operation(s) for savedeviceintelligence.
+  name: Aaron's Save Device Intelligence API
+  slug: aarons-savedeviceintelligence-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The SaveToken API from Aaron's — 1 operation(s) for savetoken.
+  name: Aaron's Save Token API
+  slug: aarons-savetoken-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The UpdateCustomerRetryNotification API from Aaron's — 1 operation(s) for updatecustomerretrynotification.
+  name: Aaron's Update Customer Retry Notification API
+  slug: aarons-updatecustomerretrynotification-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The Create Session API from Aaron's — 1 operation(s) for create session.
+  name: Aaron's Create Session API
+  slug: aarons-create-session-api
+- baseURL: https://api.aarons.com/onboarding
+  baseurl_source: declared
+  description: The CUSTOMER DATA API from Aaron's — 1 operation(s) for customer data.
+  name: Aaron's CUSTOMER DATA API
+  slug: aarons-customer-data-api
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Aarons Hpp Webhooks
   slug: aarons-hpp-webhooks
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/aarons-hpp-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/openapi/_original/aarons-hpp-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/aarons-hpp-openapi.json
+  url: openapi/_original/aarons-hpp-openapi.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/well-known/aarons-well-known.yml
   title: ''
@@ -207,11 +272,11 @@ integrations:
 - description: Analytics and tracking integration via Google Tag Manager for website behavior analysis and marketing optimization.
   name: Google Tag Manager
 layout: provider
-modified: '2026-08-29'
+modified: '2026-09-16'
 name: Aaron's
 nav: Providers
 network: true
-overview: 'Aaron''s publishes 1 API on the [APIs.io](https://apis.io/) network: Hosted Payment Page (HPP). Tagged areas include Lease-to-Own, Retail, Furniture, Electronics, and Appliances.
+overview: 'Aaron''s publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authorize Session API, Auto Pay Customer Retry API, Create Token API, and 11 more. Tagged areas include Lease-to-Own, Retail, Furniture, Electronics, and Appliances.
 
 
   The Aaron''s catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -238,7 +303,7 @@ press:
 - date: '2026-05-25'
   title: IQVentures Completes Acquisition of The Aaron's Company
   url: https://www.prnewswire.com/news-releases/iqventures-completes-acquisition-of-the-aarons-company-302267226.html
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Aarons Rate Limits
@@ -250,29 +315,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.2
+  composite: 34.5
   coverage:
     artifact_dirs: 23
-    catalog_earned: 40.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 48.1
+    contract_quality: 55.3
     developer_ergonomics: 18.5
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 7.9
   previous_composite: 32.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 14
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -53,13 +53,13 @@ apis:
 - baseURL: https://braket.us-east-1.amazonaws.com
   baseurl_source: spec
   description: Submit and manage quantum task executions on Amazon Braket devices.
-  name: AWS Braket QuantumTasks API
-  slug: aws-braket-quantumtasks-api
+  name: AWS Braket Quantum Tasks API
+  slug: aws-braket-quantum-tasks-api
 - baseURL: https://braket.us-east-1.amazonaws.com
   baseurl_source: spec
   description: Per-device opt-in cost controls for QPU tasks.
-  name: AWS Braket SpendingLimits API
-  slug: aws-braket-spendinglimits-api
+  name: AWS Braket Spending Limits API
+  slug: aws-braket-spending-limits-api
 artifact_total: 53
 collections:
 - collection_type: postman
@@ -373,7 +373,7 @@ modified: '2026-05-25'
 name: AWS Braket
 nav: Providers
 network: true
-overview: 'AWS Braket publishes 3 APIs on the [APIs.io](https://apis.io/) network: HybridJobs API, QuantumTasks API, and SpendingLimits API. Tagged areas include Quantum Computing, QPU, Simulator, Hybrid Jobs, and OpenQASM.
+overview: 'AWS Braket publishes 3 APIs on the [APIs.io](https://apis.io/) network: HybridJobs API, Quantum Tasks API, and Spending Limits API. Tagged areas include Quantum Computing, QPU, Simulator, Hybrid Jobs, and OpenQASM.
 
 
   The AWS Braket catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -384,7 +384,7 @@ plans:
 - name: Aws Braket Plans Pricing
   plan_count: 5
   slug: aws-braket-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Aws Braket Rate Limits
@@ -438,7 +438,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ plans:
 - name: Navan Plans Pricing
   plan_count: 3
   slug: navan-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Navan Rate Limits
@@ -233,7 +233,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

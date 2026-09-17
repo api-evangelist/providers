@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -593,6 +593,10 @@ collections:
   name: AWS Global Accelerator
   slug: open-amazon-global-accelerator
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/capabilities/amazon-global-accelerator-capability-edges.yml
   title: ''
@@ -2211,7 +2215,7 @@ jsonld:
   property_count: 2
   slug: amazon-global-accelerator-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Global Accelerator
 nav: Providers
 network: true
@@ -2221,12 +2225,12 @@ overview: 'Amazon Global Accelerator publishes 49 APIs on the [APIs.io](https://
   The Amazon Global Accelerator catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Global Accelerator''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Global Accelerator''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Global Accelerator Plans Pricing
   plan_count: 3
   slug: amazon-global-accelerator-plans-pricing
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Amazon Global Accelerator Rate Limits
@@ -2285,7 +2289,7 @@ score:
       marker_coverage: 0.0
       total: 49
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2319,5 +2323,5 @@ use_cases:
   name: Multi-Region Failover
 - description: Reduce latency for real-time gaming applications using the AWS global network.
   name: Gaming Applications
-website: https://console.aws.amazon.com/
+website: https://amazon.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,11 +46,6 @@ api_count: 1
 apis:
 - baseURL: https://datastream.googleapis.com
   baseurl_source: declared
-  description: Operations for managing connection profiles
-  name: Google Cloud Datastream ConnectionProfiles API
-  slug: google-cloud-datastream-connectionprofiles-api
-- baseURL: https://datastream.googleapis.com
-  baseurl_source: declared
   description: Long-running operation management
   name: Google Cloud Datastream Operations API
   slug: google-cloud-datastream-operations-api
@@ -59,6 +54,11 @@ apis:
   description: Operations for managing replication streams
   name: Google Cloud Datastream Streams API
   slug: google-cloud-datastream-streams-api
+- baseURL: https://datastream.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing connection profiles
+  name: Google Cloud Datastream Connection Profiles API
+  slug: google-cloud-datastream-connection-profiles-api
 artifact_total: 24
 asyncapis:
 - description: Google Cloud Datastream is a serverless change data capture (CDC) and replication service that streams change events from supported source databases and applications into Google Cloud destinations. Th
@@ -189,7 +189,7 @@ modified: '2026-05-30'
 name: Google Cloud Datastream
 nav: Providers
 network: true
-overview: 'Google Cloud Datastream publishes 3 APIs on the [APIs.io](https://apis.io/) network: ConnectionProfiles API, Operations API, and Streams API. Tagged areas include Change Data Capture, Data Replication, Google Cloud, and Streaming.
+overview: 'Google Cloud Datastream publishes 3 APIs on the [APIs.io](https://apis.io/) network: Operations API, Streams API, and Connection Profiles API. Tagged areas include Change Data Capture, Data Replication, Google Cloud, and Streaming.
 
 
   The Google Cloud Datastream catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -259,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

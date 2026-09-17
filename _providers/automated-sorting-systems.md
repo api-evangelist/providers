@@ -11,7 +11,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-api_count: 4
+api_count: 13
 artifact_total: 0
 created: '2024-01-15'
 description: Automated Sorting Systems covers the technology landscape of automated conveyance, sortation, and parcel routing systems used in logistics, warehousing, e-commerce fulfillment, and postal distribution. Key vendors include Dematic, Vanderlande, BEUMER Group, Swisslog, Honeywell Intelligrated, and Solystic. These systems integrate with warehouse management systems (WMS), warehouse control systems (WCS), and ERP platforms via APIs and EDI to orchestrate high-speed package sorting.
@@ -21,7 +21,7 @@ modified: '2026-09-14'
 name: Automated Sorting Systems
 nav: Providers
 network: true
-random_paper: 16
+random_paper: 2
 slug: automated-sorting-systems
 tags:
 - Automation

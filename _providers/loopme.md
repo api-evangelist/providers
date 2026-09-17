@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ collections:
   name: LoopMe Reporting Ad Serving Publisher Reporting API
   slug: open-loopme-publisher-reporting-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://loopme.cool
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/agentic-access/loopme-agentic-access.yml
   title: ''
@@ -220,19 +224,19 @@ created: '2026-07-17'
 description: LoopMe is a global brand-performance advertising platform that uses AI to bring brands into mobile and CTV apps. Its products span an AI-powered intelligent marketplace, PurchaseLoop outcome-based brand advertising, the Chartboost in-app monetization platform, and an Audience & Measurement Platform (AMP). For developers, LoopMe exposes a REST Reporting API for publisher (app/site) and advertiser (campaign) statistics, a server-to-server (S2S) ad request API, first-party United SDKs for Android and iOS, and a Prebid.js header-bidding adapter. LoopMe is backed by HV Capital and headquartered in the UK.
 image: https://loopme.ai/wp-content/themes/loopme/assets/images/logo.svg
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: LoopMe
 nav: Providers
 network: true
 overview: 'LoopMe publishes 3 APIs on the [APIs.io](https://apis.io/) network: S2S Ad Serving API, Advertiser Reporting API, and Publisher Reporting API. Tagged areas include Company, Advertising, AdTech, Mobile Advertising, and CTV.
 
 
-  LoopMe''s developer surface includes documentation, API reference, engineering blog, support, authentication, changelog, sandbox, and 23 more developer resources.'
+  LoopMe''s developer surface includes documentation, API reference, engineering blog, support, authentication, changelog, sandbox, and 24 more developer resources.'
 plans:
 - name: Loopme Plans Pricing
   plan_count: 0
   slug: loopme-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Loopme Rate Limits
@@ -267,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -298,5 +302,5 @@ tags:
 - Programmatic
 - Ai Enterprise Software
 - SDK
-website: https://wiki.loopme.cool/
+website: https://loopme.cool
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
   description: Alarm configuration and management
   name: APIIDA Alarms API
   slug: apiida-alarms-api
-- baseURL: https://api.apiida.com
-  baseurl_source: declared
-  description: The Apis API from APIIDA — 1 operation(s) for apis.
-  name: APIIDA Apis API
-  slug: apiida-apis-api
 - baseURL: https://api.apiida.com
   baseurl_source: declared
   description: Gateway deployment operations
@@ -76,6 +71,11 @@ apis:
   description: API version management
   name: APIIDA Versions API
   slug: apiida-versions-api
+- baseURL: https://api.apiida.com
+  baseurl_source: declared
+  description: The Apis API from APIIDA — 1 operation(s) for apis.
+  name: APIIDA APIS API
+  slug: apiida-apis-api
 artifact_total: 45
 collections:
 - collection_type: open
@@ -203,7 +203,7 @@ modified: '2026-05-19'
 name: APIIDA
 nav: Providers
 network: true
-overview: 'APIIDA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Apis API, Deployments API, and 3 more. Tagged areas include API Gateway, API Management, Federated API Management, Governance, and Layer-7.
+overview: 'APIIDA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Deployments API, Gateways API, and 3 more. Tagged areas include API Gateway, API Management, Federated API Management, Governance, and Layer-7.
 
 
   The APIIDA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -214,7 +214,7 @@ plans:
 - name: Apiida Plans Pricing
   plan_count: 3
   slug: apiida-plans-pricing
-random_paper: 7
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Apiida Rate Limits
@@ -268,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

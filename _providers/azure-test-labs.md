@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -97,13 +97,8 @@ apis:
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The Labs API from Azure DevTest Labs — 9 operation(s) for labs.
-  name: Azure DevTest Labs Labs API
+  name: Azure DevTest Labs API
   slug: azure-test-labs-labs-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The NotificationChannels API from Azure DevTest Labs — 3 operation(s) for notificationchannels.
-  name: Azure DevTest Labs NotificationChannels API
-  slug: azure-test-labs-notificationchannels-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The Operations API from Azure DevTest Labs — 1 operation(s) for operations.
@@ -114,11 +109,6 @@ apis:
   description: The Policies API from Azure DevTest Labs — 2 operation(s) for policies.
   name: Azure DevTest Labs Policies API
   slug: azure-test-labs-policies-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The PolicySets API from Azure DevTest Labs — 1 operation(s) for policysets.
-  name: Azure DevTest Labs PolicySets API
-  slug: azure-test-labs-policysets-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The ProviderOperations API from Azure DevTest Labs — 1 operation(s) for provideroperations.
@@ -156,19 +146,29 @@ apis:
   slug: azure-test-labs-users-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
-  description: The VirtualMachines API from Azure DevTest Labs — 15 operation(s) for virtualmachines.
-  name: Azure DevTest Labs VirtualMachines API
-  slug: azure-test-labs-virtualmachines-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
   description: The VirtualMachineSchedules API from Azure DevTest Labs — 3 operation(s) for virtualmachineschedules.
   name: Azure DevTest Labs VirtualMachineSchedules API
   slug: azure-test-labs-virtualmachineschedules-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
-  description: The VirtualNetworks API from Azure DevTest Labs — 2 operation(s) for virtualnetworks.
-  name: Azure DevTest Labs VirtualNetworks API
-  slug: azure-test-labs-virtualnetworks-api
+  description: The Notification Channels API from Azure DevTest Labs — 3 operation(s) for notification channels.
+  name: Azure DevTest Labs Notification Channels API
+  slug: azure-test-labs-notification-channels-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Policy Sets API from Azure DevTest Labs — 1 operation(s) for policy sets.
+  name: Azure DevTest Labs Policy Sets API
+  slug: azure-test-labs-policy-sets-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Virtual Machines API from Azure DevTest Labs — 15 operation(s) for virtual machines.
+  name: Azure DevTest Labs Virtual Machines API
+  slug: azure-test-labs-virtual-machines-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Virtual Networks API from Azure DevTest Labs — 2 operation(s) for virtual networks.
+  name: Azure DevTest Labs Virtual Networks API
+  slug: azure-test-labs-virtual-networks-api
 artifact_total: 176
 collections:
 - collection_type: postman
@@ -679,7 +679,7 @@ jsonld:
   property_count: 27
   slug: azure-test-labs-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Azure DevTest Labs
 nav: Providers
 network: true
@@ -694,7 +694,7 @@ plans:
 - name: Azure Test Labs Plans Pricing
   plan_count: 3
   slug: azure-test-labs-plans-pricing
-random_paper: 16
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Azure Test Labs Rate Limits
@@ -753,7 +753,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

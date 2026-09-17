@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.moosend.com/v3
@@ -262,7 +262,7 @@ plans:
 - name: Moosend Plans Pricing
   plan_count: 5
   slug: moosend-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 10
   name: Moosend Rate Limits
@@ -302,7 +302,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

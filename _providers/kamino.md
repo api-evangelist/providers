@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -56,72 +56,72 @@ apis:
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Earn Deposit API from Kamino — 2 operation(s) for kamino earn deposit.
-  name: Kamino Kamino Earn Deposit API
+  name: Kamino Earn Deposit API
   slug: kamino-kamino-earn-deposit-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Earn User API from Kamino — 8 operation(s) for kamino earn user.
-  name: Kamino Kamino Earn User API
+  name: Kamino Earn User API
   slug: kamino-kamino-earn-user-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Earn Vault Metadata API from Kamino — 2 operation(s) for kamino earn vault metadata.
-  name: Kamino Kamino Earn Vault Metadata API
+  name: Kamino Earn Vault Metadata API
   slug: kamino-kamino-earn-vault-metadata-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Earn Vaults API from Kamino — 8 operation(s) for kamino earn vaults.
-  name: Kamino Kamino Earn Vaults API
+  name: Kamino Earn Vaults API
   slug: kamino-kamino-earn-vaults-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Earn Withdraw API from Kamino — 2 operation(s) for kamino earn withdraw.
-  name: Kamino Kamino Earn Withdraw API
+  name: Kamino Earn Withdraw API
   slug: kamino-kamino-earn-withdraw-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Lend Borrow API from Kamino — 2 operation(s) for kamino lend borrow.
-  name: Kamino Kamino Lend Borrow API
+  name: Kamino Lend Borrow API
   slug: kamino-kamino-lend-borrow-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Lend Borrow Orders API from Kamino — 2 operation(s) for kamino lend borrow orders.
-  name: Kamino Kamino Lend Borrow Orders API
+  name: Kamino Lend Borrow Orders API
   slug: kamino-kamino-lend-borrow-orders-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Lend Deposit API from Kamino — 2 operation(s) for kamino lend deposit.
-  name: Kamino Kamino Lend Deposit API
+  name: Kamino Lend Deposit API
   slug: kamino-kamino-lend-deposit-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Lend Markets API from Kamino — 7 operation(s) for kamino lend markets.
-  name: Kamino Kamino Lend Markets API
+  name: Kamino Lend Markets API
   slug: kamino-kamino-lend-markets-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Lend Repay API from Kamino — 2 operation(s) for kamino lend repay.
-  name: Kamino Kamino Lend Repay API
+  name: Kamino Lend Repay API
   slug: kamino-kamino-lend-repay-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Lend Transactions API from Kamino — 7 operation(s) for kamino lend transactions.
-  name: Kamino Kamino Lend Transactions API
+  name: Kamino Lend Transactions API
   slug: kamino-kamino-lend-transactions-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Lend User Loans API from Kamino — 4 operation(s) for kamino lend user loans.
-  name: Kamino Kamino Lend User Loans API
+  name: Kamino Lend User Loans API
   slug: kamino-kamino-lend-user-loans-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Lend Withdraw API from Kamino — 2 operation(s) for kamino lend withdraw.
-  name: Kamino Kamino Lend Withdraw API
+  name: Kamino Lend Withdraw API
   slug: kamino-kamino-lend-withdraw-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
   description: The Kamino Lend Yield API from Kamino — 7 operation(s) for kamino lend yield.
-  name: Kamino Kamino Lend Yield API
+  name: Kamino Lend Yield API
   slug: kamino-kamino-lend-yield-api
 - baseURL: https://api.kamino.finance
   baseurl_source: declared
@@ -377,18 +377,18 @@ created: '2026-07-17'
 description: Kamino Finance is a Solana DeFi protocol for lending and borrowing (Kamino Lend / klend), automated concentrated-liquidity and yield vaults (Kamino Earn / kvault), leveraged 'Multiply' strategies, limit orders, token swaps, and the Scope price-oracle aggregator. The Kamino Public API exposes language-agnostic HTTPS/JSON endpoints for reading real-time and historical protocol data, user positions, rewards, portfolio values, oracle prices and staking yields, plus a Transactions API that builds UNSIGNED Solana transactions for deposit, borrow, repay, withdraw and vault operations that clients sign with their own wallet. First-party TypeScript SDKs are published under the @kamino-finance npm org.
 image: https://raw.githubusercontent.com/api-evangelist/kamino/refs/heads/main/apis.yml
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Kamino
 nav: Providers
 network: true
-overview: 'Kamino publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Airdrop API, Farms API, Kamino Earn Deposit API, and 20 more. Tagged areas include Company, Crypto Web3, DeFi, Solana, and Lending.
+overview: 'Kamino publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Airdrop API, Farms API, Earn Deposit API, and 20 more. Tagged areas include Company, Crypto Web3, DeFi, Solana, and Lending.
 
 
   Kamino''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 23 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: developing
-  composite: 39.3
+  composite: 39.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -396,11 +396,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 7.9
     contract_governance: 4.5
-    contract_quality: 51.9
+    contract_quality: 54.5
     developer_ergonomics: 78.0
     discoverability: 75.9
     operational_transparency: 13.2
@@ -416,7 +416,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -143,11 +143,11 @@ modified: '2026-05-11'
 name: UKG Ready
 nav: Providers
 network: true
-overview: 'UKG Ready publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Content API, and Groups API. Tagged areas include HCM, Payroll, Workforce Management, Time and Attendance, and HR.
+overview: 'UKG Ready publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Content API, and Groups API. Tagged areas include HCM, Payroll, Workforce Management, Time and Attendance, and Human Resources.
 
 
   UKG Ready''s developer surface includes authentication, documentation, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 2
+random_paper: 3
 score:
   band: thin
   composite: 27.8
@@ -175,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -196,7 +196,7 @@ tags:
 - Payroll
 - Workforce Management
 - Time and Attendance
-- HR
+- Human Resources
 - Benefits
 website: https://www.ukg.com/solutions/ukg-ready
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -56,7 +56,7 @@ apis:
 - baseURL: http://localhost:8083
   baseurl_source: declared
   description: The Kafka Connect REST API API from Kafka Connect — 1 operation(s) for kafka connect rest api.
-  name: Kafka Connect Kafka Connect REST API API
+  name: Kafka Connect Kafka Connect REST API
   slug: kafka-connect-kafka-connect-rest-api-api
 artifact_total: 14
 collections:
@@ -123,11 +123,11 @@ finops:
   slug: kafka-connect-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kafka-connect.png
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Kafka Connect
 nav: Providers
 network: true
-overview: 'Kafka Connect publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connector Plugins API, Connectors API, and Kafka Connect REST API API. Tagged areas include Apache Kafka, Connectors, Data Integration, ETL, and Streaming.
+overview: 'Kafka Connect publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connector Plugins API, Connectors API, and Kafka Connect REST API. Tagged areas include Apache Kafka, Connectors, Data Integration, ETL, and Streaming.
 
 
   Kafka Connect''s developer surface includes documentation, getting-started guide, engineering blog, and 6 more developer resources.'
@@ -135,7 +135,7 @@ plans:
 - name: Kafka Connect Plans Pricing
   plan_count: 3
   slug: kafka-connect-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Kafka Connect Rate Limits
@@ -167,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -84,6 +84,10 @@ collections:
   name: Amazon EFS Amazon Elastic File System (EFS) API
   slug: open-amazon-efs
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/agentic-access/amazon-efs-agentic-access.yml
   title: ''
@@ -290,7 +294,7 @@ jsonld:
   property_count: 30
   slug: amazon-efs-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon EFS
 nav: Providers
 network: true
@@ -300,12 +304,12 @@ overview: 'Amazon EFS publishes 1 API on the [APIs.io](https://apis.io/) network
   The Amazon EFS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EFS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
+  Amazon EFS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
 plans:
 - name: Amazon Efs Plans Pricing
   plan_count: 3
   slug: amazon-efs-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Efs Rate Limits
@@ -359,7 +363,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -402,5 +406,5 @@ use_cases:
   name: DevOps and Code Sharing
 - description: High-throughput shared storage for analytics workloads requiring parallel data access.
   name: Big Data Analytics
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

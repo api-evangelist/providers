@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST API for global employment operations including hiring, payroll, benefits, time off, expenses, invoicing, offboarding, and webhooks. Supports both customer-direct and reseller/partner integration '
@@ -110,7 +110,7 @@ modified: '2026-06-13'
 name: Oyster HR
 nav: Providers
 network: true
-overview: 'Oyster HR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HR, Global Employment, Payroll, Employer of Record, and Contractors.
+overview: 'Oyster HR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, Global Employment, Payroll, Employer of Record, and Contractors.
 
 
   Oyster HR''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -143,7 +143,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 32.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +161,7 @@ security:
   summary_line: SOC 2
 slug: oyster-hr
 tags:
-- HR
+- Human Resources
 - Global Employment
 - Payroll
 - Employer of Record

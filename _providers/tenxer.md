@@ -19,7 +19,7 @@ name: tenXer *
 nav: Providers
 network: true
 overview: tenXer * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Engineering Analytics, Developer Productivity, and Acquired.
-random_paper: 11
+random_paper: 2
 slug: tenxer
 tags:
 - Company

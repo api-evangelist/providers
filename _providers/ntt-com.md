@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Unified API gateway for NTT Communications / NTT DOCOMO BUSINESS enterprise services. Catalogs APIs across Network, Cloud, Voice, App, Management, and Core categories — including Arcstar Universal One
@@ -162,11 +162,11 @@ modified: '2026-05-25'
 name: NTT
 nav: Providers
 network: true
-overview: 'NTT publishes 1 API on the [APIs.io](https://apis.io/) network: Communications Things Cloud. Tagged areas include Telecommunications, Mobile Networks, Enterprise Cloud, Smart Data Platform, and IOWN.
+overview: 'NTT publishes 1 API on the [APIs.io](https://apis.io/) network: Communications Things Cloud. Tagged areas include Telecommunications, Mobile Network, Enterprise Cloud, Smart Data Platform, and IOWN.
 
 
   NTT''s developer surface includes YouTube channel and 23 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: emerging
   composite: 17.0
@@ -200,7 +200,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -215,7 +215,7 @@ security:
 slug: ntt-com
 tags:
 - Telecommunications
-- Mobile Networks
+- Mobile Network
 - Enterprise Cloud
 - Smart Data Platform
 - IOWN

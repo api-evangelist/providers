@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://bloodhoundenterprise.io/api/v2
@@ -546,7 +546,7 @@ overview: 'SpecterOps publishes 43 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   SpecterOps'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
   band: developing
   composite: 51.8
@@ -561,7 +561,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 56.7
+    contract_quality: 56.6
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 36.8
@@ -576,7 +576,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -24,7 +24,7 @@ name: Sold *
 nav: Providers
 network: true
 overview: Sold * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Resale, Marketplace, and Mobile App.
-random_paper: 14
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/sold/refs/heads/main/screenshots/sold-2026-09-02T160121.png
 slug: sold
 tags:

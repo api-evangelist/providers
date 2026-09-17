@@ -30,21 +30,73 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-09-15'
+  score: 26.8
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: REST/JSON API for multi-source vehicle auction inventory, search, facets, auction detail and price history, VIN history, market intel, classifieds, and import cost calculation. API key required for li
-  name: TheCarApi REST API
-  slug: thecarapi-rest-api
-artifact_total: 6
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: Retrieve source-aware listing detail, galleries, price changes, and VIN history. A running openlane or ecarstrade auction has its bid read from the auction house at the moment you request the detail —
+  name: TheCarApi Auctions & history API
+  slug: thecarapi-auctions-history-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: Build slug-addressable manufacturer and model-group navigation. All catalog list routes paginate with a default limit of 50 and are capped at offset 5000 — a deeper page is a 400 naming the limit. The
+  name: TheCarApi Catalog API
+  slug: thecarapi-catalog-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: 'A retail price surface of roughly 9.8M live listings gathered from 681 origin portals — national classifieds sites, dealer groups and manufacturer stock pages — across 39 European countries: mobile.de'
+  name: TheCarApi European classifieds API
+  slug: thecarapi-european-classifieds-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: Discover live filter values and counts. Every facet endpoint accepts the search filters, so a facet describes whatever slice of inventory you are looking at rather than the whole of it — each dimensio
+  name: TheCarApi Filter facets API
+  slug: thecarapi-filter-facets-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: Check service dependencies and inspect the API index.
+  name: TheCarApi Health & contract API
+  slug: thecarapi-health-contract-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: Estimate the landed cost of importing a vehicle. These are estimates, not a binding quote.
+  name: TheCarApi Import calculator API
+  slug: thecarapi-import-calculator-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: 'Precomputed price snapshots for a brand, model, and year window — one for the Bulgarian retail market, one for our own auction inventory. Scope: market. Neither is enabled on a new key by default; ask'
+  name: TheCarApi Market intelligence API
+  slug: thecarapi-market-intelligence-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: Build popular landing pages and resolve brand/model URL slugs.
+  name: TheCarApi SEO helpers API
+  slug: thecarapi-seo-helpers-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: Live auctions our pipeline judged to be priced below their market reference. Same deals as /api/search?sort=top_offers, but each card additionally carries the reference the verdict was made against.
+  name: TheCarApi Top offers API
+  slug: thecarapi-top-offers-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: Fetch a full source payload from cache or, when needed, from the upstream source.
+  name: TheCarApi Vehicle details API
+  slug: thecarapi-vehicle-details-api
+- baseURL: https://api.thecarapi.com
+  baseurl_source: declared
+  description: Search live auction inventory, then resolve lightweight full-text matches. Ended lots are hidden by default; is_active=false / include_ended=true shows them as well as live ones.
+  name: TheCarApi Search and Discovery API
+  slug: thecarapi-search-and-discovery-api
+artifact_total: 16
 common:
 - group: company
   title: ''
@@ -189,7 +241,7 @@ modified: '2026-09-02'
 name: TheCarApi
 nav: Providers
 network: true
-overview: 'TheCarApi publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Automotive, Vehicle Data, Car Auctions, Used Cars, and Vehicle Inventory.
+overview: 'TheCarApi publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auctions & history API, Catalog API, European classifieds API, and 8 more. Tagged areas include Automotive, Vehicle Data, Car Auctions, Used Cars, and Vehicle Inventory.
 
 
   TheCarApi''s developer surface includes authentication, changelog, pricing, code examples, documentation, getting-started guide, API reference, and 23 more developer resources.'
@@ -197,7 +249,7 @@ plans:
 - name: Thecarapi Plans Pricing
   plan_count: 3
   slug: thecarapi-plans-pricing
-random_paper: 0
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Thecarapi Rate Limits
@@ -208,8 +260,8 @@ scopes:
   slug: thecarapi-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 51.5
+  band: strong
+  composite: 57.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 62.3
@@ -217,11 +269,11 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.6
   facets:
     access_clarity: 63.2
     contract_governance: 8.3
-    contract_quality: 40.0
+    contract_quality: 62.6
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 63.2
@@ -240,12 +292,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -272,7 +324,7 @@ tags:
 - VIN
 - Image CDN
 - Europe
-- Korea
+- South Korea
 - Japan Auctions
 website: https://thecarapi.com/
 ---

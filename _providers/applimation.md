@@ -19,7 +19,7 @@ name: Applimation
 nav: Providers
 network: true
 overview: Applimation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management, Information Lifecycle Management, Data Archiving, and Enterprise Software.
-random_paper: 6
+random_paper: 16
 slug: applimation
 tags:
 - Company

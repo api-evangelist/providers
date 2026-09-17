@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 30 more developer resources.'
-random_paper: 17
+random_paper: 10
 scopes:
 - name: Keller Williams Scopes
   scope_count: 40
@@ -306,7 +306,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -332,7 +332,7 @@ tags:
 - PropTech
 - Agent Platform
 - CRM
-- Partner APIs
+- Partner API
 - Marketplace
 - Austin Texas
 website: https://www.kw.com/

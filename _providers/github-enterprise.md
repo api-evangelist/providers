@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: The Enterprise Admin API from GitHub Enterprise — 1 operation(s) for enterprise admin.
-  name: GitHub Enterprise Enterprise Admin API
+  name: GitHub Enterprise Admin API
   slug: github-enterprise-enterprise-admin-api
 - baseURL: https://api.github.com
   baseurl_source: declared
@@ -178,15 +178,15 @@ graphqls:
   slug: github-enterprise-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/github-enterprise.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: GitHub Enterprise
 nav: Providers
 network: true
-overview: 'GitHub Enterprise publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Code Scanning API, Enterprise Admin API, and 6 more. Tagged areas include Source Control, DevOps, CI/CD, Code Hosting, and Enterprise.
+overview: 'GitHub Enterprise publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Code Scanning API, Admin API, and 6 more. Tagged areas include Source Control, DevOps, CI/CD, Code Hosting, and Enterprise.
 
 
   GitHub Enterprise''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: thin
   composite: 28.9
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

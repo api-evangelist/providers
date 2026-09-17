@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: UNSW's own SAML 2.0 identity provider — a Shibboleth IdP whose entity metadata is published as a machine-readable XML document at the entityID URL and is carried in the AAF federation aggregate, which
@@ -145,15 +145,15 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/unsw/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-unsworks-dspace-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/_original/unsw-sydney-unsworks-dspace-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/unsw-sydney-unsworks-dspace-openapi.yml
+  url: openapi/_original/unsw-sydney-unsworks-dspace-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/unsw-sydney-unsworks-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/openapi/_original/unsw-sydney-unsworks-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/unsw-sydney-unsworks-oai-pmh-openapi.yml
+  url: openapi/_original/unsw-sydney-unsworks-oai-pmh-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/json-schema/unsw-sydney-unsworks-dspace-schema.json
   title: ''
@@ -298,7 +298,7 @@ jsonld:
   property_count: 5
   slug: unsw-sydney-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: University of New South Wales
 nav: Providers
 network: true
@@ -313,7 +313,7 @@ plans:
 - name: Unsw Sydney Plans Pricing
   plan_count: 2
   slug: unsw-sydney-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Unsw Sydney Rate Limits
@@ -374,7 +374,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

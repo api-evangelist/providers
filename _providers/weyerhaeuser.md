@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Weyerhaeuser's API Management platform enabling partner and customer integration with wood products ordering, supply chain management, and customer connect portal services. The portal provides automat
@@ -140,7 +140,7 @@ press:
 - date: '2026-05-25'
   title: America's Largest Landowner Is Using AI to Digitize the ...
   url: https://www.wsj.com/tech/ai/americas-largest-landowner-is-using-ai-to-digitize-the-forest-bd3eec86
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Weyerhaeuser Rate Limits
@@ -165,7 +165,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 24.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

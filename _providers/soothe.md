@@ -35,16 +35,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://help.soothe.com
   baseurl_source: declared
-  description: The auto-generated OpenAPI 3.1.0 schema published by the FastAPI application Soothe runs at help.soothe.com to serve a self-hosted mirror of its Document360 help centre. It describes the mirror servic
-  name: Soothe Help Center Mirror
-  slug: soothe-help-center-mirror
-artifact_total: 5
+  description: The Health API from Soothe — 1 operation(s) for health.
+  name: Soothe Health API
+  slug: soothe-health-api
+- baseURL: https://help.soothe.com
+  baseurl_source: declared
+  description: The Manifest.json API from Soothe — 1 operation(s) for manifest.json.
+  name: Soothe Manifest.json API
+  slug: soothe-manifest-json-api
+- baseURL: https://help.soothe.com
+  baseurl_source: declared
+  description: The Soothe Help Center Mirror API from Soothe — 2 operation(s) for soothe help center mirror.
+  name: Soothe Soothe Help Center Mirror API
+  slug: soothe-soothe-help-center-mirror-api
+artifact_total: 7
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/overlays/soothe-help-center-mirror-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/soothe-help-center-mirror-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -156,22 +171,22 @@ modified: '2026-08-28'
 name: Soothe
 nav: Providers
 network: true
-overview: 'Soothe publishes 1 API on the [APIs.io](https://apis.io/) network: Help Center Mirror. Tagged areas include Company, Wellness, Health and Wellness, Massage, and Marketplace.
+overview: 'Soothe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Health API, Manifest.json API, and Soothe Help Center Mirror API. Tagged areas include Company, Wellness, Health and Wellness, Massage, and Marketplace.
 
 
-  Soothe''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
+  Soothe''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
 plans:
 - name: Soothe Plans Pricing
   plan_count: 0
   slug: soothe-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Soothe Rate Limits
   slug: soothe-rate-limits
 score:
   band: thin
-  composite: 31.2
+  composite: 31.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -179,11 +194,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 34.7
+    contract_quality: 37.4
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 2.6
@@ -195,6 +210,11 @@ score:
   previous_composite: 31.2
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
     mcp: derived
     skills: derived
   regulatory:
@@ -204,7 +224,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -131,7 +131,7 @@ overview: 'Varjo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Varjo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, and 13 more developer resources.'
-random_paper: 0
+random_paper: 18
 score:
   band: thin
   composite: 26.3
@@ -160,7 +160,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

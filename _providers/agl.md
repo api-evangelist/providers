@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -35,20 +35,45 @@ api_count: 3
 apis:
 - baseURL: https://gw-ota.tigergds.com
   baseurl_source: declared
-  description: 'Distribution-side REST API of TIGER GDS. Version 2.0, OpenAPI 3.1.1, 24 operations across five capability groups: reference code lookups (languages, currencies, continents, countries, regions, cities,'
-  name: AGL OTA API
-  slug: agl-ota
-- baseURL: https://agl-bridgeapi.tigergds.com
+  description: APIs where AGL sends reservation and cancellation requests to suppliers
+  name: AGL AGL To Supplier API
+  slug: agl-agltosupplier-api
+- baseURL: https://gw-ota.tigergds.com
   baseurl_source: declared
-  description: 'Supplier-integration bridge API between AGL and golf-club suppliers. Version 0.0.1, OpenAPI 3.1.1, 7 operations in two directions: Supplier to AGL (register a golf club, retrieve golf club information'
-  name: AGL OPEN API
-  slug: agl-open
-- baseURL: https://outboundapi-trip-reserv.tigergds.com
+  description: The Codes API from AGL — 9 operation(s) for codes.
+  name: AGL Codes API
+  slug: agl-codes-api
+- baseURL: https://gw-ota.tigergds.com
   baseurl_source: declared
-  description: AGL-operated outbound reservation bridge that accepts Trip.com-format reservation messages. OpenAPI 3.0.1, a single POST /api/v1 operation carrying a signed request header (accountId, serviceName enum
-  name: AGL Trip.com Reservation Integration API
-  slug: agl-tripcom-outbound
-artifact_total: 9
+  description: The Golf Clubs API from AGL — 2 operation(s) for golf clubs.
+  name: AGL Golf Clubs API
+  slug: agl-golf-clubs-api
+- baseURL: https://gw-ota.tigergds.com
+  baseurl_source: declared
+  description: The Reservation API from AGL — 1 operation(s) for reservation.
+  name: AGL Reservation API
+  slug: agl-reservation-api
+- baseURL: https://gw-ota.tigergds.com
+  baseurl_source: declared
+  description: The Reservations API from AGL — 6 operation(s) for reservations.
+  name: AGL Reservations API
+  slug: agl-reservations-api
+- baseURL: https://gw-ota.tigergds.com
+  baseurl_source: declared
+  description: The Static Packages API from AGL — 2 operation(s) for static packages.
+  name: AGL Static Packages API
+  slug: agl-static-packages-api
+- baseURL: https://gw-ota.tigergds.com
+  baseurl_source: declared
+  description: APIs where suppliers send data to AGL (e.g., golf club registration, tee times, etc.)
+  name: AGL Supplier To AGL API
+  slug: agl-suppliertoagl-api
+- baseURL: https://gw-ota.tigergds.com
+  baseurl_source: declared
+  description: The Tee Times API from AGL — 2 operation(s) for tee times.
+  name: AGL Tee Times API
+  slug: agl-tee-times-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Agl Webhooks
@@ -197,7 +222,7 @@ modified: '2026-09-12'
 name: AGL
 nav: Providers
 network: true
-overview: 'AGL publishes 3 APIs on the [APIs.io](https://apis.io/) network: OTA API, OPEN API, and Trip.com Reservation Integration API. Tagged areas include Company, Golf, Travel, Booking, and Reservations.
+overview: 'AGL publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AGL To Supplier API, Codes API, Golf Clubs API, and 5 more. Tagged areas include Company, Golf, Travel, Booking, and Reservations.
 
 
   The AGL catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -208,14 +233,14 @@ plans:
 - name: Agl Plans Pricing
   plan_count: 0
   slug: agl-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Agl Rate Limits
   slug: agl-rate-limits
 score:
   band: thin
-  composite: 30.6
+  composite: 32.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -223,11 +248,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
-    contract_quality: 52.7
+    contract_quality: 60.3
     developer_ergonomics: 37.5
     discoverability: 74.1
     operational_transparency: 10.5
@@ -243,14 +268,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 66.7
+      callable: 87.5
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

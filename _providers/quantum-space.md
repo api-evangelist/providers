@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -97,7 +97,7 @@ modified: '2026-08-26'
 name: Quantum Space
 nav: Providers
 network: true
-overview: 'Quantum Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Space, Aerospace, Defense, Satellites, and Spacecraft.
+overview: 'Quantum Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Space, Aerospace, Defense, Satellite, and Spacecraft.
 
 
   Quantum Space''s developer surface includes engineering blog and 8 more developer resources.'
@@ -105,7 +105,7 @@ plans:
 - name: Quantum Space Plans Pricing
   plan_count: 0
   slug: quantum-space-plans-pricing
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Quantum Space Rate Limits
@@ -135,7 +135,7 @@ score:
     - north-america
   previous_composite: 6.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ tags:
 - Space
 - Aerospace
 - Defense
-- Satellites
+- Satellite
 - Spacecraft
 - Orbital Mobility
 - National Security

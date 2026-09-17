@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ modified: '2026-06-20'
 name: Morph
 nav: Providers
 network: true
-overview: 'Morph publishes 3 APIs on the [APIs.io](https://apis.io/) network: Apply API, Embeddings API, and Rerank API. Tagged areas include Artificial Intelligence, Code Editing, Fast Apply, Embeddings, and Sandboxes.
+overview: 'Morph publishes 3 APIs on the [APIs.io](https://apis.io/) network: Apply API, Embeddings API, and Rerank API. Tagged areas include Artificial Intelligence, Code Editing, Fast Apply, Embeddings, and Sandbox.
 
 
   Morph''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -151,7 +151,7 @@ plans:
 - name: Morph Labs Plans Pricing
   plan_count: 6
   slug: morph-labs-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Morph Labs Rate Limits
@@ -183,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -204,6 +204,6 @@ tags:
 - Code Editing
 - Fast Apply
 - Embeddings
-- Sandboxes
+- Sandbox
 website: https://morphllm.com/
 ---

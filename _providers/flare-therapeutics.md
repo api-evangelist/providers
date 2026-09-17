@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.flaretx.com/wp-json
@@ -53,11 +53,6 @@ apis:
   description: Media library (419 attachments at harvest time — 400 images, 19 application/* documents, 0 video).
   name: Flare Therapeutics Media API
   slug: flare-therapeutics-media-api
-- baseURL: https://www.flaretx.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for www.flaretx.com URLs.
-  name: Flare Therapeutics Oembed API
-  slug: flare-therapeutics-oembed-api
 - baseURL: https://www.flaretx.com/wp-json
   baseurl_source: declared
   description: Corporate pages (14 published at harvest time) — home, about, science, pipeline, fx-909, fx-111, publications, news, press-releases, join-us, contact, privacy-policy, terms-of-use, flaretx.
@@ -83,6 +78,11 @@ apis:
   description: Categories and tags. Four categories are registered (News 36, Press Release 8, FlareTx 3, Uncategorized 3); the post_tag taxonomy is registered but empty.
   name: Flare Therapeutics Taxonomy API
   slug: flare-therapeutics-taxonomy-api
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for www.flaretx.com URLs.
+  name: Flare Therapeutics o Embed API
+  slug: flare-therapeutics-o-embed-api
 artifact_total: 14
 collections:
 - collection_type: open
@@ -251,7 +251,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

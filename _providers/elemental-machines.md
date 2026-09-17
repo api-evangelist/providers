@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - description: A remote Model Context Protocol server served from the elementalmachines.com WordPress host via the WordPress MCP Adapter, advertised by /.well-known/oauth-protected-resource and /.well-known/oauth-au
@@ -65,22 +65,22 @@ apis:
 - baseURL: https://api.elementalmachines.io
   baseurl_source: declared
   description: The Machines API from Elemental Machines — 2 operation(s) for machines.
-  name: Elemental Machines Machines API
+  name: Elemental Machines API
   slug: elemental-machines-machines-api
 - baseURL: https://api.elementalmachines.io
   baseurl_source: declared
   description: The Machines Sample Stats API from Elemental Machines — 1 operation(s) for machines sample stats.
-  name: Elemental Machines Machines Sample Stats API
+  name: Elemental Machines Sample Stats API
   slug: elemental-machines-machines-sample-stats-api
 - baseURL: https://api.elementalmachines.io
   baseurl_source: declared
   description: The Machines Samples API from Elemental Machines — 1 operation(s) for machines samples.
-  name: Elemental Machines Machines Samples API
+  name: Elemental Machines Samples API
   slug: elemental-machines-machines-samples-api
 - baseURL: https://api.elementalmachines.io
   baseurl_source: declared
   description: The Machines Usage API from Elemental Machines — 3 operation(s) for machines usage.
-  name: Elemental Machines Machines Usage API
+  name: Elemental Machines Usage API
   slug: elemental-machines-machines-usage-api
 - baseURL: https://api.elementalmachines.io
   baseurl_source: declared
@@ -242,7 +242,7 @@ mcp_servers:
 - description: ''
   name: Elemental Machines MCP Server
   slug: elemental-machines-mcp-server-2
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: Elemental Machines
 nav: Providers
 network: true
@@ -254,7 +254,7 @@ plans:
 - name: Elemental Machines Plans Pricing
   plan_count: 0
   slug: elemental-machines-plans-pricing
-random_paper: 9
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Elemental Machines Rate Limits
@@ -299,7 +299,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

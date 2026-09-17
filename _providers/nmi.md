@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: The core NMI Payment API (Direct Post) enables transaction processing across card-present, ecommerce, mobile, and alternative payment methods including Apple Pay and Google Pay. Supports authorization
@@ -62,6 +62,10 @@ apis:
   slug: nmi-customer-present-cloud-api
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://nmi.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nmi/refs/heads/main/security/nmi-domain-security.yml
   title: ''
@@ -119,19 +123,19 @@ finops:
   slug: finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nmi.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: NMI
 nav: Providers
 network: true
 overview: 'NMI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Payment API, Customer Vault API, Recurring Billing API, and 3 more. Tagged areas include Payments, Payment Gateway, Payment Processing, Tokenization, and Recurring Billing.
 
 
-  NMI''s developer surface includes developer portal, sandbox, support, engineering blog, and 8 more developer resources.'
+  NMI''s developer surface includes developer portal, sandbox, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 9
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -164,7 +168,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -187,5 +191,5 @@ tags:
 - Fintech
 - Embedded Payments
 - Payment Facilitation
-website: https://docs.nmi.com
+website: https://nmi.com
 ---

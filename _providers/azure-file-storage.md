@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://{account-name}.file.core.windows.net
   baseurl_source: declared
   description: File operations
-  name: Azure Files Files API
+  name: Azure Files API
   slug: azure-file-storage-files-api
 - baseURL: https://{account-name}.file.core.windows.net
   baseurl_source: declared
@@ -164,15 +164,15 @@ created: '2026-05-11'
 description: Azure Files is a fully managed cloud file share service from Microsoft Azure that provides hosted SMB and NFS file shares accessible from cloud and on-premises clients using standard file system protocols and the FileREST HTTPS API. It supports identity-based authentication via Active Directory and Microsoft Entra ID, snapshots, soft delete, and Azure File Sync for hybrid scenarios. The FileREST data-plane API uses shared key, shared access signatures (SAS), or Microsoft Entra ID OAuth 2.0 bearer tokens for authentication, while the control plane uses Azure Resource Manager.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azure-file-storage.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: Azure Files
 nav: Providers
 network: true
-overview: 'Azure Files publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Directories API, Files API, and 2 more. Tagged areas include Storage, File Storage, File Shares, SMB, and NFS.
+overview: 'Azure Files publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Directories API, and 3 more. Tagged areas include Storage, File Storage, File Shares, SMB, and NFS.
 
 
   Azure Files'' developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 8
+random_paper: 10
 scopes:
 - name: Azure File Storage Scopes
   scope_count: 1
@@ -205,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

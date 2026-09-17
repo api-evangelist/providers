@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Apache Doris provides a MySQL-compatible protocol for SQL queries, a REST API for cluster management and monitoring, Stream Load HTTP API for real-time bulk data ingestion, Routine Load for continuous
@@ -203,7 +203,7 @@ plans:
 - name: Apache Doris Plans Pricing
   plan_count: 3
   slug: apache-doris-plans-pricing
-random_paper: 3
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Apache Doris Rate Limits
@@ -242,7 +242,7 @@ score:
     score: 100.0
   previous_composite: 41.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

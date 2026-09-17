@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 31 operations · 21 acting
 api_count: 1
 apis:
-- baseURL: https://api.smsapi.com/sms.do
-  baseurl_source: declared
-  description: The 2FA API from SMSAPI — 2 operation(s) for 2fa.
-  name: SMSAPI 2FA API
-  slug: smsapi-2fa-api
 - baseURL: https://api.smsapi.com/sms.do
   baseurl_source: declared
   description: The Blacklist API from SMSAPI — 2 operation(s) for blacklist.
@@ -100,6 +95,11 @@ apis:
   description: The VMS API from SMSAPI — 1 operation(s) for vms.
   name: SMSAPI VMS API
   slug: smsapi-vms-api
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The 2 FA API from SMSAPI — 2 operation(s) for 2 fa.
+  name: SMSAPI 2 FA API
+  slug: smsapi-2-fa-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -209,7 +209,7 @@ modified: '2026-07-01'
 name: SMSAPI
 nav: Providers
 network: true
-overview: 'SMSAPI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including 2FA API, Blacklist API, Contacts API, and 8 more. Tagged areas include Messaging, SMS, MMS, Voice, and 2FA.
+overview: 'SMSAPI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blacklist API, Contacts API, HLR API, and 8 more. Tagged areas include Messaging, SMS, MMS, Voice, and 2FA.
 
 
   SMSAPI''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -217,7 +217,7 @@ plans:
 - name: Smsapi Plans Pricing
   plan_count: 3
   slug: smsapi-plans-pricing
-random_paper: 2
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Smsapi Rate Limits
@@ -255,7 +255,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

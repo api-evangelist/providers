@@ -20,7 +20,7 @@ name: Link A Media
 nav: Providers
 network: true
 overview: Link A Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Storage, Solid State Drives, and Hard Disk Drives.
-random_paper: 16
+random_paper: 7
 slug: link-a-media
 tags:
 - Company

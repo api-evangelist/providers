@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Embeddable AI chat surface for EV charging driver support. Ships as a lemonflow-chat custom element loaded from a single script tag, or as a headless iframe at /embed for teams that already operate th
@@ -42,6 +42,10 @@ apis:
   slug: chat-widget
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://lemonflow-ai.github.io
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/lemonflow-ai/refs/heads/main/security/lemonflow-ai-trust-center.yml
   title: ''
@@ -146,15 +150,15 @@ created: '2026-07-17'
 description: Lemonflow Technologies GmbH is a Munich-based company building AI agents purpose-built for the electric-vehicle charging industry. Its platform gives charge point operators (CPOs), eMobility service providers and charging software vendors 24/7 AI-driven driver support across voice, chat and email in 30+ languages, plus an Operations Hub for proactive network monitoring, OCPP log interpretation, anomaly detection and self-healing automations such as remote charger resets. The developer-facing surface is an embeddable Chat Widget - a lemonflow-chat web component (and an equivalent headless iframe) loaded from chat.lemonflow.ai and driven through a postMessage command/event API - together with a documented set of CPMS integration requirements covering bulk station data, real-time status, OCPP logs, remote actions and ticketing. Lemonflow is backed by Speedinvest.
 image: https://lemonflow.ai/favicons/apple-touch-icon.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Lemonflow
 nav: Providers
 network: true
 overview: 'Lemonflow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Customer-Support, and Electric Vehicle Charging.
 
 
-  Lemonflow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 8
+  Lemonflow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
+random_paper: 16
 score:
   band: thin
   composite: 31.8
@@ -183,7 +187,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -215,5 +219,5 @@ tags:
 - Chat Widget
 - Voice
 - Europe
-website: https://lemonflow-ai.github.io/lemonflow-docs/
+website: https://lemonflow-ai.github.io
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 6
@@ -62,11 +62,6 @@ apis:
   slug: stackrox-authproviderservice-api
 - baseURL_template: https://{central-host}
   baseurl_source: spec_template
-  description: The AuthService API from StackRox — 1 operation(s) for authservice.
-  name: StackRox AuthService API
-  slug: stackrox-authservice-api
-- baseURL_template: https://{central-host}
-  baseurl_source: spec_template
   description: The ClustersService API from StackRox — 2 operation(s) for clustersservice.
   name: StackRox ClustersService API
   slug: stackrox-clustersservice-api
@@ -85,11 +80,6 @@ apis:
   description: The ConfigService API from StackRox — 3 operation(s) for configservice.
   name: StackRox ConfigService API
   slug: stackrox-configservice-api
-- baseURL_template: https://{central-host}
-  baseurl_source: spec_template
-  description: The DBService API from StackRox — 4 operation(s) for dbservice.
-  name: StackRox DBService API
-  slug: stackrox-dbservice-api
 - baseURL_template: https://{central-host}
   baseurl_source: spec_template
   description: The DebugService API from StackRox — 1 operation(s) for debugservice.
@@ -135,11 +125,6 @@ apis:
   description: The LicenseService API from StackRox — 3 operation(s) for licenseservice.
   name: StackRox LicenseService API
   slug: stackrox-licenseservice-api
-- baseURL_template: https://{central-host}
-  baseurl_source: spec_template
-  description: The MetadataService API from StackRox — 1 operation(s) for metadataservice.
-  name: StackRox MetadataService API
-  slug: stackrox-metadataservice-api
 - baseURL_template: https://{central-host}
   baseurl_source: spec_template
   description: The NamespaceService API from StackRox — 2 operation(s) for namespaceservice.
@@ -192,11 +177,6 @@ apis:
   slug: stackrox-processwhitelistservice-api
 - baseURL_template: https://{central-host}
   baseurl_source: spec_template
-  description: The RbacService API from StackRox — 6 operation(s) for rbacservice.
-  name: StackRox RbacService API
-  slug: stackrox-rbacservice-api
-- baseURL_template: https://{central-host}
-  baseurl_source: spec_template
   description: The RoleService API from StackRox — 5 operation(s) for roleservice.
   name: StackRox RoleService API
   slug: stackrox-roleservice-api
@@ -205,11 +185,6 @@ apis:
   description: The ScopedAccessControlService API from StackRox — 5 operation(s) for scopedaccesscontrolservice.
   name: StackRox ScopedAccessControlService API
   slug: stackrox-scopedaccesscontrolservice-api
-- baseURL_template: https://{central-host}
-  baseurl_source: spec_template
-  description: The SearchService API from StackRox — 3 operation(s) for searchservice.
-  name: StackRox SearchService API
-  slug: stackrox-searchservice-api
 - baseURL_template: https://{central-host}
   baseurl_source: spec_template
   description: The SecretService API from StackRox — 3 operation(s) for secretservice.
@@ -240,6 +215,31 @@ apis:
   description: The UserService API from StackRox — 3 operation(s) for userservice.
   name: StackRox UserService API
   slug: stackrox-userservice-api
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The Auth Service API from StackRox — 1 operation(s) for auth service.
+  name: StackRox Auth Service API
+  slug: stackrox-auth-service-api
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The DB Service API from StackRox — 4 operation(s) for db service.
+  name: StackRox DB Service API
+  slug: stackrox-db-service-api
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The Metadata Service API from StackRox — 1 operation(s) for metadata service.
+  name: StackRox Metadata Service API
+  slug: stackrox-metadata-service-api
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The RBAC Service API from StackRox — 6 operation(s) for rbac service.
+  name: StackRox RBAC Service API
+  slug: stackrox-rbac-service-api
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The Search Service API from StackRox — 3 operation(s) for search service.
+  name: StackRox Search Service API
+  slug: stackrox-search-service-api
 artifact_total: 94
 collections:
 - collection_type: open
@@ -493,7 +493,7 @@ plans:
 - name: Stackrox Plans Pricing
   plan_count: 3
   slug: stackrox-plans-pricing
-random_paper: 18
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Stackrox Rate Limits
@@ -520,8 +520,8 @@ rules:
     warn: 1
   slug: stackrox-rules
 score:
-  band: thin
-  composite: 38.9
+  band: developing
+  composite: 39.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 52.3
@@ -529,11 +529,11 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 52.3
+    contract_quality: 55.3
     developer_ergonomics: 23.8
     discoverability: 59.3
     operational_transparency: 36.8
@@ -549,7 +549,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

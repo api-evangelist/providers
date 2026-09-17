@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,11 +81,11 @@ modified: '2026-07-19'
 name: Inkling
 nav: Providers
 network: true
-overview: 'Inkling is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, Learning, Training, and Employee Enablement.
+overview: 'Inkling is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Learning, Training, and Employee Enablement.
 
 
   Inkling''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
-random_paper: 13
+random_paper: 0
 score:
   band: emerging
   composite: 14.7
@@ -112,7 +112,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -127,7 +127,7 @@ security:
 slug: inkling
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Learning
 - Training
 - Employee Enablement

@@ -33,19 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
-- baseURL: http://www.idr.iitkgp.ac.in/xmlui/open-search/discover
-  baseurl_source: declared
-  description: OpenSearch 1.1 query interface over the Central Library's Institutional Digital Repository, running DSpace 6.0 self-hosted on the institute's own www.idr.iitkgp.ac.in. Verified live 2026-09-01 — /xmlu
-  name: IIT Kharagpur Institutional Digital Repository OpenSearch Interface
-  slug: idr-opensearch
-- baseURL: https://erp.iitkgp.ac.in/InfoCellDetails/resources/external/cepdata
-  baseurl_source: declared
-  description: 'The only unauthenticated endpoint on the IIT Kharagpur estate that the institute wrote itself. The ERP at erp.iitkgp.ac.in is a JAX-RS application on Apache Tomcat 8.0.51 behind a bespoke session SSO '
-  name: IIT Kharagpur ERP Continuing Education Programme Brochure Endpoint
-  slug: erp-cep-brochures
 - description: Indian Research Information Network System (IRINS) research-profile portal for IIT Kharagpur, operated by INFLIBNET — an autonomous inter-university centre of the UGC — at the institution-specific sub
   name: IIT Kharagpur IRINS Research Profile Portal (INFLIBNET tenant)
   slug: irins
@@ -55,6 +45,16 @@ apis:
 - description: IIT Kharagpur is registered in ROR as https://ror.org/03w5sq511, "Indian Institute of Technology Kharagpur" (aliases IIT KGP, IIT Kharagpur), linked to http://www.iitkgp.ac.in/. Retrieved from https:/
   name: Research Organization Registry membership
   slug: ror
+- baseURL: http://www.idr.iitkgp.ac.in/xmlui/open-search/discover
+  baseurl_source: declared
+  description: Continuing Education Programme course documents. One operation, verified live 2026-09-01.
+  name: Indian Institute of Technology Kharagpur Continuing Education API
+  slug: indian-institute-of-technology-kharagpur-continuing-education-api
+- baseURL: http://www.idr.iitkgp.ac.in/xmlui/open-search/discover
+  baseurl_source: declared
+  description: OpenSearch 1.1 description and query operations. All parameters verified live 2026-09-01.
+  name: Indian Institute of Technology Kharagpur Open Search API
+  slug: indian-institute-of-technology-kharagpur-open-search-api
 artifact_total: 14
 common:
 - group: company
@@ -182,7 +182,7 @@ modified: '2026-09-01'
 name: Indian Institute of Technology Kharagpur
 nav: Providers
 network: true
-overview: 'Indian Institute of Technology Kharagpur publishes 2 APIs on the [APIs.io](https://apis.io/) network: IIT Kharagpur Institutional Digital Repository OpenSearch Interface and IIT Kharagpur ERP Continuing Education Programme Brochure Endpoint. Tagged areas include Education, Higher Education, University, Institute of Technology, and India.
+overview: 'Indian Institute of Technology Kharagpur publishes 2 APIs on the [APIs.io](https://apis.io/) network: Continuing Education API and Open Search API. Tagged areas include Education, Higher Education, University, Institute of Technology, and India.
 
 
   The Indian Institute of Technology Kharagpur catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -193,7 +193,7 @@ plans:
 - name: Indian Institute Of Technology Kharagpur Plans Pricing
   plan_count: 2
   slug: indian-institute-of-technology-kharagpur-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Indian Institute Of Technology Kharagpur Rate Limits
@@ -211,21 +211,21 @@ rules:
   slug: indian-institute-of-technology-kharagpur-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 42.7
   coverage:
     artifact_dirs: 16
-    catalog_earned: 69.3
+    catalog_earned: 76.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.8
+    catalog_gap: 38.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 39.5
     contract_governance: 3.8
-    contract_quality: 67.1
+    contract_quality: 68.3
     developer_ergonomics: 28.6
-    discoverability: 59.3
+    discoverability: 64.8
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -249,7 +249,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

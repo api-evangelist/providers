@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Iss Api Plans
   plan_count: 1
   slug: iss-api-plans
-random_paper: 1
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Iss Api Rate Limits
@@ -191,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +214,7 @@ tags:
 - Astronauts
 - Real-Time
 - Open-Source
-- Public API
+- Public APIs
 - Free
 website: http://open-notify.org/
 ---

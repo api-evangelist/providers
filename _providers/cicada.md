@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Cicada is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cicada''s developer surface includes documentation, API reference, support, and 6 more developer resources.'
-random_paper: 9
+random_paper: 3
 score:
   band: emerging
   composite: 13.0
@@ -119,7 +119,7 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

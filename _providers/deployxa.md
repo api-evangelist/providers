@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -36,11 +36,21 @@ api_count: 1
 apis:
 - baseURL: https://deployxa.com
   baseurl_source: declared
-  description: 'AI-first autonomous cloud deployment platform API. The published OpenAPI 3.0.3 contract covers project creation and deployment execution under /api/v1 (versioned URI paths, Deprecation/Sunset headers '
-  name: Deployxa Platform
-  slug: deployxa-platform
-artifact_total: 10
+  description: The Deployments API from Deployxa — 1 operation(s) for deployments.
+  name: Deployxa Deployments API
+  slug: deployxa-deployments-api
+- baseURL: https://deployxa.com
+  baseurl_source: declared
+  description: The Projects API from Deployxa — 1 operation(s) for projects.
+  name: Deployxa Projects API
+  slug: deployxa-projects-api
+artifact_total: 11
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/mcp/deployxa-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/deployxa-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -198,6 +208,10 @@ common:
   title: ''
   type: DataModel
   url: data-model/deployxa-data-model.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@deployxa.com
 created: '2026-09-05'
 description: AI-first autonomous cloud deployment platform for deploying AI-built and containerized web apps to production, featuring a deployment intelligence engine, global edge deployment, managed databases, VPS clusters, and a CLI. Publishes an OpenAPI 3.0.3 contract at /openapi.json, an llms.txt, an A2A agent card with an AP2 agentic-payments extension, an RFC 9727 api-catalog, OAuth 2.0 discovery metadata, and an OAuth-gated hosted MCP server at mcp.deployxa.com — all verified live 2026-09-05.
 image: https://deployxa.com/og/home.png
@@ -210,15 +224,15 @@ modified: '2026-09-05'
 name: Deployxa
 nav: Providers
 network: true
-overview: 'Deployxa publishes 1 API on the [APIs.io](https://apis.io/) network: Platform. Tagged areas include Platform-as-a-Service, Cloud Deployment, DevOps, CI/CD, and containers-docker.
+overview: 'Deployxa publishes 2 APIs on the [APIs.io](https://apis.io/) network: Deployments API and Projects API. Tagged areas include Platform-as-a-Service, Cloud Deployment, DevOps, CI/CD, and containers-docker.
 
 
-  Deployxa''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, changelog, authentication, and 27 more developer resources.'
+  Deployxa''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, changelog, authentication, and 29 more developer resources.'
 plans:
 - name: Deployxa Plans Pricing
   plan_count: 4
   slug: deployxa-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Deployxa Rate Limits
@@ -230,7 +244,7 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.0
+  composite: 57.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.0
@@ -238,11 +252,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 40.1
+    contract_quality: 44.2
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 52.6
@@ -250,10 +264,15 @@ score:
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -283,7 +302,7 @@ tags:
 - CI/CD
 - containers-docker
 - edge-hosting
-- Managed Databases
+- Managed Database
 - AIOps
 - Developer Tools
 website: https://deployxa.com

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,30 +11,67 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.8
-  scored_at: '2026-09-15'
+  score: 35.7
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: REST API for fetching public YouTube transcripts synchronously and in bulk, with account/balance endpoints, job polling, and completion webhooks. Bearer API key or X-API-Key auth.
-  name: Media Caption Public API
-  slug: media-caption-public-api
-artifact_total: 7
+- baseURL: https://api.mediacaption.io/v1
+  baseurl_source: declared
+  description: Authenticated account credit balance endpoints.
+  name: MediaCaption API Balance API
+  slug: mediacaption-api-balance-api
+- baseURL: https://api.mediacaption.io/v1
+  baseurl_source: declared
+  description: Async job status and item result endpoints.
+  name: MediaCaption API Jobs API
+  slug: mediacaption-api-jobs-api
+- baseURL: https://api.mediacaption.io/v1
+  baseurl_source: declared
+  description: Retained transcript lookup endpoints.
+  name: MediaCaption API Transcriptions API
+  slug: mediacaption-api-transcriptions-api
+- baseURL: https://api.mediacaption.io/v1
+  baseurl_source: declared
+  description: Synchronous and async public YouTube transcript endpoints.
+  name: MediaCaption API Transcripts API
+  slug: mediacaption-api-transcripts-api
+- baseURL: https://api.mediacaption.io/v1
+  baseurl_source: declared
+  description: Multipart media upload and AI transcription endpoints.
+  name: MediaCaption API Uploads API
+  slug: mediacaption-api-uploads-api
+- baseURL: https://api.mediacaption.io/v1
+  baseurl_source: declared
+  description: Authenticated account endpoints.
+  name: MediaCaption API User API
+  slug: mediacaption-api-user-api
+- baseURL: https://api.mediacaption.io/v1
+  baseurl_source: declared
+  description: Job-level webhook event contracts.
+  name: MediaCaption API Webhooks API
+  slug: mediacaption-api-webhooks-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Mediacaption Api Webhooks
   slug: mediacaption-api-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mediacaption-api/refs/heads/main/overlays/mediacaption-api-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/mediacaption-api-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -146,25 +183,25 @@ modified: '2026-09-03'
 name: MediaCaption API
 nav: Providers
 network: true
-overview: 'MediaCaption API publishes 1 API on the [APIs.io](https://apis.io/) network: Media Caption Public API. Tagged areas include YouTube, Transcription, Captions, Subtitles, and Video.
+overview: 'MediaCaption API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Jobs API, Transcriptions API, and 4 more. Tagged areas include YouTube, Transcription, Captions, Subtitles, and Video.
 
 
   The MediaCaption API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MediaCaption API''s developer surface includes authentication, changelog, pricing, support, and 17 more developer resources.'
+  MediaCaption API''s developer surface includes authentication, changelog, pricing, support, and 18 more developer resources.'
 plans:
 - name: Mediacaption Api Plans Pricing
   plan_count: 2
   slug: mediacaption-api-plans-pricing
-random_paper: 4
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Mediacaption Api Rate Limits
   slug: mediacaption-api-rate-limits
 score:
   band: developing
-  composite: 48.0
+  composite: 51.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 54.0
@@ -172,11 +209,11 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.9
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 48.1
+    contract_quality: 63.7
     developer_ergonomics: 47.0
     discoverability: 63.0
     operational_transparency: 55.3
@@ -187,11 +224,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

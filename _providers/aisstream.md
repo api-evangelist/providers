@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: wss://stream.aisstream.io/v0/stream
@@ -113,7 +113,7 @@ plans:
 - name: Aisstream Plans Pricing
   plan_count: 1
   slug: aisstream-plans-pricing
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Aisstream Rate Limits
@@ -150,7 +150,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 38.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

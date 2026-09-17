@@ -25,7 +25,7 @@ name: thefacefeed
 nav: Providers
 network: true
 overview: thefacefeed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 11
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/thefacefeed/refs/heads/main/screenshots/thefacefeed-2026-09-02T163431.png
 slug: thefacefeed
 tags:

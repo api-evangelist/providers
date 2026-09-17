@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://api.observepoint.com
@@ -565,7 +565,7 @@ plans:
 - name: Observepoint Plans Pricing
   plan_count: 0
   slug: observepoint-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Observepoint Rate Limits
@@ -599,7 +599,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

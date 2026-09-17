@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://hub.docker.com/v2
   baseurl_source: declared
   description: The authentication endpoints allow you to authenticate with Docker Hub APIs. For more information, see [Authentication](#tag/authentication).
-  name: Docker Hub authentication-api API
+  name: Docker Hub authentication-api
   slug: docker-hub-authentication-api-api
 - baseURL: https://hub.docker.com/v2
   baseurl_source: declared
@@ -230,11 +230,11 @@ finops:
   slug: docker-hub-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/docker-hub.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Docker Hub
 nav: Providers
 network: true
-overview: 'Docker Hub publishes 10 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, audit-logs API, authentication-api API, and 7 more. Tagged areas include Containers, DevOps, Docker, and Registry.
+overview: 'Docker Hub publishes 10 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, audit-logs API, authentication-api, and 7 more. Tagged areas include Containers, DevOps, Docker, and Registry.
 
 
   Docker Hub''s developer surface includes authentication, documentation, signup flow, pricing, changelog, engineering blog, support, and 14 more developer resources.'
@@ -242,14 +242,14 @@ plans:
 - name: Docker Hub Plans Pricing
   plan_count: 3
   slug: docker-hub-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Docker Hub Rate Limits
   slug: docker-hub-rate-limits
 score:
   band: developing
-  composite: 43.2
+  composite: 43.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 38.0
@@ -257,11 +257,11 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 56.7
+    contract_quality: 58.5
     developer_ergonomics: 28.6
     discoverability: 61.1
     operational_transparency: 44.7
@@ -274,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

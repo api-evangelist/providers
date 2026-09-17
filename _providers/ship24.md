@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://api.ship24.com
   baseurl_source: declared
   description: The Ship24 Tracking API API from Ship24 — 0 operation(s) for ship24 tracking api.
-  name: Ship24 Ship24 Tracking API
+  name: Ship24 Tracking API
   slug: ship24-ship24-tracking-api-api
 artifact_total: 36
 collections:
@@ -222,18 +222,18 @@ jsonld:
   property_count: 2
   slug: ship24-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Ship24
 nav: Providers
 network: true
-overview: 'Ship24 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ➕ API for per-call plans API, 🚚 Couriers API, 📦 Trackers API, and 1 more. Tagged areas include Tracking, Logistics, Shipping, Couriers, and Parcels.
+overview: 'Ship24 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ➕ API for per-call plans API, 🚚 Couriers API, 📦 Trackers API, and 1 more. Tagged areas include Tracking, Logistics, Shipping, Couriers, and Parcel.
 
 
   The Ship24 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
   Ship24''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, status page, and 16 more developer resources.'
-random_paper: 13
+random_paper: 10
 rules:
 - effective_rule_count: 5
   extends: []
@@ -283,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -304,7 +304,7 @@ tags:
 - Logistics
 - Shipping
 - Couriers
-- Parcels
+- Parcel
 - Webhook
 - E-Commerce
 - Post-Purchase

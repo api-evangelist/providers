@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -114,7 +114,7 @@ modified: '2026-08-17'
 name: Joy (ex-Privateaser)
 nav: Providers
 network: true
-overview: 'Joy (ex-Privateaser) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Reservations, Bookings, and Restaurant.
+overview: 'Joy (ex-Privateaser) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Reservations, Booking, and Restaurant.
 
 
   Joy (ex-Privateaser)''s developer surface includes support, engineering blog, pricing, and 9 more developer resources.'
@@ -122,7 +122,7 @@ plans:
 - name: Joy Io Plans Pricing
   plan_count: 3
   slug: joy-io-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Joy Io Rate Limits
@@ -155,7 +155,7 @@ score:
     - france-iberia
   previous_composite: 22.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +172,7 @@ tags:
 - Company
 - Marketplace
 - Reservations
-- Bookings
+- Booking
 - Restaurant
 - Hospitality
 - Event

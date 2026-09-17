@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -120,6 +120,10 @@ collections:
   name: Fitbit Activity Foods User API
   slug: open-fitbit-user-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://fitbit.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -359,22 +363,22 @@ jsonld:
   property_count: 10
   slug: fitbit-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Fitbit
 nav: Providers
 network: true
-overview: 'Fitbit publishes 3 APIs on the [APIs.io](https://apis.io/) network: User API, Foods API, and Oauth2 API. Tagged areas include Wearable, Health, Fitness, Activity Tracking, and Heart Rate.
+overview: 'Fitbit publishes 3 APIs on the [APIs.io](https://apis.io/) network: User API, Foods API, and Oauth2 API. Tagged areas include Wearables, Health, Fitness, Activity Tracking, and Heart Rate.
 
 
   The Fitbit catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Fitbit''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, tooling, and 40 more developer resources.'
+  Fitbit''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, tooling, and 41 more developer resources.'
 plans:
 - name: Fitbit Plans Pricing
   plan_count: 6
   slug: fitbit-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Fitbit Rate Limits
@@ -439,7 +443,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -456,7 +460,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: fitbit
 tags:
-- Wearable
+- Wearables
 - Health
 - Fitness
 - Activity Tracking
@@ -464,5 +468,5 @@ tags:
 - Sleep
 - Google
 - IoT
-website: https://www.fitbit.com
+website: https://fitbit.com
 ---

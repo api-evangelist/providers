@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://partner-api.sensehq.com/v1
@@ -61,11 +61,6 @@ apis:
   description: The credential and or certificate of Candidate, or as required by a Job.
   name: Sense Talent Labs Certification API
   slug: sense-talent-labs-certification-api
-- baseURL: https://partner-api.sensehq.com/v1
-  baseurl_source: declared
-  description: A contact person at a Company.
-  name: Sense Talent Labs Client Contact API
-  slug: sense-talent-labs-clientcontact-api
 - baseURL: https://partner-api.sensehq.com/v1
   baseurl_source: declared
   description: A company that is a client of your organization.
@@ -96,6 +91,11 @@ apis:
   description: Sending a Candidate’s info for additional review.
   name: Sense Talent Labs Submission API
   slug: sense-talent-labs-submission-api
+- baseURL: https://partner-api.sensehq.com/v1
+  baseurl_source: declared
+  description: A contact person at a Company.
+  name: Sense Talent Labs Client Contact API
+  slug: sense-talent-labs-client-contact-api
 artifact_total: 19
 asyncapis:
 - description: ''
@@ -269,7 +269,7 @@ plans:
 - name: Sense Talent Labs Plans Pricing
   plan_count: 6
   slug: sense-talent-labs-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Sense Talent Labs Rate Limits
@@ -308,7 +308,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

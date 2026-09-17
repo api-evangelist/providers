@@ -19,22 +19,22 @@ agent_readiness:
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.4
-  scored_at: '2026-09-15'
+  score: 43.1
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
-- baseURL: https://api.workspot.com
-  baseurl_source: declared
-  description: REST API for Workspot Control, the SaaS management plane for Workspot Cloud PCs. 105 operations across 85 paths for IT Service Management (ITSM), automation and scripting tools — provisioning and life
-  name: Workspot Control REST API
-  slug: control
 - description: HMAC-SHA256 authenticated REST API for fetching Workspot Control event data — end-user and administrator actions — into Splunk or any other SIEM. Uses a submit/poll/fetch flow with checkpoint-based in
   name: Workspot SIEM (Splunk) Events API
   slug: siem
+- baseURL: https://api.workspot.com
+  baseurl_source: declared
+  description: Workspot Control REST interface for administrators. See the descriptions below and <a href="https://docs.workspot.com/v1/docs/using-the-workspot-control-api">Using the Workspot Control API </a>for add
+  name: Workspot AP Is API
+  slug: workspot-apis-api
 artifact_total: 10
 asyncapis:
 - description: ''
@@ -189,10 +189,10 @@ common:
   type: Swagger
   url: openapi/workspot-control-openapi-original.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/openapi/workspot-control-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/workspot/refs/heads/main/openapi/_original/workspot-control-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/workspot-control-openapi.json
+  url: openapi/_original/workspot-control-openapi.json
 - group: commercial
   title: ''
   type: ServiceLevelAgreement
@@ -205,11 +205,11 @@ mcp_servers:
 - description: ''
   name: Workspot MCP Server
   slug: workspot-mcp-server
-modified: '2026-09-04'
+modified: '2026-09-16'
 name: Workspot
 nav: Providers
 network: true
-overview: 'Workspot publishes 1 API on the [APIs.io](https://apis.io/) network: Control REST API. Tagged areas include Virtual Desktop Infrastructure, Desktop as a Service, Cloud PC, End User Computing, and Cloud Infrastructure.
+overview: 'Workspot publishes 1 API on the [APIs.io](https://apis.io/) network: AP Is API. Tagged areas include Virtual Desktop Infrastructure, Desktop as a Service, Cloud PC, End User Computing, and Cloud Infrastructure.
 
 
   The Workspot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -220,14 +220,14 @@ plans:
 - name: Workspot Plans Pricing
   plan_count: 0
   slug: workspot-plans-pricing
-random_paper: 2
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Workspot Rate Limits
   slug: workspot-rate-limits
 score:
   band: developing
-  composite: 51.5
+  composite: 53.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -235,11 +235,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 54.5
+    contract_quality: 61.7
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 52.6
@@ -254,7 +254,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -103,11 +103,11 @@ modified: '2026-07-19'
 name: Forma
 nav: Providers
 network: true
-overview: 'Forma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, Employee Benefits, Lifestyle Spending Accounts, and Flexible Spending Accounts.
+overview: 'Forma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Employee Benefits, Lifestyle Spending Accounts, and Flexible Spending Accounts.
 
 
   Forma''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 8
+random_paper: 5
 score:
   band: emerging
   composite: 19.7
@@ -134,7 +134,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +157,7 @@ security:
 slug: forma
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Employee Benefits
 - Lifestyle Spending Accounts
 - Flexible Spending Accounts

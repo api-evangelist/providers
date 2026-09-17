@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 3
@@ -138,7 +138,7 @@ apis:
 - baseURL: https://api.fireblocks.io/v1
   baseurl_source: declared
   description: The Fireblocks Network API from fireblocks — 11 operation(s) for fireblocks network.
-  name: fireblocks Fireblocks Network API
+  name: fireblocks Network API
   slug: fireblocks-fireblocks-network-api
 - baseURL: https://api.fireblocks.io/v1
   baseurl_source: declared
@@ -820,11 +820,11 @@ jsonld:
   property_count: 12
   slug: fireblocks-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Fireblocks
 nav: Providers
 network: true
-overview: 'Fireblocks publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Vaults API, Transactions API, Tokenization API, and 32 more.
+overview: 'Fireblocks publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Vaults API, Transactions API, Tokenization API, and 32 more. Tagged areas include Digital Assets, Custody, Vault, Transaction, and Tokenization.
 
 
   The Fireblocks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -835,7 +835,7 @@ plans:
 - name: Fireblocks Plans Pricing
   plan_count: 6
   slug: fireblocks-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Fireblocks Rate Limits
@@ -853,21 +853,21 @@ rules:
   slug: fireblocks-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.5
+  composite: 66.4
   coverage:
     artifact_dirs: 15
-    catalog_earned: 76.3
+    catalog_earned: 81.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.8
+    catalog_gap: 33.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 78.9
     contract_governance: 9.8
-    contract_quality: 67.6
+    contract_quality: 67.5
     developer_ergonomics: 70.2
-    discoverability: 66.7
+    discoverability: 75.9
     operational_transparency: 68.4
   previous_composite: 65.5
   provenance:
@@ -877,11 +877,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -901,5 +898,12 @@ security:
   slug: fireblocks-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018
 slug: fireblocks
+tags:
+- Digital Assets
+- Custody
+- Vault
+- Transaction
+- Tokenization
+- Stablecoins
 website: https://www.fireblocks.com/
 ---

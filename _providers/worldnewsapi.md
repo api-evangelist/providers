@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.2
-  scored_at: '2026-09-15'
+  score: 37.1
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,45 +46,10 @@ api_count: 2
 apis:
 - baseURL: https://api.worldnewsapi.com
   baseurl_source: declared
-  description: Extract article content and links from arbitrary news URLs.
-  name: World News API Extract News API
-  slug: worldnewsapi-extract-news-api
-- baseURL: https://api.worldnewsapi.com
-  baseurl_source: declared
-  description: Retrieve newspaper front-page images by country and date.
-  name: World News API Front Pages API
-  slug: worldnewsapi-front-pages-api
-- baseURL: https://api.worldnewsapi.com
-  baseurl_source: declared
-  description: Resolve a place name to latitude/longitude for local news search.
-  name: World News API Geo Coordinates API
-  slug: worldnewsapi-geo-coordinates-api
-- baseURL: https://api.worldnewsapi.com
-  baseurl_source: declared
-  description: Discover and inspect available news sources.
-  name: World News API News Sources API
-  slug: worldnewsapi-news-sources-api
-- baseURL: https://api.worldnewsapi.com
-  baseurl_source: declared
-  description: Retrieve full article records by id.
-  name: World News API Retrieve News API
-  slug: worldnewsapi-retrieve-news-api
-- baseURL: https://api.worldnewsapi.com
-  baseurl_source: declared
-  description: Full-text, semantic, and geo/local news search.
-  name: World News API Search News API
-  slug: worldnewsapi-search-news-api
-- baseURL: https://api.worldnewsapi.com
-  baseurl_source: declared
-  description: Country-level top news clustered by coverage.
-  name: World News API Top News API
-  slug: worldnewsapi-top-news-api
-- baseURL: https://api.worldnewsapi.com
-  baseurl_source: declared
   description: The News API from World News API — 9 operation(s) for news.
   name: World News API News API
   slug: worldnewsapi-news-api
-artifact_total: 24
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -335,13 +300,13 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/worldnewsa
 layout: provider
 mcp_servers:
 - description: World News API publishes a first-party MCP server that exposes eight news tools over stdio. It is a locally installed npm package - there is no hosted remote MCP endpoint - so a human installs and run
-  name: World News API MCP Server
-  slug: world-news-api-mcp-server
+  name: World News API MCP Server (local stdio)
+  slug: world-news-api-mcp-server-local-stdio
 modified: '2026-08-13'
 name: World News API
 nav: Providers
 network: true
-overview: 'World News API publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Extract News API, Front Pages API, Geo Coordinates API, and 5 more. Tagged areas include News, Local News, News Search, Media Monitoring, and Geo Search.
+overview: 'World News API publishes 1 API on the [APIs.io](https://apis.io/) network: News API. Tagged areas include News, Local News, News Search, Media Monitoring, and Geo Search.
 
 
   World News API''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, developer console, support, and 39 more developer resources.'
@@ -349,14 +314,14 @@ plans:
 - name: Worldnewsapi Plans Pricing
   plan_count: 4
   slug: worldnewsapi-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Worldnewsapi Rate Limits
   slug: worldnewsapi-rate-limits
 score:
   band: strong
-  composite: 63.1
+  composite: 63.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 64.0
@@ -364,11 +329,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 53.7
+    contract_quality: 53.4
     developer_ergonomics: 75.6
     discoverability: 75.9
     operational_transparency: 73.7
@@ -380,11 +345,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 1
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

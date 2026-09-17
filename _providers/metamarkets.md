@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: HTTPS event-ingestion API for streaming batches of newline-delimited JSON, OpenRTB 2.5-based ad-tech event records (e.g. MmxAuctionSummary) to the Metamarkets platform for near-real-time dashboarding.
@@ -44,6 +44,10 @@ apis:
   slug: metamarkets-real-time-data-ingestion-rdi-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://metamarkets.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/metamarkets/refs/heads/main/security/metamarkets-domain-security.yml
   title: ''
@@ -163,19 +167,19 @@ examples:
   slug: metamarkets-impression-record
 image: https://files.readme.io/7e7ea7f-small-MMX-logo.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: Metamarkets
 nav: Providers
 network: true
 overview: 'Metamarkets publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Analytics, and Real-Time.
 
 
-  Metamarkets'' developer surface includes documentation, getting-started guide, support, CLI, authentication, sandbox, API reference, and 15 more developer resources.'
+  Metamarkets'' developer surface includes documentation, getting-started guide, support, CLI, authentication, sandbox, API reference, and 16 more developer resources.'
 plans:
 - name: Metamarkets Plans Pricing
   plan_count: 0
   slug: metamarkets-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Metamarkets Rate Limits
@@ -202,7 +206,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -229,4 +233,5 @@ tags:
 - Programmatic Advertising
 - OpenRTB
 - Business Intelligence
+website: https://metamarkets.com
 ---

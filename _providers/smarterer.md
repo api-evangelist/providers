@@ -19,7 +19,7 @@ name: Smarterer
 nav: Providers
 network: true
 overview: Smarterer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Skills Assessment, EdTech, and Education.
-random_paper: 15
+random_paper: 13
 slug: smarterer
 tags:
 - Company

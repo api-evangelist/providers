@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -84,11 +84,6 @@ apis:
   description: API health and availability checks
   name: Adobe Lightroom Health API
   slug: lightroom-health-api
-- baseURL: https://lr.adobe.io/v2
-  baseurl_source: spec
-  description: Upload and manage original master files
-  name: Adobe Lightroom Master API
-  slug: lightroom-master-api
 - baseURL: https://image.adobe.io
   baseurl_source: spec
   description: Apply Lightroom presets (XMP develop settings) to images
@@ -99,12 +94,7 @@ apis:
   description: Retrieve generated renditions (previews and thumbnails)
   name: Adobe Lightroom Renditions API
   slug: lightroom-renditions-api
-- baseURL: https://lr.adobe.io/v2
-  baseurl_source: spec
-  description: Read and write external develop XMP sidecar files
-  name: Adobe Lightroom XMP API
-  slug: lightroom-xmp-api
-artifact_total: 179
+artifact_total: 177
 collections:
 - collection_type: postman
   name: Adobe Lightroom Lightroom Albums Album Assets API
@@ -686,7 +676,7 @@ modified: '2026-05-19'
 name: Adobe Lightroom
 nav: Providers
 network: true
-overview: 'Adobe Lightroom publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Album Assets API, Albums API, Assets API, and 9 more. Tagged areas include Cloud Storage, Image Editing, Metadata, Photo Management, and Photography.
+overview: 'Adobe Lightroom publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Album Assets API, Albums API, Assets API, and 7 more. Tagged areas include Cloud Storage, Image Editing, Metadata, Photo Management, and Photography.
 
 
   The Adobe Lightroom catalog on APIs.io includes 6 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -697,7 +687,7 @@ plans:
 - name: Lightroom Plans Pricing
   plan_count: 3
   slug: lightroom-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Lightroom Rate Limits
@@ -754,9 +744,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

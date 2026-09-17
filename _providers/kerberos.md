@@ -21,11 +21,11 @@ modified: '2026-04-28'
 name: Kerberos
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 3
 slug: kerberos
 tags:
 - Authentication
 - Kerberos
 - Security
-- Single Sign-On
+- SSO
 ---

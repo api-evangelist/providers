@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -514,7 +514,7 @@ modified: '2026-08-13'
 name: Amazon Clean Rooms
 nav: Providers
 network: true
-overview: 'Amazon Clean Rooms publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Collaborations API, Configured Tables API, Memberships API, and 1 more. Tagged areas include Cleanrooms, Data Collaboration, Privacy, Analytics, and Marketing.
+overview: 'Amazon Clean Rooms publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Collaborations API, Configured Tables API, Memberships API, and 1 more. Tagged areas include Cleanroom, Data Collaboration, Privacy, Analytics, and Marketing.
 
 
   The Amazon Clean Rooms catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -525,7 +525,7 @@ plans:
 - name: Amazon Clean Rooms Plans Pricing
   plan_count: 0
   slug: amazon-clean-rooms-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Amazon Clean Rooms Rate Limits
@@ -582,7 +582,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -607,7 +607,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-clean-rooms
 tags:
-- Cleanrooms
+- Cleanroom
 - Data Collaboration
 - Privacy
 - Analytics

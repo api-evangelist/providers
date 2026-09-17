@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 11
 apis:
 - baseURL: https://api.bombora.com/intent/v1
@@ -48,11 +48,6 @@ apis:
 - description: Partner API for orchestrating Company Surge reports — create reports with topic, geography, blacklist, and AutoGen options (POST /v4/Surge/Create), list reports (GET /v4/Surge/GetList), and retrieve r
   name: Bombora Company Surge API (v4)
   slug: bombora-company-surge-api
-- baseURL: https://api.bombora.com
-  baseurl_source: declared
-  description: The AccountLists API from Bombora — 2 operation(s) for accountlists.
-  name: Bombora Account Lists API
-  slug: bombora-accountlists-api
 - baseURL: https://api.bombora.com
   baseurl_source: declared
   description: The Accounts API from Bombora — 4 operation(s) for accounts.
@@ -110,11 +105,6 @@ apis:
   slug: bombora-install-data-api
 - baseURL: https://api.bombora.com
   baseurl_source: declared
-  description: The Oauth API from Bombora — 1 operation(s) for oauth.
-  name: Bombora OAUTH API
-  slug: bombora-oauth-api
-- baseURL: https://api.bombora.com
-  baseurl_source: declared
   description: The SignalDefinition API from Bombora — 5 operation(s) for signaldefinition.
   name: Bombora Signal Definition API
   slug: bombora-signaldefinition-api
@@ -123,6 +113,16 @@ apis:
   description: The Suspend API from Bombora — 1 operation(s) for suspend.
   name: Bombora Suspend API
   slug: bombora-suspend-api
+- baseURL: https://api.bombora.com/intent/v1
+  baseurl_source: declared
+  description: The Oauth API from Bombora — 1 operation(s) for oauth.
+  name: Bombora OAUTH API
+  slug: bombora-oauth-api
+- baseURL: https://api.bombora.com/intent/v1
+  baseurl_source: declared
+  description: The account lists API from Bombora — 2 operation(s) for account lists.
+  name: Bombora account lists API
+  slug: bombora-account-lists-api
 artifact_total: 30
 asyncapis:
 - description: ''
@@ -371,7 +371,7 @@ modified: '2026-08-13'
 name: Bombora
 nav: Providers
 network: true
-overview: 'Bombora publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Intent API, Account Lists API, Accounts API, and 13 more. Tagged areas include Intent Data, B2B Intent, Company Surge, Account Based Marketing, and Sales Intelligence.
+overview: 'Bombora publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Intent API, Accounts API, Activate API, and 13 more. Tagged areas include Intent Data, B2B Intent, Company Surge, Account Based Marketing, and Sales Intelligence.
 
 
   The Bombora catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -382,14 +382,14 @@ plans:
 - name: Bombora Plans Pricing
   plan_count: 0
   slug: bombora-plans-pricing
-random_paper: 3
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Bombora Rate Limits
   slug: bombora-rate-limits
 score:
   band: developing
-  composite: 45.0
+  composite: 45.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 48.0
@@ -397,11 +397,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 66.8
+    contract_quality: 69.6
     developer_ergonomics: 30.4
     discoverability: 81.5
     operational_transparency: 47.4
@@ -421,7 +421,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Requests is a simple and elegant HTTP library for Python, designed for human beings. It provides a clean, human-friendly API for all standard HTTP methods with automatic content handling, authenticati
@@ -140,7 +140,7 @@ plans:
 - name: Requests Plans Pricing
   plan_count: 3
   slug: requests-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Requests Rate Limits
@@ -182,7 +182,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

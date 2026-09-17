@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -75,11 +75,6 @@ apis:
   description: Manage hardware and software assets
   name: SolarWinds Assets API
   slug: solarwinds-assets-api
-- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
-  baseurl_source: declared
-  description: Perform bulk create, update, and delete operations
-  name: SolarWinds BulkOperations API
-  slug: solarwinds-bulkoperations-api
 - baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
   baseurl_source: declared
   description: Manage categories for incidents and requests
@@ -152,19 +147,9 @@ apis:
   slug: solarwinds-results-api
 - baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
   baseurl_source: declared
-  description: Manage saved searches
-  name: SolarWinds SavedSearches API
-  slug: solarwinds-savedsearches-api
-- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
-  baseurl_source: declared
   description: Search and retrieve log events
   name: SolarWinds Search API
   slug: solarwinds-search-api
-- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
-  baseurl_source: declared
-  description: Manage service requests
-  name: SolarWinds ServiceRequests API
-  slug: solarwinds-servicerequests-api
 - baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
   baseurl_source: declared
   description: Retrieve performance and outage summaries
@@ -185,6 +170,21 @@ apis:
   description: Manage user accounts
   name: SolarWinds Users API
   slug: solarwinds-users-api
+- baseURL: https://{dpa-server}:8124/iwc/api
+  baseurl_source: declared
+  description: Perform bulk create, update, and delete operations
+  name: SolarWinds Bulk Operations API
+  slug: solarwinds-bulk-operations-api
+- baseURL: https://{dpa-server}:8124/iwc/api
+  baseurl_source: declared
+  description: Manage saved searches
+  name: SolarWinds Saved Searches API
+  slug: solarwinds-saved-searches-api
+- baseURL: https://{dpa-server}:8124/iwc/api
+  baseurl_source: declared
+  description: Manage service requests
+  name: SolarWinds Service Requests API
+  slug: solarwinds-service-requests-api
 artifact_total: 332
 collections:
 - collection_type: postman
@@ -1144,7 +1144,7 @@ modified: '2026-05-19'
 name: SolarWinds
 nav: Providers
 network: true
-overview: 'SolarWinds publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Account API, Assets API, BulkOperations API, and 21 more. Tagged areas include Application Monitoring, Database Monitoring, Infrastructure, IP Address Management, and IT Management.
+overview: 'SolarWinds publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Account API, Assets API, Categories API, and 21 more. Tagged areas include Application Monitoring, Database Monitoring, Infrastructure, IP Address Management, and IT Management.
 
 
   The SolarWinds catalog on APIs.io includes 6 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1155,7 +1155,7 @@ plans:
 - name: Solarwinds Plans Pricing
   plan_count: 1
   slug: solarwinds-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Solarwinds Rate Limits
@@ -1209,7 +1209,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

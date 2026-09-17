@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 69
 apis:
 - description: Qlik provides APIs to support automation, configuration, observability, and integration with third-party applications to incorporate Qlik Cloud capabilities directly into those applications.
@@ -245,6 +245,10 @@ apis:
   slug: qix
 artifact_total: 74
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://qlik.dev
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/qlik/refs/heads/main/security/qlik-domain-security.yml
   title: ''
@@ -334,19 +338,19 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Qlik
 nav: Providers
 network: true
-overview: 'Qlik publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Users API, Spaces API, and 61 more.
+overview: 'Qlik publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Users API, Spaces API, and 61 more. Tagged areas include Security, Access Control, Machine-Learning, and Artificial Intelligence.
 
 
-  Qlik''s developer surface includes authentication, getting-started guide, CLI, documentation, code examples, changelog, engineering blog, and 12 more developer resources.'
+  Qlik''s developer surface includes authentication, getting-started guide, CLI, documentation, code examples, changelog, engineering blog, and 13 more developer resources.'
 plans:
 - name: Qlik Plans Pricing
   plan_count: 3
   slug: qlik-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Qlik Rate Limits
@@ -370,11 +374,8 @@ score:
     discoverability: 46.3
     operational_transparency: 44.7
   previous_composite: 36.6
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -387,5 +388,10 @@ security:
   slug: qlik-domain-security
   summary_line: TLSv1.3 · DNSSEC
 slug: qlik
+tags:
+- Security
+- Access Control
+- Machine-Learning
+- Artificial Intelligence
 website: https://qlik.dev
 ---

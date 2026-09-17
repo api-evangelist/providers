@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Agent-native content surface exposing machine-readable summaries via llms.txt and llms-full.txt for AI assistants and crawlers to help players find Lineage 2 servers.
@@ -87,7 +87,7 @@ plans:
 - name: L2Calendar Plans Pricing
   plan_count: 5
   slug: l2calendar-plans-pricing
-random_paper: 18
+random_paper: 16
 score:
   band: emerging
   composite: 18.6
@@ -108,7 +108,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -71,11 +71,6 @@ apis:
   slug: orionis-biosciences-news-api
 - baseURL: https://orionisbio.com/wp-json/wp/v2
   baseurl_source: declared
-  description: The oEmbed API from Orionis Biosciences — 3 operation(s) for oembed.
-  name: Orionis Biosciences O Embed API
-  slug: orionis-biosciences-oembed-api
-- baseURL: https://orionisbio.com/wp-json/wp/v2
-  baseurl_source: declared
   description: The Pages API from Orionis Biosciences — 2 operation(s) for pages.
   name: Orionis Biosciences Pages API
   slug: orionis-biosciences-pages-api
@@ -99,6 +94,11 @@ apis:
   description: The Users API from Orionis Biosciences — 3 operation(s) for users.
   name: Orionis Biosciences Users API
   slug: orionis-biosciences-users-api
+- baseURL: https://orionisbio.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The o Embed API from Orionis Biosciences — 3 operation(s) for o embed.
+  name: Orionis Biosciences o Embed API
+  slug: orionis-biosciences-o-embed-api
 artifact_total: 26
 collections:
 - collection_type: open
@@ -271,7 +271,7 @@ overview: 'Orionis Biosciences publishes 11 APIs on the [APIs.io](https://apis.i
 
 
   Orionis Biosciences'' developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: emerging
   composite: 21.8
@@ -308,7 +308,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

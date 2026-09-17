@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - baseURL: https://blockstream.info/api
@@ -98,6 +98,10 @@ collections:
   name: Blockstream Esplora HTTP Addresses Transactions API
   slug: open-blockstream-transactions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://blockstream.info
 - group: docs
   title: ''
   type: Documentation
@@ -194,15 +198,15 @@ created: '2026-07-17'
 description: 'Blockstream is a Bitcoin infrastructure company whose products include the Liquid Network sidechain, the Green self-custody wallet, Blockstream Satellite, and Bitcoin mining and data services. For developers its flagship public API is Esplora, the open-source Bitcoin block explorer behind blockstream.info: a no-authentication HTTP REST API for reading blocks, transactions, addresses, scripthashes, the mempool, and fee estimates across Bitcoin mainnet, testnet, and signet, plus Liquid/Elements issued assets. Amounts are returned in satoshis and hashes are hex-encoded, with cursor pagination over confirmed transaction history. Blockstream also ships GDK, its open-source cross-platform wallet SDK.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blockstream.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Blockstream
 nav: Providers
 network: true
 overview: 'Blockstream publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Assets API, Blocks API, and 4 more. Tagged areas include Company, Bitcoin, Blockchain, Cryptocurrency, and Block Explorer.
 
 
-  Blockstream''s developer surface includes documentation, engineering blog, authentication, sandbox, and 15 more developer resources.'
-random_paper: 20
+  Blockstream''s developer surface includes documentation, engineering blog, authentication, sandbox, and 16 more developer resources.'
+random_paper: 9
 score:
   band: emerging
   composite: 20.6
@@ -232,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -256,4 +260,5 @@ tags:
 - Block Explorer
 - Financial-Services
 - Infrastructure
+website: https://blockstream.info
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 4
@@ -80,11 +80,6 @@ apis:
   slug: videoamp-currency-of-record-api
 - baseURL: https://api.videoamp.dev
   baseurl_source: declared
-  description: dataStreams operations.
-  name: VideoAmp Data Streams API
-  slug: videoamp-datastreams-api
-- baseURL: https://api.videoamp.dev
-  baseurl_source: declared
   description: dataStreamTypes operations.
   name: VideoAmp Data Stream Types API
   slug: videoamp-datastreamtypes-api
@@ -118,6 +113,11 @@ apis:
   description: shares operations.
   name: VideoAmp Shares API
   slug: videoamp-shares-api
+- baseURL: https://api.videoamp.dev/v1/mcp
+  baseurl_source: declared
+  description: dataStreams operations.
+  name: VideoAmp Data Streams API
+  slug: videoamp-data-streams-api
 artifact_total: 37
 collections:
 - collection_type: open
@@ -324,7 +324,7 @@ overview: 'VideoAmp publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   VideoAmp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 24 more developer resources.'
-random_paper: 13
+random_paper: 17
 scopes:
 - name: Videoamp Scopes
   scope_count: 4
@@ -365,7 +365,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

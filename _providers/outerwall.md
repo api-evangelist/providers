@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,7 +52,7 @@ modified: '2026-04-28'
 name: Outerwall
 nav: Providers
 network: true
-overview: Outerwall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automated Retail, Kiosks, Coinstar, and Redbox.
+overview: Outerwall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automated Retail, Kiosk, Coinstar, and Redbox.
 press:
 - date: '2026-05-25'
   title: Outerwall Commits to Collecting Two Million Pounds of ...
@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: OUTERWALL ENTERS INTO DEFINITIVE MERGER ...
   url: https://www.prnewswire.com/news-releases/outerwall-enters-into-definitive-merger-agreement-to-be-acquired-by-certain-funds-managed-by-affiliates-of-apollo-global-management-for-5200-per-share-in-cash-300303115.html
-random_paper: 4
+random_paper: 1
 score:
   band: minimal
   composite: 4.1
@@ -96,7 +96,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -105,7 +105,7 @@ score:
 slug: outerwall
 tags:
 - Automated Retail
-- Kiosks
+- Kiosk
 - Coinstar
 - Redbox
 website: https://www.outerwall.com

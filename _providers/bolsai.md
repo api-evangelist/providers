@@ -19,10 +19,10 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
@@ -33,15 +33,102 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 35.4
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
-- description: REST/JSON API for Brazilian financial-market data — equities, FIIs, fundamentals, dividends, financial statements, and macro series. Authenticated via X-API-Key header.
-  name: Bolsai Financial Data API
-  slug: bolsai-financial-data-api
-artifact_total: 6
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The admin API from Bolsai — 2 operation(s) for admin.
+  name: Bolsai Admin API
+  slug: bolsai-admin-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: Register and manage API keys (no auth required)
+  name: Bolsai API Keys API
+  slug: bolsai-api-keys-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The auth API from Bolsai — 5 operation(s) for auth.
+  name: Bolsai Auth API
+  slug: bolsai-auth-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The billing API from Bolsai — 3 operation(s) for billing.
+  name: Bolsai Billing API
+  slug: bolsai-billing-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The Companies API from Bolsai — 5 operation(s) for companies.
+  name: Bolsai Companies API
+  slug: bolsai-companies-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The Dividends API from Bolsai — 2 operation(s) for dividends.
+  name: Bolsai Dividends API
+  slug: bolsai-dividends-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The feedback API from Bolsai — 6 operation(s) for feedback.
+  name: Bolsai Feedback API
+  slug: bolsai-feedback-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The Fiis API from Bolsai — 10 operation(s) for fiis.
+  name: Bolsai Fiis API
+  slug: bolsai-fiis-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The Financials API from Bolsai — 2 operation(s) for financials.
+  name: Bolsai Financials API
+  slug: bolsai-financials-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The Fundamentals API from Bolsai — 4 operation(s) for fundamentals.
+  name: Bolsai Fundamentals API
+  slug: bolsai-fundamentals-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The health API from Bolsai — 1 operation(s) for health.
+  name: Bolsai Health API
+  slug: bolsai-health-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The Macro API from Bolsai — 5 operation(s) for macro.
+  name: Bolsai Macro API
+  slug: bolsai-macro-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: Screen stocks by fundamental metrics
+  name: Bolsai Screener API
+  slug: bolsai-screener-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The Stocks API from Bolsai — 13 operation(s) for stocks.
+  name: Bolsai Stocks API
+  slug: bolsai-stocks-api
+- baseURL: https://api.usebolsai.com/api/v1
+  baseurl_source: declared
+  description: The oauth API from Bolsai — 7 operation(s) for oauth.
+  name: Bolsai OAUTH API
+  slug: bolsai-oauth-api
+artifact_total: 20
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/mcp/bolsai-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/bolsai-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/overlays/bolsai-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bolsai-openapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -90,36 +177,36 @@ modified: '2026-09-03'
 name: Bolsai
 nav: Providers
 network: true
-overview: 'Bolsai publishes 1 API on the [APIs.io](https://apis.io/) network: Financial Data API. Tagged areas include Finance, Financial Data, Market Data, Stocks/equities, and Real Estate Funds.
+overview: 'Bolsai publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Auth API, and 12 more. Tagged areas include Finance, Financial Data, Market Data, Stocks/equities, and Real Estate Funds.
 
 
-  Bolsai''s developer surface includes authentication, engineering blog, pricing, support, and 4 more developer resources.'
+  Bolsai''s developer surface includes authentication, engineering blog, pricing, support, and 7 more developer resources.'
 plans:
 - name: Bolsai Plans Pricing
   plan_count: 3
   slug: bolsai-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Bolsai Rate Limits
   slug: bolsai-rate-limits
 score:
-  band: thin
-  composite: 33.8
+  band: developing
+  composite: 39.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 57.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.9
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 26.7
+    contract_quality: 47.9
     developer_ergonomics: 37.5
-    discoverability: 75.9
+    discoverability: 81.5
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -131,6 +218,11 @@ score:
   previous_composite: 33.8
   provenance:
     conformance: first-party
+    contracts:
+      callable: 46.7
+      derived: 0
+      marker_coverage: 0.0
+      total: 15
     mcp: first-party
     skills: derived
   regulatory:
@@ -140,8 +232,8 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

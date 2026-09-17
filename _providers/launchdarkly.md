@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 50.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -788,7 +788,7 @@ plans:
 - name: Launchdarkly Plans Pricing
   plan_count: 4
   slug: launchdarkly-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Launchdarkly Rate Limits
@@ -850,7 +850,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

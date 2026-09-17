@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'The one API surface Convertedin hosts itself. A merchant''s storefront (Magento, Salla, or a custom platform) POSTs commerce events into Convertedin — orders, customers, products, collections, and app '
@@ -195,7 +195,7 @@ plans:
 - name: Pinoffer Plans Pricing
   plan_count: 3
   slug: pinoffer-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Pinoffer Rate Limits
@@ -228,7 +228,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

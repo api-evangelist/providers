@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,7 +90,7 @@ press:
 - date: '2026-05-25'
   title: SunEdison CEO resigns amid bankruptcy
   url: https://www.latimes.com/business/la-fi-sunedison-ceo-20160623-snap-story.html
-random_paper: 18
+random_paper: 16
 score:
   band: minimal
   composite: 7.7
@@ -117,7 +117,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

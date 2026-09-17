@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 7
 common:
@@ -182,7 +182,7 @@ press:
 - date: '2026-05-25'
   title: '99.1'
   url: https://www.sec.gov/Archives/edgar/data/1524472/000152447226000065/xyl04282026ex991.htm
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Xylem Rate Limits
@@ -220,7 +220,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

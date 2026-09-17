@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://diaspora.social/api/v1
@@ -330,7 +330,7 @@ overview: 'Diaspora publishes 14 APIs on the [APIs.io](https://apis.io/) network
 
 
   Diaspora''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 11
+random_paper: 15
 scopes:
 - name: Diaspora Scopes
   scope_count: 0
@@ -365,7 +365,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

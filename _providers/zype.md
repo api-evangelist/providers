@@ -28,91 +28,406 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.6
-  scored_at: '2026-09-15'
+  score: 32.3
+  scored_at: '2026-09-16'
 api_count: 15
 apis:
 - baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: 'The core Zype content API: videos, playlists, categories, subtitles and subtitle playlists, transcriptions and translations, AI metadata suggestions, segments, program guides, video imports and source'
-  name: Zype Platform API
-  slug: platform
+  description: The Ad Tags API from Zype — 2 operation(s) for ad tags.
+  name: Zype Ad Tags API
+  slug: zype-ad-tags-api
 - baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: 'Cloud playout for FAST and linear channels: channels, HLS/UDP/RTMP delivery profiles, destinations and connectors, draft and published schedule versions, revertible timeline operations, assets (blocks'
-  name: Zype Playout Scheduler API
-  slug: playout-scheduler
+  description: The Adobe API from Zype — 6 operation(s) for adobe.
+  name: Zype Adobe API
+  slug: zype-adobe-api
 - baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: Subscriptions with a reversible cancel/reactivate pair, plans and tiered plan-to-playlist binding, transactions carrying Stripe/Braintree/Recurly references, redemption codes with bulk minting and red
-  name: Zype Monetization API
-  slug: monetization
+  description: The Apps API from Zype — 1 operation(s) for apps.
+  name: Zype Apps API
+  slug: zype-apps-api
 - baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: 'The end-viewer surface: consumer records, password reset flows, parental access codes, device pin linking, and video, playlist and subscription entitlements. 24 operations.'
+  description: The Assets API from Zype — 16 operation(s) for assets.
+  name: Zype Assets API
+  slug: zype-assets-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Categories API from Zype — 2 operation(s) for categories.
+  name: Zype Categories API
+  slug: zype-categories-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Channels API from Zype — 4 operation(s) for channels.
+  name: Zype Channels API
+  slug: zype-channels-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Consumers API from Zype — 6 operation(s) for consumers.
   name: Zype Consumers API
-  slug: consumers
-- baseURL: https://api.zype.com
-  baseurl_source: declared
-  description: 'Live streaming V3: encoder lifecycle including start, stop and sync, and live events with start, stop and archive. 16 operations. Supersedes the legacy /live/encoders surface still carried in the Plat'
-  name: Zype Live API (V3)
-  slug: live-3
+  slug: zype-consumers-api
 - baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: 'Zype''s custom-metadata model: Zobject Types define a schema (actor, director, team, season) and Zobjects are instances, attachable to videos and playlists in both directions. 16 operations.'
-  name: Zype Zobjects API
-  slug: zobjects
-- baseURL: https://analytics.zype.com
-  baseurl_source: declared
-  description: 'Current analytics surface across three families: engagement (plays, viewers, hours watched, view time), revenue (new subscriptions, subscription events, subscription revenue, new transactions) and pla'
-  name: Zype Analytics API (V3)
-  slug: analytics-v3
-- baseURL: https://analytics.zype.com
-  baseurl_source: declared
-  description: 'Legacy V2 analytics surface — stream hours, player requests, engagement, site counts, consumers, subscriptions, subscription events, subscription revenue and transactions. 9 operations. Superseded by '
-  name: Zype Analytics API (V2)
-  slug: analytics
+  description: CRUD for custom groupings on the current site (e.g. country lists).
+  name: Zype Content rule groups API
+  slug: zype-content-rule-groups-api
 - baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: Site-scoped custom regions and global content regions, the geographic building blocks used by content rules. 7 operations.
-  name: Zype Custom Regions API
-  slug: content-regions
-- baseURL: https://api.zype.com/
-  baseurl_source: declared
-  description: Site-scoped and global content rule groups — reusable bundles of rules applied to content availability. 7 operations.
-  name: Zype Content Rule Groups API
-  slug: content-rule-groups
-- baseURL: https://api.zype.com/
-  baseurl_source: declared
-  description: Content rule profiles plus the country/state/city lookups they are built from — geo-blocking and availability windows. 7 operations.
+  description: The Content Rule Profiles API from Zype — 4 operation(s) for content rule profiles.
   name: Zype Content Rule Profiles API
-  slug: content-rules
-- baseURL: https://tve.zype.com/
+  slug: zype-content-rule-profiles-api
+- baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: 'TV Everywhere / MVPD authentication implemented against the Adobe Primetime device-session flow: register a device session, create a Zype consumer, validate a session token, retrieve preauthorized res'
-  name: Zype TVE API
-  slug: tve
-- baseURL: https://login.zype.com
+  description: CRUD for custom country groupings on the current site.
+  name: Zype Custom Regions API
+  slug: zype-custom-regions-api
+- baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: 'Consumer-facing OAuth 2.0: retrieve an access token, read token status and revoke a token. 3 operations. login.zype.com serves its own RFC 8414 authorization server metadata document alongside the one'
-  name: Zype Consumer Authentication API
-  slug: login
-- baseURL: https://player.zype.com
+  description: The Destinations API from Zype — 4 operation(s) for destinations.
+  name: Zype Destinations API
+  slug: zype-destinations-api
+- baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: Retrieves the embeddable player for a video in html, js or json form — the json form returns metadata plus the Widevine, FairPlay and PlayReady DRM objects and m3u8 references — and the playlist carou
-  name: Zype Player API
-  slug: player
-- baseURL: https://uploads.zype.com/
+  description: The Device Categories API from Zype — 2 operation(s) for device categories.
+  name: Zype Device Categories API
+  slug: zype-device-categories-api
+- baseURL: https://api.zype.com/
   baseurl_source: declared
-  description: Creates an upload for direct ingest of a source file into the Zype library. 1 operation.
+  description: The Device Linking API from Zype — 4 operation(s) for device linking.
+  name: Zype Device Linking API
+  slug: zype-device-linking-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Devices API from Zype — 2 operation(s) for devices.
+  name: Zype Devices API
+  slug: zype-devices-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Draft Versions API from Zype — 4 operation(s) for draft versions.
+  name: Zype Draft Versions API
+  slug: zype-draft-versions-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Encoders API from Zype — 6 operation(s) for encoders.
+  name: Zype Encoders API
+  slug: zype-encoders-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Engagement API from Zype — 5 operation(s) for engagement.
+  name: Zype Engagement API
+  slug: zype-engagement-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The EPG API from Zype — 6 operation(s) for epg.
+  name: Zype EPG API
+  slug: zype-epg-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The GeoIP API from Zype — 1 operation(s) for geoip.
+  name: Zype Geo IP API
+  slug: zype-geoip-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: Read-only platform catalog shared across all sites.
+  name: Zype Global Content Regions API
+  slug: zype-global-content-regions-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: Read-only platform catalog shared across all sites.
+  name: Zype Global content rule groups API
+  slug: zype-global-content-rule-groups-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The HLS Profiles API from Zype — 3 operation(s) for hls profiles.
+  name: Zype HLS Profiles API
+  slug: zype-hls-profiles-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Live Encoders API from Zype — 5 operation(s) for live encoders.
+  name: Zype Live Encoders API
+  slug: zype-live-encoders-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Live Events API from Zype — 5 operation(s) for live events.
+  name: Zype Live Events API
+  slug: zype-live-events-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The New Subscriptions API from Zype — 1 operation(s) for new subscriptions.
+  name: Zype New Subscriptions API
+  slug: zype-new-subscriptions-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The New Transactions API from Zype — 1 operation(s) for new transactions.
+  name: Zype New Transactions API
+  slug: zype-new-transactions-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Plans API from Zype — 4 operation(s) for plans.
+  name: Zype Plans API
+  slug: zype-plans-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Platform Dynamics API from Zype — 5 operation(s) for platform dynamics.
+  name: Zype Platform Dynamics API
+  slug: zype-platform-dynamics-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Player Requests API from Zype — 1 operation(s) for player requests.
+  name: Zype Player Requests API
+  slug: zype-player-requests-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Players API from Zype — 1 operation(s) for players.
+  name: Zype Players API
+  slug: zype-players-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Playlist Carousel Embed API from Zype — 1 operation(s) for playlist carousel embed.
+  name: Zype Playlist Carousel Embed API
+  slug: zype-playlist-carousel-embed-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Playlist Entitlements API from Zype — 2 operation(s) for playlist entitlements.
+  name: Zype Playlist Entitlements API
+  slug: zype-playlist-entitlements-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Playlists API from Zype — 7 operation(s) for playlists.
+  name: Zype Playlists API
+  slug: zype-playlists-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Program Guides API from Zype — 3 operation(s) for program guides.
+  name: Zype Program Guides API
+  slug: zype-program-guides-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Published Versions API from Zype — 1 operation(s) for published versions.
+  name: Zype Published Versions API
+  slug: zype-published-versions-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Recurrence Rules API from Zype — 2 operation(s) for recurrence rules.
+  name: Zype Recurrence Rules API
+  slug: zype-recurrence-rules-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Redemption Codes API from Zype — 4 operation(s) for redemption codes.
+  name: Zype Redemption Codes API
+  slug: zype-redemption-codes-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Revenue API from Zype — 4 operation(s) for revenue.
+  name: Zype Revenue API
+  slug: zype-revenue-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Revenue Models API from Zype — 2 operation(s) for revenue models.
+  name: Zype Revenue Models API
+  slug: zype-revenue-models-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The RTMP Profiles API from Zype — 3 operation(s) for rtmp profiles.
+  name: Zype RTMP Profiles API
+  slug: zype-rtmp-profiles-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Segments API from Zype — 2 operation(s) for segments.
+  name: Zype Segments API
+  slug: zype-segments-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Site Counts API from Zype — 1 operation(s) for site counts.
+  name: Zype Site Counts API
+  slug: zype-site-counts-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Stream Hours API from Zype — 1 operation(s) for stream hours.
+  name: Zype Stream Hours API
+  slug: zype-stream-hours-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Subscription Entitlements API from Zype — 1 operation(s) for subscription entitlements.
+  name: Zype Subscription Entitlements API
+  slug: zype-subscription-entitlements-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Subscription Events API from Zype — 1 operation(s) for subscription events.
+  name: Zype Subscription Events API
+  slug: zype-subscription-events-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Subscription Revenue API from Zype — 1 operation(s) for subscription revenue.
+  name: Zype Subscription Revenue API
+  slug: zype-subscription-revenue-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Subscriptions API from Zype — 4 operation(s) for subscriptions.
+  name: Zype Subscriptions API
+  slug: zype-subscriptions-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Subtitle Playlists API from Zype — 2 operation(s) for subtitle playlists.
+  name: Zype Subtitle Playlists API
+  slug: zype-subtitle-playlists-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Subtitles API from Zype — 2 operation(s) for subtitles.
+  name: Zype Subtitles API
+  slug: zype-subtitles-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Timeline Operations API from Zype — 3 operation(s) for timeline operations.
+  name: Zype Timeline Operations API
+  slug: zype-timeline-operations-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Transactions API from Zype — 2 operation(s) for transactions.
+  name: Zype Transactions API
+  slug: zype-transactions-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Transcriptions API from Zype — 5 operation(s) for transcriptions.
+  name: Zype Transcriptions API
+  slug: zype-transcriptions-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The UDP Profiles API from Zype — 3 operation(s) for udp profiles.
+  name: Zype UDP Profiles API
+  slug: zype-udp-profiles-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Uploads API from Zype — 3 operation(s) for uploads.
   name: Zype Uploads API
-  slug: uploads
-artifact_total: 24
+  slug: zype-uploads-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Users API from Zype — 3 operation(s) for users.
+  name: Zype Users API
+  slug: zype-users-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Video Entitlements API from Zype — 3 operation(s) for video entitlements.
+  name: Zype Video Entitlements API
+  slug: zype-video-entitlements-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Video Favorites API from Zype — 2 operation(s) for video favorites.
+  name: Zype Video Favorites API
+  slug: zype-video-favorites-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Video Imports API from Zype — 3 operation(s) for video imports.
+  name: Zype Video Imports API
+  slug: zype-video-imports-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Video Sources API from Zype — 2 operation(s) for video sources.
+  name: Zype Video Sources API
+  slug: zype-video-sources-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Videos API from Zype — 16 operation(s) for videos.
+  name: Zype Videos API
+  slug: zype-videos-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Zobject Types API from Zype — 2 operation(s) for zobject types.
+  name: Zype Zobject Types API
+  slug: zype-zobject-types-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Zobjects API from Zype — 8 operation(s) for zobjects.
+  name: Zype Zobjects API
+  slug: zype-zobjects-api
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: The Oauth API from Zype — 3 operation(s) for oauth.
+  name: Zype OAUTH API
+  slug: zype-oauth-api
+artifact_total: 72
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-platform-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-platform-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-playout-scheduler-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-playout-scheduler-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-monetization-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-monetization-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-consumers-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-consumers-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-live-3-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-live-3-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-zobjects-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-zobjects-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-analytics-v3-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-analytics-v3-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-analytics-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-analytics-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-content-regions-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-content-regions-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-content-rule-groups-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-content-rule-groups-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-content-rules-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-content-rules-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-tve-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-tve-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-login-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-login-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-player-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-player-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/overlays/zype-uploads-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zype-uploads-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -315,15 +630,15 @@ modified: '2026-08-28'
 name: Zype
 nav: Providers
 network: true
-overview: 'Zype publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Platform API, Playout Scheduler API, Monetization API, and 12 more. Tagged areas include Video, Streaming, OTT, Video CMS, and FAST.
+overview: 'Zype publishes 63 APIs on the [APIs.io](https://apis.io/) network, including Ad Tags API, Adobe API, Apps API, and 60 more. Tagged areas include Video, Streaming, OTT, Video CMS, and FAST.
 
 
-  Zype''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
+  Zype''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 49 more developer resources.'
 plans:
 - name: Zype Plans Pricing
   plan_count: 7
   slug: zype-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Zype Rate Limits
@@ -335,21 +650,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.1
+  composite: 57.5
   coverage:
     artifact_dirs: 23
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 52.7
+    contract_quality: 52.6
     developer_ergonomics: 57.7
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 28.9
   previous_composite: 58.1
   provenance:
@@ -358,11 +673,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 63
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

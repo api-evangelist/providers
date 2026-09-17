@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,11 +43,6 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- baseURL: https://catalogue.data.gov.bc.ca/api/3
-  baseurl_source: declared
-  description: The BC Data Catalogue exposes a CKAN v3 REST API at https://catalogue.data.gov.bc.ca/api/3/action/ providing programmatic access to BC government open datasets. Key endpoints include package_list (lis
-  name: BC Data Catalogue CKAN API
-  slug: ckan-api
 - baseURL: https://catalogue.data.gov.bc.ca/api/3
   baseurl_source: declared
   description: The Datasets API from British Columbia Data Catalogue — 4 operation(s) for datasets.
@@ -81,6 +76,11 @@ apis:
 - description: 'DataBC''s public OGC endpoint serves the spatial half of the BC Data Catalogue: 895 queryable WMS 1.3.0 layers and 896 WFS 2.0.0 feature types drawn from the BC Geographic Warehouse. 884 catalogue data'
   name: DataBC Public OGC Web Services (WMS/WFS)
   slug: databc-public-ogc-services
+- baseURL: https://catalogue.data.gov.bc.ca/api/3
+  baseurl_source: declared
+  description: CKAN's Action API is a powerful, RPC-style API that exposes all of CKAN's core features to API clients.
+  name: British Columbia Data Catalogue Action API
+  slug: british-columbia-data-catalogue-action-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -270,7 +270,7 @@ modified: '2026-09-04'
 name: British Columbia Data Catalogue
 nav: Providers
 network: true
-overview: 'British Columbia Data Catalogue publishes 7 APIs on the [APIs.io](https://apis.io/) network, including BC Data Catalogue CKAN API, Datasets API, Groups API, and 4 more. Tagged areas include Open Data, Government, Canadian Government, British Columbia, and Provincial Data.
+overview: 'British Columbia Data Catalogue publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Groups API, Organizations API, and 4 more. Tagged areas include Open Data, Government, Canadian Government, British Columbia, and Provincial Data.
 
 
   British Columbia Data Catalogue''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 26 more developer resources.'
@@ -278,7 +278,7 @@ plans:
 - name: British Columbia Data Catalogue Plans Pricing
   plan_count: 0
   slug: british-columbia-data-catalogue-plans-pricing
-random_paper: 8
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: British Columbia Data Catalogue Rate Limits
@@ -297,7 +297,7 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 46.5
+    contract_quality: 46.8
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 2.6
@@ -325,7 +325,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

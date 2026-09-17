@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
   description: The Metrics API from Oauth2-Proxy — 1 operation(s) for metrics.
   name: Oauth2-Proxy Metrics API
   slug: oauth2-proxy-metrics-api
-- baseURL: http://localhost:4180
-  baseurl_source: spec
-  description: The Oauth2 API from Oauth2-Proxy — 7 operation(s) for oauth2.
-  name: Oauth2-Proxy Oauth2 API
-  slug: oauth2-proxy-oauth2-api
 - baseURL: http://localhost:4180
   baseurl_source: spec
   description: The OAuth2 Proxy Endpoints API from Oauth2-Proxy — 1 operation(s) for oauth2 proxy endpoints.
@@ -77,6 +72,11 @@ apis:
   description: The Robots.txt API from Oauth2-Proxy — 1 operation(s) for robots.txt.
   name: Oauth2-Proxy Robots.txt API
   slug: oauth2-proxy-robots-txt-api
+- baseURL: http://localhost:4180
+  baseurl_source: spec
+  description: The Oauth2 API from Oauth2-Proxy — 7 operation(s) for oauth2.
+  name: Oauth2-Proxy Oauth2 API
+  slug: oauth2-proxy-oauth2-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -138,7 +138,7 @@ modified: '2026-03-27'
 name: Oauth2-Proxy
 nav: Providers
 network: true
-overview: 'Oauth2-Proxy publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Metrics API, Oauth2 API, OAuth2 Proxy Endpoints API, and 3 more. Tagged areas include Authentication Proxy and Proxy.
+overview: 'Oauth2-Proxy publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Metrics API, OAuth2 Proxy Endpoints API, Ping API, and 3 more. Tagged areas include Authentication Proxy and Proxy.
 
 
   Oauth2-Proxy''s developer surface includes authentication, documentation, and 3 more developer resources.'
@@ -146,14 +146,14 @@ plans:
 - name: Oauth2 Proxy Plans Pricing
   plan_count: 3
   slug: oauth2-proxy-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Oauth2 Proxy Rate Limits
   slug: oauth2-proxy-rate-limits
 score:
   band: emerging
-  composite: 25.1
+  composite: 25.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 31.0
@@ -161,11 +161,11 @@ score:
     catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 39.2
+    contract_quality: 42.0
     developer_ergonomics: 33.3
     discoverability: 40.7
     operational_transparency: 10.5
@@ -178,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - baseURL: https://api.replicant.ai/api/v2
   baseurl_source: declared
   description: The Replicant API from Replicant — 2 operation(s) for replicant.
-  name: Replicant Replicant API
+  name: Replicant API
   slug: replicant-replicant-api
 artifact_total: 9
 asyncapis:
@@ -127,10 +127,10 @@ common:
   type: DomainSecurity
   url: security/replicant-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/replicant-outbound-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/openapi/_original/replicant-outbound-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/replicant-outbound-api-openapi.yml
+  url: openapi/_original/replicant-outbound-api-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/overlays/replicant-outbound-api-overlay.yaml
   title: ''
@@ -183,11 +183,11 @@ created: '2026-07-17'
 description: Replicant is an enterprise agentic customer service platform that automates high-volume contact center conversations across voice, chat, and messaging, and analyzes 100% of interactions for QA, compliance, and automation insights. Its two products — Conversation Automation and Conversation Intelligence — replicate top-performing human agents using a hybrid agentic-plus-deterministic architecture with human-in-the-loop escalation, and integrate with existing CCaaS, CRM, telephony, and ticketing stacks. Replicant is telephony-native, runs multi-region on Google Cloud, and is built for SOC 2, HIPAA, PCI, and GDPR requirements. It is sales-led with no public developer portal, but it does publish one machine-readable contract — the Replicant Outbound API (OpenAPI 3.0.0, v2.0.1), served from the provider's own Swagger UI at docs.replicant.ai and live on api.replicant.ai — which places outbound AI voice calls and SMS against a configured campaign and notifies the caller of call status.
 image: https://cdn.prod.website-files.com/67977c1e48dbb17d41f9520b/67a0beb2e1e43c91319354bb_Featured-Image.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Replicant
 nav: Providers
 network: true
-overview: 'Replicant publishes 1 API on the [APIs.io](https://apis.io/) network: Replicant API. Tagged areas include Company, Contact Center, Conversational AI, Customer Service, and Voice AI.
+overview: 'Replicant publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contact Center, Conversational AI, Customer Service, and Voice AI.
 
 
   The Replicant catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -198,7 +198,7 @@ plans:
 - name: Replicant Plans Pricing
   plan_count: 3
   slug: replicant-plans-pricing
-random_paper: 17
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Replicant Rate Limits
@@ -233,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

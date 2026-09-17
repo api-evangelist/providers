@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,6 +73,10 @@ collections:
   name: BFE Management Debug Reload API
   slug: open-bfe-reload-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bfe-networks.net
 - group: operate
   title: ''
   type: IssueTracker
@@ -218,7 +222,7 @@ jsonld:
   property_count: 7
   slug: bfe-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: BFE
 nav: Providers
 network: true
@@ -228,12 +232,12 @@ overview: 'BFE publishes 3 APIs on the [APIs.io](https://apis.io/) network: Debu
   The BFE catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BFE''s developer surface includes developer portal, documentation, and 12 more developer resources.'
+  BFE''s developer surface includes developer portal, documentation, and 13 more developer resources.'
 plans:
 - name: Bfe Plans Pricing
   plan_count: 3
   slug: bfe-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Bfe Rate Limits
@@ -290,7 +294,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -321,5 +325,5 @@ use_cases:
   name: A/B Testing
 - description: Use traffic management plugins to detect and mitigate DDoS attacks.
   name: DDoS Mitigation
-website: https://www.bfe-networks.net/en_us/
+website: https://bfe-networks.net
 ---

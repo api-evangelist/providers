@@ -34,12 +34,12 @@ created: '2026-09-07'
 description: 'Additive Intelligence was a Taipei, Taiwan startup applying machine learning to metal additive manufacturing. Its focus was the deformation and shrinkage that occurs when metal 3D printed parts are sintered — the expensive trial-and-error step that keeps metal AM from being fast, scalable and cost-competitive — and it paired hardware with software, holding provisional patents on a machine learning method, a proprietary infill topology, and a method for varying the density of infilled sections. The company was selected by Taiwan Tech Arena as one of 100 startups showcased at CES 2021, and its LinkedIn page carries the slogan "Additive manufacturing, exponential progress." No first-party surface survives: the website the company itself declares on LinkedIn, www.additiveintelligence.com, holds an active registration on Google Cloud DNS but publishes no A record, so no host — apex, www, api or docs — can be connected to at all. There is no developer portal, GitHub organization,
   published package, or API of any kind.'
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Additive Intelligence
 nav: Providers
 network: true
 overview: Additive Intelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Additive Manufacturing, 3D Printing, Metal 3D Printing, and Machine-Learning.
-random_paper: 17
+random_paper: 13
 slug: additiveintelligencea7d2
 tags:
 - Company
@@ -51,4 +51,5 @@ tags:
 - Manufacturing
 - Sintering
 - Taiwan
+- Defunct
 ---

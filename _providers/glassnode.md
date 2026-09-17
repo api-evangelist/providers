@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -153,6 +153,10 @@ collections:
   name: Glassnode Metrics API
   slug: open-glassnode
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://glassnode.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/agentic-access/glassnode-agentic-access.yml
   title: ''
@@ -219,19 +223,19 @@ finops:
   slug: glassnode-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glassnode.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-09-16'
 name: Glassnode
 nav: Providers
 network: true
 overview: 'Glassnode publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Derivatives API, Distribution API, and 9 more. Tagged areas include Web3, Crypto, Onchain, Analytics, and Metrics.
 
 
-  Glassnode''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 8 more developer resources.'
+  Glassnode''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 9 more developer resources.'
 plans:
 - name: Glassnode Plans Pricing
   plan_count: 4
   slug: glassnode-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Glassnode Rate Limits
@@ -263,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -289,5 +293,5 @@ tags:
 - Bitcoin
 - Ethereum
 - Institutional
-website: https://glassnode.com/
+website: https://glassnode.com
 ---

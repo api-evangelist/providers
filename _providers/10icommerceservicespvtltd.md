@@ -32,7 +32,7 @@ name: 10i Commerce Services Pvt Ltd (ShopX)
 nav: Providers
 network: true
 overview: 10i Commerce Services Pvt Ltd (ShopX) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, E-Commerce, B2B, and Retail.
-random_paper: 0
+random_paper: 9
 slug: 10icommerceservicespvtltd
 tags:
 - Company

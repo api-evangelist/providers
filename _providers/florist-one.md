@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,9 +65,9 @@ apis:
   slug: florist-one-giftbaskets-api
 - baseURL: https://www.floristone.com/api/rest
   baseurl_source: declared
-  description: The ShoppingCart API from Florist One — 1 operation(s) for shoppingcart.
-  name: Florist One ShoppingCart API
-  slug: florist-one-shoppingcart-api
+  description: The Shopping Cart API from Florist One — 1 operation(s) for shopping cart.
+  name: Florist One Shopping Cart API
+  slug: florist-one-shopping-cart-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -89,6 +89,11 @@ collections:
   name: Florist One REST API
   slug: open-florist-one
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/overlays/florist-one-shoppingcart-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/florist-one-shoppingcart-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/agentic-access/florist-one-agentic-access.yml
   title: ''
@@ -226,19 +231,19 @@ network: true
 overview: 'Florist One publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Affiliate API, FlowerShop API, GiftBaskets API, and 1 more. Tagged areas include Delivery, E-Commerce, Florists, Flowers, and Gifts.
 
 
-  Florist One''s developer surface includes authentication, documentation, FAQ, getting-started guide, support, signup flow, and 21 more developer resources.'
+  Florist One''s developer surface includes authentication, documentation, FAQ, getting-started guide, support, signup flow, and 22 more developer resources.'
 plans:
 - name: Florist One Plans Pricing
   plan_count: 1
   slug: florist-one-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Florist One Rate Limits
   slug: florist-one-rate-limits
 score:
   band: developing
-  composite: 41.9
+  composite: 42.6
   coverage:
     artifact_dirs: 21
     catalog_earned: 48.0
@@ -246,11 +251,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
-    contract_quality: 47.6
+    contract_quality: 50.3
     developer_ergonomics: 49.4
     discoverability: 68.5
     operational_transparency: 10.5
@@ -266,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 7
@@ -58,11 +58,6 @@ apis:
   slug: apache-ignite-clusterconfiguration-api
 - baseURL: http://localhost:10300
   baseurl_source: spec
-  description: The clusterManagement API from Apache Ignite — 2 operation(s) for clustermanagement.
-  name: Apache Ignite clusterManagement API
-  slug: apache-ignite-clustermanagement-api
-- baseURL: http://localhost:10300
-  baseurl_source: spec
   description: The clusterMetric API from Apache Ignite — 3 operation(s) for clustermetric.
   name: Apache Ignite clusterMetric API
   slug: apache-ignite-clustermetric-api
@@ -76,11 +71,6 @@ apis:
   description: The deployment API from Apache Ignite — 6 operation(s) for deployment.
   name: Apache Ignite deployment API
   slug: apache-ignite-deployment-api
-- baseURL: http://localhost:10300
-  baseurl_source: spec
-  description: The nodeConfiguration API from Apache Ignite — 2 operation(s) for nodeconfiguration.
-  name: Apache Ignite nodeConfiguration API
-  slug: apache-ignite-nodeconfiguration-api
 - baseURL: http://localhost:10300
   baseurl_source: spec
   description: The nodeManagement API from Apache Ignite — 3 operation(s) for nodemanagement.
@@ -116,6 +106,16 @@ apis:
   description: The transactions API from Apache Ignite — 2 operation(s) for transactions.
   name: Apache Ignite transactions API
   slug: apache-ignite-transactions-api
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The Cluster Management API from Apache Ignite — 2 operation(s) for cluster management.
+  name: Apache Ignite Cluster Management API
+  slug: apache-ignite-cluster-management-api
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The Node Configuration API from Apache Ignite — 2 operation(s) for node configuration.
+  name: Apache Ignite Node Configuration API
+  slug: apache-ignite-node-configuration-api
 artifact_total: 174
 collections:
 - collection_type: open
@@ -634,7 +634,7 @@ modified: '2026-05-19'
 name: Apache Ignite
 nav: Providers
 network: true
-overview: 'Apache Ignite publishes 13 APIs on the [APIs.io](https://apis.io/) network, including clusterConfiguration API, clusterManagement API, clusterMetric API, and 10 more. Tagged areas include Caching, Compute Grid, Distributed Database, In-Memory, and Open-Source.
+overview: 'Apache Ignite publishes 13 APIs on the [APIs.io](https://apis.io/) network, including clusterConfiguration API, clusterMetric API, compute API, and 10 more. Tagged areas include Caching, Compute Grid, Distributed Database, In-Memory, and Open-Source.
 
 
   The Apache Ignite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -645,7 +645,7 @@ plans:
 - name: Apache Ignite Plans Pricing
   plan_count: 3
   slug: apache-ignite-plans-pricing
-random_paper: 14
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Apache Ignite Rate Limits
@@ -674,7 +674,7 @@ rules:
   slug: apache-ignite-spectral-rules
 score:
   band: developing
-  composite: 41.0
+  composite: 41.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 61.5
@@ -682,11 +682,11 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 57.3
+    contract_quality: 57.9
     developer_ergonomics: 33.3
     discoverability: 59.3
     operational_transparency: 26.3
@@ -708,7 +708,7 @@ score:
     regime_id: energy_utilities
     score: 36.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

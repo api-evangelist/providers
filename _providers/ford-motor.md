@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: Ford Developer API
   slug: open-ford-motor-ford-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ford.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/agentic-access/ford-motor-agentic-access.yml
   title: ''
@@ -92,14 +96,14 @@ finops:
   slug: ford-motor-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ford-motor.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Ford Motor Company
 nav: Providers
 network: true
 overview: 'Ford Motor Company publishes 1 API on the [APIs.io](https://apis.io/) network: ford-motor Automotive API. Tagged areas include Fortune 100.
 
 
-  Ford Motor Company''s developer surface includes authentication and 4 more developer resources.'
+  Ford Motor Company''s developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Ford Motor Plans Pricing
   plan_count: 2
@@ -120,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: 'Ford''s Simple Vision for Smart Tech: Make It for Everyone'
   url: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-affordable-smart-vehicle-technology-strategy
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Ford Motor Rate Limits
@@ -152,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -171,4 +175,5 @@ security:
 slug: ford-motor
 tags:
 - Fortune 100
+website: https://ford.com
 ---

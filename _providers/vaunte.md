@@ -29,7 +29,7 @@ name: Vaunte
 nav: Providers
 network: true
 overview: Vaunte is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Commerce, Marketplace, and Resale.
-random_paper: 8
+random_paper: 21
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaunte/refs/heads/main/screenshots/vaunte-2026-09-02T165509.png
 security:
 - kind: domain-security

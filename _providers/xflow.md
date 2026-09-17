@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
   slug: xflow-accounts-api
 - baseURL: https://api.xflowpay.com
   baseurl_source: declared
-  description: The AccountSettings API from Xflow — 3 operation(s) for accountsettings.
-  name: Xflow AccountSettings API
-  slug: xflow-accountsettings-api
-- baseURL: https://api.xflowpay.com
-  baseurl_source: declared
   description: The Addresses API from Xflow — 2 operation(s) for addresses.
   name: Xflow Addresses API
   slug: xflow-addresses-api
@@ -65,11 +60,6 @@ apis:
   description: The Balance API from Xflow — 2 operation(s) for balance.
   name: Xflow Balance API
   slug: xflow-balance-api
-- baseURL: https://api.xflowpay.com
-  baseurl_source: declared
-  description: The BalanceTransactions API from Xflow — 2 operation(s) for balancetransactions.
-  name: Xflow BalanceTransactions API
-  slug: xflow-balancetransactions-api
 - baseURL: https://api.xflowpay.com
   baseurl_source: declared
   description: The Deposits API from Xflow — 2 operation(s) for deposits.
@@ -82,24 +72,9 @@ apis:
   slug: xflow-events-api
 - baseURL: https://api.xflowpay.com
   baseurl_source: declared
-  description: The ExchangeRates API from Xflow — 2 operation(s) for exchangerates.
-  name: Xflow ExchangeRates API
-  slug: xflow-exchangerates-api
-- baseURL: https://api.xflowpay.com
-  baseurl_source: declared
-  description: The FeePlans API from Xflow — 2 operation(s) for feeplans.
-  name: Xflow FeePlans API
-  slug: xflow-feeplans-api
-- baseURL: https://api.xflowpay.com
-  baseurl_source: declared
   description: The Files API from Xflow — 3 operation(s) for files.
   name: Xflow Files API
   slug: xflow-files-api
-- baseURL: https://api.xflowpay.com
-  baseurl_source: declared
-  description: The PaymentLinks API from Xflow — 6 operation(s) for paymentlinks.
-  name: Xflow PaymentLinks API
-  slug: xflow-paymentlinks-api
 - baseURL: https://api.xflowpay.com
   baseurl_source: declared
   description: The Payments API from Xflow — 2 operation(s) for payments.
@@ -132,9 +107,34 @@ apis:
   slug: xflow-transfers-api
 - baseURL: https://api.xflowpay.com
   baseurl_source: declared
-  description: The WebhookEndpoints API from Xflow — 4 operation(s) for webhookendpoints.
-  name: Xflow WebhookEndpoints API
-  slug: xflow-webhookendpoints-api
+  description: The Account Settings API from Xflow — 3 operation(s) for account settings.
+  name: Xflow Account Settings API
+  slug: xflow-account-settings-api
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Balance Transactions API from Xflow — 2 operation(s) for balance transactions.
+  name: Xflow Balance Transactions API
+  slug: xflow-balance-transactions-api
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Exchange Rates API from Xflow — 2 operation(s) for exchange rates.
+  name: Xflow Exchange Rates API
+  slug: xflow-exchange-rates-api
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Fee Plans API from Xflow — 2 operation(s) for fee plans.
+  name: Xflow Fee Plans API
+  slug: xflow-fee-plans-api
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Payment Links API from Xflow — 6 operation(s) for payment links.
+  name: Xflow Payment Links API
+  slug: xflow-payment-links-api
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Webhook Endpoints API from Xflow — 4 operation(s) for webhook endpoints.
+  name: Xflow Webhook Endpoints API
+  slug: xflow-webhook-endpoints-api
 artifact_total: 41
 asyncapis:
 - description: ''
@@ -363,17 +363,17 @@ modified: '2026-07-21'
 name: Xflow
 nav: Providers
 network: true
-overview: 'Xflow publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AccountSettings API, Addresses API, and 15 more. Tagged areas include Payments, Cross-Border Payments, Fintech, India, and Foreign Exchange.
+overview: 'Xflow publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, Balance API, and 15 more. Tagged areas include Payments, Cross-Border Payments, Fintech, India, and Foreign Exchange.
 
 
   The Xflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Xflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 14
+random_paper: 10
 score:
   band: developing
-  composite: 41.8
+  composite: 42.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -381,11 +381,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 57.4
+    contract_quality: 61.4
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 10.5
@@ -414,7 +414,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

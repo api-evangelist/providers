@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -95,14 +95,14 @@ apis:
   slug: microsoft-entra-groups-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Manage service principal objects that represent application instances in a tenant for authentication and authorization
-  name: Microsoft Entra ServicePrincipals API
-  slug: microsoft-entra-serviceprincipals-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: Manage user accounts in the directory including creation, updates, profile management, and lifecycle operations
   name: Microsoft Entra Users API
   slug: microsoft-entra-users-api
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Manage service principal objects that represent application instances in a tenant for authentication and authorization
+  name: Microsoft Entra Service Principals API
+  slug: microsoft-entra-service-principals-api
 arazzos:
 - description: Find a user by UPN, read its profile, and list its group memberships.
   name: Microsoft Entra Audit User Memberships
@@ -686,11 +686,11 @@ jsonld:
   property_count: 0
   slug: microsoft-entra-graph-identity-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Microsoft Entra
 nav: Providers
 network: true
-overview: 'Microsoft Entra publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Groups API, ServicePrincipals API, and 1 more. Tagged areas include Access Management, Authentication, Azure AD, Entra, and Identity.
+overview: 'Microsoft Entra publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Groups API, Users API, and 1 more. Tagged areas include Access Management, Authentication, Azure AD, Entra, and Identity.
 
 
   The Microsoft Entra catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -701,7 +701,7 @@ plans:
 - name: Microsoft Entra Plans Pricing
   plan_count: 10
   slug: microsoft-entra-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 9
   name: Microsoft Entra Rate Limits
@@ -760,7 +760,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -791,6 +791,7 @@ tags:
 - Network Security
 - Security
 - Zero Trust
+- Identity Federation
 use_cases:
 - description: Implement zero trust architecture with identity-based access controls, conditional access policies, and continuous verification.
   name: Zero Trust Implementation

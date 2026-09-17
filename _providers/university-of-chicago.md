@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 1
@@ -90,7 +90,7 @@ apis:
 - baseURL: https://gen3.datacommons.io/
   baseurl_source: declared
   description: API Credentials
-  name: University of Chicago Gen3 Fence — credentials/api API
+  name: University of Chicago Gen3 Fence — credentials/api
   slug: university-of-chicago-credentials-api-api
 - baseURL: https://gen3.datacommons.io/
   baseurl_source: declared
@@ -169,11 +169,6 @@ apis:
   slug: university-of-chicago-google-api
 - baseURL: https://gen3.datacommons.io/
   baseurl_source: declared
-  description: GraphQL Queries
-  name: University of Chicago Gen3 Peregrine — graphql API
-  slug: university-of-chicago-graphql-api
-- baseURL: https://gen3.datacommons.io/
-  baseurl_source: declared
   description: Endpoints for generation of Gen3 GUIDs
   name: University of Chicago Gen3 indexd — GUID API
   slug: university-of-chicago-guid-api
@@ -202,11 +197,6 @@ apis:
   description: Log out the current user
   name: University of Chicago Gen3 Fence — logout API
   slug: university-of-chicago-logout-api
-- baseURL: https://gen3.datacommons.io/
-  baseurl_source: declared
-  description: Authorization and token management
-  name: University of Chicago Gen3 Fence — oauth2 API
-  slug: university-of-chicago-oauth2-api
 - baseURL: https://gen3.datacommons.io/
   baseurl_source: declared
   description: The OIDC API from University of Chicago — 1 operation(s) for oidc.
@@ -257,6 +247,16 @@ apis:
   description: Published repository records.
   name: University of Chicago Records API
   slug: university-of-chicago-records-api
+- baseURL: https://shibboleth2.uchicago.edu/idp/shibboleth
+  baseurl_source: declared
+  description: Authorization and token management
+  name: University of Chicago Oauth2 API
+  slug: university-of-chicago-oauth2-api
+- baseURL: https://shibboleth2.uchicago.edu/idp/shibboleth
+  baseurl_source: declared
+  description: GraphQL Queries
+  name: University of Chicago Graph QL API
+  slug: university-of-chicago-graph-ql-api
 artifact_total: 102
 collections:
 - collection_type: open
@@ -561,7 +561,7 @@ jsonld:
   property_count: 0
   slug: university-of-chicago-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: University of Chicago
 nav: Providers
 network: true
@@ -576,7 +576,7 @@ plans:
 - name: University Of Chicago Plans Pricing
   plan_count: 2
   slug: university-of-chicago-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: University Of Chicago Rate Limits
@@ -609,7 +609,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.1
+  composite: 46.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 72.3
@@ -617,11 +617,11 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 28.9
     contract_governance: 25.0
-    contract_quality: 57.6
+    contract_quality: 58.2
     developer_ergonomics: 40.5
     discoverability: 68.5
     operational_transparency: 23.7
@@ -648,7 +648,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

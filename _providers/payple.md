@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Payple REST payment API (v2) for card, bank-account, recurring/billing-key, link, verification, and payout (Hub) operations, plus the hosted payment window.
@@ -170,14 +170,14 @@ modified: '2026-07-20'
 name: Payple
 nav: Providers
 network: true
-overview: 'Payple publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Fintech, and Korea.
+overview: 'Payple publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Fintech, and South Korea.
 
 
   The Payple catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Payple''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 0
+random_paper: 13
 score:
   band: developing
   composite: 42.7
@@ -213,7 +213,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -235,10 +235,10 @@ tags:
 - Payments
 - Payment Gateway
 - Fintech
-- Korea
+- South Korea
 - Recurring Payments
 - Billing
 - Cards
-- Bank Transfer
+- Bank Transfers
 website: https://payple.kr
 ---

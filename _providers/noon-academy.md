@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,7 +67,7 @@ name: Noon Academy
 nav: Providers
 network: true
 overview: Noon Academy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Social Learning, and Online Learning.
-random_paper: 14
+random_paper: 1
 score:
   band: minimal
   composite: 9.3
@@ -99,7 +99,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

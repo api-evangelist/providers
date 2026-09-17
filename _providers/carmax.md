@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The CarMax Store Locations API, discussed publicly on the CarMax Engineering Blog, exposes details about all CarMax store locations including addresses, hours, services offered, and geographic metadat
@@ -164,7 +164,7 @@ modified: '2026-09-05'
 name: CarMax
 nav: Providers
 network: true
-overview: 'CarMax publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Financing, Auto Retail, Appraisals, Automotive, and Omnichannel.
+overview: 'CarMax publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Financing, Auto Retail, Appraisal, Automotive, and Omnichannel.
 
 
   CarMax''s developer surface includes engineering blog, support, and 21 more developer resources.'
@@ -188,7 +188,7 @@ press:
 - date: '2026-05-25'
   title: CarMax Partners with UVeye to Automate Inspections at ...
   url: https://uveye.com/carmax-partners-with-uveye/
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Carmax Rate Limits
@@ -215,7 +215,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -235,7 +235,7 @@ slug: carmax
 tags:
 - Auto Financing
 - Auto Retail
-- Appraisals
+- Appraisal
 - Automotive
 - Omnichannel
 - Retail

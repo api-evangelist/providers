@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: JSON ad-request endpoint (mobile.mng-ads.com) that returns a single ad (banner, interstitial, native) for a given placement, device User-Agent, SDK version and consent signal. GET or POST.
@@ -199,7 +199,7 @@ plans:
 - name: Madvertise Plans Pricing
   plan_count: 0
   slug: madvertise-plans-pricing
-random_paper: 5
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Madvertise Rate Limits
@@ -227,7 +227,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

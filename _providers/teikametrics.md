@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -121,11 +121,11 @@ modified: '2026-08-02'
 name: Teikametrics
 nav: Providers
 network: true
-overview: 'Teikametrics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Retail, E-Commerce, and Marketplaces.
+overview: 'Teikametrics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Retail, E-Commerce, and Marketplace.
 
 
   Teikametrics'' developer surface includes documentation, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 4
+random_paper: 9
 score:
   band: emerging
   composite: 15.7
@@ -151,7 +151,7 @@ score:
     - north-america
   previous_composite: 15.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -169,7 +169,7 @@ tags:
 - Advertising
 - Retail
 - E-Commerce
-- Marketplaces
+- Marketplace
 - Artificial Intelligence
 - Analytics
 - Amazon

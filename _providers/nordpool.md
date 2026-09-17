@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,19 +69,9 @@ apis:
   slug: nordpool-day-ahead-prices-api
 - baseURL: https://data-api.nordpoolgroup.com
   baseurl_source: declared
-  description: The ExchangeRate API from Nord Pool — 2 operation(s) for exchangerate.
-  name: Nord Pool ExchangeRate API
-  slug: nordpool-exchangerate-api
-- baseURL: https://data-api.nordpoolgroup.com
-  baseurl_source: declared
   description: The Intraday API from Nord Pool — 17 operation(s) for intraday.
   name: Nord Pool Intraday API
   slug: nordpool-intraday-api
-- baseURL: https://data-api.nordpoolgroup.com
-  baseurl_source: declared
-  description: The PowerSystem API from Nord Pool — 17 operation(s) for powersystem.
-  name: Nord Pool PowerSystem API
-  slug: nordpool-powersystem-api
 - baseURL: https://data-api.nordpoolgroup.com
   baseurl_source: declared
   description: The PriceCurves API from Nord Pool — 1 operation(s) for pricecurves.
@@ -92,6 +82,16 @@ apis:
   description: The System API from Nord Pool — 4 operation(s) for system.
   name: Nord Pool System API
   slug: nordpool-system-api
+- baseURL: https://www.nordpoolgroup.com/en/trading/api/
+  baseurl_source: declared
+  description: The Exchange Rate API from Nord Pool — 2 operation(s) for exchange rate.
+  name: Nord Pool Exchange Rate API
+  slug: nordpool-exchange-rate-api
+- baseURL: https://www.nordpoolgroup.com/en/trading/api/
+  baseurl_source: declared
+  description: The Power System API from Nord Pool — 17 operation(s) for power system.
+  name: Nord Pool Power System API
+  slug: nordpool-power-system-api
 artifact_total: 30
 asyncapis:
 - description: Nord Pool's Intraday Trading API is a genuine WebSocket API. Clients open secure WebSocket connections (port 443) and speak STOMP over them to two web services - a Market Data service (public market d
@@ -212,7 +212,7 @@ plans:
 - name: Nordpool Plans Pricing
   plan_count: 5
   slug: nordpool-plans-pricing
-random_paper: 16
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Nordpool Rate Limits
@@ -236,7 +236,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.8
+  composite: 48.3
   coverage:
     artifact_dirs: 12
     catalog_earned: 67.8
@@ -244,11 +244,11 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 39.5
     contract_governance: 11.4
-    contract_quality: 61.8
+    contract_quality: 63.8
     developer_ergonomics: 38.1
     discoverability: 68.5
     operational_transparency: 34.2
@@ -272,7 +272,7 @@ score:
     regime_id: energy_utilities
     score: 47.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

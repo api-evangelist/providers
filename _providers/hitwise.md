@@ -29,7 +29,7 @@ name: Hitwise
 nav: Providers
 network: true
 overview: Hitwise is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Web Analytics, Competitive Intelligence, and Audience Measurement.
-random_paper: 9
+random_paper: 17
 security:
 - kind: domain-security
   name: Hitwise Domain Security

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Aranya Client API is the library interface an application uses to talk to the Aranya daemon. It covers team creation, device onboarding and removal, role and permission management (including custo
@@ -207,7 +207,7 @@ plans:
 - name: Spideroak Plans Pricing
   plan_count: 2
   slug: spideroak-plans-pricing
-random_paper: 17
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Spideroak Rate Limits
@@ -235,7 +235,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

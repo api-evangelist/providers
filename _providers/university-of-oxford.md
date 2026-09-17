@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: A SAML 2.0 identity provider serving live machine-readable metadata, with Redirect/SSO, POST/SSO, POST-SimpleSign/SSO, POST/SLO and SOAP/Redirect/SLO bindings and a signing certificate rotated 2026-05
@@ -62,20 +62,10 @@ apis:
   slug: university-of-oxford-iiif-api
 - baseURL: https://ora.ox.ac.uk/oai2
   baseurl_source: declared
-  description: Open Archives Initiative Protocol for Metadata Harvesting verbs.
-  name: University of Oxford OAI PMH API
-  slug: university-of-oxford-oai-pmh-api
-- baseURL: https://ora.ox.ac.uk/oai2
-  baseurl_source: declared
   description: Search and retrieval of ORA repository records.
   name: University of Oxford Repository API
   slug: university-of-oxford-repository-api
-- baseURL: https://ora.ox.ac.uk/oai2
-  baseurl_source: declared
-  description: OAI-PMH harvesting of Oxford Text Archive records.
-  name: University of Oxford Text Archive API
-  slug: university-of-oxford-textarchive-api
-artifact_total: 28
+artifact_total: 26
 common:
 - group: company
   title: ''
@@ -158,25 +148,25 @@ common:
   type: Blog
   url: https://blog.oxrse.uk/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-ora-search-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/_original/university-of-oxford-ora-search-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-oxford-ora-search-openapi.yml
+  url: openapi/_original/university-of-oxford-ora-search-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-ora-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/_original/university-of-oxford-ora-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-oxford-ora-oai-pmh-openapi.yml
+  url: openapi/_original/university-of-oxford-ora-oai-pmh-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-bodleian-iiif-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/_original/university-of-oxford-bodleian-iiif-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-oxford-bodleian-iiif-openapi.yml
+  url: openapi/_original/university-of-oxford-bodleian-iiif-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/_original/university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
+  url: openapi/_original/university-of-oxford-oxford-text-archive-oai-pmh-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/json-schema/university-of-oxford-ora-search-response-schema.json
   title: ''
@@ -313,11 +303,11 @@ jsonld:
   property_count: 5
   slug: university-of-oxford-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: University of Oxford
 nav: Providers
 network: true
-overview: 'University of Oxford publishes 4 APIs on the [APIs.io](https://apis.io/) network, including IIIF API, OAI PMH API, Repository API, and 1 more. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
+overview: 'University of Oxford publishes 2 APIs on the [APIs.io](https://apis.io/) network: IIIF API and Repository API. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
   The University of Oxford catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -328,7 +318,7 @@ plans:
 - name: University Of Oxford Plans Pricing
   plan_count: 2
   slug: university-of-oxford-plans-pricing
-random_paper: 4
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: University Of Oxford Rate Limits
@@ -351,7 +341,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.4
+  composite: 41.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 82.5
@@ -359,11 +349,11 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 34.2
     contract_governance: 22.7
-    contract_quality: 29.1
+    contract_quality: 29.3
     developer_ergonomics: 35.7
     discoverability: 74.1
     operational_transparency: 34.2
@@ -380,9 +370,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 2
       marker_coverage: 100.0
-      total: 4
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
@@ -390,7 +380,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

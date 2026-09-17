@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 6
-  human_in_the_loop: 0
+- acting_count: 108
+  human_in_the_loop: 2
   name: Dosespot Agentic Access
-  operation_count: 17
+  operation_count: 188
   slug: dosespot-agentic-access
-  summary_line: 17 operations · 6 acting
+  summary_line: 188 operations · 108 acting · 2 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://my.dosespot.com/webapi/v2
@@ -134,11 +134,6 @@ apis:
   slug: dosespot-eligibilities-api
 - baseURL: https://my.dosespot.com/webapi/v2
   baseurl_source: declared
-  description: The HealthCheck API from DoseSpot — 1 operation(s) for healthcheck.
-  name: DoseSpot Health Check API
-  slug: dosespot-healthcheck-api
-- baseURL: https://my.dosespot.com/webapi/v2
-  baseurl_source: declared
   description: The Interactions API from DoseSpot — 3 operation(s) for interactions.
   name: DoseSpot Interactions API
   slug: dosespot-interactions-api
@@ -182,6 +177,11 @@ apis:
   description: The Transparency API from DoseSpot — 1 operation(s) for transparency.
   name: DoseSpot Transparency API
   slug: dosespot-transparency-api
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Health Check API from DoseSpot — 1 operation(s) for health check.
+  name: DoseSpot Health Check API
+  slug: dosespot-health-check-api
 artifact_total: 44
 asyncapis:
 - description: ''
@@ -406,7 +406,7 @@ plans:
 - name: Dosespot Plans Pricing
   plan_count: 2
   slug: dosespot-plans-pricing
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Dosespot Rate Limits
@@ -451,7 +451,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -484,7 +484,7 @@ tags:
 - EPCS
 - Prescriptions
 - Clinical
-- Medications
+- Medication
 - Prior Authorization
 - Surescripts
 - Medi-Span

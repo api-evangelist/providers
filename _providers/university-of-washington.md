@@ -33,34 +33,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 5
+- acting_count: 61
   human_in_the_loop: 1
   name: University Of Washington Agentic Access
-  operation_count: 56
+  operation_count: 157
   slug: university-of-washington-agentic-access
-  summary_line: 56 operations · 5 acting · 1 human-in-the-loop
-api_count: 6
+  summary_line: 157 operations · 61 acting · 1 human-in-the-loop
+api_count: 10
 apis:
-- baseURL: https://mango.u.washington.edu:646/registry/v3
-  baseurl_source: declared
-  description: The UW-IT Identity Registry REST API. V3 (28 paths) and V2 (13 paths) OpenAPI descriptions are published openly by UW at iam-tools.u.washington.edu and are saved here; the runtime listens on a non-sta
-  name: Identity Registration Web Service (IRWS)
-  slug: identity-registry-web-service
 - description: Enterprise Web Services (EWS) is UW-IT's secure collection of REST/SOAP web services that let enterprise business applications access commonly shared source data in a scalable, real-time, highly avail
   name: UW-IT Enterprise Web Services Registry
   slug: enterprise-web-services
-- baseURL: https://groups.uw.edu/group_sws/v3
-  baseurl_source: declared
-  description: The University of Washington Group Service API — UW-IT's institution-operated group registry and membership service. UW publishes the OpenAPI itself, with an explicit termsOfService (washington.edu/on
-  name: UW Groups Web Service (GWS)
-  slug: groups-web-service
-- baseURL: https://taws.s.uw.edu:716/token/v2
-  baseurl_source: declared
-  description: UW-IT's Token Authentication Web Service V2 — the institution-operated issuer for the AccessToken credential that the Student and IdCard Web Services accept. Three paths; the OpenAPI is published by U
-  name: UW Token Authentication Web Service (TAWS)
-  slug: token-authentication-web-service
 - description: UW's Shibboleth identity provider publishes signed SAML 2.0 metadata at a stable URL — entityID urn:mace:incommon:washington.edu, scope washington.edu, InCommon registration ID INC20180221T195121. Mac
   name: UW Shibboleth Identity Provider (InCommon)
   slug: identity-federation
@@ -197,7 +182,187 @@ apis:
   description: UW Enterprise Web Services Version API — a discovery resource published at the root of both the Student Web Service and the IdCard Web Service. Per-path servers[] in the specification record which hos
   name: UW Enterprise Web Services Version API
   slug: university-of-washington-version-api
-artifact_total: 74
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The Account API from University of Washington — 3 operation(s) for account.
+  name: University of Washington Account API
+  slug: university-of-washington-account-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The account.canonical API from University of Washington — 1 operation(s) for account.canonical.
+  name: University of Washington Account.canonical API
+  slug: university-of-washington-account-canonical-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The account.gps API from University of Washington — 1 operation(s) for account.gps.
+  name: University of Washington Account.gps API
+  slug: university-of-washington-account-gps-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The account.history API from University of Washington — 1 operation(s) for account.history.
+  name: University of Washington Account.history API
+  slug: university-of-washington-account-history-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The account.mail API from University of Washington — 1 operation(s) for account.mail.
+  name: University of Washington Account.mail API
+  slug: university-of-washington-account-mail-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The account.subscription API from University of Washington — 1 operation(s) for account.subscription.
+  name: University of Washington Account.subscription API
+  slug: university-of-washington-account-subscription-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The account.subscription.history API from University of Washington — 1 operation(s) for account.subscription.history.
+  name: University of Washington Account.subscription.history API
+  slug: university-of-washington-account-subscription-history-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The account.subscription.pac API from University of Washington — 1 operation(s) for account.subscription.pac.
+  name: University of Washington Account.subscription.pac API
+  slug: university-of-washington-account-subscription-pac-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The account.subscription.rule API from University of Washington — 1 operation(s) for account.subscription.rule.
+  name: University of Washington Account.subscription.rule API
+  slug: university-of-washington-account-subscription-rule-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The Auth API from University of Washington — 1 operation(s) for auth.
+  name: University of Washington Auth API
+  slug: university-of-washington-auth-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The Crn API from University of Washington — 1 operation(s) for crn.
+  name: University of Washington Crn API
+  slug: university-of-washington-crn-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The D_subscription.compat API from University of Washington — 1 operation(s) for d_subscription.compat.
+  name: University of Washington D Subscription.compat API
+  slug: university-of-washington-d-subscription-compat-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity API from University of Washington — 2 operation(s) for entity.
+  name: University of Washington Entity API
+  slug: university-of-washington-entity-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.canonical API from University of Washington — 1 operation(s) for entity.canonical.
+  name: University of Washington Entity.canonical API
+  slug: university-of-washington-entity-canonical-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.category API from University of Washington — 1 operation(s) for entity.category.
+  name: University of Washington Entity.category API
+  slug: university-of-washington-entity-category-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.history API from University of Washington — 1 operation(s) for entity.history.
+  name: University of Washington Entity.history API
+  slug: university-of-washington-entity-history-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.join API from University of Washington — 1 operation(s) for entity.join.
+  name: University of Washington Entity.join API
+  slug: university-of-washington-entity-join-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.name API from University of Washington — 1 operation(s) for entity.name.
+  name: University of Washington Entity.name API
+  slug: university-of-washington-entity-name-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.pac API from University of Washington — 1 operation(s) for entity.pac.
+  name: University of Washington Entity.pac API
+  slug: university-of-washington-entity-pac-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.pds API from University of Washington — 1 operation(s) for entity.pds.
+  name: University of Washington Entity.pds API
+  slug: university-of-washington-entity-pds-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.profile.name API from University of Washington — 1 operation(s) for entity.profile.name.
+  name: University of Washington Entity.profile.name API
+  slug: university-of-washington-entity-profile-name-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.profile.pronoun API from University of Washington — 1 operation(s) for entity.profile.pronoun.
+  name: University of Washington Entity.profile.pronoun API
+  slug: university-of-washington-entity-profile-pronoun-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.profile.recovery API from University of Washington — 1 operation(s) for entity.profile.recovery.
+  name: University of Washington Entity.profile.recovery API
+  slug: university-of-washington-entity-profile-recovery-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.sponsor API from University of Washington — 1 operation(s) for entity.sponsor.
+  name: University of Washington Entity.sponsor API
+  slug: university-of-washington-entity-sponsor-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.sponsor.avf API from University of Washington — 1 operation(s) for entity.sponsor.avf.
+  name: University of Washington Entity.sponsor.avf API
+  slug: university-of-washington-entity-sponsor-avf-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The entity.verify API from University of Washington — 1 operation(s) for entity.verify.
+  name: University of Washington Entity.verify API
+  slug: university-of-washington-entity-verify-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: Group information--except membership
+  name: University of Washington Groups API
+  slug: university-of-washington-groups-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: Group membership information
+  name: University of Washington Membership API
+  slug: university-of-washington-membership-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The Name API from University of Washington — 1 operation(s) for name.
+  name: University of Washington Name API
+  slug: university-of-washington-name-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The Pdsentry API from University of Washington — 2 operation(s) for pdsentry.
+  name: University of Washington Pdsentry API
+  slug: university-of-washington-pdsentry-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The reference.subscription.rule API from University of Washington — 1 operation(s) for reference.subscription.rule.
+  name: University of Washington Reference.subscription.rule API
+  slug: university-of-washington-reference-subscription-rule-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The Regid API from University of Washington — 3 operation(s) for regid.
+  name: University of Washington Regid API
+  slug: university-of-washington-regid-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: Group and member searches
+  name: University of Washington Searches API
+  slug: university-of-washington-searches-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The Social API from University of Washington — 1 operation(s) for social.
+  name: University of Washington Social API
+  slug: university-of-washington-social-api
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The Subscription.compat API from University of Washington — 1 operation(s) for subscription.compat.
+  name: University of Washington Subscription.compat API
+  slug: university-of-washington-subscription-compat-api
+- baseURL: https://idp.u.washington.edu/metadata/idp-metadata.xml
+  baseurl_source: declared
+  description: The Pre Auth API from University of Washington — 1 operation(s) for pre auth.
+  name: University of Washington Pre Auth API
+  slug: university-of-washington-pre-auth-api
+artifact_total: 107
 collections:
 - collection_type: open
   name: API Collection
@@ -499,7 +664,7 @@ modified: '2026-08-30'
 name: University of Washington
 nav: Providers
 network: true
-overview: 'University of Washington publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Identity Registration Web Service (IRWS), UW Groups Web Service (GWS), UW Token Authentication Web Service (TAWS), and 26 more. Tagged areas include University, Higher Education, Education, United States, and Washington.
+overview: 'University of Washington publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Student Web Service (SWS) Campus API, IdCard Web Service (IdCardWS) Card API, Student Web Service (SWS) College API, and 59 more. Tagged areas include University, Higher Education, Education, United States, and Washington.
 
 
   The University of Washington catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -510,7 +675,7 @@ plans:
 - name: University Of Washington Plans Pricing
   plan_count: 2
   slug: university-of-washington-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: University Of Washington Rate Limits
@@ -538,7 +703,7 @@ rules:
   slug: university-of-washington-rules
 score:
   band: developing
-  composite: 39.9
+  composite: 48.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 67.3
@@ -546,11 +711,11 @@ score:
     catalog_gap: 47.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.2
   facets:
     access_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 21.3
+    contract_quality: 54.0
     developer_ergonomics: 45.2
     discoverability: 59.3
     operational_transparency: 26.3
@@ -566,10 +731,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 90.0
-      derived: 26
-      marker_coverage: 100.0
-      total: 30
+      callable: 4.8
+      derived: 0
+      marker_coverage: 62.9
+      total: 62
   regulatory:
     applies: true
     matched_via: tags
@@ -577,8 +742,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

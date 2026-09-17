@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,8 +52,8 @@ modified: '2026-07-19'
 name: Instinct Xyz
 nav: Providers
 network: true
-overview: Instinct Xyz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Trading, Y Combinator, and Startup.
-random_paper: 3
+overview: Instinct Xyz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Trading, Y Combinator, and Startups.
+random_paper: 8
 score:
   band: minimal
   composite: 0.0
@@ -86,7 +86,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -98,6 +98,6 @@ tags:
 - Fintech
 - Trading
 - Y Combinator
-- Startup
+- Startups
 website: https://instinct.xyz
 ---

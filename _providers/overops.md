@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -178,6 +178,10 @@ collections:
   name: Services Alerts Views API
   slug: open-overops-views-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://overops.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/overops/refs/heads/main/overlays/overops-services-overlay.yaml
   title: ''
@@ -290,18 +294,18 @@ created: '2026-07-17'
 description: OverOps (formerly Takipi) is a continuous reliability platform that helps teams who ship software ensure rapid code changes do not degrade the customer experience. It runs in the cloud or on-premises, instruments Java and .NET applications with a micro-agent, and automatically identifies, prevents, and resolves critical software issues across CI/CD, testing, and production. OverOps captures true root-cause code snapshots (stack, source, and variable state) at the moment of failure and exposes everything through a REST API that lets admins and users automate every action available in the OverOps UI. OverOps was acquired by Harness; overops.com now redirects to harness.io, while the developer API, documentation, and application hosts remain live.
 image: https://files.readme.io/dd13086-small-Logo_white.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Overops
 nav: Providers
 network: true
 overview: 'Overops publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Code Redaction API, and 13 more. Tagged areas include Company, Observability, Reliability, Error Monitoring, and Application Performance.
 
 
-  Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 18 more developer resources.'
-random_paper: 5
+  Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 19 more developer resources.'
+random_paper: 12
 score:
   band: thin
-  composite: 31.5
+  composite: 30.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -309,11 +313,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
-    contract_quality: 54.2
+    contract_quality: 51.2
     developer_ergonomics: 33.9
     discoverability: 75.9
     operational_transparency: 18.4
@@ -329,7 +333,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -354,5 +358,5 @@ tags:
 - Java
 - DevOps
 - Code Quality
-website: https://doc.overops.com
+website: https://overops.com
 ---

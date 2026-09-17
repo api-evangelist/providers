@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ modified: '2026-06-25'
 name: Herald
 nav: Providers
 network: true
-overview: 'Herald publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Classifications API, and 7 more. Tagged areas include Insurance, Insurtech, Commercial Insurance, Quoting, and Carriers.
+overview: 'Herald publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Classifications API, and 7 more. Tagged areas include Insurance, Insurtech, Commercial Insurance, Quoting, and Carrier.
 
 
   Herald''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -202,7 +202,7 @@ plans:
 - name: Herald Plans Pricing
   plan_count: 1
   slug: herald-plans-pricing
-random_paper: 15
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Herald Rate Limits
@@ -240,7 +240,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -261,6 +261,6 @@ tags:
 - Insurtech
 - Commercial Insurance
 - Quoting
-- Carriers
+- Carrier
 website: https://www.heraldapi.com
 ---

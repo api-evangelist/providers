@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Waste Connections MyAccount customer portal provides online access to account management, service scheduling, pickup notifications, billing, and payment services for residential and commercial cus
@@ -116,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: AMP to Operate Waste Connections Recycling Facility ...
   url: https://ampsortation.com/articles/first-of-its-kind-facility-featuring-fully-integra
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Waste Connections Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

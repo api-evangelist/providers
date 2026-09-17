@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -80,11 +80,6 @@ apis:
   slug: emailengine-logs-api
 - baseURL: https://api.emailengine.app
   baseurl_source: declared
-  description: The Oauth2 API from EmailEngine — 1 operation(s) for oauth2.
-  name: EmailEngine Oauth2 API
-  slug: emailengine-oauth2-api
-- baseURL: https://api.emailengine.app
-  baseurl_source: declared
   description: The Outbox API from EmailEngine — 1 operation(s) for outbox.
   name: EmailEngine Outbox API
   slug: emailengine-outbox-api
@@ -108,6 +103,11 @@ apis:
   description: The Webhookroutes API from EmailEngine — 1 operation(s) for webhookroutes.
   name: EmailEngine Webhookroutes API
   slug: emailengine-webhookroutes-api
+- baseURL: https://api.emailengine.app
+  baseurl_source: declared
+  description: The Oauth2 API from EmailEngine — 1 operation(s) for oauth2.
+  name: EmailEngine Oauth2 API
+  slug: emailengine-oauth2-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -246,7 +246,7 @@ plans:
 - name: Emailengine Plans Pricing
   plan_count: 3
   slug: emailengine-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Emailengine Rate Limits
@@ -278,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

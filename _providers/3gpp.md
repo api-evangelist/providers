@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 1
@@ -50,11 +50,6 @@ apis:
   slug: forge-gitlab-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The 3gpp Nidd Configuration Trigger API from 3GPP — 1 operation(s) for 3gpp nidd configuration trigger.
-  name: 3GPP 3gpp Nidd Configuration Trigger API
-  slug: 3gpp-3gpp-nidd-configuration-trigger-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The 5GLAN Parameters Provision Subscriptions API from 3GPP — 1 operation(s) for 5glan parameters provision subscriptions.
   name: 3GPP 5GLAN Parameters Provision Subscriptions API
   slug: 3gpp-5glan-parameters-provision-subscriptions-api
@@ -65,11 +60,6 @@ apis:
   slug: 3gpp-access-control-policy-list-collection-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The ACS Configuration Subscriptions API from 3GPP — 1 operation(s) for acs configuration subscriptions.
-  name: 3GPP ACS Configuration Subscriptions API
-  slug: 3gpp-acs-configuration-subscriptions-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Activation Management API from 3GPP — 4 operation(s) for activation management.
   name: 3GPP Activation Management API
   slug: 3gpp-activation-management-api
@@ -78,11 +68,6 @@ apis:
   description: The Addressing Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for addressing parameters provisionings (collection).
   name: 3GPP Addressing Parameters Provisionings (Collection) API
   slug: 3gpp-addressing-parameters-provisionings-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The AF level UE location update notification operation API from 3GPP — 1 operation(s) for af level ue location update notification operation.
-  name: 3GPP AF level UE location update notification operation API
-  slug: 3gpp-af-level-ue-location-update-notification-operation-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The AIoT Command Request (custom operation without associated resources) API from 3GPP — 1 operation(s) for aiot command request (custom operation without associated resources).
@@ -108,11 +93,6 @@ apis:
   description: The All service API invocation logs (Collection) API from 3GPP — 1 operation(s) for all service api invocation logs (collection).
   name: 3GPP All service API invocation logs (Collection) API
   slug: 3gpp-all-service-api-invocation-logs-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The AM Influence Subscription API from 3GPP — 1 operation(s) for am influence subscription.
-  name: 3GPP AM Influence Subscription API
-  slug: 3gpp-am-influence-subscription-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The AM Policy Events Subscription API from 3GPP — 1 operation(s) for am policy events subscription.
@@ -145,11 +125,6 @@ apis:
   slug: 3gpp-application-sessions-collection-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Applied BDT Policy Subscription API from 3GPP — 1 operation(s) for applied bdt policy subscription.
-  name: 3GPP Applied BDT Policy Subscription API
-  slug: 3gpp-applied-bdt-policy-subscription-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The AS Session with Required QoS Subscriptions API from 3GPP — 1 operation(s) for as session with required qos subscriptions.
   name: 3GPP AS Session with Required QoS Subscriptions API
   slug: 3gpp-as-session-with-required-qos-subscriptions-api
@@ -160,24 +135,9 @@ apis:
   slug: 3gpp-asti-configurations-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The BDT Subscription API from 3GPP — 1 operation(s) for bdt subscription.
-  name: 3GPP BDT Subscription API
-  slug: 3gpp-bdt-subscription-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The CAG Information Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for cag information parameters provisionings (collection).
-  name: 3GPP CAG Information Parameters Provisionings (Collection) API
-  slug: 3gpp-cag-information-parameters-provisionings-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The CAPIFs Events Subscriptions (Collection) API from 3GPP — 1 operation(s) for capifs events subscriptions (collection).
   name: 3GPP CAPIFs Events Subscriptions (Collection) API
   slug: 3gpp-capifs-events-subscriptions-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Chargeable Party Transaction Operation API from 3GPP — 1 operation(s) for chargeable party transaction operation.
-  name: 3GPP Chargeable Party Transaction Operation API
-  slug: 3gpp-chargeable-party-transaction-operation-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Check Authentication Request API from 3GPP — 1 operation(s) for check authentication request.
@@ -220,21 +180,6 @@ apis:
   slug: 3gpp-delivery-via-mbms-operation-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Device Triggering API Transactions API from 3GPP — 1 operation(s) for device triggering api transactions.
-  name: 3GPP Device Triggering API Transactions API
-  slug: 3gpp-device-triggering-api-transactions-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Device Triggering Transactions API from 3GPP — 1 operation(s) for device triggering transactions.
-  name: 3GPP Device Triggering Transactions API
-  slug: 3gpp-device-triggering-transactions-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The DNAI Mapping Subscriptions (Collection) API from 3GPP — 1 operation(s) for dnai mapping subscriptions (collection).
-  name: 3GPP DNAI Mapping Subscriptions (Collection) API
-  slug: 3gpp-dnai-mapping-subscriptions-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The EAS Deployment Information (Collection) API from 3GPP — 1 operation(s) for eas deployment information (collection).
   name: 3GPP EAS Deployment Information (Collection) API
   slug: 3gpp-eas-deployment-information-collection-api
@@ -253,11 +198,6 @@ apis:
   description: The ECS Address Configuration Information Sets (Collection) API from 3GPP — 1 operation(s) for ecs address configuration information sets (collection).
   name: 3GPP ECS Address Configuration Information Sets (Collection) API
   slug: 3gpp-ecs-address-configuration-information-sets-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The ECS Address Provision Configurations (Collection) API from 3GPP — 1 operation(s) for ecs address provision configurations (collection).
-  name: 3GPP ECS Address Provision Configurations (Collection) API
-  slug: 3gpp-ecs-address-provision-configurations-collection-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Events Subscription (Document) API from 3GPP — 1 operation(s) for events subscription (document).
@@ -285,26 +225,6 @@ apis:
   slug: 3gpp-get-msisdn-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Group Parameters Provisioning (Collection) API from 3GPP — 1 operation(s) for group parameters provisioning (collection).
-  name: 3GPP Group Parameters Provisioning (Collection) API
-  slug: 3gpp-group-parameters-provisioning-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Group Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for group parameters provisionings (collection).
-  name: 3GPP Group Parameters Provisionings (Collection) API
-  slug: 3gpp-group-parameters-provisionings-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The IMS EE Subscriptions (Collection) API from 3GPP — 1 operation(s) for ims ee subscriptions (collection).
-  name: 3GPP IMS EE Subscriptions (Collection) API
-  slug: 3gpp-ims-ee-subscriptions-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The IMS Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for ims parameters provisionings (collection).
-  name: 3GPP IMS Parameters Provisionings (Collection) API
-  slug: 3gpp-ims-parameters-provisionings-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The IMS Session Creation (Collection) API from 3GPP — 1 operation(s) for ims session creation (collection).
   name: 3GPP IMS Session Creation (Collection) API
   slug: 3gpp-ims-session-creation-collection-api
@@ -320,19 +240,9 @@ apis:
   slug: 3gpp-individual-5glan-parameters-provision-subscription-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual ACS Configuration Subscription API from 3GPP — 1 operation(s) for individual acs configuration subscription.
-  name: 3GPP Individual ACS Configuration Subscription API
-  slug: 3gpp-individual-acs-configuration-subscription-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual Addressing Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual addressing parameters provisioning (document).
   name: 3GPP Individual Addressing Parameters Provisioning (Document) API
   slug: 3gpp-individual-addressing-parameters-provisioning-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual AM Influence Subscription API from 3GPP — 1 operation(s) for individual am influence subscription.
-  name: 3GPP Individual AM Influence Subscription API
-  slug: 3gpp-individual-am-influence-subscription-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Individual Analytics Exposure Subscription API from 3GPP — 1 operation(s) for individual analytics exposure subscription.
@@ -365,11 +275,6 @@ apis:
   slug: 3gpp-individual-application-session-context-document-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual Applied BDT Policy Subscription API from 3GPP — 1 operation(s) for individual applied bdt policy subscription.
-  name: 3GPP Individual Applied BDT Policy Subscription API
-  slug: 3gpp-individual-applied-bdt-policy-subscription-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual AS Session with Required QoS Subscription API from 3GPP — 1 operation(s) for individual as session with required qos subscription.
   name: 3GPP Individual AS Session with Required QoS Subscription API
   slug: 3gpp-individual-as-session-with-required-qos-subscription-api
@@ -380,24 +285,9 @@ apis:
   slug: 3gpp-individual-asti-configuration-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual BDT Subscription API from 3GPP — 1 operation(s) for individual bdt subscription.
-  name: 3GPP Individual BDT Subscription API
-  slug: 3gpp-individual-bdt-subscription-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual CAG Information Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual cag information parameters provisioning (document).
-  name: 3GPP Individual CAG Information Parameters Provisioning (Document) API
-  slug: 3gpp-individual-cag-information-parameters-provisioning-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual CAPIFs Events Subscription (Document) API from 3GPP — 1 operation(s) for individual capifs events subscription (document).
   name: 3GPP Individual CAPIFs Events Subscription (Document) API
   slug: 3gpp-individual-capifs-events-subscription-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual chargeable party resource Operation API from 3GPP — 1 operation(s) for individual chargeable party resource operation.
-  name: 3GPP Individual chargeable party resource Operation API
-  slug: 3gpp-individual-chargeable-party-resource-operation-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Individual CP Provisioning Subscription API from 3GPP — 1 operation(s) for individual cp provisioning subscription.
@@ -430,16 +320,6 @@ apis:
   slug: 3gpp-individual-delivery-via-mbms-resource-operation-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual Device Triggering Transaction API from 3GPP — 1 operation(s) for individual device triggering transaction.
-  name: 3GPP Individual Device Triggering Transaction API
-  slug: 3gpp-individual-device-triggering-transaction-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual DNAI Mapping Subscription (Document) API from 3GPP — 1 operation(s) for individual dnai mapping subscription (document).
-  name: 3GPP Individual DNAI Mapping Subscription (Document) API
-  slug: 3gpp-individual-dnai-mapping-subscription-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual EAS Deployment Information API from 3GPP — 1 operation(s) for individual eas deployment information.
   name: 3GPP Individual EAS Deployment Information API
   slug: 3gpp-individual-eas-deployment-information-api
@@ -450,24 +330,9 @@ apis:
   slug: 3gpp-individual-ecs-address-configuration-information-set-document-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual ECS Address Provision Configuration API from 3GPP — 1 operation(s) for individual ecs address provision configuration.
-  name: 3GPP Individual ECS Address Provision Configuration API
-  slug: 3gpp-individual-ecs-address-provision-configuration-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual Group Parameters Provisioning (Document) API from 3GPP — 2 operation(s) for individual group parameters provisioning (document).
   name: 3GPP Individual Group Parameters Provisioning (Document) API
   slug: 3gpp-individual-group-parameters-provisioning-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual IMS EE Subscription (Document) API from 3GPP — 1 operation(s) for individual ims ee subscription (document).
-  name: 3GPP Individual IMS EE Subscription (Document) API
-  slug: 3gpp-individual-ims-ee-subscription-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual IMS Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual ims parameters provisioning (document).
-  name: 3GPP Individual IMS Parameters Provisioning (Document) API
-  slug: 3gpp-individual-ims-parameters-provisioning-document-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Individual IMS Session API from 3GPP — 1 operation(s) for individual ims session.
@@ -481,13 +346,8 @@ apis:
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Individual Individual ECS Address Configuration Set (Document) API from 3GPP — 1 operation(s) for individual individual ecs address configuration set (document).
-  name: 3GPP Individual Individual ECS Address Configuration Set (Document) API
+  name: 3GPP Individual ECS Address Configuration Set (Document) API
   slug: 3gpp-individual-individual-ecs-address-configuration-set-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual IPTV Configuration API from 3GPP — 1 operation(s) for individual iptv configuration.
-  name: 3GPP Individual IPTV Configuration API
-  slug: 3gpp-individual-iptv-configuration-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Individual LPI Parameters Provisioning API from 3GPP — 1 operation(s) for individual lpi parameters provisioning.
@@ -540,21 +400,6 @@ apis:
   slug: 3gpp-individual-media-streaming-event-exposure-subscription-document-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual Member UE Selection Assistance Subscription (Document) API from 3GPP — 1 operation(s) for individual member ue selection assistance subscription (document).
-  name: 3GPP Individual Member UE Selection Assistance Subscription (Document) API
-  slug: 3gpp-individual-member-ue-selection-assistance-subscription-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual Monitoring Event Subscription API from 3GPP — 1 operation(s) for individual monitoring event subscription.
-  name: 3GPP Individual Monitoring Event Subscription API
-  slug: 3gpp-individual-monitoring-event-subscription-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual Network Status Reporting Subscription API from 3GPP — 1 operation(s) for individual network status reporting subscription.
-  name: 3GPP Individual Network Status Reporting Subscription API
-  slug: 3gpp-individual-network-status-reporting-subscription-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual NIDD configuration API from 3GPP — 1 operation(s) for individual nidd configuration.
   name: 3GPP Individual NIDD configuration API
   slug: 3gpp-individual-nidd-configuration-api
@@ -585,11 +430,6 @@ apis:
   slug: 3gpp-individual-on-boarded-api-invoker-document-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual PDTQ Policy Subscription (Document) API from 3GPP — 1 operation(s) for individual pdtq policy subscription (document).
-  name: 3GPP Individual PDTQ Policy Subscription (Document) API
-  slug: 3gpp-individual-pdtq-policy-subscription-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual PFD Management Transaction API from 3GPP — 1 operation(s) for individual pfd management transaction.
   name: 3GPP Individual PFD Management Transaction API
   slug: 3gpp-individual-pfd-management-transaction-api
@@ -600,11 +440,6 @@ apis:
   slug: 3gpp-individual-racs-parameter-provisioning-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual RSLPPI Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual rslppi parameters provisioning (document).
-  name: 3GPP Individual RSLPPI Parameters Provisioning (Document) API
-  slug: 3gpp-individual-rslppi-parameters-provisioning-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual Service API routing Info (Document) API from 3GPP — 1 operation(s) for individual service api routing info (document).
   name: 3GPP Individual Service API routing Info (Document) API
   slug: 3gpp-individual-service-api-routing-info-document-api
@@ -613,16 +448,6 @@ apis:
   description: The Individual Service Operation API from 3GPP — 1 operation(s) for individual service operation.
   name: 3GPP Individual Service Operation API
   slug: 3gpp-individual-service-operation-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual Service Parameter Subscription API from 3GPP — 1 operation(s) for individual service parameter subscription.
-  name: 3GPP Individual Service Parameter Subscription API
-  slug: 3gpp-individual-service-parameter-subscription-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Individual Slice Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual slice parameters provisioning (document).
-  name: 3GPP Individual Slice Parameters Provisioning (Document) API
-  slug: 3gpp-individual-slice-parameters-provisioning-document-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Individual SM Policy (Document) API from 3GPP — 3 operation(s) for individual sm policy (document).
@@ -645,11 +470,6 @@ apis:
   slug: 3gpp-individual-tmgi-allocation-operation-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual Traffic Influence Subscription API from 3GPP — 1 operation(s) for individual traffic influence subscription.
-  name: 3GPP Individual Traffic Influence Subscription API
-  slug: 3gpp-individual-traffic-influence-subscription-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual trusted API invoker (Store) API from 3GPP — 4 operation(s) for individual trusted api invoker (store).
   name: 3GPP Individual trusted API invoker (Store) API
   slug: 3gpp-individual-trusted-api-invoker-store-api
@@ -670,19 +490,9 @@ apis:
   slug: 3gpp-individual-ue-id-mapping-information-provisioning-document-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Individual VFL Inference Subscription (Document) API from 3GPP — 1 operation(s) for individual vfl inference subscription (document).
-  name: 3GPP Individual VFL Inference Subscription (Document) API
-  slug: 3gpp-individual-vfl-inference-subscription-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Individual VFL Training Subscription (Document) API from 3GPP — 1 operation(s) for individual vfl training subscription (document).
   name: 3GPP Individual VFL Training Subscription (Document) API
   slug: 3gpp-individual-vfl-training-subscription-document-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The IPTV Configurations API from 3GPP — 1 operation(s) for iptv configurations.
-  name: 3GPP IPTV Configurations API
-  slug: 3gpp-iptv-configurations-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Logs (Collection) API from 3GPP — 1 operation(s) for logs (collection).
@@ -755,26 +565,6 @@ apis:
   slug: 3gpp-media-streaming-event-exposure-subscriptions-collection-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The Member UE Selection Assistance Subscriptions (Collection) API from 3GPP — 1 operation(s) for member ue selection assistance subscriptions (collection).
-  name: 3GPP Member UE Selection Assistance Subscriptions (Collection) API
-  slug: 3gpp-member-ue-selection-assistance-subscriptions-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Monitoring Event Subscriptions API from 3GPP — 1 operation(s) for monitoring event subscriptions.
-  name: 3GPP Monitoring Event Subscriptions API
-  slug: 3gpp-monitoring-event-subscriptions-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The MSISDN-less MO SMS Notification API from 3GPP — 1 operation(s) for msisdn-less mo sms notification.
-  name: 3GPP MSISDN-less MO SMS Notification API
-  slug: 3gpp-msisdn-less-mo-sms-notification-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Network Status Reporting Subscriptions API from 3GPP — 1 operation(s) for network status reporting subscriptions.
-  name: 3GPP Network Status Reporting Subscriptions API
-  slug: 3gpp-network-status-reporting-subscriptions-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The NIDD configurations API from 3GPP — 1 operation(s) for nidd configurations.
   name: 3GPP NIDD configurations API
   slug: 3gpp-nidd-configurations-api
@@ -825,11 +615,6 @@ apis:
   slug: 3gpp-pcscf-restoration-indication-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The PDTQ Policy Subscriptions (Collection) API from 3GPP — 1 operation(s) for pdtq policy subscriptions (collection).
-  name: 3GPP PDTQ Policy Subscriptions (Collection) API
-  slug: 3gpp-pdtq-policy-subscriptions-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The PFD Management Transactions API from 3GPP — 1 operation(s) for pfd management transactions.
   name: 3GPP PFD Management Transactions API
   slug: 3gpp-pfd-management-transactions-api
@@ -875,16 +660,6 @@ apis:
   slug: 3gpp-revoke-authorization-request-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The RSLPPI Parameters Provisioning (Collection) API from 3GPP — 1 operation(s) for rslppi parameters provisioning (collection).
-  name: 3GPP RSLPPI Parameters Provisioning (Collection) API
-  slug: 3gpp-rslppi-parameters-provisioning-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The RSLPPI Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for rslppi parameters provisionings (collection).
-  name: 3GPP RSLPPI Parameters Provisionings (Collection) API
-  slug: 3gpp-rslppi-parameters-provisionings-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The Service APIs (Collection) API from 3GPP — 1 operation(s) for service apis (collection).
   name: 3GPP Service APIs (Collection) API
   slug: 3gpp-service-apis-collection-api
@@ -893,21 +668,6 @@ apis:
   description: The Service Operation API from 3GPP — 1 operation(s) for service operation.
   name: 3GPP Service Operation API
   slug: 3gpp-service-operation-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Service Parameter Subscriptions API from 3GPP — 1 operation(s) for service parameter subscriptions.
-  name: 3GPP Service Parameter Subscriptions API
-  slug: 3gpp-service-parameter-subscriptions-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The ServiceProfiles API from 3GPP — 2 operation(s) for serviceprofiles.
-  name: 3GPP Service Profiles API
-  slug: 3gpp-serviceprofiles-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Slice Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for slice parameters provisionings (collection).
-  name: 3GPP Slice Parameters Provisionings (Collection) API
-  slug: 3gpp-slice-parameters-provisionings-collection-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The SliceProfiles API from 3GPP — 2 operation(s) for sliceprofiles.
@@ -923,11 +683,6 @@ apis:
   description: The Subscriptions API from 3GPP — 2 operation(s) for subscriptions.
   name: 3GPP Subscriptions API
   slug: 3gpp-subscriptions-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Subscriptions (Collection) API from 3GPP — 1 operation(s) for subscriptions (collection).
-  name: 3GPP Subscriptions (Collection) API
-  slug: 3gpp-subscriptions-collection-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Time Synchronization Exposure Configurations API from 3GPP — 1 operation(s) for time synchronization exposure configurations.
@@ -948,11 +703,6 @@ apis:
   description: The TMGI Allocation or Timer Expiry Refresh API from 3GPP — 1 operation(s) for tmgi allocation or timer expiry refresh.
   name: 3GPP TMGI Allocation or Timer Expiry Refresh API
   slug: 3gpp-tmgi-allocation-or-timer-expiry-refresh-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
-  description: The Traffic Influence Subscription API from 3GPP — 1 operation(s) for traffic influence subscription.
-  name: 3GPP Traffic Influence Subscription API
-  slug: 3gpp-traffic-influence-subscription-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
   description: The Trigger Descriptor Management API from 3GPP — 2 operation(s) for trigger descriptor management.
@@ -995,11 +745,6 @@ apis:
   slug: 3gpp-verify-msisdn-api
 - baseURL: '{notificationRecipientAddress}'
   baseurl_source: declared
-  description: The VFL Inference Subscriptions (Collection) API from 3GPP — 1 operation(s) for vfl inference subscriptions (collection).
-  name: 3GPP VFL Inference Subscriptions (Collection) API
-  slug: 3gpp-vfl-inference-subscriptions-collection-api
-- baseURL: '{notificationRecipientAddress}'
-  baseurl_source: declared
   description: The VFL NF discovery API from 3GPP — 1 operation(s) for vfl nf discovery.
   name: 3GPP VFL NF discovery API
   slug: 3gpp-vfl-nf-discovery-api
@@ -1013,7 +758,12 @@ apis:
   description: The VFL Training Subscriptions (Collection) API from 3GPP — 1 operation(s) for vfl training subscriptions (collection).
   name: 3GPP VFL Training Subscriptions (Collection) API
   slug: 3gpp-vfl-training-subscriptions-collection-api
-artifact_total: 316
+- baseURL: https://forge.3gpp.org/rep/api/v4
+  baseurl_source: declared
+  description: The Service Profiles API from 3GPP — 2 operation(s) for service profiles.
+  name: 3GPP Service Profiles API
+  slug: 3gpp-service-profiles-api
+artifact_total: 266
 asyncapis:
 - description: ''
   name: 3Gpp Notifications Webhooks
@@ -1536,18 +1286,18 @@ description: '3GPP (the 3rd Generation Partnership Project) is the global standa
   programme — there is no portal, no key, no sandbox and no callable endpoint; the specifications describe interfaces that operators instantiate, and the developer-facing abstraction over them is CAMARA and GSMA Open Gateway, not 3GPP itself.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: 3GPP
 nav: Providers
 network: true
-overview: '3GPP publishes 193 APIs on the [APIs.io](https://apis.io/) network, including 3gpp Nidd Configuration Trigger API, 5GLAN Parameters Provision Subscriptions API, Access Control Policy List (Collection) API, and 190 more. Tagged areas include Telecommunications, Global, Standards, Standards Body, and Network APIs.
+overview: '3GPP publishes 143 APIs on the [APIs.io](https://apis.io/) network, including 5GLAN Parameters Provision Subscriptions API, Access Control Policy List (Collection) API, Activation Management API, and 140 more. Tagged areas include Telecommunications, Global, Standards, Standards Body, and Network APIs.
 
 
   The 3GPP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   3GPP''s developer surface includes authentication, documentation, developer portal, tooling, engineering blog, changelog, support, and 29 more developer resources.'
-random_paper: 0
+random_paper: 4
 scopes:
 - name: 3Gpp Scopes
   scope_count: 6
@@ -1555,7 +1305,7 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.8
+  composite: 49.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -1563,11 +1313,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 54.6
+    contract_quality: 55.1
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 42.1
@@ -1584,7 +1334,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 193
+      total: 143
     mcp: derived
     skills: derived
   regulatory:
@@ -1594,7 +1344,7 @@ score:
     regime_id: telecommunications
     score: 69.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

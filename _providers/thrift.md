@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Apache Thrift is a lightweight, language-independent software stack for point-to-point RPC implementation. It provides abstractions for data transport, serialization, and application-level processing '
@@ -134,7 +134,7 @@ plans:
 - name: Thrift Plans Pricing
   plan_count: 3
   slug: thrift-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Thrift Rate Limits
@@ -170,7 +170,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 26.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

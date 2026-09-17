@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Posh's customer-facing HTTP API, served from the same gateway that backs the Posh Portal. Posh describes it on its portal page as a "powerful API" that "automates custom reporting" and connects the po
@@ -145,7 +145,7 @@ modified: '2026-08-26'
 name: Posh
 nav: Providers
 network: true
-overview: 'Posh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Conversational AI, Agentic AI, Banking, and Credit Unions.
+overview: 'Posh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Conversational AI, Agentic AI, Banking, and Credit Union.
 
 
   Posh''s developer surface includes signup flow, engineering blog, support, and 15 more developer resources.'
@@ -153,7 +153,7 @@ plans:
 - name: Posh Plans Pricing
   plan_count: 0
   slug: posh-plans-pricing
-random_paper: 1
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Posh Rate Limits
@@ -200,7 +200,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +230,7 @@ tags:
 - Conversational AI
 - Agentic AI
 - Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Customer Service
 - Contact Center

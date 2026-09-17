@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: The University's AI guidance site runs on WordPress that Otago self-hosts on its own domain behind Cloudflare, and it exposes the full WordPress REST API without credentials. Confirmed live 2026-08-30
@@ -188,7 +188,7 @@ plans:
 - name: University Of Otago Plans Pricing
   plan_count: 2
   slug: university-of-otago-plans-pricing
-random_paper: 10
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: University Of Otago Rate Limits
@@ -226,7 +226,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

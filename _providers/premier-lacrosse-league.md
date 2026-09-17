@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'Apollo Server GraphQL API that backs premierlacrosseleague.com and stats.premierlacrosseleague.com (teams, players, games, standings, stats). Undocumented and unadvertised: there is no developer porta'
@@ -155,7 +155,7 @@ overview: 'Premier Lacrosse League publishes 2 APIs on the [APIs.io](https://api
 
 
   Premier Lacrosse League''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 2
+random_paper: 1
 scopes:
 - name: Premier Lacrosse League Scopes
   scope_count: 4
@@ -185,7 +185,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -210,7 +210,7 @@ tags:
 - Sports Statistics
 - Media and Entertainment
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - GraphQL
 - Fantasy Sports
 website: https://premierlacrosseleague.com/

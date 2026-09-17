@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,11 +105,6 @@ apis:
   slug: caplight-live-orderbook-api
 - baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
   baseurl_source: declared
-  description: Caplight's proprietary MarketPrice estimate, calculated using executed trades, company primary rounds, bids/offers, fund marks, 409a valuations, and comps performance.
-  name: Caplight Market Price API
-  slug: caplight-marketprice-api
-- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
-  baseurl_source: declared
   description: Company news articles with sentiment analysis
   name: Caplight News API
   slug: caplight-news-api
@@ -128,6 +123,11 @@ apis:
   description: The Trade History API from Caplight — 1 operation(s) for trade history.
   name: Caplight Trade History API
   slug: caplight-trade-history-api
+- baseURL: https://platform.caplight.com/mcp
+  baseurl_source: declared
+  description: Caplight's proprietary MarketPrice estimate, calculated using executed trades, company primary rounds, bids/offers, fund marks, 409a valuations, and comps performance.
+  name: Caplight Market Price API
+  slug: caplight-market-price-api
 artifact_total: 39
 collections:
 - collection_type: open
@@ -330,10 +330,10 @@ overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Caplight''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
-random_paper: 4
+random_paper: 8
 score:
   band: developing
-  composite: 39.8
+  composite: 40.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -341,11 +341,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 54.2
+    contract_quality: 56.9
     developer_ergonomics: 51.8
     discoverability: 68.5
     operational_transparency: 15.8
@@ -367,7 +367,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

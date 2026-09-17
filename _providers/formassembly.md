@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -67,11 +67,6 @@ apis:
   slug: formassembly-forms-api
 - baseURL: https://app.formassembly.com/api_v1
   baseurl_source: declared
-  description: OAuth2 authorization code flow for obtaining access tokens
-  name: FormAssembly OAuth2 API
-  slug: formassembly-oauth2-api
-- baseURL: https://app.formassembly.com/api_v1
-  baseurl_source: declared
   description: Export and manage form submission responses
   name: FormAssembly Responses API
   slug: formassembly-responses-api
@@ -80,6 +75,11 @@ apis:
   description: Manage CSS themes applied to forms
   name: FormAssembly Themes API
   slug: formassembly-themes-api
+- baseURL: https://app.formassembly.com/api_v1
+  baseurl_source: declared
+  description: OAuth2 authorization code flow for obtaining access tokens
+  name: FormAssembly O Auth2 API
+  slug: formassembly-oauth2-api
 artifact_total: 41
 collections:
 - collection_type: postman
@@ -271,7 +271,7 @@ plans:
 - name: Formassembly Plans Pricing
   plan_count: 4
   slug: formassembly-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Formassembly Rate Limits
@@ -326,7 +326,7 @@ score:
     regime_id: government
     score: 59.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -356,6 +356,6 @@ tags:
 - Government
 - FedRAMP
 - Workflows
-- E-Signatures
+- E-Signature
 website: https://www.formassembly.com/
 ---

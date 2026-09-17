@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 341
   human_in_the_loop: 2
@@ -89,11 +89,6 @@ apis:
   description: The Abandoned Carts Settings API from BigCommerce — 2 operation(s) for abandoned carts settings.
   name: BigCommerce Abandoned Carts Settings API
   slug: bigcommerce-abandoned-carts-settings-api
-- baseURL: https://api.example.com
-  baseurl_source: declared
-  description: The Access API from BigCommerce — 1 operation(s) for access.
-  name: BigCommerce Access API
-  slug: bigcommerce-access-api
 - baseURL: https://api.example.com
   baseurl_source: declared
   description: The Active Theme API from BigCommerce — 1 operation(s) for active theme.
@@ -446,19 +441,9 @@ apis:
   slug: bigcommerce-menus-api
 - baseURL: https://api.example.com
   baseurl_source: declared
-  description: The Metafields API from BigCommerce — 14 operation(s) for metafields.
-  name: BigCommerce Metafields API
-  slug: bigcommerce-metafields-api
-- baseURL: https://api.example.com
-  baseurl_source: declared
   description: The Methods API from BigCommerce — 1 operation(s) for methods.
   name: BigCommerce Methods API
   slug: bigcommerce-methods-api
-- baseURL: https://api.example.com
-  baseurl_source: declared
-  description: The Methods (Deprecated) API from BigCommerce — 1 operation(s) for methods (deprecated).
-  name: BigCommerce Methods (Deprecated) API
-  slug: bigcommerce-methods-deprecated-api
 - baseURL: https://api.example.com
   baseurl_source: declared
   description: The Order API from BigCommerce — 1 operation(s) for order.
@@ -761,11 +746,6 @@ apis:
   slug: bigcommerce-themes-api
 - baseURL: https://api.example.com
   baseurl_source: declared
-  description: The Time Zone API from BigCommerce — 1 operation(s) for time zone.
-  name: BigCommerce Time Zone API
-  slug: bigcommerce-time-zone-api
-- baseURL: https://api.example.com
-  baseurl_source: declared
   description: The Tokens API from BigCommerce — 1 operation(s) for tokens.
   name: BigCommerce Tokens API
   slug: bigcommerce-tokens-api
@@ -829,7 +809,17 @@ apis:
   description: The Wishlists Items API from BigCommerce — 2 operation(s) for wishlists items.
   name: BigCommerce Wishlists Items API
   slug: bigcommerce-wishlists-items-api
-artifact_total: 1332
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Meta Fields API from BigCommerce — 14 operation(s) for meta fields.
+  name: BigCommerce Meta Fields API
+  slug: bigcommerce-meta-fields-api
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Timezone API from BigCommerce — 1 operation(s) for timezone.
+  name: BigCommerce Timezone API
+  slug: bigcommerce-timezone-api
+artifact_total: 1330
 asyncapis:
 - description: AsyncAPI description of BigCommerce's outbound webhook surface. BigCommerce delivers near real-time event notifications by issuing HTTP POST requests with a JSON body to a customer-configured destinat
   name: BigCommerce Webhooks
@@ -4349,7 +4339,7 @@ modified: '2026-05-30'
 name: BigCommerce
 nav: Providers
 network: true
-overview: 'BigCommerce publishes 152 APIs on the [APIs.io](https://apis.io/) network, including Abandoned Cart Emails API, Abandoned Cart Settings API, Abandoned Carts API, and 149 more. Tagged areas include E-Commerce, Retail, Catalog, Order, and Checkout.
+overview: 'BigCommerce publishes 150 APIs on the [APIs.io](https://apis.io/) network, including Abandoned Cart Emails API, Abandoned Cart Settings API, Abandoned Carts API, and 147 more. Tagged areas include E-Commerce, Retail, Catalog, Order, and Checkout.
 
 
   The BigCommerce catalog on APIs.io includes 1 event-driven AsyncAPI specification and 3 Spectral governance rulesets.
@@ -4360,7 +4350,7 @@ plans:
 - name: Bigcommerce Plans Pricing
   plan_count: 4
   slug: bigcommerce-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Bigcommerce Rate Limits
@@ -4423,7 +4413,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 153
+      total: 151
   regulatory:
     applies: true
     matched_via: tags
@@ -4431,7 +4421,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

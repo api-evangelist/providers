@@ -19,7 +19,7 @@ name: Platfora
 nav: Providers
 network: true
 overview: Platfora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Big Data, Business Intelligence, and Data Visualization.
-random_paper: 17
+random_paper: 21
 slug: platfora
 tags:
 - Company

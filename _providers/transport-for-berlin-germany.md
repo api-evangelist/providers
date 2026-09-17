@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Third-party VBB API
@@ -57,7 +57,7 @@ name: Transport for Berlin, Germany
 nav: Providers
 network: true
 overview: Transport for Berlin, Germany publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 2
+random_paper: 20
 score:
   band: minimal
   composite: 6.9
@@ -90,7 +90,7 @@ score:
       reason: never_enriched
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

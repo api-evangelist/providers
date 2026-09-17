@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,11 +105,11 @@ modified: '2026-07-19'
 name: Expected Parrot
 nav: Providers
 network: true
-overview: 'Expected Parrot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Large Language Models, Surveys, and Research.
+overview: 'Expected Parrot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, LLM, Surveys, and Research.
 
 
   Expected Parrot''s developer surface includes documentation, getting-started guide, pricing, authentication, changelog, and 8 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: emerging
   composite: 19.0
@@ -132,7 +132,7 @@ score:
   provenance:
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ slug: expected-parrot
 tags:
 - Company
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Surveys
 - Research
 - Social Science

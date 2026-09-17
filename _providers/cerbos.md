@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -48,9 +48,7 @@ apis:
 - description: The Cerbos PDP gRPC API exposes the cerbos.svc.v1.CerbosService and related management services on port 3593, with server reflection enabled. The gRPC interface is the highest-performance way to embed
   name: Cerbos PDP gRPC API
   slug: cerbos-pdp-grpc-api
-- baseURL: http://localhost:3592
-  baseurl_source: spec
-  description: Cerbos implements the OpenID AuthZEN authorization API specification, exposing standards-compliant single-evaluation, batch-evaluations, and well-known metadata endpoints so that any AuthZEN-conforman
+- description: Cerbos implements the OpenID AuthZEN authorization API specification, exposing standards-compliant single-evaluation, batch-evaluations, and well-known metadata endpoints so that any AuthZEN-conforman
   name: Cerbos AuthZEN API
   slug: cerbos-authzen-api
 - description: The Cerbos Admin API provides management capabilities such as policy add/get/list, schema management, and audit log access on the running PDP. It is intended for administrative use and is gated by HTT
@@ -84,11 +82,6 @@ apis:
   slug: cerbos-admin-store-api
 - baseURL: http://localhost:3592
   baseurl_source: declared
-  description: OpenID AuthZEN standards-compliant evaluation endpoints.
-  name: Cerbos AuthZEN API
-  slug: cerbos-authzen-api
-- baseURL: http://localhost:3592
-  baseurl_source: declared
   description: Evaluate authorization decisions.
   name: Cerbos Check API
   slug: cerbos-check-api
@@ -102,6 +95,11 @@ apis:
   description: PDP server metadata.
   name: Cerbos Server API
   slug: cerbos-server-api
+- baseURL: localhost:3593
+  baseurl_source: declared
+  description: OpenID AuthZEN standards-compliant evaluation endpoints.
+  name: Cerbos Auth ZEN API
+  slug: cerbos-auth-zen-api
 artifact_total: 60
 collections:
 - collection_type: open
@@ -306,7 +304,7 @@ modified: '2026-05-19'
 name: Cerbos
 nav: Providers
 network: true
-overview: 'Cerbos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AuthZEN API, Admin Audit API, Admin Policies API, and 6 more. Tagged areas include ABAC, Access Control, Authorization, AuthZEN, and Open-Source.
+overview: 'Cerbos publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Admin Audit API, Admin Policies API, Admin Schemas API, and 5 more. Tagged areas include ABAC, Access Control, Authorization, AuthZEN, and Open-Source.
 
 
   Cerbos'' developer surface includes authentication, documentation, getting-started guide, GitHub presence, release notes, engineering blog, pricing, and 25 more developer resources.'
@@ -314,7 +312,7 @@ plans:
 - name: Cerbos Plans Pricing
   plan_count: 3
   slug: cerbos-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Cerbos Rate Limits
@@ -352,7 +350,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

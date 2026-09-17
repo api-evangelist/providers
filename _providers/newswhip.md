@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.newswhip.com/v1
@@ -51,11 +51,6 @@ apis:
   slug: newswhip-articlesbyhrefs-api
 - baseURL: https://api.newswhip.com/v1
   baseurl_source: declared
-  description: The Content API from NewsWhip — 3 operation(s) for content.
-  name: NewsWhip Content API
-  slug: newswhip-content-api
-- baseURL: https://api.newswhip.com/v1
-  baseurl_source: declared
   description: The FbInfluencers API from NewsWhip — 1 operation(s) for fbinfluencers.
   name: NewsWhip FbInfluencers API
   slug: newswhip-fbinfluencers-api
@@ -64,11 +59,6 @@ apis:
   description: The FbPosts API from NewsWhip — 1 operation(s) for fbposts.
   name: NewsWhip FbPosts API
   slug: newswhip-fbposts-api
-- baseURL: https://api.newswhip.com/v1
-  baseurl_source: declared
-  description: The Influencers API from NewsWhip — 2 operation(s) for influencers.
-  name: NewsWhip Influencers API
-  slug: newswhip-influencers-api
 - baseURL: https://api.newswhip.com/v1
   baseurl_source: declared
   description: The Local API from NewsWhip — 1 operation(s) for local.
@@ -81,11 +71,6 @@ apis:
   slug: newswhip-publisher-api
 - baseURL: https://api.newswhip.com/v1
   baseurl_source: declared
-  description: The Rankings API from NewsWhip — 3 operation(s) for rankings.
-  name: NewsWhip Rankings API
-  slug: newswhip-rankings-api
-- baseURL: https://api.newswhip.com/v1
-  baseurl_source: declared
   description: The Region API from NewsWhip — 1 operation(s) for region.
   name: NewsWhip Region API
   slug: newswhip-region-api
@@ -96,16 +81,6 @@ apis:
   slug: newswhip-search-api
 - baseURL: https://api.newswhip.com/v1
   baseurl_source: declared
-  description: The Social API from NewsWhip — 1 operation(s) for social.
-  name: NewsWhip Social API
-  slug: newswhip-social-api
-- baseURL: https://api.newswhip.com/v1
-  baseurl_source: declared
-  description: The Statistics API from NewsWhip — 1 operation(s) for statistics.
-  name: NewsWhip Statistics API
-  slug: newswhip-statistics-api
-- baseURL: https://api.newswhip.com/v1
-  baseurl_source: declared
   description: The Stats API from NewsWhip — 1 operation(s) for stats.
   name: NewsWhip Stats API
   slug: newswhip-stats-api
@@ -114,7 +89,7 @@ apis:
   description: The TwitterInfluencers API from NewsWhip — 1 operation(s) for twitterinfluencers.
   name: NewsWhip TwitterInfluencers API
   slug: newswhip-twitterinfluencers-api
-artifact_total: 36
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -165,6 +140,31 @@ collections:
   name: quick-start-api-formerly-get-api Articles TwitterInfluencers API
   slug: open-newswhip-twitterinfluencers-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/overlays/newswhip-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/newswhip-content-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/overlays/newswhip-influencers-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/newswhip-influencers-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/overlays/newswhip-rankings-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/newswhip-rankings-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/overlays/newswhip-social-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/newswhip-social-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/overlays/newswhip-statistics-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/newswhip-statistics-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/overlays/newswhip-openapi-overlay.yaml
   title: ''
@@ -285,15 +285,15 @@ modified: '2026-08-13'
 name: NewsWhip
 nav: Providers
 network: true
-overview: 'NewsWhip publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Articles API, ArticlesByHrefs API, Content API, and 12 more. Tagged areas include Company, Media Intelligence, Social Media Analytics, News, and Content Analytics.
+overview: 'NewsWhip publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Articles API, ArticlesByHrefs API, FbInfluencers API, and 7 more. Tagged areas include Company, Media Intelligence, Social Media Analytics, News, and Content Analytics.
 
 
-  NewsWhip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 17 more developer resources.'
+  NewsWhip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 22 more developer resources.'
 plans:
 - name: Newswhip Plans Pricing
   plan_count: 3
   slug: newswhip-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Newswhip Rate Limits
@@ -323,11 +323,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 10
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

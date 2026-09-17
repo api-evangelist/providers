@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Wired provides standard RSS feeds for its main content stream and individual topic categories including Business, Science, Security, Politics, Gear, Ideas, Culture, and AI. These feeds allow developer
@@ -170,7 +170,7 @@ plans:
 - name: Wired Plans Pricing
   plan_count: 3
   slug: wired-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Wired Rate Limits
@@ -206,7 +206,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 22.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

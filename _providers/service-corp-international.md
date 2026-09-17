@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Service Corporation International at 47th Annual Raymond ...
   url: https://www.investing.com/news/transcripts/service-corporation-international-at-47th-annual-raymond-james-strategic-insights-93CH-4538716
-random_paper: 12
+random_paper: 17
 score:
   band: minimal
   composite: 10.6
@@ -141,7 +141,7 @@ score:
     - north-america
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

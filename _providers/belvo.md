@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ plans:
 - name: Belvo Plans Pricing
   plan_count: 3
   slug: belvo-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Belvo Rate Limits
@@ -257,7 +257,7 @@ score:
     regime_id: banking_open_finance
     score: 22.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

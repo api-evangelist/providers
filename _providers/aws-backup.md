@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -50,22 +50,22 @@ apis:
 - baseURL: https://backup.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Backup Jobs API from AWS Backup — 2 operation(s) for backup jobs.
-  name: AWS Backup Backup Jobs API
+  name: AWS Backup Jobs API
   slug: aws-backup-backup-jobs-api
 - baseURL: https://backup.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Backup Plans API from AWS Backup — 2 operation(s) for backup plans.
-  name: AWS Backup Backup Plans API
+  name: AWS Backup Plans API
   slug: aws-backup-backup-plans-api
 - baseURL: https://backup.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Backup Selections API from AWS Backup — 1 operation(s) for backup selections.
-  name: AWS Backup Backup Selections API
+  name: AWS Backup Selections API
   slug: aws-backup-backup-selections-api
 - baseURL: https://backup.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Backup Vaults API from AWS Backup — 2 operation(s) for backup vaults.
-  name: AWS Backup Backup Vaults API
+  name: AWS Backup Vaults API
   slug: aws-backup-backup-vaults-api
 - baseURL: https://backup.us-east-1.amazonaws.com
   baseurl_source: declared
@@ -181,15 +181,15 @@ created: '2026-05-11'
 description: AWS Backup is a fully managed, policy-based data protection service that centralizes and automates backup of data across AWS services including EBS volumes, EC2 instances, RDS databases, DynamoDB tables, EFS file systems, FSx file systems, Storage Gateway volumes, S3, and on-premises data via the AWS Backup gateway. The AWS Backup API allows programmatic management of backup plans, vaults, recovery points, restore jobs, and cross-account, cross-Region copies, authenticated with AWS Signature Version 4 (SigV4).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-backup.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: AWS Backup
 nav: Providers
 network: true
-overview: 'AWS Backup publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Backup Jobs API, Backup Plans API, Backup Selections API, and 7 more. Tagged areas include Backup, Data Protection, Disaster Recovery, Managed Service, and Compliance.
+overview: 'AWS Backup publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Plans API, Selections API, and 7 more. Tagged areas include Backup, Data Protection, Disaster Recovery, Managed Service, and Compliance.
 
 
   AWS Backup''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 19
+random_paper: 16
 score:
   band: thin
   composite: 30.2
@@ -217,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

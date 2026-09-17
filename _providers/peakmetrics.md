@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: News articles and public datasets
@@ -69,7 +69,7 @@ overview: 'PeakMetrics publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   PeakMetrics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 0
+random_paper: 10
 score:
   band: minimal
   composite: 6.5
@@ -96,7 +96,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ modified: '2026-07-12'
 name: SmartHR
 nav: Providers
 network: true
-overview: 'SmartHR publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Business Establishments API, Crews API, Custom Field Templates API, and 3 more. Tagged areas include HR, Human Resources, HRIS, Labor Management, and Payroll.
+overview: 'SmartHR publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Business Establishments API, Crews API, Custom Field Templates API, and 3 more. Tagged areas include Human Resources, HRIS, Labor Management, Payroll, and Japan.
 
 
   SmartHR''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -168,7 +168,7 @@ plans:
 - name: Smarthr Plans Pricing
   plan_count: 4
   slug: smarthr-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Smarthr Rate Limits
@@ -207,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -224,7 +224,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: smarthr
 tags:
-- HR
 - Human Resources
 - HRIS
 - Labor Management

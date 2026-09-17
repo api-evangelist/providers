@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Core Hibernate ORM framework for object-relational mapping.
@@ -50,6 +50,10 @@ apis:
   slug: hibernate-reactive-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://hibernate.org
 - group: operate
   title: ''
   type: Releases
@@ -103,7 +107,7 @@ finops:
   slug: hibernate-finops
 image: https://hibernate.org/images/hibernate-logo.svg
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Hibernate ORM
 nav: Providers
 network: true
@@ -112,7 +116,7 @@ plans:
 - name: Hibernate Plans Pricing
   plan_count: 3
   slug: hibernate-plans-pricing
-random_paper: 1
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Hibernate Rate Limits
@@ -137,7 +141,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 20.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -157,5 +161,5 @@ tags:
 - Object-Relational Mapping
 - ORM
 - Persistence
-website: https://hibernate.org/
+website: https://hibernate.org
 ---

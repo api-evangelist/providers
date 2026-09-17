@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the KACE Systems Management Appliance. Authenticated KACE SMA users can manage appliance data across the Asset, Inventory, Managed Install, Scripting, User, and Service Desk modules. Requ
@@ -101,7 +101,7 @@ overview: 'Kace publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Kace''s developer surface includes documentation, API reference, support, authentication, and 7 more developer resources.'
-random_paper: 5
+random_paper: 8
 score:
   band: minimal
   composite: 9.6
@@ -124,7 +124,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

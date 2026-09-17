@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -324,6 +324,10 @@ collections:
   name: Coval Agents Widgets API
   slug: open-coval-widgets-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://coval.ai
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/overlays/coval-agents-overlay.yaml
   title: ''
@@ -480,7 +484,7 @@ mcp_servers:
 - description: ''
   name: Coval MCP Server
   slug: coval-mcp-server
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Coval
 nav: Providers
 network: true
@@ -490,11 +494,11 @@ overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
   The Coval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 8
+  Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
+random_paper: 5
 score:
   band: developing
-  composite: 52.2
+  composite: 52.1
   coverage:
     artifact_dirs: 26
     catalog_earned: 40.0
@@ -502,11 +506,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 70.1
+    contract_quality: 69.8
     developer_ergonomics: 74.4
     discoverability: 81.5
     operational_transparency: 42.1
@@ -522,7 +526,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -553,5 +557,5 @@ tags:
 - Conversational AI
 - LLM
 - Quality Assurance
-website: https://docs.coval.ai
+website: https://coval.ai
 ---

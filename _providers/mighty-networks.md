@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -48,11 +48,6 @@ apis:
 - description: Beta GraphQL interface that powers the official Mighty Networks clients, for building custom user-context clients, integrations, and back-office tools. Requests go to /networks/:network_id_or_subdomai
   name: Mighty Networks Headless GraphQL API
   slug: mighty-networks-headless-graphql-api
-- baseURL: https://api.mn.co/admin/v1
-  baseurl_source: declared
-  description: Manage abuse reports for your network
-  name: Mighty Networks AbuseReports API
-  slug: mighty-networks-abusereports-api
 - baseURL: https://api.mn.co/admin/v1
   baseurl_source: declared
   description: Manage member responses to custom fields
@@ -85,11 +80,6 @@ apis:
   slug: mighty-networks-courseworks-api
 - baseURL: https://api.mn.co/admin/v1
   baseurl_source: declared
-  description: Manage custom fields for your network
-  name: Mighty Networks CustomFields API
-  slug: mighty-networks-customfields-api
-- baseURL: https://api.mn.co/admin/v1
-  baseurl_source: declared
   description: Events are scheduled gatherings that members can RSVP to and engage with
   name: Mighty Networks Events API
   slug: mighty-networks-events-api
@@ -116,7 +106,7 @@ apis:
 - baseURL: https://api.mn.co/admin/v1
   baseurl_source: declared
   description: Networks are the top-level organizational unit under which other resources are nested
-  name: Mighty Networks Networks API
+  name: Mighty Networks API
   slug: mighty-networks-networks-api
 - baseURL: https://api.mn.co/admin/v1
   baseurl_source: declared
@@ -178,6 +168,16 @@ apis:
   description: The Webhooks API from Mighty Networks — 0 operation(s) for webhooks.
   name: Mighty Networks Webhooks API
   slug: mighty-networks-webhooks-api
+- baseURL: https://api.mn.co/networks
+  baseurl_source: declared
+  description: Manage abuse reports for your network
+  name: Mighty Networks Abuse Reports API
+  slug: mighty-networks-abuse-reports-api
+- baseURL: https://api.mn.co/networks
+  baseurl_source: declared
+  description: Manage custom fields for your network
+  name: Mighty Networks Custom Fields API
+  slug: mighty-networks-custom-fields-api
 artifact_total: 59
 collections:
 - collection_type: open
@@ -318,11 +318,11 @@ finops:
   slug: mighty-networks-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mighty-networks.png
 layout: provider
-modified: '2026-07-05'
+modified: '2026-09-16'
 name: Mighty Networks
 nav: Providers
 network: true
-overview: 'Mighty Networks publishes 26 APIs on the [APIs.io](https://apis.io/) network, including AbuseReports API, Answers API, Assets API, and 23 more. Tagged areas include Community, Courses, Membership, Creator Economy, and Event.
+overview: 'Mighty Networks publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Answers API, Assets API, Badges API, and 23 more. Tagged areas include Community, Courses, Membership, Creator Economy, and Event.
 
 
   Mighty Networks'' developer surface includes authentication, documentation, changelog, and 8 more developer resources.'
@@ -330,28 +330,28 @@ plans:
 - name: Mighty Networks Plans Pricing
   plan_count: 4
   slug: mighty-networks-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Mighty Networks Rate Limits
   slug: mighty-networks-rate-limits
 score:
   band: thin
-  composite: 32.0
+  composite: 33.8
   coverage:
     artifact_dirs: 9
-    catalog_earned: 39.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 49.6
     developer_ergonomics: 28.6
-    discoverability: 44.4
+    discoverability: 63.0
     operational_transparency: 0.0
   previous_composite: 32.0
   provenance:
@@ -362,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

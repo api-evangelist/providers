@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Phone.com v4 ("Phoenix") JSON REST API for managing accounts, extensions, devices, phone numbers, call routing, media, messaging (SMS/fax), and event webhooks. OAuth 2.0 secured.
@@ -45,6 +45,10 @@ asyncapis:
   name: Phone Com Events Webhooks
   slug: phone-com-events-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://phone.com
 - group: start
   title: ''
   type: DeveloperPortal
@@ -182,7 +186,7 @@ created: '2026-07-17'
 description: Phone.com is a cloud business phone and unified communications provider for small and mid-sized businesses, offering VoIP calling, SMS/MMS, video conferencing, fax, and virtual phone numbers. Its developer platform is the JSON REST v4 API (codenamed "Phoenix") at api.phone.com, which gives programmatic control over accounts, extensions, devices, phone numbers, call routing (routes, menus, queues, schedules), media, messaging, and an event callback/listener webhook system. Authentication is OAuth 2.0. First-party SDKs are published for Go, Python, PHP, Android, and JavaScript. Surfaced as a portfolio company of Lightspeed Venture Partners and enriched into the API Evangelist network.
 image: https://github.com/phonedotcom.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Phone Com
 nav: Providers
 network: true
@@ -192,8 +196,8 @@ overview: 'Phone Com publishes 1 API on the [APIs.io](https://apis.io/) network.
   The Phone Com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Phone Com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 20
+  Phone Com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+random_paper: 0
 scopes:
 - name: Phone Com Scopes
   scope_count: 0
@@ -229,7 +233,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -258,5 +262,5 @@ tags:
 - SMS
 - Video Conferencing
 - Communications
-website: https://apidocs.phone.com/
+website: https://phone.com
 ---

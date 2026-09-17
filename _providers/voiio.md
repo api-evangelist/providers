@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -92,14 +92,14 @@ modified: '2026-05-03'
 name: Voiio
 nav: Providers
 network: true
-overview: 'Voiio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Employee Assistance, HR, Wellbeing, Work-Life Balance, and EAP.
+overview: 'Voiio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Employee Assistance, Human Resources, Wellbeing, Work-Life Balance, and EAP.
 
 
   The Voiio catalog on APIs.io includes 1 JSON-LD context.
 
 
   Voiio''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: emerging
   composite: 17.2
@@ -128,7 +128,7 @@ score:
     - europe
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -143,7 +143,7 @@ security:
 slug: voiio
 tags:
 - Employee Assistance
-- HR
+- Human Resources
 - Wellbeing
 - Work-Life Balance
 - EAP

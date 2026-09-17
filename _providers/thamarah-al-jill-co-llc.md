@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the AMUSED Co store implemented with the Universal Commerce Protocol (UCP) over MCP: catalog search/lookup, cart, checkout, fulfillment, discount and order capabiliti'
@@ -119,7 +119,7 @@ overview: 'Thamarah Al-Jill Co LLC publishes 1 API on the [APIs.io](https://apis
 
 
   Thamarah Al-Jill Co LLC''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 12
+random_paper: 19
 scopes:
 - name: Thamarah Al Jill Co Llc Scopes
   scope_count: 4
@@ -156,7 +156,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -180,7 +180,7 @@ tags:
 - Luxury
 - Resale
 - Fashion
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 - Saudi Arabia
 website: https://amusedco.com

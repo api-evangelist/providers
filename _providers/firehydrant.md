@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 225
   human_in_the_loop: 1
@@ -45,13 +45,8 @@ agentic_access:
   operation_count: 411
   slug: firehydrant-agentic-access
   summary_line: 411 operations · 225 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- baseURL: https://api.firehydrant.io/v1
-  baseurl_source: declared
-  description: FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.
-  name: FireHydrant
-  slug: firehydrant
 - baseURL: https://api.firehydrant.io/v1
   baseurl_source: declared
   description: The Audits API from FireHydrant — 1 operation(s) for audits.
@@ -127,7 +122,72 @@ apis:
   description: The Teams API from FireHydrant — 2 operation(s) for teams.
   name: FireHydrant Teams API
   slug: firehydrant-teams-api
-artifact_total: 44
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Account Settings
+  name: FireHydrant Account Settings API
+  slug: firehydrant-account-settings-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Alerts
+  name: FireHydrant Alerts API
+  slug: firehydrant-alerts-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Communication
+  name: FireHydrant Communication API
+  slug: firehydrant-communication-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Incident Settings
+  name: FireHydrant Incident Settings API
+  slug: firehydrant-incident-settings-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Integrations
+  name: FireHydrant Integrations API
+  slug: firehydrant-integrations-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: The metrics API from FireHydrant — 1 operation(s) for metrics.
+  name: FireHydrant Metrics API
+  slug: firehydrant-metrics-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Metrics/Reporting
+  name: FireHydrant Metrics/Reporting API
+  slug: firehydrant-metrics-reporting-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Retrospectives
+  name: FireHydrant Retrospectives API
+  slug: firehydrant-retrospectives-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to SCIM
+  name: FireHydrant SCIM API
+  slug: firehydrant-scim-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Status Pages
+  name: FireHydrant Status Pages API
+  slug: firehydrant-status-pages-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Tasks
+  name: FireHydrant Tasks API
+  slug: firehydrant-tasks-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Users
+  name: FireHydrant Users API
+  slug: firehydrant-users-api
+- baseURL: https://api.firehydrant.io/v1
+  baseurl_source: declared
+  description: Operations related to Webhooks
+  name: FireHydrant Webhooks API
+  slug: firehydrant-webhooks-api
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Firehydrant Webhooks
@@ -226,10 +286,10 @@ common:
   type: Blog
   url: https://firehydrant.com/rss.xml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/firehydrant-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/openapi/_original/firehydrant-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/firehydrant-api-openapi.yml
+  url: openapi/_original/firehydrant-api-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/overlays/firehydrant-api-overlay.yaml
   title: ''
@@ -389,11 +449,11 @@ mcp_servers:
 - description: ''
   name: FireHydrant
   slug: firehydrant
-modified: '2026-08-29'
+modified: '2026-09-16'
 name: FireHydrant
 nav: Providers
 network: true
-overview: 'FireHydrant publishes 16 APIs on the [APIs.io](https://apis.io/) network, including FireHydrant, Audits API, Change Events API, and 13 more. Tagged areas include AIOps, Incident Management, On-Call, Alerting, and Status Pages.
+overview: 'FireHydrant publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Audits API, Change Events API, Changes API, and 25 more. Tagged areas include AIOps, Incident Management, On-Call, Alerting, and Status Pages.
 
 
   The FireHydrant catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -404,14 +464,14 @@ plans:
 - name: Firehydrant Plans Pricing
   plan_count: 3
   slug: firehydrant-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Firehydrant Rate Limits
   slug: firehydrant-rate-limits
 score:
   band: strong
-  composite: 65.5
+  composite: 66.1
   coverage:
     artifact_dirs: 27
     catalog_earned: 60.0
@@ -419,11 +479,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 65.5
+    contract_quality: 67.8
     developer_ergonomics: 51.8
     discoverability: 75.9
     operational_transparency: 65.8
@@ -432,14 +492,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 94.1
+      callable: 96.6
       derived: 0
-      marker_coverage: 5.9
-      total: 17
+      marker_coverage: 3.4
+      total: 29
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

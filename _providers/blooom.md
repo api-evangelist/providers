@@ -29,7 +29,7 @@ name: Blooom
 nav: Providers
 network: true
 overview: Blooom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wealth Management, Retirement, 401k, and Robo-Advisor.
-random_paper: 18
+random_paper: 10
 security:
 - kind: domain-security
   name: Blooom Domain Security

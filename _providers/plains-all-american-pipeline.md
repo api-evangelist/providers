@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Plains All American Pipeline API provides access to platform services and data for enterprise integration and automation.
@@ -67,7 +67,7 @@ modified: '2026-04-19'
 name: Plains All American Pipeline
 nav: Providers
 network: true
-overview: Plains All American Pipeline publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Pipeline, and Midstream.
+overview: Plains All American Pipeline publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Pipelines, and Midstream.
 plans:
 - name: Plains All American Pipeline Plans Pricing
   plan_count: 1
@@ -108,7 +108,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -123,7 +123,7 @@ security:
 slug: plains-all-american-pipeline
 tags:
 - Energy
-- Pipeline
+- Pipelines
 - Midstream
 website: https://www.paalp.com
 ---

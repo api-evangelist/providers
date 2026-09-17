@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 18
 apis:
 - description: The core Babylon.js engine and scene graph. Provides the Engine and Scene abstractions, cameras, lights, meshes, materials, textures, animation, post-processing, particle systems, physics integration,
@@ -303,7 +303,7 @@ overview: 'Babylon.js publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Babylon.js'' developer surface includes developer portal, documentation, getting-started guide, changelog, release notes, engineering blog, YouTube channel, and 37 more developer resources.'
-random_paper: 1
+random_paper: 19
 score:
   band: emerging
   composite: 16.8
@@ -324,7 +324,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 16.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

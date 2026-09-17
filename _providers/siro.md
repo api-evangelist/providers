@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 42
+- acting_count: 116
   human_in_the_loop: 1
   name: Siro Agentic Access
-  operation_count: 78
+  operation_count: 213
   slug: siro-agentic-access
-  summary_line: 78 operations · 42 acting · 1 human-in-the-loop
+  summary_line: 213 operations · 116 acting · 1 human-in-the-loop
 api_count: 5
 apis:
 - baseURL: https://functions.siro.ai/api-externalApi
@@ -305,6 +305,10 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/siro-ai
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@siro.ai
 created: '2026-07-17'
 description: 'Siro is an AI sales coaching platform for in-person and field sales teams. Reps record their live sales conversations from the Siro mobile app, and Siro transcribes each conversation, surfaces coaching insights, generates scorecards and summaries, and extracts structured fields (budget, objections, decision makers, timelines) that are pushed back into the team''s CRM. Siro publishes a documented REST API and webhook surface that enables fully bidirectional, custom CRM integrations: syncing appointments/engagements, opportunities and accounts into Siro, matching recordings to CRM entities, and pulling recording details, summaries, entity extractions and coaching scorecards back out. The platform ships prebuilt integrations for Salesforce, HubSpot, Microsoft Dynamics, Pipedrive, Zoho, SalesRabbit, Leap SalesPro, Hatch, CompanyCam and a range of dealership DMS and home-services tools. Siro is backed by CRV and Index Ventures.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siro.png
@@ -316,19 +320,19 @@ network: true
 overview: 'Siro publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Core API, Folders API, and 13 more. Tagged areas include Company, Sales, Sales Coaching, Conversation Intelligence, and Field Sales.
 
 
-  Siro''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 28 more developer resources.'
+  Siro''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 29 more developer resources.'
 plans:
 - name: Siro Plans Pricing
   plan_count: 0
   slug: siro-plans-pricing
-random_paper: 4
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Siro Rate Limits
   slug: siro-rate-limits
 score:
   band: strong
-  composite: 55.8
+  composite: 56.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 48.0
@@ -336,11 +340,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 51.9
+    contract_quality: 54.4
     developer_ergonomics: 71.4
     discoverability: 81.5
     operational_transparency: 31.6
@@ -356,7 +360,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

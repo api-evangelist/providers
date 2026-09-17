@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: CKAN Action API for opendata.swiss, a consistent JSON-over-HTTP interface over a catalog of 14,544 datasets. Standard actions include package_search, package_show, package_list, organization_list, gro
@@ -99,7 +99,7 @@ plans:
 - name: Opendata Swiss Plans Pricing
   plan_count: 1
   slug: opendata-swiss-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Opendata Swiss Rate Limits
@@ -138,7 +138,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

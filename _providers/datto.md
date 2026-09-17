@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://concord-api.centrastage.net/api
@@ -252,7 +252,7 @@ overview: 'Datto publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Datto''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Datto Rate Limits
@@ -286,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

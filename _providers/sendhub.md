@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -260,7 +260,7 @@ plans:
 - name: Sendhub Plans Pricing
   plan_count: 5
   slug: sendhub-plans-pricing
-random_paper: 10
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Sendhub Rate Limits
@@ -301,7 +301,7 @@ score:
     regime_id: telecommunications
     score: 44.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

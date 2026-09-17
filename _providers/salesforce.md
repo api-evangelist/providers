@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -704,11 +704,6 @@ apis:
   slug: salesforce-models-api
 - baseURL: https://{instance}.salesforce.com/services/data
   baseurl_source: declared
-  description: The Oauth API from Salesforce — 5 operation(s) for oauth.
-  name: Salesforce Oauth API
-  slug: salesforce-oauth-api
-- baseURL: https://{instance}.salesforce.com/services/data
-  baseurl_source: declared
   description: Retrieve object metadata including fields, layouts, and picklists
   name: Salesforce Object Info API
   slug: salesforce-object-info-api
@@ -892,6 +887,11 @@ apis:
   description: The Versions API from Salesforce — 4 operation(s) for versions.
   name: Salesforce Versions API
   slug: salesforce-versions-api
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Oauth API from Salesforce — 4 operation(s) for oauth.
+  name: Salesforce OAUTH API
+  slug: salesforce-oauth-api
 arazzos:
 - description: Run the full Bulk API 2.0 delete lifecycle — create a delete ingest job, upload a CSV of Ids, close, poll, and read successful results.
   name: Salesforce Bulk Delete Records
@@ -18063,7 +18063,7 @@ mcp_servers:
 - description: ''
   name: Salesforce MCP Server
   slug: salesforce-mcp-server
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Salesforce
 nav: Providers
 network: true
@@ -18103,7 +18103,7 @@ press:
 - date: '2026-05-21'
   title: 'More than 50,000 Hours Back: What a Year of Manager Agent Taught Us'
   url: https://www.salesforce.com/news/stories/lessons-from-one-year-of-manager-agent/
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 9
   name: Salesforce Rate Limits
@@ -18176,7 +18176,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -18212,6 +18212,7 @@ tags:
 - Marketing
 - Platform
 - Sales
+- Salesforce
 use_cases:
 - description: Synchronize customer, lead, and opportunity data between Salesforce and external systems.
   name: CRM Data Integration

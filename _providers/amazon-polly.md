@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,19 +57,14 @@ apis:
   slug: amazon-polly-speech-api
 - baseURL: https://polly.amazonaws.com
   baseurl_source: declared
-  description: Operations for synthesizing speech from text
-  name: Amazon Polly Speech Synthesis API
-  slug: amazon-polly-speech-synthesis-api
-- baseURL: https://polly.amazonaws.com
-  baseurl_source: declared
-  description: The SynthesisTasks API from Amazon Polly — 2 operation(s) for synthesistasks.
-  name: Amazon Polly SynthesisTasks API
-  slug: amazon-polly-synthesistasks-api
-- baseURL: https://polly.amazonaws.com
-  baseurl_source: declared
   description: The Voices API from Amazon Polly — 1 operation(s) for voices.
   name: Amazon Polly Voices API
   slug: amazon-polly-voices-api
+- baseURL: https://polly.amazonaws.com
+  baseurl_source: declared
+  description: The Synthesis Tasks API from Amazon Polly — 2 operation(s) for synthesis tasks.
+  name: Amazon Polly Synthesis Tasks API
+  slug: amazon-polly-synthesis-tasks-api
 arazzos:
 - description: Store a lexicon, start an async synthesis task applying it, then poll to completion.
   name: Amazon Polly Store Lexicon, Start Async Task, and Poll
@@ -98,7 +93,7 @@ arazzos:
 - description: Start an async speech synthesis task, then poll it until it completes.
   name: Amazon Polly Start Synthesis Task and Poll to Completion
   slug: amazon-polly-start-synthesis-task-poll-workflow
-artifact_total: 121
+artifact_total: 120
 collections:
 - collection_type: postman
   name: Amazon Polly Lexicons API
@@ -143,6 +138,10 @@ collections:
   name: Amazon Polly API
   slug: open-amazon-polly
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/agentic-access/amazon-polly-agentic-access.yml
   title: ''
@@ -851,22 +850,22 @@ jsonld:
   property_count: 36
   slug: amazon-polly-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Polly
 nav: Providers
 network: true
-overview: 'Amazon Polly publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Lexicons API, Speech API, Speech Synthesis API, and 2 more. Tagged areas include Artificial Intelligence, Machine-Learning, Speech Synthesis, Text-to-Speech, and TTS.
+overview: 'Amazon Polly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Lexicons API, Speech API, Voices API, and 1 more. Tagged areas include Artificial Intelligence, Machine-Learning, Speech Synthesis, Text-to-Speech, and TTS.
 
 
   The Amazon Polly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Polly''s developer surface includes authentication, developer portal, engineering blog, support, CLI, documentation, pricing, and 91 more developer resources.'
+  Amazon Polly''s developer surface includes authentication, developer portal, engineering blog, support, CLI, documentation, pricing, and 92 more developer resources.'
 plans:
 - name: Amazon Polly Plans Pricing
   plan_count: 3
   slug: amazon-polly-plans-pricing
-random_paper: 12
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Polly Rate Limits
@@ -895,7 +894,7 @@ rules:
   slug: amazon-polly-spectral-rules
 score:
   band: strong
-  composite: 60.1
+  composite: 60.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 66.5
@@ -903,11 +902,11 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 71.2
+    contract_quality: 72.3
     developer_ergonomics: 72.6
     discoverability: 68.5
     operational_transparency: 26.3
@@ -918,9 +917,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -963,5 +962,5 @@ use_cases:
   name: Call Center IVR
 - description: Provide native-speaker pronunciation examples for language education.
   name: Language Learning Apps
-website: https://console.aws.amazon.com/polly/
+website: https://amazon.com
 ---

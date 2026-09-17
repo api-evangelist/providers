@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -75,11 +75,6 @@ apis:
   slug: lean-technologies-balances-api
 - baseURL: https://api2.leantech.me
   baseurl_source: declared
-  description: Bank discovery and configuration operations
-  name: Lean Technologies Bank API
-  slug: lean-technologies-bank-api
-- baseURL: https://api2.leantech.me
-  baseurl_source: declared
   description: The Bank Statements Report API from Lean Technologies — 2 operation(s) for bank statements report.
   name: Lean Technologies Bank Statements Report API
   slug: lean-technologies-bank-statements-report-api
@@ -108,11 +103,6 @@ apis:
   description: The Cashflow Patterns (New) API from Lean Technologies — 1 operation(s) for cashflow patterns (new).
   name: Lean Technologies Cashflow Patterns (New) API
   slug: lean-technologies-cashflow-patterns-new-api
-- baseURL: https://api2.leantech.me
-  baseurl_source: declared
-  description: The Cashflows API from Lean Technologies — 1 operation(s) for cashflows.
-  name: Lean Technologies Cashflows API
-  slug: lean-technologies-cashflows-api
 - baseURL: https://api2.leantech.me
   baseurl_source: declared
   description: The Consents Account On File API from Lean Technologies — 1 operation(s) for consents account on file.
@@ -163,11 +153,6 @@ apis:
   description: The Direct Debits Raw Data API from Lean Technologies — 1 operation(s) for direct debits raw data.
   name: Lean Technologies Direct Debits Raw Data API
   slug: lean-technologies-direct-debits-raw-data-api
-- baseURL: https://api2.leantech.me
-  baseurl_source: declared
-  description: The Enrichment API from Lean Technologies — 2 operation(s) for enrichment.
-  name: Lean Technologies Enrichment API
-  slug: lean-technologies-enrichment-api
 - baseURL: https://api2.leantech.me
   baseurl_source: declared
   description: The Entities API from Lean Technologies — 4 operation(s) for entities.
@@ -378,7 +363,12 @@ apis:
   description: The Transactions Raw Data API from Lean Technologies — 1 operation(s) for transactions raw data.
   name: Lean Technologies Transactions Raw Data API
   slug: lean-technologies-transactions-raw-data-api
-artifact_total: 142
+- baseURL: https://api2.leantech.me
+  baseurl_source: declared
+  description: The Cash Flows API from Lean Technologies — 1 operation(s) for cash flows.
+  name: Lean Technologies Cash Flows API
+  slug: lean-technologies-cash-flows-api
+artifact_total: 140
 asyncapis:
 - description: ''
   name: Lean Technologies Webhooks
@@ -766,14 +756,14 @@ modified: '2026-07-20'
 name: Lean Technologies
 nav: Providers
 network: true
-overview: 'Lean Technologies publishes 67 APIs on the [APIs.io](https://apis.io/) network, including Account Controls (New) API, Account On File API, Accounts Raw Data API, and 64 more. Tagged areas include Open Banking, Open Finance, Payments, Financial Data, and Fintech.
+overview: 'Lean Technologies publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Account Controls (New) API, Account On File API, Accounts Raw Data API, and 62 more. Tagged areas include Open Banking, Open Finance, Payments, Financial Data, and Fintech.
 
 
   The Lean Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Lean Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 29 more developer resources.'
-random_paper: 2
+random_paper: 7
 scopes:
 - name: Lean Technologies Scopes
   scope_count: 2
@@ -793,7 +783,7 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 66.0
+    contract_quality: 66.1
     developer_ergonomics: 62.5
     discoverability: 81.5
     operational_transparency: 18.4
@@ -812,7 +802,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 67
+      total: 65
     mcp: first-party
     skills: derived
   regulatory:
@@ -822,7 +812,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -849,7 +839,7 @@ tags:
 - Financial Data
 - Fintech
 - MENA
-- UAE
+- United Arab Emirates
 - Saudi Arabia
 - Pay by Bank
 - Bank Data

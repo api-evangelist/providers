@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -98,6 +98,10 @@ collections:
   name: Amazon Lambda API
   slug: open-amazon-lambda
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/agentic-access/amazon-lambda-agentic-access.yml
   title: ''
@@ -315,7 +319,7 @@ jsonld:
   property_count: 7
   slug: amazon-lambda-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Lambda
 nav: Providers
 network: true
@@ -325,12 +329,12 @@ overview: 'Amazon Lambda publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Lambda catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lambda''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
+  Amazon Lambda''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 28 more developer resources.'
 plans:
 - name: Amazon Lambda Plans Pricing
   plan_count: 3
   slug: amazon-lambda-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Amazon Lambda Rate Limits
@@ -384,7 +388,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -423,5 +427,5 @@ use_cases:
   name: Event Automation
 - description: Run ML model inference on-demand without managing inference infrastructure.
   name: Machine Learning Inference
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

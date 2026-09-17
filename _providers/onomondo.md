@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -56,11 +56,6 @@ apis:
   slug: onomondo-network-lists-api
 - baseURL: https://api.onomondo.com
   baseurl_source: declared
-  description: Manage and inspect SIMs in your fleet.
-  name: Onomondo SIMs API
-  slug: onomondo-sims-api
-- baseURL: https://api.onomondo.com
-  baseurl_source: declared
   description: Send SMS to devices and retrieve SMS usage.
   name: Onomondo SMS API
   slug: onomondo-sms-api
@@ -79,6 +74,11 @@ apis:
   description: Subscribe to SIM events delivered as HTTP POST callbacks.
   name: Onomondo Webhooks API
   slug: onomondo-webhooks-api
+- baseURL: https://api.onomondo.com
+  baseurl_source: declared
+  description: Manage and inspect SIMs in your fleet.
+  name: Onomondo SI Ms API
+  slug: onomondo-sims-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -176,7 +176,7 @@ modified: '2026-06-21'
 name: Onomondo
 nav: Providers
 network: true
-overview: 'Onomondo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, Network Lists API, SIMs API, and 4 more. Tagged areas include IoT, Connectivity, Cellular, SIM, and Telecom.
+overview: 'Onomondo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Connectors API, Network Lists API, SMS API, and 4 more. Tagged areas include IoT, Connectivity, Cellular, SIM, and Telecom.
 
 
   Onomondo''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -184,7 +184,7 @@ plans:
 - name: Onomondo Plans Pricing
   plan_count: 5
   slug: onomondo-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Onomondo Rate Limits
@@ -222,7 +222,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

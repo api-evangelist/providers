@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.kalpalabs.ai
@@ -187,7 +187,7 @@ overview: 'Kalpa Labs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kalpa Labs'' developer surface includes documentation, API reference, getting-started guide, sandbox, support, authentication, and 17 more developer resources.'
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Kalpa Labs Rate Limits
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -36,31 +36,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 5
-  human_in_the_loop: 0
+- acting_count: 161
+  human_in_the_loop: 2
   name: Bigpanda Agentic Access
-  operation_count: 11
+  operation_count: 261
   slug: bigpanda-agentic-access
-  summary_line: 11 operations · 5 acting
-api_count: 27
+  summary_line: 261 operations · 161 acting · 2 human-in-the-loop
+api_count: 29
 apis:
-- baseURL: https://api.bigpanda.io
-  baseurl_source: declared
-  description: 'The three agent-facing endpoints: the MCP server, the A2A JSON-RPC endpoint and the agent-card retrieval operation.'
-  name: BigPanda Agents API (MCP & A2A)
-  slug: bigpanda-agents-api
 - baseURL: https://api.bigpanda.io
   baseurl_source: declared
   description: AI analysis configurations and on-demand AI analysis generation.
   name: BigPanda AI Settings API
   slug: bigpanda-ai-settings-api
-- baseURL: https://api.bigpanda.io
-  baseurl_source: declared
-  description: Alert tags, enrichment items, mapping enrichment schemas and tables — the largest single resource group, and the one that decides what context an incident carries.
-  name: BigPanda Alert Tags & Enrichment API
-  slug: bigpanda-alert-enrichment-api
 - baseURL: https://api.bigpanda.io
   baseurl_source: declared
   description: Alert filters and filter schedules, in current and v1 routes, for suppressing alerts before correlation.
@@ -138,11 +128,6 @@ apis:
   slug: bigpanda-meetings-transcripts-api
 - baseURL: https://api.bigpanda.io
   baseurl_source: declared
-  description: Execute a major-incident workflow from a template, then list, inspect, cancel or resolve the execution.
-  name: BigPanda Major Incident Management API
-  slug: bigpanda-mim-api
-- baseURL: https://api.bigpanda.io
-  baseurl_source: declared
   description: Configure Notifications Webhook v2 destinations and discover the dynamic variables a webhook template can interpolate.
   name: BigPanda Notifications & Webhooks API
   slug: bigpanda-notifications-api
@@ -168,11 +153,6 @@ apis:
   slug: bigpanda-service-accounts-api
 - baseURL: https://api.bigpanda.io
   baseurl_source: declared
-  description: SAML SSO configuration, a SAML debug endpoint, and just-in-time domain and role provisioning.
-  name: BigPanda SSO & JIT Provisioning API
-  slug: bigpanda-sso-provisioning-api
-- baseURL: https://api.bigpanda.io
-  baseurl_source: declared
   description: Service and infrastructure topology used to relate alerts across systems.
   name: BigPanda Topology API
   slug: bigpanda-topology-api
@@ -181,7 +161,37 @@ apis:
   description: User management plus a standards-based SCIM 2.0 provisioning surface for Users and Groups.
   name: BigPanda Users & SCIM API
   slug: bigpanda-users-api
-artifact_total: 109
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: The Agents (MCP & A2A) API from BigPanda — 3 operation(s) for agents (mcp & a2a).
+  name: BigPanda Agents (MCP & A2A) API
+  slug: bigpanda-agents-mcp-a2a-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: The Alert Tags & Enrichment API from BigPanda — 22 operation(s) for alert tags & enrichment.
+  name: BigPanda Alert Tags & Enrichment API
+  slug: bigpanda-alert-tags-enrichment-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: The Audit Log API from BigPanda — 2 operation(s) for audit log.
+  name: BigPanda Audit Log API
+  slug: bigpanda-audit-log-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: The Changes & Root Cause API from BigPanda — 4 operation(s) for changes & root cause.
+  name: BigPanda Changes & Root Cause API
+  slug: bigpanda-changes-root-cause-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: The Major Incident Management API from BigPanda — 7 operation(s) for major incident management.
+  name: BigPanda Major Incident Management API
+  slug: bigpanda-major-incident-management-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: The SSO & JIT Provisioning API from BigPanda — 7 operation(s) for sso & jit provisioning.
+  name: BigPanda SSO & JIT Provisioning API
+  slug: bigpanda-sso-jit-provisioning-api
+artifact_total: 111
 asyncapis:
 - description: ''
   name: Bigpanda Webhooks
@@ -230,6 +240,26 @@ collections:
   name: BigPanda API
   slug: open-bigpanda
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/overlays/bigpanda-agents-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bigpanda-agents-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/overlays/bigpanda-alert-enrichment-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bigpanda-alert-enrichment-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/overlays/bigpanda-mim-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bigpanda-mim-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/overlays/bigpanda-sso-provisioning-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bigpanda-sso-provisioning-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -600,18 +630,18 @@ modified: '2026-09-04'
 name: BigPanda
 nav: Providers
 network: true
-overview: 'BigPanda publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Agents API (MCP & A2A), AI Settings API, Alert Tags & Enrichment API, and 24 more. Tagged areas include Incidents, Monitoring, Platform, AIOps, and IT Operations.
+overview: 'BigPanda publishes 29 APIs on the [APIs.io](https://apis.io/) network, including AI Settings API, Alert Filters API, Alert Ingestion (OIM) API, and 26 more. Tagged areas include Incidents, Monitoring, Platform, AIOps, and IT Operations.
 
 
   The BigPanda catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  BigPanda''s developer surface includes authentication, developer portal, API reference, documentation, getting-started guide, changelog, pricing, and 38 more developer resources.'
+  BigPanda''s developer surface includes authentication, developer portal, API reference, documentation, getting-started guide, changelog, pricing, and 42 more developer resources.'
 plans:
 - name: Bigpanda Plans Pricing
   plan_count: 0
   slug: bigpanda-plans-pricing
-random_paper: 3
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Bigpanda Rate Limits
@@ -645,7 +675,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.3
+  composite: 69.9
   coverage:
     artifact_dirs: 31
     catalog_earned: 75.5
@@ -653,11 +683,11 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 68.4
     contract_governance: 47.0
-    contract_quality: 74.2
+    contract_quality: 72.4
     developer_ergonomics: 55.4
     discoverability: 81.5
     operational_transparency: 81.6
@@ -667,13 +697,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 100.0
-      total: 28
+      derived: 3
+      marker_coverage: 86.7
+      total: 30
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

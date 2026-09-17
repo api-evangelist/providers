@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: Platform notifications API secured with OAuth 2.0 (scope NotificationService).
@@ -186,7 +186,7 @@ overview: 'Fourth publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Fourth''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 19 more developer resources.'
-random_paper: 13
+random_paper: 4
 scopes:
 - name: Fourth Scopes
   scope_count: 1
@@ -214,7 +214,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

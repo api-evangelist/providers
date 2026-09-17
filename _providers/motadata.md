@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: ObserveOps (formerly Motadata AIOps) is a unified observability platform correlating metrics, logs, traces, flows and topology with anomaly detection that needs no training period. Its REST API is mou
@@ -208,7 +208,7 @@ plans:
 - name: Motadata Plans Pricing
   plan_count: 0
   slug: motadata-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Motadata Rate Limits
@@ -242,7 +242,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

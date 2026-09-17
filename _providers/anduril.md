@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -54,11 +54,6 @@ apis:
   slug: anduril-entities-api
 - baseURL: https://developer.anduril.com
   baseurl_source: declared
-  description: Token issuance for client-credentials authentication.
-  name: Anduril Industries OAuth API
-  slug: anduril-oauth-api
-- baseURL: https://developer.anduril.com
-  baseurl_source: declared
   description: Upload, fetch, list, and delete distributed binary objects.
   name: Anduril Industries Objects API
   slug: anduril-objects-api
@@ -67,6 +62,11 @@ apis:
   description: Create, update, query, cancel, and stream tasks; agent-side listen/stream endpoints.
   name: Anduril Industries Tasks API
   slug: anduril-tasks-api
+- baseURL: https://developer.anduril.com
+  baseurl_source: declared
+  description: Token issuance for client-credentials authentication.
+  name: Anduril Industries O Auth API
+  slug: anduril-oauth-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -169,7 +169,7 @@ modified: '2026-05-23'
 name: Anduril Industries
 nav: Providers
 network: true
-overview: 'Anduril Industries publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, OAuth API, Objects API, and 1 more. Tagged areas include Defense, Autonomy, Lattice, Command and Control, and C2.
+overview: 'Anduril Industries publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Objects API, Tasks API, and 1 more. Tagged areas include Defense, Autonomy, Lattice, Command and Control, and C2.
 
 
   Anduril Industries'' developer surface includes authentication, GitHub presence, product news, engineering blog, and 12 more developer resources.'
@@ -177,7 +177,7 @@ plans:
 - name: Anduril Plans Pricing
   plan_count: 1
   slug: anduril-plans-pricing
-random_paper: 16
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Anduril Rate Limits
@@ -188,8 +188,8 @@ scopes:
   slug: anduril-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 24.2
+  band: thin
+  composite: 36.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 56.0
@@ -197,11 +197,11 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.3
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 49.0
     developer_ergonomics: 40.5
     discoverability: 68.5
     operational_transparency: 23.7
@@ -214,8 +214,8 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 11.1

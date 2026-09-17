@@ -33,21 +33,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: 'AMETEK provides advanced electronic instruments and electromechanical devices for energy, aerospace, power, research, medical, and industrial markets. The corporate site is not a developer surface: th'
   name: AMETEK Website
   slug: website
-- baseURL: http://{device_host}:{port}/api/v1
-  baseurl_source: declared
-  description: Read-only REST API embedded in the AMETEK Powervar iSite PRO network management card, the adapter fitted to Powervar UPS systems for secure remote monitoring. Three GET operations over HTTP or HTTPS r
-  name: AMETEK Powervar iSite PRO REST API
-  slug: powervar-isite-pro
 - description: The public API reference for Crank Storyboard, the embedded graphical-interface development platform AMETEK acquired with Crank Software. Nine documented API families across 313 server-rendered, versi
   name: Crank Storyboard APIs
   slug: crank-storyboard
-artifact_total: 24
+- baseURL: https://www.ametek.com
+  baseurl_source: declared
+  description: Read the currently active alarm set reported by the UPS.
+  name: AMETEK Alarms API
+  slug: ametek-alarms-api
+- baseURL: https://www.ametek.com
+  baseurl_source: declared
+  description: Identify the adapter itself — model, serial, firmware, network interfaces and httpd state.
+  name: AMETEK Device Identity API
+  slug: ametek-device-identity-api
+- baseURL: https://www.ametek.com
+  baseurl_source: declared
+  description: Read the live electrical, battery and load state of the attached UPS.
+  name: AMETEK UPS Monitoring API
+  slug: ametek-ups-monitoring-api
+artifact_total: 26
 common:
 - group: company
   title: ''
@@ -64,10 +74,10 @@ common:
   type: DomainSecurity
   url: security/ametek-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/ametek-powervar-isite-pro-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/openapi/_original/ametek-powervar-isite-pro-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/ametek-powervar-isite-pro-openapi.yml
+  url: openapi/_original/ametek-powervar-isite-pro-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ametek/refs/heads/main/overlays/ametek-powervar-isite-pro-overlay.yaml
   title: ''
@@ -234,11 +244,11 @@ jsonld:
   property_count: 21
   slug: ametek-context
 layout: provider
-modified: '2026-09-02'
+modified: '2026-09-16'
 name: AMETEK
 nav: Providers
 network: true
-overview: 'AMETEK publishes 1 API on the [APIs.io](https://apis.io/) network: Powervar iSite PRO REST API. Tagged areas include Electronic Instruments, Test and Measurement, Aerospace, Energy, and Industrial.
+overview: 'AMETEK publishes 3 APIs on the [APIs.io](https://apis.io/) network: Alarms API, Device Identity API, and UPS Monitoring API. Tagged areas include Electronic Instruments, Test and Measurement, Aerospace, Energy, and Industrial.
 
 
   The AMETEK catalog on APIs.io includes 1 JSON-LD context.
@@ -265,37 +275,37 @@ press:
 - date: '2026-05-25'
   title: Enabling Artificial Intelligence through advanced ...
   url: https://www.ametek.com/our-stories/stories/innovation/2023/august/ametek-enabling-ai
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Ametek Rate Limits
   slug: ametek-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 35.4
   coverage:
     artifact_dirs: 24
-    catalog_earned: 49.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 20.7
+    contract_quality: 20.2
     developer_ergonomics: 54.2
-    discoverability: 64.8
+    discoverability: 59.3
     operational_transparency: 26.3
   previous_composite: 36.0
   provenance:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 1
+      derived: 3
       marker_coverage: 100.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
   regulatory:
@@ -305,7 +315,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

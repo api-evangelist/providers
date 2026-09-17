@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: REST API for Pasqal Cloud Services — submit and manage quantum Batches and Jobs on Pasqal Fresnel QPUs and on emulator backends (EMU-FREE, EMU-TN, EMU-MPS, EMU-SV), query Devices and Device Specificat
@@ -61,6 +61,10 @@ apis:
   slug: emulators
 artifact_total: 45
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://pasqal.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/pasqal/refs/heads/main/security/pasqal-domain-security.yml
   title: ''
@@ -257,15 +261,15 @@ integrations:
 - description: Saudi Aramco partnership delivering the Middle East's first commercial quantum computing service platform.
   name: Aramco
 layout: provider
-modified: '2026-05-24'
+modified: '2026-09-16'
 name: Pasqal
 nav: Providers
 network: true
 overview: 'Pasqal publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Neutral Atom, Quantum, QPU, and Rydberg.
 
 
-  Pasqal''s developer surface includes developer portal, documentation, getting-started guide, signup flow, developer console, sandbox, API reference, and 28 more developer resources.'
-random_paper: 12
+  Pasqal''s developer surface includes developer portal, documentation, getting-started guide, signup flow, developer console, sandbox, API reference, and 29 more developer resources.'
+random_paper: 4
 score:
   band: emerging
   composite: 19.5
@@ -294,7 +298,7 @@ score:
     - france-iberia
   previous_composite: 19.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -347,5 +351,5 @@ use_cases:
   name: Quantum-enhanced HPC
 - description: QUBO-formulated space mission optimization (smo-qubo) on neutral-atom backends.
   name: Space mission optimization
-website: https://www.pasqal.com
+website: https://pasqal.com
 ---

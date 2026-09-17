@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Per-customer JSON REST API over each Uptycs stack covering alerts and alert rules, events and event rules, assets and asset groups/tags, ad-hoc and saved SQL (osquery) queries, threat indicators/sourc
@@ -140,7 +140,7 @@ overview: 'Uptycs publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Uptycs'' developer surface includes pricing, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
   band: thin
   composite: 26.7
@@ -164,7 +164,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

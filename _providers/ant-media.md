@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -73,15 +73,175 @@ apis:
   slug: ant-media-vods-api
 - baseURL: https://{ant-media-server}:5443/rest/v2/
   baseurl_source: declared
-  description: 'The Ant Media Server Management Panel REST API — 50 operations for non-application-specific administration: creating and deleting applications, managing operator accounts, reading and writing server a'
-  name: Ant Media Management API
-  slug: ant-media-management-api
-- baseURL: https://{ant-media-server}:5443/rest/v2/
-  baseurl_source: declared
   description: The cluster surface of the Ant Media Server management panel REST API — 9 operations for listing cluster nodes with offset/size paging, counting them, annotating a node with a note, and removing a nod
   name: Ant Media Cluster API
   slug: ant-media-cluster-api
-artifact_total: 38
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Admin Status API from Ant Media — 1 operation(s) for admin status.
+  name: Ant Media Admin Status API
+  slug: ant-media-admin-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Applications API from Ant Media — 6 operation(s) for applications.
+  name: Ant Media Applications API
+  slug: ant-media-applications-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Applications Info API from Ant Media — 1 operation(s) for applications info.
+  name: Ant Media Applications Info API
+  slug: ant-media-applications-info-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Authentication Status API from Ant Media — 1 operation(s) for authentication status.
+  name: Ant Media Authentication Status API
+  slug: ant-media-authentication-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Cluster Mode Status API from Ant Media — 1 operation(s) for cluster mode status.
+  name: Ant Media Cluster Mode Status API
+  slug: ant-media-cluster-mode-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Cpu Status API from Ant Media — 1 operation(s) for cpu status.
+  name: Ant Media Cpu Status API
+  slug: ant-media-cpu-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Enterprise Edition API from Ant Media — 1 operation(s) for enterprise edition.
+  name: Ant Media Enterprise Edition API
+  slug: ant-media-enterprise-edition-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The File System Status API from Ant Media — 1 operation(s) for file system status.
+  name: Ant Media File System Status API
+  slug: ant-media-file-system-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The First Login Status API from Ant Media — 1 operation(s) for first login status.
+  name: Ant Media First Login Status API
+  slug: ant-media-first-login-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Gpu Status API from Ant Media — 1 operation(s) for gpu status.
+  name: Ant Media Gpu Status API
+  slug: ant-media-gpu-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Heap Dump API from Ant Media — 1 operation(s) for heap dump.
+  name: Ant Media Heap Dump API
+  slug: ant-media-heap-dump-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Jvm Memory Status API from Ant Media — 1 operation(s) for jvm memory status.
+  name: Ant Media Jvm Memory Status API
+  slug: ant-media-jvm-memory-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Last Licence Status API from Ant Media — 1 operation(s) for last licence status.
+  name: Ant Media Last Licence Status API
+  slug: ant-media-last-licence-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Licence Status API from Ant Media — 1 operation(s) for licence status.
+  name: Ant Media Licence Status API
+  slug: ant-media-licence-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Live Clients Size API from Ant Media — 1 operation(s) for live clients size.
+  name: Ant Media Live Clients Size API
+  slug: ant-media-live-clients-size-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Liveness API from Ant Media — 1 operation(s) for liveness.
+  name: Ant Media Liveness API
+  slug: ant-media-liveness-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Log File API from Ant Media — 1 operation(s) for log file.
+  name: Ant Media Log File API
+  slug: ant-media-log-file-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Network Status API from Ant Media — 1 operation(s) for network status.
+  name: Ant Media Network Status API
+  slug: ant-media-network-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Server Settings API from Ant Media — 1 operation(s) for server settings.
+  name: Ant Media Server Settings API
+  slug: ant-media-server-settings-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Server Time API from Ant Media — 1 operation(s) for server time.
+  name: Ant Media Server Time API
+  slug: ant-media-server-time-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Shutdown Proper Status API from Ant Media — 1 operation(s) for shutdown proper status.
+  name: Ant Media Shutdown Proper Status API
+  slug: ant-media-shutdown-proper-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Shutdown Properly API from Ant Media — 1 operation(s) for shutdown properly.
+  name: Ant Media Shutdown Properly API
+  slug: ant-media-shutdown-properly-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Ssl Settings API from Ant Media — 1 operation(s) for ssl settings.
+  name: Ant Media Ssl Settings API
+  slug: ant-media-ssl-settings-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Support API from Ant Media — 1 operation(s) for support.
+  name: Ant Media Support API
+  slug: ant-media-support-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The System API from Ant Media — 1 operation(s) for system.
+  name: Ant Media System API
+  slug: ant-media-system-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The System Memory Status API from Ant Media — 1 operation(s) for system memory status.
+  name: Ant Media System Memory Status API
+  slug: ant-media-system-memory-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The System Resources API from Ant Media — 2 operation(s) for system resources.
+  name: Ant Media System Resources API
+  slug: ant-media-system-resources-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The System Status API from Ant Media — 1 operation(s) for system status.
+  name: Ant Media System Status API
+  slug: ant-media-system-status-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Thread Dump API from Ant Media — 1 operation(s) for thread dump.
+  name: Ant Media Thread Dump API
+  slug: ant-media-thread-dump-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Thread Dump Json API from Ant Media — 1 operation(s) for thread dump json.
+  name: Ant Media Thread Dump Json API
+  slug: ant-media-thread-dump-json-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Threads API from Ant Media — 1 operation(s) for threads.
+  name: Ant Media Threads API
+  slug: ant-media-threads-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The User List API from Ant Media — 1 operation(s) for user list.
+  name: Ant Media User List API
+  slug: ant-media-user-list-api
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Users API from Ant Media — 7 operation(s) for users.
+  name: Ant Media Users API
+  slug: ant-media-users-api
+artifact_total: 70
 asyncapis:
 - description: ''
   name: Ant Media Webhooks
@@ -109,6 +269,11 @@ collections:
   name: Ant Media Server REST API Reference
   slug: open-ant-media
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/overlays/ant-media-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/ant-media-management-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -339,18 +504,18 @@ modified: '2026-09-02'
 name: Ant Media
 nav: Providers
 network: true
-overview: 'Ant Media publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Broadcasts API, Filters API, Push Notification API, and 4 more. Tagged areas include Broadcasting, Live Streaming, Media, Streaming, and Video.
+overview: 'Ant Media publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Broadcasts API, Filters API, Push Notification API, and 36 more. Tagged areas include Broadcasting, Live Streaming, Media, Streaming, and Video.
 
 
   The Ant Media catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Ant Media''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, support, authentication, and 35 more developer resources.'
+  Ant Media''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, support, authentication, and 36 more developer resources.'
 plans:
 - name: Ant Media Plans Pricing
   plan_count: 8
   slug: ant-media-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Ant Media Rate Limits
@@ -380,7 +545,7 @@ score:
   facets:
     access_clarity: 84.2
     contract_governance: 29.5
-    contract_quality: 49.7
+    contract_quality: 49.6
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 42.1
@@ -392,11 +557,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 39
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

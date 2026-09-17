@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Public Ethereum JSON-RPC endpoint for Arbitrum One (chain ID 42161), the flagship Arbitrum Layer 2 rollup. Supports the standard Ethereum JSON-RPC method set plus Arbitrum-specific precompiles and the
@@ -123,7 +123,7 @@ overview: 'Offchain Labs publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Offchain Labs'' developer surface includes support, documentation, API reference, getting-started guide, engineering blog, CLI, and 9 more developer resources.'
-random_paper: 12
+random_paper: 17
 score:
   band: emerging
   composite: 23.2
@@ -144,7 +144,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 23.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -117,11 +117,11 @@ modified: '2026-08-09'
 name: Chai Research
 nav: Providers
 network: true
-overview: 'Chai Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Large Language Models, Conversational AI, and Chatbots.
+overview: 'Chai Research is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, LLM, Conversational AI, and Chatbots.
 
 
   Chai Research''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 14
+random_paper: 19
 score:
   band: emerging
   composite: 13.0
@@ -142,7 +142,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +158,7 @@ slug: chai-research
 tags:
 - Company
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Conversational AI
 - Chatbots
 - Consumer Applications

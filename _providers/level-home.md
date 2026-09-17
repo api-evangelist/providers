@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Publicly reachable GraphQL endpoint served by the Craft CMS instance behind level.co. Introspection is enabled anonymously, but the published public schema scope is deliberately narrow — a `ping` quer
@@ -167,7 +167,7 @@ overview: 'Level Home publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Level Home''s developer surface includes documentation, support, engineering blog, pricing, signup flow, legal docs, and 19 more developer resources.'
-random_paper: 19
+random_paper: 16
 score:
   band: thin
   composite: 30.0
@@ -190,7 +190,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +214,7 @@ tags:
 - IoT
 - Access Control
 - Matter
-- Thread
+- Threads
 - Bluetooth LE
 - apple-home-key
 - Consumer Hardware

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -3182,7 +3182,7 @@ plans:
 - name: Otter Plans Pricing
   plan_count: 4
   slug: otter-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Otter Rate Limits
@@ -3227,7 +3227,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 26.7
+    contract_quality: 26.8
     developer_ergonomics: 7.1
     discoverability: 74.1
     operational_transparency: 55.3
@@ -3240,7 +3240,7 @@ score:
       marker_coverage: 100.0
       total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

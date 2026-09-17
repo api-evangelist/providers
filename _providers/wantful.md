@@ -24,7 +24,7 @@ name: wantful
 nav: Providers
 network: true
 overview: wantful is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Gifts, and Personalization.
-random_paper: 13
+random_paper: 21
 slug: wantful
 tags:
 - Company

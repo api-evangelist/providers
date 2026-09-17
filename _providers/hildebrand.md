@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 4
@@ -59,11 +59,6 @@ apis:
   description: The Account Session API from Hildebrand — 1 operation(s) for account session.
   name: Hildebrand Account Session API
   slug: hildebrand-account-session-api
-- baseURL: https://api.glowmarkt.com/api/v0-1
-  baseurl_source: declared
-  description: The accountsession API from Hildebrand — 1 operation(s) for accountsession.
-  name: Hildebrand Accountsession API
-  slug: hildebrand-accountsession-api
 - baseURL: https://api.glowmarkt.com/api/v0-1
   baseurl_source: declared
   description: An application can send an alert to a customer across multiple channels (email, push, inbox) which will convey some type of specific message (defined by the alert type).
@@ -111,11 +106,6 @@ apis:
   slug: hildebrand-notification-api
 - baseURL: https://api.glowmarkt.com/api/v0-1
   baseurl_source: declared
-  description: The OAuth API from Hildebrand — 2 operation(s) for oauth.
-  name: Hildebrand O Auth API
-  slug: hildebrand-oauth-api
-- baseURL: https://api.glowmarkt.com/api/v0-1
-  baseurl_source: declared
   description: A Resource is a representation of data collected from a physical device, like sensor readings, or changes in an actuating device state etc.
   name: Hildebrand Resource API
   slug: hildebrand-resource-api
@@ -154,7 +144,12 @@ apis:
   description: Entity that belongs and is managed by an application and contains the definition and combination of the Resource Types that are required to create a Virtual Entity.
   name: Hildebrand Virtual Entity Type API
   slug: hildebrand-virtual-entity-type-api
-artifact_total: 32
+- baseURL: https://api.glowmarkt.com/api/v0-1
+  baseurl_source: declared
+  description: The OAuth API from Hildebrand — 2 operation(s) for oauth.
+  name: Hildebrand O Auth API
+  slug: hildebrand-oauth-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Hildebrand Event Surface
@@ -342,7 +337,7 @@ modified: '2026-07-27'
 name: Hildebrand
 nav: Providers
 network: true
-overview: 'Hildebrand publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Profile API, Account Session API, and 19 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
+overview: 'Hildebrand publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Profile API, Account Session API, and 18 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
   The Hildebrand catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -353,10 +348,10 @@ plans:
 - name: Hildebrand Plans
   plan_count: 3
   slug: hildebrand-plans
-random_paper: 8
+random_paper: 3
 score:
   band: developing
-  composite: 54.1
+  composite: 53.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 52.0
@@ -364,11 +359,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 61.0
+    contract_quality: 60.5
     developer_ergonomics: 49.4
     discoverability: 74.1
     operational_transparency: 10.5
@@ -388,7 +383,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 22
+      total: 21
     mcp: derived
     skills: derived
   regulatory:
@@ -398,7 +393,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

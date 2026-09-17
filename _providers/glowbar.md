@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Glowbar Plans Pricing
   plan_count: 0
   slug: glowbar-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Glowbar Rate Limits
@@ -174,7 +174,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -203,6 +203,6 @@ tags:
 - Agentic Commerce
 - Universal Commerce Protocol
 - MCP
-- Memberships
+- Membership
 website: https://glowbar.com/
 ---

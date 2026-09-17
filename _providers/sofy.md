@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://public.sofy.ai
@@ -197,7 +197,7 @@ overview: 'SOFY publishes 2 APIs on the [APIs.io](https://apis.io/) network: App
 
 
   SOFY''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 19 more developer resources.'
-random_paper: 8
+random_paper: 9
 score:
   band: developing
   composite: 44.9
@@ -227,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

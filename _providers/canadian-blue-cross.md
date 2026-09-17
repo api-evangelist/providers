@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -149,7 +149,7 @@ overview: 'Blue Cross Canada is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Blue Cross Canada''s developer surface includes product news, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 14
+random_paper: 13
 scopes:
 - name: Canadian Blue Cross Scopes
   scope_count: 2
@@ -190,7 +190,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -217,7 +217,7 @@ tags:
 - Group Benefits
 - Claims
 - Carrier
-- Association
+- Associations
 - No Public API
 website: https://www.bluecross.ca/
 ---

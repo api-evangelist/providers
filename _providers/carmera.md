@@ -26,7 +26,7 @@ name: Carmera *
 nav: Providers
 network: true
 overview: Carmera * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Mapping, HD Maps, and Geospatial.
-random_paper: 17
+random_paper: 5
 slug: carmera
 tags:
 - Company

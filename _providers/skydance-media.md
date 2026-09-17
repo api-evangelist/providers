@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - baseURL: https://skydance.com/wp-json/wp/v2
   baseurl_source: declared
   description: The Media API from Skydance Media — 2 operation(s) for media.
-  name: Skydance Media Media API
+  name: Skydance Media API
   slug: skydance-media-media-api
 - baseURL: https://skydance.com/wp-json/wp/v2
   baseurl_source: declared
@@ -285,15 +285,15 @@ description: 'Skydance Media is a Santa Monica, California diversified entertain
   as JSON.'
 image: https://skydance.com/wp-content/uploads/2023/03/cropped-skydance.png
 layout: provider
-modified: '2026-08-05'
+modified: '2026-09-16'
 name: Skydance Media
 nav: Providers
 network: true
-overview: 'Skydance Media publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Media API, and 9 more. Tagged areas include Company, Entertainment, Media, Film, and Television.
+overview: 'Skydance Media publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, and 10 more. Tagged areas include Company, Entertainment, Media, Film, and Television.
 
 
   Skydance Media''s developer surface includes authentication, engineering blog, FAQ, YouTube channel, and 27 more developer resources.'
-random_paper: 0
+random_paper: 21
 score:
   band: emerging
   composite: 19.5
@@ -323,7 +323,7 @@ score:
       total: 13
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

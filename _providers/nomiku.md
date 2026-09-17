@@ -28,7 +28,7 @@ name: nomiku
 nav: Providers
 network: true
 overview: nomiku is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Hardware, Sous Vide, Kitchen, and IoT.
-random_paper: 8
+random_paper: 21
 slug: nomiku
 tags:
 - Company

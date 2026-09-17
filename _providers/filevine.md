@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -87,8 +87,8 @@ apis:
 - baseURL: https://api.filevine.io
   baseurl_source: spec
   description: Billable time tracking.
-  name: Filevine TimeEntries API
-  slug: filevine-timeentries-api
+  name: Filevine Time Entries API
+  slug: filevine-time-entries-api
 artifact_total: 84
 asyncapis:
 - description: Filevine emits webhook events to subscribed callback URLs when activity occurs in the platform. Subscriptions are configured per organization and select from a curated event catalog. Each subscription
@@ -434,7 +434,7 @@ modified: '2026-05-25'
 name: Filevine
 nav: Providers
 network: true
-overview: 'Filevine publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Identity API, Projects API, Contacts API, and 6 more. Tagged areas include Legal, Case Management, Matters, Intake, and Documents.
+overview: 'Filevine publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Identity API, Projects API, Contacts API, and 6 more. Tagged areas include Legal, Case Management, Matter, Intake, and Documents.
 
 
   The Filevine catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -445,7 +445,7 @@ plans:
 - name: Filevine Plans Pricing
   plan_count: 10
   slug: filevine-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Filevine Rate Limits
@@ -510,7 +510,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -537,7 +537,7 @@ slug: filevine
 tags:
 - Legal
 - Case Management
-- Matters
+- Matter
 - Intake
 - Documents
 - LOIS

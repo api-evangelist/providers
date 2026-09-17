@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -65,11 +65,6 @@ apis:
   slug: restate-invocation-api
 - baseURL: http://localhost:9070
   baseurl_source: declared
-  description: The openapi API from Restate — 1 operation(s) for openapi.
-  name: Restate openapi API
-  slug: restate-openapi-api
-- baseURL: http://localhost:9070
-  baseurl_source: declared
   description: Service management
   name: Restate service API
   slug: restate-service-api
@@ -88,6 +83,11 @@ apis:
   description: API Version
   name: Restate version API
   slug: restate-version-api
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: The Open API API from Restate — 1 operation(s) for open api.
+  name: Restate Open API
+  slug: restate-open-api-api
 artifact_total: 36
 collections:
 - collection_type: open
@@ -262,7 +262,7 @@ plans:
 - name: Restate Plans Pricing
   plan_count: 3
   slug: restate-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Restate Rate Limits
@@ -316,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 service for OPEN FAU, the university''s open-access publication repository. Verified live on 2026-08-30: Identify returns repositoryName "O'
@@ -214,7 +214,7 @@ plans:
 - name: Friedrich Alexander Universitat Erlangen Nurnberg Plans Pricing
   plan_count: 2
   slug: friedrich-alexander-universitat-erlangen-nurnberg-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Friedrich Alexander Universitat Erlangen Nurnberg Rate Limits
@@ -255,7 +255,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

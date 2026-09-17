@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Labcorp supports HL7 FHIR-based exchange of laboratory orders, results, and diagnostic reports with provider and health-system EHR systems. Typical FHIR resources exposed include ServiceRequest, Diagn
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Earnings for Laboratory Corp. Of America Expected to Fall
   url: https://www.forbes.com/sites/narrativescience/2014/07/16/earnings-for-laboratory-corp-of-america-expected-to-fall/
-random_paper: 10
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Laboratory Corp Of America Rate Limits
@@ -141,7 +141,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

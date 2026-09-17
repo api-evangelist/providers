@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://dashboard.peachpayments.com
   baseurl_source: declared
   description: Server-to-server debit and refund transactions.
-  name: Peach Payments Payments API
+  name: Peach Payments API
   slug: peachpayments-payments-api
 - baseURL: https://dashboard.peachpayments.com
   baseurl_source: declared
@@ -322,7 +322,7 @@ finops:
   slug: peachpayments-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/peachpayments.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-16'
 name: Peach Payments
 nav: Providers
 network: true
@@ -383,7 +383,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

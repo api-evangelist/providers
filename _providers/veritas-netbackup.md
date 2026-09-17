@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -154,6 +154,10 @@ collections:
   name: Veritas NetBackup REST API
   slug: open-veritas-netbackup-rest-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://veritas.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/capabilities/veritas-netbackup-capability-edges.yml
   title: ''
@@ -749,7 +753,7 @@ jsonld:
   property_count: 0
   slug: veritas-netbackup-rest-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Veritas NetBackup
 nav: Providers
 network: true
@@ -759,12 +763,12 @@ overview: 'Veritas NetBackup publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Veritas NetBackup catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Veritas NetBackup''s developer surface includes authentication, support, documentation, API reference, getting-started guide, pricing, engineering blog, and 26 more developer resources.'
+  Veritas NetBackup''s developer surface includes authentication, support, documentation, API reference, getting-started guide, pricing, engineering blog, and 27 more developer resources.'
 plans:
 - name: Veritas Netbackup Plans Pricing
   plan_count: 1
   slug: veritas-netbackup-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Veritas Netbackup Rate Limits
@@ -818,7 +822,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -856,5 +860,5 @@ use_cases:
   name: Multi-Tenant Backup Management
 - description: Use IT Analytics APIs to export reports on storage consumption, backup trends, and capacity forecasting.
   name: Capacity Planning
-website: https://www.veritas.com/products/backup-and-recovery/netbackup
+website: https://veritas.com
 ---

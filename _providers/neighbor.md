@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: Neighbor API
   slug: open-neighbor
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://neighbor.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/neighbor/refs/heads/main/agentic-access/neighbor-agentic-access.yml
   title: ''
@@ -93,19 +97,19 @@ finops:
   slug: neighbor-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neighbor.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Neighbor
 nav: Providers
 network: true
 overview: 'Neighbor publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Storage, Marketplace, and Reporting.
 
 
-  Neighbor''s developer surface includes authentication and 4 more developer resources.'
+  Neighbor''s developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Neighbor Plans Pricing
   plan_count: 3
   slug: neighbor-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Neighbor Rate Limits
@@ -137,7 +141,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -158,4 +162,5 @@ tags:
 - Storage
 - Marketplace
 - Reporting
+website: https://neighbor.com
 ---

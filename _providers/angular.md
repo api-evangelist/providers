@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: 'The Angular Core API provides the fundamental building blocks of the Angular framework including components, directives, pipes, dependency injection, Signals for reactive state management, standalone '
@@ -65,6 +65,10 @@ apis:
   slug: angular-devtools
 artifact_total: 15
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://angular.dev
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/angular/refs/heads/main/security/angular-domain-security.yml
   title: ''
@@ -134,19 +138,19 @@ finops:
   slug: angular-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/angular.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Angular
 nav: Providers
 network: true
 overview: 'Angular publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Deferrable Views, Framework, Frontend, JavaScript, and Open-Source.
 
 
-  Angular''s developer surface includes documentation, GitHub presence, engineering blog, Stack Overflow tag, YouTube channel, and 10 more developer resources.'
+  Angular''s developer surface includes documentation, GitHub presence, engineering blog, Stack Overflow tag, YouTube channel, and 11 more developer resources.'
 plans:
 - name: Angular Plans Pricing
   plan_count: 3
   slug: angular-plans-pricing
-random_paper: 11
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Angular Rate Limits
@@ -171,7 +175,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -201,4 +205,5 @@ tags:
 - TypeScript
 - Web Development
 - Zoneless
+website: https://angular.dev
 ---

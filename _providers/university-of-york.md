@@ -34,24 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
-- baseURL: https://discover.york.ac.uk
-  baseurl_source: declared
-  description: The keyless JSON search interface behind discover.york.ac.uk, the University of York's Digital Collections. Two live endpoints — /api/search-simple, which the public search page calls, and /api/search
-  name: University of York Digital Collections Search API
-  slug: digital-collections-search
-- baseURL: https://discover.york.ac.uk
-  baseurl_source: declared
-  description: 'The University of York serves its digitised material through two IIIF specifications on its own host: IIIF Image API 3.0 at compliance level 2 (the served info.json declares "profile": "level2", "type'
-  name: University of York Digital Collections IIIF APIs
-  slug: digital-collections-iiif
-- baseURL: https://pure.york.ac.uk/ws/oai
-  baseurl_source: declared
-  description: OAI-PMH 2.0 harvesting on the University's own registrable domain. The Identify response names the repository "The University of York", gives adminEmail pure-support@york.ac.uk and an earliest datesta
-  name: University of York Research Portal OAI-PMH
-  slug: research-portal-oai-pmh
 - description: The University's own SAML 2.0 identity provider at shib.york.ac.uk, running Shibboleth. It is the authentication surface through which every bought platform — Pure, Primo, the VLE — is actually reache
   name: University of York Shibboleth Identity Provider
   slug: shibboleth-idp
@@ -67,7 +52,27 @@ apis:
 - description: White Rose eTheses Online is the shared EPrints theses repository of York, Leeds and Sheffield, running on the consortium's own domain. Its OAI-PMH 2.0 interface Identifies as "White Rose eTheses Onli
   name: White Rose eTheses Online OAI-PMH (consortium)
   slug: wreo-oai
-artifact_total: 22
+- baseURL: https://discover.york.ac.uk
+  baseurl_source: declared
+  description: IIIF Image API 3.0, compliance level 2.
+  name: University of York IIIF Image API
+  slug: university-of-york-iiif-image-api
+- baseURL: https://discover.york.ac.uk
+  baseurl_source: declared
+  description: IIIF Presentation API 3.0 manifests and canvases.
+  name: University of York IIIF Presentation API
+  slug: university-of-york-iiif-presentation-api
+- baseURL: https://discover.york.ac.uk
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting 2.0.
+  name: University of York OAI PMH API
+  slug: university-of-york-oai-pmh-api
+- baseURL: https://discover.york.ac.uk
+  baseurl_source: declared
+  description: Full-text and faceted search over the digital collections index.
+  name: University of York Search API
+  slug: university-of-york-search-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -253,7 +258,7 @@ modified: '2026-08-30'
 name: University of York
 nav: Providers
 network: true
-overview: 'University of York publishes 3 APIs on the [APIs.io](https://apis.io/) network: Digital Collections Search API, Digital Collections IIIF APIs, and Research Portal OAI-PMH. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
+overview: 'University of York publishes 4 APIs on the [APIs.io](https://apis.io/) network, including IIIF Image API, IIIF Presentation API, OAI PMH API, and 1 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
   The University of York catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -264,7 +269,7 @@ plans:
 - name: University Of York Plans Pricing
   plan_count: 2
   slug: university-of-york-plans-pricing
-random_paper: 9
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: University Of York Rate Limits
@@ -292,7 +297,7 @@ rules:
   slug: university-of-york-rules
 score:
   band: developing
-  composite: 43.7
+  composite: 43.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 73.3
@@ -300,11 +305,11 @@ score:
     catalog_gap: 41.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 62.7
+    contract_quality: 61.2
     developer_ergonomics: 26.2
     discoverability: 74.1
     operational_transparency: 23.7
@@ -323,7 +328,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 3
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
@@ -331,7 +336,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

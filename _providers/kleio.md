@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Kleio platform API, served from api.kleio.ai behind a Google Cloud API Gateway and protected by OAuth 2.0 authorization-code + PKCE against an Auth0 tenant at auth.kleio.ai. Kleio publishes no pub
@@ -171,7 +171,7 @@ plans:
 - name: Kleio Plans Pricing
   plan_count: 0
   slug: kleio-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Kleio Rate Limits
@@ -212,7 +212,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

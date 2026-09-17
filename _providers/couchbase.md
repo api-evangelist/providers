@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 9
@@ -125,11 +125,6 @@ apis:
   description: Endpoints for triggering backup and restore data operations.
   name: Couchbase Data API
   slug: couchbase-data-api
-- baseURL: https://localhost:8091
-  baseurl_source: declared
-  description: Endpoints for managing database configurations within App Services.
-  name: Couchbase Database Administration API
-  slug: couchbase-database-administration-api
 - baseURL: https://localhost:8091
   baseurl_source: declared
   description: Endpoints for retrieving database information.
@@ -315,7 +310,7 @@ apis:
   description: Endpoints for managing users within a Capella organization.
   name: Couchbase Users API
   slug: couchbase-users-api
-artifact_total: 229
+artifact_total: 228
 collections:
 - collection_type: open
   name: API Collection
@@ -905,7 +900,7 @@ modified: '2026-05-19'
 name: Couchbase
 nav: Providers
 network: true
-overview: 'Couchbase publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Allowed CIDRs API, Analytics Admin API, Analytics Configuration API, and 51 more. Tagged areas include Analytics, App Services, Backup, Capella, and Cloud.
+overview: 'Couchbase publishes 53 APIs on the [APIs.io](https://apis.io/) network, including Allowed CIDRs API, Analytics Admin API, Analytics Configuration API, and 50 more. Tagged areas include Analytics, App Services, Backup, Capella, and Cloud.
 
 
   The Couchbase catalog on APIs.io includes 1 JSON-LD context and 6 Spectral governance rulesets.
@@ -1012,9 +1007,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 54
+      total: 53
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1040,7 +1035,7 @@ tags:
 - Database-as-a-Service
 - Eventing
 - Full-Text Search
-- Gateway
+- Gateways
 - JSON
 - Mobile
 - NoSQL

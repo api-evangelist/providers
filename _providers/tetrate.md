@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -60,11 +60,6 @@ apis:
 - description: The TSB Observability API exposes metrics, topology, and service observability data for workloads managed by Tetrate Service Bridge. It provides access to service-level metrics, traffic telemetry, and
   name: Tetrate Service Bridge Observability API
   slug: tsb-observability-api
-- baseURL: https://tsbhost:8443/v2
-  baseurl_source: declared
-  description: Manage API objects within applications
-  name: Tetrate APIs API
-  slug: tetrate-apis-api
 - baseURL: https://tsbhost:8443/v2
   baseurl_source: declared
   description: Manage application objects
@@ -110,6 +105,11 @@ apis:
   description: Manage workspaces within tenants
   name: Tetrate Workspaces API
   slug: tetrate-workspaces-api
+- baseURL: https://docs.tetrate.io/
+  baseurl_source: declared
+  description: Manage API objects within applications
+  name: Tetrate AP Is API
+  slug: tetrate-apis-api
 artifact_total: 67
 collections:
 - collection_type: open
@@ -346,7 +346,7 @@ modified: '2026-05-19'
 name: Tetrate
 nav: Providers
 network: true
-overview: 'Tetrate publishes 10 APIs on the [APIs.io](https://apis.io/) network, including APIs API, Applications API, Clusters API, and 7 more. Tagged areas include Enterprise, Envoy, Istio, Kubernetes, and Service Mesh.
+overview: 'Tetrate publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Clusters API, Gateway Groups API, and 7 more. Tagged areas include Enterprise, Envoy, Istio, Kubernetes, and Service Mesh.
 
 
   The Tetrate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -357,7 +357,7 @@ plans:
 - name: Tetrate Plans Pricing
   plan_count: 2
   slug: tetrate-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Tetrate Rate Limits
@@ -411,7 +411,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

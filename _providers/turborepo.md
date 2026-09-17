@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -242,11 +242,11 @@ modified: '2026-05-25'
 name: Turborepo
 nav: Providers
 network: true
-overview: 'Turborepo publishes 2 APIs on the [APIs.io](https://apis.io/) network: analytics API and artifacts API. Tagged areas include Build System, Monorepo, JavaScript, TypeScript, and Caching.
+overview: 'Turborepo publishes 2 APIs on the [APIs.io](https://apis.io/) network: analytics API and artifacts API. Tagged areas include Build Systems, Monorepo, JavaScript, TypeScript, and Caching.
 
 
   Turborepo''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, code examples, and 27 more developer resources.'
-random_paper: 7
+random_paper: 4
 score:
   band: thin
   composite: 36.5
@@ -274,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -291,7 +291,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: turborepo
 tags:
-- Build System
+- Build Systems
 - Monorepo
 - JavaScript
 - TypeScript

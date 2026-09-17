@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 58.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
+- acting_count: 1
   human_in_the_loop: 0
   name: Twelvedata Agentic Access
-  operation_count: 26
+  operation_count: 199
   slug: twelvedata-agentic-access
-  summary_line: 26 operations
+  summary_line: 199 operations · 1 acting
 api_count: 2
 apis:
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
@@ -94,11 +94,6 @@ apis:
   slug: twelvedata-currencies-api
 - baseURL: wss://ws.twelvedata.com/v1/quotes/price
   baseurl_source: declared
-  description: The etfs API from Twelve Data — 8 operation(s) for etfs.
-  name: Twelve Data Etfs API
-  slug: twelvedata-etfs-api
-- baseURL: wss://ws.twelvedata.com/v1/quotes/price
-  baseurl_source: declared
   description: The market_data API from Twelve Data — 6 operation(s) for market_data.
   name: Twelve Data Market Data API
   slug: twelvedata-market-data-api
@@ -122,6 +117,11 @@ apis:
   description: The technical_indicator API from Twelve Data — 102 operation(s) for technical_indicator.
   name: Twelve Data Technical Indicator API
   slug: twelvedata-technical-indicator-api
+- baseURL: wss://ws.twelvedata.com/v1/quotes/price
+  baseurl_source: declared
+  description: The etfs API from Twelve Data — 8 operation(s) for etfs.
+  name: Twelve Data Etfs API
+  slug: twelvedata-etfs-api
 artifact_total: 39
 asyncapis:
 - description: AsyncAPI 2.6 description of Twelve Data's **real-time price WebSocket**. Unlike a one-way HTTP Server-Sent Events stream, this is a genuine, bidirectional WebSocket (`wss://`) surface. The client open
@@ -381,7 +381,7 @@ plans:
 - name: Twelvedata Plans Pricing
   plan_count: 5
   slug: twelvedata-plans-pricing
-random_paper: 2
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Twelvedata Rate Limits
@@ -412,7 +412,7 @@ score:
   facets:
     access_clarity: 100.0
     contract_governance: 15.9
-    contract_quality: 62.3
+    contract_quality: 62.4
     developer_ergonomics: 81.5
     discoverability: 75.9
     operational_transparency: 68.4
@@ -438,7 +438,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

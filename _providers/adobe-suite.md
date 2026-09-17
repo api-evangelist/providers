@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1601
   human_in_the_loop: 29
@@ -90,11 +90,6 @@ apis:
   slug: adobe-suite-accesslevel-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
-  description: The Accessrequest API from Adobe Suite — 11 operation(s) for accessrequest.
-  name: Adobe Suite Accessrequest API
-  slug: adobe-suite-accessrequest-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
   description: Account information for the authenticated user.
   name: Adobe Suite Accounts API
   slug: adobe-suite-accounts-api
@@ -103,11 +98,6 @@ apis:
   description: The Acknowledgement API from Adobe Suite — 8 operation(s) for acknowledgement.
   name: Adobe Suite Acknowledgement API
   slug: adobe-suite-acknowledgement-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
-  description: The Activitylog API from Adobe Suite — 4 operation(s) for activitylog.
-  name: Adobe Suite Activitylog API
-  slug: adobe-suite-activitylog-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
   description: The Ad API from Adobe Suite — 3 operation(s) for ad.
@@ -185,11 +175,6 @@ apis:
   slug: adobe-suite-approvalpath-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
-  description: The Approvalprocess API from Adobe Suite — 5 operation(s) for approvalprocess.
-  name: Adobe Suite Approvalprocess API
-  slug: adobe-suite-approvalprocess-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
   description: Information for assets, typically images or videos.
   name: Adobe Suite Assets API
   slug: adobe-suite-assets-api
@@ -248,11 +233,6 @@ apis:
   description: The Awaitingapproval API from Adobe Suite — 7 operation(s) for awaitingapproval.
   name: Adobe Suite Awaitingapproval API
   slug: adobe-suite-awaitingapproval-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
-  description: The Backgroundjob API from Adobe Suite — 5 operation(s) for backgroundjob.
-  name: Adobe Suite Backgroundjob API
-  slug: adobe-suite-backgroundjob-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
   description: Base connections retain information regarding how to connect to a source or target. For destinations, the source that you are connecting to is Experience Platform data and the target is the desired de
@@ -815,11 +795,6 @@ apis:
   slug: adobe-suite-documentfolder-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
-  description: The Documentrequest API from Adobe Suite — 5 operation(s) for documentrequest.
-  name: Adobe Suite Documentrequest API
-  slug: adobe-suite-documentrequest-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
   description: The Documentversion API from Adobe Suite — 8 operation(s) for documentversion.
   name: Adobe Suite Documentversion API
   slug: adobe-suite-documentversion-api
@@ -838,11 +813,6 @@ apis:
   description: The Download API from Adobe Suite — 1 operation(s) for download.
   name: Adobe Suite Download API
   slug: adobe-suite-download-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
-  description: The Dub API from Adobe Suite — 1 operation(s) for dub.
-  name: Adobe Suite Dub API
-  slug: adobe-suite-dub-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
   description: 'Endpoints for Dynamic Graphics Render (DGR): template describe, presets, render, job status, cancel a render job, and list render jobs. The Cancel (`PUT /v1/cancel/{jobId}`) and List Render Jobs (`GET'
@@ -913,11 +883,6 @@ apis:
   description: The Ewsfilehandle API from Adobe Suite — 1 operation(s) for ewsfilehandle.
   name: Adobe Suite Ewsfilehandle API
   slug: adobe-suite-ewsfilehandle-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
-  description: The Exchangerate API from Adobe Suite — 7 operation(s) for exchangerate.
-  name: Adobe Suite Exchangerate API
-  slug: adobe-suite-exchangerate-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
   description: The execution API from Adobe Suite — 5 operation(s) for execution.
@@ -1018,11 +983,6 @@ apis:
   description: Retrieve headers containing metadata for a file specified by ID.
   name: Adobe Suite Files API
   slug: adobe-suite-files-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
-  description: The Financialdata API from Adobe Suite — 5 operation(s) for financialdata.
-  name: Adobe Suite Financialdata API
-  slug: adobe-suite-financialdata-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
   description: 'Flow specs retain information that define a flow. They include information on how a flow can be scheduled, whether a flow supports options like partial ingestion and error diagnostics, as well as the '
@@ -1185,11 +1145,6 @@ apis:
   slug: adobe-suite-hour-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
-  description: The Hourtype API from Adobe Suite — 11 operation(s) for hourtype.
-  name: Adobe Suite Hourtype API
-  slug: adobe-suite-hourtype-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
   description: Convert HTML Resources to a PDF File
   name: Adobe Suite Html to PDF API
   slug: adobe-suite-html-to-pdf-api
@@ -1285,11 +1240,6 @@ apis:
   slug: adobe-suite-job-status-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
-  description: The Journalentry API from Adobe Suite — 7 operation(s) for journalentry.
-  name: Adobe Suite Journalentry API
-  slug: adobe-suite-journalentry-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
   description: Operations related to journey management
   name: Adobe Suite Journeys API
   slug: adobe-suite-journeys-api
@@ -1358,11 +1308,6 @@ apis:
   description: The Logout API from Adobe Suite — 1 operation(s) for logout.
   name: Adobe Suite Logout API
   slug: adobe-suite-logout-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
-  description: The LrService API from Adobe Suite — 6 operation(s) for lrservice.
-  name: Adobe Suite Lr Service API
-  slug: adobe-suite-lrservice-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
   description: Endpoints for managing asynchronous jobs.
@@ -1925,11 +1870,6 @@ apis:
   slug: adobe-suite-resourcecontour-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
-  description: The Resourcemanager API from Adobe Suite — 5 operation(s) for resourcemanager.
-  name: Adobe Suite Resourcemanager API
-  slug: adobe-suite-resourcemanager-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
   description: The Resourceplannerfilter API from Adobe Suite — 13 operation(s) for resourceplannerfilter.
   name: Adobe Suite Resourceplannerfilter API
   slug: adobe-suite-resourceplannerfilter-api
@@ -2295,11 +2235,6 @@ apis:
   slug: adobe-suite-timesheetprofile-api
 - baseURL: https://image.adobe.io
   baseurl_source: declared
-  description: The Transcribe API from Adobe Suite — 1 operation(s) for transcribe.
-  name: Adobe Suite Transcribe API
-  slug: adobe-suite-transcribe-api
-- baseURL: https://image.adobe.io
-  baseurl_source: declared
   description: Membership Controller V 2
   name: Adobe Suite Transfers API
   slug: adobe-suite-transfers-api
@@ -2433,7 +2368,57 @@ apis:
   description: Workspace Controller
   name: Adobe Suite Workspaces API
   slug: adobe-suite-workspaces-api
-artifact_total: 538
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Access Request API from Adobe Suite — 11 operation(s) for access request.
+  name: Adobe Suite Access Request API
+  slug: adobe-suite-access-request-api
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Activity Log API from Adobe Suite — 4 operation(s) for activity log.
+  name: Adobe Suite Activity Log API
+  slug: adobe-suite-activity-log-api
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Approval Process API from Adobe Suite — 5 operation(s) for approval process.
+  name: Adobe Suite Approval Process API
+  slug: adobe-suite-approval-process-api
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Background Job API from Adobe Suite — 5 operation(s) for background job.
+  name: Adobe Suite Background Job API
+  slug: adobe-suite-background-job-api
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Document Request API from Adobe Suite — 5 operation(s) for document request.
+  name: Adobe Suite Document Request API
+  slug: adobe-suite-document-request-api
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Exchange Rate API from Adobe Suite — 7 operation(s) for exchange rate.
+  name: Adobe Suite Exchange Rate API
+  slug: adobe-suite-exchange-rate-api
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Financial Data API from Adobe Suite — 5 operation(s) for financial data.
+  name: Adobe Suite Financial Data API
+  slug: adobe-suite-financial-data-api
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Hour Type API from Adobe Suite — 11 operation(s) for hour type.
+  name: Adobe Suite Hour Type API
+  slug: adobe-suite-hour-type-api
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Journal Entry API from Adobe Suite — 7 operation(s) for journal entry.
+  name: Adobe Suite Journal Entry API
+  slug: adobe-suite-journal-entry-api
+- baseURL: https://api.adobe.io/sign
+  baseurl_source: declared
+  description: The Resource Manager API from Adobe Suite — 5 operation(s) for resource manager.
+  name: Adobe Suite Resource Manager API
+  slug: adobe-suite-resource-manager-api
+artifact_total: 535
 asyncapis:
 - description: ''
   name: Adobe Suite Webhooks
@@ -2777,7 +2762,7 @@ modified: '2026-08-13'
 name: Adobe Suite
 nav: Providers
 network: true
-overview: 'Adobe Suite publishes 472 APIs on the [APIs.io](https://apis.io/) network, including Accelerated Queries API, Access Control Policies API, Accesslevel API, and 469 more. Tagged areas include Artificial Intelligence, Analytics, Automation, Commerce, and Creative.
+overview: 'Adobe Suite publishes 469 APIs on the [APIs.io](https://apis.io/) network, including Accelerated Queries API, Access Control Policies API, Accesslevel API, and 466 more. Tagged areas include Artificial Intelligence, Analytics, Automation, Commerce, and Creative.
 
 
   The Adobe Suite catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -2788,7 +2773,7 @@ plans:
 - name: Adobe Suite Plans Pricing
   plan_count: 3
   slug: adobe-suite-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 9
   name: Adobe Suite Rate Limits
@@ -2800,7 +2785,7 @@ scopes:
   summary_line: 10 scopes
 score:
   band: exemplar
-  composite: 75.6
+  composite: 75.7
   coverage:
     artifact_dirs: 28
     catalog_earned: 59.0
@@ -2808,11 +2793,11 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 63.2
+    contract_quality: 63.4
     developer_ergonomics: 89.9
     discoverability: 66.7
     operational_transparency: 71.1
@@ -2821,14 +2806,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 82.1
+      callable: 82.0
       derived: 0
       marker_coverage: 0.0
-      total: 473
+      total: 470
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: 'Place title and escrow orders programmatically (into Qualia Core or to third-party systems) and track their status through the closing lifecycle. Modeled from Qualia''s public description of push/pull '
@@ -57,7 +57,7 @@ apis:
 - description: The Qualia API is a read-write GraphQL API over the Qualia title, escrow and closing platform. It lets partner organizations place title orders into Qualia Core or Connect (or route them to third-part
   name: Qualia API
   slug: qualia-api
-artifact_total: 12
+artifact_total: 13
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/security/qualia-title-trust-center.yml
@@ -112,61 +112,111 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/qualialabs
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/authentication/qualia-title-authentication.yml
+  title: ''
+  type: Authentication
+  url: authentication/qualia-title-authentication.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/well-known/qualia-title-well-known.yml
+  title: ''
+  type: WellKnown
+  url: well-known/qualia-title-well-known.yml
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/well-known/qualia-title-security.txt
+  title: ''
+  type: SecurityTxt
+  url: well-known/qualia-title-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.qualia.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.qualia.com/trust/
+- group: design
+  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/lifecycle/qualia-title-lifecycle.yml
+  title: ''
+  type: Lifecycle
+  url: lifecycle/qualia-title-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.qualia.com/
+- group: operate
+  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/lifecycle/qualia-title-lifecycle.yml
+  title: ''
+  type: Deprecation
+  url: lifecycle/qualia-title-lifecycle.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/llms/qualia-title-llms.txt
+  title: ''
+  type: LLMsTxt
+  url: llms/qualia-title-llms.txt
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.qualia.com/privacy-policy/
 created: '2026-07-04'
 description: Qualia is a digital real estate closing platform for the title, escrow, and settlement industry, connecting title agents, lenders, real estate agents, and homebuyers on a single system for managing closings end to end. The Qualia API is an enterprise-grade, cloud-based GraphQL read-write API with a developer hub and sandbox. It lets real estate businesses and PropTech companies place and track title orders, send and receive messages and documents, and pull order, accounting, and contact data for custom reporting and to connect accounting, CRM, and BI systems. Access is partner-gated behind a secure authorization framework (capability gates, authorized organizations, HTTP authentication, and rate limiting); Qualia does not publish an open, unauthenticated developer portal, so the API areas below are modeled from Qualia's public product and press material rather than from a public GraphQL schema.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qualia-title.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Qualia
 nav: Providers
 network: true
 overview: 'Qualia publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Title Insurance, Escrow, Real-Estate, Closing, and Settlement.
 
 
-  Qualia''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+  Qualia''s developer surface includes documentation, engineering blog, authentication, and 19 more developer resources.'
 plans:
 - name: Qualia Title Plans Pricing
   plan_count: 1
   slug: qualia-title-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Qualia Title Rate Limits
   slug: qualia-title-rate-limits
 score:
-  band: emerging
-  composite: 24.3
+  band: thin
+  composite: 34.2
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 51.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 64.0
+    artifact_dirs: 10
+    catalog_earned: 56.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.9
   facets:
-    access_clarity: 39.5
+    access_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 64.8
-    operational_transparency: 23.7
+    discoverability: 74.1
+    operational_transparency: 57.9
   previous_composite: 24.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 40.9
+    score: 47.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/screenshots/qualia-title-2026-09-02T152559.png
 security:
+- kind: authentication
+  name: Qualia Title Authentication
+  slug: qualia-title-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Qualia Title Domain Security
   slug: qualia-title-domain-security

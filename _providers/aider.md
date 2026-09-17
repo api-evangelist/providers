@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -67,11 +67,6 @@ apis:
   description: Aider Commands That Wrap Git Operations.
   name: Aider Git API
   slug: aider-git-api
-- baseURL: https://aider.chat
-  baseurl_source: declared
-  description: Aider Commands That Move Data In and Out of the Session.
-  name: Aider IO API
-  slug: aider-io-api
 - baseURL: https://aider.chat
   baseurl_source: declared
   description: Aider Launch-Time Configuration via Flags, YAML, and Environment Variables.
@@ -117,6 +112,11 @@ apis:
   description: Aider Commands That Pull in Web Content.
   name: Aider Web API
   slug: aider-web-api
+- baseURL: https://github.com/Aider-AI/aider
+  baseurl_source: declared
+  description: Aider Commands That Move Data In and Out of the Session.
+  name: Aider I/O API
+  slug: aider-i-o-api
 artifact_total: 116
 collections:
 - collection_type: open
@@ -577,7 +577,7 @@ overview: 'Aider publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Aider''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, tooling, and 30 more developer resources.'
-random_paper: 13
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Aider Rate Limits
@@ -631,7 +631,7 @@ score:
       marker_coverage: 93.3
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

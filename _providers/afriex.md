@@ -23,18 +23,58 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.6
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://api.afriex.com
-  baseurl_source: declared
-  description: The Afriex Business API is a REST API for cross-border money movement. It covers customer creation and KYC verification, payment-method registration across bank accounts, mobile money, SWIFT, UPI, Int
-  name: Afriex Business API
-  slug: afriex-business-api
 - description: Afriex publishes a hosted, remote Model Context Protocol server at https://mcp.afriex.com/mcp that exposes 26 tools covering the Business API surface — customers, transactions, payment methods, instit
   name: Afriex MCP Server
   slug: afriex-mcp-server
-artifact_total: 8
+- baseURL: https://api.afriex.com
+  baseurl_source: declared
+  description: View and top up your business wallet balances.
+  name: Afriex Balance API
+  slug: afriex-balance-api
+- baseURL: https://api.afriex.com
+  baseurl_source: declared
+  description: Create hosted checkout sessions.
+  name: Afriex Checkout Sessions API
+  slug: afriex-checkout-sessions-api
+- baseURL: https://api.afriex.com
+  baseurl_source: declared
+  description: Create and manage your customers.
+  name: Afriex Customers API
+  slug: afriex-customers-api
+- baseURL: https://api.afriex.com
+  baseurl_source: declared
+  description: Generate presigned URLs for secure file uploads.
+  name: Afriex Media API
+  slug: afriex-media-api
+- baseURL: https://api.afriex.com
+  baseurl_source: declared
+  description: Register and resolve customer payout and collection methods.
+  name: Afriex Payment Methods API
+  slug: afriex-payment-methods-api
+- baseURL: https://api.afriex.com
+  baseurl_source: declared
+  description: Fetch real-time exchange rates.
+  name: Afriex Rates API
+  slug: afriex-rates-api
+- baseURL: https://api.afriex.com
+  baseurl_source: declared
+  description: The SME Registration API from Afriex — 2 operation(s) for sme registration.
+  name: Afriex SME Registration API
+  slug: afriex-sme-registration-api
+- baseURL: https://api.afriex.com
+  baseurl_source: declared
+  description: Create and track deposits, withdrawals, and swaps.
+  name: Afriex Transactions API
+  slug: afriex-transactions-api
+- baseURL: https://api.afriex.com
+  baseurl_source: declared
+  description: Webhook event payloads and sandbox webhook testing.
+  name: Afriex Webhooks API
+  slug: afriex-webhooks-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Afriex Business Webhooks
@@ -69,10 +109,6 @@ common:
   title: ''
   type: SignUp
   url: https://business.afriex.com/
-- group: operate
-  title: ''
-  type: Support
-  url: mailto:support@afriex.com
 - group: company
   title: ''
   type: Blog
@@ -190,25 +226,25 @@ modified: '2026-09-12'
 name: Afriex
 nav: Providers
 network: true
-overview: 'Afriex publishes 1 API on the [APIs.io](https://apis.io/) network: Business API. Tagged areas include Payments, Remittances, Cross-Border Payments, Fintech, and Financial-Services.
+overview: 'Afriex publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Checkout Sessions API, Customers API, and 6 more. Tagged areas include Payments, Remittances, Cross-Border Payments, Fintech, and Financial-Services.
 
 
   The Afriex catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Afriex''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
+  Afriex''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 22 more developer resources.'
 plans:
 - name: Afriex Plans Pricing
   plan_count: 0
   slug: afriex-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Afriex Rate Limits
   slug: afriex-rate-limits
 score:
   band: developing
-  composite: 51.4
+  composite: 50.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -216,12 +252,12 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 68.0
-    developer_ergonomics: 78.6
+    contract_quality: 68.6
+    developer_ergonomics: 73.8
     discoverability: 75.9
     operational_transparency: 26.3
   jurisdiction:
@@ -232,6 +268,11 @@ score:
   previous_composite: 51.4
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
     mcp: first-party
     skills: first-party
   regulatory:
@@ -241,7 +282,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

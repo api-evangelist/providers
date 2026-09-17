@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,13 +44,8 @@ agentic_access:
   operation_count: 38
   slug: backstage-agentic-access
   summary_line: 38 operations · 14 acting
-api_count: 6
+api_count: 13
 apis:
-- baseURL: https://{backstageHost}/api/events
-  baseurl_source: declared
-  description: The Backstage Events system provides a publish-subscribe mechanism for broadcasting and consuming events within a Backstage instance. It enables plugins to emit events when significant actions occur (
-  name: Backstage Events System
-  slug: events-system
 - baseURL: https://{backstageHost}/api/scaffolder
   baseurl_source: declared
   description: Endpoints for listing available scaffolder actions.
@@ -71,11 +66,6 @@ apis:
   description: The Documentation API from Backstage — 2 operation(s) for documentation.
   name: Backstage Documentation API
   slug: backstage-documentation-api
-- baseURL: https://{backstageHost}/api/catalog
-  baseurl_source: declared
-  description: Endpoints for managing and querying catalog entities.
-  name: Backstage Entities API
-  slug: backstage-entities-api
 - baseURL: https://{backstageHost}/api/catalog
   baseurl_source: declared
   description: Endpoints for managing catalog locations (entity sources).
@@ -111,17 +101,67 @@ apis:
   description: The Token Verification API from Backstage — 1 operation(s) for token verification.
   name: Backstage Token Verification API
   slug: backstage-token-verification-api
-- baseURL: https://{backstageHost}/api/notifications
+- baseURL: https://{backstageHost}/api/events
   baseurl_source: declared
-  description: The Backstage Notifications API delivers user- and group-addressed notifications inside a Backstage portal. Plugins create notifications with a topic, severity and link; users list, read, mark and sav
+  description: The Autocomplete API from Backstage — 1 operation(s) for autocomplete.
+  name: Backstage Autocomplete API
+  slug: backstage-autocomplete-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Bus API from Backstage — 3 operation(s) for bus.
+  name: Backstage Bus API
+  slug: backstage-bus-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Dry Run API from Backstage — 1 operation(s) for dry run.
+  name: Backstage Dry Run API
+  slug: backstage-dry-run-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Entity API from Backstage — 9 operation(s) for entity.
+  name: Backstage Entity API
+  slug: backstage-entity-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Notifications API from Backstage — 5 operation(s) for notifications.
   name: Backstage Notifications API
   slug: backstage-notifications-api
-- baseURL: https://{backstageHost}/api/.backstage/dynamic-features
+- baseURL: https://{backstageHost}/api/events
   baseurl_source: declared
-  description: The Backstage dynamic feature service reports the dynamically loaded frontend and backend remotes present in a running Backstage instance. It is the introspection surface behind dynamic plugin loading
-  name: Backstage Dynamic Feature Service API
-  slug: backstage-dynamic-features-api
-artifact_total: 114
+  description: List of endpoints per provider
+  name: Backstage Provider API
+  slug: backstage-provider-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Remotes API from Backstage — 1 operation(s) for remotes.
+  name: Backstage Remotes API
+  slug: backstage-remotes-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Settings API from Backstage — 1 operation(s) for settings.
+  name: Backstage Settings API
+  slug: backstage-settings-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Status API from Backstage — 1 operation(s) for status.
+  name: Backstage Status API
+  slug: backstage-status-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Templating Extensions API from Backstage — 1 operation(s) for templating extensions.
+  name: Backstage Templating Extensions API
+  slug: backstage-templating-extensions-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Topics API from Backstage — 1 operation(s) for topics.
+  name: Backstage Topics API
+  slug: backstage-topics-api
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Update API from Backstage — 1 operation(s) for update.
+  name: Backstage Update API
+  slug: backstage-update-api
+artifact_total: 122
 asyncapis:
 - description: The Backstage Events system provides a publish-subscribe mechanism for broadcasting and consuming events within a Backstage instance. It enables plugins to emit events when significant actions occur (
   name: Backstage Events System
@@ -188,6 +228,26 @@ collections:
   name: Backstage Auth Actions Token Verification API
   slug: open-backstage-token-verification-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/overlays/backstage-catalog-backend-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/backstage-catalog-backend-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/overlays/backstage-events-backend-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/backstage-events-backend-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/overlays/backstage-notifications-backend-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/backstage-notifications-backend-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/overlays/backstage-dynamic-features-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/backstage-dynamic-features-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/mcp/backstage-mcp.yml
   title: ''
@@ -571,13 +631,13 @@ modified: '2026-09-04'
 name: Backstage
 nav: Providers
 network: true
-overview: 'Backstage publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Events System, Actions API, Authentication API, and 12 more. Tagged areas include Developer Portal, Internal Developer Platform, Software Catalog, Open-Source, and Platform Engineering.
+overview: 'Backstage publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Authentication API, Authorization API, and 20 more. Tagged areas include Developer Portal, Internal Developer Platform, Software Catalog, Open-Source, and Platform Engineering.
 
 
   The Backstage catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Backstage''s developer surface includes sandbox, changelog, CLI, API reference, support, authentication, documentation, and 33 more developer resources.'
+  Backstage''s developer surface includes sandbox, changelog, CLI, API reference, support, authentication, documentation, and 37 more developer resources.'
 plans:
 - name: Backstage Plans Pricing
   plan_count: 4
@@ -627,7 +687,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.0
+  composite: 61.9
   coverage:
     artifact_dirs: 33
     catalog_earned: 69.5
@@ -635,11 +695,11 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 15.8
     contract_governance: 47.0
-    contract_quality: 63.3
+    contract_quality: 67.1
     developer_ergonomics: 85.7
     discoverability: 81.5
     operational_transparency: 60.5
@@ -651,11 +711,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 19
+      total: 23
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

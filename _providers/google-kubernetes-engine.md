@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -52,13 +52,8 @@ apis:
 - baseURL: https://container.googleapis.com
   baseurl_source: spec
   description: The Google Kubernetes Engine API API from Google Kubernetes Engine — 15 operation(s) for google kubernetes engine api.
-  name: Google Kubernetes Engine Google Kubernetes Engine API API
+  name: Google Kubernetes Engine Google Kubernetes Engine API
   slug: google-kubernetes-engine-google-kubernetes-engine-api-api
-- baseURL: https://container.googleapis.com
-  baseurl_source: spec
-  description: The NodePools API from Google Kubernetes Engine — 1 operation(s) for nodepools.
-  name: Google Kubernetes Engine NodePools API
-  slug: google-kubernetes-engine-nodepools-api
 - baseURL: https://container.googleapis.com
   baseurl_source: spec
   description: The Operations API from Google Kubernetes Engine — 1 operation(s) for operations.
@@ -69,6 +64,11 @@ apis:
   description: The ServerConfig API from Google Kubernetes Engine — 1 operation(s) for serverconfig.
   name: Google Kubernetes Engine ServerConfig API
   slug: google-kubernetes-engine-serverconfig-api
+- baseURL: https://container.googleapis.com
+  baseurl_source: spec
+  description: The Node Pools API from Google Kubernetes Engine — 1 operation(s) for node pools.
+  name: Google Kubernetes Engine Node Pools API
+  slug: google-kubernetes-engine-node-pools-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -158,11 +158,11 @@ finops:
   slug: google-kubernetes-engine-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-kubernetes-engine.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Kubernetes Engine
 nav: Providers
 network: true
-overview: 'Google Kubernetes Engine publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Google Kubernetes Engine API API, NodePools API, and 2 more. Tagged areas include Cloud-Native, Containers, Google Cloud, Kubernetes, and Managed Service.
+overview: 'Google Kubernetes Engine publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Google Kubernetes Engine API, Operations API, and 2 more. Tagged areas include Cloud-Native, Containers, Google Cloud, Kubernetes, and Managed Service.
 
 
   Google Kubernetes Engine''s developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, and 7 more developer resources.'
@@ -170,7 +170,7 @@ plans:
 - name: Google Kubernetes Engine Plans Pricing
   plan_count: 3
   slug: google-kubernetes-engine-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Google Kubernetes Engine Rate Limits
@@ -207,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

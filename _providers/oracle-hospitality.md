@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 59
 apis:
 - description: Provides information of Sales activities related to Accounts, Contacts, and Blocks for the selected Property. Compatible with OPERA Cloud RnA release 26.1.0.0. Read-only GraphQL subject area in the OP
@@ -398,21 +398,11 @@ apis:
   description: The Content Notification service provides ability to send distribution partners with hotel property inventory level, room rates, and restrictions.
   name: Oracle Hospitality Content Notification API
   slug: oracle-hospitality-content-notification-api
-- baseURL: /fof/config/v1
-  baseurl_source: spec
-  description: The Credit Card Internal Service contains operations used internally by OPERA Cloud.
-  name: Oracle Hospitality Credit Card API
-  slug: oracle-hospitality-creditcard-api
 - baseURL: /crm/async/v1
   baseurl_source: spec
   description: The CRM Async Web Service provides capability to implement stay records related asynchronous operations in OPERA Cloud.
   name: Oracle Hospitality CRM Async API
   slug: oracle-hospitality-crmasync-api
-- baseURL: /cms/v1
-  baseurl_source: spec
-  description: Customer Management web service caters operations for Customer Management activities.
-  name: Oracle Hospitality Customer Management API
-  slug: oracle-hospitality-customermanagement-api
 - baseURL: /dvm/v1
   baseurl_source: spec
   description: The DataValueMappingService Web Service offers capability to convert Opera values to external vendor's values or vice versa.
@@ -428,11 +418,6 @@ apis:
   description: The EndOfDay Configuration module offers the capability of creating, managing, and retrieving a properties End of Day configuration.
   name: Oracle Hospitality End Of Day Config API
   slug: oracle-hospitality-endofdayconfig-api
-- baseURL: /evm/v1
-  baseurl_source: spec
-  description: The Event APIs will allow you to retrieve, create, manage and delete events and related event functionality such as event resources, catering packages and even event waitlists.
-  name: Oracle Hospitality Event Management API
-  slug: oracle-hospitality-eventmanagement-api
 - baseURL: /exp/config/v1
   baseurl_source: spec
   description: The Export Service provides operations used by Opera to configure and generate file exports of Opera data.
@@ -578,11 +563,6 @@ apis:
   description: The ProvisioningService Web Service offers capability of provisioning and deprovisioning properties and chains in Opera.
   name: Oracle Hospitality Provisioning API
   slug: oracle-hospitality-provisioning-api
-- baseURL: /rtp/v1
-  baseurl_source: spec
-  description: The Rate Plan APIs allow for creating, managing, and retrieving rates and their related components such as negotiated rates and packages.
-  name: Oracle Hospitality Rate Plan API
-  slug: oracle-hospitality-rateplan-api
 - baseURL: /rtp/async/v1
   baseurl_source: spec
   description: The RatePlanAsync API from Oracle Hospitality — 18 operation(s) for rateplanasync.
@@ -593,16 +573,11 @@ apis:
   description: The Report Service provides information about available report modules which may be generated, along with their parameters.
   name: Oracle Hospitality Report API
   slug: oracle-hospitality-report-api
-- baseURL: /distribution/v1
+- baseURL: /rsv/v1
   baseurl_source: spec
   description: Reservation API
   name: Oracle Hospitality Reservation API
   slug: oracle-hospitality-reservation-api
-- baseURL: /resnotif/v1
-  baseurl_source: spec
-  description: 'Reservation Notification API operations allow a channel to deliver, modify and cancel a reservation created and already confirmed from an external system (for example an OTA).<br/> It is usually used '
-  name: Oracle Hospitality Reservation Notification API
-  slug: oracle-hospitality-reservation-notification-api
 - baseURL: /book/v1
   baseurl_source: spec
   description: Reservation Request API operations allow a channel to create, modify and cancel reservations in Oracle Hospitality Distribution.<br/> It is usually used in conjunction with OPERA Cloud Distribution Sh
@@ -658,7 +633,27 @@ apis:
   description: The Upsell Offers API from Oracle Hospitality — 1 operation(s) for upsell offers.
   name: Oracle Hospitality Upsell Offers API
   slug: oracle-hospitality-upsell-offers-api
-artifact_total: 220
+- baseURL: /fof/config/v1
+  baseurl_source: spec
+  description: The Credit Card Internal Service contains operations used internally by OPERA Cloud.
+  name: Oracle Hospitality Credit card API
+  slug: oracle-hospitality-credit-card-api
+- baseURL: /cms/v1
+  baseurl_source: spec
+  description: Customer Management web service caters operations for Customer Management activities.
+  name: Oracle Hospitality Customer Management API
+  slug: oracle-hospitality-customer-management-api
+- baseURL: /evm/v1
+  baseurl_source: spec
+  description: The Event APIs will allow you to retrieve, create, manage and delete events and related event functionality such as event resources, catering packages and even event waitlists.
+  name: Oracle Hospitality Event Management API
+  slug: oracle-hospitality-event-management-api
+- baseURL: /rtp/v1
+  baseurl_source: spec
+  description: The Rate Plan APIs allow for creating, managing, and retrieving rates and their related components such as negotiated rates and packages.
+  name: Oracle Hospitality Rate Plan API
+  slug: oracle-hospitality-rate-plan-api
+artifact_total: 219
 asyncapis:
 - description: 'Oracle publishes no AsyncAPI document for Oracle Hospitality. This document is DERIVED, by the API Evangelist enrichment pipeline, from two real, published surfaces: (1) the six outbound Swagger 2.0 s'
   name: Oracle Hospitality event and outbound-callback surface
@@ -1385,14 +1380,14 @@ modified: '2026-08-21'
 name: Oracle Hospitality
 nav: Providers
 network: true
-overview: 'Oracle Hospitality publishes 79 APIs on the [APIs.io](https://apis.io/) network, including OPERA Cloud Business Events Streaming API, Accounts Receivables API, Accounts Receivables Config API, and 76 more. Tagged areas include Travel, United States, Hospitality, Hotels, and Property Management.
+overview: 'Oracle Hospitality publishes 78 APIs on the [APIs.io](https://apis.io/) network, including OPERA Cloud Business Events Streaming API, Accounts Receivables API, Accounts Receivables Config API, and 75 more. Tagged areas include Travel, United States, Hospitality, Hotels, and Property Management.
 
 
   The Oracle Hospitality catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 106 more developer resources.'
-random_paper: 16
+random_paper: 15
 rate_limits:
 - limit_count: 9
   name: Oracle Hospitality Rate Limits
@@ -1434,11 +1429,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 78
+      total: 77
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

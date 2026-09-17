@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 63
-  human_in_the_loop: 0
+- acting_count: 335
+  human_in_the_loop: 5
   name: Eloqua Agentic Access
-  operation_count: 111
+  operation_count: 760
   slug: eloqua-agentic-access
-  summary_line: 111 operations · 63 acting
+  summary_line: 760 operations · 335 acting · 5 human-in-the-loop
 api_count: 3
 apis:
 - baseURL: https://secure.p01.eloqua.com/API/REST/2.0/
@@ -1091,7 +1091,7 @@ plans:
 - name: Eloqua Plans Pricing
   plan_count: 0
   slug: eloqua-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Eloqua Rate Limits
@@ -1126,7 +1126,7 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 14.4
-    contract_quality: 53.0
+    contract_quality: 52.9
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 57.9
@@ -1142,7 +1142,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

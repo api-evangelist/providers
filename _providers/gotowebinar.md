@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 13
+- acting_count: 25
   human_in_the_loop: 0
   name: Gotowebinar Agentic Access
-  operation_count: 30
+  operation_count: 63
   slug: gotowebinar-agentic-access
-  summary_line: 30 operations · 13 acting
+  summary_line: 63 operations · 25 acting
 api_count: 3
 apis:
 - baseURL: https://api.getgo.com/G2W/rest/v2
@@ -104,7 +104,12 @@ apis:
   description: Create, read, update, and delete webinars.
   name: GoToWebinar Webinars API
   slug: gotowebinar-webinars-api
-artifact_total: 86
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Operations available for assets of a given organizer.
+  name: GoToWebinar Recording Assets API
+  slug: gotowebinar-recording-assets-api
+artifact_total: 87
 asyncapis:
 - description: Outbound webhook events delivered by the GoToWebinar webhook infrastructure to a developer-supplied callback URL. All events are HTTP POSTs signed via the `X-Webhook-Signature` header so receivers can
   name: GoToWebinar Webhook Events
@@ -473,7 +478,7 @@ modified: '2026-05-23'
 name: GoToWebinar
 nav: Providers
 network: true
-overview: 'GoToWebinar publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Co-Organizers API, Panelists API, and 9 more. Tagged areas include Attendees, Collaboration, Communications, Event, and Meetings.
+overview: 'GoToWebinar publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Co-Organizers API, Panelists API, and 10 more. Tagged areas include Attendees, Collaboration, Communications, Event, and Meetings.
 
 
   The GoToWebinar catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -484,7 +489,7 @@ plans:
 - name: Gotowebinar Plans Pricing
   plan_count: 4
   slug: gotowebinar-plans-pricing
-random_paper: 9
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Gotowebinar Rate Limits
@@ -541,7 +546,7 @@ score:
   facets:
     access_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 65.1
+    contract_quality: 65.2
     developer_ergonomics: 55.4
     discoverability: 74.1
     operational_transparency: 52.6
@@ -553,11 +558,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 13
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

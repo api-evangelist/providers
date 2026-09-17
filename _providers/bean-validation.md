@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Jakarta Bean Validation 3.1 specification defines the constraint model, annotation processor, Validator API, method validation, group sequences, cascaded validation, constraint composition, and th
@@ -136,7 +136,7 @@ plans:
 - name: Bean Validation Plans Pricing
   plan_count: 3
   slug: bean-validation-plans-pricing
-random_paper: 6
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Bean Validation Rate Limits
@@ -164,7 +164,7 @@ score:
     score: 65.0
   previous_composite: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

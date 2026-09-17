@@ -49,7 +49,7 @@ name: Campanja
 nav: Providers
 network: true
 overview: Campanja is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Search Advertising, and Bid Management.
-random_paper: 8
+random_paper: 13
 security:
 - kind: domain-security
   name: Campanja Domain Security

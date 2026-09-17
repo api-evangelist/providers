@@ -35,19 +35,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
+- acting_count: 36
   human_in_the_loop: 0
   name: U S Geological Survey Agentic Access
-  operation_count: 11
+  operation_count: 301
   slug: u-s-geological-survey-agentic-access
-  summary_line: 11 operations
+  summary_line: 301 operations · 36 acting
 api_count: 1
 apis:
-- description: The USGS Water Data OGC API — an OGC API Features service declaring 18 conformance classes, including OGC API Common Parts 1-3, Features Parts 1-4 and CQL2 filtering, and serving 37 collections. Verif
-  name: USGS Water Data APIs
-  slug: water-data-ogc-api
 - description: The USGS Asset Identifier Service (AIS) allows USGS personnel to reserve, register, publish, and manage USGS persistent identifiers to make research more Findable, Accessible, Interoperable, and Reusa
   name: Asset Identifier Service (AIS)
   slug: asset-identifier-service-ais
@@ -268,6 +265,11 @@ apis:
   description: The code that best describes the topographic setting in which the site is located. Topographic setting refers to the geomorphic features in the vicinity of the site.
   name: U.S. Geological Survey Topographic Codes API
   slug: u-s-geological-survey-topographic-codes-api
+- baseURL: https://api.waterdata.usgs.gov/ogcapi/v0
+  baseurl_source: declared
+  description: OGC API collections listing and metadata.
+  name: U.S. Geological Survey Collections API
+  slug: u-s-geological-survey-collections-api
 artifact_total: 135
 collections:
 - collection_type: open
@@ -548,7 +550,7 @@ modified: '2026-05-19'
 name: U.S. Geological Survey
 nav: Providers
 network: true
-overview: 'U.S. Geological Survey publishes 42 APIs on the [APIs.io](https://apis.io/) network, including USGS Water Data APIs, Catalog API, Earthquakes API, and 39 more. Tagged areas include Federal-Government, Geological, Earth Science, Natural Resources, and Earthquake.
+overview: 'U.S. Geological Survey publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Earthquakes API, Monitoring Locations API, and 39 more. Tagged areas include Federal-Government, Geological, Earth Science, Natural Resources, and Earthquake.
 
 
   The U.S. Geological Survey catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
@@ -559,7 +561,7 @@ plans:
 - name: U S Geological Survey Plans Pricing
   plan_count: 1
   slug: u-s-geological-survey-plans-pricing
-random_paper: 20
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: U S Geological Survey Rate Limits
@@ -598,7 +600,7 @@ rules:
   slug: usgs-spectral-rules
 score:
   band: developing
-  composite: 42.0
+  composite: 41.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 66.5
@@ -606,11 +608,11 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 13.2
     contract_governance: 47.0
-    contract_quality: 70.9
+    contract_quality: 70.0
     developer_ergonomics: 35.7
     discoverability: 53.7
     operational_transparency: 7.9
@@ -620,9 +622,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 6
-      marker_coverage: 14.0
-      total: 43
+      derived: 7
+      marker_coverage: 15.9
+      total: 44
   regulatory:
     applies: true
     matched_via: tags
@@ -630,7 +632,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

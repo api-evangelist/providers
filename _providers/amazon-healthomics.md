@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -45,16 +45,6 @@ agentic_access:
   summary_line: 72 operations · 49 acting
 api_count: 1
 apis:
-- baseURL: https://omics.amazonaws.com
-  baseurl_source: declared
-  description: The AnnotationStore API from Amazon HealthOmics — 2 operation(s) for annotationstore.
-  name: Amazon HealthOmics AnnotationStore API
-  slug: amazon-healthomics-annotationstore-api
-- baseURL: https://omics.amazonaws.com
-  baseurl_source: declared
-  description: The AnnotationStores API from Amazon HealthOmics — 1 operation(s) for annotationstores.
-  name: Amazon HealthOmics AnnotationStores API
-  slug: amazon-healthomics-annotationstores-api
 - baseURL: https://omics.amazonaws.com
   baseurl_source: declared
   description: The Import API from Amazon HealthOmics — 6 operation(s) for import.
@@ -77,11 +67,6 @@ apis:
   slug: amazon-healthomics-run-api
 - baseURL: https://omics.amazonaws.com
   baseurl_source: declared
-  description: The RunGroup API from Amazon HealthOmics — 2 operation(s) for rungroup.
-  name: Amazon HealthOmics RunGroup API
-  slug: amazon-healthomics-rungroup-api
-- baseURL: https://omics.amazonaws.com
-  baseurl_source: declared
   description: The Sequencestore API from Amazon HealthOmics — 21 operation(s) for sequencestore.
   name: Amazon HealthOmics Sequencestore API
   slug: amazon-healthomics-sequencestore-api
@@ -97,19 +82,34 @@ apis:
   slug: amazon-healthomics-tags-api
 - baseURL: https://omics.amazonaws.com
   baseurl_source: declared
-  description: The VariantStore API from Amazon HealthOmics — 2 operation(s) for variantstore.
-  name: Amazon HealthOmics VariantStore API
-  slug: amazon-healthomics-variantstore-api
-- baseURL: https://omics.amazonaws.com
-  baseurl_source: declared
-  description: The VariantStores API from Amazon HealthOmics — 1 operation(s) for variantstores.
-  name: Amazon HealthOmics VariantStores API
-  slug: amazon-healthomics-variantstores-api
-- baseURL: https://omics.amazonaws.com
-  baseurl_source: declared
   description: The Workflow API from Amazon HealthOmics — 2 operation(s) for workflow.
   name: Amazon HealthOmics Workflow API
   slug: amazon-healthomics-workflow-api
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Annotation Store API from Amazon HealthOmics — 2 operation(s) for annotation store.
+  name: Amazon HealthOmics Annotation Store API
+  slug: amazon-healthomics-annotation-store-api
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Annotation Stores API from Amazon HealthOmics — 1 operation(s) for annotation stores.
+  name: Amazon HealthOmics Annotation Stores API
+  slug: amazon-healthomics-annotation-stores-api
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Run Group API from Amazon HealthOmics — 2 operation(s) for run group.
+  name: Amazon HealthOmics Run Group API
+  slug: amazon-healthomics-run-group-api
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Variant Store API from Amazon HealthOmics — 2 operation(s) for variant store.
+  name: Amazon HealthOmics Variant Store API
+  slug: amazon-healthomics-variant-store-api
+- baseURL: https://omics.amazonaws.com
+  baseurl_source: declared
+  description: The Variant Stores API from Amazon HealthOmics — 1 operation(s) for variant stores.
+  name: Amazon HealthOmics Variant Stores API
+  slug: amazon-healthomics-variant-stores-api
 arazzos:
 - description: Start a read set activation job in a sequence store and poll it to completion.
   name: Amazon HealthOmics Activate an Archived Read Set
@@ -228,6 +228,10 @@ collections:
   name: Amazon Omics AnnotationStore Workflow API
   slug: open-amazon-healthomics-workflow-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/agentic-access/amazon-healthomics-agentic-access.yml
   title: ''
@@ -3748,17 +3752,17 @@ jsonld:
   property_count: 0
   slug: amazon-healthomics-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon HealthOmics
 nav: Providers
 network: true
-overview: 'Amazon HealthOmics publishes 13 APIs on the [APIs.io](https://apis.io/) network, including AnnotationStore API, AnnotationStores API, Import API, and 10 more. Tagged areas include Bioinformatics, Genomics, Healthcare, Life Sciences, and Cloud Computing.
+overview: 'Amazon HealthOmics publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Import API, Referencestore API, Referencestores API, and 10 more. Tagged areas include Bioinformatics, Genomics, Healthcare, Life Sciences, and Cloud Computing.
 
 
   The Amazon HealthOmics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon HealthOmics'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
+  Amazon HealthOmics'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
 plans:
 - name: Amazon Healthomics Plans Pricing
   plan_count: 3
@@ -3823,7 +3827,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -3864,5 +3868,5 @@ use_cases:
   name: Population Genomics
 - description: Support clinical genomics workflows for diagnosis and treatment of genetic disorders.
   name: Clinical Genomics
-website: https://aws.amazon.com/healthomics/
+website: https://amazon.com
 ---

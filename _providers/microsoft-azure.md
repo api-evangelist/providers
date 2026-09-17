@@ -20,7 +20,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 46.2
-  scored_at: '2026-09-15'
+  score: 48.4
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -69,138 +69,167 @@ apis:
 - description: JSON-LD context definitions for Microsoft Azure resource types, providing semantic annotations and linked data mappings for Azure Resource Manager resources, Kubernetes clusters, Key Vault keys and se
   name: Microsoft Azure JSON-LD Context
   slug: azure-json-ld-context
-- description: The AccessConnector API from Microsoft Azure — 3 operation(s) for accessconnector.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AccessConnector API from Microsoft Azure — 3 operation(s) for accessconnector.
   name: Microsoft Azure AccessConnector API
   slug: microsoft-azure-accessconnector-api
-- description: The AccessControlRecords API from Microsoft Azure — 2 operation(s) for accesscontrolrecords.
-  name: Microsoft Azure AccessControlRecords API
-  slug: microsoft-azure-accesscontrolrecords-api
-- description: The AccessPolicies API from Microsoft Azure — 2 operation(s) for accesspolicies.
-  name: Microsoft Azure AccessPolicies API
-  slug: microsoft-azure-accesspolicies-api
-- description: The AccessReviewInstanceAcceptRecommmendations API from Microsoft Azure — 1 operation(s) for accessreviewinstanceacceptrecommmendations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AccessReviewInstanceAcceptRecommmendations API from Microsoft Azure — 1 operation(s) for accessreviewinstanceacceptrecommmendations.
   name: Microsoft Azure AccessReviewInstanceAcceptRecommmendations API
   slug: microsoft-azure-accessreviewinstanceacceptrecommmendations-api
-- description: The AccessReviewInstanceApplyDecisions API from Microsoft Azure — 1 operation(s) for accessreviewinstanceapplydecisions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AccessReviewInstanceApplyDecisions API from Microsoft Azure — 1 operation(s) for accessreviewinstanceapplydecisions.
   name: Microsoft Azure AccessReviewInstanceApplyDecisions API
   slug: microsoft-azure-accessreviewinstanceapplydecisions-api
-- description: The AccessReviewInstanceResetDecisions API from Microsoft Azure — 1 operation(s) for accessreviewinstanceresetdecisions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AccessReviewInstanceResetDecisions API from Microsoft Azure — 1 operation(s) for accessreviewinstanceresetdecisions.
   name: Microsoft Azure AccessReviewInstanceResetDecisions API
   slug: microsoft-azure-accessreviewinstanceresetdecisions-api
-- description: The AccessReviewInstanceSendReminders API from Microsoft Azure — 1 operation(s) for accessreviewinstancesendreminders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AccessReviewInstanceSendReminders API from Microsoft Azure — 1 operation(s) for accessreviewinstancesendreminders.
   name: Microsoft Azure AccessReviewInstanceSendReminders API
   slug: microsoft-azure-accessreviewinstancesendreminders-api
-- description: The AccessReviewInstanceStop API from Microsoft Azure — 1 operation(s) for accessreviewinstancestop.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AccessReviewInstanceStop API from Microsoft Azure — 1 operation(s) for accessreviewinstancestop.
   name: Microsoft Azure AccessReviewInstanceStop API
   slug: microsoft-azure-accessreviewinstancestop-api
-- description: The AccessReviewScheduleDefinitionStop API from Microsoft Azure — 1 operation(s) for accessreviewscheduledefinitionstop.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AccessReviewScheduleDefinitionStop API from Microsoft Azure — 1 operation(s) for accessreviewscheduledefinitionstop.
   name: Microsoft Azure AccessReviewScheduleDefinitionStop API
   slug: microsoft-azure-accessreviewscheduledefinitionstop-api
-- description: The AccessToken API from Microsoft Azure — 2 operation(s) for accesstoken.
-  name: Microsoft Azure AccessToken API
-  slug: microsoft-azure-accesstoken-api
-- description: The Account API from Microsoft Azure — 12 operation(s) for account.
+- baseURL: https://purview.azure.com/account/
+  baseurl_source: spec
+  description: The Account API from Microsoft Azure — 12 operation(s) for account.
   name: Microsoft Azure Account API
   slug: microsoft-azure-account-api
 - description: The Account Operations API from Microsoft Azure — 1 operation(s) for account operations.
   name: Microsoft Azure Account Operations API
   slug: microsoft-azure-account-operations-api
-- description: The AccountQuotas API from Microsoft Azure — 2 operation(s) for accountquotas.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AccountQuotas API from Microsoft Azure — 2 operation(s) for accountquotas.
   name: Microsoft Azure AccountQuotas API
   slug: microsoft-azure-accountquotas-api
-- description: The Accounts API from Microsoft Azure — 52 operation(s) for accounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Accounts API from Microsoft Azure — 52 operation(s) for accounts.
   name: Microsoft Azure Accounts API
   slug: microsoft-azure-accounts-api
-- baseURL_template: https://{registryName}.azurecr.io
-  baseurl_source: spec_template
-  description: The Acr API from Microsoft Azure — 2 operation(s) for acr.
-  name: Microsoft Azure Acr API
-  slug: microsoft-azure-acr-api
 - description: ACR APIs related to manifests
   name: Microsoft Azure AcrManifest API
   slug: microsoft-azure-acrmanifest-api
-- baseURL_template: https://{registryName}.azurecr.io
-  baseurl_source: spec_template
-  description: The AcrMetadata API from Microsoft Azure — 5 operation(s) for acrmetadata.
+- description: The AcrMetadata API from Microsoft Azure — 5 operation(s) for acrmetadata.
   name: Microsoft Azure AcrMetadata API
   slug: microsoft-azure-acrmetadata-api
-- baseURL_template: https://{registryName}.azurecr.io
-  baseurl_source: spec_template
-  description: ACR APIs related to repositories
+- description: ACR APIs related to repositories
   name: Microsoft Azure AcrRepository API
   slug: microsoft-azure-acrrepository-api
-- baseURL_template: https://{registryName}.azurecr.io
-  baseurl_source: spec_template
-  description: ACR APIs related to tags
-  name: Microsoft Azure AcrTag API
-  slug: microsoft-azure-acrtag-api
 - description: The AcrToken API from Microsoft Azure — 2 operation(s) for acrtoken.
   name: Microsoft Azure AcrToken API
   slug: microsoft-azure-acrtoken-api
-- description: The Actions API from Microsoft Azure — 10 operation(s) for actions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Actions API from Microsoft Azure — 10 operation(s) for actions.
   name: Microsoft Azure Actions API
   slug: microsoft-azure-actions-api
-- description: The ActiveSessionHostConfiguration API from Microsoft Azure — 2 operation(s) for activesessionhostconfiguration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ActiveSessionHostConfiguration API from Microsoft Azure — 2 operation(s) for activesessionhostconfiguration.
   name: Microsoft Azure ActiveSessionHostConfiguration API
   slug: microsoft-azure-activesessionhostconfiguration-api
-- description: The AddonDetails API from Microsoft Azure — 1 operation(s) for addondetails.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AddonDetails API from Microsoft Azure — 1 operation(s) for addondetails.
   name: Microsoft Azure AddonDetails API
   slug: microsoft-azure-addondetails-api
-- description: The Addons API from Microsoft Azure — 4 operation(s) for addons.
-  name: Microsoft Azure Addons API
-  slug: microsoft-azure-addons-api
-- description: The AddonStatus API from Microsoft Azure — 1 operation(s) for addonstatus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AddonStatus API from Microsoft Azure — 1 operation(s) for addonstatus.
   name: Microsoft Azure AddonStatus API
   slug: microsoft-azure-addonstatus-api
-- description: The Addresses API from Microsoft Azure — 3 operation(s) for addresses.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Addresses API from Microsoft Azure — 3 operation(s) for addresses.
   name: Microsoft Azure Addresses API
   slug: microsoft-azure-addresses-api
-- description: The Adds API from Microsoft Azure — 21 operation(s) for adds.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Adds API from Microsoft Azure — 21 operation(s) for adds.
   name: Microsoft Azure Adds API
   slug: microsoft-azure-adds-api
 - description: The Admin API from Microsoft Azure — 1 operation(s) for admin.
   name: Microsoft Azure Admin API
   slug: microsoft-azure-admin-api
-- description: The AdminKeys API from Microsoft Azure — 2 operation(s) for adminkeys.
-  name: Microsoft Azure AdminKeys API
-  slug: microsoft-azure-adminkeys-api
-- description: The AdminRuleCollections API from Microsoft Azure — 2 operation(s) for adminrulecollections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AdminRuleCollections API from Microsoft Azure — 2 operation(s) for adminrulecollections.
   name: Microsoft Azure AdminRuleCollections API
   slug: microsoft-azure-adminrulecollections-api
-- description: The AdminRules API from Microsoft Azure — 2 operation(s) for adminrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AdminRules API from Microsoft Azure — 2 operation(s) for adminrules.
   name: Microsoft Azure AdminRules API
   slug: microsoft-azure-adminrules-api
-- description: The Advisors API from Microsoft Azure — 2 operation(s) for advisors.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Advisors API from Microsoft Azure — 2 operation(s) for advisors.
   name: Microsoft Azure Advisors API
   slug: microsoft-azure-advisors-api
-- description: Operations for managing node pools within a cluster
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Operations for managing node pools within a cluster
   name: Microsoft Azure Agent Pools API
   slug: microsoft-azure-agent-pools-api
-- description: The Agents API from Microsoft Azure — 2 operation(s) for agents.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Agents API from Microsoft Azure — 2 operation(s) for agents.
   name: Microsoft Azure Agents API
   slug: microsoft-azure-agents-api
-- description: The AggregatedCost API from Microsoft Azure — 2 operation(s) for aggregatedcost.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AggregatedCost API from Microsoft Azure — 2 operation(s) for aggregatedcost.
   name: Microsoft Azure AggregatedCost API
   slug: microsoft-azure-aggregatedcost-api
-- description: The Agreements API from Microsoft Azure — 4 operation(s) for agreements.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Agreements API from Microsoft Azure — 4 operation(s) for agreements.
   name: Microsoft Azure Agreements API
   slug: microsoft-azure-agreements-api
-- description: The AKSAssessmentOperations API from Microsoft Azure — 3 operation(s) for aksassessmentoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AKSAssessmentOperations API from Microsoft Azure — 3 operation(s) for aksassessmentoperations.
   name: Microsoft Azure AKSAssessmentOperations API
   slug: microsoft-azure-aksassessmentoperations-api
-- description: The AKSClusterOperations API from Microsoft Azure — 2 operation(s) for aksclusteroperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AKSClusterOperations API from Microsoft Azure — 2 operation(s) for aksclusteroperations.
   name: Microsoft Azure AKSClusterOperations API
   slug: microsoft-azure-aksclusteroperations-api
-- description: The AKSCostDetailOperations API from Microsoft Azure — 1 operation(s) for akscostdetailoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AKSCostDetailOperations API from Microsoft Azure — 1 operation(s) for akscostdetailoperations.
   name: Microsoft Azure AKSCostDetailOperations API
   slug: microsoft-azure-akscostdetailoperations-api
-- description: The AKSOptionsOperations API from Microsoft Azure — 2 operation(s) for aksoptionsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AKSOptionsOperations API from Microsoft Azure — 2 operation(s) for aksoptionsoperations.
   name: Microsoft Azure AKSOptionsOperations API
   slug: microsoft-azure-aksoptionsoperations-api
-- description: The AKSSummaryOperations API from Microsoft Azure — 2 operation(s) for akssummaryoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AKSSummaryOperations API from Microsoft Azure — 2 operation(s) for akssummaryoperations.
   name: Microsoft Azure AKSSummaryOperations API
   slug: microsoft-azure-akssummaryoperations-api
-- description: The Alerts API from Microsoft Azure — 7 operation(s) for alerts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Alerts API from Microsoft Azure — 7 operation(s) for alerts.
   name: Microsoft Azure Alerts API
   slug: microsoft-azure-alerts-api
 - description: The Aliases API from Microsoft Azure — 2 operation(s) for aliases.
@@ -209,13 +238,19 @@ apis:
 - description: The Alterations API from Microsoft Azure — 2 operation(s) for alterations.
   name: Microsoft Azure Alterations API
   slug: microsoft-azure-alterations-api
-- description: The AmfDeployments API from Microsoft Azure — 3 operation(s) for amfdeployments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AmfDeployments API from Microsoft Azure — 3 operation(s) for amfdeployments.
   name: Microsoft Azure AmfDeployments API
   slug: microsoft-azure-amfdeployments-api
-- description: The amlFilesystems API from Microsoft Azure — 7 operation(s) for amlfilesystems.
+- baseURL: https://management.azure.com/
+  baseurl_source: spec
+  description: The amlFilesystems API from Microsoft Azure — 7 operation(s) for amlfilesystems.
   name: Microsoft Azure amlFilesystems API
   slug: microsoft-azure-amlfilesystems-api
-- description: The Analyze API from Microsoft Azure — 2 operation(s) for analyze.
+- baseURL: /vision/v1.0
+  baseurl_source: spec
+  description: The Analyze API from Microsoft Azure — 2 operation(s) for analyze.
   name: Microsoft Azure Analyze API
   slug: microsoft-azure-analyze-api
 - description: The :Analyze Conversations API from Microsoft Azure — 4 operation(s) for :analyze conversations.
@@ -227,178 +262,256 @@ apis:
 - description: The AnomalyAlerting API from Microsoft Azure — 5 operation(s) for anomalyalerting.
   name: Microsoft Azure AnomalyAlerting API
   slug: microsoft-azure-anomalyalerting-api
-- description: The AnomalyDetection API from Microsoft Azure — 8 operation(s) for anomalydetection.
-  name: Microsoft Azure AnomalyDetection API
-  slug: microsoft-azure-anomalydetection-api
-- description: The ApiKey API from Microsoft Azure — 4 operation(s) for apikey.
-  name: Microsoft Azure ApiKey API
-  slug: microsoft-azure-apikey-api
-- description: The ApiOperation API from Microsoft Azure — 2 operation(s) for apioperation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApiOperation API from Microsoft Azure — 2 operation(s) for apioperation.
   name: Microsoft Azure ApiOperation API
   slug: microsoft-azure-apioperation-api
-- description: The ApiOperationPolicy API from Microsoft Azure — 2 operation(s) for apioperationpolicy.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApiOperationPolicy API from Microsoft Azure — 2 operation(s) for apioperationpolicy.
   name: Microsoft Azure ApiOperationPolicy API
   slug: microsoft-azure-apioperationpolicy-api
-- description: The ApiPolicy API from Microsoft Azure — 2 operation(s) for apipolicy.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApiPolicy API from Microsoft Azure — 2 operation(s) for apipolicy.
   name: Microsoft Azure ApiPolicy API
   slug: microsoft-azure-apipolicy-api
-- description: The ApiRelease API from Microsoft Azure — 2 operation(s) for apirelease.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApiRelease API from Microsoft Azure — 2 operation(s) for apirelease.
   name: Microsoft Azure ApiRelease API
   slug: microsoft-azure-apirelease-api
-- description: The ApiRevision API from Microsoft Azure — 1 operation(s) for apirevision.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApiRevision API from Microsoft Azure — 1 operation(s) for apirevision.
   name: Microsoft Azure ApiRevision API
   slug: microsoft-azure-apirevision-api
-- description: The Apis API from Microsoft Azure — 1 operation(s) for apis.
-  name: Microsoft Azure Apis API
-  slug: microsoft-azure-apis-api
-- description: The ApiSchema API from Microsoft Azure — 2 operation(s) for apischema.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApiSchema API from Microsoft Azure — 2 operation(s) for apischema.
   name: Microsoft Azure ApiSchema API
   slug: microsoft-azure-apischema-api
-- description: The apiTokens API from Microsoft Azure — 2 operation(s) for apitokens.
-  name: Microsoft Azure apiTokens API
-  slug: microsoft-azure-apitokens-api
-- description: The ApiVersionSet API from Microsoft Azure — 2 operation(s) for apiversionset.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApiVersionSet API from Microsoft Azure — 2 operation(s) for apiversionset.
   name: Microsoft Azure ApiVersionSet API
   slug: microsoft-azure-apiversionset-api
-- description: The ApiVersionSets API from Microsoft Azure — 1 operation(s) for apiversionsets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApiVersionSets API from Microsoft Azure — 1 operation(s) for apiversionsets.
   name: Microsoft Azure ApiVersionSets API
   slug: microsoft-azure-apiversionsets-api
 - description: The App API from Microsoft Azure — 10 operation(s) for app.
   name: Microsoft Azure App API
   slug: microsoft-azure-app-api
-- description: The AppAttachPackage API from Microsoft Azure — 3 operation(s) for appattachpackage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AppAttachPackage API from Microsoft Azure — 3 operation(s) for appattachpackage.
   name: Microsoft Azure AppAttachPackage API
   slug: microsoft-azure-appattachpackage-api
-- description: The AppAttachPackageInfo API from Microsoft Azure — 1 operation(s) for appattachpackageinfo.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AppAttachPackageInfo API from Microsoft Azure — 1 operation(s) for appattachpackageinfo.
   name: Microsoft Azure AppAttachPackageInfo API
   slug: microsoft-azure-appattachpackageinfo-api
-- description: The AppComplianceAutomation API from Microsoft Azure — 6 operation(s) for appcomplianceautomation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AppComplianceAutomation API from Microsoft Azure — 6 operation(s) for appcomplianceautomation.
   name: Microsoft Azure AppComplianceAutomation API
   slug: microsoft-azure-appcomplianceautomation-api
 - description: The AppComponent API from Microsoft Azure — 2 operation(s) for appcomponent.
   name: Microsoft Azure AppComponent API
   slug: microsoft-azure-appcomponent-api
-- description: The ApplianceDefinitions API from Microsoft Azure — 3 operation(s) for appliancedefinitions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApplianceDefinitions API from Microsoft Azure — 3 operation(s) for appliancedefinitions.
   name: Microsoft Azure ApplianceDefinitions API
   slug: microsoft-azure-appliancedefinitions-api
-- description: The Appliances API from Microsoft Azure — 11 operation(s) for appliances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Appliances API from Microsoft Azure — 11 operation(s) for appliances.
   name: Microsoft Azure Appliances API
   slug: microsoft-azure-appliances-api
-- description: The Application API from Microsoft Azure — 24 operation(s) for application.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Application API from Microsoft Azure — 24 operation(s) for application.
   name: Microsoft Azure Application API
   slug: microsoft-azure-application-api
 - description: The ApplicationData API from Microsoft Azure — 5 operation(s) for applicationdata.
   name: Microsoft Azure ApplicationData API
   slug: microsoft-azure-applicationdata-api
-- description: The ApplicationDefinitions API from Microsoft Azure — 3 operation(s) for applicationdefinitions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApplicationDefinitions API from Microsoft Azure — 3 operation(s) for applicationdefinitions.
   name: Microsoft Azure ApplicationDefinitions API
   slug: microsoft-azure-applicationdefinitions-api
-- description: The ApplicationGateways API from Microsoft Azure — 5 operation(s) for applicationgateways.
-  name: Microsoft Azure ApplicationGateways API
-  slug: microsoft-azure-applicationgateways-api
-- description: The ApplicationGroup API from Microsoft Azure — 3 operation(s) for applicationgroup.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApplicationGroup API from Microsoft Azure — 3 operation(s) for applicationgroup.
   name: Microsoft Azure ApplicationGroup API
   slug: microsoft-azure-applicationgroup-api
-- description: The ApplicationKeyCredentials API from Microsoft Azure — 1 operation(s) for applicationkeycredentials.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ApplicationKeyCredentials API from Microsoft Azure — 1 operation(s) for applicationkeycredentials.
   name: Microsoft Azure ApplicationKeyCredentials API
   slug: microsoft-azure-applicationkeycredentials-api
-- description: The ApplicationOwners API from Microsoft Azure — 3 operation(s) for applicationowners.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ApplicationOwners API from Microsoft Azure — 3 operation(s) for applicationowners.
   name: Microsoft Azure ApplicationOwners API
   slug: microsoft-azure-applicationowners-api
-- description: The ApplicationPackage API from Microsoft Azure — 3 operation(s) for applicationpackage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApplicationPackage API from Microsoft Azure — 3 operation(s) for applicationpackage.
   name: Microsoft Azure ApplicationPackage API
   slug: microsoft-azure-applicationpackage-api
-- description: The ApplicationPasswordCredentials API from Microsoft Azure — 1 operation(s) for applicationpasswordcredentials.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ApplicationPasswordCredentials API from Microsoft Azure — 1 operation(s) for applicationpasswordcredentials.
   name: Microsoft Azure ApplicationPasswordCredentials API
   slug: microsoft-azure-applicationpasswordcredentials-api
-- description: The ApplicationResources API from Microsoft Azure — 2 operation(s) for applicationresources.
-  name: Microsoft Azure ApplicationResources API
-  slug: microsoft-azure-applicationresources-api
-- description: The Applications API from Microsoft Azure — 24 operation(s) for applications.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Applications API from Microsoft Azure — 24 operation(s) for applications.
   name: Microsoft Azure Applications API
   slug: microsoft-azure-applications-api
-- description: The ApplicationType API from Microsoft Azure — 5 operation(s) for applicationtype.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The ApplicationType API from Microsoft Azure — 5 operation(s) for applicationtype.
   name: Microsoft Azure ApplicationType API
   slug: microsoft-azure-applicationtype-api
-- description: The ApplyUpdate API from Microsoft Azure — 2 operation(s) for applyupdate.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApplyUpdate API from Microsoft Azure — 2 operation(s) for applyupdate.
   name: Microsoft Azure ApplyUpdate API
   slug: microsoft-azure-applyupdate-api
-- description: The ApplyUpdates API from Microsoft Azure — 4 operation(s) for applyupdates.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ApplyUpdates API from Microsoft Azure — 4 operation(s) for applyupdates.
   name: Microsoft Azure ApplyUpdates API
   slug: microsoft-azure-applyupdates-api
-- description: The AppPlatform API from Microsoft Azure — 109 operation(s) for appplatform.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AppPlatform API from Microsoft Azure — 109 operation(s) for appplatform.
   name: Microsoft Azure AppPlatform API
   slug: microsoft-azure-appplatform-api
-- description: The Apps API from Microsoft Azure — 93 operation(s) for apps.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Apps API from Microsoft Azure — 93 operation(s) for apps.
   name: Microsoft Azure Apps API
   slug: microsoft-azure-apps-api
-- description: The AppServiceCertificateOrders API from Microsoft Azure — 14 operation(s) for appservicecertificateorders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AppServiceCertificateOrders API from Microsoft Azure — 14 operation(s) for appservicecertificateorders.
   name: Microsoft Azure AppServiceCertificateOrders API
   slug: microsoft-azure-appservicecertificateorders-api
-- description: The AppServiceEnvironments API from Microsoft Azure — 36 operation(s) for appserviceenvironments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AppServiceEnvironments API from Microsoft Azure — 36 operation(s) for appserviceenvironments.
   name: Microsoft Azure AppServiceEnvironments API
   slug: microsoft-azure-appserviceenvironments-api
-- description: The AppServicePlans API from Microsoft Azure — 19 operation(s) for appserviceplans.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AppServicePlans API from Microsoft Azure — 19 operation(s) for appserviceplans.
   name: Microsoft Azure AppServicePlans API
   slug: microsoft-azure-appserviceplans-api
-- description: The ArmTemplates API from Microsoft Azure — 2 operation(s) for armtemplates.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ArmTemplates API from Microsoft Azure — 2 operation(s) for armtemplates.
   name: Microsoft Azure ArmTemplates API
   slug: microsoft-azure-armtemplates-api
-- description: The Artifact API from Microsoft Azure — 18 operation(s) for artifact.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Artifact API from Microsoft Azure — 18 operation(s) for artifact.
   name: Microsoft Azure Artifact API
   slug: microsoft-azure-artifact-api
-- description: The Artifacts API from Microsoft Azure — 4 operation(s) for artifacts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Artifacts API from Microsoft Azure — 4 operation(s) for artifacts.
   name: Microsoft Azure Artifacts API
   slug: microsoft-azure-artifacts-api
-- description: The ArtifactSources API from Microsoft Azure — 2 operation(s) for artifactsources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ArtifactSources API from Microsoft Azure — 2 operation(s) for artifactsources.
   name: Microsoft Azure ArtifactSources API
   slug: microsoft-azure-artifactsources-api
-- description: The AscOperations API from Microsoft Azure — 1 operation(s) for ascoperations.
+- baseURL: https://management.azure.com/
+  baseurl_source: spec
+  description: The AscOperations API from Microsoft Azure — 1 operation(s) for ascoperations.
   name: Microsoft Azure AscOperations API
   slug: microsoft-azure-ascoperations-api
-- description: The AscUsages API from Microsoft Azure — 1 operation(s) for ascusages.
+- baseURL: https://management.azure.com/
+  baseurl_source: spec
+  description: The AscUsages API from Microsoft Azure — 1 operation(s) for ascusages.
   name: Microsoft Azure AscUsages API
   slug: microsoft-azure-ascusages-api
-- description: The AssessedMachinesOperations API from Microsoft Azure — 2 operation(s) for assessedmachinesoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessedMachinesOperations API from Microsoft Azure — 2 operation(s) for assessedmachinesoperations.
   name: Microsoft Azure AssessedMachinesOperations API
   slug: microsoft-azure-assessedmachinesoperations-api
-- description: The AssessedSqlDatabaseV2Operations API from Microsoft Azure — 2 operation(s) for assessedsqldatabasev2operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessedSqlDatabaseV2Operations API from Microsoft Azure — 2 operation(s) for assessedsqldatabasev2operations.
   name: Microsoft Azure AssessedSqlDatabaseV2Operations API
   slug: microsoft-azure-assessedsqldatabasev2operations-api
-- description: The AssessedSqlInstanceV2Operations API from Microsoft Azure — 2 operation(s) for assessedsqlinstancev2operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessedSqlInstanceV2Operations API from Microsoft Azure — 2 operation(s) for assessedsqlinstancev2operations.
   name: Microsoft Azure AssessedSqlInstanceV2Operations API
   slug: microsoft-azure-assessedsqlinstancev2operations-api
-- description: The AssessedSqlMachinesOperations API from Microsoft Azure — 2 operation(s) for assessedsqlmachinesoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessedSqlMachinesOperations API from Microsoft Azure — 2 operation(s) for assessedsqlmachinesoperations.
   name: Microsoft Azure AssessedSqlMachinesOperations API
   slug: microsoft-azure-assessedsqlmachinesoperations-api
-- description: The AssessedSqlRecommendedEntityOperations API from Microsoft Azure — 2 operation(s) for assessedsqlrecommendedentityoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessedSqlRecommendedEntityOperations API from Microsoft Azure — 2 operation(s) for assessedsqlrecommendedentityoperations.
   name: Microsoft Azure AssessedSqlRecommendedEntityOperations API
   slug: microsoft-azure-assessedsqlrecommendedentityoperations-api
-- description: The AssessedWebApplicationOperations API from Microsoft Azure — 2 operation(s) for assessedwebapplicationoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessedWebApplicationOperations API from Microsoft Azure — 2 operation(s) for assessedwebapplicationoperations.
   name: Microsoft Azure AssessedWebApplicationOperations API
   slug: microsoft-azure-assessedwebapplicationoperations-api
-- description: The AssessedWebAppV2Operations API from Microsoft Azure — 2 operation(s) for assessedwebappv2operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessedWebAppV2Operations API from Microsoft Azure — 2 operation(s) for assessedwebappv2operations.
   name: Microsoft Azure AssessedWebAppV2Operations API
   slug: microsoft-azure-assessedwebappv2operations-api
-- description: The AssessmentOptionsOperations API from Microsoft Azure — 2 operation(s) for assessmentoptionsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessmentOptionsOperations API from Microsoft Azure — 2 operation(s) for assessmentoptionsoperations.
   name: Microsoft Azure AssessmentOptionsOperations API
   slug: microsoft-azure-assessmentoptionsoperations-api
-- description: The AssessmentProjectsOperations API from Microsoft Azure — 3 operation(s) for assessmentprojectsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessmentProjectsOperations API from Microsoft Azure — 3 operation(s) for assessmentprojectsoperations.
   name: Microsoft Azure AssessmentProjectsOperations API
   slug: microsoft-azure-assessmentprojectsoperations-api
-- description: The AssessmentProjectSummaryOperations API from Microsoft Azure — 2 operation(s) for assessmentprojectsummaryoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessmentProjectSummaryOperations API from Microsoft Azure — 2 operation(s) for assessmentprojectsummaryoperations.
   name: Microsoft Azure AssessmentProjectSummaryOperations API
   slug: microsoft-azure-assessmentprojectsummaryoperations-api
-- description: The AssessmentsOperations API from Microsoft Azure — 3 operation(s) for assessmentsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssessmentsOperations API from Microsoft Azure — 3 operation(s) for assessmentsoperations.
   name: Microsoft Azure AssessmentsOperations API
   slug: microsoft-azure-assessmentsoperations-api
 - description: The Asset API from Microsoft Azure — 2 operation(s) for asset.
   name: Microsoft Azure Asset API
   slug: microsoft-azure-asset-api
-- description: The AssetEndpointProfiles API from Microsoft Azure — 3 operation(s) for assetendpointprofiles.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssetEndpointProfiles API from Microsoft Azure — 3 operation(s) for assetendpointprofiles.
   name: Microsoft Azure AssetEndpointProfiles API
   slug: microsoft-azure-assetendpointprofiles-api
-- description: Provides access to inventory assets.
+- baseURL: /
+  baseurl_source: spec
+  description: Provides access to inventory assets.
   name: Microsoft Azure Assets API
   slug: microsoft-azure-assets-api
 - baseURL_template: https://{endpoint}/openai
@@ -406,18 +519,21 @@ apis:
   description: The Assistant API from Microsoft Azure — 1 operation(s) for assistant.
   name: Microsoft Azure Assistant API
   slug: microsoft-azure-assistant-api
-- description: The Assistants API from Microsoft Azure — 20 operation(s) for assistants.
+- baseURL_template: https://{endpoint}/openai
+  baseurl_source: spec_template
+  description: The Assistants API from Microsoft Azure — 20 operation(s) for assistants.
   name: Microsoft Azure Assistants API
   slug: microsoft-azure-assistants-api
-- description: The Associations API from Microsoft Azure — 2 operation(s) for associations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Associations API from Microsoft Azure — 2 operation(s) for associations.
   name: Microsoft Azure Associations API
   slug: microsoft-azure-associations-api
-- description: The AssociationsInterface API from Microsoft Azure — 2 operation(s) for associationsinterface.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AssociationsInterface API from Microsoft Azure — 2 operation(s) for associationsinterface.
   name: Microsoft Azure AssociationsInterface API
   slug: microsoft-azure-associationsinterface-api
-- description: The asyncOperations API from Microsoft Azure — 1 operation(s) for asyncoperations.
-  name: Microsoft Azure asyncOperations API
-  slug: microsoft-azure-asyncoperations-api
 - description: The Atlas API from Microsoft Azure — 58 operation(s) for atlas.
   name: Microsoft Azure Atlas API
   slug: microsoft-azure-atlas-api
@@ -427,10 +543,14 @@ apis:
 - description: The Attestation API from Microsoft Azure — 4 operation(s) for attestation.
   name: Microsoft Azure Attestation API
   slug: microsoft-azure-attestation-api
-- description: The AttestationProviders API from Microsoft Azure — 5 operation(s) for attestationproviders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AttestationProviders API from Microsoft Azure — 5 operation(s) for attestationproviders.
   name: Microsoft Azure AttestationProviders API
   slug: microsoft-azure-attestationproviders-api
-- description: The Attested API from Microsoft Azure — 1 operation(s) for attested.
+- baseURL: http://169.254.169.254/metadata
+  baseurl_source: spec
+  description: The Attested API from Microsoft Azure — 1 operation(s) for attested.
   name: Microsoft Azure Attested API
   slug: microsoft-azure-attested-api
 - baseURL_template: https://{endpoint}/openai
@@ -438,175 +558,258 @@ apis:
   description: Operations for audio transcription and translation
   name: Microsoft Azure Audio API
   slug: microsoft-azure-audio-api
-- description: The Audit API from Microsoft Azure — 1 operation(s) for audit.
+- baseURL: /datamap/api
+  baseurl_source: spec
+  description: The Audit API from Microsoft Azure — 1 operation(s) for audit.
   name: Microsoft Azure Audit API
   slug: microsoft-azure-audit-api
 - description: The Authoring API from Microsoft Azure — 96 operation(s) for authoring.
   name: Microsoft Azure Authoring API
   slug: microsoft-azure-authoring-api
-- description: The AuthorizationPolicies API from Microsoft Azure — 4 operation(s) for authorizationpolicies.
-  name: Microsoft Azure AuthorizationPolicies API
-  slug: microsoft-azure-authorizationpolicies-api
-- description: The Authorizations API from Microsoft Azure — 2 operation(s) for authorizations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Authorizations API from Microsoft Azure — 2 operation(s) for authorizations.
   name: Microsoft Azure Authorizations API
   slug: microsoft-azure-authorizations-api
-- description: The AutoQuotaIncrease API from Microsoft Azure — 1 operation(s) for autoquotaincrease.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AutoQuotaIncrease API from Microsoft Azure — 1 operation(s) for autoquotaincrease.
   name: Microsoft Azure AutoQuotaIncrease API
   slug: microsoft-azure-autoquotaincrease-api
-- description: The AutoSuggest API from Microsoft Azure — 1 operation(s) for autosuggest.
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The AutoSuggest API from Microsoft Azure — 1 operation(s) for autosuggest.
   name: Microsoft Azure AutoSuggest API
   slug: microsoft-azure-autosuggest-api
-- description: The AvailabilityGroupListeners API from Microsoft Azure — 2 operation(s) for availabilitygrouplisteners.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AvailabilityGroupListeners API from Microsoft Azure — 2 operation(s) for availabilitygrouplisteners.
   name: Microsoft Azure AvailabilityGroupListeners API
   slug: microsoft-azure-availabilitygrouplisteners-api
-- description: The AvailabilitySets API from Microsoft Azure — 3 operation(s) for availabilitysets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AvailabilitySets API from Microsoft Azure — 3 operation(s) for availabilitysets.
   name: Microsoft Azure AvailabilitySets API
   slug: microsoft-azure-availabilitysets-api
-- description: The AvailabilityStatuses API from Microsoft Azure — 4 operation(s) for availabilitystatuses.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AvailabilityStatuses API from Microsoft Azure — 4 operation(s) for availabilitystatuses.
   name: Microsoft Azure AvailabilityStatuses API
   slug: microsoft-azure-availabilitystatuses-api
-- description: operations related to availability and usage
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: operations related to availability and usage
   name: Microsoft Azure AvailabilityUsages API
   slug: microsoft-azure-availabilityusages-api
-- description: The AvailableProviderOperations API from Microsoft Azure — 1 operation(s) for availableprovideroperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AvailableProviderOperations API from Microsoft Azure — 1 operation(s) for availableprovideroperations.
   name: Microsoft Azure AvailableProviderOperations API
   slug: microsoft-azure-availableprovideroperations-api
-- description: The AvailableSkus API from Microsoft Azure — 1 operation(s) for availableskus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AvailableSkus API from Microsoft Azure — 1 operation(s) for availableskus.
   name: Microsoft Azure AvailableSkus API
   slug: microsoft-azure-availableskus-api
-- description: The AvsAssessedMachinesOperations API from Microsoft Azure — 2 operation(s) for avsassessedmachinesoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AvsAssessedMachinesOperations API from Microsoft Azure — 2 operation(s) for avsassessedmachinesoperations.
   name: Microsoft Azure AvsAssessedMachinesOperations API
   slug: microsoft-azure-avsassessedmachinesoperations-api
-- description: The AvsAssessmentOptionsOperations API from Microsoft Azure — 2 operation(s) for avsassessmentoptionsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AvsAssessmentOptionsOperations API from Microsoft Azure — 2 operation(s) for avsassessmentoptionsoperations.
   name: Microsoft Azure AvsAssessmentOptionsOperations API
   slug: microsoft-azure-avsassessmentoptionsoperations-api
-- description: The AvsAssessmentsOperations API from Microsoft Azure — 3 operation(s) for avsassessmentsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AvsAssessmentsOperations API from Microsoft Azure — 3 operation(s) for avsassessmentsoperations.
   name: Microsoft Azure AvsAssessmentsOperations API
   slug: microsoft-azure-avsassessmentsoperations-api
 - description: The Azureaccounts API from Microsoft Azure — 1 operation(s) for azureaccounts.
   name: Microsoft Azure Azureaccounts API
   slug: microsoft-azure-azureaccounts-api
-- description: The AzureBackupJob API from Microsoft Azure — 5 operation(s) for azurebackupjob.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AzureBackupJob API from Microsoft Azure — 5 operation(s) for azurebackupjob.
   name: Microsoft Azure AzureBackupJob API
   slug: microsoft-azure-azurebackupjob-api
-- description: The AzureBackupJobs API from Microsoft Azure — 1 operation(s) for azurebackupjobs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AzureBackupJobs API from Microsoft Azure — 1 operation(s) for azurebackupjobs.
   name: Microsoft Azure AzureBackupJobs API
   slug: microsoft-azure-azurebackupjobs-api
-- description: The AzureBareMetal API from Microsoft Azure — 1 operation(s) for azurebaremetal.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AzureBareMetal API from Microsoft Azure — 1 operation(s) for azurebaremetal.
   name: Microsoft Azure AzureBareMetal API
   slug: microsoft-azure-azurebaremetal-api
-- description: The AzureDataCatalog API from Microsoft Azure — 3 operation(s) for azuredatacatalog.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AzureDataCatalog API from Microsoft Azure — 3 operation(s) for azuredatacatalog.
   name: Microsoft Azure AzureDataCatalog API
   slug: microsoft-azure-azuredatacatalog-api
-- description: The AzureKeyVaults API from Microsoft Azure — 2 operation(s) for azurekeyvaults.
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The AzureKeyVaults API from Microsoft Azure — 2 operation(s) for azurekeyvaults.
   name: Microsoft Azure AzureKeyVaults API
   slug: microsoft-azure-azurekeyvaults-api
-- description: The AzureLargeInstances API from Microsoft Azure — 6 operation(s) for azurelargeinstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AzureLargeInstances API from Microsoft Azure — 6 operation(s) for azurelargeinstances.
   name: Microsoft Azure AzureLargeInstances API
   slug: microsoft-azure-azurelargeinstances-api
-- description: The AzureLargeStorageInstances API from Microsoft Azure — 3 operation(s) for azurelargestorageinstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AzureLargeStorageInstances API from Microsoft Azure — 3 operation(s) for azurelargestorageinstances.
   name: Microsoft Azure AzureLargeStorageInstances API
   slug: microsoft-azure-azurelargestorageinstances-api
-- description: The AzureTrafficCollectors API from Microsoft Azure — 3 operation(s) for azuretrafficcollectors.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The AzureTrafficCollectors API from Microsoft Azure — 3 operation(s) for azuretrafficcollectors.
   name: Microsoft Azure AzureTrafficCollectors API
   slug: microsoft-azure-azuretrafficcollectors-api
-- description: The B2CTenants API from Microsoft Azure — 4 operation(s) for b2ctenants.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The B2CTenants API from Microsoft Azure — 4 operation(s) for b2ctenants.
   name: Microsoft Azure B2CTenants API
   slug: microsoft-azure-b2ctenants-api
-- description: The Backup Policy API from Microsoft Azure — 2 operation(s) for backup policy.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Backup Policy API from Microsoft Azure — 2 operation(s) for backup policy.
   name: Microsoft Azure Backup Policy API
   slug: microsoft-azure-backup-policy-api
-- description: The Backup Restore API from Microsoft Azure — 6 operation(s) for backup restore.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Backup Restore API from Microsoft Azure — 6 operation(s) for backup restore.
   name: Microsoft Azure Backup Restore API
   slug: microsoft-azure-backup-restore-api
-- description: The Backup Vaults API from Microsoft Azure — 2 operation(s) for backup vaults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Backup Vaults API from Microsoft Azure — 2 operation(s) for backup vaults.
   name: Microsoft Azure Backup Vaults API
   slug: microsoft-azure-backup-vaults-api
-- description: The BackupEngines API from Microsoft Azure — 2 operation(s) for backupengines.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupEngines API from Microsoft Azure — 2 operation(s) for backupengines.
   name: Microsoft Azure BackupEngines API
   slug: microsoft-azure-backupengines-api
-- description: The BackupInstances API from Microsoft Azure — 16 operation(s) for backupinstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupInstances API from Microsoft Azure — 16 operation(s) for backupinstances.
   name: Microsoft Azure BackupInstances API
   slug: microsoft-azure-backupinstances-api
-- description: The BackupInstancesExtensionRouting API from Microsoft Azure — 1 operation(s) for backupinstancesextensionrouting.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupInstancesExtensionRouting API from Microsoft Azure — 1 operation(s) for backupinstancesextensionrouting.
   name: Microsoft Azure BackupInstancesExtensionRouting API
   slug: microsoft-azure-backupinstancesextensionrouting-api
-- description: The BackupJobs API from Microsoft Azure — 1 operation(s) for backupjobs.
-  name: Microsoft Azure BackupJobs API
-  slug: microsoft-azure-backupjobs-api
-- description: The BackupOperationResults API from Microsoft Azure — 1 operation(s) for backupoperationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupOperationResults API from Microsoft Azure — 1 operation(s) for backupoperationresults.
   name: Microsoft Azure BackupOperationResults API
   slug: microsoft-azure-backupoperationresults-api
-- description: The BackupOperationStatuses API from Microsoft Azure — 1 operation(s) for backupoperationstatuses.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupOperationStatuses API from Microsoft Azure — 1 operation(s) for backupoperationstatuses.
   name: Microsoft Azure BackupOperationStatuses API
   slug: microsoft-azure-backupoperationstatuses-api
-- description: The BackupPolicies API from Microsoft Azure — 6 operation(s) for backuppolicies.
-  name: Microsoft Azure BackupPolicies API
-  slug: microsoft-azure-backuppolicies-api
-- description: The BackupProtectableItems API from Microsoft Azure — 1 operation(s) for backupprotectableitems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupProtectableItems API from Microsoft Azure — 1 operation(s) for backupprotectableitems.
   name: Microsoft Azure BackupProtectableItems API
   slug: microsoft-azure-backupprotectableitems-api
-- description: The BackupProtectedItems API from Microsoft Azure — 1 operation(s) for backupprotecteditems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupProtectedItems API from Microsoft Azure — 1 operation(s) for backupprotecteditems.
   name: Microsoft Azure BackupProtectedItems API
   slug: microsoft-azure-backupprotecteditems-api
-- description: The BackupProtectionContainers API from Microsoft Azure — 1 operation(s) for backupprotectioncontainers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupProtectionContainers API from Microsoft Azure — 1 operation(s) for backupprotectioncontainers.
   name: Microsoft Azure BackupProtectionContainers API
   slug: microsoft-azure-backupprotectioncontainers-api
-- description: The BackupProtectionIntent API from Microsoft Azure — 1 operation(s) for backupprotectionintent.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupProtectionIntent API from Microsoft Azure — 1 operation(s) for backupprotectionintent.
   name: Microsoft Azure BackupProtectionIntent API
   slug: microsoft-azure-backupprotectionintent-api
-- description: The BackupResourceEncryptionConfigs API from Microsoft Azure — 1 operation(s) for backupresourceencryptionconfigs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupResourceEncryptionConfigs API from Microsoft Azure — 1 operation(s) for backupresourceencryptionconfigs.
   name: Microsoft Azure BackupResourceEncryptionConfigs API
   slug: microsoft-azure-backupresourceencryptionconfigs-api
-- description: The BackupResourceStorageConfigsNonCRR API from Microsoft Azure — 1 operation(s) for backupresourcestorageconfigsnoncrr.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupResourceStorageConfigsNonCRR API from Microsoft Azure — 1 operation(s) for backupresourcestorageconfigsnoncrr.
   name: Microsoft Azure BackupResourceStorageConfigsNonCRR API
   slug: microsoft-azure-backupresourcestorageconfigsnoncrr-api
-- description: The BackupResourceVaultConfigs API from Microsoft Azure — 1 operation(s) for backupresourcevaultconfigs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupResourceVaultConfigs API from Microsoft Azure — 1 operation(s) for backupresourcevaultconfigs.
   name: Microsoft Azure BackupResourceVaultConfigs API
   slug: microsoft-azure-backupresourcevaultconfigs-api
-- description: The BackupRestore API from Microsoft Azure — 29 operation(s) for backuprestore.
-  name: Microsoft Azure BackupRestore API
-  slug: microsoft-azure-backuprestore-api
-- description: The Backups API from Microsoft Azure — 16 operation(s) for backups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Backups API from Microsoft Azure — 16 operation(s) for backups.
   name: Microsoft Azure Backups API
   slug: microsoft-azure-backups-api
-- description: The BackupScheduleGroups API from Microsoft Azure — 2 operation(s) for backupschedulegroups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupScheduleGroups API from Microsoft Azure — 2 operation(s) for backupschedulegroups.
   name: Microsoft Azure BackupScheduleGroups API
   slug: microsoft-azure-backupschedulegroups-api
-- description: The BackupSchedules API from Microsoft Azure — 2 operation(s) for backupschedules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupSchedules API from Microsoft Azure — 2 operation(s) for backupschedules.
   name: Microsoft Azure BackupSchedules API
   slug: microsoft-azure-backupschedules-api
-- description: The BackupStatus API from Microsoft Azure — 1 operation(s) for backupstatus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupStatus API from Microsoft Azure — 1 operation(s) for backupstatus.
   name: Microsoft Azure BackupStatus API
   slug: microsoft-azure-backupstatus-api
-- description: The BackupUsageSummaries API from Microsoft Azure — 1 operation(s) for backupusagesummaries.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupUsageSummaries API from Microsoft Azure — 1 operation(s) for backupusagesummaries.
   name: Microsoft Azure BackupUsageSummaries API
   slug: microsoft-azure-backupusagesummaries-api
-- description: The BackupVaults API from Microsoft Azure — 4 operation(s) for backupvaults.
-  name: Microsoft Azure BackupVaults API
-  slug: microsoft-azure-backupvaults-api
-- description: The BackupWorkloadItems API from Microsoft Azure — 1 operation(s) for backupworkloaditems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BackupWorkloadItems API from Microsoft Azure — 1 operation(s) for backupworkloaditems.
   name: Microsoft Azure BackupWorkloadItems API
   slug: microsoft-azure-backupworkloaditems-api
-- description: The Balances API from Microsoft Azure — 2 operation(s) for balances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Balances API from Microsoft Azure — 2 operation(s) for balances.
   name: Microsoft Azure Balances API
   slug: microsoft-azure-balances-api
-- description: The BandwidthSchedules API from Microsoft Azure — 2 operation(s) for bandwidthschedules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BandwidthSchedules API from Microsoft Azure — 2 operation(s) for bandwidthschedules.
   name: Microsoft Azure BandwidthSchedules API
   slug: microsoft-azure-bandwidthschedules-api
-- description: The BandwidthSettings API from Microsoft Azure — 2 operation(s) for bandwidthsettings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BandwidthSettings API from Microsoft Azure — 2 operation(s) for bandwidthsettings.
   name: Microsoft Azure BandwidthSettings API
   slug: microsoft-azure-bandwidthsettings-api
-- description: The BareMetalInfrastructure API from Microsoft Azure — 2 operation(s) for baremetalinfrastructure.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BareMetalInfrastructure API from Microsoft Azure — 2 operation(s) for baremetalinfrastructure.
   name: Microsoft Azure BareMetalInfrastructure API
   slug: microsoft-azure-baremetalinfrastructure-api
 - description: The BaseModel API from Microsoft Azure — 1 operation(s) for basemodel.
   name: Microsoft Azure BaseModel API
   slug: microsoft-azure-basemodel-api
-- description: The $Batch API from Microsoft Azure — 1 operation(s) for $batch.
+- baseURL: https://api.loganalytics.io/v1
+  baseurl_source: spec
+  description: The $Batch API from Microsoft Azure — 1 operation(s) for $batch.
   name: Microsoft Azure $Batch API
   slug: microsoft-azure-batch-api
-- description: The BatchAccount API from Microsoft Azure — 7 operation(s) for batchaccount.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BatchAccount API from Microsoft Azure — 7 operation(s) for batchaccount.
   name: Microsoft Azure BatchAccount API
   slug: microsoft-azure-batchaccount-api
 - description: The BatchNumbers API from Microsoft Azure — 3 operation(s) for batchnumbers.
@@ -615,162 +818,236 @@ apis:
 - description: The BatchSynthesis API from Microsoft Azure — 2 operation(s) for batchsynthesis.
   name: Microsoft Azure BatchSynthesis API
   slug: microsoft-azure-batchsynthesis-api
-- description: The Benefits Operations API from Microsoft Azure — 1 operation(s) for benefits operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Benefits Operations API from Microsoft Azure — 1 operation(s) for benefits operations.
   name: Microsoft Azure Benefits Operations API
   slug: microsoft-azure-benefits-operations-api
-- description: The BestPractices API from Microsoft Azure — 2 operation(s) for bestpractices.
-  name: Microsoft Azure BestPractices API
-  slug: microsoft-azure-bestpractices-api
-- description: The BestPracticesVersions API from Microsoft Azure — 2 operation(s) for bestpracticesversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BestPracticesVersions API from Microsoft Azure — 2 operation(s) for bestpracticesversions.
   name: Microsoft Azure BestPracticesVersions API
   slug: microsoft-azure-bestpracticesversions-api
-- description: The BgpPeers API from Microsoft Azure — 2 operation(s) for bgppeers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BgpPeers API from Microsoft Azure — 2 operation(s) for bgppeers.
   name: Microsoft Azure BgpPeers API
   slug: microsoft-azure-bgppeers-api
-- description: The BicepClient API from Microsoft Azure — 1 operation(s) for bicepclient.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BicepClient API from Microsoft Azure — 1 operation(s) for bicepclient.
   name: Microsoft Azure BicepClient API
   slug: microsoft-azure-bicepclient-api
-- description: The BillingPeriods API from Microsoft Azure — 2 operation(s) for billingperiods.
-  name: Microsoft Azure BillingPeriods API
-  slug: microsoft-azure-billingperiods-api
 - baseURL_template: https://{accountName}.blob.core.windows.net
   baseurl_source: spec_template
   description: Operations on blobs
   name: Microsoft Azure Blobs API
   slug: microsoft-azure-blobs-api
-- description: The BlockchainMember API from Microsoft Azure — 6 operation(s) for blockchainmember.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BlockchainMember API from Microsoft Azure — 6 operation(s) for blockchainmember.
   name: Microsoft Azure BlockchainMember API
   slug: microsoft-azure-blockchainmember-api
-- description: The BlockchainMemberOperationResult API from Microsoft Azure — 1 operation(s) for blockchainmemberoperationresult.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BlockchainMemberOperationResult API from Microsoft Azure — 1 operation(s) for blockchainmemberoperationresult.
   name: Microsoft Azure BlockchainMemberOperationResult API
   slug: microsoft-azure-blockchainmemberoperationresult-api
-- description: The Blueprint API from Microsoft Azure — 2 operation(s) for blueprint.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Blueprint API from Microsoft Azure — 2 operation(s) for blueprint.
   name: Microsoft Azure Blueprint API
   slug: microsoft-azure-blueprint-api
-- description: The BMSPrepareDataMoveOperationResult API from Microsoft Azure — 1 operation(s) for bmspreparedatamoveoperationresult.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BMSPrepareDataMoveOperationResult API from Microsoft Azure — 1 operation(s) for bmspreparedatamoveoperationresult.
   name: Microsoft Azure BMSPrepareDataMoveOperationResult API
   slug: microsoft-azure-bmspreparedatamoveoperationresult-api
-- description: The Bot API from Microsoft Azure — 4 operation(s) for bot.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Bot API from Microsoft Azure — 4 operation(s) for bot.
   name: Microsoft Azure Bot API
   slug: microsoft-azure-bot-api
-- description: The BotConnection API from Microsoft Azure — 3 operation(s) for botconnection.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BotConnection API from Microsoft Azure — 3 operation(s) for botconnection.
   name: Microsoft Azure BotConnection API
   slug: microsoft-azure-botconnection-api
-- description: The BotHostSettings API from Microsoft Azure — 1 operation(s) for bothostsettings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BotHostSettings API from Microsoft Azure — 1 operation(s) for bothostsettings.
   name: Microsoft Azure BotHostSettings API
   slug: microsoft-azure-bothostsettings-api
 - description: The Boundaries API from Microsoft Azure — 5 operation(s) for boundaries.
   name: Microsoft Azure Boundaries API
   slug: microsoft-azure-boundaries-api
-- description: The Breaksentence API from Microsoft Azure — 2 operation(s) for breaksentence.
+- baseURL: https://api.cognitive.microsofttranslator.com
+  baseurl_source: spec
+  description: The Breaksentence API from Microsoft Azure — 2 operation(s) for breaksentence.
   name: Microsoft Azure Breaksentence API
   slug: microsoft-azure-breaksentence-api
-- description: The Broker API from Microsoft Azure — 2 operation(s) for broker.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Broker API from Microsoft Azure — 2 operation(s) for broker.
   name: Microsoft Azure Broker API
   slug: microsoft-azure-broker-api
-- description: The BrokerAuthentication API from Microsoft Azure — 2 operation(s) for brokerauthentication.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BrokerAuthentication API from Microsoft Azure — 2 operation(s) for brokerauthentication.
   name: Microsoft Azure BrokerAuthentication API
   slug: microsoft-azure-brokerauthentication-api
-- description: The BrokerAuthorization API from Microsoft Azure — 2 operation(s) for brokerauthorization.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BrokerAuthorization API from Microsoft Azure — 2 operation(s) for brokerauthorization.
   name: Microsoft Azure BrokerAuthorization API
   slug: microsoft-azure-brokerauthorization-api
-- description: The BrokerListener API from Microsoft Azure — 2 operation(s) for brokerlistener.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BrokerListener API from Microsoft Azure — 2 operation(s) for brokerlistener.
   name: Microsoft Azure BrokerListener API
   slug: microsoft-azure-brokerlistener-api
-- description: The Budgets API from Microsoft Azure — 2 operation(s) for budgets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Budgets API from Microsoft Azure — 2 operation(s) for budgets.
   name: Microsoft Azure Budgets API
   slug: microsoft-azure-budgets-api
-- description: The BusinessCaseAvsSummaryOperations API from Microsoft Azure — 2 operation(s) for businesscaseavssummaryoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BusinessCaseAvsSummaryOperations API from Microsoft Azure — 2 operation(s) for businesscaseavssummaryoperations.
   name: Microsoft Azure BusinessCaseAvsSummaryOperations API
   slug: microsoft-azure-businesscaseavssummaryoperations-api
-- description: The BusinessCaseIaasSummaryOperations API from Microsoft Azure — 2 operation(s) for businesscaseiaassummaryoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BusinessCaseIaasSummaryOperations API from Microsoft Azure — 2 operation(s) for businesscaseiaassummaryoperations.
   name: Microsoft Azure BusinessCaseIaasSummaryOperations API
   slug: microsoft-azure-businesscaseiaassummaryoperations-api
-- description: The BusinessCaseOperations API from Microsoft Azure — 4 operation(s) for businesscaseoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BusinessCaseOperations API from Microsoft Azure — 4 operation(s) for businesscaseoperations.
   name: Microsoft Azure BusinessCaseOperations API
   slug: microsoft-azure-businesscaseoperations-api
-- description: The BusinessCaseOverviewSummaryOperations API from Microsoft Azure — 2 operation(s) for businesscaseoverviewsummaryoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BusinessCaseOverviewSummaryOperations API from Microsoft Azure — 2 operation(s) for businesscaseoverviewsummaryoperations.
   name: Microsoft Azure BusinessCaseOverviewSummaryOperations API
   slug: microsoft-azure-businesscaseoverviewsummaryoperations-api
-- description: The BusinessCasePaasSummaryOperations API from Microsoft Azure — 2 operation(s) for businesscasepaassummaryoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BusinessCasePaasSummaryOperations API from Microsoft Azure — 2 operation(s) for businesscasepaassummaryoperations.
   name: Microsoft Azure BusinessCasePaasSummaryOperations API
   slug: microsoft-azure-businesscasepaassummaryoperations-api
-- description: The BusinessProcesses API from Microsoft Azure — 2 operation(s) for businessprocesses.
-  name: Microsoft Azure BusinessProcesses API
-  slug: microsoft-azure-businessprocesses-api
-- description: The BusinessProcessVersions API from Microsoft Azure — 2 operation(s) for businessprocessversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The BusinessProcessVersions API from Microsoft Azure — 2 operation(s) for businessprocessversions.
   name: Microsoft Azure BusinessProcessVersions API
   slug: microsoft-azure-businessprocessversions-api
-- description: The Caches API from Microsoft Azure — 13 operation(s) for caches.
+- baseURL: https://management.azure.com/
+  baseurl_source: spec
+  description: The Caches API from Microsoft Azure — 13 operation(s) for caches.
   name: Microsoft Azure Caches API
   slug: microsoft-azure-caches-api
 - description: The CallConnection API from Microsoft Azure — 6 operation(s) for callconnection.
   name: Microsoft Azure CallConnection API
   slug: microsoft-azure-callconnection-api
-- description: The Capabilities API from Microsoft Azure — 1 operation(s) for capabilities.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Capabilities API from Microsoft Azure — 1 operation(s) for capabilities.
   name: Microsoft Azure Capabilities API
   slug: microsoft-azure-capabilities-api
-- description: The Capacities API from Microsoft Azure — 7 operation(s) for capacities.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Capacities API from Microsoft Azure — 7 operation(s) for capacities.
   name: Microsoft Azure Capacities API
   slug: microsoft-azure-capacities-api
-- description: The Capacity Pools API from Microsoft Azure — 2 operation(s) for capacity pools.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Capacity Pools API from Microsoft Azure — 2 operation(s) for capacity pools.
   name: Microsoft Azure Capacity Pools API
   slug: microsoft-azure-capacity-pools-api
 - description: Operations for listing the registry catalog
   name: Microsoft Azure Catalog API
   slug: microsoft-azure-catalog-api
-- description: The Catalogs API from Microsoft Azure — 10 operation(s) for catalogs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Catalogs API from Microsoft Azure — 10 operation(s) for catalogs.
   name: Microsoft Azure Catalogs API
   slug: microsoft-azure-catalogs-api
-- description: The Certificate API from Microsoft Azure — 3 operation(s) for certificate.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Certificate API from Microsoft Azure — 3 operation(s) for certificate.
   name: Microsoft Azure Certificate API
   slug: microsoft-azure-certificate-api
-- description: The CertificateObjectGlobalRulestack API from Microsoft Azure — 2 operation(s) for certificateobjectglobalrulestack.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CertificateObjectGlobalRulestack API from Microsoft Azure — 2 operation(s) for certificateobjectglobalrulestack.
   name: Microsoft Azure CertificateObjectGlobalRulestack API
   slug: microsoft-azure-certificateobjectglobalrulestack-api
-- description: The CertificateObjectLocalRulestack API from Microsoft Azure — 2 operation(s) for certificateobjectlocalrulestack.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CertificateObjectLocalRulestack API from Microsoft Azure — 2 operation(s) for certificateobjectlocalrulestack.
   name: Microsoft Azure CertificateObjectLocalRulestack API
   slug: microsoft-azure-certificateobjectlocalrulestack-api
-- description: The CertificateOrders API from Microsoft Azure — 10 operation(s) for certificateorders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CertificateOrders API from Microsoft Azure — 10 operation(s) for certificateorders.
   name: Microsoft Azure CertificateOrders API
   slug: microsoft-azure-certificateorders-api
-- description: The CertificateOrdersDiagnostics API from Microsoft Azure — 2 operation(s) for certificateordersdiagnostics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CertificateOrdersDiagnostics API from Microsoft Azure — 2 operation(s) for certificateordersdiagnostics.
   name: Microsoft Azure CertificateOrdersDiagnostics API
   slug: microsoft-azure-certificateordersdiagnostics-api
-- description: The CertificateProfiles API from Microsoft Azure — 3 operation(s) for certificateprofiles.
-  name: Microsoft Azure CertificateProfiles API
-  slug: microsoft-azure-certificateprofiles-api
-- description: The CertificateRegistrationProvider API from Microsoft Azure — 1 operation(s) for certificateregistrationprovider.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CertificateRegistrationProvider API from Microsoft Azure — 1 operation(s) for certificateregistrationprovider.
   name: Microsoft Azure CertificateRegistrationProvider API
   slug: microsoft-azure-certificateregistrationprovider-api
-- description: The Certificates API from Microsoft Azure — 17 operation(s) for certificates.
+- baseURL_template: https://{vaultName}.vault.azure.net
+  baseurl_source: spec_template
+  description: The Certificates API from Microsoft Azure — 17 operation(s) for certificates.
   name: Microsoft Azure Certificates API
   slug: microsoft-azure-certificates-api
 - description: The certificates(thumbprintAlgorithm={thumbprintAlgorithm},thumbprint={thumbprint}) API from Microsoft Azure — 2 operation(s) for certificates(thumbprintalgorithm={thumbprintalgorithm},thumbprint={thu
   name: Microsoft Azure certificates(thumbprintAlgorithm={thumbprintAlgorithm},thumbprint={thumbprint}) API
   slug: microsoft-azure-certificates-thumbprintalgorithm-thumbprintalgorithm-thumbprint-thumbprint-api
-- description: The Change Detection API from Microsoft Azure — 1 operation(s) for change detection.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Change Detection API from Microsoft Azure — 1 operation(s) for change detection.
   name: Microsoft Azure Change Detection API
   slug: microsoft-azure-change-detection-api
-- description: The Changes API from Microsoft Azure — 2 operation(s) for changes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Changes API from Microsoft Azure — 2 operation(s) for changes.
   name: Microsoft Azure Changes API
   slug: microsoft-azure-changes-api
-- description: The ChangeSnapshots API from Microsoft Azure — 1 operation(s) for changesnapshots.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ChangeSnapshots API from Microsoft Azure — 1 operation(s) for changesnapshots.
   name: Microsoft Azure ChangeSnapshots API
   slug: microsoft-azure-changesnapshots-api
-- description: The Channel API from Microsoft Azure — 5 operation(s) for channel.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Channel API from Microsoft Azure — 5 operation(s) for channel.
   name: Microsoft Azure Channel API
   slug: microsoft-azure-channel-api
-- description: The Channels API from Microsoft Azure — 5 operation(s) for channels.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Channels API from Microsoft Azure — 5 operation(s) for channels.
   name: Microsoft Azure Channels API
   slug: microsoft-azure-channels-api
-- description: The Chaos API from Microsoft Azure — 5 operation(s) for chaos.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Chaos API from Microsoft Azure — 5 operation(s) for chaos.
   name: Microsoft Azure Chaos API
   slug: microsoft-azure-chaos-api
-- description: The ChapSettings API from Microsoft Azure — 2 operation(s) for chapsettings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ChapSettings API from Microsoft Azure — 2 operation(s) for chapsettings.
   name: Microsoft Azure ChapSettings API
   slug: microsoft-azure-chapsettings-api
-- description: The Charges API from Microsoft Azure — 1 operation(s) for charges.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Charges API from Microsoft Azure — 1 operation(s) for charges.
   name: Microsoft Azure Charges API
   slug: microsoft-azure-charges-api
 - baseURL_template: https://{endpoint}/openai
@@ -778,142 +1055,212 @@ apis:
   description: Operations for chat-based completions
   name: Microsoft Azure Chat Completions API
   slug: microsoft-azure-chat-completions-api
-- description: The ChatTranscripts API from Microsoft Azure — 4 operation(s) for chattranscripts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ChatTranscripts API from Microsoft Azure — 4 operation(s) for chattranscripts.
   name: Microsoft Azure ChatTranscripts API
   slug: microsoft-azure-chattranscripts-api
-- description: The CheckDeviceServiceNameAvailability API from Microsoft Azure — 1 operation(s) for checkdeviceservicenameavailability.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CheckDeviceServiceNameAvailability API from Microsoft Azure — 1 operation(s) for checkdeviceservicenameavailability.
   name: Microsoft Azure CheckDeviceServiceNameAvailability API
   slug: microsoft-azure-checkdeviceservicenameavailability-api
-- description: The CheckFrontDoorNameAvailability API from Microsoft Azure — 1 operation(s) for checkfrontdoornameavailability.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CheckFrontDoorNameAvailability API from Microsoft Azure — 1 operation(s) for checkfrontdoornameavailability.
   name: Microsoft Azure CheckFrontDoorNameAvailability API
   slug: microsoft-azure-checkfrontdoornameavailability-api
-- description: The CheckFrontDoorNameAvailabilityWithSubscription API from Microsoft Azure — 1 operation(s) for checkfrontdoornameavailabilitywithsubscription.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CheckFrontDoorNameAvailabilityWithSubscription API from Microsoft Azure — 1 operation(s) for checkfrontdoornameavailabilitywithsubscription.
   name: Microsoft Azure CheckFrontDoorNameAvailabilityWithSubscription API
   slug: microsoft-azure-checkfrontdoornameavailabilitywithsubscription-api
-- description: The CheckNameAvailability API from Microsoft Azure — 8 operation(s) for checknameavailability.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CheckNameAvailability API from Microsoft Azure — 8 operation(s) for checknameavailability.
   name: Microsoft Azure CheckNameAvailability API
   slug: microsoft-azure-checknameavailability-api
-- description: The CheckNameAvailabilityWithSubscription API from Microsoft Azure — 1 operation(s) for checknameavailabilitywithsubscription.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CheckNameAvailabilityWithSubscription API from Microsoft Azure — 1 operation(s) for checknameavailabilitywithsubscription.
   name: Microsoft Azure CheckNameAvailabilityWithSubscription API
   slug: microsoft-azure-checknameavailabilitywithsubscription-api
-- description: The CheckResourceUsage API from Microsoft Azure — 1 operation(s) for checkresourceusage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CheckResourceUsage API from Microsoft Azure — 1 operation(s) for checkresourceusage.
   name: Microsoft Azure CheckResourceUsage API
   slug: microsoft-azure-checkresourceusage-api
-- description: The CheckServiceProviderAvailability API from Microsoft Azure — 1 operation(s) for checkserviceprovideravailability.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CheckServiceProviderAvailability API from Microsoft Azure — 1 operation(s) for checkserviceprovideravailability.
   name: Microsoft Azure CheckServiceProviderAvailability API
   slug: microsoft-azure-checkserviceprovideravailability-api
-- description: The CheckVirtualNetworkSubnetUsage API from Microsoft Azure — 1 operation(s) for checkvirtualnetworksubnetusage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CheckVirtualNetworkSubnetUsage API from Microsoft Azure — 1 operation(s) for checkvirtualnetworksubnetusage.
   name: Microsoft Azure CheckVirtualNetworkSubnetUsage API
   slug: microsoft-azure-checkvirtualnetworksubnetusage-api
 - description: The ChemicalProducts API from Microsoft Azure — 2 operation(s) for chemicalproducts.
   name: Microsoft Azure ChemicalProducts API
   slug: microsoft-azure-chemicalproducts-api
-- description: The ChildAvailabilityStatuses API from Microsoft Azure — 2 operation(s) for childavailabilitystatuses.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ChildAvailabilityStatuses API from Microsoft Azure — 2 operation(s) for childavailabilitystatuses.
   name: Microsoft Azure ChildAvailabilityStatuses API
   slug: microsoft-azure-childavailabilitystatuses-api
-- description: The ChildResources API from Microsoft Azure — 1 operation(s) for childresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ChildResources API from Microsoft Azure — 1 operation(s) for childresources.
   name: Microsoft Azure ChildResources API
   slug: microsoft-azure-childresources-api
-- description: The CIAMTenants API from Microsoft Azure — 4 operation(s) for ciamtenants.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CIAMTenants API from Microsoft Azure — 4 operation(s) for ciamtenants.
   name: Microsoft Azure CIAMTenants API
   slug: microsoft-azure-ciamtenants-api
-- description: The ClassicMobileServices API from Microsoft Azure — 2 operation(s) for classicmobileservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ClassicMobileServices API from Microsoft Azure — 2 operation(s) for classicmobileservices.
   name: Microsoft Azure ClassicMobileServices API
   slug: microsoft-azure-classicmobileservices-api
-- description: The ClassificationRules API from Microsoft Azure — 4 operation(s) for classificationrules.
-  name: Microsoft Azure ClassificationRules API
-  slug: microsoft-azure-classificationrules-api
-- description: The Client Groups API from Microsoft Azure — 3 operation(s) for client groups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Client Groups API from Microsoft Azure — 3 operation(s) for client groups.
   name: Microsoft Azure Client Groups API
   slug: microsoft-azure-client-groups-api
-- description: The CloudAppliances API from Microsoft Azure — 2 operation(s) for cloudappliances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CloudAppliances API from Microsoft Azure — 2 operation(s) for cloudappliances.
   name: Microsoft Azure CloudAppliances API
   slug: microsoft-azure-cloudappliances-api
-- description: The CloudConnections API from Microsoft Azure — 3 operation(s) for cloudconnections.
-  name: Microsoft Azure CloudConnections API
-  slug: microsoft-azure-cloudconnections-api
-- description: The CloudConnectors API from Microsoft Azure — 4 operation(s) for cloudconnectors.
-  name: Microsoft Azure CloudConnectors API
-  slug: microsoft-azure-cloudconnectors-api
-- description: The CloudEndpoint Resource API from Microsoft Azure — 9 operation(s) for cloudendpoint resource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CloudEndpoint Resource API from Microsoft Azure — 9 operation(s) for cloudendpoint resource.
   name: Microsoft Azure CloudEndpoint Resource API
   slug: microsoft-azure-cloudendpoint-resource-api
-- description: The Clouds API from Microsoft Azure — 3 operation(s) for clouds.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Clouds API from Microsoft Azure — 3 operation(s) for clouds.
   name: Microsoft Azure Clouds API
   slug: microsoft-azure-clouds-api
-- description: The CloudServiceOperatingSystems API from Microsoft Azure — 4 operation(s) for cloudserviceoperatingsystems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CloudServiceOperatingSystems API from Microsoft Azure — 4 operation(s) for cloudserviceoperatingsystems.
   name: Microsoft Azure CloudServiceOperatingSystems API
   slug: microsoft-azure-cloudserviceoperatingsystems-api
-- description: The CloudServiceRoleInstances API from Microsoft Azure — 7 operation(s) for cloudserviceroleinstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CloudServiceRoleInstances API from Microsoft Azure — 7 operation(s) for cloudserviceroleinstances.
   name: Microsoft Azure CloudServiceRoleInstances API
   slug: microsoft-azure-cloudserviceroleinstances-api
-- description: The CloudServiceRoles API from Microsoft Azure — 2 operation(s) for cloudserviceroles.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CloudServiceRoles API from Microsoft Azure — 2 operation(s) for cloudserviceroles.
   name: Microsoft Azure CloudServiceRoles API
   slug: microsoft-azure-cloudserviceroles-api
-- description: The CloudServices API from Microsoft Azure — 10 operation(s) for cloudservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CloudServices API from Microsoft Azure — 10 operation(s) for cloudservices.
   name: Microsoft Azure CloudServices API
   slug: microsoft-azure-cloudservices-api
-- description: The CloudServicesUpdateDomain API from Microsoft Azure — 2 operation(s) for cloudservicesupdatedomain.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CloudServicesUpdateDomain API from Microsoft Azure — 2 operation(s) for cloudservicesupdatedomain.
   name: Microsoft Azure CloudServicesUpdateDomain API
   slug: microsoft-azure-cloudservicesupdatedomain-api
-- description: The Cluster API from Microsoft Azure — 23 operation(s) for cluster.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Cluster API from Microsoft Azure — 23 operation(s) for cluster.
   name: Microsoft Azure Cluster API
   slug: microsoft-azure-cluster-api
-- description: The ClusterExtensions API from Microsoft Azure — 2 operation(s) for clusterextensions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ClusterExtensions API from Microsoft Azure — 2 operation(s) for clusterextensions.
   name: Microsoft Azure ClusterExtensions API
   slug: microsoft-azure-clusterextensions-api
-- description: The ClusterExtensionTypes API from Microsoft Azure — 8 operation(s) for clusterextensiontypes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ClusterExtensionTypes API from Microsoft Azure — 8 operation(s) for clusterextensiontypes.
   name: Microsoft Azure ClusterExtensionTypes API
   slug: microsoft-azure-clusterextensiontypes-api
-- description: The ClusterOperations API from Microsoft Azure — 4 operation(s) for clusteroperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ClusterOperations API from Microsoft Azure — 4 operation(s) for clusteroperations.
   name: Microsoft Azure ClusterOperations API
   slug: microsoft-azure-clusteroperations-api
-- description: The Clusters API from Microsoft Azure — 16 operation(s) for clusters.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Clusters API from Microsoft Azure — 16 operation(s) for clusters.
   name: Microsoft Azure Clusters API
   slug: microsoft-azure-clusters-api
-- description: The ClusterServices API from Microsoft Azure — 3 operation(s) for clusterservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ClusterServices API from Microsoft Azure — 3 operation(s) for clusterservices.
   name: Microsoft Azure ClusterServices API
   slug: microsoft-azure-clusterservices-api
-- description: The Code Package API from Microsoft Azure — 4 operation(s) for code package.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Code Package API from Microsoft Azure — 4 operation(s) for code package.
   name: Microsoft Azure Code Package API
   slug: microsoft-azure-code-package-api
-- description: The Codesigningaccounts API from Microsoft Azure — 8 operation(s) for codesigningaccounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Codesigningaccounts API from Microsoft Azure — 8 operation(s) for codesigningaccounts.
   name: Microsoft Azure Codesigningaccounts API
   slug: microsoft-azure-codesigningaccounts-api
-- description: The CognitiveServicesAccounts API from Microsoft Azure — 6 operation(s) for cognitiveservicesaccounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CognitiveServicesAccounts API from Microsoft Azure — 6 operation(s) for cognitiveservicesaccounts.
   name: Microsoft Azure CognitiveServicesAccounts API
   slug: microsoft-azure-cognitiveservicesaccounts-api
-- description: The Collection API from Microsoft Azure — 14 operation(s) for collection.
+- baseURL: https://purview.azure.com/account/
+  baseurl_source: spec
+  description: The Collection API from Microsoft Azure — 14 operation(s) for collection.
   name: Microsoft Azure Collection API
   slug: microsoft-azure-collection-api
-- description: The CollectorPolicies API from Microsoft Azure — 2 operation(s) for collectorpolicies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CollectorPolicies API from Microsoft Azure — 2 operation(s) for collectorpolicies.
   name: Microsoft Azure CollectorPolicies API
   slug: microsoft-azure-collectorpolicies-api
-- description: The Commerce API from Microsoft Azure — 3 operation(s) for commerce.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Commerce API from Microsoft Azure — 3 operation(s) for commerce.
   name: Microsoft Azure Commerce API
   slug: microsoft-azure-commerce-api
-- description: The CommitmentAssociations API from Microsoft Azure — 3 operation(s) for commitmentassociations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CommitmentAssociations API from Microsoft Azure — 3 operation(s) for commitmentassociations.
   name: Microsoft Azure CommitmentAssociations API
   slug: microsoft-azure-commitmentassociations-api
-- description: The CommitmentPlans API from Microsoft Azure — 4 operation(s) for commitmentplans.
-  name: Microsoft Azure CommitmentPlans API
-  slug: microsoft-azure-commitmentplans-api
-- description: The Communications API from Microsoft Azure — 6 operation(s) for communications.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Communications API from Microsoft Azure — 6 operation(s) for communications.
   name: Microsoft Azure Communications API
   slug: microsoft-azure-communications-api
-- description: The CommunicationsGateways API from Microsoft Azure — 3 operation(s) for communicationsgateways.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CommunicationsGateways API from Microsoft Azure — 3 operation(s) for communicationsgateways.
   name: Microsoft Azure CommunicationsGateways API
   slug: microsoft-azure-communicationsgateways-api
-- description: The CommunityGalleries API from Microsoft Azure — 1 operation(s) for communitygalleries.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CommunityGalleries API from Microsoft Azure — 1 operation(s) for communitygalleries.
   name: Microsoft Azure CommunityGalleries API
   slug: microsoft-azure-communitygalleries-api
-- description: The CommunityGalleryImages API from Microsoft Azure — 1 operation(s) for communitygalleryimages.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CommunityGalleryImages API from Microsoft Azure — 1 operation(s) for communitygalleryimages.
   name: Microsoft Azure CommunityGalleryImages API
   slug: microsoft-azure-communitygalleryimages-api
-- description: The CommunityGalleryImageVersions API from Microsoft Azure — 1 operation(s) for communitygalleryimageversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CommunityGalleryImageVersions API from Microsoft Azure — 1 operation(s) for communitygalleryimageversions.
   name: Microsoft Azure CommunityGalleryImageVersions API
   slug: microsoft-azure-communitygalleryimageversions-api
-- description: The CommunityTrainings API from Microsoft Azure — 3 operation(s) for communitytrainings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CommunityTrainings API from Microsoft Azure — 3 operation(s) for communitytrainings.
   name: Microsoft Azure CommunityTrainings API
   slug: microsoft-azure-communitytrainings-api
 - baseURL_template: https://{endpoint}/openai
@@ -921,118 +1268,173 @@ apis:
   description: Operations for text completions
   name: Microsoft Azure Completions API
   slug: microsoft-azure-completions-api
-- description: The Compose Deployment API from Microsoft Azure — 7 operation(s) for compose deployment.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Compose Deployment API from Microsoft Azure — 7 operation(s) for compose deployment.
   name: Microsoft Azure Compose Deployment API
   slug: microsoft-azure-compose-deployment-api
 - description: The ComputeNodes API from Microsoft Azure — 14 operation(s) for computenodes.
   name: Microsoft Azure ComputeNodes API
   slug: microsoft-azure-computenodes-api
-- description: The ComputePolicies API from Microsoft Azure — 2 operation(s) for computepolicies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ComputePolicies API from Microsoft Azure — 2 operation(s) for computepolicies.
   name: Microsoft Azure ComputePolicies API
   slug: microsoft-azure-computepolicies-api
-- description: The Configuration API from Microsoft Azure — 3 operation(s) for configuration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Configuration API from Microsoft Azure — 3 operation(s) for configuration.
   name: Microsoft Azure Configuration API
   slug: microsoft-azure-configuration-api
-- description: The ConfigurationAssignments API from Microsoft Azure — 7 operation(s) for configurationassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConfigurationAssignments API from Microsoft Azure — 7 operation(s) for configurationassignments.
   name: Microsoft Azure ConfigurationAssignments API
   slug: microsoft-azure-configurationassignments-api
-- description: The ConfigurationNames API from Microsoft Azure — 1 operation(s) for configurationnames.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConfigurationNames API from Microsoft Azure — 1 operation(s) for configurationnames.
   name: Microsoft Azure ConfigurationNames API
   slug: microsoft-azure-configurationnames-api
-- description: The ConfigurationProfileAssignments API from Microsoft Azure — 6 operation(s) for configurationprofileassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConfigurationProfileAssignments API from Microsoft Azure — 6 operation(s) for configurationprofileassignments.
   name: Microsoft Azure ConfigurationProfileAssignments API
   slug: microsoft-azure-configurationprofileassignments-api
-- description: The ConfigurationProfileHCIAssignments API from Microsoft Azure — 1 operation(s) for configurationprofilehciassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConfigurationProfileHCIAssignments API from Microsoft Azure — 1 operation(s) for configurationprofilehciassignments.
   name: Microsoft Azure ConfigurationProfileHCIAssignments API
   slug: microsoft-azure-configurationprofilehciassignments-api
-- description: The ConfigurationProfileHCRPAssignments API from Microsoft Azure — 1 operation(s) for configurationprofilehcrpassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConfigurationProfileHCRPAssignments API from Microsoft Azure — 1 operation(s) for configurationprofilehcrpassignments.
   name: Microsoft Azure ConfigurationProfileHCRPAssignments API
   slug: microsoft-azure-configurationprofilehcrpassignments-api
-- description: The ConfigurationProfiles API from Microsoft Azure — 3 operation(s) for configurationprofiles.
-  name: Microsoft Azure ConfigurationProfiles API
-  slug: microsoft-azure-configurationprofiles-api
-- description: The ConfigurationProfilesVersions API from Microsoft Azure — 2 operation(s) for configurationprofilesversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConfigurationProfilesVersions API from Microsoft Azure — 2 operation(s) for configurationprofilesversions.
   name: Microsoft Azure ConfigurationProfilesVersions API
   slug: microsoft-azure-configurationprofilesversions-api
-- description: The Configurations API from Microsoft Azure — 10 operation(s) for configurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Configurations API from Microsoft Azure — 10 operation(s) for configurations.
   name: Microsoft Azure Configurations API
   slug: microsoft-azure-configurations-api
-- description: Manages configuration operations.
+- baseURL: /personalizer
+  baseurl_source: spec
+  description: Manages configuration operations.
   name: Microsoft Azure Configurations20220901Preview API
   slug: microsoft-azure-configurations20220901preview-api
-- description: The ConfigurationStores API from Microsoft Azure — 5 operation(s) for configurationstores.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConfigurationStores API from Microsoft Azure — 5 operation(s) for configurationstores.
   name: Microsoft Azure ConfigurationStores API
   slug: microsoft-azure-configurationstores-api
-- description: Manages configuration operations.
+- baseURL: /personalizer/v1.1-preview.3
+  baseurl_source: spec
+  description: Manages configuration operations.
   name: Microsoft Azure ConfigurationsV1Dot1Preview1 API
   slug: microsoft-azure-configurationsv1dot1preview1-api
-- description: The ConnectedResources API from Microsoft Azure — 4 operation(s) for connectedresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConnectedResources API from Microsoft Azure — 4 operation(s) for connectedresources.
   name: Microsoft Azure ConnectedResources API
   slug: microsoft-azure-connectedresources-api
-- description: The Connection Gateways API from Microsoft Azure — 5 operation(s) for connection gateways.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Connection Gateways API from Microsoft Azure — 5 operation(s) for connection gateways.
   name: Microsoft Azure Connection Gateways API
   slug: microsoft-azure-connection-gateways-api
-- description: The ConnectionPolicies API from Microsoft Azure — 1 operation(s) for connectionpolicies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConnectionPolicies API from Microsoft Azure — 1 operation(s) for connectionpolicies.
   name: Microsoft Azure ConnectionPolicies API
   slug: microsoft-azure-connectionpolicies-api
-- description: The Connections API from Microsoft Azure — 4 operation(s) for connections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Connections API from Microsoft Azure — 4 operation(s) for connections.
   name: Microsoft Azure Connections API
   slug: microsoft-azure-connections-api
-- description: The ConnectivityConfigurations API from Microsoft Azure — 2 operation(s) for connectivityconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConnectivityConfigurations API from Microsoft Azure — 2 operation(s) for connectivityconfigurations.
   name: Microsoft Azure ConnectivityConfigurations API
   slug: microsoft-azure-connectivityconfigurations-api
-- description: The Connector API from Microsoft Azure — 5 operation(s) for connector.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Connector API from Microsoft Azure — 5 operation(s) for connector.
   name: Microsoft Azure Connector API
   slug: microsoft-azure-connector-api
-- description: The ConnectorMappings API from Microsoft Azure — 2 operation(s) for connectormappings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConnectorMappings API from Microsoft Azure — 2 operation(s) for connectormappings.
   name: Microsoft Azure ConnectorMappings API
   slug: microsoft-azure-connectormappings-api
-- description: The Connectors API from Microsoft Azure — 2 operation(s) for connectors.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Connectors API from Microsoft Azure — 2 operation(s) for connectors.
   name: Microsoft Azure Connectors API
   slug: microsoft-azure-connectors-api
 - description: The Consent API from Microsoft Azure — 4 operation(s) for consent.
   name: Microsoft Azure Consent API
   slug: microsoft-azure-consent-api
-- description: The ConsumerInvitation API from Microsoft Azure — 3 operation(s) for consumerinvitation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ConsumerInvitation API from Microsoft Azure — 3 operation(s) for consumerinvitation.
   name: Microsoft Azure ConsumerInvitation API
   slug: microsoft-azure-consumerinvitation-api
-- description: The ContactAssignment API from Microsoft Azure — 3 operation(s) for contactassignment.
+- baseURL: https://purview.azure.com/account/
+  baseurl_source: spec
+  description: The ContactAssignment API from Microsoft Azure — 3 operation(s) for contactassignment.
   name: Microsoft Azure ContactAssignment API
   slug: microsoft-azure-contactassignment-api
-- description: The ContactGroupDefinition API from Microsoft Azure — 2 operation(s) for contactgroupdefinition.
+- baseURL: https://purview.azure.com/account/
+  baseurl_source: spec
+  description: The ContactGroupDefinition API from Microsoft Azure — 2 operation(s) for contactgroupdefinition.
   name: Microsoft Azure ContactGroupDefinition API
   slug: microsoft-azure-contactgroupdefinition-api
-- description: The Contacts API from Microsoft Azure — 2 operation(s) for contacts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Contacts API from Microsoft Azure — 2 operation(s) for contacts.
   name: Microsoft Azure Contacts API
   slug: microsoft-azure-contacts-api
-- description: The ContainerApps API from Microsoft Azure — 4 operation(s) for containerapps.
-  name: Microsoft Azure ContainerApps API
-  slug: microsoft-azure-containerapps-api
-- description: The ContainerAppsRevisions API from Microsoft Azure — 5 operation(s) for containerappsrevisions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ContainerAppsRevisions API from Microsoft Azure — 5 operation(s) for containerappsrevisions.
   name: Microsoft Azure ContainerAppsRevisions API
   slug: microsoft-azure-containerappsrevisions-api
-- description: The ContainerHostMappings API from Microsoft Azure — 1 operation(s) for containerhostmappings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ContainerHostMappings API from Microsoft Azure — 1 operation(s) for containerhostmappings.
   name: Microsoft Azure ContainerHostMappings API
   slug: microsoft-azure-containerhostmappings-api
-- description: The ContainerLogs API from Microsoft Azure — 1 operation(s) for containerlogs.
-  name: Microsoft Azure ContainerLogs API
-  slug: microsoft-azure-containerlogs-api
-- description: The ContainerRegistrySetupStart API from Microsoft Azure — 1 operation(s) for containerregistrysetupstart.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ContainerRegistrySetupStart API from Microsoft Azure — 1 operation(s) for containerregistrysetupstart.
   name: Microsoft Azure ContainerRegistrySetupStart API
   slug: microsoft-azure-containerregistrysetupstart-api
-- description: The ContainerRegistrySetupStatus API from Microsoft Azure — 1 operation(s) for containerregistrysetupstatus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ContainerRegistrySetupStatus API from Microsoft Azure — 1 operation(s) for containerregistrysetupstatus.
   name: Microsoft Azure ContainerRegistrySetupStatus API
   slug: microsoft-azure-containerregistrysetupstatus-api
-- description: Operations on blob containers
+- baseURL_template: https://{accountName}.blob.core.windows.net
+  baseurl_source: spec_template
+  description: Operations on blob containers
   name: Microsoft Azure Containers API
   slug: microsoft-azure-containers-api
-- description: The ContainerServiceQuotas API from Microsoft Azure — 1 operation(s) for containerservicequotas.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ContainerServiceQuotas API from Microsoft Azure — 1 operation(s) for containerservicequotas.
   name: Microsoft Azure ContainerServiceQuotas API
   slug: microsoft-azure-containerservicequotas-api
 - description: The Content_Recording API from Microsoft Azure — 4 operation(s) for content_recording.
   name: Microsoft Azure Content_Recording API
   slug: microsoft-azure-content-recording-api
-- description: The Controllers API from Microsoft Azure — 4 operation(s) for controllers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Controllers API from Microsoft Azure — 4 operation(s) for controllers.
   name: Microsoft Azure Controllers API
   slug: microsoft-azure-controllers-api
 - description: The Conversion API from Microsoft Azure — 2 operation(s) for conversion.
@@ -1041,16 +1443,24 @@ apis:
 - description: The Conversions API from Microsoft Azure — 3 operation(s) for conversions.
   name: Microsoft Azure Conversions API
   slug: microsoft-azure-conversions-api
-- description: The Costs API from Microsoft Azure — 1 operation(s) for costs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Costs API from Microsoft Azure — 1 operation(s) for costs.
   name: Microsoft Azure Costs API
   slug: microsoft-azure-costs-api
-- description: The CreateApiKey API from Microsoft Azure — 1 operation(s) for createapikey.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CreateApiKey API from Microsoft Azure — 1 operation(s) for createapikey.
   name: Microsoft Azure CreateApiKey API
   slug: microsoft-azure-createapikey-api
-- description: The Creators API from Microsoft Azure — 2 operation(s) for creators.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Creators API from Microsoft Azure — 2 operation(s) for creators.
   name: Microsoft Azure Creators API
   slug: microsoft-azure-creators-api
-- description: The Credential API from Microsoft Azure — 3 operation(s) for credential.
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The Credential API from Microsoft Azure — 3 operation(s) for credential.
   name: Microsoft Azure Credential API
   slug: microsoft-azure-credential-api
 - description: The CropProducts API from Microsoft Azure — 2 operation(s) for cropproducts.
@@ -1062,7 +1472,9 @@ apis:
 - description: The Custom API from Microsoft Azure — 7 operation(s) for custom.
   name: Microsoft Azure Custom API
   slug: microsoft-azure-custom-api
-- description: The Custom APIs API from Microsoft Azure — 6 operation(s) for custom apis.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Custom APIs API from Microsoft Azure — 6 operation(s) for custom apis.
   name: Microsoft Azure Custom APIs API
   slug: microsoft-azure-custom-apis-api
 - description: 'The Custom Speech Accuracy Tests: API from Microsoft Azure — 2 operation(s) for custom speech accuracy tests:.'
@@ -1092,31 +1504,34 @@ apis:
 - description: 'The Custom Speech Web Hooks: API from Microsoft Azure — 6 operation(s) for custom speech web hooks:.'
   name: 'Microsoft Azure Custom Speech Web Hooks: API'
   slug: microsoft-azure-custom-speech-web-hooks-api
-- description: The CustomDomains API from Microsoft Azure — 4 operation(s) for customdomains.
-  name: Microsoft Azure CustomDomains API
-  slug: microsoft-azure-customdomains-api
-- description: The CustomImages API from Microsoft Azure — 2 operation(s) for customimages.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CustomImages API from Microsoft Azure — 2 operation(s) for customimages.
   name: Microsoft Azure CustomImages API
   slug: microsoft-azure-customimages-api
-- description: The CustomImageSearch API from Microsoft Azure — 1 operation(s) for customimagesearch.
-  name: Microsoft Azure CustomImageSearch API
-  slug: microsoft-azure-customimagesearch-api
-- description: Customization policies operations
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Customization policies operations
   name: Microsoft Azure customizationPolicies API
   slug: microsoft-azure-customizationpolicies-api
-- description: The customLocations API from Microsoft Azure — 6 operation(s) for customlocations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The customLocations API from Microsoft Azure — 6 operation(s) for customlocations.
   name: Microsoft Azure customLocations API
   slug: microsoft-azure-customlocations-api
-- description: The CustomResourceProvider API from Microsoft Azure — 3 operation(s) for customresourceprovider.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CustomResourceProvider API from Microsoft Azure — 3 operation(s) for customresourceprovider.
   name: Microsoft Azure CustomResourceProvider API
   slug: microsoft-azure-customresourceprovider-api
-- description: The CustomRollouts API from Microsoft Azure — 2 operation(s) for customrollouts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The CustomRollouts API from Microsoft Azure — 2 operation(s) for customrollouts.
   name: Microsoft Azure CustomRollouts API
   slug: microsoft-azure-customrollouts-api
-- description: The CustomSearch API from Microsoft Azure — 1 operation(s) for customsearch.
-  name: Microsoft Azure CustomSearch API
-  slug: microsoft-azure-customsearch-api
-- description: The Dashboards API from Microsoft Azure — 2 operation(s) for dashboards.
+- baseURL: /api
+  baseurl_source: spec
+  description: The Dashboards API from Microsoft Azure — 2 operation(s) for dashboards.
   name: Microsoft Azure Dashboards API
   slug: microsoft-azure-dashboards-api
 - description: The Data Collection Rules API from Microsoft Azure — 1 operation(s) for data collection rules.
@@ -1125,19 +1540,24 @@ apis:
 - description: The Data Connections API from Microsoft Azure — 3 operation(s) for data connections.
   name: Microsoft Azure Data Connections API
   slug: microsoft-azure-data-connections-api
-- description: The DatabaseBackup API from Microsoft Azure — 1 operation(s) for databasebackup.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DatabaseBackup API from Microsoft Azure — 1 operation(s) for databasebackup.
   name: Microsoft Azure DatabaseBackup API
   slug: microsoft-azure-databasebackup-api
-- description: The DatabaseInstances API from Microsoft Azure — 2 operation(s) for databaseinstances.
-  name: Microsoft Azure DatabaseInstances API
-  slug: microsoft-azure-databaseinstances-api
-- description: The DatabaseInstancesController API from Microsoft Azure — 2 operation(s) for databaseinstancescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DatabaseInstancesController API from Microsoft Azure — 2 operation(s) for databaseinstancescontroller.
   name: Microsoft Azure DatabaseInstancesController API
   slug: microsoft-azure-databaseinstancescontroller-api
-- description: The DatabaseMigrations API from Microsoft Azure — 12 operation(s) for databasemigrations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DatabaseMigrations API from Microsoft Azure — 12 operation(s) for databasemigrations.
   name: Microsoft Azure DatabaseMigrations API
   slug: microsoft-azure-databasemigrations-api
-- description: The DatabaseReplicationLinks API from Microsoft Azure — 5 operation(s) for databasereplicationlinks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DatabaseReplicationLinks API from Microsoft Azure — 5 operation(s) for databasereplicationlinks.
   name: Microsoft Azure DatabaseReplicationLinks API
   slug: microsoft-azure-databasereplicationlinks-api
 - baseURL_template: https://{accountName}.documents.azure.com
@@ -1145,145 +1565,179 @@ apis:
   description: Operations for managing Cosmos DB databases
   name: Microsoft Azure Databases API
   slug: microsoft-azure-databases-api
-- description: The DatabasesController API from Microsoft Azure — 2 operation(s) for databasescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DatabasesController API from Microsoft Azure — 2 operation(s) for databasescontroller.
   name: Microsoft Azure DatabasesController API
   slug: microsoft-azure-databasescontroller-api
-- description: The DataCollectionEndpoints API from Microsoft Azure — 3 operation(s) for datacollectionendpoints.
-  name: Microsoft Azure DataCollectionEndpoints API
-  slug: microsoft-azure-datacollectionendpoints-api
-- description: The DataCollectionRuleAssociations API from Microsoft Azure — 4 operation(s) for datacollectionruleassociations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataCollectionRuleAssociations API from Microsoft Azure — 4 operation(s) for datacollectionruleassociations.
   name: Microsoft Azure DataCollectionRuleAssociations API
   slug: microsoft-azure-datacollectionruleassociations-api
-- description: The DataCollectionRules API from Microsoft Azure — 3 operation(s) for datacollectionrules.
-  name: Microsoft Azure DataCollectionRules API
-  slug: microsoft-azure-datacollectionrules-api
-- description: The DataConnectors API from Microsoft Azure — 2 operation(s) for dataconnectors.
-  name: Microsoft Azure DataConnectors API
-  slug: microsoft-azure-dataconnectors-api
-- description: The dataExport API from Microsoft Azure — 6 operation(s) for dataexport.
-  name: Microsoft Azure dataExport API
-  slug: microsoft-azure-dataexport-api
-- description: The DataFeed API from Microsoft Azure — 2 operation(s) for datafeed.
-  name: Microsoft Azure DataFeed API
-  slug: microsoft-azure-datafeed-api
-- description: The DataLakeConnector API from Microsoft Azure — 2 operation(s) for datalakeconnector.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataLakeConnector API from Microsoft Azure — 2 operation(s) for datalakeconnector.
   name: Microsoft Azure DataLakeConnector API
   slug: microsoft-azure-datalakeconnector-api
-- description: The DataLakeConnectorTopicMap API from Microsoft Azure — 2 operation(s) for datalakeconnectortopicmap.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataLakeConnectorTopicMap API from Microsoft Azure — 2 operation(s) for datalakeconnectortopicmap.
   name: Microsoft Azure DataLakeConnectorTopicMap API
   slug: microsoft-azure-datalakeconnectortopicmap-api
-- description: The DataLakeStoreAccounts API from Microsoft Azure — 2 operation(s) for datalakestoreaccounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataLakeStoreAccounts API from Microsoft Azure — 2 operation(s) for datalakestoreaccounts.
   name: Microsoft Azure DataLakeStoreAccounts API
   slug: microsoft-azure-datalakestoreaccounts-api
-- description: The DataManagerForAgricultureExtensions API from Microsoft Azure — 2 operation(s) for datamanagerforagricultureextensions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataManagerForAgricultureExtensions API from Microsoft Azure — 2 operation(s) for datamanagerforagricultureextensions.
   name: Microsoft Azure DataManagerForAgricultureExtensions API
   slug: microsoft-azure-datamanagerforagricultureextensions-api
-- description: The DataManagerForAgricultureResources API from Microsoft Azure — 3 operation(s) for datamanagerforagricultureresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataManagerForAgricultureResources API from Microsoft Azure — 3 operation(s) for datamanagerforagricultureresources.
   name: Microsoft Azure DataManagerForAgricultureResources API
   slug: microsoft-azure-datamanagerforagricultureresources-api
-- description: The DataManagers API from Microsoft Azure — 3 operation(s) for datamanagers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataManagers API from Microsoft Azure — 3 operation(s) for datamanagers.
   name: Microsoft Azure DataManagers API
   slug: microsoft-azure-datamanagers-api
-- description: The DataMaskingPolicies API from Microsoft Azure — 1 operation(s) for datamaskingpolicies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataMaskingPolicies API from Microsoft Azure — 1 operation(s) for datamaskingpolicies.
   name: Microsoft Azure DataMaskingPolicies API
   slug: microsoft-azure-datamaskingpolicies-api
-- description: The DataMaskingRules API from Microsoft Azure — 2 operation(s) for datamaskingrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataMaskingRules API from Microsoft Azure — 2 operation(s) for datamaskingrules.
   name: Microsoft Azure DataMaskingRules API
   slug: microsoft-azure-datamaskingrules-api
-- description: The DataMove API from Microsoft Azure — 3 operation(s) for datamove.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataMove API from Microsoft Azure — 3 operation(s) for datamove.
   name: Microsoft Azure DataMove API
   slug: microsoft-azure-datamove-api
-- description: The DataPools API from Microsoft Azure — 2 operation(s) for datapools.
-  name: Microsoft Azure DataPools API
-  slug: microsoft-azure-datapools-api
-- description: The DataProducts API from Microsoft Azure — 8 operation(s) for dataproducts.
-  name: Microsoft Azure DataProducts API
-  slug: microsoft-azure-dataproducts-api
-- description: The DataProductsCatalogs API from Microsoft Azure — 3 operation(s) for dataproductscatalogs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataProductsCatalogs API from Microsoft Azure — 3 operation(s) for dataproductscatalogs.
   name: Microsoft Azure DataProductsCatalogs API
   slug: microsoft-azure-dataproductscatalogs-api
 - description: The dataRegistries API from Microsoft Azure — 3 operation(s) for dataregistries.
   name: Microsoft Azure dataRegistries API
   slug: microsoft-azure-dataregistries-api
-- description: The DataServices API from Microsoft Azure — 2 operation(s) for dataservices.
-  name: Microsoft Azure DataServices API
-  slug: microsoft-azure-dataservices-api
-- description: The DataSet API from Microsoft Azure — 2 operation(s) for dataset.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataSet API from Microsoft Azure — 2 operation(s) for dataset.
   name: Microsoft Azure DataSet API
   slug: microsoft-azure-dataset-api
-- description: The DataSetMapping API from Microsoft Azure — 2 operation(s) for datasetmapping.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataSetMapping API from Microsoft Azure — 2 operation(s) for datasetmapping.
   name: Microsoft Azure DataSetMapping API
   slug: microsoft-azure-datasetmapping-api
 - description: The DatasetRecords API from Microsoft Azure — 2 operation(s) for datasetrecords.
   name: Microsoft Azure DatasetRecords API
   slug: microsoft-azure-datasetrecords-api
-- description: The Datasets API from Microsoft Azure — 9 operation(s) for datasets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Datasets API from Microsoft Azure — 9 operation(s) for datasets.
   name: Microsoft Azure Datasets API
   slug: microsoft-azure-datasets-api
-- description: The DatasourcePreferences API from Microsoft Azure — 1 operation(s) for datasourcepreferences.
+- baseURL: /pds
+  baseurl_source: spec
+  description: The DatasourcePreferences API from Microsoft Azure — 1 operation(s) for datasourcepreferences.
   name: Microsoft Azure DatasourcePreferences API
   slug: microsoft-azure-datasourcepreferences-api
-- description: The DataSources API from Microsoft Azure — 3 operation(s) for datasources.
-  name: Microsoft Azure DataSources API
-  slug: microsoft-azure-datasources-api
 - description: The DataStore API from Microsoft Azure — 2 operation(s) for datastore.
   name: Microsoft Azure DataStore API
   slug: microsoft-azure-datastore-api
 - description: The DataStoreDefault API from Microsoft Azure — 2 operation(s) for datastoredefault.
   name: Microsoft Azure DataStoreDefault API
   slug: microsoft-azure-datastoredefault-api
-- description: The Datastores API from Microsoft Azure — 5 operation(s) for datastores.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Datastores API from Microsoft Azure — 5 operation(s) for datastores.
   name: Microsoft Azure Datastores API
   slug: microsoft-azure-datastores-api
-- description: The DataStoreTypes API from Microsoft Azure — 2 operation(s) for datastoretypes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DataStoreTypes API from Microsoft Azure — 2 operation(s) for datastoretypes.
   name: Microsoft Azure DataStoreTypes API
   slug: microsoft-azure-datastoretypes-api
-- description: The DataTypes API from Microsoft Azure — 4 operation(s) for datatypes.
-  name: Microsoft Azure DataTypes API
-  slug: microsoft-azure-datatypes-api
-- description: dedicated cloud nodes operations
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: dedicated cloud nodes operations
   name: Microsoft Azure DedicatedCloudNodes API
   slug: microsoft-azure-dedicatedcloudnodes-api
-- description: The DedicatedCloudServices API from Microsoft Azure — 3 operation(s) for dedicatedcloudservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DedicatedCloudServices API from Microsoft Azure — 3 operation(s) for dedicatedcloudservices.
   name: Microsoft Azure DedicatedCloudServices API
   slug: microsoft-azure-dedicatedcloudservices-api
-- description: The DedicatedHsmOperations API from Microsoft Azure — 1 operation(s) for dedicatedhsmoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DedicatedHsmOperations API from Microsoft Azure — 1 operation(s) for dedicatedhsmoperations.
   name: Microsoft Azure DedicatedHsmOperations API
   slug: microsoft-azure-dedicatedhsmoperations-api
-- description: The DedicatedHsms API from Microsoft Azure — 3 operation(s) for dedicatedhsms.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DedicatedHsms API from Microsoft Azure — 3 operation(s) for dedicatedhsms.
   name: Microsoft Azure DedicatedHsms API
   slug: microsoft-azure-dedicatedhsms-api
-- description: The DefaultAccount API from Microsoft Azure — 3 operation(s) for defaultaccount.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DefaultAccount API from Microsoft Azure — 3 operation(s) for defaultaccount.
   name: Microsoft Azure DefaultAccount API
   slug: microsoft-azure-defaultaccount-api
-- description: The DefaultRollouts API from Microsoft Azure — 3 operation(s) for defaultrollouts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DefaultRollouts API from Microsoft Azure — 3 operation(s) for defaultrollouts.
   name: Microsoft Azure DefaultRollouts API
   slug: microsoft-azure-defaultrollouts-api
-- description: The DELETE API from Microsoft Azure — 7 operation(s) for delete.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DELETE API from Microsoft Azure — 7 operation(s) for delete.
   name: Microsoft Azure DELETE API
   slug: microsoft-azure-delete-api
-- description: The DeleteAccessReviewHistoryDefinition API from Microsoft Azure — 1 operation(s) for deleteaccessreviewhistorydefinition.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeleteAccessReviewHistoryDefinition API from Microsoft Azure — 1 operation(s) for deleteaccessreviewhistorydefinition.
   name: Microsoft Azure DeleteAccessReviewHistoryDefinition API
   slug: microsoft-azure-deleteaccessreviewhistorydefinition-api
-- description: The DeleteAccessReviewScheduleDefinition API from Microsoft Azure — 1 operation(s) for deleteaccessreviewscheduledefinition.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeleteAccessReviewScheduleDefinition API from Microsoft Azure — 1 operation(s) for deleteaccessreviewscheduledefinition.
   name: Microsoft Azure DeleteAccessReviewScheduleDefinition API
   slug: microsoft-azure-deleteaccessreviewscheduledefinition-api
-- description: The deletedApplications API from Microsoft Azure — 2 operation(s) for deletedapplications.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The deletedApplications API from Microsoft Azure — 2 operation(s) for deletedapplications.
   name: Microsoft Azure deletedApplications API
   slug: microsoft-azure-deletedapplications-api
-- description: The DeletedBackupInstances API from Microsoft Azure — 3 operation(s) for deletedbackupinstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeletedBackupInstances API from Microsoft Azure — 3 operation(s) for deletedbackupinstances.
   name: Microsoft Azure DeletedBackupInstances API
   slug: microsoft-azure-deletedbackupinstances-api
-- description: The DeletedConfigurationStores API from Microsoft Azure — 3 operation(s) for deletedconfigurationstores.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeletedConfigurationStores API from Microsoft Azure — 3 operation(s) for deletedconfigurationstores.
   name: Microsoft Azure DeletedConfigurationStores API
   slug: microsoft-azure-deletedconfigurationstores-api
 - description: The DeletedStorage API from Microsoft Azure — 6 operation(s) for deletedstorage.
   name: Microsoft Azure DeletedStorage API
   slug: microsoft-azure-deletedstorage-api
-- description: The DeletedWebApps API from Microsoft Azure — 3 operation(s) for deletedwebapps.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeletedWebApps API from Microsoft Azure — 3 operation(s) for deletedwebapps.
   name: Microsoft Azure DeletedWebApps API
   slug: microsoft-azure-deletedwebapps-api
-- description: The DependencyMapController API from Microsoft Azure — 5 operation(s) for dependencymapcontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DependencyMapController API from Microsoft Azure — 5 operation(s) for dependencymapcontroller.
   name: Microsoft Azure DependencyMapController API
   slug: microsoft-azure-dependencymapcontroller-api
 - description: Deployed resources controller.
@@ -1292,37 +1746,44 @@ apis:
 - description: The Deployment Management API from Microsoft Azure — 2 operation(s) for deployment management.
   name: Microsoft Azure Deployment Management API
   slug: microsoft-azure-deployment-management-api
-- description: The DeploymentInfo API from Microsoft Azure — 2 operation(s) for deploymentinfo.
-  name: Microsoft Azure DeploymentInfo API
-  slug: microsoft-azure-deploymentinfo-api
-- description: The deploymentManifests API from Microsoft Azure — 2 operation(s) for deploymentmanifests.
+- baseURL: /api
+  baseurl_source: spec
+  description: The deploymentManifests API from Microsoft Azure — 2 operation(s) for deploymentmanifests.
   name: Microsoft Azure deploymentManifests API
   slug: microsoft-azure-deploymentmanifests-api
-- description: The DeploymentOperations API from Microsoft Azure — 10 operation(s) for deploymentoperations.
-  name: Microsoft Azure DeploymentOperations API
-  slug: microsoft-azure-deploymentoperations-api
-- description: Operations for managing model deployments
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Operations for managing model deployments
   name: Microsoft Azure Deployments API
   slug: microsoft-azure-deployments-api
-- description: The DeploymentScripts API from Microsoft Azure — 5 operation(s) for deploymentscripts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeploymentScripts API from Microsoft Azure — 5 operation(s) for deploymentscripts.
   name: Microsoft Azure DeploymentScripts API
   slug: microsoft-azure-deploymentscripts-api
-- description: The DeploymentSettings API from Microsoft Azure — 2 operation(s) for deploymentsettings.
-  name: Microsoft Azure DeploymentSettings API
-  slug: microsoft-azure-deploymentsettings-api
-- description: The DeploymentStacks API from Microsoft Azure — 9 operation(s) for deploymentstacks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeploymentStacks API from Microsoft Azure — 9 operation(s) for deploymentstacks.
   name: Microsoft Azure DeploymentStacks API
   slug: microsoft-azure-deploymentstacks-api
-- description: The DeploymentUpdate API from Microsoft Azure — 1 operation(s) for deploymentupdate.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeploymentUpdate API from Microsoft Azure — 1 operation(s) for deploymentupdate.
   name: Microsoft Azure DeploymentUpdate API
   slug: microsoft-azure-deploymentupdate-api
-- description: The Describe API from Microsoft Azure — 1 operation(s) for describe.
+- baseURL: /vision/v1.0
+  baseurl_source: spec
+  description: The Describe API from Microsoft Azure — 1 operation(s) for describe.
   name: Microsoft Azure Describe API
   slug: microsoft-azure-describe-api
-- description: The Desktop API from Microsoft Azure — 2 operation(s) for desktop.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Desktop API from Microsoft Azure — 2 operation(s) for desktop.
   name: Microsoft Azure Desktop API
   slug: microsoft-azure-desktop-api
-- description: The Detect API from Microsoft Azure — 2 operation(s) for detect.
+- baseURL: https://api.cognitive.microsofttranslator.com
+  baseurl_source: spec
+  description: The Detect API from Microsoft Azure — 2 operation(s) for detect.
   name: Microsoft Azure Detect API
   slug: microsoft-azure-detect-api
 - description: The Device and Deployment Management API from Microsoft Azure — 31 operation(s) for device and deployment management.
@@ -1334,82 +1795,110 @@ apis:
 - description: The Device Network API from Microsoft Azure — 1 operation(s) for device network.
   name: Microsoft Azure Device Network API
   slug: microsoft-azure-device-network-api
-- description: The DeviceCapacityCheck API from Microsoft Azure — 1 operation(s) for devicecapacitycheck.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeviceCapacityCheck API from Microsoft Azure — 1 operation(s) for devicecapacitycheck.
   name: Microsoft Azure DeviceCapacityCheck API
   slug: microsoft-azure-devicecapacitycheck-api
-- description: The DeviceCapacityInfo API from Microsoft Azure — 1 operation(s) for devicecapacityinfo.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeviceCapacityInfo API from Microsoft Azure — 1 operation(s) for devicecapacityinfo.
   name: Microsoft Azure DeviceCapacityInfo API
   slug: microsoft-azure-devicecapacityinfo-api
 - description: The DeviceDataModels API from Microsoft Azure — 2 operation(s) for devicedatamodels.
   name: Microsoft Azure DeviceDataModels API
   slug: microsoft-azure-devicedatamodels-api
-- description: The deviceGroups API from Microsoft Azure — 7 operation(s) for devicegroups.
-  name: Microsoft Azure deviceGroups API
-  slug: microsoft-azure-devicegroups-api
-- description: The DeviceRegistrationState API from Microsoft Azure — 2 operation(s) for deviceregistrationstate.
+- baseURL: https://your-dps.azure-devices-provisioning.net
+  baseurl_source: spec
+  description: The DeviceRegistrationState API from Microsoft Azure — 2 operation(s) for deviceregistrationstate.
   name: Microsoft Azure DeviceRegistrationState API
   slug: microsoft-azure-deviceregistrationstate-api
-- description: The Devices API from Microsoft Azure — 61 operation(s) for devices.
+- baseURL: /api
+  baseurl_source: spec
+  description: The Devices API from Microsoft Azure — 61 operation(s) for devices.
   name: Microsoft Azure Devices API
   slug: microsoft-azure-devices-api
-- description: The DeviceServices API from Microsoft Azure — 3 operation(s) for deviceservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeviceServices API from Microsoft Azure — 3 operation(s) for deviceservices.
   name: Microsoft Azure DeviceServices API
   slug: microsoft-azure-deviceservices-api
-- description: The DeviceSettings API from Microsoft Azure — 5 operation(s) for devicesettings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DeviceSettings API from Microsoft Azure — 5 operation(s) for devicesettings.
   name: Microsoft Azure DeviceSettings API
   slug: microsoft-azure-devicesettings-api
-- description: The deviceTemplates API from Microsoft Azure — 2 operation(s) for devicetemplates.
-  name: Microsoft Azure deviceTemplates API
-  slug: microsoft-azure-devicetemplates-api
-- description: The DevOps API from Microsoft Azure — 22 operation(s) for devops.
-  name: Microsoft Azure DevOps API
-  slug: microsoft-azure-devops-api
-- description: The DevopsPolicy API from Microsoft Azure — 3 operation(s) for devopspolicy.
+- baseURL: /policyStore
+  baseurl_source: spec
+  description: The DevopsPolicy API from Microsoft Azure — 3 operation(s) for devopspolicy.
   name: Microsoft Azure DevopsPolicy API
   slug: microsoft-azure-devopspolicy-api
-- description: The diagnosticOperations API from Microsoft Azure — 1 operation(s) for diagnosticoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The diagnosticOperations API from Microsoft Azure — 1 operation(s) for diagnosticoperations.
   name: Microsoft Azure diagnosticOperations API
   slug: microsoft-azure-diagnosticoperations-api
-- description: The Diagnostics API from Microsoft Azure — 25 operation(s) for diagnostics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Diagnostics API from Microsoft Azure — 25 operation(s) for diagnostics.
   name: Microsoft Azure Diagnostics API
   slug: microsoft-azure-diagnostics-api
-- description: The diagnostics_DiskInspection API from Microsoft Azure — 1 operation(s) for diagnostics_diskinspection.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The diagnostics_DiskInspection API from Microsoft Azure — 1 operation(s) for diagnostics_diskinspection.
   name: Microsoft Azure diagnostics_DiskInspection API
   slug: microsoft-azure-diagnostics-diskinspection-api
-- description: The diagnostics_SpotPlacementRecommender API from Microsoft Azure — 1 operation(s) for diagnostics_spotplacementrecommender.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The diagnostics_SpotPlacementRecommender API from Microsoft Azure — 1 operation(s) for diagnostics_spotplacementrecommender.
   name: Microsoft Azure diagnostics_SpotPlacementRecommender API
   slug: microsoft-azure-diagnostics-spotplacementrecommender-api
-- description: The DiagnosticService API from Microsoft Azure — 2 operation(s) for diagnosticservice.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DiagnosticService API from Microsoft Azure — 2 operation(s) for diagnosticservice.
   name: Microsoft Azure DiagnosticService API
   slug: microsoft-azure-diagnosticservice-api
-- description: The DiagnosticSettings API from Microsoft Azure — 2 operation(s) for diagnosticsettings.
-  name: Microsoft Azure DiagnosticSettings API
-  slug: microsoft-azure-diagnosticsettings-api
 - description: The Dictionary API from Microsoft Azure — 2 operation(s) for dictionary.
   name: Microsoft Azure Dictionary API
   slug: microsoft-azure-dictionary-api
-- description: The Dictionary/Lookup API from Microsoft Azure — 1 operation(s) for dictionary/lookup.
+- baseURL: https://api.cognitive.microsofttranslator.com
+  baseurl_source: spec
+  description: The Dictionary/Lookup API from Microsoft Azure — 1 operation(s) for dictionary/lookup.
   name: Microsoft Azure Dictionary/Lookup API
   slug: microsoft-azure-dictionary-lookup-api
-- description: The DictionaryExamples API from Microsoft Azure — 1 operation(s) for dictionaryexamples.
+- baseURL: https://api.cognitive.microsofttranslator.com
+  baseurl_source: spec
+  description: The DictionaryExamples API from Microsoft Azure — 1 operation(s) for dictionaryexamples.
   name: Microsoft Azure DictionaryExamples API
   slug: microsoft-azure-dictionaryexamples-api
-- description: The DigitalTwinsInstance API from Microsoft Azure — 3 operation(s) for digitaltwinsinstance.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DigitalTwinsInstance API from Microsoft Azure — 3 operation(s) for digitaltwinsinstance.
   name: Microsoft Azure DigitalTwinsInstance API
   slug: microsoft-azure-digitaltwinsinstance-api
-- description: The DisasterRecoveryConfigurations API from Microsoft Azure — 4 operation(s) for disasterrecoveryconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DisasterRecoveryConfigurations API from Microsoft Azure — 4 operation(s) for disasterrecoveryconfigurations.
   name: Microsoft Azure DisasterRecoveryConfigurations API
   slug: microsoft-azure-disasterrecoveryconfigurations-api
-- description: Provides access to discovery resources.
+- baseURL: /
+  baseurl_source: spec
+  description: Provides access to discovery resources.
   name: Microsoft Azure Disco Groups API
   slug: microsoft-azure-disco-groups-api
-- description: Provides access to disco template resources.
+- baseURL: /
+  baseurl_source: spec
+  description: Provides access to disco template resources.
   name: Microsoft Azure Disco Templates API
   slug: microsoft-azure-disco-templates-api
-- description: The discoverSolutions API from Microsoft Azure — 2 operation(s) for discoversolutions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The discoverSolutions API from Microsoft Azure — 2 operation(s) for discoversolutions.
   name: Microsoft Azure discoverSolutions API
   slug: microsoft-azure-discoversolutions-api
-- description: The Discovery API from Microsoft Azure — 4 operation(s) for discovery.
+- baseURL: /catalog/api
+  baseurl_source: spec
+  description: The Discovery API from Microsoft Azure — 4 operation(s) for discovery.
   name: Microsoft Azure Discovery API
   slug: microsoft-azure-discovery-api
 - description: The Discovery Groups API from Microsoft Azure — 5 operation(s) for discovery groups.
@@ -1418,25 +1907,39 @@ apis:
 - description: The Discovery Templates API from Microsoft Azure — 2 operation(s) for discovery templates.
   name: Microsoft Azure Discovery Templates API
   slug: microsoft-azure-discovery-templates-api
-- description: The discoverySolutions API from Microsoft Azure — 1 operation(s) for discoverysolutions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The discoverySolutions API from Microsoft Azure — 1 operation(s) for discoverysolutions.
   name: Microsoft Azure discoverySolutions API
   slug: microsoft-azure-discoverysolutions-api
-- description: APIs for Disk pool operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: APIs for Disk pool operations.
   name: Microsoft Azure DiskPools API
   slug: microsoft-azure-diskpools-api
-- description: The DiskPoolZones API from Microsoft Azure — 1 operation(s) for diskpoolzones.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DiskPoolZones API from Microsoft Azure — 1 operation(s) for diskpoolzones.
   name: Microsoft Azure DiskPoolZones API
   slug: microsoft-azure-diskpoolzones-api
-- description: The Disks API from Microsoft Azure — 6 operation(s) for disks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Disks API from Microsoft Azure — 6 operation(s) for disks.
   name: Microsoft Azure Disks API
   slug: microsoft-azure-disks-api
-- description: The DnsForwardingRulesets API from Microsoft Azure — 4 operation(s) for dnsforwardingrulesets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DnsForwardingRulesets API from Microsoft Azure — 4 operation(s) for dnsforwardingrulesets.
   name: Microsoft Azure DnsForwardingRulesets API
   slug: microsoft-azure-dnsforwardingrulesets-api
-- description: The DnsResolvers API from Microsoft Azure — 4 operation(s) for dnsresolvers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DnsResolvers API from Microsoft Azure — 4 operation(s) for dnsresolvers.
   name: Microsoft Azure DnsResolvers API
   slug: microsoft-azure-dnsresolvers-api
-- description: The DnssecConfigs API from Microsoft Azure — 2 operation(s) for dnssecconfigs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DnssecConfigs API from Microsoft Azure — 2 operation(s) for dnssecconfigs.
   name: Microsoft Azure DnssecConfigs API
   slug: microsoft-azure-dnssecconfigs-api
 - description: The Document:translate API from Microsoft Azure — 1 operation(s) for document:translate.
@@ -1445,87 +1948,94 @@ apis:
 - description: The Document Translation API from Microsoft Azure — 7 operation(s) for document translation.
   name: Microsoft Azure Document Translation API
   slug: microsoft-azure-document-translation-api
-- description: The documentClassifiers API from Microsoft Azure — 4 operation(s) for documentclassifiers.
-  name: Microsoft Azure documentClassifiers API
-  slug: microsoft-azure-documentclassifiers-api
-- description: The documentClassifiers:build API from Microsoft Azure — 1 operation(s) for documentclassifiers:build.
-  name: Microsoft Azure documentClassifiers:build API
-  slug: microsoft-azure-documentclassifiers-build-api
-- description: The documentModels API from Microsoft Azure — 5 operation(s) for documentmodels.
-  name: Microsoft Azure documentModels API
-  slug: microsoft-azure-documentmodels-api
-- description: The documentModels:authorizeCopy API from Microsoft Azure — 1 operation(s) for documentmodels:authorizecopy.
-  name: Microsoft Azure documentModels:authorizeCopy API
-  slug: microsoft-azure-documentmodels-authorizecopy-api
-- description: The documentModels:build API from Microsoft Azure — 1 operation(s) for documentmodels:build.
-  name: Microsoft Azure documentModels:build API
-  slug: microsoft-azure-documentmodels-build-api
-- description: The documentModels:compose API from Microsoft Azure — 1 operation(s) for documentmodels:compose.
-  name: Microsoft Azure documentModels:compose API
-  slug: microsoft-azure-documentmodels-compose-api
 - description: The Documents API from Microsoft Azure — 9 operation(s) for documents.
   name: Microsoft Azure Documents API
   slug: microsoft-azure-documents-api
-- description: The Domain API from Microsoft Azure — 4 operation(s) for domain.
+- baseURL: https://purview.azure.com/account/
+  baseurl_source: spec
+  description: The Domain API from Microsoft Azure — 4 operation(s) for domain.
   name: Microsoft Azure Domain API
   slug: microsoft-azure-domain-api
-- description: The DomainRegistrationProvider API from Microsoft Azure — 1 operation(s) for domainregistrationprovider.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DomainRegistrationProvider API from Microsoft Azure — 1 operation(s) for domainregistrationprovider.
   name: Microsoft Azure DomainRegistrationProvider API
   slug: microsoft-azure-domainregistrationprovider-api
-- description: The Domains API from Microsoft Azure — 16 operation(s) for domains.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Domains API from Microsoft Azure — 16 operation(s) for domains.
   name: Microsoft Azure Domains API
   slug: microsoft-azure-domains-api
-- description: The DomainsApi API from Microsoft Azure — 2 operation(s) for domainsapi.
-  name: Microsoft Azure DomainsApi API
-  slug: microsoft-azure-domainsapi-api
-- description: The DomainTopics API from Microsoft Azure — 2 operation(s) for domaintopics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DomainTopics API from Microsoft Azure — 2 operation(s) for domaintopics.
   name: Microsoft Azure DomainTopics API
   slug: microsoft-azure-domaintopics-api
-- description: The DppFeatureSupport API from Microsoft Azure — 1 operation(s) for dppfeaturesupport.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DppFeatureSupport API from Microsoft Azure — 1 operation(s) for dppfeaturesupport.
   name: Microsoft Azure DppFeatureSupport API
   slug: microsoft-azure-dppfeaturesupport-api
-- description: The DppJob API from Microsoft Azure — 2 operation(s) for dppjob.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DppJob API from Microsoft Azure — 2 operation(s) for dppjob.
   name: Microsoft Azure DppJob API
   slug: microsoft-azure-dppjob-api
-- description: The DppResourceGuardProxies API from Microsoft Azure — 3 operation(s) for dppresourceguardproxies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DppResourceGuardProxies API from Microsoft Azure — 3 operation(s) for dppresourceguardproxies.
   name: Microsoft Azure DppResourceGuardProxies API
   slug: microsoft-azure-dppresourceguardproxies-api
-- description: The DpsCertificate API from Microsoft Azure — 4 operation(s) for dpscertificate.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The DpsCertificate API from Microsoft Azure — 4 operation(s) for dpscertificate.
   name: Microsoft Azure DpsCertificate API
   slug: microsoft-azure-dpscertificate-api
-- description: Data replication agent (Dra) Controller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Data replication agent (Dra) Controller.
   name: Microsoft Azure Dra API
   slug: microsoft-azure-dra-api
-- description: The Edge Site API from Microsoft Azure — 3 operation(s) for edge site.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Edge Site API from Microsoft Azure — 3 operation(s) for edge site.
   name: Microsoft Azure Edge Site API
   slug: microsoft-azure-edge-site-api
-- description: The EdgeDevices API from Microsoft Azure — 3 operation(s) for edgedevices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EdgeDevices API from Microsoft Azure — 3 operation(s) for edgedevices.
   name: Microsoft Azure EdgeDevices API
   slug: microsoft-azure-edgedevices-api
-- description: The Edgenodes API from Microsoft Azure — 1 operation(s) for edgenodes.
-  name: Microsoft Azure Edgenodes API
-  slug: microsoft-azure-edgenodes-api
-- description: The Elastic San Operations API from Microsoft Azure — 1 operation(s) for elastic san operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Elastic San Operations API from Microsoft Azure — 1 operation(s) for elastic san operations.
   name: Microsoft Azure Elastic San Operations API
   slug: microsoft-azure-elastic-san-operations-api
-- description: The Elastic San Skus API from Microsoft Azure — 1 operation(s) for elastic san skus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Elastic San Skus API from Microsoft Azure — 1 operation(s) for elastic san skus.
   name: Microsoft Azure Elastic San Skus API
   slug: microsoft-azure-elastic-san-skus-api
-- description: The ElasticSan API from Microsoft Azure — 1 operation(s) for elasticsan.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ElasticSan API from Microsoft Azure — 1 operation(s) for elasticsan.
   name: Microsoft Azure ElasticSan API
   slug: microsoft-azure-elasticsan-api
-- description: APIs for ElasticSan operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: APIs for ElasticSan operations.
   name: Microsoft Azure ElasticSans API
   slug: microsoft-azure-elasticsans-api
-- description: The ElasticVersions API from Microsoft Azure — 1 operation(s) for elasticversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ElasticVersions API from Microsoft Azure — 1 operation(s) for elasticversions.
   name: Microsoft Azure ElasticVersions API
   slug: microsoft-azure-elasticversions-api
-- description: The Elevation API from Microsoft Azure — 3 operation(s) for elevation.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Elevation API from Microsoft Azure — 3 operation(s) for elevation.
   name: Microsoft Azure Elevation API
   slug: microsoft-azure-elevation-api
-- description: Email configuration Controller.
-  name: Microsoft Azure EmailConfiguration API
-  slug: microsoft-azure-emailconfiguration-api
 - description: The EmailGetSendResult API from Microsoft Azure — 1 operation(s) for emailgetsendresult.
   name: Microsoft Azure EmailGetSendResult API
   slug: microsoft-azure-emailgetsendresult-api
@@ -1540,42 +2050,54 @@ apis:
   description: Operations for generating text embeddings
   name: Microsoft Azure Embeddings API
   slug: microsoft-azure-embeddings-api
-- description: The EmergingIssues API from Microsoft Azure — 2 operation(s) for emergingissues.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EmergingIssues API from Microsoft Azure — 2 operation(s) for emergingissues.
   name: Microsoft Azure EmergingIssues API
   slug: microsoft-azure-emergingissues-api
-- description: The Endpoint API from Microsoft Azure — 12 operation(s) for endpoint.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Endpoint API from Microsoft Azure — 12 operation(s) for endpoint.
   name: Microsoft Azure Endpoint API
   slug: microsoft-azure-endpoint-api
 - description: The EndpointKeys API from Microsoft Azure — 3 operation(s) for endpointkeys.
   name: Microsoft Azure EndpointKeys API
   slug: microsoft-azure-endpointkeys-api
-- description: The Endpoints API from Microsoft Azure — 16 operation(s) for endpoints.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Endpoints API from Microsoft Azure — 16 operation(s) for endpoints.
   name: Microsoft Azure Endpoints API
   slug: microsoft-azure-endpoints-api
-- description: The endpointSettings API from Microsoft Azure — 1 operation(s) for endpointsettings.
-  name: Microsoft Azure endpointSettings API
-  slug: microsoft-azure-endpointsettings-api
-- description: The EnrollmentAccounts API from Microsoft Azure — 2 operation(s) for enrollmentaccounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EnrollmentAccounts API from Microsoft Azure — 2 operation(s) for enrollmentaccounts.
   name: Microsoft Azure EnrollmentAccounts API
   slug: microsoft-azure-enrollmentaccounts-api
-- description: The EnrollmentGroup API from Microsoft Azure — 4 operation(s) for enrollmentgroup.
+- baseURL: https://your-dps.azure-devices-provisioning.net
+  baseurl_source: spec
+  description: The EnrollmentGroup API from Microsoft Azure — 4 operation(s) for enrollmentgroup.
   name: Microsoft Azure EnrollmentGroup API
   slug: microsoft-azure-enrollmentgroup-api
-- description: The enrollmentGroups API from Microsoft Azure — 5 operation(s) for enrollmentgroups.
+- baseURL: /api
+  baseurl_source: spec
+  description: The enrollmentGroups API from Microsoft Azure — 5 operation(s) for enrollmentgroups.
   name: Microsoft Azure enrollmentGroups API
   slug: microsoft-azure-enrollmentgroups-api
-- description: The EnterpriseKnowledgeGraph API from Microsoft Azure — 3 operation(s) for enterpriseknowledgegraph.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EnterpriseKnowledgeGraph API from Microsoft Azure — 3 operation(s) for enterpriseknowledgegraph.
   name: Microsoft Azure EnterpriseKnowledgeGraph API
   slug: microsoft-azure-enterpriseknowledgegraph-api
-- description: A list of entities that belong to the Management Groups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: A list of entities that belong to the Management Groups.
   name: Microsoft Azure Entities API
   slug: microsoft-azure-entities-api
-- description: The Entity API from Microsoft Azure — 21 operation(s) for entity.
+- baseURL: /catalog/api
+  baseurl_source: spec
+  description: The Entity API from Microsoft Azure — 21 operation(s) for entity.
   name: Microsoft Azure Entity API
   slug: microsoft-azure-entity-api
-- description: The EntitySearch API from Microsoft Azure — 1 operation(s) for entitysearch.
-  name: Microsoft Azure EntitySearch API
-  slug: microsoft-azure-entitysearch-api
 - description: The Entries API from Microsoft Azure — 4 operation(s) for entries.
   name: Microsoft Azure Entries API
   slug: microsoft-azure-entries-api
@@ -1585,139 +2107,185 @@ apis:
 - description: The Environment Types API from Microsoft Azure — 1 operation(s) for environment types.
   name: Microsoft Azure Environment Types API
   slug: microsoft-azure-environment-types-api
-- description: The EnvironmentOperations API from Microsoft Azure — 3 operation(s) for environmentoperations.
-  name: Microsoft Azure EnvironmentOperations API
-  slug: microsoft-azure-environmentoperations-api
-- description: The Environments API from Microsoft Azure — 18 operation(s) for environments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Environments API from Microsoft Azure — 18 operation(s) for environments.
   name: Microsoft Azure Environments API
   slug: microsoft-azure-environments-api
-- description: The EnvironmentSettings API from Microsoft Azure — 6 operation(s) for environmentsettings.
-  name: Microsoft Azure EnvironmentSettings API
-  slug: microsoft-azure-environmentsettings-api
-- description: The ErrorSummaries API from Microsoft Azure — 2 operation(s) for errorsummaries.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ErrorSummaries API from Microsoft Azure — 2 operation(s) for errorsummaries.
   name: Microsoft Azure ErrorSummaries API
   slug: microsoft-azure-errorsummaries-api
-- description: The EvaluatedAvsMachinesOperations API from Microsoft Azure — 2 operation(s) for evaluatedavsmachinesoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EvaluatedAvsMachinesOperations API from Microsoft Azure — 2 operation(s) for evaluatedavsmachinesoperations.
   name: Microsoft Azure EvaluatedAvsMachinesOperations API
   slug: microsoft-azure-evaluatedavsmachinesoperations-api
-- description: The EvaluatedMachinesOperations API from Microsoft Azure — 2 operation(s) for evaluatedmachinesoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EvaluatedMachinesOperations API from Microsoft Azure — 2 operation(s) for evaluatedmachinesoperations.
   name: Microsoft Azure EvaluatedMachinesOperations API
   slug: microsoft-azure-evaluatedmachinesoperations-api
-- description: The EvaluatedSqlEntitiesOperations API from Microsoft Azure — 2 operation(s) for evaluatedsqlentitiesoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EvaluatedSqlEntitiesOperations API from Microsoft Azure — 2 operation(s) for evaluatedsqlentitiesoperations.
   name: Microsoft Azure EvaluatedSqlEntitiesOperations API
   slug: microsoft-azure-evaluatedsqlentitiesoperations-api
-- description: The EvaluatedWebAppsOperations API from Microsoft Azure — 2 operation(s) for evaluatedwebappsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EvaluatedWebAppsOperations API from Microsoft Azure — 2 operation(s) for evaluatedwebappsoperations.
   name: Microsoft Azure EvaluatedWebAppsOperations API
   slug: microsoft-azure-evaluatedwebappsoperations-api
-- description: Manages evaluations operations.
+- baseURL: /personalizer
+  baseurl_source: spec
+  description: Manages evaluations operations.
   name: Microsoft Azure Evaluations20220901Preview API
   slug: microsoft-azure-evaluations20220901preview-api
-- description: Manages counterfactual evaluation operations.
+- baseURL: /personalizer/v1.1-preview.3
+  baseurl_source: spec
+  description: Manages counterfactual evaluation operations.
   name: Microsoft Azure EvaluationsV1Dot1Preview1 API
   slug: microsoft-azure-evaluationsv1dot1preview1-api
-- description: Event Controller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Event Controller.
   name: Microsoft Azure Event API
   slug: microsoft-azure-event-api
-- description: The Event Hubs Clusters Configuration API from Microsoft Azure — 1 operation(s) for event hubs clusters configuration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Event Hubs Clusters Configuration API from Microsoft Azure — 1 operation(s) for event hubs clusters configuration.
   name: Microsoft Azure Event Hubs Clusters Configuration API
   slug: microsoft-azure-event-hubs-clusters-configuration-api
-- description: The EventChannels API from Microsoft Azure — 2 operation(s) for eventchannels.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EventChannels API from Microsoft Azure — 2 operation(s) for eventchannels.
   name: Microsoft Azure EventChannels API
   slug: microsoft-azure-eventchannels-api
-- description: The EventHubConnections API from Microsoft Azure — 3 operation(s) for eventhubconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EventHubConnections API from Microsoft Azure — 3 operation(s) for eventhubconnections.
   name: Microsoft Azure EventHubConnections API
   slug: microsoft-azure-eventhubconnections-api
-- description: The EventImpactedResources API from Microsoft Azure — 4 operation(s) for eventimpactedresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The EventImpactedResources API from Microsoft Azure — 4 operation(s) for eventimpactedresources.
   name: Microsoft Azure EventImpactedResources API
   slug: microsoft-azure-eventimpactedresources-api
-- description: The EventRoutes API from Microsoft Azure — 2 operation(s) for eventroutes.
+- baseURL: https://digitaltwins-hostname
+  baseurl_source: spec
+  description: The EventRoutes API from Microsoft Azure — 2 operation(s) for eventroutes.
   name: Microsoft Azure EventRoutes API
   slug: microsoft-azure-eventroutes-api
-- description: The Events API from Microsoft Azure — 9 operation(s) for events.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Events API from Microsoft Azure — 9 operation(s) for events.
   name: Microsoft Azure Events API
   slug: microsoft-azure-events-api
-- description: The EventsController API from Microsoft Azure — 2 operation(s) for eventscontroller.
-  name: Microsoft Azure EventsController API
-  slug: microsoft-azure-eventscontroller-api
-- description: The EventSources API from Microsoft Azure — 2 operation(s) for eventsources.
-  name: Microsoft Azure EventSources API
-  slug: microsoft-azure-eventsources-api
-- description: The EventsStore API from Microsoft Azure — 13 operation(s) for eventsstore.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The EventsStore API from Microsoft Azure — 13 operation(s) for eventsstore.
   name: Microsoft Azure EventsStore API
   slug: microsoft-azure-eventsstore-api
-- description: The EventSubscriptions API from Microsoft Azure — 33 operation(s) for eventsubscriptions.
-  name: Microsoft Azure EventSubscriptions API
-  slug: microsoft-azure-eventsubscriptions-api
 - description: The Execution API from Microsoft Azure — 4 operation(s) for execution.
   name: Microsoft Azure Execution API
   slug: microsoft-azure-execution-api
-- description: The configuration of the Network Experiment experiments
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The configuration of the Network Experiment experiments
   name: Microsoft Azure Experiments API
   slug: microsoft-azure-experiments-api
-- description: The ExportJobsOperationResults API from Microsoft Azure — 1 operation(s) for exportjobsoperationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExportJobsOperationResults API from Microsoft Azure — 1 operation(s) for exportjobsoperationresults.
   name: Microsoft Azure ExportJobsOperationResults API
   slug: microsoft-azure-exportjobsoperationresults-api
-- description: The ExposureControl API from Microsoft Azure — 1 operation(s) for exposurecontrol.
+- baseURL: https://purview.azure.com/account/
+  baseurl_source: spec
+  description: The ExposureControl API from Microsoft Azure — 1 operation(s) for exposurecontrol.
   name: Microsoft Azure ExposureControl API
   slug: microsoft-azure-exposurecontrol-api
-- description: The ExpressRouteCircuitAuthorizations API from Microsoft Azure — 2 operation(s) for expressroutecircuitauthorizations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteCircuitAuthorizations API from Microsoft Azure — 2 operation(s) for expressroutecircuitauthorizations.
   name: Microsoft Azure ExpressRouteCircuitAuthorizations API
   slug: microsoft-azure-expressroutecircuitauthorizations-api
-- description: The ExpressRouteCircuitPeerings API from Microsoft Azure — 2 operation(s) for expressroutecircuitpeerings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteCircuitPeerings API from Microsoft Azure — 2 operation(s) for expressroutecircuitpeerings.
   name: Microsoft Azure ExpressRouteCircuitPeerings API
   slug: microsoft-azure-expressroutecircuitpeerings-api
-- description: The ExpressRouteCircuits API from Microsoft Azure — 6 operation(s) for expressroutecircuits.
-  name: Microsoft Azure ExpressRouteCircuits API
-  slug: microsoft-azure-expressroutecircuits-api
-- description: The ExpressRouteConnections API from Microsoft Azure — 2 operation(s) for expressrouteconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteConnections API from Microsoft Azure — 2 operation(s) for expressrouteconnections.
   name: Microsoft Azure ExpressRouteConnections API
   slug: microsoft-azure-expressrouteconnections-api
-- description: The ExpressRouteCrossConnectionArpTable API from Microsoft Azure — 1 operation(s) for expressroutecrossconnectionarptable.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteCrossConnectionArpTable API from Microsoft Azure — 1 operation(s) for expressroutecrossconnectionarptable.
   name: Microsoft Azure ExpressRouteCrossConnectionArpTable API
   slug: microsoft-azure-expressroutecrossconnectionarptable-api
-- description: The ExpressRouteCrossConnectionPeerings API from Microsoft Azure — 2 operation(s) for expressroutecrossconnectionpeerings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteCrossConnectionPeerings API from Microsoft Azure — 2 operation(s) for expressroutecrossconnectionpeerings.
   name: Microsoft Azure ExpressRouteCrossConnectionPeerings API
   slug: microsoft-azure-expressroutecrossconnectionpeerings-api
-- description: The ExpressRouteCrossConnectionRouteTable API from Microsoft Azure — 1 operation(s) for expressroutecrossconnectionroutetable.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteCrossConnectionRouteTable API from Microsoft Azure — 1 operation(s) for expressroutecrossconnectionroutetable.
   name: Microsoft Azure ExpressRouteCrossConnectionRouteTable API
   slug: microsoft-azure-expressroutecrossconnectionroutetable-api
-- description: The ExpressRouteCrossConnectionRouteTableSummary API from Microsoft Azure — 1 operation(s) for expressroutecrossconnectionroutetablesummary.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteCrossConnectionRouteTableSummary API from Microsoft Azure — 1 operation(s) for expressroutecrossconnectionroutetablesummary.
   name: Microsoft Azure ExpressRouteCrossConnectionRouteTableSummary API
   slug: microsoft-azure-expressroutecrossconnectionroutetablesummary-api
-- description: The ExpressRouteCrossConnections API from Microsoft Azure — 3 operation(s) for expressroutecrossconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteCrossConnections API from Microsoft Azure — 3 operation(s) for expressroutecrossconnections.
   name: Microsoft Azure ExpressRouteCrossConnections API
   slug: microsoft-azure-expressroutecrossconnections-api
-- description: The ExpressRouteGateways API from Microsoft Azure — 3 operation(s) for expressroutegateways.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteGateways API from Microsoft Azure — 3 operation(s) for expressroutegateways.
   name: Microsoft Azure ExpressRouteGateways API
   slug: microsoft-azure-expressroutegateways-api
-- description: The ExpressRouteServiceProviders API from Microsoft Azure — 1 operation(s) for expressrouteserviceproviders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRouteServiceProviders API from Microsoft Azure — 1 operation(s) for expressrouteserviceproviders.
   name: Microsoft Azure ExpressRouteServiceProviders API
   slug: microsoft-azure-expressrouteserviceproviders-api
-- description: The ExtendedZones API from Microsoft Azure — 4 operation(s) for extendedzones.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExtendedZones API from Microsoft Azure — 4 operation(s) for extendedzones.
   name: Microsoft Azure ExtendedZones API
   slug: microsoft-azure-extendedzones-api
-- description: The Extension Operation Status API from Microsoft Azure — 1 operation(s) for extension operation status.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Extension Operation Status API from Microsoft Azure — 1 operation(s) for extension operation status.
   name: Microsoft Azure Extension Operation Status API
   slug: microsoft-azure-extension-operation-status-api
-- description: The Extensions API from Microsoft Azure — 8 operation(s) for extensions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Extensions API from Microsoft Azure — 8 operation(s) for extensions.
   name: Microsoft Azure Extensions API
   slug: microsoft-azure-extensions-api
-- description: The ExtensionType API from Microsoft Azure — 1 operation(s) for extensiontype.
-  name: Microsoft Azure ExtensionType API
-  slug: microsoft-azure-extensiontype-api
-- description: The ExtensionTypes API from Microsoft Azure — 8 operation(s) for extensiontypes.
-  name: Microsoft Azure ExtensionTypes API
-  slug: microsoft-azure-extensiontypes-api
-- description: Fabric Controller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Fabric Controller.
   name: Microsoft Azure Fabric API
   slug: microsoft-azure-fabric-api
 - description: The Facelists API from Microsoft Azure — 4 operation(s) for facelists.
   name: Microsoft Azure Facelists API
   slug: microsoft-azure-facelists-api
-- description: The FarmBeatsExtensions API from Microsoft Azure — 2 operation(s) for farmbeatsextensions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FarmBeatsExtensions API from Microsoft Azure — 2 operation(s) for farmbeatsextensions.
   name: Microsoft Azure FarmBeatsExtensions API
   slug: microsoft-azure-farmbeatsextensions-api
-- description: The FarmBeatsModels API from Microsoft Azure — 3 operation(s) for farmbeatsmodels.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FarmBeatsModels API from Microsoft Azure — 3 operation(s) for farmbeatsmodels.
   name: Microsoft Azure FarmBeatsModels API
   slug: microsoft-azure-farmbeatsmodels-api
 - description: The FarmEquipments API from Microsoft Azure — 2 operation(s) for farmequipments.
@@ -1729,25 +2297,37 @@ apis:
 - description: The Farms API from Microsoft Azure — 4 operation(s) for farms.
   name: Microsoft Azure Farms API
   slug: microsoft-azure-farms-api
-- description: The Faults API from Microsoft Azure — 10 operation(s) for faults.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Faults API from Microsoft Azure — 10 operation(s) for faults.
   name: Microsoft Azure Faults API
   slug: microsoft-azure-faults-api
-- description: Manages feature importance operations.
+- baseURL: /personalizer
+  baseurl_source: spec
+  description: Manages feature importance operations.
   name: Microsoft Azure FeatureImportances20220901Preview API
   slug: microsoft-azure-featureimportances20220901preview-api
-- description: The Features API from Microsoft Azure — 13 operation(s) for features.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Features API from Microsoft Azure — 13 operation(s) for features.
   name: Microsoft Azure Features API
   slug: microsoft-azure-features-api
 - description: The featureStateSets API from Microsoft Azure — 3 operation(s) for featurestatesets.
   name: Microsoft Azure featureStateSets API
   slug: microsoft-azure-featurestatesets-api
-- description: The FeatureSupport API from Microsoft Azure — 1 operation(s) for featuresupport.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FeatureSupport API from Microsoft Azure — 1 operation(s) for featuresupport.
   name: Microsoft Azure FeatureSupport API
   slug: microsoft-azure-featuresupport-api
-- description: The Feedback API from Microsoft Azure — 5 operation(s) for feedback.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Feedback API from Microsoft Azure — 5 operation(s) for feedback.
   name: Microsoft Azure Feedback API
   slug: microsoft-azure-feedback-api
-- description: The FetchSecondaryRecoveryPoints API from Microsoft Azure — 1 operation(s) for fetchsecondaryrecoverypoints.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FetchSecondaryRecoveryPoints API from Microsoft Azure — 1 operation(s) for fetchsecondaryrecoverypoints.
   name: Microsoft Azure FetchSecondaryRecoveryPoints API
   slug: microsoft-azure-fetchsecondaryrecoverypoints-api
 - description: The Fields API from Microsoft Azure — 5 operation(s) for fields.
@@ -1759,40 +2339,43 @@ apis:
 - description: The File API from Microsoft Azure — 1 operation(s) for file.
   name: Microsoft Azure File API
   slug: microsoft-azure-file-api
-- description: The File Locks API from Microsoft Azure — 1 operation(s) for file locks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The File Locks API from Microsoft Azure — 1 operation(s) for file locks.
   name: Microsoft Azure File Locks API
   slug: microsoft-azure-file-locks-api
-- description: 'The Files: API from Microsoft Azure — 17 operation(s) for files:.'
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: 'The Files: API from Microsoft Azure — 17 operation(s) for files:.'
   name: 'Microsoft Azure Files: API'
   slug: microsoft-azure-files-api
-- description: The FileServers API from Microsoft Azure — 6 operation(s) for fileservers.
-  name: Microsoft Azure FileServers API
-  slug: microsoft-azure-fileservers-api
-- description: The FileShares API from Microsoft Azure — 5 operation(s) for fileshares.
-  name: Microsoft Azure FileShares API
-  slug: microsoft-azure-fileshares-api
 - description: The FileSystem API from Microsoft Azure — 2 operation(s) for filesystem.
   name: Microsoft Azure FileSystem API
   slug: microsoft-azure-filesystem-api
 - description: The Filesystem Operations API from Microsoft Azure — 1 operation(s) for filesystem operations.
   name: Microsoft Azure Filesystem Operations API
   slug: microsoft-azure-filesystem-operations-api
-- description: The FileSystems API from Microsoft Azure — 3 operation(s) for filesystems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FileSystems API from Microsoft Azure — 3 operation(s) for filesystems.
   name: Microsoft Azure FileSystems API
   slug: microsoft-azure-filesystems-api
-- description: The fileUploads API from Microsoft Azure — 1 operation(s) for fileuploads.
-  name: Microsoft Azure fileUploads API
-  slug: microsoft-azure-fileuploads-api
-- description: The FileWorkspaces API from Microsoft Azure — 2 operation(s) for fileworkspaces.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FileWorkspaces API from Microsoft Azure — 2 operation(s) for fileworkspaces.
   name: Microsoft Azure FileWorkspaces API
   slug: microsoft-azure-fileworkspaces-api
-- description: The Filters API from Microsoft Azure — 1 operation(s) for filters.
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The Filters API from Microsoft Azure — 1 operation(s) for filters.
   name: Microsoft Azure Filters API
   slug: microsoft-azure-filters-api
 - description: The Find and Purchase Available Phone Numbers API from Microsoft Azure — 3 operation(s) for find and purchase available phone numbers.
   name: Microsoft Azure Find and Purchase Available Phone Numbers API
   slug: microsoft-azure-find-and-purchase-available-phone-numbers-api
-- description: The FindRestorableTimeRanges API from Microsoft Azure — 1 operation(s) for findrestorabletimeranges.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FindRestorableTimeRanges API from Microsoft Azure — 1 operation(s) for findrestorabletimeranges.
   name: Microsoft Azure FindRestorableTimeRanges API
   slug: microsoft-azure-findrestorabletimeranges-api
 - description: The Findsimilars API from Microsoft Azure — 1 operation(s) for findsimilars.
@@ -1804,346 +2387,522 @@ apis:
 - description: 'The Fine-Tuning: API from Microsoft Azure — 4 operation(s) for fine-tuning:.'
   name: 'Microsoft Azure Fine-Tuning: API'
   slug: microsoft-azure-fine-tuning-api
-- description: The FirewallRules API from Microsoft Azure — 16 operation(s) for firewallrules.
-  name: Microsoft Azure FirewallRules API
-  slug: microsoft-azure-firewallrules-api
-- description: The Firewalls API from Microsoft Azure — 7 operation(s) for firewalls.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Firewalls API from Microsoft Azure — 7 operation(s) for firewalls.
   name: Microsoft Azure Firewalls API
   slug: microsoft-azure-firewalls-api
-- description: The FirewallStatus API from Microsoft Azure — 2 operation(s) for firewallstatus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FirewallStatus API from Microsoft Azure — 2 operation(s) for firewallstatus.
   name: Microsoft Azure FirewallStatus API
   slug: microsoft-azure-firewallstatus-api
-- description: The FleetMembers API from Microsoft Azure — 2 operation(s) for fleetmembers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FleetMembers API from Microsoft Azure — 2 operation(s) for fleetmembers.
   name: Microsoft Azure FleetMembers API
   slug: microsoft-azure-fleetmembers-api
-- description: The Fleets API from Microsoft Azure — 4 operation(s) for fleets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Fleets API from Microsoft Azure — 4 operation(s) for fleets.
   name: Microsoft Azure Fleets API
   slug: microsoft-azure-fleets-api
-- description: The FleetUpdateStrategies API from Microsoft Azure — 2 operation(s) for fleetupdatestrategies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FleetUpdateStrategies API from Microsoft Azure — 2 operation(s) for fleetupdatestrategies.
   name: Microsoft Azure FleetUpdateStrategies API
   slug: microsoft-azure-fleetupdatestrategies-api
-- description: The FluidRelayContainers API from Microsoft Azure — 2 operation(s) for fluidrelaycontainers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FluidRelayContainers API from Microsoft Azure — 2 operation(s) for fluidrelaycontainers.
   name: Microsoft Azure FluidRelayContainers API
   slug: microsoft-azure-fluidrelaycontainers-api
-- description: The FluidRelayOperations API from Microsoft Azure — 1 operation(s) for fluidrelayoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FluidRelayOperations API from Microsoft Azure — 1 operation(s) for fluidrelayoperations.
   name: Microsoft Azure FluidRelayOperations API
   slug: microsoft-azure-fluidrelayoperations-api
-- description: The FluidRelayServers API from Microsoft Azure — 5 operation(s) for fluidrelayservers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FluidRelayServers API from Microsoft Azure — 5 operation(s) for fluidrelayservers.
   name: Microsoft Azure FluidRelayServers API
   slug: microsoft-azure-fluidrelayservers-api
-- description: The Flux API from Microsoft Azure — 2 operation(s) for flux.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Flux API from Microsoft Azure — 2 operation(s) for flux.
   name: Microsoft Azure Flux API
   slug: microsoft-azure-flux-api
-- description: The FluxConfiguration API from Microsoft Azure — 2 operation(s) for fluxconfiguration.
-  name: Microsoft Azure FluxConfiguration API
-  slug: microsoft-azure-fluxconfiguration-api
-- description: The FluxConfiguration Operation Status API from Microsoft Azure — 1 operation(s) for fluxconfiguration operation status.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FluxConfiguration Operation Status API from Microsoft Azure — 1 operation(s) for fluxconfiguration operation status.
   name: Microsoft Azure FluxConfiguration Operation Status API
   slug: microsoft-azure-fluxconfiguration-operation-status-api
-- description: The Forecasts API from Microsoft Azure — 1 operation(s) for forecasts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Forecasts API from Microsoft Azure — 1 operation(s) for forecasts.
   name: Microsoft Azure Forecasts API
   slug: microsoft-azure-forecasts-api
 - description: The Form API from Microsoft Azure — 1 operation(s) for form.
   name: Microsoft Azure Form API
   slug: microsoft-azure-form-api
-- description: The Formulas API from Microsoft Azure — 2 operation(s) for formulas.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Formulas API from Microsoft Azure — 2 operation(s) for formulas.
   name: Microsoft Azure Formulas API
   slug: microsoft-azure-formulas-api
-- description: The ForwardingRules API from Microsoft Azure — 2 operation(s) for forwardingrules.
-  name: Microsoft Azure ForwardingRules API
-  slug: microsoft-azure-forwardingrules-api
-- description: The FqdnListGlobalRulestack API from Microsoft Azure — 2 operation(s) for fqdnlistglobalrulestack.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FqdnListGlobalRulestack API from Microsoft Azure — 2 operation(s) for fqdnlistglobalrulestack.
   name: Microsoft Azure FqdnListGlobalRulestack API
   slug: microsoft-azure-fqdnlistglobalrulestack-api
-- description: The FqdnListLocalRulestack API from Microsoft Azure — 2 operation(s) for fqdnlistlocalrulestack.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FqdnListLocalRulestack API from Microsoft Azure — 2 operation(s) for fqdnlistlocalrulestack.
   name: Microsoft Azure FqdnListLocalRulestack API
   slug: microsoft-azure-fqdnlistlocalrulestack-api
-- description: The FrontDoors API from Microsoft Azure — 9 operation(s) for frontdoors.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FrontDoors API from Microsoft Azure — 9 operation(s) for frontdoors.
   name: Microsoft Azure FrontDoors API
   slug: microsoft-azure-frontdoors-api
-- description: The FrontendsInterface API from Microsoft Azure — 2 operation(s) for frontendsinterface.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The FrontendsInterface API from Microsoft Azure — 2 operation(s) for frontendsinterface.
   name: Microsoft Azure FrontendsInterface API
   slug: microsoft-azure-frontendsinterface-api
-- description: The Galleries API from Microsoft Azure — 3 operation(s) for galleries.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Galleries API from Microsoft Azure — 3 operation(s) for galleries.
   name: Microsoft Azure Galleries API
   slug: microsoft-azure-galleries-api
-- description: The GalleryApplications API from Microsoft Azure — 2 operation(s) for galleryapplications.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GalleryApplications API from Microsoft Azure — 2 operation(s) for galleryapplications.
   name: Microsoft Azure GalleryApplications API
   slug: microsoft-azure-galleryapplications-api
-- description: The GalleryApplicationVersions API from Microsoft Azure — 2 operation(s) for galleryapplicationversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GalleryApplicationVersions API from Microsoft Azure — 2 operation(s) for galleryapplicationversions.
   name: Microsoft Azure GalleryApplicationVersions API
   slug: microsoft-azure-galleryapplicationversions-api
-- description: The GalleryImages API from Microsoft Azure — 5 operation(s) for galleryimages.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GalleryImages API from Microsoft Azure — 5 operation(s) for galleryimages.
   name: Microsoft Azure GalleryImages API
   slug: microsoft-azure-galleryimages-api
-- description: The GalleryImageVersions API from Microsoft Azure — 2 operation(s) for galleryimageversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GalleryImageVersions API from Microsoft Azure — 2 operation(s) for galleryimageversions.
   name: Microsoft Azure GalleryImageVersions API
   slug: microsoft-azure-galleryimageversions-api
-- description: The GalleryItems API from Microsoft Azure — 2 operation(s) for galleryitems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GalleryItems API from Microsoft Azure — 2 operation(s) for galleryitems.
   name: Microsoft Azure GalleryItems API
   slug: microsoft-azure-galleryitems-api
-- description: The GallerySharingUpdate API from Microsoft Azure — 1 operation(s) for gallerysharingupdate.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GallerySharingUpdate API from Microsoft Azure — 1 operation(s) for gallerysharingupdate.
   name: Microsoft Azure GallerySharingUpdate API
   slug: microsoft-azure-gallerysharingupdate-api
 - description: The General API from Microsoft Azure — 1 operation(s) for general.
   name: Microsoft Azure General API
   slug: microsoft-azure-general-api
-- description: The generateThumbnail API from Microsoft Azure — 1 operation(s) for generatethumbnail.
-  name: Microsoft Azure generateThumbnail API
-  slug: microsoft-azure-generatethumbnail-api
-- description: The Geocode API from Microsoft Azure — 2 operation(s) for geocode.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Geocode API from Microsoft Azure — 2 operation(s) for geocode.
   name: Microsoft Azure Geocode API
   slug: microsoft-azure-geocode-api
-- description: The Geolocation API from Microsoft Azure — 1 operation(s) for geolocation.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Geolocation API from Microsoft Azure — 1 operation(s) for geolocation.
   name: Microsoft Azure Geolocation API
   slug: microsoft-azure-geolocation-api
-- description: The GET API from Microsoft Azure — 19 operation(s) for get.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GET API from Microsoft Azure — 19 operation(s) for get.
   name: Microsoft Azure GET API
   slug: microsoft-azure-get-api
-- description: The Get Metadata Information API from Microsoft Azure — 1 operation(s) for get metadata information.
+- baseURL: http://169.254.169.254/metadata
+  baseurl_source: spec
+  description: The Get Metadata Information API from Microsoft Azure — 1 operation(s) for get metadata information.
   name: Microsoft Azure Get Metadata Information API
   slug: microsoft-azure-get-metadata-information-api
-- description: The Get Token API from Microsoft Azure — 1 operation(s) for get token.
+- baseURL: http://169.254.169.254/metadata
+  baseurl_source: spec
+  description: The Get Token API from Microsoft Azure — 1 operation(s) for get token.
   name: Microsoft Azure Get Token API
   slug: microsoft-azure-get-token-api
-- description: The GetAccessReviewDefaultSettings API from Microsoft Azure — 1 operation(s) for getaccessreviewdefaultsettings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewDefaultSettings API from Microsoft Azure — 1 operation(s) for getaccessreviewdefaultsettings.
   name: Microsoft Azure GetAccessReviewDefaultSettings API
   slug: microsoft-azure-getaccessreviewdefaultsettings-api
-- description: The GetAccessReviewHistoryDefinition API from Microsoft Azure — 1 operation(s) for getaccessreviewhistorydefinition.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewHistoryDefinition API from Microsoft Azure — 1 operation(s) for getaccessreviewhistorydefinition.
   name: Microsoft Azure GetAccessReviewHistoryDefinition API
   slug: microsoft-azure-getaccessreviewhistorydefinition-api
-- description: The GetAccessReviewHistoryDefinitionInstances API from Microsoft Azure — 1 operation(s) for getaccessreviewhistorydefinitioninstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewHistoryDefinitionInstances API from Microsoft Azure — 1 operation(s) for getaccessreviewhistorydefinitioninstances.
   name: Microsoft Azure GetAccessReviewHistoryDefinitionInstances API
   slug: microsoft-azure-getaccessreviewhistorydefinitioninstances-api
-- description: The GetAccessReviewHistoryDefinitions API from Microsoft Azure — 1 operation(s) for getaccessreviewhistorydefinitions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewHistoryDefinitions API from Microsoft Azure — 1 operation(s) for getaccessreviewhistorydefinitions.
   name: Microsoft Azure GetAccessReviewHistoryDefinitions API
   slug: microsoft-azure-getaccessreviewhistorydefinitions-api
-- description: The GetAccessReviewInstance API from Microsoft Azure — 2 operation(s) for getaccessreviewinstance.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewInstance API from Microsoft Azure — 2 operation(s) for getaccessreviewinstance.
   name: Microsoft Azure GetAccessReviewInstance API
   slug: microsoft-azure-getaccessreviewinstance-api
-- description: The GetAccessReviewInstanceContactedReviewers API from Microsoft Azure — 1 operation(s) for getaccessreviewinstancecontactedreviewers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewInstanceContactedReviewers API from Microsoft Azure — 1 operation(s) for getaccessreviewinstancecontactedreviewers.
   name: Microsoft Azure GetAccessReviewInstanceContactedReviewers API
   slug: microsoft-azure-getaccessreviewinstancecontactedreviewers-api
-- description: The GetAccessReviewInstanceDecisions API from Microsoft Azure — 1 operation(s) for getaccessreviewinstancedecisions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewInstanceDecisions API from Microsoft Azure — 1 operation(s) for getaccessreviewinstancedecisions.
   name: Microsoft Azure GetAccessReviewInstanceDecisions API
   slug: microsoft-azure-getaccessreviewinstancedecisions-api
-- description: The GetAccessReviewInstances API from Microsoft Azure — 1 operation(s) for getaccessreviewinstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewInstances API from Microsoft Azure — 1 operation(s) for getaccessreviewinstances.
   name: Microsoft Azure GetAccessReviewInstances API
   slug: microsoft-azure-getaccessreviewinstances-api
-- description: The GetAccessReviewInstancesAssignedForMyApproval API from Microsoft Azure — 1 operation(s) for getaccessreviewinstancesassignedformyapproval.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewInstancesAssignedForMyApproval API from Microsoft Azure — 1 operation(s) for getaccessreviewinstancesassignedformyapproval.
   name: Microsoft Azure GetAccessReviewInstancesAssignedForMyApproval API
   slug: microsoft-azure-getaccessreviewinstancesassignedformyapproval-api
-- description: The GetAccessReviewMyInstanceDecision API from Microsoft Azure — 1 operation(s) for getaccessreviewmyinstancedecision.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewMyInstanceDecision API from Microsoft Azure — 1 operation(s) for getaccessreviewmyinstancedecision.
   name: Microsoft Azure GetAccessReviewMyInstanceDecision API
   slug: microsoft-azure-getaccessreviewmyinstancedecision-api
-- description: The GetAccessReviewMyInstanceDecisions API from Microsoft Azure — 1 operation(s) for getaccessreviewmyinstancedecisions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewMyInstanceDecisions API from Microsoft Azure — 1 operation(s) for getaccessreviewmyinstancedecisions.
   name: Microsoft Azure GetAccessReviewMyInstanceDecisions API
   slug: microsoft-azure-getaccessreviewmyinstancedecisions-api
-- description: The GetAccessReviewScheduleDefinition API from Microsoft Azure — 1 operation(s) for getaccessreviewscheduledefinition.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewScheduleDefinition API from Microsoft Azure — 1 operation(s) for getaccessreviewscheduledefinition.
   name: Microsoft Azure GetAccessReviewScheduleDefinition API
   slug: microsoft-azure-getaccessreviewscheduledefinition-api
-- description: The GetAccessReviewScheduleDefinitions API from Microsoft Azure — 1 operation(s) for getaccessreviewscheduledefinitions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewScheduleDefinitions API from Microsoft Azure — 1 operation(s) for getaccessreviewscheduledefinitions.
   name: Microsoft Azure GetAccessReviewScheduleDefinitions API
   slug: microsoft-azure-getaccessreviewscheduledefinitions-api
-- description: The GetAccessReviewScheduleDefinitionsAssignedForMyApproval API from Microsoft Azure — 1 operation(s) for getaccessreviewscheduledefinitionsassignedformyapproval.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetAccessReviewScheduleDefinitionsAssignedForMyApproval API from Microsoft Azure — 1 operation(s) for getaccessreviewscheduledefinitionsassignedformyapproval.
   name: Microsoft Azure GetAccessReviewScheduleDefinitionsAssignedForMyApproval API
   slug: microsoft-azure-getaccessreviewscheduledefinitionsassignedformyapproval-api
-- description: The GetApiKeys API from Microsoft Azure — 1 operation(s) for getapikeys.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetApiKeys API from Microsoft Azure — 1 operation(s) for getapikeys.
   name: Microsoft Azure GetApiKeys API
   slug: microsoft-azure-getapikeys-api
-- description: The GetChange API from Microsoft Azure — 1 operation(s) for getchange.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetChange API from Microsoft Azure — 1 operation(s) for getchange.
   name: Microsoft Azure GetChange API
   slug: microsoft-azure-getchange-api
-- description: The GetOperationResult API from Microsoft Azure — 1 operation(s) for getoperationresult.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetOperationResult API from Microsoft Azure — 1 operation(s) for getoperationresult.
   name: Microsoft Azure GetOperationResult API
   slug: microsoft-azure-getoperationresult-api
-- description: The GetPrivateDnsZoneSuffix API from Microsoft Azure — 2 operation(s) for getprivatednszonesuffix.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetPrivateDnsZoneSuffix API from Microsoft Azure — 2 operation(s) for getprivatednszonesuffix.
   name: Microsoft Azure GetPrivateDnsZoneSuffix API
   slug: microsoft-azure-getprivatednszonesuffix-api
-- description: The GetSnapshot API from Microsoft Azure — 1 operation(s) for getsnapshot.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GetSnapshot API from Microsoft Azure — 1 operation(s) for getsnapshot.
   name: Microsoft Azure GetSnapshot API
   slug: microsoft-azure-getsnapshot-api
-- description: The GitHubOAuth API from Microsoft Azure — 3 operation(s) for githuboauth.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GitHubOAuth API from Microsoft Azure — 3 operation(s) for githuboauth.
   name: Microsoft Azure GitHubOAuth API
   slug: microsoft-azure-githuboauth-api
-- description: The Global API from Microsoft Azure — 15 operation(s) for global.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Global API from Microsoft Azure — 15 operation(s) for global.
   name: Microsoft Azure Global API
   slug: microsoft-azure-global-api
-- description: The Global Communications Site API from Microsoft Azure — 2 operation(s) for global communications site.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Global Communications Site API from Microsoft Azure — 2 operation(s) for global communications site.
   name: Microsoft Azure Global Communications Site API
   slug: microsoft-azure-global-communications-site-api
-- description: The GlobalCertificateOrder API from Microsoft Azure — 2 operation(s) for globalcertificateorder.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GlobalCertificateOrder API from Microsoft Azure — 2 operation(s) for globalcertificateorder.
   name: Microsoft Azure GlobalCertificateOrder API
   slug: microsoft-azure-globalcertificateorder-api
-- description: The GlobalDomainRegistration API from Microsoft Azure — 5 operation(s) for globaldomainregistration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GlobalDomainRegistration API from Microsoft Azure — 5 operation(s) for globaldomainregistration.
   name: Microsoft Azure GlobalDomainRegistration API
   slug: microsoft-azure-globaldomainregistration-api
-- description: The GlobalReachConnections API from Microsoft Azure — 2 operation(s) for globalreachconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GlobalReachConnections API from Microsoft Azure — 2 operation(s) for globalreachconnections.
   name: Microsoft Azure GlobalReachConnections API
   slug: microsoft-azure-globalreachconnections-api
-- description: The GlobalResourceGroups API from Microsoft Azure — 1 operation(s) for globalresourcegroups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GlobalResourceGroups API from Microsoft Azure — 1 operation(s) for globalresourcegroups.
   name: Microsoft Azure GlobalResourceGroups API
   slug: microsoft-azure-globalresourcegroups-api
-- description: The GlobalRulestack API from Microsoft Azure — 11 operation(s) for globalrulestack.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GlobalRulestack API from Microsoft Azure — 11 operation(s) for globalrulestack.
   name: Microsoft Azure GlobalRulestack API
   slug: microsoft-azure-globalrulestack-api
-- description: The GlobalSchedules API from Microsoft Azure — 5 operation(s) for globalschedules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GlobalSchedules API from Microsoft Azure — 5 operation(s) for globalschedules.
   name: Microsoft Azure GlobalSchedules API
   slug: microsoft-azure-globalschedules-api
-- description: The GlobalUsers API from Microsoft Azure — 10 operation(s) for globalusers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GlobalUsers API from Microsoft Azure — 10 operation(s) for globalusers.
   name: Microsoft Azure GlobalUsers API
   slug: microsoft-azure-globalusers-api
-- description: The Glossary API from Microsoft Azure — 28 operation(s) for glossary.
+- baseURL: /catalog/api
+  baseurl_source: spec
+  description: The Glossary API from Microsoft Azure — 28 operation(s) for glossary.
   name: Microsoft Azure Glossary API
   slug: microsoft-azure-glossary-api
 - description: The Gov API from Microsoft Azure — 23 operation(s) for gov.
   name: Microsoft Azure Gov API
   slug: microsoft-azure-gov-api
-- description: The GrafanaResource API from Microsoft Azure — 4 operation(s) for grafanaresource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GrafanaResource API from Microsoft Azure — 4 operation(s) for grafanaresource.
   name: Microsoft Azure GrafanaResource API
   slug: microsoft-azure-grafanaresource-api
-- description: The Grants API from Microsoft Azure — 3 operation(s) for grants.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Grants API from Microsoft Azure — 3 operation(s) for grants.
   name: Microsoft Azure Grants API
   slug: microsoft-azure-grants-api
-- description: The GraphQuery API from Microsoft Azure — 2 operation(s) for graphquery.
-  name: Microsoft Azure GraphQuery API
-  slug: microsoft-azure-graphquery-api
-- description: The Ground Station API from Microsoft Azure — 3 operation(s) for ground station.
-  name: Microsoft Azure Ground Station API
-  slug: microsoft-azure-ground-station-api
-- description: The Group API from Microsoft Azure — 10 operation(s) for group.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Group API from Microsoft Azure — 10 operation(s) for group.
   name: Microsoft Azure Group API
   slug: microsoft-azure-group-api
-- description: The Group ID List for LDAP User API from Microsoft Azure — 1 operation(s) for group id list for ldap user.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Group ID List for LDAP User API from Microsoft Azure — 1 operation(s) for group id list for ldap user.
   name: Microsoft Azure Group ID List for LDAP User API
   slug: microsoft-azure-group-id-list-for-ldap-user-api
-- description: The GroupOwners API from Microsoft Azure — 1 operation(s) for groupowners.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The GroupOwners API from Microsoft Azure — 1 operation(s) for groupowners.
   name: Microsoft Azure GroupOwners API
   slug: microsoft-azure-groupowners-api
-- description: The GroupsOperations API from Microsoft Azure — 3 operation(s) for groupsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GroupsOperations API from Microsoft Azure — 3 operation(s) for groupsoperations.
   name: Microsoft Azure GroupsOperations API
   slug: microsoft-azure-groupsoperations-api
-- description: The GroupsOwners API from Microsoft Azure — 2 operation(s) for groupsowners.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The GroupsOwners API from Microsoft Azure — 2 operation(s) for groupsowners.
   name: Microsoft Azure GroupsOwners API
   slug: microsoft-azure-groupsowners-api
-- description: The GroupUser API from Microsoft Azure — 2 operation(s) for groupuser.
-  name: Microsoft Azure GroupUser API
-  slug: microsoft-azure-groupuser-api
-- description: The GuestAgents API from Microsoft Azure — 4 operation(s) for guestagents.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestAgents API from Microsoft Azure — 4 operation(s) for guestagents.
   name: Microsoft Azure GuestAgents API
   slug: microsoft-azure-guestagents-api
-- description: The GuestConfigurationAssignmentHCRPReports API from Microsoft Azure — 2 operation(s) for guestconfigurationassignmenthcrpreports.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestConfigurationAssignmentHCRPReports API from Microsoft Azure — 2 operation(s) for guestconfigurationassignmenthcrpreports.
   name: Microsoft Azure GuestConfigurationAssignmentHCRPReports API
   slug: microsoft-azure-guestconfigurationassignmenthcrpreports-api
-- description: The GuestConfigurationAssignmentReports API from Microsoft Azure — 4 operation(s) for guestconfigurationassignmentreports.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestConfigurationAssignmentReports API from Microsoft Azure — 4 operation(s) for guestconfigurationassignmentreports.
   name: Microsoft Azure GuestConfigurationAssignmentReports API
   slug: microsoft-azure-guestconfigurationassignmentreports-api
-- description: The GuestConfigurationAssignments API from Microsoft Azure — 6 operation(s) for guestconfigurationassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestConfigurationAssignments API from Microsoft Azure — 6 operation(s) for guestconfigurationassignments.
   name: Microsoft Azure GuestConfigurationAssignments API
   slug: microsoft-azure-guestconfigurationassignments-api
-- description: The GuestConfigurationConnectedVMwarevSphereAssignments API from Microsoft Azure — 2 operation(s) for guestconfigurationconnectedvmwarevsphereassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestConfigurationConnectedVMwarevSphereAssignments API from Microsoft Azure — 2 operation(s) for guestconfigurationconnectedvmwarevsphereassignments.
   name: Microsoft Azure GuestConfigurationConnectedVMwarevSphereAssignments API
   slug: microsoft-azure-guestconfigurationconnectedvmwarevsphereassignments-api
-- description: The GuestConfigurationConnectedVMwarevSphereAssignmentsReports API from Microsoft Azure — 2 operation(s) for guestconfigurationconnectedvmwarevsphereassignmentsreports.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestConfigurationConnectedVMwarevSphereAssignmentsReports API from Microsoft Azure — 2 operation(s) for guestconfigurationconnectedvmwarevsphereassignmentsreports.
   name: Microsoft Azure GuestConfigurationConnectedVMwarevSphereAssignmentsReports API
   slug: microsoft-azure-guestconfigurationconnectedvmwarevsphereassignmentsreports-api
-- description: The GuestConfigurationHCRPAssignments API from Microsoft Azure — 2 operation(s) for guestconfigurationhcrpassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestConfigurationHCRPAssignments API from Microsoft Azure — 2 operation(s) for guestconfigurationhcrpassignments.
   name: Microsoft Azure GuestConfigurationHCRPAssignments API
   slug: microsoft-azure-guestconfigurationhcrpassignments-api
-- description: The GuestDiagnosticsSettings API from Microsoft Azure — 1 operation(s) for guestdiagnosticssettings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestDiagnosticsSettings API from Microsoft Azure — 1 operation(s) for guestdiagnosticssettings.
   name: Microsoft Azure GuestDiagnosticsSettings API
   slug: microsoft-azure-guestdiagnosticssettings-api
-- description: The GuestDiagnosticsSettingsAssociation API from Microsoft Azure — 1 operation(s) for guestdiagnosticssettingsassociation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestDiagnosticsSettingsAssociation API from Microsoft Azure — 1 operation(s) for guestdiagnosticssettingsassociation.
   name: Microsoft Azure GuestDiagnosticsSettingsAssociation API
   slug: microsoft-azure-guestdiagnosticssettingsassociation-api
-- description: The GuestUsages API from Microsoft Azure — 3 operation(s) for guestusages.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The GuestUsages API from Microsoft Azure — 3 operation(s) for guestusages.
   name: Microsoft Azure GuestUsages API
   slug: microsoft-azure-guestusages-api
-- description: The HanaOnAzure API from Microsoft Azure — 5 operation(s) for hanaonazure.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HanaOnAzure API from Microsoft Azure — 5 operation(s) for hanaonazure.
   name: Microsoft Azure HanaOnAzure API
   slug: microsoft-azure-hanaonazure-api
-- description: The HardwareComponentGroups API from Microsoft Azure — 2 operation(s) for hardwarecomponentgroups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HardwareComponentGroups API from Microsoft Azure — 2 operation(s) for hardwarecomponentgroups.
   name: Microsoft Azure HardwareComponentGroups API
   slug: microsoft-azure-hardwarecomponentgroups-api
 - description: The HarvestData API from Microsoft Azure — 5 operation(s) for harvestdata.
   name: Microsoft Azure HarvestData API
   slug: microsoft-azure-harvestdata-api
-- description: The HCIReports API from Microsoft Azure — 2 operation(s) for hcireports.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HCIReports API from Microsoft Azure — 2 operation(s) for hcireports.
   name: Microsoft Azure HCIReports API
   slug: microsoft-azure-hcireports-api
-- description: The HCRPReports API from Microsoft Azure — 2 operation(s) for hcrpreports.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HCRPReports API from Microsoft Azure — 2 operation(s) for hcrpreports.
   name: Microsoft Azure HCRPReports API
   slug: microsoft-azure-hcrpreports-api
-- description: The HcxEnterpriseSites API from Microsoft Azure — 2 operation(s) for hcxenterprisesites.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HcxEnterpriseSites API from Microsoft Azure — 2 operation(s) for hcxenterprisesites.
   name: Microsoft Azure HcxEnterpriseSites API
   slug: microsoft-azure-hcxenterprisesites-api
-- description: The HeatMaps API from Microsoft Azure — 1 operation(s) for heatmaps.
-  name: Microsoft Azure HeatMaps API
-  slug: microsoft-azure-heatmaps-api
 - description: The Hook API from Microsoft Azure — 2 operation(s) for hook.
   name: Microsoft Azure Hook API
   slug: microsoft-azure-hook-api
-- description: The HostingEnvironments API from Microsoft Azure — 33 operation(s) for hostingenvironments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HostingEnvironments API from Microsoft Azure — 33 operation(s) for hostingenvironments.
   name: Microsoft Azure HostingEnvironments API
   slug: microsoft-azure-hostingenvironments-api
-- description: The HostPool API from Microsoft Azure — 4 operation(s) for hostpool.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HostPool API from Microsoft Azure — 4 operation(s) for hostpool.
   name: Microsoft Azure HostPool API
   slug: microsoft-azure-hostpool-api
-- description: The Hosts API from Microsoft Azure — 4 operation(s) for hosts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Hosts API from Microsoft Azure — 4 operation(s) for hosts.
   name: Microsoft Azure Hosts API
   slug: microsoft-azure-hosts-api
-- description: The Hubs API from Microsoft Azure — 12 operation(s) for hubs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Hubs API from Microsoft Azure — 12 operation(s) for hubs.
   name: Microsoft Azure Hubs API
   slug: microsoft-azure-hubs-api
-- description: The Hybrid Use Benefit API from Microsoft Azure — 1 operation(s) for hybrid use benefit.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Hybrid Use Benefit API from Microsoft Azure — 1 operation(s) for hybrid use benefit.
   name: Microsoft Azure Hybrid Use Benefit API
   slug: microsoft-azure-hybrid-use-benefit-api
-- description: The Hybrid Use Benefit Revisions API from Microsoft Azure — 1 operation(s) for hybrid use benefit revisions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Hybrid Use Benefit Revisions API from Microsoft Azure — 1 operation(s) for hybrid use benefit revisions.
   name: Microsoft Azure Hybrid Use Benefit Revisions API
   slug: microsoft-azure-hybrid-use-benefit-revisions-api
-- description: The Hybrid Use Benefits API from Microsoft Azure — 1 operation(s) for hybrid use benefits.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Hybrid Use Benefits API from Microsoft Azure — 1 operation(s) for hybrid use benefits.
   name: Microsoft Azure Hybrid Use Benefits API
   slug: microsoft-azure-hybrid-use-benefits-api
-- description: The HybridIdentityMetadata API from Microsoft Azure — 4 operation(s) for hybrididentitymetadata.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HybridIdentityMetadata API from Microsoft Azure — 4 operation(s) for hybrididentitymetadata.
   name: Microsoft Azure HybridIdentityMetadata API
   slug: microsoft-azure-hybrididentitymetadata-api
 - description: The HyperDriveExperiment API from Microsoft Azure — 2 operation(s) for hyperdriveexperiment.
   name: Microsoft Azure HyperDriveExperiment API
   slug: microsoft-azure-hyperdriveexperiment-api
-- description: The HypervClusterController API from Microsoft Azure — 2 operation(s) for hypervclustercontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervClusterController API from Microsoft Azure — 2 operation(s) for hypervclustercontroller.
   name: Microsoft Azure HypervClusterController API
   slug: microsoft-azure-hypervclustercontroller-api
-- description: The HypervCollectorsOperations API from Microsoft Azure — 2 operation(s) for hypervcollectorsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervCollectorsOperations API from Microsoft Azure — 2 operation(s) for hypervcollectorsoperations.
   name: Microsoft Azure HypervCollectorsOperations API
   slug: microsoft-azure-hypervcollectorsoperations-api
-- description: The HypervDependencyMapController API from Microsoft Azure — 6 operation(s) for hypervdependencymapcontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervDependencyMapController API from Microsoft Azure — 6 operation(s) for hypervdependencymapcontroller.
   name: Microsoft Azure HypervDependencyMapController API
   slug: microsoft-azure-hypervdependencymapcontroller-api
-- description: The HypervHostController API from Microsoft Azure — 2 operation(s) for hypervhostcontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervHostController API from Microsoft Azure — 2 operation(s) for hypervhostcontroller.
   name: Microsoft Azure HypervHostController API
   slug: microsoft-azure-hypervhostcontroller-api
-- description: The HypervJobs API from Microsoft Azure — 2 operation(s) for hypervjobs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervJobs API from Microsoft Azure — 2 operation(s) for hypervjobs.
   name: Microsoft Azure HypervJobs API
   slug: microsoft-azure-hypervjobs-api
-- description: The HypervJobsController API from Microsoft Azure — 2 operation(s) for hypervjobscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervJobsController API from Microsoft Azure — 2 operation(s) for hypervjobscontroller.
   name: Microsoft Azure HypervJobsController API
   slug: microsoft-azure-hypervjobscontroller-api
-- description: The HypervMachinesController API from Microsoft Azure — 3 operation(s) for hypervmachinescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervMachinesController API from Microsoft Azure — 3 operation(s) for hypervmachinescontroller.
   name: Microsoft Azure HypervMachinesController API
   slug: microsoft-azure-hypervmachinescontroller-api
-- description: The HypervOperationsStatusController API from Microsoft Azure — 1 operation(s) for hypervoperationsstatuscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervOperationsStatusController API from Microsoft Azure — 1 operation(s) for hypervoperationsstatuscontroller.
   name: Microsoft Azure HypervOperationsStatusController API
   slug: microsoft-azure-hypervoperationsstatuscontroller-api
-- description: The HypervRunAsAccountsController API from Microsoft Azure — 2 operation(s) for hypervrunasaccountscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervRunAsAccountsController API from Microsoft Azure — 2 operation(s) for hypervrunasaccountscontroller.
   name: Microsoft Azure HypervRunAsAccountsController API
   slug: microsoft-azure-hypervrunasaccountscontroller-api
-- description: The HypervSites API from Microsoft Azure — 2 operation(s) for hypervsites.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervSites API from Microsoft Azure — 2 operation(s) for hypervsites.
   name: Microsoft Azure HypervSites API
   slug: microsoft-azure-hypervsites-api
-- description: The HypervSitesController API from Microsoft Azure — 7 operation(s) for hypervsitescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervSitesController API from Microsoft Azure — 7 operation(s) for hypervsitescontroller.
   name: Microsoft Azure HypervSitesController API
   slug: microsoft-azure-hypervsitescontroller-api
-- description: The HypervSoftwareInventoriesController API from Microsoft Azure — 2 operation(s) for hypervsoftwareinventoriescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The HypervSoftwareInventoriesController API from Microsoft Azure — 2 operation(s) for hypervsoftwareinventoriescontroller.
   name: Microsoft Azure HypervSoftwareInventoriesController API
   slug: microsoft-azure-hypervsoftwareinventoriescontroller-api
 - description: The Identify API from Microsoft Azure — 1 operation(s) for identify.
@@ -2152,73 +2911,83 @@ apis:
 - description: The Identity API from Microsoft Azure — 3 operation(s) for identity.
   name: Microsoft Azure Identity API
   slug: microsoft-azure-identity-api
-- description: The IisWebApplicationsController API from Microsoft Azure — 2 operation(s) for iiswebapplicationscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IisWebApplicationsController API from Microsoft Azure — 2 operation(s) for iiswebapplicationscontroller.
   name: Microsoft Azure IisWebApplicationsController API
   slug: microsoft-azure-iiswebapplicationscontroller-api
-- description: The IisWebServersController API from Microsoft Azure — 2 operation(s) for iiswebserverscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IisWebServersController API from Microsoft Azure — 2 operation(s) for iiswebserverscontroller.
   name: Microsoft Azure IisWebServersController API
   slug: microsoft-azure-iiswebserverscontroller-api
 - description: The Image:analyze API from Microsoft Azure — 1 operation(s) for image:analyze.
   name: Microsoft Azure Image:analyze API
   slug: microsoft-azure-image-analyze-api
-- description: The Imageanalysis:analyze API from Microsoft Azure — 1 operation(s) for imageanalysis:analyze.
-  name: Microsoft Azure Imageanalysis:analyze API
-  slug: microsoft-azure-imageanalysis-analyze-api
-- description: The ImageApi API from Microsoft Azure — 15 operation(s) for imageapi.
-  name: Microsoft Azure ImageApi API
-  slug: microsoft-azure-imageapi-api
-- description: The ImageDetailSearch API from Microsoft Azure — 1 operation(s) for imagedetailsearch.
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The ImageDetailSearch API from Microsoft Azure — 1 operation(s) for imagedetailsearch.
   name: Microsoft Azure ImageDetailSearch API
   slug: microsoft-azure-imagedetailsearch-api
 - description: The ImageModeration API from Microsoft Azure — 4 operation(s) for imagemoderation.
   name: Microsoft Azure ImageModeration API
   slug: microsoft-azure-imagemoderation-api
-- description: The ImagePredictionApi API from Microsoft Azure — 12 operation(s) for imagepredictionapi.
+- baseURL: https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/prediction
+  baseurl_source: spec
+  description: The ImagePredictionApi API from Microsoft Azure — 12 operation(s) for imagepredictionapi.
   name: Microsoft Azure ImagePredictionApi API
   slug: microsoft-azure-imagepredictionapi-api
-- description: The ImageProcessing API from Microsoft Azure — 1 operation(s) for imageprocessing.
-  name: Microsoft Azure ImageProcessing API
-  slug: microsoft-azure-imageprocessing-api
-- description: The ImageRegionProposalApi API from Microsoft Azure — 2 operation(s) for imageregionproposalapi.
+- baseURL: https://southcentralus.api.cognitive.microsoft.com/customvision/v3.3/training
+  baseurl_source: spec
+  description: The ImageRegionProposalApi API from Microsoft Azure — 2 operation(s) for imageregionproposalapi.
   name: Microsoft Azure ImageRegionProposalApi API
   slug: microsoft-azure-imageregionproposalapi-api
 - description: The ImageRetrieval API from Microsoft Azure — 2 operation(s) for imageretrieval.
   name: Microsoft Azure ImageRetrieval API
   slug: microsoft-azure-imageretrieval-api
-- description: The Images API from Microsoft Azure — 10 operation(s) for images.
+- baseURL_template: https://{endpoint}/openai
+  baseurl_source: spec_template
+  description: The Images API from Microsoft Azure — 10 operation(s) for images.
   name: Microsoft Azure Images API
   slug: microsoft-azure-images-api
-- description: The ImageSearch API from Microsoft Azure — 1 operation(s) for imagesearch.
-  name: Microsoft Azure ImageSearch API
-  slug: microsoft-azure-imagesearch-api
-- description: The ImageStore API from Microsoft Azure — 11 operation(s) for imagestore.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The ImageStore API from Microsoft Azure — 11 operation(s) for imagestore.
   name: Microsoft Azure ImageStore API
   slug: microsoft-azure-imagestore-api
-- description: The ImageTrendingSearch API from Microsoft Azure — 1 operation(s) for imagetrendingsearch.
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The ImageTrendingSearch API from Microsoft Azure — 1 operation(s) for imagetrendingsearch.
   name: Microsoft Azure ImageTrendingSearch API
   slug: microsoft-azure-imagetrendingsearch-api
-- description: The ImageVisualSearch API from Microsoft Azure — 1 operation(s) for imagevisualsearch.
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The ImageVisualSearch API from Microsoft Azure — 1 operation(s) for imagevisualsearch.
   name: Microsoft Azure ImageVisualSearch API
   slug: microsoft-azure-imagevisualsearch-api
-- description: The ImportCollectorsOperations API from Microsoft Azure — 2 operation(s) for importcollectorsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ImportCollectorsOperations API from Microsoft Azure — 2 operation(s) for importcollectorsoperations.
   name: Microsoft Azure ImportCollectorsOperations API
   slug: microsoft-azure-importcollectorsoperations-api
-- description: The ImportExport API from Microsoft Azure — 3 operation(s) for importexport.
-  name: Microsoft Azure ImportExport API
-  slug: microsoft-azure-importexport-api
-- description: The ImportJobs API from Microsoft Azure — 3 operation(s) for importjobs.
-  name: Microsoft Azure ImportJobs API
-  slug: microsoft-azure-importjobs-api
-- description: The ImportJobsController API from Microsoft Azure — 8 operation(s) for importjobscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ImportJobsController API from Microsoft Azure — 8 operation(s) for importjobscontroller.
   name: Microsoft Azure ImportJobsController API
   slug: microsoft-azure-importjobscontroller-api
-- description: The ImportMachinesController API from Microsoft Azure — 2 operation(s) for importmachinescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ImportMachinesController API from Microsoft Azure — 2 operation(s) for importmachinescontroller.
   name: Microsoft Azure ImportMachinesController API
   slug: microsoft-azure-importmachinescontroller-api
-- description: The ImportSitesController API from Microsoft Azure — 6 operation(s) for importsitescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ImportSitesController API from Microsoft Azure — 6 operation(s) for importsitescontroller.
   name: Microsoft Azure ImportSitesController API
   slug: microsoft-azure-importsitescontroller-api
-- description: The InboundEndpoints API from Microsoft Azure — 2 operation(s) for inboundendpoints.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The InboundEndpoints API from Microsoft Azure — 2 operation(s) for inboundendpoints.
   name: Microsoft Azure InboundEndpoints API
   slug: microsoft-azure-inboundendpoints-api
 - description: The Indexers API from Microsoft Azure — 5 operation(s) for indexers.
@@ -2227,94 +2996,129 @@ apis:
 - description: The Indexes API from Microsoft Azure — 8 operation(s) for indexes.
   name: Microsoft Azure Indexes API
   slug: microsoft-azure-indexes-api
-- description: The IndividualEnrollment API from Microsoft Azure — 4 operation(s) for individualenrollment.
+- baseURL: https://your-dps.azure-devices-provisioning.net
+  baseurl_source: spec
+  description: The IndividualEnrollment API from Microsoft Azure — 4 operation(s) for individualenrollment.
   name: Microsoft Azure IndividualEnrollment API
   slug: microsoft-azure-individualenrollment-api
 - description: The Info API from Microsoft Azure — 1 operation(s) for info.
   name: Microsoft Azure Info API
   slug: microsoft-azure-info-api
-- description: The Infrastructure API from Microsoft Azure — 2 operation(s) for infrastructure.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Infrastructure API from Microsoft Azure — 2 operation(s) for infrastructure.
   name: Microsoft Azure Infrastructure API
   slug: microsoft-azure-infrastructure-api
-- description: The InfrastructureResources API from Microsoft Azure — 2 operation(s) for infrastructureresources.
-  name: Microsoft Azure InfrastructureResources API
-  slug: microsoft-azure-infrastructureresources-api
 - description: 'The Ingestion: API from Microsoft Azure — 2 operation(s) for ingestion:.'
   name: 'Microsoft Azure Ingestion: API'
   slug: microsoft-azure-ingestion-api
 - description: The IngestionJob API from Microsoft Azure — 1 operation(s) for ingestionjob.
   name: Microsoft Azure IngestionJob API
   slug: microsoft-azure-ingestionjob-api
-- description: The IngestionStatus API from Microsoft Azure — 3 operation(s) for ingestionstatus.
-  name: Microsoft Azure IngestionStatus API
-  slug: microsoft-azure-ingestionstatus-api
 - description: The InsightAttachments API from Microsoft Azure — 3 operation(s) for insightattachments.
   name: Microsoft Azure InsightAttachments API
   slug: microsoft-azure-insightattachments-api
 - description: The Insights API from Microsoft Azure — 3 operation(s) for insights.
   name: Microsoft Azure Insights API
   slug: microsoft-azure-insights-api
-- description: The Instance API from Microsoft Azure — 1 operation(s) for instance.
+- baseURL: http://169.254.169.254/metadata
+  baseurl_source: spec
+  description: The Instance API from Microsoft Azure — 1 operation(s) for instance.
   name: Microsoft Azure Instance API
   slug: microsoft-azure-instance-api
-- description: The Instances API from Microsoft Azure — 10 operation(s) for instances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Instances API from Microsoft Azure — 10 operation(s) for instances.
   name: Microsoft Azure Instances API
   slug: microsoft-azure-instances-api
-- description: The IntegrationAccountAgreements API from Microsoft Azure — 3 operation(s) for integrationaccountagreements.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountAgreements API from Microsoft Azure — 3 operation(s) for integrationaccountagreements.
   name: Microsoft Azure IntegrationAccountAgreements API
   slug: microsoft-azure-integrationaccountagreements-api
-- description: The IntegrationAccountAssemblies API from Microsoft Azure — 3 operation(s) for integrationaccountassemblies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountAssemblies API from Microsoft Azure — 3 operation(s) for integrationaccountassemblies.
   name: Microsoft Azure IntegrationAccountAssemblies API
   slug: microsoft-azure-integrationaccountassemblies-api
-- description: The IntegrationAccountBatchConfigurations API from Microsoft Azure — 2 operation(s) for integrationaccountbatchconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountBatchConfigurations API from Microsoft Azure — 2 operation(s) for integrationaccountbatchconfigurations.
   name: Microsoft Azure IntegrationAccountBatchConfigurations API
   slug: microsoft-azure-integrationaccountbatchconfigurations-api
-- description: The IntegrationAccountCertificates API from Microsoft Azure — 2 operation(s) for integrationaccountcertificates.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountCertificates API from Microsoft Azure — 2 operation(s) for integrationaccountcertificates.
   name: Microsoft Azure IntegrationAccountCertificates API
   slug: microsoft-azure-integrationaccountcertificates-api
-- description: The IntegrationAccountMaps API from Microsoft Azure — 3 operation(s) for integrationaccountmaps.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountMaps API from Microsoft Azure — 3 operation(s) for integrationaccountmaps.
   name: Microsoft Azure IntegrationAccountMaps API
   slug: microsoft-azure-integrationaccountmaps-api
-- description: The IntegrationAccountPartners API from Microsoft Azure — 3 operation(s) for integrationaccountpartners.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountPartners API from Microsoft Azure — 3 operation(s) for integrationaccountpartners.
   name: Microsoft Azure IntegrationAccountPartners API
   slug: microsoft-azure-integrationaccountpartners-api
-- description: The IntegrationAccounts API from Microsoft Azure — 7 operation(s) for integrationaccounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccounts API from Microsoft Azure — 7 operation(s) for integrationaccounts.
   name: Microsoft Azure IntegrationAccounts API
   slug: microsoft-azure-integrationaccounts-api
-- description: The IntegrationAccountSchemas API from Microsoft Azure — 3 operation(s) for integrationaccountschemas.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountSchemas API from Microsoft Azure — 3 operation(s) for integrationaccountschemas.
   name: Microsoft Azure IntegrationAccountSchemas API
   slug: microsoft-azure-integrationaccountschemas-api
-- description: The IntegrationAccountSessions API from Microsoft Azure — 2 operation(s) for integrationaccountsessions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IntegrationAccountSessions API from Microsoft Azure — 2 operation(s) for integrationaccountsessions.
   name: Microsoft Azure IntegrationAccountSessions API
   slug: microsoft-azure-integrationaccountsessions-api
-- description: The IntegrationRuntimes API from Microsoft Azure — 7 operation(s) for integrationruntimes.
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The IntegrationRuntimes API from Microsoft Azure — 7 operation(s) for integrationruntimes.
   name: Microsoft Azure IntegrationRuntimes API
   slug: microsoft-azure-integrationruntimes-api
-- description: The Interactions API from Microsoft Azure — 3 operation(s) for interactions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Interactions API from Microsoft Azure — 3 operation(s) for interactions.
   name: Microsoft Azure Interactions API
   slug: microsoft-azure-interactions-api
-- description: The InventoryItems API from Microsoft Azure — 4 operation(s) for inventoryitems.
-  name: Microsoft Azure InventoryItems API
-  slug: microsoft-azure-inventoryitems-api
-- description: The Invitation API from Microsoft Azure — 2 operation(s) for invitation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Invitation API from Microsoft Azure — 2 operation(s) for invitation.
   name: Microsoft Azure Invitation API
   slug: microsoft-azure-invitation-api
-- description: The Invoices API from Microsoft Azure — 3 operation(s) for invoices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Invoices API from Microsoft Azure — 3 operation(s) for invoices.
   name: Microsoft Azure Invoices API
   slug: microsoft-azure-invoices-api
-- description: The IotDpsResource API from Microsoft Azure — 12 operation(s) for iotdpsresource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IotDpsResource API from Microsoft Azure — 12 operation(s) for iotdpsresource.
   name: Microsoft Azure IotDpsResource API
   slug: microsoft-azure-iotdpsresource-api
-- description: The IscsiDisks API from Microsoft Azure — 5 operation(s) for iscsidisks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IscsiDisks API from Microsoft Azure — 5 operation(s) for iscsidisks.
   name: Microsoft Azure IscsiDisks API
   slug: microsoft-azure-iscsidisks-api
-- description: The IscsiServers API from Microsoft Azure — 6 operation(s) for iscsiservers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The IscsiServers API from Microsoft Azure — 6 operation(s) for iscsiservers.
   name: Microsoft Azure IscsiServers API
   slug: microsoft-azure-iscsiservers-api
-- description: APIs for iSCSI target operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: APIs for iSCSI target operations.
   name: Microsoft Azure IscsiTargets API
   slug: microsoft-azure-iscsitargets-api
-- description: The ItemLevelRecoveryConnections API from Microsoft Azure — 2 operation(s) for itemlevelrecoveryconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ItemLevelRecoveryConnections API from Microsoft Azure — 2 operation(s) for itemlevelrecoveryconnections.
   name: Microsoft Azure ItemLevelRecoveryConnections API
   slug: microsoft-azure-itemlevelrecoveryconnections-api
 - baseURL_template: https://{accountName}.documents.azure.com
@@ -2322,46 +3126,60 @@ apis:
   description: Operations for managing items (documents)
   name: Microsoft Azure Items API
   slug: microsoft-azure-items-api
-- description: The JitRequests API from Microsoft Azure — 3 operation(s) for jitrequests.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The JitRequests API from Microsoft Azure — 3 operation(s) for jitrequests.
   name: Microsoft Azure JitRequests API
   slug: microsoft-azure-jitrequests-api
 - description: The Job API from Microsoft Azure — 18 operation(s) for job.
   name: Microsoft Azure Job API
   slug: microsoft-azure-job-api
-- description: The JobCancellations API from Microsoft Azure — 1 operation(s) for jobcancellations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The JobCancellations API from Microsoft Azure — 1 operation(s) for jobcancellations.
   name: Microsoft Azure JobCancellations API
   slug: microsoft-azure-jobcancellations-api
-- description: The JobCollections API from Microsoft Azure — 5 operation(s) for jobcollections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The JobCollections API from Microsoft Azure — 5 operation(s) for jobcollections.
   name: Microsoft Azure JobCollections API
   slug: microsoft-azure-jobcollections-api
-- description: The JobDefinitions API from Microsoft Azure — 8 operation(s) for jobdefinitions.
-  name: Microsoft Azure JobDefinitions API
-  slug: microsoft-azure-jobdefinitions-api
-- description: The JobDetails API from Microsoft Azure — 1 operation(s) for jobdetails.
-  name: Microsoft Azure JobDetails API
-  slug: microsoft-azure-jobdetails-api
-- description: The JobOperationResults API from Microsoft Azure — 1 operation(s) for joboperationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The JobOperationResults API from Microsoft Azure — 1 operation(s) for joboperationresults.
   name: Microsoft Azure JobOperationResults API
   slug: microsoft-azure-joboperationresults-api
-- description: The JobRuns API from Microsoft Azure — 2 operation(s) for jobruns.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The JobRuns API from Microsoft Azure — 2 operation(s) for jobruns.
   name: Microsoft Azure JobRuns API
   slug: microsoft-azure-jobruns-api
-- description: The Jobs API from Microsoft Azure — 45 operation(s) for jobs.
+- baseURL: /api
+  baseurl_source: spec
+  description: The Jobs API from Microsoft Azure — 45 operation(s) for jobs.
   name: Microsoft Azure Jobs API
   slug: microsoft-azure-jobs-api
 - description: The Jobschedules API from Microsoft Azure — 6 operation(s) for jobschedules.
   name: Microsoft Azure Jobschedules API
   slug: microsoft-azure-jobschedules-api
-- description: The JoinRequest API from Microsoft Azure — 5 operation(s) for joinrequest.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The JoinRequest API from Microsoft Azure — 5 operation(s) for joinrequest.
   name: Microsoft Azure JoinRequest API
   slug: microsoft-azure-joinrequest-api
-- description: The KafkaConnector API from Microsoft Azure — 2 operation(s) for kafkaconnector.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The KafkaConnector API from Microsoft Azure — 2 operation(s) for kafkaconnector.
   name: Microsoft Azure KafkaConnector API
   slug: microsoft-azure-kafkaconnector-api
-- description: The KafkaConnectorTopicMap API from Microsoft Azure — 2 operation(s) for kafkaconnectortopicmap.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The KafkaConnectorTopicMap API from Microsoft Azure — 2 operation(s) for kafkaconnectortopicmap.
   name: Microsoft Azure KafkaConnectorTopicMap API
   slug: microsoft-azure-kafkaconnectortopicmap-api
-- description: The Key API from Microsoft Azure — 2 operation(s) for key.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Key API from Microsoft Azure — 2 operation(s) for key.
   name: Microsoft Azure Key API
   slug: microsoft-azure-key-api
 - description: The keyPhrases API from Microsoft Azure — 1 operation(s) for keyphrases.
@@ -2372,34 +3190,49 @@ apis:
   description: The Keys API from Microsoft Azure — 6 operation(s) for keys.
   name: Microsoft Azure Keys API
   slug: microsoft-azure-keys-api
-- description: The KeyValues API from Microsoft Azure — 4 operation(s) for keyvalues.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The KeyValues API from Microsoft Azure — 4 operation(s) for keyvalues.
   name: Microsoft Azure KeyValues API
   slug: microsoft-azure-keyvalues-api
-- description: The KeyVault API from Microsoft Azure — 1 operation(s) for keyvault.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The KeyVault API from Microsoft Azure — 1 operation(s) for keyvault.
   name: Microsoft Azure KeyVault API
   slug: microsoft-azure-keyvault-api
-- description: The Knowledgebases API from Microsoft Azure — 6 operation(s) for knowledgebases.
-  name: Microsoft Azure Knowledgebases API
-  slug: microsoft-azure-knowledgebases-api
-- description: The Kpi API from Microsoft Azure — 3 operation(s) for kpi.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Kpi API from Microsoft Azure — 3 operation(s) for kpi.
   name: Microsoft Azure Kpi API
   slug: microsoft-azure-kpi-api
-- description: The KubeEnvironments API from Microsoft Azure — 3 operation(s) for kubeenvironments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The KubeEnvironments API from Microsoft Azure — 3 operation(s) for kubeenvironments.
   name: Microsoft Azure KubeEnvironments API
   slug: microsoft-azure-kubeenvironments-api
-- description: The L2 Connection API from Microsoft Azure — 5 operation(s) for l2 connection.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The L2 Connection API from Microsoft Azure — 5 operation(s) for l2 connection.
   name: Microsoft Azure L2 Connection API
   slug: microsoft-azure-l2-connection-api
-- description: The LabAccounts API from Microsoft Azure — 5 operation(s) for labaccounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LabAccounts API from Microsoft Azure — 5 operation(s) for labaccounts.
   name: Microsoft Azure LabAccounts API
   slug: microsoft-azure-labaccounts-api
-- description: The Labels API from Microsoft Azure — 3 operation(s) for labels.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Labels API from Microsoft Azure — 3 operation(s) for labels.
   name: Microsoft Azure Labels API
   slug: microsoft-azure-labels-api
-- description: The Labs API from Microsoft Azure — 17 operation(s) for labs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Labs API from Microsoft Azure — 17 operation(s) for labs.
   name: Microsoft Azure Labs API
   slug: microsoft-azure-labs-api
-- description: The Languages API from Microsoft Azure — 2 operation(s) for languages.
+- baseURL: https://api.cognitive.microsofttranslator.com
+  baseurl_source: spec
+  description: The Languages API from Microsoft Azure — 2 operation(s) for languages.
   name: Microsoft Azure Languages API
   slug: microsoft-azure-languages-api
 - description: The Largefacelists API from Microsoft Azure — 6 operation(s) for largefacelists.
@@ -2414,22 +3247,34 @@ apis:
 - description: The ledgerIdentity API from Microsoft Azure — 1 operation(s) for ledgeridentity.
   name: Microsoft Azure ledgerIdentity API
   slug: microsoft-azure-ledgeridentity-api
-- description: The LegacyPeerings API from Microsoft Azure — 1 operation(s) for legacypeerings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LegacyPeerings API from Microsoft Azure — 1 operation(s) for legacypeerings.
   name: Microsoft Azure LegacyPeerings API
   slug: microsoft-azure-legacypeerings-api
-- description: The Lineage API from Microsoft Azure — 4 operation(s) for lineage.
+- baseURL: /catalog/api
+  baseurl_source: spec
+  description: The Lineage API from Microsoft Azure — 4 operation(s) for lineage.
   name: Microsoft Azure Lineage API
   slug: microsoft-azure-lineage-api
-- description: The LinkedResources API from Microsoft Azure — 2 operation(s) for linkedresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LinkedResources API from Microsoft Azure — 2 operation(s) for linkedresources.
   name: Microsoft Azure LinkedResources API
   slug: microsoft-azure-linkedresources-api
-- description: The Linkers API from Microsoft Azure — 7 operation(s) for linkers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Linkers API from Microsoft Azure — 7 operation(s) for linkers.
   name: Microsoft Azure Linkers API
   slug: microsoft-azure-linkers-api
-- description: The Links API from Microsoft Azure — 2 operation(s) for links.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Links API from Microsoft Azure — 2 operation(s) for links.
   name: Microsoft Azure Links API
   slug: microsoft-azure-links-api
-- description: The ListChanges API from Microsoft Azure — 1 operation(s) for listchanges.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ListChanges API from Microsoft Azure — 1 operation(s) for listchanges.
   name: Microsoft Azure ListChanges API
   slug: microsoft-azure-listchanges-api
 - description: The ListManagementImage API from Microsoft Azure — 2 operation(s) for listmanagementimage.
@@ -2444,100 +3289,143 @@ apis:
 - description: The ListManagementTermLists API from Microsoft Azure — 3 operation(s) for listmanagementtermlists.
   name: Microsoft Azure ListManagementTermLists API
   slug: microsoft-azure-listmanagementtermlists-api
-- description: The ListQnAMakerEndpointKeys API from Microsoft Azure — 1 operation(s) for listqnamakerendpointkeys.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ListQnAMakerEndpointKeys API from Microsoft Azure — 1 operation(s) for listqnamakerendpointkeys.
   name: Microsoft Azure ListQnAMakerEndpointKeys API
   slug: microsoft-azure-listqnamakerendpointkeys-api
-- description: The ListServiceProviders API from Microsoft Azure — 1 operation(s) for listserviceproviders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ListServiceProviders API from Microsoft Azure — 1 operation(s) for listserviceproviders.
   name: Microsoft Azure ListServiceProviders API
   slug: microsoft-azure-listserviceproviders-api
-- description: The ListSnapshots API from Microsoft Azure — 1 operation(s) for listsnapshots.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ListSnapshots API from Microsoft Azure — 1 operation(s) for listsnapshots.
   name: Microsoft Azure ListSnapshots API
   slug: microsoft-azure-listsnapshots-api
-- description: The LoadBalancers API from Microsoft Azure — 5 operation(s) for loadbalancers.
-  name: Microsoft Azure LoadBalancers API
-  slug: microsoft-azure-loadbalancers-api
-- description: The LoadTests API from Microsoft Azure — 3 operation(s) for loadtests.
-  name: Microsoft Azure LoadTests API
-  slug: microsoft-azure-loadtests-api
-- description: The LocalNetworkGateways API from Microsoft Azure — 3 operation(s) for localnetworkgateways.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LocalNetworkGateways API from Microsoft Azure — 3 operation(s) for localnetworkgateways.
   name: Microsoft Azure LocalNetworkGateways API
   slug: microsoft-azure-localnetworkgateways-api
-- description: The LocalRules API from Microsoft Azure — 5 operation(s) for localrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LocalRules API from Microsoft Azure — 5 operation(s) for localrules.
   name: Microsoft Azure LocalRules API
   slug: microsoft-azure-localrules-api
-- description: The LocalRulestacks API from Microsoft Azure — 13 operation(s) for localrulestacks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LocalRulestacks API from Microsoft Azure — 13 operation(s) for localrulestacks.
   name: Microsoft Azure LocalRulestacks API
   slug: microsoft-azure-localrulestacks-api
-- description: The LocalSearch API from Microsoft Azure — 1 operation(s) for localsearch.
+- baseURL: https://api.cognitive.microsoft.com/bing
+  baseurl_source: spec
+  description: The LocalSearch API from Microsoft Azure — 1 operation(s) for localsearch.
   name: Microsoft Azure LocalSearch API
   slug: microsoft-azure-localsearch-api
-- description: The Location API from Microsoft Azure — 5 operation(s) for location.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Location API from Microsoft Azure — 5 operation(s) for location.
   name: Microsoft Azure Location API
   slug: microsoft-azure-location-api
-- description: The LocationBasedCapabilities API from Microsoft Azure — 1 operation(s) for locationbasedcapabilities.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LocationBasedCapabilities API from Microsoft Azure — 1 operation(s) for locationbasedcapabilities.
   name: Microsoft Azure LocationBasedCapabilities API
   slug: microsoft-azure-locationbasedcapabilities-api
-- description: The LocationBasedCapability API from Microsoft Azure — 2 operation(s) for locationbasedcapability.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LocationBasedCapability API from Microsoft Azure — 2 operation(s) for locationbasedcapability.
   name: Microsoft Azure LocationBasedCapability API
   slug: microsoft-azure-locationbasedcapability-api
-- description: The LocationBasedPerformanceTier API from Microsoft Azure — 1 operation(s) for locationbasedperformancetier.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LocationBasedPerformanceTier API from Microsoft Azure — 1 operation(s) for locationbasedperformancetier.
   name: Microsoft Azure LocationBasedPerformanceTier API
   slug: microsoft-azure-locationbasedperformancetier-api
-- description: The LocationBasedRecommendedActionSessionsOperationStatus API from Microsoft Azure — 1 operation(s) for locationbasedrecommendedactionsessionsoperationstatus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LocationBasedRecommendedActionSessionsOperationStatus API from Microsoft Azure — 1 operation(s) for locationbasedrecommendedactionsessionsoperationstatus.
   name: Microsoft Azure LocationBasedRecommendedActionSessionsOperationStatus API
   slug: microsoft-azure-locationbasedrecommendedactionsessionsoperationstatus-api
-- description: The LocationBasedRecommendedActionSessionsResult API from Microsoft Azure — 1 operation(s) for locationbasedrecommendedactionsessionsresult.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LocationBasedRecommendedActionSessionsResult API from Microsoft Azure — 1 operation(s) for locationbasedrecommendedactionsessionsresult.
   name: Microsoft Azure LocationBasedRecommendedActionSessionsResult API
   slug: microsoft-azure-locationbasedrecommendedactionsessionsresult-api
-- description: The Locations API from Microsoft Azure — 6 operation(s) for locations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Locations API from Microsoft Azure — 6 operation(s) for locations.
   name: Microsoft Azure Locations API
   slug: microsoft-azure-locations-api
-- description: The LocationUsage API from Microsoft Azure — 1 operation(s) for locationusage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LocationUsage API from Microsoft Azure — 1 operation(s) for locationusage.
   name: Microsoft Azure LocationUsage API
   slug: microsoft-azure-locationusage-api
 - description: The Locks API from Microsoft Azure — 1 operation(s) for locks.
   name: Microsoft Azure Locks API
   slug: microsoft-azure-locks-api
-- description: The LogFiles API from Microsoft Azure — 1 operation(s) for logfiles.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The LogFiles API from Microsoft Azure — 1 operation(s) for logfiles.
   name: Microsoft Azure LogFiles API
   slug: microsoft-azure-logfiles-api
-- description: Manages reinforcement learning logs.
+- baseURL: /personalizer
+  baseurl_source: spec
+  description: Manages reinforcement learning logs.
   name: Microsoft Azure LogsV1Dot1Preview2 API
   slug: microsoft-azure-logsv1dot1preview2-api
 - description: The Long Running Operations API from Microsoft Azure — 1 operation(s) for long running operations.
   name: Microsoft Azure Long Running Operations API
   slug: microsoft-azure-long-running-operations-api
-- description: The MachineExtensions API from Microsoft Azure — 4 operation(s) for machineextensions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MachineExtensions API from Microsoft Azure — 4 operation(s) for machineextensions.
   name: Microsoft Azure MachineExtensions API
   slug: microsoft-azure-machineextensions-api
-- description: The MachineExtensions Upgrade API from Microsoft Azure — 1 operation(s) for machineextensions upgrade.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MachineExtensions Upgrade API from Microsoft Azure — 1 operation(s) for machineextensions upgrade.
   name: Microsoft Azure MachineExtensions Upgrade API
   slug: microsoft-azure-machineextensions-upgrade-api
-- description: The MachineGroups API from Microsoft Azure — 3 operation(s) for machinegroups.
-  name: Microsoft Azure MachineGroups API
-  slug: microsoft-azure-machinegroups-api
-- description: The MachineLearningComputeOperations API from Microsoft Azure — 1 operation(s) for machinelearningcomputeoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MachineLearningComputeOperations API from Microsoft Azure — 1 operation(s) for machinelearningcomputeoperations.
   name: Microsoft Azure MachineLearningComputeOperations API
   slug: microsoft-azure-machinelearningcomputeoperations-api
-- description: The Machines API from Microsoft Azure — 9 operation(s) for machines.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Machines API from Microsoft Azure — 9 operation(s) for machines.
   name: Microsoft Azure Machines API
   slug: microsoft-azure-machines-api
-- description: The MachinesController API from Microsoft Azure — 6 operation(s) for machinescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MachinesController API from Microsoft Azure — 6 operation(s) for machinescontroller.
   name: Microsoft Azure MachinesController API
   slug: microsoft-azure-machinescontroller-api
-- description: The MachinesOperations API from Microsoft Azure — 2 operation(s) for machinesoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MachinesOperations API from Microsoft Azure — 2 operation(s) for machinesoperations.
   name: Microsoft Azure MachinesOperations API
   slug: microsoft-azure-machinesoperations-api
-- description: The MaintenanceConfigurations API from Microsoft Azure — 3 operation(s) for maintenanceconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MaintenanceConfigurations API from Microsoft Azure — 3 operation(s) for maintenanceconfigurations.
   name: Microsoft Azure MaintenanceConfigurations API
   slug: microsoft-azure-maintenanceconfigurations-api
 - description: The Manage Purchased Phone Numbers API from Microsoft Azure — 3 operation(s) for manage purchased phone numbers.
   name: Microsoft Azure Manage Purchased Phone Numbers API
   slug: microsoft-azure-manage-purchased-phone-numbers-api
-- description: The Managed APIs API from Microsoft Azure — 2 operation(s) for managed apis.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Managed APIs API from Microsoft Azure — 2 operation(s) for managed apis.
   name: Microsoft Azure Managed APIs API
   slug: microsoft-azure-managed-apis-api
-- description: The Managed CCF API from Microsoft Azure — 5 operation(s) for managed ccf.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Managed CCF API from Microsoft Azure — 5 operation(s) for managed ccf.
   name: Microsoft Azure Managed CCF API
   slug: microsoft-azure-managed-ccf-api
 - baseURL: https://management.azure.com
@@ -2545,142 +3433,193 @@ apis:
   description: Operations for managing AKS clusters
   name: Microsoft Azure Managed Clusters API
   slug: microsoft-azure-managed-clusters-api
-- description: The ManagedHostingEnvironments API from Microsoft Azure — 7 operation(s) for managedhostingenvironments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ManagedHostingEnvironments API from Microsoft Azure — 7 operation(s) for managedhostingenvironments.
   name: Microsoft Azure ManagedHostingEnvironments API
   slug: microsoft-azure-managedhostingenvironments-api
-- description: The ManagedNetwork API from Microsoft Azure — 3 operation(s) for managednetwork.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ManagedNetwork API from Microsoft Azure — 3 operation(s) for managednetwork.
   name: Microsoft Azure ManagedNetwork API
   slug: microsoft-azure-managednetwork-api
-- description: The ManagedNetworkGroups API from Microsoft Azure — 2 operation(s) for managednetworkgroups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ManagedNetworkGroups API from Microsoft Azure — 2 operation(s) for managednetworkgroups.
   name: Microsoft Azure ManagedNetworkGroups API
   slug: microsoft-azure-managednetworkgroups-api
-- description: The ManagedNetworkPeeringPolicies API from Microsoft Azure — 2 operation(s) for managednetworkpeeringpolicies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ManagedNetworkPeeringPolicies API from Microsoft Azure — 2 operation(s) for managednetworkpeeringpolicies.
   name: Microsoft Azure ManagedNetworkPeeringPolicies API
   slug: microsoft-azure-managednetworkpeeringpolicies-api
-- description: The ManagedNetworks API from Microsoft Azure — 3 operation(s) for managednetworks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ManagedNetworks API from Microsoft Azure — 3 operation(s) for managednetworks.
   name: Microsoft Azure ManagedNetworks API
   slug: microsoft-azure-managednetworks-api
 - description: The ManagedPrivateEndpoints API from Microsoft Azure — 2 operation(s) for managedprivateendpoints.
   name: Microsoft Azure ManagedPrivateEndpoints API
   slug: microsoft-azure-managedprivateendpoints-api
-- description: The ManagedVirtualNetworks API from Microsoft Azure — 4 operation(s) for managedvirtualnetworks.
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The ManagedVirtualNetworks API from Microsoft Azure — 4 operation(s) for managedvirtualnetworks.
   name: Microsoft Azure ManagedVirtualNetworks API
   slug: microsoft-azure-managedvirtualnetworks-api
-- description: The ManagementAssociation API from Microsoft Azure — 2 operation(s) for managementassociation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ManagementAssociation API from Microsoft Azure — 2 operation(s) for managementassociation.
   name: Microsoft Azure ManagementAssociation API
   slug: microsoft-azure-managementassociation-api
-- description: The ManagementConfiguration API from Microsoft Azure — 2 operation(s) for managementconfiguration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ManagementConfiguration API from Microsoft Azure — 2 operation(s) for managementconfiguration.
   name: Microsoft Azure ManagementConfiguration API
   slug: microsoft-azure-managementconfiguration-api
-- description: A Management Group is a customer defined scope (grouping mechanism) that provides access control (authorization), policy management and reporting. Management Groups are organized in a strictly tree-ba
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: A Management Group is a customer defined scope (grouping mechanism) that provides access control (authorization), policy management and reporting. Management Groups are organized in a strictly tree-ba
   name: Microsoft Azure ManagementGroups API
   slug: microsoft-azure-managementgroups-api
-- description: The ManagementLocks API from Microsoft Azure — 8 operation(s) for managementlocks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ManagementLocks API from Microsoft Azure — 8 operation(s) for managementlocks.
   name: Microsoft Azure ManagementLocks API
   slug: microsoft-azure-managementlocks-api
 - description: The ManagementZones API from Microsoft Azure — 4 operation(s) for managementzones.
   name: Microsoft Azure ManagementZones API
   slug: microsoft-azure-managementzones-api
-- description: The Managers API from Microsoft Azure — 14 operation(s) for managers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Managers API from Microsoft Azure — 14 operation(s) for managers.
   name: Microsoft Azure Managers API
   slug: microsoft-azure-managers-api
-- description: Everything about manifests
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Everything about manifests
   name: Microsoft Azure Manifest API
   slug: microsoft-azure-manifest-api
-- baseURL_template: https://{registryName}.azurecr.io
-  baseurl_source: spec_template
-  description: Operations for managing image manifests
-  name: Microsoft Azure Manifests API
-  slug: microsoft-azure-manifests-api
-- description: The Map API from Microsoft Azure — 3 operation(s) for map.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Map API from Microsoft Azure — 3 operation(s) for map.
   name: Microsoft Azure Map API
   slug: microsoft-azure-map-api
-- description: The mapData API from Microsoft Azure — 3 operation(s) for mapdata.
-  name: Microsoft Azure mapData API
-  slug: microsoft-azure-mapdata-api
-- description: The Maps API from Microsoft Azure — 1 operation(s) for maps.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Maps API from Microsoft Azure — 1 operation(s) for maps.
   name: Microsoft Azure Maps API
   slug: microsoft-azure-maps-api
-- description: The MarketplaceImageOffer API from Microsoft Azure — 2 operation(s) for marketplaceimageoffer.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MarketplaceImageOffer API from Microsoft Azure — 2 operation(s) for marketplaceimageoffer.
   name: Microsoft Azure MarketplaceImageOffer API
   slug: microsoft-azure-marketplaceimageoffer-api
-- description: The MarketplaceImagePublisher API from Microsoft Azure — 1 operation(s) for marketplaceimagepublisher.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MarketplaceImagePublisher API from Microsoft Azure — 1 operation(s) for marketplaceimagepublisher.
   name: Microsoft Azure MarketplaceImagePublisher API
   slug: microsoft-azure-marketplaceimagepublisher-api
-- description: The MarketplaceImageSasToken API from Microsoft Azure — 1 operation(s) for marketplaceimagesastoken.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MarketplaceImageSasToken API from Microsoft Azure — 1 operation(s) for marketplaceimagesastoken.
   name: Microsoft Azure MarketplaceImageSasToken API
   slug: microsoft-azure-marketplaceimagesastoken-api
-- description: The MarketplaceImageSku API from Microsoft Azure — 1 operation(s) for marketplaceimagesku.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MarketplaceImageSku API from Microsoft Azure — 1 operation(s) for marketplaceimagesku.
   name: Microsoft Azure MarketplaceImageSku API
   slug: microsoft-azure-marketplaceimagesku-api
-- description: The MarketplaceImageVersion API from Microsoft Azure — 2 operation(s) for marketplaceimageversion.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MarketplaceImageVersion API from Microsoft Azure — 2 operation(s) for marketplaceimageversion.
   name: Microsoft Azure MarketplaceImageVersion API
   slug: microsoft-azure-marketplaceimageversion-api
-- description: The Marketplaces API from Microsoft Azure — 1 operation(s) for marketplaces.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Marketplaces API from Microsoft Azure — 1 operation(s) for marketplaces.
   name: Microsoft Azure Marketplaces API
   slug: microsoft-azure-marketplaces-api
-- description: The MasterSitesController API from Microsoft Azure — 4 operation(s) for mastersitescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MasterSitesController API from Microsoft Azure — 4 operation(s) for mastersitescontroller.
   name: Microsoft Azure MasterSitesController API
   slug: microsoft-azure-mastersitescontroller-api
-- description: The MasterSitesOperationsStatusController API from Microsoft Azure — 1 operation(s) for mastersitesoperationsstatuscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MasterSitesOperationsStatusController API from Microsoft Azure — 1 operation(s) for mastersitesoperationsstatuscontroller.
   name: Microsoft Azure MasterSitesOperationsStatusController API
   slug: microsoft-azure-mastersitesoperationsstatuscontroller-api
 - description: The MediaComposition API from Microsoft Azure — 3 operation(s) for mediacomposition.
   name: Microsoft Azure MediaComposition API
   slug: microsoft-azure-mediacomposition-api
-- description: The MeshApplications API from Microsoft Azure — 3 operation(s) for meshapplications.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The MeshApplications API from Microsoft Azure — 3 operation(s) for meshapplications.
   name: Microsoft Azure MeshApplications API
   slug: microsoft-azure-meshapplications-api
-- description: The MeshCodePackages API from Microsoft Azure — 1 operation(s) for meshcodepackages.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The MeshCodePackages API from Microsoft Azure — 1 operation(s) for meshcodepackages.
   name: Microsoft Azure MeshCodePackages API
   slug: microsoft-azure-meshcodepackages-api
-- description: The MeshGateways API from Microsoft Azure — 2 operation(s) for meshgateways.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The MeshGateways API from Microsoft Azure — 2 operation(s) for meshgateways.
   name: Microsoft Azure MeshGateways API
   slug: microsoft-azure-meshgateways-api
-- description: The MeshNetworks API from Microsoft Azure — 2 operation(s) for meshnetworks.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The MeshNetworks API from Microsoft Azure — 2 operation(s) for meshnetworks.
   name: Microsoft Azure MeshNetworks API
   slug: microsoft-azure-meshnetworks-api
-- description: The MeshSecrets API from Microsoft Azure — 2 operation(s) for meshsecrets.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The MeshSecrets API from Microsoft Azure — 2 operation(s) for meshsecrets.
   name: Microsoft Azure MeshSecrets API
   slug: microsoft-azure-meshsecrets-api
-- description: The MeshSecretValues API from Microsoft Azure — 3 operation(s) for meshsecretvalues.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The MeshSecretValues API from Microsoft Azure — 3 operation(s) for meshsecretvalues.
   name: Microsoft Azure MeshSecretValues API
   slug: microsoft-azure-meshsecretvalues-api
-- description: The MeshServiceReplicas API from Microsoft Azure — 2 operation(s) for meshservicereplicas.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The MeshServiceReplicas API from Microsoft Azure — 2 operation(s) for meshservicereplicas.
   name: Microsoft Azure MeshServiceReplicas API
   slug: microsoft-azure-meshservicereplicas-api
-- description: The MeshServices API from Microsoft Azure — 2 operation(s) for meshservices.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The MeshServices API from Microsoft Azure — 2 operation(s) for meshservices.
   name: Microsoft Azure MeshServices API
   slug: microsoft-azure-meshservices-api
-- description: The MeshVolumes API from Microsoft Azure — 2 operation(s) for meshvolumes.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The MeshVolumes API from Microsoft Azure — 2 operation(s) for meshvolumes.
   name: Microsoft Azure MeshVolumes API
   slug: microsoft-azure-meshvolumes-api
 - description: The Messages API from Microsoft Azure — 2 operation(s) for messages.
   name: Microsoft Azure Messages API
   slug: microsoft-azure-messages-api
-- description: The Metadata API from Microsoft Azure — 2 operation(s) for metadata.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Metadata API from Microsoft Azure — 2 operation(s) for metadata.
   name: Microsoft Azure Metadata API
   slug: microsoft-azure-metadata-api
-- description: The MetadataPolicy API from Microsoft Azure — 2 operation(s) for metadatapolicy.
-  name: Microsoft Azure MetadataPolicy API
-  slug: microsoft-azure-metadatapolicy-api
-- description: The MetadataRoles API from Microsoft Azure — 1 operation(s) for metadataroles.
-  name: Microsoft Azure MetadataRoles API
-  slug: microsoft-azure-metadataroles-api
 - description: The Metric API from Microsoft Azure — 5 operation(s) for metric.
   name: Microsoft Azure Metric API
   slug: microsoft-azure-metric-api
-- description: The MetricDefinitions API from Microsoft Azure — 2 operation(s) for metricdefinitions.
-  name: Microsoft Azure MetricDefinitions API
-  slug: microsoft-azure-metricdefinitions-api
-- description: The Metrics API from Microsoft Azure — 13 operation(s) for metrics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Metrics API from Microsoft Azure — 13 operation(s) for metrics.
   name: Microsoft Azure Metrics API
   slug: microsoft-azure-metrics-api
-- description: The Microsoft Azure Azure Blob Storage API API from Microsoft Azure — 1 operation(s) for microsoft azure azure blob storage api.
-  name: Microsoft Azure Microsoft Azure Azure Blob Storage API API
+- baseURL_template: https://{accountName}.blob.core.windows.net
+  baseurl_source: spec_template
+  description: The Microsoft Azure Azure Blob Storage API API from Microsoft Azure — 1 operation(s) for microsoft azure azure blob storage api.
+  name: Microsoft Azure Microsoft Azure Blob Storage API
   slug: microsoft-azure-microsoft-azure-azure-blob-storage-api-api
 - description: The Microsoft Azure Azure ML Chat API from Microsoft Azure — 1 operation(s) for microsoft azure azure ml chat.
-  name: Microsoft Azure Microsoft Azure Azure ML Chat API
+  name: Microsoft Azure Microsoft Azure ML Chat API
   slug: microsoft-azure-microsoft-azure-azure-ml-chat-api
 - description: The MidConnections API from Microsoft Azure — 10 operation(s) for midconnections.
   name: Microsoft Azure MidConnections API
@@ -2688,16 +3627,19 @@ apis:
 - description: MigrateAgent Controller.
   name: Microsoft Azure MigrateAgent API
   slug: microsoft-azure-migrateagent-api
-- description: The MigrateProjects API from Microsoft Azure — 3 operation(s) for migrateprojects.
-  name: Microsoft Azure MigrateProjects API
-  slug: microsoft-azure-migrateprojects-api
-- description: The MigrateProjectsController API from Microsoft Azure — 4 operation(s) for migrateprojectscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MigrateProjectsController API from Microsoft Azure — 4 operation(s) for migrateprojectscontroller.
   name: Microsoft Azure MigrateProjectsController API
   slug: microsoft-azure-migrateprojectscontroller-api
-- description: The MigrationRecoveryPoints API from Microsoft Azure — 2 operation(s) for migrationrecoverypoints.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MigrationRecoveryPoints API from Microsoft Azure — 2 operation(s) for migrationrecoverypoints.
   name: Microsoft Azure MigrationRecoveryPoints API
   slug: microsoft-azure-migrationrecoverypoints-api
-- description: The MigrationServices API from Microsoft Azure — 4 operation(s) for migrationservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MigrationServices API from Microsoft Azure — 4 operation(s) for migrationservices.
   name: Microsoft Azure MigrationServices API
   slug: microsoft-azure-migrationservices-api
 - description: The Model API from Microsoft Azure — 8 operation(s) for model.
@@ -2706,220 +3648,319 @@ apis:
 - description: The ModelInference API from Microsoft Azure — 3 operation(s) for modelinference.
   name: Microsoft Azure ModelInference API
   slug: microsoft-azure-modelinference-api
-- description: The Modelmanagement API from Microsoft Azure — 2 operation(s) for modelmanagement.
-  name: Microsoft Azure Modelmanagement API
-  slug: microsoft-azure-modelmanagement-api
-- description: Operations for listing available models
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Operations for listing available models
   name: Microsoft Azure Models API
   slug: microsoft-azure-models-api
-- description: Manages reinforcement learning configuration operations.
+- baseURL: /personalizer
+  baseurl_source: spec
+  description: Manages reinforcement learning configuration operations.
   name: Microsoft Azure ModelV1Dot1Preview3 API
   slug: microsoft-azure-modelv1dot1preview3-api
 - description: ModernizeProject Controller.
   name: Microsoft Azure ModernizeProject API
   slug: microsoft-azure-modernizeproject-api
-- description: The MongoClusterOperations API from Microsoft Azure — 1 operation(s) for mongoclusteroperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MongoClusterOperations API from Microsoft Azure — 1 operation(s) for mongoclusteroperations.
   name: Microsoft Azure MongoClusterOperations API
   slug: microsoft-azure-mongoclusteroperations-api
-- description: The MongoClusters API from Microsoft Azure — 4 operation(s) for mongoclusters.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MongoClusters API from Microsoft Azure — 4 operation(s) for mongoclusters.
   name: Microsoft Azure MongoClusters API
   slug: microsoft-azure-mongoclusters-api
-- description: The MonitoredResources API from Microsoft Azure — 2 operation(s) for monitoredresources.
-  name: Microsoft Azure MonitoredResources API
-  slug: microsoft-azure-monitoredresources-api
-- description: The MonitoredSubscriptions API from Microsoft Azure — 2 operation(s) for monitoredsubscriptions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MonitoredSubscriptions API from Microsoft Azure — 2 operation(s) for monitoredsubscriptions.
   name: Microsoft Azure MonitoredSubscriptions API
   slug: microsoft-azure-monitoredsubscriptions-api
 - description: The Monitoring API from Microsoft Azure — 2 operation(s) for monitoring.
   name: Microsoft Azure Monitoring API
   slug: microsoft-azure-monitoring-api
-- description: The MonitoringConfig API from Microsoft Azure — 2 operation(s) for monitoringconfig.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MonitoringConfig API from Microsoft Azure — 2 operation(s) for monitoringconfig.
   name: Microsoft Azure MonitoringConfig API
   slug: microsoft-azure-monitoringconfig-api
-- description: The Monitors API from Microsoft Azure — 25 operation(s) for monitors.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Monitors API from Microsoft Azure — 25 operation(s) for monitors.
   name: Microsoft Azure Monitors API
   slug: microsoft-azure-monitors-api
-- description: The MonitorsResource API from Microsoft Azure — 8 operation(s) for monitorsresource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MonitorsResource API from Microsoft Azure — 8 operation(s) for monitorsresource.
   name: Microsoft Azure MonitorsResource API
   slug: microsoft-azure-monitorsresource-api
-- description: The MonitorUpgradableVersions API from Microsoft Azure — 1 operation(s) for monitorupgradableversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MonitorUpgradableVersions API from Microsoft Azure — 1 operation(s) for monitorupgradableversions.
   name: Microsoft Azure MonitorUpgradableVersions API
   slug: microsoft-azure-monitorupgradableversions-api
-- description: The MoveCollections API from Microsoft Azure — 9 operation(s) for movecollections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MoveCollections API from Microsoft Azure — 9 operation(s) for movecollections.
   name: Microsoft Azure MoveCollections API
   slug: microsoft-azure-movecollections-api
-- description: The MoveResources API from Microsoft Azure — 1 operation(s) for moveresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MoveResources API from Microsoft Azure — 1 operation(s) for moveresources.
   name: Microsoft Azure MoveResources API
   slug: microsoft-azure-moveresources-api
-- description: The Mq API from Microsoft Azure — 3 operation(s) for mq.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Mq API from Microsoft Azure — 3 operation(s) for mq.
   name: Microsoft Azure Mq API
   slug: microsoft-azure-mq-api
-- description: The MqttBridgeConnector API from Microsoft Azure — 2 operation(s) for mqttbridgeconnector.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MqttBridgeConnector API from Microsoft Azure — 2 operation(s) for mqttbridgeconnector.
   name: Microsoft Azure MqttBridgeConnector API
   slug: microsoft-azure-mqttbridgeconnector-api
-- description: The MqttBridgeTopicMap API from Microsoft Azure — 2 operation(s) for mqttbridgetopicmap.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MqttBridgeTopicMap API from Microsoft Azure — 2 operation(s) for mqttbridgetopicmap.
   name: Microsoft Azure MqttBridgeTopicMap API
   slug: microsoft-azure-mqttbridgetopicmap-api
-- description: The MsixImage API from Microsoft Azure — 1 operation(s) for msiximage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MsixImage API from Microsoft Azure — 1 operation(s) for msiximage.
   name: Microsoft Azure MsixImage API
   slug: microsoft-azure-msiximage-api
-- description: The MSIXPackage API from Microsoft Azure — 2 operation(s) for msixpackage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MSIXPackage API from Microsoft Azure — 2 operation(s) for msixpackage.
   name: Microsoft Azure MSIXPackage API
   slug: microsoft-azure-msixpackage-api
-- description: The MultipleActivationKeys API from Microsoft Azure — 3 operation(s) for multipleactivationkeys.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The MultipleActivationKeys API from Microsoft Azure — 3 operation(s) for multipleactivationkeys.
   name: Microsoft Azure MultipleActivationKeys API
   slug: microsoft-azure-multipleactivationkeys-api
-- description: Manages multi-slot event operations.
+- baseURL: /personalizer
+  baseurl_source: spec
+  description: Manages multi-slot event operations.
   name: Microsoft Azure MultiSlotEvents API
   slug: microsoft-azure-multislotevents-api
-- description: Manages multi-slot ranking operations.
+- baseURL: /personalizer
+  baseurl_source: spec
+  description: Manages multi-slot ranking operations.
   name: Microsoft Azure MultiSlotRank API
   slug: microsoft-azure-multislotrank-api
 - description: The Multivariate API from Microsoft Azure — 5 operation(s) for multivariate.
   name: Microsoft Azure Multivariate API
   slug: microsoft-azure-multivariate-api
-- description: The NameAvailability API from Microsoft Azure — 2 operation(s) for nameavailability.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NameAvailability API from Microsoft Azure — 2 operation(s) for nameavailability.
   name: Microsoft Azure NameAvailability API
   slug: microsoft-azure-nameavailability-api
-- description: The NamedValue API from Microsoft Azure — 4 operation(s) for namedvalue.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NamedValue API from Microsoft Azure — 4 operation(s) for namedvalue.
   name: Microsoft Azure NamedValue API
   slug: microsoft-azure-namedvalue-api
-- description: The Namespaces API from Microsoft Azure — 13 operation(s) for namespaces.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Namespaces API from Microsoft Azure — 13 operation(s) for namespaces.
   name: Microsoft Azure Namespaces API
   slug: microsoft-azure-namespaces-api
-- description: The NetApp Accounts API from Microsoft Azure — 5 operation(s) for netapp accounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetApp Accounts API from Microsoft Azure — 5 operation(s) for netapp accounts.
   name: Microsoft Azure NetApp Accounts API
   slug: microsoft-azure-netapp-accounts-api
-- description: The NetApp Resource API from Microsoft Azure — 10 operation(s) for netapp resource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetApp Resource API from Microsoft Azure — 10 operation(s) for netapp resource.
   name: Microsoft Azure NetApp Resource API
   slug: microsoft-azure-netapp-resource-api
-- description: The Network Connections API from Microsoft Azure — 5 operation(s) for network connections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Network Connections API from Microsoft Azure — 5 operation(s) for network connections.
   name: Microsoft Azure Network Connections API
   slug: microsoft-azure-network-connections-api
-- description: The Network Settings API from Microsoft Azure — 1 operation(s) for network settings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Network Settings API from Microsoft Azure — 1 operation(s) for network settings.
   name: Microsoft Azure Network Settings API
   slug: microsoft-azure-network-settings-api
-- description: The configuration of Network Experiment profiles
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The configuration of Network Experiment profiles
   name: Microsoft Azure NetworkExperimentProfiles API
   slug: microsoft-azure-networkexperimentprofiles-api
-- description: The NetworkFunctions API from Microsoft Azure — 3 operation(s) for networkfunctions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkFunctions API from Microsoft Azure — 3 operation(s) for networkfunctions.
   name: Microsoft Azure NetworkFunctions API
   slug: microsoft-azure-networkfunctions-api
-- description: The NetworkGroupMemberships_List API from Microsoft Azure — 1 operation(s) for networkgroupmemberships_list.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkGroupMemberships_List API from Microsoft Azure — 1 operation(s) for networkgroupmemberships_list.
   name: Microsoft Azure NetworkGroupMemberships_List API
   slug: microsoft-azure-networkgroupmemberships-list-api
-- description: The NetworkGroups API from Microsoft Azure — 3 operation(s) for networkgroups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkGroups API from Microsoft Azure — 3 operation(s) for networkgroups.
   name: Microsoft Azure NetworkGroups API
   slug: microsoft-azure-networkgroups-api
-- description: The NetworkInterfaces API from Microsoft Azure — 6 operation(s) for networkinterfaces.
-  name: Microsoft Azure NetworkInterfaces API
-  slug: microsoft-azure-networkinterfaces-api
-- description: The NetworkManagerActiveConfigurations API from Microsoft Azure — 1 operation(s) for networkmanageractiveconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkManagerActiveConfigurations API from Microsoft Azure — 1 operation(s) for networkmanageractiveconfigurations.
   name: Microsoft Azure NetworkManagerActiveConfigurations API
   slug: microsoft-azure-networkmanageractiveconfigurations-api
-- description: The NetworkManagerActiveConnectivityConfigurations API from Microsoft Azure — 1 operation(s) for networkmanageractiveconnectivityconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkManagerActiveConnectivityConfigurations API from Microsoft Azure — 1 operation(s) for networkmanageractiveconnectivityconfigurations.
   name: Microsoft Azure NetworkManagerActiveConnectivityConfigurations API
   slug: microsoft-azure-networkmanageractiveconnectivityconfigurations-api
-- description: The NetworkManagerActiveSecurityUserRules API from Microsoft Azure — 1 operation(s) for networkmanageractivesecurityuserrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkManagerActiveSecurityUserRules API from Microsoft Azure — 1 operation(s) for networkmanageractivesecurityuserrules.
   name: Microsoft Azure NetworkManagerActiveSecurityUserRules API
   slug: microsoft-azure-networkmanageractivesecurityuserrules-api
-- description: The NetworkManagerEffectiveConnectivityConfiguration API from Microsoft Azure — 1 operation(s) for networkmanagereffectiveconnectivityconfiguration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkManagerEffectiveConnectivityConfiguration API from Microsoft Azure — 1 operation(s) for networkmanagereffectiveconnectivityconfiguration.
   name: Microsoft Azure NetworkManagerEffectiveConnectivityConfiguration API
   slug: microsoft-azure-networkmanagereffectiveconnectivityconfiguration-api
-- description: The NetworkManagerEffectiveSecurityAdminRules API from Microsoft Azure — 1 operation(s) for networkmanagereffectivesecurityadminrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkManagerEffectiveSecurityAdminRules API from Microsoft Azure — 1 operation(s) for networkmanagereffectivesecurityadminrules.
   name: Microsoft Azure NetworkManagerEffectiveSecurityAdminRules API
   slug: microsoft-azure-networkmanagereffectivesecurityadminrules-api
-- description: The NetworkManagers API from Microsoft Azure — 6 operation(s) for networkmanagers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkManagers API from Microsoft Azure — 6 operation(s) for networkmanagers.
   name: Microsoft Azure NetworkManagers API
   slug: microsoft-azure-networkmanagers-api
-- description: The Networks API from Microsoft Azure — 3 operation(s) for networks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Networks API from Microsoft Azure — 3 operation(s) for networks.
   name: Microsoft Azure Networks API
   slug: microsoft-azure-networks-api
-- description: The NetworkSecurityGroups API from Microsoft Azure — 3 operation(s) for networksecuritygroups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkSecurityGroups API from Microsoft Azure — 3 operation(s) for networksecuritygroups.
   name: Microsoft Azure NetworkSecurityGroups API
   slug: microsoft-azure-networksecuritygroups-api
-- description: The NetworkSecurityPerimeterConfigurations API from Microsoft Azure — 3 operation(s) for networksecurityperimeterconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkSecurityPerimeterConfigurations API from Microsoft Azure — 3 operation(s) for networksecurityperimeterconfigurations.
   name: Microsoft Azure NetworkSecurityPerimeterConfigurations API
   slug: microsoft-azure-networksecurityperimeterconfigurations-api
-- description: The NetworkSecurityPerimeters API from Microsoft Azure — 3 operation(s) for networksecurityperimeters.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NetworkSecurityPerimeters API from Microsoft Azure — 3 operation(s) for networksecurityperimeters.
   name: Microsoft Azure NetworkSecurityPerimeters API
   slug: microsoft-azure-networksecurityperimeters-api
-- description: The NewsCategory API from Microsoft Azure — 1 operation(s) for newscategory.
-  name: Microsoft Azure NewsCategory API
-  slug: microsoft-azure-newscategory-api
-- description: The NewsSearch API from Microsoft Azure — 1 operation(s) for newssearch.
-  name: Microsoft Azure NewsSearch API
-  slug: microsoft-azure-newssearch-api
-- description: The NewsTrendingTopics API from Microsoft Azure — 1 operation(s) for newstrendingtopics.
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The NewsTrendingTopics API from Microsoft Azure — 1 operation(s) for newstrendingtopics.
   name: Microsoft Azure NewsTrendingTopics API
   slug: microsoft-azure-newstrendingtopics-api
-- description: The NginxCertificate API from Microsoft Azure — 2 operation(s) for nginxcertificate.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NginxCertificate API from Microsoft Azure — 2 operation(s) for nginxcertificate.
   name: Microsoft Azure NginxCertificate API
   slug: microsoft-azure-nginxcertificate-api
-- description: The NginxConfiguration API from Microsoft Azure — 2 operation(s) for nginxconfiguration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NginxConfiguration API from Microsoft Azure — 2 operation(s) for nginxconfiguration.
   name: Microsoft Azure NginxConfiguration API
   slug: microsoft-azure-nginxconfiguration-api
-- description: The NginxDeployment API from Microsoft Azure — 4 operation(s) for nginxdeployment.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NginxDeployment API from Microsoft Azure — 4 operation(s) for nginxdeployment.
   name: Microsoft Azure NginxDeployment API
   slug: microsoft-azure-nginxdeployment-api
-- description: The Node API from Microsoft Azure — 14 operation(s) for node.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Node API from Microsoft Azure — 14 operation(s) for node.
   name: Microsoft Azure Node API
   slug: microsoft-azure-node-api
 - description: The Nodecounts API from Microsoft Azure — 1 operation(s) for nodecounts.
   name: Microsoft Azure Nodecounts API
   slug: microsoft-azure-nodecounts-api
-- description: The Nodes API from Microsoft Azure — 1 operation(s) for nodes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Nodes API from Microsoft Azure — 1 operation(s) for nodes.
   name: Microsoft Azure Nodes API
   slug: microsoft-azure-nodes-api
-- description: The NodeType API from Microsoft Azure — 6 operation(s) for nodetype.
-  name: Microsoft Azure NodeType API
-  slug: microsoft-azure-nodetype-api
-- description: The Notification API from Microsoft Azure — 4 operation(s) for notification.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Notification API from Microsoft Azure — 4 operation(s) for notification.
   name: Microsoft Azure Notification API
   slug: microsoft-azure-notification-api
-- description: The NotificationChannels API from Microsoft Azure — 3 operation(s) for notificationchannels.
-  name: Microsoft Azure NotificationChannels API
-  slug: microsoft-azure-notificationchannels-api
-- description: The NotificationHubs API from Microsoft Azure — 9 operation(s) for notificationhubs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NotificationHubs API from Microsoft Azure — 9 operation(s) for notificationhubs.
   name: Microsoft Azure NotificationHubs API
   slug: microsoft-azure-notificationhubs-api
-- description: The NotificationRecipientEmail API from Microsoft Azure — 2 operation(s) for notificationrecipientemail.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NotificationRecipientEmail API from Microsoft Azure — 2 operation(s) for notificationrecipientemail.
   name: Microsoft Azure NotificationRecipientEmail API
   slug: microsoft-azure-notificationrecipientemail-api
-- description: The NotificationRecipientUser API from Microsoft Azure — 2 operation(s) for notificationrecipientuser.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NotificationRecipientUser API from Microsoft Azure — 2 operation(s) for notificationrecipientuser.
   name: Microsoft Azure NotificationRecipientUser API
   slug: microsoft-azure-notificationrecipientuser-api
-- description: The NotificationRegistration API from Microsoft Azure — 2 operation(s) for notificationregistration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NotificationRegistration API from Microsoft Azure — 2 operation(s) for notificationregistration.
   name: Microsoft Azure NotificationRegistration API
   slug: microsoft-azure-notificationregistration-api
 - description: The Notifications API from Microsoft Azure — 1 operation(s) for notifications.
   name: Microsoft Azure Notifications API
   slug: microsoft-azure-notifications-api
-- description: The NrfDeployments API from Microsoft Azure — 3 operation(s) for nrfdeployments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NrfDeployments API from Microsoft Azure — 3 operation(s) for nrfdeployments.
   name: Microsoft Azure NrfDeployments API
   slug: microsoft-azure-nrfdeployments-api
-- description: The NspAccessRules API from Microsoft Azure — 2 operation(s) for nspaccessrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NspAccessRules API from Microsoft Azure — 2 operation(s) for nspaccessrules.
   name: Microsoft Azure NspAccessRules API
   slug: microsoft-azure-nspaccessrules-api
-- description: The NspAccessRulesReconcile API from Microsoft Azure — 1 operation(s) for nspaccessrulesreconcile.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NspAccessRulesReconcile API from Microsoft Azure — 1 operation(s) for nspaccessrulesreconcile.
   name: Microsoft Azure NspAccessRulesReconcile API
   slug: microsoft-azure-nspaccessrulesreconcile-api
-- description: The NspAssociationReconcile API from Microsoft Azure — 1 operation(s) for nspassociationreconcile.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NspAssociationReconcile API from Microsoft Azure — 1 operation(s) for nspassociationreconcile.
   name: Microsoft Azure NspAssociationReconcile API
   slug: microsoft-azure-nspassociationreconcile-api
-- description: The NspAssociations API from Microsoft Azure — 2 operation(s) for nspassociations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NspAssociations API from Microsoft Azure — 2 operation(s) for nspassociations.
   name: Microsoft Azure NspAssociations API
   slug: microsoft-azure-nspassociations-api
-- description: The NspLinkReferences API from Microsoft Azure — 2 operation(s) for nsplinkreferences.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NspLinkReferences API from Microsoft Azure — 2 operation(s) for nsplinkreferences.
   name: Microsoft Azure NspLinkReferences API
   slug: microsoft-azure-nsplinkreferences-api
-- description: The NspLinks API from Microsoft Azure — 2 operation(s) for nsplinks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NspLinks API from Microsoft Azure — 2 operation(s) for nsplinks.
   name: Microsoft Azure NspLinks API
   slug: microsoft-azure-nsplinks-api
-- description: The NspProfiles API from Microsoft Azure — 2 operation(s) for nspprofiles.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NspProfiles API from Microsoft Azure — 2 operation(s) for nspprofiles.
   name: Microsoft Azure NspProfiles API
   slug: microsoft-azure-nspprofiles-api
-- description: The NssfDeployments API from Microsoft Azure — 3 operation(s) for nssfdeployments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The NssfDeployments API from Microsoft Azure — 3 operation(s) for nssfdeployments.
   name: Microsoft Azure NssfDeployments API
   slug: microsoft-azure-nssfdeployments-api
 - description: The Number API from Microsoft Azure — 4 operation(s) for number.
@@ -2937,112 +3978,158 @@ apis:
 - description: The NutrientAnalyses API from Microsoft Azure — 3 operation(s) for nutrientanalyses.
   name: Microsoft Azure NutrientAnalyses API
   slug: microsoft-azure-nutrientanalyses-api
-- description: The OAuth2PermissionGrant_Create API from Microsoft Azure — 1 operation(s) for oauth2permissiongrant_create.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The OAuth2PermissionGrant_Create API from Microsoft Azure — 1 operation(s) for oauth2permissiongrant_create.
   name: Microsoft Azure OAuth2PermissionGrant_Create API
   slug: microsoft-azure-oauth2permissiongrant-create-api
-- description: The OAuth2PermissionGrant_delete API from Microsoft Azure — 1 operation(s) for oauth2permissiongrant_delete.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The OAuth2PermissionGrant_delete API from Microsoft Azure — 1 operation(s) for oauth2permissiongrant_delete.
   name: Microsoft Azure OAuth2PermissionGrant_delete API
   slug: microsoft-azure-oauth2permissiongrant-delete-api
-- description: The OAuth2PermissionGrant_List API from Microsoft Azure — 1 operation(s) for oauth2permissiongrant_list.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The OAuth2PermissionGrant_List API from Microsoft Azure — 1 operation(s) for oauth2permissiongrant_list.
   name: Microsoft Azure OAuth2PermissionGrant_List API
   slug: microsoft-azure-oauth2permissiongrant-list-api
-- description: The OAuthProviders API from Microsoft Azure — 3 operation(s) for oauthproviders.
-  name: Microsoft Azure OAuthProviders API
-  slug: microsoft-azure-oauthproviders-api
-- description: The OAuthTokens API from Microsoft Azure — 3 operation(s) for oauthtokens.
-  name: Microsoft Azure OAuthTokens API
-  slug: microsoft-azure-oauthtokens-api
-- description: The Objects API from Microsoft Azure — 1 operation(s) for objects.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The Objects API from Microsoft Azure — 1 operation(s) for objects.
   name: Microsoft Azure Objects API
   slug: microsoft-azure-objects-api
-- description: The ObservabilityServices API from Microsoft Azure — 3 operation(s) for observabilityservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ObservabilityServices API from Microsoft Azure — 3 operation(s) for observabilityservices.
   name: Microsoft Azure ObservabilityServices API
   slug: microsoft-azure-observabilityservices-api
-- description: The Ocr API from Microsoft Azure — 1 operation(s) for ocr.
+- baseURL: /vision/v1.0
+  baseurl_source: spec
+  description: The Ocr API from Microsoft Azure — 1 operation(s) for ocr.
   name: Microsoft Azure Ocr API
   slug: microsoft-azure-ocr-api
-- description: The OEPResourcePartition API from Microsoft Azure — 3 operation(s) for oepresourcepartition.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OEPResourcePartition API from Microsoft Azure — 3 operation(s) for oepresourcepartition.
   name: Microsoft Azure OEPResourcePartition API
   slug: microsoft-azure-oepresourcepartition-api
 - description: The OncoPhenotype API from Microsoft Azure — 4 operation(s) for oncophenotype.
   name: Microsoft Azure OncoPhenotype API
   slug: microsoft-azure-oncophenotype-api
-- description: The OpenAIIntegration API from Microsoft Azure — 3 operation(s) for openaiintegration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OpenAIIntegration API from Microsoft Azure — 3 operation(s) for openaiintegration.
   name: Microsoft Azure OpenAIIntegration API
   slug: microsoft-azure-openaiintegration-api
 - description: The OpenID Metadata Discovery API from Microsoft Azure — 2 operation(s) for openid metadata discovery.
   name: Microsoft Azure OpenID Metadata Discovery API
   slug: microsoft-azure-openid-metadata-discovery-api
-- description: The OpenShiftClusters API from Microsoft Azure — 5 operation(s) for openshiftclusters.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OpenShiftClusters API from Microsoft Azure — 5 operation(s) for openshiftclusters.
   name: Microsoft Azure OpenShiftClusters API
   slug: microsoft-azure-openshiftclusters-api
-- description: The Operation API from Microsoft Azure — 9 operation(s) for operation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Operation API from Microsoft Azure — 9 operation(s) for operation.
   name: Microsoft Azure Operation API
   slug: microsoft-azure-operation-api
-- description: The Operation Status API from Microsoft Azure — 2 operation(s) for operation status.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Operation Status API from Microsoft Azure — 2 operation(s) for operation status.
   name: Microsoft Azure Operation Status API
   slug: microsoft-azure-operation-status-api
-- description: The OperationalizationClusters API from Microsoft Azure — 8 operation(s) for operationalizationclusters.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OperationalizationClusters API from Microsoft Azure — 8 operation(s) for operationalizationclusters.
   name: Microsoft Azure OperationalizationClusters API
   slug: microsoft-azure-operationalizationclusters-api
-- description: The OperationResults API from Microsoft Azure — 3 operation(s) for operationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OperationResults API from Microsoft Azure — 3 operation(s) for operationresults.
   name: Microsoft Azure OperationResults API
   slug: microsoft-azure-operationresults-api
-- description: The Operations API from Microsoft Azure — 168 operation(s) for operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Operations API from Microsoft Azure — 168 operation(s) for operations.
   name: Microsoft Azure Operations API
   slug: microsoft-azure-operations-api
-- description: The Operations in a Cluster API from Microsoft Azure — 1 operation(s) for operations in a cluster.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Operations in a Cluster API from Microsoft Azure — 1 operation(s) for operations in a cluster.
   name: Microsoft Azure Operations in a Cluster API
   slug: microsoft-azure-operations-in-a-cluster-api
-- description: The OperationsDiscovery API from Microsoft Azure — 1 operation(s) for operationsdiscovery.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OperationsDiscovery API from Microsoft Azure — 1 operation(s) for operationsdiscovery.
   name: Microsoft Azure OperationsDiscovery API
   slug: microsoft-azure-operationsdiscovery-api
-- description: The OperationsStatus API from Microsoft Azure — 2 operation(s) for operationsstatus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OperationsStatus API from Microsoft Azure — 2 operation(s) for operationsstatus.
   name: Microsoft Azure OperationsStatus API
   slug: microsoft-azure-operationsstatus-api
-- description: The OperationStatus API from Microsoft Azure — 5 operation(s) for operationstatus.
-  name: Microsoft Azure OperationStatus API
-  slug: microsoft-azure-operationstatus-api
 - description: The Operator API from Microsoft Azure — 1 operation(s) for operator.
   name: Microsoft Azure Operator API
   slug: microsoft-azure-operator-api
-- description: The OrchestratorInstance API from Microsoft Azure — 1 operation(s) for orchestratorinstance.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OrchestratorInstance API from Microsoft Azure — 1 operation(s) for orchestratorinstance.
   name: Microsoft Azure OrchestratorInstance API
   slug: microsoft-azure-orchestratorinstance-api
-- description: The OrchestratorInstanceList API from Microsoft Azure — 2 operation(s) for orchestratorinstancelist.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OrchestratorInstanceList API from Microsoft Azure — 2 operation(s) for orchestratorinstancelist.
   name: Microsoft Azure OrchestratorInstanceList API
   slug: microsoft-azure-orchestratorinstancelist-api
-- description: The Order API from Microsoft Azure — 3 operation(s) for order.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Order API from Microsoft Azure — 3 operation(s) for order.
   name: Microsoft Azure Order API
   slug: microsoft-azure-order-api
-- description: The OrderItems API from Microsoft Azure — 5 operation(s) for orderitems.
-  name: Microsoft Azure OrderItems API
-  slug: microsoft-azure-orderitems-api
-- description: The Orders API from Microsoft Azure — 3 operation(s) for orders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Orders API from Microsoft Azure — 3 operation(s) for orders.
   name: Microsoft Azure Orders API
   slug: microsoft-azure-orders-api
-- description: The Organization API from Microsoft Azure — 4 operation(s) for organization.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Organization API from Microsoft Azure — 4 operation(s) for organization.
   name: Microsoft Azure Organization API
   slug: microsoft-azure-organization-api
-- description: The Organizations API from Microsoft Azure — 6 operation(s) for organizations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Organizations API from Microsoft Azure — 6 operation(s) for organizations.
   name: Microsoft Azure Organizations API
   slug: microsoft-azure-organizations-api
-- description: The OriginGroups API from Microsoft Azure — 2 operation(s) for origingroups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OriginGroups API from Microsoft Azure — 2 operation(s) for origingroups.
   name: Microsoft Azure OriginGroups API
   slug: microsoft-azure-origingroups-api
-- description: The Origins API from Microsoft Azure — 2 operation(s) for origins.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Origins API from Microsoft Azure — 2 operation(s) for origins.
   name: Microsoft Azure Origins API
   slug: microsoft-azure-origins-api
-- description: The OuContainer API from Microsoft Azure — 3 operation(s) for oucontainer.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OuContainer API from Microsoft Azure — 3 operation(s) for oucontainer.
   name: Microsoft Azure OuContainer API
   slug: microsoft-azure-oucontainer-api
-- description: The OutboundEndpoints API from Microsoft Azure — 2 operation(s) for outboundendpoints.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OutboundEndpoints API from Microsoft Azure — 2 operation(s) for outboundendpoints.
   name: Microsoft Azure OutboundEndpoints API
   slug: microsoft-azure-outboundendpoints-api
-- description: The OutboundNetworkDependenciesEndpoints API from Microsoft Azure — 2 operation(s) for outboundnetworkdependenciesendpoints.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The OutboundNetworkDependenciesEndpoints API from Microsoft Azure — 2 operation(s) for outboundnetworkdependenciesendpoints.
   name: Microsoft Azure OutboundNetworkDependenciesEndpoints API
   slug: microsoft-azure-outboundnetworkdependenciesendpoints-api
-- description: The P2SVpnGateways API from Microsoft Azure — 6 operation(s) for p2svpngateways.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The P2SVpnGateways API from Microsoft Azure — 6 operation(s) for p2svpngateways.
   name: Microsoft Azure P2SVpnGateways API
   slug: microsoft-azure-p2svpngateways-api
 - description: The Package API from Microsoft Azure — 2 operation(s) for package.
@@ -3057,67 +4144,97 @@ apis:
 - description: The Parties API from Microsoft Azure — 4 operation(s) for parties.
   name: Microsoft Azure Parties API
   slug: microsoft-azure-parties-api
-- description: The Partition API from Microsoft Azure — 17 operation(s) for partition.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Partition API from Microsoft Azure — 17 operation(s) for partition.
   name: Microsoft Azure Partition API
   slug: microsoft-azure-partition-api
-- description: The Partner API from Microsoft Azure — 1 operation(s) for partner.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Partner API from Microsoft Azure — 1 operation(s) for partner.
   name: Microsoft Azure Partner API
   slug: microsoft-azure-partner-api
-- description: The PartnerConfigurations API from Microsoft Azure — 5 operation(s) for partnerconfigurations.
-  name: Microsoft Azure PartnerConfigurations API
-  slug: microsoft-azure-partnerconfigurations-api
-- description: The PartnerDestinations API from Microsoft Azure — 4 operation(s) for partnerdestinations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PartnerDestinations API from Microsoft Azure — 4 operation(s) for partnerdestinations.
   name: Microsoft Azure PartnerDestinations API
   slug: microsoft-azure-partnerdestinations-api
-- description: The PartnerInventory API from Microsoft Azure — 3 operation(s) for partnerinventory.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PartnerInventory API from Microsoft Azure — 3 operation(s) for partnerinventory.
   name: Microsoft Azure PartnerInventory API
   slug: microsoft-azure-partnerinventory-api
-- description: The PartnerNamespaces API from Microsoft Azure — 5 operation(s) for partnernamespaces.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PartnerNamespaces API from Microsoft Azure — 5 operation(s) for partnernamespaces.
   name: Microsoft Azure PartnerNamespaces API
   slug: microsoft-azure-partnernamespaces-api
-- description: The PartnerRegistrations API from Microsoft Azure — 3 operation(s) for partnerregistrations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PartnerRegistrations API from Microsoft Azure — 3 operation(s) for partnerregistrations.
   name: Microsoft Azure PartnerRegistrations API
   slug: microsoft-azure-partnerregistrations-api
-- description: The Partners API from Microsoft Azure — 1 operation(s) for partners.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Partners API from Microsoft Azure — 1 operation(s) for partners.
   name: Microsoft Azure Partners API
   slug: microsoft-azure-partners-api
-- description: The PartnerTopics API from Microsoft Azure — 5 operation(s) for partnertopics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PartnerTopics API from Microsoft Azure — 5 operation(s) for partnertopics.
   name: Microsoft Azure PartnerTopics API
   slug: microsoft-azure-partnertopics-api
-- description: The PATCH API from Microsoft Azure — 1 operation(s) for patch.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PATCH API from Microsoft Azure — 1 operation(s) for patch.
   name: Microsoft Azure PATCH API
   slug: microsoft-azure-patch-api
-- description: The PatchAccessReviewMyInstanceDecision API from Microsoft Azure — 1 operation(s) for patchaccessreviewmyinstancedecision.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PatchAccessReviewMyInstanceDecision API from Microsoft Azure — 1 operation(s) for patchaccessreviewmyinstancedecision.
   name: Microsoft Azure PatchAccessReviewMyInstanceDecision API
   slug: microsoft-azure-patchaccessreviewmyinstancedecision-api
-- description: The PatchSchedules API from Microsoft Azure — 2 operation(s) for patchschedules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PatchSchedules API from Microsoft Azure — 2 operation(s) for patchschedules.
   name: Microsoft Azure PatchSchedules API
   slug: microsoft-azure-patchschedules-api
 - description: The PatientTimeline API from Microsoft Azure — 2 operation(s) for patienttimeline.
   name: Microsoft Azure PatientTimeline API
   slug: microsoft-azure-patienttimeline-api
-- description: The PaymentMethods API from Microsoft Azure — 6 operation(s) for paymentmethods.
-  name: Microsoft Azure PaymentMethods API
-  slug: microsoft-azure-paymentmethods-api
-- description: The PeerAsns API from Microsoft Azure — 2 operation(s) for peerasns.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PeerAsns API from Microsoft Azure — 2 operation(s) for peerasns.
   name: Microsoft Azure PeerAsns API
   slug: microsoft-azure-peerasns-api
-- description: The PeeringLocations API from Microsoft Azure — 1 operation(s) for peeringlocations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PeeringLocations API from Microsoft Azure — 1 operation(s) for peeringlocations.
   name: Microsoft Azure PeeringLocations API
   slug: microsoft-azure-peeringlocations-api
-- description: The Peerings API from Microsoft Azure — 3 operation(s) for peerings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Peerings API from Microsoft Azure — 3 operation(s) for peerings.
   name: Microsoft Azure Peerings API
   slug: microsoft-azure-peerings-api
-- description: The PeeringServiceLocations API from Microsoft Azure — 1 operation(s) for peeringservicelocations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PeeringServiceLocations API from Microsoft Azure — 1 operation(s) for peeringservicelocations.
   name: Microsoft Azure PeeringServiceLocations API
   slug: microsoft-azure-peeringservicelocations-api
-- description: The PeeringServicePrefixes API from Microsoft Azure — 2 operation(s) for peeringserviceprefixes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PeeringServicePrefixes API from Microsoft Azure — 2 operation(s) for peeringserviceprefixes.
   name: Microsoft Azure PeeringServicePrefixes API
   slug: microsoft-azure-peeringserviceprefixes-api
-- description: The PeeringServiceProviders API from Microsoft Azure — 1 operation(s) for peeringserviceproviders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PeeringServiceProviders API from Microsoft Azure — 1 operation(s) for peeringserviceproviders.
   name: Microsoft Azure PeeringServiceProviders API
   slug: microsoft-azure-peeringserviceproviders-api
-- description: The PeeringServices API from Microsoft Azure — 3 operation(s) for peeringservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PeeringServices API from Microsoft Azure — 3 operation(s) for peeringservices.
   name: Microsoft Azure PeeringServices API
   slug: microsoft-azure-peeringservices-api
 - description: The PersonalVoice API from Microsoft Azure — 2 operation(s) for personalvoice.
@@ -3126,19 +4243,22 @@ apis:
 - description: The PersonDirectory API from Microsoft Azure — 8 operation(s) for persondirectory.
   name: Microsoft Azure PersonDirectory API
   slug: microsoft-azure-persondirectory-api
-- description: The Persongroups API from Microsoft Azure — 8 operation(s) for persongroups.
-  name: Microsoft Azure Persongroups API
-  slug: microsoft-azure-persongroups-api
 - description: The Pipeline API from Microsoft Azure — 2 operation(s) for pipeline.
   name: Microsoft Azure Pipeline API
   slug: microsoft-azure-pipeline-api
-- description: The Pipelines API from Microsoft Azure — 5 operation(s) for pipelines.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Pipelines API from Microsoft Azure — 5 operation(s) for pipelines.
   name: Microsoft Azure Pipelines API
   slug: microsoft-azure-pipelines-api
-- description: The PipelineTemplateDefinitions API from Microsoft Azure — 1 operation(s) for pipelinetemplatedefinitions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PipelineTemplateDefinitions API from Microsoft Azure — 1 operation(s) for pipelinetemplatedefinitions.
   name: Microsoft Azure PipelineTemplateDefinitions API
   slug: microsoft-azure-pipelinetemplatedefinitions-api
-- description: The Plan API from Microsoft Azure — 1 operation(s) for plan.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Plan API from Microsoft Azure — 1 operation(s) for plan.
   name: Microsoft Azure Plan API
   slug: microsoft-azure-plan-api
 - description: The PlantingData API from Microsoft Azure — 5 operation(s) for plantingdata.
@@ -3147,88 +4267,131 @@ apis:
 - description: The PlantTissueAnalyses API from Microsoft Azure — 5 operation(s) for planttissueanalyses.
   name: Microsoft Azure PlantTissueAnalyses API
   slug: microsoft-azure-planttissueanalyses-api
-- description: The Policies API from Microsoft Azure — 2 operation(s) for policies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Policies API from Microsoft Azure — 2 operation(s) for policies.
   name: Microsoft Azure Policies API
   slug: microsoft-azure-policies-api
-- description: The Policy API from Microsoft Azure — 5 operation(s) for policy.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Policy API from Microsoft Azure — 5 operation(s) for policy.
   name: Microsoft Azure Policy API
   slug: microsoft-azure-policy-api
 - description: The Policy Management Certificates API from Microsoft Azure — 3 operation(s) for policy management certificates.
   name: Microsoft Azure Policy Management Certificates API
   slug: microsoft-azure-policy-management-certificates-api
-- description: The PolicyElements API from Microsoft Azure — 1 operation(s) for policyelements.
+- baseURL: /pds
+  baseurl_source: spec
+  description: The PolicyElements API from Microsoft Azure — 1 operation(s) for policyelements.
   name: Microsoft Azure PolicyElements API
   slug: microsoft-azure-policyelements-api
-- description: The PolicyEvents API from Microsoft Azure — 1 operation(s) for policyevents.
+- baseURL: /pds
+  baseurl_source: spec
+  description: The PolicyEvents API from Microsoft Azure — 1 operation(s) for policyevents.
   name: Microsoft Azure PolicyEvents API
   slug: microsoft-azure-policyevents-api
-- description: The PolicyFragment API from Microsoft Azure — 3 operation(s) for policyfragment.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PolicyFragment API from Microsoft Azure — 3 operation(s) for policyfragment.
   name: Microsoft Azure PolicyFragment API
   slug: microsoft-azure-policyfragment-api
-- description: The PolicyListing API from Microsoft Azure — 1 operation(s) for policylisting.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PolicyListing API from Microsoft Azure — 1 operation(s) for policylisting.
   name: Microsoft Azure PolicyListing API
   slug: microsoft-azure-policylisting-api
-- description: The PolicySets API from Microsoft Azure — 1 operation(s) for policysets.
-  name: Microsoft Azure PolicySets API
-  slug: microsoft-azure-policysets-api
-- description: The Pool API from Microsoft Azure — 4 operation(s) for pool.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Pool API from Microsoft Azure — 4 operation(s) for pool.
   name: Microsoft Azure Pool API
   slug: microsoft-azure-pool-api
-- description: The Pool Change API from Microsoft Azure — 1 operation(s) for pool change.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Pool Change API from Microsoft Azure — 1 operation(s) for pool change.
   name: Microsoft Azure Pool Change API
   slug: microsoft-azure-pool-change-api
-- description: The Pools API from Microsoft Azure — 34 operation(s) for pools.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Pools API from Microsoft Azure — 34 operation(s) for pools.
   name: Microsoft Azure Pools API
   slug: microsoft-azure-pools-api
 - description: The Poolusagemetrics API from Microsoft Azure — 1 operation(s) for poolusagemetrics.
   name: Microsoft Azure Poolusagemetrics API
   slug: microsoft-azure-poolusagemetrics-api
-- description: The PortalRegistryPackage API from Microsoft Azure — 1 operation(s) for portalregistrypackage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PortalRegistryPackage API from Microsoft Azure — 1 operation(s) for portalregistrypackage.
   name: Microsoft Azure PortalRegistryPackage API
   slug: microsoft-azure-portalregistrypackage-api
-- description: The PortalTenant API from Microsoft Azure — 1 operation(s) for portaltenant.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PortalTenant API from Microsoft Azure — 1 operation(s) for portaltenant.
   name: Microsoft Azure PortalTenant API
   slug: microsoft-azure-portaltenant-api
-- description: The Ports API from Microsoft Azure — 5 operation(s) for ports.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Ports API from Microsoft Azure — 5 operation(s) for ports.
   name: Microsoft Azure Ports API
   slug: microsoft-azure-ports-api
-- description: The POST API from Microsoft Azure — 15 operation(s) for post.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The POST API from Microsoft Azure — 15 operation(s) for post.
   name: Microsoft Azure POST API
   slug: microsoft-azure-post-api
-- description: The PostAccessReviewHistoryDefinitionInstance API from Microsoft Azure — 1 operation(s) for postaccessreviewhistorydefinitioninstance.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PostAccessReviewHistoryDefinitionInstance API from Microsoft Azure — 1 operation(s) for postaccessreviewhistorydefinitioninstance.
   name: Microsoft Azure PostAccessReviewHistoryDefinitionInstance API
   slug: microsoft-azure-postaccessreviewhistorydefinitioninstance-api
-- description: The PostRules API from Microsoft Azure — 5 operation(s) for postrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PostRules API from Microsoft Azure — 5 operation(s) for postrules.
   name: Microsoft Azure PostRules API
   slug: microsoft-azure-postrules-api
-- description: The PowerBIResources API from Microsoft Azure — 1 operation(s) for powerbiresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PowerBIResources API from Microsoft Azure — 1 operation(s) for powerbiresources.
   name: Microsoft Azure PowerBIResources API
   slug: microsoft-azure-powerbiresources-api
 - description: The Prebuilt API from Microsoft Azure — 8 operation(s) for prebuilt.
   name: Microsoft Azure Prebuilt API
   slug: microsoft-azure-prebuilt-api
-- description: The preconfigured endpoints and details
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The preconfigured endpoints and details
   name: Microsoft Azure PreconfiguredEndpoints API
   slug: microsoft-azure-preconfiguredendpoints-api
 - description: The PreConnections API from Microsoft Azure — 4 operation(s) for preconnections.
   name: Microsoft Azure PreConnections API
   slug: microsoft-azure-preconnections-api
-- description: The Prediction API from Microsoft Azure — 1 operation(s) for prediction.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Prediction API from Microsoft Azure — 1 operation(s) for prediction.
   name: Microsoft Azure Prediction API
   slug: microsoft-azure-prediction-api
-- description: The Predictions API from Microsoft Azure — 5 operation(s) for predictions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Predictions API from Microsoft Azure — 5 operation(s) for predictions.
   name: Microsoft Azure Predictions API
   slug: microsoft-azure-predictions-api
-- description: The PredictionsApi API from Microsoft Azure — 4 operation(s) for predictionsapi.
+- baseURL: https://southcentralus.api.cognitive.microsoft.com/customvision/v3.3/training
+  baseurl_source: spec
+  description: The PredictionsApi API from Microsoft Azure — 4 operation(s) for predictionsapi.
   name: Microsoft Azure PredictionsApi API
   slug: microsoft-azure-predictionsapi-api
-- description: The PrefixListGlobalRulestack API from Microsoft Azure — 2 operation(s) for prefixlistglobalrulestack.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrefixListGlobalRulestack API from Microsoft Azure — 2 operation(s) for prefixlistglobalrulestack.
   name: Microsoft Azure PrefixListGlobalRulestack API
   slug: microsoft-azure-prefixlistglobalrulestack-api
-- description: The PrefixListLocalRulestack API from Microsoft Azure — 2 operation(s) for prefixlistlocalrulestack.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrefixListLocalRulestack API from Microsoft Azure — 2 operation(s) for prefixlistlocalrulestack.
   name: Microsoft Azure PrefixListLocalRulestack API
   slug: microsoft-azure-prefixlistlocalrulestack-api
-- description: The PreRules API from Microsoft Azure — 5 operation(s) for prerules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PreRules API from Microsoft Azure — 5 operation(s) for prerules.
   name: Microsoft Azure PreRules API
   slug: microsoft-azure-prerules-api
 - description: The PrescriptionMaps API from Microsoft Azure — 4 operation(s) for prescriptionmaps.
@@ -3237,229 +4400,335 @@ apis:
 - description: The Prescriptions API from Microsoft Azure — 5 operation(s) for prescriptions.
   name: Microsoft Azure Prescriptions API
   slug: microsoft-azure-prescriptions-api
-- description: The PriceSheet API from Microsoft Azure — 2 operation(s) for pricesheet.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PriceSheet API from Microsoft Azure — 2 operation(s) for pricesheet.
   name: Microsoft Azure PriceSheet API
   slug: microsoft-azure-pricesheet-api
-- description: The PrivateClouds API from Microsoft Azure — 8 operation(s) for privateclouds.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateClouds API from Microsoft Azure — 8 operation(s) for privateclouds.
   name: Microsoft Azure PrivateClouds API
   slug: microsoft-azure-privateclouds-api
-- description: The PrivateEndpoint API from Microsoft Azure — 1 operation(s) for privateendpoint.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateEndpoint API from Microsoft Azure — 1 operation(s) for privateendpoint.
   name: Microsoft Azure PrivateEndpoint API
   slug: microsoft-azure-privateendpoint-api
-- description: The PrivateEndpointConnection API from Microsoft Azure — 5 operation(s) for privateendpointconnection.
-  name: Microsoft Azure PrivateEndpointConnection API
-  slug: microsoft-azure-privateendpointconnection-api
-- description: The PrivateEndpointConnection Resource API from Microsoft Azure — 1 operation(s) for privateendpointconnection resource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateEndpointConnection Resource API from Microsoft Azure — 1 operation(s) for privateendpointconnection resource.
   name: Microsoft Azure PrivateEndpointConnection Resource API
   slug: microsoft-azure-privateendpointconnection-resource-api
-- description: The PrivateEndpointConnectionController API from Microsoft Azure — 4 operation(s) for privateendpointconnectioncontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateEndpointConnectionController API from Microsoft Azure — 4 operation(s) for privateendpointconnectioncontroller.
   name: Microsoft Azure PrivateEndpointConnectionController API
   slug: microsoft-azure-privateendpointconnectioncontroller-api
-- description: The PrivateEndpointConnectionOperations API from Microsoft Azure — 2 operation(s) for privateendpointconnectionoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateEndpointConnectionOperations API from Microsoft Azure — 2 operation(s) for privateendpointconnectionoperations.
   name: Microsoft Azure PrivateEndpointConnectionOperations API
   slug: microsoft-azure-privateendpointconnectionoperations-api
-- description: The PrivateEndpointConnectionProxies API from Microsoft Azure — 2 operation(s) for privateendpointconnectionproxies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateEndpointConnectionProxies API from Microsoft Azure — 2 operation(s) for privateendpointconnectionproxies.
   name: Microsoft Azure PrivateEndpointConnectionProxies API
   slug: microsoft-azure-privateendpointconnectionproxies-api
-- description: The PrivateEndpointConnectionProxyController API from Microsoft Azure — 3 operation(s) for privateendpointconnectionproxycontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateEndpointConnectionProxyController API from Microsoft Azure — 3 operation(s) for privateendpointconnectionproxycontroller.
   name: Microsoft Azure PrivateEndpointConnectionProxyController API
   slug: microsoft-azure-privateendpointconnectionproxycontroller-api
-- description: The PrivateEndpointConnections API from Microsoft Azure — 36 operation(s) for privateendpointconnections.
-  name: Microsoft Azure PrivateEndpointConnections API
-  slug: microsoft-azure-privateendpointconnections-api
-- description: The PrivateEndpointConnectionsController API from Microsoft Azure — 1 operation(s) for privateendpointconnectionscontroller.
-  name: Microsoft Azure PrivateEndpointConnectionsController API
-  slug: microsoft-azure-privateendpointconnectionscontroller-api
-- description: The PrivateLink API from Microsoft Azure — 10 operation(s) for privatelink.
-  name: Microsoft Azure PrivateLink API
-  slug: microsoft-azure-privatelink-api
-- description: The PrivateLinkAssociation API from Microsoft Azure — 2 operation(s) for privatelinkassociation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateLinkAssociation API from Microsoft Azure — 2 operation(s) for privatelinkassociation.
   name: Microsoft Azure PrivateLinkAssociation API
   slug: microsoft-azure-privatelinkassociation-api
-- description: The PrivateLinkResource API from Microsoft Azure — 4 operation(s) for privatelinkresource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateLinkResource API from Microsoft Azure — 4 operation(s) for privatelinkresource.
   name: Microsoft Azure PrivateLinkResource API
   slug: microsoft-azure-privatelinkresource-api
-- description: The PrivateLinkResourceController API from Microsoft Azure — 2 operation(s) for privatelinkresourcecontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateLinkResourceController API from Microsoft Azure — 2 operation(s) for privatelinkresourcecontroller.
   name: Microsoft Azure PrivateLinkResourceController API
   slug: microsoft-azure-privatelinkresourcecontroller-api
-- description: The PrivateLinkResourceOperations API from Microsoft Azure — 2 operation(s) for privatelinkresourceoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateLinkResourceOperations API from Microsoft Azure — 2 operation(s) for privatelinkresourceoperations.
   name: Microsoft Azure PrivateLinkResourceOperations API
   slug: microsoft-azure-privatelinkresourceoperations-api
-- description: The PrivateLinkResources API from Microsoft Azure — 36 operation(s) for privatelinkresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateLinkResources API from Microsoft Azure — 36 operation(s) for privatelinkresources.
   name: Microsoft Azure PrivateLinkResources API
   slug: microsoft-azure-privatelinkresources-api
-- description: The PrivateLinkResourcesController API from Microsoft Azure — 2 operation(s) for privatelinkresourcescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateLinkResourcesController API from Microsoft Azure — 2 operation(s) for privatelinkresourcescontroller.
   name: Microsoft Azure PrivateLinkResourcesController API
   slug: microsoft-azure-privatelinkresourcescontroller-api
-- description: The PrivateLinkScopedResources API from Microsoft Azure — 2 operation(s) for privatelinkscopedresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateLinkScopedResources API from Microsoft Azure — 2 operation(s) for privatelinkscopedresources.
   name: Microsoft Azure PrivateLinkScopedResources API
   slug: microsoft-azure-privatelinkscopedresources-api
-- description: The PrivateLinkServiceResourceOperationResults API from Microsoft Azure — 1 operation(s) for privatelinkserviceresourceoperationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateLinkServiceResourceOperationResults API from Microsoft Azure — 1 operation(s) for privatelinkserviceresourceoperationresults.
   name: Microsoft Azure PrivateLinkServiceResourceOperationResults API
   slug: microsoft-azure-privatelinkserviceresourceoperationresults-api
-- description: The PrivateLinkServices API from Microsoft Azure — 2 operation(s) for privatelinkservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateLinkServices API from Microsoft Azure — 2 operation(s) for privatelinkservices.
   name: Microsoft Azure PrivateLinkServices API
   slug: microsoft-azure-privatelinkservices-api
-- description: The PrivateZones API from Microsoft Azure — 3 operation(s) for privatezones.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PrivateZones API from Microsoft Azure — 3 operation(s) for privatezones.
   name: Microsoft Azure PrivateZones API
   slug: microsoft-azure-privatezones-api
-- description: The ProblemClassifications API from Microsoft Azure — 2 operation(s) for problemclassifications.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProblemClassifications API from Microsoft Azure — 2 operation(s) for problemclassifications.
   name: Microsoft Azure ProblemClassifications API
   slug: microsoft-azure-problemclassifications-api
-- description: The Processes API from Microsoft Azure — 6 operation(s) for processes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Processes API from Microsoft Azure — 6 operation(s) for processes.
   name: Microsoft Azure Processes API
   slug: microsoft-azure-processes-api
-- description: The Product API from Microsoft Azure — 8 operation(s) for product.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Product API from Microsoft Azure — 8 operation(s) for product.
   name: Microsoft Azure Product API
   slug: microsoft-azure-product-api
-- description: The ProductApiLink API from Microsoft Azure — 2 operation(s) for productapilink.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProductApiLink API from Microsoft Azure — 2 operation(s) for productapilink.
   name: Microsoft Azure ProductApiLink API
   slug: microsoft-azure-productapilink-api
-- description: The ProductFamilyMetadata API from Microsoft Azure — 1 operation(s) for productfamilymetadata.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProductFamilyMetadata API from Microsoft Azure — 1 operation(s) for productfamilymetadata.
   name: Microsoft Azure ProductFamilyMetadata API
   slug: microsoft-azure-productfamilymetadata-api
-- description: The ProductGroupLink API from Microsoft Azure — 2 operation(s) for productgrouplink.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProductGroupLink API from Microsoft Azure — 2 operation(s) for productgrouplink.
   name: Microsoft Azure ProductGroupLink API
   slug: microsoft-azure-productgrouplink-api
-- description: The ProductPolicy API from Microsoft Azure — 2 operation(s) for productpolicy.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProductPolicy API from Microsoft Azure — 2 operation(s) for productpolicy.
   name: Microsoft Azure ProductPolicy API
   slug: microsoft-azure-productpolicy-api
-- description: The Products API from Microsoft Azure — 7 operation(s) for products.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Products API from Microsoft Azure — 7 operation(s) for products.
   name: Microsoft Azure Products API
   slug: microsoft-azure-products-api
-- description: The ProductsAndConfigurations API from Microsoft Azure — 2 operation(s) for productsandconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProductsAndConfigurations API from Microsoft Azure — 2 operation(s) for productsandconfigurations.
   name: Microsoft Azure ProductsAndConfigurations API
   slug: microsoft-azure-productsandconfigurations-api
-- description: The ProductSecrets API from Microsoft Azure — 4 operation(s) for productsecrets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProductSecrets API from Microsoft Azure — 4 operation(s) for productsecrets.
   name: Microsoft Azure ProductSecrets API
   slug: microsoft-azure-productsecrets-api
-- description: The ProfessionalServiceOperations API from Microsoft Azure — 1 operation(s) for professionalserviceoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProfessionalServiceOperations API from Microsoft Azure — 1 operation(s) for professionalserviceoperations.
   name: Microsoft Azure ProfessionalServiceOperations API
   slug: microsoft-azure-professionalserviceoperations-api
-- description: The ProfessionalServiceResources API from Microsoft Azure — 1 operation(s) for professionalserviceresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProfessionalServiceResources API from Microsoft Azure — 1 operation(s) for professionalserviceresources.
   name: Microsoft Azure ProfessionalServiceResources API
   slug: microsoft-azure-professionalserviceresources-api
 - description: The Profile API from Microsoft Azure — 2 operation(s) for profile.
   name: Microsoft Azure Profile API
   slug: microsoft-azure-profile-api
-- description: The Profiles API from Microsoft Azure — 12 operation(s) for profiles.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Profiles API from Microsoft Azure — 12 operation(s) for profiles.
   name: Microsoft Azure Profiles API
   slug: microsoft-azure-profiles-api
 - description: The Project API from Microsoft Azure — 2 operation(s) for project.
   name: Microsoft Azure Project API
   slug: microsoft-azure-project-api
-- description: The ProjectApi API from Microsoft Azure — 13 operation(s) for projectapi.
-  name: Microsoft Azure ProjectApi API
-  slug: microsoft-azure-projectapi-api
-- description: The Projects API from Microsoft Azure — 7 operation(s) for projects.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Projects API from Microsoft Azure — 7 operation(s) for projects.
   name: Microsoft Azure Projects API
   slug: microsoft-azure-projects-api
-- description: The Property Management API from Microsoft Azure — 6 operation(s) for property management.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Property Management API from Microsoft Azure — 6 operation(s) for property management.
   name: Microsoft Azure Property Management API
   slug: microsoft-azure-property-management-api
-- description: The ProtectableContainers API from Microsoft Azure — 1 operation(s) for protectablecontainers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectableContainers API from Microsoft Azure — 1 operation(s) for protectablecontainers.
   name: Microsoft Azure ProtectableContainers API
   slug: microsoft-azure-protectablecontainers-api
-- description: Protected items controller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Protected items controller.
   name: Microsoft Azure ProtectedItem API
   slug: microsoft-azure-protecteditem-api
-- description: The ProtectedItemOperationResults API from Microsoft Azure — 1 operation(s) for protecteditemoperationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectedItemOperationResults API from Microsoft Azure — 1 operation(s) for protecteditemoperationresults.
   name: Microsoft Azure ProtectedItemOperationResults API
   slug: microsoft-azure-protecteditemoperationresults-api
-- description: The ProtectedItemOperationStatuses API from Microsoft Azure — 1 operation(s) for protecteditemoperationstatuses.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectedItemOperationStatuses API from Microsoft Azure — 1 operation(s) for protecteditemoperationstatuses.
   name: Microsoft Azure ProtectedItemOperationStatuses API
   slug: microsoft-azure-protecteditemoperationstatuses-api
-- description: The ProtectedItems API from Microsoft Azure — 1 operation(s) for protecteditems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectedItems API from Microsoft Azure — 1 operation(s) for protecteditems.
   name: Microsoft Azure ProtectedItems API
   slug: microsoft-azure-protecteditems-api
-- description: The ProtectionContainerOperationResults API from Microsoft Azure — 1 operation(s) for protectioncontaineroperationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectionContainerOperationResults API from Microsoft Azure — 1 operation(s) for protectioncontaineroperationresults.
   name: Microsoft Azure ProtectionContainerOperationResults API
   slug: microsoft-azure-protectioncontaineroperationresults-api
-- description: The ProtectionContainerRefreshOperationResults API from Microsoft Azure — 1 operation(s) for protectioncontainerrefreshoperationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectionContainerRefreshOperationResults API from Microsoft Azure — 1 operation(s) for protectioncontainerrefreshoperationresults.
   name: Microsoft Azure ProtectionContainerRefreshOperationResults API
   slug: microsoft-azure-protectioncontainerrefreshoperationresults-api
-- description: The ProtectionContainers API from Microsoft Azure — 3 operation(s) for protectioncontainers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectionContainers API from Microsoft Azure — 3 operation(s) for protectioncontainers.
   name: Microsoft Azure ProtectionContainers API
   slug: microsoft-azure-protectioncontainers-api
-- description: The ProtectionIntent API from Microsoft Azure — 2 operation(s) for protectionintent.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectionIntent API from Microsoft Azure — 2 operation(s) for protectionintent.
   name: Microsoft Azure ProtectionIntent API
   slug: microsoft-azure-protectionintent-api
-- description: The ProtectionPolicies API from Microsoft Azure — 1 operation(s) for protectionpolicies.
-  name: Microsoft Azure ProtectionPolicies API
-  slug: microsoft-azure-protectionpolicies-api
-- description: The ProtectionPolicyOperationResults API from Microsoft Azure — 1 operation(s) for protectionpolicyoperationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectionPolicyOperationResults API from Microsoft Azure — 1 operation(s) for protectionpolicyoperationresults.
   name: Microsoft Azure ProtectionPolicyOperationResults API
   slug: microsoft-azure-protectionpolicyoperationresults-api
-- description: The ProtectionPolicyOperationStatuses API from Microsoft Azure — 1 operation(s) for protectionpolicyoperationstatuses.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProtectionPolicyOperationStatuses API from Microsoft Azure — 1 operation(s) for protectionpolicyoperationstatuses.
   name: Microsoft Azure ProtectionPolicyOperationStatuses API
   slug: microsoft-azure-protectionpolicyoperationstatuses-api
-- description: The Provider API from Microsoft Azure — 11 operation(s) for provider.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Provider API from Microsoft Azure — 11 operation(s) for provider.
   name: Microsoft Azure Provider API
   slug: microsoft-azure-provider-api
-- description: The ProviderOperations API from Microsoft Azure — 2 operation(s) for provideroperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProviderOperations API from Microsoft Azure — 2 operation(s) for provideroperations.
   name: Microsoft Azure ProviderOperations API
   slug: microsoft-azure-provideroperations-api
-- description: The ProviderRegistration API from Microsoft Azure — 3 operation(s) for providerregistration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProviderRegistration API from Microsoft Azure — 3 operation(s) for providerregistration.
   name: Microsoft Azure ProviderRegistration API
   slug: microsoft-azure-providerregistration-api
-- description: The Providers API from Microsoft Azure — 122 operation(s) for providers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Providers API from Microsoft Azure — 122 operation(s) for providers.
   name: Microsoft Azure Providers API
   slug: microsoft-azure-providers-api
-- description: The Proxy API from Microsoft Azure — 3 operation(s) for proxy.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Proxy API from Microsoft Azure — 3 operation(s) for proxy.
   name: Microsoft Azure Proxy API
   slug: microsoft-azure-proxy-api
-- description: The ProxyOperations API from Microsoft Azure — 7 operation(s) for proxyoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ProxyOperations API from Microsoft Azure — 7 operation(s) for proxyoperations.
   name: Microsoft Azure ProxyOperations API
   slug: microsoft-azure-proxyoperations-api
-- description: The Public-Offers-Listing API from Microsoft Azure — 1 operation(s) for public-offers-listing.
+- baseURL: https://catalogapi.azure.com
+  baseurl_source: spec
+  description: The Public-Offers-Listing API from Microsoft Azure — 1 operation(s) for public-offers-listing.
   name: Microsoft Azure Public-Offers-Listing API
   slug: microsoft-azure-public-offers-listing-api
-- description: The Public-Offers-Single API from Microsoft Azure — 1 operation(s) for public-offers-single.
+- baseURL: https://catalogapi.azure.com
+  baseurl_source: spec
+  description: The Public-Offers-Single API from Microsoft Azure — 1 operation(s) for public-offers-single.
   name: Microsoft Azure Public-Offers-Single API
   slug: microsoft-azure-public-offers-single-api
-- description: The Public-Search API from Microsoft Azure — 2 operation(s) for public-search.
+- baseURL: https://catalogapi.azure.com
+  baseurl_source: spec
+  description: The Public-Search API from Microsoft Azure — 2 operation(s) for public-search.
   name: Microsoft Azure Public-Search API
   slug: microsoft-azure-public-search-api
-- description: The Public-Suggestions API from Microsoft Azure — 1 operation(s) for public-suggestions.
+- baseURL: https://catalogapi.azure.com
+  baseurl_source: spec
+  description: The Public-Suggestions API from Microsoft Azure — 1 operation(s) for public-suggestions.
   name: Microsoft Azure Public-Suggestions API
   slug: microsoft-azure-public-suggestions-api
-- description: The PublicIpAddresses API from Microsoft Azure — 3 operation(s) for publicipaddresses.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PublicIpAddresses API from Microsoft Azure — 3 operation(s) for publicipaddresses.
   name: Microsoft Azure PublicIpAddresses API
   slug: microsoft-azure-publicipaddresses-api
-- description: The PublicKeys API from Microsoft Azure — 2 operation(s) for publickeys.
-  name: Microsoft Azure PublicKeys API
-  slug: microsoft-azure-publickeys-api
-- description: The PublicMaintenanceConfigurations API from Microsoft Azure — 2 operation(s) for publicmaintenanceconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PublicMaintenanceConfigurations API from Microsoft Azure — 2 operation(s) for publicmaintenanceconfigurations.
   name: Microsoft Azure PublicMaintenanceConfigurations API
   slug: microsoft-azure-publicmaintenanceconfigurations-api
-- description: The PublishedArtifact API from Microsoft Azure — 2 operation(s) for publishedartifact.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PublishedArtifact API from Microsoft Azure — 2 operation(s) for publishedartifact.
   name: Microsoft Azure PublishedArtifact API
   slug: microsoft-azure-publishedartifact-api
-- description: The PublishedBlueprint API from Microsoft Azure — 2 operation(s) for publishedblueprint.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PublishedBlueprint API from Microsoft Azure — 2 operation(s) for publishedblueprint.
   name: Microsoft Azure PublishedBlueprint API
   slug: microsoft-azure-publishedblueprint-api
-- description: The Publishers API from Microsoft Azure — 3 operation(s) for publishers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Publishers API from Microsoft Azure — 3 operation(s) for publishers.
   name: Microsoft Azure Publishers API
   slug: microsoft-azure-publishers-api
-- description: The PurviewPolicies API from Microsoft Azure — 1 operation(s) for purviewpolicies.
-  name: Microsoft Azure PurviewPolicies API
-  slug: microsoft-azure-purviewpolicies-api
-- description: The PUT API from Microsoft Azure — 6 operation(s) for put.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PUT API from Microsoft Azure — 6 operation(s) for put.
   name: Microsoft Azure PUT API
   slug: microsoft-azure-put-api
-- description: The PutAccessReviewDefaultSettings API from Microsoft Azure — 1 operation(s) for putaccessreviewdefaultsettings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PutAccessReviewDefaultSettings API from Microsoft Azure — 1 operation(s) for putaccessreviewdefaultsettings.
   name: Microsoft Azure PutAccessReviewDefaultSettings API
   slug: microsoft-azure-putaccessreviewdefaultsettings-api
-- description: The PutAccessReviewHistoryDefinition API from Microsoft Azure — 1 operation(s) for putaccessreviewhistorydefinition.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PutAccessReviewHistoryDefinition API from Microsoft Azure — 1 operation(s) for putaccessreviewhistorydefinition.
   name: Microsoft Azure PutAccessReviewHistoryDefinition API
   slug: microsoft-azure-putaccessreviewhistorydefinition-api
-- description: The PutAccessReviewInstance API from Microsoft Azure — 1 operation(s) for putaccessreviewinstance.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PutAccessReviewInstance API from Microsoft Azure — 1 operation(s) for putaccessreviewinstance.
   name: Microsoft Azure PutAccessReviewInstance API
   slug: microsoft-azure-putaccessreviewinstance-api
-- description: The PutAccessReviewScheduleDefinition API from Microsoft Azure — 1 operation(s) for putaccessreviewscheduledefinition.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The PutAccessReviewScheduleDefinition API from Microsoft Azure — 1 operation(s) for putaccessreviewscheduledefinition.
   name: Microsoft Azure PutAccessReviewScheduleDefinition API
   slug: microsoft-azure-putaccessreviewscheduledefinition-api
-- description: The Query API from Microsoft Azure — 1 operation(s) for query.
+- baseURL: https://digitaltwins-hostname
+  baseurl_source: spec
+  description: The Query API from Microsoft Azure — 1 operation(s) for query.
   name: Microsoft Azure Query API
   slug: microsoft-azure-query-api
 - description: The :Query Knowledgebases API from Microsoft Azure — 1 operation(s) for :query knowledgebases.
@@ -3471,222 +4740,320 @@ apis:
 - description: The QueryGeneration API from Microsoft Azure — 1 operation(s) for querygeneration.
   name: Microsoft Azure QueryGeneration API
   slug: microsoft-azure-querygeneration-api
-- description: The QueryKeys API from Microsoft Azure — 3 operation(s) for querykeys.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The QueryKeys API from Microsoft Azure — 3 operation(s) for querykeys.
   name: Microsoft Azure QueryKeys API
   slug: microsoft-azure-querykeys-api
-- description: The QueryTexts API from Microsoft Azure — 2 operation(s) for querytexts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The QueryTexts API from Microsoft Azure — 2 operation(s) for querytexts.
   name: Microsoft Azure QueryTexts API
   slug: microsoft-azure-querytexts-api
 - description: The QuickPulseService API from Microsoft Azure — 2 operation(s) for quickpulseservice.
   name: Microsoft Azure QuickPulseService API
   slug: microsoft-azure-quickpulseservice-api
-- description: The QuotaInformation API from Microsoft Azure — 4 operation(s) for quotainformation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The QuotaInformation API from Microsoft Azure — 4 operation(s) for quotainformation.
   name: Microsoft Azure QuotaInformation API
   slug: microsoft-azure-quotainformation-api
-- description: The QuotaRequests API from Microsoft Azure — 4 operation(s) for quotarequests.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The QuotaRequests API from Microsoft Azure — 4 operation(s) for quotarequests.
   name: Microsoft Azure QuotaRequests API
   slug: microsoft-azure-quotarequests-api
-- description: The Quotas API from Microsoft Azure — 2 operation(s) for quotas.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Quotas API from Microsoft Azure — 2 operation(s) for quotas.
   name: Microsoft Azure Quotas API
   slug: microsoft-azure-quotas-api
 - description: The RadiologyInsights API from Microsoft Azure — 2 operation(s) for radiologyinsights.
   name: Microsoft Azure RadiologyInsights API
   slug: microsoft-azure-radiologyinsights-api
-- description: Manages ranking operations.
+- baseURL: /personalizer
+  baseurl_source: spec
+  description: Manages ranking operations.
   name: Microsoft Azure Rank API
   slug: microsoft-azure-rank-api
-- description: The RateCard API from Microsoft Azure — 1 operation(s) for ratecard.
-  name: Microsoft Azure RateCard API
-  slug: microsoft-azure-ratecard-api
-- description: The Rating and Reviews Public API API from Microsoft Azure — 1 operation(s) for rating and reviews public api.
-  name: Microsoft Azure Rating and Reviews Public API API
+- baseURL: https://catalogapi.azure.com
+  baseurl_source: spec
+  description: The Rating and Reviews Public API API from Microsoft Azure — 1 operation(s) for rating and reviews public api.
+  name: Microsoft Azure Rating and Reviews Public API
   slug: microsoft-azure-rating-and-reviews-public-api-api
-- description: The RealUserMetrics API from Microsoft Azure — 1 operation(s) for realusermetrics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RealUserMetrics API from Microsoft Azure — 1 operation(s) for realusermetrics.
   name: Microsoft Azure RealUserMetrics API
   slug: microsoft-azure-realusermetrics-api
 - description: The ReceivedShare API from Microsoft Azure — 3 operation(s) for receivedshare.
   name: Microsoft Azure ReceivedShare API
   slug: microsoft-azure-receivedshare-api
-- description: The recognizeText API from Microsoft Azure — 1 operation(s) for recognizetext.
+- baseURL: /vision/v1.0
+  baseurl_source: spec
+  description: The recognizeText API from Microsoft Azure — 1 operation(s) for recognizetext.
   name: Microsoft Azure recognizeText API
   slug: microsoft-azure-recognizetext-api
-- description: The Recommendations API from Microsoft Azure — 15 operation(s) for recommendations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Recommendations API from Microsoft Azure — 15 operation(s) for recommendations.
   name: Microsoft Azure Recommendations API
   slug: microsoft-azure-recommendations-api
-- description: The RecommendedActions API from Microsoft Azure — 2 operation(s) for recommendedactions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RecommendedActions API from Microsoft Azure — 2 operation(s) for recommendedactions.
   name: Microsoft Azure RecommendedActions API
   slug: microsoft-azure-recommendedactions-api
-- description: The RecommendedActionSessions API from Microsoft Azure — 1 operation(s) for recommendedactionsessions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RecommendedActionSessions API from Microsoft Azure — 1 operation(s) for recommendedactionsessions.
   name: Microsoft Azure RecommendedActionSessions API
   slug: microsoft-azure-recommendedactionsessions-api
 - description: The Recording API from Microsoft Azure — 4 operation(s) for recording.
   name: Microsoft Azure Recording API
   slug: microsoft-azure-recording-api
-- description: The RecordSets API from Microsoft Azure — 7 operation(s) for recordsets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RecordSets API from Microsoft Azure — 7 operation(s) for recordsets.
   name: Microsoft Azure RecordSets API
   slug: microsoft-azure-recordsets-api
-- description: Recovery points controller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Recovery points controller.
   name: Microsoft Azure RecoveryPoint API
   slug: microsoft-azure-recoverypoint-api
-- description: The RecoveryPoints API from Microsoft Azure — 4 operation(s) for recoverypoints.
-  name: Microsoft Azure RecoveryPoints API
-  slug: microsoft-azure-recoverypoints-api
-- description: The RecoveryPointsRecommendedForMove API from Microsoft Azure — 1 operation(s) for recoverypointsrecommendedformove.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RecoveryPointsRecommendedForMove API from Microsoft Azure — 1 operation(s) for recoverypointsrecommendedformove.
   name: Microsoft Azure RecoveryPointsRecommendedForMove API
   slug: microsoft-azure-recoverypointsrecommendedformove-api
 - description: The Recurrence API from Microsoft Azure — 2 operation(s) for recurrence.
   name: Microsoft Azure Recurrence API
   slug: microsoft-azure-recurrence-api
-- description: The Redis API from Microsoft Azure — 16 operation(s) for redis.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Redis API from Microsoft Azure — 16 operation(s) for redis.
   name: Microsoft Azure Redis API
   slug: microsoft-azure-redis-api
-- description: The RedisEnterprise API from Microsoft Azure — 11 operation(s) for redisenterprise.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RedisEnterprise API from Microsoft Azure — 11 operation(s) for redisenterprise.
   name: Microsoft Azure RedisEnterprise API
   slug: microsoft-azure-redisenterprise-api
-- description: The ReferenceDataSets API from Microsoft Azure — 2 operation(s) for referencedatasets.
-  name: Microsoft Azure ReferenceDataSets API
-  slug: microsoft-azure-referencedatasets-api
-- description: The RefreshSetPasswordLink API from Microsoft Azure — 1 operation(s) for refreshsetpasswordlink.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RefreshSetPasswordLink API from Microsoft Azure — 1 operation(s) for refreshsetpasswordlink.
   name: Microsoft Azure RefreshSetPasswordLink API
   slug: microsoft-azure-refreshsetpasswordlink-api
-- description: The RefreshToken API from Microsoft Azure — 1 operation(s) for refreshtoken.
-  name: Microsoft Azure RefreshToken API
-  slug: microsoft-azure-refreshtoken-api
-- description: The RegisteredServer Resource API from Microsoft Azure — 3 operation(s) for registeredserver resource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RegisteredServer Resource API from Microsoft Azure — 3 operation(s) for registeredserver resource.
   name: Microsoft Azure RegisteredServer Resource API
   slug: microsoft-azure-registeredserver-resource-api
-- description: The registerStorageConfiguration API from Microsoft Azure — 1 operation(s) for registerstorageconfiguration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The registerStorageConfiguration API from Microsoft Azure — 1 operation(s) for registerstorageconfiguration.
   name: Microsoft Azure registerStorageConfiguration API
   slug: microsoft-azure-registerstorageconfiguration-api
-- description: The RegistrationAssignments API from Microsoft Azure — 2 operation(s) for registrationassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RegistrationAssignments API from Microsoft Azure — 2 operation(s) for registrationassignments.
   name: Microsoft Azure RegistrationAssignments API
   slug: microsoft-azure-registrationassignments-api
-- description: The RegistrationDefinitions API from Microsoft Azure — 2 operation(s) for registrationdefinitions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RegistrationDefinitions API from Microsoft Azure — 2 operation(s) for registrationdefinitions.
   name: Microsoft Azure RegistrationDefinitions API
   slug: microsoft-azure-registrationdefinitions-api
-- description: The Registrations API from Microsoft Azure — 5 operation(s) for registrations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Registrations API from Microsoft Azure — 5 operation(s) for registrations.
   name: Microsoft Azure Registrations API
   slug: microsoft-azure-registrations-api
-- description: The Relationship API from Microsoft Azure — 2 operation(s) for relationship.
+- baseURL: /catalog/api
+  baseurl_source: spec
+  description: The Relationship API from Microsoft Azure — 2 operation(s) for relationship.
   name: Microsoft Azure Relationship API
   slug: microsoft-azure-relationship-api
-- description: The RelationshipLinks API from Microsoft Azure — 2 operation(s) for relationshiplinks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RelationshipLinks API from Microsoft Azure — 2 operation(s) for relationshiplinks.
   name: Microsoft Azure RelationshipLinks API
   slug: microsoft-azure-relationshiplinks-api
-- description: The Relationships API from Microsoft Azure — 2 operation(s) for relationships.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Relationships API from Microsoft Azure — 2 operation(s) for relationships.
   name: Microsoft Azure Relationships API
   slug: microsoft-azure-relationships-api
 - description: The Rendering Session API from Microsoft Azure — 3 operation(s) for rendering session.
   name: Microsoft Azure Rendering Session API
   slug: microsoft-azure-rendering-session-api
-- description: The RepairManagement API from Microsoft Azure — 7 operation(s) for repairmanagement.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The RepairManagement API from Microsoft Azure — 7 operation(s) for repairmanagement.
   name: Microsoft Azure RepairManagement API
   slug: microsoft-azure-repairmanagement-api
-- description: The Replica API from Microsoft Azure — 9 operation(s) for replica.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Replica API from Microsoft Azure — 9 operation(s) for replica.
   name: Microsoft Azure Replica API
   slug: microsoft-azure-replica-api
-- description: The Replicas API from Microsoft Azure — 5 operation(s) for replicas.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Replicas API from Microsoft Azure — 5 operation(s) for replicas.
   name: Microsoft Azure Replicas API
   slug: microsoft-azure-replicas-api
-- description: The ReplicationAlertSettings API from Microsoft Azure — 2 operation(s) for replicationalertsettings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationAlertSettings API from Microsoft Azure — 2 operation(s) for replicationalertsettings.
   name: Microsoft Azure ReplicationAlertSettings API
   slug: microsoft-azure-replicationalertsettings-api
-- description: The ReplicationAppliances API from Microsoft Azure — 1 operation(s) for replicationappliances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationAppliances API from Microsoft Azure — 1 operation(s) for replicationappliances.
   name: Microsoft Azure ReplicationAppliances API
   slug: microsoft-azure-replicationappliances-api
-- description: The ReplicationEligibilityResults API from Microsoft Azure — 2 operation(s) for replicationeligibilityresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationEligibilityResults API from Microsoft Azure — 2 operation(s) for replicationeligibilityresults.
   name: Microsoft Azure ReplicationEligibilityResults API
   slug: microsoft-azure-replicationeligibilityresults-api
-- description: The ReplicationEvents API from Microsoft Azure — 2 operation(s) for replicationevents.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationEvents API from Microsoft Azure — 2 operation(s) for replicationevents.
   name: Microsoft Azure ReplicationEvents API
   slug: microsoft-azure-replicationevents-api
-- description: Replication extension controller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Replication extension controller.
   name: Microsoft Azure ReplicationExtension API
   slug: microsoft-azure-replicationextension-api
-- description: The ReplicationFabrics API from Microsoft Azure — 7 operation(s) for replicationfabrics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationFabrics API from Microsoft Azure — 7 operation(s) for replicationfabrics.
   name: Microsoft Azure ReplicationFabrics API
   slug: microsoft-azure-replicationfabrics-api
-- description: The ReplicationJobs API from Microsoft Azure — 6 operation(s) for replicationjobs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationJobs API from Microsoft Azure — 6 operation(s) for replicationjobs.
   name: Microsoft Azure ReplicationJobs API
   slug: microsoft-azure-replicationjobs-api
-- description: The ReplicationLogicalNetworks API from Microsoft Azure — 2 operation(s) for replicationlogicalnetworks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationLogicalNetworks API from Microsoft Azure — 2 operation(s) for replicationlogicalnetworks.
   name: Microsoft Azure ReplicationLogicalNetworks API
   slug: microsoft-azure-replicationlogicalnetworks-api
-- description: The ReplicationMigrationItems API from Microsoft Azure — 9 operation(s) for replicationmigrationitems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationMigrationItems API from Microsoft Azure — 9 operation(s) for replicationmigrationitems.
   name: Microsoft Azure ReplicationMigrationItems API
   slug: microsoft-azure-replicationmigrationitems-api
-- description: The ReplicationNetworkMappings API from Microsoft Azure — 3 operation(s) for replicationnetworkmappings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationNetworkMappings API from Microsoft Azure — 3 operation(s) for replicationnetworkmappings.
   name: Microsoft Azure ReplicationNetworkMappings API
   slug: microsoft-azure-replicationnetworkmappings-api
-- description: The ReplicationNetworks API from Microsoft Azure — 3 operation(s) for replicationnetworks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationNetworks API from Microsoft Azure — 3 operation(s) for replicationnetworks.
   name: Microsoft Azure ReplicationNetworks API
   slug: microsoft-azure-replicationnetworks-api
-- description: The ReplicationPolicies API from Microsoft Azure — 2 operation(s) for replicationpolicies.
-  name: Microsoft Azure ReplicationPolicies API
-  slug: microsoft-azure-replicationpolicies-api
-- description: The ReplicationProtectableItems API from Microsoft Azure — 2 operation(s) for replicationprotectableitems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationProtectableItems API from Microsoft Azure — 2 operation(s) for replicationprotectableitems.
   name: Microsoft Azure ReplicationProtectableItems API
   slug: microsoft-azure-replicationprotectableitems-api
-- description: The ReplicationProtectedItems API from Microsoft Azure — 19 operation(s) for replicationprotecteditems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationProtectedItems API from Microsoft Azure — 19 operation(s) for replicationprotecteditems.
   name: Microsoft Azure ReplicationProtectedItems API
   slug: microsoft-azure-replicationprotecteditems-api
-- description: The ReplicationProtectionContainerMappings API from Microsoft Azure — 4 operation(s) for replicationprotectioncontainermappings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationProtectionContainerMappings API from Microsoft Azure — 4 operation(s) for replicationprotectioncontainermappings.
   name: Microsoft Azure ReplicationProtectionContainerMappings API
   slug: microsoft-azure-replicationprotectioncontainermappings-api
-- description: The ReplicationProtectionContainers API from Microsoft Azure — 6 operation(s) for replicationprotectioncontainers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationProtectionContainers API from Microsoft Azure — 6 operation(s) for replicationprotectioncontainers.
   name: Microsoft Azure ReplicationProtectionContainers API
   slug: microsoft-azure-replicationprotectioncontainers-api
-- description: The ReplicationProtectionIntents API from Microsoft Azure — 2 operation(s) for replicationprotectionintents.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationProtectionIntents API from Microsoft Azure — 2 operation(s) for replicationprotectionintents.
   name: Microsoft Azure ReplicationProtectionIntents API
   slug: microsoft-azure-replicationprotectionintents-api
-- description: The ReplicationRecoveryPlans API from Microsoft Azure — 9 operation(s) for replicationrecoveryplans.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationRecoveryPlans API from Microsoft Azure — 9 operation(s) for replicationrecoveryplans.
   name: Microsoft Azure ReplicationRecoveryPlans API
   slug: microsoft-azure-replicationrecoveryplans-api
-- description: The ReplicationRecoveryServicesProviders API from Microsoft Azure — 5 operation(s) for replicationrecoveryservicesproviders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationRecoveryServicesProviders API from Microsoft Azure — 5 operation(s) for replicationrecoveryservicesproviders.
   name: Microsoft Azure ReplicationRecoveryServicesProviders API
   slug: microsoft-azure-replicationrecoveryservicesproviders-api
-- description: The ReplicationStorageClassificationMappings API from Microsoft Azure — 3 operation(s) for replicationstorageclassificationmappings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationStorageClassificationMappings API from Microsoft Azure — 3 operation(s) for replicationstorageclassificationmappings.
   name: Microsoft Azure ReplicationStorageClassificationMappings API
   slug: microsoft-azure-replicationstorageclassificationmappings-api
-- description: The ReplicationStorageClassifications API from Microsoft Azure — 3 operation(s) for replicationstorageclassifications.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationStorageClassifications API from Microsoft Azure — 3 operation(s) for replicationstorageclassifications.
   name: Microsoft Azure ReplicationStorageClassifications API
   slug: microsoft-azure-replicationstorageclassifications-api
-- description: The ReplicationVaultHealth API from Microsoft Azure — 2 operation(s) for replicationvaulthealth.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationVaultHealth API from Microsoft Azure — 2 operation(s) for replicationvaulthealth.
   name: Microsoft Azure ReplicationVaultHealth API
   slug: microsoft-azure-replicationvaulthealth-api
-- description: The ReplicationVaultSetting API from Microsoft Azure — 2 operation(s) for replicationvaultsetting.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationVaultSetting API from Microsoft Azure — 2 operation(s) for replicationvaultsetting.
   name: Microsoft Azure ReplicationVaultSetting API
   slug: microsoft-azure-replicationvaultsetting-api
-- description: The ReplicationvCenters API from Microsoft Azure — 3 operation(s) for replicationvcenters.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReplicationvCenters API from Microsoft Azure — 3 operation(s) for replicationvcenters.
   name: Microsoft Azure ReplicationvCenters API
   slug: microsoft-azure-replicationvcenters-api
-- description: The Reports API from Microsoft Azure — 14 operation(s) for reports.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Reports API from Microsoft Azure — 14 operation(s) for reports.
   name: Microsoft Azure Reports API
   slug: microsoft-azure-reports-api
-- baseURL_template: https://{registryName}.azurecr.io
-  baseurl_source: spec_template
-  description: Operations for managing repositories
-  name: Microsoft Azure Repositories API
-  slug: microsoft-azure-repositories-api
 - description: Everything about repository
   name: Microsoft Azure Repository API
   slug: microsoft-azure-repository-api
-- description: The Requests API from Microsoft Azure — 6 operation(s) for requests.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Requests API from Microsoft Azure — 6 operation(s) for requests.
   name: Microsoft Azure Requests API
   slug: microsoft-azure-requests-api
-- description: The Reservation Order Aliases API from Microsoft Azure — 1 operation(s) for reservation order aliases.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Reservation Order Aliases API from Microsoft Azure — 1 operation(s) for reservation order aliases.
   name: Microsoft Azure Reservation Order Aliases API
   slug: microsoft-azure-reservation-order-aliases-api
-- description: The ReservationRecommendations API from Microsoft Azure — 1 operation(s) for reservationrecommendations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReservationRecommendations API from Microsoft Azure — 1 operation(s) for reservationrecommendations.
   name: Microsoft Azure ReservationRecommendations API
   slug: microsoft-azure-reservationrecommendations-api
-- description: The ReservedInstances API from Microsoft Azure — 4 operation(s) for reservedinstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ReservedInstances API from Microsoft Azure — 4 operation(s) for reservedinstances.
   name: Microsoft Azure ReservedInstances API
   slug: microsoft-azure-reservedinstances-api
-- description: The Reset Cifs Password API from Microsoft Azure — 1 operation(s) for reset cifs password.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Reset Cifs Password API from Microsoft Azure — 1 operation(s) for reset cifs password.
   name: Microsoft Azure Reset Cifs Password API
   slug: microsoft-azure-reset-cifs-password-api
-- description: The Resource API from Microsoft Azure — 7 operation(s) for resource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Resource API from Microsoft Azure — 7 operation(s) for resource.
   name: Microsoft Azure Resource API
   slug: microsoft-azure-resource-api
 - baseURL: https://management.azure.com
@@ -3694,85 +5061,110 @@ apis:
   description: Operations for managing resource groups
   name: Microsoft Azure Resource Groups API
   slug: microsoft-azure-resource-groups-api
-- description: The ResourceActions API from Microsoft Azure — 1 operation(s) for resourceactions.
-  name: Microsoft Azure ResourceActions API
-  slug: microsoft-azure-resourceactions-api
-- description: The ResourceChanges API from Microsoft Azure — 1 operation(s) for resourcechanges.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceChanges API from Microsoft Azure — 1 operation(s) for resourcechanges.
   name: Microsoft Azure ResourceChanges API
   slug: microsoft-azure-resourcechanges-api
-- description: The ResourceDetails API from Microsoft Azure — 1 operation(s) for resourcedetails.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceDetails API from Microsoft Azure — 1 operation(s) for resourcedetails.
   name: Microsoft Azure ResourceDetails API
   slug: microsoft-azure-resourcedetails-api
-- description: The ResourceGroups API from Microsoft Azure — 4 operation(s) for resourcegroups.
-  name: Microsoft Azure ResourceGroups API
-  slug: microsoft-azure-resourcegroups-api
-- description: The ResourceGuardProxies API from Microsoft Azure — 1 operation(s) for resourceguardproxies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceGuardProxies API from Microsoft Azure — 1 operation(s) for resourceguardproxies.
   name: Microsoft Azure ResourceGuardProxies API
   slug: microsoft-azure-resourceguardproxies-api
-- description: The ResourceGuardProxy API from Microsoft Azure — 2 operation(s) for resourceguardproxy.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceGuardProxy API from Microsoft Azure — 2 operation(s) for resourceguardproxy.
   name: Microsoft Azure ResourceGuardProxy API
   slug: microsoft-azure-resourceguardproxy-api
-- description: The ResourceGuards API from Microsoft Azure — 15 operation(s) for resourceguards.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceGuards API from Microsoft Azure — 15 operation(s) for resourceguards.
   name: Microsoft Azure ResourceGuards API
   slug: microsoft-azure-resourceguards-api
-- description: The ResourceHealthMetadata API from Microsoft Azure — 6 operation(s) for resourcehealthmetadata.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceHealthMetadata API from Microsoft Azure — 6 operation(s) for resourcehealthmetadata.
   name: Microsoft Azure ResourceHealthMetadata API
   slug: microsoft-azure-resourcehealthmetadata-api
-- description: The ResourceLinks API from Microsoft Azure — 3 operation(s) for resourcelinks.
-  name: Microsoft Azure ResourceLinks API
-  slug: microsoft-azure-resourcelinks-api
-- description: The ResourceManagementPrivateLink API from Microsoft Azure — 3 operation(s) for resourcemanagementprivatelink.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceManagementPrivateLink API from Microsoft Azure — 3 operation(s) for resourcemanagementprivatelink.
   name: Microsoft Azure ResourceManagementPrivateLink API
   slug: microsoft-azure-resourcemanagementprivatelink-api
-- description: The ResourcePools API from Microsoft Azure — 5 operation(s) for resourcepools.
-  name: Microsoft Azure ResourcePools API
-  slug: microsoft-azure-resourcepools-api
-- description: The ResourceProvider API from Microsoft Azure — 1 operation(s) for resourceprovider.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceProvider API from Microsoft Azure — 1 operation(s) for resourceprovider.
   name: Microsoft Azure ResourceProvider API
   slug: microsoft-azure-resourceprovider-api
-- description: The Resources API from Microsoft Azure — 8 operation(s) for resources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Resources API from Microsoft Azure — 8 operation(s) for resources.
   name: Microsoft Azure Resources API
   slug: microsoft-azure-resources-api
-- description: The ResourceSetRuleConfig API from Microsoft Azure — 2 operation(s) for resourcesetruleconfig.
+- baseURL: https://purview.azure.com/account/
+  baseurl_source: spec
+  description: The ResourceSetRuleConfig API from Microsoft Azure — 2 operation(s) for resourcesetruleconfig.
   name: Microsoft Azure ResourceSetRuleConfig API
   slug: microsoft-azure-resourcesetruleconfig-api
-- description: The resourceSyncRules API from Microsoft Azure — 2 operation(s) for resourcesyncrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The resourceSyncRules API from Microsoft Azure — 2 operation(s) for resourcesyncrules.
   name: Microsoft Azure resourceSyncRules API
   slug: microsoft-azure-resourcesyncrules-api
-- description: The ResourceTypeRegistration API from Microsoft Azure — 2 operation(s) for resourcetyperegistration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceTypeRegistration API from Microsoft Azure — 2 operation(s) for resourcetyperegistration.
   name: Microsoft Azure ResourceTypeRegistration API
   slug: microsoft-azure-resourcetyperegistration-api
-- description: The ResourceTypeSku API from Microsoft Azure — 8 operation(s) for resourcetypesku.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ResourceTypeSku API from Microsoft Azure — 8 operation(s) for resourcetypesku.
   name: Microsoft Azure ResourceTypeSku API
   slug: microsoft-azure-resourcetypesku-api
-- description: The RestorableDroppedSqlPools API from Microsoft Azure — 2 operation(s) for restorabledroppedsqlpools.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RestorableDroppedSqlPools API from Microsoft Azure — 2 operation(s) for restorabledroppedsqlpools.
   name: Microsoft Azure RestorableDroppedSqlPools API
   slug: microsoft-azure-restorabledroppedsqlpools-api
-- description: The Restore API from Microsoft Azure — 1 operation(s) for restore.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Restore API from Microsoft Azure — 1 operation(s) for restore.
   name: Microsoft Azure Restore API
   slug: microsoft-azure-restore-api
-- description: The Restores API from Microsoft Azure — 1 operation(s) for restores.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Restores API from Microsoft Azure — 1 operation(s) for restores.
   name: Microsoft Azure Restores API
   slug: microsoft-azure-restores-api
 - description: The Reviews API from Microsoft Azure — 8 operation(s) for reviews.
   name: Microsoft Azure Reviews API
   slug: microsoft-azure-reviews-api
-- description: The Reviews Public API API from Microsoft Azure — 1 operation(s) for reviews public api.
-  name: Microsoft Azure Reviews Public API API
+- baseURL: https://catalogapi.azure.com
+  baseurl_source: spec
+  description: The Reviews Public API API from Microsoft Azure — 1 operation(s) for reviews public api.
+  name: Microsoft Azure Reviews Public API
   slug: microsoft-azure-reviews-public-api-api
 - description: The Revisions API from Microsoft Azure — 1 operation(s) for revisions.
   name: Microsoft Azure Revisions API
   slug: microsoft-azure-revisions-api
-- description: The RevokeApiKey API from Microsoft Azure — 1 operation(s) for revokeapikey.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RevokeApiKey API from Microsoft Azure — 1 operation(s) for revokeapikey.
   name: Microsoft Azure RevokeApiKey API
   slug: microsoft-azure-revokeapikey-api
-- description: The RoleAssignments API from Microsoft Azure — 2 operation(s) for roleassignments.
-  name: Microsoft Azure RoleAssignments API
-  slug: microsoft-azure-roleassignments-api
-- description: The RoleInstances API from Microsoft Azure — 5 operation(s) for roleinstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RoleInstances API from Microsoft Azure — 5 operation(s) for roleinstances.
   name: Microsoft Azure RoleInstances API
   slug: microsoft-azure-roleinstances-api
-- description: The Roles API from Microsoft Azure — 9 operation(s) for roles.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Roles API from Microsoft Azure — 9 operation(s) for roles.
   name: Microsoft Azure Roles API
   slug: microsoft-azure-roles-api
 - description: The Rooms API from Microsoft Azure — 2 operation(s) for rooms.
@@ -3790,34 +5182,40 @@ apis:
 - description: The RootCauseAnalysisModel API from Microsoft Azure — 3 operation(s) for rootcauseanalysismodel.
   name: Microsoft Azure RootCauseAnalysisModel API
   slug: microsoft-azure-rootcauseanalysismodel-api
-- description: The Route API from Microsoft Azure — 4 operation(s) for route.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Route API from Microsoft Azure — 4 operation(s) for route.
   name: Microsoft Azure Route API
   slug: microsoft-azure-route-api
-- description: The Routes API from Microsoft Azure — 2 operation(s) for routes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Routes API from Microsoft Azure — 2 operation(s) for routes.
   name: Microsoft Azure Routes API
   slug: microsoft-azure-routes-api
 - description: The Routesets API from Microsoft Azure — 3 operation(s) for routesets.
   name: Microsoft Azure Routesets API
   slug: microsoft-azure-routesets-api
-- description: The RouteTables API from Microsoft Azure — 3 operation(s) for routetables.
-  name: Microsoft Azure RouteTables API
-  slug: microsoft-azure-routetables-api
 - description: The Routing API from Microsoft Azure — 21 operation(s) for routing.
   name: Microsoft Azure Routing API
   slug: microsoft-azure-routing-api
-- description: The RoutingConfigurations API from Microsoft Azure — 2 operation(s) for routingconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RoutingConfigurations API from Microsoft Azure — 2 operation(s) for routingconfigurations.
   name: Microsoft Azure RoutingConfigurations API
   slug: microsoft-azure-routingconfigurations-api
-- description: The RoutingRuleCollections API from Microsoft Azure — 2 operation(s) for routingrulecollections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RoutingRuleCollections API from Microsoft Azure — 2 operation(s) for routingrulecollections.
   name: Microsoft Azure RoutingRuleCollections API
   slug: microsoft-azure-routingrulecollections-api
-- description: The RoutingRules API from Microsoft Azure — 2 operation(s) for routingrules.
-  name: Microsoft Azure RoutingRules API
-  slug: microsoft-azure-routingrules-api
-- description: The RuleCollections API from Microsoft Azure — 1 operation(s) for rulecollections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RuleCollections API from Microsoft Azure — 1 operation(s) for rulecollections.
   name: Microsoft Azure RuleCollections API
   slug: microsoft-azure-rulecollections-api
-- description: The Rules API from Microsoft Azure — 4 operation(s) for rules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Rules API from Microsoft Azure — 4 operation(s) for rules.
   name: Microsoft Azure Rules API
   slug: microsoft-azure-rules-api
 - description: The Run API from Microsoft Azure — 6 operation(s) for run.
@@ -3826,85 +5224,108 @@ apis:
 - description: The RunArtifacts API from Microsoft Azure — 7 operation(s) for runartifacts.
   name: Microsoft Azure RunArtifacts API
   slug: microsoft-azure-runartifacts-api
-- description: The RunAsAccountsController API from Microsoft Azure — 2 operation(s) for runasaccountscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The RunAsAccountsController API from Microsoft Azure — 2 operation(s) for runasaccountscontroller.
   name: Microsoft Azure RunAsAccountsController API
   slug: microsoft-azure-runasaccountscontroller-api
 - description: The RunMetrics API from Microsoft Azure — 4 operation(s) for runmetrics.
   name: Microsoft Azure RunMetrics API
   slug: microsoft-azure-runmetrics-api
-- description: The SaaSOperations API from Microsoft Azure — 1 operation(s) for saasoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SaaSOperations API from Microsoft Azure — 1 operation(s) for saasoperations.
   name: Microsoft Azure SaaSOperations API
   slug: microsoft-azure-saasoperations-api
-- description: The SaaSResources API from Microsoft Azure — 5 operation(s) for saasresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SaaSResources API from Microsoft Azure — 5 operation(s) for saasresources.
   name: Microsoft Azure SaaSResources API
   slug: microsoft-azure-saasresources-api
-- description: Provides access to saved filter resources.
+- baseURL: /
+  baseurl_source: spec
+  description: Provides access to saved filter resources.
   name: Microsoft Azure Saved Filters API
   slug: microsoft-azure-saved-filters-api
-- description: The Savings Plan API from Microsoft Azure — 5 operation(s) for savings plan.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Savings Plan API from Microsoft Azure — 5 operation(s) for savings plan.
   name: Microsoft Azure Savings Plan API
   slug: microsoft-azure-savings-plan-api
-- description: The Savings Plan Order Aliases API from Microsoft Azure — 1 operation(s) for savings plan order aliases.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Savings Plan Order Aliases API from Microsoft Azure — 1 operation(s) for savings plan order aliases.
   name: Microsoft Azure Savings Plan Order Aliases API
   slug: microsoft-azure-savings-plan-order-aliases-api
-- description: The Savings Plan Order API from Microsoft Azure — 3 operation(s) for savings plan order.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Savings Plan Order API from Microsoft Azure — 3 operation(s) for savings plan order.
   name: Microsoft Azure Savings Plan Order API
   slug: microsoft-azure-savings-plan-order-api
-- description: The ScaleUnitNodes API from Microsoft Azure — 8 operation(s) for scaleunitnodes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ScaleUnitNodes API from Microsoft Azure — 8 operation(s) for scaleunitnodes.
   name: Microsoft Azure ScaleUnitNodes API
   slug: microsoft-azure-scaleunitnodes-api
-- description: The ScalingPlan API from Microsoft Azure — 4 operation(s) for scalingplan.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ScalingPlan API from Microsoft Azure — 4 operation(s) for scalingplan.
   name: Microsoft Azure ScalingPlan API
   slug: microsoft-azure-scalingplan-api
-- description: The ScalingPlanPersonalSchedule API from Microsoft Azure — 2 operation(s) for scalingplanpersonalschedule.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ScalingPlanPersonalSchedule API from Microsoft Azure — 2 operation(s) for scalingplanpersonalschedule.
   name: Microsoft Azure ScalingPlanPersonalSchedule API
   slug: microsoft-azure-scalingplanpersonalschedule-api
-- description: The ScalingPlanPooledSchedule API from Microsoft Azure — 2 operation(s) for scalingplanpooledschedule.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ScalingPlanPooledSchedule API from Microsoft Azure — 2 operation(s) for scalingplanpooledschedule.
   name: Microsoft Azure ScalingPlanPooledSchedule API
   slug: microsoft-azure-scalingplanpooledschedule-api
-- description: The Scan API from Microsoft Azure — 2 operation(s) for scan.
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The Scan API from Microsoft Azure — 2 operation(s) for scan.
   name: Microsoft Azure Scan API
   slug: microsoft-azure-scan-api
-- description: The ScanResult API from Microsoft Azure — 3 operation(s) for scanresult.
-  name: Microsoft Azure ScanResult API
-  slug: microsoft-azure-scanresult-api
-- description: The ScanRulesets API from Microsoft Azure — 2 operation(s) for scanrulesets.
-  name: Microsoft Azure ScanRulesets API
-  slug: microsoft-azure-scanrulesets-api
 - description: The Scenes API from Microsoft Azure — 5 operation(s) for scenes.
   name: Microsoft Azure Scenes API
   slug: microsoft-azure-scenes-api
-- description: The ScheduledEvents API from Microsoft Azure — 1 operation(s) for scheduledevents.
-  name: Microsoft Azure ScheduledEvents API
-  slug: microsoft-azure-scheduledevents-api
-- description: The scheduledJobs API from Microsoft Azure — 3 operation(s) for scheduledjobs.
-  name: Microsoft Azure scheduledJobs API
-  slug: microsoft-azure-scheduledjobs-api
-- description: The scheduledQueryRules API from Microsoft Azure — 5 operation(s) for scheduledqueryrules.
-  name: Microsoft Azure scheduledQueryRules API
-  slug: microsoft-azure-scheduledqueryrules-api
-- description: The Schedules API from Microsoft Azure — 6 operation(s) for schedules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Schedules API from Microsoft Azure — 6 operation(s) for schedules.
   name: Microsoft Azure Schedules API
   slug: microsoft-azure-schedules-api
-- description: The Schema API from Microsoft Azure — 2 operation(s) for schema.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Schema API from Microsoft Azure — 2 operation(s) for schema.
   name: Microsoft Azure Schema API
   slug: microsoft-azure-schema-api
 - description: The $schemaGroups API from Microsoft Azure — 6 operation(s) for $schemagroups.
   name: Microsoft Azure $schemaGroups API
   slug: microsoft-azure-schemagroups-api
-- description: The SCOM Instance API from Microsoft Azure — 2 operation(s) for scom instance.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SCOM Instance API from Microsoft Azure — 2 operation(s) for scom instance.
   name: Microsoft Azure SCOM Instance API
   slug: microsoft-azure-scom-instance-api
-- description: The SCOM Instances API from Microsoft Azure — 2 operation(s) for scom instances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SCOM Instances API from Microsoft Azure — 2 operation(s) for scom instances.
   name: Microsoft Azure SCOM Instances API
   slug: microsoft-azure-scom-instances-api
-- description: The ScopeAssignments API from Microsoft Azure — 2 operation(s) for scopeassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ScopeAssignments API from Microsoft Azure — 2 operation(s) for scopeassignments.
   name: Microsoft Azure ScopeAssignments API
   slug: microsoft-azure-scopeassignments-api
-- description: The ScopeConnections API from Microsoft Azure — 2 operation(s) for scopeconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ScopeConnections API from Microsoft Azure — 2 operation(s) for scopeconnections.
   name: Microsoft Azure ScopeConnections API
   slug: microsoft-azure-scopeconnections-api
-- description: The Search API from Microsoft Azure — 18 operation(s) for search.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Search API from Microsoft Azure — 18 operation(s) for search.
   name: Microsoft Azure Search API
   slug: microsoft-azure-search-api
 - description: The SeasonalFields API from Microsoft Azure — 5 operation(s) for seasonalfields.
@@ -3918,34 +5339,44 @@ apis:
   description: Operations for managing secrets
   name: Microsoft Azure Secrets API
   slug: microsoft-azure-secrets-api
-- description: The Security Contacts API from Microsoft Azure — 2 operation(s) for security contacts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Security Contacts API from Microsoft Azure — 2 operation(s) for security contacts.
   name: Microsoft Azure Security Contacts API
   slug: microsoft-azure-security-contacts-api
-- description: The SecurityAdminConfigurations API from Microsoft Azure — 2 operation(s) for securityadminconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SecurityAdminConfigurations API from Microsoft Azure — 2 operation(s) for securityadminconfigurations.
   name: Microsoft Azure SecurityAdminConfigurations API
   slug: microsoft-azure-securityadminconfigurations-api
-- description: The SecurityAdvisoryImpactedResources API from Microsoft Azure — 2 operation(s) for securityadvisoryimpactedresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SecurityAdvisoryImpactedResources API from Microsoft Azure — 2 operation(s) for securityadvisoryimpactedresources.
   name: Microsoft Azure SecurityAdvisoryImpactedResources API
   slug: microsoft-azure-securityadvisoryimpactedresources-api
-- description: The SecurityAlert API from Microsoft Azure — 1 operation(s) for securityalert.
-  name: Microsoft Azure SecurityAlert API
-  slug: microsoft-azure-securityalert-api
-- description: The SecurityConnectors API from Microsoft Azure — 3 operation(s) for securityconnectors.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SecurityConnectors API from Microsoft Azure — 3 operation(s) for securityconnectors.
   name: Microsoft Azure SecurityConnectors API
   slug: microsoft-azure-securityconnectors-api
-- description: The SecurityPINs API from Microsoft Azure — 1 operation(s) for securitypins.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SecurityPINs API from Microsoft Azure — 1 operation(s) for securitypins.
   name: Microsoft Azure SecurityPINs API
   slug: microsoft-azure-securitypins-api
-- description: The SecurityRules API from Microsoft Azure — 2 operation(s) for securityrules.
-  name: Microsoft Azure SecurityRules API
-  slug: microsoft-azure-securityrules-api
-- description: The SecurityUserConfigurations API from Microsoft Azure — 2 operation(s) for securityuserconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SecurityUserConfigurations API from Microsoft Azure — 2 operation(s) for securityuserconfigurations.
   name: Microsoft Azure SecurityUserConfigurations API
   slug: microsoft-azure-securityuserconfigurations-api
-- description: The SelfServicePolicies API from Microsoft Azure — 2 operation(s) for selfservicepolicies.
+- baseURL: /policyStore
+  baseurl_source: spec
+  description: The SelfServicePolicies API from Microsoft Azure — 2 operation(s) for selfservicepolicies.
   name: Microsoft Azure SelfServicePolicies API
   slug: microsoft-azure-selfservicepolicies-api
-- description: The sensitivitySettings API from Microsoft Azure — 1 operation(s) for sensitivitysettings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The sensitivitySettings API from Microsoft Azure — 1 operation(s) for sensitivitysettings.
   name: Microsoft Azure sensitivitySettings API
   slug: microsoft-azure-sensitivitysettings-api
 - description: The SensorDataModels API from Microsoft Azure — 2 operation(s) for sensordatamodels.
@@ -3972,241 +5403,361 @@ apis:
 - description: The SentShareInvitation API from Microsoft Azure — 3 operation(s) for sentshareinvitation.
   name: Microsoft Azure SentShareInvitation API
   slug: microsoft-azure-sentshareinvitation-api
-- description: The SerialPorts API from Microsoft Azure — 4 operation(s) for serialports.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SerialPorts API from Microsoft Azure — 4 operation(s) for serialports.
   name: Microsoft Azure SerialPorts API
   slug: microsoft-azure-serialports-api
-- description: The ServerAdministrators API from Microsoft Azure — 2 operation(s) for serveradministrators.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerAdministrators API from Microsoft Azure — 2 operation(s) for serveradministrators.
   name: Microsoft Azure ServerAdministrators API
   slug: microsoft-azure-serveradministrators-api
 - description: The ServerCall API from Microsoft Azure — 4 operation(s) for servercall.
   name: Microsoft Azure ServerCall API
   slug: microsoft-azure-servercall-api
-- description: The ServerCollectorsOperations API from Microsoft Azure — 2 operation(s) for servercollectorsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerCollectorsOperations API from Microsoft Azure — 2 operation(s) for servercollectorsoperations.
   name: Microsoft Azure ServerCollectorsOperations API
   slug: microsoft-azure-servercollectorsoperations-api
-- description: The ServerDependencyMapController API from Microsoft Azure — 5 operation(s) for serverdependencymapcontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerDependencyMapController API from Microsoft Azure — 5 operation(s) for serverdependencymapcontroller.
   name: Microsoft Azure ServerDependencyMapController API
   slug: microsoft-azure-serverdependencymapcontroller-api
-- description: The ServerEndpoint Resource API from Microsoft Azure — 3 operation(s) for serverendpoint resource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerEndpoint Resource API from Microsoft Azure — 3 operation(s) for serverendpoint resource.
   name: Microsoft Azure ServerEndpoint Resource API
   slug: microsoft-azure-serverendpoint-resource-api
-- description: The ServerFarms API from Microsoft Azure — 13 operation(s) for serverfarms.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerFarms API from Microsoft Azure — 13 operation(s) for serverfarms.
   name: Microsoft Azure ServerFarms API
   slug: microsoft-azure-serverfarms-api
-- description: The ServerGroupOperations API from Microsoft Azure — 3 operation(s) for servergroupoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerGroupOperations API from Microsoft Azure — 3 operation(s) for servergroupoperations.
   name: Microsoft Azure ServerGroupOperations API
   slug: microsoft-azure-servergroupoperations-api
-- description: The ServerGroups API from Microsoft Azure — 4 operation(s) for servergroups.
-  name: Microsoft Azure ServerGroups API
-  slug: microsoft-azure-servergroups-api
-- description: The ServerJobsController API from Microsoft Azure — 2 operation(s) for serverjobscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerJobsController API from Microsoft Azure — 2 operation(s) for serverjobscontroller.
   name: Microsoft Azure ServerJobsController API
   slug: microsoft-azure-serverjobscontroller-api
 - description: The ServerMetrics API from Microsoft Azure — 4 operation(s) for servermetrics.
   name: Microsoft Azure ServerMetrics API
   slug: microsoft-azure-servermetrics-api
-- description: The ServerOperationsStatusController API from Microsoft Azure — 1 operation(s) for serveroperationsstatuscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerOperationsStatusController API from Microsoft Azure — 1 operation(s) for serveroperationsstatuscontroller.
   name: Microsoft Azure ServerOperationsStatusController API
   slug: microsoft-azure-serveroperationsstatuscontroller-api
-- description: The ServerRestart API from Microsoft Azure — 1 operation(s) for serverrestart.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerRestart API from Microsoft Azure — 1 operation(s) for serverrestart.
   name: Microsoft Azure ServerRestart API
   slug: microsoft-azure-serverrestart-api
-- description: The ServerRunAsAccountsController API from Microsoft Azure — 2 operation(s) for serverrunasaccountscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerRunAsAccountsController API from Microsoft Azure — 2 operation(s) for serverrunasaccountscontroller.
   name: Microsoft Azure ServerRunAsAccountsController API
   slug: microsoft-azure-serverrunasaccountscontroller-api
-- description: The Servers API from Microsoft Azure — 19 operation(s) for servers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Servers API from Microsoft Azure — 19 operation(s) for servers.
   name: Microsoft Azure Servers API
   slug: microsoft-azure-servers-api
-- description: The ServersController API from Microsoft Azure — 2 operation(s) for serverscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServersController API from Microsoft Azure — 2 operation(s) for serverscontroller.
   name: Microsoft Azure ServersController API
   slug: microsoft-azure-serverscontroller-api
-- description: The ServerSecurityAlertPolicies API from Microsoft Azure — 1 operation(s) for serversecurityalertpolicies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerSecurityAlertPolicies API from Microsoft Azure — 1 operation(s) for serversecurityalertpolicies.
   name: Microsoft Azure ServerSecurityAlertPolicies API
   slug: microsoft-azure-serversecurityalertpolicies-api
-- description: The ServerSitesController API from Microsoft Azure — 12 operation(s) for serversitescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerSitesController API from Microsoft Azure — 12 operation(s) for serversitescontroller.
   name: Microsoft Azure ServerSitesController API
   slug: microsoft-azure-serversitescontroller-api
-- description: The ServerSoftwareInventoriesController API from Microsoft Azure — 2 operation(s) for serversoftwareinventoriescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServerSoftwareInventoriesController API from Microsoft Azure — 2 operation(s) for serversoftwareinventoriescontroller.
   name: Microsoft Azure ServerSoftwareInventoriesController API
   slug: microsoft-azure-serversoftwareinventoriescontroller-api
 - description: 'The Service Health: API from Microsoft Azure — 1 operation(s) for service health:.'
   name: 'Microsoft Azure Service Health: API'
   slug: microsoft-azure-service-health-api
-- description: The Service Package API from Microsoft Azure — 5 operation(s) for service package.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Service Package API from Microsoft Azure — 5 operation(s) for service package.
   name: Microsoft Azure Service Package API
   slug: microsoft-azure-service-package-api
-- description: The ServiceFabrics API from Microsoft Azure — 5 operation(s) for servicefabrics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServiceFabrics API from Microsoft Azure — 5 operation(s) for servicefabrics.
   name: Microsoft Azure ServiceFabrics API
   slug: microsoft-azure-servicefabrics-api
-- description: The ServiceFabricSchedules API from Microsoft Azure — 3 operation(s) for servicefabricschedules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServiceFabricSchedules API from Microsoft Azure — 3 operation(s) for servicefabricschedules.
   name: Microsoft Azure ServiceFabricSchedules API
   slug: microsoft-azure-servicefabricschedules-api
-- description: The ServiceHealths API from Microsoft Azure — 2 operation(s) for servicehealths.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServiceHealths API from Microsoft Azure — 2 operation(s) for servicehealths.
   name: Microsoft Azure ServiceHealths API
   slug: microsoft-azure-servicehealths-api
-- description: The ServiceMembers API from Microsoft Azure — 9 operation(s) for servicemembers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServiceMembers API from Microsoft Azure — 9 operation(s) for servicemembers.
   name: Microsoft Azure ServiceMembers API
   slug: microsoft-azure-servicemembers-api
-- description: The ServicePrincipal API from Microsoft Azure — 2 operation(s) for serviceprincipal.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ServicePrincipal API from Microsoft Azure — 2 operation(s) for serviceprincipal.
   name: Microsoft Azure ServicePrincipal API
   slug: microsoft-azure-serviceprincipal-api
-- description: The ServicePrincipalAppRoleAssignedTo API from Microsoft Azure — 1 operation(s) for serviceprincipalapproleassignedto.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ServicePrincipalAppRoleAssignedTo API from Microsoft Azure — 1 operation(s) for serviceprincipalapproleassignedto.
   name: Microsoft Azure ServicePrincipalAppRoleAssignedTo API
   slug: microsoft-azure-serviceprincipalapproleassignedto-api
-- description: The ServicePrincipalAppRoleAssignments API from Microsoft Azure — 1 operation(s) for serviceprincipalapproleassignments.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ServicePrincipalAppRoleAssignments API from Microsoft Azure — 1 operation(s) for serviceprincipalapproleassignments.
   name: Microsoft Azure ServicePrincipalAppRoleAssignments API
   slug: microsoft-azure-serviceprincipalapproleassignments-api
-- description: The ServicePrincipalKeyCredentials API from Microsoft Azure — 1 operation(s) for serviceprincipalkeycredentials.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ServicePrincipalKeyCredentials API from Microsoft Azure — 1 operation(s) for serviceprincipalkeycredentials.
   name: Microsoft Azure ServicePrincipalKeyCredentials API
   slug: microsoft-azure-serviceprincipalkeycredentials-api
-- description: The ServicePrincipalOwners API from Microsoft Azure — 3 operation(s) for serviceprincipalowners.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ServicePrincipalOwners API from Microsoft Azure — 3 operation(s) for serviceprincipalowners.
   name: Microsoft Azure ServicePrincipalOwners API
   slug: microsoft-azure-serviceprincipalowners-api
-- description: The ServicePrincipalPasswordCredentials API from Microsoft Azure — 1 operation(s) for serviceprincipalpasswordcredentials.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ServicePrincipalPasswordCredentials API from Microsoft Azure — 1 operation(s) for serviceprincipalpasswordcredentials.
   name: Microsoft Azure ServicePrincipalPasswordCredentials API
   slug: microsoft-azure-serviceprincipalpasswordcredentials-api
-- description: The servicePrincipals API from Microsoft Azure — 2 operation(s) for serviceprincipals.
-  name: Microsoft Azure servicePrincipals API
-  slug: microsoft-azure-serviceprincipals-api
-- description: The ServicePrincipalsByAppId API from Microsoft Azure — 1 operation(s) for serviceprincipalsbyappid.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The ServicePrincipalsByAppId API from Microsoft Azure — 1 operation(s) for serviceprincipalsbyappid.
   name: Microsoft Azure ServicePrincipalsByAppId API
   slug: microsoft-azure-serviceprincipalsbyappid-api
-- description: The ServiceRunners API from Microsoft Azure — 1 operation(s) for servicerunners.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ServiceRunners API from Microsoft Azure — 1 operation(s) for servicerunners.
   name: Microsoft Azure ServiceRunners API
   slug: microsoft-azure-servicerunners-api
-- description: The Services API from Microsoft Azure — 8 operation(s) for services.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The Services API from Microsoft Azure — 8 operation(s) for services.
   name: Microsoft Azure Services API
   slug: microsoft-azure-services-api
 - description: The Servicestats API from Microsoft Azure — 1 operation(s) for servicestats.
   name: Microsoft Azure Servicestats API
   slug: microsoft-azure-servicestats-api
-- description: The ServiceType API from Microsoft Azure — 5 operation(s) for servicetype.
+- baseURL: http://localhost:19080
+  baseurl_source: spec
+  description: The ServiceType API from Microsoft Azure — 5 operation(s) for servicetype.
   name: Microsoft Azure ServiceType API
   slug: microsoft-azure-servicetype-api
-- description: The SessionHost API from Microsoft Azure — 3 operation(s) for sessionhost.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SessionHost API from Microsoft Azure — 3 operation(s) for sessionhost.
   name: Microsoft Azure SessionHost API
   slug: microsoft-azure-sessionhost-api
-- description: The SessionHostConfiguration API from Microsoft Azure — 2 operation(s) for sessionhostconfiguration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SessionHostConfiguration API from Microsoft Azure — 2 operation(s) for sessionhostconfiguration.
   name: Microsoft Azure SessionHostConfiguration API
   slug: microsoft-azure-sessionhostconfiguration-api
-- description: The SessionHostConfigurations API from Microsoft Azure — 2 operation(s) for sessionhostconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SessionHostConfigurations API from Microsoft Azure — 2 operation(s) for sessionhostconfigurations.
   name: Microsoft Azure SessionHostConfigurations API
   slug: microsoft-azure-sessionhostconfigurations-api
-- description: The SessionHostManagement API from Microsoft Azure — 3 operation(s) for sessionhostmanagement.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SessionHostManagement API from Microsoft Azure — 3 operation(s) for sessionhostmanagement.
   name: Microsoft Azure SessionHostManagement API
   slug: microsoft-azure-sessionhostmanagement-api
-- description: The SessionHostManagements API from Microsoft Azure — 4 operation(s) for sessionhostmanagements.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SessionHostManagements API from Microsoft Azure — 4 operation(s) for sessionhostmanagements.
   name: Microsoft Azure SessionHostManagements API
   slug: microsoft-azure-sessionhostmanagements-api
-- description: The Settings API from Microsoft Azure — 2 operation(s) for settings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Settings API from Microsoft Azure — 2 operation(s) for settings.
   name: Microsoft Azure Settings API
   slug: microsoft-azure-settings-api
-- description: The Share API from Microsoft Azure — 8 operation(s) for share.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Share API from Microsoft Azure — 8 operation(s) for share.
   name: Microsoft Azure Share API
   slug: microsoft-azure-share-api
-- description: The SharedGalleries API from Microsoft Azure — 2 operation(s) for sharedgalleries.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SharedGalleries API from Microsoft Azure — 2 operation(s) for sharedgalleries.
   name: Microsoft Azure SharedGalleries API
   slug: microsoft-azure-sharedgalleries-api
-- description: The SharedGalleryImages API from Microsoft Azure — 2 operation(s) for sharedgalleryimages.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SharedGalleryImages API from Microsoft Azure — 2 operation(s) for sharedgalleryimages.
   name: Microsoft Azure SharedGalleryImages API
   slug: microsoft-azure-sharedgalleryimages-api
-- description: The SharedGalleryImageVersions API from Microsoft Azure — 2 operation(s) for sharedgalleryimageversions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SharedGalleryImageVersions API from Microsoft Azure — 2 operation(s) for sharedgalleryimageversions.
   name: Microsoft Azure SharedGalleryImageVersions API
   slug: microsoft-azure-sharedgalleryimageversions-api
-- description: The SharedPrivateLinkResources API from Microsoft Azure — 4 operation(s) for sharedprivatelinkresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SharedPrivateLinkResources API from Microsoft Azure — 4 operation(s) for sharedprivatelinkresources.
   name: Microsoft Azure SharedPrivateLinkResources API
   slug: microsoft-azure-sharedprivatelinkresources-api
 - description: The ShareResource API from Microsoft Azure — 1 operation(s) for shareresource.
   name: Microsoft Azure ShareResource API
   slug: microsoft-azure-shareresource-api
-- description: The Shares API from Microsoft Azure — 3 operation(s) for shares.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Shares API from Microsoft Azure — 3 operation(s) for shares.
   name: Microsoft Azure Shares API
   slug: microsoft-azure-shares-api
-- description: The ShareSubscription API from Microsoft Azure — 8 operation(s) for sharesubscription.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ShareSubscription API from Microsoft Azure — 8 operation(s) for sharesubscription.
   name: Microsoft Azure ShareSubscription API
   slug: microsoft-azure-sharesubscription-api
-- description: The SignalR API from Microsoft Azure — 25 operation(s) for signalr.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SignalR API from Microsoft Azure — 25 operation(s) for signalr.
   name: Microsoft Azure SignalR API
   slug: microsoft-azure-signalr-api
-- description: The SignedInUser API from Microsoft Azure — 2 operation(s) for signedinuser.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The SignedInUser API from Microsoft Azure — 2 operation(s) for signedinuser.
   name: Microsoft Azure SignedInUser API
   slug: microsoft-azure-signedinuser-api
 - description: The Sim Swap API from Microsoft Azure — 2 operation(s) for sim swap.
   name: Microsoft Azure Sim Swap API
   slug: microsoft-azure-sim-swap-api
-- description: The simplifiedSolutions API from Microsoft Azure — 1 operation(s) for simplifiedsolutions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The simplifiedSolutions API from Microsoft Azure — 1 operation(s) for simplifiedsolutions.
   name: Microsoft Azure simplifiedSolutions API
   slug: microsoft-azure-simplifiedsolutions-api
-- description: The SingleSignOn API from Microsoft Azure — 6 operation(s) for singlesignon.
-  name: Microsoft Azure SingleSignOn API
-  slug: microsoft-azure-singlesignon-api
-- description: The SipConfiguration API from Microsoft Azure — 1 operation(s) for sipconfiguration.
-  name: Microsoft Azure SipConfiguration API
-  slug: microsoft-azure-sipconfiguration-api
-- description: The Sites API from Microsoft Azure — 110 operation(s) for sites.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Sites API from Microsoft Azure — 110 operation(s) for sites.
   name: Microsoft Azure Sites API
   slug: microsoft-azure-sites-api
-- description: The SitesController API from Microsoft Azure — 10 operation(s) for sitescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SitesController API from Microsoft Azure — 10 operation(s) for sitescontroller.
   name: Microsoft Azure SitesController API
   slug: microsoft-azure-sitescontroller-api
 - description: The Skillsets API from Microsoft Azure — 2 operation(s) for skillsets.
   name: Microsoft Azure Skillsets API
   slug: microsoft-azure-skillsets-api
-- description: The Sku API from Microsoft Azure — 2 operation(s) for sku.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Sku API from Microsoft Azure — 2 operation(s) for sku.
   name: Microsoft Azure Sku API
   slug: microsoft-azure-sku-api
-- description: The Skus API from Microsoft Azure — 4 operation(s) for skus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Skus API from Microsoft Azure — 4 operation(s) for skus.
   name: Microsoft Azure Skus API
   slug: microsoft-azure-skus-api
-- description: The SmfDeployments API from Microsoft Azure — 3 operation(s) for smfdeployments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SmfDeployments API from Microsoft Azure — 3 operation(s) for smfdeployments.
   name: Microsoft Azure SmfDeployments API
   slug: microsoft-azure-smfdeployments-api
 - description: The Sms API from Microsoft Azure — 1 operation(s) for sms.
   name: Microsoft Azure Sms API
   slug: microsoft-azure-sms-api
-- description: The Snapshot Policy API from Microsoft Azure — 2 operation(s) for snapshot policy.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Snapshot Policy API from Microsoft Azure — 2 operation(s) for snapshot policy.
   name: Microsoft Azure Snapshot Policy API
   slug: microsoft-azure-snapshot-policy-api
-- description: The Snapshot Policy List Volumes API from Microsoft Azure — 1 operation(s) for snapshot policy list volumes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Snapshot Policy List Volumes API from Microsoft Azure — 1 operation(s) for snapshot policy list volumes.
   name: Microsoft Azure Snapshot Policy List Volumes API
   slug: microsoft-azure-snapshot-policy-list-volumes-api
-- description: The Snapshots API from Microsoft Azure — 14 operation(s) for snapshots.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Snapshots API from Microsoft Azure — 14 operation(s) for snapshots.
   name: Microsoft Azure Snapshots API
   slug: microsoft-azure-snapshots-api
-- description: The SoftDeletedContainers API from Microsoft Azure — 1 operation(s) for softdeletedcontainers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SoftDeletedContainers API from Microsoft Azure — 1 operation(s) for softdeletedcontainers.
   name: Microsoft Azure SoftDeletedContainers API
   slug: microsoft-azure-softdeletedcontainers-api
-- description: The Software Plan API from Microsoft Azure — 1 operation(s) for software plan.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Software Plan API from Microsoft Azure — 1 operation(s) for software plan.
   name: Microsoft Azure Software Plan API
   slug: microsoft-azure-software-plan-api
-- description: The Software Plan Operations API from Microsoft Azure — 1 operation(s) for software plan operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Software Plan Operations API from Microsoft Azure — 1 operation(s) for software plan operations.
   name: Microsoft Azure Software Plan Operations API
   slug: microsoft-azure-software-plan-operations-api
-- description: The Software Update Configuration Run API from Microsoft Azure — 2 operation(s) for software update configuration run.
+- baseURL: https://management.azure.com/
+  baseurl_source: spec
+  description: The Software Update Configuration Run API from Microsoft Azure — 2 operation(s) for software update configuration run.
   name: Microsoft Azure Software Update Configuration Run API
   slug: microsoft-azure-software-update-configuration-run-api
-- description: The Solution API from Microsoft Azure — 3 operation(s) for solution.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Solution API from Microsoft Azure — 3 operation(s) for solution.
   name: Microsoft Azure Solution API
   slug: microsoft-azure-solution-api
 - description: The SolutionInference API from Microsoft Azure — 3 operation(s) for solutioninference.
   name: Microsoft Azure SolutionInference API
   slug: microsoft-azure-solutioninference-api
-- description: The Solutions API from Microsoft Azure — 11 operation(s) for solutions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Solutions API from Microsoft Azure — 11 operation(s) for solutions.
   name: Microsoft Azure Solutions API
   slug: microsoft-azure-solutions-api
-- description: The SolutionsController API from Microsoft Azure — 4 operation(s) for solutionscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SolutionsController API from Microsoft Azure — 4 operation(s) for solutionscontroller.
   name: Microsoft Azure SolutionsController API
   slug: microsoft-azure-solutionscontroller-api
-- description: The SolutionsDiscoverability API from Microsoft Azure — 2 operation(s) for solutionsdiscoverability.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SolutionsDiscoverability API from Microsoft Azure — 2 operation(s) for solutionsdiscoverability.
   name: Microsoft Azure SolutionsDiscoverability API
   slug: microsoft-azure-solutionsdiscoverability-api
-- description: The SolutionSelfHelp API from Microsoft Azure — 1 operation(s) for solutionselfhelp.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SolutionSelfHelp API from Microsoft Azure — 1 operation(s) for solutionselfhelp.
   name: Microsoft Azure SolutionSelfHelp API
   slug: microsoft-azure-solutionselfhelp-api
-- description: The SourceControlConfiguration API from Microsoft Azure — 2 operation(s) for sourcecontrolconfiguration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SourceControlConfiguration API from Microsoft Azure — 2 operation(s) for sourcecontrolconfiguration.
   name: Microsoft Azure SourceControlConfiguration API
   slug: microsoft-azure-sourcecontrolconfiguration-api
-- description: The Spaces API from Microsoft Azure — 3 operation(s) for spaces.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Spaces API from Microsoft Azure — 3 operation(s) for spaces.
   name: Microsoft Azure Spaces API
   slug: microsoft-azure-spaces-api
 - description: The SparkBatch API from Microsoft Azure — 2 operation(s) for sparkbatch.
@@ -4215,139 +5766,217 @@ apis:
 - description: The SparkSession API from Microsoft Azure — 6 operation(s) for sparksession.
   name: Microsoft Azure SparkSession API
   slug: microsoft-azure-sparksession-api
-- description: The Spatial API from Microsoft Azure — 5 operation(s) for spatial.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Spatial API from Microsoft Azure — 5 operation(s) for spatial.
   name: Microsoft Azure Spatial API
   slug: microsoft-azure-spatial-api
-- description: The SpellCheck API from Microsoft Azure — 1 operation(s) for spellcheck.
-  name: Microsoft Azure SpellCheck API
-  slug: microsoft-azure-spellcheck-api
-- description: The Split Clone Volume API from Microsoft Azure — 1 operation(s) for split clone volume.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Split Clone Volume API from Microsoft Azure — 1 operation(s) for split clone volume.
   name: Microsoft Azure Split Clone Volume API
   slug: microsoft-azure-split-clone-volume-api
-- description: The spotPlacementRecommender API from Microsoft Azure — 1 operation(s) for spotplacementrecommender.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The spotPlacementRecommender API from Microsoft Azure — 1 operation(s) for spotplacementrecommender.
   name: Microsoft Azure spotPlacementRecommender API
   slug: microsoft-azure-spotplacementrecommender-api
-- description: The Springbootapps API from Microsoft Azure — 3 operation(s) for springbootapps.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Springbootapps API from Microsoft Azure — 3 operation(s) for springbootapps.
   name: Microsoft Azure Springbootapps API
   slug: microsoft-azure-springbootapps-api
-- description: The Springbootservers API from Microsoft Azure — 3 operation(s) for springbootservers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Springbootservers API from Microsoft Azure — 3 operation(s) for springbootservers.
   name: Microsoft Azure Springbootservers API
   slug: microsoft-azure-springbootservers-api
-- description: The Springbootsites API from Microsoft Azure — 4 operation(s) for springbootsites.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Springbootsites API from Microsoft Azure — 4 operation(s) for springbootsites.
   name: Microsoft Azure Springbootsites API
   slug: microsoft-azure-springbootsites-api
-- description: The SqlAssessmentOptionsOperations API from Microsoft Azure — 2 operation(s) for sqlassessmentoptionsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlAssessmentOptionsOperations API from Microsoft Azure — 2 operation(s) for sqlassessmentoptionsoperations.
   name: Microsoft Azure SqlAssessmentOptionsOperations API
   slug: microsoft-azure-sqlassessmentoptionsoperations-api
-- description: The SqlAssessmentV2Operations API from Microsoft Azure — 3 operation(s) for sqlassessmentv2operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlAssessmentV2Operations API from Microsoft Azure — 3 operation(s) for sqlassessmentv2operations.
   name: Microsoft Azure SqlAssessmentV2Operations API
   slug: microsoft-azure-sqlassessmentv2operations-api
-- description: The SqlAssessmentV2SummaryOperations API from Microsoft Azure — 2 operation(s) for sqlassessmentv2summaryoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlAssessmentV2SummaryOperations API from Microsoft Azure — 2 operation(s) for sqlassessmentv2summaryoperations.
   name: Microsoft Azure SqlAssessmentV2SummaryOperations API
   slug: microsoft-azure-sqlassessmentv2summaryoperations-api
-- description: The SqlAvailabilityGroupsController API from Microsoft Azure — 2 operation(s) for sqlavailabilitygroupscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlAvailabilityGroupsController API from Microsoft Azure — 2 operation(s) for sqlavailabilitygroupscontroller.
   name: Microsoft Azure SqlAvailabilityGroupsController API
   slug: microsoft-azure-sqlavailabilitygroupscontroller-api
-- description: The SqlCollectorOperations API from Microsoft Azure — 2 operation(s) for sqlcollectoroperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlCollectorOperations API from Microsoft Azure — 2 operation(s) for sqlcollectoroperations.
   name: Microsoft Azure SqlCollectorOperations API
   slug: microsoft-azure-sqlcollectoroperations-api
-- description: The SqlDatabasesController API from Microsoft Azure — 2 operation(s) for sqldatabasescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlDatabasesController API from Microsoft Azure — 2 operation(s) for sqldatabasescontroller.
   name: Microsoft Azure SqlDatabasesController API
   slug: microsoft-azure-sqldatabasescontroller-api
-- description: The SqlDiscoverySiteDataSourceController API from Microsoft Azure — 2 operation(s) for sqldiscoverysitedatasourcecontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlDiscoverySiteDataSourceController API from Microsoft Azure — 2 operation(s) for sqldiscoverysitedatasourcecontroller.
   name: Microsoft Azure SqlDiscoverySiteDataSourceController API
   slug: microsoft-azure-sqldiscoverysitedatasourcecontroller-api
-- description: The SqlJobsController API from Microsoft Azure — 2 operation(s) for sqljobscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlJobsController API from Microsoft Azure — 2 operation(s) for sqljobscontroller.
   name: Microsoft Azure SqlJobsController API
   slug: microsoft-azure-sqljobscontroller-api
-- description: The SqlMigrationServices API from Microsoft Azure — 8 operation(s) for sqlmigrationservices.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlMigrationServices API from Microsoft Azure — 8 operation(s) for sqlmigrationservices.
   name: Microsoft Azure SqlMigrationServices API
   slug: microsoft-azure-sqlmigrationservices-api
-- description: The SqlOperationsStatusController API from Microsoft Azure — 1 operation(s) for sqloperationsstatuscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlOperationsStatusController API from Microsoft Azure — 1 operation(s) for sqloperationsstatuscontroller.
   name: Microsoft Azure SqlOperationsStatusController API
   slug: microsoft-azure-sqloperationsstatuscontroller-api
-- description: The SqlPoolsV3 API from Microsoft Azure — 4 operation(s) for sqlpoolsv3.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlPoolsV3 API from Microsoft Azure — 4 operation(s) for sqlpoolsv3.
   name: Microsoft Azure SqlPoolsV3 API
   slug: microsoft-azure-sqlpoolsv3-api
-- description: The SqlRunAsAccountsController API from Microsoft Azure — 2 operation(s) for sqlrunasaccountscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlRunAsAccountsController API from Microsoft Azure — 2 operation(s) for sqlrunasaccountscontroller.
   name: Microsoft Azure SqlRunAsAccountsController API
   slug: microsoft-azure-sqlrunasaccountscontroller-api
-- description: The SqlServerRegistrations API from Microsoft Azure — 3 operation(s) for sqlserverregistrations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlServerRegistrations API from Microsoft Azure — 3 operation(s) for sqlserverregistrations.
   name: Microsoft Azure SqlServerRegistrations API
   slug: microsoft-azure-sqlserverregistrations-api
-- description: The SqlServers API from Microsoft Azure — 2 operation(s) for sqlservers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlServers API from Microsoft Azure — 2 operation(s) for sqlservers.
   name: Microsoft Azure SqlServers API
   slug: microsoft-azure-sqlservers-api
-- description: The SqlServersController API from Microsoft Azure — 2 operation(s) for sqlserverscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlServersController API from Microsoft Azure — 2 operation(s) for sqlserverscontroller.
   name: Microsoft Azure SqlServersController API
   slug: microsoft-azure-sqlserverscontroller-api
-- description: The SqlSitesController API from Microsoft Azure — 7 operation(s) for sqlsitescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlSitesController API from Microsoft Azure — 7 operation(s) for sqlsitescontroller.
   name: Microsoft Azure SqlSitesController API
   slug: microsoft-azure-sqlsitescontroller-api
-- description: The SqlVirtualMachineGroups API from Microsoft Azure — 3 operation(s) for sqlvirtualmachinegroups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlVirtualMachineGroups API from Microsoft Azure — 3 operation(s) for sqlvirtualmachinegroups.
   name: Microsoft Azure SqlVirtualMachineGroups API
   slug: microsoft-azure-sqlvirtualmachinegroups-api
-- description: The SqlVirtualMachines API from Microsoft Azure — 6 operation(s) for sqlvirtualmachines.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlVirtualMachines API from Microsoft Azure — 6 operation(s) for sqlvirtualmachines.
   name: Microsoft Azure SqlVirtualMachines API
   slug: microsoft-azure-sqlvirtualmachines-api
-- description: The SqlVirtualMachineTroubleshoot API from Microsoft Azure — 1 operation(s) for sqlvirtualmachinetroubleshoot.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SqlVirtualMachineTroubleshoot API from Microsoft Azure — 1 operation(s) for sqlvirtualmachinetroubleshoot.
   name: Microsoft Azure SqlVirtualMachineTroubleshoot API
   slug: microsoft-azure-sqlvirtualmachinetroubleshoot-api
-- description: The StandbyContainerGroupPools API from Microsoft Azure — 3 operation(s) for standbycontainergrouppools.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StandbyContainerGroupPools API from Microsoft Azure — 3 operation(s) for standbycontainergrouppools.
   name: Microsoft Azure StandbyContainerGroupPools API
   slug: microsoft-azure-standbycontainergrouppools-api
-- description: The StandbyVirtualMachinePools API from Microsoft Azure — 3 operation(s) for standbyvirtualmachinepools.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StandbyVirtualMachinePools API from Microsoft Azure — 3 operation(s) for standbyvirtualmachinepools.
   name: Microsoft Azure StandbyVirtualMachinePools API
   slug: microsoft-azure-standbyvirtualmachinepools-api
-- description: The StandbyVirtualMachines API from Microsoft Azure — 2 operation(s) for standbyvirtualmachines.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StandbyVirtualMachines API from Microsoft Azure — 2 operation(s) for standbyvirtualmachines.
   name: Microsoft Azure StandbyVirtualMachines API
   slug: microsoft-azure-standbyvirtualmachines-api
-- description: The StartMenuItem API from Microsoft Azure — 1 operation(s) for startmenuitem.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StartMenuItem API from Microsoft Azure — 1 operation(s) for startmenuitem.
   name: Microsoft Azure StartMenuItem API
   slug: microsoft-azure-startmenuitem-api
-- description: The StaticMembers API from Microsoft Azure — 2 operation(s) for staticmembers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StaticMembers API from Microsoft Azure — 2 operation(s) for staticmembers.
   name: Microsoft Azure StaticMembers API
   slug: microsoft-azure-staticmembers-api
-- description: The StaticSites API from Microsoft Azure — 51 operation(s) for staticsites.
-  name: Microsoft Azure StaticSites API
-  slug: microsoft-azure-staticsites-api
-- description: The Storage Actions Operations API from Microsoft Azure — 1 operation(s) for storage actions operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Storage Actions Operations API from Microsoft Azure — 1 operation(s) for storage actions operations.
   name: Microsoft Azure Storage Actions Operations API
   slug: microsoft-azure-storage-actions-operations-api
 - description: The Storage API from Microsoft Azure — 8 operation(s) for storage.
   name: Microsoft Azure Storage API
   slug: microsoft-azure-storage-api
-- description: The StorageAccountCredentials API from Microsoft Azure — 5 operation(s) for storageaccountcredentials.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StorageAccountCredentials API from Microsoft Azure — 5 operation(s) for storageaccountcredentials.
   name: Microsoft Azure StorageAccountCredentials API
   slug: microsoft-azure-storageaccountcredentials-api
-- description: The StorageAccounts API from Microsoft Azure — 19 operation(s) for storageaccounts.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StorageAccounts API from Microsoft Azure — 19 operation(s) for storageaccounts.
   name: Microsoft Azure StorageAccounts API
   slug: microsoft-azure-storageaccounts-api
-- description: The StorageClass API from Microsoft Azure — 2 operation(s) for storageclass.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StorageClass API from Microsoft Azure — 2 operation(s) for storageclass.
   name: Microsoft Azure StorageClass API
   slug: microsoft-azure-storageclass-api
-- description: The StorageDomains API from Microsoft Azure — 2 operation(s) for storagedomains.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StorageDomains API from Microsoft Azure — 2 operation(s) for storagedomains.
   name: Microsoft Azure StorageDomains API
   slug: microsoft-azure-storagedomains-api
-- description: The StorageImportExport API from Microsoft Azure — 7 operation(s) for storageimportexport.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StorageImportExport API from Microsoft Azure — 7 operation(s) for storageimportexport.
   name: Microsoft Azure StorageImportExport API
   slug: microsoft-azure-storageimportexport-api
-- description: The StorageMovers API from Microsoft Azure — 3 operation(s) for storagemovers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StorageMovers API from Microsoft Azure — 3 operation(s) for storagemovers.
   name: Microsoft Azure StorageMovers API
   slug: microsoft-azure-storagemovers-api
-- description: APIs for StoragePool operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: APIs for StoragePool operations.
   name: Microsoft Azure StoragePoolOperations API
   slug: microsoft-azure-storagepooloperations-api
-- description: The StorageSyncService API from Microsoft Azure — 1 operation(s) for storagesyncservice.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StorageSyncService API from Microsoft Azure — 1 operation(s) for storagesyncservice.
   name: Microsoft Azure StorageSyncService API
   slug: microsoft-azure-storagesyncservice-api
-- description: The StorageSyncServices Resource API from Microsoft Azure — 3 operation(s) for storagesyncservices resource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StorageSyncServices Resource API from Microsoft Azure — 3 operation(s) for storagesyncservices resource.
   name: Microsoft Azure StorageSyncServices Resource API
   slug: microsoft-azure-storagesyncservices-resource-api
-- description: The StorageTargets API from Microsoft Azure — 8 operation(s) for storagetargets.
+- baseURL: https://management.azure.com/
+  baseurl_source: spec
+  description: The StorageTargets API from Microsoft Azure — 8 operation(s) for storagetargets.
   name: Microsoft Azure StorageTargets API
   slug: microsoft-azure-storagetargets-api
-- description: The StorageTasks API from Microsoft Azure — 6 operation(s) for storagetasks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StorageTasks API from Microsoft Azure — 6 operation(s) for storagetasks.
   name: Microsoft Azure StorageTasks API
   slug: microsoft-azure-storagetasks-api
 - baseURL_template: https://{accountName}.documents.azure.com
@@ -4358,58 +5987,80 @@ apis:
 - description: The Stream API from Microsoft Azure — 1 operation(s) for stream.
   name: Microsoft Azure Stream API
   slug: microsoft-azure-stream-api
-- description: The StudentLabs API from Microsoft Azure — 2 operation(s) for studentlabs.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The StudentLabs API from Microsoft Azure — 2 operation(s) for studentlabs.
   name: Microsoft Azure StudentLabs API
   slug: microsoft-azure-studentlabs-api
-- description: The Students API from Microsoft Azure — 2 operation(s) for students.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Students API from Microsoft Azure — 2 operation(s) for students.
   name: Microsoft Azure Students API
   slug: microsoft-azure-students-api
 - description: The Styles API from Microsoft Azure — 6 operation(s) for styles.
   name: Microsoft Azure Styles API
   slug: microsoft-azure-styles-api
-- description: The SubAccount API from Microsoft Azure — 3 operation(s) for subaccount.
-  name: Microsoft Azure SubAccount API
-  slug: microsoft-azure-subaccount-api
-- description: The Subnets API from Microsoft Azure — 2 operation(s) for subnets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Subnets API from Microsoft Azure — 2 operation(s) for subnets.
   name: Microsoft Azure Subnets API
   slug: microsoft-azure-subnets-api
-- description: The Subscription API from Microsoft Azure — 5 operation(s) for subscription.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Subscription API from Microsoft Azure — 5 operation(s) for subscription.
   name: Microsoft Azure Subscription API
   slug: microsoft-azure-subscription-api
-- description: The SubscriptionDefinitions API from Microsoft Azure — 4 operation(s) for subscriptiondefinitions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SubscriptionDefinitions API from Microsoft Azure — 4 operation(s) for subscriptiondefinitions.
   name: Microsoft Azure SubscriptionDefinitions API
   slug: microsoft-azure-subscriptiondefinitions-api
-- description: The SubscriptionLevelProfessionalServiceResources API from Microsoft Azure — 4 operation(s) for subscriptionlevelprofessionalserviceresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SubscriptionLevelProfessionalServiceResources API from Microsoft Azure — 4 operation(s) for subscriptionlevelprofessionalserviceresources.
   name: Microsoft Azure SubscriptionLevelProfessionalServiceResources API
   slug: microsoft-azure-subscriptionlevelprofessionalserviceresources-api
-- description: The SubscriptionLevelSaaSResources API from Microsoft Azure — 7 operation(s) for subscriptionlevelsaasresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SubscriptionLevelSaaSResources API from Microsoft Azure — 7 operation(s) for subscriptionlevelsaasresources.
   name: Microsoft Azure SubscriptionLevelSaaSResources API
   slug: microsoft-azure-subscriptionlevelsaasresources-api
-- description: The Subscriptions API from Microsoft Azure — 488 operation(s) for subscriptions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Subscriptions API from Microsoft Azure — 488 operation(s) for subscriptions.
   name: Microsoft Azure Subscriptions API
   slug: microsoft-azure-subscriptions-api
-- description: The Subvolumes API from Microsoft Azure — 3 operation(s) for subvolumes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Subvolumes API from Microsoft Azure — 3 operation(s) for subvolumes.
   name: Microsoft Azure Subvolumes API
   slug: microsoft-azure-subvolumes-api
-- description: The SuggestTagsAndRegionsApi API from Microsoft Azure — 1 operation(s) for suggesttagsandregionsapi.
+- baseURL: https://southcentralus.api.cognitive.microsoft.com/customvision/v3.3/training
+  baseurl_source: spec
+  description: The SuggestTagsAndRegionsApi API from Microsoft Azure — 1 operation(s) for suggesttagsandregionsapi.
   name: Microsoft Azure SuggestTagsAndRegionsApi API
   slug: microsoft-azure-suggesttagsandregionsapi-api
-- description: The Summaries API from Microsoft Azure — 3 operation(s) for summaries.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Summaries API from Microsoft Azure — 3 operation(s) for summaries.
   name: Microsoft Azure Summaries API
   slug: microsoft-azure-summaries-api
 - description: The Supportedimages API from Microsoft Azure — 1 operation(s) for supportedimages.
   name: Microsoft Azure Supportedimages API
   slug: microsoft-azure-supportedimages-api
-- description: The SupportedOperatingSystems API from Microsoft Azure — 1 operation(s) for supportedoperatingsystems.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SupportedOperatingSystems API from Microsoft Azure — 1 operation(s) for supportedoperatingsystems.
   name: Microsoft Azure SupportedOperatingSystems API
   slug: microsoft-azure-supportedoperatingsystems-api
-- description: The SupportPackages API from Microsoft Azure — 1 operation(s) for supportpackages.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SupportPackages API from Microsoft Azure — 1 operation(s) for supportpackages.
   name: Microsoft Azure SupportPackages API
   slug: microsoft-azure-supportpackages-api
-- description: The SupportTickets API from Microsoft Azure — 6 operation(s) for supporttickets.
-  name: Microsoft Azure SupportTickets API
-  slug: microsoft-azure-supporttickets-api
-- description: The SuppressionLists API from Microsoft Azure — 4 operation(s) for suppressionlists.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SuppressionLists API from Microsoft Azure — 4 operation(s) for suppressionlists.
   name: Microsoft Azure SuppressionLists API
   slug: microsoft-azure-suppressionlists-api
 - description: The SynapseRbacScopes API from Microsoft Azure — 1 operation(s) for synapserbacscopes.
@@ -4418,52 +6069,68 @@ apis:
 - description: The SynapseRoleDefinitions API from Microsoft Azure — 2 operation(s) for synapseroledefinitions.
   name: Microsoft Azure SynapseRoleDefinitions API
   slug: microsoft-azure-synapseroledefinitions-api
-- description: The SyncGroup Resource API from Microsoft Azure — 2 operation(s) for syncgroup resource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SyncGroup Resource API from Microsoft Azure — 2 operation(s) for syncgroup resource.
   name: Microsoft Azure SyncGroup Resource API
   slug: microsoft-azure-syncgroup-resource-api
-- description: The SynchronizationSetting API from Microsoft Azure — 2 operation(s) for synchronizationsetting.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SynchronizationSetting API from Microsoft Azure — 2 operation(s) for synchronizationsetting.
   name: Microsoft Azure SynchronizationSetting API
   slug: microsoft-azure-synchronizationsetting-api
 - description: The SynonymMaps API from Microsoft Azure — 2 operation(s) for synonymmaps.
   name: Microsoft Azure SynonymMaps API
   slug: microsoft-azure-synonymmaps-api
-- description: The SystemScanRulesets API from Microsoft Azure — 5 operation(s) for systemscanrulesets.
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The SystemScanRulesets API from Microsoft Azure — 5 operation(s) for systemscanrulesets.
   name: Microsoft Azure SystemScanRulesets API
   slug: microsoft-azure-systemscanrulesets-api
-- description: The SystemTopics API from Microsoft Azure — 3 operation(s) for systemtopics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SystemTopics API from Microsoft Azure — 3 operation(s) for systemtopics.
   name: Microsoft Azure SystemTopics API
   slug: microsoft-azure-systemtopics-api
 - description: The Table API from Microsoft Azure — 5 operation(s) for table.
   name: Microsoft Azure Table API
   slug: microsoft-azure-table-api
-- description: The Tag API from Microsoft Azure — 1 operation(s) for tag.
+- baseURL: /vision/v1.0
+  baseurl_source: spec
+  description: The Tag API from Microsoft Azure — 1 operation(s) for tag.
   name: Microsoft Azure Tag API
   slug: microsoft-azure-tag-api
-- description: The TagApiLink API from Microsoft Azure — 2 operation(s) for tagapilink.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TagApiLink API from Microsoft Azure — 2 operation(s) for tagapilink.
   name: Microsoft Azure TagApiLink API
   slug: microsoft-azure-tagapilink-api
-- description: The TagOperationLink API from Microsoft Azure — 2 operation(s) for tagoperationlink.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TagOperationLink API from Microsoft Azure — 2 operation(s) for tagoperationlink.
   name: Microsoft Azure TagOperationLink API
   slug: microsoft-azure-tagoperationlink-api
-- description: The TagProductLink API from Microsoft Azure — 2 operation(s) for tagproductlink.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TagProductLink API from Microsoft Azure — 2 operation(s) for tagproductlink.
   name: Microsoft Azure TagProductLink API
   slug: microsoft-azure-tagproductlink-api
-- description: The TagRules API from Microsoft Azure — 8 operation(s) for tagrules.
-  name: Microsoft Azure TagRules API
-  slug: microsoft-azure-tagrules-api
 - description: The Tags API from Microsoft Azure — 1 operation(s) for tags.
   name: Microsoft Azure Tags API
   slug: microsoft-azure-tags-api
-- description: The TagsApi API from Microsoft Azure — 2 operation(s) for tagsapi.
-  name: Microsoft Azure TagsApi API
-  slug: microsoft-azure-tagsapi-api
-- description: The TargetComputeSizes API from Microsoft Azure — 1 operation(s) for targetcomputesizes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TargetComputeSizes API from Microsoft Azure — 1 operation(s) for targetcomputesizes.
   name: Microsoft Azure TargetComputeSizes API
   slug: microsoft-azure-targetcomputesizes-api
-- description: The Targets API from Microsoft Azure — 7 operation(s) for targets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Targets API from Microsoft Azure — 7 operation(s) for targets.
   name: Microsoft Azure Targets API
   slug: microsoft-azure-targets-api
-- description: Provides access to task resources.
+- baseURL: /
+  baseurl_source: spec
+  description: Provides access to task resources.
   name: Microsoft Azure Tasks API
   slug: microsoft-azure-tasks-api
 - description: The TcbBaseline API from Microsoft Azure — 1 operation(s) for tcbbaseline.
@@ -4487,48 +6154,57 @@ apis:
 - description: The Template API from Microsoft Azure — 1 operation(s) for template.
   name: Microsoft Azure Template API
   slug: microsoft-azure-template-api
-- description: The TemplateSpecs API from Microsoft Azure — 3 operation(s) for templatespecs.
-  name: Microsoft Azure TemplateSpecs API
-  slug: microsoft-azure-templatespecs-api
-- description: The TemplateSpecVersions API from Microsoft Azure — 2 operation(s) for templatespecversions.
-  name: Microsoft Azure TemplateSpecVersions API
-  slug: microsoft-azure-templatespecversions-api
-- description: Tenant controller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Tenant controller.
   name: Microsoft Azure Tenant API
   slug: microsoft-azure-tenant-api
 - description: The TenantEmailRegistration API from Microsoft Azure — 2 operation(s) for tenantemailregistration.
   name: Microsoft Azure TenantEmailRegistration API
   slug: microsoft-azure-tenantemailregistration-api
-- description: The TenantLevelGetAccessReviewInstanceContactedReviewers API from Microsoft Azure — 1 operation(s) for tenantlevelgetaccessreviewinstancecontactedreviewers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TenantLevelGetAccessReviewInstanceContactedReviewers API from Microsoft Azure — 1 operation(s) for tenantlevelgetaccessreviewinstancecontactedreviewers.
   name: Microsoft Azure TenantLevelGetAccessReviewInstanceContactedReviewers API
   slug: microsoft-azure-tenantlevelgetaccessreviewinstancecontactedreviewers-api
 - description: The Test API from Microsoft Azure — 10 operation(s) for test.
   name: Microsoft Azure Test API
   slug: microsoft-azure-test-api
-- description: The Test Base Account API from Microsoft Azure — 6 operation(s) for test base account.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Test Base Account API from Microsoft Azure — 6 operation(s) for test base account.
   name: Microsoft Azure Test Base Account API
   slug: microsoft-azure-test-base-account-api
-- description: The Test Base Customer Event API from Microsoft Azure — 1 operation(s) for test base customer event.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Test Base Customer Event API from Microsoft Azure — 1 operation(s) for test base customer event.
   name: Microsoft Azure Test Base Customer Event API
   slug: microsoft-azure-test-base-customer-event-api
-- description: The Test Base Customer Notification Events API from Microsoft Azure — 1 operation(s) for test base customer notification events.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Test Base Customer Notification Events API from Microsoft Azure — 1 operation(s) for test base customer notification events.
   name: Microsoft Azure Test Base Customer Notification Events API
   slug: microsoft-azure-test-base-customer-notification-events-api
-- description: The Test Base Email Event API from Microsoft Azure — 2 operation(s) for test base email event.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Test Base Email Event API from Microsoft Azure — 2 operation(s) for test base email event.
   name: Microsoft Azure Test Base Email Event API
   slug: microsoft-azure-test-base-email-event-api
-- description: The Test Base Package API from Microsoft Azure — 12 operation(s) for test base package.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Test Base Package API from Microsoft Azure — 12 operation(s) for test base package.
   name: Microsoft Azure Test Base Package API
   slug: microsoft-azure-test-base-package-api
-- description: The Test Result API from Microsoft Azure — 12 operation(s) for test result.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Test Result API from Microsoft Azure — 12 operation(s) for test result.
   name: Microsoft Azure Test Result API
   slug: microsoft-azure-test-result-api
-- description: The TestLines API from Microsoft Azure — 2 operation(s) for testlines.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TestLines API from Microsoft Azure — 2 operation(s) for testlines.
   name: Microsoft Azure TestLines API
   slug: microsoft-azure-testlines-api
-- description: The TestRun API from Microsoft Azure — 16 operation(s) for testrun.
-  name: Microsoft Azure TestRun API
-  slug: microsoft-azure-testrun-api
 - description: The Text:analyze API from Microsoft Azure — 1 operation(s) for text:analyze.
   name: Microsoft Azure Text:analyze API
   slug: microsoft-azure-text-analyze-api
@@ -4556,13 +6232,17 @@ apis:
 - description: The TextModeration API from Microsoft Azure — 2 operation(s) for textmoderation.
   name: Microsoft Azure TextModeration API
   slug: microsoft-azure-textmoderation-api
-- description: The textOperations API from Microsoft Azure — 1 operation(s) for textoperations.
+- baseURL: /vision/v1.0
+  baseurl_source: spec
+  description: The textOperations API from Microsoft Azure — 1 operation(s) for textoperations.
   name: Microsoft Azure textOperations API
   slug: microsoft-azure-textoperations-api
 - description: The Threads API from Microsoft Azure — 16 operation(s) for threads.
   name: Microsoft Azure Threads API
   slug: microsoft-azure-threads-api
-- description: The ThroughputPools API from Microsoft Azure — 1 operation(s) for throughputpools.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ThroughputPools API from Microsoft Azure — 1 operation(s) for throughputpools.
   name: Microsoft Azure ThroughputPools API
   slug: microsoft-azure-throughputpools-api
 - description: The Tilesets API from Microsoft Azure — 3 operation(s) for tilesets.
@@ -4571,85 +6251,119 @@ apis:
 - description: The TillageData API from Microsoft Azure — 5 operation(s) for tillagedata.
   name: Microsoft Azure TillageData API
   slug: microsoft-azure-tillagedata-api
-- description: The Timeseries API from Microsoft Azure — 3 operation(s) for timeseries.
-  name: Microsoft Azure Timeseries API
-  slug: microsoft-azure-timeseries-api
-- description: The Timezone API from Microsoft Azure — 6 operation(s) for timezone.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Timezone API from Microsoft Azure — 6 operation(s) for timezone.
   name: Microsoft Azure Timezone API
   slug: microsoft-azure-timezone-api
 - description: The Token API from Microsoft Azure — 2 operation(s) for token.
   name: Microsoft Azure Token API
   slug: microsoft-azure-token-api
-- description: The TomcatWebApplicationsController API from Microsoft Azure — 2 operation(s) for tomcatwebapplicationscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TomcatWebApplicationsController API from Microsoft Azure — 2 operation(s) for tomcatwebapplicationscontroller.
   name: Microsoft Azure TomcatWebApplicationsController API
   slug: microsoft-azure-tomcatwebapplicationscontroller-api
-- description: The TomcatWebServersController API from Microsoft Azure — 2 operation(s) for tomcatwebserverscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TomcatWebServersController API from Microsoft Azure — 2 operation(s) for tomcatwebserverscontroller.
   name: Microsoft Azure TomcatWebServersController API
   slug: microsoft-azure-tomcatwebserverscontroller-api
-- description: The Topics API from Microsoft Azure — 15 operation(s) for topics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Topics API from Microsoft Azure — 15 operation(s) for topics.
   name: Microsoft Azure Topics API
   slug: microsoft-azure-topics-api
-- description: The TopicTypes API from Microsoft Azure — 3 operation(s) for topictypes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TopicTypes API from Microsoft Azure — 3 operation(s) for topictypes.
   name: Microsoft Azure TopicTypes API
   slug: microsoft-azure-topictypes-api
-- description: The TopLevelDomains API from Microsoft Azure — 3 operation(s) for topleveldomains.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TopLevelDomains API from Microsoft Azure — 3 operation(s) for topleveldomains.
   name: Microsoft Azure TopLevelDomains API
   slug: microsoft-azure-topleveldomains-api
-- description: The TopQueryStatistics API from Microsoft Azure — 2 operation(s) for topquerystatistics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TopQueryStatistics API from Microsoft Azure — 2 operation(s) for topquerystatistics.
   name: Microsoft Azure TopQueryStatistics API
   slug: microsoft-azure-topquerystatistics-api
 - description: The Track API from Microsoft Azure — 1 operation(s) for track.
   name: Microsoft Azure Track API
   slug: microsoft-azure-track-api
-- description: The Traffic API from Microsoft Azure — 5 operation(s) for traffic.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Traffic API from Microsoft Azure — 5 operation(s) for traffic.
   name: Microsoft Azure Traffic API
   slug: microsoft-azure-traffic-api
-- description: The TrafficControllerInterface API from Microsoft Azure — 3 operation(s) for trafficcontrollerinterface.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TrafficControllerInterface API from Microsoft Azure — 3 operation(s) for trafficcontrollerinterface.
   name: Microsoft Azure TrafficControllerInterface API
   slug: microsoft-azure-trafficcontrollerinterface-api
-- description: The TrafficFilter API from Microsoft Azure — 8 operation(s) for trafficfilter.
-  name: Microsoft Azure TrafficFilter API
-  slug: microsoft-azure-trafficfilter-api
 - description: The TrainingSet API from Microsoft Azure — 3 operation(s) for trainingset.
   name: Microsoft Azure TrainingSet API
   slug: microsoft-azure-trainingset-api
-- description: The TransactionNode API from Microsoft Azure — 4 operation(s) for transactionnode.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TransactionNode API from Microsoft Azure — 4 operation(s) for transactionnode.
   name: Microsoft Azure TransactionNode API
   slug: microsoft-azure-transactionnode-api
-- description: The Transformations API from Microsoft Azure — 1 operation(s) for transformations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Transformations API from Microsoft Azure — 1 operation(s) for transformations.
   name: Microsoft Azure Transformations API
   slug: microsoft-azure-transformations-api
-- description: The Translate API from Microsoft Azure — 1 operation(s) for translate.
+- baseURL: https://api.cognitive.microsofttranslator.com
+  baseurl_source: spec
+  description: The Translate API from Microsoft Azure — 1 operation(s) for translate.
   name: Microsoft Azure Translate API
   slug: microsoft-azure-translate-api
-- description: The Transliterate API from Microsoft Azure — 1 operation(s) for transliterate.
+- baseURL: https://api.cognitive.microsofttranslator.com
+  baseurl_source: spec
+  description: The Transliterate API from Microsoft Azure — 1 operation(s) for transliterate.
   name: Microsoft Azure Transliterate API
   slug: microsoft-azure-transliterate-api
 - description: The TrialMatcher API from Microsoft Azure — 4 operation(s) for trialmatcher.
   name: Microsoft Azure TrialMatcher API
   slug: microsoft-azure-trialmatcher-api
-- description: The Trigger API from Microsoft Azure — 2 operation(s) for trigger.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Trigger API from Microsoft Azure — 2 operation(s) for trigger.
   name: Microsoft Azure Trigger API
   slug: microsoft-azure-trigger-api
-- description: The Triggers API from Microsoft Azure — 3 operation(s) for triggers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Triggers API from Microsoft Azure — 3 operation(s) for triggers.
   name: Microsoft Azure Triggers API
   slug: microsoft-azure-triggers-api
-- description: The Troubleshooter API from Microsoft Azure — 4 operation(s) for troubleshooter.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Troubleshooter API from Microsoft Azure — 4 operation(s) for troubleshooter.
   name: Microsoft Azure Troubleshooter API
   slug: microsoft-azure-troubleshooter-api
-- description: The TrustedIdProviders API from Microsoft Azure — 2 operation(s) for trustedidproviders.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The TrustedIdProviders API from Microsoft Azure — 2 operation(s) for trustedidproviders.
   name: Microsoft Azure TrustedIdProviders API
   slug: microsoft-azure-trustedidproviders-api
 - description: The Turn API from Microsoft Azure — 2 operation(s) for turn.
   name: Microsoft Azure Turn API
   slug: microsoft-azure-turn-api
-- description: The Twins API from Microsoft Azure — 7 operation(s) for twins.
+- baseURL: https://digitaltwins-hostname
+  baseurl_source: spec
+  description: The Twins API from Microsoft Azure — 7 operation(s) for twins.
   name: Microsoft Azure Twins API
   slug: microsoft-azure-twins-api
-- description: The Type API from Microsoft Azure — 18 operation(s) for type.
+- baseURL: /datamap/api
+  baseurl_source: spec
+  description: The Type API from Microsoft Azure — 18 operation(s) for type.
   name: Microsoft Azure Type API
   slug: microsoft-azure-type-api
-- description: The Types API from Microsoft Azure — 18 operation(s) for types.
+- baseURL: /catalog/api
+  baseurl_source: spec
+  description: The Types API from Microsoft Azure — 18 operation(s) for types.
   name: Microsoft Azure Types API
   slug: microsoft-azure-types-api
 - description: The TypingNotifications API from Microsoft Azure — 1 operation(s) for typingnotifications.
@@ -4658,121 +6372,182 @@ apis:
 - description: The Update Management API from Microsoft Azure — 10 operation(s) for update management.
   name: Microsoft Azure Update Management API
   slug: microsoft-azure-update-management-api
-- description: The UpdateRuns API from Microsoft Azure — 5 operation(s) for updateruns.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UpdateRuns API from Microsoft Azure — 5 operation(s) for updateruns.
   name: Microsoft Azure UpdateRuns API
   slug: microsoft-azure-updateruns-api
-- description: The Updates API from Microsoft Azure — 5 operation(s) for updates.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Updates API from Microsoft Azure — 5 operation(s) for updates.
   name: Microsoft Azure Updates API
   slug: microsoft-azure-updates-api
-- description: The UpfDeployments API from Microsoft Azure — 3 operation(s) for upfdeployments.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UpfDeployments API from Microsoft Azure — 3 operation(s) for upfdeployments.
   name: Microsoft Azure UpfDeployments API
   slug: microsoft-azure-upfdeployments-api
-- description: The Usage API from Microsoft Azure — 2 operation(s) for usage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Usage API from Microsoft Azure — 2 operation(s) for usage.
   name: Microsoft Azure Usage API
   slug: microsoft-azure-usage-api
-- description: The UsageAggregates API from Microsoft Azure — 1 operation(s) for usageaggregates.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UsageAggregates API from Microsoft Azure — 1 operation(s) for usageaggregates.
   name: Microsoft Azure UsageAggregates API
   slug: microsoft-azure-usageaggregates-api
-- description: The UsageDetails API from Microsoft Azure — 2 operation(s) for usagedetails.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UsageDetails API from Microsoft Azure — 2 operation(s) for usagedetails.
   name: Microsoft Azure UsageDetails API
   slug: microsoft-azure-usagedetails-api
-- description: The UsageModels API from Microsoft Azure — 1 operation(s) for usagemodels.
+- baseURL: https://management.azure.com/
+  baseurl_source: spec
+  description: The UsageModels API from Microsoft Azure — 1 operation(s) for usagemodels.
   name: Microsoft Azure UsageModels API
   slug: microsoft-azure-usagemodels-api
-- description: The Usages API from Microsoft Azure — 1 operation(s) for usages.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Usages API from Microsoft Azure — 1 operation(s) for usages.
   name: Microsoft Azure Usages API
   slug: microsoft-azure-usages-api
-- description: The UsagesInformation API from Microsoft Azure — 2 operation(s) for usagesinformation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UsagesInformation API from Microsoft Azure — 2 operation(s) for usagesinformation.
   name: Microsoft Azure UsagesInformation API
   slug: microsoft-azure-usagesinformation-api
-- description: The User API from Microsoft Azure — 3 operation(s) for user.
+- baseURL: https://graph.windows.net
+  baseurl_source: spec
+  description: The User API from Microsoft Azure — 3 operation(s) for user.
   name: Microsoft Azure User API
   slug: microsoft-azure-user-api
-- description: The userLogin API from Microsoft Azure — 1 operation(s) for userlogin.
-  name: Microsoft Azure userLogin API
-  slug: microsoft-azure-userlogin-api
-- description: The UserOrganization API from Microsoft Azure — 1 operation(s) for userorganization.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UserOrganization API from Microsoft Azure — 1 operation(s) for userorganization.
   name: Microsoft Azure UserOrganization API
   slug: microsoft-azure-userorganization-api
-- description: The UserRequests API from Microsoft Azure — 1 operation(s) for userrequests.
-  name: Microsoft Azure UserRequests API
-  slug: microsoft-azure-userrequests-api
-- description: The UserRPOepResource API from Microsoft Azure — 3 operation(s) for userrpoepresource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UserRPOepResource API from Microsoft Azure — 3 operation(s) for userrpoepresource.
   name: Microsoft Azure UserRPOepResource API
   slug: microsoft-azure-userrpoepresource-api
-- description: The UserRuleCollections API from Microsoft Azure — 2 operation(s) for userrulecollections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UserRuleCollections API from Microsoft Azure — 2 operation(s) for userrulecollections.
   name: Microsoft Azure UserRuleCollections API
   slug: microsoft-azure-userrulecollections-api
-- description: The UserRules API from Microsoft Azure — 2 operation(s) for userrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UserRules API from Microsoft Azure — 2 operation(s) for userrules.
   name: Microsoft Azure UserRules API
   slug: microsoft-azure-userrules-api
-- description: The Users API from Microsoft Azure — 8 operation(s) for users.
+- baseURL: /api
+  baseurl_source: spec
+  description: The Users API from Microsoft Azure — 8 operation(s) for users.
   name: Microsoft Azure Users API
   slug: microsoft-azure-users-api
-- description: The UserSession API from Microsoft Azure — 5 operation(s) for usersession.
-  name: Microsoft Azure UserSession API
-  slug: microsoft-azure-usersession-api
-- description: The UserSolutions API from Microsoft Azure — 2 operation(s) for usersolutions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The UserSolutions API from Microsoft Azure — 2 operation(s) for usersolutions.
   name: Microsoft Azure UserSolutions API
   slug: microsoft-azure-usersolutions-api
-- description: Consume records
+- baseURL: https://clustername-kafkarest.azurehdinsight.net/
+  baseurl_source: spec
+  description: Consume records
   name: Microsoft Azure V1consumer API
   slug: microsoft-azure-v1consumer-api
-- description: Get the metadata of topic and partition
+- baseURL: https://clustername-kafkarest.azurehdinsight.net/
+  baseurl_source: spec
+  description: Get the metadata of topic and partition
   name: Microsoft Azure V1metadata API
   slug: microsoft-azure-v1metadata-api
-- description: Produce records
+- baseURL: https://clustername-kafkarest.azurehdinsight.net/
+  baseurl_source: spec
+  description: Produce records
   name: Microsoft Azure V1producer API
   slug: microsoft-azure-v1producer-api
-- description: Get Kafka Restproxy status
+- baseURL: https://clustername-kafkarest.azurehdinsight.net/
+  baseurl_source: spec
+  description: Get Kafka Restproxy status
   name: Microsoft Azure V1status API
   slug: microsoft-azure-v1status-api
-- description: Manage Kafka topics
+- baseURL: https://clustername-kafkarest.azurehdinsight.net/
+  baseurl_source: spec
+  description: Manage Kafka topics
   name: Microsoft Azure V1topics API
   slug: microsoft-azure-v1topics-api
 - description: Root API
   name: Microsoft Azure V2 API
   slug: microsoft-azure-v2-api
-- description: The V2WorkspaceConnectionResource API from Microsoft Azure — 4 operation(s) for v2workspaceconnectionresource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The V2WorkspaceConnectionResource API from Microsoft Azure — 4 operation(s) for v2workspaceconnectionresource.
   name: Microsoft Azure V2WorkspaceConnectionResource API
   slug: microsoft-azure-v2workspaceconnectionresource-api
-- description: The ValidateOperation API from Microsoft Azure — 1 operation(s) for validateoperation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ValidateOperation API from Microsoft Azure — 1 operation(s) for validateoperation.
   name: Microsoft Azure ValidateOperation API
   slug: microsoft-azure-validateoperation-api
-- description: The ValidateOperationResults API from Microsoft Azure — 1 operation(s) for validateoperationresults.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ValidateOperationResults API from Microsoft Azure — 1 operation(s) for validateoperationresults.
   name: Microsoft Azure ValidateOperationResults API
   slug: microsoft-azure-validateoperationresults-api
-- description: The ValidateOperationStatuses API from Microsoft Azure — 1 operation(s) for validateoperationstatuses.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ValidateOperationStatuses API from Microsoft Azure — 1 operation(s) for validateoperationstatuses.
   name: Microsoft Azure ValidateOperationStatuses API
   slug: microsoft-azure-validateoperationstatuses-api
-- description: The ValidateProbe API from Microsoft Azure — 1 operation(s) for validateprobe.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ValidateProbe API from Microsoft Azure — 1 operation(s) for validateprobe.
   name: Microsoft Azure ValidateProbe API
   slug: microsoft-azure-validateprobe-api
-- description: The validateStorageConfiguration API from Microsoft Azure — 1 operation(s) for validatestorageconfiguration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The validateStorageConfiguration API from Microsoft Azure — 1 operation(s) for validatestorageconfiguration.
   name: Microsoft Azure validateStorageConfiguration API
   slug: microsoft-azure-validatestorageconfiguration-api
-- description: The Validations API from Microsoft Azure — 1 operation(s) for validations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Validations API from Microsoft Azure — 1 operation(s) for validations.
   name: Microsoft Azure Validations API
   slug: microsoft-azure-validations-api
-- description: The Variables API from Microsoft Azure — 4 operation(s) for variables.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Variables API from Microsoft Azure — 4 operation(s) for variables.
   name: Microsoft Azure Variables API
   slug: microsoft-azure-variables-api
-- description: Vault Controller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Vault Controller.
   name: Microsoft Azure Vault API
   slug: microsoft-azure-vault-api
-- description: The VaultUsages API from Microsoft Azure — 1 operation(s) for vaultusages.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VaultUsages API from Microsoft Azure — 1 operation(s) for vaultusages.
   name: Microsoft Azure VaultUsages API
   slug: microsoft-azure-vaultusages-api
-- description: The VcenterController API from Microsoft Azure — 2 operation(s) for vcentercontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VcenterController API from Microsoft Azure — 2 operation(s) for vcentercontroller.
   name: Microsoft Azure VcenterController API
   slug: microsoft-azure-vcentercontroller-api
-- description: The VCenters API from Microsoft Azure — 3 operation(s) for vcenters.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VCenters API from Microsoft Azure — 3 operation(s) for vcenters.
   name: Microsoft Azure VCenters API
   slug: microsoft-azure-vcenters-api
-- description: The VendorNetworkFunctions API from Microsoft Azure — 2 operation(s) for vendornetworkfunctions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VendorNetworkFunctions API from Microsoft Azure — 2 operation(s) for vendornetworkfunctions.
   name: Microsoft Azure VendorNetworkFunctions API
   slug: microsoft-azure-vendornetworkfunctions-api
-- description: The VerifiedPartners API from Microsoft Azure — 2 operation(s) for verifiedpartners.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VerifiedPartners API from Microsoft Azure — 2 operation(s) for verifiedpartners.
   name: Microsoft Azure VerifiedPartners API
   slug: microsoft-azure-verifiedpartners-api
 - description: The Verify API from Microsoft Azure — 1 operation(s) for verify.
@@ -4781,232 +6556,332 @@ apis:
 - description: The Version API from Microsoft Azure — 1 operation(s) for version.
   name: Microsoft Azure Version API
   slug: microsoft-azure-version-api
-- description: The VideoDetailSearch API from Microsoft Azure — 1 operation(s) for videodetailsearch.
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The VideoDetailSearch API from Microsoft Azure — 1 operation(s) for videodetailsearch.
   name: Microsoft Azure VideoDetailSearch API
   slug: microsoft-azure-videodetailsearch-api
-- description: The VideoSearch API from Microsoft Azure — 1 operation(s) for videosearch.
-  name: Microsoft Azure VideoSearch API
-  slug: microsoft-azure-videosearch-api
-- description: The VideoTrendingSearch API from Microsoft Azure — 1 operation(s) for videotrendingsearch.
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The VideoTrendingSearch API from Microsoft Azure — 1 operation(s) for videotrendingsearch.
   name: Microsoft Azure VideoTrendingSearch API
   slug: microsoft-azure-videotrendingsearch-api
-- description: The Views API from Microsoft Azure — 2 operation(s) for views.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Views API from Microsoft Azure — 2 operation(s) for views.
   name: Microsoft Azure Views API
   slug: microsoft-azure-views-api
-- description: The VirtualDesktopUserController API from Microsoft Azure — 2 operation(s) for virtualdesktopusercontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualDesktopUserController API from Microsoft Azure — 2 operation(s) for virtualdesktopusercontroller.
   name: Microsoft Azure VirtualDesktopUserController API
   slug: microsoft-azure-virtualdesktopusercontroller-api
-- description: The VirtualMachine API from Microsoft Azure — 7 operation(s) for virtualmachine.
-  name: Microsoft Azure VirtualMachine API
-  slug: microsoft-azure-virtualmachine-api
-- description: The VirtualMachineImageTemplate API from Microsoft Azure — 6 operation(s) for virtualmachineimagetemplate.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualMachineImageTemplate API from Microsoft Azure — 6 operation(s) for virtualmachineimagetemplate.
   name: Microsoft Azure VirtualMachineImageTemplate API
   slug: microsoft-azure-virtualmachineimagetemplate-api
-- description: The VirtualMachineInstances API from Microsoft Azure — 5 operation(s) for virtualmachineinstances.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualMachineInstances API from Microsoft Azure — 5 operation(s) for virtualmachineinstances.
   name: Microsoft Azure VirtualMachineInstances API
   slug: microsoft-azure-virtualmachineinstances-api
-- description: The VirtualMachineRunCommands API from Microsoft Azure — 4 operation(s) for virtualmachineruncommands.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualMachineRunCommands API from Microsoft Azure — 4 operation(s) for virtualmachineruncommands.
   name: Microsoft Azure VirtualMachineRunCommands API
   slug: microsoft-azure-virtualmachineruncommands-api
-- description: The VirtualMachines API from Microsoft Azure — 41 operation(s) for virtualmachines.
-  name: Microsoft Azure VirtualMachines API
-  slug: microsoft-azure-virtualmachines-api
-- description: The VirtualMachineScaleSetVMRunCommands API from Microsoft Azure — 2 operation(s) for virtualmachinescalesetvmruncommands.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualMachineScaleSetVMRunCommands API from Microsoft Azure — 2 operation(s) for virtualmachinescalesetvmruncommands.
   name: Microsoft Azure VirtualMachineScaleSetVMRunCommands API
   slug: microsoft-azure-virtualmachinescalesetvmruncommands-api
-- description: The VirtualMachineScaleSetVMs API from Microsoft Azure — 1 operation(s) for virtualmachinescalesetvms.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualMachineScaleSetVMs API from Microsoft Azure — 1 operation(s) for virtualmachinescalesetvms.
   name: Microsoft Azure VirtualMachineScaleSetVMs API
   slug: microsoft-azure-virtualmachinescalesetvms-api
-- description: The VirtualMachineSchedules API from Microsoft Azure — 3 operation(s) for virtualmachineschedules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualMachineSchedules API from Microsoft Azure — 3 operation(s) for virtualmachineschedules.
   name: Microsoft Azure VirtualMachineSchedules API
   slug: microsoft-azure-virtualmachineschedules-api
-- description: The VirtualMachineTemplates API from Microsoft Azure — 8 operation(s) for virtualmachinetemplates.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualMachineTemplates API from Microsoft Azure — 8 operation(s) for virtualmachinetemplates.
   name: Microsoft Azure VirtualMachineTemplates API
   slug: microsoft-azure-virtualmachinetemplates-api
-- description: The VirtualNetworkGatewayConnections API from Microsoft Azure — 6 operation(s) for virtualnetworkgatewayconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualNetworkGatewayConnections API from Microsoft Azure — 6 operation(s) for virtualnetworkgatewayconnections.
   name: Microsoft Azure VirtualNetworkGatewayConnections API
   slug: microsoft-azure-virtualnetworkgatewayconnections-api
-- description: The VirtualNetworkGateways API from Microsoft Azure — 4 operation(s) for virtualnetworkgateways.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualNetworkGateways API from Microsoft Azure — 4 operation(s) for virtualnetworkgateways.
   name: Microsoft Azure VirtualNetworkGateways API
   slug: microsoft-azure-virtualnetworkgateways-api
-- description: The VirtualNetworkLinks API from Microsoft Azure — 4 operation(s) for virtualnetworklinks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualNetworkLinks API from Microsoft Azure — 4 operation(s) for virtualnetworklinks.
   name: Microsoft Azure VirtualNetworkLinks API
   slug: microsoft-azure-virtualnetworklinks-api
-- description: The VirtualNetworkRules API from Microsoft Azure — 4 operation(s) for virtualnetworkrules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualNetworkRules API from Microsoft Azure — 4 operation(s) for virtualnetworkrules.
   name: Microsoft Azure VirtualNetworkRules API
   slug: microsoft-azure-virtualnetworkrules-api
-- description: The VirtualNetworks API from Microsoft Azure — 13 operation(s) for virtualnetworks.
-  name: Microsoft Azure VirtualNetworks API
-  slug: microsoft-azure-virtualnetworks-api
-- description: The VirtualNetworkSubnetUsage API from Microsoft Azure — 1 operation(s) for virtualnetworksubnetusage.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualNetworkSubnetUsage API from Microsoft Azure — 1 operation(s) for virtualnetworksubnetusage.
   name: Microsoft Azure VirtualNetworkSubnetUsage API
   slug: microsoft-azure-virtualnetworksubnetusage-api
-- description: The VirtualWANs API from Microsoft Azure — 2 operation(s) for virtualwans.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VirtualWANs API from Microsoft Azure — 2 operation(s) for virtualwans.
   name: Microsoft Azure VirtualWANs API
   slug: microsoft-azure-virtualwans-api
-- description: The VM_Host API from Microsoft Azure — 6 operation(s) for vm_host.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VM_Host API from Microsoft Azure — 6 operation(s) for vm_host.
   name: Microsoft Azure VM_Host API
   slug: microsoft-azure-vm-host-api
-- description: The VM Insights Onboarding API from Microsoft Azure — 1 operation(s) for vm insights onboarding.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VM Insights Onboarding API from Microsoft Azure — 1 operation(s) for vm insights onboarding.
   name: Microsoft Azure VM Insights Onboarding API
   slug: microsoft-azure-vm-insights-onboarding-api
-- description: The VMCollectionUpdate API from Microsoft Azure — 1 operation(s) for vmcollectionupdate.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VMCollectionUpdate API from Microsoft Azure — 1 operation(s) for vmcollectionupdate.
   name: Microsoft Azure VMCollectionUpdate API
   slug: microsoft-azure-vmcollectionupdate-api
-- description: The VMExtensions API from Microsoft Azure — 2 operation(s) for vmextensions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VMExtensions API from Microsoft Azure — 2 operation(s) for vmextensions.
   name: Microsoft Azure VMExtensions API
   slug: microsoft-azure-vmextensions-api
-- description: The VMHHostList API from Microsoft Azure — 1 operation(s) for vmhhostlist.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VMHHostList API from Microsoft Azure — 1 operation(s) for vmhhostlist.
   name: Microsoft Azure VMHHostList API
   slug: microsoft-azure-vmhhostlist-api
-- description: The VMIngestionDetails API from Microsoft Azure — 1 operation(s) for vmingestiondetails.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VMIngestionDetails API from Microsoft Azure — 1 operation(s) for vmingestiondetails.
   name: Microsoft Azure VMIngestionDetails API
   slug: microsoft-azure-vmingestiondetails-api
-- description: The VMInstanceGuestAgents API from Microsoft Azure — 2 operation(s) for vminstanceguestagents.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VMInstanceGuestAgents API from Microsoft Azure — 2 operation(s) for vminstanceguestagents.
   name: Microsoft Azure VMInstanceGuestAgents API
   slug: microsoft-azure-vminstanceguestagents-api
-- description: The VmInstanceHybridIdentityMetadata API from Microsoft Azure — 2 operation(s) for vminstancehybrididentitymetadata.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VmInstanceHybridIdentityMetadata API from Microsoft Azure — 2 operation(s) for vminstancehybrididentitymetadata.
   name: Microsoft Azure VmInstanceHybridIdentityMetadata API
   slug: microsoft-azure-vminstancehybrididentitymetadata-api
-- description: The VmmServers API from Microsoft Azure — 3 operation(s) for vmmservers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VmmServers API from Microsoft Azure — 3 operation(s) for vmmservers.
   name: Microsoft Azure VmmServers API
   slug: microsoft-azure-vmmservers-api
-- description: The VmwareCollectorsOperations API from Microsoft Azure — 2 operation(s) for vmwarecollectorsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VmwareCollectorsOperations API from Microsoft Azure — 2 operation(s) for vmwarecollectorsoperations.
   name: Microsoft Azure VmwareCollectorsOperations API
   slug: microsoft-azure-vmwarecollectorsoperations-api
-- description: The VmwareHostController API from Microsoft Azure — 2 operation(s) for vmwarehostcontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VmwareHostController API from Microsoft Azure — 2 operation(s) for vmwarehostcontroller.
   name: Microsoft Azure VmwareHostController API
   slug: microsoft-azure-vmwarehostcontroller-api
-- description: The VmwareOperationsStatus API from Microsoft Azure — 1 operation(s) for vmwareoperationsstatus.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VmwareOperationsStatus API from Microsoft Azure — 1 operation(s) for vmwareoperationsstatus.
   name: Microsoft Azure VmwareOperationsStatus API
   slug: microsoft-azure-vmwareoperationsstatus-api
-- description: The VmwarePropertiesController API from Microsoft Azure — 4 operation(s) for vmwarepropertiescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VmwarePropertiesController API from Microsoft Azure — 4 operation(s) for vmwarepropertiescontroller.
   name: Microsoft Azure VmwarePropertiesController API
   slug: microsoft-azure-vmwarepropertiescontroller-api
-- description: The VmwareSoftwareInventoriesController API from Microsoft Azure — 2 operation(s) for vmwaresoftwareinventoriescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VmwareSoftwareInventoriesController API from Microsoft Azure — 2 operation(s) for vmwaresoftwareinventoriescontroller.
   name: Microsoft Azure VmwareSoftwareInventoriesController API
   slug: microsoft-azure-vmwaresoftwareinventoriescontroller-api
-- description: The vNetPeering API from Microsoft Azure — 2 operation(s) for vnetpeering.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The vNetPeering API from Microsoft Azure — 2 operation(s) for vnetpeering.
   name: Microsoft Azure vNetPeering API
   slug: microsoft-azure-vnetpeering-api
-- description: The Volume Groups API from Microsoft Azure — 2 operation(s) for volume groups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Volume Groups API from Microsoft Azure — 2 operation(s) for volume groups.
   name: Microsoft Azure Volume Groups API
   slug: microsoft-azure-volume-groups-api
-- description: The VolumeContainers API from Microsoft Azure — 4 operation(s) for volumecontainers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VolumeContainers API from Microsoft Azure — 4 operation(s) for volumecontainers.
   name: Microsoft Azure VolumeContainers API
   slug: microsoft-azure-volumecontainers-api
-- description: APIs for Volume Group operations.
-  name: Microsoft Azure VolumeGroups API
-  slug: microsoft-azure-volumegroups-api
-- description: The VolumeQuotaRules API from Microsoft Azure — 2 operation(s) for volumequotarules.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VolumeQuotaRules API from Microsoft Azure — 2 operation(s) for volumequotarules.
   name: Microsoft Azure VolumeQuotaRules API
   slug: microsoft-azure-volumequotarules-api
-- description: The Volumes API from Microsoft Azure — 15 operation(s) for volumes.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Volumes API from Microsoft Azure — 15 operation(s) for volumes.
   name: Microsoft Azure Volumes API
   slug: microsoft-azure-volumes-api
-- description: The Volumes OnPrem Migration API from Microsoft Azure — 3 operation(s) for volumes onprem migration.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Volumes OnPrem Migration API from Microsoft Azure — 3 operation(s) for volumes onprem migration.
   name: Microsoft Azure Volumes OnPrem Migration API
   slug: microsoft-azure-volumes-onprem-migration-api
-- description: The Volumes OnPrem Migration Finalize API from Microsoft Azure — 1 operation(s) for volumes onprem migration finalize.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Volumes OnPrem Migration Finalize API from Microsoft Azure — 1 operation(s) for volumes onprem migration finalize.
   name: Microsoft Azure Volumes OnPrem Migration Finalize API
   slug: microsoft-azure-volumes-onprem-migration-finalize-api
-- description: The Volumes Relocation API from Microsoft Azure — 3 operation(s) for volumes relocation.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Volumes Relocation API from Microsoft Azure — 3 operation(s) for volumes relocation.
   name: Microsoft Azure Volumes Relocation API
   slug: microsoft-azure-volumes-relocation-api
-- description: The Volumes Replication API from Microsoft Azure — 8 operation(s) for volumes replication.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Volumes Replication API from Microsoft Azure — 8 operation(s) for volumes replication.
   name: Microsoft Azure Volumes Replication API
   slug: microsoft-azure-volumes-replication-api
-- description: The Volumes Revert API from Microsoft Azure — 1 operation(s) for volumes revert.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Volumes Revert API from Microsoft Azure — 1 operation(s) for volumes revert.
   name: Microsoft Azure Volumes Revert API
   slug: microsoft-azure-volumes-revert-api
-- description: The VpnGateways API from Microsoft Azure — 4 operation(s) for vpngateways.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VpnGateways API from Microsoft Azure — 4 operation(s) for vpngateways.
   name: Microsoft Azure VpnGateways API
   slug: microsoft-azure-vpngateways-api
-- description: The vpnLinkConnections API from Microsoft Azure — 1 operation(s) for vpnlinkconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The vpnLinkConnections API from Microsoft Azure — 1 operation(s) for vpnlinkconnections.
   name: Microsoft Azure vpnLinkConnections API
   slug: microsoft-azure-vpnlinkconnections-api
-- description: The VpnServerConfigurations API from Microsoft Azure — 1 operation(s) for vpnserverconfigurations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VpnServerConfigurations API from Microsoft Azure — 1 operation(s) for vpnserverconfigurations.
   name: Microsoft Azure VpnServerConfigurations API
   slug: microsoft-azure-vpnserverconfigurations-api
-- description: The VpnSites API from Microsoft Azure — 1 operation(s) for vpnsites.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The VpnSites API from Microsoft Azure — 1 operation(s) for vpnsites.
   name: Microsoft Azure VpnSites API
   slug: microsoft-azure-vpnsites-api
-- description: The WaitStatistics API from Microsoft Azure — 2 operation(s) for waitstatistics.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WaitStatistics API from Microsoft Azure — 2 operation(s) for waitstatistics.
   name: Microsoft Azure WaitStatistics API
   slug: microsoft-azure-waitstatistics-api
-- description: The Watcher API from Microsoft Azure — 4 operation(s) for watcher.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Watcher API from Microsoft Azure — 4 operation(s) for watcher.
   name: Microsoft Azure Watcher API
   slug: microsoft-azure-watcher-api
-- description: The Watchers API from Microsoft Azure — 5 operation(s) for watchers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Watchers API from Microsoft Azure — 5 operation(s) for watchers.
   name: Microsoft Azure Watchers API
   slug: microsoft-azure-watchers-api
 - description: The Wayfinding API from Microsoft Azure — 1 operation(s) for wayfinding.
   name: Microsoft Azure Wayfinding API
   slug: microsoft-azure-wayfinding-api
-- description: The Weather API from Microsoft Azure — 11 operation(s) for weather.
+- baseURL: https://atlas.microsoft.com
+  baseurl_source: spec
+  description: The Weather API from Microsoft Azure — 11 operation(s) for weather.
   name: Microsoft Azure Weather API
   slug: microsoft-azure-weather-api
-- description: The WeatherData API from Microsoft Azure — 2 operation(s) for weatherdata.
-  name: Microsoft Azure WeatherData API
-  slug: microsoft-azure-weatherdata-api
-- description: The WebAppAssessmentOptionsOperations API from Microsoft Azure — 2 operation(s) for webappassessmentoptionsoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppAssessmentOptionsOperations API from Microsoft Azure — 2 operation(s) for webappassessmentoptionsoperations.
   name: Microsoft Azure WebAppAssessmentOptionsOperations API
   slug: microsoft-azure-webappassessmentoptionsoperations-api
-- description: The WebAppAssessmentV2Operations API from Microsoft Azure — 3 operation(s) for webappassessmentv2operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppAssessmentV2Operations API from Microsoft Azure — 3 operation(s) for webappassessmentv2operations.
   name: Microsoft Azure WebAppAssessmentV2Operations API
   slug: microsoft-azure-webappassessmentv2operations-api
-- description: The WebAppAssessmentV2SummaryOperations API from Microsoft Azure — 2 operation(s) for webappassessmentv2summaryoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppAssessmentV2SummaryOperations API from Microsoft Azure — 2 operation(s) for webappassessmentv2summaryoperations.
   name: Microsoft Azure WebAppAssessmentV2SummaryOperations API
   slug: microsoft-azure-webappassessmentv2summaryoperations-api
-- description: The WebAppCollectorOperations API from Microsoft Azure — 2 operation(s) for webappcollectoroperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppCollectorOperations API from Microsoft Azure — 2 operation(s) for webappcollectoroperations.
   name: Microsoft Azure WebAppCollectorOperations API
   slug: microsoft-azure-webappcollectoroperations-api
-- description: The WebAppDiscoverySiteDataSourcesController API from Microsoft Azure — 2 operation(s) for webappdiscoverysitedatasourcescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppDiscoverySiteDataSourcesController API from Microsoft Azure — 2 operation(s) for webappdiscoverysitedatasourcescontroller.
   name: Microsoft Azure WebAppDiscoverySiteDataSourcesController API
   slug: microsoft-azure-webappdiscoverysitedatasourcescontroller-api
-- description: The WebAppExtendedMachinesController API from Microsoft Azure — 2 operation(s) for webappextendedmachinescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppExtendedMachinesController API from Microsoft Azure — 2 operation(s) for webappextendedmachinescontroller.
   name: Microsoft Azure WebAppExtendedMachinesController API
   slug: microsoft-azure-webappextendedmachinescontroller-api
-- description: The WebApplicationFirewallManagedRuleSets API from Microsoft Azure — 1 operation(s) for webapplicationfirewallmanagedrulesets.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebApplicationFirewallManagedRuleSets API from Microsoft Azure — 1 operation(s) for webapplicationfirewallmanagedrulesets.
   name: Microsoft Azure WebApplicationFirewallManagedRuleSets API
   slug: microsoft-azure-webapplicationfirewallmanagedrulesets-api
-- description: The WebApplicationFirewallPolicies API from Microsoft Azure — 5 operation(s) for webapplicationfirewallpolicies.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebApplicationFirewallPolicies API from Microsoft Azure — 5 operation(s) for webapplicationfirewallpolicies.
   name: Microsoft Azure WebApplicationFirewallPolicies API
   slug: microsoft-azure-webapplicationfirewallpolicies-api
-- description: The WebApplicationsController API from Microsoft Azure — 1 operation(s) for webapplicationscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebApplicationsController API from Microsoft Azure — 1 operation(s) for webapplicationscontroller.
   name: Microsoft Azure WebApplicationsController API
   slug: microsoft-azure-webapplicationscontroller-api
-- description: The WebAppPropertiesController API from Microsoft Azure — 1 operation(s) for webapppropertiescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppPropertiesController API from Microsoft Azure — 1 operation(s) for webapppropertiescontroller.
   name: Microsoft Azure WebAppPropertiesController API
   slug: microsoft-azure-webapppropertiescontroller-api
-- description: The WebAppRunAsAccountsController API from Microsoft Azure — 2 operation(s) for webapprunasaccountscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppRunAsAccountsController API from Microsoft Azure — 2 operation(s) for webapprunasaccountscontroller.
   name: Microsoft Azure WebAppRunAsAccountsController API
   slug: microsoft-azure-webapprunasaccountscontroller-api
-- description: The WebApps API from Microsoft Azure — 295 operation(s) for webapps.
-  name: Microsoft Azure WebApps API
-  slug: microsoft-azure-webapps-api
-- description: The WebAppServicePlanV2Operations API from Microsoft Azure — 2 operation(s) for webappserviceplanv2operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppServicePlanV2Operations API from Microsoft Azure — 2 operation(s) for webappserviceplanv2operations.
   name: Microsoft Azure WebAppServicePlanV2Operations API
   slug: microsoft-azure-webappserviceplanv2operations-api
-- description: The WebAppSitesController API from Microsoft Azure — 6 operation(s) for webappsitescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebAppSitesController API from Microsoft Azure — 6 operation(s) for webappsitescontroller.
   name: Microsoft Azure WebAppSitesController API
   slug: microsoft-azure-webappsitescontroller-api
-- description: The Webhook API from Microsoft Azure — 3 operation(s) for webhook.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Webhook API from Microsoft Azure — 3 operation(s) for webhook.
   name: Microsoft Azure Webhook API
   slug: microsoft-azure-webhook-api
-- description: The Webpubsub API from Microsoft Azure — 39 operation(s) for webpubsub.
-  name: Microsoft Azure Webpubsub API
-  slug: microsoft-azure-webpubsub-api
-- description: The WebSearch API from Microsoft Azure — 1 operation(s) for websearch.
-  name: Microsoft Azure WebSearch API
-  slug: microsoft-azure-websearch-api
-- description: The WebServersController API from Microsoft Azure — 3 operation(s) for webserverscontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebServersController API from Microsoft Azure — 3 operation(s) for webserverscontroller.
   name: Microsoft Azure WebServersController API
   slug: microsoft-azure-webserverscontroller-api
-- description: The WebServices API from Microsoft Azure — 4 operation(s) for webservices.
-  name: Microsoft Azure WebServices API
-  slug: microsoft-azure-webservices-api
-- description: The WebSitesController API from Microsoft Azure — 2 operation(s) for websitescontroller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WebSitesController API from Microsoft Azure — 2 operation(s) for websitescontroller.
   name: Microsoft Azure WebSitesController API
   slug: microsoft-azure-websitescontroller-api
 - description: The .Well Known API from Microsoft Azure — 1 operation(s) for .well known.
@@ -5018,72 +6893,816 @@ apis:
 - description: The Widgets API from Microsoft Azure — 3 operation(s) for widgets.
   name: Microsoft Azure Widgets API
   slug: microsoft-azure-widgets-api
-- description: The WidgetTypes API from Microsoft Azure — 2 operation(s) for widgettypes.
-  name: Microsoft Azure WidgetTypes API
-  slug: microsoft-azure-widgettypes-api
-- description: Workflow controller.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Workflow controller.
   name: Microsoft Azure Workflow API
   slug: microsoft-azure-workflow-api
-- description: The Workflow Resource API from Microsoft Azure — 3 operation(s) for workflow resource.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Workflow Resource API from Microsoft Azure — 3 operation(s) for workflow resource.
   name: Microsoft Azure Workflow Resource API
   slug: microsoft-azure-workflow-resource-api
-- description: The WorkflowRunActions API from Microsoft Azure — 22 operation(s) for workflowrunactions.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkflowRunActions API from Microsoft Azure — 22 operation(s) for workflowrunactions.
   name: Microsoft Azure WorkflowRunActions API
   slug: microsoft-azure-workflowrunactions-api
-- description: The WorkflowRunOperations API from Microsoft Azure — 1 operation(s) for workflowrunoperations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkflowRunOperations API from Microsoft Azure — 1 operation(s) for workflowrunoperations.
   name: Microsoft Azure WorkflowRunOperations API
   slug: microsoft-azure-workflowrunoperations-api
-- description: The WorkflowRuns API from Microsoft Azure — 9 operation(s) for workflowruns.
-  name: Microsoft Azure WorkflowRuns API
-  slug: microsoft-azure-workflowruns-api
-- description: The Workflows API from Microsoft Azure — 16 operation(s) for workflows.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Workflows API from Microsoft Azure — 16 operation(s) for workflows.
   name: Microsoft Azure Workflows API
   slug: microsoft-azure-workflows-api
-- description: The WorkflowTasks API from Microsoft Azure — 6 operation(s) for workflowtasks.
-  name: Microsoft Azure WorkflowTasks API
-  slug: microsoft-azure-workflowtasks-api
-- description: The WorkflowTriggerHistories API from Microsoft Azure — 6 operation(s) for workflowtriggerhistories.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkflowTriggerHistories API from Microsoft Azure — 6 operation(s) for workflowtriggerhistories.
   name: Microsoft Azure WorkflowTriggerHistories API
   slug: microsoft-azure-workflowtriggerhistories-api
-- description: The WorkflowTriggers API from Microsoft Azure — 13 operation(s) for workflowtriggers.
-  name: Microsoft Azure WorkflowTriggers API
-  slug: microsoft-azure-workflowtriggers-api
-- description: The WorkflowVersions API from Microsoft Azure — 4 operation(s) for workflowversions.
-  name: Microsoft Azure WorkflowVersions API
-  slug: microsoft-azure-workflowversions-api
 - description: Workload deployments controller.
   name: Microsoft Azure WorkloadDeployment API
   slug: microsoft-azure-workloaddeployment-api
-- description: The WorkloadGroups API from Microsoft Azure — 2 operation(s) for workloadgroups.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkloadGroups API from Microsoft Azure — 2 operation(s) for workloadgroups.
   name: Microsoft Azure WorkloadGroups API
   slug: microsoft-azure-workloadgroups-api
 - description: Workload instance controller.
   name: Microsoft Azure WorkloadInstance API
   slug: microsoft-azure-workloadinstance-api
-- description: The WorkloadNetworks API from Microsoft Azure — 16 operation(s) for workloadnetworks.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkloadNetworks API from Microsoft Azure — 16 operation(s) for workloadnetworks.
   name: Microsoft Azure WorkloadNetworks API
   slug: microsoft-azure-workloadnetworks-api
-- description: The Workspace API from Microsoft Azure — 5 operation(s) for workspace.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Workspace API from Microsoft Azure — 5 operation(s) for workspace.
   name: Microsoft Azure Workspace API
   slug: microsoft-azure-workspace-api
-- description: The WorkspaceCollections API from Microsoft Azure — 7 operation(s) for workspacecollections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkspaceCollections API from Microsoft Azure — 7 operation(s) for workspacecollections.
   name: Microsoft Azure WorkspaceCollections API
   slug: microsoft-azure-workspacecollections-api
-- description: The WorkspacePolicy API from Microsoft Azure — 2 operation(s) for workspacepolicy.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkspacePolicy API from Microsoft Azure — 2 operation(s) for workspacepolicy.
   name: Microsoft Azure WorkspacePolicy API
   slug: microsoft-azure-workspacepolicy-api
-- description: The WorkspacePrivateEndpointConnections API from Microsoft Azure — 2 operation(s) for workspaceprivateendpointconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkspacePrivateEndpointConnections API from Microsoft Azure — 2 operation(s) for workspaceprivateendpointconnections.
   name: Microsoft Azure WorkspacePrivateEndpointConnections API
   slug: microsoft-azure-workspaceprivateendpointconnections-api
-- description: The WorkspacePrivateLinkResources API from Microsoft Azure — 1 operation(s) for workspaceprivatelinkresources.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The WorkspacePrivateLinkResources API from Microsoft Azure — 1 operation(s) for workspaceprivatelinkresources.
   name: Microsoft Azure WorkspacePrivateLinkResources API
   slug: microsoft-azure-workspaceprivatelinkresources-api
-- description: The Workspaces API from Microsoft Azure — 43 operation(s) for workspaces.
+- baseURL: /
+  baseurl_source: spec
+  description: The Workspaces API from Microsoft Azure — 43 operation(s) for workspaces.
   name: Microsoft Azure Workspaces API
   slug: microsoft-azure-workspaces-api
-- description: The Zones API from Microsoft Azure — 8 operation(s) for zones.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Zones API from Microsoft Azure — 8 operation(s) for zones.
   name: Microsoft Azure Zones API
   slug: microsoft-azure-zones-api
+- description: The Apis API from Microsoft Azure — 1 operation(s) for apis.
+  name: Microsoft Azure APIS API
+  slug: microsoft-azure-apis-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Access Control Records API from Microsoft Azure — 2 operation(s) for access control records.
+  name: Microsoft Azure Access Control Records API
+  slug: microsoft-azure-access-control-records-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Access Policies API from Microsoft Azure — 2 operation(s) for access policies.
+  name: Microsoft Azure Access Policies API
+  slug: microsoft-azure-access-policies-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Access Token API from Microsoft Azure — 2 operation(s) for access token.
+  name: Microsoft Azure Access Token API
+  slug: microsoft-azure-access-token-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Add Ons API from Microsoft Azure — 4 operation(s) for add ons.
+  name: Microsoft Azure Add Ons API
+  slug: microsoft-azure-add-ons-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Admin Keys API from Microsoft Azure — 2 operation(s) for admin keys.
+  name: Microsoft Azure Admin Keys API
+  slug: microsoft-azure-admin-keys-api
+- description: The Anomaly Detection API from Microsoft Azure — 8 operation(s) for anomaly detection.
+  name: Microsoft Azure Anomaly Detection API
+  slug: microsoft-azure-anomaly-detection-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The API Key API from Microsoft Azure — 4 operation(s) for api key.
+  name: Microsoft Azure API Key API
+  slug: microsoft-azure-api-key-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The API Tokens API from Microsoft Azure — 2 operation(s) for api tokens.
+  name: Microsoft Azure API Tokens API
+  slug: microsoft-azure-api-tokens-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Application Gateways API from Microsoft Azure — 5 operation(s) for application gateways.
+  name: Microsoft Azure Application Gateways API
+  slug: microsoft-azure-application-gateways-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Application Resources API from Microsoft Azure — 2 operation(s) for application resources.
+  name: Microsoft Azure Application Resources API
+  slug: microsoft-azure-application-resources-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Async Operations API from Microsoft Azure — 1 operation(s) for async operations.
+  name: Microsoft Azure Async Operations API
+  slug: microsoft-azure-async-operations-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Authorization Policies API from Microsoft Azure — 4 operation(s) for authorization policies.
+  name: Microsoft Azure Authorization Policies API
+  slug: microsoft-azure-authorization-policies-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Backup Jobs API from Microsoft Azure — 1 operation(s) for backup jobs.
+  name: Microsoft Azure Backup Jobs API
+  slug: microsoft-azure-backup-jobs-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Backup Policies API from Microsoft Azure — 6 operation(s) for backup policies.
+  name: Microsoft Azure Backup Policies API
+  slug: microsoft-azure-backup-policies-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Best Practices API from Microsoft Azure — 2 operation(s) for best practices.
+  name: Microsoft Azure Best Practices API
+  slug: microsoft-azure-best-practices-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Billing Periods API from Microsoft Azure — 2 operation(s) for billing periods.
+  name: Microsoft Azure Billing Periods API
+  slug: microsoft-azure-billing-periods-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Business Processes API from Microsoft Azure — 2 operation(s) for business processes.
+  name: Microsoft Azure Business Processes API
+  slug: microsoft-azure-business-processes-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Certificate Profiles API from Microsoft Azure — 3 operation(s) for certificate profiles.
+  name: Microsoft Azure Certificate Profiles API
+  slug: microsoft-azure-certificate-profiles-api
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The Classification Rules API from Microsoft Azure — 4 operation(s) for classification rules.
+  name: Microsoft Azure Classification Rules API
+  slug: microsoft-azure-classification-rules-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Cloud Connections API from Microsoft Azure — 3 operation(s) for cloud connections.
+  name: Microsoft Azure Cloud Connections API
+  slug: microsoft-azure-cloud-connections-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Cloud Connectors API from Microsoft Azure — 4 operation(s) for cloud connectors.
+  name: Microsoft Azure Cloud Connectors API
+  slug: microsoft-azure-cloud-connectors-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Commitment Plans API from Microsoft Azure — 4 operation(s) for commitment plans.
+  name: Microsoft Azure Commitment Plans API
+  slug: microsoft-azure-commitment-plans-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Configuration Profiles API from Microsoft Azure — 3 operation(s) for configuration profiles.
+  name: Microsoft Azure Configuration Profiles API
+  slug: microsoft-azure-configuration-profiles-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Container Apps API from Microsoft Azure — 4 operation(s) for container apps.
+  name: Microsoft Azure Container Apps API
+  slug: microsoft-azure-container-apps-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Container Logs API from Microsoft Azure — 1 operation(s) for container logs.
+  name: Microsoft Azure Container Logs API
+  slug: microsoft-azure-container-logs-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Custom Domains API from Microsoft Azure — 4 operation(s) for custom domains.
+  name: Microsoft Azure Custom Domains API
+  slug: microsoft-azure-custom-domains-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Data Collection Endpoints API from Microsoft Azure — 3 operation(s) for data collection endpoints.
+  name: Microsoft Azure Data Collection Endpoints API
+  slug: microsoft-azure-data-collection-endpoints-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Data Connectors API from Microsoft Azure — 2 operation(s) for data connectors.
+  name: Microsoft Azure Data Connectors API
+  slug: microsoft-azure-data-connectors-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The Data Export API from Microsoft Azure — 6 operation(s) for data export.
+  name: Microsoft Azure Data Export API
+  slug: microsoft-azure-data-export-api
+- description: The Data Feed API from Microsoft Azure — 2 operation(s) for data feed.
+  name: Microsoft Azure Data Feed API
+  slug: microsoft-azure-data-feed-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Data Pools API from Microsoft Azure — 2 operation(s) for data pools.
+  name: Microsoft Azure Data Pools API
+  slug: microsoft-azure-data-pools-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Data Products API from Microsoft Azure — 8 operation(s) for data products.
+  name: Microsoft Azure Data Products API
+  slug: microsoft-azure-data-products-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Data Services API from Microsoft Azure — 2 operation(s) for data services.
+  name: Microsoft Azure Data Services API
+  slug: microsoft-azure-data-services-api
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The Data Sources API from Microsoft Azure — 3 operation(s) for data sources.
+  name: Microsoft Azure Data Sources API
+  slug: microsoft-azure-data-sources-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Data Types API from Microsoft Azure — 4 operation(s) for data types.
+  name: Microsoft Azure Data Types API
+  slug: microsoft-azure-data-types-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Deployment Info API from Microsoft Azure — 2 operation(s) for deployment info.
+  name: Microsoft Azure Deployment Info API
+  slug: microsoft-azure-deployment-info-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Deployment Operations API from Microsoft Azure — 10 operation(s) for deployment operations.
+  name: Microsoft Azure Deployment Operations API
+  slug: microsoft-azure-deployment-operations-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Deployment Settings API from Microsoft Azure — 2 operation(s) for deployment settings.
+  name: Microsoft Azure Deployment Settings API
+  slug: microsoft-azure-deployment-settings-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Dev Ops API from Microsoft Azure — 22 operation(s) for dev ops.
+  name: Microsoft Azure Dev Ops API
+  slug: microsoft-azure-dev-ops-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The Device Groups API from Microsoft Azure — 7 operation(s) for device groups.
+  name: Microsoft Azure Device Groups API
+  slug: microsoft-azure-device-groups-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The Device Templates API from Microsoft Azure — 2 operation(s) for device templates.
+  name: Microsoft Azure Device Templates API
+  slug: microsoft-azure-device-templates-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Diagnostic Settings API from Microsoft Azure — 2 operation(s) for diagnostic settings.
+  name: Microsoft Azure Diagnostic Settings API
+  slug: microsoft-azure-diagnostic-settings-api
+- description: The Document Classifiers API from Microsoft Azure — 4 operation(s) for document classifiers.
+  name: Microsoft Azure Document Classifiers API
+  slug: microsoft-azure-document-classifiers-api
+- description: The Document Classifiers:build API from Microsoft Azure — 1 operation(s) for document classifiers:build.
+  name: Microsoft Azure Document Classifiers:build API
+  slug: microsoft-azure-document-classifiers-build-api
+- description: The Document Models API from Microsoft Azure — 5 operation(s) for document models.
+  name: Microsoft Azure Document Models API
+  slug: microsoft-azure-document-models-api
+- description: The Document Models:authorize Copy API from Microsoft Azure — 1 operation(s) for document models:authorize copy.
+  name: Microsoft Azure Document Models:authorize Copy API
+  slug: microsoft-azure-document-models-authorize-copy-api
+- description: The Document Models:build API from Microsoft Azure — 1 operation(s) for document models:build.
+  name: Microsoft Azure Document Models:build API
+  slug: microsoft-azure-document-models-build-api
+- description: The Document Models:compose API from Microsoft Azure — 1 operation(s) for document models:compose.
+  name: Microsoft Azure Document Models:compose API
+  slug: microsoft-azure-document-models-compose-api
+- baseURL: https://southcentralus.api.cognitive.microsoft.com/customvision/v3.3/training
+  baseurl_source: spec
+  description: The Domains API API from Microsoft Azure — 2 operation(s) for domains api.
+  name: Microsoft Azure Domains API
+  slug: microsoft-azure-domains-api-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Edge Nodes API from Microsoft Azure — 1 operation(s) for edge nodes.
+  name: Microsoft Azure Edge Nodes API
+  slug: microsoft-azure-edge-nodes-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Email configuration Controller.
+  name: Microsoft Azure Email Configuration API
+  slug: microsoft-azure-email-configuration-api
+- description: The Endpoint Settings API from Microsoft Azure — 1 operation(s) for endpoint settings.
+  name: Microsoft Azure Endpoint Settings API
+  slug: microsoft-azure-endpoint-settings-api
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The Entity Search API from Microsoft Azure — 1 operation(s) for entity search.
+  name: Microsoft Azure Entity Search API
+  slug: microsoft-azure-entity-search-api
+- description: The Environment Operations API from Microsoft Azure — 3 operation(s) for environment operations.
+  name: Microsoft Azure Environment Operations API
+  slug: microsoft-azure-environment-operations-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Environment Settings API from Microsoft Azure — 6 operation(s) for environment settings.
+  name: Microsoft Azure Environment Settings API
+  slug: microsoft-azure-environment-settings-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Event Sources API from Microsoft Azure — 2 operation(s) for event sources.
+  name: Microsoft Azure Event Sources API
+  slug: microsoft-azure-event-sources-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Event Subscriptions API from Microsoft Azure — 33 operation(s) for event subscriptions.
+  name: Microsoft Azure Event Subscriptions API
+  slug: microsoft-azure-event-subscriptions-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Events Controller API from Microsoft Azure — 2 operation(s) for events controller.
+  name: Microsoft Azure Events Controller API
+  slug: microsoft-azure-events-controller-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The ExpressRoute Circuits API from Microsoft Azure — 6 operation(s) for expressroute circuits.
+  name: Microsoft Azure ExpressRoute Circuits API
+  slug: microsoft-azure-expressroute-circuits-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The File Servers API from Microsoft Azure — 6 operation(s) for file servers.
+  name: Microsoft Azure File Servers API
+  slug: microsoft-azure-file-servers-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The File Shares API from Microsoft Azure — 5 operation(s) for file shares.
+  name: Microsoft Azure File Shares API
+  slug: microsoft-azure-file-shares-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The File Uploads API from Microsoft Azure — 1 operation(s) for file uploads.
+  name: Microsoft Azure File Uploads API
+  slug: microsoft-azure-file-uploads-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Firewall Rules API from Microsoft Azure — 16 operation(s) for firewall rules.
+  name: Microsoft Azure Firewall Rules API
+  slug: microsoft-azure-firewall-rules-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Forwarding Rules API from Microsoft Azure — 2 operation(s) for forwarding rules.
+  name: Microsoft Azure Forwarding Rules API
+  slug: microsoft-azure-forwarding-rules-api
+- baseURL: /vision/v1.0
+  baseurl_source: spec
+  description: The Generate Thumbnail API from Microsoft Azure — 1 operation(s) for generate thumbnail.
+  name: Microsoft Azure Generate Thumbnail API
+  slug: microsoft-azure-generate-thumbnail-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Graph Query API from Microsoft Azure — 2 operation(s) for graph query.
+  name: Microsoft Azure Graph Query API
+  slug: microsoft-azure-graph-query-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Groundstation API from Microsoft Azure — 3 operation(s) for groundstation.
+  name: Microsoft Azure Groundstation API
+  slug: microsoft-azure-groundstation-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Group User API from Microsoft Azure — 2 operation(s) for group user.
+  name: Microsoft Azure Group User API
+  slug: microsoft-azure-group-user-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Heat Maps API from Microsoft Azure — 1 operation(s) for heat maps.
+  name: Microsoft Azure Heat Maps API
+  slug: microsoft-azure-heat-maps-api
+- baseURL: https://southcentralus.api.cognitive.microsoft.com/customvision/v3.3/training
+  baseurl_source: spec
+  description: The Image API API from Microsoft Azure — 15 operation(s) for image api.
+  name: Microsoft Azure Image API
+  slug: microsoft-azure-image-api-api
+- description: The Image Processing API from Microsoft Azure — 1 operation(s) for image processing.
+  name: Microsoft Azure Image Processing API
+  slug: microsoft-azure-image-processing-api
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The Image Search API from Microsoft Azure — 1 operation(s) for image search.
+  name: Microsoft Azure Image Search API
+  slug: microsoft-azure-image-search-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Import Export API from Microsoft Azure — 3 operation(s) for import export.
+  name: Microsoft Azure Import Export API
+  slug: microsoft-azure-import-export-api
+- baseURL: https://digitaltwins-hostname
+  baseurl_source: spec
+  description: The Import Jobs API from Microsoft Azure — 3 operation(s) for import jobs.
+  name: Microsoft Azure Import Jobs API
+  slug: microsoft-azure-import-jobs-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Infrastructure Resources API from Microsoft Azure — 2 operation(s) for infrastructure resources.
+  name: Microsoft Azure Infrastructure Resources API
+  slug: microsoft-azure-infrastructure-resources-api
+- description: The ingestion > status API from Microsoft Azure — 3 operation(s) for ingestion > status.
+  name: Microsoft Azure ingestion > status API
+  slug: microsoft-azure-ingestion-status-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Inventory Items API from Microsoft Azure — 4 operation(s) for inventory items.
+  name: Microsoft Azure Inventory Items API
+  slug: microsoft-azure-inventory-items-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Job Definitions API from Microsoft Azure — 8 operation(s) for job definitions.
+  name: Microsoft Azure Job Definitions API
+  slug: microsoft-azure-job-definitions-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Job Details API from Microsoft Azure — 1 operation(s) for job details.
+  name: Microsoft Azure Job Details API
+  slug: microsoft-azure-job-details-api
+- description: The Knowledge Bases API from Microsoft Azure — 6 operation(s) for knowledge bases.
+  name: Microsoft Azure Knowledge Bases API
+  slug: microsoft-azure-knowledge-bases-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Load Balancers API from Microsoft Azure — 5 operation(s) for load balancers.
+  name: Microsoft Azure Load Balancers API
+  slug: microsoft-azure-load-balancers-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Load Tests API from Microsoft Azure — 3 operation(s) for load tests.
+  name: Microsoft Azure Load Tests API
+  slug: microsoft-azure-load-tests-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Machine Groups API from Microsoft Azure — 3 operation(s) for machine groups.
+  name: Microsoft Azure Machine Groups API
+  slug: microsoft-azure-machine-groups-api
+- description: The Map Data API from Microsoft Azure — 3 operation(s) for map data.
+  name: Microsoft Azure Map Data API
+  slug: microsoft-azure-map-data-api
+- baseURL: /policyStore
+  baseurl_source: spec
+  description: The Metadata Policy API from Microsoft Azure — 2 operation(s) for metadata policy.
+  name: Microsoft Azure Metadata Policy API
+  slug: microsoft-azure-metadata-policy-api
+- baseURL: /policyStore
+  baseurl_source: spec
+  description: The Metadata Roles API from Microsoft Azure — 1 operation(s) for metadata roles.
+  name: Microsoft Azure Metadata Roles API
+  slug: microsoft-azure-metadata-roles-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Metric Definitions API from Microsoft Azure — 2 operation(s) for metric definitions.
+  name: Microsoft Azure Metric Definitions API
+  slug: microsoft-azure-metric-definitions-api
+- description: The Model Management API from Microsoft Azure — 2 operation(s) for model management.
+  name: Microsoft Azure Model Management API
+  slug: microsoft-azure-model-management-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Monitored Resources API from Microsoft Azure — 2 operation(s) for monitored resources.
+  name: Microsoft Azure Monitored Resources API
+  slug: microsoft-azure-monitored-resources-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Network Interfaces API from Microsoft Azure — 6 operation(s) for network interfaces.
+  name: Microsoft Azure Network Interfaces API
+  slug: microsoft-azure-network-interfaces-api
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The News Category API from Microsoft Azure — 1 operation(s) for news category.
+  name: Microsoft Azure News Category API
+  slug: microsoft-azure-news-category-api
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The News Search API from Microsoft Azure — 1 operation(s) for news search.
+  name: Microsoft Azure News Search API
+  slug: microsoft-azure-news-search-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Node Type API from Microsoft Azure — 6 operation(s) for node type.
+  name: Microsoft Azure Node Type API
+  slug: microsoft-azure-node-type-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Notification Channels API from Microsoft Azure — 3 operation(s) for notification channels.
+  name: Microsoft Azure Notification Channels API
+  slug: microsoft-azure-notification-channels-api
+- description: The OAuth Providers API from Microsoft Azure — 3 operation(s) for oauth providers.
+  name: Microsoft Azure OAuth Providers API
+  slug: microsoft-azure-oauth-providers-api
+- description: The OAuth Tokens API from Microsoft Azure — 3 operation(s) for oauth tokens.
+  name: Microsoft Azure OAuth Tokens API
+  slug: microsoft-azure-oauth-tokens-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Order Items API from Microsoft Azure — 5 operation(s) for order items.
+  name: Microsoft Azure Order Items API
+  slug: microsoft-azure-order-items-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Partner Configurations API from Microsoft Azure — 5 operation(s) for partner configurations.
+  name: Microsoft Azure Partner Configurations API
+  slug: microsoft-azure-partner-configurations-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Payment Methods API from Microsoft Azure — 6 operation(s) for payment methods.
+  name: Microsoft Azure Payment Methods API
+  slug: microsoft-azure-payment-methods-api
+- description: The Person Groups API from Microsoft Azure — 8 operation(s) for person groups.
+  name: Microsoft Azure Person Groups API
+  slug: microsoft-azure-person-groups-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Policy Sets API from Microsoft Azure — 1 operation(s) for policy sets.
+  name: Microsoft Azure Policy Sets API
+  slug: microsoft-azure-policy-sets-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Private Endpoint Connection API from Microsoft Azure — 5 operation(s) for private endpoint connection.
+  name: Microsoft Azure Private Endpoint Connection API
+  slug: microsoft-azure-private-endpoint-connection-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Private Endpoint Connections API from Microsoft Azure — 36 operation(s) for private endpoint connections.
+  name: Microsoft Azure Private Endpoint Connections API
+  slug: microsoft-azure-private-endpoint-connections-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Private Link API from Microsoft Azure — 10 operation(s) for private link.
+  name: Microsoft Azure Private Link API
+  slug: microsoft-azure-private-link-api
+- baseURL: https://southcentralus.api.cognitive.microsoft.com/customvision/v3.3/training
+  baseurl_source: spec
+  description: The Project API API from Microsoft Azure — 13 operation(s) for project api.
+  name: Microsoft Azure Project API
+  slug: microsoft-azure-project-api-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Protection Policies API from Microsoft Azure — 1 operation(s) for protection policies.
+  name: Microsoft Azure Protection Policies API
+  slug: microsoft-azure-protection-policies-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Public Keys API from Microsoft Azure — 2 operation(s) for public keys.
+  name: Microsoft Azure Public Keys API
+  slug: microsoft-azure-public-keys-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Rate Card API from Microsoft Azure — 1 operation(s) for rate card.
+  name: Microsoft Azure Rate Card API
+  slug: microsoft-azure-rate-card-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Recovery Points API from Microsoft Azure — 4 operation(s) for recovery points.
+  name: Microsoft Azure Recovery Points API
+  slug: microsoft-azure-recovery-points-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Reference Data Sets API from Microsoft Azure — 2 operation(s) for reference data sets.
+  name: Microsoft Azure Reference Data Sets API
+  slug: microsoft-azure-reference-data-sets-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Replication Policies API from Microsoft Azure — 2 operation(s) for replication policies.
+  name: Microsoft Azure Replication Policies API
+  slug: microsoft-azure-replication-policies-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Resource Actions API from Microsoft Azure — 1 operation(s) for resource actions.
+  name: Microsoft Azure Resource Actions API
+  slug: microsoft-azure-resource-actions-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Resource Links API from Microsoft Azure — 3 operation(s) for resource links.
+  name: Microsoft Azure Resource Links API
+  slug: microsoft-azure-resource-links-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Resource Pools API from Microsoft Azure — 5 operation(s) for resource pools.
+  name: Microsoft Azure Resource Pools API
+  slug: microsoft-azure-resource-pools-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Role Assignments API from Microsoft Azure — 2 operation(s) for role assignments.
+  name: Microsoft Azure Role Assignments API
+  slug: microsoft-azure-role-assignments-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Route Tables API from Microsoft Azure — 3 operation(s) for route tables.
+  name: Microsoft Azure Route Tables API
+  slug: microsoft-azure-route-tables-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Routing Rules API from Microsoft Azure — 2 operation(s) for routing rules.
+  name: Microsoft Azure Routing Rules API
+  slug: microsoft-azure-routing-rules-api
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The Scan Result API from Microsoft Azure — 3 operation(s) for scan result.
+  name: Microsoft Azure Scan Result API
+  slug: microsoft-azure-scan-result-api
+- baseURL: https://purview.azure.com/scan
+  baseurl_source: spec
+  description: The Scan Rulesets API from Microsoft Azure — 2 operation(s) for scan rulesets.
+  name: Microsoft Azure Scan Rulesets API
+  slug: microsoft-azure-scan-rulesets-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Scheduled Events API from Microsoft Azure — 1 operation(s) for scheduled events.
+  name: Microsoft Azure Scheduled Events API
+  slug: microsoft-azure-scheduled-events-api
+- baseURL: /api
+  baseurl_source: spec
+  description: The Scheduled Jobs API from Microsoft Azure — 3 operation(s) for scheduled jobs.
+  name: Microsoft Azure Scheduled Jobs API
+  slug: microsoft-azure-scheduled-jobs-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Scheduled Query Rules API from Microsoft Azure — 5 operation(s) for scheduled query rules.
+  name: Microsoft Azure Scheduled Query Rules API
+  slug: microsoft-azure-scheduled-query-rules-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Security alert API from Microsoft Azure — 1 operation(s) for security alert.
+  name: Microsoft Azure Security alert API
+  slug: microsoft-azure-security-alert-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Security Rules API from Microsoft Azure — 2 operation(s) for security rules.
+  name: Microsoft Azure Security Rules API
+  slug: microsoft-azure-security-rules-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Server Groups API from Microsoft Azure — 4 operation(s) for server groups.
+  name: Microsoft Azure Server Groups API
+  slug: microsoft-azure-server-groups-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Service Principals API from Microsoft Azure — 2 operation(s) for service principals.
+  name: Microsoft Azure Service Principals API
+  slug: microsoft-azure-service-principals-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Single Sign On API from Microsoft Azure — 6 operation(s) for single sign on.
+  name: Microsoft Azure Single Sign On API
+  slug: microsoft-azure-single-sign-on-api
+- description: The SIP Configuration API from Microsoft Azure — 1 operation(s) for sip configuration.
+  name: Microsoft Azure SIP Configuration API
+  slug: microsoft-azure-sip-configuration-api
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The Spell Check API from Microsoft Azure — 1 operation(s) for spell check.
+  name: Microsoft Azure Spell Check API
+  slug: microsoft-azure-spell-check-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Static Sites API from Microsoft Azure — 51 operation(s) for static sites.
+  name: Microsoft Azure Static Sites API
+  slug: microsoft-azure-static-sites-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Sub Account API from Microsoft Azure — 3 operation(s) for sub account.
+  name: Microsoft Azure Sub Account API
+  slug: microsoft-azure-sub-account-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Support Tickets API from Microsoft Azure — 6 operation(s) for support tickets.
+  name: Microsoft Azure Support Tickets API
+  slug: microsoft-azure-support-tickets-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Tag Rules API from Microsoft Azure — 8 operation(s) for tag rules.
+  name: Microsoft Azure Tag Rules API
+  slug: microsoft-azure-tag-rules-api
+- baseURL: https://southcentralus.api.cognitive.microsoft.com/customvision/v3.3/training
+  baseurl_source: spec
+  description: The Tags API API from Microsoft Azure — 2 operation(s) for tags api.
+  name: Microsoft Azure Tags API
+  slug: microsoft-azure-tags-api-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Template Spec Versions API from Microsoft Azure — 2 operation(s) for template spec versions.
+  name: Microsoft Azure Template Spec Versions API
+  slug: microsoft-azure-template-spec-versions-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Template Specs API from Microsoft Azure — 3 operation(s) for template specs.
+  name: Microsoft Azure Template Specs API
+  slug: microsoft-azure-template-specs-api
+- description: The Test Run API from Microsoft Azure — 16 operation(s) for test run.
+  name: Microsoft Azure Test Run API
+  slug: microsoft-azure-test-run-api
+- description: The Time Series API from Microsoft Azure — 3 operation(s) for time series.
+  name: Microsoft Azure Time Series API
+  slug: microsoft-azure-time-series-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Traffic Filter API from Microsoft Azure — 8 operation(s) for traffic filter.
+  name: Microsoft Azure Traffic Filter API
+  slug: microsoft-azure-traffic-filter-api
+- baseURL: https://purview.azure.com/workflow
+  baseurl_source: spec
+  description: The User Requests API from Microsoft Azure — 1 operation(s) for user requests.
+  name: Microsoft Azure User Requests API
+  slug: microsoft-azure-user-requests-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The User Session API from Microsoft Azure — 5 operation(s) for user session.
+  name: Microsoft Azure User Session API
+  slug: microsoft-azure-user-session-api
+- baseURL: https://api.cognitive.microsoft.com/bing/v7.0
+  baseurl_source: spec
+  description: The Video Search API from Microsoft Azure — 1 operation(s) for video search.
+  name: Microsoft Azure Video Search API
+  slug: microsoft-azure-video-search-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The virtual machine API from Microsoft Azure — 7 operation(s) for virtual machine.
+  name: Microsoft Azure virtual machine API
+  slug: microsoft-azure-virtual-machine-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Virtual Machines API from Microsoft Azure — 41 operation(s) for virtual machines.
+  name: Microsoft Azure Virtual Machines API
+  slug: microsoft-azure-virtual-machines-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Virtual Networks API from Microsoft Azure — 13 operation(s) for virtual networks.
+  name: Microsoft Azure Virtual Networks API
+  slug: microsoft-azure-virtual-networks-api
+- description: The Weather Data API from Microsoft Azure — 2 operation(s) for weather data.
+  name: Microsoft Azure Weather Data API
+  slug: microsoft-azure-weather-data-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Web Apps API from Microsoft Azure — 295 operation(s) for web apps.
+  name: Microsoft Azure Web Apps API
+  slug: microsoft-azure-web-apps-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Web Pub Sub API from Microsoft Azure — 39 operation(s) for web pub sub.
+  name: Microsoft Azure Web Pub Sub API
+  slug: microsoft-azure-web-pub-sub-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Web Services API from Microsoft Azure — 4 operation(s) for web services.
+  name: Microsoft Azure Web Services API
+  slug: microsoft-azure-web-services-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The widget types API from Microsoft Azure — 2 operation(s) for widget types.
+  name: Microsoft Azure widget types API
+  slug: microsoft-azure-widget-types-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Workflow Runs API from Microsoft Azure — 9 operation(s) for workflow runs.
+  name: Microsoft Azure Workflow Runs API
+  slug: microsoft-azure-workflow-runs-api
+- baseURL: https://purview.azure.com/workflow
+  baseurl_source: spec
+  description: The Workflow Tasks API from Microsoft Azure — 6 operation(s) for workflow tasks.
+  name: Microsoft Azure Workflow Tasks API
+  slug: microsoft-azure-workflow-tasks-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Workflow Triggers API from Microsoft Azure — 13 operation(s) for workflow triggers.
+  name: Microsoft Azure Workflow Triggers API
+  slug: microsoft-azure-workflow-triggers-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Workflow Versions API from Microsoft Azure — 4 operation(s) for workflow versions.
+  name: Microsoft Azure Workflow Versions API
+  slug: microsoft-azure-workflow-versions-api
 arazzos:
 - description: Confirm a subscription is enabled, list all its resources, and read its predefined tag names.
   name: Microsoft Azure Audit Subscription Resources
@@ -5127,7 +7746,7 @@ arazzos:
 - description: Read a resource group, apply new tags with a patch, and confirm the tags were written.
   name: Microsoft Azure Tag an Existing Resource Group
   slug: microsoft-azure-tag-resource-group-workflow
-artifact_total: 4563
+artifact_total: 4540
 asyncapis:
 - description: ''
   name: Microsoft Azure Event Grid Webhooks
@@ -14004,11 +16623,11 @@ mcp_servers:
 - description: ''
   name: Microsoft Azure MCP Server
   slug: microsoft-azure-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Microsoft Azure
 nav: Providers
 network: true
-overview: 'Microsoft Azure publishes 1659 APIs on the [APIs.io](https://apis.io/) network, including AccessConnector API, AccessControlRecords API, AccessPolicies API, and 1656 more. Tagged areas include API Management, Cloud, Cloud Computing, Enterprise, and Infrastructure-as-a-Service.
+overview: 'Microsoft Azure publishes 1636 APIs on the [APIs.io](https://apis.io/) network, including AccessConnector API, AccessReviewInstanceAcceptRecommmendations API, AccessReviewInstanceApplyDecisions API, and 1633 more. Tagged areas include API Management, Cloud, Cloud Computing, Enterprise, and Infrastructure-as-a-Service.
 
 
   The Microsoft Azure catalog on APIs.io includes 1 event-driven AsyncAPI specification, 9 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -14019,7 +16638,7 @@ plans:
 - name: Microsoft Azure Plans Pricing
   plan_count: 3
   slug: microsoft-azure-plans-pricing
-random_paper: 3
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Microsoft Azure Rate Limits
@@ -14053,7 +16672,7 @@ scopes:
   summary_line: 25 scopes · implicit/authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 73.3
+  composite: 74.9
   coverage:
     artifact_dirs: 33
     catalog_earned: 62.5
@@ -14061,11 +16680,11 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 68.4
     contract_governance: 33.3
-    contract_quality: 69.9
+    contract_quality: 76.2
     developer_ergonomics: 74.4
     discoverability: 57.4
     operational_transparency: 63.2
@@ -14074,14 +16693,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.8
+      callable: 79.9
       derived: 0
       marker_coverage: 0.0
-      total: 1659
+      total: 1636
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

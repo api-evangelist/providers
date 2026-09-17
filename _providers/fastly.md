@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 7
@@ -382,11 +382,6 @@ apis:
   slug: fastly-sudo-mode-api
 - baseURL: https://api.fastly.com
   baseurl_source: declared
-  description: The Timeseries API from Fastly — 1 operation(s) for timeseries.
-  name: Fastly Timeseries API
-  slug: fastly-timeseries-api
-- baseURL: https://api.fastly.com
-  baseurl_source: declared
   description: Operations for managing TLS activations that enable TLS traffic termination for specific domains using custom certificates.
   name: Fastly TLS Activations API
   slug: fastly-tls-activations-api
@@ -445,6 +440,11 @@ apis:
   description: The Websites API from Fastly — 2 operation(s) for websites.
   name: Fastly Websites API
   slug: fastly-websites-api
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Time Series API from Fastly — 1 operation(s) for time series.
+  name: Fastly Time Series API
+  slug: fastly-time-series-api
 arazzos:
 - description: Clone the active version, create a cache settings rule, then activate the new version.
   name: Fastly Add Cache Settings
@@ -1511,7 +1511,7 @@ plans:
 - name: Fastly Plans Pricing
   plan_count: 12
   slug: fastly-plans-pricing
-random_paper: 8
+random_paper: 21
 rate_limits:
 - limit_count: 13
   name: Fastly Rate Limits
@@ -1576,7 +1576,7 @@ score:
       marker_coverage: 0.0
       total: 81
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

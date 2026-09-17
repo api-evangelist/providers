@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 24
@@ -146,12 +146,17 @@ apis:
   description: The Teams and Permissions API from Acquia — 10 operation(s) for teams and permissions.
   name: Acquia Teams and Permissions API
   slug: acquia-teams-and-permissions-api
-- baseURL: '{siteUrl}/api'
+- baseURL: https://cloud.acquia.com/api
   baseurl_source: declared
-  description: 'The stable JSON:API 1.1 surface shared by every Acquia Source CMS site, plus the OAuth 2.0 endpoints that issue the tokens it accepts. Ten operations cover token issuance, the authorization redirect, '
+  description: OAuth 2.0 token and authorization endpoints.
+  name: Acquia Authentication API
+  slug: acquia-authentication-api
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: JSON:API resource endpoints for reading and writing entries.
   name: Acquia Content API
   slug: acquia-content-api
-artifact_total: 126
+artifact_total: 127
 asyncapis:
 - description: ''
   name: Acquia Source Cms Webhooks
@@ -278,6 +283,11 @@ collections:
   name: Acquia Cloud API Account Teams and Permissions API
   slug: open-acquia-teams-and-permissions-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/overlays/acquia-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/acquia-content-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -656,18 +666,18 @@ modified: '2026-08-30'
 name: Acquia
 nav: Providers
 network: true
-overview: 'Acquia publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agreements API, Application Performance Monitoring Services API, and 17 more. Tagged areas include Content, Experience, Drupal, DXP, and CMS.
+overview: 'Acquia publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agreements API, Application Performance Monitoring Services API, and 18 more. Tagged areas include Content, Experience, Drupal, DXP, and CMS.
 
 
   The Acquia catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Acquia''s developer surface includes authentication, engineering blog, developer portal, support, signup flow, CLI, changelog, and 42 more developer resources.'
+  Acquia''s developer surface includes authentication, engineering blog, developer portal, support, signup flow, CLI, changelog, and 43 more developer resources.'
 plans:
 - name: Acquia Plans Pricing
   plan_count: 8
   slug: acquia-plans-pricing
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Acquia Rate Limits
@@ -701,7 +711,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 75.8
+  composite: 74.5
   coverage:
     artifact_dirs: 32
     catalog_earned: 70.5
@@ -709,11 +719,11 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 72.5
+    contract_quality: 67.4
     developer_ergonomics: 73.8
     discoverability: 72.2
     operational_transparency: 65.8
@@ -722,14 +732,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 94.7
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 20
+      total: 21
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

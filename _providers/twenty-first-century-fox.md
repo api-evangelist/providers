@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ press:
 - date: '2026-05-25'
   title: Strategic Analysis of Disney's Acquisition of 21st Century Fox
   url: https://www.researchgate.net/publication/391517273_Strategic_Analysis_of_Disney's_Acquisition_of_21st_Century_Fox_Market_Expansion_Synergies_and_Competitive_Impacts
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
   composite: 5.0
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

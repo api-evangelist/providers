@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,8 +48,8 @@ modified: '2026-07-21'
 name: Standard Signal
 nav: Providers
 network: true
-overview: Standard Signal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Hedge Fund, Fintech, and Trading.
-random_paper: 20
+overview: Standard Signal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Hedge Funds, Fintech, and Trading.
+random_paper: 14
 score:
   band: minimal
   composite: 0.0
@@ -82,7 +82,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -93,7 +93,7 @@ slug: standard-signal
 tags:
 - Company
 - Artificial Intelligence
-- Hedge Fund
+- Hedge Funds
 - Fintech
 - Trading
 - Autonomous Agents

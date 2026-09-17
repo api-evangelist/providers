@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 69.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -35,15 +35,54 @@ api_count: 1
 apis:
 - baseURL: https://api.publora.com/api/v1
   baseurl_source: declared
-  description: REST API and remote MCP server for scheduling and publishing social media posts across ten platforms from one integration, with media uploads, per-platform settings, HMAC-signed webhooks, LinkedIn ana
-  name: Publora API
-  slug: publora-api
-artifact_total: 8
+  description: Manage platform connections
+  name: Publora Connections API
+  slug: publora-connections-api
+- baseURL: https://api.publora.com/api/v1
+  baseurl_source: declared
+  description: LinkedIn-specific analytics and interactions
+  name: Publora LinkedIn Analytics API
+  slug: publora-linkedin-analytics-api
+- baseURL: https://api.publora.com/api/v1
+  baseurl_source: declared
+  description: Post logs and debugging
+  name: Publora Logs API
+  slug: publora-logs-api
+- baseURL: https://api.publora.com/api/v1
+  baseurl_source: declared
+  description: Upload media files
+  name: Publora Media API
+  slug: publora-media-api
+- baseURL: https://api.publora.com/api/v1
+  baseurl_source: declared
+  description: On-demand Mastodon and Bluesky post and profile statistics
+  name: Publora Platform Analytics API
+  slug: publora-platform-analytics-api
+- baseURL: https://api.publora.com/api/v1
+  baseurl_source: declared
+  description: Create, update, delete, and list posts
+  name: Publora Posts API
+  slug: publora-posts-api
+- baseURL: https://api.publora.com/api/v1
+  baseurl_source: declared
+  description: Manage webhook endpoints for real-time notifications
+  name: Publora Webhooks API
+  slug: publora-webhooks-api
+- baseURL: https://api.publora.com/api/v1
+  baseurl_source: declared
+  description: Manage multiple users (requires Workspace access - contact support)
+  name: Publora Workspace API
+  slug: publora-workspace-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Publora Webhooks
   slug: publora-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.publora.com/mcp
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/publora/refs/heads/main/agentic-access/publora-agentic-access.yml
   title: ''
@@ -178,25 +217,25 @@ modified: '2026-09-11'
 name: Publora
 nav: Providers
 network: true
-overview: 'Publora publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social-Media, Publishing, Scheduling, MCP, and Content.
+overview: 'Publora publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Connections API, LinkedIn Analytics API, Logs API, and 5 more. Tagged areas include Social-Media, Publishing, Scheduling, MCP, and Content.
 
 
   The Publora catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Publora''s developer surface includes authentication, changelog, sandbox, pricing, signup flow, engineering blog, and 20 more developer resources.'
+  Publora''s developer surface includes authentication, changelog, sandbox, pricing, signup flow, engineering blog, and 21 more developer resources.'
 plans:
 - name: Publora Plans Pricing
   plan_count: 3
   slug: publora-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Publora Rate Limits
   slug: publora-rate-limits
 score:
   band: strong
-  composite: 60.6
+  composite: 60.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 61.0
@@ -204,11 +243,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 68.3
+    contract_quality: 66.6
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 65.8
@@ -220,11 +259,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

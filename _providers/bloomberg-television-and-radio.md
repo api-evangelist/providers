@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Access Bloomberg TV and Radio content including video clips, interview segments, market coverage segments, and audio content for licensed distribution to enterprise clients and media partners.
@@ -44,6 +44,10 @@ apis:
   slug: bloomberg-live-stream
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -94,19 +98,19 @@ finops:
   slug: bloomberg-television-and-radio-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-television-and-radio.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Television and Radio
 nav: Providers
 network: true
 overview: 'Bloomberg Television and Radio publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Television, Radio, Financial News, Media, and Streaming.
 
 
-  Bloomberg Television and Radio''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Television and Radio''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Television And Radio Plans Pricing
   plan_count: 3
   slug: bloomberg-television-and-radio-plans-pricing
-random_paper: 9
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Bloomberg Television And Radio Rate Limits
@@ -131,7 +135,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -161,5 +165,5 @@ use_cases:
   name: Content Licensing
 - description: Access Bloomberg TV content archives for media and financial research.
   name: Media Research
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

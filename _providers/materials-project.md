@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   description: The Defect Tasks API from Materials Project — 1 operation(s) for defect tasks.
   name: Materials Project Defect Tasks API
   slug: materials-project-defect-tasks-api
-- baseURL: https://api.materialsproject.org
-  baseurl_source: declared
-  description: Route providing DOI and bibtex reference information for a material. Note that this data may not be available for all materials in the Materials Project database. See the `DOIDoc` schema for a full li
-  name: Materials Project DOIs API
-  slug: materials-project-dois-api
 - baseURL: https://api.materialsproject.org
   baseurl_source: declared
   description: Route providing computed data for a legacy molecule such as charge, electron affinity, and ionization energy. The unique identifier for a molecule is its `task_id` (e.g. `mol-45807`). See the `Molecul
@@ -190,6 +185,11 @@ apis:
   description: Route for a summary of all data calculated on 'core' molecules in the Materials Project molecules database. See the `MoleculeSummaryDoc` schema for a full list of fields returned by this route.
   name: Materials Project Molecules Summary API
   slug: materials-project-molecules-summary-api
+- baseURL: https://api.materialsproject.org
+  baseurl_source: declared
+  description: Route providing DOI and bibtex reference information for a material. Note that this data may not be available for all materials in the Materials Project database. See the `DOIDoc` schema for a full li
+  name: Materials Project DO Is API
+  slug: materials-project-dois-api
 artifact_total: 66
 collections:
 - collection_type: open
@@ -286,6 +286,10 @@ collections:
   name: Materials Project API
   slug: open-materials-project
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://materialsproject.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/materials-project/refs/heads/main/agentic-access/materials-project-agentic-access.yml
   title: ''
@@ -329,26 +333,26 @@ finops:
   slug: materials-project-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/materials-project.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Materials Project
 nav: Providers
 network: true
-overview: 'Materials Project publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Defect Tasks API, DOIs API, JCESR Electrolyte Genome API, and 26 more. Tagged areas include Chemistry, Materials Science, Physics, Research, and Scientific Computing.
+overview: 'Materials Project publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Defect Tasks API, JCESR Electrolyte Genome API, Materials Absorption API, and 26 more. Tagged areas include Chemistry, Materials Science, Physics, Research, and Scientific Computing.
 
 
-  Materials Project''s developer surface includes authentication, developer portal, documentation, signup flow, and 4 more developer resources.'
+  Materials Project''s developer surface includes authentication, developer portal, documentation, signup flow, and 5 more developer resources.'
 plans:
 - name: Materials Project Plans Pricing
   plan_count: 3
   slug: materials-project-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Materials Project Rate Limits
   slug: materials-project-rate-limits
 score:
   band: thin
-  composite: 35.7
+  composite: 34.3
   coverage:
     artifact_dirs: 10
     catalog_earned: 46.0
@@ -356,11 +360,11 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 52.4
+    contract_quality: 46.9
     developer_ergonomics: 42.9
     discoverability: 75.9
     operational_transparency: 10.5
@@ -368,12 +372,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 29
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -395,5 +399,5 @@ tags:
 - Physics
 - Research
 - Scientific Computing
-website: https://materialsproject.org/
+website: https://materialsproject.org
 ---

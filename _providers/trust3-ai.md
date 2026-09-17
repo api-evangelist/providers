@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Trust3 API server is the public AI Governance API edge of the Trust3 control plane. AI Assets Collectors running in the customer data plane authenticate every request with a Trust3 API key (AI_GOV
@@ -156,7 +156,7 @@ overview: 'Trust3 AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Trust3 AI''s developer surface includes documentation, getting-started guide, engineering blog, FAQ, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 15
+random_paper: 18
 score:
   band: thin
   composite: 30.4
@@ -180,7 +180,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

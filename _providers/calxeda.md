@@ -24,7 +24,7 @@ name: Calxeda
 nav: Providers
 network: true
 overview: Calxeda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Servers, and ARM.
-random_paper: 8
+random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/calxeda/refs/heads/main/screenshots/calxeda-2026-07-25T204245.png
 slug: calxeda
 tags:

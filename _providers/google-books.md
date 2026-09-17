@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,11 +46,6 @@ api_count: 1
 apis:
 - baseURL: https://www.googleapis.com/books/v1
   baseurl_source: declared
-  description: The Mylibrary API from Google Books — 3 operation(s) for mylibrary.
-  name: Google Books Mylibrary API
-  slug: google-books-mylibrary-api
-- baseURL: https://www.googleapis.com/books/v1
-  baseurl_source: declared
   description: The Users API from Google Books — 3 operation(s) for users.
   name: Google Books Users API
   slug: google-books-users-api
@@ -59,6 +54,11 @@ apis:
   description: The Volumes API from Google Books — 2 operation(s) for volumes.
   name: Google Books Volumes API
   slug: google-books-volumes-api
+- baseURL: https://www.googleapis.com/books/v1
+  baseurl_source: declared
+  description: The My Library API from Google Books — 3 operation(s) for my library.
+  name: Google Books My Library API
+  slug: google-books-my-library-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -140,7 +140,7 @@ modified: '2026-05-19'
 name: Google Books
 nav: Providers
 network: true
-overview: 'Google Books publishes 3 APIs on the [APIs.io](https://apis.io/) network: Mylibrary API, Users API, and Volumes API. Tagged areas include Books, Ebooks, Google, Library, and Publishing.
+overview: 'Google Books publishes 3 APIs on the [APIs.io](https://apis.io/) network: Users API, Volumes API, and My Library API. Tagged areas include Books, Ebooks, Google, Library, and Publishing.
 
 
   The Google Books catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -151,7 +151,7 @@ plans:
 - name: Google Books Plans Pricing
   plan_count: 3
   slug: google-books-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Google Books Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

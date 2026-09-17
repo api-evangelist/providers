@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://arpeggi.io/api/kits/v1
@@ -209,7 +209,7 @@ overview: 'Arpeggi Labs publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Arpeggi Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 18 more developer resources.'
-random_paper: 1
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Arpeggi Labs Rate Limits
@@ -243,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

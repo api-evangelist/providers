@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://status.empowerly.com/api/v2
@@ -221,7 +221,7 @@ plans:
 - name: Empowerly Plans Pricing
   plan_count: 0
   slug: empowerly-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Empowerly Rate Limits
@@ -261,7 +261,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -295,6 +295,6 @@ tags:
 - Students
 - Career Services
 - Consumer Services
-- Status Page
+- Status Pages
 website: https://empowerly.com/
 ---

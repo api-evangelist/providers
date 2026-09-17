@@ -19,7 +19,7 @@ name: HomeJoy
 nav: Providers
 network: true
 overview: HomeJoy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Marketplace, On-Demand, and Gig Economy.
-random_paper: 7
+random_paper: 15
 slug: homejoy
 tags:
 - Company

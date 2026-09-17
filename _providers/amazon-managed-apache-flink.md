@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -392,6 +392,10 @@ collections:
   name: 'Amazon Kinesis Analytics #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
   slug: open-amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -3188,7 +3192,7 @@ jsonld:
   property_count: 153
   slug: amazon-managed-apache-flink-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Managed Service for Apache Flink
 nav: Providers
 network: true
@@ -3198,12 +3202,12 @@ overview: 'Amazon Managed Service for Apache Flink publishes 31 APIs on the [API
   The Amazon Managed Service for Apache Flink catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Managed Service for Apache Flink''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Managed Service for Apache Flink''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Managed Apache Flink Plans Pricing
   plan_count: 3
   slug: amazon-managed-apache-flink-plans-pricing
-random_paper: 15
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Apache Flink Rate Limits
@@ -3257,7 +3261,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -3295,5 +3299,5 @@ use_cases:
   name: Anomaly Detection
 - description: Build real-time ETL pipelines to transform and enrich streaming data before loading to destinations.
   name: ETL Pipelines
-website: https://aws.amazon.com/managed-service-apache-flink/
+website: https://amazon.com
 ---

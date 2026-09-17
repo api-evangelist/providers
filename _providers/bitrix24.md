@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1570
   human_in_the_loop: 37
@@ -106,11 +106,6 @@ apis:
   description: The Drive API from Bitrix24 — 37 operation(s) for drive.
   name: Bitrix24 Drive API
   slug: bitrix24-drive-api
-- baseURL: https://{installation}.bitrix24.com/rest/
-  baseurl_source: declared
-  description: The E-Commerce API from Bitrix24 — 139 operation(s) for e-commerce.
-  name: Bitrix24 E-Commerce API
-  slug: bitrix24-e-commerce-api
 - baseURL: https://{installation}.bitrix24.com/rest/
   baseurl_source: declared
   description: The Events API from Bitrix24 — 8 operation(s) for events.
@@ -218,9 +213,14 @@ apis:
   slug: bitrix24-widgets-api
 - baseURL: https://{installation}.bitrix24.com/rest/
   baseurl_source: declared
-  description: The Workgroups API from Bitrix24 — 39 operation(s) for workgroups.
-  name: Bitrix24 Workgroups API
-  slug: bitrix24-workgroups-api
+  description: The Ecommerce API from Bitrix24 — 139 operation(s) for ecommerce.
+  name: Bitrix24 Ecommerce API
+  slug: bitrix24-ecommerce-api
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Work Groups API from Bitrix24 — 39 operation(s) for work groups.
+  name: Bitrix24 Work Groups API
+  slug: bitrix24-work-groups-api
 artifact_total: 78
 collections:
 - collection_type: open
@@ -417,7 +417,7 @@ overview: 'Bitrix24 publishes 35 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bitrix24''s developer surface includes authentication, documentation, pricing, signup flow, training material, engineering blog, and 10 more developer resources.'
-random_paper: 4
+random_paper: 12
 scopes:
 - name: Bitrix24 Scopes
   scope_count: 51
@@ -450,7 +450,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -478,7 +478,7 @@ tags:
 - Telephony
 - Contact Center
 - Document-Management
-- HR
+- Human Resources
 - Business Suite
 website: https://www.bitrix24.com
 ---

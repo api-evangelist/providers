@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -276,7 +276,7 @@ plans:
 - name: Crm Bonus Plans Pricing
   plan_count: 0
   slug: crm-bonus-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Crm Bonus Rate Limits
@@ -318,7 +318,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

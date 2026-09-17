@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -134,7 +134,7 @@ created: '2026-05-23'
 description: 'IXL Learning is a K-12 personalized practice platform with 17,000+ skills across Math, Language Arts, Science, Social Studies, and Spanish, plus the IXL Real-Time Diagnostic and skill recommendations. IXL is sold primarily as a SaaS subscription to families, teachers, schools, and districts. Its integration surface is school-rostering and SSO, not a public developer API: IXL supports Clever (SSO + rostering), ClassLink (SSO + OneRoster auto-rostering), OneRoster CSV/REST, LTI, Google Classroom, and SAML SSO for district deployments. There is no public REST API portal, no published OpenAPI, and no partner developer program.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ixl.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: IXL Learning
 nav: Providers
 network: true
@@ -142,7 +142,7 @@ overview: 'IXL Learning is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   IXL Learning''s developer surface includes pricing, engineering blog, YouTube channel, support, and 19 more developer resources.'
-random_paper: 18
+random_paper: 3
 score:
   band: emerging
   composite: 14.2
@@ -169,7 +169,7 @@ score:
     regime_id: education
     score: 37.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -194,8 +194,9 @@ tags:
 - Science
 - Social Studies
 - Spanish
-- Diagnostic
+- Diagnostics
 - Rostering
 - SSO
+- Identity Federation
 website: https://www.ixl.com
 ---

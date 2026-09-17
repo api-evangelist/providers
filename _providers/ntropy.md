@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -52,19 +52,9 @@ apis:
   slug: ntropy-account-holder-api
 - baseURL: https://api.ntropy.com
   baseurl_source: declared
-  description: The accountHolders API from Ntropy — 2 operation(s) for accountholders.
-  name: Ntropy accountHolders API
-  slug: ntropy-accountholders-api
-- baseURL: https://api.ntropy.com
-  baseurl_source: declared
   description: The bank statements API allows you to view and enrich transactions found in bank statements. Below is a table with the description of each of the statuses and steps that each bank statement goes throu
   name: Ntropy Bank statements API
   slug: ntropy-bank-statements-api
-- baseURL: https://api.ntropy.com
-  baseurl_source: declared
-  description: The bankStatements API from Ntropy — 4 operation(s) for bankstatements.
-  name: Ntropy bankStatements API
-  slug: ntropy-bankstatements-api
 - baseURL: https://api.ntropy.com
   baseurl_source: declared
   description: The batches API from Ntropy — 3 operation(s) for batches.
@@ -125,7 +115,12 @@ apis:
   description: The webhooks API from Ntropy — 2 operation(s) for webhooks.
   name: Ntropy webhooks API
   slug: ntropy-webhooks-api
-artifact_total: 41
+- baseURL: https://api.ntropy.com
+  baseurl_source: declared
+  description: The Account Holders API from Ntropy — 2 operation(s) for account holders.
+  name: Ntropy Account Holders API
+  slug: ntropy-account-holders-api
+artifact_total: 40
 asyncapis:
 - description: Event-driven notifications from the Ntropy API. Ntropy POSTs an event to the registered webhook url. If a token was set at creation it is sent in the X-Ntropy-Token header. Delivery is at-least-once (
   name: Ntropy Webhooks
@@ -373,7 +368,7 @@ modified: '2026-08-14'
 name: Ntropy
 nav: Providers
 network: true
-overview: 'Ntropy publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Holder API, accountHolders API, Bank statements API, and 13 more. Tagged areas include Company, Fintech, Transaction Enrichment, Financial Data, and Data Enrichment.
+overview: 'Ntropy publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account Holder API, Bank statements API, batches API, and 12 more. Tagged areas include Company, Fintech, Transaction Enrichment, Financial Data, and Data Enrichment.
 
 
   The Ntropy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -384,14 +379,14 @@ plans:
 - name: Ntropy Plans Pricing
   plan_count: 0
   slug: ntropy-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 24
   name: Ntropy Rate Limits
   slug: ntropy-rate-limits
 score:
   band: strong
-  composite: 59.1
+  composite: 58.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -399,11 +394,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 64.5
+    contract_quality: 63.8
     developer_ergonomics: 70.8
     discoverability: 75.9
     operational_transparency: 65.8
@@ -415,7 +410,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 15
     mcp: first-party
     skills: derived
   regulatory:
@@ -425,7 +420,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

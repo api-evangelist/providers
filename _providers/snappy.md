@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Snappy's developer API suite for embedding gifting into business systems and workflows, including an embedded gift marketplace and triggered (event-based) gifting.
@@ -102,11 +102,11 @@ modified: '2026-07-21'
 name: Snappy
 nav: Providers
 network: true
-overview: 'Snappy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Corporate Gifting, Employee Recognition, HR Tech, and Rewards.
+overview: 'Snappy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Corporate Gifting, Employee Recognition, Human Resources, and Rewards.
 
 
   Snappy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 16
+random_paper: 7
 score:
   band: emerging
   composite: 16.0
@@ -127,7 +127,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -144,7 +144,7 @@ tags:
 - Company
 - Corporate Gifting
 - Employee Recognition
-- HR Tech
+- Human Resources
 - Rewards
 - Gifting API
 - Employee Engagement

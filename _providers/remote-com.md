@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -191,11 +191,6 @@ apis:
   slug: remote-com-magic-links-api
 - baseURL: https://gateway.remote.com/v1
   baseurl_source: declared
-  description: OAuth 2.0 authorization endpoints
-  name: Remote OAuth API
-  slug: remote-com-oauth-api
-- baseURL: https://gateway.remote.com/v1
-  baseurl_source: declared
   description: Drive employee offboarding flows
   name: Remote Offboarding API
   slug: remote-com-offboarding-api
@@ -244,6 +239,11 @@ apis:
   description: Work authorization (visa / right to work) requests
   name: Remote Work Authorization API
   slug: remote-com-work-authorization-api
+- baseURL: https://gateway.remote.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization endpoints
+  name: Remote O Auth API
+  slug: remote-com-oauth-api
 arazzos:
 - description: Submit a contract amendment for an employment and track it to a resolved state.
   name: Remote Amend An Employment Contract
@@ -840,7 +840,7 @@ plans:
 - name: Remote Com Plans Pricing
   plan_count: 11
   slug: remote-com-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Remote Com Rate Limits
@@ -897,7 +897,7 @@ score:
   facets:
     access_clarity: 78.9
     contract_governance: 33.3
-    contract_quality: 72.0
+    contract_quality: 71.9
     developer_ergonomics: 70.2
     discoverability: 75.9
     operational_transparency: 68.4
@@ -912,7 +912,7 @@ score:
       total: 39
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -946,7 +946,7 @@ tags:
 - Recruiting
 - Benefits
 - Employment
-- HR
+- Human Resources
 - Compliance
 - Workforce
 - MCP

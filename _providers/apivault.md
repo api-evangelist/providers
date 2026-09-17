@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -45,11 +45,71 @@ api_count: 1
 apis:
 - baseURL: https://api.apivault.dev
   baseurl_source: declared
-  description: Apivault is a free, open-source API directory that serves as a gateway to a world of public APIs. It catalogs APIs across 51 categories with details on authentication method, CORS support, and HTTPS a
-  name: Apivault
-  slug: apivault
-artifact_total: 16
+  description: The all API from Apivault — 1 operation(s) for all.
+  name: Apivault All API
+  slug: apivault-all-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The auth API from Apivault — 4 operation(s) for auth.
+  name: Apivault Auth API
+  slug: apivault-auth-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The categories API from Apivault — 2 operation(s) for categories.
+  name: Apivault Categories API
+  slug: apivault-categories-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The category API from Apivault — 1 operation(s) for category.
+  name: Apivault Category API
+  slug: apivault-category-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The count API from Apivault — 1 operation(s) for count.
+  name: Apivault Count API
+  slug: apivault-count-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The create API from Apivault — 1 operation(s) for create.
+  name: Apivault Create API
+  slug: apivault-create-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The detail API from Apivault — 1 operation(s) for detail.
+  name: Apivault Detail API
+  slug: apivault-detail-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The interaction API from Apivault — 2 operation(s) for interaction.
+  name: Apivault Interaction API
+  slug: apivault-interaction-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The my_api API from Apivault — 1 operation(s) for my_api.
+  name: Apivault My API
+  slug: apivault-my-api-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The pending API from Apivault — 1 operation(s) for pending.
+  name: Apivault Pending API
+  slug: apivault-pending-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The random API from Apivault — 1 operation(s) for random.
+  name: Apivault Random API
+  slug: apivault-random-api
+- baseURL: https://api.apivault.dev
+  baseurl_source: declared
+  description: The search API from Apivault — 1 operation(s) for search.
+  name: Apivault Search API
+  slug: apivault-search-api
+artifact_total: 27
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apivault/refs/heads/main/overlays/apivault-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apivault-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -194,22 +254,22 @@ modified: '2026-09-04'
 name: Apivault
 nav: Providers
 network: true
-overview: 'Apivault publishes 1 API on the [APIs.io](https://apis.io/) network: Apivault. Tagged areas include API Catalog, API Directory, API Discovery, Open-Source, and Public APIs.
+overview: 'Apivault publishes 12 APIs on the [APIs.io](https://apis.io/) network, including All API, Auth API, Categories API, and 9 more. Tagged areas include API Catalog, API Directory, API Discovery, Open-Source, and Public APIs.
 
 
-  Apivault''s developer surface includes authentication, API reference, support, changelog, and 22 more developer resources.'
+  Apivault''s developer surface includes authentication, API reference, support, changelog, and 23 more developer resources.'
 plans:
 - name: Apivault Plans Pricing
   plan_count: 0
   slug: apivault-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Apivault Rate Limits
   slug: apivault-rate-limits
 score:
   band: thin
-  composite: 31.9
+  composite: 30.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -217,11 +277,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 18.4
     contract_governance: 4.5
-    contract_quality: 48.3
+    contract_quality: 44.6
     developer_ergonomics: 35.1
     discoverability: 68.5
     operational_transparency: 18.4
@@ -230,14 +290,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 12
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

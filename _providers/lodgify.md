@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-06-25'
 name: Lodgify
 nav: Providers
 network: true
-overview: 'Lodgify publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Bookings API, Messaging API, and 3 more. Tagged areas include Vacation Rental, Property Management, Booking, Channel Manager, and Travel.
+overview: 'Lodgify publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Bookings API, Messaging API, and 3 more. Tagged areas include Vacation Rentals, Property Management, Booking, Channel Manager, and Travel.
 
 
   Lodgify''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -171,7 +171,7 @@ plans:
 - name: Lodgify Plans Pricing
   plan_count: 4
   slug: lodgify-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Lodgify Rate Limits
@@ -203,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -220,7 +220,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: lodgify
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Property Management
 - Booking
 - Channel Manager

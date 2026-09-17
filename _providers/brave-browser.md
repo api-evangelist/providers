@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,11 +113,6 @@ apis:
   slug: brave-browser-news-api
 - baseURL: https://github.com/brave/brave-browser
   baseurl_source: declared
-  description: The Spellcheck API from Brave — 1 operation(s) for spellcheck.
-  name: Brave Spellcheck API
-  slug: brave-browser-spellcheck-api
-- baseURL: https://github.com/brave/brave-browser
-  baseurl_source: declared
   description: The Suggest API from Brave — 1 operation(s) for suggest.
   name: Brave Suggest API
   slug: brave-browser-suggest-api
@@ -142,34 +137,12 @@ apis:
 - description: API for managing and reporting on Brave Ads campaigns. Enables advertisers to retrieve campaign details and performance data for privacy-preserving native browser ads and search ads. Supports customiz
   name: Brave Ads API
   slug: brave-ads-api
-- description: Campaign management and hierarchy endpoints
-  name: Brave campaigns API
-  slug: brave-campaigns-api
-- description: Image search endpoints
-  name: Brave images API
-  slug: brave-images-api
-- description: Local place of interest endpoints
-  name: Brave local API
-  slug: brave-local-api
-- description: News search endpoints
-  name: Brave news API
-  slug: brave-news-api
-- description: Campaign performance reporting endpoints
-  name: Brave reporting API
-  slug: brave-reporting-api
-- description: Spellcheck endpoints
-  name: Brave spellcheck API
-  slug: brave-spellcheck-api
-- description: Autosuggest endpoints
-  name: Brave suggest API
-  slug: brave-suggest-api
-- description: Video search endpoints
-  name: Brave videos API
-  slug: brave-videos-api
-- description: Web search endpoints
-  name: Brave web API
-  slug: brave-web-api
-artifact_total: 53
+- baseURL: https://github.com/brave/brave-browser
+  baseurl_source: declared
+  description: The Spell Check API from Brave — 1 operation(s) for spell check.
+  name: Brave Spell Check API
+  slug: brave-browser-spell-check-api
+artifact_total: 44
 collections:
 - collection_type: open
   name: API Collection
@@ -282,7 +255,7 @@ modified: '2026-07-25'
 name: Brave
 nav: Providers
 network: true
-overview: 'Brave publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Images API, Local API, News API, and 14 more. Tagged areas include Browser, Search, Privacy, Chromium, and Web3.
+overview: 'Brave publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Images API, Local API, News API, and 5 more. Tagged areas include Browser, Search, Privacy, Chromium, and Web3.
 
 
   Brave''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 12 more developer resources.'
@@ -290,7 +263,7 @@ plans:
 - name: Brave Browser Plans Pricing
   plan_count: 1
   slug: brave-browser-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Brave Browser Rate Limits
@@ -325,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

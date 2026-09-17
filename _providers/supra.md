@@ -35,14 +35,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://rpc-mainnet.supra.com
-  baseurl_source: declared
-  description: Public, keyless REST + JSON API served by every Supra RPC node. Covers accounts (resources, modules, coin and fungible-asset statements), transaction submission and simulation, gas price estimation, b
-  name: Supra RPC Node API
-  slug: supra-rpc-node-api
 - description: Oracle market-data REST API returning the latest price for a trading pair and historical OHLC candles for up to one month, on the DORA data feeds Supra publishes on-chain. Two documented endpoints, GE
   name: Supra Price Feeds REST API
   slug: supra-price-feeds-rest-api
@@ -51,11 +46,66 @@ apis:
   slug: supra-price-feeds-websocket-api
 - baseURL: https://rpc-mainnet.supra.com
   baseurl_source: declared
-  description: 'Read and observation surface for Supra''s native on-chain automation (AutoFi) registry. Automation tasks are registered and cancelled through the Supra CLI and Move entry functions rather than an HTTP '
-  name: Supra Automation API
-  slug: supra-automation-api
-artifact_total: 9
+  description: Accounts Api
+  name: Supra Accounts API
+  slug: supra-accounts-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: Block Api
+  name: Supra Block API
+  slug: supra-block-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: The Consensus API from Supra — 7 operation(s) for consensus.
+  name: Supra Consensus API
+  slug: supra-consensus-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: Events Api
+  name: Supra Events API
+  slug: supra-events-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: Faucet Api
+  name: Supra Faucet API
+  slug: supra-faucet-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: Endpoints for retrieving Merkle proofs for consensus-certified data.
+  name: Supra Proofs API
+  slug: supra-proofs-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: Tables Api
+  name: Supra Tables API
+  slug: supra-tables-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: Transactions Api
+  name: Supra Transactions API
+  slug: supra-transactions-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: The Version API from Supra — 1 operation(s) for version.
+  name: Supra Version API
+  slug: supra-version-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: View Api
+  name: Supra View API
+  slug: supra-view-api
+- baseURL: https://rpc-mainnet.supra.com
+  baseurl_source: declared
+  description: Block-streaming WebSocket subscription Api
+  name: Supra Web Socket API
+  slug: supra-websocket-api
+artifact_total: 18
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/supra/refs/heads/main/overlays/supra-rpc-node-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/supra-rpc-node-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -203,22 +253,22 @@ modified: '2026-08-29'
 name: Supra
 nav: Providers
 network: true
-overview: 'Supra publishes 2 APIs on the [APIs.io](https://apis.io/) network: RPC Node API and Automation API. Tagged areas include Blockchain, Layer 1, Oracles, Web3, and Market Data.
+overview: 'Supra publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Block API, Consensus API, and 8 more. Tagged areas include Blockchain, Layer 1, Oracle, Web3, and Market Data.
 
 
-  Supra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, CLI, and 23 more developer resources.'
+  Supra''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, CLI, and 24 more developer resources.'
 plans:
 - name: Supra Plans Pricing
   plan_count: 0
   slug: supra-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Supra Rate Limits
   slug: supra-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 50.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 39.0
@@ -226,11 +276,11 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 45.8
+    contract_quality: 48.8
     developer_ergonomics: 85.7
     discoverability: 75.9
     operational_transparency: 18.4
@@ -246,7 +296,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: derived
     skills: unknown
   regulatory:
@@ -256,7 +306,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -279,7 +329,7 @@ slug: supra
 tags:
 - Blockchain
 - Layer 1
-- Oracles
+- Oracle
 - Web3
 - Market Data
 - Smart Contracts

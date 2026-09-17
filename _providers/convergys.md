@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: 'It''s here. #Concentrix completes the acquisition of # ...'
   url: https://www.facebook.com/convergysglobal/posts/its-here-concentrix-completes-the-acquisition-of-convergys-creating-the-worlds-g/10156626173185786/
-random_paper: 5
+random_paper: 2
 score:
   band: minimal
   composite: 8.3
@@ -148,7 +148,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

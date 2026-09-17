@@ -34,8 +34,8 @@ modified: '2026-07-19'
 name: Limbo Labs (limbolabs.com)
 nav: Providers
 network: true
-overview: Limbo Labs (limbolabs.com) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Startup, San Francisco, and Venture Backed.
-random_paper: 7
+overview: Limbo Labs (limbolabs.com) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Startups, San Francisco, and Venture Backed.
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/limbo-labs/refs/heads/main/screenshots/limbo-labs-2026-07-25T225200.png
 security:
 - kind: domain-security
@@ -46,7 +46,7 @@ slug: limbo-labs
 tags:
 - Company
 - Defunct
-- Startup
+- Startups
 - San Francisco
 - Venture Backed
 - Software

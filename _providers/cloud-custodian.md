@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Cloud Custodian provides rules-engine capabilities for managing cloud resources with security, compliance, and cost optimization policies.
@@ -152,7 +152,7 @@ plans:
 - name: Cloud Custodian Plans Pricing
   plan_count: 3
   slug: cloud-custodian-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Cloud Custodian Rate Limits
@@ -208,7 +208,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

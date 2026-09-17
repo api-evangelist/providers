@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -519,7 +519,7 @@ modified: '2026-06-13'
 name: Smokeball
 nav: Providers
 network: true
-overview: 'Smokeball publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Activity Codes API, Authorization API, Bank Accounts API, and 31 more. Tagged areas include Legal, Law Firm, Practice Management, Matters, and Contacts.
+overview: 'Smokeball publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Activity Codes API, Authorization API, Bank Accounts API, and 31 more. Tagged areas include Legal, Law Firms, Practice Management, Matter, and Contacts.
 
 
   The Smokeball catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -530,7 +530,7 @@ plans:
 - name: Smokeball Plans Pricing
   plan_count: 4
   slug: smokeball-plans-pricing
-random_paper: 9
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Smokeball Rate Limits
@@ -548,21 +548,21 @@ rules:
   slug: smokeball-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.3
+  composite: 45.2
   coverage:
     artifact_dirs: 15
-    catalog_earned: 66.3
+    catalog_earned: 76.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.8
+    catalog_gap: 38.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 42.1
     contract_governance: 25.0
-    contract_quality: 70.0
+    contract_quality: 70.3
     developer_ergonomics: 11.9
-    discoverability: 44.4
+    discoverability: 63.0
     operational_transparency: 42.1
   previous_composite: 43.3
   provenance:
@@ -573,7 +573,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -591,9 +591,9 @@ security:
 slug: smokeball
 tags:
 - Legal
-- Law Firm
+- Law Firms
 - Practice Management
-- Matters
+- Matter
 - Contacts
 - Documents
 - Billing

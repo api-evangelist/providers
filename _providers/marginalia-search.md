@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://api2.marginalia-search.com
   baseurl_source: declared
   description: Search the Marginalia index.
-  name: Marginalia Search Search API
+  name: Marginalia Search API
   slug: marginalia-search-search-api
 artifact_total: 12
 collections:
@@ -105,11 +105,11 @@ finops:
   slug: marginalia-search-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marginalia-search.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Marginalia Search
 nav: Providers
 network: true
-overview: 'Marginalia Search publishes 2 APIs on the [APIs.io](https://apis.io/) network: Filters API and Search API. Tagged areas include Open-Source, Search, and Web Search.
+overview: 'Marginalia Search publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Filters API, and 1 more. Tagged areas include Open-Source, Search, and Web Search.
 
 
   Marginalia Search''s developer surface includes authentication and 5 more developer resources.'
@@ -117,7 +117,7 @@ plans:
 - name: Marginalia Search Plans Pricing
   plan_count: 3
   slug: marginalia-search-plans-pricing
-random_paper: 19
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Marginalia Search Rate Limits
@@ -149,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

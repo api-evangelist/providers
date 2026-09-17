@@ -24,55 +24,101 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.7
-  scored_at: '2026-09-15'
-api_count: 11
+  scored_at: '2026-09-16'
+api_count: 8
 apis:
-- description: Payment gateway for websites and mobile applications. Card payments (Visa, Mastercard, Uzcard, Humo), one-step and two-step authorization, back-to-back payment without the hosted form, card binding an
-  name: Uzum Checkout
-  slug: uzum-checkout
-- baseURL: https://crossborder.transfer.uz
-  baseurl_source: declared
-  description: International money transfer between Uzbekistan and other countries. Transfers to Uzbekistan by phone number or card number, transfers from Uzbekistan by card number, cross-border payments for service
-  name: Uzum CrossBorder Transfer
-  slug: uzum-crossborder-transfer
-- baseURL: https://remit-core.ipt-merch.com
-  baseurl_source: declared
-  description: Single integration point for cross-border remittances. Partners register, process, confirm, cancel and status-check CREDIT and DEBIT transfers; Remit Core handles routing, validation and interaction w
-  name: Remit Core
-  slug: uzum-remit-core
-- baseURL: https://merchants-api.uzumnasiya.uz
-  baseurl_source: declared
-  description: REST API for partner integration with the Uzum Nasiya installment (BNPL) service. Buyer registration through an Uzum Nasiya WebView, buyer status and credit limit checks, basket pre-calculation of ins
-  name: Uzum Nasiya Partner API
-  slug: uzum-nasiya-partner
-- baseURL: https://ofd-key.inplat-tech.com
-  baseurl_source: declared
-  description: Fiscalizes sales and refund receipts and submits them to the Uzbekistan State Tax Committee through a Fiscal Data Operator. Generates receipt links, supports non-fiscal receipts for advance and credit
-  name: Uzum Fiscalization
-  slug: uzum-fiscalization
-- baseURL: https://mobile.apelsin.uz
-  baseurl_source: declared
-  description: 'Instant QR-code payments and payments through cash-register and POS / fiscal register systems, where the seller scans the customer''s QR code from the Uzum Bank app. Payment processing, fiscalization, '
-  name: Uzum Fast Pay
-  slug: uzum-fast-pay
-- baseURL: https://mobile.apelsin.uz
-  baseurl_source: declared
-  description: Dynamic QR payment for a QR code printed on a POS receipt or shown on a cash-register screen, scanned by the customer in the Uzum Bank mobile application. Order creation and payment-link generation, o
-  name: Uzum Dynamic QR
-  slug: uzum-dynamic-qr
-- description: Webhook protocol that lets partners accept payments from inside the Uzum Bank mobile application. Uzum Bank calls five partner-implemented webhooks — check, create, confirm, reverse and status — carry
-  name: Uzum Merchant API
-  slug: uzum-merchant-api
-- description: Partner-facing foreign-exchange rate service. Converts an amount between currencies at the current Uzum rate and returns the partner's conversion limits. Documented on the Uzum Bank developer portal a
-  name: Uzum RateKeeper
-  slug: uzum-ratekeeper
 - description: Banking-as-a-Service JSON-RPC 2.0 API that lets partners embed payments, transfers and account and card operations inside Uzbekistan's national payment system. Covers account balance, history and atta
   name: Uzum BaaS Payment Hub
   slug: uzum-payment-hub-baas
 - description: Seller-cabinet API for Uzum Market used to synchronise marketplace orders, inventory and prices for both Fulfilment by Operator (FBO) and Fulfilment by Seller (FBS) models. Access requires an API toke
   name: Uzum Market Seller API
   slug: uzum-market-seller
-artifact_total: 16
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: The API MFO API from Uzum — 8 operation(s) for api mfo.
+  name: Uzum API MFO API
+  slug: uzum-api-mfo-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: The Auxiliary Methods API from Uzum — 4 operation(s) for auxiliary methods.
+  name: Uzum Auxiliary Methods API
+  slug: uzum-auxiliary-methods-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: The Back-to-back Payment API from Uzum — 1 operation(s) for back-to-back payment.
+  name: Uzum Back-to-back Payment API
+  slug: uzum-back-to-back-payment-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: This method allows you to check the basic functionality and availability of the fiscalization service.
+  name: Uzum Check Service Status API
+  slug: uzum-check-service-status-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: The Common methods API from Uzum — 5 operation(s) for common methods.
+  name: Uzum Common methods API
+  slug: uzum-common-methods-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: Methods for cross-border payments for services in Uzbekistan
+  name: Uzum Cross-border payments API
+  slug: uzum-cross-border-payments-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: In this section, the API provides methods for working with fiscal receipts. `/v2/receipt` method allows you to register a sale operation and generate a fiscal receipt that complies with all legal requ
+  name: Uzum Fiscalization API
+  slug: uzum-fiscalization-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: Methods for transfers from Uzbekistan
+  name: Uzum From Uzbekistan API
+  slug: uzum-from-uzbekistan-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: Auxiliary Information Methods
+  name: Uzum Information retrieval API
+  slug: uzum-information-retrieval-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: The Managing Credit Cards Bindings API from Uzum — 3 operation(s) for managing credit cards bindings.
+  name: Uzum Managing Credit Cards Bindings API
+  slug: uzum-managing-credit-cards-bindings-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: QR CRM methods that are used to create an order, check the status of the order and transfer links to the fiscal receipt and cancel payment transactions.
+  name: Uzum Methods API
+  slug: uzum-methods-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: The One-Step Payment API from Uzum — 2 operation(s) for one-step payment.
+  name: Uzum One-Step Payment API
+  slug: uzum-one-step-payment-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: The partner API from Uzum — 2 operation(s) for partner.
+  name: Uzum Partner API
+  slug: uzum-partner-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: 'The method is designed to send information about payments made using QR codes directly to the tax authority. Using this method allows automating the fiscalization process for payments made at offline '
+  name: Uzum Submit QR Code Payment Receipt to Tax Authorities API
+  slug: uzum-submit-qr-code-payment-receipt-to-tax-authorities-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: Methods for transfers to Uzbekistan
+  name: Uzum To Uzbekistan API
+  slug: uzum-to-uzbekistan-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: Methods used in the transfer process
+  name: Uzum Transfer process API
+  slug: uzum-transfer-process-api
+- baseURL: https://crossborder.transfer.uz
+  baseurl_source: declared
+  description: The Two-Step Payment API from Uzum — 2 operation(s) for two-step payment.
+  name: Uzum Two-Step Payment API
+  slug: uzum-two-step-payment-api
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Uzum Merchant Webhooks
@@ -226,7 +272,7 @@ modified: '2026-09-02'
 name: Uzum
 nav: Providers
 network: true
-overview: 'Uzum publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Checkout, CrossBorder Transfer, Remit Core, and 6 more. Tagged areas include Company, Payments, Banking, Financial-Services, and E-Commerce.
+overview: 'Uzum publishes 17 APIs on the [APIs.io](https://apis.io/) network, including API MFO API, Auxiliary Methods API, Back-to-back Payment API, and 14 more. Tagged areas include Company, Payments, Banking, Financial-Services, and E-Commerce.
 
 
   The Uzum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -244,7 +290,7 @@ rate_limits:
   slug: uzum-rate-limits
 score:
   band: developing
-  composite: 49.5
+  composite: 50.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -252,11 +298,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 54.9
+    contract_quality: 58.8
     developer_ergonomics: 57.7
     discoverability: 74.1
     operational_transparency: 23.7
@@ -264,10 +310,10 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 37.5
+      callable: 41.2
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 18
     mcp: derived
     skills: derived
   regulatory:
@@ -277,7 +323,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -26,29 +26,54 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 25.5
+  scored_at: '2026-09-16'
+api_count: 7
 apis:
-- baseURL: https://api.tongji.edu.cn
-  baseurl_source: declared
-  description: 'The university''s own institutional data and capability API platform, operated by the Tongji University Information Office. Roughly 234 documented interfaces across fifteen families: personnel, student'
-  name: Tongji University Open Platform
-  slug: open-platform
 - description: Tongji University's own SAML 2.0 identity provider, registered into eduGAIN by CARSI, the CERNET Authentication and Resource Sharing Infrastructure — China's national research and education identity f
   name: Tongji University Shibboleth Identity Provider (CARSI / eduGAIN)
   slug: identity-provider
 - description: Tongji University is registered in the Research Organization Registry with ROR ID https://ror.org/03rc6as71 (同济大学, Shanghai, China). This is a registry membership, not a contract the university publis
   name: ROR Organization Registration
   slug: ror
-artifact_total: 27
+- baseURL: https://api.tongji.edu.cn
+  baseurl_source: declared
+  description: Asynchronous speech-recognition and document-OCR services offered to campus applications by the Tongji University Information Office.
+  name: Tongji University AI Services API
+  slug: tongji-ai-services-api
+- baseURL: https://api.tongji.edu.cn
+  baseurl_source: declared
+  description: Contract, equipment-asset and purchase-requisition records drawn from the university procurement and asset-management systems.
+  name: Tongji University Assets and Procurement API
+  slug: tongji-assets-and-procurement-api
+- baseURL: https://api.tongji.edu.cn
+  baseurl_source: declared
+  description: Identity, qualification, degree, enrolment and insurance verification services backed by national and Shanghai municipal education data sources.
+  name: Tongji University Education Data Verification API
+  slug: tongji-education-data-verification-api
+- baseURL: https://api.tongji.edu.cn
+  baseurl_source: declared
+  description: Library gate-access and loan records from the Tongji University Library systems.
+  name: Tongji University Library API
+  slug: tongji-library-api
+- baseURL: https://api.tongji.edu.cn
+  baseurl_source: declared
+  description: Openly callable code tables (metadata dictionaries) that define the controlled vocabularies used across every other Open Platform interface.
+  name: Tongji University Reference Metadata API
+  slug: tongji-reference-metadata-api
+- baseURL: https://api.tongji.edu.cn
+  baseurl_source: declared
+  description: Patent, software-copyright, project, funding, award, publication and monograph records from the university research-management systems.
+  name: Tongji University Research API
+  slug: tongji-research-api
+artifact_total: 32
 common:
 - group: company
   title: ''
@@ -194,7 +219,7 @@ modified: '2026-09-01'
 name: Tongji University
 nav: Providers
 network: true
-overview: 'Tongji University publishes 1 API on the [APIs.io](https://apis.io/) network: Open Platform. Tagged areas include University, Higher Education, Education, China, and Shanghai.
+overview: 'Tongji University publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Services API, Assets and Procurement API, Education Data Verification API, and 3 more. Tagged areas include University, Higher Education, Education, China, and Shanghai.
 
 
   The Tongji University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -205,7 +230,7 @@ plans:
 - name: Tongji Plans Pricing
   plan_count: 2
   slug: tongji-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Tongji Rate Limits
@@ -228,21 +253,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.1
+  composite: 38.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 83.0
+    catalog_earned: 86.0
     catalog_earned_first_party: 25.0
-    catalog_gap: 32.0
+    catalog_gap: 29.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 28.9
     contract_governance: 15.2
-    contract_quality: 33.2
+    contract_quality: 32.6
     developer_ergonomics: 42.9
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -266,7 +291,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

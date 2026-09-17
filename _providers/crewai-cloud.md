@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -461,7 +461,7 @@ plans:
 - name: Crewai Cloud Plans Pricing
   plan_count: 2
   slug: crewai-cloud-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Crewai Cloud Rate Limits
@@ -527,7 +527,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -554,7 +554,7 @@ tags:
 - Multi-Agent Systems
 - Agent Management Platform
 - Managed Agents
-- Automations
+- Automation
 - Observability
 - Human-in-the-Loop
 website: https://www.crewai.com

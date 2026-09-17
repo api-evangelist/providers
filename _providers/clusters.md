@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://api.clusters.xyz/v1
   baseurl_source: declared
   description: Read and create clusters (profiles bundling wallets)
-  name: Clusters Clusters API
+  name: Clusters API
   slug: clusters-clusters-api
 - baseURL: https://api.clusters.xyz/v1
   baseurl_source: declared
@@ -254,15 +254,15 @@ created: '2026-07-17'
 description: Clusters is a multichain namespace and identity service that gives users a single universal name across blockchain ecosystems instead of a separate domain per chain. A Clusters name uses the format username/wallet (for example username/eth or username/sol) to bundle many wallets — EVM chains, Solana, and more — under one hierarchical, human-readable profile. The Clusters v1 REST API resolves an address to its cluster and wallet name and back, reads full cluster profiles, checks name availability, produces on-chain registration transaction data for EVM and Solana, registers community cluster names, and exposes a replayable historical event feed for permissionless indexing. Reads are public; wallet management and registration require a wallet-signature bearer token, and an optional API key raises rate limits. The protocol uses a hub-and-spoke model bridged with LayerZero v2 and replicates metadata to Arweave for data availability. Backed by Electric Capital.
 image: https://clusters.xyz/assets/images/apple/apple-touch-icon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Clusters
 nav: Providers
 network: true
-overview: 'Clusters publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Clusters API, Communities API, and 3 more. Tagged areas include Company, Infrastructure, Identity, Naming, and Blockchain.
+overview: 'Clusters publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Communities API, and 4 more. Tagged areas include Company, Infrastructure, Identity, Naming, and Blockchain.
 
 
   Clusters'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, engineering blog, sandbox, and 24 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: emerging
   composite: 20.6
@@ -299,7 +299,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

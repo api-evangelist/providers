@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -73,11 +73,6 @@ apis:
   description: The Appointments API from Jane — 2 operation(s) for appointments.
   name: Jane Appointments API
   slug: jane-app-appointments-api
-- baseURL: https://jdpdocsdemo.jane.qa
-  baseurl_source: spec
-  description: The CarePlans API from Jane — 4 operation(s) for careplans.
-  name: Jane Care Plans API
-  slug: jane-app-careplans-api
 - baseURL: https://jdpdocsdemo.jane.qa
   baseurl_source: spec
   description: The Catalog API from Jane — 2 operation(s) for catalog.
@@ -125,11 +120,6 @@ apis:
   slug: jane-app-patients-api
 - baseURL: https://jdpdocsdemo.jane.qa
   baseurl_source: spec
-  description: The StaffMembers API from Jane — 2 operation(s) for staffmembers.
-  name: Jane Staff Members API
-  slug: jane-app-staffmembers-api
-- baseURL: https://jdpdocsdemo.jane.qa
-  baseurl_source: spec
   description: The Treatments API from Jane — 2 operation(s) for treatments.
   name: Jane Treatments API
   slug: jane-app-treatments-api
@@ -138,6 +128,16 @@ apis:
   description: The Webhooks API from Jane — 2 operation(s) for webhooks.
   name: Jane Webhooks API
   slug: jane-app-webhooks-api
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Care Plans API from Jane — 4 operation(s) for care plans.
+  name: Jane Care Plans API
+  slug: jane-app-care-plans-api
+- baseURL: https://jdpdocsdemo.jane.qa
+  baseurl_source: spec
+  description: The Staff Members API from Jane — 2 operation(s) for staff members.
+  name: Jane Staff Members API
+  slug: jane-app-staff-members-api
 artifact_total: 28
 asyncapis:
 - description: ''
@@ -184,10 +184,10 @@ common:
   type: OAuthScopes
   url: scopes/jane-app-scopes.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-jdp-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/_original/jane-app-jdp-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/jane-app-jdp-openapi.yml
+  url: openapi/_original/jane-app-jdp-openapi.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/conventions/jane-app-conventions.yml
   title: ''
@@ -309,18 +309,18 @@ description: 'Jane is a cloud-based practice management platform for health and 
   covering patients, appointments, locations, staff, disciplines, treatments, medical records (observations, care plans, medications), document uploads, webhooks, and extension management. Jane is not FHIR/HL7-based: it is a proprietary REST practice-management API rather than a SMART-on-FHIR EHR interoperability surface.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-09-16'
 name: Jane
 nav: Providers
 network: true
-overview: 'Jane publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Care Plans API, Catalog API, and 11 more. Tagged areas include Healthcare, Canada, Practice Management, EHR, and EMR.
+overview: 'Jane publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Catalog API, Company API, and 11 more. Tagged areas include Healthcare, Canada, Practice Management, EHR, and EMR.
 
 
   The Jane catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Jane''s developer surface includes authentication, sandbox, support, documentation, API reference, getting-started guide, pricing, and 27 more developer resources.'
-random_paper: 3
+random_paper: 10
 scopes:
 - name: Jane App Scopes
   scope_count: 30
@@ -328,7 +328,7 @@ scopes:
   summary_line: 30 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.0
+  composite: 56.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 32.0
@@ -336,11 +336,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 66.3
+    contract_quality: 65.7
     developer_ergonomics: 47.0
     discoverability: 66.7
     operational_transparency: 36.8
@@ -369,7 +369,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

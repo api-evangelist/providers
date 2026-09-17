@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - baseURL: https://kartosthera.com/wp-json
@@ -54,11 +54,6 @@ apis:
   slug: kartos-therapeutics-media-api
 - baseURL: https://kartosthera.com/wp-json
   baseurl_source: declared
-  description: The oEmbed 1.0 provider endpoint for kartosthera.com URLs.
-  name: Kartos Therapeutics Oembed API
-  slug: kartos-therapeutics-oembed-api
-- baseURL: https://kartosthera.com/wp-json
-  baseurl_source: declared
   description: The leadership, board and advisor team custom post type.
   name: Kartos Therapeutics People API
   slug: kartos-therapeutics-people-api
@@ -72,6 +67,11 @@ apis:
   description: Registered post types, statuses, taxonomies and terms.
   name: Kartos Therapeutics Taxonomy API
   slug: kartos-therapeutics-taxonomy-api
+- baseURL: https://kartosthera.com/wp-json
+  baseurl_source: declared
+  description: The oEmbed 1.0 provider endpoint for kartosthera.com URLs.
+  name: Kartos Therapeutics o Embed API
+  slug: kartos-therapeutics-o-embed-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -211,7 +211,7 @@ overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io
 
 
   Kartos Therapeutics'' developer surface includes support, authentication, and 20 more developer resources.'
-random_paper: 7
+random_paper: 0
 score:
   band: emerging
   composite: 18.2
@@ -246,7 +246,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Blank Rome public website at blankrome.com is the firm's primary external knowledge surface, organizing attorney biographies, practice and industry pages, office locations, client alerts, publicat
@@ -119,7 +119,7 @@ name: Blank Rome LLP
 nav: Providers
 network: true
 overview: Blank Rome LLP publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Am Law 100, Corporate Law, Government Affairs, Government Contracts, and Intellectual Property.
-random_paper: 13
+random_paper: 10
 score:
   band: minimal
   composite: 4.3
@@ -151,7 +151,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -171,7 +171,7 @@ tags:
 - Intellectual Property
 - Labor And Employment
 - Law
-- Law Firm
+- Law Firms
 - Legal Services
 - Litigation
 - Lobbying

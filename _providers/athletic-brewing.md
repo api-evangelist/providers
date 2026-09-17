@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service Athletic Brewing's Shopify storefront serves at https://athleticbrewing.com/api/ucp/mcp. An anonymous MCP (JSON-RPC 2.0) endpoint exposing thirteen too
@@ -158,11 +158,11 @@ modified: '2026-08-06'
 name: Athletic Brewing
 nav: Providers
 network: true
-overview: 'Athletic Brewing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Non-Alcoholic Beer, Beverage, Consumer Packaged Goods, and Direct to Consumer.
+overview: 'Athletic Brewing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Non-Alcoholic Beer, Beverages, Consumer Packaged Goods, and Direct to Consumer.
 
 
   Athletic Brewing''s developer surface includes documentation, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 3
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Athletic Brewing Rate Limits
@@ -196,7 +196,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -216,7 +216,7 @@ slug: athletic-brewing
 tags:
 - Company
 - Non-Alcoholic Beer
-- Beverage
+- Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
 - E-Commerce

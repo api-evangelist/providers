@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: REST API for embedding and automating Syncari. Covers instance provisioning, synapse create/test/activate, entity and field pipeline authoring, validation and publishing, Quick Start install, schema (
@@ -228,7 +228,7 @@ plans:
 - name: Syncari Plans Pricing
   plan_count: 0
   slug: syncari-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Syncari Rate Limits
@@ -261,7 +261,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://uk.api.just-eat.io
   baseurl_source: declared
   description: The Attempted Delivery API API from Just Eat — 2 operation(s) for attempted delivery api.
-  name: Just Eat Attempted Delivery API API
+  name: Just Eat Attempted Delivery API
   slug: just-eat-attempted-delivery-api-api
 - baseURL: https://uk.api.just-eat.io
   baseurl_source: declared
@@ -70,17 +70,12 @@ apis:
 - baseURL: https://uk.api.just-eat.io
   baseurl_source: declared
   description: The Delivery Pools API API from Just Eat — 5 operation(s) for delivery pools api.
-  name: Just Eat Delivery Pools API API
+  name: Just Eat Delivery Pools API
   slug: just-eat-delivery-pools-api-api
 - baseURL: https://uk.api.just-eat.io
   baseurl_source: declared
-  description: The DeliveryFee API from Just Eat — 1 operation(s) for deliveryfee.
-  name: Just Eat DeliveryFee API
-  slug: just-eat-deliveryfee-api
-- baseURL: https://uk.api.just-eat.io
-  baseurl_source: declared
   description: The Order Acceptance API API from Just Eat — 7 operation(s) for order acceptance api.
-  name: Just Eat Order Acceptance API API
+  name: Just Eat Order Acceptance API
   slug: just-eat-order-acceptance-api-api
 - baseURL: https://uk.api.just-eat.io
   baseurl_source: declared
@@ -90,12 +85,12 @@ apis:
 - baseURL: https://uk.api.just-eat.io
   baseurl_source: declared
   description: The Order API API from Just Eat — 1 operation(s) for order api.
-  name: Just Eat Order API API
+  name: Just Eat Order API
   slug: just-eat-order-api-api
 - baseURL: https://uk.api.just-eat.io
   baseurl_source: declared
   description: The Order Delivery API API from Just Eat — 10 operation(s) for order delivery api.
-  name: Just Eat Order Delivery API API
+  name: Just Eat Order Delivery API
   slug: just-eat-order-delivery-api-api
 - baseURL: https://uk.api.just-eat.io
   baseurl_source: declared
@@ -152,6 +147,11 @@ apis:
   description: The Search API from Just Eat — 2 operation(s) for search.
   name: Just Eat Search API
   slug: just-eat-search-api
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Delivery fee API from Just Eat — 1 operation(s) for delivery fee.
+  name: Just Eat Delivery fee API
+  slug: just-eat-delivery-fee-api
 artifact_total: 51
 asyncapis:
 - description: ''
@@ -331,21 +331,21 @@ created: '2026-07-17'
 description: 'Just Eat Takeaway.com is a leading global online food-delivery marketplace, formed by the 2020 merger of Just Eat and Takeaway.com and headquartered in Amsterdam. It connects consumers with local restaurants and a last-mile delivery network across the UK, Europe, Australia/New Zealand and North America. Its public developer surface (developers.just-eat.com) exposes the Just Eat UK API for restaurant discovery and search, product catalogue and menu ingestion, order-lifecycle management, delivery-state tracking, checkout and basket, and consumer communication preferences, plus specialised partner integrations: JET Connect (point-of-sale) and JET Go (delivery as a service). Order-lifecycle and delivery-state events are pushed to partners through an extensive webhook surface, including async webhooks that use a callback URL.'
 image: https://logo.clearbit.com/just-eat.com
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Just Eat
 nav: Providers
 network: true
-overview: 'Just Eat publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Attempted Delivery API API, Attempted Delivery Webhooks API, Checkout API, and 20 more. Tagged areas include Food Delivery, Restaurant, Marketplace, Logistics, and Order.
+overview: 'Just Eat publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Attempted Delivery API, Attempted Delivery Webhooks API, Checkout API, and 20 more. Tagged areas include Food Delivery, Restaurant, Marketplace, Logistics, and Order.
 
 
   The Just Eat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Just Eat''s developer surface includes authentication, documentation, API reference, engineering blog, and 16 more developer resources.'
-random_paper: 15
+random_paper: 21
 score:
   band: thin
-  composite: 34.8
+  composite: 35.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -353,11 +353,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 60.6
+    contract_quality: 62.7
     developer_ergonomics: 32.7
     discoverability: 75.9
     operational_transparency: 10.5
@@ -372,7 +372,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

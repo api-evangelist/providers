@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -81,6 +81,10 @@ collections:
   name: Apache ServiceMix REST Bundles Routes API
   slug: open-apache-servicemix-routes-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apache.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/agentic-access/apache-servicemix-agentic-access.yml
   title: ''
@@ -240,7 +244,7 @@ jsonld:
   property_count: 24
   slug: apache-servicemix-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apache ServiceMix
 nav: Providers
 network: true
@@ -250,12 +254,12 @@ overview: 'Apache ServiceMix publishes 4 APIs on the [APIs.io](https://apis.io/)
   The Apache ServiceMix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache ServiceMix''s developer surface includes documentation and 7 more developer resources.'
+  Apache ServiceMix''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Apache Servicemix Plans Pricing
   plan_count: 3
   slug: apache-servicemix-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Apache Servicemix Rate Limits
@@ -309,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -342,4 +346,5 @@ use_cases:
   name: Service Orchestration
 - description: Transform between HTTP, JMS, JDBC, and file protocols
   name: Protocol Mediation
+website: https://apache.org
 ---

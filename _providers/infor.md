@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://mingle-ionapi.inforcloudsuite.com/{tenant}/M3
   baseurl_source: declared
   description: Infor M3 business API programs
-  name: Infor M3 API API
+  name: Infor M3 API
   slug: infor-m3-api-api
 - description: The Infor Document Management REST API, published on the Infor Developer Portal at developer.infor.com/api and served through the ION API Gateway under the IDM suite path. It covers the content reposi
   name: Infor Document Management (IDM) API
@@ -329,11 +329,11 @@ jsonld:
   property_count: 6
   slug: infor-context
 layout: provider
-modified: '2026-09-13'
+modified: '2026-09-16'
 name: Infor
 nav: Providers
 network: true
-overview: 'Infor publishes 2 APIs on the [APIs.io](https://apis.io/) network: ION Documents API and M3 API API. Tagged areas include ERP, Manufacturing, Supply Chain, Cloud, and Integration.
+overview: 'Infor publishes 2 APIs on the [APIs.io](https://apis.io/) network: ION Documents API and M3 API. Tagged areas include ERP, Manufacturing, Supply Chain, Cloud, and Integration.
 
 
   The Infor catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -344,7 +344,7 @@ plans:
 - name: Infor Plans Pricing
   plan_count: 1
   slug: infor-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Infor Rate Limits
@@ -406,7 +406,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

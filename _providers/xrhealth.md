@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -31,15 +31,40 @@ agentic_access:
   operation_count: 12
   slug: xrhealth-agentic-access
   summary_line: 12 operations · 8 acting · 2 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.xr.health/v1
   baseurl_source: declared
-  description: First-party REST API for XRHealth applications and approved integrations, published as OpenAPI 3.1.0 at https://api.xr.health/v1/openapi.json. The document currently describes the platform authenticat
-  name: XRHealth Platform API
-  slug: xrhealth-platform-api
-artifact_total: 7
+  description: The Auth API from XRHealth — 8 operation(s) for auth.
+  name: XRHealth Auth API
+  slug: xrhealth-auth-api
+- baseURL: https://api.xr.health/v1
+  baseurl_source: declared
+  description: The Me API from XRHealth — 1 operation(s) for me.
+  name: XRHealth Me API
+  slug: xrhealth-me-api
+- baseURL: https://api.xr.health/v1
+  baseurl_source: declared
+  description: The Openapi.json API from XRHealth — 1 operation(s) for openapi.json.
+  name: XRHealth Openapi.json API
+  slug: xrhealth-openapi-json-api
+- baseURL: https://api.xr.health/v1
+  baseurl_source: declared
+  description: The .well Known API from XRHealth — 1 operation(s) for .well known.
+  name: XRHealth .well Known API
+  slug: xrhealth-well-known-api
+- baseURL: https://api.xr.health/v1
+  baseurl_source: declared
+  description: The XRHealth Platform API API from XRHealth — 1 operation(s) for xrhealth platform api.
+  name: XRHealth XRHealth Platform API
+  slug: xrhealth-xrhealth-platform-api-api
+artifact_total: 11
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/overlays/xrhealth-platform-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/xrhealth-platform-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/agentic-access/xrhealth-agentic-access.yml
   title: ''
@@ -154,15 +179,15 @@ modified: '2026-09-04'
 name: XRHealth
 nav: Providers
 network: true
-overview: 'XRHealth publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Health, Digital Health, Telehealth, Virtual Reality, and Extended Reality.
+overview: 'XRHealth publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Me API, Openapi.json API, and 2 more. Tagged areas include Health, Digital Health, Telehealth, Virtual Reality, and Extended Reality.
 
 
-  XRHealth''s developer surface includes authentication, signup flow, support, engineering blog, pricing, and 18 more developer resources.'
+  XRHealth''s developer surface includes authentication, signup flow, support, engineering blog, pricing, and 19 more developer resources.'
 plans:
 - name: Xrhealth Plans Pricing
   plan_count: 0
   slug: xrhealth-plans-pricing
-random_paper: 3
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Xrhealth Rate Limits
@@ -174,7 +199,7 @@ scopes:
   summary_line: 2 scopes
 score:
   band: thin
-  composite: 38.2
+  composite: 36.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -182,11 +207,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 49.7
+    contract_quality: 44.5
     developer_ergonomics: 30.4
     discoverability: 68.5
     operational_transparency: 0.0
@@ -195,10 +220,10 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
-      marker_coverage: 100.0
-      total: 1
+      marker_coverage: 0.0
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -208,7 +233,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

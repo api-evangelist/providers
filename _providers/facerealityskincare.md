@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Shopify-hosted commerce surface for the Face Reality Skincare store. Exposes a hosted Storefront MCP server for catalog search, product lookup, and cart building, a UCP merchant profile for agent-driv
@@ -114,7 +114,7 @@ overview: 'Face Reality Skincare publishes 1 API on the [APIs.io](https://apis.i
 
 
   Face Reality Skincare''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 14
+random_paper: 7
 scopes:
 - name: Facerealityskincare Scopes
   scope_count: 4
@@ -144,7 +144,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -169,7 +169,7 @@ tags:
 - E-Commerce
 - Shopify
 - Commerce
-- Agent Commerce
+- Agentic Commerce
 - MCP
 website: https://facerealityskincare.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -75,11 +75,6 @@ apis:
   description: Account-level custom stamps used on markups across projects.
   name: Fieldwire Custom Stamps API
   slug: fieldwire-custom-stamps-api
-- baseURL: https://client-api.us.fieldwire.com/api/v3
-  baseurl_source: spec
-  description: Floorplan lifecycle, hierarchy, and collections.
-  name: Fieldwire Floorplans API
-  slug: fieldwire-floorplans-api
 - baseURL: https://client-api.us.fieldwire.com/api/v3
   baseurl_source: spec
   description: Inputs (text, number, photo, signature, choice, etc.) inside a section.
@@ -135,6 +130,11 @@ apis:
   description: Account-level user, role, and permission management.
   name: Fieldwire Users API
   slug: fieldwire-users-api
+- baseURL: https://client-api.us.fieldwire.com/api/v3
+  baseurl_source: spec
+  description: Floorplan lifecycle, hierarchy, and collections.
+  name: Fieldwire Floor Plans API
+  slug: fieldwire-floor-plans-api
 artifact_total: 97
 asyncapis:
 - description: Outbound webhook events delivered by Fieldwire to subscriber `post_url` endpoints. Subscribers register through the Webhooks REST API; Fieldwire POSTs JSON payloads describing entity changes (created,
@@ -525,7 +525,7 @@ plans:
 - name: Fieldwire Plans Pricing
   plan_count: 5
   slug: fieldwire-plans-pricing
-random_paper: 10
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Fieldwire Rate Limits
@@ -573,7 +573,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 71.1
     contract_governance: 13.6
@@ -581,7 +581,7 @@ score:
     developer_ergonomics: 56.0
     discoverability: 59.3
     operational_transparency: 68.4
-  previous_composite: 57.3
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     contracts:
@@ -590,7 +590,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -616,7 +616,7 @@ tags:
 - Drawings
 - BIM
 - Forms
-- Inspections
+- Inspection
 - Project Management
 - Hilti
 website: https://www.fieldwire.com/

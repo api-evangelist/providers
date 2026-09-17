@@ -22,58 +22,28 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.9
-  scored_at: '2026-09-15'
+  score: 56.3
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 13
-  human_in_the_loop: 1
+- acting_count: 168
+  human_in_the_loop: 5
   name: Acronis Agentic Access
-  operation_count: 30
+  operation_count: 320
   slug: acronis-agentic-access
-  summary_line: 30 operations · 13 acting · 1 human-in-the-loop
+  summary_line: 320 operations · 168 acting · 5 human-in-the-loop
 api_count: 12
 apis:
-- baseURL: https://{datacenter}.acronis.com/api
-  baseurl_source: declared
-  description: Acronis Resource and Policy Management API enables organizations to efficiently manage resources and policies within their IT infrastructure.
-  name: Acronis Resource and Policy Management API
-  slug: resource-and-policy-management-api
-- baseURL: https://{datacenter}.acronis.com/api/advanced-automation/v1
-  baseurl_source: declared
-  description: The Acronis Advanced Automation API allows users to automate and streamline their backup and recovery processes with custom scripts and workflows.
-  name: Acronis Advanced Automation API
-  slug: advanced-automation-api
-- baseURL: https://{datacenter}.acronis.com/api/event_manager/v1
-  baseurl_source: declared
-  description: The Acronis Event Manager API allows users to monitor and manage events across their entire Acronis ecosystem with real-time access to event data.
-  name: Acronis Event Manager API
-  slug: event-manager-api
-- baseURL: https://{datacenter}.acronis.com/api/dr/v2
-  baseurl_source: declared
-  description: The Acronis Disaster Recovery Service API allows organizations to automate and streamline their disaster recovery processes.
-  name: Acronis Disaster Recovery Service API
-  slug: disaster-recovery-service-api
-- baseURL: https://{datacenter}.acronis.com/api/mdr/v1
-  baseurl_source: declared
-  description: The Acronis Endpoint Detection and Response API is a comprehensive security solution that helps organizations detect and respond to cybersecurity threats in real-time.
-  name: Acronis Endpoint Detection and Response API
-  slug: endpoint-detection-and-response-api
-- baseURL: https://{datacenter}.acronis.com/api/vault_manager/v1
-  baseurl_source: declared
-  description: The Acronis Vault Manager REST API allows users to manage and interact with their Acronis Vault storage solutions programmatically.
-  name: Acronis Vault Manager REST API
-  slug: vault-manager-rest-api
 - baseURL: https://{datacenter}.acronis.com/api/2
   baseurl_source: declared
   description: Task activity and sub-operation tracking
@@ -91,11 +61,6 @@ apis:
   slug: acronis-agents-api
 - baseURL: https://{datacenter}.acronis.com/api/2
   baseurl_source: declared
-  description: Token issuance, revocation, and introspection
-  name: Acronis Authentication API
-  slug: acronis-authentication-api
-- baseURL: https://{datacenter}.acronis.com/api/2
-  baseurl_source: declared
   description: OAuth2 client credential management
   name: Acronis Clients API
   slug: acronis-clients-api
@@ -104,11 +69,6 @@ apis:
   description: Hardware node management
   name: Acronis Hardware Nodes API
   slug: acronis-hardware-nodes-api
-- baseURL: https://{datacenter}.acronis.com/api/2
-  baseurl_source: declared
-  description: Offering items, quotas, and edition management
-  name: Acronis Licensing API
-  slug: acronis-licensing-api
 - baseURL: https://{datacenter}.acronis.com/api/task_manager/v2
   baseurl_source: declared
   description: Backup and protection task monitoring
@@ -121,35 +81,325 @@ apis:
   slug: acronis-tenants-api
 - baseURL: https://{datacenter}.acronis.com/api/2
   baseurl_source: declared
-  description: Usage metrics and reporting
-  name: Acronis Usage API
-  slug: acronis-usage-api
-- baseURL: https://{datacenter}.acronis.com/api/2
-  baseurl_source: declared
   description: User account management within tenants
   name: Acronis Users API
   slug: acronis-users-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Abgw Storages API from Acronis — 1 operation(s) for abgw storages.
+  name: Acronis Abgw Storages API
+  slug: acronis-abgw-storages-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Accounts API from Acronis — 1 operation(s) for accounts.
+  name: Acronis Accounts API
+  slug: acronis-accounts-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Agent Update References API from Acronis — 1 operation(s) for agent update references.
+  name: Acronis Agent Update References API
+  slug: acronis-agent-update-references-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Agent Update Settings API from Acronis — 2 operation(s) for agent update settings.
+  name: Acronis Agent Update Settings API
+  slug: acronis-agent-update-settings-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Alerts API from Acronis — 3 operation(s) for alerts.
+  name: Acronis Alerts API
+  slug: acronis-alerts-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Antimalware Scan Stats API from Acronis — 1 operation(s) for antimalware scan stats.
+  name: Acronis Antimalware Scan Stats API
+  slug: acronis-antimalware-scan-stats-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Applications API from Acronis — 4 operation(s) for applications.
+  name: Acronis Applications API
+  slug: acronis-applications-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Archives API from Acronis — 2 operation(s) for archives.
+  name: Acronis Archives API
+  slug: acronis-archives-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Audit Log API from Acronis — 1 operation(s) for audit log.
+  name: Acronis Audit Log API
+  slug: acronis-audit-log-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Backed Up Resources API from Acronis — 1 operation(s) for backed up resources.
+  name: Acronis Backed Up Resources API
+  slug: acronis-backed-up-resources-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Backups API from Acronis — 1 operation(s) for backups.
+  name: Acronis Backups API
+  slug: acronis-backups-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Call API from Acronis — 1 operation(s) for call.
+  name: Acronis Call API
+  slug: acronis-call-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Categories API from Acronis — 1 operation(s) for categories.
+  name: Acronis Categories API
+  slug: acronis-categories-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The ContractPart API from Acronis — 1 operation(s) for contractpart.
+  name: Acronis Contract Part API
+  slug: acronis-contractpart-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Contracts API from Acronis — 1 operation(s) for contracts.
+  name: Acronis Contracts API
+  slug: acronis-contracts-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Count API from Acronis — 1 operation(s) for count.
+  name: Acronis Count API
+  slug: acronis-count-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Customer Alerts API from Acronis — 1 operation(s) for customer alerts.
+  name: Acronis Customer Alerts API
+  slug: acronis-customer-alerts-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Customer Alerts Count API from Acronis — 1 operation(s) for customer alerts count.
+  name: Acronis Customer Alerts Count API
+  slug: acronis-customer-alerts-count-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Devices API from Acronis — 2 operation(s) for devices.
+  name: Acronis Devices API
+  slug: acronis-devices-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The DownloadInvoice API from Acronis — 1 operation(s) for downloadinvoice.
+  name: Acronis Download Invoice API
+  slug: acronis-downloadinvoice-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Effective Price Lists API from Acronis — 1 operation(s) for effective price lists.
+  name: Acronis Effective Price Lists API
+  slug: acronis-effective-price-lists-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The EmailUpdates API from Acronis — 1 operation(s) for emailupdates.
+  name: Acronis Email Updates API
+  slug: acronis-emailupdates-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Events API from Acronis — 1 operation(s) for events.
+  name: Acronis Events API
+  slug: acronis-events-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The ExportInvoice API from Acronis — 1 operation(s) for exportinvoice.
+  name: Acronis Export Invoice API
+  slug: acronis-exportinvoice-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Idp API from Acronis — 9 operation(s) for idp.
+  name: Acronis Idp API
+  slug: acronis-idp-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Incidents API from Acronis — 5 operation(s) for incidents.
+  name: Acronis Incidents API
+  slug: acronis-incidents-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Infra API from Acronis — 2 operation(s) for infra.
+  name: Acronis Infra API
+  slug: acronis-infra-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The InvoiceOverview API from Acronis — 1 operation(s) for invoiceoverview.
+  name: Acronis Invoice Overview API
+  slug: acronis-invoiceoverview-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Ledger API from Acronis — 1 operation(s) for ledger.
+  name: Acronis Ledger API
+  slug: acronis-ledger-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Ledgers API from Acronis — 1 operation(s) for ledgers.
+  name: Acronis Ledgers API
+  slug: acronis-ledgers-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Locations API from Acronis — 3 operation(s) for locations.
+  name: Acronis Locations API
+  slug: acronis-locations-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Policy Management API from Acronis — 21 operation(s) for policy management.
+  name: Acronis Policy Management API
+  slug: acronis-policy-management-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Priorities API from Acronis — 1 operation(s) for priorities.
+  name: Acronis Priorities API
+  slug: acronis-priorities-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Product API from Acronis — 1 operation(s) for product.
+  name: Acronis Product API
+  slug: acronis-product-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Registration Tokens API from Acronis — 2 operation(s) for registration tokens.
+  name: Acronis Registration Tokens API
+  slug: acronis-registration-tokens-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Reports API from Acronis — 4 operation(s) for reports.
+  name: Acronis Reports API
+  slug: acronis-reports-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Resource Management API from Acronis — 6 operation(s) for resource management.
+  name: Acronis Resource Management API
+  slug: acronis-resource-management-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Resource Status API from Acronis — 1 operation(s) for resource status.
+  name: Acronis Resource Status API
+  slug: acronis-resource-status-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The SalesItems API from Acronis — 1 operation(s) for salesitems.
+  name: Acronis Sales Items API
+  slug: acronis-salesitems-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The SchedulerTickets API from Acronis — 1 operation(s) for schedulertickets.
+  name: Acronis Scheduler Tickets API
+  slug: acronis-schedulertickets-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Search API from Acronis — 1 operation(s) for search.
+  name: Acronis Search API
+  slug: acronis-search-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Search Index Size Stats API from Acronis — 1 operation(s) for search index size stats.
+  name: Acronis Search Index Size Stats API
+  slug: acronis-search-index-size-stats-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Servers API from Acronis — 5 operation(s) for servers.
+  name: Acronis Servers API
+  slug: acronis-servers-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Settings API from Acronis — 5 operation(s) for settings.
+  name: Acronis Settings API
+  slug: acronis-settings-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Sites API from Acronis — 2 operation(s) for sites.
+  name: Acronis Sites API
+  slug: acronis-sites-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The SLA API from Acronis — 1 operation(s) for sla.
+  name: Acronis SLA API
+  slug: acronis-sla-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Stats API from Acronis — 1 operation(s) for stats.
+  name: Acronis Stats API
+  slug: acronis-stats-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Status API from Acronis — 1 operation(s) for status.
+  name: Acronis Status API
+  slug: acronis-status-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Statuses API from Acronis — 1 operation(s) for statuses.
+  name: Acronis Statuses API
+  slug: acronis-statuses-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Storage Dirs API from Acronis — 2 operation(s) for storage dirs.
+  name: Acronis Storage Dirs API
+  slug: acronis-storage-dirs-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Storage Nodes API from Acronis — 3 operation(s) for storage nodes.
+  name: Acronis Storage Nodes API
+  slug: acronis-storage-nodes-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Storage Usage Stats API from Acronis — 1 operation(s) for storage usage stats.
+  name: Acronis Storage Usage Stats API
+  slug: acronis-storage-usage-stats-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Subscriptions API from Acronis — 2 operation(s) for subscriptions.
+  name: Acronis Subscriptions API
+  slug: acronis-subscriptions-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Sync And Share Nodes API from Acronis — 14 operation(s) for sync and share nodes.
+  name: Acronis Sync And Share Nodes API
+  slug: acronis-sync-and-share-nodes-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Sync API from Acronis — 11 operation(s) for sync.
+  name: Acronis Sync API
+  slug: acronis-sync-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Taxes API from Acronis — 1 operation(s) for taxes.
+  name: Acronis Taxes API
+  slug: acronis-taxes-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Topics API from Acronis — 2 operation(s) for topics.
+  name: Acronis Topics API
+  slug: acronis-topics-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Types API from Acronis — 2 operation(s) for types.
+  name: Acronis Types API
+  slug: acronis-types-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The UploadedFiles API from Acronis — 1 operation(s) for uploadedfiles.
+  name: Acronis Uploaded Files API
+  slug: acronis-uploadedfiles-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The Vaults API from Acronis — 22 operation(s) for vaults.
+  name: Acronis Vaults API
+  slug: acronis-vaults-api
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: The .well Known API from Acronis — 1 operation(s) for .well known.
+  name: Acronis .well Known API
+  slug: acronis-well-known-api
 - baseURL: https://{datacenter}.acronis.com/api/2
   baseurl_source: declared
-  description: The platform spine — tenants, users, OAuth clients, applications, licensing (offering items), usage reporting, infrastructure and branding for Acronis Cyber Protect Cloud. 95 operations in the contrac
-  name: Acronis Account Management API
-  slug: account-management-api
-- baseURL: https://{datacenter}.acronis.com/api/alert_manager/v1
+  description: The Dashboard Data API from Acronis — 1 operation(s) for dashboard data.
+  name: Acronis Dashboard Data API
+  slug: acronis-dashboard-data-api
+- baseURL: https://{datacenter}.acronis.com/api/2
   baseurl_source: declared
-  description: Operational alerting across the Acronis platform — fetch, categorise, register and unregister alert types, and dismiss alerts, so an integration can drive its own monitoring surface from Acronis event
-  name: Acronis Alert Manager API
-  slug: alert-manager-api
-- baseURL: https://{datacenter}.acronis.com/api/price_sync/v1
-  baseurl_source: declared
-  description: Reads the effective price lists a service-provider tenant is on, so an MSP billing system can reconcile Acronis charges against its own rate cards without scraping the partner portal.
-  name: Acronis Price List API
-  slug: price-list-api
-- baseURL: https://{datacenter}.acronis.com/fc/api/v1
-  baseurl_source: declared
-  description: Manages the Acronis Files Cloud surface — devices, sync-and-share nodes, file revisions and restores, audit log — for building file collaboration and retention workflows on the Acronis platform.
-  name: Acronis File Sync & Share API
-  slug: file-sync-and-share-api
-artifact_total: 161
+  description: The Health Check API from Acronis — 1 operation(s) for health check.
+  name: Acronis Health Check API
+  slug: acronis-health-check-api
+artifact_total: 211
 asyncapis:
 - description: ''
   name: Acronis Events Webhooks
@@ -785,7 +1035,7 @@ modified: '2026-08-30'
 name: Acronis
 nav: Providers
 network: true
-overview: 'Acronis publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Resource and Policy Management API, Advanced Automation API, Event Manager API, and 18 more. Tagged areas include Cybersecurity, Data Protection, Endpoint Management, Backup and Recovery, and Disaster Recovery.
+overview: 'Acronis publishes 71 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Agent Updates API, Agents API, and 68 more. Tagged areas include Cybersecurity, Data Protection, Endpoint Management, Backup and Recovery, and Disaster Recovery.
 
 
   The Acronis catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -796,7 +1046,7 @@ plans:
 - name: Acronis Plans Pricing
   plan_count: 4
   slug: acronis-plans-pricing
-random_paper: 16
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Acronis Rate Limits
@@ -830,21 +1080,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.9
+  composite: 81.3
   coverage:
     artifact_dirs: 34
-    catalog_earned: 87.5
+    catalog_earned: 84.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 27.5
+    catalog_gap: 30.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.4
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 30.7
+    contract_quality: 66.2
     developer_ergonomics: 86.3
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 76.3
   previous_composite: 72.9
   provenance:
@@ -852,14 +1102,14 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 14
-      marker_coverage: 100.0
-      total: 14
+      derived: 4
+      marker_coverage: 5.4
+      total: 74
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 50.0

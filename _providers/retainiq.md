@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -116,7 +116,7 @@ description: RetainIQ is a full-service retention-marketing agency for direct-to
   on the listing now redirects to a domain-for-sale page.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/retainiq.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: RetainIQ
 nav: Providers
 network: true
@@ -128,7 +128,7 @@ plans:
 - name: Retainiq Plans Pricing
   plan_count: 2
   slug: retainiq-plans-pricing
-random_paper: 0
+random_paper: 3
 score:
   band: emerging
   composite: 16.2
@@ -155,7 +155,7 @@ score:
     regime_id: telecommunications
     score: 19.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -178,5 +178,6 @@ tags:
 - Personalization
 - D2C
 - Klaviyo
+- Direct to Consumer
 website: https://retainiq.io/
 ---

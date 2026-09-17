@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Agrofy Developers is the company''s marketed partner-integration program for marketplace sellers — listing management, lead management and catalog synchronisation. Agrofy publishes no machine-readable '
@@ -111,7 +111,7 @@ plans:
 - name: Agrofy Plans Pricing
   plan_count: 0
   slug: agrofy-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Agrofy Rate Limits
@@ -149,7 +149,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

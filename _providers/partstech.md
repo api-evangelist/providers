@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.partstech.com
@@ -332,7 +332,7 @@ plans:
 - name: Partstech Plans Pricing
   plan_count: 3
   slug: partstech-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Partstech Rate Limits
@@ -351,7 +351,7 @@ score:
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
-    contract_quality: 61.3
+    contract_quality: 61.4
     developer_ergonomics: 56.5
     discoverability: 50.0
     operational_transparency: 42.1
@@ -366,7 +366,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

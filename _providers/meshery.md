@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -121,7 +121,7 @@ overview: 'Meshery is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Meshery''s developer surface includes documentation, signup flow, engineering blog, and 14 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: thin
   composite: 28.9
@@ -145,7 +145,7 @@ score:
     score: 100.0
   previous_composite: 28.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

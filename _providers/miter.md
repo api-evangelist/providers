@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Miter exposes a REST API used to build custom integrations between the Miter HCM platform and construction ERPs, accounting, and workforce systems — syncing projects, cost codes, accounts, employees, '
@@ -104,7 +104,7 @@ overview: 'Miter publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Miter''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 20
+random_paper: 17
 score:
   band: emerging
   composite: 18.8
@@ -127,7 +127,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -150,7 +150,7 @@ tags:
 - Construction
 - Payroll
 - HCM
-- HR
+- Human Resources
 - Field Operations
 - Expense Management
 - Workforce Management

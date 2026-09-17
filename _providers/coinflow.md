@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -50,11 +50,6 @@ apis:
   description: The authentication API from Coinflow — 3 operation(s) for authentication.
   name: Coinflow authentication API
   slug: coinflow-authentication-api
-- baseURL: https://api.coinflow.cash/api
-  baseurl_source: declared
-  description: The cardTokenization API from Coinflow — 3 operation(s) for cardtokenization.
-  name: Coinflow cardTokenization API
-  slug: coinflow-cardtokenization-api
 - baseURL: https://api.coinflow.cash/api
   baseurl_source: declared
   description: The checkout API from Coinflow — 33 operation(s) for checkout.
@@ -115,6 +110,11 @@ apis:
   description: The withdraw API from Coinflow — 30 operation(s) for withdraw.
   name: Coinflow withdraw API
   slug: coinflow-withdraw-api
+- baseURL: https://api.coinflow.cash/api
+  baseurl_source: declared
+  description: The Card Tokenization API from Coinflow — 3 operation(s) for card tokenization.
+  name: Coinflow Card Tokenization API
+  slug: coinflow-card-tokenization-api
 artifact_total: 34
 asyncapis:
 - description: ''
@@ -342,14 +342,14 @@ modified: '2026-07-18'
 name: Coinflow
 nav: Providers
 network: true
-overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authentication API, cardTokenization API, checkout API, and 11 more. Tagged areas include Company, Crypto, Payments, Stablecoins, and USDC.
+overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authentication API, checkout API, customers API, and 11 more. Tagged areas include Company, Crypto, Payments, Stablecoins, and USDC.
 
 
   The Coinflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Coinflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, sandbox, and 29 more developer resources.'
-random_paper: 4
+random_paper: 7
 score:
   band: strong
   composite: 58.7
@@ -386,7 +386,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

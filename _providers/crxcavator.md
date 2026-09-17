@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Chrome extension risk scoring
@@ -57,7 +57,7 @@ name: CRXcavator
 nav: Providers
 network: true
 overview: CRXcavator publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 14
+random_paper: 7
 score:
   band: minimal
   composite: 6.7
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 6.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

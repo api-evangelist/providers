@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
 - description: The Knative CLI (kn) provides a command-line interface for creating and managing Knative resources including Services, Revisions, Routes, event sources, and Brokers. It simplifies tasks like traffic s
   name: Knative CLI (kn)
   slug: knative-cli
-- baseURL: https://kubernetes.default.svc
-  baseurl_source: spec
-  description: The Apis API from Knative — 2 operation(s) for apis.
-  name: Knative Apis API
-  slug: knative-apis-api
 - baseURL: https://kubernetes.default.svc
   baseurl_source: spec
   description: Knative Broker resources collect pools of events that can be consumed using Triggers. Brokers provide event routing with filtering, guaranteed delivery, and dead-letter sink support. The default broke
@@ -78,16 +73,6 @@ apis:
   slug: knative-domainmappings-api
 - baseURL: https://kubernetes.default.svc
   baseurl_source: spec
-  description: Knative event source resources connect external event producers to the eventing mesh. Built-in sources include ApiServerSource for Kubernetes API events, PingSource for scheduled events, and SinkBindi
-  name: Knative EventSources API
-  slug: knative-eventsources-api
-- baseURL: https://kubernetes.default.svc
-  baseurl_source: spec
-  description: Knative EventType resources maintain a catalog of event types that can be consumed from Brokers. EventTypes help consumers discover what events are available without inspecting Broker contents directl
-  name: Knative EventTypes API
-  slug: knative-eventtypes-api
-- baseURL: https://kubernetes.default.svc
-  baseurl_source: spec
   description: Knative Revision resources are immutable snapshots of application code and configuration at a point in time. Revisions are created by Configuration updates and are the actual units that are scaled.
   name: Knative Revisions API
   slug: knative-revisions-api
@@ -106,6 +91,21 @@ apis:
   description: 'Knative Trigger resources define filtered delivery options for events arriving at a Broker. A Trigger selects events by attribute filters and routes matching events to a destination such as a Knative '
   name: Knative Triggers API
   slug: knative-triggers-api
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The Apis API from Knative — 2 operation(s) for apis.
+  name: Knative APIS API
+  slug: knative-apis-api
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative event source resources connect external event producers to the eventing mesh. Built-in sources include ApiServerSource for Kubernetes API events, PingSource for scheduled events, and SinkBindi
+  name: Knative Event Sources API
+  slug: knative-event-sources-api
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative EventType resources maintain a catalog of event types that can be consumed from Brokers. EventTypes help consumers discover what events are available without inspecting Broker contents directl
+  name: Knative Event Types API
+  slug: knative-event-types-api
 artifact_total: 50
 asyncapis:
 - description: Knative Eventing uses HTTP POST requests conforming to the CloudEvents specification to deliver events between event sources, Brokers, Triggers, Channels, and Subscriptions. Events can carry structure
@@ -296,7 +296,7 @@ modified: '2026-05-19'
 name: Knative
 nav: Providers
 network: true
-overview: 'Knative publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Apis API, Brokers API, Channels API, and 8 more. Tagged areas include Auto-Scaling, Cloud-Native, Event-Driven, Graduated, and Kubernetes.
+overview: 'Knative publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Brokers API, Channels API, Configurations API, and 8 more. Tagged areas include Auto-Scaling, Cloud-Native, Event-Driven, Graduated, and Kubernetes.
 
 
   The Knative catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -307,7 +307,7 @@ plans:
 - name: Knative Plans Pricing
   plan_count: 3
   slug: knative-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Knative Rate Limits
@@ -364,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -24,20 +24,75 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://partner.xcures.com
   baseurl_source: declared
-  description: 'REST API for the xCures Clinical Clarity Engine. Register patients (Subjects), dispatch and poll queries against Carequality/TEFCA health information networks, retrieve and publish clinical documents '
-  name: xCures Public API
-  slug: xcures-public-api
-artifact_total: 9
+  description: Account creation (e.g., identity proofing, eConsent) that is required for a patient to progress on the xCures Platform.
+  name: xCures Application API
+  slug: xcures-application-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: AI-powered feature leveraging xCures’ targeted data extraction/processing to populate validated, customizable question/answer-style items. Responses can be highly flexible and every item returns a jus
+  name: xCures Checklist API
+  slug: xcures-checklist-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: Clinical concepts is a proprietary xCures higher-level, flattened, filtered, opinionated view of medical record information, structured around FHIR guidelines.
+  name: xCures Clinical Concepts API
+  slug: xcures-clinical-concepts-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: Patient records retrieved by the xCures platform and/or loaded by platform users.
+  name: xCures Document API
+  slug: xcures-document-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: '**F**ast **H**ealthcare **I**nteroperability **R**esource is an international data model specification developed by HL7 International to enable healthcare data exchange and interoperability between di'
+  name: xCures FHIR API
+  slug: xcures-fhir-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: A configured workspace on the xCures Platform. Use this endpoint to discover the projectId value(s) required by other API calls, without needing to log into the portal.
+  name: xCures Project API
+  slug: xcures-project-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: A specified, approved request for patient records across the network (e.g., via Carequality/TEFCA to support treatment activities, via TEFCA for IAS queries) with an associated status (e.g., “complete
+  name: xCures Query API
+  slug: xcures-query-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: Reciprocity or "Responder" workflows refer to the process of sharing clinical documentation housed within your system with other organizations/providers, when participating in health data exchange net
+  name: xCures Reciprocity Template API
+  slug: xcures-reciprocity-template-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: An individual patient created on the xCures Platform.
+  name: xCures Subject API
+  slug: xcures-subject-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: The AI-generated summary of a patient’s overall records and condition(s).
+  name: xCures Summary API
+  slug: xcures-summary-api
+- baseURL: https://partner.xcures.com
+  baseurl_source: declared
+  description: All API requests to xCures must provide an access token, retrieved via the standard OAuth authorization flow below.
+  name: xCures O Auth API
+  slug: xcures-oauth-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Xcures Application Webhooks
   slug: xcures-application-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/xcures/refs/heads/main/overlays/xcures-patient-registry-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/xcures-patient-registry-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -208,6 +263,10 @@ common:
   title: ''
   type: Examples
   url: examples/_index.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:help@xcures.com
 created: '2026-09-04'
 description: xCures operates the Clinical Clarity Engine, an AI platform that retrieves, organizes and structures fragmented patient medical records into decision-ready clinical data. Founded in 2018 and headquartered in Oakland, California, the company connects to national health information networks (Carequality and TEFCA) to pull a patient's longitudinal record across every provider and care location, then applies LLM-based named-entity/relation extraction and retrieval-augmented checklist assertion to normalize it into FHIR R4 resources, OHDSI/OMOP-mapped vocabularies (SNOMED, LOINC, RxNorm) and HL7 mCODE oncology elements, with every field anchored to its source document. The xCures Public API exposes that engine over REST at partner.xcures.com — patient (Subject) registration, network Query dispatch and polling, document retrieval and reciprocity publishing, FHIR resource reads and bulk export, fifteen Clinical Concepts domains, AI Checklist evaluation and subject summaries — authenticated
   with OAuth 2.0 client-credentials bearer tokens scoped by a ProjectId header. Originally an oncology real-world-data platform, it expanded to all therapeutic areas and is sold as SaaS, embedded API connections and de-identified real-world datasets to providers, diagnostics companies, value-based-care organizations and channel partners.
@@ -225,25 +284,25 @@ modified: '2026-09-04'
 name: xCures
 nav: Providers
 network: true
-overview: 'xCures publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Health, Healthcare, Medical Records, Interoperability, and FHIR.
+overview: 'xCures publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Application API, Checklist API, Clinical Concepts API, and 8 more. Tagged areas include Health, Healthcare, Medical Records, Interoperability, and FHIR.
 
 
   The xCures catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  xCures'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 30 more developer resources.'
+  xCures'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 32 more developer resources.'
 plans:
 - name: Xcures Plans Pricing
   plan_count: 0
   slug: xcures-plans-pricing
-random_paper: 15
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Xcures Rate Limits
   slug: xcures-rate-limits
 score:
   band: strong
-  composite: 64.2
+  composite: 64.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -251,11 +310,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 62.4
+    contract_quality: 63.5
     developer_ergonomics: 76.2
     discoverability: 75.9
     operational_transparency: 71.1
@@ -271,7 +330,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: first-party
     skills: first-party
   regulatory:
@@ -281,7 +340,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

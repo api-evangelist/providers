@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -114,11 +114,11 @@ modified: '2026-05-25'
 name: GM OnStar
 nav: Providers
 network: true
-overview: 'GM OnStar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Vehicle, Telematics, Fleet Management, and Vehicle Data.
+overview: 'GM OnStar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Connected Vehicles, Telematics, Fleet Management, and Vehicle Data.
 
 
   GM OnStar''s developer surface includes GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 17
+random_paper: 18
 score:
   band: minimal
   composite: 4.0
@@ -145,7 +145,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -160,14 +160,14 @@ security:
 slug: gm-onstar
 tags:
 - Automotive
-- Connected Vehicle
+- Connected Vehicles
 - Telematics
 - Fleet Management
 - Vehicle Data
 - Vehicle Location
 - Vehicle Diagnostics
 - Driver Behavior
-- Electric Vehicle
+- Electric Vehicles
 - EV Charging
 - OnStar
 - General Motors

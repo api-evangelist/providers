@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -135,7 +135,7 @@ modified: '2026-08-27'
 name: pgvector
 nav: Providers
 network: true
-overview: 'pgvector is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Vector Databases, Databases, Open-Source, and PostgreSQL.
+overview: 'pgvector is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Vector Database, Database, Open-Source, and PostgreSQL.
 
 
   pgvector''s developer surface includes documentation, API reference, getting-started guide, support, changelog, and 15 more developer resources.'
@@ -143,7 +143,7 @@ plans:
 - name: Pgvector Plans Pricing
   plan_count: 0
   slug: pgvector-plans-pricing
-random_paper: 13
+random_paper: 16
 score:
   band: emerging
   composite: 16.4
@@ -168,7 +168,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -178,8 +178,8 @@ screenshot: https://raw.githubusercontent.com/api-evangelist/pgvector/refs/heads
 slug: pgvector
 tags:
 - Artificial Intelligence
-- Vector Databases
-- Databases
+- Vector Database
+- Database
 - Open-Source
 - PostgreSQL
 - Search

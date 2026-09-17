@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The first-party GraphQL API that powers search, browse and merchandising on modaoperandi.com. It is referenced by the storefront's own client bundle as SEARCH_API_GRAPHQL_ENDPOINT, answers anonymous i
@@ -161,7 +161,7 @@ plans:
 - name: Moda Operandi Plans Pricing
   plan_count: 0
   slug: moda-operandi-plans-pricing
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Moda Operandi Rate Limits
@@ -195,7 +195,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

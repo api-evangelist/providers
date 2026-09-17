@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,11 +57,6 @@ apis:
   slug: faros-events-api
 - baseURL: https://prod.api.faros.ai
   baseurl_source: declared
-  description: The GraphQL API from Faros AI — 1 operation(s) for graphql.
-  name: Faros AI GraphQL API
-  slug: faros-graphql-api
-- baseURL: https://prod.api.faros.ai
-  baseurl_source: declared
   description: The Graphs API from Faros AI — 2 operation(s) for graphs.
   name: Faros AI Graphs API
   slug: faros-graphs-api
@@ -75,6 +70,11 @@ apis:
   description: The Webhooks API from Faros AI — 1 operation(s) for webhooks.
   name: Faros AI Webhooks API
   slug: faros-webhooks-api
+- baseURL: https://prod.api.faros.ai
+  baseurl_source: declared
+  description: The Graph QL API from Faros AI — 1 operation(s) for graph ql.
+  name: Faros AI Graph QL API
+  slug: faros-graph-ql-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -173,7 +173,7 @@ modified: '2026-06-21'
 name: Faros AI
 nav: Providers
 network: true
-overview: 'Faros AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Events API, GraphQL API, and 3 more. Tagged areas include Engineering Operations, Software Engineering Intelligence, SEI, DORA Metrics, and Developer Productivity.
+overview: 'Faros AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Events API, Graphs API, and 3 more. Tagged areas include Engineering Operations, Software Engineering Intelligence, SEI, DORA Metrics, and Developer Productivity.
 
 
   Faros AI''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -181,7 +181,7 @@ plans:
 - name: Faros Plans Pricing
   plan_count: 4
   slug: faros-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Faros Rate Limits
@@ -213,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

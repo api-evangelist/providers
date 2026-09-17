@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Consumer AI image and video generation product. No public API is offered yet (stated as coming in the near future); the only machine-readable surface is an llms.txt product/marketing discovery index.
@@ -76,7 +76,7 @@ plans:
 - name: Raphael Ai Plans Pricing
   plan_count: 4
   slug: raphael-ai-plans-pricing
-random_paper: 14
+random_paper: 12
 score:
   band: emerging
   composite: 19.9
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

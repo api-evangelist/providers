@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ plans:
 - name: Extend Ai Plans Pricing
   plan_count: 3
   slug: extend-ai-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Extend Ai Rate Limits
@@ -226,7 +226,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

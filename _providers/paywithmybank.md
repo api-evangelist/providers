@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 44.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 31 operations · 15 acting
 api_count: 1
 apis:
-- baseURL: https://api.trustly.one/api/v1
-  baseurl_source: declared
-  description: The accountData API from PayWithMyBank (Trustly) — 4 operation(s) for accountdata.
-  name: PayWithMyBank (Trustly) accountData API
-  slug: paywithmybank-accountdata-api
 - baseURL: https://api.trustly.one/api/v1
   baseurl_source: declared
   description: The accounts API from PayWithMyBank (Trustly) — 3 operation(s) for accounts.
@@ -67,11 +62,6 @@ apis:
   slug: paywithmybank-customers-api
 - baseURL: https://api.trustly.one/api/v1
   baseurl_source: declared
-  description: The disputeManagement API from PayWithMyBank (Trustly) — 1 operation(s) for disputemanagement.
-  name: PayWithMyBank (Trustly) disputeManagement API
-  slug: paywithmybank-disputemanagement-api
-- baseURL: https://api.trustly.one/api/v1
-  baseurl_source: declared
   description: The identity API from PayWithMyBank (Trustly) — 3 operation(s) for identity.
   name: PayWithMyBank (Trustly) identity API
   slug: paywithmybank-identity-api
@@ -80,11 +70,6 @@ apis:
   description: The networkCheckApi API from PayWithMyBank (Trustly) — 1 operation(s) for networkcheckapi.
   name: PayWithMyBank (Trustly) networkCheckApi API
   slug: paywithmybank-networkcheckapi-api
-- baseURL: https://api.trustly.one/api/v1
-  baseurl_source: declared
-  description: The paymentProviders API from PayWithMyBank (Trustly) — 1 operation(s) for paymentproviders.
-  name: PayWithMyBank (Trustly) paymentProviders API
-  slug: paywithmybank-paymentproviders-api
 - baseURL: https://api.trustly.one/api/v1
   baseurl_source: declared
   description: The payments API from PayWithMyBank (Trustly) — 2 operation(s) for payments.
@@ -105,6 +90,21 @@ apis:
   description: The API API from PayWithMyBank (Trustly) — 0 operation(s) for api.
   name: PayWithMyBank (Trustly) API
   slug: paywithmybank-api-api
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The Account Data API from PayWithMyBank (Trustly) — 4 operation(s) for account data.
+  name: PayWithMyBank (Trustly) Account Data API
+  slug: paywithmybank-account-data-api
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The Dispute Management API from PayWithMyBank (Trustly) — 1 operation(s) for dispute management.
+  name: PayWithMyBank (Trustly) Dispute Management API
+  slug: paywithmybank-dispute-management-api
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The Payment Providers API from PayWithMyBank (Trustly) — 1 operation(s) for payment providers.
+  name: PayWithMyBank (Trustly) Payment Providers API
+  slug: paywithmybank-payment-providers-api
 artifact_total: 29
 asyncapis:
 - description: ''
@@ -318,14 +318,14 @@ modified: '2026-07-20'
 name: PayWithMyBank (Trustly)
 nav: Providers
 network: true
-overview: 'PayWithMyBank (Trustly) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including accountData API, accounts API, countries API, and 9 more. Tagged areas include Company, Payments, Pay by Bank, Open Banking, and ACH.
+overview: 'PayWithMyBank (Trustly) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including accounts API, countries API, customers API, and 9 more. Tagged areas include Company, Payments, Pay by Bank, Open Banking, and ACH.
 
 
   The PayWithMyBank (Trustly) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
-random_paper: 9
+random_paper: 8
 score:
   band: developing
   composite: 51.4
@@ -362,7 +362,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

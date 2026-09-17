@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 52
-  human_in_the_loop: 5
+- acting_count: 12
+  human_in_the_loop: 1
   name: Typesense Agentic Access
-  operation_count: 95
+  operation_count: 21
   slug: typesense-agentic-access
-  summary_line: 95 operations · 52 acting · 5 human-in-the-loop
+  summary_line: 21 operations · 12 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: http://localhost:8108
@@ -532,7 +532,7 @@ plans:
 - name: Typesense Plans Pricing
   plan_count: 5
   slug: typesense-plans-pricing
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Typesense Rate Limits
@@ -576,7 +576,7 @@ score:
       total: 25
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -19,7 +19,7 @@ name: Mporium
 nav: Providers
 network: true
 overview: Mporium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Marketing, AdTech, and Mobile.
-random_paper: 0
+random_paper: 7
 slug: mporium
 tags:
 - Company

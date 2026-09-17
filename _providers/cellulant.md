@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -428,14 +428,14 @@ modified: '2026-05-24'
 name: Cellulant
 nav: Providers
 network: true
-overview: 'Cellulant publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgement API, Authentication API, Custom Checkout API, and 3 more. Tagged areas include Payments, Mobile Money, Checkout, Payouts, and Disbursement.
+overview: 'Cellulant publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgement API, Authentication API, Custom Checkout API, and 3 more. Tagged areas include Payments, Mobile Money, Checkout, Payouts, and Disbursements.
 
 
   The Cellulant catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
   Cellulant''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, pricing, and 50 more developer resources.'
-random_paper: 19
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Cellulant Rate Limits
@@ -500,7 +500,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -521,11 +521,11 @@ tags:
 - Mobile Money
 - Checkout
 - Payouts
-- Disbursement
+- Disbursements
 - Africa
 - Pan-African
 - Fintech
-- Bank Transfer
+- Bank Transfers
 - Cards
 - Airtime
 - Bill Payments

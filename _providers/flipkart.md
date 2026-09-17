@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Flipkart Marketplace Seller API (v3) lets sellers and integration partners manage listings, orders, shipments, returns, and reports on the Flipkart marketplace programmatically. It is a REST API h
@@ -136,7 +136,7 @@ overview: 'Flipkart publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Flipkart''s developer surface includes documentation, API reference, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 0
+random_paper: 3
 scopes:
 - name: Flipkart Scopes
   scope_count: 2
@@ -171,7 +171,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

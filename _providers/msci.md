@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: REST APIs for MSCI index data including index levels and performance, constituents, security master, dividends, and corporate events for MSCI indexes across supported variants and currencies.
@@ -161,11 +161,11 @@ modified: '2026-07-22'
 name: MSCI
 nav: Providers
 network: true
-overview: 'MSCI publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Data, Indexes, ESG, Climate, and Risk Analytics.
+overview: 'MSCI publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Data, Index, ESG, Climate, and Risk Analytics.
 
 
   MSCI''s developer surface includes documentation, API reference, support, authentication, and 14 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
   band: emerging
   composite: 20.6
@@ -189,7 +189,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -208,7 +208,7 @@ security:
 slug: msci
 tags:
 - Financial Data
-- Indexes
+- Index
 - ESG
 - Climate
 - Risk Analytics

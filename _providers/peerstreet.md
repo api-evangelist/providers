@@ -24,12 +24,12 @@ created: '2026-07-17'
 description: PeerStreet was a two-sided marketplace for real estate debt investing that connected individual and institutional investors with short-term, high-yield real estate loans originated by a nationwide network of private lenders. The platform let investors build diversified portfolios of loan positions, earn monthly interest, and access loan-level documentation and performance data, along with a "Pocket" cash account and self-directed IRA options for accredited investors. Operating as a licensed California finance lender (License 60DBO-45398) and backed by a16z, PeerStreet transacted more than $5B across 47 states before filing for Chapter 11 bankruptcy in June 2023. The company is profiled in the API Evangelist network as an a16z portfolio company; no public developer program, API reference, or machine-readable API surface was found during enrichment.
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company-logos/peerstreet.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: PeerStreet
 nav: Providers
 network: true
 overview: PeerStreet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, Fintech, Lending, and Investing.
-random_paper: 20
+random_paper: 13
 screenshot: https://raw.githubusercontent.com/api-evangelist/peerstreet/refs/heads/main/screenshots/peerstreet-2026-09-02T150941.png
 security:
 - kind: domain-security
@@ -46,5 +46,6 @@ tags:
 - Marketplace
 - Crowdfunding
 - a16z Portfolio
+- Defunct
 website: https://www.peerstreet.com
 ---

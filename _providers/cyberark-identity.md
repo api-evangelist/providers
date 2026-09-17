@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   slug: cyberark-identity-extdata-api
 - baseURL: https://<tenant>.id.cyberark.cloud
   baseurl_source: declared
-  description: The OAuth API from CyberArk Identity — 1 operation(s) for oauth.
-  name: CyberArk Identity OAuth API
-  slug: cyberark-identity-oauth-api
-- baseURL: https://<tenant>.id.cyberark.cloud
-  baseurl_source: declared
   description: The Org API from CyberArk Identity — 2 operation(s) for org.
   name: CyberArk Identity Org API
   slug: cyberark-identity-org-api
@@ -83,6 +78,11 @@ apis:
   description: The UserMgmt API from CyberArk Identity — 5 operation(s) for usermgmt.
   name: CyberArk Identity UserMgmt API
   slug: cyberark-identity-usermgmt-api
+- baseURL: https://<tenant>.id.cyberark.cloud
+  baseurl_source: declared
+  description: The OAuth API from CyberArk Identity — 1 operation(s) for oauth.
+  name: CyberArk Identity O Auth API
+  slug: cyberark-identity-oauth-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -165,11 +165,11 @@ modified: '2026-05-11'
 name: CyberArk Identity
 nav: Providers
 network: true
-overview: 'CyberArk Identity publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, CDirectoryService API, ExtData API, and 4 more. Tagged areas include Identity, Access Management, IAM, Single Sign-On, and SSO.
+overview: 'CyberArk Identity publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, CDirectoryService API, ExtData API, and 4 more. Tagged areas include Identity, Access Management, IAM, SSO, and Multi-Factor Authentication.
 
 
   CyberArk Identity''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 6
+random_paper: 10
 score:
   band: emerging
   composite: 26.1
@@ -197,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -221,7 +221,6 @@ tags:
 - Identity
 - Access Management
 - IAM
-- Single Sign-On
 - SSO
 - Multi-Factor Authentication
 - Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Duck.ai is DuckDuckGo's anonymizing proxy in front of third-party LLMs. Free tier currently includes Anthropic Claude 4.5 Haiku, Meta Llama 4 Scout, Mistral Small 3 24B, OpenAI GPT-4o mini / GPT-5 min
@@ -47,15 +47,10 @@ apis:
   slug: bang-redirector
 - baseURL: https://api.duckduckgo.com
   baseurl_source: declared
-  description: Resolve !bang queries to redirect URLs.
-  name: DuckDuckGo Bangs API
-  slug: duckduckgo-bangs-api
-- baseURL: https://api.duckduckgo.com
-  baseurl_source: declared
   description: Zero-click answers, abstracts, definitions and disambiguations.
   name: DuckDuckGo Instant Answers API
   slug: duckduckgo-instant-answers-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -199,7 +194,7 @@ modified: '2026-05-23'
 name: DuckDuckGo
 nav: Providers
 network: true
-overview: 'DuckDuckGo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Bangs API and Instant Answers API. Tagged areas include Search, Privacy, Browser, AI Chat, and Email Protection.
+overview: 'DuckDuckGo publishes 1 API on the [APIs.io](https://apis.io/) network: Instant Answers API. Tagged areas include Search, Privacy, Browser, AI Chat, and Email Protection.
 
 
   The DuckDuckGo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -210,7 +205,7 @@ plans:
 - name: Duckduckgo Plans Pricing
   plan_count: 6
   slug: duckduckgo-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Duckduckgo Rate Limits
@@ -261,9 +256,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

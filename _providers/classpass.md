@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'ClassPass''s named partner integration API for studios and their scheduling/booking software. Per ClassPass partner-marketing pages and integration-partner help centers (e.g. studio scheduling vendors '
@@ -82,12 +82,12 @@ modified: '2026-07-03'
 name: ClassPass
 nav: Providers
 network: true
-overview: ClassPass publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Wellness, Class Booking, Marketplace, and Studios.
+overview: ClassPass publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Wellness, Class Booking, Marketplace, and Studio.
 plans:
 - name: Classpass Plans Pricing
   plan_count: 2
   slug: classpass-plans-pricing
-random_paper: 7
+random_paper: 5
 score:
   band: emerging
   composite: 16.4
@@ -108,7 +108,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -126,7 +126,7 @@ tags:
 - Wellness
 - Class Booking
 - Marketplace
-- Studios
+- Studio
 - Gyms
 - Scheduling
 - Partner API

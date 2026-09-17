@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Authenticated REST surface behind the Forcelink mobile field-service ERP, served from the vendor-hosted za2.forcelink.net tenant alongside the Forcelink web login and the Forcelink Android/iOS apps. E
@@ -116,7 +116,7 @@ modified: '2026-09-06'
 name: Acumen Software
 nav: Providers
 network: true
-overview: 'Acumen Software publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Field Service Management, Workforce Management, Asset Management, Enterprise Resource Planning, and Smart Cities.
+overview: 'Acumen Software publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Field Service Management, Workforce Management, Asset Management, ERP, and Smart Cities.
 
 
   Acumen Software''s developer surface includes support, engineering blog, and 12 more developer resources.'
@@ -124,7 +124,7 @@ plans:
 - name: Acumensoftware Plans Pricing
   plan_count: 0
   slug: acumensoftware-plans-pricing
-random_paper: 17
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Acumensoftware Rate Limits
@@ -163,7 +163,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +179,7 @@ tags:
 - Field Service Management
 - Workforce Management
 - Asset Management
-- Enterprise Resource Planning
+- ERP
 - Smart Cities
 - Local Government
 - Utilities

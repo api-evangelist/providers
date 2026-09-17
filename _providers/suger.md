@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.suger.cloud
   baseurl_source: declared
   description: Access to API client resources
-  name: Suger API API
+  name: Suger API
   slug: suger-api-api
 - baseURL: https://api.suger.cloud
   baseurl_source: declared
@@ -263,11 +263,11 @@ jsonld:
   property_count: 7
   slug: suger-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Suger
 nav: Providers
 network: true
-overview: 'Suger publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API API, Billing API, Buyer API, and 8 more. Tagged areas include Cloud Marketplace, Go-To-Market, Software-as-a-Service, Billing, and Entitlement.
+overview: 'Suger publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Buyer API, and 9 more. Tagged areas include Cloud Marketplace, Go-To-Market, Software-as-a-Service, Billing, and Entitlements.
 
 
   The Suger catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -278,7 +278,7 @@ plans:
 - name: Suger Plans Pricing
   plan_count: 3
   slug: suger-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Suger Rate Limits
@@ -333,7 +333,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -362,7 +362,7 @@ tags:
 - Go-To-Market
 - Software-as-a-Service
 - Billing
-- Entitlement
+- Entitlements
 - Revenue
 - Co-Sell
 website: https://www.suger.io/

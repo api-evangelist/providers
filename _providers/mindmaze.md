@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +56,6 @@ apis:
   slug: mindmaze-media-api
 - baseURL: https://mindmazetherapeutics.com/wp-json
   baseurl_source: declared
-  description: oEmbed representation of a mindmazetherapeutics.com URL.
-  name: MindMaze O Embed API
-  slug: mindmaze-oembed-api
-- baseURL: https://mindmazetherapeutics.com/wp-json
-  baseurl_source: declared
   description: Marketing, product, platform, research and investor-relations pages on mindmazetherapeutics.com.
   name: MindMaze Pages API
   slug: mindmaze-pages-api
@@ -79,6 +74,11 @@ apis:
   description: The categories and tags used to classify MindMaze posts, including the EQS, ad-hoc-news and other-ir-news disclosure categories.
   name: MindMaze Taxonomy API
   slug: mindmaze-taxonomy-api
+- baseURL: https://mindmazetherapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed representation of a mindmazetherapeutics.com URL.
+  name: MindMaze o Embed API
+  slug: mindmaze-o-embed-api
 artifact_total: 14
 collections:
 - collection_type: open
@@ -262,11 +262,11 @@ modified: '2026-08-01'
 name: MindMaze
 nav: Providers
 network: true
-overview: 'MindMaze publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, O Embed API, and 4 more. Tagged areas include Company, Digital Therapeutics, Neurotechnology, Neurorehabilitation, and Medical Devices.
+overview: 'MindMaze publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Pages API, and 4 more. Tagged areas include Company, Digital Therapeutics, Neurotechnology, Neurorehabilitation, and Medical Devices.
 
 
   MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 32 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: emerging
   composite: 25.9
@@ -315,7 +315,7 @@ score:
     regime_id: health
     score: 57.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

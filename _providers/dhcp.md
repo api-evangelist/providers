@@ -35,15 +35,15 @@ modified: '2026-04-28'
 name: DHCP
 nav: Providers
 network: true
-overview: DHCP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include BOOTP, DHCP, IETF, IP Addresses, and Lease Management.
-random_paper: 16
+overview: DHCP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include BOOTP, DHCP, IETF, IP Address, and Lease Management.
+random_paper: 19
 screenshot: https://raw.githubusercontent.com/api-evangelist/dhcp/refs/heads/main/screenshots/dhcp-2026-06-20T175957.png
 slug: dhcp
 tags:
 - BOOTP
 - DHCP
 - IETF
-- IP Addresses
+- IP Address
 - Lease Management
 - Network Configuration
 - Networking

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Institution-operated Shibboleth SAML 2.0 identity provider on the university's own host, published as machine-readable metadata in the GakuNin (学術認証フェデレーション) aggregate. EntityDescriptor ID PI0136JP, e
@@ -165,7 +165,7 @@ plans:
 - name: Nagoya Plans Pricing
   plan_count: 2
   slug: nagoya-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Nagoya Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

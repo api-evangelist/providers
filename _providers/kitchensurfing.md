@@ -48,7 +48,7 @@ overview: 'Kitchensurfing is profiled on the [APIs.io](https://apis.io/) network
 
 
   Kitchensurfing''s developer surface includes product news and 5 more developer resources.'
-random_paper: 17
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitchensurfing/refs/heads/main/screenshots/kitchensurfing-2026-07-25T223903.png
 slug: kitchensurfing
 tags:

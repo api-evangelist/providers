@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Bloomberg Add-in for Microsoft Excel provides formula functions including BDP (Bloomberg Data Point), BDH (Bloomberg Data History), BDS (Bloomberg Data Set), and BQL for accessing Bloomberg data d
@@ -44,6 +44,10 @@ apis:
   slug: bloomberg-bql-excel
 artifact_total: 17
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -94,19 +98,19 @@ finops:
   slug: bloomberg-excel-plug-ins-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-excel-plug-ins.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Excel Plug-ins
 nav: Providers
 network: true
-overview: 'Bloomberg Excel Plug-ins publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Excel, Spreadsheet, Financial Modeling, Market Data, and Bloomberg.
+overview: 'Bloomberg Excel Plug-ins publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Excel, Spreadsheets, Financial Modeling, Market Data, and Bloomberg.
 
 
-  Bloomberg Excel Plug-ins'' developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Excel Plug-ins'' developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Excel Plug Ins Plans Pricing
   plan_count: 3
   slug: bloomberg-excel-plug-ins-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Bloomberg Excel Plug Ins Rate Limits
@@ -137,7 +141,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +156,7 @@ security:
 slug: bloomberg-excel-plug-ins
 tags:
 - Excel
-- Spreadsheet
+- Spreadsheets
 - Financial Modeling
 - Market Data
 - Bloomberg
@@ -168,5 +172,5 @@ use_cases:
   name: Market Research
 - description: Run quantitative screens and backtests using Bloomberg historical data in Excel.
   name: Quantitative Analysis
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

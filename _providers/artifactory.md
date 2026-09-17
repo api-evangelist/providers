@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://artifactory.example.com/artifactory/api
   baseurl_source: declared
   description: Artifactory-specific Docker API extensions
-  name: JFrog Artifactory Artifactory Extensions API
+  name: JFrog Artifactory Extensions API
   slug: artifactory-artifactory-extensions-api
 - baseURL: https://artifactory.example.com/artifactory/api
   baseurl_source: declared
@@ -574,11 +574,11 @@ mcp_servers:
 - description: JFrog operates an official, remotely-hosted MCP server for the JFrog Platform (which Artifactory anchors). It is reached at https://<JFROG_PLATFORM_URL>/mcp and authenticated with OAuth, so no API-key
   name: JFrog Artifactory MCP Server
   slug: jfrog-artifactory-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: JFrog Artifactory
 nav: Providers
 network: true
-overview: 'JFrog Artifactory publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AQL Search API, Artifactory Extensions API, Artifacts & Storage API, and 14 more. Tagged areas include Artifacts, DevOps, CI/CD, docker-registry, and Maven.
+overview: 'JFrog Artifactory publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AQL Search API, Extensions API, Artifacts & Storage API, and 14 more. Tagged areas include Artifacts, DevOps, CI/CD, docker-registry, and Maven.
 
 
   The JFrog Artifactory catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -589,7 +589,7 @@ plans:
 - name: Artifactory Plans Pricing
   plan_count: 6
   slug: artifactory-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Artifactory Rate Limits
@@ -634,7 +634,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

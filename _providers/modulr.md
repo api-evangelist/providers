@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 4
@@ -231,10 +231,10 @@ common:
   type: Authentication
   url: https://modulr.readme.io/docs/authentication
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/modulr-api.json
+  href: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/openapi/_original/modulr-api.json
   title: ''
   type: OpenAPI
-  url: openapi/modulr-api.json
+  url: openapi/_original/modulr-api.json
 - group: build
   title: ''
   type: GitHubOrganization
@@ -366,7 +366,7 @@ mcp_servers:
 - description: ''
   name: Modulr MCP Server
   slug: modulr-mcp-server
-modified: '2026-07-24'
+modified: '2026-09-16'
 name: Modulr
 nav: Providers
 network: true
@@ -377,7 +377,7 @@ overview: 'Modulr publishes 26 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Modulr''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 30 more developer resources.'
-random_paper: 8
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Modulr Rate Limits
@@ -396,7 +396,7 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 63.1
+    contract_quality: 63.0
     developer_ergonomics: 48.2
     discoverability: 75.9
     operational_transparency: 55.3
@@ -426,7 +426,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

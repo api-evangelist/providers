@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 22 operations · 16 acting
 api_count: 1
 apis:
-- baseURL: https://dev.api.metaplane.dev
-  baseurl_source: declared
-  description: The Metaplane REST API — 23 operations over connections, monitors, monitor evaluations, datapoint ingestion and tags. Bearer-token authenticated, versioned by path prefix (/v1 with /v2 for two monitor
-  name: Metaplane API
-  slug: metaplane
 - baseURL: https://dev.api.metaplane.dev
   baseurl_source: declared
   description: The Connections API from Metaplane — 4 operations for listing warehouse, BI and dbt connections, reading sync status, triggering a re-sync and rotating a connection private key.
@@ -64,7 +59,7 @@ apis:
   description: 'The Tags API from Metaplane — 7 operations for bulk-labelling tables and monitors, removing tags, fetching tag definitions and reading tagged objects and monitors back. Tags are the routing dimension '
   name: Metaplane Tags API
   slug: metaplane-tags-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Metaplane Webhooks
@@ -265,7 +260,7 @@ modified: '2026-08-29'
 name: Metaplane
 nav: Providers
 network: true
-overview: 'Metaplane publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connections API, Monitors API, and 2 more. Tagged areas include AIOps, Data Observability, Data Quality, Anomaly Detection, and Data Lineage.
+overview: 'Metaplane publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connections API, Monitors API, and Tags API. Tagged areas include AIOps, Data Observability, Data Quality, Anomaly Detection, and Data Lineage.
 
 
   The Metaplane catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -276,14 +271,14 @@ plans:
 - name: Metaplane Plans Pricing
   plan_count: 3
   slug: metaplane-plans-pricing
-random_paper: 6
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Metaplane Rate Limits
   slug: metaplane-rate-limits
 score:
   band: strong
-  composite: 59.4
+  composite: 58.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 52.0
@@ -291,11 +286,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 61.7
+    contract_quality: 59.1
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 42.1
@@ -311,7 +306,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Varnish Cache CLI management interface provides programmatic control over a running Varnish instance. It is accessible via varnishadm or TCP socket and supports configuration management (VCL load/
@@ -155,7 +155,7 @@ plans:
 - name: Varnish Plans Pricing
   plan_count: 3
   slug: varnish-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Varnish Rate Limits
@@ -180,7 +180,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

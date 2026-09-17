@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 64
@@ -254,7 +254,7 @@ overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Securitize''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 3
+random_paper: 17
 scopes:
 - name: Securitize Scopes
   scope_count: 3
@@ -283,7 +283,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
@@ -296,7 +296,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

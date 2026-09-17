@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The real, documented programmatic surface. VidCruiter provisions each institution a unique web-services API endpoint (obtained from a VidCruiter account representative) used for bidirectional integrat
@@ -71,7 +71,7 @@ modified: '2026-07-25'
 name: VidCruiter
 nav: Providers
 network: true
-overview: 'VidCruiter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruitment, Video Interviewing, Hiring, HR Tech, and Applicant Tracking.
+overview: 'VidCruiter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruitment, Video Interviewing, Hiring, Human Resources, and Applicant Tracking.
 
 
   VidCruiter''s developer surface includes documentation and 4 more developer resources.'
@@ -79,7 +79,7 @@ plans:
 - name: Vidcruiter Plans Pricing
   plan_count: 1
   slug: vidcruiter-plans-pricing
-random_paper: 18
+random_paper: 11
 score:
   band: emerging
   composite: 12.1
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -117,7 +117,7 @@ tags:
 - Recruitment
 - Video Interviewing
 - Hiring
-- HR Tech
+- Human Resources
 - Applicant Tracking
 - ATS Integration
 - Candidate Screening

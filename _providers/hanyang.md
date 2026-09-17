@@ -33,17 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - description: Hanyang University's own Open API platform, built and run by the university rather than bought from a vendor. REST endpoints under https://api.hanyang.ac.kr/rs/ return XML or JSON, selected by file ex
   name: Hanyang University Open API Developer Center
   slug: developer-center
-- baseURL: https://repository.hanyang.ac.kr/oai/request
-  baseurl_source: declared
-  description: OAI-PMH 2.0 metadata-harvesting interface on Hanyang's institutional DSpace repository, plus an OpenSearch 1.1 descriptor and RSS/Atom feeds. Twelve metadata formats are advertised (oai_dc, qdc, mods,
-  name: Repository at Hanyang University — OAI-PMH
-  slug: repository-oai-pmh
 - description: Software development kits published by the Hanyang University Developer Center for building against the Open APIs — Android and iOS SDKs and server-side sample integrations (ASP) that handle the OAuth
   name: Hanyang University Open API SDKs
   slug: sdk
@@ -59,6 +54,11 @@ apis:
 - description: Research Organization Registry identifier for Hanyang University, the stable machine-readable identity other systems resolve the institution by.
   name: ROR registration
   slug: ror
+- baseURL: https://api.hanyang.ac.kr/rs/
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting 2.0
+  name: Hanyang University OAI PMH API
+  slug: hanyang-oai-pmh-api
 artifact_total: 13
 common:
 - group: company
@@ -180,11 +180,11 @@ jsonld:
   property_count: 7
   slug: hanyang-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-09-16'
 name: Hanyang University
 nav: Providers
 network: true
-overview: 'Hanyang University publishes 1 API on the [APIs.io](https://apis.io/) network: Repository at Hanyang University — OAI-PMH. Tagged areas include Education, Higher Education, University, South Korea, and Seoul.
+overview: 'Hanyang University publishes 1 API on the [APIs.io](https://apis.io/) network: OAI PMH API. Tagged areas include Education, Higher Education, University, South Korea, and Seoul.
 
 
   The Hanyang University catalog on APIs.io includes 1 JSON-LD context.
@@ -195,7 +195,7 @@ plans:
 - name: Hanyang Plans Pricing
   plan_count: 2
   slug: hanyang-plans-pricing
-random_paper: 7
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Hanyang Rate Limits
@@ -240,7 +240,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -267,5 +267,6 @@ tags:
 - OAI-PMH
 - Authentication
 - OpenAPI
+- Identity Federation
 website: https://www.hanyang.ac.kr/web/eng
 ---

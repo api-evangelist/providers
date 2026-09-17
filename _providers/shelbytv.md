@@ -39,7 +39,7 @@ name: Shelby.tv
 nav: Providers
 network: true
 overview: Shelby.tv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Social, Video Discovery, and Media.
-random_paper: 20
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/shelbytv/refs/heads/main/screenshots/shelbytv-2026-09-02T155125.png
 security:
 - kind: domain-security

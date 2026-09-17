@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -73,8 +73,8 @@ apis:
 - baseURL_template: https://{issuer}
   baseurl_source: spec_template
   description: Endpoint for retrieving claims about the authenticated end-user.
-  name: OIDC UserInfo API
-  slug: oidc-userinfo-api
+  name: OIDC User Info API
+  slug: oidc-user-info-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -166,7 +166,7 @@ plans:
 - name: Oidc Plans Pricing
   plan_count: 3
   slug: oidc-plans-pricing
-random_paper: 16
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Oidc Rate Limits
@@ -209,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

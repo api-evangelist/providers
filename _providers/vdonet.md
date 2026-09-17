@@ -19,7 +19,7 @@ name: VDOnet
 nav: Providers
 network: true
 overview: VDOnet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Streaming, Media, and Defunct.
-random_paper: 5
+random_paper: 18
 slug: vdonet
 tags:
 - Company

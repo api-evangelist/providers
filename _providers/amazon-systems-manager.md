@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ plans:
 - name: Amazon Systems Manager Plans Pricing
   plan_count: 3
   slug: amazon-systems-manager-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Systems Manager Rate Limits
@@ -286,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

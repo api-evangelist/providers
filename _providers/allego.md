@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'REST API for the Allego sales enablement platform enabling programmatic access to video coaching sessions, content libraries, learning modules, certifications, rep readiness assessments, conversation '
@@ -190,7 +190,7 @@ plans:
 - name: Allego Plans Pricing
   plan_count: 4
   slug: allego-plans-pricing
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Allego Rate Limits
@@ -218,7 +218,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -247,7 +247,7 @@ tags:
 - Conversation Intelligence
 - Deal Intelligence
 - Revenue Enablement
-- Certifications
+- Certification
 - Artificial Intelligence
 website: https://www.allego.com/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Unified Orders API in Aleph V2 that consolidates archive purchases and new-capture tasking into a single REST surface. Supports archive products, POI (point-of-interest) tasking, and AOI (area-of-inte
@@ -204,7 +204,7 @@ overview: 'Satellogic publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Satellogic''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, engineering blog, YouTube channel, and 23 more developer resources.'
-random_paper: 13
+random_paper: 7
 score:
   band: emerging
   composite: 15.4
@@ -231,7 +231,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -254,7 +254,7 @@ tags:
 - Multispectral
 - Hyperspectral
 - Tasking
-- Archive
+- Archives
 - Aleph
 - NewSat
 - Constellation

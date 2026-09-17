@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -358,7 +358,7 @@ overview: 'Lex Machina publishes 18 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lex Machina''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
-random_paper: 3
+random_paper: 17
 score:
   band: thin
   composite: 32.9
@@ -393,7 +393,7 @@ score:
     regime_id: government
     score: 40.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

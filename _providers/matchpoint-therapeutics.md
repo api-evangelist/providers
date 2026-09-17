@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - baseURL: https://matchpointtx.com/wp-json
@@ -53,11 +53,6 @@ apis:
   description: Media library — 43 image attachments at harvest time.
   name: Matchpoint Therapeutics Media API
   slug: matchpoint-therapeutics-media-api
-- baseURL: https://matchpointtx.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for matchpointtx.com URLs.
-  name: Matchpoint Therapeutics Oembed API
-  slug: matchpoint-therapeutics-oembed-api
 - baseURL: https://matchpointtx.com/wp-json
   baseurl_source: declared
   description: Corporate pages — homepage, privacy policy, terms of use (3 published at harvest time).
@@ -83,6 +78,11 @@ apis:
   description: Leadership, board, observers and scientific founders as a custom post type (19 published at harvest time).
   name: Matchpoint Therapeutics Team API
   slug: matchpoint-therapeutics-team-api
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for matchpointtx.com URLs.
+  name: Matchpoint Therapeutics o Embed API
+  slug: matchpoint-therapeutics-o-embed-api
 artifact_total: 13
 common:
 - group: company
@@ -203,7 +203,7 @@ plans:
 - name: Matchpoint Therapeutics Plans Pricing
   plan_count: 0
   slug: matchpoint-therapeutics-plans-pricing
-random_paper: 6
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Matchpoint Therapeutics Rate Limits
@@ -248,7 +248,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

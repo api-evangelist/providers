@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -304,6 +304,10 @@ collections:
   name: 'AWS Certificate Manager Private Certificate Authority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.CreateCertificateAuthority #X Amz Target=ACMPrivateCA.UpdateCertificateAuthority API'
   slug: open-amazon-private-ca-x-amz-target-acmprivateca-updatecertificateauthority-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2109,7 +2113,7 @@ jsonld:
   property_count: 99
   slug: amazon-private-ca-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Private CA
 nav: Providers
 network: true
@@ -2119,12 +2123,12 @@ overview: 'Amazon Private CA publishes 23 APIs on the [APIs.io](https://apis.io/
   The Amazon Private CA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Private CA''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 223 more developer resources.'
+  Amazon Private CA''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 224 more developer resources.'
 plans:
 - name: Amazon Private Ca Plans Pricing
   plan_count: 3
   slug: amazon-private-ca-plans-pricing
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Private Ca Rate Limits
@@ -2178,7 +2182,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2221,5 +2225,5 @@ use_cases:
   name: Code Signing
 - description: Issue certificates for VPN clients and network devices for mutual authentication.
   name: VPN and Network Security
-website: https://aws.amazon.com/private-ca/
+website: https://amazon.com
 ---

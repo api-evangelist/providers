@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,11 +66,11 @@ modified: '2026-07-18'
 name: Byanat
 nav: Providers
 network: true
-overview: 'Byanat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Telecommunications, Data Centers, and Infrastructure.
+overview: 'Byanat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Telecommunications, Data-Center, and Infrastructure.
 
 
   Byanat''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 4.0
@@ -97,7 +97,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -114,7 +114,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Telecommunications
-- Data Centers
+- Data-Center
 - Infrastructure
 - Network Management
 - Automation

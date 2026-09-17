@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
-api_count: 10
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: The Buildpack API is the contract between a buildpack and the lifecycle. It defines the detect and build executables, layers, build-plan provisions and requirements, and image extension lifecycle that
   name: Buildpack API Specification
@@ -53,11 +53,6 @@ apis:
 - description: The CNB Lifecycle is the reference implementation of the Buildpack and Platform APIs. It runs the detect, analyze, restore, build, export, and rebase phases used by all CNB platforms to produce reprod
   name: CNB Lifecycle
   slug: lifecycle
-- baseURL: https://{kubernetes-apiserver}/apis/kpack.io/v1alpha1
-  baseurl_source: declared
-  description: kpack is a community Kubernetes-native implementation of Cloud Native Buildpacks. It exposes Image, Builder, ClusterBuilder, and ClusterStack custom resources for declaring continuously rebuilt OCI im
-  name: kpack
-  slug: kpack
 - description: The Cloud Native Buildpacks registry indexes published buildpacks for discovery and reuse. It mirrors metadata for buildpack packages stored in OCI registries and exposes a browseable catalog at regis
   name: Buildpack Registry
   slug: registry
@@ -70,8 +65,18 @@ apis:
 - description: The Distribution API specifies how buildpacks and builders are packaged as OCI artifacts, signed, and distributed through OCI registries. It also covers how meta-buildpacks compose other buildpacks an
   name: Distribution API
   slug: distribution-api
+- baseURL: https://{kubernetes-apiserver}/apis/kpack.io/v1alpha1
+  baseurl_source: declared
+  description: The kpack API from Cloud Native Buildpacks — 25 operation(s) for kpack.
+  name: Cloud Native Buildpacks Kpack API
+  slug: buildpacks-kpack-api
 artifact_total: 26
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/skills/buildpacks-build-an-image-with-kpack.md
+  title: ''
+  type: AgentSkill
+  url: skills/buildpacks-build-an-image-with-kpack.md
 - group: operate
   title: ''
   type: IssueTracker
@@ -256,10 +261,10 @@ common:
   type: FinOps
   url: finops/buildpacks-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/openapi/buildpacks-kpack-swagger.json
+  href: https://raw.githubusercontent.com/api-evangelist/buildpacks/refs/heads/main/openapi/_original/buildpacks-kpack-swagger.json
   title: ''
   type: OpenAPI
-  url: openapi/buildpacks-kpack-swagger.json
+  url: openapi/_original/buildpacks-kpack-swagger.json
 - group: start
   title: ''
   type: DeveloperPortal
@@ -328,40 +333,40 @@ finops:
   slug: buildpacks-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buildpacks.png
 layout: provider
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: Cloud Native Buildpacks
 nav: Providers
 network: true
-overview: 'Cloud Native Buildpacks publishes 1 API on the [APIs.io](https://apis.io/) network: kpack. Tagged areas include Build Tools, CI/CD, Cloud-Native, CNCF, and Container Images.
+overview: 'Cloud Native Buildpacks publishes 1 API on the [APIs.io](https://apis.io/) network: Kpack API. Tagged areas include Build Tools, CI/CD, Cloud-Native, CNCF, and Container Images.
 
 
-  Cloud Native Buildpacks'' developer surface includes documentation, engineering blog, CLI, authentication, changelog, API reference, getting-started guide, and 40 more developer resources.'
+  Cloud Native Buildpacks'' developer surface includes documentation, engineering blog, CLI, authentication, changelog, API reference, getting-started guide, and 41 more developer resources.'
 plans:
 - name: Buildpacks Plans Pricing
   plan_count: 0
   slug: buildpacks-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Buildpacks Rate Limits
   slug: buildpacks-rate-limits
 score:
   band: developing
-  composite: 47.4
+  composite: 47.8
   coverage:
     artifact_dirs: 21
-    catalog_earned: 38.0
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 42.2
+    contract_quality: 46.3
     developer_ergonomics: 73.2
-    discoverability: 72.2
+    discoverability: 66.7
     operational_transparency: 36.8
   open_source:
     applies: true
@@ -377,7 +382,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

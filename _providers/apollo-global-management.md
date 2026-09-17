@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'An undocumented Model Context Protocol server operated by Apollo Global Management on its own API host. Its existence is established by two first-party discovery documents fetched on 2026-09-04: RFC 8'
@@ -125,7 +125,7 @@ plans:
 - name: Apollo Global Management Plans Pricing
   plan_count: 0
   slug: apollo-global-management-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Apollo Global Management Rate Limits
@@ -158,7 +158,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

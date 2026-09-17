@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 3
@@ -68,7 +68,7 @@ apis:
 - baseURL: https://secure.telr.com/gateway
   baseurl_source: declared
   description: Newer REST order API with HTTP Basic auth.
-  name: Telr Payments API API
+  name: Telr Payments API
   slug: telr-payments-api-api
 - baseURL: https://secure.telr.com/gateway
   baseurl_source: declared
@@ -288,11 +288,11 @@ finops:
   slug: telr-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telr.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Telr
 nav: Providers
 network: true
-overview: 'Telr publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Hosted Payment Page API, Payments API API, and 1 more. Tagged areas include Payments, Payment Gateway, Fintech, MENA, and UAE.
+overview: 'Telr publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Hosted Payment Page API, Payments API, and 1 more. Tagged areas include Payments, Payment Gateway, Fintech, MENA, and United Arab Emirates.
 
 
   The Telr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -303,7 +303,7 @@ plans:
 - name: Telr Plans Pricing
   plan_count: 7
   slug: telr-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Telr Rate Limits
@@ -353,7 +353,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -382,6 +382,6 @@ tags:
 - Payment Gateway
 - Fintech
 - MENA
-- UAE
+- United Arab Emirates
 website: https://telr.com/
 ---

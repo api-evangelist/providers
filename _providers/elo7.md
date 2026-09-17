@@ -33,7 +33,7 @@ name: elo7
 nav: Providers
 network: true
 overview: elo7 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, E-Commerce, Handmade, and Crafts.
-random_paper: 18
+random_paper: 1
 security:
 - kind: domain-security
   name: Elo7 Domain Security

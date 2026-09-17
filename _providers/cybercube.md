@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: CyberConnect is CyberCube's API layer for integrating its cyber risk models, analytics and signals into a customer's own systems. CyberCube advertises API capabilities across catastrophe risk manageme
@@ -123,7 +123,7 @@ plans:
 - name: Cybercube Plans Pricing
   plan_count: 0
   slug: cybercube-plans-pricing
-random_paper: 3
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Cybercube Rate Limits
@@ -156,7 +156,7 @@ score:
     regime_id: insurance
     score: 36.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

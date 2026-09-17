@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://grintherapeutics.com/wp-json
@@ -47,11 +47,6 @@ apis:
   description: Media library (174 attachments at harvest time).
   name: GRIN Therapeutics Media API
   slug: grin-therapeutics-media-api
-- baseURL: https://grintherapeutics.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for grintherapeutics.com URLs.
-  name: GRIN Therapeutics Oembed API
-  slug: grin-therapeutics-oembed-api
 - baseURL: https://grintherapeutics.com/wp-json
   baseurl_source: declared
   description: Corporate and clinical-programme pages (10 published at harvest time).
@@ -77,6 +72,11 @@ apis:
   description: Public author records.
   name: GRIN Therapeutics Users API
   slug: grin-therapeutics-users-api
+- baseURL: https://grintherapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for grintherapeutics.com URLs.
+  name: GRIN Therapeutics o Embed API
+  slug: grin-therapeutics-o-embed-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -235,11 +235,11 @@ modified: '2026-08-04'
 name: GRIN Therapeutics
 nav: Providers
 network: true
-overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Oembed API, and 5 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Neuroscience, and Rare Disease.
+overview: 'GRIN Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, Pages API, and 5 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Neuroscience, and Rare Disease.
 
 
   GRIN Therapeutics'' developer surface includes product news, support, authentication, and 24 more developer resources.'
-random_paper: 10
+random_paper: 14
 score:
   band: thin
   composite: 30.3
@@ -274,7 +274,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

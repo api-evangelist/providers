@@ -24,7 +24,7 @@ name: Apteligent
 nav: Providers
 network: true
 overview: Apteligent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Mobile, Application Performance Monitoring, and Crash Reporting.
-random_paper: 19
+random_paper: 13
 slug: apteligent
 tags:
 - Company

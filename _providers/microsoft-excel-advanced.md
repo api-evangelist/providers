@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -71,11 +71,6 @@ apis:
   slug: microsoft-excel-advanced-functions-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Named item operations
-  name: Microsoft Excel (Advanced) NamedItems API
-  slug: microsoft-excel-advanced-nameditems-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: Range cell operations
   name: Microsoft Excel (Advanced) Range API
   slug: microsoft-excel-advanced-range-api
@@ -86,16 +81,6 @@ apis:
   slug: microsoft-excel-advanced-sessions-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Operations on table columns
-  name: Microsoft Excel (Advanced) TableColumns API
-  slug: microsoft-excel-advanced-tablecolumns-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations on table rows
-  name: Microsoft Excel (Advanced) TableRows API
-  slug: microsoft-excel-advanced-tablerows-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: Excel table operations
   name: Microsoft Excel (Advanced) Tables API
   slug: microsoft-excel-advanced-tables-api
@@ -104,6 +89,21 @@ apis:
   description: Worksheet operations
   name: Microsoft Excel (Advanced) Worksheets API
   slug: microsoft-excel-advanced-worksheets-api
+- baseURL: https://script.office.com
+  baseurl_source: declared
+  description: Named item operations
+  name: Microsoft Excel (Advanced) Named Items API
+  slug: microsoft-excel-advanced-named-items-api
+- baseURL: https://script.office.com
+  baseurl_source: declared
+  description: Operations on table columns
+  name: Microsoft Excel (Advanced) Table Columns API
+  slug: microsoft-excel-advanced-table-columns-api
+- baseURL: https://script.office.com
+  baseurl_source: declared
+  description: Operations on table rows
+  name: Microsoft Excel (Advanced) Table Rows API
+  slug: microsoft-excel-advanced-table-rows-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -205,7 +205,7 @@ modified: '2026-04-28'
 name: Microsoft Excel (Advanced)
 nav: Providers
 network: true
-overview: 'Microsoft Excel (Advanced) publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Functions API, NamedItems API, and 6 more. Tagged areas include Automation, Business Intelligence, Data Analysis, Office, and Spreadsheets.
+overview: 'Microsoft Excel (Advanced) publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Functions API, Range API, and 6 more. Tagged areas include Automation, Business Intelligence, Data Analysis, Office, and Spreadsheets.
 
 
   Microsoft Excel (Advanced)''s developer surface includes authentication, developer portal, and 10 more developer resources.'
@@ -213,7 +213,7 @@ plans:
 - name: Microsoft Excel Advanced Plans Pricing
   plan_count: 3
   slug: microsoft-excel-advanced-plans-pricing
-random_paper: 8
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Excel Advanced Rate Limits
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

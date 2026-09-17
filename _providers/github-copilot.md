@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -65,32 +65,32 @@ apis:
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Organization-level Copilot billing and subscription information
-  name: GitHub Copilot Copilot Billing API
+  name: GitHub Copilot Billing API
   slug: github-copilot-copilot-billing-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Manage content exclusion path rules for organizations
-  name: GitHub Copilot Copilot Content Exclusion API
+  name: GitHub Copilot Content Exclusion API
   slug: github-copilot-copilot-content-exclusion-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Aggregated Copilot usage metrics by organization and team
-  name: GitHub Copilot Copilot Metrics API
+  name: GitHub Copilot Metrics API
   slug: github-copilot-copilot-metrics-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Seat assignment management for organizations
-  name: GitHub Copilot Copilot Seats API
+  name: GitHub Copilot Seats API
   slug: github-copilot-copilot-seats-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Downloadable usage metrics reports for enterprises and organizations
-  name: GitHub Copilot Copilot Usage Reports API
+  name: GitHub Copilot Usage Reports API
   slug: github-copilot-copilot-usage-reports-api
 - baseURL: https://api.github.com
   baseurl_source: declared
   description: Add and remove individual users and teams from Copilot subscriptions
-  name: GitHub Copilot Copilot User Management API
+  name: GitHub Copilot User Management API
   slug: github-copilot-copilot-user-management-api
 arazzos:
 - description: List all Copilot seat assignments for an organization and drill into the first seat's details.
@@ -827,11 +827,11 @@ mcp_servers:
 - description: The GitHub MCP server exposes GitHub itself (repositories, issues, pull requests, Actions, code security, etc.) to MCP-capable agents including GitHub Copilot. Tools are organized into configurable to
   name: GitHub Copilot MCP Server
   slug: github-copilot-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: GitHub Copilot
 nav: Providers
 network: true
-overview: 'GitHub Copilot publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Copilot Billing API, Copilot Content Exclusion API, Copilot Metrics API, and 3 more. Tagged areas include Agents, Artificial Intelligence, Code Generation, Code Review, and Coding Agents.
+overview: 'GitHub Copilot publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Content Exclusion API, Metrics API, and 3 more. Tagged areas include Agents, Artificial Intelligence, Code Generation, Code Review, and Coding Agents.
 
 
   The GitHub Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -842,7 +842,7 @@ plans:
 - name: Github Copilot Plans Pricing
   plan_count: 5
   slug: github-copilot-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 11
   name: Github Copilot Rate Limits
@@ -906,7 +906,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

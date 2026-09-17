@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -753,7 +753,7 @@ plans:
 - name: Novu Plans Pricing
   plan_count: 4
   slug: novu-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Novu Rate Limits
@@ -805,7 +805,7 @@ score:
   facets:
     access_clarity: 77.6
     contract_governance: 28.8
-    contract_quality: 77.4
+    contract_quality: 77.5
     developer_ergonomics: 83.3
     discoverability: 51.9
     operational_transparency: 57.9
@@ -825,7 +825,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -861,7 +861,7 @@ tags:
 - Workflows
 - Open-Source
 - Subscribers
-- Topics
+- Topic
 - Inbox
 - Workflow Orchestration
 - Multi-Channel

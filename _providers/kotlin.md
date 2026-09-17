@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Core Kotlin standard library with collections, I/O, and utility functions.
@@ -97,7 +97,7 @@ plans:
 - name: Kotlin Plans Pricing
   plan_count: 3
   slug: kotlin-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Kotlin Rate Limits
@@ -124,7 +124,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

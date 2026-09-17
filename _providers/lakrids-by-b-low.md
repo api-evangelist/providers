@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The BigCommerce Storefront GraphQL API as exposed on the LAKRIDS BY BÜLOW host. This is platform infrastructure supplied by BigCommerce Stencil, not a first-party API published by LAKRIDS BY BÜLOW, an
@@ -128,7 +128,7 @@ overview: 'LAKRIDS BY BÜLOW publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   LAKRIDS BY BÜLOW''s developer surface includes engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 3
+random_paper: 18
 score:
   band: emerging
   composite: 18.2
@@ -155,7 +155,7 @@ score:
     - nordics
   previous_composite: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

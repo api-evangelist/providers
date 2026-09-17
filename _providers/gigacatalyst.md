@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The one public, unauthenticated operation Gigacatalyst publishes on its own behalf. A coding agent reads the project's API surface, builds a JSON description of it (organization, integrations, tools w
@@ -189,7 +189,7 @@ plans:
 - name: Gigacatalyst Plans Pricing
   plan_count: 0
   slug: gigacatalyst-plans-pricing
-random_paper: 17
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Gigacatalyst Rate Limits
@@ -218,7 +218,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

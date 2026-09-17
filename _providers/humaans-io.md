@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -348,11 +348,11 @@ modified: '2026-05-25'
 name: Humaans
 nav: Providers
 network: true
-overview: 'Humaans publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audit Events API, Bank Accounts API, Companies API, and 12 more. Tagged areas include HR, HRIS, Human Resources, People Operations, and People Analytics.
+overview: 'Humaans publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audit Events API, Bank Accounts API, Companies API, and 12 more. Tagged areas include Human Resources, HRIS, People Operations, People Analytics, and Onboarding.
 
 
   Humaans'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 28 more developer resources.'
-random_paper: 2
+random_paper: 20
 score:
   band: developing
   composite: 45.5
@@ -389,7 +389,7 @@ score:
       total: 15
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -414,9 +414,8 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: humaans-io
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - People Operations
 - People Analytics
 - Onboarding
@@ -427,7 +426,7 @@ tags:
 - Workflow-Automation
 - AI Companion
 - Agentic AI
-- UK
+- United Kingdom
 - London
 website: https://humaans.io
 ---

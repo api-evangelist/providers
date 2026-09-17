@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -136,11 +136,6 @@ apis:
   slug: azure-logic-apps-workflowrunoperations-api
 - baseURL: https://management.azure.com
   baseurl_source: spec
-  description: The WorkflowRuns API from Azure Logic Apps — 3 operation(s) for workflowruns.
-  name: Azure Logic Apps WorkflowRuns API
-  slug: azure-logic-apps-workflowruns-api
-- baseURL: https://management.azure.com
-  baseurl_source: spec
   description: The Workflows API from Azure Logic Apps — 12 operation(s) for workflows.
   name: Azure Logic Apps Workflows API
   slug: azure-logic-apps-workflows-api
@@ -151,14 +146,19 @@ apis:
   slug: azure-logic-apps-workflowtriggerhistories-api
 - baseURL: https://management.azure.com
   baseurl_source: spec
-  description: The WorkflowTriggers API from Azure Logic Apps — 8 operation(s) for workflowtriggers.
-  name: Azure Logic Apps WorkflowTriggers API
-  slug: azure-logic-apps-workflowtriggers-api
+  description: The Workflow Runs API from Azure Logic Apps — 3 operation(s) for workflow runs.
+  name: Azure Logic Apps Workflow Runs API
+  slug: azure-logic-apps-workflow-runs-api
 - baseURL: https://management.azure.com
   baseurl_source: spec
-  description: The WorkflowVersions API from Azure Logic Apps — 2 operation(s) for workflowversions.
-  name: Azure Logic Apps WorkflowVersions API
-  slug: azure-logic-apps-workflowversions-api
+  description: The Workflow Triggers API from Azure Logic Apps — 8 operation(s) for workflow triggers.
+  name: Azure Logic Apps Workflow Triggers API
+  slug: azure-logic-apps-workflow-triggers-api
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Workflow Versions API from Azure Logic Apps — 2 operation(s) for workflow versions.
+  name: Azure Logic Apps Workflow Versions API
+  slug: azure-logic-apps-workflow-versions-api
 artifact_total: 144
 collections:
 - collection_type: open
@@ -604,7 +604,7 @@ plans:
 - name: Azure Logic Apps Plans Pricing
   plan_count: 3
   slug: azure-logic-apps-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Azure Logic Apps Rate Limits
@@ -663,7 +663,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

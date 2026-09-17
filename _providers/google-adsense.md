@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +56,6 @@ apis:
   slug: google-adsense-adclients-api
 - baseURL: https://adsense.googleapis.com
   baseurl_source: declared
-  description: The Adunits API from Google AdSense Management — 1 operation(s) for adunits.
-  name: Google AdSense Management Adunits API
-  slug: google-adsense-adunits-api
-- baseURL: https://adsense.googleapis.com
-  baseurl_source: declared
   description: The Payments API from Google AdSense Management — 1 operation(s) for payments.
   name: Google AdSense Management Payments API
   slug: google-adsense-payments-api
@@ -69,6 +64,11 @@ apis:
   description: The Reports:generate API from Google AdSense Management — 1 operation(s) for reports:generate.
   name: Google AdSense Management Reports:generate API
   slug: google-adsense-reports-generate-api
+- baseURL: https://adsense.googleapis.com
+  baseurl_source: declared
+  description: The Ad Units API from Google AdSense Management — 1 operation(s) for ad units.
+  name: Google AdSense Management Ad Units API
+  slug: google-adsense-ad-units-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -155,7 +155,7 @@ modified: '2026-05-19'
 name: Google AdSense Management
 nav: Providers
 network: true
-overview: 'Google AdSense Management publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Adclients API, Adunits API, and 2 more. Tagged areas include Ad Units, AdSense, Advertising, Monetization, and Publishers.
+overview: 'Google AdSense Management publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Adclients API, Payments API, and 2 more. Tagged areas include Ad Units, AdSense, Advertising, Monetization, and Publishers.
 
 
   The Google AdSense Management catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -166,7 +166,7 @@ plans:
 - name: Google Adsense Plans Pricing
   plan_count: 3
   slug: google-adsense-plans-pricing
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Google Adsense Rate Limits
@@ -214,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

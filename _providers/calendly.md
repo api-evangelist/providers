@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -268,7 +268,7 @@ modified: '2026-05-19'
 name: Calendly
 nav: Providers
 network: true
-overview: 'Calendly publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Webhook API, Activity Log API, Availability API, and 10 more. Tagged areas include Appointments, Automation, Booking, Calendars, and Meetings.
+overview: 'Calendly publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Webhook API, Activity Log API, Availability API, and 10 more. Tagged areas include Appointments, Automation, Booking, Calendar, and Meetings.
 
 
   The Calendly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -279,7 +279,7 @@ plans:
 - name: Calendly Plans Pricing
   plan_count: 4
   slug: calendly-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Calendly Rate Limits
@@ -334,7 +334,7 @@ score:
       total: 12
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -358,7 +358,7 @@ tags:
 - Appointments
 - Automation
 - Booking
-- Calendars
+- Calendar
 - Meetings
 - Scheduling
 website: https://calendly.com/

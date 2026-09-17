@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful JSON API for creating and sending documents for electronic signature, managing templates, uploading files, tracking audit trails, bulk sending via CSV, and receiving webhook event notification
@@ -130,7 +130,7 @@ modified: '2026-06-13'
 name: Eversign
 nav: Providers
 network: true
-overview: 'Eversign publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Signature, Electronic Signatures, Document-Management, PDF, and Audit Trail.
+overview: 'Eversign publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include E-Signature, Electronic Signature, Document-Management, PDF, and Audit Trail.
 
 
   The Eversign catalog on APIs.io includes 1 JSON-LD context.
@@ -141,7 +141,7 @@ plans:
 - name: Eversign Plans Pricing
   plan_count: 6
   slug: eversign-plans-pricing
-random_paper: 6
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Eversign Rate Limits
@@ -169,7 +169,7 @@ score:
     score: 40.0
   previous_composite: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -184,7 +184,7 @@ security:
 slug: eversign
 tags:
 - E-Signature
-- Electronic Signatures
+- Electronic Signature
 - Document-Management
 - PDF
 - Audit Trail

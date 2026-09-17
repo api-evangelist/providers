@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 47.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -77,7 +77,7 @@ apis:
 - baseURL: https://api.wallet.paysponge.com
   baseurl_source: declared
   description: The Sponge Card API from Sponge — 7 operation(s) for sponge card.
-  name: Sponge Sponge Card API
+  name: Sponge Card API
   slug: sponge-sponge-card-api
 - baseURL: https://api.wallet.paysponge.com
   baseurl_source: declared
@@ -276,7 +276,7 @@ mcp_servers:
 - description: Sponge publishes official, hosted (remote) MCP servers for both the agent Wallet and the merchant Gateway. Wallet servers authenticate with an agent API key (sponge_live_...) for CLI clients, or OAuth
   name: Sponge MCP Server
   slug: sponge-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Sponge
 nav: Providers
 network: true
@@ -284,7 +284,7 @@ overview: 'Sponge publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sponge''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, CLI, sandbox, and 21 more developer resources.'
-random_paper: 1
+random_paper: 14
 scopes:
 - name: Sponge Scopes
   scope_count: 5
@@ -326,7 +326,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

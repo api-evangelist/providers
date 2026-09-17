@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 203 operations · 88 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://hist.databento.com/v0
-  baseurl_source: declared
-  description: Streams historical market data over HTTP for a requested date/time range. A single request selects a dataset, one or more symbols, a schema (MBO full order book, MBP-1/MBP-10, trades, OHLCV bars, stat
-  name: Databento Historical Timeseries API
-  slug: databento-historical-timeseries-api
 - baseURL: https://hist.databento.com/v0
   baseurl_source: declared
   description: Discovery and cost-estimation endpoints for the historical catalog. List publishers, datasets, schemas, and fields; look up per-dataset date ranges and data-quality conditions; and pre-compute the rec
@@ -100,7 +95,7 @@ apis:
 - baseURL: https://hist.databento.com/v0
   baseurl_source: declared
   description: The Databento OpenAPI Specification API from Databento — 1 operation(s) for databento openapi specification.
-  name: Databento Databento OpenAPI Specification API
+  name: Databento OpenAPI Specification API
   slug: databento-databento-openapi-specification-api
 - baseURL: https://hist.databento.com/v0
   baseurl_source: declared
@@ -162,6 +157,11 @@ apis:
   description: The users API from Databento — 28 operation(s) for users.
   name: Databento Users API
   slug: databento-users-api
+- baseURL: https://hist.databento.com/v0
+  baseurl_source: declared
+  description: Stream historical records for a symbol set over a time range.
+  name: Databento Time Series API
+  slug: databento-time-series-api
 artifact_total: 44
 collections:
 - collection_type: postman
@@ -209,10 +209,10 @@ common:
   type: PostmanWorkspace
   url: https://www.postman.com/kinlaneapi/databento/overview
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/databento-platform-openapi-official.json
+  href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/openapi/_original/databento-platform-openapi-official.json
   title: ''
   type: OpenAPI
-  url: openapi/databento-platform-openapi-official.json
+  url: openapi/_original/databento-platform-openapi-official.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/overlays/databento-platform-official-overlay.yaml
   title: ''
@@ -390,11 +390,11 @@ finops:
   slug: databento-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/databento.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-09-16'
 name: Databento
 nav: Providers
 network: true
-overview: 'Databento publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Historical Timeseries API, Metadata API, Symbology API, and 20 more. Tagged areas include Market Data, Financial Data, Reference Data, Historical Market Data, and Trading.
+overview: 'Databento publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Metadata API, Symbology API, Batch API, and 20 more. Tagged areas include Market Data, Financial Data, Reference Data, Historical Market Data, and Trading.
 
 
   Databento''s developer surface includes changelog, CLI, pricing, support, signup flow, getting-started guide, API reference, and 32 more developer resources.'
@@ -402,7 +402,7 @@ plans:
 - name: Databento Plans Pricing
   plan_count: 5
   slug: databento-plans-pricing
-random_paper: 1
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Databento Rate Limits
@@ -448,7 +448,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

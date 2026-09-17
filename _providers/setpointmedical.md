@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -62,8 +62,8 @@ modified: '2026-07-21'
 name: Setpointmedical
 nav: Providers
 network: true
-overview: Setpointmedical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Device, Bioelectronic Medicine, Neuromodulation, and Rheumatoid Arthritis.
-random_paper: 9
+overview: Setpointmedical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Bioelectronic Medicine, Neuromodulation, and Rheumatoid Arthritis.
+random_paper: 21
 score:
   band: minimal
   composite: 5.8
@@ -90,7 +90,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ security:
 slug: setpointmedical
 tags:
 - Company
-- Medical Device
+- Medical Devices
 - Bioelectronic Medicine
 - Neuromodulation
 - Rheumatoid Arthritis

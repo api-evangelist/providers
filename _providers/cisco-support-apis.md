@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: The EoX API returns Cisco end-of-life and end-of-support milestones for hardware and software, queried by product ID, serial number, software release string, or a date range across all products. It is
@@ -234,7 +234,7 @@ modified: '2026-08-19'
 name: Cisco Support APIs
 nav: Providers
 network: true
-overview: 'Cisco Support APIs publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Support, Lifecycle, Asset Management, Entitlement, and Enterprise.
+overview: 'Cisco Support APIs publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Support, Lifecycle, Asset Management, Entitlements, and Enterprise.
 
 
   Cisco Support APIs'' developer surface includes documentation, API reference, developer portal, getting-started guide, support, changelog, authentication, and 28 more developer resources.'
@@ -242,7 +242,7 @@ plans:
 - name: Cisco Support Apis Plans Pricing
   plan_count: 0
   slug: cisco-support-apis-plans-pricing
-random_paper: 18
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Cisco Support Apis Rate Limits
@@ -270,7 +270,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -299,7 +299,7 @@ tags:
 - Support
 - Lifecycle
 - Asset Management
-- Entitlement
+- Entitlements
 - Enterprise
 - Networking
 - End of Life

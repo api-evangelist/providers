@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Free, lower-rate-limit public API exposing basic account, transaction, and token endpoints used by the Solscan UI.
@@ -88,6 +88,10 @@ collections:
   name: Solscan Pro Transaction API
   slug: open-solscan-transaction-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://solscan.io
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/security/solscan-domain-security.yml
   title: ''
@@ -136,19 +140,19 @@ finops:
   slug: solscan-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solscan.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-09-16'
 name: Solscan
 nav: Providers
 network: true
 overview: 'Solscan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Block API, NFT API, and 2 more. Tagged areas include Web3, Solana, Explorer, Onchain, and Tokens.
 
 
-  Solscan''s developer surface includes developer portal, documentation, pricing, and 6 more developer resources.'
+  Solscan''s developer surface includes developer portal, documentation, pricing, and 7 more developer resources.'
 plans:
 - name: Solscan Plans Pricing
   plan_count: 5
   slug: solscan-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Solscan Rate Limits
@@ -180,7 +184,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -200,5 +204,5 @@ tags:
 - Onchain
 - Tokens
 - NFT
-website: https://solscan.io/
+website: https://solscan.io
 ---

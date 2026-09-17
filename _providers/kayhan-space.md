@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ apis:
 - baseURL: https://api.satcat.com/api/satcat
   baseurl_source: declared
   description: The Satcat Service API API from Kayhan Space — 1 operation(s) for satcat service api.
-  name: Kayhan Space Satcat Service API API
+  name: Kayhan Space Satcat Service API
   slug: kayhan-space-satcat-service-api-api
 - baseURL: https://api.satcat.com/api/satcat
   baseurl_source: declared
@@ -353,7 +353,7 @@ created: '2026-07-17'
 description: Kayhan Space is a spaceflight-safety company building autonomous space traffic coordination and collision-avoidance technology for satellite operators. Its Satcat platform delivers space situational awareness, conjunction assessment (CDM ingestion and analysis), on-orbit screening, ephemeris and Two-Line Element (TLE) catalog services, propagation, orbit determination, maneuver design, and collision-avoidance (COLA) planning through the Satcat Service API. Kayhan also offers Dynamics, an astrodynamics estimation and orbit-simulation engine. Founded in 2019 and backed by Initialized Capital and Techstars, Kayhan Space serves commercial, civil, and defense satellite operators.
 image: https://www.satcat.com/og.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Kayhan Space
 nav: Providers
 network: true
@@ -361,7 +361,7 @@ overview: 'Kayhan Space publishes 20 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kayhan Space''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 8
+random_paper: 17
 scopes:
 - name: Kayhan Space Scopes
   scope_count: 1
@@ -397,7 +397,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

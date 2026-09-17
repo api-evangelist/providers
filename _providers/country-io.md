@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ modified: '2026-05-19'
 name: Country.io
 nav: Providers
 network: true
-overview: 'Country.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Capitals API, Continents API, Currency API, and 3 more. Tagged areas include Capitals, Continents, Countries, Currency, and Currency Codes.
+overview: 'Country.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Capitals API, Continents API, Currency API, and 3 more. Tagged areas include Capital, Continents, Countries, Currency, and Currency Codes.
 
 
   The Country.io catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -155,7 +155,7 @@ plans:
 - name: Country Io Plans Pricing
   plan_count: 3
   slug: country-io-plans-pricing
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Country Io Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -219,7 +219,7 @@ security:
   summary_line: TLSv1.3
 slug: country-io
 tags:
-- Capitals
+- Capital
 - Continents
 - Countries
 - Currency

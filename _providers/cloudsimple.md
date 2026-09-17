@@ -24,7 +24,7 @@ name: Cloudsimple
 nav: Providers
 network: true
 overview: Cloudsimple is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Cloud Computing, and VMware.
-random_paper: 9
+random_paper: 19
 slug: cloudsimple
 tags:
 - Company

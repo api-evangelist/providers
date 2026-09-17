@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: LicensePlateData API
   slug: open-licenseplatedata
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://licenseplatedata.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/licenseplatedata/refs/heads/main/agentic-access/licenseplatedata-agentic-access.yml
   title: ''
@@ -105,19 +109,19 @@ finops:
   slug: licenseplatedata-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/licenseplatedata.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: LicensePlateData
 nav: Providers
 network: true
 overview: 'LicensePlateData publishes 3 APIs on the [APIs.io](https://apis.io/) network: Images API, Plate API, and VIN API. Tagged areas include Vehicles, License Plates, VIN, Automotive, and Plate Lookup.
 
 
-  LicensePlateData''s developer surface includes authentication, engineering blog, and 2 more developer resources.'
+  LicensePlateData''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
 plans:
 - name: Licenseplatedata Plans Pricing
   plan_count: 3
   slug: licenseplatedata-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Licenseplatedata Rate Limits
@@ -149,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -173,4 +177,5 @@ tags:
 - Automotive
 - Plate Lookup
 - VIN Decoding
+website: https://licenseplatedata.com
 ---

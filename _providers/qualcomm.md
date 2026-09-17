@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,6 +61,10 @@ collections:
   name: Qualcomm Developer Semiconductors API
   slug: open-qualcomm-semiconductors-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://qualcomm.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/agentic-access/qualcomm-agentic-access.yml
   title: ''
@@ -104,14 +108,14 @@ graphqls:
   slug: qualcomm-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qualcomm.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Qualcomm
 nav: Providers
 network: true
 overview: 'Qualcomm publishes 1 API on the [APIs.io](https://apis.io/) network: Semiconductors API. Tagged areas include Fortune 500.
 
 
-  Qualcomm''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  Qualcomm''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Qualcomm Plans Pricing
   plan_count: 1
@@ -132,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: Qualcomm Technologies, Inc. News and Press Releases
   url: https://www.prnewswire.com/news/qualcomm-technologies%2C-inc./
-random_paper: 2
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Qualcomm Rate Limits
@@ -164,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -187,4 +191,5 @@ security:
 slug: qualcomm
 tags:
 - Fortune 500
+website: https://qualcomm.com
 ---

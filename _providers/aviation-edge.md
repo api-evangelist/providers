@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 36.5
-  scored_at: '2026-09-15'
+  score: 33.1
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,16 +45,6 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- baseURL: https://aviation-edge.com/v2/public
-  baseurl_source: declared
-  description: Aviation Edge API provides comprehensive aviation data including real-time flight tracking, airport information, airline schedules, aircraft data, and satellite tracking for global aviation intelligen
-  name: Aviation Edge
-  slug: aviation-edge
-- baseURL: https://aviation-edge.com/v2/public
-  baseurl_source: declared
-  description: Real-time and live flight tracking
-  name: Aviation Edge Real-Time API
-  slug: aviation-edge-real-time-api
 - baseURL: https://aviation-edge.com/v2/public
   baseurl_source: declared
   description: Static reference data
@@ -72,10 +62,15 @@ apis:
   slug: aviation-edge-schedules-api
 - baseURL: https://aviation-edge.com/v2/public
   baseurl_source: declared
-  description: Real-time and historical NOTAM data for airports and Flight Information Regions, by IATA code, ICAO code or FIR location code.
-  name: Aviation Edge NOTAMs API
+  description: Airport and FIR NOTAM data
+  name: Aviation Edge NOTA Ms API
   slug: aviation-edge-notams-api
-artifact_total: 18
+- baseURL: https://aviation-edge.com/v2/public
+  baseurl_source: declared
+  description: Real-time and historical flight tracking
+  name: Aviation Edge Realtime API
+  slug: aviation-edge-realtime-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -96,6 +91,16 @@ collections:
   name: Aviation Edge API
   slug: open-aviation-edge
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/overlays/aviation-edge-real-time-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aviation-edge-real-time-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aviation-edge/refs/heads/main/overlays/aviation-edge-notams-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aviation-edge-notams-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -265,22 +270,22 @@ modified: '2026-09-04'
 name: Aviation Edge
 nav: Providers
 network: true
-overview: 'Aviation Edge publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Aviation Edge, Real-Time API, Reference API, and 3 more. Tagged areas include Airlines, Airports, Aviation, Flight Data, and Real-Time.
+overview: 'Aviation Edge publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Reference API, Satellites API, Schedules API, and 2 more. Tagged areas include Airlines, Airports, Aviation, Flight Data, and Real-Time.
 
 
-  Aviation Edge''s developer surface includes authentication, developer portal, engineering blog, sandbox, documentation, API reference, getting-started guide, and 28 more developer resources.'
+  Aviation Edge''s developer surface includes authentication, developer portal, engineering blog, sandbox, documentation, API reference, getting-started guide, and 30 more developer resources.'
 plans:
 - name: Aviation Edge Plans Pricing
   plan_count: 4
   slug: aviation-edge-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Aviation Edge Rate Limits
   slug: aviation-edge-rate-limits
 score:
   band: strong
-  composite: 58.0
+  composite: 58.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 64.0
@@ -288,11 +293,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 55.6
+    contract_quality: 56.5
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 34.2
@@ -308,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://quickbooks.api.intuit.com/v3/company
@@ -105,14 +105,14 @@ modified: '2026-05-30'
 name: QuickBooks
 nav: Providers
 network: true
-overview: 'QuickBooks publishes 1 API on the [APIs.io](https://apis.io/) network: Online Accounting API. Tagged areas include Accounting, Bookkeeping, Small Business, Financials, and Invoicing.
+overview: 'QuickBooks publishes 1 API on the [APIs.io](https://apis.io/) network: Online Accounting API. Tagged areas include Accounting, Bookkeeping, Small Business, Financial, and Invoicing.
 
 
   The QuickBooks catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
   QuickBooks'' developer surface includes documentation, API reference, signup flow, pricing, and 6 more developer resources.'
-random_paper: 12
+random_paper: 5
 rules:
 - effective_rule_count: 30
   extends:
@@ -145,7 +145,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 34.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -162,7 +162,7 @@ tags:
 - Accounting
 - Bookkeeping
 - Small Business
-- Financials
+- Financial
 - Invoicing
 - Payroll
 - Tax

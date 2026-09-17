@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: REST-based interface to NetSuite business objects as JSON resources with CRUD operations, SuiteQL high-performance queries, and an OpenAPI 3.0 definition that provides rich object metadata for records
@@ -100,11 +100,11 @@ modified: '2026-05-11'
 name: Oracle NetSuite
 nav: Providers
 network: true
-overview: 'Oracle NetSuite publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, CRM, Financials, Accounting, and Inventory.
+overview: 'Oracle NetSuite publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, CRM, Financial, Accounting, and Inventory.
 
 
   Oracle NetSuite''s developer surface includes documentation, signup flow, and 6 more developer resources.'
-random_paper: 20
+random_paper: 1
 score:
   band: emerging
   composite: 24.6
@@ -125,7 +125,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 24.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -141,7 +141,7 @@ slug: netsuite
 tags:
 - ERP
 - CRM
-- Financials
+- Financial
 - Accounting
 - Inventory
 - E-Commerce

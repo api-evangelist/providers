@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,42 +46,42 @@ apis:
 - baseURL: https://prod.api.market/api/v1/aedbx/aerodatabox
   baseurl_source: declared
   description: The Aircraft API API from AeroDataBox — 6 operation(s) for aircraft api.
-  name: AeroDataBox Aircraft API API
+  name: AeroDataBox Aircraft API
   slug: aerodatabox-aircraft-api-api
 - baseURL: https://prod.api.market/api/v1/aedbx/aerodatabox
   baseurl_source: declared
   description: The Airport API API from AeroDataBox — 5 operation(s) for airport api.
-  name: AeroDataBox Airport API API
+  name: AeroDataBox Airport API
   slug: aerodatabox-airport-api-api
 - baseURL: https://prod.api.market/api/v1/aedbx/aerodatabox
   baseurl_source: declared
   description: The Flight Alert API API from AeroDataBox — 6 operation(s) for flight alert api.
-  name: AeroDataBox Flight Alert API API
+  name: AeroDataBox Flight Alert API
   slug: aerodatabox-flight-alert-api-api
 - baseURL: https://prod.api.market/api/v1/aedbx/aerodatabox
   baseurl_source: declared
   description: The Flight API API from AeroDataBox — 8 operation(s) for flight api.
-  name: AeroDataBox Flight API API
+  name: AeroDataBox Flight API
   slug: aerodatabox-flight-api-api
 - baseURL: https://prod.api.market/api/v1/aedbx/aerodatabox
   baseurl_source: declared
   description: The Healthcheck API API from AeroDataBox — 3 operation(s) for healthcheck api.
-  name: AeroDataBox Healthcheck API API
+  name: AeroDataBox Healthcheck API
   slug: aerodatabox-healthcheck-api-api
 - baseURL: https://prod.api.market/api/v1/aedbx/aerodatabox
   baseurl_source: declared
   description: The Industry API API from AeroDataBox — 1 operation(s) for industry api.
-  name: AeroDataBox Industry API API
+  name: AeroDataBox Industry API
   slug: aerodatabox-industry-api-api
 - baseURL: https://prod.api.market/api/v1/aedbx/aerodatabox
   baseurl_source: declared
   description: The Miscellaneous API API from AeroDataBox — 4 operation(s) for miscellaneous api.
-  name: AeroDataBox Miscellaneous API API
+  name: AeroDataBox Miscellaneous API
   slug: aerodatabox-miscellaneous-api-api
 - baseURL: https://prod.api.market/api/v1/aedbx/aerodatabox
   baseurl_source: declared
   description: The Statistical API API from AeroDataBox — 8 operation(s) for statistical api.
-  name: AeroDataBox Statistical API API
+  name: AeroDataBox Statistical API
   slug: aerodatabox-statistical-api-api
 artifact_total: 371
 collections:
@@ -1197,11 +1197,11 @@ jsonld:
   property_count: 200
   slug: aerodatabox-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: AeroDataBox
 nav: Providers
 network: true
-overview: 'AeroDataBox publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Aircraft API API, Airport API API, Flight Alert API API, and 5 more. Tagged areas include Aviation, Flights, Aerospace, Flight Data, and Airport Data.
+overview: 'AeroDataBox publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Aircraft API, Airport API, Flight Alert API, and 5 more. Tagged areas include Aviation, Flights, Aerospace, Flight Data, and Airport Data.
 
 
   The AeroDataBox catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1212,7 +1212,7 @@ plans:
 - name: Aerodatabox Plans Pricing
   plan_count: 1
   slug: aerodatabox-plans-pricing
-random_paper: 7
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Aerodatabox Rate Limits
@@ -1266,7 +1266,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

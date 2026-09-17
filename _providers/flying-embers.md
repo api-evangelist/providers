@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Anonymous JSON-RPC 2.0 / Model Context Protocol endpoint implementing the Universal Commerce Protocol shopping service (version 2026-04-08). A tools/list call returns 13 tools with JSON Schema input c
@@ -183,7 +183,7 @@ plans:
 - name: Flying Embers Plans Pricing
   plan_count: 0
   slug: flying-embers-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Flying Embers Rate Limits
@@ -217,7 +217,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

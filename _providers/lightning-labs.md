@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -58,6 +58,10 @@ collections:
   name: Lightning Labs LND API
   slug: open-lightning-labs
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://lightning.engineering
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/lightning-labs/refs/heads/main/agentic-access/lightning-labs-agentic-access.yml
   title: ''
@@ -88,19 +92,19 @@ finops:
   slug: lightning-labs-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lightning-labs.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Lightning Labs
 nav: Providers
 network: true
 overview: 'Lightning Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Lightning API. Tagged areas include Bitcoin, Crypto, Lightning Network, and Payments.
 
 
-  Lightning Labs'' developer surface includes engineering blog and 4 more developer resources.'
+  Lightning Labs'' developer surface includes engineering blog and 5 more developer resources.'
 plans:
 - name: Lightning Labs Plans Pricing
   plan_count: 3
   slug: lightning-labs-plans-pricing
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Lightning Labs Rate Limits
@@ -138,7 +142,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -155,4 +159,5 @@ tags:
 - Crypto
 - Lightning Network
 - Payments
+website: https://lightning.engineering
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - baseURL: https://alignednews.com/v1
   baseurl_source: declared
   description: All current stories grouped by section.
-  name: Aligned News News Feed API
+  name: Aligned News Feed API
   slug: aligned-news-news-feed-api
 - baseURL: https://alignednews.com/v1
   baseurl_source: declared
@@ -285,11 +285,11 @@ jsonld:
   property_count: 9
   slug: aligned-news-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Aligned News
 nav: Providers
 network: true
-overview: 'Aligned News publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bundles API, News Feed API, Reports API, and 4 more. Tagged areas include Artificial Intelligence, News, Intelligence, MCP, and Signals.
+overview: 'Aligned News publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Bundles API, Feed API, Reports API, and 4 more. Tagged areas include Artificial Intelligence, News, Intelligence, MCP, and Signals.
 
 
   The Aligned News catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -300,7 +300,7 @@ plans:
 - name: Aligned News Plans Pricing
   plan_count: 3
   slug: aligned-news-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Aligned News Rate Limits
@@ -343,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

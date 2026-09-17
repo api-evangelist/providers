@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'The BEP U.S. Currency Reader Program provides free currency readers to blind and visually impaired individuals in the United States, enabling them to identify Federal Reserve Note denominations using '
@@ -121,7 +121,7 @@ plans:
 - name: Bureau Of Engraving And Printing Plans Pricing
   plan_count: 0
   slug: bureau-of-engraving-and-printing-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Bureau Of Engraving And Printing Rate Limits
@@ -152,7 +152,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

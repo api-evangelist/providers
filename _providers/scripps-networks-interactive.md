@@ -58,7 +58,7 @@ press:
 - date: '2026-05-25'
   title: Scripps Networks Interactive Posts 11% Rev Hike 05/03/2013
   url: https://www.mediapost.com/publications/article/199462/
-random_paper: 18
+random_paper: 11
 slug: scripps-networks-interactive
 tags:
 - Media

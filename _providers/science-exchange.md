@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 23
 apis:
 - baseURL: https://www.scienceexchange.com/api/providers/v1
@@ -129,11 +129,6 @@ apis:
   slug: science-exchange-rfq-messages-api
 - baseURL: https://www.scienceexchange.com/api/providers/v1
   baseurl_source: declared
-  description: RFQs resource.
-  name: Science Exchange rfqs API
-  slug: science-exchange-rfqs-api
-- baseURL: https://www.scienceexchange.com/api/providers/v1
-  baseurl_source: declared
   description: Services resource.
   name: Science Exchange services API
   slug: science-exchange-services-api
@@ -152,6 +147,11 @@ apis:
   description: Users resource.
   name: Science Exchange users API
   slug: science-exchange-users-api
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: RFQs resource.
+  name: Science Exchange Rfqs API
+  slug: science-exchange-rfqs-api
 artifact_total: 50
 collections:
 - collection_type: open
@@ -362,7 +362,7 @@ overview: 'Science Exchange publishes 23 APIs on the [APIs.io](https://apis.io/)
 
 
   Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 14
+random_paper: 4
 score:
   band: thin
   composite: 35.1
@@ -409,7 +409,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

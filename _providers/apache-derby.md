@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Derby provides a standard JDBC API for database operations in both embedded (org.apache.derby.jdbc.EmbeddedDriver) and client/server (org.apache.derby.jdbc.ClientDriver) modes, supporting full SQL, st
@@ -41,6 +41,10 @@ apis:
   slug: apache-derby
 artifact_total: 29
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apache.org
 - group: build
   title: ''
   type: CodeOfConduct
@@ -145,7 +149,7 @@ jsonld:
   property_count: 15
   slug: apache-derby-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Apache Derby
 nav: Providers
 network: true
@@ -155,12 +159,12 @@ overview: 'Apache Derby publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Apache Derby catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache Derby''s developer surface includes developer portal, documentation, getting-started guide, Stack Overflow tag, and 7 more developer resources.'
+  Apache Derby''s developer surface includes developer portal, documentation, getting-started guide, Stack Overflow tag, and 8 more developer resources.'
 plans:
 - name: Apache Derby Plans Pricing
   plan_count: 3
   slug: apache-derby-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Apache Derby Rate Limits
@@ -196,7 +200,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -231,5 +235,5 @@ use_cases:
   name: Lightweight Development Database
 - description: Use Derby as a staging database for ETL processes in Java-based data pipelines.
   name: Data Migration and ETL
-website: https://db.apache.org/derby/
+website: https://apache.org
 ---

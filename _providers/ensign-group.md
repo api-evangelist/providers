@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Ensign Group API provides access to platform services and data for enterprise integration and automation.
@@ -78,7 +78,7 @@ plans:
 - name: Ensign Group Plans Pricing
   plan_count: 1
   slug: ensign-group-plans-pricing
-random_paper: 7
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Ensign Group Rate Limits
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

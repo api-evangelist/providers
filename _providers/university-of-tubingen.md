@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Keyless, read-only JSON REST API of FDAT, the university's institutional research data repository, operated by the Digital Humanities Center on the InvenioRDM platform and served from the university's
@@ -186,7 +186,7 @@ plans:
 - name: University Of Tubingen Plans Pricing
   plan_count: 2
   slug: university-of-tubingen-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: University Of Tubingen Rate Limits
@@ -227,7 +227,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

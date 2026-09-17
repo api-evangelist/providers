@@ -27,13 +27,13 @@ modified: '2026-09-06'
 name: AcceleDent
 nav: Providers
 network: true
-overview: AcceleDent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Medical Device, Dental, and Orthodontics.
-random_paper: 3
+overview: AcceleDent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Medical Devices, Dental, and Orthodontics.
+random_paper: 20
 slug: acceledent
 tags:
 - Company
 - Defunct
-- Medical Device
+- Medical Devices
 - Dental
 - Orthodontics
 - Healthcare

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the CloudGenix AppFabric / Cloud Controller — manage sites, elements (ION devices), WAN networks, application policies, and telemetry. Token-authenticated via the X-Auth-Token header.
@@ -41,6 +41,10 @@ apis:
   slug: cloudgenix-cloud-controller-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://cloudgenix.com
 - group: docs
   title: ''
   type: Documentation
@@ -73,15 +77,15 @@ created: '2026-07-17'
 description: CloudGenix was a cloud-native SD-WAN (software-defined wide area network) company founded in 2013 and backed by Mayfield. Its AppFabric platform let enterprises build application-defined, policy-driven WANs managed from a cloud controller, with a full REST API (the CloudGenix Cloud Controller / AppFabric API) and first-party SDKs in Python, C#, Java, and JavaScript plus a CI-capable configuration CLI. Palo Alto Networks acquired CloudGenix in April 2020 for more than $420M and rebranded the product as Prisma SD-WAN, now part of the Prisma SASE portfolio. The public developer tooling remains published under the official CloudGenix GitHub organization.
 image: https://avatars.githubusercontent.com/CloudGenix
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Cloudgenix
 nav: Providers
 network: true
 overview: 'Cloudgenix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SD-WAN, Networking, Cloud, and Software Defined Networking.
 
 
-  Cloudgenix''s developer surface includes documentation, CLI, authentication, and 3 more developer resources.'
-random_paper: 3
+  Cloudgenix''s developer surface includes documentation, CLI, authentication, and 4 more developer resources.'
+random_paper: 18
 score:
   band: emerging
   composite: 14.1
@@ -108,7 +112,7 @@ score:
       reason: never_enriched
   previous_composite: 14.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -130,4 +134,5 @@ tags:
 - Network Automation
 - SASE
 - Infrastructure
+website: https://cloudgenix.com
 ---

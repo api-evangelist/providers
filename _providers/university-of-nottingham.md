@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Keyless, read-only HAL+JSON REST API of the university's self-hosted DSpace 8.2 / DSpace-CRIS (cris-2024.02.04) institutional repository, served from the university's own domain at repository.nottingh
@@ -184,7 +184,7 @@ plans:
 - name: University Of Nottingham Plans Pricing
   plan_count: 2
   slug: university-of-nottingham-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: University Of Nottingham Rate Limits
@@ -225,7 +225,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

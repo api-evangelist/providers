@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -119,11 +119,6 @@ apis:
   slug: cloudkitchens-manager-storefront-endpoints-api
 - baseURL: https://api.cloudkitchens.com
   baseurl_source: declared
-  description: The marketintel_endpoints API from CloudKitchens — 1 operation(s) for marketintel_endpoints.
-  name: CloudKitchens Marketintel Endpoints API
-  slug: cloudkitchens-marketintel-endpoints-api
-- baseURL: https://api.cloudkitchens.com
-  baseurl_source: declared
   description: Endpoints to manage menus.
   name: CloudKitchens Menus Endpoints API
   slug: cloudkitchens-menus-endpoints-api
@@ -182,6 +177,11 @@ apis:
   description: Webhooks from storefront domain.
   name: CloudKitchens Storefront Webhooks API
   slug: cloudkitchens-storefront-webhooks-api
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: The Market Intel Endpoints API from CloudKitchens — 1 operation(s) for market intel endpoints.
+  name: CloudKitchens Market Intel Endpoints API
+  slug: cloudkitchens-market-intel-endpoints-api
 artifact_total: 34
 asyncapis:
 - description: ''
@@ -392,7 +392,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

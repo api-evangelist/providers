@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Clerk.js is the browser-side JavaScript library for embedding Clerk.io recommendation slots, search, and email opens on a storefront, with Liquid templating support and event tracking.
@@ -58,34 +58,14 @@ apis:
   slug: clerk-io-campaigns-api
 - baseURL: https://api.clerk.io/v2
   baseurl_source: declared
-  description: The Catalog API from Clerk.io — 5 operation(s) for catalog.
-  name: Clerk.io Catalog API
-  slug: clerk-io-catalog-api
-- baseURL: https://api.clerk.io/v2
-  baseurl_source: declared
-  description: The Logging API from Clerk.io — 9 operation(s) for logging.
-  name: Clerk.io Logging API
-  slug: clerk-io-logging-api
-- baseURL: https://api.clerk.io/v2
-  baseurl_source: declared
   description: The Merchandising API from Clerk.io — 4 operation(s) for merchandising.
   name: Clerk.io Merchandising API
   slug: clerk-io-merchandising-api
 - baseURL: https://api.clerk.io/v2
   baseurl_source: declared
-  description: The Parcels API from Clerk.io — 1 operation(s) for parcels.
-  name: Clerk.io Parcels API
-  slug: clerk-io-parcels-api
-- baseURL: https://api.clerk.io/v2
-  baseurl_source: declared
   description: The Privacy API from Clerk.io — 2 operation(s) for privacy.
   name: Clerk.io Privacy API
   slug: clerk-io-privacy-api
-- baseURL: https://api.clerk.io/v2
-  baseurl_source: declared
-  description: The Product Data API from Clerk.io — 4 operation(s) for product data.
-  name: Clerk.io Product Data API
-  slug: clerk-io-product-data-api
 - baseURL: https://api.clerk.io/v2
   baseurl_source: declared
   description: The Recommendations API from Clerk.io — 25 operation(s) for recommendations.
@@ -98,15 +78,65 @@ apis:
   slug: clerk-io-search-api
 - baseURL: https://api.clerk.io/v2
   baseurl_source: declared
-  description: The Subscribers API from Clerk.io — 2 operation(s) for subscribers.
-  name: Clerk.io Subscribers API
-  slug: clerk-io-subscribers-api
+  description: The Categories API from Clerk.io — 1 operation(s) for categories.
+  name: Clerk.io Categories API
+  slug: clerk-io-categories-api
 - baseURL: https://api.clerk.io/v2
   baseurl_source: declared
-  description: The Tokens API from Clerk.io — 1 operation(s) for tokens.
-  name: Clerk.io Tokens API
-  slug: clerk-io-tokens-api
-artifact_total: 24
+  description: The Customers API from Clerk.io — 1 operation(s) for customers.
+  name: Clerk.io Customers API
+  slug: clerk-io-customers-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Customized Search API from Clerk.io — 1 operation(s) for customized search.
+  name: Clerk.io Customized Search API
+  slug: clerk-io-customized-search-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Log API from Clerk.io — 9 operation(s) for log.
+  name: Clerk.io Log API
+  slug: clerk-io-log-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Orders API from Clerk.io — 2 operation(s) for orders.
+  name: Clerk.io Orders API
+  slug: clerk-io-orders-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Pages API from Clerk.io — 1 operation(s) for pages.
+  name: Clerk.io Pages API
+  slug: clerk-io-pages-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Product API from Clerk.io — 4 operation(s) for product.
+  name: Clerk.io Product API
+  slug: clerk-io-product-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Products API from Clerk.io — 1 operation(s) for products.
+  name: Clerk.io Products API
+  slug: clerk-io-products-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Redirects API from Clerk.io — 1 operation(s) for redirects.
+  name: Clerk.io Redirects API
+  slug: clerk-io-redirects-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Subscriber API from Clerk.io — 2 operation(s) for subscriber.
+  name: Clerk.io Subscriber API
+  slug: clerk-io-subscriber-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Synonyms API from Clerk.io — 1 operation(s) for synonyms.
+  name: Clerk.io Synonyms API
+  slug: clerk-io-synonyms-api
+- baseURL: https://api.clerk.io/v2
+  baseurl_source: declared
+  description: The Token API from Clerk.io — 1 operation(s) for token.
+  name: Clerk.io Token API
+  slug: clerk-io-token-api
+artifact_total: 30
 collections:
 - collection_type: open
   name: Clerk.io API
@@ -318,7 +348,7 @@ modified: '2026-08-13'
 name: Clerk.io
 nav: Providers
 network: true
-overview: 'Clerk.io publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accessories API, Audiences API, Campaigns API, and 10 more. Tagged areas include Artificial Intelligence, Commerce, E-Commerce, Email Marketing, and Personalization.
+overview: 'Clerk.io publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Accessories API, Audiences API, Campaigns API, and 16 more. Tagged areas include Artificial Intelligence, Commerce, E-Commerce, Email Marketing, and Personalization.
 
 
   The Clerk.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -329,7 +359,7 @@ plans:
 - name: Clerk Io Plans Pricing
   plan_count: 5
   slug: clerk-io-plans-pricing
-random_paper: 13
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Clerk Io Rate Limits
@@ -348,7 +378,7 @@ rules:
   slug: clerk-io-rules
 score:
   band: strong
-  composite: 59.1
+  composite: 58.5
   coverage:
     artifact_dirs: 23
     catalog_earned: 72.0
@@ -356,11 +386,11 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 100.0
     contract_governance: 50.0
-    contract_quality: 62.0
+    contract_quality: 59.5
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 10.5
@@ -370,12 +400,12 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 13
+      marker_coverage: 0.0
+      total: 19
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

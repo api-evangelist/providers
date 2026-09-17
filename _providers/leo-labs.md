@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.leolabs.space/v1
@@ -178,11 +178,11 @@ modified: '2026-07-19'
 name: LeoLabs
 nav: Providers
 network: true
-overview: 'LeoLabs publishes 2 APIs on the [APIs.io](https://apis.io/) network: catalog API and instruments API. Tagged areas include Company, Space, Satellites, Space Situational Awareness, and Space Traffic Management.
+overview: 'LeoLabs publishes 2 APIs on the [APIs.io](https://apis.io/) network: catalog API and instruments API. Tagged areas include Company, Space, Satellite, Space Situational Awareness, and Space Traffic Management.
 
 
   LeoLabs'' developer surface includes documentation, signup flow, engineering blog, support, authentication, CLI, and 18 more developer resources.'
-random_paper: 6
+random_paper: 13
 scopes:
 - name: Leo Labs Scopes
   scope_count: 0
@@ -217,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -240,7 +240,7 @@ slug: leo-labs
 tags:
 - Company
 - Space
-- Satellites
+- Satellite
 - Space Situational Awareness
 - Space Traffic Management
 - Orbital Data

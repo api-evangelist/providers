@@ -21,11 +21,11 @@ modified: '2026-04-28'
 name: Convention Over Configuration
 nav: Providers
 network: true
-random_paper: 1
+random_paper: 11
 slug: convention-over-configuration
 tags:
 - Conventions
 - Design Principle
-- Frameworks
+- Framework
 - Software Design
 ---

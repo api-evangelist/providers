@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://repository.uantwerpen.be/oai/abua/
-  baseurl_source: declared
-  description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 interface for the Institutional Repository University of Antwerp (IRUA). Verified live on 2026-09-01: Identify returns repositoryName "Ins'
-  name: IRUA OAI-PMH Metadata Interface
-  slug: irua-oai-pmh
 - description: The university's federated login, published as a SAML 2.0 EntityDescriptor at https://idpx.ua.ac.be/idp/shibboleth (HTTP 200, application/xml, 16,305 bytes). Declares four SingleSignOnService bindings
   name: University of Antwerp Identity Provider (Shibboleth / SAML 2.0)
   slug: idp
@@ -63,6 +58,11 @@ apis:
 - description: Research Organization Registry identifier https://ror.org/008x57b05, resolved live from https://api.ror.org/v2/organizations. Declares domain uantwerpen.be, established 2003, location Antwerp, Flander
   name: ROR registration
   slug: ror
+- baseURL: https://repository.uantwerpen.be/oai/abua/
+  baseurl_source: declared
+  description: The IRUA OAI PMH Metadata Interface API from University of Antwerp — 1 operation(s) for irua oai pmh metadata interface.
+  name: University of Antwerp IRUA OAI PMH Metadata Interface API
+  slug: university-of-antwerp-irua-oai-pmh-metadata-interface-api
 artifact_total: 14
 common:
 - group: company
@@ -179,7 +179,7 @@ modified: '2026-09-01'
 name: University of Antwerp
 nav: Providers
 network: true
-overview: 'University of Antwerp publishes 1 API on the [APIs.io](https://apis.io/) network: IRUA OAI-PMH Metadata Interface. Tagged areas include Education, Higher Education, University, Belgium, and Europe.
+overview: 'University of Antwerp publishes 1 API on the [APIs.io](https://apis.io/) network: IRUA OAI PMH Metadata Interface API. Tagged areas include Education, Higher Education, University, Belgium, and Europe.
 
 
   The University of Antwerp catalog on APIs.io includes 1 JSON-LD context.
@@ -190,14 +190,14 @@ plans:
 - name: University Of Antwerp Plans Pricing
   plan_count: 2
   slug: university-of-antwerp-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: University Of Antwerp Rate Limits
   slug: university-of-antwerp-rate-limits
 score:
   band: thin
-  composite: 34.8
+  composite: 34.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 67.0
@@ -205,11 +205,11 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 15.2
-    contract_quality: 24.1
+    contract_quality: 24.7
     developer_ergonomics: 23.8
     discoverability: 59.3
     operational_transparency: 26.3
@@ -234,7 +234,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

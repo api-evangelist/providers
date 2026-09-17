@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,7 +101,7 @@ overview: 'Polars is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Polars'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, and 6 more developer resources.'
-random_paper: 6
+random_paper: 19
 score:
   band: emerging
   composite: 16.0
@@ -122,7 +122,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 16.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

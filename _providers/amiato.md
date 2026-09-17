@@ -20,7 +20,7 @@ name: Amiato
 nav: Providers
 network: true
 overview: Amiato is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Data Integration, ETL, and Business Intelligence.
-random_paper: 5
+random_paper: 19
 slug: amiato
 tags:
 - Company

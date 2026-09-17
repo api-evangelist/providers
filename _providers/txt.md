@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - baseURL: https://api.dottxt.ai/v1
   baseurl_source: declared
   description: 'Create model responses with enhanced capabilities. Open Responses compatible endpoint providing advanced features: - **Reasoning models** - Control computational effort with `reasoning` parameter - **'
-  name: .txt responses-api API
+  name: .txt responses-api
   slug: txt-responses-api-api
 artifact_total: 16
 collections:
@@ -223,7 +223,7 @@ created: '2026-07-17'
 description: '.txt (dottxt) is the structured-generation company behind the open-source Outlines library (65M+ downloads). Its hosted platform, the dottxt API at api.dottxt.ai, is an OpenAI-compatible pay-per-token API whose defining contract is schema enforcement: a JSON Schema passed in response_format is compiled and enforced by constrained decoding, so model outputs are guaranteed valid — including field-by-field RFC 6902 JSON Patch streaming, Open Responses support, embeddings, and JSONL batch processing. Founded by the Outlines maintainers and backed by Seedcamp; inference is operated with launch partner Doubleword.'
 image: https://cdn.sanity.io/images/z84vkf2c/production/f496d7868262fbf26f71782579181541f75b45b5-100x50.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: .txt
 nav: Providers
 network: true
@@ -231,7 +231,7 @@ overview: '.txt publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   .txt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, CLI, and 19 more developer resources.'
-random_paper: 16
+random_paper: 0
 score:
   band: thin
   composite: 38.5
@@ -262,7 +262,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

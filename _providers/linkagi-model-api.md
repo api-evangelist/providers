@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.linktoagi.com
@@ -215,7 +215,7 @@ overview: 'LinkAGI Model API publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   LinkAGI Model API''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, GitHub presence, pricing, and 20 more developer resources.'
-random_paper: 9
+random_paper: 18
 score:
   band: thin
   composite: 35.7
@@ -252,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

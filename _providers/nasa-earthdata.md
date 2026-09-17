@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,11 +65,11 @@ apis:
   description: Access to data (coverage).
   name: NASA Earthdata Coverage API
   slug: nasa-earthdata-coverage-api
-- baseURL: https://cmr.earthdata.nasa.gov
+- baseURL: https://cmr.earthdata.nasa.gov/stac
   baseurl_source: declared
-  description: The OpenAPI API from NASA Earthdata — 1 operation(s) for openapi.
-  name: NASA Earthdata OpenAPI API
-  slug: nasa-earthdata-openapi-api
+  description: The Open API API from NASA Earthdata — 1 operation(s) for open api.
+  name: NASA Earthdata Open API
+  slug: nasa-earthdata-open-api-api
 artifact_total: 16
 collections:
 - collection_type: open
@@ -143,7 +143,7 @@ modified: '2026-06-13'
 name: NASA Earthdata
 nav: Providers
 network: true
-overview: 'NASA Earthdata publishes 3 APIs on the [APIs.io](https://apis.io/) network: Capabilities API, Coverage API, and OpenAPI API. Tagged areas include Earth Observation, Satellite Data, Climate Data, Remote Sensing, and Geospatial.
+overview: 'NASA Earthdata publishes 3 APIs on the [APIs.io](https://apis.io/) network: Capabilities API, Coverage API, and Open API. Tagged areas include Earth Observation, Satellite Data, Climate Data, Remote Sensing, and Geospatial.
 
 
   NASA Earthdata''s developer surface includes developer portal, authentication, status page, engineering blog, GitHub presence, and 6 more developer resources.'
@@ -183,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

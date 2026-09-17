@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -222,12 +222,12 @@ apis:
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service
   baseurl_source: declared
   description: The Integration Events API from Workday Integration — 2 operation(s) for integration events.
-  name: Workday Integration Integration Events API
+  name: Workday Integration Events API
   slug: workday-integration-integration-events-api
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service
   baseurl_source: declared
   description: The Integration Systems API from Workday Integration — 3 operation(s) for integration systems.
-  name: Workday Integration Integration Systems API
+  name: Workday Integration Systems API
   slug: workday-integration-integration-systems-api
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service
   baseurl_source: declared
@@ -316,16 +316,6 @@ apis:
   slug: workday-integration-payroll-australia-api
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service
   baseurl_source: declared
-  description: The Payroll Canada API from Workday Integration — 2 operation(s) for payroll canada.
-  name: Workday Integration Payroll Canada API
-  slug: workday-integration-payroll-canada-api
-- baseURL: https://wd2-impl-services1.workday.com/ccx/service
-  baseurl_source: declared
-  description: The Payroll France API from Workday Integration — 2 operation(s) for payroll france.
-  name: Workday Integration Payroll France API
-  slug: workday-integration-payroll-france-api
-- baseURL: https://wd2-impl-services1.workday.com/ccx/service
-  baseurl_source: declared
   description: The Payroll Inputs API from Workday Integration — 2 operation(s) for payroll inputs.
   name: Workday Integration Payroll Inputs API
   slug: workday-integration-payroll-inputs-api
@@ -334,11 +324,6 @@ apis:
   description: The Payroll Interface API from Workday Integration — 2 operation(s) for payroll interface.
   name: Workday Integration Payroll Interface API
   slug: workday-integration-payroll-interface-api
-- baseURL: https://wd2-impl-services1.workday.com/ccx/service
-  baseurl_source: declared
-  description: The Payroll UK API from Workday Integration — 2 operation(s) for payroll uk.
-  name: Workday Integration Payroll UK API
-  slug: workday-integration-payroll-uk-api
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service
   baseurl_source: declared
   description: The Performance Reviews API from Workday Integration — 1 operation(s) for performance reviews.
@@ -479,7 +464,10 @@ apis:
   description: The WQL API from Workday Integration — 1 operation(s) for wql.
   name: Workday Integration WQL API
   slug: workday-integration-wql-api
-artifact_total: 449
+- description: Comprehensive SOAP-based web services for deep integration with Workday including Human Capital Management, Financial Management, and custom integrations.
+  name: Workday SOAP Web Services
+  slug: workday-soap-web-services
+artifact_total: 447
 collections:
 - collection_type: postman
   name: Workday Integration Workday Absence Management Absence Types API
@@ -1749,11 +1737,11 @@ jsonld:
   property_count: 14
   slug: workday-integration-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Workday Integration
 nav: Providers
 network: true
-overview: 'Workday Integration publishes 87 APIs on the [APIs.io](https://apis.io/) network, including Absence Types API, ACA Compliance API, Academic Advising API, and 84 more. Tagged areas include Enterprise, ERP, Finance, HCM, and Integration.
+overview: 'Workday Integration publishes 84 APIs on the [APIs.io](https://apis.io/) network, including Absence Types API, ACA Compliance API, Academic Advising API, and 81 more. Tagged areas include Enterprise, ERP, Finance, HCM, and Integration.
 
 
   The Workday Integration catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1764,7 +1752,7 @@ plans:
 - name: Workday Integration Plans Pricing
   plan_count: 1
   slug: workday-integration-plans-pricing
-random_paper: 7
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Workday Integration Rate Limits
@@ -1821,9 +1809,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 87
+      total: 84
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

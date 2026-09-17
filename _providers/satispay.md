@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://authservices.satispay.com/g_business/v1
@@ -278,7 +278,7 @@ plans:
 - name: Satispay Plans Pricing
   plan_count: 2
   slug: satispay-plans-pricing
-random_paper: 17
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Satispay Rate Limits
@@ -326,7 +326,7 @@ score:
     regime_id: payments
     score: 57.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

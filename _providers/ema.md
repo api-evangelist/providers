@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Programmatic access to Ema AI Employees. REST (HTTP/JSON) quickstart plus a gRPC-Web path for advanced endpoints, covering Chat, Workflows, Dashboards, Document Generation, Templates, Triggers and ten
@@ -138,7 +138,7 @@ overview: 'Ema publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ema''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: emerging
   composite: 24.7
@@ -159,7 +159,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
 - baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s) for aws elastic beanstalk api.
-  name: AWS Elastic Beanstalk AWS Elastic Beanstalk API API
+  name: AWS Elastic Beanstalk AWS Elastic Beanstalk API
   slug: aws-elastic-beanstalk-aws-elastic-beanstalk-api-api
 artifact_total: 10
 collections:
@@ -113,15 +113,15 @@ created: '2026-05-11'
 description: AWS Elastic Beanstalk is a Platform-as-a-Service offering that makes it easy to deploy, scale, and manage web applications and services developed in Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar AWS infrastructure. It automatically handles capacity provisioning, load balancing, auto-scaling, and health monitoring. The Elastic Beanstalk API and AWS SDKs provide programmatic access to applications, environments, and deployments using AWS Signature Version 4 authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-elastic-beanstalk.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: AWS Elastic Beanstalk
 nav: Providers
 network: true
-overview: 'AWS Elastic Beanstalk publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Elastic Beanstalk API API. Tagged areas include Platform-as-a-Service, Application Deployment, Auto-Scaling, Cloud, and DevOps.
+overview: 'AWS Elastic Beanstalk publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Elastic Beanstalk API. Tagged areas include Platform-as-a-Service, Application Deployment, Auto-Scaling, Cloud, and DevOps.
 
 
   AWS Elastic Beanstalk''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 11
+random_paper: 21
 score:
   band: thin
   composite: 30.8
@@ -149,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

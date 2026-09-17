@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   slug: file-picker
 - baseURL: https://graph.microsoft.com/v1.0/
   baseurl_source: declared
-  description: The DriveItems API from Microsoft OneDrive — 6 operation(s) for driveitems.
-  name: Microsoft OneDrive DriveItems API
-  slug: microsoft-onedrive-driveitems-api
-- baseURL: https://graph.microsoft.com/v1.0/
-  baseurl_source: declared
   description: The Drives API from Microsoft OneDrive — 4 operation(s) for drives.
   name: Microsoft OneDrive Drives API
   slug: microsoft-onedrive-drives-api
@@ -66,6 +61,11 @@ apis:
 - description: File Sharing and Storage
   name: OneDrive
   slug: onedrive
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The Drive Items API from Microsoft OneDrive — 6 operation(s) for drive items.
+  name: Microsoft OneDrive Drive Items API
+  slug: microsoft-onedrive-drive-items-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -156,7 +156,7 @@ modified: '2026-05-19'
 name: Microsoft OneDrive
 nav: Providers
 network: true
-overview: 'Microsoft OneDrive publishes 3 APIs on the [APIs.io](https://apis.io/) network: DriveItems API, Drives API, and Sharing API. Tagged areas include Cloud Storage, File Storage, File, Microsoft, and Microsoft-365.
+overview: 'Microsoft OneDrive publishes 3 APIs on the [APIs.io](https://apis.io/) network: Drives API, Sharing API, and Drive Items API. Tagged areas include Cloud Storage, File Storage, File, Microsoft, and Microsoft-365.
 
 
   Microsoft OneDrive''s developer surface includes authentication, developer portal, documentation, support, and 10 more developer resources.'
@@ -164,7 +164,7 @@ plans:
 - name: Microsoft Onedrive Plans Pricing
   plan_count: 3
   slug: microsoft-onedrive-plans-pricing
-random_paper: 18
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Microsoft Onedrive Rate Limits
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

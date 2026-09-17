@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Step CI is an open source API Quality Assurance framework that is language-agnostic and configured using YAML, JSON, or JavaScript. It supports REST, GraphQL, gRPC, tRPC, and SOAP, enabling tests acro
@@ -126,7 +126,7 @@ plans:
 - name: Step Ci Plans Pricing
   plan_count: 3
   slug: step-ci-plans-pricing
-random_paper: 0
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Step Ci Rate Limits
@@ -165,7 +165,7 @@ score:
     score: 25.0
   previous_composite: 19.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The LAPIS specification defines a token-minimal, LLM-native format for describing HTTP APIs. A LAPIS document is organized into up to seven indentation-based sections - [meta], [types], [ops], [webhoo
@@ -230,7 +230,7 @@ overview: 'LAPIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   LAPIS''s developer surface includes developer portal, documentation, getting-started guide, changelog, CLI, sandbox, code examples, and 20 more developer resources.'
-random_paper: 12
+random_paper: 9
 rules:
 - effective_rule_count: 6
   extends: []
@@ -262,7 +262,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 33.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

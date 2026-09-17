@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.bitmex.com/app/apiOverview
@@ -83,7 +83,7 @@ overview: 'Bitmex publishes 1 API on the [APIs.io](https://apis.io/) network: Bi
 
 
   Bitmex''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 19
+random_paper: 11
 rules:
 - effective_rule_count: 37
   extends:
@@ -121,7 +121,7 @@ score:
     - greater-china
   previous_composite: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

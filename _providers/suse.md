@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: JSON-based "A-REST" API for SUSE Manager (SUMA), used to manage systems, channels, configuration, errata, and users across Linux infrastructure. Calls use GET for retrievals, POST for changes, and POS
@@ -43,6 +43,10 @@ apis:
   slug: rancher-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://suse.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/suse/refs/heads/main/security/suse-vulnerability-disclosure.yml
   title: ''
@@ -61,15 +65,15 @@ created: '2026-05-11'
 description: SUSE is a global provider of open source enterprise solutions including SUSE Linux Enterprise Server (SLES), SUSE Rancher Prime for Kubernetes management, SUSE Manager (SUMA) for Linux systems management, and SUSE Edge and Security solutions. SUSE products expose REST and "A-REST" APIs for automation, configuration, and integration. The SUSE Manager API and Rancher API provide programmatic control over systems, clusters, and policies.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/suse.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: SUSE
 nav: Providers
 network: true
 overview: 'SUSE publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Linux, Kubernetes, Enterprise Linux, Systems Management, and Open-Source.
 
 
-  SUSE''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 7
+  SUSE''s developer surface includes engineering blog and 3 more developer resources.'
+random_paper: 8
 score:
   band: minimal
   composite: 9.2
@@ -90,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -114,4 +118,5 @@ tags:
 - Systems Management
 - Open-Source
 - Container Management
+website: https://suse.com
 ---

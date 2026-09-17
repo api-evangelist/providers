@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 7
+- acting_count: 18
   human_in_the_loop: 0
   name: Pverify Agentic Access
-  operation_count: 10
+  operation_count: 39
   slug: pverify-agentic-access
-  summary_line: 10 operations · 7 acting
+  summary_line: 39 operations · 18 acting
 api_count: 1
 apis:
 - baseURL: https://api.pverify.com
@@ -337,7 +337,7 @@ plans:
 - name: Pverify Plans Pricing
   plan_count: 8
   slug: pverify-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Pverify Rate Limits
@@ -378,7 +378,7 @@ score:
     regime_id: health
     score: 27.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://ws.kuru.io
@@ -202,7 +202,7 @@ overview: 'Kuru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Gen
 
 
   Kuru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 21 more developer resources.'
-random_paper: 14
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Kuru Rate Limits
@@ -242,7 +242,7 @@ score:
     regime_id: securities_market_data
     score: 35.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -267,7 +267,7 @@ tags:
 - Blockchain
 - Monad
 - Liquidity
-- Swaps
+- Swap
 - Web3
 website: https://www.kuru.io/
 ---

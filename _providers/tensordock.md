@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 7
-  human_in_the_loop: 1
+- acting_count: 25
+  human_in_the_loop: 3
   name: Tensordock Agentic Access
-  operation_count: 11
+  operation_count: 33
   slug: tensordock-agentic-access
-  summary_line: 11 operations · 7 acting · 1 human-in-the-loop
+  summary_line: 33 operations · 25 acting · 3 human-in-the-loop
 api_count: 1
 apis:
 - baseURL: https://dashboard.tensordock.com
@@ -407,7 +407,7 @@ plans:
 - name: Tensordock Plans Pricing
   plan_count: 6
   slug: tensordock-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Tensordock Rate Limits
@@ -461,7 +461,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

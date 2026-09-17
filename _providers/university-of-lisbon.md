@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://fenix.tecnico.ulisboa.pt/api/fenix/v1
-  baseurl_source: declared
-  description: Public REST API of the FenixEdu academic information system operated by Instituto Superior Tecnico, a school of the University of Lisbon. Anonymous access to institution metadata, academic terms, cont
-  name: FenixEdu Academic API (Instituto Superior Tecnico)
-  slug: fenixedu-tecnico
 - description: OAI-PMH 2.0 metadata harvesting interface over the DSpace 7.6.1 institutional open-access repository. Operating since November 2002; 100,245 items; twelve metadata formats including oai_dc, marcxml, m
   name: Repositorio da Universidade de Lisboa — OAI-PMH
   slug: repositorio-oai-pmh
@@ -71,7 +66,42 @@ apis:
 - description: Five ULisboa organic units hold Crossref member IDs in their own right, minting DOIs for their journals independently of the rectorate. There is no single institutional Crossref member — the federated
   name: Crossref memberships (organic units)
   slug: crossref-membership
-artifact_total: 32
+- baseURL: https://fenix.tecnico.ulisboa.pt/api/fenix/v1
+  baseurl_source: declared
+  description: Parking, canteen and shuttle information.
+  name: University of Lisbon Campus Life API
+  slug: university-of-lisbon-campus-life-api
+- baseURL: https://fenix.tecnico.ulisboa.pt/api/fenix/v1
+  baseurl_source: declared
+  description: Individual course units, their schedules, groups, evaluations and students.
+  name: University of Lisbon Courses API
+  slug: university-of-lisbon-courses-api
+- baseURL: https://fenix.tecnico.ulisboa.pt/api/fenix/v1
+  baseurl_source: declared
+  description: Degree catalog and the courses that belong to a degree.
+  name: University of Lisbon Degrees API
+  slug: university-of-lisbon-degrees-api
+- baseURL: https://fenix.tecnico.ulisboa.pt/api/fenix/v1
+  baseurl_source: declared
+  description: Serialized FenixEdu domain model.
+  name: University of Lisbon Domain Model API
+  slug: university-of-lisbon-domain-model-api
+- baseURL: https://fenix.tecnico.ulisboa.pt/api/fenix/v1
+  baseurl_source: declared
+  description: Institution-level metadata, contacts and academic calendar.
+  name: University of Lisbon Institution API
+  slug: university-of-lisbon-institution-api
+- baseURL: https://fenix.tecnico.ulisboa.pt/api/fenix/v1
+  baseurl_source: declared
+  description: Authenticated person-scoped academic data. Requires an OAuth 2.0 token.
+  name: University of Lisbon Person API
+  slug: university-of-lisbon-person-api
+- baseURL: https://fenix.tecnico.ulisboa.pt/api/fenix/v1
+  baseurl_source: declared
+  description: Campuses, buildings, floors and rooms, including blueprints.
+  name: University of Lisbon Spaces API
+  slug: university-of-lisbon-spaces-api
+artifact_total: 38
 common:
 - group: company
   title: ''
@@ -273,7 +303,7 @@ modified: '2026-09-01'
 name: University of Lisbon
 nav: Providers
 network: true
-overview: 'University of Lisbon publishes 1 API on the [APIs.io](https://apis.io/) network: FenixEdu Academic API (Instituto Superior Tecnico). Tagged areas include University, Higher Education, Education, Portugal, and Europe.
+overview: 'University of Lisbon publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campus Life API, Courses API, Degrees API, and 4 more. Tagged areas include University, Higher Education, Education, Portugal, and Europe.
 
 
   The University of Lisbon catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -284,7 +314,7 @@ plans:
 - name: University Of Lisbon Plans Pricing
   plan_count: 2
   slug: university-of-lisbon-plans-pricing
-random_paper: 14
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: University Of Lisbon Rate Limits
@@ -308,7 +338,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.6
+  composite: 47.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 69.0
@@ -316,11 +346,11 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 50.0
     contract_governance: 15.2
-    contract_quality: 61.2
+    contract_quality: 55.9
     developer_ergonomics: 33.3
     discoverability: 68.5
     operational_transparency: 23.7
@@ -337,7 +367,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 1
+      total: 7
   regulatory:
     applies: true
     matched_via: tags
@@ -345,7 +375,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

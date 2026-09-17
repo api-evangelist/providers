@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 59.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ modified: '2026-08-09'
 name: StayingAPI
 nav: Providers
 network: true
-overview: 'StayingAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Data API, and Jobs API. Tagged areas include Travel, Hospitality, accommodation-data, hotel-api, and Vacation Rental.
+overview: 'StayingAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Data API, and Jobs API. Tagged areas include Travel, Hospitality, accommodation-data, hotel-api, and Vacation Rentals.
 
 
   StayingAPI''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 34 more developer resources.'
@@ -300,7 +300,7 @@ plans:
 - name: Stayingapi Plans
   plan_count: 5
   slug: stayingapi-plans
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Stayingapi Rate Limits
@@ -340,7 +340,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -362,7 +362,7 @@ tags:
 - Hospitality
 - accommodation-data
 - hotel-api
-- Vacation Rental
+- Vacation Rentals
 - Short-Term Rental
 - Airbnb
 - Booking.com

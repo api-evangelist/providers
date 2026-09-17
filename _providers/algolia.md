@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 15
 apis:
 - baseURL: https://{appid}-dsn.algolia.net
@@ -108,7 +108,12 @@ apis:
 - description: Algolia-managed remote MCP server giving an agent user-scoped, read-only access to search, index listing and the full analytics surface, authorized by the signed-in user's own Algolia permissions. OAu
   name: Algolia Productivity MCP Server
   slug: algolia-productivity-mcp-server
-artifact_total: 24
+- baseURL: https://{appid}-dsn.algolia.net
+  baseurl_source: declared
+  description: The Ab Testing API from Algolia — 6 operation(s) for ab testing.
+  name: Algolia Ab Testing API
+  slug: algolia-ab-testing-api
+artifact_total: 25
 common:
 - group: company
   title: ''
@@ -311,7 +316,7 @@ modified: '2026-08-27'
 name: Algolia
 nav: Providers
 network: true
-overview: 'Algolia publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Search API, Insights API, Recommend API, and 10 more. Tagged areas include Search, Discovery, Recommendations, Personalization, and Analytics.
+overview: 'Algolia publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Search API, Insights API, Recommend API, and 11 more. Tagged areas include Search, Discovery, Recommendations, Personalization, and Analytics.
 
 
   Algolia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 33 more developer resources.'
@@ -319,7 +324,7 @@ plans:
 - name: Algolia Plans Pricing
   plan_count: 4
   slug: algolia-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 12
   name: Algolia Rate Limits
@@ -358,7 +363,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

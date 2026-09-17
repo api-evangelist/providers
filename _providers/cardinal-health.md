@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Cardinal Health operates an EDI trading partner program for customers and suppliers covering pharmaceutical distribution, medical products, and specialty pharmacy. Integrations use X12 EDI transaction
@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Cardinal Health - Two Use Cases
   url: https://emerj.com/artificial-intelligence-at-cardinal-health/
-random_paper: 14
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Cardinal Health Rate Limits
@@ -187,7 +187,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

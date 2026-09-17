@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Core REST API providing access to driver management, vehicle tracking, Hours of Service logs, IFTA trip reports, inspection reports, dashcam events, dispatch workflows, geofencing, messaging, fuel pur
@@ -148,7 +148,7 @@ plans:
 - name: Motive Plans Pricing
   plan_count: 3
   slug: motive-plans-pricing
-random_paper: 9
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Motive Rate Limits
@@ -173,7 +173,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 32.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

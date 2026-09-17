@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ modified: '2026-06-25'
 name: Channex
 nav: Providers
 network: true
-overview: 'Channex publishes 7 APIs on the [APIs.io](https://apis.io/) network, including ARI API, Bookings API, Channels API, and 4 more. Tagged areas include Hospitality, Channel Manager, Hotel Distribution, OTA, and Bookings.
+overview: 'Channex publishes 7 APIs on the [APIs.io](https://apis.io/) network, including ARI API, Bookings API, Channels API, and 4 more. Tagged areas include Hospitality, Channel Manager, Hotel Distribution, OTA, and Booking.
 
 
   Channex''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -181,7 +181,7 @@ plans:
 - name: Channex Plans Pricing
   plan_count: 2
   slug: channex-plans-pricing
-random_paper: 6
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Channex Rate Limits
@@ -213,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -234,6 +234,6 @@ tags:
 - Channel Manager
 - Hotel Distribution
 - OTA
-- Bookings
+- Booking
 website: https://channex.io/
 ---

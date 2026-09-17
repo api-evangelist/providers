@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 28
+- acting_count: 12
   human_in_the_loop: 1
   name: Split Agentic Access
-  operation_count: 53
+  operation_count: 23
   slug: split-agentic-access
-  summary_line: 53 operations · 28 acting · 1 human-in-the-loop
+  summary_line: 23 operations · 12 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: http://localhost:7548
@@ -496,7 +496,7 @@ plans:
 - name: Split Plans Pricing
   plan_count: 3
   slug: split-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Split Rate Limits
@@ -550,7 +550,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

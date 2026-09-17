@@ -33,7 +33,7 @@ name: HIPAA
 nav: Providers
 network: true
 overview: HIPAA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Healthcare, Privacy, and Security.
-random_paper: 11
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipaa/refs/heads/main/screenshots/hipaa-2026-06-20T182743.png
 security:
 - kind: domain-security

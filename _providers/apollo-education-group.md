@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The University of Phoenix identity provider, running ForgeRock Access Management in the /alpha realm. The OpenID Connect discovery document is served anonymously (HTTP 200, 2026-09-04) at https://logi
@@ -163,7 +163,7 @@ press:
 - date: '2026-05-25'
   title: Higher Education Policy News
   url: https://www.highereddive.com/topic/policy/?page=94
-random_paper: 3
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Apollo Education Group Rate Limits
@@ -201,7 +201,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

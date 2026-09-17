@@ -31,7 +31,7 @@ overview: 'Bitfusion is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bitfusion''s developer surface includes documentation and 1 more developer resources.'
-random_paper: 13
+random_paper: 11
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfusion/refs/heads/main/screenshots/bitfusion-2026-07-25T203155.png
 slug: bitfusion
 tags:

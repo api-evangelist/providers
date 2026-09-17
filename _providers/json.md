@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: JSON (JavaScript Object Notation) specification and related resources. Standardized by IETF as RFC 8259 (December 2017, edited by Tim Bray) and by Ecma International as ECMA-404. Defines the grammar a
@@ -93,7 +93,7 @@ plans:
 - name: Json Plans Pricing
   plan_count: 3
   slug: json-plans-pricing
-random_paper: 1
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Json Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 16.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

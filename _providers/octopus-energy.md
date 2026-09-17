@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -116,6 +116,10 @@ collections:
   name: Octopus Energy Public API
   slug: open-octopus-energy-public-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://octopus.energy
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/capabilities/octopus-energy-capability-edges.yml
   title: ''
@@ -374,7 +378,7 @@ jsonld:
   property_count: 0
   slug: octopus-energy-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Octopus Energy
 nav: Providers
 network: true
@@ -384,12 +388,12 @@ overview: 'Octopus Energy publishes 7 APIs on the [APIs.io](https://apis.io/) ne
   The Octopus Energy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Octopus Energy''s developer surface includes authentication, developer portal, documentation, changelog, signup flow, support, engineering blog, and 42 more developer resources.'
+  Octopus Energy''s developer surface includes authentication, developer portal, documentation, changelog, signup flow, support, engineering blog, and 43 more developer resources.'
 plans:
 - name: Octopus Energy Plans Pricing
   plan_count: 2
   slug: octopus-energy-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Octopus Energy Rate Limits
@@ -457,7 +461,7 @@ score:
     regime_id: energy_utilities
     score: 36.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -486,7 +490,7 @@ tags:
 - Smart Meter
 - Tariffs
 - Kraken
-- UK
+- United Kingdom
 - DER
 - Electric Vehicles
 - Heat Pumps

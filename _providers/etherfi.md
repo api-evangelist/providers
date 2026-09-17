@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 21
 common:
@@ -171,7 +171,7 @@ overview: 'ether.fi is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ether.fi''s developer surface includes documentation, engineering blog, and 23 more developer resources.'
-random_paper: 8
+random_paper: 17
 score:
   band: minimal
   composite: 5.2
@@ -200,7 +200,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

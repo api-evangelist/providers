@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,11 +81,11 @@ modified: '2026-07-21'
 name: Safely
 nav: Providers
 network: true
-overview: 'Safely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Short-Term Rental, and Vacation Rental.
+overview: 'Safely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Short-Term Rental, and Vacation Rentals.
 
 
   Safely''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: emerging
   composite: 12.4
@@ -112,7 +112,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -130,7 +130,7 @@ tags:
 - Insurance
 - Insurtech
 - Short-Term Rental
-- Vacation Rental
+- Vacation Rentals
 - Guest Screening
 - Travel Insurance
 - Property Management

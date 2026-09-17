@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ overview: 'Tailscale publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tailscale''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, and 7 more developer resources.'
-random_paper: 1
+random_paper: 0
 score:
   band: thin
   composite: 30.5
@@ -207,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

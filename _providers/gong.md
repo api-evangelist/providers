@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -816,7 +816,7 @@ modified: '2026-08-13'
 name: Gong
 nav: Providers
 network: true
-overview: 'Gong publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Users API, CRM Integration API, and 22 more. Tagged areas include Sales, Revenue Intelligence, Conversation, Analytics, and Artificial Intelligence.
+overview: 'Gong publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Users API, CRM Integration API, and 22 more. Tagged areas include Sales, Revenue Intelligence, Conversations, Analytics, and Artificial Intelligence.
 
 
   The Gong catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -827,7 +827,7 @@ plans:
 - name: Gong Plans Pricing
   plan_count: 0
   slug: gong-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Gong Rate Limits
@@ -878,7 +878,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -905,7 +905,7 @@ slug: gong
 tags:
 - Sales
 - Revenue Intelligence
-- Conversation
+- Conversations
 - Analytics
 - Artificial Intelligence
 - Conversation Intelligence

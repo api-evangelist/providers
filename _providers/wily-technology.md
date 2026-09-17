@@ -25,7 +25,7 @@ name: Wily Technology
 nav: Providers
 network: true
 overview: Wily Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 7
+random_paper: 20
 screenshot: https://raw.githubusercontent.com/api-evangelist/wily-technology/refs/heads/main/screenshots/wily-technology-2026-09-02T170753.png
 slug: wily-technology
 tags:

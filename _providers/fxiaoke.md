@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Fxiaoke Open API v2 exposes CRM business objects (accounts, contacts, leads, opportunities, products, orders) and common services (approval workflows, directory/contact sync, business-data sync) a
@@ -191,7 +191,7 @@ plans:
 - name: Fxiaoke Plans Pricing
   plan_count: 3
   slug: fxiaoke-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Fxiaoke Rate Limits
@@ -231,7 +231,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

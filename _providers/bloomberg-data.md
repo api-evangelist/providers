@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Provides access to Bloomberg's extensive financial data including real-time quotes, historical data, reference data, and analytics.
@@ -45,6 +45,10 @@ apis:
   slug: bloomberg-b-pipe-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -164,19 +168,19 @@ finops:
   slug: bloomberg-data-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-data.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Data
 nav: Providers
 network: true
 overview: 'Bloomberg Data publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Financial-Services, Market Data, News, and Real-Time Data.
 
 
-  Bloomberg Data''s developer surface includes developer portal, documentation, support, authentication, API reference, and 19 more developer resources.'
+  Bloomberg Data''s developer surface includes developer portal, documentation, support, authentication, API reference, and 20 more developer resources.'
 plans:
 - name: Bloomberg Data Plans Pricing
   plan_count: 0
   slug: bloomberg-data-plans-pricing
-random_paper: 1
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Bloomberg Data Rate Limits
@@ -215,7 +219,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -243,5 +247,5 @@ tags:
 - News
 - Real-Time Data
 - Trading
-website: https://developer.bloomberg.com/
+website: https://bloomberg.com
 ---

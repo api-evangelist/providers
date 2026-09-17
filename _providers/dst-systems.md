@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: indico Founder to Speak at DST Systems' 2018 ADVANCE
   url: https://www.globenewswire.com/news-release/2018/02/05/1332837/0/en/indico-founder-to-speak-at-dst-systems-2018-advance-conference.html
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 1.3
@@ -110,7 +110,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

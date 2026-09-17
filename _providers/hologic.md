@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 6
 common:
@@ -155,7 +155,7 @@ press:
 - date: '2026-05-25'
   title: Hologic's AI-Driven Breast Cancer Screening Technology ...
   url: https://www.hologic.com/about/press-release/hologics-ai-driven-breast-cancer-screening-technology-earns-medtech
-random_paper: 6
+random_paper: 15
 scopes:
 - name: Hologic Scopes
   scope_count: 0
@@ -189,7 +189,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

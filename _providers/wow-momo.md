@@ -9,32 +9,82 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 28.5
+  scored_at: '2026-09-16'
+api_count: 12
 apis:
-- baseURL: https://www.wowmomo.com/wp-json
-  baseurl_source: declared
-  description: The live WordPress REST API served by www.wowmomo.com, advertised in the head of every page as <link rel="https://api.w.org/">. Its route-discovery document declares 396 routes across 36 namespaces; t
-  name: WOW! Momo Content API
-  slug: wow-momo-content-api
 - description: A first-party application backend on api.wowmomo.com behind an AWS Application Load Balancer, running an Express service scaffolded with DhiWise (its root serves a "welcome to node.js" page carrying t
   name: WOW! Momo App Backend
   slug: wow-momo-app-backend
-artifact_total: 6
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: Public author records for content published on the site.
+  name: WOW! Momo Authors API
+  slug: wow-momo-authors-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: The `category` taxonomy terms registered on the site.
+  name: WOW! Momo Categories API
+  slug: wow-momo-categories-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: The API root document and the oEmbed provider endpoint.
+  name: WOW! Momo Discovery API
+  slug: wow-momo-discovery-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: The WOW! Momo media library — logos, campaign artwork and photography attached to the site.
+  name: WOW! Momo Media API
+  slug: wow-momo-media-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: The marketing and policy pages published on www.wowmomo.com.
+  name: WOW! Momo Pages API
+  slug: wow-momo-pages-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: Cross-type search over everything published on www.wowmomo.com.
+  name: WOW! Momo Search API
+  slug: wow-momo-search-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: The Yoast SEO head document for any wowmomo.com URL, including its schema.org JSON-LD graph.
+  name: WOW! Momo SEO API
+  slug: wow-momo-seo-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: The publication statuses registered on the install.
+  name: WOW! Momo Statuses API
+  slug: wow-momo-statuses-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: The `post_tag` taxonomy terms registered on the site.
+  name: WOW! Momo Tags API
+  slug: wow-momo-tags-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: The taxonomies registered on the install and the routes that serve them.
+  name: WOW! Momo Taxonomies API
+  slug: wow-momo-taxonomies-api
+- baseURL: https://www.wowmomo.com/wp-json
+  baseurl_source: declared
+  description: The post types registered on the install and the routes that serve them.
+  name: WOW! Momo Types API
+  slug: wow-momo-types-api
+artifact_total: 16
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wow-momo/refs/heads/main/security/wow-momo-domain-security.yml
@@ -148,7 +198,7 @@ modified: '2026-09-04'
 name: WOW! Momo
 nav: Providers
 network: true
-overview: 'WOW! Momo publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Restaurant, Food and Beverage, Quick Service Restaurant, and Retail.
+overview: 'WOW! Momo publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authors API, Categories API, Discovery API, and 8 more. Tagged areas include Company, Restaurant, Food and Beverage, Quick Service Restaurant, and Retail.
 
 
   WOW! Momo''s developer surface includes authentication and 21 more developer resources.'
@@ -156,28 +206,28 @@ plans:
 - name: Wow Momo Plans Pricing
   plan_count: 0
   slug: wow-momo-plans-pricing
-random_paper: 15
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Wow Momo Rate Limits
   slug: wow-momo-rate-limits
 score:
   band: emerging
-  composite: 19.0
+  composite: 19.8
   coverage:
     artifact_dirs: 17
-    catalog_earned: 37.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 12.2
+    contract_quality: 13.1
     developer_ergonomics: 13.7
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -191,18 +241,18 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 12
       marker_coverage: 100.0
-      total: 1
+      total: 12
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: Wow Momo Authentication

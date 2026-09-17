@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -112,6 +112,10 @@ collections:
   name: Aruba Central Access Points Sites API
   slug: open-aruba-sites-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://arubanetworks.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/capabilities/aruba-capability-edges.yml
   title: ''
@@ -503,7 +507,7 @@ jsonld:
   property_count: 8
   slug: aruba-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Aruba
 nav: Providers
 network: true
@@ -513,12 +517,12 @@ overview: 'Aruba publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Aruba catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Aruba''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
+  Aruba''s developer surface includes authentication, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Aruba Plans Pricing
   plan_count: 1
   slug: aruba-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Aruba Rate Limits
@@ -572,7 +576,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -608,5 +612,5 @@ use_cases:
   name: Network Health Dashboards
 - description: Manage groups, sites, and device configurations across multiple locations programmatically.
   name: Multi-Site Configuration Management
-website: https://developer.arubanetworks.com
+website: https://arubanetworks.com
 ---

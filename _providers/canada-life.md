@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'A live, production API gateway at api.canadalife.com serving Canada Life''s partner, distributor and MGA integrations. It is fully gated: every business path probed (including /v1, /docs, /health, /ope'
@@ -165,7 +165,7 @@ overview: 'Canada Life publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Canada Life''s developer surface includes support, engineering blog, product news, authentication, and 20 more developer resources.'
-random_paper: 11
+random_paper: 5
 scopes:
 - name: Canada Life Scopes
   scope_count: 36
@@ -206,7 +206,7 @@ score:
     regime_id: insurance
     score: 72.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

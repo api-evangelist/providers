@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Legora aOS is the company''s agentic operating system for legal work, connecting information, communication, and execution across Agent, Monitors, Lists, Legal Research, Tabular Review, Workflows, and '
@@ -101,7 +101,7 @@ overview: 'Legora publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Legora''s developer surface includes YouTube channel, engineering blog, and 10 more developer resources.'
-random_paper: 4
+random_paper: 18
 score:
   band: emerging
   composite: 14.0
@@ -130,7 +130,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

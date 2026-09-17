@@ -9,7 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-api_count: 5
+api_count: 1
 apis:
 - description: Global Privacy Control is a browser-level signal that communicates a user's opt-out preference to websites. The California Attorney General has affirmed that GPC must be treated as a valid CCPA "Do No
   name: Global Privacy Control (GPC) Specification
@@ -25,10 +25,15 @@ apis:
   slug: ca-data-broker-registry
 - baseURL: https://api.drop.privacy.ca.gov
   baseurl_source: declared
-  description: The Delete Request and Opt-out Platform (DROP) Data Broker API is the statutory integration surface California's Delete Act requires of every registered data broker. Brokers call GET /data/download to
-  name: CalPrivacy DROP Data Broker API
-  slug: drop-data-broker-api
-artifact_total: 34
+  description: Request or download consumer deletion lists(s)
+  name: CCPA (California Consumer Privacy Act) Download API
+  slug: ccpa-download-api
+- baseURL: https://api.drop.privacy.ca.gov
+  baseurl_source: declared
+  description: Submit new or amended status response files
+  name: CCPA (California Consumer Privacy Act) Upload API
+  slug: ccpa-upload-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Ccpa Drop Webhooks
@@ -94,10 +99,10 @@ common:
   type: Authentication
   url: authentication/ccpa-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/openapi/ccpa-drop-databroker-api.yml
+  href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/openapi/_original/ccpa-drop-databroker-api.yml
   title: ''
   type: OpenAPI
-  url: openapi/ccpa-drop-databroker-api.yml
+  url: openapi/_original/ccpa-drop-databroker-api.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/overlays/ccpa-drop-databroker-api-overlay.yaml
   title: ''
@@ -267,11 +272,11 @@ finops:
   slug: ccpa-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ccpa.png
 layout: provider
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: CCPA (California Consumer Privacy Act)
 nav: Providers
 network: true
-overview: 'CCPA (California Consumer Privacy Act) publishes 1 API on the [APIs.io](https://apis.io/) network: CalPrivacy DROP Data Broker API. Tagged areas include CPRA, California, Compliance, Data Protection, and Data Subject Rights.
+overview: 'CCPA (California Consumer Privacy Act) publishes 2 APIs on the [APIs.io](https://apis.io/) network: Download API and Upload API. Tagged areas include CPRA, California, Compliance, Data Protection, and Data Subject Rights.
 
 
   The CCPA (California Consumer Privacy Act) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -282,7 +287,7 @@ plans:
 - name: Ccpa Plans Pricing
   plan_count: 2
   slug: ccpa-plans-pricing
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Ccpa Rate Limits

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,14 +60,14 @@ apis:
   slug: kameleoon-experiments-api
 - baseURL: https://api.kameleoon.com/automation/v1
   baseurl_source: declared
-  description: OAuth 2.0 authorization and token endpoints.
-  name: Kameleoon OAuth API
-  slug: kameleoon-oauth-api
-- baseURL: https://api.kameleoon.com/automation/v1
-  baseurl_source: declared
   description: Manage Kameleoon personalizations.
   name: Kameleoon Personalizations API
   slug: kameleoon-personalizations-api
+- baseURL: https://api.kameleoon.com/automation/v1
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token endpoints.
+  name: Kameleoon O Auth API
+  slug: kameleoon-oauth-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -162,7 +162,7 @@ modified: '2026-05-08'
 name: Kameleoon
 nav: Providers
 network: true
-overview: 'Kameleoon publishes 3 APIs on the [APIs.io](https://apis.io/) network: Experiments API, OAuth API, and Personalizations API. Tagged areas include Experimentation, A/B Testing, Personalization, Feature Flags, and Artificial Intelligence.
+overview: 'Kameleoon publishes 3 APIs on the [APIs.io](https://apis.io/) network: Experiments API, Personalizations API, and O Auth API. Tagged areas include Experimentation, A/B Testing, Personalization, Feature Flags, and Artificial Intelligence.
 
 
   Kameleoon''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
@@ -170,7 +170,7 @@ plans:
 - name: Kameleoon Plans Pricing
   plan_count: 1
   slug: kameleoon-plans-pricing
-random_paper: 10
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Kameleoon Rate Limits
@@ -208,7 +208,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -111,7 +111,7 @@ overview: 'Commonwealth is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Commonwealth''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 13
+random_paper: 18
 score:
   band: thin
   composite: 26.5
@@ -132,7 +132,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

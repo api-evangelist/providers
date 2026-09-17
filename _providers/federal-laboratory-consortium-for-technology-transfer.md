@@ -32,14 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://api.federallabs.org
   baseurl_source: declared
-  description: 'Public API behind the FLC Green Book mobile app. One published operation performs retrieval-augmented search over the sections of the Green Book (Federal Technology Transfer Legislation and Policy): s'
-  name: FLC Greenbook API
-  slug: flc-greenbook-api
+  description: The Sections API from Federal Laboratory Consortium for Technology Transfer — 1 operation(s) for sections.
+  name: Federal Laboratory Consortium for Technology Transfer Sections API
+  slug: federal-laboratory-consortium-for-technology-transfer-sections-api
 artifact_total: 5
 common:
 - group: company
@@ -152,7 +152,7 @@ modified: '2026-09-09'
 name: Federal Laboratory Consortium for Technology Transfer
 nav: Providers
 network: true
-overview: 'Federal Laboratory Consortium for Technology Transfer publishes 1 API on the [APIs.io](https://apis.io/) network: FLC Greenbook API. Tagged areas include Federal-Government, Technology-Transfer, Research, Laboratories, and Government.
+overview: 'Federal Laboratory Consortium for Technology Transfer publishes 1 API on the [APIs.io](https://apis.io/) network: Sections API. Tagged areas include Federal-Government, Technology-Transfer, Research, Laboratories, and Government.
 
 
   Federal Laboratory Consortium for Technology Transfer''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
@@ -160,14 +160,14 @@ plans:
 - name: Federal Laboratory Consortium For Technology Transfer Plans Pricing
   plan_count: 0
   slug: federal-laboratory-consortium-for-technology-transfer-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Federal Laboratory Consortium For Technology Transfer Rate Limits
   slug: federal-laboratory-consortium-for-technology-transfer-rate-limits
 score:
   band: thin
-  composite: 37.5
+  composite: 36.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 45.0
@@ -175,11 +175,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 50.3
+    contract_quality: 44.9
     developer_ergonomics: 37.5
     discoverability: 68.5
     operational_transparency: 21.1
@@ -187,9 +187,9 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
-      marker_coverage: 100.0
+      marker_coverage: 0.0
       total: 1
     mcp: derived
     skills: derived
@@ -200,7 +200,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

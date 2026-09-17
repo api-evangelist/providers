@@ -21,7 +21,7 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
@@ -30,31 +30,21 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-09-15'
+  score: 37.9
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 14
-  human_in_the_loop: 0
+- acting_count: 89
+  human_in_the_loop: 10
   name: Goharbor Agentic Access
-  operation_count: 38
+  operation_count: 206
   slug: goharbor-agentic-access
-  summary_line: 38 operations · 14 acting
+  summary_line: 206 operations · 89 acting · 10 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://{host}/api/v2.0
-  baseurl_source: declared
-  description: The artifacts API from GoHarbor — 2 operation(s) for artifacts.
-  name: GoHarbor artifacts API
-  slug: goharbor-artifacts-api
-- baseURL: https://{host}/api/v2.0
-  baseurl_source: declared
-  description: The audit API from GoHarbor — 1 operation(s) for audit.
-  name: GoHarbor audit API
-  slug: goharbor-audit-api
 - baseURL: https://{host}/api/v2.0
   baseurl_source: declared
   description: The health API from GoHarbor — 2 operation(s) for health.
@@ -62,34 +52,9 @@ apis:
   slug: goharbor-health-api
 - baseURL: https://{host}/api/v2.0
   baseurl_source: declared
-  description: The projects API from GoHarbor — 4 operation(s) for projects.
-  name: GoHarbor projects API
-  slug: goharbor-projects-api
-- baseURL: https://{host}/api/v2.0
-  baseurl_source: declared
-  description: The quotas API from GoHarbor — 2 operation(s) for quotas.
-  name: GoHarbor quotas API
-  slug: goharbor-quotas-api
-- baseURL: https://{host}/api/v2.0
-  baseurl_source: declared
-  description: The registries API from GoHarbor — 1 operation(s) for registries.
-  name: GoHarbor registries API
-  slug: goharbor-registries-api
-- baseURL: https://{host}/api/v2.0
-  baseurl_source: declared
   description: The replication API from GoHarbor — 2 operation(s) for replication.
   name: GoHarbor replication API
   slug: goharbor-replication-api
-- baseURL: https://{host}/api/v2.0
-  baseurl_source: declared
-  description: The repositories API from GoHarbor — 3 operation(s) for repositories.
-  name: GoHarbor repositories API
-  slug: goharbor-repositories-api
-- baseURL: https://{host}/api/v2.0
-  baseurl_source: declared
-  description: The robots API from GoHarbor — 2 operation(s) for robots.
-  name: GoHarbor robots API
-  slug: goharbor-robots-api
 - baseURL: https://{host}/api/v2.0
   baseurl_source: declared
   description: The scan API from GoHarbor — 1 operation(s) for scan.
@@ -102,30 +67,175 @@ apis:
   slug: goharbor-search-api
 - baseURL: https://{host}/api/v2.0
   baseurl_source: declared
-  description: The tags API from GoHarbor — 1 operation(s) for tags.
-  name: GoHarbor tags API
-  slug: goharbor-tags-api
+  description: The artifact API from GoHarbor — 9 operation(s) for artifact.
+  name: GoHarbor Artifact API
+  slug: goharbor-artifact-api
 - baseURL: https://{host}/api/v2.0
   baseurl_source: declared
-  description: The usergroups API from GoHarbor — 2 operation(s) for usergroups.
-  name: GoHarbor usergroups API
-  slug: goharbor-usergroups-api
+  description: The configure API from GoHarbor — 2 operation(s) for configure.
+  name: GoHarbor Configure API
+  slug: goharbor-configure-api
 - baseURL: https://{host}/api/v2.0
   baseurl_source: declared
-  description: The webhooks API from GoHarbor — 1 operation(s) for webhooks.
-  name: GoHarbor webhooks API
-  slug: goharbor-webhooks-api
+  description: The gc API from GoHarbor — 4 operation(s) for gc.
+  name: GoHarbor Gc API
+  slug: goharbor-gc-api
 - baseURL: https://{host}/api/v2.0
   baseurl_source: declared
-  description: Harbor's complete, first-party v2.0 REST API as published in the project's own repository (api/v2.0/swagger.yaml) — 135 paths, 203 operations and 153 definitions covering projects, repositories, artif
-  name: Harbor v2.0 REST API
-  slug: goharbor-harbor-v2-api
-- baseURL: https://{scanner-adapter}/api/v1
+  description: The icon API from GoHarbor — 1 operation(s) for icon.
+  name: GoHarbor Icon API
+  slug: goharbor-icon-api
+- baseURL: https://{host}/api/v2.0
   baseurl_source: declared
-  description: 'The contract a vulnerability scanner vendor implements so it can be registered as a pluggable scanner in Harbor. OpenAPI 3.0, three operations — GET /metadata to advertise capabilities, POST /scan to '
-  name: Harbor Scanner Adapter API
-  slug: goharbor-scanner-adapter-api
-artifact_total: 41
+  description: The immutable API from GoHarbor — 2 operation(s) for immutable.
+  name: GoHarbor Immutable API
+  slug: goharbor-immutable-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The label API from GoHarbor — 2 operation(s) for label.
+  name: GoHarbor Label API
+  slug: goharbor-label-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The Ldap API from GoHarbor — 4 operation(s) for ldap.
+  name: GoHarbor Ldap API
+  slug: goharbor-ldap-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The member API from GoHarbor — 2 operation(s) for member.
+  name: GoHarbor Member API
+  slug: goharbor-member-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The oidc API from GoHarbor — 1 operation(s) for oidc.
+  name: GoHarbor Oidc API
+  slug: goharbor-oidc-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The permissions API from GoHarbor — 1 operation(s) for permissions.
+  name: GoHarbor Permissions API
+  slug: goharbor-permissions-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The ping API from GoHarbor — 1 operation(s) for ping.
+  name: GoHarbor Ping API
+  slug: goharbor-ping-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The preheat API from GoHarbor — 11 operation(s) for preheat.
+  name: GoHarbor Preheat API
+  slug: goharbor-preheat-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The project API from GoHarbor — 9 operation(s) for project.
+  name: GoHarbor Project API
+  slug: goharbor-project-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The projectMetadata API from GoHarbor — 2 operation(s) for projectmetadata.
+  name: GoHarbor Project Metadata API
+  slug: goharbor-projectmetadata-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The purge API from GoHarbor — 4 operation(s) for purge.
+  name: GoHarbor Purge API
+  slug: goharbor-purge-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The quota API from GoHarbor — 2 operation(s) for quota.
+  name: GoHarbor Quota API
+  slug: goharbor-quota-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The registry API from GoHarbor — 6 operation(s) for registry.
+  name: GoHarbor Registry API
+  slug: goharbor-registry-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The repository API from GoHarbor — 3 operation(s) for repository.
+  name: GoHarbor Repository API
+  slug: goharbor-repository-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The Retention API from GoHarbor — 7 operation(s) for retention.
+  name: GoHarbor Retention API
+  slug: goharbor-retention-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The robot API from GoHarbor — 2 operation(s) for robot.
+  name: GoHarbor Robot API
+  slug: goharbor-robot-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The scan data export API from GoHarbor — 4 operation(s) for scan data export.
+  name: GoHarbor scan data export API
+  slug: goharbor-scan-data-export-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The scanAll API from GoHarbor — 4 operation(s) for scanall.
+  name: GoHarbor Scan All API
+  slug: goharbor-scanall-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The scanner API from GoHarbor — 7 operation(s) for scanner.
+  name: GoHarbor Scanner API
+  slug: goharbor-scanner-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The schedule API from GoHarbor — 2 operation(s) for schedule.
+  name: GoHarbor Schedule API
+  slug: goharbor-schedule-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The securityhub API from GoHarbor — 2 operation(s) for securityhub.
+  name: GoHarbor Securityhub API
+  slug: goharbor-securityhub-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The statistic API from GoHarbor — 1 operation(s) for statistic.
+  name: GoHarbor Statistic API
+  slug: goharbor-statistic-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The SystemCVEAllowlist API from GoHarbor — 1 operation(s) for systemcveallowlist.
+  name: GoHarbor System CVE Allowlist API
+  slug: goharbor-systemcveallowlist-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The user API from GoHarbor — 8 operation(s) for user.
+  name: GoHarbor User API
+  slug: goharbor-user-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The webhook API from GoHarbor — 7 operation(s) for webhook.
+  name: GoHarbor Webhook API
+  slug: goharbor-webhook-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The webhookjob API from GoHarbor — 1 operation(s) for webhookjob.
+  name: GoHarbor Webhookjob API
+  slug: goharbor-webhookjob-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The Audit Log API from GoHarbor — 3 operation(s) for audit log.
+  name: GoHarbor Audit Log API
+  slug: goharbor-audit-log-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The Job Service API from GoHarbor — 6 operation(s) for job service.
+  name: GoHarbor Job Service API
+  slug: goharbor-job-service-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The System Info API from GoHarbor — 3 operation(s) for system info.
+  name: GoHarbor System Info API
+  slug: goharbor-system-info-api
+- baseURL: https://{host}/api/v2.0
+  baseurl_source: declared
+  description: The User Group API from GoHarbor — 3 operation(s) for user group.
+  name: GoHarbor User Group API
+  slug: goharbor-user-group-api
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Goharbor Webhooks
@@ -366,7 +476,7 @@ modified: '2026-09-12'
 name: GoHarbor
 nav: Providers
 network: true
-overview: 'GoHarbor publishes 16 APIs on the [APIs.io](https://apis.io/) network, including artifacts API, audit API, health API, and 13 more. Tagged areas include Container Registry, Containers, Artifacts, Vulnerability Scanning, and Supply Chain Security.
+overview: 'GoHarbor publishes 38 APIs on the [APIs.io](https://apis.io/) network, including health API, replication API, scan API, and 35 more. Tagged areas include Container Registry, Containers, Artifacts, Vulnerability Scanning, and Supply Chain Security.
 
 
   The GoHarbor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -377,7 +487,7 @@ plans:
 - name: Goharbor Plans Pricing
   plan_count: 0
   slug: goharbor-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Goharbor Rate Limits
@@ -389,21 +499,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 54.7
+  composite: 54.9
   coverage:
     artifact_dirs: 26
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 57.5
+    contract_quality: 60.5
     developer_ergonomics: 70.8
-    discoverability: 75.9
+    discoverability: 70.4
     operational_transparency: 50.0
   open_source:
     applies: true
@@ -416,11 +526,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 38
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ overview: 'Bank First publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Bank First''s developer surface includes documentation, support, getting-started guide, authentication, and 22 more developer resources.'
-random_paper: 1
+random_paper: 19
 scopes:
 - name: Bank First Scopes
   scope_count: 7
@@ -290,7 +290,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

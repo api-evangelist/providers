@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 138
 apis:
 - description: Remote Model Context Protocol server for impact.com. Fifteen documented tools give an AI assistant account-scoped access to performance analytics, invoices, partner and program discovery, promo codes,
@@ -262,11 +262,6 @@ apis:
   slug: impact-report-export-api
 - baseURL: https://api.impact.com/Advertisers/{AccountSID}/
   baseurl_source: declared
-  description: Asynchronously export reports through impact.com's Jobs system. Recommended for all report downloads.
-  name: Impact Report Export API
-  slug: impact-reportexport-api
-- baseURL: https://api.impact.com/Advertisers/{AccountSID}/
-  baseurl_source: declared
   description: List available reports, fetch their metadata, and run them synchronously.
   name: Impact Reports API
   slug: impact-reports-api
@@ -345,7 +340,7 @@ apis:
   description: Endpoints for retrieving and updating your bank account, PayPal, and payment scheduling settings.
   name: Impact Withdrawal Settings API
   slug: impact-withdrawal-settings-api
-artifact_total: 73
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Impact Webhooks
@@ -607,7 +602,7 @@ modified: '2026-08-13'
 name: Impact
 nav: Providers
 network: true
-overview: 'Impact publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Action Inquiries API, and 58 more. Tagged areas include Affiliates, Partnerships, Performance Marketing, Commission, and Tracking.
+overview: 'Impact publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Action Inquiries API, and 57 more. Tagged areas include Affiliates, Partnerships, Performance Marketing, Commissions, and Tracking.
 
 
   The Impact catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -618,7 +613,7 @@ plans:
 - name: Impact Plans Pricing
   plan_count: 0
   slug: impact-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Impact Rate Limits
@@ -653,11 +648,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 61
+      total: 60
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -685,11 +680,11 @@ tags:
 - Affiliates
 - Partnerships
 - Performance Marketing
-- Commission
+- Commissions
 - Tracking
 - Creator Economy
 - Partner Management
-- Referral
+- Referrals
 - Attribution
 - Payouts
 - Marketing

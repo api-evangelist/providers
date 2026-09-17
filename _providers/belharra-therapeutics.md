@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://belharratx.com/wp-json
@@ -52,11 +52,6 @@ apis:
   description: Media library (430 attachments at harvest time).
   name: Belharra Therapeutics Media API
   slug: belharra-therapeutics-media-api
-- baseURL: https://belharratx.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for belharratx.com URLs.
-  name: Belharra Therapeutics Oembed API
-  slug: belharra-therapeutics-oembed-api
 - baseURL: https://belharratx.com/wp-json
   baseurl_source: declared
   description: Corporate pages (29 published at harvest time).
@@ -77,6 +72,11 @@ apis:
   description: Categories and tags. Two categories are registered (Company News, Press Releases); the post_tag taxonomy is registered but empty.
   name: Belharra Therapeutics Taxonomy API
   slug: belharra-therapeutics-taxonomy-api
+- baseURL: https://belharratx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for belharratx.com URLs.
+  name: Belharra Therapeutics o Embed API
+  slug: belharra-therapeutics-o-embed-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -252,7 +252,7 @@ overview: 'Belharra Therapeutics publishes 8 APIs on the [APIs.io](https://apis.
 
 
   Belharra Therapeutics'' developer surface includes product news, authentication, and 28 more developer resources.'
-random_paper: 12
+random_paper: 19
 score:
   band: thin
   composite: 37.2
@@ -287,7 +287,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

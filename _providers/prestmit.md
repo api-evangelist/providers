@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Prestmit Plans Pricing
   plan_count: 3
   slug: prestmit-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Prestmit Rate Limits
@@ -230,7 +230,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

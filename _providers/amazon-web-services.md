@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3518
   human_in_the_loop: 147
@@ -142,24 +142,15 @@ apis:
 - description: The Accessors API from Amazon Web Services — 2 operation(s) for accessors.
   name: Amazon Web Services Accessors API
   slug: amazon-web-services-accessors-api
-- description: The Accesspoint API from Amazon Web Services — 4 operation(s) for accesspoint.
-  name: Amazon Web Services Accesspoint API
-  slug: amazon-web-services-accesspoint-api
 - description: The Accesspointforobjectlambda API from Amazon Web Services — 5 operation(s) for accesspointforobjectlambda.
   name: Amazon Web Services Accesspointforobjectlambda API
   slug: amazon-web-services-accesspointforobjectlambda-api
-- description: The accessTokens API from Amazon Web Services — 2 operation(s) for accesstokens.
-  name: Amazon Web Services accessTokens API
-  slug: amazon-web-services-accesstokens-api
 - description: The Account API from Amazon Web Services — 8 operation(s) for account.
   name: Amazon Web Services Account API
   slug: amazon-web-services-account-api
 - description: The Account Settings API from Amazon Web Services — 1 operation(s) for account settings.
   name: Amazon Web Services Account Settings API
   slug: amazon-web-services-account-settings-api
-- description: The accountConfiguration API from Amazon Web Services — 1 operation(s) for accountconfiguration.
-  name: Amazon Web Services accountConfiguration API
-  slug: amazon-web-services-accountconfiguration-api
 - description: The Accountpermissions API from Amazon Web Services — 1 operation(s) for accountpermissions.
   name: Amazon Web Services Accountpermissions API
   slug: amazon-web-services-accountpermissions-api
@@ -175,9 +166,6 @@ apis:
 - description: The Actions API from Amazon Web Services — 3 operation(s) for actions.
   name: Amazon Web Services Actions API
   slug: amazon-web-services-actions-api
-- description: The actionTargets API from Amazon Web Services — 3 operation(s) for actiontargets.
-  name: Amazon Web Services actionTargets API
-  slug: amazon-web-services-actiontargets-api
 - description: The ActivateAnomalyDetector API from Amazon Web Services — 1 operation(s) for activateanomalydetector.
   name: Amazon Web Services ActivateAnomalyDetector API
   slug: amazon-web-services-activateanomalydetector-api
@@ -193,9 +181,6 @@ apis:
 - description: The AddLFTagsToResource API from Amazon Web Services — 1 operation(s) for addlftagstoresource.
   name: Amazon Web Services AddLFTagsToResource API
   slug: amazon-web-services-addlftagstoresource-api
-- description: The Addons API from Amazon Web Services — 2 operation(s) for addons.
-  name: Amazon Web Services Addons API
-  slug: amazon-web-services-addons-api
 - description: The Admin API from Amazon Web Services — 4 operation(s) for admin.
   name: Amazon Web Services Admin API
   slug: amazon-web-services-admin-api
@@ -226,468 +211,12 @@ apis:
 - description: The Amazon Web Services Acm API from Amazon Web Services — 1 operation(s) for amazon web services acm.
   name: Amazon Web Services Amazon Web Services Acm API
   slug: amazon-web-services-amazon-web-services-acm-api
-- description: The Amazon Web Services Acm Pca API from Amazon Web Services — 1 operation(s) for amazon web services acm pca.
-  name: Amazon Web Services Amazon Web Services Acm Pca API
-  slug: amazon-web-services-amazon-web-services-acm-pca-api
-- description: The Amazon Web Services Application Autoscaling API from Amazon Web Services — 1 operation(s) for amazon web services application autoscaling.
-  name: Amazon Web Services Amazon Web Services Application Autoscaling API
-  slug: amazon-web-services-amazon-web-services-application-autoscaling-api
-- description: The Amazon Web Services Application Insights API from Amazon Web Services — 1 operation(s) for amazon web services application insights.
-  name: Amazon Web Services Amazon Web Services Application Insights API
-  slug: amazon-web-services-amazon-web-services-application-insights-api
-- description: The Amazon Web Services Apprunner API from Amazon Web Services — 1 operation(s) for amazon web services apprunner.
-  name: Amazon Web Services Amazon Web Services Apprunner API
-  slug: amazon-web-services-amazon-web-services-apprunner-api
-- description: The Amazon Web Services Appstream API from Amazon Web Services — 1 operation(s) for amazon web services appstream.
-  name: Amazon Web Services Amazon Web Services Appstream API
-  slug: amazon-web-services-amazon-web-services-appstream-api
-- description: The Amazon Web Services Athena API from Amazon Web Services — 1 operation(s) for amazon web services athena.
-  name: Amazon Web Services Amazon Web Services Athena API
-  slug: amazon-web-services-amazon-web-services-athena-api
-- description: The Amazon Web Services Autoscaling API from Amazon Web Services — 1 operation(s) for amazon web services autoscaling.
-  name: Amazon Web Services Amazon Web Services Autoscaling API
-  slug: amazon-web-services-amazon-web-services-autoscaling-api
-- description: The Amazon Web Services Autoscaling Plans API from Amazon Web Services — 1 operation(s) for amazon web services autoscaling plans.
-  name: Amazon Web Services Amazon Web Services Autoscaling Plans API
-  slug: amazon-web-services-amazon-web-services-autoscaling-plans-api
-- description: The Amazon Web Services AWSMigrationHub API from Amazon Web Services — 1 operation(s) for amazon web services awsmigrationhub.
-  name: Amazon Web Services Amazon Web Services AWSMigrationHub API
-  slug: amazon-web-services-amazon-web-services-awsmigrationhub-api
-- description: The Amazon Web Services B2bi API from Amazon Web Services — 1 operation(s) for amazon web services b2bi.
-  name: Amazon Web Services Amazon Web Services B2bi API
-  slug: amazon-web-services-amazon-web-services-b2bi-api
-- description: The Amazon Web Services Backup Gateway API from Amazon Web Services — 1 operation(s) for amazon web services backup gateway.
-  name: Amazon Web Services Amazon Web Services Backup Gateway API
-  slug: amazon-web-services-amazon-web-services-backup-gateway-api
-- description: The Amazon Web Services Bcm Data Exports API from Amazon Web Services — 1 operation(s) for amazon web services bcm data exports.
-  name: Amazon Web Services Amazon Web Services Bcm Data Exports API
-  slug: amazon-web-services-amazon-web-services-bcm-data-exports-api
-- description: The Amazon Web Services Budgets API from Amazon Web Services — 1 operation(s) for amazon web services budgets.
-  name: Amazon Web Services Amazon Web Services Budgets API
-  slug: amazon-web-services-amazon-web-services-budgets-api
-- description: The Amazon Web Services Ce API from Amazon Web Services — 1 operation(s) for amazon web services ce.
-  name: Amazon Web Services Amazon Web Services Ce API
-  slug: amazon-web-services-amazon-web-services-ce-api
-- description: The Amazon Web Services Cloud9 API from Amazon Web Services — 1 operation(s) for amazon web services cloud9.
-  name: Amazon Web Services Amazon Web Services Cloud9 API
-  slug: amazon-web-services-amazon-web-services-cloud9-api
-- description: The Amazon Web Services Cloudcontrol API from Amazon Web Services — 1 operation(s) for amazon web services cloudcontrol.
-  name: Amazon Web Services Amazon Web Services Cloudcontrol API
-  slug: amazon-web-services-amazon-web-services-cloudcontrol-api
-- description: The Amazon Web Services Cloudformation API from Amazon Web Services — 1 operation(s) for amazon web services cloudformation.
-  name: Amazon Web Services Amazon Web Services Cloudformation API
-  slug: amazon-web-services-amazon-web-services-cloudformation-api
-- description: The Amazon Web Services Cloudhsm API from Amazon Web Services — 1 operation(s) for amazon web services cloudhsm.
-  name: Amazon Web Services Amazon Web Services Cloudhsm API
-  slug: amazon-web-services-amazon-web-services-cloudhsm-api
-- description: The Amazon Web Services Cloudhsmv2 API from Amazon Web Services — 1 operation(s) for amazon web services cloudhsmv2.
-  name: Amazon Web Services Amazon Web Services Cloudhsmv2 API
-  slug: amazon-web-services-amazon-web-services-cloudhsmv2-api
-- description: The Amazon Web Services Cloudsearch API from Amazon Web Services — 1 operation(s) for amazon web services cloudsearch.
-  name: Amazon Web Services Amazon Web Services Cloudsearch API
-  slug: amazon-web-services-amazon-web-services-cloudsearch-api
-- description: The Amazon Web Services Cloudtrail API from Amazon Web Services — 1 operation(s) for amazon web services cloudtrail.
-  name: Amazon Web Services Amazon Web Services Cloudtrail API
-  slug: amazon-web-services-amazon-web-services-cloudtrail-api
-- description: The Amazon Web Services Codebuild API from Amazon Web Services — 1 operation(s) for amazon web services codebuild.
-  name: Amazon Web Services Amazon Web Services Codebuild API
-  slug: amazon-web-services-amazon-web-services-codebuild-api
-- description: The Amazon Web Services Codecommit API from Amazon Web Services — 1 operation(s) for amazon web services codecommit.
-  name: Amazon Web Services Amazon Web Services Codecommit API
-  slug: amazon-web-services-amazon-web-services-codecommit-api
-- description: The Amazon Web Services Codedeploy API from Amazon Web Services — 1 operation(s) for amazon web services codedeploy.
-  name: Amazon Web Services Amazon Web Services Codedeploy API
-  slug: amazon-web-services-amazon-web-services-codedeploy-api
-- description: The Amazon Web Services Codepipeline API from Amazon Web Services — 1 operation(s) for amazon web services codepipeline.
-  name: Amazon Web Services Amazon Web Services Codepipeline API
-  slug: amazon-web-services-amazon-web-services-codepipeline-api
-- description: The Amazon Web Services Codestar API from Amazon Web Services — 1 operation(s) for amazon web services codestar.
-  name: Amazon Web Services Amazon Web Services Codestar API
-  slug: amazon-web-services-amazon-web-services-codestar-api
-- description: The Amazon Web Services Codestar Connections API from Amazon Web Services — 1 operation(s) for amazon web services codestar connections.
-  name: Amazon Web Services Amazon Web Services Codestar Connections API
-  slug: amazon-web-services-amazon-web-services-codestar-connections-api
-- description: The Amazon Web Services Cognito Identity API from Amazon Web Services — 1 operation(s) for amazon web services cognito identity.
-  name: Amazon Web Services Amazon Web Services Cognito Identity API
-  slug: amazon-web-services-amazon-web-services-cognito-identity-api
-- description: The Amazon Web Services Cognito Idp API from Amazon Web Services — 1 operation(s) for amazon web services cognito idp.
-  name: Amazon Web Services Amazon Web Services Cognito Idp API
-  slug: amazon-web-services-amazon-web-services-cognito-idp-api
-- description: The Amazon Web Services Comprehend API from Amazon Web Services — 1 operation(s) for amazon web services comprehend.
-  name: Amazon Web Services Amazon Web Services Comprehend API
-  slug: amazon-web-services-amazon-web-services-comprehend-api
-- description: The Amazon Web Services Comprehendmedical API from Amazon Web Services — 1 operation(s) for amazon web services comprehendmedical.
-  name: Amazon Web Services Amazon Web Services Comprehendmedical API
-  slug: amazon-web-services-amazon-web-services-comprehendmedical-api
-- description: The Amazon Web Services Compute Optimizer API from Amazon Web Services — 1 operation(s) for amazon web services compute optimizer.
-  name: Amazon Web Services Amazon Web Services Compute Optimizer API
-  slug: amazon-web-services-amazon-web-services-compute-optimizer-api
-- description: The Amazon Web Services Config API from Amazon Web Services — 1 operation(s) for amazon web services config.
-  name: Amazon Web Services Amazon Web Services Config API
-  slug: amazon-web-services-amazon-web-services-config-api
-- description: The Amazon Web Services Cost Optimization Hub API from Amazon Web Services — 1 operation(s) for amazon web services cost optimization hub.
-  name: Amazon Web Services Amazon Web Services Cost Optimization Hub API
-  slug: amazon-web-services-amazon-web-services-cost-optimization-hub-api
-- description: The Amazon Web Services Cur API from Amazon Web Services — 1 operation(s) for amazon web services cur.
-  name: Amazon Web Services Amazon Web Services Cur API
-  slug: amazon-web-services-amazon-web-services-cur-api
 - description: The Amazon Web Services Dataexchange API from Amazon Web Services — 1 operation(s) for amazon web services dataexchange.
   name: Amazon Web Services Amazon Web Services Dataexchange API
   slug: amazon-web-services-amazon-web-services-dataexchange-api
-- description: The Amazon Web Services Datapipeline API from Amazon Web Services — 1 operation(s) for amazon web services datapipeline.
-  name: Amazon Web Services Amazon Web Services Datapipeline API
-  slug: amazon-web-services-amazon-web-services-datapipeline-api
-- description: The Amazon Web Services Datasync API from Amazon Web Services — 1 operation(s) for amazon web services datasync.
-  name: Amazon Web Services Amazon Web Services Datasync API
-  slug: amazon-web-services-amazon-web-services-datasync-api
-- description: The Amazon Web Services Dax API from Amazon Web Services — 1 operation(s) for amazon web services dax.
-  name: Amazon Web Services Amazon Web Services Dax API
-  slug: amazon-web-services-amazon-web-services-dax-api
-- description: The Amazon Web Services Devicefarm API from Amazon Web Services — 1 operation(s) for amazon web services devicefarm.
-  name: Amazon Web Services Amazon Web Services Devicefarm API
-  slug: amazon-web-services-amazon-web-services-devicefarm-api
-- description: The Amazon Web Services Directconnect API from Amazon Web Services — 1 operation(s) for amazon web services directconnect.
-  name: Amazon Web Services Amazon Web Services Directconnect API
-  slug: amazon-web-services-amazon-web-services-directconnect-api
-- description: The Amazon Web Services Discovery API from Amazon Web Services — 1 operation(s) for amazon web services discovery.
-  name: Amazon Web Services Amazon Web Services Discovery API
-  slug: amazon-web-services-amazon-web-services-discovery-api
-- description: The Amazon Web Services Dms API from Amazon Web Services — 1 operation(s) for amazon web services dms.
-  name: Amazon Web Services Amazon Web Services Dms API
-  slug: amazon-web-services-amazon-web-services-dms-api
-- description: The Amazon Web Services Docdb API from Amazon Web Services — 1 operation(s) for amazon web services docdb.
-  name: Amazon Web Services Amazon Web Services Docdb API
-  slug: amazon-web-services-amazon-web-services-docdb-api
-- description: The Amazon Web Services Ds API from Amazon Web Services — 1 operation(s) for amazon web services ds.
-  name: Amazon Web Services Amazon Web Services Ds API
-  slug: amazon-web-services-amazon-web-services-ds-api
-- description: The Amazon Web Services Dynamodb API from Amazon Web Services — 1 operation(s) for amazon web services dynamodb.
-  name: Amazon Web Services Amazon Web Services Dynamodb API
-  slug: amazon-web-services-amazon-web-services-dynamodb-api
-- description: The Amazon Web Services Ec2 API from Amazon Web Services — 1 operation(s) for amazon web services ec2.
-  name: Amazon Web Services Amazon Web Services Ec2 API
-  slug: amazon-web-services-amazon-web-services-ec2-api
-- description: The Amazon Web Services Ec2 Instance Connect API from Amazon Web Services — 1 operation(s) for amazon web services ec2 instance connect.
-  name: Amazon Web Services Amazon Web Services Ec2 Instance Connect API
-  slug: amazon-web-services-amazon-web-services-ec2-instance-connect-api
-- description: The Amazon Web Services Ecr API from Amazon Web Services — 1 operation(s) for amazon web services ecr.
-  name: Amazon Web Services Amazon Web Services Ecr API
-  slug: amazon-web-services-amazon-web-services-ecr-api
-- description: The Amazon Web Services Ecr Public API from Amazon Web Services — 1 operation(s) for amazon web services ecr public.
-  name: Amazon Web Services Amazon Web Services Ecr Public API
-  slug: amazon-web-services-amazon-web-services-ecr-public-api
-- description: The Amazon Web Services Ecs API from Amazon Web Services — 1 operation(s) for amazon web services ecs.
-  name: Amazon Web Services Amazon Web Services Ecs API
-  slug: amazon-web-services-amazon-web-services-ecs-api
-- description: The Amazon Web Services Elasticache API from Amazon Web Services — 1 operation(s) for amazon web services elasticache.
-  name: Amazon Web Services Amazon Web Services Elasticache API
-  slug: amazon-web-services-amazon-web-services-elasticache-api
-- description: The Amazon Web Services Elasticbeanstalk API from Amazon Web Services — 1 operation(s) for amazon web services elasticbeanstalk.
-  name: Amazon Web Services Amazon Web Services Elasticbeanstalk API
-  slug: amazon-web-services-amazon-web-services-elasticbeanstalk-api
-- description: The Amazon Web Services Elasticloadbalancing API from Amazon Web Services — 1 operation(s) for amazon web services elasticloadbalancing.
-  name: Amazon Web Services Amazon Web Services Elasticloadbalancing API
-  slug: amazon-web-services-amazon-web-services-elasticloadbalancing-api
-- description: The Amazon Web Services Elasticloadbalancingv2 API from Amazon Web Services — 1 operation(s) for amazon web services elasticloadbalancingv2.
-  name: Amazon Web Services Amazon Web Services Elasticloadbalancingv2 API
-  slug: amazon-web-services-amazon-web-services-elasticloadbalancingv2-api
-- description: The Amazon Web Services Elasticmapreduce API from Amazon Web Services — 1 operation(s) for amazon web services elasticmapreduce.
-  name: Amazon Web Services Amazon Web Services Elasticmapreduce API
-  slug: amazon-web-services-amazon-web-services-elasticmapreduce-api
-- description: The Amazon Web Services Email API from Amazon Web Services — 1 operation(s) for amazon web services email.
-  name: Amazon Web Services Amazon Web Services Email API
-  slug: amazon-web-services-amazon-web-services-email-api
-- description: The Amazon Web Services Entitlement.marketplace API from Amazon Web Services — 1 operation(s) for amazon web services entitlement.marketplace.
-  name: Amazon Web Services Amazon Web Services Entitlement.marketplace API
-  slug: amazon-web-services-amazon-web-services-entitlement-marketplace-api
-- description: The Amazon Web Services Eventbridge API from Amazon Web Services — 1 operation(s) for amazon web services eventbridge.
-  name: Amazon Web Services Amazon Web Services Eventbridge API
-  slug: amazon-web-services-amazon-web-services-eventbridge-api
-- description: The Amazon Web Services Events API from Amazon Web Services — 1 operation(s) for amazon web services events.
-  name: Amazon Web Services Amazon Web Services Events API
-  slug: amazon-web-services-amazon-web-services-events-api
-- description: The Amazon Web Services Firehose API from Amazon Web Services — 1 operation(s) for amazon web services firehose.
-  name: Amazon Web Services Amazon Web Services Firehose API
-  slug: amazon-web-services-amazon-web-services-firehose-api
-- description: The Amazon Web Services Fms API from Amazon Web Services — 1 operation(s) for amazon web services fms.
-  name: Amazon Web Services Amazon Web Services Fms API
-  slug: amazon-web-services-amazon-web-services-fms-api
-- description: The Amazon Web Services Forecast API from Amazon Web Services — 1 operation(s) for amazon web services forecast.
-  name: Amazon Web Services Amazon Web Services Forecast API
-  slug: amazon-web-services-amazon-web-services-forecast-api
-- description: The Amazon Web Services Forecastquery API from Amazon Web Services — 1 operation(s) for amazon web services forecastquery.
-  name: Amazon Web Services Amazon Web Services Forecastquery API
-  slug: amazon-web-services-amazon-web-services-forecastquery-api
-- description: The Amazon Web Services Frauddetector API from Amazon Web Services — 1 operation(s) for amazon web services frauddetector.
-  name: Amazon Web Services Amazon Web Services Frauddetector API
-  slug: amazon-web-services-amazon-web-services-frauddetector-api
-- description: The Amazon Web Services Freetier API from Amazon Web Services — 1 operation(s) for amazon web services freetier.
-  name: Amazon Web Services Amazon Web Services Freetier API
-  slug: amazon-web-services-amazon-web-services-freetier-api
-- description: The Amazon Web Services Fsx API from Amazon Web Services — 1 operation(s) for amazon web services fsx.
-  name: Amazon Web Services Amazon Web Services Fsx API
-  slug: amazon-web-services-amazon-web-services-fsx-api
-- description: The Amazon Web Services Gamelift API from Amazon Web Services — 1 operation(s) for amazon web services gamelift.
-  name: Amazon Web Services Amazon Web Services Gamelift API
-  slug: amazon-web-services-amazon-web-services-gamelift-api
-- description: The Amazon Web Services Globalaccelerator API from Amazon Web Services — 1 operation(s) for amazon web services globalaccelerator.
-  name: Amazon Web Services Amazon Web Services Globalaccelerator API
-  slug: amazon-web-services-amazon-web-services-globalaccelerator-api
-- description: The Amazon Web Services Glue API from Amazon Web Services — 1 operation(s) for amazon web services glue.
-  name: Amazon Web Services Amazon Web Services Glue API
-  slug: amazon-web-services-amazon-web-services-glue-api
-- description: The Amazon Web Services Health API from Amazon Web Services — 1 operation(s) for amazon web services health.
-  name: Amazon Web Services Amazon Web Services Health API
-  slug: amazon-web-services-amazon-web-services-health-api
-- description: The Amazon Web Services Healthlake API from Amazon Web Services — 1 operation(s) for amazon web services healthlake.
-  name: Amazon Web Services Amazon Web Services Healthlake API
-  slug: amazon-web-services-amazon-web-services-healthlake-api
-- description: The Amazon Web Services Iam API from Amazon Web Services — 1 operation(s) for amazon web services iam.
-  name: Amazon Web Services Amazon Web Services Iam API
-  slug: amazon-web-services-amazon-web-services-iam-api
-- description: The Amazon Web Services Identitystore API from Amazon Web Services — 1 operation(s) for amazon web services identitystore.
-  name: Amazon Web Services Amazon Web Services Identitystore API
-  slug: amazon-web-services-amazon-web-services-identitystore-api
-- description: The Amazon Web Services Inspector API from Amazon Web Services — 1 operation(s) for amazon web services inspector.
-  name: Amazon Web Services Amazon Web Services Inspector API
-  slug: amazon-web-services-amazon-web-services-inspector-api
-- description: The Amazon Web Services Iotfleetwise API from Amazon Web Services — 1 operation(s) for amazon web services iotfleetwise.
-  name: Amazon Web Services Amazon Web Services Iotfleetwise API
-  slug: amazon-web-services-amazon-web-services-iotfleetwise-api
-- description: The Amazon Web Services Iotsecuretunneling API from Amazon Web Services — 1 operation(s) for amazon web services iotsecuretunneling.
-  name: Amazon Web Services Amazon Web Services Iotsecuretunneling API
-  slug: amazon-web-services-amazon-web-services-iotsecuretunneling-api
-- description: The Amazon Web Services Iotthingsgraph API from Amazon Web Services — 1 operation(s) for amazon web services iotthingsgraph.
-  name: Amazon Web Services Amazon Web Services Iotthingsgraph API
-  slug: amazon-web-services-amazon-web-services-iotthingsgraph-api
-- description: The Amazon Web Services Kendra API from Amazon Web Services — 1 operation(s) for amazon web services kendra.
-  name: Amazon Web Services Amazon Web Services Kendra API
-  slug: amazon-web-services-amazon-web-services-kendra-api
-- description: The Amazon Web Services Kendra Ranking API from Amazon Web Services — 1 operation(s) for amazon web services kendra ranking.
-  name: Amazon Web Services Amazon Web Services Kendra Ranking API
-  slug: amazon-web-services-amazon-web-services-kendra-ranking-api
-- description: The Amazon Web Services Keyspaces API from Amazon Web Services — 1 operation(s) for amazon web services keyspaces.
-  name: Amazon Web Services Amazon Web Services Keyspaces API
-  slug: amazon-web-services-amazon-web-services-keyspaces-api
-- description: The Amazon Web Services Kinesis API from Amazon Web Services — 1 operation(s) for amazon web services kinesis.
-  name: Amazon Web Services Amazon Web Services Kinesis API
-  slug: amazon-web-services-amazon-web-services-kinesis-api
-- description: The Amazon Web Services Kinesisanalytics API from Amazon Web Services — 1 operation(s) for amazon web services kinesisanalytics.
-  name: Amazon Web Services Amazon Web Services Kinesisanalytics API
-  slug: amazon-web-services-amazon-web-services-kinesisanalytics-api
-- description: The Amazon Web Services Kinesisanalyticsv2 API from Amazon Web Services — 1 operation(s) for amazon web services kinesisanalyticsv2.
-  name: Amazon Web Services Amazon Web Services Kinesisanalyticsv2 API
-  slug: amazon-web-services-amazon-web-services-kinesisanalyticsv2-api
-- description: The Amazon Web Services Kms API from Amazon Web Services — 1 operation(s) for amazon web services kms.
-  name: Amazon Web Services Amazon Web Services Kms API
-  slug: amazon-web-services-amazon-web-services-kms-api
-- description: The Amazon Web Services License Manager API from Amazon Web Services — 1 operation(s) for amazon web services license manager.
-  name: Amazon Web Services Amazon Web Services License Manager API
-  slug: amazon-web-services-amazon-web-services-license-manager-api
-- description: The Amazon Web Services Lightsail API from Amazon Web Services — 1 operation(s) for amazon web services lightsail.
-  name: Amazon Web Services Amazon Web Services Lightsail API
-  slug: amazon-web-services-amazon-web-services-lightsail-api
-- description: The Amazon Web Services Logs API from Amazon Web Services — 1 operation(s) for amazon web services logs.
-  name: Amazon Web Services Amazon Web Services Logs API
-  slug: amazon-web-services-amazon-web-services-logs-api
-- description: The Amazon Web Services Lookoutequipment API from Amazon Web Services — 1 operation(s) for amazon web services lookoutequipment.
-  name: Amazon Web Services Amazon Web Services Lookoutequipment API
-  slug: amazon-web-services-amazon-web-services-lookoutequipment-api
-- description: The Amazon Web Services Machinelearning API from Amazon Web Services — 1 operation(s) for amazon web services machinelearning.
-  name: Amazon Web Services Amazon Web Services Machinelearning API
-  slug: amazon-web-services-amazon-web-services-machinelearning-api
-- description: The Amazon Web Services Marketplace Agreement API from Amazon Web Services — 1 operation(s) for amazon web services marketplace agreement.
-  name: Amazon Web Services Amazon Web Services Marketplace Agreement API
-  slug: amazon-web-services-amazon-web-services-marketplace-agreement-api
-- description: The Amazon Web Services Marketplacecommerceanalytics API from Amazon Web Services — 1 operation(s) for amazon web services marketplacecommerceanalytics.
-  name: Amazon Web Services Amazon Web Services Marketplacecommerceanalytics API
-  slug: amazon-web-services-amazon-web-services-marketplacecommerceanalytics-api
-- description: The Amazon Web Services Mediastore API from Amazon Web Services — 1 operation(s) for amazon web services mediastore.
-  name: Amazon Web Services Amazon Web Services Mediastore API
-  slug: amazon-web-services-amazon-web-services-mediastore-api
 - description: The Amazon Web Services Mediastore Data API from Amazon Web Services — 2 operation(s) for amazon web services mediastore data.
   name: Amazon Web Services Amazon Web Services Mediastore Data API
   slug: amazon-web-services-amazon-web-services-mediastore-data-api
-- description: The Amazon Web Services Memorydb API from Amazon Web Services — 1 operation(s) for amazon web services memorydb.
-  name: Amazon Web Services Amazon Web Services Memorydb API
-  slug: amazon-web-services-amazon-web-services-memorydb-api
-- description: The Amazon Web Services Meteringmarketplace API from Amazon Web Services — 1 operation(s) for amazon web services meteringmarketplace.
-  name: Amazon Web Services Amazon Web Services Meteringmarketplace API
-  slug: amazon-web-services-amazon-web-services-meteringmarketplace-api
-- description: The Amazon Web Services Migrationhub Config API from Amazon Web Services — 1 operation(s) for amazon web services migrationhub config.
-  name: Amazon Web Services Amazon Web Services Migrationhub Config API
-  slug: amazon-web-services-amazon-web-services-migrationhub-config-api
-- description: The Amazon Web Services Monitoring API from Amazon Web Services — 1 operation(s) for amazon web services monitoring.
-  name: Amazon Web Services Amazon Web Services Monitoring API
-  slug: amazon-web-services-amazon-web-services-monitoring-api
-- description: The Amazon Web Services Mturk Requester API from Amazon Web Services — 1 operation(s) for amazon web services mturk requester.
-  name: Amazon Web Services Amazon Web Services Mturk Requester API
-  slug: amazon-web-services-amazon-web-services-mturk-requester-api
-- description: The Amazon Web Services Neptune API from Amazon Web Services — 1 operation(s) for amazon web services neptune.
-  name: Amazon Web Services Amazon Web Services Neptune API
-  slug: amazon-web-services-amazon-web-services-neptune-api
-- description: The Amazon Web Services Network Firewall API from Amazon Web Services — 1 operation(s) for amazon web services network firewall.
-  name: Amazon Web Services Amazon Web Services Network Firewall API
-  slug: amazon-web-services-amazon-web-services-network-firewall-api
-- description: The Amazon Web Services Opensearchserverless API from Amazon Web Services — 1 operation(s) for amazon web services opensearchserverless.
-  name: Amazon Web Services Amazon Web Services Opensearchserverless API
-  slug: amazon-web-services-amazon-web-services-opensearchserverless-api
-- description: The Amazon Web Services Opsworks API from Amazon Web Services — 1 operation(s) for amazon web services opsworks.
-  name: Amazon Web Services Amazon Web Services Opsworks API
-  slug: amazon-web-services-amazon-web-services-opsworks-api
-- description: The Amazon Web Services Opsworkscm API from Amazon Web Services — 1 operation(s) for amazon web services opsworkscm.
-  name: Amazon Web Services Amazon Web Services Opsworkscm API
-  slug: amazon-web-services-amazon-web-services-opsworkscm-api
-- description: The Amazon Web Services Organizations API from Amazon Web Services — 1 operation(s) for amazon web services organizations.
-  name: Amazon Web Services Amazon Web Services Organizations API
-  slug: amazon-web-services-amazon-web-services-organizations-api
-- description: The Amazon Web Services Payment Cryptography API from Amazon Web Services — 1 operation(s) for amazon web services payment cryptography.
-  name: Amazon Web Services Amazon Web Services Payment Cryptography API
-  slug: amazon-web-services-amazon-web-services-payment-cryptography-api
-- description: The Amazon Web Services Personalize API from Amazon Web Services — 1 operation(s) for amazon web services personalize.
-  name: Amazon Web Services Amazon Web Services Personalize API
-  slug: amazon-web-services-amazon-web-services-personalize-api
-- description: The Amazon Web Services Pi API from Amazon Web Services — 1 operation(s) for amazon web services pi.
-  name: Amazon Web Services Amazon Web Services Pi API
-  slug: amazon-web-services-amazon-web-services-pi-api
-- description: The Amazon Web Services Pinpoint Sms Voice V2 API from Amazon Web Services — 1 operation(s) for amazon web services pinpoint sms voice v2.
-  name: Amazon Web Services Amazon Web Services Pinpoint Sms Voice V2 API
-  slug: amazon-web-services-amazon-web-services-pinpoint-sms-voice-v2-api
-- description: The Amazon Web Services Pricing API from Amazon Web Services — 1 operation(s) for amazon web services pricing.
-  name: Amazon Web Services Amazon Web Services Pricing API
-  slug: amazon-web-services-amazon-web-services-pricing-api
-- description: The Amazon Web Services Proton API from Amazon Web Services — 1 operation(s) for amazon web services proton.
-  name: Amazon Web Services Amazon Web Services Proton API
-  slug: amazon-web-services-amazon-web-services-proton-api
-- description: The Amazon Web Services Qldb Session API from Amazon Web Services — 1 operation(s) for amazon web services qldb session.
-  name: Amazon Web Services Amazon Web Services Qldb Session API
-  slug: amazon-web-services-amazon-web-services-qldb-session-api
-- description: The Amazon Web Services Rds API from Amazon Web Services — 1 operation(s) for amazon web services rds.
-  name: Amazon Web Services Amazon Web Services Rds API
-  slug: amazon-web-services-amazon-web-services-rds-api
-- description: The Amazon Web Services Redshift API from Amazon Web Services — 1 operation(s) for amazon web services redshift.
-  name: Amazon Web Services Amazon Web Services Redshift API
-  slug: amazon-web-services-amazon-web-services-redshift-api
-- description: The Amazon Web Services Redshift Data API from Amazon Web Services — 1 operation(s) for amazon web services redshift data.
-  name: Amazon Web Services Amazon Web Services Redshift Data API
-  slug: amazon-web-services-amazon-web-services-redshift-data-api
-- description: The Amazon Web Services Redshift Serverless API from Amazon Web Services — 1 operation(s) for amazon web services redshift serverless.
-  name: Amazon Web Services Amazon Web Services Redshift Serverless API
-  slug: amazon-web-services-amazon-web-services-redshift-serverless-api
-- description: The Amazon Web Services Rekognition API from Amazon Web Services — 1 operation(s) for amazon web services rekognition.
-  name: Amazon Web Services Amazon Web Services Rekognition API
-  slug: amazon-web-services-amazon-web-services-rekognition-api
-- description: The Amazon Web Services Resourcegroupstaggingapi API from Amazon Web Services — 1 operation(s) for amazon web services resourcegroupstaggingapi.
-  name: Amazon Web Services Amazon Web Services Resourcegroupstaggingapi API
-  slug: amazon-web-services-amazon-web-services-resourcegroupstaggingapi-api
-- description: The Amazon Web Services Route53 Recovery Cluster API from Amazon Web Services — 1 operation(s) for amazon web services route53 recovery cluster.
-  name: Amazon Web Services Amazon Web Services Route53 Recovery Cluster API
-  slug: amazon-web-services-amazon-web-services-route53-recovery-cluster-api
-- description: The Amazon Web Services Route53domains API from Amazon Web Services — 1 operation(s) for amazon web services route53domains.
-  name: Amazon Web Services Amazon Web Services Route53domains API
-  slug: amazon-web-services-amazon-web-services-route53domains-api
-- description: The Amazon Web Services Route53resolver API from Amazon Web Services — 1 operation(s) for amazon web services route53resolver.
-  name: Amazon Web Services Amazon Web Services Route53resolver API
-  slug: amazon-web-services-amazon-web-services-route53resolver-api
-- description: The Amazon Web Services Sagemaker API from Amazon Web Services — 1 operation(s) for amazon web services sagemaker.
-  name: Amazon Web Services Amazon Web Services Sagemaker API
-  slug: amazon-web-services-amazon-web-services-sagemaker-api
-- description: The Amazon Web Services Sdb API from Amazon Web Services — 1 operation(s) for amazon web services sdb.
-  name: Amazon Web Services Amazon Web Services Sdb API
-  slug: amazon-web-services-amazon-web-services-sdb-api
-- description: The Amazon Web Services Secretsmanager API from Amazon Web Services — 1 operation(s) for amazon web services secretsmanager.
-  name: Amazon Web Services Amazon Web Services Secretsmanager API
-  slug: amazon-web-services-amazon-web-services-secretsmanager-api
-- description: The Amazon Web Services Service Quotas API from Amazon Web Services — 1 operation(s) for amazon web services service quotas.
-  name: Amazon Web Services Amazon Web Services Service Quotas API
-  slug: amazon-web-services-amazon-web-services-service-quotas-api
-- description: The Amazon Web Services Servicecatalog API from Amazon Web Services — 1 operation(s) for amazon web services servicecatalog.
-  name: Amazon Web Services Amazon Web Services Servicecatalog API
-  slug: amazon-web-services-amazon-web-services-servicecatalog-api
-- description: The Amazon Web Services Servicediscovery API from Amazon Web Services — 1 operation(s) for amazon web services servicediscovery.
-  name: Amazon Web Services Amazon Web Services Servicediscovery API
-  slug: amazon-web-services-amazon-web-services-servicediscovery-api
-- description: The Amazon Web Services Shield API from Amazon Web Services — 1 operation(s) for amazon web services shield.
-  name: Amazon Web Services Amazon Web Services Shield API
-  slug: amazon-web-services-amazon-web-services-shield-api
-- description: The Amazon Web Services Sms API from Amazon Web Services — 1 operation(s) for amazon web services sms.
-  name: Amazon Web Services Amazon Web Services Sms API
-  slug: amazon-web-services-amazon-web-services-sms-api
-- description: The Amazon Web Services Snowball API from Amazon Web Services — 1 operation(s) for amazon web services snowball.
-  name: Amazon Web Services Amazon Web Services Snowball API
-  slug: amazon-web-services-amazon-web-services-snowball-api
-- description: The Amazon Web Services Sns API from Amazon Web Services — 1 operation(s) for amazon web services sns.
-  name: Amazon Web Services Amazon Web Services Sns API
-  slug: amazon-web-services-amazon-web-services-sns-api
-- description: The Amazon Web Services Sqs API from Amazon Web Services — 1 operation(s) for amazon web services sqs.
-  name: Amazon Web Services Amazon Web Services Sqs API
-  slug: amazon-web-services-amazon-web-services-sqs-api
-- description: The Amazon Web Services Ssm API from Amazon Web Services — 1 operation(s) for amazon web services ssm.
-  name: Amazon Web Services Amazon Web Services Ssm API
-  slug: amazon-web-services-amazon-web-services-ssm-api
-- description: The Amazon Web Services Ssm Contacts API from Amazon Web Services — 1 operation(s) for amazon web services ssm contacts.
-  name: Amazon Web Services Amazon Web Services Ssm Contacts API
-  slug: amazon-web-services-amazon-web-services-ssm-contacts-api
-- description: The Amazon Web Services Sso Admin API from Amazon Web Services — 1 operation(s) for amazon web services sso admin.
-  name: Amazon Web Services Amazon Web Services Sso Admin API
-  slug: amazon-web-services-amazon-web-services-sso-admin-api
-- description: The Amazon Web Services States API from Amazon Web Services — 1 operation(s) for amazon web services states.
-  name: Amazon Web Services Amazon Web Services States API
-  slug: amazon-web-services-amazon-web-services-states-api
-- description: The Amazon Web Services Storagegateway API from Amazon Web Services — 1 operation(s) for amazon web services storagegateway.
-  name: Amazon Web Services Amazon Web Services Storagegateway API
-  slug: amazon-web-services-amazon-web-services-storagegateway-api
-- description: The Amazon Web Services Streams.dynamodb API from Amazon Web Services — 1 operation(s) for amazon web services streams.dynamodb.
-  name: Amazon Web Services Amazon Web Services Streams.dynamodb API
-  slug: amazon-web-services-amazon-web-services-streams-dynamodb-api
-- description: The Amazon Web Services Sts API from Amazon Web Services — 1 operation(s) for amazon web services sts.
-  name: Amazon Web Services Amazon Web Services Sts API
-  slug: amazon-web-services-amazon-web-services-sts-api
-- description: The Amazon Web Services Support API from Amazon Web Services — 1 operation(s) for amazon web services support.
-  name: Amazon Web Services Amazon Web Services Support API
-  slug: amazon-web-services-amazon-web-services-support-api
-- description: The Amazon Web Services Swf API from Amazon Web Services — 1 operation(s) for amazon web services swf.
-  name: Amazon Web Services Amazon Web Services Swf API
-  slug: amazon-web-services-amazon-web-services-swf-api
-- description: The Amazon Web Services Textract API from Amazon Web Services — 1 operation(s) for amazon web services textract.
-  name: Amazon Web Services Amazon Web Services Textract API
-  slug: amazon-web-services-amazon-web-services-textract-api
-- description: The Amazon Web Services Timestream Query API from Amazon Web Services — 1 operation(s) for amazon web services timestream query.
-  name: Amazon Web Services Amazon Web Services Timestream Query API
-  slug: amazon-web-services-amazon-web-services-timestream-query-api
-- description: The Amazon Web Services Timestream Write API from Amazon Web Services — 1 operation(s) for amazon web services timestream write.
-  name: Amazon Web Services Amazon Web Services Timestream Write API
-  slug: amazon-web-services-amazon-web-services-timestream-write-api
-- description: The Amazon Web Services Transcribe API from Amazon Web Services — 1 operation(s) for amazon web services transcribe.
-  name: Amazon Web Services Amazon Web Services Transcribe API
-  slug: amazon-web-services-amazon-web-services-transcribe-api
-- description: The Amazon Web Services Transfer API from Amazon Web Services — 1 operation(s) for amazon web services transfer.
-  name: Amazon Web Services Amazon Web Services Transfer API
-  slug: amazon-web-services-amazon-web-services-transfer-api
-- description: The Amazon Web Services Translate API from Amazon Web Services — 1 operation(s) for amazon web services translate.
-  name: Amazon Web Services Amazon Web Services Translate API
-  slug: amazon-web-services-amazon-web-services-translate-api
-- description: The Amazon Web Services Verifiedpermissions API from Amazon Web Services — 1 operation(s) for amazon web services verifiedpermissions.
-  name: Amazon Web Services Amazon Web Services Verifiedpermissions API
-  slug: amazon-web-services-amazon-web-services-verifiedpermissions-api
-- description: The Amazon Web Services Voice Id API from Amazon Web Services — 1 operation(s) for amazon web services voice id.
-  name: Amazon Web Services Amazon Web Services Voice Id API
-  slug: amazon-web-services-amazon-web-services-voice-id-api
-- description: The Amazon Web Services Waf API from Amazon Web Services — 1 operation(s) for amazon web services waf.
-  name: Amazon Web Services Amazon Web Services Waf API
-  slug: amazon-web-services-amazon-web-services-waf-api
-- description: The Amazon Web Services Waf Regional API from Amazon Web Services — 1 operation(s) for amazon web services waf regional.
-  name: Amazon Web Services Amazon Web Services Waf Regional API
-  slug: amazon-web-services-amazon-web-services-waf-regional-api
-- description: The Amazon Web Services Wafv2 API from Amazon Web Services — 1 operation(s) for amazon web services wafv2.
-  name: Amazon Web Services Amazon Web Services Wafv2 API
-  slug: amazon-web-services-amazon-web-services-wafv2-api
-- description: The Amazon Web Services Workmail API from Amazon Web Services — 1 operation(s) for amazon web services workmail.
-  name: Amazon Web Services Amazon Web Services Workmail API
-  slug: amazon-web-services-amazon-web-services-workmail-api
-- description: The Amazon Web Services Workspaces API from Amazon Web Services — 1 operation(s) for amazon web services workspaces.
-  name: Amazon Web Services Amazon Web Services Workspaces API
-  slug: amazon-web-services-amazon-web-services-workspaces-api
 - description: The Amazonclouddirectory API from Amazon Web Services — 64 operation(s) for amazonclouddirectory.
   name: Amazon Web Services Amazonclouddirectory API
   slug: amazon-web-services-amazonclouddirectory-api
@@ -703,27 +232,15 @@ apis:
 - description: The Analyzer API from Amazon Web Services — 4 operation(s) for analyzer.
   name: Amazon Web Services Analyzer API
   slug: amazon-web-services-analyzer-api
-- description: The annotationStore API from Amazon Web Services — 6 operation(s) for annotationstore.
-  name: Amazon Web Services annotationStore API
-  slug: amazon-web-services-annotationstore-api
-- description: The annotationStores API from Amazon Web Services — 1 operation(s) for annotationstores.
-  name: Amazon Web Services annotationStores API
-  slug: amazon-web-services-annotationstores-api
 - description: The Anomalies API from Amazon Web Services — 2 operation(s) for anomalies.
   name: Amazon Web Services Anomalies API
   slug: amazon-web-services-anomalies-api
 - description: The ApiCaches API from Amazon Web Services — 2 operation(s) for apicaches.
   name: Amazon Web Services ApiCaches API
   slug: amazon-web-services-apicaches-api
-- description: The Apikeys API from Amazon Web Services — 4 operation(s) for apikeys.
-  name: Amazon Web Services Apikeys API
-  slug: amazon-web-services-apikeys-api
 - description: The Apikeys?mode=import API from Amazon Web Services — 1 operation(s) for apikeys?mode=import.
   name: Amazon Web Services Apikeys?mode=import API
   slug: amazon-web-services-apikeys-mode-import-api
-- description: The Apis API from Amazon Web Services — 4 operation(s) for apis.
-  name: Amazon Web Services Apis API
-  slug: amazon-web-services-apis-api
 - description: The App API from Amazon Web Services — 10 operation(s) for app.
   name: Amazon Web Services App API
   slug: amazon-web-services-app-api
@@ -736,9 +253,6 @@ apis:
 - description: The App Instances API from Amazon Web Services — 6 operation(s) for app instances.
   name: Amazon Web Services App Instances API
   slug: amazon-web-services-app-instances-api
-- description: The Appbundles API from Amazon Web Services — 11 operation(s) for appbundles.
-  name: Amazon Web Services Appbundles API
-  slug: amazon-web-services-appbundles-api
 - description: The Application Instances API from Amazon Web Services — 6 operation(s) for application instances.
   name: Amazon Web Services Application Instances API
   slug: amazon-web-services-application-instances-api
@@ -868,9 +382,6 @@ apis:
 - description: The Automated Discovery API from Amazon Web Services — 1 operation(s) for automated discovery.
   name: Amazon Web Services Automated Discovery API
   slug: amazon-web-services-automated-discovery-api
-- description: The Automationrules API from Amazon Web Services — 5 operation(s) for automationrules.
-  name: Amazon Web Services Automationrules API
-  slug: amazon-web-services-automationrules-api
 - description: The Autoshifts API from Amazon Web Services — 1 operation(s) for autoshifts.
   name: Amazon Web Services Autoshifts API
   slug: amazon-web-services-autoshifts-api
@@ -901,24 +412,15 @@ apis:
 - description: The Batch Update Recommendation Status API from Amazon Web Services — 1 operation(s) for batch update recommendation status.
   name: Amazon Web Services Batch Update Recommendation Status API
   slug: amazon-web-services-batch-update-recommendation-status-api
-- description: The batchDeleteWorlds API from Amazon Web Services — 1 operation(s) for batchdeleteworlds.
-  name: Amazon Web Services batchDeleteWorlds API
-  slug: amazon-web-services-batchdeleteworlds-api
 - description: The BatchDescribeEntities API from Amazon Web Services — 1 operation(s) for batchdescribeentities.
   name: Amazon Web Services BatchDescribeEntities API
   slug: amazon-web-services-batchdescribeentities-api
-- description: The batchDescribeSimulationJob API from Amazon Web Services — 1 operation(s) for batchdescribesimulationjob.
-  name: Amazon Web Services batchDescribeSimulationJob API
-  slug: amazon-web-services-batchdescribesimulationjob-api
 - description: The BatchExecute API from Amazon Web Services — 1 operation(s) for batchexecute.
   name: Amazon Web Services BatchExecute API
   slug: amazon-web-services-batchexecute-api
 - description: The BatchGetChannel API from Amazon Web Services — 1 operation(s) for batchgetchannel.
   name: Amazon Web Services BatchGetChannel API
   slug: amazon-web-services-batchgetchannel-api
-- description: The batchGetFindings API from Amazon Web Services — 1 operation(s) for batchgetfindings.
-  name: Amazon Web Services batchGetFindings API
-  slug: amazon-web-services-batchgetfindings-api
 - description: The batchGetIncidentFindings API from Amazon Web Services — 1 operation(s) for batchgetincidentfindings.
   name: Amazon Web Services batchGetIncidentFindings API
   slug: amazon-web-services-batchgetincidentfindings-api
@@ -970,9 +472,6 @@ apis:
 - description: The Brokers API from Amazon Web Services — 6 operation(s) for brokers.
   name: Amazon Web Services Brokers API
   slug: amazon-web-services-brokers-api
-- description: The browserSettings API from Amazon Web Services — 2 operation(s) for browsersettings.
-  name: Amazon Web Services browserSettings API
-  slug: amazon-web-services-browsersettings-api
 - description: The Bucket Accelerate Configuration API from Amazon Web Services — 1 operation(s) for bucket accelerate configuration.
   name: Amazon Web Services Bucket Accelerate Configuration API
   slug: amazon-web-services-bucket-accelerate-configuration-api
@@ -1075,9 +574,6 @@ apis:
 - description: The CancelChangeSet API from Amazon Web Services — 1 operation(s) for cancelchangeset.
   name: Amazon Web Services CancelChangeSet API
   slug: amazon-web-services-cancelchangeset-api
-- description: The cancelDeploymentJob API from Amazon Web Services — 1 operation(s) for canceldeploymentjob.
-  name: Amazon Web Services cancelDeploymentJob API
-  slug: amazon-web-services-canceldeploymentjob-api
 - description: The CancelImageCreation API from Amazon Web Services — 1 operation(s) for cancelimagecreation.
   name: Amazon Web Services CancelImageCreation API
   slug: amazon-web-services-cancelimagecreation-api
@@ -1087,21 +583,9 @@ apis:
 - description: The CancelLifecycleExecution API from Amazon Web Services — 1 operation(s) for cancellifecycleexecution.
   name: Amazon Web Services CancelLifecycleExecution API
   slug: amazon-web-services-cancellifecycleexecution-api
-- description: The cancelSimulationJob API from Amazon Web Services — 1 operation(s) for cancelsimulationjob.
-  name: Amazon Web Services cancelSimulationJob API
-  slug: amazon-web-services-cancelsimulationjob-api
-- description: The cancelSimulationJobBatch API from Amazon Web Services — 1 operation(s) for cancelsimulationjobbatch.
-  name: Amazon Web Services cancelSimulationJobBatch API
-  slug: amazon-web-services-cancelsimulationjobbatch-api
 - description: The CancelTransaction API from Amazon Web Services — 1 operation(s) for canceltransaction.
   name: Amazon Web Services CancelTransaction API
   slug: amazon-web-services-canceltransaction-api
-- description: The cancelWorldExportJob API from Amazon Web Services — 1 operation(s) for cancelworldexportjob.
-  name: Amazon Web Services cancelWorldExportJob API
-  slug: amazon-web-services-cancelworldexportjob-api
-- description: The cancelWorldGenerationJob API from Amazon Web Services — 1 operation(s) for cancelworldgenerationjob.
-  name: Amazon Web Services cancelWorldGenerationJob API
-  slug: amazon-web-services-cancelworldgenerationjob-api
 - description: The Cardvalidationdata API from Amazon Web Services — 2 operation(s) for cardvalidationdata.
   name: Amazon Web Services Cardvalidationdata API
   slug: amazon-web-services-cardvalidationdata-api
@@ -1165,9 +649,6 @@ apis:
 - description: The Checks API from Amazon Web Services — 1 operation(s) for checks.
   name: Amazon Web Services Checks API
   slug: amazon-web-services-checks-api
-- description: The Cis API from Amazon Web Services — 9 operation(s) for cis.
-  name: Amazon Web Services Cis API
-  slug: amazon-web-services-cis-api
 - description: The Cissession API from Amazon Web Services — 4 operation(s) for cissession.
   name: Amazon Web Services Cissession API
   slug: amazon-web-services-cissession-api
@@ -1225,9 +706,6 @@ apis:
 - description: The Configuration API from Amazon Web Services — 9 operation(s) for configuration.
   name: Amazon Web Services Configuration API
   slug: amazon-web-services-configuration-api
-- description: The configurationPolicy API from Amazon Web Services — 4 operation(s) for configurationpolicy.
-  name: Amazon Web Services configurationPolicy API
-  slug: amazon-web-services-configurationpolicy-api
 - description: The configurationPolicyAssociation API from Amazon Web Services — 5 operation(s) for configurationpolicyassociation.
   name: Amazon Web Services configurationPolicyAssociation API
   slug: amazon-web-services-configurationpolicyassociation-api
@@ -1240,12 +718,6 @@ apis:
 - description: The Configured Audience Model API from Amazon Web Services — 3 operation(s) for configured audience model.
   name: Amazon Web Services Configured Audience Model API
   slug: amazon-web-services-configured-audience-model-api
-- description: The configuredTables API from Amazon Web Services — 4 operation(s) for configuredtables.
-  name: Amazon Web Services configuredTables API
-  slug: amazon-web-services-configuredtables-api
-- description: The configureLogs API from Amazon Web Services — 2 operation(s) for configurelogs.
-  name: Amazon Web Services configureLogs API
-  slug: amazon-web-services-configurelogs-api
 - description: The Confirmdestination API from Amazon Web Services — 1 operation(s) for confirmdestination.
   name: Amazon Web Services Confirmdestination API
   slug: amazon-web-services-confirmdestination-api
@@ -1390,9 +862,6 @@ apis:
 - description: The createDeployment API from Amazon Web Services — 1 operation(s) for createdeployment.
   name: Amazon Web Services createDeployment API
   slug: amazon-web-services-createdeployment-api
-- description: The createDeploymentJob API from Amazon Web Services — 1 operation(s) for createdeploymentjob.
-  name: Amazon Web Services createDeploymentJob API
-  slug: amazon-web-services-createdeploymentjob-api
 - description: The createDestination API from Amazon Web Services — 1 operation(s) for createdestination.
   name: Amazon Web Services createDestination API
   slug: amazon-web-services-createdestination-api
@@ -1405,15 +874,9 @@ apis:
 - description: The CreateExtendedSourceServer API from Amazon Web Services — 1 operation(s) for createextendedsourceserver.
   name: Amazon Web Services CreateExtendedSourceServer API
   slug: amazon-web-services-createextendedsourceserver-api
-- description: The createFleet API from Amazon Web Services — 1 operation(s) for createfleet.
-  name: Amazon Web Services createFleet API
-  slug: amazon-web-services-createfleet-api
 - description: The CreateGroup API from Amazon Web Services — 1 operation(s) for creategroup.
   name: Amazon Web Services CreateGroup API
   slug: amazon-web-services-creategroup-api
-- description: The CreateImage API from Amazon Web Services — 1 operation(s) for createimage.
-  name: Amazon Web Services CreateImage API
-  slug: amazon-web-services-createimage-api
 - description: The CreateImagePipeline API from Amazon Web Services — 1 operation(s) for createimagepipeline.
   name: Amazon Web Services CreateImagePipeline API
   slug: amazon-web-services-createimagepipeline-api
@@ -1474,24 +937,9 @@ apis:
 - description: The CreateReplicationConfigurationTemplate API from Amazon Web Services — 1 operation(s) for createreplicationconfigurationtemplate.
   name: Amazon Web Services CreateReplicationConfigurationTemplate API
   slug: amazon-web-services-createreplicationconfigurationtemplate-api
-- description: The createReplicationSet API from Amazon Web Services — 1 operation(s) for createreplicationset.
-  name: Amazon Web Services createReplicationSet API
-  slug: amazon-web-services-createreplicationset-api
 - description: The Createresourceshare API from Amazon Web Services — 1 operation(s) for createresourceshare.
   name: Amazon Web Services Createresourceshare API
   slug: amazon-web-services-createresourceshare-api
-- description: The createResponsePlan API from Amazon Web Services — 1 operation(s) for createresponseplan.
-  name: Amazon Web Services createResponsePlan API
-  slug: amazon-web-services-createresponseplan-api
-- description: The createRobot API from Amazon Web Services — 1 operation(s) for createrobot.
-  name: Amazon Web Services createRobot API
-  slug: amazon-web-services-createrobot-api
-- description: The createRobotApplication API from Amazon Web Services — 1 operation(s) for createrobotapplication.
-  name: Amazon Web Services createRobotApplication API
-  slug: amazon-web-services-createrobotapplication-api
-- description: The createRobotApplicationVersion API from Amazon Web Services — 1 operation(s) for createrobotapplicationversion.
-  name: Amazon Web Services createRobotApplicationVersion API
-  slug: amazon-web-services-createrobotapplicationversion-api
 - description: The CreateRoom API from Amazon Web Services — 1 operation(s) for createroom.
   name: Amazon Web Services CreateRoom API
   slug: amazon-web-services-createroom-api
@@ -1504,18 +952,6 @@ apis:
 - description: The Createschedulingpolicy API from Amazon Web Services — 1 operation(s) for createschedulingpolicy.
   name: Amazon Web Services Createschedulingpolicy API
   slug: amazon-web-services-createschedulingpolicy-api
-- description: The createSignalingChannel API from Amazon Web Services — 1 operation(s) for createsignalingchannel.
-  name: Amazon Web Services createSignalingChannel API
-  slug: amazon-web-services-createsignalingchannel-api
-- description: The createSimulationApplication API from Amazon Web Services — 1 operation(s) for createsimulationapplication.
-  name: Amazon Web Services createSimulationApplication API
-  slug: amazon-web-services-createsimulationapplication-api
-- description: The createSimulationApplicationVersion API from Amazon Web Services — 1 operation(s) for createsimulationapplicationversion.
-  name: Amazon Web Services createSimulationApplicationVersion API
-  slug: amazon-web-services-createsimulationapplicationversion-api
-- description: The createSimulationJob API from Amazon Web Services — 1 operation(s) for createsimulationjob.
-  name: Amazon Web Services createSimulationJob API
-  slug: amazon-web-services-createsimulationjob-api
 - description: The CreateSink API from Amazon Web Services — 1 operation(s) for createsink.
   name: Amazon Web Services CreateSink API
   slug: amazon-web-services-createsink-api
@@ -1534,15 +970,9 @@ apis:
 - description: The CreateStorageConfiguration API from Amazon Web Services — 1 operation(s) for createstorageconfiguration.
   name: Amazon Web Services CreateStorageConfiguration API
   slug: amazon-web-services-createstorageconfiguration-api
-- description: The createStream API from Amazon Web Services — 1 operation(s) for createstream.
-  name: Amazon Web Services createStream API
-  slug: amazon-web-services-createstream-api
 - description: The CreateStreamKey API from Amazon Web Services — 1 operation(s) for createstreamkey.
   name: Amazon Web Services CreateStreamKey API
   slug: amazon-web-services-createstreamkey-api
-- description: The createTimelineEvent API from Amazon Web Services — 1 operation(s) for createtimelineevent.
-  name: Amazon Web Services createTimelineEvent API
-  slug: amazon-web-services-createtimelineevent-api
 - description: The Createuploadurl API from Amazon Web Services — 1 operation(s) for createuploadurl.
   name: Amazon Web Services Createuploadurl API
   slug: amazon-web-services-createuploadurl-api
@@ -1561,15 +991,6 @@ apis:
 - description: The CreateWorkflow API from Amazon Web Services — 1 operation(s) for createworkflow.
   name: Amazon Web Services CreateWorkflow API
   slug: amazon-web-services-createworkflow-api
-- description: The createWorldExportJob API from Amazon Web Services — 1 operation(s) for createworldexportjob.
-  name: Amazon Web Services createWorldExportJob API
-  slug: amazon-web-services-createworldexportjob-api
-- description: The createWorldGenerationJob API from Amazon Web Services — 1 operation(s) for createworldgenerationjob.
-  name: Amazon Web Services createWorldGenerationJob API
-  slug: amazon-web-services-createworldgenerationjob-api
-- description: The createWorldTemplate API from Amazon Web Services — 1 operation(s) for createworldtemplate.
-  name: Amazon Web Services createWorldTemplate API
-  slug: amazon-web-services-createworldtemplate-api
 - description: The Credentials API from Amazon Web Services — 1 operation(s) for credentials.
   name: Amazon Web Services Credentials API
   slug: amazon-web-services-credentials-api
@@ -1603,21 +1024,9 @@ apis:
 - description: The Dashboards API from Amazon Web Services — 2 operation(s) for dashboards.
   name: Amazon Web Services Dashboards API
   slug: amazon-web-services-dashboards-api
-- description: The Data Sets API from Amazon Web Services — 8 operation(s) for data sets.
-  name: Amazon Web Services Data Sets API
-  slug: amazon-web-services-data-sets-api
-- description: The dataflowEndpointGroup API from Amazon Web Services — 2 operation(s) for dataflowendpointgroup.
-  name: Amazon Web Services dataflowEndpointGroup API
-  slug: amazon-web-services-dataflowendpointgroup-api
-- description: The dataIntegrations API from Amazon Web Services — 3 operation(s) for dataintegrations.
-  name: Amazon Web Services dataIntegrations API
-  slug: amazon-web-services-dataintegrations-api
 - description: The Datalake API from Amazon Web Services — 13 operation(s) for datalake.
   name: Amazon Web Services Datalake API
   slug: amazon-web-services-datalake-api
-- description: The Datalakes API from Amazon Web Services — 1 operation(s) for datalakes.
-  name: Amazon Web Services Datalakes API
-  slug: amazon-web-services-datalakes-api
 - description: The Dataplane Evaluatecode API from Amazon Web Services — 1 operation(s) for dataplane evaluatecode.
   name: Amazon Web Services Dataplane Evaluatecode API
   slug: amazon-web-services-dataplane-evaluatecode-api
@@ -1627,15 +1036,9 @@ apis:
 - description: The Datasets API from Amazon Web Services — 10 operation(s) for datasets.
   name: Amazon Web Services Datasets API
   slug: amazon-web-services-datasets-api
-- description: The Datasetsv2 API from Amazon Web Services — 2 operation(s) for datasetsv2.
-  name: Amazon Web Services Datasetsv2 API
-  slug: amazon-web-services-datasetsv2-api
 - description: The dataSourceKeywords API from Amazon Web Services — 1 operation(s) for datasourcekeywords.
   name: Amazon Web Services dataSourceKeywords API
   slug: amazon-web-services-datasourcekeywords-api
-- description: The Datasources API from Amazon Web Services — 7 operation(s) for datasources.
-  name: Amazon Web Services Datasources API
-  slug: amazon-web-services-datasources-api
 - description: The Datastore API from Amazon Web Services — 10 operation(s) for datastore.
   name: Amazon Web Services Datastore API
   slug: amazon-web-services-datastore-api
@@ -1720,9 +1123,6 @@ apis:
 - description: The DeleteAnomalyDetector API from Amazon Web Services — 1 operation(s) for deleteanomalydetector.
   name: Amazon Web Services DeleteAnomalyDetector API
   slug: amazon-web-services-deleteanomalydetector-api
-- description: The Deleteapp API from Amazon Web Services — 1 operation(s) for deleteapp.
-  name: Amazon Web Services Deleteapp API
-  slug: amazon-web-services-deleteapp-api
 - description: The DeleteApplication API from Amazon Web Services — 1 operation(s) for deleteapplication.
   name: Amazon Web Services DeleteApplication API
   slug: amazon-web-services-deleteapplication-api
@@ -1759,12 +1159,6 @@ apis:
 - description: The DeleteEncoderConfiguration API from Amazon Web Services — 1 operation(s) for deleteencoderconfiguration.
   name: Amazon Web Services DeleteEncoderConfiguration API
   slug: amazon-web-services-deleteencoderconfiguration-api
-- description: The deleteFleet API from Amazon Web Services — 1 operation(s) for deletefleet.
-  name: Amazon Web Services deleteFleet API
-  slug: amazon-web-services-deletefleet-api
-- description: The DeleteGroup API from Amazon Web Services — 1 operation(s) for deletegroup.
-  name: Amazon Web Services DeleteGroup API
-  slug: amazon-web-services-deletegroup-api
 - description: The DeleteImage API from Amazon Web Services — 1 operation(s) for deleteimage.
   name: Amazon Web Services DeleteImage API
   slug: amazon-web-services-deleteimage-api
@@ -1774,9 +1168,6 @@ apis:
 - description: The DeleteImageRecipe API from Amazon Web Services — 1 operation(s) for deleteimagerecipe.
   name: Amazon Web Services DeleteImageRecipe API
   slug: amazon-web-services-deleteimagerecipe-api
-- description: The deleteIncidentRecord API from Amazon Web Services — 1 operation(s) for deleteincidentrecord.
-  name: Amazon Web Services deleteIncidentRecord API
-  slug: amazon-web-services-deleteincidentrecord-api
 - description: The DeleteIndex API from Amazon Web Services — 1 operation(s) for deleteindex.
   name: Amazon Web Services DeleteIndex API
   slug: amazon-web-services-deleteindex-api
@@ -1855,15 +1246,6 @@ apis:
 - description: The Deleteresourceshare API from Amazon Web Services — 1 operation(s) for deleteresourceshare.
   name: Amazon Web Services Deleteresourceshare API
   slug: amazon-web-services-deleteresourceshare-api
-- description: The deleteResponsePlan API from Amazon Web Services — 1 operation(s) for deleteresponseplan.
-  name: Amazon Web Services deleteResponsePlan API
-  slug: amazon-web-services-deleteresponseplan-api
-- description: The deleteRobot API from Amazon Web Services — 1 operation(s) for deleterobot.
-  name: Amazon Web Services deleteRobot API
-  slug: amazon-web-services-deleterobot-api
-- description: The deleteRobotApplication API from Amazon Web Services — 1 operation(s) for deleterobotapplication.
-  name: Amazon Web Services deleteRobotApplication API
-  slug: amazon-web-services-deleterobotapplication-api
 - description: The DeleteRoom API from Amazon Web Services — 1 operation(s) for deleteroom.
   name: Amazon Web Services DeleteRoom API
   slug: amazon-web-services-deleteroom-api
@@ -1873,15 +1255,9 @@ apis:
 - description: The Deleteschedulingpolicy API from Amazon Web Services — 1 operation(s) for deleteschedulingpolicy.
   name: Amazon Web Services Deleteschedulingpolicy API
   slug: amazon-web-services-deleteschedulingpolicy-api
-- description: The deleteSignalingChannel API from Amazon Web Services — 1 operation(s) for deletesignalingchannel.
-  name: Amazon Web Services deleteSignalingChannel API
-  slug: amazon-web-services-deletesignalingchannel-api
 - description: The Deletesimulation API from Amazon Web Services — 1 operation(s) for deletesimulation.
   name: Amazon Web Services Deletesimulation API
   slug: amazon-web-services-deletesimulation-api
-- description: The deleteSimulationApplication API from Amazon Web Services — 1 operation(s) for deletesimulationapplication.
-  name: Amazon Web Services deleteSimulationApplication API
-  slug: amazon-web-services-deletesimulationapplication-api
 - description: The DeleteSink API from Amazon Web Services — 1 operation(s) for deletesink.
   name: Amazon Web Services DeleteSink API
   slug: amazon-web-services-deletesink-api
@@ -1900,18 +1276,12 @@ apis:
 - description: The DeleteStorageConfiguration API from Amazon Web Services — 1 operation(s) for deletestorageconfiguration.
   name: Amazon Web Services DeleteStorageConfiguration API
   slug: amazon-web-services-deletestorageconfiguration-api
-- description: The deleteStream API from Amazon Web Services — 1 operation(s) for deletestream.
-  name: Amazon Web Services deleteStream API
-  slug: amazon-web-services-deletestream-api
 - description: The DeleteStreamKey API from Amazon Web Services — 1 operation(s) for deletestreamkey.
   name: Amazon Web Services DeleteStreamKey API
   slug: amazon-web-services-deletestreamkey-api
 - description: The deleteTarget API from Amazon Web Services — 1 operation(s) for deletetarget.
   name: Amazon Web Services deleteTarget API
   slug: amazon-web-services-deletetarget-api
-- description: The deleteTimelineEvent API from Amazon Web Services — 1 operation(s) for deletetimelineevent.
-  name: Amazon Web Services deleteTimelineEvent API
-  slug: amazon-web-services-deletetimelineevent-api
 - description: The DeleteVcenterClient API from Amazon Web Services — 1 operation(s) for deletevcenterclient.
   name: Amazon Web Services DeleteVcenterClient API
   slug: amazon-web-services-deletevcenterclient-api
@@ -1930,9 +1300,6 @@ apis:
 - description: The DeleteWorkflow API from Amazon Web Services — 1 operation(s) for deleteworkflow.
   name: Amazon Web Services DeleteWorkflow API
   slug: amazon-web-services-deleteworkflow-api
-- description: The deleteWorldTemplate API from Amazon Web Services — 1 operation(s) for deleteworldtemplate.
-  name: Amazon Web Services deleteWorldTemplate API
-  slug: amazon-web-services-deleteworldtemplate-api
 - description: The Deployementstrategies API from Amazon Web Services — 1 operation(s) for deployementstrategies.
   name: Amazon Web Services Deployementstrategies API
   slug: amazon-web-services-deployementstrategies-api
@@ -1954,9 +1321,6 @@ apis:
 - description: The DeregisterResource API from Amazon Web Services — 1 operation(s) for deregisterresource.
   name: Amazon Web Services DeregisterResource API
   slug: amazon-web-services-deregisterresource-api
-- description: The deregisterRobot API from Amazon Web Services — 1 operation(s) for deregisterrobot.
-  name: Amazon Web Services deregisterRobot API
-  slug: amazon-web-services-deregisterrobot-api
 - description: The Describe Accelerator Offerings API from Amazon Web Services — 1 operation(s) for describe accelerator offerings.
   name: Amazon Web Services Describe Accelerator Offerings API
   slug: amazon-web-services-describe-accelerator-offerings-api
@@ -2020,9 +1384,6 @@ apis:
 - description: The DescribeAnomalyDetector API from Amazon Web Services — 1 operation(s) for describeanomalydetector.
   name: Amazon Web Services DescribeAnomalyDetector API
   slug: amazon-web-services-describeanomalydetector-api
-- description: The Describeapp API from Amazon Web Services — 1 operation(s) for describeapp.
-  name: Amazon Web Services Describeapp API
-  slug: amazon-web-services-describeapp-api
 - description: The describeAuditStreamConfiguration API from Amazon Web Services — 1 operation(s) for describeauditstreamconfiguration.
   name: Amazon Web Services describeAuditStreamConfiguration API
   slug: amazon-web-services-describeauditstreamconfiguration-api
@@ -2035,9 +1396,6 @@ apis:
 - description: The Describecomputeenvironments API from Amazon Web Services — 1 operation(s) for describecomputeenvironments.
   name: Amazon Web Services Describecomputeenvironments API
   slug: amazon-web-services-describecomputeenvironments-api
-- description: The describeDeploymentJob API from Amazon Web Services — 1 operation(s) for describedeploymentjob.
-  name: Amazon Web Services describeDeploymentJob API
-  slug: amazon-web-services-describedeploymentjob-api
 - description: The describeDevice API from Amazon Web Services — 1 operation(s) for describedevice.
   name: Amazon Web Services describeDevice API
   slug: amazon-web-services-describedevice-api
@@ -2047,24 +1405,15 @@ apis:
 - description: The describeDomain API from Amazon Web Services — 1 operation(s) for describedomain.
   name: Amazon Web Services describeDomain API
   slug: amazon-web-services-describedomain-api
-- description: The describeEdgeConfiguration API from Amazon Web Services — 1 operation(s) for describeedgeconfiguration.
-  name: Amazon Web Services describeEdgeConfiguration API
-  slug: amazon-web-services-describeedgeconfiguration-api
 - description: The DescribeEntity API from Amazon Web Services — 1 operation(s) for describeentity.
   name: Amazon Web Services DescribeEntity API
   slug: amazon-web-services-describeentity-api
-- description: The describeFleet API from Amazon Web Services — 1 operation(s) for describefleet.
-  name: Amazon Web Services describeFleet API
-  slug: amazon-web-services-describefleet-api
 - description: The describeFleetMetadata API from Amazon Web Services — 1 operation(s) for describefleetmetadata.
   name: Amazon Web Services describeFleetMetadata API
   slug: amazon-web-services-describefleetmetadata-api
 - description: The describeIdentityProviderConfiguration API from Amazon Web Services — 1 operation(s) for describeidentityproviderconfiguration.
   name: Amazon Web Services describeIdentityProviderConfiguration API
   slug: amazon-web-services-describeidentityproviderconfiguration-api
-- description: The describeImageGenerationConfiguration API from Amazon Web Services — 1 operation(s) for describeimagegenerationconfiguration.
-  name: Amazon Web Services describeImageGenerationConfiguration API
-  slug: amazon-web-services-describeimagegenerationconfiguration-api
 - description: The Describejobdefinitions API from Amazon Web Services — 1 operation(s) for describejobdefinitions.
   name: Amazon Web Services Describejobdefinitions API
   slug: amazon-web-services-describejobdefinitions-api
@@ -2083,18 +1432,9 @@ apis:
 - description: The DescribeLaunchConfigurationTemplates API from Amazon Web Services — 1 operation(s) for describelaunchconfigurationtemplates.
   name: Amazon Web Services DescribeLaunchConfigurationTemplates API
   slug: amazon-web-services-describelaunchconfigurationtemplates-api
-- description: The describeMappedResourceConfiguration API from Amazon Web Services — 1 operation(s) for describemappedresourceconfiguration.
-  name: Amazon Web Services describeMappedResourceConfiguration API
-  slug: amazon-web-services-describemappedresourceconfiguration-api
-- description: The describeMediaStorageConfiguration API from Amazon Web Services — 1 operation(s) for describemediastorageconfiguration.
-  name: Amazon Web Services describeMediaStorageConfiguration API
-  slug: amazon-web-services-describemediastorageconfiguration-api
 - description: The DescribeMetricSet API from Amazon Web Services — 1 operation(s) for describemetricset.
   name: Amazon Web Services DescribeMetricSet API
   slug: amazon-web-services-describemetricset-api
-- description: The describeNotificationConfiguration API from Amazon Web Services — 1 operation(s) for describenotificationconfiguration.
-  name: Amazon Web Services describeNotificationConfiguration API
-  slug: amazon-web-services-describenotificationconfiguration-api
 - description: The describeNotificationRule API from Amazon Web Services — 1 operation(s) for describenotificationrule.
   name: Amazon Web Services describeNotificationRule API
   slug: amazon-web-services-describenotificationrule-api
@@ -2110,12 +1450,6 @@ apis:
 - description: The DescribeResource API from Amazon Web Services — 1 operation(s) for describeresource.
   name: Amazon Web Services DescribeResource API
   slug: amazon-web-services-describeresource-api
-- description: The describeRobot API from Amazon Web Services — 1 operation(s) for describerobot.
-  name: Amazon Web Services describeRobot API
-  slug: amazon-web-services-describerobot-api
-- description: The describeRobotApplication API from Amazon Web Services — 1 operation(s) for describerobotapplication.
-  name: Amazon Web Services describeRobotApplication API
-  slug: amazon-web-services-describerobotapplication-api
 - description: The DescribeSavingsPlanRates API from Amazon Web Services — 1 operation(s) for describesavingsplanrates.
   name: Amazon Web Services DescribeSavingsPlanRates API
   slug: amazon-web-services-describesavingsplanrates-api
@@ -2131,30 +1465,15 @@ apis:
 - description: The Describeschedulingpolicies API from Amazon Web Services — 1 operation(s) for describeschedulingpolicies.
   name: Amazon Web Services Describeschedulingpolicies API
   slug: amazon-web-services-describeschedulingpolicies-api
-- description: The describeSignalingChannel API from Amazon Web Services — 1 operation(s) for describesignalingchannel.
-  name: Amazon Web Services describeSignalingChannel API
-  slug: amazon-web-services-describesignalingchannel-api
 - description: The Describesimulation API from Amazon Web Services — 1 operation(s) for describesimulation.
   name: Amazon Web Services Describesimulation API
   slug: amazon-web-services-describesimulation-api
-- description: The describeSimulationApplication API from Amazon Web Services — 1 operation(s) for describesimulationapplication.
-  name: Amazon Web Services describeSimulationApplication API
-  slug: amazon-web-services-describesimulationapplication-api
-- description: The describeSimulationJob API from Amazon Web Services — 1 operation(s) for describesimulationjob.
-  name: Amazon Web Services describeSimulationJob API
-  slug: amazon-web-services-describesimulationjob-api
-- description: The describeSimulationJobBatch API from Amazon Web Services — 1 operation(s) for describesimulationjobbatch.
-  name: Amazon Web Services describeSimulationJobBatch API
-  slug: amazon-web-services-describesimulationjobbatch-api
 - description: The DescribeSourceNetworks API from Amazon Web Services — 1 operation(s) for describesourcenetworks.
   name: Amazon Web Services DescribeSourceNetworks API
   slug: amazon-web-services-describesourcenetworks-api
 - description: The DescribeSourceServers API from Amazon Web Services — 1 operation(s) for describesourceservers.
   name: Amazon Web Services DescribeSourceServers API
   slug: amazon-web-services-describesourceservers-api
-- description: The describeStream API from Amazon Web Services — 1 operation(s) for describestream.
-  name: Amazon Web Services describeStream API
-  slug: amazon-web-services-describestream-api
 - description: The DescribeTransaction API from Amazon Web Services — 1 operation(s) for describetransaction.
   name: Amazon Web Services DescribeTransaction API
   slug: amazon-web-services-describetransaction-api
@@ -2164,18 +1483,6 @@ apis:
 - description: The describeWebsiteCertificateAuthority API from Amazon Web Services — 1 operation(s) for describewebsitecertificateauthority.
   name: Amazon Web Services describeWebsiteCertificateAuthority API
   slug: amazon-web-services-describewebsitecertificateauthority-api
-- description: The describeWorld API from Amazon Web Services — 1 operation(s) for describeworld.
-  name: Amazon Web Services describeWorld API
-  slug: amazon-web-services-describeworld-api
-- description: The describeWorldExportJob API from Amazon Web Services — 1 operation(s) for describeworldexportjob.
-  name: Amazon Web Services describeWorldExportJob API
-  slug: amazon-web-services-describeworldexportjob-api
-- description: The describeWorldGenerationJob API from Amazon Web Services — 1 operation(s) for describeworldgenerationjob.
-  name: Amazon Web Services describeWorldGenerationJob API
-  slug: amazon-web-services-describeworldgenerationjob-api
-- description: The describeWorldTemplate API from Amazon Web Services — 1 operation(s) for describeworldtemplate.
-  name: Amazon Web Services describeWorldTemplate API
-  slug: amazon-web-services-describeworldtemplate-api
 - description: The Destinations API from Amazon Web Services — 3 operation(s) for destinations.
   name: Amazon Web Services Destinations API
   slug: amazon-web-services-destinations-api
@@ -2284,18 +1591,9 @@ apis:
 - description: The Documents API from Amazon Web Services — 8 operation(s) for documents.
   name: Amazon Web Services Documents API
   slug: amazon-web-services-documents-api
-- description: The documentVersions API from Amazon Web Services — 2 operation(s) for documentversions.
-  name: Amazon Web Services documentVersions API
-  slug: amazon-web-services-documentversions-api
 - description: The Domain API from Amazon Web Services — 3 operation(s) for domain.
   name: Amazon Web Services Domain API
   slug: amazon-web-services-domain-api
-- description: The domainConfigurations API from Amazon Web Services — 2 operation(s) for domainconfigurations.
-  name: Amazon Web Services domainConfigurations API
-  slug: amazon-web-services-domainconfigurations-api
-- description: The Domainnames API from Amazon Web Services — 11 operation(s) for domainnames.
-  name: Amazon Web Services Domainnames API
-  slug: amazon-web-services-domainnames-api
 - description: The Domains API from Amazon Web Services — 111 operation(s) for domains.
   name: Amazon Web Services Domains API
   slug: amazon-web-services-domains-api
@@ -2365,9 +1663,6 @@ apis:
 - description: The Environments API from Amazon Web Services — 12 operation(s) for environments.
   name: Amazon Web Services Environments API
   slug: amazon-web-services-environments-api
-- description: The environmentVariables API from Amazon Web Services — 1 operation(s) for environmentvariables.
-  name: Amazon Web Services environmentVariables API
-  slug: amazon-web-services-environmentvariables-api
 - description: The Ephemerides API from Amazon Web Services — 1 operation(s) for ephemerides.
   name: Amazon Web Services Ephemerides API
   slug: amazon-web-services-ephemerides-api
@@ -2410,9 +1705,6 @@ apis:
 - description: The Experiments API from Amazon Web Services — 5 operation(s) for experiments.
   name: Amazon Web Services Experiments API
   slug: amazon-web-services-experiments-api
-- description: The experimentTemplates API from Amazon Web Services — 4 operation(s) for experimenttemplates.
-  name: Amazon Web Services experimentTemplates API
-  slug: amazon-web-services-experimenttemplates-api
 - description: The Export API from Amazon Web Services — 3 operation(s) for export.
   name: Amazon Web Services Export API
   slug: amazon-web-services-export-api
@@ -2491,9 +1783,6 @@ apis:
 - description: The Flows API from Amazon Web Services — 15 operation(s) for flows.
   name: Amazon Web Services Flows API
   slug: amazon-web-services-flows-api
-- description: The FlushCache API from Amazon Web Services — 1 operation(s) for flushcache.
-  name: Amazon Web Services FlushCache API
-  slug: amazon-web-services-flushcache-api
 - description: The Folders API from Amazon Web Services — 4 operation(s) for folders.
   name: Amazon Web Services Folders API
   slug: amazon-web-services-folders-api
@@ -2626,9 +1915,6 @@ apis:
 - description: The getClip API from Amazon Web Services — 1 operation(s) for getclip.
   name: Amazon Web Services getClip API
   slug: amazon-web-services-getclip-api
-- description: The GetComponent API from Amazon Web Services — 1 operation(s) for getcomponent.
-  name: Amazon Web Services GetComponent API
-  slug: amazon-web-services-getcomponent-api
 - description: The GetComponentPolicy API from Amazon Web Services — 1 operation(s) for getcomponentpolicy.
   name: Amazon Web Services GetComponentPolicy API
   slug: amazon-web-services-getcomponentpolicy-api
@@ -2650,9 +1936,6 @@ apis:
 - description: The GetDataCellsFilter API from Amazon Web Services — 1 operation(s) for getdatacellsfilter.
   name: Amazon Web Services GetDataCellsFilter API
   slug: amazon-web-services-getdatacellsfilter-api
-- description: The getDataEndpoint API from Amazon Web Services — 1 operation(s) for getdataendpoint.
-  name: Amazon Web Services getDataEndpoint API
-  slug: amazon-web-services-getdataendpoint-api
 - description: The GetDataLakeSettings API from Amazon Web Services — 1 operation(s) for getdatalakesettings.
   name: Amazon Web Services GetDataLakeSettings API
   slug: amazon-web-services-getdatalakesettings-api
@@ -2674,9 +1957,6 @@ apis:
 - description: The GetDeviceRegistration API from Amazon Web Services — 1 operation(s) for getdeviceregistration.
   name: Amazon Web Services GetDeviceRegistration API
   slug: amazon-web-services-getdeviceregistration-api
-- description: The getDICOMImportJob API from Amazon Web Services — 1 operation(s) for getdicomimportjob.
-  name: Amazon Web Services getDICOMImportJob API
-  slug: amazon-web-services-getdicomimportjob-api
 - description: The GetDistributionConfiguration API from Amazon Web Services — 1 operation(s) for getdistributionconfiguration.
   name: Amazon Web Services GetDistributionConfiguration API
   slug: amazon-web-services-getdistributionconfiguration-api
@@ -2692,9 +1972,6 @@ apis:
 - description: The GetFeedback API from Amazon Web Services — 1 operation(s) for getfeedback.
   name: Amazon Web Services GetFeedback API
   slug: amazon-web-services-getfeedback-api
-- description: The GetGroup API from Amazon Web Services — 1 operation(s) for getgroup.
-  name: Amazon Web Services GetGroup API
-  slug: amazon-web-services-getgroup-api
 - description: The getHLSStreamingSessionURL API from Amazon Web Services — 1 operation(s) for gethlsstreamingsessionurl.
   name: Amazon Web Services getHLSStreamingSessionURL API
   slug: amazon-web-services-gethlsstreamingsessionurl-api
@@ -2713,9 +1990,6 @@ apis:
 - description: The GetImageRecipePolicy API from Amazon Web Services — 1 operation(s) for getimagerecipepolicy.
   name: Amazon Web Services GetImageRecipePolicy API
   slug: amazon-web-services-getimagerecipepolicy-api
-- description: The getImages API from Amazon Web Services — 1 operation(s) for getimages.
-  name: Amazon Web Services getImages API
-  slug: amazon-web-services-getimages-api
 - description: The getIncidentRecord API from Amazon Web Services — 1 operation(s) for getincidentrecord.
   name: Amazon Web Services getIncidentRecord API
   slug: amazon-web-services-getincidentrecord-api
@@ -2809,9 +2083,6 @@ apis:
 - description: The GetSamplingRules API from Amazon Web Services — 1 operation(s) for getsamplingrules.
   name: Amazon Web Services GetSamplingRules API
   slug: amazon-web-services-getsamplingrules-api
-- description: The getSignalingChannelEndpoint API from Amazon Web Services — 1 operation(s) for getsignalingchannelendpoint.
-  name: Amazon Web Services getSignalingChannelEndpoint API
-  slug: amazon-web-services-getsignalingchannelendpoint-api
 - description: The GetSink API from Amazon Web Services — 1 operation(s) for getsink.
   name: Amazon Web Services GetSink API
   slug: amazon-web-services-getsink-api
@@ -2878,9 +2149,6 @@ apis:
 - description: The GetWorkUnits API from Amazon Web Services — 1 operation(s) for getworkunits.
   name: Amazon Web Services GetWorkUnits API
   slug: amazon-web-services-getworkunits-api
-- description: The getWorldTemplateBody API from Amazon Web Services — 1 operation(s) for getworldtemplatebody.
-  name: Amazon Web Services getWorldTemplateBody API
-  slug: amazon-web-services-getworldtemplatebody-api
 - description: The Global Networks API from Amazon Web Services — 27 operation(s) for global networks.
   name: Amazon Web Services Global Networks API
   slug: amazon-web-services-global-networks-api
@@ -2935,9 +2203,6 @@ apis:
 - description: The Identitypools API from Amazon Web Services — 12 operation(s) for identitypools.
   name: Amazon Web Services Identitypools API
   slug: amazon-web-services-identitypools-api
-- description: The identityProviders API from Amazon Web Services — 2 operation(s) for identityproviders.
-  name: Amazon Web Services identityProviders API
-  slug: amazon-web-services-identityproviders-api
 - description: The Idmappingworkflows API from Amazon Web Services — 4 operation(s) for idmappingworkflows.
   name: Amazon Web Services Idmappingworkflows API
   slug: amazon-web-services-idmappingworkflows-api
@@ -2953,18 +2218,12 @@ apis:
 - description: The ImportComponent API from Amazon Web Services — 1 operation(s) for importcomponent.
   name: Amazon Web Services ImportComponent API
   slug: amazon-web-services-importcomponent-api
-- description: The importLens API from Amazon Web Services — 1 operation(s) for importlens.
-  name: Amazon Web Services importLens API
-  slug: amazon-web-services-importlens-api
 - description: The ImportPlaybackKeyPair API from Amazon Web Services — 1 operation(s) for importplaybackkeypair.
   name: Amazon Web Services ImportPlaybackKeyPair API
   slug: amazon-web-services-importplaybackkeypair-api
 - description: The Imports API from Amazon Web Services — 3 operation(s) for imports.
   name: Amazon Web Services Imports API
   slug: amazon-web-services-imports-api
-- description: The Importtasks API from Amazon Web Services — 2 operation(s) for importtasks.
-  name: Amazon Web Services Importtasks API
-  slug: amazon-web-services-importtasks-api
 - description: The ImportVmImage API from Amazon Web Services — 1 operation(s) for importvmimage.
   name: Amazon Web Services ImportVmImage API
   slug: amazon-web-services-importvmimage-api
@@ -3019,9 +2278,6 @@ apis:
 - description: The Invitations API from Amazon Web Services — 7 operation(s) for invitations.
   name: Amazon Web Services Invitations API
   slug: amazon-web-services-invitations-api
-- description: The ipAccessSettings API from Amazon Web Services — 2 operation(s) for ipaccesssettings.
-  name: Amazon Web Services ipAccessSettings API
-  slug: amazon-web-services-ipaccesssettings-api
 - description: The Items API from Amazon Web Services — 1 operation(s) for items.
   name: Amazon Web Services Items API
   slug: amazon-web-services-items-api
@@ -3034,9 +2290,6 @@ apis:
 - description: The Jobs API from Amazon Web Services — 20 operation(s) for jobs.
   name: Amazon Web Services Jobs API
   slug: amazon-web-services-jobs-api
-- description: The Jobtemplates API from Amazon Web Services — 2 operation(s) for jobtemplates.
-  name: Amazon Web Services Jobtemplates API
-  slug: amazon-web-services-jobtemplates-api
 - description: The joinStorageSession API from Amazon Web Services — 1 operation(s) for joinstoragesession.
   name: Amazon Web Services joinStorageSession API
   slug: amazon-web-services-joinstoragesession-api
@@ -3055,9 +2308,6 @@ apis:
 - description: The Keys API from Amazon Web Services — 3 operation(s) for keys.
   name: Amazon Web Services Keys API
   slug: amazon-web-services-keys-api
-- description: The Knowledgebases API from Amazon Web Services — 20 operation(s) for knowledgebases.
-  name: Amazon Web Services Knowledgebases API
-  slug: amazon-web-services-knowledgebases-api
 - description: The Kx API from Amazon Web Services — 21 operation(s) for kx.
   name: Amazon Web Services Kx API
   slug: amazon-web-services-kx-api
@@ -3247,12 +2497,6 @@ apis:
 - description: The ListAnomalyGroupTimeSeries API from Amazon Web Services — 1 operation(s) for listanomalygrouptimeseries.
   name: Amazon Web Services ListAnomalyGroupTimeSeries API
   slug: amazon-web-services-listanomalygrouptimeseries-api
-- description: The ListApplications API from Amazon Web Services — 1 operation(s) for listapplications.
-  name: Amazon Web Services ListApplications API
-  slug: amazon-web-services-listapplications-api
-- description: The Listapps API from Amazon Web Services — 1 operation(s) for listapps.
-  name: Amazon Web Services Listapps API
-  slug: amazon-web-services-listapps-api
 - description: The ListAttachedLinks API from Amazon Web Services — 1 operation(s) for listattachedlinks.
   name: Amazon Web Services ListAttachedLinks API
   slug: amazon-web-services-listattachedlinks-api
@@ -3265,15 +2509,9 @@ apis:
 - description: The ListComponentBuildVersions API from Amazon Web Services — 1 operation(s) for listcomponentbuildversions.
   name: Amazon Web Services ListComponentBuildVersions API
   slug: amazon-web-services-listcomponentbuildversions-api
-- description: The ListComponents API from Amazon Web Services — 1 operation(s) for listcomponents.
-  name: Amazon Web Services ListComponents API
-  slug: amazon-web-services-listcomponents-api
 - description: The ListCompositions API from Amazon Web Services — 1 operation(s) for listcompositions.
   name: Amazon Web Services ListCompositions API
   slug: amazon-web-services-listcompositions-api
-- description: The ListConnectors API from Amazon Web Services — 1 operation(s) for listconnectors.
-  name: Amazon Web Services ListConnectors API
-  slug: amazon-web-services-listconnectors-api
 - description: The ListContainerRecipes API from Amazon Web Services — 1 operation(s) for listcontainerrecipes.
   name: Amazon Web Services ListContainerRecipes API
   slug: amazon-web-services-listcontainerrecipes-api
@@ -3283,9 +2521,6 @@ apis:
 - description: The listDeploymentEvents API from Amazon Web Services — 1 operation(s) for listdeploymentevents.
   name: Amazon Web Services listDeploymentEvents API
   slug: amazon-web-services-listdeploymentevents-api
-- description: The listDeploymentJobs API from Amazon Web Services — 1 operation(s) for listdeploymentjobs.
-  name: Amazon Web Services listDeploymentJobs API
-  slug: amazon-web-services-listdeploymentjobs-api
 - description: The listDeployments API from Amazon Web Services — 1 operation(s) for listdeployments.
   name: Amazon Web Services listDeployments API
   slug: amazon-web-services-listdeployments-api
@@ -3295,9 +2530,6 @@ apis:
 - description: The listDevices API from Amazon Web Services — 1 operation(s) for listdevices.
   name: Amazon Web Services listDevices API
   slug: amazon-web-services-listdevices-api
-- description: The listDICOMImportJobs API from Amazon Web Services — 1 operation(s) for listdicomimportjobs.
-  name: Amazon Web Services listDICOMImportJobs API
-  slug: amazon-web-services-listdicomimportjobs-api
 - description: The ListDistributionConfigurations API from Amazon Web Services — 1 operation(s) for listdistributionconfigurations.
   name: Amazon Web Services ListDistributionConfigurations API
   slug: amazon-web-services-listdistributionconfigurations-api
@@ -3325,9 +2557,6 @@ apis:
 - description: The ListExtensibleSourceServers API from Amazon Web Services — 1 operation(s) for listextensiblesourceservers.
   name: Amazon Web Services ListExtensibleSourceServers API
   slug: amazon-web-services-listextensiblesourceservers-api
-- description: The listFleets API from Amazon Web Services — 1 operation(s) for listfleets.
-  name: Amazon Web Services listFleets API
-  slug: amazon-web-services-listfleets-api
 - description: The listFragments API from Amazon Web Services — 1 operation(s) for listfragments.
   name: Amazon Web Services listFragments API
   slug: amazon-web-services-listfragments-api
@@ -3346,9 +2575,6 @@ apis:
 - description: The ListImageRecipes API from Amazon Web Services — 1 operation(s) for listimagerecipes.
   name: Amazon Web Services ListImageRecipes API
   slug: amazon-web-services-listimagerecipes-api
-- description: The ListImages API from Amazon Web Services — 1 operation(s) for listimages.
-  name: Amazon Web Services ListImages API
-  slug: amazon-web-services-listimages-api
 - description: The ListImageScanFindingAggregations API from Amazon Web Services — 1 operation(s) for listimagescanfindingaggregations.
   name: Amazon Web Services ListImageScanFindingAggregations API
   slug: amazon-web-services-listimagescanfindingaggregations-api
@@ -3364,9 +2590,6 @@ apis:
 - description: The listIncidentFindings API from Amazon Web Services — 1 operation(s) for listincidentfindings.
   name: Amazon Web Services listIncidentFindings API
   slug: amazon-web-services-listincidentfindings-api
-- description: The listIncidentRecords API from Amazon Web Services — 1 operation(s) for listincidentrecords.
-  name: Amazon Web Services listIncidentRecords API
-  slug: amazon-web-services-listincidentrecords-api
 - description: The ListIndexes API from Amazon Web Services — 1 operation(s) for listindexes.
   name: Amazon Web Services ListIndexes API
   slug: amazon-web-services-listindexes-api
@@ -3445,15 +2668,9 @@ apis:
 - description: The listRegions API from Amazon Web Services — 1 operation(s) for listregions.
   name: Amazon Web Services listRegions API
   slug: amazon-web-services-listregions-api
-- description: The listRelatedItems API from Amazon Web Services — 1 operation(s) for listrelateditems.
-  name: Amazon Web Services listRelatedItems API
-  slug: amazon-web-services-listrelateditems-api
 - description: The Listreplacepermissionassociationswork API from Amazon Web Services — 1 operation(s) for listreplacepermissionassociationswork.
   name: Amazon Web Services Listreplacepermissionassociationswork API
   slug: amazon-web-services-listreplacepermissionassociationswork-api
-- description: The listReplicationSets API from Amazon Web Services — 1 operation(s) for listreplicationsets.
-  name: Amazon Web Services listReplicationSets API
-  slug: amazon-web-services-listreplicationsets-api
 - description: The ListResourcePolicies API from Amazon Web Services — 1 operation(s) for listresourcepolicies.
   name: Amazon Web Services ListResourcePolicies API
   slug: amazon-web-services-listresourcepolicies-api
@@ -3466,33 +2683,12 @@ apis:
 - description: The Listresourcetypes API from Amazon Web Services — 1 operation(s) for listresourcetypes.
   name: Amazon Web Services Listresourcetypes API
   slug: amazon-web-services-listresourcetypes-api
-- description: The listResponsePlans API from Amazon Web Services — 1 operation(s) for listresponseplans.
-  name: Amazon Web Services listResponsePlans API
-  slug: amazon-web-services-listresponseplans-api
-- description: The listRobotApplications API from Amazon Web Services — 1 operation(s) for listrobotapplications.
-  name: Amazon Web Services listRobotApplications API
-  slug: amazon-web-services-listrobotapplications-api
-- description: The listRobots API from Amazon Web Services — 1 operation(s) for listrobots.
-  name: Amazon Web Services listRobots API
-  slug: amazon-web-services-listrobots-api
 - description: The ListRooms API from Amazon Web Services — 1 operation(s) for listrooms.
   name: Amazon Web Services ListRooms API
   slug: amazon-web-services-listrooms-api
 - description: The Listschedulingpolicies API from Amazon Web Services — 1 operation(s) for listschedulingpolicies.
   name: Amazon Web Services Listschedulingpolicies API
   slug: amazon-web-services-listschedulingpolicies-api
-- description: The listSignalingChannels API from Amazon Web Services — 1 operation(s) for listsignalingchannels.
-  name: Amazon Web Services listSignalingChannels API
-  slug: amazon-web-services-listsignalingchannels-api
-- description: The listSimulationApplications API from Amazon Web Services — 1 operation(s) for listsimulationapplications.
-  name: Amazon Web Services listSimulationApplications API
-  slug: amazon-web-services-listsimulationapplications-api
-- description: The listSimulationJobBatches API from Amazon Web Services — 1 operation(s) for listsimulationjobbatches.
-  name: Amazon Web Services listSimulationJobBatches API
-  slug: amazon-web-services-listsimulationjobbatches-api
-- description: The listSimulationJobs API from Amazon Web Services — 1 operation(s) for listsimulationjobs.
-  name: Amazon Web Services listSimulationJobs API
-  slug: amazon-web-services-listsimulationjobs-api
 - description: The Listsimulations API from Amazon Web Services — 1 operation(s) for listsimulations.
   name: Amazon Web Services Listsimulations API
   slug: amazon-web-services-listsimulations-api
@@ -3532,27 +2728,9 @@ apis:
 - description: The ListTableStorageOptimizers API from Amazon Web Services — 1 operation(s) for listtablestorageoptimizers.
   name: Amazon Web Services ListTableStorageOptimizers API
   slug: amazon-web-services-listtablestorageoptimizers-api
-- description: The listTagsForResource API from Amazon Web Services — 2 operation(s) for listtagsforresource.
-  name: Amazon Web Services listTagsForResource API
-  slug: amazon-web-services-listtagsforresource-api
-- description: The listTagsForStream API from Amazon Web Services — 1 operation(s) for listtagsforstream.
-  name: Amazon Web Services listTagsForStream API
-  slug: amazon-web-services-listtagsforstream-api
-- description: The listTargets API from Amazon Web Services — 1 operation(s) for listtargets.
-  name: Amazon Web Services listTargets API
-  slug: amazon-web-services-listtargets-api
 - description: The ListTemplateActions API from Amazon Web Services — 1 operation(s) for listtemplateactions.
   name: Amazon Web Services ListTemplateActions API
   slug: amazon-web-services-listtemplateactions-api
-- description: The listTimelineEvents API from Amazon Web Services — 1 operation(s) for listtimelineevents.
-  name: Amazon Web Services listTimelineEvents API
-  slug: amazon-web-services-listtimelineevents-api
-- description: The ListTransactions API from Amazon Web Services — 1 operation(s) for listtransactions.
-  name: Amazon Web Services ListTransactions API
-  slug: amazon-web-services-listtransactions-api
-- description: The ListViews API from Amazon Web Services — 1 operation(s) for listviews.
-  name: Amazon Web Services ListViews API
-  slug: amazon-web-services-listviews-api
 - description: The ListWaitingWorkflowSteps API from Amazon Web Services — 1 operation(s) for listwaitingworkflowsteps.
   name: Amazon Web Services ListWaitingWorkflowSteps API
   slug: amazon-web-services-listwaitingworkflowsteps-api
@@ -3589,18 +2767,6 @@ apis:
 - description: The listWorkloads API from Amazon Web Services — 1 operation(s) for listworkloads.
   name: Amazon Web Services listWorkloads API
   slug: amazon-web-services-listworkloads-api
-- description: The listWorldExportJobs API from Amazon Web Services — 1 operation(s) for listworldexportjobs.
-  name: Amazon Web Services listWorldExportJobs API
-  slug: amazon-web-services-listworldexportjobs-api
-- description: The listWorldGenerationJobs API from Amazon Web Services — 1 operation(s) for listworldgenerationjobs.
-  name: Amazon Web Services listWorldGenerationJobs API
-  slug: amazon-web-services-listworldgenerationjobs-api
-- description: The listWorlds API from Amazon Web Services — 1 operation(s) for listworlds.
-  name: Amazon Web Services listWorlds API
-  slug: amazon-web-services-listworlds-api
-- description: The listWorldTemplates API from Amazon Web Services — 1 operation(s) for listworldtemplates.
-  name: Amazon Web Services listWorldTemplates API
-  slug: amazon-web-services-listworldtemplates-api
 - description: The Loader API from Amazon Web Services — 2 operation(s) for loader.
   name: Amazon Web Services Loader API
   slug: amazon-web-services-loader-api
@@ -3610,9 +2776,6 @@ apis:
 - description: The Logging API from Amazon Web Services — 2 operation(s) for logging.
   name: Amazon Web Services Logging API
   slug: amazon-web-services-logging-api
-- description: The loggingOptions API from Amazon Web Services — 1 operation(s) for loggingoptions.
-  name: Amazon Web Services loggingOptions API
-  slug: amazon-web-services-loggingoptions-api
 - description: The Logically Air Gapped Backup Vaults API from Amazon Web Services — 1 operation(s) for logically air gapped backup vaults.
   name: Amazon Web Services Logically Air Gapped Backup Vaults API
   slug: amazon-web-services-logically-air-gapped-backup-vaults-api
@@ -3751,9 +2914,6 @@ apis:
 - description: The Models API from Amazon Web Services — 3 operation(s) for models.
   name: Amazon Web Services Models API
   slug: amazon-web-services-models-api
-- description: The monitoredResources API from Amazon Web Services — 1 operation(s) for monitoredresources.
-  name: Amazon Web Services monitoredResources API
-  slug: amazon-web-services-monitoredresources-api
 - description: The Monitors API from Amazon Web Services — 12 operation(s) for monitors.
   name: Amazon Web Services Monitors API
   slug: amazon-web-services-monitors-api
@@ -3778,9 +2938,6 @@ apis:
 - description: The Networks API from Amazon Web Services — 12 operation(s) for networks.
   name: Amazon Web Services Networks API
   slug: amazon-web-services-networks-api
-- description: The networkSettings API from Amazon Web Services — 2 operation(s) for networksettings.
-  name: Amazon Web Services networkSettings API
-  slug: amazon-web-services-networksettings-api
 - description: The Nodes API from Amazon Web Services — 2 operation(s) for nodes.
   name: Amazon Web Services Nodes API
   slug: amazon-web-services-nodes-api
@@ -3820,9 +2977,6 @@ apis:
 - description: The Offerings API from Amazon Web Services — 2 operation(s) for offerings.
   name: Amazon Web Services Offerings API
   slug: amazon-web-services-offerings-api
-- description: The Opencypher API from Amazon Web Services — 4 operation(s) for opencypher.
-  name: Amazon Web Services Opencypher API
-  slug: amazon-web-services-opencypher-api
 - description: The ?Operation=CancelJob API from Amazon Web Services — 1 operation(s) for ?operation=canceljob.
   name: Amazon Web Services ?Operation=CancelJob API
   slug: amazon-web-services-operation-canceljob-api
@@ -3853,9 +3007,6 @@ apis:
 - description: The Organization Recommendations API from Amazon Web Services — 5 operation(s) for organization recommendations.
   name: Amazon Web Services Organization Recommendations API
   slug: amazon-web-services-organization-recommendations-api
-- description: The Organizationconfiguration API from Amazon Web Services — 2 operation(s) for organizationconfiguration.
-  name: Amazon Web Services Organizationconfiguration API
-  slug: amazon-web-services-organizationconfiguration-api
 - description: The Organizations API from Amazon Web Services — 3 operation(s) for organizations.
   name: Amazon Web Services Organizations API
   slug: amazon-web-services-organizations-api
@@ -3865,9 +3016,6 @@ apis:
 - description: The Origin Endpoints API from Amazon Web Services — 2 operation(s) for origin endpoints.
   name: Amazon Web Services Origin Endpoints API
   slug: amazon-web-services-origin-endpoints-api
-- description: The otaUpdates API from Amazon Web Services — 2 operation(s) for otaupdates.
-  name: Amazon Web Services otaUpdates API
-  slug: amazon-web-services-otaupdates-api
 - description: The Outposts API from Amazon Web Services — 4 operation(s) for outposts.
   name: Amazon Web Services Outposts API
   slug: amazon-web-services-outposts-api
@@ -3946,12 +3094,6 @@ apis:
 - description: The Places API from Amazon Web Services — 7 operation(s) for places.
   name: Amazon Web Services Places API
   slug: amazon-web-services-places-api
-- description: The playbackConfiguration API from Amazon Web Services — 2 operation(s) for playbackconfiguration.
-  name: Amazon Web Services playbackConfiguration API
-  slug: amazon-web-services-playbackconfiguration-api
-- description: The playbackConfigurations API from Amazon Web Services — 1 operation(s) for playbackconfigurations.
-  name: Amazon Web Services playbackConfigurations API
-  slug: amazon-web-services-playbackconfigurations-api
 - description: The Plugins API from Amazon Web Services — 1 operation(s) for plugins.
   name: Amazon Web Services Plugins API
   slug: amazon-web-services-plugins-api
@@ -3967,9 +3109,6 @@ apis:
 - description: The Policy Targets API from Amazon Web Services — 1 operation(s) for policy targets.
   name: Amazon Web Services Policy Targets API
   slug: amazon-web-services-policy-targets-api
-- description: The portalIdp API from Amazon Web Services — 1 operation(s) for portalidp.
-  name: Amazon Web Services portalIdp API
-  slug: amazon-web-services-portalidp-api
 - description: The Portals API from Amazon Web Services — 10 operation(s) for portals.
   name: Amazon Web Services Portals API
   slug: amazon-web-services-portals-api
@@ -3985,9 +3124,6 @@ apis:
 - description: The Predefined Attributes API from Amazon Web Services — 2 operation(s) for predefined attributes.
   name: Amazon Web Services Predefined Attributes API
   slug: amazon-web-services-predefined-attributes-api
-- description: The prefetchSchedule API from Amazon Web Services — 2 operation(s) for prefetchschedule.
-  name: Amazon Web Services prefetchSchedule API
-  slug: amazon-web-services-prefetchschedule-api
 - description: The Pricingplan API from Amazon Web Services — 1 operation(s) for pricingplan.
   name: Amazon Web Services Pricingplan API
   slug: amazon-web-services-pricingplan-api
@@ -4003,30 +3139,12 @@ apis:
 - description: The Products API from Amazon Web Services — 1 operation(s) for products.
   name: Amazon Web Services Products API
   slug: amazon-web-services-products-api
-- description: The productSubscriptions API from Amazon Web Services — 2 operation(s) for productsubscriptions.
-  name: Amazon Web Services productSubscriptions API
-  slug: amazon-web-services-productsubscriptions-api
 - description: The Profile API from Amazon Web Services — 3 operation(s) for profile.
   name: Amazon Web Services Profile API
   slug: amazon-web-services-profile-api
-- description: The profileJobs API from Amazon Web Services — 2 operation(s) for profilejobs.
-  name: Amazon Web Services profileJobs API
-  slug: amazon-web-services-profilejobs-api
-- description: The profileNotifications API from Amazon Web Services — 1 operation(s) for profilenotifications.
-  name: Amazon Web Services profileNotifications API
-  slug: amazon-web-services-profilenotifications-api
 - description: The Profiles API from Amazon Web Services — 4 operation(s) for profiles.
   name: Amazon Web Services Profiles API
   slug: amazon-web-services-profiles-api
-- description: The profileSummaries API from Amazon Web Services — 1 operation(s) for profilesummaries.
-  name: Amazon Web Services profileSummaries API
-  slug: amazon-web-services-profilesummaries-api
-- description: The profileTemplate API from Amazon Web Services — 1 operation(s) for profiletemplate.
-  name: Amazon Web Services profileTemplate API
-  slug: amazon-web-services-profiletemplate-api
-- description: The profilingGroups API from Amazon Web Services — 11 operation(s) for profilinggroups.
-  name: Amazon Web Services profilingGroups API
-  slug: amazon-web-services-profilinggroups-api
 - description: The Project API from Amazon Web Services — 1 operation(s) for project.
   name: Amazon Web Services Project API
   slug: amazon-web-services-project-api
@@ -4168,9 +3286,6 @@ apis:
 - description: The Realtime Contact Analysis API from Amazon Web Services — 1 operation(s) for realtime contact analysis.
   name: Amazon Web Services Realtime Contact Analysis API
   slug: amazon-web-services-realtime-contact-analysis-api
-- description: The recipeJobs API from Amazon Web Services — 2 operation(s) for recipejobs.
-  name: Amazon Web Services recipeJobs API
-  slug: amazon-web-services-recipejobs-api
 - description: The Recipes API from Amazon Web Services — 5 operation(s) for recipes.
   name: Amazon Web Services Recipes API
   slug: amazon-web-services-recipes-api
@@ -4207,9 +3322,6 @@ apis:
 - description: The RegisterResource API from Amazon Web Services — 1 operation(s) for registerresource.
   name: Amazon Web Services RegisterResource API
   slug: amazon-web-services-registerresource-api
-- description: The registerRobot API from Amazon Web Services — 1 operation(s) for registerrobot.
-  name: Amazon Web Services registerRobot API
-  slug: amazon-web-services-registerrobot-api
 - description: The Registrationcode API from Amazon Web Services — 1 operation(s) for registrationcode.
   name: Amazon Web Services Registrationcode API
   slug: amazon-web-services-registrationcode-api
@@ -4285,24 +3397,12 @@ apis:
 - description: The Resource Profiles API from Amazon Web Services — 3 operation(s) for resource profiles.
   name: Amazon Web Services Resource Profiles API
   slug: amazon-web-services-resource-profiles-api
-- description: The Resourcepolicy API from Amazon Web Services — 4 operation(s) for resourcepolicy.
-  name: Amazon Web Services Resourcepolicy API
-  slug: amazon-web-services-resourcepolicy-api
 - description: The Resources API from Amazon Web Services — 12 operation(s) for resources.
   name: Amazon Web Services Resources API
   slug: amazon-web-services-resources-api
-- description: The Resourcesets API from Amazon Web Services — 2 operation(s) for resourcesets.
-  name: Amazon Web Services Resourcesets API
-  slug: amazon-web-services-resourcesets-api
-- description: The Restapis API from Amazon Web Services — 30 operation(s) for restapis.
-  name: Amazon Web Services Restapis API
-  slug: amazon-web-services-restapis-api
 - description: The Restapis?mode=import API from Amazon Web Services — 1 operation(s) for restapis?mode=import.
   name: Amazon Web Services Restapis?mode=import API
   slug: amazon-web-services-restapis-mode-import-api
-- description: The restartSimulationJob API from Amazon Web Services — 1 operation(s) for restartsimulationjob.
-  name: Amazon Web Services restartSimulationJob API
-  slug: amazon-web-services-restartsimulationjob-api
 - description: The Restore Jobs API from Amazon Web Services — 9 operation(s) for restore jobs.
   name: Amazon Web Services Restore Jobs API
   slug: amazon-web-services-restore-jobs-api
@@ -4378,15 +3478,9 @@ apis:
 - description: The Run API from Amazon Web Services — 5 operation(s) for run.
   name: Amazon Web Services Run API
   slug: amazon-web-services-run-api
-- description: The runGroup API from Amazon Web Services — 2 operation(s) for rungroup.
-  name: Amazon Web Services runGroup API
-  slug: amazon-web-services-rungroup-api
 - description: The Runtime Versions API from Amazon Web Services — 1 operation(s) for runtime versions.
   name: Amazon Web Services Runtime Versions API
   slug: amazon-web-services-runtime-versions-api
-- description: The s3Buckets API from Amazon Web Services — 1 operation(s) for s3buckets.
-  name: Amazon Web Services s3Buckets API
-  slug: amazon-web-services-s3buckets-api
 - description: The S3Outposts API from Amazon Web Services — 5 operation(s) for s3outposts.
   name: Amazon Web Services S3Outposts API
   slug: amazon-web-services-s3outposts-api
@@ -4531,9 +3625,6 @@ apis:
 - description: The Send Alexa Offer to Master API from Amazon Web Services — 1 operation(s) for send alexa offer to master.
   name: Amazon Web Services Send Alexa Offer to Master API
   slug: amazon-web-services-send-alexa-offer-to-master-api
-- description: The SendEvent API from Amazon Web Services — 1 operation(s) for sendevent.
-  name: Amazon Web Services SendEvent API
-  slug: amazon-web-services-sendevent-api
 - description: The SendHeartbeat API from Amazon Web Services — 1 operation(s) for sendheartbeat.
   name: Amazon Web Services SendHeartbeat API
   slug: amazon-web-services-sendheartbeat-api
@@ -4555,12 +3646,6 @@ apis:
 - description: The Service Profiles API from Amazon Web Services — 2 operation(s) for service profiles.
   name: Amazon Web Services Service Profiles API
   slug: amazon-web-services-service-profiles-api
-- description: The ServiceGraph API from Amazon Web Services — 1 operation(s) for servicegraph.
-  name: Amazon Web Services ServiceGraph API
-  slug: amazon-web-services-servicegraph-api
-- description: The Servicenetworks API from Amazon Web Services — 2 operation(s) for servicenetworks.
-  name: Amazon Web Services Servicenetworks API
-  slug: amazon-web-services-servicenetworks-api
 - description: The Servicenetworkserviceassociations API from Amazon Web Services — 2 operation(s) for servicenetworkserviceassociations.
   name: Amazon Web Services Servicenetworkserviceassociations API
   slug: amazon-web-services-servicenetworkserviceassociations-api
@@ -4568,7 +3653,7 @@ apis:
   name: Amazon Web Services Servicenetworkvpcassociations API
   slug: amazon-web-services-servicenetworkvpcassociations-api
 - description: The Services API from Amazon Web Services — 6 operation(s) for services.
-  name: Amazon Web Services Services API
+  name: Amazon Web Services API
   slug: amazon-web-services-services-api
 - description: The Session API from Amazon Web Services — 1 operation(s) for session.
   name: Amazon Web Services Session API
@@ -4582,9 +3667,6 @@ apis:
 - description: The Share API from Amazon Web Services — 2 operation(s) for share.
   name: Amazon Web Services Share API
   slug: amazon-web-services-share-api
-- description: The shareInvitations API from Amazon Web Services — 2 operation(s) for shareinvitations.
-  name: Amazon Web Services shareInvitations API
-  slug: amazon-web-services-shareinvitations-api
 - description: The Shares API from Amazon Web Services — 1 operation(s) for shares.
   name: Amazon Web Services Shares API
   slug: amazon-web-services-shares-api
@@ -4636,12 +3718,6 @@ apis:
 - description: The sourceApis API from Amazon Web Services — 2 operation(s) for sourceapis.
   name: Amazon Web Services sourceApis API
   slug: amazon-web-services-sourceapis-api
-- description: The sourceLocation API from Amazon Web Services — 5 operation(s) for sourcelocation.
-  name: Amazon Web Services sourceLocation API
-  slug: amazon-web-services-sourcelocation-api
-- description: The sourceLocations API from Amazon Web Services — 1 operation(s) for sourcelocations.
-  name: Amazon Web Services sourceLocations API
-  slug: amazon-web-services-sourcelocations-api
 - description: The Spaces API from Amazon Web Services — 27 operation(s) for spaces.
   name: Amazon Web Services Spaces API
   slug: amazon-web-services-spaces-api
@@ -4690,12 +3766,6 @@ apis:
 - description: The StartCutover API from Amazon Web Services — 1 operation(s) for startcutover.
   name: Amazon Web Services StartCutover API
   slug: amazon-web-services-startcutover-api
-- description: The startDICOMImportJob API from Amazon Web Services — 1 operation(s) for startdicomimportjob.
-  name: Amazon Web Services startDICOMImportJob API
-  slug: amazon-web-services-startdicomimportjob-api
-- description: The startEdgeConfigurationUpdate API from Amazon Web Services — 1 operation(s) for startedgeconfigurationupdate.
-  name: Amazon Web Services startEdgeConfigurationUpdate API
-  slug: amazon-web-services-startedgeconfigurationupdate-api
 - description: The StartExport API from Amazon Web Services — 1 operation(s) for startexport.
   name: Amazon Web Services StartExport API
   slug: amazon-web-services-startexport-api
@@ -4708,9 +3778,6 @@ apis:
 - description: The StartImport API from Amazon Web Services — 1 operation(s) for startimport.
   name: Amazon Web Services StartImport API
   slug: amazon-web-services-startimport-api
-- description: The startIncident API from Amazon Web Services — 1 operation(s) for startincident.
-  name: Amazon Web Services startIncident API
-  slug: amazon-web-services-startincident-api
 - description: The StartQueryPlanning API from Amazon Web Services — 1 operation(s) for startqueryplanning.
   name: Amazon Web Services StartQueryPlanning API
   slug: amazon-web-services-startqueryplanning-api
@@ -4726,9 +3793,6 @@ apis:
 - description: The Startsimulation API from Amazon Web Services — 1 operation(s) for startsimulation.
   name: Amazon Web Services Startsimulation API
   slug: amazon-web-services-startsimulation-api
-- description: The startSimulationJobBatch API from Amazon Web Services — 1 operation(s) for startsimulationjobbatch.
-  name: Amazon Web Services startSimulationJobBatch API
-  slug: amazon-web-services-startsimulationjobbatch-api
 - description: The StartSourceNetworkRecovery API from Amazon Web Services — 1 operation(s) for startsourcenetworkrecovery.
   name: Amazon Web Services StartSourceNetworkRecovery API
   slug: amazon-web-services-startsourcenetworkrecovery-api
@@ -4777,9 +3841,6 @@ apis:
 - description: The StopStream API from Amazon Web Services — 1 operation(s) for stopstream.
   name: Amazon Web Services StopStream API
   slug: amazon-web-services-stopstream-api
-- description: The Storagelens API from Amazon Web Services — 3 operation(s) for storagelens.
-  name: Amazon Web Services Storagelens API
-  slug: amazon-web-services-storagelens-api
 - description: The Storagelensgroup API from Amazon Web Services — 2 operation(s) for storagelensgroup.
   name: Amazon Web Services Storagelensgroup API
   slug: amazon-web-services-storagelensgroup-api
@@ -4825,21 +3886,12 @@ apis:
 - description: The Sync Jobs API from Amazon Web Services — 1 operation(s) for sync jobs.
   name: Amazon Web Services Sync Jobs API
   slug: amazon-web-services-sync-jobs-api
-- description: The syncDeploymentJob API from Amazon Web Services — 1 operation(s) for syncdeploymentjob.
-  name: Amazon Web Services syncDeploymentJob API
-  slug: amazon-web-services-syncdeploymentjob-api
-- description: The synthesisTasks API from Amazon Web Services — 2 operation(s) for synthesistasks.
-  name: Amazon Web Services synthesisTasks API
-  slug: amazon-web-services-synthesistasks-api
 - description: The System API from Amazon Web Services — 1 operation(s) for system.
   name: Amazon Web Services System API
   slug: amazon-web-services-system-api
 - description: The Tag API from Amazon Web Services — 2 operation(s) for tag.
   name: Amazon Web Services Tag API
   slug: amazon-web-services-tag-api
-- description: The tagResource API from Amazon Web Services — 3 operation(s) for tagresource.
-  name: Amazon Web Services tagResource API
-  slug: amazon-web-services-tagresource-api
 - description: The Tags API from Amazon Web Services — 17 operation(s) for tags.
   name: Amazon Web Services Tags API
   slug: amazon-web-services-tags-api
@@ -4852,18 +3904,9 @@ apis:
 - description: The Tags?operation=untag Resource API from Amazon Web Services — 1 operation(s) for tags?operation=untag resource.
   name: Amazon Web Services Tags?operation=untag Resource API
   slug: amazon-web-services-tags-operation-untag-resource-api
-- description: The tagStream API from Amazon Web Services — 1 operation(s) for tagstream.
-  name: Amazon Web Services tagStream API
-  slug: amazon-web-services-tagstream-api
 - description: The Target Policies API from Amazon Web Services — 1 operation(s) for target policies.
   name: Amazon Web Services Target Policies API
   slug: amazon-web-services-target-policies-api
-- description: The Targetgroups API from Amazon Web Services — 5 operation(s) for targetgroups.
-  name: Amazon Web Services Targetgroups API
-  slug: amazon-web-services-targetgroups-api
-- description: The targetResourceTypes API from Amazon Web Services — 2 operation(s) for targetresourcetypes.
-  name: Amazon Web Services targetResourceTypes API
-  slug: amazon-web-services-targetresourcetypes-api
 - description: The Task API from Amazon Web Services — 4 operation(s) for task.
   name: Amazon Web Services Task API
   slug: amazon-web-services-task-api
@@ -4900,18 +3943,12 @@ apis:
 - description: The Test Segment Pattern API from Amazon Web Services — 1 operation(s) for test segment pattern.
   name: Amazon Web Services Test Segment Pattern API
   slug: amazon-web-services-test-segment-pattern-api
-- description: The Testexecutions API from Amazon Web Services — 4 operation(s) for testexecutions.
-  name: Amazon Web Services Testexecutions API
-  slug: amazon-web-services-testexecutions-api
 - description: The Testsetdiscrepancy API from Amazon Web Services — 1 operation(s) for testsetdiscrepancy.
   name: Amazon Web Services Testsetdiscrepancy API
   slug: amazon-web-services-testsetdiscrepancy-api
 - description: The Testsetgenerations API from Amazon Web Services — 2 operation(s) for testsetgenerations.
   name: Amazon Web Services Testsetgenerations API
   slug: amazon-web-services-testsetgenerations-api
-- description: The Testsets API from Amazon Web Services — 5 operation(s) for testsets.
-  name: Amazon Web Services Testsets API
-  slug: amazon-web-services-testsets-api
 - description: The Thing Groups API from Amazon Web Services — 6 operation(s) for thing groups.
   name: Amazon Web Services Thing Groups API
   slug: amazon-web-services-thing-groups-api
@@ -4927,9 +3964,6 @@ apis:
 - description: The Tile API from Amazon Web Services — 1 operation(s) for tile.
   name: Amazon Web Services Tile API
   slug: amazon-web-services-tile-api
-- description: The Timeseries API from Amazon Web Services — 5 operation(s) for timeseries.
-  name: Amazon Web Services Timeseries API
-  slug: amazon-web-services-timeseries-api
 - description: The TimeSeriesServiceStatistics API from Amazon Web Services — 1 operation(s) for timeseriesservicestatistics.
   name: Amazon Web Services TimeSeriesServiceStatistics API
   slug: amazon-web-services-timeseriesservicestatistics-api
@@ -4987,9 +4021,6 @@ apis:
 - description: The Trustanchors API from Amazon Web Services — 1 operation(s) for trustanchors.
   name: Amazon Web Services Trustanchors API
   slug: amazon-web-services-trustanchors-api
-- description: The trustStores API from Amazon Web Services — 4 operation(s) for truststores.
-  name: Amazon Web Services trustStores API
-  slug: amazon-web-services-truststores-api
 - description: The Types API from Amazon Web Services — 4 operation(s) for types.
   name: Amazon Web Services Types API
   slug: amazon-web-services-types-api
@@ -5011,12 +4042,6 @@ apis:
 - description: The Untag API from Amazon Web Services — 4 operation(s) for untag.
   name: Amazon Web Services Untag API
   slug: amazon-web-services-untag-api
-- description: The untagResource API from Amazon Web Services — 4 operation(s) for untagresource.
-  name: Amazon Web Services untagResource API
-  slug: amazon-web-services-untagresource-api
-- description: The untagStream API from Amazon Web Services — 1 operation(s) for untagstream.
-  name: Amazon Web Services untagStream API
-  slug: amazon-web-services-untagstream-api
 - description: The Update Account Settings API from Amazon Web Services — 1 operation(s) for update account settings.
   name: Amazon Web Services Update Account Settings API
   slug: amazon-web-services-update-account-settings-api
@@ -5083,9 +4108,6 @@ apis:
 - description: The Update Server Config API from Amazon Web Services — 1 operation(s) for update server config.
   name: Amazon Web Services Update Server Config API
   slug: amazon-web-services-update-server-config-api
-- description: The updateAccountConfiguration API from Amazon Web Services — 1 operation(s) for updateaccountconfiguration.
-  name: Amazon Web Services updateAccountConfiguration API
-  slug: amazon-web-services-updateaccountconfiguration-api
 - description: The UpdateAlert API from Amazon Web Services — 1 operation(s) for updatealert.
   name: Amazon Web Services UpdateAlert API
   slug: amazon-web-services-updatealert-api
@@ -5113,12 +4135,6 @@ apis:
 - description: The UpdateDataCellsFilter API from Amazon Web Services — 1 operation(s) for updatedatacellsfilter.
   name: Amazon Web Services UpdateDataCellsFilter API
   slug: amazon-web-services-updatedatacellsfilter-api
-- description: The updateDataRetention API from Amazon Web Services — 1 operation(s) for updatedataretention.
-  name: Amazon Web Services updateDataRetention API
-  slug: amazon-web-services-updatedataretention-api
-- description: The updateDeletionProtection API from Amazon Web Services — 1 operation(s) for updatedeletionprotection.
-  name: Amazon Web Services updateDeletionProtection API
-  slug: amazon-web-services-updatedeletionprotection-api
 - description: The updateDestination API from Amazon Web Services — 1 operation(s) for updatedestination.
   name: Amazon Web Services updateDestination API
   slug: amazon-web-services-updatedestination-api
@@ -5137,21 +4153,12 @@ apis:
 - description: The UpdateFleetMetadata API from Amazon Web Services — 1 operation(s) for updatefleetmetadata.
   name: Amazon Web Services UpdateFleetMetadata API
   slug: amazon-web-services-updatefleetmetadata-api
-- description: The UpdateGroup API from Amazon Web Services — 1 operation(s) for updategroup.
-  name: Amazon Web Services UpdateGroup API
-  slug: amazon-web-services-updategroup-api
 - description: The updateIdentityProviderConfiguration API from Amazon Web Services — 1 operation(s) for updateidentityproviderconfiguration.
   name: Amazon Web Services updateIdentityProviderConfiguration API
   slug: amazon-web-services-updateidentityproviderconfiguration-api
-- description: The updateImageGenerationConfiguration API from Amazon Web Services — 1 operation(s) for updateimagegenerationconfiguration.
-  name: Amazon Web Services updateImageGenerationConfiguration API
-  slug: amazon-web-services-updateimagegenerationconfiguration-api
 - description: The UpdateImagePipeline API from Amazon Web Services — 1 operation(s) for updateimagepipeline.
   name: Amazon Web Services UpdateImagePipeline API
   slug: amazon-web-services-updateimagepipeline-api
-- description: The updateIncidentRecord API from Amazon Web Services — 1 operation(s) for updateincidentrecord.
-  name: Amazon Web Services updateIncidentRecord API
-  slug: amazon-web-services-updateincidentrecord-api
 - description: The UpdateIndexType API from Amazon Web Services — 1 operation(s) for updateindextype.
   name: Amazon Web Services UpdateIndexType API
   slug: amazon-web-services-updateindextype-api
@@ -5182,45 +4189,27 @@ apis:
 - description: The UpdateLoggingConfiguration API from Amazon Web Services — 1 operation(s) for updateloggingconfiguration.
   name: Amazon Web Services UpdateLoggingConfiguration API
   slug: amazon-web-services-updateloggingconfiguration-api
-- description: The updateMediaStorageConfiguration API from Amazon Web Services — 1 operation(s) for updatemediastorageconfiguration.
-  name: Amazon Web Services updateMediaStorageConfiguration API
-  slug: amazon-web-services-updatemediastorageconfiguration-api
 - description: The UpdateMetricSet API from Amazon Web Services — 1 operation(s) for updatemetricset.
   name: Amazon Web Services UpdateMetricSet API
   slug: amazon-web-services-updatemetricset-api
-- description: The updateNotificationConfiguration API from Amazon Web Services — 1 operation(s) for updatenotificationconfiguration.
-  name: Amazon Web Services updateNotificationConfiguration API
-  slug: amazon-web-services-updatenotificationconfiguration-api
 - description: The updateNotificationRule API from Amazon Web Services — 1 operation(s) for updatenotificationrule.
   name: Amazon Web Services updateNotificationRule API
   slug: amazon-web-services-updatenotificationrule-api
 - description: The UpdatePlaybackRestrictionPolicy API from Amazon Web Services — 1 operation(s) for updateplaybackrestrictionpolicy.
   name: Amazon Web Services UpdatePlaybackRestrictionPolicy API
   slug: amazon-web-services-updateplaybackrestrictionpolicy-api
-- description: The updateRelatedItems API from Amazon Web Services — 1 operation(s) for updaterelateditems.
-  name: Amazon Web Services updateRelatedItems API
-  slug: amazon-web-services-updaterelateditems-api
 - description: The UpdateReplicationConfiguration API from Amazon Web Services — 1 operation(s) for updatereplicationconfiguration.
   name: Amazon Web Services UpdateReplicationConfiguration API
   slug: amazon-web-services-updatereplicationconfiguration-api
 - description: The UpdateReplicationConfigurationTemplate API from Amazon Web Services — 1 operation(s) for updatereplicationconfigurationtemplate.
   name: Amazon Web Services UpdateReplicationConfigurationTemplate API
   slug: amazon-web-services-updatereplicationconfigurationtemplate-api
-- description: The updateReplicationSet API from Amazon Web Services — 1 operation(s) for updatereplicationset.
-  name: Amazon Web Services updateReplicationSet API
-  slug: amazon-web-services-updatereplicationset-api
 - description: The UpdateResource API from Amazon Web Services — 1 operation(s) for updateresource.
   name: Amazon Web Services UpdateResource API
   slug: amazon-web-services-updateresource-api
 - description: The Updateresourceshare API from Amazon Web Services — 1 operation(s) for updateresourceshare.
   name: Amazon Web Services Updateresourceshare API
   slug: amazon-web-services-updateresourceshare-api
-- description: The updateResponsePlan API from Amazon Web Services — 1 operation(s) for updateresponseplan.
-  name: Amazon Web Services updateResponsePlan API
-  slug: amazon-web-services-updateresponseplan-api
-- description: The updateRobotApplication API from Amazon Web Services — 1 operation(s) for updaterobotapplication.
-  name: Amazon Web Services updateRobotApplication API
-  slug: amazon-web-services-updaterobotapplication-api
 - description: The UpdateRoom API from Amazon Web Services — 1 operation(s) for updateroom.
   name: Amazon Web Services UpdateRoom API
   slug: amazon-web-services-updateroom-api
@@ -5230,12 +4219,6 @@ apis:
 - description: The Updateschedulingpolicy API from Amazon Web Services — 1 operation(s) for updateschedulingpolicy.
   name: Amazon Web Services Updateschedulingpolicy API
   slug: amazon-web-services-updateschedulingpolicy-api
-- description: The updateSignalingChannel API from Amazon Web Services — 1 operation(s) for updatesignalingchannel.
-  name: Amazon Web Services updateSignalingChannel API
-  slug: amazon-web-services-updatesignalingchannel-api
-- description: The updateSimulationApplication API from Amazon Web Services — 1 operation(s) for updatesimulationapplication.
-  name: Amazon Web Services updateSimulationApplication API
-  slug: amazon-web-services-updatesimulationapplication-api
 - description: The updateSite API from Amazon Web Services — 1 operation(s) for updatesite.
   name: Amazon Web Services updateSite API
   slug: amazon-web-services-updatesite-api
@@ -5248,18 +4231,12 @@ apis:
 - description: The UpdateStage API from Amazon Web Services — 1 operation(s) for updatestage.
   name: Amazon Web Services UpdateStage API
   slug: amazon-web-services-updatestage-api
-- description: The updateStream API from Amazon Web Services — 1 operation(s) for updatestream.
-  name: Amazon Web Services updateStream API
-  slug: amazon-web-services-updatestream-api
 - description: The UpdateTableObjects API from Amazon Web Services — 1 operation(s) for updatetableobjects.
   name: Amazon Web Services UpdateTableObjects API
   slug: amazon-web-services-updatetableobjects-api
 - description: The UpdateTableStorageOptimizer API from Amazon Web Services — 1 operation(s) for updatetablestorageoptimizer.
   name: Amazon Web Services UpdateTableStorageOptimizer API
   slug: amazon-web-services-updatetablestorageoptimizer-api
-- description: The updateTimelineEvent API from Amazon Web Services — 1 operation(s) for updatetimelineevent.
-  name: Amazon Web Services updateTimelineEvent API
-  slug: amazon-web-services-updatetimelineevent-api
 - description: The UpdateView API from Amazon Web Services — 1 operation(s) for updateview.
   name: Amazon Web Services UpdateView API
   slug: amazon-web-services-updateview-api
@@ -5272,21 +4249,12 @@ apis:
 - description: The updateWorkerFleet API from Amazon Web Services — 1 operation(s) for updateworkerfleet.
   name: Amazon Web Services updateWorkerFleet API
   slug: amazon-web-services-updateworkerfleet-api
-- description: The updateWorldTemplate API from Amazon Web Services — 1 operation(s) for updateworldtemplate.
-  name: Amazon Web Services updateWorldTemplate API
-  slug: amazon-web-services-updateworldtemplate-api
 - description: The Upload Part API from Amazon Web Services — 1 operation(s) for upload part.
   name: Amazon Web Services Upload Part API
   slug: amazon-web-services-upload-part-api
-- description: The uploadUrl API from Amazon Web Services — 1 operation(s) for uploadurl.
-  name: Amazon Web Services uploadUrl API
-  slug: amazon-web-services-uploadurl-api
 - description: The Usage API from Amazon Web Services — 3 operation(s) for usage.
   name: Amazon Web Services Usage API
   slug: amazon-web-services-usage-api
-- description: The Usageplans API from Amazon Web Services — 6 operation(s) for usageplans.
-  name: Amazon Web Services Usageplans API
-  slug: amazon-web-services-usageplans-api
 - description: The User API from Amazon Web Services — 13 operation(s) for user.
   name: Amazon Web Services User API
   slug: amazon-web-services-user-api
@@ -5299,36 +4267,12 @@ apis:
 - description: The User Hierarchy Structure API from Amazon Web Services — 1 operation(s) for user hierarchy structure.
   name: Amazon Web Services User Hierarchy Structure API
   slug: amazon-web-services-user-hierarchy-structure-api
-- description: The Useraccess API from Amazon Web Services — 2 operation(s) for useraccess.
-  name: Amazon Web Services Useraccess API
-  slug: amazon-web-services-useraccess-api
-- description: The userAccessLoggingSettings API from Amazon Web Services — 2 operation(s) for useraccessloggingsettings.
-  name: Amazon Web Services userAccessLoggingSettings API
-  slug: amazon-web-services-useraccessloggingsettings-api
-- description: The userDetails API from Amazon Web Services — 1 operation(s) for userdetails.
-  name: Amazon Web Services userDetails API
-  slug: amazon-web-services-userdetails-api
 - description: The Users API from Amazon Web Services — 16 operation(s) for users.
   name: Amazon Web Services Users API
   slug: amazon-web-services-users-api
 - description: The Users Summary API from Amazon Web Services — 1 operation(s) for users summary.
   name: Amazon Web Services Users Summary API
   slug: amazon-web-services-users-summary-api
-- description: The userSettings API from Amazon Web Services — 2 operation(s) for usersettings.
-  name: Amazon Web Services userSettings API
-  slug: amazon-web-services-usersettings-api
-- description: The v2LoggingLevel API from Amazon Web Services — 1 operation(s) for v2logginglevel.
-  name: Amazon Web Services v2LoggingLevel API
-  slug: amazon-web-services-v2logginglevel-api
-- description: The v2LoggingOptions API from Amazon Web Services — 1 operation(s) for v2loggingoptions.
-  name: Amazon Web Services v2LoggingOptions API
-  slug: amazon-web-services-v2loggingoptions-api
-- description: The variantStore API from Amazon Web Services — 2 operation(s) for variantstore.
-  name: Amazon Web Services variantStore API
-  slug: amazon-web-services-variantstore-api
-- description: The variantStores API from Amazon Web Services — 1 operation(s) for variantstores.
-  name: Amazon Web Services variantStores API
-  slug: amazon-web-services-variantstores-api
 - description: The Vaults API from Amazon Web Services — 16 operation(s) for vaults.
   name: Amazon Web Services Vaults API
   slug: amazon-web-services-vaults-api
@@ -5347,9 +4291,6 @@ apis:
 - description: The Violations API from Amazon Web Services — 1 operation(s) for violations.
   name: Amazon Web Services Violations API
   slug: amazon-web-services-violations-api
-- description: The Virtualclusters API from Amazon Web Services — 7 operation(s) for virtualclusters.
-  name: Amazon Web Services Virtualclusters API
-  slug: amazon-web-services-virtualclusters-api
 - description: The Vocabulary API from Amazon Web Services — 2 operation(s) for vocabulary.
   name: Amazon Web Services Vocabulary API
   slug: amazon-web-services-vocabulary-api
@@ -5440,9 +4381,6 @@ apis:
 - description: The Workloads API from Amazon Web Services — 21 operation(s) for workloads.
   name: Amazon Web Services Workloads API
   slug: amazon-web-services-workloads-api
-- description: The workloadsSummaries API from Amazon Web Services — 1 operation(s) for workloadssummaries.
-  name: Amazon Web Services workloadsSummaries API
-  slug: amazon-web-services-workloadssummaries-api
 - description: The Workspaces API from Amazon Web Services — 29 operation(s) for workspaces.
   name: Amazon Web Services Workspaces API
   slug: amazon-web-services-workspaces-api
@@ -5455,7 +4393,571 @@ apis:
 - description: The Zonalshifts API from Amazon Web Services — 2 operation(s) for zonalshifts.
   name: Amazon Web Services Zonalshifts API
   slug: amazon-web-services-zonalshifts-api
-artifact_total: 3650
+- description: The Apis API from Amazon Web Services — 4 operation(s) for apis.
+  name: Amazon Web Services APIS API
+  slug: amazon-web-services-apis-api
+- description: The Cis API from Amazon Web Services — 9 operation(s) for cis.
+  name: Amazon Web Services Cis API
+  slug: amazon-web-services-cis-api
+- description: The Access Point API from Amazon Web Services — 4 operation(s) for access point.
+  name: Amazon Web Services Access Point API
+  slug: amazon-web-services-access-point-api
+- description: The Access Tokens API from Amazon Web Services — 2 operation(s) for access tokens.
+  name: Amazon Web Services Access Tokens API
+  slug: amazon-web-services-access-tokens-api
+- description: The Account Configuration API from Amazon Web Services — 1 operation(s) for account configuration.
+  name: Amazon Web Services Account Configuration API
+  slug: amazon-web-services-account-configuration-api
+- description: The Action Targets API from Amazon Web Services — 3 operation(s) for action targets.
+  name: Amazon Web Services Action Targets API
+  slug: amazon-web-services-action-targets-api
+- description: The Add Ons API from Amazon Web Services — 2 operation(s) for add ons.
+  name: Amazon Web Services Add Ons API
+  slug: amazon-web-services-add-ons-api
+- description: The Annotation Store API from Amazon Web Services — 6 operation(s) for annotation store.
+  name: Amazon Web Services Annotation Store API
+  slug: amazon-web-services-annotation-store-api
+- description: The Annotation Stores API from Amazon Web Services — 1 operation(s) for annotation stores.
+  name: Amazon Web Services Annotation Stores API
+  slug: amazon-web-services-annotation-stores-api
+- description: The API Keys API from Amazon Web Services — 4 operation(s) for api keys.
+  name: Amazon Web Services API Keys API
+  slug: amazon-web-services-api-keys-api
+- description: The App Bundles API from Amazon Web Services — 11 operation(s) for app bundles.
+  name: Amazon Web Services App Bundles API
+  slug: amazon-web-services-app-bundles-api
+- description: The Automation Rules API from Amazon Web Services — 5 operation(s) for automation rules.
+  name: Amazon Web Services Automation Rules API
+  slug: amazon-web-services-automation-rules-api
+- description: The Batch Delete Worlds API from Amazon Web Services — 1 operation(s) for batch delete worlds.
+  name: Amazon Web Services Batch Delete Worlds API
+  slug: amazon-web-services-batch-delete-worlds-api
+- description: The Batch Describe Simulation Job API from Amazon Web Services — 1 operation(s) for batch describe simulation job.
+  name: Amazon Web Services Batch Describe Simulation Job API
+  slug: amazon-web-services-batch-describe-simulation-job-api
+- description: The Batch Get Findings API from Amazon Web Services — 1 operation(s) for batch get findings.
+  name: Amazon Web Services Batch Get Findings API
+  slug: amazon-web-services-batch-get-findings-api
+- description: The Browser Settings API from Amazon Web Services — 2 operation(s) for browser settings.
+  name: Amazon Web Services Browser Settings API
+  slug: amazon-web-services-browser-settings-api
+- description: The Cancel Deployment Job API from Amazon Web Services — 1 operation(s) for cancel deployment job.
+  name: Amazon Web Services Cancel Deployment Job API
+  slug: amazon-web-services-cancel-deployment-job-api
+- description: The Cancel Simulation Job API from Amazon Web Services — 1 operation(s) for cancel simulation job.
+  name: Amazon Web Services Cancel Simulation Job API
+  slug: amazon-web-services-cancel-simulation-job-api
+- description: The Cancel Simulation Job Batch API from Amazon Web Services — 1 operation(s) for cancel simulation job batch.
+  name: Amazon Web Services Cancel Simulation Job Batch API
+  slug: amazon-web-services-cancel-simulation-job-batch-api
+- description: The Cancel World Export Job API from Amazon Web Services — 1 operation(s) for cancel world export job.
+  name: Amazon Web Services Cancel World Export Job API
+  slug: amazon-web-services-cancel-world-export-job-api
+- description: The Cancel World Generation Job API from Amazon Web Services — 1 operation(s) for cancel world generation job.
+  name: Amazon Web Services Cancel World Generation Job API
+  slug: amazon-web-services-cancel-world-generation-job-api
+- description: The Configuration - Policy API from Amazon Web Services — 4 operation(s) for configuration - policy.
+  name: Amazon Web Services Configuration - Policy API
+  slug: amazon-web-services-configuration-policy-api
+- description: The Configure Logs API from Amazon Web Services — 2 operation(s) for configure logs.
+  name: Amazon Web Services Configure Logs API
+  slug: amazon-web-services-configure-logs-api
+- description: The Configured Tables API from Amazon Web Services — 4 operation(s) for configured tables.
+  name: Amazon Web Services Configured Tables API
+  slug: amazon-web-services-configured-tables-api
+- description: The Create Deployment Job API from Amazon Web Services — 1 operation(s) for create deployment job.
+  name: Amazon Web Services Create Deployment Job API
+  slug: amazon-web-services-create-deployment-job-api
+- description: The Create Fleet API from Amazon Web Services — 1 operation(s) for create fleet.
+  name: Amazon Web Services Create Fleet API
+  slug: amazon-web-services-create-fleet-api
+- description: The Create Image API from Amazon Web Services — 1 operation(s) for create image.
+  name: Amazon Web Services Create Image API
+  slug: amazon-web-services-create-image-api
+- description: The Create Replication Set API from Amazon Web Services — 1 operation(s) for create replication set.
+  name: Amazon Web Services Create Replication Set API
+  slug: amazon-web-services-create-replication-set-api
+- description: The Create Response Plan API from Amazon Web Services — 1 operation(s) for create response plan.
+  name: Amazon Web Services Create Response Plan API
+  slug: amazon-web-services-create-response-plan-api
+- description: The Create Robot API from Amazon Web Services — 1 operation(s) for create robot.
+  name: Amazon Web Services Create Robot API
+  slug: amazon-web-services-create-robot-api
+- description: The Create Robot Application API from Amazon Web Services — 1 operation(s) for create robot application.
+  name: Amazon Web Services Create Robot Application API
+  slug: amazon-web-services-create-robot-application-api
+- description: The Create Robot Application Version API from Amazon Web Services — 1 operation(s) for create robot application version.
+  name: Amazon Web Services Create Robot Application Version API
+  slug: amazon-web-services-create-robot-application-version-api
+- description: The Create Signaling Channel API from Amazon Web Services — 1 operation(s) for create signaling channel.
+  name: Amazon Web Services Create Signaling Channel API
+  slug: amazon-web-services-create-signaling-channel-api
+- description: The Create Simulation Application API from Amazon Web Services — 1 operation(s) for create simulation application.
+  name: Amazon Web Services Create Simulation Application API
+  slug: amazon-web-services-create-simulation-application-api
+- description: The Create Simulation Application Version API from Amazon Web Services — 1 operation(s) for create simulation application version.
+  name: Amazon Web Services Create Simulation Application Version API
+  slug: amazon-web-services-create-simulation-application-version-api
+- description: The Create Simulation Job API from Amazon Web Services — 1 operation(s) for create simulation job.
+  name: Amazon Web Services Create Simulation Job API
+  slug: amazon-web-services-create-simulation-job-api
+- description: The Create Stream API from Amazon Web Services — 1 operation(s) for create stream.
+  name: Amazon Web Services Create Stream API
+  slug: amazon-web-services-create-stream-api
+- description: The Create Timeline Event API from Amazon Web Services — 1 operation(s) for create timeline event.
+  name: Amazon Web Services Create Timeline Event API
+  slug: amazon-web-services-create-timeline-event-api
+- description: The Create World Export Job API from Amazon Web Services — 1 operation(s) for create world export job.
+  name: Amazon Web Services Create World Export Job API
+  slug: amazon-web-services-create-world-export-job-api
+- description: The Create World Generation Job API from Amazon Web Services — 1 operation(s) for create world generation job.
+  name: Amazon Web Services Create World Generation Job API
+  slug: amazon-web-services-create-world-generation-job-api
+- description: The Create World Template API from Amazon Web Services — 1 operation(s) for create world template.
+  name: Amazon Web Services Create World Template API
+  slug: amazon-web-services-create-world-template-api
+- description: The Data Integrations API from Amazon Web Services — 3 operation(s) for data integrations.
+  name: Amazon Web Services Data Integrations API
+  slug: amazon-web-services-data-integrations-api
+- description: The Data Lakes API from Amazon Web Services — 1 operation(s) for data lakes.
+  name: Amazon Web Services Data Lakes API
+  slug: amazon-web-services-data-lakes-api
+- description: The Data Sources API from Amazon Web Services — 7 operation(s) for data sources.
+  name: Amazon Web Services Data Sources API
+  slug: amazon-web-services-data-sources-api
+- description: The Dataflow Endpoint Group API from Amazon Web Services — 2 operation(s) for dataflow endpoint group.
+  name: Amazon Web Services Dataflow Endpoint Group API
+  slug: amazon-web-services-dataflow-endpoint-group-api
+- description: The Datasets V2 API from Amazon Web Services — 2 operation(s) for datasets v2.
+  name: Amazon Web Services Datasets V2 API
+  slug: amazon-web-services-datasets-v2-api
+- description: The Delete Fleet API from Amazon Web Services — 1 operation(s) for delete fleet.
+  name: Amazon Web Services Delete Fleet API
+  slug: amazon-web-services-delete-fleet-api
+- description: The Delete Incident Record API from Amazon Web Services — 1 operation(s) for delete incident record.
+  name: Amazon Web Services Delete Incident Record API
+  slug: amazon-web-services-delete-incident-record-api
+- description: The Delete Response Plan API from Amazon Web Services — 1 operation(s) for delete response plan.
+  name: Amazon Web Services Delete Response Plan API
+  slug: amazon-web-services-delete-response-plan-api
+- description: The Delete Robot API from Amazon Web Services — 1 operation(s) for delete robot.
+  name: Amazon Web Services Delete Robot API
+  slug: amazon-web-services-delete-robot-api
+- description: The Delete Robot Application API from Amazon Web Services — 1 operation(s) for delete robot application.
+  name: Amazon Web Services Delete Robot Application API
+  slug: amazon-web-services-delete-robot-application-api
+- description: The Delete Signaling Channel API from Amazon Web Services — 1 operation(s) for delete signaling channel.
+  name: Amazon Web Services Delete Signaling Channel API
+  slug: amazon-web-services-delete-signaling-channel-api
+- description: The Delete Simulation Application API from Amazon Web Services — 1 operation(s) for delete simulation application.
+  name: Amazon Web Services Delete Simulation Application API
+  slug: amazon-web-services-delete-simulation-application-api
+- description: The Delete Stream API from Amazon Web Services — 1 operation(s) for delete stream.
+  name: Amazon Web Services Delete Stream API
+  slug: amazon-web-services-delete-stream-api
+- description: The Delete Timeline Event API from Amazon Web Services — 1 operation(s) for delete timeline event.
+  name: Amazon Web Services Delete Timeline Event API
+  slug: amazon-web-services-delete-timeline-event-api
+- description: The Delete World Template API from Amazon Web Services — 1 operation(s) for delete world template.
+  name: Amazon Web Services Delete World Template API
+  slug: amazon-web-services-delete-world-template-api
+- description: The Deregister Robot API from Amazon Web Services — 1 operation(s) for deregister robot.
+  name: Amazon Web Services Deregister Robot API
+  slug: amazon-web-services-deregister-robot-api
+- description: The Describe Deployment Job API from Amazon Web Services — 1 operation(s) for describe deployment job.
+  name: Amazon Web Services Describe Deployment Job API
+  slug: amazon-web-services-describe-deployment-job-api
+- description: The Describe Edge Configuration API from Amazon Web Services — 1 operation(s) for describe edge configuration.
+  name: Amazon Web Services Describe Edge Configuration API
+  slug: amazon-web-services-describe-edge-configuration-api
+- description: The Describe Fleet API from Amazon Web Services — 1 operation(s) for describe fleet.
+  name: Amazon Web Services Describe Fleet API
+  slug: amazon-web-services-describe-fleet-api
+- description: The Describe Image Generation Configuration API from Amazon Web Services — 1 operation(s) for describe image generation configuration.
+  name: Amazon Web Services Describe Image Generation Configuration API
+  slug: amazon-web-services-describe-image-generation-configuration-api
+- description: The Describe Mapped Resource Configuration API from Amazon Web Services — 1 operation(s) for describe mapped resource configuration.
+  name: Amazon Web Services Describe Mapped Resource Configuration API
+  slug: amazon-web-services-describe-mapped-resource-configuration-api
+- description: The Describe Media Storage Configuration API from Amazon Web Services — 1 operation(s) for describe media storage configuration.
+  name: Amazon Web Services Describe Media Storage Configuration API
+  slug: amazon-web-services-describe-media-storage-configuration-api
+- description: The Describe Notification Configuration API from Amazon Web Services — 1 operation(s) for describe notification configuration.
+  name: Amazon Web Services Describe Notification Configuration API
+  slug: amazon-web-services-describe-notification-configuration-api
+- description: The Describe Robot API from Amazon Web Services — 1 operation(s) for describe robot.
+  name: Amazon Web Services Describe Robot API
+  slug: amazon-web-services-describe-robot-api
+- description: The Describe Robot Application API from Amazon Web Services — 1 operation(s) for describe robot application.
+  name: Amazon Web Services Describe Robot Application API
+  slug: amazon-web-services-describe-robot-application-api
+- description: The Describe Signaling Channel API from Amazon Web Services — 1 operation(s) for describe signaling channel.
+  name: Amazon Web Services Describe Signaling Channel API
+  slug: amazon-web-services-describe-signaling-channel-api
+- description: The Describe Simulation Application API from Amazon Web Services — 1 operation(s) for describe simulation application.
+  name: Amazon Web Services Describe Simulation Application API
+  slug: amazon-web-services-describe-simulation-application-api
+- description: The Describe Simulation Job API from Amazon Web Services — 1 operation(s) for describe simulation job.
+  name: Amazon Web Services Describe Simulation Job API
+  slug: amazon-web-services-describe-simulation-job-api
+- description: The Describe Simulation Job Batch API from Amazon Web Services — 1 operation(s) for describe simulation job batch.
+  name: Amazon Web Services Describe Simulation Job Batch API
+  slug: amazon-web-services-describe-simulation-job-batch-api
+- description: The Describe Stream API from Amazon Web Services — 1 operation(s) for describe stream.
+  name: Amazon Web Services Describe Stream API
+  slug: amazon-web-services-describe-stream-api
+- description: The Describe World API from Amazon Web Services — 1 operation(s) for describe world.
+  name: Amazon Web Services Describe World API
+  slug: amazon-web-services-describe-world-api
+- description: The Describe World Export Job API from Amazon Web Services — 1 operation(s) for describe world export job.
+  name: Amazon Web Services Describe World Export Job API
+  slug: amazon-web-services-describe-world-export-job-api
+- description: The Describe World Generation Job API from Amazon Web Services — 1 operation(s) for describe world generation job.
+  name: Amazon Web Services Describe World Generation Job API
+  slug: amazon-web-services-describe-world-generation-job-api
+- description: The Describe World Template API from Amazon Web Services — 1 operation(s) for describe world template.
+  name: Amazon Web Services Describe World Template API
+  slug: amazon-web-services-describe-world-template-api
+- description: The Document Versions API from Amazon Web Services — 2 operation(s) for document versions.
+  name: Amazon Web Services Document Versions API
+  slug: amazon-web-services-document-versions-api
+- description: The Domain Configurations API from Amazon Web Services — 2 operation(s) for domain configurations.
+  name: Amazon Web Services Domain Configurations API
+  slug: amazon-web-services-domain-configurations-api
+- description: The Domain Names API from Amazon Web Services — 11 operation(s) for domain names.
+  name: Amazon Web Services Domain Names API
+  slug: amazon-web-services-domain-names-api
+- description: The Environment Variables API from Amazon Web Services — 1 operation(s) for environment variables.
+  name: Amazon Web Services Environment Variables API
+  slug: amazon-web-services-environment-variables-api
+- description: The Experiment Templates API from Amazon Web Services — 4 operation(s) for experiment templates.
+  name: Amazon Web Services Experiment Templates API
+  slug: amazon-web-services-experiment-templates-api
+- description: The Flush Cache API from Amazon Web Services — 1 operation(s) for flush cache.
+  name: Amazon Web Services Flush Cache API
+  slug: amazon-web-services-flush-cache-api
+- description: The Get Data Endpoint API from Amazon Web Services — 1 operation(s) for get data endpoint.
+  name: Amazon Web Services Get Data Endpoint API
+  slug: amazon-web-services-get-data-endpoint-api
+- description: The Get DICOM Import Job API from Amazon Web Services — 1 operation(s) for get dicom import job.
+  name: Amazon Web Services Get DICOM Import Job API
+  slug: amazon-web-services-get-dicom-import-job-api
+- description: The Get Images API from Amazon Web Services — 1 operation(s) for get images.
+  name: Amazon Web Services Get Images API
+  slug: amazon-web-services-get-images-api
+- description: The Get Signaling Channel Endpoint API from Amazon Web Services — 1 operation(s) for get signaling channel endpoint.
+  name: Amazon Web Services Get Signaling Channel Endpoint API
+  slug: amazon-web-services-get-signaling-channel-endpoint-api
+- description: The Get World Template Body API from Amazon Web Services — 1 operation(s) for get world template body.
+  name: Amazon Web Services Get World Template Body API
+  slug: amazon-web-services-get-world-template-body-api
+- description: The Identity Providers API from Amazon Web Services — 2 operation(s) for identity providers.
+  name: Amazon Web Services Identity Providers API
+  slug: amazon-web-services-identity-providers-api
+- description: The Import Lens API from Amazon Web Services — 1 operation(s) for import lens.
+  name: Amazon Web Services Import Lens API
+  slug: amazon-web-services-import-lens-api
+- description: The Import Tasks API from Amazon Web Services — 2 operation(s) for import tasks.
+  name: Amazon Web Services Import Tasks API
+  slug: amazon-web-services-import-tasks-api
+- description: The Ip Access Settings API from Amazon Web Services — 2 operation(s) for ip access settings.
+  name: Amazon Web Services Ip Access Settings API
+  slug: amazon-web-services-ip-access-settings-api
+- description: The Knowledge Bases API from Amazon Web Services — 20 operation(s) for knowledge bases.
+  name: Amazon Web Services Knowledge Bases API
+  slug: amazon-web-services-knowledge-bases-api
+- description: The List Deployment Jobs API from Amazon Web Services — 1 operation(s) for list deployment jobs.
+  name: Amazon Web Services List Deployment Jobs API
+  slug: amazon-web-services-list-deployment-jobs-api
+- description: The List DICOM Import Jobs API from Amazon Web Services — 1 operation(s) for list dicom import jobs.
+  name: Amazon Web Services List DICOM Import Jobs API
+  slug: amazon-web-services-list-dicom-import-jobs-api
+- description: The List Fleets API from Amazon Web Services — 1 operation(s) for list fleets.
+  name: Amazon Web Services List Fleets API
+  slug: amazon-web-services-list-fleets-api
+- description: The List Images API from Amazon Web Services — 1 operation(s) for list images.
+  name: Amazon Web Services List Images API
+  slug: amazon-web-services-list-images-api
+- description: The List Incident Records API from Amazon Web Services — 1 operation(s) for list incident records.
+  name: Amazon Web Services List Incident Records API
+  slug: amazon-web-services-list-incident-records-api
+- description: The List Related Items API from Amazon Web Services — 1 operation(s) for list related items.
+  name: Amazon Web Services List Related Items API
+  slug: amazon-web-services-list-related-items-api
+- description: The List Replication Sets API from Amazon Web Services — 1 operation(s) for list replication sets.
+  name: Amazon Web Services List Replication Sets API
+  slug: amazon-web-services-list-replication-sets-api
+- description: The List Response Plans API from Amazon Web Services — 1 operation(s) for list response plans.
+  name: Amazon Web Services List Response Plans API
+  slug: amazon-web-services-list-response-plans-api
+- description: The List Robot Applications API from Amazon Web Services — 1 operation(s) for list robot applications.
+  name: Amazon Web Services List Robot Applications API
+  slug: amazon-web-services-list-robot-applications-api
+- description: The List Robots API from Amazon Web Services — 1 operation(s) for list robots.
+  name: Amazon Web Services List Robots API
+  slug: amazon-web-services-list-robots-api
+- description: The List Signaling Channels API from Amazon Web Services — 1 operation(s) for list signaling channels.
+  name: Amazon Web Services List Signaling Channels API
+  slug: amazon-web-services-list-signaling-channels-api
+- description: The List Simulation Applications API from Amazon Web Services — 1 operation(s) for list simulation applications.
+  name: Amazon Web Services List Simulation Applications API
+  slug: amazon-web-services-list-simulation-applications-api
+- description: The List Simulation Job Batches API from Amazon Web Services — 1 operation(s) for list simulation job batches.
+  name: Amazon Web Services List Simulation Job Batches API
+  slug: amazon-web-services-list-simulation-job-batches-api
+- description: The List Simulation Jobs API from Amazon Web Services — 1 operation(s) for list simulation jobs.
+  name: Amazon Web Services List Simulation Jobs API
+  slug: amazon-web-services-list-simulation-jobs-api
+- description: The List Tags For Resource API from Amazon Web Services — 2 operation(s) for list tags for resource.
+  name: Amazon Web Services List Tags For Resource API
+  slug: amazon-web-services-list-tags-for-resource-api
+- description: The List Tags For Stream API from Amazon Web Services — 1 operation(s) for list tags for stream.
+  name: Amazon Web Services List Tags For Stream API
+  slug: amazon-web-services-list-tags-for-stream-api
+- description: The List Targets API from Amazon Web Services — 1 operation(s) for list targets.
+  name: Amazon Web Services List Targets API
+  slug: amazon-web-services-list-targets-api
+- description: The List Timeline Events API from Amazon Web Services — 1 operation(s) for list timeline events.
+  name: Amazon Web Services List Timeline Events API
+  slug: amazon-web-services-list-timeline-events-api
+- description: The List Views API from Amazon Web Services — 1 operation(s) for list views.
+  name: Amazon Web Services List Views API
+  slug: amazon-web-services-list-views-api
+- description: The List World Export Jobs API from Amazon Web Services — 1 operation(s) for list world export jobs.
+  name: Amazon Web Services List World Export Jobs API
+  slug: amazon-web-services-list-world-export-jobs-api
+- description: The List World Generation Jobs API from Amazon Web Services — 1 operation(s) for list world generation jobs.
+  name: Amazon Web Services List World Generation Jobs API
+  slug: amazon-web-services-list-world-generation-jobs-api
+- description: The List World Templates API from Amazon Web Services — 1 operation(s) for list world templates.
+  name: Amazon Web Services List World Templates API
+  slug: amazon-web-services-list-world-templates-api
+- description: The List Worlds API from Amazon Web Services — 1 operation(s) for list worlds.
+  name: Amazon Web Services List Worlds API
+  slug: amazon-web-services-list-worlds-api
+- description: The Logging Options API from Amazon Web Services — 1 operation(s) for logging options.
+  name: Amazon Web Services Logging Options API
+  slug: amazon-web-services-logging-options-api
+- description: The Monitored Resources API from Amazon Web Services — 1 operation(s) for monitored resources.
+  name: Amazon Web Services Monitored Resources API
+  slug: amazon-web-services-monitored-resources-api
+- description: The Network Settings API from Amazon Web Services — 2 operation(s) for network settings.
+  name: Amazon Web Services Network Settings API
+  slug: amazon-web-services-network-settings-api
+- description: The open Cypher API from Amazon Web Services — 4 operation(s) for open cypher.
+  name: Amazon Web Services open Cypher API
+  slug: amazon-web-services-open-cypher-api
+- description: The Organization Configuration API from Amazon Web Services — 2 operation(s) for organization configuration.
+  name: Amazon Web Services Organization Configuration API
+  slug: amazon-web-services-organization-configuration-api
+- description: The OTA Updates API from Amazon Web Services — 2 operation(s) for ota updates.
+  name: Amazon Web Services OTA Updates API
+  slug: amazon-web-services-ota-updates-api
+- description: The Playback Configuration API from Amazon Web Services — 2 operation(s) for playback configuration.
+  name: Amazon Web Services Playback Configuration API
+  slug: amazon-web-services-playback-configuration-api
+- description: The Playback Configurations API from Amazon Web Services — 1 operation(s) for playback configurations.
+  name: Amazon Web Services Playback Configurations API
+  slug: amazon-web-services-playback-configurations-api
+- description: The Portal Idp API from Amazon Web Services — 1 operation(s) for portal idp.
+  name: Amazon Web Services Portal Idp API
+  slug: amazon-web-services-portal-idp-api
+- description: The Prefetch Schedule API from Amazon Web Services — 2 operation(s) for prefetch schedule.
+  name: Amazon Web Services Prefetch Schedule API
+  slug: amazon-web-services-prefetch-schedule-api
+- description: The Product Subscriptions API from Amazon Web Services — 2 operation(s) for product subscriptions.
+  name: Amazon Web Services Product Subscriptions API
+  slug: amazon-web-services-product-subscriptions-api
+- description: The Profile Jobs API from Amazon Web Services — 2 operation(s) for profile jobs.
+  name: Amazon Web Services Profile Jobs API
+  slug: amazon-web-services-profile-jobs-api
+- description: The Profile Notifications API from Amazon Web Services — 1 operation(s) for profile notifications.
+  name: Amazon Web Services Profile Notifications API
+  slug: amazon-web-services-profile-notifications-api
+- description: The Profile Summaries API from Amazon Web Services — 1 operation(s) for profile summaries.
+  name: Amazon Web Services Profile Summaries API
+  slug: amazon-web-services-profile-summaries-api
+- description: The Profile Template API from Amazon Web Services — 1 operation(s) for profile template.
+  name: Amazon Web Services Profile Template API
+  slug: amazon-web-services-profile-template-api
+- description: The Profiling Groups API from Amazon Web Services — 11 operation(s) for profiling groups.
+  name: Amazon Web Services Profiling Groups API
+  slug: amazon-web-services-profiling-groups-api
+- description: The Recipe Jobs API from Amazon Web Services — 2 operation(s) for recipe jobs.
+  name: Amazon Web Services Recipe Jobs API
+  slug: amazon-web-services-recipe-jobs-api
+- description: The Register Robot API from Amazon Web Services — 1 operation(s) for register robot.
+  name: Amazon Web Services Register Robot API
+  slug: amazon-web-services-register-robot-api
+- description: The Resource Sets API from Amazon Web Services — 2 operation(s) for resource sets.
+  name: Amazon Web Services Resource Sets API
+  slug: amazon-web-services-resource-sets-api
+- description: The REST APIs API from Amazon Web Services — 30 operation(s) for rest apis.
+  name: Amazon Web Services REST APIs API
+  slug: amazon-web-services-rest-apis-api
+- description: The Restart Simulation Job API from Amazon Web Services — 1 operation(s) for restart simulation job.
+  name: Amazon Web Services Restart Simulation Job API
+  slug: amazon-web-services-restart-simulation-job-api
+- description: The Run Group API from Amazon Web Services — 2 operation(s) for run group.
+  name: Amazon Web Services Run Group API
+  slug: amazon-web-services-run-group-api
+- description: The S3 Buckets API from Amazon Web Services — 1 operation(s) for s3 buckets.
+  name: Amazon Web Services S3 Buckets API
+  slug: amazon-web-services-s3-buckets-api
+- description: The Send Event API from Amazon Web Services — 1 operation(s) for send event.
+  name: Amazon Web Services Send Event API
+  slug: amazon-web-services-send-event-api
+- description: The Service Graph API from Amazon Web Services — 1 operation(s) for service graph.
+  name: Amazon Web Services Service Graph API
+  slug: amazon-web-services-service-graph-api
+- description: The Service Networks API from Amazon Web Services — 2 operation(s) for service networks.
+  name: Amazon Web Services Service Networks API
+  slug: amazon-web-services-service-networks-api
+- description: The Share Invitations API from Amazon Web Services — 2 operation(s) for share invitations.
+  name: Amazon Web Services Share Invitations API
+  slug: amazon-web-services-share-invitations-api
+- description: The Source Location API from Amazon Web Services — 5 operation(s) for source location.
+  name: Amazon Web Services Source Location API
+  slug: amazon-web-services-source-location-api
+- description: The Source Locations API from Amazon Web Services — 1 operation(s) for source locations.
+  name: Amazon Web Services Source Locations API
+  slug: amazon-web-services-source-locations-api
+- description: The Start DICOM Import Job API from Amazon Web Services — 1 operation(s) for start dicom import job.
+  name: Amazon Web Services Start DICOM Import Job API
+  slug: amazon-web-services-start-dicom-import-job-api
+- description: The Start Edge Configuration Update API from Amazon Web Services — 1 operation(s) for start edge configuration update.
+  name: Amazon Web Services Start Edge Configuration Update API
+  slug: amazon-web-services-start-edge-configuration-update-api
+- description: The Start Incident API from Amazon Web Services — 1 operation(s) for start incident.
+  name: Amazon Web Services Start Incident API
+  slug: amazon-web-services-start-incident-api
+- description: The Start Simulation Job Batch API from Amazon Web Services — 1 operation(s) for start simulation job batch.
+  name: Amazon Web Services Start Simulation Job Batch API
+  slug: amazon-web-services-start-simulation-job-batch-api
+- description: The Storage Lens API from Amazon Web Services — 3 operation(s) for storage lens.
+  name: Amazon Web Services Storage Lens API
+  slug: amazon-web-services-storage-lens-api
+- description: The Sync Deployment Job API from Amazon Web Services — 1 operation(s) for sync deployment job.
+  name: Amazon Web Services Sync Deployment Job API
+  slug: amazon-web-services-sync-deployment-job-api
+- description: The Synthesis Tasks API from Amazon Web Services — 2 operation(s) for synthesis tasks.
+  name: Amazon Web Services Synthesis Tasks API
+  slug: amazon-web-services-synthesis-tasks-api
+- description: The Tag Resource API from Amazon Web Services — 3 operation(s) for tag resource.
+  name: Amazon Web Services Tag Resource API
+  slug: amazon-web-services-tag-resource-api
+- description: The Tag Stream API from Amazon Web Services — 1 operation(s) for tag stream.
+  name: Amazon Web Services Tag Stream API
+  slug: amazon-web-services-tag-stream-api
+- description: The Target Groups API from Amazon Web Services — 5 operation(s) for target groups.
+  name: Amazon Web Services Target Groups API
+  slug: amazon-web-services-target-groups-api
+- description: The Target Resource Types API from Amazon Web Services — 2 operation(s) for target resource types.
+  name: Amazon Web Services Target Resource Types API
+  slug: amazon-web-services-target-resource-types-api
+- description: The Test Executions API from Amazon Web Services — 4 operation(s) for test executions.
+  name: Amazon Web Services Test Executions API
+  slug: amazon-web-services-test-executions-api
+- description: The Test Sets API from Amazon Web Services — 5 operation(s) for test sets.
+  name: Amazon Web Services Test Sets API
+  slug: amazon-web-services-test-sets-api
+- description: The Time Series API from Amazon Web Services — 5 operation(s) for time series.
+  name: Amazon Web Services Time Series API
+  slug: amazon-web-services-time-series-api
+- description: The Trust Stores API from Amazon Web Services — 4 operation(s) for trust stores.
+  name: Amazon Web Services Trust Stores API
+  slug: amazon-web-services-trust-stores-api
+- description: The Untag Resource API from Amazon Web Services — 4 operation(s) for untag resource.
+  name: Amazon Web Services Untag Resource API
+  slug: amazon-web-services-untag-resource-api
+- description: The Untag Stream API from Amazon Web Services — 1 operation(s) for untag stream.
+  name: Amazon Web Services Untag Stream API
+  slug: amazon-web-services-untag-stream-api
+- description: The Update Account Configuration API from Amazon Web Services — 1 operation(s) for update account configuration.
+  name: Amazon Web Services Update Account Configuration API
+  slug: amazon-web-services-update-account-configuration-api
+- description: The Update Data Retention API from Amazon Web Services — 1 operation(s) for update data retention.
+  name: Amazon Web Services Update Data Retention API
+  slug: amazon-web-services-update-data-retention-api
+- description: The Update Deletion Protection API from Amazon Web Services — 1 operation(s) for update deletion protection.
+  name: Amazon Web Services Update Deletion Protection API
+  slug: amazon-web-services-update-deletion-protection-api
+- description: The Update Image Generation Configuration API from Amazon Web Services — 1 operation(s) for update image generation configuration.
+  name: Amazon Web Services Update Image Generation Configuration API
+  slug: amazon-web-services-update-image-generation-configuration-api
+- description: The Update Incident Record API from Amazon Web Services — 1 operation(s) for update incident record.
+  name: Amazon Web Services Update Incident Record API
+  slug: amazon-web-services-update-incident-record-api
+- description: The Update Media Storage Configuration API from Amazon Web Services — 1 operation(s) for update media storage configuration.
+  name: Amazon Web Services Update Media Storage Configuration API
+  slug: amazon-web-services-update-media-storage-configuration-api
+- description: The update Notification Configuration API from Amazon Web Services — 1 operation(s) for update notification configuration.
+  name: Amazon Web Services update Notification Configuration API
+  slug: amazon-web-services-update-notification-configuration-api
+- description: The Update Related Items API from Amazon Web Services — 1 operation(s) for update related items.
+  name: Amazon Web Services Update Related Items API
+  slug: amazon-web-services-update-related-items-api
+- description: The Update Replication Set API from Amazon Web Services — 1 operation(s) for update replication set.
+  name: Amazon Web Services Update Replication Set API
+  slug: amazon-web-services-update-replication-set-api
+- description: The Update Response Plan API from Amazon Web Services — 1 operation(s) for update response plan.
+  name: Amazon Web Services Update Response Plan API
+  slug: amazon-web-services-update-response-plan-api
+- description: The Update Robot Application API from Amazon Web Services — 1 operation(s) for update robot application.
+  name: Amazon Web Services Update Robot Application API
+  slug: amazon-web-services-update-robot-application-api
+- description: The Update Signaling Channel API from Amazon Web Services — 1 operation(s) for update signaling channel.
+  name: Amazon Web Services Update Signaling Channel API
+  slug: amazon-web-services-update-signaling-channel-api
+- description: The Update Simulation Application API from Amazon Web Services — 1 operation(s) for update simulation application.
+  name: Amazon Web Services Update Simulation Application API
+  slug: amazon-web-services-update-simulation-application-api
+- description: The Update Stream API from Amazon Web Services — 1 operation(s) for update stream.
+  name: Amazon Web Services Update Stream API
+  slug: amazon-web-services-update-stream-api
+- description: The Update Timeline Event API from Amazon Web Services — 1 operation(s) for update timeline event.
+  name: Amazon Web Services Update Timeline Event API
+  slug: amazon-web-services-update-timeline-event-api
+- description: The Update World Template API from Amazon Web Services — 1 operation(s) for update world template.
+  name: Amazon Web Services Update World Template API
+  slug: amazon-web-services-update-world-template-api
+- description: The Upload URL API from Amazon Web Services — 1 operation(s) for upload url.
+  name: Amazon Web Services Upload URL API
+  slug: amazon-web-services-upload-url-api
+- description: The Usage Plans API from Amazon Web Services — 6 operation(s) for usage plans.
+  name: Amazon Web Services Usage Plans API
+  slug: amazon-web-services-usage-plans-api
+- description: The User Access API from Amazon Web Services — 2 operation(s) for user access.
+  name: Amazon Web Services User Access API
+  slug: amazon-web-services-user-access-api
+- description: The User Access Logging Settings API from Amazon Web Services — 2 operation(s) for user access logging settings.
+  name: Amazon Web Services User Access Logging Settings API
+  slug: amazon-web-services-user-access-logging-settings-api
+- description: The User Details API from Amazon Web Services — 1 operation(s) for user details.
+  name: Amazon Web Services User Details API
+  slug: amazon-web-services-user-details-api
+- description: The User Settings API from Amazon Web Services — 2 operation(s) for user settings.
+  name: Amazon Web Services User Settings API
+  slug: amazon-web-services-user-settings-api
+- description: The V2 Logging Level API from Amazon Web Services — 1 operation(s) for v2 logging level.
+  name: Amazon Web Services V2 Logging Level API
+  slug: amazon-web-services-v2-logging-level-api
+- description: The V2 Logging Options API from Amazon Web Services — 1 operation(s) for v2 logging options.
+  name: Amazon Web Services V2 Logging Options API
+  slug: amazon-web-services-v2-logging-options-api
+- description: The Variant Store API from Amazon Web Services — 2 operation(s) for variant store.
+  name: Amazon Web Services Variant Store API
+  slug: amazon-web-services-variant-store-api
+- description: The Variant Stores API from Amazon Web Services — 1 operation(s) for variant stores.
+  name: Amazon Web Services Variant Stores API
+  slug: amazon-web-services-variant-stores-api
+- description: The Virtual Clusters API from Amazon Web Services — 7 operation(s) for virtual clusters.
+  name: Amazon Web Services Virtual Clusters API
+  slug: amazon-web-services-virtual-clusters-api
+- description: The Workloads Summaries API from Amazon Web Services — 1 operation(s) for workloads summaries.
+  name: Amazon Web Services Workloads Summaries API
+  slug: amazon-web-services-workloads-summaries-api
+artifact_total: 3484
 collections:
 - collection_type: open
   name: API Collection
@@ -10937,11 +10439,11 @@ jsonld:
   property_count: 0
   slug: amazon-web-services-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Web Services
 nav: Providers
 network: true
-overview: 'Amazon Web Services publishes 1804 APIs on the [APIs.io](https://apis.io/) network, including 2012 09 25 API, 2013 01 01 API, 2013 04 01 API, and 1801 more. Tagged areas include Amazon, Cloud, Network, and Index.
+overview: 'Amazon Web Services publishes 1638 APIs on the [APIs.io](https://apis.io/) network, including 2012 09 25 API, 2013 01 01 API, 2013 04 01 API, and 1635 more. Tagged areas include Amazon, Cloud, Networks, and Index.
 
 
   The Amazon Web Services catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -10952,7 +10454,7 @@ plans:
 - name: Amazon Web Services Plans Pricing
   plan_count: 3
   slug: amazon-web-services-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Amazon Web Services Rate Limits
@@ -11000,9 +10502,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1804
+      total: 1638
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -11012,6 +10514,6 @@ slug: amazon-web-services
 tags:
 - Amazon
 - Cloud
-- Network
+- Networks
 - Index
 ---

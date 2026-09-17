@@ -25,7 +25,7 @@ name: SimpleHoney
 nav: Providers
 network: true
 overview: SimpleHoney is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 0
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplehoney/refs/heads/main/screenshots/simplehoney-2026-09-02T155538.png
 slug: simplehoney
 tags:

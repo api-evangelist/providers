@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ overview: 'Adopets publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Adopets'' developer surface includes documentation, API reference, authentication, sandbox, and 17 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: emerging
   composite: 20.6
@@ -230,7 +230,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

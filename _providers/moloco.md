@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 2
@@ -47,16 +47,6 @@ agentic_access:
   summary_line: 203 operations · 131 acting · 2 human-in-the-loop
 api_count: 11
 apis:
-- baseURL: https://api.moloco.cloud
-  baseurl_source: declared
-  description: The AdAccount API from MOLOCO — 7 operation(s) for adaccount.
-  name: MOLOCO Ad Account API
-  slug: moloco-adaccount-api
-- baseURL: https://api.moloco.cloud
-  baseurl_source: declared
-  description: The AdGroup API from MOLOCO — 2 operation(s) for adgroup.
-  name: MOLOCO Ad Group API
-  slug: moloco-adgroup-api
 - baseURL: https://api.moloco.cloud
   baseurl_source: declared
   description: The AdManagerAccount API from MOLOCO — 2 operation(s) for admanageraccount.
@@ -89,11 +79,6 @@ apis:
   slug: moloco-campaignsummary-api
 - baseURL: https://api.moloco.cloud
   baseurl_source: declared
-  description: The ChangeHistory API from MOLOCO — 5 operation(s) for changehistory.
-  name: MOLOCO Change History API
-  slug: moloco-changehistory-api
-- baseURL: https://api.moloco.cloud
-  baseurl_source: declared
   description: The CohortSummary API from MOLOCO — 1 operation(s) for cohortsummary.
   name: MOLOCO Cohort Summary API
   slug: moloco-cohortsummary-api
@@ -117,11 +102,6 @@ apis:
   description: The CustomTargeting API from MOLOCO — 6 operation(s) for customtargeting.
   name: MOLOCO Custom Targeting API
   slug: moloco-customtargeting-api
-- baseURL: https://api.moloco.cloud
-  baseurl_source: declared
-  description: The DataExport API from MOLOCO — 1 operation(s) for dataexport.
-  name: MOLOCO Data Export API
-  slug: moloco-dataexport-api
 - baseURL: https://api.moloco.cloud
   baseurl_source: declared
   description: The Decision API from MOLOCO — 4 operation(s) for decision.
@@ -179,11 +159,6 @@ apis:
   slug: moloco-report-api
 - baseURL: https://api.moloco.cloud
   baseurl_source: declared
-  description: The ReportExport API from MOLOCO — 2 operation(s) for reportexport.
-  name: MOLOCO Report Export API
-  slug: moloco-reportexport-api
-- baseURL: https://api.moloco.cloud
-  baseurl_source: declared
   description: The ReservedDisplay API from MOLOCO — 5 operation(s) for reserveddisplay.
   name: MOLOCO Reserved Display API
   slug: moloco-reserveddisplay-api
@@ -219,11 +194,6 @@ apis:
   slug: moloco-token-api
 - baseURL: https://api.moloco.cloud
   baseurl_source: declared
-  description: The TrackingLink API from MOLOCO — 3 operation(s) for trackinglink.
-  name: MOLOCO Tracking Link API
-  slug: moloco-trackinglink-api
-- baseURL: https://api.moloco.cloud
-  baseurl_source: declared
   description: The User API from MOLOCO — 18 operation(s) for user.
   name: MOLOCO User API
   slug: moloco-user-api
@@ -232,11 +202,6 @@ apis:
   description: The UserDataDeletionRequest API from MOLOCO — 1 operation(s) for userdatadeletionrequest.
   name: MOLOCO User Data Deletion Request API
   slug: moloco-userdatadeletionrequest-api
-- baseURL: https://api.moloco.cloud
-  baseurl_source: declared
-  description: The Userspace API from MOLOCO — 1 operation(s) for userspace.
-  name: MOLOCO Userspace API
-  slug: moloco-userspace-api
 - baseURL: https://api.moloco.cloud
   baseurl_source: declared
   description: The Wallet API from MOLOCO — 5 operation(s) for wallet.
@@ -252,6 +217,41 @@ apis:
   description: The WorkplaceSummary API from MOLOCO — 1 operation(s) for workplacesummary.
   name: MOLOCO Workplace Summary API
   slug: moloco-workplacesummary-api
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Ad Account API from MOLOCO — 7 operation(s) for ad account.
+  name: MOLOCO Ad Account API
+  slug: moloco-ad-account-api
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Ad Group API from MOLOCO — 2 operation(s) for ad group.
+  name: MOLOCO Ad Group API
+  slug: moloco-ad-group-api
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Change History API from MOLOCO — 5 operation(s) for change history.
+  name: MOLOCO Change History API
+  slug: moloco-change-history-api
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Data Export API from MOLOCO — 1 operation(s) for data export.
+  name: MOLOCO Data Export API
+  slug: moloco-data-export-api
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Report Export API from MOLOCO — 2 operation(s) for report export.
+  name: MOLOCO Report Export API
+  slug: moloco-report-export-api
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The Tracking Link API from MOLOCO — 3 operation(s) for tracking link.
+  name: MOLOCO Tracking Link API
+  slug: moloco-tracking-link-api
+- baseURL: https://api.moloco.cloud
+  baseurl_source: declared
+  description: The User Space API from MOLOCO — 1 operation(s) for user space.
+  name: MOLOCO User Space API
+  slug: moloco-user-space-api
 artifact_total: 56
 asyncapis:
 - description: ''
@@ -527,7 +527,7 @@ modified: '2026-08-13'
 name: MOLOCO
 nav: Providers
 network: true
-overview: 'MOLOCO publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Ad Account API, Ad Group API, Ad Manager Account API, and 38 more. Tagged areas include Advertising, AdTech, DSP, Retail Media, and Commerce Media.
+overview: 'MOLOCO publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Ad Manager Account API, Analytics API, Asset API, and 38 more. Tagged areas include Advertising, AdTech, DSP, Retail Media, and Commerce Media.
 
 
   The MOLOCO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -538,7 +538,7 @@ plans:
 - name: Moloco Plans Pricing
   plan_count: 0
   slug: moloco-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 11
   name: Moloco Rate Limits
@@ -578,7 +578,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

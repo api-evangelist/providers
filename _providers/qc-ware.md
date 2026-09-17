@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.promethium.qcware.com
@@ -210,7 +210,7 @@ plans:
 - name: Qc Ware Plans Pricing
   plan_count: 3
   slug: qc-ware-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Qc Ware Rate Limits
@@ -255,7 +255,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

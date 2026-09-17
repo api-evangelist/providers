@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -114,6 +114,10 @@ collections:
   name: Amazon Security Hub
   slug: open-amazon-security-hub
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/agentic-access/amazon-security-hub-agentic-access.yml
   title: ''
@@ -307,7 +311,7 @@ jsonld:
   property_count: 15
   slug: amazon-security-hub-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Security Hub
 nav: Providers
 network: true
@@ -317,12 +321,12 @@ overview: 'Amazon Security Hub publishes 5 APIs on the [APIs.io](https://apis.io
   The Amazon Security Hub catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Security Hub''s developer surface includes developer portal, getting-started guide, documentation, API reference, developer console, signup flow, pricing, and 27 more developer resources.'
+  Amazon Security Hub''s developer surface includes developer portal, getting-started guide, documentation, API reference, developer console, signup flow, pricing, and 28 more developer resources.'
 plans:
 - name: Amazon Security Hub Plans Pricing
   plan_count: 3
   slug: amazon-security-hub-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Security Hub Rate Limits
@@ -376,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -413,5 +417,5 @@ use_cases:
   name: Automated Incident Response
 - description: Replace multiple point solutions with centralized finding aggregation and normalized data.
   name: Security Tool Consolidation
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

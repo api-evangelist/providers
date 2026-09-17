@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://department.mark43.com/partnerships/api
@@ -253,7 +253,7 @@ overview: 'Mark43 publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mark43''s developer surface includes documentation, API reference, authentication, and 14 more developer resources.'
-random_paper: 5
+random_paper: 2
 score:
   band: thin
   composite: 30.4
@@ -289,7 +289,7 @@ score:
     regime_id: government
     score: 44.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

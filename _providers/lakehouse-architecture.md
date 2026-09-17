@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Lakehouse Architecture
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 1
 slug: lakehouse-architecture
 tags:
 - Analytics

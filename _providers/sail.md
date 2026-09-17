@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,27 +47,27 @@ apis:
 - baseURL: https://api.sailresearch.com/v1
   baseurl_source: declared
   description: Submit and manage batches of requests.
-  name: Sail Batches API API
+  name: Sail Batches API
   slug: sail-batches-api-api
 - baseURL: https://api.sailresearch.com/v1
   baseurl_source: declared
   description: OpenAI-compatible Chat Completions API endpoints.
-  name: Sail Chat Completions API API
+  name: Sail Chat Completions API
   slug: sail-chat-completions-api-api
 - baseURL: https://api.sailresearch.com/v1
   baseurl_source: declared
   description: Anthropic-compatible Messages API endpoints.
-  name: Sail Messages API API
+  name: Sail Messages API
   slug: sail-messages-api-api
 - baseURL: https://api.sailresearch.com/v1
   baseurl_source: declared
   description: Model discovery endpoints.
-  name: Sail Models API API
+  name: Sail Models API
   slug: sail-models-api-api
 - baseURL: https://api.sailresearch.com/v1
   baseurl_source: declared
   description: OpenAI-compatible Responses API endpoints.
-  name: Sail Responses API API
+  name: Sail Responses API
   slug: sail-responses-api-api
 artifact_total: 16
 asyncapis:
@@ -225,18 +225,18 @@ mcp_servers:
 - description: Sail's official hosted documentation MCP server. Connects agents to Sail's docs so they can answer questions about models, pricing, completion windows, and Sailbox setup while building or migrating to
   name: Sail MCP Server
   slug: sail-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Sail
 nav: Providers
 network: true
-overview: 'Sail publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batches API API, Chat Completions API API, Messages API API, and 2 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
+overview: 'Sail publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Chat Completions API, Messages API, and 2 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
 
 
   The Sail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Sail''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 5
+random_paper: 7
 score:
   band: developing
   composite: 46.2
@@ -267,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

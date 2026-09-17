@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The groundcover platform REST API. Data query endpoints run gcQL pipelines against logs (POST /api/logs/v2/search), trace spans (POST /api/traces/v2/search) and Kubernetes events (POST /api/k8s/v2/eve
@@ -244,7 +244,7 @@ plans:
 - name: Groundcover Plans Pricing
   plan_count: 4
   slug: groundcover-plans-pricing
-random_paper: 1
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Groundcover Rate Limits
@@ -277,7 +277,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

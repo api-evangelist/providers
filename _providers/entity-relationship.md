@@ -32,7 +32,7 @@ name: Entity Relationship
 nav: Providers
 network: true
 overview: Entity Relationship is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Modeling, Database Design, ER Diagrams, and Systems Analysis.
-random_paper: 17
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/entity-relationship/refs/heads/main/screenshots/entity-relationship-2026-06-20T180730.png
 slug: entity-relationship
 tags:

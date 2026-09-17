@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,17 +49,17 @@ apis:
 - baseURL: https://golden.com/api/v2/public
   baseurl_source: declared
   description: The Entity API API from Golden Recursion — 2 operation(s) for entity api.
-  name: Golden Recursion Entity API API
+  name: Golden Recursion Entity API
   slug: golden-recursion-entity-api-api
 - baseURL: https://golden.com/api/v2/public
   baseurl_source: declared
   description: The Query API API from Golden Recursion — 2 operation(s) for query api.
-  name: Golden Recursion Query API API
+  name: Golden Recursion Query API
   slug: golden-recursion-query-api-api
 - baseURL: https://golden.com/api/v2/public
   baseurl_source: declared
   description: The Schema API API from Golden Recursion — 4 operation(s) for schema api.
-  name: Golden Recursion Schema API API
+  name: Golden Recursion Schema API
   slug: golden-recursion-schema-api-api
 arazzos:
 - description: Introspect the predicate schema, search entities by type, then retrieve the full cited entity.
@@ -230,11 +230,11 @@ description: 'Golden Recursion Inc. builds Golden, a San Francisco company using
   remain live and were re-verified 2026-08-14.'
 image: https://golden.com/static/images/38d57130206f78fb48c9.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Golden Recursion
 nav: Providers
 network: true
-overview: 'Golden Recursion publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entity API API, Query API API, and Schema API API. Tagged areas include Company, Knowledge Graph, Data Enrichment, Entity Data, and Company Data.
+overview: 'Golden Recursion publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entity API, Query API, and Schema API. Tagged areas include Company, Knowledge Graph, Data Enrichment, Entity Data, and Company Data.
 
 
   Golden Recursion''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 24 more developer resources.'
@@ -242,7 +242,7 @@ plans:
 - name: Golden Recursion Plans Pricing
   plan_count: 4
   slug: golden-recursion-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Golden Recursion Rate Limits
@@ -277,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

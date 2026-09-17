@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Read-only REST API providing access to U.S. Congressional data including bills and resolutions, roll call votes, member profiles, committee information, cosponsorship records, and congressional roles.
@@ -109,7 +109,7 @@ plans:
 - name: Govtrack Plans Pricing
   plan_count: 2
   slug: govtrack-plans-pricing
-random_paper: 4
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Govtrack Rate Limits
@@ -147,7 +147,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

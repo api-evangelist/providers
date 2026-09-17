@@ -30,7 +30,7 @@ name: NEO Success
 nav: Providers
 network: true
 overview: NEO Success is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Money Management, and Neobank.
-random_paper: 15
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/neo-success/refs/heads/main/screenshots/neo-success-2026-08-07T184831.png
 security:
 - kind: domain-security

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -155,26 +155,6 @@ apis:
   slug: koyeb-organizationconfirmations-api
 - baseURL: https://app.koyeb.com
   baseurl_source: declared
-  description: The OrganizationInvitations API from Koyeb — 3 operation(s) for organizationinvitations.
-  name: Koyeb OrganizationInvitations API
-  slug: koyeb-organizationinvitations-api
-- baseURL: https://app.koyeb.com
-  baseurl_source: declared
-  description: The OrganizationMembers API from Koyeb — 2 operation(s) for organizationmembers.
-  name: Koyeb OrganizationMembers API
-  slug: koyeb-organizationmembers-api
-- baseURL: https://app.koyeb.com
-  baseurl_source: declared
-  description: The OrganizationQuotas API from Koyeb — 1 operation(s) for organizationquotas.
-  name: Koyeb OrganizationQuotas API
-  slug: koyeb-organizationquotas-api
-- baseURL: https://app.koyeb.com
-  baseurl_source: declared
-  description: The PaymentMethods API from Koyeb — 3 operation(s) for paymentmethods.
-  name: Koyeb PaymentMethods API
-  slug: koyeb-paymentmethods-api
-- baseURL: https://app.koyeb.com
-  baseurl_source: declared
   description: The PersistentVolumes API from Koyeb — 3 operation(s) for persistentvolumes.
   name: Koyeb PersistentVolumes API
   slug: koyeb-persistentvolumes-api
@@ -268,6 +248,26 @@ apis:
   description: The Test API from Koyeb — 2 operation(s) for test.
   name: Koyeb Test API
   slug: koyeb-test-api
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Organization Invitations API from Koyeb — 3 operation(s) for organization invitations.
+  name: Koyeb Organization Invitations API
+  slug: koyeb-organization-invitations-api
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Organization Members API from Koyeb — 2 operation(s) for organization members.
+  name: Koyeb Organization Members API
+  slug: koyeb-organization-members-api
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Organization Quotas API from Koyeb — 1 operation(s) for organization quotas.
+  name: Koyeb Organization Quotas API
+  slug: koyeb-organization-quotas-api
+- baseURL: https://app.koyeb.com
+  baseurl_source: declared
+  description: The Payment Methods API from Koyeb — 3 operation(s) for payment methods.
+  name: Koyeb Payment Methods API
+  slug: koyeb-payment-methods-api
 artifact_total: 96
 collections:
 - collection_type: open
@@ -403,6 +403,26 @@ collections:
   name: Koyeb Rest API
   slug: open-koyeb
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/overlays/koyeb-organizationinvitations-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/koyeb-organizationinvitations-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/overlays/koyeb-organizationmembers-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/koyeb-organizationmembers-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/overlays/koyeb-organizationquotas-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/koyeb-organizationquotas-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/overlays/koyeb-paymentmethods-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/koyeb-paymentmethods-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/capabilities/koyeb-capability-edges.yml
   title: ''
@@ -633,19 +653,19 @@ network: true
 overview: 'Koyeb publishes 44 APIs on the [APIs.io](https://apis.io/) network, including activity API, Apps API, Archives API, and 41 more. Tagged areas include Cloud Platform, Deployment, Platform-as-a-Service, Serverless, and Serverless GPU.
 
 
-  Koyeb''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, sandbox, and 40 more developer resources.'
+  Koyeb''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, sandbox, and 44 more developer resources.'
 plans:
 - name: Koyeb Plans Pricing
   plan_count: 4
   slug: koyeb-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Koyeb Rate Limits
   slug: koyeb-rate-limits
 score:
   band: strong
-  composite: 64.2
+  composite: 64.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 60.0
@@ -653,11 +673,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 75.0
     contract_governance: 18.2
-    contract_quality: 51.3
+    contract_quality: 51.9
     developer_ergonomics: 81.0
     discoverability: 68.5
     operational_transparency: 52.6
@@ -673,7 +693,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -705,7 +725,7 @@ tags:
 - Compute
 - Hosting
 - Postgres
-- Sandboxes
+- Sandbox
 - Edge Network
 - Infrastructure as Code
 website: https://www.koyeb.com

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Enterprise API for retrieving finalized Stensul email content and distributing it to any platform in a customer's ecosystem, removing the manual export step between Stensul and the downstream ESP/MAP.
@@ -173,7 +173,7 @@ plans:
 - name: Stensul Plans Pricing
   plan_count: 0
   slug: stensul-plans-pricing
-random_paper: 5
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Stensul Rate Limits
@@ -206,7 +206,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

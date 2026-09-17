@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - baseURL: https://artifactregistry.googleapis.com
   baseurl_source: spec
   description: The Google Artifact Registry API API from Google Artifact Registry — 4 operation(s) for google artifact registry api.
-  name: Google Artifact Registry Google Artifact Registry API API
+  name: Google Artifact Registry Google Artifact Registry API
   slug: google-artifact-registry-google-artifact-registry-api-api
 - baseURL: https://artifactregistry.googleapis.com
   baseurl_source: spec
@@ -206,11 +206,11 @@ finops:
   slug: google-artifact-registry-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-artifact-registry.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Artifact Registry
 nav: Providers
 network: true
-overview: 'Google Artifact Registry publishes 11 APIs on the [APIs.io](https://apis.io/) network, including DockerImages API, Files API, Google Artifact Registry API API, and 8 more. Tagged areas include Artifacts, Containers, Google Cloud, Packages, and Registry.
+overview: 'Google Artifact Registry publishes 11 APIs on the [APIs.io](https://apis.io/) network, including DockerImages API, Files API, Google Artifact Registry API, and 8 more. Tagged areas include Artifacts, Containers, Google Cloud, Packages, and Registry.
 
 
   Google Artifact Registry''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 7 more developer resources.'
@@ -218,7 +218,7 @@ plans:
 - name: Google Artifact Registry Plans Pricing
   plan_count: 3
   slug: google-artifact-registry-plans-pricing
-random_paper: 5
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Google Artifact Registry Rate Limits
@@ -255,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

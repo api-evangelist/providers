@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://platform.clearslide.com
@@ -278,7 +278,7 @@ plans:
 - name: Clearslide Plans Pricing
   plan_count: 2
   slug: clearslide-plans-pricing
-random_paper: 19
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Clearslide Rate Limits
@@ -317,7 +317,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

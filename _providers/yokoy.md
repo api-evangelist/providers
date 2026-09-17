@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
@@ -339,7 +339,7 @@ overview: 'Yokoy publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 18 more developer resources.'
-random_paper: 4
+random_paper: 21
 scopes:
 - name: Yokoy Scopes
   scope_count: 0
@@ -359,7 +359,7 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 18.2
-    contract_quality: 55.4
+    contract_quality: 55.5
     developer_ergonomics: 25.6
     discoverability: 75.9
     operational_transparency: 28.9
@@ -384,7 +384,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

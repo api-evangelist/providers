@@ -6,7 +6,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -18,19 +18,14 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-09-15'
-api_count: 9
+  score: 33.9
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
-- baseURL: https://api.laposte.fr/suivi/v2
-  baseurl_source: declared
-  description: Real-time tracking for La Poste shipments. Suivi v2 harmonises the delivery status of tracked mail (courrier suivi), Colissimo parcels and Chronopost express into one simplified status plus the full r
-  name: La Poste Suivi v2
-  slug: la-poste-suivi-v2
 - description: Address validation and normalisation against the French Service National de l'Adresse reference base. Autocompletes and corrects addresses as they are typed in signup forms, checkout flows and CRM rec
   name: La Poste ControlAdresse v2
   slug: la-poste-controladresse-v2
@@ -40,29 +35,94 @@ apis:
 - description: Reverse geocoding - given a latitude/longitude pair, returns between one and five nearby French postal addresses within a predefined radius.
   name: La Poste Geolocalisation inversee v1
   slug: la-poste-geolocalisation-inversee-v1
-- baseURL: https://api.laposte.fr/digiposte/v3
-  baseurl_source: declared
-  description: 'Partner API for Digiposte+, La Poste''s certified digital safe (coffre-fort numerique a valeur probante). Lets an issuer create and manage memberships, deposit certified documents into a user''s vault, '
-  name: Digiposte v3
-  slug: digiposte-v3
-- baseURL: https://api-order-lh-pro-ct-sacc.paas-01.build.net.intra.laposte.fr
-  baseurl_source: spec
-  description: 'Online registered-mail ordering. Businesses submit a registered letter through the API and La Poste prints it, folds and inserts it, franks it and delivers it, then returns a proof of deposit (preuve '
-  name: Lettre recommandee en ligne v1
-  slug: lettre-recommandee-en-ligne-v1
 - description: 'Booking API for "Passer mon code avec La Poste" - the official La Poste driving-theory examination service. Covers session lookup, candidate validation, pre-reservations and reservations for both the '
   name: Code de la route v2
   slug: code-de-la-route-v2
-- baseURL: https://api.laposte.fr/opendata/v1
-  baseurl_source: declared
-  description: Gateway over La Poste's open datasets - postal codes (hexasmal), contact points, post-office opening hours, services and accessibility, street letterboxes, self-service machines and new communes. Fron
-  name: La Poste Open Data v1
-  slug: la-poste-open-data-v1
 - description: Colissimo's SOAP web services for e-commerce shipping - shipping-label and return-label generation, pickup planning, deposit-slip (bordereau) generation, international product lookup, and pickup-point
   name: Colissimo Web Services
   slug: colissimo-web-services
-artifact_total: 15
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The Administration API from La Poste Groupe — 3 operation(s) for administration.
+  name: La Poste Groupe Administration API
+  slug: la-poste-groupe-administration-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The Applications API from La Poste Groupe — 2 operation(s) for applications.
+  name: La Poste Groupe Applications API
+  slug: la-poste-groupe-applications-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The Digiposte API from La Poste Groupe — 5 operation(s) for digiposte.
+  name: La Poste Groupe Digiposte API
+  slug: la-poste-groupe-digiposte-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The JDD / Éditable API from La Poste Groupe — 10 operation(s) for jdd / éditable.
+  name: La Poste Groupe JDD / Éditable API
+  slug: la-poste-groupe-jdd-ditable-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The JDD / Données API from La Poste Groupe — 18 operation(s) for jdd / données.
+  name: La Poste Groupe JDD / Données API
+  slug: la-poste-groupe-jdd-donn-es-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The JDD / Métadonnées API from La Poste Groupe — 12 operation(s) for jdd / métadonnées.
+  name: La Poste Groupe JDD / Métadonnées API
+  slug: la-poste-groupe-jdd-m-tadonn-es-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The Jeux de données (JDD) API from La Poste Groupe — 1 operation(s) for jeux de données (jdd).
+  name: La Poste Groupe Jeux de données (JDD) API
+  slug: la-poste-groupe-jeux-de-donn-es-jdd-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The LH PRO resources API from La Poste Groupe — 2 operation(s) for lh pro resources.
+  name: La Poste Groupe LH PRO resources API
+  slug: la-poste-groupe-lh-pro-resources-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The Partner API from La Poste Groupe — 4 operation(s) for partner.
+  name: La Poste Groupe Partner API
+  slug: la-poste-groupe-partner-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The Resend Purl API from La Poste Groupe — 1 operation(s) for resend purl.
+  name: La Poste Groupe Resend Purl API
+  slug: la-poste-groupe-resend-purl-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: Everything about one to 10 trackings with or without account's link
+  name: La Poste Groupe Suivi API
+  slug: la-poste-groupe-suivi-api
+- baseURL: https://api.laposte.fr/suivi/v2
+  baseurl_source: declared
+  description: The User API from La Poste Groupe — 2 operation(s) for user.
+  name: La Poste Groupe User API
+  slug: la-poste-groupe-user-api
+artifact_total: 23
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/overlays/la-poste-groupe-suivi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/la-poste-groupe-suivi-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/overlays/la-poste-groupe-digiposte-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/la-poste-groupe-digiposte-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/overlays/la-poste-groupe-lettre-recommandee-en-ligne-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/la-poste-groupe-lettre-recommandee-en-ligne-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/overlays/la-poste-groupe-open-data-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/la-poste-groupe-open-data-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/security/la-poste-groupe-vulnerability-disclosure.yml
   title: ''
@@ -224,15 +284,15 @@ modified: '2026-09-02'
 name: La Poste Groupe
 nav: Providers
 network: true
-overview: 'La Poste Groupe publishes 4 APIs on the [APIs.io](https://apis.io/) network, including La Poste Suivi v2, Digiposte v3, Lettre recommandee en ligne v1, and 1 more. Tagged areas include Company, Logistics, Shipping, Package Tracking, and Postal.
+overview: 'La Poste Groupe publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Applications API, Digiposte API, and 9 more. Tagged areas include Company, Logistics, Shipping, Package Tracking, and Postal.
 
 
-  La Poste Groupe''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 26 more developer resources.'
+  La Poste Groupe''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 30 more developer resources.'
 plans:
 - name: La Poste Groupe Plans Pricing
   plan_count: 10
   slug: la-poste-groupe-plans-pricing
-random_paper: 17
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: La Poste Groupe Rate Limits
@@ -244,21 +304,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.5
+  composite: 66.3
   coverage:
     artifact_dirs: 21
-    catalog_earned: 59.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
-    contract_quality: 53.2
+    contract_quality: 56.4
     developer_ergonomics: 80.4
-    discoverability: 72.2
+    discoverability: 81.5
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -275,7 +335,7 @@ score:
       callable: 66.7
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 12
     mcp: derived
     skills: derived
   regulatory:
@@ -285,7 +345,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

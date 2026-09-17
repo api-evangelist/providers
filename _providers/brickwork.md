@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -422,7 +422,7 @@ overview: 'Brickwork publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Brickwork''s developer surface includes documentation, API reference, pricing, support, authentication, and 16 more developer resources.'
-random_paper: 8
+random_paper: 6
 score:
   band: thin
   composite: 35.0
@@ -453,7 +453,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

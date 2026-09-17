@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -101,11 +101,6 @@ apis:
   slug: bem-feedback-api
 - baseURL: https://api.bem.ai
   baseurl_source: declared
-  description: Unix-shell-style nav over parsed documents and the cross-doc memory store. `POST /v3/fs` is a single op-driven endpoint designed for LLM agents and programmatic consumers that want to walk a corpus th
-  name: Bem File System API
-  slug: bem-file-system-api
-- baseURL: https://api.bem.ai
-  baseurl_source: declared
   description: 'Monitor, evaluate, and iterate on the quality of every function in your environment. Function Accuracy bundles two complementary loops: ## Evaluations (`/v3/eval`) Trigger and retrieve per-transformat'
   name: Bem Function Accuracy API
   slug: bem-function-accuracy-api
@@ -154,6 +149,11 @@ apis:
   description: Workflows orchestrate one or more functions into a directed acyclic graph (DAG) for document processing. Use these endpoints to create, update, list, and manage workflows, and to invoke them with file
   name: Bem Workflows API
   slug: bem-workflows-api
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Unix-shell-style nav over parsed documents and the cross-doc memory store.
+  name: Bem Filesystem API
+  slug: bem-filesystem-api
 artifact_total: 49
 asyncapis:
 - description: ''
@@ -389,24 +389,24 @@ overview: 'Bem publishes 22 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Bem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: strong
-  composite: 58.2
+  composite: 60.0
   coverage:
     artifact_dirs: 20
-    catalog_earned: 27.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 62.3
     developer_ergonomics: 68.5
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 34.2
   previous_composite: 58.2
   provenance:
@@ -420,7 +420,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

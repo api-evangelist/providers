@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Provides access to real-time and historical market data including stocks, bonds, commodities, and currencies through the Bloomberg Terminal and enterprise data feeds.
@@ -53,6 +53,10 @@ apis:
   slug: blpapi
 artifact_total: 29
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -146,7 +150,7 @@ jsonld:
   property_count: 10
   slug: bloomberg-news-context
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg News
 nav: Providers
 network: true
@@ -156,12 +160,12 @@ overview: 'Bloomberg News publishes 5 APIs on the [APIs.io](https://apis.io/) ne
   The Bloomberg News catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bloomberg News'' developer surface includes developer portal, documentation, support, engineering blog, and 8 more developer resources.'
+  Bloomberg News'' developer surface includes developer portal, documentation, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Bloomberg News Plans Pricing
   plan_count: 3
   slug: bloomberg-news-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Bloomberg News Rate Limits
@@ -203,7 +207,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -233,5 +237,5 @@ use_cases:
   name: Regulatory Reporting
 - description: Integrate Bloomberg data into portfolio management systems for real-time monitoring.
   name: Portfolio Management
-website: https://developer.bloomberg.com/
+website: https://bloomberg.com
 ---

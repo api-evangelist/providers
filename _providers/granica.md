@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Granica REST API (v1) lets you programmatically manage all aspects of the Granica platform, including table onboarding, compaction scheduling, catalog connections, query optimization (Optimus), va
@@ -172,7 +172,7 @@ plans:
 - name: Granica Plans Pricing
   plan_count: 0
   slug: granica-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Granica Rate Limits
@@ -205,7 +205,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

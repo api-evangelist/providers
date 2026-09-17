@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The Authologic Identity API enables businesses to initiate identity verification processes and receive results programmatically. Supports document verification, eID, Bank ID, and biometric liveness ch
   name: Authologic Identity API
   slug: authologic-identity-api
-- description: The Authologic AML API enables Anti-Money Laundering screening combined with identity verification in a single integrated flow for KYC/AML compliance.
+- baseURL: https://api.authologic.com
+  baseurl_source: declared
+  description: The Authologic AML API enables Anti-Money Laundering screening combined with identity verification in a single integrated flow for KYC/AML compliance.
   name: Authologic AML API
   slug: authologic-aml-api
 - description: The Authologic Data Verification API enables verification of personal data against authoritative sources including government databases and credit bureaus.
@@ -58,15 +60,55 @@ apis:
   slug: authologic-enquiry-api
 - baseURL: https://api.authologic.com
   baseurl_source: declared
-  description: The Authologic Customer API is the single integration API for the Authologic Engine. It exposes the "conversation" model that drives every Authologic product — identity verification, AML screening, ba
-  name: Authologic Customer API
-  slug: authologic-customer-api
-artifact_total: 27
+  description: 4. Advanced methods.
+  name: Authologic Advanced API
+  slug: authologic-advanced-api
+- baseURL: https://api.authologic.com
+  baseurl_source: declared
+  description: '7. Product: Affordability assessment'
+  name: Authologic Affordability assessment API
+  slug: authologic-affordability-assessment-api
+- baseURL: https://api.authologic.com
+  baseurl_source: declared
+  description: '3. Product: AML'
+  name: Authologic AML API
+  slug: authologic-aml-api
+- baseURL: https://api.authologic.com
+  baseurl_source: declared
+  description: '2. Product: Bank Transactions'
+  name: Authologic Bank API
+  slug: authologic-bank-api
+- baseURL: https://api.authologic.com
+  baseurl_source: declared
+  description: 1. Base Methods needed for the verification process.
+  name: Authologic Conversation API
+  slug: authologic-conversation-api
+- baseURL: https://api.authologic.com
+  baseurl_source: declared
+  description: '8. Product: Database Verification'
+  name: Authologic Database Verification API
+  slug: authologic-database-verification-api
+- baseURL: https://api.authologic.com
+  baseurl_source: declared
+  description: 6. Enterprise Integration
+  name: Authologic Enterprise Integration API
+  slug: authologic-enterprise-integration-api
+- baseURL: https://api.authologic.com
+  baseurl_source: declared
+  description: '5. Advanced: Metadata'
+  name: Authologic Metadata API
+  slug: authologic-metadata-api
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Authologic Callbacks Webhooks
   slug: authologic-callbacks-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/overlays/authologic-customer-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/authologic-customer-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/agentic-access/authologic-agentic-access.yml
   title: ''
@@ -268,18 +310,18 @@ modified: '2026-09-14'
 name: Authologic
 nav: Providers
 network: true
-overview: 'Authologic publishes 1 API on the [APIs.io](https://apis.io/) network: Customer API. Tagged areas include AML, Digital Identity, eID, Identity Verification, and KYB.
+overview: 'Authologic publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AML API, Advanced API, Affordability assessment API, and 6 more. Tagged areas include AML, Digital Identity, eID, Identity Verification, and KYB.
 
 
   The Authologic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Authologic''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 30 more developer resources.'
+  Authologic''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 31 more developer resources.'
 plans:
 - name: Authologic Plans Pricing
   plan_count: 0
   slug: authologic-plans-pricing
-random_paper: 0
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Authologic Rate Limits
@@ -303,7 +345,7 @@ score:
   facets:
     access_clarity: 57.9
     contract_governance: 18.2
-    contract_quality: 69.1
+    contract_quality: 68.9
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 15.8
@@ -315,11 +357,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 2
@@ -53,11 +53,6 @@ apis:
   description: Create and manage enterprise aliases. (Enterprise admins only.)
   name: Onshape Alias API
   slug: onshape-alias-api
-- baseURL: https://cad.onshape.com/api/v16
-  baseurl_source: declared
-  description: Manage application preferences.
-  name: Onshape APIApplication API
-  slug: onshape-apiapplication-api
 - baseURL: https://cad.onshape.com/api/v16
   baseurl_source: declared
   description: Manage the application-specific metadata that associates application data with Onshape data.
@@ -155,11 +150,6 @@ apis:
   slug: onshape-numberingscheme-api
 - baseURL: https://cad.onshape.com/api/v16
   baseurl_source: declared
-  description: Get the OpenAPI specification for the Onshape API.
-  name: Onshape OpenApi API
-  slug: onshape-openapi-api
-- baseURL: https://cad.onshape.com/api/v16
-  baseurl_source: declared
   description: Export Parts and access Part details.
   name: Onshape Part API
   slug: onshape-part-api
@@ -173,11 +163,6 @@ apis:
   description: Access and modify Part Studios.
   name: Onshape PartStudio API
   slug: onshape-partstudio-api
-- baseURL: https://cad.onshape.com/api/v16
-  baseurl_source: declared
-  description: Access information on how entities are structured within designs and documents.
-  name: Onshape ProductStructure API
-  slug: onshape-productstructure-api
 - baseURL: https://cad.onshape.com/api/v16
   baseurl_source: declared
   description: Create, access, and delete templates for properties tables.
@@ -253,6 +238,21 @@ apis:
   description: Access and modify workflows.
   name: Onshape Workflow API
   slug: onshape-workflow-api
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Manage application preferences.
+  name: Onshape API Application API
+  slug: onshape-api-application-api
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Get the OpenAPI specification for the Onshape API.
+  name: Onshape Open API
+  slug: onshape-open-api-api
+- baseURL: https://cad.onshape.com/api/v16
+  baseurl_source: declared
+  description: Access information on how entities are structured within designs and documents.
+  name: Onshape Product structure API
+  slug: onshape-product-structure-api
 artifact_total: 93
 asyncapis:
 - description: ''
@@ -562,14 +562,14 @@ modified: '2026-07-20'
 name: Onshape
 nav: Providers
 network: true
-overview: 'Onshape publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account API, Alias API, APIApplication API, and 39 more. Tagged areas include Company, CAD, PLM, Product Data Management, and Engineering.
+overview: 'Onshape publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Account API, Alias API, AppAssociativeData API, and 39 more. Tagged areas include Company, CAD, PLM, Product Data Management, and Engineering.
 
 
   The Onshape catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Onshape''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 29 more developer resources.'
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Onshape Rate Limits
@@ -581,7 +581,7 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.0
+  composite: 51.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -589,11 +589,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 60.3
+    contract_quality: 60.4
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 52.6
@@ -609,7 +609,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

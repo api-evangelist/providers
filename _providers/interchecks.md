@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://prod.api.interchecks.io
@@ -49,11 +49,6 @@ apis:
   description: OAuth 2.0 is used for authentication and authorization to the API. Client ID and Secret Key can be generated in the Developer Portal.
   name: Interchecks Authentication API
   slug: interchecks-authentication-api
-- baseURL: https://prod.api.interchecks.io
-  baseurl_source: declared
-  description: The Oauth2 API from Interchecks — 1 operation(s) for oauth2.
-  name: Interchecks Oauth2 API
-  slug: interchecks-oauth2-api
 - baseURL: https://prod.api.interchecks.io
   baseurl_source: declared
   description: Endpoints to retrieve a payer's connected accounts (aka good funds accounts) and payout method configuration for the `payer_id` designated in the URL.
@@ -119,6 +114,11 @@ apis:
   description: The Widgets API from Interchecks — 4 operation(s) for widgets.
   name: Interchecks Widgets API
   slug: interchecks-widgets-api
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Oauth2 API from Interchecks — 1 operation(s) for oauth2.
+  name: Interchecks Oauth2 API
+  slug: interchecks-oauth2-api
 artifact_total: 21
 asyncapis:
 - description: ''
@@ -274,7 +274,7 @@ modified: '2026-08-23'
 name: Interchecks
 nav: Providers
 network: true
-overview: 'Interchecks publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Oauth2 API, and 13 more. Tagged areas include Payments, Payouts, ACH, Real-Time Payments, and Instant Payments.
+overview: 'Interchecks publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Payers API, and 13 more. Tagged areas include Payments, Payouts, ACH, Real-Time Payments, and Instant Payments.
 
 
   The Interchecks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -285,7 +285,7 @@ plans:
 - name: Interchecks Plans Pricing
   plan_count: 0
   slug: interchecks-plans-pricing
-random_paper: 16
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Interchecks Rate Limits
@@ -325,7 +325,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

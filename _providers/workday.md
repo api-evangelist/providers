@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -183,11 +183,6 @@ apis:
   slug: workday-pay-groups-api
 - baseURL: https://wd2-impl-services1.workday.com/ccx/api/
   baseurl_source: declared
-  description: Endpoints for accessing pay slips.
-  name: Workday Pay Slips API
-  slug: workday-pay-slips-api
-- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
-  baseurl_source: declared
   description: Endpoints for managing payroll inputs.
   name: Workday Payroll Inputs API
   slug: workday-payroll-inputs-api
@@ -286,6 +281,11 @@ apis:
   description: Endpoints for managing worker data.
   name: Workday Workers API
   slug: workday-workers-api
+- baseURL: https://api.workdayspend.com/services/
+  baseurl_source: declared
+  description: Endpoints for accessing pay slips.
+  name: Workday Payslips API
+  slug: workday-payslips-api
 arazzos:
 - description: Read a worker's current benefit elections and eligible plans, then initiate a benefit change event.
   name: Workday Change Benefits
@@ -2700,7 +2700,7 @@ plans:
 - name: Workday Plans Pricing
   plan_count: 1
   slug: workday-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Workday Rate Limits
@@ -2761,7 +2761,7 @@ score:
       total: 46
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

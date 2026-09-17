@@ -23,12 +23,12 @@ modified: '2026-07-20'
 name: Freejit
 nav: Providers
 network: true
-overview: Freejit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, Autocomplete, Search, and Defunct.
-random_paper: 10
+overview: Freejit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startups, Autocomplete, Search, and Defunct.
+random_paper: 19
 slug: freejit
 tags:
 - Company
-- Startup
+- Startups
 - Autocomplete
 - Search
 - Defunct

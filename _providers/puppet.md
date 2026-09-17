@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.7
-  scored_at: '2026-09-15'
+  score: 19.8
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -82,19 +82,7 @@ apis:
   description: GET endpoints that return information about known orchestrator jobs.
   name: Puppet Jobs API
   slug: puppet-jobs-api
-- description: The Module Operations API from Puppet — 2 operation(s) for module operations.
-  name: Puppet Module Operations API
-  slug: puppet-labs-module-operations-api
-- description: The Release Operations API from Puppet — 5 operation(s) for release operations.
-  name: Puppet Release Operations API
-  slug: puppet-labs-release-operations-api
-- description: The Search Filter Operations API from Puppet — 2 operation(s) for search filter operations.
-  name: Puppet Search Filter Operations API
-  slug: puppet-labs-search-filter-operations-api
-- description: The User Operations API from Puppet — 2 operation(s) for user operations.
-  name: Puppet User Operations API
-  slug: puppet-labs-user-operations-api
-artifact_total: 26
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -181,7 +169,7 @@ modified: '2026-04-28'
 name: Puppet
 nav: Providers
 network: true
-overview: 'Puppet publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Commands API, Jobs API, Module Operations API, and 3 more. Tagged areas include Automation, Configuration Management, DevOps, Enterprise, and Infrastructure as Code.
+overview: 'Puppet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Commands API and Jobs API. Tagged areas include Automation, Configuration Management, DevOps, Enterprise, and Infrastructure as Code.
 
 
   Puppet''s developer surface includes authentication, documentation, engineering blog, support, pricing, API reference, and 8 more developer resources.'
@@ -189,7 +177,7 @@ plans:
 - name: Puppet Plans Pricing
   plan_count: 3
   slug: puppet-plans-pricing
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Puppet Rate Limits
@@ -221,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

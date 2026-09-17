@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: The IESO's open market and system data surface. A flat HTTPS file repository publishing 139 report directories — hourly Ontario and market demand, HOEP and nodal/zonal prices, day-ahead and pre-dispat
@@ -242,7 +242,7 @@ overview: 'IESO publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   IESO''s developer surface includes documentation, API reference, support, signup flow, engineering blog, authentication, changelog, and 27 more developer resources.'
-random_paper: 12
+random_paper: 14
 scopes:
 - name: Ieso Scopes
   scope_count: 7
@@ -285,7 +285,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

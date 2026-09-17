@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,11 +82,11 @@ modified: '2026-07-20'
 name: Pienso
 nav: Providers
 network: true
-overview: 'Pienso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Deep Learning, and Large Language Models.
+overview: 'Pienso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Deep Learning, and LLM.
 
 
   Pienso''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 3
+random_paper: 16
 score:
   band: emerging
   composite: 13.4
@@ -109,7 +109,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -127,7 +127,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Deep Learning
-- Large Language Models
+- LLM
 - Natural Language Processing
 - No-Code
 - Document Intelligence

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - baseURL: https://mbracetrx.com/wp-json
@@ -53,11 +53,6 @@ apis:
   description: Company news archive — press releases, scientific presentations and publications (8 published at harvest time, spanning November 2023 through July 2025).
   name: MBrace Therapeutics News API
   slug: mbrace-therapeutics-news-api
-- baseURL: https://mbracetrx.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for mbracetrx.com URLs.
-  name: MBrace Therapeutics Oembed API
-  slug: mbrace-therapeutics-oembed-api
 - baseURL: https://mbracetrx.com/wp-json
   baseurl_source: declared
   description: Corporate site pages (12 published at harvest time).
@@ -83,6 +78,11 @@ apis:
   description: Post authors exposed by the users collection (3 at harvest time).
   name: MBrace Therapeutics Users API
   slug: mbrace-therapeutics-users-api
+- baseURL: https://mbracetrx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for mbracetrx.com URLs.
+  name: MBrace Therapeutics o Embed API
+  slug: mbrace-therapeutics-o-embed-api
 artifact_total: 13
 common:
 - group: other
@@ -228,7 +228,7 @@ plans:
 - name: Mbrace Therapeutics Plans Pricing
   plan_count: 0
   slug: mbrace-therapeutics-plans-pricing
-random_paper: 7
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Mbrace Therapeutics Rate Limits
@@ -268,7 +268,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

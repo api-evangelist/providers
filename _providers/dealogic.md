@@ -36,53 +36,128 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.7
-  scored_at: '2026-09-15'
-api_count: 8
+  scored_at: '2026-09-16'
+api_count: 16
 apis:
-- baseURL: https://spac.analytics.dealogic.com/
-  baseurl_source: declared
-  description: 'OData v4 read API over Dealogic''s SPAC (special purpose acquisition company) dataset: SPAC entries and their listings, IPO syndicate, attorneys, auditors, lockups and promote schedules, company manage'
-  name: Dealogic Analytics SPAC API
-  slug: dealogic-analytics-spac-api
-- baseURL: https://bank.analytics.dealogic.com/
-  baseurl_source: declared
-  description: 'Read API returning Dealogic bank-profile analytics for a given bank identifier: overall bank ranking plus rankings by region, industry and product, top deals, recently completed deals and pipeline dea'
-  name: Dealogic Analytics Bank API
-  slug: dealogic-analytics-bank-api
-- baseURL: https://company.analytics.dealogic.com/
-  baseurl_source: declared
-  description: 'Read API returning Dealogic company-profile analytics for a given company identifier: banking relationships and their momentum, top banks by investment-banking revenue and by lending volume, a drill-d'
-  name: Dealogic Analytics Company API
-  slug: dealogic-analytics-company-api
-- baseURL: https://sponsor.analytics.dealogic.com/
-  baseurl_source: declared
-  description: 'Read API returning Dealogic financial-sponsor analytics for a given sponsor identifier: investment activity over time, portfolio-company entries and exits, banking relationships ranked by fees and by '
-  name: Dealogic Analytics Sponsor API
-  slug: dealogic-analytics-sponsor-api
-- baseURL: https://api.reporting.dealogic.com/
-  baseurl_source: declared
-  description: 'Report-execution API over Dealogic''s reporting engine: fetch a saved report definition by report id, execute a report for a given valid-dates type, and execute a report with additional criteria or wit'
-  name: Dealogic Reporting API
-  slug: dealogic-reporting-api
-- baseURL: https://api.reporting.cortex.dealogic.com/
-  baseurl_source: declared
-  description: 'Report-execution API for the Dealogic Cortex platform (v1.2): retrieve the criteria available for a report id, execute a report by report id and valid-dates type, execute a report with extended criter'
-  name: Cortex Reporting API
-  slug: cortex-reporting-api
-- baseURL: https://api.profiles.dealogic.com/
-  baseurl_source: declared
-  description: 'Deal- and market-profile API served from Dealogic infrastructure: DCM and loan deal profiles by deal id, US leveraged-finance market profiles for high yield (priced deals, in-market deals, secondary p'
-  name: IONA Profiles API
-  slug: iona-profiles-api
 - description: 'File-based bulk data feed of Dealogic''s investment banking content: over 2 million transactions since 1995 across Equity Capital Markets, Debt Capital Markets, syndicated loans and M&A, plus 1.1 milli'
   name: Dealogic Primary Market Deals & Entities Feed
   slug: dealogic-primary-market-deals-entities-feed
-artifact_total: 16
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The Admin API from Dealogic — 1 operation(s) for admin.
+  name: Dealogic Admin API
+  slug: dealogic-admin-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The Data API from Dealogic — 27 operation(s) for data.
+  name: Dealogic Data API
+  slug: dealogic-data-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The DcmDeal API from Dealogic — 1 operation(s) for dcmdeal.
+  name: Dealogic Dcm Deal API
+  slug: dealogic-dcmdeal-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The Entity Navigation API from Dealogic — 44 operation(s) for entity navigation.
+  name: Dealogic Entity Navigation API
+  slug: dealogic-entity-navigation-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The LevfinMarketUpdate API from Dealogic — 16 operation(s) for levfinmarketupdate.
+  name: Dealogic Levfin Market Update API
+  slug: dealogic-levfinmarketupdate-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The LoanDeal API from Dealogic — 1 operation(s) for loandeal.
+  name: Dealogic Loan Deal API
+  slug: dealogic-loandeal-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The OrganizationSpacProfile API from Dealogic — 8 operation(s) for organizationspacprofile.
+  name: Dealogic Organization Spac Profile API
+  slug: dealogic-organizationspacprofile-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The Related Entities API from Dealogic — 32 operation(s) for related entities.
+  name: Dealogic Related Entities API
+  slug: dealogic-related-entities-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The ReportData API from Dealogic — 7 operation(s) for reportdata.
+  name: Dealogic Report Data API
+  slug: dealogic-reportdata-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The Root Entity API from Dealogic — 1 operation(s) for root entity.
+  name: Dealogic Root Entity API
+  slug: dealogic-root-entity-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The Spac Admin API from Dealogic — 4 operation(s) for spac admin.
+  name: Dealogic Spac Admin API
+  slug: dealogic-spac-admin-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The Spac Reader API from Dealogic — 1 operation(s) for spac reader.
+  name: Dealogic Spac Reader API
+  slug: dealogic-spac-reader-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The Spac Writer API from Dealogic — 9 operation(s) for spac writer.
+  name: Dealogic Spac Writer API
+  slug: dealogic-spac-writer-api
+- baseURL: https://spac.analytics.dealogic.com/
+  baseurl_source: declared
+  description: The Test API from Dealogic — 1 operation(s) for test.
+  name: Dealogic Test API
+  slug: dealogic-test-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Dealogic Events
   slug: dealogic-events
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/overlays/dealogic-analytics-spac-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dealogic-analytics-spac-v2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/overlays/dealogic-analytics-spac-v1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dealogic-analytics-spac-v1-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/overlays/dealogic-analytics-bank-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dealogic-analytics-bank-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/overlays/dealogic-analytics-company-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dealogic-analytics-company-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/overlays/dealogic-analytics-sponsor-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dealogic-analytics-sponsor-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/overlays/dealogic-reporting-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dealogic-reporting-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/overlays/dealogic-cortex-reporting-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dealogic-cortex-reporting-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/overlays/dealogic-iona-profiles-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dealogic-iona-profiles-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/security/dealogic-domain-security.yml
   title: ''
@@ -269,18 +344,18 @@ modified: '2026-09-05'
 name: Dealogic
 nav: Providers
 network: true
-overview: 'Dealogic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics SPAC API, Analytics Bank API, Analytics Company API, and 4 more. Tagged areas include Analytics, Capital Markets, Compliance, Deal Management, and Debt Capital Markets.
+overview: 'Dealogic publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Data API, Dcm Deal API, and 11 more. Tagged areas include Analytics, Capital Markets, Compliance, Deal Management, and Debt Capital Markets.
 
 
   The Dealogic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dealogic''s developer surface includes documentation, API reference, privacy policy, support, engineering blog, signup flow, authentication, and 33 more developer resources.'
+  Dealogic''s developer surface includes documentation, API reference, privacy policy, support, engineering blog, signup flow, authentication, and 41 more developer resources.'
 plans:
 - name: Dealogic Plans Pricing
   plan_count: 0
   slug: dealogic-plans-pricing
-random_paper: 5
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Dealogic Rate Limits
@@ -292,21 +367,21 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 41.8
+  composite: 42.8
   coverage:
     artifact_dirs: 21
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 39.4
+    contract_quality: 45.7
     developer_ergonomics: 54.2
-    discoverability: 72.2
+    discoverability: 66.7
     operational_transparency: 2.6
   previous_composite: 41.8
   provenance:
@@ -315,7 +390,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 14
     mcp: derived
     skills: derived
   regulatory:
@@ -325,7 +400,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

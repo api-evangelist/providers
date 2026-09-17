@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Public, no-auth REST API for scoring OpenAPI documents. GET /api/review/checks returns the full set of checks; POST /api/review scores a submitted OpenAPI document with category scores, per-check brea
@@ -153,7 +153,7 @@ plans:
 - name: Elva Plans Pricing
   plan_count: 4
   slug: elva-plans-pricing
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Elva Rate Limits
@@ -181,7 +181,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

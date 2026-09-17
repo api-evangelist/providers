@@ -34,19 +34,9 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://{tenant}.atomicwork.com/api/v1
-  baseurl_source: declared
-  description: The accessManagement API from Atomicwork — 8 operation(s) for accessmanagement.
-  name: Atomicwork accessManagement API
-  slug: atomicwork-accessmanagement-api
-- baseURL: https://{tenant}.atomicwork.com/api/v1
-  baseurl_source: declared
-  description: The agentGroups API from Atomicwork — 3 operation(s) for agentgroups.
-  name: Atomicwork agentGroups API
-  slug: atomicwork-agentgroups-api
 - baseURL: https://{tenant}.atomicwork.com/api/v1
   baseurl_source: declared
   description: The assets API from Atomicwork — 7 operation(s) for assets.
@@ -54,24 +44,9 @@ apis:
   slug: atomicwork-assets-api
 - baseURL: https://{tenant}.atomicwork.com/api/v1
   baseurl_source: declared
-  description: The auditLogs API from Atomicwork — 3 operation(s) for auditlogs.
-  name: Atomicwork auditLogs API
-  slug: atomicwork-auditlogs-api
-- baseURL: https://{tenant}.atomicwork.com/api/v1
-  baseurl_source: declared
   description: The businessHourConfig API from Atomicwork — 2 operation(s) for businesshourconfig.
   name: Atomicwork businessHourConfig API
   slug: atomicwork-businesshourconfig-api
-- baseURL: https://{tenant}.atomicwork.com/api/v1
-  baseurl_source: declared
-  description: The changeManagement API from Atomicwork — 7 operation(s) for changemanagement.
-  name: Atomicwork changeManagement API
-  slug: atomicwork-changemanagement-api
-- baseURL: https://{tenant}.atomicwork.com/api/v1
-  baseurl_source: declared
-  description: The customObjects API from Atomicwork — 7 operation(s) for customobjects.
-  name: Atomicwork customObjects API
-  slug: atomicwork-customobjects-api
 - baseURL: https://{tenant}.atomicwork.com/api/v1
   baseurl_source: declared
   description: The entities API from Atomicwork — 1 operation(s) for entities.
@@ -94,11 +69,6 @@ apis:
   slug: atomicwork-requests-api
 - baseURL: https://{tenant}.atomicwork.com/api/v1
   baseurl_source: declared
-  description: The serviceCatalog API from Atomicwork — 7 operation(s) for servicecatalog.
-  name: Atomicwork serviceCatalog API
-  slug: atomicwork-servicecatalog-api
-- baseURL: https://{tenant}.atomicwork.com/api/v1
-  baseurl_source: declared
   description: The tags API from Atomicwork — 2 operation(s) for tags.
   name: Atomicwork tags API
   slug: atomicwork-tags-api
@@ -117,6 +87,36 @@ apis:
   description: The workspaces API from Atomicwork — 3 operation(s) for workspaces.
   name: Atomicwork workspaces API
   slug: atomicwork-workspaces-api
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The Access Management API from Atomicwork — 8 operation(s) for access management.
+  name: Atomicwork Access Management API
+  slug: atomicwork-access-management-api
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The Agent Groups API from Atomicwork — 3 operation(s) for agent groups.
+  name: Atomicwork Agent Groups API
+  slug: atomicwork-agent-groups-api
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The Audit Logs API from Atomicwork — 3 operation(s) for audit logs.
+  name: Atomicwork Audit Logs API
+  slug: atomicwork-audit-logs-api
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The Change Management API from Atomicwork — 7 operation(s) for change management.
+  name: Atomicwork Change Management API
+  slug: atomicwork-change-management-api
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The Custom Objects API from Atomicwork — 7 operation(s) for custom objects.
+  name: Atomicwork Custom Objects API
+  slug: atomicwork-custom-objects-api
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The Service Catalog API from Atomicwork — 7 operation(s) for service catalog.
+  name: Atomicwork Service Catalog API
+  slug: atomicwork-service-catalog-api
 artifact_total: 38
 collections:
 - collection_type: open
@@ -317,14 +317,14 @@ modified: '2026-07-18'
 name: Atomicwork
 nav: Providers
 network: true
-overview: 'Atomicwork publishes 16 APIs on the [APIs.io](https://apis.io/) network, including accessManagement API, agentGroups API, assets API, and 13 more. Tagged areas include Company, Service Management, ITSM, ESM, and IT Service Desk.
+overview: 'Atomicwork publishes 16 APIs on the [APIs.io](https://apis.io/) network, including assets API, businessHourConfig API, entities API, and 13 more. Tagged areas include Company, Service Management, ITSM, ESM, and IT Service Desk.
 
 
   Atomicwork''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 17
+random_paper: 10
 score:
   band: developing
-  composite: 49.6
+  composite: 49.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -332,11 +332,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 49.6
+    contract_quality: 49.4
     developer_ergonomics: 54.2
     discoverability: 75.9
     operational_transparency: 18.4
@@ -351,7 +351,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

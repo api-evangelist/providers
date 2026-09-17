@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.angle.money
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://api.angle.money
   baseurl_source: declared
   description: The Angle Protocol Data API from Angle — 3 operation(s) for angle protocol data.
-  name: Angle Angle Protocol Data API
+  name: Angle Protocol Data API
   slug: angle-angle-protocol-data-api
 - baseURL: https://api.angle.money
   baseurl_source: declared
@@ -328,18 +328,18 @@ created: '2026-07-17'
 description: Angle (Angle Labs, Inc.) is a decentralized, over-collateralized stablecoin protocol that issued the euro-pegged EURA and dollar-pegged USDA stablecoins, along with yield-bearing staked versions of each. Its on-chain modules included the Transmuter basket-and-dynamic-fee minting system, a borrowing module for depositing collateral against stablecoin debt, a native savings system, and cross-chain liquidity infrastructure. The protocol is open source under the AngleProtocol GitHub organization and ships a TypeScript SDK for building applications on top of it. Angle has announced the end of its operations — the protocol remains fully collateralized and every USDA and EURA is redeemable 1:1 until 1 March 2027 — and the team's ongoing work has moved to Merkl. Angle exposes smart contracts and a client SDK rather than a documented public REST API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/angle.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Angle
 nav: Providers
 network: true
-overview: 'Angle publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Allowances API, Angle Protocol Data API, App API, and 17 more. Tagged areas include Company, Stablecoins, Decentralized Finance, Blockchain, and Cryptocurrency.
+overview: 'Angle publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Allowances API, Protocol Data API, App API, and 17 more. Tagged areas include Company, Stablecoins, Decentralized Finance, Blockchain, and Cryptocurrency.
 
 
   Angle''s developer surface includes authentication, documentation, and 24 more developer resources.'
-random_paper: 15
+random_paper: 13
 score:
   band: thin
-  composite: 28.9
+  composite: 29.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -347,11 +347,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 42.8
+    contract_quality: 47.3
     developer_ergonomics: 37.5
     discoverability: 75.9
     operational_transparency: 10.5
@@ -369,7 +369,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -193,10 +193,10 @@ overview: 'Securden publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Securden''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 17
+random_paper: 21
 score:
   band: developing
-  composite: 42.9
+  composite: 43.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -204,11 +204,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 38.1
+    contract_quality: 40.8
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 2.6
@@ -224,7 +224,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

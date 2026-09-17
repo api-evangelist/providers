@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
 - baseURL: https://api.merchant.geidea.net
   baseurl_source: declared
   description: Server-to-server 3-D Secure authentication and card payment.
-  name: Geidea Direct API API
+  name: Geidea Direct API
   slug: geidea-direct-api-api
 - baseURL: https://api.merchant.geidea.net
   baseurl_source: declared
@@ -150,11 +150,11 @@ finops:
   slug: geidea-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geidea.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-09-16'
 name: Geidea
 nav: Providers
 network: true
-overview: 'Geidea publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Direct API API, Tokenization API, and 1 more. Tagged areas include Payments, Payment Gateway, Saudi Arabia, Egypt, and MENA.
+overview: 'Geidea publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Checkout API, Direct API, Tokenization API, and 1 more. Tagged areas include Payments, Payment Gateway, Saudi Arabia, Egypt, and MENA.
 
 
   Geidea''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -162,7 +162,7 @@ plans:
 - name: Geidea Plans Pricing
   plan_count: 2
   slug: geidea-plans-pricing
-random_paper: 19
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Geidea Rate Limits
@@ -208,7 +208,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

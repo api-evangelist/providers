@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://www.fdr.uni-hamburg.de/api
-  baseurl_source: declared
-  description: Read API of the ZFDM Repository (Forschungsdatenrepositorium), operated by Universität Hamburg's Zentrum für nachhaltiges Forschungsdatenmanagement on the institution's own host. Returns records, comm
-  name: ZFDM Research Data Repository API
-  slug: zfdm-repository-api
 - description: 'OAI-PMH 2.0 harvesting interface of the ZFDM Research Data Repository. Verified live 2026-09-01: repositoryName "ZFDM Repository", adminEmail repository.fdm@uni-hamburg.de, earliest datestamp 2019-04-'
   name: ZFDM Repository OAI-PMH
   slug: zfdm-oai
@@ -74,7 +69,27 @@ apis:
 - description: Open Access discovery portal aggregating freely available publications, research data, teaching materials and scientific collections of Universität Hamburg. Human-facing only — no documented REST API.
   name: Open-Access-Portal Universität Hamburg
   slug: open-access-portal
-artifact_total: 20
+- baseURL: https://www.fdr.uni-hamburg.de/api
+  baseurl_source: declared
+  description: Curated collections within the repository.
+  name: Universität Hamburg Communities API
+  slug: universitat-hamburg-communities-api
+- baseURL: https://www.fdr.uni-hamburg.de/api
+  baseurl_source: declared
+  description: File buckets attached to a record.
+  name: Universität Hamburg Files API
+  slug: universitat-hamburg-files-api
+- baseURL: https://www.fdr.uni-hamburg.de/api
+  baseurl_source: declared
+  description: Controlled license vocabulary used by records.
+  name: Universität Hamburg Licenses API
+  slug: universitat-hamburg-licenses-api
+- baseURL: https://www.fdr.uni-hamburg.de/api
+  baseurl_source: declared
+  description: Published research-data records and their metadata.
+  name: Universität Hamburg Records API
+  slug: universitat-hamburg-records-api
+artifact_total: 23
 common:
 - group: company
   title: ''
@@ -195,7 +210,7 @@ modified: '2026-09-01'
 name: Universität Hamburg
 nav: Providers
 network: true
-overview: 'Universität Hamburg publishes 1 API on the [APIs.io](https://apis.io/) network: ZFDM Research Data Repository API. Tagged areas include Education, Higher Education, University, Germany, and Research Data.
+overview: 'Universität Hamburg publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Communities API, Files API, Licenses API, and 1 more. Tagged areas include Education, Higher Education, University, Germany, and Research Data.
 
 
   The Universität Hamburg catalog on APIs.io includes 1 JSON-LD context.
@@ -206,14 +221,14 @@ plans:
 - name: Universitat Hamburg Plans Pricing
   plan_count: 2
   slug: universitat-hamburg-plans-pricing
-random_paper: 6
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Universitat Hamburg Rate Limits
   slug: universitat-hamburg-rate-limits
 score:
   band: thin
-  composite: 34.8
+  composite: 34.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 59.0
@@ -221,11 +236,11 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 23.5
+    contract_quality: 23.7
     developer_ergonomics: 35.7
     discoverability: 59.3
     operational_transparency: 23.7
@@ -242,9 +257,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 4
       marker_coverage: 100.0
-      total: 1
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
@@ -252,7 +267,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

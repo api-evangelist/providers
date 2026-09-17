@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Hoppscotch is a lightweight open-source browser-based API client supporting REST, GraphQL, WebSockets, SSE, and MQTT. It provides a minimalist, web-based API development suite with real-time collabora
@@ -177,7 +177,7 @@ plans:
 - name: Hoppscotch Plans Pricing
   plan_count: 3
   slug: hoppscotch-plans-pricing
-random_paper: 12
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Hoppscotch Rate Limits
@@ -202,7 +202,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 41.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -222,6 +222,6 @@ tags:
 - Open-Source
 - Platform
 - REST
-- WebSockets
+- WebSocket
 website: https://hoppscotch.com
 ---

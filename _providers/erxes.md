@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GraphQL Federation API powering the erxes XOS platform. An Apollo Router gateway federates one subgraph per plugin — core (contacts, companies, products, tags, documents, brands, organization structur
@@ -255,7 +255,7 @@ plans:
 - name: Erxes Plans Pricing
   plan_count: 5
   slug: erxes-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Erxes Rate Limits
@@ -289,7 +289,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -59,18 +59,13 @@ apis:
   slug: openbmc-chassis-api
 - baseURL_template: https://{bmc}/redfish/v1
   baseurl_source: spec_template
-  description: The EventService API from OpenBMC — 1 operation(s) for eventservice.
-  name: OpenBMC EventService API
-  slug: openbmc-eventservice-api
-- baseURL_template: https://{bmc}/redfish/v1
-  baseurl_source: spec_template
   description: The Managers API from OpenBMC — 3 operation(s) for managers.
   name: OpenBMC Managers API
   slug: openbmc-managers-api
 - baseURL_template: https://{bmc}/redfish/v1
   baseurl_source: spec_template
   description: The OpenBMC Redfish API API from OpenBMC — 1 operation(s) for openbmc redfish api.
-  name: OpenBMC OpenBMC Redfish API API
+  name: OpenBMC Redfish API
   slug: openbmc-openbmc-redfish-api-api
 - baseURL_template: https://{bmc}/redfish/v1
   baseurl_source: spec_template
@@ -84,9 +79,14 @@ apis:
   slug: openbmc-systems-api
 - baseURL_template: https://{bmc}/redfish/v1
   baseurl_source: spec_template
-  description: The UpdateService API from OpenBMC — 1 operation(s) for updateservice.
-  name: OpenBMC UpdateService API
-  slug: openbmc-updateservice-api
+  description: The Event Service API from OpenBMC — 1 operation(s) for event service.
+  name: OpenBMC Event Service API
+  slug: openbmc-event-service-api
+- baseURL_template: https://{bmc}/redfish/v1
+  baseurl_source: spec_template
+  description: The Update Service API from OpenBMC — 1 operation(s) for update service.
+  name: OpenBMC Update Service API
+  slug: openbmc-update-service-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -151,11 +151,11 @@ finops:
   slug: openbmc-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openbmc.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: OpenBMC
 nav: Providers
 network: true
-overview: 'OpenBMC publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AccountService API, Chassis API, EventService API, and 5 more. Tagged areas include Firmware, Hardware, Linux Foundation, and Server.
+overview: 'OpenBMC publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AccountService API, Chassis API, Managers API, and 5 more. Tagged areas include Firmware, Hardware, Linux Foundation, and Servers.
 
 
   OpenBMC''s developer surface includes authentication, documentation, and 3 more developer resources.'
@@ -163,7 +163,7 @@ plans:
 - name: Openbmc Plans Pricing
   plan_count: 3
   slug: openbmc-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Openbmc Rate Limits
@@ -195,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -211,5 +211,5 @@ tags:
 - Firmware
 - Hardware
 - Linux Foundation
-- Server
+- Servers
 ---

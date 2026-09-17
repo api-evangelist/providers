@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: 'NTNU runs its own Open Journal Systems installation, "NTNU Open Access Journals", on its own registrable domain at www.ntnu.no/ojs, publishing sixteen journals including Nordic Journal of Science and '
@@ -189,7 +189,7 @@ finops:
   slug: ntnu-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ntnu.png
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: Norwegian University of Science and Technology
 nav: Providers
 network: true
@@ -201,7 +201,7 @@ plans:
 - name: Ntnu Plans Pricing
   plan_count: 2
   slug: ntnu-plans-pricing
-random_paper: 12
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Ntnu Rate Limits
@@ -242,7 +242,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -271,5 +271,6 @@ tags:
 - Course Catalog
 - Norway
 - Scandinavia
+- Identity Federation
 website: https://www.ntnu.edu/
 ---

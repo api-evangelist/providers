@@ -19,7 +19,7 @@ name: Echelon
 nav: Providers
 network: true
 overview: Echelon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Energy, IoT, and Control Networking.
-random_paper: 20
+random_paper: 8
 slug: echelon
 tags:
 - Company

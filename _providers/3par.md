@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for managing HPE 3PAR StoreServ / Primera / Alletra storage arrays — virtual volumes, CPGs, hosts, ports, VLUNs, snapshots, and remote copy. Served by the WSAPI server that runs on each array
@@ -82,7 +82,7 @@ overview: '3PAR (HPE 3PAR StoreServ) publishes 1 API on the [APIs.io](https://ap
 
 
   3PAR (HPE 3PAR StoreServ)''s developer surface includes documentation, API reference, support, and 4 more developer resources.'
-random_paper: 17
+random_paper: 0
 score:
   band: emerging
   composite: 14.8
@@ -109,7 +109,7 @@ score:
       reason: never_enriched
   previous_composite: 14.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

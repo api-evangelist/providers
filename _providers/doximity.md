@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -45,14 +45,14 @@ api_count: 1
 apis:
 - baseURL: https://auth.doximity.com
   baseurl_source: declared
-  description: OAuth 2.0 authorization and token endpoints
-  name: Doximity OAuth API
-  slug: doximity-oauth-api
-- baseURL: https://auth.doximity.com
-  baseurl_source: declared
   description: Identity and discovery endpoints
   name: Doximity OpenID Connect API
   slug: doximity-openid-connect-api
+- baseURL: https://auth.doximity.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token endpoints
+  name: Doximity O Auth API
+  slug: doximity-oauth-api
 artifact_total: 12
 collections:
 - collection_type: open
@@ -223,11 +223,11 @@ modified: '2026-07-18'
 name: Doximity
 nav: Providers
 network: true
-overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAuth API and OpenID Connect API. Tagged areas include Company, Health Tech, Identity, Authentication, and OpenID Connect.
+overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network: OpenID Connect API and O Auth API. Tagged areas include Company, Health Tech, Identity, Authentication, and OpenID Connect.
 
 
   Doximity''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 27 more developer resources.'
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Doximity Rate Limits
@@ -273,7 +273,7 @@ score:
     regime_id: health
     score: 72.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

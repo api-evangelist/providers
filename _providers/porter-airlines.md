@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,11 +113,11 @@ modified: '2026-07-28'
 name: Porter Airlines
 nav: Providers
 network: true
-overview: 'Porter Airlines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airline, and Flights.
+overview: 'Porter Airlines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airlines, and Flights.
 
 
   Porter Airlines'' developer surface includes signup flow, support, and 14 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: emerging
   composite: 14.1
@@ -147,7 +147,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ tags:
 - Travel
 - Canada
 - Aviation
-- Airline
+- Airlines
 - Flights
 - Distribution
 - GDS

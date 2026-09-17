@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -82,11 +82,6 @@ apis:
   slug: hathora-logsv1-api
 - baseURL: https://api.hathora.dev
   baseurl_source: declared
-  description: Read CPU, memory, egress, and connection metrics for a process.
-  name: Hathora MetricsV1 API
-  slug: hathora-metricsv1-api
-- baseURL: https://api.hathora.dev
-  baseurl_source: declared
   description: Launch, inspect, and stop running game server processes.
   name: Hathora ProcessesV3 API
   slug: hathora-processesv3-api
@@ -100,6 +95,11 @@ apis:
   description: Create, list, and revoke organization API tokens.
   name: Hathora TokensV1 API
   slug: hathora-tokensv1-api
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Read CPU, memory, egress, and connection metrics for a process.
+  name: Hathora Metrics V1 API
+  slug: hathora-metrics-v1-api
 artifact_total: 30
 collections:
 - collection_type: open
@@ -217,7 +217,7 @@ plans:
 - name: Hathora Plans Pricing
   plan_count: 3
   slug: hathora-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Hathora Rate Limits
@@ -249,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://zetagen.com/wp-json
@@ -255,11 +255,11 @@ modified: '2026-08-05'
 name: Zetagen Therapeutics
 nav: Providers
 network: true
-overview: 'Zetagen Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Downloads API, and 6 more. Tagged areas include Company, biopharmaceuticals, Oncology, Bone Health, and Orthopedics.
+overview: 'Zetagen Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Downloads API, and 6 more. Tagged areas include Company, Biopharmaceutical, Oncology, Bone Health, and Orthopedics.
 
 
   Zetagen Therapeutics'' developer surface includes product news, authentication, and 28 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: emerging
   composite: 22.2
@@ -299,7 +299,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -318,7 +318,7 @@ security:
 slug: zetagen-therapeutics
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Oncology
 - Bone Health
 - Orthopedics

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: OpenAI-compatible HTTP inference gateway. One client works against every upstream provider; per-workflow routing rules pick the model, provider, and infrastructure, with a layered exact/prefix/semanti
@@ -132,7 +132,7 @@ overview: 'Cumulus Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Cumulus Labs'' developer surface includes documentation, getting-started guide, API reference, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 6
+random_paper: 13
 score:
   band: emerging
   composite: 25.8
@@ -155,7 +155,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

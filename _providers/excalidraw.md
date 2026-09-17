@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The official React component package for embedding the Excalidraw canvas. Provides programmatic control over scene state, libraries, and serialized JSON. There is no Excalidraw REST API; integrations '
@@ -121,7 +121,7 @@ plans:
 - name: Excalidraw Plans Pricing
   plan_count: 1
   slug: excalidraw-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Excalidraw Rate Limits
@@ -148,7 +148,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://centrexion.com/wp-json
@@ -57,11 +57,6 @@ apis:
   description: Media library. `X-WP-Total` reports 43 attachments; anonymous enumeration returns fewer (see the listMedia description).
   name: Centrexion Therapeutics Media API
   slug: centrexion-therapeutics-media-api
-- baseURL: https://centrexion.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for centrexion.com URLs.
-  name: Centrexion Therapeutics Oembed API
-  slug: centrexion-therapeutics-oembed-api
 - baseURL: https://centrexion.com/wp-json
   baseurl_source: declared
   description: Corporate pages (6 published at harvest time — Home, Team, Pipeline, Contact, Privacy Policy, Terms of Use).
@@ -87,6 +82,11 @@ apis:
   description: Categories, tags and the post_series taxonomy. Only the default `Uncategorized` category exists; `post_tag` and `post_series` are registered but empty.
   name: Centrexion Therapeutics Taxonomy API
   slug: centrexion-therapeutics-taxonomy-api
+- baseURL: https://centrexion.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for centrexion.com URLs.
+  name: Centrexion Therapeutics o Embed API
+  slug: centrexion-therapeutics-o-embed-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -231,7 +231,7 @@ overview: 'Centrexion Therapeutics publishes 10 APIs on the [APIs.io](https://ap
 
 
   Centrexion Therapeutics'' developer surface includes authentication and 20 more developer resources.'
-random_paper: 14
+random_paper: 9
 score:
   band: thin
   composite: 37.4
@@ -266,7 +266,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -73,11 +73,6 @@ apis:
   description: Customer Profiles
   name: Newstore customer-profile API
   slug: newstore-customer-profile-api
-- baseURL: https://dodici-demo.p.newstore.net
-  baseurl_source: declared
-  description: Customer Profiles
-  name: Newstore customerProfile API
-  slug: newstore-customerprofile-api
 - baseURL: https://dodici-demo.p.newstore.net
   baseurl_source: declared
   description: PII Data
@@ -248,7 +243,7 @@ apis:
   description: Users
   name: Newstore users API
   slug: newstore-users-api
-artifact_total: 89
+artifact_total: 88
 asyncapis:
 - description: ''
   name: Newstore Webhooks
@@ -384,6 +379,10 @@ collections:
   name: NewStore address users API
   slug: open-newstore-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://newstore.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/capabilities/newstore-capability-edges.yml
   title: ''
@@ -530,18 +529,18 @@ created: '2026-07-17'
 description: NewStore is a mobile-first omnichannel order management system (OMS) and point-of-service platform for retail brands. Its cloud platform unifies order management, mobile POS and checkout, clienteling, inventory and availability, fulfillment and order routing, returns, tax, fiscalization, and store operations into a single system, exposed through the NewStore Omnichannel REST API. The public API covers carts and checkout, customer profiles, orders and sales orders, in-store pickup and shipments, stock and reservations, fulfillment routing, catalog/pricebook/product export, identity and access management (users, roles, providers), and tenant/store configuration. Integrations are delivered through a documented webhook/adapter surface (payment, tax, shipping, fulfillment, gift card, availability, and an event stream). Authentication is OAuth 2.0 client-credentials against a per-tenant Keycloak identity server. NewStore was founded by Stephan Schambach.
 image: https://developer.newstore.com/static/images/logo.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Newstore
 nav: Providers
 network: true
-overview: 'Newstore publishes 41 APIs on the [APIs.io](https://apis.io/) network, including address API, audit-events API, cart API, and 38 more. Tagged areas include Company, Retail, Omnichannel, Order Management, and Point-of-Sale.
+overview: 'Newstore publishes 40 APIs on the [APIs.io](https://apis.io/) network, including address API, audit-events API, cart API, and 37 more. Tagged areas include Company, Retail, Omnichannel, Order Management, and Point-of-Sale.
 
 
   The Newstore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Newstore''s developer surface includes authentication, documentation, API reference, changelog, pricing, support, sandbox, and 24 more developer resources.'
-random_paper: 5
+  Newstore''s developer surface includes authentication, documentation, API reference, changelog, pricing, support, sandbox, and 25 more developer resources.'
+random_paper: 7
 scopes:
 - name: Newstore Scopes
   scope_count: 29
@@ -573,11 +572,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 41
+      total: 40
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -604,5 +603,5 @@ tags:
 - Inventory
 - Store Operations
 - REST
-website: https://developer.newstore.com
+website: https://newstore.com
 ---

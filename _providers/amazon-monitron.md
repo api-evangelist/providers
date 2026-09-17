@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -84,6 +84,10 @@ collections:
   name: Amazon Monitron ProjectAdmins Tags API
   slug: open-amazon-monitron-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -239,7 +243,7 @@ jsonld:
   property_count: 10
   slug: amazon-monitron-monitron-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Monitron
 nav: Providers
 network: true
@@ -249,12 +253,12 @@ overview: 'Amazon Monitron publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Amazon Monitron catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Monitron''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Monitron''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Monitron Plans Pricing
   plan_count: 3
   slug: amazon-monitron-plans-pricing
-random_paper: 2
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Monitron Rate Limits
@@ -308,7 +312,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -345,5 +349,5 @@ use_cases:
   name: Downtime Reduction
 - description: Deploy sensors across entire manufacturing facilities for comprehensive asset health.
   name: Plant-Wide Monitoring
-website: https://aws.amazon.com/monitron/
+website: https://amazon.com
 ---

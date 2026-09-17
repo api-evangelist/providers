@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.habu.com/v1/
@@ -397,7 +397,7 @@ plans:
 - name: Habu Plans Pricing
   plan_count: 0
   slug: habu-plans-pricing
-random_paper: 17
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Habu Rate Limits
@@ -441,7 +441,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

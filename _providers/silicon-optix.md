@@ -24,7 +24,7 @@ name: Silicon Optix
 nav: Providers
 network: true
 overview: Silicon Optix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Video Processing, Hardware, and Chips.
-random_paper: 18
+random_paper: 20
 slug: silicon-optix
 tags:
 - Company

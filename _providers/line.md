@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 4
@@ -70,12 +70,12 @@ apis:
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The line-module API from LINE — 4 operation(s) for line-module.
-  name: LINE Line Module API
+  name: LINE Module API
   slug: line-line-module-api
 - baseURL: https://api.line.me
   baseurl_source: declared
   description: The line-module-attach API from LINE — 1 operation(s) for line-module-attach.
-  name: LINE Line Module Attach API
+  name: LINE Module Attach API
   slug: line-line-module-attach-api
 - baseURL: https://api.line.me
   baseurl_source: declared
@@ -391,7 +391,7 @@ mcp_servers:
 - description: First-party Model Context Protocol server published by LY Corporation that wraps the LINE Messaging API so an AI agent can drive a LINE Official Account — pushing and broadcasting text and Flex messag
   name: MCP Server manifest
   slug: mcp-server-manifest
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: LINE
 nav: Providers
 network: true
@@ -406,7 +406,7 @@ plans:
 - name: Line Plans Pricing
   plan_count: 3
   slug: line-plans-pricing
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 10
   name: Line Rate Limits
@@ -430,7 +430,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.1
+  composite: 69.9
   coverage:
     artifact_dirs: 27
     catalog_earned: 68.5
@@ -438,11 +438,11 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 76.3
     contract_governance: 31.8
-    contract_quality: 58.0
+    contract_quality: 61.3
     developer_ergonomics: 80.4
     discoverability: 81.5
     operational_transparency: 92.1
@@ -465,7 +465,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -493,7 +493,7 @@ tags:
 - Marketing
 - Webhook
 - OpenID Connect
-- Audience
+- Audiences
 - Analytics
 - Japan
 website: https://line.me

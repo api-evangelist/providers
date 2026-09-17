@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -220,6 +220,10 @@ collections:
   name: Broadcom Operations for Applications REST Alerts Workload Domains API
   slug: open-broadcom-workload-domains-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://broadcom.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/capabilities/broadcom-capability-edges.yml
   title: ''
@@ -307,7 +311,7 @@ jsonld:
   property_count: 18
   slug: broadcom-context
 layout: provider
-modified: '2026-08-21'
+modified: '2026-09-16'
 name: Broadcom
 nav: Providers
 network: true
@@ -317,7 +321,7 @@ overview: 'Broadcom publishes 20 APIs on the [APIs.io](https://apis.io/) network
   The Broadcom catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Broadcom''s developer surface includes authentication and 11 more developer resources.'
+  Broadcom''s developer surface includes authentication and 12 more developer resources.'
 plans:
 - name: Broadcom Plans Pricing
   plan_count: 1
@@ -338,7 +342,7 @@ press:
 - date: '2026-05-25'
   title: News Releases - Broadcom News and Stories
   url: https://news.broadcom.com/releases
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Broadcom Rate Limits
@@ -381,7 +385,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -405,4 +409,5 @@ tags:
 - Observability
 - Virtualization
 - Fortune 500
+website: https://broadcom.com
 ---

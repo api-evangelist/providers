@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 1
@@ -84,11 +84,6 @@ apis:
   description: Create, retrieve, update, and delete individual data items within a collection. A data item is a single record conforming to the collection's schema.
   name: Lucid Data Item API
   slug: lucid-data-item-api
-- baseURL: https://api.lucid.co
-  baseurl_source: declared
-  description: Create, retrieve, update, and delete data sets. A data set is a top-level container that groups related data sources and their collections.
-  name: Lucid Data Set API
-  slug: lucid-data-set-api
 - baseURL: https://api.lucid.co
   baseurl_source: declared
   description: Manage access grants on data sets to control which users or applications can read or write data.
@@ -229,6 +224,11 @@ apis:
   description: Retrieve, create, and search for users within the authenticated account. Includes user profile access.
   name: Lucid Users API
   slug: lucid-users-api
+- baseURL: https://mcp.lucid.app/mcp
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete data sets. A data set is a top-level container that groups related data sources and their collections.
+  name: Lucid Dataset API
+  slug: lucid-dataset-api
 artifact_total: 48
 collections:
 - collection_type: open
@@ -447,7 +447,7 @@ overview: 'Lucid publishes 36 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Lucid''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 4
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Lucid Rate Limits
@@ -487,7 +487,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

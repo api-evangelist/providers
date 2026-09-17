@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 6
@@ -134,11 +134,6 @@ apis:
   description: The AppAccessRequestDefaults API from ConductorOne — 2 operation(s) for appaccessrequestdefaults.
   name: ConductorOne AppAccessRequestDefaults API
   slug: conductorone-appaccessrequestdefaults-api
-- baseURL: https://example.conductor.one
-  baseurl_source: declared
-  description: The AppUsers API from ConductorOne — 5 operation(s) for appusers.
-  name: ConductorOne AppUsers API
-  slug: conductorone-appusers-api
 - baseURL: https://example.conductor.one
   baseurl_source: declared
   description: The Attribute API from ConductorOne — 6 operation(s) for attribute.
@@ -274,6 +269,11 @@ apis:
   description: The Webhook API from ConductorOne — 4 operation(s) for webhook.
   name: ConductorOne Webhook API
   slug: conductorone-webhook-api
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Users API from ConductorOne — 5 operation(s) for app users.
+  name: ConductorOne App Users API
+  slug: conductorone-app-users-api
 artifact_total: 100
 asyncapis:
 - description: ''
@@ -596,7 +596,7 @@ overview: 'ConductorOne publishes 46 APIs on the [APIs.io](https://apis.io/) net
 
 
   ConductorOne''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, CLI, and 28 more developer resources.'
-random_paper: 18
+random_paper: 1
 scopes:
 - name: Conductorone Scopes
   scope_count: 0
@@ -632,7 +632,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

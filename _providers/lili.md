@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Remote, OAuth 2.0 protected Model Context Protocol server (Streamable HTTP, MCP spec 2025-03-26) exposing 44 tools that let an AI assistant read a Lili business customer's account summary, transaction
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://prod.lili.co
   baseurl_source: declared
   description: The Lili API from Lili — 8 operation(s) for lili.
-  name: Lili Lili API
+  name: Lili API
   slug: lili-lili-api
 artifact_total: 10
 asyncapis:
@@ -239,11 +239,11 @@ mcp_servers:
 - description: ''
   name: Lili MCP Server
   slug: lili-mcp-server-2
-modified: '2026-08-25'
+modified: '2026-09-16'
 name: Lili
 nav: Providers
 network: true
-overview: 'Lili publishes 1 API on the [APIs.io](https://apis.io/) network: Lili API. Tagged areas include Banking, Business Banking, Financial-Services, Fintech, and Embedded Finance.
+overview: 'Lili publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Business Banking, Financial-Services, Fintech, and Embedded Finance.
 
 
   The Lili catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,7 +254,7 @@ plans:
 - name: Lili Plans Pricing
   plan_count: 4
   slug: lili-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Lili Rate Limits
@@ -299,7 +299,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

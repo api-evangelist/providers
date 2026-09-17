@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -57,11 +57,6 @@ apis:
   description: The AirlineProfile API from TUI Group — 2 operation(s) for airlineprofile.
   name: TUI Group Airline Profile API
   slug: tui-group-airlineprofile-api
-- baseURL: https://prod.api.tui/flight/newskies/rest
-  baseurl_source: declared
-  description: The AirShopping API from TUI Group — 2 operation(s) for airshopping.
-  name: TUI Group Air Shopping API
-  slug: tui-group-airshopping-api
 - baseURL: https://prod.api.tui/flight/newskies/rest
   baseurl_source: declared
   description: The apisMessage API from TUI Group — 1 operation(s) for apismessage.
@@ -184,11 +179,6 @@ apis:
   slug: tui-group-bundles-api
 - baseURL: https://prod.api.tui/flight/newskies/rest
   baseurl_source: declared
-  description: The checkin API from TUI Group — 4 operation(s) for checkin.
-  name: TUI Group Checkin API
-  slug: tui-group-checkin-api
-- baseURL: https://prod.api.tui/flight/newskies/rest
-  baseurl_source: declared
   description: The CheckInHandler API from TUI Group — 2 operation(s) for checkinhandler.
   name: TUI Group Check In Handler API
   slug: tui-group-checkinhandler-api
@@ -279,16 +269,6 @@ apis:
   slug: tui-group-equipment-api
 - baseURL: https://prod.api.tui/flight/newskies/rest
   baseurl_source: declared
-  description: The eTickets API from TUI Group — 4 operation(s) for etickets.
-  name: TUI Group E Tickets API
-  slug: tui-group-etickets-api
-- baseURL: https://prod.api.tui/flight/newskies/rest
-  baseurl_source: declared
-  description: The fareRules API from TUI Group — 2 operation(s) for farerules.
-  name: TUI Group Fare Rules API
-  slug: tui-group-farerules-api
-- baseURL: https://prod.api.tui/flight/newskies/rest
-  baseurl_source: declared
   description: The Flights API from TUI Group — 1 operation(s) for flights.
   name: TUI Group Flights API
   slug: tui-group-flights-api
@@ -302,11 +282,6 @@ apis:
   description: The graph API from TUI Group — 3 operation(s) for graph.
   name: TUI Group Graph API
   slug: tui-group-graph-api
-- baseURL: https://prod.api.tui/flight/newskies/rest
-  baseurl_source: declared
-  description: The Graphql API from TUI Group — 1 operation(s) for graphql.
-  name: TUI Group Graphql API
-  slug: tui-group-graphql-api
 - baseURL: https://prod.api.tui/flight/newskies/rest
   baseurl_source: declared
   description: The health API from TUI Group — 3 operation(s) for health.
@@ -379,11 +354,6 @@ apis:
   slug: tui-group-onetimetravelnotifications-api
 - baseURL: https://prod.api.tui/flight/newskies/rest
   baseurl_source: declared
-  description: The OrderChange API from TUI Group — 2 operation(s) for orderchange.
-  name: TUI Group Order Change API
-  slug: tui-group-orderchange-api
-- baseURL: https://prod.api.tui/flight/newskies/rest
-  baseurl_source: declared
   description: The OrderCreate API from TUI Group — 2 operation(s) for ordercreate.
   name: TUI Group Order Create API
   slug: tui-group-ordercreate-api
@@ -407,11 +377,6 @@ apis:
   description: The organizationGroup API from TUI Group — 1 operation(s) for organizationgroup.
   name: TUI Group Organization Group API
   slug: tui-group-organizationgroup-api
-- baseURL: https://prod.api.tui/flight/newskies/rest
-  baseurl_source: declared
-  description: The organizationGroups API from TUI Group — 3 operation(s) for organizationgroups.
-  name: TUI Group Organization Groups API
-  slug: tui-group-organizationgroups-api
 - baseURL: https://prod.api.tui/flight/newskies/rest
   baseurl_source: declared
   description: The organizations API from TUI Group — 2 operation(s) for organizations.
@@ -514,11 +479,6 @@ apis:
   slug: tui-group-seatavailability-api
 - baseURL: https://prod.api.tui/flight/newskies/rest
   baseurl_source: declared
-  description: The seatmaps API from TUI Group — 2 operation(s) for seatmaps.
-  name: TUI Group Seatmaps API
-  slug: tui-group-seatmaps-api
-- baseURL: https://prod.api.tui/flight/newskies/rest
-  baseurl_source: declared
   description: The seats API from TUI Group — 3 operation(s) for seats.
   name: TUI Group Seats API
   slug: tui-group-seats-api
@@ -612,6 +572,46 @@ apis:
   description: The watchList API from TUI Group — 4 operation(s) for watchlist.
   name: TUI Group Watch List API
   slug: tui-group-watchlist-api
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Air Shopping API from TUI Group — 2 operation(s) for air shopping.
+  name: TUI Group Air Shopping API
+  slug: tui-group-air-shopping-api
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Check In API from TUI Group — 4 operation(s) for check in.
+  name: TUI Group Check In API
+  slug: tui-group-check-in-api
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The E Tickets API from TUI Group — 4 operation(s) for e tickets.
+  name: TUI Group E Tickets API
+  slug: tui-group-e-tickets-api
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Fare Rules API from TUI Group — 2 operation(s) for fare rules.
+  name: TUI Group Fare Rules API
+  slug: tui-group-fare-rules-api
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Graph QL API from TUI Group — 1 operation(s) for graph ql.
+  name: TUI Group Graph QL API
+  slug: tui-group-graph-ql-api
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Order Change API from TUI Group — 2 operation(s) for order change.
+  name: TUI Group Order Change API
+  slug: tui-group-order-change-api
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Organization Groups API from TUI Group — 3 operation(s) for organization groups.
+  name: TUI Group Organization Groups API
+  slug: tui-group-organization-groups-api
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Seat Maps API from TUI Group — 2 operation(s) for seat maps.
+  name: TUI Group Seat Maps API
+  slug: tui-group-seat-maps-api
 artifact_total: 139
 collections:
 - collection_type: open
@@ -944,7 +944,7 @@ modified: '2026-07-28'
 name: TUI Group
 nav: Providers
 network: true
-overview: 'TUI Group publishes 113 APIs on the [APIs.io](https://apis.io/) network, including Account API, Airline Profile API, Air Shopping API, and 110 more. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Tour Operator.
+overview: 'TUI Group publishes 113 APIs on the [APIs.io](https://apis.io/) network, including Account API, Airline Profile API, APIS Message API, and 110 more. Tagged areas include Travel, United Kingdom, Aviation, Airlines, and Tour Operator.
 
 
   TUI Group''s developer surface includes authentication, changelog, sandbox, documentation, API reference, signup flow, getting-started guide, and 49 more developer resources.'
@@ -960,7 +960,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 50.8
+  composite: 51.0
   coverage:
     artifact_dirs: 23
     catalog_earned: 47.0
@@ -968,11 +968,11 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 54.1
+    contract_quality: 54.9
     developer_ergonomics: 68.5
     discoverability: 75.9
     operational_transparency: 60.5
@@ -996,7 +996,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1020,7 +1020,7 @@ tags:
 - Travel
 - United Kingdom
 - Aviation
-- Airline
+- Airlines
 - Tour Operator
 - Distribution
 - NDC

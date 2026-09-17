@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The API surface behind the Klarys tenant application at klarys.app. Klarys markets API and EDI integration with customer ERP, accounting and product-reference systems, and the application serves an an
@@ -200,7 +200,7 @@ plans:
 - name: Klarys Plans Pricing
   plan_count: 0
   slug: klarys-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Klarys Rate Limits
@@ -241,7 +241,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

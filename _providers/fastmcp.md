@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: The FastMCP Server is the Python entry point for exposing tools, resources, prompts, and apps to any Model Context Protocol client. Developers instantiate a `FastMCP` server object and register compon
@@ -259,7 +259,7 @@ overview: 'FastMCP publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   FastMCP''s developer surface includes developer portal, getting-started guide, documentation, changelog, release notes, FAQ, and 25 more developer resources.'
-random_paper: 15
+random_paper: 2
 score:
   band: emerging
   composite: 19.7
@@ -282,7 +282,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -304,7 +304,7 @@ tags:
 - Tools
 - Resources
 - Prompts
-- LLMs
+- LLM
 - Anthropic
 use_cases:
 - description: Point FastMCP at an OpenAPI spec or FastAPI app to expose every operation as an MCP tool without rewriting handlers.

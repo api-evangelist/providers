@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: The primary developer interface for Alchemix is its on-chain smart contracts deployed on Ethereum Mainnet, Optimism, and Arbitrum. Core contracts include the Alchemist (vault deposits, borrowing, repa
@@ -77,7 +77,7 @@ name: Alchemix
 nav: Providers
 network: true
 overview: Alchemix publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Self-Repaying Loans, Synthetic Assets, Yield, and Ethereum.
-random_paper: 3
+random_paper: 7
 score:
   band: emerging
   composite: 19.7
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 19.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

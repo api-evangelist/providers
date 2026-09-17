@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - baseURL: https://www.habiteo.com/wp-json
@@ -88,11 +88,6 @@ apis:
   description: Site settings. Anonymous calls return HTTP 403 rest_forbidden — recorded as a gated route, not a readable one. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/
   name: Habiteo Site Content API — Settings API
   slug: settings-api
-- baseURL: https://www.habiteo.com/wp-json
-  baseurl_source: declared
-  description: 'The WordPress oEmbed provider endpoint for habiteo.com URLs. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind the '
-  name: Habiteo Site Content API — oEmbed API
-  slug: oembed-api
 - description: A second, older JSON surface on www.habiteo.com, served by the WordPress "JSON API" plugin at /api/. GET https://www.habiteo.com/api/ returns {"status":"ok","json_api_version":"1.1.1","controllers":["
   name: Habiteo Site JSON API (WordPress JSON API plugin)
   slug: json-api-plugin
@@ -106,6 +101,11 @@ apis:
   description: The SiteTools API from Habiteo — 7 operation(s) for sitetools.
   name: Habiteo Site Tools API
   slug: habiteo-sitetools-api
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: The o Embed API from Habiteo — 2 operation(s) for o embed.
+  name: Habiteo o Embed API
+  slug: habiteo-o-embed-api
 artifact_total: 18
 common:
 - group: company
@@ -228,7 +228,7 @@ plans:
 - name: Habiteo Plans Pricing
   plan_count: 0
   slug: habiteo-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Habiteo Rate Limits
@@ -270,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

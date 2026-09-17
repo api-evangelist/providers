@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://app.midtrans.com/snap/v1
   baseurl_source: declared
   description: Charge and manage the lifecycle of a transaction.
-  name: Midtrans Core API API
+  name: Midtrans Core API
   slug: midtrans-core-api-api
 - baseURL: https://app.midtrans.com/snap/v1
   baseurl_source: declared
@@ -168,11 +168,11 @@ finops:
   slug: midtrans-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/midtrans.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-09-16'
 name: Midtrans
 nav: Providers
 network: true
-overview: 'Midtrans publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Card Tokenization API, Core API API, GoPay Tokenization API, and 4 more. Tagged areas include Payments, Payment Gateway, Indonesia, Southeast Asia, and SNAP.
+overview: 'Midtrans publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Card Tokenization API, Core API, GoPay Tokenization API, and 4 more. Tagged areas include Payments, Payment Gateway, Indonesia, Southeast Asia, and SNAP.
 
 
   Midtrans'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -180,7 +180,7 @@ plans:
 - name: Midtrans Plans Pricing
   plan_count: 5
   slug: midtrans-plans-pricing
-random_paper: 5
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Midtrans Rate Limits
@@ -225,7 +225,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -248,9 +248,9 @@ tags:
 - Southeast Asia
 - SNAP
 - E-Wallet
-- Virtual Account
+- Virtual Accounts
 - Cards
-- Bank Transfer
+- Bank Transfers
 - Fintech
 website: https://midtrans.com
 ---

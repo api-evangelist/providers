@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: RESTful enterprise API for real-time private market data across 6,000+ companies - Notice Price, verified trades and indications of interest - retrievable up to once per minute. Sold as a 12-month ent
@@ -148,7 +148,7 @@ plans:
 - name: Notice Plans Pricing
   plan_count: 3
   slug: notice-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Notice Rate Limits
@@ -187,7 +187,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -211,8 +211,8 @@ tags:
 - Financial Data
 - Investing
 - Pre-IPO
-- Secondary Markets
-- Valuations
+- Secondary Market
+- Valuation
 - Fintech
 - MCP
 website: https://notice.co

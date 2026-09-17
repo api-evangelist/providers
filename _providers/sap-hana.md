@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -144,6 +144,10 @@ collections:
   name: SAP HANA Cloud REST Alerts Metrics API
   slug: open-sap-hana-metrics-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sap.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/capabilities/sap-hana-capability-edges.yml
   title: ''
@@ -576,7 +580,7 @@ jsonld:
   property_count: 14
   slug: sap-hana-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: SAP HANA
 nav: Providers
 network: true
@@ -586,12 +590,12 @@ overview: 'SAP HANA publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The SAP HANA catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SAP HANA''s developer surface includes authentication, support, pricing, getting-started guide, and 15 more developer resources.'
+  SAP HANA''s developer surface includes authentication, support, pricing, getting-started guide, and 16 more developer resources.'
 plans:
 - name: Sap Hana Plans Pricing
   plan_count: 1
   slug: sap-hana-plans-pricing
-random_paper: 0
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Sap Hana Rate Limits
@@ -650,7 +654,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -685,5 +689,5 @@ use_cases:
   name: IoT Data Processing
 - description: Consolidate enterprise data for reporting and business intelligence with columnar compression.
   name: Enterprise Data Warehousing
-website: https://api.sap.com/
+website: https://sap.com
 ---

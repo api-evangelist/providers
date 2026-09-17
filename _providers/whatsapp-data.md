@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RapidAPI-hosted REST API for WhatsApp number verification, profile display name, and profile picture lookup. Documentation is served via the RapidAPI listing's interactive Endpoints/Playground tabs; n
@@ -37,8 +37,8 @@ modified: '2026-08-24'
 name: WhatsApp Data
 nav: Providers
 network: true
-overview: WhatsApp Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include WhatsApp, Messenger, Profile, Picture, and Avatar.
-random_paper: 4
+overview: WhatsApp Data publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include WhatsApp, Messenger, Profiles, Picture, and Avatars.
+random_paper: 7
 score:
   band: minimal
   composite: 7.8
@@ -65,7 +65,7 @@ score:
       reason: never_enriched
   previous_composite: 7.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -76,9 +76,9 @@ slug: whatsapp-data
 tags:
 - WhatsApp
 - Messenger
-- Profile
+- Profiles
 - Picture
-- Avatar
+- Avatars
 - dp
 - Messaging
 - Identity Verification

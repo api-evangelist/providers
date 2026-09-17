@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ modified: '2026-06-20'
 name: Pangea
 nav: Providers
 network: true
-overview: 'Pangea publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AI Guard API, AuthN API, Domain Intel API, and 5 more. Tagged areas include Security, AI Security, Authentication, Audit Log, and Data Protection.
+overview: 'Pangea publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AI Guard API, AuthN API, Domain Intel API, and 5 more. Tagged areas include Security, AI Security, Authentication, Audit Logs, and Data Protection.
 
 
   Pangea''s developer surface includes authentication, engineering blog, documentation, and 9 more developer resources.'
@@ -192,7 +192,7 @@ plans:
 - name: Pangea Plans Pricing
   plan_count: 3
   slug: pangea-plans-pricing
-random_paper: 11
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Pangea Rate Limits
@@ -224,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -248,7 +248,7 @@ tags:
 - Security
 - AI Security
 - Authentication
-- Audit Log
+- Audit Logs
 - Data Protection
 website: https://pangea.cloud/
 ---

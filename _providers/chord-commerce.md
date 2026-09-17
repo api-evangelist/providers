@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Chord's hosted Model Context Protocol server — a remote, OAuth-protected, read-only window into a customer's Chord data warehouse. Fourteen documented tools cover schema search, saved views, prior que
@@ -295,7 +295,7 @@ plans:
 - name: Chord Commerce Plans Pricing
   plan_count: 0
   slug: chord-commerce-plans-pricing
-random_paper: 9
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Chord Commerce Rate Limits
@@ -329,7 +329,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

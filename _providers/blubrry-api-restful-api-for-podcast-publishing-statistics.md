@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-09-15'
+  score: 31.1
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-agentic-access
   summary_line: 27 operations · 8 acting
-api_count: 1
+api_count: 2
 apis:
 - description: The Blubrry Podcast Media Hosting API enables uploading and managing podcast media files through third-party applications. Supports listing shows, retrieving unpublished media files, deleting media, a
   name: Blubrry Podcast Media Hosting API
@@ -71,12 +71,7 @@ apis:
   description: Podcast download statistics.
   name: Blubrry API Statistics API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api
-- baseURL: https://api.blubrry.com/2
-  baseurl_source: declared
-  description: Blubrry's own published OpenAPI 3.0.0 contract for the v2 API, harvested verbatim from https://blubrry.com/developer/api/podcaster.yaml on 2026-09-06 and rendered by Blubrry through ReDoc at /develope
-  name: Blubrry Podcast Hosting & Statistics API (v2)
-  slug: blubrry-podcast-hosting-statistics-api-v2
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -180,10 +175,10 @@ common:
   type: PrivacyPolicy
   url: https://blubrry.com/about/privacy-policy/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-podcaster-openapi.yaml
+  href: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/_original/blubrry-api-restful-api-for-podcast-publishing-statistics-podcaster-openapi.yaml
   title: ''
   type: OpenAPI
-  url: openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-podcaster-openapi.yaml
+  url: openapi/_original/blubrry-api-restful-api-for-podcast-publishing-statistics-podcaster-openapi.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/llms/blubrry-api-restful-api-for-podcast-publishing-statistics-llms.txt
   title: ''
@@ -257,11 +252,11 @@ finops:
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blubrry-api-restful-api-for-podcast-publishing-statistics.png
 layout: provider
-modified: '2026-09-06'
+modified: '2026-09-16'
 name: Blubrry API
 nav: Providers
 network: true
-overview: 'Blubrry API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Episode API, Media API, Statistics API, and 1 more. Tagged areas include Podcasting, Audio, Media, Publishing, and Statistics.
+overview: 'Blubrry API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Episode API, Media API, and Statistics API. Tagged areas include Podcasting, Audio, Media, Publishing, and Statistics.
 
 
   Blubrry API''s developer surface includes authentication, developer portal, documentation, engineering blog, API reference, getting-started guide, support, and 27 more developer resources.'
@@ -269,7 +264,7 @@ plans:
 - name: Blubrry Api Restful Api For Podcast Publishing Statistics Plans Pricing
   plan_count: 9
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Blubrry Api Restful Api For Podcast Publishing Statistics Rate Limits
@@ -281,7 +276,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.7
+  composite: 53.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 52.0
@@ -289,11 +284,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 50.7
+    contract_quality: 50.9
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 2.6
@@ -305,11 +300,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

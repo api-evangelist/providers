@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,14 +62,14 @@ apis:
   slug: june-events-api
 - baseURL: https://api.june.so/sdk
   baseurl_source: declared
-  description: The Page Views API from June — 1 operation(s) for page views.
-  name: June Page Views API
-  slug: june-page-views-api
-- baseURL: https://api.june.so/sdk
-  baseurl_source: declared
   description: The Users API from June — 1 operation(s) for users.
   name: June Users API
   slug: june-users-api
+- baseURL: https://api.june.so
+  baseurl_source: declared
+  description: The Pageviews API from June — 1 operation(s) for pageviews.
+  name: June Pageviews API
+  slug: june-pageviews-api
 artifact_total: 29
 collections:
 - collection_type: open
@@ -200,7 +200,7 @@ modified: '2026-06-12'
 name: June
 nav: Providers
 network: true
-overview: 'June publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Events API, Page Views API, and 1 more. Tagged areas include Analytics, Product Analytics, B2B SaaS, Event Tracking, and Segment Compatible.
+overview: 'June publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Events API, Users API, and 1 more. Tagged areas include Analytics, Product Analytics, B2B SaaS, Event Tracking, and Segment Compatible.
 
 
   The June catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -211,7 +211,7 @@ plans:
 - name: June Plans Pricing
   plan_count: 2
   slug: june-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: June Rate Limits
@@ -254,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

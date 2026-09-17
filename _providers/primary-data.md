@@ -19,7 +19,7 @@ name: Primary Data
 nav: Providers
 network: true
 overview: Primary Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Virtualization, Software-Defined Storage, and Data Management.
-random_paper: 9
+random_paper: 17
 slug: primary-data
 tags:
 - Company

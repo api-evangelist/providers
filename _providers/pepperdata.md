@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://dashboard.pepperdata.com/pepperdata-demonstration/api
@@ -182,7 +182,7 @@ overview: 'Pepperdata publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Pepperdata''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 12
+random_paper: 6
 score:
   band: thin
   composite: 30.1
@@ -212,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

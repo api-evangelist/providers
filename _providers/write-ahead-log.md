@@ -18,12 +18,12 @@ modified: '2026-03-16'
 name: Write Ahead Log
 nav: Providers
 network: true
-overview: Write Ahead Log is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Engineering, Databases, and Write Ahead Log.
-random_paper: 17
+overview: Write Ahead Log is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Engineering, Database, and Write Ahead Log.
+random_paper: 14
 slug: write-ahead-log
 tags:
 - Data Engineering
-- Databases
+- Database
 - Write Ahead Log
 website: https://en.wikipedia.org/wiki/Write-ahead_logging
 ---

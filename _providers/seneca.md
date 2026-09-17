@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Seneca is a microservices toolkit for Node.js that uses a pattern-matching approach to message handling. It provides transport independence, allowing services to communicate over HTTP, TCP, or message
@@ -98,7 +98,7 @@ modified: '2026-03-26'
 name: Seneca
 nav: Providers
 network: true
-overview: 'Seneca publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Frameworks, JavaScript, Message Handling, Microservices, and Node.js.
+overview: 'Seneca publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, JavaScript, Message Handling, Microservices, and Node.js.
 
 
   The Seneca catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -109,7 +109,7 @@ plans:
 - name: Seneca Plans Pricing
   plan_count: 3
   slug: seneca-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Seneca Rate Limits
@@ -148,7 +148,7 @@ score:
     score: 40.0
   previous_composite: 20.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -162,7 +162,7 @@ security:
   summary_line: TLSv1.3
 slug: seneca
 tags:
-- Frameworks
+- Framework
 - JavaScript
 - Message Handling
 - Microservices

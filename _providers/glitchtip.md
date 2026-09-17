@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ apis:
 - baseURL: https://app.glitchtip.com/api/0/
   baseurl_source: declared
   description: The GlitchTip API API from GlitchTip — 1 operation(s) for glitchtip api.
-  name: GlitchTip GlitchTip API API
+  name: GlitchTip API
   slug: glitchtip-glitchtip-api-api
 - baseURL: https://app.glitchtip.com/api/0/
   baseurl_source: declared
@@ -378,7 +378,7 @@ jsonld:
   property_count: 44
   slug: glitchtip-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: GlitchTip
 nav: Providers
 network: true
@@ -393,7 +393,7 @@ plans:
 - name: Glitchtip Plans Pricing
   plan_count: 5
   slug: glitchtip-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Glitchtip Rate Limits
@@ -436,7 +436,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -38,7 +38,7 @@ name: CryptingUp
 nav: Providers
 network: true
 overview: CryptingUp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Public APIs, and Defunct.
-random_paper: 17
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptingup/refs/heads/main/screenshots/cryptingup-2026-06-20T175306.png
 security:
 - kind: domain-security

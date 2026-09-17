@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   slug: tensor-listings-api
 - baseURL: https://api.mainnet.tensordev.io
   baseurl_source: declared
-  description: The NFTs API from Tensor — 3 operation(s) for nfts.
-  name: Tensor NFTs API
-  slug: tensor-nfts-api
-- baseURL: https://api.mainnet.tensordev.io
-  baseurl_source: declared
   description: The Pools API from Tensor — 7 operation(s) for pools.
   name: Tensor Pools API
   slug: tensor-pools-api
@@ -90,6 +85,11 @@ apis:
   description: The Utility API from Tensor — 6 operation(s) for utility.
   name: Tensor Utility API
   slug: tensor-utility-api
+- baseURL: wss://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: The NFTs API from Tensor — 3 operation(s) for nfts.
+  name: Tensor NF Ts API
+  slug: tensor-nfts-api
 artifact_total: 56
 asyncapis:
 - description: Realtime subscription stream for the Tensor Solana NFT marketplace. Clients open a single WebSocket connection authenticated with `x-tensor-api-key`, then send JSON subscribe/unsubscribe control frame
@@ -130,6 +130,10 @@ collections:
   name: Tensor Bids Utility API
   slug: open-tensor-utility-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tensor.trade
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/agentic-access/tensor-agentic-access.yml
   title: ''
@@ -411,7 +415,7 @@ jsonld:
   property_count: 3
   slug: tensor-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-09-16'
 name: Tensor
 nav: Providers
 network: true
@@ -421,12 +425,12 @@ overview: 'Tensor publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Tensor catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Tensor''s developer surface includes authentication, developer portal, documentation, code examples, getting-started guide, tooling, signup flow, and 47 more developer resources.'
+  Tensor''s developer surface includes authentication, developer portal, documentation, code examples, getting-started guide, tooling, signup flow, and 48 more developer resources.'
 plans:
 - name: Tensor Plans Pricing
   plan_count: 2
   slug: tensor-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Tensor Rate Limits
@@ -497,7 +501,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -47,11 +47,6 @@ apis:
 - description: Client-side JavaScript tracker that captures page views and custom events, exposes window.cos.identify() for attaching identity and properties, and matches visitor IPs to companies. Since the 2025-09-
   name: CustomerOS Website Tracker
   slug: customeros-website-tracker
-- baseURL: https://api.customeros.ai/query
-  baseurl_source: declared
-  description: Single GraphQL endpoint served by the open-source customer-os-api (Go, gqlgen) covering organizations, contacts, opportunities, contracts, invoices, interactions and timeline events. The repository mo
-  name: CustomerOS GraphQL API
-  slug: customeros-graphql-api
 - baseURL: https://api.customeros.ai
   baseurl_source: declared
   description: The Billing API API from CustomerOS — 1 operation(s) for billing api.
@@ -97,6 +92,11 @@ apis:
   description: The Outreach API from CustomerOS — 1 operation(s) for outreach.
   name: CustomerOS Outreach API
   slug: customeros-outreach-api
+- baseURL: https://{customer-reverse-proxy-domain}/analytics-0.1.js
+  baseurl_source: declared
+  description: Single GraphQL endpoint for all CustomerOS operations.
+  name: CustomerOS Graph QL API
+  slug: customeros-graph-ql-api
 artifact_total: 30
 collections:
 - collection_type: open
@@ -356,7 +356,7 @@ modified: '2026-08-13'
 name: CustomerOS
 nav: Providers
 network: true
-overview: 'CustomerOS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Billing API, CustomerBASE API, and 7 more. Tagged areas include CRM, Revenue, Go-To-Market, Lead Intelligence, and Visitor Identification.
+overview: 'CustomerOS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Billing API, CustomerBASE API, Domains API, and 7 more. Tagged areas include CRM, Revenue, Go-To-Market, Lead Intelligence, and Visitor Identification.
 
 
   CustomerOS''s developer surface includes documentation, getting-started guide, engineering blog, pricing, changelog, authentication, support, and 37 more developer resources.'
@@ -364,14 +364,14 @@ plans:
 - name: Customeros Plans Pricing
   plan_count: 2
   slug: customeros-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Customeros Rate Limits
   slug: customeros-rate-limits
 score:
   band: developing
-  composite: 53.4
+  composite: 54.1
   coverage:
     artifact_dirs: 27
     catalog_earned: 51.0
@@ -379,11 +379,11 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.7
   facets:
     access_clarity: 82.9
     contract_governance: 4.5
-    contract_quality: 52.2
+    contract_quality: 55.1
     developer_ergonomics: 42.3
     discoverability: 81.5
     operational_transparency: 26.3
@@ -393,7 +393,7 @@ score:
     regions:
     - europe
     - united-kingdom-ireland
-  previous_composite: 52.4
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -405,7 +405,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

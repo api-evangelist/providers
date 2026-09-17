@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ plans:
 - name: Reloadly Plans Pricing
   plan_count: 3
   slug: reloadly-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Reloadly Rate Limits
@@ -292,7 +292,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

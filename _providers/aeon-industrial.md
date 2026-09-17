@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ overview: 'Aeon Industrial is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Aeon Industrial''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 18
+random_paper: 11
 score:
   band: minimal
   composite: 7.4
@@ -123,7 +123,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

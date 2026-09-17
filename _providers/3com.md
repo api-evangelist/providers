@@ -24,7 +24,7 @@ name: 3com
 nav: Providers
 network: true
 overview: 3com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Ethernet, Hardware, and Enterprise.
-random_paper: 13
+random_paper: 18
 slug: 3com
 tags:
 - Company

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 61.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Medusa's GraphQL surface over the store data core. The schema in this repo was derived from the OAS output schemas published in the medusajs/medusa repository; Medusa does not publish a hosted, intros
@@ -383,37 +383,7 @@ apis:
 - description: Monorepo with the Medusa server, Admin, Commerce Modules, Framework, and packages. MIT-licensed reference for self-hosting and for building modules and plugins.
   name: Medusa Core Repository
   slug: core-repo
-- description: The Auth API from Medusa — 2 operation(s) for auth.
-  name: Medusa Auth API
-  slug: medusa-js-auth-api
-- description: The Carts API from Medusa — 3 operation(s) for carts.
-  name: Medusa Carts API
-  slug: medusa-js-carts-api
-- description: The Categories API from Medusa — 1 operation(s) for categories.
-  name: Medusa Categories API
-  slug: medusa-js-categories-api
-- description: The Collections API from Medusa — 1 operation(s) for collections.
-  name: Medusa Collections API
-  slug: medusa-js-collections-api
-- description: The Customers API from Medusa — 2 operation(s) for customers.
-  name: Medusa Customers API
-  slug: medusa-js-customers-api
-- description: The Orders API from Medusa — 2 operation(s) for orders.
-  name: Medusa Orders API
-  slug: medusa-js-orders-api
-- description: The Payments API from Medusa — 1 operation(s) for payments.
-  name: Medusa Payments API
-  slug: medusa-js-payments-api
-- description: The Products API from Medusa — 2 operation(s) for products.
-  name: Medusa Products API
-  slug: medusa-js-products-api
-- description: The Regions API from Medusa — 2 operation(s) for regions.
-  name: Medusa Regions API
-  slug: medusa-js-regions-api
-- description: The Shipping API from Medusa — 1 operation(s) for shipping.
-  name: Medusa Shipping API
-  slug: medusa-js-shipping-api
-artifact_total: 91
+artifact_total: 81
 asyncapis:
 - description: ''
   name: Medusa Events
@@ -644,7 +614,7 @@ modified: '2026-08-26'
 name: Medusa
 nav: Providers
 network: true
-overview: 'Medusa publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Auth API, [auth Provider] API, and 70 more. Tagged areas include E-Commerce, Headless Commerce, Open-Source, Commerce, and Storefront.
+overview: 'Medusa publishes 63 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Auth API, [auth Provider] API, and 60 more. Tagged areas include E-Commerce, Headless Commerce, Open-Source, Commerce, and Storefront.
 
 
   The Medusa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -655,7 +625,7 @@ plans:
 - name: Medusa Plans Pricing
   plan_count: 4
   slug: medusa-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Medusa Rate Limits
@@ -694,7 +664,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

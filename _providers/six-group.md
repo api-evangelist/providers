@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Single API onto the SIX financial data universe - real-time, intraday, end-of-day, and historical pricing across asset classes, reference data, corporate actions, tax, and ESG datasets from 900+ price
@@ -76,7 +76,17 @@ apis:
   description: Security settlement information reporting from the SIX custody cockpit for the Swiss market, publicly documented on the SIX API portal with a downloadable OpenAPI 3.0 definition (CC BY-ND 4.0 licensed
   name: Settlement Info Reporting API
   slug: settlement-info-reporting-api
-artifact_total: 34
+- baseURL: https://api.six-group.com/api/debix/bank/v2
+  baseurl_source: declared
+  description: 3DS lifecycle, 3DS details, OTRC order.
+  name: SIX 3 DS API
+  slug: six-group-3-ds-api
+- baseURL: https://api.six-group.com/api/debix/bank/v2
+  baseurl_source: declared
+  description: '**Bankmaster API** All public REST endpoints of the bank master data are located here, such as the bank master data as JSON and downloadable files.'
+  name: SIX Bank Master API
+  slug: six-group-bank-master-api
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Six Group Debix Push Webhooks
@@ -314,7 +324,7 @@ modified: '2026-07-22'
 name: SIX
 nav: Providers
 network: true
-overview: 'SIX publishes 7 APIs on the [APIs.io](https://apis.io/) network, including bLink API, debiX API, debiX Auth Provider API, and 4 more. Tagged areas include Financial, Market Data, Stocks, Reference Data, and Corporate Actions.
+overview: 'SIX publishes 9 APIs on the [APIs.io](https://apis.io/) network, including bLink API, debiX API, debiX Auth Provider API, and 6 more. Tagged areas include Financial, Market Data, Stocks, Reference Data, and Corporate Actions.
 
 
   The SIX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -336,7 +346,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 59.8
+    contract_quality: 59.6
     developer_ergonomics: 70.8
     discoverability: 72.2
     operational_transparency: 44.7
@@ -352,10 +362,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 95.0
+      callable: 94.7
       derived: 0
       marker_coverage: 0.0
-      total: 20
+      total: 19
     mcp: derived
     skills: derived
   regulatory:
@@ -365,7 +375,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

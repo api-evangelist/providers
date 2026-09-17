@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 10
 common:
@@ -124,7 +124,7 @@ overview: 'Astranis is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Astranis'' developer surface includes engineering blog, YouTube channel, authentication, and 7 more developer resources.'
-random_paper: 8
+random_paper: 11
 score:
   band: minimal
   composite: 9.0
@@ -145,7 +145,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

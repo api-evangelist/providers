@@ -23,22 +23,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://emsuatxapi.taltrade.com:9001
-  baseurl_source: declared
-  description: Cross-platform execution-management API for Eze EMS, published by SS&C Eze as a gRPC contract (three proto3 files, 64 RPCs across MarketDataService, SubmitOrderService and UtilityServices) with an equ
-  name: SS&C Eze EMS xAPI
-  slug: ssc-eze-ems-xapi
 - description: SS&C's corporate API management portal, where clients register applications, request access to SS&C API products and manage consumers against a Kong gateway. The API catalog itself is behind authentic
   name: SS&C APIM Developer Portal
   slug: ssc-apim-developer-portal
 - description: REST API and developer portal for the SS&C Advent Black Diamond wealth platform, covering portfolio, account and client data exchange for advisors and integration partners. The portal requires sign-in
   name: SS&C Black Diamond Wealth Platform API
   slug: ssc-black-diamond-wealth-platform-api
-artifact_total: 9
+- baseURL: https://emsuatxapi.taltrade.com:9001
+  baseurl_source: declared
+  description: The MarketDataService API from SS&C Technologies — 18 operation(s) for marketdataservice.
+  name: SS&C Technologies Market Data Service API
+  slug: ss-c-technologies-marketdataservice-api
+- baseURL: https://emsuatxapi.taltrade.com:9001
+  baseurl_source: declared
+  description: The SubmitOrderService API from SS&C Technologies — 19 operation(s) for submitorderservice.
+  name: SS&C Technologies Submit Order Service API
+  slug: ss-c-technologies-submitorderservice-api
+- baseURL: https://emsuatxapi.taltrade.com:9001
+  baseurl_source: declared
+  description: The UserServices API from SS&C Technologies — 1 operation(s) for userservices.
+  name: SS&C Technologies User Services API
+  slug: ss-c-technologies-userservices-api
+- baseURL: https://emsuatxapi.taltrade.com:9001
+  baseurl_source: declared
+  description: The XAPIServer API from SS&C Technologies — 2 operation(s) for xapiserver.
+  name: SS&C Technologies XAPI Server API
+  slug: ss-c-technologies-xapiserver-api
+- baseURL: https://apim.ssnc.cloud
+  baseurl_source: declared
+  description: The Utility Services API from SS&C Technologies — 21 operation(s) for utility services.
+  name: SS&C Technologies Utility Services API
+  slug: ss-c-technologies-utility-services-api
+artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/overlays/ss-c-technologies-eze-ems-xapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/ss-c-technologies-eze-ems-xapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -175,15 +200,15 @@ modified: '2026-09-13'
 name: SS&C Technologies
 nav: Providers
 network: true
-overview: 'SS&C Technologies publishes 1 API on the [APIs.io](https://apis.io/) network: SS&C Eze EMS xAPI. Tagged areas include Financial-Services, Investment Management, Fund Administration, Wealth Management, and Execution Management.
+overview: 'SS&C Technologies publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Market Data Service API, Submit Order Service API, User Services API, and 2 more. Tagged areas include Financial-Services, Investment Management, Fund Administration, Wealth Management, and Execution Management.
 
 
-  SS&C Technologies'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
+  SS&C Technologies'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
 plans:
 - name: Ss C Technologies Plans Pricing
   plan_count: 0
   slug: ss-c-technologies-plans-pricing
-random_paper: 2
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Ss C Technologies Rate Limits
@@ -195,7 +220,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.2
+  composite: 49.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -203,11 +228,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 36.1
+    contract_quality: 42.4
     developer_ergonomics: 68.5
     discoverability: 68.5
     operational_transparency: 31.6
@@ -223,7 +248,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -233,7 +258,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

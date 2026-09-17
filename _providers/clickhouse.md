@@ -28,22 +28,22 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 57.6
-  scored_at: '2026-09-15'
+  score: 61.8
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 1
-  human_in_the_loop: 0
+- acting_count: 81
+  human_in_the_loop: 1
   name: Clickhouse Agentic Access
-  operation_count: 5
+  operation_count: 153
   slug: clickhouse-agentic-access
-  summary_line: 5 operations · 1 acting
+  summary_line: 153 operations · 81 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - description: HTTP interface (default port 8123, HTTPS 8443) for executing SQL queries against ClickHouse. Supports SELECT via GET, mutations via POST, multiple output formats (JSON, CSV, XML, TabSeparated), and au
@@ -64,7 +64,7 @@ apis:
 - baseURL: https://{clickhouse-host}:8443
   baseurl_source: declared
   description: The ClickHouse HTTP Interface API from ClickHouse — 1 operation(s) for clickhouse http interface.
-  name: ClickHouse ClickHouse HTTP Interface API
+  name: ClickHouse HTTP Interface API
   slug: clickhouse-clickhouse-http-interface-api
 - baseURL: https://{clickhouse-host}:8443
   baseurl_source: declared
@@ -81,12 +81,67 @@ apis:
   description: The Replicas Status API from ClickHouse — 1 operation(s) for replicas status.
   name: ClickHouse Replicas Status API
   slug: clickhouse-replicas-status-api
-- baseURL: https://api.clickhouse.cloud/v1
+- baseURL: https://{clickhouse-host}:8443
   baseurl_source: declared
-  description: The ClickHouse Cloud control-plane REST API — 148 operations across 86 paths for organizations, services, users and roles, API keys, backups, ClickPipes, ClickStack observability, Managed Postgres, UD
-  name: ClickHouse Cloud API
-  slug: clickhouse-cloud-api
-artifact_total: 35
+  description: The API keys API from ClickHouse — 2 operation(s) for api keys.
+  name: ClickHouse API keys API
+  slug: clickhouse-api-keys-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The Backup API from ClickHouse — 4 operation(s) for backup.
+  name: ClickHouse Backup API
+  slug: clickhouse-backup-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The Billing API from ClickHouse — 3 operation(s) for billing.
+  name: ClickHouse Billing API
+  slug: clickhouse-billing-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The ClickPipes API from ClickHouse — 10 operation(s) for clickpipes.
+  name: ClickHouse Click Pipes API
+  slug: clickhouse-clickpipes-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The ClickStack API from ClickHouse — 13 operation(s) for clickstack.
+  name: ClickHouse Click Stack API
+  slug: clickhouse-clickstack-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The Organization API from ClickHouse — 9 operation(s) for organization.
+  name: ClickHouse Organization API
+  slug: clickhouse-organization-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The Postgres API from ClickHouse — 12 operation(s) for postgres.
+  name: ClickHouse Postgres API
+  slug: clickhouse-postgres-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The Prometheus API from ClickHouse — 5 operation(s) for prometheus.
+  name: ClickHouse Prometheus API
+  slug: clickhouse-prometheus-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The Role Management API from ClickHouse — 2 operation(s) for role management.
+  name: ClickHouse Role Management API
+  slug: clickhouse-role-management-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The Service API from ClickHouse — 15 operation(s) for service.
+  name: ClickHouse Service API
+  slug: clickhouse-service-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The UDF API from ClickHouse — 7 operation(s) for udf.
+  name: ClickHouse UDF API
+  slug: clickhouse-udf-api
+- baseURL: https://{clickhouse-host}:8443
+  baseurl_source: declared
+  description: The User management API from ClickHouse — 4 operation(s) for user management.
+  name: ClickHouse User management API
+  slug: clickhouse-user-management-api
+artifact_total: 46
 asyncapis:
 - description: AsyncAPI description of the documented streaming surface that ClickHouse offers through the Kafka table engine. ClickHouse itself does NOT publish a public WebSocket, Server-Sent Events, or push-style
   name: ClickHouse Kafka Table Engine (Consumer-Side Streaming)
@@ -388,11 +443,11 @@ mcp_servers:
 - description: ''
   name: ClickHouse MCP Server
   slug: clickhouse-mcp-server
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: ClickHouse
 nav: Providers
 network: true
-overview: 'ClickHouse publishes 5 APIs on the [APIs.io](https://apis.io/) network, including ClickHouse HTTP Interface API, Ping API, Play API, and 2 more. Tagged areas include Analytics, Cloud Database, Column-Oriented, Database, and OLAP.
+overview: 'ClickHouse publishes 16 APIs on the [APIs.io](https://apis.io/) network, including HTTP Interface API, Ping API, Play API, and 13 more. Tagged areas include Analytics, Cloud Database, Column-Oriented, Database, and OLAP.
 
 
   The ClickHouse catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -403,7 +458,7 @@ plans:
 - name: Clickhouse Plans Pricing
   plan_count: 4
   slug: clickhouse-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Clickhouse Rate Limits
@@ -438,7 +493,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.7
+  composite: 70.5
   coverage:
     artifact_dirs: 31
     catalog_earned: 63.8
@@ -446,11 +501,11 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 86.8
     contract_governance: 15.9
-    contract_quality: 60.1
+    contract_quality: 67.3
     developer_ergonomics: 83.3
     discoverability: 66.7
     operational_transparency: 73.7
@@ -462,11 +517,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 16
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

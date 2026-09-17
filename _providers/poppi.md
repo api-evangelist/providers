@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The agent-facing commerce surface for the poppi online store. An anonymous Model Context Protocol endpoint implementing the Universal Commerce Protocol (UCP) shopping service, exposing catalog search '
@@ -180,7 +180,7 @@ plans:
 - name: Poppi Plans Pricing
   plan_count: 0
   slug: poppi-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Poppi Rate Limits
@@ -214,7 +214,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

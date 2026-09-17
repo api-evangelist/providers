@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -203,6 +203,10 @@ collections:
   name: PlanetScale Platform Backups Webhooks API
   slug: open-planetscale-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://planetscale.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/planetscale/refs/heads/main/agentic-access/planetscale-agentic-access.yml
   title: ''
@@ -343,22 +347,22 @@ jsonld:
   property_count: 10
   slug: planetscale-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Planetscale
 nav: Providers
 network: true
-overview: 'Planetscale publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Backups API, Billing API, Bouncers API, and 14 more.
+overview: 'Planetscale publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Backups API, Billing API, Bouncers API, and 14 more. Tagged areas include Application, Authorization, and Edge Computing.
 
 
   The Planetscale catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Planetscale''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
+  Planetscale''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
 plans:
 - name: Planetscale Plans Pricing
   plan_count: 5
   slug: planetscale-plans-pricing
-random_paper: 9
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Planetscale Rate Limits
@@ -411,11 +415,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -431,4 +432,9 @@ security:
   slug: planetscale-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: planetscale
+tags:
+- Application
+- Authorization
+- Edge Computing
+website: https://planetscale.com
 ---

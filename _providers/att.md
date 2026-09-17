@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.3
-  scored_at: '2026-09-15'
+  score: 34.5
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
 - description: 'Wireline business APIs enabling partners to expedite quoting, service qualification, and ordering of AT&T wireline products. Includes Quick Quote, Product Catalog, Service Qualification, Price Offer, '
   name: AT&T Alliance Wireline APIs
   slug: att-alliance-wireline-apis
-- baseURL: https://api.att.com
-  baseurl_source: declared
-  description: The Authentication API from AT&T — 1 operation(s) for authentication.
-  name: AT&T Authentication API
-  slug: att-authentication-api
 - baseURL: https://devex-web.att.com
   baseurl_source: declared
   description: The Balance Management API from AT&T — 1 operation(s) for balance management.
@@ -102,11 +97,6 @@ apis:
   description: The Service Management API from AT&T — 1 operation(s) for service management.
   name: AT&T Service Management API
   slug: att-service-management-api
-- baseURL: https://api.att.com
-  baseurl_source: declared
-  description: The SMS Messaging API from AT&T — 3 operation(s) for sms messaging.
-  name: AT&T SMS Messaging API
-  slug: att-sms-messaging-api
 - baseURL: https://devex-web.att.com
   baseurl_source: declared
   description: The Subscriber Management API from AT&T — 1 operation(s) for subscriber management.
@@ -188,11 +178,6 @@ apis:
   slug: att-network-insights-api
 - baseURL: https://api.att.com
   baseurl_source: declared
-  description: AT&T OAuth 2.0 authentication
-  name: AT&T O Auth API
-  slug: att-oauth-api
-- baseURL: https://api.att.com
-  baseurl_source: declared
   description: 5G QoS session management
   name: AT&T Quality on Demand API
   slug: att-quality-on-demand-api
@@ -201,7 +186,12 @@ apis:
   description: Short Message Service operations
   name: AT&T SMS API
   slug: att-sms-api
-artifact_total: 346
+- baseURL: https://api.att.com
+  baseurl_source: declared
+  description: AT&T OAuth 2.0 authentication
+  name: AT&T O Auth API
+  slug: att-oauth-api
+artifact_total: 344
 collections:
 - collection_type: postman
   name: AT&T Authentication API
@@ -1203,7 +1193,7 @@ modified: '2026-07-25'
 name: AT&T
 nav: Providers
 network: true
-overview: 'AT&T publishes 29 APIs on the [APIs.io](https://apis.io/) network, including OAuth 2.0 API, Authentication API, Balance Management API, and 26 more. Tagged areas include 5G, Broadband, CAMARA, Connectivity, and Device Status.
+overview: 'AT&T publishes 27 APIs on the [APIs.io](https://apis.io/) network, including OAuth 2.0 API, Balance Management API, Device Management API, and 24 more. Tagged areas include 5G, Broadband, CAMARA, Connectivity, and Device Status.
 
 
   The AT&T catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1230,7 +1220,7 @@ press:
 - date: '2026-05-25'
   title: AT&T Tests New AI Digital Receptionist
   url: https://about.att.com/blogs/2025/ai-digital-receptionist.html
-random_paper: 14
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Att Rate Limits
@@ -1264,7 +1254,7 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.4
+  composite: 55.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 78.0
@@ -1272,12 +1262,12 @@ score:
     catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 47.4
     contract_governance: 69.7
-    contract_quality: 42.4
-    developer_ergonomics: 58.3
+    contract_quality: 43.1
+    developer_ergonomics: 51.2
     discoverability: 68.5
     operational_transparency: 23.7
   previous_composite: 56.4
@@ -1285,9 +1275,9 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 26
-      marker_coverage: 70.3
-      total: 37
+      derived: 24
+      marker_coverage: 68.6
+      total: 35
   regulatory:
     applies: true
     matched_via: tags
@@ -1295,7 +1285,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1328,7 +1318,7 @@ tags:
 - Fortune 100
 - Messaging
 - Mobile
-- Network
+- Networks
 - Network APIs
 - SIM Swap
 - Speech

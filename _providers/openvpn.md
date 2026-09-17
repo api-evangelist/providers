@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: REST API for managing CloudConnexa Zero Trust networks, users, networks, connectors, DNS, routes, and access policies. Authentication uses OAuth 2.0 client credentials grant; API credentials are gener
@@ -100,7 +100,7 @@ overview: 'OpenVPN publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   OpenVPN''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: emerging
   composite: 17.2
@@ -121,7 +121,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

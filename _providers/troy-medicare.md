@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The OpenID Connect authorization server behind Troy Medicare's secure provider portal, which contracted providers use for member eligibility verification, claim status and payment history. Its discove
@@ -139,7 +139,7 @@ plans:
 - name: Troy Medicare Plans Pricing
   plan_count: 0
   slug: troy-medicare-plans-pricing
-random_paper: 10
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Troy Medicare Rate Limits
@@ -177,7 +177,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

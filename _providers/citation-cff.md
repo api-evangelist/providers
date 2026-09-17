@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: The CFF schema defines the structure of a CITATION.cff file in YAML, including required cff-version, message, and authors fields plus optional version, doi, license, repository-code, preferred-citatio
@@ -133,7 +133,7 @@ modified: '2026-04-23'
 name: Citation File Format
 nav: Providers
 network: true
-overview: 'Citation File Format publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Academic, Citation, Metadata, Open Standard, and Repository.
+overview: 'Citation File Format publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Academic, Citations, Metadata, Open Standard, and Repository.
 
 
   The Citation File Format catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -144,7 +144,7 @@ plans:
 - name: Citation Cff Plans Pricing
   plan_count: 3
   slug: citation-cff-plans-pricing
-random_paper: 10
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Citation Cff Rate Limits
@@ -196,7 +196,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ security:
 slug: citation-cff
 tags:
 - Academic
-- Citation
+- Citations
 - Metadata
 - Open Standard
 - Repository

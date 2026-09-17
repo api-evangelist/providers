@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL_template: https://{snorkelHostname}
@@ -140,7 +140,7 @@ plans:
 - name: Snorkel Ai Plans Pricing
   plan_count: 3
   slug: snorkel-ai-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Snorkel Ai Rate Limits
@@ -165,7 +165,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 34.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

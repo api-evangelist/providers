@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 3
@@ -120,9 +120,9 @@ apis:
   slug: deliverart-take-away-api
 - baseURL: https://pubapi.deliverart.it
   baseurl_source: declared
-  description: The Workshifts API from Deliverart — 5 operation(s) for workshifts.
-  name: Deliverart Workshifts API
-  slug: deliverart-workshifts-api
+  description: The Work Shifts API from Deliverart — 5 operation(s) for work shifts.
+  name: Deliverart Work Shifts API
+  slug: deliverart-work-shifts-api
 artifact_total: 37
 collections:
 - collection_type: open
@@ -314,7 +314,7 @@ overview: 'Deliverart publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Deliverart''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, signup flow, and 20 more developer resources.'
-random_paper: 3
+random_paper: 18
 scopes:
 - name: Deliverart Scopes
   scope_count: 44
@@ -350,7 +350,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

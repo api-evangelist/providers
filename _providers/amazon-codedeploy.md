@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -589,6 +589,10 @@ collections:
   name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API'
   slug: open-amazon-codedeploy-x-amz-target-codedeploy-20141006-updatedeploymentgroup-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/capabilities/amazon-codedeploy-capability-edges.yml
   title: ''
@@ -3610,7 +3614,7 @@ jsonld:
   property_count: 29
   slug: amazon-codedeploy-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon CodeDeploy
 nav: Providers
 network: true
@@ -3620,8 +3624,8 @@ overview: 'Amazon CodeDeploy publishes 49 APIs on the [APIs.io](https://apis.io/
   The Amazon CodeDeploy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeDeploy''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 26 more developer resources.'
-random_paper: 12
+  Amazon CodeDeploy''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 27 more developer resources.'
+random_paper: 17
 rules:
 - effective_rule_count: 5
   extends: []
@@ -3658,7 +3662,7 @@ score:
   facets:
     access_clarity: 52.6
     contract_governance: 33.3
-    contract_quality: 71.3
+    contract_quality: 71.1
     developer_ergonomics: 60.7
     discoverability: 51.9
     operational_transparency: 18.4
@@ -3673,7 +3677,7 @@ score:
       total: 49
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -3716,5 +3720,5 @@ use_cases:
   name: On-Premises Application Deployment
 - description: Use CodeDeploy as the deployment stage in an AWS CodePipeline for fully automated continuous delivery from source code to production.
   name: Multi-Stage CD Pipeline
-website: https://aws.amazon.com/codedeploy/
+website: https://amazon.com
 ---

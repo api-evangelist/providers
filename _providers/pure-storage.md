@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 756
   human_in_the_loop: 18
@@ -89,12 +89,12 @@ apis:
   description: Array features provide the ability to configure settings that affect the operation of the array as a whole and monitor array I/O performance.
   name: Pure Storage Arrays API
   slug: pure-storage-arrays-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: View and manage audit log targets that are filesystems. These are filesystems where audit logs will be stored, and they may be configured in audit policies.
   name: Pure Storage Audit Log Target for File Systems API
   slug: pure-storage-audit-log-target-for-file-systems-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: View and manage audit log targets for object store. These are buckets where audit logs will be stored, and they may be configured in audit policies.
   name: Pure Storage Audit Log Target for Object Store API
@@ -109,12 +109,12 @@ apis:
   description: Pure Storage uses the OAuth 2.0 Token Exchange authorization grant and JSON Web Tokens (JWTs) to authenticate to the Pure Storage REST API. Before you can exchange the ID token for an access token, cr
   name: Pure Storage Authorization API
   slug: pure-storage-authorization-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Displays the detailed information of each blade in the array.
   name: Pure Storage Blades API
   slug: pure-storage-blades-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Object replication requires a replica link that connects a source bucket to a remote bucket. The configuration of a replica link includes remote credentials, bucket names, remote names, replication st
   name: Pure Storage Bucket Replica Links API
@@ -134,7 +134,7 @@ apis:
   description: Purity//FA creates a self-signed certificate and private key when you start the system for the first time. You can use the default certificate, change the certificate attributes, create a new self-sig
   name: Pure Storage Certificates API
   slug: pure-storage-certificates-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Displays an NFS client’s performance metrics on the array for read, write, and meta operations.
   name: Pure Storage Clients API
@@ -189,31 +189,26 @@ apis:
   description: Drive data includes the name, type, status, capacity, protocol and other information for all flash, NVRAM, and cache modules in an array.
   name: Pure Storage Drives API
   slug: pure-storage-drives-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages the creation, attributes, and deletion of file system exports. Exports link either an NFS Export Policy or a SMB Client Policy, a file system, and a server.
   name: Pure Storage File System Exports API
   slug: pure-storage-file-system-exports-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages the creation, and deletion of file system junctions. Junctions link a specific path in the origin file system to the root of a destination file system.
   name: Pure Storage File System Junctions API
   slug: pure-storage-file-system-junctions-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: File system replication requires a replica link that connects a source array to a remote target. The configuration of a replica link includes policies, file system names, remote names, and replication
   name: Pure Storage File System Replica Links API
   slug: pure-storage-file-system-replica-links-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: 'A file system snapshot is a point-in-time copy of a file system. Multiple snapshots of a file system can be copied for different points in time. A snapshot policy can also be applied to a file system '
   name: Pure Storage File System Snapshots API
   slug: pure-storage-file-system-snapshots-api
-- baseURL: /
-  baseurl_source: spec
-  description: A FlashArray can contain up to 24 separate file systems, each with a number of directories that can be exported via supported protocols. Clients, using Active Directory or LDAP, can connect and access
-  name: Pure Storage File Systems API
-  slug: pure-storage-file-systems-api
 - baseURL: /
   baseurl_source: spec
   description: The Files API from Pure Storage — 1 operation(s) for files.
@@ -229,7 +224,7 @@ apis:
   description: Operational status is reported by most of the hardware components in an array, including the chassis, controller, and storage shelf.
   name: Pure Storage Hardware API
   slug: pure-storage-hardware-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: The endpoints are deprecated. Use the endpoints under Network Interfaces instead. Manages the port connector attributes on the array. Lane speeds and port count attributes can be configured.
   name: Pure Storage Hardware Connectors API
@@ -244,12 +239,12 @@ apis:
   description: Hosts organize the storage network addresses (iSCSI Qualified Names, NVMe qualified names, or Fibre Channel world wide names) of client computers to identify the host's intiators. Hosts also control c
   name: Pure Storage Hosts API
   slug: pure-storage-hosts-api
-- baseURL: /
+- baseURL: https://api-staging.pure1.purestorage.com/
   baseurl_source: spec
   description: Provides information about Pure1 subscription invoices.
   name: Pure Storage Invoices API
   slug: pure-storage-invoices-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Keytab management functionality for Kerberos authentication.
   name: Pure Storage Keytabs API
@@ -259,7 +254,7 @@ apis:
   description: 'The Key Management Interoperability Protocol (KMIP) server is used in combination with the Pure Storage Rapid Data Locking (RDL) feature and EncryptReduce feature to further secure the encrypted data '
   name: Pure Storage KMIP API
   slug: pure-storage-kmip-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages the creation, attributes, and deletion of holds on the array. A hold can be also applied to a path under a file system to mark the entries under the path as immutable.
   name: Pure Storage Legal Holds API
@@ -269,7 +264,7 @@ apis:
   description: A life cycle rule helps manage the number of copies of a specific bucket. A lifecycle rule can be applied to a bucket with a rule indicating the retention time before it is to be deleted.
   name: Pure Storage Lifecycle Rules API
   slug: pure-storage-lifecycle-rules-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages the link aggregation group (LAG) of Ethernet ports on the array.
   name: Pure Storage Link Aggregation Groups API
@@ -279,7 +274,7 @@ apis:
   description: Log Targets to be used to send management or data audit logs.
   name: Pure Storage Log Targets API
   slug: pure-storage-log-targets-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: The array collects a log of command activities that can be used for analysis when the logs are sent to Pure Technical Services.
   name: Pure Storage Logs API
@@ -289,7 +284,7 @@ apis:
   description: During a maintenance window, alerts are suppressed that are related to connections, paths, ports, and other resources that are down during maintenance.
   name: Pure Storage Maintenance Windows API
   slug: pure-storage-maintenance-windows-api
-- baseURL: /
+- baseURL: https://api-staging.pure1.purestorage.com/
   baseurl_source: spec
   description: Provides information about historical metrics for arrays, buckets, directories, file systems, pods, subscription licenses, and volumes.
   name: Pure Storage Metrics API
@@ -299,12 +294,12 @@ apis:
   description: Manages the interfaces and the network connection attributes of the array.
   name: Pure Storage Network Interfaces API
   slug: pure-storage-network-interfaces-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Node Groups can contain one or more nodes for file system creation management.
   name: Pure Storage Node Groups API
   slug: pure-storage-node-groups-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages the nodes for pNFS. These nodes are where the client will read/write to when pNFS is enabled.
   name: Pure Storage Nodes API
@@ -314,7 +309,7 @@ apis:
   description: Manages object store access keys. A maximum of two sets of keys can be created for each object store user. A set of keys consists of an access key ID and Secret Access Key.
   name: Pure Storage Object Store Access Keys API
   slug: pure-storage-object-store-access-keys-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages object store account exports. Exports expose accounts and their contained resources to servers.
   name: Pure Storage Object Store Account Exports API
@@ -324,12 +319,12 @@ apis:
   description: Manages object store accounts. Accounts contain buckets and users. Accounts must be created before an object store user or buckets can be created.
   name: Pure Storage Object Store Accounts API
   slug: pure-storage-object-store-accounts-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages remote credentials for remote objects. Remote credentials contain access information that can be reused for multiple objects.
   name: Pure Storage Object Store Remote Credentials API
   slug: pure-storage-object-store-remote-credentials-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages the roles assumable by external federated entity. Each role is assigned a trust policy that determines which identity provider authorizes the entities and how.
   name: Pure Storage Object Store Roles API
@@ -349,7 +344,7 @@ apis:
   description: The offload feature enables system administrators to replicate point-in-time volume snapshots from the array to an external storage system for long-term retention. Each offload target represents an ex
   name: Pure Storage Offloads API
   slug: pure-storage-offloads-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: OIDC SSO allows customers to configure settings of OIDC service provider and identity provider. It provides a multi-factor authentication (MFA) mechanism for customers to log in to FlashBlade.
   name: Pure Storage OIDC SSO API
@@ -364,7 +359,7 @@ apis:
   description: Synchronous replication is managed through pods. A pod representing a collection of protection groups and volumes is created on one array and stretched to another array, resulting in fully synchronize
   name: Pure Storage Pods API
   slug: pure-storage-pods-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Displays general information for all available types of policies and their members.
   name: Pure Storage Policies (All) API
@@ -374,97 +369,97 @@ apis:
   description: Policies are used to create exports (i.e., shares) and schedule snapshots. NFS and SMB policies can be created and have one or more rules applied to them. Each policy can be reused, creating exports f
   name: Pure Storage Policies API
   slug: pure-storage-policies-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages audit policies for filesystems. These policies are composed of log target which contain the destination for audit logs.
   name: Pure Storage Policies - Audit for File Systems API
   slug: pure-storage-policies-audit-for-file-systems-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages audit policies for object store. These policies are composed of log targets which contain the destination for audit logs.
   name: Pure Storage Policies - Audit for Object Store API
   slug: pure-storage-policies-audit-for-object-store-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages file Data Eviction policies. These policies define controls that can be configured and attached to managed data lifecycle independently of the lifecycle of files.
   name: Pure Storage Policies - Data Eviction API
   slug: pure-storage-policies-data-eviction-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages management access policies. These policies are composed of rules which govern an administrative user's permissions when managing resources.
   name: Pure Storage Policies - Management Access API
   slug: pure-storage-policies-management-access-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages management authentication policies. These policies control what authentication factors are required when logging in to different management interfaces (e.g., SSH).
   name: Pure Storage Policies - Management Authentication API
   slug: pure-storage-policies-management-authentication-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages network access policies. These policies are composed of rules which govern a client's ability to access different product interfaces.
   name: Pure Storage Policies - Network Access API
   slug: pure-storage-policies-network-access-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages NFS export policies. These policies are composed of rules which govern a client's ability to access the exported filesystem.
   name: Pure Storage Policies - NFS API
   slug: pure-storage-policies-nfs-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages access policies for object store users. Administrators can assign policies to users for managing buckets and objects.
   name: Pure Storage Policies - Object Store Access API
   slug: pure-storage-policies-object-store-access-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages password policies. These policies define requirements for user passwords complexity and login attempts.
   name: Pure Storage Policies - Password API
   slug: pure-storage-policies-password-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages Quality of Service (QoS) policies. These policies define controls that can be configured and attached to managed objects to guarantee performance of workloads.
   name: Pure Storage Policies - QoS API
   slug: pure-storage-policies-qos-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages S3 export policies for Object Store Account Exports. These policies contain rules which govern which buckets from the account are actually exported to the servers.
   name: Pure Storage Policies - S3 Export API
   slug: pure-storage-policies-s3-export-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: An SMB Client policy manages access to SMB file systems on a per-client basis. These policies can be applied to one or more file systems.
   name: Pure Storage Policies - SMB Client API
   slug: pure-storage-policies-smb-client-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: An SMB Share policy manages access to SMB file systems on a per-user/group basis. These policies can be applied to one or more file systems.
   name: Pure Storage Policies - SMB Share API
   slug: pure-storage-policies-smb-share-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: A snapshot policy manages the creation file system snapshots or it can applied to file system and object replication links for replication. These policies provide the user a way to control the frequen
   name: Pure Storage Policies - Snapshot API
   slug: pure-storage-policies-snapshot-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: An SSH Certificate Authority policy manages the keys that are allowed to sign user SSH certificates for access to the array, as well as the principals that they require be encoded in certificates to a
   name: Pure Storage Policies - SSH Certificate Authority API
   slug: pure-storage-policies-ssh-certificate-authority-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: 'A storage class tiering policy manages the criteria for tiering data within a filesystem from one storage class to another. These policies can be applied to one or more filesystems. Supported storage '
   name: Pure Storage Policies - Storage Class Tiering API
   slug: pure-storage-policies-storage-class-tiering-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: A TLS policy manages the allowed TLS versions and ciphers for incoming network traffic to the system. These policies can be applied at the array level, or to individual network IPs.
   name: Pure Storage Policies - TLS API
   slug: pure-storage-policies-tls-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: A user-group-quota policy manages NFS and SMB quota configuration applicable for file owners in a filesystems. Rules can be set to configure quotas for specific users or groups, user-default and group
   name: Pure Storage Policies - User and Group Quota Policy API
   slug: pure-storage-policies-user-and-group-quota-policy-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages WORM data for file systems. These policies are composed of retention periods, lock type, and auto-commit status.
   name: Pure Storage Policies - WORM Data API
@@ -489,17 +484,17 @@ apis:
   description: 'A protection group defines a set of volumes, hosts, or host groups (called members) that are protected together through snapshots with point-in-time consistency across the member volumes. The members '
   name: Pure Storage Protection Groups API
   slug: pure-storage-protection-groups-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Public Keys can be configured for reference in other configurations as signing keys are used to verify cryptographic signatures.
   name: Pure Storage Public Keys API
   slug: pure-storage-public-keys-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: A quota manages a set amount of space on a file system which a user or group may write to. A quota can be applied to a user or group of a specified file system. Once a user or group reaches their quot
   name: Pure Storage Quotas API
   slug: pure-storage-quotas-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Displays Rapid Data Locking (RDL) configuration and performs functionality tests of the associated Enterprise Key Management (EKM) servers.
   name: Pure Storage RDL API
@@ -544,7 +539,7 @@ apis:
   description: A remote volume snapshot represents a volume snapshot that resides on an offload target with the source side of the remote volume snapshot being another array that is connected to the local array. The
   name: Pure Storage Remote Volume Snapshots API
   slug: pure-storage-remote-volume-snapshots-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Resiliency groups display pairs of nodes where HA is enabled.
   name: Pure Storage Resiliency Groups API
@@ -554,7 +549,7 @@ apis:
   description: The Resource Accesses API from Pure Storage — 5 operation(s) for resource accesses.
   name: Pure Storage Resource Accesses API
   slug: pure-storage-resource-accesses-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Displays role attributes. Each user of the array is assigned to a role and each role has a set of role based access controls (RBAC). The roles (`array_admin`, `storage_admin`, `ops_admin`, `readonly`,
   name: Pure Storage Roles API
@@ -619,12 +614,12 @@ apis:
   description: Enables Support to fix bugs and help customers solve problems. Support tools include proxy, phonehome, and remote assist.
   name: Pure Storage Support API
   slug: pure-storage-support-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages support diagnostics for the array, including performing diagnostics tasks, running tests, finding problems and giving remediation. The diagnostics tool provides a way to test the array compone
   name: Pure Storage Support Diagnostics API
   slug: pure-storage-support-diagnostics-api
-- baseURL: /
+- baseURL: https://api-staging.pure1.purestorage.com/
   baseurl_source: spec
   description: Provides information about energy consumption and sustainability.
   name: Pure Storage Sustainability API
@@ -634,17 +629,17 @@ apis:
   description: Copied to Log Targets/Syslog for more organized way to handle all log targets. Both endpoints are identical. We encourage our users to use Log Targets/Syslog.
   name: Pure Storage Syslog API
   slug: pure-storage-syslog-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Manages targets for replication, including viewing the performance metrics of active replication operations.
   name: Pure Storage Targets API
   slug: pure-storage-targets-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Topology groups provide a way to manage sets of arrays. Groups are composed of individual arrays or other topology groups. By nesting groups, customers can express group and array hierarchies. A group
   name: Pure Storage Topology Groups API
   slug: pure-storage-topology-groups-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Displays the data usage and hard limit quotas for all users and groups on a file system.
   name: Pure Storage Usage API
@@ -664,7 +659,7 @@ apis:
   description: The Vchosts API from Pure Storage — 3 operation(s) for vchosts.
   name: Pure Storage Vchosts API
   slug: pure-storage-vchosts-api
-- baseURL: /
+- baseURL: http://[array]/
   baseurl_source: spec
   description: Verification keys used by Pure Support to access the array.
   name: Pure Storage Verification Keys API
@@ -694,6 +689,11 @@ apis:
   description: Workloads organize storage resources (such as volumes) and their related configuration and policy objects into logical groupings. Workloads can be deployed from workload presets.
   name: Pure Storage Workloads API
   slug: pure-storage-workloads-api
+- baseURL: /
+  baseurl_source: spec
+  description: A FlashArray can contain up to 24 separate file systems, each with a number of directories that can be exported via supported protocols. Clients, using Active Directory or LDAP, can connect and access
+  name: Pure Storage Filesystems API
+  slug: pure-storage-filesystems-api
 artifact_total: 409
 collections:
 - collection_type: open
@@ -1600,7 +1600,7 @@ plans:
 - name: Pure Storage Plans Pricing
   plan_count: 1
   slug: pure-storage-plans-pricing
-random_paper: 7
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Pure Storage Rate Limits
@@ -1628,33 +1628,33 @@ rules:
     warn: 14
   slug: pure-storage-rules
 score:
-  band: developing
-  composite: 49.8
+  band: strong
+  composite: 54.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 66.5
+    catalog_earned: 81.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.5
+    catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.5
   facets:
     access_clarity: 28.9
     contract_governance: 28.8
-    contract_quality: 55.9
+    contract_quality: 70.1
     developer_ergonomics: 69.0
-    discoverability: 50.0
+    discoverability: 59.3
     operational_transparency: 39.5
   previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 22.5
       derived: 0
       marker_coverage: 0.0
       total: 129
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

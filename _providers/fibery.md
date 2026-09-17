@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Command-based REST API for managing Fibery workspace entities, databases, views, files, and automation via a single POST endpoint that accepts batches of commands.
@@ -125,7 +125,7 @@ plans:
 - name: Fibery Plans Pricing
   plan_count: 4
   slug: fibery-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Fibery Rate Limits
@@ -150,7 +150,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 32.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

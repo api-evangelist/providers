@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -333,6 +333,10 @@ collections:
   name: Binance Algo Trading Account Withdrawals API
   slug: open-binance-withdrawals-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://binance.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/agentic-access/binance-agentic-access.yml
   title: ''
@@ -516,7 +520,7 @@ jsonld:
   property_count: 8
   slug: binance-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Binance
 nav: Providers
 network: true
@@ -526,12 +530,12 @@ overview: 'Binance publishes 28 APIs on the [APIs.io](https://apis.io/) network,
   The Binance catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Binance''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 8 more developer resources.'
+  Binance''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 9 more developer resources.'
 plans:
 - name: Binance Plans Pricing
   plan_count: 4
   slug: binance-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Binance Rate Limits
@@ -602,7 +606,7 @@ score:
     regime_id: securities_market_data
     score: 48.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -671,5 +675,5 @@ use_cases:
   name: DeFi Integration
 - description: Exploit price differences across Binance spot, futures, and margin markets.
   name: Arbitrage Trading
-website: https://developers.binance.com/
+website: https://binance.com
 ---

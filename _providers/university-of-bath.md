@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the University of Bath Research Data Archive, an EPrints 3.4.7 repository the University runs on its own infrastructure (researchdata.bath.ac.uk resolves '
@@ -164,7 +164,7 @@ plans:
 - name: University Of Bath Plans Pricing
   plan_count: 2
   slug: university-of-bath-plans-pricing
-random_paper: 13
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: University Of Bath Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

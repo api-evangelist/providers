@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -141,11 +141,6 @@ apis:
   slug: bud-co-manage-payments-api
 - baseURL: https://api-sandbox.thisisbud.com
   baseurl_source: declared
-  description: Retrieve and manage access and refresh tokens to authenticate to the Bud platform via OAuth2 protocol.
-  name: Bud Financial OAuth2 API
-  slug: bud-co-oauth2-api
-- baseURL: https://api-sandbox.thisisbud.com
-  baseurl_source: declared
   description: Find information regarding your customer's financial products.
   name: Bud Financial Product Finder API
   slug: bud-co-product-finder-api
@@ -204,6 +199,11 @@ apis:
   description: Allows customers to search & ask questions about their financial transactions.
   name: Bud Financial Transaction Search API
   slug: bud-co-transaction-search-api
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Retrieve and manage access and refresh tokens to authenticate to the Bud platform via OAuth2 protocol.
+  name: Bud Financial O Auth2 API
+  slug: bud-co-oauth2-api
 artifact_total: 80
 collections:
 - collection_type: open
@@ -404,7 +404,7 @@ plans:
 - name: Bud Co Plans Pricing
   plan_count: 5
   slug: bud-co-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Bud Co Rate Limits
@@ -477,7 +477,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -503,7 +503,7 @@ tags:
 - PISP
 - Financial Data
 - Fintech
-- UK
+- United Kingdom
 - Artificial Intelligence
 - Machine-Learning
 website: https://bud.co

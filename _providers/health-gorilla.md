@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
   slug: health-gorilla-binary-api
 - baseURL: https://api.healthgorilla.com/fhir/R4
   baseurl_source: declared
-  description: FHIR server capability discovery.
-  name: Health Gorilla CapabilityStatement API
-  slug: health-gorilla-capabilitystatement-api
-- baseURL: https://api.healthgorilla.com/fhir/R4
-  baseurl_source: declared
   description: Patient insurance coverage / eligibility.
   name: Health Gorilla Coverage API
   slug: health-gorilla-coverage-api
@@ -64,11 +59,6 @@ apis:
   description: Structured lab and radiology results.
   name: Health Gorilla DiagnosticReport API
   slug: health-gorilla-diagnosticreport-api
-- baseURL: https://api.healthgorilla.com/fhir/R4
-  baseurl_source: declared
-  description: Clinical document metadata.
-  name: Health Gorilla DocumentReference API
-  slug: health-gorilla-documentreference-api
 - baseURL: https://api.healthgorilla.com/fhir/R4
   baseurl_source: declared
   description: Individual result observations.
@@ -94,6 +84,16 @@ apis:
   description: Diagnostic (lab and radiology) order requests.
   name: Health Gorilla ServiceRequest API
   slug: health-gorilla-servicerequest-api
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: FHIR server capability discovery.
+  name: Health Gorilla Capability Statement API
+  slug: health-gorilla-capability-statement-api
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Clinical document metadata.
+  name: Health Gorilla Document Reference API
+  slug: health-gorilla-document-reference-api
 arazzos:
 - description: Locate a patient, search their insurance Coverage resources, then read a single Coverage for full plan detail.
   name: Health Gorilla Coverage Retrieval
@@ -150,6 +150,16 @@ collections:
   name: Health Gorilla FHIR R4 API
   slug: open-health-gorilla
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/overlays/health-gorilla-capabilitystatement-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/health-gorilla-capabilitystatement-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/overlays/health-gorilla-documentreference-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/health-gorilla-documentreference-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/capabilities/health-gorilla-capability-edges.yml
   title: ''
@@ -373,18 +383,18 @@ modified: '2026-08-14'
 name: Health Gorilla
 nav: Providers
 network: true
-overview: 'Health Gorilla publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Binary API, CapabilityStatement API, Coverage API, and 7 more. Tagged areas include Health, Interoperability, FHIR, Clinical Data, and Lab Ordering.
+overview: 'Health Gorilla publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Binary API, Coverage API, DiagnosticReport API, and 7 more. Tagged areas include Health, Interoperability, FHIR, Clinical Data, and Lab Ordering.
 
 
   The Health Gorilla catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Health Gorilla''s developer surface includes authentication, documentation, changelog, sandbox, API reference, getting-started guide, support, and 37 more developer resources.'
+  Health Gorilla''s developer surface includes authentication, documentation, changelog, sandbox, API reference, getting-started guide, support, and 39 more developer resources.'
 plans:
 - name: Health Gorilla Plans Pricing
   plan_count: 3
   slug: health-gorilla-plans-pricing
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Health Gorilla Rate Limits
@@ -430,7 +440,7 @@ score:
     regime_id: health
     score: 83.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

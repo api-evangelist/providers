@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.evervault.com
@@ -56,7 +56,7 @@ apis:
 - baseURL: https://api.evervault.com
   baseurl_source: declared
   description: The Evervault API API from Evervault — 0 operation(s) for evervault api.
-  name: Evervault Evervault API
+  name: Evervault API
   slug: evervault-evervault-api-api
 artifact_total: 33
 asyncapis:
@@ -308,7 +308,7 @@ created: '2026-07-17'
 description: 'Evervault is a data-security and payments-infrastructure platform that lets developers encrypt, tokenize, and process sensitive data - especially cardholder data - without it touching their own infrastructure. Its model stores encryption keys on Evervault''s side while customers hold the ciphertext, reducing breach scope. Core products include Relay (an encrypting/decrypting proxy), Functions (secure serverless runtimes), Enclaves (AWS Nitro Enclave workloads), UI Components for PCI-compliant card collection, plus payments tooling: network tokens, 3D Secure, BIN lookup, card account updater, and multi-PSP routing. Evervault is PCI DSS Level 1 and SOC 2 Type II, and supports HIPAA and GDPR.'
 image: https://evervault.com/favicon.ico
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Evervault
 nav: Providers
 network: true
@@ -319,10 +319,10 @@ overview: 'Evervault publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 29 more developer resources.'
-random_paper: 3
+random_paper: 0
 score:
   band: strong
-  composite: 61.7
+  composite: 61.4
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -330,11 +330,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 63.9
+    contract_quality: 62.9
     developer_ergonomics: 76.8
     discoverability: 75.9
     operational_transparency: 52.6
@@ -361,7 +361,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

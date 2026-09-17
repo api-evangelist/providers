@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -47,26 +47,6 @@ api_count: 1
 apis:
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
-  description: The CreateReplicationSet API from Amazon Incident Manager — 1 operation(s) for createreplicationset.
-  name: Amazon Incident Manager CreateReplicationSet API
-  slug: amazon-incident-manager-createreplicationset-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The CreateResponsePlan API from Amazon Incident Manager — 1 operation(s) for createresponseplan.
-  name: Amazon Incident Manager CreateResponsePlan API
-  slug: amazon-incident-manager-createresponseplan-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The CreateTimelineEvent API from Amazon Incident Manager — 1 operation(s) for createtimelineevent.
-  name: Amazon Incident Manager CreateTimelineEvent API
-  slug: amazon-incident-manager-createtimelineevent-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The DeleteIncidentRecord API from Amazon Incident Manager — 1 operation(s) for deleteincidentrecord.
-  name: Amazon Incident Manager DeleteIncidentRecord API
-  slug: amazon-incident-manager-deleteincidentrecord-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
   description: The DeleteReplicationSet#arn API from Amazon Incident Manager — 1 operation(s) for deletereplicationset#arn.
   name: Amazon Incident Manager DeleteReplicationSet#arn API
   slug: amazon-incident-manager-deletereplicationset-arn-api
@@ -75,16 +55,6 @@ apis:
   description: The DeleteResourcePolicy API from Amazon Incident Manager — 1 operation(s) for deleteresourcepolicy.
   name: Amazon Incident Manager DeleteResourcePolicy API
   slug: amazon-incident-manager-deleteresourcepolicy-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The DeleteResponsePlan API from Amazon Incident Manager — 1 operation(s) for deleteresponseplan.
-  name: Amazon Incident Manager DeleteResponsePlan API
-  slug: amazon-incident-manager-deleteresponseplan-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The DeleteTimelineEvent API from Amazon Incident Manager — 1 operation(s) for deletetimelineevent.
-  name: Amazon Incident Manager DeleteTimelineEvent API
-  slug: amazon-incident-manager-deletetimelineevent-api
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
   description: The GetIncidentRecord#arn API from Amazon Incident Manager — 1 operation(s) for getincidentrecord#arn.
@@ -112,39 +82,9 @@ apis:
   slug: amazon-incident-manager-gettimelineevent-eventid-incidentrecordarn-api
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
-  description: The ListIncidentRecords API from Amazon Incident Manager — 1 operation(s) for listincidentrecords.
-  name: Amazon Incident Manager ListIncidentRecords API
-  slug: amazon-incident-manager-listincidentrecords-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The ListRelatedItems API from Amazon Incident Manager — 1 operation(s) for listrelateditems.
-  name: Amazon Incident Manager ListRelatedItems API
-  slug: amazon-incident-manager-listrelateditems-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The ListReplicationSets API from Amazon Incident Manager — 1 operation(s) for listreplicationsets.
-  name: Amazon Incident Manager ListReplicationSets API
-  slug: amazon-incident-manager-listreplicationsets-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The ListResponsePlans API from Amazon Incident Manager — 1 operation(s) for listresponseplans.
-  name: Amazon Incident Manager ListResponsePlans API
-  slug: amazon-incident-manager-listresponseplans-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The ListTimelineEvents API from Amazon Incident Manager — 1 operation(s) for listtimelineevents.
-  name: Amazon Incident Manager ListTimelineEvents API
-  slug: amazon-incident-manager-listtimelineevents-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
   description: The PutResourcePolicy API from Amazon Incident Manager — 1 operation(s) for putresourcepolicy.
   name: Amazon Incident Manager PutResourcePolicy API
   slug: amazon-incident-manager-putresourcepolicy-api
-- baseURL: https://ssm-incidents.amazonaws.com
-  baseurl_source: declared
-  description: The StartIncident API from Amazon Incident Manager — 1 operation(s) for startincident.
-  name: Amazon Incident Manager StartIncident API
-  slug: amazon-incident-manager-startincident-api
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
   description: The Tags API from Amazon Incident Manager — 2 operation(s) for tags.
@@ -152,34 +92,94 @@ apis:
   slug: amazon-incident-manager-tags-api
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
-  description: The UpdateDeletionProtection API from Amazon Incident Manager — 1 operation(s) for updatedeletionprotection.
-  name: Amazon Incident Manager UpdateDeletionProtection API
-  slug: amazon-incident-manager-updatedeletionprotection-api
+  description: The Create Replication Set API from Amazon Incident Manager — 1 operation(s) for create replication set.
+  name: Amazon Incident Manager Create Replication Set API
+  slug: amazon-incident-manager-create-replication-set-api
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
-  description: The UpdateIncidentRecord API from Amazon Incident Manager — 1 operation(s) for updateincidentrecord.
-  name: Amazon Incident Manager UpdateIncidentRecord API
-  slug: amazon-incident-manager-updateincidentrecord-api
+  description: The Create Response Plan API from Amazon Incident Manager — 1 operation(s) for create response plan.
+  name: Amazon Incident Manager Create Response Plan API
+  slug: amazon-incident-manager-create-response-plan-api
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
-  description: The UpdateRelatedItems API from Amazon Incident Manager — 1 operation(s) for updaterelateditems.
-  name: Amazon Incident Manager UpdateRelatedItems API
-  slug: amazon-incident-manager-updaterelateditems-api
+  description: The Create Timeline Event API from Amazon Incident Manager — 1 operation(s) for create timeline event.
+  name: Amazon Incident Manager Create Timeline Event API
+  slug: amazon-incident-manager-create-timeline-event-api
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
-  description: The UpdateReplicationSet API from Amazon Incident Manager — 1 operation(s) for updatereplicationset.
-  name: Amazon Incident Manager UpdateReplicationSet API
-  slug: amazon-incident-manager-updatereplicationset-api
+  description: The Delete Incident Record API from Amazon Incident Manager — 1 operation(s) for delete incident record.
+  name: Amazon Incident Manager Delete Incident Record API
+  slug: amazon-incident-manager-delete-incident-record-api
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
-  description: The UpdateResponsePlan API from Amazon Incident Manager — 1 operation(s) for updateresponseplan.
-  name: Amazon Incident Manager UpdateResponsePlan API
-  slug: amazon-incident-manager-updateresponseplan-api
+  description: The Delete Response Plan API from Amazon Incident Manager — 1 operation(s) for delete response plan.
+  name: Amazon Incident Manager Delete Response Plan API
+  slug: amazon-incident-manager-delete-response-plan-api
 - baseURL: https://ssm-incidents.amazonaws.com
   baseurl_source: declared
-  description: The UpdateTimelineEvent API from Amazon Incident Manager — 1 operation(s) for updatetimelineevent.
-  name: Amazon Incident Manager UpdateTimelineEvent API
-  slug: amazon-incident-manager-updatetimelineevent-api
+  description: The Delete Timeline Event API from Amazon Incident Manager — 1 operation(s) for delete timeline event.
+  name: Amazon Incident Manager Delete Timeline Event API
+  slug: amazon-incident-manager-delete-timeline-event-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The List Incident Records API from Amazon Incident Manager — 1 operation(s) for list incident records.
+  name: Amazon Incident Manager List Incident Records API
+  slug: amazon-incident-manager-list-incident-records-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The List Related Items API from Amazon Incident Manager — 1 operation(s) for list related items.
+  name: Amazon Incident Manager List Related Items API
+  slug: amazon-incident-manager-list-related-items-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The List Replication Sets API from Amazon Incident Manager — 1 operation(s) for list replication sets.
+  name: Amazon Incident Manager List Replication Sets API
+  slug: amazon-incident-manager-list-replication-sets-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The List Response Plans API from Amazon Incident Manager — 1 operation(s) for list response plans.
+  name: Amazon Incident Manager List Response Plans API
+  slug: amazon-incident-manager-list-response-plans-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The List Timeline Events API from Amazon Incident Manager — 1 operation(s) for list timeline events.
+  name: Amazon Incident Manager List Timeline Events API
+  slug: amazon-incident-manager-list-timeline-events-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The Start Incident API from Amazon Incident Manager — 1 operation(s) for start incident.
+  name: Amazon Incident Manager Start Incident API
+  slug: amazon-incident-manager-start-incident-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The Update Deletion Protection API from Amazon Incident Manager — 1 operation(s) for update deletion protection.
+  name: Amazon Incident Manager Update Deletion Protection API
+  slug: amazon-incident-manager-update-deletion-protection-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The Update Incident Record API from Amazon Incident Manager — 1 operation(s) for update incident record.
+  name: Amazon Incident Manager Update Incident Record API
+  slug: amazon-incident-manager-update-incident-record-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The Update Related Items API from Amazon Incident Manager — 1 operation(s) for update related items.
+  name: Amazon Incident Manager Update Related Items API
+  slug: amazon-incident-manager-update-related-items-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The Update Replication Set API from Amazon Incident Manager — 1 operation(s) for update replication set.
+  name: Amazon Incident Manager Update Replication Set API
+  slug: amazon-incident-manager-update-replication-set-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The Update Response Plan API from Amazon Incident Manager — 1 operation(s) for update response plan.
+  name: Amazon Incident Manager Update Response Plan API
+  slug: amazon-incident-manager-update-response-plan-api
+- baseURL: https://ssm-incidents.amazonaws.com
+  baseurl_source: declared
+  description: The Update Timeline Event API from Amazon Incident Manager — 1 operation(s) for update timeline event.
+  name: Amazon Incident Manager Update Timeline Event API
+  slug: amazon-incident-manager-update-timeline-event-api
 artifact_total: 470
 collections:
 - collection_type: postman
@@ -1583,7 +1583,7 @@ modified: '2026-05-19'
 name: Amazon Incident Manager
 nav: Providers
 network: true
-overview: 'Amazon Incident Manager publishes 27 APIs on the [APIs.io](https://apis.io/) network, including CreateReplicationSet API, CreateResponsePlan API, CreateTimelineEvent API, and 24 more. Tagged areas include Automation, DevOps, and Incident Management.
+overview: 'Amazon Incident Manager publishes 27 APIs on the [APIs.io](https://apis.io/) network, including DeleteReplicationSet#arn API, DeleteResourcePolicy API, GetIncidentRecord#arn API, and 24 more. Tagged areas include Automation, DevOps, and Incident Management.
 
 
   The Amazon Incident Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1648,7 +1648,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

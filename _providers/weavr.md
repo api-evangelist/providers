@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -257,11 +257,6 @@ apis:
   slug: weavr-user-impersonation-api
 - baseURL: https://api.weavr.io/multi
   baseurl_source: declared
-  description: The Wiretransfers API from Weavr — 2 operation(s) for wiretransfers.
-  name: Weavr Wiretransfers API
-  slug: weavr-wiretransfers-api
-- baseURL: https://api.weavr.io/multi
-  baseurl_source: declared
   description: Notification of the Authentication Factors that are used for the `Identity`.
   name: Weavr Authentication Factors Webhooks API
   slug: weavr-authentication-factors-webhooks-api
@@ -275,11 +270,6 @@ apis:
   description: Buyers are identities representing companies. Once on-boarded, Buyers can create and manage their own instruments via your application.
   name: Weavr Buyers Webhooks API
   slug: weavr-buyers-webhooks-api
-- baseURL: https://api.weavr.io/multi
-  baseurl_source: declared
-  description: The Ibans API from Weavr — 0 operation(s) for ibans.
-  name: Weavr Ibans API
-  slug: weavr-ibans-api
 - baseURL: https://api.weavr.io/multi
   baseurl_source: declared
   description: Notification that the status of a Linked Account has been updated.
@@ -302,11 +292,6 @@ apis:
   slug: weavr-payment-runs-webhooks-api
 - baseURL: https://api.weavr.io/multi
   baseurl_source: declared
-  description: The Stepup API from Weavr — 0 operation(s) for stepup.
-  name: Weavr Stepup API
-  slug: weavr-stepup-api
-- baseURL: https://api.weavr.io/multi
-  baseurl_source: declared
   description: Notification that a step-up has been completed or declined.
   name: Weavr Stepup Webhooks API
   slug: weavr-stepup-webhooks-api
@@ -320,6 +305,16 @@ apis:
   description: Notification that the status of a transaction has been updated.
   name: Weavr Transactions Webhooks API
   slug: weavr-transactions-webhooks-api
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Ibans API from Weavr — 0 operation(s) for ibans.
+  name: Weavr Ibans API
+  slug: weavr-ibans-api
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Wire Transfers API from Weavr — 2 operation(s) for wire transfers.
+  name: Weavr Wire Transfers API
+  slug: weavr-wire-transfers-api
 arazzos:
 - description: Simulate a deposit into a managed account, then move funds with an internal transfer and an external send. Uses the Simulator API for the deposit so a fork runs end-to-end in the Weavr sandbox.
   name: Fund a managed account and move money
@@ -327,7 +322,7 @@ arazzos:
 - description: Create a corporate identity, authenticate, open a managed account and issue a virtual card on the Weavr Multi API. Fork and run against the sandbox (https://sandbox.weavr.io).
   name: Onboard a corporate and issue a virtual card
   slug: weavr-onboard-corporate-and-issue-card
-artifact_total: 105
+artifact_total: 104
 collections:
 - collection_type: open
   name: API Collection
@@ -646,14 +641,14 @@ modified: '2026-07-21'
 name: Weavr
 nav: Providers
 network: true
-overview: 'Weavr publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Access Tokens API, Accounts API, and 52 more. Tagged areas include Embedded Finance, Banking as a Service, Payments, Cards, and Fintech.
+overview: 'Weavr publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Access Tokens API, Accounts API, and 51 more. Tagged areas include Embedded Finance, Banking as a Service, Payments, Cards, and Fintech.
 
 
   Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 31 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: strong
-  composite: 59.3
+  composite: 59.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -661,11 +656,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 56.2
+    contract_quality: 56.5
     developer_ergonomics: 76.2
     discoverability: 81.5
     operational_transparency: 42.1
@@ -677,7 +672,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 55
+      total: 54
     mcp: derived
     skills: first-party
   regulatory:
@@ -693,7 +688,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Merchant-integration API for SHEIN sellers and logistics partners — OpenAPI and Webhook capabilities covering product publishing, order fulfillment, logistics/shipping, and stock-preparation order man
@@ -113,7 +113,7 @@ overview: 'SHEIN publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   SHEIN''s developer surface includes documentation, authentication, support, signup flow, and 8 more developer resources.'
-random_paper: 10
+random_paper: 7
 score:
   band: thin
   composite: 33.0
@@ -134,7 +134,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 33.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

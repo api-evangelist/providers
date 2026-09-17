@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Broker and partner API to generate bindable management and professional liability insurance quotes and bind coverage within a partner's own platform with custom branding. Access is granted on applicat
@@ -89,7 +89,7 @@ overview: 'Yourcounterpart publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Yourcounterpart''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 11
+random_paper: 20
 score:
   band: emerging
   composite: 16.6
@@ -118,7 +118,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

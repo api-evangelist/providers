@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ modified: '2026-04-28'
 name: FACTORY I/O
 nav: Providers
 network: true
-overview: 'FACTORY I/O publishes 3 APIs on the [APIs.io](https://apis.io/) network: Tag Values API, Tag Values by Name API, and Tags API. Tagged areas include Industrial Automation, Simulations, and Software Simulation.
+overview: 'FACTORY I/O publishes 3 APIs on the [APIs.io](https://apis.io/) network: Tag Values API, Tag Values by Name API, and Tags API. Tagged areas include Industrial Automation, Simulation, and Software Simulation.
 
 
   The FACTORY I/O catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -154,7 +154,7 @@ plans:
 - name: Factory I O Plans Pricing
   plan_count: 3
   slug: factory-i-o-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Factory I O Rate Limits
@@ -207,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -221,7 +221,7 @@ security:
 slug: factory-i-o
 tags:
 - Industrial Automation
-- Simulations
+- Simulation
 - Software Simulation
 website: https://factoryio.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: CKAN Action API for Entre Rios Open Data, covering ~121 datasets. Base URL https://datos.entrerios.gov.ar/api/3/action/.
@@ -94,7 +94,7 @@ plans:
 - name: Datos Entrerios Gov Ar Plans Pricing
   plan_count: 1
   slug: datos-entrerios-gov-ar-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Datos Entrerios Gov Ar Rate Limits
@@ -130,7 +130,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

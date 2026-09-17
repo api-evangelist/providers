@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -186,6 +186,10 @@ collections:
   name: Freshdesk REST Agents Time Entries API
   slug: open-freshdesk-time-entries-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://freshdesk.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/agentic-access/freshdesk-agentic-access.yml
   title: ''
@@ -239,22 +243,22 @@ jsonld:
   property_count: 8
   slug: freshdesk-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Freshdesk
 nav: Providers
 network: true
-overview: 'Freshdesk publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Webhook API, Agents API, Business Hours API, and 13 more.
+overview: 'Freshdesk publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Webhook API, Agents API, Business Hours API, and 13 more. Tagged areas include Automation, Customer-Support, and Application.
 
 
   The Freshdesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Freshdesk''s developer surface includes authentication and 6 more developer resources.'
+  Freshdesk''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Freshdesk Plans Pricing
   plan_count: 5
   slug: freshdesk-plans-pricing
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Freshdesk Rate Limits
@@ -308,11 +312,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -328,4 +329,9 @@ security:
   slug: freshdesk-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: freshdesk
+tags:
+- Automation
+- Customer-Support
+- Application
+website: https://freshdesk.com
 ---

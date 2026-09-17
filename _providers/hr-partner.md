@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -652,7 +652,7 @@ modified: '2026-05-23'
 name: HR Partner
 nav: Providers
 network: true
-overview: 'HR Partner publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Addresses API, Applicants API, and 28 more. Tagged areas include HR, HRIS, Human Resources, Employee Records, and Leave Management.
+overview: 'HR Partner publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Addresses API, Applicants API, and 28 more. Tagged areas include Human Resources, HRIS, Employee Records, Leave Management, and Recruitment.
 
 
   The HR Partner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -663,7 +663,7 @@ plans:
 - name: Hr Partner Plans Pricing
   plan_count: 3
   slug: hr-partner-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Hr Partner Rate Limits
@@ -729,7 +729,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -746,9 +746,8 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: hr-partner
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Employee Records
 - Leave Management
 - Recruitment

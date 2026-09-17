@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,8 +58,8 @@ modified: '2026-07-20'
 name: Planqc
 nav: Providers
 network: true
-overview: Planqc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Computing, Deep Tech, Hardware, and Neutral Atoms.
-random_paper: 9
+overview: Planqc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Computing, Deep Tech, Hardware, and Neutral Atom.
+random_paper: 1
 score:
   band: minimal
   composite: 5.3
@@ -88,7 +88,7 @@ score:
     - europe
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -106,7 +106,7 @@ tags:
 - Quantum Computing
 - Deep Tech
 - Hardware
-- Neutral Atoms
+- Neutral Atom
 - Germany
 - Research
 website: https://planqc.eu/

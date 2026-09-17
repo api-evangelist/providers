@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,11 +82,6 @@ apis:
   description: The API Entitlement API from Cisco Secure Firewall — 5 operation(s) for api entitlement.
   name: Cisco Secure Firewall API Entitlement API
   slug: cisco-secure-firewall-api-entitlement-api
-- baseURL: https://api.us.security.cisco.com/firewall
-  baseurl_source: declared
-  description: The ApiKeys API from Cisco Secure Firewall — 2 operation(s) for apikeys.
-  name: Cisco Secure Firewall API Keys API
-  slug: cisco-secure-firewall-apikeys-api
 - baseURL: https://api.us.security.cisco.com/firewall
   baseurl_source: declared
   description: The App Group API from Cisco Secure Firewall — 3 operation(s) for app group.
@@ -587,6 +582,11 @@ apis:
   description: The Zone Tag API from Cisco Secure Firewall — 2 operation(s) for zone tag.
   name: Cisco Secure Firewall Zone Tag API
   slug: cisco-secure-firewall-zone-tag-api
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The API Keys API from Cisco Secure Firewall — 2 operation(s) for api keys.
+  name: Cisco Secure Firewall API Keys API
+  slug: cisco-secure-firewall-api-keys-api
 artifact_total: 116
 common:
 - group: company
@@ -822,14 +822,14 @@ plans:
 - name: Cisco Secure Firewall Plans Pricing
   plan_count: 0
   slug: cisco-secure-firewall-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Cisco Secure Firewall Rate Limits
   slug: cisco-secure-firewall-rate-limits
 score:
   band: strong
-  composite: 57.6
+  composite: 57.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 27.0
@@ -837,11 +837,11 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 55.4
+    contract_quality: 54.7
     developer_ergonomics: 78.0
     discoverability: 50.0
     operational_transparency: 52.6
@@ -851,8 +851,8 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 100.0
+      derived: 5
+      marker_coverage: 79.6
       total: 108
     mcp: first-party
     skills: derived
@@ -867,7 +867,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

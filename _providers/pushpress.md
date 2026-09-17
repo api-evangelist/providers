@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -47,11 +47,6 @@ api_count: 1
 apis:
 - baseURL: https://api.pushpress.com/v3
   baseurl_source: declared
-  description: Programmatic API key management.
-  name: PushPress ApiKeys API
-  slug: pushpress-apikeys-api
-- baseURL: https://api.pushpress.com/v3
-  baseurl_source: declared
   description: Scheduled one-on-one or small-group appointments.
   name: PushPress Appointments API
   slug: pushpress-appointments-api
@@ -60,11 +55,6 @@ apis:
   description: Marketing / lead-source attributions for a customer.
   name: PushPress Attributions API
   slug: pushpress-attributions-api
-- baseURL: https://api.pushpress.com/v3
-  baseurl_source: declared
-  description: Class, appointment, event, and open-facility check-ins.
-  name: PushPress Checkins API
-  slug: pushpress-checkins-api
 - baseURL: https://api.pushpress.com/v3
   baseurl_source: declared
   description: Scheduled classes and class types.
@@ -110,6 +100,16 @@ apis:
   description: Platform webhook subscriptions for real-time events.
   name: PushPress Webhooks API
   slug: pushpress-webhooks-api
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Programmatic API key management.
+  name: PushPress API Keys API
+  slug: pushpress-api-keys-api
+- baseURL: https://api.pushpress.com/v3
+  baseurl_source: declared
+  description: Class, appointment, event, and open-facility check-ins.
+  name: PushPress Check Ins API
+  slug: pushpress-check-ins-api
 artifact_total: 34
 collections:
 - collection_type: open
@@ -220,7 +220,7 @@ modified: '2026-07-12'
 name: PushPress
 nav: Providers
 network: true
-overview: 'PushPress publishes 13 APIs on the [APIs.io](https://apis.io/) network, including ApiKeys API, Appointments API, Attributions API, and 10 more. Tagged areas include Fitness, Gym Management, Membership Management, Fitness Software, and Class Scheduling.
+overview: 'PushPress publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Attributions API, Classes API, and 10 more. Tagged areas include Fitness, Gym Management, Membership Management, Fitness Software, and Class Scheduling.
 
 
   PushPress'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -228,7 +228,7 @@ plans:
 - name: Pushpress Plans Pricing
   plan_count: 5
   slug: pushpress-plans-pricing
-random_paper: 18
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Pushpress Rate Limits
@@ -260,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

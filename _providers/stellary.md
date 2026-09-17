@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Hosted remote MCP server (streamable HTTP) exposing board read/write, cockpit supervision, agent runtime, and auto-registered plugin tools. Bearer-authenticated. Listed in the official MCP registry as
@@ -207,7 +207,7 @@ plans:
 - name: Stellary Plans Pricing
   plan_count: 2
   slug: stellary-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Stellary Rate Limits
@@ -241,7 +241,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

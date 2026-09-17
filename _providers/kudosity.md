@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -101,11 +101,11 @@ apis:
   description: Our webhooks API allows you to subscribe to events for SMS, MMS, and RCS messages. Using them requires you to have URLs (https) configured on your account that can receive POST requests over the inter
   name: Kudosity Webhook API
   slug: kudosity-webhook-api
-- baseURL: https://api.transmitmessage.com
+- baseURL: https://api.transmitsms.com
   baseurl_source: declared
-  description: The WhatsApp API from Kudosity — 2 operation(s) for whatsapp.
+  description: The Whats App API from Kudosity — 2 operation(s) for whats app.
   name: Kudosity Whats App API
-  slug: kudosity-whatsapp-api
+  slug: kudosity-whats-app-api
 artifact_total: 24
 asyncapis:
 - description: ''
@@ -119,6 +119,11 @@ collections:
   name: Transmit SMS API
   slug: postman-kudosity-transmit-sms-openapi-original
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/overlays/kudosity-whatsapp-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/kudosity-whatsapp-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -372,19 +377,19 @@ overview: 'Kudosity publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The Kudosity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 45 more developer resources.'
+  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 46 more developer resources.'
 plans:
 - name: Kudosity Plans
   plan_count: 4
   slug: kudosity-plans
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Kudosity Rate Limits
   slug: kudosity-rate-limits
 score:
   band: strong
-  composite: 60.0
+  composite: 60.6
   coverage:
     artifact_dirs: 25
     catalog_earned: 57.0
@@ -392,11 +397,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 61.9
+    contract_quality: 64.5
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 50.0
@@ -429,7 +434,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

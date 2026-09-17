@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 6
@@ -114,11 +114,6 @@ apis:
   description: The Api Provider Change API from WSO2 — 1 operation(s) for api provider change.
   name: WSO2 Api Provider Change API
   slug: wso2-api-provider-change-api
-- baseURL: https://apis.wso2.com
-  baseurl_source: declared
-  description: The APIKeys API from WSO2 — 16 operation(s) for apikeys.
-  name: WSO2 APIKeys API
-  slug: wso2-apikeys-api
 - baseURL: https://apis.wso2.com
   baseurl_source: declared
   description: The APIs API from WSO2 — 9 operation(s) for apis.
@@ -216,11 +211,6 @@ apis:
   slug: wso2-deny-policy-individual-api
 - baseURL: https://apis.wso2.com
   baseurl_source: declared
-  description: The End Points API from WSO2 — 1 operation(s) for end points.
-  name: WSO2 End Points API
-  slug: wso2-end-points-api
-- baseURL: https://apis.wso2.com
-  baseurl_source: declared
   description: The Environments API from WSO2 — 3 operation(s) for environments.
   name: WSO2 Environments API
   slug: wso2-environments-api
@@ -291,16 +281,6 @@ apis:
   slug: wso2-labels-collection-api
 - baseURL: https://apis.wso2.com
   baseurl_source: declared
-  description: The LLMProvider API from WSO2 — 1 operation(s) for llmprovider.
-  name: WSO2 LLMProvider API
-  slug: wso2-llmprovider-api
-- baseURL: https://apis.wso2.com
-  baseurl_source: declared
-  description: The LLMProviders API from WSO2 — 1 operation(s) for llmproviders.
-  name: WSO2 LLMProviders API
-  slug: wso2-llmproviders-api
-- baseURL: https://apis.wso2.com
-  baseurl_source: declared
   description: The Local Entry API from WSO2 — 1 operation(s) for local entry.
   name: WSO2 Local Entry API
   slug: wso2-local-entry-api
@@ -357,7 +337,7 @@ apis:
 - baseURL: https://apis.wso2.com
   baseurl_source: declared
   description: The Redeploy Api API from WSO2 — 1 operation(s) for redeploy api.
-  name: WSO2 Redeploy Api API
+  name: WSO2 Redeploy Api
   slug: wso2-redeploy-api-api
 - baseURL: https://apis.wso2.com
   baseurl_source: declared
@@ -467,7 +447,7 @@ apis:
 - baseURL: https://apis.wso2.com
   baseurl_source: declared
   description: The Undeploy Api API from WSO2 — 1 operation(s) for undeploy api.
-  name: WSO2 Undeploy Api API
+  name: WSO2 Undeploy Api
   slug: wso2-undeploy-api-api
 - baseURL: https://apis.wso2.com
   baseurl_source: declared
@@ -494,6 +474,26 @@ apis:
   description: The Workflows (Individual) API from WSO2 — 2 operation(s) for workflows (individual).
   name: WSO2 Workflows (Individual) API
   slug: wso2-workflows-individual-api
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The API Keys API from WSO2 — 16 operation(s) for api keys.
+  name: WSO2 API Keys API
+  slug: wso2-api-keys-api
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The Endpoints API from WSO2 — 1 operation(s) for endpoints.
+  name: WSO2 Endpoints API
+  slug: wso2-endpoints-api
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The LLM Provider API from WSO2 — 1 operation(s) for llm provider.
+  name: WSO2 LLM Provider API
+  slug: wso2-llm-provider-api
+- baseURL: https://apis.wso2.com
+  baseurl_source: declared
+  description: The LLM Providers API from WSO2 — 1 operation(s) for llm providers.
+  name: WSO2 LLM Providers API
+  slug: wso2-llm-providers-api
 artifact_total: 1194
 collections:
 - collection_type: postman
@@ -3901,7 +3901,7 @@ json_structures:
   property_count: 2
   slug: service-catalog-api-verifier-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: WSO2
 nav: Providers
 network: true
@@ -3916,7 +3916,7 @@ plans:
 - name: Wso2 Plans Pricing
   plan_count: 14
   slug: wso2-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Wso2 Rate Limits
@@ -3939,7 +3939,7 @@ scopes:
   summary_line: 51 scopes · password
 score:
   band: strong
-  composite: 60.6
+  composite: 60.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 49.3
@@ -3947,11 +3947,11 @@ score:
     catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 68.4
     contract_governance: 9.8
-    contract_quality: 55.5
+    contract_quality: 56.7
     developer_ergonomics: 48.8
     discoverability: 75.9
     operational_transparency: 55.3
@@ -3967,7 +3967,7 @@ score:
       marker_coverage: 0.0
       total: 91
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

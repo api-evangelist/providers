@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.mavrck.co
@@ -46,11 +46,6 @@ apis:
 - description: The full Mavrck (Later Influence) platform surface — 548 paths, 687 operations and 1071 schema definitions covering global users and memberships, communities and lists, campaigns, action groups and ca
   name: Mavrck Platform API
   slug: mavrck-platform-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The AccountInvitations API from Mavrck — 5 operation(s) for accountinvitations.
-  name: Mavrck Account Invitations API
-  slug: mavrck-accountinvitations-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
   description: The Action Groups API from Mavrck — 2 operation(s) for action groups.
@@ -81,11 +76,6 @@ apis:
   description: The ActionGroupCustomStatuses API from Mavrck — 5 operation(s) for actiongroupcustomstatuses.
   name: Mavrck Action Group Custom Statuses API
   slug: mavrck-actiongroupcustomstatuses-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The ActionGroups API from Mavrck — 14 operation(s) for actiongroups.
-  name: Mavrck Action Groups API
-  slug: mavrck-actiongroups-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
   description: The ActionGroupScheduledMessages API from Mavrck — 3 operation(s) for actiongroupscheduledmessages.
@@ -161,11 +151,6 @@ apis:
   description: The Backfill Analytics API from Mavrck — 2 operation(s) for backfill analytics.
   name: Mavrck Backfill Analytics API
   slug: mavrck-backfill-analytics-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The BatchJobs API from Mavrck — 2 operation(s) for batchjobs.
-  name: Mavrck Batch Jobs API
-  slug: mavrck-batchjobs-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
   description: The BazaarVoice API from Mavrck — 2 operation(s) for bazaarvoice.
@@ -308,11 +293,6 @@ apis:
   slug: mavrck-datapoints-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
-  description: The DataSubjectRequest API from Mavrck — 1 operation(s) for datasubjectrequest.
-  name: Mavrck Data Subject Request API
-  slug: mavrck-datasubjectrequest-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
   description: The DBInfluencerAgreementHistoryFields API from Mavrck — 1 operation(s) for dbinfluenceragreementhistoryfields.
   name: Mavrck DB Influencer Agreement History Fields API
   slug: mavrck-dbinfluenceragreementhistoryfields-api
@@ -348,39 +328,14 @@ apis:
   slug: mavrck-email-suppressions-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
-  description: The EmailSettings API from Mavrck — 3 operation(s) for emailsettings.
-  name: Mavrck Email Settings API
-  slug: mavrck-emailsettings-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
   description: The Entitlements API from Mavrck — 2 operation(s) for entitlements.
   name: Mavrck Entitlements API
   slug: mavrck-entitlements-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
-  description: The EventLogs API from Mavrck — 1 operation(s) for eventlogs.
-  name: Mavrck Event Logs API
-  slug: mavrck-eventlogs-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The ExchangeRates API from Mavrck — 1 operation(s) for exchangerates.
-  name: Mavrck Exchange Rates API
-  slug: mavrck-exchangerates-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The ExpiringAccessTokens API from Mavrck — 1 operation(s) for expiringaccesstokens.
-  name: Mavrck Expiring Access Tokens API
-  slug: mavrck-expiringaccesstokens-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
   description: The Exports API from Mavrck — 4 operation(s) for exports.
   name: Mavrck Exports API
   slug: mavrck-exports-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The ExternalClients API from Mavrck — 5 operation(s) for externalclients.
-  name: Mavrck External Clients API
-  slug: mavrck-externalclients-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
   description: The FacebookProfile API from Mavrck — 1 operation(s) for facebookprofile.
@@ -396,11 +351,6 @@ apis:
   description: The Features API from Mavrck — 2 operation(s) for features.
   name: Mavrck Features API
   slug: mavrck-features-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The GiftCards API from Mavrck — 3 operation(s) for giftcards.
-  name: Mavrck Gift Cards API
-  slug: mavrck-giftcards-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
   description: The GlobalUser API from Mavrck — 22 operation(s) for globaluser.
@@ -638,16 +588,6 @@ apis:
   slug: mavrck-openaisearch-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
-  description: The OptIn API from Mavrck — 3 operation(s) for optin.
-  name: Mavrck Opt In API
-  slug: mavrck-optin-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The PaymentAccount API from Mavrck — 9 operation(s) for paymentaccount.
-  name: Mavrck Payment Account API
-  slug: mavrck-paymentaccount-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
   description: The PaymentAppAdmins API from Mavrck — 1 operation(s) for paymentappadmins.
   name: Mavrck Payment App Admins API
   slug: mavrck-paymentappadmins-api
@@ -733,11 +673,6 @@ apis:
   slug: mavrck-public-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
-  description: The ReferralProgram API from Mavrck — 1 operation(s) for referralprogram.
-  name: Mavrck Referral Program API
-  slug: mavrck-referralprogram-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
   description: The Reports API from Mavrck — 1 operation(s) for reports.
   name: Mavrck Reports API
   slug: mavrck-reports-api
@@ -784,7 +719,7 @@ apis:
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
   description: The ShopifyAdminApi API from Mavrck — 2 operation(s) for shopifyadminapi.
-  name: Mavrck Shopify Admin API API
+  name: Mavrck Shopify Admin API
   slug: mavrck-shopifyadminapi-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
@@ -811,11 +746,6 @@ apis:
   description: The Specs API from Mavrck — 3 operation(s) for specs.
   name: Mavrck Specs API
   slug: mavrck-specs-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The StripePayments API from Mavrck — 9 operation(s) for stripepayments.
-  name: Mavrck Stripe Payments API
-  slug: mavrck-stripepayments-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
   description: The Subscribers API from Mavrck — 3 operation(s) for subscribers.
@@ -868,11 +798,6 @@ apis:
   slug: mavrck-tracking-link-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
-  description: The TrackingLinks API from Mavrck — 2 operation(s) for trackinglinks.
-  name: Mavrck Tracking Links API
-  slug: mavrck-trackinglinks-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
   description: The Translations API from Mavrck — 1 operation(s) for translations.
   name: Mavrck Translations API
   slug: mavrck-translations-api
@@ -886,11 +811,6 @@ apis:
   description: The URLMetadata API from Mavrck — 1 operation(s) for urlmetadata.
   name: Mavrck URL Metadata API
   slug: mavrck-urlmetadata-api
-- baseURL: https://api.mavrck.co/v1
-  baseurl_source: declared
-  description: The UserAccount API from Mavrck — 3 operation(s) for useraccount.
-  name: Mavrck User Account API
-  slug: mavrck-useraccount-api
 - baseURL: https://api.mavrck.co/v1
   baseurl_source: declared
   description: The Webhooks API from Mavrck — 1 operation(s) for webhooks.
@@ -946,7 +866,82 @@ apis:
   description: The Social Network Level API from Mavrck — 2 operation(s) for social network level.
   name: Mavrck Social Network Level API
   slug: mavrck-social-network-level-api
-artifact_total: 362
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Account Invitations API from Mavrck — 5 operation(s) for account invitations.
+  name: Mavrck Account Invitations API
+  slug: mavrck-account-invitations-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Batch Jobs API from Mavrck — 2 operation(s) for batch jobs.
+  name: Mavrck Batch Jobs API
+  slug: mavrck-batch-jobs-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Data Subject Request API from Mavrck — 1 operation(s) for data subject request.
+  name: Mavrck Data Subject Request API
+  slug: mavrck-data-subject-request-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Email Settings API from Mavrck — 3 operation(s) for email settings.
+  name: Mavrck Email Settings API
+  slug: mavrck-email-settings-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Event Logs API from Mavrck — 1 operation(s) for event logs.
+  name: Mavrck Event Logs API
+  slug: mavrck-event-logs-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Exchange Rates API from Mavrck — 1 operation(s) for exchange rates.
+  name: Mavrck Exchange Rates API
+  slug: mavrck-exchange-rates-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Expiring Access Tokens API from Mavrck — 1 operation(s) for expiring access tokens.
+  name: Mavrck Expiring Access Tokens API
+  slug: mavrck-expiring-access-tokens-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The External Clients API from Mavrck — 5 operation(s) for external clients.
+  name: Mavrck External Clients API
+  slug: mavrck-external-clients-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Gift Cards API from Mavrck — 3 operation(s) for gift cards.
+  name: Mavrck Gift Cards API
+  slug: mavrck-gift-cards-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Opt In API from Mavrck — 3 operation(s) for opt in.
+  name: Mavrck Opt In API
+  slug: mavrck-opt-in-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Payment Account API from Mavrck — 9 operation(s) for payment account.
+  name: Mavrck Payment Account API
+  slug: mavrck-payment-account-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Referral Program API from Mavrck — 1 operation(s) for referral program.
+  name: Mavrck Referral Program API
+  slug: mavrck-referral-program-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Stripe Payments API from Mavrck — 9 operation(s) for stripe payments.
+  name: Mavrck Stripe Payments API
+  slug: mavrck-stripe-payments-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Tracking Links API from Mavrck — 2 operation(s) for tracking links.
+  name: Mavrck Tracking Links API
+  slug: mavrck-tracking-links-api
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The User Account API from Mavrck — 3 operation(s) for user account.
+  name: Mavrck User Account API
+  slug: mavrck-user-account-api
+artifact_total: 361
 asyncapis:
 - description: 'AsyncAPI description of the Mavrck (Later Influence) outbound webhook surface, derived faithfully from the provider''s own published contract: "Workflow Stage Change Event Webhook" 1.0.0, an OpenAPI 3.'
   name: Mavrck Webhooks
@@ -1630,11 +1625,11 @@ description: Mavrck is an influencer marketing platform, founded in Boston as Sp
   workflow stage change events. API access is not self-serve — credentials are issued by a Later Influence Account Manager — and the v1 Reporting API has been publicly announced as deprecated in favour of reporting.api.later.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mavrck.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: Mavrck
 nav: Providers
 network: true
-overview: 'Mavrck publishes 181 APIs on the [APIs.io](https://apis.io/) network, including Later Influence (Mavrck) Reporting API, Account Invitations API, Action Groups API, and 178 more. Tagged areas include Company, Influencer Marketing, Creator Economy, Marketing, and Advertising.
+overview: 'Mavrck publishes 180 APIs on the [APIs.io](https://apis.io/) network, including Later Influence (Mavrck) Reporting API, Action Groups API, Action Group Brief API, and 177 more. Tagged areas include Company, Influencer Marketing, Creator Economy, Marketing, and Advertising.
 
 
   The Mavrck catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1645,14 +1640,14 @@ plans:
 - name: Mavrck Plans Pricing
   plan_count: 0
   slug: mavrck-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Mavrck Rate Limits
   slug: mavrck-rate-limits
 score:
   band: developing
-  composite: 51.9
+  composite: 52.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 24.0
@@ -1660,11 +1655,11 @@ score:
     catalog_gap: 91.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 55.3
+    contract_quality: 58.9
     developer_ergonomics: 47.0
     discoverability: 51.9
     operational_transparency: 47.4
@@ -1675,7 +1670,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 180
+      total: 179
     mcp: derived
     skills: derived
   regulatory:
@@ -1685,7 +1680,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - baseURL: https://developer.tecoenergy.com
   baseurl_source: declared
   description: The Energy Usage API from TECO Energy — 1 operation(s) for energy usage.
-  name: TECO Energy Energy Usage API
+  name: TECO Energy Usage API
   slug: teco-energy-energy-usage-api
 - baseURL: https://developer.tecoenergy.com
   baseurl_source: declared
@@ -170,11 +170,11 @@ jsonld:
   property_count: 0
   slug: teco-energy-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: TECO Energy
 nav: Providers
 network: true
-overview: 'TECO Energy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Billing API, Energy Usage API, and 2 more. Tagged areas include Energy, Utilities, Electric, Natural Gas, and Smart Grid.
+overview: 'TECO Energy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Billing API, Usage API, and 2 more. Tagged areas include Energy, Utilities, Electric, Natural Gas, and Smart Grid.
 
 
   The TECO Energy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -201,7 +201,7 @@ press:
 - date: '2026-05-25'
   title: Tampa Electric is warning customers about a growing ...
   url: https://www.facebook.com/FOX13TampaBay/posts/tampa-electric-is-warning-customers-about-a-growing-wave-of-utility-scams-using-/1458260039680854/
-random_paper: 9
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Teco Energy Rate Limits
@@ -261,7 +261,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

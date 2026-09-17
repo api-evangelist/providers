@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: FIFA Ultimate Team items API
@@ -62,7 +62,7 @@ name: FIFA Ultimate Team
 nav: Providers
 network: true
 overview: FIFA Ultimate Team publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 3
+random_paper: 6
 score:
   band: minimal
   composite: 6.7
@@ -83,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

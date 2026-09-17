@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -400,7 +400,7 @@ press:
 - date: '2026-05-25'
   title: URBN Reports Record Q2 Sales and Income
   url: https://investor.urbn.com/news-releases/news-release-details/urbn-reports-record-q2-sales-and-income
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Urban Outfitters Rate Limits
@@ -454,7 +454,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

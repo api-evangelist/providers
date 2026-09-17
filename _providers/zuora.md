@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -248,11 +248,6 @@ apis:
   slug: zuora-notifications-api
 - baseURL: https://rest.zuora.com/
   baseurl_source: spec
-  description: Zuora recommends that you use OAuth v2.0 to authenticate to the Zuora REST API. You must first create an OAuth client in the Zuora UI before using the [Create an OAuth token](/api-references/api/opera
-  name: Zuora OAuth API
-  slug: zuora-oauth-api
-- baseURL: https://rest.zuora.com/
-  baseurl_source: spec
   description: Use offers to define different product packages with multiple prices for all charge types across different geographic regions, sales areas, customers, or billing frequencies, for example. The Offer ob
   name: Zuora Offers API
   slug: zuora-offers-api
@@ -408,11 +403,6 @@ apis:
   slug: zuora-settings-api
 - baseURL: https://rest.zuora.com/
   baseurl_source: spec
-  description: A light-weight API to sign up customers and subscribe. You need to have the [Orders](https://knowledgecenter.zuora.com/Zuora_Billing/Subscriptions/Orders) or [Orders Harmonization](https://knowledgece
-  name: Zuora Sign Up API
-  slug: zuora-sign-up-api
-- baseURL: https://rest.zuora.com/
-  baseurl_source: spec
   description: A subscription is a product or service that has recurring charges, such as a monthly flat fee or charges based on usage. Subscriptions can also include one-time charges, such as activation fees. Every
   name: Zuora Subscriptions API
   slug: zuora-subscriptions-api
@@ -439,8 +429,18 @@ apis:
 - baseURL: https://rest.zuora.com/
   baseurl_source: spec
   description: '**Note:** You can only use the operations in this section if you have the Billing - Revenue Integration feature enabled. See <a href="https://knowledgecenter.zuora.com/Zuora_Revenue/Billing_-_Revenue_'
-  name: Zuora Zuora Revenue Integration API
+  name: Zuora Revenue Integration API
   slug: zuora-zuora-revenue-integration-api
+- baseURL: https://rest.zuora.com/
+  baseurl_source: spec
+  description: Zuora recommends that you use OAuth v2.0 to authenticate to the Zuora REST API. You must first create an OAuth client in the Zuora UI before using the [Create an OAuth token](/api-references/api/opera
+  name: Zuora O Auth API
+  slug: zuora-oauth-api
+- baseURL: https://rest.zuora.com/
+  baseurl_source: spec
+  description: A light-weight API to sign up customers and subscribe. You need to have the Orders or Orders Harmonization feature enabled to use this API.
+  name: Zuora Signup API
+  slug: zuora-signup-api
 artifact_total: 165
 collections:
 - collection_type: open
@@ -755,7 +755,7 @@ finops:
   slug: zuora-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zuora.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Zuora
 nav: Providers
 network: true
@@ -767,7 +767,7 @@ plans:
 - name: Zuora Plans Pricing
   plan_count: 3
   slug: zuora-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Zuora Rate Limits
@@ -805,7 +805,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

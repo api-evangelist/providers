@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://blobsrus.omniapp.co/api
@@ -226,8 +226,8 @@ apis:
 - baseURL: https://blobsrus.omniapp.co/api
   baseurl_source: declared
   description: Inspect your own user permissions
-  name: Omni Who Am I API
-  slug: omni-who-am-i-api
+  name: Omni Whoami API
+  slug: omni-whoami-api
 artifact_total: 82
 collections:
 - collection_type: open
@@ -520,7 +520,7 @@ overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Omni''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 27 more developer resources.'
-random_paper: 15
+random_paper: 17
 score:
   band: strong
   composite: 58.9
@@ -550,7 +550,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

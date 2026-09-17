@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: REST API for financial and market data covering equities, ETFs, crypto, forex, derivatives, fundamentals, financial statements, news, economic indicators, and more. Responses in JSON/CSV; API-key auth
@@ -186,7 +186,7 @@ plans:
 - name: Financialdata Net Plans Pricing
   plan_count: 5
   slug: financialdata-net-plans-pricing
-random_paper: 14
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Financialdata Net Rate Limits
@@ -220,7 +220,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

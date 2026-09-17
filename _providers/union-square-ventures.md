@@ -21,14 +21,14 @@ modified: '2026-07-17'
 name: Union Square Ventures
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 14
 slug: union-square-ventures
 tags:
 - Venture Capital
 - Seed
 - Series A
 - Fintech
-- Marketplaces
+- Marketplace
 - Developer Tools
 - Web3
 - Climate

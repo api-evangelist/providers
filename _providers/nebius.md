@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: 'The Nebius Compute API provisions and manages virtual machines and GPU clusters with NVIDIA GPUs and InfiniBand interconnect for ML and AI workloads. Exposed over gRPC and accessed through the nebius '
@@ -184,7 +184,7 @@ plans:
 - name: Nebius Plans Pricing
   plan_count: 1
   slug: nebius-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Nebius Rate Limits
@@ -209,7 +209,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 25.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

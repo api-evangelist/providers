@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -98,6 +98,10 @@ collections:
   name: Amazon Audit Manager Assessments Settings API
   slug: open-amazon-audit-manager-settings-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/mcp/amazon-audit-manager-mcp.yml
   title: ''
@@ -728,7 +732,7 @@ jsonld:
   property_count: 0
   slug: amazon-audit-manager-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon Audit Manager
 nav: Providers
 network: true
@@ -738,8 +742,8 @@ overview: 'Amazon Audit Manager publishes 6 APIs on the [APIs.io](https://apis.i
   The Amazon Audit Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Audit Manager''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 7
+  Amazon Audit Manager''s developer surface includes authentication and 8 more developer resources.'
+random_paper: 0
 rules:
 - effective_rule_count: 4
   extends: []
@@ -791,7 +795,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -823,4 +827,5 @@ use_cases:
 - Delegate control reviews to business process owners
 - Generate audit-ready reports for external auditors
 - Monitor compliance posture across multiple AWS accounts
+website: https://amazon.com
 ---

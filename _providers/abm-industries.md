@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: ABM Connect is a data intelligence platform that unifies facility, financial, equipment, IoT, and service-delivery data into a real-time, action-focused view. It aggregates data from front-line team m
@@ -187,7 +187,7 @@ press:
 - date: '2026-05-25'
   title: ABM Expands Position and Capabilities in Fast-Growing ...
   url: https://investor.abm.com/news-releases/news-release-details/abm-expands-position-and-capabilities-fast-growing-data-center
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Abm Industries Rate Limits
@@ -220,7 +220,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

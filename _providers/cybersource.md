@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -101,11 +101,6 @@ apis:
   description: Once a batch is created its status can be checked using the status resource. When the batch status is COMPLETED its report can then be retrieved.
   name: CyberSource Batches API
   slug: cybersource-batches-api
-- baseURL: https://api.cybersource.com
-  baseurl_source: declared
-  description: A billingAgreement is a stand-alone transaction that is not linked to any previous transactions. It takes money from your merchant bank account and returns it to the customer.
-  name: CyberSource billingAgreements API
-  slug: cybersource-billingagreements-api
 - baseURL: https://api.cybersource.com
   baseurl_source: declared
   description: The Bin Lookup API from CyberSource — 1 operation(s) for bin lookup.
@@ -199,7 +194,7 @@ apis:
 - baseURL: https://api.cybersource.com
   baseurl_source: declared
   description: 'The Flex API enables merchants to securely accept customer payment information captured within a server-side application using a set of APIs. These APIs protect your customer''s primary account number '
-  name: CyberSource Flex API API
+  name: CyberSource Flex API
   slug: cybersource-flex-api-api
 - baseURL: https://api.cybersource.com
   baseurl_source: declared
@@ -423,11 +418,6 @@ apis:
   slug: cybersource-unified-checkout-v1-capture-context-api
 - baseURL: https://api.cybersource.com
   baseurl_source: declared
-  description: The UserManagement API from CyberSource — 1 operation(s) for usermanagement.
-  name: CyberSource UserManagement API
-  slug: cybersource-usermanagement-api
-- baseURL: https://api.cybersource.com
-  baseurl_source: declared
   description: The UserManagementSearch API from CyberSource — 1 operation(s) for usermanagementsearch.
   name: CyberSource UserManagementSearch API
   slug: cybersource-usermanagementsearch-api
@@ -441,6 +431,16 @@ apis:
   description: A void cancels a payment or capture. A transaction can be voided only when CyberSource has not already submitted the capture to your processor. You cannot undo a void.
   name: CyberSource void API
   slug: cybersource-void-api
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A billingAgreement is a stand-alone transaction that is not linked to any previous transactions. It takes money from your merchant bank account and returns it to the customer.
+  name: CyberSource Billing Agreements API
+  slug: cybersource-billing-agreements-api
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The User Management API from CyberSource — 1 operation(s) for user management.
+  name: CyberSource User Management API
+  slug: cybersource-user-management-api
 artifact_total: 164
 collections:
 - collection_type: open
@@ -657,6 +657,10 @@ collections:
   name: CyberSource Merged Spec bankAccountValidation void API
   slug: open-cybersource-void-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://cybersource.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/capabilities/cybersource-capability-edges.yml
   title: ''
@@ -761,7 +765,7 @@ jsonld:
   property_count: 0
   slug: cybersource-api
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: CyberSource
 nav: Providers
 network: true
@@ -771,12 +775,12 @@ overview: 'CyberSource publishes 73 APIs on the [APIs.io](https://apis.io/) netw
   The CyberSource catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CyberSource''s developer surface includes engineering blog, developer portal, documentation, getting-started guide, API reference, GitHub presence, status page, and 13 more developer resources.'
+  CyberSource''s developer surface includes engineering blog, developer portal, documentation, getting-started guide, API reference, GitHub presence, status page, and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -794,21 +798,21 @@ rules:
   slug: cybersource-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 37.1
   coverage:
     artifact_dirs: 14
-    catalog_earned: 51.3
+    catalog_earned: 46.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.8
+    catalog_gap: 68.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 54.7
+    contract_quality: 54.5
     developer_ergonomics: 57.1
-    discoverability: 53.7
+    discoverability: 44.4
     operational_transparency: 21.1
   previous_composite: 38.1
   provenance:
@@ -825,7 +829,7 @@ score:
     regime_id: payments
     score: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -846,5 +850,5 @@ tags:
 - Payouts
 - Payment Gateway
 - Financial Technology
-website: https://developer.cybersource.com/
+website: https://cybersource.com
 ---

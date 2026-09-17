@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ overview: 'SpruceID publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SpruceID''s developer surface includes engineering blog, GitHub presence, and 11 more developer resources.'
-random_paper: 2
+random_paper: 5
 score:
   band: emerging
   composite: 21.3
@@ -206,7 +206,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

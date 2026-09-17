@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://lastmile.milenow.com/index.php
@@ -302,7 +302,7 @@ overview: 'Mile publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mile''s developer surface includes documentation, API reference, engineering blog, signup flow, support, pricing, authentication, and 14 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: developing
   composite: 43.9
@@ -317,7 +317,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 57.0
+    contract_quality: 56.8
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 7.9
@@ -332,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: 'Otterize is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Otterize''s developer surface includes documentation, getting-started guide, support, CLI, changelog, authentication, and 6 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: emerging
   composite: 18.6
@@ -125,7 +125,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 18.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

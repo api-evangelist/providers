@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -54,11 +54,6 @@ apis:
   description: The Accounts API from Form3 — 3 operation(s) for accounts.
   name: Form3 Accounts API
   slug: form3-accounts-api
-- baseURL: https://api.form3.tech/v1
-  baseurl_source: declared
-  description: The AccountValidation API from Form3 — 2 operation(s) for accountvalidation.
-  name: Form3 Account Validation API
-  slug: form3-accountvalidation-api
 - baseURL: https://api.form3.tech/v1
   baseurl_source: declared
   description: The ACE API from Form3 — 2 operation(s) for ace.
@@ -84,11 +79,6 @@ apis:
   description: The Claims API from Form3 — 8 operation(s) for claims.
   name: Form3 Claims API
   slug: form3-claims-api
-- baseURL: https://api.form3.tech/v1
-  baseurl_source: declared
-  description: The DirectDebits API from Form3 — 26 operation(s) for directdebits.
-  name: Form3 Direct Debits API
-  slug: form3-directdebits-api
 - baseURL: https://api.form3.tech/v1
   baseurl_source: declared
   description: The DirectDebitsReads API from Form3 — 1 operation(s) for directdebitsreads.
@@ -184,6 +174,16 @@ apis:
   description: The Users API from Form3 — 11 operation(s) for users.
   name: Form3 Users API
   slug: form3-users-api
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Account Validation API from Form3 — 2 operation(s) for account validation.
+  name: Form3 Account Validation API
+  slug: form3-account-validation-api
+- baseURL: https://api.form3.tech/v1
+  baseurl_source: declared
+  description: The Direct Debits API from Form3 — 26 operation(s) for direct debits.
+  name: Form3 Direct Debits API
+  slug: form3-direct-debits-api
 artifact_total: 37
 asyncapis:
 - description: ''
@@ -345,10 +345,10 @@ common:
   type: GettingStarted
   url: https://www.api-docs.form3.tech/api/tutorials/getting-started/introduction
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-payments.yml
+  href: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/_original/form3-payments.yml
   title: ''
   type: OpenAPI
-  url: openapi/form3-payments.yml
+  url: openapi/_original/form3-payments.yml
 - group: build
   title: ''
   type: GitHubOrganization
@@ -382,18 +382,18 @@ description: Form3 is a United Kingdom-headquartered, cloud-native payments tech
   regulated B2B rail rather than an open self-serve signup product; production access is contracted.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-09-16'
 name: Form3
 nav: Providers
 network: true
-overview: 'Form3 publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Identification API, Accounts API, Account Validation API, and 25 more. Tagged areas include Payments, United Kingdom, Payment Processing, Account-to-Account, and Real-Time Payments.
+overview: 'Form3 publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Identification API, Accounts API, ACE API, and 25 more. Tagged areas include Payments, United Kingdom, Payment Processing, Account-to-Account, and Real-Time Payments.
 
 
   The Form3 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Form3''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, and 33 more developer resources.'
-random_paper: 4
+random_paper: 3
 scopes:
 - name: Form3 Scopes
   scope_count: 0
@@ -401,7 +401,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.1
+  composite: 45.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 34.0
@@ -409,11 +409,11 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 58.2
+    contract_quality: 58.7
     developer_ergonomics: 28.0
     discoverability: 70.4
     operational_transparency: 36.8
@@ -447,7 +447,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

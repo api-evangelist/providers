@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ modified: '2026-07-03'
 name: Uplisting
 nav: Providers
 network: true
-overview: 'Uplisting publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Availability API, Bookings API, and 6 more. Tagged areas include Vacation Rental, Short-Term Rental, Channel Manager, Property Management, and Bookings.
+overview: 'Uplisting publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Availability API, Bookings API, and 6 more. Tagged areas include Vacation Rentals, Short-Term Rental, Channel Manager, Property Management, and Booking.
 
 
   Uplisting''s developer surface includes authentication, engineering blog, documentation, and 7 more developer resources.'
@@ -191,7 +191,7 @@ plans:
 - name: Uplisting Plans Pricing
   plan_count: 3
   slug: uplisting-plans-pricing
-random_paper: 4
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Uplisting Rate Limits
@@ -224,7 +224,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -241,11 +241,11 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: uplisting
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Short-Term Rental
 - Channel Manager
 - Property Management
-- Bookings
+- Booking
 - Hospitality
 website: https://www.uplisting.io
 ---

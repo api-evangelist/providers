@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Microsoft Sway is a presentation and storytelling application that enables creating interactive, web-based content. While Sway has limited direct API access, it integrates with Microsoft 365 for embed
@@ -90,7 +90,7 @@ plans:
 - name: Microsoft Sway Plans Pricing
   plan_count: 3
   slug: microsoft-sway-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Microsoft Sway Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

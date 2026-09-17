@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: A live remote Model Context Protocol endpoint that exposes DoubleVerify's media quality, verification and performance data to an AI assistant as the DV Neura Insight Agent. DoubleVerify states that cl
@@ -223,7 +223,7 @@ plans:
 - name: Doubleverify Plans Pricing
   plan_count: 0
   slug: doubleverify-plans-pricing
-random_paper: 15
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Doubleverify Rate Limits
@@ -261,7 +261,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -57,14 +57,14 @@ apis:
   slug: itsacheckmate-menus-api
 - baseURL: https://sandbox-api.itsacheckmate.com
   baseurl_source: declared
-  description: Token issuance, refresh, and introspection.
-  name: ItsaCheckmate OAuth API
-  slug: itsacheckmate-oauth-api
-- baseURL: https://sandbox-api.itsacheckmate.com
-  baseurl_source: declared
   description: Standard and group order submission into the POS.
   name: ItsaCheckmate Orders API
   slug: itsacheckmate-orders-api
+- baseURL: https://sandbox-api.itsacheckmate.com
+  baseurl_source: declared
+  description: Token issuance, refresh, and introspection.
+  name: ItsaCheckmate O Auth API
+  slug: itsacheckmate-oauth-api
 artifact_total: 61
 collections:
 - collection_type: open
@@ -309,7 +309,7 @@ modified: '2026-06-02'
 name: ItsaCheckmate
 nav: Providers
 network: true
-overview: 'ItsaCheckmate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Menus API, OAuth API, and 1 more. Tagged areas include Restaurant, Point-of-Sale, Online Ordering, Delivery, and Menus.
+overview: 'ItsaCheckmate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Menus API, Orders API, and 1 more. Tagged areas include Restaurant, Point-of-Sale, Online Ordering, Delivery, and Menus.
 
 
   The ItsaCheckmate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -320,7 +320,7 @@ plans:
 - name: Itsacheckmate Plans Pricing
   plan_count: 3
   slug: itsacheckmate-plans-pricing
-random_paper: 1
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Itsacheckmate Rate Limits
@@ -374,7 +374,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

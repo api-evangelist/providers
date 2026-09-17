@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: SCE's Customer Data Access (CDA) platform, through which a customer can authorize a registered third party to receive their electric usage and billing data. SCE states on its public third-party page t
@@ -166,10 +166,10 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/southern-california-edison-drpep-arcgis-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/openapi/_original/southern-california-edison-drpep-arcgis-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/southern-california-edison-drpep-arcgis-openapi.yml
+  url: openapi/_original/southern-california-edison-drpep-arcgis-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/json-schema/southern-california-edison-drpep-layers-schema.json
   title: ''
@@ -184,7 +184,7 @@ json_schemas:
   property_count: 0
   slug: southern-california-edison-drpep-layers
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: Southern California Edison
 nav: Providers
 network: true
@@ -192,7 +192,7 @@ overview: 'Southern California Edison publishes 4 APIs on the [APIs.io](https://
 
 
   Southern California Edison''s developer surface includes developer portal, signup flow, documentation, support, authentication, and 19 more developer resources.'
-random_paper: 1
+random_paper: 6
 score:
   band: thin
   composite: 30.3
@@ -234,7 +234,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

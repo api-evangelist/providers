@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,10 @@ collections:
   name: Azure Advisor REST API
   slug: open-microsoft-azure-advisor
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://microsoft.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/agentic-access/microsoft-azure-advisor-agentic-access.yml
   title: ''
@@ -133,19 +137,19 @@ finops:
   slug: microsoft-azure-advisor-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-advisor.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Microsoft Azure Advisor
 nav: Providers
 network: true
 overview: 'Microsoft Azure Advisor publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Recommendations API. Tagged areas include Advisor, Best Practices, Cost Optimization, Microsoft Azure, and Optimization.
 
 
-  Microsoft Azure Advisor''s developer surface includes authentication, developer portal, documentation, pricing, support, and 8 more developer resources.'
+  Microsoft Azure Advisor''s developer surface includes authentication, developer portal, documentation, pricing, support, and 9 more developer resources.'
 plans:
 - name: Microsoft Azure Advisor Plans Pricing
   plan_count: 3
   slug: microsoft-azure-advisor-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Advisor Rate Limits
@@ -182,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -205,5 +209,5 @@ tags:
 - Microsoft Azure
 - Optimization
 - Recommendations
-website: https://portal.azure.com/
+website: https://microsoft.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -61,11 +61,6 @@ apis:
   slug: audiomack-music-api
 - baseURL: https://api.audiomack.com/v1
   baseurl_source: declared
-  description: OAuth 1.0a request-token and access-token exchanges.
-  name: Audiomack OAuth API
-  slug: audiomack-oauth-api
-- baseURL: https://api.audiomack.com/v1
-  baseurl_source: declared
   description: Playlist creation, editing, favoriting, and discovery.
   name: Audiomack Playlist API
   slug: audiomack-playlist-api
@@ -84,6 +79,11 @@ apis:
   description: Authenticated user profile, feed, uploads, playlists, and notifications.
   name: Audiomack User API
   slug: audiomack-user-api
+- baseURL: https://api.audiomack.com/v1
+  baseurl_source: declared
+  description: OAuth 1.0a request-token and access-token exchanges.
+  name: Audiomack O Auth API
+  slug: audiomack-oauth-api
 artifact_total: 37
 collections:
 - collection_type: open
@@ -299,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: The Nx command-line interface — the primary surface for running, caching, and orchestrating tasks across a monorepo. Built in Rust for performance and extensible via TypeScript plugins. Supports `nx r
@@ -247,11 +247,11 @@ modified: '2026-05-25'
 name: Nx
 nav: Providers
 network: true
-overview: 'Nx publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Monorepo, Builds, Build System, TaskRunner, and Dependency-Graph.
+overview: 'Nx publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Monorepo, Builds, Build Systems, TaskRunner, and Dependency-Graph.
 
 
   Nx''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 6
+random_paper: 0
 score:
   band: emerging
   composite: 25.3
@@ -272,7 +272,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 25.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -288,7 +288,7 @@ slug: nx-dev
 tags:
 - Monorepo
 - Builds
-- Build System
+- Build Systems
 - TaskRunner
 - Dependency-Graph
 - Cache

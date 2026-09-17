@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -300,7 +300,7 @@ overview: 'Helcim publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Helcim''s developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, pricing, and 33 more developer resources.'
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Helcim Rate Limits
@@ -348,7 +348,7 @@ score:
     regime_id: payments
     score: 55.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

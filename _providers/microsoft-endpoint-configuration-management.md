@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -112,7 +112,7 @@ apis:
 - baseURL: https://{siteserver}/AdminService
   baseurl_source: declared
   description: Intune management extension activities.
-  name: Microsoft Endpoint Configuration Management Management Extensions API
+  name: Microsoft Endpoint Configuration Management Extensions API
   slug: microsoft-endpoint-configuration-management-management-extensions-api
 - baseURL: https://{siteserver}/AdminService
   baseurl_source: declared
@@ -616,7 +616,7 @@ jsonld:
   property_count: 7
   slug: microsoft-endpoint-configuration-management-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Microsoft Endpoint Configuration Management
 nav: Providers
 network: true
@@ -631,7 +631,7 @@ plans:
 - name: Microsoft Endpoint Configuration Management Plans Pricing
   plan_count: 3
   slug: microsoft-endpoint-configuration-management-plans-pricing
-random_paper: 4
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Microsoft Endpoint Configuration Management Rate Limits
@@ -679,7 +679,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

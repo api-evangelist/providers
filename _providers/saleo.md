@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: SCIM 2.0 (RFC 7643 / RFC 7644) user and group provisioning endpoint for the Saleo platform. Documented for customers through the Saleo Okta Integration Network application, which supports Create Users
@@ -174,7 +174,7 @@ plans:
 - name: Saleo Plans Pricing
   plan_count: 0
   slug: saleo-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Saleo Rate Limits
@@ -201,7 +201,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -232,7 +232,7 @@ tags:
 - AI Agents
 - SCIM
 - Identity Provisioning
-- Single Sign-On
+- SSO
 - Interactive Demos
 - Product Tours
 website: https://www.saleo.io

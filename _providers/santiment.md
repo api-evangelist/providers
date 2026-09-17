@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The primary Santiment GraphQL API giving developers programmatic access to on-chain metrics, social sentiment, developer activity, and price data for 2,800+ crypto assets. Supports timeseries queries '
@@ -124,7 +124,7 @@ overview: 'Santiment publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Santiment''s developer surface includes developer portal, pricing, status page, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: emerging
   composite: 25.8
@@ -150,7 +150,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

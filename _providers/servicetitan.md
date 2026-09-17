@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -837,14 +837,14 @@ modified: '2026-05-25'
 name: ServiceTitan
 nav: Providers
 network: true
-overview: 'ServiceTitan publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Adjustments API, Appointment Assignments API, Appointments API, and 37 more. Tagged areas include Field Service Management, Trades, HVAC, Plumbing, and Electrical.
+overview: 'ServiceTitan publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Adjustments API, Appointment Assignments API, Appointments API, and 37 more. Tagged areas include Field Service Management, Trade, HVAC, Plumbing, and Electrical.
 
 
   The ServiceTitan catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 41 more developer resources.'
-random_paper: 16
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Servicetitan Rate Limits
@@ -892,7 +892,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -910,7 +910,7 @@ security:
 slug: servicetitan
 tags:
 - Field Service Management
-- Trades
+- Trade
 - HVAC
 - Plumbing
 - Electrical
@@ -920,7 +920,7 @@ tags:
 - Accounting
 - Pricebook
 - Marketing
-- Memberships
+- Membership
 - Webhook
 website: https://www.servicetitan.com/
 ---

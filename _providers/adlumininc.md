@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,17 +31,42 @@ agentic_access:
   operation_count: 11
   slug: adlumininc-agentic-access
   summary_line: 11 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
-- baseURL: https://api.adlumin.com/v1
-  baseurl_source: declared
-  description: Tenant-scoped REST API over the Adlumin security operations platform. Eleven v1 endpoints return security detections (with bulk acknowledgement), at-risk Active Directory groups, network shares and sy
-  name: Adlumin XDR/MDR API
-  slug: adlumin-xdrmdr-api
 - description: First-party Model Context Protocol server distributed by N-able as a downloadable Python package. Wraps the eleven Adlumin v1 REST endpoints as thirteen MCP tools (including two firewall aggregation t
   name: Adlumin MCP Server
   slug: adlumin-mcp-server
-artifact_total: 9
+- baseURL: https://api.adlumin.com/v1
+  baseurl_source: declared
+  description: Hosts, groups, and shares flagged as at-risk
+  name: Adlumin At-Risk Assets API
+  slug: adlumininc-at-risk-assets-api
+- baseURL: https://api.adlumin.com/v1
+  baseurl_source: declared
+  description: Compliance and policy insights
+  name: Adlumin Compliance API
+  slug: adlumininc-compliance-api
+- baseURL: https://api.adlumin.com/v1
+  baseurl_source: declared
+  description: Security detection events and acknowledgement
+  name: Adlumin Detections API
+  slug: adlumininc-detections-api
+- baseURL: https://api.adlumin.com/v1
+  baseurl_source: declared
+  description: Endpoint agent and device telemetry
+  name: Adlumin Endpoint API
+  slug: adlumininc-endpoint-api
+- baseURL: https://api.adlumin.com/v1
+  baseurl_source: declared
+  description: Firewall event logs
+  name: Adlumin Firewall API
+  slug: adlumininc-firewall-api
+- baseURL: https://api.adlumin.com/v1
+  baseurl_source: declared
+  description: Network health and traffic data
+  name: Adlumin Network API
+  slug: adlumininc-network-api
+artifact_total: 14
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/agentic-access/adlumininc-agentic-access.yml
@@ -219,7 +244,7 @@ modified: '2026-09-07'
 name: Adlumin
 nav: Providers
 network: true
-overview: 'Adlumin publishes 1 API on the [APIs.io](https://apis.io/) network: XDR/MDR API. Tagged areas include Security, Cybersecurity, Managed Detection and Response, Extended Detection and Response, and SIEM.
+overview: 'Adlumin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including At-Risk Assets API, Compliance API, Detections API, and 3 more. Tagged areas include Security, Cybersecurity, Managed Detection and Response, Extended Detection and Response, and SIEM.
 
 
   Adlumin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 29 more developer resources.'
@@ -227,14 +252,14 @@ plans:
 - name: Adlumininc Plans Pricing
   plan_count: 0
   slug: adlumininc-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Adlumininc Rate Limits
   slug: adlumininc-rate-limits
 score:
   band: developing
-  composite: 42.2
+  composite: 42.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -242,11 +267,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 57.8
+    contract_quality: 59.2
     developer_ergonomics: 20.8
     discoverability: 75.9
     operational_transparency: 44.7
@@ -258,11 +283,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

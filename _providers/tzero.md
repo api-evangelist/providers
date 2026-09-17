@@ -30,12 +30,12 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 42.6
-  scored_at: '2026-09-15'
+  score: 44.4
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -43,22 +43,152 @@ agentic_access:
   operation_count: 135
   slug: tzero-agentic-access
   summary_line: 135 operations · 64 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
-- baseURL: https://gateway-web-api.tzero.com/app
-  baseurl_source: declared
-  description: REST/JSON API for creating individual broker-dealer accounts, triggering and reviewing KYC on investors, browsing primary offerings and managing investments, linking bank accounts and moving funds, re
-  name: tZERO Issuance & Secondary Markets API
-  slug: issuance-secondary-markets
-- baseURL: https://api.t0direct.com/api/v1
-  baseurl_source: declared
-  description: 'REST/JSON API giving institutional issuers and partners programmatic access to tZERO transfer-agent, tokenization and custody operations: investors and holdings, securities and cap tables, book-entry '
-  name: tZERO Institutional API
-  slug: institutional
 - description: FIX 4.2 / 4.4 protocol surface for low-latency order entry, drop-copy execution reports, market data (snapshot and incremental refresh, trading session status, security status) and Indication of Inter
   name: tZERO FIX API
   slug: fix
-artifact_total: 9
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: The Authorization API from tZERO — 2 operation(s) for authorization.
+  name: tZERO Authorization API
+  slug: tzero-authorization-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Retrieving fiat balances and asset position balances for an account.
+  name: tZERO Balance API
+  slug: tzero-balance-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Managing bank accounts linked to an investor account (add, list, delete, verify).
+  name: tZERO Bank Accounts API
+  slug: tzero-bank-accounts-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Splits, mergers and other corporate actions — review-gated; on-chain splits broadcast via Fireblocks
+  name: tZERO Corporate Actions API
+  slug: tzero-corporate-actions-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: The Custody Accounts API from tZERO — 12 operation(s) for custody accounts.
+  name: tZERO Custody Accounts API
+  slug: tzero-custody-accounts-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Supported assets, address validation, and fee estimation (live)
+  name: tZERO Custody Assets API
+  slug: tzero-custody-assets-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Transfers of assets out of custody vaults
+  name: tZERO Custody Transfers API
+  slug: tzero-custody-transfers-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: On-chain instances of tokens and their operation history
+  name: tZERO Deployments API
+  slug: tzero-deployments-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Dividend declarations (cash & stock) — review-gated; on-chain execution via the dividend claim contract
+  name: tZERO Dividends API
+  slug: tzero-dividends-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Investor document upload and retrieval
+  name: tZERO Documents API
+  slug: tzero-documents-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Investments and assets (create, update, submit, cancel, agreements).
+  name: tZERO Investments API
+  slug: tzero-investments-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: The InvestorAccounts API from tZERO — 2 operation(s) for investoraccounts.
+  name: tZERO Investor Accounts API
+  slug: tzero-investoraccounts-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Investor KYC, accreditation, and holdings management
+  name: tZERO Investors API
+  slug: tzero-investors-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: The Iso API from tZERO — 4 operation(s) for iso.
+  name: tZERO Iso API
+  slug: tzero-iso-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Primary share issuance requests
+  name: tZERO Issuances API
+  slug: tzero-issuances-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Market schedule information including pre-market, regular, and post-market hours.
+  name: tZERO Markets API
+  slug: tzero-markets-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Managing accounts and users (create account, KYC, trusted contact, financial info).
+  name: tZERO Onboarding API
+  slug: tzero-onboarding-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Shareholder voting — proposal creation and results; off-chain or on-chain (anchored) voting modes
+  name: tZERO Proposals API
+  slug: tzero-proposals-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Security and instrument definitions
+  name: tZERO Securities API
+  slug: tzero-securities-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: The Settlements API from tZERO — 8 operation(s) for settlements.
+  name: tZERO Settlements API
+  slug: tzero-settlements-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: The Subred API from tZERO — 1 operation(s) for subred.
+  name: tZERO Subred API
+  slug: tzero-subred-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: The SubRed Embed API from tZERO — 8 operation(s) for subred embed.
+  name: tZERO SubRed Embed API
+  slug: tzero-subred-embed-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Token configurations — the issuer's token blueprints
+  name: tZERO Tokens API
+  slug: tzero-tokens-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Order management for secondary-market trading (fees, submit, cancel, list orders).
+  name: tZERO Trading API
+  slug: tzero-trading-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Book-entry transfer requests (secondary)
+  name: tZERO Transfers API
+  slug: tzero-transfers-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Custody vaults and their asset wallets
+  name: tZERO Vaults API
+  slug: tzero-vaults-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Webhook subscription management and event delivery
+  name: tZERO Webhooks API
+  slug: tzero-webhooks-api
+- baseURL: https://gateway-web-api.tzero.com/app
+  baseurl_source: declared
+  description: Approved external addresses for custody transfers
+  name: tZERO Whitelist API
+  slug: tzero-whitelist-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Tzero Institutional Webhooks
@@ -239,7 +369,7 @@ modified: '2026-09-01'
 name: tZERO
 nav: Providers
 network: true
-overview: 'tZERO publishes 2 APIs on the [APIs.io](https://apis.io/) network: Issuance & Secondary Markets API and Institutional API. Tagged areas include Company, Digital Securities, Tokenization, Capital Markets, and Trading.
+overview: 'tZERO publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Balance API, Bank Accounts API, and 25 more. Tagged areas include Company, Digital Securities, Tokenization, Capital Markets, and Trading.
 
 
   The tZERO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,33 +380,38 @@ plans:
 - name: Tzero Plans Pricing
   plan_count: 0
   slug: tzero-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Tzero Rate Limits
   slug: tzero-rate-limits
 score:
   band: developing
-  composite: 50.2
+  composite: 50.9
   coverage:
     artifact_dirs: 21
-    catalog_earned: 35.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 55.9
+    contract_quality: 61.1
     developer_ergonomics: 58.9
-    discoverability: 64.8
+    discoverability: 59.3
     operational_transparency: 26.3
   previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
     mcp: derived
     skills: derived
   regulatory:
@@ -286,7 +421,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

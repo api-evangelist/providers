@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -134,7 +134,7 @@ plans:
 - name: Flexgen Power Systems Plans Pricing
   plan_count: 0
   slug: flexgen-power-systems-plans-pricing
-random_paper: 0
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Flexgen Power Systems Rate Limits
@@ -167,7 +167,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

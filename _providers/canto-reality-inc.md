@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,8 +57,8 @@ modified: '2026-07-18'
 name: Canto Reality Inc.
 nav: Providers
 network: true
-overview: Canto Reality Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Social, and Startup.
-random_paper: 19
+overview: Canto Reality Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Social, and Startups.
+random_paper: 5
 score:
   band: minimal
   composite: 5.3
@@ -79,7 +79,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -97,7 +97,7 @@ tags:
 - Artificial Intelligence
 - AI Infrastructure
 - Social
-- Startup
+- Startups
 - Palo Alto
 - a16z Speedrun
 website: https://cantoreality.com

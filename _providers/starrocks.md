@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'Stream Load is a synchronous HTTP-based ingestion API. Clients PUT a CSV or JSON payload to /api/{db}/{table}/_stream_load with HTTP Basic authentication and headers like `label`, `column_separator`, '
@@ -139,7 +139,7 @@ plans:
 - name: Starrocks Plans Pricing
   plan_count: 3
   slug: starrocks-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Starrocks Rate Limits
@@ -164,7 +164,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 23.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

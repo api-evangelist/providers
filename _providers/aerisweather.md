@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful weather data API providing access to 60+ endpoints for current conditions, forecasts, observations, severe weather alerts, historical data, air quality, lightning, maritime weather, road condi
@@ -113,7 +113,7 @@ plans:
 - name: Aerisweather Plans Pricing
   plan_count: 6
   slug: aerisweather-plans-pricing
-random_paper: 3
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Aerisweather Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

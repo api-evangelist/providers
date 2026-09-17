@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -285,11 +285,11 @@ modified: '2026-07-28'
 name: UK Civil Aviation Authority
 nav: Providers
 network: true
-overview: 'UK Civil Aviation Authority publishes 1 API on the [APIs.io](https://apis.io/) network: CAA Consultations API. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Airports.
+overview: 'UK Civil Aviation Authority publishes 1 API on the [APIs.io](https://apis.io/) network: CAA Consultations API. Tagged areas include Travel, United Kingdom, Aviation, Airlines, and Airports.
 
 
   UK Civil Aviation Authority''s developer surface includes authentication, changelog, documentation, pricing, engineering blog, YouTube channel, support, and 38 more developer resources.'
-random_paper: 16
+random_paper: 12
 score:
   band: developing
   composite: 47.1
@@ -334,7 +334,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -359,7 +359,7 @@ tags:
 - Travel
 - United Kingdom
 - Aviation
-- Airline
+- Airlines
 - Airports
 - Regulator
 - Government

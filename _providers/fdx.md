@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Fdx Agentic Access
-  operation_count: 27
+  operation_count: 9
   slug: fdx-agentic-access
-  summary_line: 27 operations
+  summary_line: 9 operations
 api_count: 3
 apis:
 - description: 'RESTful endpoints for retrieving consumer transaction histories including pending and posted transactions, transaction categorization, merchant data, and transaction amounts across deposit, loan, and '
@@ -498,7 +498,7 @@ plans:
 - name: Fdx Plans Pricing
   plan_count: 4
   slug: fdx-plans-pricing
-random_paper: 7
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Fdx Rate Limits
@@ -552,7 +552,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -577,7 +577,7 @@ tags:
 - Consumer-Permissioned
 - Account Data
 - Transaction
-- Investments
+- Investment
 - Insurance
 - Tax Data
 - Payroll

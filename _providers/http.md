@@ -80,7 +80,7 @@ overview: 'HTTP is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   The HTTP catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 7
+random_paper: 8
 rules:
 - effective_rule_count: 4
   extends: []

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://organizations.amazonaws.com
   baseurl_source: declared
   description: Operations for creating and managing organizations
-  name: Amazon Organizations Organizations API
+  name: Amazon Organizations API
   slug: amazon-organizations-organizations-api
 arazzos:
 - description: Create an organization with a caller-chosen feature set and branch on the result.
@@ -325,11 +325,11 @@ jsonld:
   property_count: 14
   slug: amazon-organizations-openapi-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Organizations
 nav: Providers
 network: true
-overview: 'Amazon Organizations publishes 1 API on the [APIs.io](https://apis.io/) network: Organizations API. Tagged areas include Account Management, Consolidated Billing, Governance, Multi-Account, and Organization.
+overview: 'Amazon Organizations publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Account Management, Consolidated Billing, Governance, Multi-Account, and Organization.
 
 
   The Amazon Organizations catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -340,7 +340,7 @@ plans:
 - name: Amazon Organizations Plans Pricing
   plan_count: 3
   slug: amazon-organizations-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Organizations Rate Limits
@@ -394,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

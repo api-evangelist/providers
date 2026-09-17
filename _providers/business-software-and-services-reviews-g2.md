@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: The G2 MCP (Model Context Protocol) Server enables AI assistants like Claude to access G2 data. Uses OAuth for authentication via browser sign-in. Provides access to buyer intent intelligence, competi
@@ -232,20 +232,20 @@ common:
   type: Documentation
   url: https://documentation.g2.com/docs/integrations
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/business-software-and-services-reviews-g2-v2-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/_original/business-software-and-services-reviews-g2-v2-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/business-software-and-services-reviews-g2-v2-openapi.yml
+  url: openapi/_original/business-software-and-services-reviews-g2-v2-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/business-software-and-services-reviews-g2-data-solutions-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/_original/business-software-and-services-reviews-g2-data-solutions-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/business-software-and-services-reviews-g2-data-solutions-openapi.yml
+  url: openapi/_original/business-software-and-services-reviews-g2-data-solutions-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/business-software-and-services-reviews-g2-chatgpt-plugin-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/openapi/_original/business-software-and-services-reviews-g2-chatgpt-plugin-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/business-software-and-services-reviews-g2-chatgpt-plugin-openapi.json
+  url: openapi/_original/business-software-and-services-reviews-g2-chatgpt-plugin-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/overlays/business-software-and-services-reviews-g2-v2-overlay.yaml
   title: ''
@@ -389,7 +389,7 @@ mcp_servers:
 - description: 'G2 operates an official remote MCP server at https://mcp.g2.com/mcp, authenticated with OAuth 2.0 Authorization Code + PKCE against G2''s own authorization server (https://www.g2.com/oauth/authorize). '
   name: Business Software and Services Reviews | G2 MCP Server
   slug: business-software-and-services-reviews-g2-mcp-server
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Business Software and Services Reviews | G2
 nav: Providers
 network: true
@@ -404,7 +404,7 @@ plans:
 - name: Business Software And Services Reviews G2 Plans Pricing
   plan_count: 0
   slug: business-software-and-services-reviews-g2-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Business Software And Services Reviews G2 Rate Limits
@@ -443,7 +443,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

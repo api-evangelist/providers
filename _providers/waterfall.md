@@ -71,7 +71,7 @@ overview: 'Waterfall is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Waterfall''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 17
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/waterfall/refs/heads/main/screenshots/waterfall-2026-06-20T201247.png
 slug: waterfall
 tags:

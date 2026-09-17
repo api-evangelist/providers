@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 6
 common:
@@ -152,7 +152,7 @@ plans:
 - name: Oncolens Plans Pricing
   plan_count: 0
   slug: oncolens-plans-pricing
-random_paper: 4
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Oncolens Rate Limits
@@ -190,7 +190,7 @@ score:
     regime_id: health
     score: 61.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

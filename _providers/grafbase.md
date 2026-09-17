@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GraphQL-based management API that powers the Grafbase Dashboard and enables programmatic control of organizations, projects, schemas, branches, and deployed graph endpoints. Accessible at api.grafbase
@@ -134,7 +134,7 @@ plans:
 - name: Grafbase Plans Pricing
   plan_count: 3
   slug: grafbase-plans-pricing
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Grafbase Rate Limits
@@ -159,7 +159,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 37.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

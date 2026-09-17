@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,7 +99,7 @@ overview: 'AcuraStem is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AcuraStem''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 20
+random_paper: 19
 score:
   band: minimal
   composite: 7.4
@@ -131,7 +131,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

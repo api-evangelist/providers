@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.automile.com
@@ -73,11 +73,6 @@ apis:
   slug: automile-clienttextmessage-api
 - baseURL: https://api.automile.com
   baseurl_source: declared
-  description: The ClientUsers API from Automile — 2 operation(s) for clientusers.
-  name: Automile ClientUsers API
-  slug: automile-clientusers-api
-- baseURL: https://api.automile.com
-  baseurl_source: declared
   description: The Echo API from Automile — 1 operation(s) for echo.
   name: Automile Echo API
   slug: automile-echo-api
@@ -91,11 +86,6 @@ apis:
   description: The Login API from Automile — 1 operation(s) for login.
   name: Automile Login API
   slug: automile-login-api
-- baseURL: https://api.automile.com
-  baseurl_source: declared
-  description: The OAuth API from Automile — 1 operation(s) for oauth.
-  name: Automile OAuth API
-  slug: automile-oauth-api
 - baseURL: https://api.automile.com
   baseurl_source: declared
   description: The Order API from Automile — 1 operation(s) for order.
@@ -426,6 +416,16 @@ apis:
   description: The ResourceOwnerWorkOrder API from Automile — 12 operation(s) for resourceownerworkorder.
   name: Automile ResourceOwnerWorkOrder API
   slug: automile-resourceownerworkorder-api
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The OAuth API from Automile — 1 operation(s) for oauth.
+  name: Automile O Auth API
+  slug: automile-oauth-api
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The Client Users API from Automile — 2 operation(s) for client users.
+  name: Automile Client Users API
+  slug: automile-client-users-api
 artifact_total: 161
 asyncapis:
 - description: ''
@@ -801,7 +801,7 @@ overview: 'Automile publishes 78 APIs on the [APIs.io](https://apis.io/) network
 
 
   Automile''s developer surface includes documentation, API reference, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 3
+random_paper: 6
 scopes:
 - name: Automile Scopes
   scope_count: 2
@@ -809,7 +809,7 @@ scopes:
   summary_line: 2 scopes · implicit
 score:
   band: developing
-  composite: 44.9
+  composite: 43.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -817,11 +817,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 55.8
+    contract_quality: 51.0
     developer_ergonomics: 51.8
     discoverability: 75.9
     operational_transparency: 10.5
@@ -829,14 +829,14 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 78
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

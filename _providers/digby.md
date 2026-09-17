@@ -29,7 +29,7 @@ name: Digby
 nav: Providers
 network: true
 overview: Digby is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Mobile Commerce, Retail, and Location.
-random_paper: 2
+random_paper: 21
 screenshot: https://raw.githubusercontent.com/api-evangelist/digby/refs/heads/main/screenshots/digby-2026-07-25T211958.png
 slug: digby
 tags:

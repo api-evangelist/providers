@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -65,11 +65,6 @@ apis:
   slug: fly-io-apps-api
 - baseURL: https://api.machines.dev
   baseurl_source: declared
-  description: Fly.io platform OAuth endpoints used during the single sign-on flow to authorize users and exchange tokens.
-  name: fly-io OAuth API
-  slug: fly-io-oauth-api
-- baseURL: https://api.machines.dev
-  baseurl_source: declared
   description: Single sign-on operations allowing Fly.io users to access provider dashboards using their Fly.io credentials via OAuth.
   name: fly-io SSO API
   slug: fly-io-sso-api
@@ -88,6 +83,11 @@ apis:
   description: Webhook endpoints for bidirectional event delivery between Fly.io and extension providers. Both sides sign their webhook payloads using HMAC-SHA256 for verification.
   name: fly-io Webhooks API
   slug: fly-io-webhooks-api
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: Fly.io platform OAuth endpoints used during the single sign-on flow to authorize users and exchange tokens.
+  name: Fly Io O Auth API
+  slug: fly-io-oauth-api
 artifact_total: 73
 asyncapis:
 - description: The Fly.io Extensions webhook system delivers real-time event notifications in both directions between Fly.io and extension providers. Fly.io sends CloudEvents-format payloads to the provider's regist
@@ -122,6 +122,10 @@ collections:
   name: Fly.io Extensions Apps Webhooks API
   slug: open-fly-io-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://fly.io
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/agentic-access/fly-io-agentic-access.yml
   title: ''
@@ -287,22 +291,22 @@ jsonld:
   property_count: 11
   slug: fly-io-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Fly Io
 nav: Providers
 network: true
-overview: 'Fly Io publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Fly.io Machines API, Fly.io Extensions API, fly-io Apps API, and 5 more.
+overview: 'Fly Io publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Fly.io Machines API, Fly.io Extensions API, fly-io Apps API, and 5 more. Tagged areas include Platform, Infrastructure, Edge Computing, and Networking.
 
 
   The Fly Io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Fly Io''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Fly Io''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Fly Io Plans Pricing
   plan_count: 8
   slug: fly-io-plans-pricing
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Fly Io Rate Limits
@@ -355,11 +359,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -383,4 +384,10 @@ security:
   slug: fly-io-trust-center
   summary_line: SOC 2, ISO 27001
 slug: fly-io
+tags:
+- Platform
+- Infrastructure
+- Edge Computing
+- Networking
+website: https://fly.io
 ---

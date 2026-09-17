@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://shield.amazonaws.com
   baseurl_source: declared
   description: The Amazon Shield REST API API from Amazon Shield — 1 operation(s) for amazon shield rest api.
-  name: Amazon Shield Amazon Shield REST API API
+  name: Amazon Shield Amazon Shield REST API
   slug: amazon-shield-amazon-shield-rest-api-api
 - baseURL: https://shield.amazonaws.com
   baseurl_source: declared
@@ -131,6 +131,10 @@ collections:
   name: 'Amazon Shield REST Amazon Shield REST API #ListProtections API'
   slug: open-amazon-shield-listprotections-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/capabilities/amazon-shield-capability-edges.yml
   title: ''
@@ -618,22 +622,22 @@ jsonld:
   property_count: 3
   slug: amazon-shield-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Shield
 nav: Providers
 network: true
-overview: 'Amazon Shield publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Amazon Shield REST API API, #CreateProtectionGroup API, #CreateSubscription API, and 4 more. Tagged areas include DDoS Protection, Networking, and Security.
+overview: 'Amazon Shield publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Amazon Shield REST API, #CreateProtectionGroup API, #CreateSubscription API, and 4 more. Tagged areas include DDoS Protection, Networking, and Security.
 
 
   The Amazon Shield catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Shield''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 63 more developer resources.'
+  Amazon Shield''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 64 more developer resources.'
 plans:
 - name: Amazon Shield Plans Pricing
   plan_count: 3
   slug: amazon-shield-plans-pricing
-random_paper: 1
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Amazon Shield Rate Limits
@@ -687,7 +691,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -715,5 +719,5 @@ tags:
 - DDoS Protection
 - Networking
 - Security
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

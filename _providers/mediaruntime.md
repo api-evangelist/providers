@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://mediaruntime.com
@@ -49,7 +49,7 @@ apis:
 - baseURL: https://mediaruntime.com
   baseurl_source: declared
   description: The MediaRuntime API API from MediaRuntime — 0 operation(s) for mediaruntime api.
-  name: MediaRuntime MediaRuntime API
+  name: MediaRuntime API
   slug: mediaruntime-mediaruntime-api-api
 - baseURL: https://mediaruntime.com
   baseurl_source: declared
@@ -81,10 +81,7 @@ apis:
   description: Retry delivery of signed terminal events.
   name: MediaRuntime Webhooks API
   slug: mediaruntime-webhooks-api
-- description: Versioned REST API (under /v1) for media-processing jobs, reports/analysis, reusable recipes, uploads/watermarking, and runtime capability discovery. Auth via X-API-Key (production) or X-Sandbox-Token
-  name: MediaRuntime API
-  slug: mediaruntime-api
-artifact_total: 12
+artifact_total: 11
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mediaruntime/refs/heads/main/capabilities/mediaruntime-capability-edges.yml
@@ -102,12 +99,12 @@ common:
 created: '2026-08-26'
 description: MediaRuntime is a media-processing API. The published contract is an OpenAPI 3.1 document of 17 paths, 20 operations and 72 schemas served from mediaruntime.com, with two credential types — a production API key and a separate sandbox token, so callers can exercise the surface without touching production.
 layout: provider
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: MediaRuntime
 nav: Providers
 network: true
-overview: MediaRuntime publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Job Results API, Jobs API, and 9 more. Tagged areas include Media Processing, Video, Audio, and Runtime.
-random_paper: 3
+overview: MediaRuntime publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Job Results API, Jobs API, and 8 more. Tagged areas include Media Processing, Video, Audio, and Runtime.
+random_paper: 8
 score:
   band: emerging
   composite: 23.1
@@ -134,7 +131,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

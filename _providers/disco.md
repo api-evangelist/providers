@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST API for the DISCO eDiscovery platform providing access to datasets and metrics covering data-usage change events, review database sizes, and organizational data. Used for invoice reconciliation, '
@@ -123,7 +123,7 @@ plans:
 - name: Disco Plans Pricing
   plan_count: 1
   slug: disco-plans-pricing
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Disco Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 35.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

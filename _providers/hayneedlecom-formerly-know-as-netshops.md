@@ -34,7 +34,7 @@ name: hayneedle.com (formerly know as NetShops)
 nav: Providers
 network: true
 overview: hayneedle.com (formerly know as NetShops) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Home Goods, and Furniture.
-random_paper: 1
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/hayneedlecom-formerly-know-as-netshops/refs/heads/main/screenshots/hayneedlecom-formerly-know-as-netshops-2026-07-25T220812.png
 security:
 - kind: domain-security

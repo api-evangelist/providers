@@ -33,18 +33,68 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.cloudchipr.com
-  baseurl_source: declared
-  description: 'The CloudChipr Enterprise API - 26 operations over 26 paths, described by a public OpenAPI 3.0.3 document CloudChipr serves from its own GitHub Pages site and links from its homepage and docs. Covers '
-  name: CloudChipr API
-  slug: cloudchipr-api
 - description: Hosted, fully remote Model Context Protocol server at https://mcp.cloudchipr.com/mcp exposing 25 read-only tools across five categories - cloud accounts and organizations, Billing Explorer, savings op
   name: CloudChipr MCP Server
   slug: cloudchipr-mcp-server
-artifact_total: 12
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Everything about accounts
+  name: CloudChipr Accounts API
+  slug: cloudchipr-accounts-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Everything about budgets
+  name: CloudChipr Budgets API
+  slug: cloudchipr-budgets-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Everything about categories
+  name: CloudChipr Categories API
+  slug: cloudchipr-categories-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Everything about custom data sources
+  name: CloudChipr Custom Data API
+  slug: cloudchipr-custom-data-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Everything about dashboards
+  name: CloudChipr Dashboards API
+  slug: cloudchipr-dashboards-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Everything about filters
+  name: CloudChipr Filters API
+  slug: cloudchipr-filters-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: The Regions API from CloudChipr — 1 operation(s) for regions.
+  name: CloudChipr Regions API
+  slug: cloudchipr-regions-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Everything about Resource Explorer
+  name: CloudChipr Resource Explorer API
+  slug: cloudchipr-resource-explorer-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Endpoints for resources
+  name: CloudChipr Resources API
+  slug: cloudchipr-resources-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Everything about savings opportunities
+  name: CloudChipr Savings Opportunities API
+  slug: cloudchipr-savings-opportunities-api
+- baseURL: https://api.cloudchipr.com
+  baseurl_source: declared
+  description: Everything about widgets
+  name: CloudChipr Widgets API
+  slug: cloudchipr-widgets-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Cloudchipr Webhooks
@@ -275,7 +325,7 @@ modified: '2026-09-05'
 name: CloudChipr
 nav: Providers
 network: true
-overview: 'CloudChipr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Azure, Cloud Cost Management, Cost Optimization, FinOps, and GCP.
+overview: 'CloudChipr publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Budgets API, Categories API, and 8 more. Tagged areas include Azure, Cloud Cost Management, Cost Optimization, FinOps, and GCP.
 
 
   The CloudChipr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -286,7 +336,7 @@ plans:
 - name: Cloudchipr Plans Pricing
   plan_count: 4
   slug: cloudchipr-plans-pricing
-random_paper: 19
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Cloudchipr Rate Limits
@@ -298,7 +348,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.7
+  composite: 57.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 52.0
@@ -306,11 +356,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 65.6
+    contract_quality: 63.2
     developer_ergonomics: 50.6
     discoverability: 75.9
     operational_transparency: 26.3
@@ -321,11 +371,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

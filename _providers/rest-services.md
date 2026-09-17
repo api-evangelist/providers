@@ -84,7 +84,7 @@ overview: 'REST Services is profiled on the [APIs.io](https://apis.io/) network.
 
 
   REST Services'' developer surface includes GitHub presence and 12 more developer resources.'
-random_paper: 15
+random_paper: 17
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-services/refs/heads/main/screenshots/rest-services-2026-06-20T193005.png
 security:
 - kind: domain-security

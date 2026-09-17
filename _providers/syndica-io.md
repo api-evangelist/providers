@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: High-performance Solana JSON-RPC HTTP endpoints served from a fault-tolerant elastic-node architecture across four global regions (Northern Virginia, Oregon, London, Singapore). Supports the full stan
@@ -202,7 +202,7 @@ overview: 'Syndica publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Syndica''s developer surface includes developer portal, documentation, FAQ, support, engineering blog, signup flow, pricing, and 19 more developer resources.'
-random_paper: 0
+random_paper: 18
 rules:
 - effective_rule_count: 34
   extends:
@@ -235,7 +235,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 37.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

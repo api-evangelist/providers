@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Modern API for building Windows applications with support for multiple programming languages.
@@ -152,7 +152,7 @@ plans:
 - name: Microsoft Windows Plans Pricing
   plan_count: 3
   slug: microsoft-windows-plans-pricing
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Microsoft Windows Rate Limits
@@ -180,7 +180,7 @@ score:
     score: 65.0
   previous_composite: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

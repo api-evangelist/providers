@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://a-fsw.com/wp-json
   baseurl_source: declared
@@ -33,16 +33,51 @@ apis:
   slug: aee-products-api
 - baseURL: https://a-fsw.com/wp-json
   baseurl_source: declared
-  description: 'Public, unauthenticated read access to the AEE news and technical blog archive (50 posts) and the 14 static marketing, process, industry and policy pages behind a-fsw.com, via the WordPress core REST '
-  name: AEE Content API
-  slug: aee-content-api
+  description: The core category taxonomy separating News from Blog.
+  name: Aerospace Engineering Equipment Categories API
+  slug: aerospaceengineeringequipmentco-categories-api
 - baseURL: https://a-fsw.com/wp-json
   baseurl_source: declared
-  description: 'Public, unauthenticated read access to the site-wide index surfaces behind a-fsw.com — cross-content search, the 232-item media library of equipment photography and diagrams, and the content-type and '
-  name: AEE Site Index API
-  slug: aee-site-api
-artifact_total: 7
+  description: The AEE media library — product photography, equipment diagrams and application imagery.
+  name: Aerospace Engineering Equipment Media API
+  slug: aerospaceengineeringequipmentco-media-api
+- baseURL: https://a-fsw.com/wp-json
+  baseurl_source: declared
+  description: AEE static marketing, process, industry and policy pages.
+  name: Aerospace Engineering Equipment Pages API
+  slug: aerospaceengineeringequipmentco-pages-api
+- baseURL: https://a-fsw.com/wp-json
+  baseurl_source: declared
+  description: AEE news announcements and friction stir welding technical articles.
+  name: Aerospace Engineering Equipment Posts API
+  slug: aerospaceengineeringequipmentco-posts-api
+- baseURL: https://a-fsw.com/wp-json
+  baseurl_source: declared
+  description: The product-category taxonomy grouping AEE equipment (FSW Machine, FSW Tools, Pin Tools, Automatic FSW Production Line).
+  name: Aerospace Engineering Equipment Product Categories API
+  slug: aerospaceengineeringequipmentco-product-categories-api
+- baseURL: https://a-fsw.com/wp-json
+  baseurl_source: declared
+  description: Content-type and post-status registries describing the shape of the AEE content surface.
+  name: Aerospace Engineering Equipment Registries API
+  slug: aerospaceengineeringequipmentco-registries-api
+- baseURL: https://a-fsw.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across AEE posts, pages and products.
+  name: Aerospace Engineering Equipment Search API
+  slug: aerospaceengineeringequipmentco-search-api
+artifact_total: 12
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/overlays/aerospaceengineeringequipmentco-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerospaceengineeringequipmentco-content-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/overlays/aerospaceengineeringequipmentco-site-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerospaceengineeringequipmentco-site-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aerospaceengineeringequipmentco/refs/heads/main/security/aerospaceengineeringequipmentco-domain-security.yml
   title: ''
@@ -128,36 +163,36 @@ modified: '2026-09-10'
 name: Aerospace Engineering Equipment
 nav: Providers
 network: true
-overview: 'Aerospace Engineering Equipment publishes 3 APIs on the [APIs.io](https://apis.io/) network: AEE Products API, AEE Content API, and AEE Site Index API. Tagged areas include Company, Manufacturing, Industrial Equipment, Welding, and Friction Stir Welding.
+overview: 'Aerospace Engineering Equipment publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AEE Products API, Categories API, Media API, and 5 more. Tagged areas include Company, Manufacturing, Industrial Equipment, Welding, and Friction Stir Welding.
 
 
-  Aerospace Engineering Equipment''s developer surface includes support, engineering blog, authentication, and 13 more developer resources.'
+  Aerospace Engineering Equipment''s developer surface includes support, engineering blog, authentication, and 15 more developer resources.'
 plans:
 - name: Aerospaceengineeringequipmentco Plans Pricing
   plan_count: 0
   slug: aerospaceengineeringequipmentco-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Aerospaceengineeringequipmentco Rate Limits
   slug: aerospaceengineeringequipmentco-rate-limits
 score:
   band: emerging
-  composite: 19.2
+  composite: 18.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
-    contract_quality: 13.3
+    contract_quality: 13.1
     developer_ergonomics: 20.8
-    discoverability: 74.1
+    discoverability: 68.5
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -171,13 +206,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 8
       marker_coverage: 100.0
-      total: 3
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

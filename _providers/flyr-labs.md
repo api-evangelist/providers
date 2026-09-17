@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: FLYR's airline retailing API surface — the Offer & Order Management System (OOMS), a certified NDC+ API for rich-content offers and orders, an NDC Gateway that extends modern retailing to indirect and
@@ -138,7 +138,7 @@ overview: 'FLYR Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   FLYR Labs'' developer surface includes documentation, support, engineering blog, legal docs, and 15 more developer resources.'
-random_paper: 5
+random_paper: 6
 score:
   band: emerging
   composite: 14.0
@@ -166,7 +166,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

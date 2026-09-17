@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 0
@@ -60,11 +60,6 @@ apis:
   description: The Asana Custom Fields API allows developers to create and manage custom fields within Asana, a popular project management tool. With this API, users can define custom fields that are specific to the
   name: Asana Custom Fields  API
   slug: asana-custom-fields-api
-- baseURL: https://app.asana.com/api/1.0
-  baseurl_source: spec
-  description: The Asana Enum Options API is a tool that allows users to retrieve and manage information about enum options within their Asana projects. Enum options are pre-defined choices that users can select fro
-  name: Asana Enum Options  API
-  slug: asana-enum-options-api
 - baseURL: https://app.asana.com/api/1.0
   baseurl_source: spec
   description: The Asana Events API is a tool that allows users to track and interact with events happening within their Asana workspace. Through this API, users can receive real-time updates on changes to tasks, pr
@@ -247,12 +242,12 @@ apis:
 - baseURL: https://app.asana.com/api/1.0
   baseurl_source: spec
   description: Asana's audit log is an immutable log of [important events](/docs/audit-log-events#supported-audit-log-events) in your organization's Asana instance. The audit log API allows you to monitor and act up
-  name: Asana Audit Log API API
+  name: Asana Audit Log API
   slug: asana-audit-log-api-api
 - baseURL: https://app.asana.com/api/1.0
   baseurl_source: spec
   description: Perform multiple operations in a single HTTP request.
-  name: Asana Batch API API
+  name: Asana Batch API
   slug: asana-batch-api-api
 - baseURL: https://app.asana.com/api/1.0
   baseurl_source: spec
@@ -371,7 +366,7 @@ arazzos:
 - description: Create a task, place it in a section, and label it with a tag in one triage pass.
   name: Asana Triage and Tag a Task
   slug: asana-triage-and-tag-task-workflow
-artifact_total: 379
+artifact_total: 378
 asyncapis:
 - description: 'The Asana Webhooks Events API delivers real-time event notifications to your application when changes occur on Asana resources. Webhooks use HTTP POST to deliver events to a target URL you configure. '
   name: Asana Webhooks Events API
@@ -1593,11 +1588,11 @@ jsonld:
   property_count: 16
   slug: asana-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Asana
 nav: Providers
 network: true
-overview: 'Asana publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Allocations  API, Attachments  API, Custom Fields  API, and 44 more. Tagged areas include Collaboration, Productivity, Project Management, Project, and Task Management.
+overview: 'Asana publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Allocations  API, Attachments  API, Custom Fields  API, and 43 more. Tagged areas include Collaboration, Productivity, Project Management, Project, and Task Management.
 
 
   The Asana catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -1608,7 +1603,7 @@ plans:
 - name: Asana Plans Pricing
   plan_count: 4
   slug: asana-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Asana Rate Limits
@@ -1642,7 +1637,7 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.6
+  composite: 66.7
   coverage:
     artifact_dirs: 23
     catalog_earned: 59.5
@@ -1650,11 +1645,11 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 68.4
     contract_governance: 13.6
-    contract_quality: 84.6
+    contract_quality: 85.1
     developer_ergonomics: 69.0
     discoverability: 66.7
     operational_transparency: 71.1
@@ -1665,10 +1660,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 37
+      total: 36
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

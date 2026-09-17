@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -368,7 +368,7 @@ overview: 'Defacto publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Defacto''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: developing
   composite: 48.0
@@ -419,7 +419,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

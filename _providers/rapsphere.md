@@ -19,7 +19,7 @@ name: Rapsphere
 nav: Providers
 network: true
 overview: Rapsphere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile IT, BYOD, Enterprise Security, and Mobile Device Management.
-random_paper: 4
+random_paper: 2
 slug: rapsphere
 tags:
 - Company

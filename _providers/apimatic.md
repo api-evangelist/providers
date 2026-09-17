@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -49,11 +49,6 @@ apis:
 - description: APIMatic API Transformer converts API definition files between more than 15 supported API specification formats including OpenAPI, RAML, API Blueprint, WSDL, WADL, and Postman Collections.
   name: APIMatic API Transformer API
   slug: apimatic-api-transformer-api
-- baseURL: https://api.apimatic.io
-  baseurl_source: declared
-  description: The APIs API from APIMatic — 1 operation(s) for apis.
-  name: APIMatic APIs API
-  slug: apimatic-apis-api
 - baseURL: https://api.apimatic.io
   baseurl_source: declared
   description: The Portals API from APIMatic — 1 operation(s) for portals.
@@ -74,6 +69,11 @@ apis:
   description: The Validation API from APIMatic — 1 operation(s) for validation.
   name: APIMatic Validation API
   slug: apimatic-validation-api
+- baseURL: https://api.apimatic.io
+  baseurl_source: declared
+  description: The APIs API from APIMatic — 1 operation(s) for apis.
+  name: APIMatic AP Is API
+  slug: apimatic-apis-api
 arazzos:
 - description: Import, validate, transform to OpenAPI 3, then generate an SDK in one pass.
   name: APIMatic Full SDK Release Pipeline
@@ -468,7 +468,7 @@ modified: '2026-09-15'
 name: APIMatic
 nav: Providers
 network: true
-overview: 'APIMatic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APIs API, Portals API, SDK Generation API, and 2 more. Tagged areas include API Transformation, Code Generation, Developer Experience, Developer Tools, and Documentation.
+overview: 'APIMatic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Portals API, SDK Generation API, Transformation API, and 2 more. Tagged areas include API Transformation, Code Generation, Developer Experience, Developer Tools, and Documentation.
 
 
   The APIMatic catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -479,7 +479,7 @@ plans:
 - name: Apimatic Plans Pricing
   plan_count: 4
   slug: apimatic-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 7
   name: Apimatic Rate Limits
@@ -510,7 +510,7 @@ score:
     catalog_gap: 24.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 20.4
+  delta: 0.0
   facets:
     access_clarity: 77.6
     contract_governance: 43.2
@@ -518,7 +518,7 @@ score:
     developer_ergonomics: 86.9
     discoverability: 75.9
     operational_transparency: 57.9
-  previous_composite: 49.6
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -530,8 +530,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: rising
+  scored_at: '2026-09-16'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ press:
 - date: '2026-05-25'
   title: News
   url: https://www.motionpictures.org/news/
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Regal Entertainment Group Rate Limits
@@ -256,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

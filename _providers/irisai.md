@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'Iris.ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Iris.ai''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 6.0
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 1
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://api.testkube.io
   baseurl_source: declared
   description: Testkube API operations
-  name: Kubeshop api API
+  name: Kubeshop api
   slug: kubeshop-api-api
 - baseURL: https://api.testkube.io
   baseurl_source: declared
@@ -448,18 +448,18 @@ mcp_servers:
 - description: Testkube's hosted MCP server lets AI assistants list and run test workflows, inspect executions, fetch logs and artifacts, and query results. The endpoint is scoped per organization and environment; o
   name: Kubeshop MCP Server
   slug: kubeshop-mcp-server
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Kubeshop
 nav: Providers
 network: true
-overview: 'Kubeshop publishes 23 APIs on the [APIs.io](https://apis.io/) network, including api API, artifacts API, cluster-resources API, and 20 more. Tagged areas include Company, Testing, Kubernetes, Continuous Integration, and Developer Tools.
+overview: 'Kubeshop publishes 23 APIs on the [APIs.io](https://apis.io/) network, including artifacts API, cluster-resources API, and 21 more. Tagged areas include Company, Testing, Kubernetes, Continuous Integration, and Developer Tools.
 
 
   The Kubeshop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Kubeshop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 4
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Kubeshop Rate Limits
@@ -471,7 +471,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 51.8
+  composite: 51.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 40.0
@@ -479,11 +479,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 60.9
+    contract_quality: 59.1
     developer_ergonomics: 73.2
     discoverability: 81.5
     operational_transparency: 26.3
@@ -492,14 +492,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 40.9
+      callable: 15.0
       derived: 0
       marker_coverage: 0.0
       total: 23
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

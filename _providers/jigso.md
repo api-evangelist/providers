@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API that exposes the Jigso platform in code - query all organizational data with simple REST calls, embed insights into dashboards, chatbots, and internal applications, and trigger scheduled or e
@@ -128,7 +128,7 @@ plans:
 - name: Jigso Plans Pricing
   plan_count: 0
   slug: jigso-plans-pricing
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Jigso Rate Limits
@@ -156,7 +156,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

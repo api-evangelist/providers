@@ -28,7 +28,7 @@ name: HotelUrbano
 nav: Providers
 network: true
 overview: HotelUrbano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Online Travel Agency, Hospitality, and Hotels.
-random_paper: 11
+random_paper: 21
 slug: hotelurbano
 tags:
 - Company

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -60,11 +60,6 @@ apis:
   description: Manage shared assets such as credentials, text values, integers, and boolean values
   name: UiPath Assets API
   slug: uipath-assets-api
-- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
-  baseurl_source: declared
-  description: Retrieve and download organization and tenant audit event logs
-  name: UiPath AuditLogs API
-  slug: uipath-auditlogs-api
 - baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
   baseurl_source: declared
   description: Manage automation ideas and projects in the pipeline
@@ -177,21 +172,6 @@ apis:
   slug: uipath-storagebuckets-api
 - baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
   baseurl_source: declared
-  description: Manage test cases and their definitions
-  name: UiPath TestCases API
-  slug: uipath-testcases-api
-- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
-  baseurl_source: declared
-  description: Retrieve test execution results and logs
-  name: UiPath TestExecutions API
-  slug: uipath-testexecutions-api
-- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
-  baseurl_source: declared
-  description: Manage test sets that group test cases for execution
-  name: UiPath TestSets API
-  slug: uipath-testsets-api
-- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
-  baseurl_source: declared
   description: Manage users and their roles within Automation Hub
   name: UiPath Users API
   slug: uipath-users-api
@@ -205,6 +185,26 @@ apis:
   description: Manage webhook subscriptions for Orchestrator event notifications
   name: UiPath Webhooks API
   slug: uipath-webhooks-api
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Retrieve and download organization and tenant audit event logs
+  name: UiPath Audit Logs API
+  slug: uipath-audit-logs-api
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage test cases and their definitions
+  name: UiPath Test Cases API
+  slug: uipath-test-cases-api
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Retrieve test execution results and logs
+  name: UiPath Test Executions API
+  slug: uipath-test-executions-api
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage test sets that group test cases for execution
+  name: UiPath Test Sets API
+  slug: uipath-test-sets-api
 arazzos:
 - description: Resolve an existing queue, add a transaction item, and read back its status.
   name: UiPath Add and Track a Queue Item
@@ -1583,7 +1583,7 @@ plans:
 - name: Uipath Plans Pricing
   plan_count: 5
   slug: uipath-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Uipath Rate Limits
@@ -1648,7 +1648,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

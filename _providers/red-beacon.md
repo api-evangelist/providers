@@ -33,7 +33,7 @@ name: Red Beacon
 nav: Providers
 network: true
 overview: Red Beacon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Marketplace, Local Services, and Consumer.
-random_paper: 10
+random_paper: 8
 security:
 - kind: domain-security
   name: Red Beacon Domain Security

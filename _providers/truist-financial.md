@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.3
-  scored_at: '2026-09-15'
+  score: 28.7
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ plans:
 - name: Truist Financial Plans Pricing
   plan_count: 1
   slug: truist-financial-plans-pricing
-random_paper: 2
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Truist Financial Rate Limits
@@ -353,7 +353,7 @@ score:
     regime_id: banking_open_finance
     score: 63.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

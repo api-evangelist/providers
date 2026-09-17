@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Push data directly into the Aisera platform from any external system that supports webhooks — Knowledge Articles and Requests. Authenticates with an x-app-token header plus an OAuth 2.0 password-grant
@@ -190,7 +190,7 @@ overview: 'Aisera publishes 4 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Aisera''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 21 more developer resources.'
-random_paper: 20
+random_paper: 13
 score:
   band: developing
   composite: 44.0
@@ -213,7 +213,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -248,6 +248,6 @@ tags:
 - AI Copilot
 - Knowledge-Management
 - Workflow-Automation
-- Large Language Models
+- LLM
 website: https://aisera.com
 ---

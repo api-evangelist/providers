@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -31,39 +31,89 @@ agentic_access:
   operation_count: 97
   slug: openehr-agentic-access
   summary_line: 97 operations · 49 acting
-api_count: 7
+api_count: 13
 apis:
 - baseURL_template: https://{baseUrl}/v1
   baseurl_source: spec_template
-  description: The core openEHR record API — create and manage EHRs, compositions, directories, contributions and versioned objects. openEHR SPECIFICATION, not a callable service — 33 operation(s) across 23 path(s),
+  description: Management of [AOM and ADL 1.4](https://specifications.openehr.org/releases/AM/latest) Operational Templates (OPTs). These templates can be created using [modelling tools](https://www.openehr.org/down
+  name: openEHR ADL1.4 API
+  slug: openehr-adl1-4-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of [AOM2](https://specifications.openehr.org/releases/AM/latest/AOM2.html#_templates) templates. See also [ADL2 Template specifications](https://specifications.openehr.org/releases/AM/lates
+  name: openEHR ADL2 API
+  slug: openehr-adl2-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of the [AGENT](https://specifications.openehr.org/releases/RM/latest/demographic.html#_agent_class) class.
+  name: openEHR AGENT API
+  slug: openehr-agent-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of [COMPOSITION](https://specifications.openehr.org/releases/RM/latest/ehr.html#_composition_class) and [VERSIONED_COMPOSITION](https://specifications.openehr.org/releases/RM/latest/ehr.htm
+  name: openEHR COMPOSITION API
+  slug: openehr-composition-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of [CONTRIBUTION](https://specifications.openehr.org/releases/RM/latest/common.html#_contribution_class) class.
+  name: openEHR CONTRIBUTION API
+  slug: openehr-contribution-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of the [directory](https://specifications.openehr.org/releases/RM/latest/ehr.html#_directory) [FOLDER](https://specifications.openehr.org/releases/RM/latest/common.html#_folder_class) resou
+  name: openEHR DIRECTORY API
+  slug: openehr-directory-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Admin management of [EHRs](https://specifications.openehr.org/releases/RM/latest/ehr.html#_ehr_class).
   name: openEHR EHR API
-  slug: ehr
+  slug: openehr-ehr-api
 - baseURL_template: https://{baseUrl}/v1
   baseurl_source: spec_template
-  description: Execute stored and ad-hoc Archetype Query Language (AQL) queries against an openEHR system. openEHR SPECIFICATION, not a callable service — 6 operation(s) across 3 path(s), served from the templated h
+  description: Management of [EHR_STATUS](https://specifications.openehr.org/releases/RM/latest/ehr.html#_ehr_status_class) and [VERSIONED_EHR_STATUS](https://specifications.openehr.org/releases/RM/latest/ehr.html#_
+  name: openEHR EHR STATUS API
+  slug: openehr-ehr-status-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of the [GROUP](https://specifications.openehr.org/releases/RM/latest/demographic.html#_group_class) class.
+  name: openEHR GROUP API
+  slug: openehr-group-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of [ITEM_TAG](https://specifications.openehr.org/releases/RM/development/common.html#_item_tag_class) resources.
+  name: openEHR ITEM TAG API
+  slug: openehr-item-tag-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: The Options API from openEHR — 1 operation(s) for options.
+  name: openEHR Options API
+  slug: openehr-options-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of the [ORGANISATION](https://specifications.openehr.org/releases/RM/latest/demographic.html#_organisation_class) class.
+  name: openEHR ORGANISATION API
+  slug: openehr-organisation-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of the [PERSON](https://specifications.openehr.org/releases/RM/latest/demographic.html#_person_class) class.
+  name: openEHR PERSON API
+  slug: openehr-person-api
+- baseURL_template: https://{baseUrl}/v1
+  baseurl_source: spec_template
+  description: Management of stored (registered) queries in the system, including creation of new versions and retrieval by qualified name and version. These endpoints enable registration and lifecycle management of
   name: openEHR Query API
-  slug: query
+  slug: openehr-query-api
 - baseURL_template: https://{baseUrl}/v1
   baseurl_source: spec_template
-  description: Manage the definition layer — ADL 1.4 and ADL 2 templates, operational templates and stored queries. openEHR SPECIFICATION, not a callable service — 13 operation(s) across 9 path(s), served from the t
-  name: openEHR Definition API
-  slug: definition
+  description: Management of the [ROLE](https://specifications.openehr.org/releases/RM/latest/demographic.html#_role_class) class.
+  name: openEHR ROLE API
+  slug: openehr-role-api
 - baseURL_template: https://{baseUrl}/v1
   baseurl_source: spec_template
-  description: System-level service endpoints for an openEHR server. openEHR SPECIFICATION, not a callable service — 1 operation(s) across 1 path(s), served from the templated host `https://{baseUrl}/v1`.
-  name: openEHR System API
-  slug: system
-- baseURL_template: https://{baseUrl}/v1
-  baseurl_source: spec_template
-  description: Party, role and demographic data handling. Published but marked DEVELOPMENT by openEHR. openEHR SPECIFICATION, not a callable service — 42 operation(s) across 27 path(s), served from the templated hos
-  name: openEHR Demographic API
-  slug: demographic
-- baseURL_template: https://{baseUrl}/v1
-  baseurl_source: spec_template
-  description: Administrative operations over EHRs. Published but marked DEVELOPMENT by openEHR. openEHR SPECIFICATION, not a callable service — 2 operation(s) across 2 path(s), served from the templated host `https
-  name: openEHR Admin API
-  slug: admin
-artifact_total: 10
+  description: Management of the [VERSIONED_PARTY](https://specifications.openehr.org/releases/RM/latest/demographic.html#_versioned_party_class) class.
+  name: openEHR VERSIONED PARTY API
+  slug: openehr-versioned-party-api
+artifact_total: 20
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/openehr/refs/heads/main/agentic-access/openehr-agentic-access.yml
@@ -189,28 +239,28 @@ modified: '2026-09-02'
 name: openEHR
 nav: Providers
 network: true
-overview: 'openEHR publishes 6 APIs on the [APIs.io](https://apis.io/) network, including EHR API, Query API, Definition API, and 3 more. Tagged areas include openEHR, Healthcare, EHR, Electronic Health Records, and Health Informatics.
+overview: 'openEHR publishes 16 APIs on the [APIs.io](https://apis.io/) network, including ADL1.4 API, ADL2 API, AGENT API, and 13 more. Tagged areas include openEHR, Healthcare, EHR, Electronic Health Records, and Health Informatics.
 
 
   openEHR''s developer surface includes product news, documentation, API reference, changelog, and 22 more developer resources.'
-random_paper: 18
+random_paper: 5
 score:
-  band: thin
-  composite: 28.4
+  band: emerging
+  composite: 25.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 50.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 0.0
     contract_governance: 15.2
-    contract_quality: 58.9
+    contract_quality: 52.8
     developer_ergonomics: 26.2
-    discoverability: 72.2
+    discoverability: 57.4
     operational_transparency: 18.4
   previous_composite: 28.4
   provenance:
@@ -219,7 +269,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 16
   regulatory:
     applies: true
     matched_via: tags
@@ -227,7 +277,7 @@ score:
     regime_id: health
     score: 3.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

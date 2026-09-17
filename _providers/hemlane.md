@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Internal REST API powering the Hemlane property management platform, providing access to rental listings, tenant applications, lease tracking, rent payments, maintenance requests, and owner financial '
@@ -105,7 +105,7 @@ plans:
 - name: Hemlane Plans Pricing
   plan_count: 4
   slug: hemlane-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Hemlane Rate Limits
@@ -132,7 +132,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -153,6 +153,6 @@ tags:
 - Lease Management
 - Rent Collection
 - Maintenance
-- Landlord
+- Landlords
 website: https://www.hemlane.com/
 ---

@@ -25,7 +25,7 @@ name: Simple
 nav: Providers
 network: true
 overview: Simple is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 20
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/simple/refs/heads/main/screenshots/simple-2026-09-02T155529.png
 slug: simple
 tags:

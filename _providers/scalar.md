@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 3
@@ -108,9 +108,6 @@ apis:
 - description: The schemas API from Scalar — 7 operation(s) for schemas.
   name: Scalar schemas API
   slug: scalar-schemas-api
-- description: The sdks API from Scalar — 18 operation(s) for sdks.
-  name: Scalar sdks API
-  slug: scalar-sdks-api
 - description: The share API from Scalar — 1 operation(s) for share.
   name: Scalar share API
   slug: scalar-share-api
@@ -153,13 +150,10 @@ apis:
 - description: AI layer that lets developers chat with an API inside the docs and exposes hosted MCP (Model Context Protocol) servers generated from an OpenAPI document so agents can call the API. Metered in Agent S
   name: Scalar Agent and MCP
   slug: scalar-agent-mcp
-- description: Publish / list / update / delete documents - performed via the Scalar CLI (modeled).
-  name: Scalar Registry Management API
-  slug: scalar-api-registry-management-api
-- description: Public retrieval of published OpenAPI documents (confirmed public surface).
-  name: Scalar Registry Read API
-  slug: scalar-api-registry-read-api
-artifact_total: 80
+- description: The sdks API from Scalar — 18 operation(s) for sdks.
+  name: Scalar SDKS API
+  slug: scalar-sdks-api
+artifact_total: 78
 collections:
 - collection_type: open
   name: API Collection
@@ -376,7 +370,7 @@ modified: '2026-05-02'
 name: Scalar
 nav: Providers
 network: true
-overview: 'Scalar publishes 26 APIs on the [APIs.io](https://apis.io/) network, including access-groups API, analytics API, api-docs API, and 23 more. Tagged areas include API Client, API Documentation, API References, Code Generation, and Developer Tools.
+overview: 'Scalar publishes 24 APIs on the [APIs.io](https://apis.io/) network, including access-groups API, analytics API, api-docs API, and 21 more. Tagged areas include API Client, API Documentation, API Reference, Code Generation, and Developer Tools.
 
 
   The Scalar catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -387,7 +381,7 @@ plans:
 - name: Scalar Plans Pricing
   plan_count: 3
   slug: scalar-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Scalar Rate Limits
@@ -416,7 +410,7 @@ rules:
   slug: scalar-rules
 score:
   band: developing
-  composite: 49.4
+  composite: 48.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 58.5
@@ -424,12 +418,12 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 56.0
-    developer_ergonomics: 65.5
+    contract_quality: 60.1
+    developer_ergonomics: 57.1
     discoverability: 66.7
     operational_transparency: 26.3
   previous_composite: 49.4
@@ -442,7 +436,7 @@ score:
       total: 24
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -469,7 +463,7 @@ slug: scalar
 tags:
 - API Client
 - API Documentation
-- API References
+- API Reference
 - Code Generation
 - Developer Tools
 - OpenAPI

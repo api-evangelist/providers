@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -79,44 +79,44 @@ apis:
   slug: microsoft-bing-autosuggest-api
 - baseURL: https://api.bing.microsoft.com/
   baseurl_source: declared
-  description: The CustomSearch API from Microsoft Bing — 1 operation(s) for customsearch.
-  name: Microsoft Bing CustomSearch API
-  slug: microsoft-bing-customsearch-api
+  description: The Custom Search API from Microsoft Bing — 1 operation(s) for custom search.
+  name: Microsoft Bing Custom Search API
+  slug: microsoft-bing-custom-search-api
 - baseURL: https://api.bing.microsoft.com/
   baseurl_source: declared
-  description: The EntitySearch API from Microsoft Bing — 1 operation(s) for entitysearch.
-  name: Microsoft Bing EntitySearch API
-  slug: microsoft-bing-entitysearch-api
+  description: The Entity Search API from Microsoft Bing — 1 operation(s) for entity search.
+  name: Microsoft Bing Entity Search API
+  slug: microsoft-bing-entity-search-api
 - baseURL: https://api.bing.microsoft.com/
   baseurl_source: declared
-  description: The ImageSearch API from Microsoft Bing — 1 operation(s) for imagesearch.
-  name: Microsoft Bing ImageSearch API
-  slug: microsoft-bing-imagesearch-api
+  description: The Image Search API from Microsoft Bing — 1 operation(s) for image search.
+  name: Microsoft Bing Image Search API
+  slug: microsoft-bing-image-search-api
 - baseURL: https://api.bing.microsoft.com/
   baseurl_source: declared
-  description: The NewsSearch API from Microsoft Bing — 2 operation(s) for newssearch.
-  name: Microsoft Bing NewsSearch API
-  slug: microsoft-bing-newssearch-api
+  description: The News Search API from Microsoft Bing — 2 operation(s) for news search.
+  name: Microsoft Bing News Search API
+  slug: microsoft-bing-news-search-api
 - baseURL: https://api.bing.microsoft.com/
   baseurl_source: declared
-  description: The SpellCheck API from Microsoft Bing — 1 operation(s) for spellcheck.
-  name: Microsoft Bing SpellCheck API
-  slug: microsoft-bing-spellcheck-api
+  description: The Spell Check API from Microsoft Bing — 1 operation(s) for spell check.
+  name: Microsoft Bing Spell Check API
+  slug: microsoft-bing-spell-check-api
 - baseURL: https://api.bing.microsoft.com/
   baseurl_source: declared
-  description: The VideoSearch API from Microsoft Bing — 1 operation(s) for videosearch.
-  name: Microsoft Bing VideoSearch API
-  slug: microsoft-bing-videosearch-api
+  description: The Video Search API from Microsoft Bing — 1 operation(s) for video search.
+  name: Microsoft Bing Video Search API
+  slug: microsoft-bing-video-search-api
 - baseURL: https://api.bing.microsoft.com/
   baseurl_source: declared
-  description: The VisualSearch API from Microsoft Bing — 1 operation(s) for visualsearch.
-  name: Microsoft Bing VisualSearch API
-  slug: microsoft-bing-visualsearch-api
+  description: The Visual search API from Microsoft Bing — 1 operation(s) for visual search.
+  name: Microsoft Bing Visual search API
+  slug: microsoft-bing-visual-search-api
 - baseURL: https://api.bing.microsoft.com/
   baseurl_source: declared
-  description: The WebSearch API from Microsoft Bing — 1 operation(s) for websearch.
-  name: Microsoft Bing WebSearch API
-  slug: microsoft-bing-websearch-api
+  description: The Web Search API from Microsoft Bing — 1 operation(s) for web search.
+  name: Microsoft Bing Web Search API
+  slug: microsoft-bing-web-search-api
 artifact_total: 35
 collections:
 - collection_type: open
@@ -224,7 +224,7 @@ modified: '2026-05-19'
 name: Microsoft Bing
 nav: Providers
 network: true
-overview: 'Microsoft Bing publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Autosuggest API, CustomSearch API, EntitySearch API, and 6 more. Tagged areas include Search, Web Search, Image, Videos, and News.
+overview: 'Microsoft Bing publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Autosuggest API, Custom Search API, Entity Search API, and 6 more. Tagged areas include Search, Web Search, Image, Video, and News.
 
 
   Microsoft Bing''s developer surface includes authentication, developer portal, pricing, getting-started guide, support, engineering blog, and 8 more developer resources.'
@@ -232,7 +232,7 @@ plans:
 - name: Microsoft Bing Plans Pricing
   plan_count: 3
   slug: microsoft-bing-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Microsoft Bing Rate Limits
@@ -264,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -284,7 +284,7 @@ tags:
 - Search
 - Web Search
 - Image
-- Videos
+- Video
 - News
 - Azure AI
 - Autosuggest

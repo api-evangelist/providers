@@ -25,7 +25,7 @@ name: Tapingo
 nav: Providers
 network: true
 overview: Tapingo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food Ordering, Mobile, and Acquired.
-random_paper: 19
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapingo/refs/heads/main/screenshots/tapingo-2026-09-02T162532.png
 slug: tapingo
 tags:

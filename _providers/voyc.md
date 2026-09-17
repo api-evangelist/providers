@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Voyc's integration API, monitored on the public status page as "Voyc API v3" (Data Export) alongside "Voyc API" (Conversation Uploads & Reporting). The production host is api.app.voyc.ai, confirmed li
@@ -196,7 +196,7 @@ plans:
 - name: Voyc Plans Pricing
   plan_count: 0
   slug: voyc-plans-pricing
-random_paper: 8
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Voyc Rate Limits
@@ -224,7 +224,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -255,7 +255,7 @@ tags:
 - Compliance
 - Call Monitoring
 - Speech Analytics
-- Contact Centers
+- Contact Center
 - Financial-Services
 - Artificial Intelligence
 website: https://voyc.ai/

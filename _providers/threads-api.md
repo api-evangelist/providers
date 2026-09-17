@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -223,7 +223,7 @@ modified: '2026-05-19'
 name: Threads
 nav: Providers
 network: true
-overview: 'Threads publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Post to Threads > Quote Threads Posts API, Post to Threads > Repost Threads Posts API, and 6 more. Tagged areas include Social, Social Networks, Meta, Publishing, and Media.
+overview: 'Threads publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Post to Threads > Quote Threads Posts API, Post to Threads > Repost Threads Posts API, and 6 more. Tagged areas include Social, Social Network, Meta, Publishing, and Media.
 
 
   The Threads catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -234,7 +234,7 @@ plans:
 - name: Threads Api Plans Pricing
   plan_count: 3
   slug: threads-api-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Threads Api Rate Limits
@@ -263,7 +263,7 @@ rules:
   slug: threads-api-rules
 score:
   band: developing
-  composite: 39.7
+  composite: 40.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 64.5
@@ -271,11 +271,11 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 52.3
+    contract_quality: 55.0
     developer_ergonomics: 47.6
     discoverability: 68.5
     operational_transparency: 31.6
@@ -288,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -310,7 +310,7 @@ security:
 slug: threads-api
 tags:
 - Social
-- Social Networks
+- Social Network
 - Meta
 - Publishing
 - Media

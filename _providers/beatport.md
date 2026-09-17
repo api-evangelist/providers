@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -179,7 +179,7 @@ overview: 'Beatport is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Beatport''s developer surface includes authentication, pricing, GitHub presence, YouTube channel, and 28 more developer resources.'
-random_paper: 4
+random_paper: 7
 score:
   band: minimal
   composite: 10.0
@@ -205,7 +205,7 @@ score:
     - north-america
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

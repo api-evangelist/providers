@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -76,7 +76,7 @@ overview: 'Thorin is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Thorin''s developer surface includes documentation, getting-started guide, changelog, and 4 more developer resources.'
-random_paper: 9
+random_paper: 0
 score:
   band: emerging
   composite: 15.3
@@ -103,7 +103,7 @@ score:
       reason: never_enriched
   previous_composite: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

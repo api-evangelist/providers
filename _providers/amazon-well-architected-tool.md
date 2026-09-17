@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -57,11 +57,6 @@ apis:
   slug: amazon-well-architected-tool-global-settings-api
 - baseURL: https://wellarchitected.amazonaws.com
   baseurl_source: declared
-  description: The ImportLens API from Amazon Well-Architected Tool — 1 operation(s) for importlens.
-  name: Amazon Well-Architected Tool ImportLens API
-  slug: amazon-well-architected-tool-importlens-api
-- baseURL: https://wellarchitected.amazonaws.com
-  baseurl_source: declared
   description: The Lenses API from Amazon Well-Architected Tool — 8 operation(s) for lenses.
   name: Amazon Well-Architected Tool Lenses API
   slug: amazon-well-architected-tool-lenses-api
@@ -72,29 +67,9 @@ apis:
   slug: amazon-well-architected-tool-notifications-api
 - baseURL: https://wellarchitected.amazonaws.com
   baseurl_source: declared
-  description: The ProfileNotifications API from Amazon Well-Architected Tool — 1 operation(s) for profilenotifications.
-  name: Amazon Well-Architected Tool ProfileNotifications API
-  slug: amazon-well-architected-tool-profilenotifications-api
-- baseURL: https://wellarchitected.amazonaws.com
-  baseurl_source: declared
   description: The Profiles API from Amazon Well-Architected Tool — 5 operation(s) for profiles.
   name: Amazon Well-Architected Tool Profiles API
   slug: amazon-well-architected-tool-profiles-api
-- baseURL: https://wellarchitected.amazonaws.com
-  baseurl_source: declared
-  description: The ProfileSummaries API from Amazon Well-Architected Tool — 1 operation(s) for profilesummaries.
-  name: Amazon Well-Architected Tool ProfileSummaries API
-  slug: amazon-well-architected-tool-profilesummaries-api
-- baseURL: https://wellarchitected.amazonaws.com
-  baseurl_source: declared
-  description: The ProfileTemplate API from Amazon Well-Architected Tool — 1 operation(s) for profiletemplate.
-  name: Amazon Well-Architected Tool ProfileTemplate API
-  slug: amazon-well-architected-tool-profiletemplate-api
-- baseURL: https://wellarchitected.amazonaws.com
-  baseurl_source: declared
-  description: The ShareInvitations API from Amazon Well-Architected Tool — 2 operation(s) for shareinvitations.
-  name: Amazon Well-Architected Tool ShareInvitations API
-  slug: amazon-well-architected-tool-shareinvitations-api
 - baseURL: https://wellarchitected.amazonaws.com
   baseurl_source: declared
   description: The Tags API from Amazon Well-Architected Tool — 2 operation(s) for tags.
@@ -107,9 +82,34 @@ apis:
   slug: amazon-well-architected-tool-workloads-api
 - baseURL: https://wellarchitected.amazonaws.com
   baseurl_source: declared
-  description: The WorkloadsSummaries API from Amazon Well-Architected Tool — 1 operation(s) for workloadssummaries.
-  name: Amazon Well-Architected Tool WorkloadsSummaries API
-  slug: amazon-well-architected-tool-workloadssummaries-api
+  description: The Import Lens API from Amazon Well-Architected Tool — 1 operation(s) for import lens.
+  name: Amazon Well-Architected Tool Import Lens API
+  slug: amazon-well-architected-tool-import-lens-api
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Profile Notifications API from Amazon Well-Architected Tool — 1 operation(s) for profile notifications.
+  name: Amazon Well-Architected Tool Profile Notifications API
+  slug: amazon-well-architected-tool-profile-notifications-api
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Profile Summaries API from Amazon Well-Architected Tool — 1 operation(s) for profile summaries.
+  name: Amazon Well-Architected Tool Profile Summaries API
+  slug: amazon-well-architected-tool-profile-summaries-api
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Profile Template API from Amazon Well-Architected Tool — 1 operation(s) for profile template.
+  name: Amazon Well-Architected Tool Profile Template API
+  slug: amazon-well-architected-tool-profile-template-api
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Share Invitations API from Amazon Well-Architected Tool — 2 operation(s) for share invitations.
+  name: Amazon Well-Architected Tool Share Invitations API
+  slug: amazon-well-architected-tool-share-invitations-api
+- baseURL: https://wellarchitected.amazonaws.com
+  baseurl_source: declared
+  description: The Workloads Summaries API from Amazon Well-Architected Tool — 1 operation(s) for workloads summaries.
+  name: Amazon Well-Architected Tool Workloads Summaries API
+  slug: amazon-well-architected-tool-workloads-summaries-api
 arazzos:
 - description: Read a lens review and record lens-level and pillar-level notes on it.
   name: Amazon Well-Architected Tool Annotate Lens Review
@@ -2685,7 +2685,7 @@ modified: '2026-05-19'
 name: Amazon Well-Architected Tool
 nav: Providers
 network: true
-overview: 'Amazon Well-Architected Tool publishes 13 APIs on the [APIs.io](https://apis.io/) network, including ConsolidatedReport#Format API, Global Settings API, ImportLens API, and 10 more. Tagged areas include Architecture, Best Practices, Cloud Governance, Well-Architected, and Workloads.
+overview: 'Amazon Well-Architected Tool publishes 13 APIs on the [APIs.io](https://apis.io/) network, including ConsolidatedReport#Format API, Global Settings API, Lenses API, and 10 more. Tagged areas include Architecture, Best Practices, Cloud Governance, Well-Architected, and Workloads.
 
 
   The Amazon Well-Architected Tool catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2696,7 +2696,7 @@ plans:
 - name: Amazon Well Architected Tool Plans Pricing
   plan_count: 3
   slug: amazon-well-architected-tool-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Amazon Well Architected Tool Rate Limits
@@ -2750,7 +2750,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

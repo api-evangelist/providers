@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: API for accessing OpenChain open source license compliance resources, standards documentation, and organizational benchmarking tools for software supply chain trust.
@@ -90,7 +90,7 @@ plans:
 - name: Openchain Plans Pricing
   plan_count: 3
   slug: openchain-plans-pricing
-random_paper: 4
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Openchain Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.luno.com
@@ -200,7 +200,7 @@ overview: 'Luno publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Luno''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 5
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Luno Rate Limits
@@ -235,7 +235,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

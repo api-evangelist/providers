@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 13
@@ -121,19 +121,9 @@ apis:
   slug: veeam-connection-api
 - baseURL: https://localhost:9419
   baseurl_source: declared
-  description: The CostEstimation API from Veeam — 2 operation(s) for costestimation.
-  name: Veeam CostEstimation API
-  slug: veeam-costestimation-api
-- baseURL: https://localhost:9419
-  baseurl_source: declared
   description: The Credentials section defines paths and operations for managing credentials records that are added to the backup server.
   name: Veeam Credentials API
   slug: veeam-credentials-api
-- baseURL: https://localhost:9419
-  baseurl_source: declared
-  description: The EmailNotifications API from Veeam — 2 operation(s) for emailnotifications.
-  name: Veeam EmailNotifications API
-  slug: veeam-emailnotifications-api
 - baseURL: https://localhost:9419
   baseurl_source: declared
   description: The Encryption section defines paths and operations for managing passwords that are used for data encryption.
@@ -144,11 +134,6 @@ apis:
   description: The General Options section defines paths and operations for retrieving and editing general settings of Veeam Backup & Replication.<br> <div class="note"><strong>NOTE</strong><br>In the current versio
   name: Veeam General Options API
   slug: veeam-general-options-api
-- baseURL: https://localhost:9419
-  baseurl_source: declared
-  description: The IAMRoles API from Veeam — 6 operation(s) for iamroles.
-  name: Veeam IAMRoles API
-  slug: veeam-iamroles-api
 - baseURL: https://localhost:9419
   baseurl_source: declared
   description: The Instances API from Veeam — 6 operation(s) for instances.
@@ -304,6 +289,21 @@ apis:
   description: The Workers API from Veeam — 3 operation(s) for workers.
   name: Veeam Workers API
   slug: veeam-workers-api
+- baseURL: https://localhost:9419
+  baseurl_source: declared
+  description: The Cost Estimation API from Veeam — 2 operation(s) for cost estimation.
+  name: Veeam Cost Estimation API
+  slug: veeam-cost-estimation-api
+- baseURL: https://localhost:9419
+  baseurl_source: declared
+  description: The Email Notifications API from Veeam — 2 operation(s) for email notifications.
+  name: Veeam Email Notifications API
+  slug: veeam-email-notifications-api
+- baseURL: https://localhost:9419
+  baseurl_source: declared
+  description: The IAM Roles API from Veeam — 6 operation(s) for iam roles.
+  name: Veeam IAM Roles API
+  slug: veeam-iam-roles-api
 artifact_total: 121
 collections:
 - collection_type: open
@@ -580,7 +580,7 @@ plans:
 - name: Veeam Plans Pricing
   plan_count: 5
   slug: veeam-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Veeam Rate Limits
@@ -598,7 +598,7 @@ rules:
   slug: veeam-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.4
+  composite: 40.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 61.3
@@ -606,11 +606,11 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 54.7
+    contract_quality: 58.0
     developer_ergonomics: 23.8
     discoverability: 59.3
     operational_transparency: 21.1
@@ -624,7 +624,7 @@ score:
       total: 47
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

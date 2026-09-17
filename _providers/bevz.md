@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.bevz.com/integrator-service
@@ -194,7 +194,7 @@ modified: '2026-08-13'
 name: Bevz
 nav: Providers
 network: true
-overview: 'Bevz publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Integrator Users API, Integrators API, Lotto Scratcher Games API, and 6 more. Tagged areas include Company, Delivery Management, Liquor Retail, Convenience Store, and Point-of-Sale.
+overview: 'Bevz publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Integrator Users API, Integrators API, Lotto Scratcher Games API, and 6 more. Tagged areas include Company, Delivery Management, Liquor Retail, Convenience Stores, and Point-of-Sale.
 
 
   The Bevz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -205,7 +205,7 @@ plans:
 - name: Bevz Plans Pricing
   plan_count: 3
   slug: bevz-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Bevz Rate Limits
@@ -239,7 +239,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -259,7 +259,7 @@ tags:
 - Company
 - Delivery Management
 - Liquor Retail
-- Convenience Store
+- Convenience Stores
 - Point-of-Sale
 - Food Delivery
 - Retail Technology

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -62,11 +62,6 @@ apis:
   slug: amazon-mediaconvert-jobs-api
 - baseURL: http://mediaconvert.{region}.amazonaws.com
   baseurl_source: declared
-  description: The JobTemplates API from Amazon MediaConvert — 2 operation(s) for jobtemplates.
-  name: Amazon MediaConvert JobTemplates API
-  slug: amazon-mediaconvert-jobtemplates-api
-- baseURL: http://mediaconvert.{region}.amazonaws.com
-  baseurl_source: declared
   description: The Policy API from Amazon MediaConvert — 1 operation(s) for policy.
   name: Amazon MediaConvert Policy API
   slug: amazon-mediaconvert-policy-api
@@ -85,6 +80,11 @@ apis:
   description: The Tags API from Amazon MediaConvert — 2 operation(s) for tags.
   name: Amazon MediaConvert Tags API
   slug: amazon-mediaconvert-tags-api
+- baseURL: http://mediaconvert.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Job Templates API from Amazon MediaConvert — 2 operation(s) for job templates.
+  name: Amazon MediaConvert Job Templates API
+  slug: amazon-mediaconvert-job-templates-api
 artifact_total: 1945
 collections:
 - collection_type: postman
@@ -139,6 +139,10 @@ collections:
   name: AWS Elemental MediaConvert Certificates Tags API
   slug: open-amazon-mediaconvert-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/capabilities/amazon-mediaconvert-capability-edges.yml
   title: ''
@@ -5953,7 +5957,7 @@ jsonld:
   property_count: 646
   slug: amazon-mediaconvert-mediaconvert-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon MediaConvert
 nav: Providers
 network: true
@@ -5963,12 +5967,12 @@ overview: 'Amazon MediaConvert publishes 8 APIs on the [APIs.io](https://apis.io
   The Amazon MediaConvert catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaConvert''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon MediaConvert''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Mediaconvert Plans Pricing
   plan_count: 3
   slug: amazon-mediaconvert-plans-pricing
-random_paper: 19
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Mediaconvert Rate Limits
@@ -6022,7 +6026,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -6059,5 +6063,5 @@ use_cases:
   name: Broadcast Distribution
 - description: Handle variable transcoding workloads with elastic auto-scaling.
   name: Peak Workload Processing
-website: https://aws.amazon.com/mediaconvert/
+website: https://amazon.com
 ---

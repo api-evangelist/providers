@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 2
@@ -46,11 +46,6 @@ agentic_access:
   summary_line: 27 operations · 13 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://api.dyte.io/v2
-  baseurl_source: declared
-  description: Manage livestreams for a meeting.
-  name: Dyte Livestreams API
-  slug: dyte-livestreams-api
 - baseURL: https://api.dyte.io/v2
   baseurl_source: declared
   description: Create and manage meeting rooms.
@@ -76,6 +71,11 @@ apis:
   description: Manage webhook event subscriptions.
   name: Dyte Webhooks API
   slug: dyte-webhooks-api
+- baseURL: https://api.dyte.io/v2
+  baseurl_source: declared
+  description: Manage livestreams for a meeting.
+  name: Dyte Live Streams API
+  slug: dyte-live-streams-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -165,7 +165,7 @@ modified: '2026-06-20'
 name: Dyte
 nav: Providers
 network: true
-overview: 'Dyte publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Livestreams API, Meetings API, Participants API, and 3 more. Tagged areas include Video, Voice, Real-Time, WebRTC, and SDK.
+overview: 'Dyte publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Meetings API, Participants API, Recordings API, and 3 more. Tagged areas include Video, Voice, Real-Time, WebRTC, and SDK.
 
 
   Dyte''s developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -173,7 +173,7 @@ plans:
 - name: Dyte Plans Pricing
   plan_count: 3
   slug: dyte-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Dyte Rate Limits
@@ -205,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

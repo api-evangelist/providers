@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful API for integrating labor and workforce-management data into and out of the PickTrace platform. Customers and third-party developers use it to create, update, and extract objects from all Pick
@@ -93,7 +93,7 @@ overview: 'PickTrace publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   PickTrace''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 5
+random_paper: 4
 score:
   band: emerging
   composite: 15.1
@@ -114,7 +114,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

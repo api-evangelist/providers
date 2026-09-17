@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,8 +53,8 @@ modified: '2026-07-21'
 name: Vida
 nav: Providers
 network: true
-overview: Vida is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverage, Consumer Goods, and Malaysia.
-random_paper: 0
+overview: Vida is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Consumer Goods, and Malaysia.
+random_paper: 2
 score:
   band: minimal
   composite: 4.1
@@ -80,7 +80,7 @@ score:
     - southeast-asia
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -95,7 +95,7 @@ security:
 slug: vida
 tags:
 - Company
-- Beverage
+- Beverages
 - Consumer Goods
 - Malaysia
 website: https://vidaworld.com.my

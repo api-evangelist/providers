@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Transco Nominations API enables natural gas shippers to submit, modify, and track pipeline transportation nominations on the Transco pipeline system via the 1Line electronic bulletin board portal.
@@ -126,7 +126,7 @@ modified: '2026-05-03'
 name: Williams Companies
 nav: Providers
 network: true
-overview: 'Williams Companies publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Pipeline, Infrastructure, and Fortune 500.
+overview: 'Williams Companies publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Pipelines, Infrastructure, and Fortune 500.
 
 
   The Williams Companies catalog on APIs.io includes 1 JSON-LD context.
@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: Senator Lindsey M. Williams to Introduce Legislation ...
   url: https://senatorlindseywilliams.com/senator-lindsey-m-williams-to-introduce-legislation-requiring-disclosure-of-ai-in-political-advertisements/
-random_paper: 5
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Williams Rate Limits
@@ -184,7 +184,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -200,7 +200,7 @@ slug: williams
 tags:
 - Energy
 - Natural Gas
-- Pipeline
+- Pipelines
 - Infrastructure
 - Fortune 500
 - Midstream

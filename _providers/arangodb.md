@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 5
@@ -395,7 +395,7 @@ overview: 'ArangoDB publishes 22 APIs on the [APIs.io](https://apis.io/) network
 
 
   ArangoDB''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 11
+random_paper: 16
 score:
   band: developing
   composite: 47.2
@@ -426,7 +426,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: UCSF's Shibboleth SAML 2.0 identity provider, registered in the InCommon Federation and re-exported to eduGAIN. Signed, versioned, publicly retrievable federation metadata describing SingleSignOnServi
@@ -139,15 +139,15 @@ common:
   type: AIPolicy
   url: https://ai.ucsf.edu/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-profiles-json-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/_original/ucsf-profiles-json-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/ucsf-profiles-json-openapi.yml
+  url: openapi/_original/ucsf-profiles-json-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-industry-documents-solr-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/_original/ucsf-industry-documents-solr-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/ucsf-industry-documents-solr-openapi.yml
+  url: openapi/_original/ucsf-industry-documents-solr-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/json-schema/ucsf-profile.json
   title: ''
@@ -263,7 +263,7 @@ jsonld:
   property_count: 2
   slug: ucsf-industry-documents-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: University of California, San Francisco
 nav: Providers
 network: true
@@ -278,7 +278,7 @@ plans:
 - name: Ucsf Plans Pricing
   plan_count: 2
   slug: ucsf-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Ucsf Rate Limits
@@ -339,7 +339,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: The core toolkit for building reactive, event-driven applications on the JVM. Provides the event loop, verticle deployment, event bus, HTTP server and client, TCP/UDP networking, and the fundamental a
@@ -218,7 +218,7 @@ modified: '2026-05-03'
 name: Vert.x
 nav: Providers
 network: true
-overview: 'Vert.x publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event-Driven, Frameworks, Java, JVM, and Microservices.
+overview: 'Vert.x publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event-Driven, Framework, Java, JVM, and Microservices.
 
 
   The Vert.x catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -229,7 +229,7 @@ plans:
 - name: Vert X Plans Pricing
   plan_count: 3
   slug: vert-x-plans-pricing
-random_paper: 5
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Vert X Rate Limits
@@ -276,7 +276,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 31.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -295,7 +295,7 @@ security:
 slug: vert-x
 tags:
 - Event-Driven
-- Frameworks
+- Framework
 - Java
 - JVM
 - Microservices

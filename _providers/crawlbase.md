@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,27 +47,27 @@ apis:
 - baseURL: https://api.crawlbase.com
   baseurl_source: declared
   description: Fetch any URL through the rotating proxy network, optionally rendered.
-  name: Crawlbase Crawling API API
+  name: Crawlbase Crawling API
   slug: crawlbase-crawling-api-api
 - baseURL: https://api.crawlbase.com
   baseurl_source: declared
   description: Publicly visible email discovery for a domain (legacy).
-  name: Crawlbase Leads API API
+  name: Crawlbase Leads API
   slug: crawlbase-leads-api-api
 - baseURL: https://api.crawlbase.com
   baseurl_source: declared
   description: Ready-made structured-data extractors for supported sites (legacy).
-  name: Crawlbase Scraper API API
+  name: Crawlbase Scraper API
   slug: crawlbase-scraper-api-api
 - baseURL: https://api.crawlbase.com
   baseurl_source: declared
   description: Rendered page screenshots in headless Chrome (legacy).
-  name: Crawlbase Screenshots API API
+  name: Crawlbase Screenshots API
   slug: crawlbase-screenshots-api-api
 - baseURL: https://api.crawlbase.com
   baseurl_source: declared
   description: Retrieve, list, and delete previously stored crawls.
-  name: Crawlbase Storage API API
+  name: Crawlbase Storage API
   slug: crawlbase-storage-api-api
 artifact_total: 18
 collections:
@@ -151,11 +151,11 @@ finops:
   slug: crawlbase-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crawlbase.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-09-16'
 name: Crawlbase
 nav: Providers
 network: true
-overview: 'Crawlbase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Crawling API API, Leads API API, Scraper API API, and 2 more. Tagged areas include Web Scraping, Web Crawling, Web Intelligence, Data Extraction, and Proxy.
+overview: 'Crawlbase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Crawling API, Leads API, Scraper API, and 2 more. Tagged areas include Web Scraping, Web Crawling, Web Intelligence, Data Extraction, and Proxy.
 
 
   Crawlbase''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -163,14 +163,14 @@ plans:
 - name: Crawlbase Plans Pricing
   plan_count: 10
   slug: crawlbase-plans-pricing
-random_paper: 3
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Crawlbase Rate Limits
   slug: crawlbase-rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 38.3
   coverage:
     artifact_dirs: 11
     catalog_earned: 64.0
@@ -178,11 +178,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 13.4
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 53.7
     developer_ergonomics: 32.1
     discoverability: 68.5
     operational_transparency: 34.2
@@ -196,8 +196,8 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

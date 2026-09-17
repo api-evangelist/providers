@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for programmatic creation of animation-ready 3D avatars from images, video, measurements and text, built on the SMPL body-model family.
@@ -112,7 +112,7 @@ overview: 'Meshcapade publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Meshcapade''s developer surface includes documentation, API reference, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 6
+random_paper: 1
 score:
   band: emerging
   composite: 22.9
@@ -133,7 +133,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 22.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

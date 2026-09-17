@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
   description: The app repository of builds under test.
   name: Kobiton Apps API
   slug: kobiton-apps-api
-- baseURL: https://api.kobiton.com/v1
-  baseurl_source: declared
-  description: Data-driven testing input sets.
-  name: Kobiton Data Sets API
-  slug: kobiton-data-sets-api
 - baseURL: https://api.kobiton.com/v1
   baseurl_source: declared
   description: Real devices available in the Kobiton device cloud.
@@ -77,6 +72,11 @@ apis:
   description: Test-run sessions and their captured commands.
   name: Kobiton Sessions API
   slug: kobiton-sessions-api
+- baseURL: https://api.kobiton.com/wd/hub
+  baseurl_source: declared
+  description: Data-driven testing input sets.
+  name: Kobiton Datasets API
+  slug: kobiton-datasets-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -161,7 +161,7 @@ modified: '2026-07-11'
 name: Kobiton
 nav: Providers
 network: true
-overview: 'Kobiton publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Data Sets API, Devices API, and 3 more. Tagged areas include Mobile Testing, Test Runs, Device Cloud, Real Devices, and Appium.
+overview: 'Kobiton publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Devices API, Organization API, and 3 more. Tagged areas include Mobile Testing, Test Runs, Device Cloud, Real Devices, and Appium.
 
 
   Kobiton''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -169,14 +169,14 @@ plans:
 - name: Kobiton Plans Pricing
   plan_count: 4
   slug: kobiton-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Kobiton Rate Limits
   slug: kobiton-rate-limits
 score:
-  band: emerging
-  composite: 24.9
+  band: thin
+  composite: 36.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 64.0
@@ -184,11 +184,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.2
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 44.8
     developer_ergonomics: 32.1
     discoverability: 68.5
     operational_transparency: 34.2
@@ -201,8 +201,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The public WordPress REST API served from the Advanced Aircraft Company corporate site at https://advancedaircraftcompany.com/wp-json. The self-describing route index advertises 647 routes across 46 n
@@ -127,7 +127,7 @@ plans:
 - name: Advanced Aircraft Company Plans Pricing
   plan_count: 0
   slug: advanced-aircraft-company-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Advanced Aircraft Company Rate Limits
@@ -160,7 +160,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

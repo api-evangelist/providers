@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Spot SDK is an open-source SDK for developing applications and payloads for the Spot quadruped robot. Built on gRPC and Protocol Buffers, it provides Python and C++ libraries to control Spot, read
@@ -147,7 +147,7 @@ plans:
 - name: Boston Dynamics Plans Pricing
   plan_count: 1
   slug: boston-dynamics-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Boston Dynamics Rate Limits
@@ -172,7 +172,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 26.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

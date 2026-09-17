@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,11 +66,6 @@ apis:
   slug: openchargemap-mediaitem-api
 - baseURL: https://api.openchargemap.io/v3
   baseurl_source: declared
-  description: The Openapi API from Open Charge Map — 1 operation(s) for openapi.
-  name: Open Charge Map Openapi API
-  slug: openchargemap-openapi-api
-- baseURL: https://api.openchargemap.io/v3
-  baseurl_source: declared
   description: The Poi API from Open Charge Map — 1 operation(s) for poi.
   name: Open Charge Map Poi API
   slug: openchargemap-poi-api
@@ -81,9 +76,14 @@ apis:
   slug: openchargemap-profile-api
 - baseURL: https://api.openchargemap.io/v3
   baseurl_source: declared
-  description: The Referencedata API from Open Charge Map — 1 operation(s) for referencedata.
-  name: Open Charge Map Referencedata API
-  slug: openchargemap-referencedata-api
+  description: The Open API API from Open Charge Map — 1 operation(s) for open api.
+  name: Open Charge Map Open API
+  slug: openchargemap-open-api-api
+- baseURL: https://api.openchargemap.io/v3
+  baseurl_source: declared
+  description: The Reference Data API from Open Charge Map — 1 operation(s) for reference data.
+  name: Open Charge Map Reference Data API
+  slug: openchargemap-reference-data-api
 artifact_total: 47
 collections:
 - collection_type: open
@@ -260,7 +260,7 @@ modified: '2026-06-13'
 name: Open Charge Map
 nav: Providers
 network: true
-overview: 'Open Charge Map publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Comment API, Mediaitem API, Openapi API, and 3 more. Tagged areas include Electric Vehicles, EV Charging, Charging Stations, Points of Interest, and Open Data.
+overview: 'Open Charge Map publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Comment API, Mediaitem API, Poi API, and 3 more. Tagged areas include Electric Vehicles, EV Charging, Charging Stations, Points of Interest, and Open Data.
 
 
   The Open Charge Map catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -271,7 +271,7 @@ plans:
 - name: Openchargemap Plans
   plan_count: 2
   slug: openchargemap-plans
-random_paper: 5
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Openchargemap Rate Limits
@@ -320,7 +320,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

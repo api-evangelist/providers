@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Institutional staking API to onboard broker users, generate and track deposits, assign/exit validators, drive pooled staking and Babylon BTC staking across supported proof-of-stake protocols. Authenti
@@ -124,11 +124,11 @@ modified: '2026-07-19'
 name: HashKey Cloud (HashQuark)
 nav: Providers
 network: true
-overview: 'HashKey Cloud (HashQuark) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Staking, Web3, and Validators.
+overview: 'HashKey Cloud (HashQuark) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Staking, Web3, and Validator.
 
 
   HashKey Cloud (HashQuark)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 2
+random_paper: 0
 score:
   band: emerging
   composite: 22.5
@@ -156,7 +156,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -178,7 +178,7 @@ tags:
 - Blockchain
 - Staking
 - Web3
-- Validators
+- Validator
 - Cryptocurrency
 - Node Infrastructure
 - Proof of Stake

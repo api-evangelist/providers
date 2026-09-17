@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -730,7 +730,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence press releases
   url: https://newsroom.ibm.com/press-releases-artificial-intelligence
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Ibm Rate Limits
@@ -780,7 +780,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -811,7 +811,7 @@ tags:
 - Cloud Computing
 - Containers
 - Data Governance
-- Databases
+- Database
 - DevOps
 - Enterprise
 - Generative AI

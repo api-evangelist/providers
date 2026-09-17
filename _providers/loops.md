@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 10
+- acting_count: 35
   human_in_the_loop: 0
   name: Loops Agentic Access
-  operation_count: 24
+  operation_count: 64
   slug: loops-agentic-access
-  summary_line: 24 operations · 10 acting
+  summary_line: 64 operations · 35 acting
 api_count: 1
 apis:
 - baseURL: https://app.loops.so/api/v1
@@ -429,7 +429,7 @@ plans:
 - name: Loops Plans Pricing
   plan_count: 2
   slug: loops-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 8
   name: Loops Rate Limits
@@ -469,7 +469,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

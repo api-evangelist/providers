@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Bearer-token cloud service backing the Deltakit SDK. Exposes the compute-heavy and proprietary parts of the QEC workflow that do not run locally: leakage noise generation and simulation, decoding with'
@@ -188,11 +188,11 @@ modified: '2026-08-05'
 name: Riverlane
 nav: Providers
 network: true
-overview: 'Riverlane publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Quantum Error Correction, Decoders, Scientific Computing, and Python SDK.
+overview: 'Riverlane publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Quantum Error Correction, Decoder, Scientific Computing, and Python SDK.
 
 
   Riverlane''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
-random_paper: 2
+random_paper: 0
 score:
   band: thin
   composite: 31.9
@@ -218,7 +218,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -242,7 +242,7 @@ slug: riverlane
 tags:
 - Quantum Computing
 - Quantum Error Correction
-- Decoders
+- Decoder
 - Scientific Computing
 - Python SDK
 - GraphQL

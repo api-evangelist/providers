@@ -29,7 +29,7 @@ name: Good & Co.
 nav: Providers
 network: true
 overview: Good & Co. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Personality Assessment, Psychometrics, Hiring, and Human Resources.
-random_paper: 3
+random_paper: 20
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-and-co/refs/heads/main/screenshots/good-and-co-2026-07-25T220033.png
 security:
 - kind: domain-security

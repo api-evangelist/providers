@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,11 +73,11 @@ modified: '2026-07-21'
 name: Wanderu
 nav: Providers
 network: true
-overview: 'Wanderu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Transportation, Bus, and Train.
+overview: 'Wanderu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Transportation, Bus, and Trains.
 
 
   Wanderu''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: minimal
   composite: 10.5
@@ -98,7 +98,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 10.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ tags:
 - Travel
 - Transportation
 - Bus
-- Train
+- Trains
 - Booking
 - Metasearch
 - Ticketing

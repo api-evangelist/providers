@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'Groupon''s own public API gateway. Live and Groupon-operated (responses carry x-brand: groupon and Envoy/GCP upstream headers), but gated: every path, including /v2/deals.json, /graphql and /.well-know'
@@ -193,7 +193,7 @@ press:
 - date: '2026-05-25'
   title: Groupon, Inc. - Press Releases
   url: https://investor.groupon.com/press-releases/default.aspx
-random_paper: 1
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Groupon Rate Limits
@@ -221,7 +221,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -248,7 +248,7 @@ tags:
 - Marketplace
 - E-Commerce
 - Deals
-- Bookings
+- Booking
 - Reservations
 - Travel
 - Retail

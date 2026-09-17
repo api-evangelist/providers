@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -166,7 +166,7 @@ overview: 'Appboxo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Appboxo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 5
+random_paper: 13
 score:
   band: thin
   composite: 36.0
@@ -193,7 +193,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -217,7 +217,7 @@ tags:
 - Mobile SDK
 - Embedded Finance
 - Payments
-- Single Sign-On
+- SSO
 - App Platform
 - eSIM
 - Developer Tools

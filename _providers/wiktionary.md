@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   slug: wiktionary-history-api
 - baseURL: https://en.wiktionary.org/w/api.php
   baseurl_source: declared
-  description: action=opensearch — OpenSearch suggestions protocol
-  name: Wiktionary OpenSearch API
-  slug: wiktionary-opensearch-api
-- baseURL: https://en.wiktionary.org/w/api.php
-  baseurl_source: declared
   description: Page content, source, and HTML
   name: Wiktionary Page API
   slug: wiktionary-page-api
@@ -98,6 +93,11 @@ apis:
   description: Parsoid wikitext ↔ HTML transforms and lint
   name: Wiktionary Transform API
   slug: wiktionary-transform-api
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: action=opensearch — OpenSearch suggestions protocol
+  name: Wiktionary Open Search API
+  slug: wiktionary-open-search-api
 artifact_total: 166
 collections:
 - collection_type: postman
@@ -695,7 +695,7 @@ overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 35 more developer resources.'
-random_paper: 13
+random_paper: 5
 rules:
 - effective_rule_count: 6
   extends: []
@@ -737,7 +737,7 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 28.8
-    contract_quality: 31.4
+    contract_quality: 31.2
     developer_ergonomics: 67.9
     discoverability: 75.9
     operational_transparency: 44.7
@@ -756,7 +756,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

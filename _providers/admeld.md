@@ -24,7 +24,7 @@ name: AdMeld
 nav: Providers
 network: true
 overview: AdMeld is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Advertising, Supply Side Platform, and Programmatic Advertising.
-random_paper: 6
+random_paper: 21
 screenshot: https://raw.githubusercontent.com/api-evangelist/admeld/refs/heads/main/screenshots/admeld-2026-07-25T181640.png
 slug: admeld
 tags:

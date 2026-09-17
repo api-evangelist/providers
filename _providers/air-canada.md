@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -283,14 +283,14 @@ modified: '2026-07-28'
 name: Air Canada
 nav: Providers
 network: true
-overview: 'Air Canada publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airline, and NDC.
+overview: 'Air Canada publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airlines, and NDC.
 
 
   The Air Canada catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Air Canada''s developer surface includes authentication, sandbox, changelog, code examples, documentation, API reference, getting-started guide, and 37 more developer resources.'
-random_paper: 16
+random_paper: 15
 score:
   band: thin
   composite: 32.3
@@ -322,7 +322,7 @@ score:
     conformance: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -342,11 +342,10 @@ tags:
 - Travel
 - Canada
 - Aviation
-- Airline
+- Airlines
 - NDC
 - Distribution
 - Booking
-- Airlines
 - Loyalty
 website: https://www.aircanada.com/
 ---

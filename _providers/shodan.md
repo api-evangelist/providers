@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -756,7 +756,7 @@ plans:
 - name: Shodan Plans Pricing
   plan_count: 6
   slug: shodan-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 17
   name: Shodan Rate Limits
@@ -821,7 +821,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -859,7 +859,7 @@ tags:
 - Attack Surface
 - Threat Intelligence
 - Reconnaissance
-- Network
+- Networks
 - DNS
 - Scanning
 - Public APIs

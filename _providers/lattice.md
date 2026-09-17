@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ modified: 2026-06-12
 name: Lattice
 nav: Providers
 network: true
-overview: 'Lattice publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Competencies API, Departments API, Feedbacks API, and 8 more. Tagged areas include HR, People Management, Performance Management, OKRs, and Goals.
+overview: 'Lattice publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Competencies API, Departments API, Feedbacks API, and 8 more. Tagged areas include Human Resources, People Management, Performance Management, OKRs, and Goals.
 
 
   The Lattice catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -284,7 +284,7 @@ plans:
 - name: Lattice Plans Pricing
   plan_count: 6
   slug: lattice-plans-pricing
-random_paper: 7
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Lattice Rate Limits
@@ -327,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -348,7 +348,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: lattice
 tags:
-- HR
+- Human Resources
 - People Management
 - Performance Management
 - OKRs

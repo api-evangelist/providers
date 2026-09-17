@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,11 +86,11 @@ modified: '2026-07-19'
 name: Foraged
 nav: Providers
 network: true
-overview: 'Foraged is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Food, E-Commerce, and Specialty Food.
+overview: 'Foraged is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Food, E-Commerce, and Specialty Food.
 
 
   Foraged''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, and 5 more developer resources.'
-random_paper: 14
+random_paper: 2
 score:
   band: emerging
   composite: 15.9
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -126,11 +126,10 @@ security:
 slug: foraged
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Food
 - E-Commerce
 - Specialty Food
-- Marketplace
 - Consumer
 - Wild Food
 website: https://www.foraged.com/

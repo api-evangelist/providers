@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A live, remotely hosted Model Context Protocol server operated by SellerX at mcp.sellerx.com. The endpoint requires an OAuth 2.1 bearer token, so the tool manifest is auth-gated, but the server publis
@@ -117,11 +117,11 @@ modified: '2026-08-05'
 name: SellerX
 nav: Providers
 network: true
-overview: 'SellerX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Consumer Brands, Retail, and Amazon Aggregator.
+overview: 'SellerX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Consumer Brand, Retail, and Amazon Aggregator.
 
 
   SellerX''s developer surface includes legal docs, authentication, and 12 more developer resources.'
-random_paper: 11
+random_paper: 19
 scopes:
 - name: Sellerx Scopes
   scope_count: 1
@@ -158,7 +158,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -178,7 +178,7 @@ slug: sellerx
 tags:
 - Company
 - E-Commerce
-- Consumer Brands
+- Consumer Brand
 - Retail
 - Amazon Aggregator
 - Marketplace-Seller

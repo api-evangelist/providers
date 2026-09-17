@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://ll.thespacedevs.com
@@ -48,11 +48,6 @@ apis:
   slug: thespacedevs-ll2-api-agency-api
 - baseURL: https://ll.thespacedevs.com
   baseurl_source: declared
-  description: The Api-throttle API from TheSpaceDevs LL2 API — 1 operation(s) for api-throttle.
-  name: TheSpaceDevs LL2 API Api-throttle API
-  slug: thespacedevs-ll2-api-api-throttle-api
-- baseURL: https://ll.thespacedevs.com
-  baseurl_source: declared
   description: The Astronaut API from TheSpaceDevs LL2 API — 6 operation(s) for astronaut.
   name: TheSpaceDevs LL2 API Astronaut API
   slug: thespacedevs-ll2-api-astronaut-api
@@ -61,11 +56,6 @@ apis:
   description: The Astronauts API from TheSpaceDevs LL2 API — 2 operation(s) for astronauts.
   name: TheSpaceDevs LL2 API Astronauts API
   slug: thespacedevs-ll2-api-astronauts-api
-- baseURL: https://ll.thespacedevs.com
-  baseurl_source: declared
-  description: The Bodies API from TheSpaceDevs LL2 API — 2 operation(s) for bodies.
-  name: TheSpaceDevs LL2 API Bodies API
-  slug: thespacedevs-ll2-api-bodies-api
 - baseURL: https://ll.thespacedevs.com
   baseurl_source: declared
   description: The Celestial API from TheSpaceDevs LL2 API — 4 operation(s) for celestial.
@@ -101,11 +91,6 @@ apis:
   description: The Expeditions API from TheSpaceDevs LL2 API — 2 operation(s) for expeditions.
   name: TheSpaceDevs LL2 API Expeditions API
   slug: thespacedevs-ll2-api-expeditions-api
-- baseURL: https://ll.thespacedevs.com
-  baseurl_source: declared
-  description: The Families API from TheSpaceDevs LL2 API — 4 operation(s) for families.
-  name: TheSpaceDevs LL2 API Families API
-  slug: thespacedevs-ll2-api-families-api
 - baseURL: https://ll.thespacedevs.com
   baseurl_source: declared
   description: The Flights API from TheSpaceDevs LL2 API — 4 operation(s) for flights.
@@ -173,11 +158,6 @@ apis:
   slug: thespacedevs-ll2-api-precisions-api
 - baseURL: https://ll.thespacedevs.com
   baseurl_source: declared
-  description: The Previous API from TheSpaceDevs LL2 API — 4 operation(s) for previous.
-  name: TheSpaceDevs LL2 API Previous API
-  slug: thespacedevs-ll2-api-previous-api
-- baseURL: https://ll.thespacedevs.com
-  baseurl_source: declared
   description: The Programs API from TheSpaceDevs LL2 API — 2 operation(s) for programs.
   name: TheSpaceDevs LL2 API Programs API
   slug: thespacedevs-ll2-api-programs-api
@@ -236,7 +216,7 @@ apis:
   description: The Variants API from TheSpaceDevs LL2 API — 2 operation(s) for variants.
   name: TheSpaceDevs LL2 API Variants API
   slug: thespacedevs-ll2-api-variants-api
-artifact_total: 92
+artifact_total: 88
 collections:
 - collection_type: open
   name: API Collection
@@ -419,11 +399,11 @@ jsonld:
   property_count: 5
   slug: thespacedevs-context
 layout: provider
-modified: '2026-05-03'
+modified: '2026-09-16'
 name: TheSpaceDevs LL2 API
 nav: Providers
 network: true
-overview: 'TheSpaceDevs LL2 API publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Agency API, Api-throttle API, and 37 more. Tagged areas include Space, Satellites, Launches, Rockets, and Astronauts.
+overview: 'TheSpaceDevs LL2 API publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Agency API, Astronaut API, and 33 more. Tagged areas include Space, Satellite, Launches, Rockets, and Astronauts.
 
 
   The TheSpaceDevs LL2 API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -434,7 +414,7 @@ plans:
 - name: Thespacedevs Ll2 Api Plans Pricing
   plan_count: 3
   slug: thespacedevs-ll2-api-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Thespacedevs Ll2 Api Rate Limits
@@ -462,21 +442,21 @@ rules:
   slug: thespacedevs-rules
 score:
   band: thin
-  composite: 28.9
+  composite: 32.4
   coverage:
     artifact_dirs: 13
-    catalog_earned: 46.3
+    catalog_earned: 65.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.8
+    catalog_gap: 49.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.5
   facets:
     access_clarity: 15.8
     contract_governance: 25.0
-    contract_quality: 54.9
+    contract_quality: 59.1
     developer_ergonomics: 14.3
-    discoverability: 44.4
+    discoverability: 68.5
     operational_transparency: 13.2
   previous_composite: 28.9
   provenance:
@@ -484,9 +464,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 40
+      total: 36
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -501,7 +481,7 @@ security:
 slug: thespacedevs-ll2-api
 tags:
 - Space
-- Satellites
+- Satellite
 - Launches
 - Rockets
 - Astronauts

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -60,14 +60,14 @@ apis:
   slug: fitbark-goals-api
 - baseURL: https://app.fitbark.com/api/v2
   baseurl_source: declared
-  description: OAuth 2.0 authorization and token endpoints
-  name: FitBark OAuth API
-  slug: fitbark-oauth-api
-- baseURL: https://app.fitbark.com/api/v2
-  baseurl_source: declared
   description: Authenticated user profile and relationships
   name: FitBark User API
   slug: fitbark-user-api
+- baseURL: https://app.fitbark.com/api/v2
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token endpoints
+  name: FitBark O Auth API
+  slug: fitbark-oauth-api
 artifact_total: 15
 collections:
 - collection_type: open
@@ -183,7 +183,7 @@ overview: 'FitBark publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   FitBark''s developer surface includes authentication, documentation, API reference, support, signup flow, and 13 more developer resources.'
-random_paper: 4
+random_paper: 13
 scopes:
 - name: Fitbark Scopes
   scope_count: 1
@@ -225,7 +225,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

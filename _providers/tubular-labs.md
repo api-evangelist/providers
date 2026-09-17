@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Programmatic access to Tubular's cross-platform social video intelligence — creator, video, and audience data across YouTube, Instagram, Facebook, Twitch, and other platforms — for brand-mention monit
@@ -103,7 +103,7 @@ overview: 'Tubular Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Tubular Labs'' developer surface includes documentation, API reference, pricing, engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 12
+random_paper: 20
 score:
   band: emerging
   composite: 22.3
@@ -126,7 +126,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -148,7 +148,7 @@ tags:
 - Creators
 - Influencer
 - Media
-- Audience
+- Audiences
 - Measurements
 website: https://tubularlabs.com
 ---

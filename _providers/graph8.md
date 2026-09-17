@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: One REST API across the revenue surface — contacts, companies, campaigns and events — plus SDKs, a CLI and an MCP server. Preview access; a workspace endpoint is issued on request.
@@ -97,7 +97,7 @@ plans:
 - name: Graph8 Plans
   plan_count: 0
   slug: graph8-plans
-random_paper: 19
+random_paper: 14
 score:
   band: thin
   composite: 27.9
@@ -120,7 +120,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -135,7 +135,7 @@ tags:
 - Contacts
 - Companies
 - Signals
-- Intent
+- Intents
 - Agents
 - Artificial Intelligence
 - Campaigns

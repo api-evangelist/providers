@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://app.extensiontotal.com/api
@@ -186,11 +186,11 @@ modified: '2026-07-19'
 name: Koi Security
 nav: Providers
 network: true
-overview: 'Koi Security publishes 1 API on the [APIs.io](https://apis.io/) network: Risk API. Tagged areas include Company, Security, Endpoint Security, Supply Chain Security, and Browser Extensions.
+overview: 'Koi Security publishes 1 API on the [APIs.io](https://apis.io/) network: Risk API. Tagged areas include Company, Security, Endpoint Security, Supply Chain Security, and Browser Extension.
 
 
   Koi Security''s developer surface includes documentation, API reference, engineering blog, signup flow, support, authentication, and 22 more developer resources.'
-random_paper: 17
+random_paper: 2
 score:
   band: thin
   composite: 35.0
@@ -223,7 +223,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -244,7 +244,7 @@ tags:
 - Security
 - Endpoint Security
 - Supply Chain Security
-- Browser Extensions
+- Browser Extension
 - Developer Tools
 - Threat Intelligence
 - MCP Security

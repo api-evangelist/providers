@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Oracle SQL Developer Web and SQLcl, the SQL surfaces through which partitions are actually created and maintained. Partition DDL — CREATE TABLE ... PARTITION BY, ALTER TABLE ... SPLIT/MERGE/EXCHANGE/D
@@ -165,10 +165,10 @@ common:
   type: Website
   url: https://www.oracle.com/database/technologies/partitioning.html
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/oracle-partitioning/refs/heads/main/openapi/oracle-partitioning-ords-database-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/oracle-partitioning/refs/heads/main/openapi/_original/oracle-partitioning-ords-database-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/oracle-partitioning-ords-database-api-openapi.json
+  url: openapi/_original/oracle-partitioning-ords-database-api-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oracle-partitioning/refs/heads/main/overlays/oracle-partitioning-ords-database-api-overlay.yaml
   title: ''
@@ -352,7 +352,7 @@ mcp_servers:
 - description: Oracle publishes three first-party MCP servers for Oracle AI Database, all of which reach partitioned tables the same way a DBA does — by executing SQL against the database. There is no partitioning-s
   name: Oracle AI Database MCP Servers
   slug: oracle-ai-database-mcp-servers
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Oracle Partitioning
 nav: Providers
 network: true
@@ -364,7 +364,7 @@ plans:
 - name: Oracle Partitioning Plans Pricing
   plan_count: 2
   slug: oracle-partitioning-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Oracle Partitioning Rate Limits
@@ -376,7 +376,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.6
+  composite: 59.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 48.0
@@ -384,11 +384,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 68.4
     contract_governance: 4.5
-    contract_quality: 45.5
+    contract_quality: 47.1
     developer_ergonomics: 83.3
     discoverability: 68.5
     operational_transparency: 52.6
@@ -403,7 +403,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

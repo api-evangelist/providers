@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Neptune REST API backs the Neptune Python client. It exposes runs, projects, fields, and metadata logging. Authentication uses an API token from the user profile.
@@ -112,12 +112,12 @@ modified: '2026-05-08'
 name: Neptune.ai
 nav: Providers
 network: true
-overview: Neptune.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ML, MLOps, Experiment Tracking, Foundation Models, and Acquired.
+overview: Neptune.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MLS, MLOps, Experiment Tracking, Foundation Models, and Acquired.
 plans:
 - name: Neptune Ai Plans Pricing
   plan_count: 1
   slug: neptune-ai-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Neptune Ai Rate Limits
@@ -145,7 +145,7 @@ score:
     score: 40.0
   previous_composite: 18.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -159,7 +159,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: neptune-ai
 tags:
-- ML
+- MLS
 - MLOps
 - Experiment Tracking
 - Foundation Models

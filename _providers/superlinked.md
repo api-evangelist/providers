@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -84,6 +84,10 @@ collections:
   name: Superlinked Server API
   slug: open-superlinked
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://superlinked.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/superlinked/refs/heads/main/agentic-access/superlinked-agentic-access.yml
   title: ''
@@ -116,19 +120,19 @@ finops:
   slug: superlinked-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superlinked.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Superlinked
 nav: Providers
 network: true
 overview: 'Superlinked publishes 3 APIs on the [APIs.io](https://apis.io/) network: Data Loader API, Ingestion API, and Query API. Tagged areas include Vectors, Embeddings, Vector Search, Retrieval, and Recommendations.
 
 
-  Superlinked''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
+  Superlinked''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
 plans:
 - name: Superlinked Plans Pricing
   plan_count: 2
   slug: superlinked-plans-pricing
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Superlinked Rate Limits
@@ -160,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -187,4 +191,5 @@ tags:
 - Retrieval
 - Recommendations
 - RAG
+website: https://superlinked.com
 ---

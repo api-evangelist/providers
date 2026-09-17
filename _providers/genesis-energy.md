@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Genesis Energy excels in cloud data governance
   url: https://www.informatica.com/customer-success-stories/genesis-energy.html
-random_paper: 17
+random_paper: 15
 score:
   band: emerging
   composite: 11.9
@@ -138,7 +138,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

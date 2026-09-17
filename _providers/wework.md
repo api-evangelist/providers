@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The WeWork Partner API exposes the company''s global workspace inventory to integrators so that Supply Partners (third-party operators contributing spaces to WeWork) and Demand Partners (resellers and '
@@ -43,6 +43,10 @@ apis:
   slug: workplace
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://wework.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wework/refs/heads/main/security/wework-domain-security.yml
   title: ''
@@ -132,15 +136,15 @@ created: '2026-05-23'
 description: WeWork is a global flexible-workspace provider operating ~600 owned locations plus a Coworking Partner Network of 2,000+ partner spaces across 20+ countries. The company filed for Chapter 11 bankruptcy on November 6, 2023 and emerged on May 30, 2024 as a private company majority-owned by real estate technology vendor Yardi Systems. WeWork exposes a Partner API ("Partner API will help bring WeWork space bookings to your apps and websites") for Supply and Demand partners covering identity, locations, inventory, availability/calendaring, booking, and keycard access, but the full API reference sits behind Auth0 authentication and is not publicly catalogable. No public OpenAPI, AsyncAPI, SDKs, CLIs, status page, RSS feed, or rate-limit documentation could be located.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wework.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: WeWork
 nav: Providers
 network: true
 overview: 'WeWork publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Co-Working, Flexible Workspace, Real-Estate, Workspace Booking, and Workplace Management.
 
 
-  WeWork''s developer surface includes developer portal, documentation, API reference, getting-started guide, release notes, authentication, signup flow, and 14 more developer resources.'
-random_paper: 20
+  WeWork''s developer surface includes developer portal, documentation, API reference, getting-started guide, release notes, authentication, signup flow, and 15 more developer resources.'
+random_paper: 11
 score:
   band: emerging
   composite: 20.7
@@ -161,7 +165,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 20.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -180,7 +184,7 @@ tags:
 - Real-Estate
 - Workspace Booking
 - Workplace Management
-- Bookings
+- Booking
 - Inventory
-website: https://developers.wework.com
+website: https://wework.com
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -131,7 +131,7 @@ overview: 'OpenGamma is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   OpenGamma''s developer surface includes documentation, getting-started guide, API reference, support, CLI, changelog, and 13 more developer resources.'
-random_paper: 4
+random_paper: 3
 score:
   band: emerging
   composite: 21.8
@@ -161,7 +161,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

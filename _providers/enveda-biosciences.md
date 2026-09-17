@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -297,7 +297,7 @@ overview: 'Enveda publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Enveda''s developer surface includes engineering blog, product news, support, authentication, and 24 more developer resources.'
-random_paper: 4
+random_paper: 5
 score:
   band: emerging
   composite: 23.5
@@ -334,7 +334,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

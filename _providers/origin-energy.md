@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -97,22 +97,22 @@ apis:
 - baseURL: https://api.mydata.cdr.originenergy.com.au
   baseurl_source: declared
   description: Energy Account Balance endpoints
-  name: Origin Energy Energy Account Balances API
+  name: Origin Energy Account Balances API
   slug: origin-energy-energy-account-balances-api
 - baseURL: https://api.mydata.cdr.originenergy.com.au
   baseurl_source: declared
   description: Energy Account Billing endpoints
-  name: Origin Energy Energy Account Billing API
+  name: Origin Energy Account Billing API
   slug: origin-energy-energy-account-billing-api
 - baseURL: https://api.mydata.cdr.originenergy.com.au
   baseurl_source: declared
   description: Energy Account endpoints
-  name: Origin Energy Energy Accounts API
+  name: Origin Energy Accounts API
   slug: origin-energy-energy-accounts-api
 - baseURL: https://api.mydata.cdr.originenergy.com.au
   baseurl_source: declared
   description: Energy Plan endpoints
-  name: Origin Energy Energy Plans API
+  name: Origin Energy Plans API
   slug: origin-energy-energy-plans-api
 - baseURL: https://api.mydata.cdr.originenergy.com.au
   baseurl_source: declared
@@ -440,7 +440,7 @@ integrations:
 - description: The Australian Energy Regulator hosts Origin's Consumer Data Standards plan reference data endpoints at cdr.energymadeeasy.gov.au/origin.
   name: AER Energy Made Easy
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: Origin Energy
 nav: Providers
 network: true
@@ -451,7 +451,7 @@ overview: 'Origin Energy publishes 20 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Origin Energy''s developer surface includes authentication, documentation, changelog, engineering blog, support, pricing, signup flow, and 45 more developer resources.'
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Origin Energy Rate Limits
@@ -463,7 +463,7 @@ scopes:
   summary_line: 113 scopes
 score:
   band: strong
-  composite: 57.9
+  composite: 58.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 49.0
@@ -471,11 +471,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 62.9
+    contract_quality: 63.7
     developer_ergonomics: 51.8
     discoverability: 75.9
     operational_transparency: 84.2
@@ -504,7 +504,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

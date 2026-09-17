@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -284,7 +284,7 @@ plans:
 - name: University Of Cape Town Plans Pricing
   plan_count: 2
   slug: university-of-cape-town-plans-pricing
-random_paper: 4
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: University Of Cape Town Rate Limits
@@ -340,7 +340,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
+      marker_coverage: 0.0
       total: 1
   regulatory:
     applies: true
@@ -349,7 +349,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

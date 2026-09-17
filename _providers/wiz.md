@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GraphQL API for querying and managing cloud security inventory, issues, vulnerabilities, misconfigurations, identities, controls, and reports across the Wiz security graph. Authentication uses OAuth 2
@@ -99,7 +99,7 @@ overview: 'Wiz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Wiz''s developer surface includes documentation, signup flow, pricing, academy / training, engineering blog, and 5 more developer resources.'
-random_paper: 10
+random_paper: 16
 score:
   band: emerging
   composite: 14.6
@@ -120,7 +120,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

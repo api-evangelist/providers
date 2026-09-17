@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.getyourguide.com
@@ -109,6 +109,10 @@ collections:
   name: Partner Api Bookings Tours API
   slug: open-getyourguide-tours-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://getyourguide.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/overlays/getyourguide-partner-overlay.yaml
   title: ''
@@ -237,18 +241,18 @@ created: '2026-07-17'
 description: GetYourGuide is a Berlin-based online travel marketplace for booking tours, activities, attraction tickets, and experiences in destinations around the world. Founded in 2009, the company connects travelers with local activity suppliers and operators, and exposes a public Partner API that gives affiliates, agencies, and technology partners programmatic access to the GetYourGuide marketplace catalog — searching tours and activities, retrieving categories, options, availability, price breakdowns, supplier details, and reviews, and creating shopping carts and bookings. The RESTful Partner API uses JSON, is secured over TLS with an API access token (X-ACCESS-TOKEN header), and publishes its OpenAPI specification as open source on GitHub. GetYourGuide is backed by Battery Ventures and SoftBank Vision Fund.
 image: https://cdn.getyourguide.com/tf/assets/static/logos/gyg-logo.svg
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: GetYourGuide
 nav: Providers
 network: true
 overview: 'GetYourGuide publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Carts API, Categories API, and 5 more. Tagged areas include Company, Travel, Tourism, Tours and Activities, and Marketplace.
 
 
-  GetYourGuide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 7
+  GetYourGuide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
+random_paper: 11
 score:
   band: developing
-  composite: 39.6
+  composite: 40.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -256,11 +260,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 52.2
+    contract_quality: 54.3
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 13.2
@@ -281,7 +285,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -312,5 +316,5 @@ tags:
 - Affiliates
 - Partner API
 - E-Commerce
-website: https://code.getyourguide.com/
+website: https://getyourguide.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -495,14 +495,14 @@ plans:
 - name: Front Plans Pricing
   plan_count: 10
   slug: front-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Front Rate Limits
   slug: front-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 41.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 33.0
@@ -510,11 +510,11 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 51.3
     contract_governance: 0.0
-    contract_quality: 55.7
+    contract_quality: 55.9
     developer_ergonomics: 29.8
     discoverability: 51.9
     operational_transparency: 30.3
@@ -527,7 +527,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

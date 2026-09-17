@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: FIX protocol connectivity to Bloomberg Tradebook for electronic order routing, execution reporting, and position updates across equities, futures, options, and FX markets. Supports FIX 4.2, 4.4, and 5
@@ -47,6 +47,10 @@ apis:
   slug: tradebook-fx
 artifact_total: 17
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -101,19 +105,19 @@ finops:
   slug: bloomberg-tradebook-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-tradebook.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Tradebook
 nav: Providers
 network: true
 overview: 'Bloomberg Tradebook publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tradebook, Electronic Trading, Equities, Futures, and Options.
 
 
-  Bloomberg Tradebook''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
+  Bloomberg Tradebook''s developer surface includes developer portal, documentation, support, and 6 more developer resources.'
 plans:
 - name: Bloomberg Tradebook Plans Pricing
   plan_count: 3
   slug: bloomberg-tradebook-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tradebook Rate Limits
@@ -144,7 +148,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -175,5 +179,5 @@ use_cases:
   name: FX Execution
 - description: Analyze execution quality and broker performance with TCA reporting.
   name: Execution Quality Measurement
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

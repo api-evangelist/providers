@@ -11,26 +11,66 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-09-15'
+  score: 38.5
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: Read-only JSON API for country calling code lookup, phone number formatting, analysis, batch normalization, comparison, dialing guidance and capabilities. Includes a hosted Streamable HTTP MCP server,
-  name: Country Calling Codes API
-  slug: country-calling-codes-api
-artifact_total: 8
+- baseURL: https://www.countrycalling.codes
+  baseurl_source: declared
+  description: The Calling codes API from Country Calling Codes — 2 operation(s) for calling codes.
+  name: Country Calling Codes Calling codes API
+  slug: country-calling-codes-calling-codes-api
+- baseURL: https://www.countrycalling.codes
+  baseurl_source: declared
+  description: The Phone formatting API from Country Calling Codes — 1 operation(s) for phone formatting.
+  name: Country Calling Codes Phone formatting API
+  slug: country-calling-codes-phone-formatting-api
+- baseURL: https://www.countrycalling.codes
+  baseurl_source: declared
+  description: The Phone workflows API from Country Calling Codes — 9 operation(s) for phone workflows.
+  name: Country Calling Codes Phone workflows API
+  slug: country-calling-codes-phone-workflows-api
+- baseURL: https://www.countrycalling.codes
+  baseurl_source: declared
+  description: The Service API from Country Calling Codes — 1 operation(s) for service.
+  name: Country Calling Codes Service API
+  slug: country-calling-codes-service-api
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://www.countrycalling.codes/api/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/country-calling-codes/refs/heads/main/mcp/country-calling-codes-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/country-calling-codes-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://www.countrycalling.codes/skill.json
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/country-calling-codes/refs/heads/main/skills/country-calling-codes-skill.json
+  title: ''
+  type: AgentSkill
+  url: skills/country-calling-codes-skill.json
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/country-calling-codes/refs/heads/main/overlays/country-calling-codes-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/country-calling-codes-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -83,22 +123,22 @@ modified: '2026-09-09'
 name: Country Calling Codes
 nav: Providers
 network: true
-overview: 'Country Calling Codes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Reference, Telecom, Phone, and OpenAPI.
+overview: 'Country Calling Codes publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Calling codes API, Phone formatting API, Phone workflows API, and 1 more. Tagged areas include Data, Reference, Telecom, Phone, and OpenAPI.
 
 
-  Country Calling Codes'' developer surface includes support and 7 more developer resources.'
+  Country Calling Codes'' developer surface includes support and 12 more developer resources.'
 plans:
 - name: Country Calling Codes Plans Pricing
   plan_count: 1
   slug: country-calling-codes-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Country Calling Codes Rate Limits
   slug: country-calling-codes-rate-limits
 score:
-  band: thin
-  composite: 33.1
+  band: developing
+  composite: 39.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 45.0
@@ -106,17 +146,22 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.3
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 26.7
+    contract_quality: 51.7
     developer_ergonomics: 40.5
     discoverability: 75.9
     operational_transparency: 26.3
   previous_composite: 33.1
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
     mcp: first-party
     skills: first-party
   regulatory:
@@ -126,8 +171,8 @@ score:
     regime_id: telecommunications
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

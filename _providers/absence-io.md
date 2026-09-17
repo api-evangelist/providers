@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -310,7 +310,7 @@ modified: '2026-05-19'
 name: Absence.io
 nav: Providers
 network: true
-overview: 'Absence.io publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Allowances API, Departments API, and 4 more. Tagged areas include Absences, Employees, Leave Management, and HR.
+overview: 'Absence.io publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Allowances API, Departments API, and 4 more. Tagged areas include Absences, Employees, Leave Management, and Human Resources.
 
 
   The Absence.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -321,7 +321,7 @@ plans:
 - name: Absence Io Plans Pricing
   plan_count: 3
   slug: absence-io-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Absence Io Rate Limits
@@ -375,7 +375,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -395,7 +395,7 @@ tags:
 - Absences
 - Employees
 - Leave Management
-- HR
+- Human Resources
 use_cases:
 - description: Integrate absence data with ERP systems to automatically reflect employee availability and costs.
   name: ERP Integration

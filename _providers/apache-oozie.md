@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -81,6 +81,10 @@ collections:
   name: Apache Oozie REST Admin Versions API
   slug: open-apache-oozie-versions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apache.org
 - group: build
   title: ''
   type: CodeOfConduct
@@ -274,7 +278,7 @@ jsonld:
   property_count: 27
   slug: apache-oozie-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apache Oozie
 nav: Providers
 network: true
@@ -284,12 +288,12 @@ overview: 'Apache Oozie publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The Apache Oozie catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Oozie''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 12 more developer resources.'
+  Apache Oozie''s developer surface includes documentation, getting-started guide, release notes, support, Stack Overflow tag, and 13 more developer resources.'
 plans:
 - name: Apache Oozie Plans Pricing
   plan_count: 3
   slug: apache-oozie-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Apache Oozie Rate Limits
@@ -343,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -381,4 +385,5 @@ use_cases:
   name: Data Migration and Archival
 - description: Coordinate workflows that span multiple Hadoop clusters using Distcp and remote actions.
   name: Multi-Cluster Coordination
+website: https://apache.org
 ---

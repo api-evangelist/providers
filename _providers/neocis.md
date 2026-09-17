@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ name: Neocis
 nav: Providers
 network: true
 overview: Neocis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Dental, Robotics, and Surgery.
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 6.2
@@ -85,7 +85,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

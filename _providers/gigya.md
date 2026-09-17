@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Gigya / SAP Customer Data Cloud REST API for accounts, identity, social login, consent, and profile data. Endpoints are data-center scoped under {service}.{dc}.gigya.com (e.g. accounts.us1.gigya.com) '
@@ -117,7 +117,7 @@ overview: 'Gigya publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gigya''s developer surface includes documentation, authentication, and 12 more developer resources.'
-random_paper: 4
+random_paper: 1
 score:
   band: emerging
   composite: 16.9
@@ -140,7 +140,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -167,7 +167,7 @@ tags:
 - Authentication
 - CIAM
 - Customer Identity
-- Single Sign-On
+- SSO
 - Consent Management
 - SAP
 website: https://developers.gigya.com/

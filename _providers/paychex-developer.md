@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -298,7 +298,7 @@ modified: '2026-05-25'
 name: Paychex
 nav: Providers
 network: true
-overview: 'Paychex publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Time Entries API, and Workers API. Tagged areas include Benefits, HCM, HR, Paychex Flex, and Payroll.
+overview: 'Paychex publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Time Entries API, and Workers API. Tagged areas include Benefits, HCM, Human Resources, Paychex Flex, and Payroll.
 
 
   The Paychex catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -309,7 +309,7 @@ plans:
 - name: Paychex Developer Plans Pricing
   plan_count: 2
   slug: paychex-developer-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Paychex Developer Rate Limits
@@ -373,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -392,7 +392,7 @@ slug: paychex-developer
 tags:
 - Benefits
 - HCM
-- HR
+- Human Resources
 - Paychex Flex
 - Payroll
 - Time and Attendance

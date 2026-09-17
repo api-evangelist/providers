@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.digitalocean.com/v2
@@ -66,11 +66,6 @@ apis:
   description: Block storage actions are commands that can be given to a DigitalOcean Block Storage Volume. An example would be detaching or attaching a volume from a Droplet. These requests are made on the `/v2/vol
   name: Digital Ocean Block Storage Actions API
   slug: digital-ocean-block-storage-actions-api
-- baseURL: https://api.digitalocean.com/v2
-  baseurl_source: declared
-  description: '[DigitalOcean Block Storage Volumes](https://docs.digitalocean.com/products/volumes/) provide expanded storage capacity for your Droplets and can be moved between Droplets within a specific region. Vo'
-  name: Digital Ocean Block Storage API
-  slug: digital-ocean-block-storage-api
 - baseURL: https://api.digitalocean.com/v2
   baseurl_source: declared
   description: Content hosted in DigitalOcean's object storage solution, [Spaces](https://docs.digitalocean.com/products/spaces/), can optionally be served by our globally distributed Content Delivery Network (CDN).
@@ -219,8 +214,13 @@ apis:
 - baseURL: https://api.digitalocean.com/v2
   baseurl_source: declared
   description: '[VPCs (virtual private clouds)](https://docs.digitalocean.com/products/networking/vpc/) allow you to create virtual networks containing resources that can communicate with each other in full isolation'
-  name: Digital Ocean VPCs API
+  name: Digital Ocean VP Cs API
   slug: digital-ocean-vpcs-api
+- baseURL: https://api.digitalocean.com/v2
+  baseurl_source: declared
+  description: DigitalOcean Block Storage Volumes provide expanded storage capacity for your Droplets and can be moved between Droplets within a specific region.
+  name: Digital Ocean Blockstorage API
+  slug: digital-ocean-blockstorage-api
 artifact_total: 80
 collections:
 - collection_type: open
@@ -457,28 +457,28 @@ plans:
 - name: Digital Ocean Plans Pricing
   plan_count: 3
   slug: digital-ocean-plans-pricing
-random_paper: 16
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Digital Ocean Rate Limits
   slug: digital-ocean-rate-limits
 score:
   band: thin
-  composite: 36.7
+  composite: 38.3
   coverage:
     artifact_dirs: 10
-    catalog_earned: 28.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 87.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 53.9
     contract_governance: 0.0
     contract_quality: 61.5
     developer_ergonomics: 16.7
-    discoverability: 42.6
+    discoverability: 61.1
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -497,7 +497,7 @@ score:
       total: 37
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

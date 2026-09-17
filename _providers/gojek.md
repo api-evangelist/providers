@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The GoBiz Partner Integration API is Gojek's merchant-side REST API. It covers outlet information and outlet linking, GoFood catalog sync and out-of-stock updates, order acceptance / rejection / food-
@@ -187,7 +187,7 @@ plans:
 - name: Gojek Plans Pricing
   plan_count: 0
   slug: gojek-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Gojek Rate Limits
@@ -233,7 +233,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

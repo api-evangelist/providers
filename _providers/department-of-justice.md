@@ -33,17 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
-api_count: 6
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: The DOJ News API exposes press releases and blog entries from the Office of Public Affairs as a JSON web service. The api_v1 reference documents four resources — list and detail views for press_releas
   name: DOJ News API
   slug: doj-news-api
-- baseURL: https://api.foia.gov/api
-  baseurl_source: declared
-  description: The National FOIA Portal publishes a JSON:API web service on api.foia.gov covering agency components, the agency taxonomy, annual and quarterly FOIA report data, and Chief FOIA Officers Council meetin
-  name: National FOIA Portal API
-  slug: foia-annual-report-api
 - description: The Bureau of Justice Statistics NCVS API provides REST access to the National Crime Victimization Survey datasets. Endpoints expose Personal Victimization, Personal Population, Household Victimizatio
   name: BJS National Crime Victimization Survey (NCVS) API
   slug: bjs-ncvs-api
@@ -56,8 +51,53 @@ apis:
 - description: DOJ publishes datasets through the Open Government program and the Department's Data Inventory. Datasets are also surfaced on Data.gov under the doj-gov organization and are accessible via the CKAN-co
   name: DOJ Open Data Catalog
   slug: doj-open-data-catalog
-artifact_total: 13
+- baseURL: https://www.justice.gov/api/v1
+  baseurl_source: declared
+  description: The Agency Component API from Department of Justice — 3 operation(s) for agency component.
+  name: Department of Justice Agency Component API
+  slug: department-of-justice-agency-component-api
+- baseURL: https://www.justice.gov/api/v1
+  baseurl_source: declared
+  description: The Agency Taxonomy API from Department of Justice — 2 operation(s) for agency taxonomy.
+  name: Department of Justice Agency Taxonomy API
+  slug: department-of-justice-agency-taxonomy-api
+- baseURL: https://www.justice.gov/api/v1
+  baseurl_source: declared
+  description: The Annual FOIA Report Data API from Department of Justice — 3 operation(s) for annual foia report data.
+  name: Department of Justice Annual FOIA Report Data API
+  slug: department-of-justice-annual-foia-report-data-api
+- baseURL: https://www.justice.gov/api/v1
+  baseurl_source: declared
+  description: The CFO Committee API from Department of Justice — 4 operation(s) for cfo committee.
+  name: Department of Justice CFO Committee API
+  slug: department-of-justice-cfo-committee-api
+- baseURL: https://www.justice.gov/api/v1
+  baseurl_source: declared
+  description: The CFO Council API from Department of Justice — 2 operation(s) for cfo council.
+  name: Department of Justice CFO Council API
+  slug: department-of-justice-cfo-council-api
+- baseURL: https://www.justice.gov/api/v1
+  baseurl_source: declared
+  description: The CFO Meeting API from Department of Justice — 5 operation(s) for cfo meeting.
+  name: Department of Justice CFO Meeting API
+  slug: department-of-justice-cfo-meeting-api
+- baseURL: https://www.justice.gov/api/v1
+  baseurl_source: declared
+  description: The CFO Page API from Department of Justice — 3 operation(s) for cfo page.
+  name: Department of Justice CFO Page API
+  slug: department-of-justice-cfo-page-api
+- baseURL: https://www.justice.gov/api/v1
+  baseurl_source: declared
+  description: The Quarterly FOIA Report Data API from Department of Justice — 2 operation(s) for quarterly foia report data.
+  name: Department of Justice Quarterly FOIA Report Data API
+  slug: department-of-justice-quarterly-foia-report-data-api
+artifact_total: 20
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/overlays/department-of-justice-foia-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/department-of-justice-foia-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/authentication/department-of-justice-authentication.yml
   title: ''
@@ -251,39 +291,39 @@ modified: '2026-09-06'
 name: Department of Justice
 nav: Providers
 network: true
-overview: 'Department of Justice publishes 1 API on the [APIs.io](https://apis.io/) network: National FOIA Portal API. Tagged areas include Bureau of Justice Statistics, Crime, Federal-Government, FOIA, and Justice.
+overview: 'Department of Justice publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agency Component API, Agency Taxonomy API, Annual FOIA Report Data API, and 5 more. Tagged areas include Bureau of Justice Statistics, Crime, Federal-Government, FOIA, and Justice.
 
 
   The Department of Justice catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Department of Justice''s developer surface includes authentication, engineering blog, documentation, API reference, support, and 34 more developer resources.'
+  Department of Justice''s developer surface includes authentication, engineering blog, documentation, API reference, support, and 35 more developer resources.'
 plans:
 - name: Department Of Justice Plans Pricing
   plan_count: 0
   slug: department-of-justice-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Department Of Justice Rate Limits
   slug: department-of-justice-rate-limits
 score:
   band: developing
-  composite: 51.5
+  composite: 51.1
   coverage:
     artifact_dirs: 22
-    catalog_earned: 65.0
+    catalog_earned: 62.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 50.0
+    catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 42.1
     contract_governance: 33.3
-    contract_quality: 53.7
+    contract_quality: 54.1
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 34.2
   previous_composite: 51.5
   provenance:
@@ -292,7 +332,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -302,7 +342,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

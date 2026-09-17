@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 524
   human_in_the_loop: 28
@@ -61,19 +61,9 @@ apis:
   slug: delinea-activations-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
-  description: View and maintain Active Directory
-  name: Delinea ActiveDirectory API
-  slug: delinea-activedirectory-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
   description: AdvancedConfigSettingsController
   name: Delinea AdvancedConfigSettings API
   slug: delinea-advancedconfigsettings-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
-  description: API Token Generation
-  name: Delinea ApiToken API
-  slug: delinea-apitoken-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
   description: View and maintain app clients
@@ -96,19 +86,9 @@ apis:
   slug: delinea-appstate-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
-  description: View Bulk Operations
-  name: Delinea BulkOperations API
-  slug: delinea-bulkoperations-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
   description: Create Bulk Secret Operations
   name: Delinea BulkSecretOperations API
   slug: delinea-bulksecretoperations-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
-  description: Create Bulk User Operations
-  name: Delinea BulkUserOperations API
-  slug: delinea-bulkuseroperations-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
   description: Export and Import Bundles
@@ -166,16 +146,6 @@ apis:
   slug: delinea-diagnosticsv2-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
-  description: View and maintain Directory Services integrations
-  name: Delinea DirectoryServices API
-  slug: delinea-directoryservices-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
-  description: Disaster Recovery
-  name: Delinea DisasterRecovery API
-  slug: delinea-disasterrecovery-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
   description: DiscoveryController
   name: Delinea Discovery API
   slug: delinea-discovery-api
@@ -226,24 +196,9 @@ apis:
   slug: delinea-eventpipelinetrigger-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
-  description: EventSubscriptionsController
-  name: Delinea EventSubscriptions API
-  slug: delinea-eventsubscriptions-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
   description: Extended Fields provider
   name: Delinea ExtendedFields API
   slug: delinea-extendedfields-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
-  description: FeatureFlagController
-  name: Delinea FeatureFlag API
-  slug: delinea-featureflag-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
-  description: View and maintain secret folder permissions
-  name: Delinea FolderPermissions API
-  slug: delinea-folderpermissions-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
   description: View and maintain secret folders
@@ -254,11 +209,6 @@ apis:
   description: View and maintain user security groups
   name: Delinea Groups API
   slug: delinea-groups-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
-  description: HealthCheckController
-  name: Delinea HealthCheck API
-  slug: delinea-healthcheck-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
   description: Secret Server HSM Configuration
@@ -289,11 +239,6 @@ apis:
   description: JumpboxRouteController
   name: Delinea JumpboxRoute API
   slug: delinea-jumpboxroute-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
-  description: View and configure Key Management settings
-  name: Delinea KeyManagement API
-  slug: delinea-keymanagement-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
   description: Manage Launcher Agents and Launcher Agent Collections for Advanced Session Recording
@@ -369,11 +314,6 @@ apis:
   description: View User Role Audits
   name: Delinea RoleAudit API
   slug: delinea-roleaudit-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
-  description: RolePermissionsController
-  name: Delinea RolePermissions API
-  slug: delinea-rolepermissions-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
   description: View and maintain User Roles
@@ -521,11 +461,6 @@ apis:
   slug: delinea-teams-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
-  description: TicketSystemsController
-  name: Delinea TicketSystems API
-  slug: delinea-ticketsystems-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
   description: View and maintain users
   name: Delinea Users API
   slug: delinea-users-api
@@ -536,19 +471,84 @@ apis:
   slug: delinea-version-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
-  description: View and maintain Workflow Instances
-  name: Delinea WorkflowInstances API
-  slug: delinea-workflowinstances-api
-- baseURL: https://your-secret-server-instance/api/v1
-  baseurl_source: declared
   description: View and maintain Workflow Template Steps
   name: Delinea WorkflowStepTemplates API
   slug: delinea-workflowsteptemplates-api
 - baseURL: https://your-secret-server-instance/api/v1
   baseurl_source: declared
+  description: View and maintain Active Directory
+  name: Delinea Active Directory API
+  slug: delinea-active-directory-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: API Token Generation
+  name: Delinea API Token API
+  slug: delinea-api-token-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View Bulk Operations
+  name: Delinea Bulk Operations API
+  slug: delinea-bulk-operations-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Create Bulk User Operations
+  name: Delinea Bulk User Operations API
+  slug: delinea-bulk-user-operations-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Directory Services integrations
+  name: Delinea Directory Services API
+  slug: delinea-directory-services-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: Disaster Recovery
+  name: Delinea Disaster Recovery API
+  slug: delinea-disaster-recovery-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: EventSubscriptionsController
+  name: Delinea Event Subscriptions API
+  slug: delinea-event-subscriptions-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: FeatureFlagController
+  name: Delinea Feature Flag API
+  slug: delinea-feature-flag-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain secret folder permissions
+  name: Delinea Folder Permissions API
+  slug: delinea-folder-permissions-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: HealthCheckController
+  name: Delinea Health Check API
+  slug: delinea-health-check-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and configure Key Management settings
+  name: Delinea Key Management API
+  slug: delinea-key-management-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: RolePermissionsController
+  name: Delinea Role Permissions API
+  slug: delinea-role-permissions-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: TicketSystemsController
+  name: Delinea Ticket Systems API
+  slug: delinea-ticket-systems-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
+  description: View and maintain Workflow Instances
+  name: Delinea Workflow Instances API
+  slug: delinea-workflow-instances-api
+- baseURL: https://your-secret-server-instance/api/v1
+  baseurl_source: declared
   description: View and maintain Workflow Templates
-  name: Delinea WorkflowTemplates API
-  slug: delinea-workflowtemplates-api
+  name: Delinea Workflow Templates API
+  slug: delinea-workflow-templates-api
 artifact_total: 241
 collections:
 - collection_type: open
@@ -1036,7 +1036,7 @@ modified: '2026-06-13'
 name: Delinea
 nav: Providers
 network: true
-overview: 'Delinea publishes 99 APIs on the [APIs.io](https://apis.io/) network, including Activations API, ActiveDirectory API, AdvancedConfigSettings API, and 96 more. Tagged areas include Privileged Access Management, PAM, Secrets Management, Identity Security, and DevOps.
+overview: 'Delinea publishes 99 APIs on the [APIs.io](https://apis.io/) network, including Activations API, AdvancedConfigSettings API, AppClients API, and 96 more. Tagged areas include Privileged Access Management, PAM, Secrets Management, Identity Security, and DevOps.
 
 
   The Delinea catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -1047,7 +1047,7 @@ plans:
 - name: Delinea Plans Pricing
   plan_count: 4
   slug: delinea-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Delinea Rate Limits
@@ -1065,21 +1065,21 @@ rules:
   slug: delinea-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.0
+  composite: 48.8
   coverage:
     artifact_dirs: 15
-    catalog_earned: 72.3
+    catalog_earned: 62.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 42.8
+    catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 57.9
     contract_governance: 9.8
-    contract_quality: 64.0
+    contract_quality: 62.7
     developer_ergonomics: 38.1
-    discoverability: 63.0
+    discoverability: 44.4
     operational_transparency: 52.6
   previous_composite: 51.0
   provenance:
@@ -1090,7 +1090,7 @@ score:
       marker_coverage: 0.0
       total: 99
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

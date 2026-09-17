@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -88,7 +88,7 @@ overview: 'Oriient is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Oriient''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 6
+random_paper: 14
 score:
   band: emerging
   composite: 11.0
@@ -114,7 +114,7 @@ score:
     - middle-east
   previous_composite: 11.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

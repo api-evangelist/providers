@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -194,6 +194,10 @@ collections:
   name: 'AWS Health APIs and Notifications #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.DescribeAffectedAccountsForOrganization #X Amz Target=AWSHealth 20160804.EnableHealthServiceAccessForOrganization API'
   slug: open-amazon-health-dashboard-x-amz-target-awshealth-20160804-enablehealthserviceaccessfororganization-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1026,7 +1030,7 @@ jsonld:
   property_count: 57
   slug: amazon-health-dashboard-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Health Dashboard
 nav: Providers
 network: true
@@ -1036,12 +1040,12 @@ overview: 'Amazon Health Dashboard publishes 13 APIs on the [APIs.io](https://ap
   The Amazon Health Dashboard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Health Dashboard''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 11 more developer resources.'
+  Amazon Health Dashboard''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
 plans:
 - name: Amazon Health Dashboard Plans Pricing
   plan_count: 3
   slug: amazon-health-dashboard-plans-pricing
-random_paper: 13
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Health Dashboard Rate Limits
@@ -1101,7 +1105,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1134,5 +1138,5 @@ use_cases:
   name: Change Management
 - description: Maintain records of AWS service events for compliance and audit purposes.
   name: Compliance Reporting
-website: https://health.aws.amazon.com/health/home
+website: https://amazon.com
 ---

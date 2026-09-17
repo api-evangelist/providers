@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -389,7 +389,7 @@ modified: '2026-06-12'
 name: Dub
 nav: Providers
 network: true
-overview: 'Dub publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Bounties API, Commissions API, and 12 more. Tagged areas include Link Management, URL Shortener, Analytics, Conversion Tracking, and Affiliate Programs.
+overview: 'Dub publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Bounties API, Commissions API, and 12 more. Tagged areas include Link Management, URL Shorteners, Analytics, Conversion Tracking, and Affiliate Programs.
 
 
   The Dub catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -400,7 +400,7 @@ plans:
 - name: Dub Plans Pricing
   plan_count: 5
   slug: dub-plans-pricing
-random_paper: 0
+random_paper: 7
 rate_limits:
 - limit_count: 8
   name: Dub Rate Limits
@@ -443,7 +443,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -469,7 +469,7 @@ security:
 slug: dub
 tags:
 - Link Management
-- URL Shortener
+- URL Shorteners
 - Analytics
 - Conversion Tracking
 - Affiliate Programs

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,11 +60,6 @@ apis:
   slug: urbanfox-metrics-api
 - baseURL: https://api.demo-retail.urbanfox.io
   baseurl_source: declared
-  description: OAuth token generation for machine-to-machine authentication.
-  name: UrbanFox OAuth API
-  slug: urbanfox-oauth-api
-- baseURL: https://api.demo-retail.urbanfox.io
-  baseurl_source: declared
   description: Tenant integration snippet retrieval.
   name: UrbanFox Snippet API
   slug: urbanfox-snippet-api
@@ -73,6 +68,11 @@ apis:
   description: Tenant details and tenant authentication credentials.
   name: UrbanFox Tenants API
   slug: urbanfox-tenants-api
+- baseURL: https://api.demo-retail.urbanfox.io
+  baseurl_source: declared
+  description: OAuth token generation for machine-to-machine authentication.
+  name: UrbanFox O Auth API
+  slug: urbanfox-oauth-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -220,7 +220,7 @@ overview: 'UrbanFox publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   UrbanFox''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 8
+random_paper: 11
 scopes:
 - name: Urbanfox Scopes
   scope_count: 13
@@ -262,7 +262,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

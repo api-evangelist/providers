@@ -34,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://broker.pinot.celpxu.cp.s7e.startree.cloud
   baseurl_source: declared
   description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
-  name: StarTree (Cortexdata) Query API API
+  name: StarTree (Cortexdata) Query API
   slug: startree-cortexdata-query-api-api
 artifact_total: 7
 collections:
@@ -176,15 +176,15 @@ mcp_servers:
 - description: Open-source Model Context Protocol server for Apache Pinot / StarTree Cloud, maintained in the StarTree (startreedata) GitHub org. Lets Claude and other MCP-compatible clients query a Pinot cluster ov
   name: StarTree (Cortexdata) MCP Server
   slug: startree-cortexdata-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: StarTree (Cortexdata)
 nav: Providers
 network: true
-overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.io/) network: Query API API. Tagged areas include Company, AI Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
+overview: 'StarTree (Cortexdata) publishes 1 API on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include Company, AI Infrastructure, Real-Time Analytics, Apache Pinot, and OLAP.
 
 
   StarTree (Cortexdata)''s developer surface includes authentication, changelog, documentation, API reference, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 16
+random_paper: 10
 score:
   band: developing
   composite: 45.2
@@ -214,7 +214,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

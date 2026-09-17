@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -261,11 +261,6 @@ apis:
   slug: the-things-network-managedgatewaywifiprofileconfigurationservice-api
 - baseURL: https://eu1.cloud.thethings.network/api/v3
   baseurl_source: declared
-  description: The NotificationService API from The Things Network / The Things Stack — 1 operation(s) for notificationservice.
-  name: The Things Network / The Things Stack NotificationService API
-  slug: the-things-network-notificationservice-api
-- baseURL: https://eu1.cloud.thethings.network/api/v3
-  baseurl_source: declared
   description: The Ns API from The Things Network / The Things Stack — 4 operation(s) for ns.
   name: The Things Network / The Things Stack Ns API
   slug: the-things-network-ns-api
@@ -296,11 +291,6 @@ apis:
   slug: the-things-network-oauthauthorizationregistry-api
 - baseURL: https://eu1.cloud.thethings.network/api/v3
   baseurl_source: declared
-  description: The OrganizationAccess API from The Things Network / The Things Stack — 7 operation(s) for organizationaccess.
-  name: The Things Network / The Things Stack OrganizationAccess API
-  slug: the-things-network-organizationaccess-api
-- baseURL: https://eu1.cloud.thethings.network/api/v3
-  baseurl_source: declared
   description: The OrganizationRegistry API from The Things Network / The Things Stack — 7 operation(s) for organizationregistry.
   name: The Things Network / The Things Stack OrganizationRegistry API
   slug: the-things-network-organizationregistry-api
@@ -309,11 +299,6 @@ apis:
   description: The Pba API from The Things Network / The Things Stack — 12 operation(s) for pba.
   name: The Things Network / The Things Stack Pba API
   slug: the-things-network-pba-api
-- baseURL: https://eu1.cloud.thethings.network/api/v3
-  baseurl_source: declared
-  description: The UserAccess API from The Things Network / The Things Stack — 5 operation(s) for useraccess.
-  name: The Things Network / The Things Stack UserAccess API
-  slug: the-things-network-useraccess-api
 - baseURL: https://eu1.cloud.thethings.network/api/v3
   baseurl_source: declared
   description: The UserBookmarkRegistry API from The Things Network / The Things Stack — 8 operation(s) for userbookmarkregistry.
@@ -334,6 +319,21 @@ apis:
   description: The UserSessionRegistry API from The Things Network / The Things Stack — 2 operation(s) for usersessionregistry.
   name: The Things Network / The Things Stack UserSessionRegistry API
   slug: the-things-network-usersessionregistry-api
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The Notification Service API from The Things Network / The Things Stack — 1 operation(s) for notification service.
+  name: The Things Network / The Things Stack Notification Service API
+  slug: the-things-network-notification-service-api
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The Organization Access API from The Things Network / The Things Stack — 7 operation(s) for organization access.
+  name: The Things Network / The Things Stack Organization Access API
+  slug: the-things-network-organization-access-api
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The User Access API from The Things Network / The Things Stack — 5 operation(s) for user access.
+  name: The Things Network / The Things Stack User Access API
+  slug: the-things-network-user-access-api
 artifact_total: 213
 asyncapis:
 - description: ''
@@ -1253,7 +1253,7 @@ plans:
 - name: The Things Network Plans Pricing
   plan_count: 6
   slug: the-things-network-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 7
   name: The Things Network Rate Limits
@@ -1287,7 +1287,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 78.1
+  composite: 78.3
   coverage:
     artifact_dirs: 34
     catalog_earned: 89.5
@@ -1295,11 +1295,11 @@ score:
     catalog_gap: 25.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 84.2
     contract_governance: 47.0
-    contract_quality: 72.4
+    contract_quality: 73.2
     developer_ergonomics: 81.5
     discoverability: 72.2
     operational_transparency: 92.1
@@ -1315,7 +1315,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

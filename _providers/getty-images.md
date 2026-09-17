@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.gettyimages.com
@@ -48,11 +48,6 @@ apis:
   slug: getty-images-ai-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
-  description: The Ai Generator API from Getty Images — 2 operation(s) for ai generator.
-  name: Getty Images Ai Generator API
-  slug: getty-images-ai-generator-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
   description: The Artists API from Getty Images — 2 operation(s) for artists.
   name: Getty Images Artists API
   slug: getty-images-artists-api
@@ -63,34 +58,9 @@ apis:
   slug: getty-images-assets-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
-  description: The Background API from Getty Images — 2 operation(s) for background.
-  name: Getty Images Background API
-  slug: getty-images-background-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Batches API from Getty Images — 1 operation(s) for batches.
-  name: Getty Images Batches API
-  slug: getty-images-batches-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
   description: The Boards API from Getty Images — 6 operation(s) for boards.
   name: Getty Images Boards API
   slug: getty-images-boards-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Change API from Getty Images — 2 operation(s) for change.
-  name: Getty Images Change API
-  slug: getty-images-change-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Changes API from Getty Images — 3 operation(s) for changes.
-  name: Getty Images Changes API
-  slug: getty-images-changes-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Channels API from Getty Images — 1 operation(s) for channels.
-  name: Getty Images Channels API
-  slug: getty-images-channels-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
   description: The Collections API from Getty Images — 1 operation(s) for collections.
@@ -98,34 +68,9 @@ apis:
   slug: getty-images-collections-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
-  description: The Color API from Getty Images — 1 operation(s) for color.
-  name: Getty Images Color API
-  slug: getty-images-color-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Comments API from Getty Images — 2 operation(s) for comments.
-  name: Getty Images Comments API
-  slug: getty-images-comments-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Compositions API from Getty Images — 1 operation(s) for compositions.
-  name: Getty Images Compositions API
-  slug: getty-images-compositions-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
   description: The Countries API from Getty Images — 1 operation(s) for countries.
   name: Getty Images Countries API
   slug: getty-images-countries-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Creative API from Getty Images — 4 operation(s) for creative.
-  name: Getty Images Creative API
-  slug: getty-images-creative-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Current API from Getty Images — 1 operation(s) for current.
-  name: Getty Images Current API
-  slug: getty-images-current-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
   description: The Customers API from Getty Images — 1 operation(s) for customers.
@@ -138,79 +83,14 @@ apis:
   slug: getty-images-downloads-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
-  description: The Editorial API from Getty Images — 2 operation(s) for editorial.
-  name: Getty Images Editorial API
-  slug: getty-images-editorial-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
   description: The Events API from Getty Images — 4 operation(s) for events.
   name: Getty Images Events API
   slug: getty-images-events-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
-  description: The Extend API from Getty Images — 1 operation(s) for extend.
-  name: Getty Images Extend API
-  slug: getty-images-extend-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Files API from Getty Images — 3 operation(s) for files.
-  name: Getty Images Files API
-  slug: getty-images-files-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Generation API from Getty Images — 6 operation(s) for generation.
-  name: Getty Images Generation API
-  slug: getty-images-generation-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Generations API from Getty Images — 12 operation(s) for generations.
-  name: Getty Images Generations API
-  slug: getty-images-generations-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The History API from Getty Images — 2 operation(s) for history.
-  name: Getty Images History API
-  slug: getty-images-history-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Image API from Getty Images — 15 operation(s) for image.
-  name: Getty Images Image API
-  slug: getty-images-image-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
   description: The Images API from Getty Images — 15 operation(s) for images.
-  name: Getty Images Images API
+  name: Getty Images API
   slug: getty-images-images-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Index API from Getty Images — 3 operation(s) for index.
-  name: Getty Images Index API
-  slug: getty-images-index-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Influence API from Getty Images — 2 operation(s) for influence.
-  name: Getty Images Influence API
-  slug: getty-images-influence-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Licensing API from Getty Images — 1 operation(s) for licensing.
-  name: Getty Images Licensing API
-  slug: getty-images-licensing-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Management API from Getty Images — 1 operation(s) for management.
-  name: Getty Images Management API
-  slug: getty-images-management-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Name API from Getty Images — 1 operation(s) for name.
-  name: Getty Images Name API
-  slug: getty-images-name-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Objects API from Getty Images — 1 operation(s) for objects.
-  name: Getty Images Objects API
-  slug: getty-images-objects-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
   description: The Orders API from Getty Images — 1 operation(s) for orders.
@@ -228,69 +108,14 @@ apis:
   slug: getty-images-purchased-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
-  description: The Refine API from Getty Images — 1 operation(s) for refine.
-  name: Getty Images Refine API
-  slug: getty-images-refine-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Registrations API from Getty Images — 2 operation(s) for registrations.
-  name: Getty Images Registrations API
-  slug: getty-images-registrations-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Removal API from Getty Images — 2 operation(s) for removal.
-  name: Getty Images Removal API
-  slug: getty-images-removal-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Request API from Getty Images — 5 operation(s) for request.
-  name: Getty Images Request API
-  slug: getty-images-request-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
   description: The Search API from Getty Images — 11 operation(s) for search.
   name: Getty Images Search API
   slug: getty-images-search-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
-  description: The Send API from Getty Images — 1 operation(s) for send.
-  name: Getty Images Send API
-  slug: getty-images-send-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Series API from Getty Images — 2 operation(s) for series.
-  name: Getty Images Series API
-  slug: getty-images-series-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Set API from Getty Images — 1 operation(s) for set.
-  name: Getty Images Set API
-  slug: getty-images-set-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Sets API from Getty Images — 2 operation(s) for sets.
-  name: Getty Images Sets API
-  slug: getty-images-sets-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Similar API from Getty Images — 2 operation(s) for similar.
-  name: Getty Images Similar API
-  slug: getty-images-similar-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Uploads API from Getty Images — 1 operation(s) for uploads.
-  name: Getty Images Uploads API
-  slug: getty-images-uploads-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
   description: The Usage API from Getty Images — 1 operation(s) for usage.
   name: Getty Images Usage API
   slug: getty-images-usage-api
-- baseURL: https://api.gettyimages.com
-  baseurl_source: declared
-  description: The Variations API from Getty Images — 1 operation(s) for variations.
-  name: Getty Images Variations API
-  slug: getty-images-variations-api
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
   description: The Videos API from Getty Images — 11 operation(s) for videos.
@@ -300,7 +125,7 @@ apis:
   name: Getty Images Downloads API
   slug: getty-downloads-api
 - description: The Images API from Getty Images — 2 operation(s) for images.
-  name: Getty Images Images API
+  name: Getty Images API
   slug: getty-images-api
 - description: The Reference API from Getty Images — 1 operation(s) for reference.
   name: Getty Images Reference API
@@ -317,7 +142,37 @@ apis:
 - description: Getty Images serves a SCIM 2.0 (RFC 7643 / RFC 7644) user-provisioning surface at https://scim.gettyimages.com/v2 for enterprise customers who manage Getty Images users from their own identity provide
   name: Getty Images SCIM API
   slug: getty-images-scim-api
-artifact_total: 120
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The AffiliateSearch API from Getty Images — 2 operation(s) for affiliatesearch.
+  name: Getty Images Affiliate Search API
+  slug: getty-images-affiliatesearch-api
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The AiGenerator API from Getty Images — 19 operation(s) for aigenerator.
+  name: Getty Images AI Generator API
+  slug: getty-images-aigenerator-api
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The AssetChanges API from Getty Images — 3 operation(s) for assetchanges.
+  name: Getty Images Asset Changes API
+  slug: getty-images-assetchanges-api
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The AssetLicensing API from Getty Images — 1 operation(s) for assetlicensing.
+  name: Getty Images Asset Licensing API
+  slug: getty-images-assetlicensing-api
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The ImageMatch API from Getty Images — 1 operation(s) for imagematch.
+  name: Getty Images Image Match API
+  slug: getty-images-imagematch-api
+- baseURL: https://api.gettyimages.com
+  baseurl_source: declared
+  description: The Purchases API from Getty Images — 1 operation(s) for purchases.
+  name: Getty Images Purchases API
+  slug: getty-images-purchases-api
+artifact_total: 91
 collections:
 - collection_type: open
   name: API Collection
@@ -479,6 +334,181 @@ collections:
   name: Getty Images Videos API
   slug: open-getty-images-videos-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-ai-generator-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-ai-generator-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-background-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-background-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-batches-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-batches-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-change-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-change-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-changes-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-changes-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-channels-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-channels-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-color-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-color-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-comments-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-comments-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-compositions-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-compositions-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-creative-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-creative-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-current-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-current-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-editorial-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-editorial-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-extend-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-extend-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-files-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-files-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-generation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-generation-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-generations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-generations-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-history-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-history-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-image-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-image-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-index-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-index-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-influence-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-influence-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-licensing-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-licensing-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-name-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-name-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-objects-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-objects-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-refine-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-refine-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-registrations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-registrations-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-removal-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-removal-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-request-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-request-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-send-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-send-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-series-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-series-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-set-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-set-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-sets-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-sets-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-similar-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-similar-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-uploads-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-uploads-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/overlays/getty-images-variations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/getty-images-variations-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/scopes/getty-images-scopes.yml
   title: ''
@@ -671,19 +701,19 @@ mcp_servers:
 - description: ''
   name: Getty Images MCP Server
   slug: getty-images-mcp-server
-modified: '2026-09-12'
+modified: '2026-09-16'
 name: Getty Images
 nav: Providers
 network: true
-overview: 'Getty Images publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Ai API, Ai Generator API, and 49 more. Tagged areas include Image, Media, Photos, Videos, and Stock Photography.
+overview: 'Getty Images publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Ai API, Artists API, and 20 more. Tagged areas include Image, Media, Photos, Video, and Stock Photography.
 
 
-  Getty Images'' developer surface includes authentication, documentation, API reference, developer console, getting-started guide, changelog, release notes, and 32 more developer resources.'
+  Getty Images'' developer surface includes authentication, documentation, API reference, developer console, getting-started guide, changelog, release notes, and 67 more developer resources.'
 plans:
 - name: Getty Images Plans Pricing
   plan_count: 0
   slug: getty-images-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Getty Images Rate Limits
@@ -695,34 +725,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.1
+  composite: 48.9
   coverage:
     artifact_dirs: 23
-    catalog_earned: 55.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 49.7
+    contract_quality: 46.9
     developer_ergonomics: 58.9
-    discoverability: 70.4
+    discoverability: 75.9
     operational_transparency: 71.1
   previous_composite: 49.1
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 52
+      total: 23
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -746,7 +776,7 @@ tags:
 - Image
 - Media
 - Photos
-- Videos
+- Video
 - Stock Photography
 - Artificial Intelligence
 - Search

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Single-endpoint healthcare interoperability API exposing proprietary LK* operations (appointments, patient bridge/search, documents, charges, patient balance, master lists) that bi-directionally conne
@@ -148,7 +148,7 @@ overview: 'ELLKAY publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   ELLKAY''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, sandbox, and 13 more developer resources.'
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Ellkay Rate Limits
@@ -182,7 +182,7 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

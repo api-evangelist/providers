@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 47.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -45,7 +45,9 @@ agentic_access:
   summary_line: 45 operations · 26 acting
 api_count: 4
 apis:
-- description: Real-time management of end-user profile information with webhook events for new chats and profile updates.
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: Real-time management of end-user profile information with webhook events for new chats and profile updates.
   name: Ada End Users API
   slug: ada-end-users-api
 - baseURL: https://example.ada.support
@@ -59,11 +61,6 @@ apis:
 - description: Model Context Protocol server exposing Ada's management surface to AI assistants — metrics, conversation transcripts, knowledge and coaching search, entity discovery, test cases and runs, change sets,
   name: Ada MCP Server
   slug: ada-mcp-server
-- baseURL: https://example.ada.support
-  baseurl_source: declared
-  description: The auditLog API from Ada — 1 operation(s) for auditlog.
-  name: Ada Audit Log API
-  slug: ada-auditlog-api
 - baseURL: https://example.ada.support
   baseurl_source: declared
   description: The channels API from Ada — 2 operation(s) for channels.
@@ -84,11 +81,6 @@ apis:
   description: The deleteChatterData API from Ada — 1 operation(s) for deletechatterdata.
   name: Ada Delete Chatter Data API
   slug: ada-deletechatterdata-api
-- baseURL: https://example.ada.support
-  baseurl_source: declared
-  description: The endUsers API from Ada — 2 operation(s) for endusers.
-  name: Ada End Users API
-  slug: ada-endusers-api
 - baseURL: https://example.ada.support
   baseurl_source: declared
   description: The getDeletionJob API from Ada — 1 operation(s) for getdeletionjob.
@@ -139,14 +131,6 @@ apis:
   description: The Variables API from Ada — 2 operation(s) for variables.
   name: Ada Variables API
   slug: ada-variables-api
-- baseURL: https://example.ada.support
-  baseurl_source: declared
-  description: The webhookManagement API from Ada — 5 operation(s) for webhookmanagement.
-  name: Ada Webhook Management API
-  slug: ada-webhookmanagement-api
-- description: The Ada REST API is the unified v2 interface to the Ada AI customer service platform. It covers knowledge sources and articles, end users, conversations, integrations (Actions), data export, data comp
-  name: Ada REST API
-  slug: ada-rest-api
 - baseURL: https://{handle}.ada.support/api/v2
   baseurl_source: declared
   description: Manage knowledge sources, articles, and tags that Ada's AI Agent uses to ground answers to customer questions.
@@ -157,7 +141,9 @@ apis:
   description: Read and manage conversations handled by the Ada AI Agent across all supported channels.
   name: Ada Conversations API
   slug: ada-conversations-api
-- description: Create, look up, and update end users (customers) along with their metadata for use by Ada's AI Agent and Actions.
+- baseURL: https://{handle}.ada.support/api/v2
+  baseurl_source: declared
+  description: Create, look up, and update end users (customers) along with their metadata for use by Ada's AI Agent and Actions.
   name: Ada End Users API
   slug: ada-end-users-api
 - description: Configure and invoke Actions, the integration layer that lets the Ada AI Agent call external systems and APIs during a conversation.
@@ -172,7 +158,22 @@ apis:
 - description: Configure and consume webhooks that notify external systems of conversation lifecycle events and other platform activity.
   name: Ada Webhooks API
   slug: ada-webhooks-api
-artifact_total: 59
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The Audit Log API from Ada — 1 operation(s) for audit log.
+  name: Ada Audit Log API
+  slug: ada-audit-log-api
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The End Users API from Ada — 2 operation(s) for end users.
+  name: Ada End Users API
+  slug: ada-end-users-api
+- baseURL: https://example.ada.support
+  baseurl_source: declared
+  description: The Webhook Management API from Ada — 5 operation(s) for webhook management.
+  name: Ada Webhook Management API
+  slug: ada-webhook-management-api
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Ada Webhooks
@@ -537,7 +538,7 @@ modified: 2026-08-14
 name: Ada
 nav: Providers
 network: true
-overview: 'Ada publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Audit Log API, Channels API, and 18 more. Tagged areas include Artificial Intelligence, Customer Service, Chatbots, Automation, and Conversational AI.
+overview: 'Ada publishes 22 APIs on the [APIs.io](https://apis.io/) network, including End Users API, Conversations API, Channels API, and 19 more. Tagged areas include Artificial Intelligence, Customer Service, Chatbots, Automation, and Conversational AI.
 
 
   The Ada catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -548,7 +549,7 @@ plans:
 - name: Ada Plans Pricing
   plan_count: 1
   slug: ada-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Ada Rate Limits
@@ -571,7 +572,7 @@ scopes:
   summary_line: 8 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 83.2
+  composite: 83.1
   coverage:
     artifact_dirs: 33
     catalog_earned: 70.3
@@ -579,11 +580,11 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 82.9
     contract_governance: 43.2
-    contract_quality: 71.6
+    contract_quality: 71.2
     developer_ergonomics: 85.7
     discoverability: 92.6
     operational_transparency: 60.5
@@ -599,7 +600,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

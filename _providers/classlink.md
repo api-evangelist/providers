@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: OneRoster v1.1-compliant REST API for exchanging K-12 roster data—users, orgs, courses, classes, enrollments, academicSessions, demographics, and resources—between ClassLink Roster Server and third-pa
@@ -142,7 +142,7 @@ modified: '2026-06-13'
 name: ClassLink
 nav: Providers
 network: true
-overview: 'ClassLink publishes 1 API on the [APIs.io](https://apis.io/) network: OneRoster API. Tagged areas include EdTech, Education, Identity, Single Sign-On, and SSO.
+overview: 'ClassLink publishes 1 API on the [APIs.io](https://apis.io/) network: OneRoster API. Tagged areas include EdTech, Education, Identity, SSO, and OneRoster.
 
 
   The ClassLink catalog on APIs.io includes 1 JSON-LD context.
@@ -153,7 +153,7 @@ plans:
 - name: Classlink Plans Pricing
   plan_count: 3
   slug: classlink-plans-pricing
-random_paper: 19
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Classlink Rate Limits
@@ -184,7 +184,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -205,7 +205,6 @@ tags:
 - EdTech
 - Education
 - Identity
-- Single Sign-On
 - SSO
 - OneRoster
 - Rostering

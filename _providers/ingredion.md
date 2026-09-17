@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -152,7 +152,7 @@ press:
 - date: '2026-05-25'
   title: Amyris And Ingredion Partner To Manufacture And Market ...
   url: https://www.prnewswire.com/news-releases/amyris-and-ingredion-partner-to-manufacture-and-market-sugar-reduction-and-fermentation-based-food-ingredients-301282441.html
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Ingredion Rate Limits
@@ -189,7 +189,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

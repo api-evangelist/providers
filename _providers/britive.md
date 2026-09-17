@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://demo.britive-app.com/api/v1
@@ -829,7 +829,7 @@ mcp_servers:
 - description: 'Britive ships a first-party Model Context Protocol server that lets AI agents and MCP clients (Claude Desktop, VS Code Copilot) drive the Britive platform: request just-in-time privileged access, chec'
   name: Britive MCP Server
   slug: britive-mcp-server
-modified: '2026-08-08'
+modified: '2026-09-16'
 name: Britive
 nav: Providers
 network: true
@@ -840,7 +840,7 @@ overview: 'Britive publishes 78 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Britive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 25 more developer resources.'
-random_paper: 1
+random_paper: 9
 scopes:
 - name: Britive Scopes
   scope_count: 0
@@ -875,7 +875,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -902,5 +902,6 @@ tags:
 - Secrets Management
 - Agentic AI
 - Cybersecurity
+- Identity Federation
 website: https://www.britive.com/
 ---

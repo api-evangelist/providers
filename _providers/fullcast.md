@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Fullcast''s remote Model Context Protocol server, exposing go-to-market planning, territory and team hierarchy, coverage, targets, reporting, commissions and document operations to external AI clients '
@@ -56,14 +56,14 @@ apis:
   slug: fullcast-mcp-info-api
 - baseURL: https://assistant.fullcast.io
   baseurl_source: declared
-  description: The oauth API from Fullcast — 5 operation(s) for oauth.
-  name: Fullcast OAUTH API
-  slug: fullcast-oauth-api
-- baseURL: https://assistant.fullcast.io
-  baseurl_source: declared
   description: The .well Known API from Fullcast — 2 operation(s) for .well known.
   name: Fullcast .well Known API
   slug: fullcast-well-known-api
+- baseURL: https://app.fullcast.io/mcp
+  baseurl_source: declared
+  description: The oauth API from Fullcast — 5 operation(s) for oauth.
+  name: Fullcast OAUTH API
+  slug: fullcast-oauth-api
 artifact_total: 14
 asyncapis:
 - description: ''
@@ -142,10 +142,10 @@ common:
   type: ToolCrosswalk
   url: mcp/fullcast-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-assistant-openapi-original.json
+  href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/_original/fullcast-assistant-openapi-original.json
   title: ''
   type: OpenAPI
-  url: openapi/fullcast-assistant-openapi-original.json
+  url: openapi/_original/fullcast-assistant-openapi-original.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/well-known/fullcast-well-known.yml
   title: ''
@@ -244,11 +244,11 @@ mcp_servers:
 - description: ''
   name: Fullcast MCP Server
   slug: fullcast-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Fullcast
 nav: Providers
 network: true
-overview: 'Fullcast publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Copilot API, Mcp Info API, OAUTH API, and 1 more. Tagged areas include Company, Enterprise, Revenue Operations, Sales Planning, and Territory Management.
+overview: 'Fullcast publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Copilot API, Mcp Info API, .well Known API, and 1 more. Tagged areas include Company, Enterprise, Revenue Operations, Sales Planning, and Territory Management.
 
 
   The Fullcast catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -259,7 +259,7 @@ plans:
 - name: Fullcast Plans Pricing
   plan_count: 3
   slug: fullcast-plans-pricing
-random_paper: 1
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Fullcast Rate Limits
@@ -298,7 +298,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

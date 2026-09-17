@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -457,7 +457,7 @@ modified: '2026-06-02'
 name: Booking Holdings
 nav: Providers
 network: true
-overview: 'Booking Holdings publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accommodations API, Attachments API, Cars API, and 6 more. Tagged areas include Accommodations, Airlines, Car Rentals, Hospitality, and Hotels.
+overview: 'Booking Holdings publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accommodations API, Attachments API, Cars API, and 6 more. Tagged areas include Accommodation, Airlines, Car Rentals, Hospitality, and Hotels.
 
 
   The Booking Holdings catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -468,7 +468,7 @@ plans:
 - name: Booking Holdings Plans Pricing
   plan_count: 2
   slug: booking-holdings-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Booking Holdings Rate Limits
@@ -532,7 +532,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -549,7 +549,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: booking-holdings
 tags:
-- Accommodations
+- Accommodation
 - Airlines
 - Car Rentals
 - Hospitality

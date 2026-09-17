@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -28,13 +28,13 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.8
-  scored_at: '2026-09-15'
-api_count: 13
+  score: 42.1
+  scored_at: '2026-09-16'
+api_count: 9
 apis:
 - description: Next-generation Bread Pay REST API for managing buyers, merchant accounts, personalized payment options and pricing, and the merchant transaction lifecycle (authorize, capture, cancel, refund). Secure
   name: BreadPay Platform API
@@ -45,60 +45,195 @@ apis:
 - description: SplitPay is a short-term financing alternative for retail merchants, enabling customers to split purchases into manageable payments and helping retailers attract price-sensitive customers while increa
   name: Bread SplitPay API
   slug: split-pay-api
-- baseURL: https://api.platform.breadpayments.com
-  baseurl_source: declared
-  description: Checkout supports the buyer's shopping journey — starting and decisioning a financing application, returning personalized payment agreement options, completing checkout in-store or online, and issuing
-  name: BreadPay Checkout API
-  slug: bread-pay-api
 - description: SplitPay is Bread's short-term, card-funded split-payment product for retail merchants. It is delivered through the same BreadPay Platform contracts and the same hosted SDK as installment financing ra
   name: Bread SplitPay
   slug: split-pay-api
-- baseURL: https://api.platform.breadpayments.com
+- baseURL: https://api.platform.breadpayments.com/api
   baseurl_source: declared
-  description: The merchant-facing transaction lifecycle — authorize, settle, refund, cancel, rescind, extend expiration — plus carts, fulfillment detail, and settlement/funding/targeting reporting exports. Transact
-  name: BreadPay Merchant Operations API
-  slug: merchant-operations-api
-- baseURL: https://api.platform.breadpayments.com
+  description: The Application API from Bread Financial — 5 operation(s) for application.
+  name: Bread Financial Application API
+  slug: bread-financial-application-api
+- baseURL: https://api.platform.breadpayments.com/api
   baseurl_source: declared
-  description: The buyer's post-purchase journey — payment agreements, balances and ledger breakdowns, autopay enrollment, scheduled and ad-hoc payments, refunds, fee and principal waivers, product disputes, deferre
-  name: BreadPay Servicing API
-  slug: servicing-api
-- baseURL: https://api.platform.breadpayments.com
+  description: The As Low As API from Bread Financial — 2 operation(s) for as low as.
+  name: Bread Financial As Low As API
+  slug: bread-financial-as-low-as-api
+- baseURL: https://api.platform.breadpayments.com/api
   baseurl_source: declared
-  description: Registration, lookup and management of buyers and their contacts, credit-report data, status and authorized third parties, with fraud-management capabilities around allow-listing and self cure. Handle
-  name: BreadPay Buyer Management API
-  slug: buyer-management-api
-- baseURL: https://api.platform.breadpayments.com
+  description: Provides authentication support for BreadPayments platform
+  name: Bread Financial Auth API
+  slug: bread-financial-auth-api
+- baseURL: https://api.platform.breadpayments.com/api
   baseurl_source: declared
-  description: Stored payment methods and their access and transient tokens, ACH account unblocking, network token retrieval, payment execution and audit, refunds and payment reversal. 21 operations.
-  name: BreadPay Payments API
-  slug: payments-api
-- baseURL: https://api.platform.breadpayments.com
+  description: The Buyer API from Bread Financial — 9 operation(s) for buyer.
+  name: Bread Financial Buyer API
+  slug: bread-financial-buyer-api
+- baseURL: https://api.platform.breadpayments.com/api
   baseurl_source: declared
-  description: Platform foundations — service-account authorization (HTTP Basic client credentials exchanged for a bearer JWT), buyer login and token refresh, org-token exchange, one-time verification codes, org cod
-  name: BreadPay Foundations API
-  slug: foundations-api
-- baseURL: https://api.platform.breadpayments.com
+  description: The Cart API from Bread Financial — 4 operation(s) for cart.
+  name: Bread Financial Cart API
+  slug: bread-financial-cart-api
+- baseURL: https://api.platform.breadpayments.com/api
   baseurl_source: declared
-  description: Self-service webhook subscription management — create, update and delete subscriptions with NONE, BASIC or static-bearer subscriber auth, list delivered events by status, replay failed events by id, f
-  name: BreadPay Webhook API
-  slug: webhook-api
-- baseURL: https://api.platform.breadpayments.com
+  description: The Client Management API from Bread Financial — 1 operation(s) for client management.
+  name: Bread Financial Client Management API
+  slug: bread-financial-client-management-api
+- baseURL: https://api.platform.breadpayments.com/api
   baseurl_source: declared
-  description: Management of public programs, payment products and the policies that determine system behaviour and execution. Only one operation is published (getPaymentProductEnrollmentByMerchantID) against 47 com
-  name: BreadPay Program API
-  slug: program-api
-- baseURL: https://api.platform.breadpayments.com
+  description: The Disclosure Templates API from Bread Financial — 1 operation(s) for disclosure templates.
+  name: Bread Financial Disclosure Templates API
+  slug: bread-financial-disclosure-templates-api
+- baseURL: https://api.platform.breadpayments.com/api
   baseurl_source: declared
-  description: Streamlines the upgrade / trade-in flow for the Apple program — upgrade elections, trade-in payments, and linking an upgradeable loan to a payment agreement. 6 operations.
-  name: BreadPay Tradein API
-  slug: tradein-api
-artifact_total: 16
+  description: The Disclosures API from Bread Financial — 6 operation(s) for disclosures.
+  name: Bread Financial Disclosures API
+  slug: bread-financial-disclosures-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: Event status retrieval and replay mechanism
+  name: Bread Financial Events API
+  slug: bread-financial-events-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Financing Dynamic Disclosure API from Bread Financial — 1 operation(s) for financing dynamic disclosure.
+  name: Bread Financial Financing Dynamic Disclosure API
+  slug: bread-financial-financing-dynamic-disclosure-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Financing Payment Plan API from Bread Financial — 1 operation(s) for financing payment plan.
+  name: Bread Financial Financing Payment Plan API
+  slug: bread-financial-financing-payment-plan-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Payment Agreement API from Bread Financial — 1 operation(s) for payment agreement.
+  name: Bread Financial Payment Agreement API
+  slug: bread-financial-payment-agreement-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Payment Methods API from Bread Financial — 8 operation(s) for payment methods.
+  name: Bread Financial Payment Methods API
+  slug: bread-financial-payment-methods-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The PaymentProductEnrollments API from Bread Financial — 1 operation(s) for paymentproductenrollments.
+  name: Bread Financial Payment Product Enrollments API
+  slug: bread-financial-paymentproductenrollments-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Payments API from Bread Financial — 8 operation(s) for payments.
+  name: Bread Financial Payments API
+  slug: bread-financial-payments-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Refunds API from Bread Financial — 3 operation(s) for refunds.
+  name: Bread Financial Refunds API
+  slug: bread-financial-refunds-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Reporting API from Bread Financial — 7 operation(s) for reporting.
+  name: Bread Financial Reporting API
+  slug: bread-financial-reporting-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Service Account API from Bread Financial — 1 operation(s) for service account.
+  name: Bread Financial Service Account API
+  slug: bread-financial-service-account-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Servicing API from Bread Financial — 48 operation(s) for servicing.
+  name: Bread Financial Servicing API
+  slug: bread-financial-servicing-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: Managing webhook subscriptions
+  name: Bread Financial Subscription Management API
+  slug: bread-financial-subscription-management-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Tradein API from Bread Financial — 5 operation(s) for tradein.
+  name: Bread Financial Tradein API
+  slug: bread-financial-tradein-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Transaction API from Bread Financial — 15 operation(s) for transaction.
+  name: Bread Financial Transaction API
+  slug: bread-financial-transaction-api
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: The Virtual Card API from Bread Financial — 12 operation(s) for virtual card.
+  name: Bread Financial Virtual Card API
+  slug: bread-financial-virtual-card-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Bread Financial Webhooks
   slug: bread-financial-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/overlays/bread-checkout-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bread-checkout-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/overlays/bread-merchant-operations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bread-merchant-operations-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/skills/bread-authorize-and-settle-a-transaction.md
+  title: ''
+  type: AgentSkill
+  url: skills/bread-authorize-and-settle-a-transaction.md
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/skills/bread-refund-or-cancel-a-transaction.md
+  title: ''
+  type: AgentSkill
+  url: skills/bread-refund-or-cancel-a-transaction.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/overlays/bread-servicing-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bread-servicing-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/skills/bread-take-a-payment-on-a-payment-agreement.md
+  title: ''
+  type: AgentSkill
+  url: skills/bread-take-a-payment-on-a-payment-agreement.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/overlays/bread-buyer-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bread-buyer-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/overlays/bread-payments-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bread-payments-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/overlays/bread-foundations-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bread-foundations-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/overlays/bread-webhook-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bread-webhook-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/skills/bread-subscribe-to-webhooks.md
+  title: ''
+  type: AgentSkill
+  url: skills/bread-subscribe-to-webhooks.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/overlays/bread-program-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bread-program-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/overlays/bread-tradein-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bread-tradein-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -213,17 +348,17 @@ modified: '2026-07-18'
 name: Bread Financial
 nav: Providers
 network: true
-overview: 'Bread Financial publishes 9 APIs on the [APIs.io](https://apis.io/) network, including BreadPay Checkout API, BreadPay Merchant Operations API, BreadPay Servicing API, and 6 more. Tagged areas include Company, Fintech, Payments, Buy Now Pay Later, and Lending.
+overview: 'Bread Financial publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Application API, As Low As API, Auth API, and 20 more. Tagged areas include Company, Fintech, Payments, Buy Now Pay Later, and Lending.
 
 
   The Bread Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bread Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 17 more developer resources.'
-random_paper: 18
+  Bread Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 30 more developer resources.'
+random_paper: 14
 score:
   band: developing
-  composite: 41.0
+  composite: 40.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 35.0
@@ -231,11 +366,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 65.9
+    contract_quality: 65.5
     developer_ergonomics: 57.1
     discoverability: 72.2
     operational_transparency: 10.5
@@ -246,7 +381,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 23
     mcp: derived
   regulatory:
     applies: true
@@ -255,7 +390,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

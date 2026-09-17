@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: near-conformant
     agent_skills: true
@@ -11,30 +12,96 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 38.6
-  scored_at: '2026-09-15'
+  score: 44.0
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: REST API converting public URLs to Markdown, text, HTML, JSON, ARIA trees, screenshots, PDFs, link-preview metadata and normalized structured data, plus batch reads, robots-aware crawls with a 202 job
-  name: Pagesnap API
-  slug: pagesnap-api
-artifact_total: 10
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Keys, usage, referrals
+  name: Pagesnap Account API
+  slug: pagesnap-account-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: MCP and A2A protocols
+  name: Pagesnap Agents API
+  slug: pagesnap-agents-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Checkout and receipts
+  name: Pagesnap Billing API
+  slug: pagesnap-billing-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Reading and rendering
+  name: Pagesnap Content API
+  slug: pagesnap-content-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Site crawls and asynchronous jobs
+  name: Pagesnap Crawl API
+  slug: pagesnap-crawl-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Two-page comparison
+  name: Pagesnap Diff API
+  slug: pagesnap-diff-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Machine-readable discovery resources
+  name: Pagesnap Discovery API
+  slug: pagesnap-discovery-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Persisted change monitoring
+  name: Pagesnap Monitors API
+  slug: pagesnap-monitors-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Public health and stats
+  name: Pagesnap Status API
+  slug: pagesnap-status-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Capability-based support tickets
+  name: Pagesnap Support API
+  slug: pagesnap-support-api
+- baseURL: https://pagesnap.142-93-197-141.sslip.io
+  baseurl_source: declared
+  description: Keyless USDC per-call payment
+  name: Pagesnap X402 API
+  slug: pagesnap-x402-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Pagesnap Webhooks
   slug: pagesnap-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://pagesnap.142-93-197-141.sslip.io/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/pagesnap/refs/heads/main/mcp/pagesnap-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/pagesnap-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/pagesnap/refs/heads/main/overlays/pagesnap-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/pagesnap-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -202,25 +269,25 @@ modified: '2026-09-02'
 name: Pagesnap
 nav: Providers
 network: true
-overview: 'Pagesnap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Web Scraping, web-to-markdown, screenshot-api, and PDF Generation.
+overview: 'Pagesnap publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agents API, Billing API, and 8 more. Tagged areas include Developer Tools, Web Scraping, web-to-markdown, screenshot-api, and PDF Generation.
 
 
   The Pagesnap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pagesnap''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 26 more developer resources.'
+  Pagesnap''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 29 more developer resources.'
 plans:
 - name: Pagesnap Plans Pricing
   plan_count: 5
   slug: pagesnap-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 11
   name: Pagesnap Rate Limits
   slug: pagesnap-rate-limits
 score:
   band: strong
-  composite: 57.1
+  composite: 61.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 61.0
@@ -228,17 +295,22 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
     access_clarity: 61.8
     contract_governance: 18.2
-    contract_quality: 41.6
+    contract_quality: 58.8
     developer_ergonomics: 58.3
     discoverability: 87.0
     operational_transparency: 76.3
   previous_composite: 57.1
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
     mcp: first-party
     skills: unknown
   regulatory:
@@ -248,7 +320,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 created: '2024-01-15'
@@ -43,8 +43,8 @@ modified: '2026-05-02'
 name: SUMIF
 nav: Providers
 network: true
-overview: SUMIF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Analytics, Spreadsheet, and Calculation.
-random_paper: 2
+overview: SUMIF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Analytics, Spreadsheets, and Calculation.
+random_paper: 20
 score:
   band: minimal
   composite: 4.1
@@ -73,7 +73,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -82,6 +82,6 @@ score:
 slug: sumif
 tags:
 - Data Analytics
-- Spreadsheet
+- Spreadsheets
 - Calculation
 ---

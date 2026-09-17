@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ modified: '2026-07-03'
 name: Hospitable
 nav: Providers
 network: true
-overview: 'Hospitable publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Listings API, Messages API, and 4 more. Tagged areas include Vacation Rental, Short-Term Rental, Property Management, Airbnb, and Hospitality.
+overview: 'Hospitable publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Listings API, Messages API, and 4 more. Tagged areas include Vacation Rentals, Short-Term Rental, Property Management, Airbnb, and Hospitality.
 
 
   Hospitable''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -176,7 +176,7 @@ plans:
 - name: Hospitable Plans Pricing
   plan_count: 5
   slug: hospitable-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Hospitable Rate Limits
@@ -209,7 +209,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -226,7 +226,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: hospitable
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Short-Term Rental
 - Property Management
 - Airbnb

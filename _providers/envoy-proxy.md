@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -69,7 +69,7 @@ apis:
   description: TLS certificate information endpoints.
   name: Envoy Proxy Certificates API
   slug: envoy-proxy-certificates-api
-- baseURL: http://localhost:9901
+- baseURL: http://localhost:18000
   baseurl_source: spec
   description: Cluster Discovery Service (CDS) endpoints for dynamically discovering upstream clusters.
   name: Envoy Proxy Cluster Discovery API
@@ -89,7 +89,7 @@ apis:
   description: Debugging and traffic inspection endpoints.
   name: Envoy Proxy Debugging API
   slug: envoy-proxy-debugging-api
-- baseURL: http://localhost:9901
+- baseURL: http://localhost:18000
   baseurl_source: spec
   description: Endpoint Discovery Service (EDS) endpoints for dynamically discovering cluster endpoints.
   name: Envoy Proxy Endpoint Discovery API
@@ -104,7 +104,7 @@ apis:
   description: Health check management endpoints.
   name: Envoy Proxy Health API
   slug: envoy-proxy-health-api
-- baseURL: http://localhost:9901
+- baseURL: http://localhost:18000
   baseurl_source: spec
   description: Listener Discovery Service (LDS) endpoints for dynamically discovering listeners.
   name: Envoy Proxy Listener Discovery API
@@ -124,7 +124,7 @@ apis:
   description: CPU and heap profiling endpoints.
   name: Envoy Proxy Profiling API
   slug: envoy-proxy-profiling-api
-- baseURL: http://localhost:9901
+- baseURL: http://localhost:18000
   baseurl_source: spec
   description: Route Discovery Service (RDS) endpoints for dynamically discovering route configurations.
   name: Envoy Proxy Route Discovery API
@@ -134,12 +134,12 @@ apis:
   description: Runtime configuration management endpoints.
   name: Envoy Proxy Runtime API
   slug: envoy-proxy-runtime-api
-- baseURL: http://localhost:9901
+- baseURL: http://localhost:18000
   baseurl_source: spec
   description: Runtime Discovery Service (RTDS) endpoints for dynamically discovering runtime configuration layers.
   name: Envoy Proxy Runtime Discovery API
   slug: envoy-proxy-runtime-discovery-api
-- baseURL: http://localhost:9901
+- baseURL: http://localhost:18000
   baseurl_source: spec
   description: Secret Discovery Service (SDS) endpoints for dynamically discovering TLS certificates and keys.
   name: Envoy Proxy Secret Discovery API
@@ -360,7 +360,7 @@ plans:
 - name: Envoy Proxy Plans Pricing
   plan_count: 1
   slug: envoy-proxy-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Envoy Proxy Rate Limits
@@ -406,7 +406,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

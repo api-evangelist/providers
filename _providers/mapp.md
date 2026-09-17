@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://{engage-host}/api/rest/v19
@@ -474,7 +474,7 @@ plans:
 - name: Mapp Plans Pricing
   plan_count: 3
   slug: mapp-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Mapp Rate Limits
@@ -498,7 +498,7 @@ score:
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 58.7
+    contract_quality: 58.4
     developer_ergonomics: 70.8
     discoverability: 81.5
     operational_transparency: 63.2
@@ -529,7 +529,7 @@ score:
     regime_id: telecommunications
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

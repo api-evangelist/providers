@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -64,19 +64,19 @@ apis:
   slug: rubrik-client-token-api
 - baseURL_template: https://{rsc_fqdn}/api
   baseurl_source: spec_template
-  description: The Graphql API from Rubrik — 1 operation(s) for graphql.
-  name: Rubrik Graphql API
-  slug: rubrik-graphql-api
-- baseURL_template: https://{rsc_fqdn}/api
-  baseurl_source: spec_template
-  description: The Oauth API from Rubrik — 1 operation(s) for oauth.
-  name: Rubrik Oauth API
-  slug: rubrik-oauth-api
-- baseURL_template: https://{rsc_fqdn}/api
-  baseurl_source: spec_template
   description: The Session API from Rubrik — 1 operation(s) for session.
   name: Rubrik Session API
   slug: rubrik-session-api
+- baseURL_template: https://{rsc_fqdn}/api
+  baseurl_source: spec_template
+  description: The Oauth API from Rubrik — 1 operation(s) for oauth.
+  name: Rubrik OAUTH API
+  slug: rubrik-oauth-api
+- baseURL_template: https://{rsc_fqdn}/api
+  baseurl_source: spec_template
+  description: The Graph QL API from Rubrik — 1 operation(s) for graph ql.
+  name: Rubrik Graph QL API
+  slug: rubrik-graph-ql-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -205,7 +205,7 @@ modified: '2026-05-23'
 name: Rubrik
 nav: Providers
 network: true
-overview: 'Rubrik publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Client Token API, Graphql API, Oauth API, and 1 more. Tagged areas include Backup, Cyber Recovery, Data Security, Data Security Posture Management, and GraphQL.
+overview: 'Rubrik publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Client Token API, Session API, OAUTH API, and 1 more. Tagged areas include Backup, Cyber Recovery, Data Security, Data Security Posture Management, and GraphQL.
 
 
   Rubrik''s developer surface includes authentication, documentation, support, engineering blog, and 18 more developer resources.'
@@ -213,7 +213,7 @@ plans:
 - name: Rubrik Plans Pricing
   plan_count: 1
   slug: rubrik-plans-pricing
-random_paper: 4
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Rubrik Rate Limits
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,23 +35,83 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://{app}.streamsec.io/openapi
-  baseurl_source: declared
-  description: REST API over the Stream Security CloudTwin. 34 operations across twelve resource groups - inventory, attack paths, config changes, threat detections, detection rules, posture security rules and viola
-  name: Stream Security API
-  slug: stream-security-api
 - description: Hosted remote MCP server that lets an agent query the Stream Security CloudTwin in natural language - resource metadata, configuration changes, misconfigurations, external exposures, excessive privile
   name: Stream Security MCP Server
   slug: stream-security-mcp-server
-artifact_total: 8
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Attack Paths API from Stream.Security — 3 operation(s) for attack paths.
+  name: Stream.Security Attack Paths API
+  slug: stream-security-attack-paths-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Canaries API from Stream.Security — 1 operation(s) for canaries.
+  name: Stream.Security Canaries API
+  slug: stream-security-canaries-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Config Changes API from Stream.Security — 2 operation(s) for config changes.
+  name: Stream.Security Config Changes API
+  slug: stream-security-config-changes-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Detection Rules API from Stream.Security — 2 operation(s) for detection rules.
+  name: Stream.Security Detection Rules API
+  slug: stream-security-detection-rules-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Integrations API from Stream.Security — 2 operation(s) for integrations.
+  name: Stream.Security Integrations API
+  slug: stream-security-integrations-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Inventory API from Stream.Security — 5 operation(s) for inventory.
+  name: Stream.Security Inventory API
+  slug: stream-security-inventory-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Network & Identity Logs API from Stream.Security — 3 operation(s) for network & identity logs.
+  name: Stream.Security Network & Identity Logs API
+  slug: stream-security-network-identity-logs-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Notifications API from Stream.Security — 2 operation(s) for notifications.
+  name: Stream.Security Notifications API
+  slug: stream-security-notifications-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Posture Security API from Stream.Security — 3 operation(s) for posture security.
+  name: Stream.Security Posture Security API
+  slug: stream-security-posture-security-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Threat Detection API from Stream.Security — 4 operation(s) for threat detection.
+  name: Stream.Security Threat Detection API
+  slug: stream-security-threat-detection-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Vulnerabilities API from Stream.Security — 3 operation(s) for vulnerabilities.
+  name: Stream.Security Vulnerabilities API
+  slug: stream-security-vulnerabilities-api
+- baseURL: https://{app}.streamsec.io/openapi
+  baseurl_source: declared
+  description: The Workspaces API from Stream.Security — 1 operation(s) for workspaces.
+  name: Stream.Security Workspaces API
+  slug: stream-security-workspaces-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Stream Security Notifications Webhooks
   slug: stream-security-notifications-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/overlays/stream-security-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stream-security-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/security/stream-security-domain-security.yml
   title: ''
@@ -153,25 +213,25 @@ modified: '2026-08-29'
 name: Stream.Security
 nav: Providers
 network: true
-overview: 'Stream.Security publishes 1 API on the [APIs.io](https://apis.io/) network: Stream Security API. Tagged areas include Company, Security, Cloud Security, Cloud Detection and Response, and CNAPP.
+overview: 'Stream.Security publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Attack Paths API, Canaries API, Config Changes API, and 9 more. Tagged areas include Company, Security, Cloud Security, Cloud Detection and Response, and CNAPP.
 
 
   The Stream.Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Stream.Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 13 more developer resources.'
+  Stream.Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 14 more developer resources.'
 plans:
 - name: Stream Security Plans Pricing
   plan_count: 0
   slug: stream-security-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Stream Security Rate Limits
   slug: stream-security-rate-limits
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 39.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -179,11 +239,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 67.1
+    contract_quality: 66.8
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 10.5
@@ -194,11 +254,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 1
+      total: 12
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

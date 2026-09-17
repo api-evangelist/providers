@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ modified: '2026-05-29'
 name: Genius
 nav: Providers
 network: true
-overview: 'Genius publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Albums API, Annotations API, and 6 more. Tagged areas include Music, Lyrics, Annotations, Crowdsourced, and Reference Data.
+overview: 'Genius publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Albums API, Annotations API, and 6 more. Tagged areas include Music, Lyrics, Annotation, Crowdsourced, and Reference Data.
 
 
   The Genius catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -275,7 +275,7 @@ plans:
 - name: Genius Plans Pricing
   plan_count: 1
   slug: genius-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Genius Rate Limits
@@ -334,7 +334,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -352,7 +352,7 @@ slug: genius
 tags:
 - Music
 - Lyrics
-- Annotations
+- Annotation
 - Crowdsourced
 - Reference Data
 - Public APIs

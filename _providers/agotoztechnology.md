@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A first-party API host AgotoZ operates on its own registrable domain at openapi.agotoz.com, named for an open API surface and serving a valid wildcard *.agotoz.com TLS certificate. It is not reachable
@@ -94,7 +94,7 @@ modified: '2026-09-12'
 name: AgotoZ Technology
 nav: Providers
 network: true
-overview: 'AgotoZ Technology publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SD-WAN, Network as a Service, Network Acceleration, Enterprise Networking, and Content Delivery Network.
+overview: 'AgotoZ Technology publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SD-WAN, Network as a Service, Network Acceleration, Enterprise Networking, and CDN.
 
 
   AgotoZ Technology''s developer surface includes engineering blog and 7 more developer resources.'
@@ -102,7 +102,7 @@ plans:
 - name: Agotoztechnology Plans Pricing
   plan_count: 0
   slug: agotoztechnology-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Agotoztechnology Rate Limits
@@ -140,7 +140,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +157,7 @@ tags:
 - Network as a Service
 - Network Acceleration
 - Enterprise Networking
-- Content Delivery Network
+- CDN
 - SASE
 - DDoS Protection
 - Cloud Connectivity

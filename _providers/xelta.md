@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Xelta's REST API — 74 operations across seven tags (Auth, Models, Site Scan / Brand DNA, Community, Upload, Asset History, Contact) described by an OpenAPI 3.0.0 document served live at https://api.xe
@@ -116,7 +116,7 @@ overview: 'Xelta - Create Images, Videos & More with Generative AI publishes 2 A
 
 
   Xelta - Create Images, Videos & More with Generative AI''s developer surface includes documentation, pricing, support, FAQ, engineering blog, YouTube channel, and 11 more developer resources.'
-random_paper: 17
+random_paper: 14
 score:
   band: emerging
   composite: 20.0
@@ -140,7 +140,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

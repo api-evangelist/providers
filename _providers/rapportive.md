@@ -34,7 +34,7 @@ name: Rapportive
 nav: Providers
 network: true
 overview: Rapportive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Contact Intelligence, Email, Gmail, and Sales Intelligence.
-random_paper: 8
+random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapportive/refs/heads/main/screenshots/rapportive-2026-09-02T152859.png
 security:
 - kind: domain-security

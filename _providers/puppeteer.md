@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Puppeteer is a Node.js library providing a high-level API to control headless Chrome or Chromium browsers for web scraping, testing, and automation.
@@ -70,7 +70,7 @@ modified: '2026-03-29'
 name: Puppeteer
 nav: Providers
 network: true
-overview: 'Puppeteer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, Headless Browsers, and Scraping.
+overview: 'Puppeteer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, Headless Browser, and Scraping.
 
 
   Puppeteer''s developer surface includes documentation and 3 more developer resources.'
@@ -78,7 +78,7 @@ plans:
 - name: Puppeteer Plans Pricing
   plan_count: 3
   slug: puppeteer-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Puppeteer Rate Limits
@@ -103,7 +103,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -118,7 +118,7 @@ security:
 slug: puppeteer
 tags:
 - Browser Automation
-- Headless Browsers
+- Headless Browser
 - Scraping
 website: https://pptr.dev/
 ---

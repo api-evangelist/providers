@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ overview: 'Own (OwnBackup) is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Own (OwnBackup)''s developer surface includes support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 11
+random_paper: 13
 score:
   band: emerging
   composite: 16.2
@@ -125,7 +125,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

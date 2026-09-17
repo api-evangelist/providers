@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1290
   human_in_the_loop: 26
@@ -674,11 +674,6 @@ apis:
   slug: atlassian-properties-api
 - baseURL: https://api.bitbucket.org/2.0
   baseurl_source: spec
-  description: The Pullrequests API from Atlassian — 23 operation(s) for pullrequests.
-  name: Atlassian Pullrequests API
-  slug: atlassian-pullrequests-api
-- baseURL: https://api.bitbucket.org/2.0
-  baseurl_source: spec
   description: The Pullrequests - Commit Statuses API from Atlassian — 1 operation(s) for pullrequests - commit statuses.
   name: Atlassian Pullrequests - Commit Statuses API
   slug: atlassian-pullrequests-commit-statuses-api
@@ -882,6 +877,11 @@ apis:
   description: The Workspaces - Webhooks API from Atlassian — 2 operation(s) for workspaces - webhooks.
   name: Atlassian Workspaces - Webhooks API
   slug: atlassian-workspaces-webhooks-api
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Pull Requests API from Atlassian — 23 operation(s) for pull requests.
+  name: Atlassian Pull Requests API
+  slug: atlassian-pull-requests-api
 arazzos:
 - description: Create a Jira issue, assign it to a user, then read it back to confirm the assignee.
   name: Atlassian Jira Create and Assign Issue
@@ -11025,7 +11025,7 @@ plans:
 - name: Atlassian Plans Pricing
   plan_count: 4
   slug: atlassian-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Atlassian Rate Limits
@@ -11084,7 +11084,7 @@ score:
       marker_coverage: 0.0
       total: 144
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

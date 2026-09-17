@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -347,7 +347,7 @@ apis:
 - baseURL: https://api.getbluejay.ai
   baseurl_source: declared
   description: The Bluejay API API from Bluejay — 0 operation(s) for bluejay api.
-  name: Bluejay Bluejay API
+  name: Bluejay API
   slug: bluejay-bluejay-api-api
 artifact_total: 127
 asyncapis:
@@ -685,7 +685,7 @@ mcp_servers:
 - description: ''
   name: Bluejay MCP Server
   slug: bluejay-mcp-server
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Bluejay
 nav: Providers
 network: true
@@ -696,7 +696,7 @@ overview: 'Bluejay publishes 61 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bluejay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
-random_paper: 13
+random_paper: 0
 score:
   band: developing
   composite: 48.3
@@ -727,7 +727,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

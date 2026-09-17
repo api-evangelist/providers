@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://courses.dartmouth.edu
-  baseurl_source: declared
-  description: 'The JSON backend of Dartmouth Class Search, the institution''s public timetable of class meetings. Keyless: an unauthenticated POST returned 1393 sections for term 202609 on 2026-08-30. Two routes — se'
-  name: Dartmouth Class Search API
-  slug: class-search
 - description: 'Dartmouth''s institutional API platform, serving resource APIs such as People (directory identity) and Nextgen class schedules. Live and institution-operated: every resource path on api.dartmouth.edu r'
   name: DartAPI
   slug: dartapi
@@ -59,6 +54,11 @@ apis:
 - description: Dartmouth's research-data repository, a Dataverse 6.11 deployment on Dartmouth's own host. The native Dataverse API answers unauthenticated — /api/info/version returns 200 with the running version — b
   name: Dartmouth Dataverse
   slug: dataverse
+- baseURL: https://courses.dartmouth.edu
+  baseurl_source: declared
+  description: Search and detail operations over the Dartmouth timetable of class meetings.
+  name: Dartmouth College Class Search API
+  slug: dartmouth-classsearch-api
 artifact_total: 16
 collections:
 - collection_type: open
@@ -224,7 +224,7 @@ modified: '2026-08-30'
 name: Dartmouth College
 nav: Providers
 network: true
-overview: 'Dartmouth College publishes 1 API on the [APIs.io](https://apis.io/) network: Dartmouth Class Search API. Tagged areas include University, Higher Education, Education, United States, and Ivy League.
+overview: 'Dartmouth College publishes 1 API on the [APIs.io](https://apis.io/) network: Class Search API. Tagged areas include University, Higher Education, Education, United States, and Ivy League.
 
 
   The Dartmouth College catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -235,7 +235,7 @@ plans:
 - name: Dartmouth Plans Pricing
   plan_count: 2
   slug: dartmouth-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Dartmouth Rate Limits
@@ -253,19 +253,19 @@ rules:
   slug: dartmouth-class-search-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 41.8
   coverage:
     artifact_dirs: 15
-    catalog_earned: 60.8
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.3
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 39.5
-    contract_governance: 11.4
-    contract_quality: 61.2
+    contract_governance: 7.6
+    contract_quality: 54.6
     developer_ergonomics: 45.2
     discoverability: 59.3
     operational_transparency: 26.3
@@ -291,7 +291,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

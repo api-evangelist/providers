@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: Customs Advisory Services
 nav: Providers
 network: true
-random_paper: 17
+random_paper: 3
 slug: customs-advisory-services
 tags:
 - Advisory Services
@@ -29,7 +29,7 @@ tags:
 - Customs Brokers
 - Customs Rulings
 - Duty Drawback
-- Export Controls
+- Export Control
 - Free Trade Agreements
 - Global Trade Management
 - HS Codes

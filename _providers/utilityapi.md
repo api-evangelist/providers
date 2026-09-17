@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -229,7 +229,7 @@ plans:
 - name: Utilityapi Plans Pricing
   plan_count: 3
   slug: utilityapi-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Utilityapi Rate Limits
@@ -289,7 +289,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

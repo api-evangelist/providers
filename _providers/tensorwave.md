@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://gpt-oss.cray-lm.com
@@ -226,7 +226,7 @@ overview: 'TensorWave publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   TensorWave''s developer surface includes documentation, getting-started guide, support, engineering blog, CLI, changelog, and 23 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: developing
   composite: 46.9
@@ -261,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -295,6 +295,6 @@ tags:
 - Inference
 - Model Training
 - High Performance Computing
-- Data Centers
+- Data-Center
 website: https://tensorwave.com/
 ---

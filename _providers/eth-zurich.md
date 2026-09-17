@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,157 +45,157 @@ agentic_access:
   summary_line: 78 operations
 api_count: 9
 apis:
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/research-collection/v1/
   baseurl_source: spec
   description: The bitstreams API from ETH Zurich – Swiss Federal Institute of Technology — 4 operation(s) for bitstreams.
   name: ETH Zurich – Swiss Federal Institute of Technology bitstreams API
   slug: eth-zurich-bitstreams-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/research-collection/v1/
   baseurl_source: spec
   description: The collections API from ETH Zurich – Swiss Federal Institute of Technology — 3 operation(s) for collections.
   name: ETH Zurich – Swiss Federal Institute of Technology collections API
   slug: eth-zurich-collections-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/research-collection/v1/
   baseurl_source: spec
   description: The communities API from ETH Zurich – Swiss Federal Institute of Technology — 5 operation(s) for communities.
   name: ETH Zurich – Swiss Federal Institute of Technology communities API
   slug: eth-zurich-communities-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/ethorama/v1/
   baseurl_source: spec
   description: The Content Item API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for content item.
   name: ETH Zurich – Swiss Federal Institute of Technology Content Item API
   slug: eth-zurich-content-item-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Contributors API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for contributors.
   name: ETH Zurich – Swiss Federal Institute of Technology Contributors API
   slug: eth-zurich-contributors-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/research-collection/v2
   baseurl_source: spec
   description: The Core API from ETH Zurich – Swiss Federal Institute of Technology — 9 operation(s) for core.
   name: ETH Zurich – Swiss Federal Institute of Technology Core API
   slug: eth-zurich-core-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/research-collection/v2
   baseurl_source: spec
   description: The Discover API from ETH Zurich – Swiss Federal Institute of Technology — 7 operation(s) for discover.
   name: ETH Zurich – Swiss Federal Institute of Technology Discover API
   slug: eth-zurich-discover-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/ethorama/v1/
   baseurl_source: spec
   description: The Dossier API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for dossier.
   name: ETH Zurich – Swiss Federal Institute of Technology Dossier API
   slug: eth-zurich-dossier-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Dossiers API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for dossiers.
   name: ETH Zurich – Swiss Federal Institute of Technology Dossiers API
   slug: eth-zurich-dossiers-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The e-maps API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for e-maps.
   name: ETH Zurich – Swiss Federal Institute of Technology e-maps API
   slug: eth-zurich-e-maps-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The E-Pics items API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for e-pics items.
   name: ETH Zurich – Swiss Federal Institute of Technology E-Pics items API
   slug: eth-zurich-e-pics-items-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The e-rara API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for e-rara.
   name: ETH Zurich – Swiss Federal Institute of Technology e-rara API
   slug: eth-zurich-e-rara-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/research-collection/v2
   baseurl_source: spec
   description: The ETH Research Collection API V2 API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for eth research collection api v2.
   name: ETH Zurich – Swiss Federal Institute of Technology ETH Research Collection API V2 API
   slug: eth-zurich-eth-research-collection-api-v2-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/vector/v1/
   baseurl_source: spec
   description: The Geo Container API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for geo container.
   name: ETH Zurich – Swiss Federal Institute of Technology Geo Container API
   slug: eth-zurich-geo-container-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The geo-topics API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for geo-topics.
   name: ETH Zurich – Swiss Federal Institute of Technology geo-topics API
   slug: eth-zurich-geo-topics-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Geodata API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for geodata.
   name: ETH Zurich – Swiss Federal Institute of Technology Geodata API
   slug: eth-zurich-geodata-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/research-collection/v1/
   baseurl_source: spec
   description: The handle API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for handle.
   name: ETH Zurich – Swiss Federal Institute of Technology handle API
   slug: eth-zurich-handle-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/persons/v1/
   baseurl_source: spec
   description: The Information about a person API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for information about a person.
   name: ETH Zurich – Swiss Federal Institute of Technology Information about a person API
   slug: eth-zurich-information-about-a-person-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The items API from ETH Zurich – Swiss Federal Institute of Technology — 5 operation(s) for items.
   name: ETH Zurich – Swiss Federal Institute of Technology items API
   slug: eth-zurich-items-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/persons/v1/
   baseurl_source: spec
   description: The List of persons API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for list of persons.
   name: ETH Zurich – Swiss Federal Institute of Technology List of persons API
   slug: eth-zurich-list-of-persons-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Locations API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for locations.
   name: ETH Zurich – Swiss Federal Institute of Technology Locations API
   slug: eth-zurich-locations-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Maps API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for maps.
   name: ETH Zurich – Swiss Federal Institute of Technology Maps API
   slug: eth-zurich-maps-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Places API from ETH Zurich – Swiss Federal Institute of Technology — 3 operation(s) for places.
   name: ETH Zurich – Swiss Federal Institute of Technology Places API
   slug: eth-zurich-places-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/ethorama/v1/
   baseurl_source: spec
   description: The Poi API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for poi.
   name: ETH Zurich – Swiss Federal Institute of Technology Poi API
   slug: eth-zurich-poi-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Poi items API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for poi items.
   name: ETH Zurich – Swiss Federal Institute of Technology Poi items API
   slug: eth-zurich-poi-items-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Pois API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for pois.
   name: ETH Zurich – Swiss Federal Institute of Technology Pois API
   slug: eth-zurich-pois-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The provenance items API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for provenance items.
   name: ETH Zurich – Swiss Federal Institute of Technology provenance items API
   slug: eth-zurich-provenance-items-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Publication places API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for publication places.
   name: ETH Zurich – Swiss Federal Institute of Technology Publication places API
   slug: eth-zurich-publication-places-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/ethorama/v1/
   baseurl_source: spec
   description: The Route API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for route.
   name: ETH Zurich – Swiss Federal Institute of Technology Route API
   slug: eth-zurich-route-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Routes API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for routes.
   name: ETH Zurich – Swiss Federal Institute of Technology Routes API
   slug: eth-zurich-routes-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/research-collection/v1/
   baseurl_source: spec
   description: The search API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for search.
   name: ETH Zurich – Swiss Federal Institute of Technology search API
@@ -205,17 +205,17 @@ apis:
   description: The Search Portal resources API from ETH Zurich – Swiss Federal Institute of Technology — 2 operation(s) for search portal resources.
   name: ETH Zurich – Swiss Federal Institute of Technology Search Portal resources API
   slug: eth-zurich-search-portal-resources-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/research-collection/v2
   baseurl_source: spec
   description: The Suggestion API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for suggestion.
   name: ETH Zurich – Swiss Federal Institute of Technology Suggestion API
   slug: eth-zurich-suggestion-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/geo/v1/
   baseurl_source: spec
   description: The Topics API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for topics.
   name: ETH Zurich – Swiss Federal Institute of Technology Topics API
   slug: eth-zurich-topics-api
-- baseURL: https://api.library.ethz.ch/discovery/v1/
+- baseURL: https://api.library.ethz.ch/ethorama/v1/
   baseurl_source: spec
   description: The Util API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for util.
   name: ETH Zurich – Swiss Federal Institute of Technology Util API
@@ -600,7 +600,7 @@ plans:
 - name: Eth Zurich Plans Pricing
   plan_count: 2
   slug: eth-zurich-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Eth Zurich Rate Limits
@@ -628,7 +628,7 @@ rules:
   slug: eth-zurich-rules
 score:
   band: developing
-  composite: 44.7
+  composite: 45.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 62.3
@@ -636,11 +636,11 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 52.6
     contract_governance: 25.0
-    contract_quality: 56.9
+    contract_quality: 60.0
     developer_ergonomics: 23.8
     discoverability: 61.1
     operational_transparency: 26.3
@@ -668,7 +668,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

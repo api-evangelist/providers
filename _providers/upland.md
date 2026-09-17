@@ -18,30 +18,115 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-09-15'
-api_count: 3
+  score: 33.2
+  scored_at: '2026-09-16'
+api_count: 5
 apis:
 - baseURL: https://api.prod.upland.me/developers-api
   baseurl_source: declared
-  description: REST API for approved Upland third-party applications. Maps application users to Upland user IDs through a connection-code flow, exposes read-only player data (profile, balances, properties, NFTs, tra
-  name: Upland Developers API
-  slug: upland-developers-api
-- baseURL: https://chain-history.upland.me
+  description: The accounts API from Upland — 9 operation(s) for accounts.
+  name: Upland Accounts API
+  slug: upland-accounts-api
+- baseURL: https://api.prod.upland.me/developers-api
   baseurl_source: declared
-  description: Public, unauthenticated Antelope (Leap 5.0.3) node and Hyperion 3.3.10 full-history API for Upland's own appchain, which replaced Upland's EOS deployment on 2025-04-26. Exposes the standard Antelope /
-  name: Upland Appchain History & Chain API
-  slug: upland-appchain-history-chain-api
-artifact_total: 7
+  description: The Application Usage API from Upland — 1 operation(s) for application usage.
+  name: Upland Application Usage API
+  slug: upland-application-usage-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The Authentication API from Upland — 1 operation(s) for authentication.
+  name: Upland Authentication API
+  slug: upland-authentication-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The chain API from Upland — 21 operation(s) for chain.
+  name: Upland Chain API
+  slug: upland-chain-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The Dev Shops API from Upland — 2 operation(s) for dev shops.
+  name: Upland Dev Shops API
+  slug: upland-dev-shops-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The Escrow Containers API from Upland — 9 operation(s) for escrow containers.
+  name: Upland Escrow Containers API
+  slug: upland-escrow-containers-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The Generic API from Upland — 12 operation(s) for generic.
+  name: Upland Generic API
+  slug: upland-generic-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The history API from Upland — 12 operation(s) for history.
+  name: Upland History API
+  slug: upland-history-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The Hyperion History API For UPLAND Chain API from Upland — 1 operation(s) for hyperion history api for upland chain.
+  name: Upland Hyperion History API For UPLAND Chain API
+  slug: upland-hyperion-history-api-for-upland-chain-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The internal API from Upland — 1 operation(s) for internal.
+  name: Upland Internal API
+  slug: upland-internal-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The node API from Upland — 1 operation(s) for node.
+  name: Upland Node API
+  slug: upland-node-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The state API from Upland — 1 operation(s) for state.
+  name: Upland State API
+  slug: upland-state-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The stats API from Upland — 4 operation(s) for stats.
+  name: Upland Stats API
+  slug: upland-stats-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The status API from Upland — 2 operation(s) for status.
+  name: Upland Status API
+  slug: upland-status-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The system API from Upland — 2 operation(s) for system.
+  name: Upland System API
+  slug: upland-system-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The Tournaments API from Upland — 14 operation(s) for tournaments.
+  name: Upland Tournaments API
+  slug: upland-tournaments-api
+- baseURL: https://api.prod.upland.me/developers-api
+  baseurl_source: declared
+  description: The Upland User API from Upland — 6 operation(s) for upland user.
+  name: Upland Upland User API
+  slug: upland-upland-user-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Upland Webhooks
   slug: upland-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/overlays/upland-developers-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/upland-developers-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/upland/refs/heads/main/overlays/upland-appchain-history-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/upland-appchain-history-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -166,25 +251,25 @@ modified: '2026-09-02'
 name: Upland
 nav: Providers
 network: true
-overview: 'Upland publishes 2 APIs on the [APIs.io](https://apis.io/) network: Developers API and Appchain History & Chain API. Tagged areas include Metaverse, Web3, Gaming, Blockchain, and NFT.
+overview: 'Upland publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Application Usage API, Authentication API, and 14 more. Tagged areas include Metaverse, Web3, Gaming, Blockchain, and NFT.
 
 
   The Upland catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Upland''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 18 more developer resources.'
+  Upland''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 20 more developer resources.'
 plans:
 - name: Upland Plans Pricing
   plan_count: 0
   slug: upland-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Upland Rate Limits
   slug: upland-rate-limits
 score:
   band: developing
-  composite: 40.2
+  composite: 39.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -192,11 +277,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 56.2
+    contract_quality: 53.7
     developer_ergonomics: 54.2
     discoverability: 81.5
     operational_transparency: 23.7
@@ -212,11 +297,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 17
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

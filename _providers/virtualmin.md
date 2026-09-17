@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: HTTP-based Remote API served from Webmin's remote.cgi on port 10000. Each call passes a `program` parameter naming one of ~200 command-line programs (create-domain, list-domains, create-user, create-a
@@ -151,7 +151,7 @@ overview: 'Virtualmin publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Virtualmin''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 15 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: thin
   composite: 27.9
@@ -174,7 +174,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -201,7 +201,7 @@ tags:
 - Email
 - Domains
 - Virtual Servers
-- Databases
+- Database
 - SSL
 - WordPress
 - Open-Source

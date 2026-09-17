@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -259,7 +259,7 @@ overview: 'China Mobile publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   China Mobile''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 27 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: developing
   composite: 41.2
@@ -303,7 +303,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

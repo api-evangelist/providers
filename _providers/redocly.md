@@ -16,9 +16,9 @@ agent_readiness:
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 38.1
-  scored_at: '2026-09-15'
-api_count: 12
+  score: 33.1
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
 - description: Redocly Realm is the comprehensive API lifecycle management platform that unifies Redoc, Revel, and Reef into a single integrated product. Realm includes API documentation, mock servers, linting, cata
   name: Redocly Realm
@@ -62,30 +62,74 @@ apis:
   slug: redocly-arazzo
 - baseURL: https://redocly.com
   baseurl_source: declared
-  description: 'The Search API is the machine-readable query surface of any Realm project: POST /_search returns documentation and API-reference matches and POST /_search-facets returns facet aggregations. It is the '
-  name: Redocly Realm Search API
+  description: Operations related to health checks.
+  name: Redocly Health API
+  slug: redocly-health-api
+- baseURL: https://redocly.com
+  baseurl_source: declared
+  description: Operations related to metadata.
+  name: Redocly Metadata API
+  slug: redocly-metadata-api
+- baseURL: https://redocly.com
+  baseurl_source: declared
+  description: Operations related to remotes.
+  name: Redocly Remotes API
+  slug: redocly-remotes-api
+- baseURL: https://redocly.com
+  baseurl_source: declared
+  description: Full-text search and facet operations.
+  name: Redocly Search API
   slug: redocly-search-api
-- baseURL: https://redocly.com/mcp
+- baseURL: https://redocly.com
   baseurl_source: declared
-  description: 'The Docs MCP server is Realm''s Model Context Protocol endpoint, generated automatically from a project''s documentation and OpenAPI descriptions and served at /mcp on the project root. Redocly runs it '
-  name: Redocly Docs MCP Server
-  slug: redocly-docs-mcp
-- baseURL: https://{host}/api
+  description: Operations related to status.
+  name: Redocly Status API
+  slug: redocly-status-api
+- baseURL: https://redocly.com
   baseurl_source: declared
-  description: 'Scout is Redocly''s API-discovery service: it crawls connected Git remotes, tracks pull requests and runs jobs that find hidden, duplicate and undocumented APIs, then pushes what it finds into a Reunit'
-  name: Redocly Scout API
-  slug: redocly-scout
-- baseURL: http://{host}
+  description: Operations related to tasks.
+  name: Redocly Tasks API
+  slug: redocly-tasks-api
+- baseURL: https://redocly.com
   baseurl_source: declared
-  description: 'The Scout agent is the self-hosted worker half of Scout, deployed inside the customer''s own infrastructure (Redocly documents an AWS ECS task definition). Its API is small and operational: a health ch'
-  name: Redocly Scout Agent API
-  slug: redocly-scout-agent
-artifact_total: 31
+  description: Operations related to incoming git webhooks.
+  name: Redocly Webhooks API
+  slug: redocly-webhooks-api
+- baseURL: https://redocly.com
+  baseurl_source: declared
+  description: Operations related to todos.
+  name: Redocly To Dos API
+  slug: redocly-to-dos-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Redocly Webhooks
   slug: redocly-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://redocly.com
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/overlays/redocly-search-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/redocly-search-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/overlays/redocly-docs-mcp-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/redocly-docs-mcp-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/overlays/redocly-scout-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/redocly-scout-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/overlays/redocly-scout-agent-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/redocly-scout-agent-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/scopes/redocly-scopes.yml
   title: ''
@@ -335,6 +379,10 @@ common:
   title: ''
   type: SubProcessors
   url: https://redocly.com/sub-processors
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:team@redocly.com
 created: '2026-01-05'
 description: Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel, and Reef), Reunite (Git-connected collaboration and deployment for docs/APIs), Revel (developer portal), Reef (internal API catalog and scorecard), and Redoc (open-source OpenAPI renderer). The Redocly CLI provides linting, bundling, splitting, decoration, and documentation generation for OpenAPI, AsyncAPI, and Arazzo specifications. Respect Monitoring adds continuous, Arazzo-powered API monitoring, and the Enterprise tier exposes MCP Servers and AI search for Realm portals — positioning Redocly's catalog as an AI substrate for agentic software.
 examples:
@@ -374,24 +422,24 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: 'Redocly ships a Docs MCP server as a Realm feature and runs it on its own documentation site. The endpoint answers anonymously: tools/list returns two real tools and resources/list returns the publish'
-  name: Redocly Docs MCP Server
+  name: Redocly Docs MCP server
   slug: redocly-docs-mcp-server
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Redocly
 nav: Providers
 network: true
-overview: 'Redocly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Realm Search API, Docs MCP Server, Scout API, and 1 more. Tagged areas include Artificial Intelligence, API Catalog, API Documentation, Arazzo, and Developer Portal.
+overview: 'Redocly publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Health API, Metadata API, Remotes API, and 5 more. Tagged areas include Artificial Intelligence, API Catalog, API Documentation, Arazzo, and Developer Portal.
 
 
   The Redocly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Redocly''s developer surface includes authentication, documentation, pricing, engineering blog, CLI, support, signup flow, and 49 more developer resources.'
+  Redocly''s developer surface includes authentication, documentation, pricing, engineering blog, CLI, support, signup flow, and 55 more developer resources.'
 plans:
 - name: Redocly Plans Pricing
   plan_count: 15
   slug: redocly-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 9
   name: Redocly Rate Limits
@@ -414,7 +462,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 74.6
+  composite: 75.5
   coverage:
     artifact_dirs: 31
     catalog_earned: 85.3
@@ -422,11 +470,11 @@ score:
     catalog_gap: 29.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 100.0
     contract_governance: 43.2
-    contract_quality: 65.4
+    contract_quality: 69.0
     developer_ergonomics: 61.9
     discoverability: 72.2
     operational_transparency: 92.1
@@ -437,11 +485,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 8
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -476,4 +524,5 @@ tags:
 - MCP
 - Monitoring
 - OpenAPI
+website: https://redocly.com
 ---

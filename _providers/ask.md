@@ -33,7 +33,7 @@ name: Ask
 nav: Providers
 network: true
 overview: Ask is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Search, Search Engines, Consumer, and Defunct.
-random_paper: 4
+random_paper: 11
 screenshot: https://raw.githubusercontent.com/api-evangelist/ask/refs/heads/main/screenshots/ask-2026-07-25T201421.png
 security:
 - kind: domain-security

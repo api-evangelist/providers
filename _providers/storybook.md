@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Storybook is an open-source frontend workshop for building UI components and pages in isolation. Supports React, Vue, Angular, Svelte, Web Components, Ember, Preact, and more. Core features include co
@@ -159,7 +159,7 @@ plans:
 - name: Storybook Plans Pricing
   plan_count: 3
   slug: storybook-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Storybook Rate Limits
@@ -198,7 +198,7 @@ score:
     score: 100.0
   previous_composite: 29.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ name: Binpress
 nav: Providers
 network: true
 overview: Binpress is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Source Code Marketplace, Developer Tools, SDK, and Software Components.
-random_paper: 9
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/binpress/refs/heads/main/screenshots/binpress-2026-07-25T203018.png
 security:
 - kind: domain-security

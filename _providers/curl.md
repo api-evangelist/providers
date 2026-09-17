@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The curl command-line tool transfers data to or from a server using URL syntax, supporting protocols including DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, '
@@ -106,7 +106,7 @@ plans:
 - name: Curl Plans Pricing
   plan_count: 3
   slug: curl-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Curl Rate Limits
@@ -137,7 +137,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -160,7 +160,6 @@ tags:
 - Data Transfer
 - FTP
 - HTTP
-- HTTPS
 - Library
 - Network Tools
 - Open-Source

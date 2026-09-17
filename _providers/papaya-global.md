@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-06-13'
 name: Papaya Global
 nav: Providers
 network: true
-overview: 'Papaya Global publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Beneficiaries API, Groups API, and 2 more. Tagged areas include Payroll, Global Workforce, HR, Payments, and Employer of Record.
+overview: 'Papaya Global publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Beneficiaries API, Groups API, and 2 more. Tagged areas include Payroll, Global Workforce, Human Resources, Payments, and Employer of Record.
 
 
   The Papaya Global catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -201,7 +201,7 @@ plans:
 - name: Papaya Global Plans Pricing
   plan_count: 6
   slug: papaya-global-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Papaya Global Rate Limits
@@ -250,7 +250,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -269,7 +269,7 @@ slug: papaya-global
 tags:
 - Payroll
 - Global Workforce
-- HR
+- Human Resources
 - Payments
 - Employer of Record
 - Contractor Management

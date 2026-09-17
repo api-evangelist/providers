@@ -23,59 +23,119 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.3
-  scored_at: '2026-09-15'
-api_count: 10
+  scored_at: '2026-09-16'
+api_count: 9
 apis:
+- description: 'A live Model Context Protocol server served from www.aerofarms.com at /wp-json/mcp/mcp-oauth-server. It answers JSON-RPC over HTTP and is protected by OAuth 2.1: an anonymous tools/list returns HTTP 4'
+  name: AeroFarms MCP Server
+  slug: aerofarms-mcp-server
 - baseURL: https://www.aerofarms.com/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated read access to the AeroFarms news and press archive via the WordPress core REST API — 289 published posts and 16 approved comments verified live on 2026-09-10.
-  name: AeroFarms News API
-  slug: aerofarms-news-api
+  description: Anonymous WooCommerce Store API session cart.
+  name: AeroFarms Cart API
+  slug: aerofarms-cart-api
 - baseURL: https://www.aerofarms.com/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated read access to the 56 published marketing and policy pages of www.aerofarms.com — About Us, How We Grow, Our Microgreens, FlavorSpectrum, Store Locator, Commercial Partnerships
-  name: AeroFarms Pages API
-  slug: aerofarms-pages-api
+  description: Approved reader comments and AeroFarms replies on news posts.
+  name: AeroFarms Comments API
+  slug: aerofarms-comments-api
 - baseURL: https://www.aerofarms.com/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated read access to the AeroFarms microgreens catalog as WordPress product objects — 8 published products across 3 product-category terms, verified live on 2026-09-10.
-  name: AeroFarms Products API
-  slug: aerofarms-products-api
+  description: Route index, content types, taxonomies and statuses.
+  name: AeroFarms Discovery API
+  slug: aerofarms-discovery-api
 - baseURL: https://www.aerofarms.com/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated read access to the AeroFarms WooCommerce storefront through the WooCommerce Store API — the product catalog with images, attributes, stock state and facet data, plus the anonym
-  name: AeroFarms Store API
-  slug: aerofarms-store-api
-- baseURL: https://www.aerofarms.com/wp-json
-  baseurl_source: declared
-  description: Public, unauthenticated read access to the AeroFarms FAQ knowledge base — 18 published answers across 8 FAQ categories covering microgreens, growing practices, organic and non-GMO status and storage.
-  name: AeroFarms FAQ API
-  slug: aerofarms-faq-api
-- baseURL: https://www.aerofarms.com/wp-json
-  baseurl_source: declared
-  description: Public, unauthenticated read access to the editorial taxonomy behind the AeroFarms news archive — 9 categories and 455 tags with post counts.
-  name: AeroFarms Taxonomy API
-  slug: aerofarms-taxonomy-api
-- baseURL: https://www.aerofarms.com/wp-json
-  baseurl_source: declared
-  description: Public, unauthenticated read access to the AeroFarms media library — 5,605 attachments of farm and product photography, FlavorSpectrum imagery and press assets with their generated size variants.
+  description: AeroFarms image and document library with size variants.
   name: AeroFarms Media API
   slug: aerofarms-media-api
 - baseURL: https://www.aerofarms.com/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated cross-content search over www.aerofarms.com — posts, pages, products and FAQ entries — across 371 searchable objects.
+  description: AeroFarms press releases, announcements and articles.
+  name: AeroFarms News API
+  slug: aerofarms-news-api
+- baseURL: https://www.aerofarms.com/wp-json
+  baseurl_source: declared
+  description: Static marketing and policy pages of the AeroFarms website.
+  name: AeroFarms Pages API
+  slug: aerofarms-pages-api
+- baseURL: https://www.aerofarms.com/wp-json
+  baseurl_source: declared
+  description: Product category, brand and tag taxonomies.
+  name: AeroFarms Product Taxonomy API
+  slug: aerofarms-product-taxonomy-api
+- baseURL: https://www.aerofarms.com/wp-json
+  baseurl_source: declared
+  description: AeroFarms microgreens products as WordPress product posts.
+  name: AeroFarms Products API
+  slug: aerofarms-products-api
+- baseURL: https://www.aerofarms.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search over the AeroFarms website.
   name: AeroFarms Search API
   slug: aerofarms-search-api
 - baseURL: https://www.aerofarms.com/wp-json
   baseurl_source: declared
-  description: The public route index and registry surface of the AeroFarms REST API — 917 registered routes across 46 namespaces, plus the registered content types, taxonomies and post statuses. This is the machine
-  name: AeroFarms Discovery API
-  slug: aerofarms-discovery-api
-- description: 'A live Model Context Protocol server served from www.aerofarms.com at /wp-json/mcp/mcp-oauth-server. It answers JSON-RPC over HTTP and is protected by OAuth 2.1: an anonymous tools/list returns HTTP 4'
-  name: AeroFarms MCP Server
-  slug: aerofarms-mcp-server
-artifact_total: 16
+  description: WooCommerce Store API — public storefront catalog and cart.
+  name: AeroFarms Store API
+  slug: aerofarms-store-api
+- baseURL: https://www.aerofarms.com/wp-json
+  baseurl_source: declared
+  description: Editorial categories and tags applied to AeroFarms news posts.
+  name: AeroFarms Taxonomy API
+  slug: aerofarms-taxonomy-api
+- baseURL: https://www.aerofarms.com/wp-json/mcp/mcp-oauth-server
+  baseurl_source: declared
+  description: AeroFarms customer FAQ entries and their categories.
+  name: AeroFarms FA Qs API
+  slug: aerofarms-faqs-api
+artifact_total: 19
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/overlays/aerofarms-news-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerofarms-news-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/overlays/aerofarms-pages-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerofarms-pages-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/overlays/aerofarms-products-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerofarms-products-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/overlays/aerofarms-store-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerofarms-store-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/overlays/aerofarms-faq-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerofarms-faq-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/overlays/aerofarms-taxonomy-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerofarms-taxonomy-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/overlays/aerofarms-media-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerofarms-media-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/overlays/aerofarms-search-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerofarms-search-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aerofarms/refs/heads/main/overlays/aerofarms-discovery-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aerofarms-discovery-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -187,15 +247,15 @@ modified: '2026-09-10'
 name: AeroFarms
 nav: Providers
 network: true
-overview: 'AeroFarms publishes 9 APIs on the [APIs.io](https://apis.io/) network, including News API, Pages API, Products API, and 6 more. Tagged areas include Company, Agriculture, Vertical Farming, Indoor Farming, and AgTech.
+overview: 'AeroFarms publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Comments API, Discovery API, and 9 more. Tagged areas include Company, Agriculture, Vertical Farming, Indoor Farming, and AgTech.
 
 
-  AeroFarms'' developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
+  AeroFarms'' developer surface includes engineering blog, support, authentication, and 27 more developer resources.'
 plans:
 - name: Aerofarms Plans Pricing
   plan_count: 0
   slug: aerofarms-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Aerofarms Rate Limits
@@ -207,7 +267,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 22.4
+  composite: 22.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -215,11 +275,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 13.2
+    contract_quality: 13.1
     developer_ergonomics: 20.8
     discoverability: 81.5
     operational_transparency: 2.6
@@ -233,13 +293,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 9
+      derived: 12
       marker_coverage: 100.0
-      total: 9
+      total: 12
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

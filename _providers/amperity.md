@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -193,10 +193,10 @@ common:
   type: DomainSecurity
   url: security/amperity-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/amperity-control-plane-2024-04-01-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/openapi/_original/amperity-control-plane-2024-04-01-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/amperity-control-plane-2024-04-01-openapi.json
+  url: openapi/_original/amperity-control-plane-2024-04-01-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/overlays/amperity-control-plane-overlay.yaml
   title: ''
@@ -260,7 +260,7 @@ mcp_servers:
 - description: ''
   name: Amperity MCP Server
   slug: amperity-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Amperity
 nav: Providers
 network: true
@@ -275,7 +275,7 @@ plans:
 - name: Amperity Plans Pricing
   plan_count: 0
   slug: amperity-plans-pricing
-random_paper: 14
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Amperity Rate Limits
@@ -315,7 +315,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

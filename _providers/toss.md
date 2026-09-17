@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: REST API for processing payments, authorizations, cancellations, and refunds through the Toss Payments platform. Supports card, virtual account, mobile phone, bank transfer, and digital wallet payment
@@ -118,7 +118,7 @@ modified: 2026-06-13
 name: Toss
 nav: Providers
 network: true
-overview: 'Toss publishes 1 API on the [APIs.io](https://apis.io/) network: Payments API. Tagged areas include Payments, Fintech, Banking, Korea, and Digital Wallet.
+overview: 'Toss publishes 1 API on the [APIs.io](https://apis.io/) network: Payments API. Tagged areas include Payments, Fintech, Banking, South Korea, and Digital Wallet.
 
 
   Toss'' developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -126,7 +126,7 @@ plans:
 - name: Toss Plans Pricing
   plan_count: 3
   slug: toss-plans-pricing
-random_paper: 16
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Toss Rate Limits
@@ -164,7 +164,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -181,7 +181,7 @@ tags:
 - Payments
 - Fintech
 - Banking
-- Korea
+- South Korea
 - Digital Wallet
 - Credit Scoring
 - Identity Verification

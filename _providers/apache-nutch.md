@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -128,6 +128,10 @@ collections:
   name: Apache Nutch REST Admin Services API
   slug: open-apache-nutch-services-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apache.org
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -412,7 +416,7 @@ jsonld:
   property_count: 35
   slug: apache-nutch-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apache Nutch
 nav: Providers
 network: true
@@ -422,12 +426,12 @@ overview: 'Apache Nutch publishes 7 APIs on the [APIs.io](https://apis.io/) netw
   The Apache Nutch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Nutch''s developer surface includes authentication, documentation, getting-started guide, FAQ, release notes, support, Stack Overflow tag, and 15 more developer resources.'
+  Apache Nutch''s developer surface includes authentication, documentation, getting-started guide, FAQ, release notes, support, Stack Overflow tag, and 16 more developer resources.'
 plans:
 - name: Apache Nutch Plans Pricing
   plan_count: 3
   slug: apache-nutch-plans-pricing
-random_paper: 4
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Apache Nutch Rate Limits
@@ -484,7 +488,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -525,4 +529,5 @@ use_cases:
   name: SEO and Content Monitoring
 - description: Build custom extraction pipelines using Nutch plugin architecture for targeted data acquisition tasks.
   name: Custom Data Extraction Pipelines
+website: https://apache.org
 ---

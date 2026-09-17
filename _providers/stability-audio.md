@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for generating music and SFX clips with Stable Audio 2.5. Hosted on the Stability Developer Platform at https://api.stability.ai. Authentication via API key; credit-based billing.
@@ -101,7 +101,7 @@ plans:
 - name: Stability Audio Plans Pricing
   plan_count: 3
   slug: stability-audio-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Stability Audio Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 14.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

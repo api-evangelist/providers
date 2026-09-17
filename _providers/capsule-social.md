@@ -54,7 +54,7 @@ name: Capsule Social
 nav: Providers
 network: true
 overview: Capsule Social is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Web3, Blockchain, and Decentralized.
-random_paper: 1
+random_paper: 21
 screenshot: https://raw.githubusercontent.com/api-evangelist/capsule-social/refs/heads/main/screenshots/capsule-social-2026-07-25T204436.png
 slug: capsule-social
 tags:

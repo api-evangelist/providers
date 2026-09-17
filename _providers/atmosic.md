@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -157,7 +157,7 @@ overview: 'Atmosic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Atmosic''s developer surface includes CLI, changelog, documentation, getting-started guide, API reference, support, engineering blog, and 17 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: thin
   composite: 36.4
@@ -191,7 +191,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

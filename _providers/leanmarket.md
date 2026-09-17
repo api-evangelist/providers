@@ -19,7 +19,7 @@ name: LeanMarket
 nav: Providers
 network: true
 overview: LeanMarket is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile Advertising, AdTech, and Real-Time Bidding.
-random_paper: 10
+random_paper: 4
 slug: leanmarket
 tags:
 - Company

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ press:
 - date: '2026-05-25'
   title: Exelon to Acquire Pepco Holdings Inc., Creating the ...
   url: https://njbmagazine.com/njb-news-now/exelon-acquire-pepco-holdings-inc-creating-leading-mid-atlantic-electric-gas-utility/
-random_paper: 8
+random_paper: 6
 score:
   band: minimal
   composite: 2.5
@@ -117,7 +117,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

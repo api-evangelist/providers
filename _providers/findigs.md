@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -101,10 +101,10 @@ common:
   type: Postman
   url: https://docs.getfindigs.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-client-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/_original/findigs-client-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/findigs-client-api-openapi.yml
+  url: openapi/_original/findigs-client-api-openapi.yml
 - group: company
   title: ''
   type: Blog
@@ -232,7 +232,7 @@ description: Findigs is a New York City based residential real estate decisionin
   should contact integrations@findigs.com.
 image: https://www.findigs.com/opengraph-image?title=Resident%20screening%20and%20rental%20decisioning%20%7C%20Findigs&variant=home
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: Findigs
 nav: Providers
 network: true
@@ -247,7 +247,7 @@ plans:
 - name: Findigs Plans Pricing
   plan_count: 3
   slug: findigs-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Findigs Rate Limits
@@ -288,7 +288,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -318,7 +318,7 @@ tags:
 - Identity Verification
 - Income Verification
 - Credit Check
-- Background Check
+- Background Checks
 - Fraud Detection
 - Property Management
 - Real-Estate

@@ -23,26 +23,26 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.9
-  scored_at: '2026-09-15'
+  score: 63.3
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 25
-  human_in_the_loop: 0
+- acting_count: 72
+  human_in_the_loop: 6
   name: Tray Ai Agentic Access
-  operation_count: 35
+  operation_count: 105
   slug: tray-ai-agentic-access
-  summary_line: 35 operations · 25 acting
+  summary_line: 105 operations · 72 acting · 6 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://tray.io/graphql
@@ -105,7 +105,22 @@ apis:
   description: Manage workspaces and workspace users. Workspaces divide your organization into sub-categories such as departments or dev/prod environments.
   name: Tray.ai Workspaces API
   slug: tray-ai-workspaces-api
-artifact_total: 106
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: '{''$ref'': ''descriptions/trayapi/tags/agent-groups.md''}'
+  name: Tray.ai Agent Groups API
+  slug: tray-ai-agent-groups-api
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: '{''$ref'': ''descriptions/trayapi/tags/agent-instances.md''}'
+  name: Tray.ai Agent Instances API
+  slug: tray-ai-agent-instances-api
+- baseURL: https://tray.io/graphql
+  baseurl_source: declared
+  description: '{''$ref'': ''descriptions/trayapi/tags/permissions.md''}'
+  name: Tray.ai Permissions API
+  slug: tray-ai-permissions-api
+artifact_total: 109
 asyncapis:
 - description: ''
   name: Tray Ai Webhooks
@@ -589,7 +604,7 @@ modified: '2026-09-02'
 name: Tray.ai
 nav: Providers
 network: true
-overview: 'Tray.ai publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Authentications API, Call Connector API, and 9 more. Tagged areas include Automation, Integration, iPaaS, AI Agents, and MCP.
+overview: 'Tray.ai publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Authentications API, Call Connector API, and 12 more. Tagged areas include Automation, Integration, iPaaS, AI Agents, and MCP.
 
 
   The Tray.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -600,7 +615,7 @@ plans:
 - name: Tray Ai Plans Pricing
   plan_count: 3
   slug: tray-ai-plans-pricing
-random_paper: 2
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Tray Ai Rate Limits
@@ -634,7 +649,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 87.1
+  composite: 86.8
   coverage:
     artifact_dirs: 34
     catalog_earned: 94.5
@@ -642,11 +657,11 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 82.7
+    contract_quality: 81.5
     developer_ergonomics: 92.9
     discoverability: 81.5
     operational_transparency: 92.1
@@ -658,11 +673,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 15
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

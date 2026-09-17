@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ name: S4S Technologies
 nav: Providers
 network: true
 overview: S4S Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Processing, AgriTech, Food and Beverage, and Supply Chain.
-random_paper: 15
+random_paper: 5
 score:
   band: minimal
   composite: 5.0
@@ -94,7 +94,7 @@ score:
     - india-south-asia
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

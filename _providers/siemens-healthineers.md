@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - description: Authentication and identity federation surface that lets partner applications running on the teamplay digital health platform, syngo.via OpenApps, and Cios mobile C-arm systems sign users in using the
@@ -163,7 +163,7 @@ overview: 'Siemens Healthineers publishes 14 APIs on the [APIs.io](https://apis.
 
 
   Siemens Healthineers'' developer surface includes signup flow, GitHub presence, and 13 more developer resources.'
-random_paper: 19
+random_paper: 9
 score:
   band: emerging
   composite: 15.3
@@ -190,7 +190,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

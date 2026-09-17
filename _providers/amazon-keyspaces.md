@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://cassandra.amazonaws.com
   baseurl_source: declared
   description: Cassandra keyspace management
-  name: Amazon Keyspaces Keyspaces API
+  name: Amazon Keyspaces API
   slug: amazon-keyspaces-keyspaces-api
 - baseURL: https://cassandra.amazonaws.com
   baseurl_source: declared
@@ -92,6 +92,10 @@ collections:
   name: Amazon Keyspaces API
   slug: open-amazon-keyspaces
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/agentic-access/amazon-keyspaces-agentic-access.yml
   title: ''
@@ -272,22 +276,22 @@ jsonld:
   property_count: 7
   slug: amazon-keyspaces-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Keyspaces
 nav: Providers
 network: true
-overview: 'Amazon Keyspaces publishes 2 APIs on the [APIs.io](https://apis.io/) network: Keyspaces API and Tables API. Tagged areas include Cassandra, Database, Managed Database, NoSQL, and Wide Column.
+overview: 'Amazon Keyspaces publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Tables API, and 1 more. Tagged areas include Cassandra, Database, Managed Database, NoSQL, and Wide Column.
 
 
   The Amazon Keyspaces catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Keyspaces'' developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 23 more developer resources.'
+  Amazon Keyspaces'' developer surface includes authentication, engineering blog, support, developer console, CLI, developer portal, documentation, and 24 more developer resources.'
 plans:
 - name: Amazon Keyspaces Plans Pricing
   plan_count: 3
   slug: amazon-keyspaces-plans-pricing
-random_paper: 0
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Keyspaces Rate Limits
@@ -341,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -380,5 +384,5 @@ use_cases:
   name: Time-Series Data
 - description: Lift and shift existing Cassandra applications to a fully managed cloud service.
   name: Migrate Cassandra Workloads
-website: https://aws.amazon.com/keyspaces/
+website: https://amazon.com
 ---

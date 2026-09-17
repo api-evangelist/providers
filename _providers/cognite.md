@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 708
   human_in_the_loop: 4
@@ -106,11 +106,6 @@ apis:
   description: 'Data products are governed, ready-for-consumption data assets derived from data domains, following data mesh principles. **Key characteristics:** - **Clear ownership**: Defined data product owners wit'
   name: Cognite Data products API
   slug: cognite-data-products-api
-- baseURL: https://api.cognitedata.com
-  baseurl_source: declared
-  description: 'Data sets let you document and track data lineage, ensure data integrity, and allow 3rd parties to write their insights securely back to a Cognite Data Fusion (CDF) project. Data sets group and track '
-  name: Cognite Data sets API
-  slug: cognite-data-sets-api
 - baseURL: https://api.cognitedata.com
   baseurl_source: declared
   description: 'A hosted extractor writes to a **destination**. The destination contains credentials for CDF, and additional information about where the data should land, such as data set ID. Multiple jobs can share '
@@ -491,6 +486,11 @@ apis:
   description: A writeback **request** to the SAP S/4HANA destination. The request body contains the target SAP endpoint destination, and the payload to send.
   name: Cognite Writeback Requests API
   slug: cognite-writeback-requests-api
+- baseURL: https://api.cognitedata.com
+  baseurl_source: declared
+  description: Data sets let you document and track data lineage, ensure data integrity, and allow 3rd parties to write their insights securely back to a Cognite Data Fusion (CDF) project.
+  name: Cognite Datasets API
+  slug: cognite-datasets-api
 artifact_total: 195
 collections:
 - collection_type: open
@@ -880,7 +880,7 @@ overview: 'Cognite publishes 89 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Cognite''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, and 11 more developer resources.'
-random_paper: 10
+random_paper: 19
 rules:
 - effective_rule_count: 5
   extends: []
@@ -909,22 +909,22 @@ scopes:
   slug: cognite-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 39.9
+  band: thin
+  composite: 38.1
   coverage:
     artifact_dirs: 14
-    catalog_earned: 49.5
+    catalog_earned: 39.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 65.5
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 66.3
     developer_ergonomics: 40.5
-    discoverability: 63.0
+    discoverability: 44.4
     operational_transparency: 2.6
   previous_composite: 39.9
   provenance:
@@ -935,7 +935,7 @@ score:
       marker_coverage: 0.0
       total: 89
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

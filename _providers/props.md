@@ -35,7 +35,7 @@ overview: 'Props is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Props'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 18
+random_paper: 14
 slug: props
 tags:
 - Company
@@ -43,7 +43,7 @@ tags:
 - Cryptocurrency
 - Tokens
 - Loyalty and Rewards
-- Consumer Apps
+- Consumer App
 - Defunct
 - Web3
 website: https://www.props.xyz

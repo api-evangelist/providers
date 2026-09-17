@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 79
   slug: cloudbees-agentic-access
   summary_line: 79 operations · 33 acting
-api_count: 3
+api_count: 5
 apis:
 - description: CloudBees CI is a hardened, enterprise distribution of Jenkins. The REST API is the Jenkins remote access API exposed at /api on every controller and on individual jobs, runs, queues and nodes. Caller
   name: CloudBees CI REST API
@@ -55,11 +55,6 @@ apis:
 - description: The CloudBees Feature Management REST API (formerly Rollout) provides programmatic access to applications, environments, feature flags, experiments, target groups, audit logs, and users. Authenticatio
   name: CloudBees Feature Management REST API
   slug: feature-management
-- baseURL: https://api.cloudbees.io
-  baseurl_source: declared
-  description: 'CloudBees Unify is the modern, opinionated software delivery platform that unifies CI, CD, feature management, analytics, and security into a single workflow. The CloudBees Unify Public API is served '
-  name: CloudBees Unify Platform API
-  slug: unify
 - description: The CloudBees CD plugin for Jenkins exposes Jenkins pipeline steps that call CloudBees CD/RO REST endpoints — triggering pipelines, running releases, deploying applications, and pulling artifacts from
   name: CloudBees CD/RO Jenkins Plugin Steps
   slug: jenkins-plugin
@@ -98,7 +93,67 @@ apis:
   description: The Xml API from CloudBees — 1 operation(s) for xml.
   name: CloudBees Xml API
   slug: cloudbees-xml-api
-artifact_total: 34
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: Create and manage the components in an organization. A component represents a source code repository that CloudBees Unify tracks. Components can be onboarded with or without an SCM integration, and an
+  name: CloudBees Components API
+  slug: cloudbees-components-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: Discover and manage environments within your organization. Use environments to maintain an up-to-date inventory for feature flag targeting, deployment scripts, and monitoring workflows.
+  name: CloudBees Environments API
+  slug: cloudbees-environments-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: Set flag state (enabled or disabled) and targeting rules for a specific environment to determine which users or segments receive each variation.
+  name: CloudBees Flag configurations API
+  slug: cloudbees-flag-configurations-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: Create, read, update, and delete custom properties used in targeting conditions and target groups.
+  name: CloudBees Flag custom properties API
+  slug: cloudbees-flag-custom-properties-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: Track how often each feature flag variation is served within an environment. Use impression data to monitor flag adoption, validate rollout progress, and analyze which variations are being evaluated b
+  name: CloudBees Flag lifecycle API
+  slug: cloudbees-flag-lifecycle-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: Control runtime feature visibility and behavior to enable gradual rollouts, A/B testing, progressive delivery, and safe deployments without redeployment.
+  name: CloudBees Flags API
+  slug: cloudbees-flags-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: Define the structural and governance boundaries within a CloudBees Unify tenant. Organizations model business units or departments, support parent-child hierarchies, and inherit configuration—properti
+  name: CloudBees Organizations API
+  slug: cloudbees-organizations-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: Create, update, and retrieve CI/CD runs for a component. Attach and list test results, artifacts, security results, evidences, and deployments.
+  name: CloudBees Runs API
+  slug: cloudbees-runs-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: Define reusable sets of targeting conditions for feature flags. Specify rules once (such as matching users by role, region, or custom property) and apply them across multiple flags. Changes to a targe
+  name: CloudBees Target groups API
+  slug: cloudbees-target-groups-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: The Team Memberships API from CloudBees — 2 operation(s) for team memberships.
+  name: CloudBees Team Memberships API
+  slug: cloudbees-team-memberships-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: List teams, and get a specific team with optional user expansion.
+  name: CloudBees Teams API
+  slug: cloudbees-teams-api
+- baseURL: https://example.cloudbees.com
+  baseurl_source: declared
+  description: List users in a tenant.
+  name: CloudBees Users API
+  slug: cloudbees-users-api
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Cloudbees Webhooks
@@ -132,6 +187,16 @@ collections:
   name: CloudBees CI REST API (Jenkins-compatible)
   slug: open-cloudbees
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/overlays/cloudbees-unify-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cloudbees-unify-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/overlays/cloudbees-unify-beta-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cloudbees-unify-beta-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/agentic-access/cloudbees-agentic-access.yml
   title: ''
@@ -364,18 +429,18 @@ modified: '2026-09-05'
 name: CloudBees
 nav: Providers
 network: true
-overview: 'CloudBees publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Unify Platform API, Computer API, CreateItem API, and 5 more. Tagged areas include CI/CD, Continuous Delivery, Continuous Integration, Developer Tools, and DevOps.
+overview: 'CloudBees publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Computer API, CreateItem API, Job API, and 16 more. Tagged areas include CI/CD, Continuous Delivery, Continuous Integration, Developer Tools, and DevOps.
 
 
   The CloudBees catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  CloudBees'' developer surface includes authentication, documentation, support, engineering blog, changelog, CLI, API reference, and 39 more developer resources.'
+  CloudBees'' developer surface includes authentication, documentation, support, engineering blog, changelog, CLI, API reference, and 41 more developer resources.'
 plans:
 - name: Cloudbees Plans Pricing
   plan_count: 0
   slug: cloudbees-plans-pricing
-random_paper: 5
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Cloudbees Rate Limits
@@ -399,7 +464,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 66.6
+  composite: 68.3
   coverage:
     artifact_dirs: 27
     catalog_earned: 72.0
@@ -407,11 +472,11 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 55.3
     contract_governance: 72.7
-    contract_quality: 58.1
+    contract_quality: 65.0
     developer_ergonomics: 75.6
     discoverability: 72.2
     operational_transparency: 81.6
@@ -420,14 +485,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 22.2
+      callable: 63.2
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 19
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

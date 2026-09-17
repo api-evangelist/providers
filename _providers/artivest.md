@@ -24,7 +24,7 @@ name: Artivest
 nav: Providers
 network: true
 overview: Artivest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Financial-Services, and Alternative Investments.
-random_paper: 0
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/artivest/refs/heads/main/screenshots/artivest-2026-07-25T201400.png
 slug: artivest
 tags:

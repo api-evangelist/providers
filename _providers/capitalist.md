@@ -35,27 +35,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 1
+- acting_count: 3
   human_in_the_loop: 0
   name: Capitalist Agentic Access
-  operation_count: 1
+  operation_count: 7
   slug: capitalist-agentic-access
-  summary_line: 1 operation · 1 acting
+  summary_line: 7 operations · 3 acting
 api_count: 2
 apis:
-- baseURL: https://api2.capitalist.net
-  baseurl_source: declared
-  description: The current Capitalist API — published as the "Integration API" — enables programmatic mass payouts, currency and digital-asset conversion, and balance, transaction and merchant-order reporting across
-  name: Capitalist API
-  slug: capitalist-api
 - baseURL: https://api.capitalist.net
   baseurl_source: declared
   description: 'The first generation of the Capitalist API: a single HTTP POST endpoint at https://api.capitalist.net where an `operation` form field selects the call (get_accounts, import_batch_advanced, process_bat'
   name: Capitalist Payments API (v1, deprecated)
   slug: capitalist-capitalist-payments-api-api
-artifact_total: 12
+- baseURL: https://api2.capitalist.net
+  baseurl_source: declared
+  description: The account API from Capitalist — 1 operation(s) for account.
+  name: Capitalist Account API
+  slug: capitalist-account-api
+- baseURL: https://api2.capitalist.net
+  baseurl_source: declared
+  description: The exchange API from Capitalist — 1 operation(s) for exchange.
+  name: Capitalist Exchange API
+  slug: capitalist-exchange-api
+- baseURL: https://api2.capitalist.net
+  baseurl_source: declared
+  description: The payment API from Capitalist — 3 operation(s) for payment.
+  name: Capitalist Payment API
+  slug: capitalist-payment-api
+- baseURL: https://api2.capitalist.net
+  baseurl_source: declared
+  description: The rate API from Capitalist — 1 operation(s) for rate.
+  name: Capitalist Rate API
+  slug: capitalist-rate-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Capitalist Webhooks
@@ -71,6 +86,11 @@ collections:
   name: Capitalist Payments API
   slug: open-capitalist
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/overlays/capitalist-integration-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/capitalist-integration-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/agentic-access/capitalist-agentic-access.yml
   title: ''
@@ -225,25 +245,25 @@ modified: '2026-09-05'
 name: Capitalist
 nav: Providers
 network: true
-overview: 'Capitalist publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Payments API (v1, deprecated), and 1 more. Tagged areas include Bulk Payouts, Cryptocurrency, Finance, Mass Payments, and Payment Platform.
+overview: 'Capitalist publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Payments API (v1, deprecated), Account API, Exchange API, and 2 more. Tagged areas include Bulk Payouts, Cryptocurrency, Finance, Mass Payments, and Payment Platform.
 
 
   The Capitalist catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Capitalist''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, pricing, and 24 more developer resources.'
+  Capitalist''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, pricing, and 25 more developer resources.'
 plans:
 - name: Capitalist Plans Pricing
   plan_count: 0
   slug: capitalist-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Capitalist Rate Limits
   slug: capitalist-rate-limits
 score:
   band: developing
-  composite: 49.5
+  composite: 50.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 48.0
@@ -251,11 +271,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
-    contract_quality: 58.4
+    contract_quality: 63.4
     developer_ergonomics: 54.2
     discoverability: 68.5
     operational_transparency: 31.6
@@ -267,7 +287,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -277,7 +297,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -301,6 +321,6 @@ tags:
 - Payment Platform
 - Payments
 - Payouts
-- Remittance
+- Remittances
 website: https://capitalist.net/
 ---

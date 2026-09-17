@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 12
@@ -309,7 +309,7 @@ modified: '2026-05-22'
 name: Smithery
 nav: Providers
 network: true
-overview: 'Smithery publishes 9 APIs on the [APIs.io](https://apis.io/) network, including connect API, connect.mcp API, domains API, and 6 more. Tagged areas include Artificial Intelligence, Large Language Models, MCP, AI Agents, and Developer Tools.
+overview: 'Smithery publishes 9 APIs on the [APIs.io](https://apis.io/) network, including connect API, connect.mcp API, domains API, and 6 more. Tagged areas include Artificial Intelligence, LLM, MCP, AI Agents, and Developer Tools.
 
 
   The Smithery catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -320,7 +320,7 @@ plans:
 - name: Smithery Plans Pricing
   plan_count: 3
   slug: smithery-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Smithery Rate Limits
@@ -375,7 +375,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -393,7 +393,7 @@ security:
 slug: smithery
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - MCP
 - AI Agents
 - Developer Tools

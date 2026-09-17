@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -192,11 +192,6 @@ apis:
   slug: stytch-members-api
 - baseURL: https://api.stytch.com
   baseurl_source: declared
-  description: The OAuth API from Stytch — 2 operation(s) for oauth.
-  name: Stytch OAuth API
-  slug: stytch-oauth-api
-- baseURL: https://api.stytch.com
-  baseurl_source: declared
   description: The Organization API from Stytch — 7 operation(s) for organization.
   name: Stytch Organization API
   slug: stytch-organization-api
@@ -280,6 +275,11 @@ apis:
   description: The WebAuthn API from Stytch — 6 operation(s) for webauthn.
   name: Stytch WebAuthn API
   slug: stytch-webauthn-api
+- baseURL: https://api.stytch.com
+  baseurl_source: declared
+  description: The OAuth API from Stytch — 2 operation(s) for oauth.
+  name: Stytch O Auth API
+  slug: stytch-oauth-api
 arazzos:
 - description: Create a B2B organization and email a magic link invite to a new member.
   name: Stytch B2B Create Organization and Invite Member
@@ -3948,7 +3948,7 @@ mcp_servers:
 - description: ''
   name: Stytch MCP Server
   slug: stytch-mcp-server
-modified: '2026-05-22'
+modified: '2026-09-16'
 name: Stytch
 nav: Providers
 network: true
@@ -3963,7 +3963,7 @@ plans:
 - name: Stytch Plans Pricing
   plan_count: 2
   slug: stytch-plans-pricing
-random_paper: 20
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Stytch Rate Limits
@@ -4017,7 +4017,7 @@ score:
       marker_coverage: 0.0
       total: 47
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -4043,5 +4043,6 @@ tags:
 - MCP
 - AI Agents
 - Developer Tools
+- Identity Federation
 website: https://stytch.com
 ---

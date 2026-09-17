@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -106,6 +106,10 @@ collections:
   name: TensorFlow Serving REST API
   slug: open-tensorflow-serving
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tensorflow.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/agentic-access/tensorflow-agentic-access.yml
   title: ''
@@ -300,7 +304,7 @@ jsonld:
   property_count: 15
   slug: tensorflow-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: TensorFlow
 nav: Providers
 network: true
@@ -310,12 +314,12 @@ overview: 'TensorFlow publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The TensorFlow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TensorFlow''s developer surface includes authentication, sandbox, changelog, CLI, engineering blog, YouTube channel, Stack Overflow tag, and 27 more developer resources.'
+  TensorFlow''s developer surface includes authentication, sandbox, changelog, CLI, engineering blog, YouTube channel, Stack Overflow tag, and 28 more developer resources.'
 plans:
 - name: Tensorflow Plans Pricing
   plan_count: 1
   slug: tensorflow-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Tensorflow Rate Limits
@@ -372,7 +376,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -397,4 +401,5 @@ tags:
 - Neural Networks
 - Open-Source
 - Python
+website: https://tensorflow.org
 ---

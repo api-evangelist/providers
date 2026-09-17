@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.mainnet.valora.xyz
@@ -41,11 +41,6 @@ apis:
   description: Divvi Hooks API (positions and shortcuts), served under /hooks-api
   name: Valora hooks API
   slug: valora-hooks-api
-- baseURL: https://api.mainnet.valora.xyz
-  baseurl_source: declared
-  description: NFTs held by an address
-  name: Valora nfts API
-  slug: valora-nfts-api
 - baseURL: https://api.mainnet.valora.xyz
   baseurl_source: declared
   description: Swap quotes
@@ -61,6 +56,11 @@ apis:
   description: Transaction simulation
   name: Valora transactions API
   slug: valora-transactions-api
+- baseURL: https://api.mainnet.valora.xyz
+  baseurl_source: declared
+  description: NFTs held by an address
+  name: Valora Nfts API
+  slug: valora-nfts-api
 artifact_total: 13
 collections:
 - collection_type: open
@@ -198,11 +198,11 @@ modified: '2026-07-21'
 name: Valora
 nav: Providers
 network: true
-overview: 'Valora publishes 5 APIs on the [APIs.io](https://apis.io/) network, including hooks API, nfts API, swaps API, and 2 more. Tagged areas include Company, Cryptocurrency, Wallets, Payments, and DeFi.
+overview: 'Valora publishes 5 APIs on the [APIs.io](https://apis.io/) network, including hooks API, swaps API, tokens API, and 2 more. Tagged areas include Company, Cryptocurrency, Wallets, Payments, and DeFi.
 
 
   Valora''s developer surface includes engineering blog, support, documentation, sandbox, changelog, authentication, and 17 more developer resources.'
-random_paper: 15
+random_paper: 7
 score:
   band: thin
   composite: 26.4
@@ -238,7 +238,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

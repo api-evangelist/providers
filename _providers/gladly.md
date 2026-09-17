@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -306,6 +306,10 @@ collections:
   name: Gladly Agents Webhooks API
   slug: open-gladly-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://gladly.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/capabilities/gladly-capability-edges.yml
   title: ''
@@ -610,7 +614,7 @@ jsonld:
   property_count: 5
   slug: gladly-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-09-16'
 name: Gladly
 nav: Providers
 network: true
@@ -620,12 +624,12 @@ overview: 'Gladly publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
   The Gladly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Gladly''s developer surface includes authentication, developer portal, documentation, API reference, support, getting-started guide, pricing, and 18 more developer resources.'
+  Gladly''s developer surface includes authentication, developer portal, documentation, API reference, support, getting-started guide, pricing, and 19 more developer resources.'
 plans:
 - name: Gladly Plans Pricing
   plan_count: 7
   slug: gladly-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Gladly Rate Limits
@@ -654,7 +658,7 @@ rules:
   slug: gladly-rules
 score:
   band: strong
-  composite: 62.7
+  composite: 62.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 76.5
@@ -662,11 +666,11 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 71.1
     contract_governance: 28.8
-    contract_quality: 70.1
+    contract_quality: 70.7
     developer_ergonomics: 82.1
     discoverability: 53.7
     operational_transparency: 26.3
@@ -685,7 +689,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -742,5 +746,5 @@ use_cases:
   name: CDP-Driven Personalization
 - description: Trigger outbound conversations from order events, delivery delays, or abandoned carts via Proactive Conversations and Communications APIs.
   name: Proactive Outreach
-website: https://www.gladly.ai/
+website: https://gladly.com
 ---

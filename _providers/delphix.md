@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 510
   human_in_the_loop: 15
@@ -71,11 +71,6 @@ apis:
   slug: delphix-classifiers-api
 - baseURL: https://help-api.delphix.com/dct/v3
   baseurl_source: declared
-  description: The CloudAccounts API from Delphix — 7 operation(s) for cloudaccounts.
-  name: Delphix CloudAccounts API
-  slug: delphix-cloudaccounts-api
-- baseURL: https://help-api.delphix.com/dct/v3
-  baseurl_source: declared
   description: The ComplianceJobCollections API from Delphix — 8 operation(s) for compliancejobcollections.
   name: Delphix ComplianceJobCollections API
   slug: delphix-compliancejobcollections-api
@@ -104,11 +99,6 @@ apis:
   description: The DatabaseTemplates API from Delphix — 7 operation(s) for databasetemplates.
   name: Delphix DatabaseTemplates API
   slug: delphix-databasetemplates-api
-- baseURL: https://help-api.delphix.com/dct/v3
-  baseurl_source: declared
-  description: The DataClasses API from Delphix — 8 operation(s) for dataclasses.
-  name: Delphix DataClasses API
-  slug: delphix-dataclasses-api
 - baseURL: https://help-api.delphix.com/dct/v3
   baseurl_source: declared
   description: The DataLayouts API from Delphix — 7 operation(s) for datalayouts.
@@ -344,6 +334,16 @@ apis:
   description: The VirtualizationPolicies API from Delphix — 9 operation(s) for virtualizationpolicies.
   name: Delphix VirtualizationPolicies API
   slug: delphix-virtualizationpolicies-api
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Cloud Accounts API from Delphix — 7 operation(s) for cloud accounts.
+  name: Delphix Cloud Accounts API
+  slug: delphix-cloud-accounts-api
+- baseURL: https://help-api.delphix.com/dct/v3
+  baseurl_source: declared
+  description: The Data Classes API from Delphix — 8 operation(s) for data classes.
+  name: Delphix Data Classes API
+  slug: delphix-data-classes-api
 artifact_total: 125
 collections:
 - collection_type: open
@@ -701,7 +701,7 @@ overview: 'Delphix publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Delphix''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 27 more developer resources.'
-random_paper: 15
+random_paper: 2
 score:
   band: developing
   composite: 44.4
@@ -732,7 +732,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

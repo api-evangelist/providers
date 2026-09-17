@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://vaynermedia.com/wp-json
@@ -40,11 +40,6 @@ apis:
   description: Salient theme global sections (custom post type).
   name: VaynerMedia Blocks API
   slug: vaynermedia-blocks-api
-- baseURL: https://vaynermedia.com/wp-json
-  baseurl_source: declared
-  description: VaynerMedia client case studies (custom post type).
-  name: VaynerMedia Case Studies API
-  slug: vaynermedia-casestudies-api
 - baseURL: https://vaynermedia.com/wp-json
   baseurl_source: declared
   description: Post categories taxonomy.
@@ -100,6 +95,11 @@ apis:
   description: Registered post types.
   name: VaynerMedia Types API
   slug: vaynermedia-types-api
+- baseURL: https://vaynermedia.com/wp-json
+  baseurl_source: declared
+  description: VaynerMedia client case studies (custom post type).
+  name: VaynerMedia Case Studies API
+  slug: vaynermedia-case-studies-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -283,7 +283,7 @@ modified: '2026-08-12'
 name: VaynerMedia
 nav: Providers
 network: true
-overview: 'VaynerMedia publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Case Studies API, Categories API, and 10 more. Tagged areas include Advertising, Agency, Brand Strategy, Content Production, and Creative.
+overview: 'VaynerMedia publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Categories API, Comments API, and 10 more. Tagged areas include Advertising, Agency, Brand Strategy, Content Production, and Creative.
 
 
   VaynerMedia''s developer surface includes authentication, engineering blog, YouTube channel, and 36 more developer resources.'
@@ -291,7 +291,7 @@ plans:
 - name: Vaynermedia Plans Pricing
   plan_count: 0
   slug: vaynermedia-plans-pricing
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Vaynermedia Rate Limits
@@ -330,7 +330,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

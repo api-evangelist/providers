@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -101,11 +101,6 @@ apis:
   slug: lichess-messaging-api
 - baseURL: https://lichess.org
   baseurl_source: declared
-  description: Obtaining and revoking OAuth tokens. [Read about the Lichess API authentication methods and code examples](https://github.com/lichess-org/api/blob/master/example/README.md).
-  name: Lichess OAuth API
-  slug: lichess-oauth-api
-- baseURL: https://lichess.org
-  baseurl_source: declared
   description: Lookup positions from the [Lichess opening explorer](https://lichess.org/analysis#explorer). Runs <https://github.com/lichess-org/lila-openingexplorer>. > [!important] > The hostname for these endpoin
   name: Lichess Opening Explorer API
   slug: lichess-opening-explorer-api
@@ -159,6 +154,11 @@ apis:
   description: 'Access registered users on Lichess. <https://lichess.org/player> - Each user blog exposes an atom (RSS) feed, like <https://lichess.org/@/thibault/blog.atom> - User blogs mashup feed: https://lichess.'
   name: Lichess Users API
   slug: lichess-users-api
+- baseURL: https://lichess.org
+  baseurl_source: declared
+  description: Obtaining and revoking OAuth tokens. [Read about the Lichess API authentication methods and code examples](https://github.com/lichess-org/api/blob/master/example/README.md).
+  name: Lichess O Auth API
+  slug: lichess-oauth-api
 artifact_total: 111
 asyncapis:
 - description: AsyncAPI description of Lichess's streaming surface. Lichess does NOT expose its public real-time API over WebSocket; instead, streams are delivered over plain HTTPS using chunked transfer encoding, w
@@ -575,7 +575,7 @@ plans:
 - name: Lichess Plans Pricing
   plan_count: 2
   slug: lichess-plans-pricing
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 16
   name: Lichess Rate Limits
@@ -644,7 +644,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

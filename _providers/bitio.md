@@ -19,7 +19,7 @@ name: Bit.io
 nav: Providers
 network: true
 overview: Bit.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, PostgreSQL, Serverless, and Data.
-random_paper: 10
+random_paper: 7
 slug: bitio
 tags:
 - Company

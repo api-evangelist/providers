@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The single GraphQL endpoint behind the Masterworks web and mobile apps, covering art offerings, artists, auction and repeat-sale data, contributions, agreements and e-signature, KYC and accreditation,
@@ -152,7 +152,7 @@ overview: 'Masterworks publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Masterworks'' developer surface includes authentication, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: emerging
   composite: 19.8
@@ -181,7 +181,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

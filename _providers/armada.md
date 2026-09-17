@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -146,11 +146,6 @@ apis:
   slug: armada-network-api
 - baseURL: https://console.armada.ai
   baseurl_source: declared
-  description: The PaaS API from Armada — 3 operation(s) for paas.
-  name: Armada PaaS API
-  slug: armada-paas-api
-- baseURL: https://console.armada.ai
-  baseurl_source: declared
   description: The Quotas API from Armada — 9 operation(s) for quotas.
   name: Armada Quotas API
   slug: armada-quotas-api
@@ -201,14 +196,19 @@ apis:
   slug: armada-tenants-api
 - baseURL: https://console.armada.ai
   baseurl_source: declared
-  description: The VMs API from Armada — 11 operation(s) for vms.
-  name: Armada VMs API
-  slug: armada-vms-api
-- baseURL: https://console.armada.ai
-  baseurl_source: declared
   description: The VPC API from Armada — 4 operation(s) for vpc.
   name: Armada VPC API
   slug: armada-vpc-api
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The VMs API from Armada — 11 operation(s) for vms.
+  name: Armada V Ms API
+  slug: armada-vms-api
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Paa S API from Armada — 3 operation(s) for paa s.
+  name: Armada Paa S API
+  slug: armada-paa-s-api
 artifact_total: 70
 collections:
 - collection_type: open
@@ -423,10 +423,10 @@ overview: 'Armada publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Armada''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 5
+random_paper: 20
 score:
   band: thin
-  composite: 31.3
+  composite: 31.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -434,11 +434,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 17.1
     contract_governance: 4.5
-    contract_quality: 46.0
+    contract_quality: 48.3
     developer_ergonomics: 44.6
     discoverability: 75.9
     operational_transparency: 0.0
@@ -454,7 +454,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

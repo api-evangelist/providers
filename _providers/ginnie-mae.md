@@ -34,19 +34,94 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: Ginnie Mae's security- and loan-level disclosure for its mortgage-backed securities — daily, weekly, monthly and factor files covering single-family MBS, HMBS, Multifamily, REMIC and Platinum, plus th
   name: Ginnie Mae Disclosure Data
   slug: ginnie-mae
-- baseURL: https://www.ginniemae.gov/api/v1
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
   baseurl_source: declared
-  description: 'The public, unauthenticated JSON:API 1.0 surface that ginniemae.gov''s Angular single-page application is built on. A Drupal 10 back end exposes 120 resource types at https://www.ginniemae.gov/api/v1/ '
-  name: Ginnie Mae Content API
-  slug: ginnie-mae-content-api
-artifact_total: 8
+  description: The Block Content API from Ginnie Mae — 4 operation(s) for block content.
+  name: Ginnie Mae Block Content API
+  slug: ginnie-mae-block-content-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Disclosure API from Ginnie Mae — 1 operation(s) for disclosure.
+  name: Ginnie Mae Disclosure API
+  slug: ginnie-mae-disclosure-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Discovery API from Ginnie Mae — 2 operation(s) for discovery.
+  name: Ginnie Mae Discovery API
+  slug: ginnie-mae-discovery-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Entity Subqueue API from Ginnie Mae — 12 operation(s) for entity subqueue.
+  name: Ginnie Mae Entity Subqueue API
+  slug: ginnie-mae-entity-subqueue-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The FAQ API from Ginnie Mae — 3 operation(s) for faq.
+  name: Ginnie Mae FAQ API
+  slug: ginnie-mae-faq-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The File API from Ginnie Mae — 2 operation(s) for file.
+  name: Ginnie Mae File API
+  slug: ginnie-mae-file-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Media API from Ginnie Mae — 18 operation(s) for media.
+  name: Ginnie Mae Media API
+  slug: ginnie-mae-media-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Menu API from Ginnie Mae — 2 operation(s) for menu.
+  name: Ginnie Mae Menu API
+  slug: ginnie-mae-menu-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Menu Link Content API from Ginnie Mae — 2 operation(s) for menu link content.
+  name: Ginnie Mae Menu Link Content API
+  slug: ginnie-mae-menu-link-content-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Newsroom API from Ginnie Mae — 1 operation(s) for newsroom.
+  name: Ginnie Mae Newsroom API
+  slug: ginnie-mae-newsroom-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Node API from Ginnie Mae — 36 operation(s) for node.
+  name: Ginnie Mae Node API
+  slug: ginnie-mae-node-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Paragraph API from Ginnie Mae — 48 operation(s) for paragraph.
+  name: Ginnie Mae Paragraph API
+  slug: ginnie-mae-paragraph-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Search API from Ginnie Mae — 1 operation(s) for search.
+  name: Ginnie Mae Search API
+  slug: ginnie-mae-search-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Site Content API from Ginnie Mae — 3 operation(s) for site content.
+  name: Ginnie Mae Site Content API
+  slug: ginnie-mae-site-content-api
+- baseURL: https://www.ginniemae.gov/disclosure-api/api
+  baseurl_source: declared
+  description: The Taxonomy Term API from Ginnie Mae — 12 operation(s) for taxonomy term.
+  name: Ginnie Mae Taxonomy Term API
+  slug: ginnie-mae-taxonomy-term-api
+artifact_total: 22
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ginnie-mae/refs/heads/main/overlays/ginnie-mae-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/ginnie-mae-content-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -126,15 +201,15 @@ modified: '2026-09-12'
 name: Ginnie Mae
 nav: Providers
 network: true
-overview: 'Ginnie Mae publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Federal-Government, Housing, Mortgages, Mortgage-Backed Securities, and Open Data.
+overview: 'Ginnie Mae publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Block Content API, Disclosure API, Discovery API, and 12 more. Tagged areas include Federal-Government, Housing, Mortgage, Mortgage-Backed Securities, and Open Data.
 
 
-  Ginnie Mae''s developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
+  Ginnie Mae''s developer surface includes engineering blog, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Ginnie Mae Plans Pricing
   plan_count: 0
   slug: ginnie-mae-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Ginnie Mae Rate Limits
@@ -153,7 +228,7 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 18.2
-    contract_quality: 54.4
+    contract_quality: 54.1
     developer_ergonomics: 32.7
     discoverability: 75.9
     operational_transparency: 0.0
@@ -164,7 +239,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 15
     mcp: derived
     skills: derived
   regulatory:
@@ -174,7 +249,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -198,7 +273,7 @@ slug: ginnie-mae
 tags:
 - Federal-Government
 - Housing
-- Mortgages
+- Mortgage
 - Mortgage-Backed Securities
 - Open Data
 - Content

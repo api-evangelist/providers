@@ -32,12 +32,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.0
-  scored_at: '2026-09-15'
+  score: 52.3
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 2
@@ -49,10 +49,120 @@ api_count: 1
 apis:
 - baseURL: https://apiprod.fattlabs.com
   baseurl_source: declared
-  description: The Stax REST API (published as "stax-api") exposes 133 operations across 101 paths at https://apiprod.fattlabs.com — the Merchant API for payments, payment methods, customers, invoices, payment links
-  name: Stax API
-  slug: stax-api
-artifact_total: 10
+  description: The Admin API from Stax — 1 operation(s) for admin.
+  name: Stax Admin API
+  slug: stax-admin-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Charge API from Stax — 1 operation(s) for charge.
+  name: Stax Charge API
+  slug: stax-charge-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Credit API from Stax — 1 operation(s) for credit.
+  name: Stax Credit API
+  slug: stax-credit-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Customer API from Stax — 3 operation(s) for customer.
+  name: Stax Customer API
+  slug: stax-customer-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Ephemeral API from Stax — 1 operation(s) for ephemeral.
+  name: Stax Ephemeral API
+  slug: stax-ephemeral-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The File API from Stax — 5 operation(s) for file.
+  name: Stax File API
+  slug: stax-file-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The File{id} API from Stax — 1 operation(s) for file{id}.
+  name: Stax File{id} API
+  slug: stax-file-id-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Forgot API from Stax — 1 operation(s) for forgot.
+  name: Stax Forgot API
+  slug: stax-forgot-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Invoice API from Stax — 9 operation(s) for invoice.
+  name: Stax Invoice API
+  slug: stax-invoice-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Item API from Stax — 5 operation(s) for item.
+  name: Stax Item API
+  slug: stax-item-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Merchant API from Stax — 7 operation(s) for merchant.
+  name: Stax Merchant API
+  slug: stax-merchant-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Payment Method API from Stax — 4 operation(s) for payment method.
+  name: Stax Payment Method API
+  slug: stax-payment-method-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Query API from Stax — 14 operation(s) for query.
+  name: Stax Query API
+  slug: stax-query-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Reset API from Stax — 1 operation(s) for reset.
+  name: Stax Reset API
+  slug: stax-reset-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Self API from Stax — 4 operation(s) for self.
+  name: Stax Self API
+  slug: stax-self-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Surcharge API from Stax — 1 operation(s) for surcharge.
+  name: Stax Surcharge API
+  slug: stax-surcharge-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Team API from Stax — 8 operation(s) for team.
+  name: Stax Team API
+  slug: stax-team-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Terminal API from Stax — 13 operation(s) for terminal.
+  name: Stax Terminal API
+  slug: stax-terminal-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Transaction API from Stax — 11 operation(s) for transaction.
+  name: Stax Transaction API
+  slug: stax-transaction-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Underwriting API from Stax — 5 operation(s) for underwriting.
+  name: Stax Underwriting API
+  slug: stax-underwriting-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Verify API from Stax — 1 operation(s) for verify.
+  name: Stax Verify API
+  slug: stax-verify-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Webhook API from Stax — 2 operation(s) for webhook.
+  name: Stax Webhook API
+  slug: stax-webhook-api
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Webhookadmin API from Stax — 2 operation(s) for webhookadmin.
+  name: Stax Webhookadmin API
+  slug: stax-webhookadmin-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Stax Webhooks
@@ -260,10 +370,10 @@ common:
   type: Overlay
   url: overlays/stax-api-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/stax-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/openapi/_original/stax-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/stax-api-openapi.json
+  url: openapi/_original/stax-api-openapi.json
 created: '2026-08-29'
 description: Stax (formerly Fattmerchant) is an Orlando, Florida payments technology company that sells subscription-priced payment processing to small and large merchants (Stax Pay), embedded payments and merchant onboarding to SaaS platforms and ISVs (Stax Connect), compliant credit-card surcharging (CardX by Stax), automated subscription billing (Stax Bill), and full-stack processing for partners and ISOs (Stax Processing). Its public REST API at apiprod.fattlabs.com covers charges, credits, refunds and voids, stored payment methods and tokenization, customers, invoices and invoice schedules, payment links, catalog items, terminals and card-present devices, merchant enrollment and underwriting, disputes, statements and deposit reporting, teams, users and API keys, and merchant- and partner-level webhooks. Stax.js handles browser tokenization; iOS and Android SDKs cover card-present and Tap to Pay. Stax Payments, Inc. is a registered ISO/MSP of Fifth Third Bank and Synovus Bank and a registered
   partner/ISO of Elavon, Inc.
@@ -273,11 +383,11 @@ mcp_servers:
 - description: 'Stax hosts a remote MCP server at https://docs.staxpayments.com/mcp. It answered an anonymous initialize + tools/list on 2026-08-29 (protocolVersion 2025-06-18, serverInfo {name: ''Stax Docs'', version:'
   name: Stax Docs MCP Server
   slug: stax-docs-mcp-server
-modified: '2026-08-29'
+modified: '2026-09-16'
 name: Stax
 nav: Providers
 network: true
-overview: 'Stax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Payment Processing, Merchant Services, Embedded Payments, and ACH.
+overview: 'Stax publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Charge API, Credit API, and 20 more. Tagged areas include Payments, Payment Processing, Merchant Services, Embedded Payments, and ACH.
 
 
   The Stax catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -288,14 +398,14 @@ plans:
 - name: Stax Plans Pricing
   plan_count: 4
   slug: stax-plans-pricing
-random_paper: 7
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Stax Rate Limits
   slug: stax-rate-limits
 score:
   band: exemplar
-  composite: 75.3
+  composite: 76.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 61.0
@@ -303,11 +413,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 62.6
+    contract_quality: 67.0
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 84.2
@@ -319,7 +429,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 23
     mcp: first-party
     skills: derived
   regulatory:
@@ -329,7 +439,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

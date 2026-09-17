@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 9
-  human_in_the_loop: 0
+- acting_count: 34
+  human_in_the_loop: 1
   name: Canva Agentic Access
-  operation_count: 22
+  operation_count: 81
   slug: canva-agentic-access
-  summary_line: 22 operations · 9 acting
+  summary_line: 81 operations · 34 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: Build apps that extend Canva's editor with custom functionality, content, and integrations.
@@ -167,11 +167,6 @@ apis:
   slug: canva-merge-api
 - baseURL: https://api.canva.com
   baseurl_source: declared
-  description: The oauth API from Canva — 3 operation(s) for oauth.
-  name: Canva OAUTH API
-  slug: canva-oauth-api
-- baseURL: https://api.canva.com
-  baseurl_source: declared
   description: The oidc API from Canva — 2 operation(s) for oidc.
   name: Canva Oidc API
   slug: canva-oidc-api
@@ -185,6 +180,11 @@ apis:
   description: The user API from Canva — 3 operation(s) for user.
   name: Canva User API
   slug: canva-user-api
+- baseURL: https://api.canva.com
+  baseurl_source: declared
+  description: The OAuth API from Canva — 3 operation(s) for oauth.
+  name: Canva O Auth API
+  slug: canva-oauth-api
 artifact_total: 259
 asyncapis:
 - description: ''
@@ -252,6 +252,10 @@ collections:
   name: Canva Connect Assets Users API
   slug: open-canva-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://canva.dev
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1107,7 +1111,7 @@ mcp_servers:
 - description: 'Canva ships TWO distinct MCP surfaces and they are not interchangeable. (1) A hosted, remote MCP server at https://mcp.canva.com/mcp — the "Canva AI Connector" — which an MCP client POSTs to directly '
   name: Canva MCP Server
   slug: canva-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Canva
 nav: Providers
 network: true
@@ -1117,12 +1121,12 @@ overview: 'Canva publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
   The Canva catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Canva''s developer surface includes authentication, support, documentation, engineering blog, changelog, legal docs, FAQ, and 60 more developer resources.'
+  Canva''s developer surface includes authentication, support, documentation, engineering blog, changelog, legal docs, FAQ, and 61 more developer resources.'
 plans:
 - name: Canva Plans Pricing
   plan_count: 0
   slug: canva-plans-pricing
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Canva Rate Limits
@@ -1155,22 +1159,22 @@ scopes:
   slug: canva-scopes
   summary_line: 18 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.1
+  band: strong
+  composite: 64.9
   coverage:
     artifact_dirs: 33
-    catalog_earned: 55.5
+    catalog_earned: 39.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 75.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 55.3
     contract_governance: 31.8
-    contract_quality: 80.8
+    contract_quality: 79.4
     developer_ergonomics: 79.8
-    discoverability: 77.8
+    discoverability: 59.3
     operational_transparency: 60.5
   previous_composite: 67.1
   provenance:
@@ -1184,7 +1188,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1246,5 +1250,5 @@ use_cases:
   name: Brand Consistency
 - description: Create and export social media graphics in multiple formats and sizes for cross-platform publishing.
   name: Social Media Publishing
-website: https://www.canva.com/developers/
+website: https://canva.dev
 ---

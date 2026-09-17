@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,7 +70,7 @@ name: Bravado
 nav: Providers
 network: true
 overview: Bravado is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Community, Sales Enablement, and Careers.
-random_paper: 0
+random_paper: 9
 score:
   band: minimal
   composite: 5.0
@@ -96,7 +96,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

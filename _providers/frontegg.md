@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -110,11 +110,6 @@ apis:
   description: The Approval Flows API from Frontegg — 6 operation(s) for approval flows.
   name: Frontegg Approval Flows API
   slug: frontegg-approval-flows-api
-- baseURL: https://api.frontegg.com/identity
-  baseurl_source: declared
-  description: The Authenticate With Env Credentials API from Frontegg — 1 operation(s) for authenticate with env credentials.
-  name: Frontegg Authenticate With Env Credentials API
-  slug: frontegg-authenticate-with-env-credentials-api
 - baseURL: https://api.frontegg.com/identity
   baseurl_source: declared
   description: The Core Settings API from Frontegg — 7 operation(s) for core settings.
@@ -257,11 +252,6 @@ apis:
   slug: frontegg-rebac-api
 - baseURL: https://api.frontegg.com/identity
   baseurl_source: declared
-  description: The Resources API from Frontegg — 1 operation(s) for resources.
-  name: Frontegg Resources API
-  slug: frontegg-resources-api
-- baseURL: https://api.frontegg.com/identity
-  baseurl_source: declared
   description: The Roles API from Frontegg — 4 operation(s) for roles.
   name: Frontegg Roles API
   slug: frontegg-roles-api
@@ -322,11 +312,6 @@ apis:
   slug: frontegg-sub-accounts-and-hierarchy-api
 - baseURL: https://api.frontegg.com/identity
   baseurl_source: declared
-  description: The Sub-accounts API from Frontegg — 7 operation(s) for sub-accounts.
-  name: Frontegg Sub-accounts API
-  slug: frontegg-sub-accounts-api
-- baseURL: https://api.frontegg.com/identity
-  baseurl_source: declared
   description: The Tenants_other API from Frontegg — 1 operation(s) for tenants_other.
   name: Frontegg Tenants_other API
   slug: frontegg-tenants-other-api
@@ -365,7 +350,12 @@ apis:
   description: The Users-applications Management API from Frontegg — 4 operation(s) for users-applications management.
   name: Frontegg Users-applications Management API
   slug: frontegg-users-applications-management-api
-artifact_total: 200
+- baseURL: https://api.frontegg.com
+  baseurl_source: declared
+  description: The Subaccounts API from Frontegg — 7 operation(s) for subaccounts.
+  name: Frontegg Subaccounts API
+  slug: frontegg-subaccounts-api
+artifact_total: 198
 asyncapis:
 - description: AsyncAPI 2.6 description of Frontegg's outbound webhook surface. Frontegg signs each delivery with an `x-webhook-secret` header containing the configured signing secret, and treats any 2XX HTTP respon
   name: Frontegg Webhooks
@@ -900,11 +890,11 @@ jsonld:
   property_count: 34
   slug: frontegg-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Frontegg
 nav: Providers
 network: true
-overview: 'Frontegg publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account Invitations API, Account Invitations Settings API, and 61 more. Tagged areas include Authentication, Authorization, Identity Management, CIAM, and B2B SaaS.
+overview: 'Frontegg publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account Invitations API, Account Invitations Settings API, and 59 more. Tagged areas include Authentication, Authorization, Identity Management, CIAM, and B2B SaaS.
 
 
   The Frontegg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 11 Spectral governance rulesets.
@@ -915,7 +905,7 @@ plans:
 - name: Frontegg Plans Pricing
   plan_count: 2
   slug: frontegg-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 8
   name: Frontegg Rate Limits
@@ -1043,32 +1033,32 @@ rules:
   slug: frontegg-tenants-rules
 score:
   band: exemplar
-  composite: 67.5
+  composite: 67.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 89.0
+    catalog_earned: 94.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 26.0
+    catalog_gap: 21.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 52.6
     contract_governance: 69.7
-    contract_quality: 65.1
+    contract_quality: 60.5
     developer_ergonomics: 57.1
-    discoverability: 66.7
+    discoverability: 75.9
     operational_transparency: 68.4
   previous_composite: 67.5
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 1.6
       derived: 0
       marker_coverage: 0.0
-      total: 63
+      total: 61
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1096,5 +1086,6 @@ tags:
 - SCIM
 - Entitlements
 - OpenID Connect
+- Identity Federation
 website: https://www.frontegg.com/
 ---

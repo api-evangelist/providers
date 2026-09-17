@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The agent-driven commerce surface exposed on the aventon.com Shopify storefront via the Universal Commerce Protocol (ucp.dev). An MCP endpoint offers catalog search, cart, checkout, discount, fulfillm
@@ -104,7 +104,7 @@ overview: 'Aventon publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Aventon''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 7
+random_paper: 15
 scopes:
 - name: Aventon Scopes
   scope_count: 4
@@ -133,7 +133,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -156,7 +156,7 @@ tags:
 - Electric Bikes
 - E-Commerce
 - Retail
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 - Universal Commerce Protocol
 website: https://aventon.com

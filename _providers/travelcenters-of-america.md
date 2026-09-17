@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ modified: '2026-05-19'
 name: TravelCenters of America
 nav: Providers
 network: true
-overview: 'TravelCenters of America publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fuel Codes API, Locations API, Parking API, and 3 more. Tagged areas include Travel Centers, Truck Service, Retail, Fuel, and Locations.
+overview: 'TravelCenters of America publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fuel Codes API, Locations API, Parking API, and 3 more. Tagged areas include Travel Centers, Truck Service, Retail, Fuel, and Location.
 
 
   The TravelCenters of America catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -196,7 +196,7 @@ press:
 - date: '2026-05-25'
   title: TravelCenters of America and NATSO Foundation Work to ...
   url: https://www.prnewswire.com/news-releases/travelcenters-of-america-and-natso-foundation-work-to-enhance-safety-for-roadside-service-technicians-302112405.html
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Travelcenters Of America Rate Limits
@@ -250,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -272,7 +272,7 @@ tags:
 - Truck Service
 - Retail
 - Fuel
-- Locations
+- Location
 - Trucking
 - Fleet Management
 - Fortune 500

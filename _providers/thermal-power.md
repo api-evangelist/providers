@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://api.eia.gov/v2
   baseurl_source: declared
   description: Electric power operational statistics by fuel type.
-  name: Thermal Power Power Operations API
+  name: Thermal Power Operations API
   slug: thermal-power-power-operations-api
 artifact_total: 21
 collections:
@@ -141,11 +141,11 @@ jsonld:
   property_count: 3
   slug: thermal-power-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Thermal Power
 nav: Providers
 network: true
-overview: 'Thermal Power publishes 3 APIs on the [APIs.io](https://apis.io/) network: Capacity API, Plant Operations API, and Power Operations API. Tagged areas include Energy, Thermal Power, Power Generation, Electricity, and Coal.
+overview: 'Thermal Power publishes 3 APIs on the [APIs.io](https://apis.io/) network: Capacity API, Plant Operations API, and Operations API. Tagged areas include Energy, Thermal Power, Power Generation, Electricity, and Coal.
 
 
   The Thermal Power catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -156,7 +156,7 @@ plans:
 - name: Thermal Power Plans Pricing
   plan_count: 3
   slug: thermal-power-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Thermal Power Rate Limits
@@ -215,7 +215,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

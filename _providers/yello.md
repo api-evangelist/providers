@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'A remote Model Context Protocol (streamable HTTP) server operated by WayUp, a Yello company, at https://www.wayup.com/mcp. Discovered by probe: the host publishes RFC 9728 protected-resource metadata '
@@ -143,7 +143,7 @@ plans:
 - name: Yello Plans Pricing
   plan_count: 0
   slug: yello-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Yello Rate Limits
@@ -195,7 +195,7 @@ score:
     regime_id: government
     score: 88.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

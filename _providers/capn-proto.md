@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: The Cap'n Proto schema language is used to define message types in .capnp files that are then compiled into native code for each supported language. The schema language defines structs, unions, enums,
@@ -114,7 +114,7 @@ plans:
 - name: Capn Proto Plans Pricing
   plan_count: 3
   slug: capn-proto-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Capn Proto Rate Limits
@@ -139,7 +139,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

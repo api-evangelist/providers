@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Panera tests automated coffee brewing system
   url: https://www.facebook.com/groups/334753240947835/posts/653552035734619/
-random_paper: 10
+random_paper: 20
 score:
   band: minimal
   composite: 4.1
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

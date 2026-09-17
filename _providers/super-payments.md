@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.superpayments.com/2026-04-01
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://api.superpayments.com/2026-04-01
   baseurl_source: declared
   description: Payment processing and management
-  name: Super Payments Payments API
+  name: Super Payments API
   slug: super-payments-payments-api
 - baseURL: https://api.superpayments.com/2026-04-01
   baseurl_source: declared
@@ -319,7 +319,7 @@ created: '2026-07-17'
 description: Super Payments is a UK payments provider offering free card and open-banking (pay-by-bank) payment processing for businesses, funded by a customer-acquisition and cash-rewards model rather than per-transaction fees. Its REST API lets merchants create payments and checkout sessions, issue refunds, manage customers and reusable payment methods, run settlements and reconciliation, create no-code payment links, and configure cash rewards. The API uses date-based URL versioning, static API-key authentication, RFC 9457 problem+json errors, cursor pagination, HMAC-signed webhooks, an embedded super-card web component and hosted payment page, and a React Native SDK. Backed by Accel and Union Square Ventures.
 image: https://framerusercontent.com/images/eAdDRGD6sLo1NlXEu8bPS71k.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Super Payments
 nav: Providers
 network: true
@@ -330,7 +330,7 @@ overview: 'Super Payments publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Super Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Super Payments Rate Limits
@@ -378,7 +378,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

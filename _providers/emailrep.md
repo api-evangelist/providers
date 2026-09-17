@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,19 +24,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: platform
-    openapi_examples: verified
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-09-15'
+  score: 27.0
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,14 +48,14 @@ api_count: 1
 apis:
 - baseURL: https://emailrep.io
   baseurl_source: declared
-  description: Report email addresses as malicious so the reputation graph picks up the signal.
-  name: EmailRep Reports API
-  slug: emailrep-reports-api
+  description: The Query email address API from EmailRep — 1 operation(s) for query email address.
+  name: EmailRep Query email address API
+  slug: emailrep-query-email-address-api
 - baseURL: https://emailrep.io
   baseurl_source: declared
-  description: Query email address reputation and threat-intelligence signals.
-  name: EmailRep Reputation API
-  slug: emailrep-reputation-api
+  description: The Report email address API from EmailRep — 1 operation(s) for report email address.
+  name: EmailRep Report email address API
+  slug: emailrep-report-email-address-api
 arazzos:
 - description: Query an email's reputation and, when the signals show it is malicious, report it back into the reputation graph.
   name: EmailRep Screen and Report Malicious Sender
@@ -439,7 +439,7 @@ modified: '2026-08-13'
 name: EmailRep
 nav: Providers
 network: true
-overview: 'EmailRep publishes 2 APIs on the [APIs.io](https://apis.io/) network: Reports API and Reputation API. Tagged areas include Security, Email, Email Reputation, Threat Intelligence, and Phishing.
+overview: 'EmailRep publishes 2 APIs on the [APIs.io](https://apis.io/) network: Query email address API and Report email address API. Tagged areas include Security, Email, Email Reputation, Threat Intelligence, and Phishing.
 
 
   The EmailRep catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -450,7 +450,7 @@ plans:
 - name: Emailrep Plans Pricing
   plan_count: 3
   slug: emailrep-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Emailrep Rate Limits
@@ -479,7 +479,7 @@ rules:
   slug: emailrep-spectral-rules
 score:
   band: developing
-  composite: 47.5
+  composite: 53.3
   coverage:
     artifact_dirs: 30
     catalog_earned: 81.5
@@ -487,11 +487,11 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
     access_clarity: 69.7
     contract_governance: 33.3
-    contract_quality: 22.8
+    contract_quality: 46.2
     developer_ergonomics: 62.5
     discoverability: 75.9
     operational_transparency: 34.2
@@ -501,14 +501,14 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
-      marker_coverage: 100.0
+      derived: 1
+      marker_coverage: 33.3
       total: 3
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

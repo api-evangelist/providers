@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'Modern RESTful API for payee onboarding, payment processing, invoice management, and procurement workflows. Uses JSON encoding, OAuth 2.0 authentication, and supports operations across 200+ countries '
@@ -149,7 +149,7 @@ plans:
 - name: Tipalti Plans Pricing
   plan_count: 5
   slug: tipalti-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Tipalti Rate Limits
@@ -180,7 +180,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

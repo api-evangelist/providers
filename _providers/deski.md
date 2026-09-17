@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -204,7 +204,7 @@ plans:
 - name: Deski Plans Pricing
   plan_count: 3
   slug: deski-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Deski Rate Limits
@@ -245,7 +245,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -270,7 +270,7 @@ tags:
 - Ultrasound
 - Point-of-Care Ultrasound
 - Artificial Intelligence
-- Medical Device
+- Medical Devices
 - DICOM
 - France
 website: https://www.heartfocus.ai/

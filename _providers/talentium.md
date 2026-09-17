@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,11 +99,11 @@ modified: '2026-07-21'
 name: Talentium
 nav: Providers
 network: true
-overview: 'Talentium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Recruiting, Hiring, and HR Tech.
+overview: 'Talentium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Recruiting, Hiring, and Human Resources.
 
 
   Talentium''s developer surface includes pricing, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: emerging
   composite: 19.9
@@ -126,7 +126,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -144,7 +144,7 @@ tags:
 - Artificial Intelligence
 - Recruiting
 - Hiring
-- HR Tech
+- Human Resources
 - Talent Acquisition
 - Candidate Sourcing
 - Applicant Tracking

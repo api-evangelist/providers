@@ -34,7 +34,7 @@ name: Faraday Pharmaceuticals
 nav: Providers
 network: true
 overview: Faraday Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Life Sciences, and Clinical Trials.
-random_paper: 11
+random_paper: 9
 security:
 - kind: domain-security
   name: Faraday Pharmaceuticals Domain Security

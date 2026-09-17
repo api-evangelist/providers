@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Synse Server exposes a uniform HTTP and WebSocket API for reading from and writing to physical and virtual devices through protocol-specific plugins. The same 18 operations are available over both tra
@@ -179,7 +179,7 @@ modified: '2026-09-02'
 name: Vapor IO
 nav: Providers
 network: true
-overview: 'Vapor IO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edge Computing, Data Centers, Colocation, and Infrastructure.
+overview: 'Vapor IO publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edge Computing, Data-Center, Colocation, and Infrastructure.
 
 
   The Vapor IO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,7 +190,7 @@ plans:
 - name: Vapor Io Plans Pricing
   plan_count: 0
   slug: vapor-io-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Vapor Io Rate Limits
@@ -219,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -238,7 +238,7 @@ slug: vapor-io
 tags:
 - Company
 - Edge Computing
-- Data Centers
+- Data-Center
 - Colocation
 - Infrastructure
 - Device Management

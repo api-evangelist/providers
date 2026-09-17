@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -61,11 +61,6 @@ apis:
   slug: parkwhiz-monthly-parking-api
 - baseURL: https://api.parkwhiz.com/v4
   baseurl_source: declared
-  description: Token issuance for partner and user authorization.
-  name: ParkWhiz OAuth API
-  slug: parkwhiz-oauth-api
-- baseURL: https://api.parkwhiz.com/v4
-  baseurl_source: declared
   description: Search bookable availability and pricing, and parking location details.
   name: ParkWhiz Quotes & Locations API
   slug: parkwhiz-quotes-locations-api
@@ -79,6 +74,11 @@ apis:
   description: Venue and event lookup for event parking.
   name: ParkWhiz Venues & Events API
   slug: parkwhiz-venues-events-api
+- baseURL: https://api.parkwhiz.com/v4
+  baseurl_source: declared
+  description: Token issuance for partner and user authorization.
+  name: ParkWhiz O Auth API
+  slug: parkwhiz-oauth-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -189,7 +189,7 @@ modified: '2026-07-03'
 name: ParkWhiz
 nav: Providers
 network: true
-overview: 'ParkWhiz publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts & Vehicles API, Bookings API, Monthly Parking API, and 4 more. Tagged areas include Parking, Mobility, Reservations, Bookings, and Transportation.
+overview: 'ParkWhiz publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts & Vehicles API, Bookings API, Monthly Parking API, and 4 more. Tagged areas include Parking, Mobility, Reservations, Booking, and Transportation.
 
 
   ParkWhiz''s developer surface includes authentication, documentation, getting-started guide, changelog, SDKs, and 10 more developer resources.'
@@ -197,7 +197,7 @@ plans:
 - name: Parkwhiz Plans Pricing
   plan_count: 3
   slug: parkwhiz-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Parkwhiz Rate Limits
@@ -234,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -254,7 +254,7 @@ tags:
 - Parking
 - Mobility
 - Reservations
-- Bookings
+- Booking
 - Transportation
 - Location
 - Event

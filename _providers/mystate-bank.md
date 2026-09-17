@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
@@ -71,12 +71,7 @@ apis:
   description: Banking Product endpoints
   name: MyState Bank Banking Products API
   slug: mystate-bank-banking-products-api
-- baseURL: https://public.cdr.mystate.com.au/cds-au/v1/banking/products
-  baseurl_source: declared
-  description: The Products API from MyState Bank — 2 operation(s) for products.
-  name: MyState Bank Products API
-  slug: mystate-bank-products-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -214,14 +209,14 @@ modified: '2026-07-21'
 name: MyState Bank
 nav: Providers
 network: true
-overview: 'MyState Bank publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 5 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Data Right.
+overview: 'MyState Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Data Right.
 
 
   MyState Bank''s developer surface includes support, documentation, authentication, and 19 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: thin
-  composite: 33.7
+  composite: 32.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 37.0
@@ -229,7 +224,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
@@ -248,10 +243,10 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 12.5
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -259,9 +254,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 41.8
+    score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

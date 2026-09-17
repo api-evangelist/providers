@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.voltairlabs.com
-  baseurl_source: declared
-  description: The ApiKeys API from Voltair — 2 operation(s) for apikeys.
-  name: Voltair ApiKeys API
-  slug: voltair-apikeys-api
 - baseURL: https://api.voltairlabs.com
   baseurl_source: declared
   description: The Assets API from Voltair — 6 operation(s) for assets.
@@ -117,6 +112,11 @@ apis:
   description: The Webhooks API from Voltair — 5 operation(s) for webhooks.
   name: Voltair Webhooks API
   slug: voltair-webhooks-api
+- baseURL: https://api.voltairlabs.com
+  baseurl_source: declared
+  description: The API Keys API from Voltair — 2 operation(s) for api keys.
+  name: Voltair API Keys API
+  slug: voltair-api-keys-api
 artifact_total: 37
 asyncapis:
 - description: ''
@@ -288,14 +288,14 @@ modified: '2026-07-21'
 name: Voltair
 nav: Providers
 network: true
-overview: 'Voltair publishes 16 APIs on the [APIs.io](https://apis.io/) network, including ApiKeys API, Assets API, Clusters API, and 13 more. Tagged areas include Drones, Earth Observation, Infrastructure Inspection, Utilities, and Energy.
+overview: 'Voltair publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Clusters API, ClusterVisits API, and 13 more. Tagged areas include Drones, Earth Observation, Infrastructure Inspection, Utilities, and Energy.
 
 
   The Voltair catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Voltair''s developer surface includes documentation, API reference, authentication, and 19 more developer resources.'
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Voltair Rate Limits
@@ -335,7 +335,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

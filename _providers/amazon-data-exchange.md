@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   description: Operations for managing data assets within revisions
   name: Amazon Data Exchange Assets API
   slug: amazon-data-exchange-assets-api
-- baseURL: https://dataexchange.amazonaws.com
-  baseurl_source: declared
-  description: Operations for managing data sets
-  name: Amazon Data Exchange Data Sets API
-  slug: amazon-data-exchange-data-sets-api
 - baseURL: https://dataexchange.amazonaws.com
   baseurl_source: declared
   description: Operations for managing event-driven actions
@@ -75,6 +70,11 @@ apis:
   description: Operations for managing resource tags
   name: Amazon Data Exchange Tags API
   slug: amazon-data-exchange-tags-api
+- baseURL: https://dataexchange.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data sets
+  name: Amazon Data Exchange Datasets API
+  slug: amazon-data-exchange-datasets-api
 arazzos:
 - description: Register a RevisionPublished event action, then create and finalize a revision to trigger it.
   name: Amazon Data Exchange Auto Export On Publish
@@ -148,6 +148,10 @@ collections:
   name: AWS Data Exchange API
   slug: open-amazon-data-exchange
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/agentic-access/amazon-data-exchange-agentic-access.yml
   title: ''
@@ -538,22 +542,22 @@ jsonld:
   property_count: 49
   slug: amazon-data-exchange-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Data Exchange
 nav: Providers
 network: true
-overview: 'Amazon Data Exchange publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Data Sets API, Event Actions API, and 3 more. Tagged areas include Data Exchange, Data Marketplace, Third-Party Data, Analytics, and Subscription.
+overview: 'Amazon Data Exchange publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Event Actions API, Jobs API, and 3 more. Tagged areas include Data Exchange, Data Marketplace, Third-Party Data, Analytics, and Subscription.
 
 
   The Amazon Data Exchange catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Data Exchange''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 28 more developer resources.'
+  Amazon Data Exchange''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 29 more developer resources.'
 plans:
 - name: Amazon Data Exchange Plans Pricing
   plan_count: 3
   slug: amazon-data-exchange-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Data Exchange Rate Limits
@@ -607,7 +611,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -648,5 +652,5 @@ use_cases:
   name: ML Training Data
 - description: Subscribe to compliance reference data including sanctions lists, legal entity identifiers, and regulatory taxonomies via Data Exchange.
   name: Regulatory Compliance Data
-website: https://aws.amazon.com/data-exchange/
+website: https://amazon.com
 ---

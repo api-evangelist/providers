@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -86,10 +86,10 @@ common:
   type: APIReference
   url: https://api.stackmoxie.com/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/stack-moxie-rest-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/openapi/_original/stack-moxie-rest-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/stack-moxie-rest-api-openapi.yml
+  url: openapi/_original/stack-moxie-rest-api-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/overlays/stack-moxie-rest-api-overlay.yaml
   title: ''
@@ -253,7 +253,7 @@ created: '2026-07-17'
 description: 'Stack Moxie is a revenue-observability platform that provides continuous testing and monitoring for AI, marketing, and RevOps technology stacks. It watches integrated SaaS platforms end-to-end, catches outages, broken automations, and email-deliverability issues before they become revenue incidents, and QAs campaign launches so teams ship error-free. It ships two developer surfaces: a hosted REST API (OpenAPI 3.0.1, 43 operations, JWT bearer auth, base https://app.stackmoxie.com/api/) for creating, running, scheduling and monitoring test Scenarios programmatically; and the open-source Crank CLI - a no-code BDD test runner - with its ecosystem of gRPC "Cog" plugins for Salesforce, Marketo, Pardot, Eloqua, HubSpot, Dynamics, OpenAI, web, inbox, DNS and more.'
 image: https://stackmoxie.com/favicon.ico
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Stack Moxie
 nav: Providers
 network: true
@@ -265,14 +265,14 @@ plans:
 - name: Stack Moxie Plans Pricing
   plan_count: 4
   slug: stack-moxie-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Stack Moxie Rate Limits
   slug: stack-moxie-rate-limits
 score:
   band: strong
-  composite: 62.4
+  composite: 63.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -280,11 +280,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 52.0
+    contract_quality: 54.7
     developer_ergonomics: 73.2
     discoverability: 68.5
     operational_transparency: 44.7
@@ -300,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

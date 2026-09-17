@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A GraphQL API generated from your TinaCMS schema that serves Markdown and JSON content stored in Git repositories. Available locally via the tinacms dev CLI (localhost:4001) or hosted via TinaCloud wi
@@ -118,7 +118,7 @@ plans:
 - name: Tinacms Plans Pricing
   plan_count: 5
   slug: tinacms-plans-pricing
-random_paper: 16
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Tinacms Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 33.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

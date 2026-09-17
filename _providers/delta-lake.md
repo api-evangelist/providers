@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,30 +25,45 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-09-15'
-api_count: 3
+  score: 30.0
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: The Delta Lake storage framework defines the on-disk transaction log and protocol that adds ACID transactions, schema enforcement, and time travel to Parquet-based data lakes. Delta Lake exposes Spark
   name: Delta Lake Storage Framework
   slug: delta-lake-storage
-- baseURL: https://sharing.delta.io/delta-sharing/
-  baseurl_source: declared
-  description: Delta Sharing is an open protocol for secure data sharing across organizations, defined as a REST API specification. Sharing servers expose endpoints for listing shares, schemas, and tables, and for r
-  name: Delta Sharing Protocol
-  slug: delta-sharing
 - description: Catalog-managed Delta tables delegate table scan planning to an external catalog using the Iceberg REST Catalog protocol, enabling interoperability with Unity Catalog and other catalog services.
   name: Delta Catalog-Managed Tables
   slug: delta-catalog
-artifact_total: 8
+- baseURL: https://sharing.delta.io/delta-sharing/
+  baseurl_source: declared
+  description: Schema discovery APIs
+  name: Delta Lake Schemas API
+  slug: delta-lake-schemas-api
+- baseURL: https://sharing.delta.io/delta-sharing/
+  baseurl_source: declared
+  description: Share discovery APIs
+  name: Delta Lake Shares API
+  slug: delta-lake-shares-api
+- baseURL: https://sharing.delta.io/delta-sharing/
+  baseurl_source: declared
+  description: Table query and inspection APIs
+  name: Delta Lake Tables API
+  slug: delta-lake-tables-api
+artifact_total: 10
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/overlays/delta-lake-delta-sharing-protocol-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/delta-lake-delta-sharing-protocol-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/authentication/delta-lake-authentication.yml
   title: ''
@@ -209,36 +224,36 @@ modified: '2026-09-05'
 name: Delta Lake
 nav: Providers
 network: true
-overview: 'Delta Lake publishes 1 API on the [APIs.io](https://apis.io/) network: Delta Sharing Protocol. Tagged areas include Data, Data Lake, Lakehouse, Linux Foundation, and Open-Source.
+overview: 'Delta Lake publishes 3 APIs on the [APIs.io](https://apis.io/) network: Schemas API, Shares API, and Tables API. Tagged areas include Data, Data Lake, Lakehouse, Linux Foundation, and Open-Source.
 
 
-  Delta Lake''s developer surface includes authentication, documentation, engineering blog, changelog, sandbox, API reference, getting-started guide, and 26 more developer resources.'
+  Delta Lake''s developer surface includes authentication, documentation, engineering blog, changelog, sandbox, API reference, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Delta Lake Plans Pricing
   plan_count: 0
   slug: delta-lake-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Delta Lake Rate Limits
   slug: delta-lake-rate-limits
 score:
   band: developing
-  composite: 48.7
+  composite: 48.2
   coverage:
     artifact_dirs: 24
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 28.9
     contract_governance: 33.3
-    contract_quality: 50.9
+    contract_quality: 50.6
     developer_ergonomics: 63.7
-    discoverability: 72.2
+    discoverability: 66.7
     operational_transparency: 34.2
   open_source:
     applies: true
@@ -250,11 +265,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

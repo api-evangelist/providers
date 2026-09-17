@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint (Elixir/Absinthe, introspection enabled) covering datasets, submissions, models, leaderboards, staking, and Compute webhooks for Numerai Classic, Signals, and Crypto Signals. A
@@ -203,14 +203,14 @@ modified: '2026-07-20'
 name: Numerai
 nav: Providers
 network: true
-overview: 'Numerai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Machine-Learning, Data Science, and Hedge Fund.
+overview: 'Numerai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Machine-Learning, Data Science, and Hedge Funds.
 
 
   The Numerai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Numerai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, CLI, and 25 more developer resources.'
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 150
   name: Numerai Rate Limits
@@ -244,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -270,7 +270,7 @@ tags:
 - Fintech
 - Machine-Learning
 - Data Science
-- Hedge Fund
+- Hedge Funds
 - GraphQL
 - Crypto
 - Quantitative Finance

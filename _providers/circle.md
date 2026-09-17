@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -48,11 +48,6 @@ apis:
 - description: Sponsor gas fees on behalf of users or let users pay gas in USDC via Circle Paymaster, removing native-token friction from onboarding.
   name: Gas Station and Paymaster
   slug: gas-station
-- baseURL: https://api.circle.com/v1/w3s
-  baseurl_source: declared
-  description: The NFTs API from Circle — 1 operation(s) for nfts.
-  name: Circle NFTs API
-  slug: circle-nfts-api
 - baseURL: https://api.circle.com/v1/w3s
   baseurl_source: declared
   description: The Signing API from Circle — 4 operation(s) for signing.
@@ -78,6 +73,11 @@ apis:
   description: The Wallets API from Circle — 7 operation(s) for wallets.
   name: Circle Wallets API
   slug: circle-wallets-api
+- baseURL: https://api.circle.com/v1/w3s
+  baseurl_source: declared
+  description: The NFTs API from Circle — 1 operation(s) for nfts.
+  name: Circle NF Ts API
+  slug: circle-nfts-api
 artifact_total: 29
 asyncapis:
 - description: AsyncAPI description of Circle's outbound webhook (notification) surfaces. Circle delivers event notifications by POSTing a JSON body to a subscriber endpoint that is registered via product-specific n
@@ -245,7 +245,7 @@ modified: '2026-05-30'
 name: Circle
 nav: Providers
 network: true
-overview: 'Circle publishes 6 APIs on the [APIs.io](https://apis.io/) network, including NFTs API, Signing API, Tokens API, and 3 more. Tagged areas include Blockchain, Compliance, Cross-Chain, Currency, and Money.
+overview: 'Circle publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Signing API, Tokens API, Transactions API, and 3 more. Tagged areas include Blockchain, Compliance, Cross-Chain, Currency, and Money.
 
 
   The Circle catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -256,7 +256,7 @@ plans:
 - name: Circle Plans Pricing
   plan_count: 3
   slug: circle-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Circle Rate Limits
@@ -328,7 +328,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

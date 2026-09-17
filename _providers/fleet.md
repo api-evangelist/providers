@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://rbx.cloud.fleetdm.com/api/v1/fleet
   baseurl_source: declared
   description: The Fleet API from Fleet — 2 operation(s) for fleet.
-  name: Fleet Fleet API
+  name: Fleet API
   slug: fleet-fleet-api
 artifact_total: 9
 asyncapis:
@@ -216,21 +216,21 @@ created: '2026-07-17'
 description: Fleet is an open-source device management platform built on osquery. It provides cross-platform MDM, endpoint telemetry, vulnerability and patch management, software inventory, and GitOps-driven configuration for macOS, Windows, Linux, iOS, and Android fleets. Fleet exposes a versioned REST API (/api/v1/fleet, bearer-token auth), the fleetctl CLI for live queries and config-as-code, and outbound webhook automations. It is developed in the open at github.com/fleetdm/fleet and backed by CRV.
 image: https://avatars.githubusercontent.com/u/70264713?v=4
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Fleet
 nav: Providers
 network: true
-overview: 'Fleet publishes 1 API on the [APIs.io](https://apis.io/) network: Fleet API. Tagged areas include Company, Developer Tools, Device Management, MDM, and Endpoint Security.
+overview: 'Fleet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Device Management, MDM, and Endpoint Security.
 
 
   The Fleet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Fleet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 3
+random_paper: 0
 score:
   band: developing
-  composite: 52.8
+  composite: 53.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -238,11 +238,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 46.3
+    contract_quality: 49.0
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 52.6
@@ -258,7 +258,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

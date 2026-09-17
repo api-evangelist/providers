@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   description: '`AccountingAccount` represents an account in the company''s chart of accounts. `accountingCode` is the unique identifier of an account and is used as its ID; it also determines the account''s default cl'
   name: Embat AccountingAccounts API
   slug: embat-accountingaccounts-api
-- baseURL: https://api.embat.io
-  baseurl_source: declared
-  description: '`AccountingEntry` represents a single line of a company''s general accounting journal — an outflow (`assetAmount`) or inflow (`liabilityAmount`) movement posted to a ledger account (`accountingCode`). '
-  name: Embat AccountingEntries API
-  slug: embat-accountingentries-api
 - baseURL: https://api.embat.io
   baseurl_source: declared
   description: '`Attribute` represents a custom field that you can define once and then use to tag records across Embat, such as an ERP dimension, a cost center or any other analytic field you want available as a fil'
@@ -122,11 +117,6 @@ apis:
   slug: embat-operations-api
 - baseURL: https://api.embat.io
   baseurl_source: declared
-  description: '<div style="background-color:#fff3cd; color:#856404; padding: 10px; border-left: 6px solid #ffeeba;"> <strong>⚠️ Warning:</strong> This API section is in BETA. It might undergo significant changes and'
-  name: Embat PaymentOrders API
-  slug: embat-paymentorders-api
-- baseURL: https://api.embat.io
-  baseurl_source: declared
   description: '`Payment` represents money moving between a bank transaction and the operations (invoices, bills) or accounting entries it settles. `customId` is the unique identifier of a payment: set your own value'
   name: Embat Payments API
   slug: embat-payments-api
@@ -155,6 +145,16 @@ apis:
   description: '`Transaction` represents a movement recorded on one of your bank accounts (`Product`). Each transaction reports the balance of its product immediately after the movement, and can carry a classificatio'
   name: Embat Transactions API
   slug: embat-transactions-api
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`AccountingEntry` represents a single line of a company''s general accounting journal — an outflow (`assetAmount`) or inflow (`liabilityAmount`) movement posted to a ledger account (`accountingCode`).'
+  name: Embat Accounting Entries API
+  slug: embat-accounting-entries-api
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '⚠️ Warning: This API section is in BETA.'
+  name: Embat Payment Orders API
+  slug: embat-payment-orders-api
 artifact_total: 48
 collections:
 - collection_type: open
@@ -321,14 +321,14 @@ modified: '2026-07-19'
 name: Embat
 nav: Providers
 network: true
-overview: 'Embat publishes 22 APIs on the [APIs.io](https://apis.io/) network, including AccountingAccounts API, AccountingEntries API, Attributes API, and 19 more. Tagged areas include Company, Fintech, Treasury Management, Payments, and Cash Flow.
+overview: 'Embat publishes 22 APIs on the [APIs.io](https://apis.io/) network, including AccountingAccounts API, Attributes API, Authentication API, and 19 more. Tagged areas include Company, Fintech, Treasury Management, Payments, and Cash Flow.
 
 
   Embat''s developer surface includes documentation, API reference, authentication, sandbox, and 14 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
   band: thin
-  composite: 29.0
+  composite: 27.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 24.0
@@ -336,11 +336,11 @@ score:
     catalog_gap: 91.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
-    contract_quality: 61.8
+    contract_quality: 56.4
     developer_ergonomics: 37.5
     discoverability: 51.9
     operational_transparency: 0.0
@@ -349,7 +349,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 22
@@ -362,7 +362,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

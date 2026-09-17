@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   slug: amazon-iot-twinmaker-tags-list-api
 - baseURL: https://iottwinmaker.amazonaws.com
   baseurl_source: declared
-  description: The Tags#resourceARN&tagKeys API from Amazon IoT TwinMaker — 1 operation(s) for tags#resourcearn&tagkeys.
-  name: Amazon IoT TwinMaker Tags#resourceARN&tagKeys API
-  slug: amazon-iot-twinmaker-tags-resourcearn-tagkeys-api
-- baseURL: https://iottwinmaker.amazonaws.com
-  baseurl_source: declared
   description: The Workspaces API from Amazon IoT TwinMaker — 15 operation(s) for workspaces.
   name: Amazon IoT TwinMaker Workspaces API
   slug: amazon-iot-twinmaker-workspaces-api
@@ -85,6 +80,11 @@ apis:
   description: The Workspaces List API from Amazon IoT TwinMaker — 1 operation(s) for workspaces list.
   name: Amazon IoT TwinMaker Workspaces List API
   slug: amazon-iot-twinmaker-workspaces-list-api
+- baseURL: https://iottwinmaker.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resource Arn&tag Keys API from Amazon IoT TwinMaker — 1 operation(s) for tags#resource arn&tag keys.
+  name: Amazon IoT TwinMaker Tags#resource Arn&tag Keys API
+  slug: amazon-iot-twinmaker-tags-resource-arn-tag-keys-api
 artifact_total: 590
 collections:
 - collection_type: postman
@@ -1916,7 +1916,7 @@ plans:
 - name: Amazon Iot Twinmaker Plans Pricing
   plan_count: 3
   slug: amazon-iot-twinmaker-plans-pricing
-random_paper: 9
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Twinmaker Rate Limits
@@ -1970,7 +1970,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -57,7 +57,7 @@ press:
 - date: '2026-05-25'
   title: Starcom Wins Bon-Ton Media Duties 10/13/2011
   url: https://www.mediapost.com/publications/article/160399/starcom-wins-bon-ton-media-duties.html
-random_paper: 11
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/bon-ton-stores/refs/heads/main/screenshots/bon-ton-stores-2026-06-20T173558.png
 security:
 - kind: domain-security

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ apis:
 - baseURL: https://ron-swanson-quotes.herokuapp.com/v2
   baseurl_source: declared
   description: Read-only operations that return one or more Ron Swanson quotes from the static quote corpus.
-  name: Ron Swanson Quotes Quotes API
+  name: Ron Swanson Quotes API
   slug: ron-swanson-quotes-quotes-api
 artifact_total: 33
 collections:
@@ -185,18 +185,18 @@ jsonld:
   property_count: 6
   slug: ron-swanson-quotes-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Ron Swanson Quotes
 nav: Providers
 network: true
-overview: 'Ron Swanson Quotes publishes 1 API on the [APIs.io](https://apis.io/) network: Quotes API. Tagged areas include Entertainment, Television, Parks and Recreation, Quotes, and Open-Source.
+overview: 'Ron Swanson Quotes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Entertainment, Television, Parks and Recreation, Quotes, and Open-Source.
 
 
   The Ron Swanson Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
   Ron Swanson Quotes'' developer surface includes documentation, changelog, authentication, code examples, and 12 more developer resources.'
-random_paper: 6
+random_paper: 5
 rules:
 - effective_rule_count: 4
   extends: []
@@ -246,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

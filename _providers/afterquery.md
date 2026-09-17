@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A read-only Model Context Protocol server over the AfterQuery Experts Help Center, served anonymously from AfterQuery's documentation host. Three tools - full-text documentation search, a sandboxed re
@@ -127,6 +127,10 @@ common:
   title: ''
   type: Packages
   url: packages/afterquery-packages.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:sales@afterquery.com
 created: '2026-09-12'
 description: 'AfterQuery is a San Francisco applied research lab that curates expert reasoning data for frontier foundation models - supervised fine-tuning sets, rubric- and verifier-based reinforcement-learning environments, tool-calling and computer-use environments, RLHF, deep research tasks, multimodal data, and custom evaluation suites - produced with a network of verified professionals in finance, healthcare, law and software engineering through its AfterQuery Experts contributor platform. It publishes the IDE-Bench, App-Bench, Market-Bench, FinanceArena and FinanceQA benchmarks and sells data and evaluation engagements directly to AI labs and enterprises. AfterQuery ships no public product API: its only machine-callable surface is an anonymous documentation MCP server on its help-centre host, alongside an A2A agent card, a published agent skill and two llms.txt files.'
 image: https://www.afterquery.com/og-default.png
@@ -142,12 +146,12 @@ network: true
 overview: 'AfterQuery publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Training Data, and Data.
 
 
-  AfterQuery''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
+  AfterQuery''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
 plans:
 - name: Afterquery Plans Pricing
   plan_count: 0
   slug: afterquery-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Afterquery Rate Limits
@@ -176,7 +180,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -198,7 +202,7 @@ tags:
 - Machine-Learning
 - Training Data
 - Data
-- Evaluations
+- Evaluation
 - Reinforcement Learning
 - Benchmarks
 - Research

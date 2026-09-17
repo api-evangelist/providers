@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.6
-  scored_at: '2026-09-15'
+  score: 32.5
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -31,33 +31,8 @@ agentic_access:
   operation_count: 100
   slug: cox-automotive-agentic-access
   summary_line: 100 operations · 24 acting
-api_count: 5
+api_count: 10
 apis:
-- baseURL: https://idws.datasolutions.coxautoinc.com
-  baseurl_source: declared
-  description: InfoDriver Web Service (IDWS) 4.0 Vehicle Service — a RESTful Kelley Blue Book API returning vehicle configuration, makes, models, model years, trims, body styles, options, specifications, typicals, C
-  name: Kelley Blue Book IDWS 4.0 Vehicle Service
-  slug: kbb-idws-vehicle
-- baseURL: https://idws.datasolutions.coxautoinc.com
-  baseurl_source: declared
-  description: InfoDriver Web Service (IDWS) 4.0 Editorial Service — Kelley Blue Book consumer ratings, consumer reviews, expert ratings, expert reviews and Top Ten lists for a vehicle, returned as JSON and authenti
-  name: Kelley Blue Book IDWS 4.0 Editorial Service
-  slug: kbb-idws-editorial
-- baseURL: https://sandbox.api.kbb.com/ads
-  baseurl_source: declared
-  description: Vehicle data for building dynamic automotive advertising — pricing, cost-to-own, expert and consumer ratings and reviews, vehicle links, fuel cost, specifications, MPG and awards. Supports CORS, gzip,
-  name: Kelley Blue Book Advertising Data API
-  slug: kbb-advertising-data
-- baseURL: https://api.kbb.com/ico/v1
-  baseurl_source: declared
-  description: Produces a Kelley Blue Book Instant Cash Offer for a vehicle. Vehicle configuration lookups (year, make, model, trim, transmission, engine, drivetrain, colour, options), licence-plate-to-VIN lookup, p
-  name: Kelley Blue Book Instant Cash Offer (ICO) API
-  slug: kbb-instant-cash-offer
-- baseURL: https://sandbox.api.kbb.com/idbv
-  baseurl_source: declared
-  description: Asynchronous batch VIN decoding and valuation. Submit a batch job, poll its status, and retrieve the input and output files, or cancel a running job. Requires both a Mashery api_key and an OAuth-style
-  name: Kelley Blue Book Batch VIN API
-  slug: kbb-batch-vin
 - description: 'Manheim''s third-party integration surface — a suite of hypermedia (href-linked) JSON REST APIs over the wholesale vehicle remarketing lifecycle: auction locations, inventory units and consignments, ma'
   name: Manheim Hypermedia API Suite
   slug: manheim
@@ -67,12 +42,177 @@ apis:
 - description: The company-wide API storefront and integration platform fronting Cox Automotive's partner APIs — Dealertrack credit application, registration and titling, DealXG and Deal Push, Eventer publishing, MM
   name: Cox Automotive Integration Platform (API Storefront)
   slug: integration-platform
-artifact_total: 16
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The ApplyConfiguration API from Cox Automotive — 1 operation(s) for applyconfiguration.
+  name: Cox Automotive Apply Configuration API
+  slug: cox-automotive-applyconfiguration-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The BodyStyles API from Cox Automotive — 1 operation(s) for bodystyles.
+  name: Cox Automotive Body Styles API
+  slug: cox-automotive-bodystyles-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The ConsumerRatings API from Cox Automotive — 1 operation(s) for consumerratings.
+  name: Cox Automotive Consumer Ratings API
+  slug: cox-automotive-consumerratings-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The ConsumerReviews API from Cox Automotive — 1 operation(s) for consumerreviews.
+  name: Cox Automotive Consumer Reviews API
+  slug: cox-automotive-consumerreviews-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The CostToOwn API from Cox Automotive — 1 operation(s) for costtoown.
+  name: Cox Automotive Cost To Own API
+  slug: cox-automotive-costtoown-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The CpoPrograms API from Cox Automotive — 1 operation(s) for cpoprograms.
+  name: Cox Automotive Cpo Programs API
+  slug: cox-automotive-cpoprograms-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The ErrorCodes API from Cox Automotive — 2 operation(s) for errorcodes.
+  name: Cox Automotive Error Codes API
+  slug: cox-automotive-errorcodes-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The ExpertRatings API from Cox Automotive — 1 operation(s) for expertratings.
+  name: Cox Automotive Expert Ratings API
+  slug: cox-automotive-expertratings-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The ExpertReviews API from Cox Automotive — 1 operation(s) for expertreviews.
+  name: Cox Automotive Expert Reviews API
+  slug: cox-automotive-expertreviews-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Links API from Cox Automotive — 1 operation(s) for links.
+  name: Cox Automotive Links API
+  slug: cox-automotive-links-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Makes API from Cox Automotive — 2 operation(s) for makes.
+  name: Cox Automotive Makes API
+  slug: cox-automotive-makes-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The MarketingCategories API from Cox Automotive — 1 operation(s) for marketingcategories.
+  name: Cox Automotive Marketing Categories API
+  slug: cox-automotive-marketingcategories-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Models API from Cox Automotive — 2 operation(s) for models.
+  name: Cox Automotive Models API
+  slug: cox-automotive-models-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The ModelYears API from Cox Automotive — 2 operation(s) for modelyears.
+  name: Cox Automotive Model Years API
+  slug: cox-automotive-modelyears-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: All methods related to an offer
+  name: Cox Automotive Offer API
+  slug: cox-automotive-offer-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: All methods related to a prospect
+  name: Cox Automotive Prospect API
+  slug: cox-automotive-prospect-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Specifications API from Cox Automotive — 1 operation(s) for specifications.
+  name: Cox Automotive Specifications API
+  slug: cox-automotive-specifications-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Token API from Cox Automotive — 1 operation(s) for token.
+  name: Cox Automotive Token API
+  slug: cox-automotive-token-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The TopTenLists API from Cox Automotive — 1 operation(s) for toptenlists.
+  name: Cox Automotive Top Ten Lists API
+  slug: cox-automotive-toptenlists-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Trims API from Cox Automotive — 2 operation(s) for trims.
+  name: Cox Automotive Trims API
+  slug: cox-automotive-trims-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Typicals API from Cox Automotive — 1 operation(s) for typicals.
+  name: Cox Automotive Typicals API
+  slug: cox-automotive-typicals-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The ValidateConfiguration API from Cox Automotive — 1 operation(s) for validateconfiguration.
+  name: Cox Automotive Validate Configuration API
+  slug: cox-automotive-validateconfiguration-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Values API from Cox Automotive — 1 operation(s) for values.
+  name: Cox Automotive Values API
+  slug: cox-automotive-values-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: All methods related to vehicles
+  name: Cox Automotive Vehicle API
+  slug: cox-automotive-vehicle-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The VehicleOptions API from Cox Automotive — 1 operation(s) for vehicleoptions.
+  name: Cox Automotive Vehicle Options API
+  slug: cox-automotive-vehicleoptions-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The VehicleSpecs API from Cox Automotive — 1 operation(s) for vehiclespecs.
+  name: Cox Automotive Vehicle Specs API
+  slug: cox-automotive-vehiclespecs-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Vin API from Cox Automotive — 1 operation(s) for vin.
+  name: Cox Automotive Vin API
+  slug: cox-automotive-vin-api
+- baseURL: https://idws.datasolutions.coxautoinc.com
+  baseurl_source: declared
+  description: The Years API from Cox Automotive — 1 operation(s) for years.
+  name: Cox Automotive Years API
+  slug: cox-automotive-years-api
+- baseURL: https://api.manheim.com
+  baseurl_source: declared
+  description: The Batch Jobs API from Cox Automotive — 5 operation(s) for batch jobs.
+  name: Cox Automotive Batch Jobs API
+  slug: cox-automotive-batch-jobs-api
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Cox Automotive Manheim Events Webhooks
   slug: cox-automotive-manheim-events-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/overlays/cox-automotive-kbb-idws-editorial-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cox-automotive-kbb-idws-editorial-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/overlays/cox-automotive-kbb-advertising-data-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cox-automotive-kbb-advertising-data-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/overlays/cox-automotive-kbb-instant-cash-offer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cox-automotive-kbb-instant-cash-offer-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/overlays/cox-automotive-kbb-batch-vin-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cox-automotive-kbb-batch-vin-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -252,18 +392,18 @@ modified: '2026-09-13'
 name: Cox Automotive
 nav: Providers
 network: true
-overview: 'Cox Automotive publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Kelley Blue Book IDWS 4.0 Vehicle Service, Kelley Blue Book IDWS 4.0 Editorial Service, Kelley Blue Book Advertising Data API, and 2 more. Tagged areas include Automotive, Vehicle Data, Vehicle Valuations, Auctions, and Dealer Software.
+overview: 'Cox Automotive publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Apply Configuration API, Body Styles API, Consumer Ratings API, and 26 more. Tagged areas include Automotive, Vehicle Data, Vehicle Valuations, Auctions, and Dealer Software.
 
 
   The Cox Automotive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cox Automotive''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 30 more developer resources.'
+  Cox Automotive''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 34 more developer resources.'
 plans:
 - name: Cox Automotive Plans Pricing
   plan_count: 0
   slug: cox-automotive-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Cox Automotive Rate Limits
@@ -275,21 +415,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.2
+  composite: 40.3
   coverage:
     artifact_dirs: 21
-    catalog_earned: 48.0
+    catalog_earned: 45.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 67.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 17.1
     contract_governance: 18.2
-    contract_quality: 49.5
+    contract_quality: 52.2
     developer_ergonomics: 39.9
-    discoverability: 74.1
+    discoverability: 68.5
     operational_transparency: 57.9
   previous_composite: 40.2
   provenance:
@@ -299,11 +439,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 29
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

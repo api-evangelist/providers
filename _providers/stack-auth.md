@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - baseURL: https://api.stack-auth.com
   baseurl_source: declared
   description: The Auth API from Stack Auth — 4 operation(s) for auth.
-  name: Stack Auth Auth API
+  name: Stack Auth API
   slug: stack-auth-auth-api
 - baseURL: https://api.stack-auth.com
   baseurl_source: declared
@@ -89,7 +89,7 @@ apis:
 - baseURL: https://api.stack-auth.com
   baseurl_source: declared
   description: The Stack Auth REST API API from Stack Auth — 1 operation(s) for stack auth rest api.
-  name: Stack Auth Stack Auth REST API API
+  name: Stack Auth Stack Auth REST API
   slug: stack-auth-stack-auth-rest-api-api
 - baseURL: https://api.stack-auth.com
   baseurl_source: declared
@@ -242,11 +242,11 @@ finops:
   slug: stack-auth-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: Stack Auth
 nav: Providers
 network: true
-overview: 'Stack Auth publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Connected Accounts API, Contact Channels API, and 10 more. Tagged areas include Authentication, User Management, Open-Source, Self-Hosted, and Identity.
+overview: 'Stack Auth publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Connected Accounts API, Contact Channels API, and 11 more. Tagged areas include Authentication, User Management, Open-Source, Self-Hosted, and Identity.
 
 
   Stack Auth''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 9 more developer resources.'
@@ -254,7 +254,7 @@ plans:
 - name: Stack Auth Plans Pricing
   plan_count: 1
   slug: stack-auth-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Stack Auth Rate Limits
@@ -287,7 +287,7 @@ score:
       total: 13
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -156,7 +156,7 @@ plans:
 - name: Css Plans Pricing
   plan_count: 0
   slug: css-plans-pricing
-random_paper: 14
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Css Rate Limits
@@ -178,7 +178,7 @@ tags:
 - W3C
 - Styling
 - Browser
-- Specifications
+- Specification
 - Validation
 - CSSOM
 - Houdini

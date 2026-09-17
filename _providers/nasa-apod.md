@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.nasa.gov
   baseurl_source: declared
   description: Astronomy Picture of the Day endpoints
-  name: NASA APOD APOD API
+  name: NASA APOD API
   slug: nasa-apod-apod-api
 artifact_total: 14
 collections:
@@ -141,11 +141,11 @@ jsonld:
   property_count: 13
   slug: nasa-apod-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: NASA APOD
 nav: Providers
 network: true
-overview: 'NASA APOD publishes 1 API on the [APIs.io](https://apis.io/) network: APOD API. Tagged areas include NASA, Astronomy, Space, Image, and Science.
+overview: 'NASA APOD publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include NASA, Astronomy, Space, Image, and Science.
 
 
   The NASA APOD catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -156,7 +156,7 @@ plans:
 - name: Nasa Apod Plans Pricing
   plan_count: 3
   slug: nasa-apod-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Nasa Apod Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - baseURL: https://api.tackle.io
@@ -124,11 +124,6 @@ apis:
   slug: tackleio-products-api
 - baseURL: https://api.tackle.io
   baseurl_source: declared
-  description: The public API from Tackle.io — 7 operation(s) for public.
-  name: Tackle.io public API
-  slug: tackleio-public-api
-- baseURL: https://api.tackle.io
-  baseurl_source: declared
   description: Create, read, update, and list events on Microsoft Partner Center co-sell referrals (both outbound and inbound).
   name: Tackle.io Referrals API
   slug: tackleio-referrals-api
@@ -177,7 +172,7 @@ apis:
   description: Operations for Webhooks
   name: Tackle.io Webhooks API
   slug: tackleio-webhooks-api
-artifact_total: 63
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Tackleio Webhooks
@@ -423,14 +418,14 @@ modified: '2026-07-21'
 name: Tackle.io
 nav: Providers
 network: true
-overview: 'Tackle.io publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contracts API, Currencies API, and 25 more. Tagged areas include Company, Cloud, Cloud Marketplace, Co-Sell, and AWS Marketplace.
+overview: 'Tackle.io publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contracts API, Currencies API, and 24 more. Tagged areas include Company, Cloud, Cloud Marketplace, Co-Sell, and AWS Marketplace.
 
 
   The Tackle.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Tackle.io''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 23 more developer resources.'
-random_paper: 4
+random_paper: 8
 scopes:
 - name: Tackleio Scopes
   scope_count: 0
@@ -450,7 +445,7 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 70.3
+    contract_quality: 70.4
     developer_ergonomics: 50.6
     discoverability: 57.4
     operational_transparency: 47.4
@@ -461,11 +456,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 28
+      total: 27
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

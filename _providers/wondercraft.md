@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ modified: '2026-06-21'
 name: Wondercraft
 nav: Providers
 network: true
-overview: 'Wondercraft publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Audio Generation API, Convo Mode API, and 1 more. Tagged areas include Artificial Intelligence, Audio, Podcast, Text-to-Speech, and Generative Audio.
+overview: 'Wondercraft publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Audio Generation API, Convo Mode API, and 1 more. Tagged areas include Artificial Intelligence, Audio, Podcasts, Text-to-Speech, and Generative Audio.
 
 
   Wondercraft''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
@@ -157,7 +157,7 @@ plans:
 - name: Wondercraft Plans Pricing
   plan_count: 4
   slug: wondercraft-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Wondercraft Rate Limits
@@ -189,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -208,7 +208,7 @@ slug: wondercraft
 tags:
 - Artificial Intelligence
 - Audio
-- Podcast
+- Podcasts
 - Text-to-Speech
 - Generative Audio
 website: https://www.wondercraft.ai

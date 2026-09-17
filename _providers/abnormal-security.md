@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Abnormal Security Platform REST API at api.abnormalplatform.com gives customers and integration partners programmatic access to detected threats, attack cases, abuse mailbox submissions, account t
@@ -155,7 +155,7 @@ plans:
 - name: Abnormal Security Plans Pricing
   plan_count: 1
   slug: abnormal-security-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Abnormal Security Rate Limits
@@ -180,7 +180,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

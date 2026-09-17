@@ -18,13 +18,13 @@ modified: '2026-09-15'
 name: Santa Cruz Operation
 nav: Providers
 network: true
-overview: Santa Cruz Operation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Unix, Operating Systems, Enterprise Software, and Legacy Technology.
-random_paper: 17
+overview: Santa Cruz Operation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Unix, Operating System, Enterprise Software, and Legacy Technology.
+random_paper: 8
 slug: santa-cruz-operation
 tags:
 - Company
 - Unix
-- Operating Systems
+- Operating System
 - Enterprise Software
 - Legacy Technology
 - Defunct

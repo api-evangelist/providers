@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,8 +54,8 @@ modified: '2026-07-18'
 name: Ally
 nav: Providers
 network: true
-overview: Ally is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, OKR, Goal Management, and Performance Management.
-random_paper: 14
+overview: Ally is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, OKRs, Goal Management, and Performance Management.
+random_paper: 16
 score:
   band: minimal
   composite: 5.0
@@ -76,7 +76,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -91,8 +91,8 @@ security:
 slug: ally
 tags:
 - Company
-- HR Tech
-- OKR
+- Human Resources
+- OKRs
 - Goal Management
 - Performance Management
 - Acquired

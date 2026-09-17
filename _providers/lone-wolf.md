@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 1
@@ -78,11 +78,6 @@ apis:
   description: 'Business contacts represent a business or third party that is part of a transaction such as a home inspector or a lawyer. They do not represent the buyer or seller. For buyer and seller contacts, use '
   name: Lone Wolf Technologies Business Contacts API
   slug: lone-wolf-business-contacts-api
-- baseURL: https://gateway.lwolf.com
-  baseurl_source: declared
-  description: The CCs API from Lone Wolf Technologies — 2 operation(s) for ccs.
-  name: Lone Wolf Technologies C Cs API
-  slug: lone-wolf-ccs-api
 - baseURL: https://gateway.lwolf.com
   baseurl_source: declared
   description: The Classification API from Lone Wolf Technologies — 2 operation(s) for classification.
@@ -373,6 +368,11 @@ apis:
   description: Users and offices belonging to a client account (Platform service).
   name: Lone Wolf Technologies Users and Offices API
   slug: lone-wolf-users-and-offices-api
+- baseURL: https://api.lwolf.com/authentisign
+  baseurl_source: declared
+  description: The C Cs API from Lone Wolf Technologies — 2 operation(s) for c cs.
+  name: Lone Wolf Technologies C Cs API
+  slug: lone-wolf-c-cs-api
 artifact_total: 81
 asyncapis:
 - description: ''
@@ -721,7 +721,7 @@ plans:
 - name: Lone Wolf Plans Pricing
   plan_count: 0
   slug: lone-wolf-plans-pricing
-random_paper: 12
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Lone Wolf Rate Limits
@@ -733,7 +733,7 @@ scopes:
   summary_line: 14 scopes
 score:
   band: developing
-  composite: 51.4
+  composite: 51.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -741,11 +741,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 60.2
+    contract_quality: 61.5
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 23.7
@@ -774,7 +774,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://cronitor.io/api/monitors
   baseurl_source: declared
   description: The Cronitor Telemetry API API from Cronitor — 1 operation(s) for cronitor telemetry api.
-  name: Cronitor Cronitor Telemetry API API
+  name: Cronitor Telemetry API
   slug: cronitor-cronitor-telemetry-api-api
 - baseURL: https://cronitor.io/api/monitors
   baseurl_source: declared
@@ -208,11 +208,11 @@ jsonld:
   property_count: 38
   slug: cronitor-context
 layout: provider
-modified: '2026-06-12'
+modified: '2026-09-16'
 name: Cronitor
 nav: Providers
 network: true
-overview: 'Cronitor publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cronitor Telemetry API API, Groups API, Notifications API, and 1 more. Tagged areas include Monitoring, Cron Jobs, Scheduled Tasks, Alerting, and Uptime.
+overview: 'Cronitor publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Telemetry API, Groups API, Notifications API, and 1 more. Tagged areas include Monitoring, Cron Jobs, Scheduled Tasks, Alerting, and Uptime.
 
 
   The Cronitor catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -223,7 +223,7 @@ plans:
 - name: Cronitor Plans Pricing
   plan_count: 3
   slug: cronitor-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Cronitor Rate Limits
@@ -267,7 +267,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

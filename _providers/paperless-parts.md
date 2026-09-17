@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://api.paperlessparts.com/v2
@@ -77,7 +77,7 @@ apis:
 - baseURL: https://api.paperlessparts.com/v2
   baseurl_source: declared
   description: Endpoints for managing Parts
-  name: Paperless Parts Parts API
+  name: Paperless Parts API
   slug: paperless-parts-parts-api
 - baseURL: https://api.paperlessparts.com/v2
   baseurl_source: declared
@@ -281,7 +281,7 @@ created: '2026-08-26'
 description: Paperless Parts, Inc. is a Boston-based manufacturing software company founded in 2017 that builds a secure, ITAR-compliant cloud quoting and sales platform for custom part manufacturers — job shops, contract manufacturers and rapid-prototype businesses working in CNC machining, sheet metal fabrication, Swiss screw machining, wire EDM, waterjet and additive manufacturing. A patented geometry engine analyses uploaded CAD to automate costing, and the P3L pricing language lets a shop encode its own pricing logic. The company publishes a public REST API in two live versions (v1 and v2) at api.paperlessparts.com, covering quotes, quote items, orders, jobs, parts, processes, contacts and accounts, custom pricing tables, purchased components, and a managed integrations framework with a poll-based Streaming API for reacting to platform events. A first-party Python SDK is published on GitHub under the part-os organization.
 image: https://paperlessparts.com/wp-content/uploads/paperless-parts-full-logo-2022.svg
 layout: provider
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: Paperless Parts
 nav: Providers
 network: true
@@ -296,14 +296,14 @@ plans:
 - name: Paperless Parts Plans Pricing
   plan_count: 0
   slug: paperless-parts-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Paperless Parts Rate Limits
   slug: paperless-parts-rate-limits
 score:
   band: developing
-  composite: 53.1
+  composite: 53.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -311,11 +311,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 64.1
+    contract_quality: 64.5
     developer_ergonomics: 49.4
     discoverability: 81.5
     operational_transparency: 28.9
@@ -335,7 +335,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

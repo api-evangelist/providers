@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: WareGo agent-native content surface. A live, well-formed llms.txt provides a curated sitemap of product, feature, industry and guide pages for LLM discovery, and is currently the only machine-readable
@@ -123,7 +123,7 @@ plans:
 - name: Warego Plans Pricing
   plan_count: 0
   slug: warego-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Warego Rate Limits
@@ -150,7 +150,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

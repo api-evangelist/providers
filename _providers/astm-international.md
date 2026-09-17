@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: ASTM Compass is the subscription digital library and workflow platform that delivers ASTM standards alongside third-party publisher content (AASHTO, API, BSI, etc.), books, journals, papers, and video
@@ -224,7 +224,7 @@ overview: 'ASTM International publishes 2 APIs on the [APIs.io](https://apis.io/
 
 
   ASTM International''s developer surface includes product news, YouTube channel, and 20 more developer resources.'
-random_paper: 13
+random_paper: 12
 rules:
 - effective_rule_count: 5
   extends: []
@@ -261,7 +261,7 @@ score:
     - global
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -279,7 +279,7 @@ tags:
 - Consensus Standards
 - Technical Committees
 - Materials Testing
-- Specifications
+- Specification
 - Test Methods
 - Certification
 - Voluntary Standards

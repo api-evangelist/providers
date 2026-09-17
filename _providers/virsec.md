@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Virsec Security Platform Centralized Management Server (CMS) exposes a RESTful API for procuring information from CMS. From VSP 3.0.0 and above, the available APIs are listed by category in the CM
@@ -146,7 +146,7 @@ overview: 'Virsec publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Virsec''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, CLI, and 11 more developer resources.'
-random_paper: 1
+random_paper: 14
 score:
   band: thin
   composite: 32.5
@@ -169,7 +169,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -198,6 +198,6 @@ tags:
 - Memory Protection
 - Ransomware
 - Vulnerability Management
-- On-Premise
+- On-Premises
 website: https://virsec.com
 ---

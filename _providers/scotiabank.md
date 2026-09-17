@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -127,6 +127,10 @@ collections:
   name: Scotiabank Scotia TranXact APIs Account Validation Wire Payments API
   slug: open-scotiabank-wire-payments-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://scotiabank.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/capabilities/scotiabank-capability-edges.yml
   title: ''
@@ -233,7 +237,7 @@ jsonld:
   property_count: 16
   slug: scotiabank-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Scotiabank
 nav: Providers
 network: true
@@ -243,12 +247,12 @@ overview: 'Scotiabank publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Scotiabank catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scotiabank''s developer surface includes authentication and 6 more developer resources.'
+  Scotiabank''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Scotiabank Plans Pricing
   plan_count: 1
   slug: scotiabank-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Scotiabank Rate Limits
@@ -320,7 +324,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -342,4 +346,5 @@ tags:
 - Payments
 - Canada
 - Open Banking
+website: https://scotiabank.com
 ---

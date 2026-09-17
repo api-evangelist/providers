@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ modified: '2026-05-08'
 name: The Graph
 nav: Providers
 network: true
-overview: 'The Graph publishes 1 API on the [APIs.io](https://apis.io/) network: Subgraphs API. Tagged areas include Web3, Indexing, GraphQL, Subgraphs, and Multi-Chain.
+overview: 'The Graph publishes 1 API on the [APIs.io](https://apis.io/) network: Subgraphs API. Tagged areas include Web3, Indexing, GraphQL, Subgraph, and Multi-Chain.
 
 
   The Graph''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
@@ -152,7 +152,7 @@ plans:
 - name: The Graph Plans Pricing
   plan_count: 3
   slug: the-graph-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: The Graph Rate Limits
@@ -184,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -208,7 +208,7 @@ tags:
 - Web3
 - Indexing
 - GraphQL
-- Subgraphs
+- Subgraph
 - Multi-Chain
 website: https://thegraph.com/
 ---

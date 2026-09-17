@@ -39,7 +39,7 @@ name: Vector Launch
 nav: Providers
 network: true
 overview: Vector Launch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Aerospace, and Space.
-random_paper: 16
+random_paper: 19
 slug: vector-launch
 tags:
 - Company

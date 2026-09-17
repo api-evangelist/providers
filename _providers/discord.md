@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.7
-  scored_at: '2026-09-15'
+  score: 25.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 2
@@ -54,11 +54,6 @@ apis:
   slug: discord-interactions-api
 - baseURL: https://discord.com/api/v10
   baseurl_source: spec
-  description: The Discord OAuth2 API enables application developers to build applications that utilize authentication and data from the Discord API. Discord supports the authorization code grant, the implicit grant
-  name: Discord OAuth2 API
-  slug: discord-oauth2-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: spec
   description: The Discord Webhook Events API provides HTTP-based outgoing webhook events that allow applications to receive notifications for specific events without maintaining a persistent connection. Supported e
   name: Discord Webhook Events API
   slug: discord-webhook-events-api
@@ -73,34 +68,14 @@ apis:
   slug: discord-social-sdk
 - baseURL: https://discord.com/api/v10
   baseurl_source: declared
-  description: Manage global and guild application commands
-  name: Discord Application Commands API
-  slug: discord-application-commands-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
   description: The Applications API from Discord — 12 operation(s) for applications.
   name: Discord Applications API
   slug: discord-applications-api
 - baseURL: https://discord.com/api/v10
   baseurl_source: declared
-  description: Operations on guild audit logs
-  name: Discord Audit Log API
-  slug: discord-audit-log-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
-  description: Operations on auto moderation rules
-  name: Discord Auto Moderation API
-  slug: discord-auto-moderation-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
   description: The Channels API from Discord — 26 operation(s) for channels.
   name: Discord Channels API
   slug: discord-channels-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
-  description: Operations on guild emojis
-  name: Discord Emojis API
-  slug: discord-emojis-api
 - baseURL: https://discord.com/api/v10
   baseurl_source: declared
   description: The Gateway API from Discord — 2 operation(s) for gateway.
@@ -123,31 +98,6 @@ apis:
   slug: discord-invites-api
 - baseURL: https://discord.com/api/v10
   baseurl_source: declared
-  description: Operations on guild members
-  name: Discord Members API
-  slug: discord-members-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
-  description: Operations on messages within channels
-  name: Discord Messages API
-  slug: discord-messages-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
-  description: Manage application role connection metadata
-  name: Discord Role Connections API
-  slug: discord-role-connections-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
-  description: Operations on guild roles
-  name: Discord Roles API
-  slug: discord-roles-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
-  description: Operations on guild scheduled events
-  name: Discord Scheduled Events API
-  slug: discord-scheduled-events-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
   description: The Stage Instances API from Discord — 2 operation(s) for stage instances.
   name: Discord Stage Instances API
   slug: discord-stage-instances-api
@@ -163,11 +113,6 @@ apis:
   slug: discord-stickers-api
 - baseURL: https://discord.com/api/v10
   baseurl_source: declared
-  description: Retrieve current user information via OAuth2
-  name: Discord User Identity API
-  slug: discord-user-identity-api
-- baseURL: https://discord.com/api/v10
-  baseurl_source: declared
   description: The Users API from Discord — 9 operation(s) for users.
   name: Discord Users API
   slug: discord-users-api
@@ -181,7 +126,12 @@ apis:
   description: The Webhooks API from Discord — 8 operation(s) for webhooks.
   name: Discord Webhooks API
   slug: discord-webhooks-api
-artifact_total: 550
+- baseURL: https://discord.com/api/v10
+  baseurl_source: declared
+  description: The Oauth2 API from Discord — 3 operation(s) for oauth2.
+  name: Discord Oauth2 API
+  slug: discord-oauth2-api
+artifact_total: 540
 asyncapis:
 - description: The Discord Gateway API provides persistent, stateful WebSocket connections between your client and Discord servers. These connections are used for sending and receiving real-time events your client c
   name: Discord Gateway API
@@ -1946,7 +1896,7 @@ modified: '2026-05-19'
 name: Discord
 nav: Providers
 network: true
-overview: 'Discord publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Gateway API, Interactions API, OAuth2 API, and 24 more. Tagged areas include Chat, Communications, Gaming, Messaging, and Social.
+overview: 'Discord publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Gateway API, Interactions API, Webhook Events API, and 14 more. Tagged areas include Chat, Communications, Gaming, Messaging, and Social.
 
 
   The Discord catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -1957,7 +1907,7 @@ plans:
 - name: Discord Plans Pricing
   plan_count: 3
   slug: discord-plans-pricing
-random_paper: 9
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Discord Rate Limits
@@ -1991,7 +1941,7 @@ scopes:
   summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 46.0
+  composite: 45.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 51.5
@@ -1999,11 +1949,11 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 36.8
     contract_governance: 13.6
-    contract_quality: 71.3
+    contract_quality: 68.2
     developer_ergonomics: 54.8
     discoverability: 55.6
     operational_transparency: 44.7
@@ -2017,9 +1967,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 25
+      total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

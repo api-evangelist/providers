@@ -32,16 +32,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: '{scheme}://{host}:{port}/api/v1'
   baseurl_source: declared
-  description: 'The HTTP/gRPC/MCP service surface of Neuro SAN (Neuro AI System of Agent Networks), the open-source multi-agent orchestration framework published by Cognizant AI Lab under Apache-2.0. Four operations:'
-  name: Cognizant Neuro SAN Agent Service
-  slug: cognizant-neuro-san-agent-service
-artifact_total: 7
+  description: The service comprises all the exchanges to the backend in support of a single agent's services. Routing is done by way of agent name on the grpc service hosting the agent, so as to keep info about whi
+  name: Cognizant Technology Solutions Agent Service API
+  slug: cognizant-technology-agentservice-api
+- baseURL: '{scheme}://{host}:{port}/api/v1'
+  baseurl_source: declared
+  description: The service provides system-wide information about resources available in current instance of neuro-san.
+  name: Cognizant Technology Solutions Concierge Service API
+  slug: cognizant-technology-conciergeservice-api
+artifact_total: 8
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/overlays/cognizant-technology-neuro-san-agent-service-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cognizant-technology-neuro-san-agent-service-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/mcp/cognizant-technology-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/cognizant-technology-mcp.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/security/cognizant-technology-domain-security.yml
   title: ''
@@ -197,10 +212,10 @@ modified: '2026-09-05'
 name: Cognizant Technology Solutions
 nav: Providers
 network: true
-overview: 'Cognizant Technology Solutions publishes 1 API on the [APIs.io](https://apis.io/) network: Cognizant Neuro SAN Agent Service. Tagged areas include AI Platform, Consulting, Digital Transformation, IT Services, and Multi-Agent.
+overview: 'Cognizant Technology Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) network: Agent Service API and Concierge Service API. Tagged areas include AI Platform, Consulting, Digital Transformation, IT Services, and Multi-Agent.
 
 
-  Cognizant Technology Solutions'' developer surface includes GitHub presence, product news, engineering blog, CLI, changelog, documentation, getting-started guide, and 25 more developer resources.'
+  Cognizant Technology Solutions'' developer surface includes GitHub presence, product news, engineering blog, CLI, changelog, documentation, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Cognizant Technology Plans Pricing
   plan_count: 0
@@ -221,14 +236,14 @@ press:
 - date: '2026-05-25'
   title: Cognizant Named Aston Martin Aramco Formula One™ ...
   url: https://www.prnewswire.com/news-releases/cognizant-named-aston-martin-aramco-formula-one-team-global-ai-services-partner-302755751.html
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Cognizant Technology Rate Limits
   slug: cognizant-technology-rate-limits
 score:
   band: thin
-  composite: 39.0
+  composite: 38.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -236,11 +251,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 42.2
+    contract_quality: 41.2
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 31.6
@@ -251,11 +266,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

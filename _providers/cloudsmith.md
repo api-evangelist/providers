@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 229
   human_in_the_loop: 4
@@ -320,7 +320,7 @@ plans:
 - name: Cloudsmith Plans Pricing
   plan_count: 1
   slug: cloudsmith-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Cloudsmith Rate Limits
@@ -351,7 +351,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 54.5
-    contract_quality: 55.1
+    contract_quality: 55.3
     developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 42.1
@@ -364,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

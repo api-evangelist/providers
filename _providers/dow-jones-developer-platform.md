@@ -27,59 +27,199 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 41.5
-  scored_at: '2026-09-15'
-api_count: 9
+  score: 44.1
+  scored_at: '2026-09-16'
+api_count: 11
 apis:
 - description: The Dow Jones Developer Platform is the umbrella developer surface for Dow Jones' news, business intelligence, market data and risk-and-compliance products. It covers three API families — Factiva, New
   name: Dow Jones Developer Platform
   slug: dow-jones-developer-platform
-- baseURL: https://api.dowjones.com
-  baseurl_source: declared
-  description: 'Search Dow Jones Newswires real-time content with DJN taxonomy expressions and retrieve the linked articles by Dow Jones Resource Name. The same endpoints serve the standard Real-Time licence and the '
-  name: Dow Jones Newswires Real-Time API
-  slug: newswires-real-time-api
-- baseURL: https://api.dowjones.com
-  baseurl_source: declared
-  description: Retrieve the entitled Dow Jones content collections and the articles inside them. This is the one Newswires flow Dow Jones permits an application to run on a schedule rather than on human action, subj
-  name: Dow Jones Newswires Top Stories API
-  slug: newswires-top-stories-api
-- baseURL: https://api.dowjones.com
-  baseurl_source: declared
-  description: Search and retrieve Dow Jones economic, corporate, treasury and IPO calendar events, with a full set of taxonomy endpoints for the event codes, event classes, series codes, countries, regions, languag
-  name: Dow Jones Calendar Live API
-  slug: calendar-live-api
-- baseURL: https://api.dowjones.com/content
-  baseurl_source: declared
-  description: 'The Factiva content workflow surface: full-text and metadata search across the Factiva archive, reference resolution and binary retrieval, alerts, newsletter editions and NewsPlus collections, plus sp'
-  name: Factiva Content API
-  slug: factiva-content-api
-- baseURL: https://api.dowjones.com
-  baseurl_source: declared
-  description: List the newsletters an account is entitled to, read a newsletter's metadata, and walk its editions. Published as OpenAPI 3.0.2 and the only Dow Jones contract that declares the JSON:API media type ap
-  name: Factiva Newsletters API
-  slug: factiva-newsletters-api
-- baseURL: https://api-thirdparty.riskcenter.dowjones.com
-  baseurl_source: declared
-  description: Manage third parties, their properties and their monitored entities inside Dow Jones RiskCenter — the third-party risk-management product in the Risk & Compliance family. This is the only write surfac
-  name: Dow Jones RiskCenter Third Party Platform API
-  slug: riskcenter-third-party-api
 - description: 'The original Factiva integration surface, in production since 2000 and still published: an XML/SOAP 1.1 web-service suite exposing Search, Retrieval, Taxonomy, Membership, Registration, Newsstand, Tra'
   name: Factiva Developer Kit (SOAP)
   slug: factiva-developer-kit
-artifact_total: 17
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Calendar Events API from Dow Jones Developer Platform — 4 operation(s) for calendar events.
+  name: Dow Jones Developer Platform Calendar Events API
+  slug: dow-jones-developer-platform-calendar-events-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Calendar Taxonomy API from Dow Jones Developer Platform — 15 operation(s) for calendar taxonomy.
+  name: Dow Jones Developer Platform Calendar Taxonomy API
+  slug: dow-jones-developer-platform-calendar-taxonomy-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Content API from Dow Jones Developer Platform — 17 operation(s) for content.
+  name: Dow Jones Developer Platform Content API
+  slug: dow-jones-developer-platform-content-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Content Search API from Dow Jones Developer Platform — 1 operation(s) for content search.
+  name: Dow Jones Developer Platform Content Search API
+  slug: dow-jones-developer-platform-content-search-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: Default section
+  name: Dow Jones Developer Platform Default API
+  slug: dow-jones-developer-platform-default-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Editions API from Dow Jones Developer Platform — 2 operation(s) for editions.
+  name: Dow Jones Developer Platform Editions API
+  slug: dow-jones-developer-platform-editions-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Field API from Dow Jones Developer Platform — 2 operation(s) for field.
+  name: Dow Jones Developer Platform Field API
+  slug: dow-jones-developer-platform-field-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The File API from Dow Jones Developer Platform — 2 operation(s) for file.
+  name: Dow Jones Developer Platform File API
+  slug: dow-jones-developer-platform-file-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Group API from Dow Jones Developer Platform — 1 operation(s) for group.
+  name: Dow Jones Developer Platform Group API
+  slug: dow-jones-developer-platform-group-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The IPO Calendar Events API from Dow Jones Developer Platform — 2 operation(s) for ipo calendar events.
+  name: Dow Jones Developer Platform IPO Calendar Events API
+  slug: dow-jones-developer-platform-ipo-calendar-events-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The IPO Calendar Taxonomy API from Dow Jones Developer Platform — 4 operation(s) for ipo calendar taxonomy.
+  name: Dow Jones Developer Platform IPO Calendar Taxonomy API
+  slug: dow-jones-developer-platform-ipo-calendar-taxonomy-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The List API from Dow Jones Developer Platform — 2 operation(s) for list.
+  name: Dow Jones Developer Platform List API
+  slug: dow-jones-developer-platform-list-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Newsletters API from Dow Jones Developer Platform — 2 operation(s) for newsletters.
+  name: Dow Jones Developer Platform Newsletters API
+  slug: dow-jones-developer-platform-newsletters-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Process API from Dow Jones Developer Platform — 1 operation(s) for process.
+  name: Dow Jones Developer Platform Process API
+  slug: dow-jones-developer-platform-process-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The ThirdPartyProperties API from Dow Jones Developer Platform — 3 operation(s) for thirdpartyproperties.
+  name: Dow Jones Developer Platform Third Party Properties API
+  slug: dow-jones-developer-platform-thirdpartyproperties-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The ThirdPartyScreening API from Dow Jones Developer Platform — 2 operation(s) for thirdpartyscreening.
+  name: Dow Jones Developer Platform Third Party Screening API
+  slug: dow-jones-developer-platform-thirdpartyscreening-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The ThirdPartyScreeningTypes API from Dow Jones Developer Platform — 2 operation(s) for thirdpartyscreeningtypes.
+  name: Dow Jones Developer Platform Third Party Screening Types API
+  slug: dow-jones-developer-platform-thirdpartyscreeningtypes-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Business Unit API from Dow Jones Developer Platform — 1 operation(s) for business unit.
+  name: Dow Jones Developer Platform Business Unit API
+  slug: dow-jones-developer-platform-business-unit-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Content Collections API from Dow Jones Developer Platform — 2 operation(s) for content collections.
+  name: Dow Jones Developer Platform Content Collections API
+  slug: dow-jones-developer-platform-content-collections-api
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Third Party API from Dow Jones Developer Platform — 2 operation(s) for third party.
+  name: Dow Jones Developer Platform Third Party API
+  slug: dow-jones-developer-platform-third-party-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Dow Jones Developer Platform Factiva Streams Events
   slug: dow-jones-developer-platform-factiva-streams-events
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/overlays/dow-jones-developer-platform-newswires-real-time-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-developer-platform-newswires-real-time-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/overlays/dow-jones-developer-platform-newswires-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-developer-platform-newswires-content-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/overlays/dow-jones-developer-platform-company-news-radar-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-developer-platform-company-news-radar-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/skills/dow-jones-newswires-realtime-search.md
+  title: ''
+  type: AgentSkill
+  url: skills/dow-jones-newswires-realtime-search.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/overlays/dow-jones-developer-platform-newswires-top-stories-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-developer-platform-newswires-top-stories-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/skills/dow-jones-top-stories-sync.md
+  title: ''
+  type: AgentSkill
+  url: skills/dow-jones-top-stories-sync.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/overlays/dow-jones-developer-platform-calendar-live-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-developer-platform-calendar-live-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/skills/dow-jones-calendar-events-search.md
+  title: ''
+  type: AgentSkill
+  url: skills/dow-jones-calendar-events-search.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/overlays/dow-jones-developer-platform-factiva-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-developer-platform-factiva-content-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/overlays/dow-jones-developer-platform-factiva-newsletters-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-developer-platform-factiva-newsletters-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/skills/dow-jones-factiva-newsletters.md
+  title: ''
+  type: AgentSkill
+  url: skills/dow-jones-factiva-newsletters.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/overlays/dow-jones-developer-platform-riskcenter-third-party-api-0-2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-developer-platform-riskcenter-third-party-api-0-2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/overlays/dow-jones-developer-platform-riskcenter-third-party-api-0-1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-developer-platform-riskcenter-third-party-api-0-1-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/dow-jones-developer-platform/refs/heads/main/skills/dow-jones-riskcenter-third-party-onboarding.md
+  title: ''
+  type: AgentSkill
+  url: skills/dow-jones-riskcenter-third-party-onboarding.md
 - group: company
   title: ''
   type: Website
@@ -260,18 +400,18 @@ modified: '2026-09-07'
 name: Dow Jones Developer Platform
 nav: Providers
 network: true
-overview: 'Dow Jones Developer Platform publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dow Jones Developer Platform, Dow Jones Newswires Real-Time API, Dow Jones Newswires Top Stories API, and 4 more. Tagged areas include Business Data, Compliance, Financial, Market Data, and News.
+overview: 'Dow Jones Developer Platform publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Dow Jones Developer Platform, Calendar Events API, Calendar Taxonomy API, and 18 more. Tagged areas include Business Data, Compliance, Financial, Market Data, and News.
 
 
   The Dow Jones Developer Platform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dow Jones Developer Platform''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 29 more developer resources.'
+  Dow Jones Developer Platform''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 43 more developer resources.'
 plans:
 - name: Dow Jones Developer Platform Plans Pricing
   plan_count: 0
   slug: dow-jones-developer-platform-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Dow Jones Developer Platform Rate Limits
@@ -283,21 +423,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.7
+  composite: 66.0
   coverage:
     artifact_dirs: 24
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 57.9
     contract_governance: 18.2
-    contract_quality: 55.8
+    contract_quality: 59.3
     developer_ergonomics: 73.2
-    discoverability: 74.1
+    discoverability: 68.5
     operational_transparency: 68.4
   previous_composite: 65.7
   provenance:
@@ -306,7 +446,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 20
     mcp: derived
     skills: derived
   regulatory:
@@ -316,7 +456,7 @@ score:
     regime_id: securities_market_data
     score: 86.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

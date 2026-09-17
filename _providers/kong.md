@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -67,18 +67,13 @@ apis:
   slug: kong-insomnia
 - baseURL: https://konghq.com/
   baseurl_source: declared
-  description: The ACLs API from Kong — 6 operation(s) for acls.
-  name: Kong ACLs API
-  slug: kong-acls-api
-- baseURL: https://konghq.com/
-  baseurl_source: declared
   description: The Add-Ons API from Kong — 2 operation(s) for add-ons.
   name: Kong Add-Ons API
   slug: kong-add-ons-api
 - baseURL: https://konghq.com/
   baseurl_source: declared
   description: The API API from Kong — 2 operation(s) for api.
-  name: Kong API API
+  name: Kong API
   slug: kong-api-api
 - baseURL: https://konghq.com/
   baseurl_source: declared
@@ -187,11 +182,6 @@ apis:
   slug: kong-basic-auth-credentials-api
 - baseURL: https://konghq.com/
   baseurl_source: declared
-  description: A CA certificate object represents a trusted certificate authority. These objects are used by Kong Gateway to verify the validity of a client or server certificate.
-  name: Kong CA Certificates API
-  slug: kong-ca-certificates-api
-- baseURL: https://konghq.com/
-  baseurl_source: declared
   description: Integrations are applications, either Konnect-internal or external, which extend the functionality of the Service Catalog. Install and authorize an integration to discover the resources across your or
   name: Kong Catalog Integrations API
   slug: kong-catalog-integrations-api
@@ -280,11 +270,6 @@ apis:
   description: Custom Plugin Schemas
   name: Kong Custom Plugin Schemas API
   slug: kong-custom-plugin-schemas-api
-- baseURL: https://konghq.com/
-  baseurl_source: declared
-  description: The CustomPlugins API from Kong — 2 operation(s) for customplugins.
-  name: Kong CustomPlugins API
-  slug: kong-customplugins-api
 - baseURL: https://konghq.com/
   baseurl_source: declared
   description: The Dashboards API from Kong — 2 operation(s) for dashboards.
@@ -420,11 +405,6 @@ apis:
   description: The Invites API from Kong — 1 operation(s) for invites.
   name: Kong Invites API
   slug: kong-invites-api
-- baseURL: https://konghq.com/
-  baseurl_source: declared
-  description: The JWTs API from Kong — 6 operation(s) for jwts.
-  name: Kong JWTs API
-  slug: kong-jwts-api
 - baseURL: https://konghq.com/
   baseurl_source: declared
   description: A key object holds a representation of asymmetric keys in various formats. When Kong Gateway or a Kong plugin requires a specific public or private key to perform certain operations, it can use this e
@@ -725,6 +705,26 @@ apis:
   description: 'The workspace object describes the workspace entity, which has an ID and a name. <br><br> Workspaces provide a way to segment Kong Gateway entities. Entities in a workspace are isolated from those in '
   name: Kong Workspaces API
   slug: kong-workspaces-api
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The ACLs API from Kong — 6 operation(s) for acls.
+  name: Kong AC Ls API
+  slug: kong-acls-api
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The JWTs API from Kong — 6 operation(s) for jwts.
+  name: Kong JW Ts API
+  slug: kong-jwts-api
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A CA certificate object represents a trusted certificate authority. These objects are used by Kong Gateway to verify the validity of a client or server certificate.
+  name: Kong Cacertificates API
+  slug: kong-cacertificates-api
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Custom Plugins API from Kong — 2 operation(s) for custom plugins.
+  name: Kong Custom Plugins API
+  slug: kong-custom-plugins-api
 artifact_total: 1784
 collections:
 - collection_type: postman
@@ -1529,6 +1529,10 @@ collections:
   name: Kong Enterprise Admin ACLs Workspaces API
   slug: open-kong-workspaces-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://konghq.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/capabilities/kong-capability-edges.yml
   title: ''
@@ -5767,22 +5771,22 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Kong
 nav: Providers
 network: true
-overview: 'Kong publishes 132 APIs on the [APIs.io](https://apis.io/) network, including ACLs API, Add-Ons API, API API, and 129 more. Tagged areas include API Gateway, AI Gateway, AI Connectivity, Agent Gateway, and Event Gateway.
+overview: 'Kong publishes 132 APIs on the [APIs.io](https://apis.io/) network, including Add-Ons API, API Attributes API, and 130 more. Tagged areas include API Gateway, AI Gateway, AI Connectivity, Agent Gateway, and Event Gateway.
 
 
   The Kong catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 28 more developer resources.'
+  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 29 more developer resources.'
 plans:
 - name: Kong Plans Pricing
   plan_count: 6
   slug: kong-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 10
   name: Kong Rate Limits
@@ -5811,21 +5815,21 @@ rules:
   slug: kong-spectral-rules
 score:
   band: strong
-  composite: 58.0
+  composite: 58.6
   coverage:
     artifact_dirs: 21
-    catalog_earned: 48.5
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 66.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 55.3
     contract_governance: 13.6
-    contract_quality: 66.9
+    contract_quality: 65.9
     developer_ergonomics: 51.2
-    discoverability: 51.9
+    discoverability: 61.1
     operational_transparency: 52.6
   open_source:
     applies: true
@@ -5839,7 +5843,7 @@ score:
       marker_coverage: 0.0
       total: 132
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -5882,4 +5886,5 @@ use_cases:
   name: API Lifecycle Management
 - description: Protect backend services with configurable rate limiting, request size limits, and traffic shaping policies.
   name: Rate Limiting and Traffic Control
+website: https://konghq.com
 ---

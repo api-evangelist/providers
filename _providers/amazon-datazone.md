@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -142,6 +142,10 @@ collections:
   name: Amazon DataZone API
   slug: open-amazon-datazone
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/agentic-access/amazon-datazone-agentic-access.yml
   title: ''
@@ -432,7 +436,7 @@ jsonld:
   property_count: 26
   slug: amazon-datazone-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon DataZone
 nav: Providers
 network: true
@@ -442,12 +446,12 @@ overview: 'Amazon DataZone publishes 6 APIs on the [APIs.io](https://apis.io/) n
   The Amazon DataZone catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DataZone''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
+  Amazon DataZone''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
 plans:
 - name: Amazon Datazone Plans Pricing
   plan_count: 3
   slug: amazon-datazone-plans-pricing
-random_paper: 12
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Datazone Rate Limits
@@ -501,7 +505,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -542,5 +546,5 @@ use_cases:
   name: Self-Service Analytics
 - description: Maintain audit trails of data access, govern sensitive data assets, and enforce data residency policies through domain governance.
   name: Regulatory Data Compliance
-website: https://aws.amazon.com/datazone/
+website: https://amazon.com
 ---

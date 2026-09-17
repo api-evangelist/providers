@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 309
   human_in_the_loop: 8
@@ -237,11 +237,6 @@ apis:
   slug: langchain-nps-api
 - baseURL: https://api.smith.langchain.com
   baseurl_source: declared
-  description: The oauth API from LangChain — 7 operation(s) for oauth.
-  name: LangChain oauth API
-  slug: langchain-oauth-api
-- baseURL: https://api.smith.langchain.com
-  baseurl_source: declared
   description: The Ok API from LangChain — 1 operation(s) for ok.
   name: LangChain Ok API
   slug: langchain-ok-api
@@ -375,6 +370,11 @@ apis:
   description: The workspaces API from LangChain — 25 operation(s) for workspaces.
   name: LangChain workspaces API
   slug: langchain-workspaces-api
+- baseURL: https://api.smith.langchain.com
+  baseurl_source: declared
+  description: The oauth API from LangChain — 7 operation(s) for oauth.
+  name: LangChain OAUTH API
+  slug: langchain-oauth-api
 artifact_total: 141
 collections:
 - collection_type: open
@@ -666,7 +666,7 @@ modified: '2026-05-19'
 name: LangChain
 nav: Providers
 network: true
-overview: 'LangChain publishes 66 APIs on the [APIs.io](https://apis.io/) network, including access_policies API, ace API, alert_rules API, and 63 more. Tagged areas include Agents, Artificial Intelligence, Large Language Models, LLM Observability, and Tracing.
+overview: 'LangChain publishes 66 APIs on the [APIs.io](https://apis.io/) network, including access_policies API, ace API, alert_rules API, and 63 more. Tagged areas include Agents, Artificial Intelligence, LLM, LLM Observability, and Tracing.
 
 
   LangChain''s developer surface includes authentication, engineering blog, documentation, changelog, pricing, support, GitHub presence, and 9 more developer resources.'
@@ -681,21 +681,21 @@ rate_limits:
   slug: langchain-rate-limits
 score:
   band: developing
-  composite: 40.6
+  composite: 42.8
   coverage:
     artifact_dirs: 12
-    catalog_earned: 33.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 82.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 55.9
+    contract_quality: 57.2
     developer_ergonomics: 35.7
-    discoverability: 51.9
+    discoverability: 70.4
     operational_transparency: 28.9
   previous_composite: 40.6
   provenance:
@@ -706,7 +706,7 @@ score:
       marker_coverage: 0.0
       total: 66
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -725,7 +725,7 @@ slug: langchain
 tags:
 - Agents
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - LLM Observability
 - Tracing
 - Evaluation

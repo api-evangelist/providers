@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,11 +65,11 @@ modified: '2026-07-20'
 name: Quintessent
 nav: Providers
 network: true
-overview: 'Quintessent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Photonics, Semiconductors, and Optical Interconnects.
+overview: 'Quintessent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Photonics, Semiconductors, and Optical Interconnect.
 
 
   Quintessent''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: minimal
   composite: 6.4
@@ -90,7 +90,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -108,7 +108,7 @@ tags:
 - Deep Tech
 - Photonics
 - Semiconductors
-- Optical Interconnects
+- Optical Interconnect
 - Quantum Dot
 - AI Infrastructure
 - Hardware

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 1
+- acting_count: 20
   human_in_the_loop: 0
   name: Builtwith Agentic Access
-  operation_count: 20
+  operation_count: 55
   slug: builtwith-agentic-access
-  summary_line: 20 operations · 1 acting
+  summary_line: 55 operations · 20 acting
 api_count: 10
 apis:
 - baseURL: https://api.builtwith.com/v22
@@ -146,34 +146,9 @@ apis:
   slug: builtwith-domain-lookup-api
 - baseURL: https://api.builtwith.com/v22
   baseurl_source: declared
-  description: Identify domain interconnections via shared identifiers
-  name: BuiltWith Domain Relationships API
-  slug: builtwith-domain-relationships-api
-- baseURL: https://api.builtwith.com/v22
-  baseurl_source: declared
-  description: Technology count lookups for free tier
-  name: BuiltWith Free Lookup API
-  slug: builtwith-free-lookup-api
-- baseURL: https://api.builtwith.com/v22
-  baseurl_source: declared
-  description: Lookup domains by IP or attribute identifier
-  name: BuiltWith Tag Lookup API
-  slug: builtwith-tag-lookup-api
-- baseURL: https://api.builtwith.com/v22
-  baseurl_source: declared
-  description: Track technology additions and removals on websites
-  name: BuiltWith Technology Changes API
-  slug: builtwith-technology-changes-api
-- baseURL: https://api.builtwith.com/v22
-  baseurl_source: declared
   description: Retrieve websites using specific technologies
   name: BuiltWith Technology Lists API
   slug: builtwith-technology-lists-api
-- baseURL: https://api.builtwith.com/v22
-  baseurl_source: declared
-  description: Technology adoption trends and market share data
-  name: BuiltWith Technology Trends API
-  slug: builtwith-technology-trends-api
 - baseURL: https://api.builtwith.com/v22
   baseurl_source: declared
   description: The AgentAuth API from BuiltWith — 2 operation(s) for agentauth.
@@ -319,7 +294,7 @@ apis:
   description: The Website Search API from BuiltWith — 1 operation(s) for website search.
   name: BuiltWith Website Search API
   slug: builtwith-website-search-api
-artifact_total: 85
+artifact_total: 80
 asyncapis:
 - description: Real-time technology detection notifications over WebSocket. Subscribe to technology channels or rule channels and receive an event each time BuiltWith detects a technology on a website. Requires an a
   name: BuiltWith Live Feed API
@@ -691,7 +666,7 @@ modified: 2026-08-14
 name: BuiltWith
 nav: Providers
 network: true
-overview: 'BuiltWith publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Domain API, Lists API, Trends API, and 49 more. Tagged areas include Technology Profiling, Lead Generation, Web Intelligence, Technology Detection, and Website Analysis.
+overview: 'BuiltWith publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Domain API, Lists API, Trends API, and 44 more. Tagged areas include Technology Profiling, Lead Generation, Web Intelligence, Technology Detection, and Website Analysis.
 
 
   The BuiltWith catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -702,7 +677,7 @@ plans:
 - name: Builtwith Plans Pricing
   plan_count: 6
   slug: builtwith-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Builtwith Rate Limits
@@ -725,21 +700,21 @@ scopes:
   summary_line: 2 scopes
 score:
   band: developing
-  composite: 53.8
+  composite: 52.0
   coverage:
     artifact_dirs: 31
-    catalog_earned: 71.3
+    catalog_earned: 61.3
     catalog_earned_first_party: 12.0
-    catalog_gap: 43.8
+    catalog_gap: 53.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 52.6
     contract_governance: 43.2
-    contract_quality: 69.9
+    contract_quality: 69.5
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 28.9
   open_source:
     applies: true
@@ -752,11 +727,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 37
+      total: 32
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

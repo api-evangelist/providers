@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,11 +86,11 @@ modified: '2026-07-19'
 name: Fifteenth
 nav: Providers
 network: true
-overview: 'Fifteenth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Taxes, Tax Preparation, and Tax Planning.
+overview: 'Fifteenth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Tax, Tax Preparation, and Tax Planning.
 
 
   Fifteenth''s developer surface includes pricing, signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 12
+random_paper: 11
 score:
   band: emerging
   composite: 15.9
@@ -116,7 +116,7 @@ score:
     - north-america
   previous_composite: 15.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -132,7 +132,7 @@ slug: fifteenth
 tags:
 - Company
 - Fintech
-- Taxes
+- Tax
 - Tax Preparation
 - Tax Planning
 - Personal Finance

@@ -23,15 +23,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.stdcmpt.com/v1
   baseurl_source: declared
-  description: OpenAI-compatible (and Anthropic Messages-compatible) LLM inference endpoint. Set base URL to https://api.stdcmpt.com/v1, use a Bearer API key, and set model to 'standardcompute'. Supports POST /v1/ch
-  name: Standard Compute Inference API
-  slug: standard-compute-inference-api
-artifact_total: 6
+  description: The Chat API from Standard Compute — 1 operation(s) for chat.
+  name: Standard Compute Chat API
+  slug: standard-compute-chat-api
+- baseURL: https://api.stdcmpt.com/v1
+  baseurl_source: declared
+  description: The Completions API from Standard Compute — 1 operation(s) for completions.
+  name: Standard Compute Completions API
+  slug: standard-compute-completions-api
+- baseURL: https://api.stdcmpt.com/v1
+  baseurl_source: declared
+  description: The Healthz API from Standard Compute — 1 operation(s) for healthz.
+  name: Standard Compute Healthz API
+  slug: standard-compute-healthz-api
+- baseURL: https://api.stdcmpt.com/v1
+  baseurl_source: declared
+  description: The Install.ps1 API from Standard Compute — 1 operation(s) for install.ps1.
+  name: Standard Compute Install.ps1 API
+  slug: standard-compute-install-ps1-api
+- baseURL: https://api.stdcmpt.com/v1
+  baseurl_source: declared
+  description: The Install.sh API from Standard Compute — 1 operation(s) for install.sh.
+  name: Standard Compute Install.sh API
+  slug: standard-compute-install-sh-api
+- baseURL: https://api.stdcmpt.com/v1
+  baseurl_source: declared
+  description: The Messages API from Standard Compute — 2 operation(s) for messages.
+  name: Standard Compute Messages API
+  slug: standard-compute-messages-api
+- baseURL: https://api.stdcmpt.com/v1
+  baseurl_source: declared
+  description: The Models API from Standard Compute — 1 operation(s) for models.
+  name: Standard Compute Models API
+  slug: standard-compute-models-api
+- baseURL: https://api.stdcmpt.com/v1
+  baseurl_source: declared
+  description: The Responses API from Standard Compute — 1 operation(s) for responses.
+  name: Standard Compute Responses API
+  slug: standard-compute-responses-api
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -159,7 +194,7 @@ modified: '2026-09-02'
 name: Standard Compute
 nav: Providers
 network: true
-overview: 'Standard Compute publishes 1 API on the [APIs.io](https://apis.io/) network: Inference API. Tagged areas include LLM API, Flat Rate, Subscription, AI Agents, and Inference.
+overview: 'Standard Compute publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Healthz API, and 5 more. Tagged areas include LLM API, Flat Rate, Subscription, AI Agents, and Inference.
 
 
   Standard Compute''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 19 more developer resources.'
@@ -167,14 +202,14 @@ plans:
 - name: Standard Compute Plans Pricing
   plan_count: 8
   slug: standard-compute-plans-pricing
-random_paper: 0
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Standard Compute Rate Limits
   slug: standard-compute-rate-limits
 score:
   band: developing
-  composite: 45.3
+  composite: 46.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -182,21 +217,26 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 34.7
+    contract_quality: 38.4
     developer_ergonomics: 42.3
     discoverability: 75.9
     operational_transparency: 42.1
   previous_composite: 45.3
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

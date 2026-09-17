@@ -24,7 +24,7 @@ name: Aviate
 nav: Providers
 network: true
 overview: Aviate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Android, Consumer Applications, and Contextual Computing.
-random_paper: 4
+random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviate/refs/heads/main/screenshots/aviate-2026-07-25T201933.png
 slug: aviate
 tags:

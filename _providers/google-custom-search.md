@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,9 +47,9 @@ api_count: 1
 apis:
 - baseURL: https://customsearch.googleapis.com
   baseurl_source: declared
-  description: The Customsearch API from Google Custom Search — 2 operation(s) for customsearch.
-  name: Google Custom Search Customsearch API
-  slug: google-custom-search-customsearch-api
+  description: The Custom Search API from Google Custom Search — 2 operation(s) for custom search.
+  name: Google Custom Search Custom Search API
+  slug: google-custom-search-custom-search-api
 artifact_total: 15
 collections:
 - collection_type: postman
@@ -155,7 +155,7 @@ modified: '2026-05-19'
 name: Google Custom Search
 nav: Providers
 network: true
-overview: 'Google Custom Search publishes 1 API on the [APIs.io](https://apis.io/) network: Customsearch API. Tagged areas include Custom Search, Google, Image Search, Search, and Web Search.
+overview: 'Google Custom Search publishes 1 API on the [APIs.io](https://apis.io/) network: Custom Search API. Tagged areas include Custom Search, Google, Image Search, Search, and Web Search.
 
 
   The Google Custom Search catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -166,7 +166,7 @@ plans:
 - name: Google Custom Search Plans Pricing
   plan_count: 3
   slug: google-custom-search-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Google Custom Search Rate Limits
@@ -209,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

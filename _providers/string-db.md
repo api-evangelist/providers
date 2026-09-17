@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://string-db.org
@@ -174,7 +174,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 3
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -223,7 +223,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

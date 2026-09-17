@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 41
@@ -366,10 +366,10 @@ common:
   type: LLMsTxt
   url: llms/netomi-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/openapi/netomi-agentdesk-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/openapi/_original/netomi-agentdesk-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/netomi-agentdesk-openapi.json
+  url: openapi/_original/netomi-agentdesk-openapi.json
 - group: docs
   title: ''
   type: APIReference
@@ -394,7 +394,7 @@ description: Netomi (founded 2016 as msg.ai) is an enterprise agentic AI platfor
   publishes SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, GDPR, CCPA and PDPA compliance posture. The Agentic Studio console and the developer documentation portal are gated behind an enterprise account, but a live, unlinked OpenAPI 3.1.0 contract for the AgentDesk REST API — 56 paths, 67 operations, 103 schemas, covering the conversation engine, NLU prediction, query analysis, conversation history, per-bot rate-limit configuration, visitor authorization and sixteen inbound channel webhooks (Zendesk, Zoho, Salesforce, Freshdesk, Gladly, Helpshift, Sprinklr, Sunshine Conversations, Facebook, Twitter, Google Assistant, Firebase) — is served publicly at https://api.netomi.com/v3/api-docs with Swagger UI at https://api.netomi.com/swagger-ui.html.
 image: https://www.netomi.com/apple-touch-icon.png
 layout: provider
-modified: '2026-08-01'
+modified: '2026-09-16'
 name: Netomi
 nav: Providers
 network: true
@@ -405,10 +405,10 @@ overview: 'Netomi publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Netomi''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, changelog, sandbox, and 29 more developer resources.'
-random_paper: 1
+random_paper: 14
 score:
   band: developing
-  composite: 49.3
+  composite: 50.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 34.0
@@ -416,11 +416,11 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 48.5
+    contract_quality: 52.5
     developer_ergonomics: 61.3
     discoverability: 70.4
     operational_transparency: 50.0
@@ -436,7 +436,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

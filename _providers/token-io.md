@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -284,6 +284,10 @@ collections:
   name: Token.io's Open Banking API for TPPs
   slug: open-token-io
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://token.io
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -414,7 +418,7 @@ jsonld:
   property_count: 6
   slug: token-io-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Token.io
 nav: Providers
 network: true
@@ -424,12 +428,12 @@ overview: 'Token.io publishes 18 APIs on the [APIs.io](https://apis.io/) network
   The Token.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Token.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, sandbox, pricing, and 12 more developer resources.'
+  Token.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, sandbox, pricing, and 13 more developer resources.'
 plans:
 - name: Token Io Plans Pricing
   plan_count: 4
   slug: token-io-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Token Io Rate Limits
@@ -475,7 +479,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

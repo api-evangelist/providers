@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)
@@ -67,7 +67,7 @@ name: Recreation Information Database
 nav: Providers
 network: true
 overview: Recreation Information Database publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 19
+random_paper: 1
 score:
   band: minimal
   composite: 5.8
@@ -94,7 +94,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

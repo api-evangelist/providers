@@ -32,7 +32,7 @@ name: Gantto
 nav: Providers
 network: true
 overview: Gantto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Project Management, Gantt Chart, Project Scheduling, and Software-as-a-Service.
-random_paper: 2
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/gantto/refs/heads/main/screenshots/gantto-2026-07-25T215437.png
 slug: gantto
 tags:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Tez DAG API provides a Java programming model for defining and submitting directed-acyclic-graph (DAG) computation jobs to Apache YARN. It allows building DAGs composed of Vertex (processing units
@@ -126,7 +126,7 @@ plans:
 - name: Apache Tez Plans Pricing
   plan_count: 3
   slug: apache-tez-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Apache Tez Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 20.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

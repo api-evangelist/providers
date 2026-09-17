@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ modified: 2026-06-12
 name: Culture Amp
 nav: Providers
 network: true
-overview: 'Culture Amp publishes 3 APIs on the [APIs.io](https://apis.io/) network: Employees API, Performance API, and Surveys API. Tagged areas include HR, Employee Engagement, Performance Management, People Analytics, and Surveys.
+overview: 'Culture Amp publishes 3 APIs on the [APIs.io](https://apis.io/) network: Employees API, Performance API, and Surveys API. Tagged areas include Human Resources, Employee Engagement, Performance Management, People Analytics, and Surveys.
 
 
   The Culture Amp catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -224,7 +224,7 @@ plans:
 - name: Culture Amp Plans Pricing
   plan_count: 4
   slug: culture-amp-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Culture Amp Rate Limits
@@ -272,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -294,11 +294,10 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR, CSA STAR
 slug: culture-amp
 tags:
-- HR
+- Human Resources
 - Employee Engagement
 - Performance Management
 - People Analytics
 - Surveys
-- Human Resources
 website: https://www.cultureamp.com
 ---

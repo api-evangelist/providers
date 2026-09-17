@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Amazon License Manager API
   slug: open-amazon-license-manager
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -192,7 +196,7 @@ jsonld:
   property_count: 7
   slug: amazon-license-manager-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon License Manager
 nav: Providers
 network: true
@@ -202,12 +206,12 @@ overview: 'Amazon License Manager publishes 1 API on the [APIs.io](https://apis.
   The Amazon License Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon License Manager''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon License Manager''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon License Manager Plans Pricing
   plan_count: 3
   slug: amazon-license-manager-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Amazon License Manager Rate Limits
@@ -261,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -297,5 +301,5 @@ use_cases:
   name: Cost Optimization
 - description: Generate detailed license reports for software vendor audits.
   name: Vendor Audit Preparation
-website: https://aws.amazon.com/license-manager/
+website: https://amazon.com
 ---

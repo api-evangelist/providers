@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://{subdomain}.fellow.app/api/v1
@@ -212,7 +212,7 @@ overview: 'Fellow publishes 1 API on the [APIs.io](https://apis.io/) network: De
 
 
   Fellow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Fellow Rate Limits
@@ -246,7 +246,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Amazon Lookout for Equipment API
   slug: open-amazon-lookout-for-equipment
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -201,7 +205,7 @@ jsonld:
   property_count: 7
   slug: amazon-lookout-for-equipment-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Lookout for Equipment
 nav: Providers
 network: true
@@ -211,12 +215,12 @@ overview: 'Amazon Lookout for Equipment publishes 1 API on the [APIs.io](https:/
   The Amazon Lookout for Equipment catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lookout for Equipment''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon Lookout for Equipment''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Lookout For Equipment Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-equipment-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Equipment Rate Limits
@@ -270,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -308,5 +312,5 @@ use_cases:
   name: Mining Equipment Health
 - description: Detect anomalies in HVAC systems to prevent equipment failures in buildings.
   name: HVAC System Monitoring
-website: https://aws.amazon.com/lookout-for-equipment/
+website: https://amazon.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Goji Platform API for private-markets investing: create and KYC/KYB investors, open and administer IF ISAs, move funds via investor and manager payment APIs, settle debt and equity investments, ma'
@@ -155,14 +155,14 @@ modified: '2026-07-19'
 name: Goji
 nav: Providers
 network: true
-overview: 'Goji publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Private Markets, Investments, and Funds.
+overview: 'Goji publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Private Markets, Investment, and Fund.
 
 
   The Goji catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Goji''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 5
+random_paper: 7
 score:
   band: thin
   composite: 38.0
@@ -193,7 +193,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,8 +214,8 @@ tags:
 - Company
 - Fintech
 - Private Markets
-- Investments
-- Funds
+- Investment
+- Fund
 - KYC
 - Payments
 - ISA

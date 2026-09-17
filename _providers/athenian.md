@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -246,7 +246,7 @@ overview: 'Athenian publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Athenian''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 0
+random_paper: 4
 score:
   band: thin
   composite: 30.2
@@ -277,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

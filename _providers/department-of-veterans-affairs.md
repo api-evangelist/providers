@@ -17,9 +17,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-09-15'
+  score: 27.3
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -85,11 +85,6 @@ apis:
   slug: va-veteran-service-history-and-eligibility-api
 - baseURL: https://api.va.gov/services/va_facilities/v1
   baseurl_source: declared
-  description: The AllergyIntolerance API from Department of Veterans Affairs (VA) — 1 operation(s) for allergyintolerance.
-  name: Department of Veterans Affairs (VA) AllergyIntolerance API
-  slug: department-of-veterans-affairs-allergyintolerance-api
-- baseURL: https://api.va.gov/services/va_facilities/v1
-  baseurl_source: declared
   description: Appeals status and history
   name: Department of Veterans Affairs (VA) Appeals API
   slug: department-of-veterans-affairs-appeals-api
@@ -123,11 +118,6 @@ apis:
   description: Intent to File operations
   name: Department of Veterans Affairs (VA) Intent To File API
   slug: department-of-veterans-affairs-intent-to-file-api
-- baseURL: https://api.va.gov/services/va_facilities/v1
-  baseurl_source: declared
-  description: The MedicationRequest API from Department of Veterans Affairs (VA) — 1 operation(s) for medicationrequest.
-  name: Department of Veterans Affairs (VA) MedicationRequest API
-  slug: department-of-veterans-affairs-medicationrequest-api
 - baseURL: https://api.va.gov/services/va_facilities/v1
   baseurl_source: declared
   description: Locate facilities near a given address or coordinates
@@ -168,6 +158,16 @@ apis:
   description: The Veterans API from Department of Veterans Affairs (VA) — 1 operation(s) for veterans.
   name: Department of Veterans Affairs (VA) Veterans API
   slug: department-of-veterans-affairs-veterans-api
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Allergy Intolerance API from Department of Veterans Affairs (VA) — 1 operation(s) for allergy intolerance.
+  name: Department of Veterans Affairs (VA) Allergy Intolerance API
+  slug: department-of-veterans-affairs-allergy-intolerance-api
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Medication Request API from Department of Veterans Affairs (VA) — 1 operation(s) for medication request.
+  name: Department of Veterans Affairs (VA) Medication Request API
+  slug: department-of-veterans-affairs-medication-request-api
 artifact_total: 74
 collections:
 - collection_type: open
@@ -350,7 +350,7 @@ modified: '2026-05-19'
 name: Department of Veterans Affairs (VA)
 nav: Providers
 network: true
-overview: 'Department of Veterans Affairs (VA) publishes 17 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, Appeals API, Claims API, and 14 more. Tagged areas include Federal-Government, Healthcare, and Veterans.
+overview: 'Department of Veterans Affairs (VA) publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Appeals API, Claims API, Condition API, and 14 more. Tagged areas include Federal-Government, Healthcare, and Veterans.
 
 
   The Department of Veterans Affairs (VA) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -361,7 +361,7 @@ plans:
 - name: Department Of Veterans Affairs Plans Pricing
   plan_count: 2
   slug: department-of-veterans-affairs-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Department Of Veterans Affairs Rate Limits
@@ -425,7 +425,7 @@ score:
     regime_id: health
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

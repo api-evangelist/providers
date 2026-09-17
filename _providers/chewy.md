@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Chewy provides vendor and supplier integration through the Dsco platform, enabling third-party brands and logistics providers to connect with Chewy's e-commerce marketplace. The integration supports E
@@ -138,7 +138,7 @@ plans:
 - name: Chewy Plans Pricing
   plan_count: 1
   slug: chewy-plans-pricing
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Chewy Rate Limits
@@ -169,7 +169,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

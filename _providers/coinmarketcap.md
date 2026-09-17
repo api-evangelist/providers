@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Single REST API spanning Cryptocurrency endpoints (listings, quotes, OHLCV, market pairs, historical), Exchange endpoints (listings, quotes, market pairs), DEX/on-chain data (networks, dexes, spot pai
@@ -41,6 +41,10 @@ apis:
   slug: pro-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://coinmarketcap.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/coinmarketcap/refs/heads/main/security/coinmarketcap-domain-security.yml
   title: ''
@@ -93,19 +97,19 @@ finops:
   slug: coinmarketcap-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/coinmarketcap.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-09-16'
 name: CoinMarketCap
 nav: Providers
 network: true
 overview: 'CoinMarketCap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Web3, Crypto, Market Data, Rankings, and DEX.
 
 
-  CoinMarketCap''s developer surface includes developer portal, documentation, pricing, sandbox, and 6 more developer resources.'
+  CoinMarketCap''s developer surface includes developer portal, documentation, pricing, sandbox, and 7 more developer resources.'
 plans:
 - name: Coinmarketcap Plans Pricing
   plan_count: 6
   slug: coinmarketcap-plans-pricing
-random_paper: 12
+random_paper: 13
 rate_limits:
 - limit_count: 8
   name: Coinmarketcap Rate Limits
@@ -138,7 +142,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +161,7 @@ tags:
 - Market Data
 - Rankings
 - DEX
-- Exchanges
+- Exchange
 - Cryptocurrency
-website: https://coinmarketcap.com/api/
+website: https://coinmarketcap.com
 ---

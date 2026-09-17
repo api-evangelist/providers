@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 62.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 1
@@ -45,16 +45,6 @@ agentic_access:
   summary_line: 133 operations · 73 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://api.netlify.com/api/v1/
-  baseurl_source: declared
-  description: The accessToken API from Netlify — 1 operation(s) for accesstoken.
-  name: Netlify accessToken API
-  slug: netlify-accesstoken-api
-- baseURL: https://api.netlify.com/api/v1/
-  baseurl_source: declared
-  description: The accountMembership API from Netlify — 2 operation(s) for accountmembership.
-  name: Netlify accountMembership API
-  slug: netlify-accountmembership-api
 - baseURL: https://api.netlify.com/api/v1/
   baseurl_source: declared
   description: The accountType API from Netlify — 1 operation(s) for accounttype.
@@ -70,11 +60,6 @@ apis:
   description: The assetPublicSignature API from Netlify — 1 operation(s) for assetpublicsignature.
   name: Netlify assetPublicSignature API
   slug: netlify-assetpublicsignature-api
-- baseURL: https://api.netlify.com/api/v1/
-  baseurl_source: declared
-  description: The auditLog API from Netlify — 1 operation(s) for auditlog.
-  name: Netlify auditLog API
-  slug: netlify-auditlog-api
 - baseURL: https://api.netlify.com/api/v1/
   baseurl_source: declared
   description: The Build API from Netlify — 4 operation(s) for build.
@@ -107,11 +92,6 @@ apis:
   slug: netlify-deploykey-api
 - baseURL: https://api.netlify.com/api/v1/
   baseurl_source: declared
-  description: The devServer API from Netlify — 3 operation(s) for devserver.
-  name: Netlify devServer API
-  slug: netlify-devserver-api
-- baseURL: https://api.netlify.com/api/v1/
-  baseurl_source: declared
   description: The devServerHook API from Netlify — 2 operation(s) for devserverhook.
   name: Netlify devServerHook API
   slug: netlify-devserverhook-api
@@ -120,11 +100,6 @@ apis:
   description: The dnsZone API from Netlify — 6 operation(s) for dnszone.
   name: Netlify dnsZone API
   slug: netlify-dnszone-api
-- baseURL: https://api.netlify.com/api/v1/
-  baseurl_source: declared
-  description: The environmentVariables API from Netlify — 4 operation(s) for environmentvariables.
-  name: Netlify environmentVariables API
-  slug: netlify-environmentvariables-api
 - baseURL: https://api.netlify.com/api/v1/
   baseurl_source: declared
   description: The File API from Netlify — 3 operation(s) for file.
@@ -162,11 +137,6 @@ apis:
   slug: netlify-metadata-api
 - baseURL: https://api.netlify.com/api/v1/
   baseurl_source: declared
-  description: The paymentMethod API from Netlify — 1 operation(s) for paymentmethod.
-  name: Netlify paymentMethod API
-  slug: netlify-paymentmethod-api
-- baseURL: https://api.netlify.com/api/v1/
-  baseurl_source: declared
   description: The Purge API from Netlify — 1 operation(s) for purge.
   name: Netlify Purge API
   slug: netlify-purge-api
@@ -175,11 +145,6 @@ apis:
   description: The serviceInstance API from Netlify — 3 operation(s) for serviceinstance.
   name: Netlify serviceInstance API
   slug: netlify-serviceinstance-api
-- baseURL: https://api.netlify.com/api/v1/
-  baseurl_source: declared
-  description: The Services API from Netlify — 3 operation(s) for services.
-  name: Netlify Services API
-  slug: netlify-services-api
 - baseURL: https://api.netlify.com/api/v1/
   baseurl_source: declared
   description: The Site API from Netlify — 4 operation(s) for site.
@@ -195,11 +160,6 @@ apis:
   description: The Snippet API from Netlify — 2 operation(s) for snippet.
   name: Netlify Snippet API
   slug: netlify-snippet-api
-- baseURL: https://api.netlify.com/api/v1/
-  baseurl_source: declared
-  description: The splitTest API from Netlify — 4 operation(s) for splittest.
-  name: Netlify splitTest API
-  slug: netlify-splittest-api
 - baseURL: https://api.netlify.com/api/v1/
   baseurl_source: declared
   description: The Submission API from Netlify — 3 operation(s) for submission.
@@ -237,11 +197,6 @@ apis:
   slug: netlify-agentrunnersession-api
 - baseURL: https://api.netlify.com/api/v1/
   baseurl_source: declared
-  description: The aiGateway API from Netlify — 3 operation(s) for aigateway.
-  name: Netlify AI Gateway API
-  slug: netlify-aigateway-api
-- baseURL: https://api.netlify.com/api/v1/
-  baseurl_source: declared
   description: The database API from Netlify — 14 operation(s) for database.
   name: Netlify Database API
   slug: netlify-database-api
@@ -255,7 +210,47 @@ apis:
   description: The service API from Netlify — 3 operation(s) for service.
   name: Netlify Service API
   slug: netlify-service-api
-artifact_total: 215
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Access Token API from Netlify — 1 operation(s) for access token.
+  name: Netlify Access Token API
+  slug: netlify-access-token-api
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Account Membership API from Netlify — 2 operation(s) for account membership.
+  name: Netlify Account Membership API
+  slug: netlify-account-membership-api
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The AI Gateway API from Netlify — 3 operation(s) for ai gateway.
+  name: Netlify AI Gateway API
+  slug: netlify-ai-gateway-api
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Audit Log API from Netlify — 1 operation(s) for audit log.
+  name: Netlify Audit Log API
+  slug: netlify-audit-log-api
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Dev Server API from Netlify — 4 operation(s) for dev server.
+  name: Netlify Dev Server API
+  slug: netlify-dev-server-api
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Environment Variables API from Netlify — 4 operation(s) for environment variables.
+  name: Netlify Environment Variables API
+  slug: netlify-environment-variables-api
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Payment Method API from Netlify — 1 operation(s) for payment method.
+  name: Netlify Payment Method API
+  slug: netlify-payment-method-api
+- baseURL: https://api.netlify.com/api/v1/
+  baseurl_source: declared
+  description: The Split Test API from Netlify — 4 operation(s) for split test.
+  name: Netlify Split Test API
+  slug: netlify-split-test-api
+artifact_total: 214
 asyncapis:
 - description: 'AsyncAPI description of Netlify''s asynchronous event surface. Two documented surfaces are modelled here: 1. Outgoing webhooks (deploy / form / split test notifications). Netlify issues an HTTP POST to'
   name: Netlify Webhooks and Build Hooks
@@ -475,6 +470,46 @@ collections:
   name: Netlify Netlify's API documentation accessToken X-Internal API
   slug: open-netlify-x-internal-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/overlays/netlify-accesstoken-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/netlify-accesstoken-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/overlays/netlify-accountmembership-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/netlify-accountmembership-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/overlays/netlify-auditlog-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/netlify-auditlog-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/overlays/netlify-devserver-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/netlify-devserver-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/overlays/netlify-environmentvariables-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/netlify-environmentvariables-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/overlays/netlify-paymentmethod-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/netlify-paymentmethod-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/overlays/netlify-splittest-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/netlify-splittest-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/overlays/netlify-services-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/netlify-services-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -1031,18 +1066,18 @@ modified: '2026-08-27'
 name: Netlify
 nav: Providers
 network: true
-overview: 'Netlify publishes 42 APIs on the [APIs.io](https://apis.io/) network, including accessToken API, accountMembership API, accountType API, and 39 more. Tagged areas include CDN, Cloud, Continuous Deployment, Developer Tools, and Edge Computing.
+overview: 'Netlify publishes 41 APIs on the [APIs.io](https://apis.io/) network, including accountType API, Asset API, assetPublicSignature API, and 38 more. Tagged areas include CDN, Cloud, Continuous Deployment, Developer Tools, and Edge Computing.
 
 
   The Netlify catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Netlify''s developer surface includes authentication, engineering blog, changelog, support, signup flow, developer portal, pricing, and 61 more developer resources.'
+  Netlify''s developer surface includes authentication, engineering blog, changelog, support, signup flow, developer portal, pricing, and 69 more developer resources.'
 plans:
 - name: Netlify Plans Pricing
   plan_count: 4
   slug: netlify-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Netlify Rate Limits
@@ -1076,7 +1111,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 67.3
+  composite: 68.1
   coverage:
     artifact_dirs: 33
     catalog_earned: 70.5
@@ -1084,11 +1119,11 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 86.8
     contract_governance: 33.3
-    contract_quality: 52.0
+    contract_quality: 55.5
     developer_ergonomics: 79.8
     discoverability: 70.4
     operational_transparency: 84.2
@@ -1103,11 +1138,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 42
+      total: 41
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

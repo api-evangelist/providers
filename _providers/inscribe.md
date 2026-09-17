@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful API for uploading and analyzing financial documents for fraud detection and data extraction. Supports bank statements, pay stubs, tax forms, invoices, and identity documents. Provides fraud si
@@ -131,7 +131,7 @@ plans:
 - name: Inscribe Plans Pricing
   plan_count: 0
   slug: inscribe-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Inscribe Rate Limits
@@ -162,7 +162,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

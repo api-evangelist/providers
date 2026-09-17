@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,11 +61,11 @@ modified: '2026-07-21'
 name: THG
 nav: Providers
 network: true
-overview: 'THG is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Consumer Brands, Beauty, and Nutrition.
+overview: 'THG is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Consumer Brand, Beauty, and Nutrition.
 
 
   THG''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 8
+random_paper: 15
 score:
   band: minimal
   composite: 7.6
@@ -94,7 +94,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -110,7 +110,7 @@ slug: thg
 tags:
 - Company
 - E-Commerce
-- Consumer Brands
+- Consumer Brand
 - Beauty
 - Nutrition
 - Retail

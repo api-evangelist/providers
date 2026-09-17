@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -111,11 +111,6 @@ apis:
   slug: yodlee-payment-processor-api
 - baseURL: https://production.api.yodlee.com/ysl
   baseurl_source: declared
-  description: Provider Accounts API
-  name: Yodlee ProviderAccounts API
-  slug: yodlee-provideraccounts-api
-- baseURL: https://production.api.yodlee.com/ysl
-  baseurl_source: declared
   description: Providers API
   name: Yodlee Providers API
   slug: yodlee-providers-api
@@ -154,6 +149,11 @@ apis:
   description: Verify Account API
   name: Yodlee Verify Account API
   slug: yodlee-verify-account-api
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Provider Accounts API
+  name: Yodlee Provider Accounts API
+  slug: yodlee-provider-accounts-api
 artifact_total: 53
 collections:
 - collection_type: open
@@ -312,7 +312,7 @@ plans:
 - name: Yodlee Plans Pricing
   plan_count: 1
   slug: yodlee-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Yodlee Rate Limits
@@ -350,7 +350,7 @@ score:
     regime_id: banking_open_finance
     score: 19.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

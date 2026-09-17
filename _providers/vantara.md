@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 6
 common:
@@ -192,7 +192,7 @@ overview: 'Milana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Milana''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 24 more developer resources.'
-random_paper: 14
+random_paper: 1
 scopes:
 - name: Vantara Scopes
   scope_count: 7
@@ -222,7 +222,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

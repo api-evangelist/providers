@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - baseURL: https://idrx.co/api
   baseurl_source: declared
   description: The IDRX API API from IDRX — 0 operation(s) for idrx api.
-  name: IDRX IDRX API
+  name: IDRX API
   slug: idrx-idrx-api-api
 artifact_total: 10
 asyncapis:
@@ -184,18 +184,18 @@ created: '2026-07-17'
 description: IDRX is a stablecoin pegged 1:1 to the Indonesian Rupiah (IDR), issued by a regulated Indonesian entity and available across multiple EVM chains and Solana. Its REST API lets business (organization) accounts onboard KYC-verified users, register bank accounts, and process mint (fiat IDR -> IDRX / USDT on-chain), redeem (IDRX -> fiat IDR to a bank account), and bridge (cross-chain) transactions, plus query swap rates, fees, supported bank methods, and transaction history. Requests are authenticated with an API key and an HMAC-SHA256 request signature, and settlement is confirmed via single-delivery webhooks or transaction-history polling. IDRX is a portfolio company of a16z (crypto).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/idrx.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: IDRX
 nav: Providers
 network: true
-overview: 'IDRX publishes 3 APIs on the [APIs.io](https://apis.io/) network: Onboarding API, Transaction API, and IDRX API. Tagged areas include Stablecoins, Cryptocurrency, Payments, Blockchain, and Fintech.
+overview: 'IDRX publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Onboarding API, Transaction API, and 1 more. Tagged areas include Stablecoins, Cryptocurrency, Payments, Blockchain, and Fintech.
 
 
   The IDRX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   IDRX''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 16 more developer resources.'
-random_paper: 19
+random_paper: 21
 score:
   band: thin
   composite: 36.0
@@ -239,7 +239,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

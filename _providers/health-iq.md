@@ -19,7 +19,7 @@ name: Health IQ
 nav: Providers
 network: true
 overview: Health IQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Life Insurance, and Medicare.
-random_paper: 11
+random_paper: 13
 slug: health-iq
 tags:
 - Company

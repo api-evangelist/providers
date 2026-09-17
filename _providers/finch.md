@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ modified: '2026-05-19'
 name: Finch
 nav: Providers
 network: true
-overview: 'Finch publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Connect API, and Employer API. Tagged areas include Employment, HRIS, Payroll, Benefits, and HR.
+overview: 'Finch publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Connect API, and Employer API. Tagged areas include Employment, HRIS, Payroll, Benefits, and Human Resources.
 
 
   Finch''s developer surface includes authentication, documentation, API reference, signup flow, pricing, engineering blog, changelog, and 8 more developer resources.'
@@ -162,7 +162,7 @@ plans:
 - name: Finch Plans Pricing
   plan_count: 3
   slug: finch-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Finch Rate Limits
@@ -194,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -219,7 +219,7 @@ tags:
 - HRIS
 - Payroll
 - Benefits
-- HR
+- Human Resources
 - Unified-API
 - Workforce
 website: https://www.tryfinch.com/

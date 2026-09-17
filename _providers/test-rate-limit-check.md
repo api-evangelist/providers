@@ -214,7 +214,7 @@ plans:
 - name: Test Rate Limit Check Plans Pricing
   plan_count: 3
   slug: test-rate-limit-check-plans-pricing
-random_paper: 6
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Test Rate Limit Check Rate Limits

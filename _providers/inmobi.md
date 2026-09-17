@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Automates download of app inventory performance data for InMobi publishers. A single POST to /v3.0/reporting/publisher takes a reportRequest envelope of metrics (adRequests, adImpressions, clicks, ear
@@ -205,7 +205,7 @@ plans:
 - name: Inmobi Plans Pricing
   plan_count: 2
   slug: inmobi-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Inmobi Rate Limits
@@ -237,7 +237,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

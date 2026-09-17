@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'Bearer-authenticated REST API for crypto payments: cheques, transfers, invoices, withdrawals, mass transfers, app-info, currencies and rates. Endpoints served under /api/v1/.'
@@ -36,15 +36,20 @@ apis:
   name: xRocket Pay API
   slug: xrocket-pay-api
 artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://xrocket.exchange
 created: '2026-08-25'
 description: Telegram-native centralized crypto exchange (CEX) developer program exposing a REST Exchange API for trading and market data (with a WebSocket stream) and a REST Pay API for payments, cheques, invoices, transfers and withdrawals. Bearer-token authenticated with public read endpoints and Swagger/OpenAPI contracts.
 layout: provider
-modified: '2026-08-25'
+modified: '2026-09-16'
 name: xRocket Exchange API
 nav: Providers
 network: true
 overview: 'xRocket Exchange API publishes 2 APIs on the [APIs.io](https://apis.io/) network: xRocket Exchange API and xRocket Pay API. Tagged areas include Cryptocurrency, Payments, Crypto payment gateway, Telegram bots, and Digital Wallet.'
-random_paper: 11
+random_paper: 6
 score:
   band: minimal
   composite: 10.2
@@ -77,7 +82,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -109,4 +114,5 @@ tags:
 - Telegram-native
 - bot platform
 - P2P trading
+website: https://xrocket.exchange
 ---

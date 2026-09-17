@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,11 +80,6 @@ apis:
   slug: swift-currency-codes-api
 - baseURL: https://api.swift.com/swiftrefdata
   baseurl_source: declared
-  description: IBAN (International Bank Account Number) lookup and validation
-  name: SWIFT IBANs API
-  slug: swift-ibans-api
-- baseURL: https://api.swift.com/swiftrefdata
-  baseurl_source: declared
   description: LEI (Legal Entity Identifier) lookup and validation
   name: SWIFT LEIs API
   slug: swift-leis-api
@@ -93,6 +88,11 @@ apis:
   description: National ID lookup and BIC resolution
   name: SWIFT National IDs API
   slug: swift-national-ids-api
+- baseURL: https://api.swift.com/swift-apigateway
+  baseurl_source: declared
+  description: IBAN (International Bank Account Number) lookup and validation
+  name: SWIFT IBA Ns API
+  slug: swift-ibans-api
 artifact_total: 44
 collections:
 - collection_type: postman
@@ -285,7 +285,7 @@ plans:
 - name: Swift Plans Pricing
   plan_count: 1
   slug: swift-plans-pricing
-random_paper: 11
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Swift Rate Limits
@@ -350,7 +350,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

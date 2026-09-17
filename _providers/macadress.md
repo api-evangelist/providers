@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,11 +48,30 @@ api_count: 1
 apis:
 - baseURL: https://api.macadress.com
   baseurl_source: declared
-  description: 'REST/JSON API for single and batch MAC/OUI lookups, vendor directory search, and health checks. Requires a free API key via Authorization Bearer or api_key query/body. Live API at api.macadress.com: G'
-  name: macadress.com API
-  slug: macadresscom-api
-artifact_total: 13
+  description: 'The Healthz API from MAC Address Lookup: Find Vendor, OUI & Device Type — 1 operation(s) for healthz.'
+  name: 'MAC Address Lookup: Find Vendor, OUI & Device Type Healthz API'
+  slug: macadress-healthz-api
+- baseURL: https://api.macadress.com
+  baseurl_source: declared
+  description: 'The Mac API from MAC Address Lookup: Find Vendor, OUI & Device Type — 2 operation(s) for mac.'
+  name: 'MAC Address Lookup: Find Vendor, OUI & Device Type Mac API'
+  slug: macadress-mac-api
+- baseURL: https://api.macadress.com
+  baseurl_source: declared
+  description: 'The Vendors API from MAC Address Lookup: Find Vendor, OUI & Device Type — 1 operation(s) for vendors.'
+  name: 'MAC Address Lookup: Find Vendor, OUI & Device Type Vendors API'
+  slug: macadress-vendors-api
+artifact_total: 15
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.macadress.com/mcp
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/overlays/macadress-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/macadress-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -201,29 +220,29 @@ examples:
 image: https://macadress.com/static/og-image.png
 layout: provider
 mcp_servers:
-- description: The endpoint is on the mcp. SUBDOMAIN. macadress.com/mcp is the documentation page and answers 405 to POST -- probing it as the endpoint reads as absence. Streamable HTTP, stateless; returns 401 "no b
+- description: ''
   name: 'MAC Address Lookup: Find Vendor, OUI & Device Type MCP Server'
   slug: mac-address-lookup-find-vendor-oui-device-type-mcp-server
 modified: '2026-08-28'
 name: 'MAC Address Lookup: Find Vendor, OUI & Device Type'
 nav: Providers
 network: true
-overview: 'MAC Address Lookup: Find Vendor, OUI & Device Type publishes 1 API on the [APIs.io](https://apis.io/) network: macadress.com API. Tagged areas include Networking, Network Access Control, Security, SecOps, and IoT.
+overview: 'MAC Address Lookup: Find Vendor, OUI & Device Type publishes 3 APIs on the [APIs.io](https://apis.io/) network: Healthz API, Mac API, and Vendors API. Tagged areas include Networking, Network Access Control, Security, SecOps, and IoT.
 
 
-  MAC Address Lookup: Find Vendor, OUI & Device Type''s developer surface includes authentication, support, pricing, signup flow, and 23 more developer resources.'
+  MAC Address Lookup: Find Vendor, OUI & Device Type''s developer surface includes authentication, support, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Macadress Plans Pricing
   plan_count: 4
   slug: macadress-plans-pricing
-random_paper: 2
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Macadress Rate Limits
   slug: macadress-rate-limits
 score:
   band: developing
-  composite: 51.4
+  composite: 51.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 62.3
@@ -231,11 +250,11 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 76.3
     contract_governance: 3.8
-    contract_quality: 53.7
+    contract_quality: 54.2
     developer_ergonomics: 44.6
     discoverability: 75.9
     operational_transparency: 50.0
@@ -247,11 +266,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

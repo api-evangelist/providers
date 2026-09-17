@@ -21,7 +21,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: false
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-09-15'
+  score: 31.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -302,6 +302,21 @@ apis:
 - description: The Azure DevOps Release API provides REST endpoints for managing release pipelines, deployments, and environments. APIs support release definition management, deployment approvals, environment config
   name: Azure DevOps Release API
   slug: azure-devops-release-api
+- baseURL: https://vssps.dev.azure.com/{organization}/_apis/graph
+  baseurl_source: declared
+  description: Work item field definitions
+  name: Azure DevOps Fields API
+  slug: microsoft-azure-devops-fields-api
+- baseURL: https://vssps.dev.azure.com/{organization}/_apis/graph
+  baseurl_source: declared
+  description: Work item query execution
+  name: Azure DevOps Queries API
+  slug: microsoft-azure-devops-queries-api
+- baseURL: https://vssps.dev.azure.com/{organization}/_apis/graph
+  baseurl_source: declared
+  description: Pipeline run execution and monitoring
+  name: Azure DevOps Runs API
+  slug: microsoft-azure-devops-runs-api
 arazzos:
 - description: Query a board column with WIQL, fetch the work item type, and acknowledge the top bug.
   name: Azure DevOps Board Bug Acknowledgement
@@ -357,7 +372,7 @@ arazzos:
 - description: Create a work item, transition its state, and append a comment in one flow.
   name: Azure DevOps Create, Update, and Comment on a Work Item
   slug: microsoft-azure-devops-work-item-create-update-comment-workflow
-artifact_total: 247
+artifact_total: 250
 asyncapis:
 - description: AsyncAPI specification for Azure DevOps Service Hooks (webhooks and event subscriptions). Azure DevOps delivers event notifications via HTTP POST requests to subscriber endpoints when events occur suc
   name: Azure DevOps Service Hooks AsyncAPI
@@ -1164,7 +1179,7 @@ modified: '2026-05-19'
 name: Azure DevOps
 nav: Providers
 network: true
-overview: 'Azure DevOps publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Build Artifacts API, Build Definitions API, and 29 more. Tagged areas include Agile, CI/CD, Developer Tools, DevOps, and Project Management.
+overview: 'Azure DevOps publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Build Artifacts API, Build Definitions API, and 32 more. Tagged areas include Agile, CI/CD, Developer Tools, DevOps, and Project Management.
 
 
   The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -1175,7 +1190,7 @@ plans:
 - name: Microsoft Azure Devops Plans Pricing
   plan_count: 6
   slug: microsoft-azure-devops-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Microsoft Azure Devops Rate Limits
@@ -1220,7 +1235,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.4
+  composite: 67.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 58.5
@@ -1228,11 +1243,11 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 60.5
     contract_governance: 28.8
-    contract_quality: 77.4
+    contract_quality: 77.3
     developer_ergonomics: 82.1
     discoverability: 66.7
     operational_transparency: 52.6
@@ -1246,9 +1261,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 32
+      total: 35
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

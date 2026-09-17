@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: verified
     mcp_server: false
     openapi_examples: verified
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.3
-  scored_at: '2026-09-15'
+  score: 35.6
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -70,6 +70,9 @@ apis:
   description: Operations for transactional reads and writes across multiple items
   name: Amazon DynamoDB Transactions API
   slug: amazon-dynamodb-transactions-api
+- description: API for capturing and processing change data from DynamoDB tables in near real-time, providing time-ordered sequences of item-level modifications.
+  name: Amazon DynamoDB Streams API
+  slug: amazon-dynamodb-streams-api
 arazzos:
 - description: Bulk-write a set of items and read them back in a single batch.
   name: Amazon DynamoDB Batch Write Then Batch Get
@@ -98,7 +101,7 @@ arazzos:
 - description: Atomically write a group of items, then atomically read them back.
   name: Amazon DynamoDB Transactional Write Then Transactional Read
   slug: amazon-dynamodb-transaction-write-then-read-workflow
-artifact_total: 151
+artifact_total: 152
 collections:
 - collection_type: postman
   name: Amazon DynamoDB API
@@ -637,11 +640,11 @@ jsonld:
   property_count: 92
   slug: amazon-dynamodb-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon DynamoDB
 nav: Providers
 network: true
-overview: 'Amazon DynamoDB publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 2 more. Tagged areas include Database, Document Store, Key-Value, NoSQL, and Serverless.
+overview: 'Amazon DynamoDB publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Items API, Queries API, and 3 more. Tagged areas include Database, Document Store, Key-Value, NoSQL, and Serverless.
 
 
   The Amazon DynamoDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -652,7 +655,7 @@ plans:
 - name: Amazon Dynamodb Plans Pricing
   plan_count: 3
   slug: amazon-dynamodb-plans-pricing
-random_paper: 4
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Dynamodb Rate Limits
@@ -681,7 +684,7 @@ rules:
   slug: amazon-dynamodb-spectral-rules
 score:
   band: strong
-  composite: 62.3
+  composite: 64.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 72.5
@@ -689,11 +692,11 @@ score:
     catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 69.7
     contract_governance: 28.8
-    contract_quality: 76.2
+    contract_quality: 84.4
     developer_ergonomics: 65.5
     discoverability: 75.9
     operational_transparency: 36.8
@@ -706,7 +709,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

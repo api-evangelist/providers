@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,11 +104,11 @@ modified: '2026-07-20'
 name: Mona Ai
 nav: Providers
 network: true
-overview: 'Mona Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Human Resources, HR Tech, and AI Agents.
+overview: 'Mona Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Human Resources, AI Agents, and Automation.
 
 
   Mona Ai''s developer surface includes engineering blog, pricing, support, and 10 more developer resources.'
-random_paper: 2
+random_paper: 14
 score:
   band: emerging
   composite: 12.7
@@ -139,7 +139,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -156,7 +156,6 @@ tags:
 - Company
 - Recruiting
 - Human Resources
-- HR Tech
 - AI Agents
 - Automation
 - Germany

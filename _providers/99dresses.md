@@ -19,7 +19,7 @@ name: 99Dresses
 nav: Providers
 network: true
 overview: 99Dresses is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Marketplace, and Resale.
-random_paper: 14
+random_paper: 17
 slug: 99dresses
 tags:
 - Company
@@ -29,5 +29,5 @@ tags:
 - Resale
 - Consumer
 - Defunct
-- Startup
+- Startups
 ---

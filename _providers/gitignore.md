@@ -39,7 +39,7 @@ overview: '.Gitignore is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   .Gitignore''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 2
+random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitignore/refs/heads/main/screenshots/gitignore-2026-06-20T181842.png
 slug: gitignore
 tags:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: savvycal-scheduling-links-api
 - baseURL: https://api.savvycal.com/v1
   baseurl_source: declared
-  description: List and retrieve time zone information.
-  name: SavvyCal Time Zones API
-  slug: savvycal-time-zones-api
-- baseURL: https://api.savvycal.com/v1
-  baseurl_source: declared
   description: Configure webhooks for real-time event notifications.
   name: SavvyCal Webhooks API
   slug: savvycal-webhooks-api
@@ -75,6 +70,11 @@ apis:
   description: Manage automation workflows.
   name: SavvyCal Workflows API
   slug: savvycal-workflows-api
+- baseURL: https://api.savvycal.com/v1
+  baseurl_source: declared
+  description: List and retrieve time zone information.
+  name: SavvyCal Timezones API
+  slug: savvycal-timezones-api
 artifact_total: 30
 collections:
 - collection_type: open
@@ -256,7 +256,7 @@ plans:
 - name: Savvycal Plans Pricing
   plan_count: 3
   slug: savvycal-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Savvycal Rate Limits
@@ -300,7 +300,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

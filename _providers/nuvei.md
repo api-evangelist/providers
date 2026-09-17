@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -58,11 +58,6 @@ apis:
   description: Manages stored payment instruments (User Payment Options / UPOs) including card and APM tokenization. Supports addUPOCreditCard, addUPOAPM, editUPOCreditCard, editUPOAPM, deleteUPO, getUserUPOs, and e
   name: Nuvei User Payment Options API
   slug: nuvei-user-payment-options-api
-- baseURL: https://secure.safecharge.com/ppp/api/v1/
-  baseurl_source: declared
-  description: 3D Secure 2 authentication endpoints. getCard3DDetails returns DS information and challenge requirements for a card; authenticate3d completes the authentication flow returning CAVV and ECI. Designed t
-  name: Nuvei 3DS API
-  slug: nuvei-3ds-api
 - baseURL: https://secure.safecharge.com/ppp/api/v1/
   baseurl_source: declared
   description: Dynamic Currency Conversion. getDccDetails computes the converted amount and markup rate for a card BIN and currency pair so merchants can present a localized currency offer at checkout.
@@ -96,6 +91,11 @@ apis:
   description: Read-only transaction state.
   name: Nuvei Status API
   slug: nuvei-status-api
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: The 3 DS API from Nuvei — 2 operation(s) for 3 ds.
+  name: Nuvei 3 DS API
+  slug: nuvei-3-ds-api
 artifact_total: 43
 asyncapis:
 - description: Asynchronous webhook notifications delivered from Nuvei to a merchant-configured notificationUrl when payments, payouts, refunds, voids, settles, or Control Panel events reach their final state. Payme
@@ -145,6 +145,10 @@ collections:
   name: Nuvei 3DS User Payment Options API
   slug: open-nuvei-user-payment-options-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://nuvei.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/agentic-access/nuvei-agentic-access.yml
   title: ''
@@ -288,7 +292,7 @@ jsonld:
   property_count: 2
   slug: nuvei-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-09-16'
 name: Nuvei
 nav: Providers
 network: true
@@ -300,7 +304,7 @@ plans:
 - name: Nuvei Plans Pricing
   plan_count: 1
   slug: nuvei-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Nuvei Rate Limits
@@ -376,7 +380,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -401,4 +405,5 @@ tags:
 - iGaming
 - E-Commerce
 - Fintech
+website: https://nuvei.com
 ---

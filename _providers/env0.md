@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,11 +54,6 @@ apis:
   description: The Agents API from Env0 — 1 operation(s) for agents.
   name: Env0 Agents API
   slug: env0-agents-api
-- baseURL: https://api.env0.com/
-  baseurl_source: declared
-  description: The ApprovalPolicies API from Env0 — 1 operation(s) for approvalpolicies.
-  name: Env0 ApprovalPolicies API
-  slug: env0-approvalpolicies-api
 - baseURL: https://api.env0.com/
   baseurl_source: declared
   description: The Configuration API from Env0 — 1 operation(s) for configuration.
@@ -104,6 +99,11 @@ apis:
   description: The Webhooks API from Env0 — 1 operation(s) for webhooks.
   name: Env0 Webhooks API
   slug: env0-webhooks-api
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Approval Policies API from Env0 — 1 operation(s) for approval policies.
+  name: Env0 Approval Policies API
+  slug: env0-approval-policies-api
 artifact_total: 34
 asyncapis:
 - description: ''
@@ -310,6 +310,10 @@ common:
   title: ''
   type: RateLimits
   url: rate-limits/env0-rate-limits.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@env0.com
 created: '2026-03-27'
 description: env0 -- now trading as "env zero" -- is an infrastructure-as-code automation and cloud governance platform for Terraform, OpenTofu, Terragrunt, Pulumi, CloudFormation, Kubernetes and Helm. It provisions and manages cloud environments from reusable templates, orchestrates multi-environment workflows with dependencies, enforces custom approval and guardrail policies, detects and remediates infrastructure drift, runs a private module and provider registry, and adds cost estimation, actual-cost visibility and budget thresholds on top. The public REST API at https://api.env0.com publishes 327 operations across 30 areas and authenticates with HTTP Basic using an API Key ID and Secret. env zero also ships a first-party CLI, a Terraform provider, an official MCP server, a published Agent Skill and a conformant A2A agent card.
 finops:
@@ -326,18 +330,18 @@ modified: '2026-09-06'
 name: Env0
 nav: Providers
 network: true
-overview: 'Env0 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agents API, ApprovalPolicies API, Configuration API, and 8 more. Tagged areas include FinOps, Infrastructure as Code, DevOps, Cloud, and Terraform.
+overview: 'Env0 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Configuration API, Deployments API, and 8 more. Tagged areas include FinOps, Infrastructure as Code, DevOps, Cloud, and Terraform.
 
 
   The Env0 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Env0''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 28 more developer resources.'
+  Env0''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Env0 Plans Pricing
   plan_count: 3
   slug: env0-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Env0 Rate Limits
@@ -372,7 +376,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

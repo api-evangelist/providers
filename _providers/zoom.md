@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 2
@@ -384,6 +384,10 @@ collections:
   name: Zoom / Account Webinar API
   slug: open-zoom-webinar-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://zoom.us
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/capabilities/zoom-capability-edges.yml
   title: ''
@@ -891,7 +895,7 @@ jsonld:
   property_count: 0
   slug: zoom-meeting-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Zoom
 nav: Providers
 network: true
@@ -901,12 +905,12 @@ overview: 'Zoom publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
   The Zoom catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Zoom''s developer surface includes authentication, getting-started guide, changelog, support, developer portal, documentation, engineering blog, and 44 more developer resources.'
+  Zoom''s developer surface includes authentication, getting-started guide, changelog, support, developer portal, documentation, engineering blog, and 45 more developer resources.'
 plans:
 - name: Zoom Plans Pricing
   plan_count: 4
   slug: zoom-plans-pricing
-random_paper: 12
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Zoom Rate Limits
@@ -951,7 +955,7 @@ scopes:
   summary_line: 19 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.3
+  composite: 54.0
   coverage:
     artifact_dirs: 25
     catalog_earned: 68.5
@@ -959,11 +963,11 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 71.9
+    contract_quality: 74.4
     developer_ergonomics: 65.5
     discoverability: 75.9
     operational_transparency: 28.9
@@ -977,7 +981,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1003,7 +1007,7 @@ tags:
 - Communications
 - Meetings
 - Video Conferencing
-- Videos
+- Video
 - Webinars
 use_cases:
 - description: Enable distributed teams to collaborate effectively with video meetings, chat, and shared workspaces.
@@ -1018,5 +1022,5 @@ use_cases:
   name: Customer Support
 - description: Accelerate revenue with conversation intelligence, engagement scoring, and CRM integration.
   name: Sales Enablement
-website: https://developers.zoom.us/
+website: https://zoom.us
 ---

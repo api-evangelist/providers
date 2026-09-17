@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'RESTful Integration API for the Irthnet / UtiliSphere platform. Secured with a per-integration API key, it lets external systems create and modify users, create and modify map layers, and manage work '
@@ -96,7 +96,7 @@ overview: 'Irth Solutions publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Irth Solutions'' developer surface includes authentication, documentation, API reference, support, engineering blog, and 5 more developer resources.'
-random_paper: 19
+random_paper: 17
 score:
   band: emerging
   composite: 20.7
@@ -123,7 +123,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

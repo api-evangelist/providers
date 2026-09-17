@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Access Bloomberg TV video content, live stream, and on-demand clips for licensed distribution. Provides access to market coverage segments, interviews, and editorial content for enterprise and media p
@@ -44,6 +44,10 @@ apis:
   slug: bloomberg-tv-embed
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -98,19 +102,19 @@ finops:
   slug: bloomberg-tv-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-tv.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg TV
 nav: Providers
 network: true
 overview: 'Bloomberg TV publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Bloomberg TV, Television, Financial News, Media, and Streaming.
 
 
-  Bloomberg TV''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
+  Bloomberg TV''s developer surface includes developer portal, documentation, support, and 6 more developer resources.'
 plans:
 - name: Bloomberg Tv Plans Pricing
   plan_count: 3
   slug: bloomberg-tv-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tv Rate Limits
@@ -135,7 +139,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -165,5 +169,5 @@ use_cases:
   name: Enterprise Deployment
 - description: Monitor Bloomberg TV coverage for media analysis and research.
   name: Research and Media Monitoring
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

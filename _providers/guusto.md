@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-07-10'
 name: Guusto
 nav: Providers
 network: true
-overview: 'Guusto publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account Budget API, Order Gift API, and Reports API. Tagged areas include Employee Recognition, Rewards, Gifting, Gift Cards, and HR.
+overview: 'Guusto publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account Budget API, Order Gift API, and Reports API. Tagged areas include Employee Recognition, Rewards, Gifting, Gift Cards, and Human Resources.
 
 
   Guusto''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -145,7 +145,7 @@ plans:
 - name: Guusto Plans Pricing
   plan_count: 4
   slug: guusto-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Guusto Rate Limits
@@ -183,7 +183,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -208,7 +208,7 @@ tags:
 - Rewards
 - Gifting
 - Gift Cards
-- HR
+- Human Resources
 - Rewards and Recognition
 website: https://guusto.com
 ---

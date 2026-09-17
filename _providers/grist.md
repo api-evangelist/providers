@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 3
@@ -306,7 +306,7 @@ modified: '2026-06-12'
 name: Grist
 nav: Providers
 network: true
-overview: 'Grist publishes 17 APIs on the [APIs.io](https://apis.io/) network, including attachments API, columns API, data API, and 14 more. Tagged areas include Spreadsheet, Database, Collaboration, No-Code, and Data Management.
+overview: 'Grist publishes 17 APIs on the [APIs.io](https://apis.io/) network, including attachments API, columns API, data API, and 14 more. Tagged areas include Spreadsheets, Database, Collaboration, No-Code, and Data Management.
 
 
   The Grist catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -317,7 +317,7 @@ plans:
 - name: Grist Plans Pricing
   plan_count: 5
   slug: grist-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Grist Rate Limits
@@ -360,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -377,7 +377,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: grist
 tags:
-- Spreadsheet
+- Spreadsheets
 - Database
 - Collaboration
 - No-Code

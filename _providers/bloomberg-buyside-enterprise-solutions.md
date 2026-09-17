@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -51,32 +51,32 @@ apis:
 - description: API for order and execution management, enabling algorithmic trading, smart order routing, and integration with trading platforms for buy-side workflows.
   name: Bloomberg Order Management API
   slug: bloomberg-order-management-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/oms
   baseurl_source: spec
   description: Post-trade allocation of executions to portfolios
   name: Bloomberg Buyside Enterprise Solutions Allocations API
   slug: bloomberg-buyside-enterprise-solutions-allocations-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/portfolio
   baseurl_source: spec
   description: Benchmark assignment and comparison
   name: Bloomberg Buyside Enterprise Solutions Benchmarks API
   slug: bloomberg-buyside-enterprise-solutions-benchmarks-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/oms
   baseurl_source: spec
   description: Trading blotter views and filtering
   name: Bloomberg Buyside Enterprise Solutions Blotters API
   slug: bloomberg-buyside-enterprise-solutions-blotters-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/oms
   baseurl_source: spec
   description: Broker routing and counterparty management
   name: Bloomberg Buyside Enterprise Solutions Brokers API
   slug: bloomberg-buyside-enterprise-solutions-brokers-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/portfolio
   baseurl_source: spec
   description: Portfolio compliance rules and monitoring
   name: Bloomberg Buyside Enterprise Solutions Compliance API
   slug: bloomberg-buyside-enterprise-solutions-compliance-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com
   baseurl_source: spec
   description: Corporate action events including dividends, splits, mergers, and restructurings
   name: Bloomberg Buyside Enterprise Solutions Corporate Actions API
@@ -86,12 +86,12 @@ apis:
   description: Derivatives pricing, Greeks, and valuation models
   name: Bloomberg Buyside Enterprise Solutions Derivatives API
   slug: bloomberg-buyside-enterprise-solutions-derivatives-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/oms
   baseurl_source: spec
   description: View execution reports and trade fills
   name: Bloomberg Buyside Enterprise Solutions Executions API
   slug: bloomberg-buyside-enterprise-solutions-executions-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com
   baseurl_source: spec
   description: Search and discover available data fields
   name: Bloomberg Buyside Enterprise Solutions Field Search API
@@ -101,32 +101,32 @@ apis:
   description: Fixed income analytics including yield, duration, and spread calculations
   name: Bloomberg Buyside Enterprise Solutions Fixed Income API
   slug: bloomberg-buyside-enterprise-solutions-fixed-income-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com
   baseurl_source: spec
   description: Historical pricing, volume, and fundamental data for securities
   name: Bloomberg Buyside Enterprise Solutions Historical Data API
   slug: bloomberg-buyside-enterprise-solutions-historical-data-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/portfolio
   baseurl_source: spec
   description: Manage portfolio holdings and positions
   name: Bloomberg Buyside Enterprise Solutions Holdings API
   slug: bloomberg-buyside-enterprise-solutions-holdings-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com
   baseurl_source: spec
   description: Real-time and delayed market data snapshots
   name: Bloomberg Buyside Enterprise Solutions Market Data API
   slug: bloomberg-buyside-enterprise-solutions-market-data-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/oms
   baseurl_source: spec
   description: Create, manage, and monitor trading orders
   name: Bloomberg Buyside Enterprise Solutions Orders API
   slug: bloomberg-buyside-enterprise-solutions-orders-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/portfolio
   baseurl_source: spec
   description: Portfolio performance measurement and attribution
   name: Bloomberg Buyside Enterprise Solutions Performance API
   slug: bloomberg-buyside-enterprise-solutions-performance-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/portfolio
   baseurl_source: spec
   description: Create, read, update, and delete portfolio definitions
   name: Bloomberg Buyside Enterprise Solutions Portfolios API
@@ -136,12 +136,12 @@ apis:
   description: Security pricing and valuation
   name: Bloomberg Buyside Enterprise Solutions Pricing API
   slug: bloomberg-buyside-enterprise-solutions-pricing-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com
   baseurl_source: spec
   description: Security reference data including identifiers, classifications, and descriptive information
   name: Bloomberg Buyside Enterprise Solutions Reference Data API
   slug: bloomberg-buyside-enterprise-solutions-reference-data-api
-- baseURL: https://api.bloomberg.com/analytics
+- baseURL: https://api.bloomberg.com/portfolio
   baseurl_source: spec
   description: Portfolio risk analytics and factor exposure
   name: Bloomberg Buyside Enterprise Solutions Risk API
@@ -245,6 +245,10 @@ collections:
   name: Bloomberg Buyside Enterprise Solutions Bloomberg Portfolio API
   slug: open-bloomberg-buyside-portfolio
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/capabilities/bloomberg-buyside-enterprise-solutions-capability-edges.yml
   title: ''
@@ -313,7 +317,7 @@ jsonld:
   property_count: 9
   slug: bloomberg-buyside-context
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Buyside Enterprise Solutions
 nav: Providers
 network: true
@@ -323,12 +327,12 @@ overview: 'Bloomberg Buyside Enterprise Solutions publishes 22 APIs on the [APIs
   The Bloomberg Buyside Enterprise Solutions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bloomberg Buyside Enterprise Solutions'' developer surface includes authentication, getting-started guide, support, and 7 more developer resources.'
+  Bloomberg Buyside Enterprise Solutions'' developer surface includes authentication, getting-started guide, support, and 8 more developer resources.'
 plans:
 - name: Bloomberg Buyside Enterprise Solutions Plans Pricing
   plan_count: 3
   slug: bloomberg-buyside-enterprise-solutions-plans-pricing
-random_paper: 15
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Bloomberg Buyside Enterprise Solutions Rate Limits
@@ -377,7 +381,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -406,4 +410,5 @@ tags:
 - Market Data
 - Portfolio-Management
 - Trading
+website: https://bloomberg.com
 ---

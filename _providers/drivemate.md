@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ name: Drivemate
 nav: Providers
 network: true
 overview: Drivemate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Car Sharing, Car Rental, Mobility, and Peer-to-Peer.
-random_paper: 16
+random_paper: 15
 score:
   band: minimal
   composite: 5.7
@@ -98,7 +98,7 @@ score:
     - southeast-asia
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

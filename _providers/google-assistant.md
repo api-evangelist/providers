@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://embeddedassistant.googleapis.com
   baseurl_source: declared
   description: Interact with Google Assistant
-  name: Google Assistant Assistant API
+  name: Google Assistant API
   slug: google-assistant-assistant-api
 artifact_total: 13
 collections:
@@ -112,11 +112,11 @@ jsonld:
   property_count: 9
   slug: google-assistant
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Assistant
 nav: Providers
 network: true
-overview: 'Google Assistant publishes 1 API on the [APIs.io](https://apis.io/) network: Assistant API. Tagged areas include Actions on Google, Conversational AI, Google Assistant, Natural-Language, and Smart Home.
+overview: 'Google Assistant publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Actions on Google, Conversational AI, Google Assistant, Natural-Language, and Smart Home.
 
 
   The Google Assistant catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -127,7 +127,7 @@ plans:
 - name: Google Assistant Plans Pricing
   plan_count: 3
   slug: google-assistant-plans-pricing
-random_paper: 9
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Google Assistant Rate Limits
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

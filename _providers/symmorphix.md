@@ -19,7 +19,7 @@ name: Symmorphix
 nav: Providers
 network: true
 overview: Symmorphix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Materials Science, Thin Films, Physical Vapor Deposition, and Optical Networking.
-random_paper: 7
+random_paper: 20
 slug: symmorphix
 tags:
 - Company

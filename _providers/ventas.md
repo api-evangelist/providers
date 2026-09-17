@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -90,7 +90,7 @@ modified: '2026-05-03'
 name: Ventas
 nav: Providers
 network: true
-overview: 'Ventas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Real-Estate, REIT, Senior Housing, and Life Science.
+overview: 'Ventas is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Real-Estate, REIT, Senior Housing, and Life Sciences.
 
 
   The Ventas catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: Ventas Reports Fourth Quarter and Full Year 2025 Results ...
   url: https://ir.ventasreit.com/news/news-details/2026/Ventas-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Provides-2026-Outlook-and-Increases-Dividend/default.aspx
-random_paper: 6
+random_paper: 19
 rules:
 - effective_rule_count: 5
   extends: []
@@ -148,7 +148,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -166,7 +166,7 @@ tags:
 - Real-Estate
 - REIT
 - Senior Housing
-- Life Science
+- Life Sciences
 - Fortune 500
 website: https://www.ventasreit.com/
 ---

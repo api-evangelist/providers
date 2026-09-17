@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ modified: '2026-05-19'
 name: Cflow
 nav: Providers
 network: true
-overview: 'Cflow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Requests API, Users API, and Workflows API. Tagged areas include Automations, Business Process Automation, Integration, No-Code, and Platform.
+overview: 'Cflow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Requests API, Users API, and Workflows API. Tagged areas include Automation, Business Process Automation, Integration, No-Code, and Platform.
 
 
   The Cflow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -211,7 +211,7 @@ plans:
 - name: Cflow Plans Pricing
   plan_count: 3
   slug: cflow-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Cflow Rate Limits
@@ -254,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -271,12 +271,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: cflow
 tags:
-- Automations
+- Automation
 - Business Process Automation
 - Integration
 - No-Code
 - Platform
-- Protocols
+- Protocol
 - Rules
 - Workflows
 use_cases:

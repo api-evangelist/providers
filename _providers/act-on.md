@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Outgoing webhook event surface — nineteen documented event types across contacts, consent, deliverability, lead scoring, subscriptions, automated programs, messaging, forms and CRM connections. Payloa
@@ -66,11 +66,6 @@ apis:
   description: Custom Data Schema API
   name: Act-On Custom Data Schema API
   slug: act-on-custom-data-schema-api-api
-- baseURL: https://api.actonsoftware.com
-  baseurl_source: declared
-  description: The Customevents API from Act-On — 2 operation(s) for customevents.
-  name: Act-On Customevents API
-  slug: act-on-customevents-api
 - baseURL: https://api.actonsoftware.com
   baseurl_source: declared
   description: The Ete API from Act-On — 1 operation(s) for ete.
@@ -166,6 +161,11 @@ apis:
   description: The User API from Act-On — 3 operation(s) for user.
   name: Act-On User API
   slug: act-on-user-api
+- baseURL: https://api.actonsoftware.com
+  baseurl_source: declared
+  description: The Custom Events API from Act-On — 2 operation(s) for custom events.
+  name: Act-On Custom Events API
+  slug: act-on-custom-events-api
 artifact_total: 37
 asyncapis:
 - description: ''
@@ -362,7 +362,7 @@ plans:
 - name: Act On Plans Pricing
   plan_count: 2
   slug: act-on-plans-pricing
-random_paper: 11
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Act On Rate Limits
@@ -386,7 +386,7 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 65.2
+    contract_quality: 65.0
     developer_ergonomics: 55.4
     discoverability: 72.2
     operational_transparency: 71.1
@@ -401,7 +401,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

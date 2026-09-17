@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,15 +16,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-09-15'
+  score: 40.8
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -33,11 +34,133 @@ agentic_access:
   summary_line: 42 operations · 20 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: REST/HTTP API for a registry of MCP servers, agent skills and plugins — public catalog search, publishing/editing listings, engagement (likes/comments/visits), accounts, MCP subregistry (Official Regi
-  name: Meta Agent Tools API
-  slug: meta-agent-tools-api
-artifact_total: 8
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Admin API from Meta Agent Tools — 5 operation(s) for admin.
+  name: Meta Agent Tools Admin API
+  slug: meta-agent-tools-admin-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Apis.json API from Meta Agent Tools — 1 operation(s) for apis.json.
+  name: Meta Agent Tools Apis.json API
+  slug: meta-agent-tools-apis-json-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Auth API from Meta Agent Tools — 4 operation(s) for auth.
+  name: Meta Agent Tools Auth API
+  slug: meta-agent-tools-auth-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Billing API from Meta Agent Tools — 1 operation(s) for billing.
+  name: Meta Agent Tools Billing API
+  slug: meta-agent-tools-billing-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Comments API from Meta Agent Tools — 1 operation(s) for comments.
+  name: Meta Agent Tools Comments API
+  slug: meta-agent-tools-comments-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Contact API from Meta Agent Tools — 1 operation(s) for contact.
+  name: Meta Agent Tools Contact API
+  slug: meta-agent-tools-contact-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Credito API from Meta Agent Tools — 1 operation(s) for credito.
+  name: Meta Agent Tools Credito API
+  slug: meta-agent-tools-credito-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Facets API from Meta Agent Tools — 1 operation(s) for facets.
+  name: Meta Agent Tools Facets API
+  slug: meta-agent-tools-facets-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Feed.json API from Meta Agent Tools — 1 operation(s) for feed.json.
+  name: Meta Agent Tools Feed.json API
+  slug: meta-agent-tools-feed-json-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Feed.xml API from Meta Agent Tools — 1 operation(s) for feed.xml.
+  name: Meta Agent Tools Feed.xml API
+  slug: meta-agent-tools-feed-xml-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Fila API from Meta Agent Tools — 1 operation(s) for fila.
+  name: Meta Agent Tools Fila API
+  slug: meta-agent-tools-fila-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Go API from Meta Agent Tools — 1 operation(s) for go.
+  name: Meta Agent Tools Go API
+  slug: meta-agent-tools-go-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Guest API from Meta Agent Tools — 1 operation(s) for guest.
+  name: Meta Agent Tools Guest API
+  slug: meta-agent-tools-guest-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Health API from Meta Agent Tools — 1 operation(s) for health.
+  name: Meta Agent Tools Health API
+  slug: meta-agent-tools-health-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Listings API from Meta Agent Tools — 4 operation(s) for listings.
+  name: Meta Agent Tools Listings API
+  slug: meta-agent-tools-listings-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Mcp API from Meta Agent Tools — 1 operation(s) for mcp.
+  name: Meta Agent Tools MCP API
+  slug: meta-agent-tools-mcp-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Me API from Meta Agent Tools — 3 operation(s) for me.
+  name: Meta Agent Tools Me API
+  slug: meta-agent-tools-me-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Meta Agent Tools API from Meta Agent Tools — 1 operation(s) for meta agent tools.
+  name: Meta Agent Tools Meta Agent Tools API
+  slug: meta-agent-tools-meta-agent-tools-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Metrics API from Meta Agent Tools — 1 operation(s) for metrics.
+  name: Meta Agent Tools Metrics API
+  slug: meta-agent-tools-metrics-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Okf API from Meta Agent Tools — 1 operation(s) for okf.
+  name: Meta Agent Tools Okf API
+  slug: meta-agent-tools-okf-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Servers API from Meta Agent Tools — 1 operation(s) for servers.
+  name: Meta Agent Tools Servers API
+  slug: meta-agent-tools-servers-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The Visit API from Meta Agent Tools — 1 operation(s) for visit.
+  name: Meta Agent Tools Visit API
+  slug: meta-agent-tools-visit-api
+- baseURL: https://agentalog.com
+  baseurl_source: declared
+  description: The .well Known API from Meta Agent Tools — 1 operation(s) for .well known.
+  name: Meta Agent Tools .well Known API
+  slug: meta-agent-tools-well-known-api
+artifact_total: 30
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/mcp/meta-agent-tools-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/meta-agent-tools-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/overlays/meta-agent-tools-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/meta-agent-tools-openapi-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/meta-agent-tools/refs/heads/main/agentic-access/meta-agent-tools-agentic-access.yml
   title: ''
@@ -153,22 +276,22 @@ modified: '2026-09-05'
 name: Meta Agent Tools
 nav: Providers
 network: true
-overview: 'Meta Agent Tools publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, API Registry, Agent Registry, MCP, and Agent Skills.
+overview: 'Meta Agent Tools publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Apis.json API, Auth API, and 20 more. Tagged areas include Developer Tools, API Registry, Agent Registry, MCP, and Agent Skills.
 
 
-  Meta Agent Tools'' developer surface includes authentication, pricing, support, getting-started guide, signup flow, and 17 more developer resources.'
+  Meta Agent Tools'' developer surface includes authentication, pricing, support, getting-started guide, signup flow, and 19 more developer resources.'
 plans:
 - name: Meta Agent Tools Plans Pricing
   plan_count: 3
   slug: meta-agent-tools-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Meta Agent Tools Rate Limits
   slug: meta-agent-tools-rate-limits
 score:
   band: developing
-  composite: 48.9
+  composite: 53.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 61.0
@@ -176,11 +299,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.6
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
-    contract_quality: 33.3
+    contract_quality: 52.0
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 42.1
@@ -192,7 +315,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 23
     mcp: first-party
     skills: derived
   regulatory:
@@ -202,7 +325,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

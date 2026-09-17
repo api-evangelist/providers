@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -133,8 +133,8 @@ apis:
 - baseURL: https://us.api.blizzard.com
   baseurl_source: declared
   description: OpenID Connect userinfo endpoint.
-  name: Blizzard Entertainment UserInfo API
-  slug: blizzard-entertainment-userinfo-api
+  name: Blizzard Entertainment User Info API
+  slug: blizzard-entertainment-user-info-api
 artifact_total: 64
 collections:
 - collection_type: open
@@ -391,7 +391,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

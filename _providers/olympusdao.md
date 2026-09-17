@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: Olympus Protocol Metrics Health Treasury API
   slug: open-olympusdao-treasury-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://olympusdao.finance
 - group: operate
   title: ''
   type: IssueTracker
@@ -156,7 +160,7 @@ jsonld:
   property_count: 0
   slug: olympusdao
 layout: provider
-modified: '2026-06-14'
+modified: '2026-09-16'
 name: OlympusDAO
 nav: Providers
 network: true
@@ -166,8 +170,8 @@ overview: 'OlympusDAO publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The OlympusDAO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OlympusDAO''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 9
+  OlympusDAO''s developer surface includes engineering blog and 4 more developer resources.'
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -210,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -233,5 +237,5 @@ tags:
 - OHM
 - Ethereum
 - Web3
-website: https://www.olympusdao.finance/
+website: https://olympusdao.finance
 ---

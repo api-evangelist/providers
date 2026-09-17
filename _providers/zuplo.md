@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -87,11 +87,6 @@ apis:
   slug: zuplo-mcp-servers-api
 - baseURL: https://dev.zuplo.com
   baseurl_source: declared
-  description: The Openapi API from Zuplo — 1 operation(s) for openapi.
-  name: Zuplo Openapi API
-  slug: zuplo-openapi-api
-- baseURL: https://dev.zuplo.com
-  baseurl_source: declared
   description: List of endpoints available to manage services for a given tunnel.
   name: Zuplo Tunnel Services API
   slug: zuplo-tunnel-services-api
@@ -107,9 +102,14 @@ apis:
   slug: zuplo-variables-api
 - baseURL: https://dev.zuplo.com
   baseurl_source: declared
-  description: The Who Am I API from Zuplo — 1 operation(s) for who am i.
-  name: Zuplo Who Am I API
-  slug: zuplo-who-am-i-api
+  description: The Open API API from Zuplo — 1 operation(s) for open api.
+  name: Zuplo Open API
+  slug: zuplo-open-api-api
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: The Whoami API from Zuplo — 1 operation(s) for whoami.
+  name: Zuplo Whoami API
+  slug: zuplo-whoami-api
 arazzos:
 - description: Create a consumer, add a manager to it, then list the consumer's managers.
   name: Zuplo Add a Manager to a Consumer
@@ -566,7 +566,7 @@ plans:
 - name: Zuplo Plans Pricing
   plan_count: 3
   slug: zuplo-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Zuplo Rate Limits
@@ -620,7 +620,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

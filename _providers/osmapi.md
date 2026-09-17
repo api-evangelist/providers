@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - baseURL: https://api.osmapi.com/v1
   baseurl_source: declared
   description: The OsmAPI Health API API from osmAPI — 1 operation(s) for osmapi health api.
-  name: osmAPI OsmAPI Health API API
+  name: osmAPI Health API
   slug: osmapi-osmapi-health-api-api
 artifact_total: 23
 collections:
@@ -95,6 +95,10 @@ collections:
   name: osmAPI Anthropic Messages Chat OsmAPI Health API API
   slug: open-osmapi-osmapi-health-api-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://osmapi.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/agentic-access/osmapi-agentic-access.yml
   title: ''
@@ -185,22 +189,22 @@ jsonld:
   property_count: 6
   slug: osmapi-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: osmAPI
 nav: Providers
 network: true
-overview: 'osmAPI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Messages API, Models API, and 1 more. Tagged areas include Artificial Intelligence, Anthropic, Gateway, LLM, and OpenAI.
+overview: 'osmAPI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Messages API, Models API, and 1 more. Tagged areas include Artificial Intelligence, Anthropic, Gateways, LLM, and OpenAI.
 
 
   The osmAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  osmAPI''s developer surface includes authentication, developer portal, documentation, pricing, and 12 more developer resources.'
+  osmAPI''s developer surface includes authentication, developer portal, documentation, pricing, and 13 more developer resources.'
 plans:
 - name: Osmapi Plans Pricing
   plan_count: 3
   slug: osmapi-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Osmapi Rate Limits
@@ -218,7 +222,7 @@ rules:
   slug: osmapi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.4
+  composite: 31.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 57.3
@@ -226,11 +230,11 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 21.1
     contract_governance: 9.8
-    contract_quality: 59.7
+    contract_quality: 57.3
     developer_ergonomics: 20.2
     discoverability: 74.1
     operational_transparency: 10.5
@@ -243,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -262,9 +266,9 @@ slug: osmapi
 tags:
 - Artificial Intelligence
 - Anthropic
-- Gateway
+- Gateways
 - LLM
 - OpenAI
 - Routing
-website: https://www.osmapi.com/
+website: https://osmapi.com
 ---

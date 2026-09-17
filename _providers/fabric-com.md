@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 237
   human_in_the_loop: 11
@@ -100,11 +100,6 @@ apis:
   description: Cart fee endpoints are used to add, update and remove fees at the Cart level.
   name: fabric Cart Fees API
   slug: fabric-com-cart-fees-api
-- baseURL: https://{customer_name}.login.fabric.inc
-  baseurl_source: declared
-  description: CartPayments endpoints are used to authorize or void payments that are located within the shopping cart.
-  name: fabric CartPayments API
-  slug: fabric-com-cartpayments-api
 - baseURL: https://{customer_name}.login.fabric.inc
   baseurl_source: declared
   description: Cart endpoints are used to perform basic cart operations, such as create, update, delete and more.
@@ -257,11 +252,6 @@ apis:
   slug: fabric-com-items-api
 - baseURL: https://{customer_name}.login.fabric.inc
   baseurl_source: declared
-  description: LineItem endpoints are used to performbasic lineItem operations, such as create, update, delete and more.
-  name: fabric LineItems API
-  slug: fabric-com-lineitems-api
-- baseURL: https://{customer_name}.login.fabric.inc
-  baseurl_source: declared
   description: XM Menu API allows you to fetch menus and their items
   name: fabric Menu API
   slug: fabric-com-menu-api
@@ -350,6 +340,16 @@ apis:
   description: Validation endpoints are used to pass in data from fabric and third-party services to perform business logic on the Cart
   name: fabric Validations API
   slug: fabric-com-validations-api
+- baseURL: https://{customer_name}.login.fabric.inc
+  baseurl_source: declared
+  description: CartPayments endpoints are used to authorize or void payments that are located within the shopping cart.
+  name: fabric Cart Payments API
+  slug: fabric-com-cart-payments-api
+- baseURL: https://{customer_name}.login.fabric.inc
+  baseurl_source: declared
+  description: LineItem endpoints are used to performbasic lineItem operations, such as create, update, delete and more.
+  name: fabric Line Items API
+  slug: fabric-com-line-items-api
 artifact_total: 158
 collections:
 - collection_type: open
@@ -758,7 +758,7 @@ plans:
 - name: Fabric Com Plans Pricing
   plan_count: 2
   slug: fabric-com-plans-pricing
-random_paper: 13
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Fabric Com Rate Limits
@@ -786,7 +786,7 @@ rules:
   slug: fabric-com-rules
 score:
   band: developing
-  composite: 42.9
+  composite: 43.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 54.3
@@ -794,15 +794,15 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.1
   facets:
     access_clarity: 42.1
     contract_governance: 25.0
-    contract_quality: 64.3
+    contract_quality: 64.5
     developer_ergonomics: 26.2
     discoverability: 50.0
     operational_transparency: 5.3
-  previous_composite: 42.0
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -817,7 +817,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

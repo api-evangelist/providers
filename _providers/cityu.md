@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Public OAI-PMH 2.0 endpoint for CityUHK Scholars, the university's research information system and institutional repository. The Identify verb returns repositoryName "CityUHK Scholars" with records fr
@@ -141,7 +141,7 @@ plans:
 - name: Cityu Plans Pricing
   plan_count: 2
   slug: cityu-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Cityu Rate Limits
@@ -181,7 +181,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

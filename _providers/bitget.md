@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: REST API for spot trading on Bitget including market data, order management, account queries, wallet operations, and sub-account management.
@@ -130,7 +130,7 @@ overview: 'Bitget publishes 1 API on the [APIs.io](https://apis.io/) network: Sp
 
 
   Bitget''s developer surface includes authentication, changelog, support, getting-started guide, and 10 more developer resources.'
-random_paper: 9
+random_paper: 1
 score:
   band: emerging
   composite: 23.9
@@ -157,7 +157,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

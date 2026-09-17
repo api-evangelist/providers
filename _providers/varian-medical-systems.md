@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,16 +49,6 @@ apis:
   slug: aria-access-api
 - baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
   baseurl_source: declared
-  description: Patient allergy and intolerance records
-  name: Varian Medical Systems AllergyIntolerance API
-  slug: varian-medical-systems-allergyintolerance-api
-- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
-  baseurl_source: declared
-  description: Oncology treatment and care plans
-  name: Varian Medical Systems CarePlan API
-  slug: varian-medical-systems-careplan-api
-- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
-  baseurl_source: declared
   description: Cancer diagnoses and clinical conditions
   name: Varian Medical Systems Condition API
   slug: varian-medical-systems-condition-api
@@ -69,19 +59,9 @@ apis:
   slug: varian-medical-systems-diagnosticreport-api
 - baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
   baseurl_source: declared
-  description: Clinical document management
-  name: Varian Medical Systems DocumentReference API
-  slug: varian-medical-systems-documentreference-api
-- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
-  baseurl_source: declared
   description: Treatment goals and objectives
   name: Varian Medical Systems Goal API
   slug: varian-medical-systems-goal-api
-- baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
-  baseurl_source: declared
-  description: Chemotherapy and medication prescriptions
-  name: Varian Medical Systems MedicationRequest API
-  slug: varian-medical-systems-medicationrequest-api
 - baseURL: https://varian.dynamicfhir.com/fhir/varian/basepractice/r4
   baseurl_source: declared
   description: FHIR server capability and metadata
@@ -102,6 +82,26 @@ apis:
   description: Radiation therapy and other clinical procedures
   name: Varian Medical Systems Procedure API
   slug: varian-medical-systems-procedure-api
+- baseURL: https://localhost:55051/Gateway/Service.svc
+  baseurl_source: declared
+  description: Patient allergy and intolerance records
+  name: Varian Medical Systems Allergy Intolerance API
+  slug: varian-medical-systems-allergy-intolerance-api
+- baseURL: https://localhost:55051/Gateway/Service.svc
+  baseurl_source: declared
+  description: Oncology treatment and care plans
+  name: Varian Medical Systems Care plan API
+  slug: varian-medical-systems-care-plan-api
+- baseURL: https://localhost:55051/Gateway/Service.svc
+  baseurl_source: declared
+  description: Clinical document management
+  name: Varian Medical Systems Document Reference API
+  slug: varian-medical-systems-document-reference-api
+- baseURL: https://localhost:55051/Gateway/Service.svc
+  baseurl_source: declared
+  description: Chemotherapy and medication prescriptions
+  name: Varian Medical Systems Medication Request API
+  slug: varian-medical-systems-medication-request-api
 artifact_total: 39
 collections:
 - collection_type: open
@@ -236,7 +236,7 @@ modified: '2026-05-19'
 name: Varian Medical Systems
 nav: Providers
 network: true
-overview: 'Varian Medical Systems publishes 11 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, CarePlan API, Condition API, and 8 more. Tagged areas include Healthcare, Oncology, Medical Devices, FHIR, and Radiation Therapy.
+overview: 'Varian Medical Systems publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Condition API, DiagnosticReport API, Goal API, and 8 more. Tagged areas include Healthcare, Oncology, Medical Devices, FHIR, and Radiation Therapy.
 
 
   The Varian Medical Systems catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -263,7 +263,7 @@ press:
 - date: '2026-05-25'
   title: AI-Enabled Radiation Therapy System & 1,000th Patient
   url: https://siteman.wustl.edu/ai-enabled-radiation-therapy-system-at-siteman/
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Varian Medical Systems Rate Limits
@@ -328,7 +328,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -274,10 +274,10 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/openapi/jasper-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/openapi/_original/jasper-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/jasper-api-openapi.yml
+  url: openapi/_original/jasper-api-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/overlays/jasper-api-overlay.yaml
   title: ''
@@ -310,7 +310,7 @@ mcp_servers:
 - description: Jasper's hosted, remote Model Context Protocol server. Lets AI agents in Claude (Web and Desktop), ChatGPT, Microsoft Copilot Studio, OpenAI Agent Builder, and n8n create on-brand content using the cu
   name: Jasper MCP Server
   slug: jasper-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Jasper
 nav: Providers
 network: true
@@ -322,7 +322,7 @@ plans:
 - name: Jasper Plans Pricing
   plan_count: 2
   slug: jasper-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Jasper Rate Limits
@@ -362,7 +362,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

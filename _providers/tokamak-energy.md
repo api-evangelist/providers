@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - baseURL: https://tokamakenergy.com/wp-json
@@ -80,11 +80,16 @@ apis:
   slug: tokamak-energy-discovery-api
 - baseURL: https://tokamakenergy.com/wp-json
   baseurl_source: declared
-  description: 'Public, unauthenticated oEmbed 1.0 provider endpoint for tokamakenergy.com. Given the URL of any Tokamak Energy post or page it returns an oEmbed rich/link response suitable for embedding the item in '
-  name: Tokamak Energy oEmbed API
-  slug: tokamak-energy-oembed-api
+  description: Public, unauthenticated oEmbed 1.0 provider endpoint for tokamakenergy.com. Given the URL of any Tokamak Energy post or page, returns an oEmbed rich/link response suitable for embedding the item in a
+  name: Tokamak Energy o Embed API
+  slug: tokamak-energy-o-embed-api
 artifact_total: 22
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tokamak-energy/refs/heads/main/overlays/tokamak-energy-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tokamak-energy-oembed-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -215,12 +220,12 @@ network: true
 overview: 'Tokamak Energy publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, Fusion Energy, Energy, Superconductors, and HTS Magnets.
 
 
-  Tokamak Energy''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
+  Tokamak Energy''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
 plans:
 - name: Tokamak Energy Plans Pricing
   plan_count: 0
   slug: tokamak-energy-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Tokamak Energy Rate Limits
@@ -268,7 +273,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

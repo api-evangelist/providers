@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'Finda is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Finda''s developer surface includes support and 6 more developer resources.'
-random_paper: 10
+random_paper: 8
 score:
   band: minimal
   composite: 10.2
@@ -105,7 +105,7 @@ score:
     - japan-korea
   previous_composite: 10.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

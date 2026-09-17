@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Public, unauthenticated Atlassian Statuspage v2 JSON API served on DolarApp's own status host. Exposes overall status, the ten monitored components (sign up, sign in, website, and card payments / bank
@@ -153,7 +153,7 @@ plans:
 - name: Dolarapp Plans Pricing
   plan_count: 0
   slug: dolarapp-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Dolarapp Rate Limits
@@ -189,7 +189,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

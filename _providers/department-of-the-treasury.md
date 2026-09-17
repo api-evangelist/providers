@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ apis:
 - baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
   baseurl_source: declared
   description: Daily and monthly Treasury statements
-  name: Department of the Treasury Treasury Operations API
+  name: Department of the Treasury Operations API
   slug: department-of-the-treasury-treasury-operations-api
 artifact_total: 34
 collections:
@@ -198,7 +198,7 @@ jsonld:
   property_count: 5
   slug: treasury-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Department of the Treasury
 nav: Providers
 network: true
@@ -213,7 +213,7 @@ plans:
 - name: Department Of The Treasury Plans Pricing
   plan_count: 1
   slug: department-of-the-treasury-plans-pricing
-random_paper: 15
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Department Of The Treasury Rate Limits
@@ -272,7 +272,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

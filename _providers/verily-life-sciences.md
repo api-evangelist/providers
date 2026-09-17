@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Verily Workbench control-plane REST API. Three services are reachable under the workbench.verily.com/api base path: `wsm` (Workspace Manager — workspaces, folders, controlled and referenced cloud '
@@ -170,7 +170,7 @@ plans:
 - name: Verily Life Sciences Plans Pricing
   plan_count: 3
   slug: verily-life-sciences-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Verily Life Sciences Rate Limits
@@ -204,7 +204,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

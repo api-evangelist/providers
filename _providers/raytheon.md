@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ press:
 - date: '2026-05-25'
   title: RTX's Raytheon demonstrates first-ever AI/ML-powered ...
   url: https://www.rtx.com/news/news-center/2025/02/24/rtxs-raytheon-demonstrates-first-ever-ai-ml-powered-radar-warning-receiver-for-4
-random_paper: 13
+random_paper: 16
 score:
   band: minimal
   composite: 4.2
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

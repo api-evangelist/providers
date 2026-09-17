@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.medtrainer.com
@@ -139,10 +139,10 @@ common:
   type: Compliance
   url: conformance/medtrainer-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/medtrainer-public-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/openapi/_original/medtrainer-public-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/medtrainer-public-api-openapi.json
+  url: openapi/_original/medtrainer-public-api-openapi.json
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/authentication/medtrainer-authentication.yml
   title: ''
@@ -237,7 +237,7 @@ mcp_servers:
 - description: ''
   name: MedTrainer MCP Server (WordPress MCP Adapter)
   slug: medtrainer-mcp-server-wordpress-mcp-adapter
-modified: '2026-08-25'
+modified: '2026-09-16'
 name: MedTrainer
 nav: Providers
 network: true
@@ -249,7 +249,7 @@ plans:
 - name: Medtrainer Plans Pricing
   plan_count: 3
   slug: medtrainer-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Medtrainer Rate Limits
@@ -294,7 +294,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

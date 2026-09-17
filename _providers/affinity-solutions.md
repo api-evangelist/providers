@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol server that Affinity Solutions serves from its own corporate site at www.affinity.solutions, advertised by an RFC 8414 authorization-server document and an RF
@@ -136,7 +136,7 @@ plans:
 - name: Affinity Solutions Plans Pricing
   plan_count: 0
   slug: affinity-solutions-plans-pricing
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Affinity Solutions Rate Limits
@@ -169,7 +169,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

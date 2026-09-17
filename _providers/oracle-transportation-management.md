@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,8 +65,8 @@ apis:
 - baseURL: https://{host}/GC3/glog.integration.servlet.WMServlet/otm/rest/v1
   baseurl_source: declared
   description: Shipment order management
-  name: Oracle Transportation Management ShipmentOrders API
-  slug: oracle-transportation-management-shipmentorders-api
+  name: Oracle Transportation Management Shipment Orders API
+  slug: oracle-transportation-management-shipment-orders-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -204,7 +204,7 @@ plans:
 - name: Oracle Transportation Management Plans Pricing
   plan_count: 3
   slug: oracle-transportation-management-plans-pricing
-random_paper: 20
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Oracle Transportation Management Rate Limits
@@ -252,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

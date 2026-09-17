@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ modified: '2026-07-03'
 name: Sterling
 nav: Providers
 network: true
-overview: 'Sterling publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Candidates API, Invites API, and 4 more. Tagged areas include Background Screening, Identity Verification, Background Check, HR Tech, and Compliance.
+overview: 'Sterling publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Candidates API, Invites API, and 4 more. Tagged areas include Background Screening, Identity Verification, Background Checks, Human Resources, and Compliance.
 
 
   Sterling''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -184,7 +184,7 @@ plans:
 - name: Sterling Check Plans Pricing
   plan_count: 3
   slug: sterling-check-plans-pricing
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Sterling Check Rate Limits
@@ -221,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -240,8 +240,8 @@ slug: sterling-check
 tags:
 - Background Screening
 - Identity Verification
-- Background Check
-- HR Tech
+- Background Checks
+- Human Resources
 - Compliance
 - Gated API
 website: https://www.sterlingcheck.com

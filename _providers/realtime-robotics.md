@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The ASCII API is the primary runtime integration surface for the Realtime Controller. A client opens a TCP socket to the controller and exchanges inline YAML 1.2 command strings (topic / type / id / d
@@ -201,7 +201,7 @@ plans:
 - name: Realtime Robotics Plans Pricing
   plan_count: 0
   slug: realtime-robotics-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Realtime Robotics Rate Limits
@@ -239,7 +239,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

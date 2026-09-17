@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
 - description: Cloud Service Mesh uses the open-source xDS v3 control plane API to distribute configuration to Envoy sidecar proxies and proxyless gRPC clients. Configurations defined via the Network Services and Ne
   name: Google Cloud Service Mesh xDS Control Plane API
   slug: xds-control-plane-api
-- baseURL: https://networkservices.googleapis.com/
-  baseurl_source: declared
-  description: The EndpointPolicies API from Google Cloud Service Mesh — 1 operation(s) for endpointpolicies.
-  name: Google Cloud Service Mesh EndpointPolicies API
-  slug: google-cloud-service-mesh-endpointpolicies-api
 - baseURL: https://networkservices.googleapis.com/
   baseurl_source: declared
   description: The Gateways API from Google Cloud Service Mesh — 1 operation(s) for gateways.
@@ -105,6 +100,11 @@ apis:
   description: The TlsRoutes API from Google Cloud Service Mesh — 1 operation(s) for tlsroutes.
   name: Google Cloud Service Mesh TlsRoutes API
   slug: google-cloud-service-mesh-tlsroutes-api
+- baseURL: https://networksecurity.googleapis.com/
+  baseurl_source: declared
+  description: The Endpoint Policies API from Google Cloud Service Mesh — 1 operation(s) for endpoint policies.
+  name: Google Cloud Service Mesh Endpoint Policies API
+  slug: google-cloud-service-mesh-endpoint-policies-api
 artifact_total: 34
 collections:
 - collection_type: open
@@ -224,7 +224,7 @@ modified: '2026-05-19'
 name: Google Cloud Service Mesh
 nav: Providers
 network: true
-overview: 'Google Cloud Service Mesh publishes 11 APIs on the [APIs.io](https://apis.io/) network, including EndpointPolicies API, Gateways API, Google Cloud Network Services API (Service Mesh) API, and 8 more. Tagged areas include Google Cloud, Istio, Kubernetes, Microservices, and Service Mesh.
+overview: 'Google Cloud Service Mesh publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Gateways API, Google Cloud Network Services API (Service Mesh) API, GrpcRoutes API, and 8 more. Tagged areas include Google Cloud, Istio, Kubernetes, Microservices, and Service Mesh.
 
 
   Google Cloud Service Mesh''s developer surface includes authentication, documentation, getting-started guide, pricing, changelog, support, engineering blog, and 8 more developer resources.'
@@ -232,7 +232,7 @@ plans:
 - name: Google Cloud Service Mesh Plans Pricing
   plan_count: 3
   slug: google-cloud-service-mesh-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Cloud Service Mesh Rate Limits
@@ -269,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -55,14 +55,14 @@ apis:
   slug: google-calendar-colors-api
 - baseURL: https://www.googleapis.com/calendar/v3
   baseurl_source: declared
-  description: The freeBusy API from Google Calendar — 1 operation(s) for freebusy.
-  name: Google Calendar freeBusy API
-  slug: google-calendar-freebusy-api
-- baseURL: https://www.googleapis.com/calendar/v3
-  baseurl_source: declared
   description: The Users API from Google Calendar — 2 operation(s) for users.
   name: Google Calendar Users API
   slug: google-calendar-users-api
+- baseURL: https://www.googleapis.com/calendar/v3
+  baseurl_source: declared
+  description: The Free Busy API from Google Calendar — 1 operation(s) for free busy.
+  name: Google Calendar Free Busy API
+  slug: google-calendar-free-busy-api
 artifact_total: 22
 collections:
 - collection_type: postman
@@ -185,7 +185,7 @@ modified: '2026-05-19'
 name: Google Calendar
 nav: Providers
 network: true
-overview: 'Google Calendar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Colors API, freeBusy API, and 1 more. Tagged areas include Availability, Calendar, Event, Google, and Google Workspace.
+overview: 'Google Calendar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Colors API, Users API, and 1 more. Tagged areas include Availability, Calendar, Event, Google, and Google Workspace.
 
 
   The Google Calendar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -196,7 +196,7 @@ plans:
 - name: Google Calendar Plans Pricing
   plan_count: 3
   slug: google-calendar-plans-pricing
-random_paper: 17
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Google Calendar Rate Limits
@@ -239,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

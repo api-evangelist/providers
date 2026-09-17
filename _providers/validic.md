@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 9
+- acting_count: 18
   human_in_the_loop: 0
   name: Validic Agentic Access
-  operation_count: 21
+  operation_count: 45
   slug: validic-agentic-access
-  summary_line: 21 operations · 9 acting
+  summary_line: 45 operations · 18 acting
 api_count: 3
 apis:
 - baseURL: https://api.v2.validic.com
@@ -315,7 +315,7 @@ plans:
 - name: Validic Plans Pricing
   plan_count: 4
   slug: validic-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Validic Rate Limits
@@ -356,7 +356,7 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

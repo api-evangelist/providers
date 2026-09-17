@@ -19,7 +19,7 @@ name: TellFi
 nav: Providers
 network: true
 overview: TellFi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 10
+random_paper: 2
 slug: tellfi
 tags:
 - Company

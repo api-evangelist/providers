@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: A live remote MCP server over streamable HTTP that gives an AI assistant operator-level control of a Revnu store — 49 documented tools across store, products, coupons, analytics, purchases, affiliates
@@ -231,7 +231,7 @@ plans:
 - name: Revnu Plans Pricing
   plan_count: 1
   slug: revnu-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Revnu Rate Limits
@@ -265,7 +265,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

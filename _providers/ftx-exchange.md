@@ -29,7 +29,7 @@ name: FTX Exchange
 nav: Providers
 network: true
 overview: FTX Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, and Defunct.
-random_paper: 0
+random_paper: 8
 screenshot: https://raw.githubusercontent.com/api-evangelist/ftx-exchange/refs/heads/main/screenshots/ftx-exchange-2026-07-25T215245.png
 security:
 - kind: domain-security

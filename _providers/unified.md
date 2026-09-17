@@ -23,16 +23,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.unified.com
   baseurl_source: declared
-  description: 'The Unified MCP Service is the company''s agent-facing surface. Its remote Model Context Protocol endpoint at https://mcp.unified.com/mcp answers JSON-RPC over HTTP and is gated by OAuth bearer tokens '
-  name: Unified MCP Service
-  slug: unified-mcp-service
-artifact_total: 7
+  description: The health API from Unified — 4 operation(s) for health.
+  name: Unified Health API
+  slug: unified-health-api
+- baseURL: https://api.unified.com
+  baseurl_source: declared
+  description: The Unified Mcp Service API from Unified — 1 operation(s) for unified mcp service.
+  name: Unified Unified Mcp Service API
+  slug: unified-unified-mcp-service-api
+artifact_total: 8
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/overlays/unified-mcp-service-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/unified-mcp-service-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/security/unified-domain-security.yml
   title: ''
@@ -144,15 +154,15 @@ modified: '2026-09-02'
 name: Unified
 nav: Providers
 network: true
-overview: 'Unified publishes 1 API on the [APIs.io](https://apis.io/) network: MCP Service. Tagged areas include Company, Advertising, Social-Media, Digital Advertising, and Marketing.
+overview: 'Unified publishes 2 APIs on the [APIs.io](https://apis.io/) network: Health API and Unified Mcp Service API. Tagged areas include Company, Advertising, Social-Media, Digital Advertising, and Marketing.
 
 
-  Unified''s developer surface includes engineering blog, authentication, and 19 more developer resources.'
+  Unified''s developer surface includes engineering blog, authentication, and 20 more developer resources.'
 plans:
 - name: Unified Plans Pricing
   plan_count: 0
   slug: unified-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Unified Rate Limits
@@ -183,10 +193,15 @@ score:
   previous_composite: 29.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

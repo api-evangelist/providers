@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Open-source Python framework (superduper-framework) for declaring AI models, embeddings, vector indexes, RAG pipelines, and listeners directly on top of an existing database. Apache 2.0 licensed.
@@ -109,7 +109,7 @@ modified: '2026-05-23'
 name: Superduper
 nav: Providers
 network: true
-overview: 'Superduper publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Framework, Vector Search, RAG, LLMs, and MLOps.
+overview: 'Superduper publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Framework, Vector Search, RAG, LLM, and MLOps.
 
 
   Superduper''s developer surface includes documentation, GitHub presence, and 8 more developer resources.'
@@ -117,7 +117,7 @@ plans:
 - name: Superduperdb Plans Pricing
   plan_count: 1
   slug: superduperdb-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Superduperdb Rate Limits
@@ -145,7 +145,7 @@ score:
     score: 65.0
   previous_composite: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -162,7 +162,7 @@ tags:
 - AI Framework
 - Vector Search
 - RAG
-- LLMs
+- LLM
 - MLOps
 - Open-Source
 - AI Agents

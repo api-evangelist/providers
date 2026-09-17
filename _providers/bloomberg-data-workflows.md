@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Batch and per-security delivery of Bloomberg's reference, pricing, regulatory and alternative data for integration into proprietary applications and workflows. The REST / hypermedia entry point is htt
@@ -45,6 +45,10 @@ apis:
   slug: bloomberg-server-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -183,19 +187,19 @@ finops:
   slug: bloomberg-data-workflows-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-data-workflows.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Data Workflows
 nav: Providers
 network: true
 overview: 'Bloomberg Data Workflows publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise Data, Financial Analytics, Financial-Services, Investment Management, and Market Data.
 
 
-  Bloomberg Data Workflows'' developer surface includes developer portal, documentation, API reference, support, CLI, authentication, changelog, and 21 more developer resources.'
+  Bloomberg Data Workflows'' developer surface includes developer portal, documentation, API reference, support, CLI, authentication, changelog, and 22 more developer resources.'
 plans:
 - name: Bloomberg Data Workflows Plans Pricing
   plan_count: 0
   slug: bloomberg-data-workflows-plans-pricing
-random_paper: 2
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Bloomberg Data Workflows Rate Limits
@@ -234,7 +238,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -263,5 +267,5 @@ tags:
 - Market Data
 - Reference Data
 - Trading
-website: https://developer.bloomberg.com/
+website: https://bloomberg.com
 ---

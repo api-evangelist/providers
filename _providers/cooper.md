@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 created: '2026-05-05'
@@ -44,7 +44,7 @@ name: Cooper
 nav: Providers
 network: true
 overview: Cooper is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
   composite: 2.6
@@ -76,7 +76,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ apis:
 - baseURL: https://fixtures.api.geniussports.com/v2
   baseurl_source: declared
   description: The Sports API from Genius Sports — 2 operation(s) for sports.
-  name: Genius Sports Sports API
+  name: Genius Sports API
   slug: genius-sports-sports-api
 - baseURL: https://fixtures.api.geniussports.com/v2
   baseurl_source: declared
@@ -322,7 +322,7 @@ finops:
   slug: genius-sports-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genius-sports.png
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Genius Sports
 nav: Providers
 network: true
@@ -334,14 +334,14 @@ plans:
 - name: Genius Sports Plans Pricing
   plan_count: 3
   slug: genius-sports-plans-pricing
-random_paper: 14
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Genius Sports Rate Limits
   slug: genius-sports-rate-limits
 score:
   band: thin
-  composite: 29.1
+  composite: 29.7
   coverage:
     artifact_dirs: 9
     catalog_earned: 39.0
@@ -349,11 +349,11 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 52.9
+    contract_quality: 55.2
     developer_ergonomics: 21.4
     discoverability: 55.6
     operational_transparency: 10.5
@@ -366,7 +366,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

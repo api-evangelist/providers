@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The 4M WFS API is an OGC Web Feature Service that streams 4M's validated subsurface utility data (line and point features) in real time into GIS platforms such as ArcGIS and QGIS, eliminating manual f
@@ -118,7 +118,7 @@ overview: '4M Analytics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   4M Analytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 8 more developer resources.'
-random_paper: 19
+random_paper: 8
 score:
   band: thin
   composite: 28.0
@@ -147,7 +147,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

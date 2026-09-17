@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 15
@@ -65,11 +65,6 @@ apis:
   slug: gridgain-clusterconfiguration-api
 - baseURL: http://localhost:8080/ignite
   baseurl_source: declared
-  description: The clusterManagement API from GridGain — 3 operation(s) for clustermanagement.
-  name: GridGain clusterManagement API
-  slug: gridgain-clustermanagement-api
-- baseURL: http://localhost:8080/ignite
-  baseurl_source: declared
   description: The clusterMetric API from GridGain — 3 operation(s) for clustermetric.
   name: GridGain clusterMetric API
   slug: gridgain-clustermetric-api
@@ -78,11 +73,6 @@ apis:
   description: The compute API from GridGain — 3 operation(s) for compute.
   name: GridGain compute API
   slug: gridgain-compute-api
-- baseURL: http://localhost:8080/ignite
-  baseurl_source: declared
-  description: The dataNodes API from GridGain — 3 operation(s) for datanodes.
-  name: GridGain dataNodes API
-  slug: gridgain-datanodes-api
 - baseURL: http://localhost:8080/ignite
   baseurl_source: declared
   description: The dcr API from GridGain — 6 operation(s) for dcr.
@@ -98,16 +88,6 @@ apis:
   description: The distribution API from GridGain — 1 operation(s) for distribution.
   name: GridGain distribution API
   slug: gridgain-distribution-api
-- baseURL: http://localhost:8080/ignite
-  baseurl_source: declared
-  description: The licenseManagement API from GridGain — 6 operation(s) for licensemanagement.
-  name: GridGain licenseManagement API
-  slug: gridgain-licensemanagement-api
-- baseURL: http://localhost:8080/ignite
-  baseurl_source: declared
-  description: The nodeConfiguration API from GridGain — 2 operation(s) for nodeconfiguration.
-  name: GridGain nodeConfiguration API
-  slug: gridgain-nodeconfiguration-api
 - baseURL: http://localhost:8080/ignite
   baseurl_source: declared
   description: The nodeManagement API from GridGain — 3 operation(s) for nodemanagement.
@@ -128,16 +108,6 @@ apis:
   description: The recovery API from GridGain — 9 operation(s) for recovery.
   name: GridGain recovery API
   slug: gridgain-recovery-api
-- baseURL: http://localhost:8080/ignite
-  baseurl_source: declared
-  description: The roleAssignments API from GridGain — 5 operation(s) for roleassignments.
-  name: GridGain roleAssignments API
-  slug: gridgain-roleassignments-api
-- baseURL: http://localhost:8080/ignite
-  baseurl_source: declared
-  description: The roleManagement API from GridGain — 2 operation(s) for rolemanagement.
-  name: GridGain roleManagement API
-  slug: gridgain-rolemanagement-api
 - baseURL: http://localhost:8080/ignite
   baseurl_source: declared
   description: The snapshotManagement API from GridGain — 6 operation(s) for snapshotmanagement.
@@ -170,9 +140,39 @@ apis:
   slug: gridgain-upgrade-api
 - baseURL: http://localhost:8080/ignite
   baseurl_source: declared
-  description: The userManagement API from GridGain — 2 operation(s) for usermanagement.
-  name: GridGain userManagement API
-  slug: gridgain-usermanagement-api
+  description: The Cluster Management API from GridGain — 3 operation(s) for cluster management.
+  name: GridGain Cluster Management API
+  slug: gridgain-cluster-management-api
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The Data Nodes API from GridGain — 3 operation(s) for data nodes.
+  name: GridGain Data Nodes API
+  slug: gridgain-data-nodes-api
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The License Management API from GridGain — 6 operation(s) for license management.
+  name: GridGain License Management API
+  slug: gridgain-license-management-api
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The Node Configuration API from GridGain — 2 operation(s) for node configuration.
+  name: GridGain Node Configuration API
+  slug: gridgain-node-configuration-api
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The Role Assignments API from GridGain — 5 operation(s) for role assignments.
+  name: GridGain Role Assignments API
+  slug: gridgain-role-assignments-api
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The Role Management API from GridGain — 2 operation(s) for role management.
+  name: GridGain Role Management API
+  slug: gridgain-role-management-api
+- baseURL: http://localhost:8080/ignite
+  baseurl_source: declared
+  description: The User Management API from GridGain — 2 operation(s) for user management.
+  name: GridGain User Management API
+  slug: gridgain-user-management-api
 artifact_total: 60
 collections:
 - collection_type: open
@@ -323,7 +323,7 @@ plans:
 - name: Gridgain Plans Pricing
   plan_count: 3
   slug: gridgain-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Gridgain Rate Limits
@@ -341,7 +341,7 @@ rules:
   slug: gridgain-rules
 score:
   band: thin
-  composite: 34.3
+  composite: 34.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 57.0
@@ -349,11 +349,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 15.8
     contract_governance: 30.3
-    contract_quality: 53.2
+    contract_quality: 53.7
     developer_ergonomics: 40.5
     discoverability: 59.3
     operational_transparency: 10.5
@@ -372,7 +372,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

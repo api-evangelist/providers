@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ api_count: 1
 apis:
 - baseURL: https://us.tractionguest.com/api/v3
   baseurl_source: declared
-  description: All endpoints related to the AuditLog model.
-  name: Sign In Enterprise AuditLogs API
-  slug: sign-in-enterprise-auditlogs-api
-- baseURL: https://us.tractionguest.com/api/v3
-  baseurl_source: declared
   description: All endpoints related to Batch-type actions.
   name: Sign In Enterprise Batches API
   slug: sign-in-enterprise-batches-api
@@ -58,11 +53,6 @@ apis:
   description: All endpoints related to Capacity management.
   name: Sign In Enterprise Capacities API
   slug: sign-in-enterprise-capacities-api
-- baseURL: https://us.tractionguest.com/api/v3
-  baseurl_source: declared
-  description: All endpoints relating to operations for the EmailTemplate model
-  name: Sign In Enterprise EmailTemplates API
-  slug: sign-in-enterprise-emailtemplates-api
 - baseURL: https://us.tractionguest.com/api/v3
   baseurl_source: declared
   description: All endpoints related to Group Visits (Appointments).
@@ -100,11 +90,6 @@ apis:
   slug: sign-in-enterprise-registrations-api
 - baseURL: https://us.tractionguest.com/api/v3
   baseurl_source: declared
-  description: All endpoints related to models that track signing in and out of a location. E.g., Signin, Signout, SigninAcknowledgment models
-  name: Sign In Enterprise Signins API
-  slug: sign-in-enterprise-signins-api
-- baseURL: https://us.tractionguest.com/api/v3
-  baseurl_source: declared
   description: All endpoints related to the User model
   name: Sign In Enterprise Users API
   slug: sign-in-enterprise-users-api
@@ -113,6 +98,21 @@ apis:
   description: All endpoint related to the Watchlist model
   name: Sign In Enterprise Watchlists API
   slug: sign-in-enterprise-watchlists-api
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints related to the AuditLog model.
+  name: Sign In Enterprise Audit Logs API
+  slug: sign-in-enterprise-audit-logs-api
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints relating to operations for the EmailTemplate model
+  name: Sign In Enterprise Email Templates API
+  slug: sign-in-enterprise-email-templates-api
+- baseURL: https://us.tractionguest.com/api/v3
+  baseurl_source: declared
+  description: All endpoints related to models that track signing in and out of a location. E.g., Signin, Signout, SigninAcknowledgment models
+  name: Sign In Enterprise Sign Ins API
+  slug: sign-in-enterprise-sign-ins-api
 artifact_total: 35
 asyncapis:
 - description: ''
@@ -316,14 +316,14 @@ modified: '2026-07-21'
 name: Sign In Enterprise
 nav: Providers
 network: true
-overview: 'Sign In Enterprise publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AuditLogs API, Batches API, Capacities API, and 11 more. Tagged areas include Company, Vertical Software, Visitor Management, Physical Security, and Workplace Experience.
+overview: 'Sign In Enterprise publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Capacities API, GroupVisits API, and 11 more. Tagged areas include Company, Vertical Software, Visitor Management, Physical Security, and Workplace Experience.
 
 
   The Sign In Enterprise catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Sign In Enterprise''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 25 more developer resources.'
-random_paper: 0
+random_paper: 1
 scopes:
 - name: Sign In Enterprise Scopes
   scope_count: 48
@@ -359,7 +359,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

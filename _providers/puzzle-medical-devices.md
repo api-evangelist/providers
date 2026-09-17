@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: An anonymous Model Context Protocol endpoint served from www.puzzlemed.com and advertised by the company's own /llms.txt. It is the Wix platform Site Visitor Assistant, provisioned by the website host
@@ -124,7 +124,7 @@ plans:
 - name: Puzzle Medical Devices Plans Pricing
   plan_count: 0
   slug: puzzle-medical-devices-plans-pricing
-random_paper: 4
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Puzzle Medical Devices Rate Limits
@@ -165,7 +165,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

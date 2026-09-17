@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: Core AI platform that powers candidate matching, skills inference, career-path recommendations, and internal mobility decisions across the Eightfold suite. Customer-facing APIs are made available to e
@@ -219,7 +219,7 @@ modified: '2026-08-08'
 name: Eightfold AI
 nav: Providers
 network: true
-overview: 'Eightfold AI publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Intelligence, Talent Acquisition, Talent Management, AI Interviewing, and HR Tech.
+overview: 'Eightfold AI publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Intelligence, Talent Acquisition, Talent Management, AI Interviewing, and Human Resources.
 
 
   Eightfold AI''s developer surface includes engineering blog, documentation, API reference, getting-started guide, changelog, authentication, and 26 more developer resources.'
@@ -227,7 +227,7 @@ plans:
 - name: Eightfold Ai Plans Pricing
   plan_count: 1
   slug: eightfold-ai-plans-pricing
-random_paper: 0
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Eightfold Ai Rate Limits
@@ -261,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -291,7 +291,7 @@ tags:
 - Talent Acquisition
 - Talent Management
 - AI Interviewing
-- HR Tech
+- Human Resources
 - Workforce Planning
 - Agentic AI
 website: https://eightfold.ai

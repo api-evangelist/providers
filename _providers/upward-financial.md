@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.upwardli.com/v2
@@ -46,11 +46,6 @@ apis:
   description: The auth API from Upward Financial — 2 operation(s) for auth.
   name: Upward Financial auth API
   slug: upward-financial-auth-api
-- baseURL: https://api.upwardli.com/v2
-  baseurl_source: declared
-  description: The billPayments API from Upward Financial — 4 operation(s) for billpayments.
-  name: Upward Financial billPayments API
-  slug: upward-financial-billpayments-api
 - baseURL: https://api.upwardli.com/v2
   baseurl_source: declared
   description: The billReporting API from Upward Financial — 9 operation(s) for billreporting.
@@ -88,11 +83,6 @@ apis:
   slug: upward-financial-partners-api
 - baseURL: https://api.upwardli.com/v2
   baseurl_source: declared
-  description: The paymentCards API from Upward Financial — 10 operation(s) for paymentcards.
-  name: Upward Financial paymentCards API
-  slug: upward-financial-paymentcards-api
-- baseURL: https://api.upwardli.com/v2
-  baseurl_source: declared
   description: The payments API from Upward Financial — 12 operation(s) for payments.
   name: Upward Financial payments API
   slug: upward-financial-payments-api
@@ -121,6 +111,16 @@ apis:
   description: The webhooks API from Upward Financial — 3 operation(s) for webhooks.
   name: Upward Financial webhooks API
   slug: upward-financial-webhooks-api
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The Bill Payments API from Upward Financial — 4 operation(s) for bill payments.
+  name: Upward Financial Bill Payments API
+  slug: upward-financial-bill-payments-api
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The Payment Cards API from Upward Financial — 10 operation(s) for payment cards.
+  name: Upward Financial Payment Cards API
+  slug: upward-financial-payment-cards-api
 artifact_total: 40
 asyncapis:
 - description: ''
@@ -324,14 +324,14 @@ modified: '2026-07-21'
 name: Upward Financial
 nav: Providers
 network: true
-overview: 'Upward Financial publishes 17 APIs on the [APIs.io](https://apis.io/) network, including accounts API, auth API, billPayments API, and 14 more. Tagged areas include Company, Fintech, Credit, Credit Building, and Payments.
+overview: 'Upward Financial publishes 17 APIs on the [APIs.io](https://apis.io/) network, including accounts API, auth API, billReporting API, and 14 more. Tagged areas include Company, Fintech, Credit, Credit Building, and Payments.
 
 
   The Upward Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Upward Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 22 more developer resources.'
-random_paper: 20
+random_paper: 9
 scopes:
 - name: Upward Financial Scopes
   scope_count: 9
@@ -372,7 +372,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

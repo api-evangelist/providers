@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ created: '2026-07-17'
 description: BRND.ME (legally Mensa Brand Technologies Private Limited) is an India-based house-of-brands company that acquires, builds, and scales digital-first consumer brands across Health, Wellness, Lifestyle, Fashion, Party & Celebration, and Home Decor. Founded by Ananth Narayanan and backed by Accel, the company combines technology, data insight, and centralized operations to grow market-leading D2C brands from India for global customers. Its portfolio includes brands such as Majestic Pure, Botanic Hearth, Dennis Lingo, House of Ishin, and MyFitness. This is a company/provider profile in the API Evangelist network; BRND.ME operates a corporate marketing presence and does not publish a public developer API.
 image: https://brndme.in/wp-content/uploads/2025/01/cropped-logo-192x192.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: BRND.ME
 nav: Providers
 network: true
@@ -86,7 +86,7 @@ overview: 'BRND.ME is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BRND.ME''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: minimal
   composite: 4.1
@@ -120,7 +120,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -144,5 +144,6 @@ tags:
 - Lifestyle
 - Fashion
 - India
+- Direct to Consumer
 website: https://brndme.in/
 ---

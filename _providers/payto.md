@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: PayTo's public developer surface, published by Australian Payments Plus (AP+) and NPP Australia. Rather than a self-serve API hosted by the scheme, this covers the AP+ Developer Portal (login-gated AP
@@ -109,7 +109,7 @@ overview: 'PayTo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   PayTo''s developer surface includes documentation, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 11
+random_paper: 7
 score:
   band: emerging
   composite: 18.6
@@ -145,7 +145,7 @@ score:
     regime_id: banking_open_finance
     score: 24.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

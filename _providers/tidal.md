@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -131,11 +131,6 @@ apis:
   slug: tidal-dspsharinglinks-api
 - baseURL: https://openapi.tidal.com/v2
   baseurl_source: spec
-  description: The dynamicModules API from TIDAL — 2 operation(s) for dynamicmodules.
-  name: TIDAL dynamicModules API
-  slug: tidal-dynamicmodules-api
-- baseURL: https://openapi.tidal.com/v2
-  baseurl_source: spec
   description: The dynamicPages API from TIDAL — 3 operation(s) for dynamicpages.
   name: TIDAL dynamicPages API
   slug: tidal-dynamicpages-api
@@ -209,16 +204,6 @@ apis:
   description: The searchHistoryEntries API from TIDAL — 2 operation(s) for searchhistoryentries.
   name: TIDAL searchHistoryEntries API
   slug: tidal-searchhistoryentries-api
-- baseURL: https://openapi.tidal.com/v2
-  baseurl_source: spec
-  description: The searchResults API from TIDAL — 7 operation(s) for searchresults.
-  name: TIDAL searchResults API
-  slug: tidal-searchresults-api
-- baseURL: https://openapi.tidal.com/v2
-  baseurl_source: spec
-  description: The searchSuggestions API from TIDAL — 3 operation(s) for searchsuggestions.
-  name: TIDAL searchSuggestions API
-  slug: tidal-searchsuggestions-api
 - baseURL: https://openapi.tidal.com/v2
   baseurl_source: spec
   description: The shares API from TIDAL — 4 operation(s) for shares.
@@ -351,16 +336,6 @@ apis:
   slug: tidal-userofflinemixes-api
 - baseURL: https://openapi.tidal.com/v2
   baseurl_source: spec
-  description: The userRecommendations API from TIDAL — 5 operation(s) for userrecommendations.
-  name: TIDAL userRecommendations API
-  slug: tidal-userrecommendations-api
-- baseURL: https://openapi.tidal.com/v2
-  baseurl_source: spec
-  description: The userReports API from TIDAL — 1 operation(s) for userreports.
-  name: TIDAL userReports API
-  slug: tidal-userreports-api
-- baseURL: https://openapi.tidal.com/v2
-  baseurl_source: spec
   description: The videoManifests API from TIDAL — 1 operation(s) for videomanifests.
   name: TIDAL videoManifests API
   slug: tidal-videomanifests-api
@@ -369,6 +344,31 @@ apis:
   description: The videos API from TIDAL — 11 operation(s) for videos.
   name: TIDAL videos API
   slug: tidal-videos-api
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The User Reports API from TIDAL — 1 operation(s) for user reports.
+  name: TIDAL User Reports API
+  slug: tidal-user-reports-api
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The Dynamic Modules API from TIDAL — 2 operation(s) for dynamic modules.
+  name: TIDAL Dynamic Modules API
+  slug: tidal-dynamic-modules-api
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The Search Results API from TIDAL — 7 operation(s) for search results.
+  name: TIDAL Search Results API
+  slug: tidal-search-results-api
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The Search Suggestions API from TIDAL — 3 operation(s) for search suggestions.
+  name: TIDAL Search Suggestions API
+  slug: tidal-search-suggestions-api
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The User Recommendations API from TIDAL — 5 operation(s) for user recommendations.
+  name: TIDAL User Recommendations API
+  slug: tidal-user-recommendations-api
 arazzos:
 - description: Read an album, enumerate its items, then resolve the first track and its artist.
   name: TIDAL Album Tracklist Explorer
@@ -652,6 +652,10 @@ collections:
   name: TIDAL Catalog acceptedTerms videos API
   slug: open-tidal-videos-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tidal.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/capabilities/tidal-capability-edges.yml
   title: ''
@@ -926,7 +930,7 @@ jsonld:
   property_count: 18
   slug: tidal-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: TIDAL
 nav: Providers
 network: true
@@ -936,12 +940,12 @@ overview: 'TIDAL publishes 65 APIs on the [APIs.io](https://apis.io/) network, i
   The TIDAL catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TIDAL''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, tooling, and 41 more developer resources.'
+  TIDAL''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, tooling, and 42 more developer resources.'
 plans:
 - name: Tidal Plans Pricing
   plan_count: 6
   slug: tidal-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Tidal Rate Limits
@@ -975,21 +979,21 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 51.5
+  composite: 53.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 75.3
+    catalog_earned: 80.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.8
+    catalog_gap: 34.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 73.7
     contract_governance: 9.8
-    contract_quality: 67.9
+    contract_quality: 70.3
     developer_ergonomics: 44.0
-    discoverability: 50.0
+    discoverability: 59.3
     operational_transparency: 42.1
   previous_composite: 51.5
   provenance:
@@ -1000,7 +1004,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

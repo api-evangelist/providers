@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,11 +69,11 @@ modified: '2026-07-21'
 name: Squares
 nav: Providers
 network: true
-overview: 'Squares is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Workspaces, Co-Working, and Travel.
+overview: 'Squares is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Workspace, Co-Working, and Travel.
 
 
   Squares'' developer surface includes pricing, support, and 4 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: emerging
   composite: 12.3
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -110,7 +110,7 @@ slug: squares
 tags:
 - Company
 - Marketplace
-- Workspaces
+- Workspace
 - Co-Working
 - Travel
 - Booking

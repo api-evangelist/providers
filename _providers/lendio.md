@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: REST API for connecting small businesses with lenders. Supports loan application submission, eligibility checking, lender matching, and loan product management. The Embedded Financing API allows servi
@@ -116,7 +116,7 @@ plans:
 - name: Lendio Plans Pricing
   plan_count: 3
   slug: lendio-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Lendio Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 57.9
   previous_composite: 26.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

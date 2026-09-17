@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,14 +31,29 @@ agentic_access:
   operation_count: 5
   slug: wizehire-agentic-access
   summary_line: 5 operations · 2 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://scout.wizehire.com
   baseurl_source: declared
-  description: 'Backend service for the Wizehire Scout Chrome extension — the AI recruiting assistant. Five operations over HTTP Bearer auth: a streaming (Server-Sent Events) agent chat endpoint that runs a LangGraph'
-  name: Wizehire Scout Service API
-  slug: wizehire-scout-service-api
-artifact_total: 8
+  description: The agent API from WizeHire — 1 operation(s) for agent.
+  name: WizeHire Agent API
+  slug: wizehire-agent-api
+- baseURL: https://scout.wizehire.com
+  baseurl_source: declared
+  description: The candidates API from WizeHire — 2 operation(s) for candidates.
+  name: WizeHire Candidates API
+  slug: wizehire-candidates-api
+- baseURL: https://scout.wizehire.com
+  baseurl_source: declared
+  description: The health API from WizeHire — 1 operation(s) for health.
+  name: WizeHire Health API
+  slug: wizehire-health-api
+- baseURL: https://scout.wizehire.com
+  baseurl_source: declared
+  description: The interviews API from WizeHire — 1 operation(s) for interviews.
+  name: WizeHire Interviews API
+  slug: wizehire-interviews-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Wizehire Events
@@ -120,10 +135,10 @@ common:
   type: Compliance
   url: https://wizehire.com/gdpr
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-scout-service-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/_original/wizehire-scout-service-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/wizehire-scout-service-openapi.yml
+  url: openapi/_original/wizehire-scout-service-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/overlays/wizehire-scout-service-overlay.yaml
   title: ''
@@ -192,11 +207,11 @@ mcp_servers:
 - description: ''
   name: WizeHire MCP Server
   slug: wizehire-mcp-server
-modified: '2026-09-04'
+modified: '2026-09-16'
 name: WizeHire
 nav: Providers
 network: true
-overview: 'WizeHire publishes 1 API on the [APIs.io](https://apis.io/) network: Scout Service API. Tagged areas include Hiring, Recruiting, Applicant Tracking, Human Resources, and Talent Assessment.
+overview: 'WizeHire publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Candidates API, Health API, and 1 more. Tagged areas include Hiring, Recruiting, Applicant Tracking, Human Resources, and Talent Assessment.
 
 
   The WizeHire catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -207,14 +222,14 @@ plans:
 - name: Wizehire Plans Pricing
   plan_count: 3
   slug: wizehire-plans-pricing
-random_paper: 10
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Wizehire Rate Limits
   slug: wizehire-rate-limits
 score:
   band: developing
-  composite: 52.3
+  composite: 50.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 49.0
@@ -222,11 +237,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.2
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 63.8
+    contract_quality: 54.7
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 2.6
@@ -235,14 +250,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -265,8 +280,7 @@ tags:
 - Talent Assessment
 - Small Business
 - Artificial Intelligence
-- Job Boards
+- Job Board
 - Onboarding
-- HR Tech
 website: https://wizehire.com/
 ---

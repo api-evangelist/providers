@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: AutoNation operates a digital retail platform at autonation.com that enables consumers to browse new and used vehicle inventory, configure purchases, apply for financing, and schedule vehicle deliveri
@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: 'AutoNation on Instagram: "The Stanley Cup stopped by ...'
   url: https://www.instagram.com/reel/DPfLQt8jdpz/
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Autonation Rate Limits
@@ -133,7 +133,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

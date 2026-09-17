@@ -34,17 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: USTC's institution-operated authorization server, run by the Network Information Center and the hub every other campus system authenticates against. It speaks CAS 3.0, OAuth 2.0 authorization code (re
   name: USTC Unified Identity Authentication (id.ustc.edu.cn, formerly Passport SSO)
   slug: passport
-- baseURL: https://id.ustc.edu.cn/doc/api
-  baseurl_source: declared
-  description: A small, precise, institution-authored REST API that resolves a person's campus enrollment status code by global person identifier or identity number, singly or in batches of up to 100. USTC publishes
-  name: USTC Campus Enrollment Status Query API (在校状态查询接口)
-  slug: campus-status
 - description: USTC's self-hosted Shibboleth IdP 5.2.2, publishing a 15KB SAML 2.0 EntityDescriptor for entityID https://idp.ustc.edu.cn/idp/shibboleth with a shibmd:Scope of ustc.edu.cn, SSO and SLO endpoints acros
   name: USTC Shibboleth Identity Provider (跨校资源认证中心)
   slug: idp
@@ -57,7 +52,17 @@ apis:
 - description: A GitLab instance USTC runs on its own domain at git.ustc.edu.cn, with a second LUG-operated instance at git.lug.ustc.edu.cn. GitLab exposes a well-documented REST and GraphQL API, but that contract i
   name: USTC Campus GitLab
   slug: gitlab
-artifact_total: 16
+- baseURL: https://id.ustc.edu.cn/cas
+  baseurl_source: declared
+  description: Unauthenticated liveness check.
+  name: University of Science and Technology of China Health API
+  slug: ustc-health-api
+- baseURL: https://id.ustc.edu.cn/cas
+  baseurl_source: declared
+  description: Enrollment status lookup by person identifier.
+  name: University of Science and Technology of China Status API
+  slug: ustc-status-api
+artifact_total: 17
 common:
 - group: company
   title: ''
@@ -261,7 +266,7 @@ modified: '2026-08-30'
 name: University of Science and Technology of China
 nav: Providers
 network: true
-overview: 'University of Science and Technology of China publishes 1 API on the [APIs.io](https://apis.io/) network: USTC Campus Enrollment Status Query API (在校状态查询接口). Tagged areas include University, Higher Education, Education, China, and C9 League.
+overview: 'University of Science and Technology of China publishes 2 APIs on the [APIs.io](https://apis.io/) network: Health API and Status API. Tagged areas include University, Higher Education, Education, China, and C9 League.
 
 
   The University of Science and Technology of China catalog on APIs.io includes 1 JSON-LD context.
@@ -272,7 +277,7 @@ plans:
 - name: Ustc Plans Pricing
   plan_count: 2
   slug: ustc-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Ustc Rate Limits
@@ -284,7 +289,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.6
+  composite: 37.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 71.3
@@ -292,11 +297,11 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 28.9
     contract_governance: 3.8
-    contract_quality: 30.6
+    contract_quality: 30.0
     developer_ergonomics: 45.2
     discoverability: 68.5
     operational_transparency: 39.5
@@ -312,9 +317,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
@@ -322,7 +327,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -347,7 +352,7 @@ tags:
 - Chinese Academy of Sciences
 - Research
 - Identity Federation
-- Single Sign-On
+- SSO
 - Course Catalog
 - Research Computing
 - Open Source Mirror

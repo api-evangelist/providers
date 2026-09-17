@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ press:
 - date: '2026-05-25'
   title: Dollar General expands retail media network with AI ...
   url: https://cspdailynews.com/technologyservices/dollar-general-expands-retail-media-network-ai-powered-audio-unified-ad
-random_paper: 10
+random_paper: 9
 score:
   band: minimal
   composite: 4.1
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
 - baseURL: https://api.courier.com
   baseurl_source: declared
   description: The Courier Create API from Courier — 4 operation(s) for courier create.
-  name: Courier Courier Create API
+  name: Courier Create API
   slug: courier-courier-create-api
 - baseURL: https://api.courier.com
   baseurl_source: declared
@@ -299,7 +299,7 @@ graphqls:
   slug: courier-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/courier.png
 layout: provider
-modified: '2026-05-29'
+modified: '2026-09-16'
 name: Courier
 nav: Providers
 network: true
@@ -314,7 +314,7 @@ plans:
 - name: Courier Plans Pricing
   plan_count: 1
   slug: courier-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Courier Rate Limits
@@ -364,7 +364,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

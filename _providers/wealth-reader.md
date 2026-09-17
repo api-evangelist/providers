@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,25 +11,37 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.8
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 40.7
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- description: 'Reads normalised financial data from an institution on behalf of a consenting end user. Read-only: it never initiates payments.'
-  name: Wealth Reader API
-  slug: wealth-reader-api
-artifact_total: 8
+- baseURL: https://api.wealthreader.com/
+  baseurl_source: declared
+  description: Optional endpoints not required for standard integrations. Use only if explicitly instructed by Wealth Reader.
+  name: Wealth Reader Advanced API
+  slug: wealth-reader-advanced-api
+- baseURL: https://api.wealthreader.com/
+  baseurl_source: declared
+  description: 'Real-time card expense synchronization from the Open Sync mobile app: per-customer employee pre-registration, signed webhooks (card_transaction.created / card_enrollment.confirmed), and REST query / b'
+  name: Wealth Reader Cards (real time) API
+  slug: wealth-reader-cards-real-time-api
+- baseURL: https://api.wealthreader.com/
+  baseurl_source: declared
+  description: Core API required for standard integrations
+  name: Wealth Reader Core API
+  slug: wealth-reader-core-api
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Wealth Reader Webhooks
@@ -61,15 +73,15 @@ common:
   type: PrivacyPolicy
   url: https://www.wealthreader.com/es/politica-privacidad/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-api-for-ai.yaml
+  href: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/_original/wealth-reader-api-for-ai.yaml
   title: ''
   type: OpenAPI
-  url: openapi/wealth-reader-api-for-ai.yaml
+  url: openapi/_original/wealth-reader-api-for-ai.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-api.yaml
+  href: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/_original/wealth-reader-api.yaml
   title: ''
   type: OpenAPI
-  url: openapi/wealth-reader-api.yaml
+  url: openapi/_original/wealth-reader-api.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/overlays/wealth-reader-api-for-ai-overlay.yaml
   title: ''
@@ -225,11 +237,11 @@ mcp_servers:
 - description: ''
   name: ALL WR Toolkit MCP server
   slug: all-wr-toolkit-mcp-server
-modified: '2026-09-03'
+modified: '2026-09-16'
 name: Wealth Reader
 nav: Providers
 network: true
-overview: 'Wealth Reader publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Bank Aggregation, Open Banking, PSD2, Financial Data, and Account Aggregation.
+overview: 'Wealth Reader publishes 3 APIs on the [APIs.io](https://apis.io/) network: Advanced API, Cards (real time) API, and Core API. Tagged areas include Bank Aggregation, Open Banking, PSD2, Financial Data, and Account Aggregation.
 
 
   The Wealth Reader catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -240,14 +252,14 @@ plans:
 - name: Wealth Reader Plans Pricing
   plan_count: 4
   slug: wealth-reader-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Wealth Reader Rate Limits
   slug: wealth-reader-rate-limits
 score:
   band: strong
-  composite: 61.4
+  composite: 64.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 57.0
@@ -255,11 +267,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.5
   facets:
     access_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 48.1
+    contract_quality: 62.0
     developer_ergonomics: 75.6
     discoverability: 75.9
     operational_transparency: 57.9
@@ -270,7 +282,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 3
     mcp: first-party
     skills: derived
   regulatory:
@@ -286,7 +298,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: AVAP BRUNIX is an AI copilot integrated into the AVAP framework, providing intelligent assistance for API development, code generation, testing automation, and API lifecycle management.
@@ -148,7 +148,7 @@ plans:
 - name: Avap Brunix Plans Pricing
   plan_count: 9
   slug: avap-brunix-plans-pricing
-random_paper: 20
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Avap Brunix Rate Limits
@@ -173,7 +173,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 18.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

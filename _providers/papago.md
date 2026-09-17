@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - baseURL: https://papago.apigw.ntruss.com/nmt/v1
   baseurl_source: declared
   description: Naver Machine Learning Translation APIs
-  name: Papago Papago API
+  name: Papago API
   slug: papago-papago-api
 artifact_total: 22
 collections:
@@ -166,11 +166,11 @@ jsonld:
   property_count: 17
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Papago
 nav: Providers
 network: true
-overview: 'Papago publishes 1 API on the [APIs.io](https://apis.io/) network: Papago API. Tagged areas include Translation, Natural Language Processing, Machine Translation, Neural Machine Translation, and Korean.
+overview: 'Papago publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Translation, Natural Language Processing, Machine Translation, Neural Machine Translation, and Korean.
 
 
   The Papago catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -181,7 +181,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Rate Limits
@@ -224,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

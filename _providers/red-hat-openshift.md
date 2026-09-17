@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -115,7 +115,79 @@ apis:
   description: Query available OpenShift versions
   name: Red Hat OpenShift Versions API
   slug: red-hat-openshift-versions-api
-artifact_total: 82
+- description: OAuth authentication and authorization API for OpenShift.
+  name: OpenShift OAuth API
+  slug: openshift-oauth-api
+- description: API for managing application builds and build configurations.
+  name: OpenShift Build API
+  slug: openshift-build-api
+- description: API for managing container images and image streams.
+  name: OpenShift Image API
+  slug: openshift-image-api
+- description: API for managing OpenShift projects (namespace extensions).
+  name: OpenShift Project API
+  slug: openshift-project-api
+- description: API for managing workload resources including Pods, Deployments, DeploymentConfigs, StatefulSets, Jobs, CronJobs, ReplicaSets, and DaemonSets.
+  name: OpenShift Workloads API
+  slug: openshift-workloads-api
+- description: API for managing network configuration including Services, Endpoints, Ingress, NetworkPolicy, and EgressFirewall resources.
+  name: OpenShift Network API
+  slug: openshift-network-api
+- description: API for managing storage resources including PersistentVolumes, PersistentVolumeClaims, StorageClasses, CSI drivers, and VolumeSnapshots.
+  name: OpenShift Storage API
+  slug: openshift-storage-api
+- description: API for managing authorization resources including SubjectAccessReview, SelfSubjectAccessReview, LocalSubjectAccessReview, and TokenReview.
+  name: OpenShift Authorization API
+  slug: openshift-authorization-api
+- description: API for managing autoscaling resources including HorizontalPodAutoscaler, ClusterAutoscaler, and MachineAutoscaler.
+  name: OpenShift Autoscale API
+  slug: openshift-autoscale-api
+- description: API for managing cluster configuration resources including APIServer, Authentication, Infrastructure, Ingress, Network, OAuth, and Scheduler configuration.
+  name: OpenShift Config API
+  slug: openshift-config-api
+- description: API for managing OpenShift web console extensions including ConsoleCLIDownload, ConsoleExternalLogLink, ConsoleLink, ConsoleNotification, and ConsolePlugin.
+  name: OpenShift Console API
+  slug: openshift-console-api
+- description: API for managing cluster-level resources including ClusterVersion, ClusterOperator, and infrastructure resources.
+  name: OpenShift Cluster API
+  slug: openshift-cluster-api
+- description: API for managing machine resources including Machine, MachineSet, MachineHealthCheck, and MachineAutoscaler for cluster node lifecycle management.
+  name: OpenShift Machine API
+  slug: openshift-machine-api
+- description: API for managing OpenShift operator lifecycle and configuration including Etcd, Console, Network, DNS, IngressController, and other operator resources.
+  name: OpenShift Operator API
+  slug: openshift-operator-api
+- description: API for managing OperatorHub resources including CatalogSources, Subscriptions, InstallPlans, and ClusterServiceVersions for the Operator Lifecycle Manager.
+  name: OpenShift OperatorHub API
+  slug: openshift-operatorhub-api
+- description: API for managing templates that provide parameterized sets of objects for creating applications and services.
+  name: OpenShift Template API
+  slug: openshift-template-api
+- description: API for managing security resources including SecurityContextConstraints, RangeAllocation, and PodSecurityPolicyReview for controlling pod security.
+  name: OpenShift Security API
+  slug: openshift-security-api
+- description: API for managing role-based access control resources including Roles, ClusterRoles, RoleBindings, and ClusterRoleBindings.
+  name: OpenShift RBAC API
+  slug: openshift-rbac-api
+- description: API for managing node-level resources including Node, RuntimeClass, and node configuration.
+  name: OpenShift Node API
+  slug: openshift-node-api
+- description: API for managing monitoring and observability resources including Prometheus, Alertmanager, ServiceMonitor, and PrometheusRule.
+  name: OpenShift Monitoring API
+  slug: openshift-monitoring-api
+- description: API for managing bare metal and infrastructure provisioning resources including BareMetalHost, Provisioning, and hardware management.
+  name: OpenShift Provisioning API
+  slug: openshift-provisioning-api
+- description: API for managing scheduling and quota resources including ResourceQuota, LimitRange, PriorityClass, and ClusterResourceQuota.
+  name: OpenShift Schedule and Quota API
+  slug: openshift-schedule-and-quota-api
+- description: API for managing metadata resources including ConfigMaps, Secrets, Events, Namespaces, and ServiceAccounts.
+  name: OpenShift Metadata API
+  slug: openshift-metadata-api
+- description: Managed service API for installing, modifying, operating, and upgrading Red Hat OpenShift clusters across cloud providers.
+  name: OpenShift Cluster Manager API
+  slug: openshift-cluster-manager-api
+artifact_total: 106
 collections:
 - collection_type: postman
   name: Red Hat OpenShift Container Platform Add-ons API
@@ -405,7 +477,7 @@ jsonld:
   property_count: 20
   slug: red-hat-openshift-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Red Hat OpenShift
 nav: Providers
 network: true
@@ -420,7 +492,7 @@ plans:
 - name: Red Hat Openshift Plans Pricing
   plan_count: 8
   slug: red-hat-openshift-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Red Hat Openshift Rate Limits
@@ -474,7 +546,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

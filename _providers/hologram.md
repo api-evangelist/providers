@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ finops:
   slug: hologram-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hologram.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-09-16'
 name: Hologram
 nav: Providers
 network: true
@@ -189,7 +189,7 @@ plans:
 - name: Hologram Plans Pricing
   plan_count: 2
   slug: hologram-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Hologram Rate Limits
@@ -228,7 +228,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -250,5 +250,6 @@ tags:
 - Connectivity
 - SIM
 - M2M
+- Machine-to-Machine
 website: https://www.hologram.io/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -165,7 +165,7 @@ overview: '100 Thieves publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   100 Thieves'' developer surface includes documentation, authentication, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 5
+random_paper: 4
 scopes:
 - name: 100 Thieves Scopes
   scope_count: 4
@@ -201,7 +201,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

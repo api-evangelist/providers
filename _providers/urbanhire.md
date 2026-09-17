@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -67,8 +67,8 @@ modified: '2026-07-21'
 name: UrbanHire
 nav: Providers
 network: true
-overview: UrbanHire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Applicant Tracking, and Assessments.
-random_paper: 15
+overview: UrbanHire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Hiring, Applicant Tracking, and Assessment.
+random_paper: 14
 score:
   band: minimal
   composite: 6.1
@@ -96,7 +96,7 @@ score:
     - southeast-asia
   previous_composite: 6.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -113,8 +113,8 @@ tags:
 - Recruiting
 - Hiring
 - Applicant Tracking
-- Assessments
-- HR Tech
+- Assessment
+- Human Resources
 - Indonesia
 website: https://urbanhire.com
 ---

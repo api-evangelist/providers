@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Data-as-a-Service access to Onclusive's media intelligence corpus — 28M+ daily media content items across print, online, broadcast and social media, 300K+ verified journalist contacts, and 250K+ globa
@@ -149,7 +149,7 @@ plans:
 - name: Airpr Plans Pricing
   plan_count: 0
   slug: airpr-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Airpr Rate Limits
@@ -181,7 +181,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

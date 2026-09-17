@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Live REST/JSON API behind Agerpoint Cloud and the Agerpoint Capture apps, served from cloudapi.agerpoint.com on ASP.NET Core (Kestrel). Resource families observed on the public first-party web client '
@@ -151,7 +151,7 @@ plans:
 - name: Agerpoint Plans Pricing
   plan_count: 0
   slug: agerpoint-plans-pricing
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Agerpoint Rate Limits
@@ -183,7 +183,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -28,7 +28,7 @@ name: InstaEDU
 nav: Providers
 network: true
 overview: InstaEDU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Tutoring, and Learning.
-random_paper: 0
+random_paper: 3
 slug: instaedu
 tags:
 - Company

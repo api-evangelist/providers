@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Screen order information using AI to detect frauds
@@ -62,7 +62,7 @@ name: FraudLabs Pro
 nav: Providers
 network: true
 overview: FraudLabs Pro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security and Public APIs.
-random_paper: 7
+random_paper: 10
 score:
   band: minimal
   composite: 7.6
@@ -85,7 +85,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

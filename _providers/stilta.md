@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: First-party backend API for the Stilta / Patrona patent search platform. Live and rate-limited (600 req window observed) but undocumented publicly — no OpenAPI, no developer docs (docs_url is null; /o
@@ -105,7 +105,7 @@ overview: 'Stilta publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Stilta''s developer surface includes support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 6
+random_paper: 19
 score:
   band: emerging
   composite: 19.3
@@ -128,7 +128,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

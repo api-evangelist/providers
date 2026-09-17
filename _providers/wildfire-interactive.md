@@ -24,7 +24,7 @@ name: Wildfire Interactive
 nav: Providers
 network: true
 overview: Wildfire Interactive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social Media Marketing, Marketing, Advertising, and Social-Media.
-random_paper: 2
+random_paper: 13
 slug: wildfire-interactive
 tags:
 - Company

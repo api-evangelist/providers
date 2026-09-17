@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 63.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 36
 apis:
 - description: Hosted, remote Model Context Protocol server exposing the Feedly Real-Time Threat Graph to AI agents. Feedly documents 16 tools covering threat actors, malware, vulnerabilities, TTPs, IoCs and cyberat
@@ -63,11 +63,6 @@ apis:
   description: '> 🚧 Alpha: Custom Agents is a new capability and still under active development. Endpoints, fields, and behavior may change without notice. Custom Agents let enterprise teams stand up their own tables'
   name: Feedly Custom Agents API
   slug: feedly-custom-agents-api
-- baseURL: https://api.feedly.com/v3
-  baseurl_source: declared
-  description: The CVEs API from Feedly — 2 operation(s) for cves.
-  name: Feedly CV Es API
-  slug: feedly-cves-api
 - baseURL: https://api.feedly.com/v3
   baseurl_source: declared
   description: The Detection Rules API from Feedly — 1 operation(s) for detection rules.
@@ -188,6 +183,11 @@ apis:
   description: The Vulnerabilities API from Feedly — 1 operation(s) for vulnerabilities.
   name: Feedly Vulnerabilities API
   slug: feedly-vulnerabilities-api
+- baseURL: https://mcp.feedly.com/mcp
+  baseurl_source: declared
+  description: The CVEs API from Feedly — 2 operation(s) for cves.
+  name: Feedly CV Es API
+  slug: feedly-cves-api
 artifact_total: 55
 asyncapis:
 - description: ''
@@ -531,7 +531,7 @@ plans:
 - name: Feedly Plans Pricing
   plan_count: 2
   slug: feedly-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Feedly Rate Limits
@@ -565,7 +565,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

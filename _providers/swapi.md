@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -277,7 +277,7 @@ modified: '2026-05-29'
 name: SWAPI - Star Wars API
 nav: Providers
 network: true
-overview: 'SWAPI - Star Wars API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Films API, People API, Planets API, and 3 more. Tagged areas include Star Wars, Open-Source, Teaching API, Public API, and REST.
+overview: 'SWAPI - Star Wars API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Films API, People API, Planets API, and 3 more. Tagged areas include Star Wars, Open-Source, Teaching API, Public APIs, and REST.
 
 
   The SWAPI - Star Wars API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -288,7 +288,7 @@ plans:
 - name: Swapi Plans Pricing
   plan_count: 1
   slug: swapi-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Swapi Rate Limits
@@ -342,7 +342,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -359,7 +359,7 @@ tags:
 - Star Wars
 - Open-Source
 - Teaching API
-- Public API
+- Public APIs
 - REST
 - GraphQL
 - Entertainment

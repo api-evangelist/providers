@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: CKAN Action API for Modena Open Data, ~111 datasets. Base URL https://opendata.comune.modena.it/api/3/action/.
@@ -94,7 +94,7 @@ plans:
 - name: Opendata Comune Modena It Plans Pricing
   plan_count: 1
   slug: opendata-comune-modena-it-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Opendata Comune Modena It Rate Limits
@@ -133,7 +133,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

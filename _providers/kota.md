@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -52,19 +52,9 @@ apis:
   slug: kota-associated-persons-api
 - baseURL: https://api.kota.io
   baseurl_source: declared
-  description: The associatedPersons API from Kota — 2 operation(s) for associatedpersons.
-  name: Kota associatedPersons API
-  slug: kota-associatedpersons-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
   description: The Contribution Reports API from Kota — 5 operation(s) for contribution reports.
   name: Kota Contribution Reports API
   slug: kota-contribution-reports-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
-  description: The contributionReports API from Kota — 5 operation(s) for contributionreports.
-  name: Kota contributionReports API
-  slug: kota-contributionreports-api
 - baseURL: https://api.kota.io
   baseurl_source: declared
   description: The Dependents Management Intents API from Kota — 6 operation(s) for dependents management intents.
@@ -72,19 +62,9 @@ apis:
   slug: kota-dependents-management-intents-api
 - baseURL: https://api.kota.io
   baseurl_source: declared
-  description: The dependentsManagementIntents API from Kota — 6 operation(s) for dependentsmanagementintents.
-  name: Kota dependentsManagementIntents API
-  slug: kota-dependentsmanagementintents-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
   description: The Embed Sessions API from Kota — 1 operation(s) for embed sessions.
   name: Kota Embed Sessions API
   slug: kota-embed-sessions-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
-  description: The embedSessions API from Kota — 1 operation(s) for embedsessions.
-  name: Kota embedSessions API
-  slug: kota-embedsessions-api
 - baseURL: https://api.kota.io
   baseurl_source: declared
   description: The employees API from Kota — 4 operation(s) for employees.
@@ -100,11 +80,6 @@ apis:
   description: The Enrolment Intents API from Kota — 7 operation(s) for enrolment intents.
   name: Kota Enrolment Intents API
   slug: kota-enrolment-intents-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
-  description: The enrolmentIntents API from Kota — 7 operation(s) for enrolmentintents.
-  name: Kota enrolmentIntents API
-  slug: kota-enrolmentintents-api
 - baseURL: https://api.kota.io
   baseurl_source: declared
   description: The events API from Kota — 3 operation(s) for events.
@@ -127,21 +102,6 @@ apis:
   slug: kota-group-quote-intents-api
 - baseURL: https://api.kota.io
   baseurl_source: declared
-  description: The groupPolicies API from Kota — 2 operation(s) for grouppolicies.
-  name: Kota groupPolicies API
-  slug: kota-grouppolicies-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
-  description: The groupPolicyIntents API from Kota — 3 operation(s) for grouppolicyintents.
-  name: Kota groupPolicyIntents API
-  slug: kota-grouppolicyintents-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
-  description: The groupQuoteIntents API from Kota — 5 operation(s) for groupquoteintents.
-  name: Kota groupQuoteIntents API
-  slug: kota-groupquoteintents-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
   description: The groups API from Kota — 4 operation(s) for groups.
   name: Kota groups API
   slug: kota-groups-api
@@ -152,19 +112,9 @@ apis:
   slug: kota-health-insurance-api
 - baseURL: https://api.kota.io
   baseurl_source: declared
-  description: The healthInsurance API from Kota — 8 operation(s) for healthinsurance.
-  name: Kota healthInsurance API
-  slug: kota-healthinsurance-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
   description: The Hosted Sessions API from Kota — 1 operation(s) for hosted sessions.
   name: Kota Hosted Sessions API
   slug: kota-hosted-sessions-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
-  description: The hostedSessions API from Kota — 1 operation(s) for hostedsessions.
-  name: Kota hostedSessions API
-  slug: kota-hostedsessions-api
 - baseURL: https://api.kota.io
   baseurl_source: declared
   description: The plans API from Kota — 2 operation(s) for plans.
@@ -185,16 +135,6 @@ apis:
   description: The Policy Import Intents API from Kota — 2 operation(s) for policy import intents.
   name: Kota Policy Import Intents API
   slug: kota-policy-import-intents-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
-  description: The policyAmendmentIntents API from Kota — 5 operation(s) for policyamendmentintents.
-  name: Kota policyAmendmentIntents API
-  slug: kota-policyamendmentintents-api
-- baseURL: https://api.kota.io
-  baseurl_source: declared
-  description: The policyImportIntents API from Kota — 2 operation(s) for policyimportintents.
-  name: Kota policyImportIntents API
-  slug: kota-policyimportintents-api
 - baseURL: https://api.kota.io
   baseurl_source: declared
   description: The providers API from Kota — 2 operation(s) for providers.
@@ -225,7 +165,7 @@ apis:
   description: The Types of events V2 API from Kota — 0 operation(s) for types of events v2.
   name: Kota Types of events V2 API
   slug: kota-types-of-events-v2-api
-artifact_total: 109
+artifact_total: 97
 asyncapis:
 - description: ''
   name: Kota Webhooks
@@ -626,14 +566,14 @@ modified: '2026-07-19'
 name: Kota
 nav: Providers
 network: true
-overview: 'Kota publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Associated Persons API, associatedPersons API, Contribution Reports API, and 33 more. Tagged areas include Company, Fintech, Insurance, Employee Benefits, and Health Insurance.
+overview: 'Kota publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Associated Persons API, Contribution Reports API, Dependents Management Intents API, and 21 more. Tagged areas include Company, Fintech, Insurance, Employee Benefits, and Health Insurance.
 
 
   The Kota catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Kota''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 33 more developer resources.'
-random_paper: 11
+random_paper: 13
 score:
   band: strong
   composite: 58.1
@@ -648,7 +588,7 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 60.8
+    contract_quality: 60.5
     developer_ergonomics: 74.4
     discoverability: 75.9
     operational_transparency: 34.2
@@ -666,7 +606,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 36
+      total: 24
     mcp: first-party
     skills: derived
   regulatory:
@@ -680,7 +620,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

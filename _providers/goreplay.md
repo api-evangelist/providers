@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'GoReplay captures live HTTP traffic with libpcap and replays it against a test target, letting teams validate deploys, configuration changes and infrastructure changes against real production traffic '
@@ -144,7 +144,7 @@ plans:
 - name: Goreplay Plans Pricing
   plan_count: 2
   slug: goreplay-plans-pricing
-random_paper: 6
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Goreplay Rate Limits
@@ -172,7 +172,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

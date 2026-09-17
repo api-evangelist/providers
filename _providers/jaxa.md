@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,6 +88,10 @@ collections:
   name: G-Portal Web CSW WMS API
   slug: open-jaxa-wms-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://jaxa.jp
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/agentic-access/jaxa-agentic-access.yml
   title: ''
@@ -134,19 +138,19 @@ finops:
   slug: finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jaxa.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: JAXA
 nav: Providers
 network: true
 overview: 'JAXA publishes 3 APIs on the [APIs.io](https://apis.io/) network: CSW API, WCS API, and WMS API. Tagged areas include Space, Satellite, Earth Observation, Remote Sensing, and Geospatial.
 
 
-  JAXA''s developer surface includes developer portal, GitHub presence, and 7 more developer resources.'
+  JAXA''s developer surface includes developer portal, GitHub presence, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -191,7 +195,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -215,5 +219,5 @@ tags:
 - Precipitation
 - Greenhouse Gas
 - Japan
-website: https://earth.jaxa.jp/en/
+website: https://jaxa.jp
 ---

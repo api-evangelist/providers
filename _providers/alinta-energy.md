@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -74,22 +74,22 @@ apis:
 - baseURL: https://public.cdr.alintaenergy.com.au/cds-au/v1
   baseurl_source: declared
   description: Energy Account Balance endpoints
-  name: Alinta Energy Energy Account Balances API
+  name: Alinta Energy Account Balances API
   slug: alinta-energy-energy-account-balances-api
 - baseURL: https://public.cdr.alintaenergy.com.au/cds-au/v1
   baseurl_source: declared
   description: Energy Account Billing endpoints
-  name: Alinta Energy Energy Account Billing API
+  name: Alinta Energy Account Billing API
   slug: alinta-energy-energy-account-billing-api
 - baseURL: https://public.cdr.alintaenergy.com.au/cds-au/v1
   baseurl_source: declared
   description: Energy Account endpoints
-  name: Alinta Energy Energy Accounts API
+  name: Alinta Energy Accounts API
   slug: alinta-energy-energy-accounts-api
 - baseURL: https://public.cdr.alintaenergy.com.au/cds-au/v1
   baseurl_source: declared
   description: Energy Plan endpoints
-  name: Alinta Energy Energy Plans API
+  name: Alinta Energy Plans API
   slug: alinta-energy-energy-plans-api
 artifact_total: 16
 collections:
@@ -269,7 +269,7 @@ description: 'Alinta Energy is one of Australia''s largest integrated energy ret
   therefore honestly summarised as mandate-implemented but developer-closed: everything of substance sits behind ACCC accreditation and consumer consent, Alinta publishes no developer portal, no self-serve API, no proprietary OpenAPI and no open grid or market data of its own.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alinta-energy.png
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: Alinta Energy
 nav: Providers
 network: true
@@ -277,7 +277,7 @@ overview: 'Alinta Energy publishes 9 APIs on the [APIs.io](https://apis.io/) net
 
 
   Alinta Energy''s developer surface includes authentication, changelog, documentation, API reference, support, status page, and 30 more developer resources.'
-random_paper: 5
+random_paper: 8
 rate_limits:
 - limit_count: 7
   name: Alinta Energy Rate Limits
@@ -331,7 +331,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

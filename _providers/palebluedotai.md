@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: OpenAI-, Anthropic- and Gemini-compatible inference gateway. One API key and one base URL route requests across 131 listed models from 22 vendors, with cross-provider failover, prompt caching and per-
@@ -172,7 +172,7 @@ modified: '2026-08-26'
 name: PaleBlueDot.AI
 nav: Providers
 network: true
-overview: 'PaleBlueDot.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, Large Language Models, Inference, and API Gateway.
+overview: 'PaleBlueDot.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, LLM, Inference, and API Gateway.
 
 
   PaleBlueDot.AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 19 more developer resources.'
@@ -180,7 +180,7 @@ plans:
 - name: Palebluedotai Plans Pricing
   plan_count: 2
   slug: palebluedotai-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 10
   name: Palebluedotai Rate Limits
@@ -208,7 +208,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -232,7 +232,7 @@ slug: palebluedotai
 tags:
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Inference
 - API Gateway
 - GPU

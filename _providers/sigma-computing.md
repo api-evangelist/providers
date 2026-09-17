@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 45.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Sigma's first-party remote Model Context Protocol server. AI assistants such as Claude, ChatGPT, Codex, Cursor and Snowflake Cortex Code connect over HTTP with OAuth and can then search a Sigma organi
@@ -46,21 +46,6 @@ apis:
 - description: Secure embedding of Sigma workbooks, pages and individual elements into a host application. Embed URLs are signed with JSON Web Tokens carrying the viewing user's identity, team and user attributes so
   name: Sigma Embed API
   slug: sigma-embed-api
-- baseURL: https://api.sigmacomputing.com
-  baseurl_source: declared
-  description: The accountTypes API from Sigma Computing — 3 operation(s) for accounttypes.
-  name: Sigma Computing Account Types API
-  slug: sigma-computing-accounttypes-api
-- baseURL: https://api.sigmacomputing.com
-  baseurl_source: declared
-  description: The apiConnectors API from Sigma Computing — 2 operation(s) for apiconnectors.
-  name: Sigma Computing API Connectors API
-  slug: sigma-computing-apiconnectors-api
-- baseURL: https://api.sigmacomputing.com
-  baseurl_source: declared
-  description: The apiCredentials API from Sigma Computing — 2 operation(s) for apicredentials.
-  name: Sigma Computing API Credentials API
-  slug: sigma-computing-apicredentials-api
 - baseURL: https://api.sigmacomputing.com
   baseurl_source: declared
   description: The Auth API from Sigma Computing — 1 operation(s) for auth.
@@ -76,11 +61,6 @@ apis:
   description: The Credentials API from Sigma Computing — 2 operation(s) for credentials.
   name: Sigma Computing Credentials API
   slug: sigma-computing-credentials-api
-- baseURL: https://api.sigmacomputing.com
-  baseurl_source: declared
-  description: The dataModels API from Sigma Computing — 16 operation(s) for datamodels.
-  name: Sigma Computing Data Models API
-  slug: sigma-computing-datamodels-api
 - baseURL: https://api.sigmacomputing.com
   baseurl_source: declared
   description: The Datasets API from Sigma Computing — 7 operation(s) for datasets.
@@ -138,11 +118,6 @@ apis:
   slug: sigma-computing-saml-api
 - baseURL: https://api.sigmacomputing.com
   baseurl_source: declared
-  description: The sharedTemplates API from Sigma Computing — 3 operation(s) for sharedtemplates.
-  name: Sigma Computing Shared Templates API
-  slug: sigma-computing-sharedtemplates-api
-- baseURL: https://api.sigmacomputing.com
-  baseurl_source: declared
   description: The shortcuts API from Sigma Computing — 1 operation(s) for shortcuts.
   name: Sigma Computing Shortcuts API
   slug: sigma-computing-shortcuts-api
@@ -176,11 +151,6 @@ apis:
   description: The Translations API from Sigma Computing — 3 operation(s) for translations.
   name: Sigma Computing Translations API
   slug: sigma-computing-translations-api
-- baseURL: https://api.sigmacomputing.com
-  baseurl_source: declared
-  description: The userAttributes API from Sigma Computing — 8 operation(s) for userattributes.
-  name: Sigma Computing User Attributes API
-  slug: sigma-computing-userattributes-api
 - baseURL: https://api.sigmacomputing.com
   baseurl_source: declared
   description: The Webhooks API from Sigma Computing — 2 operation(s) for webhooks.
@@ -236,7 +206,17 @@ apis:
   description: The user-attributes API from Sigma Computing — 8 operation(s) for user-attributes.
   name: Sigma Computing User Attributes API
   slug: sigma-computing-user-attributes-api
-artifact_total: 49
+- baseURL: https://api.sigmacomputing.com/mcp
+  baseurl_source: declared
+  description: The Account Types API from Sigma Computing — 3 operation(s) for account types.
+  name: Sigma Computing Account Types API
+  slug: sigma-computing-account-types-api
+- baseURL: https://api.sigmacomputing.com/mcp
+  baseurl_source: declared
+  description: The Data models API from Sigma Computing — 19 operation(s) for data models.
+  name: Sigma Computing Data models API
+  slug: sigma-computing-data-models-api
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Sigma Computing Webhooks
@@ -471,7 +451,7 @@ modified: '2026-08-27'
 name: Sigma Computing
 nav: Providers
 network: true
-overview: 'Sigma Computing publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Account Types API, API Connectors API, API Credentials API, and 35 more. Tagged areas include Business Intelligence, Analytics, Embedded Analytics, Data Modeling, and Data Warehouse.
+overview: 'Sigma Computing publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Connections API, Credentials API, and 31 more. Tagged areas include Business Intelligence, Analytics, Embedded Analytics, Data Modeling, and Data Warehouse.
 
 
   The Sigma Computing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -482,7 +462,7 @@ plans:
 - name: Sigma Computing Plans Pricing
   plan_count: 0
   slug: sigma-computing-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Sigma Computing Rate Limits
@@ -506,7 +486,7 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 65.1
+    contract_quality: 65.2
     developer_ergonomics: 85.7
     discoverability: 75.9
     operational_transparency: 92.1
@@ -517,11 +497,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 38
+      total: 34
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

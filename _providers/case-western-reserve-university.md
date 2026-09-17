@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: CWRU's own Shibboleth Identity Provider, entityID urn:mace:incommon:case.edu. Every SingleSignOnService binding in the production descriptor is on CWRU's own registrable domain — https://login.case.ed
@@ -197,7 +197,7 @@ plans:
 - name: Case Western Reserve University Plans Pricing
   plan_count: 2
   slug: case-western-reserve-university-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Case Western Reserve University Rate Limits
@@ -237,7 +237,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

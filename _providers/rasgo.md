@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.rasgoml.com
@@ -146,7 +146,7 @@ overview: 'Rasgo publishes 1 API on the [APIs.io](https://apis.io/) network: Met
 
 
   Rasgo''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 12 more developer resources.'
-random_paper: 15
+random_paper: 12
 score:
   band: thin
   composite: 36.0
@@ -176,7 +176,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

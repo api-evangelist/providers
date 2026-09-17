@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -230,7 +230,7 @@ plans:
 - name: Tiendanube Plans Pricing
   plan_count: 5
   slug: tiendanube-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Tiendanube Rate Limits
@@ -267,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

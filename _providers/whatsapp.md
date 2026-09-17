@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -832,11 +832,11 @@ jsonld:
   property_count: 109
   slug: whatsapp-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: WhatsApp
 nav: Providers
 network: true
-overview: 'WhatsApp publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Flows API, On-Premises API, Analytics API, and 14 more.
+overview: 'WhatsApp publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Flows API, On-Premises API, Analytics API, and 14 more. Tagged areas include Messaging, Forms, Self-Hosted, and Analytics.
 
 
   The WhatsApp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -847,7 +847,7 @@ plans:
 - name: Whatsapp Plans Pricing
   plan_count: 2
   slug: whatsapp-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Whatsapp Rate Limits
@@ -914,11 +914,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -937,6 +934,11 @@ solutions:
   name: WhatsApp Business App
 - description: Interactive forms and workflows within WhatsApp conversations.
   name: WhatsApp Flows
+tags:
+- Messaging
+- Forms
+- Self-Hosted
+- Analytics
 use_cases:
 - description: Provide real-time customer service and support through WhatsApp messaging.
   name: Customer Support

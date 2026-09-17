@@ -24,7 +24,7 @@ name: GreenBytes
 nav: Providers
 network: true
 overview: GreenBytes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Virtualization, Data Deduplication, and VDI.
-random_paper: 9
+random_paper: 2
 slug: greenbytes
 tags:
 - Company

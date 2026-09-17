@@ -23,20 +23,120 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://open-gateway.3vjia.com
   baseurl_source: declared
-  description: 'The 3vjia (三维家) Open Platform API — 429 documented POST operations on open-gateway.3vjia.com covering account and single-sign-on management, design schemes, product and material libraries, quotation, '
-  name: 3vjia Open Platform API
-  slug: 3vjia-technology-open-platform-api
-artifact_total: 9
+  description: 3D秀
+  name: 3vjia Technology 3D Show API
+  slug: 3vjia-technology-3d-show-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 三维家AI
+  name: 3vjia Technology 3vjia AI API
+  slug: 3vjia-technology-3vjia-ai-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 账号模块
+  name: 3vjia Technology Accounts API
+  slug: 3vjia-technology-accounts-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: AIMES系统
+  name: 3vjia Technology AIMES API
+  slug: 3vjia-technology-aimes-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 资产管理
+  name: 3vjia Technology Asset Management API
+  slug: 3vjia-technology-asset-management-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 登录授权
+  name: 3vjia Technology Authorization API
+  slug: 3vjia-technology-authorization-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: CAD模块
+  name: 3vjia Technology CAD API
+  slug: 3vjia-technology-cad-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 创点系统
+  name: 3vjia Technology Chuangdian API
+  slug: 3vjia-technology-chuangdian-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 通用服务
+  name: 3vjia Technology Common Services API
+  slug: 3vjia-technology-common-services-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 专属服务
+  name: 3vjia Technology Dedicated Services API
+  slug: 3vjia-technology-dedicated-services-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 方案模块
+  name: 3vjia Technology Design Schemes API
+  slug: 3vjia-technology-design-schemes-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: DMS系统
+  name: 3vjia Technology DMS API
+  slug: 3vjia-technology-dms-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 梦想家
+  name: 3vjia Technology Dreamer API
+  slug: 3vjia-technology-dreamer-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 楼盘户型
+  name: 3vjia Technology Floor Plans API
+  slug: 3vjia-technology-floor-plans-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 轻设计
+  name: 3vjia Technology Light Design API
+  slug: 3vjia-technology-light-design-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: MOS系统
+  name: 3vjia Technology MOS API
+  slug: 3vjia-technology-mos-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 产品模块
+  name: 3vjia Technology Products API
+  slug: 3vjia-technology-products-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 报价模块
+  name: 3vjia Technology Quotation API
+  slug: 3vjia-technology-quotation-api
+- baseURL: https://open-gateway.3vjia.com
+  baseurl_source: declared
+  description: 玄尺AI
+  name: 3vjia Technology Xuanchi AI API
+  slug: 3vjia-technology-xuanchi-ai-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: 3Vjia Technology Webhooks
   slug: 3vjia-technology-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/overlays/3vjia-technology-open-platform-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/3vjia-technology-open-platform-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -138,18 +238,18 @@ modified: '2026-09-05'
 name: 3vjia Technology
 nav: Providers
 network: true
-overview: '3vjia Technology publishes 1 API on the [APIs.io](https://apis.io/) network: 3vjia Open Platform API. Tagged areas include Company, 3D Design, Home Furnishing, Interior Design, and Manufacturing.
+overview: '3vjia Technology publishes 19 APIs on the [APIs.io](https://apis.io/) network, including 3D Show API, 3vjia AI API, Accounts API, and 16 more. Tagged areas include Company, 3D Design, Home Furnishings, Interior Design, and Manufacturing.
 
 
   The 3vjia Technology catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  3vjia Technology''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 14 more developer resources.'
+  3vjia Technology''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: 3Vjia Technology Plans Pricing
   plan_count: 4
   slug: 3vjia-technology-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: 3Vjia Technology Rate Limits
@@ -173,7 +273,7 @@ score:
   facets:
     access_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 60.4
+    contract_quality: 60.6
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 23.7
@@ -191,11 +291,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 19
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -221,7 +321,7 @@ slug: 3vjia-technology
 tags:
 - Company
 - 3D Design
-- Home Furnishing
+- Home Furnishings
 - Interior Design
 - Manufacturing
 - Custom Furniture

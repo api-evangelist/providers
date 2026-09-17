@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ modified: '2026-05-23'
 name: Penn Medicine
 nav: Providers
 network: true
-overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Hospital, Academic Medical Center, FHIR, and SMART on FHIR.
+overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Hospitals, Academic Medical Center, FHIR, and SMART on FHIR.
 
 
   The Penn Medicine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -293,7 +293,7 @@ plans:
 - name: Penn Medicine Plans Pricing
   plan_count: 3
   slug: penn-medicine-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Penn Medicine Rate Limits
@@ -358,7 +358,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -386,7 +386,7 @@ solutions:
   name: Connected Mental Health (Cobalt)
 tags:
 - Healthcare
-- Hospital
+- Hospitals
 - Academic Medical Center
 - FHIR
 - SMART on FHIR

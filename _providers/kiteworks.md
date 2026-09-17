@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 5
@@ -53,11 +53,6 @@ apis:
   description: The admin API from Kiteworks — 19 operation(s) for admin.
   name: Kiteworks admin API
   slug: kiteworks-admin-api
-- baseURL: https://your.kiteworks.domain/rest
-  baseurl_source: declared
-  description: The adminRoles API from Kiteworks — 4 operation(s) for adminroles.
-  name: Kiteworks adminRoles API
-  slug: kiteworks-adminroles-api
 - baseURL: https://your.kiteworks.domain/rest
   baseurl_source: declared
   description: The advancedForms API from Kiteworks — 1 operation(s) for advancedforms.
@@ -200,19 +195,9 @@ apis:
   slug: kiteworks-sharedmailbox-api
 - baseURL: https://your.kiteworks.domain/rest
   baseurl_source: declared
-  description: The shortLinks API from Kiteworks — 1 operation(s) for shortlinks.
-  name: Kiteworks shortLinks API
-  slug: kiteworks-shortlinks-api
-- baseURL: https://your.kiteworks.domain/rest
-  baseurl_source: declared
   description: The sources API from Kiteworks — 15 operation(s) for sources.
   name: Kiteworks sources API
   slug: kiteworks-sources-api
-- baseURL: https://your.kiteworks.domain/rest
-  baseurl_source: declared
-  description: The sourceTypes API from Kiteworks — 2 operation(s) for sourcetypes.
-  name: Kiteworks sourceTypes API
-  slug: kiteworks-sourcetypes-api
 - baseURL: https://your.kiteworks.domain/rest
   baseurl_source: declared
   description: The system API from Kiteworks — 6 operation(s) for system.
@@ -248,6 +233,21 @@ apis:
   description: The webhook API from Kiteworks — 2 operation(s) for webhook.
   name: Kiteworks webhook API
   slug: kiteworks-webhook-api
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The Admin Roles API from Kiteworks — 4 operation(s) for admin roles.
+  name: Kiteworks Admin Roles API
+  slug: kiteworks-admin-roles-api
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The Short Links API from Kiteworks — 1 operation(s) for short links.
+  name: Kiteworks Short Links API
+  slug: kiteworks-short-links-api
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The Source Types API from Kiteworks — 2 operation(s) for source types.
+  name: Kiteworks Source Types API
+  slug: kiteworks-source-types-api
 artifact_total: 92
 asyncapis:
 - description: ''
@@ -563,14 +563,14 @@ modified: '2026-07-19'
 name: Kiteworks
 nav: Providers
 network: true
-overview: 'Kiteworks publishes 41 APIs on the [APIs.io](https://apis.io/) network, including activities API, admin API, adminRoles API, and 38 more. Tagged areas include Company, Secure File Sharing, Managed File Transfer, Secure Email, and Data Governance.
+overview: 'Kiteworks publishes 41 APIs on the [APIs.io](https://apis.io/) network, including activities API, admin API, advancedForms API, and 38 more. Tagged areas include Company, Secure File Sharing, Managed File Transfer, Secure Email, and Data Governance.
 
 
   The Kiteworks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Kiteworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Kiteworks Rate Limits
@@ -582,7 +582,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.6
+  composite: 58.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -590,11 +590,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 58.2
+    contract_quality: 60.9
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 57.9
@@ -610,7 +610,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

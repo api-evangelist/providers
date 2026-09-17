@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Read-only REST API serving over 450 ketogenic diet recipes across 11 categories (drinks, smoothies, keto staples and dips, desserts, soups, fish, beef, appetizers, snacks and breakfast) with nutrition
@@ -176,7 +176,7 @@ plans:
 - name: Encurate Plans Pricing
   plan_count: 0
   slug: encurate-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 15
   name: Encurate Rate Limits
@@ -210,7 +210,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

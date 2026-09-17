@@ -24,7 +24,7 @@ name: Kinecta
 nav: Providers
 network: true
 overview: Kinecta is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Content Distribution, Software Infrastructure, Venture Backed, and Defunct.
-random_paper: 0
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinecta/refs/heads/main/screenshots/kinecta-2026-07-25T223812.png
 slug: kinecta
 tags:

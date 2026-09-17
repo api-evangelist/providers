@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -95,11 +95,6 @@ apis:
   slug: receeve-journey-api
 - baseURL: https://api.receive-demo.com
   baseurl_source: declared
-  description: The Landing Page of the Debtor, used to display, pay the Claims (or other use cases).
-  name: Receeve LandingPage API
-  slug: receeve-landingpage-api
-- baseURL: https://api.receive-demo.com
-  baseurl_source: declared
   description: Communication message in .eml format that was sent to Debtor.
   name: Receeve Message API
   slug: receeve-message-api
@@ -113,6 +108,11 @@ apis:
   description: The Security API from Receeve — 1 operation(s) for security.
   name: Receeve Security API
   slug: receeve-security-api
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The Landing Page of the Debtor, used to display, pay the Claims (or other use cases).
+  name: Receeve Landing Page API
+  slug: receeve-landing-page-api
 artifact_total: 33
 asyncapis:
 - description: Signed outbound webhook event catalog for InDebted's Receive (formerly Receeve) debt servicing platform. Every event is delivered as an HTTP POST with a common envelope and an RSA/SHA-256 signature (b
@@ -165,6 +165,10 @@ collections:
   name: InDebted Receive API Documentation Account Security API
   slug: open-receeve-security-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://receeve.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/capabilities/receeve-capability-edges.yml
   title: ''
@@ -279,7 +283,7 @@ created: '2026-07-17'
 description: 'Receeve is a no-code debt collection and receivables management SaaS platform, founded in Hamburg, Germany and backed by Speedinvest. It was acquired by InDebted and now operates as the "Receive" product — a debt servicing platform that lets creditors, banks, lenders, utilities and collection agencies automate the full collections lifecycle: importing accounts and claims, running configurable dunning strategies and journeys, sending multi-channel communications (email, SMS, letters, calls), generating hosted debtor landing pages, and reconciling payments, promises-to-pay, instalment plans and settlements. The Receive Client API is an OpenAPI 3.0 REST API secured with OAuth2 client-credentials (Bearer tokens) and emits an extensive catalog of signed webhooks for account, claim, communication, finance, landing-page and strategy events.'
 image: https://www.indebted.co/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Receeve
 nav: Providers
 network: true
@@ -289,8 +293,8 @@ overview: 'Receeve publishes 14 APIs on the [APIs.io](https://apis.io/) network,
   The Receeve catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Receeve''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 18 more developer resources.'
-random_paper: 0
+  Receeve''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 19 more developer resources.'
+random_paper: 9
 score:
   band: thin
   composite: 35.3
@@ -327,7 +331,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -354,5 +358,5 @@ tags:
 - Webhook
 - Financial-Services
 - Dunning
-website: https://api.receeve.com/
+website: https://receeve.com
 ---

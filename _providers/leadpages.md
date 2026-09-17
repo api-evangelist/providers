@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: RESTful API covering the full Leadpages platform across eight documented endpoint categories — Pages, Sites, Assets, Blogs, Analytics, Forms, Domains and Brand Kits — with JSON responses and bearer-to
@@ -187,6 +187,10 @@ common:
   title: ''
   type: Webhooks
   url: asyncapi/leadpages-webhooks.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:press@leadpages.com
 created: '2026-08-12'
 description: Leadpages is an AI web platform with built-in conversion optimization, part of the Redbrick family of brands. It builds and hosts landing pages, multi-page sites and blogs that improve themselves through A/B testing, Smart Traffic variant routing, click and scroll heatmaps, dynamic text replacement and auto-personalization, with no traffic caps on any plan. For developers and agents it publishes a REST API covering pages, sites, assets, blogs, analytics, forms, custom domains and brand kits; a hosted Model Context Protocol server exposing 47 tools over OAuth 2.0 with PKCE; webhooks for page-publish, lead-capture and form-submission events; and an A2A agent card describing a nine-agent campaign team. Founded 2012 and rebuilt from scratch in 2026.
 image: https://leadpages.com/og-image.png
@@ -205,7 +209,7 @@ overview: 'Leadpages publishes 3 APIs on the [APIs.io](https://apis.io/) network
   The Leadpages catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Leadpages'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 22 more developer resources.'
+  Leadpages'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 23 more developer resources.'
 plans:
 - name: Leadpages Plans Pricing
   plan_count: 6
@@ -243,7 +247,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

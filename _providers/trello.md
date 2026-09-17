@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -73,11 +73,6 @@ apis:
   description: Operations for creating, retrieving, updating, and deleting checklists and their check items on cards.
   name: trello Checklists API
   slug: trello-checklists-api
-- baseURL: https://api.trello.com
-  baseurl_source: declared
-  description: Operations for creating, retrieving, updating, and deleting custom field definitions and their values on boards and cards.
-  name: trello CustomFields API
-  slug: trello-customfields-api
 - baseURL: https://api.trello.com
   baseurl_source: declared
   description: Operations for creating, retrieving, updating, and deleting labels on boards and cards.
@@ -123,6 +118,11 @@ apis:
   description: Operations for creating, retrieving, updating, and deleting webhooks that deliver real-time notifications when Trello models change.
   name: trello Webhooks API
   slug: trello-webhooks-api
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting custom field definitions and their values on boards and cards.
+  name: Trello Custom Fields API
+  slug: trello-custom-fields-api
 artifact_total: 67
 asyncapis:
 - description: The Trello Webhooks API delivers real-time notifications when changes occur on Trello models such as boards, lists, cards, and members. Rather than polling the REST API for updates, webhooks push even
@@ -316,7 +316,7 @@ plans:
 - name: Trello Plans Pricing
   plan_count: 4
   slug: trello-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Trello Rate Limits
@@ -384,7 +384,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://scopewise.youworkagent.online/api/v1
@@ -89,7 +89,7 @@ name: YouWork Agent
 nav: Providers
 network: true
 overview: 'YouWork Agent publishes 2 APIs on the [APIs.io](https://apis.io/) network: Overdue Invoice Follow Up API and Project Quote API. Tagged areas include Freelance, Project Pricing, INR, Business, and Deterministic API.'
-random_paper: 4
+random_paper: 7
 score:
   band: thin
   composite: 27.3
@@ -116,7 +116,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

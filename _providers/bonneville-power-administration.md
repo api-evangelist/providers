@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Bonneville Power Administration Agentic Access
-  operation_count: 8
+  operation_count: 25
   slug: bonneville-power-administration-agentic-access
-  summary_line: 8 operations
+  summary_line: 25 operations
 api_count: 2
 apis:
 - description: The BPA GIS Data Hub provides publicly available geospatial data from Bonneville Power Administration. The hub is built on ArcGIS and supports data downloads in multiple formats including CSV, KML, Ge
@@ -74,12 +74,47 @@ apis:
   description: The Transmission API from Bonneville Power Administration — 2 operation(s) for transmission.
   name: Bonneville Power Administration Transmission API
   slug: bonneville-power-administration-transmission-api
-- baseURL: https://data-bpagis.hub.arcgis.com
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
   baseurl_source: declared
-  description: BPA's ArcGIS Hub site publishes a real OGC API Records catalog search over the agency's open geospatial data — 17 operations across collections, items, queryables, related and connected records, aggre
-  name: Bonneville Power Administration Data Search API
-  slug: bonneville-power-administration-data-search-api
-artifact_total: 27
+  description: The Catalog API from Bonneville Power Administration — 1 operation(s) for catalog.
+  name: Bonneville Power Administration Catalog API
+  slug: bonneville-power-administration-catalog-api
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: declared
+  description: The Collection API from Bonneville Power Administration — 2 operation(s) for collection.
+  name: Bonneville Power Administration Collection API
+  slug: bonneville-power-administration-collection-api
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: declared
+  description: The Geoservice-Beta API from Bonneville Power Administration — 6 operation(s) for geoservice-beta.
+  name: Bonneville Power Administration Geoservice Beta API
+  slug: bonneville-power-administration-geoservice-beta-api
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: declared
+  description: The OgcItem API from Bonneville Power Administration — 4 operation(s) for ogcitem.
+  name: Bonneville Power Administration Ogc Item API
+  slug: bonneville-power-administration-ogcitem-api
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: declared
+  description: The OgcItemAggregation API from Bonneville Power Administration — 1 operation(s) for ogcitemaggregation.
+  name: Bonneville Power Administration Ogc Item Aggregation API
+  slug: bonneville-power-administration-ogcitemaggregation-api
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: declared
+  description: The OgcRoot API from Bonneville Power Administration — 1 operation(s) for ogcroot.
+  name: Bonneville Power Administration Ogc Root API
+  slug: bonneville-power-administration-ogcroot-api
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: declared
+  description: The OgcRootConformance API from Bonneville Power Administration — 1 operation(s) for ogcrootconformance.
+  name: Bonneville Power Administration Ogc Root Conformance API
+  slug: bonneville-power-administration-ogcrootconformance-api
+- baseURL: https://services3.arcgis.com/Iz3chmSt4P7oOoZy/arcgis/rest
+  baseurl_source: declared
+  description: The Queryable API from Bonneville Power Administration — 1 operation(s) for queryable.
+  name: Bonneville Power Administration Queryable API
+  slug: bonneville-power-administration-queryable-api
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -103,6 +138,11 @@ collections:
   name: Bonneville Power Administration GIS Hub API
   slug: open-bonneville-power-administration
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/overlays/bonneville-power-administration-data-search-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bonneville-power-administration-data-search-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/agentic-access/bonneville-power-administration-agentic-access.yml
   title: ''
@@ -271,22 +311,22 @@ modified: '2026-09-06'
 name: Bonneville Power Administration
 nav: Providers
 network: true
-overview: 'Bonneville Power Administration publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Hydrology API, Right of Way API, and 3 more. Tagged areas include Energy, Federal-Government, GIS, Hydroelectric, and Pacific Northwest.
+overview: 'Bonneville Power Administration publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Hydrology API, Right of Way API, and 10 more. Tagged areas include Energy, Federal-Government, GIS, Hydroelectric, and Pacific Northwest.
 
 
-  Bonneville Power Administration''s developer surface includes engineering blog, authentication, documentation, API reference, support, and 25 more developer resources.'
+  Bonneville Power Administration''s developer surface includes engineering blog, authentication, documentation, API reference, support, and 26 more developer resources.'
 plans:
 - name: Bonneville Power Administration Plans Pricing
   plan_count: 0
   slug: bonneville-power-administration-plans-pricing
-random_paper: 14
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Bonneville Power Administration Rate Limits
   slug: bonneville-power-administration-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 40.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 48.0
@@ -294,11 +334,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 18.4
     contract_governance: 18.2
-    contract_quality: 47.1
+    contract_quality: 45.3
     developer_ergonomics: 37.5
     discoverability: 68.5
     operational_transparency: 31.6
@@ -307,10 +347,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 38.5
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -320,7 +360,7 @@ score:
     regime_id: energy_utilities
     score: 54.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

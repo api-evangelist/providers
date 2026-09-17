@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 7
@@ -46,11 +46,6 @@ agentic_access:
   summary_line: 46 operations · 25 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://secure.culqi.com/v2
-  baseurl_source: declared
-  description: 3-D Secure charge confirmation on the secure host.
-  name: Culqi 3DS API
-  slug: culqi-3ds-api
 - baseURL: https://secure.culqi.com/v2
   baseurl_source: declared
   description: Cards saved against a customer for recurring or one-click charges.
@@ -106,6 +101,11 @@ apis:
   description: Settlement transfers (abonos) paid out to the merchant.
   name: Culqi Transfers API
   slug: culqi-transfers-api
+- baseURL: https://secure.culqi.com/v2
+  baseurl_source: declared
+  description: 3-D Secure charge confirmation on the secure host.
+  name: Culqi 3 DS API
+  slug: culqi-3-ds-api
 artifact_total: 46
 asyncapis:
 - description: ''
@@ -395,7 +395,7 @@ modified: '2026-07-17'
 name: Culqi
 nav: Providers
 network: true
-overview: 'Culqi publishes 12 APIs on the [APIs.io](https://apis.io/) network, including 3DS API, Cards API, Charges API, and 9 more. Tagged areas include Payments, Payment Gateway, Fintech, Peru, and LatAm.
+overview: 'Culqi publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Cards API, Charges API, Customers API, and 9 more. Tagged areas include Payments, Payment Gateway, Fintech, Peru, and Latin America.
 
 
   The Culqi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -406,7 +406,7 @@ plans:
 - name: Culqi Plans Pricing
   plan_count: 5
   slug: culqi-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Culqi Rate Limits
@@ -452,7 +452,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -481,7 +481,7 @@ tags:
 - Payment Gateway
 - Fintech
 - Peru
-- LatAm
+- Latin America
 - Cards
 - Yape
 website: https://culqi.com/

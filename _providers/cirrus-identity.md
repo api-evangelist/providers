@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -193,15 +193,15 @@ created: '2026-07-17'
 description: Cirrus Identity provides managed identity and access management for higher education, connecting modern identity providers, federations, and legacy systems to standardize authentication across campus environments without replacing existing infrastructure. Its products include Cirrus Bridge (multilateral SAML & CAS for Entra ID, Okta, and Duo SSO), External User Sign-In, Trusted Federation & Affiliates Sign-In, a Slate applicant sign-in extension, and an Admin Console with event logs. Cirrus also publishes a REST Log API for programmatically retrieving authentication and service event logs, and maintains a suite of open-source SimpleSAMLphp modules on GitHub and Packagist.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cirrus-identity.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Cirrus Identity
 nav: Providers
 network: true
-overview: 'Cirrus Identity publishes 1 API on the [APIs.io](https://apis.io/) network: endpoints API. Tagged areas include Company, Identity, Authentication, Single Sign-On, and SAML.
+overview: 'Cirrus Identity publishes 1 API on the [APIs.io](https://apis.io/) network: endpoints API. Tagged areas include Company, Identity, Authentication, SSO, and SAML.
 
 
   Cirrus Identity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
-random_paper: 8
+random_paper: 21
 score:
   band: developing
   composite: 49.5
@@ -238,7 +238,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -267,12 +267,13 @@ tags:
 - Company
 - Identity
 - Authentication
-- Single Sign-On
+- SSO
 - SAML
 - OIDC
 - Higher Education
 - Identity Management
 - Federation
 - Logs
+- Identity Federation
 website: https://cirrusidentity.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ apis:
 - baseURL: https://kubernetes.default.svc
   baseurl_source: spec
   description: The Services API from Scalable Services — 2 operation(s) for services.
-  name: Scalable Services Services API
+  name: Scalable Services API
   slug: scalable-services-services-api
 artifact_total: 36
 collections:
@@ -223,7 +223,7 @@ jsonld:
   property_count: 0
   slug: scalable-services-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-09-16'
 name: Scalable Services
 nav: Providers
 network: true
@@ -238,7 +238,7 @@ plans:
 - name: Scalable Services Plans Pricing
   plan_count: 3
   slug: scalable-services-plans-pricing
-random_paper: 14
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Scalable Services Rate Limits
@@ -281,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

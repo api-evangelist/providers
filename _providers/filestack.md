@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.filestack.com
@@ -68,7 +68,7 @@ name: Filestack
 nav: Providers
 network: true
 overview: 'Filestack publishes 1 API on the [APIs.io](https://apis.io/) network: Filestack. Tagged areas include Cloud Storage And File Sharing and Public APIs.'
-random_paper: 5
+random_paper: 4
 score:
   band: emerging
   composite: 20.9
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

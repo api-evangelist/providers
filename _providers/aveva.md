@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The AVEVA CONNECT cloud platform REST APIs provide access to industrial data services including account management, identity management, data ingress pipelines, data views, and time-series retrieval. '
@@ -118,7 +118,7 @@ overview: 'AVEVA publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   AVEVA''s developer surface includes documentation, engineering blog, YouTube channel, support, pricing, and 7 more developer resources.'
-random_paper: 6
+random_paper: 3
 score:
   band: thin
   composite: 28.7
@@ -145,7 +145,7 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

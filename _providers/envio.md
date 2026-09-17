@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Auto-generated GraphQL API exposing indexed smart contract events from any EVM-compatible chain. HyperIndex processes on-chain events into queryable databases, supports multichain indexing from a sing
@@ -131,7 +131,7 @@ plans:
 - name: Envio Plans Pricing
   plan_count: 5
   slug: envio-plans-pricing
-random_paper: 20
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Envio Rate Limits
@@ -158,7 +158,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.9
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://urresearch.rochester.edu/oai2
-  baseurl_source: declared
-  description: 'OAI-PMH 2.0 metadata harvesting interface for UR Research, the University of Rochester''s legacy institutional repository, served from the university''s own domain and running IR+ — repository software '
-  name: UR Research OAI-PMH Interface
-  slug: urresearch-oai-pmh
 - description: SAML 2.0 / Shibboleth identity provider metadata for the University of Rochester, published machine-readably at its own entityID. The EntityDescriptor carries an IDPSSODescriptor supporting SAML 1.1 a
   name: University of Rochester Shibboleth Identity Provider
   slug: shibboleth-idp
@@ -50,6 +45,11 @@ apis:
 - description: River Campus Libraries discovery runs on Ex Libris Primo VE under the institution-specific view identifier 01ROCH_INST:UR01, hosted at rochester.primo.exlibrisgroup.com. The catalogue and its holdings
   name: University of Rochester Library Discovery — Ex Libris Primo VE tenancy
   slug: primo-discovery-tenancy
+- baseURL: https://urresearch.rochester.edu/oai2
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata harvesting verbs
+  name: University of Rochester Oai Pmh API
+  slug: university-of-rochester-oai-pmh-api
 artifact_total: 8
 common:
 - group: commercial
@@ -167,7 +167,7 @@ modified: '2026-08-30'
 name: University of Rochester
 nav: Providers
 network: true
-overview: 'University of Rochester publishes 1 API on the [APIs.io](https://apis.io/) network: UR Research OAI-PMH Interface. Tagged areas include University, Higher Education, Education, United States, and New York.
+overview: 'University of Rochester publishes 1 API on the [APIs.io](https://apis.io/) network: Oai Pmh API. Tagged areas include University, Higher Education, Education, United States, and New York.
 
 
   University of Rochester''s developer surface includes GitHub presence, support, engineering blog, and 21 more developer resources.'
@@ -175,7 +175,7 @@ plans:
 - name: University Of Rochester Plans Pricing
   plan_count: 2
   slug: university-of-rochester-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: University Of Rochester Rate Limits
@@ -220,7 +220,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

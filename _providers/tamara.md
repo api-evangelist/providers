@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 17
+- acting_count: 6
   human_in_the_loop: 0
   name: Tamara Agentic Access
-  operation_count: 23
+  operation_count: 9
   slug: tamara-agentic-access
-  summary_line: 23 operations · 17 acting
+  summary_line: 9 operations · 6 acting
 api_count: 3
 apis:
 - baseURL: https://api.tamara.co
@@ -443,7 +443,7 @@ plans:
 - name: Tamara Plans Pricing
   plan_count: 2
   slug: tamara-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Tamara Rate Limits
@@ -510,7 +510,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -534,7 +534,7 @@ tags:
 - Shariah Compliant
 - MENA
 - Saudi Arabia
-- UAE
+- United Arab Emirates
 - Installments
 - Pay Later
 - Merchant Services

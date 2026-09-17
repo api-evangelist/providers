@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,11 +105,11 @@ modified: '2026-07-19'
 name: Extensity
 nav: Providers
 network: true
-overview: 'Extensity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Neuro-Symbolic AI, Large Language Models, and Knowledge Graphs.
+overview: 'Extensity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Neuro-Symbolic AI, LLM, and Knowledge Graph.
 
 
   Extensity''s developer surface includes documentation, support, and 11 more developer resources.'
-random_paper: 18
+random_paper: 15
 score:
   band: emerging
   composite: 13.7
@@ -135,7 +135,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -152,8 +152,8 @@ tags:
 - Company
 - Artificial Intelligence
 - Neuro-Symbolic AI
-- Large Language Models
-- Knowledge Graphs
+- LLM
+- Knowledge Graph
 - Developer Tools
 - Open-Source
 - Python

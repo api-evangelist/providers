@@ -25,7 +25,7 @@ name: Kippt
 nav: Providers
 network: true
 overview: Kippt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bookmarking, Bookmarks, Social, and Links.
-random_paper: 6
+random_paper: 2
 slug: kippt
 tags:
 - Company

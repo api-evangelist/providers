@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Willow's storefront agent surface — a JSON-RPC 2.0 Model Context Protocol endpoint implementing the Universal Commerce Protocol 2026-08-25 shopping service. tools/list answers unauthenticated and retu
@@ -158,7 +158,7 @@ plans:
 - name: Willow Plans Pricing
   plan_count: 0
   slug: willow-plans-pricing
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Willow Rate Limits
@@ -198,7 +198,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -223,7 +223,7 @@ tags:
 - E-Commerce
 - Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 - agent-native
 - Shopify
 website: https://onewillow.com/

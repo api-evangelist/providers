@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -208,7 +208,7 @@ modified: '2026-07-03'
 name: Booqable
 nav: Providers
 network: true
-overview: 'Booqable publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Bundles & Collections API, Customers API, and 8 more. Tagged areas include Rental Management, Inventory, Equipment Rental, Bookings, and Order.
+overview: 'Booqable publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Bundles & Collections API, Customers API, and 8 more. Tagged areas include Rental Management, Inventory, Equipment Rental, Booking, and Order.
 
 
   Booqable''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -216,7 +216,7 @@ plans:
 - name: Booqable Plans Pricing
   plan_count: 4
   slug: booqable-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Booqable Rate Limits
@@ -248,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -272,7 +272,7 @@ tags:
 - Rental Management
 - Inventory
 - Equipment Rental
-- Bookings
+- Booking
 - Order
 - E-Commerce
 - JSON:API

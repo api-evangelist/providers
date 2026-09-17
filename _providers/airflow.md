@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -75,11 +75,6 @@ apis:
   description: The DAG Parsing API from Apache Airflow — 1 operation(s) for dag parsing.
   name: Apache Airflow DAG Parsing API
   slug: airflow-dag-parsing-api
-- baseURL: http://localhost:8080/api/v2
-  baseurl_source: declared
-  description: The DagRun API from Apache Airflow — 6 operation(s) for dagrun.
-  name: Apache Airflow DagRun API
-  slug: airflow-dagrun-api
 - baseURL: http://localhost:8080/api/v2
   baseurl_source: declared
   description: The DagSource API from Apache Airflow — 1 operation(s) for dagsource.
@@ -175,6 +170,11 @@ apis:
   description: The XCom API from Apache Airflow — 2 operation(s) for xcom.
   name: Apache Airflow XCom API
   slug: airflow-xcom-api
+- baseURL: http://localhost:8080/api/v2
+  baseurl_source: declared
+  description: The DAG Run API from Apache Airflow — 6 operation(s) for dag run.
+  name: Apache Airflow DAG Run API
+  slug: airflow-dag-run-api
 artifact_total: 502
 collections:
 - collection_type: open
@@ -1648,7 +1648,7 @@ plans:
 - name: Airflow Plans Pricing
   plan_count: 3
   slug: airflow-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Airflow Rate Limits
@@ -1707,7 +1707,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

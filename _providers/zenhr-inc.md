@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://app.zenhr.com/api/v3
@@ -308,11 +308,6 @@ apis:
   slug: zenhr-inc-timeoff-transaction-api
 - baseURL: https://app.zenhr.com/api/v3
   baseurl_source: declared
-  description: The Timeoffs API from ZenHR Inc — 2 operation(s) for timeoffs.
-  name: ZenHR Inc Timeoffs API
-  slug: zenhr-inc-timeoffs-api
-- baseURL: https://app.zenhr.com/api/v3
-  baseurl_source: declared
   description: The Users API from ZenHR Inc — 1 operation(s) for users.
   name: ZenHR Inc Users API
   slug: zenhr-inc-users-api
@@ -326,6 +321,11 @@ apis:
   description: The Work Shifts API from ZenHR Inc — 2 operation(s) for work shifts.
   name: ZenHR Inc Work Shifts API
   slug: zenhr-inc-work-shifts-api
+- baseURL: https://app.zenhr.com/api/v3
+  baseurl_source: declared
+  description: The Time Offs API from ZenHR Inc — 2 operation(s) for time offs.
+  name: ZenHR Inc Time Offs API
+  slug: zenhr-inc-time-offs-api
 artifact_total: 123
 collections:
 - collection_type: open
@@ -658,11 +658,11 @@ modified: '2026-07-21'
 name: ZenHR Inc
 nav: Providers
 network: true
-overview: 'ZenHR Inc publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Approvals API, Attendance Details API, Bank Account API, and 55 more. Tagged areas include Company, Human Resources, HR, Payroll, and HRMS.
+overview: 'ZenHR Inc publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Approvals API, Attendance Details API, Bank Account API, and 55 more. Tagged areas include Company, Human Resources, Payroll, HRMS, and Employee Management.
 
 
   ZenHR Inc''s developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
-random_paper: 7
+random_paper: 8
 scopes:
 - name: Zenhr Inc Scopes
   scope_count: 9
@@ -670,7 +670,7 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.3
+  composite: 36.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -678,11 +678,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 13.3
+    contract_quality: 12.6
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 26.3
@@ -697,7 +697,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -724,7 +724,6 @@ slug: zenhr-inc
 tags:
 - Company
 - Human Resources
-- HR
 - Payroll
 - HRMS
 - Employee Management

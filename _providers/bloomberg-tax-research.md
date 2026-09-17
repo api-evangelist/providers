@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Programmatic access to Bloomberg Tax research content including tax portfolios, practitioner analysis, primary sources, and tax news for integration into legal research and tax technology platforms.
@@ -44,6 +44,10 @@ apis:
   slug: salt-research
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloombergtax.com
 - group: other
   title: ''
   type: ParentCompany
@@ -94,19 +98,19 @@ finops:
   slug: bloomberg-tax-research-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-tax-research.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Tax Research
 nav: Providers
 network: true
 overview: 'Bloomberg Tax Research publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Research, Federal Tax, State Tax, International Tax, and Tax Analysis.
 
 
-  Bloomberg Tax Research''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Tax Research''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Tax Research Plans Pricing
   plan_count: 3
   slug: bloomberg-tax-research-plans-pricing
-random_paper: 16
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tax Research Rate Limits
@@ -137,7 +141,7 @@ score:
     regime_id: government
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -166,5 +170,5 @@ use_cases:
   name: International Tax Planning
 - description: Research estate, gift, and generation-skipping transfer tax issues.
   name: Estate Planning
-website: https://pro.bloombergtax.com/
+website: https://bloombergtax.com
 ---

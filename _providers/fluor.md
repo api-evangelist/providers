@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -123,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: Fluor Selected for Expansion of Large-Scale Biologics ...
   url: https://www.sttinfo.fi/tiedote/69952904/fluor-selected-for-expansion-of-large-scale-biologics-manufacturing-facility-in-scandinavia?publisherId=58763726
-random_paper: 6
+random_paper: 2
 score:
   band: emerging
   composite: 13.1
@@ -150,7 +150,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

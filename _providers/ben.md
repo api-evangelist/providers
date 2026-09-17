@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,11 +101,11 @@ modified: '2026-07-18'
 name: Ben
 nav: Providers
 network: true
-overview: 'Ben is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Benefits, Human Resources, HR Tech, and Rewards and Recognition.
+overview: 'Ben is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Benefits, Human Resources, Rewards and Recognition, and Global Benefits.
 
 
   Ben''s developer surface includes support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: emerging
   composite: 16.0
@@ -126,7 +126,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 16.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -151,7 +151,6 @@ tags:
 - Company
 - Employee Benefits
 - Human Resources
-- HR Tech
 - Rewards and Recognition
 - Global Benefits
 - Employee Experience

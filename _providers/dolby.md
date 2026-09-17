@@ -34,48 +34,238 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-09-15'
-api_count: 7
+  scored_at: '2026-09-16'
+api_count: 13
 apis:
 - description: 'Cross-platform video playback (formerly THEOplayer) for web, Android/Fire TV, iOS/tvOS, Roku, React Native and Flutter, with DRM, ad and analytics connectors. A client-side SDK surface: there is no pu'
   name: Dolby OptiView Player
   slug: optiview-player
 - baseURL: https://api.theo.live/v2
   baseurl_source: declared
-  description: 'THEOlive API v2 - live streaming channel orchestration: channels, ingests, engines, distributions, ABR ladders, schedulers, custom endpoints, webhooks and per-channel analytics. 57 paths / 82 operatio'
-  name: Dolby OptiView Live
-  slug: optiview-live
-- baseURL: https://api.millicast.com
+  description: The ABR Ladders API from Dolby — 1 operation(s) for abr ladders.
+  name: Dolby ABR Ladders API
+  slug: dolby-abr-ladders-api
+- baseURL: https://api.theo.live/v2
   baseurl_source: declared
-  description: 'Millicast API - sub-second WebRTC streaming at scale: publish/subscribe tokens, streams, transcoders, media assets and distributions, recordings, clipping, geo rules, webhooks and analytics. 98 paths '
-  name: Dolby OptiView Real-time Streaming (Millicast)
-  slug: real-time-millicast
-- baseURL: https://director.millicast.com
+  description: The Account API from Dolby — 9 operation(s) for account.
+  name: Dolby Account API
+  slug: dolby-account-api
+- baseURL: https://api.theo.live/v2
   baseurl_source: declared
-  description: Millicast Director API - the WebRTC/WHIP/WHEP signalling entry point clients call to obtain publish and subscribe endpoints, plus the DRM proxy and multi-track video configuration. 7 paths / 7 operati
-  name: Dolby OptiView Director API (Millicast)
-  slug: millicast-director
-- baseURL: https://analyticsapi.millicast.com
+  description: The Ad Engine API from Dolby — 7 operation(s) for ad engine.
+  name: Dolby Ad Engine API
+  slug: dolby-ad-engine-api
+- baseURL: https://api.theo.live/v2
   baseurl_source: declared
-  description: Millicast Advanced Analytics API - viewer records for real-time streams, with a v1 and a v2 records endpoint. 2 paths / 2 operations, authenticated with the account API secret.
-  name: Dolby OptiView Advanced Analytics API (Millicast)
-  slug: millicast-analytics
-- baseURL: https://us.ads.optiview.dolby.com
+  description: Viewer connection analytics records
+  name: Dolby Analytics API
+  slug: dolby-analytics-api
+- baseURL: https://api.theo.live/v2
   baseurl_source: declared
-  description: 'OptiView Ads API (THEOads) - server-guided ad insertion: channels, ad breaks, events, marker rules, SCTE marker detection, origins, templates and organization integrations. 28 paths / 55 operations un'
-  name: Dolby OptiView Ads
-  slug: optiview-ads
-- baseURL: https://api.galaxy.dolbyrasp.com
+  description: Viewer connection analytics records, including reconnection history
+  name: Dolby Analytics V2 API
+  slug: dolby-analytics-v2-api
+- baseURL: https://api.theo.live/v2
   baseurl_source: declared
-  description: 'Just-in-time serverless ad conformance service that transcodes an ad from its master format into a streaming format matching the primary content stream. 9 paths / 12 operations, authenticated with an '
-  name: Dolby OptiView Ad Engine
-  slug: optiview-ad-engine
-artifact_total: 15
+  description: The Beta API from Dolby — 10 operation(s) for beta.
+  name: Dolby Beta API
+  slug: dolby-beta-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Channels API from Dolby — 44 operation(s) for channels.
+  name: Dolby Channels API
+  slug: dolby-channels-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Cloud Preview API from Dolby — 5 operation(s) for cloud preview.
+  name: Dolby Cloud Preview API
+  slug: dolby-cloud-preview-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Cluster API from Dolby — 1 operation(s) for cluster.
+  name: Dolby Cluster API
+  slug: dolby-cluster-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Custom Endpoints API from Dolby — 2 operation(s) for custom endpoints.
+  name: Dolby Custom Endpoints API
+  slug: dolby-custom-endpoints-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Director API from Dolby — 2 operation(s) for director.
+  name: Dolby Director API
+  slug: dolby-director-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Distributions API from Dolby — 13 operation(s) for distributions.
+  name: Dolby Distributions API
+  slug: dolby-distributions-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The DrmLicence API from Dolby — 2 operation(s) for drmlicence.
+  name: Dolby Drm Licence API
+  slug: dolby-drmlicence-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The EncoderProfile API from Dolby — 1 operation(s) for encoderprofile.
+  name: Dolby Encoder Profile API
+  slug: dolby-encoderprofile-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Engines API from Dolby — 6 operation(s) for engines.
+  name: Dolby Engines API
+  slug: dolby-engines-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Image API from Dolby — 1 operation(s) for image.
+  name: Dolby Image API
+  slug: dolby-image-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Ingests API from Dolby — 3 operation(s) for ingests.
+  name: Dolby Ingests API
+  slug: dolby-ingests-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Media Info API from Dolby — 1 operation(s) for media info.
+  name: Dolby Media Info API
+  slug: dolby-media-info-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The MediaDistributions API from Dolby — 4 operation(s) for mediadistributions.
+  name: Dolby Media Distributions API
+  slug: dolby-mediadistributions-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Monetized-Stream API from Dolby — 7 operation(s) for monetized-stream.
+  name: Dolby Monetized Stream API
+  slug: dolby-monetized-stream-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Monetized-Stream-V2 API from Dolby — 3 operation(s) for monetized-stream-v2.
+  name: Dolby Monetized Stream V2 API
+  slug: dolby-monetized-stream-v2-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Monitoring API from Dolby — 9 operation(s) for monitoring.
+  name: Dolby Monitoring API
+  slug: dolby-monitoring-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The MultiTrackVideo API from Dolby — 1 operation(s) for multitrackvideo.
+  name: Dolby Multi Track Video API
+  slug: dolby-multitrackvideo-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Organizations API from Dolby — 3 operation(s) for organizations.
+  name: Dolby Organizations API
+  slug: dolby-organizations-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The PublishTokenV1 API from Dolby — 9 operation(s) for publishtokenv1.
+  name: Dolby Publish Token V1 API
+  slug: dolby-publishtokenv1-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The PublishTokenV2 API from Dolby — 1 operation(s) for publishtokenv2.
+  name: Dolby Publish Token V2 API
+  slug: dolby-publishtokenv2-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The RecordFiles API from Dolby — 8 operation(s) for recordfiles.
+  name: Dolby Record Files API
+  slug: dolby-recordfiles-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Regions API from Dolby — 4 operation(s) for regions.
+  name: Dolby Regions API
+  slug: dolby-regions-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Schedulers API from Dolby — 2 operation(s) for schedulers.
+  name: Dolby Schedulers API
+  slug: dolby-schedulers-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Stream API from Dolby — 3 operation(s) for stream.
+  name: Dolby Stream API
+  slug: dolby-stream-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The SubscribeTokenV1 API from Dolby — 4 operation(s) for subscribetokenv1.
+  name: Dolby Subscribe Token V1 API
+  slug: dolby-subscribetokenv1-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The SubscribeTokenV2 API from Dolby — 1 operation(s) for subscribetokenv2.
+  name: Dolby Subscribe Token V2 API
+  slug: dolby-subscribetokenv2-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Templates API from Dolby — 2 operation(s) for templates.
+  name: Dolby Templates API
+  slug: dolby-templates-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Thumbnails API from Dolby — 1 operation(s) for thumbnails.
+  name: Dolby Thumbnails API
+  slug: dolby-thumbnails-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Transcoder API from Dolby — 7 operation(s) for transcoder.
+  name: Dolby Transcoder API
+  slug: dolby-transcoder-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The TranscoderScheduler API from Dolby — 4 operation(s) for transcoderscheduler.
+  name: Dolby Transcoder Scheduler API
+  slug: dolby-transcoderscheduler-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Webhooks API from Dolby — 8 operation(s) for webhooks.
+  name: Dolby Webhooks API
+  slug: dolby-webhooks-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Whep API from Dolby — 1 operation(s) for whep.
+  name: Dolby Whep API
+  slug: dolby-whep-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Whip API from Dolby — 1 operation(s) for whip.
+  name: Dolby Whip API
+  slug: dolby-whip-api
+- baseURL: https://api.theo.live/v2
+  baseurl_source: declared
+  description: The Media Assets API from Dolby — 5 operation(s) for media assets.
+  name: Dolby Media Assets API
+  slug: dolby-media-assets-api
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Dolby Webhooks
   slug: dolby-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/overlays/dolby-optiview-live-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dolby-optiview-live-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/overlays/dolby-millicast-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dolby-millicast-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/overlays/dolby-optiview-ads-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dolby-optiview-ads-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/overlays/dolby-optiview-ad-engine-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dolby-optiview-ad-engine-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -297,52 +487,52 @@ modified: '2026-09-06'
 name: Dolby
 nav: Providers
 network: true
-overview: 'Dolby publishes 6 APIs on the [APIs.io](https://apis.io/) network, including OptiView Live, OptiView Real-time Streaming (Millicast), OptiView Director API (Millicast), and 3 more. Tagged areas include Audio, Video, Streaming, Media, and Real-Time.
+overview: 'Dolby publishes 40 APIs on the [APIs.io](https://apis.io/) network, including ABR Ladders API, Account API, Ad Engine API, and 37 more. Tagged areas include Audio, Video, Streaming, Media, and Real-Time.
 
 
   The Dolby catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dolby''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 38 more developer resources.'
+  Dolby''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 42 more developer resources.'
 plans:
 - name: Dolby Plans Pricing
   plan_count: 3
   slug: dolby-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Dolby Rate Limits
   slug: dolby-rate-limits
 score:
   band: strong
-  composite: 65.7
+  composite: 65.9
   coverage:
     artifact_dirs: 23
-    catalog_earned: 58.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 57.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 77.6
     contract_governance: 4.5
-    contract_quality: 60.3
+    contract_quality: 63.3
     developer_ergonomics: 73.2
-    discoverability: 72.2
+    discoverability: 66.7
     operational_transparency: 81.6
   previous_composite: 65.7
   provenance:
     conformance: derived
     contracts:
-      callable: 71.4
+      callable: 90.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 40
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,52 +47,52 @@ apis:
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Appointments API API from Thriva — 2 operation(s) for appointments api.
-  name: Thriva Appointments API API
+  name: Thriva Appointments API
   slug: thriva-appointments-api-api
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Auth API API from Thriva — 1 operation(s) for auth api.
-  name: Thriva Auth API API
+  name: Thriva Auth API
   slug: thriva-auth-api-api
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Biomarkers API API from Thriva — 1 operation(s) for biomarkers api.
-  name: Thriva Biomarkers API API
+  name: Thriva Biomarkers API
   slug: thriva-biomarkers-api-api
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Bulk Orders API API from Thriva — 4 operation(s) for bulk orders api.
-  name: Thriva Bulk Orders API API
+  name: Thriva Bulk Orders API
   slug: thriva-bulk-orders-api-api
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Escalations API API from Thriva — 1 operation(s) for escalations api.
-  name: Thriva Escalations API API
+  name: Thriva Escalations API
   slug: thriva-escalations-api-api
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Orders API API from Thriva — 7 operation(s) for orders api.
-  name: Thriva Orders API API
+  name: Thriva Orders API
   slug: thriva-orders-api-api
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Result attachments API API from Thriva — 2 operation(s) for result attachments api.
-  name: Thriva Result attachments API API
+  name: Thriva Result attachments API
   slug: thriva-result-attachments-api-api
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Results API API from Thriva — 2 operation(s) for results api.
-  name: Thriva Results API API
+  name: Thriva Results API
   slug: thriva-results-api-api
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Tracking API API from Thriva — 1 operation(s) for tracking api.
-  name: Thriva Tracking API API
+  name: Thriva Tracking API
   slug: thriva-tracking-api-api
 - baseURL: https://api.thriva.io
   baseurl_source: declared
   description: The Users API API from Thriva — 3 operation(s) for users api.
-  name: Thriva Users API API
+  name: Thriva Users API
   slug: thriva-users-api-api
 artifact_total: 26
 asyncapis:
@@ -277,21 +277,21 @@ json_schemas:
   property_count: 0
   slug: thriva-platform-api-schemas
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Thriva
 nav: Providers
 network: true
-overview: 'Thriva publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Appointments API API, Auth API API, Biomarkers API API, and 7 more. Tagged areas include Company, Healthcare, Diagnostics, Blood Testing, and At-Home Testing.
+overview: 'Thriva publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Auth API, Biomarkers API, and 7 more. Tagged areas include Company, Healthcare, Diagnostics, Blood Testing, and At-Home Testing.
 
 
   The Thriva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 3
+random_paper: 16
 score:
   band: developing
-  composite: 42.1
+  composite: 42.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 43.0
@@ -299,11 +299,11 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 56.9
+    contract_quality: 59.6
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 7.9
@@ -333,7 +333,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

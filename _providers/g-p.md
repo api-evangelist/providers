@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Securely verifies client identity and issues access tokens via OAuth 2.0 client credentials grant for authenticating requests to all G-P APIs.
@@ -111,7 +111,7 @@ modified: '2026-06-13'
 name: G-P
 nav: Providers
 network: true
-overview: 'G-P publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, EOR API, and Contractor API. Tagged areas include Global Employment, Employer of Record, Payroll, HR, and Compliance.
+overview: 'G-P publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, EOR API, and Contractor API. Tagged areas include Global Employment, Employer of Record, Payroll, Human Resources, and Compliance.
 
 
   G-P''s developer surface includes documentation, getting-started guide, engineering blog, pricing, and 8 more developer resources.'
@@ -119,7 +119,7 @@ plans:
 - name: G P Plans Pricing
   plan_count: 3
   slug: g-p-plans-pricing
-random_paper: 8
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: G P Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 29.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -161,7 +161,7 @@ tags:
 - Global Employment
 - Employer of Record
 - Payroll
-- HR
+- Human Resources
 - Compliance
 - Contractors
 - International Hiring

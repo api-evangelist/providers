@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,14 +77,14 @@ apis:
   description: The Search API from Microsoft .NET — 1 operation(s) for search.
   name: Microsoft .NET Search API
   slug: microsoft-net-search-api
-- baseURL: https://api.nuget.org/v3
-  baseurl_source: declared
-  description: The ServiceIndex API from Microsoft .NET — 1 operation(s) for serviceindex.
-  name: Microsoft .NET ServiceIndex API
-  slug: microsoft-net-serviceindex-api
 - description: Comprehensive reference documentation for all .NET APIs including the .NET Runtime, base class libraries, ASP.NET Core, Entity Framework, and Azure SDK libraries. Browse types, members, namespaces, an
   name: .NET API Browser
   slug: net-api-browser
+- baseURL: https://learn.microsoft.com/en-us/dotnet/api/
+  baseurl_source: declared
+  description: The Service Index API from Microsoft .NET — 1 operation(s) for service index.
+  name: Microsoft .NET Service Index API
+  slug: microsoft-net-service-index-api
 artifact_total: 42
 collections:
 - collection_type: open
@@ -383,7 +383,7 @@ plans:
 - name: Microsoft Net Plans Pricing
   plan_count: 0
   slug: microsoft-net-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 8
   name: Microsoft Net Rate Limits
@@ -418,7 +418,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

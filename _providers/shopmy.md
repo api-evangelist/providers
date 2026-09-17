@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -60,11 +60,6 @@ apis:
   slug: shopmy-links-api
 - baseURL: https://api.shopmy.us/v1/Partners
   baseurl_source: declared
-  description: OAuth token exchange for developer applications.
-  name: ShopMy OAuth API
-  slug: shopmy-oauth-api
-- baseURL: https://api.shopmy.us/v1/Partners
-  baseurl_source: declared
   description: Brand Partner affiliate order reports (developer-key auth).
   name: ShopMy Order Reporting API
   slug: shopmy-order-reporting-api
@@ -76,6 +71,11 @@ apis:
 - description: Server-to-server affiliate tracking routes a brand calls to report completed orders to ShopMy for creator commission attribution, and to keep those commissions accurate through returns, edits and canc
   name: ShopMy Tracking API
   slug: shopmy-tracking-api
+- baseURL: https://api.shopmy.us/v1/Partners
+  baseurl_source: declared
+  description: OAuth token exchange for developer applications.
+  name: ShopMy O Auth API
+  slug: shopmy-oauth-api
 artifact_total: 21
 asyncapis:
 - description: ''
@@ -267,7 +267,7 @@ plans:
 - name: Shopmy Plans Pricing
   plan_count: 0
   slug: shopmy-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Shopmy Rate Limits
@@ -307,7 +307,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Newcastle Agentic Access
-  operation_count: 6
+  operation_count: 24
   slug: newcastle-agentic-access
-  summary_line: 6 operations
+  summary_line: 24 operations
 api_count: 2
 apis:
 - baseURL: https://api-dor.ncl.ac.uk
@@ -73,12 +73,22 @@ apis:
   description: A compact summary view over Urban Sciences Building entities and the feeds attached to them.
   name: Urban Observatory API (Urban Sciences Building) — Summary
   slug: urban-observatory-summary
-- baseURL: https://api.usb.urbanobservatory.ac.uk/api/v2.0a
+- baseURL: https://api-dor.ncl.ac.uk
   baseurl_source: declared
-  description: There may be more than one timeseries associated with a feed. Ordinarily there will be a plain timeseries representing raw data from the device; in some cases there may be additional timeseries repres
-  name: Urban Observatory API (Urban Sciences Building) — Timeseries
-  slug: urban-observatory-timeseries
-artifact_total: 42
+  description: A set of endpoints for gathering information about the API itself. They can be used for validation, creating types or checking if the service is live.
+  name: Newcastle University API Metadata Information API
+  slug: newcastle-api-metadata-information-api
+- baseURL: https://api-dor.ncl.ac.uk
+  baseurl_source: declared
+  description: A set of endpoints created as as part of the version one of the application.
+  name: Newcastle University V1 API
+  slug: newcastle-v1-api
+- baseURL: https://api-dor.ncl.ac.uk
+  baseurl_source: declared
+  description: There may be more than one timeseries associated with a feed, provided for convenience. Ordinarily there will be a plain timeseries, representing raw data from the device. In some cases, there may the
+  name: Newcastle University Time Series API
+  slug: newcastle-time-series-api
+artifact_total: 44
 collections:
 - collection_type: open
   name: API Collection
@@ -265,7 +275,7 @@ modified: '2026-08-30'
 name: Newcastle University
 nav: Providers
 network: true
-overview: 'Newcastle University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Digitised Objects Repository Search and Data API, Urban Observatory API (Urban Sciences Building) — Entity, Urban Observatory API (Urban Sciences Building) — Feed, and 2 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
+overview: 'Newcastle University publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Digitised Objects Repository Search and Data API, Urban Observatory API (Urban Sciences Building) — Entity, Urban Observatory API (Urban Sciences Building) — Feed, and 4 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
   The Newcastle University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -276,7 +286,7 @@ plans:
 - name: Newcastle Plans Pricing
   plan_count: 2
   slug: newcastle-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Newcastle Rate Limits
@@ -309,7 +319,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 27.5
+  composite: 35.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 57.3
@@ -317,11 +327,11 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.0
   facets:
     access_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 30.7
+    contract_quality: 62.6
     developer_ergonomics: 28.6
     discoverability: 59.3
     operational_transparency: 7.9
@@ -339,9 +349,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 100.0
-      total: 5
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
   regulatory:
     applies: true
     matched_via: tags
@@ -349,8 +359,8 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

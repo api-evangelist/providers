@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 18 operations · 10 acting
 api_count: 4
 apis:
-- baseURL: https://graph.microsoft.com/v1.0/
-  baseurl_source: declared
-  description: The ChecklistItems API from Microsoft to Do — 2 operation(s) for checklistitems.
-  name: Microsoft to Do ChecklistItems API
-  slug: microsoft-to-do-checklistitems-api
 - baseURL: https://graph.microsoft.com/v1.0/
   baseurl_source: declared
   description: The LinkedResources API from Microsoft to Do — 1 operation(s) for linkedresources.
@@ -65,6 +60,11 @@ apis:
   description: The Tasks API from Microsoft to Do — 3 operation(s) for tasks.
   name: Microsoft to Do Tasks API
   slug: microsoft-to-do-tasks-api
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The Checklist Items API from Microsoft to Do — 2 operation(s) for checklist items.
+  name: Microsoft to Do Checklist Items API
+  slug: microsoft-to-do-checklist-items-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -154,7 +154,7 @@ modified: '2026-05-19'
 name: Microsoft to Do
 nav: Providers
 network: true
-overview: 'Microsoft to Do publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ChecklistItems API, LinkedResources API, TaskLists API, and 1 more. Tagged areas include Microsoft, Microsoft-365, Productivity, and Task.
+overview: 'Microsoft to Do publishes 4 APIs on the [APIs.io](https://apis.io/) network, including LinkedResources API, TaskLists API, Tasks API, and 1 more. Tagged areas include Microsoft, Microsoft-365, Productivity, and Task.
 
 
   Microsoft to Do''s developer surface includes authentication, developer portal, documentation, support, and 9 more developer resources.'
@@ -162,7 +162,7 @@ plans:
 - name: Microsoft To Do Plans Pricing
   plan_count: 3
   slug: microsoft-to-do-plans-pricing
-random_paper: 19
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Microsoft To Do Rate Limits
@@ -194,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

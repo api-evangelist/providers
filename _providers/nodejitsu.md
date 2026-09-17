@@ -24,7 +24,7 @@ name: Nodejitsu
 nav: Providers
 network: true
 overview: Nodejitsu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hosting, Platform-as-a-Service, Node.js, and Cloud.
-random_paper: 15
+random_paper: 13
 screenshot: https://raw.githubusercontent.com/api-evangelist/nodejitsu/refs/heads/main/screenshots/nodejitsu-2026-08-07T185427.png
 slug: nodejitsu
 tags:

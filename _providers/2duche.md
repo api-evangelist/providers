@@ -24,7 +24,7 @@ name: 2duche
 nav: Providers
 network: true
 overview: 2duche is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Used Cars, Automotive, Marketplace, and China.
-random_paper: 4
+random_paper: 21
 slug: 2duche
 tags:
 - Company

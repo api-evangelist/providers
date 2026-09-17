@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Lindy's callable surface. There is no public REST API and no published OpenAPI. The one documented HTTP endpoint is an inbound webhook trigger at https://public.lindy.ai/api/v1/webhooks/[unique-id], a
@@ -227,7 +227,7 @@ plans:
 - name: Lindy Plans Pricing
   plan_count: 4
   slug: lindy-plans-pricing
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Lindy Rate Limits
@@ -256,7 +256,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

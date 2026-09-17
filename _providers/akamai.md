@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 243
   human_in_the_loop: 1
@@ -239,32 +239,32 @@ apis:
 - description: Test Center allows you to test how configuration changes affect your web content on Akamai edge network. Prior to activation, you can check to make sure theyre not behaving in an unexpected manner. Th
   name: Akamai Test Center API
   slug: akamai-test-center-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgekv/v1
   baseurl_source: spec_template
   description: The Access tokens API from Akamai — 2 operation(s) for access tokens.
   name: Akamai Access tokens API
   slug: akamai-access-tokens-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Get the activation history for a configuration.
   name: Akamai Activation history API
   slug: akamai-activation-history-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Get status information about your activations and activation requests.
   name: Akamai Activation status API
   slug: akamai-activation-status-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your security configuration activations.
   name: Akamai Activations API
   slug: akamai-activations-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Active property hostnames API from Akamai — 2 operation(s) for active property hostnames.
   name: Akamai Active property hostnames API
   slug: akamai-active-property-hostnames-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Get the list of API endpoints associated with a security policy.
   name: Akamai API endpoints API
@@ -274,62 +274,62 @@ apis:
   description: The API privacy API from Akamai — 1 operation(s) for api privacy.
   name: Akamai API privacy API
   slug: akamai-api-privacy-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage API request limits and the actions to take when those limits are met.
   name: Akamai API request constraints API
   slug: akamai-api-request-constraints-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the attack payload log settings for your security configurations.
   name: Akamai Attack payload logs API
   slug: akamai-attack-payload-logs-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: List all hostnames for a given contract and group.
   name: Akamai Available hostnames API
   slug: akamai-available-hostnames-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: The Behavioral DDoS profile actions API from Akamai — 2 operation(s) for behavioral ddos profile actions.
   name: Akamai Behavioral DDoS profile actions API
   slug: akamai-behavioral-ddos-profile-actions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: The Behavioral DDoS profiles API from Akamai — 2 operation(s) for behavioral ddos profiles.
   name: Akamai Behavioral DDoS profiles API
   slug: akamai-behavioral-ddos-profiles-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: The Behavioral DDoS protection profiles API from Akamai — 1 operation(s) for behavioral ddos protection profiles.
   name: Akamai Behavioral DDoS protection profiles API
   slug: akamai-behavioral-ddos-protection-profiles-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Build API from Akamai — 1 operation(s) for build.
   name: Akamai Build API
   slug: akamai-build-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Bulk activations API from Akamai — 2 operation(s) for bulk activations.
   name: Akamai Bulk activations API
   slug: akamai-bulk-activations-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Bulk patch API from Akamai — 2 operation(s) for bulk patch.
   name: Akamai Bulk patch API
   slug: akamai-bulk-patch-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Bulk search API from Akamai — 3 operation(s) for bulk search.
   name: Akamai Bulk search API
   slug: akamai-bulk-search-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Bulk versioning API from Akamai — 2 operation(s) for bulk versioning.
   name: Akamai Bulk versioning API
   slug: akamai-bulk-versioning-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the bypass network lists used with your security policies.
   name: Akamai Bypass network lists API
@@ -339,7 +339,7 @@ apis:
   description: The Cache API from Akamai — 1 operation(s) for cache.
   name: Akamai Cache API
   slug: akamai-cache-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/ccu/v3
   baseurl_source: spec_template
   description: Purge by cache tag.
   name: Akamai Cache tag API
@@ -349,42 +349,42 @@ apis:
   description: The Categories API from Akamai — 2 operation(s) for categories.
   name: Akamai Categories API
   slug: akamai-categories-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: The Challenge actions API from Akamai — 3 operation(s) for challenge actions.
   name: Akamai Challenge actions API
   slug: akamai-challenge-actions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/cps/v2
   baseurl_source: spec_template
   description: The Changes API from Akamai — 5 operation(s) for changes.
   name: Akamai Changes API
   slug: akamai-changes-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your client reputation profiles.
   name: Akamai Client reputation API
   slug: akamai-client-reputation-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Client settings API from Akamai — 1 operation(s) for client settings.
   name: Akamai Client settings API
   slug: akamai-client-settings-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: The Client-Side Protections & Compliance API from Akamai — 1 operation(s) for client-side protections & compliance.
   name: Akamai Client-Side Protections & Compliance API
   slug: akamai-client-side-protections-compliance-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage hostnames you're currently evaluating for a configuration version. If using Web Application Protector, manage hostnames currently in evaluation mode. This mode lets you to see how your configur
   name: 'Akamai Configuration: Evaluation hostnames API'
   slug: akamai-configuration-evaluation-hostnames-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: The Configuration version diff API from Akamai — 1 operation(s) for configuration version diff.
   name: Akamai Configuration version diff API
   slug: akamai-configuration-version-diff-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Get comprehensive details about a security configuration version.
   name: Akamai Configuration version export API
@@ -394,12 +394,12 @@ apis:
   description: The Contracts and groups API from Akamai — 4 operation(s) for contracts and groups.
   name: Akamai Contracts and groups API
   slug: akamai-contracts-and-groups-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The Contracts API from Akamai — 1 operation(s) for contracts.
   name: Akamai Contracts API
   slug: akamai-contracts-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: The Cookie Settings API from Akamai — 1 operation(s) for cookie settings.
   name: Akamai Cookie Settings API
@@ -409,72 +409,72 @@ apis:
   description: The CORS API from Akamai — 1 operation(s) for cors.
   name: Akamai CORS API
   slug: akamai-cors-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/ccu/v3
   baseurl_source: spec_template
   description: Purge by content provider (CP) code.
   name: Akamai CP code API
   slug: akamai-cp-code-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/cprg/v1
   baseurl_source: spec_template
   description: The CP codes API from Akamai — 2 operation(s) for cp codes.
   name: Akamai CP codes API
   slug: akamai-cp-codes-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Custom behaviors API from Akamai — 2 operation(s) for custom behaviors.
   name: Akamai Custom behaviors API
   slug: akamai-custom-behaviors-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Custom overrides API from Akamai — 2 operation(s) for custom overrides.
   name: Akamai Custom overrides API
   slug: akamai-custom-overrides-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the actions contained in your custom rules. Use custom rules to handle scenarios not covered by the included standard rules or to quickly patch new website vulnerabilities.
   name: Akamai Custom rule actions API
   slug: akamai-custom-rule-actions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: See which CVEs are covered by App & API Protector. The catalog contains only CVEs that the Akamai Threat Research team is aware of. App & API Protector can identify and block attacks related to the ac
   name: Akamai CVE Protections lookup API
   slug: akamai-cve-protections-lookup-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The Deactivations API from Akamai — 2 operation(s) for deactivations.
   name: Akamai Deactivations API
   slug: akamai-deactivations-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/cps/v2
   baseurl_source: spec_template
   description: The Deployments API from Akamai — 4 operation(s) for deployments.
   name: Akamai Deployments API
   slug: akamai-deployments-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Get information about APIs discovered in your traffic that are new or not yet protected under API protections.
   name: Akamai Discovered APIs API
   slug: akamai-discovered-apis-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Edge hostnames API from Akamai — 2 operation(s) for edge hostnames.
   name: Akamai Edge hostnames API
   slug: akamai-edge-hostnames-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgekv/v1
   baseurl_source: spec_template
   description: The EdgeKV status API from Akamai — 1 operation(s) for edgekv status.
   name: Akamai EdgeKV status API
   slug: akamai-edgekv-status-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The EdgeWorker IDs API from Akamai — 4 operation(s) for edgeworker ids.
   name: Akamai EdgeWorker IDs API
   slug: akamai-edgeworker-ids-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/sandbox-api/v1
   baseurl_source: spec_template
   description: The EdgeWorkers API from Akamai — 1 operation(s) for edgeworkers.
   name: Akamai EdgeWorkers API
   slug: akamai-edgeworkers-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/network-list/v2
   baseurl_source: spec_template
   description: The Elements API from Akamai — 1 operation(s) for elements.
   name: Akamai Elements API
@@ -484,7 +484,7 @@ apis:
   description: The Endpoints API from Akamai — 10 operation(s) for endpoints.
   name: Akamai Endpoints API
   slug: akamai-endpoints-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/cps/v2
   baseurl_source: spec_template
   description: The Enrollments API from Akamai — 4 operation(s) for enrollments.
   name: Akamai Enrollments API
@@ -494,37 +494,27 @@ apis:
   description: The Error responses API from Akamai — 2 operation(s) for error responses.
   name: Akamai Error responses API
   slug: akamai-error-responses-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the evasive path match for your security configurations.
   name: Akamai Evasive path match API
   slug: akamai-evasive-path-match-api
-- baseURL_template: https://{hostname}/api-definitions/v2
-  baseurl_source: spec_template
-  description: View security event data generated on the Akamai platform in your SIEM application.
-  name: Akamai Events API
-  slug: akamai-events-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Get a list of the failover hostnames in a security configuration.
   name: Akamai Failover hostnames API
   slug: akamai-failover-hostnames-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage security configurations and their versions.
   name: Akamai General configuration settings API
   slug: akamai-general-configuration-settings-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage security policies and their versions.
   name: Akamai General policy settings API
   slug: akamai-general-policy-settings-api
-- baseURL_template: https://{hostname}/api-definitions/v2
-  baseurl_source: spec_template
-  description: The GraphQL API from Akamai — 1 operation(s) for graphql.
-  name: Akamai GraphQL API
-  slug: akamai-graphql-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Groups API from Akamai — 1 operation(s) for groups.
   name: Akamai Groups API
@@ -534,57 +524,57 @@ apis:
   description: The GZIP API from Akamai — 1 operation(s) for gzip.
   name: Akamai GZIP API
   slug: akamai-gzip-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Hostname buckets API from Akamai — 3 operation(s) for hostname buckets.
   name: Akamai Hostname buckets API
   slug: akamai-hostname-buckets-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Get the list of hostnames in an account with their current protections, activation statuses, and other summary information.
   name: Akamai Hostname coverage API
   slug: akamai-hostname-coverage-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the hostnames in your configuration settings.
   name: Akamai Hostnames API
   slug: akamai-hostnames-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the HTTP header log settings for security policies.
   name: Akamai HTTP header logs API
   slug: akamai-http-header-logs-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Include activations API from Akamai — 2 operation(s) for include activations.
   name: Akamai Include activations API
   slug: akamai-include-activations-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Include version rules API from Akamai — 1 operation(s) for include version rules.
   name: Akamai Include version rules API
   slug: akamai-include-version-rules-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Include versions API from Akamai — 5 operation(s) for include versions.
   name: Akamai Include versions API
   slug: akamai-include-versions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Includes API from Akamai — 4 operation(s) for includes.
   name: Akamai Includes API
   slug: akamai-includes-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage which network lists are used in the IP/Geo Firewall settings. If you want to add or remove IP addresses from the network lists, use the Network Lists API.
   name: Akamai IP/Geo Firewall settings API
   slug: akamai-ip-geo-firewall-settings-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgekv/v1
   baseurl_source: spec_template
   description: The Items API from Akamai — 2 operation(s) for items.
   name: Akamai Items API
   slug: akamai-items-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: The JA4 Client TLS Fingerprint API from Akamai — 1 operation(s) for ja4 client tls fingerprint.
   name: Akamai JA4 Client TLS Fingerprint API
@@ -594,52 +584,52 @@ apis:
   description: The JWT API from Akamai — 1 operation(s) for jwt.
   name: Akamai JWT API
   slug: akamai-jwt-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The Limits API from Akamai — 1 operation(s) for limits.
   name: Akamai Limits API
   slug: akamai-limits-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the actions taken by your malware policies.
   name: Akamai Malware policy actions API
   slug: akamai-malware-policy-actions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/siteshield/v1
   baseurl_source: spec_template
   description: Manage your Site Shield maps.
   name: Akamai Maps API
   slug: akamai-maps-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your match targets, which define which security policy applies to an API, hostname, or path.
   name: Akamai Match targets API
   slug: akamai-match-targets-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgekv/v1
   baseurl_source: spec_template
   description: The Namespaces API from Akamai — 5 operation(s) for namespaces.
   name: Akamai Namespaces API
   slug: akamai-namespaces-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/network-list/v2
   baseurl_source: spec_template
   description: The Network lists API from Akamai — 4 operation(s) for network lists.
   name: Akamai Network lists API
   slug: akamai-network-lists-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your onboardings' activations, and the activation history for each onboarding.
   name: 'Akamai Onboarding: Activations and status API'
   slug: akamai-onboarding-activations-and-status-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage onboardings and their settings.
   name: 'Akamai Onboarding: Creation and settings API'
   slug: akamai-onboarding-creation-and-settings-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your post-activation validations and CNAME your hostnames to Akamai in order to go live.
   name: 'Akamai Onboarding: Post-activation validation API'
   slug: akamai-onboarding-post-activation-validation-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgekv/v1
   baseurl_source: spec_template
   description: The Permission groups API from Akamai — 4 operation(s) for permission groups.
   name: Akamai Permission groups API
@@ -649,102 +639,102 @@ apis:
   description: The Personally identifiable information API from Akamai — 6 operation(s) for personally identifiable information.
   name: Akamai Personally identifiable information API
   slug: akamai-personally-identifiable-information-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage settings for Personally Identifiable Information (PII) learning. With this feature, the network discovers PII on your behalf.
   name: Akamai PII learning API
   slug: akamai-pii-learning-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the Pragma header settings for your security policies.
   name: Akamai Pragma settings API
   slug: akamai-pragma-settings-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your prefetch request protections. When enabled, your application firewall rules inspect internal requests, which are those between your origin and Akamai's servers, for the file types you spec
   name: Akamai Prefetch requests API
   slug: akamai-prefetch-requests-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/cprg/v1
   baseurl_source: spec_template
   description: The Products API from Akamai — 3 operation(s) for products.
   name: Akamai Products API
   slug: akamai-products-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The Properties API from Akamai — 6 operation(s) for properties.
   name: Akamai Properties API
   slug: akamai-properties-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Property activations API from Akamai — 2 operation(s) for property activations.
   name: Akamai Property activations API
   slug: akamai-property-activations-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Property hostnames API from Akamai — 3 operation(s) for property hostnames.
   name: Akamai Property hostnames API
   slug: akamai-property-hostnames-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Property version hostnames API from Akamai — 1 operation(s) for property version hostnames.
   name: Akamai Property version hostnames API
   slug: akamai-property-version-hostnames-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Property version includes API from Akamai — 1 operation(s) for property version includes.
   name: Akamai Property version includes API
   slug: akamai-property-version-includes-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Property version rules API from Akamai — 1 operation(s) for property version rules.
   name: Akamai Property version rules API
   slug: akamai-property-version-rules-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Property versions API from Akamai — 5 operation(s) for property versions.
   name: Akamai Property versions API
   slug: akamai-property-versions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: 'Manage various security policy protections. These settings enable or disable each protection on your policy. However, you set the protections themselves in their corresponding operations available in '
   name: Akamai Protections API
   slug: akamai-protections-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/ccu/v3
   baseurl_source: spec_template
   description: Groups operations that let you control rate limits.
   name: Akamai Rate limits API
   slug: akamai-rate-limits-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage rate policy actions, which are the actions each policy takes when conditions are met.
   name: Akamai Rate policy actions API
   slug: akamai-rate-policy-actions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/cprg/v1
   baseurl_source: spec_template
   description: The Reporting groups API from Akamai — 2 operation(s) for reporting groups.
   name: Akamai Reporting groups API
   slug: akamai-reporting-groups-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The Reports API from Akamai — 2 operation(s) for reports.
   name: Akamai Reports API
   slug: akamai-reports-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: If using Kona Site Defender, manage the reputation analysis settings.
   name: Akamai Reputation analysis API
   slug: akamai-reputation-analysis-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage limits for the maximum request body size allowed.
   name: Akamai Request body inspection limits API
   slug: akamai-request-body-inspection-limits-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage a security configuration's inspection limit settings for request bodies.
   name: Akamai Request body size API
   slug: akamai-request-body-size-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The Resource tiers API from Akamai — 1 operation(s) for resource tiers.
   name: Akamai Resource tiers API
@@ -754,12 +744,12 @@ apis:
   description: The Resources API from Akamai — 3 operation(s) for resources.
   name: Akamai Resources API
   slug: akamai-resources-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The Revisions API from Akamai — 8 operation(s) for revisions.
   name: Akamai Revisions API
   slug: akamai-revisions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/sandbox-api/v1
   baseurl_source: spec_template
   description: The Rotate JWT API from Akamai — 1 operation(s) for rotate jwt.
   name: Akamai Rotate JWT API
@@ -769,117 +759,117 @@ apis:
   description: The Routing API from Akamai — 1 operation(s) for routing.
   name: Akamai Routing API
   slug: akamai-routing-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Rule formats API from Akamai — 1 operation(s) for rule formats.
   name: Akamai Rule formats API
   slug: akamai-rule-formats-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/sandbox-api/v1
   baseurl_source: spec_template
   description: The Sandboxes API from Akamai — 3 operation(s) for sandboxes.
   name: Akamai Sandboxes API
   slug: akamai-sandboxes-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Schemas API from Akamai — 2 operation(s) for schemas.
   name: Akamai Schemas API
   slug: akamai-schemas-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/papi/v1
   baseurl_source: spec_template
   description: The Search API from Akamai — 1 operation(s) for search.
   name: Akamai Search API
   slug: akamai-search-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The Secure tokens API from Akamai — 2 operation(s) for secure tokens.
   name: Akamai Secure tokens API
   slug: akamai-secure-tokens-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the attack groups and rules that you're currently evaluating for your security policies.
   name: 'Akamai Security policy: Conditions and exceptions API'
   slug: akamai-security-policy-conditions-and-exceptions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the attack groups that you're evaluating for your security configurations and policies.
   name: 'Akamai Security policy: Evaluation attack groups API'
   slug: akamai-security-policy-evaluation-attack-groups-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage hostnames you're currently evaluating for security policies.
   name: 'Akamai Security policy: Evaluation hostnames API'
   slug: akamai-security-policy-evaluation-hostnames-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Set the evaluation mode for your security policies. This mode runs concurrently with your existing Web Application Firewall Rule settings and records how the rules would respond if applied to live tra
   name: 'Akamai Security policy: Evaluation mode API'
   slug: akamai-security-policy-evaluation-mode-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the penalty box settings that you're evaluating for your security policies.
   name: 'Akamai Security policy: Evaluation penalty box API'
   slug: akamai-security-policy-evaluation-penalty-box-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the rules you're currently evaluating for security policies.
   name: 'Akamai Security policy: Evaluation rules API'
   slug: akamai-security-policy-evaluation-rules-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your custom deny actions for security configurations and policies. Custom deny actions let you serve error messages, pages, and responses that meet your organization's unique needs.
   name: 'Akamai Shared resources: Custom deny actions API'
   slug: akamai-shared-resources-custom-deny-actions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your custom rules for security configurations and policies.
   name: 'Akamai Shared resources: Custom rules API'
   slug: akamai-shared-resources-custom-rules-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your malware policies.
   name: 'Akamai Shared resources: Malware policies API'
   slug: akamai-shared-resources-malware-policies-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage rate policies for security configurations.
   name: 'Akamai Shared resources: Rate policies API'
   slug: akamai-shared-resources-rate-policies-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your reputation profiles. Reputation protections identify potentially malicious IP addresses, scoring them based on prior interactions with other Akamai customers.
   name: 'Akamai Shared resources: Reputation profiles API'
   slug: akamai-shared-resources-reputation-profiles-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage SIEM settings for your security configurations.
   name: Akamai SIEM settings API
   slug: akamai-siem-settings-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your slow POST protection settings for your security policies.
   name: Akamai Slow POST protections API
   slug: akamai-slow-post-protections-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the email subscriptions for features within a specific security configuration.
   name: Akamai Subscriptions API
   slug: akamai-subscriptions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/ccu/v3
   baseurl_source: spec_template
   description: Purge by URL or by Akamai resource locator (ARL).
   name: Akamai URL/ARL API
   slug: akamai-url-arl-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your URL protection policies.
   name: Akamai URL protection policies API
   slug: akamai-url-protection-policies-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your URL protection settings for your security policies.
   name: Akamai URL protection policy actions API
   slug: akamai-url-protection-policy-actions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/edgeworkers/v1
   baseurl_source: spec_template
   description: The Validations API from Akamai — 1 operation(s) for validations.
   name: Akamai Validations API
@@ -889,52 +879,57 @@ apis:
   description: The Versions API from Akamai — 11 operation(s) for versions.
   name: Akamai Versions API
   slug: akamai-versions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your WAF attack groups.
   name: 'Akamai WAF rules: Attack groups API'
   slug: akamai-waf-rules-attack-groups-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the penalty box condition settings for your firewall rules.
   name: 'Akamai WAF rules: Evaluation Penalty box conditions API'
   slug: akamai-waf-rules-evaluation-penalty-box-conditions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage your Web Application Firewall (WAF) rules and rule sets.
   name: 'Akamai WAF rules: General settings API'
   slug: akamai-waf-rules-general-settings-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the penalty box settings for your Web Application Firewall implementation.
   name: 'Akamai WAF rules: Penalty box API'
   slug: akamai-waf-rules-penalty-box-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the conditions used with your Web Application Firewall's penalty box.
   name: 'Akamai WAF rules: Penalty box conditions API'
   slug: akamai-waf-rules-penalty-box-conditions-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Quickly manage and mitigate risks resulting from the most recent high-profile, critical vulnerabilities. __Note__. Rapid rules are rules you can apply while we are still testing and perfecting them. O
   name: 'Akamai WAF rules: Rapid rules API'
   slug: akamai-waf-rules-rapid-rules-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the tuning recommendations for your WAF attack groups.
   name: 'Akamai WAF rules: Tuning recommendations API'
   slug: akamai-waf-rules-tuning-recommendations-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/appsec/v1
   baseurl_source: spec_template
   description: Manage the mode used with your WAF rules. Your mode you set determines how your rule sets are updated.
   name: 'Akamai WAF rules: Update mode API'
   slug: akamai-waf-rules-update-mode-api
-- baseURL_template: https://{hostname}/api-definitions/v2
+- baseURL_template: https://{hostname}/cprg/v1
   baseurl_source: spec_template
   description: The Watermark limits API from Akamai — 2 operation(s) for watermark limits.
   name: Akamai Watermark limits API
   slug: akamai-watermark-limits-api
-artifact_total: 1002
+- baseURL_template: https://{hostname}/api-definitions/v2
+  baseurl_source: spec_template
+  description: The Graph QL API from Akamai — 1 operation(s) for graph ql.
+  name: Akamai Graph QL API
+  slug: akamai-graph-ql-api
+artifact_total: 1001
 asyncapis:
 - description: ''
   name: Akamai Event Surface
@@ -3491,7 +3486,7 @@ modified: '2026-05-30'
 name: Akamai
 nav: Providers
 network: true
-overview: 'Akamai publishes 141 APIs on the [APIs.io](https://apis.io/) network, including DataStream 2 API V2, Identity Cloud Webhooks V3 API, Access tokens API, and 138 more. Tagged areas include CDN, Cloud, Edge Computing, Networks, and Platform.
+overview: 'Akamai publishes 140 APIs on the [APIs.io](https://apis.io/) network, including DataStream 2 API V2, Identity Cloud Webhooks V3 API, Access tokens API, and 137 more. Tagged areas include CDN, Cloud, Edge Computing, Networks, and Platform.
 
 
   The Akamai catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -3502,7 +3497,7 @@ plans:
 - name: Akamai Plans Pricing
   plan_count: 3
   slug: akamai-plans-pricing
-random_paper: 3
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Akamai Rate Limits
@@ -3560,11 +3555,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 139
+      total: 138
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 29 operations · 20 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://backendapi.corbado.io/v2
-  baseurl_source: declared
-  description: Short-lived tokens authorizing Corbado Connect frontend flows.
-  name: Corbado ConnectTokens API
-  slug: corbado-connecttokens-api
 - baseURL: https://backendapi.corbado.io/v2
   baseurl_source: declared
   description: Project data exports and download links.
@@ -80,6 +75,11 @@ apis:
   description: Create and manage end users and their social logins and credentials.
   name: Corbado Users API
   slug: corbado-users-api
+- baseURL: https://backendapi.corbado.io/v2
+  baseurl_source: declared
+  description: Short-lived tokens authorizing Corbado Connect frontend flows.
+  name: Corbado Connect Tokens API
+  slug: corbado-connect-tokens-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -182,7 +182,7 @@ modified: '2026-06-20'
 name: Corbado
 nav: Providers
 network: true
-overview: 'Corbado publishes 7 APIs on the [APIs.io](https://apis.io/) network, including ConnectTokens API, Exports API, Identifiers API, and 4 more. Tagged areas include Authentication, Passkeys, WebAuthn, Passwordless, and CIAM.
+overview: 'Corbado publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Exports API, Identifiers API, PasskeyEvents API, and 4 more. Tagged areas include Authentication, Passkeys, WebAuthn, Passwordless, and CIAM.
 
 
   Corbado''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -190,7 +190,7 @@ plans:
 - name: Corbado Plans Pricing
   plan_count: 4
   slug: corbado-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Corbado Rate Limits
@@ -222,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

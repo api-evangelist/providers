@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the ReviewTrackers online reputation management platform. Provides access to review data from 100+ review sites, enables automated review responses, supports review solicitation campaigns
@@ -203,7 +203,7 @@ plans:
 - name: Reviewtrackers Plans Pricing
   plan_count: 3
   slug: reviewtrackers-plans-pricing
-random_paper: 9
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Reviewtrackers Rate Limits
@@ -231,7 +231,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

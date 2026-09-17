@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -70,11 +70,6 @@ apis:
   description: DORA engineering metrics operations
   name: Pluralsight DORA Metrics API
   slug: pluralsight-dora-metrics-api
-- baseURL: https://paas-api.pluralsight.com/graphql
-  baseurl_source: declared
-  description: GraphQL query and mutation operations
-  name: Pluralsight GraphQL API
-  slug: pluralsight-graphql-api
 - baseURL: https://{workspace}.appfireflow.com/v3/customer/core
   baseurl_source: declared
   description: Flow integration management operations
@@ -102,11 +97,6 @@ apis:
   slug: pluralsight-repos-api
 - baseURL: https://{workspace}.appfireflow.com/v3/customer/core
   baseurl_source: declared
-  description: Flow team management operations
-  name: Pluralsight Teams API
-  slug: pluralsight-teams-api
-- baseURL: https://{workspace}.appfireflow.com/v3/customer/core
-  baseurl_source: declared
   description: Ticket data operations
   name: Pluralsight Tickets API
   slug: pluralsight-tickets-api
@@ -115,7 +105,12 @@ apis:
   description: Flow user management operations
   name: Pluralsight Users API
   slug: pluralsight-users-api
-artifact_total: 266
+- baseURL: https://paas-rest-api.pluralsight.com
+  baseurl_source: declared
+  description: GraphQL query and mutation operations
+  name: Pluralsight Graph QL API
+  slug: pluralsight-graph-ql-api
+artifact_total: 265
 collections:
 - collection_type: postman
   name: Pluralsight Channels Catalog API
@@ -1090,7 +1085,7 @@ modified: '2026-08-29'
 name: Pluralsight
 nav: Providers
 network: true
-overview: 'Pluralsight publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Coding Metrics API, Collaboration Metrics API, and 11 more. Tagged areas include Courses, Education, Engineering Metrics, Learning, and Skills Assessment.
+overview: 'Pluralsight publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Coding Metrics API, Collaboration Metrics API, and 10 more. Tagged areas include Courses, Education, Engineering Metrics, Learning, and Skills Assessment.
 
 
   The Pluralsight catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1101,7 +1096,7 @@ plans:
 - name: Pluralsight Plans Pricing
   plan_count: 8
   slug: pluralsight-plans-pricing
-random_paper: 2
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Pluralsight Rate Limits
@@ -1135,7 +1130,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.8
+  composite: 73.9
   coverage:
     artifact_dirs: 32
     catalog_earned: 72.5
@@ -1143,11 +1138,11 @@ score:
     catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 76.3
     contract_governance: 47.0
-    contract_quality: 64.1
+    contract_quality: 64.2
     developer_ergonomics: 63.1
     discoverability: 81.5
     operational_transparency: 63.2
@@ -1159,7 +1154,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 13
     mcp: first-party
     skills: derived
   regulatory:
@@ -1169,7 +1164,7 @@ score:
     regime_id: education
     score: 85.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

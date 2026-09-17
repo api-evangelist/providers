@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -46,39 +46,9 @@ api_count: 1
 apis:
 - baseURL: https://<your-resource>.cognitiveservices.azure.com
   baseurl_source: declared
-  description: The DocumentClassifiers API from Azure AI Document Intelligence — 5 operation(s) for documentclassifiers.
-  name: Azure AI Document Intelligence DocumentClassifiers API
-  slug: azure-document-intelligence-documentclassifiers-api
-- baseURL: https://<your-resource>.cognitiveservices.azure.com
-  baseurl_source: declared
   description: The DocumentClassifiers:authorizeCopy API from Azure AI Document Intelligence — 1 operation(s) for documentclassifiers:authorizecopy.
   name: Azure AI Document Intelligence DocumentClassifiers:authorizeCopy API
   slug: azure-document-intelligence-documentclassifiers-authorizecopy-api
-- baseURL: https://<your-resource>.cognitiveservices.azure.com
-  baseurl_source: declared
-  description: The DocumentClassifiers:build API from Azure AI Document Intelligence — 1 operation(s) for documentclassifiers:build.
-  name: Azure AI Document Intelligence DocumentClassifiers:build API
-  slug: azure-document-intelligence-documentclassifiers-build-api
-- baseURL: https://<your-resource>.cognitiveservices.azure.com
-  baseurl_source: declared
-  description: The DocumentModels API from Azure AI Document Intelligence — 10 operation(s) for documentmodels.
-  name: Azure AI Document Intelligence DocumentModels API
-  slug: azure-document-intelligence-documentmodels-api
-- baseURL: https://<your-resource>.cognitiveservices.azure.com
-  baseurl_source: declared
-  description: The DocumentModels:authorizeCopy API from Azure AI Document Intelligence — 1 operation(s) for documentmodels:authorizecopy.
-  name: Azure AI Document Intelligence DocumentModels:authorizeCopy API
-  slug: azure-document-intelligence-documentmodels-authorizecopy-api
-- baseURL: https://<your-resource>.cognitiveservices.azure.com
-  baseurl_source: declared
-  description: The DocumentModels:build API from Azure AI Document Intelligence — 1 operation(s) for documentmodels:build.
-  name: Azure AI Document Intelligence DocumentModels:build API
-  slug: azure-document-intelligence-documentmodels-build-api
-- baseURL: https://<your-resource>.cognitiveservices.azure.com
-  baseurl_source: declared
-  description: The DocumentModels:compose API from Azure AI Document Intelligence — 1 operation(s) for documentmodels:compose.
-  name: Azure AI Document Intelligence DocumentModels:compose API
-  slug: azure-document-intelligence-documentmodels-compose-api
 - baseURL: https://<your-resource>.cognitiveservices.azure.com
   baseurl_source: declared
   description: The Info API from Azure AI Document Intelligence — 1 operation(s) for info.
@@ -89,6 +59,36 @@ apis:
   description: The Operations API from Azure AI Document Intelligence — 2 operation(s) for operations.
   name: Azure AI Document Intelligence Operations API
   slug: azure-document-intelligence-operations-api
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The Document Classifiers API from Azure AI Document Intelligence — 5 operation(s) for document classifiers.
+  name: Azure AI Document Intelligence Document Classifiers API
+  slug: azure-document-intelligence-document-classifiers-api
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The Document Classifiers:build API from Azure AI Document Intelligence — 1 operation(s) for document classifiers:build.
+  name: Azure AI Document Intelligence Document Classifiers:build API
+  slug: azure-document-intelligence-document-classifiers-build-api
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The Document Models API from Azure AI Document Intelligence — 10 operation(s) for document models.
+  name: Azure AI Document Intelligence Document Models API
+  slug: azure-document-intelligence-document-models-api
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The Document Models:authorize Copy API from Azure AI Document Intelligence — 1 operation(s) for document models:authorize copy.
+  name: Azure AI Document Intelligence Document Models:authorize Copy API
+  slug: azure-document-intelligence-document-models-authorize-copy-api
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The Document Models:build API from Azure AI Document Intelligence — 1 operation(s) for document models:build.
+  name: Azure AI Document Intelligence Document Models:build API
+  slug: azure-document-intelligence-document-models-build-api
+- baseURL: https://<your-resource>.cognitiveservices.azure.com
+  baseurl_source: declared
+  description: The Document Models:compose API from Azure AI Document Intelligence — 1 operation(s) for document models:compose.
+  name: Azure AI Document Intelligence Document Models:compose API
+  slug: azure-document-intelligence-document-models-compose-api
 artifact_total: 28
 collections:
 - collection_type: open
@@ -201,7 +201,7 @@ modified: '2026-05-19'
 name: Azure AI Document Intelligence
 nav: Providers
 network: true
-overview: 'Azure AI Document Intelligence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including DocumentClassifiers API, DocumentClassifiers:authorizeCopy API, DocumentClassifiers:build API, and 6 more. Tagged areas include Artificial Intelligence, Document AI, Azure, IDP, and OCR.
+overview: 'Azure AI Document Intelligence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including DocumentClassifiers:authorizeCopy API, Info API, Operations API, and 6 more. Tagged areas include Artificial Intelligence, Document AI, Azure, IDP, and OCR.
 
 
   Azure AI Document Intelligence''s developer surface includes authentication, documentation, pricing, GitHub presence, and 10 more developer resources.'
@@ -209,7 +209,7 @@ plans:
 - name: Azure Document Intelligence Plans Pricing
   plan_count: 5
   slug: azure-document-intelligence-plans-pricing
-random_paper: 20
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Azure Document Intelligence Rate Limits
@@ -221,7 +221,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 32.5
+  composite: 33.0
   coverage:
     artifact_dirs: 11
     catalog_earned: 46.0
@@ -229,11 +229,11 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 42.9
+    contract_quality: 44.9
     developer_ergonomics: 35.7
     discoverability: 83.3
     operational_transparency: 13.2
@@ -246,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

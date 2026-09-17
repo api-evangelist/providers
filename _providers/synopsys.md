@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ press:
 - date: '2026-05-25'
   title: Synopsys Outlines Vision for Engineering the Future
   url: https://www.prnewswire.com/news-releases/synopsys-outlines-vision-for-engineering-the-future-302711205.html
-random_paper: 17
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Synopsys Rate Limits
@@ -278,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

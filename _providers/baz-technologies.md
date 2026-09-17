@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -153,7 +153,7 @@ overview: 'Baz Technologies is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Baz Technologies'' developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 16 more developer resources.'
-random_paper: 8
+random_paper: 18
 score:
   band: thin
   composite: 32.1
@@ -182,7 +182,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

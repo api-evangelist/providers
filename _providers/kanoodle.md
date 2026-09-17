@@ -24,7 +24,7 @@ name: Kanoodle
 nav: Providers
 network: true
 overview: Kanoodle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Contextual Advertising, and Search Advertising.
-random_paper: 5
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanoodle/refs/heads/main/screenshots/kanoodle-2026-07-25T223459.png
 slug: kanoodle
 tags:

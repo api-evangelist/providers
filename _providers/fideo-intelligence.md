@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Real-time identity verification (Verify) and modular identity intelligence (Signals) over a shared multi-field request model. Bearer-authenticated REST endpoints POST /verify and POST /signals at api.
@@ -163,7 +163,7 @@ overview: 'Fideo Intelligence publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Fideo Intelligence''s developer surface includes documentation, getting-started guide, authentication, changelog, engineering blog, support, signup flow, and 17 more developer resources.'
-random_paper: 4
+random_paper: 5
 score:
   band: thin
   composite: 27.8
@@ -188,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

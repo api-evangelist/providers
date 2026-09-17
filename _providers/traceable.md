@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,14 +53,14 @@ apis:
   slug: traceable-ast
 - baseURL: https://api.traceable.ai
   baseurl_source: declared
-  description: Execute GraphQL queries against the Traceable platform for advanced analytics, entity queries, and bulk data retrieval.
-  name: Traceable GraphQL API
-  slug: traceable-graphql-api
-- baseURL: https://api.traceable.ai
-  baseurl_source: declared
   description: Download OpenAPI, WSDL, and other API specification files generated from discovered traffic.
   name: Traceable Specifications API
   slug: traceable-specifications-api
+- baseURL: https://api.traceable.ai
+  baseurl_source: declared
+  description: Execute GraphQL queries against the Traceable platform for advanced analytics, entity queries, and bulk data retrieval.
+  name: Traceable Graph QL API
+  slug: traceable-graph-ql-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -184,7 +184,7 @@ modified: '2026-05-19'
 name: Traceable
 nav: Providers
 network: true
-overview: 'Traceable publishes 2 APIs on the [APIs.io](https://apis.io/) network: GraphQL API and Specifications API. Tagged areas include API Discovery, API Protection, API Security, API Testing, and Developer Tools.
+overview: 'Traceable publishes 2 APIs on the [APIs.io](https://apis.io/) network: Specifications API and Graph QL API. Tagged areas include API Discovery, API Protection, API Security, API Testing, and Developer Tools.
 
 
   The Traceable catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -249,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

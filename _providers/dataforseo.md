@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 2
@@ -51,11 +51,6 @@ apis:
   slug: dataforseo-aioptimization-api
 - baseURL: https://api.dataforseo.com
   baseurl_source: declared
-  description: The AppData API from DataForSEO — 42 operation(s) for appdata.
-  name: DataForSEO AppData API
-  slug: dataforseo-appdata-api
-- baseURL: https://api.dataforseo.com
-  baseurl_source: declared
   description: The Appendix API from DataForSEO — 4 operation(s) for appendix.
   name: DataForSEO Appendix API
   slug: dataforseo-appendix-api
@@ -69,11 +64,6 @@ apis:
   description: The BusinessData API from DataForSEO — 55 operation(s) for businessdata.
   name: DataForSEO BusinessData API
   slug: dataforseo-businessdata-api
-- baseURL: https://api.dataforseo.com
-  baseurl_source: declared
-  description: The ContentAnalysis API from DataForSEO — 11 operation(s) for contentanalysis.
-  name: DataForSEO ContentAnalysis API
-  slug: dataforseo-contentanalysis-api
 - baseURL: https://api.dataforseo.com
   baseurl_source: declared
   description: The DataforseoLabs API from DataForSEO — 47 operation(s) for dataforseolabs.
@@ -104,6 +94,16 @@ apis:
   description: The Serp API from DataForSEO — 181 operation(s) for serp.
   name: DataForSEO Serp API
   slug: dataforseo-serp-api
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The App Data API from DataForSEO — 42 operation(s) for app data.
+  name: DataForSEO App Data API
+  slug: dataforseo-app-data-api
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The Content Analysis API from DataForSEO — 11 operation(s) for content analysis.
+  name: DataForSEO Content Analysis API
+  slug: dataforseo-content-analysis-api
 artifact_total: 48
 asyncapis:
 - description: ''
@@ -150,6 +150,16 @@ collections:
   name: DataForSEO AiOptimization Serp API
   slug: open-dataforseo-serp-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/overlays/dataforseo-appdata-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dataforseo-appdata-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/overlays/dataforseo-contentanalysis-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dataforseo-contentanalysis-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/capabilities/dataforseo-capability-edges.yml
   title: ''
@@ -423,18 +433,18 @@ modified: '2026-08-13'
 name: DataForSEO
 nav: Providers
 network: true
-overview: 'DataForSEO publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AiOptimization API, AppData API, Appendix API, and 9 more. Tagged areas include SEO, SERP, Keywords, Backlinks, and Domain Analytics.
+overview: 'DataForSEO publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AiOptimization API, Appendix API, Backlinks API, and 9 more. Tagged areas include SEO, SERP, Keywords, Backlinks, and Domain Analytics.
 
 
   The DataForSEO catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  DataForSEO''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 40 more developer resources.'
+  DataForSEO''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 42 more developer resources.'
 plans:
 - name: Dataforseo Plans Pricing
   plan_count: 0
   slug: dataforseo-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Dataforseo Rate Limits
@@ -457,19 +467,19 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.9
+  composite: 65.5
   coverage:
     artifact_dirs: 31
-    catalog_earned: 68.3
+    catalog_earned: 72.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.8
+    catalog_gap: 42.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 53.9
     contract_governance: 43.2
-    contract_quality: 71.6
+    contract_quality: 78.3
     developer_ergonomics: 90.5
     discoverability: 81.5
     operational_transparency: 34.2
@@ -485,7 +495,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

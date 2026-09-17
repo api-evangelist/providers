@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -120,6 +120,10 @@ collections:
   name: Amazon MSK API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   title: ''
   type: AgentSkills
@@ -1455,7 +1459,7 @@ jsonld:
   property_count: 129
   slug: amazon-msk-msk-api-context
 layout: provider
-modified: '2026-08-06'
+modified: '2026-09-16'
 name: Amazon MSK
 nav: Providers
 network: true
@@ -1465,12 +1469,12 @@ overview: 'Amazon MSK publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Amazon MSK catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon MSK''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Msk Plans Pricing
   plan_count: 3
   slug: amazon-msk-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Amazon Msk Rate Limits
@@ -1524,7 +1528,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1561,5 +1565,5 @@ use_cases:
   name: Stream Processing
 - description: Stream database changes to downstream systems using Debezium and MSK Connect.
   name: Database Change Data Capture
-website: https://aws.amazon.com/msk/
+website: https://amazon.com
 ---

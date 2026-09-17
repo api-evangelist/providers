@@ -24,23 +24,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.8
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://console.rubiconnect.com/api/v1
-  baseurl_source: declared
-  description: REST API for sending messages, managing campaigns, RCS capability checks, and webhook callbacks. Auth via API key (X-API-Key) or Bearer token.
-  name: RubiConnect Messaging Platform
-  slug: rubiconnect-messaging-platform
 - description: Hosted MCP server exposing 18 tools for messaging, templates, campaigns, agents, analytics, and media. Auth via OAuth 2.0/PKCE or API key.
   name: RubiConnect MCP Server
   slug: rubiconnect-mcp-server
-artifact_total: 9
+- baseURL: https://console.rubiconnect.com/api/v1
+  baseurl_source: declared
+  description: The Campaigns API from RubiConnect — 1 operation(s) for campaigns.
+  name: RubiConnect Campaigns API
+  slug: rubiconnect-campaigns-api
+- baseURL: https://console.rubiconnect.com/api/v1
+  baseurl_source: declared
+  description: The Capabilities API from RubiConnect — 1 operation(s) for capabilities.
+  name: RubiConnect Capabilities API
+  slug: rubiconnect-capabilities-api
+- baseURL: https://console.rubiconnect.com/api/v1
+  baseurl_source: declared
+  description: The Messages API from RubiConnect — 1 operation(s) for messages.
+  name: RubiConnect Messages API
+  slug: rubiconnect-messages-api
+- baseURL: https://console.rubiconnect.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from RubiConnect — 1 operation(s) for webhooks.
+  name: RubiConnect Webhooks API
+  slug: rubiconnect-webhooks-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Rubiconnect Webhooks
   slug: rubiconnect-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/overlays/rubiconnect-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/rubiconnect-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -146,18 +166,18 @@ modified: '2026-09-15'
 name: RubiConnect
 nav: Providers
 network: true
-overview: 'RubiConnect publishes 1 API on the [APIs.io](https://apis.io/) network: Messaging Platform. Tagged areas include CPaaS, Communications APIs, Business Messaging, RCS, and WhatsApp Business.
+overview: 'RubiConnect publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Capabilities API, Messages API, and 1 more. Tagged areas include CPaaS, Communications APIs, Business Messaging, RCS, and WhatsApp Business.
 
 
   The RubiConnect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  RubiConnect''s developer surface includes authentication, signup flow, engineering blog, and 17 more developer resources.'
+  RubiConnect''s developer surface includes authentication, signup flow, engineering blog, and 18 more developer resources.'
 plans:
 - name: Rubiconnect Plans Pricing
   plan_count: 0
   slug: rubiconnect-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Rubiconnect Rate Limits
@@ -169,7 +189,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 39.8
+  composite: 40.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 35.0
@@ -177,20 +197,22 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.6
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 57.0
+    contract_quality: 59.2
     developer_ergonomics: 25.6
     discoverability: 64.8
     operational_transparency: 13.2
+  previous_composite: 39.8
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: first-party
     skills: derived
   regulatory:
@@ -200,7 +222,8 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

@@ -25,7 +25,7 @@ name: Pilota
 nav: Providers
 network: true
 overview: Pilota is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 19
+random_paper: 11
 screenshot: https://raw.githubusercontent.com/api-evangelist/pilota/refs/heads/main/screenshots/pilota-2026-09-02T151252.png
 slug: pilota
 tags:

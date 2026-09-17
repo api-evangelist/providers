@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -72,9 +72,9 @@ apis:
   slug: hilos-user-api
 - baseURL: https://api.hilos.io/api/
   baseurl_source: declared
-  description: The WhatsApp API from Hilos — 3 operation(s) for whatsapp.
-  name: Hilos WhatsApp API
-  slug: hilos-whatsapp-api
+  description: The Whats App API from Hilos — 3 operation(s) for whats app.
+  name: Hilos Whats App API
+  slug: hilos-whats-app-api
 artifact_total: 19
 asyncapis:
 - description: ''
@@ -266,7 +266,7 @@ plans:
 - name: Hilos Plans Pricing
   plan_count: 0
   slug: hilos-plans-pricing
-random_paper: 18
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Hilos Rate Limits
@@ -301,7 +301,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

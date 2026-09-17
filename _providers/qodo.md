@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.qodo.ai
@@ -53,13 +53,13 @@ apis:
   name: Qodo Hosted API
   slug: qodo-hosted-api
 - description: Terminal agent runner; serve agents as HTTP APIs or MCP services.
-  name: Qodo Qodo Command API
+  name: Qodo Command API
   slug: qodo-gen-qodo-command-api
 - description: AI coding assistant IDE plugin - generation, chat, and test generation.
-  name: Qodo Qodo Gen API
+  name: Qodo Gen API
   slug: qodo-gen-qodo-gen-api
 - description: Agentic pull request review Git app (built on open-source PR-Agent).
-  name: Qodo Qodo Merge API
+  name: Qodo Merge API
   slug: qodo-gen-qodo-merge-api
 artifact_total: 15
 collections:
@@ -132,11 +132,11 @@ finops:
   slug: qodo-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qodo.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-09-16'
 name: Qodo
 nav: Providers
 network: true
-overview: 'Qodo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Merge (PR-Agent), Hosted API, Qodo Command API, and 2 more. Tagged areas include Artificial Intelligence, Code Review, Code Integrity, Developer Tools, and Pull Requests.
+overview: 'Qodo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Merge (PR-Agent) and Hosted API. Tagged areas include Artificial Intelligence, Code Review, Code Integrity, Developer Tools, and Pull Requests.
 
 
   Qodo''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
@@ -144,7 +144,7 @@ plans:
 - name: Qodo Plans Pricing
   plan_count: 4
   slug: qodo-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Qodo Rate Limits
@@ -169,7 +169,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

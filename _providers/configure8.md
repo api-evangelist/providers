@@ -35,21 +35,16 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 13
-  human_in_the_loop: 0
+- acting_count: 63
+  human_in_the_loop: 50
   name: Configure8 Agentic Access
-  operation_count: 18
+  operation_count: 89
   slug: configure8-agentic-access
-  summary_line: 18 operations · 13 acting
+  summary_line: 89 operations · 63 acting · 50 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://app.configure8.io/public/v1
-  baseurl_source: declared
-  description: The Configure8 REST API gives platform teams programmatic access to the service catalog, scorecards, self-service actions, environments, and cost data. It is used to ingest services and resources from
-  name: Configure8 REST API
-  slug: idp-rest-api
 - baseURL: https://app.configure8.io/public/v1
   baseurl_source: declared
   description: The Catalog Entities API from Configure8 — 7 operation(s) for catalog entities.
@@ -75,7 +70,67 @@ apis:
   description: The Users API from Configure8 — 2 operation(s) for users.
   name: Configure8 Users API
   slug: configure8-users-api
-artifact_total: 23
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Catalog Entity API from Configure8 — 22 operation(s) for catalog entity.
+  name: Configure8 Catalog Entity API
+  slug: configure8-catalog-entity-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Catalog Entity Batch API from Configure8 — 2 operation(s) for catalog entity batch.
+  name: Configure8 Catalog Entity Batch API
+  slug: configure8-catalog-entity-batch-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Catalog Entity Metadata API from Configure8 — 1 operation(s) for catalog entity metadata.
+  name: Configure8 Catalog Entity Metadata API
+  slug: configure8-catalog-entity-metadata-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Catalog Relation API from Configure8 — 1 operation(s) for catalog relation.
+  name: Configure8 Catalog Relation API
+  slug: configure8-catalog-relation-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Credential API from Configure8 — 2 operation(s) for credential.
+  name: Configure8 Credential API
+  slug: configure8-credential-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Deployment API from Configure8 — 2 operation(s) for deployment.
+  name: Configure8 Deployment API
+  slug: configure8-deployment-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Module Settings API from Configure8 — 2 operation(s) for module settings.
+  name: Configure8 Module Settings API
+  slug: configure8-module-settings-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Private SCIM API from Configure8 — 1 operation(s) for private scim.
+  name: Configure8 Private SCIM API
+  slug: configure8-private-scim-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The SCIM API from Configure8 — 8 operation(s) for scim.
+  name: Configure8 SCIM API
+  slug: configure8-scim-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Scorecard API from Configure8 — 5 operation(s) for scorecard.
+  name: Configure8 Scorecard API
+  slug: configure8-scorecard-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Sync API from Configure8 — 2 operation(s) for sync.
+  name: Configure8 Sync API
+  slug: configure8-sync-api
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Templates API from Configure8 — 1 operation(s) for templates.
+  name: Configure8 Templates API
+  slug: configure8-templates-api
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Configure8 Self Service Actions Webhooks
@@ -103,6 +158,11 @@ collections:
   name: Configure8 Public REST API
   slug: open-configure8
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/overlays/configure8-c8-public-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/configure8-c8-public-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/agentic-access/configure8-agentic-access.yml
   title: ''
@@ -275,25 +335,25 @@ modified: '2026-09-05'
 name: Configure8
 nav: Providers
 network: true
-overview: 'Configure8 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including REST API, Catalog Entities API, Catalog Relations API, and 3 more. Tagged areas include Catalog, Cloud Cost, Developer Experience, DevOps, and Internal Developer Portal.
+overview: 'Configure8 publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Catalog Entities API, Catalog Relations API, Deployments API, and 14 more. Tagged areas include Catalog, Cloud Cost, Developer Experience, DevOps, and Internal Developer Portal.
 
 
   The Configure8 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Configure8''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 27 more developer resources.'
+  Configure8''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Configure8 Plans Pricing
   plan_count: 2
   slug: configure8-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Configure8 Rate Limits
   slug: configure8-rate-limits
 score:
   band: strong
-  composite: 59.3
+  composite: 55.6
   coverage:
     artifact_dirs: 23
     catalog_earned: 48.0
@@ -301,11 +361,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.7
   facets:
     access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 59.5
+    contract_quality: 44.9
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 36.8
@@ -314,14 +374,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
+      callable: 29.4
+      derived: 5
+      marker_coverage: 29.4
+      total: 17
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

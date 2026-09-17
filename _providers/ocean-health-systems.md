@@ -15,23 +15,63 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-09-15'
+  score: 24.3
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://ckm.openehr.org/ckm/rest/v1
   baseurl_source: declared
-  description: REST API for the Clinical Knowledge Manager — 48 operations across 39 paths covering archetypes (list, search, ADL/XML/mindmap retrieval, specialisation parent, status by asset version, MD5 hash, impo
-  name: CKM REST API
-  slug: ckm-rest-api
-artifact_total: 5
+  description: Endpoint for archetype-related services, including listing and getting archetypes.
+  name: Ocean Health Systems Archetypes API
+  slug: ocean-health-systems-archetypes-api
+- baseURL: https://ckm.openehr.org/ckm/rest/v1
+  baseurl_source: declared
+  description: Endpoint for change request-related services, including listing and getting change requests.
+  name: Ocean Health Systems Change Requests API
+  slug: ocean-health-systems-change-requests-api
+- baseURL: https://ckm.openehr.org/ckm/rest/v1
+  baseurl_source: declared
+  description: Endpoint for project-related services, including listing and getting projects.
+  name: Ocean Health Systems Projects API
+  slug: ocean-health-systems-projects-api
+- baseURL: https://ckm.openehr.org/ckm/rest/v1
+  baseurl_source: declared
+  description: Endpoint for resource proposal-related services, including listing and getting resource proposals.
+  name: Ocean Health Systems Resource Proposals API
+  slug: ocean-health-systems-resource-proposals-api
+- baseURL: https://ckm.openehr.org/ckm/rest/v1
+  baseurl_source: declared
+  description: Endpoint for generic resources, including archetypes and templates. May sometimes be easier to use.
+  name: Ocean Health Systems Resources API
+  slug: ocean-health-systems-resources-api
+- baseURL: https://ckm.openehr.org/ckm/rest/v1
+  baseurl_source: declared
+  description: Endpoint for creating a new user session or signing out.
+  name: Ocean Health Systems Sessions API
+  slug: ocean-health-systems-sessions-api
+- baseURL: https://ckm.openehr.org/ckm/rest/v1
+  baseurl_source: declared
+  description: Endpoint for subdomain-related services, including listing and getting subdomains.
+  name: Ocean Health Systems Subdomains API
+  slug: ocean-health-systems-subdomains-api
+- baseURL: https://ckm.openehr.org/ckm/rest/v1
+  baseurl_source: declared
+  description: Endpoint for template-related services, including listing and getting templates.
+  name: Ocean Health Systems Templates API
+  slug: ocean-health-systems-templates-api
+- baseURL: https://ckm.openehr.org/ckm/rest/v1
+  baseurl_source: declared
+  description: Endpoint for user-related services, including creating new users as an admin.
+  name: Ocean Health Systems Users API
+  slug: ocean-health-systems-users-api
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -153,7 +193,7 @@ modified: '2026-09-02'
 name: Ocean Health Systems
 nav: Providers
 network: true
-overview: 'Ocean Health Systems publishes 1 API on the [APIs.io](https://apis.io/) network: CKM REST API. Tagged areas include Health, Healthcare, Electronic Health Records, openEHR, and Clinical Data.
+overview: 'Ocean Health Systems publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Archetypes API, Change Requests API, Projects API, and 6 more. Tagged areas include Health, Healthcare, Electronic Health Records, openEHR, and Clinical Data.
 
 
   Ocean Health Systems'' developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, and 18 more developer resources.'
@@ -161,14 +201,14 @@ plans:
 - name: Ocean Health Systems Plans Pricing
   plan_count: 0
   slug: ocean-health-systems-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Ocean Health Systems Rate Limits
   slug: ocean-health-systems-rate-limits
 score:
   band: thin
-  composite: 31.0
+  composite: 34.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -176,17 +216,22 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.5
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 47.3
     developer_ergonomics: 37.5
     discoverability: 68.5
     operational_transparency: 18.4
   previous_composite: 31.0
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -196,7 +241,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -118,11 +118,11 @@ modified: '2026-07-21'
 name: SeekOut
 nav: Providers
 network: true
-overview: 'SeekOut is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Acquisition, HR Tech, and Sourcing.
+overview: 'SeekOut is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruiting, Talent Acquisition, Human Resources, and Sourcing.
 
 
   SeekOut''s developer surface includes engineering blog, changelog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 12
+random_paper: 20
 score:
   band: emerging
   composite: 19.5
@@ -150,7 +150,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -171,7 +171,7 @@ tags:
 - Company
 - Recruiting
 - Talent Acquisition
-- HR Tech
+- Human Resources
 - Sourcing
 - Artificial Intelligence
 - Candidate Search

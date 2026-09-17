@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The public UI APIs available in the o9 platform, used to access the GraphCube server data and its model in order to query and visualize planning data. The API reference is published in the o9 Guide bu
@@ -151,7 +151,7 @@ overview: 'o9 Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   o9 Solutions'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 3
+random_paper: 11
 scopes:
 - name: O9 Solutions Scopes
   scope_count: 3
@@ -184,7 +184,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -221,6 +221,6 @@ tags:
 - Decision Intelligence
 - Retail Planning
 - Revenue Growth Management
-- Enterprise Resource Planning
+- ERP
 website: https://o9solutions.com
 ---

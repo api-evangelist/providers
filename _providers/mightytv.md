@@ -19,7 +19,7 @@ name: Mightytv
 nav: Providers
 network: true
 overview: Mightytv is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 10
+random_paper: 12
 slug: mightytv
 tags:
 - Company

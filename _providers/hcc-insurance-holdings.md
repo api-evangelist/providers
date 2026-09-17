@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: Tokio Marine to buy HCC Insurance for $7.5 billion
   url: https://www.reuters.com/article/business/tokio-marine-to-buy-hcc-insurance-for-75-billion-idUSKBN0OQ0KU/
-random_paper: 11
+random_paper: 16
 score:
   band: minimal
   composite: 2.7
@@ -110,7 +110,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

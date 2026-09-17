@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -312,7 +312,7 @@ overview: 'Replicas publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Replicas'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, GitHub presence, and 23 more developer resources.'
-random_paper: 11
+random_paper: 15
 score:
   band: developing
   composite: 50.8
@@ -343,7 +343,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

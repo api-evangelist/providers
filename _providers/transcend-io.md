@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GraphQL API and Developer Tools wrapper for non-personal data tasks such as creating data silos, account management, and other configuration operations on the Transcend platform.
@@ -83,7 +83,7 @@ apis:
 - baseURL: https://api.transcend.io
   baseurl_source: declared
   description: The Transcend API API from Transcend — 0 operation(s) for transcend api.
-  name: Transcend Transcend API API
+  name: Transcend API
   slug: transcend-io-transcend-api-api
 artifact_total: 44
 collections:
@@ -292,7 +292,7 @@ jsonld:
   property_count: 0
   slug: transcend-io-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Transcend
 nav: Providers
 network: true
@@ -307,7 +307,7 @@ plans:
 - name: Transcend Io Plans Pricing
   plan_count: 5
   slug: transcend-io-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Transcend Io Rate Limits
@@ -360,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

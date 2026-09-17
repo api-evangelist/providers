@@ -24,15 +24,65 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.1
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://www.znanylekarz.pl/api/v3/integration
   baseurl_source: declared
-  description: OAuth 2.0 REST API (v1.14.0) for medical-software vendors integrating a practice-management system with the ZnanyLekarz marketplace. 44 operations across facilities, doctors, addresses, services, insu
-  name: Docplanner Integrations API
-  slug: docplanner-integrations-api
-artifact_total: 9
+  description: More information on how we define what a Addresses is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/api-objects/resources.html#addresses).
+  name: ZnanyLekarz Addresses API
+  slug: znanylekarz-addresses-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: More information on how we define what a API Notification Callbacks is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/callbacks/push-vs-pull.html).
+  name: ZnanyLekarz API Notification Callbacks API
+  slug: znanylekarz-api-notification-callbacks-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: 'More information on how we define what a Bookings is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/api-objects/resources.html#bookings). ## addBooking In order '
+  name: ZnanyLekarz Bookings API
+  slug: znanylekarz-bookings-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: More information on how we define what a Calendar Breaks is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/api-objects/resources.html#calendar-breaks).
+  name: ZnanyLekarz Calendar Breaks API
+  slug: znanylekarz-calendar-breaks-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: Simple operations on the calendar belonging to the address
+  name: ZnanyLekarz Calendars API
+  slug: znanylekarz-calendars-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: More information on how we define what a Doctors is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/api-objects/resources.html#doctors).
+  name: ZnanyLekarz Doctors API
+  slug: znanylekarz-doctors-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: More information on how we define what a Facility is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/api-objects/resources.html#facilities).
+  name: ZnanyLekarz Facilities API
+  slug: znanylekarz-facilities-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: More information on how we define what a Insurances is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/api-objects/resources.html#insurances).
+  name: ZnanyLekarz Insurances API
+  slug: znanylekarz-insurances-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: More information on how we define what a Patient Presence is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/api-objects/patient-presence.html).
+  name: ZnanyLekarz Patient Presence API
+  slug: znanylekarz-patient-presence-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: More information on how we define what a Services is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/api-objects/resources.html#services).
+  name: ZnanyLekarz Services API
+  slug: znanylekarz-services-api
+- baseURL: https://www.znanylekarz.pl/api/v3/integration
+  baseurl_source: declared
+  description: More information on how we define what a Slots is, its use cases and more can be found [here](https://integrations.docplanner.com/guide/api-objects/resources.html#slots).
+  name: ZnanyLekarz Slots API
+  slug: znanylekarz-slots-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Znanylekarz Notifications
@@ -42,6 +92,11 @@ collections:
   name: Docplanner Integrations API
   slug: postman-znanylekarz-integrations-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/overlays/znanylekarz-integrations-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/znanylekarz-integrations-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -211,18 +266,18 @@ modified: '2026-09-05'
 name: ZnanyLekarz
 nav: Providers
 network: true
-overview: 'ZnanyLekarz publishes 1 API on the [APIs.io](https://apis.io/) network: Docplanner Integrations API. Tagged areas include Company, Healthcare, Health Tech, Appointments, and Booking.
+overview: 'ZnanyLekarz publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, API Notification Callbacks API, Bookings API, and 8 more. Tagged areas include Company, Healthcare, Health Tech, Appointments, and Booking.
 
 
   The ZnanyLekarz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ZnanyLekarz''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  ZnanyLekarz''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Znanylekarz Plans Pricing
   plan_count: 4
   slug: znanylekarz-plans-pricing
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Znanylekarz Rate Limits
@@ -234,7 +289,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 71.2
+  composite: 72.2
   coverage:
     artifact_dirs: 24
     catalog_earned: 57.0
@@ -242,11 +297,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 61.7
+    contract_quality: 65.5
     developer_ergonomics: 75.6
     discoverability: 75.9
     operational_transparency: 73.7
@@ -265,7 +320,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -275,7 +330,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

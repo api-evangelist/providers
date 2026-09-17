@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://developers.sendinblue.com/docs
@@ -72,7 +72,7 @@ overview: 'Sendinblue publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   The Sendinblue catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 15
+random_paper: 9
 rules:
 - effective_rule_count: 35
   extends:
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

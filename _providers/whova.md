@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Modeled view of Whova's attendee integration surface. Whova exposes attendee data to organizers only through the Zapier CRM integration - a Get Attendees trigger that fires when the attendee list chan
@@ -95,7 +95,7 @@ plans:
 - name: Whova Plans Pricing
   plan_count: 2
   slug: whova-plans-pricing
-random_paper: 3
+random_paper: 21
 score:
   band: emerging
   composite: 13.5
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

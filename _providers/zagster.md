@@ -24,7 +24,7 @@ name: Zagster
 nav: Providers
 network: true
 overview: Zagster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bike Share, Mobility, Transportation, and Defunct.
-random_paper: 12
+random_paper: 20
 screenshot: https://raw.githubusercontent.com/api-evangelist/zagster/refs/heads/main/screenshots/zagster-2026-09-02T171432.png
 slug: zagster
 tags:

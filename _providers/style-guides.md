@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 11
 apis:
 - description: Microsoft's organization-wide REST API design guidelines, originally published in 2016 and now maintained as separate Azure and Microsoft Graph guideline documents under the umbrella Guidelines.md. Li
@@ -214,7 +214,7 @@ overview: 'API Style Guides publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   API Style Guides'' developer surface includes code examples and 14 more developer resources.'
-random_paper: 8
+random_paper: 15
 rules:
 - effective_rule_count: 5
   extends: []
@@ -246,7 +246,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 21.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

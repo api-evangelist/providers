@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Cabela's offers an online storefront for hunting, fishing, camping, and outdoor gear, along with store locator, customer service, and loyalty program pages. No public developer API is currently docume
@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: B+E Brokers $324 million Cabela's Sale-leaseback ...
   url: https://www.24-7pressrelease.com/press-release/463191/be-brokers-324-million-cabelas-sale-leaseback-through-proprietary-digital-platform
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Cabelas Rate Limits
@@ -152,7 +152,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

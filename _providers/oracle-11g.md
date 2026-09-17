@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Java Database Connectivity driver for connecting Java applications to Oracle 11g.
@@ -50,6 +50,10 @@ apis:
   slug: oracle-database-11g-rest-data-services
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/oracle-11g/refs/heads/main/security/oracle-11g-domain-security.yml
   title: ''
@@ -71,19 +75,19 @@ finops:
   slug: oracle-11g-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-11g.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Oracle Database 11g
 nav: Providers
 network: true
 overview: 'Oracle Database 11g publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Enterprise, Oracle, PL/SQL, and RDBMS.
 
 
-  Oracle Database 11g''s developer surface includes documentation and 2 more developer resources.'
+  Oracle Database 11g''s developer surface includes documentation and 3 more developer resources.'
 plans:
 - name: Oracle 11G Plans Pricing
   plan_count: 3
   slug: oracle-11g-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Oracle 11G Rate Limits
@@ -108,7 +112,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -128,4 +132,5 @@ tags:
 - PL/SQL
 - RDBMS
 - SQL
+website: https://oracle.com
 ---

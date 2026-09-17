@@ -39,14 +39,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 4
+- acting_count: 6
   human_in_the_loop: 0
   name: Vim Agentic Access
-  operation_count: 4
+  operation_count: 10
   slug: vim-agentic-access
-  summary_line: 4 operations · 4 acting
+  summary_line: 10 operations · 6 acting
 api_count: 2
 apis:
 - description: The Vim Canvas developer platform and VimOS.js JavaScript SDK for embedding applications at the point of care. Reads EHR state (Patient, Encounter, Orders, Referral, Claim, plus problem/medication/all
@@ -113,15 +113,15 @@ common:
   type: CapabilityMap
   url: capabilities/vim-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-data-source-openapi-original.json
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/_original/vim-data-source-openapi-original.json
   title: ''
   type: OpenAPI
-  url: openapi/vim-data-source-openapi-original.json
+  url: openapi/_original/vim-data-source-openapi-original.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-rest-api-openapi-original.json
+  href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/_original/vim-rest-api-openapi-original.json
   title: ''
   type: OpenAPI
-  url: openapi/vim-rest-api-openapi-original.json
+  url: openapi/_original/vim-rest-api-openapi-original.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/mcp/vim-mcp.yml
   title: ''
@@ -330,7 +330,7 @@ description: Vim is a United States healthcare technology company (getvim.com) t
   an HL7 FHIR API and publishes no FHIR CapabilityStatement. The API is available only to application servers hosted within the United States.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-08-15'
+modified: '2026-09-16'
 name: Vim
 nav: Providers
 network: true
@@ -345,7 +345,7 @@ plans:
 - name: Vim Plans Pricing
   plan_count: 0
   slug: vim-plans-pricing
-random_paper: 17
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Vim Rate Limits
@@ -357,7 +357,7 @@ scopes:
   summary_line: 4 scopes · implicit/clientCredentials
 score:
   band: strong
-  composite: 64.2
+  composite: 64.4
   coverage:
     artifact_dirs: 25
     catalog_earned: 44.0
@@ -365,11 +365,11 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 59.4
+    contract_quality: 60.0
     developer_ergonomics: 78.0
     discoverability: 66.7
     operational_transparency: 84.2
@@ -402,7 +402,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

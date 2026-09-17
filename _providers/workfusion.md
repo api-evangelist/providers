@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: Launches, feeds and reads results from Business Processes (BPs) and Manual Tasks on the Work.AI platform. Covers the BP lifecycle (draft, processing, paused, completed) with create/start/pause/stop ac
@@ -182,7 +182,7 @@ plans:
 - name: Workfusion Plans Pricing
   plan_count: 0
   slug: workfusion-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Workfusion Rate Limits
@@ -220,7 +220,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 7
 common:
@@ -184,7 +184,7 @@ plans:
 - name: Liqid Plans Pricing
   plan_count: 6
   slug: liqid-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Liqid Rate Limits
@@ -224,7 +224,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

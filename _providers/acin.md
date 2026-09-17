@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The GraphQL gateway that backs the Acin / CUBE Platform web application. It is served from Acin's own Azure API Management instance at apim-prod.acin.com and is referenced by name in the application b
@@ -161,7 +161,7 @@ plans:
 - name: Acin Plans Pricing
   plan_count: 0
   slug: acin-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Acin Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

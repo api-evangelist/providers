@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -55,11 +55,6 @@ apis:
   description: The Honeycomb Queries API allows developers to programmatically create and manage query specifications within Honeycomb. Queries are used to identify and reference queries across other parts of the AP
   name: Honeycomb Queries API
   slug: queries-api
-- baseURL: https://api.honeycomb.io
-  baseurl_source: declared
-  description: The Honeycomb SLOs API enables developers to define and monitor Service Level Objectives programmatically. It supports creating, listing, updating, and deleting SLO objects for an organization. Combin
-  name: Honeycomb SLOs API
-  slug: slos-api
 - baseURL: https://api.honeycomb.io
   baseurl_source: declared
   description: 'The Honeycomb Datasets API provides management capabilities for datasets, which represent collections of related events from the same source. It allows developers to list, create, and update datasets '
@@ -155,6 +150,11 @@ apis:
   description: Visualize relationships between services using dependency requests.
   name: honeycomb Service Maps API
   slug: honeycomb-service-maps-api
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: Define and monitor Service Level Objectives for your organization.
+  name: Honeycomb SL Os API
+  slug: honeycomb-slos-api
 artifact_total: 128
 asyncapis:
 - description: 'AsyncAPI description of Honeycomb''s event-driven and streaming-style surfaces. Honeycomb does not publish a long-lived bidirectional streaming API (no public Kafka topic, no WebSocket, no Server-Sent '
@@ -491,11 +491,11 @@ jsonld:
   property_count: 11
   slug: honeycomb-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Honeycomb
 nav: Providers
 network: true
-overview: 'Honeycomb publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Events API, Queries API, SLOs API, and 19 more.
+overview: 'Honeycomb publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Events API, Queries API, Datasets API, and 19 more. Tagged areas include Observability, Telemetry, Analytics, and Data Management.
 
 
   The Honeycomb catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -506,7 +506,7 @@ plans:
 - name: Honeycomb Plans Pricing
   plan_count: 3
   slug: honeycomb-plans-pricing
-random_paper: 19
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Honeycomb Rate Limits
@@ -560,11 +560,8 @@ score:
       marker_coverage: 0.0
       total: 22
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -584,5 +581,10 @@ security:
   slug: honeycomb-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: honeycomb
+tags:
+- Observability
+- Telemetry
+- Analytics
+- Data Management
 website: https://www.honeycomb.io/
 ---

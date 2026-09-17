@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Kitex is a high-performance, extensible RPC framework for building microservices in Go, developed by ByteDance. It supports Thrift and Protocol Buffers serialization, provides built-in service governa
@@ -106,7 +106,7 @@ modified: '2026-04-28'
 name: Kitex
 nav: Providers
 network: true
-overview: 'Kitex publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Frameworks, Go, High Performance, Microservices, and Protocol Buffers.
+overview: 'Kitex publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Go, High Performance, Microservices, and Protocol Buffers.
 
 
   The Kitex catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -117,7 +117,7 @@ plans:
 - name: Kitex Plans Pricing
   plan_count: 3
   slug: kitex-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Kitex Rate Limits
@@ -156,7 +156,7 @@ score:
     score: 65.0
   previous_composite: 24.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -170,7 +170,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: kitex
 tags:
-- Frameworks
+- Framework
 - Go
 - High Performance
 - Microservices

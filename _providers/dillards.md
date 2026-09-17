@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -126,7 +126,7 @@ press:
 - date: '2026-05-25'
   title: Dillard's, Inc. Reports First Quarter Results | Thu, 05/14/2026
   url: https://investor.dillards.com/news-releases/news-release-details/dillards-inc-reports-first-quarter-results-6
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Dillards Rate Limits
@@ -153,7 +153,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 52
 apis:
 - baseURL: https://api.umbrella.com/admin/v2
@@ -799,7 +799,7 @@ plans:
 - name: Cisco Umbrella Plans Pricing
   plan_count: 0
   slug: cisco-umbrella-plans-pricing
-random_paper: 19
+random_paper: 18
 rate_limits:
 - limit_count: 17
   name: Cisco Umbrella Rate Limits
@@ -838,7 +838,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

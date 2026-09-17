@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,11 +68,11 @@ modified: '2026-07-17'
 name: Alpine Bio
 nav: Providers
 network: true
-overview: 'Alpine Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Molecular Farming, Food Ingredients, and Protein.
+overview: 'Alpine Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Molecular Farming, Food Ingredients, and Proteins.
 
 
   Alpine Bio''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 5
+random_paper: 2
 score:
   band: minimal
   composite: 7.6
@@ -99,7 +99,7 @@ score:
       reason: never_enriched
   previous_composite: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -112,7 +112,7 @@ tags:
 - Biotechnology
 - Molecular Farming
 - Food Ingredients
-- Protein
+- Proteins
 - Sustainability
 - Alternative Dairy
 - Bioactives

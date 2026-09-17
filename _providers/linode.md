@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 2
@@ -79,12 +79,12 @@ apis:
 - baseURL: https://api.linode.com/v4
   baseurl_source: declared
   description: Create and manage Linode compute instances, including configuration profiles, disks, backups, networking, migration, resize, and rebuild operations.
-  name: linode Linode Instances API
+  name: linode Instances API
   slug: linode-linode-instances-api
 - baseURL: https://api.linode.com/v4
   baseurl_source: declared
   description: Deploy and manage Kubernetes clusters, node pools, and cluster configurations through the Linode Kubernetes Engine.
-  name: linode Linode Kubernetes Engine (LKE) API
+  name: linode Kubernetes Engine (LKE) API
   slug: linode-linode-kubernetes-engine-lke-api
 - baseURL: https://api.linode.com/v4
   baseurl_source: declared
@@ -146,10 +146,10 @@ apis:
   description: Create and manage Block Storage volumes that can be attached to Linode instances for persistent data storage.
   name: linode Volumes API
   slug: linode-volumes-api
-- baseURL: https://api.linode.com/v4
+- baseURL: https://api.example.com
   baseurl_source: declared
   description: Create and manage Virtual Private Clouds for isolated network environments and subnets for Linode instances.
-  name: linode VPCs API
+  name: Linode VP Cs API
   slug: linode-vpcs-api
 artifact_total: 179
 collections:
@@ -612,7 +612,7 @@ jsonld:
   property_count: 12
   slug: linode-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Linode
 nav: Providers
 network: true
@@ -627,7 +627,7 @@ plans:
 - name: Linode Plans Pricing
   plan_count: 6
   slug: linode-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Linode Rate Limits
@@ -678,7 +678,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

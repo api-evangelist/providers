@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 10
@@ -85,11 +85,6 @@ apis:
   description: The Content selectors API from Sonatype Nexus — 2 operation(s) for content selectors.
   name: Sonatype Nexus Content selectors API
   slug: sonatype-nexus-content-selectors-api
-- baseURL: https://{nexus-host}/service/rest
-  baseurl_source: declared
-  description: The Data Store API from Sonatype Nexus — 1 operation(s) for data store.
-  name: Sonatype Nexus Data Store API
-  slug: sonatype-nexus-data-store-api
 - baseURL: https://{nexus-host}/service/rest
   baseurl_source: declared
   description: The Database Upgrade API from Sonatype Nexus — 1 operation(s) for database upgrade.
@@ -275,6 +270,11 @@ apis:
   description: The Tasks API from Sonatype Nexus — 7 operation(s) for tasks.
   name: Sonatype Nexus Tasks API
   slug: sonatype-nexus-tasks-api
+- baseURL: https://{nexus-host}/service/rest
+  baseurl_source: declared
+  description: The Datastore API from Sonatype Nexus — 1 operation(s) for datastore.
+  name: Sonatype Nexus Datastore API
+  slug: sonatype-nexus-datastore-api
 artifact_total: 108
 collections:
 - collection_type: open
@@ -524,7 +524,7 @@ plans:
 - name: Sonatype Nexus Plans Pricing
   plan_count: 3
   slug: sonatype-nexus-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Sonatype Nexus Rate Limits
@@ -553,19 +553,19 @@ rules:
   slug: sonatype-nexus-rules
 score:
   band: thin
-  composite: 33.4
+  composite: 35.1
   coverage:
     artifact_dirs: 16
-    catalog_earned: 45.5
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 55.0
+    contract_quality: 61.9
     developer_ergonomics: 35.7
     discoverability: 44.4
     operational_transparency: 13.2
@@ -578,7 +578,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

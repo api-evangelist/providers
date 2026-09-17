@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -68,11 +68,6 @@ apis:
   slug: wix-checkout-api
 - baseURL: https://www.wixapis.com
   baseurl_source: spec
-  description: The OAuth API from Wix — 3 operation(s) for oauth.
-  name: Wix OAuth API
-  slug: wix-oauth-api
-- baseURL: https://www.wixapis.com
-  baseurl_source: spec
   description: The Orders API from Wix — 3 operation(s) for orders.
   name: Wix Orders API
   slug: wix-orders-api
@@ -81,6 +76,11 @@ apis:
   description: The Products API from Wix — 4 operation(s) for products.
   name: Wix Products API
   slug: wix-products-api
+- baseURL: https://www.wixapis.com
+  baseurl_source: spec
+  description: The OAuth API from Wix — 3 operation(s) for oauth.
+  name: Wix O Auth API
+  slug: wix-oauth-api
 artifact_total: 49
 asyncapis:
 - description: AsyncAPI specification for the documented Wix webhook surface. Wix delivers webhook events as signed JSON Web Tokens (JWTs) POSTed to subscriber URLs registered in the Wix Dev Center. The JWT body dec
@@ -238,7 +238,7 @@ plans:
 - name: Wix Plans Pricing
   plan_count: 3
   slug: wix-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Wix Rate Limits
@@ -288,7 +288,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

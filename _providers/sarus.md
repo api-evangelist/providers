@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Sarus Gateway is the server component of the Sarus privacy layer. It is deployed inside the customer's own environment (Docker or Kubernetes, on-premises or in AWS/Azure/GCP) and is reached by the
@@ -32,8 +32,13 @@ apis:
 - description: Qrlew is Sarus's open-source (Apache 2.0) SQL manipulation and differential-privacy engine, written in Rust and published under github.com/Qrlew. The Qrlew server wraps it in a small RESTful API — POS
   name: Qrlew Server API
   slug: qrlew-server
-artifact_total: 2
+artifact_total: 6
 common:
+- group: auth
+  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/security/sarus-domain-security.yml
+  title: ''
+  type: DomainSecurity
+  url: security/sarus-domain-security.yml
 - group: commercial
   title: ''
   type: License
@@ -112,32 +117,30 @@ common:
   title: ''
   type: ChangeLog
   url: changelog/sarus-changelog.yml
-- group: commercial
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/plans/sarus-plans-pricing.yml
-  title: ''
-  type: Plans
-  url: plans/sarus-plans-pricing.yml
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/rate-limits/sarus-rate-limits.yml
-  title: ''
-  type: RateLimits
-  url: rate-limits/sarus-rate-limits.yml
 created: '2026-08-17'
 description: Sarus Technologies is a Paris-based privacy-engineering company (Y Combinator W22, founded 2020 by the team behind AlephD) that builds a privacy layer sitting between sensitive data and the analysts, data scientists and LLMs that need it. The Sarus platform deploys inside the customer's own infrastructure — Docker or Kubernetes, on-premises or on AWS, Azure and GCP — and applies differential privacy, DP-trained synthetic data and on-the-fly SQL and Python query rewriting so practitioners can run analytics, machine learning and LLM fine-tuning on data they never see. Developers reach the platform through the first-party 'sarus' Python client for the Sarus Gateway, a BI connector, and Qrlew, Sarus's open-source Rust SQL-rewriting engine. Because the product is customer-deployed, Sarus publishes no hosted, multi-tenant API base URL and no OpenAPI; its public machine-readable surface is the Sarus Data Spec protobuf schema and the Qrlew server's published request examples.
 image: https://cdn.prod.website-files.com/61bc58893bfe8290fd9fa12a/61bc58893bfe827a089fa131_logotype-dark.svg
 layout: provider
-modified: '2026-08-17'
+modified: '2026-09-16'
 name: Sarus
 nav: Providers
 network: true
 overview: 'Sarus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Data, Privacy, Differential Privacy, and Synthetic Data.
 
 
-  Sarus'' developer surface includes documentation, engineering blog, support, code examples, authentication, changelog, and 13 more developer resources.'
-random_paper: 12
+  Sarus'' developer surface includes documentation, engineering blog, support, code examples, authentication, changelog, and 12 more developer resources.'
+plans:
+- name: Sarus Plans Pricing
+  plan_count: 0
+  slug: sarus-plans-pricing
+random_paper: 8
+rate_limits:
+- limit_count: 0
+  name: Sarus Rate Limits
+  slug: sarus-rate-limits
 score:
   band: thin
-  composite: 26.8
+  composite: 27.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -145,10 +148,10 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 10.5
-    contract_governance: 0.0
+    contract_governance: 4.5
     contract_quality: 33.3
     developer_ergonomics: 35.7
     discoverability: 68.5
@@ -159,21 +162,26 @@ score:
     regions:
     - europe
     - france-iberia
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 26.8
+  provenance:
+    conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/screenshots/sarus-2026-09-02T154419.png
+security:
+- kind: authentication
+  name: Sarus Authentication
+  slug: sarus-authentication
+  summary_line: session-cookie/openIdConnect · 3 schemes
+- kind: domain-security
+  name: Sarus Domain Security
+  slug: sarus-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: sarus
 tags:
 - Company

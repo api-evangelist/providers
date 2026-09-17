@@ -13,7 +13,8 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,21 +23,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: platform
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 45.4
-  scored_at: '2026-09-15'
+  score: 39.2
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,76 +47,66 @@ agentic_access:
   summary_line: 19 operations
 api_count: 13
 apis:
-- baseURL: https://avatars.abstractapi.com/v1/
-  baseurl_source: declared
-  description: User avatar generation operations
-  name: Abstract API Avatars API
-  slug: abstract-api-avatars-api
-- baseURL: https://companyenrichment.abstractapi.com/v1/
-  baseurl_source: declared
-  description: Company data enrichment operations
-  name: Abstract API Company Enrichment API
-  slug: abstract-api-company-enrichment-api
-- baseURL: https://emailreputation.abstractapi.com/v1/
-  baseurl_source: declared
-  description: Email validation and reputation operations
-  name: Abstract API Email Reputation API
-  slug: abstract-api-email-reputation-api
-- baseURL: https://exchange-rates.abstractapi.com/v1/
-  baseurl_source: declared
-  description: Currency exchange rate operations
-  name: Abstract API Exchange Rates API
-  slug: abstract-api-exchange-rates-api
-- baseURL: https://ibanvalidation.abstractapi.com/v1/
-  baseurl_source: declared
-  description: IBAN number validation operations
-  name: Abstract API IBAN Validation API
-  slug: abstract-api-iban-validation-api
-- baseURL: https://images.abstractapi.com/v1/
-  baseurl_source: declared
-  description: Image compression and optimization operations
-  name: Abstract API Image Processing API
-  slug: abstract-api-image-processing-api
-- baseURL: https://ipgeolocation.abstractapi.com/v1/
-  baseurl_source: declared
-  description: IP address geolocation operations
-  name: Abstract API IP Geolocation API
-  slug: abstract-api-ip-geolocation-api
-- baseURL: https://ip-intelligence.abstractapi.com/v1/
-  baseurl_source: declared
-  description: Advanced IP address intelligence and security operations
-  name: Abstract API IP Intelligence API
-  slug: abstract-api-ip-intelligence-api
-- baseURL: https://phoneintelligence.abstractapi.com/v1/
-  baseurl_source: declared
-  description: Phone number validation and intelligence
-  name: Abstract API Phone Intelligence API
-  slug: abstract-api-phone-intelligence-api
-- baseURL: https://holidays.abstractapi.com/v1/
-  baseurl_source: declared
-  description: Holiday lookup operations
-  name: Abstract API Public Holidays API
-  slug: abstract-api-public-holidays-api
-- baseURL: https://timezone.abstractapi.com/v1/
-  baseurl_source: declared
-  description: Timezone lookup and conversion operations
-  name: Abstract API Timezones API
-  slug: abstract-api-timezones-api
 - baseURL: https://vat.abstractapi.com/v1/
   baseurl_source: declared
   description: VAT number validation and rate lookup
   name: Abstract API VAT Validation API
   slug: abstract-api-vat-validation-api
-- baseURL: https://scrape.abstractapi.com/v1/
+- baseURL: https://avatars.abstractapi.com/v1/
   baseurl_source: declared
-  description: Web content extraction operations
-  name: Abstract API Web Scraping API
-  slug: abstract-api-web-scraping-api
-- baseURL: https://screenshot.abstractapi.com/v1/
+  description: The Abstract Avatars API API from Abstract API — 1 operation(s) for abstract avatars api.
+  name: Abstract API Abstract Avatars API
+  slug: abstract-api-abstract-avatars-api-api
+- baseURL: https://avatars.abstractapi.com/v1/
   baseurl_source: declared
-  description: Website screenshot capture operations
-  name: Abstract API Website Screenshot API
-  slug: abstract-api-website-screenshot-api
+  description: The Calculate API from Abstract API — 1 operation(s) for calculate.
+  name: Abstract API Calculate API
+  slug: abstract-api-calculate-api
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: The Categories API from Abstract API — 1 operation(s) for categories.
+  name: Abstract API Categories API
+  slug: abstract-api-categories-api
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: The Convert API from Abstract API — 1 operation(s) for convert.
+  name: Abstract API Convert API
+  slug: abstract-api-convert-api
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: The Convert Time API from Abstract API — 1 operation(s) for convert time.
+  name: Abstract API Convert Time API
+  slug: abstract-api-convert-time-api
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: The Current Time API from Abstract API — 1 operation(s) for current time.
+  name: Abstract API Current Time API
+  slug: abstract-api-current-time-api
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: The Historical API from Abstract API — 1 operation(s) for historical.
+  name: Abstract API Historical API
+  slug: abstract-api-historical-api
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: The Live API from Abstract API — 1 operation(s) for live.
+  name: Abstract API Live API
+  slug: abstract-api-live-api
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: The Upload API from Abstract API — 1 operation(s) for upload.
+  name: Abstract API Upload API
+  slug: abstract-api-upload-api
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: The Url API from Abstract API — 1 operation(s) for url.
+  name: Abstract API URL API
+  slug: abstract-api-url-api
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: The Validate API from Abstract API — 1 operation(s) for validate.
+  name: Abstract API Validate API
+  slug: abstract-api-validate-api
 arazzos:
 - description: Enrich a company by domain, screenshot its site, and generate a name avatar.
   name: Abstract API Company Enrichment to Screenshot and Avatar
@@ -147,7 +138,7 @@ arazzos:
 - description: Validate a VAT number, fetch its country rates, then calculate VAT on an amount.
   name: Abstract API VAT Validation to Rates and Calculation
   slug: abstract-api-vat-validation-to-rates-and-calculation-workflow
-artifact_total: 231
+artifact_total: 229
 collections:
 - collection_type: postman
   name: Abstract API - Avatars API
@@ -237,6 +228,71 @@ collections:
   name: Abstract API Avatars Website Screenshot API
   slug: open-abstract-api-website-screenshot-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-avatars-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-avatars-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-company-enrichment-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-company-enrichment-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-email-reputation-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-email-reputation-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-exchange-rates-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-exchange-rates-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-iban-validation-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-iban-validation-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-image-processing-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-image-processing-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-ip-geolocation-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-ip-geolocation-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-ip-intelligence-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-ip-intelligence-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-phone-intelligence-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-phone-intelligence-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-public-holidays-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-public-holidays-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-timezones-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-timezones-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-web-scraping-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-web-scraping-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/overlays/abstract-api-website-screenshot-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abstract-api-website-screenshot-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/agentic-access/abstract-api-agentic-access.yml
   title: ''
@@ -469,6 +525,10 @@ common:
   title: ''
   type: Pricing
   url: https://www.abstractapi.com/api/email-verification-validation-api
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:team@abstractapi.com
 created: '2025-02-24'
 description: Abstract API is a platform that offers a wide range of API services for developers to easily integrate various functionalities into their applications. Services include IP geolocation, IP intelligence, email validation, phone validation, currency exchange, website screenshots, image processing, web scraping, company enrichment, public holidays, timezone lookup, VAT validation, IBAN validation, and user avatar generation. Abstract API provides a seamless way for developers to access powerful features without having to build them from scratch.
 examples:
@@ -1009,18 +1069,18 @@ modified: '2026-08-29'
 name: Abstract API
 nav: Providers
 network: true
-overview: 'Abstract API publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Company Enrichment API, Email Reputation API, and 11 more. Tagged areas include Avatars, Company Enrichment, Contacts, Currency, and Email Validation.
+overview: 'Abstract API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including VAT Validation API, Abstract Avatars API, Calculate API, and 9 more. Tagged areas include Avatars, Company Enrichment, Contacts, Currency, and Email Validation.
 
 
   The Abstract API catalog on APIs.io includes 13 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Abstract API''s developer surface includes authentication, developer portal, signup flow, documentation, getting-started guide, API reference, support, and 43 more developer resources.'
+  Abstract API''s developer surface includes authentication, developer portal, signup flow, documentation, getting-started guide, API reference, support, and 57 more developer resources.'
 plans:
 - name: Abstract Api Plans Pricing
   plan_count: 5
   slug: abstract-api-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Abstract Api Rate Limits
@@ -1049,7 +1109,7 @@ rules:
   slug: abstract-api-spectral-rules
 score:
   band: strong
-  composite: 57.4
+  composite: 60.4
   coverage:
     artifact_dirs: 30
     catalog_earned: 94.5
@@ -1057,11 +1117,11 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.0
   facets:
     access_clarity: 85.5
     contract_governance: 47.0
-    contract_quality: 31.2
+    contract_quality: 43.3
     developer_ergonomics: 72.6
     discoverability: 75.9
     operational_transparency: 42.1
@@ -1071,13 +1131,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 28
-      marker_coverage: 100.0
-      total: 28
+      derived: 15
+      marker_coverage: 57.7
+      total: 26
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1107,7 +1167,7 @@ tags:
 - Phone Validation
 - Public Holidays
 - Screenshots
-- Timezones
+- Timezone
 - VAT Validation
 - Web Scraping
 website: https://www.abstractapi.com/

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -113,7 +113,7 @@ overview: 'MORI is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   MORI''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 19
+random_paper: 21
 scopes:
 - name: Mori Scopes
   scope_count: 0
@@ -143,7 +143,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

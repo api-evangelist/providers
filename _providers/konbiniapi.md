@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,14 +66,14 @@ apis:
   description: Twenty-two Reddit endpoints — the provider's deepest surface — covering users, subreddits and their structured rules, posts, comments and reply threads, duplicates and crossposts, site-wide feeds, thr
   name: KonbiniAPI Reddit API
   slug: konbiniapi-reddit-api
-- baseURL: https://api.konbiniapi.com/v1
-  baseurl_source: declared
-  description: Seven LinkedIn endpoints covering public member profiles, member posts and published articles, company pages and company posts, single posts with inline comments, and video post transcripts. The newes
-  name: KonbiniAPI LinkedIn API
-  slug: konbiniapi-linkedin-api
 - description: Hosted remote MCP server exposing one typed tool for every one of the 67 REST operations, over streamable HTTP with OAuth 2.1 (authorization code + PKCE) or a Bearer API key. Adds three MCP-only proje
   name: KonbiniAPI MCP Server
   slug: konbiniapi-mcp
+- baseURL: https://api.konbiniapi.com/v1
+  baseurl_source: declared
+  description: LinkedIn data endpoints
+  name: KonbiniAPI Linked In API
+  slug: konbiniapi-linked-in-api
 artifact_total: 106
 collections:
 - collection_type: open
@@ -95,6 +95,11 @@ collections:
   name: KonbiniAPI
   slug: open-konbiniapi
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/overlays/konbiniapi-linkedin-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/konbiniapi-linkedin-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -602,12 +607,12 @@ overview: 'KonbiniAPI publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The KonbiniAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  KonbiniAPI''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, signup flow, pricing, and 43 more developer resources.'
+  KonbiniAPI''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, signup flow, pricing, and 44 more developer resources.'
 plans:
 - name: Konbiniapi Plans Pricing
   plan_count: 6
   slug: konbiniapi-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Konbiniapi Rate Limits
@@ -675,7 +680,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

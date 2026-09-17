@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,8 +48,8 @@ modified: '2026-07-21'
 name: Tiamat
 nav: Providers
 network: true
-overview: Tiamat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Startup, Venture Backed, and Artificial Intelligence.
-random_paper: 10
+overview: Tiamat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Startups, Venture Backed, and Artificial Intelligence.
+random_paper: 2
 score:
   band: minimal
   composite: 5.0
@@ -76,7 +76,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -86,7 +86,7 @@ slug: tiamat
 tags:
 - Company
 - Frontier Tech
-- Startup
+- Startups
 - Venture Backed
 - Artificial Intelligence
 website: https://tiamat.com/

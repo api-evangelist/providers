@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -426,11 +426,6 @@ apis:
   slug: iso-new-england-performancescore-api
 - baseURL: https://webservices.iso-ne.com/api/v1.1
   baseurl_source: declared
-  description: 2 path template(s) under /powersystem in the published ISO New England Web Services API v1.1 documentation.
-  name: ISO New England Powersystem API
-  slug: iso-new-england-powersystem-api
-- baseURL: https://webservices.iso-ne.com/api/v1.1
-  baseurl_source: declared
   description: 4 path template(s) under /powersystemconditions in the published ISO New England Web Services API v1.1 documentation.
   name: ISO New England Powersystemconditions API
   slug: iso-new-england-powersystemconditions-api
@@ -499,6 +494,11 @@ apis:
   description: 8 path template(s) under /whlsecost in the published ISO New England Web Services API v1.1 documentation.
   name: ISO New England Whlsecost API
   slug: iso-new-england-whlsecost-api
+- baseURL: https://webservices.iso-ne.com/api/v1.1
+  baseurl_source: declared
+  description: 2 path template(s) under /powersystem in the published ISO New England Web Services API v1.1 documentation.
+  name: ISO New England Power System API
+  slug: iso-new-england-power-system-api
 arazzos:
 - description: Build a complete current picture of the New England power system - resolve the location registry, check feed freshness, then pull system load, generation fuel mix, Hub price and the hourly load foreca
   name: ISO New England grid snapshot
@@ -533,10 +533,10 @@ common:
   type: Authentication
   url: authentication/iso-new-england-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/openapi/iso-new-england-web-services-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/openapi/_original/iso-new-england-web-services-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/iso-new-england-web-services-openapi.yml
+  url: openapi/_original/iso-new-england-web-services-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/iso-new-england/refs/heads/main/json-schema/iso-new-england-web-services-schemas.json
   title: ''
@@ -761,7 +761,7 @@ json_schemas:
   property_count: 0
   slug: iso-new-england-web-services-schemas
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: ISO New England
 nav: Providers
 network: true
@@ -769,7 +769,7 @@ overview: 'ISO New England publishes 91 APIs on the [APIs.io](https://apis.io/) 
 
 
   ISO New England''s developer surface includes authentication, code examples, changelog, developer portal, API reference, documentation, signup flow, and 37 more developer resources.'
-random_paper: 10
+random_paper: 6
 score:
   band: developing
   composite: 50.5
@@ -784,7 +784,7 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 19.7
-    contract_quality: 61.1
+    contract_quality: 60.8
     developer_ergonomics: 58.9
     discoverability: 48.1
     operational_transparency: 23.7
@@ -813,7 +813,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

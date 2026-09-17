@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,19 +45,9 @@ api_count: 2
 apis:
 - baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
   baseurl_source: declared
-  description: The CapabilityStatement API from Canada Health Infoway — 1 operation(s) for capabilitystatement.
-  name: Canada Health Infoway Capability Statement API
-  slug: canada-health-infoway-capabilitystatement-api
-- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
-  baseurl_source: declared
   description: The CodeSystem API from Canada Health Infoway — 5 operation(s) for codesystem.
   name: Canada Health Infoway Code System API
   slug: canada-health-infoway-codesystem-api
-- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
-  baseurl_source: declared
-  description: APIs for accessing code system data
-  name: Canada Health Infoway Codesystems API
-  slug: canada-health-infoway-codesystems-api
 - baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
   baseurl_source: declared
   description: The ConceptMap API from Canada Health Infoway — 5 operation(s) for conceptmap.
@@ -80,11 +70,6 @@ apis:
   slug: canada-health-infoway-packages-api
 - baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
   baseurl_source: declared
-  description: APIs for accessing resource location data
-  name: Canada Health Infoway Resourcelocations API
-  slug: canada-health-infoway-resourcelocations-api
-- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
-  baseurl_source: declared
   description: APIs for programmatically logging in
   name: Canada Health Infoway Session API
   slug: canada-health-infoway-session-api
@@ -98,6 +83,21 @@ apis:
   description: The ValueSet API from Canada Health Infoway — 8 operation(s) for valueset.
   name: Canada Health Infoway Value Set API
   slug: canada-health-infoway-valueset-api
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: The Capability Statement API from Canada Health Infoway — 1 operation(s) for capability statement.
+  name: Canada Health Infoway Capability Statement API
+  slug: canada-health-infoway-capability-statement-api
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: APIs for accessing code system data
+  name: Canada Health Infoway code systems API
+  slug: canada-health-infoway-code-systems-api
+- baseURL: https://termapi.infoway-inforoute.ca/fhir/v1
+  baseurl_source: declared
+  description: APIs for accessing resource location data
+  name: Canada Health Infoway Resource Locations API
+  slug: canada-health-infoway-resource-locations-api
 artifact_total: 17
 asyncapis:
 - description: ''
@@ -235,17 +235,17 @@ modified: '2026-07-24'
 name: Canada Health Infoway
 nav: Providers
 network: true
-overview: 'Canada Health Infoway publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Capability Statement API, Code System API, Codesystems API, and 8 more. Tagged areas include Healthcare, Canada, FHIR, HL7, and Interoperability.
+overview: 'Canada Health Infoway publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Code System API, Concept Map API, Maps API, and 8 more. Tagged areas include Healthcare, Canada, FHIR, HL7, and Interoperability.
 
 
   The Canada Health Infoway catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Canada Health Infoway''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 20 more developer resources.'
-random_paper: 6
+random_paper: 17
 score:
   band: developing
-  composite: 41.7
+  composite: 41.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -253,11 +253,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 53.0
+    contract_quality: 52.4
     developer_ergonomics: 42.3
     discoverability: 75.9
     operational_transparency: 7.9
@@ -286,7 +286,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

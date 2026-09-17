@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 134
 apis:
 - baseURL: https://api.impact.com/Advertisers/
@@ -260,11 +260,6 @@ apis:
   slug: impact-radius-report-export-api
 - baseURL: https://api.impact.com/Advertisers/
   baseurl_source: declared
-  description: Asynchronously export reports through impact.com's Jobs system. Recommended for all report downloads.
-  name: Impact Radius Report Export API
-  slug: impact-radius-reportexport-api
-- baseURL: https://api.impact.com/Advertisers/
-  baseurl_source: declared
   description: List available reports, fetch their metadata, and run them synchronously.
   name: Impact Radius Reports API
   slug: impact-radius-reports-api
@@ -343,7 +338,7 @@ apis:
   description: Endpoints for retrieving and updating your bank account, PayPal, and payment scheduling settings.
   name: Impact Radius Withdrawal Settings API
   slug: impact-radius-withdrawal-settings-api
-artifact_total: 136
+artifact_total: 135
 asyncapis:
 - description: ''
   name: Impact Radius Advocate Webhooks
@@ -782,7 +777,7 @@ modified: '2026-08-13'
 name: Impact Radius
 nav: Providers
 network: true
-overview: 'Impact Radius publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Action Inquiries API, and 58 more. Tagged areas include Company, Partnership Management, Affiliate Marketing, Influencer Marketing, and Referral Marketing.
+overview: 'Impact Radius publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Action Inquiries API, and 57 more. Tagged areas include Company, Partnership Management, Affiliate Marketing, Influencer Marketing, and Referral Marketing.
 
 
   The Impact Radius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -793,7 +788,7 @@ plans:
 - name: Impact Radius Plans Pricing
   plan_count: 2
   slug: impact-radius-plans-pricing
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Impact Radius Rate Limits
@@ -812,7 +807,7 @@ score:
   facets:
     access_clarity: 75.0
     contract_governance: 4.5
-    contract_quality: 64.2
+    contract_quality: 64.1
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 92.1
@@ -823,11 +818,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 61
+      total: 60
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -67,11 +67,6 @@ apis:
   slug: repsly-photos-api
 - baseURL: https://api.repsly.com/v3
   baseurl_source: declared
-  description: Export and import pricelists and pricelist items.
-  name: Repsly Pricelists API
-  slug: repsly-pricelists-api
-- baseURL: https://api.repsly.com/v3
-  baseurl_source: declared
   description: Export and import products, product lists, packages, and document types.
   name: Repsly Products API
   slug: repsly-products-api
@@ -90,6 +85,11 @@ apis:
   description: Export visits, visit schedules, and realizations; import schedules.
   name: Repsly Visits API
   slug: repsly-visits-api
+- baseURL: https://api.repsly.com/v3
+  baseurl_source: declared
+  description: Export and import pricelists and pricelist items.
+  name: Repsly Price Lists API
+  slug: repsly-price-lists-api
 artifact_total: 27
 collections:
 - collection_type: open
@@ -197,7 +197,7 @@ plans:
 - name: Repsly Plans Pricing
   plan_count: 2
   slug: repsly-plans-pricing
-random_paper: 20
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Repsly Rate Limits
@@ -229,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

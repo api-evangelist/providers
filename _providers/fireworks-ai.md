@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 227
   human_in_the_loop: 2
@@ -52,21 +52,6 @@ apis:
   slug: fireworks-ai-anthropic-messages-openapi-other-api
 - baseURL: https://api.fireworks.ai/inference/v1
   baseurl_source: declared
-  description: The Chat API from Fireworks AI — 1 operation(s) for chat.
-  name: Fireworks AI Chat API
-  slug: fireworks-ai-chat-api
-- baseURL: https://api.fireworks.ai/inference/v1
-  baseurl_source: declared
-  description: The Completions API from Fireworks AI — 1 operation(s) for completions.
-  name: Fireworks AI Completions API
-  slug: fireworks-ai-completions-api
-- baseURL: https://api.fireworks.ai/inference/v1
-  baseurl_source: declared
-  description: The Gateway API from Fireworks AI — 126 operation(s) for gateway.
-  name: Fireworks AI Gateway API
-  slug: fireworks-ai-gateway-api
-- baseURL: https://api.fireworks.ai/inference/v1
-  baseurl_source: declared
   description: The gateway-extra.openapi_Gateway API from Fireworks AI — 1 operation(s) for gateway-extra.openapi_gateway.
   name: Fireworks AI gateway-extra.openapi_Gateway API
   slug: fireworks-ai-gateway-extra-openapi-gateway-api
@@ -77,16 +62,6 @@ apis:
   slug: fireworks-ai-gateway-openapi-gateway-api
 - baseURL: https://api.fireworks.ai/inference/v1
   baseurl_source: declared
-  description: The Messages API from Fireworks AI — 1 operation(s) for messages.
-  name: Fireworks AI Messages API
-  slug: fireworks-ai-messages-api
-- baseURL: https://api.fireworks.ai/inference/v1
-  baseurl_source: declared
-  description: The Responses API from Fireworks AI — 2 operation(s) for responses.
-  name: Fireworks AI Responses API
-  slug: fireworks-ai-responses-api
-- baseURL: https://api.fireworks.ai/inference/v1
-  baseurl_source: declared
   description: The responses.openapi_other API from Fireworks AI — 2 operation(s) for responses.openapi_other.
   name: Fireworks AI responses.openapi_other API
   slug: fireworks-ai-responses-openapi-other-api
@@ -95,7 +70,7 @@ apis:
   description: The text-completion.openapi_other API from Fireworks AI — 2 operation(s) for text-completion.openapi_other.
   name: Fireworks AI text-completion.openapi_other API
   slug: fireworks-ai-text-completion-openapi-other-api
-artifact_total: 35
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI description of the Fireworks AI streaming inference surface. Fireworks streams generation deltas over HTTP using Server-Sent Events (SSE) on a single `text/event-stream` response when `stream
   name: Fireworks AI Streaming Inference API
@@ -220,7 +195,7 @@ modified: '2026-05-29'
 name: Fireworks AI
 nav: Providers
 network: true
-overview: 'Fireworks AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including anthropic-messages.openapi_other API, Chat API, Completions API, and 7 more. Tagged areas include Artificial Intelligence, LLM, Inference, Multi-Modal, and Fine-Tuning.
+overview: 'Fireworks AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including anthropic-messages.openapi_other API, gateway-extra.openapi_Gateway API, gateway.openapi_Gateway API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Inference, Multi-Modal, and Fine-Tuning.
 
 
   The Fireworks AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -231,7 +206,7 @@ plans:
 - name: Fireworks Ai Plans Pricing
   plan_count: 5
   slug: fireworks-ai-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Fireworks Ai Rate Limits
@@ -250,7 +225,7 @@ rules:
   slug: fireworks-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 33.6
+  composite: 32.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 52.8
@@ -258,11 +233,11 @@ score:
     catalog_gap: 62.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 15.8
     contract_governance: 11.4
-    contract_quality: 56.3
+    contract_quality: 52.1
     developer_ergonomics: 31.0
     discoverability: 81.5
     operational_transparency: 10.5
@@ -270,13 +245,13 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
-      derived: 2
+      callable: 0.0
+      derived: 1
       marker_coverage: 20.0
-      total: 10
+      total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

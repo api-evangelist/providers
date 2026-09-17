@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Apache Calcite Java API provides SQL parsing, validation, query planning, and optimization capabilities for embedding in JVM applications. It exposes a relational algebra framework and pluggable o
@@ -166,7 +166,7 @@ plans:
 - name: Apache Calcite Plans Pricing
   plan_count: 3
   slug: apache-calcite-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Apache Calcite Rate Limits
@@ -194,7 +194,7 @@ score:
     score: 50.0
   previous_composite: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

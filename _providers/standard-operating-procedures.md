@@ -55,7 +55,7 @@ overview: 'Standard Operating Procedures is profiled on the [APIs.io](https://ap
 
 
   Standard Operating Procedures'' developer surface includes documentation and 2 more developer resources.'
-random_paper: 10
+random_paper: 0
 rules:
 - effective_rule_count: 7
   extends: []

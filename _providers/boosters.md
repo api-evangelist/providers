@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ created: '2026-07-17'
 description: Boosters is a Seoul-based global commerce company and brand aggregator, founded in 2019, that acquires and accelerates the growth of emerging Korean direct-to-consumer (D2C) brands, with a particular focus on K-Beauty. Boosters takes over small and medium-sized Korean brands that have strong product potential but struggle with marketing, distribution, and inventory management, then scales them across domestic and international commerce channels. Portfolio brands include Eqqualberry and Branden. The company raised a USD 10 million Series A round in 2022 with participation from Partech and other investors. Boosters is a consumer commerce operator rather than a developer platform, and does not currently publish a public developer API, OpenAPI specification, SDK, or developer portal.
 image: https://www.boosters.kr/bi/SEO.jpg
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Boosters
 nav: Providers
 network: true
@@ -65,7 +65,7 @@ overview: 'Boosters is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Boosters'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 20
+random_paper: 1
 score:
   band: minimal
   composite: 5.5
@@ -93,7 +93,7 @@ score:
     - japan-korea
   previous_composite: 5.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -114,6 +114,7 @@ tags:
 - K-Beauty
 - D2C
 - Brand Aggregator
-- Korea
+- South Korea
+- Direct to Consumer
 website: https://en.boosters.kr/
 ---

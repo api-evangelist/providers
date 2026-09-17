@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -54,7 +54,7 @@ apis:
 - baseURL: http://localhost:8897
   baseurl_source: spec
   description: The Proxy API from Dev Proxy — 4 operation(s) for proxy.
-  name: Dev Proxy Proxy API
+  name: Dev Proxy API
   slug: dev-proxy-proxy-api
 artifact_total: 22
 collections:
@@ -110,11 +110,11 @@ finops:
   slug: dev-proxy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dev-proxy.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Dev Proxy
 nav: Providers
 network: true
-overview: 'Dev Proxy publishes 2 APIs on the [APIs.io](https://apis.io/) network: JWT API and Proxy API. Tagged areas include Debugging Proxy and Proxy.
+overview: 'Dev Proxy publishes 2 APIs on the [APIs.io](https://apis.io/) network, including JWT API, and 1 more. Tagged areas include Debugging Proxy and Proxy.
 
 
   Dev Proxy''s developer surface includes documentation and 6 more developer resources.'
@@ -154,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

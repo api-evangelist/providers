@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,11 +77,16 @@ apis:
   slug: metalenz-discovery-api
 - baseURL: https://metalenz.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for metalenz.com URLs, returning embeddable rich metadata — title, author, provider, thumbnail and iframe HTML — for any published post or page. The endpoint is adv
-  name: Metalenz oEmbed API
-  slug: metalenz-oembed-api
+  description: oEmbed 1.0 rich-embed provider for metalenz.com URLs.
+  name: Metalenz o Embed API
+  slug: metalenz-o-embed-api
 artifact_total: 12
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/overlays/metalenz-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/metalenz-oembed-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/metalenz/refs/heads/main/capabilities/metalenz-capability-edges.yml
   title: ''
@@ -246,12 +251,12 @@ network: true
 overview: 'Metalenz publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Press Releases API, Pages API, Media API, and 4 more. Tagged areas include Company, Semiconductors, Optics, Meta-Optics, and Metasurface.
 
 
-  Metalenz''s developer surface includes product news, support, authentication, code examples, and 30 more developer resources.'
+  Metalenz''s developer surface includes product news, support, authentication, code examples, and 31 more developer resources.'
 plans:
 - name: Metalenz Plans Pricing
   plan_count: 0
   slug: metalenz-plans-pricing
-random_paper: 3
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Metalenz Rate Limits
@@ -286,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

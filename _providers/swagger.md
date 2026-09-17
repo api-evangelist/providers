@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Swagger UI renders OpenAPI specifications as interactive API documentation, allowing developers to explore and test API endpoints directly in the browser. It generates a rich HTML interface with try-i
@@ -161,7 +161,7 @@ plans:
 - name: Swagger Plans Pricing
   plan_count: 3
   slug: swagger-plans-pricing
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Swagger Rate Limits
@@ -211,7 +211,7 @@ score:
     score: 85.0
   previous_composite: 30.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -230,7 +230,7 @@ tags:
 - Open-Source
 - OpenAPI
 - REST
-- Standard
+- Standards
 - Swagger
 website: https://swagger.io
 ---

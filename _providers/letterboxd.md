@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST API providing access to Letterboxd film data, member profiles, watchlists, ratings, diary log entries, user-created lists, contributors, editorial stories, and cross-catalog search. The base URL '
@@ -41,6 +41,10 @@ apis:
   slug: letterboxd-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://letterboxd.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/letterboxd/refs/heads/main/security/letterboxd-domain-security.yml
   title: ''
@@ -78,19 +82,19 @@ finops:
   slug: finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/letterboxd.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Letterboxd
 nav: Providers
 network: true
 overview: 'Letterboxd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Film, Movies, Social, Reviews, and Watchlist.
 
 
-  Letterboxd''s developer surface includes GitHub presence, engineering blog, FAQ, and 4 more developer resources.'
+  Letterboxd''s developer surface includes GitHub presence, engineering blog, FAQ, and 5 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -115,7 +119,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 31.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -138,4 +142,5 @@ tags:
 - Diary
 - Film Festival
 - Entertainment
+website: https://letterboxd.com
 ---

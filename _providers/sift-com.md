@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
   description: Retrieve and recompute Sift risk scores.
   name: Sift Scores API
   slug: sift-com-scores-api
-- baseURL: https://api.sift.com/v205
+- baseURL: https://api.sift.com/v1
   baseurl_source: spec
   description: Send, resend, and check verification challenges.
   name: Sift Verification API
@@ -433,7 +433,7 @@ plans:
 - name: Sift Com Plans Pricing
   plan_count: 5
   slug: sift-com-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 8
   name: Sift Com Rate Limits
@@ -492,7 +492,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

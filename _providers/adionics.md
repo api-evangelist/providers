@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - baseURL: https://www.adionics.com/wp-json
@@ -205,7 +205,7 @@ plans:
 - name: Adionics Plans Pricing
   plan_count: 0
   slug: adionics-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Adionics Rate Limits
@@ -239,7 +239,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

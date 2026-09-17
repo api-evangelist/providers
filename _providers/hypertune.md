@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,11 +48,11 @@ apis:
 - description: Programmatic and Git-based management of flags, experiments, and configuration. Hypertune versions all flags, experiments, analytics events, and app configuration together in a single Git-based histor
   name: Hypertune Management API
   slug: hypertune-management-api
-- baseURL: https://edge.hypertune.com/graphql
+- baseURL: https://edge.hypertune.com
   baseurl_source: declared
-  description: The GraphQL API from Hypertune — 1 operation(s) for graphql.
-  name: Hypertune GraphQL API
-  slug: hypertune-graphql-api
+  description: The Graph QL API from Hypertune — 1 operation(s) for graph ql.
+  name: Hypertune Graph QL API
+  slug: hypertune-graph-ql-api
 artifact_total: 12
 collections:
 - collection_type: open
@@ -131,7 +131,7 @@ modified: '2026-06-20'
 name: Hypertune
 nav: Providers
 network: true
-overview: 'Hypertune publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Feature Flags, Experimentation, A/B Testing, Analytics, and App Configuration.
+overview: 'Hypertune publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Feature Flags, Experimentation, A/B Testing, Analytics, and App Configuration.
 
 
   Hypertune''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -139,7 +139,7 @@ plans:
 - name: Hypertune Plans Pricing
   plan_count: 4
   slug: hypertune-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Hypertune Rate Limits
@@ -171,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

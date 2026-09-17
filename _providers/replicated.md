@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.replicated.com/vendor/v3
@@ -72,11 +72,6 @@ apis:
   description: The customers API from Replicated — 11 operation(s) for customers.
   name: Replicated customers API
   slug: replicated-customers-api
-- baseURL: https://api.replicated.com/vendor/v3
-  baseurl_source: declared
-  description: The customHostnames API from Replicated — 4 operation(s) for customhostnames.
-  name: Replicated customHostnames API
-  slug: replicated-customhostnames-api
 - baseURL: https://api.replicated.com/vendor/v3
   baseurl_source: declared
   description: The enterprisePortal API from Replicated — 27 operation(s) for enterpriseportal.
@@ -119,11 +114,6 @@ apis:
   slug: replicated-releases-api
 - baseURL: https://api.replicated.com/vendor/v3
   baseurl_source: declared
-  description: The supportBundle API from Replicated — 14 operation(s) for supportbundle.
-  name: Replicated supportBundle API
-  slug: replicated-supportbundle-api
-- baseURL: https://api.replicated.com/vendor/v3
-  baseurl_source: declared
   description: The team API from Replicated — 11 operation(s) for team.
   name: Replicated team API
   slug: replicated-team-api
@@ -145,8 +135,18 @@ apis:
 - baseURL: https://api.replicated.com/vendor/v3
   baseurl_source: declared
   description: The vms API from Replicated — 8 operation(s) for vms.
-  name: Replicated vms API
+  name: Replicated Vms API
   slug: replicated-vms-api
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The Custom Hostnames API from Replicated — 4 operation(s) for custom hostnames.
+  name: Replicated Custom Hostnames API
+  slug: replicated-custom-hostnames-api
+- baseURL: https://api.replicated.com/vendor/v3
+  baseurl_source: declared
+  description: The support Bundle API from Replicated — 14 operation(s) for support bundle.
+  name: Replicated support Bundle API
+  slug: replicated-support-bundle-api
 artifact_total: 72
 asyncapis:
 - description: ''
@@ -473,7 +473,7 @@ overview: 'Replicated publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Replicated''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 3
+random_paper: 19
 score:
   band: strong
   composite: 60.6
@@ -503,7 +503,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

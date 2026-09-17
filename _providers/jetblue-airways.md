@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ press:
 - date: '2026-05-25'
   title: JetBlue Selects ASAPP Artificial Intelligence Platform for ...
   url: https://www.prnewswire.com/news-releases/jetblue-selects-asapp-artificial-intelligence-platform-for-customer-experience-transformation-301215898.html
-random_paper: 6
+random_paper: 20
 score:
   band: minimal
   composite: 3.5
@@ -111,7 +111,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 3.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

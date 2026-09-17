@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: Amazon SQS Amazon Simple Queue Service (SQS) API
   slug: open-amazon-sqs
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -378,22 +382,22 @@ jsonld:
   property_count: 0
   slug: amazon-sqs-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon SQS
 nav: Providers
 network: true
-overview: 'Amazon SQS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Permissions API, Queues API, and 1 more. Tagged areas include Cloud, Distributed Systems, Messaging, Microservices, and Queue.
+overview: 'Amazon SQS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Permissions API, Queues API, and 1 more. Tagged areas include Cloud, Distributed Systems, Messaging, Microservices, and Queues.
 
 
   The Amazon SQS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon SQS''s developer surface includes authentication, engineering blog, developer console, support, code examples, and 10 more developer resources.'
+  Amazon SQS''s developer surface includes authentication, engineering blog, developer console, support, code examples, and 11 more developer resources.'
 plans:
 - name: Amazon Sqs Plans Pricing
   plan_count: 3
   slug: amazon-sqs-plans-pricing
-random_paper: 5
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Amazon Sqs Rate Limits
@@ -458,7 +462,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -487,7 +491,7 @@ tags:
 - Distributed Systems
 - Messaging
 - Microservices
-- Queue
+- Queues
 use_cases:
 - description: Decouple microservices by using SQS queues as asynchronous communication buffers between services.
   name: Microservices Decoupling
@@ -499,4 +503,5 @@ use_cases:
   name: Work Queue Distribution
 - description: Queue batch processing jobs and manage their execution across distributed compute resources.
   name: Batch Job Orchestration
+website: https://amazon.com
 ---

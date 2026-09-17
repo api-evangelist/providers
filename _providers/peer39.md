@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Peer39 External API manages Custom Categories — contextual targeting and brand-safety lists of keywords, URLs, mobile apps or CTV apps — and syncs them to a connected DSP partner. Nine operations '
@@ -120,7 +120,7 @@ plans:
 - name: Peer39 Plans Pricing
   plan_count: 0
   slug: peer39-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Peer39 Rate Limits
@@ -148,7 +148,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

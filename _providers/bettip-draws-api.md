@@ -23,16 +23,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://bettip.co.za/api/v1/
   baseurl_source: declared
-  description: Keyless, CORS-open REST API serving lottery draw results as JSON and CSV across UK49s, Gosloto, SA National Lottery, and world draws. Documented by a public OpenAPI 3.0.3 spec and an llms.txt agent-na
-  name: BetTip Draws API
-  slug: bettip-draws-api
-artifact_total: 5
+  description: The Gosloto API from BetTip Draws API — 4 operation(s) for gosloto.
+  name: BetTip Draws API Gosloto API
+  slug: bettip-draws-api-gosloto-api
+- baseURL: https://bettip.co.za/api/v1/
+  baseurl_source: declared
+  description: The Lotto API from BetTip Draws API — 5 operation(s) for lotto.
+  name: BetTip Draws API Lotto API
+  slug: bettip-draws-api-lotto-api
+- baseURL: https://bettip.co.za/api/v1/
+  baseurl_source: declared
+  description: The Uk49s API from BetTip Draws API — 7 operation(s) for uk49s.
+  name: BetTip Draws API Uk49s API
+  slug: bettip-draws-api-uk49s-api
+- baseURL: https://bettip.co.za/api/v1/
+  baseurl_source: declared
+  description: The World API from BetTip Draws API — 3 operation(s) for world.
+  name: BetTip Draws API World API
+  slug: bettip-draws-api-world-api
+artifact_total: 8
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bettip-draws-api/refs/heads/main/overlays/bettip-draws-api-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bettip-draws-api-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -84,19 +104,19 @@ modified: '2026-09-09'
 name: BetTip Draws API
 nav: Providers
 network: true
-overview: 'BetTip Draws API publishes 1 API on the [APIs.io](https://apis.io/) network: BetTip Draws API. Tagged areas include Lottery results, UK49s, Gosloto, SA National Lottery, and JSON.'
+overview: BetTip Draws API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Gosloto API, Lotto API, Uk49s API, and 1 more. Tagged areas include Lottery results, UK49s, Gosloto, SA National Lottery, and JSON.
 plans:
 - name: Bettip Draws Api Plans Pricing
   plan_count: 1
   slug: bettip-draws-api-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Bettip Draws Api Rate Limits
   slug: bettip-draws-api-rate-limits
 score:
   band: thin
-  composite: 26.3
+  composite: 28.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -104,16 +124,21 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 37.7
+    contract_quality: 44.4
     developer_ergonomics: 23.2
     discoverability: 75.9
     operational_transparency: 2.6
   previous_composite: 26.3
   provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -123,7 +148,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

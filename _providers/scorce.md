@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,7 +62,7 @@ name: Scorce
 nav: Providers
 network: true
 overview: Scorce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, KYC, Identity Verification, Fraud Prevention, and Authentication.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 6.0
@@ -88,7 +88,7 @@ score:
     - latin-america
   previous_composite: 6.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -108,6 +108,6 @@ tags:
 - Authentication
 - API Aggregator
 - Fintech
-- LatAm
+- Latin America
 website: https://scorce.io
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: 'The TAP v2 API exposes the Threat Insight Dashboard to machines: SIEM event download (blocked/permitted clicks, blocked/delivered messages, issues, all), campaign identifiers and detail, forensic evid'
@@ -192,7 +192,7 @@ plans:
 - name: Proofpoint Plans Pricing
   plan_count: 0
   slug: proofpoint-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 14
   name: Proofpoint Rate Limits
@@ -220,7 +220,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

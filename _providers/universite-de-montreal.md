@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://www.recherche.umontreal.ca/vitrine/rest/api/1.8/umontreal
-  baseurl_source: declared
-  description: 'Université de Montréal''s own read-only research API, and the one genuinely institution-engineered contract in this profile. Five services: reference-value exposure (faculties, departments, administrat'
-  name: SADVR REST API (Vitrine-Recherche)
-  slug: sadvr
 - description: 'Université de Montréal''s campus single sign-on, published as machine-readable SAML 2.0 entity metadata. The document declares an IDPSSODescriptor supporting SAML 2.0, SAML 1.1 and the legacy urn:mace:'
   name: UdeM Shibboleth Identity Provider (SAML metadata)
   slug: shibboleth-idp
@@ -56,7 +51,27 @@ apis:
 - description: Library discovery for the Université de Montréal libraries, delivered on OCLC WorldCat Discovery. Recorded as the institution's library-catalogue surface and explicitly as a tenancy. OCLC's WorldCat S
   name: WorldCat Discovery — Université de Montréal
   slug: worldcat-discovery
-artifact_total: 20
+- baseURL: https://www.recherche.umontreal.ca/vitrine/rest/api/1.8/umontreal
+  baseurl_source: declared
+  description: Persistent identifier (idsadvr) lookup for individuals and research units.
+  name: Université de Montréal Identifiants API
+  slug: universite-de-montreal-identifiants-api
+- baseURL: https://www.recherche.umontreal.ca/vitrine/rest/api/1.8/umontreal
+  baseurl_source: declared
+  description: Full record retrieval by persistent identifier.
+  name: Université de Montréal Informations API
+  slug: universite-de-montreal-informations-api
+- baseURL: https://www.recherche.umontreal.ca/vitrine/rest/api/1.8/umontreal
+  baseurl_source: declared
+  description: SOLR-backed search across the Vitrine-Recherche showcases.
+  name: Université de Montréal Recherche API
+  slug: universite-de-montreal-recherche-api
+- baseURL: https://www.recherche.umontreal.ca/vitrine/rest/api/1.8/umontreal
+  baseurl_source: declared
+  description: Controlled reference values used to filter the identifier services.
+  name: Université de Montréal Ressources API
+  slug: universite-de-montreal-ressources-api
+artifact_total: 23
 common:
 - group: company
   title: ''
@@ -202,7 +217,7 @@ modified: '2026-08-30'
 name: Université de Montréal
 nav: Providers
 network: true
-overview: 'Université de Montréal publishes 1 API on the [APIs.io](https://apis.io/) network: SADVR REST API (Vitrine-Recherche). Tagged areas include University, Higher Education, Education, Canada, and Québec.
+overview: 'Université de Montréal publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Identifiants API, Informations API, Recherche API, and 1 more. Tagged areas include University, Higher Education, Education, Canada, and Québec.
 
 
   The Université de Montréal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -213,7 +228,7 @@ plans:
 - name: Universite De Montreal Plans Pricing
   plan_count: 2
   slug: universite-de-montreal-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Universite De Montreal Rate Limits
@@ -248,7 +263,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 45.5
-    contract_quality: 30.6
+    contract_quality: 30.5
     developer_ergonomics: 31.0
     discoverability: 59.3
     operational_transparency: 23.7
@@ -264,9 +279,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 4
       marker_coverage: 100.0
-      total: 1
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
@@ -274,7 +289,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

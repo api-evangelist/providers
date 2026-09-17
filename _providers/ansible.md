@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -198,6 +198,10 @@ collections:
   name: Ansible Automation Controller API
   slug: open-ansible
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ansible.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -359,7 +363,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Ansible
 nav: Providers
 network: true
@@ -369,12 +373,12 @@ overview: 'Ansible publishes 12 APIs on the [APIs.io](https://apis.io/) network,
   The Ansible catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ansible''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, training material, and 19 more developer resources.'
+  Ansible''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, training material, and 20 more developer resources.'
 plans:
 - name: Ansible Plans Pricing
   plan_count: 3
   slug: ansible-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Ansible Rate Limits
@@ -417,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -457,5 +461,5 @@ use_cases:
   name: Network Automation
 - description: Enforce security baselines, CIS benchmarks, and STIG compliance across infrastructure using Ansible hardening playbooks.
   name: Security and Compliance
-website: https://www.ansible.com
+website: https://ansible.com
 ---

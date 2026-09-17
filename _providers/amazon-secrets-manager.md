@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -61,14 +61,14 @@ apis:
   slug: amazon-secrets-manager-secrets-api
 - baseURL: https://secretsmanager.{region}.amazonaws.com
   baseurl_source: declared
-  description: 'The #TagResource API from Amazon Secrets Manager — 1 operation(s) for #tagresource.'
-  name: 'Amazon Secrets Manager #TagResource API'
-  slug: amazon-secrets-manager-tagresource-api
+  description: The Tag Resource API from Amazon Secrets Manager — 1 operation(s) for tag resource.
+  name: Amazon Secrets Manager Tag Resource API
+  slug: amazon-secrets-manager-tag-resource-api
 - baseURL: https://secretsmanager.{region}.amazonaws.com
   baseurl_source: declared
-  description: 'The #UntagResource API from Amazon Secrets Manager — 1 operation(s) for #untagresource.'
-  name: 'Amazon Secrets Manager #UntagResource API'
-  slug: amazon-secrets-manager-untagresource-api
+  description: The Untag Resource API from Amazon Secrets Manager — 1 operation(s) for untag resource.
+  name: Amazon Secrets Manager Untag Resource API
+  slug: amazon-secrets-manager-untag-resource-api
 arazzos:
 - description: Create a new secret, then immediately retrieve its decrypted value to confirm it was stored.
   name: Amazon Secrets Manager Create and Read Secret
@@ -121,6 +121,10 @@ collections:
   name: Amazon Secrets Manager API
   slug: open-amazon-secrets-manager
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/capabilities/amazon-secrets-manager-capability-edges.yml
   title: ''
@@ -512,7 +516,7 @@ jsonld:
   property_count: 27
   slug: amazon-secrets-manager-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon Secrets Manager
 nav: Providers
 network: true
@@ -522,12 +526,12 @@ overview: 'Amazon Secrets Manager publishes 5 APIs on the [APIs.io](https://apis
   The Amazon Secrets Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Secrets Manager''s developer surface includes authentication, CLI, developer portal, getting-started guide, documentation, API reference, developer console, and 58 more developer resources.'
+  Amazon Secrets Manager''s developer surface includes authentication, CLI, developer portal, getting-started guide, documentation, API reference, developer console, and 59 more developer resources.'
 plans:
 - name: Amazon Secrets Manager Plans Pricing
   plan_count: 3
   slug: amazon-secrets-manager-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Amazon Secrets Manager Rate Limits
@@ -583,7 +587,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -626,5 +630,5 @@ use_cases:
   name: Compliance Secret Rotation
 - description: Enforce organizational policies on secret creation, rotation schedules, and access patterns.
   name: Secrets Lifecycle Governance
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

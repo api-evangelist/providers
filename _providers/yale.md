@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Yale Agentic Access
-  operation_count: 6
+  operation_count: 13
   slug: yale-agentic-access
-  summary_line: 6 operations
+  summary_line: 13 operations
 api_count: 4
 apis:
 - baseURL: https://lux.collections.yale.edu
@@ -328,7 +328,7 @@ plans:
 - name: Yale Plans Pricing
   plan_count: 2
   slug: yale-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Yale Rate Limits
@@ -400,7 +400,7 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

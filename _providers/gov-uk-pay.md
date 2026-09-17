@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -291,7 +291,7 @@ modified: '2026-06-13'
 name: GOV.UK Pay
 nav: Providers
 network: true
-overview: 'GOV.UK Pay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Authorise card payments API, Card payments API, and 2 more. Tagged areas include Payments, Government, UK, Public Sector, and REST.
+overview: 'GOV.UK Pay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Authorise card payments API, Card payments API, and 2 more. Tagged areas include Payments, Government, United Kingdom, Public Sector, and REST.
 
 
   The GOV.UK Pay catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -302,7 +302,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 10
+random_paper: 8
 rules:
 - effective_rule_count: 5
   extends: []
@@ -358,7 +358,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -381,7 +381,7 @@ slug: gov-uk-pay
 tags:
 - Payments
 - Government
-- UK
+- United Kingdom
 - Public Sector
 - REST
 - PCI DSS

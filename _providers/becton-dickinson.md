@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The BD Incada Connected Care Platform is a scalable, AI-enabled, cloud-based platform launched in October 2025 that unifies BD device data from infusion pumps, patient monitors, and pharmacy robotics '
@@ -167,7 +167,7 @@ press:
 - date: '2026-05-25'
   title: BD Helps Scientists Advance Immunology and Cancer ...
   url: https://www.prnewswire.com/news-releases/bd-helps-scientists-advance-immunology-and-cancer-research-with-ai-powered-insights-and-automation-302668624.html
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Becton Dickinson Rate Limits
@@ -200,7 +200,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 25
@@ -48,32 +48,32 @@ apis:
 - baseURL: https://ingest.spektr.com
   baseurl_source: declared
   description: The Action API API from Spektr — 1 operation(s) for action api.
-  name: Spektr Action API API
+  name: Spektr Action API
   slug: spektr-action-api-api
 - baseURL: https://ingest.spektr.com
   baseurl_source: declared
   description: The Events API API from Spektr — 1 operation(s) for events api.
-  name: Spektr Events API API
+  name: Spektr Events API
   slug: spektr-events-api-api
 - baseURL: https://ingest.spektr.com
   baseurl_source: declared
   description: The Execution API API from Spektr — 3 operation(s) for execution api.
-  name: Spektr Execution API API
+  name: Spektr Execution API
   slug: spektr-execution-api-api
 - baseURL: https://ingest.spektr.com
   baseurl_source: declared
   description: The Import API API from Spektr — 2 operation(s) for import api.
-  name: Spektr Import API API
+  name: Spektr Import API
   slug: spektr-import-api-api
 - baseURL: https://ingest.spektr.com
   baseurl_source: declared
   description: The Orchestration API API from Spektr — 6 operation(s) for orchestration api.
-  name: Spektr Orchestration API API
+  name: Spektr Orchestration API
   slug: spektr-orchestration-api-api
 - baseURL: https://ingest.spektr.com
   baseurl_source: declared
   description: The Records API API from Spektr — 9 operation(s) for records api.
-  name: Spektr Records API API
+  name: Spektr Records API
   slug: spektr-records-api-api
 - baseURL: https://ingest.spektr.com
   baseurl_source: declared
@@ -88,7 +88,7 @@ apis:
 - baseURL: https://ingest.spektr.com
   baseurl_source: declared
   description: The Workspace Fields API API from Spektr — 2 operation(s) for workspace fields api.
-  name: Spektr Workspace Fields API API
+  name: Spektr Workspace Fields API
   slug: spektr-workspace-fields-api-api
 artifact_total: 24
 asyncapis:
@@ -280,18 +280,18 @@ created: '2026-07-17'
 description: Spektr is an AI-powered compliance automation platform for banks and fintechs, backed by Northzone and Seedcamp. It automates KYB and KYC onboarding, continuous customer monitoring, risk scoring, remediation, and transaction monitoring using configurable processes and a library of AI agents (KYB, document review, network/ownership discovery, address and license verification, source-of-funds, and false-positive reduction). The REST API (documented on ReadMe at spektr.readme.io, served from ingest.spektr.com) covers dataset and customer-record import, process execution and onboarding orchestration, event and transaction ingestion, workspace field definitions, and HMAC-signed webhooks. Authentication is via an x-api-key header, with idempotency-key support and Live/Sandbox/Test environments.
 image: https://cdn.prod.website-files.com/687e48ff717957204d88189a/69de85d328817d3ae0691be5_spektr-com.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Spektr
 nav: Providers
 network: true
-overview: 'Spektr publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Action API API, Events API API, Execution API API, and 6 more. Tagged areas include Company, Compliance, RegTech, KYB, and KYC.
+overview: 'Spektr publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Action API, Events API, Execution API, and 6 more. Tagged areas include Company, Compliance, RegTech, KYB, and KYC.
 
 
   The Spektr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Spektr''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 14
+random_paper: 5
 score:
   band: developing
   composite: 50.6
@@ -322,7 +322,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

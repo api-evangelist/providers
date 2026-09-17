@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The BuildOps Public API, named by the BuildOps Dev Center as the REST + webhook-callback integration surface for customers, software partners and vendors. The Dev Center gates its reference behind "In
@@ -173,7 +173,7 @@ plans:
 - name: Buildops Plans Pricing
   plan_count: 0
   slug: buildops-plans-pricing
-random_paper: 5
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Buildops Rate Limits
@@ -200,7 +200,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

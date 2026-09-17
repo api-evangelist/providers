@@ -33,26 +33,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
-- baseURL: https://difusion-svc.ulb.ac.be
-  baseurl_source: declared
-  description: Documented HTTP GET service that exports the publication list of one ULB scholar (identified by matricule or DAI) or of a group of scholars, in APA, BibTeX, RIS, CSV, xml-brief, xml-brief-ext or xml-f
-  name: DI-fusion Export API
-  slug: difusion-export
-- baseURL: https://difusion.ulb.ac.be/vufind/OAI/Server
-  baseurl_source: declared
-  description: 'OAI-PMH 2.0 endpoint for the DI-fusion repository. Answers verb=Identify and verb=ListMetadataFormats with valid protocol documents (advertising oai_dc only), but under HTTP 500 and with an HTML page '
-  name: DI-fusion OAI-PMH Harvesting Endpoint
-  slug: difusion-oai-pmh
 - description: OpenSearch 1.1 description document for the DI-fusion discovery interface, allowing a client to register DI-fusion as a search provider and construct query URLs programmatically. HTTP 200, text/xml, 7
   name: DI-fusion OpenSearch Description
   slug: difusion-opensearch
 - description: ULB's institutional SAML 2.0 identity provider publishes complete, unauthenticated metadata at https://auth.ulb.be/idp/metadata — IDPSSODescriptor and AttributeAuthorityDescriptor roles, SingleSignOnS
   name: ULB Shibboleth Identity Provider (SAML 2.0 metadata)
   slug: shibboleth-idp
-artifact_total: 13
+- baseURL: https://difusion-svc.ulb.ac.be
+  baseurl_source: declared
+  description: Publication lists for a group of ULB scholars.
+  name: Université libre de Bruxelles Group API
+  slug: ulb-group-api
+- baseURL: https://difusion-svc.ulb.ac.be
+  baseurl_source: declared
+  description: The six OAI-PMH 2.0 protocol verbs.
+  name: Université libre de Bruxelles OAI PMH API
+  slug: ulb-oai-pmh-api
+- baseURL: https://difusion-svc.ulb.ac.be
+  baseurl_source: declared
+  description: Publication lists for one identified ULB scholar.
+  name: Université libre de Bruxelles Scholar API
+  slug: ulb-scholar-api
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -161,7 +166,7 @@ modified: '2026-08-30'
 name: Université libre de Bruxelles
 nav: Providers
 network: true
-overview: 'Université libre de Bruxelles publishes 2 APIs on the [APIs.io](https://apis.io/) network: DI-fusion Export API and DI-fusion OAI-PMH Harvesting Endpoint. Tagged areas include University, Higher Education, Education, Belgium, and Europe.
+overview: 'Université libre de Bruxelles publishes 3 APIs on the [APIs.io](https://apis.io/) network: Group API, OAI PMH API, and Scholar API. Tagged areas include University, Higher Education, Education, Belgium, and Europe.
 
 
   The Université libre de Bruxelles catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -172,7 +177,7 @@ plans:
 - name: Ulb Plans Pricing
   plan_count: 2
   slug: ulb-plans-pricing
-random_paper: 8
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Ulb Rate Limits
@@ -195,21 +200,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.0
+  composite: 42.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 75.0
+    catalog_earned: 78.0
     catalog_earned_first_party: 5.0
-    catalog_gap: 40.0
+    catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 50.0
     contract_governance: 15.2
-    contract_quality: 28.1
+    contract_quality: 28.0
     developer_ergonomics: 38.1
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -222,9 +227,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 3
       marker_coverage: 100.0
-      total: 2
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
@@ -232,7 +237,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

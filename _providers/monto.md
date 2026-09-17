@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -67,7 +67,7 @@ name: Monto
 nav: Providers
 network: true
 overview: Monto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, B2B Payments, Accounts Payable, and Invoicing.
-random_paper: 11
+random_paper: 7
 score:
   band: minimal
   composite: 3.1
@@ -94,7 +94,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

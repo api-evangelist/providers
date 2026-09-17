@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 16 operations
 api_count: 1
 apis:
-- baseURL: https://cloud-api.usw2.elembio.io
-  baseurl_source: declared
-  description: AuthService reports information about the API key making the request.
-  name: Element Biosciences Auth Service API
-  slug: element-biosciences-authservice-api
 - baseURL: https://cloud-api.usw2.elembio.io
   baseurl_source: declared
   description: ExecutionService provides access to workflow executions — runs of a bioinformatics workflow that process instrument data. Listing and reading execution metadata requires the "executions:read" scope; l
@@ -70,6 +65,11 @@ apis:
   description: 'StorageConnectionService provides access to storage connections: their metadata (requires the "storage:read" scope) and the files within them (ListFiles / GetDownloadCredentials, which require the "st'
   name: Element Biosciences Storage Connection Service API
   slug: element-biosciences-storageconnectionservice-api
+- baseURL: https://cloud-api.usw2.elembio.io
+  baseurl_source: declared
+  description: AuthService reports information about the API key making the request.
+  name: Element Biosciences Auth Service API
+  slug: element-biosciences-auth-service-api
 artifact_total: 15
 collections:
 - collection_type: open
@@ -251,11 +251,11 @@ modified: '2026-08-04'
 name: Element Biosciences
 nav: Providers
 network: true
-overview: 'Element Biosciences publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth Service API, Execution Service API, Instrument Service API, and 2 more. Tagged areas include Company, Genomics, DNA Sequencing, Life Sciences, and Bioinformatics.
+overview: 'Element Biosciences publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Execution Service API, Instrument Service API, Run Service API, and 2 more. Tagged areas include Company, Genomics, DNA Sequencing, Life Sciences, and Bioinformatics.
 
 
   Element Biosciences'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
-random_paper: 18
+random_paper: 14
 scopes:
 - name: Element Biosciences Scopes
   scope_count: 12
@@ -297,7 +297,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

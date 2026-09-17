@@ -29,7 +29,7 @@ name: Heygo
 nav: Providers
 network: true
 overview: Heygo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Live Video, Virtual Tours, Travel, and Streaming.
-random_paper: 15
+random_paper: 12
 security:
 - kind: domain-security
   name: Heygo Domain Security

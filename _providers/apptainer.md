@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -67,6 +67,10 @@ collections:
   name: Apptainer Container Runtime Images Instances API
   slug: open-apptainer-instances-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apptainer.org
 - group: operate
   title: ''
   type: IssueTracker
@@ -135,7 +139,7 @@ jsonld:
   property_count: 0
   slug: apptainer-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apptainer
 nav: Providers
 network: true
@@ -145,12 +149,12 @@ overview: 'Apptainer publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The Apptainer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apptainer''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Apptainer''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Apptainer Plans Pricing
   plan_count: 3
   slug: apptainer-plans-pricing
-random_paper: 19
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Apptainer Rate Limits
@@ -204,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -226,4 +230,5 @@ tags:
 - Scientific Computing
 - Open-Source
 - Linux Foundation
+website: https://apptainer.org
 ---

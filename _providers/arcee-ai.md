@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 4
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://api.arcee.ai
   baseurl_source: declared
   description: The AFM API API from Arcee AI — 1 operation(s) for afm api.
-  name: Arcee AI AFM API API
+  name: Arcee AI AFM API
   slug: arcee-ai-afm-api-api
 - baseURL: https://api.arcee.ai
   baseurl_source: declared
@@ -388,18 +388,18 @@ created: '2026-07-17'
 description: Arcee AI is an American open-intelligence research lab that builds and releases small, efficient open-weight language models (the Trinity family, AFM-4.5B, and Virtuoso/Maestro derivatives) along with a developer platform for running them. The Arcee Platform exposes an OpenAI-compatible inference API at api.arcee.ai (chat completions, model listing, and usage/credits endpoints) secured with bearer API keys, plus Arcee Conductor (model routing), Arcee Orchestra (agentic workflows with their own invocation API), and AnyMCP for hosting Model Context Protocol servers. Arcee also maintains widely used open-source model tooling including mergekit, DistillKit, and DALM. Models can be consumed through the hosted API or self-deployed on vLLM, SGLang, llama.cpp, and Ollama.
 image: https://avatars.githubusercontent.com/u/126496414?v=4
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Arcee AI
 nav: Providers
 network: true
-overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API API, Analytics API, and 26 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Small Language Models.
+overview: 'Arcee AI publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Profiles API, AFM API, Analytics API, and 26 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Small Language Models.
 
 
   Arcee AI''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: developing
-  composite: 42.3
+  composite: 41.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -407,11 +407,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 55.9
+    contract_quality: 51.1
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 26.3
@@ -420,14 +420,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 29
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -447,7 +447,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Small Language Models
 - Inference
 - MCP

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -75,11 +75,6 @@ apis:
   slug: oracle-retail-orders-api
 - baseURL: https://{host}/MerchServices/MerchRes/v1
   baseurl_source: declared
-  description: Purchase order management
-  name: Oracle Retail PurchaseOrders API
-  slug: oracle-retail-purchaseorders-api
-- baseURL: https://{host}/MerchServices/MerchRes/v1
-  baseurl_source: declared
   description: Returns and refunds management
   name: Oracle Retail Returns API
   slug: oracle-retail-returns-api
@@ -88,6 +83,11 @@ apis:
   description: Supplier management
   name: Oracle Retail Suppliers API
   slug: oracle-retail-suppliers-api
+- baseURL: https://{host}/MerchServices/MerchRes/v1
+  baseurl_source: declared
+  description: Purchase order management
+  name: Oracle Retail Purchase Orders API
+  slug: oracle-retail-purchase-orders-api
 artifact_total: 57
 collections:
 - collection_type: postman
@@ -337,7 +337,7 @@ plans:
 - name: Oracle Retail Plans Pricing
   plan_count: 3
   slug: oracle-retail-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Oracle Retail Rate Limits
@@ -385,7 +385,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

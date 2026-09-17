@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ apis:
 - baseURL: https://api.viator.com/partner
   baseurl_source: declared
   description: 'This section describes the Viator built API(s) available for reservation system consumption. **Note**: For these APIs, the request is sent **to** Viator and the response is received **from** Viator.'
-  name: Viator Viator APIs API
+  name: Viator APIs
   slug: viator-viator-apis-api
 artifact_total: 26
 asyncapis:
@@ -355,7 +355,7 @@ description: 'Viator is a Tripadvisor company and the largest online marketplace
   passing a two-part front-end and back-end certification. No open travel standard is referenced anywhere in the specifications: the contract is entirely Viator-proprietary, product identifiers are Viator-internal, and partners are contractually required to prevent search engines indexing Viator reviews and unique content.'
 image: https://partnerresources.viator.com/wp-content/uploads/2023/08/V-logo_Green.png
 layout: provider
-modified: '2026-07-28'
+modified: '2026-09-16'
 name: Viator
 nav: Providers
 network: true
@@ -366,28 +366,28 @@ overview: 'Viator publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Viator''s developer surface includes authentication, documentation, developer portal, support, engineering blog, API reference, getting-started guide, and 36 more developer resources.'
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Viator Rate Limits
   slug: viator-rate-limits
 score:
   band: developing
-  composite: 46.9
+  composite: 46.0
   coverage:
     artifact_dirs: 23
-    catalog_earned: 32.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 62.3
     developer_ergonomics: 62.5
-    discoverability: 59.3
+    discoverability: 50.0
     operational_transparency: 31.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -408,7 +408,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

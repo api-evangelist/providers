@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: Hhaexchange Plans Pricing
   plan_count: 2
   slug: hhaexchange-plans-pricing
-random_paper: 6
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Hhaexchange Rate Limits
@@ -219,7 +219,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

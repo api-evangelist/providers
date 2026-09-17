@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://alzheon.com/wp-json
@@ -62,11 +62,6 @@ apis:
   description: Registered types, taxonomies and statuses.
   name: Alzheon Metadata API
   slug: alzheon-metadata-api
-- baseURL: https://alzheon.com/wp-json
-  baseurl_source: declared
-  description: oEmbed representations of alzheon.com URLs.
-  name: Alzheon O Embed API
-  slug: alzheon-oembed-api
 - baseURL: https://alzheon.com/wp-json
   baseurl_source: declared
   description: 'Static site pages: science, pipeline, people, patients, careers.'
@@ -97,6 +92,11 @@ apis:
   description: Publicly listed content authors.
   name: Alzheon Users API
   slug: alzheon-users-api
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: oEmbed representations of alzheon.com URLs.
+  name: Alzheon o Embed API
+  slug: alzheon-o-embed-api
 artifact_total: 15
 collections:
 - collection_type: open
@@ -192,7 +192,7 @@ overview: 'Alzheon publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Alzheon''s developer surface includes engineering blog, product news, and 16 more developer resources.'
-random_paper: 18
+random_paper: 5
 score:
   band: emerging
   composite: 17.3
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

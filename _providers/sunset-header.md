@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Sunset HTTP header field (RFC 8594) communicates the deprecation timeline of API endpoints to consumers. The header value is an HTTP-date timestamp indicating when a URI is expected to become unre
@@ -90,7 +90,7 @@ plans:
 - name: Sunset Header Plans Pricing
   plan_count: 3
   slug: sunset-header-plans-pricing
-random_paper: 13
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Sunset Header Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 15.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +145,7 @@ tags:
 - RFC 8594
 - RFC 9745
 - API Lifecycle
-- REST APIs
+- REST API
 - Standards
 website: https://datatracker.ietf.org/doc/html/rfc8594
 ---

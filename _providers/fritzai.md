@@ -49,7 +49,7 @@ overview: 'Fritz.ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fritz.ai''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 5
+random_paper: 13
 screenshot: https://raw.githubusercontent.com/api-evangelist/fritzai/refs/heads/main/screenshots/fritzai-2026-07-25T215221.png
 security:
 - kind: domain-security

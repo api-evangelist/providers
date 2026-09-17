@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ name: BBN Technologies
 nav: Providers
 network: true
 overview: BBN Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Research and Development, Aerospace, and Networking.
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 3.4
@@ -82,7 +82,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

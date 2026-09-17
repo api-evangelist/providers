@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -131,6 +131,10 @@ collections:
   name: Basescan Accounts Transactions API
   slug: open-basescan-transactions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://basescan.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/agentic-access/basescan-agentic-access.yml
   title: ''
@@ -183,7 +187,7 @@ jsonld:
   property_count: 0
   slug: apis-io
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Basescan
 nav: Providers
 network: true
@@ -193,12 +197,12 @@ overview: 'Basescan publishes 10 APIs on the [APIs.io](https://apis.io/) network
   The Basescan catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Basescan''s developer surface includes authentication, engineering blog, support, and 6 more developer resources.'
+  Basescan''s developer surface includes authentication, engineering blog, support, and 7 more developer resources.'
 plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 13
+random_paper: 18
 rate_limits:
 - limit_count: 7
   name: Rate Limits
@@ -230,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -256,4 +260,5 @@ tags:
 - Transaction
 - Tokens
 - Smart Contracts
+website: https://basescan.org
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -118,6 +118,10 @@ collections:
   name: Amazon Athena API
   slug: open-amazon-athena
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/agentic-access/amazon-athena-agentic-access.yml
   title: ''
@@ -1061,7 +1065,7 @@ jsonld:
   property_count: 0
   slug: amazon-athena-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Athena
 nav: Providers
 network: true
@@ -1071,12 +1075,12 @@ overview: 'Amazon Athena publishes 8 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Athena catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Athena''s developer surface includes authentication and 3 more developer resources.'
+  Amazon Athena''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Amazon Athena Plans Pricing
   plan_count: 1
   slug: amazon-athena-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Amazon Athena Rate Limits
@@ -1130,7 +1134,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1162,4 +1166,5 @@ use_cases:
 - Query AWS service logs including CloudTrail, ELB, and VPC Flow Logs
 - Perform cost analysis on AWS Cost and Usage Reports
 - Enable self-service analytics for business intelligence teams
+website: https://amazon.com
 ---

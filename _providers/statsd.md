@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -398,7 +398,7 @@ overview: 'StatsD publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   StatsD''s developer surface includes GitHub presence, changelog, and 50 more developer resources.'
-random_paper: 8
+random_paper: 21
 rules:
 - effective_rule_count: 48
   extends:
@@ -459,7 +459,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

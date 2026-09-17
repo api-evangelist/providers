@@ -24,15 +24,70 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://api.frejun.ai
   baseurl_source: declared
-  description: Programmable voice/telephony API. Places and controls live voice calls (initiate, play audio, DTMF, transfer, hangup), streams bidirectional call audio to AI agents over a WebSocket media channel, and
-  name: Teler Voice API
-  slug: teler-voice-api
-artifact_total: 7
+  description: Inspect the webhook events Teler generated for your account and redeliver any that your endpoint missed.
+  name: FreJun Teler Events API
+  slug: frejun-teler-events-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: Manage secret API keys used for authenticating requests. Create, rotate, and delete secrets — rotate periodically and keep them server-side.
+  name: FreJun Teler Secrets API
+  slug: frejun-teler-secrets-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: Read calls that arrived or left over your SIP trunks (`st_`).
+  name: FreJun Teler SIP / Calls API
+  slug: frejun-teler-sip-calls-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: 'Named sets of source IPs or CIDR networks (`acl_`) that SIP trunks with `authentication_type: IP` authorise against. Attach one to many trunks and update it in a single place.'
+  name: FreJun Teler SIP / IP Access Control Lists API
+  slug: frejun-teler-sip-ip-access-control-lists-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: SIP trunks connect Teler to your upstream carrier or PBX. Create, configure, and manage your trunks, or inspect which virtual numbers are assigned to each one.
+  name: FreJun Teler SIP / Trunks API
+  slug: frejun-teler-sip-trunks-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: Fetch short-lived, signed download URLs for call recordings.
+  name: FreJun Teler Utilities API
+  slug: frejun-teler-utilities-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: Phone numbers that Teler provisions for your account. List, assign to a voice app or SIP trunk, unassign, or update individual numbers.
+  name: FreJun Teler Virtual Numbers API
+  slug: frejun-teler-virtual-numbers-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: Voice apps are the configuration context for calls — they define webhook URLs, flows, and channel limits. Create and manage your voice apps here.
+  name: FreJun Teler Voice / Apps API
+  slug: frejun-teler-voice-apps-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: Act on a live call in real time — hang up, mute, send DTMF, or play audio. These actions are accepted asynchronously and return `202` with a `request_id`.
+  name: FreJun Teler Voice / Call Controls API
+  slug: frejun-teler-voice-call-controls-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: Place outbound calls and read call state. A **call** (`cs_`) is the top-level session; each party on it is a **leg** (`cl_`).
+  name: FreJun Teler Voice / Calls API
+  slug: frejun-teler-voice-calls-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: Deprecated endpoints kept for backwards compatibility. Prefer the **Voice / Calls** endpoints for all new integrations.
+  name: FreJun Teler Voice / Calls (legacy) API
+  slug: frejun-teler-voice-calls-legacy-api
+- baseURL: https://api.frejun.ai
+  baseurl_source: declared
+  description: Higher-level, multi-step operations on a live call, such as transferring it to a new destination.
+  name: FreJun Teler Voice / Operations API
+  slug: frejun-teler-voice-operations-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Frejun Teler Webhooks
@@ -197,7 +252,7 @@ modified: '2026-09-15'
 name: FreJun Teler
 nav: Providers
 network: true
-overview: 'FreJun Teler publishes 1 API on the [APIs.io](https://apis.io/) network: Teler Voice API. Tagged areas include programmable voice API, voice AI infrastructure, CPaaS, SIP Trunking, and telephony API.
+overview: 'FreJun Teler publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Events API, Secrets API, SIP / Calls API, and 9 more. Tagged areas include programmable voice API, voice AI infrastructure, CPaaS, SIP Trunking, and telephony API.
 
 
   The FreJun Teler catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -208,14 +263,14 @@ plans:
 - name: Frejun Teler Plans Pricing
   plan_count: 0
   slug: frejun-teler-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Frejun Teler Rate Limits
   slug: frejun-teler-rate-limits
 score:
   band: developing
-  composite: 48.3
+  composite: 50.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -223,15 +278,22 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.4
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 60.4
+    contract_quality: 69.8
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 36.8
+  previous_composite: 48.3
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
     mcp: derived
     skills: derived
   regulatory:
@@ -241,7 +303,8 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

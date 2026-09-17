@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: 'Hanesbrands & Wipro: Advancing Digital Transformation ...'
   url: https://www.wipro.com/newsroom/press-releases/2024/hanesbrands-inc-strengthens-wipro-partnership-to-accelerate-digital-transformation/
-random_paper: 6
+random_paper: 17
 score:
   band: minimal
   composite: 4.4
@@ -104,7 +104,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 4.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

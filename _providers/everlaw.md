@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Everlaw REST API provides programmatic access to the Everlaw eDiscovery platform, enabling automation of case management, document uploads, billing reporting, and analytics. API keys are required '
@@ -128,7 +128,7 @@ plans:
 - name: Everlaw Plans Pricing
   plan_count: 2
   slug: everlaw-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Everlaw Rate Limits
@@ -153,7 +153,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

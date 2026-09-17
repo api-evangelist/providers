@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Nucleus platform API. Every platform capability is exposed over REST, documented with Swagger inside the authenticated customer console, and authenticated with a static API key in an x-apikey head
@@ -229,7 +229,7 @@ plans:
 - name: Nucleus Security Plans Pricing
   plan_count: 0
   slug: nucleus-security-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Nucleus Security Rate Limits
@@ -268,7 +268,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

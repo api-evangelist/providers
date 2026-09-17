@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://www.bu.edu/wp-json
-  baseurl_source: declared
-  description: The WordPress REST API on Boston University's own web platform, and the one substantial machine-readable interface the institution both operates and authors. Its discovery document advertises 237 rout
-  name: Boston University WordPress REST API
-  slug: wordpress-rest-api
 - description: Boston University's SAML 2.0 identity provider, publishing machine-readable entity metadata at its own host. The EntityDescriptor carries entityID https://shib.bu.edu/idp/shibboleth, the Shibboleth sc
   name: Boston University Shibboleth Identity Provider
   slug: shibboleth-identity-federation
@@ -56,7 +51,57 @@ apis:
 - description: Boston University IS&T brokers Large Language Model API keys to affiliated faculty, researchers, staff and departments, reselling access to Microsoft Azure OpenAI and Amazon Bedrock (including Anthrop
   name: AI API Access (Azure OpenAI / Amazon Bedrock)
   slug: ai-api-access
-artifact_total: 13
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Boston University-authored namespace `bu-access-control/v1`.
+  name: Boston University Bu Access Control API
+  slug: boston-bu-access-control-api
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Boston University-authored namespace `bu-alert/v1`.
+  name: Boston University Bu Alert API
+  slug: boston-bu-alert-api
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Boston University-authored namespace `bu-blocks/v1`.
+  name: Boston University Bu Blocks API
+  slug: boston-bu-blocks-api
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Boston University-authored namespace `bu-cmb2-customizations/v1`.
+  name: Boston University Bu Cmb2 Customizations API
+  slug: boston-bu-cmb2-customizations-api
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Boston University-authored namespace `bu-navigation/v1`.
+  name: Boston University Bu Navigation API
+  slug: boston-bu-navigation-api
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Boston University-authored namespace `bu-prepress/v1`.
+  name: Boston University Bu Prepress API
+  slug: boston-bu-prepress-api
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Boston University-authored namespace `bu-site-manager/v1`.
+  name: Boston University Bu Site Manager API
+  slug: boston-bu-site-manager-api
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Boston University-authored namespace `bu-slideshow/v1`.
+  name: Boston University Bu Slideshow API
+  slug: boston-bu-slideshow-api
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Boston University-authored namespace `bu-tts/v1`.
+  name: Boston University Bu Tts API
+  slug: boston-bu-tts-api
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: Core WordPress read routes verified live on www.bu.edu.
+  name: Boston University Wordpress Core API
+  slug: boston-wordpress-core-api
+artifact_total: 22
 common:
 - group: company
   title: ''
@@ -199,7 +244,7 @@ modified: '2026-08-30'
 name: Boston University
 nav: Providers
 network: true
-overview: 'Boston University publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include University, Higher Education, Education, United States, and Massachusetts.
+overview: 'Boston University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bu Access Control API, Bu Alert API, Bu Blocks API, and 7 more. Tagged areas include University, Higher Education, Education, United States, and Massachusetts.
 
 
   The Boston University catalog on APIs.io includes 1 JSON-LD context.
@@ -210,7 +255,7 @@ plans:
 - name: Boston Plans Pricing
   plan_count: 2
   slug: boston-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Boston Rate Limits
@@ -245,9 +290,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 10
       marker_coverage: 100.0
-      total: 1
+      total: 10
   regulatory:
     applies: true
     matched_via: tags
@@ -255,7 +300,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

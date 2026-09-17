@@ -37,8 +37,8 @@ modified: '2026-04-28'
 name: PDF
 nav: Providers
 network: true
-overview: PDF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include PDF, Document, and File Format.
-random_paper: 20
+overview: PDF is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include PDF, Documents, and File Format.
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf/refs/heads/main/screenshots/pdf-2026-06-20T191515.png
 security:
 - kind: domain-security
@@ -52,7 +52,7 @@ security:
 slug: pdf
 tags:
 - PDF
-- Document
+- Documents
 - File Format
 website: https://en.wikipedia.org/wiki/PDF
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,18 +41,8 @@ agentic_access:
   operation_count: 0
   slug: keio-agentic-access
   summary_line: 0 operations
-api_count: 2
+api_count: 4
 apis:
-- baseURL: https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/oai.php
-  baseurl_source: declared
-  description: KOARA (KeiO Associated Repository of Academic resources) is Keio University's institutional repository, released by the Media Center in 2006 and running on the open-source XooNips platform on Keio's o
-  name: KOARA OAI-PMH Metadata API
-  slug: koara-oai-pmh
-- baseURL: https://dcollections.lib.keio.ac.jp/sites/default/files/iiif/
-  baseurl_source: declared
-  description: 'The Keio University Media Center serves its digitised special collections as IIIF on two hosts it owns: dcollections.lib.keio.ac.jp for IIIF Presentation API 2.1 manifests, and iiif.lib.keio.ac.jp for'
-  name: Keio Media Center Digital Collections IIIF API
-  slug: iiif
 - description: Keio operates its own SAML 2.0 identity provider under entityID https://gakunin1.keio.ac.jp/idp/shibboleth, registered in GakuNin — the Japanese academic access-management federation operated by the N
   name: Keio University Identity Provider (GakuNin / eduGAIN)
   slug: gakunin-idp
@@ -74,6 +64,16 @@ apis:
 - description: Keio University is registered in the Research Organization Registry as https://ror.org/02kn6nx58, with domain keio.ac.jp, established 1858, located in Tokyo, and cross-referenced to Funder Registry 50
   name: ROR Registration — Keio University
   slug: ror
+- baseURL: https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/oai.php
+  baseurl_source: declared
+  description: IIIF Presentation and Image API surfaces for Keio's digitised collections.
+  name: Keio University IIIF API
+  slug: keio-iiif-api
+- baseURL: https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/oai.php
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs for discovering and harvesting KOARA's scholarly metadata.
+  name: Keio University Metadata Harvesting API
+  slug: keio-metadata-harvesting-api
 artifact_total: 23
 common:
 - group: company
@@ -110,15 +110,15 @@ common:
   type: Blog
   url: https://www.keio.ac.jp/en/news/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-koara-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/_original/keio-koara-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/keio-koara-oai-pmh-openapi.yml
+  url: openapi/_original/keio-koara-oai-pmh-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/_original/keio-iiif-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/keio-iiif-openapi.yml
+  url: openapi/_original/keio-iiif-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/json-schema/keio-iiif-manifest-schema.json
   title: ''
@@ -251,11 +251,11 @@ jsonld:
   property_count: 8
   slug: keio-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-09-16'
 name: Keio University
 nav: Providers
 network: true
-overview: 'Keio University publishes 2 APIs on the [APIs.io](https://apis.io/) network: KOARA OAI-PMH Metadata API and Keio Media Center Digital Collections IIIF API. Tagged areas include Education, Higher Education, University, Japan, and Research.
+overview: 'Keio University publishes 2 APIs on the [APIs.io](https://apis.io/) network: IIIF API and Metadata Harvesting API. Tagged areas include Education, Higher Education, University, Japan, and Research.
 
 
   The Keio University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -266,7 +266,7 @@ plans:
 - name: Keio Plans Pricing
   plan_count: 2
   slug: keio-plans-pricing
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Keio Rate Limits
@@ -290,21 +290,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.8
+  composite: 36.4
   coverage:
     artifact_dirs: 19
-    catalog_earned: 79.0
+    catalog_earned: 82.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 36.0
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 39.5
     contract_governance: 15.2
     contract_quality: 29.2
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -329,7 +329,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

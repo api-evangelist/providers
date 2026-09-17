@@ -56,7 +56,7 @@ name: Financial Regulation
 nav: Providers
 network: true
 overview: Financial Regulation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Regulation, Compliance, SEC, FINRA, and CFTC.
-random_paper: 2
+random_paper: 14
 screenshot: https://raw.githubusercontent.com/api-evangelist/financial-regulation/refs/heads/main/screenshots/financial-regulation-2026-06-20T181213.png
 slug: financial-regulation
 tags:

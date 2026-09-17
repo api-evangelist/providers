@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,26 +21,21 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 20.8
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://api.www.lib.umd.edu/api/libtools
-  baseurl_source: declared
-  description: API middleware operated by the University of Maryland Libraries that exposes today's open/closed status, current bookable-space availability, and raw LibCal space records for five UMD library location
-  name: UMD Libraries Website Tools API
-  slug: libraries-website-tools
 - description: OAI-PMH 2.0 harvesting endpoint over UMD Libraries' Fedora-backed digital collections. Identify reports repositoryName "UMD Libraries" and adminEmail lib-ssdr@umd.edu, with records back to 2014. ListS
   name: UMD Libraries Digital Collections OAI-PMH
   slug: digital-collections-oai
@@ -86,7 +81,32 @@ apis:
 - description: UMD's learning management system, an Instructure Canvas tenancy at umd.instructure.com fronted by elms.umd.edu. Requests to the tenancy redirect to UMD's own Shibboleth identity provider, which is wha
   name: ELMS-Canvas — UMD learning management system
   slug: elms-canvas
-artifact_total: 31
+- baseURL: https://api.www.lib.umd.edu/api/libtools
+  baseurl_source: declared
+  description: The Art API from University of Maryland College Park — 3 operation(s) for art.
+  name: University of Maryland College Park Art API
+  slug: university-of-maryland-college-park-art-api
+- baseURL: https://api.www.lib.umd.edu/api/libtools
+  baseurl_source: declared
+  description: The Makerspace API from University of Maryland College Park — 1 operation(s) for makerspace.
+  name: University of Maryland College Park Makerspace API
+  slug: university-of-maryland-college-park-makerspace-api
+- baseURL: https://api.www.lib.umd.edu/api/libtools
+  baseurl_source: declared
+  description: The Mckeldin API from University of Maryland College Park — 3 operation(s) for mckeldin.
+  name: University of Maryland College Park Mckeldin API
+  slug: university-of-maryland-college-park-mckeldin-api
+- baseURL: https://api.www.lib.umd.edu/api/libtools
+  baseurl_source: declared
+  description: The Mspal API from University of Maryland College Park — 3 operation(s) for mspal.
+  name: University of Maryland College Park Mspal API
+  slug: university-of-maryland-college-park-mspal-api
+- baseURL: https://api.www.lib.umd.edu/api/libtools
+  baseurl_source: declared
+  description: The Stem API from University of Maryland College Park — 3 operation(s) for stem.
+  name: University of Maryland College Park Stem API
+  slug: university-of-maryland-college-park-stem-api
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -263,7 +283,7 @@ modified: '2026-08-30'
 name: University of Maryland College Park
 nav: Providers
 network: true
-overview: 'University of Maryland College Park publishes 1 API on the [APIs.io](https://apis.io/) network: UMD Libraries Website Tools API. Tagged areas include University, Higher Education, Education, United States, and Maryland.
+overview: 'University of Maryland College Park publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Art API, Makerspace API, Mckeldin API, and 2 more. Tagged areas include University, Higher Education, Education, United States, and Maryland.
 
 
   The University of Maryland College Park catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -274,7 +294,7 @@ plans:
 - name: University Of Maryland College Park Plans Pricing
   plan_count: 2
   slug: university-of-maryland-college-park-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: University Of Maryland College Park Rate Limits
@@ -297,21 +317,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.9
+  composite: 43.6
   coverage:
     artifact_dirs: 16
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -4.3
   facets:
     access_clarity: 39.5
     contract_governance: 30.3
-    contract_quality: 55.3
+    contract_quality: 40.3
     developer_ergonomics: 45.2
-    discoverability: 59.3
+    discoverability: 53.7
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -324,10 +344,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
-      marker_coverage: 100.0
-      total: 1
+      marker_coverage: 0.0
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
@@ -335,7 +355,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

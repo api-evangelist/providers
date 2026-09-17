@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -67,11 +67,6 @@ apis:
   slug: crossmint-balances-api
 - baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
   baseurl_source: declared
-  description: The NFTs API from Crossmint — 1 operation(s) for nfts.
-  name: Crossmint NFTs API
-  slug: crossmint-nfts-api
-- baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
-  baseurl_source: declared
   description: The Signatures API from Crossmint — 3 operation(s) for signatures.
   name: Crossmint Signatures API
   slug: crossmint-signatures-api
@@ -95,6 +90,11 @@ apis:
   description: The Wallets API from Crossmint — 2 operation(s) for wallets.
   name: Crossmint Wallets API
   slug: crossmint-wallets-api
+- baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
+  baseurl_source: declared
+  description: The NFTs API from Crossmint — 1 operation(s) for nfts.
+  name: Crossmint NF Ts API
+  slug: crossmint-nfts-api
 artifact_total: 28
 collections:
 - collection_type: open
@@ -188,7 +188,7 @@ modified: '2026-05-08'
 name: Crossmint
 nav: Providers
 network: true
-overview: 'Crossmint publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Balances API, NFTs API, Signatures API, and 4 more. Tagged areas include Web3, Wallets, NFT, Payments, and Checkout.
+overview: 'Crossmint publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Balances API, Signatures API, Signers API, and 4 more. Tagged areas include Web3, Wallets, NFT, Payments, and Checkout.
 
 
   Crossmint''s developer surface includes authentication and 10 more developer resources.'
@@ -196,7 +196,7 @@ plans:
 - name: Crossmint Plans Pricing
   plan_count: 3
   slug: crossmint-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Crossmint Rate Limits
@@ -234,7 +234,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

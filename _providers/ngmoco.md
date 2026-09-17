@@ -24,7 +24,7 @@ name: Ngmoco *
 nav: Providers
 network: true
 overview: Ngmoco * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Gaming, and Social Gaming.
-random_paper: 13
+random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/ngmoco/refs/heads/main/screenshots/ngmoco-2026-08-07T185333.png
 slug: ngmoco
 tags:

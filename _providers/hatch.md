@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.usehatchapp.com
@@ -198,7 +198,7 @@ overview: 'Hatch publishes 1 API on the [APIs.io](https://apis.io/) network: con
 
 
   Hatch''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Hatch Rate Limits
@@ -238,7 +238,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

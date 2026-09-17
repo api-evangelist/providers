@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,7 +89,7 @@ mcp_servers:
 - description: ''
   name: Kinect MCP Server
   slug: kinect-mcp-server
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Kinect
 nav: Providers
 network: true
@@ -97,7 +97,7 @@ overview: 'Kinect is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kinect''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 10.7
@@ -121,7 +121,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -145,5 +145,6 @@ tags:
 - Shopify
 - LLM
 - Universal Commerce Protocol
+- Direct to Consumer
 website: https://www.trykinect.ai
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The pricing surface behind @touchmark/sdk - open a session per scope, emit events fire-and-forget with an idempotent event_id, and consume quality-adjusted valuations (absolute fair_price_usd per even
@@ -156,7 +156,7 @@ overview: 'Touchmark publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Touchmark''s developer surface includes documentation, API reference, getting-started guide, authentication, and 18 more developer resources.'
-random_paper: 8
+random_paper: 6
 score:
   band: emerging
   composite: 18.6
@@ -180,7 +180,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

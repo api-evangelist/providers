@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://business.mamopay.com/manage_api/v1
@@ -325,7 +325,7 @@ overview: 'Mamo publishes 12 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mamo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
-random_paper: 6
+random_paper: 8
 score:
   band: strong
   composite: 58.4
@@ -366,7 +366,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -399,7 +399,7 @@ tags:
 - Corporate Cards
 - Payouts
 - Expense Management
-- UAE
+- United Arab Emirates
 - Middle East
 website: https://mamopay.com
 ---

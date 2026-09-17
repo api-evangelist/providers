@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://twinstrandbio.com/wp-json/wp/v2
@@ -262,7 +262,7 @@ overview: 'TwinStrand Biosciences publishes 12 APIs on the [APIs.io](https://api
 
 
   TwinStrand Biosciences'' developer surface includes product news, legal docs, YouTube channel, authentication, and 21 more developer resources.'
-random_paper: 17
+random_paper: 18
 score:
   band: emerging
   composite: 20.8
@@ -297,7 +297,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

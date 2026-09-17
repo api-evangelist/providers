@@ -19,7 +19,7 @@ name: Daily Gobble
 nav: Providers
 network: true
 overview: Daily Gobble is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, and Portfolio Lead.
-random_paper: 19
+random_paper: 7
 slug: daily-gobble
 tags:
 - Company

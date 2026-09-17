@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -56,11 +56,6 @@ apis:
   slug: developerhub-documentation-api
 - baseURL: https://api.developerhub.io/api/v1
   baseurl_source: declared
-  description: Creates, reads, updates, publishes and deletes documentation pages, with Markdoc bodies staged as drafts until an explicit publish — 6 operations.
-  name: DeveloperHub Pages API
-  slug: developerhub-pages-api
-- baseURL: https://api.developerhub.io/api/v1
-  baseurl_source: declared
   description: Project-level operations — export, search, whole-project dump, audit log and users. Export and audit are enterprise-plan only — 5 operations.
   name: DeveloperHub Project API
   slug: developerhub-project-api
@@ -71,22 +66,27 @@ apis:
   slug: developerhub-reader-access-api
 - baseURL: https://api.developerhub.io/api/v1
   baseurl_source: declared
-  description: Uploads, downloads and publishes the OpenAPI specification behind an API reference — the CI/CD surface, and the one replay-safe write in the API — 3 operations.
-  name: DeveloperHub References API
-  slug: developerhub-references-api
-- baseURL: https://api.developerhub.io/api/v1
-  baseurl_source: declared
-  description: Lists, updates, clones and reports on documentation versions, including a broken-link check for the whole version — 5 operations.
-  name: DeveloperHub Versions API
-  slug: developerhub-versions-api
-- baseURL: https://api.developerhub.io/api/v1
-  baseurl_source: declared
   description: Creates and lists changelog posts from Markdoc content, with cursor pagination and named API-key permissions (changelog.edit, changelog.read) — 2 operations.
   name: DeveloperHub Changelog API
   slug: developerhub-changelog-api
 - description: Two first-party remote MCP servers over Streamable HTTP. The reader server runs at the /mcp route of every customer docs site and exposes one read-only search tool anonymously; the editor server at ai
   name: DeveloperHub MCP Servers
   slug: developerhub-mcp
+- baseURL: https://api.developerhub.io/api/v1
+  baseurl_source: declared
+  description: Operations for creating, reading, updating, publishing, and deleting pages.
+  name: DeveloperHub Page API
+  slug: developerhub-page-api
+- baseURL: https://api.developerhub.io/api/v1
+  baseurl_source: declared
+  description: Operations for adding, reading, and publishing API reference specifications.
+  name: DeveloperHub Reference API
+  slug: developerhub-reference-api
+- baseURL: https://api.developerhub.io/api/v1
+  baseurl_source: declared
+  description: Operations for listing, updating, cloning, and reporting on project versions.
+  name: DeveloperHub Version API
+  slug: developerhub-version-api
 artifact_total: 26
 collections:
 - collection_type: open
@@ -114,6 +114,21 @@ collections:
   name: DeveloperHub.io API
   slug: open-developerhub
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/overlays/developerhub-pages-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/developerhub-pages-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/overlays/developerhub-references-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/developerhub-references-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/overlays/developerhub-versions-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/developerhub-versions-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/agentic-access/developerhub-agentic-access.yml
   title: ''
@@ -313,15 +328,15 @@ modified: '2026-09-06'
 name: DeveloperHub
 nav: Providers
 network: true
-overview: 'DeveloperHub publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documentation API, Pages API, Project API, and 4 more. Tagged areas include API Reference, Developer Portals, Documentation, Knowledge Base, and OpenAPI.
+overview: 'DeveloperHub publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documentation API, Project API, Reader Access API, and 4 more. Tagged areas include API Reference, Developer Portal, Documentation, Knowledge Base, and OpenAPI.
 
 
-  DeveloperHub''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, pricing, and 33 more developer resources.'
+  DeveloperHub''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, pricing, and 36 more developer resources.'
 plans:
 - name: Developerhub Plans Pricing
   plan_count: 4
   slug: developerhub-plans-pricing
-random_paper: 4
+random_paper: 9
 rate_limits:
 - limit_count: 25
   name: Developerhub Rate Limits
@@ -333,7 +348,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.1
+  composite: 55.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 64.0
@@ -341,11 +356,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 77.6
     contract_governance: 18.2
-    contract_quality: 59.4
+    contract_quality: 56.7
     developer_ergonomics: 33.3
     discoverability: 75.9
     operational_transparency: 68.4
@@ -361,7 +376,7 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -383,7 +398,7 @@ security:
 slug: developerhub
 tags:
 - API Reference
-- Developer Portals
+- Developer Portal
 - Documentation
 - Knowledge Base
 - OpenAPI

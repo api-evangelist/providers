@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
   description: Patient's appointments to see a doctor
   name: Luma Health Appointments API
   slug: luma-health-appointments-api
-- baseURL: https://api.lumahealth.io/api/v2
-  baseurl_source: declared
-  description: EHR appointment types
-  name: Luma Health Appointment Types API
-  slug: luma-health-appointmenttypes-api
 - baseURL: https://api.lumahealth.io/api/v2
   baseurl_source: declared
   description: Audit log of individual tool calls made by the Navigator AI assistant during a conversation
@@ -133,29 +128,14 @@ apis:
   slug: luma-health-checklists-api
 - baseURL: https://api.lumahealth.io/api/v2
   baseurl_source: declared
-  description: Reusable definitions of required pre-visit tasks used to build checklists
-  name: Luma Health Checklist Templates API
-  slug: luma-health-checklisttemplates-api
-- baseURL: https://api.lumahealth.io/api/v2
-  baseurl_source: declared
   description: custom styles, CSS, logo images for customers
   name: Luma Health Custom Web Styles API
   slug: luma-health-customwebstyles-api
 - baseURL: https://api.lumahealth.io/api/v2
   baseurl_source: declared
-  description: Append-only history of events that occurred during an engagement
-  name: Luma Health Engagement Events API
-  slug: luma-health-engagementevents-api
-- baseURL: https://api.lumahealth.io/api/v2
-  baseurl_source: declared
   description: Conversation sessions between the system and a recipient, driven by one or more AI agents
   name: Luma Health Engagements API
   slug: luma-health-engagements-api
-- baseURL: https://api.lumahealth.io/api/v2
-  baseurl_source: declared
-  description: Reusable voice and language presets that can be attached to an engagement
-  name: Luma Health Engagement Settings API
-  slug: luma-health-engagementsettings-api
 - baseURL: https://api.lumahealth.io/api/v2
   baseurl_source: declared
   description: Estimates
@@ -186,11 +166,6 @@ apis:
   description: Per-patient platform rotation history for NPS promoter review requests
   name: Luma Health Feedback Responses Promoter Histories API
   slug: luma-health-feedbackresponsespromoterhistories-api
-- baseURL: https://api.lumahealth.io/api/v2
-  baseurl_source: declared
-  description: File Uploads
-  name: Luma Health File Uploads API
-  slug: luma-health-fileuploads-api
 - baseURL: https://api.lumahealth.io/api/v2
   baseurl_source: declared
   description: Group of staff users
@@ -246,11 +221,6 @@ apis:
   description: Luma Health patient credit cards
   name: Luma Health Patient Credit Cards API
   slug: luma-health-patientcreditcards-api
-- baseURL: https://api.lumahealth.io/api/v2
-  baseurl_source: declared
-  description: Patient forms answered by patients
-  name: Luma Health Patient Forms API
-  slug: luma-health-patientforms-api
 - baseURL: https://api.lumahealth.io/api/v2
   baseurl_source: declared
   description: Templates from patient forms
@@ -323,11 +293,6 @@ apis:
   slug: luma-health-squigglies-api
 - baseURL: https://api.lumahealth.io/api/v2
   baseurl_source: declared
-  description: Audit logs for certain system events in a given account
-  name: Luma Health System Audits API
-  slug: luma-health-systemaudits-api
-- baseURL: https://api.lumahealth.io/api/v2
-  baseurl_source: declared
   description: Staff users
   name: Luma Health Users API
   slug: luma-health-users-api
@@ -336,6 +301,41 @@ apis:
   description: Patients waiting for an appointment
   name: Luma Health Waitlists API
   slug: luma-health-waitlists-api
+- baseURL: https://api.lumahealth.io/api/v2
+  baseurl_source: declared
+  description: EHR appointment types
+  name: Luma Health Appointment Types API
+  slug: luma-health-appointment-types-api
+- baseURL: https://api.lumahealth.io/api/v2
+  baseurl_source: declared
+  description: Reusable definitions of required pre-visit tasks used to build checklists
+  name: Luma Health Checklist Templates API
+  slug: luma-health-checklist-templates-api
+- baseURL: https://api.lumahealth.io/api/v2
+  baseurl_source: declared
+  description: Append-only history of events that occurred during an engagement
+  name: Luma Health Engagement Events API
+  slug: luma-health-engagement-events-api
+- baseURL: https://api.lumahealth.io/api/v2
+  baseurl_source: declared
+  description: Reusable voice and language presets that can be attached to an engagement
+  name: Luma Health Engagement Settings API
+  slug: luma-health-engagement-settings-api
+- baseURL: https://api.lumahealth.io/api/v2
+  baseurl_source: declared
+  description: File Uploads
+  name: Luma Health File Uploads API
+  slug: luma-health-file-uploads-api
+- baseURL: https://api.lumahealth.io/api/v2
+  baseurl_source: declared
+  description: Patient forms answered by patients
+  name: Luma Health Patient Forms API
+  slug: luma-health-patient-forms-api
+- baseURL: https://api.lumahealth.io/api/v2
+  baseurl_source: declared
+  description: Audit logs for certain system events in a given account
+  name: Luma Health system Audits API
+  slug: luma-health-system-audits-api
 artifact_total: 65
 common:
 - group: other
@@ -454,10 +454,10 @@ common:
   type: APIReference
   url: https://apidocs.lumahealth.io
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/luma-health-openapi.yaml
+  href: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/openapi/_original/luma-health-openapi.yaml
   title: ''
   type: OpenAPI
-  url: openapi/luma-health-openapi.yaml
+  url: openapi/_original/luma-health-openapi.yaml
 - group: company
   title: ''
   type: Blog
@@ -516,11 +516,11 @@ description: Luma Health is a United States patient-engagement (Patient Success)
   integration layer, not as a public FHIR endpoint.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-08-15'
+modified: '2026-09-16'
 name: Luma Health
 nav: Providers
 network: true
-overview: 'Luma Health publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Appointment Types API, Assistant Actions API, and 55 more. Tagged areas include Healthcare, United States, Patient Engagement, Scheduling, and Referrals.
+overview: 'Luma Health publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Assistant Actions API, Assistant Instances API, and 55 more. Tagged areas include Healthcare, United States, Patient Engagement, Scheduling, and Referrals.
 
 
   Luma Health''s developer surface includes authentication, documentation, API reference, engineering blog, and 34 more developer resources.'
@@ -528,7 +528,7 @@ plans:
 - name: Luma Health Plans Pricing
   plan_count: 0
   slug: luma-health-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Luma Health Rate Limits
@@ -547,7 +547,7 @@ score:
   facets:
     access_clarity: 43.4
     contract_governance: 4.5
-    contract_quality: 54.6
+    contract_quality: 54.7
     developer_ergonomics: 36.3
     discoverability: 70.4
     operational_transparency: 28.9
@@ -580,7 +580,7 @@ score:
     regime_id: health
     score: 51.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

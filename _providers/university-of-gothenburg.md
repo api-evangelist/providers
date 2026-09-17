@@ -33,44 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
-api_count: 6
+  scored_at: '2026-09-16'
+api_count: 7
 apis:
-- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
-  baseurl_source: declared
-  description: Språkbanken Text's corpus search engine, and the largest publicly callable surface the University of Gothenburg operates. Fourteen operations over 1,133 corpora — concordance query, sampling, frequenc
-  name: Korp API v8 — Corpus Concordance Search
-  slug: korp-api
-- baseURL: https://ws.spraakbanken.gu.se/ws/metadata/v3
-  baseurl_source: declared
-  description: The catalogue over everything Språkbanken Text publishes — corpora, lexicons, models, analyses, utilities and collections — with BibTeX citation export, a published JSON schema endpoint and its own Op
-  name: Språkbanken Text Metadata API v3
-  slug: sbx-metadata-api
-- baseURL: https://ws.spraakbanken.gu.se/ws/mink/v3
-  baseurl_source: declared
-  description: Mink lets a researcher upload their own text, run it through the Sparv annotation pipeline and publish it into Korp. Sixty-three paths, the largest contract in this profile and the only one with a rea
-  name: Mink API v3 — Bring Your Own Corpus
-  slug: mink-api
-- baseURL: https://ws.spraakbanken.gu.se/ws/sparv/v3
-  baseurl_source: declared
-  description: 'Sparv is Språkbanken Text''s annotation pipeline exposed as a job-submission web service: upload a corpus, generate a makefile, run the pipeline, poll status, download the annotated result. Institution'
-  name: Sparv API v3 — Text Annotation Pipeline
-  slug: sparv-api
-- baseURL: https://spraakbanken4.it.gu.se/karp/v7
-  baseurl_source: declared
-  description: The editing and query surface over Språkbanken Text's lexical resources — entry CRUD, entry history and diff, resource permissions, field statistics, and inflection-table generation for the SAOL and S
-  name: Karp API v7 — Lexical Resource Editing
-  slug: karp-api
-- baseURL: https://spraakbanken4.it.gu.se/karps/v1
-  baseurl_source: declared
-  description: 'The read-only search surface over the same lexical resources — three operations: config, search and count, across 31 lexical resources. Institution-operated, served from spraakbanken4.it.gu.se. Verifi'
-  name: Karp Search API v1 — Karps sökgränssnitt
-  slug: karp-search-api
-- baseURL: https://gupea.ub.gu.se/server/oai/request
-  baseurl_source: declared
-  description: 'GUPEA (Gothenburg University Publications Electronic Archive) is the Gothenburg University Library''s institutional repository, running DSpace 8.3. Its OAI-PMH 2.0 endpoint is institution-operated: the'
-  name: GUPEA Repository OAI-PMH 2.0 Interface
-  slug: gupea-oai-pmh
 - description: 'The HAL+JSON REST API of the same repository, on the same University host. Verified live 2026-09-01: anonymous GET https://gupea.ub.gu.se/server/api returned HTTP 200 application/hal+json, 8,531 bytes'
   name: GUPEA DSpace 8 REST API
   slug: gupea-dspace-rest
@@ -92,7 +57,137 @@ apis:
 - description: TENANT RELATIONSHIP, recorded with no contract stored. The staff portal at medarbetarportalen.gu.se redirects to login.microsoftonline.com with Entra tenant id 0798ed31-f5b0-4935-863c-73ee2505806e and
   name: Microsoft 365 / Entra ID Tenancy (medarbetarportalen.gu.se)
   slug: microsoft-365-tenancy
-artifact_total: 31
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: '### Queries for Annotating Texts The default query for the text analysis can be sent as GET or POST requests. The latter can be useful for longer texts. In both cases the response is a JSON object con'
+  name: University of Gothenburg Analysis API
+  slug: university-of-gothenburg-analysis-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Endpoints for managing the metadata cache
+  name: University of Gothenburg Cache management API
+  slug: university-of-gothenburg-cache-management-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Calls for removing builds.
+  name: University of Gothenburg Cleanup API
+  slug: university-of-gothenburg-cleanup-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Concordance API from University of Gothenburg — 2 operation(s) for concordance.
+  name: University of Gothenburg Concordance API
+  slug: university-of-gothenburg-concordance-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Config API from University of Gothenburg — 1 operation(s) for config.
+  name: University of Gothenburg Config API
+  slug: university-of-gothenburg-config-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Count API from University of Gothenburg — 1 operation(s) for count.
+  name: University of Gothenburg Count API
+  slug: university-of-gothenburg-count-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Endpoints for API documentation
+  name: University of Gothenburg Documentation API
+  slug: university-of-gothenburg-documentation-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Editing API from University of Gothenburg — 5 operation(s) for editing.
+  name: University of Gothenburg Editing API
+  slug: university-of-gothenburg-editing-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: File upload and download.
+  name: University of Gothenburg Files API
+  slug: university-of-gothenburg-files-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The General API from University of Gothenburg — 2 operation(s) for general.
+  name: University of Gothenburg General API
+  slug: university-of-gothenburg-general-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The History API from University of Gothenburg — 4 operation(s) for history.
+  name: University of Gothenburg History API
+  slug: university-of-gothenburg-history-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Information API from University of Gothenburg — 3 operation(s) for information.
+  name: University of Gothenburg Information API
+  slug: university-of-gothenburg-information-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Routes for managing corpus resources with Sparv.
+  name: University of Gothenburg Manage Corpora API
+  slug: university-of-gothenburg-manage-corpora-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Routes for managing lexicon resources with Karp.
+  name: University of Gothenburg Manage Lexicons API
+  slug: university-of-gothenburg-manage-lexicons-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Routes for creating, uploading, and downloading metadata resources.
+  name: University of Gothenburg Manage Metadata API
+  slug: university-of-gothenburg-manage-metadata-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Routes for listing and getting information about all resources, regardless of type.
+  name: University of Gothenburg Manage Resources API
+  slug: university-of-gothenburg-manage-resources-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Endpoints for retrieving metadata about resources
+  name: University of Gothenburg Metadata retrieval API
+  slug: university-of-gothenburg-metadata-retrieval-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Misc API from University of Gothenburg — 4 operation(s) for misc.
+  name: University of Gothenburg Misc API
+  slug: university-of-gothenburg-misc-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting 2.0
+  name: University of Gothenburg OAI PMH API
+  slug: university-of-gothenburg-oai-pmh-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: API calls here are not part of Karp's basic functionality and may be tailored for a specific resource.
+  name: University of Gothenburg Plugins API
+  slug: university-of-gothenburg-plugins-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Resources API from University of Gothenburg — 3 operation(s) for resources.
+  name: University of Gothenburg Resources API
+  slug: university-of-gothenburg-resources-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Search API from University of Gothenburg — 1 operation(s) for search.
+  name: University of Gothenburg Search API
+  slug: university-of-gothenburg-search-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Searching is the main way to get data from Karp. If a query string is given, an actual search will be done, otherwise all entries in the resource will be returned. - Use [`/query`](#tag/Searching/oper
+  name: University of Gothenburg Searching API
+  slug: university-of-gothenburg-searching-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Statistics API from University of Gothenburg — 6 operation(s) for statistics.
+  name: University of Gothenburg Statistics API
+  slug: university-of-gothenburg-statistics-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: Routes for managing information about the authenticated user and admin mode status.
+  name: University of Gothenburg User Management API
+  slug: university-of-gothenburg-user-management-api
+- baseURL: https://ws.spraakbanken.gu.se/ws/korp/v8
+  baseurl_source: declared
+  description: The Word Picture API from University of Gothenburg — 2 operation(s) for word picture.
+  name: University of Gothenburg Word Picture API
+  slug: university-of-gothenburg-word-picture-api
+artifact_total: 50
 common:
 - group: company
   title: ''
@@ -147,10 +242,10 @@ common:
   type: Support
   url: https://www.gu.se/en/contact
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-korp-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/_original/university-of-gothenburg-korp-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-gothenburg-korp-api-openapi.yml
+  url: openapi/_original/university-of-gothenburg-korp-api-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-metadata-api-openapi.yml
   title: ''
@@ -177,10 +272,10 @@ common:
   type: OpenAPI
   url: openapi/university-of-gothenburg-karp-search-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/university-of-gothenburg-gupea-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/openapi/_original/university-of-gothenburg-gupea-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-gothenburg-gupea-oai-pmh-openapi.yml
+  url: openapi/_original/university-of-gothenburg-gupea-oai-pmh-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/json-schema/university-of-gothenburg-sbx-resource.json
   title: ''
@@ -311,11 +406,11 @@ jsonld:
   property_count: 0
   slug: university-of-gothenburg-organization
 layout: provider
-modified: '2026-09-01'
+modified: '2026-09-16'
 name: University of Gothenburg
 nav: Providers
 network: true
-overview: 'University of Gothenburg publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Korp API v8 — Corpus Concordance Search, Språkbanken Text Metadata API v3, Mink API v3 — Bring Your Own Corpus, and 4 more. Tagged areas include University, Higher Education, Education, Sweden, and Research.
+overview: 'University of Gothenburg publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Analysis API, Cache management API, Cleanup API, and 23 more. Tagged areas include University, Higher Education, Education, Sweden, and Research.
 
 
   The University of Gothenburg catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -326,7 +421,7 @@ plans:
 - name: University Of Gothenburg Plans Pricing
   plan_count: 2
   slug: university-of-gothenburg-plans-pricing
-random_paper: 3
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: University Of Gothenburg Rate Limits
@@ -349,21 +444,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.6
+  composite: 54.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 75.5
+    catalog_earned: 76.5
     catalog_earned_first_party: 5.0
-    catalog_gap: 39.5
+    catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 50.0
     contract_governance: 40.9
-    contract_quality: 60.7
+    contract_quality: 68.5
     developer_ergonomics: 33.3
-    discoverability: 64.8
+    discoverability: 59.3
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -377,10 +472,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 69.2
       derived: 1
-      marker_coverage: 100.0
-      total: 7
+      marker_coverage: 3.8
+      total: 26
   regulatory:
     applies: true
     matched_via: tags
@@ -388,7 +483,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

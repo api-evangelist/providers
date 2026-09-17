@@ -24,7 +24,7 @@ name: Ubooly
 nav: Providers
 network: true
 overview: Ubooly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Toys, Education, Children, and Consumer.
-random_paper: 15
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubooly/refs/heads/main/screenshots/ubooly-2026-09-02T164722.png
 slug: ubooly
 tags:

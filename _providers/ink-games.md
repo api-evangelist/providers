@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The GraphQL contract served by INK Games' Strapi headless CMS, which supplies the content rendered on www.inkgames.com. Schema introspection is enabled and unauthenticated, so the complete type system
@@ -156,7 +156,7 @@ plans:
 - name: Ink Games Plans Pricing
   plan_count: 0
   slug: ink-games-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Ink Games Rate Limits
@@ -190,7 +190,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -216,7 +216,7 @@ tags:
 - Rewards
 - Payments
 - Loyalty
-- Referral
+- Referrals
 - GraphQL
 - Content Management
 website: https://www.inkgames.com/

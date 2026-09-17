@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Access Bloomberg index constituent data, returns, analytics, and historical data for the Bloomberg Global Aggregate, US Aggregate, Euro Aggregate, and other benchmark indices via BLPAPI and Data Licen
@@ -44,6 +44,10 @@ apis:
   slug: index-licensing
 artifact_total: 15
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -92,19 +96,19 @@ finops:
   slug: bloomberg-index-solutions-limited-bisl-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-index-solutions-limited-bisl.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Index Solutions Limited (BISL)
 nav: Providers
 network: true
 overview: 'Bloomberg Index Solutions Limited (BISL) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Index, Fixed Income, Benchmarks, Multi-Asset, and Index Administration.
 
 
-  Bloomberg Index Solutions Limited (BISL)''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Index Solutions Limited (BISL)''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Index Solutions Limited Bisl Plans Pricing
   plan_count: 3
   slug: bloomberg-index-solutions-limited-bisl-plans-pricing
-random_paper: 4
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Bloomberg Index Solutions Limited Bisl Rate Limits
@@ -129,7 +133,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -158,5 +162,5 @@ use_cases:
   name: Risk Attribution
 - description: Use Bloomberg indices as underlying benchmarks for structured products.
   name: Product Structuring
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

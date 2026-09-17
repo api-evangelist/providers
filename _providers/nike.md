@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Nike provides APIs for product catalog access, inventory, store locations, and e-commerce integration. The platform supports partners and developers building experiences around Nike products.
@@ -41,6 +41,10 @@ apis:
   slug: nike-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://nike.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/security/nike-domain-security.yml
   title: ''
@@ -57,14 +61,14 @@ finops:
   slug: nike-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nike.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Nike
 nav: Providers
 network: true
 overview: 'Nike publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 
 
-  Nike''s developer surface includes engineering blog and 1 more developer resources.'
+  Nike''s developer surface includes engineering blog and 2 more developer resources.'
 plans:
 - name: Nike Plans Pricing
   plan_count: 1
@@ -85,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Nike Creates New Innovation Engine to Power Athletes ...
   url: https://about.nike.com/en/newsroom/releases/nike-new-innovation-engine-announcement
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Nike Rate Limits
@@ -110,7 +114,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -125,4 +129,5 @@ security:
 slug: nike
 tags:
 - Fortune 500
+website: https://nike.com
 ---

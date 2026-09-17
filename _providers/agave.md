@@ -37,15 +37,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 2
-  human_in_the_loop: 0
+- acting_count: 226
+  human_in_the_loop: 3
   name: Agave Agentic Access
-  operation_count: 11
+  operation_count: 438
   slug: agave-agentic-access
-  summary_line: 11 operations · 2 acting
-api_count: 11
+  summary_line: 438 operations · 226 acting · 3 human-in-the-loop
+api_count: 18
 apis:
 - description: 'Agave Link is a front-end component that enables users to select source systems, authenticate with their construction software accounts, and share data with your application, handling OAuth flows for '
   name: Agave Link Component
@@ -98,7 +98,42 @@ apis:
   description: Vendor and subcontractor management.
   name: Agave Vendors API
   slug: agave-vendors-api
-artifact_total: 106
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Common resources in the Agave unified construction API.
+  name: Agave Common API
+  slug: agave-common-api
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Customer Management resources in the Agave unified construction API.
+  name: Agave Customer Management API
+  slug: agave-customer-management-api
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: File Management resources in the Agave unified construction API.
+  name: Agave File Management API
+  slug: agave-file-management-api
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Financials Management resources in the Agave unified construction API.
+  name: Agave Financials Management API
+  slug: agave-financials-management-api
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Project Management resources in the Agave unified construction API.
+  name: Agave Project Management API
+  slug: agave-project-management-api
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Service Management resources in the Agave unified construction API.
+  name: Agave Service Management API
+  slug: agave-service-management-api
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Webhooks resources in the Agave unified construction API.
+  name: Agave Webhooks API
+  slug: agave-webhooks-api
+artifact_total: 113
 asyncapis:
 - description: ''
   name: Agave Webhooks
@@ -881,7 +916,7 @@ modified: '2026-08-30'
 name: Agave
 nav: Providers
 network: true
-overview: 'Agave publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Budgets API, Contracts API, Cost Codes API, and 6 more. Tagged areas include Accounting, Construction, Integration, ERP, and Project Management.
+overview: 'Agave publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Budgets API, Contracts API, Cost Codes API, and 13 more. Tagged areas include Accounting, Construction, Integration, ERP, and Project Management.
 
 
   The Agave catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -892,7 +927,7 @@ plans:
 - name: Agave Plans Pricing
   plan_count: 0
   slug: agave-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Agave Rate Limits
@@ -921,7 +956,7 @@ rules:
   slug: agave-spectral-rules
 score:
   band: strong
-  composite: 60.5
+  composite: 61.1
   coverage:
     artifact_dirs: 32
     catalog_earned: 75.5
@@ -929,11 +964,11 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 68.4
     contract_governance: 33.3
-    contract_quality: 38.1
+    contract_quality: 40.5
     developer_ergonomics: 78.0
     discoverability: 74.1
     operational_transparency: 84.2
@@ -943,13 +978,13 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 11
+      derived: 18
       marker_coverage: 100.0
-      total: 11
+      total: 18
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,27 +47,27 @@ apis:
 - baseURL: https://api.ninjavan.co/{countryCode}
   baseurl_source: declared
   description: OAuth2 client-credentials token issuance.
-  name: Ninja Van OAuth API API
+  name: Ninja Van OAuth API
   slug: ninjavan-oauth-api-api
 - baseURL: https://api.ninjavan.co/{countryCode}
   baseurl_source: declared
   description: Create and cancel delivery orders and generate waybills.
-  name: Ninja Van Order API API
+  name: Ninja Van Order API
   slug: ninjavan-order-api-api
 - baseURL: https://api.ninjavan.co/{countryCode}
   baseurl_source: declared
   description: Ninja Point pick-up / drop-off locations and shipper drop-off.
-  name: Ninja Van PUDO API API
+  name: Ninja Van PUDO API
   slug: ninjavan-pudo-api-api
 - baseURL: https://api.ninjavan.co/{countryCode}
   baseurl_source: declared
   description: Estimate shipping price.
-  name: Ninja Van Tariff API API
+  name: Ninja Van Tariff API
   slug: ninjavan-tariff-api-api
 - baseURL: https://api.ninjavan.co/{countryCode}
   baseurl_source: declared
   description: Pull tracking events for parcels.
-  name: Ninja Van Tracking API API
+  name: Ninja Van Tracking API
   slug: ninjavan-tracking-api-api
 artifact_total: 18
 collections:
@@ -147,11 +147,11 @@ finops:
   slug: ninjavan-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ninjavan.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-09-16'
 name: Ninja Van
 nav: Providers
 network: true
-overview: 'Ninja Van publishes 5 APIs on the [APIs.io](https://apis.io/) network, including OAuth API API, Order API API, PUDO API API, and 2 more. Tagged areas include Logistics, Last Mile Delivery, Shipping, Southeast Asia, and Parcels.
+overview: 'Ninja Van publishes 5 APIs on the [APIs.io](https://apis.io/) network, including OAuth API, Order API, PUDO API, and 2 more. Tagged areas include Logistics, Last Mile Delivery, Shipping, Southeast Asia, and Parcel.
 
 
   Ninja Van''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -159,14 +159,14 @@ plans:
 - name: Ninjavan Plans Pricing
   plan_count: 3
   slug: ninjavan-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Ninjavan Rate Limits
   slug: ninjavan-rate-limits
 score:
-  band: emerging
-  composite: 24.6
+  band: thin
+  composite: 38.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 64.0
@@ -174,11 +174,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 14.0
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 0.0
+    contract_quality: 56.2
     developer_ergonomics: 32.1
     discoverability: 68.5
     operational_transparency: 31.6
@@ -197,8 +197,8 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -218,7 +218,7 @@ tags:
 - Last Mile Delivery
 - Shipping
 - Southeast Asia
-- Parcels
+- Parcel
 - Tracking
 - Fulfillment
 - E-commerce Logistics

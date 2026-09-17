@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,10 +131,10 @@ common:
   type: Support
   url: mailto:info@geoinsight.ai
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/geoinsight-ogc-api-dggs-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/openapi/_original/geoinsight-ogc-api-dggs-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/geoinsight-ogc-api-dggs-openapi.yml
+  url: openapi/_original/geoinsight-ogc-api-dggs-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/authentication/geoinsight-authentication.yml
   title: ''
@@ -215,7 +215,7 @@ description: GeoInsight GmbH is a German geospatial-AI company running a Data-as
   and risk. The company is an NVIDIA Inception member and participates in the OGC AI-DGGS pilot programme.
 image: https://geoinsight.ai/og-image.png
 layout: provider
-modified: '2026-08-20'
+modified: '2026-09-16'
 name: GeoInsight
 nav: Providers
 network: true
@@ -227,14 +227,14 @@ plans:
 - name: Geoinsight Plans Pricing
   plan_count: 0
   slug: geoinsight-plans-pricing
-random_paper: 2
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Geoinsight Rate Limits
   slug: geoinsight-rate-limits
 score:
   band: thin
-  composite: 28.8
+  composite: 36.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -242,11 +242,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.3
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 12.9
+    contract_quality: 42.0
     developer_ergonomics: 58.9
     discoverability: 68.5
     operational_transparency: 0.0
@@ -255,9 +255,9 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 9
-      marker_coverage: 100.0
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
       total: 9
     mcp: derived
     skills: derived
@@ -268,8 +268,8 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

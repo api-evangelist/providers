@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: Kodak press-release
   url: https://www.silverfast.com/show/kodak-press-release/de.html
-random_paper: 10
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Eastman Kodak Rate Limits
@@ -191,7 +191,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

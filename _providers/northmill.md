@@ -37,17 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Northmill Bank's PSD2 third-party-provider interface, covering Account Information Services (AIS) and Confirmation of Available Funds (CBPII/CAF), with request signing via ES256/RS256 key pairs regist
   name: Northmill Bank Open Banking API for TPPs
   slug: northmill-bank-open-banking-api-for-tpps
-- baseURL: https://api.moreflo.com
-  baseurl_source: declared
-  description: The AccountCodes API from Northmill — 4 operation(s) for accountcodes.
-  name: Northmill Account Codes API
-  slug: northmill-accountcodes-api
 - baseURL: https://api.moreflo.com
   baseurl_source: declared
   description: The AccountingSettings API from Northmill — 6 operation(s) for accountingsettings.
@@ -150,11 +145,6 @@ apis:
   slug: northmill-sales-api
 - baseURL: https://api.moreflo.com
   baseurl_source: declared
-  description: The ServiceOrders API from Northmill — 4 operation(s) for serviceorders.
-  name: Northmill Service Orders API
-  slug: northmill-serviceorders-api
-- baseURL: https://api.moreflo.com
-  baseurl_source: declared
   description: The Settings API from Northmill — 4 operation(s) for settings.
   name: Northmill Settings API
   slug: northmill-settings-api
@@ -193,6 +183,16 @@ apis:
   description: The WebHooks API from Northmill — 4 operation(s) for webhooks.
   name: Northmill Web Hooks API
   slug: northmill-webhooks-api
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: The Account Codes API from Northmill — 4 operation(s) for account codes.
+  name: Northmill Account Codes API
+  slug: northmill-account-codes-api
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: The Service Orders API from Northmill — 4 operation(s) for service orders.
+  name: Northmill Service Orders API
+  slug: northmill-service-orders-api
 artifact_total: 37
 asyncapis:
 - description: ''
@@ -354,7 +354,7 @@ modified: '2026-08-26'
 name: Northmill
 nav: Providers
 network: true
-overview: 'Northmill publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Account Codes API, Accounting Settings API, Articles API, and 27 more. Tagged areas include Banking, Payments, Point-of-Sale, Retail, and Open Banking.
+overview: 'Northmill publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounting Settings API, Articles API, Articles Availability API, and 27 more. Tagged areas include Banking, Payments, Point-of-Sale, Retail, and Open Banking.
 
 
   The Northmill catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -365,14 +365,14 @@ plans:
 - name: Northmill Plans Pricing
   plan_count: 16
   slug: northmill-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Northmill Rate Limits
   slug: northmill-rate-limits
 score:
   band: strong
-  composite: 55.8
+  composite: 55.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -380,11 +380,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 51.2
+    contract_quality: 51.5
     developer_ergonomics: 54.2
     discoverability: 68.5
     operational_transparency: 50.0
@@ -417,7 +417,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -448,6 +448,6 @@ tags:
 - Webhook
 - E-Commerce
 - Lending
-- Nordics
+- Nordic
 website: https://www.northmill.com/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ overview: 'Cado Gifts, Inc. is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cado Gifts, Inc.''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
   band: emerging
   composite: 11.0
@@ -104,7 +104,7 @@ score:
     - middle-east
   previous_composite: 11.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -125,6 +125,6 @@ tags:
 - E-Commerce
 - Retail
 - Shopify
-- UAE
+- United Arab Emirates
 website: https://cadogifting.com
 ---

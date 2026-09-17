@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,9 +81,9 @@ apis:
   slug: us-army-corps-of-engineers-reservoirs-api
 - baseURL: https://cwms-data.usace.army.mil/cwms-data
   baseurl_source: declared
-  description: The Timeseries API from US Army Corps of Engineers — 2 operation(s) for timeseries.
-  name: US Army Corps of Engineers Timeseries API
-  slug: us-army-corps-of-engineers-timeseries-api
+  description: The Time Series API from US Army Corps of Engineers — 2 operation(s) for time series.
+  name: US Army Corps of Engineers Time Series API
+  slug: us-army-corps-of-engineers-time-series-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -187,7 +187,7 @@ plans:
 - name: Us Army Corps Of Engineers Plans Pricing
   plan_count: 3
   slug: us-army-corps-of-engineers-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Us Army Corps Of Engineers Rate Limits
@@ -250,7 +250,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

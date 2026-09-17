@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Hyundai Developers exposes connected-car data from Bluelink-enrolled vehicles to third-party services over a REST API on prd.kr-ccapi.hyundai.com. Nineteen operations are published across five groups:'
@@ -174,7 +174,7 @@ plans:
 - name: Hyundai Plans Pricing
   plan_count: 0
   slug: hyundai-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Hyundai Rate Limits
@@ -209,7 +209,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

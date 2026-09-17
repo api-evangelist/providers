@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://{oxide-control-plane-host}
@@ -354,7 +354,7 @@ plans:
 - name: Oxide Computer Plans Pricing
   plan_count: 0
   slug: oxide-computer-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Oxide Computer Rate Limits
@@ -388,7 +388,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -416,7 +416,7 @@ tags:
 - Networking
 - Storage
 - Hardware
-- On-Premise
+- On-Premises
 - Private Cloud
 - Open-Source
 website: https://oxide.computer

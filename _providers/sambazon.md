@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The agent-facing commerce surface of the SAMBAZON online store. The merchant profile at /.well-known/ucp advertises the Universal Commerce Protocol (versions 2026-04-08 and 2026-01-23) over an MCP/JSO
@@ -149,7 +149,7 @@ overview: 'Sambazon publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Sambazon''s developer surface includes documentation, authentication, engineering blog, support, signup flow, and 14 more developer resources.'
-random_paper: 19
+random_paper: 1
 scopes:
 - name: Sambazon Scopes
   scope_count: 0
@@ -179,7 +179,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

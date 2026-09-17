@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,22 +52,22 @@ apis:
 - baseURL_template: https://{tenant}.workday.com/api/compensation/v1
   baseurl_source: spec_template
   description: Manage compensation budgets and allocations
-  name: Workday Advanced Compensation Compensation Budgets API
+  name: Workday Advanced Compensation Budgets API
   slug: workday-advanced-compensation-compensation-budgets-api
 - baseURL_template: https://{tenant}.workday.com/api/compensation/v1
   baseurl_source: spec_template
   description: Manage compensation grade profiles and pay ranges
-  name: Workday Advanced Compensation Compensation Grades API
+  name: Workday Advanced Compensation Grades API
   slug: workday-advanced-compensation-compensation-grades-api
 - baseURL_template: https://{tenant}.workday.com/api/compensation/v1
   baseurl_source: spec_template
   description: Manage compensation plans and eligibility rules
-  name: Workday Advanced Compensation Compensation Plans API
+  name: Workday Advanced Compensation Plans API
   slug: workday-advanced-compensation-compensation-plans-api
 - baseURL_template: https://{tenant}.workday.com/api/compensation/v1
   baseurl_source: spec_template
   description: Manage compensation review processes and cycles
-  name: Workday Advanced Compensation Compensation Reviews API
+  name: Workday Advanced Compensation Reviews API
   slug: workday-advanced-compensation-compensation-reviews-api
 - baseURL_template: https://{tenant}.workday.com/api/compensation/v1
   baseurl_source: spec_template
@@ -277,11 +277,11 @@ jsonld:
   property_count: 17
   slug: workday-advanced-compensation-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Workday Advanced Compensation
 nav: Providers
 network: true
-overview: 'Workday Advanced Compensation publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bonus Plans API, Compensation Budgets API, Compensation Grades API, and 5 more.
+overview: 'Workday Advanced Compensation publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bonus Plans API, Budgets API, Grades API, and 5 more.
 
 
   The Workday Advanced Compensation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -292,7 +292,7 @@ plans:
 - name: Workday Advanced Compensation Plans Pricing
   plan_count: 3
   slug: workday-advanced-compensation-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Workday Advanced Compensation Rate Limits
@@ -354,7 +354,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

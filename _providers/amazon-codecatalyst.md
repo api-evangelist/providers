@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 33 operations · 25 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://codecatalyst.global.api.aws
-  baseurl_source: declared
-  description: The AccessTokens API from Amazon CodeCatalyst — 2 operation(s) for accesstokens.
-  name: Amazon CodeCatalyst AccessTokens API
-  slug: amazon-codecatalyst-accesstokens-api
 - baseURL: https://codecatalyst.global.api.aws
   baseurl_source: declared
   description: The Session API from Amazon CodeCatalyst — 1 operation(s) for session.
@@ -61,9 +56,14 @@ apis:
   slug: amazon-codecatalyst-spaces-api
 - baseURL: https://codecatalyst.global.api.aws
   baseurl_source: declared
-  description: The UserDetails API from Amazon CodeCatalyst — 1 operation(s) for userdetails.
-  name: Amazon CodeCatalyst UserDetails API
-  slug: amazon-codecatalyst-userdetails-api
+  description: The Access Tokens API from Amazon CodeCatalyst — 2 operation(s) for access tokens.
+  name: Amazon CodeCatalyst Access Tokens API
+  slug: amazon-codecatalyst-access-tokens-api
+- baseURL: https://codecatalyst.global.api.aws
+  baseurl_source: declared
+  description: The User Details API from Amazon CodeCatalyst — 1 operation(s) for user details.
+  name: Amazon CodeCatalyst User Details API
+  slug: amazon-codecatalyst-user-details-api
 artifact_total: 465
 collections:
 - collection_type: postman
@@ -94,6 +94,10 @@ collections:
   name: Amazon CodeCatalyst AccessTokens UserDetails API
   slug: open-amazon-codecatalyst-userdetails-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/mcp/amazon-codecatalyst-mcp.yml
   title: ''
@@ -1549,18 +1553,18 @@ jsonld:
   property_count: 74
   slug: amazon-codecatalyst-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon CodeCatalyst
 nav: Providers
 network: true
-overview: 'Amazon CodeCatalyst publishes 4 APIs on the [APIs.io](https://apis.io/) network, including AccessTokens API, Session API, Spaces API, and 1 more. Tagged areas include Amazon, Developer Tools, CI/CD, Collaboration, and DevOps.
+overview: 'Amazon CodeCatalyst publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Session API, Spaces API, Access Tokens API, and 1 more. Tagged areas include Amazon, Developer Tools, CI/CD, Collaboration, and DevOps.
 
 
   The Amazon CodeCatalyst catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 22 more developer resources.'
-random_paper: 18
+  Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 23 more developer resources.'
+random_paper: 13
 rules:
 - effective_rule_count: 5
   extends: []
@@ -1585,7 +1589,7 @@ rules:
   slug: amazon-codecatalyst-spectral-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 46.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 57.5
@@ -1593,11 +1597,11 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 28.9
     contract_governance: 33.3
-    contract_quality: 71.4
+    contract_quality: 68.7
     developer_ergonomics: 53.6
     discoverability: 75.9
     operational_transparency: 18.4
@@ -1612,7 +1616,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1650,5 +1654,5 @@ use_cases:
   name: Standardized CI/CD Pipelines
 - description: Enable distributed teams to collaborate on source code through integrated repositories, pull requests, and code review workflows.
   name: Collaborative Code Development
-website: https://aws.amazon.com/codecatalyst/
+website: https://amazon.com
 ---

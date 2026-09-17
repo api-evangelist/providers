@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Palm HR REST API surface (api.palm.hr). Customers create API keys with granular permissions to push HR, attendance, and payroll data to ERPs and external tools. No public OpenAPI specification or deve
@@ -97,11 +97,11 @@ modified: '2026-07-20'
 name: Palm HR
 nav: Providers
 network: true
-overview: 'Palm HR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR, Human Resources, Payroll, and Attendance.
+overview: 'Palm HR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Payroll, Attendance, and Performance Management.
 
 
   Palm HR''s developer surface includes pricing and 10 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: emerging
   composite: 16.1
@@ -127,7 +127,7 @@ score:
     - middle-east
   previous_composite: 16.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -146,14 +146,13 @@ security:
 slug: palmhr
 tags:
 - Company
-- HR
 - Human Resources
 - Payroll
 - Attendance
 - Performance Management
 - Recruiting
 - WPS
-- UAE
+- United Arab Emirates
 - MENA
 website: https://palmhr.net/en
 ---

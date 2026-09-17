@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: Customs Computer System
 nav: Providers
 network: true
-random_paper: 13
+random_paper: 8
 slug: customs-computer-system
 tags:
 - ACE
@@ -31,7 +31,7 @@ tags:
 - EDI
 - Export
 - ICS2
-- Imports
+- Import
 - NACCS
 - Single Window
 - TradeNet

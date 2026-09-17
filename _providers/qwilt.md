@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -244,11 +244,11 @@ modified: '2026-07-20'
 name: Qwilt
 nav: Providers
 network: true
-overview: 'Qwilt publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Certificate Templates API, Certificates API, Origin Allow List API, and 3 more. Tagged areas include Company, Media, CDN, Content Delivery Network, and Edge Computing.
+overview: 'Qwilt publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Certificate Templates API, Certificates API, Origin Allow List API, and 3 more. Tagged areas include Company, Media, CDN, Edge Computing, and Video Streaming.
 
 
   Qwilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 23 more developer resources.'
-random_paper: 15
+random_paper: 11
 score:
   band: thin
   composite: 39.1
@@ -279,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -303,7 +303,6 @@ tags:
 - Company
 - Media
 - CDN
-- Content Delivery Network
 - Edge Computing
 - Video Streaming
 - Open Caching

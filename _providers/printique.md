@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ modified: '2026-07-25'
 name: Printique
 nav: Providers
 network: true
-overview: 'Printique is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Photo Printing, Print Fulfillment, Photo Lab, Photography, and Prints.
+overview: 'Printique is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Photo Printing, Print Fulfillment, Photo Lab, Photography, and Print.
 
 
   Printique''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
@@ -83,7 +83,7 @@ plans:
 - name: Printique Plans Pricing
   plan_count: 0
   slug: printique-plans-pricing
-random_paper: 6
+random_paper: 3
 score:
   band: minimal
   composite: 7.4
@@ -109,7 +109,7 @@ score:
     - north-america
   previous_composite: 7.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -127,7 +127,7 @@ tags:
 - Print Fulfillment
 - Photo Lab
 - Photography
-- Prints
+- Print
 - Albums
 - Wall Art
 - Print on Demand

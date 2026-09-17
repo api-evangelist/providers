@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 192
   human_in_the_loop: 6
@@ -829,7 +829,7 @@ overview: 'Skilljar publishes 78 APIs on the [APIs.io](https://apis.io/) network
 
 
   Skilljar''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 20
+random_paper: 2
 scopes:
 - name: Skilljar Scopes
   scope_count: 89
@@ -849,7 +849,7 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 58.6
+    contract_quality: 58.5
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 26.3
@@ -858,7 +858,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 78
@@ -871,7 +871,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

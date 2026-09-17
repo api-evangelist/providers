@@ -48,7 +48,7 @@ name: LE TOTE
 nav: Providers
 network: true
 overview: LE TOTE is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Retail, Fashion, and E-Commerce.
-random_paper: 5
+random_paper: 16
 security:
 - kind: domain-security
   name: Le Tote Domain Security

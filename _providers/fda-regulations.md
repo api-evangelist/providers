@@ -18,13 +18,13 @@ agentic_access:
   operation_count: 4
   slug: fda-regulations-agentic-access
   summary_line: 4 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api-datadashboard.fda.gov/v1
   baseurl_source: declared
-  description: 'RESTful access to the FDA Data Dashboard datasets that record how FDA regulations are enforced: inspection classifications, inspection citations (the specific CFR references cited against a firm), com'
-  name: FDA Data Dashboard API
-  slug: fda-regulations-data-dashboard-api
+  description: The FDA Data Dashboard API API from FDA Regulations — 4 operation(s) for fda data dashboard api.
+  name: FDA Regulations FDA Data Dashboard API
+  slug: fda-regulations-fda-data-dashboard-api-api
 artifact_total: 6
 common:
 - group: agent
@@ -103,10 +103,10 @@ common:
   type: LLMsTxt
   url: llms/fda-regulations-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/fda-regulations/refs/heads/main/openapi/fda-regulations-data-dashboard-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/fda-regulations/refs/heads/main/openapi/_original/fda-regulations-data-dashboard-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/fda-regulations-data-dashboard-openapi.yml
+  url: openapi/_original/fda-regulations-data-dashboard-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/fda-regulations/refs/heads/main/overlays/fda-regulations-data-dashboard-overlay.yaml
   title: ''
@@ -161,7 +161,7 @@ created: '2025-01-01'
 description: 'FDA Regulations is the body of federal rules the U.S. Food and Drug Administration enforces over the safety, efficacy and security of food, human and animal drugs, biologics, medical devices, cosmetics and tobacco products — codified at 21 CFR and administered through the agency''s inspection, citation, import and compliance-action programs. The machine-readable surface for that regulatory activity is the FDA Data Dashboard API (DDAPI), published by the FDA Office of Inspections and Investigations (formerly the Office of Regulatory Affairs), which serves the same inspection classification, inspection citation, import refusal and compliance action datasets that power the public Data Dashboard. Access is credentialed: FDA issues an Authorization-User / Authorization-Key header pair on request, and every endpoint is a POST search over a single dataset with JSON filters, column projection, sorting and offset paging.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fda-regulations.png
 layout: provider
-modified: '2026-09-12'
+modified: '2026-09-16'
 name: FDA Regulations
 nav: Providers
 network: true
@@ -173,7 +173,7 @@ plans:
 - name: Fda Regulations Plans Pricing
   plan_count: 0
   slug: fda-regulations-plans-pricing
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Fda Regulations Rate Limits
@@ -195,10 +195,10 @@ tags:
 - Medical Devices
 - Pharmaceuticals
 - Food Safety
-- Inspections
+- Inspection
 - Enforcement
 - Federal-Government
 - Public Data
-- Imports
+- Import
 website: https://www.fda.gov/regulatory-information/laws-enforced-fda
 ---

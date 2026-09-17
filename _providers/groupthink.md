@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Groupthink's hosted, remote Model Context Protocol (MCP) server and API, served from api.groupthink.com. Authenticated with a Bearer API token minted in the app, it lets an AI assistant join live meet
@@ -143,7 +143,7 @@ overview: 'Groupthink publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Groupthink''s developer surface includes documentation, authentication, changelog, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
-random_paper: 7
+random_paper: 21
 score:
   band: thin
   composite: 28.0
@@ -168,7 +168,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

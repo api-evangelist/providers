@@ -66,7 +66,7 @@ press:
 - date: '2026-05-25'
   title: UW Board of Regents approves UW–Madison proposal to ...
   url: https://news.wisc.edu/uw-board-of-regents-approves-uw-madison-proposal-to-create-college-of-computing-and-artificial-intelligence/
-random_paper: 5
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/computer-sciences/refs/heads/main/screenshots/computer-sciences-2026-06-20T174837.png
 slug: computer-sciences
 tags:

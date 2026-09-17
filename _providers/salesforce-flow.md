@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,12 +53,12 @@ apis:
 - baseURL: https://yourInstance.salesforce.com/services/data/v59.0
   baseurl_source: declared
   description: Operations for managing Flow metadata and definitions
-  name: Salesforce Flow Flow Definitions API
+  name: Salesforce Flow Definitions API
   slug: salesforce-flow-flow-definitions-api
 - baseURL: https://yourInstance.salesforce.com/services/data/v59.0
   baseurl_source: declared
   description: Operations for executing and managing Flow interviews
-  name: Salesforce Flow Flow Interviews API
+  name: Salesforce Flow Interviews API
   slug: salesforce-flow-flow-interviews-api
 - baseURL: https://yourInstance.salesforce.com/services/data/v59.0
   baseurl_source: declared
@@ -219,11 +219,11 @@ jsonld:
   property_count: 23
   slug: salesforce-flow-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Salesforce Flow
 nav: Providers
 network: true
-overview: 'Salesforce Flow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Flow Definitions API, Flow Interviews API, and Invocable Actions API. Tagged areas include Automation, Business Process, CRM, Flow, and Process Builder.
+overview: 'Salesforce Flow publishes 3 APIs on the [APIs.io](https://apis.io/) network: Definitions API, Interviews API, and Invocable Actions API. Tagged areas include Automation, Business Process, CRM, Flow, and Process Builder.
 
 
   The Salesforce Flow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -234,7 +234,7 @@ plans:
 - name: Salesforce Flow Plans Pricing
   plan_count: 1
   slug: salesforce-flow-plans-pricing
-random_paper: 15
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Salesforce Flow Rate Limits
@@ -292,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

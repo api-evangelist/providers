@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -52,12 +52,12 @@ apis:
 - baseURL: https://api.rocketreach.co/api/v2
   baseurl_source: declared
   description: The Company Data API API from RocketReach — 5 operation(s) for company data api.
-  name: RocketReach Company Data API API
+  name: RocketReach Company Data API
   slug: rocketreach-company-data-api-api
 - baseURL: https://api.rocketreach.co/api/v2
   baseurl_source: declared
   description: The People Data API API from RocketReach — 9 operation(s) for people data api.
-  name: RocketReach People Data API API
+  name: RocketReach People Data API
   slug: rocketreach-people-data-api-api
 artifact_total: 33
 asyncapis:
@@ -356,11 +356,11 @@ mcp_servers:
 - description: RocketReach ships a first-party, hosted Model Context Protocol server that exposes its people and company search and lookup surface as MCP tools. The agent authenticates once via OAuth 2.1 with PKCE a
   name: RocketReach MCP Server
   slug: rocketreach-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: RocketReach
 nav: Providers
 network: true
-overview: 'RocketReach publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Company Data API API, and People Data API API. Tagged areas include B2B, Contact Data, Email Lookup, Phone Lookup, and Sales Intelligence.
+overview: 'RocketReach publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Company Data API, and People Data API. Tagged areas include B2B, Contact Data, Email Lookup, Phone Lookup, and Sales Intelligence.
 
 
   The RocketReach catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -371,7 +371,7 @@ plans:
 - name: Rocketreach Plans Pricing
   plan_count: 4
   slug: rocketreach-plans-pricing
-random_paper: 8
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Rocketreach Rate Limits
@@ -416,7 +416,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

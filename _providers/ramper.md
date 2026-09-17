@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -107,11 +107,11 @@ modified: '2026-07-20'
 name: Ramper
 nav: Providers
 network: true
-overview: 'Ramper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Wallets, Embedded Wallet, and Blockchain.
+overview: 'Ramper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Wallets, Embedded Wallets, and Blockchain.
 
 
   Ramper''s developer surface includes documentation, getting-started guide, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: emerging
   composite: 20.6
@@ -138,7 +138,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -159,7 +159,7 @@ tags:
 - Company
 - Web3
 - Wallets
-- Embedded Wallet
+- Embedded Wallets
 - Blockchain
 - Social Login
 - Authentication

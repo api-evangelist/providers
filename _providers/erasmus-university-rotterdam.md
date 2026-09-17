@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://repub.eur.nl/oai
-  baseurl_source: declared
-  description: 'OAI-PMH 2.0 harvesting interface for RePub, the Erasmus University Rotterdam institutional publication repository. Keyless and live: Identify, ListMetadataFormats, ListSets and ListIdentifiers all ret'
-  name: RePub OAI-PMH Metadata Harvesting Interface
-  slug: repub-oai
 - description: 'An EUR-operated Kong API gateway. It is unambiguously live and unambiguously closed: the root returns 401 application/json {"message":"Unauthorized"} with WWW-Authenticate: Basic realm="kong", HSTS ma'
   name: EUR API Gateway (api.eur.nl)
   slug: api-gateway
@@ -60,6 +55,11 @@ apis:
 - description: EUR's identity federation entry — the machine-readable institutional surface universities almost never get catalogued for. EUR is registered as an identity provider in SURFconext, the Dutch national r
   name: SURFconext / eduGAIN Identity Provider
   slug: surfconext-idp
+- baseURL: https://repub.eur.nl/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs, dispatched by the `verb` query parameter on a single path.
+  name: Erasmus University Rotterdam Oai Pmh API
+  slug: erasmus-university-rotterdam-oai-pmh-api
 artifact_total: 14
 collections:
 - collection_type: open
@@ -286,7 +286,7 @@ modified: '2026-08-30'
 name: Erasmus University Rotterdam
 nav: Providers
 network: true
-overview: 'Erasmus University Rotterdam publishes 1 API on the [APIs.io](https://apis.io/) network: RePub OAI-PMH Metadata Harvesting Interface. Tagged areas include University, Higher Education, Education, Netherlands, and Rotterdam.
+overview: 'Erasmus University Rotterdam publishes 1 API on the [APIs.io](https://apis.io/) network: Oai Pmh API. Tagged areas include University, Higher Education, Education, Netherlands, and Rotterdam.
 
 
   Erasmus University Rotterdam''s developer surface includes authentication, code examples, status page, GitHub presence, documentation, and 22 more developer resources.'
@@ -294,7 +294,7 @@ plans:
 - name: Erasmus University Rotterdam Plans Pricing
   plan_count: 2
   slug: erasmus-university-rotterdam-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Erasmus University Rotterdam Rate Limits
@@ -340,7 +340,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

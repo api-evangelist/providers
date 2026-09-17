@@ -24,7 +24,7 @@ name: Cascade
 nav: Providers
 network: true
 overview: Cascade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No-Code, Data Analytics, Data Preparation, and Business Intelligence.
-random_paper: 15
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/cascade/refs/heads/main/screenshots/cascade-2026-07-25T204713.png
 slug: cascade
 tags:

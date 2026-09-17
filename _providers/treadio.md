@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 2
@@ -58,11 +58,6 @@ apis:
   description: The AddOnCharges API from tread.io — 6 operation(s) for addoncharges.
   name: tread.io AddOnCharges API
   slug: treadio-addoncharges-api
-- baseURL: https://api.tread-horizon.com
-  baseurl_source: declared
-  description: The AddOns API from tread.io — 9 operation(s) for addons.
-  name: tread.io AddOns API
-  slug: treadio-addons-api
 - baseURL: https://api.tread-horizon.com
   baseurl_source: declared
   description: The Agave API from tread.io — 14 operation(s) for agave.
@@ -140,11 +135,6 @@ apis:
   slug: treadio-equipmenttype-api
 - baseURL: https://api.tread-horizon.com
   baseurl_source: declared
-  description: The FileAttachments API from tread.io — 10 operation(s) for fileattachments.
-  name: tread.io FileAttachments API
-  slug: treadio-fileattachments-api
-- baseURL: https://api.tread-horizon.com
-  baseurl_source: declared
   description: The Foremen API from tread.io — 4 operation(s) for foremen.
   name: tread.io Foremen API
   slug: treadio-foremen-api
@@ -158,11 +148,6 @@ apis:
   description: The GeofenceTriggers API from tread.io — 3 operation(s) for geofencetriggers.
   name: tread.io GeofenceTriggers API
   slug: treadio-geofencetriggers-api
-- baseURL: https://api.tread-horizon.com
-  baseurl_source: declared
-  description: The IamRoles API from tread.io — 2 operation(s) for iamroles.
-  name: tread.io IamRoles API
-  slug: treadio-iamroles-api
 - baseURL: https://api.tread-horizon.com
   baseurl_source: declared
   description: The Integrations API from tread.io — 1 operation(s) for integrations.
@@ -333,6 +318,21 @@ apis:
   description: The Users API from tread.io — 23 operation(s) for users.
   name: tread.io Users API
   slug: treadio-users-api
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Add Ons API from tread.io — 9 operation(s) for add ons.
+  name: tread.io Add Ons API
+  slug: treadio-add-ons-api
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The File Attachments API from tread.io — 10 operation(s) for file attachments.
+  name: tread.io File Attachments API
+  slug: treadio-file-attachments-api
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The IAM Roles API from tread.io — 2 operation(s) for iam roles.
+  name: tread.io IAM Roles API
+  slug: treadio-iam-roles-api
 artifact_total: 121
 asyncapis:
 - description: ''
@@ -661,7 +661,7 @@ overview: 'tread.io publishes 58 APIs on the [APIs.io](https://apis.io/) network
 
 
   tread.io''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 21 more developer resources.'
-random_paper: 9
+random_paper: 18
 score:
   band: developing
   composite: 52.2
@@ -676,7 +676,7 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 68.5
+    contract_quality: 68.4
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 31.6
@@ -692,7 +692,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

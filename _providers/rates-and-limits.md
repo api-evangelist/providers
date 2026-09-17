@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Keyless, unauthenticated REST-style JSON API serving US tax, payroll, benefits, and wage figures with bundled provenance. Includes a self-describing catalog (index.json) and a bulk current-figures end
@@ -56,7 +56,7 @@ plans:
 - name: Rates And Limits Plans Pricing
   plan_count: 0
   slug: rates-and-limits-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Rates And Limits Rate Limits
@@ -89,7 +89,7 @@ score:
     regime_id: government
     score: 37.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +115,7 @@ tags:
 - Government
 - Compliance
 - Fintech
-- HR
+- Human Resources
 - Reference Data
 - JSON
 - llms-txt

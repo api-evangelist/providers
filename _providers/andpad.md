@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: ANDPAD's external REST API for integrating partner services with the ANDPAD construction management platform via the ANDPAD App Market. Served from api.andpad.jp with a versioned /v1 base path, JSON r
@@ -128,7 +128,7 @@ overview: 'ANDPAD publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   ANDPAD''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 7
+random_paper: 0
 score:
   band: emerging
   composite: 20.4
@@ -156,7 +156,7 @@ score:
     - japan-korea
   previous_composite: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

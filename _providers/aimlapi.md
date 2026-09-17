@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 21
   slug: aimlapi-agentic-access
   summary_line: 21 operations · 14 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.aimlapi.com
   baseurl_source: declared
@@ -95,15 +95,55 @@ apis:
   description: The [WIP] Completions API from AIMLAPI — 1 operation(s) for [wip] completions.
   name: AIMLAPI [WIP] Completions API
   slug: aimlapi-wip-completions-api
-- baseURL: https://api.aimlapi.com
-  baseurl_source: declared
-  description: 'AI/ML API''s own published OpenAPI, served from the API host at https://api.aimlapi.com/docs-yaml and rendered at https://api.aimlapi.com/docs. 19 operations across 16 paths covering chat completions, '
-  name: AIMLAPI Inference API
-  slug: aimlapi-inference-api
 - description: AI/ML API's first-party remote Model Context Protocol server at https://mcp.aimlapi.com/mcp — Streamable HTTP with OAuth 2.1, PKCE and dynamic client registration, so no API key is pasted into the cli
   name: AIMLAPI MCP Server
   slug: aimlapi-mcp-server
-artifact_total: 79
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Batches API from AIMLAPI — 2 operation(s) for batches.
+  name: AIMLAPI Batches API
+  slug: aimlapi-batches-api
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Embeddings API from AIMLAPI — 1 operation(s) for embeddings.
+  name: AIMLAPI Embeddings API
+  slug: aimlapi-embeddings-api
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Generate API from AIMLAPI — 2 operation(s) for generate.
+  name: AIMLAPI Generate API
+  slug: aimlapi-generate-api
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Messages API from AIMLAPI — 1 operation(s) for messages.
+  name: AIMLAPI Messages API
+  slug: aimlapi-messages-api
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Ocr API from AIMLAPI — 1 operation(s) for ocr.
+  name: AIMLAPI Ocr API
+  slug: aimlapi-ocr-api
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Responses API from AIMLAPI — 2 operation(s) for responses.
+  name: AIMLAPI Responses API
+  slug: aimlapi-responses-api
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Stt API from AIMLAPI — 2 operation(s) for stt.
+  name: AIMLAPI Stt API
+  slug: aimlapi-stt-api
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Tts API from AIMLAPI — 1 operation(s) for tts.
+  name: AIMLAPI Tts API
+  slug: aimlapi-tts-api
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Video API from AIMLAPI — 1 operation(s) for video.
+  name: AIMLAPI Video API
+  slug: aimlapi-video-api
+artifact_total: 87
 collections:
 - collection_type: open
   name: API Collection
@@ -220,10 +260,10 @@ common:
   type: LlmsText
   url: https://aimlapi.com/llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-inference-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/_original/aimlapi-inference-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/aimlapi-inference-openapi.yml
+  url: openapi/_original/aimlapi-inference-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/overlays/aimlapi-inference-overlay.yaml
   title: ''
@@ -459,11 +499,11 @@ mcp_servers:
 - description: AI/ML API publishes a first-party REMOTE Model Context Protocol server at https://mcp.aimlapi.com/mcp, documented on its own quickstart page and advertised from the site llms.txt. It is Streamable HTT
   name: AIMLAPI MCP Server
   slug: aimlapi-mcp-server
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: AIMLAPI
 nav: Providers
 network: true
-overview: 'AIMLAPI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API Key Management API, Assistants API, Chat API, and 8 more. Tagged areas include Artificial Intelligence, Machine-Learning, AI Models, LLM, and Image-Generation.
+overview: 'AIMLAPI publishes 19 APIs on the [APIs.io](https://apis.io/) network, including API Key Management API, Assistants API, Chat API, and 16 more. Tagged areas include Artificial Intelligence, Machine-Learning, AI Models, LLM, and Image-Generation.
 
 
   The AIMLAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -474,7 +514,7 @@ plans:
 - name: Aimlapi Plans Pricing
   plan_count: 6
   slug: aimlapi-plans-pricing
-random_paper: 19
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Aimlapi Rate Limits
@@ -520,7 +560,7 @@ score:
   facets:
     access_clarity: 84.2
     contract_governance: 47.0
-    contract_quality: 59.4
+    contract_quality: 59.2
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 65.8
@@ -532,11 +572,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 19
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

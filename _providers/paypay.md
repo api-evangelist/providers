@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ collections:
   name: Dynamic QR Payment Payments API
   slug: open-paypay-payments-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://paypay.ne.jp
 - group: start
   title: ''
   type: DeveloperPortal
@@ -208,7 +212,7 @@ created: '2026-07-17'
 description: PayPay is Japan's largest QR/barcode mobile-payment network (a SoftBank / Yahoo Japan / Paytm joint venture) with tens of millions of users. Its Open Payment API (OPA v2) lets payment partners and merchants collect payments from PayPay wallet users through dynamic QR codes, web checkout (Web Cashier), app-invoke deep links, and a pre-authorize-and-capture flow. The REST API (base //apigw.paypay.ne.jp) is secured with HMAC-SHA256 request signatures, settles in JPY, sends transaction webhooks plus daily reconciliation files, and ships official Node, PHP, Python and Java SDKs under the github.com/paypay organization.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paypay.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: PayPay
 nav: Providers
 network: true
@@ -218,11 +222,11 @@ overview: 'PayPay publishes 2 APIs on the [APIs.io](https://apis.io/) network: P
   The PayPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PayPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 21 more developer resources.'
-random_paper: 9
+  PayPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 22 more developer resources.'
+random_paper: 0
 score:
   band: thin
-  composite: 34.3
+  composite: 35.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -230,11 +234,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 53.7
+    contract_quality: 57.0
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 34.2
@@ -263,7 +267,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -288,5 +292,5 @@ tags:
 - Digital Wallet
 - Japan
 - Merchant Payments
-website: https://developer.paypay.ne.jp/
+website: https://paypay.ne.jp
 ---

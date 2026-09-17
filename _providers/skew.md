@@ -24,7 +24,7 @@ name: Skew
 nav: Providers
 network: true
 overview: Skew is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 1
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/skew/refs/heads/main/screenshots/skew-2026-09-02T155816.png
 slug: skew
 tags:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Per-instance GraphQL API for the Frontify brand management / DAM platform — discover brands, search and retrieve assets, manage metadata, collaborate on comments/annotations, browse guidelines, export
@@ -255,7 +255,7 @@ plans:
 - name: Frontify Plans Pricing
   plan_count: 0
   slug: frontify-plans-pricing
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Frontify Rate Limits
@@ -289,7 +289,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

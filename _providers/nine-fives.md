@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: http://192.168.0.95
@@ -190,7 +190,7 @@ overview: 'Nine Fives publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nine Fives'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: thin
   composite: 29.0
@@ -205,7 +205,7 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
-    contract_quality: 11.4
+    contract_quality: 11.5
     developer_ergonomics: 58.9
     discoverability: 81.5
     operational_transparency: 0.0
@@ -220,7 +220,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ overview: 'GazeHawk is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   GazeHawk''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 10
+random_paper: 14
 screenshot: https://raw.githubusercontent.com/api-evangelist/gazehawk/refs/heads/main/screenshots/gazehawk-2026-07-25T215504.png
 slug: gazehawk
 tags:

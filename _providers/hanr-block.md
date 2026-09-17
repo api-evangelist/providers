@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The partner-facing H&R Block integration surface — tax-data import from financial institutions, payroll providers and employer solutions. No public contract, reference or portal is reachable: api.hrbl'
@@ -151,7 +151,7 @@ plans:
 - name: Hanr Block Plans Pricing
   plan_count: 1
   slug: hanr-block-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Hanr Block Rate Limits
@@ -184,7 +184,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

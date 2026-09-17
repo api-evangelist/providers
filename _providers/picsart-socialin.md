@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -412,11 +412,11 @@ modified: '2026-07-20'
 name: PicsArt (Socialin)
 nav: Providers
 network: true
-overview: 'PicsArt (Socialin) publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Audio API, Classification API, and 20 more. Tagged areas include Company, Image Editing, Video Editing, Generative AI, and Photo.
+overview: 'PicsArt (Socialin) publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Audio API, Classification API, and 20 more. Tagged areas include Company, Image Editing, Video Editing, Generative AI, and Photos.
 
 
   PicsArt (Socialin)''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Picsart Socialin Rate Limits
@@ -451,7 +451,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -472,7 +472,7 @@ tags:
 - Image Editing
 - Video Editing
 - Generative AI
-- Photo
+- Photos
 - Creative Tools
 - Image Processing
 - Background Removal

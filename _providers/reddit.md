@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -79,11 +79,6 @@ apis:
   slug: reddit-moderation-api
 - baseURL: https://oauth.reddit.com
   baseurl_source: declared
-  description: Endpoints implementing the oEmbed protocol for embedding Reddit content in external websites and applications.
-  name: Reddit oEmbed API
-  slug: reddit-oembed-api
-- baseURL: https://oauth.reddit.com
-  baseurl_source: declared
   description: Endpoints for searching Reddit content including submissions, subreddits, and users across the platform.
   name: Reddit Search API
   slug: reddit-search-api
@@ -102,6 +97,11 @@ apis:
   description: Endpoints for managing subreddit wikis, including reading and editing wiki pages, revision history, and permissions.
   name: Reddit Wiki API
   slug: reddit-wiki-api
+- baseURL: https://www.reddit.com/api/v1
+  baseurl_source: declared
+  description: Endpoints implementing the oEmbed protocol for embedding Reddit content in external websites and applications.
+  name: Reddit o Embed API
+  slug: reddit-o-embed-api
 artifact_total: 53
 collections:
 - collection_type: open
@@ -351,7 +351,7 @@ plans:
 - name: Reddit Plans Pricing
   plan_count: 2
   slug: reddit-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Reddit Rate Limits
@@ -410,7 +410,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

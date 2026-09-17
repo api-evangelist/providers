@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: DuPont Collaborates with Uncountable to Advance AI ...
   url: https://www.prnewswire.com/news-releases/dupont-collaborates-with-uncountable-to-advance-ai-ready-labs-strategy-302758823.html
-random_paper: 15
+random_paper: 6
 score:
   band: minimal
   composite: 4.1
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

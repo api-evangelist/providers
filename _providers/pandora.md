@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Pandora GraphQL API provides access to Pandora's music catalog and listener data, enabling developers to build applications with playback controls, search, user collection management, feedback (th
@@ -118,7 +118,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 6
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 38.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

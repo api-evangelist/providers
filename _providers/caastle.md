@@ -38,7 +38,7 @@ name: CaaStle
 nav: Providers
 network: true
 overview: CaaStle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Fashion, E-Commerce, and Subscription.
-random_paper: 19
+random_paper: 7
 screenshot: https://raw.githubusercontent.com/api-evangelist/caastle/refs/heads/main/screenshots/caastle-2026-09-02T144957.png
 slug: caastle
 tags:

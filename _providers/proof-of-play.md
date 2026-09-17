@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://staging.vrf.proofofplay.com
   baseurl_source: declared
   description: The Public API API from Proof of Play — 1 operation(s) for public api.
-  name: Proof of Play Public API API
+  name: Proof of Play Public API
   slug: proof-of-play-public-api-api
 artifact_total: 6
 collections:
@@ -58,6 +58,10 @@ collections:
   name: Proof of Play Public API API
   slug: open-proof-of-play-public-api-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://proofofplay.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/proof-of-play/refs/heads/main/overlays/proof-of-play-vrf-overlay.yaml
   title: ''
@@ -161,15 +165,15 @@ created: '2026-07-17'
 description: 'Proof of Play is an a16z-backed gaming studio and on-chain infrastructure company, founded by Amitt Mahajan and best known for the fully on-chain RPG Pirate Nation. It builds a platform for high-performance, serverless on-chain applications and games, exposing a set of developer services: a verified random number generator (vRNG) for fast, secure on-chain randomness; a Marketplace API for peer-to-peer trading across on-chain and off-chain inventory; an on-chain NoSQL Entity-Component-System (ECS) database and indexer; token mirroring to replicate NFT ownership data across chains; a gasless relayer; and multichain scaling. Documentation and a public OpenAPI are published at docs.proofofplay.com, and much of the stack is progressively open-sourced under MIT on GitHub.'
 image: https://media.proofofplay.com/public/POP_Home_OG.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Proof of Play
 nav: Providers
 network: true
-overview: 'Proof of Play publishes 1 API on the [APIs.io](https://apis.io/) network: Public API API. Tagged areas include Company, Gaming, Blockchain, Web3, and Randomness.
+overview: 'Proof of Play publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Gaming, Blockchain, Web3, and Randomness.
 
 
-  Proof of Play''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 10
+  Proof of Play''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
+random_paper: 15
 score:
   band: thin
   composite: 33.9
@@ -200,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -226,5 +230,5 @@ tags:
 - Onchain Infrastructure
 - NFT
 - Developer Services
-website: https://docs.proofofplay.com/introduction
+website: https://proofofplay.com
 ---

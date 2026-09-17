@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,16 +56,6 @@ apis:
   slug: google-youtube-channels-api
 - baseURL: https://youtube.googleapis.com/youtube/v3
   baseurl_source: declared
-  description: The CommentThreads API from YouTube Data — 1 operation(s) for commentthreads.
-  name: YouTube Data CommentThreads API
-  slug: google-youtube-commentthreads-api
-- baseURL: https://youtube.googleapis.com/youtube/v3
-  baseurl_source: declared
-  description: The PlaylistItems API from YouTube Data — 1 operation(s) for playlistitems.
-  name: YouTube Data PlaylistItems API
-  slug: google-youtube-playlistitems-api
-- baseURL: https://youtube.googleapis.com/youtube/v3
-  baseurl_source: declared
   description: The Playlists API from YouTube Data — 1 operation(s) for playlists.
   name: YouTube Data Playlists API
   slug: google-youtube-playlists-api
@@ -84,6 +74,16 @@ apis:
   description: The Videos API from YouTube Data — 1 operation(s) for videos.
   name: YouTube Data Videos API
   slug: google-youtube-videos-api
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The Comment Threads API from YouTube Data — 1 operation(s) for comment threads.
+  name: YouTube Data Comment Threads API
+  slug: google-youtube-comment-threads-api
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The Playlist Items API from YouTube Data — 1 operation(s) for playlist items.
+  name: YouTube Data Playlist Items API
+  slug: google-youtube-playlist-items-api
 artifact_total: 37
 collections:
 - collection_type: postman
@@ -248,7 +248,7 @@ modified: '2026-05-19'
 name: YouTube Data
 nav: Providers
 network: true
-overview: 'YouTube Data publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Channels API, CommentThreads API, and 5 more. Tagged areas include Channels, Google, Media, Playlists, and Search.
+overview: 'YouTube Data publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Channels API, Playlists API, and 5 more. Tagged areas include Channels, Google, Media, Playlists, and Search.
 
 
   The YouTube Data catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -259,7 +259,7 @@ plans:
 - name: Google Youtube Plans Pricing
   plan_count: 3
   slug: google-youtube-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Google Youtube Rate Limits
@@ -307,7 +307,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

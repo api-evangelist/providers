@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -118,6 +118,10 @@ collections:
   name: Battle.net Hearthstone Game Data Card Backs Metadata API
   slug: open-battle-net-metadata-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://battle.net
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -386,7 +390,7 @@ jsonld:
   property_count: 37
   slug: battle-net-hearthstone-game-data-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Battle.net
 nav: Providers
 network: true
@@ -396,12 +400,12 @@ overview: 'Battle.net publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The Battle.net catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Battle.net''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, code examples, and 15 more developer resources.'
+  Battle.net''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, code examples, and 16 more developer resources.'
 plans:
 - name: Battle Net Plans Pricing
   plan_count: 1
   slug: battle-net-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Battle Net Rate Limits
@@ -460,7 +464,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -496,5 +500,5 @@ use_cases:
   name: Deck Builders
 - description: Build guild management utilities using WoW guild roster, achievements, and activity data.
   name: Guild Management Tools
-website: https://community.developer.battle.net/
+website: https://battle.net
 ---

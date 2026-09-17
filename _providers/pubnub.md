@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://ps.pndsn.com
@@ -118,7 +118,7 @@ modified: '2026-05-29'
 name: PubNub
 nav: Providers
 network: true
-overview: 'PubNub publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Real-Time, WebSockets, Pub-Sub, IoT, and Messaging.
+overview: 'PubNub publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Real-Time, WebSocket, Pub-Sub, IoT, and Messaging.
 
 
   The PubNub catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -129,7 +129,7 @@ plans:
 - name: Pubnub Plans Pricing
   plan_count: 6
   slug: pubnub-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Pubnub Rate Limits
@@ -168,7 +168,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -229,7 +229,7 @@ skills:
 slug: pubnub
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - Pub-Sub
 - IoT
 - Messaging

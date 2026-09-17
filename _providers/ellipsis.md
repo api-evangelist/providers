@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the Ellipsis coding-agent platform. Start and manage agent sessions, read back typed results and transcripts, manage agent configs, defaults and templates, set sandbox variables, list int
@@ -149,7 +149,7 @@ overview: 'Ellipsis publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Ellipsis'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 15 more developer resources.'
-random_paper: 8
+random_paper: 11
 score:
   band: thin
   composite: 35.5
@@ -173,7 +173,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

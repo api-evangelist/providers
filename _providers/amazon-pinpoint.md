@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -47,11 +47,6 @@ agentic_access:
   summary_line: 122 operations · 70 acting
 api_count: 2
 apis:
-- baseURL: https://pinpoint.{region}.amazonaws.com
-  baseurl_source: declared
-  description: Operations for managing Pinpoint applications (projects)
-  name: Amazon Pinpoint Applications API
-  slug: amazon-pinpoint-applications-api
 - baseURL: https://pinpoint.{region}.amazonaws.com
   baseurl_source: declared
   description: The Apps API from Amazon Pinpoint — 48 operation(s) for apps.
@@ -135,7 +130,7 @@ arazzos:
 - description: Register or update an endpoint, then send a direct message to it.
   name: Amazon Pinpoint Update Endpoint and Send Message
   slug: amazon-pinpoint-update-endpoint-send-message-workflow
-artifact_total: 1075
+artifact_total: 1074
 asyncapis:
 - description: ''
   name: Amazon Pinpoint Events
@@ -190,6 +185,10 @@ collections:
   name: Amazon Pinpoint API
   slug: open-amazon-pinpoint
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/packages/amazon-pinpoint-packages.yml
   title: ''
@@ -8604,22 +8603,22 @@ jsonld:
   property_count: 37
   slug: amazon-pinpoint-templates-context
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Amazon Pinpoint
 nav: Providers
 network: true
-overview: 'Amazon Pinpoint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Apps API, Phone API, and 3 more. Tagged areas include Campaigns, Communications, Email, Marketing, and Messaging.
+overview: 'Amazon Pinpoint publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Phone API, Recommenders API, and 2 more. Tagged areas include Campaigns, Communications, Email, Marketing, and Messaging.
 
 
   The Amazon Pinpoint catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Amazon Pinpoint''s developer surface includes sandbox, changelog, CLI, signup flow, API reference, authentication, developer portal, and 1068 more developer resources.'
+  Amazon Pinpoint''s developer surface includes sandbox, changelog, CLI, signup flow, API reference, authentication, developer portal, and 1069 more developer resources.'
 plans:
 - name: Amazon Pinpoint Plans Pricing
   plan_count: 1
   slug: amazon-pinpoint-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 26
   name: Amazon Pinpoint Rate Limits
@@ -8648,7 +8647,7 @@ rules:
   slug: amazon-pinpoint-spectral-rules
 score:
   band: exemplar
-  composite: 82.2
+  composite: 82.4
   coverage:
     artifact_dirs: 33
     catalog_earned: 77.5
@@ -8656,11 +8655,11 @@ score:
     catalog_gap: 37.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 89.5
     contract_governance: 47.0
-    contract_quality: 78.3
+    contract_quality: 78.9
     developer_ergonomics: 81.5
     discoverability: 70.4
     operational_transparency: 81.6
@@ -8672,7 +8671,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 5
     mcp: derived
     skills: derived
   regulatory:
@@ -8682,7 +8681,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -8732,5 +8731,5 @@ use_cases:
   name: A/B Testing
 - description: Trigger personalized messages based on in-app events and user behaviors.
   name: Event-Based Messaging
-website: https://console.aws.amazon.com/pinpoint/
+website: https://amazon.com
 ---

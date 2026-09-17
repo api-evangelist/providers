@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   MyCase''s developer surface includes authentication, pricing, signup flow, developer portal, documentation, support, engineering blog, and 26 more developer resources.'
-random_paper: 12
+random_paper: 4
 rules:
 - effective_rule_count: 46
   extends:
@@ -320,7 +320,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

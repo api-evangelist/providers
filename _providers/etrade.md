@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: E*TRADE API
   slug: open-etrade
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://etrade.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/etrade/refs/heads/main/agentic-access/etrade-agentic-access.yml
   title: ''
@@ -125,14 +129,14 @@ finops:
   slug: etrade-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/etrade.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Etrade
 nav: Providers
 network: true
 overview: 'Etrade publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Market API, and Order API. Tagged areas include Bonds, Brokerage, Financial, Futures, and Options.
 
 
-  Etrade''s developer surface includes authentication, developer portal, documentation, signup flow, and 5 more developer resources.'
+  Etrade''s developer surface includes authentication, developer portal, documentation, signup flow, and 6 more developer resources.'
 plans:
 - name: Etrade Plans Pricing
   plan_count: 3
@@ -153,7 +157,7 @@ press:
 - date: '2026-05-25'
   title: Morgan Stanley Dives Deeper Into Retail With E*Trade Deal
   url: https://www.wealthmanagement.com/equities/morgan-stanley-dives-deeper-into-retail-with-e-trade-deal
-random_paper: 20
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Etrade Rate Limits
@@ -191,7 +195,7 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -215,5 +219,5 @@ tags:
 - Options
 - Stocks
 - Trading
-website: https://us.etrade.com/
+website: https://etrade.com
 ---

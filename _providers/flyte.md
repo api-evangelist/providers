@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -60,11 +60,6 @@ apis:
   slug: flyte-executions-api
 - baseURL: http://localhost:30080
   baseurl_source: declared
-  description: Launch plan registration, listing, retrieval, and activation.
-  name: Flyte LaunchPlans API
-  slug: flyte-launchplans-api
-- baseURL: http://localhost:30080
-  baseurl_source: declared
   description: Matchable attribute configuration at project, domain, and workflow levels.
   name: Flyte MatchableAttributes API
   slug: flyte-matchableattributes-api
@@ -75,19 +70,9 @@ apis:
   slug: flyte-namedentities-api
 - baseURL: http://localhost:30080
   baseurl_source: declared
-  description: Node execution listing and retrieval.
-  name: Flyte NodeExecutions API
-  slug: flyte-nodeexecutions-api
-- baseURL: http://localhost:30080
-  baseurl_source: declared
   description: Project registration and listing.
   name: Flyte Projects API
   slug: flyte-projects-api
-- baseURL: http://localhost:30080
-  baseurl_source: declared
-  description: Task execution listing and retrieval.
-  name: Flyte TaskExecutions API
-  slug: flyte-taskexecutions-api
 - baseURL: http://localhost:30080
   baseurl_source: declared
   description: Task entity registration, listing, and retrieval.
@@ -103,6 +88,21 @@ apis:
   description: Workflow entity registration, listing, and retrieval.
   name: Flyte Workflows API
   slug: flyte-workflows-api
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Launch plan registration, listing, retrieval, and activation.
+  name: Flyte Launch Plans API
+  slug: flyte-launch-plans-api
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Node execution listing and retrieval.
+  name: Flyte Node Executions API
+  slug: flyte-node-executions-api
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Task execution listing and retrieval.
+  name: Flyte Task Executions API
+  slug: flyte-task-executions-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -226,7 +226,7 @@ plans:
 - name: Flyte Plans Pricing
   plan_count: 3
   slug: flyte-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Flyte Rate Limits
@@ -261,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

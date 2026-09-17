@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -52,11 +52,6 @@ apis:
   slug: orion-alerts-api
 - baseURL: https://api.orionhealth.com/fhir
   baseurl_source: declared
-  description: Operations on AllergyIntolerance resources
-  name: Orion Health AllergyIntolerance API
-  slug: orion-allergyintolerance-api
-- baseURL: https://api.orionhealth.com/fhir
-  baseurl_source: declared
   description: Population health analytics and reporting
   name: Orion Health Analytics API
   slug: orion-analytics-api
@@ -70,11 +65,6 @@ apis:
   description: Care program management and enrollment
   name: Orion Health Care Programs API
   slug: orion-care-programs-api
-- baseURL: https://api.orionhealth.com/fhir
-  baseurl_source: declared
-  description: Operations on CarePlan resources
-  name: Orion Health CarePlan API
-  slug: orion-careplan-api
 - baseURL: https://api.orionhealth.com/fhir
   baseurl_source: declared
   description: Patient cohort definition and analysis
@@ -107,11 +97,6 @@ apis:
   slug: orion-diagnosticreport-api
 - baseURL: https://api.orionhealth.com/fhir
   baseurl_source: declared
-  description: Operations on DocumentReference resources
-  name: Orion Health DocumentReference API
-  slug: orion-documentreference-api
-- baseURL: https://api.orionhealth.com/fhir
-  baseurl_source: declared
   description: Clinical document exchange and retrieval
   name: Orion Health Documents API
   slug: orion-documents-api
@@ -130,11 +115,6 @@ apis:
   description: Lookup table management for data mapping
   name: Orion Health Lookup Tables API
   slug: orion-lookup-tables-api
-- baseURL: https://api.orionhealth.com/fhir
-  baseurl_source: declared
-  description: Operations on MedicationRequest resources
-  name: Orion Health MedicationRequest API
-  slug: orion-medicationrequest-api
 - baseURL: https://api.orionhealth.com/fhir
   baseurl_source: declared
   description: Message queue monitoring and management
@@ -205,6 +185,26 @@ apis:
   description: Integration route management
   name: Orion Health Routes API
   slug: orion-routes-api
+- baseURL: https://developer.orionhealth.io/
+  baseurl_source: declared
+  description: Operations on AllergyIntolerance resources
+  name: Orion Health Allergy Intolerance API
+  slug: orion-health-allergy-intolerance-api
+- baseURL: https://developer.orionhealth.io/
+  baseurl_source: declared
+  description: Operations on CarePlan resources
+  name: Orion Health Care plan API
+  slug: orion-health-care-plan-api
+- baseURL: https://developer.orionhealth.io/
+  baseurl_source: declared
+  description: Operations on DocumentReference resources
+  name: Orion Health Document Reference API
+  slug: orion-health-document-reference-api
+- baseURL: https://developer.orionhealth.io/
+  baseurl_source: declared
+  description: Operations on MedicationRequest resources
+  name: Orion Health Medication Request API
+  slug: orion-health-medication-request-api
 artifact_total: 115
 asyncapis:
 - description: 'The Orion Health Rhapsody Integration Engine processes healthcare messages in real-time across connected healthcare systems. This specification describes the event-driven messaging patterns supported '
@@ -561,7 +561,7 @@ modified: '2026-05-28'
 name: Orion Health
 nav: Providers
 network: true
-overview: 'Orion Health publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, AllergyIntolerance API, Analytics API, and 29 more. Tagged areas include Health and Public APIs.
+overview: 'Orion Health publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Analytics API, Audit API, and 29 more. Tagged areas include Health and Public APIs.
 
 
   The Orion Health catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -572,7 +572,7 @@ plans:
 - name: Orion Health Plans Pricing
   plan_count: 1
   slug: orion-health-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Orion Health Rate Limits
@@ -637,7 +637,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

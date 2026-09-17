@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api-gcp.alice-bob.com/v1
@@ -213,7 +213,7 @@ plans:
 - name: Alice  Bob Plans
   plan_count: 3
   slug: alice--bob-plans
-random_paper: 4
+random_paper: 5
 score:
   band: developing
   composite: 49.0
@@ -249,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

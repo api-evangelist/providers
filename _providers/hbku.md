@@ -34,19 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.fanar.qa
-  baseurl_source: declared
-  description: Fanar is Qatar's Arabic generative-AI platform, developed by the Qatar Computing Research Institute at Hamad Bin Khalifa University with support from Qatar's Ministry of Communications and Information
-  name: Fanar API
-  slug: fanar-api
-- baseURL: https://farasa.qcri.org/webapi
-  baseurl_source: declared
-  description: Farasa ("insight") is the Arabic text-processing toolkit built by the Arabic Language Technologies group at QCRI, Hamad Bin Khalifa University, and offered free to registered users as a keyed web API.
-  name: Farasa Web API
-  slug: farasa-api
 - description: HBKU's research information system, Elmi, runs Elsevier Pure on the university's own subdomain and exposes a public, unauthenticated OAI-PMH 2.0 harvesting endpoint at elmi.hbku.edu.qa/ws/oai. Confirm
   name: Elmi Research Portal — OAI-PMH
   slug: elmi-oai-pmh
@@ -56,7 +46,52 @@ apis:
 - description: HBKU's scholarly output is deposited in Manara — Qatar Research Repository, a Figshare platform operated by Qatar National Library, with an HBKU portal at manara.qnl.qa/hbku. The deposits, DOIs and au
   name: Manara — Qatar Research Repository (HBKU portal)
   slug: manara-repository
-artifact_total: 17
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: Arabic language processing modules.
+  name: Hamad Bin Khalifa University Arabic NLP API
+  slug: hbku-arabic-nlp-api
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: The Audio API from Hamad Bin Khalifa University — 4 operation(s) for audio.
+  name: Hamad Bin Khalifa University Audio API
+  slug: hbku-audio-api
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: The Chat API from Hamad Bin Khalifa University — 1 operation(s) for chat.
+  name: Hamad Bin Khalifa University Chat API
+  slug: hbku-chat-api
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: The Images API from Hamad Bin Khalifa University — 1 operation(s) for images.
+  name: Hamad Bin Khalifa University Images API
+  slug: hbku-images-api
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: The Models API from Hamad Bin Khalifa University — 1 operation(s) for models.
+  name: Hamad Bin Khalifa University Models API
+  slug: hbku-models-api
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: The Moderations API from Hamad Bin Khalifa University — 1 operation(s) for moderations.
+  name: Hamad Bin Khalifa University Moderations API
+  slug: hbku-moderations-api
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: The Poems API from Hamad Bin Khalifa University — 1 operation(s) for poems.
+  name: Hamad Bin Khalifa University Poems API
+  slug: hbku-poems-api
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: The Tokens API from Hamad Bin Khalifa University — 1 operation(s) for tokens.
+  name: Hamad Bin Khalifa University Tokens API
+  slug: hbku-tokens-api
+- baseURL: https://api.fanar.qa
+  baseurl_source: declared
+  description: The Translations API from Hamad Bin Khalifa University — 1 operation(s) for translations.
+  name: Hamad Bin Khalifa University Translations API
+  slug: hbku-translations-api
+artifact_total: 24
 common:
 - group: company
   title: ''
@@ -204,7 +239,7 @@ modified: '2026-08-30'
 name: Hamad Bin Khalifa University
 nav: Providers
 network: true
-overview: 'Hamad Bin Khalifa University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Fanar API and Farasa Web API. Tagged areas include University, Higher Education, Education, Research, and Qatar.
+overview: 'Hamad Bin Khalifa University publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Arabic NLP API, Audio API, Chat API, and 6 more. Tagged areas include University, Higher Education, Education, Research, and Qatar.
 
 
   The Hamad Bin Khalifa University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -215,7 +250,7 @@ plans:
 - name: Hbku Plans Pricing
   plan_count: 2
   slug: hbku-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Hbku Rate Limits
@@ -234,7 +269,7 @@ rules:
   slug: hbku-rules
 score:
   band: developing
-  composite: 42.3
+  composite: 45.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 60.0
@@ -242,11 +277,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.5
   facets:
     access_clarity: 47.4
     contract_governance: 15.2
-    contract_quality: 49.8
+    contract_quality: 63.9
     developer_ergonomics: 40.5
     discoverability: 59.3
     operational_transparency: 18.4
@@ -259,10 +294,10 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 11.1
       derived: 1
-      marker_coverage: 100.0
-      total: 2
+      marker_coverage: 11.1
+      total: 9
   regulatory:
     applies: true
     matched_via: tags
@@ -270,7 +305,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -294,7 +329,7 @@ tags:
 - Qatar
 - Middle East
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Natural Language Processing
 - Arabic
 - Research Computing

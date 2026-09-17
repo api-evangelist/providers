@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Read-only API for querying OpenStreetMap data. Supports retrieval of nodes, ways, relations, and areas using the Overpass Query Language (QL) or XML syntax, with output in JSON, XML, CSV, or custom fo
@@ -41,6 +41,10 @@ apis:
   slug: overpass-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://overpass-api.de
 - group: operate
   title: ''
   type: IssueTracker
@@ -102,7 +106,7 @@ jsonld:
   property_count: 0
   slug: apis
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Overpass API
 nav: Providers
 network: true
@@ -112,12 +116,12 @@ overview: 'Overpass API publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Overpass API catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Overpass API''s developer surface includes documentation and 11 more developer resources.'
+  Overpass API''s developer surface includes documentation and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 3
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -148,7 +152,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -169,4 +173,5 @@ tags:
 - Maps
 - Open Data
 - Query Language
+website: https://overpass-api.de
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A live, first-party remote Model Context Protocol server that makes the Bluefish AI platform callable by agents over Streamable HTTP. It is protected by OAuth 2.1 and requires the mcp:connect scope; a
@@ -132,7 +132,7 @@ plans:
 - name: Bluefish Ai Plans Pricing
   plan_count: 0
   slug: bluefish-ai-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Bluefish Ai Rate Limits
@@ -165,7 +165,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

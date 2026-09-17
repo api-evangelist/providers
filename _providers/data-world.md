@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -91,11 +91,6 @@ apis:
   description: The datasets API from data.world — 5 operation(s) for datasets.
   name: data.world datasets API
   slug: data-world-datasets-api
-- baseURL: https://api.data.world/v0
-  baseurl_source: declared
-  description: The DOIs API from data.world — 2 operation(s) for dois.
-  name: data.world DOIs API
-  slug: data-world-dois-api
 - baseURL: https://api.data.world/v0
   baseurl_source: declared
   description: This API is in active development. Its definition may change frequently and without notice.
@@ -178,11 +173,6 @@ apis:
   slug: data-world-search-api
 - baseURL: https://api.data.world/v0
   baseurl_source: declared
-  description: The serviceaccount API from data.world — 3 operation(s) for serviceaccount.
-  name: data.world serviceaccount API
-  slug: data-world-serviceaccount-api
-- baseURL: https://api.data.world/v0
-  baseurl_source: declared
   description: The streams API from data.world — 3 operation(s) for streams.
   name: data.world streams API
   slug: data-world-streams-api
@@ -216,6 +206,16 @@ apis:
   description: The webhooks API from data.world — 4 operation(s) for webhooks.
   name: data.world webhooks API
   slug: data-world-webhooks-api
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The DOIs API from data.world — 2 operation(s) for dois.
+  name: data.world DO Is API
+  slug: data-world-dois-api
+- baseURL: https://api.data.world/v0
+  baseurl_source: declared
+  description: The Service Account API from data.world — 3 operation(s) for service account.
+  name: data.world Service Account API
+  slug: data-world-service-account-api
 artifact_total: 80
 collections:
 - collection_type: open
@@ -445,7 +445,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 20
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -495,7 +495,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

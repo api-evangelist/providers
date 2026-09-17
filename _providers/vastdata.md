@@ -34,24 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
-  description: Active Directory is supported as an external authorization and authentication provider. Active Directory may store and provide user and group attributes used by both NFS and SMB protocols. Active Dire
-  name: VAST Data activedirectory API
-  slug: vastdata-activedirectory-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
   description: Alarms can be raised by events.
   name: VAST Data alarms API
   slug: vastdata-alarms-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
-  description: API tokens are tokens created by VMS that enable VMS users to securely authenticate REST API requests.
-  name: VAST Data apitokens API
-  slug: vastdata-apitokens-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
   description: This endpoint provides basic settings for users that do not have permissions to access any security realm."
@@ -72,11 +62,6 @@ apis:
   description: The Block Hosts API from VAST Data — 1 operation(s) for block hosts.
   name: VAST Data Block Hosts API
   slug: vastdata-block-hosts-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
-  description: Block Hosts are block storage client hosts. They must be added to VMS in order to enable block storage volumes to be made available to them.
-  name: VAST Data blockhosts API
-  slug: vastdata-blockhosts-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
   description: Block Mappings are mappings of Blockhosts to Volumes. They make block storage volumes available to block storage hosts.
@@ -199,11 +184,6 @@ apis:
   slug: vastdata-eventdefinitionconfigs-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
-  description: Event definitions define the conditions that trigger events, the raising of alarms, alarm severity, and which actions are triggered on events, such as email notifications, webhooks and sending to sysl
-  name: VAST Data eventdefinitions API
-  slug: vastdata-eventdefinitions-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
   description: VMS logs system driven events, such as changes to object states and properties, and user driven events, such as the creation, modification or deletion of any object in the system.
   name: VAST Data events API
   slug: vastdata-events-api
@@ -242,11 +222,6 @@ apis:
   description: Hosts are network discoverable CNodes and DNodes that can be included in a new cluster configuration.
   name: VAST Data hosts API
   slug: vastdata-hosts-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
-  description: The iamroles API from VAST Data — 4 operation(s) for iamroles.
-  name: VAST Data iamroles API
-  slug: vastdata-iamroles-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
   description: 'VAST Cluster enables you to create and maintain immutable backups using a feature called Indestructibility. Snapshots and protection policies can be flagged indestructible and they are then protected '
@@ -419,11 +394,6 @@ apis:
   slug: vastdata-protectedpaths-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
-  description: A protection policy is a reusable configuration that defines a schedule for taking snapshots and optionally replicating them to a specified async replication peer or S3 replication peer. It defines ho
-  name: VAST Data protectionpolicies API
-  slug: vastdata-protectionpolicies-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
   description: PSUs represent power supply units on the CBoxes and DBoxes.
   name: VAST Data psus API
   slug: vastdata-psus-api
@@ -432,11 +402,6 @@ apis:
   description: The QoS Policies API from VAST Data — 1 operation(s) for qos policies.
   name: VAST Data QoS Policies API
   slug: vastdata-qos-policies-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
-  description: Quality of Service policies enable you to define quality of service per view. Quality of service policies can set maximum limits on read and write bandwidth and IOPS per view.
-  name: VAST Data qospolicies API
-  slug: vastdata-qospolicies-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
   description: QuotaEntityInfo objects contain details of all users and groups that wrote to quota directories. Provides VAST-internal ID from the VAST Cluster user database and email address.
@@ -462,11 +427,6 @@ apis:
   description: Realms are user defined customized permission realms for VMS manager users. They define sets of object types and can be granted to managers and roles for VMS permissions.
   name: VAST Data realms API
   slug: vastdata-realms-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
-  description: The replicationpolicies API from VAST Data — 2 operation(s) for replicationpolicies.
-  name: VAST Data replicationpolicies API
-  slug: vastdata-replicationpolicies-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
   description: A replication restore point is a location to which a snapshot was replicated and from which files can be restored.A restore point may reside on an S3 replication peer or on an async replication peer.
@@ -539,11 +499,6 @@ apis:
   slug: vastdata-support-bundles-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
-  description: A support bundle is a compressed file consisting of logs that are extracted from the VAST Cluster. Support bundles can be sent to VAST Support for troubleshooting purposes. They can also be downloaded
-  name: VAST Data supportbundles API
-  slug: vastdata-supportbundles-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
   description: The supporteddrives API from VAST Data — 2 operation(s) for supporteddrives.
   name: VAST Data supporteddrives API
   slug: vastdata-supporteddrives-api
@@ -562,11 +517,6 @@ apis:
   description: The Tenants API from VAST Data — 21 operation(s) for tenants.
   name: VAST Data Tenants API
   slug: vastdata-tenants-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
-  description: The tlscertificates API from VAST Data — 4 operation(s) for tlscertificates.
-  name: VAST Data tlscertificates API
-  slug: vastdata-tlscertificates-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
   description: Tokens are JSON Web Tokens (JWTs), which can be used instead of Apitokens to authenticate requests to the VMS REST API.
@@ -639,19 +589,9 @@ apis:
   slug: vastdata-vm-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
-  description: The VMS path represents VMS settings, such as the management VIP used to access the VMS interfaces, login banner text for the VMS CLI and Web UI, access token lifetimes for the REST API and more.
-  name: VAST Data vms API
-  slug: vastdata-vms-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
   description: The Volumes API from VAST Data — 7 operation(s) for volumes.
   name: VAST Data Volumes API
   slug: vastdata-volumes-api
-- baseURL: https://{vms-host}/api
-  baseurl_source: declared
-  description: The vpntunnels API from VAST Data — 3 operation(s) for vpntunnels.
-  name: VAST Data vpntunnels API
-  slug: vastdata-vpntunnels-api
 - baseURL: https://{vms-host}/api
   baseurl_source: declared
   description: The vsettings API from VAST Data — 1 operation(s) for vsettings.
@@ -667,7 +607,52 @@ apis:
   description: Webhooks send event information to external applications. Once defined, you can set them to be triggered by specific events.
   name: VAST Data webhooks API
   slug: vastdata-webhooks-api
-artifact_total: 256
+- baseURL: https://{vms-host}/api
+  baseurl_source: declared
+  description: The VMS path represents VMS settings, such as the management VIP used to access the VMS interfaces, login banner text for the VMS CLI and Web UI, access token lifetimes for the REST API and more.
+  name: VAST Data Vms API
+  slug: vastdata-vms-api
+- baseURL: https://{vms-host}/api
+  baseurl_source: declared
+  description: Active Directory is supported as an external authorization and authentication provider.
+  name: VAST Data Active Directory API
+  slug: vastdata-active-directory-api
+- baseURL: https://{vms-host}/api
+  baseurl_source: declared
+  description: API tokens are tokens created by VMS that enable VMS users to securely authenticate REST API requests.
+  name: VAST Data API Tokens API
+  slug: vastdata-api-tokens-api
+- baseURL: https://{vms-host}/api
+  baseurl_source: declared
+  description: Event definitions define the conditions that trigger events, the raising of alarms, alarm severity, and which actions are triggered on events, such as email notifications, webhooks and sending to sysl
+  name: VAST Data Event Definitions API
+  slug: vastdata-event-definitions-api
+- baseURL: https://{vms-host}/api
+  baseurl_source: declared
+  description: The IAM Roles API from VAST Data — 4 operation(s) for iam roles.
+  name: VAST Data IAM Roles API
+  slug: vastdata-iam-roles-api
+- baseURL: https://{vms-host}/api
+  baseurl_source: declared
+  description: A protection policy is a reusable configuration that defines a schedule for taking snapshots and optionally replicating them to a specified async replication peer or S3 replication peer.
+  name: VAST Data Protection Policies API
+  slug: vastdata-protection-policies-api
+- baseURL: https://{vms-host}/api
+  baseurl_source: declared
+  description: The Replication Policies API from VAST Data — 2 operation(s) for replication policies.
+  name: VAST Data Replication Policies API
+  slug: vastdata-replication-policies-api
+- baseURL: https://{vms-host}/api
+  baseurl_source: declared
+  description: The TLS Certificates API from VAST Data — 4 operation(s) for tls certificates.
+  name: VAST Data TLS Certificates API
+  slug: vastdata-tls-certificates-api
+- baseURL: https://{vms-host}/api
+  baseurl_source: declared
+  description: The Vpn Tunnels API from VAST Data — 3 operation(s) for vpn tunnels.
+  name: VAST Data Vpn Tunnels API
+  slug: vastdata-vpn-tunnels-api
+artifact_total: 253
 collections:
 - collection_type: open
   name: API Collection
@@ -1179,28 +1164,28 @@ modified: '2026-07-21'
 name: VAST Data
 nav: Providers
 network: true
-overview: 'VAST Data publishes 126 APIs on the [APIs.io](https://apis.io/) network, including activedirectory API, alarms API, apitokens API, and 123 more. Tagged areas include Company, Infrastructure, Storage, Data, and Artificial Intelligence.
+overview: 'VAST Data publishes 123 APIs on the [APIs.io](https://apis.io/) network, including alarms API, basicsettings API, bgpconfigs API, and 120 more. Tagged areas include Company, Infrastructure, Storage, Data, and Artificial Intelligence.
 
 
   VAST Data''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, CLI, and 19 more developer resources.'
-random_paper: 16
+random_paper: 20
 score:
   band: thin
-  composite: 36.4
+  composite: 38.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 24.0
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 91.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 50.2
+    contract_quality: 50.3
     developer_ergonomics: 71.4
-    discoverability: 51.9
+    discoverability: 70.4
     operational_transparency: 2.6
   previous_composite: 36.4
   provenance:
@@ -1209,11 +1194,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 126
+      total: 123
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

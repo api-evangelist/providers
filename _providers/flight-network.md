@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,11 +162,11 @@ modified: '2026-07-28'
 name: Flight Network
 nav: Providers
 network: true
-overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airline, and OTA.
+overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Canada, Aviation, Airlines, and OTA.
 
 
   Flight Network''s developer surface includes FAQ, documentation, support, and 23 more developer resources.'
-random_paper: 12
+random_paper: 9
 score:
   band: emerging
   composite: 17.7
@@ -197,7 +197,7 @@ score:
     agentic_access: first-party
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -218,7 +218,7 @@ tags:
 - Travel
 - Canada
 - Aviation
-- Airline
+- Airlines
 - OTA
 - Booking
 - Distribution

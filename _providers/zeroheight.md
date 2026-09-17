@@ -33,18 +33,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://zeroheight.com/open_api/v2
-  baseurl_source: declared
-  description: 'The zeroheight REST API automates design system workflows: read styleguides, their categories, pages and page content (Markdown available via ?format=markdown), read published styleguide versions and '
-  name: Zeroheight API
-  slug: zeroheight
 - description: The zeroheight Model Context Protocol server. Gives AI tools read access to a team's design system documentation - list styleguides, walk the navigation tree, full-text search pages (Enterprise), fetc
   name: zeroheight MCP
   slug: zeroheight-mcp
-artifact_total: 11
+- baseURL: https://zeroheight.com/open_api/v2
+  baseurl_source: declared
+  description: Individual documentation pages inside a styleguide, including their content and status tag.
+  name: Zeroheight Pages API
+  slug: zeroheight-pages-api
+- baseURL: https://zeroheight.com/open_api/v2
+  baseurl_source: declared
+  description: Design systems documented in zeroheight. A styleguide is the top-level container for pages, categories and versions.
+  name: Zeroheight Styleguides API
+  slug: zeroheight-styleguides-api
+- baseURL: https://zeroheight.com/open_api/v2
+  baseurl_source: declared
+  description: Design token sets managed in the zeroheight token manager.
+  name: Zeroheight Tokens API
+  slug: zeroheight-tokens-api
+artifact_total: 13
 collections:
 - collection_type: postman
   name: zeroheight API
@@ -188,10 +198,10 @@ common:
   type: Overlay
   url: overlays/zeroheight-open-api-v2-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-open-api-v2.yml
+  href: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/_original/zeroheight-open-api-v2.yml
   title: ''
   type: OpenAPI
-  url: openapi/zeroheight-open-api-v2.yml
+  url: openapi/_original/zeroheight-open-api-v2.yml
 - group: build
   title: ''
   type: Postman
@@ -244,11 +254,11 @@ mcp_servers:
 - description: 'zeroheight ships a genuine dual-deployment MCP server: a hosted remote endpoint at https://mcp.zeroheight.com/mcp that any MCP client can reach after an OAuth login, and a local stdio server distribut'
   name: zeroheight MCP
   slug: zeroheight-mcp
-modified: '2026-08-28'
+modified: '2026-09-16'
 name: Zeroheight
 nav: Providers
 network: true
-overview: 'Zeroheight publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Design Systems, Design Tokens, Documentation, MCP, and Agent Readiness.
+overview: 'Zeroheight publishes 3 APIs on the [APIs.io](https://apis.io/) network: Pages API, Styleguides API, and Tokens API. Tagged areas include Design Systems, Design Tokens, Documentation, MCP, and Agent Readiness.
 
 
   Zeroheight''s developer surface includes developer portal, support, engineering blog, CLI, authentication, changelog, documentation, and 33 more developer resources.'
@@ -256,7 +266,7 @@ plans:
 - name: Zeroheight Plans Pricing
   plan_count: 3
   slug: zeroheight-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Zeroheight Rate Limits
@@ -289,13 +299,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 3
       marker_coverage: 100.0
-      total: 1
+      total: 3
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

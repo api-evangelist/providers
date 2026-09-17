@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ modified: '2026-04-23'
 name: Caleres
 nav: Providers
 network: true
-overview: Caleres is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Footwear, Retail, Consumer Brands, E-Commerce, and Apparel.
+overview: Caleres is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Footwear, Retail, Consumer Brand, E-Commerce, and Apparel.
 press:
 - date: '2026-05-25'
   title: Caleres details global footwear business and risks
@@ -90,7 +90,7 @@ press:
 - date: '2026-05-25'
   title: Caleres Q4 net sales rise 8.7% to USD 695.06 million, Brand ...
   url: https://www.sahmcapital.com/news/content/caleres-q4-net-sales-rise-87-to-usd-69506-million-brand-portfolio-sales-jump-203-to-usd-36125-million-2026-03-19
-random_paper: 0
+random_paper: 9
 score:
   band: minimal
   composite: 5.0
@@ -116,7 +116,7 @@ score:
     - north-america
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -132,7 +132,7 @@ slug: caleres
 tags:
 - Footwear
 - Retail
-- Consumer Brands
+- Consumer Brand
 - E-Commerce
 - Apparel
 website: https://www.caleres.com

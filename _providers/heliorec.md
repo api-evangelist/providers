@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,11 +69,11 @@ modified: '2026-07-19'
 name: HelioRec
 nav: Providers
 network: true
-overview: 'HelioRec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Floating Solar, Photovoltaic, Renewable Energy, and Clean Energy.
+overview: 'HelioRec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Floating Solar, Photovoltaics, Renewable Energy, and Clean Energy.
 
 
   HelioRec''s developer surface includes engineering blog, support, pricing, and 3 more developer resources.'
-random_paper: 3
+random_paper: 7
 score:
   band: minimal
   composite: 6.8
@@ -100,7 +100,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -116,7 +116,7 @@ slug: heliorec
 tags:
 - Company
 - Floating Solar
-- Photovoltaic
+- Photovoltaics
 - Renewable Energy
 - Clean Energy
 - Solar Power

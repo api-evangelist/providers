@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 240
   human_in_the_loop: 9
@@ -194,7 +194,7 @@ apis:
 - baseURL: https://cloud.mongodb.com/api/atlas/v2
   baseurl_source: declared
   description: Returns, adds, and edits MongoDB Cloud users.
-  name: MongoDB MongoDB Cloud Users API
+  name: MongoDB Cloud Users API
   slug: mongodb-mongodb-cloud-users-api
 - baseURL: https://cloud.mongodb.com/api/atlas/v2
   baseurl_source: declared
@@ -586,7 +586,7 @@ mcp_servers:
 - description: MongoDB MCP Server for natural-language queries, aggregations, and Atlas management; runs via npx with connection-string or Atlas API auth and read-only / disabled-tools flags.
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: MongoDB
 nav: Providers
 network: true
@@ -598,7 +598,7 @@ plans:
 - name: Mongodb Plans Pricing
   plan_count: 4
   slug: mongodb-plans-pricing
-random_paper: 7
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Mongodb Rate Limits
@@ -636,7 +636,7 @@ score:
       total: 51
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

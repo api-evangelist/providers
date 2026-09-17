@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 3
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://storagegateway.amazonaws.com
   baseurl_source: declared
   description: The Amazon Storage Gateway REST API API from Amazon Storage Gateway — 1 operation(s) for amazon storage gateway rest api.
-  name: Amazon Storage Gateway Amazon Storage Gateway REST API API
+  name: Amazon Storage Gateway Amazon Storage Gateway REST API
   slug: amazon-storage-gateway-amazon-storage-gateway-rest-api-api
 - baseURL: https://storagegateway.amazonaws.com
   baseurl_source: declared
@@ -1099,6 +1099,10 @@ collections:
   name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API'
   slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/capabilities/amazon-storage-gateway-capability-edges.yml
   title: ''
@@ -3183,22 +3187,22 @@ jsonld:
   property_count: 220
   slug: amazon-storage-gateway-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Storage Gateway
 nav: Providers
 network: true
-overview: 'Amazon Storage Gateway publishes 95 APIs on the [APIs.io](https://apis.io/) network, including Amazon Storage Gateway REST API API, #CreateNFSFileShare API, #DescribeGatewayInformation API, and 92 more. Tagged areas include Backup, File Storage, Gateway, Hybrid Cloud, and Storage.
+overview: 'Amazon Storage Gateway publishes 95 APIs on the [APIs.io](https://apis.io/) network, including Amazon Storage Gateway REST API, #CreateNFSFileShare API, #DescribeGatewayInformation API, and 92 more. Tagged areas include Backup, File Storage, Gateways, Hybrid Cloud, and Storage.
 
 
   The Amazon Storage Gateway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Storage Gateway''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon Storage Gateway''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Storage Gateway Plans Pricing
   plan_count: 3
   slug: amazon-storage-gateway-plans-pricing
-random_paper: 0
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Storage Gateway Rate Limits
@@ -3227,21 +3231,21 @@ rules:
   slug: amazon-storage-gateway-spectral-rules
 score:
   band: developing
-  composite: 53.4
+  composite: 52.5
   coverage:
     artifact_dirs: 17
-    catalog_earned: 63.5
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 64.6
+    contract_quality: 68.5
     developer_ergonomics: 58.3
-    discoverability: 70.4
+    discoverability: 51.9
     operational_transparency: 26.3
   previous_composite: 53.4
   provenance:
@@ -3252,7 +3256,7 @@ score:
       marker_coverage: 0.0
       total: 95
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -3279,7 +3283,7 @@ slug: amazon-storage-gateway
 tags:
 - Backup
 - File Storage
-- Gateway
+- Gateways
 - Hybrid Cloud
 - Storage
 use_cases:
@@ -3291,5 +3295,5 @@ use_cases:
   name: Data Archiving
 - description: Share files between on-premises and cloud with NFS/SMB access.
   name: Hybrid File Storage
-website: https://aws.amazon.com/storagegateway/
+website: https://amazon.com
 ---

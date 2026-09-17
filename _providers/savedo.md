@@ -34,7 +34,7 @@ name: Savedo
 nav: Providers
 network: true
 overview: Savedo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Savings, and Deposits.
-random_paper: 12
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/savedo/refs/heads/main/screenshots/savedo-2026-09-02T154454.png
 security:
 - kind: domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -180,11 +180,11 @@ jsonld:
   property_count: 4
   slug: bluebeam-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Bluebeam
 nav: Providers
 network: true
-overview: 'Bluebeam publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Markups API, Sessions API, and 1 more.
+overview: 'Bluebeam publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Markups API, Sessions API, and 1 more. Tagged areas include Construction, PDF, Project Management, and Documents.
 
 
   The Bluebeam catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -195,7 +195,7 @@ plans:
 - name: Bluebeam Plans Pricing
   plan_count: 3
   slug: bluebeam-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Bluebeam Rate Limits
@@ -242,11 +242,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -262,5 +259,10 @@ security:
   slug: bluebeam-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bluebeam
+tags:
+- Construction
+- PDF
+- Project Management
+- Documents
 website: https://www.bluebeam.com
 ---

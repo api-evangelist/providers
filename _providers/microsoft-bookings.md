@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -77,9 +77,9 @@ apis:
   slug: microsoft-bookings-services-api
 - baseURL: https://graph.microsoft.com/
   baseurl_source: declared
-  description: The StaffMembers API from Microsoft Bookings — 1 operation(s) for staffmembers.
-  name: Microsoft Bookings StaffMembers API
-  slug: microsoft-bookings-staffmembers-api
+  description: The Staff Members API from Microsoft Bookings — 1 operation(s) for staff members.
+  name: Microsoft Bookings Staff Members API
+  slug: microsoft-bookings-staff-members-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -170,7 +170,7 @@ modified: '2026-05-19'
 name: Microsoft Bookings
 nav: Providers
 network: true
-overview: 'Microsoft Bookings publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, BookingBusinesses API, Currencies API, and 4 more. Tagged areas include Bookings, Scheduling, Appointments, and Microsoft Graph.
+overview: 'Microsoft Bookings publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, BookingBusinesses API, Currencies API, and 4 more. Tagged areas include Booking, Scheduling, Appointments, and Microsoft Graph.
 
 
   Microsoft Bookings'' developer surface includes authentication, support, and 9 more developer resources.'
@@ -178,7 +178,7 @@ plans:
 - name: Microsoft Bookings Plans Pricing
   plan_count: 3
   slug: microsoft-bookings-plans-pricing
-random_paper: 18
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Microsoft Bookings Rate Limits
@@ -210,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -231,7 +231,7 @@ security:
   summary_line: security.txt · contact published
 slug: microsoft-bookings
 tags:
-- Bookings
+- Booking
 - Scheduling
 - Appointments
 - Microsoft Graph

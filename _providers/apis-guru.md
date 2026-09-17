@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://api.apis.guru/v2
   baseurl_source: declared
   description: Actions relating to APIs in the collection
-  name: APIs.guru APIs API
+  name: APIs.guru AP Is API
   slug: apis-guru-apis-api
 artifact_total: 43
 collections:
@@ -235,7 +235,7 @@ modified: '2026-05-19'
 name: APIs.guru
 nav: Providers
 network: true
-overview: 'APIs.guru publishes 1 API on the [APIs.io](https://apis.io/) network: APIs API. Tagged areas include API Catalog, API Directory, API Discovery, Community, and GraphQL.
+overview: 'APIs.guru publishes 1 API on the [APIs.io](https://apis.io/) network: AP Is API. Tagged areas include API Catalog, API Directory, API Discovery, Community, and GraphQL.
 
 
   The APIs.guru catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -300,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

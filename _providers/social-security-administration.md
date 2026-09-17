@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
   description: Query SSA Field Office locations and hours
   name: Social Security Administration Field Offices API
   slug: social-security-administration-field-offices-api
-- baseURL: https://services6.arcgis.com/zFiipv75rloRP5N4/ArcGIS/rest/services/Office_Points/FeatureServer
+- baseURL: https://services6.arcgis.com/zFiipv75rloRP5N4/arcgis/rest/services/SSA_Resident_Station_Information/FeatureServer
   baseurl_source: spec
   description: Query SSA Resident Station locations and hours
   name: Social Security Administration Resident Stations API
@@ -184,7 +184,7 @@ plans:
 - name: Social Security Administration Plans Pricing
   plan_count: 3
   slug: social-security-administration-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Social Security Administration Rate Limits
@@ -244,7 +244,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: Energy Transfer Messenger+ Nominations Schedules API
   slug: open-energy-transfer-schedules-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://energytransfer.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/agentic-access/energy-transfer-agentic-access.yml
   title: ''
@@ -105,19 +109,19 @@ finops:
   slug: energy-transfer-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/energy-transfer.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Energy Transfer
 nav: Providers
 network: true
 overview: 'Energy Transfer publishes 3 APIs on the [APIs.io](https://apis.io/) network: Nominations API, Pipelines API, and Schedules API. Tagged areas include Energy, Pipelines, Midstream, Gas Scheduling, and Fortune 100.
 
 
-  Energy Transfer''s developer surface includes authentication and 3 more developer resources.'
+  Energy Transfer''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Energy Transfer Plans Pricing
   plan_count: 1
   slug: energy-transfer-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Energy Transfer Rate Limits
@@ -155,7 +159,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -177,4 +181,5 @@ tags:
 - Midstream
 - Gas Scheduling
 - Fortune 100
+website: https://energytransfer.com
 ---

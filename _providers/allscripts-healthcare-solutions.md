@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: HL7 FHIR R4 (4.0.1) REST API for Veradigm EHR, aligned to USCDI for 21st Century Cures Act patient and provider access. The live CapabilityStatement declares 31 resource types (Patient, Encounter, Obs
@@ -222,7 +222,7 @@ plans:
 - name: Allscripts Healthcare Solutions Plans Pricing
   plan_count: 6
   slug: allscripts-healthcare-solutions-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Allscripts Healthcare Solutions Rate Limits
@@ -268,7 +268,7 @@ score:
     regime_id: health
     score: 70.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

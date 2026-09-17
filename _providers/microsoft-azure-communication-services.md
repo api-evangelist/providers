@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -137,11 +137,11 @@ finops:
   slug: microsoft-azure-communication-services-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-communication-services.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Microsoft Azure Communication Services
 nav: Providers
 network: true
-overview: 'Microsoft Azure Communication Services publishes 3 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-communication-services Email API, microsoft-azure-communication-services Identity API, and microsoft-azure-communication-services SMS API.
+overview: 'Microsoft Azure Communication Services publishes 3 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-communication-services Email API, microsoft-azure-communication-services Identity API, and microsoft-azure-communication-services SMS API. Tagged areas include Email, Identity, and SMS.
 
 
   Microsoft Azure Communication Services'' developer surface includes authentication, developer portal, pricing, support, engineering blog, and 7 more developer resources.'
@@ -149,14 +149,14 @@ plans:
 - name: Microsoft Azure Communication Services Plans Pricing
   plan_count: 3
   slug: microsoft-azure-communication-services-plans-pricing
-random_paper: 7
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Communication Services Rate Limits
   slug: microsoft-azure-communication-services-rate-limits
 score:
   band: thin
-  composite: 37.0
+  composite: 36.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 39.0
@@ -164,7 +164,7 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
@@ -181,10 +181,13 @@ score:
       marker_coverage: 0.0
       total: 4
   regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -200,5 +203,9 @@ security:
   slug: microsoft-azure-communication-services-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: microsoft-azure-communication-services
+tags:
+- Email
+- Identity
+- SMS
 website: https://www.microsoft.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://platform-api.nabis.pro
@@ -66,7 +66,7 @@ apis:
 - baseURL: https://platform-api.nabis.pro
   baseurl_source: declared
   description: The NabisDaysOff API from Nabis — 1 operation(s) for nabisdaysoff.
-  name: Nabis Nabis Days Off API
+  name: Nabis Days Off API
   slug: nabis-nabisdaysoff-api
 - baseURL: https://platform-api.nabis.pro
   baseurl_source: declared
@@ -279,7 +279,7 @@ created: '2026-08-26'
 description: Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace connecting 400+ cannabis brands to licensed retailers, an analytics layer, and Nabis Capital, an invoice-based financing product, plus Nabis BillPay and Nabis Tracker for retailers. The company reports that 99% of retailers in the three states it serves receive product through Nabis and that it fulfills 3,500+ wholesale orders a week. For developers it publishes the Nabis Platform API — a read-only, API-key-authenticated JSON REST API for brands and retailers covering inventory, inventory history, orders, invoices, retailers, warehouses and the Nabis delivery calendar, with separate California and New York route trees, and an implementation of the Universal Cannabis API labeling standard for order manifests and QR-code regulator events.
 image: https://cdn.prod.website-files.com/5c253860fd28a73e98ee5416/639cbabbb5d9b23d53a27b01_nabis_ogimage.jpg
 layout: provider
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: Nabis
 nav: Providers
 network: true
@@ -291,14 +291,14 @@ plans:
 - name: Nabis Plans Pricing
   plan_count: 0
   slug: nabis-plans-pricing
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Nabis Rate Limits
   slug: nabis-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 50.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 48.0
@@ -306,11 +306,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 50.0
+    contract_quality: 54.1
     developer_ergonomics: 63.7
     discoverability: 74.1
     operational_transparency: 63.2
@@ -325,7 +325,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: HTTP surface exposed by the AgentSea NestJS module (@lov3kaizen/agentsea-nestjs) when enableRestApi/enableWebSocket are set. Documented operations are GET /agents, GET /agents/:name, POST /agents/:nam
@@ -159,7 +159,7 @@ modified: '2026-08-24'
 name: AgentSea
 nav: Providers
 network: true
-overview: 'AgentSea publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Orchestration, and Large Language Models.
+overview: 'AgentSea publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Orchestration, and LLM.
 
 
   AgentSea''s developer surface includes documentation, API reference, getting-started guide, support, changelog, CLI, authentication, and 16 more developer resources.'
@@ -167,7 +167,7 @@ plans:
 - name: Agentsea Plans Pricing
   plan_count: 0
   slug: agentsea-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Agentsea Rate Limits
@@ -195,7 +195,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -217,7 +217,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Agent Orchestration
-- Large Language Models
+- LLM
 - MCP
 - Agentic Commerce
 - Open-Source

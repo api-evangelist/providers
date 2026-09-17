@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Rentec Direct Open API v3 provides RESTful access to property management data including properties, tenants, leases, payments, maintenance requests, contacts, and messaging. Available to Pro and P
@@ -41,6 +41,10 @@ apis:
   slug: rentec-direct-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://rentecdirect.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/security/rentec-domain-security.yml
   title: ''
@@ -106,19 +110,19 @@ finops:
   slug: finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rentec.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Rentec Direct
 nav: Providers
 network: true
 overview: 'Rentec Direct publishes 1 API on the [APIs.io](https://apis.io/) network: Open API. Tagged areas include Property Management, Real-Estate, Rentals, Tenant Screening, and Payments.
 
 
-  Rentec Direct''s developer surface includes pricing, engineering blog, status page, support, and 10 more developer resources.'
+  Rentec Direct''s developer surface includes pricing, engineering blog, status page, support, and 11 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -149,7 +153,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -170,4 +174,5 @@ tags:
 - Payments
 - Maintenance
 - Financial Reporting
+website: https://rentecdirect.com
 ---

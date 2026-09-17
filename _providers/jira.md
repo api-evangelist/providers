@@ -21,7 +21,7 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
@@ -29,21 +29,21 @@ agent_readiness:
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.6
-  scored_at: '2026-09-15'
+  score: 62.0
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 6
-  human_in_the_loop: 0
+- acting_count: 432
+  human_in_the_loop: 4
   name: Jira Agentic Access
-  operation_count: 16
+  operation_count: 814
   slug: jira-agentic-access
-  summary_line: 16 operations · 6 acting
-api_count: 1
+  summary_line: 814 operations · 432 acting · 4 human-in-the-loop
+api_count: 4
 apis:
 - description: Version 2 of the Jira Cloud platform REST API, offering the same operations as v3 but without Atlassian Document Format support.
   name: Jira Cloud Platform REST API v2
@@ -102,11 +102,6 @@ apis:
   slug: atlassian-jira-remote-mcp-server
 - baseURL: https://your-domain.atlassian.net/rest/api/3
   baseurl_source: declared
-  description: Read Jira field metadata.
-  name: Atlassian Jira Fields API
-  slug: atlassian-jira-fields-api
-- baseURL: https://your-domain.atlassian.net/rest/api/3
-  baseurl_source: declared
   description: Manage comments on issues.
   name: Atlassian Jira Issue Comments API
   slug: atlassian-jira-issue-comments-api
@@ -140,21 +135,566 @@ apis:
   description: Read user information.
   name: Atlassian Jira Users API
   slug: atlassian-jira-users-api
-- baseURL: https://your-domain.atlassian.net
+- baseURL: https://your-domain.atlassian.net/rest/api/2
   baseurl_source: declared
-  description: The complete first-party Jira Cloud platform REST API — 617 operations across 421 paths covering issues, projects, users, workflows, fields, screens, permissions, dashboards, filters, webhooks and adm
-  name: Atlassian Jira Cloud Platform REST API v3
-  slug: atlassian-jira-cloud-platform-api
-- baseURL: https://your-domain.atlassian.net
+  description: This resource represents an announcement banner. Use it to retrieve and update banner configuration.
+  name: Jira Announcement banner API
+  slug: jira-announcement-banner-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
   baseurl_source: declared
-  description: The first-party Jira Software (Agile) REST API at /rest/agile/1.0 — 105 operations covering boards, sprints, epics, backlogs, versions, and the development-information surface for builds, deployments,
-  name: Jira Software Cloud API
-  slug: atlassian-jira-software-cloud-api
-- baseURL: https://your-domain.atlassian.net
+  description: This resource represents app access rule data policies.
+  name: Jira App data policies API
+  slug: jira-app-data-policies-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
   baseurl_source: declared
-  description: The first-party Jira Service Management REST API at /rest/servicedeskapi — 75 operations covering service desks, customer requests, request types, queues, SLAs, organizations, customers and the knowle
-  name: Jira Service Management REST API
-  slug: atlassian-jira-service-management-api
+  description: 'This resource supports [app migrations](https://developer.atlassian.com/platform/app-migration/). Use it to: - [to request migrated workflow rules details](https://developer.atlassian.com/platform/app'
+  name: Jira App migration API
+  slug: jira-app-migration-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents app properties. Use it to store arbitrary data for your [Connect app](https://developer.atlassian.com/cloud/jira/platform/index/#connect-apps).
+  name: Jira App properties API
+  slug: jira-app-properties-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents application roles. Use it to get details of an application role or all application roles.
+  name: Jira Application roles API
+  slug: jira-application-roles-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: The Assets API from Jira — 2 operation(s) for assets.
+  name: Jira Assets API
+  slug: jira-assets-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents audits that record activities undertaken in Jira. Use it to get a list of audit records.
+  name: Jira Audit records API
+  slug: jira-audit-records-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents system and custom avatars. Use it to obtain the details of system or custom avatars, add and remove avatars from a project, issue type or priority and obtain avatar images.
+  name: Jira Avatars API
+  slug: jira-avatars-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: Apis related to the backlog
+  name: Jira Backlog API
+  slug: jira-backlog-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: Apis related to boards
+  name: Jira Board API
+  slug: jira-board-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'APIs related to integrating build data with Jira Software. These APIs are available to Atlassian Connect apps. To use these APIs you must have the `jiraBuildInfoProvider` module in your Connect app''s '
+  name: Jira Builds API
+  slug: jira-builds-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents classification levels.
+  name: Jira Classification levels API
+  slug: jira-classification-levels-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: The Customer API from Jira — 2 operation(s) for customer.
+  name: Jira Customer API
+  slug: jira-customer-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents dashboards. Use it to obtain the details of dashboards as well as get, create, update, or remove item properties and gadgets from dashboards.
+  name: Jira Dashboards API
+  slug: jira-dashboards-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: APIs related to integrating deployment data with Jira Software. These APIs are available to Atlassian Connect apps. To use these APIs you must have the `jiraDeploymentInfoProvider` module in your Conn
+  name: Jira Deployments API
+  slug: jira-deployments-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: APIs related to integrating development information (commits, branches and pull requests) with Jira. These APIs are available to Atlassian Connect apps and on-premise integrations using OAuth. Connect
+  name: Jira Development Information API
+  slug: jira-development-information-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: APIs related to integrating Dev Ops Components affected by Incident data with Jira Software. These APIs are available to Atlassian Connect apps. To use these APIs you must have the `jiraDevOpsComponen
+  name: Jira DevOps Components API
+  slug: jira-devops-components-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents [modules registered dynamically](https://developer.atlassian.com/cloud/jira/platform/dynamic-modules/) by [Connect apps](https://developer.atlassian.com/cloud/jira/platform/in
+  name: Jira Dynamic modules API
+  slug: jira-dynamic-modules-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: Apis related to epics
+  name: Jira Epic API
+  slug: jira-epic-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: APIs related to integrating feature flags with Jira Software. These APIs are available to Atlassian Connect apps. To use these APIs you must have the `jiraFeatureFlagInfoProvider` module in your Conne
+  name: Jira Feature Flags API
+  slug: jira-feature-flags-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents field schemes which are replacing field configuration schemes to control field associations. They are currently in beta and only available to customers who have opted-in to th
+  name: Jira Field schemes API
+  slug: jira-field-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents options for sharing [filters](#api-group-Filters). Use it to get share scopes as well as add and remove share scopes from filters.
+  name: Jira Filter sharing API
+  slug: jira-filter-sharing-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents [filters](https://confluence.atlassian.com/x/eQiiLQ). Use it to get, create, update, or delete filters. Also use it to configure the columns for a filter and set favorite filt
+  name: Jira Filters API
+  slug: jira-filters-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents a list of users and a list of groups. Use it to obtain the details to populate user and group picker suggestions list.
+  name: Jira Group and user picker API
+  slug: jira-group-and-user-picker-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents groups of users. Use it to get, create, find, and delete groups as well as add and remove users from groups. (\[WARNING\] The standard Atlassian group names are default names '
+  name: Jira Groups API
+  slug: jira-groups-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: The Info API from Jira — 1 operation(s) for info.
+  name: Jira Info API
+  slug: jira-info-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: Apis related to issues
+  name: Jira Issue API
+  slug: jira-issue-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents issue attachments and the attachment settings for Jira. Use it to get the metadata for an attachment, delete an attachment, and view the metadata for the contents of an attach
+  name: Jira Issue attachments API
+  slug: jira-issue-attachments-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents the issue bulk operations. Use it to move multiple issues from one project to another project or edit fields of multiple issues in one go. For additional clarity, we have crea
+  name: Jira Issue bulk operations API
+  slug: jira-issue-bulk-operations-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents [issue comment](#api-group-Issue-comments) properties, which provides for storing custom data against an issue comment. Use is to get, set, and delete issue comment properties
+  name: Jira Issue comment properties API
+  slug: jira-issue-comment-properties-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents the fields associated to project and issue type contexts. Use it to: * assign custom field to projects and issue types.'
+  name: Jira Issue custom field associations API
+  slug: jira-issue-custom-field-associations-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents configurations stored against a custom field context by a [Forge app](https://developer.atlassian.com/platform/forge/). Configurations are information used by the Forge app at
+  name: Jira Issue custom field configuration (apps) API
+  slug: jira-issue-custom-field-configuration-apps-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents issue custom field contexts. Use it to: * get, create, update, and delete custom field contexts. * get context to issue types and projects mappings. * get custom field context'
+  name: Jira Issue custom field contexts API
+  slug: jira-issue-custom-field-contexts-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents custom issue field select list options created in Jira or using the REST API. This resource supports the following field types: * Checkboxes. * Radio Buttons. * Select List (s'
+  name: Jira Issue custom field options API
+  slug: jira-issue-custom-field-options-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents custom issue field select list options created by a Connect app. See [Issue custom field options](#api-group-Issue-custom-field-options) to manipulate options created in Jira '
+  name: Jira Issue custom field options (apps) API
+  slug: jira-issue-custom-field-options-apps-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents the values of custom fields added by [Forge apps](https://developer.atlassian.com/platform/forge/). Use it to update the value of a custom field on issues.
+  name: Jira Issue custom field values (apps) API
+  slug: jira-issue-custom-field-values-apps-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents issue field configurations. Use it to get, set, and delete field configurations and field configuration schemes.
+  name: Jira Issue field configurations API
+  slug: jira-issue-field-configurations-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents issue fields, both system and custom fields. Use it to get fields, field configurations, and create custom fields.
+  name: Jira Issue fields API
+  slug: jira-issue-fields-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents [issue link](#api-group-Issue-links) types. Use it to get, create, update, and delete link issue types as well as get lists of all link issue types. To use it, the site must h
+  name: Jira Issue link types API
+  slug: jira-issue-link-types-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents links between issues. Use it to get, create, and delete links between issues. To use it, the site must have [issue linking](https://confluence.atlassian.com/x/yoXKM) enabled.
+  name: Jira Issue links API
+  slug: jira-issue-links-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents issue navigator settings. Use it to get and set issue navigator default columns.
+  name: Jira Issue navigator settings API
+  slug: jira-issue-navigator-settings-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents notification schemes, lists of events and the recipients who will receive notifications for those events. Use it to get details of a notification scheme and a list of notifica
+  name: Jira Issue notification schemes API
+  slug: jira-issue-notification-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource supports bulk pinning and unpinning of [issue panels](https://developer.atlassian.com/platform/forge/) that are added by a Forge app. Only Jira administrators can use it.
+  name: Jira Issue panels API
+  slug: jira-issue-panels-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents [issue](#api-group-Issues) properties, which provides for storing custom data against an issue. Use it to get, set, and delete issue properties as well as obtain details of al
+  name: Jira Issue properties API
+  slug: jira-issue-properties-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents Issue Redaction. Provides APIs to redact issue data.
+  name: Jira Issue redaction API
+  slug: jira-issue-redaction-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents remote issue links, a way of linking Jira to information in other systems. Use it to get, create, update, and delete remote issue links either by ID or global ID. The global I
+  name: Jira Issue remote links API
+  slug: jira-issue-remote-links-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents issue resolution values. Use it to obtain a list of all issue resolution values and the details of individual resolution values.
+  name: Jira Issue resolutions API
+  slug: jira-issue-resolutions-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents issue security levels. Use it to obtain the details of any issue security level. For more information about issue security levels, see [Configuring issue-level security](https
+  name: Jira Issue security level API
+  slug: jira-issue-security-level-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents issue security schemes. Use it to get an issue security scheme or a list of issue security schemes. Issue security schemes control which users or groups of users can view an i
+  name: Jira Issue security schemes API
+  slug: jira-issue-security-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents [issue type](#api-group-Issue-types) properties, which provides for storing custom data against an issue type. Use it to get, create, and delete issue type properties as well '
+  name: Jira Issue type properties API
+  slug: jira-issue-type-properties-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents issue type schemes in classic projects. Use it to: * get issue type schemes and a list of the projects that use them. * associate issue type schemes with projects. * add issue'
+  name: Jira Issue type schemes API
+  slug: jira-issue-type-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents issue type screen schemes. Use it to: * get issue type screen schemes and a list of the projects that use them. * create issue type screen schemes. * update issue type screen '
+  name: Jira Issue type screen schemes API
+  slug: jira-issue-type-screen-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents votes cast by users on an issue. Use it to get details of votes on an issue as well as cast and withdrawal votes.
+  name: Jira Issue votes API
+  slug: jira-issue-votes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents users watching an issue. Use it to get details of users watching an issue as well as start and stop a user watching an issue.
+  name: Jira Issue watchers API
+  slug: jira-issue-watchers-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents [issue worklog](#api-group-Issue-worklogs) properties, which provides for storing custom data against an issue worklog. Use it to get, create, and delete issue worklog propert
+  name: Jira Issue worklog properties API
+  slug: jira-issue-worklog-properties-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource is a collection of operations for [Jira expressions](https://developer.atlassian.com/cloud/jira/platform/jira-expressions/).
+  name: Jira Jira expressions API
+  slug: jira-jira-expressions-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents various settings in Jira. Use it to get and update Jira settings and properties.
+  name: Jira Jira settings API
+  slug: jira-jira-settings-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents JQL search auto-complete details. Use it to obtain JQL search auto-complete data and suggestions for use in programmatic construction of queries or custom query builders. It a
+  name: Jira JQL API
+  slug: jira-jql-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents JQL function's precomputations. Precomputation is a mapping between custom function call and JQL fragment returned by this function. Use it to get and update precomputations.
+  name: Jira JQL functions (apps) API
+  slug: jira-jql-functions-apps-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents available labels. Use it to get available labels for the global label field.
+  name: Jira Labels API
+  slug: jira-labels-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents license metrics. Use it to get available metrics for Jira licences.
+  name: Jira License metrics API
+  slug: jira-license-metrics-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource supports the migration of some Connect modules to their equivalent Forge modules.
+  name: Jira Migration of Connect modules to Forge API
+  slug: jira-migration-of-connect-modules-to-forge-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents information about the current user, such as basic details, group membership, application roles, preferences, and locale. Use it to get, create, update, and delete (restore def
+  name: Jira Myself API
+  slug: jira-myself-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: APIs related to integrating Incident and Post-Incident Review (PIR) data with Jira Software. These APIs are available to Atlassian Connect apps. To use these APIs you must have the `jiraOperationsInfo
+  name: Jira Operations API
+  slug: jira-operations-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: The Organization API from Jira — 6 operation(s) for organization.
+  name: Jira Organization API
+  slug: jira-organization-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents permission schemes. Use it to get, create, update, and delete permission schemes as well as get, create, update, and delete details of the permissions granted in those schemes
+  name: Jira Permission schemes API
+  slug: jira-permission-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents permissions. Use it to obtain details of all permissions and determine whether the user has certain permissions.
+  name: Jira Permissions API
+  slug: jira-permissions-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents plans. Use it to get, create, duplicate, update, trash and archive plans.
+  name: Jira Plans API
+  slug: jira-plans-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents issue priority schemes. Use it to get priority schemes and related information, and to create, update and delete priority schemes.
+  name: Jira Priority schemes API
+  slug: jira-priority-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents avatars associated with a project. Use it to get, load, set, and remove project avatars.
+  name: Jira Project avatars API
+  slug: jira-project-avatars-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents project categories. Use it to create, update, and delete project categories as well as obtain a list of all project categories and details of individual categories. For more i
+  name: Jira Project categories API
+  slug: jira-project-categories-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents classification levels used in a project. Use it to view and manage classification levels in your projects.
+  name: Jira Project classification levels API
+  slug: jira-project-classification-levels-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents project components. Use it to get, create, update, and delete project components. Also get components for project and get a count of issues by component.
+  name: Jira Project components API
+  slug: jira-project-components-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents the email address used to send a project's notifications. Use it to get and set the [project's sender email address](https://confluence.atlassian.com/x/dolKLg).
+  name: Jira Project email API
+  slug: jira-project-email-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents project features. Use it to get the list of features for a project and modify the state of a feature. The project feature endpoint is available only for Jira Software, both fo
+  name: Jira Project features API
+  slug: jira-project-features-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource provides validation for project keys and names.
+  name: Jira Project key and name validation API
+  slug: jira-project-key-and-name-validation-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents permission schemes for a project. Use this resource to: * get details of a project''s issue security levels available to the calling user. * get the permission scheme associate'
+  name: Jira Project permission schemes API
+  slug: jira-project-permission-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents [project](#api-group-Projects) properties, which provides for storing custom data against a project. Use it to get, create, and delete project properties as well as get a list
+  name: Jira Project properties API
+  slug: jira-project-properties-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents the users assigned to [project roles](#api-group-Issue-comments). Use it to get, add, and remove default users from project roles. Also use it to add and remove users from a p
+  name: Jira Project role actors API
+  slug: jira-project-role-actors-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents the roles that users can play in projects. Use this resource to get, create, update, and delete project roles.
+  name: Jira Project roles API
+  slug: jira-project-roles-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents project templates. Use it to create a new project from a custom template.
+  name: Jira Project templates API
+  slug: jira-project-templates-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents project types. Use it to obtain a list of all project types, a list of project types accessible to the calling user, and details of a project type.
+  name: Jira Project types API
+  slug: jira-project-types-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents project versions. Use it to get, get lists of, create, update, move, merge, and delete project versions. This resource also provides counts of issues by version.
+  name: Jira Project versions API
+  slug: jira-project-versions-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: APIs related to integrating remote link data with Jira Software. These APIs are available to Atlassian Connect apps. To use these APIs you must have the `jiraRemoteLinkInfoProvider` module in your Con
+  name: Jira Remote Links API
+  slug: jira-remote-links-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: The Request API from Jira — 18 operation(s) for request.
+  name: Jira Request API
+  slug: jira-request-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: The Rest API from Jira — 4 operation(s) for rest.
+  name: Jira Rest API
+  slug: jira-rest-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents screen schemes in classic projects. Use it to get, create, update, and delete screen schemes.
+  name: Jira Screen schemes API
+  slug: jira-screen-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents the screen tab fields used to record issue details. Use it to get, add, move, and remove fields from screen tabs.
+  name: Jira Screen tab fields API
+  slug: jira-screen-tab-fields-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents the screen tabs used to record issue details. Use it to get, create, update, move, and delete screen tabs.
+  name: Jira Screen tabs API
+  slug: jira-screen-tabs-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents the screens used to record issue details. Use it to: * get details of all screens. * get details of all the fields available for use on screens. * create screens. * delete scr'
+  name: Jira Screens API
+  slug: jira-screens-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: Send security information to Jira Software and enable your teams to turn unplanned vulnerabilities into planned and tracked work. Security is everyone's responsibility, and the security feature in Jir
+  name: Jira Security Information API
+  slug: jira-security-information-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource provides information about the Jira instance.
+  name: Jira Server info API
+  slug: jira-server-info-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents a service registry. Use it to retrieve attributes related to a [service registry](https://support.atlassian.com/jira-service-management-cloud/docs/what-is-services/) in JSM.
+  name: Jira Service Registry API
+  slug: jira-service-registry-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: The Servicedesk API from Jira — 16 operation(s) for servicedesk.
+  name: Jira Servicedesk API
+  slug: jira-servicedesk-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: Apis related to sprints
+  name: Jira Sprint API
+  slug: jira-sprint-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents statuses. Use it to search, get, create, delete, and change statuses.
+  name: Jira Status API
+  slug: jira-status-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents a [long-running asynchronous tasks](#async-operations). Use it to obtain details about the progress of a long-running task or cancel a long-running task.
+  name: Jira Tasks API
+  slug: jira-tasks-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents planning settings for plan-only and Atlassian teams in a plan. Use it to get, create, update and delete planning settings.
+  name: Jira Teams in plan API
+  slug: jira-teams-in-plan-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents time tracking and time tracking providers. Use it to get and set the time tracking provider, get and set the time tracking options, and disable time tracking.
+  name: Jira Time tracking API
+  slug: jira-time-tracking-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'UI modifications is a feature available for **Forge apps only**. It enables Forge apps to control how selected Jira and Jira Service Management fields behave on the following views: * Jira global issu'
+  name: Jira UI modifications (apps) API
+  slug: jira-ui-modifications-apps-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents [user](#api-group-Users) properties and provides for storing custom data against a user. Use it to get, create, and delete user properties as well as get a list of property ke
+  name: Jira User properties API
+  slug: jira-user-properties-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents various ways to search for and find users. Use it to obtain list of users including users assignable to projects and issues, users with permissions, user lists for pickup fiel
+  name: Jira User search API
+  slug: jira-user-search-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents webhooks. Webhooks are calls sent to a URL when an event occurs in Jira for issues specified by a JQL query. Only Connect and OAuth 2.0 apps can register and manage webhooks. '
+  name: Jira Webhooks API
+  slug: jira-webhooks-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents draft workflow schemes. Use it to manage drafts of workflow schemes. A workflow scheme maps issue types to workflows. A workflow scheme can be associated with one or more proj
+  name: Jira Workflow scheme drafts API
+  slug: jira-workflow-scheme-drafts-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents the associations between workflow schemes and projects. For more information, see [Managing your workflows](https://confluence.atlassian.com/x/q4hKLg).
+  name: Jira Workflow scheme project associations API
+  slug: jira-workflow-scheme-project-associations-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents workflow schemes. Use it to manage workflow schemes and the workflow scheme's workflows and issue types. A workflow scheme maps issue types to workflows. A workflow scheme can
+  name: Jira Workflow schemes API
+  slug: jira-workflow-schemes-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents status categories. Use it to obtain a list of all status categories and the details of a category. Status categories provided a mechanism for categorizing [statuses](#api-grou
+  name: Jira Workflow status categories API
+  slug: jira-workflow-status-categories-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents issue workflow statuses. Use it to obtain a list of all statuses associated with workflows and the details of a status.
+  name: Jira Workflow statuses API
+  slug: jira-workflow-statuses-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: This resource represents workflow transition rules. Workflow transition rules define a Connect or a Forge app routine, such as a [workflow post functions](https://developer.atlassian.com/cloud/jira/pl
+  name: Jira Workflow transition rules API
+  slug: jira-workflow-transition-rules-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: 'This resource represents workflows. Use it to: * Get workflows * Create workflows * Update workflows * Delete inactive workflows * Get workflow capabilities'
+  name: Jira Workflows API
+  slug: jira-workflows-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: The Knowledge Base API from Jira — 1 operation(s) for knowledge base.
+  name: Jira Knowledge Base API
+  slug: jira-knowledge-base-api
+- baseURL: https://your-domain.atlassian.net/rest/api/2
+  baseurl_source: declared
+  description: The Request Type API from Jira — 1 operation(s) for request type.
+  name: Jira Request Type API
+  slug: jira-request-type-api
 arazzos:
 - description: Read an issue, page through its comment thread oldest-first, then add a reply.
   name: Jira Read an Issue Comment Thread and Reply
@@ -186,7 +726,7 @@ arazzos:
 - description: Read an issue, discover its legal transitions, apply one, and verify the new status.
   name: Jira Transition an Issue to a New Status
   slug: jira-transition-issue-workflow
-artifact_total: 231
+artifact_total: 339
 asyncapis:
 - description: Jira Cloud webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in your Jira instance. Webhooks can be registered via the Jira REST API or through the Jira administr
   name: Jira Cloud Webhooks
@@ -253,6 +793,21 @@ collections:
   name: Atlassian Jira Cloud Platform REST API v3
   slug: open-jira
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/overlays/jira-platform-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/jira-platform-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/overlays/jira-software-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/jira-software-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/overlays/jira-service-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/jira-service-management-overlay.yaml
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/plans/jira-plans-pricing.yml
   title: ''
@@ -1036,18 +1591,18 @@ modified: '2026-06-20'
 name: Jira
 nav: Providers
 network: true
-overview: 'Jira publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Issue Comments API, Issue Priorities API, Issue Search API, and 16 more. Tagged areas include Agile, Issue Tracking, ITSM, Project Management, and Service Management.
+overview: 'Jira publishes 127 APIs on the [APIs.io](https://apis.io/) network, including Issue Comments API, Issue Priorities API, Issue Search API, and 124 more. Tagged areas include Agile, Issue Tracking, ITSM, Project Management, and Service Management.
 
 
   The Jira catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Jira''s developer surface includes documentation, pricing, sandbox, API reference, signup flow, changelog, CLI, and 63 more developer resources.'
+  Jira''s developer surface includes documentation, pricing, sandbox, API reference, signup flow, changelog, CLI, and 66 more developer resources.'
 plans:
 - name: Jira Plans Pricing
   plan_count: 4
   slug: jira-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Jira Rate Limits
@@ -1092,7 +1647,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 68.5
+  composite: 71.7
   coverage:
     artifact_dirs: 36
     catalog_earned: 43.5
@@ -1100,11 +1655,11 @@ score:
     catalog_gap: 71.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.2
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
-    contract_quality: 60.9
+    contract_quality: 73.7
     developer_ergonomics: 81.5
     discoverability: 55.6
     operational_transparency: 73.7
@@ -1113,14 +1668,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 72.7
+      callable: 6.6
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 122
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

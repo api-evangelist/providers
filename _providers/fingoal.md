@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://findmoney.fingoal.com/v3
@@ -67,14 +67,14 @@ apis:
   slug: fingoal-fastlink-api
 - baseURL: https://findmoney.fingoal.com/v3
   baseurl_source: declared
-  description: The Oauth API from FinGoal — 1 operation(s) for oauth.
-  name: FinGoal OAUTH API
-  slug: fingoal-oauth-api
-- baseURL: https://findmoney.fingoal.com/v3
-  baseurl_source: declared
   description: 'Webhook payload schemas for all webhook types. Configure which webhooks you receive using the Webhook Configurations endpoints. **Available Webhook Types:** - `ENRICHMENT_DATA`: Data-rich Transaction '
   name: FinGoal Webhooks API
   slug: fingoal-webhooks-api
+- baseURL: https://findmoney.fingoal.com/v3
+  baseurl_source: declared
+  description: The Oauth API from FinGoal — 1 operation(s) for oauth.
+  name: FinGoal OAUTH API
+  slug: fingoal-oauth-api
 artifact_total: 19
 asyncapis:
 - description: ''
@@ -258,7 +258,7 @@ plans:
 - name: Fingoal Plans Pricing
   plan_count: 0
   slug: fingoal-plans-pricing
-random_paper: 1
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Fingoal Rate Limits
@@ -307,7 +307,7 @@ score:
     regime_id: banking_open_finance
     score: 69.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

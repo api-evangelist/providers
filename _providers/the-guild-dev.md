@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — p
@@ -554,7 +554,7 @@ plans:
 - name: Schema Stitching Plans Pricing
   plan_count: 3
   slug: schema-stitching-plans-pricing
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Graphql Codegen Rate Limits
@@ -622,7 +622,7 @@ score:
     score: 25.0
   previous_composite: 40.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -699,7 +699,7 @@ tags:
 - Schema Stitching
 - Schema Transformation
 - Schema Validation
-- Server
+- Servers
 - Subscription
 - The Guild
 - Type Merging

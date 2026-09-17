@@ -12,14 +12,15 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-09-15'
+  score: 40.1
+  scored_at: '2026-09-16'
 api_count: 267
 apis:
 - description: The Zoho Inventory API allows you to perform all the operations that you do with our web client. It is built using REST principles which ensures predictable URLs for accessing resources, and uses HTTP
@@ -151,7 +152,9 @@ apis:
 - description: The AccountTimeEntry API from Zoho — 2 operation(s) for accounttimeentry.
   name: Zoho Account Time Entry API
   slug: zoho-accounttimeentry-api
-- description: The Actions API from Zoho — 36 operation(s) for actions.
+- baseURL_template: https://www.zohoapis.com/crm/{version}
+  baseurl_source: spec_template
+  description: The Actions API from Zoho — 36 operation(s) for actions.
   name: Zoho Actions API
   slug: zoho-actions-api
 - description: The Activity API from Zoho — 2 operation(s) for activity.
@@ -169,10 +172,9 @@ apis:
 - description: The AgentTimeEntry API from Zoho — 3 operation(s) for agenttimeentry.
   name: Zoho Agent Time Entry API
   slug: zoho-agenttimeentry-api
-- description: The Apis API from Zoho — 1 operation(s) for apis.
-  name: Zoho APIS API
-  slug: zoho-apis-api
-- description: The Appointments S API from Zoho — 2 operation(s) for appointments s.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Appointments S API from Zoho — 2 operation(s) for appointments s.
   name: Zoho Appointments S API
   slug: zoho-appointments-s-api
 - description: The Article API from Zoho — 7 operation(s) for article.
@@ -190,7 +192,9 @@ apis:
 - description: The ArticleTranslation API from Zoho — 11 operation(s) for articletranslation.
   name: Zoho Article Translation API
   slug: zoho-articletranslation-api
-- description: The Attachments API from Zoho — 2 operation(s) for attachments.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Attachments API from Zoho — 2 operation(s) for attachments.
   name: Zoho Attachments API
   slug: zoho-attachments-api
 - description: The AutomationEngine API from Zoho — 3 operation(s) for automationengine.
@@ -214,27 +218,31 @@ apis:
 - description: The BugInteg API from Zoho — 1 operation(s) for buginteg.
   name: Zoho Bug Integ API
   slug: zoho-buginteg-api
-- description: Asynchronous operations for exporting data in bulk.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Asynchronous operations for exporting data in bulk.
   name: Zoho Bulk Export - Asynchronous API
   slug: zoho-bulk-export-asynchronous-api
-- description: Synchronous operations for exporting data.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Synchronous operations for exporting data.
   name: Zoho Bulk Export - Synchronous API
   slug: zoho-bulk-export-synchronous-api
-- description: Asynchronous operations for importing data in bulk.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Asynchronous operations for importing data in bulk.
   name: Zoho Bulk Import - Asynchronous API
   slug: zoho-bulk-import-asynchronous-api
-- description: Operations for importing large data files in batches.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Operations for importing large data files in batches.
   name: Zoho Bulk Import - Batch API
   slug: zoho-bulk-import-batch-api
-- description: Synchronous operations for importing data.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Synchronous operations for importing data.
   name: Zoho Bulk Import - Synchronous API
   slug: zoho-bulk-import-synchronous-api
-- description: The BulkImport API from Zoho — 1 operation(s) for bulkimport.
-  name: Zoho Bulk Import API
-  slug: zoho-bulkimport-api
-- description: The BusinessHour API from Zoho — 3 operation(s) for businesshour.
-  name: Zoho Business Hour API
-  slug: zoho-businesshour-api
 - description: The Call API from Zoho — 8 operation(s) for call.
   name: Zoho Call API
   slug: zoho-call-api
@@ -265,13 +273,17 @@ apis:
 - description: The CommunityUser API from Zoho — 6 operation(s) for communityuser.
   name: Zoho Community User API
   slug: zoho-communityuser-api
-- description: The Composite Requests API from Zoho — 1 operation(s) for composite requests.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Composite Requests API from Zoho — 1 operation(s) for composite requests.
   name: Zoho Composite Requests API
   slug: zoho-composite-requests-api
 - description: The Contact API from Zoho — 23 operation(s) for contact.
   name: Zoho Contact API
   slug: zoho-contact-api
-- description: The Contact Roles API from Zoho — 2 operation(s) for contact roles.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Contact Roles API from Zoho — 2 operation(s) for contact roles.
   name: Zoho Contact Roles API
   slug: zoho-contact-roles-api
 - description: The ContactAttachment API from Zoho — 2 operation(s) for contactattachment.
@@ -289,7 +301,9 @@ apis:
 - description: The ContactProfile API from Zoho — 1 operation(s) for contactprofile.
   name: Zoho Contact Profile API
   slug: zoho-contactprofile-api
-- description: The Contacts API from Zoho — 4 operation(s) for contacts.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Contacts API from Zoho — 4 operation(s) for contacts.
   name: Zoho Contacts API
   slug: zoho-contacts-api
 - description: The ContactTimeEntry API from Zoho — 2 operation(s) for contacttimeentry.
@@ -298,7 +312,9 @@ apis:
 - description: The Contract API from Zoho — 4 operation(s) for contract.
   name: Zoho Contract API
   slug: zoho-contract-api
-- description: The Coql API from Zoho — 1 operation(s) for coql.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Coql API from Zoho — 1 operation(s) for coql.
   name: Zoho Coql API
   slug: zoho-coql-api
 - description: The CountriesAndLanguages API from Zoho — 3 operation(s) for countriesandlanguages.
@@ -316,10 +332,14 @@ apis:
 - description: The Dashboards API from Zoho — 1 operation(s) for dashboards.
   name: Zoho Dashboards API
   slug: zoho-dashboards-api
-- description: Data APIs are used to perform addition, update, deletion actions on Zoho Analytics tables.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Data APIs are used to perform addition, update, deletion actions on Zoho Analytics tables.
   name: Zoho Data APIs API
   slug: zoho-data-apis-api
-- description: The Deleted API from Zoho — 2 operation(s) for deleted.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Deleted API from Zoho — 2 operation(s) for deleted.
   name: Zoho Deleted API
   slug: zoho-deleted-api
 - description: The Department API from Zoho — 11 operation(s) for department.
@@ -334,22 +354,27 @@ apis:
 - description: The DomainMapping API from Zoho — 5 operation(s) for domainmapping.
   name: Zoho Domain Mapping API
   slug: zoho-domainmapping-api
-- description: The Email Drafts API from Zoho — 2 operation(s) for email drafts.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Email Drafts API from Zoho — 2 operation(s) for email drafts.
   name: Zoho Email Drafts API
   slug: zoho-email-drafts-api
 - description: The EmailFailureAlert API from Zoho — 1 operation(s) for emailfailurealert.
   name: Zoho Email Failure Alert API
   slug: zoho-emailfailurealert-api
-- description: The Emails API from Zoho — 2 operation(s) for emails.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Emails API from Zoho — 2 operation(s) for emails.
   name: Zoho Emails API
   slug: zoho-emails-api
-- description: The Emails Sharing Details API from Zoho — 1 operation(s) for emails sharing details.
+- baseURL_template: https://www.zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Emails Sharing Details API from Zoho — 1 operation(s) for emails sharing details.
   name: Zoho Emails Sharing Details API
   slug: zoho-emails-sharing-details-api
-- description: The EmailTemplates API from Zoho — 5 operation(s) for emailtemplates.
-  name: Zoho Email Templates API
-  slug: zoho-emailtemplates-api
-- description: Embed APIs let you dynamically integrate Zoho Analytics reports and dashboards into your websites and applications.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Embed APIs let you dynamically integrate Zoho Analytics reports and dashboards into your websites and applications.
   name: Zoho Embed APIs API
   slug: zoho-embed-apis-api
 - description: The EntityBlueprints API from Zoho — 2 operation(s) for entityblueprints.
@@ -361,16 +386,22 @@ apis:
 - description: The EventComments API from Zoho — 2 operation(s) for eventcomments.
   name: Zoho Event Comments API
   slug: zoho-eventcomments-api
-- description: The Events API from Zoho — 1 operation(s) for events.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Events API from Zoho — 1 operation(s) for events.
   name: Zoho Events API
   slug: zoho-events-api
-- description: The Features API from Zoho — 2 operation(s) for features.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Features API from Zoho — 2 operation(s) for features.
   name: Zoho Features API
   slug: zoho-features-api
 - description: The Field API from Zoho — 4 operation(s) for field.
   name: Zoho Field API
   slug: zoho-field-api
-- description: The Files API from Zoho — 1 operation(s) for files.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Files API from Zoho — 1 operation(s) for files.
   name: Zoho Files API
   slug: zoho-files-api
 - description: The Finance API from Zoho — 6 operation(s) for finance.
@@ -382,19 +413,17 @@ apis:
 - description: The GenericAction API from Zoho — 1 operation(s) for genericaction.
   name: Zoho Generic Action API
   slug: zoho-genericaction-api
-- description: The Global Picklists API from Zoho — 3 operation(s) for global picklists.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Global Picklists API from Zoho — 3 operation(s) for global picklists.
   name: Zoho Global Picklists API
   slug: zoho-global-picklists-api
-- description: The Helpcenter API from Zoho — 3 operation(s) for helpcenter.
-  name: Zoho Helpcenter API
-  slug: zoho-helpcenter-api
 - description: The HelpcenterGroups API from Zoho — 5 operation(s) for helpcentergroups.
   name: Zoho Helpcenter Groups API
   slug: zoho-helpcentergroups-api
-- description: The HolidayList API from Zoho — 2 operation(s) for holidaylist.
-  name: Zoho Holiday List API
-  slug: zoho-holidaylist-api
-- description: Operations for managing holidays that affect business hours and shift schedules
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: Operations for managing holidays that affect business hours and shift schedules
   name: Zoho Holidays API
   slug: zoho-holidays-api
 - description: The IM_Channel API from Zoho — 2 operation(s) for im_channel.
@@ -415,9 +444,6 @@ apis:
 - description: The Import API from Zoho — 3 operation(s) for import.
   name: Zoho Import API
   slug: zoho-import-api
-- description: The IMTemplateMessage API from Zoho — 2 operation(s) for imtemplatemessage.
-  name: Zoho IM Template Message API
-  slug: zoho-imtemplatemessage-api
 - description: The KbCategory API from Zoho — 1 operation(s) for kbcategory.
   name: Zoho Kb Category API
   slug: zoho-kbcategory-api
@@ -442,25 +468,35 @@ apis:
 - description: The LayoutRules API from Zoho — 3 operation(s) for layoutrules.
   name: Zoho Layout Rules API
   slug: zoho-layoutrules-api
-- description: The Layouts API from Zoho — 1 operation(s) for layouts.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Layouts API from Zoho — 1 operation(s) for layouts.
   name: Zoho Layouts API
   slug: zoho-layouts-api
-- description: The Leads API from Zoho — 3 operation(s) for leads.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Leads API from Zoho — 3 operation(s) for leads.
   name: Zoho Leads API
   slug: zoho-leads-api
 - description: Operations related to license features and plan information.
   name: Zoho License API
   slug: zoho-license-api
-- description: The Locking Information S API from Zoho — 2 operation(s) for locking information s.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Locking Information S API from Zoho — 2 operation(s) for locking information s.
   name: Zoho Locking Information S API
   slug: zoho-locking-information-s-api
 - description: The MailReplyAddress API from Zoho — 2 operation(s) for mailreplyaddress.
   name: Zoho Mail Reply Address API
   slug: zoho-mailreplyaddress-api
-- description: Metadata APIs are used to fetch information about the reporting Workspaces, tables, reports, and dashboards created in Zoho Analytics.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Metadata APIs are used to fetch information about the reporting Workspaces, tables, reports, and dashboards created in Zoho Analytics.
   name: Zoho Metadata APIs API
   slug: zoho-metadata-apis-api
-- description: Modeling APIs manage workspaces, views, columns, and folders, and support copying across or within Zoho Analytics accounts.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Modeling APIs manage workspaces, views, columns, and folders, and support copying across or within Zoho Analytics accounts.
   name: Zoho Modeling APIs API
   slug: zoho-modeling-apis-api
 - description: The Module API from Zoho — 5 operation(s) for module.
@@ -469,10 +505,14 @@ apis:
 - description: The NewTicketHistory API from Zoho — 1 operation(s) for newtickethistory.
   name: Zoho New Ticket History API
   slug: zoho-newtickethistory-api
-- description: The Notes API from Zoho — 4 operation(s) for notes.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Notes API from Zoho — 4 operation(s) for notes.
   name: Zoho Notes API
   slug: zoho-notes-api
-- description: The Org API from Zoho — 5 operation(s) for org.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Org API from Zoho — 5 operation(s) for org.
   name: Zoho Org API
   slug: zoho-org-api
 - description: The Organization API from Zoho — 6 operation(s) for organization.
@@ -484,7 +524,9 @@ apis:
 - description: The Permalink API from Zoho — 2 operation(s) for permalink.
   name: Zoho Permalink API
   slug: zoho-permalink-api
-- description: The Photo API from Zoho — 1 operation(s) for photo.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Photo API from Zoho — 1 operation(s) for photo.
   name: Zoho Photo API
   slug: zoho-photo-api
 - description: The PinnedConversation API from Zoho — 2 operation(s) for pinnedconversation.
@@ -499,15 +541,16 @@ apis:
 - description: The Profile API from Zoho — 9 operation(s) for profile.
   name: Zoho Profile API
   slug: zoho-profile-api
-- description: The Read API from Zoho — 3 operation(s) for read.
+- baseURL_template: https://zohoapis.{dc}/crm/bulk/{version}
+  baseurl_source: spec_template
+  description: The Read API from Zoho — 3 operation(s) for read.
   name: Zoho Read API
   slug: zoho-read-api
-- description: The Records API from Zoho — 3 operation(s) for records.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Records API from Zoho — 3 operation(s) for records.
   name: Zoho Records API
   slug: zoho-records-api
-- description: The Recyclebin API from Zoho — 5 operation(s) for recyclebin.
-  name: Zoho Recyclebin API
-  slug: zoho-recyclebin-api
 - description: The Reports API from Zoho — 1 operation(s) for reports.
   name: Zoho Reports API
   slug: zoho-reports-api
@@ -520,16 +563,24 @@ apis:
 - description: The RuleGroup API from Zoho — 2 operation(s) for rulegroup.
   name: Zoho Rule Group API
   slug: zoho-rulegroup-api
-- description: The Search API from Zoho — 12 operation(s) for search.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Search API from Zoho — 12 operation(s) for search.
   name: Zoho Search API
   slug: zoho-search-api
-- description: The Services S API from Zoho — 2 operation(s) for services s.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Services S API from Zoho — 2 operation(s) for services s.
   name: Zoho Services S API
   slug: zoho-services-s-api
-- description: The Settings API from Zoho — 107 operation(s) for settings.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Settings API from Zoho — 107 operation(s) for settings.
   name: Zoho Settings API
   slug: zoho-settings-api
-- description: APIs for sharing views (reports and dashboards) with users, managing permissions, and removing sharing in Zoho Analytics.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: APIs for sharing views (reports and dashboards) with users, managing permissions, and removing sharing in Zoho Analytics.
   name: Zoho Sharing & Collaboration APIs API
   slug: zoho-sharing-collaboration-apis-api
 - description: The SharingRule API from Zoho — 1 operation(s) for sharingrule.
@@ -559,9 +610,6 @@ apis:
 - description: The TaskAttachment API from Zoho — 2 operation(s) for taskattachment.
   name: Zoho Task Attachment API
   slug: zoho-taskattachment-api
-- description: The TaskComments API from Zoho — 2 operation(s) for taskcomments.
-  name: Zoho Task Comments API
-  slug: zoho-taskcomments-api
 - description: The TaskTimeEntry API from Zoho — 3 operation(s) for tasktimeentry.
   name: Zoho Task Time Entry API
   slug: zoho-tasktimeentry-api
@@ -571,9 +619,6 @@ apis:
 - description: The Team API from Zoho — 9 operation(s) for team.
   name: Zoho Team API
   slug: zoho-team-api
-- description: The TemplateFolders API from Zoho — 2 operation(s) for templatefolders.
-  name: Zoho Template Folders API
-  slug: zoho-templatefolders-api
 - description: The Thread API from Zoho — 6 operation(s) for thread.
   name: Zoho Thread API
   slug: zoho-thread-api
@@ -607,52 +652,99 @@ apis:
 - description: The TicketTimer API from Zoho — 4 operation(s) for tickettimer.
   name: Zoho Ticket Timer API
   slug: zoho-tickettimer-api
-- description: The Timeline API from Zoho — 1 operation(s) for timeline.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Timeline API from Zoho — 1 operation(s) for timeline.
   name: Zoho Timeline API
   slug: zoho-timeline-api
-- description: The TimeTracking API from Zoho — 2 operation(s) for timetracking.
-  name: Zoho Time Tracking API
-  slug: zoho-timetracking-api
-- description: The Upload API from Zoho — 2 operation(s) for upload.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Upload API from Zoho — 2 operation(s) for upload.
   name: Zoho Upload API
   slug: zoho-upload-api
-- description: The Upsert API from Zoho — 1 operation(s) for upsert.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Upsert API from Zoho — 1 operation(s) for upsert.
   name: Zoho Upsert API
   slug: zoho-upsert-api
 - description: The User API from Zoho — 9 operation(s) for user.
   name: Zoho User API
   slug: zoho-user-api
-- description: Manage User APIs allow you to add, remove, activate, or deactivate users in your Zoho Analytics organization programmatically.
+- baseURL: https://analyticsapi.zoho.com
+  baseurl_source: spec
+  description: Manage User APIs allow you to add, remove, activate, or deactivate users in your Zoho Analytics organization programmatically.
   name: Zoho User Management APIs API
   slug: zoho-user-management-apis-api
-- description: The Users API from Zoho — 10 operation(s) for users.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Users API from Zoho — 10 operation(s) for users.
   name: Zoho Users API
   slug: zoho-users-api
 - description: The ValidationRuleCriteria API from Zoho — 1 operation(s) for validationrulecriteria.
   name: Zoho Validation Rule Criteria API
   slug: zoho-validationrulecriteria-api
-- description: The ValidationRules API from Zoho — 3 operation(s) for validationrules.
-  name: Zoho Validation Rules API
-  slug: zoho-validationrules-api
 - description: The Webhook API from Zoho — 2 operation(s) for webhook.
   name: Zoho Webhook API
   slug: zoho-webhook-api
 - description: The Widget API from Zoho — 1 operation(s) for widget.
   name: Zoho Widget API
   slug: zoho-widget-api
-- description: The Workflow Configurations API from Zoho — 1 operation(s) for workflow configurations.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Workflow Configurations API from Zoho — 1 operation(s) for workflow configurations.
   name: Zoho Workflow Configurations API
   slug: zoho-workflow-configurations-api
-- description: The Write API from Zoho — 2 operation(s) for write.
+- baseURL_template: https://zohoapis.{dc}/crm/bulk/{version}
+  baseurl_source: spec_template
+  description: The Write API from Zoho — 2 operation(s) for write.
   name: Zoho Write API
   slug: zoho-write-api
-- description: The Zia Org Enrichment API from Zoho — 2 operation(s) for zia org enrichment.
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Zia Org Enrichment API from Zoho — 2 operation(s) for zia org enrichment.
   name: Zoho Zia Org Enrichment API
   slug: zoho-zia-org-enrichment-api
-- description: The Zoho CRM Related Records API API from Zoho — 2 operation(s) for zoho crm related records api.
-  name: Zoho Zoho CRM Related Records API
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Zoho CRM Related Records API API from Zoho — 2 operation(s) for zoho crm related records api.
+  name: Zoho CRM Related Records API
   slug: zoho-zoho-crm-related-records-api-api
-artifact_total: 403
+- baseURL_template: https://zohoapis.{dc}/crm/{version}
+  baseurl_source: spec_template
+  description: The Apis API from Zoho — 1 operation(s) for apis.
+  name: Zoho APIS API
+  slug: zoho-apis-api
+- description: The Bulk Import API from Zoho — 1 operation(s) for bulk import.
+  name: Zoho Bulk Import API
+  slug: zoho-bulk-import-api
+- description: The Business Hour API from Zoho — 3 operation(s) for business hour.
+  name: Zoho Business Hour API
+  slug: zoho-business-hour-api
+- description: The Email Templates API from Zoho — 5 operation(s) for email templates.
+  name: Zoho Email Templates API
+  slug: zoho-email-templates-api
+- description: The Help Center API from Zoho — 3 operation(s) for help center.
+  name: Zoho Help Center API
+  slug: zoho-help-center-api
+- description: The Holiday List API from Zoho — 2 operation(s) for holiday list.
+  name: Zoho Holiday List API
+  slug: zoho-holiday-list-api
+- description: The recycle bin API from Zoho — 5 operation(s) for recycle bin.
+  name: Zoho recycle bin API
+  slug: zoho-recycle-bin-api
+- description: The Task Comments API from Zoho — 2 operation(s) for task comments.
+  name: Zoho Task Comments API
+  slug: zoho-task-comments-api
+- description: The Template Folders API from Zoho — 2 operation(s) for template folders.
+  name: Zoho Template Folders API
+  slug: zoho-template-folders-api
+- description: The Time Tracking API from Zoho — 2 operation(s) for time tracking.
+  name: Zoho Time Tracking API
+  slug: zoho-time-tracking-api
+- description: The Validation Rules API from Zoho — 3 operation(s) for validation rules.
+  name: Zoho Validation Rules API
+  slug: zoho-validation-rules-api
+artifact_total: 402
 collections:
 - collection_type: open
   name: API Collection
@@ -1291,11 +1383,11 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Zoho
 nav: Providers
 network: true
-overview: 'Zoho publishes 177 APIs on the [APIs.io](https://apis.io/) network, including Books, Billing, Account API, and 174 more. Tagged areas include Analytics, Collaboration, CRM, Customer Service, and Email.
+overview: 'Zoho publishes 176 APIs on the [APIs.io](https://apis.io/) network, including Books, Billing, Account API, and 173 more. Tagged areas include Analytics, Collaboration, CRM, Customer Service, and Email.
 
 
   Zoho''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, pricing, tooling, and 13 more developer resources.'
@@ -1303,38 +1395,38 @@ plans:
 - name: Zoho Plans Pricing
   plan_count: 5
   slug: zoho-plans-pricing
-random_paper: 7
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Zoho Rate Limits
   slug: zoho-rate-limits
 score:
   band: developing
-  composite: 54.1
+  composite: 53.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 41.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 55.3
+    contract_quality: 55.9
     developer_ergonomics: 81.0
-    discoverability: 59.3
+    discoverability: 50.0
     operational_transparency: 26.3
   previous_composite: 54.1
   provenance:
     contracts:
-      callable: 3.3
+      callable: 7.9
       derived: 0
       marker_coverage: 0.0
-      total: 442
+      total: 441
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

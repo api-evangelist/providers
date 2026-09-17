@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -51,12 +51,12 @@ apis:
 - baseURL: https://jiomeetpro.jio.com
   baseurl_source: declared
   description: The JioEventsCpaasPlatform API from Reliance Jio — 6 operation(s) for jioeventscpaasplatform.
-  name: Reliance Jio Jio Events Cpaas Platform API
+  name: Reliance Jio Events Cpaas Platform API
   slug: reliance-jio-jioeventscpaasplatform-api
 - baseURL: https://jiomeetpro.jio.com
   baseurl_source: declared
   description: The JioMeetCpaasPlatform API from Reliance Jio — 14 operation(s) for jiomeetcpaasplatform.
-  name: Reliance Jio Jio Meet Cpaas Platform API
+  name: Reliance Jio Meet Cpaas Platform API
   slug: reliance-jio-jiomeetcpaasplatform-api
 artifact_total: 11
 collections:
@@ -285,15 +285,15 @@ description: Reliance Jio Infocomm, the telecom arm of Jio Platforms Limited and
   covering 29 operations on two previously undocumented hosts, jiomeetpro.jio.com and jioevents.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Reliance Jio
 nav: Providers
 network: true
-overview: 'Reliance Jio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jio Events Cpaas Platform API and Jio Meet Cpaas Platform API. Tagged areas include Telecommunications, India, Mobile Network Operator, Network APIs, and CAMARA.
+overview: 'Reliance Jio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events Cpaas Platform API and Meet Cpaas Platform API. Tagged areas include Telecommunications, India, Mobile Network Operator, Network APIs, and CAMARA.
 
 
   Reliance Jio''s developer surface includes authentication, code examples, documentation, signup flow, support, getting-started guide, API reference, and 39 more developer resources.'
-random_paper: 5
+random_paper: 14
 scopes:
 - name: Reliance Jio Scopes
   scope_count: 6
@@ -301,7 +301,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.0
+  composite: 56.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 35.0
@@ -309,11 +309,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 55.5
+    contract_quality: 58.2
     developer_ergonomics: 63.7
     discoverability: 72.2
     operational_transparency: 13.2
@@ -342,7 +342,7 @@ score:
     regime_id: telecommunications
     score: 100.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

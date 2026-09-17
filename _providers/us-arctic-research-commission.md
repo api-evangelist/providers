@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The US Arctic Research Commission (USARC) is an independent federal agency that advises the President and Congress on domestic and international Arctic research policy. The Commission establishes nati
@@ -87,7 +87,7 @@ plans:
 - name: Us Arctic Research Commission Plans Pricing
   plan_count: 3
   slug: us-arctic-research-commission-plans-pricing
-random_paper: 12
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Us Arctic Research Commission Rate Limits
@@ -129,7 +129,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,24 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
-- baseURL: https://gdz.sub.uni-goettingen.de/oai2/
-  baseurl_source: declared
-  description: 'OAI-PMH 2.0 harvesting interface for the Göttinger Digitalisierungszentrum, operated by SUB Göttingen on the university''s own domain. Verified live on 2026-08-30: Identify names the repository "GDZ - '
-  name: GDZ OAI-PMH Metadata Harvesting
-  slug: gdz-oai-pmh
-- baseURL: https://ediss.uni-goettingen.de/oai/request
-  baseurl_source: declared
-  description: OAI-PMH 2.0 harvesting interface for eDiss Göttingen, the university's electronic dissertations and theses server, operated by SUB Göttingen on the uni-goettingen.de domain. Verified live on 2026-08-3
-  name: eDiss Göttingen OAI-PMH Metadata Harvesting
-  slug: ediss-oai-pmh
-- baseURL: https://images.sub.uni-goettingen.de/iiif/image/
-  baseurl_source: declared
-  description: IIIF Image API 2.0 (level 2) image service at images.sub.uni-goettingen.de and IIIF Presentation manifests routed through gdz.sub.uni-goettingen.de with canonical identifiers on manifests.sub.uni-goet
-  name: SUB Göttingen IIIF Image and Presentation
-  slug: sub-iiif
 - description: The university's own SAML 2.0 identity provider, entityID https://shibboleth-idp.uni-goettingen.de/uni/shibboleth, registered by DFN-AAI, exported to eduGAIN as entity 696098 since 2017-04-13, scope u
   name: Georg-August-Universität Göttingen SAML Identity Provider
   slug: identity-provider
@@ -63,6 +48,21 @@ apis:
 - description: The Göttingen university catalogue is served from opac.sub.uni-goettingen.de, which is a DNS CNAME to lbsgoe.gbv.de — the library system platform of the Verbundzentrale des GBV. The subdomain is Götti
   name: SUB Göttingen Library Catalogue (GUK)
   slug: opac
+- baseURL: https://gdz.sub.uni-goettingen.de/oai2/
+  baseurl_source: declared
+  description: IIIF Image API 2.0, level 2 compliance as advertised by the live info.json profile.
+  name: University of Göttingen IIIF Image API
+  slug: university-of-gottingen-iiif-image-api
+- baseURL: https://gdz.sub.uni-goettingen.de/oai2/
+  baseurl_source: declared
+  description: IIIF Presentation API manifests for digitised GDZ objects.
+  name: University of Göttingen IIIF Presentation API
+  slug: university-of-gottingen-iiif-presentation-api
+- baseURL: https://gdz.sub.uni-goettingen.de/oai2/
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
+  name: University of Göttingen OAI PMH API
+  slug: university-of-gottingen-oai-pmh-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -211,7 +211,7 @@ modified: '2026-08-30'
 name: University of Göttingen
 nav: Providers
 network: true
-overview: 'University of Göttingen publishes 3 APIs on the [APIs.io](https://apis.io/) network: GDZ OAI-PMH Metadata Harvesting, eDiss Göttingen OAI-PMH Metadata Harvesting, and SUB Göttingen IIIF Image and Presentation. Tagged areas include University, Higher Education, Education, Germany, and German U15.
+overview: 'University of Göttingen publishes 3 APIs on the [APIs.io](https://apis.io/) network: IIIF Image API, IIIF Presentation API, and OAI PMH API. Tagged areas include University, Higher Education, Education, Germany, and German U15.
 
 
   University of Göttingen''s developer surface includes engineering blog, documentation, support, authentication, and 23 more developer resources.'
@@ -219,7 +219,7 @@ plans:
 - name: University Of Gottingen Plans Pricing
   plan_count: 2
   slug: university-of-gottingen-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: University Of Gottingen Rate Limits
@@ -230,8 +230,8 @@ scopes:
   slug: university-of-gottingen-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 40.8
+  band: thin
+  composite: 37.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 47.0
@@ -239,11 +239,11 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
     access_clarity: 34.2
     contract_governance: 15.2
-    contract_quality: 53.3
+    contract_quality: 40.6
     developer_ergonomics: 28.6
     discoverability: 64.8
     operational_transparency: 7.9
@@ -260,7 +260,7 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
+      derived: 1
       marker_coverage: 100.0
       total: 3
   regulatory:
@@ -270,7 +270,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: TLC is the primary model checker for specifications written in TLA+. It can be run from the command line using tla2tools.jar or consumed as a Java dependency via Maven from central.sonatype.org. Requi
@@ -139,7 +139,7 @@ modified: '2026-05-03'
 name: TLA Plus Foundation
 nav: Providers
 network: true
-overview: 'TLA Plus Foundation publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Formal Methods, Linux Foundation, Specifications, Verification, and Distributed Systems.
+overview: 'TLA Plus Foundation publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Formal Methods, Linux Foundation, Specification, Verification, and Distributed Systems.
 
 
   TLA Plus Foundation''s developer surface includes documentation, support, and 8 more developer resources.'
@@ -147,7 +147,7 @@ plans:
 - name: Tla Plus Foundation Plans Pricing
   plan_count: 3
   slug: tla-plus-foundation-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Tla Plus Foundation Rate Limits
@@ -175,7 +175,7 @@ score:
     score: 65.0
   previous_composite: 20.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -191,7 +191,7 @@ slug: tla-plus-foundation
 tags:
 - Formal Methods
 - Linux Foundation
-- Specifications
+- Specification
 - Verification
 - Distributed Systems
 - Concurrency

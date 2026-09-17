@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -147,7 +147,7 @@ plans:
 - name: Crowdhealth Plans Pricing
   plan_count: 1
   slug: crowdhealth-plans-pricing
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Crowdhealth Rate Limits
@@ -185,7 +185,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

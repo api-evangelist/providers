@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Sungkyunkwan University's institutional identity provider, publishing machine-readable SAML 2.0 metadata through the KAFE (Korea Access Federation) aggregate and interfederated internationally through
@@ -264,7 +264,7 @@ plans:
 - name: Skku Plans Pricing
   plan_count: 2
   slug: skku-plans-pricing
-random_paper: 5
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Skku Rate Limits
@@ -304,7 +304,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

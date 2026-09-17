@@ -33,7 +33,7 @@ name: Airplane
 nav: Providers
 network: true
 overview: Airplane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Internal Tools, Workflows, and Automation.
-random_paper: 4
+random_paper: 8
 security:
 - kind: domain-security
   name: Airplane Domain Security

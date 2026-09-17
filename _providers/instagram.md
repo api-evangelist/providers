@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -540,7 +540,7 @@ modified: '2026-08-29'
 name: Instagram
 nav: Providers
 network: true
-overview: 'Instagram publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Hashtags API, Insights API, and 4 more. Tagged areas include Instagram, Meta, Photos, Social-Media, and Videos.
+overview: 'Instagram publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Hashtags API, Insights API, and 4 more. Tagged areas include Instagram, Meta, Photos, Social-Media, and Video.
 
 
   The Instagram catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -551,7 +551,7 @@ plans:
 - name: Instagram Plans Pricing
   plan_count: 2
   slug: instagram-plans-pricing
-random_paper: 0
+random_paper: 20
 rate_limits:
 - limit_count: 8
   name: Instagram Rate Limits
@@ -613,7 +613,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -647,7 +647,7 @@ tags:
 - Meta
 - Photos
 - Social-Media
-- Videos
+- Video
 - Content Publishing
 use_cases:
 - description: Automate content publishing, scheduling, and media management across Instagram accounts.

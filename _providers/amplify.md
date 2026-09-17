@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Private partner-facing API behind api.getamplifylife.com, used for Amplify's embedded distribution motion ("Embed your products inside trusted partner ecosystems via API", per the Carrier Solutions pa
@@ -123,7 +123,7 @@ overview: 'Amplify publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Amplify''s developer surface includes engineering blog, pricing, authentication, and 12 more developer resources.'
-random_paper: 19
+random_paper: 6
 score:
   band: emerging
   composite: 22.8
@@ -152,7 +152,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

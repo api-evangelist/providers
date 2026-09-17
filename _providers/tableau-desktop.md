@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -125,6 +125,10 @@ collections:
   name: Tableau REST API
   slug: open-tableau-desktop
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tableau.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/capabilities/tableau-desktop-capability-edges.yml
   title: ''
@@ -231,19 +235,19 @@ integrations:
 - description: Collaboration integration for sharing and subscribing to Tableau content in Slack.
   name: Slack
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Tableau Desktop
 nav: Providers
 network: true
 overview: 'Tableau Desktop publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Data Sources API, Projects API, and 4 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, and Desktop Application.
 
 
-  Tableau Desktop''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 9 more developer resources.'
+  Tableau Desktop''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 10 more developer resources.'
 plans:
 - name: Tableau Desktop Plans Pricing
   plan_count: 3
   slug: tableau-desktop-plans-pricing
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Tableau Desktop Rate Limits
@@ -278,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -310,5 +314,5 @@ use_cases:
   name: Custom Dashboard Extensions
 - description: Track data lineage and content dependencies using the Metadata API for impact analysis.
   name: Data Governance
-website: https://www.tableau.com/developer
+website: https://tableau.com
 ---

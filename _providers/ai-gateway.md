@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -96,11 +96,6 @@ apis:
   slug: ai-gateway-analytics-api
 - baseURL: https://api.portkey.ai
   baseurl_source: declared
-  description: The APIKeys API from AI Gateway — 1 operation(s) for apikeys.
-  name: AI Gateway APIKeys API
-  slug: ai-gateway-apikeys-api
-- baseURL: https://api.portkey.ai
-  baseurl_source: declared
   description: The Assistants API from AI Gateway — 1 operation(s) for assistants.
   name: AI Gateway Assistants API
   slug: ai-gateway-assistants-api
@@ -144,11 +139,6 @@ apis:
   description: The Files API from AI Gateway — 2 operation(s) for files.
   name: AI Gateway Files API
   slug: ai-gateway-files-api
-- baseURL: https://api.portkey.ai
-  baseurl_source: declared
-  description: The FineTuning API from AI Gateway — 2 operation(s) for finetuning.
-  name: AI Gateway FineTuning API
-  slug: ai-gateway-finetuning-api
 - baseURL: https://api.portkey.ai
   baseurl_source: declared
   description: The Guardrails API from AI Gateway — 1 operation(s) for guardrails.
@@ -196,14 +186,24 @@ apis:
   slug: ai-gateway-threads-api
 - baseURL: https://api.portkey.ai
   baseurl_source: declared
-  description: The VirtualKeys API from AI Gateway — 1 operation(s) for virtualkeys.
-  name: AI Gateway VirtualKeys API
-  slug: ai-gateway-virtualkeys-api
-- baseURL: https://api.portkey.ai
-  baseurl_source: declared
   description: The Workspaces API from AI Gateway — 4 operation(s) for workspaces.
   name: AI Gateway Workspaces API
   slug: ai-gateway-workspaces-api
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The API Keys API from AI Gateway — 1 operation(s) for api keys.
+  name: AI Gateway API Keys API
+  slug: ai-gateway-api-keys-api
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Fine Tuning API from AI Gateway — 2 operation(s) for fine tuning.
+  name: AI Gateway Fine Tuning API
+  slug: ai-gateway-fine-tuning-api
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Virtual Keys API from AI Gateway — 1 operation(s) for virtual keys.
+  name: AI Gateway Virtual Keys API
+  slug: ai-gateway-virtual-keys-api
 artifact_total: 108
 collections:
 - collection_type: open
@@ -463,14 +463,14 @@ modified: '2026-05-22'
 name: AI Gateway
 nav: Providers
 network: true
-overview: 'AI Gateway publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, APIKeys API, Assistants API, and 20 more. Tagged areas include AI Gateway, LLM Router, LLM Proxy, Model Routing, and Prompt Firewall.
+overview: 'AI Gateway publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Assistants API, Audio API, and 20 more. Tagged areas include AI Gateway, LLM Router, LLM Proxy, Model Routing, and Prompt Firewall.
 
 
   The AI Gateway catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   AI Gateway''s developer surface includes authentication, code examples, developer portal, engineering blog, and 16 more developer resources.'
-random_paper: 14
+random_paper: 11
 rules:
 - effective_rule_count: 5
   extends: []
@@ -484,7 +484,7 @@ rules:
   slug: ai-gateway-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 38.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 51.3
@@ -492,11 +492,11 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 0.0
     contract_governance: 25.0
-    contract_quality: 58.5
+    contract_quality: 61.2
     developer_ergonomics: 42.9
     discoverability: 59.3
     operational_transparency: 28.9
@@ -512,7 +512,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

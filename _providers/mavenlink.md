@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 251
   human_in_the_loop: 11
@@ -647,10 +647,10 @@ common:
   type: ChangeLog
   url: changelog/mavenlink-changelog.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/openapi/mavenlink-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/openapi/_original/mavenlink-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/mavenlink-openapi.yml
+  url: openapi/_original/mavenlink-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mavenlink/refs/heads/main/grpc/mavenlink-connector.proto
   title: ''
@@ -761,7 +761,7 @@ mcp_servers:
 - description: ''
   name: Mavenlink MCP Server
   slug: mavenlink-mcp-server-3
-modified: '2026-08-25'
+modified: '2026-09-16'
 name: Mavenlink
 nav: Providers
 network: true
@@ -776,7 +776,7 @@ plans:
 - name: Mavenlink Plans Pricing
   plan_count: 0
   slug: mavenlink-plans-pricing
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Mavenlink Rate Limits
@@ -816,7 +816,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

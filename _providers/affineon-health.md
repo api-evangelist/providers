@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -134,7 +134,7 @@ plans:
 - name: Affineon Health Plans Pricing
   plan_count: 5
   slug: affineon-health-plans-pricing
-random_paper: 1
+random_paper: 17
 score:
   band: emerging
   composite: 23.9
@@ -164,7 +164,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -70,11 +70,6 @@ apis:
   description: Business account ownership verification reports.
   name: Tink BusinessAccountVerificationReports API
   slug: tink-com-businessaccountverificationreports-api
-- baseURL: https://api.tink.com
-  baseurl_source: declared
-  description: Cash flow summaries.
-  name: Tink CashFlow API
-  slug: tink-com-cashflow-api
 - baseURL: https://api.tink.com
   baseurl_source: declared
   description: Tink categorisation taxonomy.
@@ -132,11 +127,6 @@ apis:
   slug: tink-com-mandates-api
 - baseURL: https://api.tink.com
   baseurl_source: declared
-  description: Token, authorization, and delegated grant endpoints.
-  name: Tink OAuth API
-  slug: tink-com-oauth-api
-- baseURL: https://api.tink.com
-  baseurl_source: declared
   description: Payment initiation, status, cancel, and refund.
   name: Tink Payments API
   slug: tink-com-payments-api
@@ -167,9 +157,19 @@ apis:
   slug: tink-com-user-api
 - baseURL: https://api.tink.com
   baseurl_source: declared
+  description: Token, authorization, and delegated grant endpoints.
+  name: Tink O Auth API
+  slug: tink-com-oauth-api
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Cash flow summaries.
+  name: Tink Cash Flow API
+  slug: tink-com-cash-flow-api
+- baseURL: https://api.tink.com
+  baseurl_source: declared
   description: Webhook endpoint management.
-  name: Tink WebhookEndpoints API
-  slug: tink-com-webhookendpoints-api
+  name: Tink Webhook Endpoints API
+  slug: tink-com-webhook-endpoints-api
 arazzos:
 - description: List a user's accounts, read the balances of a chosen account, then list its transactions.
   name: Tink Account And Transactions Overview
@@ -613,7 +613,7 @@ plans:
 - name: Tink Com Plans Pricing
   plan_count: 2
   slug: tink-com-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Tink Com Rate Limits
@@ -678,7 +678,7 @@ score:
     regime_id: banking_open_finance
     score: 44.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

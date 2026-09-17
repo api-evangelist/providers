@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 4
@@ -48,11 +48,6 @@ apis:
   slug: automation-api
 - baseURL: https://api.pulumi.com
   baseurl_source: declared
-  description: The AccessTokens API from Pulumi — 4 operation(s) for accesstokens.
-  name: Pulumi AccessTokens API
-  slug: pulumi-accesstokens-api
-- baseURL: https://api.pulumi.com
-  baseurl_source: declared
   description: The AI Agents API from Pulumi — 5 operation(s) for ai agents.
   name: Pulumi AI Agents API
   slug: pulumi-ai-agents-api
@@ -63,19 +58,9 @@ apis:
   slug: pulumi-ai-api
 - baseURL: https://api.pulumi.com
   baseurl_source: declared
-  description: The AuditLogs API from Pulumi — 8 operation(s) for auditlogs.
-  name: Pulumi AuditLogs API
-  slug: pulumi-auditlogs-api
-- baseURL: https://api.pulumi.com
-  baseurl_source: declared
   description: The CloudSetup API from Pulumi — 10 operation(s) for cloudsetup.
   name: Pulumi CloudSetup API
   slug: pulumi-cloudsetup-api
-- baseURL: https://api.pulumi.com
-  baseurl_source: declared
-  description: The DataExport API from Pulumi — 1 operation(s) for dataexport.
-  name: Pulumi DataExport API
-  slug: pulumi-dataexport-api
 - baseURL: https://api.pulumi.com
   baseurl_source: declared
   description: The DeploymentRunners API from Pulumi — 2 operation(s) for deploymentrunners.
@@ -131,11 +116,6 @@ apis:
   description: The PolicyGroups API from Pulumi — 4 operation(s) for policygroups.
   name: Pulumi PolicyGroups API
   slug: pulumi-policygroups-api
-- baseURL: https://api.pulumi.com
-  baseurl_source: declared
-  description: The PolicyPacks API from Pulumi — 11 operation(s) for policypacks.
-  name: Pulumi PolicyPacks API
-  slug: pulumi-policypacks-api
 - baseURL: https://api.pulumi.com
   baseurl_source: declared
   description: The PolicyResults API from Pulumi — 8 operation(s) for policyresults.
@@ -216,6 +196,26 @@ apis:
   description: The Workflows API from Pulumi — 2 operation(s) for workflows.
   name: Pulumi Workflows API
   slug: pulumi-workflows-api
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Access Tokens API from Pulumi — 4 operation(s) for access tokens.
+  name: Pulumi Access Tokens API
+  slug: pulumi-access-tokens-api
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Audit Logs API from Pulumi — 8 operation(s) for audit logs.
+  name: Pulumi Audit Logs API
+  slug: pulumi-audit-logs-api
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Data Export API from Pulumi — 1 operation(s) for data export.
+  name: Pulumi Data Export API
+  slug: pulumi-data-export-api
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Policy Packs API from Pulumi — 11 operation(s) for policy packs.
+  name: Pulumi Policy Packs API
+  slug: pulumi-policy-packs-api
 artifact_total: 89
 collections:
 - collection_type: open
@@ -408,7 +408,7 @@ modified: '2026-05-19'
 name: Pulumi
 nav: Providers
 network: true
-overview: 'Pulumi publishes 34 APIs on the [APIs.io](https://apis.io/) network, including AccessTokens API, AI Agents API, AI API, and 31 more. Tagged areas include Automation, Cloud, DevOps, Infrastructure as Code, and Multi-Cloud.
+overview: 'Pulumi publishes 34 APIs on the [APIs.io](https://apis.io/) network, including AI Agents API, AI API, CloudSetup API, and 31 more. Tagged areas include Automation, Cloud, DevOps, Infrastructure as Code, and Multi-Cloud.
 
 
   Pulumi''s developer surface includes documentation, engineering blog, signup flow, pricing, authentication, and 12 more developer resources.'
@@ -416,14 +416,14 @@ plans:
 - name: Pulumi Plans Pricing
   plan_count: 3
   slug: pulumi-plans-pricing
-random_paper: 17
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Pulumi Rate Limits
   slug: pulumi-rate-limits
 score:
   band: developing
-  composite: 42.8
+  composite: 41.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 41.0
@@ -431,11 +431,11 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 50.5
+    contract_quality: 45.8
     developer_ergonomics: 31.0
     discoverability: 59.3
     operational_transparency: 28.9
@@ -443,7 +443,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 34
@@ -454,7 +454,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

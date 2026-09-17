@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 4
@@ -75,11 +75,6 @@ apis:
   slug: spotio-communication-api
 - baseURL: https://api.spotio2.com
   baseurl_source: declared
-  description: The controller is responsible for managing company templates. Templates for text messages and emails. The controller allows creating new templates which can include information about dataObjects and c
-  name: SPOTIO Communication Templates API
-  slug: spotio-communicationtemplates-api
-- baseURL: https://api.spotio2.com
-  baseurl_source: declared
   description: The controller is responsible for managing company links (connectors). The controller allows creating new connectors which user can use them on web or mobile app. Connector can can include information
   name: SPOTIO Connectors API
   slug: spotio-connectors-api
@@ -118,11 +113,6 @@ apis:
   description: The controller is responsible for handling operations on filter objects. Filter can be used throughout the system to filter data. It can be passed wherever filterId query parameter or property is avai
   name: SPOTIO Filters API
   slug: spotio-filters-api
-- baseURL: https://api.spotio2.com
-  baseurl_source: declared
-  description: The controller is responsible for handling operations on filter objects. Filter can be used throughout the system to filter data. It can be passed wherever filterId query parameter or property is avai
-  name: SPOTIO Filters V2 API
-  slug: spotio-filtersv2-api
 - baseURL: https://api.spotio2.com
   baseurl_source: declared
   description: The controller is responsible for content generating for text messages and emails.
@@ -205,11 +195,6 @@ apis:
   slug: spotio-users-api
 - baseURL: https://api.spotio2.com
   baseurl_source: declared
-  description: User tracking API. You can configure Spotio to track users which using the app. Using the following methods you can retrieve tracking data.
-  name: SPOTIO User Tracking API
-  slug: spotio-usertracking-api
-- baseURL: https://api.spotio2.com
-  baseurl_source: declared
   description: The controller is responsible for handling webhooks related operations. It provides methods for retrieving available webhook scopes, getting all webhooks for the current company, creating a new webhoo
   name: SPOTIO Webhooks API
   slug: spotio-webhooks-api
@@ -235,9 +220,24 @@ apis:
   slug: spotio-workflowsettings-api
 - baseURL: https://api.spotio2.com
   baseurl_source: declared
+  description: The controller is responsible for managing company templates. Templates for text messages and emails. The controller allows creating new templates which can include information about dataObjects and c
+  name: SPOTIO Communication Templates API
+  slug: spotio-communication-templates-api
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling operations on filter objects. Filter can be used throughout the system to filter data. It can be passed wherever filterId query parameter or property is avai
+  name: SPOTIO Filters V2 API
+  slug: spotio-filters-v2-api
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: User tracking API. You can configure Spotio to track users which using the app. Using the following methods you can retrieve tracking data.
+  name: SPOTIO User Tracking API
+  slug: spotio-user-tracking-api
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
   description: 'This controller is responsible for managing stages definitions. You can split stages in 3 groups, each group can have different set of stages. The available groups are: active, won and lost. Stages ca'
   name: SPOTIO Workflow Stages API
-  slug: spotio-workflowstages-api
+  slug: spotio-workflow-stages-api
 artifact_total: 87
 asyncapis:
 - description: ''
@@ -362,6 +362,26 @@ collections:
   name: Spotio 2.0 Workflow Stages API
   slug: open-spotio-workflowstages-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/overlays/spotio-communicationtemplates-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/spotio-communicationtemplates-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/overlays/spotio-filtersv2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/spotio-filtersv2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/overlays/spotio-usertracking-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/spotio-usertracking-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/overlays/spotio-workflowstages-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/spotio-workflowstages-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/capabilities/spotio-capability-edges.yml
   title: ''
@@ -553,33 +573,33 @@ overview: 'SPOTIO publishes 39 APIs on the [APIs.io](https://apis.io/) network, 
   The SPOTIO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SPOTIO''s developer surface includes authentication, documentation, changelog, sandbox, API reference, getting-started guide, support, and 31 more developer resources.'
+  SPOTIO''s developer surface includes authentication, documentation, changelog, sandbox, API reference, getting-started guide, support, and 35 more developer resources.'
 plans:
 - name: Spotio Plans Pricing
   plan_count: 3
   slug: spotio-plans-pricing
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Spotio Rate Limits
   slug: spotio-rate-limits
 score:
-  band: strong
-  composite: 65.7
+  band: exemplar
+  composite: 67.3
   coverage:
     artifact_dirs: 23
-    catalog_earned: 41.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 74.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 60.1
+    contract_quality: 63.0
     developer_ergonomics: 66.1
-    discoverability: 53.7
+    discoverability: 63.0
     operational_transparency: 42.1
   previous_composite: 65.7
   provenance:
@@ -593,7 +613,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

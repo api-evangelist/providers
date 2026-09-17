@@ -12,7 +12,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
@@ -23,16 +23,41 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.5
-  scored_at: '2026-09-15'
+  score: 45.4
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://secure.agree.com/api/v1
   baseurl_source: declared
-  description: 'REST API for the Agree contract-to-cash platform. 56 operations across six resources: Agreements (create from templates, assign signature fields to recipients, send, fetch executed PDFs, soft delete),'
-  name: Agree API
-  slug: agree-api
-artifact_total: 8
+  description: 'Create, send, and manage agreements with recipients and field assignments. ## Overview Agreements are documents that require signatures from one or more recipients. Each agreement is created from a te'
+  name: Agree.com Agreements API
+  slug: agree-com-agreements-api
+- baseURL: https://secure.agree.com/api/v1
+  baseurl_source: declared
+  description: 'Manage your organization''s contacts - the people and companies you do business with. ## Overview Contacts are the foundation of your billing workflow. Before you can send an invoice, you need someone '
+  name: Agree.com Contacts API
+  slug: agree-com-contacts-api
+- baseURL: https://secure.agree.com/api/v1
+  baseurl_source: declared
+  description: The Customers API from Agree.com — 2 operation(s) for customers.
+  name: Agree.com Customers API
+  slug: agree-com-customers-api
+- baseURL: https://secure.agree.com/api/v1
+  baseurl_source: declared
+  description: 'Create, send, and track payment requests to your customers. ## Overview Invoices are the core of Agree''s payment system. An invoice represents a request for payment that you send to a customer. When c'
+  name: Agree.com Invoices API
+  slug: agree-com-invoices-api
+- baseURL: https://secure.agree.com/api/v1
+  baseurl_source: declared
+  description: 'Read-only analytics for revenue, cashflow, and accounts receivable recovery. ## Overview Report endpoints mirror the in-app **Reports** dashboards (`/reports/revenue`, `/reports/cashflow`, `/reports/r'
+  name: Agree.com Reports API
+  slug: agree-com-reports-api
+- baseURL: https://secure.agree.com/api/v1
+  baseurl_source: declared
+  description: 'Receive real-time notifications when events occur in your Agree account. ## Overview Webhooks push event data to your application as soon as something happens - like when an invoice is paid or a payme'
+  name: Agree.com Webhooks API
+  slug: agree-com-webhooks-api
+artifact_total: 13
 asyncapis:
 - description: Real-time event notifications from the Agree contract-to-cash platform. Agree POSTs a signed JSON body to endpoints you register through POST /api/v1/webhooks. Twelve event types are published, coveri
   name: Agree.com Webhooks
@@ -186,7 +211,7 @@ modified: '2026-09-12'
 name: Agree.com
 nav: Providers
 network: true
-overview: 'Agree.com publishes 1 API on the [APIs.io](https://apis.io/) network: Agree API. Tagged areas include Agreements, Electronic Signature, Contract Management, Invoicing, and Billing.
+overview: 'Agree.com publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Contacts API, Customers API, and 3 more. Tagged areas include Agreements, Electronic Signature, Contract Management, Invoicing, and Billing.
 
 
   The Agree.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -197,7 +222,7 @@ plans:
 - name: Agree Com Plans Pricing
   plan_count: 3
   slug: agree-com-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Agree Com Rate Limits
@@ -209,25 +234,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.3
+  composite: 52.6
   coverage:
     artifact_dirs: 18
-    catalog_earned: 49.0
+    catalog_earned: 36.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.3
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 48.1
+    contract_quality: 66.8
     developer_ergonomics: 51.8
-    discoverability: 68.5
+    discoverability: 44.4
     operational_transparency: 7.9
   previous_composite: 50.3
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
     mcp: first-party
     skills: derived
   regulatory:
@@ -237,7 +267,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

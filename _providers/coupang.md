@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Coupang Open API is a RESTful seller (vendor) API for managing the full marketplace lifecycle including product catalog creation, order processing, return and cancellation handling, settlement que
@@ -95,12 +95,12 @@ modified: '2026-04-28'
 name: Coupang
 nav: Providers
 network: true
-overview: Coupang publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cancellations, E-Commerce, Korea, Marketplace, and OpenAPI.
+overview: Coupang publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cancellation, E-Commerce, South Korea, Marketplace, and OpenAPI.
 plans:
 - name: Coupang Plans Pricing
   plan_count: 3
   slug: coupang-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Coupang Rate Limits
@@ -132,7 +132,7 @@ score:
     - japan-korea
   previous_composite: 21.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -150,9 +150,9 @@ security:
   summary_line: security.txt · contact published
 slug: coupang
 tags:
-- Cancellations
+- Cancellation
 - E-Commerce
-- Korea
+- South Korea
 - Marketplace
 - OpenAPI
 - Order

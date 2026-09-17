@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,7 +86,7 @@ name: Total Attorneys (Internet Brands)
 nav: Providers
 network: true
 overview: Total Attorneys (Internet Brands) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Marketing, Lead Generation, and Attorneys.
-random_paper: 20
+random_paper: 1
 score:
   band: emerging
   composite: 11.3
@@ -107,7 +107,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

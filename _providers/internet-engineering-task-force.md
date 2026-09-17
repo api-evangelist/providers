@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
 - baseURL: https://datatracker.ietf.org/api/v1/
   baseurl_source: declared
   description: Public read-only REST framework over Datatracker models.
-  name: Internet Engineering Task Force Framework API API
+  name: Internet Engineering Task Force Framework API
   slug: internet-engineering-task-force-framework-api-api
 - baseURL: https://datatracker.ietf.org/api/v1/
   baseurl_source: declared
@@ -140,11 +140,11 @@ finops:
   slug: internet-engineering-task-force-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/internet-engineering-task-force.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Internet Engineering Task Force
 nav: Providers
 network: true
-overview: 'Internet Engineering Task Force publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Framework API API, Identity API, and 2 more. Tagged areas include Internet, Protocols, RFC, Standards, and Working Groups.
+overview: 'Internet Engineering Task Force publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Framework API, Identity API, and 2 more. Tagged areas include Internet, Protocol, RFC, Standards, and Working Groups.
 
 
   The Internet Engineering Task Force catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -155,7 +155,7 @@ plans:
 - name: Internet Engineering Task Force Plans Pricing
   plan_count: 3
   slug: internet-engineering-task-force-plans-pricing
-random_paper: 4
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Internet Engineering Task Force Rate Limits
@@ -198,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -216,7 +216,7 @@ security:
 slug: internet-engineering-task-force
 tags:
 - Internet
-- Protocols
+- Protocol
 - RFC
 - Standards
 - Working Groups

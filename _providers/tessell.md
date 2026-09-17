@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.console.tessell.com
@@ -52,11 +52,6 @@ apis:
   description: The Ad Domain Governance API from Tessell — 4 operation(s) for ad domain governance.
   name: Tessell Ad Domain Governance API
   slug: tessell-ad-domain-governance-api
-- baseURL: https://api.console.tessell.com
-  baseurl_source: declared
-  description: The agentController API from Tessell — 2 operation(s) for agentcontroller.
-  name: Tessell agentController API
-  slug: tessell-agentcontroller-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The alert-controller API from Tessell — 10 operation(s) for alert-controller.
@@ -192,11 +187,6 @@ apis:
   description: The DB Service Schedule API from Tessell — 6 operation(s) for db service schedule.
   name: Tessell DB Service Schedule API
   slug: tessell-db-service-schedule-api
-- baseURL: https://api.console.tessell.com
-  baseurl_source: declared
-  description: The Encryption Key API from Tessell — 10 operation(s) for encryption key.
-  name: Tessell Encryption Key API
-  slug: tessell-encryption-key-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The EncryptionKeysAdminView API from Tessell — 3 operation(s) for encryptionkeysadminview.
@@ -365,47 +355,47 @@ apis:
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The Tessell App API from Tessell — 1 operation(s) for tessell app.
-  name: Tessell Tessell App API
+  name: Tessell App API
   slug: tessell-tessell-app-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The tessell-cloud-controller API from Tessell — 1 operation(s) for tessell-cloud-controller.
-  name: Tessell tessell-cloud-controller API
+  name: Tessell-cloud-controller API
   slug: tessell-tessell-cloud-controller-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The tessell-compute-resource-acl-controller API from Tessell — 4 operation(s) for tessell-compute-resource-acl-controller.
-  name: Tessell tessell-compute-resource-acl-controller API
+  name: Tessell-compute-resource-acl-controller API
   slug: tessell-tessell-compute-resource-acl-controller-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The tessell-database-security-config API from Tessell — 2 operation(s) for tessell-database-security-config.
-  name: Tessell tessell-database-security-config API
+  name: Tessell-database-security-config API
   slug: tessell-tessell-database-security-config-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The tessell-maintenance-center-controller API from Tessell — 14 operation(s) for tessell-maintenance-center-controller.
-  name: Tessell tessell-maintenance-center-controller API
+  name: Tessell-maintenance-center-controller API
   slug: tessell-tessell-maintenance-center-controller-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The tessell-notification-channel-controller API from Tessell — 2 operation(s) for tessell-notification-channel-controller.
-  name: Tessell tessell-notification-channel-controller API
+  name: Tessell-notification-channel-controller API
   slug: tessell-tessell-notification-channel-controller-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The tessell-notification-profile-controller API from Tessell — 4 operation(s) for tessell-notification-profile-controller.
-  name: Tessell tessell-notification-profile-controller API
+  name: Tessell-notification-profile-controller API
   slug: tessell-tessell-notification-profile-controller-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The tessell-service-option-profile API from Tessell — 2 operation(s) for tessell-service-option-profile.
-  name: Tessell tessell-service-option-profile API
+  name: Tessell-service-option-profile API
   slug: tessell-tessell-service-option-profile-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
   description: The tessell-service-precheck-controller API from Tessell — 6 operation(s) for tessell-service-precheck-controller.
-  name: Tessell tessell-service-precheck-controller API
+  name: Tessell-service-precheck-controller API
   slug: tessell-tessell-service-precheck-controller-api
 - baseURL: https://api.console.tessell.com
   baseurl_source: declared
@@ -447,6 +437,16 @@ apis:
   description: The VPC Peering Governance API from Tessell — 4 operation(s) for vpc peering governance.
   name: Tessell VPC Peering Governance API
   slug: tessell-vpc-peering-governance-api
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Agent Controller API from Tessell — 2 operation(s) for agent controller.
+  name: Tessell Agent Controller API
+  slug: tessell-agent-controller-api
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Encryptionkey API from Tessell — 10 operation(s) for encryptionkey.
+  name: Tessell Encryptionkey API
+  slug: tessell-encryptionkey-api
 artifact_total: 169
 asyncapis:
 - description: ''
@@ -868,18 +868,18 @@ created: '2026-07-17'
 description: Tessell is a multi-cloud database-as-a-service (DBaaS) platform that runs Oracle, SQL Server, PostgreSQL, MySQL, MongoDB, Milvus, and Apache Kafka inside a customer's own AWS, Azure, or GCP account, under the customer's encryption keys and network policies. The platform is API-first — everything available in the Tessell console is also available through its REST API and Terraform provider — covering database provisioning, availability machines (backup/recovery), Dataflix data access, governance, security profiles, monitoring, and metering across engines and clouds.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tessell.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Tessell
 nav: Providers
 network: true
-overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network, including activity-center API, Ad Domain API, Ad Domain Governance API, and 79 more. Tagged areas include Databases, Database-as-a-Service, Multi-Cloud, Oracle, and PostgreSQL.
+overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network, including activity-center API, Ad Domain API, Ad Domain Governance API, and 79 more. Tagged areas include Database, Database-as-a-Service, Multi-Cloud, Oracle, and PostgreSQL.
 
 
   The Tessell catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Tessell''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 8
+random_paper: 16
 score:
   band: developing
   composite: 44.3
@@ -894,7 +894,7 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 53.2
+    contract_quality: 53.3
     developer_ergonomics: 51.8
     discoverability: 70.4
     operational_transparency: 10.5
@@ -909,7 +909,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -930,7 +930,7 @@ security:
   summary_line: PCI DSS v4.1, SOC 2, ISO 27001, ISO/IEC 27701
 slug: tessell
 tags:
-- Databases
+- Database
 - Database-as-a-Service
 - Multi-Cloud
 - Oracle

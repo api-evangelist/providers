@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -49,11 +49,6 @@ apis:
   description: The absences API from Leapsome — 1 operation(s) for absences.
   name: Leapsome absences API
   slug: leapsome-absences-api
-- baseURL: https://api.leapsome.com/v1
-  baseurl_source: declared
-  description: The accessRoles API from Leapsome — 1 operation(s) for accessroles.
-  name: Leapsome accessRoles API
-  slug: leapsome-accessroles-api
 - baseURL: https://api.leapsome.com/v1
   baseurl_source: declared
   description: The auth API from Leapsome — 1 operation(s) for auth.
@@ -82,7 +77,7 @@ apis:
 - baseURL: https://api.leapsome.com/v1
   baseurl_source: declared
   description: The Leapsome API API from Leapsome — 1 operation(s) for leapsome api.
-  name: Leapsome Leapsome API API
+  name: Leapsome API
   slug: leapsome-leapsome-api-api
 - baseURL: https://api.leapsome.com/v1
   baseurl_source: declared
@@ -101,11 +96,6 @@ apis:
   slug: leapsome-schemas-api
 - baseURL: https://api.leapsome.com/v1
   baseurl_source: declared
-  description: The timeTracking API from Leapsome — 1 operation(s) for timetracking.
-  name: Leapsome timeTracking API
-  slug: leapsome-timetracking-api
-- baseURL: https://api.leapsome.com/v1
-  baseurl_source: declared
   description: The users API from Leapsome — 4 operation(s) for users.
   name: Leapsome users API
   slug: leapsome-users-api
@@ -114,6 +104,16 @@ apis:
   description: The workLocations API from Leapsome — 1 operation(s) for worklocations.
   name: Leapsome workLocations API
   slug: leapsome-worklocations-api
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The Access Roles API from Leapsome — 1 operation(s) for access roles.
+  name: Leapsome Access Roles API
+  slug: leapsome-access-roles-api
+- baseURL: https://api.leapsome.com/v1
+  baseurl_source: declared
+  description: The Time Tracking API from Leapsome — 1 operation(s) for time tracking.
+  name: Leapsome Time Tracking API
+  slug: leapsome-time-tracking-api
 artifact_total: 50
 collections:
 - collection_type: open
@@ -306,11 +306,11 @@ jsonld:
   property_count: 10
   slug: leapsome-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Leapsome
 nav: Providers
 network: true
-overview: 'Leapsome publishes 14 APIs on the [APIs.io](https://apis.io/) network, including absences API, accessRoles API, auth API, and 11 more. Tagged areas include People Enablement, Performance Management, OKRs, Goals, and Engagement Surveys.
+overview: 'Leapsome publishes 14 APIs on the [APIs.io](https://apis.io/) network, including absences API, auth API, documents API, and 11 more. Tagged areas include People Enablement, Performance Management, OKRs, Goals, and Engagement Surveys.
 
 
   The Leapsome catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -321,7 +321,7 @@ plans:
 - name: Leapsome Plans Pricing
   plan_count: 2
   slug: leapsome-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Leapsome Rate Limits
@@ -339,7 +339,7 @@ rules:
   slug: leapsome-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.6
+  composite: 48.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 75.3
@@ -347,11 +347,11 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 25.0
-    contract_quality: 71.9
+    contract_quality: 72.2
     developer_ergonomics: 23.8
     discoverability: 68.5
     operational_transparency: 34.2
@@ -365,7 +365,7 @@ score:
       total: 14
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

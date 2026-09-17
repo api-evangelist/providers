@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 32
+- acting_count: 120
   human_in_the_loop: 0
   name: Wistia Agentic Access
-  operation_count: 48
+  operation_count: 221
   slug: wistia-agentic-access
-  summary_line: 48 operations · 32 acting
+  summary_line: 221 operations · 120 acting
 api_count: 4
 apis:
 - description: Wistia's first-party hosted Model Context Protocol server, exposing 125 tools across the media, folders, channels, captions, customizations, tags, webinars, sharing, account, analytics, stats and remi
@@ -57,11 +57,6 @@ apis:
   description: The Account API from Wistia — 1 operation(s) for account.
   name: Wistia Account API
   slug: wistia-account-api
-- baseURL: https://api.wistia.com/v1
-  baseurl_source: declared
-  description: The AllowedDomains API from Wistia — 2 operation(s) for alloweddomains.
-  name: Wistia AllowedDomains API
-  slug: wistia-alloweddomains-api
 - baseURL: https://api.wistia.com/v1
   baseurl_source: declared
   description: The Captions API from Wistia — 3 operation(s) for captions.
@@ -264,11 +259,6 @@ apis:
   slug: wistia-stats-visitors-api
 - baseURL: https://api.wistia.com/v1
   baseurl_source: declared
-  description: The Subfolders API from Wistia — 5 operation(s) for subfolders.
-  name: Wistia Subfolders API
-  slug: wistia-subfolders-api
-- baseURL: https://api.wistia.com/v1
-  baseurl_source: declared
   description: The Taggings API from Wistia — 1 operation(s) for taggings.
   name: Wistia Taggings API
   slug: wistia-taggings-api
@@ -287,7 +277,12 @@ apis:
   description: The Webinar Registrations API from Wistia — 1 operation(s) for webinar registrations.
   name: Wistia Webinar Registrations API
   slug: wistia-webinar-registrations-api
-artifact_total: 73
+- baseURL: https://api.wistia.com/mcp/api
+  baseurl_source: declared
+  description: The Sub Folders API from Wistia — 5 operation(s) for sub folders.
+  name: Wistia Sub Folders API
+  slug: wistia-sub-folders-api
+artifact_total: 72
 asyncapis:
 - description: AsyncAPI 2.6 description of Wistia's webhook surface. Wistia delivers real-time notifications about media lifecycle events to a consumer endpoint configured in your Wistia account. All webhooks are de
   name: Wistia Webhooks API
@@ -533,7 +528,7 @@ modified: '2026-08-14'
 name: Wistia
 nav: Providers
 network: true
-overview: 'Wistia publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, AllowedDomains API, and 45 more. Tagged areas include Video Hosting, Video Marketing, Video Analytics, Lead Generation, and Webinars.
+overview: 'Wistia publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Captions API, and 44 more. Tagged areas include Video Hosting, Video Marketing, Video Analytics, Lead Generation, and Webinars.
 
 
   The Wistia catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
@@ -544,7 +539,7 @@ plans:
 - name: Wistia Plans Pricing
   plan_count: 4
   slug: wistia-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Wistia Rate Limits
@@ -567,22 +562,22 @@ scopes:
   slug: wistia-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 64.7
+  band: exemplar
+  composite: 67.1
   coverage:
     artifact_dirs: 26
-    catalog_earned: 54.8
+    catalog_earned: 64.8
     catalog_earned_first_party: 24.0
-    catalog_gap: 60.3
+    catalog_gap: 50.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 92.1
     contract_governance: 29.5
-    contract_quality: 66.6
+    contract_quality: 69.0
     developer_ergonomics: 54.2
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 69.7
   previous_composite: 64.7
   provenance:
@@ -592,11 +587,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 47
+      total: 46
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://t2r2.star.titech.ac.jp/oaipmh/OAIHandler
-  baseurl_source: declared
-  description: OAI-PMH 2.0 metadata harvesting interface for T2R2, the Science Tokyo / Tokyo Tech Research Repository, operated by the university library on the institution's own host. Repository name "T2R2 -Tokyo T
-  name: T2R2 Research Repository OAI-PMH
-  slug: t2r2-oaipmh
 - description: Shibboleth / SAML 2.0 Identity Provider for institutional single sign-on, registered in GakuNin, Japan's national academic access management federation operated by NII. Advertises the Shibboleth 1.0 A
   name: GakuNin Shibboleth Identity Provider (SAML 2.0)
   slug: gakunin-shibboleth
@@ -50,6 +45,11 @@ apis:
 - description: A second GakuNin-registered SAML 2.0 entity carrying the Institute of Science Tokyo identity, hosted on the commercial EX-TIC platform and pointing at the pre-merger medical/dental side of the institu
   name: EX-TIC GakuNin SAML entity (tenant)
   slug: ex-tic-gakunin-entity
+- baseURL: https://t2r2.star.titech.ac.jp/oaipmh/OAIHandler
+  baseurl_source: declared
+  description: OAI-PMH 2.0 protocol verbs. All six verbs are dispatched from a single path via the `verb` query parameter.
+  name: Tokyo Institute of Technology OAI PMH API
+  slug: tokyo-institute-of-technology-oai-pmh-api
 artifact_total: 10
 common:
 - group: company
@@ -158,10 +158,10 @@ common:
   type: Examples
   url: examples/tokyo-institute-of-technology-t2r2-oaipmh-examples.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/openapi/tokyo-institute-of-technology-t2r2-oaipmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/openapi/_original/tokyo-institute-of-technology-t2r2-oaipmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/tokyo-institute-of-technology-t2r2-oaipmh-openapi.yml
+  url: openapi/_original/tokyo-institute-of-technology-t2r2-oaipmh-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tokyo-institute-of-technology/refs/heads/main/security/tokyo-institute-of-technology-domain-security.yml
   title: ''
@@ -206,11 +206,11 @@ jsonld:
   property_count: 1
   slug: tokyo-institute-of-technology-context
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: Tokyo Institute of Technology
 nav: Providers
 network: true
-overview: 'Tokyo Institute of Technology publishes 1 API on the [APIs.io](https://apis.io/) network: T2R2 Research Repository OAI-PMH. Tagged areas include Education, Higher Education, University, Institute of Technology, and Japan.
+overview: 'Tokyo Institute of Technology publishes 1 API on the [APIs.io](https://apis.io/) network: OAI PMH API. Tagged areas include Education, Higher Education, University, Institute of Technology, and Japan.
 
 
   The Tokyo Institute of Technology catalog on APIs.io includes 1 JSON-LD context.
@@ -221,7 +221,7 @@ plans:
 - name: Tokyo Institute Of Technology Plans Pricing
   plan_count: 2
   slug: tokyo-institute-of-technology-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Tokyo Institute Of Technology Rate Limits
@@ -266,7 +266,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

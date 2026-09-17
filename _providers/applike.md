@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
@@ -55,11 +55,6 @@ apis:
   description: 'With the App Partner Connection API, you can: - View details about an app partner connection - Create a partner connection for an app (This is the API equivalent of connecting a partner in the dashboa'
   name: AppLike Group App Partner Connection API
   slug: applike-app-partner-connection-api
-- baseURL: https://api.justtrack.io
-  baseurl_source: declared
-  description: The Appevents API from AppLike Group — 1 operation(s) for appevents.
-  name: AppLike Group Appevents API
-  slug: applike-appevents-api
 - baseURL: https://api.justtrack.io
   baseurl_source: declared
   description: 'With the App API, you can: - View your list of apps - Create an app'
@@ -85,6 +80,11 @@ apis:
   description: The Partners API from AppLike Group — 1 operation(s) for partners.
   name: AppLike Group Partners API
   slug: applike-partners-api
+- baseURL: https://api.justtrack.io
+  baseurl_source: declared
+  description: The App Events API from AppLike Group — 1 operation(s) for app events.
+  name: AppLike Group App Events API
+  slug: applike-app-events-api
 artifact_total: 24
 asyncapis:
 - description: ''
@@ -300,21 +300,21 @@ modified: '2026-08-06'
 name: AppLike Group
 nav: Providers
 network: true
-overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) network, including App Partner Connection API, Appevents API, Apps API, and 4 more. Tagged areas include Mobile Attribution, User Acquisition, AdTech, Mobile Advertising, and App Monetization.
+overview: 'AppLike Group publishes 7 APIs on the [APIs.io](https://apis.io/) network, including App Partner Connection API, Apps API, Bids API, and 4 more. Tagged areas include Mobile Attribution, User Acquisition, AdTech, Mobile Advertising, and App Monetization.
 
 
   The AppLike Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   AppLike Group''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 31 more developer resources.'
-random_paper: 7
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Applike Rate Limits
   slug: applike-rate-limits
 score:
   band: strong
-  composite: 58.7
+  composite: 59.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -322,11 +322,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 61.0
+    contract_quality: 63.3
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 71.1
@@ -341,7 +341,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

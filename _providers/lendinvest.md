@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -119,11 +119,11 @@ modified: '2026-07-19'
 name: LendInvest
 nav: Providers
 network: true
-overview: 'LendInvest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Mortgages, and Property Finance.
+overview: 'LendInvest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Lending, Mortgage, and Property Finance.
 
 
   LendInvest''s developer surface includes engineering blog, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 13
+random_paper: 6
 scopes:
 - name: Lendinvest Scopes
   scope_count: 0
@@ -159,7 +159,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -180,7 +180,7 @@ tags:
 - Company
 - Fintech
 - Lending
-- Mortgages
+- Mortgage
 - Property Finance
 - Real-Estate
 - Financial-Services

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 19
 common:
@@ -91,7 +91,7 @@ modified: '2026-04-21'
 name: Bio-Rad Laboratories
 nav: Providers
 network: true
-overview: 'Bio-Rad Laboratories is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Life Science, Diagnostics, Biotechnology, Research, and Clinical.
+overview: 'Bio-Rad Laboratories is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Life Sciences, Diagnostics, Biotechnology, Research, and Clinical.
 
 
   Bio-Rad Laboratories'' developer surface includes developer portal and 4 more developer resources.'
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: 'Huge Sartorius loss drives Bio-Rad (NYSE: BIO) Q1 2026 ...'
   url: https://www.stocktitan.net/sec-filings/BIO/10-q-bio-rad-laboratories-inc-quarterly-earnings-report-f49d8af29bd4.html
-random_paper: 7
+random_paper: 0
 score:
   band: minimal
   composite: 5.6
@@ -138,7 +138,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -151,7 +151,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: bio-rad-laboratories
 tags:
-- Life Science
+- Life Sciences
 - Diagnostics
 - Biotechnology
 - Research

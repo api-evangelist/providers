@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -85,16 +85,6 @@ apis:
   slug: puzzle-invoices-api
 - baseURL: https://api.puzzle.io/rest/v0
   baseurl_source: declared
-  description: The JournalEntries API from Puzzle — 2 operation(s) for journalentries.
-  name: Puzzle JournalEntries API
-  slug: puzzle-journalentries-api
-- baseURL: https://api.puzzle.io/rest/v0
-  baseurl_source: declared
-  description: The JournalEntry API from Puzzle — 2 operation(s) for journalentry.
-  name: Puzzle JournalEntry API
-  slug: puzzle-journalentry-api
-- baseURL: https://api.puzzle.io/rest/v0
-  baseurl_source: declared
   description: The Locations API from Puzzle — 1 operation(s) for locations.
   name: Puzzle Locations API
   slug: puzzle-locations-api
@@ -103,11 +93,6 @@ apis:
   description: The Metrics API from Puzzle — 5 operation(s) for metrics.
   name: Puzzle Metrics API
   slug: puzzle-metrics-api
-- baseURL: https://api.puzzle.io/rest/v0
-  baseurl_source: declared
-  description: The OAuth API from Puzzle — 2 operation(s) for oauth.
-  name: Puzzle OAuth API
-  slug: puzzle-oauth-api
 - baseURL: https://api.puzzle.io/rest/v0
   baseurl_source: declared
   description: The Onboarding API from Puzzle — 1 operation(s) for onboarding.
@@ -173,7 +158,17 @@ apis:
   description: Double-entry journal entries against the general ledger.
   name: Puzzle Journal Entries API
   slug: puzzle-journal-entries-api
-artifact_total: 64
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The OAuth API from Puzzle — 2 operation(s) for oauth.
+  name: Puzzle O Auth API
+  slug: puzzle-oauth-api
+- baseURL: https://api.puzzle.io/rest/v0
+  baseurl_source: declared
+  description: The Journal Entry API from Puzzle — 2 operation(s) for journal entry.
+  name: Puzzle Journal Entry API
+  slug: puzzle-journal-entry-api
+artifact_total: 63
 collections:
 - collection_type: open
   name: API Collection
@@ -452,7 +447,7 @@ modified: '2026-08-08'
 name: Puzzle
 nav: Providers
 network: true
-overview: 'Puzzle publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Bills API, and 23 more. Tagged areas include Company, Accounting, Financial, Bookkeeping, and Fintech.
+overview: 'Puzzle publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Bills API, and 22 more. Tagged areas include Company, Accounting, Financial, Bookkeeping, and Fintech.
 
 
   Puzzle''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 31 more developer resources.'
@@ -460,7 +455,7 @@ plans:
 - name: Puzzle Plans Pricing
   plan_count: 4
   slug: puzzle-plans-pricing
-random_paper: 10
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Puzzle Rate Limits
@@ -484,7 +479,7 @@ score:
   facets:
     access_clarity: 51.3
     contract_governance: 4.5
-    contract_quality: 48.0
+    contract_quality: 47.9
     developer_ergonomics: 44.6
     discoverability: 75.9
     operational_transparency: 50.0
@@ -496,11 +491,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 26
+      total: 25
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

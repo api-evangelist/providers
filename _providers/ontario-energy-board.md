@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://www.oeb.ca
@@ -283,7 +283,7 @@ overview: 'Ontario Energy Board publishes 12 APIs on the [APIs.io](https://apis.
 
 
   Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 27 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: developing
   composite: 47.1
@@ -326,7 +326,7 @@ score:
     regime_id: energy_utilities
     score: 39.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

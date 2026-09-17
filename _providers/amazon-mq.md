@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -109,6 +109,10 @@ collections:
   name: Amazon MQ API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/capabilities/amazon-mq-capability-edges.yml
   title: ''
@@ -892,7 +896,7 @@ jsonld:
   property_count: 84
   slug: amazon-mq-mq-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon MQ
 nav: Providers
 network: true
@@ -902,12 +906,12 @@ overview: 'Amazon MQ publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The Amazon MQ catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MQ''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon MQ''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Mq Plans Pricing
   plan_count: 3
   slug: amazon-mq-plans-pricing
-random_paper: 10
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Amazon Mq Rate Limits
@@ -961,7 +965,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -998,5 +1002,5 @@ use_cases:
   name: Enterprise Integration
 - description: Build event-driven applications with reliable message delivery.
   name: Event-Driven Architecture
-website: https://aws.amazon.com/mq/
+website: https://amazon.com
 ---

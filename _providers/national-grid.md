@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Official Carbon Intensity forecast API for Great Britain, developed by NESO in partnership with EDF Europe, University of Oxford, and WWF. Provides 96+ hour ahead national and regional carbon intensit
@@ -106,7 +106,7 @@ modified: '2026-06-13'
 name: National Grid ESO
 nav: Providers
 network: true
-overview: 'National Grid ESO publishes 1 API on the [APIs.io](https://apis.io/) network: Carbon Intensity API. Tagged areas include Energy, Electricity, Carbon Intensity, UK, and Open Data.
+overview: 'National Grid ESO publishes 1 API on the [APIs.io](https://apis.io/) network: Carbon Intensity API. Tagged areas include Energy, Electricity, Carbon Intensity, United Kingdom, and Open Data.
 
 
   National Grid ESO''s developer surface includes developer portal, product news, FAQ, support, and 8 more developer resources.'
@@ -114,7 +114,7 @@ plans:
 - name: Neso Data Portal Plans
   plan_count: 1
   slug: neso-data-portal-plans
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Neso Data Portal Rate Limits
@@ -153,7 +153,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -174,7 +174,7 @@ tags:
 - Energy
 - Electricity
 - Carbon Intensity
-- UK
+- United Kingdom
 - Open Data
 - Sustainability
 - Grid Operations

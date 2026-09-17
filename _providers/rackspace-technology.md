@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -76,11 +76,6 @@ apis:
   description: Currency lookup.
   name: Rackspace Technology Currency API
   slug: rackspace-technology-currency-api
-- baseURL: https://accounts.api.rackspacecloud.com
-  baseurl_source: spec
-  description: Customer-account lookup and history operations.
-  name: Rackspace Technology CustomerAccounts API
-  slug: rackspace-technology-customeraccounts-api
 - baseURL: https://dns.api.rackspacecloud.com/v1.0
   baseurl_source: spec
   description: DNS domain (zone) operations.
@@ -126,11 +121,6 @@ apis:
   description: DNS record operations within a domain.
   name: Rackspace Technology Records API
   slug: rackspace-technology-records-api
-- baseURL: https://dns.api.rackspacecloud.com/v1.0
-  baseurl_source: spec
-  description: Reverse DNS (PTR) record operations.
-  name: Rackspace Technology ReverseDNS API
-  slug: rackspace-technology-reversedns-api
 - baseURL: https://identity.api.rackspacecloud.com
   baseurl_source: spec
   description: Global and tenant role assignments.
@@ -161,6 +151,16 @@ apis:
   description: Service version metadata.
   name: Rackspace Technology Versions API
   slug: rackspace-technology-versions-api
+- baseURL: https://accounts.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Customer-account lookup and history operations.
+  name: Rackspace Technology Customer Accounts API
+  slug: rackspace-technology-customer-accounts-api
+- baseURL: https://dns.api.rackspacecloud.com/v1.0
+  baseurl_source: spec
+  description: Reverse DNS (PTR) record operations.
+  name: Rackspace Technology Reverse DNS API
+  slug: rackspace-technology-reverse-dns-api
 artifact_total: 70
 collections:
 - collection_type: open
@@ -447,7 +447,7 @@ modified: '2026-05-19'
 name: Rackspace Technology
 nav: Providers
 network: true
-overview: 'Rackspace Technology publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Currency API, CustomerAccounts API, and 16 more. Tagged areas include Cloud, Managed Service, Multi-Cloud, Infrastructure, and DevOps.
+overview: 'Rackspace Technology publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Currency API, Domains API, and 16 more. Tagged areas include Cloud, Managed Service, Multi-Cloud, Infrastructure, and DevOps.
 
 
   The Rackspace Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -458,7 +458,7 @@ plans:
 - name: Rackspace Technology Plans Pricing
   plan_count: 1
   slug: rackspace-technology-plans-pricing
-random_paper: 12
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Rackspace Technology Rate Limits
@@ -512,7 +512,7 @@ score:
       marker_coverage: 100.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

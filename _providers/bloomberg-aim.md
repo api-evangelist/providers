@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -249,6 +249,10 @@ collections:
   name: Bloomberg HTTP API
   slug: open-bloomberg-http-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/capabilities/bloomberg-aim-capability-edges.yml
   title: ''
@@ -1108,7 +1112,7 @@ jsonld:
   property_count: 6
   slug: context
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg AIM
 nav: Providers
 network: true
@@ -1118,12 +1122,12 @@ overview: 'Bloomberg AIM publishes 17 APIs on the [APIs.io](https://apis.io/) ne
   The Bloomberg AIM catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 17 more developer resources.'
+  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 18 more developer resources.'
 plans:
 - name: Bloomberg Aim Plans Pricing
   plan_count: 1
   slug: bloomberg-aim-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Bloomberg Aim Rate Limits
@@ -1191,7 +1195,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1224,5 +1228,5 @@ use_cases:
 - Real-Time Market Data Integration
 - Historical Data Analysis and Backtesting
 - Multi-Asset Trade Execution Automation
-website: https://developer.bloomberg.com/
+website: https://bloomberg.com
 ---

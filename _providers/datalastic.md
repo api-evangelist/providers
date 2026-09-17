@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ plans:
 - name: Datalastic Plans Pricing
   plan_count: 6
   slug: datalastic-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 7
   name: Datalastic Rate Limits
@@ -208,7 +208,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

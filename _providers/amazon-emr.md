@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -82,6 +82,10 @@ collections:
   name: Amazon EMR API
   slug: open-amazon-emr
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/agentic-access/amazon-emr-agentic-access.yml
   title: ''
@@ -267,7 +271,7 @@ jsonld:
   property_count: 2
   slug: amazon-emr-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon EMR
 nav: Providers
 network: true
@@ -277,12 +281,12 @@ overview: 'Amazon EMR publishes 1 API on the [APIs.io](https://apis.io/) network
   The Amazon EMR catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EMR''s developer surface includes developer portal, documentation, engineering blog, developer console, signup flow, support, FAQ, and 25 more developer resources.'
+  Amazon EMR''s developer surface includes developer portal, documentation, engineering blog, developer console, signup flow, support, FAQ, and 26 more developer resources.'
 plans:
 - name: Amazon Emr Plans Pricing
   plan_count: 3
   slug: amazon-emr-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Emr Rate Limits
@@ -336,7 +340,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -372,5 +376,5 @@ use_cases:
   name: Log Analytics
 - description: Run Monte Carlo simulations and risk models on large datasets
   name: Financial Risk Analysis
-website: https://aws.amazon.com/emr/
+website: https://amazon.com
 ---

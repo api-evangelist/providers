@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -72,22 +72,22 @@ apis:
 - baseURL: https://public.cdr.agl.com.au/cds-au/v1
   baseurl_source: declared
   description: Energy Account Balance endpoints
-  name: AGL Energy Energy Account Balances API
+  name: AGL Energy Account Balances API
   slug: agl-energy-energy-account-balances-api
 - baseURL: https://public.cdr.agl.com.au/cds-au/v1
   baseurl_source: declared
   description: Energy Account Billing endpoints
-  name: AGL Energy Energy Account Billing API
+  name: AGL Energy Account Billing API
   slug: agl-energy-energy-account-billing-api
 - baseURL: https://public.cdr.agl.com.au/cds-au/v1
   baseurl_source: declared
   description: Energy Account endpoints
-  name: AGL Energy Energy Accounts API
+  name: AGL Energy Accounts API
   slug: agl-energy-energy-accounts-api
 - baseURL: https://public.cdr.agl.com.au/cds-au/v1
   baseurl_source: declared
   description: Energy Plan endpoints
-  name: AGL Energy Energy Plans API
+  name: AGL Energy Plans API
   slug: agl-energy-energy-plans-api
 artifact_total: 16
 collections:
@@ -236,7 +236,7 @@ description: 'AGL Energy Limited (ASX:AGL) is Australia''s oldest listed company
   therefore open on product data, closed to everyone but accredited recipients on consumer data, and silent everywhere else — it publishes no open grid or market data of its own. It is also migrating around four million customer services onto the Kaluza platform under a A$150m, 20 percent stake taken in 2024, so the retail data layer behind these mandated endpoints is being rebuilt on a third-party energy operating system.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: AGL Energy
 nav: Providers
 network: true
@@ -244,7 +244,7 @@ overview: 'AGL Energy publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AGL Energy''s developer surface includes authentication, changelog, API reference, documentation, support, and 24 more developer resources.'
-random_paper: 16
+random_paper: 13
 scopes:
 - name: Agl Energy Scopes
   scope_count: 11
@@ -293,7 +293,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -120,6 +120,16 @@
     "cover": "https://papers.apievangelist.com/assets/covers/mcp-documentation-beyond-reference.png"
   },
   {
+    "slug": "onboarding-agents-to-an-api",
+    "kind": "paper",
+    "url": "https://papers.apievangelist.com/papers/onboarding-agents-to-an-api/",
+    "title": "Onboarding Agents to an API",
+    "tagline": "Let an autonomous caller get in, get a credential, pace itself and pay — and hand off cleanly when only a person can.",
+    "area": "Fundamentals",
+    "price": "",
+    "cover": "https://papers.apievangelist.com/assets/covers/onboarding-agents-to-an-api.png"
+  },
+  {
     "slug": "publishing-a-public-mcp-server",
     "kind": "paper",
     "url": "https://papers.apievangelist.com/papers/publishing-a-public-mcp-server/",

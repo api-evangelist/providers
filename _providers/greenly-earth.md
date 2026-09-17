@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -61,11 +61,6 @@ apis:
   slug: greenly-earth-offsetprojects-api
 - baseURL: https://api.greenly.earth/v1.5
   baseurl_source: declared
-  description: The purchaseCategories API from Greenly — 2 operation(s) for purchasecategories.
-  name: Greenly purchaseCategories API
-  slug: greenly-earth-purchasecategories-api
-- baseURL: https://api.greenly.earth/v1.5
-  baseurl_source: declared
   description: The ready API from Greenly — 1 operation(s) for ready.
   name: Greenly ready API
   slug: greenly-earth-ready-api
@@ -79,6 +74,11 @@ apis:
   description: The users API from Greenly — 2 operation(s) for users.
   name: Greenly users API
   slug: greenly-earth-users-api
+- baseURL: https://api.greenly.earth/v1.5
+  baseurl_source: declared
+  description: The Purchase Categories API from Greenly — 2 operation(s) for purchase categories.
+  name: Greenly Purchase Categories API
+  slug: greenly-earth-purchase-categories-api
 artifact_total: 40
 collections:
 - collection_type: open
@@ -355,10 +355,10 @@ overview: 'Greenly publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Greenly''s developer surface includes authentication, developer portal, pricing, documentation, support, engineering blog, tooling, and 45 more developer resources.'
-random_paper: 12
+random_paper: 15
 score:
   band: thin
-  composite: 33.9
+  composite: 34.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -366,11 +366,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 53.9
+    contract_quality: 55.1
     developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 0.0
@@ -395,7 +395,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

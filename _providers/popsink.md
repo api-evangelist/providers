@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -85,11 +85,6 @@ apis:
   slug: popsink-envs-api
 - baseURL: https://app.popsink.com
   baseurl_source: declared
-  description: The healthchecks API from Popsink — 4 operation(s) for healthchecks.
-  name: Popsink healthchecks API
-  slug: popsink-healthchecks-api
-- baseURL: https://app.popsink.com
-  baseurl_source: declared
   description: The jobs-smt API from Popsink — 13 operation(s) for jobs-smt.
   name: Popsink jobs-smt API
   slug: popsink-jobs-smt-api
@@ -106,7 +101,7 @@ apis:
 - baseURL: https://app.popsink.com
   baseurl_source: declared
   description: The Popsink Public API API from Popsink — 1 operation(s) for popsink public api.
-  name: Popsink Popsink Public API API
+  name: Popsink Public API
   slug: popsink-popsink-public-api-api
 - baseURL: https://app.popsink.com
   baseurl_source: declared
@@ -148,6 +143,11 @@ apis:
   description: The users API from Popsink — 7 operation(s) for users.
   name: Popsink users API
   slug: popsink-users-api
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The Health Checks API from Popsink — 4 operation(s) for health checks.
+  name: Popsink Health Checks API
+  slug: popsink-health-checks-api
 artifact_total: 46
 collections:
 - collection_type: open
@@ -342,7 +342,7 @@ created: '2026-07-17'
 description: Popsink is a real-time data replication and change data capture (CDC) platform that continuously moves data out of mission-critical and legacy systems into cloud data platforms with low latency and minimal production impact. It offers a broad catalog of source and target connectors (Postgres, MySQL, Oracle, MSSQL, MongoDB, Kafka, IBM Z / IBMi (AS/400), SAP, Salesforce, HubSpot, Snowflake, BigQuery, Databricks, ClickHouse, Iceberg, and more) and flexible deployment options spanning SaaS, bring-your-own-cloud, self-hosted Kubernetes, single-VM, on-premises, and air-gapped installs. Popsink exposes a public REST API and an on-prem control-plane REST API (OAuth2 password / JWT bearer, with SAML SSO) for managing pipelines, connectors, environments, teams, schemas, and transforms. Backed by Seedcamp.
 image: https://cdn.prod.website-files.com/68c803b0497f18f5503b81d9/68c84fa4ed5fa62ff869c94f_Fav%20Icon%20256x256.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Popsink
 nav: Providers
 network: true
@@ -350,7 +350,7 @@ overview: 'Popsink publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Popsink''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 16
+random_paper: 2
 score:
   band: developing
   composite: 41.2
@@ -365,7 +365,7 @@ score:
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 47.7
+    contract_quality: 47.8
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 28.9
@@ -381,7 +381,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

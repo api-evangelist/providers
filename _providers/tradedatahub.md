@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,25 +25,37 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-09-15'
+  score: 31.5
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: Free, unauthenticated REST discovery API for contractor/trade-business datasets, with paid CSV retrieval via x402 (testnet-only). Includes coverage stats, inventory discovery, dataset listings, pricin
-  name: TradeDataHub Public API
-  slug: tradedatahub-public-api
-artifact_total: 15
+- baseURL: https://www.tradedatahub.net
+  baseurl_source: declared
+  description: x402 TESTNET paid retrieval. Mainnet is NOT enabled.
+  name: TradeDataHub Public API Commerce API
+  slug: tradedatahub-commerce-api
+- baseURL: https://www.tradedatahub.net
+  baseurl_source: declared
+  description: Dataset metadata, pricing, masked previews.
+  name: TradeDataHub Public API Datasets API
+  slug: tradedatahub-datasets-api
+- baseURL: https://www.tradedatahub.net
+  baseurl_source: declared
+  description: Zero-knowledge inventory discovery (coverage, states, trades, cities).
+  name: TradeDataHub Public API Discovery API
+  slug: tradedatahub-discovery-api
+artifact_total: 17
 common:
 - group: company
   title: ''
@@ -182,7 +194,7 @@ modified: '2026-08-29'
 name: TradeDataHub Public API
 nav: Providers
 network: true
-overview: 'TradeDataHub Public API publishes 1 API on the [APIs.io](https://apis.io/) network: TradeDataHub Public API. Tagged areas include contractor data, B2B Data, Business Listings, Datasets, and CSV.
+overview: 'TradeDataHub Public API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Commerce API, Datasets API, and Discovery API. Tagged areas include contractor data, B2B Data, Business Listings, Datasets, and CSV.
 
 
   TradeDataHub Public API''s developer surface includes support, pricing, authentication, sandbox, code examples, and 16 more developer resources.'
@@ -190,14 +202,14 @@ plans:
 - name: Tradedatahub Plans Pricing
   plan_count: 4
   slug: tradedatahub-plans-pricing
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Tradedatahub Rate Limits
   slug: tradedatahub-rate-limits
 score:
   band: developing
-  composite: 39.3
+  composite: 42.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 47.0
@@ -205,11 +217,11 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 40.0
+    contract_quality: 50.8
     developer_ergonomics: 44.6
     discoverability: 72.2
     operational_transparency: 0.0
@@ -220,11 +232,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

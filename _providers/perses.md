@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -53,11 +53,6 @@ apis:
   slug: perses-dashboards-api
 - baseURL_template: http://{persesHost}
   baseurl_source: spec_template
-  description: Manage project-scoped datasources.
-  name: Perses Datasources API
-  slug: perses-datasources-api
-- baseURL_template: http://{persesHost}
-  baseurl_source: spec_template
   description: Manage shared datasources across projects.
   name: Perses Global Datasources API
   slug: perses-global-datasources-api
@@ -66,6 +61,11 @@ apis:
   description: Manage Perses projects (workspaces).
   name: Perses Projects API
   slug: perses-projects-api
+- baseURL_template: http://{persesHost}
+  baseurl_source: spec_template
+  description: Manage project-scoped datasources.
+  name: Perses Data Sources API
+  slug: perses-data-sources-api
 artifact_total: 17
 collections:
 - collection_type: open
@@ -145,7 +145,7 @@ modified: '2026-05-19'
 name: Perses
 nav: Providers
 network: true
-overview: 'Perses publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasources API, Global Datasources API, and 1 more. Tagged areas include CNCF, Dashboards, Monitoring, Observability, and Open-Source.
+overview: 'Perses publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Global Datasources API, Projects API, and 1 more. Tagged areas include CNCF, Dashboards, Monitoring, Observability, and Open-Source.
 
 
   Perses'' developer surface includes documentation, API reference, GitHub presence, engineering blog, and 6 more developer resources.'
@@ -153,7 +153,7 @@ plans:
 - name: Perses Plans Pricing
   plan_count: 3
   slug: perses-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Perses Rate Limits
@@ -185,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

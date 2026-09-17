@@ -30,7 +30,7 @@ name: Ynsect
 nav: Providers
 network: true
 overview: Ynsect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Agriculture, AgTech, and Food.
-random_paper: 11
+random_paper: 2
 slug: ynsect
 tags:
 - Company

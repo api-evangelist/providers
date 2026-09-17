@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ collections:
   name: Agent Diff Sandbox Diffs Sandboxes API
   slug: open-agent-diff-sandboxes-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://agentdiff.dev
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/agentic-access/agent-diff-agentic-access.yml
   title: ''
@@ -178,7 +182,7 @@ jsonld:
   property_count: 15
   slug: agent-diff-sandbox-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Agent Diff
 nav: Providers
 network: true
@@ -188,12 +192,12 @@ overview: 'Agent Diff publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The Agent Diff catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Agent Diff''s developer surface includes authentication, developer portal, getting-started guide, and 8 more developer resources.'
+  Agent Diff''s developer surface includes authentication, developer portal, getting-started guide, and 9 more developer resources.'
 plans:
 - name: Agent Diff Plans Pricing
   plan_count: 3
   slug: agent-diff-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Agent Diff Rate Limits
@@ -247,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -269,5 +273,5 @@ tags:
 - Sandboxing
 - API Diffing
 - Developer Tools
-website: https://www.agentdiff.dev/
+website: https://agentdiff.dev
 ---

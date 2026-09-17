@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,6 +71,10 @@ collections:
   name: Linea Token Prices Tokens API
   slug: open-linea-tokens-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://linea.build
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/linea/refs/heads/main/agentic-access/linea-agentic-access.yml
   title: ''
@@ -212,7 +216,7 @@ jsonld:
   property_count: 18
   slug: linea-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Linea
 nav: Providers
 network: true
@@ -222,12 +226,12 @@ overview: 'Linea publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pr
   The Linea catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Linea''s developer surface includes developer portal, documentation, API reference, getting-started guide, pricing, and 13 more developer resources.'
+  Linea''s developer surface includes developer portal, documentation, API reference, getting-started guide, pricing, and 14 more developer resources.'
 plans:
 - name: Linea Plans
   plan_count: 8
   slug: linea-plans
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 10
   name: Linea Rate Limits
@@ -270,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

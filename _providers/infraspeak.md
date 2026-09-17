@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Infraspeak's public REST API (v3) for programmatic access to facilities and maintenance management resources — assets, work orders, failures, preventive maintenance, stock, suppliers, and more. Docume
@@ -137,7 +137,7 @@ overview: 'Infraspeak publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Infraspeak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 10
+random_paper: 4
 score:
   band: emerging
   composite: 25.5
@@ -160,7 +160,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -137,16 +137,6 @@ apis:
   slug: modern-treasury-invoice-api
 - baseURL: https://app.moderntreasury.com/api
   baseurl_source: declared
-  description: The InvoiceLineItem API from Modern Treasury — 2 operation(s) for invoicelineitem.
-  name: Modern Treasury InvoiceLineItem API
-  slug: modern-treasury-invoicelineitem-api
-- baseURL: https://app.moderntreasury.com/api
-  baseurl_source: declared
-  description: The JournalEntry API from Modern Treasury — 2 operation(s) for journalentry.
-  name: Modern Treasury JournalEntry API
-  slug: modern-treasury-journalentry-api
-- baseURL: https://app.moderntreasury.com/api
-  baseurl_source: declared
   description: The JournalReport API from Modern Treasury — 2 operation(s) for journalreport.
   name: Modern Treasury JournalReport API
   slug: modern-treasury-journalreport-api
@@ -160,11 +150,6 @@ apis:
   description: The Ledger API from Modern Treasury — 2 operation(s) for ledger.
   name: Modern Treasury Ledger API
   slug: modern-treasury-ledger-api
-- baseURL: https://app.moderntreasury.com/api
-  baseurl_source: declared
-  description: The LedgerAccount API from Modern Treasury — 2 operation(s) for ledgeraccount.
-  name: Modern Treasury LedgerAccount API
-  slug: modern-treasury-ledgeraccount-api
 - baseURL: https://app.moderntreasury.com/api
   baseurl_source: declared
   description: The LedgerAccountBalanceMonitor API from Modern Treasury — 2 operation(s) for ledgeraccountbalancemonitor.
@@ -187,34 +172,14 @@ apis:
   slug: modern-treasury-ledgeraccountstatement-api
 - baseURL: https://app.moderntreasury.com/api
   baseurl_source: declared
-  description: The LedgerEntry API from Modern Treasury — 2 operation(s) for ledgerentry.
-  name: Modern Treasury LedgerEntry API
-  slug: modern-treasury-ledgerentry-api
-- baseURL: https://app.moderntreasury.com/api
-  baseurl_source: declared
   description: The LedgerTransaction API from Modern Treasury — 6 operation(s) for ledgertransaction.
   name: Modern Treasury LedgerTransaction API
   slug: modern-treasury-ledgertransaction-api
 - baseURL: https://app.moderntreasury.com/api
   baseurl_source: declared
-  description: The LegalEntity API from Modern Treasury — 3 operation(s) for legalentity.
-  name: Modern Treasury LegalEntity API
-  slug: modern-treasury-legalentity-api
-- baseURL: https://app.moderntreasury.com/api
-  baseurl_source: declared
-  description: The LineItem API from Modern Treasury — 2 operation(s) for lineitem.
-  name: Modern Treasury LineItem API
-  slug: modern-treasury-lineitem-api
-- baseURL: https://app.moderntreasury.com/api
-  baseurl_source: declared
   description: The PaymentAction API from Modern Treasury — 2 operation(s) for paymentaction.
   name: Modern Treasury PaymentAction API
   slug: modern-treasury-paymentaction-api
-- baseURL: https://app.moderntreasury.com/api
-  baseurl_source: declared
-  description: The PaymentFlow API from Modern Treasury — 2 operation(s) for paymentflow.
-  name: Modern Treasury PaymentFlow API
-  slug: modern-treasury-paymentflow-api
 - baseURL: https://app.moderntreasury.com/api
   baseurl_source: declared
   description: The PaymentOrder API from Modern Treasury — 4 operation(s) for paymentorder.
@@ -262,9 +227,44 @@ apis:
   slug: modern-treasury-validation-api
 - baseURL: https://app.moderntreasury.com/api
   baseurl_source: declared
-  description: The VirtualAccount API from Modern Treasury — 2 operation(s) for virtualaccount.
-  name: Modern Treasury VirtualAccount API
-  slug: modern-treasury-virtualaccount-api
+  description: The Invoice Line Item API from Modern Treasury — 2 operation(s) for invoice line item.
+  name: Modern Treasury Invoice Line Item API
+  slug: modern-treasury-invoice-line-item-api
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Journal Entry API from Modern Treasury — 2 operation(s) for journal entry.
+  name: Modern Treasury Journal Entry API
+  slug: modern-treasury-journal-entry-api
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Ledger Account API from Modern Treasury — 2 operation(s) for ledger account.
+  name: Modern Treasury Ledger Account API
+  slug: modern-treasury-ledger-account-api
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Ledger Entry API from Modern Treasury — 2 operation(s) for ledger entry.
+  name: Modern Treasury Ledger Entry API
+  slug: modern-treasury-ledger-entry-api
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Legal Entity API from Modern Treasury — 3 operation(s) for legal entity.
+  name: Modern Treasury Legal Entity API
+  slug: modern-treasury-legal-entity-api
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Line Item API from Modern Treasury — 2 operation(s) for line item.
+  name: Modern Treasury Line Item API
+  slug: modern-treasury-line-item-api
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Payment Flow API from Modern Treasury — 2 operation(s) for payment flow.
+  name: Modern Treasury Payment Flow API
+  slug: modern-treasury-payment-flow-api
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Virtual Account API from Modern Treasury — 2 operation(s) for virtual account.
+  name: Modern Treasury Virtual Account API
+  slug: modern-treasury-virtual-account-api
 artifact_total: 254
 collections:
 - collection_type: open
@@ -981,7 +981,7 @@ plans:
 - name: Modern Treasury Plans Pricing
   plan_count: 1
   slug: modern-treasury-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Modern Treasury Rate Limits
@@ -1030,7 +1030,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

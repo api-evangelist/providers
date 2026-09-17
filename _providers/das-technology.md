@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://api.digitalairstrike.com
@@ -42,11 +42,6 @@ apis:
   description: The Account API from DAS Technology — 30 operation(s) for account.
   name: DAS Technology Account API
   slug: das-technology-account-api
-- baseURL: https://api.digitalairstrike.com
-  baseurl_source: declared
-  description: The AccountV2 API from DAS Technology — 11 operation(s) for accountv2.
-  name: DAS Technology Account V2 API
-  slug: das-technology-accountv2-api
 - baseURL: https://api.digitalairstrike.com
   baseurl_source: declared
   description: The Client API from DAS Technology — 2 operation(s) for client.
@@ -159,11 +154,6 @@ apis:
   slug: das-technology-user-api
 - baseURL: https://api.digitalairstrike.com
   baseurl_source: declared
-  description: The UserV2 API from DAS Technology — 2 operation(s) for userv2.
-  name: DAS Technology User V2 API
-  slug: das-technology-userv2-api
-- baseURL: https://api.digitalairstrike.com
-  baseurl_source: declared
   description: The Vehicle API from DAS Technology — 2 operation(s) for vehicle.
   name: DAS Technology Vehicle API
   slug: das-technology-vehicle-api
@@ -172,6 +162,16 @@ apis:
   description: The Zuora API from DAS Technology — 1 operation(s) for zuora.
   name: DAS Technology Zuora API
   slug: das-technology-zuora-api
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Account V2 API from DAS Technology — 11 operation(s) for account v2.
+  name: DAS Technology Account V2 API
+  slug: das-technology-account-v2-api
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The User v2 API from DAS Technology — 2 operation(s) for user v2.
+  name: DAS Technology User v2 API
+  slug: das-technology-user-v2-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -253,7 +253,7 @@ modified: '2026-08-12'
 name: DAS Technology
 nav: Providers
 network: true
-overview: 'DAS Technology publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account V2 API, Client API, and 24 more. Tagged areas include Company, MarTech, Automotive, Automotive Retail, and Marketing.
+overview: 'DAS Technology publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account API, Client API, Configuration API, and 24 more. Tagged areas include Company, MarTech, Automotive, Automotive Retail, and Marketing.
 
 
   DAS Technology''s developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -261,14 +261,14 @@ plans:
 - name: Das Technology Plans Pricing
   plan_count: 0
   slug: das-technology-plans-pricing
-random_paper: 13
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Das Technology Rate Limits
   slug: das-technology-rate-limits
 score:
   band: thin
-  composite: 29.4
+  composite: 30.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -276,11 +276,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
-    contract_quality: 37.8
+    contract_quality: 39.9
     developer_ergonomics: 30.4
     discoverability: 74.1
     operational_transparency: 2.6
@@ -295,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

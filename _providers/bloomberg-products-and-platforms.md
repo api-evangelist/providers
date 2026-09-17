@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Cross-platform API providing access to the full Bloomberg data ecosystem including real-time, reference, and historical data with SDKs for Python, Java, C++, and other languages.
@@ -47,6 +47,10 @@ apis:
   slug: emsx
 artifact_total: 17
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -104,19 +108,19 @@ finops:
   slug: bloomberg-products-and-platforms-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-products-and-platforms.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Products and Platforms
 nav: Providers
 network: true
-overview: 'Bloomberg Products and Platforms publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Product, Platforms, Terminal, Enterprise, and Financial Data.
+overview: 'Bloomberg Products and Platforms publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Product, Platform, Terminal, Enterprise, and Financial Data.
 
 
-  Bloomberg Products and Platforms'' developer surface includes developer portal, documentation, support, and 6 more developer resources.'
+  Bloomberg Products and Platforms'' developer surface includes developer portal, documentation, support, and 7 more developer resources.'
 plans:
 - name: Bloomberg Products And Platforms Plans Pricing
   plan_count: 3
   slug: bloomberg-products-and-platforms-plans-pricing
-random_paper: 8
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Bloomberg Products And Platforms Rate Limits
@@ -141,7 +145,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -160,7 +164,7 @@ security:
 slug: bloomberg-products-and-platforms
 tags:
 - Product
-- Platforms
+- Platform
 - Terminal
 - Enterprise
 - Financial Data
@@ -175,5 +179,5 @@ use_cases:
   name: Financial Research
 - description: Risk data and analytics integration for risk management operations.
   name: Risk Operations
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

@@ -34,19 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
-- baseURL: https://api.sjtu.edu.cn
-  baseurl_source: declared
-  description: The university's own REST API platform (开放API), operated by the SJTU Network and Information Center at api.sjtu.edu.cn under OAuth 2.0 issued by its own jAccount authorization server. 59 documented op
-  name: SJTU Open API
-  slug: open-api
-- baseURL: https://graphql.sjtu.edu.cn/v1
-  baseurl_source: declared
-  description: 数据资源 — the university's institutional data-exchange API, exposing account, faculty and staff, undergraduate-teaching, academic-paper and asset records produced by SJTU's own administrative systems. Th
-  name: SJTU Data Resources API
-  slug: data-resources
 - description: SJTU's own identity and single sign-on system, run by the Network and Information Center on the university's own domain. It is a real OAuth 2.0 authorization server — an unparameterised GET of the aut
   name: jAccount Authorization Server (OAuth 2.0 / OpenID Connect)
   slug: jaccount-oauth
@@ -56,7 +46,97 @@ apis:
 - description: SJTU's campus super-app and the low-code process platform behind it, on which the university and approved third parties build workflow applications for staff and students. The developer portal ships a
   name: Jiao Wo Ban (交我办) Process Platform
   slug: jiaowoban
-artifact_total: 17
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: '账号类 — account records: jAccount name, staff/student number, display name, unit, ID document, identity type and account status.'
+  name: Shanghai Jiao Tong University Account API
+  slug: shanghai-jiao-tong-university-account-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: 资产类 — institutional asset records, keyed by asset type, company code, applicant, keeper, business year and status.
+  name: Shanghai Jiao Tong University Asset API
+  slug: shanghai-jiao-tong-university-asset-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Barcode and QR-code image rendering.
+  name: Shanghai Jiao Tong University Barcode API
+  slug: shanghai-jiao-tong-university-barcode-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Calendar event synchronisation into the campus calendar.
+  name: Shanghai Jiao Tong University Calendar API
+  slug: shanghai-jiao-tong-university-calendar-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Campus card (一卡通) — account opening, balance, transactions, photo, top-up, freeze and transfer.
+  name: Shanghai Jiao Tong University Card API
+  slug: shanghai-jiao-tong-university-card-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Teaching records — lessons, student timetables, examinations and GPA.
+  name: Shanghai Jiao Tong University Education API
+  slug: shanghai-jiao-tong-university-education-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Enterprise directory — posts, identities, rights, organizational units and the academic calendar.
+  name: Shanghai Jiao Tong University Enterprise API
+  slug: shanghai-jiao-tong-university-enterprise-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: '教职工类 — faculty and staff records: basic profile, degrees, and Party/administrative posts.'
+  name: Shanghai Jiao Tong University Faculty API
+  slug: shanghai-jiao-tong-university-faculty-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Application file storage — upload, download, metadata, thumbnails and WPS preview/edit links.
+  name: Shanghai Jiao Tong University File API
+  slug: shanghai-jiao-tong-university-file-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Finance appointment workflow — submit, cancel, complete and query financial business items.
+  name: Shanghai Jiao Tong University Finance API
+  slug: shanghai-jiao-tong-university-finance-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Campus mail — read, send and mark messages on the user's behalf.
+  name: Shanghai Jiao Tong University Mail API
+  slug: shanghai-jiao-tong-university-mail-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Campus notification delivery and read-state tracking, including Jiao-Wo-Ban (交我办) app pushes.
+  name: Shanghai Jiao Tong University Notification API
+  slug: shanghai-jiao-tong-university-notification-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: 论文类 — academic paper and publication metadata.
+  name: Shanghai Jiao Tong University Paper API
+  slug: shanghai-jiao-tong-university-paper-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: User profile — identity, name, default identity type and organizational unit, with field-level scope control.
+  name: Shanghai Jiao Tong University Profile API
+  slug: shanghai-jiao-tong-university-profile-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Digital document signing (e-signature).
+  name: Shanghai Jiao Tong University Signature API
+  slug: shanghai-jiao-tong-university-signature-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: InfoPlus task centre — push workflow task updates into the campus task centre.
+  name: Shanghai Jiao Tong University Task API
+  slug: shanghai-jiao-tong-university-task-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: '本科教学类 — undergraduate teaching records: student profile, course catalog, scheduling, and course selection.'
+  name: Shanghai Jiao Tong University Undergraduate Teaching API
+  slug: shanghai-jiao-tong-university-undergraduate-teaching-api
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: Siyuan code (思源码) — the campus identity and payment QR code, its activation, payment codes and transactions.
+  name: Shanghai Jiao Tong University Unicode API
+  slug: shanghai-jiao-tong-university-unicode-api
+artifact_total: 33
 common:
 - group: company
   title: ''
@@ -207,7 +287,7 @@ modified: '2026-08-30'
 name: Shanghai Jiao Tong University
 nav: Providers
 network: true
-overview: 'Shanghai Jiao Tong University publishes 2 APIs on the [APIs.io](https://apis.io/) network: SJTU Open API and SJTU Data Resources API. Tagged areas include University, Higher Education, Education, Research, and China.
+overview: 'Shanghai Jiao Tong University publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account API, Asset API, Barcode API, and 15 more. Tagged areas include University, Higher Education, Education, Research, and China.
 
 
   The Shanghai Jiao Tong University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -218,7 +298,7 @@ plans:
 - name: Shanghai Jiao Tong University Plans Pricing
   plan_count: 2
   slug: shanghai-jiao-tong-university-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Shanghai Jiao Tong University Rate Limits
@@ -241,7 +321,7 @@ scopes:
   summary_line: 40 scopes · authorizationCode/clientCredentials/password
 score:
   band: developing
-  composite: 43.8
+  composite: 43.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 79.0
@@ -249,11 +329,11 @@ score:
     catalog_gap: 36.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 42.1
     contract_governance: 19.7
-    contract_quality: 30.3
+    contract_quality: 30.1
     developer_ergonomics: 47.6
     discoverability: 79.6
     operational_transparency: 23.7
@@ -269,9 +349,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 18
       marker_coverage: 100.0
-      total: 2
+      total: 18
   regulatory:
     applies: true
     matched_via: tags
@@ -279,7 +359,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

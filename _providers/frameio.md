@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 90 operations · 53 acting
 api_count: 1
 apis:
-- baseURL: https://api.frame.io
-  baseurl_source: declared
-  description: Manage Account Permissions and related operations.
-  name: Frame.io Account Permissions API
-  slug: frameio-account-permissions-api
 - baseURL: https://api.frame.io
   baseurl_source: declared
   description: Manage Accounts and related operations.
@@ -144,6 +139,11 @@ apis:
   description: Manage Workspaces and related operations.
   name: Frame.io Workspaces API
   slug: frameio-workspaces-api
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Account Permissions and related operations.
+  name: Frame.io Accountpermissions API
+  slug: frameio-accountpermissions-api
 artifact_total: 48
 asyncapis:
 - description: ''
@@ -369,14 +369,14 @@ modified: '2026-07-19'
 name: Frame.io
 nav: Providers
 network: true
-overview: 'Frame.io publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account Permissions API, Accounts API, Collections API, and 17 more. Tagged areas include Company, Media, Video, Collaboration, and Review and Approval.
+overview: 'Frame.io publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Collections API, Comments API, and 17 more. Tagged areas include Company, Media, Video, Collaboration, and Review and Approval.
 
 
   The Frame.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Frame.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 4
+random_paper: 13
 scopes:
 - name: Frameio Scopes
   scope_count: 6
@@ -412,7 +412,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

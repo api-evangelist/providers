@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 11
 apis:
 - description: 'JSON-based REST API for the Act! CRM database exposing contacts, companies, groups, opportunities, tasks, activity series, calendar, notes, history, documents, attachments, users, teams, preferences, '
@@ -47,16 +47,6 @@ apis:
   description: The ActivitySeries API from Act! CRM — 2 operation(s) for activityseries.
   name: Act! CRM Activity Series API
   slug: act-activityseries-api
-- baseURL: https://apimta.act.com/act.web.api
-  baseurl_source: declared
-  description: The CustomEntities API from Act! CRM — 2 operation(s) for customentities.
-  name: Act! CRM Custom Entities API
-  slug: act-customentities-api
-- baseURL: https://apimta.act.com/act.web.api
-  baseurl_source: declared
-  description: The DocumentTypes API from Act! CRM — 4 operation(s) for documenttypes.
-  name: Act! CRM Document Types API
-  slug: act-documenttypes-api
 - baseURL: https://apimta.act.com/act.web.api
   baseurl_source: declared
   description: The HistoryTypes API from Act! CRM — 5 operation(s) for historytypes.
@@ -84,14 +74,24 @@ apis:
   slug: act-supplementalfiles-api
 - baseURL: https://apimta.act.com/act.web.api
   baseurl_source: declared
-  description: The SyncData API from Act! CRM — 4 operation(s) for syncdata.
-  name: Act! CRM Sync Data API
-  slug: act-syncdata-api
+  description: The Custom Entities API from Act! CRM — 2 operation(s) for custom entities.
+  name: Act! CRM Custom Entities API
+  slug: act-custom-entities-api
 - baseURL: https://apimta.act.com/act.web.api
   baseurl_source: declared
-  description: The TaskTypes API from Act! CRM — 4 operation(s) for tasktypes.
+  description: The Document Types API from Act! CRM — 4 operation(s) for document types.
+  name: Act! CRM Document Types API
+  slug: act-document-types-api
+- baseURL: https://apimta.act.com/act.web.api
+  baseurl_source: declared
+  description: The Sync Data API from Act! CRM — 4 operation(s) for sync data.
+  name: Act! CRM Sync Data API
+  slug: act-sync-data-api
+- baseURL: https://apimta.act.com/act.web.api
+  baseurl_source: declared
+  description: The Task Types API from Act! CRM — 4 operation(s) for task types.
   name: Act! CRM Task Types API
-  slug: act-tasktypes-api
+  slug: act-task-types-api
 artifact_total: 49
 asyncapis:
 - description: ''
@@ -338,7 +338,7 @@ modified: '2026-08-13'
 name: Act! CRM
 nav: Providers
 network: true
-overview: 'Act! CRM publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Act! Web API, Activity Series API, Custom Entities API, and 8 more. Tagged areas include CRM, Marketing Automation, Contact Management, Sales, and Opportunity Management.
+overview: 'Act! CRM publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Act! Web API, Activity Series API, History Types API, and 8 more. Tagged areas include CRM, Marketing Automation, Contact Management, Sales, and Opportunity Management.
 
 
   The Act! CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -349,14 +349,14 @@ plans:
 - name: Act Plans Pricing
   plan_count: 4
   slug: act-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Act Rate Limits
   slug: act-rate-limits
 score:
   band: exemplar
-  composite: 70.2
+  composite: 68.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 52.0
@@ -364,11 +364,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 67.2
+    contract_quality: 59.9
     developer_ergonomics: 66.1
     discoverability: 74.1
     operational_transparency: 60.5
@@ -383,7 +383,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

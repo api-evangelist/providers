@@ -28,23 +28,23 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-09-15'
+  score: 33.3
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 3
+- acting_count: 11
   human_in_the_loop: 0
   name: Arcbest Agentic Access
-  operation_count: 5
+  operation_count: 17
   slug: arcbest-agentic-access
-  summary_line: 5 operations · 3 acting
-api_count: 6
+  summary_line: 17 operations · 11 acting
+api_count: 9
 apis:
 - baseURL: https://api.arcb.com
   baseurl_source: declared
@@ -66,17 +66,32 @@ apis:
   description: Shipment tracking and visibility
   name: ArcBest Tracking API
   slug: arcbest-tracking-api
-- baseURL: https://api.arcb.com/expedite/customer
+- baseURL: https://api.arcb.com
   baseurl_source: declared
-  description: 'Quote, book and track ArcBest Expedite (Panther Premium Logistics) time-critical freight directly from a shipper''s own application. Client-credential authorize call returns a bearer token; quotes are '
-  name: ArcBest Expedite Customer API
-  slug: arcbest-expedite-customer-api
-- baseURL: https://api.arcb.com/expedite/digital
+  description: Exchange a ClientId and ClientSecret for a bearer access token.
+  name: ArcBest Authorize API
+  slug: arcbest-authorize-api
+- baseURL: https://api.arcb.com
   baseurl_source: declared
-  description: The integration surface ArcBest publishes for transportation management systems and freight-visibility platforms. HTTP Basic authenticated; quote, book, poll booking status, retrieve the Bill of Ladin
-  name: ArcBest Expedite Third Party TMS API
-  slug: arcbest-expedite-tms-api
-artifact_total: 75
+  description: Booking requests placed against a quote, and their asynchronous status.
+  name: ArcBest Booking API
+  slug: arcbest-booking-api
+- baseURL: https://api.arcb.com
+  baseurl_source: declared
+  description: Bill of Lading retrieval and reference-number updates on a booked order.
+  name: ArcBest Order API
+  slug: arcbest-order-api
+- baseURL: https://api.arcb.com
+  baseurl_source: declared
+  description: Rate quote requests for expedite loads.
+  name: ArcBest Quote API
+  slug: arcbest-quote-api
+- baseURL: https://api.arcb.com
+  baseurl_source: declared
+  description: Submit expedite rate quotes, request bookings against them, and poll booking status.
+  name: ArcBest Quotes API
+  slug: arcbest-quotes-api
+artifact_total: 78
 asyncapis:
 - description: ''
   name: Arcbest Track And Trace Webhooks
@@ -98,6 +113,16 @@ collections:
   name: ArcBest Pickups Tracking API
   slug: open-arcbest-tracking-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/overlays/arcbest-expedite-customer-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/arcbest-expedite-customer-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/overlays/arcbest-expedite-tms-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/arcbest-expedite-tms-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -421,13 +446,13 @@ modified: '2026-09-04'
 name: ArcBest
 nav: Providers
 network: true
-overview: 'ArcBest publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Pickups API, Rates API, Shipments API, and 3 more. Tagged areas include Logistics, Freight, LTL, Supply Chain, and Shipping.
+overview: 'ArcBest publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Pickups API, Rates API, Shipments API, and 6 more. Tagged areas include Logistics, Freight, LTL, Supply Chain, and Shipping.
 
 
   The ArcBest catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  ArcBest''s developer surface includes sandbox, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 29 more developer resources.'
+  ArcBest''s developer surface includes sandbox, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
 plans:
 - name: Arcbest Plans Pricing
   plan_count: 0
@@ -448,7 +473,7 @@ press:
 - date: '2026-05-25'
   title: ArcBest Helps Bridge the Gap Between Robotics and ...
   url: https://investors.arcb.com/news-events/news/News-Details/2024/ArcBest-Helps-Bridge-the-Gap-Between-Robotics-and-Logistics-Using-NVIDIA-Technology/
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Arcbest Rate Limits
@@ -489,7 +514,7 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 47.0
-    contract_quality: 29.3
+    contract_quality: 29.1
     developer_ergonomics: 66.1
     discoverability: 81.5
     operational_transparency: 10.5
@@ -498,14 +523,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 28.6
-      derived: 7
-      marker_coverage: 100.0
-      total: 7
+      callable: 60.0
+      derived: 9
+      marker_coverage: 90.0
+      total: 10
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

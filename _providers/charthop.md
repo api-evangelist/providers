@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 430
   human_in_the_loop: 11
@@ -79,11 +79,6 @@ apis:
   description: The app API from Charthop — 18 operation(s) for app.
   name: Charthop app API
   slug: charthop-app-api
-- baseURL: https://api.charthop.com
-  baseurl_source: declared
-  description: The appConfig API from Charthop — 3 operation(s) for appconfig.
-  name: Charthop appConfig API
-  slug: charthop-appconfig-api
 - baseURL: https://api.charthop.com
   baseurl_source: declared
   description: The approval API from Charthop — 12 operation(s) for approval.
@@ -306,11 +301,6 @@ apis:
   slug: charthop-notification-api
 - baseURL: https://api.charthop.com
   baseurl_source: declared
-  description: The oauth API from Charthop — 17 operation(s) for oauth.
-  name: Charthop oauth API
-  slug: charthop-oauth-api
-- baseURL: https://api.charthop.com
-  baseurl_source: declared
   description: The org API from Charthop — 13 operation(s) for org.
   name: Charthop org API
   slug: charthop-org-api
@@ -441,11 +431,6 @@ apis:
   slug: charthop-time-off-ledger-api
 - baseURL: https://api.charthop.com
   baseurl_source: declared
-  description: The timeoff API from Charthop — 6 operation(s) for timeoff.
-  name: Charthop timeoff API
-  slug: charthop-timeoff-api
-- baseURL: https://api.charthop.com
-  baseurl_source: declared
   description: The timeoffAdjustment API from Charthop — 2 operation(s) for timeoffadjustment.
   name: Charthop timeoffAdjustment API
   slug: charthop-timeoffadjustment-api
@@ -479,6 +464,21 @@ apis:
   description: The well-known API from Charthop — 6 operation(s) for well-known.
   name: Charthop well-known API
   slug: charthop-well-known-api
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The oauth API from Charthop — 17 operation(s) for oauth.
+  name: Charthop OAUTH API
+  slug: charthop-oauth-api
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The App Config API from Charthop — 3 operation(s) for app config.
+  name: Charthop App Config API
+  slug: charthop-app-config-api
+- baseURL: https://api.charthop.com
+  baseurl_source: declared
+  description: The Time Off API from Charthop — 6 operation(s) for time off.
+  name: Charthop Time Off API
+  slug: charthop-time-off-api
 artifact_total: 181
 asyncapis:
 - description: ''
@@ -910,31 +910,31 @@ modified: '2026-07-18'
 name: Charthop
 nav: Providers
 network: true
-overview: 'Charthop publishes 87 APIs on the [APIs.io](https://apis.io/) network, including access API, action API, ai API, and 84 more. Tagged areas include Company, HR, People Analytics, HRIS, and Workforce Planning.
+overview: 'Charthop publishes 87 APIs on the [APIs.io](https://apis.io/) network, including access API, action API, ai API, and 84 more. Tagged areas include Company, Human Resources, People Analytics, HRIS, and Workforce Planning.
 
 
   The Charthop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Charthop''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 26 more developer resources.'
-random_paper: 17
+random_paper: 21
 score:
   band: developing
-  composite: 50.3
+  composite: 48.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 37.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
     contract_quality: 46.0
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 47.4
   previous_composite: 50.3
   provenance:
@@ -948,7 +948,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -974,12 +974,11 @@ security:
 slug: charthop
 tags:
 - Company
-- HR
+- Human Resources
 - People Analytics
 - HRIS
 - Workforce Planning
 - Compensation
-- Human Resources
 - Org Chart
 - MCP
 website: https://www.charthop.com

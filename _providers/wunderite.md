@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API (v1) for programmatic access to Wunderite risk data and related resources — risk profiles, buildings, vehicles, drivers, contacts, premises, equipment, homes, legal entities, liabilities, sub
@@ -192,7 +192,7 @@ overview: 'Wunderite publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Wunderite''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
   band: thin
   composite: 38.7
@@ -221,7 +221,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -252,7 +252,7 @@ tags:
 - Insurtech
 - ACORD Forms
 - Risk Data
-- Digital Signatures
+- Digital Signature
 - Insurance Applications
 - Webhook
 website: https://wunderite.com/

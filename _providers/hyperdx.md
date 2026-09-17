@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The documented v1 API on HyperDX Cloud, covering alerts, dashboards and chart series queries at api.hyperdx.io under /api/v1, authenticated with a Bearer personal API key. Documented as prose on hyper
@@ -258,10 +258,10 @@ common:
   type: Overlay
   url: overlays/hyperdx-external-api-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/hyperdx-external-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/openapi/_original/hyperdx-external-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/hyperdx-external-api-openapi.json
+  url: openapi/_original/hyperdx-external-api-openapi.json
 created: '2026-08-27'
 description: HyperDX is an open-source observability platform that unifies logs, metrics, traces, session replay and errors on top of ClickHouse and OpenTelemetry, giving engineers one place to search raw events, correlate a log line to its trace and that span to a session replay, build dashboards and run threshold alerts. It ships as an MIT-licensed self-hostable stack (the app, a Node.js API, an opinionated OpenTelemetry collector distribution and ClickHouse), as HyperDX Cloud at hyperdx.io, and as the user interface of ClickStack after ClickHouse acquired the company in March 2025. Its developer surface is a REST management API for dashboards, alerts, sources, saved searches, connections and webhooks, plus a first-party MCP server and an agent-friendly terminal CLI.
 image: https://avatars.githubusercontent.com/u/130113031?v=4
@@ -270,7 +270,7 @@ mcp_servers:
 - description: HyperDX ships a first-party Model Context Protocol server inside the product itself. It is served by the HyperDX API package at the /api/mcp path on the instance you run, over the Streamable HTTP tran
   name: HyperDX (ClickStack) MCP Server
   slug: hyperdx-clickstack-mcp-server
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: HyperDX
 nav: Providers
 network: true
@@ -285,7 +285,7 @@ plans:
 - name: Hyperdx Plans Pricing
   plan_count: 4
   slug: hyperdx-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Hyperdx Rate Limits
@@ -319,7 +319,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

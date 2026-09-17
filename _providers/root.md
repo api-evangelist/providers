@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -73,11 +73,6 @@ apis:
   description: The Data exports API from Root Insurance — 9 operation(s) for data exports.
   name: Root Insurance Data exports API
   slug: root-data-exports-api
-- baseURL: https://api.rootplatform.com/
-  baseurl_source: declared
-  description: The Data stores API from Root Insurance — 4 operation(s) for data stores.
-  name: Root Insurance Data stores API
-  slug: root-data-stores-api
 - baseURL: https://api.rootplatform.com/
   baseurl_source: declared
   description: The Embed API from Root Insurance — 2 operation(s) for embed.
@@ -136,6 +131,11 @@ apis:
 - description: iOS and Android app that measures driving behavior via smartphone telematics, generates a usage-based price, and handles enrollment, policy management, and claims (3-minute claim filing). Telematics i
   name: Root Consumer Mobile App
   slug: consumer-app
+- baseURL: https://production.joinroot.com/bind_api/v3/
+  baseurl_source: declared
+  description: The Datastores API from Root Insurance — 4 operation(s) for datastores.
+  name: Root Insurance Datastores API
+  slug: root-datastores-api
 artifact_total: 330
 collections:
 - collection_type: open
@@ -1151,7 +1151,7 @@ plans:
 - name: Root Plans Pricing
   plan_count: 4
   slug: root-plans-pricing
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Root Rate Limits
@@ -1200,7 +1200,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

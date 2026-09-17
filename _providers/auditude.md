@@ -32,7 +32,7 @@ name: Auditude
 nav: Providers
 network: true
 overview: Auditude is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Video, Video Advertising, and AdTech.
-random_paper: 13
+random_paper: 17
 screenshot: https://raw.githubusercontent.com/api-evangelist/auditude/refs/heads/main/screenshots/auditude-2026-07-25T201701.png
 slug: auditude
 tags:

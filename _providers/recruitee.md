@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: REST API for admin-side ATS operations including candidates, offers (job openings), placements, departments, requisitions, tags, evaluations, scheduled interviews, mailbox messages, and reports. All e
@@ -112,11 +112,11 @@ modified: '2026-05-11'
 name: Recruitee
 nav: Providers
 network: true
-overview: 'Recruitee publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, ATS, Applicant Tracking, HR, and Hiring.
+overview: 'Recruitee publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Recruiting, ATS, Applicant Tracking, Human Resources, and Hiring.
 
 
   Recruitee''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 2
+random_paper: 0
 score:
   band: emerging
   composite: 21.9
@@ -137,7 +137,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -158,7 +158,7 @@ tags:
 - Recruiting
 - ATS
 - Applicant Tracking
-- HR
+- Human Resources
 - Hiring
 - Careers Site
 - Tellent

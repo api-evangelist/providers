@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.palenca.com
@@ -382,7 +382,7 @@ overview: 'Palenca (Vech) publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Palenca (Vech)''s developer surface includes sandbox, documentation, API reference, getting-started guide, authentication, engineering blog, support, and 25 more developer resources.'
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Palenca Vech Rate Limits
@@ -421,7 +421,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

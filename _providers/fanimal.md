@@ -31,7 +31,7 @@ name: Fanimal
 nav: Providers
 network: true
 overview: Fanimal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Event, Ticketing, and Marketplace.
-random_paper: 14
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/fanimal/refs/heads/main/screenshots/fanimal-2026-07-25T214219.png
 security:
 - kind: domain-security

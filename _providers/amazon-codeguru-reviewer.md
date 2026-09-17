@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -90,6 +90,10 @@ collections:
   name: API Collection
   slug: open-.refine-report
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/mcp/amazon-codeguru-reviewer-mcp.yml
   title: ''
@@ -1145,7 +1149,7 @@ jsonld:
   property_count: 78
   slug: amazon-codeguru-reviewer-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon CodeGuru Reviewer
 nav: Providers
 network: true
@@ -1155,8 +1159,8 @@ overview: 'Amazon CodeGuru Reviewer publishes 5 APIs on the [APIs.io](https://ap
   The Amazon CodeGuru Reviewer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 14
+  Amazon CodeGuru Reviewer''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 21 more developer resources.'
+random_paper: 7
 rules:
 - effective_rule_count: 5
   extends: []
@@ -1208,7 +1212,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1246,5 +1250,5 @@ use_cases:
   name: Automated Code Quality Enforcement
 - description: Help developers identify and fix common coding errors and anti-patterns earlier in the development cycle.
   name: Developer Productivity
-website: https://aws.amazon.com/codegurureviewer/
+website: https://amazon.com
 ---

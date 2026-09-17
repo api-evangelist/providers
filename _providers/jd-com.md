@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 17
 apis:
 - description: JOS authorization is JD's OAuth 2.0 flow for shop owners and JD enterprise accounts to grant a partner ISV application access. The platform issues an access token and refresh token scoped per shop / p
@@ -89,6 +89,10 @@ apis:
   slug: ai-ocr
 artifact_total: 21
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://jd.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/jd-com/refs/heads/main/security/jd-com-domain-security.yml
   title: ''
@@ -158,19 +162,19 @@ finops:
   slug: jd-com-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jd-com.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: JD.com (Jingdong)
 nav: Providers
 network: true
 overview: 'JD.com (Jingdong) publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, China, Cloud Platform, and Logistics.
 
 
-  JD.com (Jingdong)''s developer surface includes documentation, API reference, GitHub presence, and 12 more developer resources.'
+  JD.com (Jingdong)''s developer surface includes documentation, API reference, GitHub presence, and 13 more developer resources.'
 plans:
 - name: Jd Com Plans Pricing
   plan_count: 1
   slug: jd-com-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Jd Com Rate Limits
@@ -202,7 +206,7 @@ score:
     - greater-china
   previous_composite: 16.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -225,5 +229,5 @@ tags:
 - JD Open Platform
 - JD Cloud
 - JOS
-website: https://open.jd.com/
+website: https://jd.com
 ---

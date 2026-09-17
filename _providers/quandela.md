@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 3
@@ -62,11 +62,6 @@ apis:
   slug: quandela-api-perceval-job-token-api
 - baseURL: https://api.cloud.quandela.com/
   baseurl_source: declared
-  description: Service root, health check and specification endpoints
-  name: Quandela Platform API
-  slug: quandela-platform-api
-- baseURL: https://api.cloud.quandela.com/
-  baseurl_source: declared
   description: Quantum Random Number generation
   name: Quandela QRNG API
   slug: quandela-qrng-api
@@ -75,6 +70,26 @@ apis:
   description: Quantum Toolbox entrypoints
   name: Quandela Quantum Toolbox API
   slug: quandela-quantumtoolbox-api
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: The Health API from Quandela — 1 operation(s) for health.
+  name: Quandela Health API
+  slug: quandela-health-api
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: The Openapi.json API from Quandela — 1 operation(s) for openapi.json.
+  name: Quandela Openapi.json API
+  slug: quandela-openapi-json-api
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: The Qt Openapi.json API from Quandela — 1 operation(s) for qt openapi.json.
+  name: Quandela Qt Openapi.json API
+  slug: quandela-qt-openapi-json-api
+- baseURL: https://api.cloud.quandela.com/
+  baseurl_source: declared
+  description: The Quandela Cloud Api API from Quandela — 1 operation(s) for quandela cloud api.
+  name: Quandela Quandela Cloud API
+  slug: quandela-quandela-cloud-api-api
 arazzos:
 - description: Price a Chemistry VQE workload with the estimator before committing credits, check the Quantum Toolbox concurrency ceiling, submit, poll and collect.
   name: Estimate then run a Chemistry VQE workload on Quandela Quantum Toolbox
@@ -85,7 +100,7 @@ arazzos:
 - description: Mint a Cloud Job Token, verify account capacity, submit a photonic-circuit job, poll to completion, then retrieve the result and the submission record.
   name: Submit a Perceval job to Quandela Cloud and collect the result
   slug: quandela-submit-and-collect-perceval-job
-artifact_total: 14
+artifact_total: 17
 common:
 - group: operate
   title: ''
@@ -378,7 +393,7 @@ modified: '2026-08-17'
 name: Quandela
 nav: Providers
 network: true
-overview: 'Quandela publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Api - Job Token API, Api - Perceval Job API, Api - Perceval Job Token API, and 3 more. Tagged areas include Quantum Computing, Photonic Quantum, Photonics, Single Photon Sources, and Quantum Hardware.
+overview: 'Quandela publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Api - Job Token API, Api - Perceval Job API, Api - Perceval Job Token API, and 6 more. Tagged areas include Quantum Computing, Photonic Quantum, Photonics, Single Photon Sources, and Quantum Hardware.
 
 
   Quandela''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, pricing, and 57 more developer resources.'
@@ -386,14 +401,14 @@ plans:
 - name: Quandela Plans Pricing
   plan_count: 0
   slug: quandela-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Quandela Rate Limits
   slug: quandela-rate-limits
 score:
   band: developing
-  composite: 48.1
+  composite: 47.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 52.0
@@ -401,11 +416,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 55.3
+    contract_quality: 52.5
     developer_ergonomics: 61.3
     discoverability: 74.1
     operational_transparency: 71.1
@@ -425,11 +440,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

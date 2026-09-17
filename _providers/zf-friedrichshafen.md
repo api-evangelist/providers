@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -87,7 +87,7 @@ plans:
 - name: Zf Friedrichshafen Plans Pricing
   plan_count: 1
   slug: zf-friedrichshafen-plans-pricing
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Zf Friedrichshafen Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 13.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

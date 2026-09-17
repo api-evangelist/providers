@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Standards-based on-device programmability in the PICOS network operating system. RESTCONF (RFC 8040) exposes OPTIONS/HEAD/GET/POST/PATCH/PUT/DELETE over YANG-modelled configuration and state at /restc
@@ -160,10 +160,10 @@ common:
   type: Contact
   url: https://www.pica8.com/contact/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/pica8-ampcon-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/openapi/_original/pica8-ampcon-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/pica8-ampcon-openapi.yml
+  url: openapi/_original/pica8-ampcon-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/overlays/pica8-ampcon-overlay.yaml
   title: ''
@@ -244,7 +244,7 @@ description: 'Pica8 is a Palo Alto, California open-networking software company,
   and jobs. Both are customer-deployed: there is no Pica8-hosted API endpoint, so every base URL is the operator''s own controller or switch address.'
 image: https://www.pica8.com/images/pica8-logo.png
 layout: provider
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: Pica8
 nav: Providers
 network: true
@@ -290,7 +290,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

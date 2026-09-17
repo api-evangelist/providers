@@ -44,7 +44,7 @@ name: GDPR
 nav: Providers
 network: true
 overview: GDPR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Data Protection, GDPR, and Privacy.
-random_paper: 9
+random_paper: 11
 screenshot: https://raw.githubusercontent.com/api-evangelist/gdpr/refs/heads/main/screenshots/gdpr-2026-06-20T181702.png
 slug: gdpr
 tags:

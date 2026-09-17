@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: RFC 5321 is the IETF standard defining the Simple Mail Transfer Protocol. It specifies the client-server protocol used to transmit email across the internet, including the command set, response codes,
@@ -124,7 +124,7 @@ plans:
 - name: Smtp Plans Pricing
   plan_count: 3
   slug: smtp-plans-pricing
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Smtp Rate Limits
@@ -160,7 +160,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +179,7 @@ tags:
 - Internet Standards
 - IETF
 - Messaging
-- Protocols
+- Protocol
 - RFC 5321
 website: https://www.ietf.org/
 ---

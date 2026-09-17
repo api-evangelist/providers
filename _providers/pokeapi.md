@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -142,6 +142,10 @@ collections:
   name: PokéAPI
   slug: open-pokeapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://pokeapi.co
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pokeapi/refs/heads/main/agentic-access/pokeapi-agentic-access.yml
   title: ''
@@ -768,7 +772,7 @@ jsonld:
   property_count: 133
   slug: pokeapi-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: PokéAPI
 nav: Providers
 network: true
@@ -778,8 +782,8 @@ overview: 'PokéAPI publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The PokéAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  PokéAPI''s developer surface includes developer portal, getting-started guide, pricing, support, Stack Overflow tag, changelog, tooling, and 13 more developer resources.'
-random_paper: 10
+  PokéAPI''s developer surface includes developer portal, getting-started guide, pricing, support, Stack Overflow tag, changelog, tooling, and 14 more developer resources.'
+random_paper: 19
 rules:
 - effective_rule_count: 5
   extends: []
@@ -834,7 +838,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

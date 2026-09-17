@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -87,7 +87,7 @@ apis:
 - baseURL: https://api.sendgrid.com
   baseurl_source: declared
   description: 'Legacy Marketing Campaigns: Campaigns API'
-  name: SendGrid Campaigns API API
+  name: SendGrid Campaigns API
   slug: sendgrid-campaigns-api-api
 - baseURL: https://api.sendgrid.com
   baseurl_source: declared
@@ -357,7 +357,7 @@ apis:
 - baseURL: https://api.sendgrid.com
   baseurl_source: declared
   description: Twilio SendGrid Users API.
-  name: SendGrid Users API API
+  name: SendGrid Users API
   slug: sendgrid-users-api-api
 - baseURL: https://api.sendgrid.com
   baseurl_source: declared
@@ -1217,7 +1217,7 @@ graphqls:
   slug: sendgrid-graphql
 image: https://sendgrid.com/brand/sg-logo-300.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: SendGrid
 nav: Providers
 network: true
@@ -1232,7 +1232,7 @@ plans:
 - name: Sendgrid Plans Pricing
   plan_count: 4
   slug: sendgrid-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Sendgrid Rate Limits
@@ -1295,7 +1295,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

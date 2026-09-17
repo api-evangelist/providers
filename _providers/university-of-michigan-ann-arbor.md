@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The University of Michigan's own Shibboleth SAML 2.0 identity provider, and the most unambiguously institution-operated machine-readable surface U-M publishes. GET https://shibboleth.umich.edu/idp/shi
@@ -147,10 +147,10 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-michigan/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/openapi/university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/openapi/_original/university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
+  url: openapi/_original/university-of-michigan-ann-arbor-deep-blue-documents-oai-pmh-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/university-of-michigan-ann-arbor/refs/heads/main/json-schema/university-of-michigan-ann-arbor-oai-pmh-schema.json
   title: ''
@@ -289,7 +289,7 @@ jsonld:
   property_count: 1
   slug: university-of-michigan-ann-arbor-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: University of Michigan-Ann Arbor
 nav: Providers
 network: true
@@ -304,7 +304,7 @@ plans:
 - name: University Of Michigan Ann Arbor Plans Pricing
   plan_count: 2
   slug: university-of-michigan-ann-arbor-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: University Of Michigan Ann Arbor Rate Limits
@@ -366,7 +366,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ overview: 'Aviation Weather Center publishes 2 APIs on the [APIs.io](https://api
 
 
   Aviation Weather Center''s developer surface includes documentation, code examples, and 16 more developer resources.'
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Aviationweather Rate Limits
@@ -317,7 +317,7 @@ rules:
   slug: aviationweather-rules
 score:
   band: developing
-  composite: 40.5
+  composite: 41.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 79.5
@@ -325,11 +325,11 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 21.1
     contract_governance: 28.8
-    contract_quality: 68.7
+    contract_quality: 71.4
     developer_ergonomics: 9.5
     discoverability: 75.9
     operational_transparency: 31.6
@@ -348,7 +348,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

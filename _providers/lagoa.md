@@ -20,7 +20,7 @@ name: Lagoa
 nav: Providers
 network: true
 overview: Lagoa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D, 3D Rendering, Visualization, and CAD.
-random_paper: 12
+random_paper: 10
 slug: lagoa
 tags:
 - Company

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 10
 common:
@@ -138,11 +138,11 @@ modified: '2026-05-23'
 name: Amicus Therapeutics
 nav: Providers
 network: true
-overview: 'Amicus Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Pharmaceuticals, Rare Diseases, Genetic Diseases, and Fabry Disease.
+overview: 'Amicus Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Pharmaceuticals, Rare Disease, Genetic Diseases, and Fabry Disease.
 
 
   The Amicus Therapeutics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 10
+random_paper: 4
 rules:
 - effective_rule_count: 5
   extends: []
@@ -185,7 +185,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -201,7 +201,7 @@ slug: amicus-therapeutics
 tags:
 - Biotechnology
 - Pharmaceuticals
-- Rare Diseases
+- Rare Disease
 - Genetic Diseases
 - Fabry Disease
 - Pompe Disease

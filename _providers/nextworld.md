@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'Inbound REST endpoints into the Nextworld Platform. Every table and logic block created in the platform automatically exposes a set of endpoints for fetching, inserting, updating and deleting records '
@@ -193,7 +193,7 @@ modified: '2026-08-26'
 name: Nextworld
 nav: Providers
 network: true
-overview: 'Nextworld publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Resource Planning, No-Code, Enterprise Application Platform, and Workflow-Automation.
+overview: 'Nextworld publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ERP, No-Code, Enterprise Application Platform, and Workflow-Automation.
 
 
   The Nextworld catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -204,7 +204,7 @@ plans:
 - name: Nextworld Plans Pricing
   plan_count: 2
   slug: nextworld-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Nextworld Rate Limits
@@ -237,7 +237,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -264,7 +264,7 @@ security:
 slug: nextworld
 tags:
 - Company
-- Enterprise Resource Planning
+- ERP
 - No-Code
 - Enterprise Application Platform
 - Workflow-Automation

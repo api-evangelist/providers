@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: AI-powered Google Ads management platform providing automated campaign analysis, optimization recommendations, and direct implementation via 50+ specialized AI agents. Supports agencies managing multi
@@ -180,7 +180,7 @@ plans:
 - name: Blobr Plans Pricing
   plan_count: 0
   slug: blobr-plans-pricing
-random_paper: 4
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Blobr Rate Limits
@@ -226,7 +226,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 19.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

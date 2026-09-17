@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'The Web API plugin of the Forescout eyeExtend Connect Open Integration Module lets external systems query and act on the Forescout platform over HTTP. Clients authenticate at POST /api/login and pass '
@@ -135,7 +135,7 @@ overview: 'Forescout publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Forescout''s developer surface includes documentation, API reference, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 20
+random_paper: 18
 score:
   band: emerging
   composite: 22.5
@@ -159,7 +159,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

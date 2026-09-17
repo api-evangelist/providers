@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -54,11 +54,6 @@ apis:
   description: The Alerts API from Catchpoint — 2 operation(s) for alerts.
   name: Catchpoint Alerts API
   slug: catchpoint-alerts-api
-- baseURL: https://io.catchpoint.com/api
-  baseurl_source: declared
-  description: The ASNs API from Catchpoint — 3 operation(s) for asns.
-  name: Catchpoint ASNs API
-  slug: catchpoint-asns-api
 - baseURL: https://io.catchpoint.com/api
   baseurl_source: declared
   description: The Assertions API from Catchpoint — 1 operation(s) for assertions.
@@ -131,11 +126,6 @@ apis:
   slug: catchpoint-node-api
 - baseURL: https://io.catchpoint.com/api
   baseurl_source: declared
-  description: The NodeGroup API from Catchpoint — 5 operation(s) for nodegroup.
-  name: Catchpoint NodeGroup API
-  slug: catchpoint-nodegroup-api
-- baseURL: https://io.catchpoint.com/api
-  baseurl_source: declared
   description: The NodeUtilization API from Catchpoint — 6 operation(s) for nodeutilization.
   name: Catchpoint NodeUtilization API
   slug: catchpoint-nodeutilization-api
@@ -181,24 +171,34 @@ apis:
   slug: catchpoint-testtemplates-api
 - baseURL: https://io.catchpoint.com/api
   baseurl_source: declared
-  description: The UsageReport API from Catchpoint — 1 operation(s) for usagereport.
-  name: Catchpoint UsageReport API
-  slug: catchpoint-usagereport-api
-- baseURL: https://io.catchpoint.com/api
-  baseurl_source: declared
-  description: The UserIdentity API from Catchpoint — 1 operation(s) for useridentity.
-  name: Catchpoint UserIdentity API
-  slug: catchpoint-useridentity-api
-- baseURL: https://io.catchpoint.com/api
-  baseurl_source: declared
-  description: The UserRole API from Catchpoint — 3 operation(s) for userrole.
-  name: Catchpoint UserRole API
-  slug: catchpoint-userrole-api
-- baseURL: https://io.catchpoint.com/api
-  baseurl_source: declared
   description: The Workflow API from Catchpoint — 1 operation(s) for workflow.
   name: Catchpoint Workflow API
   slug: catchpoint-workflow-api
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The ASNs API from Catchpoint — 3 operation(s) for asns.
+  name: Catchpoint AS Ns API
+  slug: catchpoint-asns-api
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Node Group API from Catchpoint — 5 operation(s) for node group.
+  name: Catchpoint Node Group API
+  slug: catchpoint-node-group-api
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The Usage Report API from Catchpoint — 1 operation(s) for usage report.
+  name: Catchpoint Usage Report API
+  slug: catchpoint-usage-report-api
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The User Identity API from Catchpoint — 1 operation(s) for user identity.
+  name: Catchpoint User Identity API
+  slug: catchpoint-user-identity-api
+- baseURL: https://io.catchpoint.com/api
+  baseurl_source: declared
+  description: The User Role API from Catchpoint — 3 operation(s) for user role.
+  name: Catchpoint User Role API
+  slug: catchpoint-user-role-api
 artifact_total: 68
 asyncapis:
 - description: ''
@@ -456,17 +456,17 @@ modified: '2026-07-18'
 name: Catchpoint
 nav: Providers
 network: true
-overview: 'Catchpoint publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Account API, Alerts API, ASNs API, and 28 more. Tagged areas include Company, DevOps, Monitoring, Observability, and Internet Performance Monitoring.
+overview: 'Catchpoint publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Account API, Alerts API, Assertions API, and 28 more. Tagged areas include Company, DevOps, Monitoring, Observability, and Internet Performance Monitoring.
 
 
   The Catchpoint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Catchpoint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 25 more developer resources.'
-random_paper: 19
+random_paper: 13
 score:
   band: developing
-  composite: 49.7
+  composite: 50.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -474,11 +474,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 55.0
+    contract_quality: 57.7
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 42.1
@@ -494,7 +494,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

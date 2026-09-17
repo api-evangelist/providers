@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: The FHFA House Price Index (HPI) is a comprehensive, publicly available dataset measuring changes in single-family home values across all 50 states and over 400 American cities, with data extending ba
@@ -201,7 +201,7 @@ plans:
 - name: Fhfa Plans Pricing
   plan_count: 1
   slug: fhfa-plans-pricing
-random_paper: 6
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Fhfa Rate Limits
@@ -234,7 +234,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

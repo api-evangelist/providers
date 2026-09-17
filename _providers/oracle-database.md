@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 3
@@ -102,7 +102,7 @@ apis:
 - baseURL_template: https://database.{region}.oraclecloud.com/20160918
   baseurl_source: spec_template
   description: Manage Oracle Database Home directories
-  name: Oracle Database Database Homes API
+  name: Oracle Database Homes API
   slug: oracle-database-database-homes-api
 - baseURL_template: https://database.{region}.oraclecloud.com/20160918
   baseurl_source: spec_template
@@ -860,7 +860,7 @@ jsonld:
   property_count: 30
   slug: oracle-database-context
 layout: provider
-modified: '2026-08-21'
+modified: '2026-09-16'
 name: Oracle Database
 nav: Providers
 network: true
@@ -875,7 +875,7 @@ plans:
 - name: Oracle Database Plans Pricing
   plan_count: 6
   slug: oracle-database-plans-pricing
-random_paper: 5
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Oracle Database Rate Limits
@@ -934,7 +934,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

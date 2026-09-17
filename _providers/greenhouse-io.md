@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
 - description: 'Event-driven webhooks from Greenhouse Onboarding (currently in beta and gated by customer approval). Each event posts event_type, id, and payload to the customer''s HTTPS endpoint; signatures use HMAC '
   name: Greenhouse Onboarding Webhooks
   slug: greenhouse-onboarding-webhooks
-- baseURL: https://harvest.greenhouse.io/v1
-  baseurl_source: declared
-  description: Per-candidate timeline of activity events.
-  name: Greenhouse ActivityFeed API
-  slug: greenhouse-io-activityfeed-api
 - baseURL: https://harvest.greenhouse.io/v1
   baseurl_source: declared
   description: Candidate applications to specific jobs, including stage advancement, transfers, hires, rejections, and attachments.
@@ -77,11 +72,6 @@ apis:
   slug: greenhouse-io-candidates-api
 - baseURL: https://harvest.greenhouse.io/v1
   baseurl_source: declared
-  description: Org-defined custom fields and their options.
-  name: Greenhouse CustomFields API
-  slug: greenhouse-io-customfields-api
-- baseURL: https://harvest.greenhouse.io/v1
-  baseurl_source: declared
   description: Organizational departments.
   name: Greenhouse Departments API
   slug: greenhouse-io-departments-api
@@ -92,16 +82,6 @@ apis:
   slug: greenhouse-io-events-api
 - baseURL: https://harvest.greenhouse.io/v1
   baseurl_source: declared
-  description: Single GraphQL endpoint for all Onboarding operations.
-  name: Greenhouse GraphQL API
-  slug: greenhouse-io-graphql-api
-- baseURL: https://harvest.greenhouse.io/v1
-  baseurl_source: declared
-  description: Individual openings under a Job.
-  name: Greenhouse JobOpenings API
-  slug: greenhouse-io-jobopenings-api
-- baseURL: https://harvest.greenhouse.io/v1
-  baseurl_source: declared
   description: Public-facing job postings and their statuses.
   name: Greenhouse JobPosts API
   slug: greenhouse-io-jobposts-api
@@ -110,11 +90,6 @@ apis:
   description: List jobs visible to the integrated user.
   name: Greenhouse Jobs API
   slug: greenhouse-io-jobs-api
-- baseURL: https://harvest.greenhouse.io/v1
-  baseurl_source: declared
-  description: The interview/pipeline stages a job uses.
-  name: Greenhouse JobStages API
-  slug: greenhouse-io-jobstages-api
 - baseURL: https://harvest.greenhouse.io/v1
   baseurl_source: declared
   description: Offers extended to candidates.
@@ -167,14 +142,39 @@ apis:
   slug: greenhouse-io-tests-api
 - baseURL: https://harvest.greenhouse.io/v1
   baseurl_source: declared
-  description: Generate branded tracking links for sourcing campaigns.
-  name: Greenhouse TrackingLinks API
-  slug: greenhouse-io-trackinglinks-api
-- baseURL: https://harvest.greenhouse.io/v1
-  baseurl_source: declared
   description: Inspect the current authenticated user.
   name: Greenhouse Users API
   slug: greenhouse-io-users-api
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Per-candidate timeline of activity events.
+  name: Greenhouse Activity Feed API
+  slug: greenhouse-io-activity-feed-api
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Org-defined custom fields and their options.
+  name: Greenhouse Custom Fields API
+  slug: greenhouse-io-custom-fields-api
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Single GraphQL endpoint for all Onboarding operations.
+  name: Greenhouse Graph QL API
+  slug: greenhouse-io-graph-ql-api
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Individual openings under a Job.
+  name: Greenhouse Job Openings API
+  slug: greenhouse-io-job-openings-api
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The interview/pipeline stages a job uses.
+  name: Greenhouse Job stages API
+  slug: greenhouse-io-job-stages-api
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Generate branded tracking links for sourcing campaigns.
+  name: Greenhouse Tracking Links API
+  slug: greenhouse-io-tracking-links-api
 artifact_total: 119
 collections:
 - collection_type: postman
@@ -349,6 +349,10 @@ collections:
   name: Greenhouse Onboarding API
   slug: open-greenhouse-onboarding-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://greenhouse.io
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -548,22 +552,22 @@ jsonld:
   property_count: 11
   slug: greenhouse-io-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Greenhouse
 nav: Providers
 network: true
-overview: 'Greenhouse publishes 25 APIs on the [APIs.io](https://apis.io/) network, including ActivityFeed API, Applications API, Approvals API, and 22 more. Tagged areas include ATS, Recruiting, Hiring, Talent Acquisition, and Enterprise Saas.
+overview: 'Greenhouse publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Approvals API, Auth API, and 22 more. Tagged areas include ATS, Recruiting, Hiring, Talent Acquisition, and Enterprise Saas.
 
 
   The Greenhouse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Greenhouse''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 31 more developer resources.'
+  Greenhouse''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 32 more developer resources.'
 plans:
 - name: Greenhouse Io Plans Pricing
   plan_count: 3
   slug: greenhouse-io-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Greenhouse Io Rate Limits
@@ -586,19 +590,19 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 52.9
+  composite: 51.2
   coverage:
     artifact_dirs: 16
-    catalog_earned: 75.3
+    catalog_earned: 65.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.8
+    catalog_gap: 49.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 68.4
     contract_governance: 9.8
-    contract_quality: 69.1
+    contract_quality: 62.3
     developer_ergonomics: 34.5
     discoverability: 50.0
     operational_transparency: 52.6
@@ -611,7 +615,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -643,5 +647,5 @@ tags:
 - Enterprise Saas
 - Human Resources
 - Onboarding
-website: https://www.greenhouse.com
+website: https://greenhouse.io
 ---

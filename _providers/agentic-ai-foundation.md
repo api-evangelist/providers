@@ -33,17 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
-api_count: 6
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: The Model Context Protocol (MCP) is an open JSON-RPC 2.0 standard for connecting AI applications to external systems — tools, resources and reusable prompt templates. Originally developed by Anthropic
   name: Model Context Protocol (MCP)
   slug: model-context-protocol
-- baseURL: https://registry.modelcontextprotocol.io
-  baseurl_source: declared
-  description: The Official MCP Registry is the community registry service for Model Context Protocol servers, run by the MCP project. Its REST API publishes a full OpenAPI 3.1.0 contract with 32 operations across t
-  name: Official MCP Registry API
-  slug: mcp-registry
 - description: goose is a general-purpose, open-source AI agent that runs locally. Originally from Block and now governed by AAIF, it is written in Rust, ships a desktop app and a CLI for macOS, Linux and Windows, c
   name: Goose AI Agent
   slug: goose
@@ -56,7 +51,42 @@ apis:
 - description: agentgateway is an open-source data plane for agentic AI — it secures, observes and governs the connections between AI agents, models, MCP tools and APIs across ecosystems. Hosted by AAIF; current rel
   name: agentgateway
   slug: agentgateway
-artifact_total: 37
+- baseURL: https://modelcontextprotocol.io/mcp
+  baseurl_source: declared
+  description: Authentication operations for obtaining tokens to publish servers
+  name: Agentic AI Foundation Auth API
+  slug: agentic-ai-foundation-auth-api
+- baseURL: https://modelcontextprotocol.io/mcp
+  baseurl_source: declared
+  description: Health check endpoint for monitoring service availability
+  name: Agentic AI Foundation Health API
+  slug: agentic-ai-foundation-health-api
+- baseURL: https://modelcontextprotocol.io/mcp
+  baseurl_source: declared
+  description: Simple ping endpoint for testing connectivity
+  name: Agentic AI Foundation Ping API
+  slug: agentic-ai-foundation-ping-api
+- baseURL: https://modelcontextprotocol.io/mcp
+  baseurl_source: declared
+  description: Operations for publishing MCP servers to the registry
+  name: Agentic AI Foundation Publish API
+  slug: agentic-ai-foundation-publish-api
+- baseURL: https://modelcontextprotocol.io/mcp
+  baseurl_source: declared
+  description: Operations for discovering and retrieving MCP servers
+  name: Agentic AI Foundation Servers API
+  slug: agentic-ai-foundation-servers-api
+- baseURL: https://modelcontextprotocol.io/mcp
+  baseurl_source: declared
+  description: The validate API from Agentic AI Foundation — 2 operation(s) for validate.
+  name: Agentic AI Foundation Validate API
+  slug: agentic-ai-foundation-validate-api
+- baseURL: https://modelcontextprotocol.io/mcp
+  baseurl_source: declared
+  description: Version information endpoint for retrieving build and version details
+  name: Agentic AI Foundation Version API
+  slug: agentic-ai-foundation-version-api
+artifact_total: 43
 common:
 - group: company
   title: ''
@@ -347,7 +377,7 @@ modified: '2026-08-30'
 name: Agentic AI Foundation
 nav: Providers
 network: true
-overview: 'Agentic AI Foundation publishes 1 API on the [APIs.io](https://apis.io/) network: Official MCP Registry API. Tagged areas include AI Agents, Linux Foundation, Open-Source, Standards, and MCP.
+overview: 'Agentic AI Foundation publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Health API, Ping API, and 4 more. Tagged areas include AI Agents, Linux Foundation, Open-Source, Standards, and MCP.
 
 
   The Agentic AI Foundation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -358,7 +388,7 @@ plans:
 - name: Agentic Ai Foundation Plans Pricing
   plan_count: 0
   slug: agentic-ai-foundation-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Agentic Ai Foundation Rate Limits
@@ -376,21 +406,21 @@ rules:
   slug: agentic-ai-foundation-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.6
+  composite: 49.5
   coverage:
     artifact_dirs: 28
-    catalog_earned: 60.3
+    catalog_earned: 57.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.8
+    catalog_gap: 57.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 28.9
     contract_governance: 29.5
-    contract_quality: 58.5
+    contract_quality: 56.2
     developer_ergonomics: 78.6
-    discoverability: 72.2
+    discoverability: 66.7
     operational_transparency: 34.2
   previous_composite: 50.6
   provenance:
@@ -399,11 +429,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

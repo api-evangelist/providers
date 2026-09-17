@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Simplifi by Quicken provides a consumer personal finance platform that connects to financial institutions via OAuth APIs and biller networks via purpose-built APIs. Users can aggregate bank accounts, '
@@ -102,7 +102,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 0
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

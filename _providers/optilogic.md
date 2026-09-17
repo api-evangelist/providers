@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Optilogic operates a hosted, remote Model Context Protocol server that backs the Ada connector for Claude. An MCP client points at https://mcp.optilogic.app/mcp and authenticates over OAuth 2.1 agains
@@ -253,10 +253,10 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/optilogic-rest-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/optilogic/refs/heads/main/openapi/_original/optilogic-rest-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/optilogic-rest-api-openapi.json
+  url: openapi/_original/optilogic-rest-api-openapi.json
 created: '2026-08-26'
 description: Optilogic is a cloud-native supply chain design company headquartered in Ann Arbor, Michigan, whose Cosmic Frog platform lets teams model, optimize, simulate and risk-score supply chain networks in one environment, alongside DataStar for AI-assisted data preparation, Ada agentic AI, the Lumina Tariff Optimizer and the Atlas Python coding workspace. Its developer surface is the Optilogic REST API (Swagger 2.0, 67 operations across authentication, workspace, job, storage and utility) served from api.optilogic.app/v0 with X-API-KEY authentication, an OptiPy Python client and an OptiJS browser client, plus an OAuth-protected remote MCP server at mcp.optilogic.app/mcp that powers the Ada connector for Claude.
 image: https://cdn.prod.website-files.com/682c88de65bdb86ec53f8277/687fd1599d7415ecd00e4908_Optilogic_logo_2025.svg
@@ -265,7 +265,7 @@ mcp_servers:
 - description: ''
   name: Optilogic MCP Server (Ada Connector)
   slug: optilogic-mcp-server-ada-connector
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: Optilogic
 nav: Providers
 network: true
@@ -277,14 +277,14 @@ plans:
 - name: Optilogic Plans Pricing
   plan_count: 0
   slug: optilogic-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Optilogic Rate Limits
   slug: optilogic-rate-limits
 score:
   band: developing
-  composite: 47.9
+  composite: 48.5
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -292,11 +292,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 49.2
+    contract_quality: 51.9
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 18.4
@@ -316,7 +316,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

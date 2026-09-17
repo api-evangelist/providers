@@ -19,7 +19,7 @@ name: Industrial Safety Technologies
 nav: Providers
 network: true
 overview: Industrial Safety Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Industrial Safety, Gas Detection, Hardware, and Occupational Safety.
-random_paper: 5
+random_paper: 11
 slug: industrial-safety-technologies
 tags:
 - Company

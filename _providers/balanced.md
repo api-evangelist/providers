@@ -19,7 +19,7 @@ name: Balanced
 nav: Providers
 network: true
 overview: Balanced is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Marketplace Payments, and ACH.
-random_paper: 12
+random_paper: 18
 slug: balanced
 tags:
 - Company

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Enterprise Reports API for Kahoot! 360 organizations. Exposes data on games, users, participants, organizations, and kahoots created by the organization. Uses OAuth 2.0 client_credentials at https://a
@@ -151,7 +151,7 @@ plans:
 - name: Kahoot Plans Pricing
   plan_count: 1
   slug: kahoot-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Kahoot Rate Limits
@@ -182,7 +182,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

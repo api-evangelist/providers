@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -261,7 +261,7 @@ press:
 - date: '2026-05-25'
   title: tbh me anytime del Toro speaks, but the anti-ai stance is * ...
   url: https://www.facebook.com/groups/1404116417142065/posts/1817161845837518/
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Toro Rate Limits
@@ -315,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

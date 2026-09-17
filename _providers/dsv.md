@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 29
 apis:
 - baseURL: https://api.dsv.com/my-demo/oauth/v1
@@ -61,11 +61,6 @@ apis:
   description: The Draft API from DSV — 4 operation(s) for draft.
   name: DSV Draft API
   slug: dsv-draft-api
-- baseURL: https://api.dsv.com/my-demo/oauth/v1
-  baseurl_source: declared
-  description: The EDocs API from DSV — 5 operation(s) for edocs.
-  name: DSV E Docs API
-  slug: dsv-edocs-api
 - baseURL: https://api.dsv.com/my-demo/oauth/v1
   baseurl_source: declared
   description: The Events API from DSV — 2 operation(s) for events.
@@ -106,11 +101,6 @@ apis:
   description: The OrdersAsync API from DSV — 1 operation(s) for ordersasync.
   name: DSV Orders Async API
   slug: dsv-ordersasync-api
-- baseURL: https://api.dsv.com/my-demo/oauth/v1
-  baseurl_source: declared
-  description: The ProductData API from DSV — 1 operation(s) for productdata.
-  name: DSV Product Data API
-  slug: dsv-productdata-api
 - baseURL: https://api.dsv.com/my-demo/oauth/v1
   baseurl_source: declared
   description: The Public API from DSV — 5 operation(s) for public.
@@ -186,6 +176,16 @@ apis:
   description: The Webhook API from DSV — 3 operation(s) for webhook.
   name: DSV Webhook API
   slug: dsv-webhook-api
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The EDocs API from DSV — 5 operation(s) for edocs.
+  name: DSV E Docs API
+  slug: dsv-edocs-api
+- baseURL: https://api.dsv.com/my-demo/oauth/v1
+  baseurl_source: declared
+  description: The Product Data API from DSV — 1 operation(s) for product data.
+  name: DSV Product Data API
+  slug: dsv-product-data-api
 artifact_total: 61
 collections:
 - collection_type: open
@@ -369,10 +369,10 @@ overview: 'DSV publishes 32 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   DSV''s developer surface includes developer portal, documentation, API reference, signup flow, authentication, changelog, FAQ, and 13 more developer resources.'
-random_paper: 18
+random_paper: 3
 score:
   band: developing
-  composite: 40.0
+  composite: 39.9
   coverage:
     artifact_dirs: 3
     catalog_earned: 35.0
@@ -380,11 +380,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 53.2
+    contract_quality: 52.6
     developer_ergonomics: 47.6
     discoverability: 64.8
     operational_transparency: 34.2
@@ -402,7 +402,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

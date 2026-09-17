@@ -23,16 +23,36 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 50.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://anew.page
   baseurl_source: declared
-  description: REST/HTTP API to encode self-contained HTML into shareable URLs (POST /write) and read pages back (GET /{slug}), with OpenAPI 3.1.1 contract. Unauthenticated and free.
-  name: anew Write/Read API
-  slug: anew-writeread-api
-artifact_total: 8
+  description: Agent2Agent (A2A) protocol JSON-RPC endpoint.
+  name: anew A2a API
+  slug: anew-a2a-api
+- baseURL: https://anew.page
+  baseurl_source: declared
+  description: Model Context Protocol JSON-RPC endpoint.
+  name: anew MCP API
+  slug: anew-mcp-api
+- baseURL: https://anew.page
+  baseurl_source: declared
+  description: Write self-contained HTML pages, and read them back.
+  name: anew Pages API
+  slug: anew-pages-api
+artifact_total: 10
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/anew/refs/heads/main/overlays/anew-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/anew-openapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/anew/refs/heads/main/mcp/anew-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/anew-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -151,22 +171,22 @@ modified: '2026-09-04'
 name: anew
 nav: Providers
 network: true
-overview: 'anew publishes 1 API on the [APIs.io](https://apis.io/) network: Write/Read API. Tagged areas include HTML, webpage, Website, URLs, and encode.
+overview: 'anew publishes 3 APIs on the [APIs.io](https://apis.io/) network: A2a API, MCP API, and Pages API. Tagged areas include HTML, webpage, Websites, URLs, and encode.
 
 
-  anew''s developer surface includes documentation, API reference, getting-started guide, support, and 19 more developer resources.'
+  anew''s developer surface includes documentation, API reference, getting-started guide, support, and 21 more developer resources.'
 plans:
 - name: Anew Plans Pricing
   plan_count: 0
   slug: anew-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Anew Rate Limits
   slug: anew-rate-limits
 score:
   band: developing
-  composite: 44.3
+  composite: 45.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 42.0
@@ -174,21 +194,26 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 49.0
+    contract_quality: 52.2
     developer_ergonomics: 69.0
     discoverability: 70.4
     operational_transparency: 42.1
   previous_composite: 44.3
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -214,7 +239,7 @@ slug: anew
 tags:
 - HTML
 - webpage
-- Website
+- Websites
 - URLs
 - encode
 - Share
@@ -231,7 +256,7 @@ tags:
 - stateless
 - Immutable
 - No Auth
-- Static Site
+- Static Sites
 - url-encoding
 website: https://www.anew.page/
 ---

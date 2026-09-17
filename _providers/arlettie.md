@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Live, unauthenticated Model Context Protocol endpoint on the Les échappées storefront implementing the Universal Commerce Protocol (UCP) 2026-04-08. tools/list returns 13 tools with full JSON Schema i
@@ -208,7 +208,7 @@ plans:
 - name: Arlettie Plans Pricing
   plan_count: 0
   slug: arlettie-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Arlettie Rate Limits
@@ -242,7 +242,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -269,8 +269,8 @@ tags:
 - Private Sales
 - Marketplace
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 website: https://www.arlettie.com/
 ---

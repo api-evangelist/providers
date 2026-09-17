@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -359,6 +359,10 @@ collections:
   name: Amazon Lookout for Metrics ActivateAnomalyDetector UpdateMetricSet API
   slug: open-amazon-lookout-for-metrics-updatemetricset-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/capabilities/amazon-lookout-for-metrics-capability-edges.yml
   title: ''
@@ -2543,7 +2547,7 @@ jsonld:
   property_count: 114
   slug: amazon-lookout-for-metrics-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Lookout for Metrics
 nav: Providers
 network: true
@@ -2553,12 +2557,12 @@ overview: 'Amazon Lookout for Metrics publishes 28 APIs on the [APIs.io](https:/
   The Amazon Lookout for Metrics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Lookout for Metrics'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon Lookout for Metrics'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Lookout For Metrics Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-metrics-plans-pricing
-random_paper: 2
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Metrics Rate Limits
@@ -2612,7 +2616,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2653,5 +2657,5 @@ use_cases:
   name: E-Commerce Performance
 - description: Analyze user activity patterns and detect unusual behavior that may indicate security incidents.
   name: User Activity Analysis
-website: https://aws.amazon.com/lookout-for-metrics/
+website: https://amazon.com
 ---

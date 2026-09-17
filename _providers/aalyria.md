@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The Northbound Interface allows humans or applications to define and orchestrate a Spacetime network. It carries the Model API (NMTS entities and relationships describing platforms, antennas, interfac
@@ -191,7 +191,7 @@ overview: 'Aalyria publishes 4 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Aalyria''s developer surface includes documentation, API reference, getting-started guide, authentication, support, CLI, changelog, and 21 more developer resources.'
-random_paper: 4
+random_paper: 13
 score:
   band: thin
   composite: 37.9
@@ -222,7 +222,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

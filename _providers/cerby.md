@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The public Cerby REST API. Programmatic access to accounts, secrets, collections, users, teams, integrations, jobs, and vaults in a Cerby workspace. Requests are authenticated with a scoped API key se
@@ -181,7 +181,7 @@ created: '2026-08-09'
 description: Cerby is an identity, access, and password management platform for nonfederated and disconnected applications — the enterprise software that does not support SAML, SCIM, or an integration API of its own. Cerby extends existing IAM, IGA, and PAM systems to those applications through browser and robotic automation, adding provisioning and deprovisioning, credential rotation, MFA enrollment, and access governance where no standards-based integration exists. Cerby publishes a public RESTful API (JSON:API-style envelope, X-API-Key authentication, scoped API keys) over eight resources — accounts, secrets, collections, users, teams, integrations, jobs, and vaults — plus a signed webhook notification service, a cross-platform CLI, and SCIM 2.0 endpoints for provisioning from Okta, Entra ID, and OneLogin.
 image: https://www.cerby.com/hubfs/Logos/Cerby%20Favicon%20-%20Alternate.png
 layout: provider
-modified: '2026-08-09'
+modified: '2026-09-16'
 name: Cerby
 nav: Providers
 network: true
@@ -192,7 +192,7 @@ overview: 'Cerby publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Cerby''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 20 more developer resources.'
-random_paper: 8
+random_paper: 5
 scopes:
 - name: Cerby Scopes
   scope_count: 17
@@ -220,7 +220,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -256,5 +256,6 @@ tags:
 - Nonfederated Applications
 - Automation
 - Webhook
+- Identity Federation
 website: https://www.cerby.com/
 ---

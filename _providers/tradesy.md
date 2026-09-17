@@ -25,7 +25,7 @@ name: Tradesy
 nav: Providers
 network: true
 overview: Tradesy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Resale, Marketplace, and E-Commerce.
-random_paper: 8
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradesy/refs/heads/main/screenshots/tradesy-2026-09-02T164100.png
 slug: tradesy
 tags:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: An OpenRPC 1.3.2 contract for real-time control of live calls over RELAY — 8 methods (calling.dial, calling.update, calling.end, calling.ai_hold, calling.ai_unhold, calling.ai_message, calling.live_tr
@@ -674,7 +674,7 @@ plans:
 - name: Signalwire Plans Pricing
   plan_count: 0
   slug: signalwire-plans-pricing
-random_paper: 6
+random_paper: 21
 rate_limits:
 - limit_count: 10
   name: Signalwire Rate Limits
@@ -714,7 +714,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

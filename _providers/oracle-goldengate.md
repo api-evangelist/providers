@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 7
@@ -50,11 +50,6 @@ apis:
   description: Import and export GGSA artifacts
   name: Oracle GoldenGate Artifacts API
   slug: oracle-goldengate-artifacts-api
-- baseURL: https://<goldengate-host>:<port>/services/v2
-  baseurl_source: declared
-  description: Manage AsyncAPI specifications for data streams
-  name: Oracle GoldenGate AsyncAPI API
-  slug: oracle-goldengate-asyncapi-api
 - baseURL: https://<goldengate-host>:<port>/services/v2
   baseurl_source: declared
   description: Manage SSL certificates for deployments
@@ -230,6 +225,11 @@ apis:
   description: Track asynchronous operations
   name: Oracle GoldenGate Work Requests API
   slug: oracle-goldengate-work-requests-api
+- baseURL: https://<goldengate-host>:<port>/services/v2
+  baseurl_source: declared
+  description: Manage AsyncAPI specifications for data streams
+  name: Oracle GoldenGate Async API
+  slug: oracle-goldengate-async-api-api
 arazzos:
 - description: Create a credential alias, create a Replicat with a checkpoint table, and start it.
   name: Oracle GoldenGate Create and Start Replicat With Checkpoint
@@ -426,6 +426,10 @@ collections:
   name: Oracle GoldenGate for Big Data REST Artifacts Work Requests API
   slug: open-oracle-goldengate-work-requests-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/capabilities/oracle-goldengate-capability-edges.yml
   title: ''
@@ -4235,22 +4239,22 @@ jsonld:
   property_count: 0
   slug: oracle-goldengate-veridata-rest-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Oracle GoldenGate
 nav: Providers
 network: true
-overview: 'Oracle GoldenGate publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, AsyncAPI API, Certificates API, and 34 more. Tagged areas include Change Data Capture, Data Integration, Data Synchronization, Database, and Enterprise.
+overview: 'Oracle GoldenGate publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Artifacts API, Certificates API, Commands API, and 34 more. Tagged areas include Change Data Capture, Data Integration, Data Synchronization, Database, and Enterprise.
 
 
   The Oracle GoldenGate catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle GoldenGate''s developer surface includes authentication, developer portal, engineering blog, pricing, getting-started guide, documentation, signup flow, and 36 more developer resources.'
+  Oracle GoldenGate''s developer surface includes authentication, developer portal, engineering blog, pricing, getting-started guide, documentation, signup flow, and 37 more developer resources.'
 plans:
 - name: Oracle Goldengate Plans Pricing
   plan_count: 3
   slug: oracle-goldengate-plans-pricing
-random_paper: 3
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Oracle Goldengate Rate Limits
@@ -4307,7 +4311,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -4338,5 +4342,5 @@ use_cases:
 - Cloud migration from on-premises Oracle databases to OCI
 - Data verification and compliance auditing
 - Real-time analytics pipeline construction
-website: https://www.oracle.com/integration/goldengate/
+website: https://oracle.com
 ---

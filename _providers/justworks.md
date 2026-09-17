@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -66,11 +66,6 @@ apis:
   slug: justworks-webhooks-api
 - baseURL: https://public-api.justworks.com
   baseurl_source: spec
-  description: OAuth 2.0 token endpoints for the Justworks Partner API. Authorization code is the only supported grant for initial token acquisition; refresh token grant is supported for renewal. Access tokens are v
-  name: Justworks OAuth API
-  slug: justworks-oauth-api
-- baseURL: https://public-api.justworks.com
-  baseurl_source: spec
   description: Read access to Justworks deduction type catalog
   name: Justworks Deduction Types API
   slug: justworks-deduction-types-api
@@ -99,6 +94,11 @@ apis:
   description: Read access to time-off requests submitted by members
   name: Justworks Time Off Requests API
   slug: justworks-time-off-requests-api
+- baseURL: https://public-api.justworks.com
+  baseurl_source: spec
+  description: OAuth 2.0 token endpoints
+  name: Justworks O Auth API
+  slug: justworks-oauth-api
 artifact_total: 59
 collections:
 - collection_type: open
@@ -303,7 +303,7 @@ modified: '2026-05-25'
 name: Justworks
 nav: Providers
 network: true
-overview: 'Justworks publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Members API, Company API, Deductions API, and 8 more. Tagged areas include PEO, Payroll, HR, Human Resources, and Benefits.
+overview: 'Justworks publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Members API, Company API, Deductions API, and 8 more. Tagged areas include PEO, Payroll, Human Resources, Benefits, and Health Insurance.
 
 
   The Justworks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -314,7 +314,7 @@ plans:
 - name: Justworks Plans Pricing
   plan_count: 5
   slug: justworks-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Justworks Rate Limits
@@ -374,7 +374,7 @@ score:
     regime_id: insurance
     score: 64.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -397,7 +397,6 @@ slug: justworks
 tags:
 - PEO
 - Payroll
-- HR
 - Human Resources
 - Benefits
 - Health Insurance

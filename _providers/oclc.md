@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Discovery API allows you to surface both WorldCat and WorldCat Discovery central index data in search results, including: Materials held by your library and ...'
@@ -41,6 +41,10 @@ apis:
   slug: oclc
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oclc.org
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/oclc/refs/heads/main/security/oclc-domain-security.yml
   title: ''
@@ -62,19 +66,19 @@ finops:
   slug: oclc-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oclc.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: OCLC
 nav: Providers
 network: true
 overview: 'OCLC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Library, WorldCat, Discovery, and Bibliographic.
 
 
-  OCLC''s developer surface includes engineering blog and 2 more developer resources.'
+  OCLC''s developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Oclc Plans Pricing
   plan_count: 3
   slug: oclc-plans-pricing
-random_paper: 18
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Oclc Rate Limits
@@ -105,7 +109,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -123,4 +127,5 @@ tags:
 - WorldCat
 - Discovery
 - Bibliographic
+website: https://oclc.org
 ---

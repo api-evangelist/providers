@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: 'Read-only REST API over calls that have finished processing on the Allo-Media platform — transcription, redaction, analysis and tagging complete. Three operations: list calls with date/status filters '
@@ -231,7 +231,7 @@ plans:
 - name: Allo Media Plans Pricing
   plan_count: 0
   slug: allo-media-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Allo Media Rate Limits
@@ -272,7 +272,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

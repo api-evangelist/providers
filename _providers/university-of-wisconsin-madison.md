@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 12
 apis:
 - baseURL: https://api.wisc.edu
@@ -126,11 +126,6 @@ apis:
   slug: university-of-wisconsin-madison-degrees-api
 - baseURL: https://api.wisc.edu
   baseurl_source: declared
-  description: The emailAddresses API from University of Wisconsin-Madison — 1 operation(s) for emailaddresses.
-  name: University of Wisconsin-Madison Email Addresses API
-  slug: university-of-wisconsin-madison-emailaddresses-api
-- baseURL: https://api.wisc.edu
-  baseurl_source: declared
   description: The exports API from University of Wisconsin-Madison — 2 operation(s) for exports.
   name: University of Wisconsin-Madison Exports API
   slug: university-of-wisconsin-madison-exports-api
@@ -179,11 +174,6 @@ apis:
   description: The people API from University of Wisconsin-Madison — 2 operation(s) for people.
   name: University of Wisconsin-Madison People API
   slug: university-of-wisconsin-madison-people-api
-- baseURL: https://api.wisc.edu
-  baseurl_source: declared
-  description: The phoneNumbers API from University of Wisconsin-Madison — 1 operation(s) for phonenumbers.
-  name: University of Wisconsin-Madison Phone Numbers API
-  slug: university-of-wisconsin-madison-phonenumbers-api
 - baseURL: https://api.wisc.edu
   baseurl_source: declared
   description: The Research API from University of Wisconsin-Madison — 6 operation(s) for research.
@@ -239,6 +229,16 @@ apis:
   description: The Worktags API from University of Wisconsin-Madison — 31 operation(s) for worktags.
   name: University of Wisconsin-Madison Worktags API
   slug: university-of-wisconsin-madison-worktags-api
+- baseURL: https://api.wisc.edu
+  baseurl_source: declared
+  description: The Email Addresses API from University of Wisconsin-Madison — 1 operation(s) for email addresses.
+  name: University of Wisconsin-Madison Email Addresses API
+  slug: university-of-wisconsin-madison-email-addresses-api
+- baseURL: https://api.wisc.edu
+  baseurl_source: declared
+  description: The Phone Numbers API from University of Wisconsin-Madison — 1 operation(s) for phone numbers.
+  name: University of Wisconsin-Madison Phone Numbers API
+  slug: university-of-wisconsin-madison-phone-numbers-api
 artifact_total: 64
 common:
 - group: other
@@ -464,7 +464,7 @@ plans:
 - name: University Of Wisconsin Madison Plans Pricing
   plan_count: 2
   slug: university-of-wisconsin-madison-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: University Of Wisconsin Madison Rate Limits
@@ -499,7 +499,7 @@ score:
   facets:
     access_clarity: 63.2
     contract_governance: 31.8
-    contract_quality: 69.0
+    contract_quality: 69.1
     developer_ergonomics: 35.7
     discoverability: 50.0
     operational_transparency: 23.7
@@ -516,7 +516,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 65.8
+      marker_coverage: 7.9
       total: 38
   regulatory:
     applies: true
@@ -525,7 +525,7 @@ score:
     regime_id: education
     score: 79.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

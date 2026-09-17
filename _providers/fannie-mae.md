@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 6
 common:
@@ -184,7 +184,7 @@ modified: '2026-09-07'
 name: Fannie Mae
 nav: Providers
 network: true
-overview: 'Fannie Mae is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Housing, Mortgages, Finance, and GSE.
+overview: 'Fannie Mae is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Housing, Mortgage, Finance, and GSE.
 
 
   Fannie Mae''s developer surface includes product news, engineering blog, documentation, getting-started guide, support, signup flow, authentication, and 25 more developer resources.'
@@ -208,7 +208,7 @@ press:
 - date: '2026-05-25'
   title: Mortgage Lender Sentiment Survey
   url: https://www.fanniemae.com/data-and-insights/surveys/mortgage-lender-sentiment-survey
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Fannie Mae Rate Limits
@@ -246,7 +246,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -270,7 +270,7 @@ slug: fannie-mae
 tags:
 - Federal-Government
 - Housing
-- Mortgages
+- Mortgage
 - Finance
 - GSE
 - Fortune 100

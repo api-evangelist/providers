@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api-qa.phenompro.com
@@ -250,11 +250,11 @@ modified: '2026-07-20'
 name: Phenom
 nav: Providers
 network: true
-overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Applications API, Candidates API, and 6 more. Tagged areas include Company, HR Tech, Talent Experience, Recruiting, and Applicant Tracking.
+overview: 'Phenom publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Applications API, Candidates API, and 6 more. Tagged areas include Company, Human Resources, Talent Experience, Recruiting, and Applicant Tracking.
 
 
   Phenom''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 21 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: developing
   composite: 44.4
@@ -289,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -311,7 +311,7 @@ security:
 slug: phenom
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Talent Experience
 - Recruiting
 - Applicant Tracking

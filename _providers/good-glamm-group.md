@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -49,12 +49,12 @@ created: '2026-07-17'
 description: Good Glamm Group is an India-based content-to-commerce conglomerate in the personal care and cosmetics sector, founded in September 2021 by Darpan Sanghvi, Priyanka Gill, and Naiyya Saggi and briefly valued as a unicorn after 2021 Series D funding. Its house of brands includes MyGlamm, St.Botanica, The Moms Co, Sirona, Organic Harvest, POPxo, ScoopWhoop, BabyChakra, MissMalini, and Tweak, spanning India, Dubai, Singapore, and the USA. The group was surfaced as a portfolio company of Bessemer Venture Partners and Prosus Ventures. As of this enrichment pass the goodglamm.com domain serves a Corporate Insolvency Resolution Process (CIRP) stakeholder portal, and no public developer API or documentation surface was found.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/good-glamm-group.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Good Glamm Group
 nav: Providers
 network: true
 overview: Good Glamm Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Beauty, Personal Care, and Cosmetics.
-random_paper: 2
+random_paper: 14
 score:
   band: minimal
   composite: 5.0
@@ -82,7 +82,7 @@ score:
     - india-south-asia
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -105,5 +105,6 @@ tags:
 - E-Commerce
 - Content-to-Commerce
 - India
+- Direct to Consumer
 website: https://www.goodglamm.com/
 ---

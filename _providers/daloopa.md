@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://app.daloopa.com/api/v3
@@ -59,7 +59,7 @@ apis:
 - baseURL: https://app.daloopa.com/api/v3
   baseurl_source: declared
   description: The Daloopa MCP Service API from Daloopa — 1 operation(s) for daloopa mcp service.
-  name: Daloopa Daloopa MCP Service API
+  name: Daloopa MCP Service API
   slug: daloopa-daloopa-mcp-service-api
 - baseURL: https://app.daloopa.com/api/v3
   baseurl_source: declared
@@ -289,7 +289,7 @@ mcp_servers:
 - description: ''
   name: Daloopa MCP Server
   slug: daloopa-mcp-server-2
-modified: '2026-08-11'
+modified: '2026-09-16'
 name: Daloopa
 nav: Providers
 network: true
@@ -304,7 +304,7 @@ plans:
 - name: Daloopa Plans Pricing
   plan_count: 0
   slug: daloopa-plans-pricing
-random_paper: 1
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Daloopa Rate Limits
@@ -344,7 +344,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

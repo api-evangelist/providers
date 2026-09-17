@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 98
+- acting_count: 205
   human_in_the_loop: 0
   name: Marketo Agentic Access
-  operation_count: 166
+  operation_count: 367
   slug: marketo-agentic-access
-  summary_line: 166 operations · 98 acting
+  summary_line: 367 operations · 205 acting
 api_count: 6
 apis:
 - baseURL: https://{munchkinId}.mktorest.com/rest
@@ -251,11 +251,6 @@ apis:
   slug: marketo-program-members-api
 - baseURL: https://{munchkinId}.mktorest.com/rest
   baseurl_source: declared
-  description: Sales Persons Controller
-  name: Marketo Sales Persons API
-  slug: marketo-sales-persons-api
-- baseURL: https://{munchkinId}.mktorest.com/rest
-  baseurl_source: declared
   description: Tag Controller
   name: Marketo Tags API
   slug: marketo-tags-api
@@ -269,6 +264,11 @@ apis:
   description: Marketo Engage provides a set of User Management endpoints allow you to perform CRUD operations on user records in Marketo.
   name: Marketo User Management API
   slug: marketo-user-management-api
+- baseURL: https://{munchkinId}.mktorest.com/rest
+  baseurl_source: declared
+  description: Sales Persons Controller
+  name: Marketo Salespersons API
+  slug: marketo-salespersons-api
 artifact_total: 122
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the two event-shaped surfaces Marketo Engage (Adobe) exposes to integrators: 1. Outbound Webhooks fired from Smart Campaign "Call Webhook" flow steps. Marketo issues an HTT'
@@ -724,7 +724,7 @@ plans:
 - name: Marketo Plans Pricing
   plan_count: 0
   slug: marketo-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Marketo Rate Limits
@@ -776,7 +776,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

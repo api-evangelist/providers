@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ modified: '2026-05-19'
 name: Sandbox Banking
 nav: Providers
 network: true
-overview: 'Sandbox Banking publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Field Mappings API, Integrations API, and 3 more. Tagged areas include API Integration, Banking, Core Banking, Credit Unions, and Financial-Services.
+overview: 'Sandbox Banking publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Field Mappings API, Integrations API, and 3 more. Tagged areas include API Integration, Banking, Core Banking, Credit Union, and Financial-Services.
 
 
   The Sandbox Banking catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -223,7 +223,7 @@ plans:
 - name: Sandbox Banking Plans Pricing
   plan_count: 3
   slug: sandbox-banking-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Sandbox Banking Rate Limits
@@ -283,7 +283,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -303,7 +303,7 @@ tags:
 - API Integration
 - Banking
 - Core Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Fintech
 - Integration Platform

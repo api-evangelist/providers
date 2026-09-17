@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: ENS-PSL runs its own Shibboleth identity provider under its own registrable domain. The SAML 2.0 entity descriptor is served at https://federation.ens.psl.eu/idp/shibboleth (HTTP 200, application/xml)
@@ -155,7 +155,7 @@ plans:
 - name: Ens Paris Plans Pricing
   plan_count: 2
   slug: ens-paris-plans-pricing
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Ens Paris Rate Limits
@@ -196,7 +196,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

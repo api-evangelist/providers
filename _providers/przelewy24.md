@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -58,42 +58,42 @@ apis:
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The APay API API from Przelewy24 — 1 operation(s) for apay api.
-  name: Przelewy24 APay API API
+  name: Przelewy24 APay API
   slug: przelewy24-apay-api-api
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The BLIK API API from Przelewy24 — 4 operation(s) for blik api.
-  name: Przelewy24 BLIK API API
+  name: Przelewy24 BLIK API
   slug: przelewy24-blik-api-api
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The Card API API from Przelewy24 — 5 operation(s) for card api.
-  name: Przelewy24 Card API API
+  name: Przelewy24 Card API
   slug: przelewy24-card-api-api
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The Ekspres P24 API API from Przelewy24 — 10 operation(s) for ekspres p24 api.
-  name: Przelewy24 Ekspres P24 API API
+  name: Przelewy24 Ekspres P24 API
   slug: przelewy24-ekspres-p24-api-api
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The GPay API API from Przelewy24 — 1 operation(s) for gpay api.
-  name: Przelewy24 GPay API API
+  name: Przelewy24 GPay API
   slug: przelewy24-gpay-api-api
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The Marketplace Management API API from Przelewy24 — 5 operation(s) for marketplace management api.
-  name: Przelewy24 Marketplace Management API API
+  name: Przelewy24 Marketplace Management API
   slug: przelewy24-marketplace-management-api-api
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The Marketplace Merchant API API from Przelewy24 — 2 operation(s) for marketplace merchant api.
-  name: Przelewy24 Marketplace Merchant API API
+  name: Przelewy24 Marketplace Merchant API
   slug: przelewy24-marketplace-merchant-api-api
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The Marketplace Partner API API from Przelewy24 — 2 operation(s) for marketplace partner api.
-  name: Przelewy24 Marketplace Partner API API
+  name: Przelewy24 Marketplace Partner API
   slug: przelewy24-marketplace-partner-api-api
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
@@ -103,12 +103,12 @@ apis:
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The Report API API from Przelewy24 — 3 operation(s) for report api.
-  name: Przelewy24 Report API API
+  name: Przelewy24 Report API
   slug: przelewy24-report-api-api
 - baseURL: https://secure.przelewy24.pl/api/v1
   baseurl_source: declared
   description: The Transaction service API API from Przelewy24 — 2 operation(s) for transaction service api.
-  name: Przelewy24 Transaction service API API
+  name: Przelewy24 Transaction service API
   slug: przelewy24-transaction-service-api-api
 artifact_total: 449
 collections:
@@ -1476,11 +1476,11 @@ jsonld:
   property_count: 0
   slug: provider
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Przelewy24
 nav: Providers
 network: true
-overview: 'Przelewy24 publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Additional API functionality API, Additional services Mass Payments Transactions API, APay API API, and 10 more. Tagged areas include Payments, Payment Gateway, Bank Transfer, BLIK, and Card Payments.
+overview: 'Przelewy24 publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Additional API functionality API, Additional services Mass Payments Transactions API, APay API, and 10 more. Tagged areas include Payments, Payment Gateway, Bank Transfers, BLIK, and Card Payments.
 
 
   The Przelewy24 catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -1491,7 +1491,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1509,7 +1509,7 @@ rules:
   slug: przelewy24-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.2
+  composite: 43.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 62.3
@@ -1517,11 +1517,11 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 52.6
     contract_governance: 9.8
-    contract_quality: 58.2
+    contract_quality: 60.9
     developer_ergonomics: 45.2
     discoverability: 74.1
     operational_transparency: 15.8
@@ -1548,7 +1548,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1567,7 +1567,7 @@ slug: przelewy24
 tags:
 - Payments
 - Payment Gateway
-- Bank Transfer
+- Bank Transfers
 - BLIK
 - Card Payments
 - E-Commerce

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,9 +49,9 @@ apis:
   slug: api
 - baseURL: https://www.clarity.ms/
   baseurl_source: declared
-  description: 'Project live insights data export. One JWT-authenticated GET returns Clarity dashboard metrics as JSON for the last one to three days, sliced by up to three of nine dimensions. Capped at ten requests '
-  name: Microsoft Clarity DataExport API
-  slug: microsoft-clarity-dataexport-api
+  description: Project live insights data export
+  name: Microsoft Clarity Data Export API
+  slug: microsoft-clarity-data-export-api
 artifact_total: 13
 collections:
 - collection_type: open
@@ -64,6 +64,11 @@ collections:
   name: Microsoft Clarity Data Export API
   slug: open-microsoft-clarity
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/overlays/microsoft-clarity-dataexport-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/microsoft-clarity-dataexport-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -245,15 +250,15 @@ modified: '2026-08-13'
 name: Microsoft Clarity
 nav: Providers
 network: true
-overview: 'Microsoft Clarity publishes 1 API on the [APIs.io](https://apis.io/) network: DataExport API. Tagged areas include Analytics, Heatmaps, Session Recording, Web Analytics, and Behavioral Analytics.
+overview: 'Microsoft Clarity publishes 1 API on the [APIs.io](https://apis.io/) network: Data Export API. Tagged areas include Analytics, Heatmaps, Session Recording, Web Analytics, and Behavioral Analytics.
 
 
-  Microsoft Clarity''s developer surface includes authentication, changelog, developer portal, documentation, API reference, getting-started guide, pricing, and 29 more developer resources.'
+  Microsoft Clarity''s developer surface includes authentication, changelog, developer portal, documentation, API reference, getting-started guide, pricing, and 30 more developer resources.'
 plans:
 - name: Microsoft Clarity Plans Pricing
   plan_count: 1
   slug: microsoft-clarity-plans-pricing
-random_paper: 2
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Microsoft Clarity Rate Limits
@@ -288,7 +293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

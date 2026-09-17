@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 18
 apis:
 - description: 'Anonymous remote MCP server published by Emotive''s Mintlify knowledge base. Three tools — documentation search, a read-only virtual filesystem over the docs, and documentation feedback. Verified live '
@@ -111,11 +111,6 @@ apis:
   description: The Messaging API from Emotive — 1 operation(s) for messaging.
   name: Emotive Messaging API
   slug: emotive-messaging-api
-- baseURL: https://api.emotiveapp.co
-  baseurl_source: declared
-  description: The Oauth API from Emotive — 2 operation(s) for oauth.
-  name: Emotive OAUTH API
-  slug: emotive-oauth-api
 - baseURL: https://api.emotiveapp.co
   baseurl_source: declared
   description: Manual unsubscribe of a phone number.
@@ -216,6 +211,11 @@ apis:
   description: The Zapier Me API API from Emotive — 1 operation(s) for zapier me api.
   name: Emotive Zapier Me API
   slug: emotive-zapier-me-api-api
+- baseURL: https://help.emotive.io/mcp
+  baseurl_source: declared
+  description: The Oauth API from Emotive — 2 operation(s) for oauth.
+  name: Emotive OAUTH API
+  slug: emotive-oauth-api
 artifact_total: 42
 asyncapis:
 - description: ''
@@ -373,6 +373,10 @@ common:
   title: ''
   type: Components
   url: components/emotive-components.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:info@emotive.io
 created: '2026-07-17'
 description: 'Emotive is an SMS marketing platform for eCommerce brands, combining two-way conversational text messaging, behavioral triggers, and automation with a dedicated managed service (TextPros) of ex-agency SMS strategists and copywriters. Its products include SMS Marketing campaigns and flows, CartAI cart-recovery pixel technology, multi-touch Attribution analytics, RealLink branded short links, and integrations with eCommerce platforms, email service providers, and business tools. Emotive markets a "5X ROI guarantee" to Shopify and other direct-to-consumer merchants. The company was surfaced as a portfolio company of CRV and was acquired by Privy. Emotive runs a real, publicly documented developer surface: an Open API for order tracking, manual opt-outs and custom events on api.emotiveapp.co; a Lists / Subscriber API documented in GitBook; and an API gateway at api-gw.emotiveapp.co that serves five OpenAPI 3.0.2 documents (Helpdesk, Sensus Webhooks, Auth Server, Segments, Experiences).
   Its Mintlify knowledge base publishes an llms.txt, an A2A agent card, a packaged Agent Skill and an anonymous remote MCP server.'
@@ -392,19 +396,19 @@ overview: 'Emotive publishes 35 APIs on the [APIs.io](https://apis.io/) network,
   The Emotive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Emotive''s developer surface includes pricing, engineering blog, support, documentation, API reference, getting-started guide, and 27 more developer resources.'
+  Emotive''s developer surface includes pricing, engineering blog, support, documentation, API reference, getting-started guide, and 28 more developer resources.'
 plans:
 - name: Emotive Plans Pricing
   plan_count: 0
   slug: emotive-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Emotive Rate Limits
   slug: emotive-rate-limits
 score:
   band: developing
-  composite: 52.1
+  composite: 52.0
   coverage:
     artifact_dirs: 23
     catalog_earned: 40.0
@@ -412,11 +416,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 46.1
     contract_governance: 18.2
-    contract_quality: 56.3
+    contract_quality: 55.6
     developer_ergonomics: 64.3
     discoverability: 81.5
     operational_transparency: 23.7
@@ -424,9 +428,9 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 10.7
       derived: 0
-      marker_coverage: 88.6
+      marker_coverage: 0.0
       total: 35
     mcp: first-party
     skills: first-party
@@ -437,7 +441,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

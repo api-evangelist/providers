@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 2
@@ -119,11 +119,6 @@ apis:
   slug: hugging-face-transformers-notifications-api
 - baseURL: https://api-inference.huggingface.co
   baseurl_source: declared
-  description: The following endpoints are for use with OAuth.
-  name: Hugging Face Transformers oauth API
-  slug: hugging-face-transformers-oauth-api
-- baseURL: https://api-inference.huggingface.co
-  baseurl_source: declared
   description: The following endpoints let you interact with Hub Organizations and their members.
   name: Hugging Face Transformers orgs API
   slug: hugging-face-transformers-orgs-api
@@ -172,6 +167,11 @@ apis:
   description: The following endpoints are for use with webhooks.
   name: Hugging Face Transformers webhooks API
   slug: hugging-face-transformers-webhooks-api
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints are for use with OAuth.
+  name: Hugging Face Transformers OAUTH API
+  slug: hugging-face-transformers-oauth-api
 artifact_total: 62
 collections:
 - collection_type: open
@@ -441,7 +441,7 @@ plans:
 - name: Hugging Face Transformers Plans Pricing
   plan_count: 3
   slug: hugging-face-transformers-plans-pricing
-random_paper: 11
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Hugging Face Transformers Rate Limits
@@ -453,7 +453,7 @@ scopes:
   summary_line: 15 scopes · authorizationCode/deviceCode
 score:
   band: strong
-  composite: 57.2
+  composite: 57.8
   coverage:
     artifact_dirs: 25
     catalog_earned: 41.0
@@ -461,11 +461,11 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 52.5
+    contract_quality: 55.2
     developer_ergonomics: 50.0
     discoverability: 59.3
     operational_transparency: 36.8
@@ -483,7 +483,7 @@ score:
       total: 23
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

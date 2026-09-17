@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: AI-powered product photo generation API. Create stunning product photos without Photoshop skills. Includes background creation, background removal, and bulk image generation capabilities.
@@ -90,7 +90,7 @@ plans:
 - name: Pebblely Plans Pricing
   plan_count: 3
   slug: pebblely-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Pebblely Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The Blue Origin Shop storefront exposes an anonymous Model Context Protocol endpoint at https://shop.blueorigin.com/api/mcp. A live tools/list returned five tools with full JSON Schema draft 2020-12 i
@@ -166,7 +166,7 @@ overview: 'Blue Origin publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Blue Origin''s developer surface includes engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 4
+random_paper: 17
 scopes:
 - name: Blue Origin Scopes
   scope_count: 38
@@ -196,7 +196,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -218,7 +218,7 @@ tags:
 - Space
 - Spaceflight
 - Launch Services
-- Satellites
+- Satellite
 - Rocket Engines
 - Defense
 - Manufacturing

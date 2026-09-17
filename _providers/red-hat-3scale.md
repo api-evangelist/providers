@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -93,11 +93,6 @@ apis:
   slug: red-hat-3scale-invoices-api
 - baseURL: https://su1.3scale.net
   baseurl_source: declared
-  description: OAuth 2.0 token authorization endpoints
-  name: Red Hat 3scale OAuth API
-  slug: red-hat-3scale-oauth-api
-- baseURL: https://su1.3scale.net
-  baseurl_source: declared
   description: View payment transactions associated with invoices
   name: Red Hat 3scale Payment Transactions API
   slug: red-hat-3scale-payment-transactions-api
@@ -116,6 +111,11 @@ apis:
   description: Manage API services and their settings
   name: Red Hat 3scale Services API
   slug: red-hat-3scale-services-api
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: OAuth 2.0 token authorization endpoints
+  name: Red Hat 3scale O Auth API
+  slug: red-hat-3scale-oauth-api
 artifact_total: 94
 collections:
 - collection_type: postman
@@ -521,7 +521,7 @@ plans:
 - name: Red Hat 3Scale Plans Pricing
   plan_count: 2
   slug: red-hat-3scale-plans-pricing
-random_paper: 12
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Red Hat 3Scale Rate Limits
@@ -578,7 +578,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

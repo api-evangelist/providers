@@ -24,61 +24,271 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-15'
-api_count: 10
+  scored_at: '2026-09-16'
+api_count: 20
 apis:
 - baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: Enterprise API for enforcing policy transactions and validations across the in-force annuity and life book - financial and non-financial transaction management, policy party management, systematic pro
-  name: Zinnia Policy Transactions API
-  slug: zinnia-policy-transactions-api
-- baseURL: https://api.zinnia.io
+  description: EAPP API Health Check and Annuity (Annuity app validation, app processing, payment processing, TOA, eApp, and suitability) services Health check
+  name: Zinnia Annuity Health Check API
+  slug: zinnia-annuity-health-check-api
+- baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: Central policy record service for the life and annuity policy lifecycle - policy detail retrieval by plan code and policy number, policy version history with filtering and pagination, one-time premium
-  name: Zinnia Policy Service API
-  slug: zinnia-policy-service-api
-- baseURL: https://uat.api.zinnia.io
+  description: EAPP API Version 1
+  name: Zinnia Annuity Version 1 API
+  slug: zinnia-annuity-version-1-api
+- baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: Headless order entry API that lets external distribution platforms, banks, broker-dealers and IMOs electronically initiate, save-and-resume, validate and submit life insurance and annuity applications
-  name: Zinnia Market Connect Order Entry API
-  slug: zinnia-market-connect-order-entry-api
-- baseURL: https://dev.api.zinnia.io
+  description: EAPP API Version 2
+  name: Zinnia Annuity Version 2 API
+  slug: zinnia-annuity-version-2-api
+- baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: Illustration generation service for life and annuity products - synchronous and asynchronous illustration requests, in-force, new-business and administration calculation modes, raw numeric projections
-  name: Zinnia Illustration Generation API
-  slug: zinnia-illustration-generation-api
-- baseURL: https://api.zinnia.io
+  description: Attachment operations for transaction documents.
+  name: Zinnia Attachment API
+  slug: zinnia-attachment-api
+- baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: The Enterprise Document Service (EDS) is the system of record for documents across Zinnia's life insurance and annuity platforms. Documents are stored once and can be retrieved, updated or searched th
-  name: Zinnia Enterprise Documents API
-  slug: zinnia-enterprise-documents-api
-- baseURL: https://api.zinnia.io
+  description: The Authorization Status Update API from Zinnia — 1 operation(s) for authorization status update.
+  name: Zinnia Authorization Status Update API
+  slug: zinnia-authorization-status-update-api
+- baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: Life new business API covering application intake, requirement and case orchestration, party and agent validation, and DTCC-referenced downstream handoff for the Zinnia life new business platform.
-  name: Zinnia New Business API
-  slug: zinnia-new-business-api
-- baseURL: https://api.zinnia.io
+  description: Manages cases for all processes
+  name: Zinnia Case Instance API
+  slug: zinnia-case-instance-api
+- baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: Annuity new business API for application submission, case status, requirements and DTCC participant resolution on the Zinnia annuity origination platform.
+  description: The ClientCase API from Zinnia — 9 operation(s) for clientcase.
+  name: Zinnia Client Case API
+  slug: zinnia-clientcase-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Comment management operations (save, list, and delete transaction comments)
+  name: Zinnia Comments API
+  slug: zinnia-comments-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Dataset operations
+  name: Zinnia Dataset API
+  slug: zinnia-dataset-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Get policy details
+  name: Zinnia Details API
+  slug: zinnia-details-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The Documents V2 API from Zinnia — 3 operation(s) for documents v2.
+  name: Zinnia Documents V2 API
+  slug: zinnia-documents-v2-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The Documents V3 API from Zinnia — 4 operation(s) for documents v3.
+  name: Zinnia Documents V3 API
+  slug: zinnia-documents-v3-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Financial Transactions
+  name: Zinnia Financial Transactions API
+  slug: zinnia-financial-transactions-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The Health API from Zinnia — 2 operation(s) for health.
+  name: Zinnia Health API
+  slug: zinnia-health-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Hybrid-IUL/Term product illustrations
+  name: Zinnia Hybrid-IUL-Term (HIT) Illustrations API
+  slug: zinnia-hybrid-iul-term-hit-illustrations-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: API Endpoints for use by the internal illustration engines
+  name: Zinnia Illustration Engine API
+  slug: zinnia-illustration-engine-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Term Life product illustrations
+  name: Zinnia Indexed Universal Life (IUL) Illustrations API
+  slug: zinnia-indexed-universal-life-iul-illustrations-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Get policy metrics
+  name: Zinnia Metrics API
+  slug: zinnia-metrics-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: New Business Annuity Application Submission API Version 3
   name: Zinnia New Business Annuity API
   slug: zinnia-new-business-annuity-api
-- baseURL: https://uat.api.zinnia.io
+- baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: Product configuration and reference data service - product definitions, features, eligibility rules and related metadata for insurance and financial offerings, so partners can configure, present and i
-  name: Zinnia Product Service API
-  slug: zinnia-product-service-api
-- baseURL: https://api.zinnia.io
+  description: The New Business Life API from Zinnia — 1 operation(s) for new business life.
+  name: Zinnia New Business Life API
+  slug: zinnia-new-business-life-api
+- baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: Case orchestration API for creating and retrieving case instances that group the documents, requirements and transactions belonging to a single piece of work across the Zinnia platform.
-  name: Zinnia Case Management API
-  slug: zinnia-case-management-api
-- baseURL: https://uat.api.zinnia.io
+  description: New Business Orchestration Services Version 1
+  name: Zinnia New Business Transactions V1 API
+  slug: zinnia-new-business-transactions-v1-api
+- baseURL: https://qa.api.zinnia.io
   baseurl_source: declared
-  description: Client case manager for the illustration workflow - create, search, retrieve and update the client-level cases that illustration requests are generated against.
-  name: Zinnia Illustration Client Cases API
-  slug: zinnia-illustration-client-cases-api
-artifact_total: 15
+  description: New Business Orchestration Services Version 2
+  name: Zinnia New Business Transactions V2 API
+  slug: zinnia-new-business-transactions-v2-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Non Financial Transactions
+  name: Zinnia Non Financial Transactions API
+  slug: zinnia-non-financial-transactions-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Get policy overview
+  name: Zinnia Overview API
+  slug: zinnia-overview-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: All Apis related to policy operations
+  name: Zinnia Policy - Transactions API
+  slug: zinnia-policy-transactions-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The Product API from Zinnia — 1 operation(s) for product.
+  name: Zinnia Product API
+  slug: zinnia-product-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The product-eligibility API from Zinnia — 1 operation(s) for product-eligibility.
+  name: Zinnia Product Eligibility API
+  slug: zinnia-product-eligibility-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The Product V2 API from Zinnia — 2 operation(s) for product v2.
+  name: Zinnia Product V2 API
+  slug: zinnia-product-v2-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Ref-Data
+  name: Zinnia Ref Data API
+  slug: zinnia-ref-data-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The Reference Schemas API from Zinnia — 3 operation(s) for reference schemas.
+  name: Zinnia Reference Schemas API
+  slug: zinnia-reference-schemas-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Reviewer workflow actions (Approved, Declined, Terminate) forwarded to the product order-entry service
+  name: Zinnia Reviewer Action API
+  slug: zinnia-revieweraction-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Search for policies
+  name: Zinnia Search API
+  slug: zinnia-search-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The TaxForms V2 API from Zinnia — 2 operation(s) for taxforms v2.
+  name: Zinnia TaxForms V2 API
+  slug: zinnia-taxforms-v2-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The TaxForms V3 API from Zinnia — 2 operation(s) for taxforms v3.
+  name: Zinnia TaxForms V3 API
+  slug: zinnia-taxforms-v3-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Term Life product illustrations
+  name: Zinnia Term Life (TL) Illustrations API
+  slug: zinnia-term-life-tl-illustrations-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Transaction management operations
+  name: Zinnia Transaction API
+  slug: zinnia-transaction-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: The TransactionData API from Zinnia — 1 operation(s) for transactiondata.
+  name: Zinnia Transaction Data API
+  slug: zinnia-transactiondata-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Eligibility evaluation for different operations
+  name: Zinnia Transactions Eligibility API
+  slug: zinnia-transactions-eligibility-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Utility operations
+  name: Zinnia Utility API
+  slug: zinnia-utility-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Whole Life product illustrations
+  name: Zinnia Whole Life (WL) Illustrations API
+  slug: zinnia-whole-life-wl-illustrations-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: 'E-signature for DocuSign: load recipients, submit the case, poll signer status, cancel ceremony (void envelope; Pending), and retrigger signing email when in progress'
+  name: Zinnia Esignature API
+  slug: zinnia-esignature-api
+- baseURL: https://qa.api.zinnia.io
+  baseurl_source: declared
+  description: Product pricing retrieval for a transaction
+  name: Zinnia Product Pricing API
+  slug: zinnia-product-pricing-api
+artifact_total: 47
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-policy-transactions-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-policy-transactions-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-policy-service-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-policy-service-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-market-connect-order-entry-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-market-connect-order-entry-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-illustration-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-illustration-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-documents-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-documents-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-new-business-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-new-business-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-new-business-annuity-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-new-business-annuity-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-product-service-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-product-service-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-case-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-case-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/overlays/zinnia-illustration-client-cases-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zinnia-illustration-client-cases-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/security/zinnia-domain-security.yml
   title: ''
@@ -197,15 +407,15 @@ modified: '2026-09-13'
 name: Zinnia
 nav: Providers
 network: true
-overview: 'Zinnia publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Policy Transactions API, Policy Service API, Market Connect Order Entry API, and 7 more. Tagged areas include Insurance, Life Insurance, Annuities, Policy Administration, and Insurtech.
+overview: 'Zinnia publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Annuity Health Check API, Annuity Version 1 API, Annuity Version 2 API, and 39 more. Tagged areas include Insurance, Life Insurance, Annuities, Policy Administration, and Insurtech.
 
 
-  Zinnia''s developer surface includes authentication, documentation, API reference, engineering blog, support, changelog, and 18 more developer resources.'
+  Zinnia''s developer surface includes authentication, documentation, API reference, engineering blog, support, changelog, and 28 more developer resources.'
 plans:
 - name: Zinnia Plans Pricing
   plan_count: 0
   slug: zinnia-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Zinnia Rate Limits
@@ -217,21 +427,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.5
+  composite: 48.3
   coverage:
     artifact_dirs: 19
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 59.7
+    contract_quality: 61.3
     developer_ergonomics: 47.0
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 15.8
   previous_composite: 48.5
   provenance:
@@ -240,7 +450,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 42
     mcp: derived
     skills: derived
   regulatory:
@@ -250,7 +460,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

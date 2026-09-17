@@ -1,7 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -12,32 +11,122 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 50.9
-  scored_at: '2026-09-15'
+  score: 59.5
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.entergram.com
   baseurl_source: declared
-  description: ''
-  name: Entergram API
-  slug: entergram-api
-artifact_total: 10
+  description: Connected account inventory.
+  name: Entergram Accounts API
+  slug: entergram-accounts-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Telegram chat creation and group/channel management commands scoped to an explicit connected account.
+  name: Entergram Chat Commands API
+  slug: entergram-chat-commands-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Actor-scoped chats, linked tickets, and internal chat comments keyed by Telegram chat ID.
+  name: Entergram Chats API
+  slug: entergram-chats-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Workspace contacts deduplicated across connected accounts, including shared groups and attribution.
+  name: Entergram Contacts API
+  slug: entergram-contacts-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Workspace chat custom columns, ticket custom columns, selectable options, and workspace-shared chat custom field values.
+  name: Entergram Custom Fields API
+  slug: entergram-custom-fields-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Metadata-only, cursor-based workspace event stream for resumable integrations.
+  name: Entergram Events API
+  slug: entergram-events-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Workspace groups derived from shared-contact graph, with invite-link and member metadata when cached.
+  name: Entergram Groups API
+  slug: entergram-groups-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Actor-owned live Telegram transport view used for current chat discovery before message operations.
+  name: Entergram Live Chats API
+  slug: entergram-live-chats-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: The Make webhooks API from Entergram — 2 operation(s) for make webhooks.
+  name: Entergram Make webhooks API
+  slug: entergram-make-webhooks-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Safe workspace member identity, role, permissions, and seat assignment metadata.
+  name: Entergram Members API
+  slug: entergram-members-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Telegram message history and message write operations scoped to an explicit account and chat.
+  name: Entergram Messages API
+  slug: entergram-messages-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Authentication and runtime context.
+  name: Entergram System API
+  slug: entergram-system-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Workspace ticket inventory, ticket detail, comments, and linked chat filters.
+  name: Entergram Tickets API
+  slug: entergram-tickets-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: API-only webhook endpoint configuration, secret rotation, tests, and sanitized delivery status.
+  name: Entergram Webhooks API
+  slug: entergram-webhooks-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Workspace metadata and feature access.
+  name: Entergram Workspace API
+  slug: entergram-workspace-api
+- baseURL: https://api.entergram.com
+  baseurl_source: declared
+  description: Shared CRM chat view from frontend DB, deduplicated across workspace accounts and suited for metadata, custom fields, and ticket workflows.
+  name: Entergram Workspace Chats API
+  slug: entergram-workspace-chats-api
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Entergram Webhooks
   slug: entergram-webhooks
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/mcp/entergram-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/entergram-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/overlays/entergram-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/entergram-openapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -154,18 +243,18 @@ modified: '2026-09-11'
 name: Entergram
 nav: Providers
 network: true
-overview: 'Entergram publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Messaging, Notification, Communications, CRM, and Telegram.
+overview: 'Entergram publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Chat Commands API, Chats API, and 13 more. Tagged areas include Messaging, Notification, Communications, CRM, and Telegram.
 
 
   The Entergram catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Entergram''s developer surface includes documentation, API reference, pricing, support, engineering blog, changelog, and 17 more developer resources.'
+  Entergram''s developer surface includes documentation, API reference, pricing, support, engineering blog, changelog, and 20 more developer resources.'
 plans:
 - name: Entergram Plans Pricing
   plan_count: 3
   slug: entergram-plans-pricing
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Entergram Rate Limits
@@ -176,8 +265,8 @@ scopes:
   slug: entergram-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 58.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 49.0
@@ -185,21 +274,26 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.9
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 48.1
+    contract_quality: 63.6
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 50.0
   previous_composite: 54.1
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

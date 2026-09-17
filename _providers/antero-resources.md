@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Antero Resources Corporation (NYSE: AR) files annual reports (10-K), quarterly reports (10-Q), current reports (8-K), proxy statements, and other regulatory disclosures with the U.S. Securities and Ex'
@@ -141,7 +141,7 @@ press:
 - date: '2026-02-11'
   title: Antero Resources Announces Fourth Quarter 2025 Results and 2026 Guidance
   url: https://www.anteroresources.com/news-events/press-releases/detail/255/antero-resources-announces-fourth-quarter-2025-results-and
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Antero Resources Rate Limits
@@ -174,7 +174,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

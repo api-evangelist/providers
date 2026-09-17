@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: templated
@@ -34,15 +34,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.8
-  scored_at: '2026-09-15'
+  score: 48.7
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 15
-  human_in_the_loop: 0
+- acting_count: 64
+  human_in_the_loop: 21
   name: Dynatrace Agentic Access
-  operation_count: 37
+  operation_count: 133
   slug: dynatrace-agentic-access
-  summary_line: 37 operations · 15 acting
+  summary_line: 133 operations · 64 acting · 21 human-in-the-loop
 api_count: 6
 apis:
 - description: The Dynatrace Environment API provides access to monitoring data and configuration settings for a specific Dynatrace environment. It includes endpoints for metrics, problems, events, logs, entities, s
@@ -165,6 +165,76 @@ apis:
   description: Operations for managing account users
   name: Dynatrace Users API
   slug: dynatrace-users-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Access account-level audit logs.
+  name: Dynatrace Account Audits API
+  slug: dynatrace-account-audits-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Retrieve the limits configured for an account.
+  name: Dynatrace Account limits API
+  slug: dynatrace-account-limits-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Manage account settings such as cost-center and product field values.
+  name: Dynatrace Account Settings API
+  slug: dynatrace-account-settings-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: View platform subscriptions and their usage, cost, forecast, and rate-card data.
+  name: Dynatrace Dynatrace Platform Subscription API
+  slug: dynatrace-dynatrace-platform-subscription-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: List environments and clusters and manage their IP allowlist configuration.
+  name: Dynatrace Environment management API
+  slug: dynatrace-environment-management-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Create and manage user groups and their members.
+  name: Dynatrace Group management API
+  slug: dynatrace-group-management-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Manage notifications for an account.
+  name: Dynatrace Notifications API
+  slug: dynatrace-notifications-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Manage group permissions (deprecated; use policy management instead).
+  name: Dynatrace Permission management API
+  slug: dynatrace-permission-management-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Manage platform tokens for account users.
+  name: Dynatrace Platform tokens API
+  slug: dynatrace-platform-tokens-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Manage IAM policies, policy bindings, and permission boundaries.
+  name: Dynatrace Policy management API
+  slug: dynatrace-policy-management-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Look up reference data such as time zones, regions, and available permissions.
+  name: Dynatrace Reference data API
+  slug: dynatrace-reference-data-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Manage service users within an account.
+  name: Dynatrace Service user management API
+  slug: dynatrace-service-user-management-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Manage users in an account and their group memberships.
+  name: Dynatrace User management API
+  slug: dynatrace-user-management-api
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Manage workload identity federation trust policies and their service-user mappings.
+  name: Dynatrace Workload Identity Federation API
+  slug: dynatrace-workload-identity-federation-api
 arazzos:
 - description: Enumerate users, groups, and permissions across a Dynatrace account for an access review.
   name: Dynatrace Audit Account Access
@@ -211,7 +281,7 @@ arazzos:
 - description: Resolve a service by name, read its details, and list problems impacting it.
   name: Dynatrace Find Problems Affecting a Named Service
   slug: dynatrace-service-problem-lookup-workflow
-artifact_total: 530
+artifact_total: 544
 asyncapis:
 - description: Dynatrace delivers problem lifecycle notifications to client-provided webhook endpoints via HTTP POST. When a problem is opened, updated, merged, or resolved, Dynatrace sends a notification payload to
   name: Dynatrace Problem Notifications API
@@ -2128,7 +2198,7 @@ modified: '2026-08-29'
 name: Dynatrace
 nav: Providers
 network: true
-overview: 'Dynatrace publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Environments API, Events API, and 6 more. Tagged areas include AI Operations, Analytics, APM, Application Performance Monitoring, and Application Security.
+overview: 'Dynatrace publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Environments API, Events API, and 20 more. Tagged areas include AI Operations, Analytics, APM, Application Performance Monitoring, and Application Security.
 
 
   The Dynatrace catalog on APIs.io includes 1 event-driven AsyncAPI specification, 21 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -2139,7 +2209,7 @@ plans:
 - name: Dynatrace Plans Pricing
   plan_count: 12
   slug: dynatrace-plans-pricing
-random_paper: 10
+random_paper: 9
 rate_limits:
 - limit_count: 8
   name: Dynatrace Rate Limits
@@ -2184,7 +2254,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 86.5
+  composite: 84.4
   coverage:
     artifact_dirs: 36
     catalog_earned: 94.5
@@ -2192,11 +2262,11 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 86.8
+    contract_quality: 78.3
     developer_ergonomics: 88.7
     discoverability: 75.9
     operational_transparency: 94.7
@@ -2205,14 +2275,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 90.0
+      callable: 39.1
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 23
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

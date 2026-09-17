@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ plans:
 - name: Skimbit Plans Pricing
   plan_count: 0
   slug: skimbit-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Skimbit Rate Limits
@@ -307,7 +307,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 60.7
+    contract_quality: 60.4
     developer_ergonomics: 47.0
     discoverability: 81.5
     operational_transparency: 39.5
@@ -323,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

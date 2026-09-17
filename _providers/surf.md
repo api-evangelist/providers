@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: OpenAI-style Chat/Research API. POST /responses with a surf-2.0 or surf-2.0-instant model and a natural-language crypto question; returns synthesized answers with inline citations drawn from live mark
@@ -69,11 +69,6 @@ apis:
   description: Stay up to date with crypto news. Browse the latest articles from major crypto media outlets, read full article content, and search across all sources by keyword.
   name: Surf News API
   slug: surf-news-api
-- baseURL: https://api.asksurf.ai/gateway/v1
-  baseurl_source: declared
-  description: Query blockchain data directly. Look up transaction details by hash, check gas prices, and run structured or raw SQL queries against indexed blockchain datasets spanning Ethereum, Base, Solana, and mo
-  name: Surf Onchain API
-  slug: surf-onchain-api
 - baseURL: https://api.asksurf.ai/gateway/v1
   baseurl_source: declared
   description: Track prediction markets on Polymarket and Kalshi. Browse events and markets, view live prices and odds, analyze trading volume and open interest history, inspect individual trades, and discover top-r
@@ -114,6 +109,11 @@ apis:
   description: Fetch and search web content. Retrieve any URL and convert it to clean, LLM-friendly markdown, or search the internet for crypto-related articles, reports, and resources.
   name: Surf Web API
   slug: surf-web-api
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Query blockchain data directly. Look up transaction details by hash, check gas prices, and run structured or raw SQL queries against indexed blockchain datasets spanning Ethereum, Base, Solana, and mo
+  name: Surf On Chain API
+  slug: surf-on-chain-api
 artifact_total: 35
 collections:
 - collection_type: open
@@ -283,7 +283,7 @@ overview: 'Surf publishes 15 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Surf''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, authentication, CLI, and 15 more developer resources.'
-random_paper: 7
+random_paper: 8
 score:
   band: thin
   composite: 39.0
@@ -319,7 +319,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

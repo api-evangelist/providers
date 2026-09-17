@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -283,7 +283,7 @@ plans:
 - name: Email Verifier Api Plans Pricing
   plan_count: 14
   slug: email-verifier-api-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Email Verifier Api Rate Limits
@@ -340,7 +340,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

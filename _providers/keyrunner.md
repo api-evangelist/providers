@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The KeyRunner platform provides a local-first toolset for testing, monitoring, mocking, and running APIs with secrets kept on-device. Available as desktop apps, a VS Code extension, and a CLI distribu
@@ -70,7 +70,7 @@ modified: '2026-04-28'
 name: KeyRunner
 nav: Providers
 network: true
-overview: 'KeyRunner publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, API Testing, Developer Tools, Local-First, and Mock Server.
+overview: 'KeyRunner publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Client, API Testing, Developer Tools, Local-First, and Mock Servers.
 
 
   KeyRunner''s developer surface includes engineering blog and 3 more developer resources.'
@@ -78,7 +78,7 @@ plans:
 - name: Keyrunner Plans Pricing
   plan_count: 3
   slug: keyrunner-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Keyrunner Rate Limits
@@ -103,7 +103,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -121,7 +121,7 @@ tags:
 - API Testing
 - Developer Tools
 - Local-First
-- Mock Server
+- Mock Servers
 - Secret Management
 website: https://keyrunner.app/
 ---

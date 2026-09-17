@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -136,11 +136,6 @@ apis:
   slug: listrak-event-api
 - baseURL: https://api.listrak.com
   baseurl_source: declared
-  description: REST endpoints to manage Custom Event Configurations.
-  name: Listrak EventConfigurations API
-  slug: listrak-eventconfigurations-api
-- baseURL: https://api.listrak.com
-  baseurl_source: declared
   description: The EventGroup API from Listrak — 2 operation(s) for eventgroup.
   name: Listrak EventGroup API
   slug: listrak-eventgroup-api
@@ -161,19 +156,9 @@ apis:
   slug: listrak-forget-api
 - baseURL: https://api.listrak.com
   baseurl_source: declared
-  description: The IpPool API from Listrak — 1 operation(s) for ippool.
-  name: Listrak IpPool API
-  slug: listrak-ippool-api
-- baseURL: https://api.listrak.com
-  baseurl_source: declared
   description: The List API from Listrak — 2 operation(s) for list.
   name: Listrak List API
   slug: listrak-list-api
-- baseURL: https://api.listrak.com
-  baseurl_source: declared
-  description: The ListImport API from Listrak — 2 operation(s) for listimport.
-  name: Listrak ListImport API
-  slug: listrak-listimport-api
 - baseURL: https://api.listrak.com
   baseurl_source: declared
   description: The ListImportContact API from Listrak — 1 operation(s) for listimportcontact.
@@ -286,11 +271,6 @@ apis:
   slug: listrak-sendercode-api
 - baseURL: https://api.listrak.com
   baseurl_source: declared
-  description: The SplitTest API from Listrak — 3 operation(s) for splittest.
-  name: Listrak SplitTest API
-  slug: listrak-splittest-api
-- baseURL: https://api.listrak.com
-  baseurl_source: declared
   description: The Tickets API from Listrak — 1 operation(s) for tickets.
   name: Listrak Tickets API
   slug: listrak-tickets-api
@@ -324,6 +304,26 @@ apis:
   description: The Fonts API from Listrak — 1 operation(s) for fonts.
   name: Listrak Fonts API
   slug: listrak-fonts-api
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: REST endpoints to manage Custom Event Configurations.
+  name: Listrak Event Configurations API
+  slug: listrak-event-configurations-api
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The IpPool resource exposes all of the IP Pools and their IDs for a user's Account.
+  name: Listrak IP Pool API
+  slug: listrak-ip-pool-api
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The List Import resource is used to supply an import file in order to import data to a list.
+  name: Listrak List Import API
+  slug: listrak-list-import-api
+- baseURL: https://api.listrak.com
+  baseurl_source: declared
+  description: The SplitTest resource is used to retrieve information about automated email split tests.
+  name: Listrak Split Test API
+  slug: listrak-split-test-api
 artifact_total: 132
 asyncapis:
 - description: ''
@@ -745,7 +745,7 @@ plans:
 - name: Listrak Plans Pricing
   plan_count: 1
   slug: listrak-plans-pricing
-random_paper: 6
+random_paper: 14
 rate_limits:
 - limit_count: 9
   name: Listrak Rate Limits
@@ -768,21 +768,21 @@ scopes:
   summary_line: 10 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 77.0
+  composite: 78.5
   coverage:
     artifact_dirs: 29
-    catalog_earned: 69.3
+    catalog_earned: 79.3
     catalog_earned_first_party: 20.0
-    catalog_gap: 45.8
+    catalog_gap: 35.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 89.5
     contract_governance: 29.5
-    contract_quality: 73.6
+    contract_quality: 72.2
     developer_ergonomics: 60.1
-    discoverability: 50.0
+    discoverability: 68.5
     operational_transparency: 84.2
   previous_composite: 77.0
   provenance:
@@ -808,7 +808,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

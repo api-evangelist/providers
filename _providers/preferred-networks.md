@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The PLaMo API is Preferred Networks' cloud service for its domestically developed PLaMo large language models. Its interface is compatible with the OpenAI API, so existing OpenAI/LangChain client code
@@ -189,7 +189,7 @@ modified: '2026-08-26'
 name: Preferred Networks
 nav: Providers
 network: true
-overview: 'Preferred Networks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Generative AI.
+overview: 'Preferred Networks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Generative AI.
 
 
   Preferred Networks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
@@ -197,7 +197,7 @@ plans:
 - name: Preferred Networks Plans Pricing
   plan_count: 4
   slug: preferred-networks-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 7
   name: Preferred Networks Rate Limits
@@ -232,7 +232,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -257,7 +257,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Machine-Learning
-- Large Language Models
+- LLM
 - Generative AI
 - LLM Inference
 - Foundation Models

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ overview: 'Cognichip is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cognichip''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 3
+random_paper: 2
 score:
   band: emerging
   composite: 12.3
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

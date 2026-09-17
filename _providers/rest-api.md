@@ -53,7 +53,7 @@ overview: 'REST API is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   The REST API catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 7
+random_paper: 13
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-api/refs/heads/main/screenshots/rest-api-2026-06-20T192956.png
 security:
 - kind: domain-security

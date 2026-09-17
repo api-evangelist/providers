@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: The NHS England API platform hosts a catalogue of national APIs for health and care, including FHIR and REST APIs covering patient demographics, prescriptions, appointments, records, screening, and cl
@@ -158,7 +158,7 @@ plans:
 - name: Nhs England Digital Plans Pricing
   plan_count: 3
   slug: nhs-england-digital-plans-pricing
-random_paper: 13
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Nhs England Digital Rate Limits
@@ -197,7 +197,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -225,7 +225,7 @@ tags:
 - Open Data
 - Patient Records
 - Prescriptions
-- UK
+- United Kingdom
 use_cases:
 - description: Integrate EHR and clinical systems with national patient demographics, prescriptions, and records.
   name: Clinical System Integration

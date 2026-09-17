@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 10
-  human_in_the_loop: 0
+- acting_count: 312
+  human_in_the_loop: 3
   name: Keap Agentic Access
-  operation_count: 26
+  operation_count: 540
   slug: keap-agentic-access
-  summary_line: 26 operations · 10 acting
+  summary_line: 540 operations · 312 acting · 3 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://api.infusionsoft.com/crm/rest/v2
@@ -186,11 +186,6 @@ apis:
   slug: keap-appointment-api
 - baseURL: https://api.infusionsoft.com/crm/rest/v1
   baseurl_source: declared
-  description: The E-Commerce API from Keap — 12 operation(s) for e-commerce.
-  name: Keap E Commerce API
-  slug: keap-e-commerce-api
-- baseURL: https://api.infusionsoft.com/crm/rest/v1
-  baseurl_source: declared
   description: The File API from Keap — 2 operation(s) for file.
   name: Keap File API
   slug: keap-file-api
@@ -299,6 +294,11 @@ apis:
   description: The Webforms API from Keap — 2 operation(s) for webforms.
   name: Keap Webforms API
   slug: keap-webforms-api
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: E-Commerce-Endpoint
+  name: Keap Ecommerce API
+  slug: keap-ecommerce-api
 artifact_total: 70
 asyncapis:
 - description: AsyncAPI 2.6 description of the Keap (formerly Infusionsoft) REST Hooks webhook surface. Keap REST Hooks are subscriptions that are created and managed via the v1 REST API (`POST /rest/v1/hooks`). Onc
@@ -617,7 +617,7 @@ plans:
 - name: Keap Plans Pricing
   plan_count: 1
   slug: keap-plans-pricing
-random_paper: 18
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Keap Rate Limits
@@ -641,7 +641,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 65.0
+  composite: 64.9
   coverage:
     artifact_dirs: 26
     catalog_earned: 38.8
@@ -649,11 +649,11 @@ score:
     catalog_gap: 76.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 73.7
     contract_governance: 15.9
-    contract_quality: 64.8
+    contract_quality: 64.5
     developer_ergonomics: 78.0
     discoverability: 50.0
     operational_transparency: 34.2
@@ -675,7 +675,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

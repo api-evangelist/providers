@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ overview: 'Fluent.ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Fluent.ai''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 16
+random_paper: 20
 score:
   band: minimal
   composite: 6.4
@@ -92,7 +92,7 @@ score:
     - north-america
   previous_composite: 6.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

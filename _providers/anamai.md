@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -60,11 +60,6 @@ apis:
   description: The Knowledge API from Anam.ai — 6 operation(s) for knowledge.
   name: Anam.ai Knowledge API
   slug: anamai-knowledge-api
-- baseURL: https://api.anam.ai/v1/
-  baseurl_source: declared
-  description: The LLMs API from Anam.ai — 2 operation(s) for llms.
-  name: Anam.ai LLMs API
-  slug: anamai-llms-api
 - baseURL: https://api.anam.ai/v1/
   baseurl_source: declared
   description: The Meetings API from Anam.ai — 2 operation(s) for meetings.
@@ -95,6 +90,11 @@ apis:
   description: The Voices API from Anam.ai — 3 operation(s) for voices.
   name: Anam.ai Voices API
   slug: anamai-voices-api
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The LLMs API from Anam.ai — 2 operation(s) for llms.
+  name: Anam.ai LL Ms API
+  slug: anamai-llms-api
 artifact_total: 37
 collections:
 - collection_type: postman
@@ -345,7 +345,7 @@ overview: 'Anam.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Anam.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
-random_paper: 6
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Anamai Rate Limits
@@ -380,7 +380,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 11
@@ -118,11 +118,6 @@ apis:
   description: CEM Alerts APIs
   name: Everbridge CEMA Query Public API
   slug: everbridge-cema-query-public-api
-- baseURL: https://api.everbridge.net/rest
-  baseurl_source: declared
-  description: CEM Alerts APIs
-  name: Everbridge CEMA Query Stream API
-  slug: everbridge-cema-query-stream-api
 - baseURL: https://api.everbridge.net/rest
   baseurl_source: declared
   description: API endpoints for PNR check rule management and validation
@@ -498,7 +493,7 @@ apis:
   description: The Variables APIs API from Everbridge — 3 operation(s) for variables apis.
   name: Everbridge Variables APIs API
   slug: everbridge-variables-apis-api
-artifact_total: 102
+artifact_total: 101
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/capabilities/everbridge-capability-edges.yml
@@ -758,7 +753,7 @@ modified: '2026-08-27'
 name: Everbridge
 nav: Providers
 network: true
-overview: 'Everbridge publishes 90 APIs on the [APIs.io](https://apis.io/) network, including Asset Association Definition API, Asset License Limit Stats API, Asset Type Templates API, and 87 more. Tagged areas include Critical Event Management, Emergency Management, Mass Notification, Incident Management, and IT Alerting.
+overview: 'Everbridge publishes 89 APIs on the [APIs.io](https://apis.io/) network, including Asset Association Definition API, Asset License Limit Stats API, Asset Type Templates API, and 86 more. Tagged areas include Critical Event Management, Emergency Management, Mass Notification, Incident Management, and IT Alerting.
 
 
   Everbridge''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 44 more developer resources.'
@@ -766,7 +761,7 @@ plans:
 - name: Everbridge Plans Pricing
   plan_count: 0
   slug: everbridge-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Everbridge Rate Limits
@@ -790,7 +785,7 @@ score:
   facets:
     access_clarity: 57.9
     contract_governance: 4.5
-    contract_quality: 56.4
+    contract_quality: 56.1
     developer_ergonomics: 41.1
     discoverability: 83.3
     operational_transparency: 50.0
@@ -802,11 +797,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 90
+      total: 89
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Corpay's commercial card portfolio covers the Corpay Mastercard, Corpay World Elite Mastercard, virtual / ghost cards, and supplier-direct payment cards. Integration with ERP and expense systems is de
@@ -107,7 +107,7 @@ name: Corpay (formerly FLEETCOR)
 nav: Providers
 network: true
 overview: Corpay (formerly FLEETCOR) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include B2B Payments, Corporate Payments, Fleet Cards, Fuel Cards, and Commercial Cards.
-random_paper: 12
+random_paper: 16
 score:
   band: minimal
   composite: 6.0
@@ -134,7 +134,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

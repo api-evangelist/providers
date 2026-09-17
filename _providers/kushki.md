@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -399,7 +399,7 @@ modified: '2026-05-24'
 name: Kushki
 nav: Providers
 network: true
-overview: 'Kushki publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Subscriptions API, Payouts API, Branches API, and 8 more. Tagged areas include Payments, LatAm, Andean Region, Card Payments, and Subscription.
+overview: 'Kushki publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Subscriptions API, Payouts API, Branches API, and 8 more. Tagged areas include Payments, Latin America, Andean Region, Card Payments, and Subscription.
 
 
   The Kushki catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -410,7 +410,7 @@ plans:
 - name: Kushki Plans Pricing
   plan_count: 6
   slug: kushki-plans-pricing
-random_paper: 4
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Kushki Rate Limits
@@ -478,7 +478,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -496,7 +496,7 @@ security:
 slug: kushki
 tags:
 - Payments
-- LatAm
+- Latin America
 - Andean Region
 - Card Payments
 - Subscription

@@ -30,7 +30,7 @@ name: Portal Software
 nav: Providers
 network: true
 overview: Portal Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Billing, Revenue Management, Defunct, and Acquired.
-random_paper: 3
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/portal-software/refs/heads/main/screenshots/portal-software-2026-09-02T151800.png
 security:
 - kind: domain-security

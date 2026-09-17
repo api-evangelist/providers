@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Laureate Education does not expose a public developer API, OpenAPI specification, SDK, CLI, webhook, GraphQL endpoint, status page or changelog. This entry documents the company's public corporate sur
@@ -43,6 +43,10 @@ apis:
   slug: universidad-tecnológica-de-méxico-unitec
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://laureate.net
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/laureate-education/refs/heads/main/security/laureate-education-domain-security.yml
   title: ''
@@ -93,14 +97,14 @@ graphqls:
   slug: laureate-education-graphql
 image: https://kinlane-images.s3.amazonaws.com/apievangelist/api-evangelist/api-evangelist-logo.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Laureate Education
 nav: Providers
 network: true
 overview: 'Laureate Education publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, For Profit Education, University Network, and Mexico.
 
 
-  Laureate Education''s developer surface includes developer portal and 9 more developer resources.'
+  Laureate Education''s developer surface includes developer portal and 10 more developer resources.'
 random_paper: 4
 score:
   band: minimal
@@ -135,7 +139,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -159,5 +163,5 @@ tags:
 - Private Equity
 - B Corporation
 - Take Private
-website: https://www.laureate.net/
+website: https://laureate.net
 ---

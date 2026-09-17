@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -66,14 +66,14 @@ apis:
   slug: podbean-file-upload-api
 - baseURL: https://api.podbean.com/v1
   baseurl_source: declared
-  description: Embeddable player markup and metadata for a podcast or episode URL.
-  name: Podbean oEmbed API
-  slug: podbean-oembed-api
-- baseURL: https://api.podbean.com/v1
-  baseurl_source: declared
   description: Read the authorized podcast profile and settings.
   name: Podbean Podcast API
   slug: podbean-podcast-api
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: Embeddable player markup and metadata for a podcast or episode URL.
+  name: Podbean o Embed API
+  slug: podbean-o-embed-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -185,7 +185,7 @@ plans:
 - name: Podbean Plans Pricing
   plan_count: 5
   slug: podbean-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Podbean Rate Limits
@@ -223,7 +223,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

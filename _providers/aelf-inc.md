@@ -23,21 +23,101 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://aelf-public-node.aelf.io
   baseurl_source: declared
-  description: 'The AElf node Web API is the REST surface every aelf node exposes: chain status, blocks, block state, transaction pool, transaction submission and results, merkle paths, contract file descriptor sets,'
-  name: aelf Node Web API
-  slug: aelf-node-web-api
-- baseURL: http://127.0.0.1:8787
+  description: The admin API from Aelf — 1 operation(s) for admin.
+  name: Aelf Admin API
+  slug: aelf-inc-admin-api
+- baseURL: https://aelf-public-node.aelf.io
   baseurl_source: declared
-  description: 'A first-party, self-hosted execution gateway that puts the aelf chain behind typed OpenAPI/MCP tools for AI agents: chain and asset queries, EOA/CA wallet operations, an explicit prepare -> human appr'
-  name: aelf Agent Gateway API
-  slug: aelf-agent-gateway-api
-artifact_total: 9
+  description: The approvals API from Aelf — 1 operation(s) for approvals.
+  name: Aelf Approvals API
+  slug: aelf-inc-approvals-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The balances API from Aelf — 1 operation(s) for balances.
+  name: Aelf Balances API
+  slug: aelf-inc-balances-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The BlockChain API from Aelf — 5 operation(s) for blockchain.
+  name: Aelf Block Chain API
+  slug: aelf-inc-blockchain-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The chains API from Aelf — 1 operation(s) for chains.
+  name: Aelf Chains API
+  slug: aelf-inc-chains-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The ChainStatus API from Aelf — 1 operation(s) for chainstatus.
+  name: Aelf Chain Status API
+  slug: aelf-inc-chainstatus-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The ContractFileDescriptorSet API from Aelf — 1 operation(s) for contractfiledescriptorset.
+  name: Aelf Contract File Descriptor Set API
+  slug: aelf-inc-contractfiledescriptorset-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The explorer API from Aelf — 3 operation(s) for explorer.
+  name: Aelf Explorer API
+  slug: aelf-inc-explorer-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The health API from Aelf — 1 operation(s) for health.
+  name: Aelf Health API
+  slug: aelf-inc-health-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The Net API from Aelf — 3 operation(s) for net.
+  name: Aelf Net API
+  slug: aelf-inc-net-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The TaskQueueStatus API from Aelf — 1 operation(s) for taskqueuestatus.
+  name: Aelf Task Queue Status API
+  slug: aelf-inc-taskqueuestatus-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The Transaction API from Aelf — 8 operation(s) for transaction.
+  name: Aelf Transaction API
+  slug: aelf-inc-transaction-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The TransactionResult API from Aelf — 4 operation(s) for transactionresult.
+  name: Aelf Transaction Result API
+  slug: aelf-inc-transactionresult-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The transactions API from Aelf — 1 operation(s) for transactions.
+  name: Aelf Transactions API
+  slug: aelf-inc-transactions-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The transfers API from Aelf — 2 operation(s) for transfers.
+  name: Aelf Transfers API
+  slug: aelf-inc-transfers-api
+- baseURL: https://aelf-public-node.aelf.io
+  baseurl_source: declared
+  description: The wallets API from Aelf — 2 operation(s) for wallets.
+  name: Aelf Wallets API
+  slug: aelf-inc-wallets-api
+artifact_total: 23
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/overlays/aelf-inc-node-web-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aelf-inc-node-web-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aelf-inc/refs/heads/main/overlays/aelf-inc-agent-gateway-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aelf-inc-agent-gateway-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -237,22 +317,22 @@ modified: '2026-09-09'
 name: Aelf
 nav: Providers
 network: true
-overview: 'Aelf publishes 2 APIs on the [APIs.io](https://apis.io/) network: Node Web API and Agent Gateway API. Tagged areas include Company, Blockchain, Layer 1, Web3, and Smart Contracts.
+overview: 'Aelf publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Approvals API, Balances API, and 13 more. Tagged areas include Company, Blockchain, Layer 1, Web3, and Smart Contracts.
 
 
-  Aelf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 32 more developer resources.'
+  Aelf''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 34 more developer resources.'
 plans:
 - name: Aelf Inc Plans Pricing
   plan_count: 0
   slug: aelf-inc-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Aelf Inc Rate Limits
   slug: aelf-inc-rate-limits
 score:
   band: developing
-  composite: 42.3
+  composite: 43.0
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -260,11 +340,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 41.2
+    contract_quality: 44.0
     developer_ergonomics: 85.7
     discoverability: 68.5
     operational_transparency: 34.2
@@ -275,11 +355,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 16
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

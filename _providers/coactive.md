@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -133,16 +133,6 @@ apis:
   slug: coactive-search-video-searchvideo-api
 - baseURL: https://api.coactive.ai
   baseurl_source: declared
-  description: The systemCredentials API from Coactive — 2 operation(s) for systemcredentials.
-  name: Coactive systemCredentials API
-  slug: coactive-systemcredentials-api
-- baseURL: https://api.coactive.ai
-  baseurl_source: declared
-  description: The userManagement API from Coactive — 6 operation(s) for usermanagement.
-  name: Coactive userManagement API
-  slug: coactive-usermanagement-api
-- baseURL: https://api.coactive.ai
-  baseurl_source: declared
   description: The video-narative-metadata > videoNarrativeMetadata API from Coactive — 13 operation(s) for video-narative-metadata > videonarrativemetadata.
   name: Coactive video-narative-metadata > videoNarrativeMetadata API
   slug: coactive-video-narative-metadata-videonarrativemetadata-api
@@ -156,6 +146,16 @@ apis:
   description: The video-scores > videoScores API from Coactive — 4 operation(s) for video-scores > videoscores.
   name: Coactive video-scores > videoScores API
   slug: coactive-video-scores-videoscores-api
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The System Credentials API from Coactive — 2 operation(s) for system credentials.
+  name: Coactive System Credentials API
+  slug: coactive-system-credentials-api
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The User Management API from Coactive — 6 operation(s) for user management.
+  name: Coactive User Management API
+  slug: coactive-user-management-api
 artifact_total: 53
 collections:
 - collection_type: open
@@ -418,7 +418,7 @@ plans:
 - name: Coactive Plans Pricing
   plan_count: 0
   slug: coactive-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Coactive Rate Limits
@@ -437,7 +437,7 @@ score:
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 55.1
+    contract_quality: 54.9
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 18.4
@@ -453,7 +453,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

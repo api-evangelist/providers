@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 94
 apis:
 - description: MEF 133.1 streaming template — the AsyncAPI definition published by Mplify (formerly MEF) in the MEF LSO Interlude SDK, Kylie release. LSO Interlude is the Interface Reference Point between two Servic
@@ -159,11 +159,6 @@ apis:
   slug: mef-performanceprofile-api
 - baseURL: https://{server}:{port}{basePath}
   baseurl_source: declared
-  description: The performanceReport API from MEF — 3 operation(s) for performancereport.
-  name: MEF Performance Report API
-  slug: mef-performancereport-api
-- baseURL: https://{server}:{port}{basePath}
-  baseurl_source: declared
   description: The Pricing Discovery API from MEF — 1 operation(s) for pricing discovery.
   name: MEF Pricing Discovery API
   slug: mef-pricing-discovery-api
@@ -194,11 +189,6 @@ apis:
   slug: mef-productorder-api
 - baseURL: https://{server}:{port}{basePath}
   baseurl_source: declared
-  description: The productSpecification API from MEF — 2 operation(s) for productspecification.
-  name: MEF Product Specification API
-  slug: mef-productspecification-api
-- baseURL: https://{server}:{port}{basePath}
-  baseurl_source: declared
   description: The quote API from MEF — 2 operation(s) for quote.
   name: MEF Quote API
   slug: mef-quote-api
@@ -227,11 +217,6 @@ apis:
   description: Operations for Service Order Resource
   name: MEF Service Order API
   slug: mef-service-order-api
-- baseURL: https://{server}:{port}{basePath}
-  baseurl_source: declared
-  description: Mechanisms for BUS to query and retrieve *ServiceSpecifications*.
-  name: MEF Service Specification API
-  slug: mef-servicespecification-api
 - baseURL: https://{server}:{port}{basePath}
   baseurl_source: declared
   description: Mechanism for SOF to publish *ServiceSpecification* notifications to BUS
@@ -279,11 +264,6 @@ apis:
   slug: mef-testprofile-api
 - baseURL: https://{server}:{port}{basePath}
   baseurl_source: declared
-  description: The testResult API from MEF — 2 operation(s) for testresult.
-  name: MEF Test Result API
-  slug: mef-testresult-api
-- baseURL: https://{server}:{port}{basePath}
-  baseurl_source: declared
   description: Groups all operations related to the available topic.
   name: MEF Topic API
   slug: mef-topic-api
@@ -294,11 +274,6 @@ apis:
   slug: mef-trackingrecord-api
 - baseURL: https://{server}:{port}{basePath}
   baseurl_source: declared
-  description: The troubleTicket API from MEF — 2 operation(s) for troubleticket.
-  name: MEF Trouble Ticket API
-  slug: mef-troubleticket-api
-- baseURL: https://{server}:{port}{basePath}
-  baseurl_source: declared
   description: The troubleTicket operations API from MEF — 3 operation(s) for troubleticket operations.
   name: MEF troubleTicket operations API
   slug: mef-troubleticket-operations-api
@@ -307,6 +282,31 @@ apis:
   description: The workorder API from MEF — 2 operation(s) for workorder.
   name: MEF Workorder API
   slug: mef-workorder-api
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The Performance Report API from MEF — 3 operation(s) for performance report.
+  name: MEF Performance Report API
+  slug: mef-performance-report-api
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The Product Specification API from MEF — 2 operation(s) for product specification.
+  name: MEF Product Specification API
+  slug: mef-product-specification-api
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: Mechanisms for BUS to query and retrieve *ServiceSpecifications*.
+  name: MEF Service Specification API
+  slug: mef-service-specification-api
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The Test Result API from MEF — 2 operation(s) for test result.
+  name: MEF Test Result API
+  slug: mef-test-result-api
+- baseURL: https://{server}:{port}{basePath}
+  baseurl_source: declared
+  description: The Trouble Ticket API from MEF — 2 operation(s) for trouble ticket.
+  name: MEF Trouble Ticket API
+  slug: mef-trouble-ticket-api
 artifact_total: 154
 asyncapis:
 - description: ''
@@ -864,7 +864,7 @@ overview: 'MEF publishes 54 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   MEF''s developer surface includes documentation, SDKs, tooling, getting-started guide, support, authentication, changelog, and 48 more developer resources.'
-random_paper: 18
+random_paper: 4
 scopes:
 - name: Mef Scopes
   scope_count: 218
@@ -872,7 +872,7 @@ scopes:
   summary_line: 218 scopes · clientCredentials
 score:
   band: strong
-  composite: 55.2
+  composite: 55.4
   coverage:
     artifact_dirs: 25
     catalog_earned: 32.0
@@ -880,11 +880,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 52.3
+    contract_quality: 53.1
     developer_ergonomics: 85.1
     discoverability: 66.7
     operational_transparency: 26.3
@@ -912,7 +912,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

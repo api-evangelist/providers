@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ plans:
 - name: Avora Agent Forge Plans
   plan_count: 4
   slug: avora-agent-forge-plans
-random_paper: 5
+random_paper: 13
 score:
   band: thin
   composite: 37.4
@@ -250,7 +250,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

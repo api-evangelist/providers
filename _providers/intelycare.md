@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -57,14 +57,14 @@ apis:
   slug: intelycare-shift-api
 - baseURL: https://api.intelycare.com/external-scheduling/v1/
   baseurl_source: declared
-  description: 'Simplify billing reconciliation by exchanging timecard information seamlessly. Our API supports the exchange of accurate timekeeping data, ensuring a smooth and efficient process for both you and the '
-  name: IntelyCare Timecard API
-  slug: intelycare-timecard-api
-- baseURL: https://api.intelycare.com/external-scheduling/v1/
-  baseurl_source: declared
   description: Real-time updates on the status of submitted shifts. The API response includes valuable information about the assigned IntelyPro, giving you insights into the workforce handling each shift.
   name: IntelyCare Webhook Events API
   slug: intelycare-webhook-events-api
+- baseURL: https://api.intelycare.com/external-scheduling/v1/
+  baseurl_source: declared
+  description: 'Simplify billing reconciliation by exchanging timecard information seamlessly. Our API supports the exchange of accurate timekeeping data, ensuring a smooth and efficient process for both you and the '
+  name: IntelyCare Time Card API
+  slug: intelycare-time-card-api
 artifact_total: 9
 asyncapis:
 - description: Real-time updates on the status of submitted shifts. IntelyCare POSTs a signed JSON payload to a client-configured HTTPS endpoint when a shift is accepted by a healthcare professional (an "IntelyPro")
@@ -202,14 +202,14 @@ modified: '2026-08-01'
 name: IntelyCare
 nav: Providers
 network: true
-overview: 'IntelyCare publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Check In / Check Out API, Shift API, Timecard API, and 1 more. Tagged areas include Healthcare, Healthcare Staffing, Nursing, Workforce Management, and Scheduling.
+overview: 'IntelyCare publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Check In / Check Out API, Shift API, Webhook Events API, and 1 more. Tagged areas include Healthcare, Healthcare Staffing, Nursing, Workforce Management, and Scheduling.
 
 
   The IntelyCare catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   IntelyCare''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 1
+random_paper: 16
 score:
   band: developing
   composite: 45.6
@@ -246,7 +246,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

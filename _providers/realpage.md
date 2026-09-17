@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 11
 apis:
 - description: RealPage's integration marketplace and partner API surface offering standardised APIs across RealPage products for ATS-like data exchange, property data, residents, leases, and financials. Access is p
@@ -129,7 +129,7 @@ plans:
 - name: Realpage Plans Pricing
   plan_count: 1
   slug: realpage-plans-pricing
-random_paper: 14
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Realpage Rate Limits
@@ -154,7 +154,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - baseURL: https://32biosciences.com/wp-json/wp/v2
@@ -216,7 +216,7 @@ plans:
 - name: 32 Biosciences Plans Pricing
   plan_count: 0
   slug: 32-biosciences-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: 32 Biosciences Rate Limits
@@ -256,7 +256,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

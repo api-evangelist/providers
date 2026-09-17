@@ -23,12 +23,12 @@ modified: '2026-09-15'
 name: Pick1
 nav: Providers
 network: true
-overview: Pick1 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Survey, Social Analytics, Market Research, and Audience Segmentation.
+overview: Pick1 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Surveys, Social Analytics, Market Research, and Audience Segmentation.
 random_paper: 10
 slug: pick1
 tags:
 - Company
-- Survey
+- Surveys
 - Social Analytics
 - Market Research
 - Audience Segmentation

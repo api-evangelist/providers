@@ -25,7 +25,7 @@ name: Ostaz
 nav: Providers
 network: true
 overview: Ostaz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 15
+random_paper: 11
 screenshot: https://raw.githubusercontent.com/api-evangelist/ostaz/refs/heads/main/screenshots/ostaz-2026-08-07T191018.png
 slug: ostaz
 tags:

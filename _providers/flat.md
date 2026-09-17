@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,11 +69,11 @@ modified: '2026-07-19'
 name: Flat
 nav: Providers
 network: true
-overview: 'Flat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Fintech, and Mortgages.
+overview: 'Flat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Fintech, and Mortgage.
 
 
   Flat''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: minimal
   composite: 6.4
@@ -101,7 +101,7 @@ score:
     - latin-america
   previous_composite: 6.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -119,7 +119,7 @@ tags:
 - Real-Estate
 - PropTech
 - Fintech
-- Mortgages
+- Mortgage
 - Marketplace
 - Mexico
 website: https://clau.com

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -255,7 +255,7 @@ modified: '2026-06-12'
 name: Unify
 nav: Providers
 network: true
-overview: 'Unify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Assistants API, Contexts API, and 5 more. Tagged areas include LLM, Artificial Intelligence, Large Language Models, LLM Routing, and Model Gateway.
+overview: 'Unify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Assistants API, Contexts API, and 5 more. Tagged areas include LLM, Artificial Intelligence, LLM Routing, Model Gateway, and AI Gateway.
 
 
   The Unify catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -266,7 +266,7 @@ plans:
 - name: Unify Ai Plans Pricing
   plan_count: 3
   slug: unify-ai-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Unify Ai Rate Limits
@@ -309,7 +309,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -336,7 +336,6 @@ slug: unify-ai
 tags:
 - LLM
 - Artificial Intelligence
-- Large Language Models
 - LLM Routing
 - Model Gateway
 - AI Gateway

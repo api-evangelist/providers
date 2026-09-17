@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Developer APIs for the KGeN Esports and Loyalty protocols — sessions, tournaments, leaderboards, wallets (KCash), rewards, and rewardable events for game developers.
@@ -124,11 +124,11 @@ modified: '2026-07-19'
 name: KGeN
 nav: Providers
 network: true
-overview: 'KGeN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Gaming, Esports, and Loyalty.
+overview: 'KGeN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Gaming, Esports, and Loyalty.
 
 
   KGeN''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 9 more developer resources.'
-random_paper: 1
+random_paper: 3
 score:
   band: emerging
   composite: 20.5
@@ -151,7 +151,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -170,7 +170,7 @@ security:
 slug: kgen
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Gaming
 - Esports
 - Loyalty

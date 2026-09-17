@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   description: 'OpenAI-compatible model catalog endpoint (/v1/models) returning the list of models served by the NIM endpoint or container. Each entry includes id, owned_by, and created timestamp. Used by clients to '
   name: NVIDIA NIM Models API
   slug: nvidia-nim-models-api
-- baseURL: https://integrate.api.nvidia.com/v1
-  baseurl_source: declared
-  description: Vision-language model inference through the standard /v1/chat/completions surface with image inputs (base64 or URL) in the messages payload. Supports NVIDIA NeVA, microsoft/kosmos-2, Phi-3-vision, lla
-  name: NVIDIA NIM Vision Language Models API
-  slug: nvidia-nim-vision-api
 - baseURL: https://integrate.api.nvidia.com
   baseurl_source: spec
   description: Liveness, readiness, and startup probes exposed by self-hosted NIM containers (/v1/health/live, /v1/health/ready) and a Prometheus /v1/metrics scrape endpoint for GPU utilization, request latency, and
@@ -122,7 +117,7 @@ arazzos:
 - description: Transcribe an audio clip with Riva ASR, answer the transcript with an LLM, then synthesize the reply with Riva TTS.
   name: NVIDIA NIM Voice Assistant Loop
   slug: nvidia-nim-voice-assistant-loop-workflow
-artifact_total: 98
+artifact_total: 97
 collections:
 - collection_type: postman
   name: NVIDIA NIM Biology (BioNeMo) API
@@ -592,7 +587,7 @@ modified: '2026-06-20'
 name: NVIDIA NIM
 nav: Providers
 network: true
-overview: 'NVIDIA NIM publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Completions API, Embeddings API, Reranking API, and 8 more. Tagged areas include Artificial Intelligence, Inference, Microservices, LLM, and Foundation Models.
+overview: 'NVIDIA NIM publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Completions API, Embeddings API, Reranking API, and 7 more. Tagged areas include Artificial Intelligence, Inference, Microservices, LLM, and Foundation Models.
 
 
   The NVIDIA NIM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -603,7 +598,7 @@ plans:
 - name: Nvidia Nim Plans Pricing
   plan_count: 3
   slug: nvidia-nim-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Nvidia Nim Rate Limits
@@ -645,10 +640,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 10
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

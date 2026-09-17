@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -58,19 +58,9 @@ apis:
   slug: matomo-matomo-php-api
 - baseURL: https://{matomo_host}/index.php
   baseurl_source: declared
-  description: Exposes the AbTesting API for managing experiments, embedding experiment scripts, and reading experiment reports.
-  name: Matomo Ab Testing API
-  slug: matomo-abtesting-api
-- baseURL: https://{matomo_host}/index.php
-  baseurl_source: declared
   description: 'The Actions API lets you request reports for all your Visitor Actions: Page URLs, Page titles, Events, Content Tracking, File Downloads and Clicks on external websites. For example, "getPageTitles" wi'
   name: Matomo Actions API
   slug: matomo-actions-api
-- baseURL: https://{matomo_host}/index.php
-  baseurl_source: declared
-  description: Exposes Activity Log API endpoints for listing activity entries, counting matches, and resolving the permitted date range for the current caller.
-  name: Matomo Activity Log API
-  slug: matomo-activitylog-api
 - baseURL: https://{matomo_host}/index.php
   baseurl_source: declared
   description: Exposes API endpoints for managing advertising conversion export configurations. These methods let users list, inspect, create, update, and delete configured exports and access tokens.
@@ -86,11 +76,6 @@ apis:
   description: 'This API is the <a href=''https://matomo.org/docs/analytics-api/metadata/'' rel=''noreferrer'' target=''_blank''>Metadata API</a>: it gives information about all other available APIs methods, as well as pro'
   name: Matomo API
   slug: matomo-api-api
-- baseURL: https://{matomo_host}/index.php
-  baseurl_source: declared
-  description: 'Provides Reporting API endpoints for reading OpenAPI plugin configuration and specifications. Exposes endpoints to return the effective plugin list for spec generation, read pre-generated spec files, '
-  name: Matomo API Reference API
-  slug: matomo-apireference-api
 - baseURL: https://{matomo_host}/index.php
   baseurl_source: declared
   description: Exposes reporting API endpoints for aggregated bandwidth metrics.
@@ -131,11 +116,6 @@ apis:
   description: Provides API methods for custom JavaScript tracker configuration.
   name: Matomo Custom Js Tracker API
   slug: matomo-customjstracker-api
-- baseURL: https://{matomo_host}/index.php
-  baseurl_source: declared
-  description: Exposes Custom Reports configuration and reporting endpoints. Use it to create, duplicate, manage, and query custom report definitions and their archived data.
-  name: Matomo Custom Reports API
-  slug: matomo-customreports-api
 - baseURL: https://{matomo_host}/index.php
   baseurl_source: declared
   description: The Dashboard API lets you manage user dashboards and retrieve their widget configurations.
@@ -233,11 +213,6 @@ apis:
   slug: matomo-multisites-api
 - baseURL: https://{matomo_host}/index.php
   baseurl_source: declared
-  description: Exposes super-user OAuth2 client management endpoints for Matomo. This API lists configured scopes and lets administrators create, inspect, update, rotate, activate, and delete OAuth2 clients.
-  name: Matomo O Auth2 API
-  slug: matomo-oauth2-api
-- baseURL: https://{matomo_host}/index.php
-  baseurl_source: declared
   description: The Overlay API exposes translation data and overlay-specific page transition reports.
   name: Matomo Overlay API
   slug: matomo-overlay-api
@@ -268,11 +243,6 @@ apis:
   slug: matomo-rollupreporting-api
 - baseURL: https://{matomo_host}/index.php
   baseurl_source: declared
-  description: The ScheduledReports API lets you manage Scheduled Email reports, as well as generate, download or email any existing report. "generateReport" will generate the requested report (for a specific date r
-  name: Matomo Scheduled Reports API
-  slug: matomo-scheduledreports-api
-- baseURL: https://{matomo_host}/index.php
-  baseurl_source: declared
   description: Provides SearchEngineKeywordsPerformance API endpoints for imported keyword and crawl-performance reports. Exposes combined and provider-specific reports for Google, Bing, and Yandex search data. \Plu
   name: Matomo Search Engine Keywords Performance API
   slug: matomo-searchenginekeywordsperformance-api
@@ -293,11 +263,6 @@ apis:
   slug: matomo-sitesmanager-api
 - baseURL: https://{matomo_host}/index.php
   baseurl_source: declared
-  description: Exposes the Tag Manager API for managing containers, versions, tags, triggers, and variables. The endpoints also provide installation metadata, publishing workflows, preview controls, and import/expor
-  name: Matomo Tag Manager API
-  slug: matomo-tagmanager-api
-- baseURL: https://{matomo_host}/index.php
-  baseurl_source: declared
   description: Provides API methods for Tour challenges and engagement levels.
   name: Matomo Tour API
   slug: matomo-tour-api
@@ -306,11 +271,6 @@ apis:
   description: Provides API methods for transition reports around a specific page action.
   name: Matomo Transitions API
   slug: matomo-transitions-api
-- baseURL: https://{matomo_host}/index.php
-  baseurl_source: declared
-  description: Provides API methods for managing two-factor authentication.
-  name: Matomo Two Factor Auth API
-  slug: matomo-twofactorauth-api
 - baseURL: https://{matomo_host}/index.php
   baseurl_source: declared
   description: The UserCountry API lets you access reports about your visitors' Countries and Continents.
@@ -351,6 +311,46 @@ apis:
   description: VisitTime API lets you access reports by Hour (Server time), and by Hour Local Time of your visitors.
   name: Matomo Visit Time API
   slug: matomo-visittime-api
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes super-user OAuth2 client management endpoints for Matomo. This API lists configured scopes and lets administrators create, inspect, update, rotate, activate, and delete OAuth2 clients.
+  name: Matomo O Auth2 API
+  slug: matomo-oauth2-api
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes the AbTesting API for managing experiments, embedding experiment scripts, and reading experiment reports.
+  name: Matomo Ab Testing API
+  slug: matomo-ab-testing-api
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes Activity Log API endpoints for listing activity entries, counting matches, and resolving the permitted date range for the current caller.
+  name: Matomo Activity Log API
+  slug: matomo-activity-log-api
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: 'Provides Reporting API endpoints for reading OpenAPI plugin configuration and specifications. Exposes endpoints to return the effective plugin list for spec generation, read pre-generated spec files, '
+  name: Matomo API Reference API
+  slug: matomo-api-reference-api
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes Custom Reports configuration and reporting endpoints. Use it to create, duplicate, manage, and query custom report definitions and their archived data.
+  name: Matomo Custom Reports API
+  slug: matomo-custom-reports-api
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The ScheduledReports API lets you manage Scheduled Email reports, as well as generate, download or email any existing report.
+  name: Matomo Scheduled Reports API
+  slug: matomo-scheduled-reports-api
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes the Tag Manager API for managing containers, versions, tags, triggers, and variables. The endpoints also provide installation metadata, publishing workflows, preview controls, and import/expor
+  name: Matomo Tag Manager API
+  slug: matomo-tag-manager-api
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for managing two-factor authentication.
+  name: Matomo Two Factor Auth API
+  slug: matomo-two-factor-auth-api
 artifact_total: 76
 collections:
 - collection_type: open
@@ -911,7 +911,7 @@ modified: '2026-08-13'
 name: Matomo
 nav: Providers
 network: true
-overview: 'Matomo publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Reporting API (index.php entrypoint), Tracking API (matomo.php entrypoint), Ab Testing API, and 58 more. Tagged areas include Analytics, Web Analytics, Open-Source, Privacy, and Data Ownership.
+overview: 'Matomo publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Reporting API (index.php entrypoint), Tracking API (matomo.php entrypoint), Actions API, and 58 more. Tagged areas include Analytics, Web Analytics, Open-Source, Privacy, and Data Ownership.
 
 
   Matomo''s developer surface includes authentication, changelog, CLI, sandbox, documentation, API reference, getting-started guide, and 103 more developer resources.'
@@ -919,7 +919,7 @@ plans:
 - name: Matomo Plans Pricing
   plan_count: 7
   slug: matomo-plans-pricing
-random_paper: 2
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Matomo Rate Limits
@@ -930,22 +930,22 @@ scopes:
   slug: matomo-scopes
   summary_line: 3 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: exemplar
-  composite: 66.7
+  band: strong
+  composite: 65.8
   coverage:
     artifact_dirs: 26
-    catalog_earned: 64.0
+    catalog_earned: 54.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 50.4
+    contract_quality: 54.3
     developer_ergonomics: 80.4
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 81.6
   previous_composite: 66.7
   provenance:
@@ -959,7 +959,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

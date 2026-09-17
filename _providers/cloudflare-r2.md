@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -309,7 +309,7 @@ plans:
 - name: Cloudflare R2 Plans Pricing
   plan_count: 3
   slug: cloudflare-r2-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Cloudflare R2 Rate Limits
@@ -355,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

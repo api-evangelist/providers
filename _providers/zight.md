@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -115,7 +115,7 @@ overview: 'Zight is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Zight''s developer surface includes signup flow, pricing, engineering blog, support, and 12 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: emerging
   composite: 20.6
@@ -136,7 +136,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

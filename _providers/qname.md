@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Approval-gated REST API for WHOIS/RDAP lookups: GET /api/whois/{domain} (single), POST /api/whois/batch (batch), and GET /api/domain-traffic (traffic). Requires an admin-approved API key (qname_ prefi'
@@ -161,7 +161,7 @@ plans:
 - name: Qname Plans Pricing
   plan_count: 0
   slug: qname-plans-pricing
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Qname Rate Limits
@@ -190,7 +190,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,7 +214,7 @@ tags:
 - batch-lookup
 - CLI
 - Agent Tooling
-- AgentSkill
+- Agent Skills
 - llms-txt
 - Developer Tools
 - Domain Intelligence

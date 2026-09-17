@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 2 operations
 api_count: 2
 apis:
-- baseURL: https://data.trade.gov/consolidated_screening_list/v1
-  baseurl_source: declared
-  description: The Consolidated Screening List (CSL) API consolidates export screening lists from the Departments of Commerce, State, and Treasury. It includes the Entity List, Denied Persons List, Unverified List (
-  name: Consolidated Screening List (CSL) API
-  slug: consolidated-screening-list-api
 - description: SNAP-R (Simplified Network Application Process Redesign) is the BIS online system for applying for export licenses, classifications, and authorizations under the Export Administration Regulations (EAR
   name: SNAP-R Export License Application System
   slug: snap-r
@@ -61,7 +56,7 @@ apis:
   description: Search the Consolidated Screening List
   name: Bureau of Industry and Security Search API
   slug: bureau-of-industry-and-security-search-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -225,7 +220,7 @@ modified: '2026-09-05'
 name: Bureau of Industry and Security
 nav: Providers
 network: true
-overview: 'Bureau of Industry and Security publishes 2 APIs on the [APIs.io](https://apis.io/) network: Consolidated Screening List (CSL) API and Search API. Tagged areas include Compliance, Export Controls, Federal-Government, Industries, and National Security.
+overview: 'Bureau of Industry and Security publishes 1 API on the [APIs.io](https://apis.io/) network: Search API. Tagged areas include Compliance, Export Control, Federal-Government, Industries, and National Security.
 
 
   Bureau of Industry and Security''s developer surface includes authentication, signup flow, support, engineering blog, developer console, changelog, sandbox, and 24 more developer resources.'
@@ -233,14 +228,14 @@ plans:
 - name: Bureau Of Industry And Security Plans Pricing
   plan_count: 1
   slug: bureau-of-industry-and-security-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Bureau Of Industry And Security Rate Limits
   slug: bureau-of-industry-and-security-rate-limits
 score:
   band: developing
-  composite: 48.0
+  composite: 51.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 43.0
@@ -248,11 +243,11 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.3
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 44.2
+    contract_quality: 57.1
     developer_ergonomics: 54.2
     discoverability: 77.8
     operational_transparency: 23.7
@@ -263,7 +258,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
+      marker_coverage: 0.0
       total: 1
     mcp: derived
     skills: derived
@@ -274,7 +269,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -293,7 +288,7 @@ security:
 slug: bureau-of-industry-and-security
 tags:
 - Compliance
-- Export Controls
+- Export Control
 - Federal-Government
 - Industries
 - National Security

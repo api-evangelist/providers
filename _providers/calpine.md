@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,7 +102,7 @@ press:
 - date: '2025-12-05'
   title: Constellation Reaches Resolution with U.S. Department of Justice for Calpine Transaction
   url: https://www.calpine.com/constellation-reaches-resolution-with-u-s-department-of-justice-for-calpine-transaction/
-random_paper: 18
+random_paper: 6
 score:
   band: minimal
   composite: 3.8
@@ -134,7 +134,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

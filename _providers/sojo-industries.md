@@ -35,18 +35,33 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://victoria-agent.sojoshield.com
-  baseurl_source: declared
-  description: The HTTP surface for Victoria, the SOJO Planning Assistant — a LangGraph-backed agent over Sojo's production and machine-telemetry data. Publishes a public OpenAPI 3.0.3 describing non-streaming orche
-  name: SOJO Planning Assistant (Victoria) API
-  slug: sojo-planning-assistant-victoria-api
 - description: The Sojo Shield track-and-trace platform API, versioned in-path at /api/v3/ and consumed by the Sojo Shield web application at sojoshield.com. Sojo publishes a Swagger UI for it at api.sojoshield.com/
   name: Sojo Shield Platform API
   slug: sojo-shield-platform-api
-artifact_total: 7
+- baseURL: https://victoria-agent.sojoshield.com
+  baseurl_source: declared
+  description: Orchestration / streaming chat
+  name: Sojo Industries Chat API
+  slug: sojo-industries-chat-api
+- baseURL: https://victoria-agent.sojoshield.com
+  baseurl_source: declared
+  description: Chat-history list/read/rename/delete (requires AGENT_PERSISTENCE_ENABLED; 404 when the feature is off)
+  name: Sojo Industries Conversations API
+  slug: sojo-industries-conversations-api
+- baseURL: https://victoria-agent.sojoshield.com
+  baseurl_source: declared
+  description: Image upload (files are uploaded via Shield, then referenced by S3 key)
+  name: Sojo Industries Files API
+  slug: sojo-industries-files-api
+- baseURL: https://victoria-agent.sojoshield.com
+  baseurl_source: declared
+  description: Health probe
+  name: Sojo Industries Health API
+  slug: sojo-industries-health-api
+artifact_total: 10
 common:
 - group: company
   title: ''
@@ -160,7 +175,7 @@ modified: '2026-08-28'
 name: Sojo Industries
 nav: Providers
 network: true
-overview: 'Sojo Industries publishes 1 API on the [APIs.io](https://apis.io/) network: SOJO Planning Assistant (Victoria) API. Tagged areas include Company, Supply Chain, Traceability, Food and Beverage, and Manufacturing.
+overview: 'Sojo Industries publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Conversations API, Files API, and 1 more. Tagged areas include Company, Supply Chain, Traceability, Food and Beverage, and Manufacturing.
 
 
   Sojo Industries'' developer surface includes API reference, YouTube channel, authentication, and 18 more developer resources.'
@@ -168,14 +183,14 @@ plans:
 - name: Sojo Industries Plans Pricing
   plan_count: 0
   slug: sojo-industries-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Sojo Industries Rate Limits
   slug: sojo-industries-rate-limits
 score:
   band: emerging
-  composite: 24.2
+  composite: 25.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -183,11 +198,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 46.9
+    contract_quality: 50.3
     developer_ergonomics: 20.8
     discoverability: 68.5
     operational_transparency: 0.0
@@ -199,10 +214,15 @@ score:
   previous_composite: 24.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

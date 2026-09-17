@@ -34,7 +34,7 @@ name: Transparent Systems
 nav: Providers
 network: true
 overview: Transparent Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Fintech, Payments, and Settlement.
-random_paper: 2
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/transparent-systems/refs/heads/main/screenshots/transparent-systems-2026-09-02T164132.png
 security:
 - kind: domain-security

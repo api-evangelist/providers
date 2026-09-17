@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 7
@@ -137,11 +137,6 @@ apis:
   slug: openobserve-pipelines-api
 - baseURL: https://api.openobserve.ai
   baseurl_source: declared
-  description: Ratelimit operations
-  name: OpenObserve Ratelimit API
-  slug: openobserve-ratelimit-api
-- baseURL: https://api.openobserve.ai
-  baseurl_source: declared
   description: The Report API from OpenObserve — 1 operation(s) for report.
   name: OpenObserve Report API
   slug: openobserve-report-api
@@ -182,11 +177,6 @@ apis:
   slug: openobserve-service-streams-api
 - baseURL: https://api.openobserve.ai
   baseurl_source: declared
-  description: The ServiceAccounts API from OpenObserve — 2 operation(s) for serviceaccounts.
-  name: OpenObserve ServiceAccounts API
-  slug: openobserve-serviceaccounts-api
-- baseURL: https://api.openobserve.ai
-  baseurl_source: declared
   description: Short Url Service
   name: OpenObserve Short Url API
   slug: openobserve-short-url-api
@@ -210,6 +200,16 @@ apis:
   description: Users retrieval & management operations
   name: OpenObserve Users API
   slug: openobserve-users-api
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Ratelimit operations
+  name: OpenObserve Rate Limit API
+  slug: openobserve-rate-limit-api
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Service Accounts API from OpenObserve — 2 operation(s) for service accounts.
+  name: OpenObserve Service Accounts API
+  slug: openobserve-service-accounts-api
 artifact_total: 75
 collections:
 - collection_type: open
@@ -407,14 +407,14 @@ plans:
 - name: Openobserve Plans Pricing
   plan_count: 3
   slug: openobserve-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Openobserve Rate Limits
   slug: openobserve-rate-limits
 score:
   band: developing
-  composite: 44.0
+  composite: 42.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 46.0
@@ -422,11 +422,11 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 57.1
+    contract_quality: 51.8
     developer_ergonomics: 23.8
     discoverability: 75.9
     operational_transparency: 39.5
@@ -437,13 +437,13 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 33
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

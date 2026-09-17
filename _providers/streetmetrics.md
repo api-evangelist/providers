@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://dashboard.streetmetrics.io/v3/public/
@@ -265,7 +265,7 @@ plans:
 - name: Streetmetrics Plans Pricing
   plan_count: 0
   slug: streetmetrics-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Streetmetrics Rate Limits
@@ -299,7 +299,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

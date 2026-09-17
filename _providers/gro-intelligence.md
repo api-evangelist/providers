@@ -18,6 +18,10 @@ apis:
   slug: gro-intelligence-api-retired
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://gro-intelligence.com
 - group: docs
   title: ''
   type: Documentation
@@ -121,19 +125,19 @@ description: 'Gro Intelligence was a New York- and Nairobi-based agricultural an
   is a parked registrar lander.'
 image: https://avatars.githubusercontent.com/u/15130228?v=4
 layout: provider
-modified: '2026-08-22'
+modified: '2026-09-16'
 name: Gro Intelligence
 nav: Providers
 network: true
 overview: 'Gro Intelligence publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Climate, Data, and Analytics.
 
 
-  Gro Intelligence''s developer surface includes documentation, CLI, authentication, changelog, and 12 more developer resources.'
+  Gro Intelligence''s developer surface includes documentation, CLI, authentication, changelog, and 13 more developer resources.'
 plans:
 - name: Gro Intelligence Plans Pricing
   plan_count: 0
   slug: gro-intelligence-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Gro Intelligence Rate Limits
@@ -161,4 +165,5 @@ tags:
 - Food Security
 - Time Series
 - Defunct
+website: https://gro-intelligence.com
 ---

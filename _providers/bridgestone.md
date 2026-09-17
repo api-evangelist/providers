@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -82,7 +82,7 @@ plans:
 - name: Bridgestone Plans Pricing
   plan_count: 1
   slug: bridgestone-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Bridgestone Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 12.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

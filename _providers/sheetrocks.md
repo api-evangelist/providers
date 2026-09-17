@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -67,11 +67,11 @@ modified: '2026-07-21'
 name: SheetRocks
 nav: Providers
 network: true
-overview: 'SheetRocks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spreadsheet, No-Code, Workflow-Automation, and Salesforce.
+overview: 'SheetRocks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Spreadsheets, No-Code, Workflow-Automation, and Salesforce.
 
 
   SheetRocks'' developer surface includes documentation and 4 more developer resources.'
-random_paper: 12
+random_paper: 5
 score:
   band: minimal
   composite: 8.3
@@ -92,7 +92,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -111,7 +111,7 @@ security:
 slug: sheetrocks
 tags:
 - Company
-- Spreadsheet
+- Spreadsheets
 - No-Code
 - Workflow-Automation
 - Salesforce

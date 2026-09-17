@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://greengrass.amazonaws.com
   baseurl_source: declared
   description: The Greengrass API from Amazon IoT Greengrass — 19 operation(s) for greengrass.
-  name: Amazon IoT Greengrass Greengrass API
+  name: Amazon IoT Greengrass API
   slug: amazon-iot-greengrass-greengrass-api
 - baseURL: https://greengrass.amazonaws.com
   baseurl_source: declared
@@ -1453,11 +1453,11 @@ jsonld:
   property_count: 133
   slug: amazon-iot-greengrass-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon IoT Greengrass
 nav: Providers
 network: true
-overview: 'Amazon IoT Greengrass publishes 2 APIs on the [APIs.io](https://apis.io/) network: Greengrass API and Tags API. Tagged areas include Edge Computing, IoT, Lambda, Machine-Learning, and Real-Time Processing.
+overview: 'Amazon IoT Greengrass publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Tags API, and 1 more. Tagged areas include Edge Computing, IoT, Lambda, Machine-Learning, and Real-Time Processing.
 
 
   The Amazon IoT Greengrass catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1468,7 +1468,7 @@ plans:
 - name: Amazon Iot Greengrass Plans Pricing
   plan_count: 3
   slug: amazon-iot-greengrass-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Greengrass Rate Limits
@@ -1522,7 +1522,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

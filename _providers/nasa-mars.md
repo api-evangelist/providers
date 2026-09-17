@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://api.nasa.gov/mars-photos/api/v1
   baseurl_source: declared
   description: List and inspect Mars rover records.
-  name: NASA Mars Rovers Rovers API
+  name: NASA Mars Rovers API
   slug: nasa-mars-rovers-api
 artifact_total: 20
 collections:
@@ -167,11 +167,11 @@ jsonld:
   property_count: 16
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: NASA Mars Rovers
 nav: Providers
 network: true
-overview: 'NASA Mars Rovers publishes 3 APIs on the [APIs.io](https://apis.io/) network: Manifests API, Photos API, and Rovers API. Tagged areas include NASA, Mars, Rovers, Photos, and Image.
+overview: 'NASA Mars Rovers publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Manifests API, Photos API, and 1 more. Tagged areas include NASA, Mars, Rovers, Photos, and Image.
 
 
   The NASA Mars Rovers catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -182,7 +182,7 @@ plans:
 - name: Nasa Mars Plans Pricing
   plan_count: 2
   slug: nasa-mars-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Nasa Mars Rate Limits
@@ -231,7 +231,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -378,6 +378,10 @@ collections:
   name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.UpdatePipeline API'
   slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/capabilities/amazon-codepipeline-capability-edges.yml
   title: ''
@@ -2878,7 +2882,7 @@ jsonld:
   property_count: 23
   slug: amazon-codepipeline-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon CodePipeline
 nav: Providers
 network: true
@@ -2888,8 +2892,8 @@ overview: 'Amazon CodePipeline publishes 41 APIs on the [APIs.io](https://apis.i
   The Amazon CodePipeline catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodePipeline''s developer surface includes authentication, engineering blog, getting-started guide, pricing, developer console, developer portal, documentation, and 23 more developer resources.'
-random_paper: 3
+  Amazon CodePipeline''s developer surface includes authentication, engineering blog, getting-started guide, pricing, developer console, developer portal, documentation, and 24 more developer resources.'
+random_paper: 20
 rules:
 - effective_rule_count: 5
   extends: []
@@ -2941,7 +2945,7 @@ score:
       total: 41
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2971,7 +2975,7 @@ tags:
 - Continuous Delivery
 - Developer Tools
 - DevOps
-- Pipeline
+- Pipelines
 - Release Automation
 use_cases:
 - description: Automate the entire software delivery lifecycle from source commit through build, test, staging, and production deployment.
@@ -2984,5 +2988,5 @@ use_cases:
   name: Microservices Delivery
 - description: Use CodeDeploy actions in pipelines to implement zero-downtime blue/green deployments automatically.
   name: Blue/Green Deployments
-website: https://aws.amazon.com/codepipeline/
+website: https://amazon.com
 ---

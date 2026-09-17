@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Cryptonews Plans Pricing
   plan_count: 4
   slug: cryptonews-plans-pricing
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Cryptonews Rate Limits
@@ -271,7 +271,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

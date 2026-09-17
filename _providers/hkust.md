@@ -35,14 +35,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://pathadvisor.ust.hk/api
-  baseurl_source: declared
-  description: 'Public, keyless JSON API behind HKUST Path Advisor, the university''s campus wayfinding service. Serves the campus spatial model: 7 buildings, 43 calibrated floor plans with metres-per-pixel and origin'
-  name: HKUST Path Advisor API
-  slug: path-advisor
 - description: HKUST's Azure API Management tenant, operated by the IT Services Office. The gateway is live and callable at hkust.azure-api.net and returns the Azure APIM 401 "missing subscription key" on the two pr
   name: HKUST API Gateway and API Portal
   slug: api-gateway
@@ -58,7 +53,27 @@ apis:
 - description: Central Elastic Stack repository established by ITSO to collect, search and visualise smart-campus data, including the IoT sensor inventory and sensor readings. It is institution-operated, but there i
   name: HKUST Open Data Platform
   slug: open-data-platform
-artifact_total: 20
+- baseURL: https://pathadvisor.ust.hk/api
+  baseurl_source: declared
+  description: Campus buildings.
+  name: Hong Kong University of Science and Technology Buildings API
+  slug: hkust-buildings-api
+- baseURL: https://pathadvisor.ust.hk/api
+  baseurl_source: declared
+  description: Floor plans and their map calibration.
+  name: Hong Kong University of Science and Technology Floors API
+  slug: hkust-floors-api
+- baseURL: https://pathadvisor.ust.hk/api
+  baseurl_source: declared
+  description: Named map features with GeoJSON footprints.
+  name: Hong Kong University of Science and Technology Nodes API
+  slug: hkust-nodes-api
+- baseURL: https://pathadvisor.ust.hk/api
+  baseurl_source: declared
+  description: Point-of-interest categories.
+  name: Hong Kong University of Science and Technology Tags API
+  slug: hkust-tags-api
+artifact_total: 23
 common:
 - group: company
   title: ''
@@ -208,7 +223,7 @@ modified: '2026-08-30'
 name: Hong Kong University of Science and Technology
 nav: Providers
 network: true
-overview: 'Hong Kong University of Science and Technology publishes 1 API on the [APIs.io](https://apis.io/) network: HKUST Path Advisor API. Tagged areas include University, Higher Education, Education, Research, and Hong Kong.
+overview: 'Hong Kong University of Science and Technology publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Buildings API, Floors API, Nodes API, and 1 more. Tagged areas include University, Higher Education, Education, Research, and Hong Kong.
 
 
   The Hong Kong University of Science and Technology catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -219,7 +234,7 @@ plans:
 - name: Hkust Plans Pricing
   plan_count: 2
   slug: hkust-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Hkust Rate Limits
@@ -242,7 +257,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.9
+  composite: 49.6
   coverage:
     artifact_dirs: 17
     catalog_earned: 70.3
@@ -250,11 +265,11 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 52.6
     contract_governance: 3.8
-    contract_quality: 63.4
+    contract_quality: 62.2
     developer_ergonomics: 42.9
     discoverability: 59.3
     operational_transparency: 31.6
@@ -272,7 +287,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 1
+      total: 4
   regulatory:
     applies: true
     matched_via: tags
@@ -280,7 +295,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

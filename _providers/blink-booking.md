@@ -29,7 +29,7 @@ name: Blink Booking
 nav: Providers
 network: true
 overview: Blink Booking is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Hospitality, Hotels, and Booking.
-random_paper: 16
+random_paper: 20
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink-booking/refs/heads/main/screenshots/blink-booking-2026-07-25T203318.png
 slug: blink-booking
 tags:

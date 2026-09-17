@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Single REST surface for vehicle specifications, VIN history, MOT records, parts fitment, valuations and property listings. Operations could not be enumerated: the API reference is behind a sign-in and'
@@ -62,7 +62,7 @@ overview: 'PlotAPI publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   PlotAPI''s developer surface includes documentation, signup flow, engineering blog, and 2 more developer resources.'
-random_paper: 5
+random_paper: 13
 score:
   band: emerging
   composite: 12.4
@@ -99,7 +99,7 @@ score:
       reason: never_enriched
   previous_composite: 12.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

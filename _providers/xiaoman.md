@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -64,11 +64,6 @@ apis:
   description: The 产品 (products and general CRM) module of the Xiaoman OKKI CRM Open API — 113 operations across products, customers, leads, opportunities, orders, quotations, payments, suppliers, inventory, users a
   name: Xiaoman (OKKI CRM) 产品 API
   slug: xiaoman-default-api
-- baseURL: https://api-sandbox.xiaoman.cn
-  baseurl_source: declared
-  description: The devops相关 module of the Xiaoman OKKI CRM Open API — 6 internal integration operations (DingTalk and TAPD webhooks, Sobot token, app version release).
-  name: Xiaoman (OKKI CRM) devops相关 API
-  slug: xiaoman-devops-api
 - baseURL: https://go.okki.ai
   baseurl_source: declared
   description: The Emails API from OKKI Go (go.okki.ai) — 6 operations for batch and personalized cold-outreach email sending and per-mail delivery tracking.
@@ -79,6 +74,11 @@ apis:
   description: The s7.1 release group of the Xiaoman OKKI CRM Open API — 35 operations covering customer detail/field dictionaries, follow-up trails, inventory, capital accounts and reporting.
   name: Xiaoman (OKKI CRM) s7.1 API
   slug: xiaoman-s7-1-api
+- baseURL: https://go.okki.ai
+  baseurl_source: declared
+  description: The Dev Ops API from Xiaoman (OKKI) — 6 operation(s) for dev ops.
+  name: Xiaoman (OKKI) Dev Ops API
+  slug: xiaoman-dev-ops-api
 artifact_total: 30
 asyncapis:
 - description: ''
@@ -315,7 +315,7 @@ plans:
 - name: Xiaoman Plans
   plan_count: 4
   slug: xiaoman-plans
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Xiaoman Rate Limits
@@ -357,12 +357,12 @@ score:
     contracts:
       callable: 100.0
       derived: 5
-      marker_coverage: 100.0
+      marker_coverage: 62.5
       total: 8
     mcp: derived
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

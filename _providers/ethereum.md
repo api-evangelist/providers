@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: http://localhost:8545
   baseurl_source: spec
   description: The Ethereum JSON RPC API API from Ethereum — 1 operation(s) for ethereum json rpc api.
-  name: Ethereum Ethereum JSON RPC API API
+  name: Ethereum JSON RPC API
   slug: ethereum-ethereum-json-rpc-api-api
 artifact_total: 13
 collections:
@@ -130,11 +130,11 @@ jsonld:
   property_count: 8
   slug: ethereum-json-rpc-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Ethereum
 nav: Providers
 network: true
-overview: 'Ethereum publishes 1 API on the [APIs.io](https://apis.io/) network: Ethereum JSON RPC API API. Tagged areas include Blockchain, DeFi, Ethereum, JSON-RPC, and Smart Contracts.
+overview: 'Ethereum publishes 1 API on the [APIs.io](https://apis.io/) network: JSON RPC API. Tagged areas include Blockchain, DeFi, Ethereum, JSON-RPC, and Smart Contracts.
 
 
   The Ethereum catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -145,7 +145,7 @@ plans:
 - name: Ethereum Plans Pricing
   plan_count: 3
   slug: ethereum-plans-pricing
-random_paper: 2
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Ethereum Rate Limits
@@ -188,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

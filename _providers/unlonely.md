@@ -64,12 +64,12 @@ graphqls:
   slug: unlonely-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unlonely.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Unlonely
 nav: Providers
 network: true
 overview: Unlonely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Live Streaming, Video, and Base.
-random_paper: 4
+random_paper: 6
 slug: unlonely
 tags:
 - Company
@@ -80,5 +80,6 @@ tags:
 - NFT
 - Creator Economy
 - GraphQL
+- Defunct
 website: https://unlonely.app
 ---

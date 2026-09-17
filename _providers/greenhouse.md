@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -78,13 +78,8 @@ apis:
   slug: greenhouse-education-api
 - baseURL: https://harvest.greenhouse.io/v1
   baseurl_source: declared
-  description: The Graphql API from Greenhouse — 1 operation(s) for graphql.
-  name: Greenhouse Graphql API
-  slug: greenhouse-graphql-api
-- baseURL: https://harvest.greenhouse.io/v1
-  baseurl_source: declared
   description: The Greenhouse Job Board API API from Greenhouse — 1 operation(s) for greenhouse job board api.
-  name: Greenhouse Greenhouse Job Board API API
+  name: Greenhouse Job Board API
   slug: greenhouse-greenhouse-job-board-api-api
 - baseURL: https://harvest.greenhouse.io/v1
   baseurl_source: declared
@@ -116,6 +111,11 @@ apis:
   description: The Users API from Greenhouse — 3 operation(s) for users.
   name: Greenhouse Users API
   slug: greenhouse-users-api
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Graph QL API from Greenhouse — 1 operation(s) for graph ql.
+  name: Greenhouse Graph QL API
+  slug: greenhouse-graph-ql-api
 artifact_total: 44
 collections:
 - collection_type: open
@@ -170,6 +170,10 @@ collections:
   name: Greenhouse Harvest Applications Users API
   slug: open-greenhouse-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://greenhouse.io
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/agentic-access/greenhouse-agentic-access.yml
   title: ''
@@ -223,7 +227,7 @@ json_structures:
   property_count: 0
   slug: greenhouse-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Greenhouse
 nav: Providers
 network: true
@@ -233,12 +237,12 @@ overview: 'Greenhouse publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
   The Greenhouse catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Greenhouse''s developer surface includes authentication, documentation, and 6 more developer resources.'
+  Greenhouse''s developer surface includes authentication, documentation, and 7 more developer resources.'
 plans:
 - name: Greenhouse Plans Pricing
   plan_count: 3
   slug: greenhouse-plans-pricing
-random_paper: 6
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Greenhouse Rate Limits
@@ -262,7 +266,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 26.6
+  composite: 27.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 48.5
@@ -270,11 +274,11 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 47.9
+    contract_quality: 50.6
     developer_ergonomics: 11.9
     discoverability: 64.8
     operational_transparency: 13.2
@@ -288,7 +292,7 @@ score:
       total: 12
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -314,5 +318,6 @@ tags:
 - Candidates
 - Job
 - Onboarding
-- HR
+- Human Resources
+website: https://greenhouse.io
 ---

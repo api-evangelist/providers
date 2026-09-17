@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -468,7 +468,7 @@ overview: 'Finix Payments publishes 19 APIs on the [APIs.io](https://apis.io/) n
 
 
   Finix Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Finix Payments Rate Limits
@@ -509,7 +509,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -531,7 +531,7 @@ tags:
 - Payment Processing
 - Payment Facilitation
 - Embedded Finance
-- Marketplaces
+- Marketplace
 - ACH
 - Card Acceptance
 - Fintech

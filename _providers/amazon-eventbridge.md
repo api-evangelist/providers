@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -129,6 +129,10 @@ collections:
   name: Amazon EventBridge API
   slug: open-amazon-eventbridge
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/agentic-access/amazon-eventbridge-agentic-access.yml
   title: ''
@@ -597,7 +601,7 @@ jsonld:
   property_count: 9
   slug: amazon-eventbridge-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon EventBridge
 nav: Providers
 network: true
@@ -607,7 +611,7 @@ overview: 'Amazon EventBridge publishes 5 APIs on the [APIs.io](https://apis.io/
   The Amazon EventBridge catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon EventBridge''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 29 more developer resources.'
+  Amazon EventBridge''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 30 more developer resources.'
 plans:
 - name: Amazon Eventbridge Plans Pricing
   plan_count: 3
@@ -677,7 +681,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -717,5 +721,5 @@ use_cases:
   name: SaaS Event Processing
 - description: Route events across AWS accounts and regions for enterprise architectures
   name: Multi-Account Event Routing
-website: https://aws.amazon.com/eventbridge/
+website: https://amazon.com
 ---

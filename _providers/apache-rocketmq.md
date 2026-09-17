@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   slug: apache-rocketmq-brokers-api
 - baseURL: https://rocketmq.example.com/api/v1
   baseurl_source: spec
-  description: The ConsumerGroups API from Apache RocketMQ — 1 operation(s) for consumergroups.
-  name: Apache RocketMQ ConsumerGroups API
-  slug: apache-rocketmq-consumergroups-api
-- baseURL: https://rocketmq.example.com/api/v1
-  baseurl_source: spec
   description: The Messages API from Apache RocketMQ — 3 operation(s) for messages.
   name: Apache RocketMQ Messages API
   slug: apache-rocketmq-messages-api
@@ -63,6 +58,11 @@ apis:
   description: The Topics API from Apache RocketMQ — 2 operation(s) for topics.
   name: Apache RocketMQ Topics API
   slug: apache-rocketmq-topics-api
+- baseURL: https://rocketmq.example.com/api/v1
+  baseurl_source: spec
+  description: The Consumer Groups API from Apache RocketMQ — 1 operation(s) for consumer groups.
+  name: Apache RocketMQ Consumer Groups API
+  slug: apache-rocketmq-consumer-groups-api
 artifact_total: 75
 collections:
 - collection_type: open
@@ -81,6 +81,10 @@ collections:
   name: Apache RocketMQ REST Brokers Topics API
   slug: open-apache-rocketmq-topics-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apache.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/agentic-access/apache-rocketmq-agentic-access.yml
   title: ''
@@ -285,22 +289,22 @@ jsonld:
   property_count: 34
   slug: apache-rocketmq-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apache RocketMQ
 nav: Providers
 network: true
-overview: 'Apache RocketMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Brokers API, ConsumerGroups API, Messages API, and 1 more. Tagged areas include Cloud-Native, Messaging, Message Queue, Pub-Sub, and Streaming.
+overview: 'Apache RocketMQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Brokers API, Messages API, Topics API, and 1 more. Tagged areas include Cloud-Native, Messaging, Message Queue, Pub-Sub, and Streaming.
 
 
   The Apache RocketMQ catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache RocketMQ''s developer surface includes documentation and 7 more developer resources.'
+  Apache RocketMQ''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Apache Rocketmq Plans Pricing
   plan_count: 3
   slug: apache-rocketmq-plans-pricing
-random_paper: 13
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Apache Rocketmq Rate Limits
@@ -354,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -387,4 +391,5 @@ use_cases:
   name: Log Aggregation
 - description: Reliable transactional messaging for financial systems
   name: Financial Transactions
+website: https://apache.org
 ---

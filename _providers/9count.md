@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,11 +86,11 @@ modified: '2026-09-05'
 name: 9 Count
 nav: Providers
 network: true
-overview: '9 Count is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Apps, Social Networking, Dating, and Mobile Applications.
+overview: '9 Count is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer App, Social Networking, Dating, and Mobile Applications.
 
 
   9 Count''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 1
+random_paper: 16
 score:
   band: minimal
   composite: 10.0
@@ -111,7 +111,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 10.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -125,7 +125,7 @@ security:
 slug: 9count
 tags:
 - Company
-- Consumer Apps
+- Consumer App
 - Social Networking
 - Dating
 - Mobile Applications

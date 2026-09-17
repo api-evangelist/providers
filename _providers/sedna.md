@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -51,82 +51,82 @@ apis:
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Category Tag API API from SEDNA — 7 operation(s) for category tag api.
-  name: SEDNA Category Tag API API
+  name: SEDNA Category Tag API
   slug: sedna-category-tag-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Comment API API from SEDNA — 1 operation(s) for comment api.
-  name: SEDNA Comment API API
+  name: SEDNA Comment API
   slug: sedna-comment-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Company API API from SEDNA — 1 operation(s) for company api.
-  name: SEDNA Company API API
+  name: SEDNA Company API
   slug: sedna-company-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Contact API API from SEDNA — 8 operation(s) for contact api.
-  name: SEDNA Contact API API
+  name: SEDNA Contact API
   slug: sedna-contact-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Document API API from SEDNA — 1 operation(s) for document api.
-  name: SEDNA Document API API
+  name: SEDNA Document API
   slug: sedna-document-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Download API API from SEDNA — 4 operation(s) for download api.
-  name: SEDNA Download API API
+  name: SEDNA Download API
   slug: sedna-download-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Event API API from SEDNA — 9 operation(s) for event api.
-  name: SEDNA Event API API
+  name: SEDNA Event API
   slug: sedna-event-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Job Reference API API from SEDNA — 7 operation(s) for job reference api.
-  name: SEDNA Job Reference API API
+  name: SEDNA Job Reference API
   slug: sedna-job-reference-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Keyword API API from SEDNA — 3 operation(s) for keyword api.
-  name: SEDNA Keyword API API
+  name: SEDNA Keyword API
   slug: sedna-keyword-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Message API API from SEDNA — 19 operation(s) for message api.
-  name: SEDNA Message API API
+  name: SEDNA Message API
   slug: sedna-message-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Saved Search API API from SEDNA — 2 operation(s) for saved search api.
-  name: SEDNA Saved Search API API
+  name: SEDNA Saved Search API
   slug: sedna-saved-search-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Team API API from SEDNA — 9 operation(s) for team api.
-  name: SEDNA Team API API
+  name: SEDNA Team API
   slug: sedna-team-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Template API API from SEDNA — 2 operation(s) for template api.
-  name: SEDNA Template API API
+  name: SEDNA Template API
   slug: sedna-template-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The User API API from SEDNA — 16 operation(s) for user api.
-  name: SEDNA User API API
+  name: SEDNA User API
   slug: sedna-user-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Vessel API API from SEDNA — 1 operation(s) for vessel api.
-  name: SEDNA Vessel API API
+  name: SEDNA Vessel API
   slug: sedna-vessel-api-api
 - baseURL: https://example.sednanetwork.com/platform
   baseurl_source: declared
   description: The Workflow API API from SEDNA — 2 operation(s) for workflow api.
-  name: SEDNA Workflow API API
+  name: SEDNA Workflow API
   slug: sedna-workflow-api-api
 artifact_total: 40
 collections:
@@ -309,15 +309,15 @@ mcp_servers:
 - description: ''
   name: SEDNA MCP Server
   slug: sedna-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: SEDNA
 nav: Providers
 network: true
-overview: 'SEDNA publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Category Tag API API, Comment API API, and 14 more. Tagged areas include Company, Shipping, Maritime, Email, and Communications.
+overview: 'SEDNA publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Category Tag API, Comment API, and 14 more. Tagged areas include Company, Shipping, Maritime, Email, and Communications.
 
 
   SEDNA''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 19
+random_paper: 17
 scopes:
 - name: Sedna Scopes
   scope_count: 53
@@ -325,7 +325,7 @@ scopes:
   summary_line: 53 scopes · clientCredentials
 score:
   band: thin
-  composite: 36.7
+  composite: 37.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -333,11 +333,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 48.1
+    contract_quality: 52.2
     developer_ergonomics: 33.9
     discoverability: 75.9
     operational_transparency: 23.7
@@ -353,7 +353,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

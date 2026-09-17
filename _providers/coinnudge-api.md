@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST HTTP API returning JSON/CSV for crypto market datasets. Includes a free Research scope (no paid key required) and a paid Market Events v1 scope with versioned releases, schema, manifest, and chec
@@ -85,7 +85,7 @@ plans:
 - name: Coinnudge Api Plans Pricing
   plan_count: 5
   slug: coinnudge-api-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Coinnudge Api Rate Limits
@@ -119,7 +119,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

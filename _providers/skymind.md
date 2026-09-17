@@ -133,7 +133,7 @@ overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pathmind''s developer surface includes documentation, API reference, changelog, and 16 more developer resources.'
-random_paper: 11
+random_paper: 19
 screenshot: https://raw.githubusercontent.com/api-evangelist/skymind/refs/heads/main/screenshots/skymind-2026-09-02T155819.png
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 0
@@ -44,11 +44,191 @@ api_count: 1
 apis:
 - baseURL: https://www.bxp.com/wp-json
   baseurl_source: declared
-  description: The WordPress REST API served by BXP's corporate website at https://www.bxp.com/wp-json — 332 routes across 15 namespaces, discovered by probing the API host root on 2026-09-04. This is the only machi
-  name: BXP WordPress REST API
-  slug: bxp-wordpress-rest-api
-artifact_total: 6
+  description: The block-directory API from Boston Properties (BXP) — 1 operation(s) for block-directory.
+  name: Boston Properties (BXP) Block Directory API
+  slug: boston-properties-block-directory-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The block-patterns API from Boston Properties (BXP) — 2 operation(s) for block-patterns.
+  name: Boston Properties (BXP) Block Patterns API
+  slug: boston-properties-block-patterns-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The block-renderer API from Boston Properties (BXP) — 1 operation(s) for block-renderer.
+  name: Boston Properties (BXP) Block Renderer API
+  slug: boston-properties-block-renderer-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The block-types API from Boston Properties (BXP) — 3 operation(s) for block-types.
+  name: Boston Properties (BXP) Block Types API
+  slug: boston-properties-block-types-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The blocks API from Boston Properties (BXP) — 6 operation(s) for blocks.
+  name: Boston Properties (BXP) Blocks API
+  slug: boston-properties-blocks-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The categories API from Boston Properties (BXP) — 2 operation(s) for categories.
+  name: Boston Properties (BXP) Categories API
+  slug: boston-properties-categories-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The comments API from Boston Properties (BXP) — 2 operation(s) for comments.
+  name: Boston Properties (BXP) Comments API
+  slug: boston-properties-comments-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The font-collections API from Boston Properties (BXP) — 2 operation(s) for font-collections.
+  name: Boston Properties (BXP) Font Collections API
+  slug: boston-properties-font-collections-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The font-families API from Boston Properties (BXP) — 4 operation(s) for font-families.
+  name: Boston Properties (BXP) Font Families API
+  slug: boston-properties-font-families-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The gl_js_maps API from Boston Properties (BXP) — 6 operation(s) for gl_js_maps.
+  name: Boston Properties (BXP) Gl Js Maps API
+  slug: boston-properties-gl-js-maps-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The global-styles API from Boston Properties (BXP) — 5 operation(s) for global-styles.
+  name: Boston Properties (BXP) Global Styles API
+  slug: boston-properties-global-styles-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The icons API from Boston Properties (BXP) — 2 operation(s) for icons.
+  name: Boston Properties (BXP) Icons API
+  slug: boston-properties-icons-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The index API from Boston Properties (BXP) — 1 operation(s) for index.
+  name: Boston Properties (BXP) Index API
+  slug: boston-properties-index-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The media API from Boston Properties (BXP) — 4 operation(s) for media.
+  name: Boston Properties (BXP) Media API
+  slug: boston-properties-media-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The menu-items API from Boston Properties (BXP) — 4 operation(s) for menu-items.
+  name: Boston Properties (BXP) Menu Items API
+  slug: boston-properties-menu-items-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The menu-locations API from Boston Properties (BXP) — 2 operation(s) for menu-locations.
+  name: Boston Properties (BXP) Menu Locations API
+  slug: boston-properties-menu-locations-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The menus API from Boston Properties (BXP) — 2 operation(s) for menus.
+  name: Boston Properties (BXP) Menus API
+  slug: boston-properties-menus-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The navigation API from Boston Properties (BXP) — 6 operation(s) for navigation.
+  name: Boston Properties (BXP) Navigation API
+  slug: boston-properties-navigation-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The pages API from Boston Properties (BXP) — 6 operation(s) for pages.
+  name: Boston Properties (BXP) Pages API
+  slug: boston-properties-pages-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The pattern-directory API from Boston Properties (BXP) — 1 operation(s) for pattern-directory.
+  name: Boston Properties (BXP) Pattern Directory API
+  slug: boston-properties-pattern-directory-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The plugins API from Boston Properties (BXP) — 2 operation(s) for plugins.
+  name: Boston Properties (BXP) Plugins API
+  slug: boston-properties-plugins-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The posts API from Boston Properties (BXP) — 6 operation(s) for posts.
+  name: Boston Properties (BXP) Posts API
+  slug: boston-properties-posts-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The search API from Boston Properties (BXP) — 1 operation(s) for search.
+  name: Boston Properties (BXP) Search API
+  slug: boston-properties-search-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The settings API from Boston Properties (BXP) — 1 operation(s) for settings.
+  name: Boston Properties (BXP) Settings API
+  slug: boston-properties-settings-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The sidebars API from Boston Properties (BXP) — 2 operation(s) for sidebars.
+  name: Boston Properties (BXP) Sidebars API
+  slug: boston-properties-sidebars-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The statuses API from Boston Properties (BXP) — 2 operation(s) for statuses.
+  name: Boston Properties (BXP) Statuses API
+  slug: boston-properties-statuses-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The tags API from Boston Properties (BXP) — 2 operation(s) for tags.
+  name: Boston Properties (BXP) Tags API
+  slug: boston-properties-tags-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The taxonomies API from Boston Properties (BXP) — 2 operation(s) for taxonomies.
+  name: Boston Properties (BXP) Taxonomies API
+  slug: boston-properties-taxonomies-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The template-parts API from Boston Properties (BXP) — 7 operation(s) for template-parts.
+  name: Boston Properties (BXP) Template Parts API
+  slug: boston-properties-template-parts-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The templates API from Boston Properties (BXP) — 7 operation(s) for templates.
+  name: Boston Properties (BXP) Templates API
+  slug: boston-properties-templates-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The themes API from Boston Properties (BXP) — 2 operation(s) for themes.
+  name: Boston Properties (BXP) Themes API
+  slug: boston-properties-themes-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The types API from Boston Properties (BXP) — 2 operation(s) for types.
+  name: Boston Properties (BXP) Types API
+  slug: boston-properties-types-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The users API from Boston Properties (BXP) — 6 operation(s) for users.
+  name: Boston Properties (BXP) Users API
+  slug: boston-properties-users-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The widget-types API from Boston Properties (BXP) — 4 operation(s) for widget-types.
+  name: Boston Properties (BXP) Widget Types API
+  slug: boston-properties-widget-types-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The widgets API from Boston Properties (BXP) — 2 operation(s) for widgets.
+  name: Boston Properties (BXP) Widgets API
+  slug: boston-properties-widgets-api
+- baseURL: https://www.bxp.com/wp-json
+  baseurl_source: declared
+  description: The wp_pattern_category API from Boston Properties (BXP) — 2 operation(s) for wp_pattern_category.
+  name: Boston Properties (BXP) Wp Pattern Category API
+  slug: boston-properties-wp-pattern-category-api
+artifact_total: 41
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/boston-properties/refs/heads/main/overlays/boston-properties-wordpress-rest-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/boston-properties-wordpress-rest-overlay.yaml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/boston-properties/refs/heads/main/conventions/boston-properties-conventions.yml
   title: ''
@@ -171,10 +351,10 @@ modified: '2026-09-04'
 name: Boston Properties (BXP)
 nav: Providers
 network: true
-overview: 'Boston Properties (BXP) publishes 1 API on the [APIs.io](https://apis.io/) network: BXP WordPress REST API. Tagged areas include Real-Estate, Commercial Real Estate, REIT, Office Properties, and Workplace.
+overview: 'Boston Properties (BXP) publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Block Directory API, Block Patterns API, Block Renderer API, and 33 more. Tagged areas include Real-Estate, Commercial Real Estate, REIT, Office Properties, and Workplace.
 
 
-  Boston Properties (BXP)''s developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
+  Boston Properties (BXP)''s developer surface includes engineering blog, support, authentication, and 23 more developer resources.'
 plans:
 - name: Boston Properties Plans Pricing
   plan_count: 0
@@ -195,14 +375,14 @@ press:
 - date: '2026-05-25'
   title: BXP CEO Owen Thomas discusses how AI companies are ...
   url: https://www.facebook.com/cnbc/posts/bxp-ceo-owen-thomas-discusses-how-ai-companies-are-increasing-the-demand-for-off/1234538748547516/
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Boston Properties Rate Limits
   slug: boston-properties-rate-limits
 score:
   band: thin
-  composite: 29.2
+  composite: 29.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -210,11 +390,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 56.5
+    contract_quality: 55.8
     developer_ergonomics: 20.8
     discoverability: 68.5
     operational_transparency: 0.0
@@ -226,11 +406,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 36
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

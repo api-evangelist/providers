@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -339,7 +339,7 @@ overview: 'depop publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   depop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 28 more developer resources.'
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Depop Rate Limits
@@ -379,7 +379,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

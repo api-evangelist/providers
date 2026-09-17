@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 35 operations · 22 acting
 api_count: 1
 apis:
-- baseURL: https://api.hyperping.io/v1
-  baseurl_source: declared
-  description: Cron-style monitors that expect periodic pings from scheduled tasks.
-  name: Hyperping Healthchecks API
-  slug: hyperping-healthchecks-api
 - baseURL: https://api.hyperping.io/v1
   baseurl_source: declared
   description: Status page incident lifecycle and updates.
@@ -80,6 +75,11 @@ apis:
   description: Public machine-readable status feed for a status page.
   name: Hyperping Status Pages API
   slug: hyperping-status-pages-api
+- baseURL: https://api.hyperping.io/v1
+  baseurl_source: declared
+  description: Cron-style monitors that expect periodic pings from scheduled tasks.
+  name: Hyperping Health Checks API
+  slug: hyperping-health-checks-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -172,7 +172,7 @@ modified: '2026-06-21'
 name: Hyperping
 nav: Providers
 network: true
-overview: 'Hyperping publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Healthchecks API, Incidents API, Maintenance API, and 4 more. Tagged areas include Uptime Monitoring, Status Pages, Incident Management, Observability, and On-Call.
+overview: 'Hyperping publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Incidents API, Maintenance API, Monitors API, and 4 more. Tagged areas include Uptime Monitoring, Status Pages, Incident Management, Observability, and On-Call.
 
 
   Hyperping''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -180,7 +180,7 @@ plans:
 - name: Hyperping Plans Pricing
   plan_count: 5
   slug: hyperping-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Hyperping Rate Limits
@@ -212,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

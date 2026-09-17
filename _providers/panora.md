@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Unified API platform allowing developers to integrate with hundreds of third-party tools through a single API.
@@ -87,7 +87,7 @@ plans:
 - name: Panora Plans Pricing
   plan_count: 3
   slug: panora-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Panora Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

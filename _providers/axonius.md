@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Axonius is a cybersecurity asset management platform providing SaaS management, device discovery, and security policy enforcement across IT environments.
@@ -139,7 +139,7 @@ plans:
 - name: Axonius Plans Pricing
   plan_count: 3
   slug: axonius-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Axonius Rate Limits
@@ -164,7 +164,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

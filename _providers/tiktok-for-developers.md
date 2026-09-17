@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 18 operations · 17 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- baseURL: https://open.tiktokapis.com
-  baseurl_source: declared
-  description: OAuth 2.0 authorization and token management
-  name: TikTok for Developers OAuth API
-  slug: tiktok-for-developers-oauth-api
 - baseURL: https://open.tiktokapis.com
   baseurl_source: declared
   description: Video publishing operations
@@ -85,6 +80,11 @@ apis:
   description: Video metadata and management
   name: TikTok for Developers Video API
   slug: tiktok-for-developers-video-api
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token management
+  name: TikTok for Developers O Auth API
+  slug: tiktok-for-developers-oauth-api
 arazzos:
 - description: Check creator settings, initiate a PULL_FROM_URL direct post, then poll publish status until it completes.
   name: TikTok Direct Post a Video from a URL
@@ -357,7 +357,7 @@ modified: '2026-05-19'
 name: TikTok for Developers
 nav: Providers
 network: true
-overview: 'TikTok for Developers publishes 8 APIs on the [APIs.io](https://apis.io/) network, including OAuth API, Post API, Research Comments API, and 5 more. Tagged areas include Advertising, Analytics, Authentication, Content, and Social-Media.
+overview: 'TikTok for Developers publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Post API, Research Comments API, Research Social API, and 5 more. Tagged areas include Advertising, Analytics, Authentication, Content, and Social-Media.
 
 
   The TikTok for Developers catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -368,7 +368,7 @@ plans:
 - name: Tiktok For Developers Plans Pricing
   plan_count: 4
   slug: tiktok-for-developers-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Tiktok For Developers Rate Limits
@@ -397,7 +397,7 @@ rules:
   slug: tiktok-for-developers-rules
 score:
   band: developing
-  composite: 47.3
+  composite: 47.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 61.5
@@ -405,11 +405,11 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 22.4
     contract_governance: 13.6
-    contract_quality: 67.8
+    contract_quality: 67.2
     developer_ergonomics: 65.5
     discoverability: 74.1
     operational_transparency: 34.2
@@ -422,7 +422,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

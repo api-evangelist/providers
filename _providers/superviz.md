@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -105,6 +105,10 @@ collections:
   name: SuperViz REST API
   slug: open-superviz
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://superviz.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/superviz/refs/heads/main/agentic-access/superviz-agentic-access.yml
   title: ''
@@ -132,7 +136,7 @@ finops:
   slug: superviz-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superviz.png
 layout: provider
-modified: '2026-07-01'
+modified: '2026-09-16'
 name: SuperViz
 nav: Providers
 network: true
@@ -142,12 +146,12 @@ overview: 'SuperViz publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The SuperViz catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  SuperViz''s developer surface includes authentication, engineering blog, and 2 more developer resources.'
+  SuperViz''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
 plans:
 - name: Superviz Plans Pricing
   plan_count: 3
   slug: superviz-plans-pricing
-random_paper: 1
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Superviz Rate Limits
@@ -165,8 +169,8 @@ rules:
     warn: 7
   slug: superviz-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 27.7
+  band: developing
+  composite: 42.2
   coverage:
     artifact_dirs: 12
     catalog_earned: 67.8
@@ -174,11 +178,11 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 14.5
   facets:
     access_clarity: 39.5
     contract_governance: 11.4
-    contract_quality: 8.1
+    contract_quality: 65.8
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 31.6
@@ -191,8 +195,8 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -215,4 +219,5 @@ tags:
 - Video
 - WebRTC
 - SDK
+website: https://superviz.com
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -35,10 +35,35 @@ api_count: 1
 apis:
 - baseURL: https://api.geocitation.io/v1
   baseurl_source: declared
-  description: 'Asynchronous REST API to launch AEO/GEO audits (Market Intelligence and Gap Analysis), poll status, and retrieve structured JSON output. API-key auth via X-API-Key header; HMAC-SHA256 signed webhooks '
-  name: GEOCitation Audit API
-  slug: geocitation-audit-api
-artifact_total: 8
+  description: The audits API from GEOCitation — 8 operation(s) for audits.
+  name: GEOCitation Audits API
+  slug: geocitation-audits-api
+- baseURL: https://api.geocitation.io/v1
+  baseurl_source: declared
+  description: The gdpr API from GEOCitation — 1 operation(s) for gdpr.
+  name: GEOCitation Gdpr API
+  slug: geocitation-gdpr-api
+- baseURL: https://api.geocitation.io/v1
+  baseurl_source: declared
+  description: The health API from GEOCitation — 2 operation(s) for health.
+  name: GEOCitation Health API
+  slug: geocitation-health-api
+- baseURL: https://api.geocitation.io/v1
+  baseurl_source: declared
+  description: The meta API from GEOCitation — 3 operation(s) for meta.
+  name: GEOCitation Meta API
+  slug: geocitation-meta-api
+- baseURL: https://api.geocitation.io/v1
+  baseurl_source: declared
+  description: The opt-out API from GEOCitation — 1 operation(s) for opt-out.
+  name: GEOCitation Opt Out API
+  slug: geocitation-opt-out-api
+- baseURL: https://api.geocitation.io/v1
+  baseurl_source: declared
+  description: The usage API from GEOCitation — 1 operation(s) for usage.
+  name: GEOCitation Usage API
+  slug: geocitation-usage-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Geocitation Webhooks
@@ -167,7 +192,7 @@ modified: '2026-09-10'
 name: GEOCitation
 nav: Providers
 network: true
-overview: 'GEOCitation publishes 1 API on the [APIs.io](https://apis.io/) network: Audit API. Tagged areas include SEO, Geo, AEO, AI Search Visibility, and Content Intelligence.
+overview: 'GEOCitation publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audits API, Gdpr API, Health API, and 3 more. Tagged areas include SEO, Geo, AEO, AI Search Visibility, and Content Intelligence.
 
 
   The GEOCitation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -178,14 +203,14 @@ plans:
 - name: Geocitation Plans Pricing
   plan_count: 5
   slug: geocitation-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Geocitation Rate Limits
   slug: geocitation-rate-limits
 score:
   band: strong
-  composite: 55.4
+  composite: 55.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 57.0
@@ -193,11 +218,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 54.4
+    contract_quality: 52.7
     developer_ergonomics: 56.5
     discoverability: 68.5
     operational_transparency: 28.9
@@ -205,10 +230,15 @@ score:
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

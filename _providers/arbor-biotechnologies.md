@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - baseURL: https://arbor.bio/wp-json
@@ -200,7 +200,7 @@ overview: 'Arbor Biotechnologies publishes 8 APIs on the [APIs.io](https://apis.
 
 
   Arbor Biotechnologies'' developer surface includes engineering blog, support, and 23 more developer resources.'
-random_paper: 14
+random_paper: 21
 score:
   band: emerging
   composite: 23.0
@@ -235,7 +235,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

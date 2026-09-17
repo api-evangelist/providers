@@ -25,7 +25,7 @@ name: LaunchGram
 nav: Providers
 network: true
 overview: LaunchGram is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startups, Venture Backed, Portfolio, and Defunct.
-random_paper: 8
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchgram/refs/heads/main/screenshots/launchgram-2026-07-25T224629.png
 slug: launchgram
 tags:

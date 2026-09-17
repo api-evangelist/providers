@@ -25,7 +25,7 @@ name: Corio, Inc.
 nav: Providers
 network: true
 overview: Corio, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Application Service Provider, Enterprise Software, and Managed Hosting.
-random_paper: 15
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/corio/refs/heads/main/screenshots/corio-2026-07-25T210432.png
 slug: corio
 tags:

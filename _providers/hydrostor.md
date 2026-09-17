@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,16 +82,21 @@ apis:
   slug: hydrostor-discovery-api
 - baseURL: https://hydrostor.ca/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for hydrostor.ca URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any newsroom post, static page or A-CAES project page. Re
-  name: Hydrostor oEmbed API
-  slug: hydrostor-oembed-api
-- baseURL: https://hydrostor.ca/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed schema.org JSON-LD graph for any hydrostor.ca URL — a structured-data view of every newsroom post, page and A-CAES pr
   name: Hydrostor SEO Metadata API
   slug: hydrostor-seo-api
+- baseURL: https://hydrostor.ca/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint.
+  name: Hydrostor o Embed API
+  slug: hydrostor-o-embed-api
 artifact_total: 14
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/overlays/hydrostor-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/hydrostor-oembed-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/security/hydrostor-domain-security.yml
   title: ''
@@ -247,12 +252,12 @@ network: true
 overview: 'Hydrostor publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Posts API, Pages API, and 6 more. Tagged areas include Company, Energy, Energy Storage, Long Duration Energy Storage, and Compressed Air Energy Storage.
 
 
-  Hydrostor''s developer surface includes engineering blog, YouTube channel, authentication, code examples, and 28 more developer resources.'
+  Hydrostor''s developer surface includes engineering blog, YouTube channel, authentication, code examples, and 29 more developer resources.'
 plans:
 - name: Hydrostor Plans Pricing
   plan_count: 0
   slug: hydrostor-plans-pricing
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Hydrostor Rate Limits
@@ -300,7 +305,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

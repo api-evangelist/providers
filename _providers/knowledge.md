@@ -20,20 +20,20 @@ modified: '2026-05-22'
 name: API Knowledge
 nav: Providers
 network: true
-random_paper: 15
+random_paper: 14
 slug: knowledge
 tags:
 - API Knowledge
-- Knowledge Graphs
+- Knowledge Graph
 - API Discovery
 - API Search
-- Catalogs
-- Indexes
+- Catalog
+- Index
 - Registries
 - RAG
 - Semantic Web
 - JSON-LD
-- LLMs
+- LLM
 - AI Agents
 - Topic
 ---

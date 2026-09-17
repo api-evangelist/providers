@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Manage charging stations and charge points (EVSE) - registration, status, health, and availability - within the EV Connect charge point management platform. Endpoints and base URL are not publicly doc
@@ -128,7 +128,7 @@ plans:
 - name: Ev Connect Plans Pricing
   plan_count: 1
   slug: ev-connect-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Ev Connect Rate Limits
@@ -159,7 +159,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

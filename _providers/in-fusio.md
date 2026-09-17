@@ -28,7 +28,7 @@ name: In-Fusio
 nav: Providers
 network: true
 overview: In-Fusio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Mobile Games, Gaming, and Entertainment.
-random_paper: 12
+random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-fusio/refs/heads/main/screenshots/in-fusio-2026-07-25T222215.png
 slug: in-fusio
 tags:

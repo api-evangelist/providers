@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -112,6 +112,10 @@ collections:
   name: Amazon EventBridge Scheduler
   slug: open-amazon-eventbridge-scheduler
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/agentic-access/amazon-eventbridge-scheduler-agentic-access.yml
   title: ''
@@ -1152,7 +1156,7 @@ jsonld:
   property_count: 54
   slug: amazon-eventbridge-scheduler-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon EventBridge Scheduler
 nav: Providers
 network: true
@@ -1162,12 +1166,12 @@ overview: 'Amazon EventBridge Scheduler publishes 3 APIs on the [APIs.io](https:
   The Amazon EventBridge Scheduler catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EventBridge Scheduler''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 27 more developer resources.'
+  Amazon EventBridge Scheduler''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 28 more developer resources.'
 plans:
 - name: Amazon Eventbridge Scheduler Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-scheduler-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Scheduler Rate Limits
@@ -1221,7 +1225,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1260,5 +1264,5 @@ use_cases:
   name: Resource Cleanup
 - description: Send scheduled notifications and reminders to users
   name: Reminder Notifications
-website: https://aws.amazon.com/eventbridge/
+website: https://amazon.com
 ---

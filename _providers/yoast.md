@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
+- acting_count: 7
+  human_in_the_loop: 7
   name: Yoast Agentic Access
-  operation_count: 5
+  operation_count: 23
   slug: yoast-agentic-access
-  summary_line: 5 operations
+  summary_line: 23 operations · 7 acting · 7 human-in-the-loop
 api_count: 3
 apis:
 - description: The Yoast Surfaces API provides a PHP interface for retrieving SEO metadata programmatically within WordPress. It exposes the YoastSEO() surface with methods to get metadata for the current page, a sp
@@ -422,7 +422,7 @@ plans:
 - name: Yoast Plans Pricing
   plan_count: 2
   slug: yoast-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Yoast Rate Limits
@@ -484,7 +484,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -327,7 +327,7 @@ modified: '2026-05-19'
 name: Absentify
 nav: Providers
 network: true
-overview: 'Absentify publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Departments API, Leave types API, and 4 more. Tagged areas include Absence Management, HR, Leave Management, Microsoft Teams, and Human Resources.
+overview: 'Absentify publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Departments API, Leave types API, and 4 more. Tagged areas include Absence Management, Human Resources, Leave Management, and Microsoft Teams.
 
 
   The Absentify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -338,7 +338,7 @@ plans:
 - name: Absentify Plans Pricing
   plan_count: 3
   slug: absentify-plans-pricing
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Absentify Rate Limits
@@ -367,21 +367,21 @@ rules:
   slug: absentify-spectral-rules
 score:
   band: developing
-  composite: 51.1
+  composite: 50.1
   coverage:
     artifact_dirs: 17
-    catalog_earned: 76.5
+    catalog_earned: 71.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.5
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 55.3
     contract_governance: 28.8
     contract_quality: 80.3
     developer_ergonomics: 34.5
-    discoverability: 68.5
+    discoverability: 59.3
     operational_transparency: 26.3
   previous_composite: 51.1
   provenance:
@@ -392,7 +392,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -418,10 +418,9 @@ security:
 slug: absentify
 tags:
 - Absence Management
-- HR
+- Human Resources
 - Leave Management
 - Microsoft Teams
-- Human Resources
 use_cases:
 - description: Integrate absence data into HRIS platforms like SAP, Workday, or BambooHR for unified people management.
   name: HR System Integration

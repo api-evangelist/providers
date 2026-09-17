@@ -21,30 +21,76 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 42.0
-  scored_at: '2026-09-15'
+  score: 49.9
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: REST API (OpenAPI 3.1) for managing locations, listings, connected accounts, reviews, posts, and analytics, with a hosted MCP server and llms.txt for agent-native access.
-  name: Listings API
-  slug: listings-api
-artifact_total: 10
+- baseURL: https://listingsapi.com/api/v4
+  baseurl_source: declared
+  description: Per-publisher insights (Google / Facebook / Bing) and indexing rate.
+  name: Listings API Analytics API
+  slug: listings-api-analytics-api
+- baseURL: https://listingsapi.com/api/v4
+  baseurl_source: declared
+  description: Bulk Google / Facebook / Yelp / TripAdvisor account connection flows.
+  name: Listings API Connected Accounts API
+  slug: listings-api-connected-accounts-api
+- baseURL: https://listingsapi.com/api/v4
+  baseurl_source: declared
+  description: Premium and additional directory listings, duplicates, and AI evaluation.
+  name: Listings API Listings API
+  slug: listings-api-listings-api
+- baseURL: https://listingsapi.com/api/v4
+  baseurl_source: declared
+  description: Create, update, archive, and inspect business locations.
+  name: Listings API Locations API
+  slug: listings-api-locations-api
+- baseURL: https://listingsapi.com/api/v4
+  baseurl_source: declared
+  description: Create and manage Google Business Profile posts — announcements, events, and offers — across locations.
+  name: Listings API Posts API
+  slug: listings-api-posts-api
+- baseURL: https://listingsapi.com/api/v4
+  baseurl_source: declared
+  description: Reviews and review-response endpoints, including analytics.
+  name: Listings API Reviews API
+  slug: listings-api-reviews-api
+- baseURL: https://listingsapi.com/api/v4
+  baseurl_source: declared
+  description: Supporting reference data — countries, sub-categories, and publisher site categories — plus the publisher sites included in your plan.
+  name: Listings API Supporting APIs API
+  slug: listings-api-supporting-apis-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Listings Api Webhooks
   slug: listings-api-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://listingsapi.com/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/mcp/listings-api-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/listings-api-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/overlays/listings-api-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/listings-api-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -138,18 +184,18 @@ modified: '2026-09-03'
 name: Listings API
 nav: Providers
 network: true
-overview: 'Listings API publishes 1 API on the [APIs.io](https://apis.io/) network: Listings API. Tagged areas include Business Listings, Local SEO, Locations, Reviews, and Google Business Profile.
+overview: 'Listings API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connected Accounts API, Listings API, and 4 more. Tagged areas include Business Listings, Local SEO, Location, Reviews, and Google Business Profile.
 
 
   The Listings API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Listings API''s developer surface includes authentication, pricing, support, signup flow, and 13 more developer resources.'
+  Listings API''s developer surface includes authentication, pricing, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Listings Api Plans Pricing
   plan_count: 3
   slug: listings-api-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Listings Api Rate Limits
@@ -160,8 +206,8 @@ scopes:
   slug: listings-api-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.4
+  band: strong
+  composite: 58.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 61.0
@@ -169,11 +215,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.3
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 48.1
+    contract_quality: 69.1
     developer_ergonomics: 59.5
     discoverability: 75.9
     operational_transparency: 52.6
@@ -184,12 +230,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 7
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -211,7 +257,7 @@ slug: listings-api
 tags:
 - Business Listings
 - Local SEO
-- Locations
+- Location
 - Reviews
 - Google Business Profile
 - Analytics

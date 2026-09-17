@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ created: '2026-05-11'
 description: JumpCloud is an open directory platform that unifies identity, access, and device management across users, devices, networks, and SaaS applications. Its cloud directory supports SSO, MFA, device management (MDM), conditional access policies, RADIUS, LDAP, and HR system integration. JumpCloud's REST APIs (V1 and V2) provide programmatic access to users, groups, systems, policies, applications, and directory insights for IT automation.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jumpcloud.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: JumpCloud
 nav: Providers
 network: true
@@ -157,7 +157,7 @@ overview: 'JumpCloud publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   JumpCloud''s developer surface includes authentication, documentation, support, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 13
+random_paper: 11
 score:
   band: thin
   composite: 31.8
@@ -185,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -210,5 +210,6 @@ tags:
 - MDM
 - IT Operations
 - Zero Trust
+- Identity Federation
 website: https://jumpcloud.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -220,11 +220,11 @@ modified: '2026-05-11'
 name: Paylocity
 nav: Providers
 network: true
-overview: 'Paylocity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Background Check API, Company API, Deductions API, and 7 more. Tagged areas include HR, Payroll, HCM, Benefits, and Workforce Management.
+overview: 'Paylocity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Background Check API, Company API, Deductions API, and 7 more. Tagged areas include Human Resources, Payroll, HCM, Benefits, and Workforce Management.
 
 
   Paylocity''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 3
+random_paper: 0
 scopes:
 - name: Paylocity Scopes
   scope_count: 1
@@ -258,7 +258,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -279,7 +279,7 @@ security:
   summary_line: Bugcrowd · security.txt · contact published
 slug: paylocity
 tags:
-- HR
+- Human Resources
 - Payroll
 - HCM
 - Benefits

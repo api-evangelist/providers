@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://ksqtx.com/wp-json
@@ -70,14 +70,14 @@ apis:
   slug: ksq-therapeutics-posts-api
 - baseURL: https://ksqtx.com/wp-json
   baseurl_source: declared
-  description: oEmbed 1.0 discovery for ksqtx.com URLs. Verified live anonymously on 2026-08-23 — provider_name "KSQ Therapeutics", provider_url https://ksqtx.com.
-  name: KSQ Therapeutics oEmbed API
-  slug: ksq-therapeutics-oembed-api
-- baseURL: https://ksqtx.com/wp-json
-  baseurl_source: declared
   description: Press Releases API operations on the ksqtx.com WordPress deployment.
   name: KSQ Therapeutics Press Release API
   slug: ksq-therapeutics-press-release-api
+- baseURL: https://ksqtx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed API operations on the ksqtx.com WordPress deployment.
+  name: KSQ Therapeutics o Embed API
+  slug: ksq-therapeutics-o-embed-api
 artifact_total: 12
 common:
 - group: commercial
@@ -235,7 +235,7 @@ plans:
 - name: Ksq Therapeutics Plans Pricing
   plan_count: 0
   slug: ksq-therapeutics-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Ksq Therapeutics Rate Limits
@@ -275,7 +275,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

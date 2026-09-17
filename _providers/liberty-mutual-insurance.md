@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: Accelerating innovation at Liberty Mutual Insurance | InsTech
   url: https://www.instech.co/knowledge-centre/accelerating-innovation-at-liberty-mutual-insurance/
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Liberty Mutual Insurance Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

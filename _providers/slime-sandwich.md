@@ -19,7 +19,7 @@ name: Slime Sandwich
 nav: Providers
 network: true
 overview: Slime Sandwich is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Browser Games, and 3D Games.
-random_paper: 4
+random_paper: 2
 slug: slime-sandwich
 tags:
 - Company

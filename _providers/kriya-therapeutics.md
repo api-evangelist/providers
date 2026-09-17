@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://kriyatherapeutics.com/wp-json
@@ -58,11 +58,6 @@ apis:
   description: The `news` custom post type — the company press-release archive (28 items at harvest, back to May 2020).
   name: Kriya Therapeutics News API
   slug: kriya-therapeutics-news-api
-- baseURL: https://kriyatherapeutics.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for kriyatherapeutics.com URLs.
-  name: Kriya Therapeutics Oembed API
-  slug: kriya-therapeutics-oembed-api
 - baseURL: https://kriyatherapeutics.com/wp-json
   baseurl_source: declared
   description: Corporate and pipeline pages (18 published at harvest time).
@@ -88,6 +83,11 @@ apis:
   description: The `team` custom post type. Registered and reachable, but empty (X-WP-Total 0) — the Team page is authored as page markup.
   name: Kriya Therapeutics Team API
   slug: kriya-therapeutics-team-api
+- baseURL: https://kriyatherapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for kriyatherapeutics.com URLs.
+  name: Kriya Therapeutics o Embed API
+  slug: kriya-therapeutics-o-embed-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -268,7 +268,7 @@ overview: 'Kriya Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io
 
 
   Kriya Therapeutics'' developer surface includes product news, support, authentication, and 27 more developer resources.'
-random_paper: 17
+random_paper: 16
 score:
   band: thin
   composite: 36.6
@@ -303,7 +303,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ name: Snaproute
 nav: Providers
 network: true
 overview: Snaproute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Network Operating System, Cloud-Native, and SDN.
-random_paper: 6
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/snaproute/refs/heads/main/screenshots/snaproute-2026-09-02T160008.png
 security:
 - kind: domain-security

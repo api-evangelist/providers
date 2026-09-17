@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -77,11 +77,6 @@ apis:
   slug: clickup-lists-api
 - baseURL: https://api.clickup.com
   baseurl_source: declared
-  description: Operations for OAuth 2.0 authentication and token management.
-  name: clickup OAuth API
-  slug: clickup-oauth-api
-- baseURL: https://api.clickup.com
-  baseurl_source: declared
   description: Operations for managing Spaces within a ClickUp Workspace.
   name: clickup Spaces API
   slug: clickup-spaces-api
@@ -110,6 +105,11 @@ apis:
   description: Operations for creating, retrieving, updating, and deleting webhook subscriptions.
   name: clickup Webhooks API
   slug: clickup-webhooks-api
+- baseURL: https://api.clickup.com
+  baseurl_source: declared
+  description: Operations for OAuth 2.0 authentication and token management.
+  name: Clickup O Auth API
+  slug: clickup-oauth-api
 artifact_total: 109
 asyncapis:
 - description: The ClickUp Webhooks event system delivers real-time notifications when changes occur within a ClickUp Workspace. When subscribed events happen, ClickUp sends HTTP POST requests to a registered endpoi
@@ -426,7 +426,7 @@ plans:
 - name: Clickup Plans Pricing
   plan_count: 4
   slug: clickup-plans-pricing
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Clickup Rate Limits
@@ -467,7 +467,7 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 71.1
+    contract_quality: 71.0
     developer_ergonomics: 19.0
     discoverability: 57.4
     operational_transparency: 10.5
@@ -484,7 +484,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -19,7 +19,7 @@ name: PayTango
 nav: Providers
 network: true
 overview: PayTango is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 6
+random_paper: 9
 slug: paytango
 tags:
 - Company

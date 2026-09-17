@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,16 +57,6 @@ apis:
   slug: openexchangerates-currencies-api
 - baseURL: https://openexchangerates.org/api
   baseurl_source: declared
-  description: End-of-day rates for any date back to 1999-01-01.
-  name: Open Exchange Rates Historical Rates API
-  slug: openexchangerates-historical-rates-api
-- baseURL: https://openexchangerates.org/api
-  baseurl_source: declared
-  description: Current exchange rates relative to a base currency.
-  name: Open Exchange Rates Latest Rates API
-  slug: openexchangerates-latest-rates-api
-- baseURL: https://openexchangerates.org/api
-  baseurl_source: declared
   description: Open, high, low, close, and average rates for a period.
   name: Open Exchange Rates OHLC API
   slug: openexchangerates-ohlc-api
@@ -83,9 +73,9 @@ apis:
 - baseURL: https://openexchangerates.org/api
   baseurl_source: declared
   description: Live and historical exchange rate data
-  name: Open Exchange Rates Rates API
+  name: Open Exchange Rates API
   slug: openexchangerates-rates-api
-artifact_total: 40
+artifact_total: 38
 collections:
 - collection_type: postman
   name: Open Exchange Rates Convert API
@@ -253,11 +243,11 @@ jsonld:
   property_count: 24
   slug: open-exchange-rates
 layout: provider
-modified: '2026-08-08'
+modified: '2026-09-16'
 name: Open Exchange Rates
 nav: Providers
 network: true
-overview: 'Open Exchange Rates publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Convert API, Currencies API, Historical Rates API, and 5 more. Tagged areas include Foreign Exchange, Currency, Exchange Rates, FX, and Currency Conversion.
+overview: 'Open Exchange Rates publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Convert API, Currencies API, OHLC API, and 3 more. Tagged areas include Foreign Exchange, Currency, Exchange Rates, FX, and Currency Conversion.
 
 
   The Open Exchange Rates catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -268,7 +258,7 @@ plans:
 - name: Openexchangerates Plans Pricing
   plan_count: 5
   slug: openexchangerates-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Openexchangerates Rate Limits
@@ -309,9 +299,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -60,16 +60,6 @@ apis:
   slug: seldon-alertingservice-api
 - baseURL: https://docs.seldon.ai
   baseurl_source: declared
-  description: ApplicationLogs APIs for Seldon Deploy
-  name: Seldon ApplicationLogs API
-  slug: seldon-applicationlogs-api
-- baseURL: https://docs.seldon.ai
-  baseurl_source: declared
-  description: Batch Jobs APIs for Seldon Deploy
-  name: Seldon BatchJobs API
-  slug: seldon-batchjobs-api
-- baseURL: https://docs.seldon.ai
-  baseurl_source: declared
   description: Drift Detector APIs for Seldon Deploy
   name: Seldon DriftDetector API
   slug: seldon-driftdetector-api
@@ -90,19 +80,9 @@ apis:
   slug: seldon-explain-api
 - baseURL: https://docs.seldon.ai
   baseurl_source: declared
-  description: GitOps APIs for Seldon Deploy
-  name: Seldon GitOps API
-  slug: seldon-gitops-api
-- baseURL: https://docs.seldon.ai
-  baseurl_source: declared
   description: The health API from Seldon — 4 operation(s) for health.
   name: Seldon health API
   slug: seldon-health-api
-- baseURL: https://docs.seldon.ai
-  baseurl_source: declared
-  description: The HealthcheckService API from Seldon — 1 operation(s) for healthcheckservice.
-  name: Seldon HealthcheckService API
-  slug: seldon-healthcheckservice-api
 - baseURL: https://docs.seldon.ai
   baseurl_source: declared
   description: The InferenceLogsService API from Seldon — 4 operation(s) for inferencelogsservice.
@@ -178,6 +158,26 @@ apis:
   description: SeldonDeployments APIs for Seldon Deploy
   name: Seldon SeldonDeployments API
   slug: seldon-seldondeployments-api
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: ApplicationLogs APIs for Seldon Deploy
+  name: Seldon Application Logs API
+  slug: seldon-application-logs-api
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Batch Jobs APIs for Seldon Deploy
+  name: Seldon Batch Jobs API
+  slug: seldon-batch-jobs-api
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: GitOps APIs for Seldon Deploy
+  name: Seldon Git Ops API
+  slug: seldon-git-ops-api
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The Health Check Service API from Seldon — 1 operation(s) for health check service.
+  name: Seldon Health Check Service API
+  slug: seldon-health-check-service-api
 artifact_total: 74
 collections:
 - collection_type: open
@@ -415,7 +415,7 @@ modified: 2026-06-12
 name: Seldon
 nav: Providers
 network: true
-overview: 'Seldon publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Inference API, AlertingService API, ApplicationLogs API, and 23 more. Tagged areas include MLOps, Machine-Learning, Model Serving, Inference, and Kubernetes.
+overview: 'Seldon publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Inference API, AlertingService API, DriftDetector API, and 23 more. Tagged areas include MLOps, Machine-Learning, Model Serving, Inference, and Kubernetes.
 
 
   The Seldon catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -426,7 +426,7 @@ plans:
 - name: Seldon Plans Pricing
   plan_count: 4
   slug: seldon-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Seldon Rate Limits
@@ -449,7 +449,7 @@ scopes:
   summary_line: 5 scopes · password
 score:
   band: thin
-  composite: 37.8
+  composite: 38.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 71.3
@@ -457,11 +457,11 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 52.5
+    contract_quality: 55.1
     developer_ergonomics: 28.6
     discoverability: 74.1
     operational_transparency: 10.5
@@ -474,7 +474,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

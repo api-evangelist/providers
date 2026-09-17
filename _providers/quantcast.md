@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'The Quantcast Platform GraphQL API (v2) is the primary programmatic interface to the Quantcast advertising platform. It exposes queries and mutations for reporting, campaign and line item management, '
@@ -268,7 +268,7 @@ plans:
 - name: Quantcast Plans Pricing
   plan_count: 0
   slug: quantcast-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Quantcast Rate Limits
@@ -307,7 +307,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

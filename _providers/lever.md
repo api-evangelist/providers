@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -68,7 +68,9 @@ apis:
   description: List the configured pipeline stages and disposition stages used to route opportunities through screening, interviews, offer, and hire.
   name: Lever Stages API
   slug: lever-stages-api
-- description: Read archive reasons used when an opportunity is archived (rejected, hired, withdrawn) for downstream EEO and analytics reporting.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: spec
+  description: Read archive reasons used when an opportunity is archived (rejected, hired, withdrawn) for downstream EEO and analytics reporting.
   name: Lever Archive Reasons API
   slug: lever-archive-reasons-api
 - baseURL: https://api.lever.co/v1
@@ -124,7 +126,9 @@ apis:
   description: Manage Lever users and their access roles (Super Admin, Admin, Team Member, Limited Team Member, Interviewer, Outsider).
   name: Lever Users API
   slug: lever-users-api
-- description: Read tenant-scoped audit events for security monitoring and SOC reporting.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: spec
+  description: Read tenant-scoped audit events for security monitoring and SOC reporting.
   name: Lever Audit Events API
   slug: lever-audit-events-api
 - baseURL: https://api.lever.co/v1
@@ -146,16 +150,6 @@ apis:
   description: The Applications API from Lever — 2 operation(s) for applications.
   name: Lever Applications API
   slug: lever-applications-api
-- baseURL: https://api.lever.co/v1
-  baseurl_source: spec
-  description: The ArchiveReasons API from Lever — 2 operation(s) for archivereasons.
-  name: Lever ArchiveReasons API
-  slug: lever-archivereasons-api
-- baseURL: https://api.lever.co/v1
-  baseurl_source: spec
-  description: The AuditEvents API from Lever — 1 operation(s) for auditevents.
-  name: Lever AuditEvents API
-  slug: lever-auditevents-api
 - baseURL: https://api.lever.co/v1
   baseurl_source: spec
   description: The Contacts API from Lever — 1 operation(s) for contacts.
@@ -236,6 +230,16 @@ apis:
   description: The Users API from Lever — 2 operation(s) for users.
   name: Lever Users API
   slug: lever-users-api
+- baseURL: https://api.lever.co/v1
+  baseurl_source: spec
+  description: The Archive Reasons API from Lever — 2 operation(s) for archive reasons.
+  name: Lever Archive Reasons API
+  slug: lever-archive-reasons-api
+- baseURL: https://api.lever.co/v1
+  baseurl_source: spec
+  description: The Audit Events API from Lever — 1 operation(s) for audit events.
+  name: Lever Audit Events API
+  slug: lever-audit-events-api
 artifact_total: 80
 collections:
 - collection_type: open
@@ -424,7 +428,7 @@ modified: '2026-05-19'
 name: Lever
 nav: Providers
 network: true
-overview: 'Lever publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Postings API, Applications API, and 31 more. Tagged areas include HR, ATS, Recruiting, Talent Acquisition, and Software-as-a-Service.
+overview: 'Lever publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Postings API, Applications API, and 33 more. Tagged areas include Human Resources, ATS, Recruiting, Talent Acquisition, and Software-as-a-Service.
 
 
   Lever''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 16 more developer resources.'
@@ -432,14 +436,14 @@ plans:
 - name: Lever Plans Pricing
   plan_count: 4
   slug: lever-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Lever Rate Limits
   slug: lever-rate-limits
 score:
   band: thin
-  composite: 37.3
+  composite: 37.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 39.0
@@ -447,11 +451,11 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 61.8
     contract_governance: 0.0
-    contract_quality: 55.2
+    contract_quality: 57.6
     developer_ergonomics: 14.3
     discoverability: 55.6
     operational_transparency: 26.3
@@ -464,7 +468,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -489,7 +493,7 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 slug: lever
 tags:
-- HR
+- Human Resources
 - ATS
 - Recruiting
 - Talent Acquisition

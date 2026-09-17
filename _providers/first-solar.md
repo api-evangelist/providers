@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: First Solar Inaugurates New $1.1 Billion AI-Enabled ...
   url: https://www.opportunitylouisiana.gov/news/first-solar-inaugurates-new-1-1-billion-ai-enabled-louisiana-manufacturing-facility
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: First Solar Rate Limits
@@ -171,7 +171,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -194,7 +194,7 @@ tags:
 - Renewable Energy
 - Manufacturing
 - Fortune 1000
-- Photovoltaic
+- Photovoltaics
 - Thin Film
 - Utility-Scale Solar
 - Clean Energy

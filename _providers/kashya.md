@@ -19,7 +19,7 @@ name: Kashya
 nav: Providers
 network: true
 overview: Kashya is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Protection, Data Replication, Continuous Data Protection, and Disaster Recovery.
-random_paper: 11
+random_paper: 3
 slug: kashya
 tags:
 - Company

@@ -19,7 +19,7 @@ name: Evariant
 nav: Providers
 network: true
 overview: Evariant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Healthcare CRM, Patient Engagement, and Physician Relationship Management.
-random_paper: 18
+random_paper: 0
 slug: evariant
 tags:
 - Company

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -91,11 +91,6 @@ apis:
   description: The Labels API from Sendcloud — 2 operation(s) for labels.
   name: Sendcloud Labels API
   slug: sendcloud-labels-api
-- baseURL: https://panel.sendcloud.sc/api/v3
-  baseurl_source: declared
-  description: The OAuth2 API from Sendcloud — 1 operation(s) for oauth2.
-  name: Sendcloud OAuth2 API
-  slug: sendcloud-oauth2-api
 - baseURL: https://panel.sendcloud.sc/api/v3
   baseurl_source: declared
   description: OrderAPI
@@ -176,6 +171,11 @@ apis:
   description: The Webhooks API from Sendcloud — 0 operation(s) for webhooks.
   name: Sendcloud Webhooks API
   slug: sendcloud-webhooks-api
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The OAuth2 API from Sendcloud — 1 operation(s) for oauth2.
+  name: Sendcloud O Auth2 API
+  slug: sendcloud-oauth2-api
 arazzos:
 - description: Announce a shipment synchronously, then retrieve the return portal URL customers use to create a return.
   name: Sendcloud Announce a Shipment and Get its Return Portal URL
@@ -729,7 +729,7 @@ modified: '2026-05-25'
 name: Sendcloud
 nav: Providers
 network: true
-overview: 'Sendcloud publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Address API, Analytics API, Broadcast API, and 23 more. Tagged areas include Shipping, Logistics, E-Commerce, Carriers, and Labels.
+overview: 'Sendcloud publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Address API, Analytics API, Broadcast API, and 23 more. Tagged areas include Shipping, Logistics, E-Commerce, Carrier, and Labels.
 
 
   The Sendcloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -740,7 +740,7 @@ plans:
 - name: Sendcloud Plans Pricing
   plan_count: 6
   slug: sendcloud-plans-pricing
-random_paper: 16
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Sendcloud Rate Limits
@@ -812,7 +812,7 @@ score:
     regime_id: telecommunications
     score: 54.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -847,7 +847,7 @@ tags:
 - Shipping
 - Logistics
 - E-Commerce
-- Carriers
+- Carrier
 - Labels
 - Returns
 - Tracking

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 17655
-  human_in_the_loop: 93
+- acting_count: 7537
+  human_in_the_loop: 44
   name: Microsoft Graph Agentic Access
-  operation_count: 37105
+  operation_count: 15941
   slug: microsoft-graph-agentic-access
-  summary_line: 37105 operations · 17655 acting · 93 human-in-the-loop
+  summary_line: 15941 operations · 7537 acting · 44 human-in-the-loop
 api_count: 71
 apis:
 - baseURL: https://graph.microsoft.com/v1.0
@@ -58,11 +58,6 @@ apis:
   description: The admin.adminReportSettings API from Microsoft Graph — 1 operation(s) for admin.adminreportsettings.
   name: Microsoft Graph admin.adminReportSettings API
   slug: microsoft-graph-admin-adminreportsettings-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing admin consent request policies
-  name: Microsoft Graph Admin Consent Policy API
-  slug: microsoft-graph-admin-consent-policy-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The Admin.edge API from Microsoft Graph — 12 operation(s) for admin.edge.
@@ -83,16 +78,6 @@ apis:
   description: The Admin.sharepoint API from Microsoft Graph — 2 operation(s) for admin.sharepoint.
   name: Microsoft Graph Admin.sharepoint API
   slug: microsoft-graph-admin-sharepoint-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Core administrative operations for managing the admin singleton
-  name: Microsoft Graph Administration API
-  slug: microsoft-graph-administration-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing directory administrative units
-  name: Microsoft Graph Administrative Units API
-  slug: microsoft-graph-administrative-units-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: Operations for managing the collection of agreement acceptance entities
@@ -145,16 +130,6 @@ apis:
   slug: microsoft-graph-agreements-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Operations for managing the Microsoft Teams app catalog
-  name: Microsoft Graph App Catalogs API
-  slug: microsoft-graph-app-catalogs-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing the Microsoft Teams app catalog
-  name: Microsoft Graph App Catalogs Teams Apps API
-  slug: microsoft-graph-app-catalogs-teams-apps-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: The appCatalogs.appCatalogs API from Microsoft Graph — 1 operation(s) for appcatalogs.appcatalogs.
   name: Microsoft Graph appCatalogs.appCatalogs API
   slug: microsoft-graph-appcatalogs-appcatalogs-api
@@ -163,41 +138,6 @@ apis:
   description: The appCatalogs.teamsApp API from Microsoft Graph — 7 operation(s) for appcatalogs.teamsapp.
   name: Microsoft Graph appCatalogs.teamsApp API
   slug: microsoft-graph-appcatalogs-teamsapp-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for browsing and instantiating application templates
-  name: Microsoft Graph Application Templates API
-  slug: microsoft-graph-application-templates-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for browsing and instantiating application templates
-  name: Microsoft Graph Application Templates Instantiate API
-  slug: microsoft-graph-application-templates-instantiate-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Add Key API
-  slug: microsoft-graph-applications-add-key-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Add Password API
-  slug: microsoft-graph-applications-add-password-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications API
-  slug: microsoft-graph-applications-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications(app Id='{app Id}') API
-  slug: microsoft-graph-applications-app-id-app-id-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications App Management Policies API
-  slug: microsoft-graph-applications-app-management-policies-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The applications.application.Actions API from Microsoft Graph — 14 operation(s) for applications.application.actions.
@@ -220,34 +160,9 @@ apis:
   slug: microsoft-graph-applications-appmanagementpolicy-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Check Member Groups API
-  slug: microsoft-graph-applications-check-member-groups-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Check Member Objects API
-  slug: microsoft-graph-applications-check-member-objects-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Created on Behalf Of API
-  slug: microsoft-graph-applications-created-on-behalf-of-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Delta() API
-  slug: microsoft-graph-applications-delta-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: The applications.directoryObject API from Microsoft Graph — 17 operation(s) for applications.directoryobject.
   name: Microsoft Graph applications.directoryObject API
   slug: microsoft-graph-applications-directoryobject-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Extension Properties API
-  slug: microsoft-graph-applications-extension-properties-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The applications.extensionProperty API from Microsoft Graph — 3 operation(s) for applications.extensionproperty.
@@ -255,44 +170,9 @@ apis:
   slug: microsoft-graph-applications-extensionproperty-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Federated Identity Credentials API
-  slug: microsoft-graph-applications-federated-identity-credentials-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Federated Identity Credentials(name='{name}') API
-  slug: microsoft-graph-applications-federated-identity-credentials-name-name-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: The applications.federatedIdentityCredential API from Microsoft Graph — 4 operation(s) for applications.federatedidentitycredential.
   name: Microsoft Graph applications.federatedIdentityCredential API
   slug: microsoft-graph-applications-federatedidentitycredential-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Get Available Extension Properties API
-  slug: microsoft-graph-applications-get-available-extension-properties-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Get by Ids API
-  slug: microsoft-graph-applications-get-by-ids-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Get Member Groups API
-  slug: microsoft-graph-applications-get-member-groups-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Get Member Objects API
-  slug: microsoft-graph-applications-get-member-objects-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Home Realm Discovery Policies API
-  slug: microsoft-graph-applications-home-realm-discovery-policies-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The applications.homeRealmDiscoveryPolicy API from Microsoft Graph — 3 operation(s) for applications.homerealmdiscoverypolicy.
@@ -301,48 +181,8 @@ apis:
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: Operations for managing application registrations
-  name: Microsoft Graph Applications Logo API
-  slug: microsoft-graph-applications-logo-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Owners API
-  slug: microsoft-graph-applications-owners-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Remove Key API
-  slug: microsoft-graph-applications-remove-key-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Remove Password API
-  slug: microsoft-graph-applications-remove-password-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Restore API
-  slug: microsoft-graph-applications-restore-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Set Verified Publisher API
-  slug: microsoft-graph-applications-set-verified-publisher-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
   name: Microsoft Graph Applications Synchronization API
   slug: microsoft-graph-applications-synchronization-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Token Issuance Policies API
-  slug: microsoft-graph-applications-token-issuance-policies-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Token Lifetime Policies API
-  slug: microsoft-graph-applications-token-lifetime-policies-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The applications.tokenIssuancePolicy API from Microsoft Graph — 4 operation(s) for applications.tokenissuancepolicy.
@@ -355,21 +195,6 @@ apis:
   slug: microsoft-graph-applications-tokenlifetimepolicy-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications(unique Name='{unique Name}') API
-  slug: microsoft-graph-applications-unique-name-unique-name-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Unset Verified Publisher API
-  slug: microsoft-graph-applications-unset-verified-publisher-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing application registrations
-  name: Microsoft Graph Applications Validate Properties API
-  slug: microsoft-graph-applications-validate-properties-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: The applicationTemplates.applicationTemplate.Actions API from Microsoft Graph — 1 operation(s) for applicationtemplates.applicationtemplate.actions.
   name: Microsoft Graph applicationTemplates.applicationTemplate.Actions API
   slug: microsoft-graph-applicationtemplates-applicationtemplate-actions-api
@@ -378,26 +203,6 @@ apis:
   description: The applicationTemplates.applicationTemplate API from Microsoft Graph — 3 operation(s) for applicationtemplates.applicationtemplate.
   name: Microsoft Graph applicationTemplates.applicationTemplate API
   slug: microsoft-graph-applicationtemplates-applicationtemplate-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for accessing audit log data
-  name: Microsoft Graph Audit Logs API
-  slug: microsoft-graph-audit-logs-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for accessing audit log data
-  name: Microsoft Graph Audit Logs Directory Audits API
-  slug: microsoft-graph-audit-logs-directory-audits-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for accessing audit log data
-  name: Microsoft Graph Audit Logs Provisioning API
-  slug: microsoft-graph-audit-logs-provisioning-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for accessing audit log data
-  name: Microsoft Graph Audit Logs Sign Ins API
-  slug: microsoft-graph-audit-logs-sign-ins-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The auditLogs.auditLogRoot API from Microsoft Graph — 1 operation(s) for auditlogs.auditlogroot.
@@ -433,11 +238,6 @@ apis:
   description: The authenticationMethodsPolicy.authenticationMethodsPolicy API from Microsoft Graph — 1 operation(s) for authenticationmethodspolicy.authenticationmethodspolicy.
   name: Microsoft Graph authenticationMethodsPolicy.authenticationMethodsPolicy API
   slug: microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing browser site lists
-  name: Microsoft Graph Browser Site Lists API
-  slug: microsoft-graph-browser-site-lists-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The certificateBasedAuthConfiguration.certificateBasedAuthConfiguration API from Microsoft Graph — 3 operation(s) for certificatebasedauthconfiguration.certificatebasedauthconfiguration.
@@ -608,11 +408,6 @@ apis:
   description: The contracts.contract.Functions API from Microsoft Graph — 1 operation(s) for contracts.contract.functions.
   name: Microsoft Graph contracts.contract.Functions API
   slug: microsoft-graph-contracts-contract-functions-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing Microsoft Copilot settings
-  name: Microsoft Graph Copilot Administration API
-  slug: microsoft-graph-copilot-administration-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The copilot.aiInteractionHistory API from Microsoft Graph — 2 operation(s) for copilot.aiinteractionhistory.
@@ -1220,11 +1015,6 @@ apis:
   slug: microsoft-graph-drives-user-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Operations for managing Microsoft Edge browser settings
-  name: Microsoft Graph Edge Browser API
-  slug: microsoft-graph-edge-browser-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: The education.educationClass API from Microsoft Graph — 90 operation(s) for education.educationclass.
   name: Microsoft Graph education.educationClass API
   slug: microsoft-graph-education-educationclass-api
@@ -1435,11 +1225,6 @@ apis:
   slug: microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Operations related to Identity Authentication Events Flows
-  name: Microsoft Graph Identity Authentication Events Flows API
-  slug: microsoft-graph-identity-authentication-events-flows-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: The identity.authenticationEventListener API from Microsoft Graph — 3 operation(s) for identity.authenticationeventlistener.
   name: Microsoft Graph identity.authenticationEventListener API
   slug: microsoft-graph-identity-authenticationeventlistener-api
@@ -1578,11 +1363,6 @@ apis:
   description: The informationProtection.threatAssessmentRequest API from Microsoft Graph — 6 operation(s) for informationprotection.threatassessmentrequest.
   name: Microsoft Graph informationProtection.threatAssessmentRequest API
   slug: microsoft-graph-informationprotection-threatassessmentrequest-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing Internet Explorer mode configurations
-  name: Microsoft Graph Internet Explorer Mode API
-  slug: microsoft-graph-internet-explorer-mode-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The invitations.directoryObject API from Microsoft Graph — 3 operation(s) for invitations.directoryobject.
@@ -1828,11 +1608,6 @@ apis:
   description: The me.userTeamwork API from Microsoft Graph — 12 operation(s) for me.userteamwork.
   name: Microsoft Graph me.userTeamwork API
   slug: microsoft-graph-me-userteamwork-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing Microsoft 365 Apps installation options
-  name: Microsoft Graph Microsoft 365 Apps API
-  slug: microsoft-graph-microsoft-365-apps-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The oauth2PermissionGrants.oAuth2PermissionGrant API from Microsoft Graph — 3 operation(s) for oauth2permissiongrants.oauth2permissiongrant.
@@ -2090,11 +1865,6 @@ apis:
   slug: microsoft-graph-privacy-subjectrightsrequest-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Operations for managing administrative report settings
-  name: Microsoft Graph Report Settings API
-  slug: microsoft-graph-report-settings-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: The reports.authenticationMethodsRoot API from Microsoft Graph — 8 operation(s) for reports.authenticationmethodsroot.
   name: Microsoft Graph reports.authenticationMethodsRoot API
   slug: microsoft-graph-reports-authenticationmethodsroot-api
@@ -2250,11 +2020,6 @@ apis:
   slug: microsoft-graph-security-triggertypesroot-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
-  description: Operations for managing service health and messages
-  name: Microsoft Graph Service Announcements API
-  slug: microsoft-graph-service-announcements-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
   description: The servicePrincipals.appManagementPolicy API from Microsoft Graph — 3 operation(s) for serviceprincipals.appmanagementpolicy.
   name: Microsoft Graph servicePrincipals.appManagementPolicy API
   slug: microsoft-graph-serviceprincipals-appmanagementpolicy-api
@@ -2333,11 +2098,6 @@ apis:
   description: The servicePrincipals.tokenLifetimePolicy API from Microsoft Graph — 4 operation(s) for serviceprincipals.tokenlifetimepolicy.
   name: Microsoft Graph servicePrincipals.tokenLifetimePolicy API
   slug: microsoft-graph-serviceprincipals-tokenlifetimepolicy-api
-- baseURL: https://graph.microsoft.com/v1.0
-  baseurl_source: declared
-  description: Operations for managing SharePoint settings
-  name: Microsoft Graph SharePoint API
-  slug: microsoft-graph-sharepoint-api
 - baseURL: https://graph.microsoft.com/v1.0
   baseurl_source: declared
   description: The shares.driveItem API from Microsoft Graph — 8 operation(s) for shares.driveitem.
@@ -2863,7 +2623,7 @@ apis:
   description: The users.userTeamwork API from Microsoft Graph — 12 operation(s) for users.userteamwork.
   name: Microsoft Graph users.userTeamwork API
   slug: microsoft-graph-users-userteamwork-api
-artifact_total: 5664
+artifact_total: 5616
 asyncapis:
 - description: Microsoft Graph change notifications enable applications to receive real-time notifications when data changes occur in Microsoft Graph resources. Applications create subscriptions specifying which res
   name: Microsoft Graph Change Notifications
@@ -18326,7 +18086,7 @@ modified: '2026-05-19'
 name: Microsoft Graph
 nav: Providers
 network: true
-overview: 'Microsoft Graph publishes 564 APIs on the [APIs.io](https://apis.io/) network, including Admin.admin API, admin.adminMicrosoft365Apps API, admin.adminReportSettings API, and 561 more. Tagged areas include Azure AD, Collaboration, Contacts, Documents, and Email.
+overview: 'Microsoft Graph publishes 516 APIs on the [APIs.io](https://apis.io/) network, including Admin.admin API, admin.adminMicrosoft365Apps API, admin.adminReportSettings API, and 513 more. Tagged areas include Azure AD, Collaboration, Contacts, Documents, and Email.
 
 
   The Microsoft Graph catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -18337,7 +18097,7 @@ plans:
 - name: Microsoft Graph Plans Pricing
   plan_count: 3
   slug: microsoft-graph-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 18
   name: Microsoft Graph Rate Limits
@@ -18366,7 +18126,7 @@ rules:
   slug: microsoft-graph-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.1
+  composite: 63.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 50.5
@@ -18374,11 +18134,11 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 71.2
+    contract_quality: 68.6
     developer_ergonomics: 61.9
     discoverability: 75.9
     operational_transparency: 55.3
@@ -18389,9 +18149,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 564
+      total: 516
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The one machine-readable contract École des Ponts ParisTech operates on its own infrastructure. A live SAML 2.0 EntityDescriptor served as application/xml from idp.enpc.fr, declaring SingleSignOnServi
@@ -221,7 +221,7 @@ plans:
 - name: Ecole Des Ponts Paristech Plans Pricing
   plan_count: 2
   slug: ecole-des-ponts-paristech-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Ecole Des Ponts Paristech Rate Limits
@@ -262,7 +262,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

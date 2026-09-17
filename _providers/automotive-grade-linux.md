@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
-api_count: 8
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - description: The AGL Application Framework provides APIs for managing applications on the AGL platform including installation, lifecycle management, permission enforcement, and inter-application communication. App
   name: AGL Application Framework API
@@ -45,16 +45,6 @@ apis:
 - description: The AGL SoDeV (Software Defined Vehicle) reference platform provides APIs for software-defined vehicle architectures that decouple software from hardware. SoDeV builds on Zephyr RTOS and meta-AGL laye
   name: AGL SoDeV Software Defined Vehicle API
   slug: sodev-api
-- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
-  baseurl_source: declared
-  description: The public event calendar API for automotivelinux.org, serving the AGL All Member Meeting, Automotive Linux Summit, CES and Embedded World appearances, developer meetings and webinars as JSON. Reads a
-  name: AGL Events API
-  slug: agl-events-api
-- baseURL: https://www.automotivelinux.org/wp-json/tec/v1
-  baseurl_source: declared
-  description: The newer generation of the AGL event calendar API, served side by side with tribe/events/v1 on the same host. 17 operations with real operationIds, tags and a Series entity for recurring events, desc
-  name: AGL Events API (tec/v1)
-  slug: agl-events-api-tec-v1
 - description: The REST API of AGL's public LAVA (Linaro Automated Validation Architecture) continuous integration lab, where AGL images are booted and tested on real automotive hardware. Version v0.2 under /api/v0.
   name: AGL LAVA Test Lab API
   slug: agl-lava-api
@@ -64,8 +54,58 @@ apis:
 - description: The published interface specification between the Cluster UI in the HMI layer and the IC-Service in the service layer of an AGL instrument cluster. Revision 1.0, officially released 2026-02-04 after f
   name: AGL Instrument Cluster API
   slug: agl-instrument-cluster-api
-artifact_total: 28
+- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Categories API from Automotive Grade Linux — 2 operation(s) for categories.
+  name: Automotive Grade Linux Categories API
+  slug: automotive-grade-linux-categories-api
+- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: These operations are introduced by the Common library.
+  name: Automotive Grade Linux Common API
+  slug: automotive-grade-linux-common-api
+- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Doc API from Automotive Grade Linux — 1 operation(s) for doc.
+  name: Automotive Grade Linux Doc API
+  slug: automotive-grade-linux-doc-api
+- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Events API from Automotive Grade Linux — 7 operation(s) for events.
+  name: Automotive Grade Linux Events API
+  slug: automotive-grade-linux-events-api
+- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: These operations are introduced by Events Pro.
+  name: Automotive Grade Linux Events Pro API
+  slug: automotive-grade-linux-events-pro-api
+- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Organizers API from Automotive Grade Linux — 3 operation(s) for organizers.
+  name: Automotive Grade Linux Organizers API
+  slug: automotive-grade-linux-organizers-api
+- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Tags API from Automotive Grade Linux — 2 operation(s) for tags.
+  name: Automotive Grade Linux Tags API
+  slug: automotive-grade-linux-tags-api
+- baseURL: https://www.automotivelinux.org/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Venues API from Automotive Grade Linux — 3 operation(s) for venues.
+  name: Automotive Grade Linux Venues API
+  slug: automotive-grade-linux-venues-api
+artifact_total: 34
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/overlays/automotive-grade-linux-events-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/automotive-grade-linux-events-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/overlays/automotive-grade-linux-events-tec-v1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/automotive-grade-linux-events-tec-v1-overlay.yaml
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/automotive-grade-linux/refs/heads/main/packages/automotive-grade-linux-packages.yml
   title: ''
@@ -283,15 +323,15 @@ modified: '2026-09-14'
 name: Automotive Grade Linux
 nav: Providers
 network: true
-overview: 'Automotive Grade Linux publishes 2 APIs on the [APIs.io](https://apis.io/) network: AGL Events API and AGL Events API (tec/v1). Tagged areas include Automotive, Connected Vehicles, Embedded Linux, In-Vehicle Infotainment, and IoT.
+overview: 'Automotive Grade Linux publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Common API, Doc API, and 5 more. Tagged areas include Automotive, Connected Vehicles, Embedded Linux, In-Vehicle Infotainment, and IoT.
 
 
-  Automotive Grade Linux''s developer surface includes changelog, API reference, getting-started guide, support, documentation, YouTube channel, authentication, and 33 more developer resources.'
+  Automotive Grade Linux''s developer surface includes changelog, API reference, getting-started guide, support, documentation, YouTube channel, authentication, and 35 more developer resources.'
 plans:
 - name: Automotive Grade Linux Plans Pricing
   plan_count: 0
   slug: automotive-grade-linux-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Automotive Grade Linux Rate Limits
@@ -301,18 +341,18 @@ score:
   composite: 43.4
   coverage:
     artifact_dirs: 20
-    catalog_earned: 38.0
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 48.6
+    contract_quality: 50.7
     developer_ergonomics: 61.9
-    discoverability: 72.2
+    discoverability: 66.7
     operational_transparency: 28.9
   open_source:
     applies: true
@@ -320,10 +360,15 @@ score:
   previous_composite: 43.4
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

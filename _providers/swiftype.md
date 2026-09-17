@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for managing Swiftype search engines, indexing documents, controlling the web crawler and domains, running search and autocomplete queries, and retrieving query/click analytics. Authenticated
@@ -43,6 +43,10 @@ apis:
   slug: swiftype-site-search-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://swiftype.com
 - group: other
   title: ''
   type: ParentCompany
@@ -129,15 +133,15 @@ mcp_servers:
 - description: ''
   name: Swiftype MCP Server
   slug: swiftype-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Swiftype
 nav: Providers
 network: true
 overview: 'Swiftype publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Site Search, App Search, Full-Text Search, and Autocomplete.
 
 
-  Swiftype''s developer surface includes documentation, API reference, support, authentication, and 13 more developer resources.'
-random_paper: 9
+  Swiftype''s developer surface includes documentation, API reference, support, authentication, and 14 more developer resources.'
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Swiftype Rate Limits
@@ -165,7 +169,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -192,5 +196,5 @@ tags:
 - Analytics
 - Developer Tools
 - Elastic
-website: https://swiftype.com/documentation
+website: https://swiftype.com
 ---

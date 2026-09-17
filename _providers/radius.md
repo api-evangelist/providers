@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 137 operations · 79 acting
 api_count: 5
 apis:
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The ApiVersions API from Radius — 2 operation(s) for apiversions.
-  name: Radius ApiVersions API
-  slug: radius-apiversions-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The Applications API from Radius — 3 operation(s) for applications.
@@ -141,11 +136,6 @@ apis:
   slug: radius-rediscaches-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
-  description: The ResourceGroups API from Radius — 2 operation(s) for resourcegroups.
-  name: Radius ResourceGroups API
-  slug: radius-resourcegroups-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
   description: The ResourceProviders API from Radius — 4 operation(s) for resourceproviders.
   name: Radius ResourceProviders API
   slug: radius-resourceproviders-api
@@ -156,19 +146,9 @@ apis:
   slug: radius-resources-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
-  description: The ResourceTypes API from Radius — 2 operation(s) for resourcetypes.
-  name: Radius ResourceTypes API
-  slug: radius-resourcetypes-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
   description: The SecretStores API from Radius — 5 operation(s) for secretstores.
   name: Radius SecretStores API
   slug: radius-secretstores-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The SqlDatabases API from Radius — 3 operation(s) for sqldatabases.
-  name: Radius SqlDatabases API
-  slug: radius-sqldatabases-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The StateStores API from Radius — 2 operation(s) for statestores.
@@ -179,6 +159,26 @@ apis:
   description: The Volumes API from Radius — 2 operation(s) for volumes.
   name: Radius Volumes API
   slug: radius-volumes-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The API Versions API from Radius — 2 operation(s) for api versions.
+  name: Radius API Versions API
+  slug: radius-api-versions-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Resource Groups API from Radius — 2 operation(s) for resource groups.
+  name: Radius Resource Groups API
+  slug: radius-resource-groups-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Resource Types API from Radius — 2 operation(s) for resource types.
+  name: Radius Resource Types API
+  slug: radius-resource-types-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Sql Databases API from Radius — 3 operation(s) for sql databases.
+  name: Radius Sql Databases API
+  slug: radius-sql-databases-api
 artifact_total: 67
 collections:
 - collection_type: open
@@ -362,7 +362,7 @@ modified: '2026-05-19'
 name: Radius
 nav: Providers
 network: true
-overview: 'Radius publishes 27 APIs on the [APIs.io](https://apis.io/) network, including ApiVersions API, Applications API, AwsCredentials API, and 24 more. Tagged areas include Application Platform, Cloud-Native, Infrastructure, and Multi-Cloud.
+overview: 'Radius publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Applications API, AwsCredentials API, AwsPlanes API, and 24 more. Tagged areas include Application Platform, Cloud-Native, Infrastructure, and Multi-Cloud.
 
 
   Radius'' developer surface includes authentication, documentation, getting-started guide, signup flow, and 12 more developer resources.'
@@ -370,7 +370,7 @@ plans:
 - name: Radius Plans Pricing
   plan_count: 3
   slug: radius-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Radius Rate Limits
@@ -382,7 +382,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 40.9
+  composite: 41.9
   coverage:
     artifact_dirs: 10
     catalog_earned: 39.0
@@ -390,11 +390,11 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 43.0
+    contract_quality: 47.1
     developer_ergonomics: 27.4
     discoverability: 55.6
     operational_transparency: 39.5
@@ -410,7 +410,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

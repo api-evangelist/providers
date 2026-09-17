@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: BASIL — "The FuSa Spice" — is ELISA's own software quality management tool. It decomposes a software component specification into snippets, maps work items (software requirements, test specifications,
@@ -144,10 +144,10 @@ common:
   type: Community
   url: http://chat.elisa.tech/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/elisa-events-calendar-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/openapi/_original/elisa-events-calendar-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/elisa-events-calendar-openapi.json
+  url: openapi/_original/elisa-events-calendar-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/overlays/elisa-events-calendar-overlay.yaml
   title: ''
@@ -236,7 +236,7 @@ finops:
   slug: elisa-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elisa.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: ELISA
 nav: Providers
 network: true
@@ -248,14 +248,14 @@ plans:
 - name: Elisa Plans Pricing
   plan_count: 3
   slug: elisa-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Elisa Rate Limits
   slug: elisa-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 50.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 47.0
@@ -263,11 +263,11 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 37.3
+    contract_quality: 44.1
     developer_ergonomics: 58.9
     discoverability: 66.7
     operational_transparency: 21.1
@@ -288,7 +288,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

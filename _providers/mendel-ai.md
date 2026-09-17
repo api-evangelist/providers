@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,7 +102,7 @@ overview: 'Mendel AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mendel AI''s developer surface includes engineering blog, GitHub presence, and 11 more developer resources.'
-random_paper: 15
+random_paper: 18
 score:
   band: minimal
   composite: 4.2
@@ -129,7 +129,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -150,7 +150,7 @@ tags:
 - Real-World Data
 - Electronic Health Records
 - Natural Language Processing
-- Large Language Models
+- LLM
 - Clinical Knowledge Graph
 - Pharmacovigilance
 - Precision Medicine

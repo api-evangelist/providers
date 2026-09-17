@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://wdk-api.tether.io
@@ -259,14 +259,14 @@ overview: 'Tether publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tether''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 27 more developer resources.'
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Tether Rate Limits
   slug: tether-rate-limits
 score:
   band: developing
-  composite: 53.9
+  composite: 53.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -274,11 +274,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 49.0
+    contract_quality: 46.3
     developer_ergonomics: 85.7
     discoverability: 75.9
     operational_transparency: 60.5
@@ -286,7 +286,7 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
@@ -299,7 +299,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

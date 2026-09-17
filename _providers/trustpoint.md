@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,11 +88,11 @@ modified: '2026-07-21'
 name: TrustPoint
 nav: Providers
 network: true
-overview: 'TrustPoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GNSS, Satellites, Navigation, and Positioning.
+overview: 'TrustPoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GNSS, Satellite, Navigation, and Positioning.
 
 
   TrustPoint''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 19
+random_paper: 10
 score:
   band: minimal
   composite: 8.3
@@ -115,7 +115,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -131,7 +131,7 @@ slug: trustpoint
 tags:
 - Company
 - GNSS
-- Satellites
+- Satellite
 - Navigation
 - Positioning
 - Timing

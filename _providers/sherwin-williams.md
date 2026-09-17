@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Sherwin-Williams Supplier API enables B2B partners to integrate supply chain workflows, manage purchase orders, submit invoices, and exchange product and inventory data with Sherwin-Williams enter
@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: Sherwin-Williams Positions Itself as the One Partner for ...
   url: https://www.prnewswire.com/news-releases/sherwin-williams-positions-itself-as-the-one-partner-for-data-center-construction-302764452.html
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Sherwin Williams Rate Limits
@@ -180,7 +180,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 25.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
@@ -209,7 +209,7 @@ plans:
 - name: Archive Technologies Plans Pricing
   plan_count: 5
   slug: archive-technologies-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Archive Technologies Rate Limits
@@ -248,7 +248,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

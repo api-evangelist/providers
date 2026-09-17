@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.usemultiplier.com
@@ -126,7 +126,7 @@ modified: '2026-06-21'
 name: Multiplier
 nav: Providers
 network: true
-overview: 'Multiplier publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Members API, Contracts API, Payroll API, and 3 more. Tagged areas include Employer of Record, Global Employment, Payroll, HR, and Contractors.
+overview: 'Multiplier publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Members API, Contracts API, Payroll API, and 3 more. Tagged areas include Employer of Record, Global Employment, Payroll, Human Resources, and Contractors.
 
 
   Multiplier''s developer surface includes authentication, documentation, and 6 more developer resources.'
@@ -134,7 +134,7 @@ plans:
 - name: Multiplier Plans Pricing
   plan_count: 4
   slug: multiplier-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Multiplier Rate Limits
@@ -159,7 +159,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -180,7 +180,7 @@ tags:
 - Employer of Record
 - Global Employment
 - Payroll
-- HR
+- Human Resources
 - Contractors
 website: https://www.usemultiplier.com
 ---

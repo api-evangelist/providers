@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -112,11 +112,6 @@ apis:
   slug: klarna-merchant-urls-validation-api
 - baseURL: https://api.klarna.com
   baseurl_source: declared
-  description: The Merchantcard API from Klarna — 6 operation(s) for merchantcard.
-  name: Klarna Merchantcard API
-  slug: klarna-merchantcard-api
-- baseURL: https://api.klarna.com
-  baseurl_source: declared
   description: The Orders API from Klarna — 9 operation(s) for orders.
   name: Klarna Orders API
   slug: klarna-orders-api
@@ -148,6 +143,11 @@ apis:
 - description: Klarna's agent-facing product protocol, exposing product and commerce data for AI agents to query. Registered 2026-09-04 from the same declined submission.
   name: Klarna Agentic Product Protocol (KAPP) API
   slug: klarna-agentic-product-protocol-kapp-api
+- baseURL: https://api.klarna.com
+  baseurl_source: declared
+  description: The Merchant Card API from Klarna — 6 operation(s) for merchant card.
+  name: Klarna Merchant Card API
+  slug: klarna-merchant-card-api
 artifact_total: 116
 asyncapis:
 - description: AsyncAPI 2.6 description of Klarna's outbound HTTP push surface — the set of server-to-server callbacks that Klarna issues to merchant-hosted endpoints when payment, checkout, and order lifecycle even
@@ -215,6 +215,11 @@ collections:
   name: Klarna Order Management API
   slug: open-order-management-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/overlays/klarna-merchantcard-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/klarna-merchantcard-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/capabilities/klarna-capability-edges.yml
   title: ''
@@ -611,12 +616,12 @@ overview: 'Klarna publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
   The Klarna catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Klarna''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
+  Klarna''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 plans:
 - name: Klarna Plans Pricing
   plan_count: 1
   slug: klarna-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 14
   name: Klarna Rate Limits
@@ -650,7 +655,7 @@ scopes:
   summary_line: 34 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.3
+  composite: 76.6
   coverage:
     artifact_dirs: 30
     catalog_earned: 67.5
@@ -658,11 +663,11 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 67.1
     contract_governance: 31.8
-    contract_quality: 60.6
+    contract_quality: 61.5
     developer_ergonomics: 73.2
     discoverability: 81.5
     operational_transparency: 92.1
@@ -692,7 +697,7 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

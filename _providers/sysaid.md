@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -47,11 +47,6 @@ apis:
 - description: REST API for managing SysAid service records (incidents, requests, problems, changes), users, assets, and SLAs. Authentication uses Client Credentials to mint short-lived application access tokens (de
   name: SysAid REST API
   slug: rest-api
-- baseURL: https://your-account.sysaidit.com
-  baseurl_source: declared
-  description: The ActionItems API from SysAid — 4 operation(s) for actionitems.
-  name: SysAid ActionItems API
-  slug: sysaid-actionitems-api
 - baseURL: https://your-account.sysaidit.com
   baseurl_source: declared
   description: The Activities API from SysAid — 4 operation(s) for activities.
@@ -79,19 +74,9 @@ apis:
   slug: sysaid-auth-api
 - baseURL: https://your-account.sysaidit.com
   baseurl_source: declared
-  description: The CIs API from SysAid — 9 operation(s) for cis.
-  name: SysAid CIs API
-  slug: sysaid-cis-api
-- baseURL: https://your-account.sysaidit.com
-  baseurl_source: declared
   description: The Companies API from SysAid — 5 operation(s) for companies.
   name: SysAid Companies API
   slug: sysaid-companies-api
-- baseURL: https://your-account.sysaidit.com
-  baseurl_source: declared
-  description: The EndUsers API from SysAid — 8 operation(s) for endusers.
-  name: SysAid EndUsers API
-  slug: sysaid-endusers-api
 - baseURL: https://your-account.sysaidit.com
   baseurl_source: declared
   description: The Groups API from SysAid — 4 operation(s) for groups.
@@ -102,11 +87,6 @@ apis:
   description: The LicenseManager API from SysAid — 2 operation(s) for licensemanager.
   name: SysAid LicenseManager API
   slug: sysaid-licensemanager-api
-- baseURL: https://your-account.sysaidit.com
-  baseurl_source: declared
-  description: The RelatedItems API from SysAid — 3 operation(s) for relateditems.
-  name: SysAid RelatedItems API
-  slug: sysaid-relateditems-api
 - baseURL: https://your-account.sysaidit.com
   baseurl_source: declared
   description: The ServiceRecords API from SysAid — 6 operation(s) for servicerecords.
@@ -127,6 +107,26 @@ apis:
   description: The Webhooks API from SysAid — 5 operation(s) for webhooks.
   name: SysAid Webhooks API
   slug: sysaid-webhooks-api
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The CIs API from SysAid — 9 operation(s) for cis.
+  name: SysAid C Is API
+  slug: sysaid-cis-api
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Action Items API from SysAid — 4 operation(s) for action items.
+  name: SysAid Action Items API
+  slug: sysaid-action-items-api
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The End Users API from SysAid — 8 operation(s) for end users.
+  name: SysAid End Users API
+  slug: sysaid-end-users-api
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Related Items API from SysAid — 3 operation(s) for related items.
+  name: SysAid Related Items API
+  slug: sysaid-related-items-api
 artifact_total: 39
 collections:
 - collection_type: open
@@ -248,11 +248,11 @@ modified: '2026-05-11'
 name: SysAid
 nav: Providers
 network: true
-overview: 'SysAid publishes 16 APIs on the [APIs.io](https://apis.io/) network, including ActionItems API, Activities API, Agents API, and 13 more. Tagged areas include ITSM, Help Desk, Asset Management, Ticketing, and Service Desk.
+overview: 'SysAid publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Agents API, Assets API, and 13 more. Tagged areas include ITSM, Help Desk, Asset Management, Ticketing, and Service Desk.
 
 
   SysAid''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 2
+random_paper: 15
 score:
   band: thin
   composite: 28.9
@@ -280,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -234,11 +234,6 @@ apis:
   slug: jack-henry-user-context-api
 - baseURL: https://api.banno.com
   baseurl_source: declared
-  description: OpenID Connect UserInfo endpoint.
-  name: Jack Henry & Associates UserInfo API
-  slug: jack-henry-userinfo-api
-- baseURL: https://api.banno.com
-  baseurl_source: declared
   description: Outbound wire requests.
   name: Jack Henry & Associates Wire Transfers API
   slug: jack-henry-wire-transfers-api
@@ -247,6 +242,11 @@ apis:
   description: Zelle peer-to-peer payments.
   name: Jack Henry & Associates Zelle API
   slug: jack-henry-zelle-api
+- baseURL: https://events.jackhenry.com
+  baseurl_source: declared
+  description: OpenID Connect UserInfo endpoint.
+  name: Jack Henry & Associates User Info API
+  slug: jack-henry-user-info-api
 artifact_total: 120
 asyncapis:
 - description: Real-time, pub/sub-based event system for Jack Henry platform events. Lets partners and institutions subscribe to account events, transaction events, alert events, and user-lifecycle events without po
@@ -565,7 +565,7 @@ plans:
 - name: Jack Henry Plans Pricing
   plan_count: 2
   slug: jack-henry-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Jack Henry Rate Limits
@@ -669,7 +669,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -695,7 +695,7 @@ tags:
 - Fraud
 - Open Banking
 - Community Banks
-- Credit Unions
+- Credit Union
 - Fintech
 - Authentication
 - OpenID Connect

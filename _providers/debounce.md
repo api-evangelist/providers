@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,35 +44,45 @@ agentic_access:
   summary_line: 7 operations
 api_count: 3
 apis:
-- baseURL: https://api.debounce.io
-  baseurl_source: declared
-  description: Real-time single email address validation. Returns a deliverability result (Safe to Send, Risky, Invalid, Unknown), a result code, role-account and free-provider flags, a did-you-mean typo suggestion,
-  name: DeBounce Validation API
-  slug: debounce-validation-api
-- baseURL: https://bulk.debounce.io
-  baseurl_source: declared
-  description: Asynchronous bulk email list validation on bulk.debounce.io. Submit the URL of a hosted CSV or TXT list for processing, receive a list_id, then poll the status endpoint for the processing percentage a
-  name: DeBounce Bulk API
-  slug: debounce-bulk-api
-- baseURL: https://api.debounce.io
-  baseurl_source: declared
-  description: Reverse email lookup / data append. Returns additional contact data associated with an email address. The same enrichment engine is reachable from the single-validation endpoint via the append and pho
-  name: DeBounce Data API
-  slug: debounce-data-api
-- baseURL: https://api.debounce.io
-  baseurl_source: declared
-  description: Account operations. Returns the remaining credit balance on the account and a dated API usage history for a requested start/end window, so consumers can monitor consumption and top up before hitting t
-  name: DeBounce Account API
-  slug: debounce-account-api
-- baseURL: https://disposable.debounce.io
-  baseurl_source: declared
-  description: Free, unauthenticated disposable email detector on disposable.debounce.io. A single GET with an email address or domain returns whether it belongs to a known disposable or temporary email provider, ch
-  name: DeBounce Disposable Detector API
-  slug: debounce-disposable-api
 - description: 'Free company logo lookup service positioned as a drop-in replacement for the deprecated Clearbit Logo API. A GET against logo.debounce.com with a company domain returns a high-quality PNG logo served '
   name: DeBounce Logo API
   slug: debounce-logo-api
-artifact_total: 28
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: The Account Management API from DeBounce — 1 operation(s) for account management.
+  name: DeBounce Account Management API
+  slug: debounce-account-management-api
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: The DeBounce Disposable Email Detector API API from DeBounce — 1 operation(s) for debounce disposable email detector api.
+  name: DeBounce Disposable Email Detector API
+  slug: debounce-debounce-disposable-email-detector-api-api
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: The DeBounce Email Validation API API from DeBounce — 1 operation(s) for debounce email validation api.
+  name: DeBounce Email Validation API
+  slug: debounce-debounce-email-validation-api-api
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: The Reverse API from DeBounce — 1 operation(s) for reverse.
+  name: DeBounce Reverse API
+  slug: debounce-reverse-api
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: The Status API from DeBounce — 1 operation(s) for status.
+  name: DeBounce Status API
+  slug: debounce-status-api
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: The Upload API from DeBounce — 1 operation(s) for upload.
+  name: DeBounce Upload API
+  slug: debounce-upload-api
+- baseURL: https://api.debounce.io
+  baseurl_source: declared
+  description: The Usage API from DeBounce — 1 operation(s) for usage.
+  name: DeBounce Usage API
+  slug: debounce-usage-api
+artifact_total: 30
 collections:
 - collection_type: postman
   name: DeBounce Email Validation Account API
@@ -105,6 +115,31 @@ collections:
   name: DeBounce Email Validation API — Single Validation
   slug: open-debounce-validation-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/overlays/debounce-validation-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/debounce-validation-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/overlays/debounce-bulk-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/debounce-bulk-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/overlays/debounce-data-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/debounce-data-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/overlays/debounce-account-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/debounce-account-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/overlays/debounce-disposable-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/debounce-disposable-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -330,22 +365,22 @@ mcp_servers:
 - description: DeBounce serves two Model Context Protocol endpoints from its own hosts. The developer-portal server is anonymous and answers tools/list live — its three tools are documentation-retrieval tools, not e
   name: DeBounce MCP Server
   slug: debounce-mcp-server
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: DeBounce
 nav: Providers
 network: true
-overview: 'DeBounce publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Validation API, Bulk API, Data API, and 2 more. Tagged areas include Email Validation, Email Verification, Deliverability, Disposable Email Detection, and MX Records.
+overview: 'DeBounce publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Disposable Email Detector API, Email Validation API, and 4 more. Tagged areas include Email Validation, Email Verification, Deliverability, Disposable Email Detection, and MX Records.
 
 
   The DeBounce catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  DeBounce''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+  DeBounce''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
 plans:
 - name: Debounce Plans Pricing
   plan_count: 9
   slug: debounce-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Debounce Rate Limits
@@ -368,19 +403,19 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 70.3
+  composite: 67.8
   coverage:
     artifact_dirs: 31
-    catalog_earned: 92.3
+    catalog_earned: 86.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 22.8
+    catalog_gap: 28.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
     access_clarity: 92.1
     contract_governance: 43.2
-    contract_quality: 68.8
+    contract_quality: 58.9
     developer_ergonomics: 65.5
     discoverability: 81.5
     operational_transparency: 63.2
@@ -391,12 +426,12 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 5
+      marker_coverage: 0.0
+      total: 7
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

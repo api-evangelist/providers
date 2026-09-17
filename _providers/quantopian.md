@@ -37,12 +37,12 @@ created: '2026-07-17'
 description: Quantopian was a Boston-based crowd-sourced quantitative investment firm and algorithmic-trading platform (backed by a16z and Bessemer Venture Partners) where members wrote, backtested, and shared Python trading algorithms against historical market data. The company ceased operations in November 2020 and its intellectual property was acquired by Robinhood; its public developer platform and hosted API are retired. Its widely-used open-source Python libraries - Zipline (backtesting), Pyfolio, Alphalens, Empyrical, and trading-calendars - remain published on PyPI and its GitHub organization stays live.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quantopian.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Quantopian
 nav: Providers
 network: true
 overview: Quantopian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Algorithmic Trading, Quantitative Finance, Fintech, and Backtesting.
-random_paper: 17
+random_paper: 10
 security:
 - kind: domain-security
   name: Quantopian Domain Security
@@ -58,5 +58,6 @@ tags:
 - Open-Source
 - Python
 - Investing
+- Defunct
 website: https://www.quantopian.com/
 ---

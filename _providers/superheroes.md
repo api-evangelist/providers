@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -287,7 +287,7 @@ plans:
 - name: Superheroes Plans Pricing
   plan_count: 1
   slug: superheroes-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Superheroes Rate Limits
@@ -341,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

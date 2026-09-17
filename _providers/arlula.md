@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -359,7 +359,7 @@ modified: '2026-05-19'
 name: Arlula
 nav: Providers
 network: true
-overview: 'Arlula publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Archive API, Connection API, Orders API, and 1 more. Tagged areas include Earth Observation, Geospatial, Imagery, Remote Sensing, and Satellites.
+overview: 'Arlula publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Archive API, Connection API, Orders API, and 1 more. Tagged areas include Earth Observation, Geospatial, Imagery, Remote Sensing, and Satellite.
 
 
   The Arlula catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -370,7 +370,7 @@ plans:
 - name: Arlula Plans Pricing
   plan_count: 3
   slug: arlula-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Arlula Rate Limits
@@ -424,7 +424,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -445,7 +445,7 @@ tags:
 - Geospatial
 - Imagery
 - Remote Sensing
-- Satellites
+- Satellite
 use_cases:
 - description: Search and order archive or tasking imagery to monitor crop health, irrigation patterns, and field conditions over growing seasons.
   name: Agricultural Monitoring

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -86,6 +86,10 @@ collections:
   name: Speko Agents Voice API
   slug: open-speko-voice-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://speko.dev
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/overlays/speko-openapi-overlay.yaml
   title: ''
@@ -196,7 +200,7 @@ mcp_servers:
 - description: ''
   name: Speko MCP Server
   slug: speko-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Speko
 nav: Providers
 network: true
@@ -206,8 +210,8 @@ overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Speko catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
-random_paper: 0
+  Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 17 more developer resources.'
+random_paper: 18
 score:
   band: developing
   composite: 50.3
@@ -243,7 +247,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -270,5 +274,5 @@ tags:
 - Conversational AI
 - Developer Tools
 - AI Infrastructure
-website: https://docs.speko.dev
+website: https://speko.dev
 ---

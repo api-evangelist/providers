@@ -23,14 +23,25 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: A set of ~37 static JSON/CSV endpoints under /data/public/ covering daily market digest, T+1 quotes, disclosures, rankings, screening, earnings, per-stock data and history, plus dated archives. Docume
-  name: 한국주식데이터 공개 데이터 API
-  slug: 한국주식데이터-공개-데이터-api
+- baseURL: https://aikstockdata.com/data/public
+  baseurl_source: declared
+  description: The Data API from 한국주식데이터 (aikstockdata) — 37 operation(s) for data.
+  name: 한국주식데이터 (aikstockdata) Data API
+  slug: aikstockdata-data-api
 artifact_total: 15
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.aikstockdata.com/mcp
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aikstockdata/refs/heads/main/overlays/aikstockdata-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aikstockdata-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -136,22 +147,22 @@ modified: '2026-09-10'
 name: 한국주식데이터 (aikstockdata)
 nav: Providers
 network: true
-overview: '한국주식데이터 (aikstockdata) publishes 1 API on the [APIs.io](https://apis.io/) network: 한국주식데이터 공개 데이터 API. Tagged areas include Korea, Stock Market, Financial Data, Open Data, and Dart.
+overview: '한국주식데이터 (aikstockdata) publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include South Korea, Stock Market, Financial Data, Open Data, and Dart.
 
 
-  한국주식데이터 (aikstockdata)''s developer surface includes changelog, documentation, engineering blog, support, and 11 more developer resources.'
+  한국주식데이터 (aikstockdata)''s developer surface includes changelog, documentation, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Aikstockdata Plans Pricing
   plan_count: 1
   slug: aikstockdata-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Aikstockdata Rate Limits
   slug: aikstockdata-rate-limits
 score:
   band: developing
-  composite: 43.4
+  composite: 48.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 48.0
@@ -159,11 +170,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 34.7
+    contract_quality: 56.5
     developer_ergonomics: 58.9
     discoverability: 70.4
     operational_transparency: 34.2
@@ -177,6 +188,11 @@ score:
   previous_composite: 43.4
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: first-party
     skills: derived
   regulatory:
@@ -186,8 +202,8 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -203,7 +219,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: aikstockdata
 tags:
-- Korea
+- South Korea
 - Stock Market
 - Financial Data
 - Open Data

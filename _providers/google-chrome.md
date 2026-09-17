@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -128,6 +128,10 @@ collections:
   name: Google Chrome Management App Details Telemetry Users API
   slug: open-google-chrome-telemetry-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://google.com
 - group: commercial
   title: ''
   type: License
@@ -377,7 +381,7 @@ jsonld:
   property_count: 19
   slug: google-chrome-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Chrome
 nav: Providers
 network: true
@@ -387,12 +391,12 @@ overview: 'Google Chrome publishes 6 APIs on the [APIs.io](https://apis.io/) net
   The Google Chrome catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Chrome''s developer surface includes authentication, engineering blog, YouTube channel, release notes, changelog, documentation, Stack Overflow tag, and 16 more developer resources.'
+  Google Chrome''s developer surface includes authentication, engineering blog, YouTube channel, release notes, changelog, documentation, Stack Overflow tag, and 17 more developer resources.'
 plans:
 - name: Google Chrome Plans Pricing
   plan_count: 4
   slug: google-chrome-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 7
   name: Google Chrome Rate Limits
@@ -440,7 +444,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -469,5 +473,5 @@ use_cases:
 - Protecting users from phishing and malware URLs
 - Running on-device AI inference in the browser
 - Enforcing Chrome policies across organizational units
-website: https://developer.chrome.com/
+website: https://google.com
 ---

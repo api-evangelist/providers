@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ modified: '2026-05-19'
 name: High Mobility
 nav: Providers
 network: true
-overview: 'High Mobility publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Fleet Clearance API, Vehicle Data API, and 1 more. Tagged areas include Automotive, Connected Cars, IoT, and Vehicle Data.
+overview: 'High Mobility publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Fleet Clearance API, Vehicle Data API, and 1 more. Tagged areas include Automotive, Connected Car, IoT, and Vehicle Data.
 
 
   High Mobility''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 9 more developer resources.'
@@ -166,7 +166,7 @@ plans:
 - name: High Mobility Plans Pricing
   plan_count: 3
   slug: high-mobility-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: High Mobility Rate Limits
@@ -203,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -221,7 +221,7 @@ security:
 slug: high-mobility
 tags:
 - Automotive
-- Connected Cars
+- Connected Car
 - IoT
 - Vehicle Data
 website: https://high-mobility.com/

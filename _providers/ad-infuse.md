@@ -23,7 +23,7 @@ name: Ad Infuse
 nav: Providers
 network: true
 overview: Ad Infuse is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile, Mobile Advertising, and AdTech.
-random_paper: 10
+random_paper: 12
 slug: ad-infuse
 tags:
 - Company

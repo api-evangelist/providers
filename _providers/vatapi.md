@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for EU and UK VAT compliance including VAT rate lookups by country, VAT number validation against VIES and HMRC, currency conversion rates from HMRC and ECB, and generation of VAT-compliant i
@@ -98,7 +98,7 @@ modified: '2026-06-13'
 name: VAT API
 nav: Providers
 network: true
-overview: 'VAT API publishes 1 API on the [APIs.io](https://apis.io/) network: v2. Tagged areas include VAT, Tax, EU, UK, and Compliance.
+overview: 'VAT API publishes 1 API on the [APIs.io](https://apis.io/) network: v2. Tagged areas include VAT, Tax, EU, United Kingdom, and Compliance.
 
 
   VAT API''s developer surface includes documentation, pricing, engineering blog, and 8 more developer resources.'
@@ -106,7 +106,7 @@ plans:
 - name: Vatapi Plans Pricing
   plan_count: 4
   slug: vatapi-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Vatapi Rate Limits
@@ -139,7 +139,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 24.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -156,9 +156,9 @@ tags:
 - VAT
 - Tax
 - EU
-- UK
+- United Kingdom
 - Compliance
-- Invoice
+- Invoices
 - VIES
 - Business Verification
 website: https://vatapi.com/

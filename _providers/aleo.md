@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -89,6 +89,10 @@ collections:
   name: Aleo Node REST Blocks Transactions API
   slug: open-aleo-transactions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aleo.org
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/security/aleo-domain-security.yml
   title: ''
@@ -227,15 +231,15 @@ created: '2026-07-17'
 description: Aleo is a privacy-first, zero-knowledge Layer-1 blockchain for building fully private applications. Developers write smart contracts in Leo — a purpose-built language for zero-knowledge applications — compile them with snarkVM, and run them on the decentralized snarkOS network, keeping inputs, outputs, and program state private using zk-SNARK proofs while still being publicly verifiable. The ecosystem, developed by Provable (ProvableHQ), includes the Leo language and CLI, the snarkVM zkVM and snarkOS operating system, JavaScript/TypeScript and Python SDKs, a WASM runtime for in-browser proving, the Aleo Explorer, and a public node REST API for reading on-chain state and broadcasting transactions across mainnet and testnet. Aleo is a portfolio company of a16z.
 image: https://aleo.org/social.webp
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-16'
 name: Aleo
 nav: Providers
 network: true
 overview: 'Aleo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Chain API, Network API, and 2 more. Tagged areas include Company, Blockchain, Zero Knowledge, Cryptography, and Privacy.
 
 
-  Aleo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, CLI, and 22 more developer resources.'
-random_paper: 18
+  Aleo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, CLI, and 23 more developer resources.'
+random_paper: 21
 score:
   band: developing
   composite: 41.9
@@ -266,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -292,5 +296,5 @@ tags:
 - Developer Tools
 - Cryptocurrency
 - Smart Contracts
-website: https://docs.aleo.org/
+website: https://aleo.org
 ---

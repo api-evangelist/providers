@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,17 +58,12 @@ apis:
 - baseURL: https://agent.tinyfish.ai
   baseurl_source: declared
   description: The TinyFish Browser API API from TinyFish — 1 operation(s) for tinyfish browser api.
-  name: TinyFish TinyFish Browser API API
+  name: TinyFish Browser API
   slug: tinyfish-tinyfish-browser-api-api
 - baseURL: https://agent.tinyfish.ai
   baseurl_source: declared
-  description: The TinyFish Fetch API API from TinyFish — 1 operation(s) for tinyfish fetch api.
-  name: TinyFish TinyFish Fetch API API
-  slug: tinyfish-tinyfish-fetch-api-api
-- baseURL: https://agent.tinyfish.ai
-  baseurl_source: declared
   description: The TinyFish Search API API from TinyFish — 1 operation(s) for tinyfish search api.
-  name: TinyFish TinyFish Search API API
+  name: TinyFish Search API
   slug: tinyfish-tinyfish-search-api-api
 - baseURL: https://agent.tinyfish.ai
   baseurl_source: declared
@@ -80,7 +75,7 @@ apis:
   description: Vault credential management endpoints for connecting password managers and managing stored credentials
   name: TinyFish Vault API
   slug: tinyfish-vault-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Tinyfish Agent Webhooks
@@ -260,21 +255,21 @@ mcp_servers:
 - description: ''
   name: TinyFish MCP Server
   slug: tinyfish-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: TinyFish
 nav: Providers
 network: true
-overview: 'TinyFish publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Automation API, Runs API, TinyFish Browser API API, and 4 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Web Automation, and Web Scraping.
+overview: 'TinyFish publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Automation API, Runs API, Browser API, and 3 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Web Automation, and Web Scraping.
 
 
   The TinyFish catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   TinyFish''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 24 more developer resources.'
-random_paper: 17
+random_paper: 20
 score:
   band: developing
-  composite: 47.2
+  composite: 47.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -282,11 +277,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 65.8
+    contract_quality: 65.3
     developer_ergonomics: 67.3
     discoverability: 81.5
     operational_transparency: 10.5
@@ -298,11 +293,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 6
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 4
+- acting_count: 55
   human_in_the_loop: 0
   name: Amazon Ses Agentic Access
-  operation_count: 6
+  operation_count: 86
   slug: amazon-ses-agentic-access
-  summary_line: 6 operations · 4 acting
+  summary_line: 86 operations · 55 acting
 api_count: 2
 apis:
 - description: Official AWS documentation for Amazon Simple Email Service, providing comprehensive guides, API references, and tutorials for email sending and management.
@@ -81,30 +81,10 @@ apis:
   slug: amazon-ses-security
 - baseURL: https://email.{region}.amazonaws.com
   baseurl_source: declared
-  description: Operations for managing contact lists.
-  name: Amazon SES Contact Lists API
-  slug: amazon-ses-contact-lists-api
-- baseURL: https://email.{region}.amazonaws.com
-  baseurl_source: declared
-  description: Operations for sending email messages.
-  name: Amazon SES Email Sending API
-  slug: amazon-ses-email-sending-api
-- baseURL: https://email.{region}.amazonaws.com
-  baseurl_source: declared
-  description: Operations for managing email identities.
-  name: Amazon SES Identities API
-  slug: amazon-ses-identities-api
-- baseURL: https://email.{region}.amazonaws.com
-  baseurl_source: declared
-  description: Operations for managing email templates.
-  name: Amazon SES Templates API
-  slug: amazon-ses-templates-api
-- baseURL: https://email.{region}.amazonaws.com
-  baseurl_source: declared
   description: The Email API from Amazon SES — 60 operation(s) for email.
   name: Amazon SES Email API
   slug: amazon-ses-email-api
-artifact_total: 47
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Amazon Ses Events
@@ -500,7 +480,7 @@ modified: '2026-08-13'
 name: Amazon SES
 nav: Providers
 network: true
-overview: 'Amazon SES publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contact Lists API, Email Sending API, Identities API, and 2 more. Tagged areas include Email, Email Deliverability, Email Service, Marketing Email, and Notification.
+overview: 'Amazon SES publishes 1 API on the [APIs.io](https://apis.io/) network: Email API. Tagged areas include Email, Email Deliverability, Email Service, Marketing Email, and Notification.
 
 
   The Amazon SES catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -511,7 +491,7 @@ plans:
 - name: Amazon Ses Plans Pricing
   plan_count: 4
   slug: amazon-ses-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 24
   name: Amazon Ses Rate Limits
@@ -540,7 +520,7 @@ rules:
   slug: amazon-ses-spectral-rules
 score:
   band: exemplar
-  composite: 76.3
+  composite: 79.1
   coverage:
     artifact_dirs: 31
     catalog_earned: 71.5
@@ -548,11 +528,11 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 64.9
+    contract_quality: 75.9
     developer_ergonomics: 86.9
     discoverability: 57.4
     operational_transparency: 84.2
@@ -561,14 +541,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 20.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 1
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

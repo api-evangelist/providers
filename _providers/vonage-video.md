@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 4
@@ -183,7 +183,7 @@ modified: '2026-06-20'
 name: Vonage Video API
 nav: Providers
 network: true
-overview: 'Vonage Video API publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Archives API, Broadcasts API, Captions API, and 6 more. Tagged areas include Video, WebRTC, Live Streaming, Real-Time Communications, and CPaaS.
+overview: 'Vonage Video API publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Archives API, Broadcasts API, Captions API, and 6 more. Tagged areas include Video, WebRTC, Live Streaming, Real-Time Communication, and CPaaS.
 
 
   Vonage Video API''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -191,7 +191,7 @@ plans:
 - name: Vonage Video Plans Pricing
   plan_count: 3
   slug: vonage-video-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 7
   name: Vonage Video Rate Limits
@@ -229,7 +229,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -249,7 +249,7 @@ tags:
 - Video
 - WebRTC
 - Live Streaming
-- Real-Time Communications
+- Real-Time Communication
 - CPaaS
 website: https://www.vonage.com/communications-apis/video/
 ---

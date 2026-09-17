@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - baseURL: https://ionetix.com/wp-json
@@ -80,11 +80,16 @@ apis:
   slug: ionetix-discovery-api
 - baseURL: https://ionetix.com/wp-json
   baseurl_source: declared
-  description: oEmbed 1.0 discovery for ionetix.com URLs, returning embeddable representations of posts and pages.
-  name: Ionetix oEmbed API
-  slug: ionetix-oembed-api
+  description: oEmbed 1.0 discovery for ionetix.com URLs.
+  name: Ionetix o Embed API
+  slug: ionetix-o-embed-api
 artifact_total: 20
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ionetix/refs/heads/main/overlays/ionetix-oembed-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/ionetix-oembed-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -212,12 +217,12 @@ network: true
 overview: 'Ionetix publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, Healthcare, Life Sciences, Radiopharmaceuticals, and Nuclear Medicine.
 
 
-  Ionetix''s developer surface includes engineering blog, support, authentication, code examples, and 16 more developer resources.'
+  Ionetix''s developer surface includes engineering blog, support, authentication, code examples, and 17 more developer resources.'
 plans:
 - name: Ionetix Plans Pricing
   plan_count: 0
   slug: ionetix-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Ionetix Rate Limits
@@ -257,7 +262,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

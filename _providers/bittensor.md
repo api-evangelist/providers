@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ overview: 'Bittensor publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Bittensor''s developer surface includes documentation, getting-started guide, API reference, engineering blog, CLI, authentication, and 16 more developer resources.'
-random_paper: 20
+random_paper: 18
 score:
   band: emerging
   composite: 22.2
@@ -189,7 +189,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

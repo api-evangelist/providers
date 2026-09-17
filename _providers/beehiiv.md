@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 61.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -551,10 +551,10 @@ common:
   type: AsyncAPI
   url: asyncapi/beehiiv-asyncapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-webhook-events-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/_original/beehiiv-webhook-events-openapi.yml
   title: ''
   type: Webhooks
-  url: openapi/beehiiv-webhook-events-openapi.yml
+  url: openapi/_original/beehiiv-webhook-events-openapi.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/skills/_index.yml
   title: ''
@@ -618,7 +618,7 @@ modified: '2026-08-13'
 name: beehiiv
 nav: Providers
 network: true
-overview: 'beehiiv publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Tokens API, Webhooks API, and 27 more. Tagged areas include Newsletter, Creator, Email, Subscription, and Publishing.
+overview: 'beehiiv publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Tokens API, Webhooks API, and 27 more. Tagged areas include Newsletters, Creators, Email, Subscription, and Publishing.
 
 
   The beehiiv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -629,7 +629,7 @@ plans:
 - name: Beehiiv Plans Pricing
   plan_count: 4
   slug: beehiiv-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Beehiiv Rate Limits
@@ -696,7 +696,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -717,8 +717,8 @@ security:
   summary_line: SOC 2 Type I
 slug: beehiiv
 tags:
-- Newsletter
-- Creator
+- Newsletters
+- Creators
 - Email
 - Subscription
 - Publishing

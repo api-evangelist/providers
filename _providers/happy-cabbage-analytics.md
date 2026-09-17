@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.happycabbage.ai
@@ -161,10 +161,10 @@ common:
   type: ChangeLog
   url: changelog/happy-cabbage-analytics-changelog.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/happy-cabbage-analytics-happy-buyers-external-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/openapi/_original/happy-cabbage-analytics-happy-buyers-external-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/happy-cabbage-analytics-happy-buyers-external-openapi.yml
+  url: openapi/_original/happy-cabbage-analytics-happy-buyers-external-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/authentication/happy-cabbage-analytics-authentication.yml
   title: ''
@@ -235,7 +235,7 @@ description: Happy Cabbage Analytics is a cannabis retail software company found
   to API-key holders — the same API the company's own published AI-agent workflows are built on.
 image: https://cdn.prod.website-files.com/5d46254e52d2932dcbc10ee9/65cba367661e3aebedb84daf_HCA_Logo_primary.png
 layout: provider
-modified: '2026-08-22'
+modified: '2026-09-16'
 name: Happy Cabbage Analytics
 nav: Providers
 network: true
@@ -247,7 +247,7 @@ plans:
 - name: Happy Cabbage Analytics Plans Pricing
   plan_count: 0
   slug: happy-cabbage-analytics-plans-pricing
-random_paper: 8
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Happy Cabbage Analytics Rate Limits
@@ -286,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 8
 common:
@@ -193,7 +193,7 @@ press:
 - date: '2026-05-25'
   title: 'RRD Survey: Marketers Embrace Technology to ...'
   url: https://www.businesswire.com/news/home/20240411726617/en/RRD-Survey-Marketers-Embrace-Technology-to-Strategically-Integrate-Print-and-Digital
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Rr Donnelley And Sons Rate Limits
@@ -231,7 +231,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

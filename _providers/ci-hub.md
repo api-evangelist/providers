@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The other direction of the CI HUB platform. A DAM, MAM, PIM, CMS, stock or cloud-storage vendor writes an integration that translates its own proprietary API into CI HUB's handler format using defineI
@@ -202,7 +202,7 @@ plans:
 - name: Ci Hub Plans Pricing
   plan_count: 12
   slug: ci-hub-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Ci Hub Rate Limits
@@ -249,7 +249,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

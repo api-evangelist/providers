@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Batch EDI trading-partner interface for outside processors at Burns Harbor, Cleveland, Indiana Harbor and Kote, compliant with ANSI ASC X12 version 4010 over SFTP or an IBM Sterling VAN. Cleveland-Cli
@@ -172,7 +172,7 @@ plans:
 - name: Cleveland Cliffs Plans Pricing
   plan_count: 0
   slug: cleveland-cliffs-plans-pricing
-random_paper: 1
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Cleveland Cliffs Rate Limits
@@ -204,7 +204,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

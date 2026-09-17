@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,7 +61,7 @@ name: HeadsUp
 nav: Providers
 network: true
 overview: HeadsUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Product-Led Growth, Go-To-Market, Sales, and Product Analytics.
-random_paper: 11
+random_paper: 20
 score:
   band: minimal
   composite: 5.3
@@ -90,7 +90,7 @@ score:
       reason: never_enriched
   previous_composite: 5.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

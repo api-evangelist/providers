@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -107,7 +107,7 @@ overview: 'SwingVision is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SwingVision''s developer surface includes engineering blog, documentation, support, FAQ, pricing, signup flow, changelog, and 7 more developer resources.'
-random_paper: 19
+random_paper: 6
 score:
   band: minimal
   composite: 9.5
@@ -128,7 +128,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -149,6 +149,6 @@ tags:
 - Artificial Intelligence
 - Computer-Vision
 - Video Analytics
-- Mobile Apps
+- Mobile App
 website: https://swing.vision/
 ---

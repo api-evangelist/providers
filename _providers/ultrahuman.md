@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -55,14 +55,14 @@ apis:
   slug: ultrahuman-metrics-api
 - baseURL: https://partner.ultrahuman.com
   baseurl_source: declared
-  description: OAuth 2.0 authorization, token exchange, and revocation.
-  name: Ultrahuman OAuth API
-  slug: ultrahuman-oauth-api
-- baseURL: https://partner.ultrahuman.com
-  baseurl_source: declared
   description: Basic authorized-user profile information.
   name: Ultrahuman User API
   slug: ultrahuman-user-api
+- baseURL: https://partner.ultrahuman.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization, token exchange, and revocation.
+  name: Ultrahuman O Auth API
+  slug: ultrahuman-oauth-api
 artifact_total: 16
 collections:
 - collection_type: open
@@ -146,7 +146,7 @@ modified: '2026-07-03'
 name: Ultrahuman
 nav: Providers
 network: true
-overview: 'Ultrahuman publishes 3 APIs on the [APIs.io](https://apis.io/) network: Metrics API, OAuth API, and User API. Tagged areas include Wearables, Smart Ring, Health, Metabolic Health, and Sleep.
+overview: 'Ultrahuman publishes 3 APIs on the [APIs.io](https://apis.io/) network: Metrics API, User API, and O Auth API. Tagged areas include Wearables, Smart Ring, Health, Metabolic Health, and Sleep.
 
 
   Ultrahuman''s developer surface includes authentication, documentation, signup flow, and 9 more developer resources.'
@@ -154,7 +154,7 @@ plans:
 - name: Ultrahuman Plans Pricing
   plan_count: 4
   slug: ultrahuman-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Ultrahuman Rate Limits
@@ -193,7 +193,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

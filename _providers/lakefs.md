@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -82,11 +82,6 @@ apis:
   slug: lakefs-external-api
 - baseURL: /api/v1
   baseurl_source: spec
-  description: The healthCheck API from lakeFS — 1 operation(s) for healthcheck.
-  name: lakeFS healthCheck API
-  slug: lakefs-healthcheck-api
-- baseURL: /api/v1
-  baseurl_source: spec
   description: The import API from lakeFS — 1 operation(s) for import.
   name: lakeFS import API
   slug: lakefs-import-api
@@ -130,6 +125,11 @@ apis:
   description: The tags API from lakeFS — 2 operation(s) for tags.
   name: lakeFS tags API
   slug: lakefs-tags-api
+- baseURL: /api/v1
+  baseurl_source: spec
+  description: The Health Check API from lakeFS — 1 operation(s) for health check.
+  name: lakeFS Health Check API
+  slug: lakefs-health-check-api
 artifact_total: 42
 collections:
 - collection_type: open
@@ -249,14 +249,14 @@ plans:
 - name: Lakefs Plans Pricing
   plan_count: 3
   slug: lakefs-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Lakefs Rate Limits
   slug: lakefs-rate-limits
 score:
   band: emerging
-  composite: 25.3
+  composite: 25.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 31.0
@@ -264,11 +264,11 @@ score:
     catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 47.5
+    contract_quality: 48.4
     developer_ergonomics: 23.8
     discoverability: 48.1
     operational_transparency: 10.5
@@ -281,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

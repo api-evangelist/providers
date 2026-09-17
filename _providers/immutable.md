@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Passport is Immutable's authentication and embedded-wallet product. Its OpenID Connect provider publishes anonymous discovery documents at auth.immutable.com, exposing the authorization, token, device
@@ -91,11 +91,6 @@ apis:
   slug: immutable-nft-owners-api
 - baseURL: https://api.immutable.com
   baseurl_source: declared
-  description: NFTs Endpoints
-  name: Immutable Nfts API
-  slug: immutable-nfts-api
-- baseURL: https://api.immutable.com
-  baseurl_source: declared
   description: The orders API from Immutable — 14 operation(s) for orders.
   name: Immutable Orders API
   slug: immutable-orders-api
@@ -124,6 +119,11 @@ apis:
   description: Tracking consent management endpoints
   name: Immutable Tracking Consent API
   slug: immutable-tracking-consent-api
+- baseURL: https://auth.immutable.com
+  baseurl_source: declared
+  description: NFTs Endpoints
+  name: Immutable Nfts API
+  slug: immutable-nfts-api
 artifact_total: 26
 asyncapis:
 - description: ''
@@ -350,7 +350,7 @@ plans:
 - name: Immutable Plans Pricing
   plan_count: 3
   slug: immutable-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Immutable Rate Limits
@@ -362,7 +362,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.1
+  composite: 68.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 61.0
@@ -370,11 +370,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 62.6
+    contract_quality: 59.8
     developer_ergonomics: 64.3
     discoverability: 75.9
     operational_transparency: 92.1
@@ -395,7 +395,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - baseURL: https://api.benzinga.com
@@ -40,11 +40,6 @@ apis:
   description: 'Structured real-time and historical financial news from the Benzinga newsroom, with channel filters, removed-news deltas, and Why Is It Moving (WIIM) one-line explanations of price action, queried by '
   name: Benzinga Newsfeed & Why Is It Moving API
   slug: benzinga-newsfeed-api
-- baseURL: https://api.benzinga.com
-  baseurl_source: declared
-  description: Structured corporate press release content with ticker, date, and channel filtering plus updatedSince delta queries.
-  name: Benzinga Press Releases API
-  slug: benzinga-press-releases-api
 - baseURL: https://api.benzinga.com
   baseurl_source: declared
   description: Trending-ticker rankings and per-ticker trend scores aggregated across time intervals from Benzinga audience activity.
@@ -253,7 +248,7 @@ apis:
   description: The transcripts API from Benzinga — 2 operation(s) for transcripts.
   name: Benzinga transcripts API
   slug: benzinga-transcripts-api
-artifact_total: 97
+artifact_total: 96
 asyncapis:
 - description: 'WebSocket API providing real-time analyst insights for specific ticker symbols. **Authentication** - Clients must provide their API token as a query parameter: ``` wss://api.benzinga.com/api/v1/analys'
   name: Benzinga Analyst Insights WebSocket Stream
@@ -407,6 +402,11 @@ collections:
   name: Analyst Reports Raw Text Analyst Insights Webhook API
   slug: open-benzinga-webhook-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/overlays/benzinga-press-releases-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/benzinga-press-releases-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/security/benzinga-vulnerability-disclosure.yml
   title: ''
@@ -564,14 +564,14 @@ modified: '2026-07-22'
 name: Benzinga
 nav: Providers
 network: true
-overview: 'Benzinga publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Newsfeed & Why Is It Moving API, Press Releases API, Ticker Trends API, and 40 more. Tagged areas include Financial, Market Data, Stocks, News, and Real-Time.
+overview: 'Benzinga publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Newsfeed & Why Is It Moving API, Ticker Trends API, Earnings Call Transcripts API, and 39 more. Tagged areas include Financial, Market Data, Stocks, News, and Real-Time.
 
 
   The Benzinga catalog on APIs.io includes 7 event-driven AsyncAPI specifications.
 
 
-  Benzinga''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, changelog, getting-started guide, and 26 more developer resources.'
-random_paper: 6
+  Benzinga''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, changelog, getting-started guide, and 27 more developer resources.'
+random_paper: 10
 score:
   band: developing
   composite: 52.5
@@ -602,7 +602,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 42
+      total: 41
     mcp: derived
     skills: derived
   regulatory:
@@ -612,7 +612,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'The SoftwareSuggest software catalog is a browsable and searchable index of over 50,000 B2B software products across 800+ categories. Users can filter by category, features, pricing model, deployment '
@@ -146,7 +146,7 @@ plans:
 - name: Softwaresuggest Plans Pricing
   plan_count: 3
   slug: softwaresuggest-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Softwaresuggest Rate Limits
@@ -187,7 +187,7 @@ score:
     - india-south-asia
   previous_composite: 23.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -155,12 +155,7 @@ apis:
   description: The STT API from Cartesia — 1 operation(s) for stt.
   name: Cartesia STT API
   slug: cartesia-ai-stt-api
-- baseURL: wss://api.cartesia.ai
-  baseurl_source: declared
-  description: The TTS API from Cartesia — 2 operation(s) for tts.
-  name: Cartesia TTS API
-  slug: cartesia-ai-tts-api
-artifact_total: 56
+artifact_total: 55
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Cartesia''s **documented public WebSocket API**. Unlike most providers in this catalog, Cartesia publishes a real, bidirectional WebSocket protocol - not Server-Sent Events '
   name: Cartesia Realtime WebSocket API (TTS + STT)
@@ -329,7 +324,7 @@ modified: '2026-08-08'
 name: Cartesia
 nav: Providers
 network: true
-overview: 'Cartesia publishes 23 APIs on the [APIs.io](https://apis.io/) network, including TTS WebSocket API, STT WebSocket API, Agents API, and 20 more. Tagged areas include Artificial Intelligence, Voice AI, Text-to-Speech, Speech-to-Text, and Real-Time.
+overview: 'Cartesia publishes 22 APIs on the [APIs.io](https://apis.io/) network, including TTS WebSocket API, STT WebSocket API, Agents API, and 19 more. Tagged areas include Artificial Intelligence, Voice AI, Text-to-Speech, Speech-to-Text, and Real-Time.
 
 
   The Cartesia catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -340,7 +335,7 @@ plans:
 - name: Cartesia Ai Plans Pricing
   plan_count: 6
   slug: cartesia-ai-plans-pricing
-random_paper: 20
+random_paper: 13
 rate_limits:
 - limit_count: 15
   name: Cartesia Ai Rate Limits
@@ -371,7 +366,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 11.4
-    contract_quality: 61.9
+    contract_quality: 62.0
     developer_ergonomics: 35.7
     discoverability: 70.4
     operational_transparency: 34.2
@@ -382,10 +377,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 20
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

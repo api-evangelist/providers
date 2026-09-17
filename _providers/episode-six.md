@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The TRITIUM platform API is Episode Six's real-time RESTful interface for card issuing, issuer processing and ledger management — card program setup, account and ledger operations, transaction process
@@ -189,7 +189,7 @@ plans:
 - name: Episode Six Plans Pricing
   plan_count: 0
   slug: episode-six-plans-pricing
-random_paper: 17
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Episode Six Rate Limits
@@ -232,7 +232,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

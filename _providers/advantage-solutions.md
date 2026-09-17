@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -95,11 +95,6 @@ apis:
   slug: advantage-solutions-mrktblog-posts-api
 - baseURL: https://youradv.com/wp-json
   baseurl_source: declared
-  description: The oembed API from Advantage Solutions — 1 operation(s) for oembed.
-  name: Advantage Solutions Oembed API
-  slug: advantage-solutions-oembed-api
-- baseURL: https://youradv.com/wp-json
-  baseurl_source: declared
   description: The pages API from Advantage Solutions — 2 operation(s) for pages.
   name: Advantage Solutions Pages API
   slug: advantage-solutions-pages-api
@@ -153,6 +148,11 @@ apis:
   description: The users API from Advantage Solutions — 6 operation(s) for users.
   name: Advantage Solutions Users API
   slug: advantage-solutions-users-api
+- baseURL: https://youradv.com/wp-json
+  baseurl_source: declared
+  description: The o Embed API from Advantage Solutions — 1 operation(s) for o embed.
+  name: Advantage Solutions o Embed API
+  slug: advantage-solutions-o-embed-api
 artifact_total: 27
 common:
 - group: other
@@ -295,7 +295,7 @@ plans:
 - name: Advantage Solutions Plans Pricing
   plan_count: 0
   slug: advantage-solutions-plans-pricing
-random_paper: 18
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Advantage Solutions Rate Limits
@@ -330,7 +330,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

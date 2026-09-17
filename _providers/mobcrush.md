@@ -45,7 +45,7 @@ name: Mobcrush
 nav: Providers
 network: true
 overview: Mobcrush is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, Gaming, and Live Streaming.
-random_paper: 6
+random_paper: 9
 slug: mobcrush
 tags:
 - Company

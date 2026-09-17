@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -108,19 +108,9 @@ apis:
   slug: youtube-comments-api
 - baseURL: https://www.googleapis.com/youtube/v3
   baseurl_source: declared
-  description: Operations related to YouTube comment threads
-  name: Youtube CommentThreads API
-  slug: youtube-commentthreads-api
-- baseURL: https://www.googleapis.com/youtube/v3
-  baseurl_source: declared
   description: Operations for managing items within analytics groups
   name: Youtube Group Items API
   slug: youtube-group-items-api
-- baseURL: https://www.googleapis.com/youtube/v3
-  baseurl_source: declared
-  description: Operations for managing items within YouTube Analytics groups
-  name: Youtube GroupItems API
-  slug: youtube-groupitems-api
 - baseURL: https://www.googleapis.com/youtube/v3
   baseurl_source: declared
   description: Operations for managing YouTube Analytics groups
@@ -153,19 +143,9 @@ apis:
   slug: youtube-livechatmoderators-api
 - baseURL: https://www.googleapis.com/youtube/v3
   baseurl_source: declared
-  description: Operations for managing YouTube live video streams
-  name: Youtube LiveStreams API
-  slug: youtube-livestreams-api
-- baseURL: https://www.googleapis.com/youtube/v3
-  baseurl_source: declared
   description: Operations for managing items within playlists
   name: Youtube Playlist Items API
   slug: youtube-playlist-items-api
-- baseURL: https://www.googleapis.com/youtube/v3
-  baseurl_source: declared
-  description: Operations related to items within YouTube playlists
-  name: Youtube PlaylistItems API
-  slug: youtube-playlistitems-api
 - baseURL: https://www.googleapis.com/youtube/v3
   baseurl_source: declared
   description: Operations related to YouTube playlist resources
@@ -176,11 +156,6 @@ apis:
   description: Operations for querying YouTube Analytics report data
   name: Youtube Reports API
   slug: youtube-reports-api
-- baseURL: https://www.googleapis.com/youtube/v3
-  baseurl_source: declared
-  description: Operations for listing available report types
-  name: Youtube ReportTypes API
-  slug: youtube-reporttypes-api
 - baseURL: https://www.googleapis.com/youtube/v3
   baseurl_source: declared
   description: Operations for searching YouTube content
@@ -201,6 +176,21 @@ apis:
   description: Operations related to YouTube video resources
   name: Youtube Videos API
   slug: youtube-videos-api
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to YouTube comment threads
+  name: Youtube Comment Threads API
+  slug: youtube-comment-threads-api
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing YouTube live video streams
+  name: Youtube Live Streams API
+  slug: youtube-live-streams-api
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for listing available report types
+  name: Youtube Report Types API
+  slug: youtube-report-types-api
 arazzos:
 - description: Read a channel, list the comment threads on its discussion, and reply to the first thread.
   name: YouTube Channel Comment Threads and Reply
@@ -259,7 +249,7 @@ arazzos:
 - description: Pull a video's statistics, its top comment thread, and the replies under that thread's top comment.
   name: YouTube Video Engagement Report
   slug: youtube-video-engagement-report-workflow
-artifact_total: 440
+artifact_total: 438
 collections:
 - collection_type: postman
   name: YouTube Analytics API
@@ -1747,7 +1737,7 @@ modified: '2026-06-20'
 name: Youtube
 nav: Providers
 network: true
-overview: 'Youtube publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Analytics Groups API, Analytics Reports API, Captions API, and 21 more. Tagged areas include Google, Media, Social, Streaming, and Video.
+overview: 'Youtube publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Analytics Groups API, Analytics Reports API, Captions API, and 19 more. Tagged areas include Google, Media, Social, Streaming, and Video.
 
 
   The Youtube catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1758,7 +1748,7 @@ plans:
 - name: Youtube Plans Pricing
   plan_count: 3
   slug: youtube-plans-pricing
-random_paper: 4
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Youtube Rate Limits
@@ -1792,7 +1782,7 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.6
+  composite: 56.4
   coverage:
     artifact_dirs: 32
     catalog_earned: 62.5
@@ -1800,11 +1790,11 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 57.9
     contract_governance: 33.3
-    contract_quality: 72.5
+    contract_quality: 72.0
     developer_ergonomics: 65.5
     discoverability: 50.0
     operational_transparency: 42.1
@@ -1815,11 +1805,11 @@ score:
     contracts:
       callable: 100.0
       derived: 3
-      marker_coverage: 12.0
-      total: 25
+      marker_coverage: 13.0
+      total: 23
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1845,7 +1835,6 @@ tags:
 - Social
 - Streaming
 - Video
-- Videos
 use_cases:
 - description: Build automated video upload and management workflows for content creators and media companies.
   name: Video Publishing Platform

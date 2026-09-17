@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.0.1, "Governor External API" v1.0.0) for the self-hosted Synthesized Governor. Trigger TDK masking/generation workflows, list workers, and check health. Authenticated with an X-Acc
@@ -154,7 +154,7 @@ overview: 'Synthesized publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Synthesized''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 15 more developer resources.'
-random_paper: 13
+random_paper: 0
 score:
   band: thin
   composite: 29.3
@@ -178,7 +178,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -204,7 +204,7 @@ tags:
 - Test Data Management
 - Compliance
 - Machine-Learning
-- Databases
+- Database
 - Developer Tools
 website: https://www.synthesized.io
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: First-party remote Model Context Protocol server exposing read-only GlacierGrid facility monitoring data — HVAC, refrigeration, energy and savings, sensor readings, issues, notifications, device conne
@@ -180,7 +180,7 @@ plans:
 - name: Hello Therma Plans Pricing
   plan_count: 0
   slug: hello-therma-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Hello Therma Rate Limits
@@ -219,7 +219,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

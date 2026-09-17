@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -66,7 +66,7 @@ apis:
 - baseURL: https://meta.discourse.org
   baseurl_source: declared
   description: The Discourse Calendar - Events API from Discourse — 2 operation(s) for discourse calendar - events.
-  name: Discourse Discourse Calendar - Events API
+  name: Discourse Calendar - Events API
   slug: discourse-discourse-calendar-events-api
 - baseURL: https://meta.discourse.org
   baseurl_source: declared
@@ -264,7 +264,7 @@ finops:
   slug: discourse-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/discourse.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Discourse
 nav: Providers
 network: true
@@ -276,7 +276,7 @@ plans:
 - name: Discourse Plans Pricing
   plan_count: 3
   slug: discourse-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Discourse Rate Limits
@@ -308,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -25,31 +25,321 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.5
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 32.1
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
-- baseURL: https://{account}.logicmonitor.com/santaba/rest
-  baseurl_source: declared
-  description: The LogicMonitor platform API. Swagger 2.0, 220 paths, 403 operations and 743 definitions covering devices and device groups, collectors and collector groups, alerts, alert rules and escalation chains
-  name: LogicMonitor REST API v3
-  slug: logicmonitor
 - description: A Model Context Protocol server over the LogicMonitor REST API v3, published to npm as logicmonitor-api-mcp and hosted in the LogicMonitor GitHub organization, exposing 13 resource-shaped tools for de
   name: LogicMonitor MCP Server
   slug: logicmonitor-mcp
-artifact_total: 11
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Access Group API from LogicMonitor — 4 operation(s) for access group.
+  name: LogicMonitor Access Group API
+  slug: logicmonitor-access-group-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Action Chains API from LogicMonitor — 2 operation(s) for action chains.
+  name: LogicMonitor Action Chains API
+  slug: logicmonitor-action-chains-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Action Rules API from LogicMonitor — 3 operation(s) for action rules.
+  name: LogicMonitor Action Rules API
+  slug: logicmonitor-action-rules-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Alert Rules API from LogicMonitor — 2 operation(s) for alert rules.
+  name: LogicMonitor Alert Rules API
+  slug: logicmonitor-alert-rules-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Alerts API from LogicMonitor — 5 operation(s) for alerts.
+  name: LogicMonitor Alerts API
+  slug: logicmonitor-alerts-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The API Tokens API from LogicMonitor — 3 operation(s) for api tokens.
+  name: LogicMonitor API Tokens API
+  slug: logicmonitor-api-tokens-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The ApiPerfStats API from LogicMonitor — 1 operation(s) for apiperfstats.
+  name: LogicMonitor API Perf Stats API
+  slug: logicmonitor-apiperfstats-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The AppliesToFunctions API from LogicMonitor — 3 operation(s) for appliestofunctions.
+  name: LogicMonitor Applies To Functions API
+  slug: logicmonitor-appliestofunctions-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Audit Logs API from LogicMonitor — 2 operation(s) for audit logs.
+  name: LogicMonitor Audit Logs API
+  slug: logicmonitor-audit-logs-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Automated Diagnostic & Remediation API from LogicMonitor — 2 operation(s) for automated diagnostic & remediation.
+  name: LogicMonitor Automated Diagnostic & Remediation API
+  slug: logicmonitor-automated-diagnostic-remediation-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Collector Groups API from LogicMonitor — 3 operation(s) for collector groups.
+  name: LogicMonitor Collector Groups API
+  slug: logicmonitor-collector-groups-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Collectors API from LogicMonitor — 15 operation(s) for collectors.
+  name: LogicMonitor Collectors API
+  slug: logicmonitor-collectors-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The CollectorVersions API from LogicMonitor — 1 operation(s) for collectorversions.
+  name: LogicMonitor Collector Versions API
+  slug: logicmonitor-collectorversions-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The ConfigSources API from LogicMonitor — 5 operation(s) for configsources.
+  name: LogicMonitor Config Sources API
+  slug: logicmonitor-configsources-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Cost Optimization Recommendations API from LogicMonitor — 3 operation(s) for cost optimization recommendations.
+  name: LogicMonitor Cost Optimization Recommendations API
+  slug: logicmonitor-cost-optimization-recommendations-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Dashboard Groups API from LogicMonitor — 3 operation(s) for dashboard groups.
+  name: LogicMonitor Dashboard Groups API
+  slug: logicmonitor-dashboard-groups-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Dashboards API from LogicMonitor — 3 operation(s) for dashboards.
+  name: LogicMonitor Dashboards API
+  slug: logicmonitor-dashboards-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Data API from LogicMonitor — 9 operation(s) for data.
+  name: LogicMonitor Data API
+  slug: logicmonitor-data-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Datasource Instances API from LogicMonitor — 13 operation(s) for datasource instances.
+  name: LogicMonitor Datasource Instances API
+  slug: logicmonitor-datasource-instances-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Debug API from LogicMonitor — 2 operation(s) for debug.
+  name: LogicMonitor Debug API
+  slug: logicmonitor-debug-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Delta API from LogicMonitor — 2 operation(s) for delta.
+  name: LogicMonitor Delta API
+  slug: logicmonitor-delta-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Device Groups API from LogicMonitor — 19 operation(s) for device groups.
+  name: LogicMonitor Device Groups API
+  slug: logicmonitor-device-groups-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Devices API from LogicMonitor — 20 operation(s) for devices.
+  name: LogicMonitor Devices API
+  slug: logicmonitor-devices-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The DiagnosticSources API from LogicMonitor — 4 operation(s) for diagnosticsources.
+  name: LogicMonitor Diagnostic Sources API
+  slug: logicmonitor-diagnosticsources-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The DNS Mapping API from LogicMonitor — 1 operation(s) for dns mapping.
+  name: LogicMonitor DNS Mapping API
+  slug: logicmonitor-dns-mapping-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The DNSMappings API from LogicMonitor — 1 operation(s) for dnsmappings.
+  name: LogicMonitor DNS Mappings API
+  slug: logicmonitor-dnsmappings-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Escalation Chains API from LogicMonitor — 2 operation(s) for escalation chains.
+  name: LogicMonitor Escalation Chains API
+  slug: logicmonitor-escalation-chains-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The IntegrationAuditLogs API from LogicMonitor — 1 operation(s) for integrationauditlogs.
+  name: LogicMonitor Integration Audit Logs API
+  slug: logicmonitor-integrationauditlogs-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The JobMonitor API from LogicMonitor — 4 operation(s) for jobmonitor.
+  name: LogicMonitor Job Monitor API
+  slug: logicmonitor-jobmonitor-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The LogAlertGroups API from LogicMonitor — 2 operation(s) for logalertgroups.
+  name: LogicMonitor Log Alert Groups API
+  slug: logicmonitor-logalertgroups-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The LogAlerts API from LogicMonitor — 3 operation(s) for logalerts.
+  name: LogicMonitor Log Alerts API
+  slug: logicmonitor-logalerts-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The LogicModules API from LogicMonitor — 1 operation(s) for logicmodules.
+  name: LogicMonitor Logic Modules API
+  slug: logicmonitor-logicmodules-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The LogPartitions API from LogicMonitor — 4 operation(s) for logpartitions.
+  name: LogicMonitor Log Partitions API
+  slug: logicmonitor-logpartitions-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The LogQueryGroups API from LogicMonitor — 6 operation(s) for logquerygroups.
+  name: LogicMonitor Log Query Groups API
+  slug: logicmonitor-logquerygroups-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Metrics API from LogicMonitor — 2 operation(s) for metrics.
+  name: LogicMonitor Metrics API
+  slug: logicmonitor-metrics-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Netscans API from LogicMonitor — 2 operation(s) for netscans.
+  name: LogicMonitor Netscans API
+  slug: logicmonitor-netscans-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The OID API from LogicMonitor — 3 operation(s) for oid.
+  name: LogicMonitor OID API
+  slug: logicmonitor-oid-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Ops Notes API from LogicMonitor — 2 operation(s) for ops notes.
+  name: LogicMonitor Ops Notes API
+  slug: logicmonitor-ops-notes-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The PropertySource API from LogicMonitor — 3 operation(s) for propertysource.
+  name: LogicMonitor Property Source API
+  slug: logicmonitor-propertysource-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Recipient Groups API from LogicMonitor — 2 operation(s) for recipient groups.
+  name: LogicMonitor Recipient Groups API
+  slug: logicmonitor-recipient-groups-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The RemediationSources API from LogicMonitor — 3 operation(s) for remediationsources.
+  name: LogicMonitor Remediation Sources API
+  slug: logicmonitor-remediationsources-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Report API from LogicMonitor — 4 operation(s) for report.
+  name: LogicMonitor Report API
+  slug: logicmonitor-report-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Report Groups API from LogicMonitor — 2 operation(s) for report groups.
+  name: LogicMonitor Report Groups API
+  slug: logicmonitor-report-groups-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Roles API from LogicMonitor — 2 operation(s) for roles.
+  name: LogicMonitor Roles API
+  slug: logicmonitor-roles-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The SDTs API from LogicMonitor — 2 operation(s) for sdts.
+  name: LogicMonitor SD Ts API
+  slug: logicmonitor-sdts-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Thresholds API from LogicMonitor — 5 operation(s) for thresholds.
+  name: LogicMonitor Thresholds API
+  slug: logicmonitor-thresholds-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The TopologySource API from LogicMonitor — 3 operation(s) for topologysource.
+  name: LogicMonitor Topology Source API
+  slug: logicmonitor-topologysource-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The TrackQueryGroup API from LogicMonitor — 2 operation(s) for trackquerygroup.
+  name: LogicMonitor Track Query Group API
+  slug: logicmonitor-trackquerygroup-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Usage API V3 API from LogicMonitor — 2 operation(s) for usage api v3.
+  name: LogicMonitor Usage API V3 API
+  slug: logicmonitor-usage-api-v3-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Users API from LogicMonitor — 2 operation(s) for users.
+  name: LogicMonitor Users API
+  slug: logicmonitor-users-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Website Groups API from LogicMonitor — 5 operation(s) for website groups.
+  name: LogicMonitor Website Groups API
+  slug: logicmonitor-website-groups-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Websites API from LogicMonitor — 9 operation(s) for websites.
+  name: LogicMonitor Websites API
+  slug: logicmonitor-websites-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Widgets API from LogicMonitor — 2 operation(s) for widgets.
+  name: LogicMonitor Widgets API
+  slug: logicmonitor-widgets-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Batch Jobs API from LogicMonitor — 1 operation(s) for batch jobs.
+  name: LogicMonitor Batch Jobs API
+  slug: logicmonitor-batch-jobs-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Data Sources API from LogicMonitor — 8 operation(s) for data sources.
+  name: LogicMonitor Data Sources API
+  slug: logicmonitor-data-sources-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Event Sources API from LogicMonitor — 4 operation(s) for event sources.
+  name: LogicMonitor Event Sources API
+  slug: logicmonitor-event-sources-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The Log Sources API from LogicMonitor — 3 operation(s) for log sources.
+  name: LogicMonitor Log Sources API
+  slug: logicmonitor-log-sources-api
+- baseURL: https://{account}.logicmonitor.com/santaba/rest
+  baseurl_source: declared
+  description: The User Data API from LogicMonitor — 1 operation(s) for user data.
+  name: LogicMonitor User Data API
+  slug: logicmonitor-user-data-api
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Logicmonitor Webhooks
   slug: logicmonitor-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/logicmonitor/refs/heads/main/overlays/logicmonitor-rest-api-v3-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/logicmonitor-rest-api-v3-overlay.yaml
 - group: commercial
   title: ''
   type: License
@@ -205,18 +495,18 @@ modified: '2026-08-29'
 name: LogicMonitor
 nav: Providers
 network: true
-overview: 'LogicMonitor publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v3. Tagged areas include AIOps, Monitoring, Observability, Infrastructure, and Log Management.
+overview: 'LogicMonitor publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Access Group API, Action Chains API, Action Rules API, and 55 more. Tagged areas include AIOps, Monitoring, Observability, Infrastructure, and Log Management.
 
 
   The LogicMonitor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LogicMonitor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  LogicMonitor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Logicmonitor Plans Pricing
   plan_count: 0
   slug: logicmonitor-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 20
   name: Logicmonitor Rate Limits
@@ -228,7 +518,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.6
+  composite: 63.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 47.0
@@ -236,25 +526,30 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.5
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 53.2
+    contract_quality: 60.1
     developer_ergonomics: 73.2
     discoverability: 59.3
     operational_transparency: 73.7
   previous_composite: 58.6
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 58
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
-    score: 0.0
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/logicmonitor/refs/heads/main/screenshots/logicmonitor-2026-06-20T184653.png
 security:
 - kind: authentication

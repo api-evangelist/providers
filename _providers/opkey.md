@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 6
@@ -61,7 +61,7 @@ apis:
 - baseURL: https://device.pcloudy.com
   baseurl_source: declared
   description: The App Center Api API from Opkey — 5 operation(s) for app center api.
-  name: Opkey App Center Api API
+  name: Opkey App Center Api
   slug: opkey-app-center-api-api
 - baseURL: https://device.pcloudy.com
   baseurl_source: declared
@@ -301,15 +301,15 @@ mcp_servers:
 - description: ''
   name: pCloudy-mcp-tool
   slug: pcloudy-mcp-tool
-modified: '2026-08-04'
+modified: '2026-09-16'
 name: Opkey
 nav: Providers
 network: true
-overview: 'Opkey publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Apk Instrumentation API, Apk Instrumentation Apis API, App Center Api API, and 12 more. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and DevOps.
+overview: 'Opkey publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Apk Instrumentation API, Apk Instrumentation Apis API, App Center Api, and 12 more. Tagged areas include Company, Testing, Test Automation, Quality Assurance, and DevOps.
 
 
   Opkey''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, pricing, and 19 more developer resources.'
-random_paper: 6
+random_paper: 2
 score:
   band: developing
   composite: 48.9
@@ -340,7 +340,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

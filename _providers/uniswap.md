@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -192,6 +192,10 @@ collections:
   name: Token Trading Approval WalletEncode7702 API
   slug: open-uniswap-walletencode7702-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://uniswap.org
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -440,7 +444,7 @@ jsonld:
   property_count: 25
   slug: uniswap-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Uniswap
 nav: Providers
 network: true
@@ -450,12 +454,12 @@ overview: 'Uniswap publishes 12 APIs on the [APIs.io](https://apis.io/) network,
   The Uniswap catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Uniswap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 15 more developer resources.'
+  Uniswap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Uniswap Plans Pricing
   plan_count: 3
   slug: uniswap-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Uniswap Rate Limits
@@ -515,7 +519,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -537,7 +541,7 @@ tags:
 - DeFi
 - Decentralized Exchange
 - Liquidity
-- Swaps
+- Swap
 use_cases:
 - description: Embed token swap functionality in wallets, DApps, and portfolio managers using the Trading API's quote and swap endpoints.
   name: Token Swap Integration
@@ -549,5 +553,5 @@ use_cases:
   name: On-Chain Analytics
 - description: Build a bridge interface that quotes and executes cross-chain token transfers using the swap/bridge endpoints.
   name: Cross-Chain Bridge UI
-website: https://developers.uniswap.org/
+website: https://uniswap.org
 ---

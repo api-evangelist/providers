@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
   description: The agents API from Phonic — 5 operation(s) for agents.
   name: Phonic agents API
   slug: phonic-agents-api
-- baseURL: https://api.phonic.ai/v1
-  baseurl_source: declared
-  description: The apiKeys API from Phonic — 3 operation(s) for apikeys.
-  name: Phonic apiKeys API
-  slug: phonic-apikeys-api
 - baseURL: https://api.phonic.ai/v1
   baseurl_source: declared
   description: The auth API from Phonic — 2 operation(s) for auth.
@@ -96,6 +91,11 @@ apis:
   description: The workspace API from Phonic — 1 operation(s) for workspace.
   name: Phonic workspace API
   slug: phonic-workspace-api
+- baseURL: https://api.phonic.ai/v1
+  baseurl_source: declared
+  description: The API Keys API from Phonic — 3 operation(s) for api keys.
+  name: Phonic API Keys API
+  slug: phonic-api-keys-api
 artifact_total: 27
 asyncapis:
 - description: ''
@@ -259,14 +259,14 @@ modified: '2026-07-20'
 name: Phonic
 nav: Providers
 network: true
-overview: 'Phonic publishes 10 APIs on the [APIs.io](https://apis.io/) network, including agents API, apiKeys API, auth API, and 7 more. Tagged areas include Company, Artificial Intelligence, Voice AI, Conversational AI, and Speech.
+overview: 'Phonic publishes 10 APIs on the [APIs.io](https://apis.io/) network, including agents API, auth API, conversationItems API, and 7 more. Tagged areas include Company, Artificial Intelligence, Voice AI, Conversational AI, and Speech.
 
 
   The Phonic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Phonic''s developer surface includes authentication, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Phonic Rate Limits
@@ -301,7 +301,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

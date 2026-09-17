@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,7 +59,7 @@ apis:
 - baseURL: https://androidmanagement.googleapis.com
   baseurl_source: declared
   description: The Android Management API API from Google Android — 2 operation(s) for android management api.
-  name: Google Android Android Management API API
+  name: Google Android Management API
   slug: google-android-android-management-api-api
 - baseURL: https://androidmanagement.googleapis.com
   baseurl_source: declared
@@ -91,11 +91,11 @@ apis:
   description: The Policy API from Google Android — 1 operation(s) for policy.
   name: Google Android Policy API
   slug: google-android-policy-api
-- baseURL: https://androidmanagement.googleapis.com
+- baseURL: https://androiddeviceprovisioning.googleapis.com
   baseurl_source: declared
-  description: The WebApps API from Google Android — 1 operation(s) for webapps.
-  name: Google Android WebApps API
-  slug: google-android-webapps-api
+  description: The Web Apps API from Google Android — 1 operation(s) for web apps.
+  name: Google Android Web Apps API
+  slug: google-android-web-apps-api
 arazzos:
 - description: Confirm the target policy exists, mint an enrollment token, then poll the fleet until the new device appears.
   name: Google Android Enroll a Device and Confirm It Checked In
@@ -154,6 +154,10 @@ collections:
   name: Android Management API
   slug: open-google-android
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://google.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/capabilities/google-android-capability-edges.yml
   title: ''
@@ -376,19 +380,19 @@ integrations:
 - description: Use Android Jetpack libraries for architecture, UI, and behavior best practices.
   name: Jetpack Libraries
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Google Android
 nav: Providers
 network: true
-overview: 'Google Android publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Android Management API API, Device API, Devices API, and 5 more. Tagged areas include Android, Google, Mobile Development, Mobile Operating System, and Open-Source.
+overview: 'Google Android publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Management API, Device API, Devices API, and 5 more. Tagged areas include Android, Google, Mobile Development, Mobile Operating System, and Open-Source.
 
 
-  Google Android''s developer surface includes authentication, changelog, developer portal, engineering blog, support, Stack Overflow tag, YouTube channel, and 33 more developer resources.'
+  Google Android''s developer surface includes authentication, changelog, developer portal, engineering blog, support, Stack Overflow tag, YouTube channel, and 34 more developer resources.'
 plans:
 - name: Google Android Plans Pricing
   plan_count: 3
   slug: google-android-plans-pricing
-random_paper: 12
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Google Android Rate Limits
@@ -427,7 +431,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -468,5 +472,5 @@ use_cases:
   name: Device Fleet Management
 - description: Automate testing of Android apps across device configurations using Cloud Testing.
   name: App Quality Assurance
-website: https://developers.android.com/
+website: https://google.com
 ---

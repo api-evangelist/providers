@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -143,10 +143,10 @@ common:
   type: StatusPage
   url: https://status.demio.com
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/_original/demio-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/demio-openapi.yml
+  url: openapi/_original/demio-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-api-blueprint-original.apib
   title: ''
@@ -247,7 +247,7 @@ description: 'Demio is a browser-based webinar and virtual-event platform built 
   triggers for teams that do not want to call the API directly.'
 image: https://cdn.prod.website-files.com/639df5c77a191c7268d2f9a2/63d939e13b301514d7b3dbab_60ee09e2a0845e4356fd7641_5a86d4765e69d200011f70a5_favicon-256.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: Demio
 nav: Providers
 network: true
@@ -262,7 +262,7 @@ plans:
 - name: Demio Plans Pricing
   plan_count: 4
   slug: demio-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Demio Rate Limits
@@ -297,7 +297,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

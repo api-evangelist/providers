@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 96 operations · 46 acting
 api_count: 1
 apis:
-- baseURL: https://cloud.langfuse.com/api/public
-  baseurl_source: declared
-  description: The AnnotationQueues API from Langfuse — 5 operation(s) for annotationqueues.
-  name: Langfuse AnnotationQueues API
-  slug: langfuse-annotationqueues-api
 - baseURL: https://cloud.langfuse.com/api/public
   baseurl_source: declared
   description: The BlobStorageIntegrations API from Langfuse — 2 operation(s) for blobstorageintegrations.
@@ -127,11 +122,6 @@ apis:
   slug: langfuse-observations-api
 - baseURL: https://cloud.langfuse.com/api/public
   baseurl_source: declared
-  description: The Opentelemetry API from Langfuse — 1 operation(s) for opentelemetry.
-  name: Langfuse Opentelemetry API
-  slug: langfuse-opentelemetry-api
-- baseURL: https://cloud.langfuse.com/api/public
-  baseurl_source: declared
   description: The Organizations API from Langfuse — 4 operation(s) for organizations.
   name: Langfuse Organizations API
   slug: langfuse-organizations-api
@@ -185,6 +175,16 @@ apis:
   description: The UnstableEvaluators API from Langfuse — 2 operation(s) for unstableevaluators.
   name: Langfuse UnstableEvaluators API
   slug: langfuse-unstableevaluators-api
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Annotation Queues API from Langfuse — 5 operation(s) for annotation queues.
+  name: Langfuse Annotation Queues API
+  slug: langfuse-annotation-queues-api
+- baseURL: https://cloud.langfuse.com/api/public
+  baseurl_source: declared
+  description: The Open Telemetry API from Langfuse — 1 operation(s) for open telemetry.
+  name: Langfuse Open Telemetry API
+  slug: langfuse-open-telemetry-api
 artifact_total: 66
 collections:
 - collection_type: open
@@ -363,7 +363,7 @@ modified: '2026-05-19'
 name: Langfuse
 nav: Providers
 network: true
-overview: 'Langfuse publishes 28 APIs on the [APIs.io](https://apis.io/) network, including AnnotationQueues API, BlobStorageIntegrations API, Comments API, and 25 more. Tagged areas include Artificial Intelligence, LLM, Observability, Open-Source, and Evaluations.
+overview: 'Langfuse publishes 28 APIs on the [APIs.io](https://apis.io/) network, including BlobStorageIntegrations API, Comments API, DatasetItems API, and 25 more. Tagged areas include Artificial Intelligence, LLM, Observability, Open-Source, and Evaluation.
 
 
   Langfuse''s developer surface includes authentication, documentation, API reference, pricing, GitHub presence, and 11 more developer resources.'
@@ -371,14 +371,14 @@ plans:
 - name: Langfuse Plans Pricing
   plan_count: 5
   slug: langfuse-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Langfuse Rate Limits
   slug: langfuse-rate-limits
 score:
   band: thin
-  composite: 32.7
+  composite: 34.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 46.0
@@ -386,11 +386,11 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 52.1
+    contract_quality: 50.8
     developer_ergonomics: 21.4
     discoverability: 75.9
     operational_transparency: 13.2
@@ -398,17 +398,17 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 28
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
-    score: 0.0
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/langfuse/refs/heads/main/screenshots/langfuse-2026-06-20T184307.png
 security:
 - kind: authentication
@@ -433,6 +433,6 @@ tags:
 - LLM
 - Observability
 - Open-Source
-- Evaluations
+- Evaluation
 website: https://langfuse.com/
 ---

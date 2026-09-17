@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes, and custom modules in Zoho Recruit. Requests are authenticated with OAuth 2.0 tokens issued by the do
@@ -51,7 +51,7 @@ apis:
 - baseURL: https://recruit.zoho.com/recruit/v2
   baseurl_source: declared
   description: The Zoho Recruit API API from Zoho Recruit — 1 operation(s) for zoho recruit api.
-  name: Zoho Recruit Zoho Recruit API API
+  name: Zoho Recruit Zoho Recruit API
   slug: zoho-recruit-zoho-recruit-api-api
 artifact_total: 10
 collections:
@@ -110,15 +110,15 @@ created: '2026-05-11'
 description: Zoho Recruit is an end-to-end applicant tracking system (ATS) and recruitment CRM for staffing agencies, corporate HR teams, and recruiters, covering job posting, candidate sourcing, interview scheduling, and hiring workflows. The Zoho Recruit v2 REST API exposes candidates, contacts, clients, jobs, interviews, and custom modules for full programmatic recruiting integrations. Authentication uses Zoho OAuth 2.0 with domain-specific endpoints (.com, .eu, .in, .com.au, .com.cn, .jp).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoho-recruit.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: Zoho Recruit
 nav: Providers
 network: true
-overview: 'Zoho Recruit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Candidates API, Job Openings API, and Zoho Recruit API API. Tagged areas include ATS, Recruiting, Recruitment CRM, HR, and Zoho.
+overview: 'Zoho Recruit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Candidates API, Job Openings API, and Zoho Recruit API. Tagged areas include ATS, Recruiting, Recruitment CRM, Human Resources, and Zoho.
 
 
   Zoho Recruit''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 20
+random_paper: 5
 score:
   band: thin
   composite: 26.5
@@ -145,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -165,7 +165,7 @@ tags:
 - ATS
 - Recruiting
 - Recruitment CRM
-- HR
+- Human Resources
 - Zoho
 website: https://www.zoho.com/recruit/
 ---

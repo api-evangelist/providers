@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -132,7 +132,7 @@ modified: '2026-09-06'
 name: Calumet Specialty Products Partners
 nav: Providers
 network: true
-overview: 'Calumet Specialty Products Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Asphalt, Fuels, Hydrocarbons, Lubricants, and Manufacturing.
+overview: 'Calumet Specialty Products Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Asphalt, Fuel, Hydrocarbons, Lubricants, and Manufacturing.
 
 
   Calumet Specialty Products Partners'' developer surface includes engineering blog, support, and 15 more developer resources.'
@@ -165,7 +165,7 @@ press:
 - date: '2025-10-24'
   title: Calumet Montana and Department of Revenue Finalize Property Tax Assessment
   url: https://calumet.com/calumet-montana-and-department-of-revenue-finalize-property-tax-assessment/
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Calumet Specialty Products Partners Rate Limits
@@ -201,7 +201,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -216,7 +216,7 @@ security:
 slug: calumet-specialty-products-partners
 tags:
 - Asphalt
-- Fuels
+- Fuel
 - Hydrocarbons
 - Lubricants
 - Manufacturing

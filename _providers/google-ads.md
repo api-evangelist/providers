@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 8
+- acting_count: 170
   human_in_the_loop: 0
   name: Google Ads Agentic Access
-  operation_count: 10
+  operation_count: 184
   slug: google-ads-agentic-access
-  summary_line: 10 operations · 8 acting
+  summary_line: 184 operations · 170 acting
 api_count: 2
 apis:
 - description: JavaScript-based scripting interface for programmatically managing and querying Google Ads data directly in a browser-based IDE. Scripts enable automated changes to campaigns, ad groups, and reporting
@@ -56,7 +56,7 @@ apis:
 - baseURL: https://googleads.googleapis.com
   baseurl_source: declared
   description: Create and manage individual ads within ad groups
-  name: Google Ads Ads API
+  name: Google Ads API
   slug: google-ads-ads-api
 - baseURL: https://googleads.googleapis.com
   baseurl_source: declared
@@ -83,11 +83,6 @@ apis:
   description: Query performance data using Google Ads Query Language (GAQL)
   name: Google Ads Reporting API
   slug: google-ads-reporting-api
-- baseURL: https://googleads.googleapis.com
-  baseurl_source: declared
-  description: The audienceInsights API from Google Ads — 1 operation(s) for audienceinsights.
-  name: Google Ads Audience Insights API
-  slug: google-ads-audienceinsights-api
 - baseURL: https://googleads.googleapis.com
   baseurl_source: declared
   description: The customers.accountBudgetProposals API from Google Ads — 1 operation(s) for customers.accountbudgetproposals.
@@ -588,6 +583,11 @@ apis:
   description: The v25 API from Google Ads — 9 operation(s) for v25.
   name: Google Ads V25 API
   slug: google-ads-v25-api
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The Audience Insights API from Google Ads — 1 operation(s) for audience insights.
+  name: Google Ads Audience Insights API
+  slug: google-ads-audience-insights-api
 artifact_total: 140
 collections:
 - collection_type: postman
@@ -923,11 +923,11 @@ mcp_servers:
 - description: Google's first-party Model Context Protocol server for the Google Ads API. It is a Python (FastMCP) server that Google publishes as source and installs from git; Google does not operate a hosted endpo
   name: Google Ads MCP Server
   slug: google-ads-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Google Ads
 nav: Providers
 network: true
-overview: 'Google Ads publishes 108 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Ads API, Bidding Strategies API, and 105 more. Tagged areas include Advertising, Campaign Management, Digital Advertising, Google, and Marketing.
+overview: 'Google Ads publishes 108 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Bidding Strategies API, and 106 more. Tagged areas include Advertising, Campaign Management, Digital Advertising, Google, and Marketing.
 
 
   The Google Ads catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -938,7 +938,7 @@ plans:
 - name: Google Ads Plans Pricing
   plan_count: 4
   slug: google-ads-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 8
   name: Google Ads Rate Limits
@@ -989,7 +989,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ overview: 'Jade Autism is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Jade Autism''s developer surface includes engineering blog, pricing, support, and 3 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: minimal
   composite: 7.4
@@ -100,7 +100,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

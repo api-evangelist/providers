@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ overview: 'Polyteia publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Polyteia''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 21 more developer resources.'
-random_paper: 10
+random_paper: 13
 score:
   band: developing
   composite: 52.5
@@ -255,7 +255,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

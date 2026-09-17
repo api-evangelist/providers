@@ -49,7 +49,7 @@ name: Medly Pharmacy
 nav: Providers
 network: true
 overview: Medly Pharmacy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Healthcare, Pharmacy, and Prescription Delivery.
-random_paper: 9
+random_paper: 7
 slug: medly-pharmacy
 tags:
 - Company

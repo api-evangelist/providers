@@ -28,7 +28,7 @@ name: Clarity Money
 nav: Providers
 network: true
 overview: Clarity Money is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Financial Management, and Budgeting.
-random_paper: 13
+random_paper: 15
 slug: clarity-money
 tags:
 - Company

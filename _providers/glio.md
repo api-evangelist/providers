@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ overview: 'Glio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Job
 
 
   Glio''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 7
+random_paper: 9
 score:
   band: developing
   composite: 41.4
@@ -218,7 +218,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -243,7 +243,7 @@ tags:
 - Image-Generation
 - Audio Generation
 - Text-to-Speech
-- Large Language Models
+- LLM
 - Generative AI
 - API Aggregator
 - Developer Tools

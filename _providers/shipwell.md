@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
   slug: shipwell-carriers-api
 - baseURL: https://api.shipwell.com/v2
   baseurl_source: declared
-  description: Real-time supply-chain events and webhook subscriptions. (partly confirmed)
-  name: Shipwell Events and Webhooks API
-  slug: shipwell-events-and-webhooks-api
-- baseURL: https://api.shipwell.com/v2
-  baseurl_source: declared
   description: Orders and purchase orders consolidated onto shipments. (modeled)
   name: Shipwell Orders API
   slug: shipwell-orders-api
@@ -70,6 +65,11 @@ apis:
   description: Multimodal freight shipments - the central platform resource. (confirmed)
   name: Shipwell Shipments API
   slug: shipwell-shipments-api
+- baseURL: https://api.shipwell.com/v2
+  baseurl_source: declared
+  description: Real-time supply-chain events and webhook subscriptions. (partly confirmed)
+  name: Shipwell Events & Webhooks API
+  slug: shipwell-events-webhooks-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -156,7 +156,7 @@ modified: '2026-07-05'
 name: Shipwell
 nav: Providers
 network: true
-overview: 'Shipwell publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Events and Webhooks API, Orders API, and 2 more. Tagged areas include Transportation Management, TMS, Freight, Logistics, and Shipping.
+overview: 'Shipwell publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Orders API, Quoting API, and 2 more. Tagged areas include Transportation Management, TMS, Freight, Logistics, and Shipping.
 
 
   Shipwell''s developer surface includes authentication, documentation, signup flow, engineering blog, and 7 more developer resources.'
@@ -164,7 +164,7 @@ plans:
 - name: Shipwell Plans Pricing
   plan_count: 3
   slug: shipwell-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Shipwell Rate Limits
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

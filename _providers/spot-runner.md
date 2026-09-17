@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -118,7 +118,7 @@ plans:
 - name: Spot Runner Plans Pricing
   plan_count: 0
   slug: spot-runner-plans-pricing
-random_paper: 10
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Spot Runner Rate Limits
@@ -145,7 +145,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

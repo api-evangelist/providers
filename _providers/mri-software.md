@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: An open and connected ecosystem of secure REST APIs built by MRI and its partners that enables controlled data exchange between MRI's core property management and accounting platform and third-party o
@@ -119,7 +119,7 @@ plans:
 - name: Mri Software Plans Pricing
   plan_count: 5
   slug: mri-software-plans-pricing
-random_paper: 9
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Mri Software Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 30.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

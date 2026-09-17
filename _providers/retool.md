@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ modified: '2026-05-19'
 name: Retool
 nav: Providers
 network: true
-overview: 'Retool publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Folders API, Groups API, and 2 more. Tagged areas include Admin Panel, Dashboard, Internal Tools, Low-Code, and No-Code.
+overview: 'Retool publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Folders API, Groups API, and 2 more. Tagged areas include Admin Panel, Dashboards, Internal Tools, Low-Code, and No-Code.
 
 
   The Retool catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -259,7 +259,7 @@ plans:
 - name: Retool Plans Pricing
   plan_count: 4
   slug: retool-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Retool Rate Limits
@@ -314,7 +314,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -336,7 +336,7 @@ security:
 slug: retool
 tags:
 - Admin Panel
-- Dashboard
+- Dashboards
 - Internal Tools
 - Low-Code
 - No-Code

@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-09-15'
+  score: 37.6
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 2
@@ -33,11 +33,222 @@ agentic_access:
   summary_line: 83 operations · 41 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: REST API for the Grade IPTV catalog and personal library, with a public OpenAPI 3.1 contract, hosted MCP server (46 tools), llms.txt agent documentation, and a well-known API catalog.
-  name: Grade API
-  slug: grade-api
-artifact_total: 9
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Admin API from Grade — 12 operation(s) for admin.
+  name: Grade Admin API
+  slug: gradetv-admin-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Apis.json API from Grade — 1 operation(s) for apis.json.
+  name: Grade Apis.json API
+  slug: gradetv-apis-json-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Auth API from Grade — 4 operation(s) for auth.
+  name: Grade Auth API
+  slug: gradetv-auth-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Billing API from Grade — 1 operation(s) for billing.
+  name: Grade Billing API
+  slug: gradetv-billing-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Categories API from Grade — 2 operation(s) for categories.
+  name: Grade Categories API
+  slug: gradetv-categories-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Channels API from Grade — 5 operation(s) for channels.
+  name: Grade Channels API
+  slug: gradetv-channels-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Chat API from Grade — 3 operation(s) for chat.
+  name: Grade Chat API
+  slug: gradetv-chat-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Cities API from Grade — 1 operation(s) for cities.
+  name: Grade Cities API
+  slug: gradetv-cities-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Comments API from Grade — 1 operation(s) for comments.
+  name: Grade Comments API
+  slug: gradetv-comments-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Contact API from Grade — 1 operation(s) for contact.
+  name: Grade Contact API
+  slug: gradetv-contact-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Countries API from Grade — 1 operation(s) for countries.
+  name: Grade Countries API
+  slug: gradetv-countries-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Credito API from Grade — 1 operation(s) for credito.
+  name: Grade Credito API
+  slug: gradetv-credito-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The F API from Grade — 3 operation(s) for f.
+  name: Grade F API
+  slug: gradetv-f-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Favorites API from Grade — 2 operation(s) for favorites.
+  name: Grade Favorites API
+  slug: gradetv-favorites-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Geo API from Grade — 1 operation(s) for geo.
+  name: Grade Geo API
+  slug: gradetv-geo-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Grade API from Grade — 1 operation(s) for grade.
+  name: Grade Grade API
+  slug: gradetv-grade-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Groups API from Grade — 2 operation(s) for groups.
+  name: Grade Groups API
+  slug: gradetv-groups-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Guest API from Grade — 1 operation(s) for guest.
+  name: Grade Guest API
+  slug: gradetv-guest-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Health API from Grade — 1 operation(s) for health.
+  name: Grade Health API
+  slug: gradetv-health-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The History API from Grade — 2 operation(s) for history.
+  name: Grade History API
+  slug: gradetv-history-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Items API from Grade — 3 operation(s) for items.
+  name: Grade Items API
+  slug: gradetv-items-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Keys API from Grade — 2 operation(s) for keys.
+  name: Grade Keys API
+  slug: gradetv-keys-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Languages API from Grade — 1 operation(s) for languages.
+  name: Grade Languages API
+  slug: gradetv-languages-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Library API from Grade — 1 operation(s) for library.
+  name: Grade Library API
+  slug: gradetv-library-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Logos API from Grade — 1 operation(s) for logos.
+  name: Grade Logos API
+  slug: gradetv-logos-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The M API from Grade — 1 operation(s) for m.
+  name: Grade M API
+  slug: gradetv-m-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Mcp API from Grade — 1 operation(s) for mcp.
+  name: Grade MCP API
+  slug: gradetv-mcp-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Me API from Grade — 1 operation(s) for me.
+  name: Grade Me API
+  slug: gradetv-me-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Metrics API from Grade — 1 operation(s) for metrics.
+  name: Grade Metrics API
+  slug: gradetv-metrics-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Networks API from Grade — 1 operation(s) for networks.
+  name: Grade Networks API
+  slug: gradetv-networks-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Nsfw API from Grade — 1 operation(s) for nsfw.
+  name: Grade Nsfw API
+  slug: gradetv-nsfw-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Nsfw Consent API from Grade — 1 operation(s) for nsfw consent.
+  name: Grade Nsfw Consent API
+  slug: gradetv-nsfw-consent-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Okf API from Grade — 1 operation(s) for okf.
+  name: Grade Okf API
+  slug: gradetv-okf-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Play Report API from Grade — 1 operation(s) for play report.
+  name: Grade Play Report API
+  slug: gradetv-play-report-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Play Reports API from Grade — 1 operation(s) for play reports.
+  name: Grade Play Reports API
+  slug: gradetv-play-reports-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Producers API from Grade — 1 operation(s) for producers.
+  name: Grade Producers API
+  slug: gradetv-producers-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Qualities API from Grade — 1 operation(s) for qualities.
+  name: Grade Qualities API
+  slug: gradetv-qualities-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The S API from Grade — 1 operation(s) for s.
+  name: Grade S API
+  slug: gradetv-s-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Subdivisions API from Grade — 1 operation(s) for subdivisions.
+  name: Grade Subdivisions API
+  slug: gradetv-subdivisions-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Tags API from Grade — 1 operation(s) for tags.
+  name: Grade Tags API
+  slug: gradetv-tags-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The Visit API from Grade — 1 operation(s) for visit.
+  name: Grade Visit API
+  slug: gradetv-visit-api
+- baseURL: https://gradetv.net
+  baseurl_source: declared
+  description: The .well Known API from Grade — 1 operation(s) for .well known.
+  name: Grade .well Known API
+  slug: gradetv-well-known-api
+artifact_total: 50
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://gradetv.net/mcp
 - group: company
   title: ''
   type: Website
@@ -163,22 +374,22 @@ modified: '2026-09-05'
 name: Grade
 nav: Providers
 network: true
-overview: 'Grade publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IPTV, Streaming, Live TV, Live Radio, and Media Catalog.
+overview: 'Grade publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Apis.json API, Auth API, and 39 more. Tagged areas include IPTV, Streaming, Live TV, Live Radio, and Media Catalog.
 
 
-  Grade''s developer surface includes pricing, getting-started guide, authentication, and 20 more developer resources.'
+  Grade''s developer surface includes pricing, getting-started guide, authentication, and 21 more developer resources.'
 plans:
 - name: Gradetv Plans Pricing
   plan_count: 4
   slug: gradetv-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Gradetv Rate Limits
   slug: gradetv-rate-limits
 score:
-  band: developing
-  composite: 51.4
+  band: strong
+  composite: 56.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 61.0
@@ -186,11 +397,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.9
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 34.1
+    contract_quality: 53.6
     developer_ergonomics: 42.3
     discoverability: 75.9
     operational_transparency: 42.1
@@ -209,11 +420,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 42
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

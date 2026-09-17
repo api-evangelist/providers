@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -124,6 +124,10 @@ collections:
   name: Looker Auth User API
   slug: open-looker-user-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://looker.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/looker/refs/heads/main/capabilities/looker-capability-edges.yml
   title: ''
@@ -533,7 +537,7 @@ jsonld:
   property_count: 0
   slug: looker-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Looker
 nav: Providers
 network: true
@@ -543,12 +547,12 @@ overview: 'Looker publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Looker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Looker''s developer surface includes authentication, support, changelog, release notes, pricing, getting-started guide, and 19 more developer resources.'
+  Looker''s developer surface includes authentication, support, changelog, release notes, pricing, getting-started guide, and 20 more developer resources.'
 plans:
 - name: Looker Plans Pricing
   plan_count: 7
   slug: looker-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 8
   name: Looker Rate Limits
@@ -605,7 +609,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -638,5 +642,5 @@ use_cases:
   name: Marketing Performance Analytics
 - description: Track operational metrics and KPIs in real time with automated alerting and scheduled report delivery.
   name: Operational Monitoring
-website: https://developers.looker.com/
+website: https://looker.com
 ---

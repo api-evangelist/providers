@@ -19,7 +19,7 @@ name: Agillion
 nav: Providers
 network: true
 overview: Agillion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Software-as-a-Service, Software, and Defunct.
-random_paper: 7
+random_paper: 11
 slug: agillion
 tags:
 - Company

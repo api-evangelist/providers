@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Pemo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pemo''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 13
+random_paper: 15
 score:
   band: emerging
   composite: 13.8
@@ -121,7 +121,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ tags:
 - Expense Management
 - Accounting Automation
 - Invoice Management
-- UAE
+- United Arab Emirates
 - Saudi Arabia
 - Payments
 website: https://pemo.io

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -105,7 +105,7 @@ overview: 'Teem is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Teem''s developer surface includes documentation, support, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 7
+random_paper: 9
 score:
   band: emerging
   composite: 18.3
@@ -126,7 +126,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

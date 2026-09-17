@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -53,11 +53,6 @@ apis:
   description: The Alerts API from socure — 2 operation(s) for alerts.
   name: socure Alerts API
   slug: socure-alerts-api
-- baseURL: https://api.socure.com
-  baseurl_source: spec
-  description: Unified multi-module identity, fraud, and risk evaluation
-  name: socure ID+ API
-  slug: socure-id-api
 - baseURL: https://api.socure.com
   baseurl_source: spec
   description: The Monitoring API from socure — 2 operation(s) for monitoring.
@@ -101,7 +96,7 @@ arazzos:
 - description: List open watchlist monitoring alerts for a profile and move a selected alert through its disposition.
   name: Socure Watchlist Alert Triage
   slug: socure-watchlist-alert-triage-workflow
-artifact_total: 69
+artifact_total: 68
 asyncapis:
 - description: Webhook event stream emitted by the Socure Predictive DocV service to notify the integrator of session lifecycle events. The customer registers a webhook URL when creating a DocV transaction; Socure P
   name: Socure DocV Webhooks
@@ -451,11 +446,11 @@ jsonld:
   property_count: 2
   slug: socure-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Socure
 nav: Providers
 network: true
-overview: 'Socure publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, ID+ API, Monitoring API, and 2 more.
+overview: 'Socure publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Monitoring API, Transactions API, and 1 more. Tagged areas include Orchestration, Workflows, Identity Verification, Fraud Prevention, and Alerts.
 
 
   The Socure catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -466,7 +461,7 @@ plans:
 - name: Socure Plans Pricing
   plan_count: 3
   slug: socure-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Socure Rate Limits
@@ -506,21 +501,21 @@ rules:
   slug: socure-rules
 score:
   band: strong
-  composite: 63.0
+  composite: 63.5
   coverage:
     artifact_dirs: 20
-    catalog_earned: 84.5
+    catalog_earned: 89.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 30.5
+    catalog_gap: 25.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 78.9
     contract_governance: 28.8
-    contract_quality: 70.7
+    contract_quality: 69.1
     developer_ergonomics: 63.1
-    discoverability: 63.0
+    discoverability: 72.2
     operational_transparency: 60.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -534,12 +529,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+      total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -559,5 +551,12 @@ security:
   slug: socure-vulnerability-disclosure
   summary_line: security.txt · contact published
 slug: socure
+tags:
+- Orchestration
+- Workflows
+- Identity Verification
+- Fraud Prevention
+- Alerts
+- Monitoring
 website: https://www.socure.com/
 ---

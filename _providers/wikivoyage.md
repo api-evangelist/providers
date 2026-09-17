@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -43,13 +43,8 @@ agentic_access:
   operation_count: 24
   slug: wikivoyage-agentic-access
   summary_line: 24 operations · 7 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 9
 apis:
-- baseURL: https://en.wikivoyage.org/w/api.php
-  baseurl_source: declared
-  description: Login, logout, token retrieval (action=login, clientlogin, logout, query&meta=tokens)
-  name: Wikivoyage Authentication API
-  slug: wikivoyage-authentication-api
 - baseURL: https://en.wikivoyage.org/w/api.php
   baseurl_source: declared
   description: Create/modify travel guide content (action=edit)
@@ -72,24 +67,9 @@ apis:
   slug: wikivoyage-links-api
 - baseURL: https://en.wikivoyage.org/w/api.php
   baseurl_source: declared
-  description: Metadata operations (action=opensearch, action=feedrecentchanges)
-  name: Wikivoyage Meta API
-  slug: wikivoyage-meta-api
-- baseURL: https://en.wikivoyage.org/w/api.php
-  baseurl_source: declared
   description: Travel article metadata, HTML, source, create, update
   name: Wikivoyage Pages API
   slug: wikivoyage-pages-api
-- baseURL: https://en.wikivoyage.org/w/api.php
-  baseurl_source: declared
-  description: Wikitext parsing (action=parse) for travel article content
-  name: Wikivoyage Parse API
-  slug: wikivoyage-parse-api
-- baseURL: https://en.wikivoyage.org/w/api.php
-  baseurl_source: declared
-  description: Mark edits as patrolled (action=patrol)
-  name: Wikivoyage Patrol API
-  slug: wikivoyage-patrol-api
 - baseURL: https://en.wikivoyage.org/w/api.php
   baseurl_source: declared
   description: Read-only data retrieval (action=query) — travel articles, revisions, links, search
@@ -110,12 +90,7 @@ apis:
   description: Wikitext <-> HTML transformation for travel content
   name: Wikivoyage Transforms API
   slug: wikivoyage-transforms-api
-- baseURL: https://en.wikivoyage.org/w/api.php
-  baseurl_source: declared
-  description: File upload (action=upload)
-  name: Wikivoyage Upload API
-  slug: wikivoyage-upload-api
-artifact_total: 38
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -263,7 +238,7 @@ modified: '2026-06-13'
 name: Wikivoyage
 nav: Providers
 network: true
-overview: 'Wikivoyage publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Edit API, Files API, and 11 more. Tagged areas include Travel, Open Data, Public APIs, Open Knowledge, and Travel Guide.
+overview: 'Wikivoyage publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Edit API, Files API, History API, and 6 more. Tagged areas include Travel, Open Data, Public APIs, Open Knowledge, and Travel Guide.
 
 
   The Wikivoyage catalog on APIs.io includes 2 JSON-LD contexts.
@@ -274,7 +249,7 @@ plans:
 - name: Wikivoyage Plans Pricing
   plan_count: 1
   slug: wikivoyage-plans-pricing
-random_paper: 16
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Wikivoyage Rate Limits
@@ -302,9 +277,9 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 16
+      derived: 11
       marker_coverage: 100.0
-      total: 16
+      total: 11
   regulatory:
     applies: true
     matched_via: tags
@@ -312,7 +287,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

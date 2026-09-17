@@ -37,13 +37,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 15
 apis:
 - baseURL: https://api.isportsapi.com/
   baseurl_source: declared
   description: The Basketball Common API API from iSports API — 5 operation(s) for basketball common api.
-  name: iSports API Basketball Common API API
+  name: iSports API Basketball Common API
   slug: isports-api-basketball-common-api-api
 - baseURL: https://api.isportsapi.com/
   baseurl_source: declared
@@ -73,7 +73,7 @@ apis:
 - baseURL: https://api.isportsapi.com/
   baseurl_source: declared
   description: The Football Common API API from iSports API — 8 operation(s) for football common api.
-  name: iSports API Football Common API API
+  name: iSports API Football Common API
   slug: isports-api-football-common-api-api
 - baseURL: https://api.isportsapi.com/
   baseurl_source: declared
@@ -639,11 +639,11 @@ examples:
   slug: getLanguagevn
 image: https://globalcdn.feijing88.com/webpc/img/silk/isports_api_og.png
 layout: provider
-modified: '2026-08-09'
+modified: '2026-09-16'
 name: iSports API
 nav: Providers
 network: true
-overview: 'iSports API publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Basketball Common API API, Basketball Live animation API, Basketball Live Data API, and 12 more. Tagged areas include Sports API, Sports Data, Football, Basketball, and Odds.
+overview: 'iSports API publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Basketball Common API, Basketball Live animation API, Basketball Live Data API, and 12 more. Tagged areas include Sports API, Sports Data, Football, Basketball, and Odds.
 
 
   iSports API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -651,7 +651,7 @@ plans:
 - name: Isports Api Plans
   plan_count: 14
   slug: isports-api-plans
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Isports Api Rate Limits
@@ -684,7 +684,7 @@ score:
       total: 16
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

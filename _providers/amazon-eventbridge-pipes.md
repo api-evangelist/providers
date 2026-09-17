@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://pipes.amazonaws.com
   baseurl_source: declared
   description: The Pipes API from Amazon EventBridge Pipes — 4 operation(s) for pipes.
-  name: Amazon EventBridge Pipes Pipes API
+  name: Amazon EventBridge Pipes API
   slug: amazon-eventbridge-pipes-pipes-api
 - baseURL: https://pipes.amazonaws.com
   baseurl_source: declared
@@ -98,6 +98,10 @@ collections:
   name: Amazon EventBridge Pipes
   slug: open-amazon-eventbridge-pipes
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/agentic-access/amazon-eventbridge-pipes-agentic-access.yml
   title: ''
@@ -1704,22 +1708,22 @@ jsonld:
   property_count: 130
   slug: amazon-eventbridge-pipes-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon EventBridge Pipes
 nav: Providers
 network: true
-overview: 'Amazon EventBridge Pipes publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pipes API and Tags API. Tagged areas include Amazon Web Services, Event-Driven, Integration, Messaging, and Serverless.
+overview: 'Amazon EventBridge Pipes publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Tags API, and 1 more. Tagged areas include Amazon Web Services, Event-Driven, Integration, Messaging, and Serverless.
 
 
   The Amazon EventBridge Pipes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EventBridge Pipes'' developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 26 more developer resources.'
+  Amazon EventBridge Pipes'' developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 27 more developer resources.'
 plans:
 - name: Amazon Eventbridge Pipes Plans Pricing
   plan_count: 3
   slug: amazon-eventbridge-pipes-plans-pricing
-random_paper: 12
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Amazon Eventbridge Pipes Rate Limits
@@ -1773,7 +1777,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1812,5 +1816,5 @@ use_cases:
   name: Stream Analytics
 - description: Connect SaaS event sources to AWS targets without custom code
   name: SaaS Integration
-website: https://aws.amazon.com/eventbridge/
+website: https://amazon.com
 ---

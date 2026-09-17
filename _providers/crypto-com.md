@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: WebSocket API for the Crypto.com Exchange, split into a Market Data stream (public channels for book, ticker, trade, candlestick, index, mark price, settlement, funding and open interest) and a User A
@@ -199,10 +199,10 @@ common:
   type: Compliance
   url: https://crypto.com/en/security
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/openapi/crypto-com-exchange-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/openapi/_original/crypto-com-exchange-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/crypto-com-exchange-openapi.yml
+  url: openapi/_original/crypto-com-exchange-openapi.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/mcp/crypto-com-mcp.yml
   title: ''
@@ -320,7 +320,7 @@ mcp_servers:
 - description: ''
   name: Crypto.com MCP Server
   slug: cryptocom-mcp-server
-modified: '2026-08-11'
+modified: '2026-09-16'
 name: Crypto.com
 nav: Providers
 network: true
@@ -335,7 +335,7 @@ plans:
 - name: Crypto Com Plans Pricing
   plan_count: 0
   slug: crypto-com-plans-pricing
-random_paper: 8
+random_paper: 3
 rate_limits:
 - limit_count: 11
   name: Crypto Com Rate Limits
@@ -375,7 +375,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

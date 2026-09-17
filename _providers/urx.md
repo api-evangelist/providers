@@ -25,7 +25,7 @@ name: URX *
 nav: Providers
 network: true
 overview: URX * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Deep Linking, Mobile, and Advertising.
-random_paper: 15
+random_paper: 21
 screenshot: https://raw.githubusercontent.com/api-evangelist/urx/refs/heads/main/screenshots/urx-2026-09-02T165221.png
 slug: urx
 tags:

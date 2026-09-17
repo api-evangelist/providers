@@ -19,7 +19,7 @@ name: Mixer Labs
 nav: Providers
 network: true
 overview: Mixer Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Geolocation, Geodata, Location, and Acquired.
-random_paper: 4
+random_paper: 0
 slug: mixer-labs
 tags:
 - Company

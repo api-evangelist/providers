@@ -27,22 +27,22 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-09-15'
+  score: 32.9
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 17
+- acting_count: 51
   human_in_the_loop: 0
   name: Budibase Agentic Access
-  operation_count: 26
+  operation_count: 67
   slug: budibase-agentic-access
-  summary_line: 26 operations · 17 acting
+  summary_line: 67 operations · 51 acting
 api_count: 1
 apis:
 - baseURL: https://budibase.app/api/public/v1
@@ -72,10 +72,25 @@ apis:
   slug: budibase-users-api
 - baseURL: https://budibase.app/api/public/v1
   baseurl_source: declared
-  description: The complete Budibase Public API as Budibase itself publishes it — OpenAPI 3.1.0, info.version 3.3.0, 44 operations across workspaces, applications, tables, rows, views, users, roles, queries and metr
-  name: Budibase Public API
-  slug: budibase-public-api
-artifact_total: 30
+  description: The metrics API from Budibase — 1 operation(s) for metrics.
+  name: Budibase Metrics API
+  slug: budibase-metrics-api
+- baseURL: https://budibase.app/api/public/v1
+  baseurl_source: declared
+  description: The roles API from Budibase — 2 operation(s) for roles.
+  name: Budibase Roles API
+  slug: budibase-roles-api
+- baseURL: https://budibase.app/api/public/v1
+  baseurl_source: declared
+  description: The views API from Budibase — 3 operation(s) for views.
+  name: Budibase Views API
+  slug: budibase-views-api
+- baseURL: https://budibase.app/api/public/v1
+  baseurl_source: declared
+  description: The workspaces API from Budibase — 7 operation(s) for workspaces.
+  name: Budibase Workspaces API
+  slug: budibase-workspaces-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Budibase Webhooks
@@ -372,7 +387,7 @@ modified: '2026-09-04'
 name: Budibase
 nav: Providers
 network: true
-overview: 'Budibase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Queries API, Rows API, and 3 more. Tagged areas include AI Agents, Automation, Internal Tools, Low-Code, and Open-Source.
+overview: 'Budibase publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Queries API, Rows API, and 6 more. Tagged areas include AI Agents, Automation, Internal Tools, Low-Code, and Open-Source.
 
 
   The Budibase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -383,14 +398,14 @@ plans:
 - name: Budibase Plans Pricing
   plan_count: 5
   slug: budibase-plans-pricing
-random_paper: 12
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Budibase Rate Limits
   slug: budibase-rate-limits
 score:
   band: strong
-  composite: 61.5
+  composite: 61.8
   coverage:
     artifact_dirs: 25
     catalog_earned: 60.0
@@ -398,11 +413,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 93.4
     contract_governance: 4.5
-    contract_quality: 61.3
+    contract_quality: 62.6
     developer_ergonomics: 57.7
     discoverability: 75.9
     operational_transparency: 65.8
@@ -414,11 +429,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

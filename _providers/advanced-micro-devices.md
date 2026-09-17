@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://api.developer.amd.com/v1
   baseurl_source: declared
   description: GPU device enumeration and information
-  name: Advanced Micro Devices Devices API
+  name: Advanced Micro Devices API
   slug: advanced-micro-devices-devices-api
 - baseURL: https://api.developer.amd.com/v1
   baseurl_source: declared
@@ -493,11 +493,11 @@ mcp_servers:
 - description: AMD publishes a first-party Model Context Protocol server, amd/ryzenai-mcp-server, in its own GitHub organization. It gives an MCP client semantic search over the AMD Ryzen AI documentation (https://r
   name: AMD Ryzen AI MCP Server
   slug: amd-ryzen-ai-mcp-server
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: Advanced Micro Devices
 nav: Providers
 network: true
-overview: 'Advanced Micro Devices publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Credits API, Devices API, and 5 more. Tagged areas include Artificial Intelligence, Cloud Computing, GPU, HPC, and Machine-Learning.
+overview: 'Advanced Micro Devices publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Credits API, and 6 more. Tagged areas include Artificial Intelligence, Cloud Computing, GPU, HPC, and Machine-Learning.
 
 
   The Advanced Micro Devices catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
@@ -524,7 +524,7 @@ press:
 - date: '2026-05-25'
   title: Advanced Micro Devices, Inc. (AMD) Stock Price, News ...
   url: https://finance.yahoo.com/quote/AMD/
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Advanced Micro Devices Rate Limits
@@ -590,7 +590,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

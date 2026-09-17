@@ -19,7 +19,7 @@ name: Pardes Bio
 nav: Providers
 network: true
 overview: Pardes Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Biopharmaceutical, Pharmaceuticals, and Drug Discovery.
-random_paper: 11
+random_paper: 8
 slug: pardes-bio
 tags:
 - Company

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 4
@@ -235,6 +235,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/kardinal-domain-security.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:contact@kardinal.ai
 created: '2026-08-17'
 description: Kardinal is a Paris-based logistics optimization company whose Always-on Route Optimization (ARO) API solves vehicle routing problems for last-mile delivery, post and parcel, waste and bulk transport, fresh delivery, field services and retail operators. Integrators submit a plan — resources (vehicles), orders (stops) and constraints such as capacities, time windows, driver skills and breaks — with a single idempotent PUT, and the engine optimizes it continuously rather than in a nightly batch, so new orders, cancellations, traffic and field updates are absorbed into the running solution instead of forcing a rerun. The REST API is documented with a published OpenAPI 3.0.3 definition covering 40 operations across authentication, plans, resources, orders and solutions, and is reachable per customer environment at https://<env>.kardinal.ai/api/v2 using short-lived JWT bearer tokens.
 image: https://kardinal.ai/wp-content/uploads/2020/01/cropped-Icon-blue-270x270.png
@@ -250,12 +254,12 @@ network: true
 overview: 'Kardinal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authenticate API, Core API, Management API, and 5 more. Tagged areas include Company, Software-as-a-Service, Route Optimization, Vehicle Routing, and Last Mile Delivery.
 
 
-  Kardinal''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, FAQ, and 25 more developer resources.'
+  Kardinal''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, FAQ, and 26 more developer resources.'
 plans:
 - name: Kardinal Plans Pricing
   plan_count: 2
   slug: kardinal-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Kardinal Rate Limits
@@ -296,7 +300,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ plans:
 - name: Revelator Plans Pricing
   plan_count: 4
   slug: revelator-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Revelator Rate Limits
@@ -226,7 +226,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

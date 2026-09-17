@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -61,14 +61,14 @@ apis:
   slug: warrant-dev-objects-api
 - baseURL: https://api.warrant.dev/v1
   baseurl_source: declared
-  description: RBAC and entitlements convenience surface (roles, permissions, users, tenants, features, pricing tiers).
-  name: Warrant Roles and Permissions API
-  slug: warrant-dev-roles-and-permissions-api
-- baseURL: https://api.warrant.dev/v1
-  baseurl_source: declared
   description: Relationship tuples (access rules) between subjects and objects.
   name: Warrant Warrants API
   slug: warrant-dev-warrants-api
+- baseURL: https://api.warrant.dev/v1
+  baseurl_source: declared
+  description: RBAC and entitlements convenience surface (roles, permissions, users, tenants, features, pricing tiers).
+  name: Warrant Roles & Permissions API
+  slug: warrant-dev-roles-permissions-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -167,7 +167,7 @@ plans:
 - name: Warrant Dev Plans Pricing
   plan_count: 4
   slug: warrant-dev-plans-pricing
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Warrant Dev Rate Limits
@@ -199,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

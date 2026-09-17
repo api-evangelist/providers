@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.ottimate.com/v1
@@ -63,16 +63,6 @@ apis:
   slug: plateiq-invoices-api
 - baseURL: https://api.ottimate.com/v1
   baseurl_source: declared
-  description: The oauth API from PlateIQ — 1 operation(s) for oauth.
-  name: PlateIQ oauth API
-  slug: plateiq-oauth-api
-- baseURL: https://api.ottimate.com/v1
-  baseurl_source: declared
-  description: The purchaseOrders API from PlateIQ — 3 operation(s) for purchaseorders.
-  name: PlateIQ purchaseOrders API
-  slug: plateiq-purchaseorders-api
-- baseURL: https://api.ottimate.com/v1
-  baseurl_source: declared
   description: The receipts API from PlateIQ — 3 operation(s) for receipts.
   name: PlateIQ receipts API
   slug: plateiq-receipts-api
@@ -81,6 +71,16 @@ apis:
   description: The vendors API from PlateIQ — 3 operation(s) for vendors.
   name: PlateIQ vendors API
   slug: plateiq-vendors-api
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The oauth API from PlateIQ — 1 operation(s) for oauth.
+  name: PlateIQ OAUTH API
+  slug: plateiq-oauth-api
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The Purchase Orders API from PlateIQ — 3 operation(s) for purchase orders.
+  name: PlateIQ Purchase Orders API
+  slug: plateiq-purchase-orders-api
 artifact_total: 25
 collections:
 - collection_type: open
@@ -271,7 +271,7 @@ overview: 'PlateIQ publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PlateIQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 17
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Plateiq Rate Limits
@@ -316,7 +316,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

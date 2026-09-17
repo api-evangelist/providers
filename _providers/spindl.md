@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://api.spindl.xyz/v1
@@ -198,7 +198,7 @@ plans:
 - name: Spindl Plans Pricing
   plan_count: 0
   slug: spindl-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Spindl Rate Limits
@@ -232,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

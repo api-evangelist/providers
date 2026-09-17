@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ modified: '2026-05-19'
 name: Country State City API
 nav: Providers
 network: true
-overview: 'Country State City API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cities API, Countries API, and States API. Tagged areas include Capitals, Cities, Countries, Currency, and Geography.
+overview: 'Country State City API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cities API, Countries API, and States API. Tagged areas include Capital, Cities, Countries, Currency, and Geography.
 
 
   The Country State City API catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -185,7 +185,7 @@ plans:
 - name: Country State City Api Plans Pricing
   plan_count: 3
   slug: country-state-city-api-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Country State City Api Rate Limits
@@ -229,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -247,7 +247,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: country-state-city-api
 tags:
-- Capitals
+- Capital
 - Cities
 - Countries
 - Currency
@@ -260,6 +260,6 @@ tags:
 - Reference Data
 - Regions
 - States
-- Timezones
+- Timezone
 website: https://countrystatecity.in/
 ---

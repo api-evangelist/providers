@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.prod.spyderbat.com/api/v1
@@ -124,11 +124,6 @@ apis:
   slug: spyderbat-notificationtarget-api
 - baseURL: https://api.prod.spyderbat.com/api/v1
   baseurl_source: declared
-  description: An API to allow the management of notification templates. Notification templates allow users to define custom notifications within Spyderbat.
-  name: Spyderbat Notification Template API
-  slug: spyderbat-notificationtemplate-api
-- baseURL: https://api.prod.spyderbat.com/api/v1
-  baseurl_source: declared
   description: Organizations hold resources & data associated with an organization, users must be associated via roles with an organization to have permissions to interact with the organization. Each user my have mu
   name: Spyderbat Org API
   slug: spyderbat-org-api
@@ -142,11 +137,6 @@ apis:
   description: '# Introduction This RBAC model is based off of Amazon''s model with some simplifications and generic assumptions A user has some number of roles on some number of organizations, each role defines some '
   name: Spyderbat RBAC API
   slug: spyderbat-rbac-api
-- baseURL: https://api.prod.spyderbat.com/api/v1
-  baseurl_source: declared
-  description: An API to allow the management of saved queries. Saved queries are used to quickly run Athena searches.
-  name: Spyderbat Saved Query API
-  slug: spyderbat-savedquery-api
 - baseURL: https://api.prod.spyderbat.com/api/v1
   baseurl_source: declared
   description: An API to allow the management of search sets. Search sets can be used to augment queries in search.
@@ -182,6 +172,16 @@ apis:
   description: An API to manage the watchlist for files within an organization.
   name: Spyderbat Watchlist API
   slug: spyderbat-watchlist-api
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow the management of notification templates. Notification templates allow users to define custom notifications within Spyderbat.
+  name: Spyderbat Notification Template API
+  slug: spyderbat-notification-template-api
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow the management of saved queries. Saved queries are used to quickly run Athena searches.
+  name: Spyderbat Saved Query API
+  slug: spyderbat-saved-query-api
 artifact_total: 35
 asyncapis:
 - description: ''
@@ -230,10 +230,10 @@ common:
   type: PrivacyPolicy
   url: https://spyderbat.com/privacy-en
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/openapi/spyderbat-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/openapi/_original/spyderbat-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/spyderbat-openapi.json
+  url: openapi/_original/spyderbat-openapi.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/llms/spyderbat-llms.txt
   title: ''
@@ -333,7 +333,7 @@ mcp_servers:
 - description: A first-party, provider-hosted Model Context Protocol server that exposes Spyderbat's search, investigation and management surface to MCP-compatible AI clients. Documented and supported by Spyderbat w
   name: Spyderbat MCP Server
   slug: spyderbat-mcp-server
-modified: '2026-08-29'
+modified: '2026-09-16'
 name: Spyderbat
 nav: Providers
 network: true
@@ -348,14 +348,14 @@ plans:
 - name: Spyderbat Plans Pricing
   plan_count: 0
   slug: spyderbat-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Spyderbat Rate Limits
   slug: spyderbat-rate-limits
 score:
   band: developing
-  composite: 40.3
+  composite: 39.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -363,11 +363,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 64.4
+    contract_quality: 61.7
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 26.3
@@ -382,7 +382,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

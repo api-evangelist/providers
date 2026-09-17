@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -64,12 +64,12 @@ apis:
 - baseURL: https://us.api.concursolutions.com/api/v3.0
   baseurl_source: declared
   description: Manage individual expense line items within expense reports including itemizations, attendees, and custom fields.
-  name: SAP Concur Expense Expense Entries API
+  name: SAP Concur Expense Entries API
   slug: sap-concur-expense-expense-entries-api
 - baseURL: https://us.api.concursolutions.com/api/v3.0
   baseurl_source: declared
   description: Create, read, update, and submit expense reports. Manage the full report lifecycle from draft through approval and reimbursement.
-  name: SAP Concur Expense Expense Reports API
+  name: SAP Concur Expense Reports API
   slug: sap-concur-expense-expense-reports-api
 - baseURL: https://us.api.concursolutions.com/api/v3.0
   baseurl_source: declared
@@ -461,11 +461,11 @@ jsonld:
   property_count: 34
   slug: sap-concur-expense-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: SAP Concur Expense
 nav: Providers
 network: true
-overview: 'SAP Concur Expense publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Expense Entries API, Expense Reports API, and 4 more. Tagged areas include Expense Management, Financial Management, Receipts, Reimbursement, and Reporting.
+overview: 'SAP Concur Expense publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Entries API, Reports API, and 4 more. Tagged areas include Expense Management, Financial Management, Receipts, Reimbursement, and Reporting.
 
 
   The SAP Concur Expense catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -476,7 +476,7 @@ plans:
 - name: Sap Concur Expense Plans Pricing
   plan_count: 1
   slug: sap-concur-expense-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Sap Concur Expense Rate Limits
@@ -535,7 +535,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

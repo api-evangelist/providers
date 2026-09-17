@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -110,7 +110,7 @@ modified: '2026-07-18'
 name: Chaoslabs
 nav: Providers
 network: true
-overview: 'Chaoslabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Oracles, Risk Management, DeFi, and Blockchain.
+overview: 'Chaoslabs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Oracle, Risk Management, DeFi, and Blockchain.
 
 
   Chaoslabs'' developer surface includes documentation, engineering blog, YouTube channel, and 12 more developer resources.'
@@ -142,7 +142,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -157,7 +157,7 @@ security:
 slug: chaoslabs
 tags:
 - Company
-- Oracles
+- Oracle
 - Risk Management
 - DeFi
 - Blockchain

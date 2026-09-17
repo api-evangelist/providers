@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -142,6 +142,10 @@ collections:
   name: Routescan (Snowtrace) Etherscan-Compatible Accounts Transactions API
   slug: open-snowtrace-transactions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://snowtrace.io
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/agentic-access/snowtrace-agentic-access.yml
   title: ''
@@ -244,7 +248,7 @@ jsonld:
   property_count: 27
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Routescan (Snowtrace)
 nav: Providers
 network: true
@@ -254,12 +258,12 @@ overview: 'Routescan (Snowtrace) publishes 8 APIs on the [APIs.io](https://apis.
   The Routescan (Snowtrace) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Routescan (Snowtrace)''s developer surface includes authentication, developer portal, documentation, signup flow, status page, and 9 more developer resources.'
+  Routescan (Snowtrace)''s developer surface includes authentication, developer portal, documentation, signup flow, status page, and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -302,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -329,5 +333,5 @@ tags:
 - Smart Contracts
 - NFT
 - DeFi
-website: https://snowtrace.io/
+website: https://snowtrace.io
 ---

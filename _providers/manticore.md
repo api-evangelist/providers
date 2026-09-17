@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - baseURL: http://127.0.0.1:9308/
   baseurl_source: declared
   description: Operations about performing searches over tables
-  name: Manticore Search Search API
+  name: Manticore Search API
   slug: manticore-search-api
 - baseURL: http://127.0.0.1:9308/
   baseurl_source: declared
@@ -306,11 +306,11 @@ jsonld:
   property_count: 0
   slug: manticore
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Manticore Search
 nav: Providers
 network: true
-overview: 'Manticore Search publishes 3 APIs on the [APIs.io](https://apis.io/) network: Index API, Search API, and utils API. Tagged areas include Search, Full-Text Search, Vector Search, Elasticsearch Compatible, and Open-Source.
+overview: 'Manticore Search publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Index API, utils API, and 1 more. Tagged areas include Search, Full-Text Search, Vector Search, Elasticsearch Compatible, and Open-Source.
 
 
   The Manticore Search catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -321,7 +321,7 @@ plans:
 - name: Manticore Plans Pricing
   plan_count: 3
   slug: manticore-plans-pricing
-random_paper: 17
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Manticore Rate Limits
@@ -364,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

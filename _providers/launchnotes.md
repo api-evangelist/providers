@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: LaunchNotes is a release communication platform for sharing changelogs, roadmaps, and deprecation notices. The platform exposes an extensible API documented through its Help Center for integrating rel
@@ -99,7 +99,7 @@ plans:
 - name: Launchnotes Plans Pricing
   plan_count: 3
   slug: launchnotes-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Launchnotes Rate Limits
@@ -126,7 +126,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

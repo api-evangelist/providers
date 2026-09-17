@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ modified: '2026-08-17'
 name: Lengow
 nav: Providers
 network: true
-overview: 'Lengow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Catalogues API, Marketplaces API, and 1 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Marketplaces, and Product Feeds.
+overview: 'Lengow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Catalogues API, Marketplaces API, and 1 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Marketplace, and Product Feeds.
 
 
   Lengow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
@@ -253,7 +253,7 @@ plans:
 - name: Lengow Plans Pricing
   plan_count: 3
   slug: lengow-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Lengow Rate Limits
@@ -296,7 +296,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -320,7 +320,7 @@ tags:
 - Company
 - Software-as-a-Service
 - E-Commerce
-- Marketplaces
+- Marketplace
 - Product Feeds
 - Retail
 - Advertising

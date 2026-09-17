@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: gRPC management API for Dex covering OAuth2 client lifecycle (Create, Get, Update, Delete, List), password management (Create, Update, Delete, List, Verify), identity provider connector management (Cr
@@ -106,7 +106,7 @@ plans:
 - name: Dex Plans Pricing
   plan_count: 3
   slug: dex-plans-pricing
-random_paper: 6
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Dex Rate Limits
@@ -131,7 +131,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 17.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -154,7 +154,6 @@ tags:
 - OIDC
 - OpenID Connect
 - SAML
-- Single Sign-On
 - SSO
 website: https://dexidp.io/
 ---

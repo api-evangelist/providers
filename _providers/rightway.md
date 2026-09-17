@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Undocumented private HTTP/JSON API at api.rightwayhealthcare.com that backs the Rightway member mobile apps (iOS/Android) and the member web app at member.rightwayhealthcare.com. The host is publicly '
@@ -129,7 +129,7 @@ overview: 'Rightway publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Rightway''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 18
+random_paper: 21
 score:
   band: emerging
   composite: 23.7
@@ -167,7 +167,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

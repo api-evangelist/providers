@@ -82,7 +82,7 @@ modified: '2026-09-15'
 name: StackPath
 nav: Providers
 network: true
-overview: 'StackPath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edge Computing, Content Delivery Network, Web Application Firewall, and DNS.
+overview: 'StackPath is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edge Computing, CDN, Web Application Firewall, and DNS.
 
 
   StackPath''s developer surface includes CLI and 8 more developer resources.'
@@ -90,7 +90,7 @@ plans:
 - name: Stackpath Plans Pricing
   plan_count: 0
   slug: stackpath-plans-pricing
-random_paper: 18
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Stackpath Rate Limits
@@ -105,7 +105,7 @@ slug: stackpath
 tags:
 - Company
 - Edge Computing
-- Content Delivery Network
+- CDN
 - Web Application Firewall
 - DNS
 - Object Storage

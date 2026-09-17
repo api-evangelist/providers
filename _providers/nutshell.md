@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -164,14 +164,14 @@ apis:
   slug: nutshell-filter-api
 - baseURL: https://app.nutshell.com/rest
   baseurl_source: declared
-  description: The ProductCategories API from Nutshell — 2 operation(s) for productcategories.
-  name: Nutshell Product Categories API
-  slug: nutshell-productcategories-api
-- baseURL: https://app.nutshell.com/rest
-  baseurl_source: declared
   description: The Stagesets (Pipelines) API from Nutshell — 3 operation(s) for stagesets (pipelines).
   name: Nutshell Stagesets (Pipelines) API
   slug: nutshell-stagesets-pipelines-api
+- baseURL: https://app.nutshell.com/api/v1/json
+  baseurl_source: declared
+  description: ProductCategories
+  name: Nutshell Product Categories API
+  slug: nutshell-product-categories-api
 artifact_total: 59
 asyncapis:
 - description: ''
@@ -498,7 +498,7 @@ plans:
 - name: Nutshell Plans Pricing
   plan_count: 5
   slug: nutshell-plans-pricing
-random_paper: 18
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Nutshell Rate Limits
@@ -522,7 +522,7 @@ score:
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 59.6
+    contract_quality: 59.4
     developer_ergonomics: 53.0
     discoverability: 81.5
     operational_transparency: 38.2
@@ -538,7 +538,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

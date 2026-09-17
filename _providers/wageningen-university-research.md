@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,11 @@ agentic_access:
   operation_count: 55
   slug: wageningen-university-research-agentic-access
   summary_line: 55 operations
-api_count: 3
+api_count: 4
 apis:
 - description: API for scientific data about food products, published by Wageningen Food & Biobased Research (WFBR) through WUR's own Azure API Management instance. Provides software services and algorithms returnin
   name: WFBR Food API
   slug: wfbr-food-api
-- baseURL: https://library.wur.nl
-  baseurl_source: declared
-  description: 'Open, keyless OAI-PMH 2.0 harvesting interface over the WUR Publications repository — all six verbs verified live, four metadata formats (oai_dc, mods, nl_didl, oai_openaire) and eight sets including '
-  name: WUR Library OAI-PMH API
-  slug: wageningen-university-research-library-oai-pmh
 - baseURL: https://agrodatacube.wur.nl/api/v2/rest
   baseurl_source: declared
   description: The Altitude API from AgroDataCube v2, operated by Wageningen Environmental Research — 1 operation for altitude zonal statistics.
@@ -81,6 +76,11 @@ apis:
 - description: 'Institutional research portal and CRIS for WUR publications, projects, datasets and researcher profiles, running on Elsevier Pure. Listed as a tenant surface because it is a genuine WUR institutional '
   name: WUR Research Portal (Elsevier Pure tenancy)
   slug: wageningen-research-portal-pure
+- baseURL: https://library.wur.nl
+  baseurl_source: declared
+  description: The six OAI-PMH 2.0 verbs, all served from the single /oai route.
+  name: Wageningen University & Research OAI PMH API
+  slug: wageningen-university-research-oai-pmh-api
 artifact_total: 28
 collections:
 - collection_type: open
@@ -224,7 +224,7 @@ modified: '2026-08-30'
 name: Wageningen University & Research
 nav: Providers
 network: true
-overview: 'Wageningen University & Research publishes 6 APIs on the [APIs.io](https://apis.io/) network, including WUR Library OAI-PMH API, Altitude API, KPI API, and 3 more. Tagged areas include Education, Higher Education, University, Research, and Research Data.
+overview: 'Wageningen University & Research publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Altitude API, KPI API, Raster API, and 3 more. Tagged areas include Education, Higher Education, University, Research, and Research Data.
 
 
   The Wageningen University & Research catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -235,7 +235,7 @@ plans:
 - name: Wageningen University Research Plans Pricing
   plan_count: 2
   slug: wageningen-university-research-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Wageningen University Research Rate Limits
@@ -262,8 +262,8 @@ rules:
     warn: 2
   slug: wageningen-university-research-rules
 score:
-  band: developing
-  composite: 46.7
+  band: strong
+  composite: 57.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 71.3
@@ -271,11 +271,11 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.3
   facets:
     access_clarity: 63.2
     contract_governance: 28.0
-    contract_quality: 26.0
+    contract_quality: 67.3
     developer_ergonomics: 38.1
     discoverability: 64.8
     operational_transparency: 26.3
@@ -293,8 +293,8 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 5
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 16.7
       total: 6
   regulatory:
     applies: true
@@ -303,8 +303,8 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

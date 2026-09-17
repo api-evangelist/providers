@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Automated, programmatic access to the same AI creative-evaluation engine behind the Brainsuite application. Partners and enterprise customers upload assets (or supply asset URLs), declare attributes s
@@ -117,7 +117,7 @@ plans:
 - name: Aimpower Plans Pricing
   plan_count: 4
   slug: aimpower-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Aimpower Rate Limits
@@ -158,7 +158,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

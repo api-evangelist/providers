@@ -23,30 +23,130 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://sandkiste.ehrbase.org/ehrbase
   baseurl_source: declared
-  description: The standard openEHR ITS-REST 1.0.2 surface - 31 paths and 45 operations covering EHR, EHR_STATUS, COMPOSITION, VERSIONED_COMPOSITION, CONTRIBUTION, DIRECTORY, operational templates (ADL 1.4 and ADL 2
-  name: EHRbase openEHR REST API
-  slug: openehr-rest-api
+  description: The ADL 1.4 TEMPLATE API from EHRbase — 3 operation(s) for adl 1.4 template.
+  name: EHRbase ADL 1.4 TEMPLATE API
+  slug: ehrbase-adl-1-4-template-api
 - baseURL: https://sandkiste.ehrbase.org/ehrbase
   baseurl_source: declared
-  description: The opt-in administrative surface - 8 paths and 11 operations for physical deletion of EHRs, compositions, directories and stored queries, and for replacing or removing operational templates. Disabled
-  name: EHRbase Admin API
-  slug: admin-api
+  description: The ADL 2 TEMPLATE API from EHRbase — 2 operation(s) for adl 2 template.
+  name: EHRbase ADL 2 TEMPLATE API
+  slug: ehrbase-adl-2-template-api
 - baseURL: https://sandkiste.ehrbase.org/ehrbase
   baseurl_source: declared
-  description: A version heartbeat at /rest/status reporting the running EHRbase, openEHR SDK, Archie, JVM, OS and PostgreSQL versions, plus the Spring Boot Actuator surface at /management providing health, liveness
-  name: EHRbase Status and Metrics API
-  slug: status-api
-artifact_total: 10
+  description: The Admin - Composition API from EHRbase — 1 operation(s) for admin - composition.
+  name: EHRbase Admin - Composition API
+  slug: ehrbase-admin-composition-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - Contribution API from EHRbase — 1 operation(s) for admin - contribution.
+  name: EHRbase Admin - Contribution API
+  slug: ehrbase-admin-contribution-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - Directory API from EHRbase — 1 operation(s) for admin - directory.
+  name: EHRbase Admin - Directory API
+  slug: ehrbase-admin-directory-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - EHR API from EHRbase — 1 operation(s) for admin - ehr.
+  name: EHRbase Admin - EHR API
+  slug: ehrbase-admin-ehr-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - Heartbeat API from EHRbase — 1 operation(s) for admin - heartbeat.
+  name: EHRbase Admin - Heartbeat API
+  slug: ehrbase-admin-heartbeat-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - Stored-Query API from EHRbase — 1 operation(s) for admin - stored-query.
+  name: EHRbase Admin - Stored-Query API
+  slug: ehrbase-admin-stored-query-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The Admin - Template API from EHRbase — 2 operation(s) for admin - template.
+  name: EHRbase Admin - Template API
+  slug: ehrbase-admin-template-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The COMPOSITION API from EHRbase — 5 operation(s) for composition.
+  name: EHRbase COMPOSITION API
+  slug: ehrbase-composition-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The CONTRIBUTION API from EHRbase — 2 operation(s) for contribution.
+  name: EHRbase CONTRIBUTION API
+  slug: ehrbase-contribution-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The DIRECTORY API from EHRbase — 2 operation(s) for directory.
+  name: EHRbase DIRECTORY API
+  slug: ehrbase-directory-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The EHR API from EHRbase — 2 operation(s) for ehr.
+  name: EHRbase EHR API
+  slug: ehrbase-ehr-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The EHR_STATUS API from EHRbase — 2 operation(s) for ehr_status.
+  name: EHRbase EHR STATUS API
+  slug: ehrbase-ehr-status-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The QUERY API from EHRbase — 3 operation(s) for query.
+  name: EHRbase QUERY API
+  slug: ehrbase-query-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: Heartbeat, Version info, Status
+  name: EHRbase Status API
+  slug: ehrbase-status-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The STORED_QUERY API from EHRbase — 3 operation(s) for stored_query.
+  name: EHRbase STORED QUERY API
+  slug: ehrbase-stored-query-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The TEMPLATE API from EHRbase — 3 operation(s) for template.
+  name: EHRbase TEMPLATE API
+  slug: ehrbase-template-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The VERSIONED_COMPOSITION API from EHRbase — 4 operation(s) for versioned_composition.
+  name: EHRbase VERSIONED COMPOSITION API
+  slug: ehrbase-versioned-composition-api
+- baseURL: https://sandkiste.ehrbase.org/ehrbase
+  baseurl_source: declared
+  description: The VERSIONED_EHR_STATUS API from EHRbase — 4 operation(s) for versioned_ehr_status.
+  name: EHRbase VERSIONED EHR STATUS API
+  slug: ehrbase-versioned-ehr-status-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Ehrbase Event Trigger Webhooks
   slug: ehrbase-event-trigger-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/overlays/ehrbase-openehr-rest-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/ehrbase-openehr-rest-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/overlays/ehrbase-admin-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/ehrbase-admin-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/ehrbase/refs/heads/main/overlays/ehrbase-status-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/ehrbase-status-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -223,25 +323,25 @@ modified: '2026-09-02'
 name: EHRbase
 nav: Providers
 network: true
-overview: 'EHRbase publishes 3 APIs on the [APIs.io](https://apis.io/) network: openEHR REST API, Admin API, and Status and Metrics API. Tagged areas include Company, Healthcare, Health IT, Electronic Health Records, and Clinical Data.
+overview: 'EHRbase publishes 20 APIs on the [APIs.io](https://apis.io/) network, including ADL 1.4 TEMPLATE API, ADL 2 TEMPLATE API, Admin - Composition API, and 17 more. Tagged areas include Company, Healthcare, Health IT, Electronic Health Records, and Clinical Data.
 
 
   The EHRbase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  EHRbase''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 28 more developer resources.'
+  EHRbase''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 31 more developer resources.'
 plans:
 - name: Ehrbase Plans Pricing
   plan_count: 2
   slug: ehrbase-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Ehrbase Rate Limits
   slug: ehrbase-rate-limits
 score:
   band: developing
-  composite: 51.1
+  composite: 53.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -249,17 +349,22 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 46.1
+    contract_quality: 54.7
     developer_ergonomics: 80.4
     discoverability: 75.9
     operational_transparency: 44.7
   previous_composite: 51.1
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 20
     mcp: first-party
     skills: derived
   regulatory:
@@ -269,7 +374,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -297,7 +402,7 @@ tags:
 - openEHR
 - Interoperability
 - Open-Source
-- Databases
+- Database
 - Standards
 website: https://ehrbase.org/
 ---

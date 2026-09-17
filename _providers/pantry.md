@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - baseURL: https://getpantry.cloud/apiv1
   baseurl_source: spec
   description: Pantry account (account-level operations)
-  name: Pantry Pantry API
+  name: Pantry API
   slug: pantry-pantry-api
 artifact_total: 15
 collections:
@@ -122,11 +122,11 @@ jsonld:
   property_count: 1
   slug: pantry-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Pantry
 nav: Providers
 network: true
-overview: 'Pantry publishes 2 APIs on the [APIs.io](https://apis.io/) network: Basket API and Pantry API. Tagged areas include Data Storage, Developer Tools, and JSON.
+overview: 'Pantry publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Basket API, and 1 more. Tagged areas include Data Storage, Developer Tools, and JSON.
 
 
   The Pantry catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: Purdue professor uses AI technology to help food pantries
   url: https://www.purdueexponent.org/city_state/purdue-alex-psomas-indianapolis-artificial-intelligence/article_07b6cdae-a219-11ef-866e-17a294dc19fd.html
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Pantry Rate Limits
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

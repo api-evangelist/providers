@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Indie Hackers API provides programmatic access to the Indie Hackers community platform, enabling developers to connect with a network of founders who openly share the strategies and revenue number
@@ -114,7 +114,7 @@ plans:
 - name: Indie Hackers Plans Pricing
   plan_count: 3
   slug: indie-hackers-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Indie Hackers Rate Limits
@@ -139,7 +139,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 15.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

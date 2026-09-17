@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Mirage JS is a JavaScript library for mocking APIs. It enables frontend developers to build complete features, write realistic tests, and share working prototypes without a real backend. Mirage runs i
@@ -82,7 +82,7 @@ plans:
 - name: Mirage Js Plans Pricing
   plan_count: 3
   slug: mirage-js-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Mirage Js Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

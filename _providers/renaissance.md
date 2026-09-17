@@ -23,26 +23,66 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 5
 apis:
-- baseURL: https://proficiency.renaissance.com
-  baseurl_source: declared
-  description: Renaissance-operated prediction service returning student proficiency on math skills and skill groups, the next recommended pathway activity for a student, a student's current reading level, and class
-  name: Student Proficiency Service
-  slug: student-proficiency-service
-- baseURL: https://events.proficiency.renaissance.com
-  baseurl_source: declared
-  description: Event ingestion proxy that accepts Freckle practice events (assignment, activity and answer payloads) into the Renaissance student pathway pipeline. OpenAPI 3.1.0 published at the service root; the si
-  name: Student Pathway Event Proxy
-  slug: student-pathway-event-proxy
 - baseURL: https://api.proxile.renaissance.com
   baseurl_source: declared
   description: Lexile measure lookup by ISBN-13, returning the stored Lexile book record. OpenAPI 3.0.1 published at the API host root; the API gateway validates a JWT issued by Renaissance auth (client credentials)
   name: Lexile API
   slug: lexile-api
-artifact_total: 9
+- baseURL: https://proficiency.renaissance.com
+  baseurl_source: declared
+  description: The Classes API from Renaissance — 1 operation(s) for classes.
+  name: Renaissance Classes API
+  slug: renaissance-classes-api
+- baseURL: https://proficiency.renaissance.com
+  baseurl_source: declared
+  description: The Events API from Renaissance — 1 operation(s) for events.
+  name: Renaissance Events API
+  slug: renaissance-events-api
+- baseURL: https://proficiency.renaissance.com
+  baseurl_source: declared
+  description: The Health API from Renaissance — 1 operation(s) for health.
+  name: Renaissance Health API
+  slug: renaissance-health-api
+- baseURL: https://proficiency.renaissance.com
+  baseurl_source: declared
+  description: The Pathway API from Renaissance — 1 operation(s) for pathway.
+  name: Renaissance Pathway API
+  slug: renaissance-pathway-api
+- baseURL: https://proficiency.renaissance.com
+  baseurl_source: declared
+  description: The Predictions API from Renaissance — 3 operation(s) for predictions.
+  name: Renaissance Predictions API
+  slug: renaissance-predictions-api
+- baseURL: https://proficiency.renaissance.com
+  baseurl_source: declared
+  description: The Reading Level API from Renaissance — 1 operation(s) for reading level.
+  name: Renaissance Reading Level API
+  slug: renaissance-reading-level-api
+- baseURL: https://proficiency.renaissance.com
+  baseurl_source: declared
+  description: The Skills API from Renaissance — 1 operation(s) for skills.
+  name: Renaissance Skills API
+  slug: renaissance-skills-api
+- baseURL: https://proficiency.renaissance.com
+  baseurl_source: declared
+  description: The Utility API from Renaissance — 2 operation(s) for utility.
+  name: Renaissance Utility API
+  slug: renaissance-utility-api
+artifact_total: 15
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/overlays/renaissance-student-proficiency-service-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/renaissance-student-proficiency-service-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/overlays/renaissance-student-pathway-event-proxy-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/renaissance-student-pathway-event-proxy-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/security/renaissance-trust-center.yml
   title: ''
@@ -184,15 +224,15 @@ modified: '2026-09-13'
 name: Renaissance
 nav: Providers
 network: true
-overview: 'Renaissance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Student Proficiency Service, Student Pathway Event Proxy, and Lexile API. Tagged areas include Education, EdTech, K-12, Assessment, and Learning Analytics.
+overview: 'Renaissance publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Lexile API, Classes API, Events API, and 6 more. Tagged areas include Education, EdTech, K-12, Assessment, and Learning Analytics.
 
 
-  Renaissance''s developer surface includes support, engineering blog, authentication, changelog, and 25 more developer resources.'
+  Renaissance''s developer surface includes support, engineering blog, authentication, changelog, and 27 more developer resources.'
 plans:
 - name: Renaissance Plans Pricing
   plan_count: 0
   slug: renaissance-plans-pricing
-random_paper: 9
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Renaissance Rate Limits
@@ -204,7 +244,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.5
+  composite: 48.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -212,11 +252,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 47.2
+    contract_quality: 49.7
     developer_ergonomics: 28.0
     discoverability: 81.5
     operational_transparency: 36.8
@@ -227,7 +267,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -237,7 +277,7 @@ score:
     regime_id: education
     score: 74.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

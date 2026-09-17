@@ -37,20 +37,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://robodialer-service-api-9nc4t1p9.uc.gateway.dev
   baseurl_source: declared
-  description: 'Asynchronous REST API for submitting structured data extraction requests against insurance payers and retrieving the results. Submit a request (single or batch) against an account-provisioned schema, '
-  name: SuperDial API
-  slug: superdial-api
-artifact_total: 8
+  description: 'SuperDial employs Bearer Authentication. Fetch a bearer token using your API Key and API Secret, then pass it as `Authorization: Bearer <token>` on subsequent calls.'
+  name: SuperDial Authentication API
+  slug: superdial-authentication-api
+- baseURL: https://robodialer-service-api-9nc4t1p9.uc.gateway.dev
+  baseurl_source: declared
+  description: Endpoints for creating and reading requests (structured data extraction jobs). All non-2xx responses use the uniform `{error, message, [details]}` envelope (see the `ApiError` schema).
+  name: SuperDial Requests API
+  slug: superdial-requests-api
+- baseURL: https://robodialer-service-api-9nc4t1p9.uc.gateway.dev
+  baseurl_source: declared
+  description: Discover the schemas provisioned for your account and the required input keys for each. All non-2xx responses use the uniform `{error, message, [details]}` envelope (see the `ApiError` schema).
+  name: SuperDial Schemas API
+  slug: superdial-schemas-api
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Superdial Requests Webhooks
   slug: superdial-requests-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/superdial/refs/heads/main/overlays/superdial-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/superdial-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -198,25 +213,25 @@ modified: '2026-08-29'
 name: SuperDial
 nav: Providers
 network: true
-overview: 'SuperDial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Revenue Cycle Management, Voice AI, and Insurance.
+overview: 'SuperDial publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Requests API, and Schemas API. Tagged areas include Company, Healthcare, Revenue Cycle Management, Voice AI, and Insurance.
 
 
   The SuperDial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SuperDial''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 22 more developer resources.'
+  SuperDial''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, sandbox, and 23 more developer resources.'
 plans:
 - name: Superdial Plans Pricing
   plan_count: 0
   slug: superdial-plans-pricing
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Superdial Rate Limits
   slug: superdial-rate-limits
 score:
   band: developing
-  composite: 46.4
+  composite: 46.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -224,11 +239,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 62.4
+    contract_quality: 64.4
     developer_ergonomics: 66.7
     discoverability: 75.9
     operational_transparency: 7.9
@@ -239,7 +254,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: first-party
     skills: first-party
   regulatory:
@@ -249,7 +264,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

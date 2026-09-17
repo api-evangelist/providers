@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
@@ -58,16 +58,6 @@ apis:
   description: The Endpoint API from Sun Life — 5 operation(s) for endpoint.
   name: Sun Life Endpoint API
   slug: sun-life-endpoint-api
-- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
-  baseurl_source: declared
-  description: The HealthcareService API from Sun Life — 5 operation(s) for healthcareservice.
-  name: Sun Life Healthcare Service API
-  slug: sun-life-healthcareservice-api
-- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
-  baseurl_source: declared
-  description: The InsurancePlan API from Sun Life — 5 operation(s) for insuranceplan.
-  name: Sun Life Insurance Plan API
-  slug: sun-life-insuranceplan-api
 - baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
   baseurl_source: declared
   description: The Location API from Sun Life — 5 operation(s) for location.
@@ -95,11 +85,6 @@ apis:
   slug: sun-life-practitioner-api
 - baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
   baseurl_source: declared
-  description: The PractitionerRole API from Sun Life — 5 operation(s) for practitionerrole.
-  name: Sun Life Practitioner Role API
-  slug: sun-life-practitionerrole-api
-- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
-  baseurl_source: declared
   description: The RelatedPerson API from Sun Life — 5 operation(s) for relatedperson.
   name: Sun Life Related Person API
   slug: sun-life-relatedperson-api
@@ -118,6 +103,21 @@ apis:
   description: The .well Known API from Sun Life — 1 operation(s) for .well known.
   name: Sun Life .well Known API
   slug: sun-life-well-known-api
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Healthcare Service API from Sun Life — 5 operation(s) for healthcare service.
+  name: Sun Life Healthcare Service API
+  slug: sun-life-healthcare-service-api
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Insurance Plan API from Sun Life — 5 operation(s) for insurance plan.
+  name: Sun Life Insurance Plan API
+  slug: sun-life-insurance-plan-api
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Practitioner Role API from Sun Life — 5 operation(s) for practitioner role.
+  name: Sun Life Practitioner Role API
+  slug: sun-life-practitioner-role-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -333,7 +333,7 @@ overview: 'Sun Life publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sun Life''s developer surface includes product news, documentation, API reference, getting-started guide, signup flow, support, authentication, and 36 more developer resources.'
-random_paper: 5
+random_paper: 11
 scopes:
 - name: Sun Life Scopes
   scope_count: 5
@@ -341,7 +341,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.3
+  composite: 46.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 40.0
@@ -349,11 +349,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 45.3
+    contract_quality: 42.7
     developer_ergonomics: 56.5
     discoverability: 81.5
     operational_transparency: 0.0
@@ -385,7 +385,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Point Nine Capital
 nav: Providers
 network: true
-random_paper: 17
+random_paper: 13
 slug: point-nine
 tags:
 - Venture Capital
@@ -28,7 +28,7 @@ tags:
 - Pre-Seed
 - Series A
 - B2B SaaS
-- Marketplaces
+- Marketplace
 - Developer Tools
 - Fintech
 - Artificial Intelligence

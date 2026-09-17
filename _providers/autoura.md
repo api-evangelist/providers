@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 51.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Autoura Experience API provides access to tourism content including cuisine guides, destination information, tour itineraries, local activities, and points of interest. Developers can integrate Au
@@ -227,7 +227,7 @@ modified: '2026-09-13'
 name: Autoura
 nav: Providers
 network: true
-overview: 'Autoura publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tourism, Tours, Travel, Destinations, and Experience.
+overview: 'Autoura publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tourism, Tours, Travel, Destination, and Experience.
 
 
   The Autoura catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -238,7 +238,7 @@ plans:
 - name: Autoura Plans Pricing
   plan_count: 3
   slug: autoura-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Autoura Rate Limits
@@ -272,7 +272,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -293,7 +293,7 @@ tags:
 - Tourism
 - Tours
 - Travel
-- Destinations
+- Destination
 - Experience
 - Digital Tourism
 use_cases:

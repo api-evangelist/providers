@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 5
+- acting_count: 1
   human_in_the_loop: 0
   name: D Wave Agentic Access
-  operation_count: 17
+  operation_count: 6
   slug: d-wave-agentic-access
-  summary_line: 17 operations · 5 acting
+  summary_line: 6 operations · 1 acting
 api_count: 4
 apis:
 - baseURL: https://cloud.dwavesys.com/sapi/v2
@@ -56,15 +56,10 @@ apis:
   slug: d-wave-hybrid-api
 - baseURL: https://cloud.dwavesys.com/sapi/v2
   baseurl_source: declared
-  description: The QPU API from D-Wave — 1 operation(s) for qpu.
-  name: D-Wave QPU API
-  slug: d-wave-qpu-api
-- baseURL: https://cloud.dwavesys.com/sapi/v2
-  baseurl_source: declared
   description: The Regions API from D-Wave — 2 operation(s) for regions.
   name: D-Wave Regions API
   slug: d-wave-regions-api
-artifact_total: 76
+artifact_total: 75
 collections:
 - collection_type: postman
   name: D-Wave Leap Hybrid Solvers Account API
@@ -501,7 +496,7 @@ modified: '2026-05-25'
 name: D-Wave
 nav: Providers
 network: true
-overview: 'D-Wave publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Hybrid API, QPU API, and 1 more. Tagged areas include Quantum Computing, Quantum Annealing, Optimization, Hybrid Quantum-Classical, and Ising.
+overview: 'D-Wave publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Hybrid API, and Regions API. Tagged areas include Quantum Computing, Quantum Annealing, Optimization, Hybrid Quantum-Classical, and Ising.
 
 
   The D-Wave catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -512,7 +507,7 @@ plans:
 - name: D Wave Plans Pricing
   plan_count: 3
   slug: d-wave-plans-pricing
-random_paper: 13
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: D Wave Rate Limits
@@ -546,7 +541,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 61.6
+  composite: 61.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 94.5
@@ -554,11 +549,11 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 73.7
     contract_governance: 28.8
-    contract_quality: 67.7
+    contract_quality: 67.3
     developer_ergonomics: 75.0
     discoverability: 74.1
     operational_transparency: 36.8
@@ -569,9 +564,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

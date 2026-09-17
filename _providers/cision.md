@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: REST API for the Next Generation Cision Communications Cloud, Cision's earned media monitoring and analytics platform. Runs off searches already created in the platform and returns either a list of ar
@@ -152,10 +152,10 @@ common:
   type: Compliance
   url: https://www.cision.com/legal/security-statement/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/cision-cisionone-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/openapi/_original/cision-cisionone-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/cision-cisionone-openapi.yml
+  url: openapi/_original/cision-cisionone-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/overlays/cision-cisionone-overlay.yaml
   title: ''
@@ -229,7 +229,7 @@ jsonld:
   property_count: 5
   slug: cision-context
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Cision
 nav: Providers
 network: true
@@ -244,14 +244,14 @@ plans:
 - name: Cision Plans Pricing
   plan_count: 5
   slug: cision-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Cision Rate Limits
   slug: cision-rate-limits
 score:
-  band: developing
-  composite: 48.4
+  band: strong
+  composite: 57.0
   coverage:
     artifact_dirs: 23
     catalog_earned: 65.0
@@ -259,11 +259,11 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.6
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 24.7
+    contract_quality: 59.1
     developer_ergonomics: 49.4
     discoverability: 68.5
     operational_transparency: 47.4
@@ -271,15 +271,15 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 2
-      marker_coverage: 100.0
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
       total: 2
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

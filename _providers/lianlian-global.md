@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 0
@@ -155,11 +155,6 @@ apis:
   slug: lianlian-global-gateway-api
 - baseURL: https://global-api.lianlianpay.com/b2b-export/v1
   baseurl_source: declared
-  description: The Get API from LianLian Global — 1 operation(s) for get.
-  name: LianLian Global Get API
-  slug: lianlian-global-get-api
-- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
-  baseurl_source: declared
   description: The Kyc API from LianLian Global — 5 operation(s) for kyc.
   name: LianLian Global Kyc API
   slug: lianlian-global-kyc-api
@@ -168,11 +163,6 @@ apis:
   description: The Member API from LianLian Global — 1 operation(s) for member.
   name: LianLian Global Member API
   slug: lianlian-global-member-api
-- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
-  baseurl_source: declared
-  description: The Oauth2 API from LianLian Global — 1 operation(s) for oauth2.
-  name: LianLian Global Oauth2 API
-  slug: lianlian-global-oauth2-api
 - baseURL: https://global-api.lianlianpay.com/b2b-export/v1
   baseurl_source: declared
   description: The Operations API from LianLian Global — 117 operation(s) for operations.
@@ -240,11 +230,6 @@ apis:
   slug: lianlian-global-statement-api
 - baseURL: https://global-api.lianlianpay.com/b2b-export/v1
   baseurl_source: declared
-  description: The Topup API from LianLian Global — 2 operation(s) for topup.
-  name: LianLian Global Topup API
-  slug: lianlian-global-topup-api
-- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
-  baseurl_source: declared
   description: The Transaction API from LianLian Global — 2 operation(s) for transaction.
   name: LianLian Global Transaction API
   slug: lianlian-global-transaction-api
@@ -275,10 +260,15 @@ apis:
   slug: lianlian-global-verifications-api
 - baseURL: https://global-api.lianlianpay.com/b2b-export/v1
   baseurl_source: declared
-  description: The Webhooks API from LianLian Global — 2 operation(s) for webhooks.
-  name: LianLian Global Webhooks API
-  slug: lianlian-global-webhooks-api
-artifact_total: 100
+  description: The Oauth2 API from LianLian Global — 1 operation(s) for oauth2.
+  name: LianLian Global Oauth2 API
+  slug: lianlian-global-oauth2-api
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Top Up API from LianLian Global — 2 operation(s) for top up.
+  name: LianLian Global Top Up API
+  slug: lianlian-global-top-up-api
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Lianlian Global Webhooks
@@ -706,14 +696,14 @@ modified: '2026-07-19'
 name: LianLian Global
 nav: Providers
 network: true
-overview: 'LianLian Global publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Agreement API, and 44 more. Tagged areas include Payments, Cross-Border Payments, Foreign Exchange, E-Commerce, and Card Issuing.
+overview: 'LianLian Global publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Agreement API, and 42 more. Tagged areas include Payments, Cross-Border Payments, Foreign Exchange, E-Commerce, and Card Issuing.
 
 
   The LianLian Global catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   LianLian Global''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 49 more developer resources.'
-random_paper: 19
+random_paper: 14
 scopes:
 - name: Lianlian Global Scopes
   scope_count: 1
@@ -752,7 +742,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 47
+      total: 45
     mcp: derived
     skills: first-party
   regulatory:
@@ -762,7 +752,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -784,7 +774,7 @@ tags:
 - Foreign Exchange
 - E-Commerce
 - Card Issuing
-- Remittance
+- Remittances
 - Financial-Services
 - B2B Payments
 - Digital Wallet

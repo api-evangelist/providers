@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Hosted MCP server (https://mcp.rindler.ai) that exposes mapped websites as deterministic, typed agent tools over HTTP with OAuth 2.0 PKCE. Core tools: start_session, dispatch_action, extract_content, '
@@ -41,6 +41,10 @@ apis:
   slug: rindler-mcp-server
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://rindler.ai
 - group: start
   title: ''
   type: DeveloperPortal
@@ -121,15 +125,15 @@ mcp_servers:
 - description: Hosted MCP server that turns any pre-onboarded website, including sites without an API, into a deterministic, typed set of agent tools. Agents open a session on a mapped site, dispatch a semantic acti
   name: Rindler MCP Server
   slug: rindler-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Rindler
 nav: Providers
 network: true
 overview: 'Rindler publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Web Automation, and Browser Automation.
 
 
-  Rindler''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 17
+  Rindler''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, and 11 more developer resources.'
+random_paper: 4
 scopes:
 - name: Rindler Scopes
   scope_count: 3
@@ -158,7 +162,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -185,5 +189,5 @@ tags:
 - Website to API
 - Agent Tools
 - Y Combinator
-website: https://rindler.ai/docs
+website: https://rindler.ai
 ---

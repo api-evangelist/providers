@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,8 +58,8 @@ modified: '2026-07-21'
 name: wutwut
 nav: Providers
 network: true
-overview: wutwut is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, Venture Portfolio, Slow Ventures, and Inactive.
-random_paper: 11
+overview: wutwut is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startups, Venture Portfolio, Slow Ventures, and Inactive.
+random_paper: 0
 score:
   band: minimal
   composite: 5.7
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -94,7 +94,7 @@ security:
 slug: wutwut
 tags:
 - Company
-- Startup
+- Startups
 - Venture Portfolio
 - Slow Ventures
 - Inactive

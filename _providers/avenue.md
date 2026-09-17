@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -130,7 +130,7 @@ plans:
 - name: Avenue Plans Pricing
   plan_count: 2
   slug: avenue-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Avenue Rate Limits
@@ -155,7 +155,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

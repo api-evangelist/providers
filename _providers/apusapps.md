@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,11 +73,11 @@ modified: '2026-07-18'
 name: apusapps
 nav: Providers
 network: true
-overview: 'apusapps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Android, Consumer Apps, and Mobile Internet.
+overview: 'apusapps is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Android, Consumer App, and Mobile Internet.
 
 
   apusapps'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 16
+random_paper: 19
 score:
   band: minimal
   composite: 10.6
@@ -104,7 +104,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -120,7 +120,7 @@ tags:
 - Company
 - Mobile
 - Android
-- Consumer Apps
+- Consumer App
 - Mobile Internet
 - Utility Apps
 - Launcher

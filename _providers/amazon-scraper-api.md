@@ -23,14 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.amazonscraperapi.com
   baseurl_source: declared
-  description: REST/JSON API for single-product (ASIN) extraction, search results, and async batch scraping across 20 Amazon marketplaces. API key auth via ?api_key= query parameter; only HTTP 2xx responses are bill
-  name: Amazon Scraper REST API
-  slug: amazon-scraper-rest-api
+  description: The Amazon API from Amazon Scraper API — 3 operation(s) for amazon.
+  name: Amazon Scraper API Amazon API
+  slug: amazon-scraper-api-amazon-api
 artifact_total: 7
 asyncapis:
 - description: ''
@@ -196,7 +196,7 @@ modified: '2026-09-03'
 name: Amazon Scraper API
 nav: Providers
 network: true
-overview: 'Amazon Scraper API publishes 1 API on the [APIs.io](https://apis.io/) network: Amazon Scraper REST API. Tagged areas include Web Scraping, Data Extraction, E-Commerce Data, Amazon, and marketplace data.
+overview: 'Amazon Scraper API publishes 1 API on the [APIs.io](https://apis.io/) network: Amazon API. Tagged areas include Web Scraping, Data Extraction, E-Commerce Data, Amazon, and marketplace data.
 
 
   The Amazon Scraper API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -207,14 +207,14 @@ plans:
 - name: Amazon Scraper Api Plans Pricing
   plan_count: 5
   slug: amazon-scraper-api-plans-pricing
-random_paper: 17
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Amazon Scraper Api Rate Limits
   slug: amazon-scraper-api-rate-limits
 score:
   band: strong
-  composite: 60.5
+  composite: 61.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 59.0
@@ -222,11 +222,11 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 55.7
+    contract_quality: 58.4
     developer_ergonomics: 78.6
     discoverability: 72.2
     operational_transparency: 65.8
@@ -241,7 +241,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Lightweight Directory Access Protocol for accessing and maintaining distributed directory information services over an IP network. The protocol defines bind, search, compare, add, delete, modify, and '
@@ -86,7 +86,7 @@ plans:
 - name: Ldap Plans Pricing
   plan_count: 3
   slug: ldap-plans-pricing
-random_paper: 18
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Ldap Rate Limits
@@ -111,7 +111,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -131,7 +131,7 @@ tags:
 - Identity Management
 - LDAP
 - Protocol
-- Single Sign-On
-- Standard
+- SSO
+- Standards
 website: https://ldap.com/
 ---

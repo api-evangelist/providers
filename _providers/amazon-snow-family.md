@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -348,6 +348,10 @@ collections:
   name: 'Amazon Import/Export Snowball #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.CancelCluster #X Amz Target=AWSIESnowballJobManagementService.UpdateLongTermPricing API'
   slug: open-amazon-snow-family-x-amz-target-awsiesnowballjobmanagementservice-updatelongtermpricing-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1330,7 +1334,7 @@ jsonld:
   property_count: 122
   slug: amazon-snow-family-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Snow Family
 nav: Providers
 network: true
@@ -1340,12 +1344,12 @@ overview: 'Amazon Snow Family publishes 27 APIs on the [APIs.io](https://apis.io
   The Amazon Snow Family catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Snow Family''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Snow Family''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Snow Family Plans Pricing
   plan_count: 3
   slug: amazon-snow-family-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Snow Family Rate Limits
@@ -1399,7 +1403,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1435,5 +1439,5 @@ use_cases:
   name: Disconnected Edge Computing
 - description: Collect and transfer disaster recovery data to AWS.
   name: Disaster Recovery
-website: https://aws.amazon.com/snowball/
+website: https://amazon.com
 ---

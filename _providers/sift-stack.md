@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The gRPC contract that is Sift's primary API — 51 services and 330 RPCs defined across 66 proto3 files published under MIT in the sift-stack/sift monorepo, including the bidirectional streaming ingest
@@ -56,11 +56,6 @@ apis:
   description: Service to programmatically interact with annotations.
   name: Sift Stack Annotation Service API
   slug: sift-stack-annotationservice-api
-- baseURL: https://api.siftstack.com
-  baseurl_source: declared
-  description: The ApiKeyService API from Sift Stack — 3 operation(s) for apikeyservice.
-  name: Sift Stack API Key Service API
-  slug: sift-stack-apikeyservice-api
 - baseURL: https://api.siftstack.com
   baseurl_source: declared
   description: Service to programmatically interact with [assets](/glossary#asset).
@@ -93,11 +88,6 @@ apis:
   slug: sift-stack-channelschemaservice-api
 - baseURL: https://api.siftstack.com
   baseurl_source: declared
-  description: Service to programmatically interact with [channels](/glossary#channel).
-  name: Sift Stack Channel Service API
-  slug: sift-stack-channelservice-api
-- baseURL: https://api.siftstack.com
-  baseurl_source: declared
   description: Service to programmatically interact with comments attached to resources in the platform.
   name: Sift Stack Comment Service API
   slug: sift-stack-commentservice-api
@@ -106,11 +96,6 @@ apis:
   description: The DataImportService API from Sift Stack — 6 operation(s) for dataimportservice.
   name: Sift Stack Data Import Service API
   slug: sift-stack-dataimportservice-api
-- baseURL: https://api.siftstack.com
-  baseurl_source: declared
-  description: Service to query data
-  name: Sift Stack Data Service API
-  slug: sift-stack-dataservice-api
 - baseURL: https://api.siftstack.com
   baseurl_source: declared
   description: The DlqErrorsService API from Sift Stack — 1 operation(s) for dlqerrorsservice.
@@ -143,24 +128,9 @@ apis:
   slug: sift-stack-ingestionconfigservice-api
 - baseURL: https://api.siftstack.com
   baseurl_source: declared
-  description: The JobService API from Sift Stack — 3 operation(s) for jobservice.
-  name: Sift Stack Job Service API
-  slug: sift-stack-jobservice-api
-- baseURL: https://api.siftstack.com
-  baseurl_source: declared
   description: The MeService API from Sift Stack — 1 operation(s) for meservice.
   name: Sift Stack Me Service API
   slug: sift-stack-meservice-api
-- baseURL: https://api.siftstack.com
-  baseurl_source: declared
-  description: The MetadataService API from Sift Stack — 9 operation(s) for metadataservice.
-  name: Sift Stack Metadata Service API
-  slug: sift-stack-metadataservice-api
-- baseURL: https://api.siftstack.com
-  baseurl_source: declared
-  description: Service to programmatically interact with in-app notifications.
-  name: Sift Stack Notification Service API
-  slug: sift-stack-notificationservice-api
 - baseURL: https://api.siftstack.com
   baseurl_source: declared
   description: Service to programmatically interact with panel configurations.
@@ -271,6 +241,36 @@ apis:
   description: The WebhookService API from Sift Stack — 6 operation(s) for webhookservice.
   name: Sift Stack Webhook Service API
   slug: sift-stack-webhookservice-api
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The Api Key Service API from Sift Stack — 3 operation(s) for api key service.
+  name: Sift Stack Api Key Service API
+  slug: sift-stack-api-key-service-api
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with channels.
+  name: Sift Stack Channel Service API
+  slug: sift-stack-channel-service-api
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to query data
+  name: Sift Stack Data Service API
+  slug: sift-stack-data-service-api
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The Job Service API from Sift Stack — 3 operation(s) for job service.
+  name: Sift Stack Job Service API
+  slug: sift-stack-job-service-api
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The Metadata Service API from Sift Stack — 9 operation(s) for metadata service.
+  name: Sift Stack Metadata Service API
+  slug: sift-stack-metadata-service-api
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with in-app notifications.
+  name: Sift Stack Notification Service API
+  slug: sift-stack-notification-service-api
 artifact_total: 55
 asyncapis:
 - description: ''
@@ -443,7 +443,7 @@ modified: '2026-08-27'
 name: Sift Stack
 nav: Providers
 network: true
-overview: 'Sift Stack publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Annotation Log Service API, Annotation Service API, API Key Service API, and 42 more. Tagged areas include Observability, Telemetry, Aerospace, Defense, and Robotics.
+overview: 'Sift Stack publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Annotation Log Service API, Annotation Service API, Asset Service API, and 42 more. Tagged areas include Observability, Telemetry, Aerospace, Defense, and Robotics.
 
 
   The Sift Stack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -454,14 +454,14 @@ plans:
 - name: Sift Stack Plans Pricing
   plan_count: 0
   slug: sift-stack-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Sift Stack Rate Limits
   slug: sift-stack-rate-limits
 score:
   band: strong
-  composite: 60.6
+  composite: 60.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 34.0
@@ -469,11 +469,11 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 60.3
+    contract_quality: 60.5
     developer_ergonomics: 73.8
     discoverability: 70.4
     operational_transparency: 52.6
@@ -494,7 +494,7 @@ score:
     regime_id: energy_utilities
     score: 55.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

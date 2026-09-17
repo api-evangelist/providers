@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Hallmark Cards API provides access to platform services and data for enterprise integration and automation.
@@ -66,12 +66,12 @@ modified: '2026-04-19'
 name: Hallmark Cards
 nav: Providers
 network: true
-overview: Hallmark Cards publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Greeting Cards, Gift, and Retail.
+overview: Hallmark Cards publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Greeting Cards, Gifts, and Retail.
 plans:
 - name: Hallmark Cards Plans Pricing
   plan_count: 1
   slug: hallmark-cards-plans-pricing
-random_paper: 7
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Hallmark Cards Rate Limits
@@ -102,7 +102,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -117,7 +117,7 @@ security:
 slug: hallmark-cards
 tags:
 - Greeting Cards
-- Gift
+- Gifts
 - Retail
 website: https://www.hallmark.com
 ---

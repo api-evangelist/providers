@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Standard oEmbed endpoint that returns a rich embed payload (iframe HTML, thumbnail URL, author metadata) for any public CodePen Pen URL. Supports JSON and JSONP response formats and an optional height
@@ -115,7 +115,7 @@ modified: '2026-06-12'
 name: CodePen
 nav: Providers
 network: true
-overview: 'CodePen publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Front-End Development, Code Playground, Embeds, and Education.
+overview: 'CodePen publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Front-End Development, Code Playground, Embed, and Education.
 
 
   The CodePen catalog on APIs.io includes 1 JSON-LD context.
@@ -126,7 +126,7 @@ plans:
 - name: Codepen Plans Pricing
   plan_count: 5
   slug: codepen-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Codepen Rate Limits
@@ -157,7 +157,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -174,7 +174,7 @@ tags:
 - Developer Tools
 - Front-End Development
 - Code Playground
-- Embeds
+- Embed
 - Education
 website: https://codepen.io
 ---

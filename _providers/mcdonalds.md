@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: McDonald's does not expose a public, self-service API. Ordering, delivery integration, menu data, loyalty, and restaurant information flow through bilateral partner integrations rather than open devel
@@ -109,7 +109,7 @@ press:
 - date: '2026-05-25'
   title: McDonald's is experimenting with AI in ways that could ...
   url: https://www.facebook.com/masslive/posts/mcdonalds-is-experimenting-with-ai-in-ways-that-could-change-your-drive-thru-exp/1330329255807686/
-random_paper: 4
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Mcdonalds Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

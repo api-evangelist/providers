@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -180,6 +180,10 @@ collections:
   name: Neighbortunes API
   slug: open-neighbortunes
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://neighbortunes.net
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/neighbortunes/refs/heads/main/agentic-access/neighbortunes-agentic-access.yml
   title: ''
@@ -198,7 +202,7 @@ finops:
   slug: neighbortunes-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neighbortunes.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Neighbortunes
 nav: Providers
 network: true
@@ -239,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -256,4 +260,5 @@ tags:
 - Music
 - Setlists
 - Fan Site
+website: https://neighbortunes.net
 ---

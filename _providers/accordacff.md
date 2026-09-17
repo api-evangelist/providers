@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: A single GraphQL endpoint exposing the Accord data model — accords, stages, steps, stakeholders, playbooks, resources, summaries, engagement and CRM sync objects. The public reference documents 461 qu
@@ -194,7 +194,7 @@ plans:
 - name: Accordacff Plans Pricing
   plan_count: 3
   slug: accordacff-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Accordacff Rate Limits
@@ -233,7 +233,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

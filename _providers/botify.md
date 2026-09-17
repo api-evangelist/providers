@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server at mcp.botify.com, advertised via RFC 9728 protected-resource metadata as "Botify Agents MCP" with the single scope mcp_read_write. Authorization is delegated to a
@@ -52,11 +52,6 @@ apis:
   description: The Collections API from Botify — 2 operation(s) for collections.
   name: Botify Collections API
   slug: botify-collections-api
-- baseURL: https://api.botify.com/v1
-  baseurl_source: declared
-  description: The Datasource API from Botify — 1 operation(s) for datasource.
-  name: Botify Datasource API
-  slug: botify-datasource-api
 - baseURL: https://api.botify.com/v1
   baseurl_source: declared
   description: The Job API from Botify — 2 operation(s) for job.
@@ -82,6 +77,11 @@ apis:
   description: The User API from Botify — 1 operation(s) for user.
   name: Botify User API
   slug: botify-user-api
+- baseURL: https://mcp.botify.com/
+  baseurl_source: declared
+  description: The Data Source API from Botify — 1 operation(s) for data source.
+  name: Botify Data Source API
+  slug: botify-data-source-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -258,11 +258,11 @@ modified: '2026-08-08'
 name: Botify
 nav: Providers
 network: true
-overview: 'Botify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analysis API, Collections API, Datasource API, and 5 more. Tagged areas include SEO, Organic search, Web Crawling, Log Analysis, and search-console.
+overview: 'Botify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analysis API, Collections API, Job API, and 5 more. Tagged areas include SEO, Organic search, Web Crawling, Log Analysis, and search-console.
 
 
   Botify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 2
+random_paper: 15
 scopes:
 - name: Botify Scopes
   scope_count: 0
@@ -270,7 +270,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.0
+  composite: 43.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -278,11 +278,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 45.2
+    contract_quality: 49.3
     developer_ergonomics: 51.8
     discoverability: 75.9
     operational_transparency: 26.3
@@ -297,7 +297,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -56,37 +56,37 @@ apis:
 - baseURL: https://*.pulsesoftware.com/webservices/api
   baseurl_source: spec
   description: API for managing CPR data in Pulse
-  name: Pulse Software Corporate Planning API API
+  name: Pulse Software Corporate Planning API
   slug: pulse-software-corporate-planning-api-api
 - baseURL: https://*.pulsesoftware.com/webservices/api
   baseurl_source: spec
   description: API for managing forms and records in Pulse
-  name: Pulse Software Forms API API
+  name: Pulse Software Forms API
   slug: pulse-software-forms-api-api
 - baseURL: https://*.pulsesoftware.com/webservices/api
   baseurl_source: spec
   description: API for managing learning info in Pulse
-  name: Pulse Software Learning API API
+  name: Pulse Software Learning API
   slug: pulse-software-learning-api-api
 - baseURL: https://*.pulsesoftware.com/webservices/api
   baseurl_source: spec
   description: API for managing project info in Pulse
-  name: Pulse Software Project API API
+  name: Pulse Software Project API
   slug: pulse-software-project-api-api
 - baseURL: https://*.pulsesoftware.com/webservices/api
   baseurl_source: spec
   description: API for managing recruitment info in Pulse
-  name: Pulse Software Recruitment API API
+  name: Pulse Software Recruitment API
   slug: pulse-software-recruitment-api-api
 - baseURL: https://*.pulsesoftware.com/webservices/api
   baseurl_source: spec
   description: API for handling synchronisation data from and/or to Pulse including for managing sync history records
-  name: Pulse Software Sync API API
+  name: Pulse Software Sync API
   slug: pulse-software-sync-api-api
 - baseURL: https://*.pulsesoftware.com/webservices/api
   baseurl_source: spec
   description: API for managing user details in Pulse
-  name: Pulse Software User Details API API
+  name: Pulse Software User Details API
   slug: pulse-software-user-details-api-api
 - baseURL: https://*.pulsesoftware.com/webservices/api
   baseurl_source: spec
@@ -129,6 +129,10 @@ collections:
   name: Pulse Public API
   slug: open-pulse-software
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://pulsesoftware.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pulse-software/refs/heads/main/agentic-access/pulse-software-agentic-access.yml
   title: ''
@@ -156,26 +160,26 @@ finops:
   slug: pulse-software-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pulse-software.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Pulse Software
 nav: Providers
 network: true
-overview: 'Pulse Software publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Corporate Planning API API, Forms API API, and 6 more. Tagged areas include Pulse, Automation, and Developers.
+overview: 'Pulse Software publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Corporate Planning API, Forms API, and 6 more. Tagged areas include Pulse, Automation, and Developers.
 
 
-  Pulse Software''s developer surface includes authentication and 3 more developer resources.'
+  Pulse Software''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Pulse Software Plans Pricing
   plan_count: 3
   slug: pulse-software-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Pulse Software Rate Limits
   slug: pulse-software-rate-limits
 score:
   band: thin
-  composite: 27.9
+  composite: 28.0
   coverage:
     artifact_dirs: 9
     catalog_earned: 31.0
@@ -183,11 +187,11 @@ score:
     catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 51.0
+    contract_quality: 51.4
     developer_ergonomics: 21.4
     discoverability: 40.7
     operational_transparency: 7.9
@@ -200,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -220,4 +224,5 @@ tags:
 - Pulse
 - Automation
 - Developers
+website: https://pulsesoftware.com
 ---

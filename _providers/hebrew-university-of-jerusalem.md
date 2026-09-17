@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://shnaton.huji.ac.il/api
-  baseurl_source: declared
-  description: The public JSON API behind shnaton.huji.ac.il, the Hebrew University's official course catalog. Faculties, departments, degree programs, specializations, study roadmaps, courses, course groups, timeta
-  name: Shnaton Course Catalog API
-  slug: shnaton-course-catalog
 - description: The university's own SimpleSAMLphp identity provider, publishing a live SAML 2.0 EntityDescriptor (HTTP 200, application/xml, 4,548 bytes) with IDPSSODescriptor, HTTP-Redirect SSO and SLO bindings, em
   name: Hebrew University of Jerusalem SAML 2.0 Identity Provider
   slug: saml-idp
@@ -56,17 +51,47 @@ apis:
 - description: The institution's ROR identifier, https://ror.org/03qxff017, resolved from the ROR v2 API on 2026-09-01. The canonical machine-readable identifier for the Hebrew University of Jerusalem and the key us
   name: Research Organization Registry (ROR) record
   slug: ror
-artifact_total: 16
+- baseURL: https://shnaton.huji.ac.il/api
+  baseurl_source: declared
+  description: Course search, course groups, timetabled study sessions and prerequisites.
+  name: Hebrew University of Jerusalem Courses API
+  slug: hebrew-university-of-jerusalem-courses-api
+- baseURL: https://shnaton.huji.ac.il/api
+  baseurl_source: declared
+  description: The university's academic structure — faculties, departments and degree programs.
+  name: Hebrew University of Jerusalem Organization API
+  slug: hebrew-university-of-jerusalem-organization-api
+- baseURL: https://shnaton.huji.ac.il/api
+  baseurl_source: declared
+  description: Enumerations the catalog is indexed by — academic years, languages, session types, assignment filters.
+  name: Hebrew University of Jerusalem Reference Data API
+  slug: hebrew-university-of-jerusalem-reference-data-api
+- baseURL: https://shnaton.huji.ac.il/api
+  baseurl_source: declared
+  description: Service health.
+  name: Hebrew University of Jerusalem Service API
+  slug: hebrew-university-of-jerusalem-service-api
+- baseURL: https://shnaton.huji.ac.il/api
+  baseurl_source: declared
+  description: Specializations, units and yearly study roadmaps.
+  name: Hebrew University of Jerusalem Specializations API
+  slug: hebrew-university-of-jerusalem-specializations-api
+- baseURL: https://shnaton.huji.ac.il/api
+  baseurl_source: declared
+  description: Per-course syllabus documents.
+  name: Hebrew University of Jerusalem Syllabus API
+  slug: hebrew-university-of-jerusalem-syllabus-api
+artifact_total: 21
 common:
 - group: company
   title: ''
   type: Website
   url: https://en.huji.ac.il/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/openapi/_original/hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
   title: ''
   type: APIReference
-  url: openapi/hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
+  url: openapi/_original/hebrew-university-of-jerusalem-shnaton-course-catalog-openapi.yml
 - group: learn
   title: ''
   type: CourseCatalog
@@ -213,7 +238,7 @@ modified: '2026-09-01'
 name: Hebrew University of Jerusalem
 nav: Providers
 network: true
-overview: 'Hebrew University of Jerusalem publishes 1 API on the [APIs.io](https://apis.io/) network: Shnaton Course Catalog API. Tagged areas include University, Higher Education, Education, Research, and Israel.
+overview: 'Hebrew University of Jerusalem publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Courses API, Organization API, Reference Data API, and 3 more. Tagged areas include University, Higher Education, Education, Research, and Israel.
 
 
   The Hebrew University of Jerusalem catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -224,7 +249,7 @@ plans:
 - name: Hebrew University Of Jerusalem Plans Pricing
   plan_count: 2
   slug: hebrew-university-of-jerusalem-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Hebrew University Of Jerusalem Rate Limits
@@ -248,7 +273,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.1
+  composite: 35.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 86.3
@@ -256,11 +281,11 @@ score:
     catalog_gap: 28.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 28.9
     contract_governance: 49.2
-    contract_quality: 26.7
+    contract_quality: 26.3
     developer_ergonomics: 19.0
     discoverability: 68.5
     operational_transparency: 26.3
@@ -274,9 +299,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 6
       marker_coverage: 100.0
-      total: 1
+      total: 6
   regulatory:
     applies: true
     matched_via: tags
@@ -284,7 +309,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

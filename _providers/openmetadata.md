@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 848
   human_in_the_loop: 12
@@ -201,11 +201,6 @@ apis:
   slug: openmetadata-ingestion-pipelines-api
 - baseURL: https://{your-host}/api/v1
   baseurl_source: declared
-  description: The ingestionPipelines API from OpenMetadata — 1 operation(s) for ingestionpipelines.
-  name: OpenMetadata ingestionPipelines API
-  slug: openmetadata-ingestionpipelines-api
-- baseURL: https://{your-host}/api/v1
-  baseurl_source: declared
   description: Inline tutorials and expert content surfaced across OpenMetadata product surfaces.
   name: OpenMetadata Learning Resources API
   slug: openmetadata-learning-resources-api
@@ -292,7 +287,7 @@ apis:
 - baseURL: https://{your-host}/api/v1
   baseurl_source: declared
   description: The OpenMetadata APIs API from OpenMetadata — 1 operation(s) for openmetadata apis.
-  name: OpenMetadata OpenMetadata APIs API
+  name: OpenMetadata APIs
   slug: openmetadata-openmetadata-apis-api
 - baseURL: https://{your-host}/api/v1
   baseurl_source: declared
@@ -374,11 +369,6 @@ apis:
   description: APIs related `Search Service` entities, such as ElasticSearch, OpenSearch.
   name: OpenMetadata Search Services API
   slug: openmetadata-search-services-api
-- baseURL: https://{your-host}/api/v1
-  baseurl_source: declared
-  description: A `SearchIndex` is a index mapping for indexing documents in a `Search Service`.
-  name: OpenMetadata SearchIndex API
-  slug: openmetadata-searchindex-api
 - baseURL: https://{your-host}/api/v1
   baseurl_source: declared
   description: APIs related to Security Service entities, such as Apache Ranger.
@@ -489,7 +479,12 @@ apis:
   description: A `Worksheet` is an individual sheet or tab within a Spreadsheet.
   name: OpenMetadata Worksheets API
   slug: openmetadata-worksheets-api
-artifact_total: 219
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `SearchIndex` is a index mapping for indexing documents in a `Search Service`.
+  name: OpenMetadata Search Index API
+  slug: openmetadata-search-index-api
+artifact_total: 218
 collections:
 - collection_type: open
   name: API Collection
@@ -960,11 +955,11 @@ jsonld:
   property_count: 31
   slug: openmetadata-context
 layout: provider
-modified: 2026-06-13
+modified: '2026-09-16'
 name: OpenMetadata
 nav: Providers
 network: true
-overview: 'OpenMetadata publishes 89 APIs on the [APIs.io](https://apis.io/) network, including Agent Executions API, AI Applications API, AI Governance Policies API, and 86 more. Tagged areas include Data Catalog, Metadata, Data Governance, Data Lineage, and Data Quality.
+overview: 'OpenMetadata publishes 88 APIs on the [APIs.io](https://apis.io/) network, including Agent Executions API, AI Applications API, AI Governance Policies API, and 85 more. Tagged areas include Data Catalog, Metadata, Data Governance, Data Lineage, and Data Quality.
 
 
   The OpenMetadata catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -975,7 +970,7 @@ plans:
 - name: Openmetadata Plans Pricing
   plan_count: 5
   slug: openmetadata-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Openmetadata Rate Limits
@@ -1005,7 +1000,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 59.4
+    contract_quality: 59.3
     developer_ergonomics: 35.7
     discoverability: 63.0
     operational_transparency: 21.1
@@ -1016,9 +1011,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 89
+      total: 88
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

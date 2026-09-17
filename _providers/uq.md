@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://status.its.uq.edu.au
-  baseurl_source: declared
-  description: Keyless read-only JSON, RSS and SVG feeds describing the operational state of 678 University of Queensland systems across 43 service categories, plus every published incident. All five endpoints retur
-  name: UQ Status API
-  slug: status-api
 - description: UQ operates a SAML 2.0 Shibboleth identity provider, entityID urn:mace:federation.org.au:testfed:uq.edu.au, with SSO endpoints for the HTTP-Redirect, HTTP-POST and HTTP-POST-SimpleSign bindings. The e
   name: UQ Identity Provider (SAML 2.0 / Shibboleth)
   slug: identity-federation
@@ -59,7 +54,17 @@ apis:
 - description: UQ course reading lists hosted on Talis Aspire. Recorded as a tenant relationship; the Talis Aspire APIs are Talis's contract, not UQ's.
   name: UQ Reading Lists (Talis Aspire tenancy)
   slug: reading-lists
-artifact_total: 16
+- baseURL: https://status.its.uq.edu.au
+  baseurl_source: declared
+  description: Incident records, open and resolved.
+  name: University of Queensland Issues API
+  slug: uq-issues-api
+- baseURL: https://status.its.uq.edu.au
+  baseurl_source: declared
+  description: Current operational state of UQ systems.
+  name: University of Queensland Status API
+  slug: uq-status-api
+artifact_total: 17
 common:
 - group: company
   title: ''
@@ -200,7 +205,7 @@ modified: '2026-08-30'
 name: University of Queensland
 nav: Providers
 network: true
-overview: 'University of Queensland publishes 1 API on the [APIs.io](https://apis.io/) network: UQ Status API. Tagged areas include University, Higher Education, Education, Australia, and Group of Eight.
+overview: 'University of Queensland publishes 2 APIs on the [APIs.io](https://apis.io/) network: Issues API and Status API. Tagged areas include University, Higher Education, Education, Australia, and Group of Eight.
 
 
   The University of Queensland catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -211,7 +216,7 @@ plans:
 - name: Uq Plans Pricing
   plan_count: 2
   slug: uq-plans-pricing
-random_paper: 20
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Uq Rate Limits
@@ -241,7 +246,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 7.6
-    contract_quality: 19.8
+    contract_quality: 19.6
     developer_ergonomics: 35.7
     discoverability: 59.3
     operational_transparency: 23.7
@@ -257,9 +262,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 2
       marker_coverage: 100.0
-      total: 1
+      total: 2
   regulatory:
     applies: true
     matched_via: tags
@@ -267,7 +272,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

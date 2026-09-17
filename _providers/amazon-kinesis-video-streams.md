@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://kinesisvideo.amazonaws.com
   baseurl_source: declared
   description: Video stream management
-  name: Amazon Kinesis Video Streams Streams API
+  name: Amazon Kinesis Video Streams API
   slug: amazon-kinesis-video-streams-streams-api
 artifact_total: 37
 collections:
@@ -76,6 +76,10 @@ collections:
   name: Amazon Kinesis Video Streams API
   slug: open-amazon-kinesis-video-streams
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -219,22 +223,22 @@ jsonld:
   property_count: 7
   slug: amazon-kinesis-video-streams-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Kinesis Video Streams
 nav: Providers
 network: true
-overview: 'Amazon Kinesis Video Streams publishes 2 APIs on the [APIs.io](https://apis.io/) network: Signaling Channels API and Streams API. Tagged areas include IoT, Machine-Learning, Media, and Video Streaming.
+overview: 'Amazon Kinesis Video Streams publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Signaling Channels API, and 1 more. Tagged areas include IoT, Machine-Learning, Media, and Video Streaming.
 
 
   The Amazon Kinesis Video Streams catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Kinesis Video Streams'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon Kinesis Video Streams'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Kinesis Video Streams Plans Pricing
   plan_count: 3
   slug: amazon-kinesis-video-streams-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Kinesis Video Streams Rate Limits
@@ -288,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -326,5 +330,5 @@ use_cases:
   name: Autonomous Vehicles
 - description: Deliver live video streams to viewers with low latency using WebRTC.
   name: Live Video Streaming
-website: https://aws.amazon.com/kinesis/video-streams/
+website: https://amazon.com
 ---

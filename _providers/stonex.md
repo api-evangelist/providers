@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ plans:
 - name: Stonex Plans Pricing
   plan_count: 1
   slug: stonex-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Stonex Rate Limits
@@ -263,7 +263,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

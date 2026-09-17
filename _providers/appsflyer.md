@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 47.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 78
 apis:
 - description: The Creative External API uploads creative assets and publishes ads to ad networks programmatically, bypassing the AppsFlyer Creative Dashboard UI. It is asynchronous — a batch is submitted for upload
@@ -82,11 +82,6 @@ apis:
   description: The Add excluded app API from AppsFlyer — 1 operation(s) for add excluded app.
   name: AppsFlyer Add excluded app API
   slug: appsflyer-add-excluded-app-api
-- baseURL: https://hq1.appsflyer.com/api/
-  baseurl_source: declared
-  description: The Additional Identifiers Handling API from AppsFlyer — 1 operation(s) for additional identifiers handling.
-  name: AppsFlyer Additional Identifiers Handling API
-  slug: appsflyer-additional-identifiers-handling-api
 - baseURL: https://hq1.appsflyer.com/api/
   baseurl_source: declared
   description: The Aggregate (user acquisition and retargeting) API from AppsFlyer — 5 operation(s) for aggregate (user acquisition and retargeting).
@@ -167,11 +162,6 @@ apis:
   description: The Create audience API from AppsFlyer — 1 operation(s) for create audience.
   name: AppsFlyer Create audience API
   slug: appsflyer-create-audience-api
-- baseURL: https://hq1.appsflyer.com/api/
-  baseurl_source: declared
-  description: The Download Events API from AppsFlyer — 1 operation(s) for download events.
-  name: AppsFlyer Download Events API
-  slug: appsflyer-download-events-api
 - baseURL: https://hq1.appsflyer.com/api/
   baseurl_source: declared
   description: The Event Types API from AppsFlyer — 1 operation(s) for event types.
@@ -264,11 +254,6 @@ apis:
   slug: appsflyer-managing-users-in-bulk-api
 - baseURL: https://hq1.appsflyer.com/api/
   baseurl_source: declared
-  description: The Master Report API from AppsFlyer — 1 operation(s) for master report.
-  name: AppsFlyer Master Report API
-  slug: appsflyer-master-report-api
-- baseURL: https://hq1.appsflyer.com/api/
-  baseurl_source: declared
   description: The Measure first app opens API from AppsFlyer — 1 operation(s) for measure first app opens.
   name: AppsFlyer Measure first app opens API
   slug: appsflyer-measure-first-app-opens-api
@@ -359,11 +344,6 @@ apis:
   slug: appsflyer-skan-performance-report-api
 - baseURL: https://hq1.appsflyer.com/api/
   baseurl_source: declared
-  description: The SKAN postbacks API from AppsFlyer — 1 operation(s) for skan postbacks.
-  name: AppsFlyer SKAN postbacks API
-  slug: appsflyer-skan-postbacks-api
-- baseURL: https://hq1.appsflyer.com/api/
-  baseurl_source: declared
   description: The Store commission rates API from AppsFlyer — 2 operation(s) for store commission rates.
   name: AppsFlyer Store commission rates API
   slug: appsflyer-store-commission-rates-api
@@ -397,7 +377,7 @@ apis:
   description: The URL Validation API from AppsFlyer — 1 operation(s) for url validation.
   name: AppsFlyer URL Validation API
   slug: appsflyer-url-validation-api
-artifact_total: 119
+artifact_total: 115
 asyncapis:
 - description: ''
   name: Appsflyer Push Api Webhooks
@@ -919,7 +899,7 @@ modified: '2026-08-13'
 name: AppsFlyer
 nav: Providers
 network: true
-overview: 'AppsFlyer publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Account connections API, Account Integration API, Account splits API, and 67 more. Tagged areas include Company, Mobile Attribution, Marketing Analytics, Mobile Measurement, and Deep Linking.
+overview: 'AppsFlyer publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Account connections API, Account Integration API, Account splits API, and 63 more. Tagged areas include Company, Mobile Attribution, Marketing Analytics, Mobile Measurement, and Deep Linking.
 
 
   The AppsFlyer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -930,14 +910,14 @@ plans:
 - name: Appsflyer Plans Pricing
   plan_count: 3
   slug: appsflyer-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 11
   name: Appsflyer Rate Limits
   slug: appsflyer-rate-limits
 score:
   band: strong
-  composite: 65.6
+  composite: 65.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 61.0
@@ -945,11 +925,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 60.1
+    contract_quality: 61.3
     developer_ergonomics: 58.9
     discoverability: 87.0
     operational_transparency: 73.7
@@ -957,14 +937,14 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 98.5
       derived: 0
       marker_coverage: 0.0
-      total: 70
+      total: 66
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

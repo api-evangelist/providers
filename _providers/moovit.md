@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,19 +76,19 @@ apis:
   slug: moovit-search-api
 - baseURL: https://app5.moovitapp.com/services-app/services/
   baseurl_source: declared
-  description: Metro service alerts and details.
-  name: Moovit ServiceAlerts API
-  slug: moovit-servicealerts-api
-- baseURL: https://app5.moovitapp.com/services-app/services/
-  baseurl_source: declared
   description: Stop metadata, lines served, reviews, and photos.
   name: Moovit Stops API
   slug: moovit-stops-api
 - baseURL: https://app5.moovitapp.com/services-app/services/
   baseurl_source: declared
+  description: Metro service alerts and details.
+  name: Moovit Service Alerts API
+  slug: moovit-service-alerts-api
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
   description: Multimodal trip planning and itinerary details.
-  name: Moovit TripPlan API
-  slug: moovit-tripplan-api
+  name: Moovit Trip Plan API
+  slug: moovit-trip-plan-api
 artifact_total: 39
 collections:
 - collection_type: open
@@ -305,10 +305,10 @@ overview: 'Moovit publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Moovit''s developer surface includes authentication, developer portal, documentation, engineering blog, support, YouTube channel, and 31 more developer resources.'
-random_paper: 19
+random_paper: 10
 score:
   band: thin
-  composite: 27.4
+  composite: 28.1
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -316,11 +316,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 50.3
+    contract_quality: 53.1
     developer_ergonomics: 38.1
     discoverability: 68.5
     operational_transparency: 2.6
@@ -333,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

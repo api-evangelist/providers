@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -133,11 +133,6 @@ apis:
   slug: mcafee-real-time-search-api
 - baseURL: https://your-epo-server:8443/remote
   baseurl_source: declared
-  description: Manage web security rule sets
-  name: McAfee (Trellix) Rule Sets API
-  slug: mcafee-rule-sets-api
-- baseURL: https://your-epo-server:8443/remote
-  baseurl_source: declared
   description: Manage software repositories and packages
   name: McAfee (Trellix) Software API
   slug: mcafee-software-api
@@ -171,6 +166,11 @@ apis:
   description: Manage security watchlists
   name: McAfee (Trellix) Watchlists API
   slug: mcafee-watchlists-api
+- baseURL: https://your-tie-server/api
+  baseurl_source: declared
+  description: Manage web security rule sets
+  name: McAfee (Trellix) Rulesets API
+  slug: mcafee-rulesets-api
 artifact_total: 106
 collections:
 - collection_type: open
@@ -474,7 +474,7 @@ plans:
 - name: Mcafee Plans Pricing
   plan_count: 1
   slug: mcafee-plans-pricing
-random_paper: 0
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Mcafee Rate Limits
@@ -517,7 +517,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

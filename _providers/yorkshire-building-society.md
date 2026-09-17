@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -326,7 +326,7 @@ overview: 'Yorkshire Building Society publishes 22 APIs on the [APIs.io](https:/
 
 
   Yorkshire Building Society''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 25 more developer resources.'
-random_paper: 8
+random_paper: 12
 scopes:
 - name: Yorkshire Building Society Scopes
   scope_count: 4
@@ -380,7 +380,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

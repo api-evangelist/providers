@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: ID.me's OpenID Connect and OAuth 2.0 identity provider. Supports the authorization code flow (with PKCE), refresh tokens, encrypted ID tokens and userinfo, and returns verified identity attributes and
@@ -190,7 +190,7 @@ mcp_servers:
 - description: Official hosted MCP server for the ID.me developer documentation, advertised in docs.id.me/llms.txt for AI client integration (Claude Code, Cursor, etc.). Surfaces the ID.me integration docs — OIDC/OA
   name: ID.me Developer Docs
   slug: idme-developer-docs
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: ID.me
 nav: Providers
 network: true
@@ -201,7 +201,7 @@ overview: 'ID.me publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   ID.me''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 22 more developer resources.'
-random_paper: 16
+random_paper: 19
 scopes:
 - name: Idme Scopes
   scope_count: 11
@@ -236,7 +236,7 @@ score:
     regime_id: government
     score: 70.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -264,10 +264,11 @@ tags:
 - Authentication
 - OpenID Connect
 - SAML
-- Single Sign-On
+- SSO
 - Digital Identity
 - KYC
 - Fraud Prevention
 - Government
+- Identity Federation
 website: https://www.id.me
 ---

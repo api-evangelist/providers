@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface for the Poppy Hand-Crafted Popcorn storefront, implementing the Universal Commerce Protocol (UCP) 2026-04-08 over MCP. Thirteen tools cover catalog search and lookup,
@@ -142,7 +142,7 @@ plans:
 - name: Poppy Handcrafted Popcorn Plans Pricing
   plan_count: 0
   slug: poppy-handcrafted-popcorn-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Poppy Handcrafted Popcorn Rate Limits
@@ -176,7 +176,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -199,7 +199,7 @@ tags:
 - Consumer Packaged Goods
 - Retail
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - Shopify

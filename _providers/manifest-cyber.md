@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The official public API for the Manifest Cyber platform v1. Used by Manifest''s frontend apps and internal ETL processes to access SBOM data, vulnerability analysis, and software supply chain security '
@@ -139,7 +139,7 @@ plans:
 - name: Manifest Cyber Plans Pricing
   plan_count: 3
   slug: manifest-cyber-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Manifest Cyber Rate Limits
@@ -171,7 +171,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

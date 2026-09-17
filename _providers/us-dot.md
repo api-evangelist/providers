@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 53
   slug: us-dot-agentic-access
   summary_line: 53 operations · 15 acting
-api_count: 5
+api_count: 12
 apis:
 - description: The Federal Aviation Administration's open data catalog, running CKAN 2.11.4 and exposing the full CKAN Action API v3 anonymously at /api/3/action/. package_list, package_search, package_show, organiz
   name: FAA Data Catalog (CKAN Action API v3)
@@ -198,41 +198,41 @@ apis:
 - description: 'The U.S. Department of Transportation Open Data Portal provides access to transportation datasets published by DOT agencies including FMCSA, NHTSA, FTA, BTS, FAA, PHMSA, and more. The portal supports '
   name: DOT Open Data Portal
   slug: dot-data-portal
-- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+- baseURL: https://catalog.data.faa.gov/api/3
   baseurl_source: declared
   description: Child Seat search and list endpoints
-  name: US Department of Transportation childSeats API
-  slug: dot-childseats-api
-- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  name: U.S. Department of Transportation Child Seats API
+  slug: us-dot-childseats-api
+- baseURL: https://catalog.data.faa.gov/api/3
   baseurl_source: declared
   description: Equipment search and list endpoints
-  name: US Department of Transportation equipment API
-  slug: dot-equipment-api
-- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  name: U.S. Department of Transportation Equipment API
+  slug: us-dot-equipment-api
+- baseURL: https://catalog.data.faa.gov/api/3
   baseurl_source: declared
   description: Early Warning Report endpoints
-  name: US Department of Transportation ewr API
-  slug: dot-ewr-api
-- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  name: U.S. Department of Transportation Ewr API
+  slug: us-dot-ewr-api
+- baseURL: https://catalog.data.faa.gov/api/3
   baseurl_source: declared
   description: Foreign Campaign search and list endpoints
-  name: US Department of Transportation foreignCampaigns API
-  slug: dot-foreigncampaigns-api
-- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  name: U.S. Department of Transportation Foreign Campaigns API
+  slug: us-dot-foreigncampaigns-api
+- baseURL: https://catalog.data.faa.gov/api/3
   baseurl_source: declared
   description: Recalls, Investigations, Complaints, and Manufacturer Communications
-  name: US Department of Transportation safetyIssues API
-  slug: dot-safetyissues-api
-- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  name: U.S. Department of Transportation Safety Issues API
+  slug: us-dot-safetyissues-api
+- baseURL: https://catalog.data.faa.gov/api/3
   baseurl_source: declared
   description: Tire search and list endpoints
-  name: US Department of Transportation tires API
-  slug: dot-tires-api
-- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  name: U.S. Department of Transportation Tires API
+  slug: us-dot-tires-api
+- baseURL: https://catalog.data.faa.gov/api/3
   baseurl_source: declared
   description: Vehicle search and list endpoints
-  name: US Department of Transportation vehicles API
-  slug: dot-vehicles-api
+  name: U.S. Department of Transportation Vehicles API
+  slug: us-dot-vehicles-api
 artifact_total: 61
 asyncapis:
 - description: ''
@@ -556,10 +556,10 @@ overview: 'U.S. Department of Transportation publishes 31 APIs on the [APIs.io](
 
 
   U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 49 more developer resources.'
-random_paper: 16
+random_paper: 10
 score:
   band: developing
-  composite: 52.0
+  composite: 53.3
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -567,11 +567,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 54.6
+    contract_quality: 59.8
     developer_ergonomics: 58.9
     discoverability: 87.0
     operational_transparency: 44.7
@@ -600,7 +600,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: LifePoint Health
 nav: Providers
 network: true
-overview: LifePoint Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Hospitals, Health Systems, Provider, and Fortune 500.
+overview: LifePoint Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Hospitals, Health Systems, Providers, and Fortune 500.
 press:
 - date: '2026-05-25'
   title: We are pleased to share that Eon and LifePoint Health ...
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: Loyal Introduces Innovative Multi-Experience Platform
   url: https://lifepointhealth.net/news/loyal-introduces-innovative-multi-experience-platform-establishes-five-year-partnership-with-lifepoint-health
-random_paper: 7
+random_paper: 17
 score:
   band: minimal
   composite: 3.3
@@ -101,7 +101,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -118,7 +118,7 @@ tags:
 - Healthcare
 - Hospitals
 - Health Systems
-- Provider
+- Providers
 - Fortune 500
 website: https://www.lifepointhealth.net
 ---

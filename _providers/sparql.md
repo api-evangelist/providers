@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 2
+- acting_count: 7
   human_in_the_loop: 0
   name: Sparql Agentic Access
-  operation_count: 3
+  operation_count: 10
   slug: sparql-agentic-access
-  summary_line: 3 operations · 2 acting
+  summary_line: 10 operations · 7 acting
 api_count: 2
 apis:
 - description: Standard SPARQL 1.1 Protocol HTTP endpoints for executing queries and updates against RDF datasets, plus the Graph Store HTTP Protocol for direct management of named graphs and the default graph, as d
@@ -54,17 +54,17 @@ apis:
 - baseURL: https://dbpedia.org/sparql
   baseurl_source: declared
   description: The Sparql API from SPARQL — 1 operation(s) for sparql.
-  name: SPARQL Sparql API
+  name: SPARQL API
   slug: sparql-sparql-api
 - baseURL: https://dbpedia.org/sparql
   baseurl_source: declared
   description: The Sparql Graph API from SPARQL — 1 operation(s) for sparql graph.
-  name: SPARQL Sparql Graph API
+  name: SPARQL Graph API
   slug: sparql-sparql-graph-api
 - baseURL: https://dbpedia.org/sparql
   baseurl_source: declared
   description: The Sparql Update API from SPARQL — 1 operation(s) for sparql update.
-  name: SPARQL Sparql Update API
+  name: SPARQL Update API
   slug: sparql-sparql-update-api
 - baseURL: https://dbpedia.org/sparql
   baseurl_source: declared
@@ -113,16 +113,16 @@ finops:
   slug: sparql-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sparql.png
 layout: provider
-modified: '2026-03-16'
+modified: '2026-09-16'
 name: SPARQL
 nav: Providers
 network: true
-overview: SPARQL publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Query API, Sparql API, Sparql Graph API, and 2 more. Tagged areas include Linked Data, Query Language, RDF, Semantic Web, and SPARQL.
+overview: SPARQL publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Query API, Graph API, and 3 more. Tagged areas include Linked Data, Query Language, RDF, Semantic Web, and SPARQL.
 plans:
 - name: Sparql Plans Pricing
   plan_count: 3
   slug: sparql-plans-pricing
-random_paper: 8
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Sparql Rate Limits
@@ -154,7 +154,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

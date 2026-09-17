@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.8
-  scored_at: '2026-09-15'
+  score: 22.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: mealdb-agentic-access
   summary_line: 8 operations
-api_count: 1
+api_count: 5
 apis:
 - baseURL: https://www.themealdb.com/api/json/v1/1
   baseurl_source: declared
@@ -78,27 +78,7 @@ apis:
   description: The Search.php API from TheMealDB — 1 operation(s) for search.php.
   name: TheMealDB Search.php API
   slug: mealdb-search-php-api
-- baseURL: https://www.themealdb.com/api/json/v1/1
-  baseurl_source: declared
-  description: Filter meals by attributes
-  name: TheMealDB Filter API
-  slug: themealdb-filter-api
-- baseURL: https://www.themealdb.com/api/json/v1/1
-  baseurl_source: declared
-  description: List available categories, areas, and ingredients
-  name: TheMealDB List API
-  slug: themealdb-list-api
-- baseURL: https://www.themealdb.com/api/json/v1/1
-  baseurl_source: declared
-  description: Retrieve details by ID or random meal
-  name: TheMealDB Lookup API
-  slug: themealdb-lookup-api
-- baseURL: https://www.themealdb.com/api/json/v1/1
-  baseurl_source: declared
-  description: Search for meals and ingredients
-  name: TheMealDB Search API
-  slug: themealdb-search-api
-artifact_total: 35
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -230,7 +210,7 @@ modified: '2026-06-13'
 name: TheMealDB
 nav: Providers
 network: true
-overview: 'TheMealDB publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Categories.php API, Filter.php API, List.php API, and 8 more. Tagged areas include Food, Recipes, Meals, Cooking, and Ingredients.
+overview: 'TheMealDB publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories.php API, Filter.php API, List.php API, and 4 more. Tagged areas include Food, Recipes, Meals, Cooking, and Ingredients.
 
 
   The TheMealDB catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -241,7 +221,7 @@ plans:
 - name: Mealdb Plans Pricing
   plan_count: 2
   slug: mealdb-plans-pricing
-random_paper: 4
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Mealdb Rate Limits
@@ -259,30 +239,30 @@ rules:
   slug: mealdb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.1
+  composite: 44.7
   coverage:
     artifact_dirs: 14
-    catalog_earned: 80.3
+    catalog_earned: 77.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.8
+    catalog_gap: 37.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.6
   facets:
     access_clarity: 60.5
     contract_governance: 9.8
-    contract_quality: 47.8
+    contract_quality: 60.0
     developer_ergonomics: 14.3
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 31.6
   previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 4
-      marker_coverage: 36.4
-      total: 11
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
   regulatory:
     applies: true
     matched_via: tags
@@ -290,7 +270,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

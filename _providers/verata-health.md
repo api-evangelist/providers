@@ -19,7 +19,7 @@ name: Verata Health
 nav: Providers
 network: true
 overview: Verata Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Prior Authorization, Artificial Intelligence, and Revenue Cycle.
-random_paper: 16
+random_paper: 20
 slug: verata-health
 tags:
 - Company

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The OB-1 coding-agent platform. The only publicly reachable API surface is the OAuth 2.0 / OpenID Connect authorization server; the platform data API and manual sit behind authenticated dashboard acce
@@ -121,7 +121,7 @@ created: '2026-07-17'
 description: OpenBlock Labs builds OB-1, a self-improving autonomous coding agent that automates the software development lifecycle from PM to PR. OB-1 runs as a native terminal CLI and inside VS Code and JetBrains IDEs, consumes MCP (Model Context Protocol) servers for custom tool integration, and provides a built-in browser agent. It routes across 300+ models via OpenRouter with bring-your-own-keys, bills usage-based at 1:1 model-token pass-through, and integrates with GitHub, Linear, Graphite, and Slack. Access is authenticated through a standards-compliant OAuth 2.0 / OpenID Connect authorization server (auth.openblocklabs.com, WorkOS AuthKit), with SSO/SAML, self-hosting, and audit logging available on enterprise plans. Originally surfaced as a portfolio company of Electric Capital and enriched by the API Evangelist pipeline from its public product surface and published auth metadata.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openblock-labs.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: OpenBlock Labs
 nav: Providers
 network: true
@@ -129,7 +129,7 @@ overview: 'OpenBlock Labs publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   OpenBlock Labs'' developer surface includes documentation, pricing, signup flow, support, authentication, CLI, and 11 more developer resources.'
-random_paper: 13
+random_paper: 12
 scopes:
 - name: Openblock Labs Scopes
   scope_count: 0
@@ -157,7 +157,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -183,5 +183,6 @@ tags:
 - Automation
 - Authentication
 - MCP
+- Identity Federation
 website: https://www.openblocklabs.com/
 ---

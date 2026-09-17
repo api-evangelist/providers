@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Server-side Twirp API for managing rooms, participants, tracks, mute/unmute, and metadata.
@@ -62,6 +62,10 @@ asyncapis:
   name: LiveKit Signaling Protocol
   slug: livekit-asyncapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://livekit.io
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/security/livekit-trust-center.yml
   title: ''
@@ -132,7 +136,7 @@ finops:
   slug: livekit-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/livekit.png
 layout: provider
-modified: '2026-05-29'
+modified: '2026-09-16'
 name: LiveKit
 nav: Providers
 network: true
@@ -142,12 +146,12 @@ overview: 'LiveKit publishes 1 API on the [APIs.io](https://apis.io/) network: S
   The LiveKit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  LiveKit''s developer surface includes developer portal, documentation, pricing, GitHub presence, engineering blog, and 9 more developer resources.'
+  LiveKit''s developer surface includes developer portal, documentation, pricing, GitHub presence, engineering blog, and 10 more developer resources.'
 plans:
 - name: Livekit Plans Pricing
   plan_count: 4
   slug: livekit-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Livekit Rate Limits
@@ -184,7 +188,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 32.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,5 +218,5 @@ tags:
 - AI Agents
 - Voice
 - Cloud
-website: https://livekit.io/
+website: https://livekit.io
 ---

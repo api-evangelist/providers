@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for ingesting entities, instruments, and transaction events into the Unit21 risk and compliance platform. Enables creation and management of alerts, cases, rules, and suspicious activity repo
@@ -202,7 +202,7 @@ plans:
 - name: Unit21 Plans Pricing
   plan_count: 1
   slug: unit21-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Unit21 Rate Limits
@@ -230,7 +230,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://searchads360.googleapis.com
   baseurl_source: declared
   description: The Google Search Ads 360 Reporting API API from Google Search Ads 360 Reporting — 1 operation(s) for google search ads 360 reporting api.
-  name: Google Search Ads 360 Reporting Google Search Ads 360 Reporting API API
+  name: Google Search Ads 360 Reporting Google Search Ads 360 Reporting API
   slug: google-search-ads-360-google-search-ads-360-reporting-api-api
 artifact_total: 17
 collections:
@@ -161,11 +161,11 @@ finops:
   slug: google-search-ads-360-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-search-ads-360.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Search Ads 360 Reporting
 nav: Providers
 network: true
-overview: 'Google Search Ads 360 Reporting publishes 2 APIs on the [APIs.io](https://apis.io/) network: Customers API and Google Search Ads 360 Reporting API API. Tagged areas include Campaign Management, Conversions, Keywords, Reporting, and Search Ads 360.
+overview: 'Google Search Ads 360 Reporting publishes 2 APIs on the [APIs.io](https://apis.io/) network: Customers API and Google Search Ads 360 Reporting API. Tagged areas include Campaign Management, Conversion, Keywords, Reporting, and Search Ads 360.
 
 
   The Google Search Ads 360 Reporting catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -224,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -246,7 +246,7 @@ security:
 slug: google-search-ads-360
 tags:
 - Campaign Management
-- Conversions
+- Conversion
 - Keywords
 - Reporting
 - Search Ads 360

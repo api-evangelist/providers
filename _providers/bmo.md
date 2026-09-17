@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -61,19 +61,9 @@ apis:
   slug: bmo-accounttransactionimages-api
 - baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
   baseurl_source: declared
-  description: The AccountValidation API from BMO — 1 operation(s) for accountvalidation.
-  name: BMO Account Validation API
-  slug: bmo-accountvalidation-api
-- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
-  baseurl_source: declared
   description: Receive payment inquiry request in CAMT.005 ISO from BMO Canada Partners/Customers and send payment status as response in PAIN.002 ISO.
   name: BMO Get Payment Status API
   slug: bmo-getpaymentstatus-api
-- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
-  baseurl_source: declared
-  description: The Oauth20 API from BMO — 2 operation(s) for oauth20.
-  name: BMO Oauth20 API
-  slug: bmo-oauth20-api
 - baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
   baseurl_source: declared
   description: Payment List which receives CAMT.005 ISO request as input and return PAIN.002 ISO as response.
@@ -84,16 +74,6 @@ apis:
   description: Service agreement search which receives CustomerEntityId (proprietary) as input and return CustomerAgreementInfoReport (proprietary) as response
   name: BMO Obtain Service Agreement List API
   slug: bmo-obtain-service-agreement-list-api
-- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
-  baseurl_source: declared
-  description: This is a tag for Payment Initiation - send Payments. receive PAIN001/PAIN008 (Debit/Credit) ISO request as input and return PAIN002 ISO as response after interacting with downstream Payment Rail Syst
-  name: BMO Payment Initiation API
-  slug: bmo-paymentinitiation-api
-- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
-  baseurl_source: declared
-  description: This is a tag for PaymentStatus which enquiry sends CAMT005 ISO JSON Request standard messages and enquires and responds back with PAIN002 message structure after querying matching backend.
-  name: BMO Payment Status API
-  slug: bmo-paymentstatus-api
 - baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
   baseurl_source: declared
   description: The PaymentStatusUpdate API from BMO — 1 operation(s) for paymentstatusupdate.
@@ -159,6 +139,26 @@ apis:
   description: The TppACHArrangementCompany API from BMO — 1 operation(s) for tppacharrangementcompany.
   name: BMO Tpp ACH Arrangement Company API
   slug: bmo-tppacharrangementcompany-api
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: The Account Validation API from BMO — 1 operation(s) for account validation.
+  name: BMO Account Validation API
+  slug: bmo-account-validation-api
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: The OAuth 2.0 API from BMO — 2 operation(s) for oauth 2.0.
+  name: BMO OAuth 2.0 API
+  slug: bmo-oauth-2-0-api
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: This is a tag for Payment Initiation - send Payments. receive PAIN001/PAIN008 (Debit/Credit) ISO request as input and return PAIN002 ISO as response after interacting with downstream Payment Rail Syst
+  name: BMO Payment Initiation API
+  slug: bmo-payment-initiation-api
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: This is a tag for PaymentStatus which enquiry sends CAMT005 ISO JSON Request standard messages and enquires and responds back with PAIN002 message structure after querying matching backend.
+  name: BMO Payment Status API
+  slug: bmo-payment-status-api
 artifact_total: 39
 asyncapis:
 - description: ''
@@ -325,7 +325,7 @@ overview: 'BMO publishes 23 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   BMO''s developer surface includes authentication, sandbox, documentation, API reference, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 3
+random_paper: 10
 scopes:
 - name: Bmo Scopes
   scope_count: 15
@@ -373,7 +373,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

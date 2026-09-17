@@ -42,6 +42,10 @@ collections:
   name: Impala Hotel Booking Bookings Rate Calendar API
   slug: open-impala-rate-calendar-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://impala.travel
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/capabilities/impala-capability-edges.yml
   title: ''
@@ -124,15 +128,15 @@ created: '2026-07-17'
 description: 'Impala built a single, standardized REST API for the hotel industry — one integration to search availability, read rate plans, and create, amend, and cancel bookings across many property management systems (PMS), so any app could sell hotel rooms and earn commission per booking. Founded in London in 2016 and backed by Speedinvest, Lakestar, and Kima Ventures, Impala shipped a sandbox (with a demo hotel, "The Charleston"), a Postman collection, and PHP/JavaScript wrappers. The company is now defunct: getimpala.com / impala.travel and the API and docs hosts no longer resolve, and the primary domain is held by an unrelated party. This profile preserves the historical OpenAPI (apis.guru impala.travel:hotels 1.003) and pipeline-derived artifacts for the record.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/impala.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Impala
 nav: Providers
 network: true
 overview: 'Impala publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bookings API, Hotels API, and Rate Calendar API. Tagged areas include Company, Hotels, Travel, Booking, and Hospitality.
 
 
-  Impala''s developer surface includes authentication, sandbox, and 14 more developer resources.'
-random_paper: 19
+  Impala''s developer surface includes authentication, sandbox, and 15 more developer resources.'
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/screenshots/impala-2026-07-25T222147.png
 security:
 - kind: authentication
@@ -148,4 +152,5 @@ tags:
 - Hospitality
 - Payments
 - Defunct
+website: https://impala.travel
 ---

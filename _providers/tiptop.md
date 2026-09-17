@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Server-side order-management endpoints for the Tiptop Direct integration: request capture, void (full or partial), and refund (full or partial) of orders created through the tiptop.js checkout, addres'
@@ -43,6 +43,10 @@ apis:
   slug: tiptop-direct-order-management-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tiptop.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tiptop/refs/heads/main/security/tiptop-domain-security.yml
   title: ''
@@ -132,15 +136,15 @@ created: '2026-07-17'
 description: 'Tiptop (Tiptop Labs) is the payments company founded by Postmates co-founder Bastian Lehmann that lets shoppers trade in items they already own for instant credit at checkout, alongside pay-over-time options. Merchants integrate through a Shopify payments app, a Salesforce Commerce Cloud cartridge, a Magento 2 module, or the Direct API — the tiptop.js browser library plus server-side order-management endpoints (capture, void, refund) authenticated with an api-key header. Backed by a16z ($23M Series A, 2022). Note: as of July 2026 tiptop.com redirects to mother.ai (Mother Computer Inc.) and its TLS certificate has expired, while docs.tiptop.com, api.tiptop.com, cdn.tiptop.com, and the first-party packages remain live.'
 image: https://raw.githubusercontent.com/tiptopxyz/magento/master/view/adminhtml/web/images/tiptop-logo.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Tiptop
 nav: Providers
 network: true
 overview: 'Tiptop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Trade-In, and Checkout.
 
 
-  Tiptop''s developer surface includes documentation, getting-started guide, API reference, engineering blog, authentication, sandbox, and 12 more developer resources.'
-random_paper: 0
+  Tiptop''s developer surface includes documentation, getting-started guide, API reference, engineering blog, authentication, sandbox, and 13 more developer resources.'
+random_paper: 12
 score:
   band: emerging
   composite: 18.3
@@ -170,7 +174,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -195,4 +199,5 @@ tags:
 - Checkout
 - Commerce
 - Pay Over Time
+website: https://tiptop.com
 ---

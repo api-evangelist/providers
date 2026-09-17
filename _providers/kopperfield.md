@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -148,7 +148,7 @@ overview: 'Kopperfield is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Kopperfield''s developer surface includes pricing, signup flow, engineering blog, support, and 20 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 10.4
@@ -169,7 +169,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 10.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

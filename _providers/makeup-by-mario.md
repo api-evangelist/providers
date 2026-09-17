@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: Makeup By Mario Plans Pricing
   plan_count: 0
   slug: makeup-by-mario-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Makeup By Mario Rate Limits
@@ -269,7 +269,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

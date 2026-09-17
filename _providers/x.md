@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 61.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 4
@@ -423,7 +423,7 @@ plans:
 - name: X Plans Pricing
   plan_count: 2
   slug: x-plans-pricing
-random_paper: 15
+random_paper: 10
 rate_limits:
 - limit_count: 17
   name: X Rate Limits
@@ -463,7 +463,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -494,9 +494,9 @@ tags:
 - Real-Time
 - Trends
 - Media
-- Spaces
+- Space
 - Content
-- Conversation
+- Conversations
 - Agents
 - MCP
 website: https://x.com/

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Public gRPC control and acquisition interface for the HYPERLABS TDR11100 Time Domain Reflectometer. The proto3 service radium.v1.Radium exposes 22 unary RPCs covering readiness and board state, reset,
@@ -45,11 +45,6 @@ apis:
   description: The Account API from HYPERLABS — 10 operation(s) for account.
   name: HYPERLABS Account API
   slug: hyperlabs-account-api
-- baseURL: https://www.hyperlabs.com/api
-  baseurl_source: declared
-  description: The AdminAccount API from HYPERLABS — 5 operation(s) for adminaccount.
-  name: HYPERLABS Admin Account API
-  slug: hyperlabs-adminaccount-api
 - baseURL: https://www.hyperlabs.com/api
   baseurl_source: declared
   description: The AdminDatasheets API from HYPERLABS — 2 operation(s) for admindatasheets.
@@ -127,19 +122,9 @@ apis:
   slug: hyperlabs-contactmessages-api
 - baseURL: https://www.hyperlabs.com/api
   baseurl_source: declared
-  description: The CustomerProfile API from HYPERLABS — 1 operation(s) for customerprofile.
-  name: HYPERLABS Customer Profile API
-  slug: hyperlabs-customerprofile-api
-- baseURL: https://www.hyperlabs.com/api
-  baseurl_source: declared
   description: The CustomerWishlists API from HYPERLABS — 5 operation(s) for customerwishlists.
   name: HYPERLABS Customer Wishlists API
   slug: hyperlabs-customerwishlists-api
-- baseURL: https://www.hyperlabs.com/api
-  baseurl_source: declared
-  description: The MediaFiles API from HYPERLABS — 7 operation(s) for mediafiles.
-  name: HYPERLABS Media Files API
-  slug: hyperlabs-mediafiles-api
 - baseURL: https://www.hyperlabs.com/api
   baseurl_source: declared
   description: The ProductClasses API from HYPERLABS — 5 operation(s) for productclasses.
@@ -150,11 +135,6 @@ apis:
   description: The Products API from HYPERLABS — 14 operation(s) for products.
   name: HYPERLABS Products API
   slug: hyperlabs-products-api
-- baseURL: https://www.hyperlabs.com/api
-  baseurl_source: declared
-  description: The ProductUnits API from HYPERLABS — 3 operation(s) for productunits.
-  name: HYPERLABS Product Units API
-  slug: hyperlabs-productunits-api
 - baseURL: https://www.hyperlabs.com/api
   baseurl_source: declared
   description: The RequestQuotes API from HYPERLABS — 1 operation(s) for requestquotes.
@@ -180,11 +160,6 @@ apis:
   description: The SpecificationTypes API from HYPERLABS — 3 operation(s) for specificationtypes.
   name: HYPERLABS Specification Types API
   slug: hyperlabs-specificationtypes-api
-- baseURL: https://www.hyperlabs.com/api
-  baseurl_source: declared
-  description: The TagTypes API from HYPERLABS — 5 operation(s) for tagtypes.
-  name: HYPERLABS Tag Types API
-  slug: hyperlabs-tagtypes-api
 - baseURL: https://www.hyperlabs.com/api
   baseurl_source: declared
   description: The Tech API from HYPERLABS — 1 operation(s) for tech.
@@ -255,6 +230,31 @@ apis:
   description: The Wishlists API from HYPERLABS — 2 operation(s) for wishlists.
   name: HYPERLABS Wishlists API
   slug: hyperlabs-wishlists-api
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Admin Account API from HYPERLABS — 5 operation(s) for admin account.
+  name: HYPERLABS Admin Account API
+  slug: hyperlabs-admin-account-api
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Customer Profile API from HYPERLABS — 1 operation(s) for customer profile.
+  name: HYPERLABS Customer Profile API
+  slug: hyperlabs-customer-profile-api
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Media Files API from HYPERLABS — 7 operation(s) for media files.
+  name: HYPERLABS Media Files API
+  slug: hyperlabs-media-files-api
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Product Units API from HYPERLABS — 3 operation(s) for product units.
+  name: HYPERLABS Product Units API
+  slug: hyperlabs-product-units-api
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Tag Types API from HYPERLABS — 5 operation(s) for tag types.
+  name: HYPERLABS Tag Types API
+  slug: hyperlabs-tag-types-api
 artifact_total: 48
 asyncapis:
 - description: 'Server-streaming surface of the radium.v1.Radium gRPC service running on a HYPERLABS TDR11100 Time Domain Reflectometer. A client opens a gRPC channel to the instrument on TCP 50052 and subscribes to '
@@ -391,10 +391,10 @@ common:
   type: Protobuf
   url: grpc/hyperlabs-radium.proto
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/hyperlabs-web-openapi-original.json
+  href: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/openapi/_original/hyperlabs-web-openapi-original.json
   title: ''
   type: OpenAPI
-  url: openapi/hyperlabs-web-openapi-original.json
+  url: openapi/_original/hyperlabs-web-openapi-original.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/overlays/hyperlabs-web-overlay.yaml
   title: ''
@@ -424,21 +424,21 @@ description: 'HYPERLABS, Inc. designs and manufactures signal-integrity products
   is also offered as first-party Windows DLL packages (ZTDR and XTDR) with C++ sample source and manuals.'
 image: https://www.hyperlabs.com/assets/logoFull.svg
 layout: provider
-modified: '2026-08-01'
+modified: '2026-09-16'
 name: HYPERLABS
 nav: Providers
 network: true
-overview: 'HYPERLABS publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Radium gRPC API (TDR11100), Account API, Admin Account API, and 41 more. Tagged areas include signal-integrity, Test and Measurement, Electronic Components, Instrumentation, and time-domain-reflectometry.
+overview: 'HYPERLABS publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Radium gRPC API (TDR11100), Account API, Admin Datasheets API, and 41 more. Tagged areas include signal-integrity, Test and Measurement, Electronic Components, Instrumentation, and time-domain-reflectometry.
 
 
   The HYPERLABS catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   HYPERLABS''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, code examples, and 27 more developer resources.'
-random_paper: 4
+random_paper: 2
 score:
   band: thin
-  composite: 27.8
+  composite: 29.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 29.0
@@ -446,11 +446,11 @@ score:
     catalog_gap: 86.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 6.6
     contract_governance: 4.5
-    contract_quality: 50.3
+    contract_quality: 56.2
     developer_ergonomics: 28.0
     discoverability: 61.1
     operational_transparency: 18.4
@@ -465,7 +465,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

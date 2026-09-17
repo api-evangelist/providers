@@ -19,7 +19,7 @@ name: Scout.fm
 nav: Providers
 network: true
 overview: Scout.fm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Podcasts, Audio, Recommendations, and Defunct.
-random_paper: 13
+random_paper: 21
 slug: scoutfm
 tags:
 - Company

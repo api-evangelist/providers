@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -124,6 +124,10 @@ collections:
   name: 'Drupal JSON: Comments Users API'
   slug: open-drupal-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://drupal.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/agentic-access/drupal-agentic-access.yml
   title: ''
@@ -194,7 +198,7 @@ jsonld:
   property_count: 8
   slug: drupal-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Drupal
 nav: Providers
 network: true
@@ -204,12 +208,12 @@ overview: 'Drupal publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The Drupal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Drupal''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  Drupal''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Drupal Plans Pricing
   plan_count: 3
   slug: drupal-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Drupal Rate Limits
@@ -260,7 +264,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -280,4 +284,5 @@ security:
   slug: drupal-vulnerability-disclosure
   summary_line: disclosure policy published
 slug: drupal
+website: https://drupal.org
 ---

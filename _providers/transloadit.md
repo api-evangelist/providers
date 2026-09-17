@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Core REST API for creating and managing Assemblies (processing jobs), Templates, Template Credentials, Webhooks, Billing, and Queue monitoring. Uses bearer token authentication. Supports video encodin
@@ -144,7 +144,7 @@ plans:
 - name: Transloadit Plans Pricing
   plan_count: 6
   slug: transloadit-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Transloadit Rate Limits
@@ -171,7 +171,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

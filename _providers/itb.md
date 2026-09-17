@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: ITB's campus-wide single sign-on, built on the Apereo CAS (Central Authentication Service) protocol and running on ITB's own host login.itb.ac.id. The CAS 2.0 and CAS 3.0 ticket-validation endpoints a
@@ -118,7 +118,7 @@ jsonld:
   property_count: 2
   slug: itb-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-09-16'
 name: Bandung Institute of Technology
 nav: Providers
 network: true
@@ -133,7 +133,7 @@ plans:
 - name: Itb Plans Pricing
   plan_count: 2
   slug: itb-plans-pricing
-random_paper: 4
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Itb Rate Limits
@@ -173,7 +173,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -195,10 +195,11 @@ tags:
 - Indonesia
 - Southeast Asia
 - Authentication
-- Single Sign-On
+- SSO
 - Scholarly Publishing
 - OAI-PMH
 - Digital Library
 - Research Repository
+- Identity Federation
 website: https://itb.ac.id/
 ---

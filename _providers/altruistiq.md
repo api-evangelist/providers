@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 25
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 44 operations · 29 acting · 25 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://app.altruistiq.com/api/public/v1
-  baseurl_source: declared
-  description: '### Altruistiq’s datasource API enables you to: - Create new datasources - Manage existing datasources (read, update) - Upload data to a datasource A datasource is the place where you will share a sin'
-  name: Altruistiq Datasource API
-  slug: altruistiq-datasource-api
 - baseURL: https://app.altruistiq.com/api/public/v1
   baseurl_source: declared
   description: '### Altruistiq’s Export API enables you to: - Export corporate data Exporting data is a key part of the Altruistiq platform. It allows you to take your data and use it in other systems, or to share it'
@@ -89,6 +84,11 @@ apis:
   description: 'The Altruistiq API uses TLS and follows the OAuth 2.0 Client credentials flow as per [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749#section-4.4) ### Generating `client_id` and `client_secret'
   name: Altruistiq Security API
   slug: altruistiq-security-api
+- baseURL: https://app.altruistiq.com/api/public/v1
+  baseurl_source: declared
+  description: '### Altruistiq’s datasource API enables you to: - Create new datasources - Manage existing datasources (read, update) - Upload data to a datasource A datasource is the place where you will share a sin'
+  name: Altruistiq Data Source API
+  slug: altruistiq-data-source-api
 artifact_total: 57
 collections:
 - collection_type: open
@@ -316,7 +316,7 @@ modified: '2026-05-25'
 name: Altruistiq
 nav: Providers
 network: true
-overview: 'Altruistiq publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Datasource API, Export API, Facility API, and 6 more. Tagged areas include Sustainability, Climate, Carbon Accounting, Emissions, and Greenhouse Gas.
+overview: 'Altruistiq publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Export API, Facility API, Location API, and 6 more. Tagged areas include Sustainability, Climate, Carbon Accounting, Emissions, and Greenhouse Gas.
 
 
   The Altruistiq catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -327,7 +327,7 @@ plans:
 - name: Altruistiq Plans Pricing
   plan_count: 4
   slug: altruistiq-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Altruistiq Rate Limits
@@ -398,7 +398,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

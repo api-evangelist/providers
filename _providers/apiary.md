@@ -33,19 +33,39 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://api.apiary.io
-  baseurl_source: declared
-  description: The Apiary API provides programmatic access to manage API projects, documentation, and team collaboration. It allows creating and updating API Blueprint and Swagger/OpenAPI documents, managing team me
-  name: Apiary API
-  slug: apiary-api
 - description: API Blueprint is a high-level API design language created by Apiary for designing and documenting web APIs. It uses a Markdown-based syntax that is human-readable and machine-parseable, enabling teams
   name: API Blueprint
   slug: api-blueprint
-artifact_total: 26
+- baseURL: https://api.apiary.io
+  baseurl_source: declared
+  description: Apiary API exposes lists of APIs. Your authorization token grants access to private and public, personal and team API Projects.
+  name: Apiary API List API
+  slug: apiary-api-list-api
+- baseURL: https://api.apiary.io
+  baseurl_source: declared
+  description: Apiary API uses Bearer Token Authorization (RFC 6750). Tokens are managed at https://login.apiary.io/tokens, or created, listed and deleted over this resource using Basic Authentication. This collecti
+  name: Apiary Authentication API
+  slug: apiary-authentication-api
+- baseURL: https://api.apiary.io
+  baseurl_source: declared
+  description: 'Legacy API Blueprint utilities. These operations take the legacy `Authentication: Token <token>` header rather than `Authorization: Bearer`.'
+  name: Apiary Blueprint API
+  slug: apiary-blueprint-api
+- baseURL: https://api.apiary.io
+  baseurl_source: declared
+  description: Apiary API exposes authorized user information. You may only get your own user information.
+  name: Apiary User Information API
+  slug: apiary-user-information-api
+artifact_total: 29
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/overlays/apiary-apiary-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/apiary-apiary-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/authentication/apiary-authentication.yml
   title: ''
@@ -243,22 +263,22 @@ modified: '2026-09-02'
 name: Apiary
 nav: Providers
 network: true
-overview: 'Apiary publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Blueprint, API Design, API Testing, Collaboration, and Design-First.
+overview: 'Apiary publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API List API, Authentication API, Blueprint API, and 1 more. Tagged areas include API Blueprint, API Design, API Testing, Collaboration, and Design-First.
 
 
-  Apiary''s developer surface includes authentication, CLI, changelog, sandbox, documentation, engineering blog, pricing, and 26 more developer resources.'
+  Apiary''s developer surface includes authentication, CLI, changelog, sandbox, documentation, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Apiary Plans Pricing
   plan_count: 3
   slug: apiary-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Apiary Rate Limits
   slug: apiary-rate-limits
 score:
   band: developing
-  composite: 43.2
+  composite: 42.9
   coverage:
     artifact_dirs: 25
     catalog_earned: 65.0
@@ -266,11 +286,11 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 77.6
     contract_governance: 4.5
-    contract_quality: 21.9
+    contract_quality: 20.5
     developer_ergonomics: 67.3
     discoverability: 59.3
     operational_transparency: 39.5
@@ -282,13 +302,13 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 4
       marker_coverage: 100.0
-      total: 1
+      total: 4
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

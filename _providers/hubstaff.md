@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ plans:
 - name: Hubstaff Plans Pricing
   plan_count: 6
   slug: hubstaff-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Hubstaff Rate Limits
@@ -321,7 +321,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

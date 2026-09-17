@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -86,7 +86,7 @@ overview: 'Treasury is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Treasury''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 13
+random_paper: 15
 scopes:
 - name: Treasury Scopes
   scope_count: 1
@@ -120,7 +120,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

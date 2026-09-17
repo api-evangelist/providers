@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ plans:
 - name: Creem Plans Pricing
   plan_count: 1
   slug: creem-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Creem Rate Limits
@@ -219,7 +219,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Go Kit is a programming toolkit for building microservices in Go, emphasizing domain-driven design, transport-agnostic service definitions, and best practices for distributed systems.
@@ -78,7 +78,7 @@ modified: '2026-04-28'
 name: Go Kit
 nav: Providers
 network: true
-overview: 'Go Kit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Distributed Systems, Domain-Driven Design, Frameworks, Go, and Golang.
+overview: 'Go Kit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Distributed Systems, Domain-Driven Design, Framework, Go, and Golang.
 
 
   The Go Kit catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -89,7 +89,7 @@ plans:
 - name: Go Kit Plans Pricing
   plan_count: 3
   slug: go-kit-plans-pricing
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Go Kit Rate Limits
@@ -125,7 +125,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -141,7 +141,7 @@ slug: go-kit
 tags:
 - Distributed Systems
 - Domain-Driven Design
-- Frameworks
+- Framework
 - Go
 - Golang
 - Microservices

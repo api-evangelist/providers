@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -50,19 +50,9 @@ apis:
   slug: braintrust-api
 - baseURL: https://api.braintrust.dev
   baseurl_source: declared
-  description: The Acls API from Braintrust — 4 operation(s) for acls.
-  name: Braintrust Acls API
-  slug: braintrust-acls-api
-- baseURL: https://api.braintrust.dev
-  baseurl_source: declared
   description: The AiSecrets API from Braintrust — 2 operation(s) for aisecrets.
   name: Braintrust AiSecrets API
   slug: braintrust-aisecrets-api
-- baseURL: https://api.braintrust.dev
-  baseurl_source: declared
-  description: The ApiKeys API from Braintrust — 2 operation(s) for apikeys.
-  name: Braintrust ApiKeys API
-  slug: braintrust-apikeys-api
 - baseURL: https://api.braintrust.dev
   baseurl_source: declared
   description: The CORS API from Braintrust — 65 operation(s) for cors.
@@ -90,11 +80,6 @@ apis:
   slug: braintrust-environments-api
 - baseURL: https://api.braintrust.dev
   baseurl_source: declared
-  description: The EnvVars API from Braintrust — 2 operation(s) for envvars.
-  name: Braintrust EnvVars API
-  slug: braintrust-envvars-api
-- baseURL: https://api.braintrust.dev
-  baseurl_source: declared
   description: The Evals API from Braintrust — 1 operation(s) for evals.
   name: Braintrust Evals API
   slug: braintrust-evals-api
@@ -118,11 +103,6 @@ apis:
   description: The Logs API from Braintrust — 3 operation(s) for logs.
   name: Braintrust Logs API
   slug: braintrust-logs-api
-- baseURL: https://api.braintrust.dev
-  baseurl_source: declared
-  description: The McpServers API from Braintrust — 2 operation(s) for mcpservers.
-  name: Braintrust McpServers API
-  slug: braintrust-mcpservers-api
 - baseURL: https://api.braintrust.dev
   baseurl_source: declared
   description: The Organizations API from Braintrust — 3 operation(s) for organizations.
@@ -150,11 +130,6 @@ apis:
   slug: braintrust-projectscores-api
 - baseURL: https://api.braintrust.dev
   baseurl_source: declared
-  description: The ProjectTags API from Braintrust — 2 operation(s) for projecttags.
-  name: Braintrust ProjectTags API
-  slug: braintrust-projecttags-api
-- baseURL: https://api.braintrust.dev
-  baseurl_source: declared
   description: The Prompts API from Braintrust — 2 operation(s) for prompts.
   name: Braintrust Prompts API
   slug: braintrust-prompts-api
@@ -170,11 +145,6 @@ apis:
   slug: braintrust-roles-api
 - baseURL: https://api.braintrust.dev
   baseurl_source: declared
-  description: The ServiceTokens API from Braintrust — 2 operation(s) for servicetokens.
-  name: Braintrust ServiceTokens API
-  slug: braintrust-servicetokens-api
-- baseURL: https://api.braintrust.dev
-  baseurl_source: declared
   description: The SpanIframes API from Braintrust — 2 operation(s) for spaniframes.
   name: Braintrust SpanIframes API
   slug: braintrust-spaniframes-api
@@ -188,43 +158,37 @@ apis:
   description: The Views API from Braintrust — 2 operation(s) for views.
   name: Braintrust Views API
   slug: braintrust-views-api
-- description: The ACL API from Braintrust — 4 operation(s) for acl.
-  name: Braintrust ACL API
-  slug: braintrust-data-acl-api
-- description: The AI Proxy API from Braintrust — 3 operation(s) for ai proxy.
-  name: Braintrust AI Proxy API
-  slug: braintrust-data-ai-proxy-api
-- description: The Credentials API from Braintrust — 3 operation(s) for credentials.
-  name: Braintrust Credentials API
-  slug: braintrust-data-credentials-api
-- description: The Datasets API from Braintrust — 6 operation(s) for datasets.
-  name: Braintrust Datasets API
-  slug: braintrust-data-datasets-api
-- description: The Evals API from Braintrust — 1 operation(s) for evals.
-  name: Braintrust Evals API
-  slug: braintrust-data-evals-api
-- description: The Experiments API from Braintrust — 6 operation(s) for experiments.
-  name: Braintrust Experiments API
-  slug: braintrust-data-experiments-api
-- description: The Functions API from Braintrust — 3 operation(s) for functions.
-  name: Braintrust Functions API
-  slug: braintrust-data-functions-api
-- description: The Logs API from Braintrust — 3 operation(s) for logs.
-  name: Braintrust Logs API
-  slug: braintrust-data-logs-api
-- description: The Organization API from Braintrust — 3 operation(s) for organization.
-  name: Braintrust Organization API
-  slug: braintrust-data-organization-api
-- description: The Project Configuration API from Braintrust — 4 operation(s) for project configuration.
-  name: Braintrust Project Configuration API
-  slug: braintrust-data-project-configuration-api
-- description: The Projects API from Braintrust — 2 operation(s) for projects.
-  name: Braintrust Projects API
-  slug: braintrust-data-projects-api
-- description: The Prompts API from Braintrust — 2 operation(s) for prompts.
-  name: Braintrust Prompts API
-  slug: braintrust-data-prompts-api
-artifact_total: 77
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Acls API from Braintrust — 4 operation(s) for acls.
+  name: Braintrust Acls API
+  slug: braintrust-acls-api
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The API Keys API from Braintrust — 2 operation(s) for api keys.
+  name: Braintrust API Keys API
+  slug: braintrust-api-keys-api
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Env Vars API from Braintrust — 2 operation(s) for env vars.
+  name: Braintrust Env Vars API
+  slug: braintrust-env-vars-api
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The MCP Servers API from Braintrust — 2 operation(s) for mcp servers.
+  name: Braintrust MCP Servers API
+  slug: braintrust-mcp-servers-api
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Project Tags API from Braintrust — 2 operation(s) for project tags.
+  name: Braintrust Project Tags API
+  slug: braintrust-project-tags-api
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Service Tokens API from Braintrust — 2 operation(s) for service tokens.
+  name: Braintrust Service Tokens API
+  slug: braintrust-service-tokens-api
+artifact_total: 65
 collections:
 - collection_type: open
   name: API Collection
@@ -401,7 +365,7 @@ modified: '2026-05-23'
 name: Braintrust
 nav: Providers
 network: true
-overview: 'Braintrust publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Acls API, AiSecrets API, ApiKeys API, and 37 more. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluation, and Experiments.
+overview: 'Braintrust publishes 28 APIs on the [APIs.io](https://apis.io/) network, including AiSecrets API, CORS API, CrossObject API, and 25 more. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluation, and Experiments.
 
 
   Braintrust''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 12 more developer resources.'
@@ -409,14 +373,14 @@ plans:
 - name: Braintrust Plans Pricing
   plan_count: 1
   slug: braintrust-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Braintrust Rate Limits
   slug: braintrust-rate-limits
 score:
   band: developing
-  composite: 49.7
+  composite: 48.2
   coverage:
     artifact_dirs: 11
     catalog_earned: 56.0
@@ -424,12 +388,12 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 59.4
-    developer_ergonomics: 60.7
+    developer_ergonomics: 52.4
     discoverability: 68.5
     operational_transparency: 39.5
   open_source:
@@ -445,7 +409,7 @@ score:
       total: 28
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

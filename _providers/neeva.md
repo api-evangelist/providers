@@ -29,7 +29,7 @@ name: Neeva
 nav: Providers
 network: true
 overview: Neeva is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application, Search, Search Engines, and Artificial Intelligence.
-random_paper: 2
+random_paper: 21
 screenshot: https://raw.githubusercontent.com/api-evangelist/neeva/refs/heads/main/screenshots/neeva-2026-08-07T184818.png
 security:
 - kind: domain-security

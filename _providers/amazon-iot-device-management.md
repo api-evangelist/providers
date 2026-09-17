@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 2
@@ -157,11 +157,6 @@ apis:
   slug: amazon-iot-device-management-dimensions-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
-  description: The DomainConfigurations API from Amazon IoT Device Management — 2 operation(s) for domainconfigurations.
-  name: Amazon IoT Device Management DomainConfigurations API
-  slug: amazon-iot-device-management-domainconfigurations-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
   description: The Dynamic Thing Groups API from Amazon IoT Device Management — 1 operation(s) for dynamic thing groups.
   name: Amazon IoT Device Management Dynamic Thing Groups API
   slug: amazon-iot-device-management-dynamic-thing-groups-api
@@ -217,11 +212,6 @@ apis:
   slug: amazon-iot-device-management-keys-and-certificate-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
-  description: The LoggingOptions API from Amazon IoT Device Management — 1 operation(s) for loggingoptions.
-  name: Amazon IoT Device Management LoggingOptions API
-  slug: amazon-iot-device-management-loggingoptions-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
   description: The Managed Job Templates API from Amazon IoT Device Management — 2 operation(s) for managed job templates.
   name: Amazon IoT Device Management Managed Job Templates API
   slug: amazon-iot-device-management-managed-job-templates-api
@@ -235,11 +225,6 @@ apis:
   description: The Mitigationactions API from Amazon IoT Device Management — 2 operation(s) for mitigationactions.
   name: Amazon IoT Device Management Mitigationactions API
   slug: amazon-iot-device-management-mitigationactions-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
-  description: The OtaUpdates API from Amazon IoT Device Management — 2 operation(s) for otaupdates.
-  name: Amazon IoT Device Management OtaUpdates API
-  slug: amazon-iot-device-management-otaupdates-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
   description: The Policies API from Amazon IoT Device Management — 4 operation(s) for policies.
@@ -367,19 +352,9 @@ apis:
   slug: amazon-iot-device-management-untag-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
-  description: The V2LoggingLevel API from Amazon IoT Device Management — 1 operation(s) for v2logginglevel.
-  name: Amazon IoT Device Management V2LoggingLevel API
-  slug: amazon-iot-device-management-v2logginglevel-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
   description: The V2LoggingLevel#targetType&targetName API from Amazon IoT Device Management — 1 operation(s) for v2logginglevel#targettype&targetname.
   name: Amazon IoT Device Management V2LoggingLevel#targetType&targetName API
   slug: amazon-iot-device-management-v2logginglevel-targettype-targetname-api
-- baseURL: https://iot.amazonaws.com
-  baseurl_source: declared
-  description: The V2LoggingOptions API from Amazon IoT Device Management — 1 operation(s) for v2loggingoptions.
-  name: Amazon IoT Device Management V2LoggingOptions API
-  slug: amazon-iot-device-management-v2loggingoptions-api
 - baseURL: https://iot.amazonaws.com
   baseurl_source: declared
   description: The Violation Events#startTime&endTime API from Amazon IoT Device Management — 1 operation(s) for violation events#starttime&endtime.
@@ -390,6 +365,31 @@ apis:
   description: The Violations API from Amazon IoT Device Management — 1 operation(s) for violations.
   name: Amazon IoT Device Management Violations API
   slug: amazon-iot-device-management-violations-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Domain Configurations API from Amazon IoT Device Management — 2 operation(s) for domain configurations.
+  name: Amazon IoT Device Management Domain Configurations API
+  slug: amazon-iot-device-management-domain-configurations-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Logging Options API from Amazon IoT Device Management — 1 operation(s) for logging options.
+  name: Amazon IoT Device Management Logging Options API
+  slug: amazon-iot-device-management-logging-options-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The OTA Updates API from Amazon IoT Device Management — 2 operation(s) for ota updates.
+  name: Amazon IoT Device Management OTA Updates API
+  slug: amazon-iot-device-management-ota-updates-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2 Logging Level API from Amazon IoT Device Management — 1 operation(s) for v2 logging level.
+  name: Amazon IoT Device Management V2 Logging Level API
+  slug: amazon-iot-device-management-v2-logging-level-api
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2 Logging Options API from Amazon IoT Device Management — 1 operation(s) for v2 logging options.
+  name: Amazon IoT Device Management V2 Logging Options API
+  slug: amazon-iot-device-management-v2-logging-options-api
 artifact_total: 825
 collections:
 - collection_type: postman
@@ -2802,7 +2802,7 @@ score:
       marker_coverage: 0.0
       total: 69
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

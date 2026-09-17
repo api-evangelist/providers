@@ -34,18 +34,23 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
 - description: 'U-Haul provides do-it-yourself moving and storage services including truck and trailer rentals, self-storage, moving supplies, and U-Box portable storage containers. Partners access dealer management '
   name: U-Haul
   slug: uhaul
-- baseURL: https://api.webselfstorage.com
+- baseURL: https://www.uhaul.com
   baseurl_source: declared
-  description: The WebSelfStorage Affiliate API is the only machine-readable contract AMERCO publishes. Operated by eMove, Inc. d/b/a U-Haul Self-Storage Affiliate Network, it gives an independent self-storage opera
-  name: WebSelfStorage Affiliate API
-  slug: webselfstorage
-artifact_total: 20
+  description: The WssApi API from AMERCO — 12 operation(s) for wssapi.
+  name: AMERCO Wss API
+  slug: amerco-wssapi-api
+- baseURL: https://www.uhaul.com
+  baseurl_source: declared
+  description: The WssApiV4 API from AMERCO — 12 operation(s) for wssapiv4.
+  name: AMERCO Wss API V4 API
+  slug: amerco-wssapiv4-api
+artifact_total: 21
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/authentication/amerco-authentication.yml
@@ -74,10 +79,10 @@ common:
   type: Portal
   url: https://www.uhaul.com/Dealer/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/openapi/amerco-webselfstorage-affiliate-api-v4-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/amerco/refs/heads/main/openapi/_original/amerco-webselfstorage-affiliate-api-v4-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/amerco-webselfstorage-affiliate-api-v4-openapi.yml
+  url: openapi/_original/amerco-webselfstorage-affiliate-api-v4-openapi.yml
 - group: docs
   title: ''
   type: Documentation
@@ -197,11 +202,11 @@ integrations:
 - description: AMERCO subsidiary providing life insurance products as part of the broader AMERCO financial services portfolio.
   name: AMERITAS Life Insurance
 layout: provider
-modified: '2026-09-02'
+modified: '2026-09-16'
 name: AMERCO
 nav: Providers
 network: true
-overview: 'AMERCO publishes 1 API on the [APIs.io](https://apis.io/) network: WebSelfStorage Affiliate API. Tagged areas include Moving, Storage, Truck Rental, Logistics, and Consumer Services.
+overview: 'AMERCO publishes 2 APIs on the [APIs.io](https://apis.io/) network: Wss API and Wss API V4 API. Tagged areas include Moving, Storage, Truck Rental, Logistics, and Consumer Services.
 
 
   AMERCO''s developer surface includes authentication, engineering blog, developer portal, documentation, API reference, support, signup flow, and 20 more developer resources.'
@@ -225,28 +230,28 @@ press:
 - date: '2026-05-25'
   title: Amerco Inc. reports earnings for Qtr to Sept 30
   url: https://www.nytimes.com/1994/11/12/business/amerco-inc-reports-earnings-for-qtr-to-sept-30.html
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Amerco Rate Limits
   slug: amerco-rate-limits
 score:
   band: developing
-  composite: 49.3
+  composite: 50.5
   coverage:
     artifact_dirs: 21
-    catalog_earned: 52.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 48.5
+    contract_quality: 51.2
     developer_ergonomics: 47.0
-    discoverability: 75.9
+    discoverability: 81.5
     operational_transparency: 18.4
   previous_composite: 49.3
   provenance:
@@ -259,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

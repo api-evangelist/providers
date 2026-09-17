@@ -11,13 +11,13 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.1
-  scored_at: '2026-09-15'
+  score: 30.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   slug: basware-advancedvalidations-api
 - baseURL: https://api.basware.com
   baseurl_source: declared
-  description: The ApplicationGroups API from Basware — 2 operation(s) for applicationgroups.
-  name: Basware ApplicationGroups API
-  slug: basware-applicationgroups-api
-- baseURL: https://api.basware.com
-  baseurl_source: declared
   description: The Companies (deprecated) API from Basware — 2 operation(s) for companies (deprecated).
   name: Basware Companies (deprecated) API
   slug: basware-companies-deprecated-api
@@ -85,11 +80,6 @@ apis:
   description: The Contracts API from Basware — 2 operation(s) for contracts.
   name: Basware Contracts API
   slug: basware-contracts-api
-- baseURL: https://api.basware.com
-  baseurl_source: declared
-  description: The CostCenters API from Basware — 2 operation(s) for costcenters.
-  name: Basware CostCenters API
-  slug: basware-costcenters-api
 - baseURL: https://api.basware.com
   baseurl_source: declared
   description: The Data extract API from Basware — 5 operation(s) for data extract.
@@ -103,18 +93,13 @@ apis:
 - baseURL: https://api.basware.com
   baseurl_source: declared
   description: The Document Import API API from Basware — 1 operation(s) for document import api.
-  name: Basware Document Import API API
+  name: Basware Document Import API
   slug: basware-document-import-api-api
 - baseURL: https://api.basware.com
   baseurl_source: declared
   description: The ErrorFeedbacks API from Basware — 3 operation(s) for errorfeedbacks.
   name: Basware ErrorFeedbacks API
   slug: basware-errorfeedbacks-api
-- baseURL: https://api.basware.com
-  baseurl_source: declared
-  description: The ExchangeRates API from Basware — 2 operation(s) for exchangerates.
-  name: Basware ExchangeRates API
-  slug: basware-exchangerates-api
 - baseURL: https://api.basware.com
   baseurl_source: declared
   description: The ExportedContracts API from Basware — 3 operation(s) for exportedcontracts.
@@ -162,11 +147,6 @@ apis:
   slug: basware-organizations-api
 - baseURL: https://api.basware.com
   baseurl_source: declared
-  description: The PaymentTerms API from Basware — 2 operation(s) for paymentterms.
-  name: Basware PaymentTerms API
-  slug: basware-paymentterms-api
-- baseURL: https://api.basware.com
-  baseurl_source: declared
   description: The Projects v1 (deprecated) API from Basware — 2 operation(s) for projects v1 (deprecated).
   name: Basware Projects v1 (deprecated) API
   slug: basware-projects-v1-deprecated-api
@@ -182,29 +162,9 @@ apis:
   slug: basware-purchasegoodsreceipts-api
 - baseURL: https://api.basware.com
   baseurl_source: declared
-  description: The PurchaseOrders API from Basware — 2 operation(s) for purchaseorders.
-  name: Basware PurchaseOrders API
-  slug: basware-purchaseorders-api
-- baseURL: https://api.basware.com
-  baseurl_source: declared
-  description: The PurchaseRequisitions API from Basware — 2 operation(s) for purchaserequisitions.
-  name: Basware PurchaseRequisitions API
-  slug: basware-purchaserequisitions-api
-- baseURL: https://api.basware.com
-  baseurl_source: declared
-  description: The RequestStatus API from Basware — 3 operation(s) for requeststatus.
-  name: Basware RequestStatus API
-  slug: basware-requeststatus-api
-- baseURL: https://api.basware.com
-  baseurl_source: declared
   description: The Subscribe to notifications API from Basware — 1 operation(s) for subscribe to notifications.
   name: Basware Subscribe to notifications API
   slug: basware-subscribe-to-notifications-api
-- baseURL: https://api.basware.com
-  baseurl_source: declared
-  description: The TaxCodes API from Basware — 2 operation(s) for taxcodes.
-  name: Basware TaxCodes API
-  slug: basware-taxcodes-api
 - baseURL: https://api.basware.com
   baseurl_source: declared
   description: The Tokens API from Basware — 1 operation(s) for tokens.
@@ -215,11 +175,6 @@ apis:
   description: The UserGroupAssociatedUsers API from Basware — 1 operation(s) for usergroupassociatedusers.
   name: Basware UserGroupAssociatedUsers API
   slug: basware-usergroupassociatedusers-api
-- baseURL: https://api.basware.com
-  baseurl_source: declared
-  description: The UserGroups API from Basware — 2 operation(s) for usergroups.
-  name: Basware UserGroups API
-  slug: basware-usergroups-api
 - baseURL: https://api.basware.com
   baseurl_source: declared
   description: The Users API from Basware — 2 operation(s) for users.
@@ -245,6 +200,51 @@ apis:
   description: The .well-known API from Basware — 2 operation(s) for .well-known.
   name: Basware .well-known API
   slug: basware-well-known-api
+- baseURL: https://api.basware.com/data
+  baseurl_source: declared
+  description: The Application Groups API from Basware — 2 operation(s) for application groups.
+  name: Basware Application Groups API
+  slug: basware-application-groups-api
+- baseURL: https://api.basware.com/data
+  baseurl_source: declared
+  description: The Cost Centers API from Basware — 2 operation(s) for cost centers.
+  name: Basware Cost Centers API
+  slug: basware-cost-centers-api
+- baseURL: https://api.basware.com/data
+  baseurl_source: declared
+  description: The Exchange Rates API from Basware — 2 operation(s) for exchange rates.
+  name: Basware Exchange Rates API
+  slug: basware-exchange-rates-api
+- baseURL: https://api.basware.com/data
+  baseurl_source: declared
+  description: The Payment Terms API from Basware — 2 operation(s) for payment terms.
+  name: Basware Payment Terms API
+  slug: basware-payment-terms-api
+- baseURL: https://api.basware.com/data
+  baseurl_source: declared
+  description: The Purchase Orders API from Basware — 2 operation(s) for purchase orders.
+  name: Basware Purchase Orders API
+  slug: basware-purchase-orders-api
+- baseURL: https://api.basware.com/data
+  baseurl_source: declared
+  description: The Purchase Requisitions API from Basware — 2 operation(s) for purchase requisitions.
+  name: Basware Purchase Requisitions API
+  slug: basware-purchase-requisitions-api
+- baseURL: https://api.basware.com/data
+  baseurl_source: declared
+  description: The Request Status API from Basware — 3 operation(s) for request status.
+  name: Basware Request Status API
+  slug: basware-request-status-api
+- baseURL: https://api.basware.com/data
+  baseurl_source: declared
+  description: The Tax Codes API from Basware — 2 operation(s) for tax codes.
+  name: Basware Tax Codes API
+  slug: basware-tax-codes-api
+- baseURL: https://api.basware.com/data
+  baseurl_source: declared
+  description: The User Groups API from Basware — 2 operation(s) for user groups.
+  name: Basware User Groups API
+  slug: basware-user-groups-api
 artifact_total: 99
 collections:
 - collection_type: open
@@ -482,7 +482,7 @@ jsonld:
   property_count: 1421
   slug: basware-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Basware
 nav: Providers
 network: true
@@ -497,7 +497,7 @@ plans:
 - name: Basware Plans Pricing
   plan_count: 4
   slug: basware-plans-pricing
-random_paper: 6
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Basware Rate Limits
@@ -532,7 +532,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 61.5
+    contract_quality: 61.6
     developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 21.1
@@ -540,7 +540,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 7.7
       derived: 0
       marker_coverage: 0.0
       total: 39
@@ -551,7 +551,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

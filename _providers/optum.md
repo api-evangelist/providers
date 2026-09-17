@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 3
@@ -75,11 +75,6 @@ apis:
   description: The APC Cross Codes APIs API from Optum — 3 operation(s) for apc cross codes apis.
   name: Optum APC Cross Codes APIs API
   slug: optum-apc-cross-codes-apis-api
-- baseURL: https://apigw.optum.com/medicalnetwork/
-  baseurl_source: declared
-  description: The Apip API from Optum — 2 operation(s) for apip.
-  name: Optum Apip API
-  slug: optum-apip-api
 - baseURL: https://apigw.optum.com/medicalnetwork/
   baseurl_source: declared
   description: The Application.wadl API from Optum — 2 operation(s) for application.wadl.
@@ -347,19 +342,9 @@ apis:
   slug: optum-dme-and-pen-fee-schedule-apis-api
 - baseURL: https://apigw.optum.com/medicalnetwork/
   baseurl_source: declared
-  description: The DocumentReference API from Optum — 1 operation(s) for documentreference.
-  name: Optum Document Reference API
-  slug: optum-documentreference-api
-- baseURL: https://apigw.optum.com/medicalnetwork/
-  baseurl_source: declared
   description: The documentRetrieve API from Optum — 1 operation(s) for documentretrieve.
   name: Optum Document Retrieve API
   slug: optum-documentretrieve-api
-- baseURL: https://apigw.optum.com/medicalnetwork/
-  baseurl_source: declared
-  description: The documentSearch API from Optum — 1 operation(s) for documentsearch.
-  name: Optum Document Search API
-  slug: optum-documentsearch-api
 - baseURL: https://apigw.optum.com/medicalnetwork/
   baseurl_source: declared
   description: The DRG Calculator APIs API from Optum — 1 operation(s) for drg calculator apis.
@@ -480,11 +465,6 @@ apis:
   description: The Health Check API from Optum — 7 operation(s) for health check.
   name: Optum Health Check API
   slug: optum-health-check-api
-- baseURL: https://apigw.optum.com/medicalnetwork/
-  baseurl_source: declared
-  description: The HealthCheck API from Optum — 14 operation(s) for healthcheck.
-  name: Optum Health Check API
-  slug: optum-healthcheck-api
 - baseURL: https://apigw.optum.com/medicalnetwork/
   baseurl_source: declared
   description: The I-OCE Edits APIs API from Optum — 4 operation(s) for i-oce edits apis.
@@ -658,7 +638,7 @@ apis:
 - baseURL: https://apigw.optum.com/medicalnetwork/
   baseurl_source: declared
   description: The Optum Specialty Articles API from Optum — 1 operation(s) for optum specialty articles.
-  name: Optum Optum Specialty Articles API
+  name: Optum Specialty Articles API
   slug: optum-optum-specialty-articles-api
 - baseURL: https://apigw.optum.com/medicalnetwork/
   baseurl_source: declared
@@ -767,11 +747,6 @@ apis:
   slug: optum-qpp-mips-apis-api
 - baseURL: https://apigw.optum.com/medicalnetwork/
   baseurl_source: declared
-  description: The QueryService API from Optum — 1 operation(s) for queryservice.
-  name: Optum Query Service API
-  slug: optum-queryservice-api
-- baseURL: https://apigw.optum.com/medicalnetwork/
-  baseurl_source: declared
   description: The QuestionnairePackage API from Optum — 1 operation(s) for questionnairepackage.
   name: Optum Questionnaire Package API
   slug: optum-questionnairepackage-api
@@ -875,7 +850,17 @@ apis:
   description: The Wage Index API API from Optum — 1 operation(s) for wage index api.
   name: Optum Wage Index API
   slug: optum-wage-index-api-api
-artifact_total: 174
+- baseURL: https://apigw.optum.com/oihub/
+  baseurl_source: declared
+  description: The Document Reference API from Optum — 1 operation(s) for document reference.
+  name: Optum Document Reference API
+  slug: optum-document-reference-api
+- baseURL: https://apigw.optum.com/oihub/
+  baseurl_source: declared
+  description: The Query Service API from Optum — 1 operation(s) for query service.
+  name: Optum Query Service API
+  slug: optum-query-service-api
+artifact_total: 171
 asyncapis:
 - description: ''
   name: Optum Webhooks
@@ -1069,11 +1054,11 @@ description: 'Optum, part of UnitedHealth Group, is a health services and techno
   host. Optum also publishes an RFC 9727 API catalog at /.well-known/api-catalog, which is how the 59 OpenAPI documents in this repo were harvested.'
 image: https://www.optum.com/content/dam/optum4/images/logos/optum-logo.svg
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Optum
 nav: Providers
 network: true
-overview: 'Optum publishes 165 APIs on the [APIs.io](https://apis.io/) network, including Real (Medical) API, Ambulance Fee Schedule APIs API, Anesthesia Fee APIs API, and 162 more. Tagged areas include Company, Healthcare, Health Insurance, Claims, and Eligibility.
+overview: 'Optum publishes 162 APIs on the [APIs.io](https://apis.io/) network, including Real (Medical) API, Ambulance Fee Schedule APIs API, Anesthesia Fee APIs API, and 159 more. Tagged areas include Company, Healthcare, Health Insurance, Claims, and Eligibility.
 
 
   The Optum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1084,7 +1069,7 @@ plans:
 - name: Optum Plans Pricing
   plan_count: 0
   slug: optum-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Optum Rate Limits
@@ -1096,7 +1081,7 @@ scopes:
   summary_line: 7 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 61.5
+  composite: 61.7
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -1104,11 +1089,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 64.1
+    contract_quality: 65.0
     developer_ergonomics: 45.8
     discoverability: 87.0
     operational_transparency: 44.7
@@ -1117,10 +1102,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 57.4
+      callable: 56.6
       derived: 0
       marker_coverage: 0.0
-      total: 169
+      total: 166
     mcp: derived
     skills: derived
   regulatory:
@@ -1134,7 +1119,7 @@ score:
     regime_id: health
     score: 83.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1172,7 +1157,7 @@ tags:
 - Dental
 - Da Vinci
 - Patient Access
-- Remittance
+- Remittances
 - Attachments
 - Payer Directory
 website: https://www.optum.com/

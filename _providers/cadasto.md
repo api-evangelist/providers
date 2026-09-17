@@ -23,54 +23,164 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
-api_count: 9
+  scored_at: '2026-09-16'
+api_count: 8
 apis:
+- description: 'Cadasto''s live, hosted, anonymous Model Context Protocol server for openEHR modelling work: 12 tools (CKM archetype and template search/get, openEHR terminology resolution, BMM type specification sear'
+  name: openEHR Assistant MCP Server
+  slug: openehr-assistant-mcp-server
 - baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
   baseurl_source: declared
-  description: 'The openEHR ITS-REST EHR API as implemented and published by Cadasto: create and read EHRs, read and update EHR_STATUS, commit/retrieve/update/logically-delete versioned COMPOSITIONs, manage the DIREC'
-  name: Cadasto EHR API
-  slug: cadasto-ehr-api
+  description: Management of [AOM and ADL 1.4](https://specifications.openehr.org/releases/AM/latest) Operational Templates (OPTs). These templates can be created using [modelling tools](https://www.openehr.org/down
+  name: Cadasto ADL1.4 API
+  slug: cadasto-adl1-4-api
 - baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
   baseurl_source: declared
-  description: 'The openEHR ITS-REST Query API: execute ad-hoc Archetype Query Language (AQL) queries with bound parameters, and execute stored queries by qualified name and version, over GET or POST. 6 operations. A'
-  name: Cadasto Query API (AQL)
-  slug: cadasto-query-api-aql
+  description: Management of [AOM2](https://specifications.openehr.org/releases/AM/latest/AOM2.html#_templates) templates. See also [ADL2 Template specifications](https://specifications.openehr.org/releases/AM/lates
+  name: Cadasto ADL2 API
+  slug: cadasto-adl2-api
 - baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
   baseurl_source: declared
-  description: 'The openEHR ITS-REST Definition API: upload, list and retrieve ADL 1.4 Operational Templates (OPT) and ADL 2 templates, fetch a generated example composition for a template, and store, list and versio'
-  name: Cadasto Definition API
-  slug: cadasto-definition-api
-- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
-  baseurl_source: declared
-  description: 'The openEHR ITS-REST Demographic API: create, read, update and delete PERSON, ORGANISATION, ROLE, AGENT and GROUP parties, read versioned parties and their revision history, create demographic CONTRIB'
-  name: Cadasto Demographic API
-  slug: cadasto-demographic-api
-- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
-  baseurl_source: declared
-  description: 'The openEHR ITS-REST Admin API: privileged, physically destructive operations — delete a single EHR, delete all EHRs, merge two EHRs, delete a composition outright, and delete a template. 5 operations'
+  description: Admin-only actions, such as permanently deleting (destroy) episodes.
   name: Cadasto Admin API
   slug: cadasto-admin-api
 - baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
   baseurl_source: declared
-  description: 'The openEHR ITS-REST System API: a single OPTIONS operation returning server capabilities, the openEHR specification versions the server implements, and its conformance profile. This is the machine-re'
-  name: Cadasto System API
-  slug: cadasto-system-api
-- baseURL: https://api.customer.cadasto.io
+  description: Management of the [AGENT](https://specifications.openehr.org/releases/RM/latest/demographic.html#_agent_class) class.
+  name: Cadasto AGENT API
+  slug: cadasto-agent-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
   baseurl_source: declared
-  description: Cadasto's own extension surface on top of openEHR REST, described by the vendor as "Cadasto-specific... This API only works within Cadasto". 27 operations across Datamap definitions and Datamap data (
-  name: Cadasto Additional API
-  slug: cadasto-additional-api
-- baseURL: https://auth.customer.cadasto.io
+  description: Management of [COMPOSITION](https://specifications.openehr.org/releases/RM/latest/ehr.html#_composition_class) and [VERSIONED_COMPOSITION](https://specifications.openehr.org/releases/RM/latest/ehr.htm
+  name: Cadasto COMPOSITION API
+  slug: cadasto-composition-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
   baseurl_source: declared
-  description: A deliberately minimal OpenAPI document that acts as a discovery pointer to the SMART on openEHR specification for app launch, service discovery and third-party app authorization against a Cadasto ten
-  name: Cadasto SMART on openEHR
-  slug: cadasto-smart-on-openehr
-- description: 'Cadasto''s live, hosted, anonymous Model Context Protocol server for openEHR modelling work: 12 tools (CKM archetype and template search/get, openEHR terminology resolution, BMM type specification sear'
-  name: openEHR Assistant MCP Server
-  slug: openehr-assistant-mcp-server
-artifact_total: 17
+  description: Management of [CONTRIBUTION](https://specifications.openehr.org/releases/RM/latest/common.html#_contribution_class) class.
+  name: Cadasto CONTRIBUTION API
+  slug: cadasto-contribution-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of datamap definitions (XML). Defines what data is available and how it can be mapped/queried for Cadasto-specific integrations.
+  name: Cadasto Datamap Definition API
+  slug: cadasto-datamap-definition-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Run datamap queries and manage datamap data. Supports ad-hoc XML queries and CRUD via JSON for Cadasto.
+  name: Cadasto Datamap Query API
+  slug: cadasto-datamap-query-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of the [directory](https://specifications.openehr.org/releases/RM/latest/ehr.html#_directory) [FOLDER](https://specifications.openehr.org/releases/RM/latest/common.html#_folder_class) resou
+  name: Cadasto DIRECTORY API
+  slug: cadasto-directory-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Admin management of [EHRs](https://specifications.openehr.org/releases/RM/latest/ehr.html#_ehr_class).
+  name: Cadasto EHR API
+  slug: cadasto-ehr-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of [EHR_STATUS](https://specifications.openehr.org/releases/RM/latest/ehr.html#_ehr_status_class) and [VERSIONED_EHR_STATUS](https://specifications.openehr.org/releases/RM/latest/ehr.html#_
+  name: Cadasto EHR STATUS API
+  slug: cadasto-ehr-status-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: CRUD on episodes within an EHR and status changes (activate/deactivate). Episodes group medical data around a clinical problem or episode of care across time and encounters.
+  name: Cadasto Episode API
+  slug: cadasto-episode-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of the [GROUP](https://specifications.openehr.org/releases/RM/latest/demographic.html#_group_class) class.
+  name: Cadasto GROUP API
+  slug: cadasto-group-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Health checks for monitoring and orchestration. Used for startup, liveness, and readiness probes.
+  name: Cadasto Health API
+  slug: cadasto-health-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of [ITEM_TAG](https://specifications.openehr.org/releases/RM/latest/common.html#_item_tag_class) resources attached to demographic versioned objects (PERSON, AGENT, GROUP, ORGANISATION, ROL
+  name: Cadasto ITEM TAG API
+  slug: cadasto-item-tag-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: The Options API from Cadasto — 1 operation(s) for options.
+  name: Cadasto Options API
+  slug: cadasto-options-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of the [ORGANISATION](https://specifications.openehr.org/releases/RM/latest/demographic.html#_organisation_class) class.
+  name: Cadasto ORGANISATION API
+  slug: cadasto-organisation-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of the [PERSON](https://specifications.openehr.org/releases/RM/latest/demographic.html#_person_class) class.
+  name: Cadasto PERSON API
+  slug: cadasto-person-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of [stored (registered) queries](https://specifications.openehr.org/releases/SM/latest/openehr_platform.html#_registered_queries) in the system. Actions upon resources of this group are als
+  name: Cadasto Query API
+  slug: cadasto-query-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of the [ROLE](https://specifications.openehr.org/releases/RM/latest/demographic.html#_role_class) class.
+  name: Cadasto ROLE API
+  slug: cadasto-role-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Terminology helpers, such as retrieving FHIR ValueSet URLs.
+  name: Cadasto Terminology API
+  slug: cadasto-terminology-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: User information and caseload for the authenticated user.
+  name: Cadasto User API
+  slug: cadasto-user-api
+- baseURL: https://{mycompany}.api.prod.cadasto.io/openehr/v1
+  baseurl_source: declared
+  description: Management of the [VERSIONED_PARTY](https://specifications.openehr.org/releases/RM/latest/demographic.html#_versioned_party_class) class.
+  name: Cadasto VERSIONED PARTY API
+  slug: cadasto-versioned-party-api
+artifact_total: 32
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/overlays/cadasto-ehr-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cadasto-ehr-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/overlays/cadasto-query-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cadasto-query-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/overlays/cadasto-definition-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cadasto-definition-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/overlays/cadasto-demographic-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cadasto-demographic-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/overlays/cadasto-admin-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cadasto-admin-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/overlays/cadasto-system-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cadasto-system-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/overlays/cadasto-extra-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cadasto-extra-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -255,15 +365,15 @@ modified: '2026-09-02'
 name: Cadasto
 nav: Providers
 network: true
-overview: 'Cadasto publishes 8 APIs on the [APIs.io](https://apis.io/) network, including EHR API, Query API (AQL), Definition API, and 5 more. Tagged areas include Healthcare, Health IT, openEHR, Electronic Health Records, and Clinical Data Repository.
+overview: 'Cadasto publishes 23 APIs on the [APIs.io](https://apis.io/) network, including ADL1.4 API, ADL2 API, Admin API, and 20 more. Tagged areas include Healthcare, Health IT, openEHR, Electronic Health Records, and Clinical Data Repository.
 
 
-  Cadasto''s developer surface includes documentation, API reference, getting-started guide, authentication, FAQ, support, engineering blog, and 30 more developer resources.'
+  Cadasto''s developer surface includes documentation, API reference, getting-started guide, authentication, FAQ, support, engineering blog, and 37 more developer resources.'
 plans:
 - name: Cadasto Plans Pricing
   plan_count: 0
   slug: cadasto-plans-pricing
-random_paper: 0
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Cadasto Rate Limits
@@ -275,7 +385,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.4
+  composite: 60.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -283,11 +393,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 50.6
+    contract_quality: 55.3
     developer_ergonomics: 78.6
     discoverability: 81.5
     operational_transparency: 28.9
@@ -306,7 +416,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 23
     mcp: first-party
     skills: first-party
   regulatory:
@@ -316,7 +426,7 @@ score:
     regime_id: health
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

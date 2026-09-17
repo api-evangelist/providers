@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 25
 common:
@@ -170,7 +170,7 @@ plans:
 - name: Chownow Plans Pricing
   plan_count: 4
   slug: chownow-plans-pricing
-random_paper: 17
+random_paper: 3
 score:
   band: emerging
   composite: 16.1
@@ -196,7 +196,7 @@ score:
     - north-america
   previous_composite: 16.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -218,7 +218,7 @@ tags:
 - Delivery
 - Catering
 - Marketing
-- Mobile Apps
+- Mobile App
 - Independent Restaurants
 - Commission-Free
 use_cases:

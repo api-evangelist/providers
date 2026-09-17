@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Fidor''s REST API for Customers, Accounts, Transfers, Transactions and Account Information, secured with OAuth2 (authorization-code flow). Now retired: the sandbox (*.sandbox.fidor.com) and production '
@@ -41,6 +41,10 @@ apis:
   slug: fidor-germany-banking-api
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://fidor.de
 - group: operate
   title: ''
   type: IssueTracker
@@ -77,15 +81,15 @@ created: '2026-07-17'
 description: 'Fidor Bank was a German digital challenger bank founded in Munich in 2009 and an early pioneer of Banking-as-a-Service and open banking through its fidorOS / bankOS middleware platform and public REST API, which covered Customers, Accounts, Transfers, Transactions and Account Information over an OAuth2 authorization-code flow. Fidor was acquired by France''s Groupe BPCE in 2016; following years of post-acquisition integration struggles the bank ceased business operations in mid-2023 and entered liquidation. Its developer portal (fidor.com) is now a parked domain and the sandbox and production API hosts are offline. The surviving first-party developer artifacts are the archived official Ruby client (RubyGems: fidor_api, by Fidor Solutions AG) and the github.com/fidor organization. This is a retired provider retained for historical reference.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fidor-bank.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Fidor Bank
 nav: Providers
 network: true
 overview: 'Fidor Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Banking as a Service, and Open Banking.
 
 
-  Fidor Bank''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 2
+  Fidor Bank''s developer surface includes authentication and 7 more developer resources.'
+random_paper: 21
 score:
   band: minimal
   composite: 7.5
@@ -126,7 +130,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -149,4 +153,5 @@ tags:
 - Neobank
 - Germany
 - Retired
+website: https://fidor.de
 ---

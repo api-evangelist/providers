@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -409,7 +409,7 @@ overview: 'Monoova publishes 31 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Monoova''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 32 more developer resources.'
-random_paper: 11
+random_paper: 19
 score:
   band: developing
   composite: 52.8
@@ -453,7 +453,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

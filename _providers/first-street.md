@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -61,17 +61,17 @@ apis:
   slug: first-street-enterprise-api
 - baseURL: https://api.firststreet.org
   baseurl_source: declared
-  description: The Graphql API from First Street — 1 operation(s) for graphql.
-  name: First Street Graphql API
-  slug: first-street-graphql-api
-- baseURL: https://api.firststreet.org
-  baseurl_source: declared
   description: The Maps API from First Street — 1 operation(s) for maps.
   name: First Street Maps API
   slug: first-street-maps-api
 - description: 'Hosted, remote Model Context Protocol server exposing the Climate Risk API to agents over Streamable HTTP. Ten tools with real JSON Schema inputs — property lookup by address, coordinate or Place ID, '
   name: First Street MCP Server
   slug: mcp
+- baseURL: https://api.firststreet.org
+  baseurl_source: declared
+  description: The Graph QL API from First Street — 1 operation(s) for graph ql.
+  name: First Street Graph QL API
+  slug: first-street-graph-ql-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -90,6 +90,11 @@ collections:
   name: First Street API
   slug: open-first-street
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/overlays/first-street-graphql-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/first-street-graphql-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/first-street/refs/heads/main/agentic-access/first-street-agentic-access.yml
   title: ''
@@ -275,15 +280,15 @@ modified: '2026-09-10'
 name: First Street
 nav: Providers
 network: true
-overview: 'First Street publishes 3 APIs on the [APIs.io](https://apis.io/) network: Enterprise API, Graphql API, and Maps API. Tagged areas include Climate, Risk, Environment, Modeling, and Geospatial.
+overview: 'First Street publishes 3 APIs on the [APIs.io](https://apis.io/) network: Enterprise API, Maps API, and Graph QL API. Tagged areas include Climate, Risk, Environment, Modeling, and Geospatial.
 
 
-  First Street''s developer surface includes authentication, documentation, changelog, sandbox, API reference, getting-started guide, support, and 30 more developer resources.'
+  First Street''s developer surface includes authentication, documentation, changelog, sandbox, API reference, getting-started guide, support, and 31 more developer resources.'
 plans:
 - name: First Street Plans Pricing
   plan_count: 0
   slug: first-street-plans-pricing
-random_paper: 0
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: First Street Rate Limits
@@ -324,7 +329,7 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

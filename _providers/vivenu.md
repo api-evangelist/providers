@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 6
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://vivenu.com/api
   baseurl_source: declared
   description: The api API from vivenu — 449 operation(s) for api.
-  name: vivenu api API
+  name: vivenu api
   slug: vivenu-api-api
 - baseURL: https://vivenu.com/api
   baseurl_source: declared
@@ -404,21 +404,21 @@ created: '2026-07-17'
 description: vivenu is an enterprise-grade, API-first event ticketing platform for live entertainment — sports, music, festivals, and performing arts. It provides white-label ticketing infrastructure, a headless REST API with total access to every platform resource (events, tickets, transactions, dynamic pricing, inventory, checkouts, customers, purchase intents), real-time webhooks, prebuilt drop-in checkout and seatmap components, and a unified payments API spanning global payment gateways. Used by more than 1,000 organizers worldwide, vivenu GmbH is headquartered in Germany and backed by Balderton Capital. The public OpenAPI (450 paths, 504 schemas) is served from https://vivenu.com/api with a staging environment at https://vivenu.dev/api.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vivenu.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: vivenu
 nav: Providers
 network: true
-overview: 'vivenu publishes 2 APIs on the [APIs.io](https://apis.io/) network: api API and Payments API. Tagged areas include Company, Event Ticketing, Ticketing, Event, and Payments.
+overview: 'vivenu publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Payments API, and 1 more. Tagged areas include Company, Event Ticketing, Ticketing, Event, and Payments.
 
 
   The vivenu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   vivenu''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: developing
-  composite: 45.2
+  composite: 46.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -426,11 +426,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 50.4
+    contract_quality: 53.8
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 26.3
@@ -456,7 +456,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

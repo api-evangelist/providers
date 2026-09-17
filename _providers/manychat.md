@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -267,14 +267,14 @@ plans:
 - name: Manychat Plans Pricing
   plan_count: 0
   slug: manychat-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 35
   name: Manychat Rate Limits
   slug: manychat-rate-limits
 score:
   band: developing
-  composite: 50.2
+  composite: 49.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 57.0
@@ -282,11 +282,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 23.7
     contract_governance: 19.7
-    contract_quality: 65.1
+    contract_quality: 60.6
     developer_ergonomics: 54.2
     discoverability: 74.1
     operational_transparency: 60.5
@@ -295,7 +295,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 25.0
       derived: 0
       marker_coverage: 0.0
       total: 4
@@ -308,7 +308,7 @@ score:
     regime_id: telecommunications
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

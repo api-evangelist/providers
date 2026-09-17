@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://github.com/spring-projects/spring-batch
   baseurl_source: declared
   description: Batch job execution management and monitoring
-  name: Spring Batch Batch Jobs API
+  name: Spring Batch Jobs API
   slug: spring-batch-batch-jobs-api
 - baseURL: https://github.com/spring-projects/spring-batch
   baseurl_source: declared
@@ -82,6 +82,10 @@ collections:
   name: Spring Batch 5.1 Actuator API
   slug: open-spring-batch
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://spring.io
 - group: build
   title: ''
   type: CodeOfConduct
@@ -179,22 +183,22 @@ jsonld:
   property_count: 25
   slug: spring-batch-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Spring Batch
 nav: Providers
 network: true
-overview: 'Spring Batch publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch Jobs API, Health API, and Metrics API. Tagged areas include Batch Processing, Data Processing, Enterprise, ETL, and Java.
+overview: 'Spring Batch publishes 3 APIs on the [APIs.io](https://apis.io/) network: Jobs API, Health API, and Metrics API. Tagged areas include Batch Processing, Data Processing, Enterprise, ETL, and Java.
 
 
   The Spring Batch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Batch''s developer surface includes engineering blog, Stack Overflow tag, release notes, and 12 more developer resources.'
+  Spring Batch''s developer surface includes engineering blog, Stack Overflow tag, release notes, and 13 more developer resources.'
 plans:
 - name: Spring Batch Plans Pricing
   plan_count: 3
   slug: spring-batch-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Spring Batch Rate Limits
@@ -248,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -273,5 +277,5 @@ tags:
 - Java
 - Job Scheduling
 - Spring Framework
-website: https://spring.io/projects/spring-batch
+website: https://spring.io
 ---

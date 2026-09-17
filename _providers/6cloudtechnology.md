@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ plans:
 - name: 6Cloudtechnology Plans Pricing
   plan_count: 0
   slug: 6cloudtechnology-plans-pricing
-random_paper: 14
+random_paper: 1
 score:
   band: minimal
   composite: 6.4
@@ -121,7 +121,7 @@ score:
     - greater-china
   previous_composite: 6.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

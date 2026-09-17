@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -123,11 +123,6 @@ apis:
   description: The Admin API from Autodesk — 2 operation(s) for admin.
   name: Autodesk Admin API
   slug: autodesk-admin-api
-- baseURL: https://developer.api.autodesk.com
-  baseurl_source: declared
-  description: The AppBundles API from Autodesk — 5 operation(s) for appbundles.
-  name: Autodesk AppBundles API
-  slug: autodesk-appbundles-api
 - baseURL: https://developer.api.autodesk.com
   baseurl_source: declared
   description: The Authorization API from Autodesk — 2 operation(s) for authorization.
@@ -345,9 +340,14 @@ apis:
   slug: autodesk-versions-api
 - baseURL: https://developer.api.autodesk.com
   baseurl_source: declared
-  description: The WorkItems API from Autodesk — 2 operation(s) for workitems.
-  name: Autodesk WorkItems API
-  slug: autodesk-workitems-api
+  description: The App Bundles API from Autodesk — 5 operation(s) for app bundles.
+  name: Autodesk App Bundles API
+  slug: autodesk-app-bundles-api
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Work Items API from Autodesk — 2 operation(s) for work items.
+  name: Autodesk Work Items API
+  slug: autodesk-work-items-api
 arazzos:
 - description: Create an ACC project, resolve industry roles and the member's company, add the user, and confirm the roster.
   name: Autodesk Onboard a Project and Its First Member
@@ -1596,7 +1596,7 @@ press:
 - date: '2026-05-25'
   title: Home - ADSK News - Autodesk
   url: https://adsknews.autodesk.com/en/?newsfeed_page=14
-random_paper: 3
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Autodesk Rate Limits
@@ -1630,21 +1630,21 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 55.5
+  composite: 57.4
   coverage:
     artifact_dirs: 37
-    catalog_earned: 51.5
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 61.8
     contract_governance: 18.2
-    contract_quality: 75.0
+    contract_quality: 74.9
     developer_ergonomics: 72.6
-    discoverability: 50.0
+    discoverability: 68.5
     operational_transparency: 26.3
   previous_composite: 55.5
   provenance:
@@ -1657,7 +1657,7 @@ score:
       total: 48
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1701,7 +1701,7 @@ tags:
 - CAD
 - Construction
 - Design
-- Digital Twins
+- Digital Twin
 - Engineering
 - Manufacturing
 - Media and Entertainment

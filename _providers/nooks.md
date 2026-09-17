@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -55,11 +55,6 @@ apis:
   slug: nooks-accounts-api
 - baseURL: https://partner-api.nooks.in/v1
   baseurl_source: declared
-  description: Access call disposition definitions
-  name: Nooks Call Dispositions API
-  slug: nooks-calldispositions-api
-- baseURL: https://partner-api.nooks.in/v1
-  baseurl_source: declared
   description: Access call records
   name: Nooks Calls API
   slug: nooks-calls-api
@@ -68,11 +63,6 @@ apis:
   description: Access email records
   name: Nooks Emails API
   slug: nooks-emails-api
-- baseURL: https://partner-api.nooks.in/v1
-  baseurl_source: declared
-  description: Access email template content
-  name: Nooks Email Templates API
-  slug: nooks-emailtemplates-api
 - baseURL: https://partner-api.nooks.in/v1
   baseurl_source: declared
   description: Inspect the authenticated principal
@@ -86,7 +76,7 @@ apis:
 - baseURL: https://partner-api.nooks.in/v1
   baseurl_source: declared
   description: The Nooks Sequencing API API from Nooks — 0 operation(s) for nooks sequencing api.
-  name: Nooks Nooks Sequencing API
+  name: Nooks Sequencing API
   slug: nooks-nooks-sequencing-api-api
 - baseURL: https://partner-api.nooks.in/v1
   baseurl_source: declared
@@ -105,11 +95,6 @@ apis:
   slug: nooks-sequences-api
 - baseURL: https://partner-api.nooks.in/v1
   baseurl_source: declared
-  description: Track prospect enrollments in sequences
-  name: Nooks Sequence States API
-  slug: nooks-sequencestates-api
-- baseURL: https://partner-api.nooks.in/v1
-  baseurl_source: declared
   description: Access sequence step definitions
   name: Nooks Sequence Steps API
   slug: nooks-sequencesteps-api
@@ -123,6 +108,21 @@ apis:
   description: Manage workspace users
   name: Nooks Users API
   slug: nooks-users-api
+- baseURL: https://mcp.nooks.in/
+  baseurl_source: declared
+  description: Access call disposition definitions
+  name: Nooks Call Dispositions API
+  slug: nooks-call-dispositions-api
+- baseURL: https://mcp.nooks.in/
+  baseurl_source: declared
+  description: Access email template content
+  name: Nooks Email Templates API
+  slug: nooks-email-templates-api
+- baseURL: https://mcp.nooks.in/
+  baseurl_source: declared
+  description: Track prospect enrollments in sequences
+  name: Nooks Sequence States API
+  slug: nooks-sequence-states-api
 artifact_total: 26
 asyncapis:
 - description: ''
@@ -248,11 +248,11 @@ mcp_servers:
 - description: ''
   name: Nooks MCP Server
   slug: nooks-mcp-server
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Nooks
 nav: Providers
 network: true
-overview: 'Nooks publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Call Dispositions API, Calls API, and 12 more. Tagged areas include Company, Artificial Intelligence, Sales Engagement, Sales Dialer, and AI SDR.
+overview: 'Nooks publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Calls API, Emails API, and 12 more. Tagged areas include Company, Artificial Intelligence, Sales Engagement, Sales Dialer, and AI SDR.
 
 
   The Nooks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -263,7 +263,7 @@ plans:
 - name: Nooks Plans Pricing
   plan_count: 0
   slug: nooks-plans-pricing
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 8
   name: Nooks Rate Limits
@@ -303,7 +303,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

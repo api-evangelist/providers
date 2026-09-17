@@ -24,7 +24,7 @@ name: Garaji
 nav: Providers
 network: true
 overview: Garaji is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Marketplace, Auto Repair, and Vehicle Maintenance.
-random_paper: 13
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/garaji/refs/heads/main/screenshots/garaji-2026-07-25T215443.png
 slug: garaji
 tags:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 927
   human_in_the_loop: 18
@@ -76,19 +76,9 @@ apis:
   slug: posthog-actions-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The activity_log API from PostHog — 1 operation(s) for activity_log.
-  name: PostHog activity_log API
-  slug: posthog-activity-log-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The activity_logs API from PostHog — 1 operation(s) for activity_logs.
   name: PostHog activity_logs API
   slug: posthog-activity-logs-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The advanced_activity_logs API from PostHog — 3 operation(s) for advanced_activity_logs.
-  name: PostHog advanced_activity_logs API
-  slug: posthog-advanced-activity-logs-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The alerts API from PostHog — 6 operation(s) for alerts.
@@ -96,49 +86,14 @@ apis:
   slug: posthog-alerts-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The annotations API from PostHog — 2 operation(s) for annotations.
-  name: PostHog annotations API
-  slug: posthog-annotations-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The approval_policies API from PostHog — 2 operation(s) for approval_policies.
-  name: PostHog approval_policies API
-  slug: posthog-approval-policies-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The batch_exports API from PostHog — 40 operation(s) for batch_exports.
   name: PostHog batch_exports API
   slug: posthog-batch-exports-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The cdp API from PostHog — 23 operation(s) for cdp.
-  name: PostHog cdp API
-  slug: posthog-cdp-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The change_requests API from PostHog — 5 operation(s) for change_requests.
-  name: PostHog change_requests API
-  slug: posthog-change-requests-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The code API from PostHog — 2 operation(s) for code.
-  name: PostHog code API
-  slug: posthog-code-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The code-invites API from PostHog — 2 operation(s) for code-invites.
   name: PostHog code-invites API
   slug: posthog-code-invites-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The cohorts API from PostHog — 8 operation(s) for cohorts.
-  name: PostHog cohorts API
-  slug: posthog-cohorts-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The comments API from PostHog — 4 operation(s) for comments.
-  name: PostHog comments API
-  slug: posthog-comments-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The conversations API from PostHog — 14 operation(s) for conversations.
@@ -166,24 +121,9 @@ apis:
   slug: posthog-customer-profile-configs-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The dashboard_templates API from PostHog — 4 operation(s) for dashboard_templates.
-  name: PostHog dashboard_templates API
-  slug: posthog-dashboard-templates-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The dashboards API from PostHog — 40 operation(s) for dashboards.
   name: PostHog dashboards API
   slug: posthog-dashboards-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The data_color_themes API from PostHog — 4 operation(s) for data_color_themes.
-  name: PostHog data_color_themes API
-  slug: posthog-data-color-themes-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The data_modeling_jobs API from PostHog — 8 operation(s) for data_modeling_jobs.
-  name: PostHog data_modeling_jobs API
-  slug: posthog-data-modeling-jobs-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The data_warehouse API from PostHog — 110 operation(s) for data_warehouse.
@@ -191,39 +131,14 @@ apis:
   slug: posthog-data-warehouse-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The dataset_items API from PostHog — 4 operation(s) for dataset_items.
-  name: PostHog dataset_items API
-  slug: posthog-dataset-items-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The datasets API from PostHog — 4 operation(s) for datasets.
-  name: PostHog datasets API
-  slug: posthog-datasets-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The desktop_recordings API from PostHog — 3 operation(s) for desktop_recordings.
   name: PostHog desktop_recordings API
   slug: posthog-desktop-recordings-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The domains API from PostHog — 5 operation(s) for domains.
-  name: PostHog domains API
-  slug: posthog-domains-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The early_access_feature API from PostHog — 2 operation(s) for early_access_feature.
-  name: PostHog early_access_feature API
-  slug: posthog-early-access-feature-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The early_access_features API from PostHog — 2 operation(s) for early_access_features.
   name: PostHog early_access_features API
   slug: posthog-early-access-features-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The elements API from PostHog — 8 operation(s) for elements.
-  name: PostHog elements API
-  slug: posthog-elements-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The endpoints API from PostHog — 16 operation(s) for endpoints.
@@ -239,21 +154,6 @@ apis:
   description: The error_tracking API from PostHog — 56 operation(s) for error_tracking.
   name: PostHog error_tracking API
   slug: posthog-error-tracking-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The evaluation_runs API from PostHog — 1 operation(s) for evaluation_runs.
-  name: PostHog evaluation_runs API
-  slug: posthog-evaluation-runs-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The evaluations API from PostHog — 3 operation(s) for evaluations.
-  name: PostHog evaluations API
-  slug: posthog-evaluations-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The event_definitions API from PostHog — 9 operation(s) for event_definitions.
-  name: PostHog event_definitions API
-  slug: posthog-event-definitions-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The event_filter API from PostHog — 3 operation(s) for event_filter.
@@ -286,29 +186,9 @@ apis:
   slug: posthog-experiments-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The exports API from PostHog — 6 operation(s) for exports.
-  name: PostHog exports API
-  slug: posthog-exports-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The external_data_schemas API from PostHog — 14 operation(s) for external_data_schemas.
-  name: PostHog external_data_schemas API
-  slug: posthog-external-data-schemas-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The external_data_sources API from PostHog — 32 operation(s) for external_data_sources.
-  name: PostHog external_data_sources API
-  slug: posthog-external-data-sources-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The feature_flags API from PostHog — 19 operation(s) for feature_flags.
   name: PostHog feature_flags API
   slug: posthog-feature-flags-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The file_system API from PostHog — 18 operation(s) for file_system.
-  name: PostHog file_system API
-  slug: posthog-file-system-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The file_system_shortcut API from PostHog — 6 operation(s) for file_system_shortcut.
@@ -319,11 +199,6 @@ apis:
   description: The flag_value API from PostHog — 1 operation(s) for flag_value.
   name: PostHog flag_value API
   slug: posthog-flag-value-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The groups API from PostHog — 16 operation(s) for groups.
-  name: PostHog groups API
-  slug: posthog-groups-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The groups_types API from PostHog — 7 operation(s) for groups_types.
@@ -341,16 +216,6 @@ apis:
   slug: posthog-heatmap-screenshots-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The heatmaps API from PostHog — 4 operation(s) for heatmaps.
-  name: PostHog heatmaps API
-  slug: posthog-heatmaps-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The hog_flows API from PostHog — 28 operation(s) for hog_flows.
-  name: PostHog hog_flows API
-  slug: posthog-hog-flows-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The hog_function_templates API from PostHog — 3 operation(s) for hog_function_templates.
   name: PostHog hog_function_templates API
   slug: posthog-hog-function-templates-api
@@ -359,11 +224,6 @@ apis:
   description: The hog_functions API from PostHog — 20 operation(s) for hog_functions.
   name: PostHog hog_functions API
   slug: posthog-hog-functions-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The insight_variables API from PostHog — 4 operation(s) for insight_variables.
-  name: PostHog insight_variables API
-  slug: posthog-insight-variables-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The insights API from PostHog — 36 operation(s) for insights.
@@ -376,19 +236,9 @@ apis:
   slug: posthog-integrations-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The invites API from PostHog — 3 operation(s) for invites.
-  name: PostHog invites API
-  slug: posthog-invites-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The js-snippet API from PostHog — 2 operation(s) for js-snippet.
   name: PostHog js-snippet API
   slug: posthog-js-snippet-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The legal_documents API from PostHog — 3 operation(s) for legal_documents.
-  name: PostHog legal_documents API
-  slug: posthog-legal-documents-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The lineage API from PostHog — 1 operation(s) for lineage.
@@ -404,16 +254,6 @@ apis:
   description: The LLM Analytics API from PostHog — 58 operation(s) for llm analytics.
   name: PostHog LLM Analytics API
   slug: posthog-llm-analytics-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The llm_prompts API from PostHog — 5 operation(s) for llm_prompts.
-  name: PostHog llm_prompts API
-  slug: posthog-llm-prompts-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The llm_skills API from PostHog — 8 operation(s) for llm_skills.
-  name: PostHog llm_skills API
-  slug: posthog-llm-skills-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The logs API from PostHog — 43 operation(s) for logs.
@@ -436,16 +276,6 @@ apis:
   slug: posthog-max-tools-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The mcp_server_installations API from PostHog — 9 operation(s) for mcp_server_installations.
-  name: PostHog mcp_server_installations API
-  slug: posthog-mcp-server-installations-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The mcp_servers API from PostHog — 1 operation(s) for mcp_servers.
-  name: PostHog mcp_servers API
-  slug: posthog-mcp-servers-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The mcp_store API from PostHog — 10 operation(s) for mcp_store.
   name: PostHog mcp_store API
   slug: posthog-mcp-store-api
@@ -456,19 +286,9 @@ apis:
   slug: posthog-mcp-tools-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The members API from PostHog — 3 operation(s) for members.
-  name: PostHog members API
-  slug: posthog-members-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The notebooks API from PostHog — 16 operation(s) for notebooks.
   name: PostHog notebooks API
   slug: posthog-notebooks-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The oauth_applications API from PostHog — 1 operation(s) for oauth_applications.
-  name: PostHog oauth_applications API
-  slug: posthog-oauth-applications-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The object_media_previews API from PostHog — 3 operation(s) for object_media_previews.
@@ -511,31 +331,6 @@ apis:
   slug: posthog-product-tours-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The project_secret_api_keys API from PostHog — 6 operation(s) for project_secret_api_keys.
-  name: PostHog project_secret_api_keys API
-  slug: posthog-project-secret-api-keys-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The projects API from PostHog — 11 operation(s) for projects.
-  name: PostHog projects API
-  slug: posthog-projects-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The property_definitions API from PostHog — 4 operation(s) for property_definitions.
-  name: PostHog property_definitions API
-  slug: posthog-property-definitions-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The proxy_records API from PostHog — 3 operation(s) for proxy_records.
-  name: PostHog proxy_records API
-  slug: posthog-proxy-records-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The public_hog_function_templates API from PostHog — 1 operation(s) for public_hog_function_templates.
-  name: PostHog public_hog_function_templates API
-  slug: posthog-public-hog-function-templates-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The query API from PostHog — 14 operation(s) for query.
   name: PostHog query API
   slug: posthog-query-api
@@ -549,16 +344,6 @@ apis:
   description: The reverse_proxy API from PostHog — 3 operation(s) for reverse_proxy.
   name: PostHog reverse_proxy API
   slug: posthog-reverse-proxy-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The role_external_references API from PostHog — 3 operation(s) for role_external_references.
-  name: PostHog role_external_references API
-  slug: posthog-role-external-references-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The roles API from PostHog — 4 operation(s) for roles.
-  name: PostHog roles API
-  slug: posthog-roles-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The sandbox-environments API from PostHog — 2 operation(s) for sandbox-environments.
@@ -586,16 +371,6 @@ apis:
   slug: posthog-session-group-summaries-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The session_recording_playlists API from PostHog — 8 operation(s) for session_recording_playlists.
-  name: PostHog session_recording_playlists API
-  slug: posthog-session-recording-playlists-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The session_recordings API from PostHog — 12 operation(s) for session_recordings.
-  name: PostHog session_recordings API
-  slug: posthog-session-recordings-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The session_summaries API from PostHog — 3 operation(s) for session_summaries.
   name: PostHog session_summaries API
   slug: posthog-session-summaries-api
@@ -609,11 +384,6 @@ apis:
   description: The signals API from PostHog — 6 operation(s) for signals.
   name: PostHog signals API
   slug: posthog-signals-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The subscriptions API from PostHog — 8 operation(s) for subscriptions.
-  name: PostHog subscriptions API
-  slug: posthog-subscriptions-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The surveys API from PostHog — 14 operation(s) for surveys.
@@ -646,11 +416,6 @@ apis:
   slug: posthog-uploaded-media-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The user_home_settings API from PostHog — 1 operation(s) for user_home_settings.
-  name: PostHog user_home_settings API
-  slug: posthog-user-home-settings-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The user_interviews API from PostHog — 2 operation(s) for user_interviews.
   name: PostHog user_interviews API
   slug: posthog-user-interviews-api
@@ -674,16 +439,6 @@ apis:
   description: The warehouse_model_paths API from PostHog — 2 operation(s) for warehouse_model_paths.
   name: PostHog warehouse_model_paths API
   slug: posthog-warehouse-model-paths-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The warehouse_saved_queries API from PostHog — 24 operation(s) for warehouse_saved_queries.
-  name: PostHog warehouse_saved_queries API
-  slug: posthog-warehouse-saved-queries-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
-  description: The warehouse_saved_query_folders API from PostHog — 4 operation(s) for warehouse_saved_query_folders.
-  name: PostHog warehouse_saved_query_folders API
-  slug: posthog-warehouse-saved-query-folders-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
   description: The warehouse_tables API from PostHog — 10 operation(s) for warehouse_tables.
@@ -716,15 +471,15 @@ apis:
   slug: posthog-web-vitals-api
 - baseURL: https://app.posthog.com/api
   baseurl_source: declared
-  description: The welcome API from PostHog — 1 operation(s) for welcome.
-  name: PostHog welcome API
-  slug: posthog-welcome-api
-- baseURL: https://app.posthog.com/api
-  baseurl_source: declared
   description: The workflows API from PostHog — 28 operation(s) for workflows.
   name: PostHog workflows API
   slug: posthog-workflows-api
-artifact_total: 2039
+- baseURL: https://app.posthog.com/api
+  baseurl_source: declared
+  description: The Heat Maps API from PostHog — 4 operation(s) for heat maps.
+  name: PostHog Heat Maps API
+  slug: posthog-heat-maps-api
+artifact_total: 1990
 asyncapis:
 - description: 'PostHog''s Customer Data Platform (CDP) exposes a webhook destination that sends event and person data from PostHog to any external HTTP endpoint in real time. The generic Webhook destination supports '
   name: PostHog Webhook Destinations
@@ -6493,7 +6248,7 @@ modified: '2026-05-30'
 name: PostHog
 nav: Providers
 network: true
-overview: 'PostHog publishes 131 APIs on the [APIs.io](https://apis.io/) network, including actions API, activity_log API, activity_logs API, and 128 more. Tagged areas include A/B Testing, Analytics, Feature Flags, Open-Source, and Product Analytics.
+overview: 'PostHog publishes 82 APIs on the [APIs.io](https://apis.io/) network, including actions API, activity_logs API, alerts API, and 79 more. Tagged areas include A/B Testing, Analytics, Feature Flags, Open-Source, and Product Analytics.
 
 
   The PostHog catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -6504,7 +6259,7 @@ plans:
 - name: Posthog Plans Pricing
   plan_count: 4
   slug: posthog-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Posthog Rate Limits
@@ -6533,7 +6288,7 @@ rules:
   slug: posthog-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.4
+  composite: 51.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 42.5
@@ -6541,11 +6296,11 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 61.8
     contract_governance: 13.6
-    contract_quality: 59.6
+    contract_quality: 58.6
     developer_ergonomics: 56.0
     discoverability: 61.1
     operational_transparency: 36.8
@@ -6553,13 +6308,13 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 131
+      total: 82
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

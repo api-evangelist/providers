@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting provider for IRIS, Sapienza's institutional research information system and repository, served from the university's own host iris.uniroma1.it. Verified live 2026-09-01
@@ -167,7 +167,7 @@ plans:
 - name: Sapienza University Of Rome Plans Pricing
   plan_count: 2
   slug: sapienza-university-of-rome-plans-pricing
-random_paper: 13
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Sapienza University Of Rome Rate Limits
@@ -208,7 +208,7 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

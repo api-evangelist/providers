@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 353
   human_in_the_loop: 32
@@ -114,29 +114,14 @@ apis:
   slug: microsoft-azure-functions-sitecertificates-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
-  description: The StaticSites API from Microsoft Azure Functions — 51 operation(s) for staticsites.
-  name: Microsoft Azure Functions StaticSites API
-  slug: microsoft-azure-functions-staticsites-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
   description: The Subscriptions API from Microsoft Azure Functions — 15 operation(s) for subscriptions.
   name: Microsoft Azure Functions Subscriptions API
   slug: microsoft-azure-functions-subscriptions-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
-  description: The WebApps API from Microsoft Azure Functions — 300 operation(s) for webapps.
-  name: Microsoft Azure Functions WebApps API
-  slug: microsoft-azure-functions-webapps-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
   description: The WorkflowRunActions API from Microsoft Azure Functions — 10 operation(s) for workflowrunactions.
   name: Microsoft Azure Functions WorkflowRunActions API
   slug: microsoft-azure-functions-workflowrunactions-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The WorkflowRuns API from Microsoft Azure Functions — 3 operation(s) for workflowruns.
-  name: Microsoft Azure Functions WorkflowRuns API
-  slug: microsoft-azure-functions-workflowruns-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The Workflows API from Microsoft Azure Functions — 2 operation(s) for workflows.
@@ -147,16 +132,31 @@ apis:
   description: The WorkflowTriggerHistories API from Microsoft Azure Functions — 3 operation(s) for workflowtriggerhistories.
   name: Microsoft Azure Functions WorkflowTriggerHistories API
   slug: microsoft-azure-functions-workflowtriggerhistories-api
-- baseURL: https://management.azure.com
+- baseURL: https://{functionapp}.azurewebsites.net
   baseurl_source: declared
-  description: The WorkflowTriggers API from Microsoft Azure Functions — 5 operation(s) for workflowtriggers.
-  name: Microsoft Azure Functions WorkflowTriggers API
-  slug: microsoft-azure-functions-workflowtriggers-api
-- baseURL: https://management.azure.com
+  description: The Static Sites API from Microsoft Azure Functions — 51 operation(s) for static sites.
+  name: Microsoft Azure Functions Static Sites API
+  slug: microsoft-azure-functions-static-sites-api
+- baseURL: https://{functionapp}.azurewebsites.net
   baseurl_source: declared
-  description: The WorkflowVersions API from Microsoft Azure Functions — 2 operation(s) for workflowversions.
-  name: Microsoft Azure Functions WorkflowVersions API
-  slug: microsoft-azure-functions-workflowversions-api
+  description: The Web Apps API from Microsoft Azure Functions — 300 operation(s) for web apps.
+  name: Microsoft Azure Functions Web Apps API
+  slug: microsoft-azure-functions-web-apps-api
+- baseURL: https://{functionapp}.azurewebsites.net
+  baseurl_source: declared
+  description: The Workflow Runs API from Microsoft Azure Functions — 3 operation(s) for workflow runs.
+  name: Microsoft Azure Functions Workflow Runs API
+  slug: microsoft-azure-functions-workflow-runs-api
+- baseURL: https://{functionapp}.azurewebsites.net
+  baseurl_source: declared
+  description: The Workflow Triggers API from Microsoft Azure Functions — 5 operation(s) for workflow triggers.
+  name: Microsoft Azure Functions Workflow Triggers API
+  slug: microsoft-azure-functions-workflow-triggers-api
+- baseURL: https://{functionapp}.azurewebsites.net
+  baseurl_source: declared
+  description: The Workflow Versions API from Microsoft Azure Functions — 2 operation(s) for workflow versions.
+  name: Microsoft Azure Functions Workflow Versions API
+  slug: microsoft-azure-functions-workflow-versions-api
 arazzos:
 - description: Create a single function inside an existing function app, then read it back to confirm it exists.
   name: Create a Function in a Function App and Verify It
@@ -816,7 +816,7 @@ plans:
 - name: Microsoft Azure Functions Plans Pricing
   plan_count: 3
   slug: microsoft-azure-functions-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Functions Rate Limits
@@ -860,7 +860,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 68.6
+  composite: 68.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 80.0
@@ -868,11 +868,11 @@ score:
     catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 47.4
     contract_governance: 69.7
-    contract_quality: 54.0
+    contract_quality: 54.9
     developer_ergonomics: 82.1
     discoverability: 75.9
     operational_transparency: 52.6
@@ -888,7 +888,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

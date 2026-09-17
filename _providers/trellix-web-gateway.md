@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -87,11 +87,6 @@ apis:
   slug: trellix-web-gateway-reports-api
 - baseURL: https://<mwg-server>:<port>/Konfigurator/REST
   baseurl_source: declared
-  description: Manage policy rule sets
-  name: Trellix Web Gateway Rule Sets API
-  slug: trellix-web-gateway-rule-sets-api
-- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
-  baseurl_source: declared
   description: Manage individual policy rules within rule sets
   name: Trellix Web Gateway Rules API
   slug: trellix-web-gateway-rules-api
@@ -130,6 +125,11 @@ apis:
   description: URL categorization and filtering settings
   name: Trellix Web Gateway URL Filtering API
   slug: trellix-web-gateway-url-filtering-api
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Manage policy rule sets
+  name: Trellix Web Gateway Rulesets API
+  slug: trellix-web-gateway-rulesets-api
 artifact_total: 68
 collections:
 - collection_type: postman
@@ -247,6 +247,10 @@ collections:
   name: Trellix Web Gateway Policy Anti-Malware URL Filtering API
   slug: open-trellix-web-gateway-url-filtering-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://trellix.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -360,7 +364,7 @@ jsonld:
   property_count: 9
   slug: trellix-web-gateway-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Trellix Web Gateway
 nav: Providers
 network: true
@@ -370,12 +374,12 @@ overview: 'Trellix Web Gateway publishes 17 APIs on the [APIs.io](https://apis.i
   The Trellix Web Gateway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trellix Web Gateway''s developer surface includes authentication, getting-started guide, changelog, developer portal, and 15 more developer resources.'
+  Trellix Web Gateway''s developer surface includes authentication, getting-started guide, changelog, developer portal, and 16 more developer resources.'
 plans:
 - name: Trellix Web Gateway Plans Pricing
   plan_count: 1
   slug: trellix-web-gateway-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Trellix Web Gateway Rate Limits
@@ -429,7 +433,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -455,5 +459,5 @@ tags:
 - Threat Protection
 - URL Filtering
 - Web Gateway
-website: https://developer.trellix.com/
+website: https://trellix.com
 ---

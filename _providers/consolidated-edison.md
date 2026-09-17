@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,17 +42,82 @@ agentic_access:
   operation_count: 37
   slug: consolidated-edison-agentic-access
   summary_line: 37 operations · 2 acting
-api_count: 1
+api_count: 2
 apis:
-- baseURL: https://api.coned.com/gbc/espi/1_1
-  baseurl_source: declared
-  description: Green Button Connect My Data is the OAuth2-based ESPI service that lets Con Edison customers authorize a registered third party to receive their interval energy usage and account data on a recurring b
-  name: Green Button Connect My Data
-  slug: green-button-connect
 - description: 'Customer-driven file export that lets Con Edison residential and small commercial accounts download up to one year of smart-meter interval data as CSV or ESPI XML directly from the My Account portal. '
   name: Green Button Download My Data
   slug: green-button-download
-artifact_total: 10
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The ApplicationInformation API from Consolidated Edison — 1 operation(s) for applicationinformation.
+  name: Consolidated Edison Application Information API
+  slug: consolidated-edison-applicationinformation-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The Authorization API from Consolidated Edison — 3 operation(s) for authorization.
+  name: Consolidated Edison Authorization API
+  slug: consolidated-edison-authorization-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The Batch API from Consolidated Edison — 4 operation(s) for batch.
+  name: Consolidated Edison Batch API
+  slug: consolidated-edison-batch-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The ElectricPowerUsageSummary API from Consolidated Edison — 2 operation(s) for electricpowerusagesummary.
+  name: Consolidated Edison Electric Power Usage Summary API
+  slug: consolidated-edison-electricpowerusagesummary-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The IntervalBlock API from Consolidated Edison — 2 operation(s) for intervalblock.
+  name: Consolidated Edison Interval Block API
+  slug: consolidated-edison-intervalblock-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The LocalTimeParameters API from Consolidated Edison — 2 operation(s) for localtimeparameters.
+  name: Consolidated Edison Local Time Parameters API
+  slug: consolidated-edison-localtimeparameters-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The MeterReading API from Consolidated Edison — 2 operation(s) for meterreading.
+  name: Consolidated Edison Meter Reading API
+  slug: consolidated-edison-meterreading-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The ReadingType API from Consolidated Edison — 2 operation(s) for readingtype.
+  name: Consolidated Edison Reading Type API
+  slug: consolidated-edison-readingtype-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The RealTimeBatch API from Consolidated Edison — 3 operation(s) for realtimebatch.
+  name: Consolidated Edison Real Time Batch API
+  slug: consolidated-edison-realtimebatch-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The RealTimeIntervalBlock API from Consolidated Edison — 2 operation(s) for realtimeintervalblock.
+  name: Consolidated Edison Real Time Interval Block API
+  slug: consolidated-edison-realtimeintervalblock-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The RealTimeReadingType API from Consolidated Edison — 2 operation(s) for realtimereadingtype.
+  name: Consolidated Edison Real Time Reading Type API
+  slug: consolidated-edison-realtimereadingtype-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The RetailCustomer API from Consolidated Edison — 9 operation(s) for retailcustomer.
+  name: Consolidated Edison Retail Customer API
+  slug: consolidated-edison-retailcustomer-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The UsagePoint API from Consolidated Edison — 2 operation(s) for usagepoint.
+  name: Consolidated Edison Usage Point API
+  slug: consolidated-edison-usagepoint-api
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The Service Status API from Consolidated Edison — 1 operation(s) for service status.
+  name: Consolidated Edison Service Status API
+  slug: consolidated-edison-service-status-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Consolidated Edison Webhooks
@@ -228,7 +293,7 @@ modified: '2026-09-05'
 name: Consolidated Edison
 nav: Providers
 network: true
-overview: 'Consolidated Edison publishes 1 API on the [APIs.io](https://apis.io/) network: Green Button Connect My Data. Tagged areas include AMI, Demand Response, ESPI, Energy, and Fortune 500.
+overview: 'Consolidated Edison publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 11 more. Tagged areas include AMI, Demand Response, ESPI, Energy, and Fortune 500.
 
 
   The Consolidated Edison catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -255,7 +320,7 @@ press:
 - date: '2026-05-25'
   title: Con Edison posts higher 2025 earnings, sets 2026 EPS view
   url: https://www.stocktitan.net/sec-filings/ED/8-k-consolidated-edison-inc-reports-material-event-0907b1b03c4d.html
-random_paper: 7
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Consolidated Edison Rate Limits
@@ -266,32 +331,32 @@ scopes:
   slug: consolidated-edison-scopes
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 55.1
+  band: developing
+  composite: 52.6
   coverage:
     artifact_dirs: 25
-    catalog_earned: 51.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 16.0
-    catalog_gap: 64.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 47.7
+    contract_quality: 46.3
     developer_ergonomics: 58.9
-    discoverability: 59.3
+    discoverability: 53.7
     operational_transparency: 31.6
   previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 14
     mcp: derived
     skills: derived
   regulatory:
@@ -299,9 +364,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 67.6
+    score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

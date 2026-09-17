@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -182,10 +182,10 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/company/karrioapi
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/karrio-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/openapi/_original/karrio-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/karrio-api-openapi.yml
+  url: openapi/_original/karrio-api-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/graphql/karrio-graphql-schema.json
   title: ''
@@ -328,11 +328,11 @@ mcp_servers:
 - description: 'Karrio ships a first-party MCP server, @karrio/mcp, that exposes its multi-carrier shipping surface to MCP clients. It is a local server: it runs on the operator''s machine (stdio) or as a self-run Str'
   name: Karrio MCP Server
   slug: karrio-mcp-server
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Karrio
 nav: Providers
 network: true
-overview: 'Karrio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Auth API, and 14 more. Tagged areas include Shipping, Logistics, Label Generation, Package Tracking, and Carriers.
+overview: 'Karrio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Auth API, and 14 more. Tagged areas include Shipping, Logistics, Label Generation, Package Tracking, and Carrier.
 
 
   The Karrio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -343,7 +343,7 @@ plans:
 - name: Karrio Plans Pricing
   plan_count: 3
   slug: karrio-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Karrio Rate Limits
@@ -389,7 +389,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -414,11 +414,11 @@ tags:
 - Logistics
 - Label Generation
 - Package Tracking
-- Carriers
+- Carrier
 - Fulfillment
 - Open-Source
 - Multi-Carrier
-- Rating
+- Ratings
 - Webhook
 website: https://karrio.io/
 ---

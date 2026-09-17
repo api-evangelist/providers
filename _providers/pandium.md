@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 5
-  human_in_the_loop: 0
+- acting_count: 14
+  human_in_the_loop: 1
   name: Pandium Agentic Access
-  operation_count: 14
+  operation_count: 29
   slug: pandium-agentic-access
-  summary_line: 14 operations · 5 acting
+  summary_line: 29 operations · 14 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.pandium.io
@@ -557,7 +557,7 @@ plans:
 - name: Pandium Plans Pricing
   plan_count: 2
   slug: pandium-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Pandium Rate Limits
@@ -575,7 +575,7 @@ rules:
   slug: pandium-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.0
+  composite: 63.7
   coverage:
     artifact_dirs: 31
     catalog_earned: 66.3
@@ -583,11 +583,11 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 76.3
     contract_governance: 14.4
-    contract_quality: 71.5
+    contract_quality: 78.3
     developer_ergonomics: 65.5
     discoverability: 75.9
     operational_transparency: 55.3
@@ -597,13 +597,13 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 16.7
+      derived: 0
+      marker_coverage: 66.7
       total: 6
     mcp: derived
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

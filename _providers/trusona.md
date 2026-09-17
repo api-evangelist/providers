@@ -28,15 +28,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-09-15'
+  score: 35.6
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,27 +44,62 @@ agentic_access:
   operation_count: 15
   slug: trusona-agentic-access
   summary_line: 15 operations · 4 acting
-api_count: 3
+api_count: 2
 apis:
-- baseURL: https://authcloud.trusona.net
-  baseurl_source: declared
-  description: 'REST API to create and read identity verifications: send a hosted scan link by SMS or email, read overall risk, per-verifier checks, risk scores, scanned documents and the devices seen during the veri'
-  name: Trusona ATO Protect Verification API
-  slug: trusona-ato-protect-verification-api
-- baseURL: https://authcloud.trusona.net
-  baseurl_source: declared
-  description: REST API that submits supplied identity data for asynchronous driver-license verification against State DMV records over AAMVA and against mobile network operator (MNO) records, returning per-field ma
-  name: Trusona Driver License Verification API (IDV API)
-  slug: trusona-driver-license-verification-api-idv-api
 - description: 'Legacy AAMVA identity-document proofing REST surface documented on the Trusona site rather than as an OpenAPI: barcode verifications, verifications, a verification lookup by transaction locator id, a '
   name: Trusona ID Proofing API (v2)
   slug: trusona-id-proofing-api-v2
-artifact_total: 10
+- baseURL: https://authcloud.trusona.net
+  baseurl_source: declared
+  description: The Devices API from Trusona — 1 operation(s) for devices.
+  name: Trusona Devices API
+  slug: trusona-devices-api
+- baseURL: https://authcloud.trusona.net
+  baseurl_source: declared
+  description: The Documents API from Trusona — 2 operation(s) for documents.
+  name: Trusona Documents API
+  slug: trusona-documents-api
+- baseURL: https://authcloud.trusona.net
+  baseurl_source: declared
+  description: The Encrypted Verifications API from Trusona — 3 operation(s) for encrypted verifications.
+  name: Trusona Encrypted Verifications API
+  slug: trusona-encrypted-verifications-api
+- baseURL: https://authcloud.trusona.net
+  baseurl_source: declared
+  description: The ID Verifications API from Trusona — 2 operation(s) for id verifications.
+  name: Trusona ID Verifications API
+  slug: trusona-id-verifications-api
+- baseURL: https://authcloud.trusona.net
+  baseurl_source: declared
+  description: The Messages API from Trusona — 2 operation(s) for messages.
+  name: Trusona Messages API
+  slug: trusona-messages-api
+- baseURL: https://authcloud.trusona.net
+  baseurl_source: declared
+  description: The Risk Scores API from Trusona — 1 operation(s) for risk scores.
+  name: Trusona Risk Scores API
+  slug: trusona-risk-scores-api
+- baseURL: https://authcloud.trusona.net
+  baseurl_source: declared
+  description: The Verifications API from Trusona — 2 operation(s) for verifications.
+  name: Trusona Verifications API
+  slug: trusona-verifications-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Trusona Webhooks
   slug: trusona-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/overlays/trusona-verification-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/trusona-verification-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/overlays/trusona-driver-license-verification-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/trusona-driver-license-verification-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/agentic-access/trusona-agentic-access.yml
   title: ''
@@ -210,39 +245,39 @@ modified: '2026-09-01'
 name: Trusona
 nav: Providers
 network: true
-overview: 'Trusona publishes 2 APIs on the [APIs.io](https://apis.io/) network: ATO Protect Verification API and Driver License Verification API (IDV API). Tagged areas include Company, Authentication, Identity, Identity Verification, and Fraud Detection.
+overview: 'Trusona publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Documents API, Encrypted Verifications API, and 4 more. Tagged areas include Company, Authentication, Identity, Identity Verification, and Fraud Detection.
 
 
   The Trusona catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Trusona''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 23 more developer resources.'
+  Trusona''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 25 more developer resources.'
 plans:
 - name: Trusona Plans Pricing
   plan_count: 0
   slug: trusona-plans-pricing
-random_paper: 3
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Trusona Rate Limits
   slug: trusona-rate-limits
 score:
   band: developing
-  composite: 51.7
+  composite: 50.7
   coverage:
     artifact_dirs: 21
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 32.9
     contract_governance: 18.2
-    contract_quality: 65.3
+    contract_quality: 63.7
     developer_ergonomics: 78.6
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 26.3
   previous_composite: 51.7
   provenance:
@@ -252,11 +287,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 7
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

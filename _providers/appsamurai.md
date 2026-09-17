@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: http://api.appsamurai.com
@@ -272,7 +272,7 @@ plans:
 - name: Appsamurai Plans Pricing
   plan_count: 3
   slug: appsamurai-plans-pricing
-random_paper: 4
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Appsamurai Rate Limits
@@ -301,12 +301,12 @@ score:
     contracts:
       callable: 100.0
       derived: 1
-      marker_coverage: 100.0
+      marker_coverage: 14.3
       total: 7
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

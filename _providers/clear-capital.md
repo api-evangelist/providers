@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.clearcapital.com
@@ -133,7 +133,7 @@ plans:
 - name: Clear Capital Plans Pricing
   plan_count: 1
   slug: clear-capital-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Clear Capital Rate Limits
@@ -158,7 +158,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 30.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

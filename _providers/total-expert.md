@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -450,7 +450,7 @@ plans:
 - name: Total Expert Plans Pricing
   plan_count: 0
   slug: total-expert-plans-pricing
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Total Expert Rate Limits
@@ -496,7 +496,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

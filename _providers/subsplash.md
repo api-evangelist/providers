@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: 'Programmatic access to an organization''s media catalog - sermons, series, podcasts, blogs, and announcements - for syncing content into external sites, AI/search pipelines, and custom apps. Endpoints '
@@ -108,7 +108,7 @@ plans:
 - name: Subsplash Plans Pricing
   plan_count: 3
   slug: subsplash-plans-pricing
-random_paper: 15
+random_paper: 13
 score:
   band: emerging
   composite: 17.2
@@ -129,7 +129,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -154,7 +154,7 @@ tags:
 - Media
 - Church Management
 - ChMS
-- Mobile Apps
+- Mobile App
 - Partner API
 website: https://www.subsplash.com
 ---

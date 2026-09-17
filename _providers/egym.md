@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -160,11 +160,6 @@ apis:
   slug: egym-migrating-members-api
 - baseURL: https://mms.api.egym.com
   baseurl_source: declared
-  description: The OAuth API from EGYM — 2 operation(s) for oauth.
-  name: EGYM O Auth API
-  slug: egym-oauth-api
-- baseURL: https://mms.api.egym.com
-  baseurl_source: declared
   description: The Open Exercise Workouts API from EGYM — 1 operation(s) for open exercise workouts.
   name: EGYM Open Exercise Workouts API
   slug: egym-open-exercise-workouts-api
@@ -233,6 +228,11 @@ apis:
   description: These operations are needed to retrieve workouts. Additional permissions are required to access these endpoints.
   name: EGYM Workouts API
   slug: egym-workouts-api
+- baseURL: https://developer.egym.com/mcp
+  baseurl_source: declared
+  description: The OAuth API from EGYM — 2 operation(s) for oauth.
+  name: EGYM O Auth API
+  slug: egym-oauth-api
 artifact_total: 55
 asyncapis:
 - description: ''
@@ -504,10 +504,10 @@ common:
   type: ToolCrosswalk
   url: mcp/egym-tool-crosswalk.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-mms-api-v2-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/_original/egym-mms-api-v2-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/egym-mms-api-v2-openapi.yml
+  url: openapi/_original/egym-mms-api-v2-openapi.yml
 created: '2026-08-12'
 description: 'EGYM is a Munich-headquartered fitness and health technology company that builds the connected-gym platform used by commercial fitness operators worldwide: Smart Strength and Smart Flex networked equipment, the EGYM Genius AI training engine, the EGYM Fitness Hub and Trainer apps, and the EGYM Wellpass / Corporate Fitness membership network that lets employers give staff access to thousands of partner venues. For developers, EGYM operates a public developer portal at developer.egym.com covering eight machine-readable APIs across three integration audiences — member-management-system (MMS) vendors syncing members, memberships, RFID/NFC credentials, check-ins, products and trainer tasks into EGYM Cloud; equipment vendors submitting body, cardio and flexibility measurements from devices or backends; and analytics consumers exporting workout and measurement data. EGYM also publishes an official documentation MCP server, an llms.txt, a written AI-agent instruction page, a dated
   change log, published rate limits and a documented webhook event catalog.'
@@ -517,7 +517,7 @@ mcp_servers:
 - description: ''
   name: EGYM MCP Server
   slug: egym-mcp-server
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: EGYM
 nav: Providers
 network: true
@@ -532,7 +532,7 @@ plans:
 - name: Egym Plans Pricing
   plan_count: 0
   slug: egym-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Egym Rate Limits
@@ -544,7 +544,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.9
+  composite: 62.0
   coverage:
     artifact_dirs: 25
     catalog_earned: 40.0
@@ -552,11 +552,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 66.4
+    contract_quality: 66.7
     developer_ergonomics: 73.2
     discoverability: 66.7
     operational_transparency: 71.1
@@ -586,7 +586,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

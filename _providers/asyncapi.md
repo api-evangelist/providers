@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-09-15'
+  score: 27.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,11 +47,6 @@ apis:
 - description: The AsyncAPI Specification is an open standard for describing asynchronous and event-driven APIs. It provides a machine-readable format for defining messaging interfaces across protocols like Kafka, M
   name: AsyncAPI Specification
   slug: asyncapi-spec
-- baseURL: https://api.asyncapi.com/v1
-  baseurl_source: declared
-  description: 'The AsyncAPI Server API is the only callable HTTP API the AsyncAPI Initiative operates. It exposes the official AsyncAPI toolchain — validate, parse, convert, generate, bundle and diff — over HTTP at '
-  name: AsyncAPI Server API
-  slug: asyncapi-server-api
 - baseURL: https://api.asyncapi.com/v1
   baseurl_source: declared
   description: The Bundle API from AsyncAPI — 1 operation(s) for bundle.
@@ -87,6 +82,11 @@ apis:
   description: The Validate API from AsyncAPI — 1 operation(s) for validate.
   name: AsyncAPI Validate API
   slug: asyncapi-validate-api
+- baseURL: https://api.asyncapi.com/v1
+  baseurl_source: declared
+  description: The version API from AsyncAPI — 1 operation(s) for version.
+  name: AsyncAPI Version API
+  slug: asyncapi-version-api
 artifact_total: 37
 collections:
 - collection_type: open
@@ -302,7 +302,7 @@ modified: '2026-09-06'
 name: AsyncAPI
 nav: Providers
 network: true
-overview: 'AsyncAPI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Specification, Server API, Bundle API, and 6 more. Tagged areas include Event-Driven, Linux Foundation, Messaging, Standards, and Specification.
+overview: 'AsyncAPI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Specification, Bundle API, Convert API, and 6 more. Tagged areas include Event-Driven, Linux Foundation, Messaging, Standards, and Specification.
 
 
   AsyncAPI''s developer surface includes developer portal, documentation, engineering blog, CLI, authentication, changelog, sandbox, and 26 more developer resources.'
@@ -310,14 +310,14 @@ plans:
 - name: Asyncapi Plans Pricing
   plan_count: 0
   slug: asyncapi-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Asyncapi Rate Limits
   slug: asyncapi-rate-limits
 score:
   band: developing
-  composite: 44.4
+  composite: 44.8
   coverage:
     artifact_dirs: 34
     catalog_earned: 35.0
@@ -325,11 +325,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 51.9
+    contract_quality: 53.7
     developer_ergonomics: 80.4
     discoverability: 59.3
     operational_transparency: 28.9
@@ -345,7 +345,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

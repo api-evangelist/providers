@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
 - baseURL: https://ec2.amazonaws.com
   baseurl_source: declared
   description: Operations for creating and managing Virtual Private Clouds
-  name: Amazon VPC VPCs API
+  name: Amazon VPC VP Cs API
   slug: amazon-vpc-vpcs-api
 artifact_total: 63
 collections:
@@ -357,7 +357,7 @@ plans:
 - name: Amazon Vpc Plans Pricing
   plan_count: 3
   slug: amazon-vpc-plans-pricing
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Vpc Rate Limits
@@ -411,7 +411,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

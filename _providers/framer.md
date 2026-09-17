@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Build small in-editor apps that interact with the Framer Editor and CMS. Plugins can read and modify the canvas, manage CMS collections and items, register UI panels, and call out to external services
@@ -119,7 +119,7 @@ plans:
 - name: Framer Plans Pricing
   plan_count: 6
   slug: framer-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Framer Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 19.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

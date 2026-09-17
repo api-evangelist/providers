@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: qualtrics-distributions-api
 - baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
   baseurl_source: declared
-  description: The Eventsubscriptions API from Qualtrics — 3 operation(s) for eventsubscriptions.
-  name: Qualtrics Eventsubscriptions API
-  slug: qualtrics-eventsubscriptions-api
-- baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
-  baseurl_source: declared
   description: The file API from Qualtrics — 3 operation(s) for file.
   name: Qualtrics file API
   slug: qualtrics-file-api
@@ -80,6 +75,11 @@ apis:
   description: The Survey Definitions API from Qualtrics — 2 operation(s) for survey definitions.
   name: Qualtrics Survey Definitions API
   slug: qualtrics-survey-definitions-api
+- baseURL: https://yourdatacenterid.qualtrics.com/API/v3/
+  baseurl_source: declared
+  description: The Event Subscriptions API from Qualtrics — 3 operation(s) for event subscriptions.
+  name: Qualtrics Event Subscriptions API
+  slug: qualtrics-event-subscriptions-api
 artifact_total: 34
 collections:
 - collection_type: open
@@ -236,7 +236,7 @@ plans:
 - name: Qualtrics Plans Pricing
   plan_count: 5
   slug: qualtrics-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Qualtrics Rate Limits
@@ -279,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

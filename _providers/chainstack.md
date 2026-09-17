@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1123
   human_in_the_loop: 0
@@ -172,11 +172,6 @@ apis:
   slug: chainstack-transaction-info-api
 - baseURL_template: https://{node_id}.p2pify.com/{api_key}
   baseurl_source: spec_template
-  description: The Transactions Info API from Chainstack — 5 operation(s) for transactions info.
-  name: Chainstack Transactions Info API
-  slug: chainstack-transactions-info-api
-- baseURL_template: https://{node_id}.p2pify.com/{api_key}
-  baseurl_source: spec_template
   description: The Txpool API from Chainstack — 2 operation(s) for txpool.
   name: Chainstack Txpool API
   slug: chainstack-txpool-api
@@ -200,7 +195,7 @@ apis:
   description: The Zkevm Methods API from Chainstack — 8 operation(s) for zkevm methods.
   name: Chainstack Zkevm Methods API
   slug: chainstack-zkevm-methods-api
-artifact_total: 135
+artifact_total: 134
 asyncapis:
 - description: AsyncAPI 2.6 specification for Chainstack's JSON-RPC WebSocket (WSS) subscription APIs. Chainstack-managed nodes expose a persistent WebSocket endpoint per node that accepts JSON-RPC 2.0 messages. Cli
   name: Chainstack RPC WebSocket APIs
@@ -696,7 +691,7 @@ modified: 2026-05-29 00:00:00+00:00
 name: Chainstack
 nav: Providers
 network: true
-overview: 'Chainstack publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Faucet API, Account Info API, Accounts Info API, and 28 more. Tagged areas include Blockchain, Multi-Chain, RPC, Node Infrastructure, and Web3.
+overview: 'Chainstack publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Faucet API, Account Info API, Accounts Info API, and 27 more. Tagged areas include Blockchain, Multi-Chain, RPC, Node Infrastructure, and Web3.
 
 
   The Chainstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -707,7 +702,7 @@ plans:
 - name: Chainstack Plans Pricing
   plan_count: 6
   slug: chainstack-plans-pricing
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 10
   name: Chainstack Rate Limits
@@ -759,7 +754,7 @@ score:
   facets:
     access_clarity: 71.1
     contract_governance: 28.8
-    contract_quality: 66.9
+    contract_quality: 67.1
     developer_ergonomics: 56.0
     discoverability: 50.0
     operational_transparency: 73.7
@@ -770,9 +765,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 32
+      total: 31
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

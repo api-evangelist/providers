@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: API for accessing OpenAPI Initiative resources, specifications, and tooling ecosystem documentation for defining standard interfaces to RESTful APIs.
@@ -70,7 +70,7 @@ modified: '2026-04-28'
 name: OpenAPI Initiative
 nav: Providers
 network: true
-overview: 'OpenAPI Initiative publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Specifications, and Standards.
+overview: 'OpenAPI Initiative publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Specification, and Standards.
 
 
   OpenAPI Initiative''s developer surface includes documentation and 3 more developer resources.'
@@ -78,7 +78,7 @@ plans:
 - name: Openapi Initiative Plans Pricing
   plan_count: 3
   slug: openapi-initiative-plans-pricing
-random_paper: 2
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Openapi Initiative Rate Limits
@@ -103,7 +103,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -118,6 +118,6 @@ security:
 slug: openapi-initiative
 tags:
 - Linux Foundation
-- Specifications
+- Specification
 - Standards
 ---

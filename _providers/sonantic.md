@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ name: Sonantic
 nav: Providers
 network: true
 overview: Sonantic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Voice, Text-to-Speech, Emotive AI, Acquired, and Spotify.
-random_paper: 2
+random_paper: 5
 score:
   band: minimal
   composite: 5.0
@@ -117,7 +117,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

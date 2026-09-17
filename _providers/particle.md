@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -117,11 +117,6 @@ apis:
   slug: particle-logic-api
 - baseURL: https://api.particle.io
   baseurl_source: declared
-  description: The OAuth API from Particle — 2 operation(s) for oauth.
-  name: Particle OAuth API
-  slug: particle-oauth-api
-- baseURL: https://api.particle.io
-  baseurl_source: declared
   description: The Organizations API from Particle — 3 operation(s) for organizations.
   name: Particle Organizations API
   slug: particle-organizations-api
@@ -157,11 +152,6 @@ apis:
   slug: particle-serviceagreements-api
 - baseURL: https://api.particle.io
   baseurl_source: declared
-  description: The Sims API from Particle — 5 operation(s) for sims.
-  name: Particle Sims API
-  slug: particle-sims-api
-- baseURL: https://api.particle.io
-  baseurl_source: declared
   description: The Team API from Particle — 1 operation(s) for team.
   name: Particle Team API
   slug: particle-team-api
@@ -185,6 +175,16 @@ apis:
   description: The Serial Numbers API from Particle — 1 operation(s) for serial numbers.
   name: Particle Serial Numbers API
   slug: particle-serial-numbers-api
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The OAuth API from Particle — 3 operation(s) for oauth.
+  name: Particle O Auth API
+  slug: particle-oauth-api
+- baseURL: https://api.particle.io
+  baseurl_source: declared
+  description: The Sims API from Particle — 6 operation(s) for sims.
+  name: Particle Sims API
+  slug: particle-sims-api
 artifact_total: 67
 collections:
 - collection_type: open
@@ -431,14 +431,14 @@ plans:
 - name: Particle Plans Pricing
   plan_count: 5
   slug: particle-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Particle Rate Limits
   slug: particle-rate-limits
 score:
   band: strong
-  composite: 63.6
+  composite: 63.7
   coverage:
     artifact_dirs: 13
     catalog_earned: 80.0
@@ -446,11 +446,11 @@ score:
     catalog_gap: 35.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 71.1
     contract_governance: 15.2
-    contract_quality: 71.2
+    contract_quality: 71.7
     developer_ergonomics: 64.3
     discoverability: 68.5
     operational_transparency: 65.8
@@ -463,7 +463,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

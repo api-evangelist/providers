@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- baseURL: https://api.tibber.com/v1-beta/gql
-  baseurl_source: declared
-  description: Tibber's long-standing GraphQL API. A single HTTPS endpoint serves the `viewer` query (with nested `homes`, `currentSubscription`, `priceInfo`, `consumption`, `production`, and `features`), the `liveM
-  name: Tibber GraphQL API
-  slug: tibber-graphql-api
 - baseURL: https://api.tibber.com/v1-beta/gql
   baseurl_source: declared
   description: IoT devices linked to a home, exposed across vehicles, chargers, thermostats, inverters, and energy systems.
@@ -64,6 +59,11 @@ apis:
   description: Tibber customer homes the calling client has been granted access to.
   name: Tibber Homes API
   slug: tibber-homes-api
+- baseURL: https://api.tibber.com/v1-beta/gql
+  baseurl_source: declared
+  description: Single GraphQL endpoint serving Query, RootMutation, and RootSubscription.
+  name: Tibber Graph QL API
+  slug: tibber-graph-ql-api
 arazzos:
 - description: Discover the viewer's homes over GraphQL, then pull the most recent hourly consumption nodes with cost for the chosen home.
   name: Tibber Consumption Report
@@ -116,6 +116,10 @@ collections:
   name: Tibber Data Devices Homes API
   slug: open-tibber-homes-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tibber.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -429,22 +433,22 @@ jsonld:
   property_count: 5
   slug: tibber-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Tibber
 nav: Providers
 network: true
-overview: 'Tibber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Devices API, History API, and 1 more. Tagged areas include Energy, Smart Home, Smart Meter, ElectricityPricing, and Electric Vehicle Charging.
+overview: 'Tibber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Devices API, History API, Homes API, and 1 more. Tagged areas include Energy, Smart Home, Smart Meter, ElectricityPricing, and Electric Vehicle Charging.
 
 
   The Tibber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tibber''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, changelog, and 40 more developer resources.'
+  Tibber''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, changelog, and 41 more developer resources.'
 plans:
 - name: Tibber Plans Pricing
   plan_count: 4
   slug: tibber-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Tibber Rate Limits
@@ -518,7 +522,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -566,5 +570,5 @@ use_cases:
   name: Aggregator / VPP Participation
 - description: Surface Tibber prices and live consumption inside Home Assistant, Athom Homey, Fibaro, and SmartThings.
   name: Home Assistant / Smart Home Integration
-website: https://tibber.com/en
+website: https://tibber.com
 ---

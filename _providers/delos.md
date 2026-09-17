@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -161,10 +161,10 @@ common:
   type: PrivacyPolicy
   url: https://wellcube.io/privacy-policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-wellcube-cloud-be-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/_original/delos-wellcube-cloud-be-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/delos-wellcube-cloud-be-openapi.yml
+  url: openapi/_original/delos-wellcube-cloud-be-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/authentication/delos-authentication.yml
   title: ''
@@ -239,7 +239,7 @@ created: '2026-08-12'
 description: Delos Living LLC is a New York-based wellness real estate and technology company that applies building science and evidence-based research to indoor environments across commercial, residential, hospitality, education, senior living and transportation. Delos is the founder of the WELL Building Standard (now administered by the International WELL Building Institute) and co-founder of the Well Living Lab with Mayo Clinic. Its product line spans Intellipure advanced air purification, indoor environmental quality (IEQ) sensing, the Stay Well hospitality program, and WellCube — a connected system of localized air purifiers and multi-sensor devices for the modern office, backed by the "Cloud BE" / Darwin Cloud platform that handles installations, products, device actions and account federation.
 image: https://a-us.storyblok.com/f/1016757/200x62/8b73c5475d/logo_delos_layer_1.svg
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: Delos
 nav: Providers
 network: true
@@ -254,7 +254,7 @@ plans:
 - name: Delos Plans Pricing
   plan_count: 0
   slug: delos-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Delos Rate Limits
@@ -294,7 +294,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

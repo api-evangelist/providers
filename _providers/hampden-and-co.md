@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -345,7 +345,7 @@ overview: 'Hampden & Co publishes 28 APIs on the [APIs.io](https://apis.io/) net
 
 
   Hampden & Co''s developer surface includes authentication, documentation, signup flow, engineering blog, support, API reference, and 23 more developer resources.'
-random_paper: 17
+random_paper: 20
 scopes:
 - name: Hampden And Co Scopes
   scope_count: 3
@@ -399,7 +399,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

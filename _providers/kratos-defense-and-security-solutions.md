@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Kratos Defense & Security Solutions API provides access to platform services and data for enterprise integration and automation.
@@ -71,7 +71,7 @@ plans:
 - name: Kratos Defense And Security Solutions Plans Pricing
   plan_count: 1
   slug: kratos-defense-and-security-solutions-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Kratos Defense And Security Solutions Rate Limits
@@ -96,7 +96,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

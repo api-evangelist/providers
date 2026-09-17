@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Acorn Finance partner REST API. Basic-authenticated JSON endpoints on api.acornfinance.com let point-of-sale and contractor-software partners create companies and company users, retrieve loan appl
@@ -190,7 +190,7 @@ plans:
 - name: Acorn Finance Plans Pricing
   plan_count: 1
   slug: acorn-finance-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Acorn Finance Rate Limits
@@ -218,7 +218,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

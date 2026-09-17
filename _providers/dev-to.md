@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -62,16 +62,6 @@ apis:
   slug: dev-to-comments-api
 - baseURL: https://dev.to/api
   baseurl_source: declared
-  description: Endpoints for managing display advertisements on the platform. Requires admin-level API key.
-  name: dev-to DisplayAds API
-  slug: dev-to-displayads-api
-- baseURL: https://dev.to/api
-  baseurl_source: declared
-  description: Endpoints for retrieving the tags followed by the authenticated user.
-  name: dev-to FollowedTags API
-  slug: dev-to-followedtags-api
-- baseURL: https://dev.to/api
-  baseurl_source: declared
   description: Endpoints for retrieving followers of the authenticated user.
   name: dev-to Followers API
   slug: dev-to-followers-api
@@ -87,24 +77,9 @@ apis:
   slug: dev-to-pages-api
 - baseURL: https://dev.to/api
   baseurl_source: declared
-  description: Endpoints for retrieving published podcast episodes.
-  name: dev-to PodcastEpisodes API
-  slug: dev-to-podcastepisodes-api
-- baseURL: https://dev.to/api
-  baseurl_source: declared
-  description: Endpoints for retrieving profile images of users and organizations.
-  name: dev-to ProfileImages API
-  slug: dev-to-profileimages-api
-- baseURL: https://dev.to/api
-  baseurl_source: declared
   description: Endpoints for creating and toggling reactions on articles, comments, and users.
   name: dev-to Reactions API
   slug: dev-to-reactions-api
-- baseURL: https://dev.to/api
-  baseurl_source: declared
-  description: Endpoints for retrieving the authenticated user's reading list.
-  name: dev-to ReadingList API
-  slug: dev-to-readinglist-api
 - baseURL: https://dev.to/api
   baseurl_source: declared
   description: The Tags API from dev-to — 1 operation(s) for tags.
@@ -120,6 +95,31 @@ apis:
   description: Endpoints for creating, listing, retrieving, and deleting webhook subscriptions for real-time event notifications.
   name: dev-to Webhooks API
   slug: dev-to-webhooks-api
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for managing display advertisements on the platform. Requires admin-level API key.
+  name: Dev To Display Ads API
+  slug: dev-to-display-ads-api
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving the tags followed by the authenticated user.
+  name: Dev To Followed Tags API
+  slug: dev-to-followed-tags-api
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving published podcast episodes.
+  name: Dev To Podcast Episodes API
+  slug: dev-to-podcast-episodes-api
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving profile images of users and organizations.
+  name: Dev To profile images API
+  slug: dev-to-profile-images-api
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: Endpoints for retrieving the authenticated user's reading list.
+  name: Dev To Reading List API
+  slug: dev-to-reading-list-api
 artifact_total: 42
 asyncapis:
 - description: The Dev.to Webhooks event-driven interface allows applications to receive real-time HTTP POST callbacks when specific events occur on the Dev.to platform. Webhook subscriptions are managed via the For
@@ -243,7 +243,7 @@ plans:
 - name: Dev To Plans Pricing
   plan_count: 3
   slug: dev-to-plans-pricing
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Dev To Rate Limits
@@ -300,7 +300,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

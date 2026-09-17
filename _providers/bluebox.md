@@ -19,7 +19,7 @@ name: Bluebox
 nav: Providers
 network: true
 overview: Bluebox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Mobile Security, Application Security, and Enterprise Security.
-random_paper: 18
+random_paper: 5
 slug: bluebox
 tags:
 - Company

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: Motorola Solutions Public Safety API
   slug: open-motorola-solutions-public-safety-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://motorolasolutions.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/motorola-solutions/refs/heads/main/agentic-access/motorola-solutions-agentic-access.yml
   title: ''
@@ -97,14 +101,14 @@ finops:
   slug: motorola-solutions-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/motorola-solutions.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Motorola Solutions
 nav: Providers
 network: true
 overview: 'Motorola Solutions publishes 1 API on the [APIs.io](https://apis.io/) network: Public Safety API. Tagged areas include Public Safety, Communications, Video Security, IoT, and Fortune 500.
 
 
-  Motorola Solutions'' developer surface includes authentication, engineering blog, and 4 more developer resources.'
+  Motorola Solutions'' developer surface includes authentication, engineering blog, and 5 more developer resources.'
 plans:
 - name: Motorola Solutions Plans Pricing
   plan_count: 3
@@ -125,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Motorola Solutions Opens New AI and Resilience Software ...
   url: https://www.businesswire.com/news/home/20260521618405/en/Motorola-Solutions-Opens-New-AI-and-Resilience-Software-Hub-in-Boston-Massachusetts
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Motorola Solutions Rate Limits
@@ -157,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -180,4 +184,5 @@ tags:
 - Video Security
 - IoT
 - Fortune 500
+website: https://motorolasolutions.com
 ---

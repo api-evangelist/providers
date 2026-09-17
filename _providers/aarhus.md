@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 service for Aarhus University''s research record. Verified live on 2026-08-30: the Identify verb returns repositoryName "Aarhus University"'
@@ -173,7 +173,7 @@ plans:
 - name: Aarhus Plans Pricing
   plan_count: 2
   slug: aarhus-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Aarhus Rate Limits
@@ -212,7 +212,7 @@ score:
     regime_id: education
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

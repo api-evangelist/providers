@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The agent-facing commerce surface for TRUFF''s online store. A Model Context Protocol endpoint at https://shop.truff.com/api/ucp/mcp implements the Universal Commerce Protocol dev.ucp.shopping service '
@@ -161,7 +161,7 @@ plans:
 - name: Truff Plans Pricing
   plan_count: 0
   slug: truff-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Truff Rate Limits
@@ -194,7 +194,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

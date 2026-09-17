@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -95,11 +95,6 @@ apis:
   slug: regions
 - baseURL: https://api.bunny.net
   baseurl_source: declared
-  description: The APIKeys API from Bunny.net — 1 operation(s) for apikeys.
-  name: Bunny.net APIKeys API
-  slug: bunny-net-apikeys-api
-- baseURL: https://api.bunny.net
-  baseurl_source: declared
   description: The Billing API from Bunny.net — 3 operation(s) for billing.
   name: Bunny.net Billing API
   slug: bunny-net-billing-api
@@ -108,11 +103,6 @@ apis:
   description: The Countries API from Bunny.net — 1 operation(s) for countries.
   name: Bunny.net Countries API
   slug: bunny-net-countries-api
-- baseURL: https://api.bunny.net
-  baseurl_source: declared
-  description: The DNSZones API from Bunny.net — 6 operation(s) for dnszones.
-  name: Bunny.net DNSZones API
-  slug: bunny-net-dnszones-api
 - baseURL: https://api.bunny.net
   baseurl_source: declared
   description: The PullZones API from Bunny.net — 12 operation(s) for pullzones.
@@ -143,6 +133,16 @@ apis:
   description: The Stream API from Bunny.net — 2 operation(s) for stream.
   name: Bunny.net Stream API
   slug: bunny-net-stream-api
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The API Keys API from Bunny.net — 1 operation(s) for api keys.
+  name: Bunny.net API Keys API
+  slug: bunny-net-api-keys-api
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The DNS Zones API from Bunny.net — 6 operation(s) for dns zones.
+  name: Bunny.net DNS Zones API
+  slug: bunny-net-dns-zones-api
 artifact_total: 47
 asyncapis:
 - description: AsyncAPI definition of the Bunny Stream webhook surface. Bunny Stream sends a signed HTTP POST callback to the `WebhookUrl` configured on a Video Library whenever the state of a video changes (upload,
@@ -269,7 +269,7 @@ modified: '2026-05-30'
 name: Bunny.net
 nav: Providers
 network: true
-overview: 'Bunny.net publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Stream Webhooks, APIKeys API, Billing API, and 8 more. Tagged areas include CDN, Edge, Video, Storage, and DNS.
+overview: 'Bunny.net publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Stream Webhooks, Billing API, Countries API, and 8 more. Tagged areas include CDN, Edge, Video, Storage, and DNS.
 
 
   The Bunny.net catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -324,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

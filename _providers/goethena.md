@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.goethena.com
@@ -238,7 +238,7 @@ overview: 'Goethena publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Goethena''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 3
+random_paper: 7
 score:
   band: developing
   composite: 48.7
@@ -274,7 +274,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

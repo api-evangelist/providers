@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -574,7 +574,7 @@ plans:
 - name: Candid Health Plans Pricing
   plan_count: 1
   slug: candid-health-plans-pricing
-random_paper: 5
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Candid Health Rate Limits
@@ -626,7 +626,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -653,7 +653,7 @@ tags:
 - Claims
 - Eligibility
 - Prior Authorization
-- Remittance
+- Remittances
 - Patient Collections
 - Credentialing
 - Insurance

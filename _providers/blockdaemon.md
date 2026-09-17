@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 11
 apis:
 - description: Unified, multi-chain REST data API (formerly Ubiquity) providing fully indexed blockchain data across 50+ networks. Lookup blocks by number or hash, fetch transactions, account balances for one or man
@@ -403,7 +403,7 @@ modified: '2026-05-25'
 name: Blockdaemon
 nav: Providers
 network: true
-overview: 'Blockdaemon publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Web3, Staking, Validators, and Custody.
+overview: 'Blockdaemon publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Web3, Staking, Validator, and Custody.
 
 
   The Blockdaemon catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -414,7 +414,7 @@ plans:
 - name: Blockdaemon Plans Pricing
   plan_count: 4
   slug: blockdaemon-plans-pricing
-random_paper: 17
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Blockdaemon Rate Limits
@@ -456,7 +456,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -477,11 +477,11 @@ tags:
 - Blockchain
 - Web3
 - Staking
-- Validators
+- Validator
 - Custody
 - MPC
 - Wallets
-- Nodes
+- Node
 - RPC
 - DeFi
 - Indexer

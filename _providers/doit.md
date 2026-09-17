@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 74.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -147,11 +147,6 @@ apis:
   slug: doit-contracts-api
 - baseURL: https://api.doit.com
   baseurl_source: declared
-  description: Ingest third-party cost, usage, and metric-based data for analysis.
-  name: DoiT Data Hub API
-  slug: doit-datahub-api
-- baseURL: https://api.doit.com
-  baseurl_source: declared
   description: View available dimensions for analysis.
   name: DoiT Dimensions API
   slug: doit-dimensions-api
@@ -235,6 +230,11 @@ apis:
   description: Manage users who have access to the DoiT platform.
   name: DoiT Users API
   slug: doit-users-api
+- baseURL: https://mcp.doit.com/mcp
+  baseurl_source: declared
+  description: Ingest third-party cost, usage, and metric-based data for analysis.
+  name: DoiT Data Hub API
+  slug: doit-data-hub-api
 artifact_total: 48
 asyncapis:
 - description: ''
@@ -476,10 +476,10 @@ common:
   type: SourceCode
   url: https://github.com/doitintl
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/doit-openapi-original.yml
+  href: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/openapi/_original/doit-openapi-original.yml
   title: ''
   type: OpenAPI
-  url: openapi/doit-openapi-original.yml
+  url: openapi/_original/doit-openapi-original.yml
 - group: operate
   title: ''
   type: ChangeLogRSS
@@ -492,7 +492,7 @@ mcp_servers:
 - description: ''
   name: DoiT MCP Server
   slug: doit-mcp-server
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: DoiT
 nav: Providers
 network: true
@@ -507,7 +507,7 @@ plans:
 - name: Doit Plans Pricing
   plan_count: 6
   slug: doit-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Doit Rate Limits
@@ -547,7 +547,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

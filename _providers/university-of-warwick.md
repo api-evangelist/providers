@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Warwick's Shibboleth SAML 2.0 identity provider. Publishes unauthenticated, machine-readable federation metadata as a SAML EntityDescriptor with entityID https://idp.warwick.ac.uk/idp/shibboleth, a sh
@@ -273,7 +273,7 @@ plans:
 - name: University Of Warwick Plans Pricing
   plan_count: 2
   slug: university-of-warwick-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: University Of Warwick Rate Limits
@@ -335,7 +335,7 @@ score:
     regime_id: education
     score: 90.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

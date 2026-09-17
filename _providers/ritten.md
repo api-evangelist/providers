@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.ritten.io/v1
@@ -80,11 +80,6 @@ apis:
   slug: ritten-insurance-api
 - baseURL: https://api.ritten.io/v1
   baseurl_source: declared
-  description: OAuth 2.0 token endpoint for obtaining access tokens. This is the recommended way to authenticate with the Ritten External API.
-  name: Ritten OAUTH API
-  slug: ritten-oauth-api
-- baseURL: https://api.ritten.io/v1
-  baseurl_source: declared
   description: Endpoints for accessing CRM organizations and organization members. Requires CRM to be available for the target clinic (`X-Ritten-Tenant`). Integrations must be explicitly provisioned by Ritten for or
   name: Ritten Organizations API
   slug: ritten-organizations-api
@@ -113,6 +108,11 @@ apis:
   description: 'Ritten provides webhooks for various events that occur in the system. Integrating partners can subscribe to these events to receive real-time updates. Webhooks sent from Ritten are POST requests with '
   name: Ritten Webhooks API
   slug: ritten-webhooks-api
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: OAuth 2.0 token endpoint for obtaining access tokens. This is the recommended way to authenticate with the Ritten External API.
+  name: Ritten OAUTH API
+  slug: ritten-oauth-api
 artifact_total: 20
 asyncapis:
 - description: ''
@@ -258,14 +258,14 @@ plans:
 - name: Ritten Plans Pricing
   plan_count: 0
   slug: ritten-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Ritten Rate Limits
   slug: ritten-rate-limits
 score:
   band: developing
-  composite: 52.3
+  composite: 52.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -273,11 +273,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 56.8
+    contract_quality: 57.1
     developer_ergonomics: 54.2
     discoverability: 75.9
     operational_transparency: 42.1
@@ -307,7 +307,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

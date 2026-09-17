@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 20
 apis:
 - description: Create, retrieve, update, list, and delete customers ("clientes"). The Customer object holds personal/business identifiers (CPF/CNPJ), contact details, address, default notification preferences, and S
@@ -231,7 +231,7 @@ overview: 'Asaas publishes 20 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Asaas'' developer surface includes signup flow, documentation, API reference, getting-started guide, authentication, sandbox, changelog, and 15 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
   band: emerging
   composite: 19.1
@@ -265,7 +265,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -293,7 +293,7 @@ tags:
 - Subscription
 - Pix
 - Boleto
-- Credit Card
+- Credit Cards
 - Checkout
 - Split Payments
 - Webhook

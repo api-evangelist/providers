@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 242
   human_in_the_loop: 8
@@ -185,27 +185,27 @@ apis:
 - baseURL: https://api.zoom.us/v2
   baseurl_source: declared
   description: The Phone Devices API from Zoom Phone — 8 operation(s) for phone devices.
-  name: Zoom Phone Phone Devices API
+  name: Zoom Phone Devices API
   slug: zoom-phone-phone-devices-api
 - baseURL: https://api.zoom.us/v2
   baseurl_source: declared
   description: The Phone Numbers API from Zoom Phone — 10 operation(s) for phone numbers.
-  name: Zoom Phone Phone Numbers API
+  name: Zoom Phone Numbers API
   slug: zoom-phone-phone-numbers-api
 - baseURL: https://api.zoom.us/v2
   baseurl_source: declared
   description: The Phone Plan API from Zoom Phone — 1 operation(s) for phone plan.
-  name: Zoom Phone Phone Plan API
+  name: Zoom Phone Plan API
   slug: zoom-phone-phone-plan-api
 - baseURL: https://api.zoom.us/v2
   baseurl_source: declared
   description: The Phone Plans API from Zoom Phone — 2 operation(s) for phone plans.
-  name: Zoom Phone Phone Plans API
+  name: Zoom Phone Plans API
   slug: zoom-phone-phone-plans-api
 - baseURL: https://api.zoom.us/v2
   baseurl_source: declared
   description: The Phone Roles API from Zoom Phone — 4 operation(s) for phone roles.
-  name: Zoom Phone Phone Roles API
+  name: Zoom Phone Roles API
   slug: zoom-phone-phone-roles-api
 - baseURL: https://api.zoom.us/v2
   baseurl_source: declared
@@ -575,7 +575,7 @@ mcp_servers:
 - description: ''
   name: Zoom MCP Server (Workspace)
   slug: zoom-mcp-server-workspace
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Zoom Phone
 nav: Providers
 network: true
@@ -586,7 +586,7 @@ overview: 'Zoom Phone publishes 51 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Zoom Phone''s developer surface includes authentication, documentation, pricing, SDKs, engineering blog, API reference, getting-started guide, and 48 more developer resources.'
-random_paper: 7
+random_paper: 2
 rate_limits:
 - limit_count: 8
   name: Zoom Phone Rate Limits
@@ -639,7 +639,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.vastspace.com
@@ -117,7 +117,7 @@ plans:
 - name: Vast Space Plans Pricing
   plan_count: 1
   slug: vast-space-plans-pricing
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Vast Space Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

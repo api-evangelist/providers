@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,11 +70,16 @@ apis:
   slug: addis-energy-discovery-api
 - baseURL: https://addisenergy.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for addisenergy.com URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any post or page on the site. Verified live (HTTP 200)
-  name: Addis Energy oEmbed API
-  slug: addis-energy-oembed-api
+  description: oEmbed 1.0 provider endpoint for addisenergy.com URLs.
+  name: Addis Energy o Embed API
+  slug: addis-energy-o-embed-api
 artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/addis-energy/refs/heads/main/overlays/addis-energy-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/addis-energy-oembed-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -191,12 +196,12 @@ network: true
 overview: 'Addis Energy publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 5 more. Tagged areas include Company, Energy, Clean Energy, Ammonia, and Climate Tech.
 
 
-  Addis Energy''s developer surface includes engineering blog, authentication, code examples, and 20 more developer resources.'
+  Addis Energy''s developer surface includes engineering blog, authentication, code examples, and 21 more developer resources.'
 plans:
 - name: Addis Energy Plans Pricing
   plan_count: 0
   slug: addis-energy-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Addis Energy Rate Limits
@@ -237,7 +242,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

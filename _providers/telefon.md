@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -140,6 +140,10 @@ collections:
   name: Telefon Voice API
   slug: open-telefon-voice
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://telefon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/capabilities/telefon-capability-edges.yml
   title: ''
@@ -240,7 +244,7 @@ jsonld:
   property_count: 20
   slug: telefon-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Telefon
 nav: Providers
 network: true
@@ -250,12 +254,12 @@ overview: 'Telefon publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Telefon catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Telefon''s developer surface includes authentication, getting-started guide, support, engineering blog, changelog, pricing, GitHub presence, and 10 more developer resources.'
+  Telefon''s developer surface includes authentication, getting-started guide, support, engineering blog, changelog, pricing, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Telefon Plans Pricing
   plan_count: 1
   slug: telefon-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Telefon Rate Limits
@@ -315,7 +319,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -342,5 +346,5 @@ tags:
 - Telephony
 - Voice
 - VoIP
-website: https://www.telefon.com
+website: https://telefon.com
 ---

@@ -24,12 +24,12 @@ created: '2026-07-17'
 description: Grana was a Hong Kong-based direct-to-consumer fashion brand founded in October 2014 by Luke Grana and Pieter-Paul Wittgen, selling premium wardrobe basics made from directly-sourced fabrics — Peruvian pima cotton, Chinese silk, Japanese denim, European linen, cashmere, merino and baby alpaca — online without retail middlemen. It raised roughly US$16M across seed and Series A rounds from investors including Alibaba's Hong Kong Entrepreneurs Fund, 500 Startups (now 500 Global), Golden Gate Ventures, MindWorks Ventures and the Bluebell Group. The company has since wound down; grana.com now resolves to a parked domain with no live storefront, developer program, or public API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grana.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Grana
 nav: Providers
 network: true
 overview: Grana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Apparel, E-Commerce, and Direct to Consumer.
-random_paper: 17
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/grana/refs/heads/main/screenshots/grana-2026-07-25T220233.png
 security:
 - kind: domain-security
@@ -46,5 +46,6 @@ tags:
 - Retail
 - Consumer
 - Hong Kong
+- Defunct
 website: https://grana.com
 ---

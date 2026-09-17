@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,11 +127,6 @@ apis:
   slug: amberdata-liquidity-api
 - baseURL: wss://ws.web3api.io
   baseurl_source: declared
-  description: The Marketcap API from Amberdata — 1 operation(s) for marketcap.
-  name: Amberdata Marketcap API
-  slug: amberdata-marketcap-api
-- baseURL: wss://ws.web3api.io
-  baseurl_source: declared
   description: The Metrics API from Amberdata — 7 operation(s) for metrics.
   name: Amberdata Metrics API
   slug: amberdata-metrics-api
@@ -185,6 +180,11 @@ apis:
   description: The Volumes API from Amberdata — 2 operation(s) for volumes.
   name: Amberdata Volumes API
   slug: amberdata-volumes-api
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Market Cap API from Amberdata — 1 operation(s) for market cap.
+  name: Amberdata Market Cap API
+  slug: amberdata-market-cap-api
 artifact_total: 58
 asyncapis:
 - description: AsyncAPI 2.6 description of Amberdata's **real-time WebSocket streaming** surface. Unlike the Groq reference (which exposes no WebSocket), Amberdata DOES publish a documented public WebSocket API. Cli
@@ -491,7 +491,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

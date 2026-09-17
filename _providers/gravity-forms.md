@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - baseURL: https://your-wordpress-site.example/wp-json/gf/v2
   baseurl_source: declared
   description: The Forms API from Gravity Forms — 4 operation(s) for forms.
-  name: Gravity Forms Forms API
+  name: Gravity Forms API
   slug: gravity-forms-forms-api
 - baseURL: https://your-wordpress-site.example/wp-json/gf/v2
   baseurl_source: declared
@@ -169,15 +169,15 @@ created: '2026-05-11'
 description: Gravity Forms is a premium WordPress form plugin used to build advanced forms, surveys, quizzes, payment forms, and workflow applications on WordPress sites. The plugin provides drag-and-drop form building, conditional logic, add-on integrations with CRMs and marketing platforms, and entry management. The Gravity Forms REST API v2 exposes forms, entries, feeds, notifications, and submissions over HTTP using Basic Auth or OAuth 1.0a authentication scoped to API keys.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gravity-forms.png
 layout: provider
-modified: '2026-09-13'
+modified: '2026-09-16'
 name: Gravity Forms
 nav: Providers
 network: true
-overview: 'Gravity Forms publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Feeds API, Forms API, and 2 more. Tagged areas include WordPress, Forms, Form Builder, Surveys, and Workflows.
+overview: 'Gravity Forms publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Entries API, Feeds API, and 3 more. Tagged areas include WordPress, Forms, Form Builder, Surveys, and Workflows.
 
 
   Gravity Forms'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 5
+random_paper: 6
 score:
   band: thin
   composite: 31.2
@@ -205,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

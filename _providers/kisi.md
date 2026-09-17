@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 25
@@ -585,7 +585,7 @@ overview: 'KISI publishes 48 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   KISI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Kisi Rate Limits
@@ -625,7 +625,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

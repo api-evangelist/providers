@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1489
   human_in_the_loop: 37
@@ -59,11 +59,6 @@ apis:
   description: The AddonGroups API from Zoca — 9 operation(s) for addongroups.
   name: Zoca Addon Groups API
   slug: zoca-addongroups-api
-- baseURL: https://api.zoca.ai
-  baseurl_source: declared
-  description: The Addons API from Zoca — 8 operation(s) for addons.
-  name: Zoca Addons API
-  slug: zoca-addons-api
 - baseURL: https://api.zoca.ai
   baseurl_source: declared
   description: The aeo-lead-magnet API from Zoca — 3 operation(s) for aeo-lead-magnet.
@@ -1009,6 +1004,11 @@ apis:
   description: The zoho API from Zoca — 2 operation(s) for zoho.
   name: Zoca Zoho API
   slug: zoca-zoho-api
+- baseURL: https://api.zoca.ai
+  baseurl_source: declared
+  description: The Add Ons API from Zoca — 8 operation(s) for add ons.
+  name: Zoca Add Ons API
+  slug: zoca-add-ons-api
 artifact_total: 200
 asyncapis:
 - description: ''
@@ -1174,7 +1174,7 @@ plans:
 - name: Zoca Plans Pricing
   plan_count: 3
   slug: zoca-plans-pricing
-random_paper: 9
+random_paper: 11
 rate_limits:
 - limit_count: 11
   name: Zoca Rate Limits
@@ -1209,7 +1209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

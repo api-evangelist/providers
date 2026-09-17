@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -80,11 +80,6 @@ apis:
   slug: fortanix-approval-requests-api
 - baseURL: https://amer.smartkey.io
   baseurl_source: declared
-  description: The ApprovalRequests API from Fortanix — 5 operation(s) for approvalrequests.
-  name: Fortanix Approval Requests API
-  slug: fortanix-approvalrequests-api
-- baseURL: https://amer.smartkey.io
-  baseurl_source: declared
   description: The Apps API from Fortanix — 7 operation(s) for apps.
   name: Fortanix Apps API
   slug: fortanix-apps-api
@@ -113,11 +108,6 @@ apis:
   description: The Certificate API from Fortanix — 1 operation(s) for certificate.
   name: Fortanix Certificate API
   slug: fortanix-certificate-api
-- baseURL: https://amer.smartkey.io
-  baseurl_source: declared
-  description: The ComputeClusters API from Fortanix — 2 operation(s) for computeclusters.
-  name: Fortanix Compute Clusters API
-  slug: fortanix-computeclusters-api
 - baseURL: https://amer.smartkey.io
   baseurl_source: declared
   description: The Credentials API from Fortanix — 3 operation(s) for credentials.
@@ -290,15 +280,20 @@ apis:
   slug: fortanix-workflowfinal-api
 - baseURL: https://amer.smartkey.io
   baseurl_source: declared
-  description: The WorkflowRuns API from Fortanix — 5 operation(s) for workflowruns.
-  name: Fortanix Workflow Runs API
-  slug: fortanix-workflowruns-api
-- baseURL: https://amer.smartkey.io
-  baseurl_source: declared
   description: The Zone API from Fortanix — 5 operation(s) for zone.
   name: Fortanix Zone API
   slug: fortanix-zone-api
-artifact_total: 60
+- baseURL: https://ccm.fortanix.com
+  baseurl_source: declared
+  description: The Compute Clusters API from Fortanix — 2 operation(s) for compute clusters.
+  name: Fortanix Compute Clusters API
+  slug: fortanix-compute-clusters-api
+- baseURL: https://ccm.fortanix.com
+  baseurl_source: declared
+  description: The Workflow Runs API from Fortanix — 5 operation(s) for workflow runs.
+  name: Fortanix Workflow Runs API
+  slug: fortanix-workflow-runs-api
+artifact_total: 59
 collections:
 - collection_type: open
   name: Armor API
@@ -498,11 +493,11 @@ modified: '2026-08-01'
 name: Fortanix
 nav: Providers
 network: true
-overview: 'Fortanix publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Confidential Computing Manager REST API, Account Extensions API, Accounts API, and 48 more. Tagged areas include Company, Security, Encryption, Key Management, and Cryptography.
+overview: 'Fortanix publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Confidential Computing Manager REST API, Account Extensions API, Accounts API, and 47 more. Tagged areas include Company, Security, Encryption, Key Management, and Cryptography.
 
 
   Fortanix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 32 more developer resources.'
-random_paper: 14
+random_paper: 17
 scopes:
 - name: Fortanix Scopes
   scope_count: 0
@@ -510,7 +505,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.8
+  composite: 42.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -518,11 +513,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 7.9
     contract_governance: 4.5
-    contract_quality: 54.8
+    contract_quality: 53.9
     developer_ergonomics: 78.0
     discoverability: 75.9
     operational_transparency: 34.2
@@ -534,11 +529,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 50
+      total: 49
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   slug: apache-airflow-dag-api
 - baseURL: http://localhost:8080/api/v1
   baseurl_source: declared
-  description: The DAGRun API from Apache Airflow — 6 operation(s) for dagrun.
-  name: Apache Airflow DAGRun API
-  slug: apache-airflow-dagrun-api
-- baseURL: http://localhost:8080/api/v1
-  baseurl_source: declared
   description: The DagWarning API from Apache Airflow — 1 operation(s) for dagwarning.
   name: Apache Airflow DagWarning API
   slug: apache-airflow-dagwarning-api
@@ -78,16 +73,6 @@ apis:
   description: The Dataset API from Apache Airflow — 4 operation(s) for dataset.
   name: Apache Airflow Dataset API
   slug: apache-airflow-dataset-api
-- baseURL: http://localhost:8080/api/v1
-  baseurl_source: declared
-  description: The EventLog API from Apache Airflow — 2 operation(s) for eventlog.
-  name: Apache Airflow EventLog API
-  slug: apache-airflow-eventlog-api
-- baseURL: http://localhost:8080/api/v1
-  baseurl_source: declared
-  description: The ImportError API from Apache Airflow — 2 operation(s) for importerror.
-  name: Apache Airflow ImportError API
-  slug: apache-airflow-importerror-api
 - baseURL: http://localhost:8080/api/v1
   baseurl_source: declared
   description: The Monitoring API from Apache Airflow — 2 operation(s) for monitoring.
@@ -120,11 +105,6 @@ apis:
   slug: apache-airflow-role-api
 - baseURL: http://localhost:8080/api/v1
   baseurl_source: declared
-  description: The TaskInstance API from Apache Airflow — 9 operation(s) for taskinstance.
-  name: Apache Airflow TaskInstance API
-  slug: apache-airflow-taskinstance-api
-- baseURL: http://localhost:8080/api/v1
-  baseurl_source: declared
   description: The User API from Apache Airflow — 2 operation(s) for user.
   name: Apache Airflow User API
   slug: apache-airflow-user-api
@@ -138,6 +118,26 @@ apis:
   description: The XCom API from Apache Airflow — 2 operation(s) for xcom.
   name: Apache Airflow XCom API
   slug: apache-airflow-xcom-api
+- baseURL: http://localhost:8080/api/experimental
+  baseurl_source: declared
+  description: The DAG Run API from Apache Airflow — 6 operation(s) for dag run.
+  name: Apache Airflow DAG Run API
+  slug: apache-airflow-dag-run-api
+- baseURL: http://localhost:8080/api/experimental
+  baseurl_source: declared
+  description: The Event Log API from Apache Airflow — 2 operation(s) for event log.
+  name: Apache Airflow Event Log API
+  slug: apache-airflow-event-log-api
+- baseURL: http://localhost:8080/api/experimental
+  baseurl_source: declared
+  description: The Import Error API from Apache Airflow — 2 operation(s) for import error.
+  name: Apache Airflow Import Error API
+  slug: apache-airflow-import-error-api
+- baseURL: http://localhost:8080/api/experimental
+  baseurl_source: declared
+  description: The Task Instance API from Apache Airflow — 9 operation(s) for task instance.
+  name: Apache Airflow Task Instance API
+  slug: apache-airflow-task-instance-api
 arazzos:
 - description: Use the batch endpoints to pull failed runs and their task instances across many DAGs in a date window, then check the event log for who intervened.
   name: Apache Airflow Audit DAG Runs Across the Fleet
@@ -1190,7 +1190,7 @@ plans:
 - name: Apache Airflow Plans Pricing
   plan_count: 3
   slug: apache-airflow-plans-pricing
-random_paper: 4
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Apache Airflow Rate Limits
@@ -1249,7 +1249,7 @@ score:
       total: 18
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -28,20 +28,20 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
+    rate_limit_signal: verified
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.5
-  scored_at: '2026-09-15'
+  score: 49.3
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 42
-  human_in_the_loop: 2
+- acting_count: 777
+  human_in_the_loop: 45
   name: Oracle Cloud Agentic Access
-  operation_count: 81
+  operation_count: 1309
   slug: oracle-cloud-agentic-access
-  summary_line: 81 operations · 42 acting · 2 human-in-the-loop
+  summary_line: 1309 operations · 777 acting · 45 human-in-the-loop
 api_count: 9
 apis:
 - baseURL: https://telemetry.{region}.oraclecloud.com
@@ -49,41 +49,16 @@ apis:
   description: The Alarms API from Oracle Cloud Infrastructure — 2 operation(s) for alarms.
   name: Oracle Cloud Infrastructure Alarms API
   slug: oracle-cloud-alarms-api
-- baseURL: https://functions.{region}.oraclecloud.com
-  baseurl_source: declared
-  description: The Applications API from Oracle Cloud Infrastructure — 2 operation(s) for applications.
-  name: Oracle Cloud Infrastructure Applications API
-  slug: oracle-cloud-applications-api
-- baseURL: https://database.{region}.oraclecloud.com
-  baseurl_source: declared
-  description: The Autonomous Databases API from Oracle Cloud Infrastructure — 4 operation(s) for autonomous databases.
-  name: Oracle Cloud Infrastructure Autonomous Databases API
-  slug: oracle-cloud-autonomous-databases-api
 - baseURL: https://objectstorage.{region}.oraclecloud.com
   baseurl_source: declared
   description: The Buckets API from Oracle Cloud Infrastructure — 2 operation(s) for buckets.
   name: Oracle Cloud Infrastructure Buckets API
   slug: oracle-cloud-buckets-api
-- baseURL: https://containerengine.{region}.oraclecloud.com
-  baseurl_source: declared
-  description: The Clusters API from Oracle Cloud Infrastructure — 2 operation(s) for clusters.
-  name: Oracle Cloud Infrastructure Clusters API
-  slug: oracle-cloud-clusters-api
 - baseURL: https://identity.{region}.oraclecloud.com
   baseurl_source: declared
   description: The Compartments API from Oracle Cloud Infrastructure — 1 operation(s) for compartments.
   name: Oracle Cloud Infrastructure Compartments API
   slug: oracle-cloud-compartments-api
-- baseURL: https://database.{region}.oraclecloud.com
-  baseurl_source: declared
-  description: The DB Systems API from Oracle Cloud Infrastructure — 2 operation(s) for db systems.
-  name: Oracle Cloud Infrastructure DB Systems API
-  slug: oracle-cloud-db-systems-api
-- baseURL: https://functions.{region}.oraclecloud.com
-  baseurl_source: declared
-  description: The Functions API from Oracle Cloud Infrastructure — 3 operation(s) for functions.
-  name: Oracle Cloud Infrastructure Functions API
-  slug: oracle-cloud-functions-api
 - baseURL: https://identity.{region}.oraclecloud.com
   baseurl_source: declared
   description: The Groups API from Oracle Cloud Infrastructure — 1 operation(s) for groups.
@@ -99,11 +74,6 @@ apis:
   description: The Instances API from Oracle Cloud Infrastructure — 3 operation(s) for instances.
   name: Oracle Cloud Infrastructure Instances API
   slug: oracle-cloud-instances-api
-- baseURL: https://iaas.{region}.oraclecloud.com
-  baseurl_source: declared
-  description: The Internet Gateways API from Oracle Cloud Infrastructure — 1 operation(s) for internet gateways.
-  name: Oracle Cloud Infrastructure Internet Gateways API
-  slug: oracle-cloud-internet-gateways-api
 - baseURL: https://telemetry.{region}.oraclecloud.com
   baseurl_source: declared
   description: The Metrics API from Oracle Cloud Infrastructure — 2 operation(s) for metrics.
@@ -114,11 +84,6 @@ apis:
   description: The Namespaces API from Oracle Cloud Infrastructure — 1 operation(s) for namespaces.
   name: Oracle Cloud Infrastructure Namespaces API
   slug: oracle-cloud-namespaces-api
-- baseURL: https://containerengine.{region}.oraclecloud.com
-  baseurl_source: declared
-  description: The Node Pools API from Oracle Cloud Infrastructure — 2 operation(s) for node pools.
-  name: Oracle Cloud Infrastructure Node Pools API
-  slug: oracle-cloud-node-pools-api
 - baseURL: https://objectstorage.{region}.oraclecloud.com
   baseurl_source: declared
   description: The Objects API from Oracle Cloud Infrastructure — 2 operation(s) for objects.
@@ -136,24 +101,9 @@ apis:
   slug: oracle-cloud-preauthenticated-requests-api
 - baseURL: https://iaas.{region}.oraclecloud.com
   baseurl_source: declared
-  description: The Route Tables API from Oracle Cloud Infrastructure — 1 operation(s) for route tables.
-  name: Oracle Cloud Infrastructure Route Tables API
-  slug: oracle-cloud-route-tables-api
-- baseURL: https://iaas.{region}.oraclecloud.com
-  baseurl_source: declared
-  description: The Security Lists API from Oracle Cloud Infrastructure — 1 operation(s) for security lists.
-  name: Oracle Cloud Infrastructure Security Lists API
-  slug: oracle-cloud-security-lists-api
-- baseURL: https://iaas.{region}.oraclecloud.com
-  baseurl_source: declared
   description: The Shapes API from Oracle Cloud Infrastructure — 1 operation(s) for shapes.
   name: Oracle Cloud Infrastructure Shapes API
   slug: oracle-cloud-shapes-api
-- baseURL: https://iaas.{region}.oraclecloud.com
-  baseurl_source: declared
-  description: The Subnets API from Oracle Cloud Infrastructure — 2 operation(s) for subnets.
-  name: Oracle Cloud Infrastructure Subnets API
-  slug: oracle-cloud-subnets-api
 - baseURL: https://identity.{region}.oraclecloud.com
   baseurl_source: declared
   description: The Users API from Oracle Cloud Infrastructure — 2 operation(s) for users.
@@ -161,14 +111,79 @@ apis:
   slug: oracle-cloud-users-api
 - baseURL: https://iaas.{region}.oraclecloud.com
   baseurl_source: declared
-  description: The VCNs API from Oracle Cloud Infrastructure — 2 operation(s) for vcns.
-  name: Oracle Cloud Infrastructure VCNs API
-  slug: oracle-cloud-vcns-api
-- baseURL: https://iaas.{region}.oraclecloud.com
-  baseurl_source: declared
   description: The Volume Attachments API from Oracle Cloud Infrastructure — 2 operation(s) for volume attachments.
   name: Oracle Cloud Infrastructure Volume Attachments API
   slug: oracle-cloud-volume-attachments-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The blockstorage API from Oracle Cloud Infrastructure — 33 operation(s) for blockstorage.
+  name: Oracle Cloud Infrastructure Blockstorage API
+  slug: oracle-cloud-blockstorage-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The compute API from Oracle Cloud Infrastructure — 82 operation(s) for compute.
+  name: Oracle Cloud Infrastructure Compute API
+  slug: oracle-cloud-compute-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The computeManagement API from Oracle Cloud Infrastructure — 23 operation(s) for computemanagement.
+  name: Oracle Cloud Infrastructure Compute Management API
+  slug: oracle-cloud-computemanagement-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: API operations for working with the container engine service.
+  name: Oracle Cloud Infrastructure Container Engine API
+  slug: oracle-cloud-containerengine-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The database API from Oracle Cloud Infrastructure — 319 operation(s) for database.
+  name: Oracle Cloud Infrastructure Database API
+  slug: oracle-cloud-database-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The events API from Oracle Cloud Infrastructure — 3 operation(s) for events.
+  name: Oracle Cloud Infrastructure Events API
+  slug: oracle-cloud-events-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The functionsInvoke API from Oracle Cloud Infrastructure — 1 operation(s) for functionsinvoke.
+  name: Oracle Cloud Infrastructure Functions Invoke API
+  slug: oracle-cloud-functionsinvoke-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The functionsManagement API from Oracle Cloud Infrastructure — 10 operation(s) for functionsmanagement.
+  name: Oracle Cloud Infrastructure Functions Management API
+  slug: oracle-cloud-functionsmanagement-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The identity API from Oracle Cloud Infrastructure — 93 operation(s) for identity.
+  name: Oracle Cloud Infrastructure Identity API
+  slug: oracle-cloud-identity-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The monitoring API from Oracle Cloud Infrastructure — 13 operation(s) for monitoring.
+  name: Oracle Cloud Infrastructure Monitoring API
+  slug: oracle-cloud-monitoring-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The notificationControlPlane API from Oracle Cloud Infrastructure — 13 operation(s) for notificationcontrolplane.
+  name: Oracle Cloud Infrastructure Notification Control Plane API
+  slug: oracle-cloud-notificationcontrolplane-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The notificationDataPlane API from Oracle Cloud Infrastructure — 9 operation(s) for notificationdataplane.
+  name: Oracle Cloud Infrastructure Notification Data Plane API
+  slug: oracle-cloud-notificationdataplane-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The virtualNetwork API from Oracle Cloud Infrastructure — 176 operation(s) for virtualnetwork.
+  name: Oracle Cloud Infrastructure Virtual Network API
+  slug: oracle-cloud-virtualnetwork-api
+- baseURL: https://telemetry.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The Object Storage API from Oracle Cloud Infrastructure — 33 operation(s) for object storage.
+  name: Oracle Cloud Infrastructure Object Storage API
+  slug: oracle-cloud-object-storage-api
 arazzos:
 - description: Resolve a VCN's route table and security list, then create a subnet wired to both.
   name: Oracle Cloud Add Secured Subnet
@@ -224,7 +239,7 @@ arazzos:
 - description: List subnets in a VCN, delete the first subnet, then delete the VCN itself.
   name: Oracle Cloud Teardown VCN Network
   slug: oracle-cloud-teardown-vcn-network-workflow
-artifact_total: 464
+artifact_total: 467
 asyncapis:
 - description: ''
   name: Oracle Cloud Events Webhooks
@@ -2075,7 +2090,7 @@ modified: '2026-08-29'
 name: Oracle Cloud Infrastructure
 nav: Providers
 network: true
-overview: 'Oracle Cloud Infrastructure publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Applications API, Autonomous Databases API, and 22 more. Tagged areas include Cloud Computing, Enterprise Cloud, Infrastructure-as-a-Service, Oracle, and Platform-as-a-Service.
+overview: 'Oracle Cloud Infrastructure publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Buckets API, Compartments API, and 25 more. Tagged areas include Cloud Computing, Enterprise Cloud, Infrastructure-as-a-Service, Oracle, and Platform-as-a-Service.
 
 
   The Oracle Cloud Infrastructure catalog on APIs.io includes 1 event-driven AsyncAPI specification, 34 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -2086,7 +2101,7 @@ plans:
 - name: Oracle Cloud Plans Pricing
   plan_count: 4
   slug: oracle-cloud-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Oracle Cloud Rate Limits
@@ -2115,7 +2130,7 @@ rules:
   slug: oracle-cloud-spectral-rules
 score:
   band: exemplar
-  composite: 71.1
+  composite: 74.7
   coverage:
     artifact_dirs: 32
     catalog_earned: 82.5
@@ -2123,11 +2138,11 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.6
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 42.3
+    contract_quality: 56.8
     developer_ergonomics: 83.9
     discoverability: 75.9
     operational_transparency: 60.5
@@ -2136,14 +2151,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 33
-      marker_coverage: 100.0
-      total: 33
+      callable: 77.4
+      derived: 22
+      marker_coverage: 61.1
+      total: 36
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

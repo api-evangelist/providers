@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ press:
 - date: '2026-05-25'
   title: Governor Hochul Announces $78 Million Investment by ...
   url: https://esd.ny.gov/esd-media-center/press-releases/governor-hochul-announces-78-million-investment-broadridge
-random_paper: 14
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Broadridge Rate Limits
@@ -261,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

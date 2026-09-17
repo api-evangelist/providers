@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: easyJet's hosted client-side widget platform for partner and white-label sites. Each widget is a script tag on brand.easyjet.com whose behaviour is driven by query-string parameters and scoped to a pa
@@ -140,11 +140,11 @@ modified: '2026-07-28'
 name: easyJet
 nav: Providers
 network: true
-overview: 'easyJet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Low Cost Carrier.
+overview: 'easyJet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, United Kingdom, Aviation, Airlines, and Low Cost Carrier.
 
 
   easyJet''s developer surface includes support, signup flow, and 19 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: emerging
   composite: 14.2
@@ -181,7 +181,7 @@ score:
     regime_id: telecommunications
     score: 26.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -197,7 +197,7 @@ tags:
 - Travel
 - United Kingdom
 - Aviation
-- Airline
+- Airlines
 - Low Cost Carrier
 - Europe
 - Distribution

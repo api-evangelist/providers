@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The core API providing programmatic access to the Bloomberg data ecosystem including real-time prices, reference data, news, analytics, and Terminal functions.
@@ -47,6 +47,10 @@ apis:
   slug: bloomberg-anywhere
 artifact_total: 17
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -101,19 +105,19 @@ finops:
   slug: bloomberg-product-suite-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-product-suite.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Product Suite
 nav: Providers
 network: true
 overview: 'Bloomberg Product Suite publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Product Suite, Terminal, Data, Analytics, and Trading.
 
 
-  Bloomberg Product Suite''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
+  Bloomberg Product Suite''s developer surface includes developer portal, documentation, support, and 6 more developer resources.'
 plans:
 - name: Bloomberg Product Suite Plans Pricing
   plan_count: 3
   slug: bloomberg-product-suite-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Bloomberg Product Suite Rate Limits
@@ -144,7 +148,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -174,5 +178,5 @@ use_cases:
   name: Risk and Compliance
 - description: M&A, capital markets, and corporate treasury data and analytics.
   name: Corporate Finance
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

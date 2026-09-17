@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://electricitynorthwest.opendatasoft.com/api/explore/v2.1
@@ -301,7 +301,7 @@ overview: 'Electricity North West publishes 2 APIs on the [APIs.io](https://apis
 
 
   Electricity North West''s developer surface includes developer portal, documentation, API reference, getting-started guide, sandbox, developer console, signup flow, and 39 more developer resources.'
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Electricity North West Rate Limits
@@ -354,7 +354,7 @@ score:
     regime_id: energy_utilities
     score: 75.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

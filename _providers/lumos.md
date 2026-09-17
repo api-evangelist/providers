@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -46,61 +46,11 @@ agentic_access:
   operation_count: 67
   slug: lumos-agentic-access
   summary_line: 67 operations · 33 acting
-api_count: 1
+api_count: 2
 apis:
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The Lumos REST API enables programmatic access to the Lumos identity platform for automating tasks such as managing users, apps, access requests, and governance workflows. All requests require a beare
-  name: Lumos REST API
-  slug: rest-api
 - description: The Lumos Connector SDK allows developers to build custom connectors that integrate third-party applications with the Lumos platform, enabling automated provisioning, deprovisioning, and access manage
   name: Lumos Connector SDK
   slug: connector-sdk
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The AccessPolicies API from Lumos — 2 operation(s) for accesspolicies.
-  name: Lumos AccessPolicies API
-  slug: lumos-accesspolicies-api
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The AccessRequests API from Lumos — 3 operation(s) for accessrequests.
-  name: Lumos AccessRequests API
-  slug: lumos-accessrequests-api
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The AccessReviews API from Lumos — 5 operation(s) for accessreviews.
-  name: Lumos AccessReviews API
-  slug: lumos-accessreviews-api
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The Accounts API from Lumos — 3 operation(s) for accounts.
-  name: Lumos Accounts API
-  slug: lumos-accounts-api
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The Activity API from Lumos — 4 operation(s) for activity.
-  name: Lumos Activity API
-  slug: lumos-activity-api
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The Apps API from Lumos — 4 operation(s) for apps.
-  name: Lumos Apps API
-  slug: lumos-apps-api
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The AppStore API from Lumos — 4 operation(s) for appstore.
-  name: Lumos AppStore API
-  slug: lumos-appstore-api
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The Groups API from Lumos — 3 operation(s) for groups.
-  name: Lumos Groups API
-  slug: lumos-groups-api
-- baseURL: https://api.lumos.com
-  baseurl_source: declared
-  description: The PreApprovalRules API from Lumos — 2 operation(s) for preapprovalrules.
-  name: Lumos PreApprovalRules API
-  slug: lumos-preapprovalrules-api
 - baseURL: https://api.lumos.com
   baseurl_source: declared
   description: The Tasks API from Lumos — 8 operation(s) for tasks.
@@ -108,25 +58,45 @@ apis:
   slug: lumos-tasks-api
 - baseURL: https://api.lumos.com
   baseurl_source: declared
-  description: The Users API from Lumos — 6 operation(s) for users.
-  name: Lumos Users API
-  slug: lumos-users-api
+  description: Create and manage access review campaigns — scheduled reviews of who has access to what across your connected apps. **Typical workflow for creating a review:** 1. `GET /apps` — find the domain app UUI
+  name: Lumos Access Reviews API
+  slug: lumos-access-reviews-api
 - baseURL: https://api.lumos.com
   baseurl_source: declared
-  description: The Utility API from Lumos — 1 operation(s) for utility.
-  name: Lumos Utility API
-  slug: lumos-utility-api
+  description: The Core API from Lumos — 27 operation(s) for core.
+  name: Lumos Core API
+  slug: lumos-core-api
 - baseURL: https://api.lumos.com
   baseurl_source: declared
-  description: The Vendors API from Lumos — 4 operation(s) for vendors.
-  name: Lumos Vendors API
-  slug: lumos-vendors-api
+  description: The Integration Webhooks API from Lumos — 2 operation(s) for integration webhooks.
+  name: Lumos Integration Webhooks API
+  slug: lumos-integration-webhooks-api
 - baseURL: https://api.lumos.com
   baseurl_source: declared
-  description: The Webhooks API from Lumos — 1 operation(s) for webhooks.
-  name: Lumos Webhooks API
-  slug: lumos-webhooks-api
-artifact_total: 41
+  description: Knowledge entries are the documents and notes Lumos agents draw on when they answer access questions. Each entry carries a title, body, tags, and product scopes, plus an optional file attachment. Beca
+  name: Lumos Knowledge API
+  slug: lumos-knowledge-api
+- baseURL: https://api.lumos.com
+  baseurl_source: declared
+  description: The Lifecycle Management API from Lumos — 3 operation(s) for lifecycle management.
+  name: Lumos Lifecycle Management API
+  slug: lumos-lifecycle-management-api
+- baseURL: https://api.lumos.com
+  baseurl_source: declared
+  description: The Meta API from Lumos — 2 operation(s) for meta.
+  name: Lumos Meta API
+  slug: lumos-meta-api
+- baseURL: https://api.lumos.com
+  baseurl_source: declared
+  description: The Vendor Management API from Lumos — 4 operation(s) for vendor management.
+  name: Lumos Vendor Management API
+  slug: lumos-vendor-management-api
+- baseURL: https://api.lumos.com
+  baseurl_source: declared
+  description: The App Store API from Lumos — 11 operation(s) for app store.
+  name: Lumos App Store API
+  slug: lumos-app-store-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Lumos Webhooks
@@ -381,7 +351,7 @@ modified: '2026-08-29'
 name: Lumos
 nav: Providers
 network: true
-overview: 'Lumos publishes 15 APIs on the [APIs.io](https://apis.io/) network, including REST API, AccessPolicies API, AccessRequests API, and 12 more. Tagged areas include Access Management, Access Reviews, Deprovisioning, Identity Governance, and Identity Platform.
+overview: 'Lumos publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Tasks API, Access Reviews API, Core API, and 6 more. Tagged areas include Access Management, Access Reviews, Deprovisioning, Identity Governance, and Identity Platform.
 
 
   The Lumos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -392,7 +362,7 @@ plans:
 - name: Lumos Plans Pricing
   plan_count: 0
   slug: lumos-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Lumos Rate Limits
@@ -404,7 +374,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 54.6
+  composite: 55.7
   coverage:
     artifact_dirs: 25
     catalog_earned: 48.0
@@ -412,11 +382,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 61.5
+    contract_quality: 66.0
     developer_ergonomics: 50.6
     discoverability: 75.9
     operational_transparency: 65.8
@@ -428,11 +398,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 9
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

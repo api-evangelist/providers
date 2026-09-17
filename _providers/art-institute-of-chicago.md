@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -458,7 +458,7 @@ modified: '2026-05-29'
 name: Art Institute of Chicago
 nav: Providers
 network: true
-overview: 'Art Institute of Chicago publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Agent Roles API, Agent Types API, Agents API, and 34 more. Tagged areas include Art And Design, Museum, Open Data, Cultural Heritage, and IIIF.
+overview: 'Art Institute of Chicago publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Agent Roles API, Agent Types API, Agents API, and 34 more. Tagged areas include Art And Design, Museums, Open Data, Cultural Heritage, and IIIF.
 
 
   The Art Institute of Chicago catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -469,7 +469,7 @@ plans:
 - name: Art Institute Of Chicago Plans Pricing
   plan_count: 1
   slug: art-institute-of-chicago-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Art Institute Of Chicago Rate Limits
@@ -529,7 +529,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -544,7 +544,7 @@ security:
 slug: art-institute-of-chicago
 tags:
 - Art And Design
-- Museum
+- Museums
 - Open Data
 - Cultural Heritage
 - IIIF

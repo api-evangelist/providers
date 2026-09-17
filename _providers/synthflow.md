@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -70,19 +70,19 @@ apis:
   slug: synthflow-mcp-api
 - baseURL: https://api.synthflow.ai
   baseurl_source: declared
-  description: The memoryStores API from Synthflow — 1 operation(s) for memorystores.
+  description: The Memory Stores API from Synthflow — 1 operation(s) for memory stores.
   name: Synthflow Memory Stores API
-  slug: synthflow-memorystores-api
+  slug: synthflow-memory-stores-api
 - baseURL: https://api.synthflow.ai
   baseurl_source: declared
-  description: The phoneNumbers API from Synthflow — 3 operation(s) for phonenumbers.
+  description: The Phone Numbers API from Synthflow — 3 operation(s) for phone numbers.
   name: Synthflow Phone Numbers API
-  slug: synthflow-phonenumbers-api
+  slug: synthflow-phone-numbers-api
 - baseURL: https://api.synthflow.ai
   baseurl_source: declared
-  description: The webhookLogs API from Synthflow — 2 operation(s) for webhooklogs.
+  description: The Webhook Logs API from Synthflow — 2 operation(s) for webhook logs.
   name: Synthflow Webhook Logs API
-  slug: synthflow-webhooklogs-api
+  slug: synthflow-webhook-logs-api
 artifact_total: 28
 asyncapis:
 - description: ''
@@ -334,7 +334,7 @@ plans:
 - name: Synthflow Plans Pricing
   plan_count: 1
   slug: synthflow-plans-pricing
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Synthflow Rate Limits
@@ -374,7 +374,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -411,7 +411,7 @@ tags:
 - Agent Skills
 - Conversational AI
 - SIP
-- Simulations
+- Simulation
 - Knowledge Base
 website: https://synthflow.ai
 ---

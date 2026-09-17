@@ -33,7 +33,7 @@ name: Phantom Auto
 nav: Providers
 network: true
 overview: Phantom Auto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Teleoperation, Remote Driving, and Autonomous Vehicles.
-random_paper: 6
+random_paper: 13
 slug: phantom-auto
 tags:
 - Company

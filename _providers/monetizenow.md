@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.monetizeplatform.com
@@ -74,11 +74,6 @@ apis:
   slug: monetizenow-credit-api
 - baseURL: https://api.monetizeplatform.com
   baseurl_source: declared
-  description: The CreditNote API from MonetizeNow — 6 operation(s) for creditnote.
-  name: MonetizeNow Credit Note API
-  slug: monetizenow-creditnote-api
-- baseURL: https://api.monetizeplatform.com
-  baseurl_source: declared
   description: An invoice is an itemized commercial document that records the products or services delivered to the customer, the total amount due, and the preferred payment method.
   name: MonetizeNow Invoice API
   slug: monetizenow-invoice-api
@@ -102,11 +97,6 @@ apis:
   description: Payment gateway is a service that helps customer transfer money to pay for invoices.
   name: MonetizeNow Payment Gateway API
   slug: monetizenow-payment-gateway-api
-- baseURL: https://api.monetizeplatform.com
-  baseurl_source: declared
-  description: Payment methods are entities representing the instrument used to collect payments for invoices on a bill group. This can be Credit Cards, Direct Debit, ACH Credit etc.
-  name: MonetizeNow Payment Method API
-  slug: monetizenow-paymentmethod-api
 - baseURL: https://api.monetizeplatform.com
   baseurl_source: declared
   description: The Price Uplift Configuration API from MonetizeNow — 1 operation(s) for price uplift configuration.
@@ -142,6 +132,16 @@ apis:
   description: APIs to record, update and query usage events
   name: MonetizeNow Usage API
   slug: monetizenow-usage-api
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: The Credit Note API from MonetizeNow — 6 operation(s) for credit note.
+  name: MonetizeNow Credit Note API
+  slug: monetizenow-credit-note-api
+- baseURL: https://api.monetizeplatform.com
+  baseurl_source: declared
+  description: Payment methods are entities representing the instrument used to collect payments for invoices on a bill group. This can be Credit Cards, Direct Debit, ACH Credit etc.
+  name: MonetizeNow Payment Method API
+  slug: monetizenow-payment-method-api
 artifact_total: 29
 asyncapis:
 - description: ''
@@ -207,10 +207,10 @@ common:
   type: Lifecycle
   url: lifecycle/monetizenow-lifecycle.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/monetizenow-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/openapi/_original/monetizenow-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/monetizenow-openapi.json
+  url: openapi/_original/monetizenow-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/overlays/monetizenow-openapi-overlay.yaml
   title: ''
@@ -329,7 +329,7 @@ description: 'MonetizeNow is an enterprise monetization platform that unifies qu
   an OAuth-protected hosted MCP server at https://mcp.monetizeplatform.com/mcp that appears nowhere in its documentation. Pre-built connectors integrate Salesforce, HubSpot, Attio, NetSuite, QuickBooks, Xero, DocuSign, Adobe Sign, Anrok, Avalara, and Taxwire. MonetizeNow is backed by Uncork Capital.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monetizenow.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: MonetizeNow
 nav: Providers
 network: true
@@ -344,7 +344,7 @@ plans:
 - name: Monetizenow Plans Pricing
   plan_count: 0
   slug: monetizenow-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Monetizenow Rate Limits
@@ -356,7 +356,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.8
+  composite: 56.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -364,11 +364,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 57.6
+    contract_quality: 58.3
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 75.0
@@ -389,7 +389,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

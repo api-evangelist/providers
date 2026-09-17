@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the 4th & Heart online store, implemented by Shopify's native Universal Commerce Protocol support on the merchant's own domain. A remote MCP server at https://four
@@ -124,7 +124,7 @@ plans:
 - name: 4Th Heart Plans Pricing
   plan_count: 0
   slug: 4th-heart-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: 4Th Heart Rate Limits
@@ -163,7 +163,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

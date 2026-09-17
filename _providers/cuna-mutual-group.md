@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ modified: '2026-04-28'
 name: CUNA Mutual Group (TruStage)
 nav: Providers
 network: true
-overview: CUNA Mutual Group (TruStage) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Auto Insurance, Compliance, Credit Unions, and Financial-Services.
+overview: CUNA Mutual Group (TruStage) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Annuities, Auto Insurance, Compliance, Credit Union, and Financial-Services.
 press:
 - date: '2026-05-25'
   title: EXL and CUNA Mutual Group Win NASSCOM Customer ...
@@ -94,7 +94,7 @@ press:
 - date: '2026-05-25'
   title: CUNA Mutual Group Announces Plans To Unify Under ...
   url: https://www.prnewswire.com/news-releases/cuna-mutual-group-announces-plans-to-unify-under-one-brand-in-2023-301540615.html
-random_paper: 12
+random_paper: 18
 score:
   band: minimal
   composite: 2.3
@@ -121,7 +121,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -138,11 +138,11 @@ tags:
 - Annuities
 - Auto Insurance
 - Compliance
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Home Insurance
 - Insurance
-- Investments
+- Investment
 - Lending
 - Life Insurance
 - Retirement

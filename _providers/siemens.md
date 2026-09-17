@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -343,7 +343,7 @@ apis:
   name: Siemens Notification Service
   slug: notification-service
 - description: Basic digital workflow for work requests (maintenance, repair, inspection and incident handling).
-  name: Siemens Case Management Management Service
+  name: Siemens Case Management Service
   slug: case-management-management-service
 - description: Visual data flow programming in Industrial IoT.
   name: Siemens Visual Flow Creator Service
@@ -647,7 +647,7 @@ jsonld:
   property_count: 8
   slug: siemens-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Siemens
 nav: Providers
 network: true
@@ -662,7 +662,7 @@ plans:
 - name: Siemens Plans Pricing
   plan_count: 1
   slug: siemens-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Siemens Rate Limits
@@ -717,7 +717,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST Product API (v2) to query marketing data from connected data sources, with synchronous and asynchronous query execution, plus a Management API for API keys, saved queries, teams, data-source logi
@@ -237,7 +237,7 @@ plans:
 - name: Supermetrics Plans Pricing
   plan_count: 3
   slug: supermetrics-plans-pricing
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Supermetrics Rate Limits
@@ -271,7 +271,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ apis:
 - baseURL: https://mpp.conduit.xyz
   baseurl_source: declared
   description: The Conduit Demo Cdk G3 API from Conduit — 1 operation(s) for conduit demo cdk g3.
-  name: Conduit Conduit Demo Cdk G3 API
+  name: Conduit Demo Cdk G3 API
   slug: conduit-conduit-demo-cdk-g3-api
 - baseURL: https://mpp.conduit.xyz
   baseurl_source: declared
@@ -640,22 +640,22 @@ mcp_servers:
 - description: 'Official hosted MCP server for the Conduit documentation. Connect any MCP client (Claude Code, Cursor, etc.) to search the docs. Verified live: an initialize handshake returns serverInfo fern-docs-mcp'
   name: Conduit MCP Server
   slug: conduit-mcp-server
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Conduit
 nav: Providers
 network: true
-overview: 'Conduit publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Aevo Mainnet Prod 0 API, Aevo Testnet K1zx5a2ajj API, Bob Mainnet 0 API, and 49 more. Tagged areas include Company, Crypto Infrastructure, Blockchain, Rollups, and RPC Nodes.
+overview: 'Conduit publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Aevo Mainnet Prod 0 API, Aevo Testnet K1zx5a2ajj API, Bob Mainnet 0 API, and 49 more. Tagged areas include Company, Crypto Infrastructure, Blockchain, Rollup, and RPC Nodes.
 
 
   Conduit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Conduit Rate Limits
   slug: conduit-rate-limits
 score:
   band: developing
-  composite: 51.3
+  composite: 51.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -663,11 +663,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 36.1
+    contract_quality: 37.4
     developer_ergonomics: 69.0
     discoverability: 75.9
     operational_transparency: 76.3
@@ -676,14 +676,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 52
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -711,7 +711,7 @@ tags:
 - Company
 - Crypto Infrastructure
 - Blockchain
-- Rollups
+- Rollup
 - RPC Nodes
 - Web3
 - Ethereum

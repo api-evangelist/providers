@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,11 +65,11 @@ modified: '2026-07-18'
 name: Comento
 nav: Providers
 network: true
-overview: 'Comento is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Career, Mentoring, Recruitment, and Education.
+overview: 'Comento is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Careers, Mentoring, Recruitment, and Education.
 
 
   Comento''s developer surface includes support and 4 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: minimal
   composite: 9.9
@@ -103,7 +103,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -118,7 +118,7 @@ security:
 slug: comento
 tags:
 - Company
-- Career
+- Careers
 - Mentoring
 - Recruitment
 - Education

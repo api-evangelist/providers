@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -67,11 +67,6 @@ apis:
   slug: growthbook-code-references-api
 - baseURL: https://api.growthbook.io/api
   baseurl_source: declared
-  description: The CustomFields API from GrowthBook — 2 operation(s) for customfields.
-  name: GrowthBook CustomFields API
-  slug: growthbook-customfields-api
-- baseURL: https://api.growthbook.io/api
-  baseurl_source: declared
   description: The Dashboards API from GrowthBook — 3 operation(s) for dashboards.
   name: GrowthBook Dashboards API
   slug: growthbook-dashboards-api
@@ -95,11 +90,6 @@ apis:
   description: Experiments (A/B Tests)
   name: GrowthBook experiments API
   slug: growthbook-experiments-api
-- baseURL: https://api.growthbook.io/api
-  baseurl_source: declared
-  description: The ExperimentTemplates API from GrowthBook — 3 operation(s) for experimenttemplates.
-  name: GrowthBook ExperimentTemplates API
-  slug: growthbook-experimenttemplates-api
 - baseURL: https://api.growthbook.io/api
   baseurl_source: declared
   description: Fact Metrics are metrics built on top of Fact Table definitions
@@ -135,11 +125,6 @@ apis:
   description: Members are users who have been invited to an organization.
   name: GrowthBook members API
   slug: growthbook-members-api
-- baseURL: https://api.growthbook.io/api
-  baseurl_source: declared
-  description: The MetricGroups API from GrowthBook — 2 operation(s) for metricgroups.
-  name: GrowthBook MetricGroups API
-  slug: growthbook-metricgroups-api
 - baseURL: https://api.growthbook.io/api
   baseurl_source: declared
   description: Metrics used as goals and guardrails for experiments
@@ -225,6 +210,21 @@ apis:
   description: Groups of visual changes made by the visual editor to a single page
   name: GrowthBook visual-changesets API
   slug: growthbook-visual-changesets-api
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The Custom Fields API from GrowthBook — 2 operation(s) for custom fields.
+  name: GrowthBook Custom Fields API
+  slug: growthbook-custom-fields-api
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The Experiment Templates API from GrowthBook — 3 operation(s) for experiment templates.
+  name: GrowthBook Experiment Templates API
+  slug: growthbook-experiment-templates-api
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The Metric Groups API from GrowthBook — 2 operation(s) for metric groups.
+  name: GrowthBook Metric Groups API
+  slug: growthbook-metric-groups-api
 artifact_total: 80
 collections:
 - collection_type: open
@@ -423,7 +423,7 @@ plans:
 - name: Growthbook Plans Pricing
   plan_count: 1
   slug: growthbook-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Growthbook Rate Limits
@@ -442,7 +442,7 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 51.8
+    contract_quality: 51.9
     developer_ergonomics: 23.8
     discoverability: 66.7
     operational_transparency: 7.9
@@ -456,7 +456,7 @@ score:
       total: 36
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

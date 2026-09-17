@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Official remote Model Context Protocol server exposing 54 tools over the Gameball merchant/dashboard surface — customer lookup and points adjustment, tag management, earning configuration and custom e
@@ -57,7 +57,7 @@ apis:
 - baseURL: https://api.gameball.co/api/v4.0
   baseurl_source: declared
   description: The Gameball API API from Gameball — 0 operation(s) for gameball api.
-  name: Gameball Gameball API
+  name: Gameball API
   slug: gameball-gameball-api-api
 - baseURL: https://api.gameball.co/api/v4.0
   baseurl_source: declared
@@ -218,10 +218,10 @@ common:
   type: DomainSecurity
   url: security/gameball-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/gameball-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/openapi/_original/gameball-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/gameball-openapi.json
+  url: openapi/_original/gameball-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/overlays/gameball-openapi-overlay.yaml
   title: ''
@@ -287,6 +287,10 @@ common:
   title: ''
   type: HelpCenter
   url: https://help.gameball.co
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@gameball.co
 created: '2026-07-17'
 description: Gameball is a customer loyalty and gamification platform that helps consumer brands turn one-time buyers into repeat customers through points, VIP tiers, referrals, cashback, coupons, reward campaigns and gamified experiences (spin the wheel, scratch & win, missions, stamps) plus email/SMS/push communication and automation campaigns. It exposes a RESTful API (base https://api.gameball.co/api/{version}) secured with APIKey and SecretKey headers — v4.1 "Secure Integration Mode" is the documented current release, though the only OpenAPI Gameball publishes is v4.0. Alongside it are server SDKs for Node.js, Python, PHP, Ruby and .NET, actively-maintained mobile client SDKs for iOS, Android, Flutter and React Native, an embeddable web widget, signed webhooks, asynchronous batch ingestion, a test/live dual-key sandbox, an official OAuth-gated remote MCP server at https://mcp.gameball.co exposing 54 dashboard tools, a published A2A agent card and a provider-authored Agent Skill. Gameball
   is trusted by 3,000+ brands across 70+ countries and is a 500 Global portfolio company.
@@ -299,7 +303,7 @@ mcp_servers:
 - description: ''
   name: Gameball MCP Server
   slug: gameball-mcp-server-2
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Gameball
 nav: Providers
 network: true
@@ -309,12 +313,12 @@ overview: 'Gameball publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The Gameball catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gameball''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+  Gameball''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
 plans:
 - name: Gameball Plans Pricing
   plan_count: 2
   slug: gameball-plans-pricing
-random_paper: 2
+random_paper: 7
 rate_limits:
 - limit_count: 8
   name: Gameball Rate Limits
@@ -326,7 +330,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.7
+  composite: 58.1
   coverage:
     artifact_dirs: 25
     catalog_earned: 57.0
@@ -334,11 +338,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 57.7
+    contract_quality: 59.4
     developer_ergonomics: 78.6
     discoverability: 75.9
     operational_transparency: 73.7
@@ -353,7 +357,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful API for integrating with Clear Books accounting software to manage invoices, payments, contacts, bank transactions, and expenses.
@@ -110,7 +110,7 @@ modified: '2026-06-13'
 name: Clear Books
 nav: Providers
 network: true
-overview: 'Clear Books publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting, Invoicing, Finance, UK, and Small Business.
+overview: 'Clear Books publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting, Invoicing, Finance, United Kingdom, and Small Business.
 
 
   The Clear Books catalog on APIs.io includes 1 JSON-LD context.
@@ -121,7 +121,7 @@ plans:
 - name: Clearbooks Plans Pricing
   plan_count: 8
   slug: clearbooks-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Clearbooks Rate Limits
@@ -154,7 +154,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 29.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -171,7 +171,7 @@ tags:
 - Accounting
 - Invoicing
 - Finance
-- UK
+- United Kingdom
 - Small Business
 - MTD
 - Tax

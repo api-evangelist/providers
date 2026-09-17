@@ -12,32 +12,72 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 47.7
-  scored_at: '2026-09-15'
+  score: 58.1
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://skills.workera.ai/api/v1
   baseurl_source: declared
-  description: First-party REST API for the Workera skills-intelligence platform. Read-oriented, task-shaped endpoints expose capabilities (domains) and their competency models, programs, v2 capability scores and se
-  name: Workera API
-  slug: workera-api
-artifact_total: 9
+  description: The Audit Events API from Workera — 1 operation(s) for audit events.
+  name: Workera Audit Events API
+  slug: workera-audit-events-api
+- baseURL: https://skills.workera.ai/api/v1
+  baseurl_source: declared
+  description: The Benchmarks API from Workera — 2 operation(s) for benchmarks.
+  name: Workera Benchmarks API
+  slug: workera-benchmarks-api
+- baseURL: https://skills.workera.ai/api/v1
+  baseurl_source: declared
+  description: The Capability API from Workera — 3 operation(s) for capability.
+  name: Workera Capability API
+  slug: workera-capability-api
+- baseURL: https://skills.workera.ai/api/v1
+  baseurl_source: declared
+  description: The Domains API from Workera — 3 operation(s) for domains.
+  name: Workera Domains API
+  slug: workera-domains-api
+- baseURL: https://skills.workera.ai/api/v1
+  baseurl_source: declared
+  description: The Ping API from Workera — 1 operation(s) for ping.
+  name: Workera Ping API
+  slug: workera-ping-api
+- baseURL: https://skills.workera.ai/api/v1
+  baseurl_source: declared
+  description: The Programs API from Workera — 2 operation(s) for programs.
+  name: Workera Programs API
+  slug: workera-programs-api
+- baseURL: https://skills.workera.ai/api/v1
+  baseurl_source: declared
+  description: The Scores API from Workera — 3 operation(s) for scores.
+  name: Workera Scores API
+  slug: workera-scores-api
+- baseURL: https://skills.workera.ai/api/v1
+  baseurl_source: declared
+  description: The Self Ratings API from Workera — 2 operation(s) for self ratings.
+  name: Workera Self Ratings API
+  slug: workera-self-ratings-api
+artifact_total: 16
 asyncapis:
 - description: Workera delivers HTTP POST webhooks to a customer-configured endpoint when assessment, program and appeal events occur. Endpoints, event-type subscriptions and the shared signing secret are provisione
   name: Workera Webhooks
   slug: workera-events-asyncapi
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/overlays/workera-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/workera-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/security/workera-trust-center.yml
   title: ''
@@ -139,25 +179,25 @@ modified: '2026-09-04'
 name: Workera
 nav: Providers
 network: true
-overview: 'Workera publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Skills Intelligence, Skills Assessment, Human Resources, Learning and Development, and Talent Management.
+overview: 'Workera publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Audit Events API, Benchmarks API, Capability API, and 5 more. Tagged areas include Skills Intelligence, Skills Assessment, Human Resources, Learning and Development, and Talent Management.
 
 
   The Workera catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Workera''s developer surface includes engineering blog, support, and 18 more developer resources.'
+  Workera''s developer surface includes engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Workera Plans Pricing
   plan_count: 0
   slug: workera-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Workera Rate Limits
   slug: workera-rate-limits
 score:
-  band: thin
-  composite: 36.7
+  band: developing
+  composite: 41.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -165,22 +205,27 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.0
   facets:
     access_clarity: 35.5
     contract_governance: 0.0
-    contract_quality: 41.6
+    contract_quality: 61.9
     developer_ergonomics: 37.5
     discoverability: 75.9
     operational_transparency: 36.8
   previous_composite: 36.7
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

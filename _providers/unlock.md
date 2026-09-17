@@ -23,21 +23,101 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://www.unlock.com/wp-json
   baseurl_source: declared
-  description: The first-party REST namespaces Unlock registers on www.unlock.com — `unlock/v1`, `unlock/v2` and `unlk/v1`. These are custom endpoints written for Unlock, not WordPress core routes, and they serve th
-  name: Unlock Site Content API
-  slug: unlock-site-content-api
+  description: Long-form Learn articles (custom post type).
+  name: Unlock Articles API
+  slug: unlock-articles-api
 - baseURL: https://www.unlock.com/wp-json
   baseurl_source: declared
-  description: Anonymous read access to the Unlock editorial archive through the WordPress core `wp/v2` namespace — 251 blog posts, 24 pages, 778 media items, 9 Learn articles, 13 homeowner stories, 6 education topi
-  name: Unlock Editorial API
-  slug: unlock-editorial-api
-artifact_total: 14
+  description: Bylined contributors (custom post type).
+  name: Unlock Authors API
+  slug: unlock-authors-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: 'Corporate facts Unlock publishes for its own site: company blurb, social profiles, logo assets, legal disclaimers and the list of states where the HEA is offered.'
+  name: Unlock Company API
+  slug: unlock-company-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: 'Self-describing metadata: registered content types and post statuses.'
+  name: Unlock Discovery API
+  slug: unlock-discovery-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: The Unlock Learn curriculum — lessons, topics and per-learner progress.
+  name: Unlock Education API
+  slug: unlock-education-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Home equity agreement questions and answers, and their categories.
+  name: Unlock FAQ API
+  slug: unlock-faq-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Unlock Learn lessons (custom post type).
+  name: Unlock Lessons API
+  slug: unlock-lessons-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Media library items.
+  name: Unlock Media API
+  slug: unlock-media-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Site navigation menus by location.
+  name: Unlock Navigation API
+  slug: unlock-navigation-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Site pages.
+  name: Unlock Pages API
+  slug: unlock-pages-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Unlock blog posts.
+  name: Unlock Posts API
+  slug: unlock-posts-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Cross-type site search.
+  name: Unlock Search API
+  slug: unlock-search-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Homeowner success stories (custom post type).
+  name: Unlock Stories API
+  slug: unlock-stories-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Content taxonomies and their terms.
+  name: Unlock Taxonomies API
+  slug: unlock-taxonomies-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Published homeowner testimonials.
+  name: Unlock Testimonials API
+  slug: unlock-testimonials-api
+- baseURL: https://www.unlock.com/wp-json
+  baseurl_source: declared
+  description: Unlock Learn topics (custom post type).
+  name: Unlock Topics API
+  slug: unlock-topics-api
+artifact_total: 28
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/overlays/unlock-site-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/unlock-site-content-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/unlock/refs/heads/main/overlays/unlock-editorial-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/unlock-editorial-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -185,15 +265,15 @@ modified: '2026-09-02'
 name: Unlock
 nav: Providers
 network: true
-overview: 'Unlock publishes 2 APIs on the [APIs.io](https://apis.io/) network: Site Content API and Editorial API. Tagged areas include Company, Financial-Services, Fintech, Home Equity, and Mortgage.
+overview: 'Unlock publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Authors API, Company API, and 13 more. Tagged areas include Company, Financial-Services, Fintech, Home Equity, and Mortgage.
 
 
-  Unlock''s developer surface includes engineering blog, support, pricing, signup flow, authentication, and 20 more developer resources.'
+  Unlock''s developer surface includes engineering blog, support, pricing, signup flow, authentication, and 22 more developer resources.'
 plans:
 - name: Unlock Plans Pricing
   plan_count: 0
   slug: unlock-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Unlock Rate Limits
@@ -221,13 +301,13 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 16
       marker_coverage: 100.0
-      total: 2
+      total: 16
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

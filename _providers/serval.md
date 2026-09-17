@@ -34,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://public.api.serval.com
   baseurl_source: declared
   description: The Auth API API from Serval — 1 operation(s) for auth api.
-  name: Serval Auth API API
+  name: Serval Auth API
   slug: serval-auth-api-api
 artifact_total: 9
 asyncapis:
@@ -154,18 +154,18 @@ mcp_servers:
 - description: ''
   name: Serval MCP Server
   slug: serval-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Serval
 nav: Providers
 network: true
-overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Auth API API. Tagged areas include Company, ITSM, Help Desk, Workflow-Automation, and AI Agents.
+overview: 'Serval publishes 1 API on the [APIs.io](https://apis.io/) network: Auth API. Tagged areas include Company, ITSM, Help Desk, Workflow-Automation, and AI Agents.
 
 
   The Serval catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Serval''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 14 more developer resources.'
-random_paper: 2
+random_paper: 15
 scopes:
 - name: Serval Scopes
   scope_count: 1
@@ -199,7 +199,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -105,24 +105,9 @@ apis:
   slug: amazon-parallel-computing-service-listqueues-api
 - baseURL: https://pcs.amazonaws.com
   baseurl_source: declared
-  description: The ListTagsForResource API from Amazon Parallel Computing Service — 1 operation(s) for listtagsforresource.
-  name: Amazon Parallel Computing Service ListTagsForResource API
-  slug: amazon-parallel-computing-service-listtagsforresource-api
-- baseURL: https://pcs.amazonaws.com
-  baseurl_source: declared
   description: The RegisterComputeNodeGroupInstance API from Amazon Parallel Computing Service — 1 operation(s) for registercomputenodegroupinstance.
   name: Amazon Parallel Computing Service RegisterComputeNodeGroupInstance API
   slug: amazon-parallel-computing-service-registercomputenodegroupinstance-api
-- baseURL: https://pcs.amazonaws.com
-  baseurl_source: declared
-  description: The TagResource API from Amazon Parallel Computing Service — 1 operation(s) for tagresource.
-  name: Amazon Parallel Computing Service TagResource API
-  slug: amazon-parallel-computing-service-tagresource-api
-- baseURL: https://pcs.amazonaws.com
-  baseurl_source: declared
-  description: The UntagResource API from Amazon Parallel Computing Service — 1 operation(s) for untagresource.
-  name: Amazon Parallel Computing Service UntagResource API
-  slug: amazon-parallel-computing-service-untagresource-api
 - baseURL: https://pcs.amazonaws.com
   baseurl_source: declared
   description: The UpdateCluster API from Amazon Parallel Computing Service — 1 operation(s) for updatecluster.
@@ -138,6 +123,21 @@ apis:
   description: The UpdateQueue API from Amazon Parallel Computing Service — 1 operation(s) for updatequeue.
   name: Amazon Parallel Computing Service UpdateQueue API
   slug: amazon-parallel-computing-service-updatequeue-api
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The List Tags For Resource API from Amazon Parallel Computing Service — 1 operation(s) for list tags for resource.
+  name: Amazon Parallel Computing Service List Tags For Resource API
+  slug: amazon-parallel-computing-service-list-tags-for-resource-api
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The Tag Resource API from Amazon Parallel Computing Service — 1 operation(s) for tag resource.
+  name: Amazon Parallel Computing Service Tag Resource API
+  slug: amazon-parallel-computing-service-tag-resource-api
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The Untag Resource API from Amazon Parallel Computing Service — 1 operation(s) for untag resource.
+  name: Amazon Parallel Computing Service Untag Resource API
+  slug: amazon-parallel-computing-service-untag-resource-api
 artifact_total: 48
 collections:
 - collection_type: open
@@ -309,7 +309,7 @@ plans:
 - name: Amazon Parallel Computing Service Plans Pricing
   plan_count: 3
   slug: amazon-parallel-computing-service-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Parallel Computing Service Rate Limits
@@ -353,7 +353,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

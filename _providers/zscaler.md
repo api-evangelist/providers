@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: REST API for managing Zscaler Internet Access policies, URL filtering, cloud sandbox, DLP, location and user provisioning, and reporting on web traffic and threats across the Zscaler Cloud platform.
@@ -93,7 +93,7 @@ overview: 'Zscaler publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Zscaler''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: emerging
   composite: 12.4
@@ -114,7 +114,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 12.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 4
@@ -121,11 +121,6 @@ apis:
   slug: packet-host-invoices-api
 - baseURL: https://api.equinix.com/metal/v1
   baseurl_source: declared
-  description: Manage IP addresses. See device and project endpoints to list and create IP assignments for a particular project or device. Check out the product docs to learn more about [the basic networking feature
-  name: Packet Host IPAddresses API
-  slug: packet-host-ipaddresses-api
-- baseURL: https://api.equinix.com/metal/v1
-  baseurl_source: declared
   description: Manage licenses. See project endpoints to list and create licenses for a particular project.
   name: Packet Host Licenses API
   slug: packet-host-licenses-api
@@ -156,19 +151,9 @@ apis:
   slug: packet-host-organizations-api
 - baseURL: https://api.equinix.com/metal/v1
   baseurl_source: declared
-  description: OTP Management. Check out the product docs to learn more about [OTP](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
-  name: Packet Host OTPs API
-  slug: packet-host-otps-api
-- baseURL: https://api.equinix.com/metal/v1
-  baseurl_source: declared
   description: Password Reset Token Management
   name: Packet Host PasswordResetTokens API
   slug: packet-host-passwordresettokens-api
-- baseURL: https://api.equinix.com/metal/v1
-  baseurl_source: declared
-  description: Payment Method Management
-  name: Packet Host PaymentMethods API
-  slug: packet-host-paymentmethods-api
 - baseURL: https://api.equinix.com/metal/v1
   baseurl_source: declared
   description: Plan Management (Device). Check out the product docs to learn more about [Device Plans](https://metal.equinix.com/developers/docs/servers/).
@@ -196,11 +181,6 @@ apis:
   slug: packet-host-spotmarket-api
 - baseURL: https://api.equinix.com/metal/v1
   baseurl_source: declared
-  description: Manage SSH keys. See project endpoints to list and create project-level SSH keys.
-  name: Packet Host SSHKeys API
-  slug: packet-host-sshkeys-api
-- baseURL: https://api.equinix.com/metal/v1
-  baseurl_source: declared
   description: Support request
   name: Packet Host SupportRequest API
   slug: packet-host-supportrequest-api
@@ -211,19 +191,9 @@ apis:
   slug: packet-host-transferrequests-api
 - baseURL: https://api.equinix.com/metal/v1
   baseurl_source: declared
-  description: Two Factor Authentication Management. Check out the product docs to learn more about [2FA](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
-  name: Packet Host TwoFactorAuth API
-  slug: packet-host-twofactorauth-api
-- baseURL: https://api.equinix.com/metal/v1
-  baseurl_source: declared
   description: Usage Management
   name: Packet Host Usages API
   slug: packet-host-usages-api
-- baseURL: https://api.equinix.com/metal/v1
-  baseurl_source: declared
-  description: Userdata Management
-  name: Packet Host Userdata API
-  slug: packet-host-userdata-api
 - baseURL: https://api.equinix.com/metal/v1
   baseurl_source: declared
   description: User Management
@@ -244,6 +214,36 @@ apis:
   description: VRF Management. A VRF is a project-scoped virtual router resource that defines a collection of customer-managed IP blocks that can be used in BGP peering on one or more virtual networks. Metal Gateway
   name: Packet Host VRFs API
   slug: packet-host-vrfs-api
+- baseURL: https://api.equinix.com/metal/v1
+  baseurl_source: declared
+  description: OTP Management. Check out the product docs to learn more about [OTP](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
+  name: Packet Host OT Ps API
+  slug: packet-host-otps-api
+- baseURL: https://api.equinix.com/metal/v1
+  baseurl_source: declared
+  description: Manage IP addresses. See device and project endpoints to list and create IP assignments for a particular project or device. Check out the product docs to learn more about the basic networking features
+  name: Packet Host IP Addresses API
+  slug: packet-host-ip-addresses-api
+- baseURL: https://api.equinix.com/metal/v1
+  baseurl_source: declared
+  description: Payment Method Management
+  name: Packet Host Payment Methods API
+  slug: packet-host-payment-methods-api
+- baseURL: https://api.equinix.com/metal/v1
+  baseurl_source: declared
+  description: Manage SSH keys. See project endpoints to list and create project-level SSH keys.
+  name: Packet Host SSH Keys API
+  slug: packet-host-ssh-keys-api
+- baseURL: https://api.equinix.com/metal/v1
+  baseurl_source: declared
+  description: Two Factor Authentication Management. Check out the product docs to learn more about 2FA.
+  name: Packet Host Two Factor Auth API
+  slug: packet-host-two-factor-auth-api
+- baseURL: https://api.equinix.com/metal/v1
+  baseurl_source: declared
+  description: Userdata Management
+  name: Packet Host User Data API
+  slug: packet-host-user-data-api
 artifact_total: 84
 collections:
 - collection_type: open
@@ -494,7 +494,7 @@ overview: 'Packet Host publishes 40 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Packet Host''s developer surface includes documentation, API reference, authentication, CLI, and 20 more developer resources.'
-random_paper: 10
+random_paper: 1
 score:
   band: developing
   composite: 40.8
@@ -509,7 +509,7 @@ score:
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 59.6
+    contract_quality: 59.7
     developer_ergonomics: 54.2
     discoverability: 75.9
     operational_transparency: 26.3
@@ -530,7 +530,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

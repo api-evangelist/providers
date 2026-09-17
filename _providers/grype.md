@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Grype is an open source vulnerability scanner for container images and filesystems developed by Anchore. It scans container images, filesystems, and SBOMs for known vulnerabilities, supporting Docker,
@@ -102,7 +102,7 @@ plans:
 - name: Grype Plans Pricing
   plan_count: 3
   slug: grype-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Grype Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Avamar REST API provides a framework to develop applications and tools that interact with a stand-alone Avamar server. It exposes backup, restore, client, domain, dataset, retention, policy, plugi
@@ -173,7 +173,7 @@ overview: 'Avamar publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Avamar''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, CLI, and 19 more developer resources.'
-random_paper: 2
+random_paper: 16
 scopes:
 - name: Avamar Scopes
   scope_count: 5
@@ -201,7 +201,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -236,6 +236,6 @@ tags:
 - Enterprise Software
 - Infrastructure
 - Dell Technologies
-- On-Premise
+- On-Premises
 website: https://www.dell.com/
 ---

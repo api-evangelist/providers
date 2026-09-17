@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 19
 common:
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Wesco International Reports Second Quarter 2025 Results
   url: https://investors.wesco.com/news-releases/news-release-details/wesco-international-reports-second-quarter-2025-results
-random_paper: 16
+random_paper: 10
 score:
   band: minimal
   composite: 9.8
@@ -145,7 +145,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

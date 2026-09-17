@@ -27,22 +27,22 @@ agent_readiness:
     event_surface_described: true
     idempotency: verified
     mcp_server: platform
-    openapi_examples: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 45.9
-  scored_at: '2026-09-15'
+  score: 47.1
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
+- acting_count: 35
   human_in_the_loop: 0
   name: Bindbee Agentic Access
-  operation_count: 7
+  operation_count: 151
   slug: bindbee-agentic-access
-  summary_line: 7 operations
+  summary_line: 151 operations · 35 acting
 api_count: 1
 apis:
 - baseURL: https://api.bindbee.dev
@@ -72,10 +72,255 @@ apis:
   slug: bindbee-time-off-api
 - baseURL: https://api.bindbee.dev
   baseurl_source: declared
-  description: The complete Bindbee contract as the provider publishes it — 119 paths and 144 operations across the HRIS, ATS, LMS, Custom Fields, Embedded and platform namespaces, fetched verbatim from https://api.
-  name: Bindbee Unified API
-  slug: bindbee-unified-api
-artifact_total: 65
+  description: The Activity API from Bindbee — 2 operation(s) for activity.
+  name: Bindbee Activity API
+  slug: bindbee-activity-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Application API from Bindbee — 2 operation(s) for application.
+  name: Bindbee Application API
+  slug: bindbee-application-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Attachment API from Bindbee — 2 operation(s) for attachment.
+  name: Bindbee Attachment API
+  slug: bindbee-attachment-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Bank Info API from Bindbee — 2 operation(s) for bank info.
+  name: Bindbee Bank Info API
+  slug: bindbee-bank-info-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Benefit Coverages API from Bindbee — 2 operation(s) for benefit coverages.
+  name: Bindbee Benefit Coverages API
+  slug: bindbee-benefit-coverages-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Benefits API from Bindbee — 2 operation(s) for benefits.
+  name: Bindbee Benefits API
+  slug: bindbee-benefits-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Candidate API from Bindbee — 4 operation(s) for candidate.
+  name: Bindbee Candidate API
+  slug: bindbee-candidate-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Categories API from Bindbee — 2 operation(s) for categories.
+  name: Bindbee Categories API
+  slug: bindbee-categories-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Company API from Bindbee — 2 operation(s) for company.
+  name: Bindbee Company API
+  slug: bindbee-company-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Compensation API from Bindbee — 2 operation(s) for compensation.
+  name: Bindbee Compensation API
+  slug: bindbee-compensation-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Completions API from Bindbee — 2 operation(s) for completions.
+  name: Bindbee Completions API
+  slug: bindbee-completions-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Connector API from Bindbee — 8 operation(s) for connector.
+  name: Bindbee Connector API
+  slug: bindbee-connector-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Contents API from Bindbee — 2 operation(s) for contents.
+  name: Bindbee Contents API
+  slug: bindbee-contents-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Courses API from Bindbee — 2 operation(s) for courses.
+  name: Bindbee Courses API
+  slug: bindbee-courses-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Custom Fields API from Bindbee — 7 operation(s) for custom fields.
+  name: Bindbee Custom Fields API
+  slug: bindbee-custom-fields-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Department API from Bindbee — 2 operation(s) for department.
+  name: Bindbee Department API
+  slug: bindbee-department-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Dependent Benefits API from Bindbee — 2 operation(s) for dependent benefits.
+  name: Bindbee Dependent Benefits API
+  slug: bindbee-dependent-benefits-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Dependents API from Bindbee — 2 operation(s) for dependents.
+  name: Bindbee Dependents API
+  slug: bindbee-dependents-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The EEOC API from Bindbee — 2 operation(s) for eeoc.
+  name: Bindbee EEOC API
+  slug: bindbee-eeoc-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Employee API from Bindbee — 4 operation(s) for employee.
+  name: Bindbee Employee API
+  slug: bindbee-employee-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Employee Payroll Runs API from Bindbee — 3 operation(s) for employee payroll runs.
+  name: Bindbee Employee Payroll Runs API
+  slug: bindbee-employee-payroll-runs-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Employer Benefits API from Bindbee — 2 operation(s) for employer benefits.
+  name: Bindbee Employer Benefits API
+  slug: bindbee-employer-benefits-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Employments API from Bindbee — 2 operation(s) for employments.
+  name: Bindbee Employments API
+  slug: bindbee-employments-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Enrollments API from Bindbee — 2 operation(s) for enrollments.
+  name: Bindbee Enrollments API
+  slug: bindbee-enrollments-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Group API from Bindbee — 2 operation(s) for group.
+  name: Bindbee Group API
+  slug: bindbee-group-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Health Check API from Bindbee — 1 operation(s) for health check.
+  name: Bindbee Health Check API
+  slug: bindbee-health-check-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Integration API from Bindbee — 3 operation(s) for integration.
+  name: Bindbee Integration API
+  slug: bindbee-integration-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Job API from Bindbee — 2 operation(s) for job.
+  name: Bindbee Job API
+  slug: bindbee-job-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Job Interview Stage API from Bindbee — 2 operation(s) for job interview stage.
+  name: Bindbee Job Interview Stage API
+  slug: bindbee-job-interview-stage-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Link API from Bindbee — 1 operation(s) for link.
+  name: Bindbee Link API
+  slug: bindbee-link-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Location API from Bindbee — 2 operation(s) for location.
+  name: Bindbee Location API
+  slug: bindbee-location-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Lookup API from Bindbee — 2 operation(s) for lookup.
+  name: Bindbee Lookup API
+  slug: bindbee-lookup-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Offer API from Bindbee — 2 operation(s) for offer.
+  name: Bindbee Offer API
+  slug: bindbee-offer-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Office API from Bindbee — 2 operation(s) for office.
+  name: Bindbee Office API
+  slug: bindbee-office-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Passthrough API from Bindbee — 1 operation(s) for passthrough.
+  name: Bindbee Passthrough API
+  slug: bindbee-passthrough-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Pay Groups API from Bindbee — 2 operation(s) for pay groups.
+  name: Bindbee Pay Groups API
+  slug: bindbee-pay-groups-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Payroll Codes API from Bindbee — 2 operation(s) for payroll codes.
+  name: Bindbee Payroll Codes API
+  slug: bindbee-payroll-codes-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Payroll Run Calendars API from Bindbee — 2 operation(s) for payroll run calendars.
+  name: Bindbee Payroll Run Calendars API
+  slug: bindbee-payroll-run-calendars-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Payroll Runs API from Bindbee — 2 operation(s) for payroll runs.
+  name: Bindbee Payroll Runs API
+  slug: bindbee-payroll-runs-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Reject Reason API from Bindbee — 2 operation(s) for reject reason.
+  name: Bindbee Reject Reason API
+  slug: bindbee-reject-reason-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Remote User API from Bindbee — 2 operation(s) for remote user.
+  name: Bindbee Remote User API
+  slug: bindbee-remote-user-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Scheduled Interview API from Bindbee — 2 operation(s) for scheduled interview.
+  name: Bindbee Scheduled Interview API
+  slug: bindbee-scheduled-interview-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Scorecard API from Bindbee — 2 operation(s) for scorecard.
+  name: Bindbee Scorecard API
+  slug: bindbee-scorecard-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Screening Question API from Bindbee — 2 operation(s) for screening question.
+  name: Bindbee Screening Question API
+  slug: bindbee-screening-question-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Skills API from Bindbee — 2 operation(s) for skills.
+  name: Bindbee Skills API
+  slug: bindbee-skills-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Tag API from Bindbee — 2 operation(s) for tag.
+  name: Bindbee Tag API
+  slug: bindbee-tag-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Time Off Balance API from Bindbee — 2 operation(s) for time off balance.
+  name: Bindbee Time Off Balance API
+  slug: bindbee-time-off-balance-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Timesheet Entry API from Bindbee — 3 operation(s) for timesheet entry.
+  name: Bindbee Timesheet Entry API
+  slug: bindbee-timesheet-entry-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Users API from Bindbee — 2 operation(s) for users.
+  name: Bindbee Users API
+  slug: bindbee-users-api
+- baseURL: https://api.bindbee.dev
+  baseurl_source: declared
+  description: The Webhooks API from Bindbee — 3 operation(s) for webhooks.
+  name: Bindbee Webhooks API
+  slug: bindbee-webhooks-api
+artifact_total: 114
 asyncapis:
 - description: ''
   name: Bindbee Webhooks
@@ -434,7 +679,7 @@ modified: '2026-09-04'
 name: Bindbee
 nav: Providers
 network: true
-overview: 'Bindbee publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Candidates API, Departments API, Employees API, and 3 more. Tagged areas include ATS, HR Integration, HRIS, Workforce, and Unified-API.
+overview: 'Bindbee publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Candidates API, Departments API, Employees API, and 52 more. Tagged areas include ATS, HR Integration, HRIS, Workforce, and Unified-API.
 
 
   The Bindbee catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -445,7 +690,7 @@ plans:
 - name: Bindbee Plans Pricing
   plan_count: 3
   slug: bindbee-plans-pricing
-random_paper: 20
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Bindbee Rate Limits
@@ -474,31 +719,31 @@ rules:
   slug: bindbee-spectral-rules
 score:
   band: exemplar
-  composite: 67.0
+  composite: 74.4
   coverage:
     artifact_dirs: 31
-    catalog_earned: 80.5
+    catalog_earned: 77.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 34.5
+    catalog_gap: 37.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.4
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 33.4
+    contract_quality: 65.2
     developer_ergonomics: 78.6
-    discoverability: 75.9
+    discoverability: 70.4
     operational_transparency: 47.4
   previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 11
-      marker_coverage: 100.0
-      total: 11
+      callable: 18.3
+      derived: 10
+      marker_coverage: 16.4
+      total: 61
     mcp: first-party
     skills: first-party
   regulatory:
@@ -508,8 +753,8 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

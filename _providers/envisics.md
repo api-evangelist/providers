@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   slug: envisics-discovery-api
 - baseURL: https://envisics.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for envisics.com URLs, returning embeddable rich metadata — title, author, dimensions and iframe HTML — for any post or page on the site.
-  name: Envisics oEmbed API
-  slug: envisics-oembed-api
-- baseURL: https://envisics.com/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any envisics.com URL — a structured-data view of every page without scraping the HTML.
   name: Envisics SEO Metadata API
   slug: envisics-seo-api
@@ -95,6 +90,11 @@ apis:
   description: Public author records.
   name: Envisics Users API
   slug: envisics-users-api
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for envisics.com content.
+  name: Envisics o Embed API
+  slug: envisics-o-embed-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -122,6 +122,11 @@ collections:
   name: Envisics Taxonomy API
   slug: open-envisics-taxonomy-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/overlays/envisics-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/envisics-oembed-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/overlays/envisics-taxonomy-api-overlay.yaml
   title: ''
@@ -273,12 +278,12 @@ network: true
 overview: 'Envisics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 7 more. Tagged areas include Company, Automotive, Augmented Reality, Holography, and Head-Up Display.
 
 
-  Envisics'' developer surface includes engineering blog, YouTube channel, authentication, code examples, and 27 more developer resources.'
+  Envisics'' developer surface includes engineering blog, YouTube channel, authentication, code examples, and 28 more developer resources.'
 plans:
 - name: Envisics Plans Pricing
   plan_count: 0
   slug: envisics-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Envisics Rate Limits
@@ -319,7 +324,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

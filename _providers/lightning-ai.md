@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The Lightning AI control-plane API used by the lightning-sdk Python SDK, the @lightningai/sdk JavaScript SDK and the lightning CLI to programmatically manage platform resources: Studios, Jobs, Deploym'
@@ -203,7 +203,7 @@ plans:
 - name: Lightning Ai Plans
   plan_count: 4
   slug: lightning-ai-plans
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Lightning Ai Rate Limits
@@ -230,7 +230,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -255,7 +255,7 @@ tags:
 - Model Inference
 - Model Training
 - Developer Platform
-- Sandboxes
+- Sandbox
 - LLM APIs
 - Open-Source
 website: https://lightning.ai/

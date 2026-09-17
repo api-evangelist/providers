@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 6
@@ -120,11 +120,6 @@ apis:
   slug: paystack-split-api
 - baseURL: https://api.paystack.co
   baseurl_source: spec
-  description: The Subaccount API from Paystack — 2 operation(s) for subaccount.
-  name: Paystack Subaccount API
-  slug: paystack-subaccount-api
-- baseURL: https://api.paystack.co
-  baseurl_source: spec
   description: The Subscription API from Paystack — 6 operation(s) for subscription.
   name: Paystack Subscription API
   slug: paystack-subscription-api
@@ -148,6 +143,11 @@ apis:
   description: The Verification API from Paystack — 7 operation(s) for verification.
   name: Paystack Verification API
   slug: paystack-verification-api
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Sub Account API from Paystack — 2 operation(s) for sub account.
+  name: Paystack Sub Account API
+  slug: paystack-sub-account-api
 arazzos:
 - description: Create a new subaccount, add it to an existing transaction split, then fetch the split to confirm membership.
   name: Paystack Add a Subaccount to an Existing Split
@@ -372,6 +372,10 @@ collections:
   name: Paystack Verification API
   slug: open-paystack-verification
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://paystack.com
 - group: other
   title: ''
   type: ParentCompany
@@ -859,22 +863,22 @@ jsonld:
   property_count: 4
   slug: paystack-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Paystack
 nav: Providers
 network: true
-overview: 'Paystack publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Balance API, Bulk Charge API, and 18 more. Tagged areas include Payments, Africa, Fintech, Recurring Billing, and Marketplaces.
+overview: 'Paystack publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Balance API, Bulk Charge API, and 18 more. Tagged areas include Payments, Africa, Fintech, Recurring Billing, and Marketplace.
 
 
   The Paystack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Paystack''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, changelog, and 71 more developer resources.'
+  Paystack''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, changelog, and 72 more developer resources.'
 plans:
 - name: Paystack Plans Pricing
   plan_count: 8
   slug: paystack-plans-pricing
-random_paper: 3
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Paystack Rate Limits
@@ -914,7 +918,7 @@ rules:
   slug: paystack-rules
 score:
   band: exemplar
-  composite: 71.3
+  composite: 70.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 86.5
@@ -922,11 +926,11 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 92.1
     contract_governance: 28.8
-    contract_quality: 74.4
+    contract_quality: 72.6
     developer_ergonomics: 75.0
     discoverability: 59.3
     operational_transparency: 57.9
@@ -950,7 +954,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -986,7 +990,7 @@ tags:
 - Africa
 - Fintech
 - Recurring Billing
-- Marketplaces
+- Marketplace
 - Payouts
 - Mobile Money
 - Stripe
@@ -1009,5 +1013,5 @@ use_cases:
   name: Invoicing and B2B Collections
 - description: Payment Pages for one-off donations or product sales without writing checkout code.
   name: Donations and Crowdfunding
-website: https://paystack.com/
+website: https://paystack.com
 ---

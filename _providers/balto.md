@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Balto's Call Data API gives customers programmatic access to their historical call records so they can transfer, analyse and activate that data in a CRM, data warehouse or any system that accepts API-
@@ -153,7 +153,7 @@ plans:
 - name: Balto Plans Pricing
   plan_count: 0
   slug: balto-plans-pricing
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Balto Rate Limits
@@ -180,7 +180,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

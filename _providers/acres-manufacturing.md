@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'WebSocket streaming API onto the Foundation event bus. Two channels are documented: a real-time event streamer that pushes every event as it is collected from the floor (backed by a rolling cache of u'
@@ -145,7 +145,7 @@ plans:
 - name: Acres Manufacturing Plans Pricing
   plan_count: 0
   slug: acres-manufacturing-plans-pricing
-random_paper: 14
+random_paper: 9
 rate_limits:
 - limit_count: 6
   name: Acres Manufacturing Rate Limits
@@ -179,7 +179,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful API for managing Weebly sites, pages, blog posts, e-commerce products, orders, customers, coupons, categories, and form submissions. Supports OAuth 2.0 authentication and JSON data exchange. R
@@ -121,7 +121,7 @@ plans:
 - name: Weebly Plans Pricing
   plan_count: 4
   slug: weebly-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Weebly Rate Limits
@@ -146,7 +146,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 32.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

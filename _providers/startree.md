@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://broker.pinot.celpxu.cp.s7e.startree.cloud
   baseurl_source: declared
   description: The Query API API from StarTree — 1 operation(s) for query api.
-  name: StarTree Query API API
+  name: StarTree Query API
   slug: startree-query-api-api
 artifact_total: 8
 collections:
@@ -196,15 +196,15 @@ mcp_servers:
 - description: Official StarTree MCP server for Apache Pinot. Lets an agent list tables, segments, and schema info and execute read-only SQL queries against a Pinot / StarTree Cloud cluster.
   name: StarTree MCP Server
   slug: startree-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: StarTree
 nav: Providers
 network: true
-overview: 'StarTree publishes 1 API on the [APIs.io](https://apis.io/) network: Query API API. Tagged areas include Company, Data, Analytics, Real-Time Analytics, and OLAP.
+overview: 'StarTree publishes 1 API on the [APIs.io](https://apis.io/) network: Query API. Tagged areas include Company, Data, Analytics, Real-Time Analytics, and OLAP.
 
 
   StarTree''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 13
+random_paper: 16
 score:
   band: developing
   composite: 48.6
@@ -235,7 +235,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

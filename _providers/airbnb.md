@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -866,11 +866,11 @@ jsonld:
   property_count: 34
   slug: airbnb-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Airbnb
 nav: Providers
 network: true
-overview: 'Airbnb publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Bookings API, Calendar API, and 8 more.
+overview: 'Airbnb publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Bookings API, Calendar API, and 8 more. Tagged areas include Reservations, Hospitality, and Travel.
 
 
   The Airbnb catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -881,7 +881,7 @@ plans:
 - name: Airbnb Plans Pricing
   plan_count: 5
   slug: airbnb-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Airbnb Rate Limits
@@ -950,11 +950,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -974,5 +971,9 @@ security:
   slug: airbnb-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
 slug: airbnb
+tags:
+- Reservations
+- Hospitality
+- Travel
 website: https://www.airbnb.com/
 ---

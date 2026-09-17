@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Developer guide and SDK/CLI surface for writing, publishing, and running WASM game bundles on the RACE Protocol multi-chain infrastructure.
@@ -71,7 +71,7 @@ plans:
 - name: Race Protocol Plans Pricing
   plan_count: 3
   slug: race-protocol-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Race Protocol Rate Limits
@@ -96,7 +96,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API that extracts structured contact data from email signature text (parse), completes a known contact with verified details (enrich), retrieves canonical deduplicated person records, registers w
@@ -192,7 +192,7 @@ plans:
 - name: Evercontact Plans Pricing
   plan_count: 5
   slug: evercontact-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Evercontact Rate Limits
@@ -220,7 +220,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

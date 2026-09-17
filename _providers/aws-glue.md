@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://glue.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The AWS Glue API API from AWS Glue — 1 operation(s) for aws glue api.
-  name: AWS Glue AWS Glue API API
+  name: AWS Glue AWS Glue API
   slug: aws-glue-aws-glue-api-api
 artifact_total: 9
 collections:
@@ -138,15 +138,15 @@ created: '2026-05-11'
 description: AWS Glue is a fully managed serverless extract, transform, and load (ETL) service that makes it easy to discover, prepare, and combine data for analytics, machine learning, and application development. It provides a central data catalog, crawlers for automated metadata discovery, visual and code-based job authoring, and data quality capabilities. The Glue API uses AWS Signature Version 4 (SigV4) authentication and is accessed via SDKs, the AWS CLI, or direct HTTPS calls to regional service endpoints.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-glue.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: AWS Glue
 nav: Providers
 network: true
-overview: 'AWS Glue publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Glue API API. Tagged areas include Data, Data Catalog, ETL, Analytics, and Serverless.
+overview: 'AWS Glue publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Glue API. Tagged areas include Data, Data Catalog, ETL, Analytics, and Serverless.
 
 
   AWS Glue''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, engineering blog, and 10 more developer resources.'
-random_paper: 7
+random_paper: 13
 score:
   band: thin
   composite: 38.2
@@ -174,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

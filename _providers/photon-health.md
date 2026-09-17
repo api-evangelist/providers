@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,9 +48,9 @@ api_count: 1
 apis:
 - baseURL: https://api.photon.health/graphql
   baseurl_source: declared
-  description: The GraphQL API from Photon Health — 1 operation(s) for graphql.
-  name: Photon Health GraphQL API
-  slug: photon-health-graphql-api
+  description: The Graph QL API from Photon Health — 1 operation(s) for graph ql.
+  name: Photon Health Graph QL API
+  slug: photon-health-graph-ql-api
 artifact_total: 11
 collections:
 - collection_type: open
@@ -129,7 +129,7 @@ modified: '2026-06-21'
 name: Photon Health
 nav: Providers
 network: true
-overview: 'Photon Health publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Health, e-Prescribing, eRx, Prescriptions, and Pharmacy.
+overview: 'Photon Health publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Health, e-Prescribing, eRx, Prescriptions, and Pharmacy.
 
 
   Photon Health''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -137,7 +137,7 @@ plans:
 - name: Photon Health Plans Pricing
   plan_count: 2
   slug: photon-health-plans-pricing
-random_paper: 16
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Photon Health Rate Limits
@@ -175,7 +175,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

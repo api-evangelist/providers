@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -205,7 +205,7 @@ overview: 'Samora AI publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Samora AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
   band: thin
   composite: 26.2
@@ -236,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -258,7 +258,7 @@ tags:
 - Conversational AI
 - Voice AI
 - Telephony
-- Customer Communications
+- Customer Communication
 - Contact Center
 - Campaigns
 - Webhook

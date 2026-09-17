@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
-  baseurl_source: declared
-  description: IIT Bombay's campus-life API and the single largest first-party programmable surface the institution operates. 112 paths and 164 operations over student bodies and their role graphs (154 bodies live),
-  name: InstiApp API
-  slug: instiapp-api
 - description: 'The IIT Bombay Computer Centre''s central identity provider, and the credential every institutional service sits behind. It publishes a live OpenID Connect Discovery 1.0 document and a JWKS: issuer htt'
   name: IITB Central SSO — OpenID Connect
   slug: sso-oidc
@@ -53,7 +48,257 @@ apis:
 - description: A session-based Single Sign-On service maintained by the Institute Technical Council for authenticating IIT Bombay users in student and club projects. A redirect-based ssocall flow returns an access i
   name: ITC Single Sign-On
   slug: itc-sso
-artifact_total: 15
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The achievements API from Indian Institute of Technology Bombay — 2 operation(s) for achievements.
+  name: Indian Institute of Technology Bombay Achievements API
+  slug: iit-bombay-achievements-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The achievements-offer API from Indian Institute of Technology Bombay — 2 operation(s) for achievements-offer.
+  name: Indian Institute of Technology Bombay Achievements Offer API
+  slug: iit-bombay-achievements-offer-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The alumni_login API from Indian Institute of Technology Bombay — 1 operation(s) for alumni_login.
+  name: Indian Institute of Technology Bombay Alumni Login API
+  slug: iit-bombay-alumni-login-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The alumni_otp_conf API from Indian Institute of Technology Bombay — 1 operation(s) for alumni_otp_conf.
+  name: Indian Institute of Technology Bombay Alumni Otp Conf API
+  slug: iit-bombay-alumni-otp-conf-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The bans API from Indian Institute of Technology Bombay — 2 operation(s) for bans.
+  name: Indian Institute of Technology Bombay Bans API
+  slug: iit-bombay-bans-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The bodies API from Indian Institute of Technology Bombay — 5 operation(s) for bodies.
+  name: Indian Institute of Technology Bombay Bodies API
+  slug: iit-bombay-bodies-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The buy API from Indian Institute of Technology Bombay — 6 operation(s) for buy.
+  name: Indian Institute of Technology Bombay Buy API
+  slug: iit-bombay-buy-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The calendar API from Indian Institute of Technology Bombay — 11 operation(s) for calendar.
+  name: Indian Institute of Technology Bombay Calendar API
+  slug: iit-bombay-calendar-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The check API from Indian Institute of Technology Bombay — 1 operation(s) for check.
+  name: Indian Institute of Technology Bombay Check API
+  slug: iit-bombay-check-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The communities API from Indian Institute of Technology Bombay — 2 operation(s) for communities.
+  name: Indian Institute of Technology Bombay Communities API
+  slug: iit-bombay-communities-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The delete API from Indian Institute of Technology Bombay — 1 operation(s) for delete.
+  name: Indian Institute of Technology Bombay Delete API
+  slug: iit-bombay-delete-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The events API from Indian Institute of Technology Bombay — 5 operation(s) for events.
+  name: Indian Institute of Technology Bombay Events API
+  slug: iit-bombay-events-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The external_blog API from Indian Institute of Technology Bombay — 1 operation(s) for external_blog.
+  name: Indian Institute of Technology Bombay External Blog API
+  slug: iit-bombay-external-blog-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The get_all_user_tags API from Indian Institute of Technology Bombay — 1 operation(s) for get_all_user_tags.
+  name: Indian Institute of Technology Bombay Get All User Tags API
+  slug: iit-bombay-get-all-user-tags-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The get_bodies API from Indian Institute of Technology Bombay — 2 operation(s) for get_bodies.
+  name: Indian Institute of Technology Bombay Get Bodies API
+  slug: iit-bombay-get-bodies-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The get_notifications API from Indian Institute of Technology Bombay — 1 operation(s) for get_notifications.
+  name: Indian Institute of Technology Bombay Get Notifications API
+  slug: iit-bombay-get-notifications-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The getEncr API from Indian Institute of Technology Bombay — 1 operation(s) for getencr.
+  name: Indian Institute of Technology Bombay Get Encr API
+  slug: iit-bombay-getencr-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The getUserMess API from Indian Institute of Technology Bombay — 1 operation(s) for getusermess.
+  name: Indian Institute of Technology Bombay Get User Mess API
+  slug: iit-bombay-getusermess-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The interests API from Indian Institute of Technology Bombay — 1 operation(s) for interests.
+  name: Indian Institute of Technology Bombay Interests API
+  slug: iit-bombay-interests-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The internship API from Indian Institute of Technology Bombay — 5 operation(s) for internship.
+  name: Indian Institute of Technology Bombay Internship API
+  slug: iit-bombay-internship-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The list_all API from Indian Institute of Technology Bombay — 1 operation(s) for list_all.
+  name: Indian Institute of Technology Bombay List All API
+  slug: iit-bombay-list-all-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The list_body API from Indian Institute of Technology Bombay — 1 operation(s) for list_body.
+  name: Indian Institute of Technology Bombay List Body API
+  slug: iit-bombay-list-body-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The lnf API from Indian Institute of Technology Bombay — 2 operation(s) for lnf.
+  name: Indian Institute of Technology Bombay Lnf API
+  slug: iit-bombay-lnf-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The locations API from Indian Institute of Technology Bombay — 2 operation(s) for locations.
+  name: Indian Institute of Technology Bombay Locations API
+  slug: iit-bombay-locations-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The login API from Indian Institute of Technology Bombay — 2 operation(s) for login.
+  name: Indian Institute of Technology Bombay Login API
+  slug: iit-bombay-login-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The logout API from Indian Institute of Technology Bombay — 1 operation(s) for logout.
+  name: Indian Institute of Technology Bombay Logout API
+  slug: iit-bombay-logout-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The mess API from Indian Institute of Technology Bombay — 1 operation(s) for mess.
+  name: Indian Institute of Technology Bombay Mess API
+  slug: iit-bombay-mess-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The my_events API from Indian Institute of Technology Bombay — 1 operation(s) for my_events.
+  name: Indian Institute of Technology Bombay My Events API
+  slug: iit-bombay-my-events-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The nearest API from Indian Institute of Technology Bombay — 1 operation(s) for nearest.
+  name: Indian Institute of Technology Bombay Nearest API
+  slug: iit-bombay-nearest-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The news_feed API from Indian Institute of Technology Bombay — 1 operation(s) for news_feed.
+  name: Indian Institute of Technology Bombay News Feed API
+  slug: iit-bombay-news-feed-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The notifications API from Indian Institute of Technology Bombay — 2 operation(s) for notifications.
+  name: Indian Institute of Technology Bombay Notifications API
+  slug: iit-bombay-notifications-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The pass_login API from Indian Institute of Technology Bombay — 1 operation(s) for pass_login.
+  name: Indian Institute of Technology Bombay Pass Login API
+  slug: iit-bombay-pass-login-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The perform_action API from Indian Institute of Technology Bombay — 1 operation(s) for perform_action.
+  name: Indian Institute of Technology Bombay Perform Action API
+  slug: iit-bombay-perform-action-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The placement_blog API from Indian Institute of Technology Bombay — 1 operation(s) for placement_blog.
+  name: Indian Institute of Technology Bombay Placement Blog API
+  slug: iit-bombay-placement-blog-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The placementblogs API from Indian Institute of Technology Bombay — 5 operation(s) for placementblogs.
+  name: Indian Institute of Technology Bombay Placementblogs API
+  slug: iit-bombay-placementblogs-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The popup-notification API from Indian Institute of Technology Bombay — 2 operation(s) for popup-notification.
+  name: Indian Institute of Technology Bombay Popup Notification API
+  slug: iit-bombay-popup-notification-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The query API from Indian Institute of Technology Bombay — 2 operation(s) for query.
+  name: Indian Institute of Technology Bombay Query API
+  slug: iit-bombay-query-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The resend_alumni_otp API from Indian Institute of Technology Bombay — 1 operation(s) for resend_alumni_otp.
+  name: Indian Institute of Technology Bombay Resend Alumni Otp API
+  slug: iit-bombay-resend-alumni-otp-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The roles API from Indian Institute of Technology Bombay — 2 operation(s) for roles.
+  name: Indian Institute of Technology Bombay Roles API
+  slug: iit-bombay-roles-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The search API from Indian Institute of Technology Bombay — 2 operation(s) for search.
+  name: Indian Institute of Technology Bombay Search API
+  slug: iit-bombay-search-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The shortestpath API from Indian Institute of Technology Bombay — 1 operation(s) for shortestpath.
+  name: Indian Institute of Technology Bombay Shortestpath API
+  slug: iit-bombay-shortestpath-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The test API from Indian Institute of Technology Bombay — 1 operation(s) for test.
+  name: Indian Institute of Technology Bombay Test API
+  slug: iit-bombay-test-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The training_blog API from Indian Institute of Technology Bombay — 1 operation(s) for training_blog.
+  name: Indian Institute of Technology Bombay Training Blog API
+  slug: iit-bombay-training-blog-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The upload API from Indian Institute of Technology Bombay — 2 operation(s) for upload.
+  name: Indian Institute of Technology Bombay Upload API
+  slug: iit-bombay-upload-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The user-me API from Indian Institute of Technology Bombay — 10 operation(s) for user-me.
+  name: Indian Institute of Technology Bombay User Me API
+  slug: iit-bombay-user-me-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The user-tags API from Indian Institute of Technology Bombay — 1 operation(s) for user-tags.
+  name: Indian Institute of Technology Bombay User Tags API
+  slug: iit-bombay-user-tags-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The users API from Indian Institute of Technology Bombay — 1 operation(s) for users.
+  name: Indian Institute of Technology Bombay Users API
+  slug: iit-bombay-users-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The venter API from Indian Institute of Technology Bombay — 7 operation(s) for venter.
+  name: Indian Institute of Technology Bombay Venter API
+  slug: iit-bombay-venter-api
+- baseURL: https://gymkhana.iitb.ac.in/instiapp/api
+  baseurl_source: declared
+  description: The verifier_events API from Indian Institute of Technology Bombay — 1 operation(s) for verifier_events.
+  name: Indian Institute of Technology Bombay Verifier Events API
+  slug: iit-bombay-verifier-events-api
+- baseURL: https://sso.iitb.ac.in
+  baseurl_source: declared
+  description: The Community Posts API from Indian Institute of Technology Bombay — 3 operation(s) for community posts.
+  name: Indian Institute of Technology Bombay Community Posts API
+  slug: iit-bombay-community-posts-api
+artifact_total: 64
 common:
 - group: commercial
   title: ''
@@ -154,7 +399,7 @@ modified: '2026-08-30'
 name: Indian Institute of Technology Bombay
 nav: Providers
 network: true
-overview: 'Indian Institute of Technology Bombay publishes 1 API on the [APIs.io](https://apis.io/) network: InstiApp API. Tagged areas include University, Higher Education, Education, India, and Institute of Technology.
+overview: 'Indian Institute of Technology Bombay publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Achievements API, Achievements Offer API, Alumni Login API, and 47 more. Tagged areas include University, Higher Education, Education, India, and Institute of Technology.
 
 
   The Indian Institute of Technology Bombay catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -165,7 +410,7 @@ plans:
 - name: Iit Bombay Plans Pricing
   plan_count: 2
   slug: iit-bombay-plans-pricing
-random_paper: 18
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Iit Bombay Rate Limits
@@ -188,21 +433,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.8
+  composite: 47.1
   coverage:
     artifact_dirs: 17
-    catalog_earned: 73.8
+    catalog_earned: 70.8
     catalog_earned_first_party: 8.0
-    catalog_gap: 41.3
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 39.5
     contract_governance: 29.5
-    contract_quality: 55.9
+    contract_quality: 63.3
     developer_ergonomics: 33.3
-    discoverability: 68.5
+    discoverability: 63.0
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -217,8 +462,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 1
+      marker_coverage: 0.0
+      total: 50
   regulatory:
     applies: true
     matched_via: tags
@@ -226,7 +471,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -250,7 +495,7 @@ tags:
 - Institute of Technology
 - Research
 - Identity
-- Single Sign-On
+- SSO
 - OpenID Connect
 - Campus Life
 - Research Repository

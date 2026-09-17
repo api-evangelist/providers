@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Valence Security REST API enables integration with the Valence platform for ingesting security data from custom sources, exporting alerts and audit logs, and configuring security monitoring via th
@@ -134,7 +134,7 @@ plans:
 - name: Valence Security Plans Pricing
   plan_count: 3
   slug: valence-security-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Valence Security Rate Limits
@@ -170,7 +170,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

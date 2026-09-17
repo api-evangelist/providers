@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 50
 apis:
 - baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
@@ -87,7 +87,7 @@ apis:
 - baseURL: https://{crosswork-host}:{port}/crosswork/platform
   baseurl_source: declared
   description: APIs to get the Alerts of Crosswork HTTPS Cert expiry and update
-  name: Cisco Crosswork Alert API API
+  name: Cisco Crosswork Alert API
   slug: cisco-crosswork-alert-api-api
 - baseURL: https://{crosswork-host}:{port}
   baseurl_source: declared
@@ -122,7 +122,7 @@ apis:
 - baseURL: https://{crosswork-host}:{port}/crosswork/platform
   baseurl_source: declared
   description: APIs to get the Health of Crosswork Applications and their dependent services
-  name: Cisco Crosswork Crosswork Health API API
+  name: Cisco Crosswork Health API
   slug: cisco-crosswork-crosswork-health-api-api
 - baseURL: https://{crosswork-host}:{port}/crosswork/dg-manager
   baseurl_source: declared
@@ -219,11 +219,6 @@ apis:
   description: The Flat L3VPN Retrieval API from Cisco Crosswork — 2 operation(s) for flat l3vpn retrieval.
   name: Cisco Crosswork Flat L3VPN Retrieval API
   slug: cisco-crosswork-flat-l3vpn-retrieval-api
-- baseURL: https://{crosswork-host}:{port}/crosswork/nbi/optima/v1/restconf
-  baseurl_source: declared
-  description: get resources
-  name: Cisco Crosswork Get API
-  slug: cisco-crosswork-get-api
 - baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
   baseurl_source: declared
   description: The Get Credentials API from Cisco Crosswork — 1 operation(s) for get credentials.
@@ -354,11 +349,6 @@ apis:
   description: The password API from Cisco Crosswork — 1 operation(s) for password.
   name: Cisco Crosswork Password API
   slug: cisco-crosswork-password-api
-- baseURL: https://{crosswork-host}:{port}/crosswork/nbi/optima/v1/restconf
-  baseurl_source: declared
-  description: post resources
-  name: Cisco Crosswork Post API
-  slug: cisco-crosswork-post-api
 - baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
   baseurl_source: declared
   description: The Put/Replace destinations API from Cisco Crosswork — 1 operation(s) for put/replace destinations.
@@ -402,7 +392,7 @@ apis:
 - baseURL: https://{crosswork-host}:{port}/crosswork/platform
   baseurl_source: declared
   description: Collect Logs, metrics and other details for the Tech-support to debug the Crosswork issues
-  name: Cisco Crosswork Troubleshooting API API
+  name: Cisco Crosswork Troubleshooting API
   slug: cisco-crosswork-troubleshooting-api-api
 - baseURL: https://{crosswork-host}:{port}
   baseurl_source: declared
@@ -447,7 +437,7 @@ apis:
 - baseURL: https://{crosswork-host}:{port}/crosswork/platform
   baseurl_source: declared
   description: API to retrieve Crosswork version
-  name: Cisco Crosswork Version API API
+  name: Cisco Crosswork Version API
   slug: cisco-crosswork-version-api-api
 - baseURL: https://{crosswork-host}:{port}/crosswork/nbi/optima/v1/restconf
   baseurl_source: declared
@@ -471,11 +461,6 @@ apis:
   slug: cisco-crosswork-event-api
 - baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
   baseurl_source: declared
-  description: The eventType API from Cisco Crosswork — 2 operation(s) for eventtype.
-  name: Cisco Crosswork Event Type API
-  slug: cisco-crosswork-eventtype-api
-- baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
-  baseurl_source: declared
   description: The forms API from Cisco Crosswork — 4 operation(s) for forms.
   name: Cisco Crosswork Forms API
   slug: cisco-crosswork-forms-api
@@ -494,11 +479,6 @@ apis:
   description: The payload API from Cisco Crosswork — 1 operation(s) for payload.
   name: Cisco Crosswork Payload API
   slug: cisco-crosswork-payload-api
-- baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
-  baseurl_source: declared
-  description: The publicKey API from Cisco Crosswork — 2 operation(s) for publickey.
-  name: Cisco Crosswork Public Key API
-  slug: cisco-crosswork-publickey-api
 - baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
   baseurl_source: declared
   description: The resources API from Cisco Crosswork — 6 operation(s) for resources.
@@ -534,7 +514,17 @@ apis:
   description: The workflow API from Cisco Crosswork — 8 operation(s) for workflow.
   name: Cisco Crosswork Workflow API
   slug: cisco-crosswork-workflow-api
-artifact_total: 107
+- baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
+  baseurl_source: declared
+  description: The Event Type API from Cisco Crosswork — 2 operation(s) for event type.
+  name: Cisco Crosswork Event Type API
+  slug: cisco-crosswork-event-type-api
+- baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
+  baseurl_source: declared
+  description: The Public Key API from Cisco Crosswork — 2 operation(s) for public key.
+  name: Cisco Crosswork Public Key API
+  slug: cisco-crosswork-public-key-api
+artifact_total: 105
 asyncapis:
 - description: ''
   name: Cisco Crosswork Events
@@ -746,11 +736,11 @@ mcp_servers:
 - description: ''
   name: Cisco Crosswork Workflow Manager MCP endpoint
   slug: cisco-crosswork-workflow-manager-mcp-endpoint
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: Cisco Crosswork
 nav: Providers
 network: true
-overview: 'Cisco Crosswork publishes 99 APIs on the [APIs.io](https://apis.io/) network, including Add Credentials API, Add Data Gateway Enrollments API, Add Destinations API, and 96 more. Tagged areas include Network Automation, Service Provider, Orchestration, Networking, and Assurance.
+overview: 'Cisco Crosswork publishes 97 APIs on the [APIs.io](https://apis.io/) network, including Add Credentials API, Add Data Gateway Enrollments API, Add Destinations API, and 94 more. Tagged areas include Network Automation, Service Providers, Orchestration, Networking, and Assurance.
 
 
   The Cisco Crosswork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -761,28 +751,28 @@ plans:
 - name: Cisco Crosswork Plans Pricing
   plan_count: 0
   slug: cisco-crosswork-plans-pricing
-random_paper: 4
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Cisco Crosswork Rate Limits
   slug: cisco-crosswork-rate-limits
 score:
   band: developing
-  composite: 50.9
+  composite: 50.2
   coverage:
     artifact_dirs: 23
-    catalog_earned: 32.0
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 83.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 59.3
+    contract_quality: 60.5
     developer_ergonomics: 78.0
-    discoverability: 59.3
+    discoverability: 50.0
     operational_transparency: 36.8
   previous_composite: 50.9
   provenance:
@@ -791,7 +781,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 100.0
-      total: 99
+      total: 97
     mcp: first-party
     skills: derived
   regulatory:
@@ -801,7 +791,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -827,7 +817,7 @@ security:
 slug: cisco-crosswork
 tags:
 - Network Automation
-- Service Provider
+- Service Providers
 - Orchestration
 - Networking
 - Assurance

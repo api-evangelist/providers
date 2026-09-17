@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -96,6 +96,10 @@ collections:
   name: Midjourney Image Generation Image Analysis Jobs API
   slug: open-midjourney-jobs-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://midjourney.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/agentic-access/midjourney-agentic-access.yml
   title: ''
@@ -144,22 +148,22 @@ jsonld:
   property_count: 6
   slug: midjourney-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Midjourney
 nav: Providers
 network: true
-overview: 'Midjourney publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Image Analysis API, Image Generation API, Image Manipulation API, and 1 more.
+overview: 'Midjourney publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Image Analysis API, Image Generation API, Image Manipulation API, and 1 more. Tagged areas include Image-Generation, Artificial Intelligence, Creative Tools, and Job.
 
 
   The Midjourney catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Midjourney''s developer surface includes authentication and 5 more developer resources.'
+  Midjourney''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Midjourney Plans Pricing
   plan_count: 5
   slug: midjourney-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Midjourney Rate Limits
@@ -213,11 +217,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -233,4 +234,10 @@ security:
   slug: midjourney-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: midjourney
+tags:
+- Image-Generation
+- Artificial Intelligence
+- Creative Tools
+- Job
+website: https://midjourney.com
 ---

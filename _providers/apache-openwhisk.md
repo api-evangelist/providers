@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -99,6 +99,10 @@ collections:
   name: Apache OpenWhisk REST Actions Triggers API
   slug: open-apache-openwhisk-triggers-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apache.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/agentic-access/apache-openwhisk-agentic-access.yml
   title: ''
@@ -348,7 +352,7 @@ jsonld:
   property_count: 37
   slug: apache-openwhisk-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apache OpenWhisk
 nav: Providers
 network: true
@@ -358,12 +362,12 @@ overview: 'Apache OpenWhisk publishes 6 APIs on the [APIs.io](https://apis.io/) 
   The Apache OpenWhisk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache OpenWhisk''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Apache OpenWhisk''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Apache Openwhisk Plans Pricing
   plan_count: 3
   slug: apache-openwhisk-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Apache Openwhisk Rate Limits
@@ -417,7 +421,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -456,4 +460,5 @@ use_cases:
   name: Scheduled Tasks
 - description: Handle Slack, GitHub, and other webhook events
   name: Chatbots & Webhooks
+website: https://apache.org
 ---

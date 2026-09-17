@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -62,11 +62,6 @@ apis:
   slug: azure-web-pubsub-shared-private-link-resources-rest-api
 - baseURL: https://{instance}.webpubsub.azure.com
   baseurl_source: declared
-  description: Generate JWT tokens for client connections
-  name: Azure Web PubSub ClientToken API
-  slug: microsoft-azure-web-pubsub-clienttoken-api
-- baseURL: https://{instance}.webpubsub.azure.com
-  baseurl_source: declared
   description: Send messages and manage connections, groups, and users in a hub
   name: Azure Web PubSub Hub API
   slug: microsoft-azure-web-pubsub-hub-api
@@ -75,6 +70,11 @@ apis:
   description: Permission management for client connections
   name: Azure Web PubSub Permission API
   slug: microsoft-azure-web-pubsub-permission-api
+- baseURL: wss://{instance}.webpubsub.azure.com
+  baseurl_source: declared
+  description: Generate JWT tokens for client connections
+  name: Azure Web PubSub Client Token API
+  slug: microsoft-azure-web-pubsub-client-token-api
 arazzos:
 - description: Verify a connection exists before closing it, branching on whether it is present.
   name: Azure Web PubSub Check then Close Connection
@@ -346,7 +346,7 @@ modified: '2026-05-30'
 name: Azure Web PubSub
 nav: Providers
 network: true
-overview: 'Azure Web PubSub publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Client and Upstream Events, ClientToken API, Hub API, and 1 more. Tagged areas include Messaging, Pub-Sub, Real-Time, Serverless, and WebSockets.
+overview: 'Azure Web PubSub publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Client and Upstream Events, Hub API, Permission API, and 1 more. Tagged areas include Messaging, Pub-Sub, Real-Time, Serverless, and WebSocket.
 
 
   The Azure Web PubSub catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -357,7 +357,7 @@ plans:
 - name: Microsoft Azure Web Pubsub Plans Pricing
   plan_count: 3
   slug: microsoft-azure-web-pubsub-plans-pricing
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Web Pubsub Rate Limits
@@ -401,7 +401,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -422,6 +422,6 @@ tags:
 - Pub-Sub
 - Real-Time
 - Serverless
-- WebSockets
+- WebSocket
 website: https://azure.microsoft.com/en-us/products/web-pubsub
 ---

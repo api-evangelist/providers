@@ -38,7 +38,7 @@ name: Bolt Threads
 nav: Providers
 network: true
 overview: Bolt Threads is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biomaterials, Biotechnology, Materials Science, and Sustainability.
-random_paper: 7
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-threads/refs/heads/main/screenshots/bolt-threads-2026-09-02T144929.png
 slug: bolt-threads
 tags:

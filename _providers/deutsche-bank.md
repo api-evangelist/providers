@@ -11,8 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,32 +22,272 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.4
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 47.2
+  scored_at: '2026-09-16'
+api_count: 36
 apis:
 - baseURL: https://api.db.com/gw/dbapi
   baseurl_source: declared
-  description: The Deutsche Bank API Program (dbAPI) - 30 published OpenAPI contracts covering cash accounts, transactions and transaction analysis, credit cards, SEPA credit transfer, instant credit transfer and di
-  name: Deutsche Bank API Program
-  slug: deutsche-bank
-- baseURL: https://testmerch.directpos.de/rest-api
+  description: The alias API contains endpoints to add, update or delete aliases for means of payment.
+  name: Deutsche Bank Alias API
+  slug: deutsche-bank-alias-api
+- baseURL: https://api.db.com/gw/dbapi
   baseurl_source: declared
-  description: Merchant Solutions is the payment acceptance and issuing product portfolio of Deutsche Bank - the Merchant-Server II REST platform behind Deutsche Bank's payment gateway. Three contracts are published
-  name: Deutsche Bank Merchant Solutions
-  slug: merchant-solutions
-artifact_total: 11
+  description: The Apple Pay™ API contains endpoints to initiate a payment session to perform credit card payment transactions based on Apple Pay™ payment information.
+  name: Deutsche Bank Apple Pay API
+  slug: deutsche-bank-apple-pay-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Authorization API from Deutsche Bank — 3 operation(s) for authorization.
+  name: Deutsche Bank Authorization API
+  slug: deutsche-bank-authorization-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The merchant's system has to implement this endpoint to receive callback requests.
+  name: Deutsche Bank Callback API
+  slug: deutsche-bank-callback-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to cancel existing SEPA Credit Transfers.
+  name: Deutsche Bank Cancel SEPA Credit Transfers API
+  slug: deutsche-bank-cancel-sepa-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to cancel existing SEPA Instant Credit Transfers.
+  name: Deutsche Bank Cancel SEPA Instant Credit Transfers API
+  slug: deutsche-bank-cancel-sepa-instant-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Cash account opening status API from Deutsche Bank — 1 operation(s) for cash account opening status.
+  name: Deutsche Bank Cash account opening status API
+  slug: deutsche-bank-cash-account-opening-status-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Lets you easily open cash accounts with Deutsche Bank, Postbank or norisbank on your customer's behalf.
+  name: Deutsche Bank Cash Account Openings API
+  slug: deutsche-bank-cash-account-openings-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Gives you an overview of all savings and current accounts of your customers. With this api, you can retrieve details such as IBAN, BIC or account type which you can then use for further inquiries on t
+  name: Deutsche Bank Cash Accounts API
+  slug: deutsche-bank-cash-accounts-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to create SEPA Credit Transfers. Both single and bulk payments are supported.
+  name: Deutsche Bank Create SEPA Credit Transfers API
+  slug: deutsche-bank-create-sepa-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to create SEPA Instant Credit Transfers. Both single and bulk payments are supported.
+  name: Deutsche Bank Create SEPA Instant Credit Transfers API
+  slug: deutsche-bank-create-sepa-instant-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Employee Share Plan Securities Account Opening API from Deutsche Bank — 2 operation(s) for employee share plan securities account opening.
+  name: Deutsche Bank Employee Share Plan Securities Account Opening API
+  slug: deutsche-bank-employee-share-plan-securities-account-opening-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The eScore API contains endpoints to minimize non-payment risk.
+  name: Deutsche Bank E Score API
+  slug: deutsche-bank-escore-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The ForgeRock Auth Tree API from Deutsche Bank — 1 operation(s) for forgerock auth tree.
+  name: Deutsche Bank ForgeRock Auth Tree API
+  slug: deutsche-bank-forgerock-auth-tree-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The ForgeRock OAuth API from Deutsche Bank — 2 operation(s) for forgerock oauth.
+  name: Deutsche Bank ForgeRock OAuth API
+  slug: deutsche-bank-forgerock-oauth-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The ForgeRock Session API from Deutsche Bank — 1 operation(s) for forgerock session.
+  name: Deutsche Bank ForgeRock Session API
+  slug: deutsche-bank-forgerock-session-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Forms API contains endpoints to initialize a form service interaction. It allows the merchant to redirect the customer to a customizable frontend page where the customer may enter sensitive paymen
+  name: Deutsche Bank Forms API
+  slug: deutsche-bank-forms-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to retrieve the details of SEPA Credit Transfers, both for single and bulk payments.
+  name: Deutsche Bank Get details for SEPA Credit Transfers API
+  slug: deutsche-bank-get-details-for-sepa-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to retrieve the details of SEPA Instant Credit Transfers, both for single and bulk payments.
+  name: Deutsche Bank Get details for SEPA Instant Credit Transfers API
+  slug: deutsche-bank-get-details-for-sepa-instant-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to retrieve the processing status of SEPA Credit Transfers, both for single and bulk payments.
+  name: Deutsche Bank Get status for SEPA Credit Transfers API
+  slug: deutsche-bank-get-status-for-sepa-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to retrieve the processing status of SEPA Instant Credit Transfers, both for single and bulk payments.
+  name: Deutsche Bank Get status for SEPA Instant Credit Transfers API
+  slug: deutsche-bank-get-status-for-sepa-instant-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to check the Verification of Payee (VoP) details for your SEPA Credit Transfers, whether you're making a single payment or a bulk transfer.
+  name: Deutsche Bank Get VoP details for SEPA Credit Transfers API
+  slug: deutsche-bank-get-vop-details-for-sepa-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints to check the Verification of Payee (VoP) details for your SEPA Instant Credit Transfers, whether you're making a single payment or a bulk transfer.
+  name: Deutsche Bank Get VoP details for SEPA Instant Credit Transfers API
+  slug: deutsche-bank-get-vop-details-for-sepa-instant-credit-transfers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Google Pay™ API contains endpoints to perform credit card payment transactions based on Google Pay™ payment information.
+  name: Deutsche Bank Google Pay API
+  slug: deutsche-bank-google-pay-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Headless 3-D Secure API contains endpoints to conduct headless 3-D Secure transactions.
+  name: Deutsche Bank Headless 3-D Secure API
+  slug: deutsche-bank-headless-3-d-secure-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The iFrame API contains an endpoint to initialize an iFrame interaction. It allows the merchant to embed specific elements of a frontend page into their own web page. Entry of sensitive data is done i
+  name: Deutsche Bank I Frame API
+  slug: deutsche-bank-iframe-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Information related operations.
+  name: Deutsche Bank Info API
+  slug: deutsche-bank-info-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Investment Order Subscription Api
+  name: Deutsche Bank Investments Order Subscription API
+  slug: deutsche-bank-investments-order-subscription-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Loan Offers API from Deutsche Bank — 5 operation(s) for loan offers.
+  name: Deutsche Bank Loan Offers API
+  slug: deutsche-bank-loan-offers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Managed Mandate API contains endpoints to work with managed mandates.
+  name: Deutsche Bank Managed Mandate API
+  slug: deutsche-bank-managed-mandate-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Change an existing order or preview a change of an existing order
+  name: Deutsche Bank Order Change API
+  slug: deutsche-bank-order-change-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Delete an existing order
+  name: Deutsche Bank Order Delete API
+  slug: deutsche-bank-order-delete-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Retrieve details on existing orders
+  name: Deutsche Bank Order Details API
+  slug: deutsche-bank-order-details-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Create an order or preview an order creation
+  name: Deutsche Bank Order Entry API
+  slug: deutsche-bank-order-entry-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Produce a PDF with the estimated expenses for an order execution or modification.
+  name: Deutsche Bank Order Expense Report API
+  slug: deutsche-bank-order-expense-report-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Password Encryption API from Deutsche Bank — 1 operation(s) for password encryption.
+  name: Deutsche Bank Password Encryption API
+  slug: deutsche-bank-password-encryption-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Payment API contains endpoints to add or modify payment transactions. When using the API, the merchant is only integrated to the API at the backend. All use cases are triggered via an API call. It
+  name: Deutsche Bank Payment API
+  slug: deutsche-bank-payment-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Payment Link API contains endpoints to prepare payments your customers can carry out later by using the provided link.
+  name: Deutsche Bank Payment Link API
+  slug: deutsche-bank-payment-link-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Processing Orders API from Deutsche Bank — 2 operation(s) for processing orders.
+  name: Deutsche Bank Processing Orders API
+  slug: deutsche-bank-processing-orders-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Verifies if the provided IBAN is reachable for an SEPA Instant Credit Transfer
+  name: Deutsche Bank Reachability Status API
+  slug: deutsche-bank-reachability-status-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Risk Management API contains endpoints to add and remove risk list entries and to calculate a risk score.
+  name: Deutsche Bank Risk Management API
+  slug: deutsche-bank-risk-management-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Use these endpoints for Second Factory Retry of existing SEPA Instant Credit Transfers.
+  name: Deutsche Bank Second Factor Retry API
+  slug: deutsche-bank-second-factor-retry-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Get static data on Securities
+  name: Deutsche Bank Security Statics API
+  slug: deutsche-bank-security-statics-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Get price information for a given security
+  name: Deutsche Bank Support API
+  slug: deutsche-bank-support-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Swaggers/OpenAPI repository
+  name: Deutsche Bank Swaggers API
+  slug: deutsche-bank-swaggers-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Tenants
+  name: Deutsche Bank Tenants API
+  slug: deutsche-bank-tenants-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Provides an easy and accurate way to prove recent income and rent payments to describe the financial situation of a customer.
+  name: Deutsche Bank Transaction Analysis API
+  slug: deutsche-bank-transaction-analysis-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Transaction Authorization API from Deutsche Bank — 4 operation(s) for transaction authorization.
+  name: Deutsche Bank Transaction Authorization API
+  slug: deutsche-bank-transaction-authorization-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Transactions Subscription Api
+  name: Deutsche Bank Transaction Subscription API
+  slug: deutsche-bank-transaction-subscription-api
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: Provides all transactions information from your customers' savings and current accounts for the last 13 months.
+  name: Deutsche Bank Transactions API
+  slug: deutsche-bank-transactions-api
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Deutsche Bank Webhooks
@@ -440,7 +679,7 @@ modified: '2026-09-06'
 name: Deutsche Bank
 nav: Providers
 network: true
-overview: 'Deutsche Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network: API Program and Merchant Solutions. Tagged areas include Banking, Financial, Wealth Management, Open Banking, and PSD2.
+overview: 'Deutsche Bank publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Alias API, Apple Pay API, Authorization API, and 47 more. Tagged areas include Banking, Financial, Wealth Management, Open Banking, and PSD2.
 
 
   The Deutsche Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -451,7 +690,7 @@ plans:
 - name: Deutsche Bank Plans Pricing
   plan_count: 0
   slug: deutsche-bank-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Deutsche Bank Rate Limits
@@ -463,21 +702,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.8
+  composite: 52.7
   coverage:
     artifact_dirs: 24
-    catalog_earned: 40.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 56.2
+    contract_quality: 65.0
     developer_ergonomics: 37.5
-    discoverability: 75.9
+    discoverability: 63.0
     operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -491,10 +730,10 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 11.8
+      callable: 26.5
       derived: 0
       marker_coverage: 0.0
-      total: 36
+      total: 50
     mcp: derived
     skills: derived
   regulatory:
@@ -504,7 +743,7 @@ score:
     regime_id: banking_open_finance
     score: 84.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -532,7 +771,7 @@ tags:
 - PSD2
 - Payments
 - SEPA
-- Investments
+- Investment
 - Credit Cards
 - Merchant Solutions
 - Germany

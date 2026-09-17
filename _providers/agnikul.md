@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The agent-facing commerce surface for Cosmos Store, Agnikul's branded merchandise shop, implementing the Universal Commerce Protocol (dev.ucp.shopping) over MCP. Thirteen tools cover catalog search an
@@ -148,7 +148,7 @@ modified: '2026-09-12'
 name: Agnikul Cosmos
 nav: Providers
 network: true
-overview: 'Agnikul Cosmos publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space, Launch Services, and Satellites.
+overview: 'Agnikul Cosmos publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aerospace, Space, Launch Services, and Satellite.
 
 
   Agnikul Cosmos'' developer surface includes documentation, engineering blog, support, authentication, and 17 more developer resources.'
@@ -156,7 +156,7 @@ plans:
 - name: Agnikul Plans Pricing
   plan_count: 0
   slug: agnikul-plans-pricing
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Agnikul Rate Limits
@@ -197,7 +197,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -218,7 +218,7 @@ tags:
 - Aerospace
 - Space
 - Launch Services
-- Satellites
+- Satellite
 - Manufacturing
 - Additive Manufacturing
 - India

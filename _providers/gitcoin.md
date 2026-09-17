@@ -20,7 +20,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.0
-  scored_at: '2026-09-15'
+  score: 33.5
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,15 +70,10 @@ apis:
   slug: gitcoin-model-analysis-api
 - baseURL: https://gitcoin.co/api/v0.1
   baseurl_source: declared
-  description: Operations related to Gitcoin Grants funding rounds
-  name: Gitcoin Rounds API
-  slug: gitcoin-rounds-api
-- baseURL: https://gitcoin.co/api/v0.1
-  baseurl_source: declared
   description: The Stamp API API from Gitcoin — 4 operation(s) for stamp api.
-  name: Gitcoin Stamp API API
+  name: Gitcoin Stamp API
   slug: gitcoin-stamp-api-api
-artifact_total: 34
+artifact_total: 33
 collections:
 - collection_type: postman
   name: Gitcoin Core Bounties API
@@ -229,11 +224,11 @@ jsonld:
   property_count: 17
   slug: context
 layout: provider
-modified: '2026-06-14'
+modified: '2026-09-16'
 name: Gitcoin
 nav: Providers
 network: true
-overview: 'Gitcoin publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bounties API, Contributors API, Grants API, and 3 more. Tagged areas include Public Goods, Grants, Bounties, Quadratic Funding, and Web3.
+overview: 'Gitcoin publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bounties API, Contributors API, Grants API, and 2 more. Tagged areas include Public Goods, Grants, Bounties, Quadratic Funding, and Web3.
 
 
   The Gitcoin catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -244,7 +239,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -262,7 +257,7 @@ rules:
   slug: gitcoin-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.4
+  composite: 52.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 91.3
@@ -270,11 +265,11 @@ score:
     catalog_gap: 23.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 60.5
     contract_governance: 9.8
-    contract_quality: 73.1
+    contract_quality: 70.2
     developer_ergonomics: 50.0
     discoverability: 74.1
     operational_transparency: 34.2
@@ -282,12 +277,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 60.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -35,10 +35,35 @@ api_count: 1
 apis:
 - baseURL: https://api.workstyleos.com/v1/
   baseurl_source: declared
-  description: REST API (v1) for the Acall / WorkstyleOS workplace platform. Thirteen operations across six resource families — workers (users), facilities, events, gate access logs, spots, and spot reservations — w
-  name: Acall Public API
-  slug: acall-public-api
-artifact_total: 8
+  description: The Event API API from Acall — 2 operation(s) for event api.
+  name: Acall Event API
+  slug: acall-event-api-api
+- baseURL: https://api.workstyleos.com/v1/
+  baseurl_source: declared
+  description: The Facility API API from Acall — 2 operation(s) for facility api.
+  name: Acall Facility API
+  slug: acall-facility-api-api
+- baseURL: https://api.workstyleos.com/v1/
+  baseurl_source: declared
+  description: The Gate API API from Acall — 1 operation(s) for gate api.
+  name: Acall Gate API
+  slug: acall-gate-api-api
+- baseURL: https://api.workstyleos.com/v1/
+  baseurl_source: declared
+  description: The Spot API API from Acall — 1 operation(s) for spot api.
+  name: Acall Spot API
+  slug: acall-spot-api-api
+- baseURL: https://api.workstyleos.com/v1/
+  baseurl_source: declared
+  description: The Spot Reservation API API from Acall — 2 operation(s) for spot reservation api.
+  name: Acall Spot Reservation API
+  slug: acall-spot-reservation-api-api
+- baseURL: https://api.workstyleos.com/v1/
+  baseurl_source: declared
+  description: The User API API from Acall — 2 operation(s) for user api.
+  name: Acall User API
+  slug: acall-user-api-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Acall Webhooks
@@ -185,7 +210,7 @@ modified: '2026-09-06'
 name: Acall
 nav: Providers
 network: true
-overview: 'Acall publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Workplace Management, Visitor Management, Meeting Room Booking, Desk Booking, and Hybrid Work.
+overview: 'Acall publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Event API, Facility API, Gate API, and 3 more. Tagged areas include Workplace Management, Visitor Management, Meeting Room Booking, Desk Booking, and Hybrid Work.
 
 
   The Acall catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -196,14 +221,14 @@ plans:
 - name: Acall Plans Pricing
   plan_count: 0
   slug: acall-plans-pricing
-random_paper: 5
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Acall Rate Limits
   slug: acall-rate-limits
 score:
   band: developing
-  composite: 43.7
+  composite: 43.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -211,11 +236,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 46.1
     contract_governance: 4.5
-    contract_quality: 59.1
+    contract_quality: 57.7
     developer_ergonomics: 37.5
     discoverability: 68.5
     operational_transparency: 42.1
@@ -234,11 +259,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

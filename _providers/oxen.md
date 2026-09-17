@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 22
@@ -349,7 +349,7 @@ overview: 'Oxen publishes 19 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Oxen''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 1
+random_paper: 2
 score:
   band: thin
   composite: 38.4
@@ -380,7 +380,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -405,7 +405,7 @@ tags:
 - Inference
 - Datasets
 - MLOps
-- Large Language Models
+- LLM
 - Model Deployment
 - Developer Tools
 - Version Control

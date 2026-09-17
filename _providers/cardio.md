@@ -75,7 +75,7 @@ overview: 'card.io is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   card.io''s developer surface includes documentation and 11 more developer resources.'
-random_paper: 17
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardio/refs/heads/main/screenshots/cardio-2026-07-25T204718.png
 security:
 - kind: domain-security

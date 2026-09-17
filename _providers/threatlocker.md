@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -46,19 +46,9 @@ api_count: 1
 apis:
 - baseURL: https://portalapi.threatlocker.com/portalapi/
   baseurl_source: declared
-  description: The ActionLog API from ThreatLocker — 9 operation(s) for actionlog.
-  name: ThreatLocker Action Log API
-  slug: threatlocker-actionlog-api
-- baseURL: https://portalapi.threatlocker.com/portalapi/
-  baseurl_source: declared
   description: The Application API from ThreatLocker — 6 operation(s) for application.
   name: ThreatLocker Application API
   slug: threatlocker-application-api
-- baseURL: https://portalapi.threatlocker.com/portalapi/
-  baseurl_source: declared
-  description: The ApprovalRequest API from ThreatLocker — 12 operation(s) for approvalrequest.
-  name: ThreatLocker Approval Request API
-  slug: threatlocker-approvalrequest-api
 - baseURL: https://portalapi.threatlocker.com/portalapi/
   baseurl_source: declared
   description: The Computer API from ThreatLocker — 21 operation(s) for computer.
@@ -134,6 +124,16 @@ apis:
   description: The VDIHyperV API from ThreatLocker — 1 operation(s) for vdihyperv.
   name: ThreatLocker VDI Hyper V API
   slug: threatlocker-vdihyperv-api
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The Action Log API from ThreatLocker — 9 operation(s) for action log.
+  name: ThreatLocker Action Log API
+  slug: threatlocker-action-log-api
+- baseURL: https://portalapi.threatlocker.com/portalapi/
+  baseurl_source: declared
+  description: The Approval Request API from ThreatLocker — 12 operation(s) for approval request.
+  name: ThreatLocker Approval Request API
+  slug: threatlocker-approval-request-api
 artifact_total: 43
 asyncapis:
 - description: ''
@@ -353,17 +353,17 @@ modified: '2026-08-02'
 name: ThreatLocker
 nav: Providers
 network: true
-overview: 'ThreatLocker publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Action Log API, Application API, Approval Request API, and 15 more. Tagged areas include Cybersecurity, Zero Trust, Endpoint Security, Application-Control, and allowlisting.
+overview: 'ThreatLocker publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Application API, Computer API, Computer Checkin API, and 15 more. Tagged areas include Cybersecurity, Zero Trust, Endpoint Security, Application-Control, and allowlisting.
 
 
   The ThreatLocker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ThreatLocker''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 7
+random_paper: 12
 score:
   band: developing
-  composite: 51.1
+  composite: 50.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -371,11 +371,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 51.9
+    contract_quality: 49.5
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 39.5
@@ -384,14 +384,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 18
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

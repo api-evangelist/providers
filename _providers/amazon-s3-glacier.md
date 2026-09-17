@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Amazon S3 Glacier REST Vaults API
   slug: open-amazon-s3-glacier-vaults-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -310,22 +314,22 @@ jsonld:
   property_count: 9
   slug: amazon-s3-glacier-vault-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon S3 Glacier
 nav: Providers
 network: true
-overview: 'Amazon S3 Glacier publishes 1 API on the [APIs.io](https://apis.io/) network: Vaults API. Tagged areas include Archive, Backup, and Storage.
+overview: 'Amazon S3 Glacier publishes 1 API on the [APIs.io](https://apis.io/) network: Vaults API. Tagged areas include Archives, Backup, and Storage.
 
 
   The Amazon S3 Glacier catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon S3 Glacier''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 32 more developer resources.'
+  Amazon S3 Glacier''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 33 more developer resources.'
 plans:
 - name: Amazon S3 Glacier Plans Pricing
   plan_count: 3
   slug: amazon-s3-glacier-plans-pricing
-random_paper: 12
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon S3 Glacier Rate Limits
@@ -379,7 +383,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -404,8 +408,8 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-s3-glacier
 tags:
-- Archive
+- Archives
 - Backup
 - Storage
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

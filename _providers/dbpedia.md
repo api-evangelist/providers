@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Public SPARQL 1.1 query endpoint backed by OpenLink Virtuoso over the DBpedia knowledge graph derived from Wikipedia. Supports up to 10,000 result rows, 120-second query timeout, and 100 requests/seco
@@ -116,7 +116,7 @@ plans:
 - name: Dbpedia Plans Pricing
   plan_count: 2
   slug: dbpedia-plans-pricing
-random_paper: 20
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Dbpedia Rate Limits
@@ -147,7 +147,7 @@ score:
     regime_id: government
     score: 14.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

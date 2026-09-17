@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -62,39 +62,39 @@ apis:
   slug: amazon-mediatailor-channels-api
 - baseURL: http://api.mediatailor.{region}.amazonaws.com
   baseurl_source: declared
-  description: The ConfigureLogs API from Amazon MediaTailor — 2 operation(s) for configurelogs.
-  name: Amazon MediaTailor ConfigureLogs API
-  slug: amazon-mediatailor-configurelogs-api
-- baseURL: http://api.mediatailor.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The PlaybackConfiguration API from Amazon MediaTailor — 2 operation(s) for playbackconfiguration.
-  name: Amazon MediaTailor PlaybackConfiguration API
-  slug: amazon-mediatailor-playbackconfiguration-api
-- baseURL: http://api.mediatailor.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The PlaybackConfigurations API from Amazon MediaTailor — 1 operation(s) for playbackconfigurations.
-  name: Amazon MediaTailor PlaybackConfigurations API
-  slug: amazon-mediatailor-playbackconfigurations-api
-- baseURL: http://api.mediatailor.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The PrefetchSchedule API from Amazon MediaTailor — 2 operation(s) for prefetchschedule.
-  name: Amazon MediaTailor PrefetchSchedule API
-  slug: amazon-mediatailor-prefetchschedule-api
-- baseURL: http://api.mediatailor.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The SourceLocation API from Amazon MediaTailor — 5 operation(s) for sourcelocation.
-  name: Amazon MediaTailor SourceLocation API
-  slug: amazon-mediatailor-sourcelocation-api
-- baseURL: http://api.mediatailor.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The SourceLocations API from Amazon MediaTailor — 1 operation(s) for sourcelocations.
-  name: Amazon MediaTailor SourceLocations API
-  slug: amazon-mediatailor-sourcelocations-api
-- baseURL: http://api.mediatailor.{region}.amazonaws.com
-  baseurl_source: declared
   description: The Tags API from Amazon MediaTailor — 2 operation(s) for tags.
   name: Amazon MediaTailor Tags API
   slug: amazon-mediatailor-tags-api
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Configure Logs API from Amazon MediaTailor — 2 operation(s) for configure logs.
+  name: Amazon MediaTailor Configure Logs API
+  slug: amazon-mediatailor-configure-logs-api
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Playback Configuration API from Amazon MediaTailor — 2 operation(s) for playback configuration.
+  name: Amazon MediaTailor Playback Configuration API
+  slug: amazon-mediatailor-playback-configuration-api
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Playback Configurations API from Amazon MediaTailor — 1 operation(s) for playback configurations.
+  name: Amazon MediaTailor Playback Configurations API
+  slug: amazon-mediatailor-playback-configurations-api
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Prefetch Schedule API from Amazon MediaTailor — 2 operation(s) for prefetch schedule.
+  name: Amazon MediaTailor Prefetch Schedule API
+  slug: amazon-mediatailor-prefetch-schedule-api
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Source Location API from Amazon MediaTailor — 5 operation(s) for source location.
+  name: Amazon MediaTailor Source Location API
+  slug: amazon-mediatailor-source-location-api
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Source Locations API from Amazon MediaTailor — 1 operation(s) for source locations.
+  name: Amazon MediaTailor Source Locations API
+  slug: amazon-mediatailor-source-locations-api
 artifact_total: 511
 collections:
 - collection_type: postman
@@ -161,6 +161,10 @@ collections:
   name: AWS MediaTailor Alerts#resourceArn Tags API
   slug: open-amazon-mediatailor-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/capabilities/amazon-mediatailor-capability-edges.yml
   title: ''
@@ -1653,7 +1657,7 @@ jsonld:
   property_count: 116
   slug: amazon-mediatailor-mediatailor-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon MediaTailor
 nav: Providers
 network: true
@@ -1663,7 +1667,7 @@ overview: 'Amazon MediaTailor publishes 10 APIs on the [APIs.io](https://apis.io
   The Amazon MediaTailor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaTailor''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon MediaTailor''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Mediatailor Plans Pricing
   plan_count: 3
@@ -1722,7 +1726,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1759,5 +1763,5 @@ use_cases:
   name: FAST Channel Creation
 - description: Deliver personalized ad experiences to individual viewers at scale.
   name: Addressable Advertising
-website: https://aws.amazon.com/mediatailor/
+website: https://amazon.com
 ---

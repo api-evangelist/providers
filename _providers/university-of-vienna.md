@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -48,11 +48,6 @@ apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for PHAIDRA, the University of Vienna's own institutional repository platform. Harvested by OpenAIRE, Europeana, BASE, OAPEN, EBSCO and Primo; supports oai_dc
   name: PHAIDRA OAI-PMH Endpoint
   slug: phaidra-oai-pmh
-- baseURL: https://phaidra.univie.ac.at/api
-  baseurl_source: declared
-  description: Requests for transforming and validating datastreams
-  name: PHAIDRA datastream API (University of Vienna)
-  slug: university-of-vienna-datastream-api
 - baseURL: https://phaidra.univie.ac.at/api
   baseurl_source: declared
   description: Requests related to users, user groups and organisation structure
@@ -133,6 +128,11 @@ apis:
 - description: 'u:search is the Vienna University Library''s discovery layer. Probed 2026-08-30: https://usearch.univie.ac.at/ redirects to /primo-explore/search?vid=UWI - an Ex Libris Primo instance. Recorded as a TE'
   name: u:search Library Discovery (Ex Libris Primo)
   slug: usearch-primo
+- baseURL: https://phaidra.univie.ac.at/api/oai/
+  baseurl_source: declared
+  description: Requests for transforming and validating datastreams
+  name: University of Vienna Data Stream API
+  slug: university-of-vienna-data-stream-api
 artifact_total: 50
 collections:
 - collection_type: open
@@ -320,7 +320,7 @@ modified: '2026-08-30'
 name: University of Vienna
 nav: Providers
 network: true
-overview: 'University of Vienna publishes 14 APIs on the [APIs.io](https://apis.io/) network, including PHAIDRA datastream API (University of Vienna), PHAIDRA directory API (University of Vienna), PHAIDRA imageserver API (University of Vienna), and 11 more. Tagged areas include Education, Higher Education, University, Public Research University, and Austria.
+overview: 'University of Vienna publishes 14 APIs on the [APIs.io](https://apis.io/) network, including PHAIDRA directory API (University of Vienna), PHAIDRA imageserver API (University of Vienna), PHAIDRA lists API (University of Vienna), and 11 more. Tagged areas include Education, Higher Education, University, Public Research University, and Austria.
 
 
   The University of Vienna catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -331,7 +331,7 @@ plans:
 - name: University Of Vienna Plans Pricing
   plan_count: 2
   slug: university-of-vienna-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: University Of Vienna Rate Limits
@@ -360,21 +360,21 @@ rules:
   slug: university-of-vienna-rules
 score:
   band: developing
-  composite: 43.5
+  composite: 40.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 75.5
+    catalog_earned: 55.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 39.5
+    catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 58.6
+    contract_quality: 54.7
     developer_ergonomics: 28.6
-    discoverability: 63.0
+    discoverability: 44.4
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -389,7 +389,7 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
+      marker_coverage: 0.0
       total: 14
   regulatory:
     applies: true
@@ -398,7 +398,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

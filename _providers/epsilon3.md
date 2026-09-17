@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'REST API for the Epsilon3 operations platform, organized into roughly twenty API families: Builds (work orders, parts, inventory, purchase and sale orders, vendors, tooling, shipments), Chat, Commandi'
@@ -225,7 +225,7 @@ plans:
 - name: Epsilon3 Plans Pricing
   plan_count: 3
   slug: epsilon3-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Epsilon3 Rate Limits
@@ -258,7 +258,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

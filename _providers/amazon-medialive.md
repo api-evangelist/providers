@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 4
@@ -62,6 +62,10 @@ collections:
   name: AWS Elemental MediaLive Prod API
   slug: open-amazon-medialive-prod-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -5754,7 +5758,7 @@ jsonld:
   property_count: 675
   slug: amazon-medialive-medialive-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon MediaLive
 nav: Providers
 network: true
@@ -5764,12 +5768,12 @@ overview: 'Amazon MediaLive publishes 1 API on the [APIs.io](https://apis.io/) n
   The Amazon MediaLive catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaLive''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon MediaLive''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Medialive Plans Pricing
   plan_count: 3
   slug: amazon-medialive-plans-pricing
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Medialive Rate Limits
@@ -5823,7 +5827,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -5860,5 +5864,5 @@ use_cases:
   name: Live News Production
 - description: Stream virtual conferences, concerts, and entertainment events.
   name: Virtual Events
-website: https://aws.amazon.com/medialive/
+website: https://amazon.com
 ---

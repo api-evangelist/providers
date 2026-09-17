@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -52,11 +52,6 @@ apis:
   description: Provides account summary values, on each individual account and rolled up..
   name: Saxo Bank Account Values API
   slug: saxo-account-values-api
-- baseURL: https://gateway.saxobank.com/openapi
-  baseurl_source: declared
-  description: 'End points serving account groups. The set of account groups is restricted by the supplied query parameters as well as whether or not the identity represented by the authorization token has access to '
-  name: Saxo Bank AccountGroups API
-  slug: saxo-accountgroups-api
 - baseURL: https://gateway.saxobank.com/openapi
   baseurl_source: declared
   description: Provide services to get account template and create account.
@@ -127,11 +122,6 @@ apis:
   description: The Client Renewals resource is only implemented in LIVE environment. Implementation in simulation system only returns sample data and response. Provides functionality to get and update client data in
   name: Saxo Bank Client Renewals API
   slug: saxo-client-renewals-api
-- baseURL: https://gateway.saxobank.com/openapi
-  baseurl_source: declared
-  description: End point for accessing summary information for a specified client.
-  name: Saxo Bank ClientInfo API
-  slug: saxo-clientinfo-api
 - baseURL: https://gateway.saxobank.com/openapi
   baseurl_source: declared
   description: End points serving client related resources The set of clients is restricted by the supplied query parameters as well as whether or not the identity represented by the authorization token has access t
@@ -442,6 +432,16 @@ apis:
   description: Provides services for resetting user passwords.
   name: Saxo Bank Users API
   slug: saxo-users-api
+- baseURL: https://www.home.saxo/platforms/api
+  baseurl_source: declared
+  description: 'End points serving account groups. The set of account groups is restricted by the supplied query parameters as well as whether or not the identity represented by the authorization token has access to '
+  name: Saxo Bank Account Groups API
+  slug: saxo-account-groups-api
+- baseURL: https://www.home.saxo/platforms/api
+  baseurl_source: declared
+  description: End point for accessing summary information for a specified client.
+  name: Saxo Bank Client Info API
+  slug: saxo-client-info-api
 artifact_total: 168
 collections:
 - collection_type: open
@@ -727,7 +727,7 @@ modified: '2026-06-13'
 name: Saxo Bank
 nav: Providers
 network: true
-overview: 'Saxo Bank publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Account Values API, AccountGroups API, Accounts API, and 76 more. Tagged areas include Investment Banking, Trading, Equities, Forex, and Options.
+overview: 'Saxo Bank publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Account Values API, Accounts API, AlgoStrategies API, and 76 more. Tagged areas include Investment Banking, Trading, Equities, Forex, and Options.
 
 
   The Saxo Bank catalog on APIs.io includes 1 JSON-LD context.
@@ -738,7 +738,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 2
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -750,7 +750,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.2
+  composite: 35.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 65.0
@@ -758,11 +758,11 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 57.0
+    contract_quality: 57.9
     developer_ergonomics: 9.5
     discoverability: 68.5
     operational_transparency: 31.6
@@ -781,7 +781,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

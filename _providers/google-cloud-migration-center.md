@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,14 +56,14 @@ apis:
   slug: google-cloud-migration-center-groups-api
 - baseURL: https://migrationcenter.googleapis.com
   baseurl_source: declared
-  description: Operations for importing asset data from external sources
-  name: Google Cloud Migration Center ImportJobs API
-  slug: google-cloud-migration-center-importjobs-api
-- baseURL: https://migrationcenter.googleapis.com
-  baseurl_source: declared
   description: Operations for managing migration preference configurations
   name: Google Cloud Migration Center PreferenceSets API
   slug: google-cloud-migration-center-preferencesets-api
+- baseURL: https://migrationcenter.googleapis.com
+  baseurl_source: declared
+  description: Operations for importing asset data from external sources
+  name: Google Cloud Migration Center Import Jobs API
+  slug: google-cloud-migration-center-import-jobs-api
 artifact_total: 25
 collections:
 - collection_type: postman
@@ -196,7 +196,7 @@ modified: '2026-05-19'
 name: Google Cloud Migration Center
 nav: Providers
 network: true
-overview: 'Google Cloud Migration Center publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Groups API, ImportJobs API, and 1 more. Tagged areas include Assessment, Cloud Migration, Discovery, Infrastructure, and Migration.
+overview: 'Google Cloud Migration Center publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Groups API, PreferenceSets API, and 1 more. Tagged areas include Assessment, Cloud Migration, Discovery, Infrastructure, and Migration.
 
 
   The Google Cloud Migration Center catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -207,7 +207,7 @@ plans:
 - name: Google Cloud Migration Center Plans Pricing
   plan_count: 3
   slug: google-cloud-migration-center-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Google Cloud Migration Center Rate Limits
@@ -255,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

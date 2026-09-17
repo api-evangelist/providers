@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://api.primer.io
   baseurl_source: declared
   description: The Client Session API API from Primer — 1 operation(s) for client session api.
-  name: Primer Client Session API API
+  name: Primer Client Session API
   slug: primer-client-session-api-api
 - baseURL: https://api.primer.io
   baseurl_source: declared
@@ -57,7 +57,7 @@ apis:
 - baseURL: https://api.primer.io
   baseurl_source: declared
   description: The Payment Methods API API from Primer — 4 operation(s) for payment methods api.
-  name: Primer Payment Methods API API
+  name: Primer Payment Methods API
   slug: primer-payment-methods-api-api
 - baseURL: https://api.primer.io
   baseurl_source: declared
@@ -67,7 +67,7 @@ apis:
 - baseURL: https://api.primer.io
   baseurl_source: declared
   description: The Payments API API from Primer — 8 operation(s) for payments api.
-  name: Primer Payments API API
+  name: Primer Payments API
   slug: primer-payments-api-api
 artifact_total: 53
 collections:
@@ -312,11 +312,11 @@ jsonld:
   property_count: 27
   slug: primer-context
 layout: provider
-modified: 2026-06-12
+modified: '2026-09-16'
 name: Primer
 nav: Providers
 network: true
-overview: 'Primer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Client Session API API, Dispute & Chargebacks Webhooks API, Payment Methods API API, and 2 more. Tagged areas include Payments, Payment Orchestration, Payment Processing, Fintech, and Fraud Detection.
+overview: 'Primer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Client Session API, Dispute & Chargebacks Webhooks API, Payment Methods API, and 2 more. Tagged areas include Payments, Payment Orchestration, Payment Processing, Fintech, and Fraud Detection.
 
 
   The Primer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -327,7 +327,7 @@ plans:
 - name: Primer Plans Pricing
   plan_count: 2
   slug: primer-plans-pricing
-random_paper: 4
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Primer Rate Limits
@@ -345,7 +345,7 @@ rules:
   slug: primer-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.7
+  composite: 50.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 79.3
@@ -353,11 +353,11 @@ score:
     catalog_gap: 35.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 47.4
     contract_governance: 25.0
-    contract_quality: 62.4
+    contract_quality: 60.5
     developer_ergonomics: 31.0
     discoverability: 68.5
     operational_transparency: 65.8
@@ -376,7 +376,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

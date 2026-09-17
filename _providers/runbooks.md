@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Runbooks platform provides an integrated IT operations suite covering ITSM (service desk, incident management, knowledge base, change management, CSAT tracking, SLA management), ITAM (hardware and
@@ -74,7 +74,7 @@ modified: '2026-05-02'
 name: Runbooks
 nav: Providers
 network: true
-overview: 'Runbooks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include ITSM, ITAM, IT Operations, Managed Service Provider, and Help Desk.
+overview: 'Runbooks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include ITSM, ITAM, IT Operations, Managed Service Providers, and Help Desk.
 
 
   Runbooks'' developer surface includes pricing and 4 more developer resources.'
@@ -82,7 +82,7 @@ plans:
 - name: Runbooks Plans Pricing
   plan_count: 3
   slug: runbooks-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Runbooks Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 16.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -124,7 +124,7 @@ tags:
 - ITSM
 - ITAM
 - IT Operations
-- Managed Service Provider
+- Managed Service Providers
 - Help Desk
 - Asset Management
 - Incident Management

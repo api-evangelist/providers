@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Policy Definitions operations
-  name: Azure Policy Policy Definitions API
+  name: Azure Policy Definitions API
   slug: microsoft-azure-policy-policy-definitions-api
 artifact_total: 13
 collections:
@@ -141,11 +141,11 @@ finops:
   slug: microsoft-azure-policy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-policy.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Azure Policy
 nav: Providers
 network: true
-overview: 'Azure Policy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Policy Definitions API. Tagged areas include Compliance, Governance, Policy, and Resource Management.
+overview: 'Azure Policy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Definitions API. Tagged areas include Compliance, Governance, Policy, and Resource Management.
 
 
   Azure Policy''s developer surface includes authentication, developer portal, pricing, documentation, signup flow, support, and 9 more developer resources.'
@@ -153,7 +153,7 @@ plans:
 - name: Microsoft Azure Policy Plans Pricing
   plan_count: 3
   slug: microsoft-azure-policy-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Policy Rate Limits
@@ -196,7 +196,7 @@ score:
     regime_id: insurance
     score: 56.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

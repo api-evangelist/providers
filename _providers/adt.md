@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.5
-  scored_at: '2026-09-15'
+  score: 35.6
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -519,7 +519,7 @@ press:
 - date: '2026-05-25'
   title: How ADT embraces AI to make every second count.
   url: https://sierra.ai/customers/adt
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Adt Rate Limits
@@ -580,7 +580,7 @@ score:
       total: 12
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

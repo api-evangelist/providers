@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 323
   human_in_the_loop: 10
@@ -67,11 +67,6 @@ apis:
   slug: flipdish-apps-api
 - baseURL: https://api.flipdish.co
   baseurl_source: declared
-  description: Operations for App Store.
-  name: Flipdish AppStore API
-  slug: flipdish-appstore-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
   description: Operations for App Store Configurations.
   name: Flipdish AppStoreConfigurations API
   slug: flipdish-appstoreconfigurations-api
@@ -85,21 +80,6 @@ apis:
   description: Operations for App Store Entitlements.
   name: Flipdish AppStoreEntitlements API
   slug: flipdish-appstoreentitlements-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
-  description: Operations for Audit Logs.
-  name: Flipdish AuditLogs API
-  slug: flipdish-auditlogs-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
-  description: Operations for Authorization Tokens.
-  name: Flipdish AuthorizationTokens API
-  slug: flipdish-authorizationtokens-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
-  description: Operations for Bank Account.
-  name: Flipdish BankAccount API
-  slug: flipdish-bankaccount-api
 - baseURL: https://api.flipdish.co
   baseurl_source: declared
   description: Operations for Campaigns.
@@ -117,24 +97,9 @@ apis:
   slug: flipdish-catalogchanges-api
 - baseURL: https://api.flipdish.co
   baseurl_source: declared
-  description: Operations for Catalog Groups.
-  name: Flipdish CatalogGroups API
-  slug: flipdish-cataloggroups-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
   description: Operations for Catalog Images.
   name: Flipdish CatalogImages API
   slug: flipdish-catalogimages-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
-  description: Operations for Catalog Items.
-  name: Flipdish CatalogItems API
-  slug: flipdish-catalogitems-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
-  description: Operations for Catalog Products.
-  name: Flipdish CatalogProducts API
-  slug: flipdish-catalogproducts-api
 - baseURL: https://api.flipdish.co
   baseurl_source: declared
   description: Operations for Channels.
@@ -252,11 +217,6 @@ apis:
   slug: flipdish-location-api
 - baseURL: https://api.flipdish.co
   baseurl_source: declared
-  description: Operations for Location Areas.
-  name: Flipdish LocationAreas API
-  slug: flipdish-locationareas-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
   description: Operations for Looker Dashboard.
   name: Flipdish LookerDashboard API
   slug: flipdish-lookerdashboard-api
@@ -312,24 +272,9 @@ apis:
   slug: flipdish-metafielddefinitions-api
 - baseURL: https://api.flipdish.co
   baseurl_source: declared
-  description: Operations for Mobile Apps.
-  name: Flipdish MobileApps API
-  slug: flipdish-mobileapps-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
-  description: Operations for OAuth Clients.
-  name: Flipdish OAuthClients API
-  slug: flipdish-oauthclients-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
   description: Operations for Onboarding.
   name: Flipdish Onboarding API
   slug: flipdish-onboarding-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
-  description: Operations for Order Batches.
-  name: Flipdish OrderBatches API
-  slug: flipdish-orderbatches-api
 - baseURL: https://api.flipdish.co
   baseurl_source: declared
   description: Operations for Order Batching Configuration.
@@ -340,11 +285,6 @@ apis:
   description: Operations for Orders.
   name: Flipdish Orders API
   slug: flipdish-orders-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
-  description: Operations for Payment Intents.
-  name: Flipdish PaymentIntents API
-  slug: flipdish-paymentintents-api
 - baseURL: https://api.flipdish.co
   baseurl_source: declared
   description: Operations for Payments.
@@ -370,11 +310,6 @@ apis:
   description: Operations for Processing Fee Configs.
   name: Flipdish ProcessingFeeConfigs API
   slug: flipdish-processingfeeconfigs-api
-- baseURL: https://api.flipdish.co
-  baseurl_source: declared
-  description: Operations for Push Notifications.
-  name: Flipdish PushNotifications API
-  slug: flipdish-pushnotifications-api
 - baseURL: https://api.flipdish.co
   baseurl_source: declared
   description: Operations for Receipts.
@@ -470,6 +405,71 @@ apis:
   description: Operations for White Label Config.
   name: Flipdish WhiteLabelConfig API
   slug: flipdish-whitelabelconfig-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for App Store.
+  name: Flipdish App Store API
+  slug: flipdish-app-store-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Audit Logs.
+  name: Flipdish Audit Logs API
+  slug: flipdish-audit-logs-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Authorization Tokens.
+  name: Flipdish Authorization Tokens API
+  slug: flipdish-authorization-tokens-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Bank Account.
+  name: Flipdish Bank Account API
+  slug: flipdish-bank-account-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Catalog Groups.
+  name: Flipdish Catalog Groups API
+  slug: flipdish-catalog-groups-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Catalog Items.
+  name: Flipdish Catalog Items API
+  slug: flipdish-catalog-items-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Catalog Products.
+  name: Flipdish Catalog Products API
+  slug: flipdish-catalog-products-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Location Areas.
+  name: Flipdish Location Areas API
+  slug: flipdish-location-areas-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Mobile Apps.
+  name: Flipdish Mobile Apps API
+  slug: flipdish-mobile-apps-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for OAuth Clients.
+  name: Flipdish OAuth Clients API
+  slug: flipdish-oauth-clients-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Order Batches.
+  name: Flipdish Order Batches API
+  slug: flipdish-order-batches-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Payment Intents.
+  name: Flipdish Payment Intents API
+  slug: flipdish-payment-intents-api
+- baseURL: https://api.flipdish.co
+  baseurl_source: declared
+  description: Operations for Push Notifications.
+  name: Flipdish Push Notifications API
+  slug: flipdish-push-notifications-api
 artifact_total: 1119
 collections:
 - collection_type: postman
@@ -3728,7 +3728,7 @@ modified: '2026-06-02'
 name: Flipdish
 nav: Providers
 network: true
-overview: 'Flipdish publishes 85 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Address API, Apm API, and 82 more. Tagged areas include Restaurant, Online Ordering, Mobile Apps, Point-of-Sale, and Order.
+overview: 'Flipdish publishes 85 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Address API, Apm API, and 82 more. Tagged areas include Restaurant, Online Ordering, Mobile App, Point-of-Sale, and Order.
 
 
   The Flipdish catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -3739,7 +3739,7 @@ plans:
 - name: Flipdish Plans Pricing
   plan_count: 3
   slug: flipdish-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Flipdish Rate Limits
@@ -3785,7 +3785,7 @@ score:
   facets:
     access_clarity: 56.6
     contract_governance: 28.8
-    contract_quality: 67.2
+    contract_quality: 67.3
     developer_ergonomics: 45.2
     discoverability: 81.5
     operational_transparency: 23.7
@@ -3805,7 +3805,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -3824,7 +3824,7 @@ slug: flipdish
 tags:
 - Restaurant
 - Online Ordering
-- Mobile Apps
+- Mobile App
 - Point-of-Sale
 - Order
 - Menus

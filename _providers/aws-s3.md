@@ -30,12 +30,12 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-09-15'
+  score: 29.8
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -5370,7 +5370,7 @@ plans:
 - name: Aws S3 Plans Pricing
   plan_count: 3
   slug: aws-s3-plans-pricing
-random_paper: 17
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Aws S3 Rate Limits
@@ -5424,7 +5424,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

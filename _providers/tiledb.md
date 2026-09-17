@@ -22,10 +22,10 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -36,22 +36,117 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 36.5
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
 - baseURL: https://api.tiledb.com/v1
   baseurl_source: declared
-  description: The primary TileDB Cloud REST API. 168 operations across arrays, groups, assets, files, notebooks, UDFs, task graphs, SQL, queries, users, organizations, invitations, favorites and tokens. Published b
-  name: TileDB Storage Platform API (v1)
-  slug: tiledb-storage-platform-api-v1
-- baseURL: https://api.tiledb.com/v2
+  description: The array API from TileDB — 29 operation(s) for array.
+  name: TileDB Array API
+  slug: tiledb-array-api
+- baseURL: https://api.tiledb.com/v1
   baseurl_source: declared
-  description: The v2 routes of the TileDB Cloud REST API — 21 operations concentrated on groups, assets, array metadata, files, notebooks, users and organizations. Published by TileDB as a separate Swagger 2.0 cont
-  name: TileDB Storage Platform API (v2)
-  slug: tiledb-storage-platform-api-v2
-artifact_total: 7
+  description: The array_tasks API from TileDB — 1 operation(s) for array_tasks.
+  name: TileDB Array Tasks API
+  slug: tiledb-array-tasks-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The assets API from TileDB — 3 operation(s) for assets.
+  name: TileDB Assets API
+  slug: tiledb-assets-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The favorites API from TileDB — 12 operation(s) for favorites.
+  name: TileDB Favorites API
+  slug: tiledb-favorites-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The files API from TileDB — 4 operation(s) for files.
+  name: TileDB Files API
+  slug: tiledb-files-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The groups API from TileDB — 17 operation(s) for groups.
+  name: TileDB Groups API
+  slug: tiledb-groups-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The invitation API from TileDB — 10 operation(s) for invitation.
+  name: TileDB Invitation API
+  slug: tiledb-invitation-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The notebook API from TileDB — 5 operation(s) for notebook.
+  name: TileDB Notebook API
+  slug: tiledb-notebook-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The notebooks API from TileDB — 3 operation(s) for notebooks.
+  name: TileDB Notebooks API
+  slug: tiledb-notebooks-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The organization API from TileDB — 13 operation(s) for organization.
+  name: TileDB Organization API
+  slug: tiledb-organization-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The query API from TileDB — 5 operation(s) for query.
+  name: TileDB Query API
+  slug: tiledb-query-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The registered_task_graphs API from TileDB — 2 operation(s) for registered_task_graphs.
+  name: TileDB Registered Task Graphs API
+  slug: tiledb-registered-task-graphs-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The sql API from TileDB — 1 operation(s) for sql.
+  name: TileDB Sql API
+  slug: tiledb-sql-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The stats API from TileDB — 1 operation(s) for stats.
+  name: TileDB Stats API
+  slug: tiledb-stats-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The task_graph_logs API from TileDB — 8 operation(s) for task_graph_logs.
+  name: TileDB Task Graph Logs API
+  slug: tiledb-task-graph-logs-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The task_graphs API from TileDB — 3 operation(s) for task_graphs.
+  name: TileDB Task Graphs API
+  slug: tiledb-task-graphs-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The tasks API from TileDB — 4 operation(s) for tasks.
+  name: TileDB Tasks API
+  slug: tiledb-tasks-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The udf API from TileDB — 7 operation(s) for udf.
+  name: TileDB Udf API
+  slug: tiledb-udf-api
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The user API from TileDB — 16 operation(s) for user.
+  name: TileDB User API
+  slug: tiledb-user-api
+artifact_total: 24
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/overlays/tiledb-cloud-v1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tiledb-cloud-v1-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/overlays/tiledb-cloud-v2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tiledb-cloud-v2-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/security/tiledb-domain-security.yml
   title: ''
@@ -193,15 +288,15 @@ modified: '2026-08-30'
 name: TileDB
 nav: Providers
 network: true
-overview: 'TileDB publishes 2 APIs on the [APIs.io](https://apis.io/) network: Storage Platform API (v1) and Storage Platform API (v2). Tagged areas include Company, Database, Multimodal Data, Life Sciences, and Genomics.
+overview: 'TileDB publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Array API, Array Tasks API, Assets API, and 16 more. Tagged areas include Company, Database, Multimodal Data, Life Sciences, and Genomics.
 
 
-  TileDB''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
+  TileDB''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
 plans:
 - name: Tiledb Plans Pricing
   plan_count: 3
   slug: tiledb-plans-pricing
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Tiledb Rate Limits
@@ -212,22 +307,22 @@ scopes:
   slug: tiledb-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 53.3
+  band: strong
+  composite: 58.7
   coverage:
     artifact_dirs: 22
-    catalog_earned: 49.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 40.9
+    contract_quality: 49.2
     developer_ergonomics: 73.2
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 18.4
   previous_composite: 53.3
   provenance:
@@ -236,7 +331,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 19
     mcp: derived
     skills: derived
   regulatory:
@@ -246,11 +341,11 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
-    score: 0.0
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/screenshots/tiledb-2026-09-02T163742.png
 security:
 - kind: authentication

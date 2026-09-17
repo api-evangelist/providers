@@ -41,7 +41,7 @@ name: Cloudpipes
 nav: Providers
 network: true
 overview: Cloudpipes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Integration, iPaaS, Automation, and Workflows.
-random_paper: 9
+random_paper: 2
 security:
 - kind: domain-security
   name: Cloudpipes Domain Security

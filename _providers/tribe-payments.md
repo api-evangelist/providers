@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -168,18 +168,13 @@ apis:
   description: The Order status API from Tribe Payments — 2 operation(s) for order status.
   name: Tribe Payments Order status API
   slug: tribe-payments-order-status-api
-- baseURL: http://127.0.0.1:10010/v3
-  baseurl_source: spec
-  description: The P2P API from Tribe Payments — 2 operation(s) for p2p.
-  name: Tribe Payments P2 P API
-  slug: tribe-payments-p2p-api
 - baseURL: '%bank_api_url%/bank/v2'
   baseurl_source: spec
   description: The Payment API from Tribe Payments — 4 operation(s) for payment.
   name: Tribe Payments Payment API
   slug: tribe-payments-payment-api
 - description: The Payments API from Tribe Payments — 7 operation(s) for payments.
-  name: Tribe Payments Payments API
+  name: Tribe Payments API
   slug: tribe-payments-payments-api
 - baseURL: '%bank_api_url%/bank/v2'
   baseurl_source: spec
@@ -244,6 +239,11 @@ apis:
   description: The User Actions Trigger API from Tribe Payments — 1 operation(s) for user actions trigger.
   name: Tribe Payments User Actions Trigger API
   slug: tribe-payments-user-actions-trigger-api
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The P2 P API from Tribe Payments — 2 operation(s) for p2 p.
+  name: Tribe Payments P2 P API
+  slug: tribe-payments-p2-p-api
 artifact_total: 64
 asyncapis:
 - description: ''
@@ -441,7 +441,7 @@ created: '2026-07-24'
 description: Tribe Payments is a London, United Kingdom-based payments technology company and issuer/acquirer processor that gives banks, acquirers, and fintechs a modular, API-driven platform to launch card and payment products without building core processing in-house. Built around its ISAAC processing engine, Tribe spans card issuing (issuer processing), merchant acquiring and a payment gateway, POS/SoftPOS terminal management, tokenization, fraud and risk monitoring, 3D Secure, digital wallets, Open Banking (PSD2 account-to-account payment initiation and account information), and Bank Connect / Banking-as-a-Service. Tribe positions itself as developer-led, publishing an extensive public API reference at doc.tribepayments.com; sandbox access is granted on request rather than through fully open self-service signup. Its home market is the United Kingdom, where PSD2/Open Banking and the Faster Payments and Bacs rails operated by Pay.UK anchor a dense cluster of API-native payment providers.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-09-16'
 name: Tribe Payments
 nav: Providers
 network: true
@@ -452,10 +452,10 @@ overview: 'Tribe Payments publishes 38 APIs on the [APIs.io](https://apis.io/) n
 
 
   Tribe Payments'' developer surface includes authentication, documentation, API reference, changelog, engineering blog, support, getting-started guide, and 24 more developer resources.'
-random_paper: 11
+random_paper: 8
 score:
   band: developing
-  composite: 42.8
+  composite: 43.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 27.0
@@ -463,11 +463,11 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 31.6
     contract_governance: 18.2
-    contract_quality: 52.2
+    contract_quality: 55.2
     developer_ergonomics: 28.0
     discoverability: 57.4
     operational_transparency: 39.5
@@ -505,7 +505,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

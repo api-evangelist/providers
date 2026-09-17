@@ -45,7 +45,7 @@ overview: 'mcp.json is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   mcp.json''s developer surface includes engineering blog, documentation, and 3 more developer resources.'
-random_paper: 9
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp-json/refs/heads/main/screenshots/mcp-json-2026-06-20T185109.png
 security:
 - kind: domain-security

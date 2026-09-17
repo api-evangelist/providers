@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The RAGFlow RESTful HTTP API — 95 documented operations under /api/v1, authenticated with a tenant API key carried as a bearer token. Covers dataset management, document upload / parse / ingest, chunk
@@ -230,7 +230,7 @@ modified: '2026-08-27'
 name: RAGFlow
 nav: Providers
 network: true
-overview: 'RAGFlow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Retrieval Augmented Generation, Search, and Vector Database.
+overview: 'RAGFlow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, RAG, Search, and Vector Database.
 
 
   RAGFlow''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 31 more developer resources.'
@@ -238,7 +238,7 @@ plans:
 - name: Ragflow Plans Pricing
   plan_count: 5
   slug: ragflow-plans-pricing
-random_paper: 19
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Ragflow Rate Limits
@@ -267,7 +267,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -291,7 +291,7 @@ slug: ragflow
 tags:
 - Company
 - Artificial Intelligence
-- Retrieval Augmented Generation
+- RAG
 - Search
 - Vector Database
 - Document Processing

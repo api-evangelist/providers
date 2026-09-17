@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -68,11 +68,6 @@ apis:
   description: Application listing, launching, and termination
   name: Roku Apps API
   slug: roku-apps-api
-- baseURL: https://api.cloud.roku.dev
-  baseurl_source: spec
-  description: The asyncapi API from Roku — 3 operation(s) for asyncapi.
-  name: Roku asyncapi API
-  slug: roku-asyncapi-api
 - baseURL: https://apipub.roku.com/listen/transaction-service.svc
   baseurl_source: spec
   description: Billing cycle and credit management
@@ -145,11 +140,6 @@ apis:
   slug: roku-query-api
 - baseURL: https://api.cloud.roku.dev
   baseurl_source: spec
-  description: The serviceaccounts API from Roku — 1 operation(s) for serviceaccounts.
-  name: Roku serviceaccounts API
-  slug: roku-serviceaccounts-api
-- baseURL: https://api.cloud.roku.dev
-  baseurl_source: spec
   description: The snapshots API from Roku — 2 operation(s) for snapshots.
   name: Roku snapshots API
   slug: roku-snapshots-api
@@ -168,6 +158,16 @@ apis:
   description: Transaction and refund validation
   name: Roku Validation API
   slug: roku-validation-api
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The Async API API from Roku — 3 operation(s) for async api.
+  name: Roku Async API
+  slug: roku-async-api-api
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The Service Accounts API from Roku — 1 operation(s) for service accounts.
+  name: Roku Service Accounts API
+  slug: roku-service-accounts-api
 artifact_total: 208
 collections:
 - collection_type: open
@@ -821,7 +821,7 @@ modified: '2026-05-19'
 name: Roku
 nav: Providers
 network: true
-overview: 'Roku publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Apps API, asyncapi API, Billing API, and 18 more. Tagged areas include Streaming, Television, Media, Entertainment, and Connected TV.
+overview: 'Roku publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Billing API, builds API, and 18 more. Tagged areas include Streaming, Television, Media, Entertainment, and Connected TV.
 
 
   The Roku catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -832,7 +832,7 @@ plans:
 - name: Roku Plans Pricing
   plan_count: 1
   slug: roku-plans-pricing
-random_paper: 8
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Roku Rate Limits
@@ -886,7 +886,7 @@ score:
       marker_coverage: 47.8
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

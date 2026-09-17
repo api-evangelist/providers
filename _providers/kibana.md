@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 15
@@ -233,7 +233,7 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Manage and interact with Security Assistant resources.
-  name: Kibana Security AI Assistant API API
+  name: Kibana Security AI Assistant API
   slug: kibana-security-ai-assistant-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -243,27 +243,27 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Use the Attack discovery APIs to generate and manage Attack discoveries. Attack Discovery leverages large language models (LLMs) to analyze alerts in your environment and identify threats. Each "disco
-  name: Kibana Security Attack discovery API API
+  name: Kibana Security Attack discovery API
   slug: kibana-security-attack-discovery-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Use the detections APIs to create and manage detection rules. Detection rules search events and external alerts sent to Elastic Security and generate detection alerts from any hits. Alerts are display
-  name: Kibana Security Detections API API
+  name: Kibana Security Detections API
   slug: kibana-security-detections-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Endpoint Exceptions API allows you to manage detection rule endpoint exceptions to prevent a rule from generating an alert from incoming events even when the rule's other criteria are met.
-  name: Kibana Security Endpoint Exceptions API API
+  name: Kibana Security Endpoint Exceptions API
   slug: kibana-security-endpoint-exceptions-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Interact with and manage endpoints running the Elastic Defend integration.
-  name: Kibana Security Endpoint Management API API
+  name: Kibana Security Endpoint Management API
   slug: kibana-security-endpoint-management-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Use the Security entity analytics APIs to manage entity analytics and risk scoring, including asset criticality, privileged user monitoring, and entity engines.
-  name: Kibana Security Entity Analytics API API
+  name: Kibana Security Entity Analytics API
   slug: kibana-security-entity-analytics-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -273,22 +273,22 @@ apis:
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Exceptions are associated with detection and endpoint rules, and are used to prevent a rule from generating an alert from incoming events, even when the rule's other criteria are met. They can help re
-  name: Kibana Security Exceptions API API
+  name: Kibana Security Exceptions API
   slug: kibana-security-exceptions-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: 'Lists can be used with detection rule exceptions to define values that prevent a rule from generating alerts. Lists are made up of: * **List containers**: A container for values of the same Elasticsea'
-  name: Kibana Security Lists API API
+  name: Kibana Security Lists API
   slug: kibana-security-lists-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: Run live queries, manage packs and saved queries.
-  name: Kibana Security Osquery API API
+  name: Kibana Security Osquery API
   slug: kibana-security-osquery-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
   description: You can create Timelines and Timeline templates via the API, as well as import new Timelines from an ndjson file.
-  name: Kibana Security Timeline API API
+  name: Kibana Security Timeline API
   slug: kibana-security-timeline-api-api
 - baseURL: https://localhost:5601/api
   baseurl_source: declared
@@ -608,7 +608,7 @@ finops:
   slug: kibana-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kibana.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Kibana
 nav: Providers
 network: true
@@ -620,28 +620,28 @@ plans:
 - name: Kibana Plans Pricing
   plan_count: 3
   slug: kibana-plans-pricing
-random_paper: 5
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Kibana Rate Limits
   slug: kibana-rate-limits
 score:
   band: thin
-  composite: 37.0
+  composite: 35.4
   coverage:
     artifact_dirs: 10
-    catalog_earned: 38.0
+    catalog_earned: 33.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 77.0
+    catalog_gap: 82.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 44.7
     contract_governance: 0.0
-    contract_quality: 56.3
+    contract_quality: 53.6
     developer_ergonomics: 21.4
-    discoverability: 53.7
+    discoverability: 44.4
     operational_transparency: 13.2
   previous_composite: 37.0
   provenance:
@@ -652,7 +652,7 @@ score:
       marker_coverage: 0.0
       total: 60
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

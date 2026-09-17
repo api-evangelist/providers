@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: Versioned external REST API introduced in Sourcegraph 7.0 and intended as the stable integration surface going forward. Each Sourcegraph instance exposes its own /api-reference path where the live Ope
@@ -205,7 +205,7 @@ modified: '2026-05-30'
 name: Sourcegraph
 nav: Providers
 network: true
-overview: 'Sourcegraph publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, AMP, and AI Coding Agent.
+overview: 'Sourcegraph publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, AMP, and AI Coding Agents.
 
 
   Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 14 more developer resources.'
@@ -213,7 +213,7 @@ plans:
 - name: Sourcegraph Plans Pricing
   plan_count: 1
   slug: sourcegraph-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Sourcegraph Rate Limits
@@ -241,7 +241,7 @@ score:
     score: 25.0
   previous_composite: 30.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -267,7 +267,7 @@ tags:
 - Code Search
 - Cody
 - AMP
-- AI Coding Agent
+- AI Coding Agents
 - GraphQL
 - REST API
 - MCP

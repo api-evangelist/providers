@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ apis:
 - baseURL: https://dev.azure.com/{organization}/{project}/_apis
   baseurl_source: declared
   description: Operations for managing YAML-based pipeline definitions including creating, listing, and retrieving pipeline configurations.
-  name: Azure Pipelines Pipelines API
+  name: Azure Pipelines API
   slug: microsoft-azure-pipelines-pipelines-api
 - baseURL: https://dev.azure.com/{organization}/{project}/_apis
   baseurl_source: declared
@@ -276,7 +276,7 @@ finops:
   slug: microsoft-azure-pipelines-finops
 image: https://azure.microsoft.com/svghandler/devops/?width=600&height=315
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Azure Pipelines
 nav: Providers
 network: true
@@ -288,7 +288,7 @@ plans:
 - name: Microsoft Azure Pipelines Plans Pricing
   plan_count: 6
   slug: microsoft-azure-pipelines-plans-pricing
-random_paper: 9
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Pipelines Rate Limits
@@ -320,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

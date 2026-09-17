@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 66.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 2
@@ -43,11 +43,6 @@ agentic_access:
   summary_line: 245 operations · 136 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://api.drippay.dev
-  baseurl_source: declared
-  description: Evaluate and preview billable metrics.
-  name: Drippay BillableMetrics API
-  slug: drippay-billablemetrics-api
 - baseURL: https://api.drippay.dev
   baseurl_source: declared
   description: Business-level settings and configuration.
@@ -158,6 +153,11 @@ apis:
   description: Define workflow templates for agent execution.
   name: Drippay Workflows API
   slug: drippay-workflows-api
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Evaluate and preview billable metrics.
+  name: Drippay Billable Metrics API
+  slug: drippay-billable-metrics-api
 artifact_total: 57
 asyncapis:
 - description: ''
@@ -459,7 +459,7 @@ modified: '2026-08-13'
 name: Drippay
 nav: Providers
 network: true
-overview: 'Drippay publishes 23 APIs on the [APIs.io](https://apis.io/) network, including BillableMetrics API, Business API, Charges API, and 20 more. Tagged areas include Company, Billing, Usage-Based Billing, Metering, and Monetization.
+overview: 'Drippay publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Business API, Charges API, Contracts API, and 20 more. Tagged areas include Company, Billing, Usage-Based Billing, Metering, and Monetization.
 
 
   The Drippay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -470,7 +470,7 @@ plans:
 - name: Drippay Plans Pricing
   plan_count: 4
   slug: drippay-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Drippay Rate Limits
@@ -520,7 +520,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

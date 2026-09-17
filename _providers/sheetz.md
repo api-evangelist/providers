@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Sheetz Distribution Services EDI and API integration capabilities enable suppliers and trading partners to exchange electronic data interchange documents including purchase orders, invoices, advance s
@@ -126,7 +126,7 @@ modified: '2026-05-02'
 name: Sheetz
 nav: Providers
 network: true
-overview: 'Sheetz publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Convenience Store, Energy, Food Service, Fortune 500, and Fuel.
+overview: 'Sheetz publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Convenience Stores, Energy, Food Service, Fortune 500, and Fuel.
 
 
   The Sheetz catalog on APIs.io includes 1 JSON-LD context.
@@ -137,7 +137,7 @@ plans:
 - name: Sheetz Plans Pricing
   plan_count: 3
   slug: sheetz-plans-pricing
-random_paper: 8
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Sheetz Rate Limits
@@ -168,7 +168,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: sheetz
 tags:
-- Convenience Store
+- Convenience Stores
 - Energy
 - Food Service
 - Fortune 500

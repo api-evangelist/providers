@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -278,6 +278,10 @@ common:
   title: ''
   type: ReleaseNotes
   url: https://docs.revenuebase.ai/docs/release-notes
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:sales@revenuebase.ai
 created: '2026-07-17'
 description: RevenueBase is a B2B data infrastructure platform — "the trust layer for B2B data" — providing 400M+ continuously verified contacts (399M as of the August 2026 release notes) and 65M+ companies delivered via Snowflake, S3, Gigasheet, or a REST API. Core capabilities include real-time and batch email verification, deterministic and semantic company matching/resolution, organization discovery, and record enrichment, with data filterable by headcount, revenue, funding stage, industry, job title, seniority, geography, and tech stack. The v2 REST API authenticates with an API key in the x-key header and meters usage in credits. Originally surfaced as a Bessemer Venture Partners portfolio company and enriched into the API Evangelist network.
 image: https://cdn.prod.website-files.com/69aeeb63d4c5075af2fb954d/69dcb129729f9ab3c0816e26_RevenueBase-Favicon-32x32px.png
@@ -293,12 +297,12 @@ network: true
 overview: 'RevenueBase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Email API, Jobs API, and 3 more. Tagged areas include Company, B2B Data, Data Enrichment, Email Verification, and Contact Data.
 
 
-  RevenueBase''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, changelog, engineering blog, and 34 more developer resources.'
+  RevenueBase''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, changelog, engineering blog, and 35 more developer resources.'
 plans:
 - name: Revenuebase Plans Pricing
   plan_count: 5
   slug: revenuebase-plans-pricing
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Revenuebase Rate Limits
@@ -333,7 +337,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

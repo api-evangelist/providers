@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 4
@@ -50,144 +50,9 @@ apis:
   slug: managed-flink-api
 - baseURL: https://kinesis.{region}.amazonaws.com
   baseurl_source: declared
-  description: The CreateSignalingChannel API from AWS Kinesis — 1 operation(s) for createsignalingchannel.
-  name: AWS Kinesis CreateSignalingChannel API
-  slug: kinesis-createsignalingchannel-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The CreateStream API from AWS Kinesis — 1 operation(s) for createstream.
-  name: AWS Kinesis CreateStream API
-  slug: kinesis-createstream-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The DeleteSignalingChannel API from AWS Kinesis — 1 operation(s) for deletesignalingchannel.
-  name: AWS Kinesis DeleteSignalingChannel API
-  slug: kinesis-deletesignalingchannel-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The DeleteStream API from AWS Kinesis — 1 operation(s) for deletestream.
-  name: AWS Kinesis DeleteStream API
-  slug: kinesis-deletestream-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The DescribeEdgeConfiguration API from AWS Kinesis — 1 operation(s) for describeedgeconfiguration.
-  name: AWS Kinesis DescribeEdgeConfiguration API
-  slug: kinesis-describeedgeconfiguration-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The DescribeImageGenerationConfiguration API from AWS Kinesis — 1 operation(s) for describeimagegenerationconfiguration.
-  name: AWS Kinesis DescribeImageGenerationConfiguration API
-  slug: kinesis-describeimagegenerationconfiguration-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The DescribeMappedResourceConfiguration API from AWS Kinesis — 1 operation(s) for describemappedresourceconfiguration.
-  name: AWS Kinesis DescribeMappedResourceConfiguration API
-  slug: kinesis-describemappedresourceconfiguration-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The DescribeMediaStorageConfiguration API from AWS Kinesis — 1 operation(s) for describemediastorageconfiguration.
-  name: AWS Kinesis DescribeMediaStorageConfiguration API
-  slug: kinesis-describemediastorageconfiguration-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The DescribeNotificationConfiguration API from AWS Kinesis — 1 operation(s) for describenotificationconfiguration.
-  name: AWS Kinesis DescribeNotificationConfiguration API
-  slug: kinesis-describenotificationconfiguration-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The DescribeSignalingChannel API from AWS Kinesis — 1 operation(s) for describesignalingchannel.
-  name: AWS Kinesis DescribeSignalingChannel API
-  slug: kinesis-describesignalingchannel-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The DescribeStream API from AWS Kinesis — 1 operation(s) for describestream.
-  name: AWS Kinesis DescribeStream API
-  slug: kinesis-describestream-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The GetDataEndpoint API from AWS Kinesis — 1 operation(s) for getdataendpoint.
-  name: AWS Kinesis GetDataEndpoint API
-  slug: kinesis-getdataendpoint-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The GetSignalingChannelEndpoint API from AWS Kinesis — 1 operation(s) for getsignalingchannelendpoint.
-  name: AWS Kinesis GetSignalingChannelEndpoint API
-  slug: kinesis-getsignalingchannelendpoint-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The ListSignalingChannels API from AWS Kinesis — 1 operation(s) for listsignalingchannels.
-  name: AWS Kinesis ListSignalingChannels API
-  slug: kinesis-listsignalingchannels-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
   description: The ListStreams API from AWS Kinesis — 1 operation(s) for liststreams.
   name: AWS Kinesis ListStreams API
   slug: kinesis-liststreams-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The ListTagsForResource API from AWS Kinesis — 1 operation(s) for listtagsforresource.
-  name: AWS Kinesis ListTagsForResource API
-  slug: kinesis-listtagsforresource-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The ListTagsForStream API from AWS Kinesis — 1 operation(s) for listtagsforstream.
-  name: AWS Kinesis ListTagsForStream API
-  slug: kinesis-listtagsforstream-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The StartEdgeConfigurationUpdate API from AWS Kinesis — 1 operation(s) for startedgeconfigurationupdate.
-  name: AWS Kinesis StartEdgeConfigurationUpdate API
-  slug: kinesis-startedgeconfigurationupdate-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The TagResource API from AWS Kinesis — 1 operation(s) for tagresource.
-  name: AWS Kinesis TagResource API
-  slug: kinesis-tagresource-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The TagStream API from AWS Kinesis — 1 operation(s) for tagstream.
-  name: AWS Kinesis TagStream API
-  slug: kinesis-tagstream-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The UntagResource API from AWS Kinesis — 1 operation(s) for untagresource.
-  name: AWS Kinesis UntagResource API
-  slug: kinesis-untagresource-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The UntagStream API from AWS Kinesis — 1 operation(s) for untagstream.
-  name: AWS Kinesis UntagStream API
-  slug: kinesis-untagstream-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The UpdateDataRetention API from AWS Kinesis — 1 operation(s) for updatedataretention.
-  name: AWS Kinesis UpdateDataRetention API
-  slug: kinesis-updatedataretention-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The UpdateImageGenerationConfiguration API from AWS Kinesis — 1 operation(s) for updateimagegenerationconfiguration.
-  name: AWS Kinesis UpdateImageGenerationConfiguration API
-  slug: kinesis-updateimagegenerationconfiguration-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The UpdateMediaStorageConfiguration API from AWS Kinesis — 1 operation(s) for updatemediastorageconfiguration.
-  name: AWS Kinesis UpdateMediaStorageConfiguration API
-  slug: kinesis-updatemediastorageconfiguration-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The UpdateNotificationConfiguration API from AWS Kinesis — 1 operation(s) for updatenotificationconfiguration.
-  name: AWS Kinesis UpdateNotificationConfiguration API
-  slug: kinesis-updatenotificationconfiguration-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The UpdateSignalingChannel API from AWS Kinesis — 1 operation(s) for updatesignalingchannel.
-  name: AWS Kinesis UpdateSignalingChannel API
-  slug: kinesis-updatesignalingchannel-api
-- baseURL: https://kinesis.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The UpdateStream API from AWS Kinesis — 1 operation(s) for updatestream.
-  name: AWS Kinesis UpdateStream API
-  slug: kinesis-updatestream-api
 - baseURL: https://kinesis.{region}.amazonaws.com
   baseurl_source: declared
   description: 'The #X Amz Target=Firehose 20150804.CreateDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.createdeliverystream.'
@@ -543,6 +408,141 @@ apis:
   description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.updateapplicationmaintenanceconf'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Create Signaling Channel API from AWS Kinesis — 1 operation(s) for create signaling channel.
+  name: AWS Kinesis Create Signaling Channel API
+  slug: kinesis-create-signaling-channel-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Create Stream API from AWS Kinesis — 1 operation(s) for create stream.
+  name: AWS Kinesis Create Stream API
+  slug: kinesis-create-stream-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Delete Signaling Channel API from AWS Kinesis — 1 operation(s) for delete signaling channel.
+  name: AWS Kinesis Delete Signaling Channel API
+  slug: kinesis-delete-signaling-channel-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Delete Stream API from AWS Kinesis — 1 operation(s) for delete stream.
+  name: AWS Kinesis Delete Stream API
+  slug: kinesis-delete-stream-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Describe Edge Configuration API from AWS Kinesis — 1 operation(s) for describe edge configuration.
+  name: AWS Kinesis Describe Edge Configuration API
+  slug: kinesis-describe-edge-configuration-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Describe Image Generation Configuration API from AWS Kinesis — 1 operation(s) for describe image generation configuration.
+  name: AWS Kinesis Describe Image Generation Configuration API
+  slug: kinesis-describe-image-generation-configuration-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Describe Mapped Resource Configuration API from AWS Kinesis — 1 operation(s) for describe mapped resource configuration.
+  name: AWS Kinesis Describe Mapped Resource Configuration API
+  slug: kinesis-describe-mapped-resource-configuration-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Describe Media Storage Configuration API from AWS Kinesis — 1 operation(s) for describe media storage configuration.
+  name: AWS Kinesis Describe Media Storage Configuration API
+  slug: kinesis-describe-media-storage-configuration-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Describe Notification Configuration API from AWS Kinesis — 1 operation(s) for describe notification configuration.
+  name: AWS Kinesis Describe Notification Configuration API
+  slug: kinesis-describe-notification-configuration-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Describe Signaling Channel API from AWS Kinesis — 1 operation(s) for describe signaling channel.
+  name: AWS Kinesis Describe Signaling Channel API
+  slug: kinesis-describe-signaling-channel-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Describe Stream API from AWS Kinesis — 1 operation(s) for describe stream.
+  name: AWS Kinesis Describe Stream API
+  slug: kinesis-describe-stream-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Get Data Endpoint API from AWS Kinesis — 1 operation(s) for get data endpoint.
+  name: AWS Kinesis Get Data Endpoint API
+  slug: kinesis-get-data-endpoint-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Get Signaling Channel Endpoint API from AWS Kinesis — 1 operation(s) for get signaling channel endpoint.
+  name: AWS Kinesis Get Signaling Channel Endpoint API
+  slug: kinesis-get-signaling-channel-endpoint-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The List Signaling Channels API from AWS Kinesis — 1 operation(s) for list signaling channels.
+  name: AWS Kinesis List Signaling Channels API
+  slug: kinesis-list-signaling-channels-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The List Tags For Resource API from AWS Kinesis — 1 operation(s) for list tags for resource.
+  name: AWS Kinesis List Tags For Resource API
+  slug: kinesis-list-tags-for-resource-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The List Tags For Stream API from AWS Kinesis — 1 operation(s) for list tags for stream.
+  name: AWS Kinesis List Tags For Stream API
+  slug: kinesis-list-tags-for-stream-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Start Edge Configuration Update API from AWS Kinesis — 1 operation(s) for start edge configuration update.
+  name: AWS Kinesis Start Edge Configuration Update API
+  slug: kinesis-start-edge-configuration-update-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Tag Resource API from AWS Kinesis — 1 operation(s) for tag resource.
+  name: AWS Kinesis Tag Resource API
+  slug: kinesis-tag-resource-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Tag Stream API from AWS Kinesis — 1 operation(s) for tag stream.
+  name: AWS Kinesis Tag Stream API
+  slug: kinesis-tag-stream-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Untag Resource API from AWS Kinesis — 1 operation(s) for untag resource.
+  name: AWS Kinesis Untag Resource API
+  slug: kinesis-untag-resource-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Untag Stream API from AWS Kinesis — 1 operation(s) for untag stream.
+  name: AWS Kinesis Untag Stream API
+  slug: kinesis-untag-stream-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Update Data Retention API from AWS Kinesis — 1 operation(s) for update data retention.
+  name: AWS Kinesis Update Data Retention API
+  slug: kinesis-update-data-retention-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Update Image Generation Configuration API from AWS Kinesis — 1 operation(s) for update image generation configuration.
+  name: AWS Kinesis Update Image Generation Configuration API
+  slug: kinesis-update-image-generation-configuration-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Update Media Storage Configuration API from AWS Kinesis — 1 operation(s) for update media storage configuration.
+  name: AWS Kinesis Update Media Storage Configuration API
+  slug: kinesis-update-media-storage-configuration-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The update Notification Configuration API from AWS Kinesis — 1 operation(s) for update notification configuration.
+  name: AWS Kinesis update Notification Configuration API
+  slug: kinesis-update-notification-configuration-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Update Signaling Channel API from AWS Kinesis — 1 operation(s) for update signaling channel.
+  name: AWS Kinesis Update Signaling Channel API
+  slug: kinesis-update-signaling-channel-api
+- baseURL: https://kinesisanalytics.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Update Stream API from AWS Kinesis — 1 operation(s) for update stream.
+  name: AWS Kinesis Update Stream API
+  slug: kinesis-update-stream-api
 artifact_total: 944
 collections:
 - collection_type: open
@@ -3135,11 +3135,11 @@ json_structures:
   property_count: 0
   slug: kinesis-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: AWS Kinesis
 nav: Providers
 network: true
-overview: 'AWS Kinesis publishes 99 APIs on the [APIs.io](https://apis.io/) network, including CreateSignalingChannel API, CreateStream API, DeleteSignalingChannel API, and 96 more. Tagged areas include Analytics, Apache Flink, Big Data, Data Processing, and Real-Time.
+overview: 'AWS Kinesis publishes 99 APIs on the [APIs.io](https://apis.io/) network, including ListStreams API, #X Amz Target=Firehose 20150804.CreateDeliveryStream API, #X Amz Target=Firehose 20150804.DeleteDeliveryStream API, and 96 more. Tagged areas include Analytics, Apache Flink, Big Data, Data Processing, and Real-Time.
 
 
   The AWS Kinesis catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -3150,7 +3150,7 @@ plans:
 - name: Kinesis Plans Pricing
   plan_count: 4
   slug: kinesis-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 16
   name: Kinesis Rate Limits
@@ -3168,7 +3168,7 @@ rules:
   slug: kinesis-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.9
+  composite: 45.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 49.3
@@ -3176,11 +3176,11 @@ score:
     catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 34.2
     contract_governance: 9.8
-    contract_quality: 53.0
+    contract_quality: 57.1
     developer_ergonomics: 54.8
     discoverability: 68.5
     operational_transparency: 34.2
@@ -3193,7 +3193,7 @@ score:
       marker_coverage: 0.0
       total: 99
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

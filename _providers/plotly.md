@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: A remote Model Context Protocol server published by Plotly that lets AI agents search and read the Dash documentation directly. Exposes list_pages, search_pages and get_page_as_markdown. Authenticated
@@ -236,7 +236,7 @@ plans:
 - name: Plotly Plans Pricing
   plan_count: 3
   slug: plotly-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Plotly Rate Limits
@@ -274,7 +274,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

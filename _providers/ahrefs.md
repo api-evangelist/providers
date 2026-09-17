@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 15
 apis:
 - description: Ahrefs' hosted, remote Model Context Protocol server, which lets AI agents query the Ahrefs API on behalf of a signed-in Ahrefs account. Streamable HTTP transport, OAuth 2.0 with PKCE (scope apiv3-mcp
@@ -468,7 +468,7 @@ plans:
 - name: Ahrefs Plans Pricing
   plan_count: 6
   slug: ahrefs-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Ahrefs Rate Limits
@@ -507,7 +507,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

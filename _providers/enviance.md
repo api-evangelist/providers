@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 2
@@ -94,11 +94,6 @@ apis:
   description: The CompliancePermissions API from Enviance — 1 operation(s) for compliancepermissions.
   name: Enviance CompliancePermissions API
   slug: enviance-compliancepermissions-api
-- baseURL: https://api.enviance.com
-  baseurl_source: declared
-  description: The CustomField API from Enviance — 3 operation(s) for customfield.
-  name: Enviance CustomField API
-  slug: enviance-customfield-api
 - baseURL: https://api.enviance.com
   baseurl_source: declared
   description: The Data API from Enviance — 10 operation(s) for data.
@@ -239,6 +234,11 @@ apis:
   description: The WorkflowRole API from Enviance — 3 operation(s) for workflowrole.
   name: Enviance WorkflowRole API
   slug: enviance-workflowrole-api
+- baseURL: https://api.enviance.com
+  baseurl_source: declared
+  description: The Custom Field API from Enviance — 3 operation(s) for custom field.
+  name: Enviance Custom Field API
+  slug: enviance-custom-field-api
 artifact_total: 82
 collections:
 - collection_type: open
@@ -362,6 +362,10 @@ collections:
   name: Rest Activity WorkflowRole API
   slug: open-enviance-workflowrole-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://enviance.com
 - group: other
   title: ''
   type: ParentCompany
@@ -447,18 +451,18 @@ created: '2026-07-17'
 description: Enviance (now Cority Enviance) is an environmental, health, and safety (EHS) compliance-management SaaS platform. Originally an independent cloud environmental-compliance vendor, Enviance was acquired by Cority and its product now ships as "Cority Enviance." The platform manages regulatory requirements, compliance tasks, emissions and environmental events, chemicals and materials inventories, documents, workflows, and reporting for enterprises in regulated industries. Its EMS REST API (the "Cority Enviance App API") exposes 250+ operations across 39 service areas — Activity, Chemical, Material, Compliance, Requirement, Event, Task, Workflow, Document, Report, Portal, Bulk data, SCIM identity, and more — for building custom interfaces and integrating Enviance with corporate and third-party systems.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enviance.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Enviance
 nav: Providers
 network: true
 overview: 'Enviance publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Authentication API, BatchRequest API, and 36 more. Tagged areas include Company, Environmental, Compliance, EHS, and Sustainability.
 
 
-  Enviance''s developer surface includes authentication, documentation, API reference, and 14 more developer resources.'
-random_paper: 1
+  Enviance''s developer surface includes authentication, documentation, API reference, and 15 more developer resources.'
+random_paper: 5
 score:
   band: thin
-  composite: 29.5
+  composite: 29.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -466,11 +470,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 45.2
+    contract_quality: 43.7
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 0.0
@@ -479,14 +483,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 39
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -511,5 +515,5 @@ tags:
 - Chemical Management
 - Regulatory
 - Software-as-a-Service
-website: https://api.enviance.com/
+website: https://enviance.com
 ---

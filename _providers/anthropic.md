@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 37
-  human_in_the_loop: 3
+- acting_count: 139
+  human_in_the_loop: 9
   name: Anthropic Agentic Access
-  operation_count: 71
+  operation_count: 258
   slug: anthropic-agentic-access
-  summary_line: 71 operations · 37 acting · 3 human-in-the-loop
+  summary_line: 258 operations · 139 acting · 9 human-in-the-loop
 api_count: 6
 apis:
 - baseURL: https://api.anthropic.com/v1
@@ -149,7 +149,7 @@ apis:
 - baseURL: https://api.anthropic.com/v1
   baseurl_source: declared
   description: The Anthropic API API from Anthropic — 0 operation(s) for anthropic api.
-  name: Anthropic Anthropic API
+  name: Anthropic API
   slug: anthropic-anthropic-api-api
 - baseURL: https://api.anthropic.com/v1
   baseurl_source: declared
@@ -1082,11 +1082,11 @@ jsonld:
   property_count: 18
   slug: anthropic-context
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Anthropic
 nav: Providers
 network: true
-overview: 'Anthropic publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Models API, Files API, and 40 more. Tagged areas include Artificial Intelligence, Claude, Foundation Models, Large Language Models, and Machine-Learning.
+overview: 'Anthropic publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Models API, Files API, and 40 more. Tagged areas include Artificial Intelligence, Claude, Foundation Models, LLM, and Machine-Learning.
 
 
   The Anthropic catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -1097,7 +1097,7 @@ plans:
 - name: Anthropic Plans Pricing
   plan_count: 5
   slug: anthropic-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 12
   name: Anthropic Rate Limits
@@ -1126,21 +1126,21 @@ rules:
   slug: anthropic-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 77.8
+  composite: 74.4
   coverage:
     artifact_dirs: 31
-    catalog_earned: 68.5
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.5
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.4
   facets:
     access_clarity: 76.3
     contract_governance: 31.8
-    contract_quality: 77.6
+    contract_quality: 71.6
     developer_ergonomics: 96.4
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 71.1
   previous_composite: 77.8
   provenance:
@@ -1154,7 +1154,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1182,7 +1182,7 @@ tags:
 - Artificial Intelligence
 - Claude
 - Foundation Models
-- Large Language Models
+- LLM
 - Machine-Learning
 - MCP
 - Agents

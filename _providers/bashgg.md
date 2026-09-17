@@ -24,7 +24,7 @@ name: bash.gg
 nav: Providers
 network: true
 overview: bash.gg is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Marketplace, Indie Games, and Web3.
-random_paper: 11
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/bashgg/refs/heads/main/screenshots/bashgg-2026-07-25T202444.png
 slug: bashgg
 tags:

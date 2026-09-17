@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -59,29 +59,14 @@ apis:
   slug: advancedmd-connect-apis
 - baseURL: https://providerapi.advancedmd.com/v1/r4
   baseurl_source: declared
-  description: The AllergyIntolerance API from AdvancedMD — 3 operation(s) for allergyintolerance.
-  name: AdvancedMD Allergy Intolerance API
-  slug: advancedmd-allergyintolerance-api
-- baseURL: https://providerapi.advancedmd.com/v1/r4
-  baseurl_source: declared
   description: The Authentication API from AdvancedMD — 1 operation(s) for authentication.
   name: AdvancedMD Authentication API
   slug: advancedmd-authentication-api
 - baseURL: https://providerapi.advancedmd.com/v1/r4
   baseurl_source: declared
-  description: The C-CDA API from AdvancedMD — 1 operation(s) for c-cda.
-  name: AdvancedMD C CDA API
-  slug: advancedmd-c-cda-api
-- baseURL: https://providerapi.advancedmd.com/v1/r4
-  baseurl_source: declared
   description: The Cancel Bulk Data Export API from AdvancedMD — 1 operation(s) for cancel bulk data export.
   name: AdvancedMD Cancel Bulk Data Export API
   slug: advancedmd-cancel-bulk-data-export-api
-- baseURL: https://providerapi.advancedmd.com/v1/r4
-  baseurl_source: declared
-  description: The CarePlan API from AdvancedMD — 3 operation(s) for careplan.
-  name: AdvancedMD Care Plan API
-  slug: advancedmd-careplan-api
 - baseURL: https://providerapi.advancedmd.com/v1/r4
   baseurl_source: declared
   description: The CareTeam API from AdvancedMD — 3 operation(s) for careteam.
@@ -119,11 +104,6 @@ apis:
   slug: advancedmd-diagnosticreport-api
 - baseURL: https://providerapi.advancedmd.com/v1/r4
   baseurl_source: declared
-  description: The DocumentReference API from AdvancedMD — 4 operation(s) for documentreference.
-  name: AdvancedMD Document Reference API
-  slug: advancedmd-documentreference-api
-- baseURL: https://providerapi.advancedmd.com/v1/r4
-  baseurl_source: declared
   description: The Encounter API from AdvancedMD — 2 operation(s) for encounter.
   name: AdvancedMD Encounter API
   slug: advancedmd-encounter-api
@@ -152,11 +132,6 @@ apis:
   description: The MedicationDispense API from AdvancedMD — 3 operation(s) for medicationdispense.
   name: AdvancedMD Medication Dispense API
   slug: advancedmd-medicationdispense-api
-- baseURL: https://providerapi.advancedmd.com/v1/r4
-  baseurl_source: declared
-  description: The MedicationRequest API from AdvancedMD — 3 operation(s) for medicationrequest.
-  name: AdvancedMD Medication Request API
-  slug: advancedmd-medicationrequest-api
 - baseURL: https://providerapi.advancedmd.com/v1/r4
   baseurl_source: declared
   description: The Observation API from AdvancedMD — 3 operation(s) for observation.
@@ -207,6 +182,31 @@ apis:
   description: The Start Bulk Data Export API from AdvancedMD — 1 operation(s) for start bulk data export.
   name: AdvancedMD Start Bulk Data Export API
   slug: advancedmd-start-bulk-data-export-api
+- baseURL: https://providerapi.advancedmd.com
+  baseurl_source: declared
+  description: The Allergy Intolerance API from AdvancedMD — 3 operation(s) for allergy intolerance.
+  name: AdvancedMD Allergy Intolerance API
+  slug: advancedmd-allergy-intolerance-api
+- baseURL: https://providerapi.advancedmd.com
+  baseurl_source: declared
+  description: The Care plan API from AdvancedMD — 3 operation(s) for care plan.
+  name: AdvancedMD Care plan API
+  slug: advancedmd-care-plan-api
+- baseURL: https://providerapi.advancedmd.com
+  baseurl_source: declared
+  description: The CCDA API from AdvancedMD — 1 operation(s) for ccda.
+  name: AdvancedMD CCDA API
+  slug: advancedmd-ccda-api
+- baseURL: https://providerapi.advancedmd.com
+  baseurl_source: declared
+  description: The Document Reference API from AdvancedMD — 4 operation(s) for document reference.
+  name: AdvancedMD Document Reference API
+  slug: advancedmd-document-reference-api
+- baseURL: https://providerapi.advancedmd.com
+  baseurl_source: declared
+  description: The Medication Request API from AdvancedMD — 3 operation(s) for medication request.
+  name: AdvancedMD Medication Request API
+  slug: advancedmd-medication-request-api
 artifact_total: 42
 collections:
 - collection_type: open
@@ -447,7 +447,7 @@ modified: '2026-08-15'
 name: AdvancedMD
 nav: Providers
 network: true
-overview: 'AdvancedMD publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Authentication API, C CDA API, and 27 more. Tagged areas include Healthcare, United States, EHR, EMR, and Practice Management.
+overview: 'AdvancedMD publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cancel Bulk Data Export API, Care Team API, and 27 more. Tagged areas include Healthcare, United States, EHR, EMR, and Practice Management.
 
 
   AdvancedMD''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, FAQ, signup flow, and 41 more developer resources.'
@@ -455,7 +455,7 @@ plans:
 - name: Advancedmd Plans Pricing
   plan_count: 6
   slug: advancedmd-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Advancedmd Rate Limits
@@ -467,7 +467,7 @@ scopes:
   summary_line: 128 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 54.5
+  composite: 55.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 44.0
@@ -475,11 +475,11 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 73.7
     contract_governance: 18.2
-    contract_quality: 50.0
+    contract_quality: 55.6
     developer_ergonomics: 32.7
     discoverability: 66.7
     operational_transparency: 28.9
@@ -512,7 +512,7 @@ score:
     regime_id: health
     score: 77.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: Creates, manages, and retrieves on-demand and live video interviews, including structured interview guides, candidate invitations, and recorded responses. Exposed to customers and certified ATS partne
@@ -101,7 +101,7 @@ modified: '2026-05-23'
 name: HireVue
 nav: Providers
 network: true
-overview: 'HireVue publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video Interviewing, Assessments, AI Hiring, Scheduling, and Conversational AI.
+overview: 'HireVue publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video Interviewing, Assessment, AI Hiring, Scheduling, and Conversational AI.
 
 
   HireVue''s developer surface includes engineering blog and 6 more developer resources.'
@@ -109,7 +109,7 @@ plans:
 - name: Hirevue Plans Pricing
   plan_count: 1
   slug: hirevue-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Hirevue Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -153,10 +153,10 @@ security:
 slug: hirevue
 tags:
 - Video Interviewing
-- Assessments
+- Assessment
 - AI Hiring
 - Scheduling
 - Conversational AI
-- HR Tech
+- Human Resources
 website: https://www.hirevue.com
 ---

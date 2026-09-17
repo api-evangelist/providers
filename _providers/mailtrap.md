@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -81,6 +81,10 @@ collections:
   name: Mailtrap Email Sending Inboxes Send API
   slug: open-mailtrap-send-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mailtrap.io
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/mailtrap/refs/heads/main/agentic-access/mailtrap-agentic-access.yml
   title: ''
@@ -156,19 +160,19 @@ finops:
   slug: mailtrap-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mailtrap.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Mailtrap
 nav: Providers
 network: true
 overview: 'Mailtrap publishes 3 APIs on the [APIs.io](https://apis.io/) network: Inboxes API, Messages API, and Send API. Tagged areas include Email, Email Delivery, Email Sandbox, Email Testing, and Transactional Email.
 
 
-  Mailtrap''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 9 more developer resources.'
+  Mailtrap''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Mailtrap Plans Pricing
   plan_count: 3
   slug: mailtrap-plans-pricing
-random_paper: 18
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Mailtrap Rate Limits
@@ -200,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -222,5 +226,5 @@ tags:
 - Email Sandbox
 - Email Testing
 - Transactional Email
-website: https://mailtrap.io/
+website: https://mailtrap.io
 ---

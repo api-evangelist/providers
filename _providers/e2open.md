@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -181,11 +181,11 @@ jsonld:
   property_count: 28
   slug: e2open-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: E2open
 nav: Providers
 network: true
-overview: 'E2open publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Schedules API, Shipping Instructions API, and 1 more.
+overview: 'E2open publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Schedules API, Shipping Instructions API, and 1 more. Tagged areas include Logistics, Supply Chain, Transportation, and Booking.
 
 
   The E2open catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -196,7 +196,7 @@ plans:
 - name: E2Open Plans Pricing
   plan_count: 3
   slug: e2open-plans-pricing
-random_paper: 18
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: E2Open Rate Limits
@@ -238,11 +238,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -262,5 +259,10 @@ security:
   slug: e2open-vulnerability-disclosure
   summary_line: security.txt · contact published
 slug: e2open
+tags:
+- Logistics
+- Supply Chain
+- Transportation
+- Booking
 website: https://www.e2open.com/
 ---

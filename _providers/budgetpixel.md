@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: First-party hosted remote Model Context Protocol server (streamable HTTP, protocol 2025-06-18) giving agents 12 tools to generate images, video, music and sound effects on the signed-in account, upsca
@@ -109,11 +109,6 @@ apis:
   slug: budgetpixel-lip-sync-api
 - baseURL: https://api.budgetpixel.com/v1
   baseurl_source: declared
-  description: The MiniMax API from BudgetPixel — 1 operation(s) for minimax.
-  name: BudgetPixel Mini Max API
-  slug: budgetpixel-minimax-api
-- baseURL: https://api.budgetpixel.com/v1
-  baseurl_source: declared
   description: Discover available models and pricing
   name: BudgetPixel Models API
   slug: budgetpixel-models-api
@@ -172,6 +167,11 @@ apis:
   description: The xAI API from BudgetPixel — 2 operation(s) for xai.
   name: BudgetPixel X AI API
   slug: budgetpixel-xai-api
+- baseURL: https://mcp.budgetpixel.com/mcp
+  baseurl_source: declared
+  description: The Mini Max API from BudgetPixel — 1 operation(s) for mini max.
+  name: BudgetPixel Mini Max API
+  slug: budgetpixel-mini-max-api
 artifact_total: 35
 common:
 - group: company
@@ -346,7 +346,7 @@ plans:
 - name: Budgetpixel Plans Pricing
   plan_count: 6
   slug: budgetpixel-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Budgetpixel Rate Limits
@@ -391,7 +391,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -429,7 +429,7 @@ tags:
 - Text-to-Image
 - Text-to-Video
 - Upscaling
-- Credits
+- Credit
 - Model Aggregator
 - Agent Card
 website: https://www.budgetpixel.com/

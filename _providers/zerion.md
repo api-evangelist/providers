@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -68,11 +68,6 @@ apis:
   slug: zerion-gas-api
 - baseURL: https://api.zerion.io
   baseurl_source: declared
-  description: Operations related to non fungible assets, such list them, search or get by ID.
-  name: Zerion nfts API
-  slug: zerion-nfts-api
-- baseURL: https://api.zerion.io
-  baseurl_source: declared
   description: Operations related to subscriptions to transactions.
   name: Zerion subscriptions to transactions API
   slug: zerion-subscriptions-to-transactions-api
@@ -91,6 +86,11 @@ apis:
   description: Operations related to wallets, such as portfolio charts, positions, and transactions.
   name: Zerion wallets API
   slug: zerion-wallets-api
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations related to non fungible assets, such list them, search or get by ID.
+  name: Zerion Nfts API
+  slug: zerion-nfts-api
 arazzos:
 - description: Create a transaction webhook subscription for a set of wallets, confirm it, then verify the watched-wallet count.
   name: Zerion wallet activity subscription
@@ -347,7 +347,7 @@ plans:
 - name: Zerion Plans
   plan_count: 5
   slug: zerion-plans
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Zerion Rate Limits
@@ -388,7 +388,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

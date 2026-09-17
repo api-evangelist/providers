@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -59,11 +59,6 @@ apis:
   description: The bulk_other API from Devtron — 2 operation(s) for bulk_other.
   name: Devtron bulk_other API
   slug: devtron-bulk-other-api
-- baseURL: https://devtron.example.com/orchestrator
-  baseurl_source: declared
-  description: The BulkUpdate API from Devtron — 5 operation(s) for bulkupdate.
-  name: Devtron BulkUpdate API
-  slug: devtron-bulkupdate-api
 - baseURL: https://devtron.example.com/orchestrator
   baseurl_source: declared
   description: Endpoints for managing authentication and authorization caches.
@@ -97,7 +92,7 @@ apis:
 - baseURL: https://devtron.example.com/orchestrator
   baseurl_source: declared
   description: The Devtron Server version API from Devtron — 1 operation(s) for devtron server version.
-  name: Devtron Devtron Server version API
+  name: Devtron Server version API
   slug: devtron-devtron-server-version-api
 - baseURL: https://devtron.example.com/orchestrator
   baseurl_source: declared
@@ -184,6 +179,11 @@ apis:
   description: The Workflow Management API from Devtron — 2 operation(s) for workflow management.
   name: Devtron Workflow Management API
   slug: devtron-workflow-management-api
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The Bulk Update API from Devtron — 5 operation(s) for bulk update.
+  name: Devtron Bulk Update API
+  slug: devtron-bulk-update-api
 artifact_total: 61
 asyncapis:
 - description: ''
@@ -386,7 +386,7 @@ created: '2026-07-17'
 description: Devtron is an open-source, AI-native Kubernetes management and software delivery platform that unifies application, infrastructure, and cost management for engineering, DevOps, and SRE teams. It provides Kubernetes-native CI/CD, GitOps (ArgoCD/FluxCD), multi-cluster operations, security and compliance governance, observability, and FinOps in a single interface, with 100+ tool integrations and an agentic SRE assistant. Devtron exposes a programmable orchestrator REST API (OpenAPI 3.0, 110 operations) covering application, job, Helm chart, deployment, bulk-action, RBAC, SSO, cluster/environment and notification management, authenticated with RBAC-scoped API tokens. Backed by Insight Partners. Enriched by the API Evangelist pipeline from Devtron's public developer surface.
 image: https://avatars.githubusercontent.com/u/60952665?v=4
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Devtron
 nav: Providers
 network: true
@@ -397,10 +397,10 @@ overview: 'Devtron publishes 28 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Devtron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 16 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: developing
-  composite: 40.4
+  composite: 40.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -408,11 +408,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 50.5
+    contract_quality: 50.2
     developer_ergonomics: 53.0
     discoverability: 75.9
     operational_transparency: 26.3
@@ -428,7 +428,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

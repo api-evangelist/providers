@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-09-15'
+  score: 27.7
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -80,17 +80,17 @@ apis:
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service/
   baseurl_source: declared
   description: Access security-specific audit records including permission changes, security group modifications, and access control events.
-  name: Workday Security Security Audit API
+  name: Workday Security Audit API
   slug: workday-security-security-audit-api
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service/
   baseurl_source: declared
   description: Manage the membership of users and integration system users within security groups.
-  name: Workday Security Security Group Members API
+  name: Workday Security Group Members API
   slug: workday-security-security-group-members-api
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service/
   baseurl_source: declared
   description: Create, retrieve, and manage security groups that control access to Workday domains, business processes, and securable items.
-  name: Workday Security Security Groups API
+  name: Workday Security Groups API
   slug: workday-security-security-groups-api
 - baseURL: https://wd2-impl-services1.workday.com/ccx/service/
   baseurl_source: declared
@@ -378,7 +378,7 @@ json_structures:
   property_count: 0
   slug: workday-security-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Workday Security
 nav: Providers
 network: true
@@ -393,7 +393,7 @@ plans:
 - name: Workday Security Plans Pricing
   plan_count: 1
   slug: workday-security-plans-pricing
-random_paper: 1
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Workday Security Rate Limits
@@ -441,7 +441,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -472,5 +472,6 @@ tags:
 - SAML
 - Security
 - SSO
+- Identity Federation
 website: https://www.workday.com
 ---

@@ -25,7 +25,7 @@ name: Local Bushel
 nav: Providers
 network: true
 overview: Local Bushel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 14
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/local-bushel/refs/heads/main/screenshots/local-bushel-2026-07-25T225418.png
 slug: local-bushel
 tags:

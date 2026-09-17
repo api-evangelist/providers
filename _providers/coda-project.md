@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -126,11 +126,6 @@ apis:
   slug: coda-project-groups-api
 - baseURL: https://coda.io/apis/v1
   baseurl_source: declared
-  description: Legal holds are used to ensure a given set of docs cannot be deleted and enables simplified export management of doc content.
-  name: Coda Project LegalHolds API
-  slug: coda-project-legalholds-api
-- baseURL: https://coda.io/apis/v1
-  baseurl_source: declared
   description: These endpoints wouldn't fit anywhere else, but you may find them useful when working with Superhuman Docs.
   name: Coda Project Miscellaneous API
   slug: coda-project-miscellaneous-api
@@ -204,6 +199,11 @@ apis:
   description: This API allows you to list and view your organization's workspaces.
   name: Coda Project Workspaces API
   slug: coda-project-workspaces-api
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Legal holds are used to ensure a given set of docs cannot be deleted and enables simplified export management of doc content.
+  name: Coda Project Legal Holds API
+  slug: coda-project-legal-holds-api
 arazzos:
 - description: Create a doc, add a page, then upsert rows and wait for the async mutation to complete.
   name: Create a Coda doc and populate a table
@@ -416,6 +416,10 @@ collections:
   name: Superhuman Docs Admin Account Workspaces API
   slug: open-coda-project-workspaces-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://coda.io
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/capabilities/coda-project-capability-edges.yml
   title: ''
@@ -619,7 +623,7 @@ mcp_servers:
 - description: Official Coda (Superhuman Docs) remote MCP server. Lets AI clients (Claude, Cursor, and other MCP hosts) read and write Coda docs using natural-language prompts. In beta — tools and behavior are subje
   name: Coda Project MCP Server
   slug: coda-project-mcp-server
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Coda Project
 nav: Providers
 network: true
@@ -629,8 +633,8 @@ overview: 'Coda Project publishes 32 APIs on the [APIs.io](https://apis.io/) net
   The Coda Project catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 35 more developer resources.'
-random_paper: 14
+  Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 36 more developer resources.'
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Coda Project Rate Limits
@@ -654,7 +658,7 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 68.1
+    contract_quality: 68.0
     developer_ergonomics: 75.6
     discoverability: 75.9
     operational_transparency: 68.4
@@ -670,7 +674,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -705,5 +709,5 @@ tags:
 - Artificial Intelligence
 - Content Management
 - Software-as-a-Service
-website: https://coda.io/developers
+website: https://coda.io
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,7 @@ name: Upciti
 nav: Providers
 network: true
 overview: Upciti is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Smart Cities, IoT, Sensors, and Urban Data.
-random_paper: 3
+random_paper: 16
 score:
   band: emerging
   composite: 14.3
@@ -126,7 +126,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 4
@@ -2322,7 +2322,7 @@ modified: '2026-05-19'
 name: Amazon IAM Identity Center
 nav: Providers
 network: true
-overview: 'Amazon IAM Identity Center publishes 56 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSIdentityStore.CreateGroup API, #X Amz Target=AWSIdentityStore.CreateGroupMembership API, #X Amz Target=AWSIdentityStore.CreateUser API, and 53 more. Tagged areas include Access Control, Authentication, Identity Management, and Single Sign-On.
+overview: 'Amazon IAM Identity Center publishes 56 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSIdentityStore.CreateGroup API, #X Amz Target=AWSIdentityStore.CreateGroupMembership API, #X Amz Target=AWSIdentityStore.CreateUser API, and 53 more. Tagged areas include Access Control, Authentication, Identity Management, and SSO.
 
 
   The Amazon IAM Identity Center catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2333,7 +2333,7 @@ plans:
 - name: Amazon Iam Identity Center Plans Pricing
   plan_count: 3
   slug: amazon-iam-identity-center-plans-pricing
-random_paper: 3
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Identity Center Rate Limits
@@ -2387,7 +2387,7 @@ score:
       marker_coverage: 0.0
       total: 56
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2415,7 +2415,7 @@ tags:
 - Access Control
 - Authentication
 - Identity Management
-- Single Sign-On
+- SSO
 use_cases:
 - description: Enable employees to access all AWS accounts and business apps with a single set of credentials.
   name: Workforce SSO

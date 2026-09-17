@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for managing Infogram projects programmatically — list and copy projects, read and update project entities, upload image assets, publish and unpublish, delete, and export projects as image/PD
@@ -166,7 +166,7 @@ overview: 'Infogram publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Infogram''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 11
+random_paper: 15
 score:
   band: thin
   composite: 29.4
@@ -195,7 +195,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -221,6 +221,6 @@ tags:
 - Reporting
 - Business Intelligence
 - Content
-- Embeds
+- Embed
 website: https://infogram.com
 ---

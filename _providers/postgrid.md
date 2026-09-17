@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: A REST API for programmatically sending letters, postcards, checks, and self-mailers. Handles printing, postage, and delivery with support for templates, contacts, tracking, webhooks, and both test an
@@ -139,7 +139,7 @@ plans:
 - name: Postgrid Plans Pricing
   plan_count: 13
   slug: postgrid-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Postgrid Rate Limits
@@ -166,7 +166,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,12 +45,12 @@ agentic_access:
   summary_line: 26 operations · 10 acting
 api_count: 3
 apis:
-- baseURL: https://api.traiana.com/creditlink/v1
+- baseURL: https://api.traiana.com/harmony/v1
   baseurl_source: spec
   description: The Allocations API from Traiana — 1 operation(s) for allocations.
   name: Traiana Allocations API
   slug: traiana-allocations-api
-- baseURL: https://api.traiana.com/creditlink/v1
+- baseURL: https://api.traiana.com/netlink/v1
   baseurl_source: spec
   description: The Compression API from Traiana — 1 operation(s) for compression.
   name: Traiana Compression API
@@ -65,27 +65,27 @@ apis:
   description: The Designation Notices API from Traiana — 1 operation(s) for designation notices.
   name: Traiana Designation Notices API
   slug: traiana-designation-notices-api
-- baseURL: https://api.traiana.com/creditlink/v1
+- baseURL: https://api.traiana.com/harmony/v1
   baseurl_source: spec
   description: The Give-Ups API from Traiana — 1 operation(s) for give-ups.
   name: Traiana Give-Ups API
   slug: traiana-give-ups-api
-- baseURL: https://api.traiana.com/creditlink/v1
+- baseURL: https://api.traiana.com/harmony/v1
   baseurl_source: spec
   description: The Matching API from Traiana — 1 operation(s) for matching.
   name: Traiana Matching API
   slug: traiana-matching-api
-- baseURL: https://api.traiana.com/creditlink/v1
+- baseURL: https://api.traiana.com/netlink/v1
   baseurl_source: spec
   description: The Netting API from Traiana — 3 operation(s) for netting.
   name: Traiana Netting API
   slug: traiana-netting-api
-- baseURL: https://api.traiana.com/creditlink/v1
+- baseURL: https://api.traiana.com/netlink/v1
   baseurl_source: spec
   description: The Settlement API from Traiana — 2 operation(s) for settlement.
   name: Traiana Settlement API
   slug: traiana-settlement-api
-- baseURL: https://api.traiana.com/creditlink/v1
+- baseURL: https://api.traiana.com/harmony/v1
   baseurl_source: spec
   description: The Trades API from Traiana — 3 operation(s) for trades.
   name: Traiana Trades API
@@ -247,7 +247,7 @@ plans:
 - name: Traiana Plans Pricing
   plan_count: 1
   slug: traiana-plans-pricing
-random_paper: 1
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Traiana Rate Limits
@@ -300,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

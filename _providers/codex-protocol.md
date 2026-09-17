@@ -43,7 +43,7 @@ name: Codex Protocol
 nav: Providers
 network: true
 overview: Codex Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Ethereum, and Provenance.
-random_paper: 9
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/codex-protocol/refs/heads/main/screenshots/codex-protocol-2026-07-25T205943.png
 slug: codex-protocol
 tags:

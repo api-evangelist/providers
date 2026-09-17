@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- baseURL: https://cloudformation.us-east-1.amazonaws.com
-  baseurl_source: declared
-  description: Operations for managing CloudFormation change sets
-  name: Amazon CloudFormation Change Sets API
-  slug: amazon-cloudformation-change-sets-api
 - baseURL: https://cloudformation.us-east-1.amazonaws.com
   baseurl_source: declared
   description: Operations for managing stack resources
@@ -64,6 +59,11 @@ apis:
   description: Operations for working with CloudFormation templates
   name: Amazon CloudFormation Templates API
   slug: amazon-cloudformation-templates-api
+- baseURL: https://cloudformation.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing CloudFormation change sets
+  name: Amazon CloudFormation Changesets API
+  slug: amazon-cloudformation-changesets-api
 artifact_total: 78
 collections:
 - collection_type: open
@@ -372,18 +372,18 @@ mcp_servers:
 - description: ''
   name: AWS IaC MCP Server
   slug: aws-iac-mcp-server
-modified: '2026-08-06'
+modified: '2026-09-16'
 name: Amazon CloudFormation
 nav: Providers
 network: true
-overview: 'Amazon CloudFormation publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Change Sets API, Resources API, Stacks API, and 1 more. Tagged areas include CloudFormation, Infrastructure as Code, DevOps, and IaC.
+overview: 'Amazon CloudFormation publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Resources API, Stacks API, Templates API, and 1 more. Tagged areas include CloudFormation, Infrastructure as Code, DevOps, and IaC.
 
 
   The Amazon CloudFormation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
   Amazon CloudFormation''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 19 more developer resources.'
-random_paper: 17
+random_paper: 1
 rules:
 - effective_rule_count: 6
   extends: []
@@ -435,7 +435,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

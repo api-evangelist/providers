@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -47,13 +47,8 @@ api_count: 1
 apis:
 - baseURL: https://apprunner.{region}.amazonaws.com
   baseurl_source: declared
-  description: Manage auto scaling configurations
-  name: AWS App Runner Auto Scaling API
-  slug: aws-app-runner-auto-scaling-api
-- baseURL: https://apprunner.{region}.amazonaws.com
-  baseurl_source: declared
   description: The AWS App Runner API API from AWS App Runner — 1 operation(s) for aws app runner api.
-  name: AWS App Runner AWS App Runner API API
+  name: AWS App Runner AWS App Runner API
   slug: aws-app-runner-aws-app-runner-api-api
 - baseURL: https://apprunner.{region}.amazonaws.com
   baseurl_source: declared
@@ -67,11 +62,6 @@ apis:
   slug: aws-app-runner-custom-domains-api
 - baseURL: https://apprunner.{region}.amazonaws.com
   baseurl_source: declared
-  description: 'The #DeleteService API from AWS App Runner — 1 operation(s) for #deleteservice.'
-  name: 'AWS App Runner #DeleteService API'
-  slug: aws-app-runner-deleteservice-api
-- baseURL: https://apprunner.{region}.amazonaws.com
-  baseurl_source: declared
   description: Manage deployments and operations
   name: AWS App Runner Deployments API
   slug: aws-app-runner-deployments-api
@@ -80,11 +70,6 @@ apis:
   description: 'The #DescribeService API from AWS App Runner — 1 operation(s) for #describeservice.'
   name: 'AWS App Runner #DescribeService API'
   slug: aws-app-runner-describeservice-api
-- baseURL: https://apprunner.{region}.amazonaws.com
-  baseurl_source: declared
-  description: 'The #ListServices API from AWS App Runner — 1 operation(s) for #listservices.'
-  name: 'AWS App Runner #ListServices API'
-  slug: aws-app-runner-listservices-api
 - baseURL: https://apprunner.{region}.amazonaws.com
   baseurl_source: declared
   description: Manage observability configurations
@@ -102,14 +87,29 @@ apis:
   slug: aws-app-runner-resumeservice-api
 - baseURL: https://apprunner.{region}.amazonaws.com
   baseurl_source: declared
-  description: 'The #UpdateService API from AWS App Runner — 1 operation(s) for #updateservice.'
-  name: 'AWS App Runner #UpdateService API'
-  slug: aws-app-runner-updateservice-api
-- baseURL: https://apprunner.{region}.amazonaws.com
-  baseurl_source: declared
   description: Manage VPC connectors
   name: AWS App Runner VPC API
   slug: aws-app-runner-vpc-api
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Manage auto scaling configurations
+  name: AWS App Runner Autoscaling API
+  slug: aws-app-runner-autoscaling-api
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Delete Service API from AWS App Runner — 1 operation(s) for delete service.
+  name: AWS App Runner Delete Service API
+  slug: aws-app-runner-delete-service-api
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The List Services API from AWS App Runner — 1 operation(s) for list services.
+  name: AWS App Runner List Services API
+  slug: aws-app-runner-list-services-api
+- baseURL: https://apprunner.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Update Service API from AWS App Runner — 1 operation(s) for update service.
+  name: AWS App Runner Update Service API
+  slug: aws-app-runner-update-service-api
 artifact_total: 116
 collections:
 - collection_type: postman
@@ -474,11 +474,11 @@ jsonld:
   property_count: 62
   slug: aws-app-runner-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: AWS App Runner
 nav: Providers
 network: true
-overview: 'AWS App Runner publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auto Scaling API, AWS App Runner API API, Connections API, and 10 more. Tagged areas include CI/CD, Containers, Deployment, Developer Tools, and Microservices.
+overview: 'AWS App Runner publishes 13 APIs on the [APIs.io](https://apis.io/) network, including AWS App Runner API, Connections API, Custom Domains API, and 10 more. Tagged areas include CI/CD, Containers, Deployment, Developer Tools, and Microservices.
 
 
   The AWS App Runner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -489,7 +489,7 @@ plans:
 - name: Aws App Runner Plans Pricing
   plan_count: 3
   slug: aws-app-runner-plans-pricing
-random_paper: 1
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Aws App Runner Rate Limits
@@ -543,7 +543,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

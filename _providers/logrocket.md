@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- baseURL: https://api.logrocket.com
-  baseurl_source: declared
-  description: LogRocket GraphQL API for querying session, event, error, and analytics data with flexible field selection.
-  name: LogRocket GraphQL API
-  slug: logrocket-graphql-api
 - baseURL: https://api.logrocket.com/v1
   baseurl_source: declared
   description: Retrieve exported session data files from storage buckets.
@@ -65,6 +60,11 @@ apis:
   description: Manage user identification and traits for session context.
   name: LogRocket Users API
   slug: logrocket-users-api
+- baseURL: https://api.logrocket.com
+  baseurl_source: declared
+  description: GraphQL endpoint for querying session replay and analytics data.
+  name: LogRocket Graph QL API
+  slug: logrocket-graph-ql-api
 artifact_total: 36
 asyncapis:
 - description: The LogRocket Galileo Highlights webhook delivers AI-generated session highlights to a customer-specified URL when processing completes. When a highlights request includes a webhookURL parameter, LogR
@@ -214,7 +214,7 @@ modified: '2026-05-19'
 name: LogRocket
 nav: Providers
 network: true
-overview: 'LogRocket publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Data Export API, Highlights API, and 1 more. Tagged areas include Session Replay, Product Analytics, Frontend Monitoring, Logging, and Errors.
+overview: 'LogRocket publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data Export API, Highlights API, Users API, and 1 more. Tagged areas include Session Replay, Product Analytics, Frontend Monitoring, Logging, and Errors.
 
 
   The LogRocket catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -225,7 +225,7 @@ plans:
 - name: Logrocket Plans Pricing
   plan_count: 1
   slug: logrocket-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Logrocket Rate Limits
@@ -280,7 +280,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: RESTful create, list, get, update, and delete access to Fluxx model records such as GrantRequest, Organization, and RequestTransaction under /api/rest/v2/{model}. Supports column selection (cols), rec
@@ -92,7 +92,7 @@ overview: 'Fluxx publishes 4 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Fluxx''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 7
+random_paper: 13
 score:
   band: emerging
   composite: 11.2
@@ -113,7 +113,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

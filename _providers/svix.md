@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 79
-  human_in_the_loop: 0
+- acting_count: 137
+  human_in_the_loop: 1
   name: Svix Agentic Access
-  operation_count: 128
+  operation_count: 230
   slug: svix-agentic-access
-  summary_line: 128 operations · 79 acting
+  summary_line: 230 operations · 137 acting · 1 human-in-the-loop
 api_count: 1
 apis:
 - description: 'The self-hostable open source Svix server (svix-webhooks repo). Smaller surface area than the hosted product (no Stream, no Ingest, no Connectors, no Background Tasks, no multi-region) — 29 paths, 46 '
@@ -816,7 +816,7 @@ plans:
 - name: Svix Plans Pricing
   plan_count: 3
   slug: svix-plans-pricing
-random_paper: 17
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Svix Rate Limits
@@ -887,7 +887,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

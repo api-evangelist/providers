@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,15 +42,20 @@ agentic_access:
   operation_count: 1
   slug: helmerich-and-payne-agentic-access
   summary_line: 1 operation
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://fac-api.magvar.com
   baseurl_source: declared
-  description: A single-operation, anonymous, read-only calculation API that implements dynamic quality control for the ISCWSA OWSG Rev-2 error model tool codes. Callers submit one MWD survey station — WGS84 locatio
-  name: MagVAR Survey Validation API
-  slug: magvar-survey-validation-api
+  description: Survey Validation and QC
+  name: Helmerich And Payne Survey Validation Controller API
+  slug: helmerich-and-payne-survey-validation-controller-api
 artifact_total: 6
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/overlays/helmerich-and-payne-magvar-survey-validation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/helmerich-and-payne-magvar-survey-validation-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/helmerich-and-payne/refs/heads/main/security/helmerich-and-payne-domain-security.yml
   title: ''
@@ -164,10 +169,10 @@ modified: '2026-09-13'
 name: Helmerich And Payne
 nav: Providers
 network: true
-overview: 'Helmerich And Payne publishes 1 API on the [APIs.io](https://apis.io/) network: MagVAR Survey Validation API. Tagged areas include Oil and Gas, Drilling, Energy, Wellbore Placement, and Directional Drilling.
+overview: 'Helmerich And Payne publishes 1 API on the [APIs.io](https://apis.io/) network: Survey Validation Controller API. Tagged areas include Oil and Gas, Drilling, Energy, Wellbore Placement, and Directional Drilling.
 
 
-  Helmerich And Payne''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 17 more developer resources.'
+  Helmerich And Payne''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
 plans:
 - name: Helmerich And Payne Plans Pricing
   plan_count: 0
@@ -188,14 +193,14 @@ press:
 - date: '2026-05-25'
   title: Very proud to share this story from our customer Helmerich ...
   url: https://www.linkedin.com/posts/botanosman_very-proud-to-share-this-story-from-our-customer-activity-7391856907306803200-2Kzu
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Helmerich And Payne Rate Limits
   slug: helmerich-and-payne-rate-limits
 score:
   band: thin
-  composite: 35.3
+  composite: 36.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -203,11 +208,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 40.8
+    contract_quality: 44.2
     developer_ergonomics: 44.6
     discoverability: 75.9
     operational_transparency: 2.6
@@ -215,6 +220,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: derived
     skills: derived
   regulatory:
@@ -224,7 +234,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

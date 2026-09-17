@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: The original Simple Network Management Protocol defined in RFC 1157 (May 1990). Establishes the five core PDUs (GetRequest, GetNextRequest, GetResponse, SetRequest, Trap), community-string authenticat
@@ -101,7 +101,7 @@ overview: 'SNMP publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   SNMP''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 5
+random_paper: 6
 score:
   band: emerging
   composite: 11.7
@@ -122,7 +122,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

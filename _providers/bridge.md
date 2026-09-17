@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - baseURL: https://api.bridge.xyz/v0
   baseurl_source: declared
   description: The Bridge Wallets API from Bridge — 6 operation(s) for bridge wallets.
-  name: Bridge Bridge Wallets API
+  name: Bridge Wallets API
   slug: bridge-bridge-wallets-api
 - baseURL: https://api.bridge.xyz/v0
   baseurl_source: declared
@@ -405,7 +405,7 @@ created: '2026-07-17'
 description: 'Bridge is stablecoin payment and money-movement infrastructure for developers. Its composable REST APIs let businesses accept, hold, convert, and pay out stablecoins and fiat through a single integration: onboard customers with KYC/KYB, issue USD/EUR/MXN virtual accounts, orchestrate cross-chain and cross-border transfers, custody balances in Bridge Wallets, convert between stablecoins, issue stablecoin-backed cards (via Stripe Issuing), and issue your own stablecoin. The Bridge API is versioned at /v0, authenticated with a scoped Api-Key header, and supports idempotent writes plus a webhook event surface. Bridge was acquired by Stripe. Backed by Ribbit Capital.'
 image: https://www.bridge.xyz/favicon.ico
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Bridge
 nav: Providers
 network: true
@@ -416,7 +416,7 @@ overview: 'Bridge publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Bridge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 26 more developer resources.'
-random_paper: 12
+random_paper: 5
 scopes:
 - name: Bridge Scopes
   scope_count: 0
@@ -424,7 +424,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.4
+  composite: 50.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -432,11 +432,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 63.2
+    contract_quality: 65.7
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 31.6
@@ -458,7 +458,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

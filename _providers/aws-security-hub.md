@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -75,7 +75,7 @@ apis:
 - baseURL: https://securityhub.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The Hub API from AWS Security Hub — 1 operation(s) for hub.
-  name: AWS Security Hub Hub API
+  name: AWS Security Hub API
   slug: aws-security-hub-hub-api
 - baseURL: https://securityhub.us-east-1.amazonaws.com
   baseurl_source: declared
@@ -193,7 +193,7 @@ created: '2026-05-11'
 description: AWS Security Hub is a cloud security posture management (CSPM) service that aggregates, organizes, and prioritizes security findings from AWS services like Amazon GuardDuty, Inspector, and Macie, as well as supported third-party products. It continuously assesses your AWS environment against security standards such as AWS Foundational Security Best Practices, CIS, PCI DSS, and NIST. The Security Hub API and AWS SDKs provide access to findings, controls, insights, and automation rules using AWS Signature Version 4 authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-security-hub.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: AWS Security Hub
 nav: Providers
 network: true
@@ -201,7 +201,7 @@ overview: 'AWS Security Hub publishes 11 APIs on the [APIs.io](https://apis.io/)
 
 
   AWS Security Hub''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: thin
   composite: 29.2
@@ -229,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

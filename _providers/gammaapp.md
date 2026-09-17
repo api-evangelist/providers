@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Gamma Public API generates presentations, documents, websites, and social posts from text. Everything runs asynchronously: create a generation, poll for status, and retrieve the result (gammaUrl, '
@@ -41,6 +41,10 @@ apis:
   slug: gamma-public-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://gamma.app
 - group: start
   title: ''
   type: DeveloperPortal
@@ -171,15 +175,15 @@ mcp_servers:
 - description: ''
   name: Gamma.app MCP Server
   slug: gammaapp-mcp-server
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Gamma.app
 nav: Providers
 network: true
 overview: 'Gamma.app publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Presentations, Documents, and Content Generation.
 
 
-  Gamma.app''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 17
+  Gamma.app''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 21 more developer resources.'
+random_paper: 0
 scopes:
 - name: Gammaapp Scopes
   scope_count: 2
@@ -208,7 +212,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -240,5 +244,5 @@ tags:
 - MCP
 - Websites
 - Social-Media
-website: https://developers.gamma.app/
+website: https://gamma.app
 ---

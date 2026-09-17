@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ modified: '2026-06-21'
 name: Conduktor
 nav: Providers
 network: true
-overview: 'Conduktor publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Clusters API, Groups API, and 4 more. Tagged areas include Apache Kafka, Streaming, Data Governance, Kafka Management, and Gateway.
+overview: 'Conduktor publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Clusters API, Groups API, and 4 more. Tagged areas include Apache Kafka, Streaming, Data Governance, Kafka Management, and Gateways.
 
 
   Conduktor''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -190,7 +190,7 @@ plans:
 - name: Conduktor Plans Pricing
   plan_count: 5
   slug: conduktor-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Conduktor Rate Limits
@@ -223,7 +223,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -252,6 +252,6 @@ tags:
 - Streaming
 - Data Governance
 - Kafka Management
-- Gateway
+- Gateways
 website: https://www.conduktor.io
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Tridge advertises a commercial API for integrating its global agri-food price and trade data into a customer's own systems ("the most comprehensive and powerful API to allow you to integrate our globa
@@ -128,7 +128,7 @@ plans:
 - name: Tridge Plans Pricing
   plan_count: 0
   slug: tridge-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Tridge Rate Limits
@@ -159,7 +159,7 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

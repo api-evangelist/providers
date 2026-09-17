@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://codebuild.us-east-1.amazonaws.com
   baseurl_source: declared
   description: The AWS CodeBuild API API from AWS CodeBuild — 1 operation(s) for aws codebuild api.
-  name: AWS CodeBuild AWS CodeBuild API API
+  name: AWS CodeBuild AWS CodeBuild API
   slug: aws-codebuild-aws-codebuild-api-api
 artifact_total: 9
 collections:
@@ -134,15 +134,15 @@ created: '2026-05-11'
 description: AWS CodeBuild is a fully managed continuous integration build service that compiles source code, runs unit tests, and produces deployable artifacts. It eliminates the need to provision, manage, and scale build servers by providing prepackaged build environments for popular languages and tools, and scales automatically to meet peak build requests. The CodeBuild API uses AWS Signature Version 4 (SigV4) authentication and is accessed via SDKs, the AWS CLI, or direct HTTPS calls to regional service endpoints.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aws-codebuild.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: AWS CodeBuild
 nav: Providers
 network: true
-overview: 'AWS CodeBuild publishes 1 API on the [APIs.io](https://apis.io/) network: AWS CodeBuild API API. Tagged areas include Builds, CI/CD, Continuous Integration, Developer Tools, and DevOps.
+overview: 'AWS CodeBuild publishes 1 API on the [APIs.io](https://apis.io/) network: AWS CodeBuild API. Tagged areas include Builds, CI/CD, Continuous Integration, Developer Tools, and DevOps.
 
 
   AWS CodeBuild''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, and 10 more developer resources.'
-random_paper: 13
+random_paper: 17
 score:
   band: thin
   composite: 37.7
@@ -170,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

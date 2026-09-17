@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -60,11 +60,6 @@ apis:
   description: The Alerts API from YugabyteDB — 24 operation(s) for alerts.
   name: YugabyteDB Alerts API
   slug: yugabytedb-alerts-api
-- baseURL: https://cloud.yugabyte.com/api/public/v1
-  baseurl_source: declared
-  description: Manage IP allow lists that control which client IP addresses or CIDR ranges are permitted to connect to a cluster.
-  name: YugabyteDB AllowLists API
-  slug: yugabytedb-allowlists-api
 - baseURL: https://cloud.yugabyte.com/api/public/v1
   baseurl_source: declared
   description: The Asynchronous Replication API from YugabyteDB — 6 operation(s) for asynchronous replication.
@@ -217,11 +212,6 @@ apis:
   slug: yugabytedb-maintenance-windows-api
 - baseURL: https://cloud.yugabyte.com/api/public/v1
   baseurl_source: declared
-  description: Configure scheduled maintenance windows for clusters to control when Yugabyte applies software patches and infrastructure updates.
-  name: YugabyteDB MaintenanceWindows API
-  slug: yugabytedb-maintenancewindows-api
-- baseURL: https://cloud.yugabyte.com/api/public/v1
-  baseurl_source: declared
   description: The Metrics API from YugabyteDB — 2 operation(s) for metrics.
   name: YugabyteDB Metrics API
   slug: yugabytedb-metrics-api
@@ -285,11 +275,6 @@ apis:
   description: The RBAC management API from YugabyteDB — 5 operation(s) for rbac management.
   name: YugabyteDB RBAC management API
   slug: yugabytedb-rbac-management-api
-- baseURL: https://cloud.yugabyte.com/api/public/v1
-  baseurl_source: declared
-  description: Manage read replicas for a cluster to serve low-latency read requests from remote regions without affecting the primary cluster workload.
-  name: YugabyteDB ReadReplicas API
-  slug: yugabytedb-readreplicas-api
 - baseURL: https://cloud.yugabyte.com/api/public/v1
   baseurl_source: declared
   description: The Region management API from YugabyteDB — 5 operation(s) for region management.
@@ -410,6 +395,16 @@ apis:
   description: The Ybc Management API from YugabyteDB — 5 operation(s) for ybc management.
   name: YugabyteDB Ybc Management API
   slug: yugabytedb-ybc-management-api
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Manage IP allow lists that control which client IP addresses or CIDR ranges are permitted to connect to a cluster.
+  name: YugabyteDB Allow Lists API
+  slug: yugabytedb-allow-lists-api
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Manage read replicas for a cluster to serve low-latency read requests from remote regions without affecting the primary cluster workload.
+  name: YugabyteDB Read Replicas API
+  slug: yugabytedb-read-replicas-api
 arazzos:
 - description: Add a read replica to a cluster and confirm it becomes ACTIVE.
   name: YugabyteDB Aeon Add Read Replica
@@ -435,7 +430,7 @@ arazzos:
 - description: Read a cluster, submit an updated specification, and poll until it returns to ACTIVE.
   name: YugabyteDB Aeon Scale Cluster
   slug: yugabytedb-scale-cluster-workflow
-artifact_total: 273
+artifact_total: 272
 collections:
 - collection_type: postman
   name: YugabyteDB Aeon REST Access Keys API
@@ -1331,7 +1326,7 @@ modified: '2026-05-19'
 name: YugabyteDB
 nav: Providers
 network: true
-overview: 'YugabyteDB publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Accounts API, Alerts API, and 70 more. Tagged areas include Cloud Database, Database, Database-as-a-Service, Distributed SQL, and PostgreSQL.
+overview: 'YugabyteDB publishes 72 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Accounts API, Alerts API, and 69 more. Tagged areas include Cloud Database, Database, Database-as-a-Service, Distributed SQL, and PostgreSQL.
 
 
   The YugabyteDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1342,7 +1337,7 @@ plans:
 - name: Yugabytedb Plans Pricing
   plan_count: 3
   slug: yugabytedb-plans-pricing
-random_paper: 1
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Yugabytedb Rate Limits
@@ -1371,7 +1366,7 @@ rules:
   slug: yugabytedb-spectral-rules
 score:
   band: strong
-  composite: 61.7
+  composite: 61.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 48.5
@@ -1379,11 +1374,11 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 65.8
     contract_governance: 13.6
-    contract_quality: 56.1
+    contract_quality: 55.6
     developer_ergonomics: 79.8
     discoverability: 57.4
     operational_transparency: 44.7
@@ -1391,12 +1386,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 13.8
-      derived: 8
-      marker_coverage: 10.8
-      total: 74
+      callable: 12.5
+      derived: 7
+      marker_coverage: 9.6
+      total: 73
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

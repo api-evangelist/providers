@@ -25,7 +25,7 @@ name: Cell Design Labs
 nav: Providers
 network: true
 overview: Cell Design Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Cell Therapy, and Immunotherapy.
-random_paper: 4
+random_paper: 18
 slug: cell-design-labs
 tags:
 - Company

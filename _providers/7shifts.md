@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -69,11 +69,6 @@ apis:
   description: Physical restaurant locations within a company.
   name: 7shifts Locations API
   slug: 7shifts-locations-api
-- baseURL: https://api.7shifts.com/v2
-  baseurl_source: declared
-  description: Token issuance for Partner OAuth applications.
-  name: 7shifts OAuth API
-  slug: 7shifts-oauth-api
 - baseURL: https://api.7shifts.com/v2
   baseurl_source: declared
   description: Sales, labor, and worked-hours reporting.
@@ -119,6 +114,11 @@ apis:
   description: Company-level webhook subscriptions.
   name: 7shifts Webhooks API
   slug: 7shifts-webhooks-api
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Token issuance for Partner OAuth applications.
+  name: 7shifts O Auth API
+  slug: 7shifts-oauth-api
 artifact_total: 79
 collections:
 - collection_type: open
@@ -407,7 +407,7 @@ plans:
 - name: 7Shifts Plans Pricing
   plan_count: 4
   slug: 7shifts-plans-pricing
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: 7Shifts Rate Limits
@@ -466,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

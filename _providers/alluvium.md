@@ -19,7 +19,7 @@ name: Alluvium
 nav: Providers
 network: true
 overview: Alluvium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 18
+random_paper: 21
 slug: alluvium
 tags:
 - Company

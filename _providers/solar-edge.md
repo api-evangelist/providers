@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -291,7 +291,7 @@ modified: '2026-08-08'
 name: SolarEdge
 nav: Providers
 network: true
-overview: 'SolarEdge publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Energy API, Environmental API, and 6 more. Tagged areas include Solar, Energy, Monitoring, PV, and Inverter.
+overview: 'SolarEdge publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Energy API, Environmental API, and 6 more. Tagged areas include Solar, Energy, Monitoring, PV, and Inverters.
 
 
   The SolarEdge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -302,7 +302,7 @@ plans:
 - name: Solar Edge Plans Pricing
   plan_count: 1
   slug: solar-edge-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Solar Edge Rate Limits
@@ -353,7 +353,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -375,7 +375,7 @@ tags:
 - Energy
 - Monitoring
 - PV
-- Inverter
+- Inverters
 - Renewable Energy
 - IoT
 website: https://www.solaredge.com

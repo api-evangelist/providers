@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful API v1.0 for the WorkBoard / Quantive strategy-execution platform. Supports OAuth 2.0 (authorization-code) for multi-user apps and an instant-token flow for single-user or testing scenarios. A
@@ -76,11 +76,11 @@ modified: '2026-07-20'
 name: Quantive
 nav: Providers
 network: true
-overview: 'Quantive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, OKR, Strategy Execution, and Goal Management.
+overview: 'Quantive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, OKRs, Strategy Execution, and Goal Management.
 
 
   Quantive''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 16
+random_paper: 19
 scopes:
 - name: Quantive Scopes
   scope_count: 0
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -126,7 +126,7 @@ slug: quantive
 tags:
 - Company
 - Business Applications
-- OKR
+- OKRs
 - Strategy Execution
 - Goal Management
 - Performance Management

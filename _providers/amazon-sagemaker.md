@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -127,6 +127,10 @@ collections:
   name: Amazon SageMaker API
   slug: open-amazon-sagemaker
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/capabilities/amazon-sagemaker-capability-edges.yml
   title: ''
@@ -526,7 +530,7 @@ jsonld:
   property_count: 49
   slug: amazon-sagemaker-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon SageMaker
 nav: Providers
 network: true
@@ -536,12 +540,12 @@ overview: 'Amazon SageMaker publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Amazon SageMaker catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon SageMaker''s developer surface includes developer portal, getting-started guide, documentation, API reference, developer console, signup flow, pricing, and 51 more developer resources.'
+  Amazon SageMaker''s developer surface includes developer portal, getting-started guide, documentation, API reference, developer console, signup flow, pricing, and 52 more developer resources.'
 plans:
 - name: Amazon Sagemaker Plans Pricing
   plan_count: 3
   slug: amazon-sagemaker-plans-pricing
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Sagemaker Rate Limits
@@ -598,7 +602,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -641,5 +645,5 @@ use_cases:
   name: Fraud Detection
 - description: Deploy ML models on edge devices for predictive maintenance use cases.
   name: Predictive Maintenance
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

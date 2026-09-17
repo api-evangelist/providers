@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -47,11 +47,6 @@ apis:
 - description: Fiserv provides webhook-based event notifications across the payments lifecycle. Merchants can subscribe to webhooks to receive real-time notifications for key events including transaction status chan
   name: Fiserv Payment Events
   slug: payment-events
-- baseURL: https://connect-cert.fiservapis.com/ch
-  baseurl_source: spec
-  description: Manage 3-D Secure authentication flows for cardholder verification.
-  name: Fiserv 3-D Secure API
-  slug: fiserv-3-d-secure-api
 - baseURL: https://cert.api.fiservapps.com
   baseurl_source: spec
   description: Create, retrieve, update, and manage deposit and loan accounts.
@@ -177,6 +172,11 @@ apis:
   description: Void previously authorized transactions before settlement.
   name: Fiserv Void API
   slug: fiserv-void-api
+- baseURL: https://connect-cert.fiservapis.com/ch
+  baseurl_source: spec
+  description: Manage 3-D Secure authentication flows for cardholder verification.
+  name: Fiserv 3D Secure API
+  slug: fiserv-3d-secure-api
 artifact_total: 73
 asyncapis:
 - description: Fiserv provides webhook-based event notifications across the payments lifecycle. Merchants can subscribe to webhooks to receive real-time notifications for key events including transaction status chan
@@ -376,7 +376,7 @@ modified: '2026-05-19'
 name: Fiserv
 nav: Providers
 network: true
-overview: 'Fiserv publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Payment Events, 3-D Secure API, Accounts API, and 24 more. Tagged areas include Banking, Financial, Payments, Wealth Management, and Fortune 500.
+overview: 'Fiserv publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Payment Events, Accounts API, Authorization API, and 24 more. Tagged areas include Banking, Financial, Payments, Wealth Management, and Fortune 500.
 
 
   The Fiserv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -403,7 +403,7 @@ press:
 - date: '2026-05-25'
   title: Fiserv
   url: https://en.wikipedia.org/wiki/Fiserv
-random_paper: 4
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Fiserv Rate Limits
@@ -463,7 +463,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

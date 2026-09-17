@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -112,7 +112,12 @@ apis:
 - description: Apollo's hosted remote Model Context Protocol server. Streamable HTTP transport at https://mcp.apollo.io/mcp, OAuth 2.0 authorization with dynamic client registration, exposing Apollo search, enrichme
   name: Apollo MCP
   slug: apollo-api-documentation-mcp
-artifact_total: 53
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: The Users API from Apollo API Documentation — 1 operation(s) for users.
+  name: Apollo API Documentation Users API
+  slug: apollo-api-documentation-users-api
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Apollo Api Documentation Webhooks
@@ -410,7 +415,7 @@ modified: '2026-08-14'
 name: Apollo API Documentation
 nav: Providers
 network: true
-overview: 'Apollo API Documentation publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Apollo API Accounts, Apollo API Analytics, Apollo API Calls, and 10 more. Tagged areas include API Documentation, Sales Intelligence, Data Enrichment, People Search, and Company Search.
+overview: 'Apollo API Documentation publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Apollo API Accounts, Apollo API Analytics, Apollo API Calls, and 11 more. Tagged areas include API Documentation, Sales Intelligence, Data Enrichment, People Search, and Company Search.
 
 
   The Apollo API Documentation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -421,7 +426,7 @@ plans:
 - name: Apollo Api Documentation Plans Pricing
   plan_count: 4
   slug: apollo-api-documentation-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 17
   name: Apollo Api Documentation Rate Limits
@@ -457,11 +462,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 25
+      total: 26
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

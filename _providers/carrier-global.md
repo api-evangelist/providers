@@ -34,24 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.5
-  scored_at: '2026-09-15'
-api_count: 8
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
-- baseURL: https://api.fleet.lynx.carrier.io
-  baseurl_source: declared
-  description: REST API surface exposing Lynx Fleet telematics data for diesel and electric transport refrigeration units (TRUs). Ten operations covering asset inventory, latest-state snapshots, asset and multi-asse
-  name: Carrier Lynx Fleet API
-  slug: lynx-fleet-api
-- baseURL: https://api.fleet.lynx.carrier.io/2waycmd
-  baseurl_source: declared
-  description: 'Remote-control surface for Lynx-connected transport refrigeration units. Three operations: list the commands a given asset supports, send one or more commands, and check the status of a dispatched com'
-  name: Carrier Lynx 2-way Command API
-  slug: lynx-2way-command-api
-- baseURL: https://api.fleet.lynx.carrier.io/coa
-  baseurl_source: declared
-  description: 'Telemetry surface for Carrier-managed marine and intermodal refrigerated containers, published as a separate contract with its own data model. Three operations: the container Unified Model property an'
-  name: Carrier Lynx Container API
-  slug: lynx-container-api
 - description: The GraphQL backend behind the Lynx Fleet Dev Portal. Its /public/graphql endpoint answers anonymously and is the only way to reach Carrier's API contracts and integration guides in machine-readable f
   name: Carrier Lynx Dev Portal GraphQL
   slug: lynx-portal-graphql
@@ -67,12 +52,37 @@ apis:
 - description: The Carrier SmartHome app lets homeowners remotely control Carrier connected smart thermostats and residential HVAC equipment. No public developer API is currently published; integration is via the co
   name: Carrier SmartHome App
   slug: carrier-smarthome
-artifact_total: 16
+- baseURL: https://api.fleet.lynx.carrier.io
+  baseurl_source: declared
+  description: The core API from Carrier Global — 13 operation(s) for core.
+  name: Carrier Global Core API
+  slug: carrier-global-core-api
+- baseURL: https://api.fleet.lynx.carrier.io
+  baseurl_source: declared
+  description: The Core2 API from Carrier Global — 3 operation(s) for core2.
+  name: Carrier Global Core2 API
+  slug: carrier-global-core2-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Carrier Global Lynx Webhooks
   slug: carrier-global-lynx-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/overlays/carrier-global-lynx-fleet-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/carrier-global-lynx-fleet-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/overlays/carrier-global-lynx-2way-command-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/carrier-global-lynx-2way-command-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/carrier-global/refs/heads/main/overlays/carrier-global-lynx-container-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/carrier-global-lynx-container-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -258,25 +268,25 @@ modified: '2026-09-05'
 name: Carrier Global
 nav: Providers
 network: true
-overview: 'Carrier Global publishes 3 APIs on the [APIs.io](https://apis.io/) network: Carrier Lynx Fleet API, Carrier Lynx 2-way Command API, and Carrier Lynx Container API. Tagged areas include HVAC, Cold Chain, Telematics, Building Automation, and IoT.
+overview: 'Carrier Global publishes 2 APIs on the [APIs.io](https://apis.io/) network: Core API and Core2 API. Tagged areas include HVAC, Cold Chain, Telematics, Building Automation, and IoT.
 
 
   The Carrier Global catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Carrier Global''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 30 more developer resources.'
+  Carrier Global''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 33 more developer resources.'
 plans:
 - name: Carrier Global Plans Pricing
   plan_count: 3
   slug: carrier-global-plans-pricing
-random_paper: 7
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Carrier Global Rate Limits
   slug: carrier-global-rate-limits
 score:
   band: developing
-  composite: 52.5
+  composite: 53.4
   coverage:
     artifact_dirs: 25
     catalog_earned: 62.0
@@ -284,11 +294,11 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 57.9
     contract_governance: 19.7
-    contract_quality: 64.2
+    contract_quality: 67.8
     developer_ergonomics: 54.2
     discoverability: 72.2
     operational_transparency: 39.5
@@ -299,11 +309,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 2
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

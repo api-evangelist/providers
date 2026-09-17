@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -98,11 +98,6 @@ apis:
   slug: apicurio-contracts-api
 - baseURL: http://localhost:8080/apis/registry/v3
   baseurl_source: spec
-  description: The GitOps API from Apicurio — 2 operation(s) for gitops.
-  name: Apicurio GitOps API
-  slug: apicurio-gitops-api
-- baseURL: http://localhost:8080/apis/registry/v3
-  baseurl_source: spec
   description: The Global rules API from Apicurio — 2 operation(s) for global rules.
   name: Apicurio Global rules API
   slug: apicurio-global-rules-api
@@ -151,6 +146,11 @@ apis:
   description: The Versions API from Apicurio — 11 operation(s) for versions.
   name: Apicurio Versions API
   slug: apicurio-versions-api
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Git Ops API from Apicurio — 2 operation(s) for git ops.
+  name: Apicurio Git Ops API
+  slug: apicurio-git-ops-api
 artifact_total: 52
 collections:
 - collection_type: open
@@ -217,6 +217,10 @@ collections:
   name: Apicurio Registry API
   slug: open-apicurio
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apicur.io
 - group: operate
   title: ''
   type: IssueTracker
@@ -273,19 +277,19 @@ graphqls:
   slug: apicurio-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apicurio.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apicurio
 nav: Providers
 network: true
 overview: 'Apicurio publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AI API, Artifact rules API, and 16 more. Tagged areas include Apache License, API Design, API Registry, Avro, and AsyncAPI.
 
 
-  Apicurio''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  Apicurio''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Apicurio Plans Pricing
   plan_count: 3
   slug: apicurio-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Apicurio Rate Limits
@@ -322,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -349,4 +353,5 @@ tags:
 - OpenAPI
 - Red Hat
 - Schema Registry
+website: https://apicur.io
 ---

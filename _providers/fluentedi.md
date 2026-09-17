@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: verified
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 39.6
-  scored_at: '2026-09-15'
+  score: 43.3
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,11 +33,72 @@ agentic_access:
   summary_line: 99 operations
 api_count: 1
 apis:
-- description: Stateless HTTP tool API. 50 paths and 99 operations in the served OpenAPI 3.1, no authentication. A failed call returns the tool parameter schema plus working example URLs.
-  name: FluentEDI Tools API
-  slug: fluentedi-tools-api
-artifact_total: 8
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: Calculation and conversion
+  name: FluentEDI Compute API
+  slug: fluentedi-compute-api
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: Hashing, signatures, encoding and identifiers
+  name: FluentEDI Crypto API
+  slug: fluentedi-crypto-api
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: JSON and tabular data
+  name: FluentEDI Data API
+  slug: fluentedi-data-api
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: Documents (PDF, Word, Excel)
+  name: FluentEDI Doc API
+  slug: fluentedi-doc-api
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: EDI and retail supply chain (X12)
+  name: FluentEDI Edi API
+  slug: fluentedi-edi-api
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: Finding your way around
+  name: FluentEDI Meta API
+  slug: fluentedi-meta-api
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: Scheduling
+  name: FluentEDI Schedule API
+  slug: fluentedi-schedule-api
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: Text
+  name: FluentEDI Text API
+  slug: fluentedi-text-api
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: Time, dates and windows
+  name: FluentEDI Time API
+  slug: fluentedi-time-api
+- baseURL: https://fluentedi.com
+  baseurl_source: declared
+  description: Web and network
+  name: FluentEDI Web API
+  slug: fluentedi-web-api
+artifact_total: 17
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://fluentedi.com/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/mcp/fluentedi-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/fluentedi-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/overlays/fluentedi-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fluentedi-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -133,22 +194,22 @@ modified: '2026-09-03'
 name: FluentEDI
 nav: Providers
 network: true
-overview: 'FluentEDI publishes 1 API on the [APIs.io](https://apis.io/) network: Tools API. Tagged areas include EDI, X12, Retail EDI, AI Agents, and MCP.
+overview: 'FluentEDI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Compute API, Crypto API, Data API, and 7 more. Tagged areas include EDI, X12, Retail EDI, AI Agents, and MCP.
 
 
-  FluentEDI''s developer surface includes authentication, GitHub presence, and 15 more developer resources.'
+  FluentEDI''s developer surface includes authentication, GitHub presence, and 18 more developer resources.'
 plans:
 - name: Fluentedi Plans Pricing
   plan_count: 1
   slug: fluentedi-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Fluentedi Rate Limits
   slug: fluentedi-rate-limits
 score:
   band: thin
-  composite: 34.0
+  composite: 37.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 42.0
@@ -156,11 +217,11 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 40.0
+    contract_quality: 55.1
     developer_ergonomics: 39.9
     discoverability: 81.5
     operational_transparency: 13.2
@@ -172,11 +233,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 10
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

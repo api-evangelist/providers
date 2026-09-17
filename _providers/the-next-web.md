@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Next Web provides an RSS 2.0 feed updated hourly with the latest technology news, analysis, and articles published on thenextweb.com. The feed covers topics including artificial intelligence, star
@@ -161,7 +161,7 @@ plans:
 - name: The Next Web Plans Pricing
   plan_count: 3
   slug: the-next-web-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: The Next Web Rate Limits
@@ -197,7 +197,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 21.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

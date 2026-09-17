@@ -43,7 +43,7 @@ name: Universal Hydrogen
 nav: Providers
 network: true
 overview: Universal Hydrogen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Aviation, Aerospace, and Hydrogen.
-random_paper: 4
+random_paper: 2
 slug: universal-hydrogen
 tags:
 - Company

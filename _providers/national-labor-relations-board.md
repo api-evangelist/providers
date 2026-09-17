@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: NLRB case data including Unfair Labor Practice and Elections data from the Case Activity Tracking System available on data.gov.
@@ -78,7 +78,7 @@ plans:
 - name: National Labor Relations Board Plans Pricing
   plan_count: 3
   slug: national-labor-relations-board-plans-pricing
-random_paper: 11
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: National Labor Relations Board Rate Limits
@@ -109,7 +109,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -25,7 +25,7 @@ name: Xembly
 nav: Providers
 network: true
 overview: Xembly is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Executive Assistant, Meetings, and Scheduling.
-random_paper: 6
+random_paper: 19
 slug: xembly
 tags:
 - Company

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://api.akkio.com/v1
@@ -315,11 +315,6 @@ apis:
   slug: akkio-nonce-api
 - baseURL: https://api.akkio.com/v1
   baseurl_source: declared
-  description: The OAuth API from Akkio — 3 operation(s) for oauth.
-  name: Akkio O Auth API
-  slug: akkio-oauth-api
-- baseURL: https://api.akkio.com/v1
-  baseurl_source: declared
   description: The Parse API from Akkio — 1 operation(s) for parse.
   name: Akkio Parse API
   slug: akkio-parse-api
@@ -428,6 +423,11 @@ apis:
   description: The Zapier Api API from Akkio — 1 operation(s) for zapier api.
   name: Akkio Zapier API
   slug: akkio-zapier-api-api
+- baseURL: https://api.akkio.com/v1
+  baseurl_source: declared
+  description: The OAuth API from Akkio — 3 operation(s) for oauth.
+  name: Akkio O Auth API
+  slug: akkio-oauth-api
 artifact_total: 87
 collections:
 - collection_type: open
@@ -608,7 +608,7 @@ plans:
 - name: Akkio Plans Pricing
   plan_count: 0
   slug: akkio-plans-pricing
-random_paper: 2
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Akkio Rate Limits
@@ -642,7 +642,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -508,7 +508,7 @@ plans:
 - name: Applovin Plans Pricing
   plan_count: 0
   slug: applovin-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Applovin Rate Limits
@@ -549,7 +549,7 @@ score:
   facets:
     access_clarity: 7.9
     contract_governance: 33.3
-    contract_quality: 35.2
+    contract_quality: 35.0
     developer_ergonomics: 38.1
     discoverability: 81.5
     operational_transparency: 47.4
@@ -565,7 +565,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Todyl's External API is a path-versioned REST API served from https://api.todyl.com. Probing it unauthenticated returns Todyl's own JSON error envelope ({"error":{"code":"auth_missing_token","message"
@@ -143,7 +143,7 @@ plans:
 - name: Todyl Plans Pricing
   plan_count: 0
   slug: todyl-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Todyl Rate Limits
@@ -171,7 +171,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

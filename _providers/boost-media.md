@@ -31,12 +31,12 @@ description: Boost Media (formerly BoostCTR) was a digital-advertising creative-
   enrich — the Internet Archive record of boostmedia.com shows a WordPress marketing site and blog only, with no developer, docs, or API path ever published.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boost-media.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Boost Media
 nav: Providers
 network: true
 overview: Boost Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Marketing, Creative Optimization, and Paid Search.
-random_paper: 16
+random_paper: 8
 slug: boost-media
 tags:
 - Company
@@ -47,4 +47,5 @@ tags:
 - Digital Advertising
 - Software-as-a-Service
 - AdTech
+- Defunct
 ---

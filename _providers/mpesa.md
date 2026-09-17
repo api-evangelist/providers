@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 4
@@ -56,11 +56,6 @@ apis:
   description: The Authorization API from M-Pesa (Safaricom Daraja) — 1 operation(s) for authorization.
   name: M-Pesa (Safaricom Daraja) Authorization API
   slug: mpesa-authorization-api
-- baseURL: https://api.safaricom.co.ke
-  baseurl_source: declared
-  description: The B2B API from M-Pesa (Safaricom Daraja) — 2 operation(s) for b2b.
-  name: M-Pesa (Safaricom Daraja) B2B API
-  slug: mpesa-b2b-api
 - baseURL: https://api.safaricom.co.ke
   baseurl_source: declared
   description: The B2C API from M-Pesa (Safaricom Daraja) — 1 operation(s) for b2c.
@@ -101,6 +96,11 @@ apis:
   description: The Transaction Status API from M-Pesa (Safaricom Daraja) — 1 operation(s) for transaction status.
   name: M-Pesa (Safaricom Daraja) Transaction Status API
   slug: mpesa-transaction-status-api
+- baseURL: https://api.safaricom.co.ke
+  baseurl_source: declared
+  description: The B2 B API from M-Pesa (Safaricom Daraja) — 2 operation(s) for b2 b.
+  name: M-Pesa (Safaricom Daraja) B2 B API
+  slug: mpesa-b2-b-api
 artifact_total: 43
 asyncapis:
 - description: The asynchronous callback (webhook) surface of the M-Pesa Daraja API. Daraja delivers the real outcome of collections and funds-movement operations by POSTing JSON to caller-hosted HTTPS endpoints. Th
@@ -363,7 +363,7 @@ modified: '2026-07-17'
 name: M-Pesa (Safaricom Daraja)
 nav: Providers
 network: true
-overview: 'M-Pesa (Safaricom Daraja) publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Balance API, Authorization API, B2B API, and 8 more. Tagged areas include Mobile Money, Payments, Fintech, Kenya, and Africa.
+overview: 'M-Pesa (Safaricom Daraja) publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Balance API, Authorization API, B2C API, and 8 more. Tagged areas include Mobile Money, Payments, Fintech, Kenya, and Africa.
 
 
   The M-Pesa (Safaricom Daraja) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -374,7 +374,7 @@ plans:
 - name: Mpesa Plans Pricing
   plan_count: 3
   slug: mpesa-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Mpesa Rate Limits
@@ -420,7 +420,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

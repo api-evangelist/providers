@@ -23,13 +23,13 @@ modified: '2026-07-19'
 name: Juxta Labs
 nav: Providers
 network: true
-overview: Juxta Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Mobile Apps, Gaming, and Consumer.
-random_paper: 11
+overview: Juxta Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Mobile App, Gaming, and Consumer.
+random_paper: 7
 slug: juxta-labs
 tags:
 - Company
 - Social
-- Mobile Apps
+- Mobile App
 - Gaming
 - Consumer
 - San Francisco

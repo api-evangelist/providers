@@ -23,20 +23,40 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 45.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://scanverity.com
   baseurl_source: declared
-  description: 'REST API (OpenAPI 3.1, contract v1.3.0-private-beta) for resolution-risk assessment on prediction markets. Versioned under /v1, JSON bodies, HTTP Bearer auth with reveal-once environment-bound tokens '
-  name: Scanverity Resolution API
-  slug: scanverity-resolution-api
-artifact_total: 8
+  description: Create and poll account-scoped assessment resources.
+  name: Scanverity Resolution API Resolution assessments API
+  slug: scanverity-resolution-api-resolution-assessments-api
+- baseURL: https://scanverity.com
+  baseurl_source: declared
+  description: Read account-scoped monthly reconciled usage totals and their cursor-paginated evidence events.
+  name: Scanverity Resolution API Resolution usage API
+  slug: scanverity-resolution-api-resolution-usage-api
+- baseURL: https://scanverity.com
+  baseurl_source: declared
+  description: Register account- and environment-scoped signed endpoints, inspect append-only delivery evidence and request non-billable redelivery.
+  name: Scanverity Resolution API Webhook endpoints API
+  slug: scanverity-resolution-api-webhook-endpoints-api
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Scanverity Resolution Api Webhooks
   slug: scanverity-resolution-api-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/overlays/scanverity-resolution-api-resolution-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/scanverity-resolution-api-resolution-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -121,18 +141,18 @@ modified: '2026-09-04'
 name: Scanverity Resolution API
 nav: Providers
 network: true
-overview: 'Scanverity Resolution API publishes 1 API on the [APIs.io](https://apis.io/) network: Scanverity Resolution API. Tagged areas include Prediction Markets, Resolution Risk, Market Intelligence, Due Diligence, and Webhook.
+overview: 'Scanverity Resolution API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Resolution assessments API, Resolution usage API, and Webhook endpoints API. Tagged areas include Prediction Markets, Resolution Risk, Market Intelligence, Due Diligence, and Webhook.
 
 
   The Scanverity Resolution API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Scanverity Resolution API''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
+  Scanverity Resolution API''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Scanverity Resolution Api Plans Pricing
   plan_count: 6
   slug: scanverity-resolution-api-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Scanverity Resolution Api Rate Limits
@@ -156,7 +176,7 @@ score:
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
-    contract_quality: 71.5
+    contract_quality: 71.6
     developer_ergonomics: 54.2
     discoverability: 75.9
     operational_transparency: 47.4
@@ -167,11 +187,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

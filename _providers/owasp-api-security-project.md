@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The OWASP API Security Project produces and maintains the OWASP API Security Top 10, a list of the most critical API security risks. It provides guidance, tools, and references to help organizations i
@@ -83,7 +83,7 @@ plans:
 - name: Owasp Api Security Project Plans Pricing
   plan_count: 3
   slug: owasp-api-security-project-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Owasp Api Security Project Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

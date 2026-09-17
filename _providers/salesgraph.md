@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://salesgraph.com/api/v1
@@ -226,6 +226,10 @@ common:
   title: ''
   type: Login
   url: https://salesgraph.com/login
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@salesgraph.com
 created: '2026-07-17'
 description: 'Salesgraph is a Y Combinator-backed revenue automation platform that uses proactive AI agents to accelerate enterprise sales cycles — automating pre-call research, discovery analysis, follow-up communications, and collateral generation (business cases, mutual action plans, ROI calculators) from a shared organizational context graph. Beyond the product, Salesgraph ships a developer surface: a published MCP (Model Context Protocol) streamable-HTTP server at salesgraph.com/api/mcp and an equivalent REST API under /api/v1, both API-key authenticated, exposing 19 tools across GTM research and audit commands (research, competitors, gtm_audit, org_audit) that return cited markdown, and an OMS (Opportunity Management System) family that returns JSON — searching, traversing and tracing the provenance of the organization''s own Accounts and Opportunities, and putting cost-capped continuous research watches on them. OMS write intent always routes through a human approval request rather
   than a direct write. It also serves an A2A agent card and a packaged Agent Skill from its docs host, and a public unauthenticated status API. It integrates with Salesforce, HubSpot, Attio, Outreach, Salesloft, Gong, and others, targeting mid-market and enterprise revenue teams in dev tools, SaaS, and cybersecurity.'
@@ -242,12 +246,12 @@ network: true
 overview: 'Salesgraph publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Commands API, Runs API, and 2 more. Tagged areas include Company, Sales, Revenue Automation, Go-To-Market, and AI Agents.
 
 
-  Salesgraph''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 23 more developer resources.'
+  Salesgraph''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 24 more developer resources.'
 plans:
 - name: Salesgraph Plans Pricing
   plan_count: 0
   slug: salesgraph-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Salesgraph Rate Limits
@@ -281,7 +285,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

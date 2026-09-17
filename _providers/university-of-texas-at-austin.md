@@ -25,22 +25,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-09-15'
-api_count: 5
+  score: 28.0
+  scored_at: '2026-09-16'
+api_count: 10
 apis:
-- baseURL: https://tacc.tapis.io/v3
-  baseurl_source: declared
-  description: 'Tapis is the API platform TACC builds and operates for programmatic access to research computing: registering storage and compute systems, moving files, defining applications, submitting and tracking '
-  name: Tapis v3 Research Computing Platform (TACC production tenant)
-  slug: tapis
 - description: UT Austin's Shibboleth identity provider, and the most under-catalogued class of institutional API surface. It publishes SAML 2.0 metadata at /idp/shibboleth (entityID https://enterprise.login.utexas.
   name: UT Austin Enterprise Identity Provider (SAML 2.0 + OpenID Connect)
   slug: enterprise-idp
@@ -53,7 +48,92 @@ apis:
 - description: 'UT Austin publishes and archives research datasets in the Texas Data Repository, a Dataverse instance operated by the Texas Digital Library and shared across Texas institutions. The instance reported '
   name: Texas Data Repository (Dataverse) — UT Austin collection
   slug: texas-data-repository
-artifact_total: 16
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: Manage Tapis application resources. Create, retrieve, update, etc.
+  name: University of Texas at Austin Applications API
+  slug: university-of-texas-at-austin-applications-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: The Archive transfers (Beta) API from University of Texas at Austin — 2 operation(s) for archive transfers (beta).
+  name: University of Texas at Austin Archive transfers (Beta) API
+  slug: university-of-texas-at-austin-archive-transfers-beta-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: A system that has *allowChildren* set to *true* allows for the creation of child systems based on it. This ability provides a way to easily clone and manage systems based on existing systems. Child sy
+  name: University of Texas at Austin Child Systems API
+  slug: university-of-texas-at-austin-child-systems-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: Download a file or directory. Not supported for all system types.
+  name: University of Texas at Austin Content API
+  slug: university-of-texas-at-austin-content-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: Manage Tapis system user access credentials.
+  name: University of Texas at Austin Credentials API
+  slug: university-of-texas-at-austin-credentials-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: Event publication
+  name: University of Texas at Austin Events API
+  slug: university-of-texas-at-austin-events-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: Manage file resources on Tapis systems. List, upload, copy, native operations, etc. Note that not all operations are supported for all system types.
+  name: University of Texas at Austin File Operations API
+  slug: university-of-texas-at-austin-file-operations-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: General service health and readiness
+  name: University of Texas at Austin General API
+  slug: university-of-texas-at-austin-general-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: manage job execution and data
+  name: University of Texas at Austin Jobs API
+  slug: university-of-texas-at-austin-jobs-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: The permissions model allows for fine grained access control of resources. The application owner may grant READ and MODIFY permission to specific users. MODIFY implies READ. Please note that Tapis als
+  name: University of Texas at Austin Permissions API
+  slug: university-of-texas-at-austin-permissions-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: The PostIts API from University of Texas at Austin — 4 operation(s) for postits.
+  name: University of Texas at Austin Post Its API
+  slug: university-of-texas-at-austin-postits-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: The Systems service supports managing Tapis scheduler profiles. An HPC center often has certain conventions and restrictions around the use of batch schedulers. A scheduler profile resource can be def
+  name: University of Texas at Austin Scheduler Profiles API
+  slug: university-of-texas-at-austin-scheduler-profiles-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: In addition to fine grained permissions support, Tapis also supports a higher level approach to granting access. This approach is known simply as *sharing*. The sharing API allows an application owner
+  name: University of Texas at Austin Sharing API
+  slug: university-of-texas-at-austin-sharing-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: manage job subscriptions
+  name: University of Texas at Austin Subscriptions API
+  slug: university-of-texas-at-austin-subscriptions-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: Manage Tapis system resources. Create, retrieve, update, etc.
+  name: University of Texas at Austin Systems API
+  slug: university-of-texas-at-austin-systems-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: Support for managing a sequence of test notifications.
+  name: University of Texas at Austin Test API
+  slug: university-of-texas-at-austin-test-api
+- baseURL: https://tacc.tapis.io/v3
+  baseurl_source: declared
+  description: 'Manage file transfers between two systems. Initiate, cancel and retrieve status. Note that not all combinations of system types are supported. For example, transfers involving a GLOBUS system must be '
+  name: University of Texas at Austin Transfers API
+  slug: university-of-texas-at-austin-transfers-api
+artifact_total: 32
 common:
 - group: company
   title: ''
@@ -179,7 +259,7 @@ modified: '2026-08-30'
 name: University of Texas at Austin
 nav: Providers
 network: true
-overview: 'University of Texas at Austin publishes 1 API on the [APIs.io](https://apis.io/) network: Tapis v3 Research Computing Platform (TACC production tenant). Tagged areas include University, Higher Education, Education, Public Research University, and United States.
+overview: 'University of Texas at Austin publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Archive transfers (Beta) API, Child Systems API, and 14 more. Tagged areas include University, Higher Education, Education, Public Research University, and United States.
 
 
   The University of Texas at Austin catalog on APIs.io includes 1 JSON-LD context.
@@ -190,7 +270,7 @@ plans:
 - name: University Of Texas At Austin Plans Pricing
   plan_count: 2
   slug: university-of-texas-at-austin-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: University Of Texas At Austin Rate Limits
@@ -202,7 +282,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.8
+  composite: 50.6
   coverage:
     artifact_dirs: 14
     catalog_earned: 67.0
@@ -210,11 +290,11 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 63.2
     contract_governance: 0.0
-    contract_quality: 62.5
+    contract_quality: 61.9
     developer_ergonomics: 35.7
     discoverability: 74.1
     operational_transparency: 23.7
@@ -231,8 +311,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 5
+      marker_coverage: 0.0
+      total: 17
   regulatory:
     applies: true
     matched_via: tags
@@ -240,7 +320,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

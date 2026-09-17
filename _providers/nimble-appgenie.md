@@ -23,22 +23,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: An llms.txt marketing/brand document structured to help large language models interpret Nimble AppGenie's expertise, industry verticals, compliance standards, and service capabilities. It is not a mac
   name: Nimble AppGenie llms.txt
   slug: nimble-appgenie-llmstxt
 artifact_total: 1
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://nimbleappgenie.com
 created: '2026-08-13'
 description: Nimble AppGenie is a fintech- and AI-focused custom software development agency based in London, UK, offering mobile app, web, and software development services worldwide. It exposes no conventional API; the only publicly reachable agent-native artifact is a marketing/SEO llms.txt file.
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Nimble AppGenie
 nav: Providers
 network: true
 overview: Nimble AppGenie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Mobile App Development, Web Development, ai-software, and E-Wallet.
-random_paper: 5
+random_paper: 21
 score:
   band: minimal
   composite: 1.8
@@ -77,7 +82,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -97,4 +102,5 @@ tags:
 - regtech-compliance
 - Software Development Agency
 - Staff Augmentation
+website: https://nimbleappgenie.com
 ---

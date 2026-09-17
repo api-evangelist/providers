@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Ahmed Buhari, an NRI and former promoter and director of ...
   url: https://www.facebook.com/thewire.in/posts/ahmed-buhari-an-nri-and-former-promoter-and-director-of-coastal-energen-power-lt/1024070013624360/
-random_paper: 5
+random_paper: 14
 score:
   band: minimal
   composite: 2.1
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

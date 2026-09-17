@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The core Bloomberg API providing real-time market data, reference data, historical data, and intraday tick data. SDKs available for C++, Java, Python, C#/.NET, and Perl. Connects to Bloomberg Terminal
@@ -50,6 +50,10 @@ apis:
   slug: server-api
 artifact_total: 18
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -114,19 +118,19 @@ finops:
   slug: bloomberg-enterprise-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-enterprise.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Enterprise
 nav: Providers
 network: true
 overview: 'Bloomberg Enterprise publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise Data, Financial Data, B-PIPE, Data Distribution, and Market Data.
 
 
-  Bloomberg Enterprise''s developer surface includes developer portal, documentation, support, and 8 more developer resources.'
+  Bloomberg Enterprise''s developer surface includes developer portal, documentation, support, and 9 more developer resources.'
 plans:
 - name: Bloomberg Enterprise Plans Pricing
   plan_count: 3
   slug: bloomberg-enterprise-plans-pricing
-random_paper: 8
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Bloomberg Enterprise Rate Limits
@@ -157,7 +161,7 @@ score:
     regime_id: securities_market_data
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -188,5 +192,5 @@ use_cases:
   name: Compliance Reporting
 - description: Integrate Bloomberg data into portfolio management and analytics platforms.
   name: Portfolio Analytics
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

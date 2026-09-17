@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: DFC publishes transaction-level data on its development finance activities including loans, political risk insurance, and equity investments. Data is released as downloadable CSV/Excel datasets rather
@@ -79,7 +79,7 @@ plans:
 - name: International Development Finance Corporation Plans Pricing
   plan_count: 3
   slug: international-development-finance-corporation-plans-pricing
-random_paper: 5
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: International Development Finance Corporation Rate Limits
@@ -110,7 +110,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

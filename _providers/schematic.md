@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 3
@@ -46,11 +46,6 @@ agentic_access:
   summary_line: 218 operations · 97 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://api.schematichq.com
-  baseurl_source: spec
-  description: The accesstokens API from Schematic — 1 operation(s) for accesstokens.
-  name: Schematic accesstokens API
-  slug: schematic-accesstokens-api
 - baseURL: https://api.schematichq.com
   baseurl_source: spec
   description: The accounts API from Schematic — 12 operation(s) for accounts.
@@ -88,11 +83,6 @@ apis:
   slug: schematic-credits-api
 - baseURL: https://api.schematichq.com
   baseurl_source: spec
-  description: The dataexports API from Schematic — 2 operation(s) for dataexports.
-  name: Schematic dataexports API
-  slug: schematic-dataexports-api
-- baseURL: https://api.schematichq.com
-  baseurl_source: spec
   description: The entitlements API from Schematic — 16 operation(s) for entitlements.
   name: Schematic entitlements API
   slug: schematic-entitlements-api
@@ -111,11 +101,6 @@ apis:
   description: The insights API from Schematic — 6 operation(s) for insights.
   name: Schematic insights API
   slug: schematic-insights-api
-- baseURL: https://api.schematichq.com
-  baseurl_source: spec
-  description: The integrationsapi API from Schematic — 6 operation(s) for integrationsapi.
-  name: Schematic integrationsapi API
-  slug: schematic-integrationsapi-api
 - baseURL: https://api.schematichq.com
   baseurl_source: spec
   description: The planbundle API from Schematic — 2 operation(s) for planbundle.
@@ -146,6 +131,21 @@ apis:
   description: The webhooks API from Schematic — 6 operation(s) for webhooks.
   name: Schematic webhooks API
   slug: schematic-webhooks-api
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The Access Tokens API from Schematic — 1 operation(s) for access tokens.
+  name: Schematic Access Tokens API
+  slug: schematic-access-tokens-api
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The Data Exports API from Schematic — 2 operation(s) for data exports.
+  name: Schematic Data Exports API
+  slug: schematic-data-exports-api
+- baseURL: https://api.schematichq.com
+  baseurl_source: spec
+  description: The Integrations API API from Schematic — 6 operation(s) for integrations api.
+  name: Schematic Integrations API
+  slug: schematic-integrations-api-api
 artifact_total: 61
 collections:
 - collection_type: open
@@ -333,7 +333,7 @@ modified: '2026-08-04'
 name: Schematic
 nav: Providers
 network: true
-overview: 'Schematic publishes 20 APIs on the [APIs.io](https://apis.io/) network, including accesstokens API, accounts API, billing API, and 17 more. Tagged areas include Billing, Entitlements, Feature Flags, Feature Management, and FinOps.
+overview: 'Schematic publishes 20 APIs on the [APIs.io](https://apis.io/) network, including accounts API, billing API, checkout API, and 17 more. Tagged areas include Billing, Entitlements, Feature Flags, Feature Management, and FinOps.
 
 
   The Schematic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -344,7 +344,7 @@ plans:
 - name: Schematic Plans Pricing
   plan_count: 3
   slug: schematic-plans-pricing
-random_paper: 0
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Schematic Rate Limits
@@ -373,21 +373,21 @@ rules:
   slug: schematic-rules
 score:
   band: developing
-  composite: 46.2
+  composite: 47.1
   coverage:
     artifact_dirs: 18
-    catalog_earned: 60.5
+    catalog_earned: 65.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 54.5
+    catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 26.3
     contract_governance: 28.8
     contract_quality: 72.2
     developer_ergonomics: 42.9
-    discoverability: 51.9
+    discoverability: 61.1
     operational_transparency: 10.5
   previous_composite: 46.2
   provenance:
@@ -399,7 +399,7 @@ score:
       total: 21
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

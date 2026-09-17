@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: wss://streams.fast.onetrading.com
@@ -60,7 +60,7 @@ apis:
 - baseURL: https://api.onetrading.com/fast
   baseurl_source: declared
   description: Account order and trade endpoints (Bearer token, TRADE/READ scope)
-  name: One Trading Trading API
+  name: One Trading API
   slug: one-trading-trading-api
 artifact_total: 13
 asyncapis:
@@ -207,7 +207,7 @@ created: '2026-07-17'
 description: One Trading (One Trading Exchange B.V.) is an EU-regulated cryptocurrency and derivatives exchange for retail and institutional traders, positioning itself as "the world's fastest exchange." It offers spot crypto plus crypto futures (up to 10x leverage), index futures and 24/7 equity futures. Its public "Fast API" provides REST market-data and trading endpoints (currencies, instruments, order book, candlesticks, ticker, fees, funding rates, orders, trades, futures positions and subaccount transfers) at https://api.onetrading.com/fast, plus a real-time WebSocket streams API at wss://streams.fast.onetrading.com. Formerly operated as Bitpanda Pro. This profile was surfaced as a Speedinvest portfolio company and enriched by the API Evangelist pipeline from the provider's public documentation and live endpoints.
 image: https://framerusercontent.com/images/m2JxgHpA4PAHjVJIacTjS6wnvRY.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: One Trading
 nav: Providers
 network: true
@@ -218,10 +218,10 @@ overview: 'One Trading publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   One Trading''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: thin
-  composite: 30.4
+  composite: 33.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -229,11 +229,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.9
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 12.5
+    contract_quality: 23.9
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 10.5
@@ -242,8 +242,8 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 4
+      marker_coverage: 100.0
       total: 4
     mcp: derived
     skills: derived
@@ -254,7 +254,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

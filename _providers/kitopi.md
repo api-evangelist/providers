@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Model Context Protocol endpoint that Kitopi''s Wix-hosted website exposes for agentic AI access. It is a platform-provided (Wix) site assistant server rather than a Kitopi product API: it lets an a'
@@ -171,11 +171,11 @@ modified: '2026-07-19'
 name: Kitopi
 nav: Providers
 network: true
-overview: 'Kitopi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Cloud Kitchens, and Restaurant.
+overview: 'Kitopi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Cloud Kitchen, and Restaurant.
 
 
   Kitopi''s developer surface includes documentation, engineering blog, support, authentication, and 23 more developer resources.'
-random_paper: 5
+random_paper: 18
 score:
   band: emerging
   composite: 20.1
@@ -205,7 +205,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -226,7 +226,7 @@ tags:
 - Company
 - Consumer
 - Food and Beverage
-- Cloud Kitchens
+- Cloud Kitchen
 - Restaurant
 - Food Delivery
 - Hospitality

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A curated set of REST/JSON Enterprise APIs that let approved partners and software providers transact with Ferguson — product availability and vendor cost data, and electronic purchase-order submissio
@@ -141,7 +141,7 @@ plans:
 - name: Ferguson Plans Pricing
   plan_count: 0
   slug: ferguson-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Ferguson Rate Limits
@@ -168,7 +168,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

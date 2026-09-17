@@ -31,7 +31,7 @@ modified: '2026-09-15'
 name: Northern Tier Energy
 nav: Providers
 network: true
-overview: Northern Tier Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Refining, Pipeline, Retail Fuels, and Defunct.
+overview: Northern Tier Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Refining, Pipelines, Retail Fuels, and Defunct.
 press:
 - date: '2026-05-25'
   title: Northern Tier, Western Refining announce preliminary ...
@@ -48,13 +48,13 @@ press:
 - date: '2026-05-25'
   title: Northern Tier Energy in $262 Million IPO
   url: https://www.clearygottlieb.com/news-and-insights/news-listing/northern-tier-energy-in-262-million-ipo52
-random_paper: 19
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/northern-tier-energy/refs/heads/main/screenshots/northern-tier-energy-2026-06-20T190414.png
 slug: northern-tier-energy
 tags:
 - Energy
 - Refining
-- Pipeline
+- Pipelines
 - Retail Fuels
 - Defunct
 ---

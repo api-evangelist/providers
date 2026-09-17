@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: AWS Elemental MediaPackage Channels Tags API
   slug: open-amazon-mediapackage-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/capabilities/amazon-mediapackage-capability-edges.yml
   title: ''
@@ -894,7 +898,7 @@ jsonld:
   property_count: 73
   slug: amazon-mediapackage-mediapackage-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon MediaPackage
 nav: Providers
 network: true
@@ -904,12 +908,12 @@ overview: 'Amazon MediaPackage publishes 4 APIs on the [APIs.io](https://apis.io
   The Amazon MediaPackage catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaPackage''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon MediaPackage''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Mediapackage Plans Pricing
   plan_count: 3
   slug: amazon-mediapackage-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Mediapackage Rate Limits
@@ -963,7 +967,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1000,5 +1004,5 @@ use_cases:
   name: Multi-DRM Content Protection
 - description: Create VOD clips from live streams for highlights and replays.
   name: Live Clipping
-website: https://aws.amazon.com/mediapackage/
+website: https://amazon.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,13 +51,13 @@ apis:
 - baseURL_template: https://{panorama_host}
   baseurl_source: spec_template
   description: The Panorama API API from Panorama — 1 operation(s) for panorama api.
-  name: Panorama Panorama API API
+  name: Panorama API
   slug: panorama-panorama-api-api
 - baseURL_template: https://{panorama_host}
   baseurl_source: spec_template
-  description: The Restapi API from Panorama — 3 operation(s) for restapi.
-  name: Panorama Restapi API
-  slug: panorama-restapi-api
+  description: The REST API API from Panorama — 3 operation(s) for rest api.
+  name: Panorama REST API
+  slug: panorama-rest-api-api
 artifact_total: 13
 collections:
 - collection_type: open
@@ -112,11 +112,11 @@ finops:
   slug: panorama-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/panorama.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Panorama
 nav: Providers
 network: true
-overview: 'Panorama publishes 2 APIs on the [APIs.io](https://apis.io/) network: Panorama API API and Restapi API. Tagged areas include Firewall Management, Network Security, and Palo Alto Networks.
+overview: 'Panorama publishes 2 APIs on the [APIs.io](https://apis.io/) network, including REST API, and 1 more. Tagged areas include Firewall Management, Network Security, and Palo Alto Networks.
 
 
   Panorama''s developer surface includes authentication, documentation, and 5 more developer resources.'
@@ -124,14 +124,14 @@ plans:
 - name: Panorama Plans Pricing
   plan_count: 3
   slug: panorama-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Panorama Rate Limits
   slug: panorama-rate-limits
 score:
   band: emerging
-  composite: 24.1
+  composite: 24.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 36.0
@@ -139,11 +139,11 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 44.2
+    contract_quality: 46.9
     developer_ergonomics: 21.4
     discoverability: 50.0
     operational_transparency: 10.5
@@ -156,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

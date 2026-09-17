@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://status.utilita.co.uk/api/v2
@@ -93,10 +93,10 @@ common:
   type: StatusPage
   url: https://status.utilita.co.uk/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/openapi/utilita-status-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/openapi/_original/utilita-status-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/utilita-status-openapi.yml
+  url: openapi/_original/utilita-status-openapi.yml
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/examples/_index.yml
   title: ''
@@ -234,7 +234,7 @@ examples:
   slug: utilita-status-upcoming-maintenances
 image: https://utilita.co.uk/favicon.ico
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: Utilita
 nav: Providers
 network: true
@@ -245,7 +245,7 @@ overview: 'Utilita publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Utilita''s developer surface includes documentation, API reference, code examples, authentication, signup flow, pricing, support, and 25 more developer resources.'
-random_paper: 8
+random_paper: 16
 score:
   band: developing
   composite: 49.5
@@ -292,7 +292,7 @@ score:
     regime_id: energy_utilities
     score: 62.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

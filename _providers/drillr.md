@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -32,17 +32,67 @@ agentic_access:
   operation_count: 0
   slug: drillr-agentic-access
   summary_line: 0 operations
-api_count: 2
+api_count: 1
 apis:
-- baseURL: https://gateway.drillr.ai/api/v2
-  baseurl_source: declared
-  description: REST API exposing ~29 endpoints across company discovery, filings, signals, events, ownership, executives, financials, earnings, prices and analyst data for US, China and Japan. API-key header auth (X
-  name: drillr REST API
-  slug: drillr-rest-api
 - description: Hosted Streamable HTTP MCP server (drillr-data) exposing the same financial data as ~10 agent-callable tools covering discovery, filings, signals and arbitrary SQL. Browser OAuth auth, no API key need
   name: drillr Data MCP Server
   slug: drillr-data-mcp-server
-artifact_total: 9
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: Analyst consensus and individual rating events (US only)
+  name: drillr Public Data API Analyst API
+  slug: drillr-analyst-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: Ticker resolution, natural-language company discovery and company profiles
+  name: drillr Public Data API Company API
+  slug: drillr-company-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: The machine-readable API contract itself
+  name: drillr Public Data API Contract API
+  slug: drillr-contract-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: Earnings calendar and structured earnings-call summaries
+  name: drillr Public Data API Earnings API
+  slug: drillr-earnings-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: 'Corporate events: financings, deals, executive changes, corporate actions, ownership (US only)'
+  name: drillr Public Data API Events API
+  slug: drillr-events-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: Executive roster and annual compensation (US only)
+  name: drillr Public Data API Executives API
+  slug: drillr-executives-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: Regulatory filing lists and full-text filing search (US, Japan, China)
+  name: drillr Public Data API Filings API
+  slug: drillr-filings-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: The three financial statements and precomputed financial metrics
+  name: drillr Public Data API Financials API
+  slug: drillr-financials-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: Insider holdings and transactions, institutional holdings (US only)
+  name: drillr Public Data API Ownership API
+  slug: drillr-ownership-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: Historical bars and latest closing-price snapshots (US)
+  name: drillr Public Data API Prices API
+  slug: drillr-prices-api
+- baseURL: https://gateway.drillr.ai/api/v2
+  baseurl_source: declared
+  description: Industry inflections, enterprise AI adoption and cross-source news search
+  name: drillr Public Data API Signal API
+  slug: drillr-signal-api
+artifact_total: 19
 common:
 - group: company
   title: ''
@@ -183,7 +233,7 @@ modified: '2026-09-14'
 name: drillr Public Data API
 nav: Providers
 network: true
-overview: 'drillr Public Data API publishes 1 API on the [APIs.io](https://apis.io/) network: drillr REST API. Tagged areas include Financial Data, Equities, SEC Filings, Fundamentals, and Earnings.
+overview: 'drillr Public Data API publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Analyst API, Company API, Contract API, and 8 more. Tagged areas include Financial Data, Equities, SEC Filings, Fundamentals, and Earnings.
 
 
   drillr Public Data API''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 20 more developer resources.'
@@ -191,14 +241,14 @@ plans:
 - name: Drillr Plans Pricing
   plan_count: 4
   slug: drillr-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Drillr Rate Limits
   slug: drillr-rate-limits
 score:
   band: strong
-  composite: 57.6
+  composite: 57.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 55.0
@@ -206,11 +256,11 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 58.4
+    contract_quality: 59.7
     developer_ergonomics: 58.9
     discoverability: 72.2
     operational_transparency: 36.8
@@ -218,6 +268,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 11
     mcp: first-party
     skills: derived
   regulatory:
@@ -227,7 +282,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'hapi is a rich, configuration-centric framework for building web applications and APIs in Node.js. It provides a powerful plugin system, built-in input validation with Joi, authentication strategies, '
@@ -109,7 +109,7 @@ modified: '2026-03-26'
 name: Hapi
 nav: Providers
 network: true
-overview: 'Hapi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication, Frameworks, JavaScript, Node.js, and Validation.
+overview: 'Hapi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication, Framework, JavaScript, Node.js, and Validation.
 
 
   The Hapi catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -120,7 +120,7 @@ plans:
 - name: Hapi Plans Pricing
   plan_count: 3
   slug: hapi-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Hapi Rate Limits
@@ -156,7 +156,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -171,7 +171,7 @@ security:
 slug: hapi
 tags:
 - Authentication
-- Frameworks
+- Framework
 - JavaScript
 - Node.js
 - Validation

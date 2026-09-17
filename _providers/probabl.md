@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.skore.probabl.ai
@@ -76,7 +76,7 @@ apis:
   description: The Readiness API from Probabl — 1 operation(s) for readiness.
   name: Probabl Readiness API
   slug: probabl-readiness-api
-artifact_total: 10
+artifact_total: 13
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/overlays/probabl-skore-hub-overlay.yaml
@@ -167,16 +167,20 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/probabl-llms.txt
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/well-known/probabl-well-known.yml
-  title: ''
-  type: WellKnown
-  url: well-known/probabl-well-known.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/security/probabl-domain-security.yml
   title: ''
   type: DomainSecurity
   url: security/probabl-domain-security.yml
+- group: build
+  href: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/mcp/probabl-tool-crosswalk.yml
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/probabl-tool-crosswalk.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://skore.probabl.ai/
 created: '2026-08-17'
 description: 'Probabl (styled ":probabl.") is the French, Inria-spun-out company behind scikit-learn — "the Tabular AI company by the creators of scikit-learn" — founded in 2023 to develop, maintain and commercially sustain the open-source Python data-science stack (scikit-learn, skrub, skore). Its commercial product is Skore: an open-source Python library (`skore`) that turns model training into structured, auditable artifacts — estimator reports, cross-validation reports, comparison reports, data and metric diagnostics — plus Skore Hub, a hosted collaboration platform where teams push, compare and track those artifacts across workspaces and projects. Skore Hub exposes a public REST API (Skore Hub, OpenAPI 3.1.0, 67 operations) covering identity/OAuth, workspaces, members and API keys, projects, estimator/cross-validation/comparison reports, artifacts, project goals, and OpenAI/Anthropic-compatible agent endpoints. Probabl also publishes a first-party Agent Skills package (probabl-skills,
   BSD-3-Clause) of 14 data-science skills for coding agents such as Claude Code and Cursor, a `skore` CLI, training via Skolar, and the Scikit-learn Central ecosystem explorer.'
@@ -186,18 +190,26 @@ mcp_servers:
 - description: ''
   name: Probabl MCP Server
   slug: probabl-mcp-server
-modified: '2026-08-17'
+modified: '2026-09-16'
 name: Probabl
 nav: Providers
 network: true
 overview: 'Probabl publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Anthropic Compatible Agent API, Health API, Identity API, and 5 more. Tagged areas include Company, Open-Source, Machine-Learning, Data Science, and scikit-learn.
 
 
-  Probabl''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 15 more developer resources.'
-random_paper: 3
+  Probabl''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 16 more developer resources.'
+plans:
+- name: Probabl Plans Pricing
+  plan_count: 0
+  slug: probabl-plans-pricing
+random_paper: 12
+rate_limits:
+- limit_count: 0
+  name: Probabl Rate Limits
+  slug: probabl-rate-limits
 score:
   band: developing
-  composite: 39.7
+  composite: 42.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -205,10 +217,10 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.1
   facets:
-    access_clarity: 21.1
-    contract_governance: 0.0
+    access_clarity: 34.2
+    contract_governance: 4.5
     contract_quality: 46.4
     developer_ergonomics: 71.4
     discoverability: 68.5
@@ -223,19 +235,26 @@ score:
     - france-iberia
   previous_composite: 39.7
   provenance:
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 8
+    mcp: first-party
+    skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
     score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/screenshots/probabl-2026-09-02T152057.png
 security:
+- kind: authentication
+  name: Probabl Authentication
+  slug: probabl-authentication
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Probabl Domain Security
   slug: probabl-domain-security

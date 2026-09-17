@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -182,6 +182,10 @@ collections:
   name: Race Entry Software API
   slug: open-race-entry
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://raceentry.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/agentic-access/race-entry-agentic-access.yml
   title: ''
@@ -209,19 +213,19 @@ finops:
   slug: race-entry-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/race-entry.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Race Entry
 nav: Providers
 network: true
 overview: 'Race Entry publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Event API, Get Category Teams API, Get Event Categories API, and 13 more. Tagged areas include Race Timing, Race Registration, Event Management, Race Results, and Sports.
 
 
-  Race Entry''s developer surface includes authentication and 3 more developer resources.'
+  Race Entry''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Race Entry Plans Pricing
   plan_count: 3
   slug: race-entry-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Race Entry Rate Limits
@@ -253,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -275,4 +279,5 @@ tags:
 - Event Management
 - Race Results
 - Sports
+website: https://raceentry.com
 ---

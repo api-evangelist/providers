@@ -23,13 +23,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: OpenAI-style hosted inference. GET /v1/models answers keyless with the live catalog (verified 2026-09-09); calls authenticate with Bearer mr_live_ keys.
-  name: ModelRush API
-  slug: modelrush-api
-artifact_total: 9
+- baseURL: https://api.modelrush.ai/v1
+  baseurl_source: declared
+  description: The Audio API from ModelRush — 2 operation(s) for audio.
+  name: ModelRush Audio API
+  slug: modelrush-audio-api
+- baseURL: https://api.modelrush.ai/v1
+  baseurl_source: declared
+  description: The Chat API from ModelRush — 1 operation(s) for chat.
+  name: ModelRush Chat API
+  slug: modelrush-chat-api
+- baseURL: https://api.modelrush.ai/v1
+  baseurl_source: declared
+  description: The Discovery API from ModelRush — 2 operation(s) for discovery.
+  name: ModelRush Discovery API
+  slug: modelrush-discovery-api
+- baseURL: https://api.modelrush.ai/v1
+  baseurl_source: declared
+  description: The Images API from ModelRush — 2 operation(s) for images.
+  name: ModelRush Images API
+  slug: modelrush-images-api
+- baseURL: https://api.modelrush.ai/v1
+  baseurl_source: declared
+  description: The Predictions API from ModelRush — 1 operation(s) for predictions.
+  name: ModelRush Predictions API
+  slug: modelrush-predictions-api
+- baseURL: https://api.modelrush.ai/v1
+  baseurl_source: declared
+  description: The Uploads API from ModelRush — 2 operation(s) for uploads.
+  name: ModelRush Uploads API
+  slug: modelrush-uploads-api
+- baseURL: https://api.modelrush.ai/v1
+  baseurl_source: declared
+  description: The Video API from ModelRush — 2 operation(s) for video.
+  name: ModelRush Video API
+  slug: modelrush-video-api
+- baseURL: https://api.modelrush.ai/v1
+  baseurl_source: declared
+  description: The Webhooks API from ModelRush — 1 operation(s) for webhooks.
+  name: ModelRush Webhooks API
+  slug: modelrush-webhooks-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Modelrush Webhooks
@@ -39,6 +76,21 @@ collections:
   name: ModelRush Public API
   slug: postman-ModelRush-Public-API
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/mcp/modelrush-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/modelrush-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/overlays/modelrush-public-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/modelrush-public-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/modelrush/refs/heads/main/security/modelrush-domain-security.yml
   title: ''
@@ -102,25 +154,25 @@ modified: '2026-09-10'
 name: ModelRush
 nav: Providers
 network: true
-overview: 'ModelRush publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Inference, Multi-Modal, and Model Hosting.
+overview: 'ModelRush publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Discovery API, and 5 more. Tagged areas include Artificial Intelligence, LLM, Inference, Multi-Modal, and Model Hosting.
 
 
   The ModelRush catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ModelRush''s developer surface includes authentication, engineering blog, support, signup flow, and 8 more developer resources.'
+  ModelRush''s developer surface includes authentication, engineering blog, support, signup flow, and 11 more developer resources.'
 plans:
 - name: Modelrush Plans Pricing
   plan_count: 0
   slug: modelrush-plans-pricing
-random_paper: 13
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Modelrush Rate Limits
   slug: modelrush-rate-limits
 score:
   band: developing
-  composite: 47.2
+  composite: 46.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 35.0
@@ -128,11 +180,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 62.4
+    contract_quality: 61.1
     developer_ergonomics: 54.2
     discoverability: 72.2
     operational_transparency: 36.8
@@ -143,11 +195,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

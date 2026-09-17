@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -100,6 +100,10 @@ collections:
   name: LabVantage LIMS Containers Tests API
   slug: open-labvantage-tests-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://labvantage.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/agentic-access/labvantage-agentic-access.yml
   title: ''
@@ -134,7 +138,7 @@ jsonld:
   property_count: 19
   slug: labvantage-context
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: LabVantage Solutions
 nav: Providers
 network: true
@@ -144,12 +148,12 @@ overview: 'LabVantage Solutions publishes 5 APIs on the [APIs.io](https://apis.i
   The LabVantage Solutions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  LabVantage Solutions'' developer surface includes authentication and 3 more developer resources.'
+  LabVantage Solutions'' developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Labvantage Plans Pricing
   plan_count: 1
   slug: labvantage-plans-pricing
-random_paper: 16
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Labvantage Rate Limits
@@ -198,7 +202,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -220,4 +224,5 @@ tags:
 - LIMS
 - Quality
 - GxP
+website: https://labvantage.com
 ---

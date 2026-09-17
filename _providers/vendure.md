@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,14 +53,9 @@ apis:
 - baseURL: http://localhost:3000/shop-api
   baseurl_source: declared
   description: The Vendure Admin API API from Vendure — 1 operation(s) for vendure admin api.
-  name: Vendure Vendure Admin API API
+  name: Vendure Admin API
   slug: vendure-vendure-admin-api-api
-- baseURL: http://localhost:3000/shop-api
-  baseurl_source: declared
-  description: The Vendure Shop API API from Vendure — 1 operation(s) for vendure shop api.
-  name: Vendure Vendure Shop API API
-  slug: vendure-vendure-shop-api-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -244,11 +239,11 @@ jsonld:
   property_count: 7
   slug: vendure-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Vendure
 nav: Providers
 network: true
-overview: 'Vendure publishes 3 APIs on the [APIs.io](https://apis.io/) network: Assets API, Vendure Admin API API, and Vendure Shop API API. Tagged areas include Commerce, Headless Commerce, E-Commerce, GraphQL, and Open-Source.
+overview: 'Vendure publishes 2 APIs on the [APIs.io](https://apis.io/) network: Assets API and Admin API. Tagged areas include Commerce, Headless Commerce, E-Commerce, GraphQL, and Open-Source.
 
 
   The Vendure catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -259,7 +254,7 @@ plans:
 - name: Vendure Plans Pricing
   plan_count: 3
   slug: vendure-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Vendure Rate Limits
@@ -288,7 +283,7 @@ rules:
   slug: vendure-rules
 score:
   band: developing
-  composite: 45.3
+  composite: 44.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 77.5
@@ -296,11 +291,11 @@ score:
     catalog_gap: 37.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 65.8
+    contract_quality: 62.9
     developer_ergonomics: 23.8
     discoverability: 72.2
     operational_transparency: 31.6
@@ -311,10 +306,10 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 2
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 45.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -55,16 +55,6 @@ apis:
   description: The Authorization API from Walmart — 2 operation(s) for authorization.
   name: Walmart Authorization API
   slug: walmart-authorization-api
-- baseURL: https://api-gateway.walmart.com
-  baseurl_source: declared
-  description: The DSV Cost API from Walmart — 1 operation(s) for dsv cost.
-  name: Walmart DSV Cost API
-  slug: walmart-dsv-cost-api
-- baseURL: https://api-gateway.walmart.com
-  baseurl_source: declared
-  description: The DSV Orders API from Walmart — 6 operation(s) for dsv orders.
-  name: Walmart DSV Orders API
-  slug: walmart-dsv-orders-api
 - baseURL: https://marketplace.walmartapis.com
   baseurl_source: declared
   description: The Feeds API from Walmart — 3 operation(s) for feeds.
@@ -105,11 +95,6 @@ apis:
   description: The Notifications API from Walmart — 4 operation(s) for notifications.
   name: Walmart Notifications API
   slug: walmart-notifications-api
-- baseURL: https://marketplace.walmartapis.com
-  baseurl_source: declared
-  description: The On-Request Report API from Walmart — 3 operation(s) for on-request report.
-  name: Walmart On-Request Report API
-  slug: walmart-on-request-report-api
 - baseURL: https://marketplace.walmartapis.com
   baseurl_source: declared
   description: The On Request Reports API from Walmart — 3 operation(s) for on request reports.
@@ -170,7 +155,7 @@ apis:
   description: The Utilities API from Walmart — 4 operation(s) for utilities.
   name: Walmart Utilities API
   slug: walmart-utilities-api
-artifact_total: 77
+artifact_total: 74
 asyncapis:
 - description: AsyncAPI 2.6 description of the Walmart Marketplace Notifications surface — also known as Walmart's seller webhooks / push notifications. Walmart POSTs a JSON payload describing an event to a seller-d
   name: Walmart Marketplace Notifications (Webhooks)
@@ -255,6 +240,21 @@ collections:
   name: Walmart Cost Management Assortment Recommendations Utilities API
   slug: open-walmart-utilities-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/overlays/walmart-dsv-cost-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/walmart-dsv-cost-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/overlays/walmart-dsv-orders-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/walmart-dsv-orders-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/overlays/walmart-on-request-report-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/walmart-on-request-report-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -519,13 +519,13 @@ modified: '2026-08-27'
 name: Walmart
 nav: Providers
 network: true
-overview: 'Walmart publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Assortment Recommendations API, Authorization API, DSV Cost API, and 22 more. Tagged areas include Commerce, Retail, Fortune 100, Marketplace, and E-Commerce.
+overview: 'Walmart publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Assortment Recommendations API, Authorization API, Feeds API, and 19 more. Tagged areas include Commerce, Retail, Fortune 100, Marketplace, and E-Commerce.
 
 
   The Walmart catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Walmart''s developer surface includes authentication, developer portal, documentation, sandbox, support, FAQ, API reference, and 39 more developer resources.'
+  Walmart''s developer surface includes authentication, developer portal, documentation, sandbox, support, FAQ, API reference, and 42 more developer resources.'
 plans:
 - name: Walmart Plans Pricing
   plan_count: 2
@@ -546,7 +546,7 @@ press:
 - date: '2026-05-25'
   title: Walmart Partners with OpenAI to Create AI-First Shopping ...
   url: https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 202
   name: Walmart Rate Limits
@@ -599,11 +599,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 25
+      total: 22
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

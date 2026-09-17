@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -41,13 +41,8 @@ agentic_access:
   operation_count: 158
   slug: department-of-state-agentic-access
   summary_line: 158 operations · 93 acting
-api_count: 4
+api_count: 5
 apis:
-- baseURL: https://www.state.gov/wp-json
-  baseurl_source: declared
-  description: The Department of State runs www.state.gov on WordPress and exposes the WordPress REST API anonymously at https://www.state.gov/wp-json. Alongside the core WordPress resources the Department registers
-  name: state.gov Content API
-  slug: state-gov-content-api
 - description: A RESTful, OPDS Catalog 1.1 feed of the Foreign Relations of the United States series — the official documentary record of major U.S. foreign policy decisions — published by the Office of the Historia
   name: Office of the Historian Ebook Catalog API
   slug: historian-ebook-catalog-api
@@ -81,7 +76,177 @@ apis:
 - description: Public datasets published by the State Department through the federal open-data catalog.
   name: State Department Open Data on data.gov
   slug: state-data-gov
-artifact_total: 32
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: WordPress category taxonomy.
+  name: Department of State Categories API
+  slug: department-of-state-categories-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Media library attachments (images, PDFs, video posters).
+  name: Department of State Media API
+  slug: department-of-state-media-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: state.gov pages.
+  name: Department of State Pages API
+  slug: department-of-state-pages-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: WordPress posts.
+  name: Department of State Posts API
+  slug: department-of-state-posts-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Cross-content search across state.gov content types.
+  name: Department of State Search API
+  slug: department-of-state-search-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Archive tag taxonomy.
+  name: Department of State State Archive Tags API
+  slug: department-of-state-state-archive-tags-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Author group taxonomy.
+  name: Department of State State Author Groups API
+  slug: department-of-state-state-author-groups-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Biographies of Department principals and officials.
+  name: Department of State State Biography API
+  slug: department-of-state-state-biography-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Biography type taxonomy.
+  name: Department of State State Biography Types API
+  slug: department-of-state-state-biography-types-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Press briefings, remarks and transcripts.
+  name: Department of State State Briefing API
+  slug: department-of-state-state-briefing-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Briefing type taxonomy.
+  name: Department of State State Briefing Type API
+  slug: department-of-state-state-briefing-type-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Bureaus and offices of the Department of State.
+  name: Department of State State Bureau API
+  slug: department-of-state-state-bureau-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Countries and areas taxonomy.
+  name: Department of State State Countries And Areas API
+  slug: department-of-state-state-countries-and-areas-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Country and area landing content.
+  name: Department of State State Country API
+  slug: department-of-state-state-country-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Document type taxonomy.
+  name: Department of State State Document Type API
+  slug: department-of-state-state-document-type-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Externally sourced content syndicated onto state.gov.
+  name: Department of State State Ext Content API
+  slug: department-of-state-state-ext-content-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Live draft tag taxonomy.
+  name: Department of State State Live Draft Tags API
+  slug: department-of-state-state-live-draft-tags-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: People records used across state.gov.
+  name: Department of State State People API
+  slug: department-of-state-state-people-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Policy issue landing content.
+  name: Department of State State Policy Issue API
+  slug: department-of-state-state-policy-issue-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Policy issues taxonomy.
+  name: Department of State State Policy Issues API
+  slug: department-of-state-state-policy-issues-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Press releases issued by the Office of the Spokesperson and Department bureaus.
+  name: Department of State State Press Release API
+  slug: department-of-state-state-press-release-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Department reports (human rights, religious freedom, trafficking in persons, and others).
+  name: Department of State State Report API
+  slug: department-of-state-state-report-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Report type taxonomy.
+  name: Department of State State Report Types API
+  slug: department-of-state-state-report-types-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Configured RSS feed definitions.
+  name: Department of State State Rss Feeds API
+  slug: department-of-state-state-rss-feeds-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Standard landing pages.
+  name: Department of State State Standard Land API
+  slug: department-of-state-state-standard-land-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: State (U.S. state) content type.
+  name: Department of State State State API
+  slug: department-of-state-state-state-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: U.S. states taxonomy.
+  name: Department of State State States API
+  slug: department-of-state-state-states-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Subject taxonomy.
+  name: Department of State State Subjects API
+  slug: department-of-state-state-subjects-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Term collection content.
+  name: Department of State State Term Coll API
+  slug: department-of-state-state-term-coll-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Official travel by the Secretary and other principals.
+  name: Department of State State Trip Travel API
+  slug: department-of-state-state-trip-travel-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Year taxonomy.
+  name: Department of State State Years API
+  slug: department-of-state-state-years-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: WordPress post tag taxonomy.
+  name: Department of State Tags API
+  slug: department-of-state-tags-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Registered taxonomies and their REST bases.
+  name: Department of State Taxonomies API
+  slug: department-of-state-taxonomies-api
+- baseURL: https://www.state.gov/wp-json
+  baseurl_source: declared
+  description: Registered content types and their REST bases.
+  name: Department of State Types API
+  slug: department-of-state-types-api
+artifact_total: 65
 common:
 - group: build
   title: ''
@@ -135,10 +300,10 @@ common:
   type: Reference
   url: https://fam.state.gov/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/openapi/department-of-state-state-gov-content-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/openapi/_original/department-of-state-state-gov-content-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/department-of-state-state-gov-content-openapi.yml
+  url: openapi/_original/department-of-state-state-gov-content-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/department-of-state/refs/heads/main/json-schema/_index.yml
   title: ''
@@ -290,11 +455,11 @@ mcp_servers:
 - description: ''
   name: Department of State MCP Server
   slug: department-of-state-mcp-server
-modified: '2026-09-07'
+modified: '2026-09-16'
 name: Department of State
 nav: Providers
 network: true
-overview: 'Department of State publishes 1 API on the [APIs.io](https://apis.io/) network: state.gov Content API. Tagged areas include Federal-Government, Foreign Affairs, Travel, Consular, and Visas.
+overview: 'Department of State publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Media API, Pages API, and 31 more. Tagged areas include Federal-Government, Foreign Affairs, Travel, Consular, and Visa.
 
 
   The Department of State catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -305,7 +470,7 @@ plans:
 - name: Department Of State Plans Pricing
   plan_count: 0
   slug: department-of-state-plans-pricing
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Department Of State Rate Limits
@@ -323,21 +488,21 @@ rules:
   slug: state-rules
 score:
   band: thin
-  composite: 38.1
+  composite: 36.5
   coverage:
     artifact_dirs: 24
-    catalog_earned: 49.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 6.0
-    catalog_gap: 66.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 25.2
+    contract_quality: 24.7
     developer_ergonomics: 44.6
-    discoverability: 64.8
+    discoverability: 50.0
     operational_transparency: 28.9
   previous_composite: 38.1
   provenance:
@@ -345,9 +510,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 34
       marker_coverage: 100.0
-      total: 1
+      total: 34
     mcp: derived
     skills: derived
   regulatory:
@@ -357,7 +522,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -381,7 +546,7 @@ tags:
 - Foreign Affairs
 - Travel
 - Consular
-- Visas
+- Visa
 - Passports
 website: https://www.state.gov/
 ---

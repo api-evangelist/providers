@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'Programmatic access to Bloomberg''s secure IB messaging network for sending and receiving messages within the Bloomberg Terminal ecosystem. Supports integration with trading and compliance systems for '
@@ -44,6 +44,10 @@ apis:
   slug: bloomberg-bchat
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -94,19 +98,19 @@ finops:
   slug: bloomberg-instant-messaging-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-instant-messaging.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Instant Messaging
 nav: Providers
 network: true
 overview: 'Bloomberg Instant Messaging publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Messaging, Instant Messaging, Compliance, Financial Communication, and Bloomberg IB.
 
 
-  Bloomberg Instant Messaging''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Instant Messaging''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Instant Messaging Plans Pricing
   plan_count: 3
   slug: bloomberg-instant-messaging-plans-pricing
-random_paper: 19
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Bloomberg Instant Messaging Rate Limits
@@ -131,7 +135,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -160,5 +164,5 @@ use_cases:
   name: Compliance Surveillance
 - description: Maintain compliant communication records with institutional clients.
   name: Client Communication
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

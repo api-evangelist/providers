@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Two HundredX-operated Model Context Protocol servers reachable on the public internet — "HX BigQuery MCP Server" 2.0.0 at hx-bigquery-mcp.hundredx.com and "Jupyter MCP Server" 2.0.0 at jupyter-mcp.hun
@@ -162,7 +162,7 @@ plans:
 - name: Hundredx Plans Pricing
   plan_count: 0
   slug: hundredx-plans-pricing
-random_paper: 5
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Hundredx Rate Limits
@@ -195,7 +195,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

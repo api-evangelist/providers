@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: Amazon Managed Blockchain Accessors Tags API
   slug: open-amazon-managed-blockchain-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1582,7 +1586,7 @@ jsonld:
   property_count: 68
   slug: amazon-managed-blockchain-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Managed Blockchain
 nav: Providers
 network: true
@@ -1592,12 +1596,12 @@ overview: 'Amazon Managed Blockchain publishes 4 APIs on the [APIs.io](https://a
   The Amazon Managed Blockchain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Managed Blockchain''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 13 more developer resources.'
+  Amazon Managed Blockchain''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Managed Blockchain Plans Pricing
   plan_count: 3
   slug: amazon-managed-blockchain-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Blockchain Rate Limits
@@ -1651,7 +1655,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1689,5 +1693,5 @@ use_cases:
   name: Healthcare Data Sharing
 - description: Manage digital assets and NFTs on Ethereum through a fully managed blockchain service.
   name: Digital Asset Management
-website: https://aws.amazon.com/managed-blockchain/
+website: https://amazon.com
 ---

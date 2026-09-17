@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -106,6 +106,10 @@ collections:
   name: AWS Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes Tags API
   slug: open-amazon-signer-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -786,7 +790,7 @@ jsonld:
   property_count: 69
   slug: amazon-signer-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Signer
 nav: Providers
 network: true
@@ -796,12 +800,12 @@ overview: 'Amazon Signer publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Signer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Signer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Signer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Signer Plans Pricing
   plan_count: 3
   slug: amazon-signer-plans-pricing
-random_paper: 16
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Amazon Signer Rate Limits
@@ -855,7 +859,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -893,5 +897,5 @@ use_cases:
   name: Container Image Signing
 - description: Track all signing operations via CloudTrail for audit and compliance requirements.
   name: Audit and Compliance
-website: https://aws.amazon.com/signer/
+website: https://amazon.com
 ---

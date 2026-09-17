@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -126,11 +126,11 @@ modified: '2026-08-05'
 name: Utilidata
 nav: Providers
 network: true
-overview: 'Utilidata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electric Grid, Utilities, and Data Centers.
+overview: 'Utilidata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electric Grid, Utilities, and Data-Center.
 
 
   Utilidata''s developer surface includes engineering blog, support, and 16 more developer resources.'
-random_paper: 16
+random_paper: 15
 score:
   band: emerging
   composite: 12.5
@@ -159,7 +159,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -177,7 +177,7 @@ tags:
 - Energy
 - Electric Grid
 - Utilities
-- Data Centers
+- Data-Center
 - Artificial Intelligence
 - Edge Computing
 - Telemetry

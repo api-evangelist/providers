@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 32
+- acting_count: 18
   human_in_the_loop: 0
   name: Paymob Agentic Access
-  operation_count: 42
+  operation_count: 20
   slug: paymob-agentic-access
-  summary_line: 42 operations · 32 acting
+  summary_line: 20 operations · 18 acting
 api_count: 2
 apis:
 - baseURL: https://payouts.paymobsolutions.com
@@ -85,16 +85,16 @@ apis:
   description: The Payments API from Paymob — 1 operation(s) for payments.
   name: Paymob Payments API
   slug: paymob-payments-api
-- baseURL: https://payouts.paymobsolutions.com
-  baseurl_source: spec
-  description: The Topup API from Paymob — 2 operation(s) for topup.
-  name: Paymob Topup API
-  slug: paymob-topup-api
 - baseURL: https://accept.paymob.com
   baseurl_source: spec
   description: The Transactions API from Paymob — 2 operation(s) for transactions.
   name: Paymob Transactions API
   slug: paymob-transactions-api
+- baseURL: https://payouts.paymobsolutions.com
+  baseurl_source: spec
+  description: The Top Up API from Paymob — 2 operation(s) for top up.
+  name: Paymob Top Up API
+  slug: paymob-top-up-api
 artifact_total: 107
 collections:
 - collection_type: postman
@@ -521,7 +521,7 @@ plans:
 - name: Paymob Plans Pricing
   plan_count: 3
   slug: paymob-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Paymob Rate Limits
@@ -591,7 +591,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -626,7 +626,7 @@ tags:
 - MENAP
 - Egypt
 - Saudi Arabia
-- UAE
+- United Arab Emirates
 - Pakistan
 - Oman
 - Card Payments

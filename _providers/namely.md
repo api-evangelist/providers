@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://{company}.namely.com/api/v1
@@ -103,7 +103,7 @@ apis:
 - baseURL: https://{company}.namely.com/api/v1
   baseurl_source: declared
   description: The Namely System Info API from Namely — 2 operation(s) for namely system info.
-  name: Namely Namely System Info API
+  name: Namely System Info API
   slug: namely-namely-system-info-api
 - baseURL: https://{company}.namely.com/api/v1
   baseurl_source: declared
@@ -283,11 +283,11 @@ description: Namely is a mid-market Human Capital Management (HCM) platform comb
   combined Vensure Employer Solutions / PrismHR organisation in September 2022.
 image: https://namely.com/wp-content/uploads/2023/11/Namely.svg
 layout: provider
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: Namely
 nav: Providers
 network: true
-overview: 'Namely publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Company Info API, Company Resources API, and 16 more. Tagged areas include HR, HCM, Payroll, Employee Data, and Onboarding.
+overview: 'Namely publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Company Info API, Company Resources API, and 16 more. Tagged areas include Human Resources, HCM, Payroll, Employee Data, and Onboarding.
 
 
   Namely''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
@@ -295,7 +295,7 @@ plans:
 - name: Namely Plans Pricing
   plan_count: 4
   slug: namely-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Namely Rate Limits
@@ -329,7 +329,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -346,7 +346,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: namely
 tags:
-- HR
+- Human Resources
 - HCM
 - Payroll
 - Employee Data
@@ -355,8 +355,9 @@ tags:
 - Applicant Tracking
 - Performance Management
 - SCIM
-- Single Sign-On
+- SSO
 - Identity Provisioning
 - Workforce Management
+- Identity Federation
 website: https://namely.com/
 ---

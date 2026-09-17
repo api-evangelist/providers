@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,11 +178,11 @@ jsonld:
   property_count: 8
   slug: starwood-hotels-and-resorts-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Starwood Hotels and Resorts
 nav: Providers
 network: true
-overview: 'Starwood Hotels and Resorts publishes 3 APIs on the [APIs.io](https://apis.io/) network: Availability API, Hotels API, and Properties API.
+overview: 'Starwood Hotels and Resorts publishes 3 APIs on the [APIs.io](https://apis.io/) network: Availability API, Hotels API, and Properties API. Tagged areas include Hotels, Travel, Hospitality, Loyalty, and Rewards.
 
 
   The Starwood Hotels and Resorts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -209,7 +209,7 @@ press:
 - date: '2026-05-25'
   title: CT-STARWOOD-HOTELS | Business Wire - Via Ritzau
   url: https://via.ritzau.dk/pressemeddelelse/3177140/ct-starwood-hotels?publisherId=90456
-random_paper: 15
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Starwood Hotels And Resorts Rate Limits
@@ -238,21 +238,21 @@ rules:
   slug: starwood-hotels-and-resorts-rules
 score:
   band: thin
-  composite: 27.4
+  composite: 28.4
   coverage:
     artifact_dirs: 17
-    catalog_earned: 48.5
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    catalog_gap: 46.5
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 0.0
     contract_governance: 28.8
     contract_quality: 56.5
     developer_ergonomics: 19.0
-    discoverability: 53.7
+    discoverability: 63.0
     operational_transparency: 5.3
   previous_composite: 27.4
   provenance:
@@ -262,11 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -279,5 +276,12 @@ security:
   slug: starwood-hotels-and-resorts-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: starwood-hotels-and-resorts
+tags:
+- Hotels
+- Travel
+- Hospitality
+- Loyalty
+- Rewards
+- Content
 website: https://www.starwoodhotels.com
 ---

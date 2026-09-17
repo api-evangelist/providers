@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,9 +47,9 @@ api_count: 1
 apis:
 - baseURL: https://cloud.getliteral.ai/api/graphql
   baseurl_source: declared
-  description: The GraphQL API from Literal AI — 1 operation(s) for graphql.
-  name: Literal AI GraphQL API
-  slug: literalai-graphql-api
+  description: The Graph QL API from Literal AI — 1 operation(s) for graph ql.
+  name: Literal AI Graph QL API
+  slug: literalai-graph-ql-api
 artifact_total: 11
 collections:
 - collection_type: open
@@ -124,7 +124,7 @@ modified: '2026-06-20'
 name: Literal AI
 nav: Providers
 network: true
-overview: 'Literal AI publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluation, and Monitoring.
+overview: 'Literal AI publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluation, and Monitoring.
 
 
   Literal AI''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -132,7 +132,7 @@ plans:
 - name: Literalai Plans Pricing
   plan_count: 3
   slug: literalai-plans-pricing
-random_paper: 6
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Literalai Rate Limits
@@ -164,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

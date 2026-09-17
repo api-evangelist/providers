@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,16 +77,21 @@ apis:
   slug: kateeva-discovery-api
 - baseURL: https://kateeva.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for kateeva.com URLs, returning embeddable rich metadata — title, author, provider, thumbnail and iframe HTML — for any post or page on the site.
-  name: Kateeva oEmbed API
-  slug: kateeva-oembed-api
-- baseURL: https://kateeva.com/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any kateeva.com URL — a structured-data view of every page without scraping the HTML. Th
   name: Kateeva SEO Metadata API
   slug: kateeva-seo-api
+- baseURL: https://kateeva.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint.
+  name: Kateeva o Embed API
+  slug: kateeva-o-embed-api
 artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/overlays/kateeva-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/kateeva-oembed-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/security/kateeva-domain-security.yml
   title: ''
@@ -266,12 +271,12 @@ network: true
 overview: 'Kateeva publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 5 more. Tagged areas include Company, Display Manufacturing, OLED, Semiconductor Equipment, and Capital Equipment.
 
 
-  Kateeva''s developer surface includes engineering blog, product news, authentication, code examples, and 34 more developer resources.'
+  Kateeva''s developer surface includes engineering blog, product news, authentication, code examples, and 35 more developer resources.'
 plans:
 - name: Kateeva Plans Pricing
   plan_count: 0
   slug: kateeva-plans-pricing
-random_paper: 2
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Kateeva Rate Limits
@@ -306,7 +311,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

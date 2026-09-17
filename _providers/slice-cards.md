@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -222,7 +222,7 @@ overview: 'Slice is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Slice''s developer surface includes support and 42 more developer resources.'
-random_paper: 6
+random_paper: 20
 score:
   band: minimal
   composite: 8.9
@@ -256,7 +256,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

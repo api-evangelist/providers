@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Sorbonne University's federated login, published as a signed SAML 2.0 EntityDescriptor at https://auth.id.sorbonne-universite.fr/saml/metadata (HTTP 200, application/xml, 11,704 bytes). Declares HTTP-
@@ -171,7 +171,7 @@ plans:
 - name: Sorbonne Plans Pricing
   plan_count: 2
   slug: sorbonne-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Sorbonne Rate Limits
@@ -212,7 +212,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

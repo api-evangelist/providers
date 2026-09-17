@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API of the Octopus Authentication Server Management Console. SDO's own FAQ states "we provide comprehensive REST APIs that allow complete system control, including scripting, bulk updates, and in
@@ -136,7 +136,7 @@ plans:
 - name: Secret Double Octopus Plans Pricing
   plan_count: 0
   slug: secret-double-octopus-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Secret Double Octopus Rate Limits
@@ -164,7 +164,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

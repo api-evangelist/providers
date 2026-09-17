@@ -33,44 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 8
 apis:
-- baseURL: https://biblio.ugent.be
-  baseurl_source: declared
-  description: The Academic Bibliography (Biblio) is Ghent University's institutional publication and dataset registry, operated by Ghent University Library on the university's own host. It exposes a JSON/JSONP REST
-  name: Ghent University Academic Bibliography API
-  slug: biblio
-- baseURL: https://biblio.ugent.be/oai
-  baseurl_source: declared
-  description: OAI-PMH 2.0 harvesting endpoint for the Academic Bibliography. The live Identify response names the repository "Ghent University Institutional Archive", declares repositoryIdentifier archive.ugent.be,
-  name: Ghent University Academic Bibliography OAI-PMH
-  slug: biblio-oai
-- baseURL: https://biblio.ugent.be/sru
-  baseurl_source: declared
-  description: 'SRU 1.1 search/retrieve service over the Academic Bibliography, driven by Contextual Query Language. Seventy-eight indexes are documented with their supported relations and sortability, from abstract '
-  name: Ghent University Academic Bibliography SRU
-  slug: biblio-sru
-- baseURL: https://hydra.ugent.be/api/2.0/resto
-  baseurl_source: declared
-  description: Open JSON API for Ghent University's student restaurants - locations and opening hours, day menus, weekly ecological sandwiches, salad bowls, extra food and allergen information - served from hydra.ug
-  name: Hydra Resto API
-  slug: hydra-resto
-- baseURL: /api/v1
-  baseurl_source: spec
-  description: An OpenAPI 3.1 contract authored and open-sourced by Ghent University Library for the people and organizations directory behind the Academic Bibliography. Sixteen operations covering person and organi
-  name: Ghent University Library People Service
-  slug: people-service
-- baseURL: /api/v1
-  baseurl_source: spec
-  description: An OpenAPI 3.1 contract authored and open-sourced by Ghent University Library for the directory of research projects at Ghent University - add, get, delete and suggest operations over project records.
-  name: Ghent University Library Projects Service
-  slug: projects-service
-- baseURL: /api/v1
-  baseurl_source: spec
-  description: An OpenAPI 3.1 contract authored and open-sourced by Ghent University Library for the administrative side of the OAI-PMH server that fronts the Academic Bibliography - adding metadata formats, sets, i
-  name: Ghent University Library OAI Service
-  slug: oai-service
 - description: Ghent University's own SAML 2.0 identity provider, operated by the university's ICT directorate. The signed metadata document is publicly readable and carries entityID https://identity.ugent.be/simple
   name: Ghent University SAML 2.0 Identity Provider
   slug: saml-idp
@@ -86,7 +51,182 @@ apis:
 - description: Ghent University is registered in the Research Organization Registry as https://ror.org/00cv9y106, distinct from Ghent University Hospital (https://ror.org/00xmkp704) and HOGENT (https://ror.org/00rs4
   name: ROR registration
   slug: ror
-artifact_total: 23
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Add Item API from Ghent University — 1 operation(s) for add item.
+  name: Ghent University Add Item API
+  slug: ghent-add-item-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Add Metadata Format API from Ghent University — 1 operation(s) for add metadata format.
+  name: Ghent University Add Metadata Format API
+  slug: ghent-add-metadata-format-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Add Organization API from Ghent University — 1 operation(s) for add organization.
+  name: Ghent University Add Organization API
+  slug: ghent-add-organization-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Add Person API from Ghent University — 1 operation(s) for add person.
+  name: Ghent University Add Person API
+  slug: ghent-add-person-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Add Project API from Ghent University — 1 operation(s) for add project.
+  name: Ghent University Add Project API
+  slug: ghent-add-project-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Add Record API from Ghent University — 1 operation(s) for add record.
+  name: Ghent University Add Record API
+  slug: ghent-add-record-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Add Set API from Ghent University — 1 operation(s) for add set.
+  name: Ghent University Add Set API
+  slug: ghent-add-set-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Delete Project API from Ghent University — 1 operation(s) for delete project.
+  name: Ghent University Delete Project API
+  slug: ghent-delete-project-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Delete Record API from Ghent University — 1 operation(s) for delete record.
+  name: Ghent University Delete Record API
+  slug: ghent-delete-record-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: Daily full-dataset dumps under ODbL.
+  name: Ghent University Dumps API
+  slug: ghent-dumps-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: Per-record and result-set exports in bibliographic formats.
+  name: Ghent University Export API
+  slug: ghent-export-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: RSS 1.0 feeds for any CQL search.
+  name: Ghent University Feeds API
+  slug: ghent-feeds-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Food API from Ghent University — 6 operation(s) for food.
+  name: Ghent University Food API
+  slug: ghent-food-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Get Organization API from Ghent University — 1 operation(s) for get organization.
+  name: Ghent University Get Organization API
+  slug: ghent-get-organization-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Get Organizations API from Ghent University — 1 operation(s) for get organizations.
+  name: Ghent University Get Organizations API
+  slug: ghent-get-organizations-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Get Organizations By Id API from Ghent University — 1 operation(s) for get organizations by id.
+  name: Ghent University Get Organizations By Id API
+  slug: ghent-get-organizations-by-id-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Get Organizations By Identifier API from Ghent University — 1 operation(s) for get organizations by identifier.
+  name: Ghent University Get Organizations By Identifier API
+  slug: ghent-get-organizations-by-identifier-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Get People API from Ghent University — 1 operation(s) for get people.
+  name: Ghent University Get People API
+  slug: ghent-get-people-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Get People By Id API from Ghent University — 1 operation(s) for get people by id.
+  name: Ghent University Get People By Id API
+  slug: ghent-get-people-by-id-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Get People By Identifier API from Ghent University — 1 operation(s) for get people by identifier.
+  name: Ghent University Get People By Identifier API
+  slug: ghent-get-people-by-identifier-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Get Person API from Ghent University — 1 operation(s) for get person.
+  name: Ghent University Get Person API
+  slug: ghent-get-person-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Get Project API from Ghent University — 1 operation(s) for get project.
+  name: Ghent University Get Project API
+  slug: ghent-get-project-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Locations API from Ghent University — 1 operation(s) for locations.
+  name: Ghent University Locations API
+  slug: ghent-locations-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Menu API from Ghent University — 2 operation(s) for menu.
+  name: Ghent University Menu API
+  slug: ghent-menu-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata harvesting.
+  name: Ghent University OAI PMH API
+  slug: ghent-oai-pmh-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: REST search over publications and datasets.
+  name: Ghent University Search API
+  slug: ghent-search-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Set Person Orcid API from Ghent University — 1 operation(s) for set person orcid.
+  name: Ghent University Set Person Orcid API
+  slug: ghent-set-person-orcid-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Set Person Role API from Ghent University — 1 operation(s) for set person role.
+  name: Ghent University Set Person Role API
+  slug: ghent-set-person-role-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Set Person Settings API from Ghent University — 1 operation(s) for set person settings.
+  name: Ghent University Set Person Settings API
+  slug: ghent-set-person-settings-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Set Person Token API from Ghent University — 1 operation(s) for set person token.
+  name: Ghent University Set Person Token API
+  slug: ghent-set-person-token-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: SRU 1.1 search/retrieve over CQL.
+  name: Ghent University SRU API
+  slug: ghent-sru-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Suggest Organizations API from Ghent University — 1 operation(s) for suggest organizations.
+  name: Ghent University Suggest Organizations API
+  slug: ghent-suggest-organizations-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Suggest People API from Ghent University — 1 operation(s) for suggest people.
+  name: Ghent University Suggest People API
+  slug: ghent-suggest-people-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Suggest Projects API from Ghent University — 1 operation(s) for suggest projects.
+  name: Ghent University Suggest Projects API
+  slug: ghent-suggest-projects-api
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: unAPI 1 alternate-format discovery.
+  name: Ghent University Un API
+  slug: ghent-unapi-api
+artifact_total: 51
 common:
 - group: company
   title: ''
@@ -230,7 +370,7 @@ modified: '2026-09-01'
 name: Ghent University
 nav: Providers
 network: true
-overview: 'Ghent University publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Academic Bibliography API, Academic Bibliography OAI-PMH, Academic Bibliography SRU, and 4 more. Tagged areas include University, Higher Education, Education, Research, and Research Data.
+overview: 'Ghent University publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Add Item API, Add Metadata Format API, Add Organization API, and 32 more. Tagged areas include University, Higher Education, Education, Research, and Research Data.
 
 
   The Ghent University catalog on APIs.io includes 1 JSON-LD context.
@@ -241,28 +381,28 @@ plans:
 - name: Ghent Plans Pricing
   plan_count: 2
   slug: ghent-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Ghent Rate Limits
   slug: ghent-rate-limits
 score:
   band: developing
-  composite: 42.6
+  composite: 42.8
   coverage:
     artifact_dirs: 15
-    catalog_earned: 69.3
+    catalog_earned: 70.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.8
+    catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 50.0
     contract_governance: 3.8
-    contract_quality: 59.1
+    contract_quality: 61.9
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -274,10 +414,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 40.0
+      callable: 28.6
       derived: 0
-      marker_coverage: 60.0
-      total: 5
+      marker_coverage: 0.0
+      total: 35
   regulatory:
     applies: true
     matched_via: tags
@@ -285,7 +425,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

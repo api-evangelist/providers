@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -58,7 +58,7 @@ modified: '2026-04-28'
 name: Pep Boys-Manny, Moe & Jack
 nav: Providers
 network: true
-overview: Pep Boys-Manny, Moe & Jack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Retail, and Service.
+overview: Pep Boys-Manny, Moe & Jack is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Retail, and Services.
 press:
 - date: '2026-05-25'
   title: Pep Boys agrees to be acquired for about $791M
@@ -75,7 +75,7 @@ press:
 - date: '2026-05-25'
   title: Pep Boys agrees to be bought by Icahn for $1 billion
   url: https://www.chicagotribune.com/2015/12/30/pep-boys-agrees-to-be-bought-by-icahn-for-1-billion/
-random_paper: 17
+random_paper: 5
 score:
   band: minimal
   composite: 3.2
@@ -96,7 +96,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -116,6 +116,6 @@ slug: pep-boys-manny-moe-and-jack
 tags:
 - Automotive
 - Retail
-- Service
+- Services
 website: https://www.pepboys.com
 ---

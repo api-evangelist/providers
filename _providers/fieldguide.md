@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
   description: Endpoints used to interact with the Fieldguide API platform
-  name: Fieldguide api API
+  name: Fieldguide api
   slug: fieldguide-api-api
 - baseURL: https://api.fieldguide.io
   baseurl_source: declared
@@ -310,18 +310,18 @@ created: '2026-07-17'
 description: Fieldguide is an AI-native platform for audit and advisory firms, providing professional-grade "Field Agents" that plan, execute, and document engagement work end-to-end across financial audit, SOC audits, IT audit, risk advisory, tax, cybersecurity, and regulatory compliance engagements. The platform pairs engagement management, document management, insights and analytics, and a client hub with an open REST API (api.fieldguide.io) that exposes companies, engagements, requests, sheets, files, comments, milestones, users, insights, and webhook subscriptions. Fieldguide is used by half of the top 100 firms, is SOC 2 Type 2 and ISO/IEC 42001 certified, and is backed by 8VC and Bessemer Venture Partners.
 image: https://app.fieldguide.io/img/logo192.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Fieldguide
 nav: Providers
 network: true
-overview: 'Fieldguide publishes 15 APIs on the [APIs.io](https://apis.io/) network, including api API, comments API, companies API, and 12 more. Tagged areas include Company, Audit, Advisory, Accounting, and Compliance.
+overview: 'Fieldguide publishes 15 APIs on the [APIs.io](https://apis.io/) network, including comments API, companies API, and 13 more. Tagged areas include Company, Audit, Advisory, Accounting, and Compliance.
 
 
   The Fieldguide catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Fieldguide''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 13
+random_paper: 8
 scopes:
 - name: Fieldguide Scopes
   scope_count: 21
@@ -357,7 +357,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

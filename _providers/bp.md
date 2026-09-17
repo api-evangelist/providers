@@ -30,49 +30,89 @@ agent_readiness:
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 40.1
-  scored_at: '2026-09-15'
-api_count: 7
+  score: 44.4
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
 - description: The bp API Marketplace is a white-labelled RapidAPI Enterprise Hub developer portal for BP's digital APIs. It provides API discovery, a testing playground, documentation, usage monitoring, error and l
   name: BP API Marketplace
   slug: bp-api-marketplace
 - baseURL: https://api.fleet.bp.com/authentication/v1.0/
   baseurl_source: declared
-  description: Token endpoint for the bp Open Fleet platform. POST /token exchanges a client_id and client_secret for a bearer access_token used by every other Open Fleet API. Credentials are bound to a single envir
-  name: bp Open Fleet Authentication API
-  slug: bp-fleet-authentication
-- baseURL: https://api.fleet.bp.com/{apiPrefix}/v1/
+  description: The Cards API from BP — 1 operation(s) for cards.
+  name: BP Cards API
+  slug: bp-cards-api
+- baseURL: https://api.fleet.bp.com/authentication/v1.0/
   baseurl_source: declared
-  description: 'Fuel-card management for bp and Aral fleet customers. Currently exposes a single read operation, GET /cards, returning the latest card updates filtered by authority, parent account, card status and a '
-  name: bp Open Fleet Card Management API
-  slug: bp-fleet-card-management
-- baseURL: https://api.fleet.bp.com/{apiPrefix}/v1.0/
+  description: The Fueling API from BP — 2 operation(s) for fueling.
+  name: BP Fueling API
+  slug: bp-fueling-api
+- baseURL: https://api.fleet.bp.com/authentication/v1.0/
   baseurl_source: declared
-  description: 'Real-time access to fleet invoice data. GET /invoices retrieves and searches invoices with cost breakdowns, payment statuses, due dates and applicable discounts, filtered by authority, parent account '
-  name: bp Open Fleet Invoice Management API
-  slug: bp-fleet-invoice-management
-- baseURL: https://api.fleet.bp.com/{apiPrefix}/v1.0/
+  description: The OpenApiInvoices API from BP — 1 operation(s) for openapiinvoices.
+  name: BP Open API Invoices API
+  slug: bp-openapiinvoices-api
+- baseURL: https://api.fleet.bp.com/authentication/v1.0/
   baseurl_source: declared
-  description: Direct access to fleet fuel transaction data. GET /transactions returns full transaction detail including product breakdowns, site location, driver and vehicle information, discounts, taxes and invoic
-  name: bp Open Fleet Transaction Management API
-  slug: bp-fleet-transaction-management
-- baseURL: https://api.fleet.bp.com/{apiPrefix}/v1.0/
+  description: The OpenApiTransactions API from BP — 1 operation(s) for openapitransactions.
+  name: BP Open API Transactions API
+  slug: bp-openapitransactions-api
+- baseURL: https://api.fleet.bp.com/authentication/v1.0/
   baseurl_source: declared
-  description: 'Comprehensive bp and Aral retail site data. GET /sites returns address, contact details, retail site features such as ATM and car wash, operating hours and holiday schedules, site amenities, fuel and '
-  name: bp Open Fleet Retail Site Information API
-  slug: bp-fleet-retail-site-information
-- baseURL: https://api.fleet.bp.com/{apiPrefix}/v1/
+  description: The SiteDiscovery API from BP — 2 operation(s) for sitediscovery.
+  name: BP Site Discovery API
+  slug: bp-sitediscovery-api
+- baseURL: https://api.fleet.bp.com/authentication/v1.0/
   baseurl_source: declared
-  description: Digital fuel authorization at bp and Aral stations. Drivers authorize a fuel card directly from the vehicle, avoiding the till; the card is linked to a driver, vehicle or onboard computer and only the
-  name: bp Open Fleet Aral AppConnect (Pay@Pump) API
-  slug: bp-fleet-aral-appconnect
-artifact_total: 14
+  description: The Token API from BP — 1 operation(s) for token.
+  name: BP Token API
+  slug: bp-token-api
+- baseURL: https://api.fleet.bp.com/authentication/v1.0/
+  baseurl_source: declared
+  description: The Health Check API from BP — 1 operation(s) for health check.
+  name: BP Health Check API
+  slug: bp-health-check-api
+- baseURL: https://api.fleet.bp.com/authentication/v1.0/
+  baseurl_source: declared
+  description: The Payment Method API from BP — 1 operation(s) for payment method.
+  name: BP Payment Method API
+  slug: bp-payment-method-api
+artifact_total: 16
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/overlays/bp-fleet-authentication-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bp-fleet-authentication-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/overlays/bp-fleet-card-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bp-fleet-card-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/overlays/bp-fleet-invoice-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bp-fleet-invoice-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/overlays/bp-fleet-transaction-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bp-fleet-transaction-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/overlays/bp-fleet-retail-site-information-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bp-fleet-retail-site-information-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/overlays/bp-fleet-aral-appconnect-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/bp-fleet-aral-appconnect-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/security/bp-domain-security.yml
   title: ''
@@ -244,15 +284,15 @@ modified: '2026-09-04'
 name: BP
 nav: Providers
 network: true
-overview: 'BP publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Open Fleet Authentication API, Open Fleet Card Management API, Open Fleet Invoice Management API, and 3 more. Tagged areas include Energy, Oil, Gas, Renewables, and Developer Platform.
+overview: 'BP publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cards API, Fueling API, Open API Invoices API, and 5 more. Tagged areas include Energy, Oil, Gas, Renewables, and Developer Platform.
 
 
-  BP''s developer surface includes developer portal, API reference, getting-started guide, documentation, support, authentication, sandbox, and 28 more developer resources.'
+  BP''s developer surface includes developer portal, API reference, getting-started guide, documentation, support, authentication, sandbox, and 34 more developer resources.'
 plans:
 - name: Bp Plans Pricing
   plan_count: 0
   slug: bp-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Bp Rate Limits
@@ -264,7 +304,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.6
+  composite: 50.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 50.0
@@ -272,11 +312,11 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 35.5
     contract_governance: 4.5
-    contract_quality: 35.7
+    contract_quality: 42.3
     developer_ergonomics: 54.2
     discoverability: 72.2
     operational_transparency: 60.5
@@ -287,7 +327,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -297,7 +337,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

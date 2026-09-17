@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Jetstar API is Jetstar's direct-connect distribution channel for Registered Travel Agents and partners. It is a Navitaire New Skies (NSK) SOAP / WCF web service, not a REST product and not IATA ND
@@ -191,11 +191,11 @@ modified: '2026-07-28'
 name: Jetstar
 nav: Providers
 network: true
-overview: 'Jetstar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Australia, Aviation, Airline, and Low Cost Carrier.
+overview: 'Jetstar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Australia, Aviation, Airlines, and Low Cost Carrier.
 
 
   Jetstar''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, support, FAQ, and 25 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: emerging
   composite: 23.9
@@ -231,7 +231,7 @@ score:
     regime_id: telecommunications
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -256,7 +256,7 @@ tags:
 - Travel
 - Australia
 - Aviation
-- Airline
+- Airlines
 - Low Cost Carrier
 - Distribution
 - Booking

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A live Model Context Protocol server operated by Noctrix Health on the Nidra product site. Discovered anonymously from RFC 9728 OAuth 2.0 Protected Resource Metadata at https://nidrarls.com/.well-know
@@ -143,7 +143,7 @@ plans:
 - name: Noctrix Health Plans Pricing
   plan_count: 0
   slug: noctrix-health-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Noctrix Health Rate Limits
@@ -182,7 +182,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

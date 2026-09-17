@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Web API providing HTTP-based interfaces for accessing and manipulating SimCorp Dimension data in real time, supporting stateless RESTful operations across the investment management lifecycle. Named by
@@ -245,7 +245,7 @@ plans:
 - name: Simcorp Dimension Plans Pricing
   plan_count: 0
   slug: simcorp-dimension-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Simcorp Dimension Rate Limits
@@ -290,7 +290,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

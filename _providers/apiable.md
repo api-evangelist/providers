@@ -28,12 +28,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.8
-  scored_at: '2026-09-15'
+  score: 37.5
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -43,25 +43,80 @@ agentic_access:
   summary_line: 66 operations · 36 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://developer.apiable.io
-  baseurl_source: declared
-  description: 'The Apiable Platform API (v2) is the REST API Apiable publishes for managing an API program programmatically: products, plans, subscriptions, teams, users, companies, invitations, documentation entrie'
-  name: Apiable Platform API
-  slug: platform-api
 - description: Apiable provides a self-service API portal platform for API product managers and developers. It offers single-tenant dedicated portals with custom domains, automated API documentation with try-out fun
   name: Apiable API Portal Platform
   slug: api-portal-platform
-artifact_total: 22
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Companies, similar to teams are a way to group users together. Companies are a way to manage multiple teams and users together. An example being a company that has teams for different departments, suc
+  name: Apiable Companies API
+  slug: apiable-companies-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Custom properties are additional fields that can be used to store extra information about the subscription.
+  name: Apiable Custom Properties API
+  slug: apiable-custom-properties-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Docs are a way to store documentation in the system. The documentation can be used to store API and Plan level API documentations in the system.A documentation entry is always associated with either p
+  name: Apiable Docs API
+  slug: apiable-docs-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Files are a way to store files in the system. All uploaded files are stored in an S3 bucket.
+  name: Apiable Files API
+  slug: apiable-files-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Invitations are a way to invite new users to join the platform and team of the inviter. Invitations are typically sent by team members to new users, and can be accepted or ignored by the invitee.
+  name: Apiable Invitations API
+  slug: apiable-invitations-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Plans are a way to group APIs and their documentation.
+  name: Apiable Plans API
+  slug: apiable-plans-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Products are a high-level abstraction of your API products, they are used to group plans together and to provide a high level overview of the product.
+  name: Apiable Products API
+  slug: apiable-products-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: 'Operations related to managing subscriptions, including retrieval, update, approval, rejection, and refreshing the status of connected monetization. For security reasons, API keys, secrets, and other '
+  name: Apiable Subscriptions API
+  slug: apiable-subscriptions-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Teams are a way to group users together. Teams are used to manage team-based access to subscriptions on the platform with internal roles and permissions. Teams typically consist of one to a handful of
+  name: Apiable Teams API
+  slug: apiable-teams-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Users are the people who use the platform. Users can be invited to join the platform by an admin or they can sign up themselves. Users can be assigned to teams and have roles and permissions within th
+  name: Apiable Users API
+  slug: apiable-users-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: '# How Webhooks Work Webhooks are a way for services to communicate with each other in real time. When an event occurs, the Webhook sends an HTTP POST request to the URL that you''ve configured. The Web'
+  name: Apiable Webhooks API
+  slug: apiable-webhooks-api
+- baseURL: https://developer.apiable.io
+  baseurl_source: declared
+  description: Serverinfo is a way to get information about the server.
+  name: Apiable Server Info API
+  slug: apiable-server-info-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Apiable Webhooks
   slug: apiable-webhooks
 common:
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-platform-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/_original/apiable-platform-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/apiable-platform-api-openapi.json
+  url: openapi/_original/apiable-platform-api-openapi.json
 - group: docs
   title: ''
   type: APIReference
@@ -235,11 +290,11 @@ finops:
   slug: apiable-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apiable.png
 layout: provider
-modified: '2026-09-02'
+modified: '2026-09-16'
 name: Apiable
 nav: Providers
 network: true
-overview: 'Apiable publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Amazon API Gateway, API Gateway, API Monetization, API Portal, and Developer Experience.
+overview: 'Apiable publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Custom Properties API, Docs API, and 9 more. Tagged areas include Amazon API Gateway, API Gateway, API Monetization, API Portal, and Developer Experience.
 
 
   The Apiable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,7 +305,7 @@ plans:
 - name: Apiable Plans Pricing
   plan_count: 0
   slug: apiable-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Apiable Rate Limits
@@ -286,11 +341,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 12
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

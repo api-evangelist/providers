@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 65
+- acting_count: 150
   human_in_the_loop: 0
   name: Adobe Launch Agentic Access
-  operation_count: 135
+  operation_count: 299
   slug: adobe-launch-agentic-access
-  summary_line: 135 operations · 65 acting
+  summary_line: 299 operations · 150 acting
 api_count: 7
 apis:
 - baseURL: https://reactor.adobe.io
@@ -71,7 +71,7 @@ apis:
 - baseURL: https://edge.adobedc.net/ee
   baseurl_source: declared
   description: Send event data directly to the Adobe Experience Platform Edge Network. Supports both interactive (interact) and non-interactive (collect) data collection with authenticated and non-authenticated mode
-  name: Adobe Launch Edge Network API API
+  name: Adobe Launch Edge Network API
   slug: adobe-launch-edge-network-api-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
@@ -101,7 +101,7 @@ apis:
 - baseURL: https://edge.adobedc.net/ee/va/v1
   baseurl_source: declared
   description: Track media playback events through the Adobe Experience Platform Edge Network. Requires the Streaming Media Collection Add-on. Supports session management, play/pause tracking, buffering, and error r
-  name: Adobe Launch Media Edge API API
+  name: Adobe Launch Media Edge API
   slug: adobe-launch-media-edge-api-api
 - baseURL: https://reactor.adobe.io
   baseurl_source: declared
@@ -1947,7 +1947,7 @@ jsonld:
   property_count: 0
   slug: reactor-context
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Adobe Launch
 nav: Providers
 network: true
@@ -1962,7 +1962,7 @@ plans:
 - name: Adobe Launch Plans Pricing
   plan_count: 1
   slug: adobe-launch-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Adobe Launch Rate Limits
@@ -1996,7 +1996,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 71.8
+  composite: 72.0
   coverage:
     artifact_dirs: 35
     catalog_earned: 85.5
@@ -2004,11 +2004,11 @@ score:
     catalog_gap: 29.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
-    contract_quality: 75.2
+    contract_quality: 76.1
     developer_ergonomics: 91.1
     discoverability: 75.9
     operational_transparency: 76.3
@@ -2024,7 +2024,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

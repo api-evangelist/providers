@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 7
@@ -72,19 +72,9 @@ apis:
   slug: stardog-db-admin-api
 - baseURL: https://cloud.stardog.com
   baseurl_source: declared
-  description: Operations for running Entity Resolution
-  name: Stardog EntityResolution API
-  slug: stardog-entityresolution-api
-- baseURL: https://cloud.stardog.com
-  baseurl_source: declared
   description: Operations on named graphs as detailed in https://www.w3.org/TR/sparql11-http-rdf-update/
   name: Stardog Graph Store Protocol API
   slug: stardog-graph-store-protocol-api
-- baseURL: https://cloud.stardog.com
-  baseurl_source: declared
-  description: GraphQL Queries
-  name: Stardog GraphQL API
-  slug: stardog-graphql-api
 - baseURL: https://cloud.stardog.com
   baseurl_source: declared
   description: The Integrity Constraints / SHACL API from Stardog — 5 operation(s) for integrity constraints / shacl.
@@ -165,6 +155,16 @@ apis:
   description: Operations for virtualizing structured data on external compute engines
   name: Stardog Virtual Graphs External Compute API
   slug: stardog-virtual-graphs-external-compute-api
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: Operations for running Entity Resolution
+  name: Stardog Entity Resolution API
+  slug: stardog-entity-resolution-api
+- baseURL: https://cloud.stardog.com
+  baseurl_source: declared
+  description: GraphQL Queries
+  name: Stardog Graph QL API
+  slug: stardog-graph-ql-api
 artifact_total: 55
 collections:
 - collection_type: open
@@ -305,7 +305,7 @@ overview: 'Stardog publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Stardog''s developer surface includes documentation, pricing, signup flow, GitHub presence, engineering blog, and 5 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: thin
   composite: 26.9
@@ -333,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

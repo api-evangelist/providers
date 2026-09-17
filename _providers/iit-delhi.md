@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - description: IIT Delhi runs its own Shibboleth identity provider at idp.iitd.ac.in and self-publishes its SAML 2.0 metadata as a machine-readable EntityDescriptor. The document names the institute as the organisat
   name: IIT Delhi Shibboleth Identity Provider (SAML 2.0 metadata)
@@ -42,11 +42,6 @@ apis:
 - description: 'OAI-PMH 2.0 metadata-harvesting interface for the IIT Delhi DSpace 8 institutional repository, on the institute''s own host. Verified functional on 2026-08-30, not merely mounted: Identify, ListMetadat'
   name: IIT Delhi Institutional Repository OAI-PMH
   slug: oai-pmh
-- baseURL: https://convocation.iitd.ac.in/api
-  baseurl_source: declared
-  description: Undocumented JSON API behind the shared React/Express site platform IIT Delhi runs across departmental and unit subdomains. Anonymous reads were confirmed on 2026-08-30 across three deployments — conv
-  name: IIT Delhi Departmental Site Platform API
-  slug: site-platform
 - description: The IIT Delhi Central Library institutional repository runs on DSpace 8.0 and exposes the standard DSpace REST/HAL API at /server/api on the institute's own host. The root endpoint is public and adver
   name: IIT Delhi Institutional Repository DSpace REST API
   slug: dspace-rest
@@ -62,7 +57,32 @@ apis:
 - description: 'Backend API for IITD Connect, the student-built IIT Delhi campus app maintained by DevClub, documented via Postman with User, Event, Club/Hostel/Body, News and Calendar collections and a bearer-token '
   name: IITD Connect API (DevClub) — retired
   slug: iitd-connect
-artifact_total: 16
+- baseURL: https://idp.iitd.ac.in/idp
+  baseurl_source: declared
+  description: Numbered administrative circulars with attached documents.
+  name: Indian Institute of Technology Delhi Circulars API
+  slug: iit-delhi-circulars-api
+- baseURL: https://idp.iitd.ac.in/idp
+  baseurl_source: declared
+  description: Departmental office contact directory entries.
+  name: Indian Institute of Technology Delhi Contact API
+  slug: iit-delhi-contact-api
+- baseURL: https://idp.iitd.ac.in/idp
+  baseurl_source: declared
+  description: Image galleries. Gated behind IITD OAuth.
+  name: Indian Institute of Technology Delhi Media API
+  slug: iit-delhi-media-api
+- baseURL: https://idp.iitd.ac.in/idp
+  baseurl_source: declared
+  description: Announcements and news items published by the unit.
+  name: Indian Institute of Technology Delhi News API
+  slug: iit-delhi-news-api
+- baseURL: https://idp.iitd.ac.in/idp
+  baseurl_source: declared
+  description: CMS page bodies rendered by the front end.
+  name: Indian Institute of Technology Delhi Pages API
+  slug: iit-delhi-pages-api
+artifact_total: 20
 common:
 - group: commercial
   title: ''
@@ -105,10 +125,10 @@ common:
   type: LinkedIn
   url: https://www.linkedin.com/school/iitdelhi/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/iit-delhi-site-platform-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/openapi/_original/iit-delhi-site-platform-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/iit-delhi-site-platform-openapi.yml
+  url: openapi/_original/iit-delhi-site-platform-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/iit-delhi/refs/heads/main/json-schema/iit-delhi-site-platform-schemas.json
   title: ''
@@ -215,11 +235,11 @@ jsonld:
   property_count: 4
   slug: iit-delhi-context
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: Indian Institute of Technology Delhi
 nav: Providers
 network: true
-overview: 'Indian Institute of Technology Delhi publishes 1 API on the [APIs.io](https://apis.io/) network: IIT Delhi Departmental Site Platform API. Tagged areas include Education, Higher Education, University, Institute of Technology, and Research.
+overview: 'Indian Institute of Technology Delhi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Circulars API, Contact API, Media API, and 2 more. Tagged areas include Education, Higher Education, University, Institute of Technology, and Research.
 
 
   The Indian Institute of Technology Delhi catalog on APIs.io includes 1 JSON-LD context.
@@ -230,14 +250,14 @@ plans:
 - name: Iit Delhi Plans Pricing
   plan_count: 2
   slug: iit-delhi-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Iit Delhi Rate Limits
   slug: iit-delhi-rate-limits
 score:
   band: thin
-  composite: 26.8
+  composite: 26.5
   coverage:
     artifact_dirs: 13
     catalog_earned: 65.0
@@ -245,11 +265,11 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 28.6
+    contract_quality: 27.4
     developer_ergonomics: 21.4
     discoverability: 59.3
     operational_transparency: 23.7
@@ -265,9 +285,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 5
       marker_coverage: 100.0
-      total: 1
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
@@ -275,7 +295,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

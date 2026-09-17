@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: 'GDScript is Godot''s first-class scripting language, a high-level dynamically typed (and gradually statically typed) language with Python-like syntax and tight integration with the engine, the editor, '
@@ -191,7 +191,7 @@ plans:
 - name: Godot Plans Pricing
   plan_count: 1
   slug: godot-plans-pricing
-random_paper: 16
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Godot Rate Limits
@@ -216,7 +216,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 30.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -244,7 +244,7 @@ tags:
 - GDScript
 - Godot
 - Open-Source
-- Plugin
+- Plugins
 - SDK
 website: https://godotengine.org
 ---

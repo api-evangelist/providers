@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 4
@@ -166,11 +166,6 @@ apis:
   slug: equinix-invoices-api
 - baseURL: https://api.equinix.com
   baseurl_source: declared
-  description: Manage IP addresses. See device and project endpoints to list and create IP assignments for a particular project or device. Check out the product docs to learn more about [the basic networking feature
-  name: Equinix IPAddresses API
-  slug: equinix-ipaddresses-api
-- baseURL: https://api.equinix.com
-  baseurl_source: declared
   description: Manage licenses. See project endpoints to list and create licenses for a particular project.
   name: Equinix Licenses API
   slug: equinix-licenses-api
@@ -236,19 +231,9 @@ apis:
   slug: equinix-organizations-api
 - baseURL: https://api.equinix.com
   baseurl_source: declared
-  description: OTP Management. Check out the product docs to learn more about [OTP](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
-  name: Equinix OTPs API
-  slug: equinix-otps-api
-- baseURL: https://api.equinix.com
-  baseurl_source: declared
   description: Password Reset Token Management
   name: Equinix PasswordResetTokens API
   slug: equinix-passwordresettokens-api
-- baseURL: https://api.equinix.com
-  baseurl_source: declared
-  description: Payment Method Management
-  name: Equinix PaymentMethods API
-  slug: equinix-paymentmethods-api
 - baseURL: https://api.equinix.com
   baseurl_source: declared
   description: Plan Management (Device). Check out the product docs to learn more about [Device Plans](https://metal.equinix.com/developers/docs/servers/).
@@ -336,11 +321,6 @@ apis:
   slug: equinix-spotmarket-api
 - baseURL: https://api.equinix.com
   baseurl_source: declared
-  description: Manage SSH keys. See project endpoints to list and create project-level SSH keys.
-  name: Equinix SSHKeys API
-  slug: equinix-sshkeys-api
-- baseURL: https://api.equinix.com
-  baseurl_source: declared
   description: Statistics
   name: Equinix Statistics API
   slug: equinix-statistics-api
@@ -376,11 +356,6 @@ apis:
   slug: equinix-transferrequests-api
 - baseURL: https://api.equinix.com
   baseurl_source: declared
-  description: Two Factor Authentication Management. Check out the product docs to learn more about [2FA](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
-  name: Equinix TwoFactorAuth API
-  slug: equinix-twofactorauth-api
-- baseURL: https://api.equinix.com
-  baseurl_source: declared
   description: Usage Management
   name: Equinix Usages API
   slug: equinix-usages-api
@@ -389,11 +364,6 @@ apis:
   description: Operations for normal users of this service
   name: Equinix use API
   slug: equinix-use-api
-- baseURL: https://api.equinix.com
-  baseurl_source: declared
-  description: Userdata Management
-  name: Equinix Userdata API
-  slug: equinix-userdata-api
 - baseURL: https://api.equinix.com
   baseurl_source: declared
   description: User Management
@@ -414,6 +384,36 @@ apis:
   description: VRF Management. A VRF is a project-scoped virtual router resource that defines a collection of customer-managed IP blocks that can be used in BGP peering on one or more virtual networks. Metal Gateway
   name: Equinix VRFs API
   slug: equinix-vrfs-api
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: OTP Management. Check out the product docs to learn more about [OTP](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
+  name: Equinix OT Ps API
+  slug: equinix-otps-api
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Manage IP addresses. See device and project endpoints to list and create IP assignments for a particular project or device. Check out the product docs to learn more about the basic networking features
+  name: Equinix IP Addresses API
+  slug: equinix-ip-addresses-api
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Payment Method Management
+  name: Equinix Payment Methods API
+  slug: equinix-payment-methods-api
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Manage SSH keys. See project endpoints to list and create project-level SSH keys.
+  name: Equinix SSH Keys API
+  slug: equinix-ssh-keys-api
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Two Factor Authentication Management. Check out the product docs to learn more about 2FA.
+  name: Equinix Two Factor Auth API
+  slug: equinix-two-factor-auth-api
+- baseURL: https://api.equinix.com
+  baseurl_source: declared
+  description: Userdata Management
+  name: Equinix User Data API
+  slug: equinix-user-data-api
 artifact_total: 158
 collections:
 - collection_type: open
@@ -706,7 +706,7 @@ modified: '2026-05-19'
 name: Equinix
 nav: Providers
 network: true
-overview: 'Equinix publishes 74 APIs on the [APIs.io](https://apis.io/) network, including Agent Templates API, Agents API, Authentication API, and 71 more. Tagged areas include Fortune 1000, Data Centers, Interconnection, Colocation, and Bare Metal.
+overview: 'Equinix publishes 74 APIs on the [APIs.io](https://apis.io/) network, including Agent Templates API, Agents API, Authentication API, and 71 more. Tagged areas include Fortune 1000, Data-Center, Interconnection, Colocation, and Bare Metal.
 
 
   Equinix''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 7 more developer resources.'
@@ -730,7 +730,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases | Equinix
   url: https://newsroom.equinix.com/press-releases-canada-en
-random_paper: 15
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Equinix Rate Limits
@@ -749,7 +749,7 @@ score:
   facets:
     access_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 63.9
+    contract_quality: 64.0
     developer_ergonomics: 23.8
     discoverability: 75.9
     operational_transparency: 10.5
@@ -762,7 +762,7 @@ score:
       marker_coverage: 0.0
       total: 74
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -780,7 +780,7 @@ security:
 slug: equinix
 tags:
 - Fortune 1000
-- Data Centers
+- Data-Center
 - Interconnection
 - Colocation
 - Bare Metal

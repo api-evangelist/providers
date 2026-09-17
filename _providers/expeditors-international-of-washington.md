@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Read-only REST/JSON API that lets a contracted Expeditors customer pull real-time shipment, container, order-management container, consignment and cross-dock tracking data into its own enterprise and '
@@ -186,7 +186,7 @@ press:
 - date: '2026-05-25'
   title: EXPEDITORS REPORTS FOURTH QUARTER 2025 EPS OF ...
   url: https://investor.expeditors.com/~/media/Files/E/Expeditors-IR-V2/press-release/2026/EXPDQ41.PDF
-random_paper: 6
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Expeditors International Of Washington Rate Limits
@@ -219,7 +219,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

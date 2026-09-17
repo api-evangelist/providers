@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.compactif.ai
@@ -207,15 +207,15 @@ common:
   type: Examples
   url: examples/multiverse-computing-compactifai-examples.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/multiverse-computing-compactifai-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/openapi/_original/multiverse-computing-compactifai-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/multiverse-computing-compactifai-openapi.yml
+  url: openapi/_original/multiverse-computing-compactifai-openapi.yml
 created: '2026-08-26'
 description: Multiverse Computing, S.L. is a Donostia-San Sebastian (Spain) quantum- and AI-software company whose commercial developer surface is the CompactifAI API — an OpenAI-compatible LLM inference service serving tensor-network-compressed versions of frontier open models (Hypernova 60B, Carina 60B, Mistral Small 3.1 Slim, Whisper Large V3 Turbo Slim) alongside uncompressed third-party models (GPT-OSS 120B, GLM 5.1/5.2, Quasar 438B, Qwen 3.6 27B, Nemotron 3 Nano Omni). The API is published at api.compactif.ai with regional EU and US endpoints, documented at docs.compactif.ai, billed pay-as-you-go per million tokens, and also sold through the AWS Marketplace. The company additionally sells Singularity, a quantum and quantum-inspired optimization product for finance, energy and manufacturing, which has no public developer documentation.
 image: https://multiversecomputing.com/icon.png
 layout: provider
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: Multiverse Computing
 nav: Providers
 network: true
@@ -227,14 +227,14 @@ plans:
 - name: Multiverse Computing Plans Pricing
   plan_count: 2
   slug: multiverse-computing-plans-pricing
-random_paper: 10
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Multiverse Computing Rate Limits
   slug: multiverse-computing-rate-limits
 score:
   band: developing
-  composite: 49.8
+  composite: 48.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -242,11 +242,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 59.2
     contract_governance: 4.5
-    contract_quality: 58.5
+    contract_quality: 53.1
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 31.6
@@ -262,14 +262,14 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 6
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

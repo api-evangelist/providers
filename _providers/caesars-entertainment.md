@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -90,7 +90,7 @@ modified: '2026-07-25'
 name: Caesars Entertainment
 nav: Providers
 network: true
-overview: Caesars Entertainment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Gaming, Casino, Resorts, and Entertainment.
+overview: Caesars Entertainment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Gaming, Casinos, Resorts, and Entertainment.
 plans:
 - name: Caesars Entertainment Plans Pricing
   plan_count: 0
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: Caesars Entertainment Defines & Measures ROI for Test ...
   url: https://www.parasoft.com/resources/case-studies/caesars-entertainment-defines-and-measures-roi-for-test-automation/
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Caesars Entertainment Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 6.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -151,7 +151,7 @@ slug: caesars-entertainment
 tags:
 - Hospitality
 - Gaming
-- Casino
+- Casinos
 - Resorts
 - Entertainment
 - Loyalty

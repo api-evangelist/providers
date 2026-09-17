@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
 - baseURL_template: https://{supervisor-ip}:6443
   baseurl_source: spec_template
   description: Create and manage TanzuKubernetesCluster resources
-  name: VMware Tanzu Tanzu Kubernetes Clusters API
+  name: VMware Tanzu Kubernetes Clusters API
   slug: vmware-tanzu-tanzu-kubernetes-clusters-api
 artifact_total: 26
 collections:
@@ -195,7 +195,7 @@ jsonld:
   property_count: 25
   slug: vmware-tanzu-context
 layout: provider
-modified: '2026-08-21'
+modified: '2026-09-16'
 name: VMware Tanzu
 nav: Providers
 network: true
@@ -210,7 +210,7 @@ plans:
 - name: Vmware Tanzu Plans Pricing
   plan_count: 3
   slug: vmware-tanzu-plans-pricing
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Vmware Tanzu Rate Limits
@@ -264,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

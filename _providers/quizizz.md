@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol server operated by Wayground at https://wayground.com/_quizizzmcp/main/mcp. Its existence is declared by Wayground's own /.well-known/oauth-protected-resource document, w
@@ -155,7 +155,7 @@ plans:
 - name: Quizizz Plans Pricing
   plan_count: 2
   slug: quizizz-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Quizizz Rate Limits
@@ -194,7 +194,7 @@ score:
     regime_id: education
     score: 74.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -222,6 +222,6 @@ tags:
 - MCP
 - LTI
 - Rostering
-- Single Sign-On
+- SSO
 website: https://wayground.com/
 ---

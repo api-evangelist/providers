@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Two hosted, remote Model Context Protocol servers for the nCino Mortgage platform — an LO server for loan officers and an Admin server for organization administrators. Both use OAuth 2.1 authorization
@@ -912,7 +912,7 @@ overview: 'nCino publishes 85 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   nCino''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 10
+random_paper: 7
 scopes:
 - name: Ncino Scopes
   scope_count: 1
@@ -932,7 +932,7 @@ score:
   facets:
     access_clarity: 18.4
     contract_governance: 4.5
-    contract_quality: 63.4
+    contract_quality: 63.6
     developer_ergonomics: 17.3
     discoverability: 75.9
     operational_transparency: 26.3
@@ -957,7 +957,7 @@ score:
     regime_id: banking_open_finance
     score: 51.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -985,7 +985,7 @@ tags:
 - Mortgage
 - Loan Origination
 - Deposits
-- Credit Unions
+- Credit Union
 - Salesforce
 - eVault
 - eNote

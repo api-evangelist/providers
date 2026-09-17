@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 61
@@ -54,11 +54,6 @@ apis:
   description: Authentication endpoints
   name: Certifyos Auth API
   slug: certifyos-auth-api
-- baseURL: https://api-service.certifyos.com
-  baseurl_source: declared
-  description: The Auth Resource API from Certifyos — 1 operation(s) for auth resource.
-  name: Certifyos Auth Resource API
-  slug: certifyos-auth-resource-api
 - baseURL: https://api-service.certifyos.com
   baseurl_source: declared
   description: The auth-tokens API from Certifyos — 1 operation(s) for auth-tokens.
@@ -231,11 +226,6 @@ apis:
   slug: certifyos-role-api
 - baseURL: https://api-service.certifyos.com
   baseurl_source: declared
-  description: The Role Resource API from Certifyos — 1 operation(s) for role resource.
-  name: Certifyos Role Resource API
-  slug: certifyos-role-resource-api
-- baseURL: https://api-service.certifyos.com
-  baseurl_source: declared
   description: APIs for managing roster file uploads and processing
   name: Certifyos Roster API
   slug: certifyos-roster-api
@@ -339,7 +329,7 @@ apis:
   description: APIs for managing webhooks
   name: Certifyos Webhooks API
   slug: certifyos-webhooks-api
-artifact_total: 124
+artifact_total: 122
 asyncapis:
 - description: ''
   name: Certifyos Webhooks
@@ -671,14 +661,14 @@ modified: '2026-08-08'
 name: Certifyos
 nav: Providers
 network: true
-overview: 'Certifyos publishes 59 APIs on the [APIs.io](https://apis.io/) network, including Address Standardization API, Auth API, Auth Resource API, and 56 more. Tagged areas include Company, Healthcare, Provider Data, Credentialing, and Licensing.
+overview: 'Certifyos publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Address Standardization API, Auth API, Auth Tokens API, and 54 more. Tagged areas include Company, Healthcare, Provider Data, Credentialing, and Licensing.
 
 
   The Certifyos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Certifyos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 18
+random_paper: 16
 score:
   band: strong
   composite: 59.6
@@ -693,7 +683,7 @@ score:
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 65.6
+    contract_quality: 65.7
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 18.4
@@ -710,7 +700,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 59
+      total: 57
     mcp: first-party
     skills: derived
   regulatory:
@@ -720,7 +710,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

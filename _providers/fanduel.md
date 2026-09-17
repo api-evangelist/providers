@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -94,12 +94,12 @@ modified: '2026-05-08'
 name: FanDuel
 nav: Providers
 network: true
-overview: FanDuel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports Betting, Daily Fantasy Sports, Sportsbook, Casino, and Gaming.
+overview: FanDuel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports Betting, Daily Fantasy Sports, Sportsbook, Casinos, and Gaming.
 plans:
 - name: Fanduel Plans Pricing
   plan_count: 1
   slug: fanduel-plans-pricing
-random_paper: 0
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Fanduel Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +145,7 @@ tags:
 - Sports Betting
 - Daily Fantasy Sports
 - Sportsbook
-- Casino
+- Casinos
 - Gaming
 - Regulated
 website: https://www.fanduel.com/

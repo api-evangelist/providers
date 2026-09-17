@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,8 +59,8 @@ apis:
 - baseURL: https://westus.api.cognitive.microsoft.com/
   baseurl_source: declared
   description: Analyze images for visual features
-  name: Microsoft Cognitive Services ImageAnalysis API
-  slug: microsoft-cognitive-services-imageanalysis-api
+  name: Microsoft Cognitive Services Image Analysis API
+  slug: microsoft-cognitive-services-image-analysis-api
 artifact_total: 15
 collections:
 - collection_type: open
@@ -141,7 +141,7 @@ modified: '2026-04-28'
 name: Microsoft Cognitive Services
 nav: Providers
 network: true
-overview: 'Microsoft Cognitive Services publishes 1 API on the [APIs.io](https://apis.io/) network: ImageAnalysis API. Tagged areas include Azure AI, Computer-Vision, Speech, NLP, and OpenAI.
+overview: 'Microsoft Cognitive Services publishes 1 API on the [APIs.io](https://apis.io/) network: Image Analysis API. Tagged areas include Azure AI, Computer-Vision, Speech, NLP, and OpenAI.
 
 
   Microsoft Cognitive Services'' developer surface includes authentication, developer portal, pricing, support, engineering blog, and 8 more developer resources.'
@@ -149,7 +149,7 @@ plans:
 - name: Microsoft Cognitive Services Plans Pricing
   plan_count: 3
   slug: microsoft-cognitive-services-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Microsoft Cognitive Services Rate Limits
@@ -161,7 +161,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 38.8
+  composite: 38.1
   coverage:
     artifact_dirs: 11
     catalog_earned: 41.0
@@ -169,11 +169,11 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 46.3
     developer_ergonomics: 52.4
     discoverability: 59.3
     operational_transparency: 10.5
@@ -186,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

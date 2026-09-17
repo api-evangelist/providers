@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
   slug: rhel-advisories-api
 - baseURL: https://api.access.redhat.com/management/v1
   baseurl_source: declared
-  description: Common Vulnerabilities and Exposures data
-  name: Red Hat Enterprise Linux CVEs API
-  slug: rhel-cves-api
-- baseURL: https://api.access.redhat.com/management/v1
-  baseurl_source: declared
   description: Open Vulnerability and Assessment Language data
   name: Red Hat Enterprise Linux OVAL API
   slug: rhel-oval-api
@@ -69,6 +64,11 @@ apis:
   description: Registered system management
   name: Red Hat Enterprise Linux Systems API
   slug: rhel-systems-api
+- baseURL: https://api.access.redhat.com/management/v1
+  baseurl_source: declared
+  description: Common Vulnerabilities and Exposures data
+  name: Red Hat Enterprise Linux CV Es API
+  slug: rhel-cves-api
 artifact_total: 37
 collections:
 - collection_type: open
@@ -266,7 +266,7 @@ modified: '2026-05-19'
 name: Red Hat Enterprise Linux
 nav: Providers
 network: true
-overview: 'Red Hat Enterprise Linux publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Advisories API, CVEs API, OVAL API, and 2 more. Tagged areas include Automation, Compliance, Enterprise, Linux, and Operating System.
+overview: 'Red Hat Enterprise Linux publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Advisories API, OVAL API, Subscriptions API, and 2 more. Tagged areas include Automation, Compliance, Enterprise, Linux, and Operating System.
 
 
   The Red Hat Enterprise Linux catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -277,7 +277,7 @@ plans:
 - name: Rhel Plans Pricing
   plan_count: 7
   slug: rhel-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Rhel Rate Limits
@@ -338,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -285,6 +285,10 @@ common:
   title: ''
   type: Components
   url: components/inflectionio-components.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@inflection.io
 created: '2026-07-17'
 description: 'Inflection.io is a B2B marketing automation platform positioned as a modern, AI-native replacement for legacy tools like Marketo. It unifies target accounts, product users, customers, and leads with product-usage, sales, and behavioral signals so marketing teams can build audiences, draft campaigns, map customer journeys, score accounts, and report to the CMO — executing in minutes rather than weeks. The Inflection Developer API is a JSON-over-HTTPS REST API (OpenAPI 3.1, base https://api.inflection.io/v1) for reading and writing the people in a workspace: their profiles, product and marketing activity, static lists, emails, and per-contact personalized email versions, authenticated with scoped Personal Access Tokens or an OAuth 2.1 connected app. Alongside it Inflection runs a first-party remote MCP server at mcp.inflection.io — OAuth 2.1 with PKCE, its own trust and security page — that exposes the authoring surface the REST API does not: journeys, audiences, segments, tokens
   and analytics, driven by specialist agents. Surfaced as a version-one-ventures portfolio company and enriched from the provider''s public developer, agent, and trust surfaces.'
@@ -304,12 +308,12 @@ overview: 'Inflection.io publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Inflection.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Inflection.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
+  Inflection.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
 plans:
 - name: Inflectionio Plans Pricing
   plan_count: 1
   slug: inflectionio-plans-pricing
-random_paper: 2
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Inflectionio Rate Limits
@@ -349,7 +353,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -385,7 +389,7 @@ tags:
 - MCP
 - Agents
 - Artificial Intelligence
-- Customer Journeys
+- Customer Journey
 - Webhook
 website: https://www.inflection.io
 ---

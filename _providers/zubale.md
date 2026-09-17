@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ apis:
 - baseURL: https://api.zubale.com
   baseurl_source: spec
   description: The Delivery API API from Zubale — 3 operation(s) for delivery api.
-  name: Zubale Delivery API API
+  name: Zubale Delivery API
   slug: zubale-delivery-api-api
 - baseURL: https://api.zubale.com
   baseurl_source: spec
@@ -71,7 +71,7 @@ apis:
 - baseURL: https://api.zubale.com
   baseurl_source: spec
   description: The Picking & Delivery API API from Zubale — 4 operation(s) for picking & delivery api.
-  name: Zubale Picking & Delivery API API
+  name: Zubale Picking & Delivery API
   slug: zubale-picking-delivery-api-api
 - baseURL: https://api.zubale.com
   baseurl_source: spec
@@ -160,18 +160,18 @@ created: '2026-07-17'
 description: 'Zubale is a company surfaced as a portfolio company of felicis, qed-investors and added to the API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting the enrichment pipeline.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zubale.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-16'
 name: Zubale
 nav: Providers
 network: true
-overview: 'Zubale publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Documentation for External Notification Handler API, Cancel tasks API, Delivery API API, and 5 more. Tagged areas include Company and E-Commerce.
+overview: 'Zubale publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Documentation for External Notification Handler API, Cancel tasks API, Delivery API, and 5 more. Tagged areas include Company and E-Commerce.
 
 
   The Zubale catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Zubale''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 13
+random_paper: 5
 scopes:
 - name: Zubale Scopes
   scope_count: 0
@@ -206,7 +206,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

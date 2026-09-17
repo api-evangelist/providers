@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The HTTP interface of every Urbit ship, served by the Eyre kernel vane. Clients authenticate by POSTing the ship's web login code to /~/login for an urbauth session cookie, then interact through chann
@@ -179,7 +179,7 @@ overview: 'Urbit publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Urbit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 19 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: thin
   composite: 31.9
@@ -204,7 +204,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -227,7 +227,7 @@ tags:
 - Personal Servers
 - Decentralized Identity
 - Peer-to-Peer
-- Operating Systems
+- Operating System
 - Self-Hosting
 - Agents
 website: https://urbit.org/

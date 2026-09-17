@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -445,7 +445,7 @@ modified: '2026-06-12'
 name: Thinkific
 nav: Providers
 network: true
-overview: 'Thinkific publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Bundles API, Categories API, and 20 more. Tagged areas include Online Courses, E-Learning, LMS, Course Creation, and Enrollments.
+overview: 'Thinkific publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Bundles API, Categories API, and 20 more. Tagged areas include Online Courses, E-Learning, LMS, Course Creation, and Enrollment.
 
 
   The Thinkific catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -456,7 +456,7 @@ plans:
 - name: Thinkific Plans Pricing
   plan_count: 4
   slug: thinkific-plans-pricing
-random_paper: 8
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Thinkific Rate Limits
@@ -486,7 +486,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 66.3
+    contract_quality: 66.4
     developer_ergonomics: 36.9
     discoverability: 68.5
     operational_transparency: 65.8
@@ -506,7 +506,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -527,7 +527,7 @@ tags:
 - E-Learning
 - LMS
 - Course Creation
-- Enrollments
+- Enrollment
 - User
 - Education
 - Digital Products

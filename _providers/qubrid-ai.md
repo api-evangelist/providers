@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -65,11 +65,6 @@ apis:
   description: Generate vector embeddings from text input using embedding models hosted on the Qubrid AI platform, suitable for semantic search, clustering, and retrieval-augmented generation workflows.
   name: Qubrid AI Embeddings API
   slug: qubrid-ai-embeddings-api
-- baseURL: https://platform.qubrid.com/api/v1
-  baseurl_source: declared
-  description: List and manage fine-tuned model artifacts produced by completed fine-tuning jobs. Fine-tuned models can be deployed for inference on the Qubrid AI platform.
-  name: Qubrid AI Fine-Tuned Models API
-  slug: qubrid-ai-fine-tuned-models-api
 - baseURL: https://platform.qubrid.com/api/v1
   baseurl_source: declared
   description: Create, monitor, and manage fine-tuning jobs that customize pre-deployed text generation and code generation models using uploaded training datasets on GPU infrastructure.
@@ -110,6 +105,11 @@ apis:
   description: List and deploy pre-configured AI and ML environment templates including PyTorch, TensorFlow, ComfyUI, n8n, and Langflow, all optimized to run on Qubrid GPU instances.
   name: Qubrid AI Templates API
   slug: qubrid-ai-templates-api
+- baseURL: https://platform.qubrid.com/api/v1
+  baseurl_source: declared
+  description: List and manage fine-tuned model artifacts produced by completed fine-tuning jobs. Fine-tuned models can be deployed for inference on the Qubrid AI platform.
+  name: Qubrid AI Finetuned Models API
+  slug: qubrid-ai-finetuned-models-api
 artifact_total: 43
 collections:
 - collection_type: open
@@ -249,7 +249,7 @@ modified: '2026-05-19'
 name: Qubrid AI
 nav: Providers
 network: true
-overview: 'Qubrid AI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Datasets API, Documents API, and 10 more. Tagged areas include Artificial Intelligence, Cloud Computing, GPU, Inference, and Large Language Models.
+overview: 'Qubrid AI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Datasets API, Documents API, and 10 more. Tagged areas include Artificial Intelligence, Cloud Computing, GPU, Inference, and LLM.
 
 
   The Qubrid AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -260,7 +260,7 @@ plans:
 - name: Qubrid Ai Plans Pricing
   plan_count: 4
   slug: qubrid-ai-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Qubrid Ai Rate Limits
@@ -303,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -324,7 +324,7 @@ tags:
 - Cloud Computing
 - GPU
 - Inference
-- Large Language Models
+- LLM
 - Machine-Learning
 - NVIDIA
 - Serverless

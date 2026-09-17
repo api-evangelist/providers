@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
@@ -230,7 +230,7 @@ overview: 'AMP Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   AMP Bank''s developer surface includes documentation, getting-started guide, support, authentication, and 22 more developer resources.'
-random_paper: 19
+random_paper: 5
 scopes:
 - name: Amp Bank Scopes
   scope_count: 5
@@ -278,7 +278,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

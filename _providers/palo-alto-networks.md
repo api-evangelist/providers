@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 269
-  human_in_the_loop: 5
+- acting_count: 2177
+  human_in_the_loop: 55
   name: Palo Alto Networks Agentic Access
-  operation_count: 526
+  operation_count: 3923
   slug: palo-alto-networks-agentic-access
-  summary_line: 526 operations · 269 acting · 5 human-in-the-loop
+  summary_line: 3923 operations · 2177 acting · 55 human-in-the-loop
 api_count: 468
 apis:
 - description: The comprehensive XML-based API for PAN-OS providing full access to all firewall configuration, operational commands, reporting, logging, and commit operations. Supports request types including keygen
@@ -904,11 +904,6 @@ apis:
   slug: palo-alto-networks-addresses-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The AddressGroups API from Palo Alto Networks — 2 operation(s) for addressgroups.
-  name: Palo Alto Networks Address Groups API
-  slug: palo-alto-networks-addressgroups-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: 'Prisma Cloud generates an alert when it detects a violation in a policy that is included in an active alert rule. You can use the API requests to manage alerts, including listing or viewing, snoozing '
   name: Palo Alto Networks Alerts API
   slug: palo-alto-networks-alerts-api
@@ -979,11 +974,6 @@ apis:
   slug: palo-alto-networks-idp-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The IKEGateways API from Palo Alto Networks — 2 operation(s) for ikegateways.
-  name: Palo Alto Networks IKE Gateways API
-  slug: palo-alto-networks-ikegateways-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: '{''$ref'': ''desc/images/images.md''}'
   name: Palo Alto Networks Images API
   slug: palo-alto-networks-images-api
@@ -1007,11 +997,6 @@ apis:
   description: The IP Pool API from Palo Alto Networks — 1 operation(s) for ip pool.
   name: Palo Alto Networks IP Pool API
   slug: palo-alto-networks-ip-pool-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The IPSecTunnels API from Palo Alto Networks — 2 operation(s) for ipsectunnels.
-  name: Palo Alto Networks IP Sec Tunnels API
-  slug: palo-alto-networks-ipsectunnels-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Jobs
@@ -1064,11 +1049,6 @@ apis:
   slug: palo-alto-networks-mssp-operations-retry-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The NotificationProfiles API from Palo Alto Networks — 6 operation(s) for notificationprofiles.
-  name: Palo Alto Networks Notification Profiles API
-  slug: palo-alto-networks-notificationprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The Notifications API from Palo Alto Networks — 4 operation(s) for notifications.
   name: Palo Alto Networks Notifications API
   slug: palo-alto-networks-notifications-api
@@ -1119,11 +1099,6 @@ apis:
   slug: palo-alto-networks-remote-networks-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The RemoteNetworks API from Palo Alto Networks — 2 operation(s) for remotenetworks.
-  name: Palo Alto Networks Remote Networks API
-  slug: palo-alto-networks-remotenetworks-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Operations for generating and retrieving scan job reports for static and dynamic.
   name: Palo Alto Networks Report API
   slug: palo-alto-networks-report-api
@@ -1162,16 +1137,6 @@ apis:
   description: You can use the Resource Query Language (RQL) to perform configuration checks across cloud services as well as gain real-time insights into user and network events to gain security visibility and crea
   name: Palo Alto Networks Search API
   slug: palo-alto-networks-search-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The SecurityRules API from Palo Alto Networks — 5 operation(s) for securityrules.
-  name: Palo Alto Networks Security Rules API
-  slug: palo-alto-networks-securityrules-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ServiceConnections API from Palo Alto Networks — 3 operation(s) for serviceconnections.
-  name: Palo Alto Networks Service Connections API
-  slug: palo-alto-networks-serviceconnections-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Services API from Palo Alto Networks — 12 operation(s) for services.
@@ -1274,11 +1239,6 @@ apis:
   slug: palo-alto-networks-access-keys-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The AccessPolicies API from Palo Alto Networks — 2 operation(s) for accesspolicies.
-  name: Palo Alto Networks Access Policies API
-  slug: palo-alto-networks-accesspolicies-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: You can use Account Groups to combine access to multiple cloud accounts with similar or different applications that span multiple divisions or business units, so that you can manage administrative acc
   name: Palo Alto Networks Account Groups API
   slug: palo-alto-networks-account-groups-api
@@ -1320,7 +1280,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Retrieve the agent client version distribution, providing agent details.
-  name: Palo Alto Networks Agent Users API API
+  name: Palo Alto Networks Agent Users API
   slug: palo-alto-networks-agent-users-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -1329,18 +1289,13 @@ apis:
   slug: palo-alto-networks-agent-versions-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The AgentController API from Palo Alto Networks — 3 operation(s) for agentcontroller.
-  name: Palo Alto Networks Agent Controller API
-  slug: palo-alto-networks-agentcontroller-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: '{''$ref'': ''desc/agentless/agentless.md''}'
   name: Palo Alto Networks Agentless API
   slug: palo-alto-networks-agentless-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Endpoint to retrieve the count of active users without requiring an agent.
-  name: Palo Alto Networks Agentless Users API API
+  name: Palo Alto Networks Agentless Users API
   slug: palo-alto-networks-agentless-users-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -1374,23 +1329,13 @@ apis:
   slug: palo-alto-networks-anti-spyware-signatures-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The AntiSpywareProfiles API from Palo Alto Networks — 2 operation(s) for antispywareprofiles.
-  name: Palo Alto Networks Anti Spyware Profiles API
-  slug: palo-alto-networks-antispywareprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The AntiSpywareSignatures API from Palo Alto Networks — 2 operation(s) for antispywaresignatures.
-  name: Palo Alto Networks Anti Spyware Signatures API
-  slug: palo-alto-networks-antispywaresignatures-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Operations related to API key management
   name: Palo Alto Networks API key API
   slug: palo-alto-networks-api-key-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Application API
-  name: Palo Alto Networks Application API API
+  name: Palo Alto Networks Application API
   slug: palo-alto-networks-application-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -1415,7 +1360,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Application Monitor
-  name: Palo Alto Networks Application Monitor Resource API API
+  name: Palo Alto Networks Application Monitor Resource API
   slug: palo-alto-networks-application-monitor-resource-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -1427,26 +1372,6 @@ apis:
   description: Application Settings
   name: Palo Alto Networks Application Settings API
   slug: palo-alto-networks-application-settings-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ApplicationController API from Palo Alto Networks — 2 operation(s) for applicationcontroller.
-  name: Palo Alto Networks Application Controller API
-  slug: palo-alto-networks-applicationcontroller-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ApplicationFilters API from Palo Alto Networks — 2 operation(s) for applicationfilters.
-  name: Palo Alto Networks Application Filters API
-  slug: palo-alto-networks-applicationfilters-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ApplicationGroups API from Palo Alto Networks — 2 operation(s) for applicationgroups.
-  name: Palo Alto Networks Application Groups API
-  slug: palo-alto-networks-applicationgroups-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ApplicationOverrideRules API from Palo Alto Networks — 3 operation(s) for applicationoverriderules.
-  name: Palo Alto Networks Application Override Rules API
-  slug: palo-alto-networks-applicationoverriderules-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: 'When you delete an asset in a cloud account that is onboarded on Prisma Cloud, the asset is marked as deleted. After 90 days, the configuration details of the deleted assets are archived. You can use '
@@ -1472,11 +1397,6 @@ apis:
   description: The AssociateRulestacks API from Palo Alto Networks — 2 operation(s) for associaterulestacks.
   name: Palo Alto Networks Associate Rulestacks API
   slug: palo-alto-networks-associaterulestacks-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The AssociationRulestacks API from Palo Alto Networks — 2 operation(s) for associationrulestacks.
-  name: Palo Alto Networks Association Rulestacks API
-  slug: palo-alto-networks-associationrulestacks-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: As part of compliance requirement for organizations, companies need to demonstrate they are pro-actively tracking security issues and taking steps to remediate issues as they occur. Prisma Cloud Audit
@@ -1524,34 +1444,9 @@ apis:
   slug: palo-alto-networks-authentication-settings-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The AuthenticationPortals API from Palo Alto Networks — 2 operation(s) for authenticationportals.
-  name: Palo Alto Networks Authentication Portals API
-  slug: palo-alto-networks-authenticationportals-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The AuthenticationProfiles API from Palo Alto Networks — 2 operation(s) for authenticationprofiles.
-  name: Palo Alto Networks Authentication Profiles API
-  slug: palo-alto-networks-authenticationprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The AuthenticationRules API from Palo Alto Networks — 3 operation(s) for authenticationrules.
-  name: Palo Alto Networks Authentication Rules API
-  slug: palo-alto-networks-authenticationrules-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The AuthenticationSequences API from Palo Alto Networks — 2 operation(s) for authenticationsequences.
-  name: Palo Alto Networks Authentication Sequences API
-  slug: palo-alto-networks-authenticationsequences-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The Authorization API from Palo Alto Networks — 1 operation(s) for authorization.
   name: Palo Alto Networks Authorization API
   slug: palo-alto-networks-authorization-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The AuthService API from Palo Alto Networks — 2 operation(s) for authservice.
-  name: Palo Alto Networks Auth Service API
-  slug: palo-alto-networks-authservice-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Auto-Tag Actions
@@ -1584,11 +1479,6 @@ apis:
   slug: palo-alto-networks-autoscale-settings-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The AutoTagActions API from Palo Alto Networks — 1 operation(s) for autotagactions.
-  name: Palo Alto Networks Auto Tag Actions API
-  slug: palo-alto-networks-autotagactions-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: To ingest the VPC flow logs from Amazon S3 buckets to Prisma Cloud, you need an AWS logging account. If you need flow logs ingestion, after onboarding your AWS account, you must onboard the logging ac
   name: Palo Alto Networks AWS Logging Accounts API
   slug: palo-alto-networks-aws-logging-accounts-api
@@ -1607,11 +1497,6 @@ apis:
   description: The Bandwidth Consumption API from Palo Alto Networks — 1 operation(s) for bandwidth consumption.
   name: Palo Alto Networks Bandwidth Consumption API
   slug: palo-alto-networks-bandwidth-consumption-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The BandwidthAllocations API from Palo Alto Networks — 1 operation(s) for bandwidthallocations.
-  name: Palo Alto Networks Bandwidth Allocations API
-  slug: palo-alto-networks-bandwidthallocations-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Monitoring and reporting for benchmarked compliance frameworks with BPC verdict tracking.
@@ -1655,12 +1540,12 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The BPA Report API API from Palo Alto Networks — 3 operation(s) for bpa report api.
-  name: Palo Alto Networks BPA Report API API
+  name: Palo Alto Networks BPA Report API
   slug: palo-alto-networks-bpa-report-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Branch User API API from Palo Alto Networks — 8 operation(s) for branch user api.
-  name: Palo Alto Networks Branch User API API
+  name: Palo Alto Networks Branch User API
   slug: palo-alto-networks-branch-user-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -1729,11 +1614,6 @@ apis:
   slug: palo-alto-networks-certificateobjects-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The CertificateProfiles API from Palo Alto Networks — 2 operation(s) for certificateprofiles.
-  name: Palo Alto Networks Certificate Profiles API
-  slug: palo-alto-networks-certificateprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The Certificates API from Palo Alto Networks — 15 operation(s) for certificates.
   name: Palo Alto Networks Certificates API
   slug: palo-alto-networks-certificates-api
@@ -1770,7 +1650,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Cie Token Resource API API from Palo Alto Networks — 2 operation(s) for cie token resource api.
-  name: Palo Alto Networks Cie Token Resource API API
+  name: Palo Alto Networks Cie Token Resource API
   slug: palo-alto-networks-cie-token-resource-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -1894,11 +1774,6 @@ apis:
   slug: palo-alto-networks-configuration-management-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The ConfigurationManagement API from Palo Alto Networks — 9 operation(s) for configurationmanagement.
-  name: Palo Alto Networks Configuration Management API
-  slug: palo-alto-networks-configurationmanagement-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The Connection Source API from Palo Alto Networks — 7 operation(s) for connection source.
   name: Palo Alto Networks Connection Source API
   slug: palo-alto-networks-connection-source-api
@@ -1925,7 +1800,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Control Plane Resource API API from Palo Alto Networks — 9 operation(s) for control plane resource api.
-  name: Palo Alto Networks Control Plane Resource API API
+  name: Palo Alto Networks Control Plane Resource API
   slug: palo-alto-networks-control-plane-resource-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -1974,11 +1849,6 @@ apis:
   slug: palo-alto-networks-customer-app-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The CustomRoles API from Palo Alto Networks — 2 operation(s) for customroles.
-  name: Palo Alto Networks Custom Roles API
-  slug: palo-alto-networks-customroles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The Dashboard API from Palo Alto Networks — 11 operation(s) for dashboard.
   name: Palo Alto Networks Dashboard API
   slug: palo-alto-networks-dashboard-api
@@ -1995,7 +1865,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Data Resource
-  name: Palo Alto Networks Data Resource API API
+  name: Palo Alto Networks Data Resource API
   slug: palo-alto-networks-data-resource-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -2064,21 +1934,6 @@ apis:
   slug: palo-alto-networks-decryption-rules-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The DecryptionExclusions API from Palo Alto Networks — 2 operation(s) for decryptionexclusions.
-  name: Palo Alto Networks Decryption Exclusions API
-  slug: palo-alto-networks-decryptionexclusions-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The DecryptionProfiles API from Palo Alto Networks — 2 operation(s) for decryptionprofiles.
-  name: Palo Alto Networks Decryption Profiles API
-  slug: palo-alto-networks-decryptionprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The DecryptionRules API from Palo Alto Networks — 3 operation(s) for decryptionrules.
-  name: Palo Alto Networks Decryption Rules API
-  slug: palo-alto-networks-decryptionrules-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Operations related to deployment profile management
   name: Palo Alto Networks Deployment Profiles API
   slug: palo-alto-networks-deployment-profiles-api
@@ -2140,7 +1995,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: DLP API
-  name: Palo Alto Networks DLP API API
+  name: Palo Alto Networks DLP API
   slug: palo-alto-networks-dlp-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -2160,18 +2015,13 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: DNS Security API
-  name: Palo Alto Networks DNS Security API API
+  name: Palo Alto Networks DNS Security API
   slug: palo-alto-networks-dns-security-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: DNS Security Profiles
   name: Palo Alto Networks DNS Security Profiles API
   slug: palo-alto-networks-dns-security-profiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The DNSSecurityProfiles API from Palo Alto Networks — 2 operation(s) for dnssecurityprofiles.
-  name: Palo Alto Networks DNS Security Profiles API
-  slug: palo-alto-networks-dnssecurityprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Document Types API from Palo Alto Networks — 2 operation(s) for document types.
@@ -2194,11 +2044,6 @@ apis:
   slug: palo-alto-networks-dynamic-user-groups-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The DynamicUserGroups API from Palo Alto Networks — 2 operation(s) for dynamicusergroups.
-  name: Palo Alto Networks Dynamic User Groups API
-  slug: palo-alto-networks-dynamicusergroups-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The EDL CA Certificates API from Palo Alto Networks — 4 operation(s) for edl ca certificates.
   name: Palo Alto Networks EDL CA Certificates API
   slug: palo-alto-networks-edl-ca-certificates-api
@@ -2215,7 +2060,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Email DLP API API from Palo Alto Networks — 3 operation(s) for email dlp api.
-  name: Palo Alto Networks Email DLP API API
+  name: Palo Alto Networks Email DLP API
   slug: palo-alto-networks-email-dlp-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -2235,7 +2080,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Retrieve the count of active users, providing insights into user activity.
-  name: Palo Alto Networks Enterprise Browser Users API API
+  name: Palo Alto Networks Enterprise Browser Users API
   slug: palo-alto-networks-enterprise-browser-users-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -2259,11 +2104,6 @@ apis:
   slug: palo-alto-networks-external-dynamic-lists-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The ExternalDynamicLists API from Palo Alto Networks — 2 operation(s) for externaldynamiclists.
-  name: Palo Alto Networks External Dynamic Lists API
-  slug: palo-alto-networks-externaldynamiclists-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: '{''$ref'': ''desc/feeds/feeds.md''}'
   name: Palo Alto Networks Feeds API
   slug: palo-alto-networks-feeds-api
@@ -2277,11 +2117,6 @@ apis:
   description: The FileBlockingAction API from Palo Alto Networks — 2 operation(s) for fileblockingaction.
   name: Palo Alto Networks File Blocking Action API
   slug: palo-alto-networks-fileblockingaction-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The FileBlockingProfiles API from Palo Alto Networks — 2 operation(s) for fileblockingprofiles.
-  name: Palo Alto Networks File Blocking Profiles API
-  slug: palo-alto-networks-fileblockingprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Configuration folders
@@ -2330,7 +2165,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Group Resource API API from Palo Alto Networks — 5 operation(s) for group resource api.
-  name: Palo Alto Networks Group Resource API API
+  name: Palo Alto Networks Group Resource API
   slug: palo-alto-networks-group-resource-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -2364,16 +2199,6 @@ apis:
   slug: palo-alto-networks-hipmatch-match-list-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The HIPObjects API from Palo Alto Networks — 2 operation(s) for hipobjects.
-  name: Palo Alto Networks HIP Objects API
-  slug: palo-alto-networks-hipobjects-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The HIPProfiles API from Palo Alto Networks — 2 operation(s) for hipprofiles.
-  name: Palo Alto Networks HIP Profiles API
-  slug: palo-alto-networks-hipprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: HTTP Header Profiles
   name: Palo Alto Networks HTTP Header Profiles API
   slug: palo-alto-networks-http-header-profiles-api
@@ -2382,11 +2207,6 @@ apis:
   description: HTTP Server Profiles
   name: Palo Alto Networks HTTP Server Profiles API
   slug: palo-alto-networks-http-server-profiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The HTTPHeaderProfiles API from Palo Alto Networks — 2 operation(s) for httpheaderprofiles.
-  name: Palo Alto Networks HTTP Header Profiles API
-  slug: palo-alto-networks-httpheaderprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The HTTPSProfiles API from Palo Alto Networks — 2 operation(s) for httpsprofiles.
@@ -2419,21 +2239,6 @@ apis:
   slug: palo-alto-networks-ike-gateways-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The IKECryptoProfiles API from Palo Alto Networks — 2 operation(s) for ikecryptoprofiles.
-  name: Palo Alto Networks IKE Crypto Profiles API
-  slug: palo-alto-networks-ikecryptoprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The Incidents API API from Palo Alto Networks — 7 operation(s) for incidents api.
-  name: Palo Alto Networks Incidents API API
-  slug: palo-alto-networks-incidents-api-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The Incidents API (Beta) API from Palo Alto Networks — 4 operation(s) for incidents api (beta).
-  name: Palo Alto Networks Incidents API (Beta) API
-  slug: palo-alto-networks-incidents-api-beta-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The Incidents APIs API from Palo Alto Networks — 2 operation(s) for incidents apis.
   name: Palo Alto Networks Incidents APIs API
   slug: palo-alto-networks-incidents-apis-api
@@ -2444,13 +2249,8 @@ apis:
   slug: palo-alto-networks-infrastructure-settings-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The InfrastructureSettings API from Palo Alto Networks — 2 operation(s) for infrastructuresettings.
-  name: Palo Alto Networks Infrastructure Settings API
-  slug: palo-alto-networks-infrastructuresettings-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The Insights Resources API API from Palo Alto Networks — 1 operation(s) for insights resources api.
-  name: Palo Alto Networks Insights Resources API API
+  name: Palo Alto Networks Insights Resources API
   slug: palo-alto-networks-insights-resources-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -2470,7 +2270,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Interconnect API API from Palo Alto Networks — 1 operation(s) for interconnect api.
-  name: Palo Alto Networks Interconnect API API
+  name: Palo Alto Networks Interconnect API
   slug: palo-alto-networks-interconnect-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -2499,24 +2299,14 @@ apis:
   slug: palo-alto-networks-internal-domains-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The InternalDNSServers API from Palo Alto Networks — 2 operation(s) for internaldnsservers.
-  name: Palo Alto Networks Internal DNS Servers API
-  slug: palo-alto-networks-internaldnsservers-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The InternetController API from Palo Alto Networks — 1 operation(s) for internetcontroller.
   name: Palo Alto Networks Internet Controller API
   slug: palo-alto-networks-internetcontroller-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The IoT Public APIs are listed below.
-  name: Palo Alto Networks IoT Public API API
+  name: Palo Alto Networks IoT Public API
   slug: palo-alto-networks-iot-public-api-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: Manage a list of trusted IP addresses with respect to alerts and a list of trusted login IP addresses.
-  name: Palo Alto Networks IP Allow List API
-  slug: palo-alto-networks-ip-allow-list-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The IP Pool Usage API from Palo Alto Networks — 1 operation(s) for ip pool usage.
@@ -2527,16 +2317,6 @@ apis:
   description: The IPSec Crypto Profiles API from Palo Alto Networks — 4 operation(s) for ipsec crypto profiles.
   name: Palo Alto Networks IPSec Crypto Profiles API
   slug: palo-alto-networks-ipsec-crypto-profiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: IPsec Tunnels
-  name: Palo Alto Networks IPsec Tunnels API
-  slug: palo-alto-networks-ipsec-tunnels-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The IPSecCryptoProfiles API from Palo Alto Networks — 2 operation(s) for ipseccryptoprofiles.
-  name: Palo Alto Networks IP Sec Crypto Profiles API
-  slug: palo-alto-networks-ipseccryptoprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Iptag Match List
@@ -2569,11 +2349,6 @@ apis:
   slug: palo-alto-networks-kerberos-server-profiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The KerberosServerProfiles API from Palo Alto Networks — 2 operation(s) for kerberosserverprofiles.
-  name: Palo Alto Networks Kerberos Server Profiles API
-  slug: palo-alto-networks-kerberosserverprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: '{''$ref'': ''desc/labels/labels.md''}'
   name: Palo Alto Networks Labels API
   slug: palo-alto-networks-labels-api
@@ -2599,19 +2374,9 @@ apis:
   slug: palo-alto-networks-ldap-server-profiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The LDAPServerProfiles API from Palo Alto Networks — 2 operation(s) for ldapserverprofiles.
-  name: Palo Alto Networks LDAP Server Profiles API
-  slug: palo-alto-networks-ldapserverprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The License Resources API API from Palo Alto Networks — 3 operation(s) for license resources api.
-  name: Palo Alto Networks License Resources API API
+  name: Palo Alto Networks License Resources API
   slug: palo-alto-networks-license-resources-api-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The LicenseTypes API from Palo Alto Networks — 1 operation(s) for licensetypes.
-  name: Palo Alto Networks License Types API
-  slug: palo-alto-networks-licensetypes-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Prisma Cloud License endpoints enable you to query your Prisma Cloud usage.
@@ -2637,16 +2402,6 @@ apis:
   description: Local Users
   name: Palo Alto Networks Local Users API
   slug: palo-alto-networks-local-users-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The LocalUserGroups API from Palo Alto Networks — 2 operation(s) for localusergroups.
-  name: Palo Alto Networks Local User Groups API
-  slug: palo-alto-networks-localusergroups-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The LocalUsers API from Palo Alto Networks — 2 operation(s) for localusers.
-  name: Palo Alto Networks Local Users API
-  slug: palo-alto-networks-localusers-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Information on the location.
@@ -2694,44 +2449,9 @@ apis:
   slug: palo-alto-networks-machines-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The ManageAPITokens API from Palo Alto Networks — 4 operation(s) for manageapitokens.
-  name: Palo Alto Networks Manage API Tokens API
-  slug: palo-alto-networks-manageapitokens-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ManageCertificateObjects API from Palo Alto Networks — 2 operation(s) for managecertificateobjects.
-  name: Palo Alto Networks Manage Certificate Objects API
-  slug: palo-alto-networks-managecertificateobjects-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ManageCommitConfiguration API from Palo Alto Networks — 3 operation(s) for managecommitconfiguration.
-  name: Palo Alto Networks Manage Commit Configuration API
-  slug: palo-alto-networks-managecommitconfiguration-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The ManageCustomURLCategories API from Palo Alto Networks — 2 operation(s) for managecustomurlcategories.
   name: Palo Alto Networks Manage Custom URL Categories API
   slug: palo-alto-networks-managecustomurlcategories-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ManageFileBlockingActions API from Palo Alto Networks — 2 operation(s) for managefileblockingactions.
-  name: Palo Alto Networks Manage File Blocking Actions API
-  slug: palo-alto-networks-managefileblockingactions-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ManageFQDNLists API from Palo Alto Networks — 2 operation(s) for managefqdnlists.
-  name: Palo Alto Networks Manage FQDN Lists API
-  slug: palo-alto-networks-managefqdnlists-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ManageIntelligentFeeds API from Palo Alto Networks — 2 operation(s) for manageintelligentfeeds.
-  name: Palo Alto Networks Manage Intelligent Feeds API
-  slug: palo-alto-networks-manageintelligentfeeds-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ManageLogProfiles API from Palo Alto Networks — 1 operation(s) for managelogprofiles.
-  name: Palo Alto Networks Manage Log Profiles API
-  slug: palo-alto-networks-managelogprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Management Interface Settings
@@ -2789,11 +2509,6 @@ apis:
   slug: palo-alto-networks-mfa-servers-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The MFAServers API from Palo Alto Networks — 2 operation(s) for mfaservers.
-  name: Palo Alto Networks MFA Servers API
-  slug: palo-alto-networks-mfaservers-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The Misconfigured Domains API from Palo Alto Networks — 2 operation(s) for misconfigured domains.
   name: Palo Alto Networks Misconfigured Domains API
   slug: palo-alto-networks-misconfigured-domains-api
@@ -2805,7 +2520,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Endpoint to retrieve the device count histogram with possible filters.
-  name: Palo Alto Networks Monitored Users API API
+  name: Palo Alto Networks Monitored Users API
   slug: palo-alto-networks-monitored-users-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -2875,7 +2590,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Endpoint to retrieve the count of active users based on specified filters.
-  name: Palo Alto Networks Other Users API API
+  name: Palo Alto Networks Other Users API
   slug: palo-alto-networks-other-users-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -2909,11 +2624,6 @@ apis:
   slug: palo-alto-networks-permissions-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The PermissionSets API from Palo Alto Networks — 2 operation(s) for permissionsets.
-  name: Palo Alto Networks Permission Sets API
-  slug: palo-alto-networks-permissionsets-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: '{''$ref'': ''desc/_ping/_ping.md''}'
   name: Palo Alto Networks Ping API
   slug: palo-alto-networks-ping-api
@@ -2939,16 +2649,6 @@ apis:
   slug: palo-alto-networks-policy-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The PredefinedURLCategories API from Palo Alto Networks — 1 operation(s) for predefinedurlcategories.
-  name: Palo Alto Networks Predefined URL Categories API
-  slug: palo-alto-networks-predefinedurlcategories-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The PrefixList API from Palo Alto Networks — 2 operation(s) for prefixlist.
-  name: Palo Alto Networks Prefix List API
-  slug: palo-alto-networks-prefixlist-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: APIs for Private Key Import.
   name: Palo Alto Networks Private Key Import API
   slug: palo-alto-networks-private-key-import-api
@@ -2957,11 +2657,6 @@ apis:
   description: Profile Groups
   name: Palo Alto Networks Profile Groups API
   slug: palo-alto-networks-profile-groups-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ProfileGroups API from Palo Alto Networks — 2 operation(s) for profilegroups.
-  name: Palo Alto Networks Profile Groups API
-  slug: palo-alto-networks-profilegroups-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Onboarding Properties information
@@ -2984,19 +2679,9 @@ apis:
   slug: palo-alto-networks-qospolicyrules-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The QoSProfiles API from Palo Alto Networks — 2 operation(s) for qosprofiles.
-  name: Palo Alto Networks Qo S Profiles API
-  slug: palo-alto-networks-qosprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Quarantined Devices
   name: Palo Alto Networks Quarantined Devices API
   slug: palo-alto-networks-quarantined-devices-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The QuarantinedDevices API from Palo Alto Networks — 1 operation(s) for quarantineddevices.
-  name: Palo Alto Networks Quarantined Devices API
-  slug: palo-alto-networks-quarantineddevices-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Operations for quota management and limits.
@@ -3007,11 +2692,6 @@ apis:
   description: RADIUS Server Profiles
   name: Palo Alto Networks RADIUS Server Profiles API
   slug: palo-alto-networks-radius-server-profiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The RadiusServerProfiles API from Palo Alto Networks — 2 operation(s) for radiusserverprofiles.
-  name: Palo Alto Networks Radius Server Profiles API
-  slug: palo-alto-networks-radiusserverprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Regional and Custom Proxies
@@ -3035,13 +2715,8 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Report API API from Palo Alto Networks — 8 operation(s) for report api.
-  name: Palo Alto Networks Report API API
+  name: Palo Alto Networks Report API
   slug: palo-alto-networks-report-api-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The Reports API API from Palo Alto Networks — 1 operation(s) for reports api.
-  name: Palo Alto Networks Reports API API
-  slug: palo-alto-networks-reports-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Repository API from Palo Alto Networks — 1 operation(s) for repository.
@@ -3119,11 +2794,6 @@ apis:
   slug: palo-alto-networks-saml-server-profiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The SAMLServerProfiles API from Palo Alto Networks — 2 operation(s) for samlserverprofiles.
-  name: Palo Alto Networks SAML Server Profiles API
-  slug: palo-alto-networks-samlserverprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: '{''$ref'': ''desc/sandbox/sandbox.md''}'
   name: Palo Alto Networks Sandbox API
   slug: palo-alto-networks-sandbox-api
@@ -3147,11 +2817,6 @@ apis:
   description: SCEP Profiles
   name: Palo Alto Networks SCEP Profiles API
   slug: palo-alto-networks-scep-profiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The SCEPProfiles API from Palo Alto Networks — 2 operation(s) for scepprofiles.
-  name: Palo Alto Networks SCEP Profiles API
-  slug: palo-alto-networks-scepprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Schedules API from Palo Alto Networks — 4 operation(s) for schedules.
@@ -3234,21 +2899,6 @@ apis:
   slug: palo-alto-networks-service-settings-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The ServiceAccounts API from Palo Alto Networks — 3 operation(s) for serviceaccounts.
-  name: Palo Alto Networks Service Accounts API
-  slug: palo-alto-networks-serviceaccounts-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ServiceConnectionGroups API from Palo Alto Networks — 2 operation(s) for serviceconnectiongroups.
-  name: Palo Alto Networks Service Connection Groups API
-  slug: palo-alto-networks-serviceconnectiongroups-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The ServiceGroups API from Palo Alto Networks — 2 operation(s) for servicegroups.
-  name: Palo Alto Networks Service Groups API
-  slug: palo-alto-networks-servicegroups-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Session Settings
   name: Palo Alto Networks Session Settings API
   slug: palo-alto-networks-session-settings-api
@@ -3280,7 +2930,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Sites API
-  name: Palo Alto Networks Sites API API
+  name: Palo Alto Networks Sites API
   slug: palo-alto-networks-sites-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -3335,7 +2985,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Summary API API from Palo Alto Networks — 3 operation(s) for summary api.
-  name: Palo Alto Networks Summary API API
+  name: Palo Alto Networks Summary API
   slug: palo-alto-networks-summary-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -3362,11 +3012,6 @@ apis:
   description: TACACS Server Profiles
   name: Palo Alto Networks TACACS Server Profiles API
   slug: palo-alto-networks-tacacs-server-profiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The TACACSServerProfiles API from Palo Alto Networks — 2 operation(s) for tacacsserverprofiles.
-  name: Palo Alto Networks TACACS Server Profiles API
-  slug: palo-alto-networks-tacacsserverprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Tag Rules API from Palo Alto Networks — 4 operation(s) for tag rules.
@@ -3405,7 +3050,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The Tenant API API from Palo Alto Networks — 6 operation(s) for tenant api.
-  name: Palo Alto Networks Tenant API API
+  name: Palo Alto Networks Tenant API
   slug: palo-alto-networks-tenant-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -3415,7 +3060,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Use the Tenant Resource API to list all tenants in the hierarchy.
-  name: Palo Alto Networks Tenant Resources API API
+  name: Palo Alto Networks Tenant Resources API
   slug: palo-alto-networks-tenant-resources-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -3439,19 +3084,9 @@ apis:
   slug: palo-alto-networks-tls-service-profiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The TLSServiceProfiles API from Palo Alto Networks — 2 operation(s) for tlsserviceprofiles.
-  name: Palo Alto Networks TLS Service Profiles API
-  slug: palo-alto-networks-tlsserviceprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Traffic steering rules for Service Connections
   name: Palo Alto Networks Traffic Steering Rules API
   slug: palo-alto-networks-traffic-steering-rules-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The TrafficSteeringRules API from Palo Alto Networks — 2 operation(s) for trafficsteeringrules.
-  name: Palo Alto Networks Traffic Steering Rules API
-  slug: palo-alto-networks-trafficsteeringrules-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: '{''$ref'': ''desc/trust/trust.md''}'
@@ -3479,11 +3114,6 @@ apis:
   slug: palo-alto-networks-trusted-tenants-overview-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The TrustedCertificateAuthorities API from Palo Alto Networks — 1 operation(s) for trustedcertificateauthorities.
-  name: Palo Alto Networks Trusted Certificate Authorities API
-  slug: palo-alto-networks-trustedcertificateauthorities-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Trusts between tenants
   name: Palo Alto Networks Trusts API
   slug: palo-alto-networks-trusts-api
@@ -3505,7 +3135,7 @@ apis:
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: The UE Info Resource API API from Palo Alto Networks — 6 operation(s) for ue info resource api.
-  name: Palo Alto Networks UE Info Resource API API
+  name: Palo Alto Networks UE Info Resource API
   slug: palo-alto-networks-ue-info-resource-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -3534,21 +3164,6 @@ apis:
   slug: palo-alto-networks-url-filtering-categories-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The URLAccessProfiles API from Palo Alto Networks — 2 operation(s) for urlaccessprofiles.
-  name: Palo Alto Networks URL Access Profiles API
-  slug: palo-alto-networks-urlaccessprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The URLCategories API from Palo Alto Networks — 2 operation(s) for urlcategories.
-  name: Palo Alto Networks URL Categories API
-  slug: palo-alto-networks-urlcategories-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The URLFilteringCategories API from Palo Alto Networks — 1 operation(s) for urlfilteringcategories.
-  name: Palo Alto Networks URL Filtering Categories API
-  slug: palo-alto-networks-urlfilteringcategories-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The User Groups API from Palo Alto Networks — 2 operation(s) for user groups.
   name: Palo Alto Networks User Groups API
   slug: palo-alto-networks-user-groups-api
@@ -3574,11 +3189,6 @@ apis:
   slug: palo-alto-networks-user-roles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The UserAccounts API from Palo Alto Networks — 1 operation(s) for useraccounts.
-  name: Palo Alto Networks User Accounts API
-  slug: palo-alto-networks-useraccounts-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Userid Match List
   name: Palo Alto Networks Userid Match List API
   slug: palo-alto-networks-userid-match-list-api
@@ -3589,23 +3199,13 @@ apis:
   slug: palo-alto-networks-useronboarding-linkaccount-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The UserOnboarding-LinkAccounts API from Palo Alto Networks — 2 operation(s) for useronboarding-linkaccounts.
-  name: Palo Alto Networks User Onboarding Link Accounts API
-  slug: palo-alto-networks-useronboarding-linkaccounts-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The UserOnboarding-MemberAccounts API from Palo Alto Networks — 2 operation(s) for useronboarding-memberaccounts.
   name: Palo Alto Networks User Onboarding Member Accounts API
   slug: palo-alto-networks-useronboarding-memberaccounts-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The UserOnboarding-XAccountRoles API from Palo Alto Networks — 2 operation(s) for useronboarding-xaccountroles.
-  name: Palo Alto Networks User Onboarding X Account Roles API
-  slug: palo-alto-networks-useronboarding-xaccountroles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Users API
-  name: Palo Alto Networks Users API API
+  name: Palo Alto Networks Users API
   slug: palo-alto-networks-users-api-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
@@ -3679,16 +3279,6 @@ apis:
   slug: palo-alto-networks-vulnerability-protection-signatures-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: The VulnerabilityProtectionProfiles API from Palo Alto Networks — 2 operation(s) for vulnerabilityprotectionprofiles.
-  name: Palo Alto Networks Vulnerability Protection Profiles API
-  slug: palo-alto-networks-vulnerabilityprotectionprofiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The VulnerabilityProtectionSignatures API from Palo Alto Networks — 2 operation(s) for vulnerabilityprotectionsignatures.
-  name: Palo Alto Networks Vulnerability Protection Signatures API
-  slug: palo-alto-networks-vulnerabilityprotectionsignatures-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: The Waas API from Palo Alto Networks — 2 operation(s) for waas.
   name: Palo Alto Networks Waas API
   slug: palo-alto-networks-waas-api
@@ -3707,11 +3297,6 @@ apis:
   description: WildFire Anti-Virus Profiles
   name: Palo Alto Networks WildFire Anti-Virus Profiles API
   slug: palo-alto-networks-wildfire-anti-virus-profiles-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: The WildFireAntivirusProfiles API from Palo Alto Networks — 2 operation(s) for wildfireantivirusprofiles.
-  name: Palo Alto Networks Wild Fire Antivirus Profiles API
-  slug: palo-alto-networks-wildfireantivirusprofiles-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: APIs for Workload Issuance Policies.
@@ -3819,11 +3404,6 @@ apis:
   slug: palo-alto-networks-classifications-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: Cloud account onboarding and management.
-  name: Palo Alto Networks Cloud Accounts API
-  slug: palo-alto-networks-cloudaccounts-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Configuration commit operations.
   name: Palo Alto Networks Commit API
   slug: palo-alto-networks-commit-api
@@ -3862,16 +3442,6 @@ apis:
   description: Query Prisma Access deployment health and performance data resources
   name: Palo Alto Networks Data Resources API
   slug: palo-alto-networks-data-resources-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: Data asset discovery and inventory operations.
-  name: Palo Alto Networks Data Assets API
-  slug: palo-alto-networks-dataassets-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: Data pattern configuration and lookup operations.
-  name: Palo Alto Networks Data Patterns API
-  slug: palo-alto-networks-datapatterns-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Data store inventory and discovery operations.
@@ -3949,11 +3519,6 @@ apis:
   slug: palo-alto-networks-investigations-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: Owned IP range management.
-  name: Palo Alto Networks IP Ranges API
-  slug: palo-alto-networks-ipranges-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: LAN network configuration for defining local networks at SD-WAN sites.
   name: Palo Alto Networks LAN Networks API
   slug: palo-alto-networks-lannetworks-api
@@ -3967,11 +3532,6 @@ apis:
   description: Site performance metrics, application usage data, and alarm monitoring.
   name: Palo Alto Networks Monitoring API
   slug: palo-alto-networks-monitoring-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: NAT policy rule management.
-  name: Palo Alto Networks NAT Rules API
-  slug: palo-alto-networks-natrules-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: 5G network slice configuration and management.
@@ -4014,19 +3574,9 @@ apis:
   slug: palo-alto-networks-products-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
-  description: Quality of Service rule management for traffic prioritization across WAN links.
-  name: Palo Alto Networks Qo S Rules API
-  slug: palo-alto-networks-qosrules-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
   description: Email recipient retrieval operations.
   name: Palo Alto Networks Recipients API
   slug: palo-alto-networks-recipients-api
-- baseURL: https://{firewall}/api/
-  baseurl_source: declared
-  description: Content release notes for PAN-OS content updates.
-  name: Palo Alto Networks Release Notes API
-  slug: palo-alto-networks-releasenotes-api
 - baseURL: https://{firewall}/api/
   baseurl_source: declared
   description: Data security risk identification and management.
@@ -4127,6 +3677,76 @@ apis:
   description: XQL (Extended Query Language) query execution.
   name: Palo Alto Networks XQL API
   slug: palo-alto-networks-xql-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: The Agent Controller API from Palo Alto Networks — 3 operation(s) for agent controller.
+  name: Palo Alto Networks Agent Controller API
+  slug: palo-alto-networks-agent-controller-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: The application controller API from Palo Alto Networks — 2 operation(s) for application controller.
+  name: Palo Alto Networks application controller API
+  slug: palo-alto-networks-application-controller-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: The Auth Service API from Palo Alto Networks — 2 operation(s) for auth service.
+  name: Palo Alto Networks Auth Service API
+  slug: palo-alto-networks-auth-service-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: The Custom Roles API from Palo Alto Networks — 2 operation(s) for custom roles.
+  name: Palo Alto Networks Custom Roles API
+  slug: palo-alto-networks-custom-roles-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: Data asset discovery and inventory operations.
+  name: Palo Alto Networks Data Assets API
+  slug: palo-alto-networks-data-assets-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: Manage a list of trusted IP addresses with respect to alerts and a list of trusted login IP addresses.
+  name: Palo Alto Networks IP Allowlist API
+  slug: palo-alto-networks-ip-allowlist-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: Owned IP range management.
+  name: Palo Alto Networks IP Ranges API
+  slug: palo-alto-networks-ip-ranges-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: IPsec Tunnels
+  name: Palo Alto Networks IP Sec Tunnels API
+  slug: palo-alto-networks-ip-sec-tunnels-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: The License Types API from Palo Alto Networks — 1 operation(s) for license types.
+  name: Palo Alto Networks License Types API
+  slug: palo-alto-networks-license-types-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: The Manage API tokens API from Palo Alto Networks — 4 operation(s) for manage api tokens.
+  name: Palo Alto Networks Manage API tokens API
+  slug: palo-alto-networks-manage-api-tokens-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: The Notification Profiles API from Palo Alto Networks — 6 operation(s) for notification profiles.
+  name: Palo Alto Networks Notification Profiles API
+  slug: palo-alto-networks-notification-profiles-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: The Permission Sets API from Palo Alto Networks — 2 operation(s) for permission sets.
+  name: Palo Alto Networks Permission Sets API
+  slug: palo-alto-networks-permission-sets-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: Content release notes for PAN-OS content updates.
+  name: Palo Alto Networks Release Notes API
+  slug: palo-alto-networks-release-notes-api
+- baseURL: https://{firewall}/api/
+  baseurl_source: declared
+  description: The User Accounts API from Palo Alto Networks — 1 operation(s) for user accounts.
+  name: Palo Alto Networks User Accounts API
+  slug: palo-alto-networks-user-accounts-api
 arazzos:
 - description: Find an endpoint by filter, isolate it from the network, then poll until isolation is confirmed.
   name: Cortex XDR Endpoint Isolation and Verification
@@ -4161,7 +3781,7 @@ arazzos:
 - description: Authenticate to Prisma Cloud, run an RQL config query, then run a matching RQL asset query.
   name: Prisma Cloud RQL Configuration and Asset Search
   slug: palo-alto-networks-prisma-cloud-rql-config-search-workflow
-artifact_total: 2227
+artifact_total: 2151
 asyncapis:
 - description: Cortex XDR Webhooks provide real-time incident and alert notifications for security events detected across endpoints, networks, and cloud workloads. Webhooks are configured in Cortex XDR Settings > No
   name: Cortex XDR Webhooks
@@ -8680,11 +8300,11 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Palo Alto Networks
 nav: Providers
 network: true
-overview: 'Palo Alto Networks publishes 811 APIs on the [APIs.io](https://apis.io/) network, including 5G Deregistered Trend API, 5G Network Interconnects and Bandwidth API, 5G Registered Trend API, and 808 more. Tagged areas include Cloud Security, Cybersecurity, Firewall, Network Security, and SASE.
+overview: 'Palo Alto Networks publishes 735 APIs on the [APIs.io](https://apis.io/) network, including 5G Deregistered Trend API, 5G Network Interconnects and Bandwidth API, 5G Registered Trend API, and 732 more. Tagged areas include Cloud Security, Cybersecurity, Firewall, Network Security, and SASE.
 
 
   The Palo Alto Networks catalog on APIs.io includes 5 event-driven AsyncAPI specifications, 54 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -8695,7 +8315,7 @@ plans:
 - name: Palo Alto Networks Plans Pricing
   plan_count: 1
   slug: palo-alto-networks-plans-pricing
-random_paper: 16
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Palo Alto Networks Rate Limits
@@ -8740,7 +8360,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 71.1
+  composite: 70.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 89.5
@@ -8748,11 +8368,11 @@ score:
     catalog_gap: 25.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 86.5
+    contract_quality: 83.7
     developer_ergonomics: 85.7
     discoverability: 74.1
     operational_transparency: 68.4
@@ -8763,12 +8383,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 93.7
+      callable: 92.3
       derived: 0
       marker_coverage: 0.0
-      total: 652
+      total: 576
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

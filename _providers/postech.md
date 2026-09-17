@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://oasis.postech.ac.kr/oai/request
-  baseurl_source: declared
-  description: 'Anonymous OAI-PMH 2.0 metadata harvesting over the POSTECH Library OASIS institutional repository. Verified live on 2026-08-30: repositoryName "OASIS Repository@POSTECHLIBRARY", repositoryIdentifier o'
-  name: POSTECH OASIS Repository OAI-PMH
-  slug: oasis-oai-pmh
 - description: POSTECH's own SAML 2.0 identity provider, entityID https://idpass.postech.ac.kr/idp/simplesamlphp, registered in KAFE (the Korea Access Federation, run on KREONET) since registrationInstant 2017-06-23
   name: POSTECH SAML 2.0 Identity Provider
   slug: identity-federation
@@ -53,6 +48,11 @@ apis:
 - description: POSTECH's tenancy on dCollection, the Korea Education and Research Information Service national digital thesis and dissertation distribution system. The relationship is evidenced from POSTECH's own OA
   name: POSTECH dCollection Thesis Repository (KERIS tenancy)
   slug: dcollection
+- baseURL: https://oasis.postech.ac.kr/oai/request
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
+  name: Pohang University of Science and Technology OAI PMH API
+  slug: postech-oai-pmh-api
 artifact_total: 11
 common:
 - group: company
@@ -163,7 +163,7 @@ modified: '2026-08-30'
 name: Pohang University of Science and Technology
 nav: Providers
 network: true
-overview: 'Pohang University of Science and Technology publishes 1 API on the [APIs.io](https://apis.io/) network: POSTECH OASIS Repository OAI-PMH. Tagged areas include University, Higher Education, Education, South Korea, and Korea.
+overview: 'Pohang University of Science and Technology publishes 1 API on the [APIs.io](https://apis.io/) network: OAI PMH API. Tagged areas include University, Higher Education, Education, South Korea, and Asia.
 
 
   The Pohang University of Science and Technology catalog on APIs.io includes 1 JSON-LD context.
@@ -174,7 +174,7 @@ plans:
 - name: Postech Plans Pricing
   plan_count: 2
   slug: postech-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Postech Rate Limits
@@ -219,7 +219,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -241,7 +241,6 @@ tags:
 - Higher Education
 - Education
 - South Korea
-- Korea
 - Asia
 - Private Research University
 - Research

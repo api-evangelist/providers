@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://openapi.thordata.com/api/locations
@@ -76,11 +76,6 @@ apis:
   slug: thordata-tasks-api
 - baseURL: https://scraperapi.thordata.com
   baseurl_source: declared
-  description: Fetch any URL through Thordata's unblocking layer
-  name: Thordata Universal Scraping API
-  slug: thordata-universal-scraping-api-api
-- baseURL: https://scraperapi.thordata.com
-  baseurl_source: declared
   description: Pre-built site scrapers launched as asynchronous tasks
   name: Thordata Web Scraper API
   slug: thordata-web-scraper-api-api
@@ -89,7 +84,17 @@ apis:
   description: IP whitelisting for password-free proxy authentication
   name: Thordata Whitelist API
   slug: thordata-whitelist-api
-artifact_total: 22
+- baseURL: https://openapi.thordata.com/api/locations
+  baseurl_source: declared
+  description: The Public API API from Thordata — 1 operation(s) for public api.
+  name: Thordata Public API
+  slug: thordata-public-api-api
+- baseURL: https://openapi.thordata.com/api/locations
+  baseurl_source: declared
+  description: The Universal API API from Thordata — 1 operation(s) for universal api.
+  name: Thordata Universal API
+  slug: thordata-universal-api-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Thordata Web Scraper Webhooks
@@ -313,7 +318,7 @@ modified: '2026-08-11'
 name: Thordata
 nav: Providers
 network: true
-overview: 'Thordata publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Proxy IP Extract API, Account API, and 7 more. Tagged areas include Proxy network, Web Scraping, Data Extraction, SERP, and Search data.
+overview: 'Thordata publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Proxy IP Extract API, Account API, and 8 more. Tagged areas include Proxy network, Web Scraping, Data Extraction, SERP, and Search data.
 
 
   The Thordata catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -324,14 +329,14 @@ plans:
 - name: Thordata Plans Pricing
   plan_count: 0
   slug: thordata-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Thordata Rate Limits
   slug: thordata-rate-limits
 score:
   band: thin
-  composite: 36.4
+  composite: 36.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -339,11 +344,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 21.0
+    contract_quality: 20.3
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 36.8
@@ -352,13 +357,13 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 14
-      marker_coverage: 100.0
-      total: 14
+      derived: 13
+      marker_coverage: 86.7
+      total: 15
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

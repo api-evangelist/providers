@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Clean Energy Fuels API provides access to platform services and data for enterprise integration and automation.
@@ -70,7 +70,7 @@ modified: '2026-04-19'
 name: Clean Energy Fuels
 nav: Providers
 network: true
-overview: 'Clean Energy Fuels publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Natural Gas, Renewable, and Transportation.
+overview: 'Clean Energy Fuels publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Natural Gas, Renewables, and Transportation.
 
 
   Clean Energy Fuels'' developer surface includes engineering blog and 3 more developer resources.'
@@ -78,7 +78,7 @@ plans:
 - name: Clean Energy Fuels Plans Pricing
   plan_count: 1
   slug: clean-energy-fuels-plans-pricing
-random_paper: 13
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Clean Energy Fuels Rate Limits
@@ -109,7 +109,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -124,7 +124,7 @@ security:
 slug: clean-energy-fuels
 tags:
 - Natural Gas
-- Renewable
+- Renewables
 - Transportation
 website: https://www.cleanenergyfuels.com
 ---

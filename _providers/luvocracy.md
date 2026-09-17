@@ -29,7 +29,7 @@ name: Luvocracy *
 nav: Providers
 network: true
 overview: Luvocracy * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social Commerce, Marketplace, and Shopping.
-random_paper: 18
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/luvocracy/refs/heads/main/screenshots/luvocracy-2026-07-25T225732.png
 security:
 - kind: domain-security

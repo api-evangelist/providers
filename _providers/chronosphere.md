@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -43,11 +43,6 @@ agentic_access:
   summary_line: 149 operations · 92 acting
 api_count: 3
 apis:
-- baseURL: https://{tenant}.chronosphere.io
-  baseurl_source: declared
-  description: The Chronosphere HTTP/JSON API surface for Observability Platform, served from a per-customer subdomain. The Config V1 API alone carries 183 operations across 39 resource types, every write of which a
-  name: Chronosphere
-  slug: chronosphere
 - baseURL: https://{tenant}.chronosphere.io
   baseurl_source: declared
   description: The Bucket API from Chronosphere — 2 operation(s) for bucket.
@@ -95,11 +90,6 @@ apis:
   slug: chronosphere-gcpmetricsintegration-api
 - baseURL: https://{tenant}.chronosphere.io
   baseurl_source: declared
-  description: The GrafanaDashboard API from Chronosphere — 2 operation(s) for grafanadashboard.
-  name: Chronosphere GrafanaDashboard API
-  slug: chronosphere-grafanadashboard-api
-- baseURL: https://{tenant}.chronosphere.io
-  baseurl_source: declared
   description: The LogAllocationConfig API from Chronosphere — 1 operation(s) for logallocationconfig.
   name: Chronosphere LogAllocationConfig API
   slug: chronosphere-logallocationconfig-api
@@ -135,11 +125,6 @@ apis:
   slug: chronosphere-mutingrule-api
 - baseURL: https://{tenant}.chronosphere.io
   baseurl_source: declared
-  description: The NotificationPolicy API from Chronosphere — 2 operation(s) for notificationpolicy.
-  name: Chronosphere NotificationPolicy API
-  slug: chronosphere-notificationpolicy-api
-- baseURL: https://{tenant}.chronosphere.io
-  baseurl_source: declared
   description: The Notifier API from Chronosphere — 2 operation(s) for notifier.
   name: Chronosphere Notifier API
   slug: chronosphere-notifier-api
@@ -155,11 +140,6 @@ apis:
   slug: chronosphere-recordingrule-api
 - baseURL: https://{tenant}.chronosphere.io
   baseurl_source: declared
-  description: The ResourcePools API from Chronosphere — 1 operation(s) for resourcepools.
-  name: Chronosphere ResourcePools API
-  slug: chronosphere-resourcepools-api
-- baseURL: https://{tenant}.chronosphere.io
-  baseurl_source: declared
   description: The RollupRule API from Chronosphere — 2 operation(s) for rolluprule.
   name: Chronosphere RollupRule API
   slug: chronosphere-rolluprule-api
@@ -168,11 +148,6 @@ apis:
   description: The Service API from Chronosphere — 1 operation(s) for service.
   name: Chronosphere Service API
   slug: chronosphere-service-api
-- baseURL: https://{tenant}.chronosphere.io
-  baseurl_source: declared
-  description: The ServiceAccount API from Chronosphere — 2 operation(s) for serviceaccount.
-  name: Chronosphere ServiceAccount API
-  slug: chronosphere-serviceaccount-api
 - baseURL: https://{tenant}.chronosphere.io
   baseurl_source: declared
   description: The SLO API from Chronosphere — 2 operation(s) for slo.
@@ -210,15 +185,150 @@ apis:
   slug: chronosphere-tracetailsamplingrules-api
 - baseURL: https://{tenant}.chronosphere.io
   baseurl_source: declared
-  description: 'The Data API from Chronosphere - 9 operations for querying and writing telemetry: change events, log range queries, trace listing, metric metadata and dashboard panel annotations.'
-  name: Chronosphere Data V1 API
-  slug: chronosphere-data-v1-api
+  description: The AzureMetricsIntegration API from Chronosphere — 2 operation(s) for azuremetricsintegration.
+  name: Chronosphere Azure Metrics Integration API
+  slug: chronosphere-azuremetricsintegration-api
 - baseURL: https://{tenant}.chronosphere.io
   baseurl_source: declared
-  description: 'The State API from Chronosphere - 3 read-only operations exposing derived state: metric usage by metric name, metric usage by label name, and rule evaluation health. The cost and cardinality analysis '
-  name: Chronosphere State V1 API
-  slug: chronosphere-state-v1-api
-artifact_total: 80
+  description: The CommandCenterGroup API from Chronosphere — 2 operation(s) for commandcentergroup.
+  name: Chronosphere Command Center Group API
+  slug: chronosphere-commandcentergroup-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The ConfigUnstable API from Chronosphere — 1 operation(s) for configunstable.
+  name: Chronosphere Config Unstable API
+  slug: chronosphere-configunstable-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The ConsumptionBudget API from Chronosphere — 2 operation(s) for consumptionbudget.
+  name: Chronosphere Consumption Budget API
+  slug: chronosphere-consumptionbudget-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The ConsumptionConfig API from Chronosphere — 1 operation(s) for consumptionconfig.
+  name: Chronosphere Consumption Config API
+  slug: chronosphere-consumptionconfig-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The DataV1 API from Chronosphere — 6 operation(s) for datav1.
+  name: Chronosphere Data V1 API
+  slug: chronosphere-datav1-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The LinkTemplate API from Chronosphere — 2 operation(s) for linktemplate.
+  name: Chronosphere Link Template API
+  slug: chronosphere-linktemplate-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The LogControlConfig API from Chronosphere — 1 operation(s) for logcontrolconfig.
+  name: Chronosphere Log Control Config API
+  slug: chronosphere-logcontrolconfig-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The LogPrimaryKey API from Chronosphere — 2 operation(s) for logprimarykey.
+  name: Chronosphere Log Primary Key API
+  slug: chronosphere-logprimarykey-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The LogRetentionConfig API from Chronosphere — 2 operation(s) for logretentionconfig.
+  name: Chronosphere Log Retention Config API
+  slug: chronosphere-logretentionconfig-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The MetricUsagesByLabelName API from Chronosphere — 1 operation(s) for metricusagesbylabelname.
+  name: Chronosphere Metric Usages By Label Name API
+  slug: chronosphere-metricusagesbylabelname-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The MetricUsagesByMetricName API from Chronosphere — 1 operation(s) for metricusagesbymetricname.
+  name: Chronosphere Metric Usages By Metric Name API
+  slug: chronosphere-metricusagesbymetricname-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The NoopEntity API from Chronosphere — 2 operation(s) for noopentity.
+  name: Chronosphere Noop Entity API
+  slug: chronosphere-noopentity-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Notebook API from Chronosphere — 2 operation(s) for notebook.
+  name: Chronosphere Notebook API
+  slug: chronosphere-notebook-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The ObjectDiscoveryRule API from Chronosphere — 2 operation(s) for objectdiscoveryrule.
+  name: Chronosphere Object Discovery Rule API
+  slug: chronosphere-objectdiscoveryrule-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The QueryResourcePools API from Chronosphere — 1 operation(s) for queryresourcepools.
+  name: Chronosphere Query Resource Pools API
+  slug: chronosphere-queryresourcepools-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The RuleEvaluations API from Chronosphere — 1 operation(s) for ruleevaluations.
+  name: Chronosphere Rule Evaluations API
+  slug: chronosphere-ruleevaluations-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The SavedTraceSearch API from Chronosphere — 2 operation(s) for savedtracesearch.
+  name: Chronosphere Saved Trace Search API
+  slug: chronosphere-savedtracesearch-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The ServiceAttribute API from Chronosphere — 1 operation(s) for serviceattribute.
+  name: Chronosphere Service Attribute API
+  slug: chronosphere-serviceattribute-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The SyncPrometheus API from Chronosphere — 1 operation(s) for syncprometheus.
+  name: Chronosphere Sync Prometheus API
+  slug: chronosphere-syncprometheus-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The SyntheticTest API from Chronosphere — 2 operation(s) for synthetictest.
+  name: Chronosphere Synthetic Test API
+  slug: chronosphere-synthetictest-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The TraceTopTagConfig API from Chronosphere — 1 operation(s) for tracetoptagconfig.
+  name: Chronosphere Trace Top Tag Config API
+  slug: chronosphere-tracetoptagconfig-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Cloud Integration API from Chronosphere — 2 operation(s) for cloud integration.
+  name: Chronosphere Cloud Integration API
+  slug: chronosphere-cloud-integration-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Config (v1) API from Chronosphere — 1 operation(s) for config (v1).
+  name: Chronosphere Config (v1) API
+  slug: chronosphere-config-v1-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The External Connection API from Chronosphere — 2 operation(s) for external connection.
+  name: Chronosphere External Connection API
+  slug: chronosphere-external-connection-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Grafana Dashboard API from Chronosphere — 2 operation(s) for grafana dashboard.
+  name: Chronosphere Grafana Dashboard API
+  slug: chronosphere-grafana-dashboard-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Notification Policy API from Chronosphere — 2 operation(s) for notification policy.
+  name: Chronosphere Notification Policy API
+  slug: chronosphere-notification-policy-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Resource Pools API from Chronosphere — 1 operation(s) for resource pools.
+  name: Chronosphere Resource Pools API
+  slug: chronosphere-resource-pools-api
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Service Account API from Chronosphere — 2 operation(s) for service account.
+  name: Chronosphere Service Account API
+  slug: chronosphere-service-account-api
+artifact_total: 102
 asyncapis:
 - description: ''
   name: Chronosphere Webhooks
@@ -327,6 +437,36 @@ collections:
   name: Config V1 API
   slug: open-chronosphere
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/overlays/chronosphere-grafanadashboard-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/chronosphere-grafanadashboard-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/overlays/chronosphere-notificationpolicy-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/chronosphere-notificationpolicy-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/overlays/chronosphere-resourcepools-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/chronosphere-resourcepools-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/overlays/chronosphere-serviceaccount-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/chronosphere-serviceaccount-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/overlays/chronosphere-data-v1-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/chronosphere-data-v1-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/overlays/chronosphere-state-v1-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/chronosphere-state-v1-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/authentication/chronosphere-authentication.yml
   title: ''
@@ -527,6 +667,10 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/chronosphere-scopes.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@chronosphere.io
 created: '2026-03-27'
 description: 'Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a Telemetry Pipeline built on Fluent Bit, acquired with Calyptia. Its APIs are per-tenant HTTP/JSON: a Config API for resources as code, a Data API for events, logs and traces, and a State API for usage and rule health, with Prometheus-compatible query endpoints, an open-source MCP server, a Terraform provider and the Chronoctl CLI. Palo Alto Networks completed its acquisition of Chronosphere in 2026.'
 finops:
@@ -547,18 +691,18 @@ modified: '2026-08-29'
 name: Chronosphere
 nav: Providers
 network: true
-overview: 'Chronosphere publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Chronosphere, Bucket API, ClassicDashboard API, and 32 more. Tagged areas include Observability, AIOps, Monitoring, Metrics, and Logging.
+overview: 'Chronosphere publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Bucket API, ClassicDashboard API, Collection API, and 54 more. Tagged areas include Observability, AIOps, Monitoring, Metrics, and Logging.
 
 
   The Chronosphere catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chronosphere''s developer surface includes authentication, documentation, engineering blog, CLI, changelog, API reference, getting-started guide, and 36 more developer resources.'
+  Chronosphere''s developer surface includes authentication, documentation, engineering blog, CLI, changelog, API reference, getting-started guide, and 43 more developer resources.'
 plans:
 - name: Chronosphere Plans Pricing
   plan_count: 0
   slug: chronosphere-plans-pricing
-random_paper: 15
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Chronosphere Rate Limits
@@ -570,35 +714,35 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.2
+  composite: 53.0
   coverage:
     artifact_dirs: 27
-    catalog_earned: 55.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 49.8
+    contract_quality: 59.1
     developer_ergonomics: 69.0
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 73.7
   previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 3.0
+      callable: 77.2
       derived: 0
       marker_coverage: 0.0
-      total: 33
+      total: 57
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

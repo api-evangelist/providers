@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - baseURL: https://bluejaytx.com/wp-json
@@ -202,14 +202,14 @@ modified: '2026-08-07'
 name: Bluejay Therapeutics
 nav: Providers
 network: true
-overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 3 more. Tagged areas include Company, biopharmaceuticals, Pharmaceuticals, Life Sciences, and hepatology.
+overview: 'Bluejay Therapeutics publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 3 more. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Life Sciences, and hepatology.
 
 
   The Bluejay Therapeutics catalog on APIs.io includes 1 JSON-LD context.
 
 
   Bluejay Therapeutics'' developer surface includes engineering blog, authentication, and 19 more developer resources.'
-random_paper: 11
+random_paper: 0
 score:
   band: emerging
   composite: 16.3
@@ -249,7 +249,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -268,7 +268,7 @@ security:
 slug: bluejay-therapeutics
 tags:
 - Company
-- biopharmaceuticals
+- Biopharmaceutical
 - Pharmaceuticals
 - Life Sciences
 - hepatology

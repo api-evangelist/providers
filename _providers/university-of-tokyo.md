@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The University of Tokyo operates three SAML 2.0 entities registered in GakuNin, Japan's academic access federation — two Shibboleth Identity Providers (the central UTokyo IdP at gidp.adm.u-tokyo.ac.jp
@@ -278,7 +278,7 @@ plans:
 - name: University Of Tokyo Plans Pricing
   plan_count: 2
   slug: university-of-tokyo-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: University Of Tokyo Rate Limits
@@ -339,7 +339,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

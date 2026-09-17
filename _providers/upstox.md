@@ -16,31 +16,141 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 60.7
-  scored_at: '2026-09-15'
+  score: 63.2
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.upstox.com
-  baseurl_source: declared
-  description: The Upstox Developer API is a free OAuth 2.0 REST and WebSocket suite for building trading and investment applications against a live SEBI-registered brokerage account. It covers order placement, modi
-  name: Upstox Developer API
-  slug: upstox-developer-api
 - description: Upstox operates a hosted, OAuth-protected Model Context Protocol server at https://mcp.upstox.com/mcp that gives AI assistants — Claude Desktop and the Claude web app, Claude Code, ChatGPT in Develope
   name: Upstox MCP Server
   slug: upstox-mcp-server
-artifact_total: 11
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Charge API from Upstox — 2 operation(s) for charge.
+  name: Upstox Charge API
+  slug: upstox-charge-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The events-controller-v-2 API from Upstox — 1 operation(s) for events-controller-v-2.
+  name: Upstox Events Controller V 2 API
+  slug: upstox-events-controller-v-2-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Expired Instrument API from Upstox — 4 operation(s) for expired instrument.
+  name: Upstox Expired Instrument API
+  slug: upstox-expired-instrument-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Fundamentals API from Upstox — 8 operation(s) for fundamentals.
+  name: Upstox Fundamentals API
+  slug: upstox-fundamentals-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The History API from Upstox — 3 operation(s) for history.
+  name: Upstox History API
+  slug: upstox-history-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: Historical Candle Data V3
+  name: Upstox History V3 API
+  slug: upstox-history-v3-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Instruments API from Upstox — 1 operation(s) for instruments.
+  name: Upstox Instruments API
+  slug: upstox-instruments-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The IPO API from Upstox — 4 operation(s) for ipo.
+  name: Upstox IPO API
+  slug: upstox-ipo-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Login API from Upstox — 4 operation(s) for login.
+  name: Upstox Login API
+  slug: upstox-login-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Market Holidays and Timings API from Upstox — 13 operation(s) for market holidays and timings.
+  name: Upstox Market Holidays and Timings API
+  slug: upstox-market-holidays-and-timings-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Market Quote API from Upstox — 3 operation(s) for market quote.
+  name: Upstox Market Quote API
+  slug: upstox-market-quote-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Market Quote V3 API from Upstox — 3 operation(s) for market quote v3.
+  name: Upstox Market Quote V3 API
+  slug: upstox-market-quote-v3-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Mutual Fund API from Upstox — 4 operation(s) for mutual fund.
+  name: Upstox Mutual Fund API
+  slug: upstox-mutual-fund-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The News API from Upstox — 1 operation(s) for news.
+  name: Upstox News API
+  slug: upstox-news-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Options API from Upstox — 2 operation(s) for options.
+  name: Upstox Options API
+  slug: upstox-options-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Order API from Upstox — 18 operation(s) for order.
+  name: Upstox Order API
+  slug: upstox-order-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The PAYMENTS API from Upstox — 4 operation(s) for payments.
+  name: Upstox PAYMENTS API
+  slug: upstox-payments-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Portfolio API from Upstox — 4 operation(s) for portfolio.
+  name: Upstox Portfolio API
+  slug: upstox-portfolio-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Post Trade API from Upstox — 1 operation(s) for post trade.
+  name: Upstox Post Trade API
+  slug: upstox-post-trade-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Trade Profit And Loss API from Upstox — 3 operation(s) for trade profit and loss.
+  name: Upstox Trade Profit And Loss API
+  slug: upstox-trade-profit-and-loss-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The User API from Upstox — 5 operation(s) for user.
+  name: Upstox User API
+  slug: upstox-user-api
+- baseURL: https://api.upstox.com
+  baseurl_source: declared
+  description: The Websocket API from Upstox — 4 operation(s) for websocket.
+  name: Upstox Websocket API
+  slug: upstox-websocket-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Upstox Webhooks
   slug: upstox-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/overlays/upstox-developer-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/upstox-developer-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -242,18 +352,18 @@ modified: '2026-09-02'
 name: Upstox
 nav: Providers
 network: true
-overview: 'Upstox publishes 1 API on the [APIs.io](https://apis.io/) network: Developer API. Tagged areas include Company, Financial-Services, Stock Trading, Brokerage, and Market Data.
+overview: 'Upstox publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Charge API, Events Controller V 2 API, Expired Instrument API, and 19 more. Tagged areas include Company, Financial-Services, Stock Trading, Brokerage, and Market Data.
 
 
   The Upstox catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Upstox''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
+  Upstox''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 plans:
 - name: Upstox Plans Pricing
   plan_count: 3
   slug: upstox-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 17
   name: Upstox Rate Limits
@@ -265,7 +375,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 79.5
+  composite: 80.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 61.0
@@ -273,11 +383,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 62.6
+    contract_quality: 64.6
     developer_ergonomics: 83.3
     discoverability: 75.9
     operational_transparency: 92.1
@@ -295,7 +405,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 22
     mcp: first-party
     skills: first-party
   regulatory:
@@ -305,7 +415,7 @@ score:
     regime_id: securities_market_data
     score: 86.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

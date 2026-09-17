@@ -24,7 +24,7 @@ name: Peribit
 nav: Providers
 network: true
 overview: Peribit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, WAN Optimization, Enterprise, and Acquired.
-random_paper: 16
+random_paper: 3
 slug: peribit
 tags:
 - Company

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Tikkie API lets Tikkie Business customers programmatically create payment requests, send them to end-payers, and receive notifications when payments complete. Authentication uses an API token (Bus
@@ -133,7 +133,7 @@ plans:
 - name: Abn Amro Plans Pricing
   plan_count: 3
   slug: abn-amro-plans-pricing
-random_paper: 4
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Abn Amro Rate Limits
@@ -164,7 +164,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

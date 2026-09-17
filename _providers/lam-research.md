@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: AI is only as powerful as the chips fueling it. Advanced ...
   url: https://www.facebook.com/LamResearchCorporation/posts/ai-is-only-as-powerful-as-the-chips-fueling-it-advanced-packaging-is-the-technol/1210743711094850/
-random_paper: 7
+random_paper: 16
 score:
   band: minimal
   composite: 3.6
@@ -102,7 +102,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

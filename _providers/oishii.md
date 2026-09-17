@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Anonymous, live Model Context Protocol server for the Oishii storefront, served from oishii.com and provided by the Shopify storefront-renderer platform. A tools/list call returns five tools with full
@@ -158,7 +158,7 @@ overview: 'Oishii publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Oishii''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 15
+random_paper: 7
 scopes:
 - name: Oishii Scopes
   scope_count: 4
@@ -193,7 +193,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -218,7 +218,7 @@ tags:
 - Consumer Products
 - E-Commerce
 - Retail
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 - MCP
 - Universal Commerce Protocol

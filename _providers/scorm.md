@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'The SCORM 1.2 Run-Time Environment defines communication between e-learning content and an LMS via a JavaScript API. The API Adapter is an ECMAScript object named "API" accessible through the DOM. It '
@@ -47,6 +47,10 @@ apis:
   slug: xapi
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://scorm.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/scorm/refs/heads/main/security/scorm-domain-security.yml
   title: ''
@@ -81,7 +85,7 @@ jsonld:
   property_count: 16
   slug: scorm-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-09-16'
 name: SCORM
 nav: Providers
 network: true
@@ -91,12 +95,12 @@ overview: 'SCORM publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
   The SCORM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SCORM''s developer surface includes engineering blog and 1 more developer resources.'
+  SCORM''s developer surface includes engineering blog and 2 more developer resources.'
 plans:
 - name: Scorm Plans Pricing
   plan_count: 3
   slug: scorm-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Scorm Rate Limits
@@ -138,7 +142,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -157,4 +161,5 @@ tags:
 - Standards
 - Education
 - Interoperability
+website: https://scorm.com
 ---

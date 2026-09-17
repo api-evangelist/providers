@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Plan A is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Plan A''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 2
+random_paper: 19
 score:
   band: emerging
   composite: 16.9
@@ -118,7 +118,7 @@ score:
     regime_id: energy_utilities
     score: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

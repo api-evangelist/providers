@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 15
-  human_in_the_loop: 6
+- acting_count: 30
+  human_in_the_loop: 0
   name: Payjp Agentic Access
-  operation_count: 24
+  operation_count: 59
   slug: payjp-agentic-access
-  summary_line: 24 operations · 15 acting · 6 human-in-the-loop
+  summary_line: 59 operations · 30 acting
 api_count: 1
 apis:
 - baseURL: https://api.pay.jp/v1
@@ -422,7 +422,7 @@ plans:
 - name: Payjp Plans Pricing
   plan_count: 6
   slug: payjp-plans-pricing
-random_paper: 2
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Payjp Rate Limits
@@ -470,7 +470,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,27 +48,27 @@ apis:
 - baseURL: https://listen-api.listennotes.com/api/v2
   baseurl_source: declared
   description: Endpoints to fetch podcasts, episodes, charts, and reference data.
-  name: Listen Notes Directory API API
+  name: Listen Notes Directory API
   slug: listennotes-directory-api-api
 - baseURL: https://listen-api.listennotes.com/api/v2
   baseurl_source: declared
   description: Endpoints to get insights of podcasts, e.g., audience demographics.
-  name: Listen Notes Insights API API
+  name: Listen Notes Insights API
   slug: listennotes-insights-api-api
 - baseURL: https://listen-api.listennotes.com/api/v2
   baseurl_source: declared
   description: Endpoints to fetch Listen Later playlists data.
-  name: Listen Notes Playlist API API
+  name: Listen Notes Playlist API
   slug: listennotes-playlist-api-api
 - baseURL: https://listen-api.listennotes.com/api/v2
   baseurl_source: declared
   description: Endpoints to improve the podcast database.
-  name: Listen Notes Podcaster API API
+  name: Listen Notes Podcaster API
   slug: listennotes-podcaster-api-api
 - baseURL: https://listen-api.listennotes.com/api/v2
   baseurl_source: declared
   description: Endpoints to search podcasts and episodes.
-  name: Listen Notes Search API API
+  name: Listen Notes Search API
   slug: listennotes-search-api-api
 artifact_total: 18
 collections:
@@ -153,11 +153,11 @@ finops:
   slug: listennotes-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/listennotes.png
 layout: provider
-modified: '2026-07-03'
+modified: '2026-09-16'
 name: Listen Notes
 nav: Providers
 network: true
-overview: 'Listen Notes publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Directory API API, Insights API API, Playlist API API, and 2 more. Tagged areas include Podcasts, Podcast Search, Podcast Directory, Search, and Audio.
+overview: 'Listen Notes publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Directory API, Insights API, Playlist API, and 2 more. Tagged areas include Podcasts, Podcast Search, Podcast Directory, Search, and Audio.
 
 
   Listen Notes'' developer surface includes authentication, documentation, and 9 more developer resources.'
@@ -165,7 +165,7 @@ plans:
 - name: Listennotes Plans Pricing
   plan_count: 3
   slug: listennotes-plans-pricing
-random_paper: 11
+random_paper: 20
 rate_limits:
 - limit_count: 8
   name: Listennotes Rate Limits
@@ -197,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -24,16 +24,146 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://neuronto.com
   baseurl_source: declared
-  description: 'Search, explore and audit Agentic Resource Discovery entries: MCP servers, A2A agents, OpenAPI services and documentation. REST, MCP and A2A answer from one index. No key, no signup.'
-  name: Neuronto ARD Registry API
-  slug: ard-registry
-artifact_total: 6
+  description: The Adoption API from Neuronto ARD Registry — 1 operation(s) for adoption.
+  name: Neuronto ARD Registry Adoption API
+  slug: neuronto-adoption-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Agents API from Neuronto ARD Registry — 1 operation(s) for agents.
+  name: Neuronto ARD Registry Agents API
+  slug: neuronto-agents-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Analytics API from Neuronto ARD Registry — 1 operation(s) for analytics.
+  name: Neuronto ARD Registry Analytics API
+  slug: neuronto-analytics-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Audit API from Neuronto ARD Registry — 1 operation(s) for audit.
+  name: Neuronto ARD Registry Audit API
+  slug: neuronto-audit-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Bench API from Neuronto ARD Registry — 1 operation(s) for bench.
+  name: Neuronto ARD Registry Bench API
+  slug: neuronto-bench-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Claim API from Neuronto ARD Registry — 2 operation(s) for claim.
+  name: Neuronto ARD Registry Claim API
+  slug: neuronto-claim-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Demand API from Neuronto ARD Registry — 1 operation(s) for demand.
+  name: Neuronto ARD Registry Demand API
+  slug: neuronto-demand-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Doctor API from Neuronto ARD Registry — 1 operation(s) for doctor.
+  name: Neuronto ARD Registry Doctor API
+  slug: neuronto-doctor-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Explore API from Neuronto ARD Registry — 1 operation(s) for explore.
+  name: Neuronto ARD Registry Explore API
+  slug: neuronto-explore-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Health API from Neuronto ARD Registry — 1 operation(s) for health.
+  name: Neuronto ARD Registry Health API
+  slug: neuronto-health-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Insights API from Neuronto ARD Registry — 1 operation(s) for insights.
+  name: Neuronto ARD Registry Insights API
+  slug: neuronto-insights-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Liveness API from Neuronto ARD Registry — 1 operation(s) for liveness.
+  name: Neuronto ARD Registry Liveness API
+  slug: neuronto-liveness-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Manifest API from Neuronto ARD Registry — 1 operation(s) for manifest.
+  name: Neuronto ARD Registry Manifest API
+  slug: neuronto-manifest-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Me API from Neuronto ARD Registry — 1 operation(s) for me.
+  name: Neuronto ARD Registry Me API
+  slug: neuronto-me-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Plan API from Neuronto ARD Registry — 1 operation(s) for plan.
+  name: Neuronto ARD Registry Plan API
+  slug: neuronto-plan-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Private API from Neuronto ARD Registry — 1 operation(s) for private.
+  name: Neuronto ARD Registry Private API
+  slug: neuronto-private-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Reliability API from Neuronto ARD Registry — 1 operation(s) for reliability.
+  name: Neuronto ARD Registry Reliability API
+  slug: neuronto-reliability-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Search API from Neuronto ARD Registry — 1 operation(s) for search.
+  name: Neuronto ARD Registry Search API
+  slug: neuronto-search-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The State Of Mcp API from Neuronto ARD Registry — 1 operation(s) for state of mcp.
+  name: Neuronto ARD Registry State Of Mcp API
+  slug: neuronto-state-of-mcp-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Stats API from Neuronto ARD Registry — 1 operation(s) for stats.
+  name: Neuronto ARD Registry Stats API
+  slug: neuronto-stats-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Submit API from Neuronto ARD Registry — 3 operation(s) for submit.
+  name: Neuronto ARD Registry Submit API
+  slug: neuronto-submit-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Tool Safety API from Neuronto ARD Registry — 1 operation(s) for tool safety.
+  name: Neuronto ARD Registry Tool Safety API
+  slug: neuronto-tool-safety-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Tools API from Neuronto ARD Registry — 1 operation(s) for tools.
+  name: Neuronto ARD Registry Tools API
+  slug: neuronto-tools-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Usage API from Neuronto ARD Registry — 1 operation(s) for usage.
+  name: Neuronto ARD Registry Usage API
+  slug: neuronto-usage-api
+- baseURL: https://neuronto.com
+  baseurl_source: declared
+  description: The Web Position API from Neuronto ARD Registry — 1 operation(s) for web position.
+  name: Neuronto ARD Registry Web Position API
+  slug: neuronto-web-position-api
+artifact_total: 30
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/mcp/neuronto-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/neuronto-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/overlays/neuronto-ard-registry-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/neuronto-ard-registry-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/neuronto/refs/heads/main/security/neuronto-domain-security.yml
   title: ''
@@ -144,22 +274,22 @@ modified: '2026-09-07'
 name: Neuronto ARD Registry
 nav: Providers
 network: true
-overview: 'Neuronto ARD Registry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agentic Resource Discovery, ARD, MCP, A2A, and API Discovery.
+overview: 'Neuronto ARD Registry publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Adoption API, Agents API, Analytics API, and 22 more. Tagged areas include Agentic Resource Discovery, ARD, MCP, A2A, and API Discovery.
 
 
-  Neuronto ARD Registry''s developer surface includes CLI, authentication, pricing, engineering blog, getting-started guide, and 16 more developer resources.'
+  Neuronto ARD Registry''s developer surface includes CLI, authentication, pricing, engineering blog, getting-started guide, and 18 more developer resources.'
 plans:
 - name: Neuronto Plans Pricing
   plan_count: 4
   slug: neuronto-plans-pricing
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Neuronto Rate Limits
   slug: neuronto-rate-limits
 score:
   band: developing
-  composite: 43.7
+  composite: 45.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 58.0
@@ -167,21 +297,26 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 39.6
+    contract_quality: 48.0
     developer_ergonomics: 51.8
     discoverability: 70.4
     operational_transparency: 34.2
   previous_composite: 43.7
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 25
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

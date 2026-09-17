@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -82,9 +82,9 @@ apis:
   slug: amazon-iot-events-tags-resourcearn-api
 - baseURL: https://iotevents.amazonaws.com
   baseurl_source: declared
-  description: The Tags#resourceArn&tagKeys API from Amazon IoT Events — 1 operation(s) for tags#resourcearn&tagkeys.
-  name: Amazon IoT Events Tags#resourceArn&tagKeys API
-  slug: amazon-iot-events-tags-resourcearn-tagkeys-api
+  description: The Tags#resource Arn&tag Keys API from Amazon IoT Events — 1 operation(s) for tags#resource arn&tag keys.
+  name: Amazon IoT Events Tags#resource Arn&tag Keys API
+  slug: amazon-iot-events-tags-resource-arn-tag-keys-api
 artifact_total: 463
 collections:
 - collection_type: postman
@@ -1535,7 +1535,7 @@ plans:
 - name: Amazon Iot Events Plans Pricing
   plan_count: 3
   slug: amazon-iot-events-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Events Rate Limits
@@ -1589,7 +1589,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

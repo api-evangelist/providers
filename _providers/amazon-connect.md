@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -220,6 +220,10 @@ collections:
   name: Amazon Connect Service API
   slug: open-amazon-connect
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/agentic-access/amazon-connect-agentic-access.yml
   title: ''
@@ -1232,7 +1236,7 @@ jsonld:
   property_count: 132
   slug: amazon-connect-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Connect
 nav: Providers
 network: true
@@ -1242,12 +1246,12 @@ overview: 'Amazon Connect publishes 12 APIs on the [APIs.io](https://apis.io/) n
   The Amazon Connect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Connect''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 33 more developer resources.'
+  Amazon Connect''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 34 more developer resources.'
 plans:
 - name: Amazon Connect Plans Pricing
   plan_count: 1
   slug: amazon-connect-plans-pricing
-random_paper: 9
+random_paper: 7
 rate_limits:
 - limit_count: 22
   name: Amazon Connect Rate Limits
@@ -1301,7 +1305,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1345,5 +1349,5 @@ use_cases:
   name: Fraud Prevention
 - description: Analyze 100% of customer interactions with Contact Lens for regulatory compliance and quality assurance.
   name: Compliance and Quality Monitoring
-website: https://aws.amazon.com/connect/
+website: https://amazon.com
 ---

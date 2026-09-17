@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: uniblock-market-data-api
 - baseURL: https://api.uniblock.dev
   baseurl_source: declared
-  description: Endpoints for retrieving non-fungible token data including balances, metadata, transfers, and collection information.
-  name: Uniblock NFTs API
-  slug: uniblock-nfts-api
-- baseURL: https://api.uniblock.dev
-  baseurl_source: declared
   description: Endpoints for scanning blockchain networks for transactions, transfers, native supply, and block-level data similar to block explorers.
   name: Uniblock Scan API
   slug: uniblock-scan-api
@@ -80,6 +75,11 @@ apis:
   description: Endpoints for looking up transaction data by address or transaction hash, including detailed transaction information.
   name: Uniblock Transactions API
   slug: uniblock-transactions-api
+- baseURL: https://api.uniblock.dev
+  baseurl_source: declared
+  description: Endpoints for retrieving non-fungible token data including balances, metadata, transfers, and collection information.
+  name: Uniblock NF Ts API
+  slug: uniblock-nfts-api
 artifact_total: 34
 asyncapis:
 - description: Uniblock webhooks enable real-time notifications for blockchain events without the need to poll endpoints. By configuring webhooks through the Uniblock dashboard or API, developers can receive HTTP ca
@@ -252,7 +252,7 @@ plans:
 - name: Uniblock Plans Pricing
   plan_count: 5
   slug: uniblock-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Uniblock Rate Limits
@@ -317,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

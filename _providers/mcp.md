@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 17
 apis:
 - description: The authoritative protocol definition for the Model Context Protocol, maintained at modelcontextprotocol.io and in the modelcontextprotocol/ specification GitHub repository. The TypeScript schema (sch
@@ -272,7 +272,7 @@ overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https
 
 
   Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 13 more developer resources.'
-random_paper: 5
+random_paper: 12
 rules:
 - effective_rule_count: 6
   extends: []
@@ -304,7 +304,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 27.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

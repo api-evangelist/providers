@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1382
   human_in_the_loop: 36
@@ -1083,19 +1083,9 @@ apis:
   slug: engineering-platform-api-versions-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
-  description: The Apikeys API from APIs.io Engineering Platform — 2 operation(s) for apikeys.
-  name: APIs.io Engineering Platform Apikeys API
-  slug: engineering-platform-apikeys-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
   description: The Apikeys#mode=import&format API from APIs.io Engineering Platform — 1 operation(s) for apikeys#mode=import&format.
   name: APIs.io Engineering Platform Apikeys#mode=import&format API
   slug: engineering-platform-apikeys-mode-import-format-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
-  description: The Apis API from APIs.io Engineering Platform — 4 operation(s) for apis.
-  name: APIs.io Engineering Platform Apis API
-  slug: engineering-platform-apis-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
   description: Information for integrations and installations.
@@ -1214,7 +1204,7 @@ apis:
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
   description: The **Collection to API** endpoints enable you to transform your Postman Collections into API definitions.
-  name: APIs.io Engineering Platform Collection to API API
+  name: APIs.io Engineering Platform Collection to API
   slug: engineering-platform-collection-to-api-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
@@ -1336,11 +1326,6 @@ apis:
   description: The Domain Intelligence API from APIs.io Engineering Platform — 2 operation(s) for domain intelligence.
   name: APIs.io Engineering Platform Domain Intelligence API
   slug: engineering-platform-domain-intelligence-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
-  description: The Domainnames API from APIs.io Engineering Platform — 4 operation(s) for domainnames.
-  name: APIs.io Engineering Platform Domainnames API
-  slug: engineering-platform-domainnames-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
   description: The Durable Objects Namespace API from APIs.io Engineering Platform — 2 operation(s) for durable objects namespace.
@@ -1623,16 +1608,6 @@ apis:
   slug: engineering-platform-mtls-certificate-management-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
-  description: The NewsCategory API from APIs.io Engineering Platform — 1 operation(s) for newscategory.
-  name: APIs.io Engineering Platform NewsCategory API
-  slug: engineering-platform-newscategory-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
-  description: The NewsSearch API from APIs.io Engineering Platform — 1 operation(s) for newssearch.
-  name: APIs.io Engineering Platform NewsSearch API
-  slug: engineering-platform-newssearch-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
   description: The NewsTrendingTopics API from APIs.io Engineering Platform — 1 operation(s) for newstrendingtopics.
   name: APIs.io Engineering Platform NewsTrendingTopics API
   slug: engineering-platform-newstrendingtopics-api
@@ -1661,11 +1636,6 @@ apis:
   description: The Notification Policies API from APIs.io Engineering Platform — 2 operation(s) for notification policies.
   name: APIs.io Engineering Platform Notification Policies API
   slug: engineering-platform-notification-policies-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
-  description: The Notification Webhooks API from APIs.io Engineering Platform — 2 operation(s) for notification webhooks.
-  name: APIs.io Engineering Platform Notification Webhooks API
-  slug: engineering-platform-notification-webhooks-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
   description: OAuth Authorizations API
@@ -1893,11 +1863,6 @@ apis:
   slug: engineering-platform-request-for-information-rfi-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
-  description: The Restapis API from APIs.io Engineering Platform — 30 operation(s) for restapis.
-  name: APIs.io Engineering Platform Restapis API
-  slug: engineering-platform-restapis-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
   description: The Restapis#mode=import API from APIs.io Engineering Platform — 1 operation(s) for restapis#mode=import.
   name: APIs.io Engineering Platform Restapis#mode=import API
   slug: engineering-platform-restapis-mode-import-api
@@ -2043,11 +2008,6 @@ apis:
   slug: engineering-platform-url-scanner-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
-  description: The Usageplans API from APIs.io Engineering Platform — 6 operation(s) for usageplans.
-  name: APIs.io Engineering Platform Usageplans API
-  slug: engineering-platform-usageplans-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
   description: The User API from APIs.io Engineering Platform — 2 operation(s) for user.
   name: APIs.io Engineering Platform User API
   slug: engineering-platform-user-api
@@ -2113,11 +2073,6 @@ apis:
   slug: engineering-platform-videodetailsearch-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
-  description: The VideoSearch API from APIs.io Engineering Platform — 1 operation(s) for videosearch.
-  name: APIs.io Engineering Platform VideoSearch API
-  slug: engineering-platform-videosearch-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
   description: The VideoTrendingSearch API from APIs.io Engineering Platform — 1 operation(s) for videotrendingsearch.
   name: APIs.io Engineering Platform VideoTrendingSearch API
   slug: engineering-platform-videotrendingsearch-api
@@ -2136,11 +2091,6 @@ apis:
   description: The **Webhooks** endpoints enable you to manage [custom webhooks](https://learning.postman.com/docs/running-collections/collection-webhooks/).
   name: APIs.io Engineering Platform Webhooks API
   slug: engineering-platform-webhooks-api
-- baseURL: https://{bucketname}.s3.amazonaws.com
-  baseurl_source: declared
-  description: The WebSearch API from APIs.io Engineering Platform — 1 operation(s) for websearch.
-  name: APIs.io Engineering Platform WebSearch API
-  slug: engineering-platform-websearch-api
 - baseURL: https://{bucketname}.s3.amazonaws.com
   baseurl_source: declared
   description: The WHOIS Record API from APIs.io Engineering Platform — 1 operation(s) for whois record.
@@ -2396,6 +2346,56 @@ apis:
   description: The APIs.io Engineering Platform GitHub V3 REST API API from APIs.io Engineering Platform — 0 operation(s) for apis.io engineering platform github v3 rest api.
   name: APIs.io Engineering Platform APIs.io Engineering Platform GitHub V3 REST API
   slug: engineering-platform-apis-io-engineering-platform-github-v3-rest-api-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The Apis API from APIs.io Engineering Platform — 4 operation(s) for apis.
+  name: APIs.io Engineering Platform APIS API
+  slug: engineering-platform-apis-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The API Keys API from APIs.io Engineering Platform — 2 operation(s) for api keys.
+  name: APIs.io Engineering Platform API Keys API
+  slug: engineering-platform-api-keys-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The Domain Names API from APIs.io Engineering Platform — 4 operation(s) for domain names.
+  name: APIs.io Engineering Platform Domain Names API
+  slug: engineering-platform-domain-names-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The News Category API from APIs.io Engineering Platform — 1 operation(s) for news category.
+  name: APIs.io Engineering Platform News Category API
+  slug: engineering-platform-news-category-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The News Search API from APIs.io Engineering Platform — 1 operation(s) for news search.
+  name: APIs.io Engineering Platform News Search API
+  slug: engineering-platform-news-search-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The Notification Web Hooks API from APIs.io Engineering Platform — 2 operation(s) for notification web hooks.
+  name: APIs.io Engineering Platform Notification Web Hooks API
+  slug: engineering-platform-notification-web-hooks-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The REST APIs API from APIs.io Engineering Platform — 30 operation(s) for rest apis.
+  name: APIs.io Engineering Platform REST APIs API
+  slug: engineering-platform-rest-apis-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The Usage Plans API from APIs.io Engineering Platform — 6 operation(s) for usage plans.
+  name: APIs.io Engineering Platform Usage Plans API
+  slug: engineering-platform-usage-plans-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The Video Search API from APIs.io Engineering Platform — 1 operation(s) for video search.
+  name: APIs.io Engineering Platform Video Search API
+  slug: engineering-platform-video-search-api
+- baseURL: https://api.easycron.com
+  baseurl_source: declared
+  description: The Web Search API from APIs.io Engineering Platform — 1 operation(s) for web search.
+  name: APIs.io Engineering Platform Web Search API
+  slug: engineering-platform-web-search-api
 artifact_total: 6980
 collections:
 - collection_type: open
@@ -21948,7 +21948,7 @@ json_structures:
   property_count: 0
   slug: apis-io-engineering-platform-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: APIs.io Engineering Platform
 nav: Providers
 network: true
@@ -21963,7 +21963,7 @@ plans:
 - name: Engineering Platform Plans Pricing
   plan_count: 1
   slug: engineering-platform-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Engineering Platform Rate Limits
@@ -21981,7 +21981,7 @@ rules:
   slug: engineering-platform-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.5
+  composite: 35.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 32.3
@@ -21989,11 +21989,11 @@ score:
     catalog_gap: 82.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 56.0
+    contract_quality: 57.5
     developer_ergonomics: 35.7
     discoverability: 40.7
     operational_transparency: 7.9
@@ -22001,12 +22001,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 51.7
+      callable: 51.6
       derived: 0
       marker_coverage: 0.0
       total: 471
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 11
+- acting_count: 18
   human_in_the_loop: 0
   name: Creditbenchmark Agentic Access
-  operation_count: 11
+  operation_count: 23
   slug: creditbenchmark-agentic-access
-  summary_line: 11 operations · 11 acting
+  summary_line: 23 operations · 18 acting
 api_count: 2
 apis:
 - baseURL: https://api.creditbenchmark.com
@@ -252,7 +252,7 @@ overview: 'Credit Benchmark publishes 9 APIs on the [APIs.io](https://apis.io/) 
 
 
   Credit Benchmark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: developing
   composite: 41.9
@@ -283,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

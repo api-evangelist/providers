@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -130,6 +130,10 @@ collections:
   name: Amazon Application Migration Service Applications Waves API
   slug: open-amazon-application-migration-service-waves-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/mcp/amazon-application-migration-service-mcp.yml
   title: ''
@@ -1109,7 +1113,7 @@ jsonld:
   property_count: 0
   slug: amazon-application-migration-service-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon Application Migration Service
 nav: Providers
 network: true
@@ -1119,8 +1123,8 @@ overview: 'Amazon Application Migration Service publishes 10 APIs on the [APIs.i
   The Amazon Application Migration Service catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Application Migration Service''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 1
+  Amazon Application Migration Service''s developer surface includes authentication and 9 more developer resources.'
+random_paper: 2
 rules:
 - effective_rule_count: 5
   extends: []
@@ -1172,7 +1176,7 @@ score:
       total: 10
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1204,4 +1208,5 @@ use_cases:
 - Migrate VMware virtual machines to EC2 instances without agent installation
 - Standardize migration configuration across hundreds of servers with templates
 - Automate post-migration software installation and configuration with SSM
+website: https://amazon.com
 ---

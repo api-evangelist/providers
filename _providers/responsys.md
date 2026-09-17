@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Event Notification API pushes real-time campaign event data to a customer-owned callback URL. Register a callback, verify it, then subscribe it to any of the 26 supported event types across email,
@@ -234,10 +234,10 @@ common:
   type: SOAP
   url: https://docs.oracle.com/en/cloud/saas/marketing/responsys-soap-api/index.html
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/openapi/responsys-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/openapi/_original/responsys-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/responsys-openapi.yml
+  url: openapi/_original/responsys-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/overlays/responsys-openapi-overlay.yaml
   title: ''
@@ -335,7 +335,7 @@ created: '2026-07-17'
 description: Oracle Responsys (Oracle Responsys Campaign Management) is a B2C cross-channel marketing orchestration platform, originally founded as Responsys and acquired by Oracle in 2014, now part of Oracle Marketing. It lets marketing teams design and deliver targeted, personalized customer experiences across email, mobile push, SMS, MMS, web push, display, and web channels, unifying data from disparate sources into precisely targeted audiences delivered in near real-time. Responsys exposes a REST API (v1.3, published as a Swagger 2.0 document with 88 operations), an asynchronous AFTM API, an Event Notification webhook API covering 26 campaign event types, and a legacy SOAP API — managing profile lists and recipients, profile extension tables, supplemental tables, campaigns and schedules, programs, folders, the content library, triggered email/SMS/push messages, events, and account settings. This profile catalogs the public Oracle Responsys developer surface for the API Evangelist network.
 image: https://www.oracle.com/asset/web/favicons/favicon-192.png
 layout: provider
-modified: '2026-08-21'
+modified: '2026-09-16'
 name: Responsys
 nav: Providers
 network: true
@@ -350,14 +350,14 @@ plans:
 - name: Responsys Plans Pricing
   plan_count: 0
   slug: responsys-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 7
   name: Responsys Rate Limits
   slug: responsys-rate-limits
 score:
   band: developing
-  composite: 53.2
+  composite: 51.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -365,11 +365,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 36.8
     contract_governance: 4.5
-    contract_quality: 48.8
+    contract_quality: 43.4
     developer_ergonomics: 63.7
     discoverability: 68.5
     operational_transparency: 68.4
@@ -377,7 +377,7 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 25
@@ -390,7 +390,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

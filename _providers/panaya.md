@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Panaya's REST API surface, including the Test Dynamix APIs (Transaction, Cycles, Folder, Business Process, Test, Test Step, Step Run, Defect, Requirements — each supporting get-all/get/create/update),
@@ -173,7 +173,7 @@ overview: 'Panaya publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Panaya''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 18 more developer resources.'
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 7
   name: Panaya Rate Limits
@@ -200,7 +200,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

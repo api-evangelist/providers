@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 2
@@ -61,19 +61,9 @@ apis:
   slug: bridgit-accountgroupings-api
 - baseURL: https://bench.gobridgit.com/rp/api/v1
   baseurl_source: declared
-  description: The AccountInvitations API from Bridgit — 2 operation(s) for accountinvitations.
-  name: Bridgit AccountInvitations API
-  slug: bridgit-accountinvitations-api
-- baseURL: https://bench.gobridgit.com/rp/api/v1
-  baseurl_source: declared
   description: The Accounts API from Bridgit — 12 operation(s) for accounts.
   name: Bridgit Accounts API
   slug: bridgit-accounts-api
-- baseURL: https://bench.gobridgit.com/rp/api/v1
-  baseurl_source: declared
-  description: The AccountUsers API from Bridgit — 4 operation(s) for accountusers.
-  name: Bridgit AccountUsers API
-  slug: bridgit-accountusers-api
 - baseURL: https://bench.gobridgit.com/rp/api/v1
   baseurl_source: declared
   description: The Allocations API from Bridgit — 1 operation(s) for allocations.
@@ -191,11 +181,6 @@ apis:
   slug: bridgit-projectrolecategories-api
 - baseURL: https://bench.gobridgit.com/rp/api/v1
   baseurl_source: declared
-  description: The ProjectRoles API from Bridgit — 4 operation(s) for projectroles.
-  name: Bridgit ProjectRoles API
-  slug: bridgit-projectroles-api
-- baseURL: https://bench.gobridgit.com/rp/api/v1
-  baseurl_source: declared
   description: The Projects API from Bridgit — 4 operation(s) for projects.
   name: Bridgit Projects API
   slug: bridgit-projects-api
@@ -204,11 +189,6 @@ apis:
   description: The ProjectsPhases API from Bridgit — 3 operation(s) for projectsphases.
   name: Bridgit ProjectsPhases API
   slug: bridgit-projectsphases-api
-- baseURL: https://bench.gobridgit.com/rp/api/v1
-  baseurl_source: declared
-  description: The ProjectTasks API from Bridgit — 8 operation(s) for projecttasks.
-  name: Bridgit ProjectTasks API
-  slug: bridgit-projecttasks-api
 - baseURL: https://bench.gobridgit.com/rp/api/v1
   baseurl_source: declared
   description: The ProjectWorkforceSpendReports API from Bridgit — 2 operation(s) for projectworkforcespendreports.
@@ -226,24 +206,44 @@ apis:
   slug: bridgit-rolenames-api
 - baseURL: https://bench.gobridgit.com/rp/api/v1
   baseurl_source: declared
-  description: The ServiceAccounts API from Bridgit — 3 operation(s) for serviceaccounts.
-  name: Bridgit ServiceAccounts API
-  slug: bridgit-serviceaccounts-api
-- baseURL: https://bench.gobridgit.com/rp/api/v1
-  baseurl_source: declared
   description: The SharedFilters API from Bridgit — 1 operation(s) for sharedfilters.
   name: Bridgit SharedFilters API
   slug: bridgit-sharedfilters-api
 - baseURL: https://bench.gobridgit.com/rp/api/v1
   baseurl_source: declared
-  description: The UserFilters API from Bridgit — 2 operation(s) for userfilters.
-  name: Bridgit UserFilters API
-  slug: bridgit-userfilters-api
-- baseURL: https://bench.gobridgit.com/rp/api/v1
-  baseurl_source: declared
   description: The Users API from Bridgit — 1 operation(s) for users.
   name: Bridgit Users API
   slug: bridgit-users-api
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Account Invitations API from Bridgit — 2 operation(s) for account invitations.
+  name: Bridgit Account Invitations API
+  slug: bridgit-account-invitations-api
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Account Users API from Bridgit — 4 operation(s) for account users.
+  name: Bridgit Account Users API
+  slug: bridgit-account-users-api
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Project Roles API from Bridgit — 4 operation(s) for project roles.
+  name: Bridgit Project Roles API
+  slug: bridgit-project-roles-api
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Project Tasks API from Bridgit — 8 operation(s) for project tasks.
+  name: Bridgit Project Tasks API
+  slug: bridgit-project-tasks-api
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Service Accounts API from Bridgit — 3 operation(s) for service accounts.
+  name: Bridgit Service Accounts API
+  slug: bridgit-service-accounts-api
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The User Filters API from Bridgit — 2 operation(s) for user filters.
+  name: Bridgit User Filters API
+  slug: bridgit-user-filters-api
 artifact_total: 86
 collections:
 - collection_type: open
@@ -479,7 +479,7 @@ overview: 'Bridgit publishes 40 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Bridgit''s developer surface includes authentication, documentation, support, engineering blog, GitHub presence, YouTube channel, and 16 more developer resources.'
-random_paper: 6
+random_paper: 15
 score:
   band: thin
   composite: 31.7
@@ -494,7 +494,7 @@ score:
   facets:
     access_clarity: 6.6
     contract_governance: 0.0
-    contract_quality: 53.3
+    contract_quality: 53.4
     developer_ergonomics: 26.2
     discoverability: 68.5
     operational_transparency: 5.3
@@ -507,7 +507,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -538,7 +538,7 @@ tags:
 - Subcontractors
 - Forecasting
 - Utilization
-- Certifications
+- Certification
 - AEC
 - Software-as-a-Service
 website: https://gobridgit.com

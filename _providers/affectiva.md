@@ -15,23 +15,88 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 24.3
+  scored_at: '2026-09-16'
+api_count: 13
 apis:
 - baseURL: https://index.affectiva.com
   baseurl_source: declared
-  description: The Affectiva Facial Coding API — branded internally as "EaaS" (Emotion as a Service) — is the cloud service behind Affectiva's facial-coding products. A consumer uploads video and receives frame-by-f
-  name: Affectiva Facial Coding API
-  slug: affectiva-facial-coding-api
-artifact_total: 5
+  description: The annotations API from Affectiva — 2 operation(s) for annotations.
+  name: Affectiva Annotations API
+  slug: affectiva-annotations-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The data collection projects API from Affectiva — 2 operation(s) for data collection projects.
+  name: Affectiva data collection projects API
+  slug: affectiva-data-collection-projects-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The entries API from Affectiva — 3 operation(s) for entries.
+  name: Affectiva Entries API
+  slug: affectiva-entries-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The event configs API from Affectiva — 2 operation(s) for event configs.
+  name: Affectiva event configs API
+  slug: affectiva-event-configs-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The event instances API from Affectiva — 2 operation(s) for event instances.
+  name: Affectiva event instances API
+  slug: affectiva-event-instances-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The frame sampling jobs API from Affectiva — 1 operation(s) for frame sampling jobs.
+  name: Affectiva frame sampling jobs API
+  slug: affectiva-frame-sampling-jobs-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: Everything about your jobss
+  name: Affectiva Jobs API
+  slug: affectiva-jobs-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The labeling_job_annotations API from Affectiva — 1 operation(s) for labeling_job_annotations.
+  name: Affectiva Labeling Job Annotations API
+  slug: affectiva-labeling-job-annotations-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The labeling_jobs API from Affectiva — 2 operation(s) for labeling_jobs.
+  name: Affectiva Labeling Jobs API
+  slug: affectiva-labeling-jobs-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The labeling_tasks API from Affectiva — 2 operation(s) for labeling_tasks.
+  name: Affectiva Labeling Tasks API
+  slug: affectiva-labeling-tasks-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The representation storages API from Affectiva — 2 operation(s) for representation storages.
+  name: Affectiva representation storages API
+  slug: affectiva-representation-storages-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The representations API from Affectiva — 3 operation(s) for representations.
+  name: Affectiva Representations API
+  slug: affectiva-representations-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The video_frames API from Affectiva — 2 operation(s) for video_frames.
+  name: Affectiva Video Frames API
+  slug: affectiva-video-frames-api
+- baseURL: https://index.affectiva.com
+  baseurl_source: declared
+  description: The video_segments API from Affectiva — 2 operation(s) for video_segments.
+  name: Affectiva Video Segments API
+  slug: affectiva-video-segments-api
+artifact_total: 18
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/affectiva/refs/heads/main/security/affectiva-domain-security.yml
@@ -213,7 +278,7 @@ modified: '2026-09-12'
 name: Affectiva
 nav: Providers
 network: true
-overview: 'Affectiva publishes 1 API on the [APIs.io](https://apis.io/) network: Facial Coding API. Tagged areas include Company, Emotion AI, Artificial Intelligence, Machine-Learning, and Computer-Vision.
+overview: 'Affectiva publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Annotations API, data collection projects API, Entries API, and 11 more. Tagged areas include Company, Emotion AI, Artificial Intelligence, Machine-Learning, and Computer-Vision.
 
 
   Affectiva''s developer surface includes authentication, API reference, documentation, support, engineering blog, and 31 more developer resources.'
@@ -228,21 +293,21 @@ rate_limits:
   slug: affectiva-rate-limits
 score:
   band: thin
-  composite: 32.0
+  composite: 34.1
   coverage:
     artifact_dirs: 17
-    catalog_earned: 37.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 42.2
+    contract_quality: 48.4
     developer_ergonomics: 44.6
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -256,11 +321,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 14
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

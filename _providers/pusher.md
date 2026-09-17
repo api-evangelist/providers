@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -178,7 +178,7 @@ modified: '2026-05-29'
 name: Pusher
 nav: Providers
 network: true
-overview: 'Pusher publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Channels API, Events API, and 2 more. Tagged areas include Real-Time, WebSockets, Pub-Sub, Push Notifications, and Messaging.
+overview: 'Pusher publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Channels API, Events API, and 2 more. Tagged areas include Real-Time, WebSocket, Pub-Sub, Push Notifications, and Messaging.
 
 
   The Pusher catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -189,7 +189,7 @@ plans:
 - name: Pusher Plans Pricing
   plan_count: 9
   slug: pusher-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 9
   name: Pusher Rate Limits
@@ -233,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -259,7 +259,7 @@ security:
 slug: pusher
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - Pub-Sub
 - Push Notifications
 - Messaging

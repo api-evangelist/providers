@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The ONC-certified § 170.315(g)(10) Standardized API for Patient and Population Services. A HL7 FHIR R4 (4.0.1) RESTful server conforming to the US Core Implementation Guide v3.1.1, exposing 24 resourc
@@ -205,7 +205,7 @@ plans:
 - name: Carefluence Plans Pricing
   plan_count: 0
   slug: carefluence-plans-pricing
-random_paper: 15
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Carefluence Rate Limits
@@ -245,7 +245,7 @@ score:
     regime_id: health
     score: 61.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

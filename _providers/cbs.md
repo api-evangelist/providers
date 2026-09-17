@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The CBS Sports Fantasy Platform REST API, version 3.0. Opened to third-party developers in January 2012 so apps could read league, team, player, draft, transaction and scoring data out of CBS Sports f
@@ -211,7 +211,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence news - Today's latest updates
   url: https://www.cbsnews.com/atlanta/tag/artificial-intelligence/
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Cbs Rate Limits
@@ -239,7 +239,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

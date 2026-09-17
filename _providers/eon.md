@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 6
@@ -61,11 +61,6 @@ apis:
   slug: eon-auth-api
 - baseURL: https://console.eon.io
   baseurl_source: declared
-  description: Define and manage backup policies and schedules.
-  name: Eon backupPolicies API
-  slug: eon-backuppolicies-api
-- baseURL: https://console.eon.io
-  baseurl_source: declared
   description: The backups API from Eon — 1 operation(s) for backups.
   name: Eon backups API
   slug: eon-backups-api
@@ -79,11 +74,6 @@ apis:
   description: The dashboard API from Eon — 1 operation(s) for dashboard.
   name: Eon dashboard API
   slug: eon-dashboard-api
-- baseURL: https://console.eon.io
-  baseurl_source: declared
-  description: Manage database snapshots and their recovery points.
-  name: Eon databaseSnapshots API
-  slug: eon-databasesnapshots-api
 - baseURL: https://console.eon.io
   baseurl_source: declared
   description: The iam API from Eon — 8 operation(s) for iam.
@@ -109,6 +99,16 @@ apis:
   description: Manage backup vaults that store snapshots.
   name: Eon vaults API
   slug: eon-vaults-api
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Define and manage backup policies and schedules.
+  name: Eon Backup Policies API
+  slug: eon-backup-policies-api
+- baseURL: https://console.eon.io
+  baseurl_source: declared
+  description: Manage database snapshots and their recovery points.
+  name: Eon Database Snapshots API
+  slug: eon-database-snapshots-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -299,7 +299,7 @@ overview: 'Eon publishes 13 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Eon''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 7
+random_paper: 14
 score:
   band: developing
   composite: 43.7
@@ -330,7 +330,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

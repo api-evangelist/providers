@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,9 +47,9 @@ api_count: 1
 apis:
 - baseURL: https://cloud.kili-technology.com/api/label/v2/graphql
   baseurl_source: declared
-  description: The GraphQL API from Kili Technology — 1 operation(s) for graphql.
-  name: Kili Technology GraphQL API
-  slug: kili-technology-graphql-api
+  description: The Graph QL API from Kili Technology — 1 operation(s) for graph ql.
+  name: Kili Technology Graph QL API
+  slug: kili-technology-graph-ql-api
 artifact_total: 14
 asyncapis:
 - description: AsyncAPI 2.6 description of Kili Technology's **GraphQL subscription** surface. Kili's labeling application is served from a single GraphQL endpoint at `https://cloud.kili-technology.com/api/label/v2/
@@ -137,7 +137,7 @@ modified: '2026-06-21'
 name: Kili Technology
 nav: Providers
 network: true
-overview: 'Kili Technology publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Artificial Intelligence, Data Labeling, Training Data, Annotation, and GraphQL.
+overview: 'Kili Technology publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Artificial Intelligence, Data Labeling, Training Data, Annotation, and GraphQL.
 
 
   The Kili Technology catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -148,7 +148,7 @@ plans:
 - name: Kili Technology Plans Pricing
   plan_count: 4
   slug: kili-technology-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Kili Technology Rate Limits
@@ -192,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

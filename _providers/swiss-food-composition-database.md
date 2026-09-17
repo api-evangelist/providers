@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.webapp.prod.blv.foodcase-services.com/BLV_WebApp_WS
@@ -196,7 +196,7 @@ plans:
 - name: Swiss Food Composition Database Plans Pricing
   plan_count: 1
   slug: swiss-food-composition-database-plans-pricing
-random_paper: 3
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Swiss Food Composition Database Rate Limits
@@ -244,7 +244,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

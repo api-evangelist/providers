@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for managing Zoho Forms resources including forms, submissions, entries, and reports. Enables programmatic form data retrieval, submission creation, field updates, and integration with the br
@@ -118,7 +118,7 @@ plans:
 - name: Zoho Forms Plans Pricing
   plan_count: 5
   slug: zoho-forms-plans-pricing
-random_paper: 15
+random_paper: 10
 rate_limits:
 - limit_count: 6
   name: Zoho Forms Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 35.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

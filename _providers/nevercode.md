@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 3
@@ -297,7 +297,7 @@ overview: 'Nevercode publishes 13 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Nevercode''s developer surface includes CLI, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 23 more developer resources.'
-random_paper: 10
+random_paper: 9
 score:
   band: developing
   composite: 47.8
@@ -328,7 +328,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -52,17 +52,17 @@ apis:
 - baseURL: https://fullnode.mainnet.sui.io:443
   baseurl_source: declared
   description: The Coin Query API API from Sui — 6 operation(s) for coin query api.
-  name: Sui Coin Query API API
+  name: Sui Coin Query API
   slug: sui-coin-query-api-api
 - baseURL: https://fullnode.mainnet.sui.io:443
   baseurl_source: declared
   description: Extended query methods (suix_ prefix)
-  name: Sui Extended API API
+  name: Sui Extended API
   slug: sui-extended-api-api
 - baseURL: https://fullnode.mainnet.sui.io:443
   baseurl_source: declared
   description: The Governance Read API API from Sui — 6 operation(s) for governance read api.
-  name: Sui Governance Read API API
+  name: Sui Governance Read API
   slug: sui-governance-read-api-api
 - baseURL: https://fullnode.mainnet.sui.io:443
   baseurl_source: declared
@@ -77,12 +77,12 @@ apis:
 - baseURL: https://fullnode.mainnet.sui.io:443
   baseurl_source: declared
   description: Methods for reading blockchain state
-  name: Sui Read API API
+  name: Sui Read API
   slug: sui-read-api-api
 - baseURL: https://fullnode.mainnet.sui.io:443
   baseurl_source: declared
   description: The Transaction Builder API API from Sui — 13 operation(s) for transaction builder api.
-  name: Sui Transaction Builder API API
+  name: Sui Transaction Builder API
   slug: sui-transaction-builder-api-api
 - baseURL: https://fullnode.mainnet.sui.io:443
   baseurl_source: declared
@@ -92,7 +92,7 @@ apis:
 - baseURL: https://fullnode.mainnet.sui.io:443
   baseurl_source: declared
   description: Methods for submitting transactions
-  name: Sui Write API API
+  name: Sui Write API
   slug: sui-write-api-api
 artifact_total: 43
 collections:
@@ -256,11 +256,11 @@ json_schemas:
   property_count: 0
   slug: sui-schemas
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Sui
 nav: Providers
 network: true
-overview: 'Sui publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Coin Query API API, Extended API API, Governance Read API API, and 6 more. Tagged areas include Blockchain, Move, Web3, Cryptocurrency, and Smart Contracts.
+overview: 'Sui publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Coin Query API, Extended API, Governance Read API, and 6 more. Tagged areas include Blockchain, Move, Web3, Cryptocurrency, and Smart Contracts.
 
 
   The Sui catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -271,7 +271,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Rate Limits
@@ -314,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

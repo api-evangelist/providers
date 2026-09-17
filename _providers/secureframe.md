@@ -35,18 +35,218 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.secureframe.com
-  baseurl_source: declared
-  description: REST API providing programmatic access to Secureframe controls, frameworks, framework requirements, tests, evidence, policies, tasks, risks, personnel, devices, cloud resources, repositories, third-pa
-  name: Secureframe Public API
-  slug: public-api
 - description: First-party hosted (remote) Model Context Protocol server exposing the Secureframe compliance platform as 112 tools across 41 categories — 63 read, 49 write — mapped one-for-one onto the Public API op
   name: Secureframe MCP Server
   slug: mcp-server
-artifact_total: 11
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and updating Cloud Resources.
+  name: Secureframe Cloud Resource API
+  slug: secureframe-cloud-resource-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and creating Framework Asset Scopes. A Framework Asset Scope defines the scope of an asset (e.g., a Cloud Resource) within a Framework. Framework Asset Scop
+  name: Secureframe Cloud Resource Framework Asset Scope API
+  slug: secureframe-cloud-resource-framework-asset-scope-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, updating, and deleting Comments.
+  name: Secureframe Comment API
+  slug: secureframe-comment-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading Controls.
+  name: Secureframe Control API
+  slug: secureframe-control-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for publishing data to a custom integration.
+  name: Secureframe Custom Integration API
+  slug: secureframe-custom-integration-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading Devices.
+  name: Secureframe Device API
+  slug: secureframe-device-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and creating Framework Asset Scopes. A Framework Asset Scope defines the scope of an asset (e.g., a Device) within a Framework. Framework Asset Scopes are i
+  name: Secureframe Device Framework Asset Scope API
+  slug: secureframe-device-framework-asset-scope-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading Evidence.
+  name: Secureframe Evidence API
+  slug: secureframe-evidence-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for staging a direct-to-storage file upload.
+  name: Secureframe File Upload API
+  slug: secureframe-file-upload-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading Frameworks.
+  name: Secureframe Framework API
+  slug: secureframe-framework-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading Framework Requirements.
+  name: Secureframe Framework Requirement API
+  slug: secureframe-framework-requirement-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and archiving Integration Connections.
+  name: Secureframe Integration Connection API
+  slug: secureframe-integration-connection-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, updating, and deleting Knowledge Base Answers.
+  name: Secureframe Knowledge Base Answer API
+  slug: secureframe-knowledge-base-answer-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, updating, and deleting Knowledge Base Questions.
+  name: Secureframe Knowledge Base Question API
+  slug: secureframe-knowledge-base-question-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, updating, and discarding POA&M (Plan of Action & Milestones) items.
+  name: Secureframe POA&M Item API
+  slug: secureframe-poa-m-item-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading Policies. Policies are returned in every status, including drafts and archived ones. Filter with `?q=status:published` to narrow. Note that `q` free-text se
+  name: Secureframe Policy API
+  slug: secureframe-policy-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and updating Repositories.
+  name: Secureframe Repository API
+  slug: secureframe-repository-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading Framework Asset Scopes. A Framework Asset Scope defines the scope of an asset (e.g., a Repository) within a Framework. Framework Asset Scopes are immutable.
+  name: Secureframe Repository Framework Asset Scope API
+  slug: secureframe-repository-framework-asset-scope-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading Risks.
+  name: Secureframe Risk API
+  slug: secureframe-risk-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for creating Security Questionnaires.
+  name: Secureframe Security Questionnaire API
+  slug: secureframe-security-questionnaire-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, updating, and deleting SSP Duties.
+  name: Secureframe SSP Duty API
+  slug: secureframe-ssp-duty-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, and deleting SSP Duty Roles.
+  name: Secureframe SSP Duty Role API
+  slug: secureframe-ssp-duty-role-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, updating, and deleting SSP Policies.
+  name: Secureframe SSP Policy API
+  slug: secureframe-ssp-policy-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and creating SSP Reports.
+  name: Secureframe SSP Report API
+  slug: secureframe-ssp-report-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and updating SSP Report Assessment Objectives.
+  name: Secureframe SSP Report Assessment Objective API
+  slug: secureframe-ssp-report-assessment-objective-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and updating SSP Report Sections.
+  name: Secureframe SSP Report Section API
+  slug: secureframe-ssp-report-section-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and updating SSP Report Section Blocks.
+  name: Secureframe SSP Report Section Block API
+  slug: secureframe-ssp-report-section-block-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, updating, and deleting SSP Roles.
+  name: Secureframe SSP Role API
+  slug: secureframe-ssp-role-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, updating, and deleting SSP Vendors.
+  name: Secureframe SSP Vendor API
+  slug: secureframe-ssp-vendor-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading Tasks.
+  name: Secureframe Task API
+  slug: secureframe-task-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading, creating, and updating Tests.
+  name: Secureframe Test API
+  slug: secureframe-test-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for creating Evidence for a Test.
+  name: Secureframe Test Evidence API
+  slug: secureframe-test-evidence-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for creating a Test Export for a Test.
+  name: Secureframe Test Export API
+  slug: secureframe-test-export-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading a Test Export.
+  name: Secureframe Test Export Reading API
+  slug: secureframe-test-export-reading-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and archiving Vendors for companies using the Third Party Risk Management.
+  name: Secureframe Third Party Risk Management Vendor API
+  slug: secureframe-third-party-risk-management-vendor-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: 'This document describes the API for reading and updating Trust Center Requests.\ Note: In order to access this API, you need to have paid features enabled for Trust.'
+  name: Secureframe Trust Center Request API
+  slug: secureframe-trust-center-request-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and linking User Accounts.
+  name: Secureframe User Account API
+  slug: secureframe-user-account-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and updating Users.
+  name: Secureframe User API
+  slug: secureframe-user-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for creating Evidence for a User.
+  name: Secureframe User Evidence API
+  slug: secureframe-user-evidence-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for retrieving user security settings for the provided API key's company.
+  name: Secureframe User Security Settings API
+  slug: secureframe-user-security-settings-api
+- baseURL: https://api.secureframe.com
+  baseurl_source: declared
+  description: This document describes the API for reading and archiving Vendors.
+  name: Secureframe Vendor API
+  slug: secureframe-vendor-api
+artifact_total: 51
 common:
 - group: company
   title: ''
@@ -251,7 +451,7 @@ modified: '2026-08-27'
 name: Secureframe
 nav: Providers
 network: true
-overview: 'Secureframe publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include GRC, Compliance, SOC 2, ISO 27001, and Risk.
+overview: 'Secureframe publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Cloud Resource API, Cloud Resource Framework Asset Scope API, Comment API, and 38 more. Tagged areas include GRC, Compliance, SOC 2, ISO 27001, and Risk.
 
 
   Secureframe''s developer surface includes documentation, API reference, pricing, signup flow, support, changelog, engineering blog, and 34 more developer resources.'
@@ -259,7 +459,7 @@ plans:
 - name: Secureframe Plans Pricing
   plan_count: 3
   slug: secureframe-plans-pricing
-random_paper: 15
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Secureframe Rate Limits
@@ -271,21 +471,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.3
+  composite: 55.3
   coverage:
     artifact_dirs: 21
-    catalog_earned: 60.0
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 55.2
+    contract_quality: 53.4
     developer_ergonomics: 37.5
-    discoverability: 75.9
+    discoverability: 70.4
     operational_transparency: 73.7
   previous_composite: 56.3
   provenance:
@@ -294,11 +494,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 41
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

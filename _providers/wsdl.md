@@ -242,7 +242,7 @@ overview: 'WSDL is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   WSDL''s developer surface includes documentation and 26 more developer resources.'
-random_paper: 1
+random_paper: 2
 rules:
 - effective_rule_count: 5
   extends: []
@@ -269,7 +269,7 @@ tags:
 - XML
 - SOAP
 - Standards
-- Protocols
+- Protocol
 use_cases:
 - description: Describing enterprise SOAP web services for automated client generation.
   name: SOAP Web Service Description

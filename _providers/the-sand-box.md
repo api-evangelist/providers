@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Sandbox Developers API is the REST surface of The Sandbox Developers HUB. It exposes core ecosystem data behind an OAuth-based identity system - Sandbox user identity, avatars, assets, collections
@@ -168,7 +168,7 @@ plans:
 - name: The Sand Box Plans Pricing
   plan_count: 0
   slug: the-sand-box-plans-pricing
-random_paper: 7
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: The Sand Box Rate Limits
@@ -196,7 +196,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

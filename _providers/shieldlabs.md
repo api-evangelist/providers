@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://account.shieldlabs.ai/api
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://api.shieldlabs.ai
   baseurl_source: declared
   description: The event half of the ShieldLabs contract. This document carries no REST paths — it holds the OpenAPI 3.1 top-level `webhooks` object describing `identification.scored`, the signed at-most-once envelo
-  name: ShieldLabs ShieldLabs API
+  name: ShieldLabs API
   slug: shieldlabs-shieldlabs-api-api
 artifact_total: 12
 asyncapis:
@@ -290,11 +290,11 @@ mcp_servers:
 - description: ''
   name: ShieldLabs MCP Server
   slug: shieldlabs-mcp-server
-modified: '2026-09-04'
+modified: '2026-09-16'
 name: ShieldLabs
 nav: Providers
 network: true
-overview: 'ShieldLabs publishes 3 APIs on the [APIs.io](https://apis.io/) network: History API, Management API, and ShieldLabs API. Tagged areas include Fraud Detection, Abuse Prevention, Visitor Identification, Device Fingerprinting, and Bot Detection.
+overview: 'ShieldLabs publishes 3 APIs on the [APIs.io](https://apis.io/) network, including History API, Management API, and 1 more. Tagged areas include Fraud Detection, Abuse Prevention, Visitor Identification, Device Fingerprinting, and Bot Detection.
 
 
   The ShieldLabs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -305,7 +305,7 @@ plans:
 - name: Shieldlabs Plans Pricing
   plan_count: 4
   slug: shieldlabs-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 7
   name: Shieldlabs Rate Limits
@@ -335,11 +335,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 3
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

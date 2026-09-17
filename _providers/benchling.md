@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 234
+- acting_count: 668
   human_in_the_loop: 0
   name: Benchling Agentic Access
-  operation_count: 402
+  operation_count: 1278
   slug: benchling-agentic-access
-  summary_line: 402 operations · 234 acting
+  summary_line: 1278 operations · 668 acting
 api_count: 2
 apis:
 - baseURL: https://{tenant}.benchling.com/api/v2
@@ -377,11 +377,6 @@ apis:
   slug: benchling-appconfigvalue-api
 - baseURL: https://{tenant}.benchling.com/api/v2
   baseurl_source: declared
-  description: Represents an installed Benchling App on a tenant, created from an `AppDefinitionVersion`. App installations store tenant-specific configuration values and feature bindings. As a Principal, app instal
-  name: Benchling App Installation API
-  slug: benchling-appinstallation-api
-- baseURL: https://{tenant}.benchling.com/api/v2
-  baseurl_source: declared
   description: Represents a running or completed session for a Benchling App. App sessions track long-running app operations, providing status updates and user-facing messages. Each session belongs to a single app i
   name: Benchling App Session API
   slug: benchling-appsession-api
@@ -392,11 +387,6 @@ apis:
   slug: benchling-assembly-api
 - baseURL: https://{tenant}.benchling.com/api/v2
   baseurl_source: declared
-  description: Represents a single entry in an object's audit log. Each entry captures what changed, who made the change, and contextual information about the affected object hierarchy.
-  name: Benchling Audit Log API
-  slug: benchling-auditlog-api
-- baseURL: https://{tenant}.benchling.com/api/v2
-  baseurl_source: declared
   description: A Box is a grid-based storage container in Benchling's inventory system, designed to hold multiple sample containers (tubes, vials, etc.) in an organized layout. Boxes have a defined capacity based on
   name: Benchling Box API
   slug: benchling-box-api
@@ -405,11 +395,6 @@ apis:
   description: Defines the structure and constraints for a category of Boxes in Benchling's inventory system. A BoxSchema specifies the grid dimensions (height and width) determining how many container positions the
   name: Benchling Box Schema API
   slug: benchling-boxschema-api
-- baseURL: https://{tenant}.benchling.com/api/v2
-  baseurl_source: declared
-  description: The BulkExport API from Benchling — 1 operation(s) for bulkexport.
-  name: Benchling Bulk Export API
-  slug: benchling-bulkexport-api
 - baseURL: https://{tenant}.benchling.com/api/v2
   baseurl_source: declared
   description: A Chart is a data visualization within Benchling. Charts can be created directly (for example, via APIs or the UI) or generated from other workflows. Charts store their configuration in a library-spec
@@ -675,11 +660,6 @@ apis:
   description: 'Represents a group of users within Benchling, typically corresponding to a company, department, or research group. Organizations provide a many-to-many relationship between users—each user can belong '
   name: Benchling Organization API
   slug: benchling-organization-api
-- baseURL: https://{tenant}.benchling.com/api/v2
-  baseurl_source: declared
-  description: Represents a single operation node within a Pipeline's directed acyclic graph (DAG). Each step performs a specific transformation determined by its stepType (see `PipelineStepType`), with configuratio
-  name: Benchling Pipeline Step API
-  slug: benchling-pipelinestep-api
 - baseURL: https://{tenant}.benchling.com/api/v2
   baseurl_source: declared
   description: Represents actual data attached to an input or output slot of a PipelineStep during execution. Each PipelineStepData corresponds to a defined data shape (input or output) on the step's configuration a
@@ -1037,11 +1017,6 @@ apis:
   slug: benchling-workflowoutputschema-api
 - baseURL: https://{tenant}.benchling.com/api/v2
   baseurl_source: declared
-  description: Represents a unit of work within a `WorkflowTaskGroup`. Each task has a `status` that progresses through a configurable lifecycle (see `WorkflowTaskStatusLifecycle`), an optional `assignee` and `respo
-  name: Benchling Workflow Task API
-  slug: benchling-workflowtask-api
-- baseURL: https://{tenant}.benchling.com/api/v2
-  baseurl_source: declared
   description: A container that groups related `WorkflowTask` instances together, representing a cohesive unit of work. Task groups are created from a `WorkflowTaskSchema` (via `workflowTaskSchema`). They are stored
   name: Benchling Workflow Task Group API
   slug: benchling-workflowtaskgroup-api
@@ -1060,6 +1035,31 @@ apis:
   description: A structured document container used to organize and execute procedural work within Benchling's notebook system. Worksheets contain ordered `WorksheetStepGroup`s, each holding `WorksheetStep`s that re
   name: Benchling Worksheet API
   slug: benchling-worksheet-api
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents an installed Benchling App on a tenant, created from an `AppDefinitionVersion`. App installations store tenant-specific configuration values and feature bindings. As a Principal, app instal
+  name: Benchling App Installation API
+  slug: benchling-app-installation-api
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a single entry in an object's audit log. Each entry captures what changed, who made the change, and contextual information about the affected object hierarchy.
+  name: Benchling Audit Log API
+  slug: benchling-audit-log-api
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: The Bulk Export API from Benchling — 1 operation(s) for bulk export.
+  name: Benchling Bulk Export API
+  slug: benchling-bulk-export-api
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a single operation node within a Pipeline's directed acyclic graph (DAG).
+  name: Benchling Pipeline Step API
+  slug: benchling-pipeline-step-api
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Represents a unit of work within a `WorkflowTaskGroup`.
+  name: Benchling Workflow Task API
+  slug: benchling-workflow-task-api
 artifact_total: 1142
 asyncapis:
 - description: ''
@@ -1251,10 +1251,10 @@ common:
   type: CapabilityMap
   url: capabilities/benchling-capability-edges.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-v3-openapi.yaml
+  href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/_original/benchling-v3-openapi.yaml
   title: ''
   type: OpenAPI
-  url: openapi/benchling-v3-openapi.yaml
+  url: openapi/_original/benchling-v3-openapi.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/overlays/benchling-v3-overlay.yaml
   title: ''
@@ -4096,7 +4096,7 @@ mcp_servers:
 - description: 'Benchling operates an official, first-party REMOTE MCP server. It is wildcard-tenanted: every Benchling tenant gets its own host under *.mcp.benchling.com, and an MCP client POSTs to https://{tenant}.'
   name: Benchling MCP Server
   slug: benchling-mcp-server
-modified: '2026-08-15'
+modified: '2026-09-16'
 name: Benchling
 nav: Providers
 network: true
@@ -4134,21 +4134,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.6
+  composite: 67.5
   coverage:
     artifact_dirs: 30
-    catalog_earned: 64.3
+    catalog_earned: 54.3
     catalog_earned_first_party: 24.0
-    catalog_gap: 50.8
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.1
   facets:
     access_clarity: 86.8
     contract_governance: 28.0
-    contract_quality: 61.4
+    contract_quality: 60.6
     developer_ergonomics: 49.4
-    discoverability: 70.4
+    discoverability: 51.9
     operational_transparency: 69.7
   previous_composite: 69.6
   provenance:
@@ -4174,7 +4174,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

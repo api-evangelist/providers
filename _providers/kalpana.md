@@ -19,7 +19,7 @@ name: Kalpana
 nav: Providers
 network: true
 overview: Kalpana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Ethernet, Switching, and Hardware.
-random_paper: 14
+random_paper: 2
 slug: kalpana
 tags:
 - Company

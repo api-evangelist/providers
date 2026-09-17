@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -53,17 +53,17 @@ apis:
 - baseURL_template: '{scheme}://{host}/{basePath}'
   baseurl_source: spec_template
   description: The Catalog API API from Apache Iceberg — 18 operation(s) for catalog api.
-  name: Apache Iceberg Catalog API API
+  name: Apache Iceberg Catalog API
   slug: apache-iceberg-catalog-api-api
 - baseURL_template: '{scheme}://{host}/{basePath}'
   baseurl_source: spec_template
   description: The Configuration API API from Apache Iceberg — 1 operation(s) for configuration api.
-  name: Apache Iceberg Configuration API API
+  name: Apache Iceberg Configuration API
   slug: apache-iceberg-configuration-api-api
 - baseURL_template: '{scheme}://{host}/{basePath}'
   baseurl_source: spec_template
   description: The OAuth2 API API from Apache Iceberg — 1 operation(s) for oauth2 api.
-  name: Apache Iceberg OAuth2 API API
+  name: Apache Iceberg OAuth2 API
   slug: apache-iceberg-oauth2-api-api
 artifact_total: 513
 collections:
@@ -1644,11 +1644,11 @@ jsonld:
   property_count: 190
   slug: apache-iceberg-rest-catalog-open-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apache Iceberg
 nav: Providers
 network: true
-overview: 'Apache Iceberg publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API API, Configuration API API, and OAuth2 API API. Tagged areas include ACID, Analytics, Apache, Data Lake, and Lakehouse.
+overview: 'Apache Iceberg publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Configuration API, and OAuth2 API. Tagged areas include ACID, Analytics, Apache, Data Lake, and Lakehouse.
 
 
   The Apache Iceberg catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1659,7 +1659,7 @@ plans:
 - name: Apache Iceberg Plans Pricing
   plan_count: 3
   slug: apache-iceberg-plans-pricing
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Apache Iceberg Rate Limits
@@ -1721,7 +1721,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

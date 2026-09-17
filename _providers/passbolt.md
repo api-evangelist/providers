@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -90,11 +90,6 @@ apis:
   description: Organize users in logical groups to make it easier to share resources with them.
   name: Passbolt Groups API
   slug: passbolt-groups-api
-- baseURL: https://passbolt.local
-  baseurl_source: declared
-  description: Gather data about the passbolt instance's health.
-  name: Passbolt Healthcheck API
-  slug: passbolt-healthcheck-api
 - baseURL: https://passbolt.local
   baseurl_source: declared
   description: Manipulate metadata keys.
@@ -180,6 +175,11 @@ apis:
   description: User are entities with the ability to interact with the application.
   name: Passbolt Users API
   slug: passbolt-users-api
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Gather data about the passbolt instance's health.
+  name: Passbolt Health Check API
+  slug: passbolt-health-check-api
 artifact_total: 62
 collections:
 - collection_type: open
@@ -332,7 +332,7 @@ plans:
 - name: Passbolt Plans Pricing
   plan_count: 3
   slug: passbolt-plans-pricing
-random_paper: 11
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Passbolt Rate Limits
@@ -364,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

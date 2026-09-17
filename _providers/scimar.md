@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: 'Two Model Context Protocol endpoints advertised in the scimar.ca WordPress REST route index under the "mcp" namespace — /wp-json/mcp/mcp-oauth-server and /wp-json/mcp/mcp-adapter-default-server. Both '
@@ -253,7 +253,7 @@ plans:
 - name: Scimar Plans Pricing
   plan_count: 0
   slug: scimar-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Scimar Rate Limits
@@ -305,7 +305,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

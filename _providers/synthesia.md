@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
   description: The Assets API from Synthesia — 3 operation(s) for assets.
   name: Synthesia Assets API
   slug: synthesia-assets-api
-- baseURL: https://api.synthesia.io/v2
-  baseurl_source: declared
-  description: The AuditLogs API from Synthesia — 3 operation(s) for auditlogs.
-  name: Synthesia AuditLogs API
-  slug: synthesia-auditlogs-api
 - baseURL: https://api.synthesia.io/v2
   baseurl_source: declared
   description: The Dubbing API from Synthesia — 3 operation(s) for dubbing.
@@ -80,6 +75,11 @@ apis:
   description: The Webhooks API from Synthesia — 2 operation(s) for webhooks.
   name: Synthesia Webhooks API
   slug: synthesia-webhooks-api
+- baseURL: https://api.synthesia.io/v2
+  baseurl_source: declared
+  description: The Audit Logs API from Synthesia — 3 operation(s) for audit logs.
+  name: Synthesia Audit Logs API
+  slug: synthesia-audit-logs-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -173,7 +173,7 @@ modified: '2026-05-23'
 name: Synthesia
 nav: Providers
 network: true
-overview: 'Synthesia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, AuditLogs API, Dubbing API, and 4 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Avatars, and Text-to-Video.
+overview: 'Synthesia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Dubbing API, Templates API, and 4 more. Tagged areas include Artificial Intelligence, Generative AI, Video, Avatars, and Text-to-Video.
 
 
   Synthesia''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 7 more developer resources.'
@@ -181,7 +181,7 @@ plans:
 - name: Synthesia Plans Pricing
   plan_count: 1
   slug: synthesia-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Synthesia Rate Limits
@@ -214,7 +214,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -236,7 +236,7 @@ tags:
 - Video
 - Avatars
 - Text-to-Video
-- Voices
+- Voice
 - Dubbing
 - Translation
 - Templates

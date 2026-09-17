@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -264,14 +264,14 @@ modified: '2026-08-02'
 name: UVeye
 nav: Providers
 network: true
-overview: 'UVeye publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Appraisal API, Inspections API, Media API, and 2 more. Tagged areas include Automotive, Vehicle Inspection, Artificial Intelligence, Computer-Vision, and Dealerships.
+overview: 'UVeye publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Appraisal API, Inspections API, Media API, and 2 more. Tagged areas include Automotive, Vehicle Inspection, Artificial Intelligence, Computer-Vision, and Dealership.
 
 
   The UVeye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   UVeye''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 28 more developer resources.'
-random_paper: 12
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Uveye Rate Limits
@@ -311,7 +311,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -340,7 +340,7 @@ tags:
 - Vehicle Inspection
 - Artificial Intelligence
 - Computer-Vision
-- Dealerships
+- Dealership
 - Fleet Management
 - Auctions and Remarketing
 - Automotive Retail

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -82,11 +82,6 @@ apis:
   slug: amazon-marketplace-listentities-api
 - baseURL: https://catalog.marketplace.amazonaws.com
   baseurl_source: declared
-  description: The ListTagsForResource API from Amazon Marketplace — 1 operation(s) for listtagsforresource.
-  name: Amazon Marketplace ListTagsForResource API
-  slug: amazon-marketplace-listtagsforresource-api
-- baseURL: https://catalog.marketplace.amazonaws.com
-  baseurl_source: declared
   description: The PutResourcePolicy API from Amazon Marketplace — 1 operation(s) for putresourcepolicy.
   name: Amazon Marketplace PutResourcePolicy API
   slug: amazon-marketplace-putresourcepolicy-api
@@ -97,14 +92,19 @@ apis:
   slug: amazon-marketplace-startchangeset-api
 - baseURL: https://catalog.marketplace.amazonaws.com
   baseurl_source: declared
-  description: The TagResource API from Amazon Marketplace — 1 operation(s) for tagresource.
-  name: Amazon Marketplace TagResource API
-  slug: amazon-marketplace-tagresource-api
+  description: The List Tags For Resource API from Amazon Marketplace — 1 operation(s) for list tags for resource.
+  name: Amazon Marketplace List Tags For Resource API
+  slug: amazon-marketplace-list-tags-for-resource-api
 - baseURL: https://catalog.marketplace.amazonaws.com
   baseurl_source: declared
-  description: The UntagResource API from Amazon Marketplace — 1 operation(s) for untagresource.
-  name: Amazon Marketplace UntagResource API
-  slug: amazon-marketplace-untagresource-api
+  description: The Tag Resource API from Amazon Marketplace — 1 operation(s) for tag resource.
+  name: Amazon Marketplace Tag Resource API
+  slug: amazon-marketplace-tag-resource-api
+- baseURL: https://catalog.marketplace.amazonaws.com
+  baseurl_source: declared
+  description: The Untag Resource API from Amazon Marketplace — 1 operation(s) for untag resource.
+  name: Amazon Marketplace Untag Resource API
+  slug: amazon-marketplace-untag-resource-api
 artifact_total: 299
 collections:
 - collection_type: postman
@@ -183,6 +183,10 @@ collections:
   name: AWS Marketplace Catalog Service CancelChangeSet#catalog&changeSetId UntagResource API
   slug: open-amazon-marketplace-untagresource-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1019,7 +1023,7 @@ jsonld:
   property_count: 44
   slug: amazon-marketplace-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Marketplace
 nav: Providers
 network: true
@@ -1029,7 +1033,7 @@ overview: 'Amazon Marketplace publishes 12 APIs on the [APIs.io](https://apis.io
   The Amazon Marketplace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Marketplace''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Marketplace''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Marketplace Plans Pricing
   plan_count: 3
@@ -1088,7 +1092,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1128,5 +1132,5 @@ use_cases:
   name: Multi-Account Marketplace Management
 - description: Enable ISV teams to self-service publish and update product listings through the catalog API.
   name: ISV Self-Service Publishing
-website: https://aws.amazon.com/marketplace/
+website: https://amazon.com
 ---

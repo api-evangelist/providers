@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -185,11 +185,11 @@ modified: '2026-07-31'
 name: Olipop
 nav: Providers
 network: true
-overview: 'Olipop publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Beverage, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
+overview: 'Olipop publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
 
 
   Olipop''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 8
+random_paper: 21
 scopes:
 - name: Olipop Scopes
   scope_count: 4
@@ -220,7 +220,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -238,12 +238,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: olipop
 tags:
-- Beverage
+- Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
 - E-Commerce
 - Retail
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 - GraphQL

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -95,7 +95,7 @@ overview: 'Gyft is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Gyft''s developer surface includes documentation, support, signup flow, and 8 more developer resources.'
-random_paper: 1
+random_paper: 2
 score:
   band: emerging
   composite: 14.9
@@ -122,7 +122,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

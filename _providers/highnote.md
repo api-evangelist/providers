@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,40 +48,10 @@ api_count: 1
 apis:
 - baseURL: https://api.us.highnote.com/graphql
   baseurl_source: declared
-  description: Create and configure card products (createCardProduct) for debit, credit, prepaid, fleet, and charge programs, then issue virtual, physical, and tokenized digital payment cards (issuePaymentCardForApp
-  name: Highnote Issuing API
-  slug: highnote-issuing-api
-- baseURL: https://api.us.highnote.com/graphql
-  baseurl_source: declared
-  description: Onboard US person and US business account holders (createUSPersonAccountHolder, createUSBusinessAccountHolder), manage authorized users, submit and accept card product applications (createAccountHolde
-  name: Highnote Account Holders & Onboarding API
-  slug: highnote-account-holders-api
-- baseURL: https://api.us.highnote.com/graphql
-  baseurl_source: declared
-  description: Accept and process payments as a merchant acquirer through the single GraphQL endpoint. Authorize, capture, charge, and cancel payment transactions (authorizePaymentCard, capturePaymentTransaction, ch
-  name: Highnote Acquiring API
-  slug: highnote-acquiring-api
-- baseURL: https://api.us.highnote.com/graphql
-  baseurl_source: declared
-  description: Move funds across multiple payment rails from a single API surface (initiateTransferBetweenFinancialAccounts, initiateAchTransfer, initiateUnifiedFundsTransfer). Supports standard and same-day ACH, do
-  name: Highnote Money Movement API
-  slug: highnote-money-movement-api
-- baseURL: https://api.us.highnote.com/graphql
-  baseurl_source: declared
-  description: Query and manage the full payment transaction lifecycle (paymentTransactions, transactionBatches) with HQL search and Relay cursor pagination, read pending, cleared, and settled states against the rea
-  name: Highnote Transactions & Disputes API
-  slug: highnote-transactions-api
-- baseURL: https://api.us.highnote.com/graphql
-  baseurl_source: declared
-  description: Attach spend rules and velocity rules to card products and financial accounts to govern where, when, and how much can be spent, and register a collaborative-authorization endpoint (addCollaborativeAut
-  name: Highnote Spend Controls & Collaborative Authorization API
-  slug: highnote-spend-controls-api
-- baseURL: https://api.us.highnote.com/graphql
-  baseurl_source: declared
-  description: Register HTTPS webhook notification targets (addWebhookNotificationTarget), activate and deactivate them, and subscribe to event types (addSubscriptionsToNotificationTarget) so Highnote pushes account
-  name: Highnote Webhooks & Event Notifications API
-  slug: highnote-webhooks-api
-artifact_total: 19
+  description: Single GraphQL endpoint for all Highnote operations.
+  name: Highnote Graph QL API
+  slug: highnote-graph-ql-api
+artifact_total: 13
 asyncapis:
 - description: Highnote delivers event notifications to registered HTTPS webhook notification targets (addWebhookNotificationTarget) via outbound POST. Subscribe a target to event types with addSubscriptionsToNotifi
   name: Highnote Event Notifications
@@ -324,7 +294,7 @@ modified: '2026-07-23'
 name: Highnote
 nav: Providers
 network: true
-overview: 'Highnote publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Issuing API, Account Holders & Onboarding API, Acquiring API, and 4 more. Tagged areas include Card Issuing, Card Acquiring, Embedded Finance, Banking as a Service, and Fintech.
+overview: 'Highnote publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Card Issuing, Card Acquiring, Embedded Finance, Banking as a Service, and Fintech.
 
 
   The Highnote catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -335,7 +305,7 @@ plans:
 - name: Highnote Plans Pricing
   plan_count: 2
   slug: highnote-plans-pricing
-random_paper: 14
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Highnote Rate Limits
@@ -383,7 +353,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

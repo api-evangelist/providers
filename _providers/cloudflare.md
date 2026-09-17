@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -183,11 +183,6 @@ apis:
   slug: cloudflare-databases-api
 - baseURL: https://api.cloudflare.com
   baseurl_source: declared
-  description: List available datasets and their fields for log exports.
-  name: Cloudflare Datasets API
-  slug: cloudflare-datasets-api
-- baseURL: https://api.cloudflare.com
-  baseurl_source: declared
   description: Create, list, and manage deployments for Pages projects.
   name: Cloudflare Deployments API
   slug: cloudflare-deployments-api
@@ -253,11 +248,6 @@ apis:
   slug: cloudflare-indexes-api
 - baseURL: https://api.cloudflare.com
   baseurl_source: declared
-  description: The Ips API from Cloudflare — 1 operation(s) for ips.
-  name: Cloudflare Ips API
-  slug: cloudflare-ips-api
-- baseURL: https://api.cloudflare.com
-  baseurl_source: declared
   description: Read, write, and delete individual key-value pairs.
   name: Cloudflare Key-Value Pairs API
   slug: cloudflare-key-value-pairs-api
@@ -271,11 +261,6 @@ apis:
   description: Manage live streaming inputs for RTMPS and SRT ingestion.
   name: Cloudflare Live Inputs API
   slug: cloudflare-live-inputs-api
-- baseURL: https://api.cloudflare.com
-  baseurl_source: declared
-  description: Create, list, update, and delete Logpush jobs that push logs to external destinations.
-  name: Cloudflare Logpush Jobs API
-  slug: cloudflare-logpush-jobs-api
 - baseURL: https://api.cloudflare.com
   baseurl_source: declared
   description: Access request logs and analytics for AI Gateway traffic.
@@ -316,16 +301,6 @@ apis:
   description: The Organizations API from Cloudflare — 1 operation(s) for organizations.
   name: Cloudflare Organizations API
   slug: cloudflare-organizations-api
-- baseURL: https://api.cloudflare.com
-  baseurl_source: declared
-  description: Validate ownership of a log destination.
-  name: Cloudflare Ownership API
-  slug: cloudflare-ownership-api
-- baseURL: https://api.cloudflare.com
-  baseurl_source: declared
-  description: Manage Pages projects including creation, configuration, and deletion.
-  name: Cloudflare Projects API
-  slug: cloudflare-projects-api
 - baseURL: https://api.cloudflare.com
   baseurl_source: declared
   description: Purge all messages from a queue.
@@ -424,6 +399,11 @@ apis:
 - description: The canonical Cloudflare REST API at https://api.cloudflare.com/client/v4 covering account management, DNS and zones, SSL/TLS certificates, WAF and firewall rules, Workers and KV, R2 object storage, P
   name: Cloudflare API (canonical)
   slug: canonical
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: The Ips API from Cloudflare — 1 operation(s) for ips.
+  name: Cloudflare Ips API
+  slug: cloudflare-ips-api
 arazzos:
 - description: Create a zone IP access rule, list the rules, then remove it.
   name: Cloudflare Block IP Access Rule
@@ -494,7 +474,7 @@ arazzos:
 - description: Find a DNS record by name and update it if present, otherwise create it.
   name: Cloudflare Upsert DNS Record
   slug: cloudflare-upsert-dns-record-workflow
-artifact_total: 519
+artifact_total: 515
 asyncapis:
 - description: Cloudflare Notifications sends webhook events to configured endpoints when various alerts fire across your account. Webhooks deliver JSON payloads for events including DDoS attacks, SSL certificate ex
   name: Cloudflare Notifications Webhooks
@@ -2040,7 +2020,7 @@ modified: '2026-05-22'
 name: Cloudflare
 nav: Providers
 network: true
-overview: 'Cloudflare publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AI Inference API, Buckets API, and 54 more. Tagged areas include AI Gateway, API Gateway, Artificial Intelligence, CDN, and Cloud.
+overview: 'Cloudflare publishes 53 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AI Inference API, Buckets API, and 50 more. Tagged areas include AI Gateway, API Gateway, Artificial Intelligence, CDN, and Cloud.
 
 
   The Cloudflare catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 17 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -2051,7 +2031,7 @@ plans:
 - name: Cloudflare Plans Pricing
   plan_count: 6
   slug: cloudflare-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Cloudflare Rate Limits
@@ -2091,7 +2071,7 @@ rules:
   slug: cloudflare-spectral-rules
 score:
   band: strong
-  composite: 65.1
+  composite: 66.3
   coverage:
     artifact_dirs: 27
     catalog_earned: 48.5
@@ -2099,11 +2079,11 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 71.6
+    contract_quality: 76.5
     developer_ergonomics: 96.4
     discoverability: 57.4
     operational_transparency: 44.7
@@ -2114,10 +2094,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 57
+      total: 53
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

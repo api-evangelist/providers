@@ -25,7 +25,7 @@ name: Apieron
 nav: Providers
 network: true
 overview: Apieron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Respiratory, and Asthma.
-random_paper: 15
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/apieron/refs/heads/main/screenshots/apieron-2026-07-25T200623.png
 slug: apieron
 tags:

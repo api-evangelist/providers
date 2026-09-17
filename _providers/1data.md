@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,7 +101,7 @@ modified: '2026-09-05'
 name: ONEAIX (1data / Yida Technology)
 nav: Providers
 network: true
-overview: 'ONEAIX (1data / Yida Technology) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Large Language Models, and Supply Chain.
+overview: 'ONEAIX (1data / Yida Technology) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, LLM, and Supply Chain.
 
 
   ONEAIX (1data / Yida Technology)''s developer surface includes engineering blog and 9 more developer resources.'
@@ -109,7 +109,7 @@ plans:
 - name: 1Data Plans Pricing
   plan_count: 0
   slug: 1data-plans-pricing
-random_paper: 18
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: 1Data Rate Limits
@@ -143,7 +143,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -159,7 +159,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Large Language Models
+- LLM
 - Supply Chain
 - Logistics
 - Freight Forwarding

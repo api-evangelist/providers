@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -56,7 +56,7 @@ apis:
 - baseURL: https://developer.myshoplaza.com/openapi/2022-01
   baseurl_source: declared
   description: The Billing API API from Shoplazza — 10 operation(s) for billing api.
-  name: Shoplazza Billing API API
+  name: Shoplazza Billing API
   slug: shoplazza-billing-api-api
 - baseURL: https://developer.myshoplaza.com/openapi/2022-01
   baseurl_source: declared
@@ -213,6 +213,10 @@ collections:
   name: SPZ Admin Access Webhook API
   slug: open-shoplazza-webhook-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://shoplazza.dev
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/capabilities/shoplazza-capability-edges.yml
   title: ''
@@ -382,18 +386,18 @@ created: '2026-07-17'
 description: Shoplazza is a global e-commerce SaaS platform that lets merchants build and run online stores, and lets partners extend the platform through public apps, payment apps, storefront themes, and checkout/theme extensions. Its developer surface is the versioned REST Admin API (date-based vYYYYMM versions served under /openapi/YYYY-MM/), authorized with OAuth 2.0 access tokens and scoped permissions, plus webhooks for store events, an app billing API, App Bridge for embedded admin apps, the Shoplazza CLI, and official OAuth SDKs. Shoplazza is backed by SoftBank Vision Fund. This profile was enriched from Shoplazza's public developer documentation (shoplazza.dev) and its published OpenAPI 3.1 specification.
 image: https://www.shoplazza.dev/img/logo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Shoplazza
 nav: Providers
 network: true
-overview: 'Shoplazza publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Access API, App Proxy API, Billing API API, and 17 more. Tagged areas include Company, Enterprise, E-Commerce, Online Store, and Retail.
+overview: 'Shoplazza publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Access API, App Proxy API, Billing API, and 17 more. Tagged areas include Company, Enterprise, E-Commerce, Online Store, and Retail.
 
 
   The Shoplazza catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 29 more developer resources.'
-random_paper: 1
+  Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 30 more developer resources.'
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Shoplazza Rate Limits
@@ -417,7 +421,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 62.8
+    contract_quality: 63.0
     developer_ergonomics: 61.3
     discoverability: 68.5
     operational_transparency: 65.8
@@ -439,7 +443,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -466,5 +470,5 @@ tags:
 - REST API
 - Application
 - Developer Platform
-website: https://www.shoplazza.dev/
+website: https://shoplazza.dev
 ---

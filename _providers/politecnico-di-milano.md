@@ -33,29 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 8
 apis:
-- baseURL: https://www.opendata.polimi.it
-  baseurl_source: declared
-  description: The university's own open data portal. It is not CKAN, Socrata or a data.json endpoint — all three 404 — but a DCAT-AP_IT catalogue serialised as RDF Turtle at /opendata_polimi.ttl, declaring 25 datas
-  name: Politecnico di Milano Open Data
-  slug: open-data
-- baseURL: https://re.public.polimi.it/oai/request
-  baseurl_source: declared
-  description: OAI-PMH 2.0 harvesting endpoint for IRIS Re.Public@Polimi, the institutional research product catalogue. Live Identify returns repositoryName "IRIS - POLIMI - prod", earliest datestamp 2015-06-10, del
-  name: Re.Public@Polimi OAI-PMH
-  slug: iris-oai-pmh
-- baseURL: https://www.politesi.polimi.it/oai/request
-  baseurl_source: declared
-  description: A second, separate OAI-PMH 2.0 endpoint — the POLITESI archive of Politecnico di Milano theses and dissertations, handle prefix 10589, earliest datestamp 2010-08-24. It offers a wider metadata set tha
-  name: POLITESI OAI-PMH
-  slug: politesi-oai-pmh
-- baseURL: https://shibidp.polimi.it/idp/shibboleth
-  baseurl_source: declared
-  description: The university's own Shibboleth identity provider, publishing its SAML 2.0 EntityDescriptor at https://shibidp.polimi.it/idp/shibboleth over unauthenticated HTTPS. The IDPSSODescriptor advertises Shib
-  name: Politecnico di Milano Shibboleth Identity Provider
-  slug: shibboleth-idp
 - description: 'Politecnico di Milano''s membership of IDEM, the Italian academic identity federation run by GARR. The federation aggregate at md.idem.garr.it carries the university''s own IdP entity plus three of its '
   name: IDEM GARR Identity Federation membership
   slug: idem-garr-federation
@@ -65,6 +45,26 @@ apis:
 - description: Politecnico di Milano's tenancy of CINECA's IRIS research information platform. The data is the university's; the contract is the vendor's, and it is not saved in this repository. Recorded here becaus
   name: IRIS REST API (CINECA platform tenancy)
   slug: iris-rest
+- baseURL: https://www.opendata.polimi.it
+  baseurl_source: declared
+  description: The DCAT-AP_IT catalogue describing every published dataset.
+  name: Politecnico di Milano Catalog API
+  slug: politecnico-di-milano-catalog-api
+- baseURL: https://www.opendata.polimi.it
+  baseurl_source: declared
+  description: The CSV and JSON files each dataset is distributed as.
+  name: Politecnico di Milano Distributions API
+  slug: politecnico-di-milano-distributions-api
+- baseURL: https://www.opendata.polimi.it
+  baseurl_source: declared
+  description: SAML 2.0 metadata publication.
+  name: Politecnico di Milano Federation API
+  slug: politecnico-di-milano-federation-api
+- baseURL: https://www.opendata.polimi.it
+  baseurl_source: declared
+  description: The six OAI-PMH 2.0 verbs.
+  name: Politecnico di Milano Harvesting API
+  slug: politecnico-di-milano-harvesting-api
 artifact_total: 19
 common:
 - group: company
@@ -222,7 +222,7 @@ modified: '2026-09-01'
 name: Politecnico di Milano
 nav: Providers
 network: true
-overview: 'Politecnico di Milano publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data, Re.Public@Polimi OAI-PMH, POLITESI OAI-PMH, and 1 more. Tagged areas include Education, Higher Education, University, Technical University, and Research.
+overview: 'Politecnico di Milano publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Distributions API, Federation API, and 1 more. Tagged areas include Education, Higher Education, University, Technical University, and Research.
 
 
   The Politecnico di Milano catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -233,7 +233,7 @@ plans:
 - name: Politecnico Di Milano Plans Pricing
   plan_count: 2
   slug: politecnico-di-milano-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Politecnico Di Milano Rate Limits
@@ -257,7 +257,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.9
+  composite: 42.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 97.0
@@ -265,11 +265,11 @@ score:
     catalog_gap: 18.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 39.5
     contract_governance: 60.6
-    contract_quality: 29.4
+    contract_quality: 29.3
     developer_ergonomics: 28.6
     discoverability: 74.1
     operational_transparency: 21.1
@@ -296,7 +296,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

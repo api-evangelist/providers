@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: 'The Three.js core library provides the scene graph, cameras, lights, geometries, materials, textures, loaders, and animation primitives used to build interactive 3D applications in the browser and on '
@@ -55,6 +55,10 @@ apis:
   slug: threejs-editor
 artifact_total: 34
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://threejs.org
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/threejs/refs/heads/main/security/threejs-domain-security.yml
   title: ''
@@ -218,7 +222,7 @@ jsonld:
   property_count: 5
   slug: threejs-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Three.js
 nav: Providers
 network: true
@@ -228,8 +232,8 @@ overview: 'Three.js publishes 6 APIs on the [APIs.io](https://apis.io/) network.
   The Three.js catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Three.js'' developer surface includes developer portal, documentation, code examples, sandbox, changelog, support, tooling, and 22 more developer resources.'
-random_paper: 1
+  Three.js'' developer surface includes developer portal, documentation, code examples, sandbox, changelog, support, tooling, and 23 more developer resources.'
+random_paper: 9
 rules:
 - effective_rule_count: 5
   extends: []
@@ -261,7 +265,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

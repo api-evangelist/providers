@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Jemena Electricity Networks' CSIP-AUS compliant control server — an IEEE 2030.5 (Smart Energy Profile 2.0) implementation of the Common Smart Inverter Profile Australia (SA TS 5573) — used to discover
@@ -141,7 +141,7 @@ overview: 'Jemena publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jemena''s developer surface includes documentation, signup flow, support, engineering blog, authentication, sandbox, and 13 more developer resources.'
-random_paper: 15
+random_paper: 8
 score:
   band: thin
   composite: 29.4
@@ -177,7 +177,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Netreo REST API provides programmatic access to the Netreo monitoring platform, including endpoints for devices, dashboards, alerts, incidents, business services, and reporting. The API list catal
@@ -86,7 +86,7 @@ plans:
 - name: Netreo Plans Pricing
   plan_count: 3
   slug: netreo-plans-pricing
-random_paper: 2
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Netreo Rate Limits
@@ -111,7 +111,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 616
   human_in_the_loop: 72
@@ -117,11 +117,6 @@ apis:
   slug: soracom-api-sandbox-subscriber-api
 - baseURL: https://api.soracom.io/v1
   baseurl_source: declared
-  description: '[Audit logs](/en/docs/api-audit-logs/)'
-  name: Soracom AuditLog API
-  slug: soracom-auditlog-api
-- baseURL: https://api.soracom.io/v1
-  baseurl_source: declared
   description: '[Cell tower location information](/en/docs/air/get-location-info/#get-cell-tower-location-information)'
   name: Soracom CellLocation API
   slug: soracom-celllocation-api
@@ -155,11 +150,6 @@ apis:
   description: '[Email addresses](/en/docs/email/)'
   name: Soracom Email API
   slug: soracom-email-api
-- baseURL: https://api.soracom.io/v1
-  baseurl_source: declared
-  description: '[Event handlers](/en/docs/event-handler/)'
-  name: Soracom EventHandler API
-  slug: soracom-eventhandler-api
 - baseURL: https://api.soracom.io/v1
   baseurl_source: declared
   description: '[Soracom Harvest Files](/en/docs/harvest/)'
@@ -232,11 +222,6 @@ apis:
   slug: soracom-role-api
 - baseURL: https://api.soracom.io/v1
   baseurl_source: declared
-  description: Shipping address operations for direct sales
-  name: Soracom ShippingAddress API
-  slug: soracom-shippingaddress-api
-- baseURL: https://api.soracom.io/v1
-  baseurl_source: declared
   description: '[Soracom Air for Sigfox](/en/docs/air-for-sigfox/) devices'
   name: Soracom SigfoxDevice API
   slug: soracom-sigfoxdevice-api
@@ -270,6 +255,21 @@ apis:
   description: '- [Virtual Private Gateway (VPG)](/en/docs/vpg/) (Canal / Direct / Door / Gate) - [Soracom Junction](/en/docs/junction/) - [Soracom Peek](/en/docs/peek/)'
   name: Soracom VirtualPrivateGateway API
   slug: soracom-virtualprivategateway-api
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Audit logs
+  name: Soracom Audit Log API
+  slug: soracom-audit-log-api
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Event handlers
+  name: Soracom Event Handler API
+  slug: soracom-event-handler-api
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Shipping address operations for direct sales
+  name: Soracom Shipping Address API
+  slug: soracom-shipping-address-api
 arazzos:
 - description: Confirm a SIM exists, read its current session status, and pull its session event history for an audit window.
   name: Soracom Audit SIM Session Events
@@ -972,7 +972,7 @@ plans:
 - name: Soracom Plans Pricing
   plan_count: 17
   slug: soracom-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Soracom Rate Limits
@@ -1013,7 +1013,7 @@ score:
   facets:
     access_clarity: 56.6
     contract_governance: 28.8
-    contract_quality: 60.8
+    contract_quality: 60.6
     developer_ergonomics: 75.0
     discoverability: 50.0
     operational_transparency: 18.4
@@ -1039,7 +1039,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

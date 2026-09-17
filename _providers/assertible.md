@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 1
+- acting_count: 3
   human_in_the_loop: 0
   name: Assertible Agentic Access
-  operation_count: 1
+  operation_count: 3
   slug: assertible-agentic-access
-  summary_line: 1 operation · 1 acting
+  summary_line: 3 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://assertible.com
@@ -233,14 +233,14 @@ plans:
 - name: Assertible Plans Pricing
   plan_count: 4
   slug: assertible-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Assertible Rate Limits
   slug: assertible-rate-limits
 score:
   band: developing
-  composite: 48.3
+  composite: 48.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 52.0
@@ -248,11 +248,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 28.6
+    contract_quality: 29.3
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 18.4
@@ -268,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

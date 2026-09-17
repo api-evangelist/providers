@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A REST API over Verify's near real-time quality-control data. Beaconcure documents it as resource-oriented, accepting form-encoded request bodies and returning JSON (or CSV on request) with standard H
@@ -123,7 +123,7 @@ overview: 'Beaconcure publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Beaconcure''s developer surface includes documentation, engineering blog, support, authentication, and 8 more developer resources.'
-random_paper: 18
+random_paper: 13
 score:
   band: emerging
   composite: 17.2
@@ -150,7 +150,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

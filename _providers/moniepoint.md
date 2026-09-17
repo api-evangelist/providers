@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -115,11 +115,6 @@ apis:
   slug: moniepoint-single-transfers-api
 - baseURL: https://api.monnify.com
   baseurl_source: spec
-  description: Manage settlement sub-accounts.
-  name: Moniepoint Sub-Accounts API
-  slug: moniepoint-sub-accounts-api
-- baseURL: https://api.monnify.com
-  baseurl_source: spec
   description: Initialize, charge, query, and list collection transactions.
   name: Moniepoint Transactions API
   slug: moniepoint-transactions-api
@@ -138,6 +133,11 @@ apis:
   description: Manage wallets and sub-wallets.
   name: Moniepoint Wallets API
   slug: moniepoint-wallets-api
+- baseURL: https://api.monnify.com
+  baseurl_source: spec
+  description: Manage settlement sub-accounts.
+  name: Moniepoint Subaccounts API
+  slug: moniepoint-subaccounts-api
 arazzos:
 - description: Initiate a batch of transfers, poll the batch summary to completion, then list per-item results.
   name: Moniepoint Bulk Disbursement
@@ -642,7 +642,7 @@ plans:
 - name: Moniepoint Plans Pricing
   plan_count: 3
   slug: moniepoint-plans-pricing
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 9
   name: Moniepoint Rate Limits
@@ -707,7 +707,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

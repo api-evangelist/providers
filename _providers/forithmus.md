@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -43,11 +43,6 @@ agentic_access:
   summary_line: 213 operations · 129 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://research.forithmus.com/api
-  baseurl_source: declared
-  description: The 2fa API from Forithmus — 5 operation(s) for 2fa.
-  name: Forithmus 2fa API
-  slug: forithmus-2fa-api
 - baseURL: https://research.forithmus.com/api
   baseurl_source: declared
   description: The admin API from Forithmus — 15 operation(s) for admin.
@@ -168,6 +163,11 @@ apis:
   description: The users API from Forithmus — 8 operation(s) for users.
   name: Forithmus users API
   slug: forithmus-users-api
+- baseURL: https://research.forithmus.com/api
+  baseurl_source: declared
+  description: The 2 FA API from Forithmus — 5 operation(s) for 2 fa.
+  name: Forithmus 2 FA API
+  slug: forithmus-2-fa-api
 artifact_total: 54
 collections:
 - collection_type: open
@@ -359,14 +359,14 @@ modified: '2026-07-19'
 name: Forithmus
 nav: Providers
 network: true
-overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) network, including 2fa API, admin API, auth API, and 22 more. Tagged areas include Medical Imaging, Radiology, Machine-Learning, Foundation Models, and Healthcare AI.
+overview: 'Forithmus publishes 25 APIs on the [APIs.io](https://apis.io/) network, including admin API, auth API, challenges API, and 22 more. Tagged areas include Medical Imaging, Radiology, Machine-Learning, Foundation Models, and Healthcare AI.
 
 
   Forithmus'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, CLI, and 15 more developer resources.'
-random_paper: 6
+random_paper: 3
 score:
   band: thin
-  composite: 30.0
+  composite: 28.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -374,11 +374,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 52.4
+    contract_quality: 46.9
     developer_ergonomics: 28.0
     discoverability: 68.5
     operational_transparency: 2.6
@@ -387,7 +387,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 25
@@ -400,7 +400,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

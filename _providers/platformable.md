@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Platformable's API governance training resources and tools help your organisation to build a comprehensive, automated, high quality API governance system. Platformable also publishes industry trends r
@@ -123,7 +123,7 @@ modified: '2026-04-28'
 name: Platformable
 nav: Providers
 network: true
-overview: 'Platformable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Governance, Consultancy, Digital Health, Ecosystems, and Open Banking.
+overview: 'Platformable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Governance, Consultancy, Digital Health, Ecosystem, and Open Banking.
 
 
   Platformable''s developer surface includes engineering blog, training material, and 15 more developer resources.'
@@ -131,7 +131,7 @@ plans:
 - name: Platformable Plans Pricing
   plan_count: 3
   slug: platformable-plans-pricing
-random_paper: 13
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Platformable Rate Limits
@@ -162,7 +162,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +179,7 @@ tags:
 - API Governance
 - Consultancy
 - Digital Health
-- Ecosystems
+- Ecosystem
 - Open Banking
 - Open Ecosystems
 - Platform

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: RESTful API for managing cluster resources, service groups, and cluster configuration.
@@ -62,6 +62,10 @@ apis:
   slug: veritas-infoscale-for-kubernetes-environments
 artifact_total: 13
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://veritas.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/veritas-cluster/refs/heads/main/security/veritas-cluster-vulnerability-disclosure.yml
   title: ''
@@ -120,19 +124,19 @@ finops:
   slug: veritas-cluster-finops
 image: /assets/icons/veritas-cluster.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Veritas Cluster Server
 nav: Providers
 network: true
 overview: 'Veritas Cluster Server publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Clustering, Containers, Disaster Recovery, Failover, and High Availability.
 
 
-  Veritas Cluster Server''s developer surface includes support, developer portal, documentation, release notes, engineering blog, and 7 more developer resources.'
+  Veritas Cluster Server''s developer surface includes support, developer portal, documentation, release notes, engineering blog, and 8 more developer resources.'
 plans:
 - name: Veritas Cluster Plans Pricing
   plan_count: 3
   slug: veritas-cluster-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Veritas Cluster Rate Limits
@@ -157,7 +161,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 38.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -185,5 +189,5 @@ tags:
 - Kubernetes
 - Storage Management
 - Veritas
-website: https://my.veritas.com/
+website: https://veritas.com
 ---

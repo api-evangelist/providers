@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,11 +68,11 @@ modified: '2026-07-18'
 name: EarnBetter
 nav: Providers
 network: true
-overview: 'EarnBetter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job Search, Recruiting, Resume, and Career.
+overview: 'EarnBetter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Job Search, Recruiting, Resume, and Careers.
 
 
   EarnBetter''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 18
+random_paper: 12
 score:
   band: emerging
   composite: 11.8
@@ -99,7 +99,7 @@ score:
       reason: never_enriched
   previous_composite: 11.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -112,7 +112,7 @@ tags:
 - Job Search
 - Recruiting
 - Resume
-- Career
+- Careers
 - Artificial Intelligence
 - Consumer
 website: https://earnbetter.com

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 6
+- acting_count: 14
   human_in_the_loop: 0
   name: Ucsd Agentic Access
-  operation_count: 7
+  operation_count: 28
   slug: ucsd-agentic-access
-  summary_line: 7 operations · 6 acting
+  summary_line: 28 operations · 14 acting
 api_count: 4
 apis:
 - baseURL: https://tritonai-api.ucsd.edu
@@ -323,7 +323,7 @@ plans:
 - name: Ucsd Plans Pricing
   plan_count: 2
   slug: ucsd-plans-pricing
-random_paper: 11
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Ucsd Rate Limits
@@ -395,7 +395,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

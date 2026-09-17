@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ overview: 'Azure Cosmos DB publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Azure Cosmos DB''s developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 8
+random_paper: 3
 scopes:
 - name: Azure Cosmos Db Scopes
   scope_count: 1
@@ -259,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://hpsf.io/wp-json/tribe/events/v1
@@ -41,20 +41,55 @@ apis:
   description: The stable Events Calendar v1 REST API on hpsf.io, serving HPSF's conference and event calendar as JSON - HPSFcon, SC and CppCon listings with start and end dates, timezone details, cost, website, fea
   name: HPSF Events API
   slug: hpsf-events-api
-- baseURL: https://hpsf.io/wp-json/tec/v1
-  baseurl_source: declared
-  description: The newer Events Calendar tec/v1 REST API on hpsf.io - an OpenAPI 3.0.4 contract with 17 operations over events, venues, organizers and recurring series, with named operationIds, declared BasicAuth an
-  name: HPSF Events Calendar TEC v1 API
-  slug: hpsf-tec-events-api
 - description: The WordPress REST route index at https://hpsf.io/wp-json/ - the anchor the site's RFC 9727 /.well-known/api-catalog linkset points at. It returns the site identity, the 15 registered namespaces, 99 r
   name: HPSF Site Discovery API
   slug: hpsf-site-discovery-api
-artifact_total: 8
+- baseURL: https://hpsf.io/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Categories API from High Performance Software Foundation — 2 operation(s) for categories.
+  name: High Performance Software Foundation Categories API
+  slug: hpsf-categories-api
+- baseURL: https://hpsf.io/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: These operations are introduced by the Common library.
+  name: High Performance Software Foundation Common API
+  slug: hpsf-common-api
+- baseURL: https://hpsf.io/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Doc API from High Performance Software Foundation — 1 operation(s) for doc.
+  name: High Performance Software Foundation Doc API
+  slug: hpsf-doc-api
+- baseURL: https://hpsf.io/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: These operations are introduced by Events Pro.
+  name: High Performance Software Foundation Events Pro API
+  slug: hpsf-events-pro-api
+- baseURL: https://hpsf.io/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Organizers API from High Performance Software Foundation — 3 operation(s) for organizers.
+  name: High Performance Software Foundation Organizers API
+  slug: hpsf-organizers-api
+- baseURL: https://hpsf.io/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Tags API from High Performance Software Foundation — 2 operation(s) for tags.
+  name: High Performance Software Foundation Tags API
+  slug: hpsf-tags-api
+- baseURL: https://hpsf.io/wp-json/tribe/events/v1
+  baseurl_source: declared
+  description: The Venues API from High Performance Software Foundation — 3 operation(s) for venues.
+  name: High Performance Software Foundation Venues API
+  slug: hpsf-venues-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Hpsf Event Surface
   slug: hpsf-event-surface
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hpsf/refs/heads/main/overlays/hpsf-tec-events-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/hpsf-tec-events-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -215,25 +250,25 @@ modified: '2026-09-13'
 name: High Performance Software Foundation
 nav: Providers
 network: true
-overview: 'High Performance Software Foundation publishes 2 APIs on the [APIs.io](https://apis.io/) network: HPSF Events API and HPSF Events Calendar TEC v1 API. Tagged areas include HPC, Linux Foundation, Open-Source, Scientific Computing, and Foundation.
+overview: 'High Performance Software Foundation publishes 8 APIs on the [APIs.io](https://apis.io/) network, including HPSF Events API, Categories API, Common API, and 5 more. Tagged areas include HPC, Linux Foundation, Open-Source, Scientific Computing, and Foundations.
 
 
   The High Performance Software Foundation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  High Performance Software Foundation''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, authentication, and 27 more developer resources.'
+  High Performance Software Foundation''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, authentication, and 28 more developer resources.'
 plans:
 - name: Hpsf Plans Pricing
   plan_count: 0
   slug: hpsf-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Hpsf Rate Limits
   slug: hpsf-rate-limits
 score:
   band: developing
-  composite: 41.7
+  composite: 41.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -241,11 +276,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 62.0
+    contract_quality: 60.9
     developer_ergonomics: 37.5
     discoverability: 75.9
     operational_transparency: 5.3
@@ -255,12 +290,12 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 2
+      marker_coverage: 0.0
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -281,7 +316,7 @@ tags:
 - Linux Foundation
 - Open-Source
 - Scientific Computing
-- Foundation
+- Foundations
 - Supercomputing
 - Open Governance
 - Event

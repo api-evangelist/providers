@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 6
@@ -74,11 +74,6 @@ apis:
   description: The Dataset API from Azure Synapse Analytics — 3 operation(s) for dataset.
   name: Azure Synapse Analytics Dataset API
   slug: microsoft-azure-synapse-analytics-dataset-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The GitIntegration API from Azure Synapse Analytics — 1 operation(s) for gitintegration.
-  name: Azure Synapse Analytics GitIntegration API
-  slug: microsoft-azure-synapse-analytics-gitintegration-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The IntegrationRuntimes API from Azure Synapse Analytics — 2 operation(s) for integrationruntimes.
@@ -141,19 +136,9 @@ apis:
   slug: microsoft-azure-synapse-analytics-pipeline-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
-  description: The PrivateEndpointConnections API from Azure Synapse Analytics — 2 operation(s) for privateendpointconnections.
-  name: Azure Synapse Analytics PrivateEndpointConnections API
-  slug: microsoft-azure-synapse-analytics-privateendpointconnections-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
   description: The PrivateLinkHubs API from Azure Synapse Analytics — 3 operation(s) for privatelinkhubs.
   name: Azure Synapse Analytics PrivateLinkHubs API
   slug: microsoft-azure-synapse-analytics-privatelinkhubs-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The RoleAssignments API from Azure Synapse Analytics — 2 operation(s) for roleassignments.
-  name: Azure Synapse Analytics RoleAssignments API
-  slug: microsoft-azure-synapse-analytics-roleassignments-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The SparkBatch API from Azure Synapse Analytics — 2 operation(s) for sparkbatch.
@@ -179,11 +164,6 @@ apis:
   description: The SqlPoolRestorePoints API from Azure Synapse Analytics — 1 operation(s) for sqlpoolrestorepoints.
   name: Azure Synapse Analytics SqlPoolRestorePoints API
   slug: microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The SqlPools API from Azure Synapse Analytics — 4 operation(s) for sqlpools.
-  name: Azure Synapse Analytics SqlPools API
-  slug: microsoft-azure-synapse-analytics-sqlpools-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The SqlPoolTransparentDataEncryption API from Azure Synapse Analytics — 1 operation(s) for sqlpooltransparentdataencryption.
@@ -219,6 +199,26 @@ apis:
   description: The Workspaces API from Azure Synapse Analytics — 3 operation(s) for workspaces.
   name: Azure Synapse Analytics Workspaces API
   slug: microsoft-azure-synapse-analytics-workspaces-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Git Integration API from Azure Synapse Analytics — 1 operation(s) for git integration.
+  name: Azure Synapse Analytics Git Integration API
+  slug: microsoft-azure-synapse-analytics-git-integration-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Private Endpoint Connections API from Azure Synapse Analytics — 2 operation(s) for private endpoint connections.
+  name: Azure Synapse Analytics Private Endpoint Connections API
+  slug: microsoft-azure-synapse-analytics-private-endpoint-connections-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Role Assignments API from Azure Synapse Analytics — 2 operation(s) for role assignments.
+  name: Azure Synapse Analytics Role Assignments API
+  slug: microsoft-azure-synapse-analytics-role-assignments-api
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SQL Pools API from Azure Synapse Analytics — 4 operation(s) for sql pools.
+  name: Azure Synapse Analytics SQL Pools API
+  slug: microsoft-azure-synapse-analytics-sql-pools-api
 arazzos:
 - description: Stand up a linked service, a dataset, a pipeline, and trigger a run.
   name: Azure Synapse Analytics Build Data Integration Pipeline
@@ -1166,7 +1166,7 @@ plans:
 - name: Microsoft Azure Synapse Analytics Plans Pricing
   plan_count: 5
   slug: microsoft-azure-synapse-analytics-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 7
   name: Microsoft Azure Synapse Analytics Rate Limits
@@ -1214,7 +1214,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

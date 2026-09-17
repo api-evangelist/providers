@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -987,7 +987,7 @@ modified: '2026-06-13'
 name: Propertyware
 nav: Providers
 network: true
-overview: 'Propertyware publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Bills API, Buildings API, and 11 more. Tagged areas include Property Management, Real-Estate, Rental Properties, Single-Family Rentals, and Leases.
+overview: 'Propertyware publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Bills API, Buildings API, and 11 more. Tagged areas include Property Management, Real-Estate, Rental Properties, Single-Family Rental, and Leases.
 
 
   The Propertyware catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -998,7 +998,7 @@ plans:
 - name: Propertyware Plans Pricing
   plan_count: 3
   slug: propertyware-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Propertyware Rate Limits
@@ -1041,7 +1041,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1061,7 +1061,7 @@ tags:
 - Property Management
 - Real-Estate
 - Rental Properties
-- Single-Family Rentals
+- Single-Family Rental
 - Leases
 - Tenants
 - Maintenance

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - baseURL: https://atsenatx.com/wp-json
@@ -52,11 +52,6 @@ apis:
   description: Media library items
   name: Atsena Therapeutics Media API
   slug: atsena-therapeutics-media-api
-- baseURL: https://atsenatx.com/wp-json
-  baseurl_source: declared
-  description: oEmbed representation of site URLs
-  name: Atsena Therapeutics O Embed API
-  slug: atsena-therapeutics-oembed-api
 - baseURL: https://atsenatx.com/wp-json
   baseurl_source: declared
   description: 'Static site pages: programs, technology, clinical trials, patients, about'
@@ -77,6 +72,11 @@ apis:
   description: Post tags
   name: Atsena Therapeutics Tags API
   slug: atsena-therapeutics-tags-api
+- baseURL: https://atsenatx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed representation of site URLs
+  name: Atsena Therapeutics o Embed API
+  slug: atsena-therapeutics-o-embed-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -259,7 +259,7 @@ overview: 'Atsena Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io
 
 
   Atsena Therapeutics'' developer surface includes engineering blog, product news, support, authentication, and 27 more developer resources.'
-random_paper: 4
+random_paper: 20
 score:
   band: emerging
   composite: 19.5
@@ -299,7 +299,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

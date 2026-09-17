@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -175,24 +175,9 @@ apis:
   slug: amazon-verified-permissions-listpolicytemplates-api
 - baseURL: https://verifiedpermissions.amazonaws.com
   baseurl_source: declared
-  description: The ListTagsForResource API from Amazon Verified Permissions — 1 operation(s) for listtagsforresource.
-  name: Amazon Verified Permissions ListTagsForResource API
-  slug: amazon-verified-permissions-listtagsforresource-api
-- baseURL: https://verifiedpermissions.amazonaws.com
-  baseurl_source: declared
   description: The PutSchema API from Amazon Verified Permissions — 1 operation(s) for putschema.
   name: Amazon Verified Permissions PutSchema API
   slug: amazon-verified-permissions-putschema-api
-- baseURL: https://verifiedpermissions.amazonaws.com
-  baseurl_source: declared
-  description: The TagResource API from Amazon Verified Permissions — 1 operation(s) for tagresource.
-  name: Amazon Verified Permissions TagResource API
-  slug: amazon-verified-permissions-tagresource-api
-- baseURL: https://verifiedpermissions.amazonaws.com
-  baseurl_source: declared
-  description: The UntagResource API from Amazon Verified Permissions — 1 operation(s) for untagresource.
-  name: Amazon Verified Permissions UntagResource API
-  slug: amazon-verified-permissions-untagresource-api
 - baseURL: https://verifiedpermissions.amazonaws.com
   baseurl_source: declared
   description: The UpdateIdentitySource API from Amazon Verified Permissions — 1 operation(s) for updateidentitysource.
@@ -213,6 +198,21 @@ apis:
   description: The UpdatePolicyTemplate API from Amazon Verified Permissions — 1 operation(s) for updatepolicytemplate.
   name: Amazon Verified Permissions UpdatePolicyTemplate API
   slug: amazon-verified-permissions-updatepolicytemplate-api
+- baseURL: https://verifiedpermissions.amazonaws.com
+  baseurl_source: declared
+  description: The List Tags For Resource API from Amazon Verified Permissions — 1 operation(s) for list tags for resource.
+  name: Amazon Verified Permissions List Tags For Resource API
+  slug: amazon-verified-permissions-list-tags-for-resource-api
+- baseURL: https://verifiedpermissions.amazonaws.com
+  baseurl_source: declared
+  description: The Tag Resource API from Amazon Verified Permissions — 1 operation(s) for tag resource.
+  name: Amazon Verified Permissions Tag Resource API
+  slug: amazon-verified-permissions-tag-resource-api
+- baseURL: https://verifiedpermissions.amazonaws.com
+  baseurl_source: declared
+  description: The Untag Resource API from Amazon Verified Permissions — 1 operation(s) for untag resource.
+  name: Amazon Verified Permissions Untag Resource API
+  slug: amazon-verified-permissions-untag-resource-api
 artifact_total: 83
 collections:
 - collection_type: open
@@ -438,7 +438,7 @@ plans:
 - name: Amazon Verified Permissions Plans Pricing
   plan_count: 3
   slug: amazon-verified-permissions-plans-pricing
-random_paper: 1
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Amazon Verified Permissions Rate Limits
@@ -482,7 +482,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

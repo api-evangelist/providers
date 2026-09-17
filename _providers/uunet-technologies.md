@@ -25,7 +25,7 @@ name: UUNET Technologies
 nav: Providers
 network: true
 overview: UUNET Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Internet Service Provider, Networking, Telecommunications, and Internet Backbone.
-random_paper: 0
+random_paper: 20
 security:
 - kind: domain-security
   name: Uunet Technologies Domain Security

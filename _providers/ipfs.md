@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 1
@@ -123,11 +123,6 @@ apis:
   slug: ipfs-files-api
 - baseURL: http://localhost:5001
   baseurl_source: declared
-  description: The Filestore API from IPFS — 3 operation(s) for filestore.
-  name: IPFS Filestore API
-  slug: ipfs-filestore-api
-- baseURL: http://localhost:5001
-  baseurl_source: declared
   description: The Get API from IPFS — 1 operation(s) for get.
   name: IPFS Get API
   slug: ipfs-get-api
@@ -171,11 +166,6 @@ apis:
   description: The Object API from IPFS — 11 operation(s) for object.
   name: IPFS Object API
   slug: ipfs-object-api
-- baseURL: http://localhost:5001
-  baseurl_source: declared
-  description: The P2p API from IPFS — 6 operation(s) for p2p.
-  name: IPFS P2p API
-  slug: ipfs-p2p-api
 - baseURL: http://localhost:5001
   baseurl_source: declared
   description: The Pin API from IPFS — 11 operation(s) for pin.
@@ -241,6 +231,16 @@ apis:
   description: The Version API from IPFS — 2 operation(s) for version.
   name: IPFS Version API
   slug: ipfs-version-api
+- baseURL: https://ipfs.io
+  baseurl_source: declared
+  description: The File Store API from IPFS — 3 operation(s) for file store.
+  name: IPFS File Store API
+  slug: ipfs-file-store-api
+- baseURL: https://ipfs.io
+  baseurl_source: declared
+  description: The P2 P API from IPFS — 6 operation(s) for p2 p.
+  name: IPFS P2 P API
+  slug: ipfs-p2-p-api
 artifact_total: 101
 collections:
 - collection_type: open
@@ -361,6 +361,10 @@ collections:
   name: IPFS RPC Add Version API
   slug: open-ipfs-version-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ipfs.tech
 - group: operate
   title: ''
   type: IssueTracker
@@ -450,7 +454,7 @@ jsonld:
   property_count: 0
   slug: ipfs-provider
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: IPFS
 nav: Providers
 network: true
@@ -460,12 +464,12 @@ overview: 'IPFS publishes 38 APIs on the [APIs.io](https://apis.io/) network, in
   The IPFS catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  IPFS''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  IPFS''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -483,7 +487,7 @@ rules:
   slug: ipfs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.8
+  composite: 33.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 58.3
@@ -491,11 +495,11 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 44.1
+    contract_quality: 48.1
     developer_ergonomics: 23.8
     discoverability: 59.3
     operational_transparency: 21.1
@@ -508,7 +512,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -533,5 +537,6 @@ tags:
 - File Storage
 - DAG
 - Pinning
-- Gateway
+- Gateways
+website: https://ipfs.tech
 ---

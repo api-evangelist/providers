@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: Packagist Metadata Statistics API
   slug: open-packagist-statistics-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://packagist.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/agentic-access/packagist-agentic-access.yml
   title: ''
@@ -302,7 +306,7 @@ jsonld:
   property_count: 4
   slug: packagist-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Packagist
 nav: Providers
 network: true
@@ -312,12 +316,12 @@ overview: 'Packagist publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The Packagist catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Packagist''s developer surface includes authentication, developer portal, documentation, tooling, signup flow, sandbox, engineering blog, and 33 more developer resources.'
+  Packagist''s developer surface includes authentication, developer portal, documentation, tooling, signup flow, sandbox, engineering blog, and 34 more developer resources.'
 plans:
 - name: Packagist Plans Pricing
   plan_count: 3
   slug: packagist-plans-pricing
-random_paper: 6
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Packagist Rate Limits
@@ -371,7 +375,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

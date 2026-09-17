@@ -40,7 +40,7 @@ name: Upthere
 nav: Providers
 network: true
 overview: Upthere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Cloud Storage, File Sharing, and Photos.
-random_paper: 9
+random_paper: 17
 screenshot: https://raw.githubusercontent.com/api-evangelist/upthere/refs/heads/main/screenshots/upthere-2026-09-02T165134.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: pvfactors is an open-source Python library for modeling diffuse shading and bifacial photovoltaic (PV) irradiance. It implements 2D geometry and view-factor mathematics to account for reflections betw
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: SunPower Adds $5M to Recent $41M Offering
   url: https://natlawreview.com/press-releases/sunpower-adds-5m-recent-41m-offering
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Sunpower Rate Limits
@@ -135,7 +135,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

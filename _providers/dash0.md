@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 57.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -121,7 +121,7 @@ apis:
 - baseURL: https://api.eu-west-1.aws.dash0.com
   baseurl_source: declared
   description: The Prometheus API API from Dash0 — 9 operation(s) for prometheus api.
-  name: Dash0 Prometheus API API
+  name: Dash0 Prometheus API
   slug: dash0-prometheus-api-api
 - baseURL: https://api.eu-west-1.aws.dash0.com
   baseurl_source: declared
@@ -207,6 +207,10 @@ common:
   title: ''
   type: AgentCard
   url: a2a/dash0-a2a.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:hi@dash0.com
 - group: company
   title: ''
   type: Website
@@ -389,7 +393,7 @@ mcp_servers:
 - description: ''
   name: Dash0 MCP Server
   slug: dash0-mcp-server
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Dash0
 nav: Providers
 network: true
@@ -399,7 +403,7 @@ overview: 'Dash0 publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
   The Dash0 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
 random_paper: 2
 scopes:
 - name: Dash0 Scopes
@@ -436,7 +440,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

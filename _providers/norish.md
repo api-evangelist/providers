@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The HTTP API each Norish instance serves under /api/v1, covering a public health check plus authenticated recipe read/search/create/import, grocery list management, stores, and planned recipes for tod
@@ -165,7 +165,7 @@ plans:
 - name: Norish Plans Pricing
   plan_count: 0
   slug: norish-plans-pricing
-random_paper: 8
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Norish Rate Limits
@@ -194,7 +194,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

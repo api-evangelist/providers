@@ -19,7 +19,7 @@ name: Freescale Semiconductor
 nav: Providers
 network: true
 overview: Freescale Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Embedded, and Microcontrollers.
-random_paper: 17
+random_paper: 14
 slug: freescale-semiconductor
 tags:
 - Company

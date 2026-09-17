@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -59,11 +59,6 @@ apis:
   description: Contact/member management
   name: WildApricot Contacts API
   slug: wildapricot-contacts-api
-- baseURL: https://api.wildapricot.org/v2.2
-  baseurl_source: declared
-  description: The Contacts.CustomFields API from WildApricot — 2 operation(s) for contacts.customfields.
-  name: WildApricot Contacts.CustomFields API
-  slug: wildapricot-contacts-customfields-api
 - baseURL: https://api.wildapricot.org/v2.2
   baseurl_source: declared
   description: The Contacts.SavedSearch API from WildApricot — 2 operation(s) for contacts.savedsearch.
@@ -189,6 +184,11 @@ apis:
   description: The Pictures API from WildApricot — 2 operation(s) for pictures.
   name: WildApricot Pictures API
   slug: wildapricot-pictures-api
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Contacts Custom Fields API from WildApricot — 2 operation(s) for contacts custom fields.
+  name: WildApricot Contacts Custom Fields API
+  slug: wildapricot-contacts-custom-fields-api
 artifact_total: 152
 collections:
 - collection_type: postman
@@ -621,7 +621,7 @@ plans:
 - name: Wildapricot Plans Pricing
   plan_count: 3
   slug: wildapricot-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Wildapricot Rate Limits
@@ -686,7 +686,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

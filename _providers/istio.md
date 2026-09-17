@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -56,42 +56,42 @@ apis:
 - description: The Istio Operator API (istio.operator.v1alpha1) defines the IstioOperator custom resource used to install, configure, and upgrade Istio on Kubernetes clusters. It provides a declarative interface for
   name: Istio Operator API
   slug: operator-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/security.istio.io/v1
   baseurl_source: spec_template
   description: Fine-grained access control policies for workloads
   name: Istio AuthorizationPolicy API
   slug: istio-authorizationpolicy-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/networking.istio.io/v1
   baseurl_source: spec_template
   description: Policies applied to traffic after routing (load balancing, connection pool, outlier detection)
   name: Istio DestinationRule API
   slug: istio-destinationrule-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/networking.istio.io/v1
   baseurl_source: spec_template
   description: Load balancer configuration at the edge of the mesh
   name: Istio Gateway API
   slug: istio-gateway-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/security.istio.io/v1
   baseurl_source: spec_template
   description: Mutual TLS configuration for peer-to-peer communication
   name: Istio PeerAuthentication API
   slug: istio-peerauthentication-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/security.istio.io/v1
   baseurl_source: spec_template
   description: JWT-based request authentication policies
   name: Istio RequestAuthentication API
   slug: istio-requestauthentication-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/networking.istio.io/v1
   baseurl_source: spec_template
   description: External service entries added to the mesh service registry
   name: Istio ServiceEntry API
   slug: istio-serviceentry-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/networking.istio.io/v1
   baseurl_source: spec_template
   description: Sidecar proxy configuration for inbound and outbound traffic
   name: Istio Sidecar API
   slug: istio-sidecar-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/networking.istio.io/v1
   baseurl_source: spec_template
   description: HTTP/TCP routing rules for traffic management
   name: Istio VirtualService API
@@ -101,12 +101,12 @@ apis:
   description: WebAssembly plugin configuration for Envoy proxy extensions
   name: Istio WasmPlugin API
   slug: istio-wasmplugin-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/networking.istio.io/v1
   baseurl_source: spec_template
   description: Non-Kubernetes workload (VM/bare metal) endpoint properties
   name: Istio WorkloadEntry API
   slug: istio-workloadentry-api
-- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+- baseURL_template: https://{cluster}/apis/networking.istio.io/v1
   baseurl_source: spec_template
   description: Collection of workload instances sharing common properties
   name: Istio WorkloadGroup API
@@ -328,7 +328,7 @@ plans:
 - name: Istio Plans Pricing
   plan_count: 1
   slug: istio-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Istio Rate Limits
@@ -371,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

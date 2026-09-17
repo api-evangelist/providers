@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -394,11 +394,11 @@ jsonld:
   property_count: 9
   slug: llamaindex-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Llamaindex
 nav: Providers
 network: true
-overview: 'Llamaindex publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Extraction Agents API, Extraction Jobs API, and 15 more.
+overview: 'Llamaindex publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Extraction Agents API, Extraction Jobs API, and 15 more. Tagged areas include Agents, Framework, LLM, Open-Source, and RAG.
 
 
   The Llamaindex catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -409,7 +409,7 @@ plans:
 - name: Llamaindex Plans Pricing
   plan_count: 4
   slug: llamaindex-plans-pricing
-random_paper: 5
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Llamaindex Rate Limits
@@ -427,21 +427,21 @@ rules:
   slug: llamaindex-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.4
+  composite: 32.4
   coverage:
     artifact_dirs: 19
-    catalog_earned: 44.3
+    catalog_earned: 49.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 70.8
+    catalog_gap: 65.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 63.8
     developer_ergonomics: 23.8
-    discoverability: 57.4
+    discoverability: 66.7
     operational_transparency: 10.5
   previous_composite: 31.4
   provenance:
@@ -452,11 +452,8 @@ score:
       marker_coverage: 0.0
       total: 18
     mcp: first-party
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -472,5 +469,11 @@ security:
   slug: llamaindex-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: llamaindex
+tags:
+- Agents
+- Framework
+- LLM
+- Open-Source
+- RAG
 website: https://www.llamaindex.ai/
 ---

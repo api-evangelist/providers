@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: ERC-4337 bundler JSON-RPC endpoint. Accepts User Operations into the mempool, estimates UserOp gas, returns a UserOp and its receipt by hash, and lists supported EntryPoint addresses. One endpoint per
@@ -174,7 +174,7 @@ plans:
 - name: Cometh Plans Pricing
   plan_count: 0
   slug: cometh-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Cometh Rate Limits
@@ -208,7 +208,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

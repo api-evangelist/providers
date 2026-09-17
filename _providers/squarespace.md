@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 17
+- acting_count: 47
   human_in_the_loop: 0
   name: Squarespace Agentic Access
-  operation_count: 30
+  operation_count: 83
   slug: squarespace-agentic-access
-  summary_line: 30 operations · 17 acting
+  summary_line: 83 operations · 47 acting
 api_count: 2
 apis:
 - baseURL: https://api.squarespace.com
@@ -99,15 +99,10 @@ apis:
   slug: squarespace-discounts-api
 - baseURL: https://api.squarespace.com
   baseurl_source: spec
-  description: The WebhookSubscriptions API from Squarespace — 4 operation(s) for webhooksubscriptions.
-  name: Squarespace Webhook Subscriptions API
-  slug: squarespace-webhooksubscriptions-api
-- baseURL: https://api.squarespace.com
-  baseurl_source: spec
   description: The Websites API from Squarespace — 3 operation(s) for websites.
   name: Squarespace Websites API
   slug: squarespace-websites-api
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: The Squarespace webhook system delivers real-time event notifications to registered endpoint URLs when commerce activity occurs on a merchant site. Supported events include order creation, order updat
   name: Squarespace Webhook Events
@@ -407,7 +402,7 @@ modified: '2026-08-13'
 name: Squarespace
 nav: Providers
 network: true
-overview: 'Squarespace publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products API, Inventory API, and 9 more. Tagged areas include Commerce, E-Commerce, Marketing, Payments, and Retail.
+overview: 'Squarespace publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products API, Inventory API, and 8 more. Tagged areas include Commerce, E-Commerce, Marketing, Payments, and Retail.
 
 
   The Squarespace catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -418,7 +413,7 @@ plans:
 - name: Squarespace Plans Pricing
   plan_count: 5
   slug: squarespace-plans-pricing
-random_paper: 5
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Squarespace Rate Limits
@@ -463,7 +458,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 74.0
+  composite: 73.9
   coverage:
     artifact_dirs: 30
     catalog_earned: 64.5
@@ -471,11 +466,11 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 92.1
     contract_governance: 33.3
-    contract_quality: 72.1
+    contract_quality: 71.9
     developer_ergonomics: 58.9
     discoverability: 59.3
     operational_transparency: 81.6
@@ -487,7 +482,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 11
     mcp: first-party
     skills: derived
   regulatory:
@@ -497,7 +492,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

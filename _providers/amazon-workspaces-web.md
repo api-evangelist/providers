@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -45,31 +45,6 @@ agentic_access:
   summary_line: 58 operations · 38 acting
 api_count: 1
 apis:
-- baseURL: https://workspaces-web.amazonaws.com
-  baseurl_source: declared
-  description: The BrowserSettings API from Amazon WorkSpaces Web — 2 operation(s) for browsersettings.
-  name: Amazon WorkSpaces Web BrowserSettings API
-  slug: amazon-workspaces-web-browsersettings-api
-- baseURL: https://workspaces-web.amazonaws.com
-  baseurl_source: declared
-  description: The IdentityProviders API from Amazon WorkSpaces Web — 2 operation(s) for identityproviders.
-  name: Amazon WorkSpaces Web IdentityProviders API
-  slug: amazon-workspaces-web-identityproviders-api
-- baseURL: https://workspaces-web.amazonaws.com
-  baseurl_source: declared
-  description: The IpAccessSettings API from Amazon WorkSpaces Web — 2 operation(s) for ipaccesssettings.
-  name: Amazon WorkSpaces Web IpAccessSettings API
-  slug: amazon-workspaces-web-ipaccesssettings-api
-- baseURL: https://workspaces-web.amazonaws.com
-  baseurl_source: declared
-  description: The NetworkSettings API from Amazon WorkSpaces Web — 2 operation(s) for networksettings.
-  name: Amazon WorkSpaces Web NetworkSettings API
-  slug: amazon-workspaces-web-networksettings-api
-- baseURL: https://workspaces-web.amazonaws.com
-  baseurl_source: declared
-  description: The PortalIdp API from Amazon WorkSpaces Web — 1 operation(s) for portalidp.
-  name: Amazon WorkSpaces Web PortalIdp API
-  slug: amazon-workspaces-web-portalidp-api
 - baseURL: https://workspaces-web.amazonaws.com
   baseurl_source: declared
   description: The Portals API from Amazon WorkSpaces Web — 15 operation(s) for portals.
@@ -82,19 +57,44 @@ apis:
   slug: amazon-workspaces-web-tags-api
 - baseURL: https://workspaces-web.amazonaws.com
   baseurl_source: declared
-  description: The TrustStores API from Amazon WorkSpaces Web — 4 operation(s) for truststores.
-  name: Amazon WorkSpaces Web TrustStores API
-  slug: amazon-workspaces-web-truststores-api
+  description: The Browser Settings API from Amazon WorkSpaces Web — 2 operation(s) for browser settings.
+  name: Amazon WorkSpaces Web Browser Settings API
+  slug: amazon-workspaces-web-browser-settings-api
 - baseURL: https://workspaces-web.amazonaws.com
   baseurl_source: declared
-  description: The UserAccessLoggingSettings API from Amazon WorkSpaces Web — 2 operation(s) for useraccessloggingsettings.
-  name: Amazon WorkSpaces Web UserAccessLoggingSettings API
-  slug: amazon-workspaces-web-useraccessloggingsettings-api
+  description: The Identity Providers API from Amazon WorkSpaces Web — 2 operation(s) for identity providers.
+  name: Amazon WorkSpaces Web Identity Providers API
+  slug: amazon-workspaces-web-identity-providers-api
 - baseURL: https://workspaces-web.amazonaws.com
   baseurl_source: declared
-  description: The UserSettings API from Amazon WorkSpaces Web — 2 operation(s) for usersettings.
-  name: Amazon WorkSpaces Web UserSettings API
-  slug: amazon-workspaces-web-usersettings-api
+  description: The Ip Access Settings API from Amazon WorkSpaces Web — 2 operation(s) for ip access settings.
+  name: Amazon WorkSpaces Web Ip Access Settings API
+  slug: amazon-workspaces-web-ip-access-settings-api
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The Network Settings API from Amazon WorkSpaces Web — 2 operation(s) for network settings.
+  name: Amazon WorkSpaces Web Network Settings API
+  slug: amazon-workspaces-web-network-settings-api
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The Portal Idp API from Amazon WorkSpaces Web — 1 operation(s) for portal idp.
+  name: Amazon WorkSpaces Web Portal Idp API
+  slug: amazon-workspaces-web-portal-idp-api
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The Trust Stores API from Amazon WorkSpaces Web — 4 operation(s) for trust stores.
+  name: Amazon WorkSpaces Web Trust Stores API
+  slug: amazon-workspaces-web-trust-stores-api
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The User Access Logging Settings API from Amazon WorkSpaces Web — 2 operation(s) for user access logging settings.
+  name: Amazon WorkSpaces Web User Access Logging Settings API
+  slug: amazon-workspaces-web-user-access-logging-settings-api
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The User Settings API from Amazon WorkSpaces Web — 2 operation(s) for user settings.
+  name: Amazon WorkSpaces Web User Settings API
+  slug: amazon-workspaces-web-user-settings-api
 artifact_total: 524
 collections:
 - collection_type: postman
@@ -1692,7 +1692,7 @@ modified: '2026-05-19'
 name: Amazon WorkSpaces Web
 nav: Providers
 network: true
-overview: 'Amazon WorkSpaces Web publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BrowserSettings API, IdentityProviders API, IpAccessSettings API, and 7 more. Tagged areas include End User Computing, Secure Browser, Virtual Desktop, and Zero Trust.
+overview: 'Amazon WorkSpaces Web publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Portals API, Tags API, Browser Settings API, and 7 more. Tagged areas include End User Computing, Secure Browser, Virtual Desktop, and Zero Trust.
 
 
   The Amazon WorkSpaces Web catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1703,7 +1703,7 @@ plans:
 - name: Amazon Workspaces Web Plans Pricing
   plan_count: 3
   slug: amazon-workspaces-web-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Amazon Workspaces Web Rate Limits
@@ -1757,7 +1757,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

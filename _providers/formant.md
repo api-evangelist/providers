@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -86,6 +86,10 @@ collections:
   name: Formant Admin Authentication Data Access API
   slug: open-formant-data-access-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://formant.io
 - group: operate
   title: ''
   type: IssueTracker
@@ -497,7 +501,7 @@ jsonld:
   property_count: 25
   slug: formant-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Formant
 nav: Providers
 network: true
@@ -507,8 +511,8 @@ overview: 'Formant publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The Formant catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Formant''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, signup flow, tooling, and 69 more developer resources.'
-random_paper: 3
+  Formant''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, signup flow, tooling, and 70 more developer resources.'
+random_paper: 11
 rules:
 - effective_rule_count: 5
   extends: []
@@ -557,7 +561,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

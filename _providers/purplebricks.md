@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -84,11 +84,6 @@ apis:
   description: The Bland API from Purplebricks — 5 operation(s) for bland.
   name: Purplebricks Bland API
   slug: purplebricks-bland-api
-- baseURL: https://api.purplebricks.co.uk/property-api
-  baseurl_source: declared
-  description: The ContactUs API from Purplebricks — 1 operation(s) for contactus.
-  name: Purplebricks Contact Us API
-  slug: purplebricks-contactus-api
 - baseURL: https://api.purplebricks.co.uk/property-api
   baseurl_source: declared
   description: The ConveyancingQuote API from Purplebricks — 3 operation(s) for conveyancingquote.
@@ -201,19 +196,9 @@ apis:
   slug: purplebricks-owners-api
 - baseURL: https://api.purplebricks.co.uk/property-api
   baseurl_source: declared
-  description: The PerformanceReport API from Purplebricks — 4 operation(s) for performancereport.
-  name: Purplebricks Performance Report API
-  slug: purplebricks-performancereport-api
-- baseURL: https://api.purplebricks.co.uk/property-api
-  baseurl_source: declared
   description: The PhoneVerification API from Purplebricks — 4 operation(s) for phoneverification.
   name: Purplebricks Phone Verification API
   slug: purplebricks-phoneverification-api
-- baseURL: https://api.purplebricks.co.uk/property-api
-  baseurl_source: declared
-  description: The PostCode API from Purplebricks — 2 operation(s) for postcode.
-  name: Purplebricks Post Code API
-  slug: purplebricks-postcode-api
 - baseURL: https://api.purplebricks.co.uk/property-api
   baseurl_source: declared
   description: The Preactive API from Purplebricks — 2 operation(s) for preactive.
@@ -334,6 +319,21 @@ apis:
   description: The ZooplaBranch API from Purplebricks — 3 operation(s) for zooplabranch.
   name: Purplebricks Zoopla Branch API
   slug: purplebricks-zooplabranch-api
+- baseURL: https://api.purplebricks.co.uk/property-api
+  baseurl_source: declared
+  description: The Contact Us API from Purplebricks — 1 operation(s) for contact us.
+  name: Purplebricks Contact Us API
+  slug: purplebricks-contact-us-api
+- baseURL: https://api.purplebricks.co.uk/property-api
+  baseurl_source: declared
+  description: The Performance Report API from Purplebricks — 4 operation(s) for performance report.
+  name: Purplebricks Performance Report API
+  slug: purplebricks-performance-report-api
+- baseURL: https://api.purplebricks.co.uk/property-api
+  baseurl_source: declared
+  description: The Post Code API from Purplebricks — 2 operation(s) for post code.
+  name: Purplebricks Post Code API
+  slug: purplebricks-post-code-api
 artifact_total: 78
 asyncapis:
 - description: ''
@@ -691,10 +691,10 @@ overview: 'Purplebricks publishes 58 APIs on the [APIs.io](https://apis.io/) net
 
 
   Purplebricks'' developer surface includes pricing, engineering blog, YouTube channel, authentication, API reference, signup flow, support, and 56 more developer resources.'
-random_paper: 0
+random_paper: 4
 score:
   band: thin
-  composite: 34.9
+  composite: 36.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -702,11 +702,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 50.5
+    contract_quality: 56.9
     developer_ergonomics: 28.0
     discoverability: 75.9
     operational_transparency: 2.6
@@ -730,7 +730,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

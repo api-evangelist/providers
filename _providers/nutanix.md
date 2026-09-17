@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -129,14 +129,14 @@ apis:
   slug: nutanix-virtual-disks-api
 - baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
   baseurl_source: declared
-  description: Manage virtual machines including creation, update, deletion, and power state operations through the intent-based API model.
-  name: Nutanix VMs API
-  slug: nutanix-vms-api
-- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
-  baseurl_source: declared
   description: Manage webhook listeners that receive event notifications from the Nutanix platform.
   name: Nutanix Webhooks API
   slug: nutanix-webhooks-api
+- baseURL: https://{{prism-central-ip}}:9440/api
+  baseurl_source: declared
+  description: Manage virtual machines including creation, update, deletion, and power state operations through the intent-based API model.
+  name: Nutanix V Ms API
+  slug: nutanix-vms-api
 artifact_total: 81
 collections:
 - collection_type: postman
@@ -433,7 +433,7 @@ plans:
 - name: Nutanix Plans Pricing
   plan_count: 5
   slug: nutanix-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Nutanix Rate Limits
@@ -476,7 +476,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

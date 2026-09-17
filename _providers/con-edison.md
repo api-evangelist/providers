@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -109,14 +109,14 @@ apis:
   slug: con-edison-retailcustomer-api
 - baseURL: https://api.coned.com/gbc/espi/1_1
   baseurl_source: declared
-  description: The ServiceStatus API from Con Edison — 1 operation(s) for servicestatus.
-  name: Con Edison Service Status API
-  slug: con-edison-servicestatus-api
-- baseURL: https://api.coned.com/gbc/espi/1_1
-  baseurl_source: declared
   description: The UsagePoint API from Con Edison — 2 operation(s) for usagepoint.
   name: Con Edison Usage Point API
   slug: con-edison-usagepoint-api
+- baseURL: https://services.arcgis.com/ciPnsNFi1JLWVjva/arcgis/rest/services
+  baseurl_source: declared
+  description: The Service Status API from Con Edison — 1 operation(s) for service status.
+  name: Con Edison Service Status API
+  slug: con-edison-service-status-api
 artifact_total: 22
 asyncapis:
 - description: ''
@@ -250,7 +250,7 @@ overview: 'Con Edison publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Con Edison''s developer surface includes support, documentation, signup flow, authentication, and 21 more developer resources.'
-random_paper: 20
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Con Edison Rate Limits
@@ -262,7 +262,7 @@ scopes:
   summary_line: 17 scopes
 score:
   band: developing
-  composite: 47.9
+  composite: 48.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -270,11 +270,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 42.3
+    contract_quality: 46.3
     developer_ergonomics: 68.5
     discoverability: 59.3
     operational_transparency: 28.9
@@ -303,7 +303,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

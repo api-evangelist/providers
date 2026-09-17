@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.totalis.trade
@@ -55,11 +55,6 @@ apis:
   slug: totalis-portfolio-api
 - baseURL: https://api.totalis.trade
   baseurl_source: declared
-  description: The RFQs API from Totalis — 2 operation(s) for rfqs.
-  name: Totalis RFQs API
-  slug: totalis-rfqs-api
-- baseURL: https://api.totalis.trade
-  baseurl_source: declared
   description: User profile, wallet, and devnet helpers.
   name: Totalis User API
   slug: totalis-user-api
@@ -73,6 +68,11 @@ apis:
   description: The Webhooks API from Totalis — 4 operation(s) for webhooks.
   name: Totalis Webhooks API
   slug: totalis-webhooks-api
+- baseURL: https://api.totalis.trade
+  baseurl_source: declared
+  description: The RFQs API from Totalis — 2 operation(s) for rfqs.
+  name: Totalis RF Qs API
+  slug: totalis-rfqs-api
 artifact_total: 20
 asyncapis:
 - description: Totalis pushes HMAC-signed webhook events when positions settle, get bought back, or funds move. Deliveries are at-least-once with exponential-backoff retries and dead-lettering, replayable via the AP
@@ -236,7 +236,7 @@ overview: 'Totalis publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Totalis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, FAQ, authentication, and 18 more developer resources.'
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Totalis Rate Limits
@@ -276,7 +276,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

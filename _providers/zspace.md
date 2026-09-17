@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The zSpace Core SDK is a native C API (documented as native_sdk_4.0) that lets an application drive a zSpace display: it loads the SDK runtime, detects connected peripherals, and exposes fourteen API '
@@ -161,7 +161,7 @@ plans:
 - name: Zspace Plans Pricing
   plan_count: 0
   slug: zspace-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Zspace Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

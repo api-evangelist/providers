@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -75,22 +75,22 @@ apis:
   description: Update or add extracted field values on a file.
   name: Nanonets File Update API
   slug: nanonets-file-update-api
-- baseURL: https://app.nanonets.com
+- baseURL: https://app.nanonets.com/api/v2
   baseurl_source: spec
   description: Predict on uploaded images or image URLs against a classification model.
   name: Nanonets Image Classification Predict API
   slug: nanonets-image-classification-predict-api
-- baseURL: https://app.nanonets.com
+- baseURL: https://app.nanonets.com/api/v2
   baseurl_source: spec
   description: Predict on uploaded files or file URLs against a Nanonets OCR model.
   name: Nanonets OCR Predict API
   slug: nanonets-ocr-predict-api
-- baseURL: https://app.nanonets.com
+- baseURL: https://app.nanonets.com/api/v2
   baseurl_source: spec
   description: Retrieve prediction results for a file, page, or batch.
   name: Nanonets OCR Retrieve API
   slug: nanonets-ocr-retrieve-api
-- baseURL: https://app.nanonets.com
+- baseURL: https://app.nanonets.com/api/v2
   baseurl_source: spec
   description: Upload training images and train or retrain an OCR model.
   name: Nanonets OCR Train API
@@ -581,7 +581,7 @@ plans:
 - name: Nanonets Plans Pricing
   plan_count: 3
   slug: nanonets-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Nanonets Rate Limits
@@ -636,7 +636,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

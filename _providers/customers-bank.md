@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 4
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 211 operations · 84 acting · 4 human-in-the-loop
 api_count: 10
 apis:
-- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
-  baseurl_source: declared
-  description: The AccountAccess API from Customers Bank — 8 operation(s) for accountaccess.
-  name: Customers Bank Account Access API
-  slug: customers-bank-accountaccess-api
 - baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
   baseurl_source: declared
   description: Allows for querying and managing of the Control Type (Dual or Single) on various accounts within the system
@@ -67,11 +62,6 @@ apis:
   slug: customers-bank-accounts-api
 - baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
   baseurl_source: declared
-  description: The AddressBook API from Customers Bank — 15 operation(s) for addressbook.
-  name: Customers Bank Address Book API
-  slug: customers-bank-addressbook-api
-- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
-  baseurl_source: declared
   description: Provides endpoints to enable authentication to the Cubi api's
   name: Customers Bank Authenticate API
   slug: customers-bank-authenticate-api
@@ -82,19 +72,9 @@ apis:
   slug: customers-bank-banks-api
 - baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
   baseurl_source: declared
-  description: The BookTransfers API from Customers Bank — 6 operation(s) for booktransfers.
-  name: Customers Bank Book Transfers API
-  slug: customers-bank-booktransfers-api
-- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
-  baseurl_source: declared
   description: The BookTransferSearch API from Customers Bank — 2 operation(s) for booktransfersearch.
   name: Customers Bank Book Transfer Search API
   slug: customers-bank-booktransfersearch-api
-- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
-  baseurl_source: declared
-  description: The ClientCredentials API from Customers Bank — 5 operation(s) for clientcredentials.
-  name: Customers Bank Client Credentials API
-  slug: customers-bank-clientcredentials-api
 - baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
   baseurl_source: declared
   description: The CorrespondentInstructions API from Customers Bank — 2 operation(s) for correspondentinstructions.
@@ -110,11 +90,6 @@ apis:
   description: The EventHistory API from Customers Bank — 4 operation(s) for eventhistory.
   name: Customers Bank Event History API
   slug: customers-bank-eventhistory-api
-- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
-  baseurl_source: declared
-  description: The EventTypes API from Customers Bank — 2 operation(s) for eventtypes.
-  name: Customers Bank Event Types API
-  slug: customers-bank-eventtypes-api
 - baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
   baseurl_source: declared
   description: The HomeRealmDiscovery API from Customers Bank — 2 operation(s) for homerealmdiscovery.
@@ -192,11 +167,6 @@ apis:
   slug: customers-bank-partners-api
 - baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
   baseurl_source: declared
-  description: Returns accounts related codes and definitions
-  name: Customers Bank Reference Data API
-  slug: customers-bank-referencedata-api
-- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
-  baseurl_source: declared
   description: The SearchIncomingWiresV API from Customers Bank — 1 operation(s) for searchincomingwiresv.
   name: Customers Bank Search Incoming Wires V API
   slug: customers-bank-searchincomingwiresv-api
@@ -222,19 +192,49 @@ apis:
   slug: customers-bank-users-api
 - baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
   baseurl_source: declared
-  description: The UserSettings API from Customers Bank — 1 operation(s) for usersettings.
-  name: Customers Bank User Settings API
-  slug: customers-bank-usersettings-api
-- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
-  baseurl_source: declared
   description: The Webhooks API from Customers Bank — 8 operation(s) for webhooks.
   name: Customers Bank Webhooks API
   slug: customers-bank-webhooks-api
 - baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
   baseurl_source: declared
-  description: The WebPubSub API from Customers Bank — 1 operation(s) for webpubsub.
+  description: The Account Access API from Customers Bank — 8 operation(s) for account access.
+  name: Customers Bank Account Access API
+  slug: customers-bank-account-access-api
+- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
+  baseurl_source: declared
+  description: The Address Book API from Customers Bank — 15 operation(s) for address book.
+  name: Customers Bank Address Book API
+  slug: customers-bank-address-book-api
+- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
+  baseurl_source: declared
+  description: The Book Transfers API from Customers Bank — 6 operation(s) for book transfers.
+  name: Customers Bank Book Transfers API
+  slug: customers-bank-book-transfers-api
+- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
+  baseurl_source: declared
+  description: The Client Credentials API from Customers Bank — 5 operation(s) for client credentials.
+  name: Customers Bank Client Credentials API
+  slug: customers-bank-client-credentials-api
+- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
+  baseurl_source: declared
+  description: The Event Types API from Customers Bank — 2 operation(s) for event types.
+  name: Customers Bank Event Types API
+  slug: customers-bank-event-types-api
+- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
+  baseurl_source: declared
+  description: Returns accounts related codes and definitions
+  name: Customers Bank Reference Data API
+  slug: customers-bank-reference-data-api
+- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
+  baseurl_source: declared
+  description: The User Settings API from Customers Bank — 1 operation(s) for user settings.
+  name: Customers Bank User Settings API
+  slug: customers-bank-user-settings-api
+- baseURL: https://cubi-sandbox-api.customersbank.com/accounts/v1
+  baseurl_source: declared
+  description: The Web Pub Sub API from Customers Bank — 1 operation(s) for web pub sub.
   name: Customers Bank Web Pub Sub API
-  slug: customers-bank-webpubsub-api
+  slug: customers-bank-web-pub-sub-api
 artifact_total: 54
 asyncapis:
 - description: ''
@@ -468,14 +468,14 @@ modified: '2026-07-23'
 name: Customers Bank
 nav: Providers
 network: true
-overview: 'Customers Bank publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Account Control Type API, Account Entitlements API, and 35 more. Tagged areas include Financial-Services, Banking, United States, Banking as a Service, and Embedded Finance.
+overview: 'Customers Bank publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Account Control Type API, Account Entitlements API, Accounts API, and 35 more. Tagged areas include Financial-Services, Banking, United States, Banking as a Service, and Embedded Finance.
 
 
   The Customers Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Customers Bank''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, and 32 more developer resources.'
-random_paper: 5
+random_paper: 2
 score:
   band: developing
   composite: 40.9
@@ -519,7 +519,7 @@ score:
     regime_id: banking_open_finance
     score: 49.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

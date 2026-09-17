@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -227,6 +227,10 @@ collections:
   name: DHL Location Finder Unified API
   slug: open-dhl
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://dhl.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/agentic-access/dhl-agentic-access.yml
   title: ''
@@ -266,19 +270,19 @@ graphqls:
   slug: dhl-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dhl.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: DHL
 nav: Providers
 network: true
 overview: 'DHL publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Find By Address API, Find By Geo API, Find By Keyword Id API, and 1 more. Tagged areas include Freight, Logistics, Shipping, E-Commerce, and Tracking.
 
 
-  DHL''s developer surface includes authentication, documentation, and 4 more developer resources.'
+  DHL''s developer surface includes authentication, documentation, and 5 more developer resources.'
 plans:
 - name: Dhl Plans Pricing
   plan_count: 3
   slug: dhl-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Dhl Rate Limits
@@ -310,7 +314,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -333,4 +337,5 @@ tags:
 - Shipping
 - E-Commerce
 - Tracking
+website: https://dhl.com
 ---

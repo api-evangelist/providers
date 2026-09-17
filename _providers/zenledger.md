@@ -23,20 +23,75 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.zenledger.io
   baseurl_source: declared
-  description: Digital-asset trade-monitoring and crypto tax-compliance REST API (v3) for financial institutions and enterprise compliance teams. Registers companies and their users, imports exchange accounts and wa
-  name: ZenLedger Compliance Suite API
-  slug: zenledger-compliance-suite-api
+  description: OAuth 2.0 client_credentials token issuance.
+  name: ZenLedger Authentication API
+  slug: zenledger-authentication-api
 - baseURL: https://api.zenledger.io
   baseurl_source: declared
-  description: Partner/aggregator REST API (v1) that creates an aggregated portfolio from a set of exchange and wallet accounts, returns the resulting tax calculation for that portfolio by aggregation code, and serv
-  name: ZenLedger Aggregator Suite API
-  slug: zenledger-aggregator-suite-api
-artifact_total: 11
+  description: Enterprise tenants registered under the Compliance Suite account.
+  name: ZenLedger Companies API
+  slug: zenledger-companies-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Per-source balances and import state for a user or company.
+  name: ZenLedger Holdings API
+  slug: zenledger-holdings-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Wallet and exchange-account import (signed and encrypted).
+  name: ZenLedger Imports API
+  slug: zenledger-imports-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Polymarket prediction-market positions.
+  name: ZenLedger Polymarkets API
+  slug: zenledger-polymarkets-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Create an aggregated portfolio from a set of accounts.
+  name: ZenLedger Portfolios API
+  slug: zenledger-portfolios-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Supported blockchain reference data.
+  name: ZenLedger Supported Chains API
+  slug: zenledger-supported-chains-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Currency reference data.
+  name: ZenLedger Supported Currencies API
+  slug: zenledger-supported-currencies-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Supported exchange/wallet source reference data.
+  name: ZenLedger Supported Exchanges and Wallets API
+  slug: zenledger-supported-exchanges-and-wallets-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Retrieve the tax calculation for an aggregated portfolio.
+  name: ZenLedger Taxes API
+  slug: zenledger-taxes-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Normalized crypto transactions for a user or across a company.
+  name: ZenLedger Transactions API
+  slug: zenledger-transactions-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: End users tracked under a company.
+  name: ZenLedger Users API
+  slug: zenledger-users-api
+- baseURL: https://api.zenledger.io
+  baseurl_source: declared
+  description: Sanctions and risk screening for a blockchain address.
+  name: ZenLedger Wallet Screening API
+  slug: zenledger-wallet-screening-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Zenledger Compliance Webhooks
@@ -49,6 +104,16 @@ collections:
   name: 'V3::Compliance Suite: REST API Reference'
   slug: postman-zenledger-compliance-v3
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/overlays/zenledger-compliance-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zenledger-compliance-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zenledger/refs/heads/main/overlays/zenledger-aggregator-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zenledger-aggregator-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -187,25 +252,25 @@ modified: '2026-09-05'
 name: ZenLedger
 nav: Providers
 network: true
-overview: 'ZenLedger publishes 2 APIs on the [APIs.io](https://apis.io/) network: Compliance Suite API and Aggregator Suite API. Tagged areas include Crypto Tax, Digital Assets, Tax Compliance, Blockchain Analytics, and RegTech.
+overview: 'ZenLedger publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Companies API, Holdings API, and 10 more. Tagged areas include Crypto Tax, Digital Assets, Tax Compliance, Blockchain Analytics, and RegTech.
 
 
   The ZenLedger catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ZenLedger''s developer surface includes documentation, API reference, support, pricing, authentication, and 23 more developer resources.'
+  ZenLedger''s developer surface includes documentation, API reference, support, pricing, authentication, and 25 more developer resources.'
 plans:
 - name: Zenledger Plans Pricing
   plan_count: 7
   slug: zenledger-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Zenledger Rate Limits
   slug: zenledger-rate-limits
 score:
   band: strong
-  composite: 55.2
+  composite: 55.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 49.0
@@ -213,11 +278,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
-    contract_quality: 70.5
+    contract_quality: 69.4
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 36.8
@@ -228,11 +293,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 13
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

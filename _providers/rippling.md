@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -234,11 +234,11 @@ graphqls:
   slug: rippling-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rippling.png
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Rippling
 nav: Providers
 network: true
-overview: 'Rippling publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Platform API, Webhooks API, and 1 more. Tagged areas include HR, HCM, Payroll, IT, and Identity.
+overview: 'Rippling publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Platform API, Webhooks API, and 1 more. Tagged areas include Human Resources, HCM, Payroll, IT, and Identity.
 
 
   The Rippling catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -249,7 +249,7 @@ plans:
 - name: Rippling Plans Pricing
   plan_count: 8
   slug: rippling-plans-pricing
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Rippling Rate Limits
@@ -293,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -310,7 +310,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: rippling
 tags:
-- HR
+- Human Resources
 - HCM
 - Payroll
 - IT
@@ -318,5 +318,6 @@ tags:
 - SCIM
 - Devices
 - Spend Management
+- Identity Federation
 website: https://www.rippling.com/
 ---

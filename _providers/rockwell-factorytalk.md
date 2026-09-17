@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -207,11 +207,11 @@ jsonld:
   property_count: 26
   slug: rockwell-factorytalk-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Rockwell FactoryTalk
 nav: Providers
 network: true
-overview: 'Rockwell FactoryTalk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Hub API, rockwell-factorytalk Alarms API, rockwell-factorytalk Recipes API, and 2 more.
+overview: 'Rockwell FactoryTalk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Hub API, rockwell-factorytalk Alarms API, rockwell-factorytalk Recipes API, and 2 more. Tagged areas include Automation, Manufacturing, Cloud, and Recipes.
 
 
   The Rockwell FactoryTalk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -222,7 +222,7 @@ plans:
 - name: Rockwell Factorytalk Plans Pricing
   plan_count: 1
   slug: rockwell-factorytalk-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Rockwell Factorytalk Rate Limits
@@ -291,11 +291,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -311,5 +308,10 @@ security:
   slug: rockwell-factorytalk-domain-security
   summary_line: TLSv1.3 · HSTS
 slug: rockwell-factorytalk
+tags:
+- Automation
+- Manufacturing
+- Cloud
+- Recipes
 website: https://www.rockwellautomation.com/en-us/
 ---

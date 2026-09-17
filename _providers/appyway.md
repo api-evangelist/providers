@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 88 operations · 69 acting
 api_count: 7
 apis:
-- baseURL: https://api.appyway.com/v1/reference
-  baseurl_source: declared
-  description: The ActivityTypes API from AppyWay — 1 operation(s) for activitytypes.
-  name: AppyWay ActivityTypes API
-  slug: appyway-activitytypes-api
 - baseURL: https://api.appyway.com/v1/explorer
   baseurl_source: declared
   description: The Authorities API from AppyWay — 7 operation(s) for authorities.
@@ -147,16 +142,6 @@ apis:
   slug: appyway-parking-api
 - baseURL: https://api.appyway.com/v1/reference
   baseurl_source: declared
-  description: The PaymentMethods API from AppyWay — 1 operation(s) for paymentmethods.
-  name: AppyWay PaymentMethods API
-  slug: appyway-paymentmethods-api
-- baseURL: https://api.appyway.com/v1/reference
-  baseurl_source: declared
-  description: The PaymentProviders API from AppyWay — 1 operation(s) for paymentproviders.
-  name: AppyWay PaymentProviders API
-  slug: appyway-paymentproviders-api
-- baseURL: https://api.appyway.com/v1/reference
-  baseurl_source: declared
   description: The PermittedVehicles API from AppyWay — 1 operation(s) for permittedvehicles.
   name: AppyWay PermittedVehicles API
   slug: appyway-permittedvehicles-api
@@ -180,11 +165,6 @@ apis:
   description: The Status API from AppyWay — 1 operation(s) for status.
   name: AppyWay Status API
   slug: appyway-status-api
-- baseURL: https://api.appyway.com/v1/reference
-  baseurl_source: declared
-  description: The VehicleTypes API from AppyWay — 1 operation(s) for vehicletypes.
-  name: AppyWay VehicleTypes API
-  slug: appyway-vehicletypes-api
 - baseURL: https://api.appyway.com/v1/explorer
   baseurl_source: declared
   description: The Zones API from AppyWay — 3 operation(s) for zones.
@@ -195,6 +175,26 @@ apis:
   description: The ZoneTypes API from AppyWay — 1 operation(s) for zonetypes.
   name: AppyWay ZoneTypes API
   slug: appyway-zonetypes-api
+- baseURL: https://api.appyway.com/v1/explorer
+  baseurl_source: declared
+  description: The Activity Types API from AppyWay — 1 operation(s) for activity types.
+  name: AppyWay Activity Types API
+  slug: appyway-activity-types-api
+- baseURL: https://api.appyway.com/v1/explorer
+  baseurl_source: declared
+  description: The Payment Methods API from AppyWay — 1 operation(s) for payment methods.
+  name: AppyWay Payment Methods API
+  slug: appyway-payment-methods-api
+- baseURL: https://api.appyway.com/v1/explorer
+  baseurl_source: declared
+  description: The Payment Providers API from AppyWay — 1 operation(s) for payment providers.
+  name: AppyWay Payment Providers API
+  slug: appyway-payment-providers-api
+- baseURL: https://api.appyway.com/v1/explorer
+  baseurl_source: declared
+  description: The Vehicle Types API from AppyWay — 1 operation(s) for vehicle types.
+  name: AppyWay Vehicle Types API
+  slug: appyway-vehicle-types-api
 artifact_total: 81
 collections:
 - collection_type: open
@@ -312,6 +312,26 @@ collections:
   name: AppyWay Traffic Data API
   slug: open-traffic-data-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/overlays/appyway-activitytypes-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/appyway-activitytypes-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/overlays/appyway-paymentmethods-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/appyway-paymentmethods-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/overlays/appyway-paymentproviders-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/appyway-paymentproviders-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/overlays/appyway-vehicletypes-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/appyway-vehicletypes-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -524,18 +544,18 @@ modified: '2026-09-04'
 name: AppyWay
 nav: Providers
 network: true
-overview: 'AppyWay publishes 30 APIs on the [APIs.io](https://apis.io/) network, including ActivityTypes API, Authorities API, AuthorityTypes API, and 27 more. Tagged areas include Parking, Traffic, Urban Mobility, Smart Cities, and EV Charging.
+overview: 'AppyWay publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Authorities API, AuthorityTypes API, Availability API, and 27 more. Tagged areas include Parking, Traffic, Urban Mobility, Smart Cities, and EV Charging.
 
 
   The AppyWay catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AppyWay''s developer surface includes authentication, engineering blog, changelog, sandbox, API reference, getting-started guide, support, and 33 more developer resources.'
+  AppyWay''s developer surface includes authentication, engineering blog, changelog, sandbox, API reference, getting-started guide, support, and 37 more developer resources.'
 plans:
 - name: Appyway Plans Pricing
   plan_count: 1
   slug: appyway-plans-pricing
-random_paper: 2
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Appyway Rate Limits
@@ -569,21 +589,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.6
+  composite: 59.5
   coverage:
     artifact_dirs: 31
-    catalog_earned: 74.5
+    catalog_earned: 79.5
     catalog_earned_first_party: 16.0
-    catalog_gap: 40.5
+    catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 39.5
     contract_governance: 47.0
     contract_quality: 65.7
     developer_ergonomics: 67.3
-    discoverability: 59.3
+    discoverability: 68.5
     operational_transparency: 39.5
   previous_composite: 58.6
   provenance:
@@ -603,7 +623,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

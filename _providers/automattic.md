@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1218
   human_in_the_loop: 20
@@ -1145,11 +1145,6 @@ apis:
   slug: automattic-nudge-api
 - baseURL: https://public-api.wordpress.com/rest/v1.1
   baseurl_source: declared
-  description: The oauth2 API from Automattic — 1 operation(s) for oauth2.
-  name: Automattic Oauth2 API
-  slug: automattic-oauth2-api
-- baseURL: https://public-api.wordpress.com/rest/v1.1
-  baseurl_source: declared
   description: The odie API from Automattic — 5 operation(s) for odie.
   name: Automattic Odie API
   slug: automattic-odie-api
@@ -1968,6 +1963,11 @@ apis:
   description: The zendesk-notification-staging API from Automattic — 1 operation(s) for zendesk-notification-staging.
   name: Automattic Zendesk Notification Staging API
   slug: automattic-zendesk-notification-staging-api
+- baseURL: https://public-api.wordpress.com/wpcom/v2/mcp/v1
+  baseurl_source: declared
+  description: The oauth2 API from Automattic — 1 operation(s) for oauth2.
+  name: Automattic Oauth2 API
+  slug: automattic-oauth2-api
 artifact_total: 399
 asyncapis:
 - description: ''
@@ -2257,7 +2257,7 @@ overview: 'Automattic publishes 383 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Automattic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 46 more developer resources.'
-random_paper: 12
+random_paper: 5
 scopes:
 - name: Automattic Scopes
   scope_count: 21
@@ -2293,7 +2293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

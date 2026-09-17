@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Enhance your own applications with fast, reliable access to the data that powers our newsroom.
@@ -41,6 +41,10 @@ apis:
   slug: propublica
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://propublica.org
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/propublica/refs/heads/main/security/propublica-domain-security.yml
   title: ''
@@ -66,19 +70,19 @@ finops:
   slug: propublica-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/propublica.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: ProPublica Data Store
 nav: Providers
 network: true
 overview: 'ProPublica Data Store publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Data, Journalism, and News.
 
 
-  ProPublica Data Store''s developer surface includes engineering blog and 3 more developer resources.'
+  ProPublica Data Store''s developer surface includes engineering blog and 4 more developer resources.'
 plans:
 - name: Propublica Plans Pricing
   plan_count: 3
   slug: propublica-plans-pricing
-random_paper: 2
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Propublica Rate Limits
@@ -103,7 +107,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -120,4 +124,5 @@ tags:
 - Data
 - Journalism
 - News
+website: https://propublica.org
 ---

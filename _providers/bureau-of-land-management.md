@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.7
-  scored_at: '2026-09-15'
+  score: 39.8
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 17
   slug: bureau-of-land-management-agentic-access
   summary_line: 17 operations
-api_count: 6
+api_count: 1
 apis:
 - description: The BLM Geospatial Business Platform is a public tool and publication platform for exploring and downloading GIS data. Built on ArcGIS Online, it provides REST endpoints for BLM geospatial data includ
   name: BLM Geospatial Business Platform (GBP) Hub
@@ -55,15 +55,50 @@ apis:
 - description: BLM ePlanning provides public access to land use planning documents, environmental impact statements, and resource management plans. Citizens can track planning projects and participate in comment per
   name: BLM ePlanning
   slug: blm-eplanning
-- baseURL: https://gbp-blm-egis.hub.arcgis.com
-  baseurl_source: declared
-  description: The only OpenAPI the Bureau of Land Management serves. A 17-operation OGC API - Records catalog over BLM's 803 published geospatial datasets, with keyword, bounding-box and CQL2 filtering, facet aggre
-  name: BLM GBP Hub Search API (OGC API - Records)
-  slug: blm-gbp-hub-search-api
 - description: 'BLM''s own ArcGIS Server estate, operated on blm.gov infrastructure rather than a hosted platform: thirteen REST instances — one national plus Alaska, Arizona, California, Colorado, Eastern States, Ida'
   name: BLM National and State ArcGIS REST / OGC WMS Services
   slug: blm-arcgis-gis-services
-artifact_total: 14
+- baseURL: https://blm-egis.maps.arcgis.com/sharing/rest/
+  baseurl_source: declared
+  description: The Catalog API from Bureau of Land Management — 1 operation(s) for catalog.
+  name: Bureau of Land Management Catalog API
+  slug: bureau-of-land-management-catalog-api
+- baseURL: https://blm-egis.maps.arcgis.com/sharing/rest/
+  baseurl_source: declared
+  description: The Collection API from Bureau of Land Management — 2 operation(s) for collection.
+  name: Bureau of Land Management Collection API
+  slug: bureau-of-land-management-collection-api
+- baseURL: https://blm-egis.maps.arcgis.com/sharing/rest/
+  baseurl_source: declared
+  description: The Geoservice-Beta API from Bureau of Land Management — 6 operation(s) for geoservice-beta.
+  name: Bureau of Land Management Geoservice Beta API
+  slug: bureau-of-land-management-geoservice-beta-api
+- baseURL: https://blm-egis.maps.arcgis.com/sharing/rest/
+  baseurl_source: declared
+  description: The OgcItem API from Bureau of Land Management — 4 operation(s) for ogcitem.
+  name: Bureau of Land Management Ogc Item API
+  slug: bureau-of-land-management-ogcitem-api
+- baseURL: https://blm-egis.maps.arcgis.com/sharing/rest/
+  baseurl_source: declared
+  description: The OgcItemAggregation API from Bureau of Land Management — 1 operation(s) for ogcitemaggregation.
+  name: Bureau of Land Management Ogc Item Aggregation API
+  slug: bureau-of-land-management-ogcitemaggregation-api
+- baseURL: https://blm-egis.maps.arcgis.com/sharing/rest/
+  baseurl_source: declared
+  description: The OgcRoot API from Bureau of Land Management — 1 operation(s) for ogcroot.
+  name: Bureau of Land Management Ogc Root API
+  slug: bureau-of-land-management-ogcroot-api
+- baseURL: https://blm-egis.maps.arcgis.com/sharing/rest/
+  baseurl_source: declared
+  description: The OgcRootConformance API from Bureau of Land Management — 1 operation(s) for ogcrootconformance.
+  name: Bureau of Land Management Ogc Root Conformance API
+  slug: bureau-of-land-management-ogcrootconformance-api
+- baseURL: https://blm-egis.maps.arcgis.com/sharing/rest/
+  baseurl_source: declared
+  description: The Queryable API from Bureau of Land Management — 1 operation(s) for queryable.
+  name: Bureau of Land Management Queryable API
+  slug: bureau-of-land-management-queryable-api
+artifact_total: 21
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/agentic-access/bureau-of-land-management-agentic-access.yml
@@ -97,10 +132,10 @@ common:
   type: Data Portal
   url: https://catalog.data.gov/dataset?organization=blm-gov
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-gbp-hub-search-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/_original/bureau-of-land-management-gbp-hub-search-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/bureau-of-land-management-gbp-hub-search-openapi.json
+  url: openapi/_original/bureau-of-land-management-gbp-hub-search-openapi.json
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/conformance/bureau-of-land-management-conformance.yml
   title: ''
@@ -255,11 +290,11 @@ finops:
   slug: bureau-of-land-management-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bureau-of-land-management.png
 layout: provider
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: Bureau of Land Management
 nav: Providers
 network: true
-overview: 'Bureau of Land Management publishes 1 API on the [APIs.io](https://apis.io/) network: BLM GBP Hub Search API (OGC API - Records). Tagged areas include Environment, Federal-Government, Land, Resources, and GIS.
+overview: 'Bureau of Land Management publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Collection API, Geoservice Beta API, and 5 more. Tagged areas include Environment, Federal-Government, Land, Resources, and GIS.
 
 
   Bureau of Land Management''s developer surface includes developer portal, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
@@ -267,7 +302,7 @@ plans:
 - name: Bureau Of Land Management Plans Pricing
   plan_count: 0
   slug: bureau-of-land-management-plans-pricing
-random_paper: 3
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Bureau Of Land Management Rate Limits
@@ -279,26 +314,31 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.5
+  composite: 47.2
   coverage:
     artifact_dirs: 24
-    catalog_earned: 43.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 35.5
+    contract_quality: 40.5
     developer_ergonomics: 56.5
-    discoverability: 85.2
+    discoverability: 79.6
     operational_transparency: 13.2
   previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -308,7 +348,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

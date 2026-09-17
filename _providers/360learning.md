@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -155,9 +155,9 @@ apis:
   slug: 360learning-user-api
 - baseURL: https://app.360learning.com/api/v2
   baseurl_source: declared
-  description: The Xapi API from 360Learning — 0 operation(s) for xapi.
-  name: 360Learning Xapi API
-  slug: 360learning-xapi-api
+  description: The x API API from 360Learning — 0 operation(s) for x api.
+  name: 360Learning x API
+  slug: 360learning-x-api-api
 artifact_total: 47
 asyncapis:
 - description: ''
@@ -388,7 +388,7 @@ overview: '360Learning publishes 23 APIs on the [APIs.io](https://apis.io/) netw
 
 
   360Learning''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 27 more developer resources.'
-random_paper: 14
+random_paper: 11
 scopes:
 - name: 360Learning Scopes
   scope_count: 45
@@ -434,7 +434,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -461,7 +461,7 @@ tags:
 - E-Learning
 - Training
 - Collaborative Learning
-- HR Tech
+- Human Resources
 - Skills
 website: https://360learning.com/
 ---

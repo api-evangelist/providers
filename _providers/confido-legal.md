@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Confido Legal GraphQL API is the unified developer interface for the Confido payments platform. Partners and law-firm developers use it to tokenize payment methods, accept ACH and card payments wi
@@ -268,7 +268,7 @@ plans:
 - name: Confido Legal Plans Pricing
   plan_count: 1
   slug: confido-legal-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Confido Legal Rate Limits
@@ -303,7 +303,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

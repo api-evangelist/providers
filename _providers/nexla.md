@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 43.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://dataops.nexla.io/nexla-api
@@ -110,11 +110,6 @@ apis:
   description: The Data Maps API from Nexla — 4 operation(s) for data maps.
   name: Nexla Data Maps API
   slug: nexla-data-maps-api
-- baseURL: https://dataops.nexla.io/nexla-api
-  baseurl_source: declared
-  description: The Data Sets API from Nexla — 1 operation(s) for data sets.
-  name: Nexla Data Sets API
-  slug: nexla-data-sets-api
 - baseURL: https://dataops.nexla.io/nexla-api
   baseurl_source: declared
   description: Operations for managing data sinks. Note that Destinations on the Nexla UI are aliased as `data_sinks` in the Nexla API reference model, so all endpoints and responses use the term `data_sinks` instea
@@ -253,7 +248,7 @@ apis:
 - baseURL: https://dataops.nexla.io/nexla-api
   baseurl_source: declared
   description: The Nexla Admin Api API from Nexla — 1 operation(s) for nexla admin api.
-  name: Nexla Nexla Admin API
+  name: Nexla Admin API
   slug: nexla-nexla-admin-api-api
 - baseURL: https://dataops.nexla.io/nexla-api
   baseurl_source: declared
@@ -347,11 +342,6 @@ apis:
   slug: nexla-tools-api
 - baseURL: https://dataops.nexla.io/nexla-api
   baseurl_source: declared
-  description: The toolsets API from Nexla — 19 operation(s) for toolsets.
-  name: Nexla Toolsets API
-  slug: nexla-toolsets-api
-- baseURL: https://dataops.nexla.io/nexla-api
-  baseurl_source: declared
   description: Operations for managing reusable attribute and record transforms.
   name: Nexla Transforms API
   slug: nexla-transforms-api
@@ -400,6 +390,16 @@ apis:
   description: The .well Known API from Nexla — 2 operation(s) for .well known.
   name: Nexla .well Known API
   slug: nexla-well-known-api
+- baseURL: https://dataops.nexla.io/nexla-api
+  baseurl_source: declared
+  description: The Datasets API from Nexla — 1 operation(s) for datasets.
+  name: Nexla Datasets API
+  slug: nexla-datasets-api
+- baseURL: https://dataops.nexla.io/nexla-api
+  baseurl_source: declared
+  description: The Tool Sets API from Nexla — 19 operation(s) for tool sets.
+  name: Nexla Tool Sets API
+  slug: nexla-tool-sets-api
 artifact_total: 80
 asyncapis:
 - description: ''
@@ -587,7 +587,7 @@ mcp_servers:
 - description: ''
   name: Nexla MCP Server (MCP Tools / MCPaaS)
   slug: nexla-mcp-server-mcp-tools-mcpaas
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: Nexla
 nav: Providers
 network: true
@@ -602,28 +602,28 @@ plans:
 - name: Nexla Plans Pricing
   plan_count: 3
   slug: nexla-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Nexla Rate Limits
   slug: nexla-rate-limits
 score:
   band: strong
-  composite: 64.1
+  composite: 62.2
   coverage:
     artifact_dirs: 24
-    catalog_earned: 60.0
+    catalog_earned: 50.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 59.0
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 63.0
     operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -641,7 +641,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -676,7 +676,7 @@ tags:
 - Change Data Capture
 - Data Governance
 - Artificial Intelligence
-- Retrieval Augmented Generation
+- RAG
 - MCP
 - Agent Tools
 - Data Pipeline

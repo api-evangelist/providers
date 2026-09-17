@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -58,11 +58,6 @@ apis:
   description: List and manage API Task allocations within the Control Room
   name: automation-anywhere Allocations API
   slug: automation-anywhere-allocations-api
-- baseURL: https://automationanywhere-be-prod.automationanywhere.com
-  baseurl_source: declared
-  description: Manage credential attribute values for individual credentials
-  name: automation-anywhere AttributeValues API
-  slug: automation-anywhere-attributevalues-api
 - baseURL: https://automationanywhere-be-prod.automationanywhere.com
   baseurl_source: declared
   description: Retrieve Control Room audit trail data
@@ -130,11 +125,6 @@ apis:
   slug: automation-anywhere-roles-api
 - baseURL: https://automationanywhere-be-prod.automationanywhere.com
   baseurl_source: declared
-  description: Retrieve task metadata, variable profiles, and task-level logs
-  name: automation-anywhere TaskData API
-  slug: automation-anywhere-taskdata-api
-- baseURL: https://automationanywhere-be-prod.automationanywhere.com
-  baseurl_source: declared
   description: Create, list, retrieve, update, and delete Control Room users
   name: automation-anywhere Users API
   slug: automation-anywhere-users-api
@@ -145,14 +135,24 @@ apis:
   slug: automation-anywhere-workitemmodels-api
 - baseURL: https://automationanywhere-be-prod.automationanywhere.com
   baseurl_source: declared
-  description: Add, update, and manage individual work items within queues
-  name: automation-anywhere WorkItems API
-  slug: automation-anywhere-workitems-api
-- baseURL: https://automationanywhere-be-prod.automationanywhere.com
-  baseurl_source: declared
   description: List and manage content across public and private workspaces
   name: automation-anywhere Workspaces API
   slug: automation-anywhere-workspaces-api
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Manage credential attribute values for individual credentials
+  name: Automation Anywhere Attribute Values API
+  slug: automation-anywhere-attribute-values-api
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Retrieve task metadata, variable profiles, and task-level logs
+  name: Automation Anywhere Task Data API
+  slug: automation-anywhere-task-data-api
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Add, update, and manage individual work items within queues
+  name: Automation Anywhere Work Items API
+  slug: automation-anywhere-work-items-api
 artifact_total: 164
 collections:
 - collection_type: open
@@ -632,7 +632,7 @@ modified: '2026-05-19'
 name: Automation Anywhere
 nav: Providers
 network: true
-overview: 'Automation Anywhere publishes 21 APIs on the [APIs.io](https://apis.io/) network, including automation-anywhere AccessDetails API, automation-anywhere Allocations API, automation-anywhere AttributeValues API, and 18 more.
+overview: 'Automation Anywhere publishes 21 APIs on the [APIs.io](https://apis.io/) network, including automation-anywhere AccessDetails API, automation-anywhere Allocations API, automation-anywhere AuditData API, and 18 more.
 
 
   The Automation Anywhere catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -643,7 +643,7 @@ plans:
 - name: Automation Anywhere Plans Pricing
   plan_count: 4
   slug: automation-anywhere-plans-pricing
-random_paper: 6
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Automation Anywhere Rate Limits
@@ -689,7 +689,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

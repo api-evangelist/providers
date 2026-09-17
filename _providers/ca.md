@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Enterprise API management platform (formerly CA API Management / Layer 7) that provides API gateways, developer portals, policy enforcement, and identity integration for hybrid and multi-cloud deploym
@@ -181,7 +181,7 @@ press:
 - date: '2026-05-25'
   title: Governor Newsom signs SB 53, advancing California's world ...
   url: https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Ca Rate Limits
@@ -206,7 +206,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

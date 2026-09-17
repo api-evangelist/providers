@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -92,6 +92,10 @@ collections:
   name: Amazon Data Lifecycle Manager API
   slug: open-amazon-data-lifecycle-manager
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/agentic-access/amazon-data-lifecycle-manager-agentic-access.yml
   title: ''
@@ -375,7 +379,7 @@ jsonld:
   property_count: 34
   slug: amazon-data-lifecycle-manager-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Data Lifecycle Manager
 nav: Providers
 network: true
@@ -385,12 +389,12 @@ overview: 'Amazon Data Lifecycle Manager publishes 2 APIs on the [APIs.io](https
   The Amazon Data Lifecycle Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Data Lifecycle Manager''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 20 more developer resources.'
+  Amazon Data Lifecycle Manager''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 21 more developer resources.'
 plans:
 - name: Amazon Data Lifecycle Manager Plans Pricing
   plan_count: 3
   slug: amazon-data-lifecycle-manager-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Amazon Data Lifecycle Manager Rate Limits
@@ -444,7 +448,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -486,5 +490,5 @@ use_cases:
   name: Golden AMI Pipeline
 - description: Reduce EBS snapshot storage costs by automatically deleting outdated snapshots based on configurable age or count retention rules.
   name: Storage Cost Optimization
-website: https://aws.amazon.com/ebs/data-lifecycle-manager/
+website: https://amazon.com
 ---

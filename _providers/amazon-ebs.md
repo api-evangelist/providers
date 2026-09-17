@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://ec2.amazonaws.com
   baseurl_source: declared
   description: The Amazon EBS Amazon Elastic Block Store (EBS) API API from Amazon EBS — 1 operation(s) for amazon ebs amazon elastic block store (ebs) api.
-  name: Amazon EBS Amazon EBS Amazon Elastic Block Store (EBS) API API
+  name: Amazon EBS Amazon EBS Amazon Elastic Block Store (EBS) API
   slug: amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api
 - baseURL: https://ec2.amazonaws.com
   baseurl_source: declared
@@ -124,6 +124,10 @@ collections:
   name: Amazon EBS Amazon Elastic Block Store (EBS) API
   slug: open-amazon-ebs
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/agentic-access/amazon-ebs-agentic-access.yml
   title: ''
@@ -321,22 +325,22 @@ jsonld:
   property_count: 24
   slug: amazon-ebs-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon EBS
 nav: Providers
 network: true
-overview: 'Amazon EBS publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Amazon EBS Amazon Elastic Block Store (EBS) API API, #AttachVolume API, #CreateSnapshot API, and 3 more. Tagged areas include Amazon Web Services, Block Storage, EBS, EC2, and Snapshots.
+overview: 'Amazon EBS publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Amazon EBS Amazon Elastic Block Store (EBS) API, #AttachVolume API, #CreateSnapshot API, and 3 more. Tagged areas include Amazon Web Services, Block Storage, EBS, EC2, and Snapshots.
 
 
   The Amazon EBS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EBS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
+  Amazon EBS''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
 plans:
 - name: Amazon Ebs Plans Pricing
   plan_count: 3
   slug: amazon-ebs-plans-pricing
-random_paper: 18
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Ebs Rate Limits
@@ -390,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -433,5 +437,5 @@ use_cases:
   name: Big Data Analytics
 - description: OS and application boot volumes for all EC2 instance types.
   name: Boot Volumes
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

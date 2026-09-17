@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: 'Incentivio describes an API-first, composable data platform that unifies guest data across POS, loyalty, app, web, and marketplace channels into a single persistent Guest ID, with reverse ETL to sync '
@@ -290,11 +290,6 @@ apis:
   slug: incentivio-multilingual-message-controller-api
 - baseURL: https://mobile.incentivio.com/incentivio-mobile-api
   baseurl_source: declared
-  description: The oauth-2-controller API from Incentivio — 1 operation(s) for oauth-2-controller.
-  name: Incentivio OAUTH 2 Controller API
-  slug: incentivio-oauth-2-controller-api
-- baseURL: https://mobile.incentivio.com/incentivio-mobile-api
-  baseurl_source: declared
   description: The offer-distribution-controller API from Incentivio — 2 operation(s) for offer-distribution-controller.
   name: Incentivio Offer Distribution Controller API
   slug: incentivio-offer-distribution-controller-api
@@ -468,6 +463,11 @@ apis:
   description: The web-app-config-controller API from Incentivio — 1 operation(s) for web-app-config-controller.
   name: Incentivio Web App Config Controller API
   slug: incentivio-web-app-config-controller-api
+- baseURL: https://mobile.incentivio.com/incentivio-mobile-api
+  baseurl_source: declared
+  description: The o auth 2 controller API from Incentivio — 1 operation(s) for o auth 2 controller.
+  name: Incentivio o auth 2 controller API
+  slug: incentivio-o-auth-2-controller-api
 artifact_total: 94
 asyncapis:
 - description: ''
@@ -639,14 +639,14 @@ plans:
 - name: Incentivio Plans Pricing
   plan_count: 0
   slug: incentivio-plans-pricing
-random_paper: 9
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Incentivio Rate Limits
   slug: incentivio-rate-limits
 score:
   band: developing
-  composite: 42.3
+  composite: 43.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 27.0
@@ -654,11 +654,11 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 39.5
     contract_governance: 18.2
-    contract_quality: 51.2
+    contract_quality: 55.3
     developer_ergonomics: 39.9
     discoverability: 50.0
     operational_transparency: 0.0
@@ -684,7 +684,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

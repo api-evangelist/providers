@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 3
@@ -128,11 +128,6 @@ apis:
   slug: zavu-senders-api
 - baseURL: https://api.zavu.dev/v1
   baseurl_source: declared
-  description: The Sub-Accounts API from Zavu — 5 operation(s) for sub-accounts.
-  name: Zavu Sub-Accounts API
-  slug: zavu-sub-accounts-api
-- baseURL: https://api.zavu.dev/v1
-  baseurl_source: declared
   description: The Templates API from Zavu — 3 operation(s) for templates.
   name: Zavu Templates API
   slug: zavu-templates-api
@@ -151,6 +146,11 @@ apis:
   description: The WhatsApp Sync API from Zavu — 3 operation(s) for whatsapp sync.
   name: Zavu WhatsApp Sync API
   slug: zavu-whatsapp-sync-api
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Subaccounts API from Zavu — 5 operation(s) for subaccounts.
+  name: Zavu Subaccounts API
+  slug: zavu-subaccounts-api
 artifact_total: 49
 asyncapis:
 - description: ''
@@ -394,7 +394,7 @@ overview: 'Zavu publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Zavu''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
-random_paper: 13
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Zavu Rate Limits
@@ -435,7 +435,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

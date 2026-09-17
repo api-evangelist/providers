@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Bloomberg's proprietary socket-based API protocol for accessing Bloomberg data, providing a high-performance connectivity layer between client applications and Bloomberg's data infrastructure.
@@ -47,6 +47,10 @@ apis:
   slug: bql
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.github.io
 - group: other
   title: ''
   type: ParentCompany
@@ -101,19 +105,19 @@ finops:
   slug: bloomberg-proprietary-technologies-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-proprietary-technologies.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Proprietary Technologies
 nav: Providers
 network: true
 overview: 'Bloomberg Proprietary Technologies publishes 1 API on the [APIs.io](https://apis.io/) network: Bloomberg FIGI API. Tagged areas include Proprietary Technology, BLPAPI, BQL, FIGI, and B-PIPE.
 
 
-  Bloomberg Proprietary Technologies'' developer surface includes developer portal, documentation, support, and 5 more developer resources.'
+  Bloomberg Proprietary Technologies'' developer surface includes developer portal, documentation, support, and 6 more developer resources.'
 plans:
 - name: Bloomberg Proprietary Technologies Plans Pricing
   plan_count: 3
   slug: bloomberg-proprietary-technologies-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Bloomberg Proprietary Technologies Rate Limits
@@ -138,7 +142,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -167,5 +171,5 @@ use_cases:
 - description: Connect enterprise systems to Bloomberg data via BLPAPI.
   name: System Integration
   url: https://bloomberg.github.io/blpapi-docs/
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.github.io
 ---

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 6
-  human_in_the_loop: 0
+- acting_count: 268
+  human_in_the_loop: 5
   name: Confluent Agentic Access
-  operation_count: 18
+  operation_count: 528
   slug: confluent-agentic-access
-  summary_line: 18 operations · 6 acting
+  summary_line: 528 operations · 268 acting · 5 human-in-the-loop
 api_count: 3
 apis:
 - description: Stream, connect, process, and govern your data with an all-in-one, real-time platform from the pioneer in data streaming. Build faster, scale smarter, and turn data chaos into instantly accessible and
@@ -51,11 +51,6 @@ apis:
 - description: Confluent's managed remote Model Context Protocol servers. The global server at https://api.confluent.cloud/mcp/v1 provides tools for discovering environments and clusters, inspecting and debugging co
   name: Confluent Managed MCP Servers
   slug: confluent-mcp
-- baseURL: https://api.confluent.cloud
-  baseurl_source: spec
-  description: The ACLs API from Confluent — 1 operation(s) for acls.
-  name: Confluent ACLs API
-  slug: confluent-acls-api
 - baseURL: https://api.confluent.cloud
   baseurl_source: spec
   description: The API Keys API from Confluent — 1 operation(s) for api keys.
@@ -676,6 +671,11 @@ apis:
   description: '![generally-available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%230074A2) Version 2 of the Metrics API adds the ability to query metrics for Kafka Connect, ksqlDB, and Sch'
   name: Confluent Version 2 API
   slug: confluent-version-2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: The ACLs API from Confluent — 1 operation(s) for acls.
+  name: Confluent AC Ls API
+  slug: confluent-acls-api
 artifact_total: 160
 asyncapis:
 - description: ''
@@ -942,7 +942,7 @@ modified: '2026-08-27'
 name: Confluent
 nav: Providers
 network: true
-overview: 'Confluent publishes 125 APIs on the [APIs.io](https://apis.io/) network, including ACLs API, API Keys API, Clusters API, and 122 more. Tagged areas include Data Streaming, Apache Kafka, Event Streaming, Stream Processing, and Schema Registry.
+overview: 'Confluent publishes 125 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Clusters API, Consumer Groups API, and 122 more. Tagged areas include Data Streaming, Apache Kafka, Event Streaming, Stream Processing, and Schema Registry.
 
 
   The Confluent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -953,7 +953,7 @@ plans:
 - name: Confluent Plans Pricing
   plan_count: 5
   slug: confluent-plans-pricing
-random_paper: 8
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Confluent Rate Limits
@@ -965,21 +965,21 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 79.0
+  composite: 78.1
   coverage:
     artifact_dirs: 26
-    catalog_earned: 59.0
+    catalog_earned: 54.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
+    catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 67.1
+    contract_quality: 67.2
     developer_ergonomics: 85.7
-    discoverability: 66.7
+    discoverability: 57.4
     operational_transparency: 92.1
   previous_composite: 79.0
   provenance:
@@ -993,7 +993,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

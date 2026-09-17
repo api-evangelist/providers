@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The hosted, remote Model Context Protocol server through which peopleIX exposes a customer's People Intelligence knowledge layer to agents such as Claude, ChatGPT and Copilot. A JSON-RPC POST to https
@@ -150,7 +150,7 @@ modified: '2026-08-14'
 name: Peopleix
 nav: Providers
 network: true
-overview: 'Peopleix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR, People Analytics, People Intelligence, and Conversation Intelligence.
+overview: 'Peopleix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, People Analytics, People Intelligence, and Conversation Intelligence.
 
 
   Peopleix''s developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
@@ -158,7 +158,7 @@ plans:
 - name: Peopleix Plans Pricing
   plan_count: 0
   slug: peopleix-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Peopleix Rate Limits
@@ -199,7 +199,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -222,11 +222,10 @@ security:
 slug: peopleix
 tags:
 - Company
-- HR
+- Human Resources
 - People Analytics
 - People Intelligence
 - Conversation Intelligence
-- Human Resources
 - Workforce Analytics
 - Artificial Intelligence
 - MCP

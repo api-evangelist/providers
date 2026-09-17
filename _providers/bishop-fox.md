@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Authenticated REST API for the Bishop Fox Cosmos attack-surface management platform. Exposes the customer's discovered asset inventory through /v5/asset-view/* resources (domains, subdomains, dns-reco
@@ -157,7 +157,7 @@ overview: 'Bishop Fox publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Bishop Fox''s developer surface includes developer portal, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 15
+random_paper: 11
 scopes:
 - name: Bishop Fox Scopes
   scope_count: 7
@@ -185,7 +185,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

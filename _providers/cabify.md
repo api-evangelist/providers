@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -320,7 +320,7 @@ overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cabify''s developer surface includes documentation, getting-started guide, API reference, authentication, sandbox, changelog, support, and 25 more developer resources.'
-random_paper: 13
+random_paper: 6
 score:
   band: developing
   composite: 52.8
@@ -335,7 +335,7 @@ score:
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 64.7
+    contract_quality: 64.6
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 52.6
@@ -357,7 +357,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

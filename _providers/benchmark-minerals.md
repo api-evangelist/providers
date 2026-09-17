@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
@@ -32,17 +32,87 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.3
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 30.4
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://api.benchmarkminerals.com/v2
   baseurl_source: declared
-  description: The Benchmark Minerals API provides programmatic access to price data, supply chain data, and market intelligence for the lithium-ion battery and critical minerals supply chain. API keys are available
-  name: Benchmark Minerals API
-  slug: benchmark-minerals-api
-artifact_total: 20
+  description: The Anodes API from Benchmark Minerals — 3 operation(s) for anodes.
+  name: Benchmark Minerals Anodes API
+  slug: benchmark-minerals-anodes-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Black Mass API from Benchmark Minerals — 3 operation(s) for black mass.
+  name: Benchmark Minerals Black Mass API
+  slug: benchmark-minerals-black-mass-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Cathodes API from Benchmark Minerals — 3 operation(s) for cathodes.
+  name: Benchmark Minerals Cathodes API
+  slug: benchmark-minerals-cathodes-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Cobalt API from Benchmark Minerals — 3 operation(s) for cobalt.
+  name: Benchmark Minerals Cobalt API
+  slug: benchmark-minerals-cobalt-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Electrolyte API from Benchmark Minerals — 2 operation(s) for electrolyte.
+  name: Benchmark Minerals Electrolyte API
+  slug: benchmark-minerals-electrolyte-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Lithium API from Benchmark Minerals — 3 operation(s) for lithium.
+  name: Benchmark Minerals Lithium API
+  slug: benchmark-minerals-lithium-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Lithium ion Battery API from Benchmark Minerals — 3 operation(s) for lithium ion battery.
+  name: Benchmark Minerals Lithium ion Battery API
+  slug: benchmark-minerals-lithium-ion-battery-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Lithium ion Battery Raw Material API from Benchmark Minerals — 1 operation(s) for lithium ion battery raw material.
+  name: Benchmark Minerals Lithium ion Battery Raw Material API
+  slug: benchmark-minerals-lithium-ion-battery-raw-material-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Manganese API from Benchmark Minerals — 2 operation(s) for manganese.
+  name: Benchmark Minerals Manganese API
+  slug: benchmark-minerals-manganese-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Natural Graphite API from Benchmark Minerals — 3 operation(s) for natural graphite.
+  name: Benchmark Minerals Natural Graphite API
+  slug: benchmark-minerals-natural-graphite-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Nickel API from Benchmark Minerals — 3 operation(s) for nickel.
+  name: Benchmark Minerals Nickel API
+  slug: benchmark-minerals-nickel-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Rare Earths API from Benchmark Minerals — 3 operation(s) for rare earths.
+  name: Benchmark Minerals Rare Earths API
+  slug: benchmark-minerals-rare-earths-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Spotlight API from Benchmark Minerals — 1 operation(s) for spotlight.
+  name: Benchmark Minerals Spotlight API
+  slug: benchmark-minerals-spotlight-api
+- baseURL: https://api.benchmarkminerals.com/v2
+  baseurl_source: declared
+  description: The Synthetic-Graphite API from Benchmark Minerals — 3 operation(s) for synthetic-graphite.
+  name: Benchmark Minerals Synthetic Graphite API
+  slug: benchmark-minerals-synthetic-graphite-api
+artifact_total: 33
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/overlays/benchmark-minerals-prices-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/benchmark-minerals-prices-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/benchmark-minerals/refs/heads/main/authentication/benchmark-minerals-authentication.yml
   title: ''
@@ -206,15 +276,15 @@ modified: '2026-09-04'
 name: Benchmark Minerals
 nav: Providers
 network: true
-overview: 'Benchmark Minerals publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Batteries, Cobalt, Critical Minerals, Electric Vehicles, and Energy Transition.
+overview: 'Benchmark Minerals publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Anodes API, Black Mass API, Cathodes API, and 11 more. Tagged areas include Batteries, Cobalt, Critical Minerals, Electric Vehicles, and Energy Transition.
 
 
-  Benchmark Minerals'' developer surface includes authentication, sandbox, documentation, API reference, support, engineering blog, pricing, and 21 more developer resources.'
+  Benchmark Minerals'' developer surface includes authentication, sandbox, documentation, API reference, support, engineering blog, pricing, and 22 more developer resources.'
 plans:
 - name: Benchmark Minerals Plans Pricing
   plan_count: 3
   slug: benchmark-minerals-plans-pricing
-random_paper: 16
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Benchmark Minerals Rate Limits
@@ -225,8 +295,8 @@ scopes:
   slug: benchmark-minerals-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 54.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 52.0
@@ -234,11 +304,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
-    contract_quality: 49.0
+    contract_quality: 49.6
     developer_ergonomics: 54.2
     discoverability: 68.5
     operational_transparency: 2.6
@@ -249,7 +319,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 14
     mcp: first-party
     skills: derived
   regulatory:
@@ -259,7 +329,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

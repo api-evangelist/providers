@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST API for automating data mappings and transformations with AI. Create and run Flows, manage target schemas, poll job/run status, and retrieve mapping results. Authenticated with a per-account API '
@@ -147,7 +147,7 @@ overview: 'Lume publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lume''s developer surface includes documentation, getting-started guide, authentication, signup flow, support, and 14 more developer resources.'
-random_paper: 15
+random_paper: 17
 score:
   band: thin
   composite: 36.7
@@ -171,7 +171,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

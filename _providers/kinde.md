@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 48.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 13
@@ -54,11 +54,6 @@ apis:
   description: The API Keys API from Kinde — 3 operation(s) for api keys.
   name: Kinde API Keys API
   slug: kinde-api-keys-api
-- baseURL: https://{subdomain}.kinde.com/api/v1
-  baseurl_source: declared
-  description: The APIs API from Kinde — 6 operation(s) for apis.
-  name: Kinde APIs API
-  slug: kinde-apis-api
 - baseURL: https://{subdomain}.kinde.com/api/v1
   baseurl_source: declared
   description: The Applications API from Kinde — 7 operation(s) for applications.
@@ -141,11 +136,6 @@ apis:
   slug: kinde-mfa-api
 - baseURL: https://{subdomain}.kinde.com/api/v1
   baseurl_source: declared
-  description: The OAuth API from Kinde — 3 operation(s) for oauth.
-  name: Kinde OAuth API
-  slug: kinde-oauth-api
-- baseURL: https://{subdomain}.kinde.com/api/v1
-  baseurl_source: declared
   description: The Organizations API from Kinde — 25 operation(s) for organizations.
   name: Kinde Organizations API
   slug: kinde-organizations-api
@@ -199,6 +189,16 @@ apis:
   description: The Webhooks API from Kinde — 4 operation(s) for webhooks.
   name: Kinde Webhooks API
   slug: kinde-webhooks-api
+- baseURL: https://{subdomain}.kinde.com/mcp
+  baseurl_source: declared
+  description: The APIs API from Kinde — 6 operation(s) for apis.
+  name: Kinde AP Is API
+  slug: kinde-apis-api
+- baseURL: https://{subdomain}.kinde.com/mcp
+  baseurl_source: declared
+  description: The OAuth API from Kinde — 3 operation(s) for oauth.
+  name: Kinde O Auth API
+  slug: kinde-oauth-api
 arazzos:
 - description: Find an existing user by email and grant them a role within an organization.
   name: Kinde Assign Organization User Role
@@ -858,7 +858,7 @@ modified: '2026-09-12'
 name: Kinde
 nav: Providers
 network: true
-overview: 'Kinde publishes 30 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, APIs API, Applications API, and 27 more. Tagged areas include Authentication, Authorization, Customer Identity, Identity Management, and OpenID Connect.
+overview: 'Kinde publishes 30 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Applications API, Billing Agreements API, and 27 more. Tagged areas include Authentication, Authorization, Customer Identity, Identity Management, and OpenID Connect.
 
 
   The Kinde catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -869,7 +869,7 @@ plans:
 - name: Kinde Plans Pricing
   plan_count: 5
   slug: kinde-plans-pricing
-random_paper: 19
+random_paper: 17
 rate_limits:
 - limit_count: 6
   name: Kinde Rate Limits
@@ -903,7 +903,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 86.0
+  composite: 86.1
   coverage:
     artifact_dirs: 36
     catalog_earned: 88.5
@@ -911,11 +911,11 @@ score:
     catalog_gap: 26.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 93.4
     contract_governance: 47.0
-    contract_quality: 73.8
+    contract_quality: 74.5
     developer_ergonomics: 91.1
     discoverability: 70.4
     operational_transparency: 92.1
@@ -924,14 +924,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 76.7
+      callable: 90.0
       derived: 0
       marker_coverage: 0.0
       total: 30
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -961,7 +961,7 @@ tags:
 - Customer Identity
 - Identity Management
 - OpenID Connect
-- Single Sign-On
+- SSO
 - Multi-Factor Authentication
 - Role-Based Access Control
 - Feature Flags

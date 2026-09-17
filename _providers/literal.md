@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GraphQL API for Literal Club that provides access to book data, reading states, shelves, reviews, highlights, reading goals, clubs, and user profiles. Supports both public read operations and authenti
@@ -41,6 +41,10 @@ apis:
   slug: literal-graphql-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://literal.club
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/literal/refs/heads/main/security/literal-domain-security.yml
   title: ''
@@ -83,7 +87,7 @@ jsonld:
   property_count: 37
   slug: literal-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Literal Club
 nav: Providers
 network: true
@@ -93,12 +97,12 @@ overview: 'Literal Club publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Literal Club catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Literal Club''s developer surface includes signup flow, support, and 4 more developer resources.'
+  Literal Club''s developer surface includes signup flow, support, and 5 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -123,7 +127,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 37.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -149,4 +153,5 @@ tags:
 - Reading Goals
 - Book Clubs
 - Recommendations
+website: https://literal.club
 ---

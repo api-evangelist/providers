@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -130,7 +130,7 @@ plans:
 - name: Carrd Plans Pricing
   plan_count: 17
   slug: carrd-plans-pricing
-random_paper: 20
+random_paper: 18
 score:
   band: thin
   composite: 27.6
@@ -151,7 +151,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 27.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

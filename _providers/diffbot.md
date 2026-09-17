@@ -24,7 +24,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
@@ -35,15 +35,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 41.9
-  scored_at: '2026-09-15'
+  score: 44.8
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 1
+- acting_count: 10
   human_in_the_loop: 0
   name: Diffbot Agentic Access
-  operation_count: 14
+  operation_count: 53
   slug: diffbot-agentic-access
-  summary_line: 14 operations · 1 acting
+  summary_line: 53 operations · 10 acting
 api_count: 9
 apis:
 - baseURL: https://api.diffbot.com/v3
@@ -56,36 +56,11 @@ apis:
   description: Diffbot Crawl API is a powerful tool that automates the process of extracting content and data from websites on a large scale. By using advanced machine learning algorithms, the API can analyze and ex
   name: Diffbot Crawl API
   slug: diffbot-crawl-api
-- baseURL: https://api.diffbot.com/v3
-  baseurl_source: declared
-  description: Diffbot Bulk Extract API is a tool that allows users to extract data at scale from a variety of sources, including websites, documents, and social media platforms. This API utilizes machine learning a
-  name: Diffbot Bulk Extract API
-  slug: diffbot-bulk-extract-api
-- baseURL: https://kg.diffbot.com
-  baseurl_source: declared
-  description: The Diffbot DQL API is a powerful tool that allows users to query and retrieve data from the web in a structured format. By using a simple query language, users can access a wealth of information from
-  name: Diffbot DQL API
-  slug: diffbot-dql-api
-- baseURL: https://kg.diffbot.com
-  baseurl_source: declared
-  description: Diffbot Enhance API enhances data by providing additional context and insights. By analyzing text and images, the API can identify and extract key information, such as entities, topics, and sentiment,
-  name: Diffbot Enhance API
-  slug: diffbot-enhance-api
 - baseURL: https://nl.diffbot.com
   baseurl_source: declared
   description: Diffbot Natural Language API allows users to extract and analyze textual content from websites. By utilizing advanced natural language processing algorithms, the API can automatically identify and ext
   name: Diffbot Natural Language API
   slug: diffbot-natural-language-api
-- baseURL: https://llm.diffbot.com/api/v1/web_search
-  baseurl_source: declared
-  description: Search Diffbot's own web index — the largest independently crawled index outside Google and Bing, over 150TB. Candidates are retrieved and reranked by a cross-encoder trained to favour factual relevan
-  name: Diffbot Web Search API
-  slug: diffbot-web-search-api
-- baseURL: https://api.diffbot.com/v4
-  baseurl_source: declared
-  description: 'Retrieve account details, plan, token metadata and usage activity for a Diffbot token. The only introspection surface Diffbot publishes: because the APIs return no rate-limit or quota response headers'
-  name: Diffbot Account API
-  slug: diffbot-account-api
 - baseURL: https://kg.diffbot.com/kg/v3
   baseurl_source: declared
   description: The Knowledge Graph itself — a linked graph of over 10 billion entities (organizations, people, articles, places, products, job posts and more) crawled and structured from the public web. It is reache
@@ -94,7 +69,92 @@ apis:
 - description: The Diffbot Crawl/Bulk Job API is a powerful tool that allows users to automatically extract and organize large amounts of web data. It enables users to create custom scraping jobs that can gather inf
   name: Diffbot Crawl/Bulk Job API
   slug: diffbot-crawlbulk-job-api
-artifact_total: 24
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Account API from Diffbot — 1 operation(s) for account.
+  name: Diffbot Account API
+  slug: diffbot-account-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Analyze API from Diffbot — 1 operation(s) for analyze.
+  name: Diffbot Analyze API
+  slug: diffbot-analyze-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Article API from Diffbot — 1 operation(s) for article.
+  name: Diffbot Article API
+  slug: diffbot-article-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Bulk API from Diffbot — 2 operation(s) for bulk.
+  name: Diffbot Bulk API
+  slug: diffbot-bulk-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: Enhance multiple records asynchronously
+  name: Diffbot Bulk Enhance API
+  slug: diffbot-bulk-enhance-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: Enhance both a person and the employer data
+  name: Diffbot Combine API
+  slug: diffbot-combine-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Custom API from Diffbot — 2 operation(s) for custom.
+  name: Diffbot Custom API
+  slug: diffbot-custom-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Discussion API from Diffbot — 1 operation(s) for discussion.
+  name: Diffbot Discussion API
+  slug: diffbot-discussion-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: DQL Search
+  name: Diffbot DQL Search API
+  slug: diffbot-dql-search-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: Enhance single records synchronously
+  name: Diffbot Enhance API
+  slug: diffbot-enhance-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Event API from Diffbot — 1 operation(s) for event.
+  name: Diffbot Event API
+  slug: diffbot-event-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Image API from Diffbot — 1 operation(s) for image.
+  name: Diffbot Image API
+  slug: diffbot-image-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Job API from Diffbot — 1 operation(s) for job.
+  name: Diffbot Job API
+  slug: diffbot-job-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The List API from Diffbot — 1 operation(s) for list.
+  name: Diffbot List API
+  slug: diffbot-list-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Product API from Diffbot — 1 operation(s) for product.
+  name: Diffbot Product API
+  slug: diffbot-product-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Video API from Diffbot — 1 operation(s) for video.
+  name: Diffbot Video API
+  slug: diffbot-video-api
+- baseURL: https://api.diffbot.com/v3
+  baseurl_source: declared
+  description: The Web Search API from Diffbot — 1 operation(s) for web search.
+  name: Diffbot Web Search API
+  slug: diffbot-web-search-api
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Diffbot Webhooks
@@ -119,6 +179,31 @@ collections:
   name: Diffbot API
   slug: open-diffbot
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/overlays/diffbot-bulk-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diffbot-bulk-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/overlays/diffbot-dql-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diffbot-dql-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/overlays/diffbot-enhance-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diffbot-enhance-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/overlays/diffbot-web-search-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diffbot-web-search-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/overlays/diffbot-account-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/diffbot-account-overlay.yaml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-extract-openapi.json
   title: ''
@@ -363,25 +448,25 @@ modified: '2026-09-06'
 name: Diffbot
 nav: Providers
 network: true
-overview: 'Diffbot publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Extract API, Crawl API, Bulk Extract API, and 6 more. Tagged areas include Extraction, Harvesting, Scraping, Web, and Knowledge Graph.
+overview: 'Diffbot publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Extract API, Crawl API, Natural Language API, and 18 more. Tagged areas include Extraction, Harvesting, Scraping, Web, and Knowledge Graph.
 
 
   The Diffbot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Diffbot''s developer surface includes changelog, CLI, sandbox, developer console, API reference, getting-started guide, authentication, and 44 more developer resources.'
+  Diffbot''s developer surface includes changelog, CLI, sandbox, developer console, API reference, getting-started guide, authentication, and 49 more developer resources.'
 plans:
 - name: Diffbot Plans Pricing
   plan_count: 4
   slug: diffbot-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 12
   name: Diffbot Rate Limits
   slug: diffbot-rate-limits
 score:
   band: exemplar
-  composite: 73.7
+  composite: 75.0
   coverage:
     artifact_dirs: 25
     catalog_earned: 67.0
@@ -389,11 +474,11 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 58.7
+    contract_quality: 64.0
     developer_ergonomics: 90.5
     discoverability: 81.5
     operational_transparency: 81.6
@@ -405,11 +490,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 21
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

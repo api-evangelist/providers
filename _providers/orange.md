@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ modified: '2026-04-28'
 name: Orange
 nav: Providers
 network: true
-overview: 'Orange publishes 2 APIs on the [APIs.io](https://apis.io/) network: Device Phone Number API and Verify API. Tagged areas include Network, Telecom, Identity, Messaging, and Location.
+overview: 'Orange publishes 2 APIs on the [APIs.io](https://apis.io/) network: Device Phone Number API and Verify API. Tagged areas include Networks, Telecom, Identity, Messaging, and Location.
 
 
   Orange''s developer surface includes authentication, developer portal, documentation, signup flow, support, and 10 more developer resources.'
@@ -194,7 +194,7 @@ plans:
 - name: Orange Plans Pricing
   plan_count: 3
   slug: orange-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Orange Rate Limits
@@ -232,7 +232,7 @@ score:
     regime_id: telecommunications
     score: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -253,12 +253,12 @@ security:
   summary_line: security.txt · contact published
 slug: orange
 tags:
-- Network
+- Networks
 - Telecom
 - Identity
 - Messaging
 - Location
-- Payment
+- Payments
 - IoT
 website: https://www.orange.com/
 ---

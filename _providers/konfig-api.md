@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Capability area (endpointsModeled - no documented public REST endpoint). Generates idiomatic client-library SDKs from an OpenAPI Specification or Postman Collection in TypeScript/JavaScript, Python, J
@@ -115,7 +115,7 @@ plans:
 - name: Konfig Api Plans Pricing
   plan_count: 3
   slug: konfig-api-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Konfig Api Rate Limits
@@ -146,7 +146,7 @@ score:
     regime_id: education
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

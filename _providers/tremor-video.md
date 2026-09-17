@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://services.amobee.com/campaign/v5/api
@@ -211,7 +211,7 @@ plans:
 - name: Tremor Video Plans Pricing
   plan_count: 0
   slug: tremor-video-plans-pricing
-random_paper: 6
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Tremor Video Rate Limits
@@ -245,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

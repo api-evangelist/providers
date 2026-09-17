@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 10.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Use your own applicant tracking or HR application to send candidate hire information to Insperity Premier Onboarding. One published operation, POST /public/Employee/Onboarding/v2, which accepts a call
@@ -180,7 +180,7 @@ press:
 - date: '2026-05-25'
   title: Workday and Insperity Announce Exclusive Strategic ...
   url: https://newsroom.workday.com/2024-02-08-Workday-and-Insperity-Announce-Exclusive-Strategic-Partnership-to-Provide-Best-in-Class-HR-Service-and-Technology-to-Small-and-Midsize-Businesses
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Insperity Rate Limits
@@ -213,7 +213,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

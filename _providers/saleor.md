@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -72,7 +72,7 @@ apis:
 - baseURL: https://docs.saleor.io/api-reference/
   baseurl_source: declared
   description: The Saleor GraphQL API API from Saleor — 1 operation(s) for saleor graphql api.
-  name: Saleor Saleor GraphQL API API
+  name: Saleor GraphQL API
   slug: saleor-saleor-graphql-api-api
 artifact_total: 19
 collections:
@@ -169,11 +169,11 @@ graphqls:
   slug: saleor-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saleor.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Saleor
 nav: Providers
 network: true
-overview: 'Saleor publishes 1 API on the [APIs.io](https://apis.io/) network: Saleor GraphQL API API. Tagged areas include Commerce, Headless, E-Commerce, GraphQL, and Open-Source.
+overview: 'Saleor publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Commerce, Headless, E-Commerce, GraphQL, and Open-Source.
 
 
   Saleor''s developer surface includes authentication, documentation, API reference, GitHub presence, status page, engineering blog, and 11 more developer resources.'
@@ -181,7 +181,7 @@ plans:
 - name: Saleor Plans Pricing
   plan_count: 1
   slug: saleor-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Saleor Rate Limits
@@ -216,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

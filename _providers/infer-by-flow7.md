@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://infer.flow7.org/v1
@@ -189,7 +189,7 @@ plans:
 - name: Infer By Flow7 Plans Pricing
   plan_count: 4
   slug: infer-by-flow7-plans-pricing
-random_paper: 13
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Infer By Flow7 Rate Limits
@@ -228,7 +228,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

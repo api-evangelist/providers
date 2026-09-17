@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -64,16 +64,6 @@ apis:
   description: The Contacts API from Distru — 2 operation(s) for contacts.
   name: Distru Contacts API
   slug: distru-contacts-api
-- baseURL: https://app.distru.com/public/v1
-  baseurl_source: declared
-  description: The CustomFields API from Distru — 2 operation(s) for customfields.
-  name: Distru CustomFields API
-  slug: distru-customfields-api
-- baseURL: https://app.distru.com/public/v1
-  baseurl_source: declared
-  description: The FileAttachments API from Distru — 1 operation(s) for fileattachments.
-  name: Distru FileAttachments API
-  slug: distru-fileattachments-api
 - baseURL: https://app.distru.com/public/v1
   baseurl_source: declared
   description: The Inventory API from Distru — 1 operation(s) for inventory.
@@ -106,11 +96,6 @@ apis:
   slug: distru-packages-api
 - baseURL: https://app.distru.com/public/v1
   baseurl_source: declared
-  description: The PaymentMethods API from Distru — 2 operation(s) for paymentmethods.
-  name: Distru PaymentMethods API
-  slug: distru-paymentmethods-api
-- baseURL: https://app.distru.com/public/v1
-  baseurl_source: declared
   description: The ProductPosMappings API from Distru — 2 operation(s) for productposmappings.
   name: Distru ProductPosMappings API
   slug: distru-productposmappings-api
@@ -141,14 +126,29 @@ apis:
   slug: distru-strains-api
 - baseURL: https://app.distru.com/public/v1
   baseurl_source: declared
-  description: The TestResults API from Distru — 1 operation(s) for testresults.
-  name: Distru TestResults API
-  slug: distru-testresults-api
-- baseURL: https://app.distru.com/public/v1
-  baseurl_source: declared
   description: The Vehicles API from Distru — 1 operation(s) for vehicles.
   name: Distru Vehicles API
   slug: distru-vehicles-api
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Custom Fields API from Distru — 2 operation(s) for custom fields.
+  name: Distru Custom Fields API
+  slug: distru-custom-fields-api
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The File Attachments API from Distru — 1 operation(s) for file attachments.
+  name: Distru File Attachments API
+  slug: distru-file-attachments-api
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Payment Methods API from Distru — 2 operation(s) for payment methods.
+  name: Distru Payment Methods API
+  slug: distru-payment-methods-api
+- baseURL: https://app.distru.com/public/v1
+  baseurl_source: declared
+  description: The Test Results API from Distru — 1 operation(s) for test results.
+  name: Distru Test Results API
+  slug: distru-test-results-api
 artifact_total: 46
 collections:
 - collection_type: open
@@ -352,7 +352,7 @@ overview: 'Distru publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Distru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 16
+random_paper: 7
 score:
   band: thin
   composite: 33.5
@@ -383,7 +383,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

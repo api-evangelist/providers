@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - description: The Capital One Account Lookup API is a DevExchange product that lets approved partners resolve and retrieve consumer account information such as balances, transaction history, and account status. Int
@@ -212,7 +212,7 @@ modified: '2026-07-23'
 name: Capital One
 nav: Providers
 network: true
-overview: 'Capital One publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Finance, Authorizations, Banking, Credit Cards, and Credit Offers.
+overview: 'Capital One publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Finance, Authorization, Banking, Credit Cards, and Credit Offers.
 
 
   Capital One''s developer surface includes documentation, getting-started guide, sandbox, FAQ, support, engineering blog, authentication, and 19 more developer resources.'
@@ -236,7 +236,7 @@ press:
 - date: '2026-05-25'
   title: Capital One reaps post-acquisition rewards
   url: https://www.bankingdive.com/news/capital-one-discover-integration-q3-earnings-auto-opportunity-profit-revenue-net-interest-income/803523/
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Capital One Rate Limits
@@ -280,7 +280,7 @@ score:
     regime_id: banking_open_finance
     score: 49.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -303,7 +303,7 @@ security:
 slug: capital-one
 tags:
 - Auto Finance
-- Authorizations
+- Authorization
 - Banking
 - Credit Cards
 - Credit Offers

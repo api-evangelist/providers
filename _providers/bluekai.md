@@ -30,7 +30,7 @@ name: BlueKai
 nav: Providers
 network: true
 overview: BlueKai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Management Platform, DMP, Audience Data, and AdTech.
-random_paper: 19
+random_paper: 7
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluekai/refs/heads/main/screenshots/bluekai-2026-07-25T203457.png
 security:
 - kind: domain-security

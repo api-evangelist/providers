@@ -32,19 +32,29 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: The HAMi WebUI backend API. Four gRPC services — Card, Node, Container and Monitor — expose cluster accelerator inventory, node inventory, GPU-consuming workloads and Prometheus-backed range/instant/s
   name: HAMi WebUI API
   slug: hami-webui-api
-- baseURL: https://project-hami.io
+- baseURL: http://{hami-webui-host}:8000
   baseurl_source: declared
-  description: The machine-readable discovery surface of the HAMi documentation website, described by a first-party OpenAPI 3.1.0 document that the site advertises as the service-desc of its RFC 9727 API catalog. Fo
-  name: HAMi Website Discovery API
-  slug: hami-website-discovery-api
-artifact_total: 7
+  description: The Robots.txt API from HAMi — 1 operation(s) for robots.txt.
+  name: HAMi Robots.txt API
+  slug: hami-robots-txt-api
+- baseURL: http://{hami-webui-host}:8000
+  baseurl_source: declared
+  description: The .well Known API from HAMi — 3 operation(s) for .well known.
+  name: HAMi .well Known API
+  slug: hami-well-known-api
+artifact_total: 8
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hami/refs/heads/main/overlays/hami-website-discovery-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/hami-website-discovery-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -186,22 +196,22 @@ modified: '2026-09-12'
 name: HAMi
 nav: Providers
 network: true
-overview: 'HAMi publishes 1 API on the [APIs.io](https://apis.io/) network: Website Discovery API. Tagged areas include AI Computing, CNCF, GPU Virtualization, Kubernetes, and GPU Sharing.
+overview: 'HAMi publishes 2 APIs on the [APIs.io](https://apis.io/) network: Robots.txt API and .well Known API. Tagged areas include AI Computing, CNCF, GPU Virtualization, Kubernetes, and GPU Sharing.
 
 
-  HAMi''s developer surface includes documentation, engineering blog, getting-started guide, support, changelog, authentication, and 23 more developer resources.'
+  HAMi''s developer surface includes documentation, engineering blog, getting-started guide, support, changelog, authentication, and 24 more developer resources.'
 plans:
 - name: Hami Plans Pricing
   plan_count: 0
   slug: hami-plans-pricing
-random_paper: 16
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Hami Rate Limits
   slug: hami-rate-limits
 score:
-  band: thin
-  composite: 38.5
+  band: developing
+  composite: 39.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -209,11 +219,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 37.4
+    contract_quality: 42.9
     developer_ergonomics: 57.1
     discoverability: 68.5
     operational_transparency: 34.2
@@ -224,11 +234,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 2
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

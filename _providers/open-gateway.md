@@ -14,7 +14,6 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,15 +28,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 40.6
-  scored_at: '2026-09-15'
+  score: 38.1
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -47,16 +46,6 @@ agentic_access:
   summary_line: 70 operations · 52 acting
 api_count: 22
 apis:
-- baseURL_template: '{apiRoot}/kyc-age-verification/v0.2'
-  baseurl_source: spec_template
-  description: Operations to verify the age of a user.
-  name: GSMA Open Gateway Age Verification API
-  slug: open-gateway-age-verification-api
-- baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
-  baseurl_source: spec_template
-  description: Operations for ApiProduct Resource
-  name: GSMA Open Gateway API Product API
-  slug: open-gateway-apiproduct-api
 - baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
   baseurl_source: spec_template
   description: Operations for ApiProductOrder Resource
@@ -82,11 +71,6 @@ apis:
   description: Validate if the SIM of the end-user has been installed in a different device during a past period
   name: GSMA Open Gateway Check Device Swap API
   slug: open-gateway-check-device-swap-api
-- baseURL_template: '{apiRoot}/sim-swap/v2'
-  baseurl_source: spec_template
-  description: The Check SIM swap API from GSMA Open Gateway — 1 operation(s) for check sim swap.
-  name: GSMA Open Gateway Check SIM swap API
-  slug: open-gateway-check-sim-swap-api
 - baseURL_template: '{apiRoot}/kyc-tenure/v0.2'
   baseurl_source: spec_template
   description: Check details about the length of tenure of the subscriber
@@ -97,11 +81,6 @@ apis:
   description: Operations to get the network type device is connected to
   name: GSMA Open Gateway Connected Network Type API
   slug: open-gateway-connected-network-type-api
-- baseURL_template: '{apiRoot}/device-reachability-status/v1'
-  baseurl_source: spec_template
-  description: Operations to get the current reachability status of a device
-  name: GSMA Open Gateway Device reachability status API
-  slug: open-gateway-device-reachability-status-api
 - baseURL_template: '{apiRoot}/device-reachability-status-subscriptions/v0.8'
   baseurl_source: spec_template
   description: Operation to manage event subscription on device reachability status event.
@@ -127,16 +106,6 @@ apis:
   description: QoD control operations for home devices
   name: GSMA Open Gateway Home Devices QoD API
   slug: open-gateway-home-devices-qod-api
-- baseURL_template: '{apiRoot}/location-retrieval/v0.5'
-  baseurl_source: spec_template
-  description: Retrieve the location of a device
-  name: GSMA Open Gateway Location retrieval API
-  slug: open-gateway-location-retrieval-api
-- baseURL_template: '{apiRoot}/location-verification/v3'
-  baseurl_source: spec_template
-  description: Verification of the location of a device
-  name: GSMA Open Gateway Location verification API
-  slug: open-gateway-location-verification-api
 - baseURL_template: '{apiRoot}/kyc-match/v0.4'
   baseurl_source: spec_template
   description: Operations to match a customer identity against the account data bound to their phone number.
@@ -177,11 +146,6 @@ apis:
   description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
   name: GSMA Open Gateway Phone number verify API
   slug: open-gateway-phone-number-verify-api
-- baseURL_template: '{apiRoot}/population-density-data/v0.3'
-  baseurl_source: spec_template
-  description: Operations to retrieve population density information.
-  name: GSMA Open Gateway Population Density Data API
-  slug: open-gateway-population-density-data-api
 - baseURL_template: '{apiRoot}/qos-profiles/v1'
   baseurl_source: spec_template
   description: Manage QoS Profiles
@@ -197,16 +161,6 @@ apis:
   description: Receive the last date in which the device of the end-user was swapped
   name: GSMA Open Gateway Retrieve Device Swap Date API
   slug: open-gateway-retrieve-device-swap-date-api
-- baseURL_template: '{apiRoot}/sim-swap/v2'
-  baseurl_source: spec_template
-  description: The Retrieve SIM swap date API from GSMA Open Gateway — 1 operation(s) for retrieve sim swap date.
-  name: GSMA Open Gateway Retrieve SIM swap date API
-  slug: open-gateway-retrieve-sim-swap-date-api
-- baseURL_template: '{apiRoot}/device-roaming-status/v1'
-  baseurl_source: spec_template
-  description: Operation to get device roaming status and country information (if roaming) synchronously
-  name: GSMA Open Gateway Roaming status retrieval API
-  slug: open-gateway-roaming-status-retrieval-api
 - baseURL_template: '{apiRoot}/carrier-billing/v0.5'
   baseurl_source: spec_template
   description: Operations to manage Two Step Payment procedure
@@ -217,7 +171,12 @@ apis:
   description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: GSMA Open Gateway Unconditional Call Forwarding information retrieval API
   slug: open-gateway-unconditional-call-forwarding-information-retrieval-api
-artifact_total: 62
+- baseURL_template: '{apiRoot}/openGatewayOperateAPIOnboardingAndOrdering/v5/'
+  baseurl_source: spec_template
+  description: Operations for ApiProduct Resource
+  name: GSMA Open Gateway Api Product API
+  slug: open-gateway-api-product-api
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Open Gateway Webhooks
@@ -607,14 +566,14 @@ modified: '2026-07-25'
 name: GSMA Open Gateway
 nav: Providers
 network: true
-overview: 'GSMA Open Gateway publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Age Verification API, API Product API, API Product Order API, and 31 more. Tagged areas include Telecommunications, United Kingdom, Network APIs, CAMARA, and Open Gateway.
+overview: 'GSMA Open Gateway publishes 26 APIs on the [APIs.io](https://apis.io/) network, including API Product Order API, Application API, Application Owner API, and 23 more. Tagged areas include Telecommunications, United Kingdom, Network APIs, CAMARA, and Open Gateway.
 
 
   The GSMA Open Gateway catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   GSMA Open Gateway''s developer surface includes authentication, documentation, developer portal, privacy policy, sandbox, changelog, API reference, and 59 more developer resources.'
-random_paper: 15
+random_paper: 1
 scopes:
 - name: Open Gateway Scopes
   scope_count: 38
@@ -622,7 +581,7 @@ scopes:
   summary_line: 38 scopes
 score:
   band: developing
-  composite: 51.4
+  composite: 50.9
   coverage:
     artifact_dirs: 22
     catalog_earned: 32.0
@@ -630,11 +589,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 59.4
+    contract_quality: 57.5
     developer_ergonomics: 61.3
     discoverability: 77.8
     operational_transparency: 44.7
@@ -654,7 +613,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 34
+      total: 26
     mcp: first-party
     skills: derived
   regulatory:
@@ -664,7 +623,7 @@ score:
     regime_id: telecommunications
     score: 69.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

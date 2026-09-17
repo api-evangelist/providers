@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Merbridge uses eBPF to accelerate service mesh data planes by replacing iptables-based traffic interception and shortening the datapath between sidecars and services. It is a CNCF Sandbox project comp
@@ -110,7 +110,7 @@ plans:
 - name: Merbridge Plans Pricing
   plan_count: 3
   slug: merbridge-plans-pricing
-random_paper: 0
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Merbridge Rate Limits
@@ -138,7 +138,7 @@ score:
     score: 40.0
   previous_composite: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

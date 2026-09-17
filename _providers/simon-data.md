@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -82,15 +82,15 @@ common:
   type: Overlay
   url: overlays/simon-data-event-ingestion-overlay.yaml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-audience-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/_original/simon-data-audience-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/simon-data-audience-api-openapi.yml
+  url: openapi/_original/simon-data-audience-api-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-event-ingestion-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/_original/simon-data-event-ingestion-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/simon-data-event-ingestion-openapi.yml
+  url: openapi/_original/simon-data-event-ingestion-openapi.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/mcp/simon-data-mcp.yml
   title: ''
@@ -346,7 +346,7 @@ mcp_servers:
 - description: ''
   name: Simon Data MCP Server
   slug: simon-data-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Simon Data
 nav: Providers
 network: true
@@ -361,7 +361,7 @@ plans:
 - name: Simon Data Plans Pricing
   plan_count: 1
   slug: simon-data-plans-pricing
-random_paper: 18
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Simon Data Rate Limits
@@ -412,7 +412,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

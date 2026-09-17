@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 1
+- acting_count: 8
   human_in_the_loop: 0
   name: Sketchfab Agentic Access
-  operation_count: 4
+  operation_count: 24
   slug: sketchfab-agentic-access
-  summary_line: 4 operations · 1 acting
+  summary_line: 24 operations · 8 acting
 api_count: 1
 apis:
 - description: Client-side JavaScript library for controlling an embedded Sketchfab 3D viewer. Exposes camera control, screenshot capture, annotation, material and texture manipulation, post-processing filters, anim
@@ -52,16 +52,6 @@ apis:
   description: Programmatic download of 3D models from Sketchfab's library in glTF, GLB, and USDZ formats. Requires end-user OAuth authentication. Source formats (FBX, OBJ, etc.) are not exposed through the public A
   name: Sketchfab Download API
   slug: sketchfab-download-api
-- baseURL: https://api.sketchfab.com
-  baseurl_source: spec
-  description: oEmbed-protocol endpoint at https://sketchfab.com/oembed that returns JSON containing an HTML <iframe> snippet for any Sketchfab model or playlist URL. Supports maxwidth and maxheight parameters; alwa
-  name: Sketchfab oEmbed API
-  slug: sketchfab-oembed-api
-- baseURL: https://api.sketchfab.com
-  baseurl_source: spec
-  description: OAuth 2.0 authorization server for the Sketchfab platform. Supports Authorization Code, Implicit, and Resource Owner Password Credentials grant types plus refresh-token rotation. Authorize endpoint at
-  name: Sketchfab OAuth 2.0 API
-  slug: sketchfab-oauth-api
 - baseURL: https://api.sketchfab.com
   baseurl_source: declared
   description: Personal bookmarks.
@@ -112,6 +102,16 @@ apis:
   description: Retrieve user account information.
   name: Sketchfab Users API
   slug: sketchfab-users-api
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: oEmbed-protocol embed endpoint.
+  name: Sketchfab o Embed API
+  slug: sketchfab-o-embed-api
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token endpoints.
+  name: Sketchfab O Auth API
+  slug: sketchfab-oauth-api
 artifact_total: 55
 collections:
 - collection_type: postman
@@ -166,6 +166,10 @@ collections:
   name: Sketchfab Data Users API
   slug: open-sketchfab-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sketchfab.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/capabilities/sketchfab-capability-edges.yml
   title: ''
@@ -430,17 +434,17 @@ jsonld:
   property_count: 6
   slug: sketchfab-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Sketchfab
 nav: Providers
 network: true
-overview: 'Sketchfab publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Download API, oEmbed API, OAuth 2.0 API, and 10 more. Tagged areas include 3D, Models, Marketplace, Viewer, and WebGL.
+overview: 'Sketchfab publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Download API, Bookmarks API, Categories API, and 10 more. Tagged areas include 3D, Models, Marketplace, Viewer, and WebGL.
 
 
   The Sketchfab catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sketchfab''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 49 more developer resources.'
+  Sketchfab''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 50 more developer resources.'
 plans:
 - name: Sketchfab Plans Pricing
   plan_count: 5
@@ -493,7 +497,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

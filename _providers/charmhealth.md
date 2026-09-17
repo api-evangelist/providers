@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 15 operations
 api_count: 1
 apis:
-- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
-  baseurl_source: declared
-  description: Patient allergies and intolerances
-  name: CharmHealth AllergyIntolerance API
-  slug: charmhealth-allergyintolerance-api
 - baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
   baseurl_source: declared
   description: Scheduled appointments
@@ -61,11 +56,6 @@ apis:
   slug: charmhealth-capability-api
 - baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
   baseurl_source: declared
-  description: Care plans
-  name: CharmHealth CarePlan API
-  slug: charmhealth-careplan-api
-- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
-  baseurl_source: declared
   description: Care teams
   name: CharmHealth CareTeam API
   slug: charmhealth-careteam-api
@@ -76,11 +66,6 @@ apis:
   slug: charmhealth-condition-api
 - baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
   baseurl_source: declared
-  description: Clinical documents
-  name: CharmHealth DocumentReference API
-  slug: charmhealth-documentreference-api
-- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
-  baseurl_source: declared
   description: Patient encounters and visits
   name: CharmHealth Encounter API
   slug: charmhealth-encounter-api
@@ -89,11 +74,6 @@ apis:
   description: Immunization records
   name: CharmHealth Immunization API
   slug: charmhealth-immunization-api
-- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
-  baseurl_source: declared
-  description: Medication orders
-  name: CharmHealth MedicationRequest API
-  slug: charmhealth-medicationrequest-api
 - baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
   baseurl_source: declared
   description: Vital signs, lab results, and clinical observations
@@ -114,6 +94,26 @@ apis:
   description: Care providers
   name: CharmHealth Practitioner API
   slug: charmhealth-practitioner-api
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Patient allergies and intolerances
+  name: CharmHealth Allergy Intolerance API
+  slug: charmhealth-allergy-intolerance-api
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Care plans
+  name: CharmHealth Care plan API
+  slug: charmhealth-care-plan-api
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Clinical documents
+  name: CharmHealth Document Reference API
+  slug: charmhealth-document-reference-api
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Medication orders
+  name: CharmHealth Medication Request API
+  slug: charmhealth-medication-request-api
 artifact_total: 56
 collections:
 - collection_type: postman
@@ -340,7 +340,7 @@ modified: '2026-05-19'
 name: CharmHealth
 nav: Providers
 network: true
-overview: 'CharmHealth publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, Appointment API, Capability API, and 11 more. Tagged areas include EHR, EMR, FHIR, Healthcare, and HL7.
+overview: 'CharmHealth publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Appointment API, Capability API, CareTeam API, and 11 more. Tagged areas include EHR, EMR, FHIR, Healthcare, and HL7.
 
 
   The CharmHealth catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -351,7 +351,7 @@ plans:
 - name: Charmhealth Plans Pricing
   plan_count: 3
   slug: charmhealth-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Charmhealth Rate Limits
@@ -405,7 +405,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

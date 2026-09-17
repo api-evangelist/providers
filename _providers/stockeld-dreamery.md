@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Stockeld Dreamery is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Stockeld Dreamery''s developer surface includes support and 8 more developer resources.'
-random_paper: 16
+random_paper: 21
 score:
   band: minimal
   composite: 10.2
@@ -114,7 +114,7 @@ score:
     - nordics
   previous_composite: 10.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

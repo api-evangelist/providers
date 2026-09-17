@@ -44,7 +44,7 @@ name: Inbound Health
 nav: Providers
 network: true
 overview: Inbound Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Healthcare, Hospital at Home, and Home Health.
-random_paper: 19
+random_paper: 18
 security:
 - kind: domain-security
   name: Inbound Health Domain Security

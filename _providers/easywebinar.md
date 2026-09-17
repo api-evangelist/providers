@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The only anonymously reachable, machine-readable EasyWebinar API surface. The application host publishes a complete OpenID Connect discovery document and RFC 8414 authorization-server metadata, with l
@@ -154,7 +154,7 @@ description: EasyWebinar is a live and automated webinar platform for course cre
   is published.
 image: https://easywebinar.com/images/og-image.png
 layout: provider
-modified: '2026-08-12'
+modified: '2026-09-16'
 name: EasyWebinar
 nav: Providers
 network: true
@@ -169,7 +169,7 @@ plans:
 - name: Easywebinar Plans Pricing
   plan_count: 5
   slug: easywebinar-plans-pricing
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Easywebinar Rate Limits
@@ -201,7 +201,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -231,5 +231,6 @@ tags:
 - Identity
 - Authentication
 - Software-as-a-Service
+- Identity Federation
 website: https://easywebinar.com/
 ---

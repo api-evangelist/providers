@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ modified: '2026-04-28'
 name: Penske Automotive
 nav: Providers
 network: true
-overview: Penske Automotive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealerships, Transportation, and Fortune 500.
+overview: Penske Automotive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Dealership, Transportation, and Fortune 500.
 press:
 - date: '2026-05-25'
   title: Jack Hollis posted this
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: Penske expands service-scheduling AI pilot nationally
   url: https://www.autonews.com/service-and-parts/penske-automotive-group-expands-ai-pilot-nationally/
-random_paper: 7
+random_paper: 10
 score:
   band: minimal
   composite: 4.1
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -109,7 +109,7 @@ security:
 slug: penske-automotive
 tags:
 - Automotive
-- Dealerships
+- Dealership
 - Transportation
 - Fortune 500
 website: https://www.penskeautomotive.com

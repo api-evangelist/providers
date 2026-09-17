@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Managed subgraph hosting compatible with The Graph - deploy subgraph definitions and get a hosted GraphQL endpoint per subgraph for querying indexed onchain data. Includes sync acceleration and direct
@@ -116,7 +116,7 @@ modified: '2026-05-23'
 name: Goldsky
 nav: Providers
 network: true
-overview: 'Goldsky publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain Data, Indexer, Subgraphs, Change Data Capture, and Streaming.
+overview: 'Goldsky publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain Data, Indexer, Subgraph, Change Data Capture, and Streaming.
 
 
   Goldsky''s developer surface includes documentation, GitHub presence, engineering blog, and 6 more developer resources.'
@@ -124,7 +124,7 @@ plans:
 - name: Goldsky Plans Pricing
   plan_count: 1
   slug: goldsky-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Goldsky Rate Limits
@@ -151,7 +151,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -167,7 +167,7 @@ slug: goldsky
 tags:
 - Blockchain Data
 - Indexer
-- Subgraphs
+- Subgraph
 - Change Data Capture
 - Streaming
 - RPC

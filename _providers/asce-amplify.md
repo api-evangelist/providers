@@ -35,19 +35,59 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://api-hazard.asce.org/v1
-  baseurl_source: declared
-  description: The ASCE Hazard Tool API provides a simple interface to query locations in the United States for environmental hazard data by geographic location. It provides site-specific hazard values used in struc
-  name: ASCE Hazard Tool API
-  slug: hazard-tool-api
 - description: The ASCE ArcGIS Server instance at gis.asce.org publishes the hazard map, image and geoprocessing services that back the ASCE Hazard Tool — ASCE 7 wind, ice, snow, seismic, tsunami and tornado layers,
   name: ASCE GIS REST Services
   slug: arcgis-rest-services
-artifact_total: 17
+- baseURL: https://api-hazard.asce.org/v1
+  baseurl_source: declared
+  description: The Flood API from ASCE Amplify — 1 operation(s) for flood.
+  name: ASCE Amplify Flood API
+  slug: asce-amplify-flood-api
+- baseURL: https://api-hazard.asce.org/v1
+  baseurl_source: declared
+  description: The Ice API from ASCE Amplify — 1 operation(s) for ice.
+  name: ASCE Amplify Ice API
+  slug: asce-amplify-ice-api
+- baseURL: https://api-hazard.asce.org/v1
+  baseurl_source: declared
+  description: The Rain API from ASCE Amplify — 1 operation(s) for rain.
+  name: ASCE Amplify Rain API
+  slug: asce-amplify-rain-api
+- baseURL: https://api-hazard.asce.org/v1
+  baseurl_source: declared
+  description: The Seismic API from ASCE Amplify — 1 operation(s) for seismic.
+  name: ASCE Amplify Seismic API
+  slug: asce-amplify-seismic-api
+- baseURL: https://api-hazard.asce.org/v1
+  baseurl_source: declared
+  description: The Snow API from ASCE Amplify — 1 operation(s) for snow.
+  name: ASCE Amplify Snow API
+  slug: asce-amplify-snow-api
+- baseURL: https://api-hazard.asce.org/v1
+  baseurl_source: declared
+  description: The Tornado API from ASCE Amplify — 1 operation(s) for tornado.
+  name: ASCE Amplify Tornado API
+  slug: asce-amplify-tornado-api
+- baseURL: https://api-hazard.asce.org/v1
+  baseurl_source: declared
+  description: The Tsunami API from ASCE Amplify — 1 operation(s) for tsunami.
+  name: ASCE Amplify Tsunami API
+  slug: asce-amplify-tsunami-api
+- baseURL: https://api-hazard.asce.org/v1
+  baseurl_source: declared
+  description: The Wind API from ASCE Amplify — 1 operation(s) for wind.
+  name: ASCE Amplify Wind API
+  slug: asce-amplify-wind-api
+artifact_total: 24
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/overlays/asce-amplify-hazard-loads-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/asce-amplify-hazard-loads-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/llms/asce-amplify-llms.txt
   title: ''
@@ -198,22 +238,22 @@ modified: '2026-09-07'
 name: ASCE Amplify
 nav: Providers
 network: true
-overview: 'ASCE Amplify publishes 1 API on the [APIs.io](https://apis.io/) network: ASCE Hazard Tool API. Tagged areas include Civil Engineering, Hazard Data, Engineering Standards, Infrastructure, and Structural Engineering.
+overview: 'ASCE Amplify publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Flood API, Ice API, Rain API, and 5 more. Tagged areas include Civil Engineering, Hazard Data, Engineering Standards, Infrastructure, and Structural Engineering.
 
 
-  ASCE Amplify''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, pricing, and 20 more developer resources.'
+  ASCE Amplify''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, pricing, and 21 more developer resources.'
 plans:
 - name: Asce Amplify Plans Pricing
   plan_count: 0
   slug: asce-amplify-plans-pricing
-random_paper: 14
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Asce Amplify Rate Limits
   slug: asce-amplify-rate-limits
 score:
   band: developing
-  composite: 44.1
+  composite: 44.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 48.0
@@ -221,11 +261,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 42.2
+    contract_quality: 44.9
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 36.8
@@ -236,11 +276,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

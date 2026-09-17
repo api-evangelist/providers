@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 7
   slug: game-of-thrones-agentic-access
   summary_line: 7 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://www.anapioficeandfire.com/api
   baseurl_source: declared
@@ -58,12 +58,7 @@ apis:
   description: Noble houses from the A Song of Ice and Fire universe
   name: An API of Ice and Fire houses API
   slug: game-of-thrones-houses-api
-- baseURL: https://anapioficeandfire.com/api
-  baseurl_source: declared
-  description: API entry-point listing the top-level resource URLs.
-  name: An API of Ice And Fire Root API
-  slug: an-api-of-ice-and-fire-root-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -164,7 +159,7 @@ modified: '2026-06-13'
 name: An API of Ice and Fire
 nav: Providers
 network: true
-overview: 'An API of Ice and Fire publishes 4 APIs on the [APIs.io](https://apis.io/) network, including books API, characters API, houses API, and 1 more. Tagged areas include Game of Thrones, ASOIAF, A Song of Ice and Fire, Books, and Characters.
+overview: 'An API of Ice and Fire publishes 3 APIs on the [APIs.io](https://apis.io/) network: books API, characters API, and houses API. Tagged areas include Game of Thrones, ASOIAF, A Song of Ice and Fire, Books, and Characters.
 
 
   The An API of Ice and Fire catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -175,7 +170,7 @@ plans:
 - name: Game Of Thrones Plans Pricing
   plan_count: 1
   slug: game-of-thrones-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Game Of Thrones Rate Limits
@@ -205,8 +200,8 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 49.3
-    developer_ergonomics: 26.2
+    contract_quality: 62.5
+    developer_ergonomics: 9.5
     discoverability: 68.5
     operational_transparency: 26.3
   previous_composite: 34.8
@@ -214,11 +209,11 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 25.0
-      total: 4
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

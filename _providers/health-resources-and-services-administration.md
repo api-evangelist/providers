@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The HRSA Health Center Data Service enables users to query for health centers by state, county, or ZIP Code, providing access to federally qualified health center location and service information.
@@ -93,7 +93,7 @@ plans:
 - name: Health Resources And Services Administration Plans Pricing
   plan_count: 3
   slug: health-resources-and-services-administration-plans-pricing
-random_paper: 9
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Health Resources And Services Administration Rate Limits
@@ -124,7 +124,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

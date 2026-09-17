@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ modified: '2026-07-04'
 name: Spectora
 nav: Providers
 network: true
-overview: 'Spectora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Home Inspection, Inspection Reports, Field Services, Real-Estate, and Scheduling.
+overview: 'Spectora is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Home Inspection, Inspection Reports, Field Service, Real-Estate, and Scheduling.
 
 
   Spectora''s developer surface includes documentation and 6 more developer resources.'
@@ -84,7 +84,7 @@ plans:
 - name: Spectora Plans Pricing
   plan_count: 4
   slug: spectora-plans-pricing
-random_paper: 4
+random_paper: 7
 score:
   band: emerging
   composite: 13.2
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -121,7 +121,7 @@ slug: spectora
 tags:
 - Home Inspection
 - Inspection Reports
-- Field Services
+- Field Service
 - Real-Estate
 - Scheduling
 - Webhook

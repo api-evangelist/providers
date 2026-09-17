@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
 - baseURL: https://www.limitless.ai
   baseurl_source: declared
   description: The Limitless Developer API API from Limitless — 1 operation(s) for limitless developer api.
-  name: Limitless Limitless Developer API API
+  name: Limitless Developer API
   slug: limitless-ai-limitless-developer-api-api
 artifact_total: 21
 collections:
@@ -284,11 +284,11 @@ mcp_servers:
 - description: ''
   name: Limitless MCP Server
   slug: limitless-mcp-server
-modified: '2026-08-08'
+modified: '2026-09-16'
 name: Limitless
 nav: Providers
 network: true
-overview: 'Limitless publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chats API, Download Audio API, Lifelogs API, and 1 more. Tagged areas include Artificial Intelligence, Wearable, Pendant, Meeting Notes, and Lifelogs.
+overview: 'Limitless publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chats API, Download Audio API, Lifelogs API, and 1 more. Tagged areas include Artificial Intelligence, Wearables, Pendant, Meeting Notes, and Lifelogs.
 
 
   Limitless'' developer surface includes GitHub presence, documentation, API reference, getting-started guide, signup flow, support, privacy policy, and 33 more developer resources.'
@@ -296,7 +296,7 @@ plans:
 - name: Limitless Ai Plans Pricing
   plan_count: 1
   slug: limitless-ai-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Limitless Ai Rate Limits
@@ -336,7 +336,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -355,7 +355,7 @@ security:
 slug: limitless-ai
 tags:
 - Artificial Intelligence
-- Wearable
+- Wearables
 - Pendant
 - Meeting Notes
 - Lifelogs

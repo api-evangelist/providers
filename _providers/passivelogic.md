@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 6
@@ -91,11 +91,6 @@ apis:
   slug: passivelogic-export-api
 - baseURL: https://passivelogic.com/api/
   baseurl_source: declared
-  description: Routes related to the GraphQL API
-  name: PassiveLogic Graph QL API
-  slug: passivelogic-graphql-api
-- baseURL: https://passivelogic.com/api/
-  baseurl_source: declared
   description: Routes related to server health checks
   name: PassiveLogic Health API
   slug: passivelogic-health-api
@@ -112,7 +107,7 @@ apis:
 - baseURL: https://passivelogic.com/api/
   baseurl_source: declared
   description: Routes related to PassiveLogic devices
-  name: PassiveLogic PassiveLogic Device API
+  name: PassiveLogic Device API
   slug: passivelogic-passivelogic-device-api
 - baseURL: https://passivelogic.com/api/
   baseurl_source: declared
@@ -134,6 +129,11 @@ apis:
   description: Routes related to server metadata/utility
   name: PassiveLogic Utility API
   slug: passivelogic-utility-api
+- baseURL: https://passivelogic.com/api/graphql
+  baseurl_source: declared
+  description: Routes related to the GraphQL API
+  name: PassiveLogic Graph QL API
+  slug: passivelogic-graph-ql-api
 artifact_total: 42
 asyncapis:
 - description: ''
@@ -326,7 +326,7 @@ created: '2026-08-04'
 description: PassiveLogic builds a physics-based autonomy platform for buildings and industrial systems — the Hive, Hive Mini and Cell edge controllers, the Sense wireless sensor line, and the Autonomy Suite design/operate applications (Blueprint, Creator, Lens, Live, Portfolio, Qortex). Its software core is Quantum, an open physics-based digital twin ontology and data model for autonomous systems, developed with the U.S. Department of Energy and the Quantum Alliance consortium. The Quantum API is exposed as a GraphQL query and subscription surface over the digital twin graph, sat behind a documented HTTP REST API covering authentication, API-key issuance, organizations, auth groups, images, bindings, device registration, CSV property-history export and QuantumSync WebSocket data sync. Authentication is handled by an external Keycloak identity provider (OpenID Connect) with JWT, XSRF-protected session tokens and long-lived PL API keys.
 image: https://framerusercontent.com/assets/L5gk3b8Fq6q5IinWJOFtKMlivU.png
 layout: provider
-modified: '2026-08-04'
+modified: '2026-09-16'
 name: PassiveLogic
 nav: Providers
 network: true
@@ -337,7 +337,7 @@ overview: 'PassiveLogic publishes 17 APIs on the [APIs.io](https://apis.io/) net
 
 
   PassiveLogic''s developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, sandbox, and 20 more developer resources.'
-random_paper: 8
+random_paper: 13
 scopes:
 - name: Passivelogic Scopes
   scope_count: 13
@@ -345,7 +345,7 @@ scopes:
   summary_line: 13 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 40.8
+  composite: 40.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 38.3
@@ -353,11 +353,11 @@ score:
     catalog_gap: 76.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 13.2
     contract_governance: 8.3
-    contract_quality: 56.3
+    contract_quality: 53.0
     developer_ergonomics: 42.3
     discoverability: 68.5
     operational_transparency: 26.3
@@ -366,7 +366,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 17
@@ -378,7 +378,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

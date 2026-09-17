@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The OpenBao HTTP API gives full access to every OpenBao capability over REST-like HTTP verbs. All routes are prefixed with /v1/ and the API is versioned only at that prefix. Authentication is by clien
@@ -192,7 +192,7 @@ plans:
 - name: Openbao Plans Pricing
   plan_count: 0
   slug: openbao-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Openbao Rate Limits
@@ -221,7 +221,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

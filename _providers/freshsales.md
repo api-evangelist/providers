@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -89,16 +89,6 @@ apis:
   slug: freshsales-products-api
 - baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
   baseurl_source: declared
-  description: The SalesAccounts API from Freshsales — 3 operation(s) for salesaccounts.
-  name: Freshsales SalesAccounts API
-  slug: freshsales-salesaccounts-api
-- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
-  baseurl_source: declared
-  description: The SalesActivities API from Freshsales — 1 operation(s) for salesactivities.
-  name: Freshsales SalesActivities API
-  slug: freshsales-salesactivities-api
-- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
-  baseurl_source: declared
   description: The Search API from Freshsales — 1 operation(s) for search.
   name: Freshsales Search API
   slug: freshsales-search-api
@@ -107,6 +97,16 @@ apis:
   description: The Tasks API from Freshsales — 2 operation(s) for tasks.
   name: Freshsales Tasks API
   slug: freshsales-tasks-api
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Sales Accounts API from Freshsales — 3 operation(s) for sales accounts.
+  name: Freshsales Sales Accounts API
+  slug: freshsales-sales-accounts-api
+- baseURL: https://<bundle-alias>.myfreshworks.com/crm/sales/api
+  baseurl_source: declared
+  description: The Sales Activities API from Freshsales — 1 operation(s) for sales activities.
+  name: Freshsales Sales Activities API
+  slug: freshsales-sales-activities-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -221,14 +221,14 @@ modified: '2026-05-11'
 name: Freshsales
 nav: Providers
 network: true
-overview: 'Freshsales publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Calls API, Contacts API, and 9 more. Tagged areas include CRM, Sales, Contacts, Deals, and Pipeline.
+overview: 'Freshsales publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Calls API, Contacts API, and 9 more. Tagged areas include CRM, Sales, Contacts, Deals, and Pipelines.
 
 
   Freshsales'' developer surface includes authentication, documentation, signup flow, pricing, support, and 8 more developer resources.'
-random_paper: 1
+random_paper: 16
 score:
   band: thin
-  composite: 33.3
+  composite: 34.2
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -236,11 +236,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 53.0
+    contract_quality: 56.6
     developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 2.6
@@ -253,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -282,7 +282,7 @@ tags:
 - Sales
 - Contacts
 - Deals
-- Pipeline
+- Pipelines
 - Lead Management
 - Freshworks
 website: https://www.freshworks.com/crm/sales/

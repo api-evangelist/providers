@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ modified: '2026-06-13'
 name: Email on Acid
 nav: Providers
 network: true
-overview: 'Email on Acid publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Email Clients API, Email Testing API, and 1 more. Tagged areas include Email Testing, Email Previews, Email Clients, Spam Testing, and Accessibility.
+overview: 'Email on Acid publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Email Clients API, Email Testing API, and 1 more. Tagged areas include Email Testing, Email Previews, Email Client, Spam Testing, and Accessibility.
 
 
   The Email on Acid catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -201,7 +201,7 @@ plans:
 - name: Email On Acid Plans Pricing
   plan_count: 3
   slug: email-on-acid-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Email On Acid Rate Limits
@@ -244,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -267,7 +267,7 @@ slug: email-on-acid
 tags:
 - Email Testing
 - Email Previews
-- Email Clients
+- Email Client
 - Spam Testing
 - Accessibility
 - HTML Validation

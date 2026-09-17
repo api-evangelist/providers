@@ -18,21 +18,51 @@ agent_readiness:
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 21.8
-  scored_at: '2026-09-15'
+  score: 23.5
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://video-cn.fly4k.com/api
   baseurl_source: declared
-  description: Backend API for Diebian AI (蝶变 AI), 4K Garden's credit-metered video super-resolution platform. Covers authentication, customer accounts and prepaid credit balances, super-resolution task submission a
-  name: Diebian AI Super-Resolution API
-  slug: diebian-ai-super-resolution-api
-artifact_total: 5
+  description: The auth-controller API from 4K Garden — 9 operation(s) for auth-controller.
+  name: 4K Garden Auth Controller API
+  slug: 4k-garden-auth-controller-api
+- baseURL: https://video-cn.fly4k.com/api
+  baseurl_source: declared
+  description: The customer-controller API from 4K Garden — 22 operation(s) for customer-controller.
+  name: 4K Garden Customer Controller API
+  slug: 4k-garden-customer-controller-api
+- baseURL: https://video-cn.fly4k.com/api
+  baseurl_source: declared
+  description: The enterprise-controller API from 4K Garden — 9 operation(s) for enterprise-controller.
+  name: 4K Garden Enterprise Controller API
+  slug: 4k-garden-enterprise-controller-api
+- baseURL: https://video-cn.fly4k.com/api
+  baseurl_source: declared
+  description: The frontend-controller API from 4K Garden — 10 operation(s) for frontend-controller.
+  name: 4K Garden Frontend Controller API
+  slug: 4k-garden-frontend-controller-api
+- baseURL: https://video-cn.fly4k.com/api
+  baseurl_source: declared
+  description: The tvc-controller API from 4K Garden — 8 operation(s) for tvc-controller.
+  name: 4K Garden Tvc Controller API
+  slug: 4k-garden-tvc-controller-api
+artifact_total: 9
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/overlays/4k-garden-diebian-ai-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/4k-garden-diebian-ai-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/4k-garden/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -72,22 +102,22 @@ modified: '2026-09-05'
 name: 4K Garden
 nav: Providers
 network: true
-overview: '4K Garden publishes 1 API on the [APIs.io](https://apis.io/) network: Diebian AI Super-Resolution API. Tagged areas include Company, Video, Ultra High Definition, Media and Entertainment, and Content Distribution.
+overview: '4K Garden publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Auth Controller API, Customer Controller API, Enterprise Controller API, and 2 more. Tagged areas include Company, Video, Ultra High Definition, Media and Entertainment, and Content Distribution.
 
 
-  4K Garden''s developer surface includes engineering blog and 6 more developer resources.'
+  4K Garden''s developer surface includes engineering blog and 8 more developer resources.'
 plans:
 - name: 4K Garden Plans Pricing
   plan_count: 4
   slug: 4k-garden-plans-pricing
-random_paper: 10
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: 4K Garden Rate Limits
   slug: 4k-garden-rate-limits
 score:
   band: thin
-  composite: 26.8
+  composite: 26.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 49.0
@@ -95,11 +125,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 43.3
+    contract_quality: 42.9
     developer_ergonomics: 14.9
     discoverability: 68.5
     operational_transparency: 0.0
@@ -113,10 +143,15 @@ score:
   previous_composite: 26.8
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

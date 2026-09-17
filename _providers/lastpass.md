@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: 'Single POST endpoint at lastpass.com/enterpriseapi.php that accepts a JSON payload selecting one of many command names (batchadd, batchchange, deluser, disableuser, getuserdata, getsfdata, getreport, '
@@ -104,7 +104,7 @@ finops:
   slug: lastpass-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lastpass.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-09-16'
 name: LastPass
 nav: Providers
 network: true
@@ -116,7 +116,7 @@ plans:
 - name: Lastpass Plans Pricing
   plan_count: 7
   slug: lastpass-plans-pricing
-random_paper: 14
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Lastpass Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -162,5 +162,6 @@ tags:
 - Enterprise
 - SSO
 - MFA
+- Identity Federation
 website: https://www.lastpass.com/
 ---

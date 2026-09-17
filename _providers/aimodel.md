@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - baseURL: https://www.ai-model.jp/wp-json
   baseurl_source: declared
@@ -33,16 +33,51 @@ apis:
   slug: aimodel-models-api
 - baseURL: https://www.ai-model.jp/wp-json
   baseurl_source: declared
-  description: Company news, recruitment posts, announcements, pages, the media library, categories and site-wide search, served anonymously by the WordPress REST API behind www.ai-model.jp.
-  name: AI model Content API
-  slug: aimodel-content-api
-- baseURL: https://www.ai-model.jp/wp-json
-  baseurl_source: declared
   description: Self-describing metadata for the public www.ai-model.jp WordPress REST API - registered content types, taxonomies and post statuses - and the route discovery document this profile was derived from.
   name: AI model Discovery API
   slug: aimodel-discovery-api
-artifact_total: 7
+- baseURL: https://www.ai-model.jp/wp-json
+  baseurl_source: declared
+  description: Recruitment / career information posts.
+  name: AI model Careers API
+  slug: aimodel-careers-api
+- baseURL: https://www.ai-model.jp/wp-json
+  baseurl_source: declared
+  description: Images and files in the media library.
+  name: AI model Media API
+  slug: aimodel-media-api
+- baseURL: https://www.ai-model.jp/wp-json
+  baseurl_source: declared
+  description: AI model company news posts.
+  name: AI model News API
+  slug: aimodel-news-api
+- baseURL: https://www.ai-model.jp/wp-json
+  baseurl_source: declared
+  description: Site announcements (お知らせ).
+  name: AI model Notifications API
+  slug: aimodel-notifications-api
+- baseURL: https://www.ai-model.jp/wp-json
+  baseurl_source: declared
+  description: Static site pages.
+  name: AI model Pages API
+  slug: aimodel-pages-api
+- baseURL: https://www.ai-model.jp/wp-json
+  baseurl_source: declared
+  description: Site-wide search across public content.
+  name: AI model Search API
+  slug: aimodel-search-api
+- baseURL: https://www.ai-model.jp/wp-json
+  baseurl_source: declared
+  description: Categories and tags applied to content.
+  name: AI model Taxonomy API
+  slug: aimodel-taxonomy-api
+artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aimodel/refs/heads/main/overlays/aimodel-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aimodel-content-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -145,36 +180,36 @@ modified: '2026-09-14'
 name: AI model
 nav: Providers
 network: true
-overview: 'AI model publishes 3 APIs on the [APIs.io](https://apis.io/) network: Models API, Content API, and Discovery API. Tagged areas include Artificial Intelligence, Generative AI, Japan, E-Commerce, and Fashion.
+overview: 'AI model publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Models API, Discovery API, Careers API, and 6 more. Tagged areas include Artificial Intelligence, Generative AI, Japan, E-Commerce, and Fashion.
 
 
-  AI model''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
+  AI model''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
 plans:
 - name: Aimodel Plans Pricing
   plan_count: 0
   slug: aimodel-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Aimodel Rate Limits
   slug: aimodel-rate-limits
 score:
   band: emerging
-  composite: 17.9
+  composite: 17.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 13.6
     developer_ergonomics: 20.8
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -188,13 +223,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 9
       marker_coverage: 100.0
-      total: 3
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

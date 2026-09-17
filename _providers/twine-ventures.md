@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,7 +82,7 @@ overview: 'Twine Ventures is profiled on the [APIs.io](https://apis.io/) network
 
 
   Twine Ventures'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 18
+random_paper: 14
 score:
   band: minimal
   composite: 4.5
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -129,7 +129,7 @@ tags:
 - Investor
 - Early Stage
 - Healthcare
-- Industrials
+- Industrial
 - Fintech
 - Data
 - Artificial Intelligence

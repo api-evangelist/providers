@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Private REST API backing the EarthOptics customer application (360 PRO dashboard) at app.earthoptics.com. Served from api.earthoptics.com on gunicorn behind Django REST Framework, with a drf-spectacul
@@ -162,7 +162,7 @@ overview: 'EarthOptics publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   EarthOptics'' developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 17
+random_paper: 3
 score:
   band: emerging
   composite: 22.4
@@ -196,7 +196,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

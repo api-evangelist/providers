@@ -19,7 +19,7 @@ name: CAD Solutions
 nav: Providers
 network: true
 overview: CAD Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CAD, Computer-Aided Design, Engineering Software, and Design Software.
-random_paper: 5
+random_paper: 7
 slug: cad-solutions
 tags:
 - Company

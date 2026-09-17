@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -436,7 +436,7 @@ modified: '2026-06-13'
 name: Actionstep
 nav: Providers
 network: true
-overview: 'Actionstep publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Action Bill Settings API, Action Folders API, Action NetDocuments Settings API, and 32 more. Tagged areas include Legal, Practice Management, Law Firm, Matters, and Billing.
+overview: 'Actionstep publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Action Bill Settings API, Action Folders API, Action NetDocuments Settings API, and 32 more. Tagged areas include Legal, Practice Management, Law Firms, Matter, and Billing.
 
 
   The Actionstep catalog on APIs.io includes 1 JSON-LD context.
@@ -447,14 +447,14 @@ plans:
 - name: Actionstep Plans Pricing
   plan_count: 5
   slug: actionstep-plans-pricing
-random_paper: 11
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Actionstep Rate Limits
   slug: actionstep-rate-limits
 score:
   band: developing
-  composite: 48.4
+  composite: 48.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 67.0
@@ -462,11 +462,11 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 68.4
     contract_governance: 15.2
-    contract_quality: 51.0
+    contract_quality: 52.3
     developer_ergonomics: 45.2
     discoverability: 50.0
     operational_transparency: 52.6
@@ -474,13 +474,13 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 35
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -503,8 +503,8 @@ slug: actionstep
 tags:
 - Legal
 - Practice Management
-- Law Firm
-- Matters
+- Law Firms
+- Matter
 - Billing
 - Documents
 - Trust Accounting

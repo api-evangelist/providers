@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -82,14 +82,14 @@ apis:
   slug: bell-canada-resource-api
 - baseURL: https://serverRoot/tmf-api/serviceOrdering/v4
   baseurl_source: spec
-  description: The serviceOrder API from Bell Canada — 2 operation(s) for serviceorder.
+  description: The Service Order API from Bell Canada — 2 operation(s) for service order.
   name: Bell Canada Service Order API
-  slug: bell-canada-serviceorder-api
+  slug: bell-canada-service-order-api
 - baseURL: https://serverRoot/tmf-api/troubleTicket/v4/
   baseurl_source: spec
-  description: The troubleTicket API from Bell Canada — 2 operation(s) for troubleticket.
+  description: The Trouble Ticket API from Bell Canada — 2 operation(s) for trouble ticket.
   name: Bell Canada Trouble Ticket API
-  slug: bell-canada-troubleticket-api
+  slug: bell-canada-trouble-ticket-api
 artifact_total: 17
 asyncapis:
 - description: ''
@@ -304,7 +304,7 @@ overview: 'Bell Canada publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Bell Canada''s developer surface includes authentication, sandbox, code examples, getting-started guide, support, documentation, API reference, and 32 more developer resources.'
-random_paper: 10
+random_paper: 4
 score:
   band: developing
   composite: 48.2
@@ -348,7 +348,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

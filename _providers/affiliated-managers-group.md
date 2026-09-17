@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.0
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
 - description: Digital platform providing financial advisors and their clients access to independent investment managers with differentiated investment solutions. Offers access to mutual funds, separately managed ac
   name: AMG Wealth Platform
@@ -44,15 +44,25 @@ apis:
   slug: affiliated-managers-group-investor-relations
 - baseURL: https://wealth.amg.com/wp-json/amgfundsdata/v1
   baseurl_source: declared
-  description: 'Undocumented, anonymously callable JSON API on wealth.amg.com that backs the AMG Wealth Platform product pages. Exposed as the AMG-authored WordPress REST namespace amgfundsdata/v1, whose route table '
-  name: AMG Funds Data API
-  slug: affiliated-managers-group-funds-data
-- baseURL: https://www.amg.com/wp-json/amginc/v1
+  description: The AMG Affiliate roster of independent investment management firms.
+  name: Affiliated Managers Group Affiliates API
+  slug: affiliated-managers-group-affiliates-api
+- baseURL: https://wealth.amg.com/wp-json/amgfundsdata/v1
   baseurl_source: declared
-  description: Undocumented, anonymously callable JSON API on www.amg.com that backs the AMG Affiliate directory. Exposed as the AMG-authored WordPress REST namespace amginc/v1. A single POST-only route, /amginc/v1/
-  name: AMG Corporate Content API
-  slug: affiliated-managers-group-corporate-content
-artifact_total: 26
+  description: Per-ticker fund detail panels rendered as HTML fragments.
+  name: Affiliated Managers Group Fund Detail API
+  slug: affiliated-managers-group-fund-detail-api
+- baseURL: https://wealth.amg.com/wp-json/amgfundsdata/v1
+  baseurl_source: declared
+  description: Fund and product listings, tables and cross-reference data.
+  name: Affiliated Managers Group Products API
+  slug: affiliated-managers-group-products-api
+- baseURL: https://wealth.amg.com/wp-json/amgfundsdata/v1
+  baseurl_source: declared
+  description: SMA strategy detail panels.
+  name: Affiliated Managers Group Separately Managed Accounts API
+  slug: affiliated-managers-group-separately-managed-accounts-api
+artifact_total: 28
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/security/affiliated-managers-group-domain-security.yml
@@ -188,7 +198,7 @@ modified: '2026-08-30'
 name: Affiliated Managers Group
 nav: Providers
 network: true
-overview: 'Affiliated Managers Group publishes 2 APIs on the [APIs.io](https://apis.io/) network: AMG Funds Data API and AMG Corporate Content API. Tagged areas include Asset Management, Investment Management, Financial-Services, Wealth Management, and Institutional Investing.
+overview: 'Affiliated Managers Group publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Fund Detail API, Products API, and 1 more. Tagged areas include Asset Management, Investment Management, Financial-Services, Wealth Management, and Institutional Investing.
 
 
   Affiliated Managers Group''s developer surface includes authentication, support, developer portal, and 18 more developer resources.'
@@ -212,41 +222,41 @@ press:
 - date: '2026-05-25'
   title: AFFILIATED MANAGERS GROUP, INC. - Investor Relations
   url: https://ir.amg.com/static-files/8a2c2594-42c3-4f8f-95dd-222c6272344c
-random_paper: 6
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Affiliated Managers Group Rate Limits
   slug: affiliated-managers-group-rate-limits
 score:
   band: thin
-  composite: 30.3
+  composite: 30.9
   coverage:
     artifact_dirs: 21
-    catalog_earned: 43.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 63.2
     contract_governance: 15.2
-    contract_quality: 13.3
+    contract_quality: 13.4
     developer_ergonomics: 37.5
-    discoverability: 57.4
+    discoverability: 63.0
     operational_transparency: 0.0
   previous_composite: 30.3
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 4
       marker_coverage: 100.0
-      total: 2
+      total: 4
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

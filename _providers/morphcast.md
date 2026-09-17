@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'We expertly craft safe browser-processing, energy-efficient, accurate Emotion AI solutions to analyze facial emotions, empowering AI Agents and delivering empathetic, data-driven, and dynamic digital '
@@ -41,6 +41,10 @@ apis:
   slug: morphcast
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://morphcast.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/morphcast/refs/heads/main/security/morphcast-domain-security.yml
   title: ''
@@ -66,19 +70,19 @@ finops:
   slug: morphcast-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/morphcast.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: MorphCast
 nav: Providers
 network: true
 overview: 'MorphCast publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Emotion AI, Facial Analysis, and SDK.
 
 
-  MorphCast''s developer surface includes engineering blog and 3 more developer resources.'
+  MorphCast''s developer surface includes engineering blog and 4 more developer resources.'
 plans:
 - name: Morphcast Plans Pricing
   plan_count: 3
   slug: morphcast-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Morphcast Rate Limits
@@ -103,7 +107,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -120,4 +124,5 @@ tags:
 - Emotion AI
 - Facial Analysis
 - SDK
+website: https://morphcast.com
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,8 +62,8 @@ modified: '2026-07-21'
 name: Searchlight
 nav: Providers
 network: true
-overview: Searchlight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Services, Startup, Software-as-a-Service, and Accel.
-random_paper: 11
+overview: Searchlight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Services, Startups, Software-as-a-Service, and Accel.
+random_paper: 0
 score:
   band: minimal
   composite: 6.0
@@ -84,7 +84,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 6.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -99,7 +99,7 @@ slug: searchlight
 tags:
 - Company
 - Services
-- Startup
+- Startups
 - Software-as-a-Service
 - Accel
 - Web Application

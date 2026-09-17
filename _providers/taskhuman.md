@@ -48,7 +48,7 @@ name: TaskHuman
 nav: Providers
 network: true
 overview: TaskHuman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coaching, Human Resources, Employee Benefits, and Wellbeing.
-random_paper: 6
+random_paper: 4
 security:
 - kind: domain-security
   name: Taskhuman Domain Security

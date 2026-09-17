@@ -24,7 +24,7 @@ name: Nantero
 nav: Providers
 network: true
 overview: Nantero is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Semiconductors, Memory, and Nanotechnology.
-random_paper: 3
+random_paper: 11
 slug: nantero
 tags:
 - Company

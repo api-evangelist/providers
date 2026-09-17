@@ -70,7 +70,7 @@ name: Stockpile
 nav: Providers
 network: true
 overview: Stockpile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Investing, Brokerage, and Fractional Shares.
-random_paper: 8
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockpile/refs/heads/main/screenshots/stockpile-2026-09-02T160915.png
 security:
 - kind: domain-security

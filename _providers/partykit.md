@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Library API for defining server-side logic for a "party" - a backend object backed by a Cloudflare Durable Object. Provides lifecycle hooks for connections, messages, requests, alarms, and state persi
@@ -115,7 +115,7 @@ modified: '2026-05-29'
 name: PartyKit
 nav: Providers
 network: true
-overview: 'PartyKit publishes 1 API on the [APIs.io](https://apis.io/) network: Deployed Party (HTTP / WebSocket). Tagged areas include Real-Time, Multiplayer, WebSockets, Cloudflare, and Durable Objects.
+overview: 'PartyKit publishes 1 API on the [APIs.io](https://apis.io/) network: Deployed Party (HTTP / WebSocket). Tagged areas include Real-Time, Multiplayer, WebSocket, Cloudflare, and Durable Objects.
 
 
   The PartyKit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -126,7 +126,7 @@ plans:
 - name: Partykit Plans Pricing
   plan_count: 1
   slug: partykit-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Partykit Rate Limits
@@ -163,7 +163,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 43.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +179,7 @@ slug: partykit
 tags:
 - Real-Time
 - Multiplayer
-- WebSockets
+- WebSocket
 - Cloudflare
 - Durable Objects
 - Edge

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.ecr.amazonaws.com
   baseurl_source: declared
   description: The Amazon ECR Amazon Elastic Container Registry (ECR) API API from Amazon ECR — 1 operation(s) for amazon ecr amazon elastic container registry (ecr) api.
-  name: Amazon ECR Amazon ECR Amazon Elastic Container Registry (ECR) API API
+  name: Amazon ECR Amazon ECR Amazon Elastic Container Registry (ECR) API
   slug: amazon-ecr-amazon-ecr-amazon-elastic-container-registry-ecr-api-api
 - baseURL: https://api.ecr.amazonaws.com
   baseurl_source: declared
@@ -67,14 +67,14 @@ apis:
   slug: amazon-ecr-describerepositories-api
 - baseURL: https://api.ecr.amazonaws.com
   baseurl_source: declared
-  description: 'The #ListImages API from Amazon ECR — 1 operation(s) for #listimages.'
-  name: 'Amazon ECR #ListImages API'
-  slug: amazon-ecr-listimages-api
-- baseURL: https://api.ecr.amazonaws.com
-  baseurl_source: declared
   description: 'The #PutImage API from Amazon ECR — 1 operation(s) for #putimage.'
   name: 'Amazon ECR #PutImage API'
   slug: amazon-ecr-putimage-api
+- baseURL: https://api.ecr.amazonaws.com
+  baseurl_source: declared
+  description: The List Images API from Amazon ECR — 1 operation(s) for list images.
+  name: Amazon ECR List Images API
+  slug: amazon-ecr-list-images-api
 arazzos:
 - description: Inventory a repository's images, then delete it with a force branch when images remain.
   name: Amazon ECR Decommission Repository
@@ -124,6 +124,10 @@ collections:
   name: Amazon ECR Amazon Elastic Container Registry (ECR) API
   slug: open-amazon-ecr
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/agentic-access/amazon-ecr-agentic-access.yml
   title: ''
@@ -332,22 +336,22 @@ jsonld:
   property_count: 22
   slug: amazon-ecr-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon ECR
 nav: Providers
 network: true
-overview: 'Amazon ECR publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Amazon ECR Amazon Elastic Container Registry (ECR) API API, #BatchGetImage API, #DeleteRepository API, and 3 more. Tagged areas include Amazon Web Services, Container Images, Container Registry, Containers, and Docker.
+overview: 'Amazon ECR publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Amazon ECR Amazon Elastic Container Registry (ECR) API, #BatchGetImage API, #DeleteRepository API, and 3 more. Tagged areas include Amazon Web Services, Container Images, Container Registry, Containers, and Docker.
 
 
   The Amazon ECR catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon ECR''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
+  Amazon ECR''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
 plans:
 - name: Amazon Ecr Plans Pricing
   plan_count: 3
   slug: amazon-ecr-plans-pricing
-random_paper: 18
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Amazon Ecr Rate Limits
@@ -401,7 +405,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -444,5 +448,5 @@ use_cases:
   name: Helm Chart Repository
 - description: Manage image retention policies to keep registries clean and reduce storage costs.
   name: Image Lifecycle Management
-website: https://aws.amazon.com/
+website: https://amazon.com
 ---

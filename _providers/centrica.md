@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.dev.fieldops.centrica.com/api/v1/identity
@@ -205,7 +205,7 @@ plans:
 - name: Centrica Plans
   plan_count: 2
   slug: centrica-plans
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Centrica Rate Limits
@@ -254,7 +254,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

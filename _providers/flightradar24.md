@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,6 +139,10 @@ collections:
   name: Flightradar24 Airlines Usage API
   slug: open-flightradar24-usage-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://flightradar24.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/capabilities/flightradar24-capability-edges.yml
   title: ''
@@ -271,7 +275,7 @@ mcp_servers:
 - description: ''
   name: Flightradar24 MCP Server
   slug: flightradar24-mcp-server
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Flightradar24
 nav: Providers
 network: true
@@ -281,12 +285,12 @@ overview: 'Flightradar24 publishes 8 APIs on the [APIs.io](https://apis.io/) net
   The Flightradar24 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Flightradar24''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, pricing, FAQ, and 15 more developer resources.'
+  Flightradar24''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, pricing, FAQ, and 16 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 2
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -329,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -355,5 +359,5 @@ tags:
 - Airlines
 - ADS-B
 - Historical Data
-website: https://fr24api.flightradar24.com/
+website: https://flightradar24.com
 ---

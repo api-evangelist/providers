@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Universal Commerce Protocol shopping service on Andium's merchandise storefront, exposed as a Model Context Protocol endpoint over JSON-RPC 2.0. Thirteen tools cover catalog search and lookup, pro
@@ -169,7 +169,7 @@ overview: 'Andium publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Andium''s developer surface includes engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 8
+random_paper: 0
 scopes:
 - name: Andium Scopes
   scope_count: 4
@@ -205,7 +205,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -19,7 +19,7 @@ name: Bufferbox
 nav: Providers
 network: true
 overview: Bufferbox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Logistics, Parcel Lockers, Last Mile Delivery, and E-Commerce.
-random_paper: 18
+random_paper: 17
 slug: bufferbox
 tags:
 - Company

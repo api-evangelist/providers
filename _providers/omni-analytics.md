@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Omni REST API provides programmatic access to an Omni instance: models, topics, views and fields; documents, dashboards and folders; query execution and scheduling; users, groups and permissions; '
@@ -41,6 +41,10 @@ apis:
   slug: omni-rest-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://omni.co
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/omni-analytics/refs/heads/main/security/omni-analytics-trust-center.yml
   title: ''
@@ -179,15 +183,15 @@ mcp_servers:
 - description: 'Official Omni MCP server for natural language querying across your datasets, scoped to specific models and respecting user permissions. Configured via AI Hub > MCP. Works with Claude, ChatGPT, Cursor '
   name: Omni Analytics MCP Server
   slug: omni-analytics-mcp-server
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Omni Analytics
 nav: Providers
 network: true
 overview: 'Omni Analytics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Analytics, Business Intelligence, and Embedded Analytics.
 
 
-  Omni Analytics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 22 more developer resources.'
-random_paper: 20
+  Omni Analytics'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 23 more developer resources.'
+random_paper: 18
 score:
   band: developing
   composite: 41.3
@@ -212,7 +216,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -243,5 +247,5 @@ tags:
 - Artificial Intelligence
 - Data
 - MCP
-website: https://docs.omni.co
+website: https://omni.co
 ---

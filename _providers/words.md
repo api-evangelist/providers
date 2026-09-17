@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -600,7 +600,7 @@ plans:
 - name: Words Plans Pricing
   plan_count: 5
   slug: words-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Words Rate Limits
@@ -654,7 +654,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

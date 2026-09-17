@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Core Python built-in modules and standard library.
@@ -95,7 +95,7 @@ modified: '2026-04-28'
 name: Python Standard Library and Popular
 nav: Providers
 network: true
-overview: 'Python Standard Library and Popular publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Frameworks, Libraries, Programming Language, and Python.
+overview: 'Python Standard Library and Popular publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Libraries, Programming Language, and Python.
 
 
   Python Standard Library and Popular''s developer surface includes documentation and 4 more developer resources.'
@@ -103,7 +103,7 @@ plans:
 - name: Python Plans Pricing
   plan_count: 3
   slug: python-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Python Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: python
 tags:
-- Frameworks
+- Framework
 - Libraries
 - Programming Language
 - Python

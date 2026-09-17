@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Provides programmatic access to Bloomberg's financial market data including real-time and historical pricing, reference data, and analytics.
@@ -48,6 +48,10 @@ asyncapis:
   name: Bloomberg Applications Blpapi Events
   slug: bloomberg-applications-blpapi-events
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -190,7 +194,7 @@ finops:
   slug: bloomberg-applications-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-applications.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Applications
 nav: Providers
 network: true
@@ -200,12 +204,12 @@ overview: 'Bloomberg Applications publishes 2 APIs on the [APIs.io](https://apis
   The Bloomberg Applications catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bloomberg Applications'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, signup flow, CLI, and 22 more developer resources.'
+  Bloomberg Applications'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, signup flow, CLI, and 23 more developer resources.'
 plans:
 - name: Bloomberg Applications Plans Pricing
   plan_count: 0
   slug: bloomberg-applications-plans-pricing
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Bloomberg Applications Rate Limits
@@ -244,7 +248,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -271,5 +275,5 @@ tags:
 - Financial-Services
 - Market Data
 - Real-Time Data
-website: https://developer.bloomberg.com/
+website: https://bloomberg.com
 ---

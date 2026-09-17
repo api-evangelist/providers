@@ -37,26 +37,81 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 74.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.closedloop.sh/v1
-  baseurl_source: declared
-  description: Read-only /v1 REST API, team- and region-scoped, authenticated via X-API-Key. Exposes insights, products, themes, features, coverage/evidence, customers, customer context, competitors, trends, facets,
-  name: ClosedLoop AI REST API
-  slug: closedloop-ai-rest-api
 - description: 'Hosted, first-class MCP server over HTTP with OAuth auth (interactive auto-registration or client_credentials for M2M). Ships MCP tools (query insights, context, customers, themes, competitors) and a '
   name: ClosedLoop AI MCP Server
   slug: closedloop-ai-mcp-server
 - description: 'Set of ~25 pre-built Claude Code skills distributed as the ''closedloop-skills'' plugin via the Anthropic community marketplace, grouped by team (product/eng/sales/marketing/CS/leadership). Examples: De'
   name: ClosedLoop AI Claude Code Skills
   slug: closedloop-ai-claude-code-skills
-artifact_total: 13
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: Trends, cohorts and facet counts over the full dataset.
+  name: ClosedLoop AI Analytics API
+  slug: closedloop-analytics-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: Competitive pressure derived from your customers' own words. Competitors with a **mention trend over time** (not a static total), and a searchable feed of the exact mentions, each showing the customer
+  name: ClosedLoop AI Competitors API
+  slug: closedloop-competitors-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: '**Customer context**, the strategic intelligence behind your customers: churn reasons, competitive mentions, satisfaction, pricing perception and more, surfaced from conversations. This is the `/conte'
+  name: ClosedLoop AI Context API
+  slug: closedloop-context-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: The people and accounts who gave feedback, with CRM context.
+  name: ClosedLoop AI Customers API
+  slug: closedloop-customers-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: '**Features**: the buildable, shippable children of a theme. Filter by `theme_id`. Same theme → features hierarchy you see on the roadmap.'
+  name: ClosedLoop AI Features API
+  slug: closedloop-features-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: 'Individual **product insights**: structured, AI-processed feedback items (pain point, severity, workaround, competitor gap, evidence).'
+  name: ClosedLoop AI Insights API
+  slug: closedloop-insights-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: Connected data sources for your team.
+  name: ClosedLoop AI Integrations API
+  slug: closedloop-integrations-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: Service metadata.
+  name: ClosedLoop AI Meta API
+  slug: closedloop-meta-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: The current product, product-area, and feature-area vocabulary for the team.
+  name: ClosedLoop AI Products API
+  slug: closedloop-products-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: '**Themes**: top-level problem clusters of related insights, RIC-scored. The "what should we build?" surface. Each theme rolls up one or more buildable features.'
+  name: ClosedLoop AI Themes API
+  slug: closedloop-themes-api
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: Credit consumption and usage records for billing transparency.
+  name: ClosedLoop AI Usage API
+  slug: closedloop-usage-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Closedloop Webhooks
   slug: closedloop-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/overlays/closedloop-public-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/closedloop-public-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -208,6 +263,10 @@ common:
   title: ''
   type: LLMsTxt
   url: https://closedloop.sh/docs/llms.txt
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:hello@closedloop.sh
 created: '2026-08-30'
 description: Product-intelligence platform that turns customer conversations and feedback (Gong, Fireflies, Slack, Zendesk, Intercom, Salesforce, HubSpot, surveys, product usage; 40+ integrations) into structured, source-traceable product insights, themes, buildable features, and prioritized roadmap decisions. Exposes a read-only /v1 REST API, a hosted MCP server, an llms.txt index, and published Claude Code skills.
 image: https://closedloop.sh/assets/images/og-image.png
@@ -226,18 +285,18 @@ modified: '2026-08-30'
 name: ClosedLoop AI
 nav: Providers
 network: true
-overview: 'ClosedLoop AI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Product Intelligence, Customer Feedback, Voice of Customer, Product Management, and Agentic AI.
+overview: 'ClosedLoop AI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Competitors API, Context API, and 8 more. Tagged areas include Product Intelligence, Customer Feedback, Voice of Customer, Product Management, and Agentic AI.
 
 
   The ClosedLoop AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ClosedLoop AI''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 26 more developer resources.'
+  ClosedLoop AI''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 28 more developer resources.'
 plans:
 - name: Closedloop Plans Pricing
   plan_count: 3
   slug: closedloop-plans-pricing
-random_paper: 5
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Closedloop Rate Limits
@@ -249,7 +308,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.1
+  composite: 61.0
   coverage:
     artifact_dirs: 25
     catalog_earned: 57.0
@@ -257,11 +316,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 66.0
+    contract_quality: 65.6
     developer_ergonomics: 67.9
     discoverability: 75.9
     operational_transparency: 31.6
@@ -272,11 +331,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

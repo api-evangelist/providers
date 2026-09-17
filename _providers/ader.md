@@ -24,7 +24,7 @@ name: Ader
 nav: Providers
 network: true
 overview: Ader is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 13
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/ader/refs/heads/main/screenshots/ader-2026-07-25T181622.png
 slug: ader
 tags:

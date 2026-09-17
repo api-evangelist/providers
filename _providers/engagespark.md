@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -76,9 +76,9 @@ apis:
   slug: engagespark-top-up-api
 - baseURL: https://api.engagespark.com
   baseurl_source: declared
-  description: The WhatsApp API from engageSPARK — 3 operation(s) for whatsapp.
-  name: engageSPARK WhatsApp API
-  slug: engagespark-whatsapp-api
+  description: The Whats App API from engageSPARK — 3 operation(s) for whats app.
+  name: engageSPARK Whats App API
+  slug: engagespark-whats-app-api
 artifact_total: 19
 asyncapis:
 - description: ''
@@ -212,7 +212,7 @@ overview: 'engageSPARK publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   engageSPARK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 5
+random_paper: 16
 score:
   band: thin
   composite: 34.1
@@ -249,7 +249,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

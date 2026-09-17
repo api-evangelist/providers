@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 14
 apis:
 - description: CoStar's flagship commercial real estate information platform covering property, tenant, lease, sale, and market analytics across office, industrial, retail, multifamily, and specialty CRE asset class
@@ -122,7 +122,7 @@ modified: '2026-05-23'
 name: CoStar Group
 nav: Providers
 network: true
-overview: 'CoStar Group publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, Residential Real Estate, Real Estate Data, Marketplaces, and Analytics.
+overview: 'CoStar Group publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, Residential Real Estate, Real Estate Data, Marketplace, and Analytics.
 
 
   CoStar Group''s developer surface includes product news and 6 more developer resources.'
@@ -130,7 +130,7 @@ plans:
 - name: Costar Plans Pricing
   plan_count: 1
   slug: costar-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Costar Rate Limits
@@ -155,7 +155,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -176,7 +176,7 @@ tags:
 - Commercial Real Estate
 - Residential Real Estate
 - Real Estate Data
-- Marketplaces
+- Marketplace
 - Analytics
 - Listings
 - PropTech

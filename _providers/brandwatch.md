@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
@@ -71,11 +71,6 @@ apis:
   slug: brandwatch-me-api
 - baseURL: https://api.brandwatch.com
   baseurl_source: declared
-  description: The Oauth API from Brandwatch — 1 operation(s) for oauth.
-  name: Brandwatch OAUTH API
-  slug: brandwatch-oauth-api
-- baseURL: https://api.brandwatch.com
-  baseurl_source: declared
   description: The Project API from Brandwatch — 1 operation(s) for project.
   name: Brandwatch Project API
   slug: brandwatch-project-api
@@ -89,6 +84,11 @@ apis:
   description: The User API from Brandwatch — 1 operation(s) for user.
   name: Brandwatch User API
   slug: brandwatch-user-api
+- baseURL: https://api.brandwatch.com
+  baseurl_source: declared
+  description: The Oauth API from Brandwatch — 1 operation(s) for oauth.
+  name: Brandwatch OAUTH API
+  slug: brandwatch-oauth-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -312,7 +312,7 @@ plans:
 - name: Brandwatch Plans Pricing
   plan_count: 0
   slug: brandwatch-plans-pricing
-random_paper: 4
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Brandwatch Rate Limits
@@ -351,7 +351,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -19,7 +19,7 @@ name: XCOM
 nav: Providers
 network: true
 overview: XCOM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, CLEC, Networking, and Defunct.
-random_paper: 19
+random_paper: 21
 slug: xcom
 tags:
 - Company

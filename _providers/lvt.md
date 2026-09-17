@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.lvt.com/v1
@@ -66,11 +66,6 @@ apis:
   slug: lvt-media-api
 - baseURL: https://api.lvt.com/v1
   baseurl_source: declared
-  description: Operations related to outbound message verification
-  name: LVT Public Keys API
-  slug: lvt-publickeys-api
-- baseURL: https://api.lvt.com/v1
-  baseurl_source: declared
   description: The Streams API from LVT — 3 operation(s) for streams.
   name: LVT Streams API
   slug: lvt-streams-api
@@ -84,6 +79,11 @@ apis:
   description: Operations on webhooks
   name: LVT Webhooks API
   slug: lvt-webhooks-api
+- baseURL: https://api.lvt.com/v1
+  baseurl_source: declared
+  description: Operations related to outbound message verification
+  name: LVT Public Keys API
+  slug: lvt-public-keys-api
 artifact_total: 17
 asyncapis:
 - description: ''
@@ -271,7 +271,7 @@ plans:
 - name: Lvt Plans Pricing
   plan_count: 2
   slug: lvt-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Lvt Rate Limits
@@ -283,7 +283,7 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.6
+  composite: 51.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 45.0
@@ -291,11 +291,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 64.5
+    contract_quality: 65.7
     developer_ergonomics: 39.9
     discoverability: 75.9
     operational_transparency: 36.8
@@ -315,7 +315,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

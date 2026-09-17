@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 9
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 277
   slug: snyk-agentic-access
   summary_line: 277 operations · 134 acting · 9 human-in-the-loop
-api_count: 1
+api_count: 3
 apis:
 - description: Manages Snyk Apps, the OAuth2-based extensibility surface that lets third-party applications act on behalf of Snyk users, organizations, and groups.
   name: Snyk REST API - Apps (OAuth)
@@ -51,24 +51,9 @@ apis:
 - description: The original Snyk REST API. Still in use for project import, monitor, test, and certain reporting endpoints not yet ported to the dated REST API. Subject to end-of-life migration; new integrations sho
   name: Snyk V1 API (Legacy)
   slug: v1
-- baseURL: https://app.snyk.io
-  baseurl_source: declared
-  description: The user-facing half of Snyk's RFC 6749 OAuth2 flow for Snyk Apps. Served from the Snyk app subdomain rather than the API subdomain, it initiates the authorization-code grant and redirects back to the
-  name: Snyk OAuth2 API - Authorize
-  slug: oauth2-authorize
-- baseURL: https://api.snyk.io/oauth2
-  baseurl_source: declared
-  description: The token half of Snyk's OAuth2 API - exchange an authorization code for an access token, refresh an expiring token, and revoke a token. Supports authorization_code, refresh_token and client_credentia
-  name: Snyk OAuth2 API - Token
-  slug: oauth2-token
 - description: 'Snyk''s first-party Model Context Protocol server, shipped inside the Snyk CLI and run locally over stdio (`npx -y snyk@latest mcp -t stdio`). Twelve security tools - code, dependency, container, IaC, '
   name: Snyk MCP Server (Snyk Studio)
   slug: mcp
-- baseURL: https://api.snyk.io/rest
-  baseurl_source: declared
-  description: The AccessRequests API from Snyk — 1 operation(s) for accessrequests.
-  name: Snyk AccessRequests API
-  slug: snyk-accessrequests-api
 - baseURL: https://api.snyk.io/rest
   baseurl_source: declared
   description: The AiBom API from Snyk — 4 operation(s) for aibom.
@@ -119,11 +104,6 @@ apis:
   description: The Collection API from Snyk — 3 operation(s) for collection.
   name: Snyk Collection API
   slug: snyk-collection-api
-- baseURL: https://api.snyk.io/rest
-  baseurl_source: declared
-  description: The ContainerImage API from Snyk — 3 operation(s) for containerimage.
-  name: Snyk ContainerImage API
-  slug: snyk-containerimage-api
 - baseURL: https://api.snyk.io/rest
   baseurl_source: declared
   description: The ContainerRegistryImportPolicy API from Snyk — 3 operation(s) for containerregistryimportpolicy.
@@ -201,11 +181,6 @@ apis:
   slug: snyk-learn-progress-api
 - baseURL: https://api.snyk.io/rest
   baseurl_source: declared
-  description: The OpenAPI specification for this service.
-  name: Snyk OpenAPI API
-  slug: snyk-openapi-api
-- baseURL: https://api.snyk.io/rest
-  baseurl_source: declared
   description: The OpenSourceSettings API from Snyk — 4 operation(s) for opensourcesettings.
   name: Snyk OpenSourceSettings API
   slug: snyk-opensourcesettings-api
@@ -224,11 +199,6 @@ apis:
   description: The Package Version API from Snyk — 1 operation(s) for package version.
   name: Snyk Package Version API
   slug: snyk-package-version-api
-- baseURL: https://api.snyk.io/rest
-  baseurl_source: declared
-  description: The PersonalAccessToken API from Snyk — 2 operation(s) for personalaccesstoken.
-  name: Snyk PersonalAccessToken API
-  slug: snyk-personalaccesstoken-api
 - baseURL: https://api.snyk.io/rest
   baseurl_source: declared
   description: The Policies API from Snyk — 5 operation(s) for policies.
@@ -254,11 +224,6 @@ apis:
   description: The SBOM API from Snyk — 4 operation(s) for sbom.
   name: Snyk SBOM API
   slug: snyk-sbom-api
-- baseURL: https://api.snyk.io/rest
-  baseurl_source: declared
-  description: The ServiceAccounts API from Snyk — 6 operation(s) for serviceaccounts.
-  name: Snyk ServiceAccounts API
-  slug: snyk-serviceaccounts-api
 - baseURL: https://api.snyk.io/rest
   baseurl_source: declared
   description: The Slack API from Snyk — 2 operation(s) for slack.
@@ -294,7 +259,37 @@ apis:
   description: The Users API from Snyk — 3 operation(s) for users.
   name: Snyk Users API
   slug: snyk-users-api
-artifact_total: 110
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: oauth2
+  name: Snyk Oauth2 API
+  slug: snyk-oauth2-api
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Access Requests API from Snyk — 1 operation(s) for access requests.
+  name: Snyk Access Requests API
+  slug: snyk-access-requests-api
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Container Image API from Snyk — 3 operation(s) for container image.
+  name: Snyk Container Image API
+  slug: snyk-container-image-api
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The OpenAPI specification for this service.
+  name: Snyk Open API
+  slug: snyk-open-api-api
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Personal Access Token API from Snyk — 2 operation(s) for personal access token.
+  name: Snyk Personal Access Token API
+  slug: snyk-personal-access-token-api
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: declared
+  description: The Service Accounts API from Snyk — 6 operation(s) for service accounts.
+  name: Snyk Service Accounts API
+  slug: snyk-service-accounts-api
+artifact_total: 109
 asyncapis:
 - description: ''
   name: Snyk Webhooks
@@ -445,6 +440,41 @@ collections:
   name: Snyk AccessRequests Users API
   slug: open-snyk-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/overlays/snyk-accessrequests-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/snyk-accessrequests-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/overlays/snyk-containerimage-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/snyk-containerimage-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/overlays/snyk-openapi-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/snyk-openapi-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/overlays/snyk-personalaccesstoken-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/snyk-personalaccesstoken-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/overlays/snyk-serviceaccounts-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/snyk-serviceaccounts-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/overlays/snyk-oauth2-app-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/snyk-oauth2-app-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/overlays/snyk-oauth2-token-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/snyk-oauth2-token-overlay.yaml
 - group: commercial
   title: ''
   type: License
@@ -669,18 +699,18 @@ modified: '2026-08-27'
 name: Snyk
 nav: Providers
 network: true
-overview: 'Snyk publishes 48 APIs on the [APIs.io](https://apis.io/) network, including OAuth2 API - Authorize, OAuth2 API - Token, AccessRequests API, and 45 more. Tagged areas include Security, DevSecOps, Vulnerability Management, Application Security, and SCA.
+overview: 'Snyk publishes 47 APIs on the [APIs.io](https://apis.io/) network, including AiBom API, Apps API, Asset API, and 44 more. Tagged areas include Security, DevSecOps, Vulnerability Management, Application Security, and SCA.
 
 
   The Snyk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Snyk''s developer surface includes authentication, documentation, API reference, CLI, changelog, getting-started guide, support, and 38 more developer resources.'
+  Snyk''s developer surface includes authentication, documentation, API reference, CLI, changelog, getting-started guide, support, and 45 more developer resources.'
 plans:
 - name: Snyk Plans Pricing
   plan_count: 4
   slug: snyk-plans-pricing
-random_paper: 12
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Snyk Rate Limits
@@ -692,21 +722,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 71.3
+  composite: 71.6
   coverage:
     artifact_dirs: 25
-    catalog_earned: 56.0
+    catalog_earned: 59.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 59.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 67.4
+    contract_quality: 66.4
     developer_ergonomics: 71.4
-    discoverability: 61.1
+    discoverability: 66.7
     operational_transparency: 92.1
   previous_composite: 71.3
   provenance:
@@ -716,11 +746,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 48
+      total: 47
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

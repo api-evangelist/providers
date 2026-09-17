@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Ann Taylor and LOFT (formerly Ascena brands, now owned by Sycamore Partners) operate e-commerce platforms with standard retail APIs for product catalog, order management, loyalty programs, and custome
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Ascena Retail Group ICT Spend & Tech Priorities - GlobalData
   url: https://www.globaldata.com/company-profile/ascena-retail-group-inc/premium-data/ict-spend-tech-priorities/?scalar=true&pid=77422&sid=27
-random_paper: 17
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Ascena Retail Group Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - baseURL: http://localhost.localstack.cloud:4566
   baseurl_source: declared
   description: The localstack API from LocalStack — 8 operation(s) for localstack.
-  name: LocalStack localstack API
+  name: LocalStack API
   slug: localstack-localstack-api
 artifact_total: 9
 collections:
@@ -216,18 +216,18 @@ mcp_servers:
 - description: ''
   name: LocalStack MCP Server
   slug: localstack-mcp-server
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: LocalStack
 nav: Providers
 network: true
-overview: 'LocalStack publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aws API and localstack API. Tagged areas include Company, Developer Tools, Cloud, Emulator, and Testing.
+overview: 'LocalStack publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Aws API, and 1 more. Tagged areas include Company, Developer Tools, Cloud, Emulator, and Testing.
 
 
   LocalStack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 7
+random_paper: 1
 score:
   band: developing
-  composite: 42.6
+  composite: 43.6
   coverage:
     artifact_dirs: 20
     catalog_earned: 32.0
@@ -235,11 +235,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 38.4
+    contract_quality: 42.5
     developer_ergonomics: 78.6
     discoverability: 66.7
     operational_transparency: 34.2
@@ -255,7 +255,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

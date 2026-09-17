@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: Receive real-time push notifications when specific events or conditions are met across your monitors.
@@ -412,10 +412,10 @@ common:
   type: LLMsTxt
   url: llms/lucidya-ltd-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/lucidya-ltd-social-listening-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/openapi/_original/lucidya-ltd-social-listening-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/lucidya-ltd-social-listening-api-openapi.yml
+  url: openapi/_original/lucidya-ltd-social-listening-api-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/overlays/lucidya-ltd-social-listening-overlay.yaml
   title: ''
@@ -465,7 +465,7 @@ created: '2026-07-17'
 description: Lucidya is an AI-native customer experience management (CXM) platform for social listening, unified customer data, omnichannel engagement, surveys, and AI-powered text analysis, with deep Arabic-language and MENA-market capabilities. Its public developer platform (docs.lucidya.com) exposes a suite of RESTful APIs across six products — Social Listening, AI, CDP, OmniChannel, OmniServe Analytics, and Webhooks — for programmatic access to social data, customer profiles, analytics, AI text/audio models, and real-time event notifications. Lucidya is a 500 Global portfolio company headquartered in Saudi Arabia and is certified for SOC 2 Type 2 and ISO 27001.
 image: https://lh3.googleusercontent.com/d/1rlLPfBLpzoGQ2qAS_b9JeAxSnoyaa6RQ
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Lucidya Ltd
 nav: Providers
 network: true
@@ -480,7 +480,7 @@ plans:
 - name: Lucidya Ltd Plans Pricing
   plan_count: 5
   slug: lucidya-ltd-plans-pricing
-random_paper: 3
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Lucidya Ltd Rate Limits
@@ -499,7 +499,7 @@ score:
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 64.9
+    contract_quality: 65.1
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 84.2
@@ -514,7 +514,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Lagom is an open source framework for building reactive microservice systems in Java and Scala, built on top of Akka and Play Framework, designed for distributed architectures.
@@ -89,7 +89,7 @@ modified: '2026-04-28'
 name: Lagom
 nav: Providers
 network: true
-overview: 'Lagom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Akka, Event Sourcing, Frameworks, Java, and Microservices.
+overview: 'Lagom publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Akka, Event Sourcing, Framework, Java, and Microservices.
 
 
   The Lagom catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -100,7 +100,7 @@ plans:
 - name: Lagom Plans Pricing
   plan_count: 3
   slug: lagom-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Lagom Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -152,7 +152,7 @@ slug: lagom
 tags:
 - Akka
 - Event Sourcing
-- Frameworks
+- Framework
 - Java
 - Microservices
 - Reactive

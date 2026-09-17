@@ -34,29 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 8
 apis:
-- baseURL: https://sso.ukm.my/saml2/idp
-  baseurl_source: declared
-  description: 'Universiti Kebangsaan Malaysia''s own SAML 2.0 identity provider, a SimpleSAMLphp deployment at sso.ukm.my. Publishes unauthenticated SAML 2.0 metadata (application/samlmetadata+xml, 4,261 bytes) with '
-  name: SSO@UKM — SAML 2.0 Identity Provider
-  slug: identity-federation
-- baseURL: https://ptsldigital.ukm.my/oai/request
-  baseurl_source: declared
-  description: DSpace 6.3 institutional repository operated by Perpustakaan Tun Seri Lanang (UKM Library) on the university's own host, holding theses, past-year examination papers and selected government and law pu
-  name: UKM Learning and Research Repository (OAI-PMH)
-  slug: learning-research-repository-oai
-- baseURL: https://ejournal.ukm.my/index.php/index/oai
-  baseurl_source: declared
-  description: 'Open Journal Systems 2.4.8.1 platform self-hosted at ejournal.ukm.my (CNAME ejournals.ukm.my), carrying the journals published by UKM faculties, institutes and UKM Press. Its OAI-PMH 2.0 interface is '
-  name: UKM e-Journal System (OAI-PMH)
-  slug: ejournal-oai
-- baseURL: https://www.ukm.my/portal/wp-json
-  baseurl_source: declared
-  description: 'UKM runs its web estate on self-hosted WordPress and leaves the wp/v2 REST API open for unauthenticated reads on its own domain. Two installations were verified live: the main portal at www.ukm.my/por'
-  name: UKM Web Content REST API (WordPress wp/v2)
-  slug: web-content-rest
 - description: EPrints repository of journal articles published by UKM faculties, institutes and UKM Press, registered in OpenDOAR (record 2122) and ROAR as supporting OAI-PMH 2.0 via its EPrints oai2 interface. The
   name: UKM Journal Article Repository (OAI-PMH) — unreachable
   slug: journal-article-repository-oai
@@ -72,7 +52,32 @@ apis:
 - description: UKM Library's off-campus access to licensed e-resources runs on a RemoteXs tenant at eresourcesptsl.ukm.remotexs.co — a vendor host carrying a UKM-specific account. The entitlement and the user popula
   name: RemoteXs E-Resources Proxy (tenant deployment)
   slug: remotexs-tenant
-artifact_total: 17
+- baseURL: https://sso.ukm.my/saml2/idp
+  baseurl_source: declared
+  description: Pages, posts and media.
+  name: Universiti Kebangsaan Malaysia Content API
+  slug: ukm-content-api
+- baseURL: https://sso.ukm.my/saml2/idp
+  baseurl_source: declared
+  description: Self-descriptive route index.
+  name: Universiti Kebangsaan Malaysia Discovery API
+  slug: ukm-discovery-api
+- baseURL: https://sso.ukm.my/saml2/idp
+  baseurl_source: declared
+  description: SAML 2.0 metadata publication.
+  name: Universiti Kebangsaan Malaysia Metadata API
+  slug: ukm-metadata-api
+- baseURL: https://sso.ukm.my/saml2/idp
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
+  name: Universiti Kebangsaan Malaysia OAI PMH API
+  slug: ukm-oai-pmh-api
+- baseURL: https://sso.ukm.my/saml2/idp
+  baseurl_source: declared
+  description: SAML 2.0 browser SSO and single logout profiles.
+  name: Universiti Kebangsaan Malaysia Single Sign-On API
+  slug: ukm-single-sign-on-api
+artifact_total: 18
 common:
 - group: company
   title: ''
@@ -192,7 +197,7 @@ modified: '2026-09-01'
 name: Universiti Kebangsaan Malaysia
 nav: Providers
 network: true
-overview: 'Universiti Kebangsaan Malaysia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including SSO@UKM — SAML 2.0 Identity Provider, UKM Learning and Research Repository (OAI-PMH), UKM e-Journal System (OAI-PMH), and 1 more. Tagged areas include University, Higher Education, Education, Research, and Malaysia.
+overview: 'Universiti Kebangsaan Malaysia publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Metadata API, and 2 more. Tagged areas include University, Higher Education, Education, Research, and Malaysia.
 
 
   The Universiti Kebangsaan Malaysia catalog on APIs.io includes 1 JSON-LD context.
@@ -203,14 +208,14 @@ plans:
 - name: Ukm Plans Pricing
   plan_count: 2
   slug: ukm-plans-pricing
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Ukm Rate Limits
   slug: ukm-rate-limits
 score:
   band: thin
-  composite: 39.2
+  composite: 37.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 78.0
@@ -218,11 +223,11 @@ score:
     catalog_gap: 37.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 28.9
     contract_governance: 15.2
-    contract_quality: 62.5
+    contract_quality: 54.9
     developer_ergonomics: 26.2
     discoverability: 74.1
     operational_transparency: 21.1
@@ -236,9 +241,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
+      derived: 1
       marker_coverage: 100.0
-      total: 4
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
@@ -246,7 +251,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

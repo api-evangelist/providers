@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -125,10 +125,10 @@ common:
   type: PrivacyPolicy
   url: https://www.aemc.gov.au/terms-use/privacy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-energy-rules-openapi-derived.yml
+  href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/_original/aemc-energy-rules-openapi-derived.yml
   title: ''
   type: OpenAPI
-  url: openapi/aemc-energy-rules-openapi-derived.yml
+  url: openapi/_original/aemc-energy-rules-openapi-derived.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/authentication/aemc-authentication.yml
   title: ''
@@ -232,7 +232,7 @@ examples:
   slug: aemc-energy-rules-searchRuleVersion
 image: https://www.aemc.gov.au/sites/default/files/AEMC_RGB_Favicon_swirl_STRONG_512x512px.png
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: Australian Energy Market Commission
 nav: Providers
 network: true
@@ -240,7 +240,7 @@ overview: 'Australian Energy Market Commission publishes 5 APIs on the [APIs.io]
 
 
   Australian Energy Market Commission''s developer surface includes support, documentation, engineering blog, authentication, code examples, changelog, and 22 more developer resources.'
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Aemc Rate Limits
@@ -288,7 +288,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

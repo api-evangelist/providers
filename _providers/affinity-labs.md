@@ -19,7 +19,7 @@ name: Affinity Labs
 nav: Providers
 network: true
 overview: Affinity Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social Networking, Online Communities, and Defunct.
-random_paper: 19
+random_paper: 1
 slug: affinity-labs
 tags:
 - Company

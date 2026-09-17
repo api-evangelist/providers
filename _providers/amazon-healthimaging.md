@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -52,24 +52,24 @@ apis:
   slug: amazon-healthimaging-datastore-api
 - baseURL: https://medical-imaging.us-east-1.amazonaws.com
   baseurl_source: declared
-  description: The GetDICOMImportJob API from Amazon HealthImaging — 1 operation(s) for getdicomimportjob.
-  name: Amazon HealthImaging GetDICOMImportJob API
-  slug: amazon-healthimaging-getdicomimportjob-api
-- baseURL: https://medical-imaging.us-east-1.amazonaws.com
-  baseurl_source: declared
-  description: The ListDICOMImportJobs API from Amazon HealthImaging — 1 operation(s) for listdicomimportjobs.
-  name: Amazon HealthImaging ListDICOMImportJobs API
-  slug: amazon-healthimaging-listdicomimportjobs-api
-- baseURL: https://medical-imaging.us-east-1.amazonaws.com
-  baseurl_source: declared
-  description: The StartDICOMImportJob API from Amazon HealthImaging — 1 operation(s) for startdicomimportjob.
-  name: Amazon HealthImaging StartDICOMImportJob API
-  slug: amazon-healthimaging-startdicomimportjob-api
-- baseURL: https://medical-imaging.us-east-1.amazonaws.com
-  baseurl_source: declared
   description: The Tags API from Amazon HealthImaging — 2 operation(s) for tags.
   name: Amazon HealthImaging Tags API
   slug: amazon-healthimaging-tags-api
+- baseURL: https://medical-imaging.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Get DICOM Import Job API from Amazon HealthImaging — 1 operation(s) for get dicom import job.
+  name: Amazon HealthImaging Get DICOM Import Job API
+  slug: amazon-healthimaging-get-dicom-import-job-api
+- baseURL: https://medical-imaging.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The List DICOM Import Jobs API from Amazon HealthImaging — 1 operation(s) for list dicom import jobs.
+  name: Amazon HealthImaging List DICOM Import Jobs API
+  slug: amazon-healthimaging-list-dicom-import-jobs-api
+- baseURL: https://medical-imaging.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Start DICOM Import Job API from Amazon HealthImaging — 1 operation(s) for start dicom import job.
+  name: Amazon HealthImaging Start DICOM Import Job API
+  slug: amazon-healthimaging-start-dicom-import-job-api
 arazzos:
 - description: List completed import jobs, read the most recent job's detail, then search the imported image sets.
   name: Amazon HealthImaging Audit Completed Imports
@@ -137,6 +137,10 @@ collections:
   name: AWS Health Imaging Datastore Tags API
   slug: open-amazon-healthimaging-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/capabilities/amazon-healthimaging-capability-edges.yml
   title: ''
@@ -1159,22 +1163,22 @@ jsonld:
   property_count: 0
   slug: amazon-healthimaging-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon HealthImaging
 nav: Providers
 network: true
-overview: 'Amazon HealthImaging publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Datastore API, GetDICOMImportJob API, ListDICOMImportJobs API, and 2 more. Tagged areas include Healthcare, HIPAA, Machine-Learning, Medical Imaging, and DICOM.
+overview: 'Amazon HealthImaging publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Datastore API, Tags API, Get DICOM Import Job API, and 2 more. Tagged areas include Healthcare, HIPAA, Machine-Learning, Medical Imaging, and DICOM.
 
 
   The Amazon HealthImaging catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon HealthImaging''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
+  Amazon HealthImaging''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
 plans:
 - name: Amazon Healthimaging Plans Pricing
   plan_count: 3
   slug: amazon-healthimaging-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Healthimaging Rate Limits
@@ -1203,7 +1207,7 @@ rules:
   slug: amazon-healthimaging-spectral-rules
 score:
   band: strong
-  composite: 59.2
+  composite: 58.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 63.5
@@ -1211,11 +1215,11 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 67.5
+    contract_quality: 65.1
     developer_ergonomics: 58.3
     discoverability: 68.5
     operational_transparency: 26.3
@@ -1234,7 +1238,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1275,5 +1279,5 @@ use_cases:
   name: Multi-Site Imaging
 - description: Support clinical research by providing scalable access to large medical imaging datasets.
   name: Clinical Research
-website: https://aws.amazon.com/healthimaging/
+website: https://amazon.com
 ---

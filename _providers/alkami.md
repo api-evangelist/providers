@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Alkami's RESTful digital-banking APIs (D2C, B2B, and Open Banking) plus the Alkami SDK, built on OpenID Connect and documented in the gated Alkami DevPortal.
@@ -112,11 +112,11 @@ modified: '2026-07-17'
 name: Alkami
 nav: Providers
 network: true
-overview: 'Alkami publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Digital Banking, Banking, and Credit Unions.
+overview: 'Alkami publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Digital Banking, Banking, and Credit Union.
 
 
   Alkami''s developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 14
+random_paper: 7
 score:
   band: emerging
   composite: 16.6
@@ -143,7 +143,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -169,7 +169,7 @@ tags:
 - Fintech
 - Digital Banking
 - Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Open Banking
 - SDK

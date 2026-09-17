@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - baseURL: https://www.nikangtx.com/wp-json
@@ -80,9 +80,9 @@ apis:
   slug: nikang-therapeutics-comments-api
 - baseURL: https://www.nikangtx.com/wp-json
   baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for www.nikangtx.com URLs. Verified live and anonymous — returns provider_name "Nikang Therapeutics" for the site root.
-  name: NiKang Therapeutics oEmbed API
-  slug: nikang-therapeutics-oembed-api
+  description: oEmbed 1.0 provider.
+  name: NiKang Therapeutics o Embed API
+  slug: nikang-therapeutics-o-embed-api
 artifact_total: 13
 common:
 - group: auth
@@ -216,7 +216,7 @@ plans:
 - name: Nikang Therapeutics Plans Pricing
   plan_count: 0
   slug: nikang-therapeutics-plans-pricing
-random_paper: 0
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Nikang Therapeutics Rate Limits
@@ -256,7 +256,7 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 193
   human_in_the_loop: 11
@@ -75,11 +75,6 @@ apis:
   description: Bundle one or more APIs into a publishable API product
   name: Gravitee API Products API
   slug: gravitee-api-products-api
-- baseURL: https://documentation.gravitee.io/apim
-  baseurl_source: declared
-  description: Manage APIs (v2 and v4 message-oriented APIs)
-  name: Gravitee APIs API
-  slug: gravitee-apis-api
 - baseURL: https://documentation.gravitee.io/apim
   baseurl_source: declared
   description: The application API from Gravitee — 22 operation(s) for application.
@@ -150,11 +145,6 @@ apis:
   description: The email API from Gravitee — 4 operation(s) for email.
   name: Gravitee email API
   slug: gravitee-email-api
-- baseURL: https://documentation.gravitee.io/apim
-  baseurl_source: declared
-  description: The entrypoints API from Gravitee — 2 operation(s) for entrypoints.
-  name: Gravitee entrypoints API
-  slug: gravitee-entrypoints-api
 - baseURL: https://documentation.gravitee.io/apim
   baseurl_source: declared
   description: The Extension Grant API from Gravitee — 5 operation(s) for extension grant.
@@ -290,6 +280,16 @@ apis:
   description: Manage Gravitee users
   name: Gravitee Users API
   slug: gravitee-users-api
+- baseURL: https://cockpit.gravitee.io
+  baseurl_source: declared
+  description: Manage APIs (v2 and v4 message-oriented APIs)
+  name: Gravitee AP Is API
+  slug: gravitee-apis-api
+- baseURL: https://cockpit.gravitee.io
+  baseurl_source: declared
+  description: The Entry Points API from Gravitee — 2 operation(s) for entry points.
+  name: Gravitee Entry Points API
+  slug: gravitee-entry-points-api
 artifact_total: 175
 collections:
 - collection_type: postman
@@ -834,7 +834,7 @@ plans:
 - name: Gravitee Plans Pricing
   plan_count: 9
   slug: gravitee-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Gravitee Rate Limits
@@ -875,7 +875,7 @@ score:
   facets:
     access_clarity: 57.9
     contract_governance: 13.6
-    contract_quality: 59.0
+    contract_quality: 59.1
     developer_ergonomics: 70.2
     discoverability: 70.4
     operational_transparency: 26.3
@@ -888,7 +888,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,13 +42,8 @@ agentic_access:
   operation_count: 10
   slug: connexis-cash-agentic-access
   summary_line: 10 operations · 1 acting
-api_count: 2
+api_count: 3
 apis:
-- baseURL: https://psd2.api.cib.bnpparibas.com/gb-account-information-psd2-stet
-  baseurl_source: declared
-  description: A PSD2-compliant Account Information Service (AISP) API exposed by BNP Paribas Corporate and Institutional Banking. Third-party providers consume this REST/JSON API, which follows the STET PSD2 standa
-  name: Connexis Cash PSD2 Account Information API (STET)
-  slug: psd2-account-information
 - description: A documented Strong Customer Authentication flow that BNP Paribas provides for Connexis Cash to satisfy PSD2 SCA requirements. TPPs integrate the SCA flow into their PSD2 journeys so that Connexis Cas
   name: Connexis Cash Strong Customer Authentication (SCA)
   slug: strong-authentication
@@ -80,6 +75,11 @@ apis:
   description: The Transactions API from Connexis Cash — 1 operation(s) for transactions.
   name: Connexis Cash Transactions API
   slug: connexis-cash-transactions-api
+- baseURL: https://psd2.api.cib.bnpparibas.com/gb-account-information-psd2-stet
+  baseurl_source: declared
+  description: The AISP API from Connexis Cash — 4 operation(s) for aisp.
+  name: Connexis Cash AISP API
+  slug: connexis-cash-aisp-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -181,10 +181,10 @@ common:
   type: GitHubOrganization
   url: https://github.com/bnpparibas
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-account-information-psd2-stet-mock-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/_original/connexis-cash-account-information-psd2-stet-mock-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/connexis-cash-account-information-psd2-stet-mock-openapi.yml
+  url: openapi/_original/connexis-cash-account-information-psd2-stet-mock-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/overlays/connexis-cash-account-information-psd2-stet-mock-overlay.yaml
   title: ''
@@ -258,11 +258,11 @@ finops:
   slug: connexis-cash-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/connexis-cash.png
 layout: provider
-modified: '2026-09-05'
+modified: '2026-09-16'
 name: Connexis Cash
 nav: Providers
 network: true
-overview: 'Connexis Cash publishes 6 APIs on the [APIs.io](https://apis.io/) network, including PSD2 Account Information API (STET), Accounts API, Balances API, and 3 more. Tagged areas include Account Information, BNP Paribas, Cash Management, Corporate Banking, and Digital Banking.
+overview: 'Connexis Cash publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balances API, Beneficiaries API, and 3 more. Tagged areas include Account Information, BNP Paribas, Cash Management, Corporate Banking, and Digital Banking.
 
 
   Connexis Cash''s developer surface includes authentication, support, documentation, API reference, getting-started guide, signup flow, sandbox, and 24 more developer resources.'
@@ -270,7 +270,7 @@ plans:
 - name: Connexis Cash Plans Pricing
   plan_count: 0
   slug: connexis-cash-plans-pricing
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Connexis Cash Rate Limits
@@ -282,21 +282,21 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 46.4
+  composite: 47.6
   coverage:
     artifact_dirs: 22
-    catalog_earned: 35.0
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 50.6
+    contract_quality: 53.4
     developer_ergonomics: 60.1
-    discoverability: 59.3
+    discoverability: 64.8
     operational_transparency: 2.6
   previous_composite: 46.4
   provenance:
@@ -316,7 +316,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

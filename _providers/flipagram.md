@@ -19,7 +19,7 @@ name: Flipagram
 nav: Providers
 network: true
 overview: Flipagram is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Video, Social-Media, and Mobile App.
-random_paper: 2
+random_paper: 1
 slug: flipagram
 tags:
 - Company

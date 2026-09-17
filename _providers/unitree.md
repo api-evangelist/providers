@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 24
 common:
@@ -325,7 +325,7 @@ overview: 'Unitree Robotics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Unitree Robotics'' developer surface includes developer portal, documentation, tooling, code examples, product news, YouTube channel, engineering blog, and 55 more developer resources.'
-random_paper: 8
+random_paper: 16
 score:
   band: minimal
   composite: 10.3
@@ -352,7 +352,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

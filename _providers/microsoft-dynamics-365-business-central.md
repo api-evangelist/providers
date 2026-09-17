@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -66,24 +66,24 @@ apis:
   slug: microsoft-dynamics-365-business-central-items-api
 - baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
   baseurl_source: declared
-  description: Purchase order documents
-  name: Microsoft Dynamics 365 Business Central PurchaseOrders API
-  slug: microsoft-dynamics-365-business-central-purchaseorders-api
-- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
-  baseurl_source: declared
-  description: Sales invoice documents
-  name: Microsoft Dynamics 365 Business Central SalesInvoices API
-  slug: microsoft-dynamics-365-business-central-salesinvoices-api
-- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
-  baseurl_source: declared
-  description: Sales order documents
-  name: Microsoft Dynamics 365 Business Central SalesOrders API
-  slug: microsoft-dynamics-365-business-central-salesorders-api
-- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
-  baseurl_source: declared
   description: Vendor master data
   name: Microsoft Dynamics 365 Business Central Vendors API
   slug: microsoft-dynamics-365-business-central-vendors-api
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{tenant}/{environment}/ODataV4
+  baseurl_source: declared
+  description: Purchase order documents
+  name: Microsoft Dynamics 365 Business Central Purchase Orders API
+  slug: microsoft-dynamics-365-business-central-purchase-orders-api
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{tenant}/{environment}/ODataV4
+  baseurl_source: declared
+  description: Sales invoice documents
+  name: Microsoft Dynamics 365 Business Central Sales Invoices API
+  slug: microsoft-dynamics-365-business-central-sales-invoices-api
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{tenant}/{environment}/ODataV4
+  baseurl_source: declared
+  description: Sales order documents
+  name: Microsoft Dynamics 365 Business Central Sales Orders API
+  slug: microsoft-dynamics-365-business-central-sales-orders-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -185,7 +185,7 @@ overview: 'Microsoft Dynamics 365 Business Central publishes 7 APIs on the [APIs
 
 
   Microsoft Dynamics 365 Business Central''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 17
+random_paper: 13
 scopes:
 - name: Microsoft Dynamics 365 Business Central Scopes
   scope_count: 1
@@ -218,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

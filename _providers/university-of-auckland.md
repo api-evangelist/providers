@@ -34,19 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.0
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
-- baseURL: https://apis.auckland.ac.nz/courses/v3
-  baseurl_source: declared
-  description: Read-only access to the University of Auckland course catalogue, described by the University as "Exposes some course information by querying CS9 views" — CS9 being its PeopleSoft Campus Solutions inst
-  name: University of Auckland Course Catalog Api V3
-  slug: course-catalog-v3
-- baseURL: https://apis.auckland.ac.nz/classes/v2
-  baseurl_source: declared
-  description: Search for scheduled class offerings at the University of Auckland — "Class API is intended to provide access to Class attributes, such as ID, Name, Description, Definition etc". A single GET /classes
-  name: University of Auckland Classes Api V2
-  slug: classes-v2
 - description: Live OAI-PMH 2.0 metadata harvesting endpoint for ResearchSpace, the University's self-hosted DSpace institutional repository. Verified 2026-08-30 - Identify returns protocolVersion 2.0 and granularit
   name: ResearchSpace OAI-PMH 2.0 Service
   slug: researchspace-oai
@@ -62,7 +52,22 @@ apis:
 - description: The University of Auckland Library's discovery layer, an Ex Libris Primo VE tenancy (vid=64UAUCK_INST:UOA, HTTP 200 verified 2026-08-30). No institution-published catalogue API or specification exists
   name: University of Auckland Library Discovery (Ex Libris Primo tenant)
   slug: primo-tenant
-artifact_total: 17
+- baseURL: https://apis.auckland.ac.nz/courses/v3
+  baseurl_source: declared
+  description: The classes API from University of Auckland — 1 operation(s) for classes.
+  name: University of Auckland Classes API
+  slug: university-of-auckland-classes-api
+- baseURL: https://apis.auckland.ac.nz/courses/v3
+  baseurl_source: declared
+  description: Courses API
+  name: University of Auckland Courses API
+  slug: university-of-auckland-courses-api-api
+- baseURL: https://apis.auckland.ac.nz/courses/v3
+  baseurl_source: declared
+  description: Reference Data API
+  name: University of Auckland Reference Data API
+  slug: university-of-auckland-reference-data-api-api
+artifact_total: 18
 common:
 - group: company
   title: ''
@@ -137,15 +142,15 @@ common:
   type: Support
   url: https://www.eresearch.auckland.ac.nz/getting-in-touch/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-course-catalog-v3-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/_original/university-of-auckland-course-catalog-v3-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-auckland-course-catalog-v3-openapi.yml
+  url: openapi/_original/university-of-auckland-course-catalog-v3-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-classes-v2-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/_original/university-of-auckland-classes-v2-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-auckland-classes-v2-openapi.yml
+  url: openapi/_original/university-of-auckland-classes-v2-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/json-schema/university-of-auckland-course-schema.json
   title: ''
@@ -244,11 +249,11 @@ json_schemas:
   property_count: 7
   slug: university-of-auckland-term
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: University of Auckland
 nav: Providers
 network: true
-overview: 'University of Auckland publishes 2 APIs on the [APIs.io](https://apis.io/) network: Course Catalog Api V3 and Classes Api V2. Tagged areas include University, Higher Education, Education, New Zealand, and Public Research University.
+overview: 'University of Auckland publishes 3 APIs on the [APIs.io](https://apis.io/) network: Classes API, Courses API, and Reference Data API. Tagged areas include University, Higher Education, Education, New Zealand, and Public Research University.
 
 
   The University of Auckland catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -259,7 +264,7 @@ plans:
 - name: University Of Auckland Plans Pricing
   plan_count: 2
   slug: university-of-auckland-plans-pricing
-random_paper: 13
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: University Of Auckland Rate Limits
@@ -277,21 +282,21 @@ rules:
   slug: university-of-auckland-rules
 score:
   band: developing
-  composite: 46.1
+  composite: 47.2
   coverage:
     artifact_dirs: 14
-    catalog_earned: 72.3
+    catalog_earned: 75.3
     catalog_earned_first_party: 8.0
-    catalog_gap: 42.8
+    catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 39.5
     contract_governance: 34.1
-    contract_quality: 62.2
+    contract_quality: 64.4
     developer_ergonomics: 42.9
-    discoverability: 59.3
+    discoverability: 64.8
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -304,8 +309,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 2
+      marker_coverage: 0.0
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
@@ -313,7 +318,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

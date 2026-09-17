@@ -29,7 +29,7 @@ name: Areteia Therapeutics
 nav: Providers
 network: true
 overview: Areteia Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Clinical Stage.
-random_paper: 15
+random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/areteia-therapeutics/refs/heads/main/screenshots/areteia-therapeutics-2026-07-25T201125.png
 security:
 - kind: domain-security

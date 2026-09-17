@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,7 +104,7 @@ overview: '9FIN is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   9FIN''s developer surface includes engineering blog, changelog, signup flow, and 10 more developer resources.'
-random_paper: 17
+random_paper: 0
 score:
   band: emerging
   composite: 22.9
@@ -144,7 +144,7 @@ score:
     regime_id: securities_market_data
     score: 40.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

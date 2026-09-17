@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 17
@@ -57,19 +57,9 @@ apis:
   slug: accept-aisystems-api
 - baseURL: https://midas.accept.io
   baseurl_source: declared
-  description: The Businessservices API from Accept — 3 operation(s) for businessservices.
-  name: Accept Businessservices API
-  slug: accept-businessservices-api
-- baseURL: https://midas.accept.io
-  baseurl_source: declared
   description: The Capabilities API from Accept — 5 operation(s) for capabilities.
   name: Accept Capabilities API
   slug: accept-capabilities-api
-- baseURL: https://midas.accept.io
-  baseurl_source: declared
-  description: The Controlplane API from Accept — 18 operation(s) for controlplane.
-  name: Accept Controlplane API
-  slug: accept-controlplane-api
 - baseURL: https://midas.accept.io
   baseurl_source: declared
   description: The Coverage API from Accept — 1 operation(s) for coverage.
@@ -160,6 +150,16 @@ apis:
   description: The Surfaces API from Accept — 4 operation(s) for surfaces.
   name: Accept Surfaces API
   slug: accept-surfaces-api
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Business Services API from Accept — 3 operation(s) for business services.
+  name: Accept Business Services API
+  slug: accept-business-services-api
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Control Plane API from Accept — 18 operation(s) for control plane.
+  name: Accept Control Plane API
+  slug: accept-control-plane-api
 artifact_total: 51
 asyncapis:
 - description: External event contract for MIDAS decision governance. Events are written to a transactional outbox in the same Postgres transaction as domain state changes, then dispatched to Kafka by a background d
@@ -411,14 +411,14 @@ modified: '2026-07-18'
 name: Accept
 nav: Providers
 network: true
-overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Aisystems API, Businessservices API, and 20 more. Tagged areas include Company, Enterprise, Governance, AI Agents, and Authority.
+overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Aisystems API, Capabilities API, and 20 more. Tagged areas include Company, Enterprise, Governance, AI Agents, and Authority.
 
 
   The Accept catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Accept''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
-random_paper: 15
+random_paper: 8
 score:
   band: developing
   composite: 41.1
@@ -449,7 +449,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

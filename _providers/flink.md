@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -60,24 +60,24 @@ apis:
   slug: flink-datasets-api
 - baseURL: http://localhost:8081
   baseurl_source: declared
-  description: JAR upload, listing, run, and delete.
-  name: Apache Flink JARs API
-  slug: flink-jars-api
-- baseURL: http://localhost:8081
-  baseurl_source: declared
-  description: JobManager configuration, environment, logs, metrics, and threads.
-  name: Apache Flink JobManager API
-  slug: flink-jobmanager-api
-- baseURL: http://localhost:8081
-  baseurl_source: declared
   description: Job lifecycle and inspection.
   name: Apache Flink Jobs API
   slug: flink-jobs-api
 - baseURL: http://localhost:8081
   baseurl_source: declared
+  description: JAR upload, listing, run, and delete.
+  name: Apache Flink JA Rs API
+  slug: flink-jars-api
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: JobManager configuration, environment, logs, metrics, and threads.
+  name: Apache Flink Job Manager API
+  slug: flink-job-manager-api
+- baseURL: http://localhost:8081
+  baseurl_source: declared
   description: TaskManager listing and inspection.
-  name: Apache Flink TaskManagers API
-  slug: flink-taskmanagers-api
+  name: Apache Flink Task Managers API
+  slug: flink-task-managers-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -176,7 +176,7 @@ plans:
 - name: Flink Plans Pricing
   plan_count: 3
   slug: flink-plans-pricing
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Flink Rate Limits
@@ -211,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

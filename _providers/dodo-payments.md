@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -78,7 +78,7 @@ apis:
 - baseURL: https://live.dodopayments.com
   baseurl_source: declared
   description: The Payments API from Dodo Payments — 4 operation(s) for payments.
-  name: Dodo Payments Payments API
+  name: Dodo Payments API
   slug: dodo-payments-payments-api
 - baseURL: https://live.dodopayments.com
   baseurl_source: declared
@@ -213,7 +213,7 @@ finops:
   slug: dodo-payments-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dodo-payments.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-09-16'
 name: Dodo Payments
 nav: Providers
 network: true
@@ -225,7 +225,7 @@ plans:
 - name: Dodo Payments Plans Pricing
   plan_count: 3
   slug: dodo-payments-plans-pricing
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Dodo Payments Rate Limits
@@ -264,7 +264,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

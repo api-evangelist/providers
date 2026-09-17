@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Pulse API enables direct management of your Pulse devices and organisation. Update device settings, create new rooms and locations, access device sensor data and more.
@@ -41,6 +41,10 @@ apis:
   slug: neat-pulse-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://neat.no
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/neat-pulse-api/refs/heads/main/security/neat-pulse-api-domain-security.yml
   title: ''
@@ -66,19 +70,19 @@ finops:
   slug: neat-pulse-api-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/neat-pulse-api.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Neat Pulse API
 nav: Providers
 network: true
 overview: 'Neat Pulse API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video Conferencing, Devices, and Hardware.
 
 
-  Neat Pulse API''s developer surface includes engineering blog and 3 more developer resources.'
+  Neat Pulse API''s developer surface includes engineering blog and 4 more developer resources.'
 plans:
 - name: Neat Pulse Api Plans Pricing
   plan_count: 3
   slug: neat-pulse-api-plans-pricing
-random_paper: 16
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Neat Pulse Api Rate Limits
@@ -103,7 +107,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -120,4 +124,5 @@ tags:
 - Video Conferencing
 - Devices
 - Hardware
+website: https://neat.no
 ---

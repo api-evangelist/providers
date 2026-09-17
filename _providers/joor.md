@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: JOOR's production identity service, a Keycloak realm exposing standard OpenID Connect / OAuth 2.0 endpoints (authorize, token, userinfo, introspection, JWKS) used to authenticate access to the JOOR pl
@@ -100,7 +100,7 @@ overview: 'Joor publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Joor''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 1
+random_paper: 2
 scopes:
 - name: Joor Scopes
   scope_count: 9
@@ -139,7 +139,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

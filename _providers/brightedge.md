@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -84,11 +84,6 @@ apis:
   description: The chrome_extension API from BrightEdge — 12 operation(s) for chrome_extension.
   name: BrightEdge chrome_extension API
   slug: brightedge-chrome-extension-api
-- baseURL: https://api.brightedge.com
-  baseurl_source: declared
-  description: Supports ChromeExtension functionality.
-  name: BrightEdge chromeextension API
-  slug: brightedge-chromeextension-api
 - baseURL: https://api.brightedge.com
   baseurl_source: declared
   description: The core API from BrightEdge — 6 operation(s) for core.
@@ -192,7 +187,7 @@ apis:
 - description: BrightEdge's hosted, remote Model Context Protocol server. An MCP client POSTs to https://mcp2.brightedge.com/mcp (or the SSE endpoint https://mcp2-sse.brightedge.com/sse) and, after an OAuth 2.0 auth
   name: BrightEdge MCP Server
   slug: brightedge-mcp-server
-artifact_total: 84
+artifact_total: 83
 collections:
 - collection_type: open
   name: API Collection
@@ -543,7 +538,7 @@ modified: '2026-08-13'
 name: BrightEdge
 nav: Providers
 network: true
-overview: 'BrightEdge publishes 29 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 26 more. Tagged areas include Company, SEO, Search, Content, and Marketing.
+overview: 'BrightEdge publishes 28 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 25 more. Tagged areas include Company, SEO, Search, Content, and Marketing.
 
 
   BrightEdge''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 36 more developer resources.'
@@ -551,7 +546,7 @@ plans:
 - name: Brightedge Plans Pricing
   plan_count: 0
   slug: brightedge-plans-pricing
-random_paper: 16
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Brightedge Rate Limits
@@ -587,11 +582,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 29
+      total: 28
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

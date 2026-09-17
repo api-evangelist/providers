@@ -23,35 +23,180 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
-- baseURL: https://www.employinc.com/wp-json/wp/v2
-  baseurl_source: declared
-  description: 'The WordPress REST API Employ, Inc. serves at www.employinc.com/wp-json/wp/v2. It exposes the Employ corporate site as JSON: blog posts, marketing and legal pages, media, the resource, case-study, new'
-  name: Employ Inc Content API
-  slug: employ-inc-content-api
-- baseURL: https://www.employinc.com/wp-json/tribe/events/v1
-  baseurl_source: declared
-  description: The Events Calendar REST API (tribe/events/v1) for Employ, Inc. events and webinars, with a self-describing OpenAPI 3.0.0 contract the host publishes at its own /doc endpoint. Covers events, venues, o
-  name: Employ Inc Events Calendar REST API
-  slug: employ-inc-events-calendar-rest-api
-- baseURL: https://www.employinc.com/wp-json/tec/v1
-  baseurl_source: declared
-  description: 'The newer tec/v1 generation of The Events Calendar REST API on www.employinc.com, published as a self-describing OpenAPI 3.0.4 contract at its own /docs endpoint. Covers events, organizers and venues '
-  name: Employ Inc TEC Events REST API
-  slug: employ-inc-tec-events-rest-api
 - baseURL: https://status.employinc.com/api/v2
   baseurl_source: declared
   description: 'The public Atlassian Statuspage API on status.employinc.com. Eight anonymous endpoints report the rollup availability indicator, every monitored Employ platform component, the dated incident timeline '
   name: Employ Inc Status API
   slug: employ-inc-status-api
-artifact_total: 16
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Customer case studies.
+  name: Employ Inc Case Studies API
+  slug: employ-inc-case-studies-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Blog categories.
+  name: Employ Inc Categories API
+  slug: employ-inc-categories-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: These operations are introduced by the Common library.
+  name: Employ Inc Common API
+  slug: employ-inc-common-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Individually monitored Employ platform components.
+  name: Employ Inc Components API
+  slug: employ-inc-components-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Doc API from Employ Inc — 1 operation(s) for doc.
+  name: Employ Inc Doc API
+  slug: employ-inc-doc-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The event category taxonomy.
+  name: Employ Inc Event Categories API
+  slug: employ-inc-event-categories-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Employ events, as WordPress posts.
+  name: Employ Inc Events API
+  slug: employ-inc-events-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Recruiting and talent-acquisition glossary terms.
+  name: Employ Inc Glossary API
+  slug: employ-inc-glossary-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Incidents and their dated update timelines.
+  name: Employ Inc Incidents API
+  slug: employ-inc-incidents-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Campaign landing pages.
+  name: Employ Inc Landing Pages API
+  slug: employ-inc-landing-pages-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Scheduled maintenance windows.
+  name: Employ Inc Maintenance API
+  slug: employ-inc-maintenance-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Images and files in the Employ media library.
+  name: Employ Inc Media API
+  slug: employ-inc-media-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Employ press releases and news items.
+  name: Employ Inc News API
+  slug: employ-inc-news-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The news_item_type taxonomy.
+  name: Employ Inc News Types API
+  slug: employ-inc-news-types-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Event organizers, as WordPress posts.
+  name: Employ Inc Organizers API
+  slug: employ-inc-organizers-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The page-type taxonomy.
+  name: Employ Inc Page Types API
+  slug: employ-inc-page-types-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Marketing, product and legal pages on www.employinc.com.
+  name: Employ Inc Pages API
+  slug: employ-inc-pages-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Paid-search campaign pages.
+  name: Employ Inc Paid Campaigns API
+  slug: employ-inc-paid-campaigns-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Employ blog posts.
+  name: Employ Inc Posts API
+  slug: employ-inc-posts-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The resource_type taxonomy.
+  name: Employ Inc Resource Types API
+  slug: employ-inc-resource-types-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: 'Gated resources: reports, guides, toolkits and whitepapers.'
+  name: Employ Inc Resources API
+  slug: employ-inc-resources-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Cross-content-type search over published site content.
+  name: Employ Inc Search API
+  slug: employ-inc-search-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered post statuses.
+  name: Employ Inc Statuses API
+  slug: employ-inc-statuses-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The one-call rollup of everything on the page.
+  name: Employ Inc Summary API
+  slug: employ-inc-summary-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Blog tags.
+  name: Employ Inc Tags API
+  slug: employ-inc-tags-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered taxonomies on the Employ site.
+  name: Employ Inc Taxonomies API
+  slug: employ-inc-taxonomies-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Employ leadership and team member profiles.
+  name: Employ Inc Teams API
+  slug: employ-inc-teams-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The topic taxonomy applied to resources and posts.
+  name: Employ Inc Topics API
+  slug: employ-inc-topics-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered content types on the Employ site.
+  name: Employ Inc Types API
+  slug: employ-inc-types-api
+- baseURL: https://www.employinc.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Event venues, as WordPress posts.
+  name: Employ Inc Venues API
+  slug: employ-inc-venues-api
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Employ Inc Status Webhooks
   slug: employ-inc-status-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/overlays/employ-inc-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/employ-inc-content-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/overlays/employ-inc-events-calendar-rest-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/employ-inc-events-calendar-rest-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/employ-inc/refs/heads/main/security/employ-inc-domain-security.yml
   title: ''
@@ -194,25 +339,25 @@ modified: '2026-09-13'
 name: Employ Inc
 nav: Providers
 network: true
-overview: 'Employ Inc publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Content API, Events Calendar REST API, TEC Events REST API, and 1 more. Tagged areas include Human Resources, Recruiting, Talent Acquisition, Applicant Tracking, and ATS.
+overview: 'Employ Inc publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Status API, Case Studies API, Categories API, and 28 more. Tagged areas include Human Resources, Recruiting, Talent Acquisition, Applicant Tracking, and ATS.
 
 
   The Employ Inc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Employ Inc''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
+  Employ Inc''s developer surface includes authentication, engineering blog, support, and 23 more developer resources.'
 plans:
 - name: Employ Inc Plans Pricing
   plan_count: 0
   slug: employ-inc-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Employ Inc Rate Limits
   slug: employ-inc-rate-limits
 score:
   band: developing
-  composite: 42.1
+  composite: 42.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -220,11 +365,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 65.4
+    contract_quality: 67.8
     developer_ergonomics: 28.0
     discoverability: 81.5
     operational_transparency: 36.8
@@ -240,11 +385,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 31
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -266,7 +411,6 @@ tags:
 - Applicant Tracking
 - ATS
 - Hiring
-- HR Tech
 - Content
 - Event
 - Status

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,7 +91,7 @@ modified: '2026-08-25'
 name: Lumilens
 nav: Providers
 network: true
-overview: 'Lumilens is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photonics, Optical Networking, Interconnects, and Semiconductors.
+overview: 'Lumilens is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photonics, Optical Networking, Interconnect, and Semiconductors.
 
 
   Lumilens'' developer surface includes engineering blog and 6 more developer resources.'
@@ -99,7 +99,7 @@ plans:
 - name: Lumilens Plans Pricing
   plan_count: 0
   slug: lumilens-plans-pricing
-random_paper: 12
+random_paper: 15
 score:
   band: minimal
   composite: 10.4
@@ -120,7 +120,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -137,10 +137,10 @@ tags:
 - Company
 - Photonics
 - Optical Networking
-- Interconnects
+- Interconnect
 - Semiconductors
 - Silicon Photonics
-- Data Centers
+- Data-Center
 - Artificial Intelligence
 - Hardware
 website: https://lumilens.com/

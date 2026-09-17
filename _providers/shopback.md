@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://prod-merchant-service.hoolah.co/merchant
@@ -254,7 +254,7 @@ overview: 'ShopBack publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShopBack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 3
+random_paper: 7
 score:
   band: developing
   composite: 47.1
@@ -297,7 +297,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

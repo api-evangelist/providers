@@ -19,7 +19,7 @@ name: Mediapassage.com
 nav: Providers
 network: true
 overview: Mediapassage.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 17
+random_paper: 9
 slug: mediapassagecom
 tags:
 - Company

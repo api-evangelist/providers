@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -507,11 +507,11 @@ jsonld:
   property_count: 8
   slug: ibm-quantum-context
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: IBM Quantum
 nav: Providers
 network: true
-overview: 'IBM Quantum publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ibm-quantum Accounts API, ibm-quantum Analytics API, ibm-quantum Backends API, and 6 more.
+overview: 'IBM Quantum publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ibm-quantum Accounts API, ibm-quantum Analytics API, ibm-quantum Backends API, and 6 more. Tagged areas include Quantum Computing, Analytics, and Job.
 
 
   The IBM Quantum catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -522,7 +522,7 @@ plans:
 - name: Ibm Quantum Plans Pricing
   plan_count: 5
   slug: ibm-quantum-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Ibm Quantum Rate Limits
@@ -575,11 +575,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -599,5 +596,9 @@ security:
   slug: ibm-quantum-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
 slug: ibm-quantum
+tags:
+- Quantum Computing
+- Analytics
+- Job
 website: https://www.ibm.com/
 ---

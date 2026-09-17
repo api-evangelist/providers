@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1131,7 +1131,7 @@ modified: '2026-05-19'
 name: Upvest
 nav: Providers
 network: true
-overview: 'Upvest publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account Transfers API, Accounts API, Authentication API, and 32 more. Tagged areas include Banking Infrastructure, Fintech, Investments, Securities, and Fractional Investing.
+overview: 'Upvest publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account Transfers API, Accounts API, Authentication API, and 32 more. Tagged areas include Banking Infrastructure, Fintech, Investment, Securities, and Fractional Investing.
 
 
   The Upvest catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -1142,7 +1142,7 @@ plans:
 - name: Upvest Plans Pricing
   plan_count: 3
   slug: upvest-plans-pricing
-random_paper: 7
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Upvest Rate Limits
@@ -1227,7 +1227,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1250,7 +1250,7 @@ slug: upvest
 tags:
 - Banking Infrastructure
 - Fintech
-- Investments
+- Investment
 - Securities
 - Fractional Investing
 - Custody

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -73,11 +73,6 @@ apis:
   slug: runpod-endpoints-api
 - baseURL: https://rest.runpod.io/v1
   baseurl_source: declared
-  description: The Networkvolumes API from RunPod — 3 operation(s) for networkvolumes.
-  name: RunPod Networkvolumes API
-  slug: runpod-networkvolumes-api
-- baseURL: https://rest.runpod.io/v1
-  baseurl_source: declared
   description: The Openapi.json API from RunPod — 1 operation(s) for openapi.json.
   name: RunPod Openapi.json API
   slug: runpod-openapi-json-api
@@ -91,6 +86,11 @@ apis:
   description: The Templates API from RunPod — 3 operation(s) for templates.
   name: RunPod Templates API
   slug: runpod-templates-api
+- baseURL: https://api.runpod.io/graphql
+  baseurl_source: declared
+  description: The Network Volumes API from RunPod — 3 operation(s) for network volumes.
+  name: RunPod Network Volumes API
+  slug: runpod-network-volumes-api
 artifact_total: 36
 collections:
 - collection_type: open
@@ -262,7 +262,7 @@ plans:
 - name: Runpod Plans Pricing
   plan_count: 1
   slug: runpod-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Runpod Rate Limits
@@ -294,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

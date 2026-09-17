@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: APIwiz is a low-code, end-to-end API management platform enabling the complete API lifecycle including design, build, security, governance, observability, and monetization. It provides a visual API de
@@ -206,7 +206,7 @@ plans:
 - name: Apiwiz Plans Pricing
   plan_count: 0
   slug: apiwiz-plans-pricing
-random_paper: 9
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Apiwiz Rate Limits
@@ -233,7 +233,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

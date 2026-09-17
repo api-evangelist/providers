@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Public and private REST API exposing CMA CGM, ANL, APL, CNC, and Containerships shipment events aligned with the DCSA Track & Trace v2.2.0 OpenAPI specification (`/operation/trackandtrace/v1`). Two op
@@ -217,7 +217,7 @@ overview: 'CMA CGM publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   CMA CGM''s developer surface includes developer portal, getting-started guide, release notes, support, YouTube channel, and 26 more developer resources.'
-random_paper: 10
+random_paper: 1
 score:
   band: emerging
   composite: 15.8
@@ -244,7 +244,7 @@ score:
     - france-iberia
   previous_composite: 15.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -265,7 +265,7 @@ tags:
 - Freight
 - Supply Chain
 - Ports
-- Terminals
+- Terminal
 - Track and Trace
 - DCSA
 - EDI

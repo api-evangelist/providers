@@ -21,13 +21,13 @@ modified: '2026-05-03'
 name: XML
 nav: Providers
 network: true
-random_paper: 1
+random_paper: 7
 slug: xml
 tags:
 - Data Formats
-- Document
+- Documents
 - Markup Language
-- Standard
+- Standards
 - W3C
 - Web Services
 - XML

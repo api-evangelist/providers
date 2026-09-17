@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Ximilar REST API at https://api.ximilar.com. One account token in an ''Authorization: Token'' header unlocks every service the active plan includes: fashion, home-decor and photo tagging, collectibl'
@@ -230,7 +230,7 @@ plans:
 - name: Ximilar Plans Pricing
   plan_count: 16
   slug: ximilar-plans-pricing
-random_paper: 2
+random_paper: 10
 rate_limits:
 - limit_count: 9
   name: Ximilar Rate Limits
@@ -258,7 +258,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

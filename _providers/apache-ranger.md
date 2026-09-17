@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -91,6 +91,10 @@ collections:
   name: Apache Ranger REST Audit Users API
   slug: open-apache-ranger-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://apache.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/agentic-access/apache-ranger-agentic-access.yml
   title: ''
@@ -293,7 +297,7 @@ jsonld:
   property_count: 42
   slug: apache-ranger-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Apache Ranger
 nav: Providers
 network: true
@@ -303,12 +307,12 @@ overview: 'Apache Ranger publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Apache Ranger catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache Ranger''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Apache Ranger''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Apache Ranger Plans Pricing
   plan_count: 3
   slug: apache-ranger-plans-pricing
-random_paper: 13
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Apache Ranger Rate Limits
@@ -368,7 +372,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -405,4 +409,5 @@ use_cases:
   name: Multi-Tenant Authorization
 - description: Control which applications can produce and consume Kafka topics
   name: Kafka Topic Authorization
+website: https://apache.org
 ---

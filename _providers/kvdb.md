@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ modified: '2026-05-19'
 name: KVdb
 nav: Providers
 network: true
-overview: 'KVdb publishes 3 APIs on the [APIs.io](https://apis.io/) network: Buckets API, Keys API, and Scripts API. Tagged areas include Databases, Key-Value, NoSQL, and Serverless.
+overview: 'KVdb publishes 3 APIs on the [APIs.io](https://apis.io/) network: Buckets API, Keys API, and Scripts API. Tagged areas include Database, Key-Value, NoSQL, and Serverless.
 
 
   KVdb''s developer surface includes authentication, documentation, engineering blog, and 3 more developer resources.'
@@ -125,7 +125,7 @@ plans:
 - name: Kvdb Plans Pricing
   plan_count: 3
   slug: kvdb-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Kvdb Rate Limits
@@ -157,7 +157,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -174,7 +174,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: kvdb
 tags:
-- Databases
+- Database
 - Key-Value
 - NoSQL
 - Serverless

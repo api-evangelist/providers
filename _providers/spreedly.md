@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -403,7 +403,7 @@ overview: 'Spreedly publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   Spreedly''s developer surface includes authentication, sandbox, changelog, support, documentation, API reference, getting-started guide, and 36 more developer resources.'
-random_paper: 11
+random_paper: 14
 score:
   band: strong
   composite: 56.1
@@ -418,7 +418,7 @@ score:
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 64.5
+    contract_quality: 64.3
     developer_ergonomics: 58.9
     discoverability: 70.4
     operational_transparency: 48.7
@@ -447,7 +447,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

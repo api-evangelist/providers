@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -59,11 +59,6 @@ apis:
   description: The Invoice API from Aqueduct — 6 operation(s) for invoice.
   name: Aqueduct Invoice API
   slug: aqueduct-invoice-api
-- baseURL: https://api.tryaqueduct.com/v1
-  baseurl_source: declared
-  description: The InvoiceLineItem API from Aqueduct — 1 operation(s) for invoicelineitem.
-  name: Aqueduct InvoiceLineItem API
-  slug: aqueduct-invoicelineitem-api
 - baseURL: https://api.tryaqueduct.com/v1
   baseurl_source: declared
   description: The PriceModel API from Aqueduct — 3 operation(s) for pricemodel.
@@ -94,6 +89,11 @@ apis:
   description: The Webhooks API from Aqueduct — 1 operation(s) for webhooks.
   name: Aqueduct Webhooks API
   slug: aqueduct-webhooks-api
+- baseURL: https://api.tryaqueduct.com/v1
+  baseurl_source: declared
+  description: The Invoice Line Item API from Aqueduct — 1 operation(s) for invoice line item.
+  name: Aqueduct Invoice Line Item API
+  slug: aqueduct-invoice-line-item-api
 artifact_total: 25
 asyncapis:
 - description: Event notifications delivered by Aqueduct to registered webhook endpoints. Each event is an HTTP POST carrying the shared envelope. Subscribe by creating a webhook endpoint (POST /webhookendpoints) wi
@@ -234,10 +234,10 @@ overview: 'Aqueduct publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   Aqueduct''s developer surface includes documentation, API reference, getting-started guide, authentication, and 14 more developer resources.'
-random_paper: 20
+random_paper: 2
 score:
   band: thin
-  composite: 30.6
+  composite: 30.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -245,11 +245,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 54.7
+    contract_quality: 55.2
     developer_ergonomics: 32.7
     discoverability: 75.9
     operational_transparency: 7.9
@@ -271,7 +271,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 1.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: The HPE Aruba Networking Central REST API is the primary programmatic surface for the Aruba Central cloud network management platform. It exposes configuration, monitoring, AIOps, troubleshooting, App
@@ -304,7 +304,7 @@ overview: 'HPE Aruba Networking publishes 10 APIs on the [APIs.io](https://apis.
 
 
   HPE Aruba Networking''s developer surface includes developer portal, documentation, support, engineering blog, YouTube channel, tooling, code examples, and 43 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: emerging
   composite: 23.1
@@ -331,7 +331,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

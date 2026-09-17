@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,23 +27,23 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: verified
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.4
-  scored_at: '2026-09-15'
+  score: 28.3
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 32
-  human_in_the_loop: 1
+- acting_count: 497
+  human_in_the_loop: 18
   name: Getstream Agentic Access
-  operation_count: 44
+  operation_count: 659
   slug: getstream-agentic-access
-  summary_line: 44 operations · 32 acting · 1 human-in-the-loop
-api_count: 1
+  summary_line: 659 operations · 497 acting · 18 human-in-the-loop
+api_count: 6
 apis:
 - description: 'Build scalable activity feeds and timelines - add activities to feeds, follow and unfollow feeds, aggregate and rank activities, and fan out to followers. Powers social timelines, notification feeds, '
   name: Stream Activity Feeds API
@@ -51,92 +51,32 @@ apis:
 - description: Create and manage audio/video calls and livestreams - get-or-create calls, manage call members and permissions, start and stop recording, transcription, and broadcasting. Metered on participant minute
   name: Stream Video and Audio API
   slug: getstream-video-audio-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Application-level utilities such as rate limits and search.
-  name: Stream Application API
-  slug: getstream-application-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Create and control bulk messaging campaigns.
-  name: Stream Campaigns API
-  slug: getstream-campaigns-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Query, create, update, truncate, and delete chat channels.
-  name: Stream Channels API
-  slug: getstream-channels-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Register and manage push notification devices.
-  name: Stream Devices API
-  slug: getstream-devices-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Query and partially update channel members.
-  name: Stream Members API
-  slug: getstream-members-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Send, retrieve, update, delete, and search messages and replies.
-  name: Stream Messages API
-  slug: getstream-messages-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Ban, flag, and mute users, messages, and channels.
-  name: Stream Moderation API
-  slug: getstream-moderation-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Inspect application permissions.
-  name: Stream Permissions API
-  slug: getstream-permissions-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Add and remove emoji reactions on messages.
-  name: Stream Reactions API
-  slug: getstream-reactions-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: List, create, and delete custom roles.
-  name: Stream Roles API
-  slug: getstream-roles-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Query and retrieve message threads.
-  name: Stream Threads API
-  slug: getstream-threads-api
-- baseURL: https://chat.stream-io-api.com
-  baseurl_source: declared
-  description: Upsert, query, update, deactivate, and reactivate users.
-  name: Stream Users API
-  slug: getstream-users-api
-- baseURL: https://chat.stream-io-api.com
+- baseURL: https://api.stream-io-api.com
   baseurl_source: declared
   description: The product:chat API from Stream — 194 operation(s) for product:chat.
-  name: Stream product:chat API
-  slug: stream-io-product-chat-api
-- baseURL: https://chat.stream-io-api.com
+  name: Stream Product:chat API
+  slug: getstream-product-chat-api
+- baseURL: https://api.stream-io-api.com
   baseurl_source: declared
   description: The product:common API from Stream — 54 operation(s) for product:common.
-  name: Stream product:common API
-  slug: stream-io-product-common-api
-- baseURL: https://chat.stream-io-api.com
+  name: Stream Product:common API
+  slug: getstream-product-common-api
+- baseURL: https://api.stream-io-api.com
   baseurl_source: declared
   description: The product:feeds API from Stream — 69 operation(s) for product:feeds.
-  name: Stream product:feeds API
-  slug: stream-io-product-feeds-api
-- baseURL: https://chat.stream-io-api.com
+  name: Stream Product:feeds API
+  slug: getstream-product-feeds-api
+- baseURL: https://api.stream-io-api.com
   baseurl_source: declared
   description: The product:moderation API from Stream — 56 operation(s) for product:moderation.
-  name: Stream product:moderation API
-  slug: stream-io-product-moderation-api
-- baseURL: https://chat.stream-io-api.com
+  name: Stream Product:moderation API
+  slug: getstream-product-moderation-api
+- baseURL: https://api.stream-io-api.com
   baseurl_source: declared
   description: The product:video API from Stream — 121 operation(s) for product:video.
-  name: Stream product:video API
-  slug: stream-io-product-video-api
-artifact_total: 44
+  name: Stream Product:video API
+  slug: getstream-product-video-api
+artifact_total: 32
 asyncapis:
 - description: AsyncAPI 2.6 description of Stream (GetStream.io) Chat's **real-time WebSocket** surface. Unlike the request/response server-side REST API (`https://chat.stream-io-api.com`, modeled in `openapi/getstr
   name: Stream Chat Realtime WebSocket API
@@ -265,7 +205,7 @@ modified: '2026-07-03'
 name: Stream
 nav: Providers
 network: true
-overview: 'Stream publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Application API, Campaigns API, Channels API, and 14 more. Tagged areas include Chat, Messaging, Activity Feeds, Video, and Audio.
+overview: 'Stream publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Product:chat API, Product:common API, Product:feeds API, and 2 more. Tagged areas include Chat, Messaging, Activity Feeds, Video, and Audio.
 
 
   The Stream catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
@@ -276,7 +216,7 @@ plans:
 - name: Getstream Plans Pricing
   plan_count: 4
   slug: getstream-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Getstream Rate Limits
@@ -295,21 +235,21 @@ rules:
   slug: getstream-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 50.9
+  composite: 52.5
   coverage:
     artifact_dirs: 12
-    catalog_earned: 67.8
+    catalog_earned: 70.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 47.3
+    catalog_gap: 44.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 47.4
     contract_governance: 11.4
-    contract_quality: 58.3
+    contract_quality: 62.8
     developer_ergonomics: 38.1
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 34.2
   previous_composite: 50.9
   provenance:
@@ -318,9 +258,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 17
+      total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

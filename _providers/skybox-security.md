@@ -40,7 +40,7 @@ name: Skybox Security
 nav: Providers
 network: true
 overview: Skybox Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Network Security, and Vulnerability Management.
-random_paper: 9
+random_paper: 21
 security:
 - kind: domain-security
   name: Skybox Security Domain Security

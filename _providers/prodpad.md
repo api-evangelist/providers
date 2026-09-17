@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for ProdPad's product management platform providing programmatic access to ideas, customer feedback, personas, roadmaps, OKRs, and webhooks. Authenticate with a bearer token and interact with
@@ -122,7 +122,7 @@ plans:
 - name: Prodpad Plans Pricing
   plan_count: 7
   slug: prodpad-plans-pricing
-random_paper: 11
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Prodpad Rate Limits
@@ -147,7 +147,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

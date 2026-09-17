@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -334,11 +334,11 @@ modified: '2026-07-19'
 name: KolayIK
 nav: Providers
 network: true
-overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approval Process API, Calendar API, Expense API, and 8 more. Tagged areas include Company, Human Resources, HR, Payroll, and HCM.
+overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approval Process API, Calendar API, Expense API, and 8 more. Tagged areas include Company, Human Resources, Payroll, HCM, and Employee Management.
 
 
   KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 34 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: developing
   composite: 48.3
@@ -376,7 +376,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -399,7 +399,6 @@ slug: kolayik
 tags:
 - Company
 - Human Resources
-- HR
 - Payroll
 - HCM
 - Employee Management

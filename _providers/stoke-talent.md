@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,8 +53,8 @@ modified: '2026-07-21'
 name: Stoke Talent
 nav: Providers
 network: true
-overview: Stoke Talent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Freelance Management, Contingent Workforce, Contractor Management, and HR Tech.
-random_paper: 4
+overview: Stoke Talent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Freelance Management, Contingent Workforce, Contractor Management, and Human Resources.
+random_paper: 11
 score:
   band: minimal
   composite: 1.5
@@ -81,7 +81,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -98,7 +98,7 @@ tags:
 - Freelance Management
 - Contingent Workforce
 - Contractor Management
-- HR Tech
+- Human Resources
 - Compliance
 - Payments
 - Fiverr Enterprise

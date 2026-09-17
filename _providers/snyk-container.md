@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.snyk.io/rest
   baseurl_source: spec
   description: Manage Snyk Container scanning projects
-  name: Snyk Container Container Projects API
+  name: Snyk Container Projects API
   slug: snyk-container-container-projects-api
 - baseURL: https://api.snyk.io/rest
   baseurl_source: spec
@@ -218,11 +218,11 @@ jsonld:
   property_count: 2
   slug: snyk-container-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Snyk Container
 nav: Providers
 network: true
-overview: 'Snyk Container publishes 3 APIs on the [APIs.io](https://apis.io/) network: Container Projects API, Issues API, and Targets API. Tagged areas include Container Images, Containers, Kubernetes, Security, and Vulnerability Management.
+overview: 'Snyk Container publishes 3 APIs on the [APIs.io](https://apis.io/) network: Projects API, Issues API, and Targets API. Tagged areas include Container Images, Containers, Kubernetes, Security, and Vulnerability Management.
 
 
   The Snyk Container catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -233,7 +233,7 @@ plans:
 - name: Snyk Container Plans Pricing
   plan_count: 3
   slug: snyk-container-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Snyk Container Rate Limits
@@ -287,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

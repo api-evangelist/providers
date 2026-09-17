@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A live Azure API Management gateway operated by Solera Health on its own api.soleranetwork.com domain, used for payer, employer and digital-health-partner integrations into the HALO platform. Every an
@@ -148,7 +148,7 @@ plans:
 - name: Solera Health Plans Pricing
   plan_count: 0
   slug: solera-health-plans-pricing
-random_paper: 19
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Solera Health Rate Limits
@@ -186,7 +186,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ tags:
 - Benefits
 - Employee Benefits
 - Health Plans
-- Payer
+- Payers
 - Provider Network
 - Chronic Condition Management
 - Preventive Care

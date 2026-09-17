@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -245,7 +245,7 @@ overview: 'ColdSnap publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   ColdSnap''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, YouTube channel, authentication, and 32 more developer resources.'
-random_paper: 12
+random_paper: 16
 scopes:
 - name: Coldsnap Scopes
   scope_count: 4
@@ -276,7 +276,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

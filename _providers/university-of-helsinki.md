@@ -33,72 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-09-15'
-api_count: 13
+  scored_at: '2026-09-16'
+api_count: 19
 apis:
 - description: The University's own API developer portal and gateway — a self-hosted Gravitee API Management deployment. The portal REST API answers anonymously and is, in practice, the University's API discovery su
   name: University of Helsinki API Portal (Gravitee)
   slug: api-gateway
-- baseURL: https://gw.api.helsinki.fi/organisation
-  baseurl_source: declared
-  description: 'Organisation Registry Public API — the University''s organisational units and their hierarchy. The largest gateway contract: 22 paths and 19 component schemas, OpenAPI 3.0.3, X-Api-Key.'
-  name: HY Organisation API
-  slug: hy-organisation
-- baseURL: https://gw.api.helsinki.fi/contact-search
-  baseurl_source: declared
-  description: Expert and contact search, used by the public helsinki.fi pages and the Flamma intranet. OpenAPI 3.1.0, 22 paths, 33 schemas — the only 3.1 document in the estate. Returns records about identifiable s
-  name: Contact Search API
-  slug: contact-search
-- baseURL: https://gw.api.helsinki.fi/course-pages-cms
-  baseurl_source: declared
-  description: 'Drupal JSON:API behind the course pages — course descriptions, materials and related content. Declares an oauth2 scheme with no flows whose description links a third-party CRM vendor''s documentation, '
-  name: Course pages CMS
-  slug: course-pages-cms
-- baseURL: https://gw.api.helsinki.fi/public_web
-  baseurl_source: declared
-  description: Content API for helsinki.fi — news and study search. Notable for declaring two distinct X-Api-Key schemes, NewsApiKey and StudySearchApiKey, described as issued by two different plans; it is the clear
-  name: Helsinki.fi content
-  slug: helsinki-fi-content
-- baseURL: https://gw.api.helsinki.fi/building
-  baseurl_source: declared
-  description: Buildings and spaces on the University estate. Small (2 paths) and the stalest API in the gallery — created 2020-03-18, last updated 2023-05-29.
-  name: HY Building API
-  slug: hy-building
-- baseURL: https://gw.api.helsinki.fi/serviceapi
-  baseurl_source: declared
-  description: Queries the University's service catalogue. Contact is the IT Centre integration services group address, not an individual.
-  name: ServiceAPI
-  slug: serviceapi
-- baseURL: https://gw.api.helsinki.fi/employeeinformation
-  baseurl_source: declared
-  description: Employee information lookup. Returns records about identifiable staff — structural examples only, no live response stored. The portal card advertises 1.4.0 while the spec it serves declares info.versi
-  name: EmployeeInformationAPI
-  slug: employeeinformation
-- baseURL: https://gw.api.helsinki.fi/persongroup
-  baseurl_source: declared
-  description: Selected groups and their member data. Personal data; structural examples only.
-  name: PersonGroup
-  slug: persongroup
-- baseURL: https://gw.api.helsinki.fi/efecte
-  baseurl_source: declared
-  description: Creates service requests in Efecte, the University's IT service management platform. University-operated endpoint in front of a commercial ITSM product.
-  name: General Efecte API
-  slug: general-efecte
-- baseURL: https://gw.api.helsinki.fi/netdata
-  baseurl_source: declared
-  description: Interface to the University's network registry data (production instance). Declares its API key header as X-API-Key where the rest of the estate uses X-Api-Key.
-  name: Network registry API
-  slug: network-registry
-- baseURL: https://gw.api.helsinki.fi/ssapi
-  baseurl_source: declared
-  description: The University's application-portfolio register — a machine-readable inventory of the software the institution runs. Declares no security scheme and no error responses, so its published contract canno
-  name: Sovellussalkku API
-  slug: sovellussalkku
-- baseURL: https://gw.api.helsinki.fi/secure/dawasync
-  baseurl_source: declared
-  description: Posts data into named data-warehouse tables. Newest API in the gallery (created 2026-04-20) and, like Sovellussalkku, publishes no security scheme or error responses.
-  name: Dawa Sync API
-  slug: dawa-sync
 - description: SBOM upload to the University's Dependency Track instance from external networks. Public and running in the portal, but publishes no OpenAPI page, so no contract is stored here.
   name: Dependency Track
   slug: dependency-track
@@ -108,11 +48,6 @@ apis:
 - description: Authenticated access to the Drupal JSON:API behind the internal guide, covering published and unpublished content. No OpenAPI page is published.
   name: Internal Guide CMS JSON-API
   slug: internal-guide-cms
-- baseURL: https://api.laji.fi
-  baseurl_source: declared
-  description: 'The largest contract the University of Helsinki operates: 177 paths and 239 component schemas over Finnish species, taxonomy, occurrence records, collections, image bank and data requests. Operated by'
-  name: FinBIF Laji API (Finnish Biodiversity Information Facility)
-  slug: finbif-laji
 - description: Public HAL REST API for Helda, the University's open institutional repository, running DSpace 7.6.2. Discovery/search, items, collections, communities and the metadata registry are all readable anonym
   name: Helda DSpace REST API
   slug: helda-rest
@@ -140,7 +75,407 @@ apis:
 - description: TENANT RELATIONSHIP. helka.helsinki.fi redirects to an Ex Libris Primo discovery interface with view identifier 358UOH_INST:VU1. Library discovery is the surface class that is almost always a vendor's
   name: Helka Library Discovery — Ex Libris Primo tenant
   slug: helka
-artifact_total: 47
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The AllNodeAttributes API from University of Helsinki — 1 operation(s) for allnodeattributes.
+  name: University of Helsinki All Node Attributes API
+  slug: university-of-helsinki-allnodeattributes-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The AllSuccessorsAndPredecessors API from University of Helsinki — 1 operation(s) for allsuccessorsandpredecessors.
+  name: University of Helsinki All Successors And Predecessors API
+  slug: university-of-helsinki-allsuccessorsandpredecessors-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Annotations API from University of Helsinki — 3 operation(s) for annotations.
+  name: University of Helsinki Annotations API
+  slug: university-of-helsinki-annotations-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: dawasync API rest service
+  name: University of Helsinki /api API
+  slug: university-of-helsinki-api-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The API user API from University of Helsinki — 3 operation(s) for api user.
+  name: University of Helsinki API user API
+  slug: university-of-helsinki-api-user-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Areas API from University of Helsinki — 2 operation(s) for areas.
+  name: University of Helsinki Areas API
+  slug: university-of-helsinki-areas-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Audio API from University of Helsinki — 7 operation(s) for audio.
+  name: University of Helsinki Audio API
+  slug: university-of-helsinki-audio-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Authentication event API from University of Helsinki — 1 operation(s) for authentication event.
+  name: University of Helsinki Authentication event API
+  slug: university-of-helsinki-authentication-event-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Autocomplete API from University of Helsinki — 3 operation(s) for autocomplete.
+  name: University of Helsinki Autocomplete API
+  slug: university-of-helsinki-autocomplete-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Checklist API from University of Helsinki — 2 operation(s) for checklist.
+  name: University of Helsinki Checklist API
+  slug: university-of-helsinki-checklist-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Checklist Versions API from University of Helsinki — 2 operation(s) for checklist versions.
+  name: University of Helsinki Checklist Versions API
+  slug: university-of-helsinki-checklist-versions-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Collections API from University of Helsinki — 5 operation(s) for collections.
+  name: University of Helsinki Collections API
+  slug: university-of-helsinki-collections-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The CompanyContact API from University of Helsinki — 2 operation(s) for companycontact.
+  name: University of Helsinki Company Contact API
+  slug: university-of-helsinki-companycontact-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The CompanyOrganization API from University of Helsinki — 3 operation(s) for companyorganization.
+  name: University of Helsinki Company Organization API
+  slug: university-of-helsinki-companyorganization-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The CompanyTitle API from University of Helsinki — 1 operation(s) for companytitle.
+  name: University of Helsinki Company Title API
+  slug: university-of-helsinki-companytitle-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Contact API from University of Helsinki — 2 operation(s) for contact.
+  name: University of Helsinki Contact API
+  slug: university-of-helsinki-contact-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: Content type Course of type Content. Contains information related to a course, such as introduction text and an image.
+  name: University of Helsinki Content - Course API
+  slug: university-of-helsinki-content-course-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Coordinates API from University of Helsinki — 1 operation(s) for coordinates.
+  name: University of Helsinki Coordinates API
+  slug: university-of-helsinki-coordinates-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Documents API from University of Helsinki — 7 operation(s) for documents.
+  name: University of Helsinki Documents API
+  slug: university-of-helsinki-documents-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The /dynamicorder API from University of Helsinki — 8 operation(s) for /dynamicorder.
+  name: University of Helsinki /dynamicorder API
+  slug: university-of-helsinki-dynamicorder-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The EducationUnits API from University of Helsinki — 2 operation(s) for educationunits.
+  name: University of Helsinki Education Units API
+  slug: university-of-helsinki-educationunits-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Feedback API from University of Helsinki — 1 operation(s) for feedback.
+  name: University of Helsinki Feedback API
+  slug: university-of-helsinki-feedback-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The FieldOfScience API from University of Helsinki — 1 operation(s) for fieldofscience.
+  name: University of Helsinki Field Of Science API
+  slug: university-of-helsinki-fieldofscience-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Filter API from University of Helsinki — 2 operation(s) for filter.
+  name: University of Helsinki Filter API
+  slug: university-of-helsinki-filter-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The FinanceAndOldResearch API from University of Helsinki — 1 operation(s) for financeandoldresearch.
+  name: University of Helsinki Finance And Old Research API
+  slug: university-of-helsinki-financeandoldresearch-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The FinanceUnits API from University of Helsinki — 2 operation(s) for financeunits.
+  name: University of Helsinki Finance Units API
+  slug: university-of-helsinki-financeunits-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The FinanceUnitsPublic API from University of Helsinki — 1 operation(s) for financeunitspublic.
+  name: University of Helsinki Finance Units Public API
+  slug: university-of-helsinki-financeunitspublic-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The FinanceUnitsUniqueCode API from University of Helsinki — 1 operation(s) for financeunitsuniquecode.
+  name: University of Helsinki Finance Units Unique Code API
+  slug: university-of-helsinki-financeunitsuniquecode-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Form Permissions API from University of Helsinki — 3 operation(s) for form permissions.
+  name: University of Helsinki Form Permissions API
+  slug: university-of-helsinki-form-permissions-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Forms API from University of Helsinki — 4 operation(s) for forms.
+  name: University of Helsinki Forms API
+  slug: university-of-helsinki-forms-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The GeoConvert API from University of Helsinki — 6 operation(s) for geoconvert.
+  name: University of Helsinki Geo Convert API
+  slug: university-of-helsinki-geoconvert-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Google Maps API from University of Helsinki — 1 operation(s) for google maps.
+  name: University of Helsinki Google Maps API
+  slug: university-of-helsinki-google-maps-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Hosts API from University of Helsinki — 3 operation(s) for hosts.
+  name: University of Helsinki Hosts API
+  slug: university-of-helsinki-hosts-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The HrOrganization API from University of Helsinki — 3 operation(s) for hrorganization.
+  name: University of Helsinki Hr Organization API
+  slug: university-of-helsinki-hrorganization-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The HTML To PDF API from University of Helsinki — 1 operation(s) for html to pdf.
+  name: University of Helsinki HTML To PDF API
+  slug: university-of-helsinki-html-to-pdf-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The HumanResourcesAndResearchGroups API from University of Helsinki — 1 operation(s) for humanresourcesandresearchgroups.
+  name: University of Helsinki Human Resources And Research Groups API
+  slug: university-of-helsinki-humanresourcesandresearchgroups-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The HumanResourcesIamGroupPrefix API from University of Helsinki — 1 operation(s) for humanresourcesiamgroupprefix.
+  name: University of Helsinki Human Resources Iam Group Prefix API
+  slug: university-of-helsinki-humanresourcesiamgroupprefix-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The HumanResourcesSubunitToUnit API from University of Helsinki — 1 operation(s) for humanresourcessubunittounit.
+  name: University of Helsinki Human Resources Subunit To Unit API
+  slug: university-of-helsinki-humanresourcessubunittounit-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The HumanResourcesWithLevel API from University of Helsinki — 1 operation(s) for humanresourceswithlevel.
+  name: University of Helsinki Human Resources With Level API
+  slug: university-of-helsinki-humanresourceswithlevel-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Images API from University of Helsinki — 6 operation(s) for images.
+  name: University of Helsinki Images API
+  slug: university-of-helsinki-images-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Informal Taxon Groups API from University of Helsinki — 7 operation(s) for informal taxon groups.
+  name: University of Helsinki Informal Taxon Groups API
+  slug: university-of-helsinki-informal-taxon-groups-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Information API from University of Helsinki — 1 operation(s) for information.
+  name: University of Helsinki Information API
+  slug: university-of-helsinki-information-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The JSON-LD context API from University of Helsinki — 1 operation(s) for json-ld context.
+  name: University of Helsinki JSON-LD context API
+  slug: university-of-helsinki-json-ld-context-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Logger API from University of Helsinki — 2 operation(s) for logger.
+  name: University of Helsinki Logger API
+  slug: university-of-helsinki-logger-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Login API from University of Helsinki — 2 operation(s) for login.
+  name: University of Helsinki Login API
+  slug: university-of-helsinki-login-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The /machine API from University of Helsinki — 1 operation(s) for /machine.
+  name: University of Helsinki /machine API
+  slug: university-of-helsinki-machine-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Metadata API from University of Helsinki — 9 operation(s) for metadata.
+  name: University of Helsinki Metadata API
+  slug: university-of-helsinki-metadata-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Named places API from University of Helsinki — 3 operation(s) for named places.
+  name: University of Helsinki Named places API
+  slug: university-of-helsinki-named-places-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The News API from University of Helsinki — 4 operation(s) for news.
+  name: University of Helsinki News API
+  slug: university-of-helsinki-news-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The NodesInMultipleHierarchies API from University of Helsinki — 1 operation(s) for nodesinmultiplehierarchies.
+  name: University of Helsinki Nodes In Multiple Hierarchies API
+  slug: university-of-helsinki-nodesinmultiplehierarchies-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Notifications API from University of Helsinki — 2 operation(s) for notifications.
+  name: University of Helsinki Notifications API
+  slug: university-of-helsinki-notifications-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The OfficialUnits API from University of Helsinki — 2 operation(s) for officialunits.
+  name: University of Helsinki Official Units API
+  slug: university-of-helsinki-officialunits-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The /order API from University of Helsinki — 1 operation(s) for /order.
+  name: University of Helsinki /order API
+  slug: university-of-helsinki-order-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Organization API from University of Helsinki — 2 operation(s) for organization.
+  name: University of Helsinki Organization API
+  slug: university-of-helsinki-organization-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Organizations API from University of Helsinki — 2 operation(s) for organizations.
+  name: University of Helsinki Organizations API
+  slug: university-of-helsinki-organizations-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Person API from University of Helsinki — 6 operation(s) for person.
+  name: University of Helsinki Person API
+  slug: university-of-helsinki-person-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Publications API from University of Helsinki — 1 operation(s) for publications.
+  name: University of Helsinki Publications API
+  slug: university-of-helsinki-publications-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Red List Evaluation Groups API from University of Helsinki — 7 operation(s) for red list evaluation groups.
+  name: University of Helsinki Red List Evaluation Groups API
+  slug: university-of-helsinki-red-list-evaluation-groups-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The ResearchGroups API from University of Helsinki — 1 operation(s) for researchgroups.
+  name: University of Helsinki Research Groups API
+  slug: university-of-helsinki-researchgroups-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The ResearchOrganization API from University of Helsinki — 1 operation(s) for researchorganization.
+  name: University of Helsinki Research Organization API
+  slug: university-of-helsinki-researchorganization-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The ResearchResources API from University of Helsinki — 1 operation(s) for researchresources.
+  name: University of Helsinki Research Resources API
+  slug: university-of-helsinki-researchresources-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Shorthands API from University of Helsinki — 4 operation(s) for shorthands.
+  name: University of Helsinki Shorthands API
+  slug: university-of-helsinki-shorthands-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Sound identification API from University of Helsinki — 1 operation(s) for sound identification.
+  name: University of Helsinki Sound identification API
+  slug: university-of-helsinki-sound-identification-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Sources API from University of Helsinki — 2 operation(s) for sources.
+  name: University of Helsinki Sources API
+  slug: university-of-helsinki-sources-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The /ss API from University of Helsinki — 3 operation(s) for /ss.
+  name: University of Helsinki /ss API
+  slug: university-of-helsinki-ss-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The SteeringGroup API from University of Helsinki — 3 operation(s) for steeringgroup.
+  name: University of Helsinki Steering Group API
+  slug: university-of-helsinki-steeringgroup-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The SteeringGroups API from University of Helsinki — 1 operation(s) for steeringgroups.
+  name: University of Helsinki Steering Groups API
+  slug: university-of-helsinki-steeringgroups-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: Study search content. The API returns the study options and/or degree programmes content for University of Helsinki in an indexable format. The API strives to provide each content again if the content
+  name: University of Helsinki Study Search API
+  slug: university-of-helsinki-study-search-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Suggestion API from University of Helsinki — 1 operation(s) for suggestion.
+  name: University of Helsinki Suggestion API
+  slug: university-of-helsinki-suggestion-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Taxa API from University of Helsinki — 12 operation(s) for taxa.
+  name: University of Helsinki Taxa API
+  slug: university-of-helsinki-taxa-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The /ticket API from University of Helsinki — 1 operation(s) for /ticket.
+  name: University of Helsinki /ticket API
+  slug: university-of-helsinki-ticket-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Title API from University of Helsinki — 1 operation(s) for title.
+  name: University of Helsinki Title API
+  slug: university-of-helsinki-title-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Trait API from University of Helsinki — 32 operation(s) for trait.
+  name: University of Helsinki Trait API
+  slug: university-of-helsinki-trait-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The UniversityOfHelsinkiGroup API from University of Helsinki — 1 operation(s) for universityofhelsinkigroup.
+  name: University of Helsinki University Of Helsinki Group API
+  slug: university-of-helsinki-universityofhelsinkigroup-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The UniversityOfHelsinkiSubunitToUnit API from University of Helsinki — 1 operation(s) for universityofhelsinkisubunittounit.
+  name: University of Helsinki University Of Helsinki Subunit To Unit API
+  slug: university-of-helsinki-universityofhelsinkisubunittounit-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: Employee Information REST service
+  name: University of Helsinki /v1 API
+  slug: university-of-helsinki-v1-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: University buildings rest service
+  name: University of Helsinki V1/building/ API
+  slug: university-of-helsinki-v1-building-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: University spaces rest service
+  name: University of Helsinki V1/space/ API
+  slug: university-of-helsinki-v1-space-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Warehouse API from University of Helsinki — 23 operation(s) for warehouse.
+  name: University of Helsinki Warehouse API
+  slug: university-of-helsinki-warehouse-api
+- baseURL: https://api.helsinki.fi/portal/environments/DEFAULT
+  baseurl_source: declared
+  description: The Human Resources API from University of Helsinki — 1 operation(s) for human resources.
+  name: University of Helsinki Human Resources API
+  slug: university-of-helsinki-human-resources-api
+artifact_total: 114
 common:
 - group: company
   title: ''
@@ -373,7 +708,7 @@ modified: '2026-08-30'
 name: University of Helsinki
 nav: Providers
 network: true
-overview: 'University of Helsinki publishes 13 APIs on the [APIs.io](https://apis.io/) network, including HY Organisation API, Contact Search API, Course pages CMS, and 10 more. Tagged areas include Education, Higher Education, University, Finland, and Nordic.
+overview: 'University of Helsinki publishes 80 APIs on the [APIs.io](https://apis.io/) network, including All Node Attributes API, All Successors And Predecessors API, Annotations API, and 77 more. Tagged areas include Education, Higher Education, University, Finland, and Nordic.
 
 
   The University of Helsinki catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -384,7 +719,7 @@ plans:
 - name: University Of Helsinki Plans Pricing
   plan_count: 3
   slug: university-of-helsinki-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: University Of Helsinki Rate Limits
@@ -406,22 +741,22 @@ scopes:
   slug: university-of-helsinki-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 55.0
   coverage:
     artifact_dirs: 19
-    catalog_earned: 70.8
+    catalog_earned: 71.8
     catalog_earned_first_party: 12.0
-    catalog_gap: 44.3
+    catalog_gap: 43.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 50.0
     contract_governance: 29.5
-    contract_quality: 63.6
+    contract_quality: 69.2
     developer_ergonomics: 40.5
-    discoverability: 75.9
+    discoverability: 70.4
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -438,7 +773,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 80
   regulatory:
     applies: true
     matched_via: tags
@@ -446,7 +781,7 @@ score:
     regime_id: education
     score: 83.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 551
   human_in_the_loop: 13
@@ -63,12 +63,12 @@ apis:
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
   description: The Agent Configuration API API from Coveo — 2 operation(s) for agent configuration api.
-  name: Coveo Agent Configuration API API
+  name: Coveo Agent Configuration API
   slug: coveo-agent-configuration-api-api
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
   description: The Agent Orchestration API API from Coveo — 2 operation(s) for agent orchestration api.
-  name: Coveo Agent Orchestration API API
+  name: Coveo Agent Orchestration API
   slug: coveo-agent-orchestration-api-api
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
@@ -198,7 +198,7 @@ apis:
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
   description: The [Coveo Cloud Event API](https://docs.coveo.com/en/o3r90189/) allows you to log all events from end-user interactions. The event protocol reference can be found [here](https://docs.coveo.com/en/n9d
-  name: Coveo Event API API
+  name: Coveo Event API
   slug: coveo-event-api-api
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
@@ -488,12 +488,12 @@ apis:
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
   description: The Property API API from Coveo — 2 operation(s) for property api.
-  name: Coveo Property API API
+  name: Coveo Property API
   slug: coveo-property-api-api
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
   description: The Public Listing Page API API from Coveo — 4 operation(s) for public listing page api.
-  name: Coveo Public Listing Page API API
+  name: Coveo Public Listing Page API
   slug: coveo-public-listing-page-api-api
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
@@ -768,7 +768,7 @@ apis:
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
   description: Validate usage analytics events from the [Coveo Usage Analytics Write API](https://docs.coveo.com/en/1373)
-  name: Coveo Usage Analytics Event Validation API API
+  name: Coveo Usage Analytics Event Validation API
   slug: coveo-usage-analytics-event-validation-api-api
 - baseURL: https://platform.cloud.coveo.com
   baseurl_source: declared
@@ -2024,7 +2024,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Coveo
 nav: Providers
 network: true
@@ -2039,7 +2039,7 @@ plans:
 - name: Coveo Plans Pricing
   plan_count: 3
   slug: coveo-plans-pricing
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Coveo Rate Limits
@@ -2073,7 +2073,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit
 score:
   band: developing
-  composite: 49.9
+  composite: 50.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 76.5
@@ -2081,11 +2081,11 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 69.3
+    contract_quality: 69.7
     developer_ergonomics: 51.2
     discoverability: 75.9
     operational_transparency: 13.2
@@ -2098,7 +2098,7 @@ score:
       marker_coverage: 0.0
       total: 152
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

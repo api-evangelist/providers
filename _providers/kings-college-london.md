@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: An OpenAI-compatible LLM inference API operated by King's e-Research for researchers, students and staff. Per King's documentation it serves chat completions against a curated set of hosted models, im
@@ -248,7 +248,7 @@ plans:
 - name: Kings College London Plans Pricing
   plan_count: 3
   slug: kings-college-london-plans-pricing
-random_paper: 16
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Kings College London Rate Limits
@@ -289,7 +289,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

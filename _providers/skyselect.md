@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,11 +93,11 @@ modified: '2026-07-21'
 name: SkySelect
 nav: Providers
 network: true
-overview: 'SkySelect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Aviation, Procurement, and Supply Chain.
+overview: 'SkySelect is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Aviation, Procurement, and Supply Chain.
 
 
   SkySelect''s developer surface includes pricing, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 17
+random_paper: 15
 score:
   band: emerging
   composite: 16.4
@@ -123,7 +123,7 @@ score:
     - north-america
   previous_composite: 16.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ security:
 slug: skyselect
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Aviation
 - Procurement
 - Supply Chain

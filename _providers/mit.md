@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The MIT Roles API provides programmatic access to institutional role and authorization data, enabling MIT applications and authorized integrators to query, manage, and synchronize roles assigned to pe
@@ -66,7 +66,7 @@ finops:
   slug: mit-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mit.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: MIT
 nav: Providers
 network: true
@@ -78,7 +78,7 @@ plans:
 - name: Mit Plans Pricing
   plan_count: 3
   slug: mit-plans-pricing
-random_paper: 15
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Mit Rate Limits
@@ -109,7 +109,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -129,5 +129,6 @@ tags:
 - Research
 - Roles
 - University
+- Identity Federation
 website: https://www.mit.edu/
 ---

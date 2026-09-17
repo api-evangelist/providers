@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Provides up-to-hourly CO2 intensity and emissions data from the power sector for countries worldwide. Data is sourced from transmission system operators, market operators, and statistical agencies, co
@@ -116,7 +116,7 @@ plans:
 - name: Iea Plans Pricing
   plan_count: 5
   slug: iea-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Iea Rate Limits
@@ -147,7 +147,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

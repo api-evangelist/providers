@@ -46,12 +46,12 @@ created: '2026-09-14'
 description: 'Aipingji (爱拼机, also romanized Apin / Aipinji) was a Hangzhou, China travel-technology startup — legal entity 杭州爱拼机网络科技有限公司, incorporated 7 May 2015 in the Binjiang district — that built a C2B "intelligent group-buying" marketplace for discounted international air tickets. Rather than reselling published fares, it aggregated the unsold seat inventory of roughly a thousand Chinese charter operators (包机商), who buy blocks of seats from airlines in advance, and let consumers form 10-15 person buying groups against a specific date until the group filled and tickets were issued, taking a reported 5% commission from the charter operator. The app served 36 destinations from Hangzhou, Shanghai and Nanjing, and the company raised an angel round (Aug 2015, 天使汇), a tens-of-millions-RMB Series A (Apr 2016, led by 耀途资本 with 光合基金 and others), a ¥120M Series B (Jan 2017, 华映资本 and 弘帆资本) and a Series B+ (Jun 2017, 一村资本, 华映资本, Century Capital, Shenxuan Investment). No first-party surface survives:
   the domain cited as its site, apin.com, is now a parked listing offered for sale at ¥199,999 through the Chinese domain broker ename.com.cn and answers 403 on every path but the sale lander, the mobile app''s last recorded update was September 2017, and there is no developer portal, GitHub organization, published package, or API of any kind.'
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Aipingji
 nav: Providers
 network: true
 overview: Aipingji is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Air Travel, Airline Tickets, and Charter Flights.
-random_paper: 3
+random_paper: 7
 slug: aipingji
 tags:
 - Company
@@ -64,4 +64,5 @@ tags:
 - Group Buying
 - E-Commerce
 - China
+- Defunct
 ---

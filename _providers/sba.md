@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: A microservice API providing search access to SBA.gov content including lenders, articles, documents, and personnel. The lenders endpoint constructs queries to the AWS CloudSearch domain for lenders.
@@ -118,7 +118,7 @@ modified: '2026-06-13'
 name: Small Business Administration (SBA)
 nav: Providers
 network: true
-overview: 'Small Business Administration (SBA) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Small Business, Loans, Certifications, and Contracting.
+overview: 'Small Business Administration (SBA) publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Small Business, Loans, Certification, and Contracting.
 
 
   The Small Business Administration (SBA) catalog on APIs.io includes 1 JSON-LD context.
@@ -129,7 +129,7 @@ plans:
 - name: Sba Plans Pricing
   plan_count: 3
   slug: sba-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Sba Rate Limits
@@ -160,7 +160,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -177,7 +177,7 @@ tags:
 - Government
 - Small Business
 - Loans
-- Certifications
+- Certification
 - Contracting
 - Disaster Assistance
 - SBIR

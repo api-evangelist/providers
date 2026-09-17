@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Cloud Dynamics API (formerly the Intricately API) provides access to cloud adoption, usage, and spend data on companies, products, applications, and domains. Requests authenticate with an X-API-KE
@@ -43,6 +43,10 @@ apis:
   slug: cloud-dynamics-api-intricately
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://intricately.com
 - group: start
   title: ''
   type: DeveloperPortal
@@ -112,19 +116,19 @@ created: '2026-07-17'
 description: Intricately is a cloud and technology spend intelligence platform that tracks the adoption, usage, and spend of more than 15,000 cloud products across millions of companies worldwide, giving sales and marketing teams the signals they need to find accounts, spot active sales cycles, and predict churn. Founded in 2014 in San Francisco and backed by Bloomberg Beta, GitHub, Susa Ventures, and Singtel Innov8, Intricately was acquired by HG Insights in March 2022 and its data product is now delivered as the Cloud Dynamics API. The REST API (https://api.intricately.com/api/v2) authenticates with an X-API-KEY header and centers on asynchronous Bulk Jobs that enrich lists of domains with cloud adoption, product signatures, revenue, and digital-relationship data. API access is available on Enterprise plans.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intricately.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Intricately
 nav: Providers
 network: true
 overview: 'Intricately publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Intelligence, Cloud Intelligence, Technographics, and Data Enrichment.
 
 
-  Intricately''s developer surface includes documentation, support, pricing, signup flow, and 11 more developer resources.'
+  Intricately''s developer surface includes documentation, support, pricing, signup flow, and 12 more developer resources.'
 plans:
 - name: Intricately Plans Pricing
   plan_count: 0
   slug: intricately-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Intricately Rate Limits
@@ -152,7 +156,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -181,5 +185,5 @@ tags:
 - Data Enrichment
 - Cloud Spend
 - Market Intelligence
-website: https://developers.intricately.com/
+website: https://intricately.com
 ---

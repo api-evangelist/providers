@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Portman is an open source CLI tool that auto-generates Postman collections with contract and variation tests from OpenAPI specifications. It converts static OpenAPI specs into dynamic, testable Postma
@@ -93,7 +93,7 @@ plans:
 - name: Portman Plans Pricing
   plan_count: 3
   slug: portman-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Portman Rate Limits
@@ -121,7 +121,7 @@ score:
     score: 25.0
   previous_composite: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

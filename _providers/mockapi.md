@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: mockAPI is a hosted platform for generating REST mock APIs. Users define resources, fields, and relationships through a web UI and mockAPI exposes auto-generated CRUD endpoints with optional custom re
@@ -101,7 +101,7 @@ modified: '2026-04-28'
 name: mockAPI
 nav: Providers
 network: true
-overview: 'mockAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, CRUD, Mock Server, Mocking, and Platform.
+overview: 'mockAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, CRUD, Mock Servers, Mocking, and Platform.
 
 
   The mockAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -112,7 +112,7 @@ plans:
 - name: Mockapi Plans Pricing
   plan_count: 3
   slug: mockapi-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Mockapi Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 20.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ slug: mockapi
 tags:
 - API Mocking
 - CRUD
-- Mock Server
+- Mock Servers
 - Mocking
 - Platform
 - Prototyping

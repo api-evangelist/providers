@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,8 +78,8 @@ apis:
 - baseURL: https://gateway.eu1.mindsphere.io/api/assetmanagement/v3
   baseurl_source: declared
   description: Time-series data read and write operations
-  name: Siemens MindSphere Timeseries API
-  slug: siemens-mindsphere-timeseries-api
+  name: Siemens MindSphere Time Series API
+  slug: siemens-mindsphere-time-series-api
 artifact_total: 50
 collections:
 - collection_type: open
@@ -260,7 +260,7 @@ plans:
 - name: Siemens Mindsphere Plans Pricing
   plan_count: 1
   slug: siemens-mindsphere-plans-pricing
-random_paper: 3
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Siemens Mindsphere Rate Limits
@@ -303,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

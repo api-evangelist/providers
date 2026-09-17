@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.etherscan.io/v2/api
   baseurl_source: declared
   description: The API API from PolygonScan — 1 operation(s) for api.
-  name: PolygonScan API API
+  name: PolygonScan API
   slug: polygonscan-api-api
 artifact_total: 16
 collections:
@@ -144,11 +144,11 @@ json_schemas:
   property_count: 3
   slug: api-response
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: PolygonScan
 nav: Providers
 network: true
-overview: 'PolygonScan publishes 1 API on the [APIs.io](https://apis.io/) network: API API. Tagged areas include Blockchain, Polygon, Explorer, Web3, and EVM.
+overview: 'PolygonScan publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Polygon, Explorer, Web3, and EVM.
 
 
   The PolygonScan catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -159,7 +159,7 @@ plans:
 - name: Plans
   plan_count: 7
   slug: plans
-random_paper: 0
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Rate Limits
@@ -202,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -75,11 +75,6 @@ apis:
   slug: civitai-models-api
 - baseURL: https://civitai.com/api/v1
   baseurl_source: spec
-  description: Specific versions of a model with files, hashes, and AIR identifiers.
-  name: Civitai ModelVersions API
-  slug: civitai-modelversions-api
-- baseURL: https://civitai.com/api/v1
-  baseurl_source: spec
   description: Permission checks for the current bearer.
   name: Civitai Permissions API
   slug: civitai-permissions-api
@@ -103,6 +98,11 @@ apis:
   description: Submit and manage generation workflows.
   name: Civitai Workflows API
   slug: civitai-workflows-api
+- baseURL: https://civitai.com/api/v1
+  baseurl_source: spec
+  description: Specific versions of a model with files, hashes, and AIR identifiers.
+  name: Civitai Model Versions API
+  slug: civitai-model-versions-api
 arazzos:
 - description: Resolve many file hashes to version ids in bulk, then enrich the first match with model detail.
   name: Civitai Batch Hash Reconciliation
@@ -494,7 +494,7 @@ plans:
 - name: Civitai Plans Pricing
   plan_count: 7
   slug: civitai-plans-pricing
-random_paper: 10
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Civitai Rate Limits
@@ -548,7 +548,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

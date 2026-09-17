@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,11 +53,6 @@ apis:
   description: Asset management and operations
   name: Roblox Engine API Assets API
   slug: roblox-engine-api-assets-api
-- baseURL: https://apis.roblox.com
-  baseurl_source: declared
-  description: Persistent data storage for experiences
-  name: Roblox Engine API Data Stores API
-  slug: roblox-engine-api-data-stores-api
 - baseURL: https://apis.roblox.com
   baseurl_source: declared
   description: Roblox group management
@@ -83,6 +78,11 @@ apis:
   description: Roblox user information
   name: Roblox Engine API Users API
   slug: roblox-engine-api-users-api
+- baseURL: https://apis.roblox.com
+  baseurl_source: declared
+  description: Persistent data storage for experiences
+  name: Roblox Engine API Datastores API
+  slug: roblox-engine-api-datastores-api
 artifact_total: 39
 collections:
 - collection_type: postman
@@ -237,7 +237,7 @@ modified: '2026-05-19'
 name: Roblox Engine API
 nav: Providers
 network: true
-overview: 'Roblox Engine API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Data Stores API, Groups API, and 4 more. Tagged areas include Gaming, Game Development, Metaverse, Roblox, and Open Cloud.
+overview: 'Roblox Engine API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Groups API, Messaging API, and 4 more. Tagged areas include Gaming, Game Development, Metaverse, Roblox, and Open Cloud.
 
 
   The Roblox Engine API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -248,7 +248,7 @@ plans:
 - name: Roblox Engine Api Plans Pricing
   plan_count: 3
   slug: roblox-engine-api-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Roblox Engine Api Rate Limits
@@ -302,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

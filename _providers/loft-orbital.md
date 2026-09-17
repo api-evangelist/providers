@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Cockpit is Loft Orbital's mission-control interface for tasking payloads, monitoring telemetry, and downlinking data across Loft's fleet of LEO satellites. Advanced operators can integrate Cockpit int
@@ -81,11 +81,11 @@ modified: '2026-07-20'
 name: Loft Orbital
 nav: Providers
 network: true
-overview: 'Loft Orbital publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Space, Satellites, and Aerospace.
+overview: 'Loft Orbital publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Space, Satellite, and Aerospace.
 
 
   Loft Orbital''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 13
+random_paper: 21
 score:
   band: emerging
   composite: 12.0
@@ -106,7 +106,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 12.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -123,7 +123,7 @@ tags:
 - Company
 - Frontier Tech
 - Space
-- Satellites
+- Satellite
 - Aerospace
 - Mission Control
 website: https://www.loftorbital.com

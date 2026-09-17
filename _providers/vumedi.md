@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,7 +125,7 @@ overview: 'VuMedi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   VuMedi''s developer surface includes signup flow, support, FAQ, and 15 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: emerging
   composite: 16.8
@@ -165,7 +165,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

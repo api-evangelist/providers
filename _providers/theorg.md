@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for retrieving public company org charts, prospecting positions/people, and monitoring credit usage. Metered in credits; authenticated with an X-Api-Key header.
@@ -204,7 +204,7 @@ plans:
 - name: Theorg Plans Pricing
   plan_count: 4
   slug: theorg-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Theorg Rate Limits
@@ -238,7 +238,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

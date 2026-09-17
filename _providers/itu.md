@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -218,7 +218,7 @@ overview: 'ITU publishes 8 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   ITU''s developer surface includes authentication, code examples, documentation, engineering blog, support, and 19 more developer resources.'
-random_paper: 2
+random_paper: 8
 score:
   band: emerging
   composite: 25.5
@@ -262,7 +262,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

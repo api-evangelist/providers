@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The HTTP backend behind Voodoo's Publishing Platform (Publidash), the dashboard partner studios use to submit prototypes, run tests, and read analytics, monetization and IAP figures. The host is named
@@ -130,7 +130,7 @@ modified: '2026-09-04'
 name: Voodoo
 nav: Providers
 network: true
-overview: 'Voodoo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Mobile Apps, and Advertising.
+overview: 'Voodoo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Mobile App, and Advertising.
 
 
   Voodoo''s developer surface includes support, engineering blog, signup flow, changelog, sandbox, and 15 more developer resources.'
@@ -138,7 +138,7 @@ plans:
 - name: Voodoo Plans Pricing
   plan_count: 0
   slug: voodoo-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Voodoo Rate Limits
@@ -172,7 +172,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -188,7 +188,7 @@ tags:
 - Company
 - Gaming
 - Mobile Games
-- Mobile Apps
+- Mobile App
 - Advertising
 - Ad Network
 - Game Publishing

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -68,11 +68,6 @@ apis:
   slug: xmatters-integrations-api
 - baseURL: https://{company}.xmatters.com/api/xm/1
   baseurl_source: declared
-  description: The OnCall API from xMatters — 1 operation(s) for oncall.
-  name: xMatters OnCall API
-  slug: xmatters-oncall-api
-- baseURL: https://{company}.xmatters.com/api/xm/1
-  baseurl_source: declared
   description: The People API from xMatters — 4 operation(s) for people.
   name: xMatters People API
   slug: xmatters-people-api
@@ -96,6 +91,11 @@ apis:
   description: The Shifts API from xMatters — 1 operation(s) for shifts.
   name: xMatters Shifts API
   slug: xmatters-shifts-api
+- baseURL: https://{company}.xmatters.com/api/xm/1
+  baseurl_source: declared
+  description: The On Call API from xMatters — 1 operation(s) for on call.
+  name: xMatters On Call API
+  slug: xmatters-on-call-api
 artifact_total: 28
 collections:
 - collection_type: open
@@ -216,7 +216,7 @@ overview: 'xMatters publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   xMatters'' developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 6
+random_paper: 8
 scopes:
 - name: Xmatters Scopes
   scope_count: 0
@@ -249,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

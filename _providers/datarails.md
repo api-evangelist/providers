@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 59.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,11 +58,6 @@ apis:
   slug: datarails-health-api
 - baseURL: https://mcp.datarails.com/mcp
   baseurl_source: declared
-  description: The Oauth API from Datarails — 1 operation(s) for oauth.
-  name: Datarails OAUTH API
-  slug: datarails-oauth-api
-- baseURL: https://mcp.datarails.com/mcp
-  baseurl_source: declared
   description: The Ready API from Datarails — 1 operation(s) for ready.
   name: Datarails Ready API
   slug: datarails-ready-api
@@ -71,6 +66,11 @@ apis:
   description: The .well Known API from Datarails — 2 operation(s) for .well known.
   name: Datarails .well Known API
   slug: datarails-well-known-api
+- baseURL: https://app.datarails.com/api/v1
+  baseurl_source: declared
+  description: The Oauth API from Datarails — 1 operation(s) for oauth.
+  name: Datarails OAUTH API
+  slug: datarails-oauth-api
 artifact_total: 14
 collections:
 - collection_type: open
@@ -267,7 +267,7 @@ modified: '2026-08-01'
 name: Datarails
 nav: Providers
 network: true
-overview: 'Datarails publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, OAUTH API, Ready API, and 1 more. Tagged areas include Company, FP&A, Financial Planning, Finance, and Accounting.
+overview: 'Datarails publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Ready API, .well Known API, and 1 more. Tagged areas include Company, FP&A, Financial Planning, Finance, and Accounting.
 
 
   Datarails'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 32 more developer resources.'
@@ -275,7 +275,7 @@ plans:
 - name: Datarails Plans
   plan_count: 3
   slug: datarails-plans
-random_paper: 4
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Datarails Rate Limits
@@ -318,7 +318,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

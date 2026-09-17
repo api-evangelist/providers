@@ -20,20 +20,21 @@ created: '2026-07-17'
 description: OneKitchen is a Dubai-based cloud/ghost-kitchen enablement startup founded in 2018 that provided chefs, restaurants, and food entrepreneurs with shared kitchen space, equipment, and operating technology to launch delivery-only restaurant brands in about 48 hours at a fraction of traditional restaurant capital cost. It was backed by 500 Global, Chernovetskyi Investment Group, and Savour Ventures. As of this enrichment pass the company appears dormant - its primary domain joinonekitchen.com no longer resolves to a live product (it now redirects to a domain-sale parking page) and no public developer portal, API, documentation, or other API surface could be found.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onekitchen.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: OneKitchen
 nav: Providers
 network: true
-overview: OneKitchen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Kitchens, Ghost Kitchens, Food Delivery, and Restaurant.
-random_paper: 14
+overview: OneKitchen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Kitchen, Ghost Kitchens, Food Delivery, and Restaurant.
+random_paper: 8
 screenshot: https://raw.githubusercontent.com/api-evangelist/onekitchen/refs/heads/main/screenshots/onekitchen-2026-08-07T190325.png
 slug: onekitchen
 tags:
 - Company
-- Cloud Kitchens
+- Cloud Kitchen
 - Ghost Kitchens
 - Food Delivery
 - Restaurant
 - Food Tech
+- Defunct
 website: https://joinonekitchen.com
 ---

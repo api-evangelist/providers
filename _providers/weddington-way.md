@@ -19,7 +19,7 @@ name: Weddington Way
 nav: Providers
 network: true
 overview: Weddington Way is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, E-Commerce, Bridesmaid, and Fashion.
-random_paper: 8
+random_paper: 5
 slug: weddington-way
 tags:
 - Company

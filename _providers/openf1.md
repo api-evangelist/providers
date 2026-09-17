@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,6 +140,10 @@ collections:
   name: OpenF1 API
   slug: open-openf1
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://openf1.org
 - group: operate
   title: ''
   type: IssueTracker
@@ -196,22 +200,22 @@ jsonld:
   property_count: 5
   slug: openf1-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: OpenF1
 nav: Providers
 network: true
-overview: 'OpenF1 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Drivers API, Laps API, Meetings API, and 8 more. Tagged areas include Formula 1, Motorsport, Telemetry, Real-Time, and Sports.
+overview: 'OpenF1 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Drivers API, Laps API, Meetings API, and 8 more. Tagged areas include Formula 1, Motorsports, Telemetry, Real-Time, and Sports.
 
 
   The OpenF1 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenF1''s developer surface includes documentation and 6 more developer resources.'
+  OpenF1''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Openf1 Plans Pricing
   plan_count: 3
   slug: openf1-plans-pricing
-random_paper: 18
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Openf1 Rate Limits
@@ -254,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -269,8 +273,9 @@ security:
 slug: openf1
 tags:
 - Formula 1
-- Motorsport
+- Motorsports
 - Telemetry
 - Real-Time
 - Sports
+website: https://openf1.org
 ---

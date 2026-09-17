@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.prolific.com
@@ -58,11 +58,6 @@ apis:
   description: The filters API from Prolific — 3 operation(s) for filters.
   name: Prolific filters API
   slug: prolific-filters-api
-- baseURL: https://api.prolific.com
-  baseurl_source: declared
-  description: The filterSets API from Prolific — 5 operation(s) for filtersets.
-  name: Prolific filterSets API
-  slug: prolific-filtersets-api
 - baseURL: https://api.prolific.com
   baseurl_source: declared
   description: The invitations API from Prolific — 1 operation(s) for invitations.
@@ -128,37 +123,12 @@ apis:
   description: The workspaces API from Prolific — 3 operation(s) for workspaces.
   name: Prolific workspaces API
   slug: prolific-workspaces-api
-- description: Bulk bonus payments to participants.
-  name: Prolific Bonuses API
-  slug: prolific-research-bonuses-api
-- description: Demographic and screening requirements and eligibility counts.
-  name: Prolific Filters API
-  slug: prolific-research-filters-api
-- description: Event webhook subscriptions and signing secrets.
-  name: Prolific Hooks API
-  slug: prolific-research-hooks-api
-- description: Communicate with participants.
-  name: Prolific Messages API
-  slug: prolific-research-messages-api
-- description: Saved, dynamic groups of participant IDs used as allowlist/blocklist filters.
-  name: Prolific Participant Groups API
-  slug: prolific-research-participant-groups-api
-- description: Organize studies within a workspace.
-  name: Prolific Projects API
-  slug: prolific-research-projects-api
-- description: Create, publish, and manage research studies.
-  name: Prolific Studies API
-  slug: prolific-research-studies-api
-- description: Review, approve, reject, and return participant submissions.
-  name: Prolific Submissions API
-  slug: prolific-research-submissions-api
-- description: Authenticated account and user identity.
-  name: Prolific Users API
-  slug: prolific-research-users-api
-- description: Top-level containers that hold projects, fund studies, and scope teams.
-  name: Prolific Workspaces API
-  slug: prolific-research-workspaces-api
-artifact_total: 51
+- baseURL: https://api.prolific.com
+  baseurl_source: declared
+  description: The Filter Sets API from Prolific — 5 operation(s) for filter sets.
+  name: Prolific Filter Sets API
+  slug: prolific-filter-sets-api
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Prolific Webhooks
@@ -390,17 +360,17 @@ modified: '2026-07-20'
 name: Prolific
 nav: Providers
 network: true
-overview: 'Prolific publishes 28 APIs on the [APIs.io](https://apis.io/) network, including aiTaskBuilder API, bonuses API, credentials API, and 25 more. Tagged areas include Company, Ai Ml, Human Data, Research, and Participant Recruitment.
+overview: 'Prolific publishes 18 APIs on the [APIs.io](https://apis.io/) network, including aiTaskBuilder API, bonuses API, credentials API, and 15 more. Tagged areas include Company, Ai Ml, Human Data, Research, and Participant Recruitment.
 
 
   The Prolific catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Prolific''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 16
+random_paper: 20
 score:
   band: developing
-  composite: 47.5
+  composite: 47.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -408,12 +378,12 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 63.3
-    developer_ergonomics: 81.5
+    developer_ergonomics: 80.4
     discoverability: 75.9
     operational_transparency: 28.9
   previous_composite: 47.5
@@ -427,7 +397,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -16,15 +16,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 39.4
-  scored_at: '2026-09-15'
+  score: 41.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -34,15 +34,111 @@ agentic_access:
   summary_line: 31 operations · 14 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: 'Public REST/HTTP API for heartbeat monitors, ingest URLs, miss detection, alerts, status feeds, auth, billing, credit, and metrics. OpenAPI 3.1.0 with ~31 operations. Also exposes a hosted MCP server '
-  name: HookPulse API
-  slug: hookpulse-api
-artifact_total: 10
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Apis.json API from HookPulse — 1 operation(s) for apis.json.
+  name: HookPulse Apis.json API
+  slug: hookpulse-apis-json-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Auth API from HookPulse — 4 operation(s) for auth.
+  name: HookPulse Auth API
+  slug: hookpulse-auth-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Billing API from HookPulse — 1 operation(s) for billing.
+  name: HookPulse Billing API
+  slug: hookpulse-billing-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Contact API from HookPulse — 1 operation(s) for contact.
+  name: HookPulse Contact API
+  slug: hookpulse-contact-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Credito API from HookPulse — 1 operation(s) for credito.
+  name: HookPulse Credito API
+  slug: hookpulse-credito-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Endpoints API from HookPulse — 3 operation(s) for endpoints.
+  name: HookPulse Endpoints API
+  slug: hookpulse-endpoints-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Guest API from HookPulse — 1 operation(s) for guest.
+  name: HookPulse Guest API
+  slug: hookpulse-guest-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Health API from HookPulse — 1 operation(s) for health.
+  name: HookPulse Health API
+  slug: hookpulse-health-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The HookPulse API from HookPulse — 1 operation(s) for hookpulse.
+  name: HookPulse Hook Pulse API
+  slug: hookpulse-hookpulse-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The In API from HookPulse — 1 operation(s) for in.
+  name: HookPulse In API
+  slug: hookpulse-in-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Mcp API from HookPulse — 1 operation(s) for mcp.
+  name: HookPulse MCP API
+  slug: hookpulse-mcp-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Me API from HookPulse — 1 operation(s) for me.
+  name: HookPulse Me API
+  slug: hookpulse-me-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Metrics API from HookPulse — 1 operation(s) for metrics.
+  name: HookPulse Metrics API
+  slug: hookpulse-metrics-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Okf API from HookPulse — 1 operation(s) for okf.
+  name: HookPulse Okf API
+  slug: hookpulse-okf-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The S API from HookPulse — 2 operation(s) for s.
+  name: HookPulse S API
+  slug: hookpulse-s-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Status Feed API from HookPulse — 1 operation(s) for status feed.
+  name: HookPulse Status Feed API
+  slug: hookpulse-status-feed-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Templates API from HookPulse — 1 operation(s) for templates.
+  name: HookPulse Templates API
+  slug: hookpulse-templates-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The Visit API from HookPulse — 1 operation(s) for visit.
+  name: HookPulse Visit API
+  slug: hookpulse-visit-api
+- baseURL: https://hookpulse.net
+  baseurl_source: declared
+  description: The .well Known API from HookPulse — 1 operation(s) for .well known.
+  name: HookPulse .well Known API
+  slug: hookpulse-well-known-api
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Hookpulse Webhooks
   slug: hookpulse-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://hookpulse.net/mcp
 - group: company
   title: ''
   type: Website
@@ -181,25 +277,25 @@ modified: '2026-09-05'
 name: HookPulse
 nav: Providers
 network: true
-overview: 'HookPulse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Monitoring, Observability, Cron, Webhook, and Heartbeat.
+overview: 'HookPulse publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Apis.json API, Auth API, Billing API, and 16 more. Tagged areas include Monitoring, Observability, Cron, Webhook, and Heartbeat.
 
 
   The HookPulse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HookPulse''s developer surface includes authentication, API reference, pricing, and 23 more developer resources.'
+  HookPulse''s developer surface includes authentication, API reference, pricing, and 24 more developer resources.'
 plans:
 - name: Hookpulse Plans Pricing
   plan_count: 3
   slug: hookpulse-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Hookpulse Rate Limits
   slug: hookpulse-rate-limits
 score:
   band: developing
-  composite: 44.7
+  composite: 47.4
   coverage:
     artifact_dirs: 18
     catalog_earned: 57.0
@@ -207,11 +303,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 50.0
+    contract_quality: 60.8
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 34.2
@@ -223,11 +319,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 19
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

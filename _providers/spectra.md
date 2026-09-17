@@ -75,7 +75,7 @@ overview: 'Spectra is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   The Spectra catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 19
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectra/refs/heads/main/screenshots/spectra-2026-06-20T194300.png
 security:
 - kind: domain-security

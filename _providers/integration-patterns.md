@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'Integration Patterns is profiled on the [APIs.io](https://apis.io/) n
 
 
   The Integration Patterns catalog on APIs.io includes 1 Spectral governance ruleset.'
-random_paper: 14
+random_paper: 2
 rules:
 - effective_rule_count: 0
   extends: []
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -20,7 +20,7 @@ name: Bedrock Materials
 nav: Providers
 network: true
 overview: Bedrock Materials is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Deep Tech, Batteries, Energy Storage, and Materials Science.
-random_paper: 15
+random_paper: 21
 slug: bedrock-materials
 tags:
 - Company

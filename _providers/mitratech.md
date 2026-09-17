@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,30 +15,70 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.5
-  scored_at: '2026-09-15'
+  score: 29.5
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
-- baseURL: https://{tenant}.tap.thinksmart.com/{tenant}/api
-  baseurl_source: declared
-  description: REST API for the TAP (ThinkSmart Automation Platform) no-code workflow automation product. Covers workflow initiation and continuation, form retrieval and save, task assignment and re-assignment, dash
-  name: Mitratech TAP Workflow Automation API
-  slug: mitratech-tap-workflow-automation-api
 - description: Modernized REST API shipped with TeamConnect Enterprise 7.2 and later, served from each customer's own TeamConnect instance at /webservice/enterprise/. Exposes Accounts, Appointments, Contacts, Docume
   name: Mitratech TeamConnect REST API
   slug: mitratech-teamconnect-rest-api
 - description: Remote Model Context Protocol server served from mitratech.com over Streamable HTTP. Advertises OAuth 2.0 authorization-server metadata at /.well-known/oauth-authorization-server and protected-resourc
   name: Mitratech MCP Server
   slug: mitratech-mcp-server
-artifact_total: 10
+- baseURL: https://{tenant}.tap.thinksmart.com/{tenant}/api
+  baseurl_source: declared
+  description: The Dashboard API from Mitratech — 1 operation(s) for dashboard.
+  name: Mitratech Dashboard API
+  slug: mitratech-dashboard-api
+- baseURL: https://{tenant}.tap.thinksmart.com/{tenant}/api
+  baseurl_source: declared
+  description: The Files API from Mitratech — 1 operation(s) for files.
+  name: Mitratech Files API
+  slug: mitratech-files-api
+- baseURL: https://{tenant}.tap.thinksmart.com/{tenant}/api
+  baseurl_source: declared
+  description: The GridConfigurations API from Mitratech — 3 operation(s) for gridconfigurations.
+  name: Mitratech Grid Configurations API
+  slug: mitratech-gridconfigurations-api
+- baseURL: https://{tenant}.tap.thinksmart.com/{tenant}/api
+  baseurl_source: declared
+  description: The Templates API from Mitratech — 1 operation(s) for templates.
+  name: Mitratech Templates API
+  slug: mitratech-templates-api
+- baseURL: https://{tenant}.tap.thinksmart.com/{tenant}/api
+  baseurl_source: declared
+  description: The Users API from Mitratech — 5 operation(s) for users.
+  name: Mitratech Users API
+  slug: mitratech-users-api
+- baseURL: https://{tenant}.tap.thinksmart.com/{tenant}/api
+  baseurl_source: declared
+  description: The Workflow API from Mitratech — 1 operation(s) for workflow.
+  name: Mitratech Workflow API
+  slug: mitratech-workflow-api
+- baseURL: https://{tenant}.tap.thinksmart.com/{tenant}/api
+  baseurl_source: declared
+  description: The Workflows API from Mitratech — 32 operation(s) for workflows.
+  name: Mitratech Workflows API
+  slug: mitratech-workflows-api
+- baseURL: https://{your-tc-instance}/webservice/enterprise/v1
+  baseurl_source: declared
+  description: The Health Check API from Mitratech — 1 operation(s) for health check.
+  name: Mitratech Health Check API
+  slug: mitratech-health-check-api
+artifact_total: 17
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/mitratech/refs/heads/main/overlays/mitratech-tap-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/mitratech-tap-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/mitratech/refs/heads/main/security/mitratech-domain-security.yml
   title: ''
@@ -197,15 +237,15 @@ modified: '2026-09-13'
 name: Mitratech
 nav: Providers
 network: true
-overview: 'Mitratech publishes 1 API on the [APIs.io](https://apis.io/) network: TAP Workflow Automation API. Tagged areas include Legal, Legal Operations, Enterprise Legal Management, Matter Management, and Governance Risk and Compliance.
+overview: 'Mitratech publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Dashboard API, Files API, Grid Configurations API, and 5 more. Tagged areas include Legal, Legal Operations, Enterprise Legal Management, Matter Management, and Governance Risk and Compliance.
 
 
-  Mitratech''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 24 more developer resources.'
+  Mitratech''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
 plans:
 - name: Mitratech Plans Pricing
   plan_count: 0
   slug: mitratech-plans-pricing
-random_paper: 16
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Mitratech Rate Limits
@@ -217,7 +257,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.2
+  composite: 44.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -225,21 +265,26 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 33.3
+    contract_quality: 48.6
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 21.1
   previous_composite: 40.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

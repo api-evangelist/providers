@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,14 +46,14 @@ api_count: 1
 apis:
 - baseURL: https://api.us-east-2.propeldata.com/graphql
   baseurl_source: declared
-  description: The GraphQL API from Propel — 1 operation(s) for graphql.
-  name: Propel GraphQL API
-  slug: propel-data-graphql-api
+  description: The OAuth2 API from Propel — 1 operation(s) for oauth2.
+  name: Propel O Auth2 API
+  slug: propel-data-oauth2-api
 - baseURL: https://api.us-east-2.propeldata.com/graphql
   baseurl_source: declared
-  description: The OAuth2 API from Propel — 1 operation(s) for oauth2.
-  name: Propel OAuth2 API
-  slug: propel-data-oauth2-api
+  description: The Graph QL API from Propel — 1 operation(s) for graph ql.
+  name: Propel Graph QL API
+  slug: propel-data-graph-ql-api
 artifact_total: 13
 collections:
 - collection_type: open
@@ -131,7 +131,7 @@ modified: '2026-06-20'
 name: Propel
 nav: Providers
 network: true
-overview: 'Propel publishes 2 APIs on the [APIs.io](https://apis.io/) network: GraphQL API and OAuth2 API. Tagged areas include Analytics, GraphQL, Data Warehouse, Metrics, and Customer Facing Analytics.
+overview: 'Propel publishes 2 APIs on the [APIs.io](https://apis.io/) network: O Auth2 API and Graph QL API. Tagged areas include Analytics, GraphQL, Data Warehouse, Metrics, and Customer Facing Analytics.
 
 
   Propel''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -139,7 +139,7 @@ plans:
 - name: Propel Data Plans Pricing
   plan_count: 3
   slug: propel-data-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Propel Data Rate Limits
@@ -171,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

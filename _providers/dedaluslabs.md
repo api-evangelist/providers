@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://api.dedaluslabs.ai
   baseurl_source: declared
   description: The Dedalus API API from Dedalus Labs — 1 operation(s) for dedalus api.
-  name: Dedalus Labs Dedalus API API
+  name: Dedalus Labs Dedalus API
   slug: dedaluslabs-dedalus-api-api
 - baseURL: https://api.dedaluslabs.ai
   baseurl_source: declared
@@ -317,18 +317,18 @@ mcp_servers:
 - description: ''
   name: Dedalus Labs MCP Server
   slug: dedalus-labs-mcp-server
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Dedalus Labs
 nav: Providers
 network: true
-overview: 'Dedalus Labs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dedalus API API, Health API, Machine Lifecycle API, and 4 more. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and LLM.
+overview: 'Dedalus Labs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dedalus API, Health API, Machine Lifecycle API, and 4 more. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and LLM.
 
 
   The Dedalus Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Dedalus Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 1
+random_paper: 12
 score:
   band: developing
   composite: 51.8
@@ -359,7 +359,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -386,7 +386,7 @@ tags:
 - MCP
 - LLM
 - Inference
-- Gateway
+- Gateways
 - Compute
 - Sandbox
 - Developer Tools

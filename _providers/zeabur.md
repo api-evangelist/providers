@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Create, list, clone, export, and delete projects, and manage the environments (production, staging, etc.) within each project, via GraphQL queries and mutations.
@@ -129,7 +129,7 @@ plans:
 - name: Zeabur Plans Pricing
   plan_count: 3
   slug: zeabur-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Zeabur Rate Limits
@@ -154,7 +154,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 33.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

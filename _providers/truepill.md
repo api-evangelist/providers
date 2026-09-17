@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -48,36 +48,6 @@ agentic_access:
   summary_line: 158 operations · 69 acting
 api_count: 1
 apis:
-- baseURL: https://rxapi.fuzehealth.com/v1
-  baseurl_source: declared
-  description: Insurance objects, copay requests, and claim adjudication.
-  name: Truepill Insurance API
-  slug: truepill-insurance-api
-- baseURL: https://rxapi.fuzehealth.com/v1
-  baseurl_source: declared
-  description: Patient records and demographics.
-  name: Truepill Patients API
-  slug: truepill-patients-api
-- baseURL: https://rxapi.fuzehealth.com/v1
-  baseurl_source: declared
-  description: Prescription details and routing.
-  name: Truepill Prescriptions API
-  slug: truepill-prescriptions-api
-- baseURL: https://rxapi.fuzehealth.com/v1
-  baseurl_source: declared
-  description: Pharmacy-to-pharmacy prescription transfers.
-  name: Truepill Transfers API
-  slug: truepill-transfers-api
-- baseURL: https://rxapi.fuzehealth.com/v1
-  baseurl_source: declared
-  description: Asynchronous event retrieval.
-  name: Truepill Webhooks API
-  slug: truepill-webhooks-api
-- baseURL: https://rxapi.fuzehealth.com/v1
-  baseurl_source: declared
-  description: Fill requests, orders, NDC availability, prescribers, same-day delivery and specialty-pharmacy routing — the dispensing core of the FuzeRx platform. 42 operations. Submissions are accepted asynchronou
-  name: Truepill Fulfillment API
-  slug: truepill-fulfillment-api
 - baseURL: https://rxapi.fuzehealth.com/consults/v0
   baseurl_source: declared
   description: Telehealth consult creation, retrieval, media attachment and status simulation. Published at v0 under /consults/v0 — pre-1.0 by the provider's own numbering, with no stability statement.
@@ -90,10 +60,35 @@ apis:
   slug: truepill-diagnostics-api
 - baseURL: https://rxapi.fuzehealth.com/v1
   baseurl_source: declared
-  description: File records for patient identification photos and selfies, backed by Google Cloud Storage signed URLs — the API mints a read or write signed URL and the client transfers the bytes directly, so no ima
-  name: Truepill Media API
-  slug: truepill-media-api
-artifact_total: 23
+  description: The api API from Truepill — 61 operation(s) for api.
+  name: Truepill API
+  slug: truepill-api-api
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: The scheduled-actions API from Truepill — 1 operation(s) for scheduled-actions.
+  name: Truepill Scheduled Actions API
+  slug: truepill-scheduled-actions-api
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: The scheduled-fill-requests API from Truepill — 2 operation(s) for scheduled-fill-requests.
+  name: Truepill Scheduled Fill Requests API
+  slug: truepill-scheduled-fill-requests-api
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: The v0 API from Truepill — 1 operation(s) for v0.
+  name: Truepill V0 API
+  slug: truepill-v0-api
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: The v1 API from Truepill — 58 operation(s) for v1.
+  name: Truepill V1 API
+  slug: truepill-v1-api
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: The v2 API from Truepill — 3 operation(s) for v2.
+  name: Truepill V2 API
+  slug: truepill-v2-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Truepill Webhooks
@@ -121,6 +116,41 @@ collections:
   name: Truepill (FuzeRx) API
   slug: open-truepill
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/overlays/truepill-insurance-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/truepill-insurance-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/overlays/truepill-patients-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/truepill-patients-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/overlays/truepill-prescriptions-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/truepill-prescriptions-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/overlays/truepill-transfers-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/truepill-transfers-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/overlays/truepill-webhooks-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/truepill-webhooks-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/overlays/truepill-fulfillment-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/truepill-fulfillment-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/overlays/truepill-media-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/truepill-media-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/capabilities/truepill-capability-edges.yml
   title: ''
@@ -276,25 +306,25 @@ modified: '2026-08-15'
 name: Truepill
 nav: Providers
 network: true
-overview: 'Truepill publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Insurance API, Patients API, Prescriptions API, and 6 more. Tagged areas include Pharmacy, Healthcare, Prescription Fulfillment, Telehealth, and Diagnostics.
+overview: 'Truepill publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Consults API, Diagnostics API, and 6 more. Tagged areas include Pharmacy, Healthcare, Prescription Fulfillment, Telehealth, and Diagnostics.
 
 
   The Truepill catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Truepill''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 25 more developer resources.'
+  Truepill''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 32 more developer resources.'
 plans:
 - name: Truepill Plans Pricing
   plan_count: 1
   slug: truepill-plans-pricing
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Truepill Rate Limits
   slug: truepill-rate-limits
 score:
   band: strong
-  composite: 58.7
+  composite: 58.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 60.0
@@ -302,11 +332,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 59.3
+    contract_quality: 57.5
     developer_ergonomics: 64.9
     discoverability: 75.9
     operational_transparency: 57.9
@@ -318,7 +348,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -328,7 +358,7 @@ score:
     regime_id: health
     score: 41.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

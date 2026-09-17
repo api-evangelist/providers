@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -82,11 +82,6 @@ apis:
   slug: coperniq-calls-api
 - baseURL: https://api.coperniq.io/v1
   baseurl_source: declared
-  description: The catalogItems API from Coperniq — 2 operation(s) for catalogitems.
-  name: Coperniq catalogItems API
-  slug: coperniq-catalogitems-api
-- baseURL: https://api.coperniq.io/v1
-  baseurl_source: declared
   description: The contacts API from Coperniq — 2 operation(s) for contacts.
   name: Coperniq contacts API
   slug: coperniq-contacts-api
@@ -102,11 +97,6 @@ apis:
   slug: coperniq-forms-api
 - baseURL: https://api.coperniq.io/v1
   baseurl_source: declared
-  description: The formTemplates API from Coperniq — 2 operation(s) for formtemplates.
-  name: Coperniq formTemplates API
-  slug: coperniq-formtemplates-api
-- baseURL: https://api.coperniq.io/v1
-  baseurl_source: declared
   description: The invoices API from Coperniq — 4 operation(s) for invoices.
   name: Coperniq invoices API
   slug: coperniq-invoices-api
@@ -115,11 +105,6 @@ apis:
   description: The labels API from Coperniq — 2 operation(s) for labels.
   name: Coperniq labels API
   slug: coperniq-labels-api
-- baseURL: https://api.coperniq.io/v1
-  baseurl_source: declared
-  description: The lineItems API from Coperniq — 2 operation(s) for lineitems.
-  name: Coperniq lineItems API
-  slug: coperniq-lineitems-api
 - baseURL: https://api.coperniq.io/v1
   baseurl_source: declared
   description: The notes API from Coperniq — 5 operation(s) for notes.
@@ -182,9 +167,24 @@ apis:
   slug: coperniq-workflows-api
 - baseURL: https://api.coperniq.io/v1
   baseurl_source: declared
-  description: The workOrders API from Coperniq — 9 operation(s) for workorders.
-  name: Coperniq workOrders API
-  slug: coperniq-workorders-api
+  description: The Catalog Items API from Coperniq — 2 operation(s) for catalog items.
+  name: Coperniq Catalog Items API
+  slug: coperniq-catalog-items-api
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The Form Templates API from Coperniq — 2 operation(s) for form templates.
+  name: Coperniq Form Templates API
+  slug: coperniq-form-templates-api
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The Line Items API from Coperniq — 2 operation(s) for line items.
+  name: Coperniq Line Items API
+  slug: coperniq-line-items-api
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The Work Orders API from Coperniq — 9 operation(s) for work orders.
+  name: Coperniq Work Orders API
+  slug: coperniq-work-orders-api
 artifact_total: 63
 asyncapis:
 - description: ''
@@ -454,7 +454,7 @@ overview: 'Coperniq publishes 28 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coperniq''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 27 more developer resources.'
-random_paper: 4
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Coperniq Rate Limits
@@ -495,7 +495,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

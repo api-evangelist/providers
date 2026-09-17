@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ plans:
 - name: Blockscout Plans Pricing
   plan_count: 4
   slug: blockscout-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Blockscout Rate Limits
@@ -297,7 +297,7 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 45.5
+    contract_quality: 45.8
     developer_ergonomics: 28.6
     discoverability: 75.9
     operational_transparency: 13.2
@@ -312,7 +312,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

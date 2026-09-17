@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 65
-  human_in_the_loop: 1
+- acting_count: 1802
+  human_in_the_loop: 18
   name: Optimizely Agentic Access
-  operation_count: 135
+  operation_count: 3530
   slug: optimizely-agentic-access
-  summary_line: 135 operations · 65 acting · 1 human-in-the-loop
+  summary_line: 3530 operations · 1802 acting · 18 human-in-the-loop
 api_count: 37
 apis:
 - description: Optimizely's hosted remote Model Context Protocol server for Web and Feature Experimentation, on the Opal MCP platform. Tools are prefixed exp_ and cover querying projects/flags/experiments/environmen
@@ -133,11 +133,6 @@ apis:
   description: Create and manage feature flags with variables and variations for controlled rollouts and experimentation.
   name: Optimizely Flags API
   slug: optimizely-flags-api
-- baseURL: https://api.optimizely.com/v2
-  baseurl_source: declared
-  description: Execute GraphQL queries against the Optimizely content graph to retrieve and search content.
-  name: Optimizely GraphQL API
-  slug: optimizely-graphql-api
 - baseURL: https://api.optimizely.com/v2
   baseurl_source: declared
   description: Manage labels used for categorizing and organizing content.
@@ -270,16 +265,6 @@ apis:
   slug: optimizely-affiliates-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
-  description: Log Endpoint
-  name: Optimizely API Reference API
-  slug: optimizely-api-reference-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
-  description: The Applepay API from Optimizely — 2 operation(s) for applepay.
-  name: Optimizely Applepay API
-  slug: optimizely-applepay-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
   description: The Application Es Logs API from Optimizely — 2 operation(s) for application es logs.
   name: Optimizely Application Es Logs API
   slug: optimizely-application-es-logs-api
@@ -355,11 +340,6 @@ apis:
   slug: optimizely-batch-sending-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
-  description: The 🏆 BestBets API from Optimizely — 2 operation(s) for 🏆 bestbets.
-  name: Optimizely 🏆 BestBets API
-  slug: optimizely-bestbets-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
   description: The Bill To Address Fields API from Optimizely — 5 operation(s) for bill to address fields.
   name: Optimizely Bill To Address Fields API
   slug: optimizely-bill-to-address-fields-api
@@ -403,11 +383,6 @@ apis:
   description: The Budget Calendars API from Optimizely — 5 operation(s) for budget calendars.
   name: Optimizely Budget Calendars API
   slug: optimizely-budget-calendars-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
-  description: The Budgetcalendars API from Optimizely — 2 operation(s) for budgetcalendars.
-  name: Optimizely Budgetcalendars API
-  slug: optimizely-budgetcalendars-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
   description: The Budgets API from Optimizely — 2 operation(s) for budgets.
@@ -715,11 +690,6 @@ apis:
   slug: optimizely-databaseexports-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
-  description: The Datafile API from Optimizely — 1 operation(s) for datafile.
-  name: Optimizely Datafile API
-  slug: optimizely-datafile-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
   description: The Dealer Categories API from Optimizely — 5 operation(s) for dealer categories.
   name: Optimizely Dealer Categories API
   slug: optimizely-dealer-categories-api
@@ -898,11 +868,6 @@ apis:
   description: The Global Synonyms API from Optimizely — 5 operation(s) for global synonyms.
   name: Optimizely Global Synonyms API
   slug: optimizely-global-synonyms-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
-  description: The Googlepay API from Optimizely — 1 operation(s) for googlepay.
-  name: Optimizely Googlepay API
-  slug: optimizely-googlepay-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
   description: APIs to interact with mutual exclusion groups
@@ -1100,11 +1065,6 @@ apis:
   slug: optimizely-nodes-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
-  description: The Oauth API from Optimizely — 1 operation(s) for oauth.
-  name: Optimizely OAUTH API
-  slug: optimizely-oauth-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
   description: The Object schema API from Optimizely — 2 operation(s) for object schema.
   name: Optimizely Object schema API
   slug: optimizely-object-schema-api
@@ -1126,7 +1086,7 @@ apis:
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
   description: The Optimizely Edge Decider API from Optimizely — 1 operation(s) for optimizely edge decider.
-  name: Optimizely Optimizely Edge Decider API
+  name: Optimizely Edge Decider API
   slug: optimizely-optimizely-edge-decider-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
@@ -1188,11 +1148,6 @@ apis:
   description: The Orderfeed API from Optimizely — 1 operation(s) for orderfeed.
   name: Optimizely Orderfeed API
   slug: optimizely-orderfeed-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
-  description: The Orderstatusmappings API from Optimizely — 1 operation(s) for orderstatusmappings.
-  name: Optimizely Orderstatusmappings API
-  slug: optimizely-orderstatusmappings-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
   description: The Override API from Optimizely — 1 operation(s) for override.
@@ -1870,11 +1825,6 @@ apis:
   slug: optimizely-token-ex-config-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
-  description: The Tokenexconfig API from Optimizely — 1 operation(s) for tokenexconfig.
-  name: Optimizely Tokenexconfig API
-  slug: optimizely-tokenexconfig-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
   description: The Track API from Optimizely — 1 operation(s) for track.
   name: Optimizely Track API
   slug: optimizely-track-api
@@ -1893,11 +1843,6 @@ apis:
   description: The Translation Properties API from Optimizely — 7 operation(s) for translation properties.
   name: Optimizely Translation Properties API
   slug: optimizely-translation-properties-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
-  description: The Translationdictionaries API from Optimizely — 1 operation(s) for translationdictionaries.
-  name: Optimizely Translationdictionaries API
-  slug: optimizely-translationdictionaries-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
   description: The Uploader API from Optimizely — 4 operation(s) for uploader.
@@ -2010,16 +1955,6 @@ apis:
   slug: optimizely-vmi-notes-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
-  description: The VmiBins API from Optimizely — 1 operation(s) for vmibins.
-  name: Optimizely Vmi Bins API
-  slug: optimizely-vmibins-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
-  description: The VmiLocations API from Optimizely — 13 operation(s) for vmilocations.
-  name: Optimizely Vmi Locations API
-  slug: optimizely-vmilocations-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
   description: The Warehouse Alternates API from Optimizely — 5 operation(s) for warehouse alternates.
   name: Optimizely Warehouse Alternates API
   slug: optimizely-warehouse-alternates-api
@@ -2125,11 +2060,6 @@ apis:
   slug: optimizely-wish-list-shares-api
 - baseURL: https://exp.mcp.opal.optimizely.com/mcp
   baseurl_source: declared
-  description: The Wish Lists API from Optimizely — 18 operation(s) for wish lists.
-  name: Optimizely Wish Lists API
-  slug: optimizely-wish-lists-api
-- baseURL: https://exp.mcp.opal.optimizely.com/mcp
-  baseurl_source: declared
   description: The Wishlists API from Optimizely — 12 operation(s) for wishlists.
   name: Optimizely Wishlists API
   slug: optimizely-wishlists-api
@@ -2143,7 +2073,32 @@ apis:
   description: The Workflows API from Optimizely — 2 operation(s) for workflows.
   name: Optimizely Workflows API
   slug: optimizely-workflows-api
-artifact_total: 608
+- baseURL: https://exp.mcp.opal.optimizely.com/mcp
+  baseurl_source: declared
+  description: The Oauth API from Optimizely — 1 operation(s) for oauth.
+  name: Optimizely OAUTH API
+  slug: optimizely-oauth-api
+- baseURL: https://exp.mcp.opal.optimizely.com/mcp
+  baseurl_source: declared
+  description: The Apple Pay API from Optimizely — 2 operation(s) for apple pay.
+  name: Optimizely Apple Pay API
+  slug: optimizely-apple-pay-api
+- baseURL: https://exp.mcp.opal.optimizely.com/mcp
+  baseurl_source: declared
+  description: The Best Bets API from Optimizely — 2 operation(s) for best bets.
+  name: Optimizely Best Bets API
+  slug: optimizely-best-bets-api
+- baseURL: https://exp.mcp.opal.optimizely.com/mcp
+  baseurl_source: declared
+  description: The Data File API from Optimizely — 1 operation(s) for data file.
+  name: Optimizely Data File API
+  slug: optimizely-data-file-api
+- baseURL: https://exp.mcp.opal.optimizely.com/mcp
+  baseurl_source: declared
+  description: The Google Pay API from Optimizely — 1 operation(s) for google pay.
+  name: Optimizely Google Pay API
+  slug: optimizely-google-pay-api
+artifact_total: 599
 asyncapis:
 - description: The Optimizely Content Marketing Platform (CMP) provides webhook notifications when content events occur, such as when assets are published, tasks are completed or modified, and content items are upda
   name: Optimizely CMP Webhooks
@@ -2955,11 +2910,11 @@ mcp_servers:
 - description: ''
   name: Optimizely MCP Server
   slug: optimizely-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Optimizely
 nav: Providers
 network: true
-overview: 'Optimizely publishes 419 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Attributes API, Audiences API, and 416 more. Tagged areas include A/B Testing, Content Management, Customer Data, E-Commerce, and Experimentation.
+overview: 'Optimizely publishes 410 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Attributes API, Audiences API, and 407 more. Tagged areas include A/B Testing, Content Management, Customer Data, E-Commerce, and Experimentation.
 
 
   The Optimizely catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -2970,7 +2925,7 @@ plans:
 - name: Optimizely Plans Pricing
   plan_count: 3
   slug: optimizely-plans-pricing
-random_paper: 18
+random_paper: 10
 rate_limits:
 - limit_count: 8
   name: Optimizely Rate Limits
@@ -3004,7 +2959,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 77.4
+  composite: 78.0
   coverage:
     artifact_dirs: 35
     catalog_earned: 72.5
@@ -3012,11 +2967,11 @@ score:
     catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 76.3
     contract_governance: 47.0
-    contract_quality: 66.9
+    contract_quality: 69.6
     developer_ergonomics: 67.9
     discoverability: 87.0
     operational_transparency: 84.2
@@ -3025,14 +2980,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 97.1
+      callable: 97.0
       derived: 0
       marker_coverage: 0.0
-      total: 419
+      total: 410
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

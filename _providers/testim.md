@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: REST API used to trigger and manage test executions, query test run status, and retrieve results for tests authored in Testim. Authentication is via a personal access token issued from the Testim work
@@ -119,7 +119,7 @@ plans:
 - name: Testim Plans Pricing
   plan_count: 1
   slug: testim-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Testim Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 22.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

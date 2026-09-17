@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Undocumented internal oEmbed endpoint backing the Nfinite applications. Returns embeddable representations of product visuals. Requires an opaque `token` query parameter plus a resource `url`; there i
@@ -79,7 +79,7 @@ overview: 'Nfinite publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Nfinite''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 14
+random_paper: 1
 score:
   band: emerging
   composite: 13.9
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

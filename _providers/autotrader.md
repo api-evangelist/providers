@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 13
 apis:
 - description: 'Provides VRM and VIN lookups, MOT history, vehicle features, valuations, and retail metrics for individual vehicles. Enables dealers and partners to retrieve comprehensive vehicle data for appraisals '
@@ -141,7 +141,7 @@ modified: 2026-06-13
 name: Autotrader
 nav: Providers
 network: true
-overview: 'Autotrader publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Vehicles, Marketplace, Dealer, and Listings.
+overview: 'Autotrader publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automotive, Vehicles, Marketplace, Dealers, and Listings.
 
 
   Autotrader''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
@@ -149,7 +149,7 @@ plans:
 - name: Autotrader Plans Pricing
   plan_count: 1
   slug: autotrader-plans-pricing
-random_paper: 12
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Autotrader Rate Limits
@@ -174,7 +174,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 22.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -191,9 +191,9 @@ tags:
 - Automotive
 - Vehicles
 - Marketplace
-- Dealer
+- Dealers
 - Listings
-- Valuations
+- Valuation
 - VIN
 - VRM
 - Inventory

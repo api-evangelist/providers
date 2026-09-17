@@ -42,7 +42,7 @@ name: BMC Stock Holdings
 nav: Providers
 network: true
 overview: BMC Stock Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Building Materials, Distribution, Construction, Lumber, and Homebuilding.
-random_paper: 15
+random_paper: 18
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmc-stock-holdings/refs/heads/main/screenshots/bmc-stock-holdings-2026-06-20T173540.png
 security:
 - kind: domain-security

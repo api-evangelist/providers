@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -116,7 +116,7 @@ overview: 'Avenue One is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Avenue One''s developer surface includes support and 11 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: emerging
   composite: 11.5
@@ -142,7 +142,7 @@ score:
     - north-america
   previous_composite: 11.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

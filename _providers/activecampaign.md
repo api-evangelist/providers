@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 3
@@ -125,11 +125,6 @@ apis:
   slug: activecampaign-event-tracking-api
 - baseURL: https://youraccountname.api-us1.com/api/3
   baseurl_source: declared
-  description: The Exports API from ActiveCampaign — 2 operation(s) for exports.
-  name: ActiveCampaign Exports API
-  slug: activecampaign-exports-api
-- baseURL: https://youraccountname.api-us1.com/api/3
-  baseurl_source: declared
   description: The Failures API from ActiveCampaign — 1 operation(s) for failures.
   name: ActiveCampaign Failures API
   slug: activecampaign-failures-api
@@ -198,11 +193,6 @@ apis:
   description: The Site Tracking API from ActiveCampaign — 2 operation(s) for site tracking.
   name: ActiveCampaign Site Tracking API
   slug: activecampaign-site-tracking-api
-- baseURL: https://youraccountname.api-us1.com/api/3
-  baseurl_source: declared
-  description: The Snapshots API from ActiveCampaign — 1 operation(s) for snapshots.
-  name: ActiveCampaign Snapshots API
-  slug: activecampaign-snapshots-api
 - baseURL: https://youraccountname.api-us1.com/api/3
   baseurl_source: declared
   description: The Tags API from ActiveCampaign — 2 operation(s) for tags.
@@ -397,7 +387,7 @@ arazzos:
 - description: Apply a tag to an existing contact then enroll it in an automation.
   name: ActiveCampaign Tag a Contact and Enroll in Automation
   slug: activecampaign-tag-contact-and-enroll-automation-workflow
-artifact_total: 226
+artifact_total: 224
 asyncapis:
 - description: AsyncAPI description of ActiveCampaign's outbound webhook surface. When a webhook is configured (via the dashboard or the REST API at POST /api/3/webhooks), ActiveCampaign delivers events as HTTP POST
   name: ActiveCampaign Webhooks
@@ -530,6 +520,16 @@ collections:
   name: WhatsApp API
   slug: open-activecampaign-whatsapp-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-exports-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/activecampaign-exports-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-snapshots-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/activecampaign-snapshots-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/overlays/activecampaign-segments-overlay.yaml
   title: ''
@@ -1158,18 +1158,18 @@ modified: '2026-08-13'
 name: ActiveCampaign
 nav: Providers
 network: true
-overview: 'ActiveCampaign publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI API, and 54 more. Tagged areas include Marketing Automation, Email Marketing, CRM, Sales Automation, and Customer Experience.
+overview: 'ActiveCampaign publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI API, and 52 more. Tagged areas include Marketing Automation, Email Marketing, CRM, Sales Automation, and Customer Experience.
 
 
   The ActiveCampaign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  ActiveCampaign''s developer surface includes documentation, support, signup flow, authentication, developer portal, getting-started guide, pricing, and 78 more developer resources.'
+  ActiveCampaign''s developer surface includes documentation, support, signup flow, authentication, developer portal, getting-started guide, pricing, and 80 more developer resources.'
 plans:
 - name: Activecampaign Plans Pricing
   plan_count: 4
   slug: activecampaign-plans-pricing
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Activecampaign Rate Limits
@@ -1208,21 +1208,21 @@ rules:
   slug: activecampaign-spectral-rules
 score:
   band: exemplar
-  composite: 74.6
+  composite: 76.6
   coverage:
     artifact_dirs: 34
-    catalog_earned: 80.5
+    catalog_earned: 90.5
     catalog_earned_first_party: 20.0
-    catalog_gap: 34.5
+    catalog_gap: 24.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 61.1
+    contract_quality: 61.7
     developer_ergonomics: 71.4
-    discoverability: 68.5
+    discoverability: 87.0
     operational_transparency: 76.3
   previous_composite: 74.6
   provenance:
@@ -1230,13 +1230,13 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 35
-      marker_coverage: 61.4
-      total: 57
+      derived: 33
+      marker_coverage: 60.0
+      total: 55
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -79,11 +79,6 @@ apis:
   slug: vertiv-circuits-api
 - baseURL_template: https://{environet-host}/api
   baseurl_source: spec_template
-  description: The Data Sets API from Vertiv — 2 operation(s) for data sets.
-  name: Vertiv Data Sets API
-  slug: vertiv-data-sets-api
-- baseURL_template: https://{environet-host}/api
-  baseurl_source: spec_template
   description: The Devices API from Vertiv — 2 operation(s) for devices.
   name: Vertiv Devices API
   slug: vertiv-devices-api
@@ -97,6 +92,11 @@ apis:
   description: The Sensors API from Vertiv — 1 operation(s) for sensors.
   name: Vertiv Sensors API
   slug: vertiv-sensors-api
+- baseURL_template: https://{environet-host}/api
+  baseurl_source: spec_template
+  description: The Datasets API from Vertiv — 2 operation(s) for datasets.
+  name: Vertiv Datasets API
+  slug: vertiv-datasets-api
 artifact_total: 47
 collections:
 - collection_type: open
@@ -260,7 +260,7 @@ plans:
 - name: Vertiv Plans Pricing
   plan_count: 1
   slug: vertiv-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Vertiv Rate Limits
@@ -320,7 +320,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

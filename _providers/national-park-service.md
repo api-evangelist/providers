@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   slug: national-park-service-events-api
 - baseURL: https://developer.nps.gov/api/v1/
   baseurl_source: declared
-  description: The Newsreleases API from National Park Service — 1 operation(s) for newsreleases.
-  name: National Park Service Newsreleases API
-  slug: national-park-service-newsreleases-api
-- baseURL: https://developer.nps.gov/api/v1/
-  baseurl_source: declared
   description: The Parks API from National Park Service — 1 operation(s) for parks.
   name: National Park Service Parks API
   slug: national-park-service-parks-api
@@ -97,9 +92,14 @@ apis:
   slug: national-park-service-topics-api
 - baseURL: https://developer.nps.gov/api/v1/
   baseurl_source: declared
-  description: The Visitorcenters API from National Park Service — 1 operation(s) for visitorcenters.
-  name: National Park Service Visitorcenters API
-  slug: national-park-service-visitorcenters-api
+  description: The News Releases API from National Park Service — 1 operation(s) for news releases.
+  name: National Park Service News Releases API
+  slug: national-park-service-news-releases-api
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Visitor Centers API from National Park Service — 1 operation(s) for visitor centers.
+  name: National Park Service Visitor Centers API
+  slug: national-park-service-visitor-centers-api
 artifact_total: 30
 collections:
 - collection_type: open
@@ -193,14 +193,14 @@ plans:
 - name: National Park Service Plans Pricing
   plan_count: 3
   slug: national-park-service-plans-pricing
-random_paper: 6
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: National Park Service Rate Limits
   slug: national-park-service-rate-limits
 score:
   band: thin
-  composite: 33.5
+  composite: 34.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 41.0
@@ -208,11 +208,11 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 47.0
+    contract_quality: 49.7
     developer_ergonomics: 42.9
     discoverability: 59.3
     operational_transparency: 10.5
@@ -231,7 +231,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: SNU's federated identity provider, entityID https://kafegw.snu.ac.kr/idp/simplesamlphp, registered by the Korea Access Federation (registrationAuthority http://kafe.kreonet.net, registrationInstant 20
@@ -47,11 +47,11 @@ apis:
   description: Open Archives Initiative Protocol for Metadata Harvesting 2.0 verbs.
   name: Seoul National University OAI PMH API
   slug: snu-oai-pmh-api
-- baseURL: https://s-space.snu.ac.kr/oai/request
+- baseURL: https://kafegw.snu.ac.kr/saml/module.php/saml/idp/singleSignOnService
   baseurl_source: declared
   description: OpenSearch 1.1 description and query endpoints.
   name: Seoul National University Open Search API
-  slug: snu-opensearch-api
+  slug: snu-open-search-api
 artifact_total: 14
 common:
 - group: company
@@ -199,7 +199,7 @@ plans:
 - name: Snu Plans Pricing
   plan_count: 2
   slug: snu-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Snu Rate Limits
@@ -223,7 +223,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.7
+  composite: 50.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 86.3
@@ -231,11 +231,11 @@ score:
     catalog_gap: 28.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 39.5
     contract_governance: 67.4
-    contract_quality: 61.8
+    contract_quality: 62.2
     developer_ergonomics: 11.9
     discoverability: 74.1
     operational_transparency: 21.1
@@ -261,7 +261,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

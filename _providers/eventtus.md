@@ -23,12 +23,12 @@ created: '2026-07-17'
 description: Eventtus was a Cairo, Egypt-based event technology company that built a mobile event app and attendee-engagement platform for conferences, trade shows, and community events. Its product offered event apps with agendas, networking and matchmaking, live Q&A and polls, push notifications, social feeds, lead capture, badge printing, online registration, and organizer analytics. Founded by Mai Medhat and Nihal Fares, Eventtus raised venture funding from investors including 500 Startups (500 Global), Vodafone Ventures, and Endure Capital, and was acquired by the community-events platform Bevy in July 2021. This profile was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. Enrichment found no live public API, developer portal, or first-party SDK — the eventtus.com domain no longer resolves and the engineering blog is offline — so the profile is retained as identity only.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eventtus.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Eventtus
 nav: Providers
 network: true
 overview: Eventtus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Event, Event Technology, Event Management, and Mobile App.
-random_paper: 12
+random_paper: 14
 slug: eventtus
 tags:
 - Company
@@ -39,5 +39,6 @@ tags:
 - Attendee Engagement
 - Egypt
 - Community
+- Defunct
 website: https://eventtus.com
 ---

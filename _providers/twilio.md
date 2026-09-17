@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -97,11 +97,6 @@ apis:
   description: Manage primary and secondary auth tokens
   name: Twilio Auth Tokens API
   slug: twilio-auth-tokens-api
-- baseURL: https://accounts.twilio.com
-  baseurl_source: spec
-  description: The AuthTokens API from Twilio — 2 operation(s) for authtokens.
-  name: Twilio AuthTokens API
-  slug: twilio-authtokens-api
 - baseURL: https://voice.twilio.com
   baseurl_source: spec
   description: The ByocTrunks API from Twilio — 2 operation(s) for byoctrunks.
@@ -137,11 +132,6 @@ apis:
   description: Configure automatic composition rules
   name: Twilio Composition Hooks API
   slug: twilio-composition-hooks-api
-- baseURL: https://video.twilio.com
-  baseurl_source: spec
-  description: The CompositionHooks API from Twilio — 2 operation(s) for compositionhooks.
-  name: Twilio CompositionHooks API
-  slug: twilio-compositionhooks-api
 - baseURL: https://video.twilio.com/v1
   baseurl_source: spec
   description: Compose multiple recordings into a single file
@@ -197,11 +187,6 @@ apis:
   description: The Credentials API from Twilio — 10 operation(s) for credentials.
   name: Twilio Credentials API
   slug: twilio-credentials-api
-- baseURL: https://trusthub.twilio.com
-  baseurl_source: spec
-  description: The CustomerProfiles API from Twilio — 8 operation(s) for customerprofiles.
-  name: Twilio CustomerProfiles API
-  slug: twilio-customerprofiles-api
 - baseURL: https://messaging.twilio.com
   baseurl_source: spec
   description: The Deactivations API from Twilio — 1 operation(s) for deactivations.
@@ -222,11 +207,6 @@ apis:
   description: Validate email addresses
   name: Twilio Email Validation API
   slug: twilio-email-validation-api
-- baseURL: https://trusthub.twilio.com
-  baseurl_source: spec
-  description: The EndUsers API from Twilio — 2 operation(s) for endusers.
-  name: Twilio EndUsers API
-  slug: twilio-endusers-api
 - baseURL: https://trusthub.twilio.com
   baseurl_source: spec
   description: The EndUserTypes API from Twilio — 2 operation(s) for endusertypes.
@@ -382,11 +362,6 @@ apis:
   description: Query phone number data and intelligence
   name: Twilio Phone Numbers API
   slug: twilio-phone-numbers-api
-- baseURL: https://routes.twilio.com
-  baseurl_source: spec
-  description: The PhoneNumbers API from Twilio — 1 operation(s) for phonenumbers.
-  name: Twilio PhoneNumbers API
-  slug: twilio-phonenumbers-api
 - baseURL: https://media.twilio.com
   baseurl_source: spec
   description: The PlayerStreamers API from Twilio — 3 operation(s) for playerstreamers.
@@ -412,11 +387,6 @@ apis:
   description: Configure rate limiting for verification requests
   name: Twilio Rate Limits API
   slug: twilio-rate-limits-api
-- baseURL: https://wireless.twilio.com
-  baseurl_source: spec
-  description: The RatePlans API from Twilio — 2 operation(s) for rateplans.
-  name: Twilio RatePlans API
-  slug: twilio-rateplans-api
 - baseURL: https://video.twilio.com/v1
   baseurl_source: spec
   description: Manage recording rules for rooms
@@ -427,11 +397,6 @@ apis:
   description: Manage video and audio recordings
   name: Twilio Recordings API
   slug: twilio-recordings-api
-- baseURL: https://video.twilio.com
-  baseurl_source: spec
-  description: The RecordingSettings API from Twilio — 1 operation(s) for recordingsettings.
-  name: Twilio RecordingSettings API
-  slug: twilio-recordingsettings-api
 - baseURL: https://numbers.twilio.com
   baseurl_source: spec
   description: The RegulatoryCompliance API from Twilio — 18 operation(s) for regulatorycompliance.
@@ -487,11 +452,6 @@ apis:
   description: Manage short codes for messaging services
   name: Twilio Short Codes API
   slug: twilio-short-codes-api
-- baseURL: https://supersim.twilio.com
-  baseurl_source: spec
-  description: The Sims API from Twilio — 6 operation(s) for sims.
-  name: Twilio Sims API
-  slug: twilio-sims-api
 - baseURL: https://events.twilio.com
   baseurl_source: spec
   description: The Sinks API from Twilio — 4 operation(s) for sinks.
@@ -577,11 +537,6 @@ apis:
   description: The Understand API from Twilio — 21 operation(s) for understand.
   name: Twilio Understand API
   slug: twilio-understand-api
-- baseURL: https://supersim.twilio.com
-  baseurl_source: spec
-  description: The UsageRecords API from Twilio — 1 operation(s) for usagerecords.
-  name: Twilio UsageRecords API
-  slug: twilio-usagerecords-api
 - baseURL: https://conversations.twilio.com
   baseurl_source: spec
   description: The Users API from Twilio — 4 operation(s) for users.
@@ -622,6 +577,36 @@ apis:
   description: The Workspaces API from Twilio — 36 operation(s) for workspaces.
   name: Twilio Workspaces API
   slug: twilio-workspaces-api
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The Sims API from Twilio — 6 operation(s) for sims.
+  name: Twilio Sims API
+  slug: twilio-sims-api
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The Customer Profiles API from Twilio — 8 operation(s) for customer profiles.
+  name: Twilio Customer Profiles API
+  slug: twilio-customer-profiles-api
+- baseURL: https://trusthub.twilio.com
+  baseurl_source: spec
+  description: The End Users API from Twilio — 2 operation(s) for end users.
+  name: Twilio End Users API
+  slug: twilio-end-users-api
+- baseURL: https://wireless.twilio.com
+  baseurl_source: spec
+  description: The Rate Plans API from Twilio — 2 operation(s) for rate plans.
+  name: Twilio Rate Plans API
+  slug: twilio-rate-plans-api
+- baseURL: https://video.twilio.com
+  baseurl_source: spec
+  description: The Recording Settings API from Twilio — 1 operation(s) for recording settings.
+  name: Twilio Recording Settings API
+  slug: twilio-recording-settings-api
+- baseURL: https://supersim.twilio.com
+  baseurl_source: spec
+  description: The Usage Records API from Twilio — 1 operation(s) for usage records.
+  name: Twilio Usage Records API
+  slug: twilio-usage-records-api
 arazzos:
 - description: List in-progress conferences, fetch a matching one by SID, then dial a new participant into it.
   name: Twilio Find an In-Progress Conference and Add a Participant
@@ -707,7 +692,7 @@ arazzos:
 - description: Start a verification, fetch it to read its status, and cancel it if it is still pending.
   name: Twilio Verify Start, Poll, and Cancel a Verification
   slug: twilio-verify-start-poll-and-cancel-workflow
-artifact_total: 352
+artifact_total: 349
 asyncapis:
 - description: 'AsyncAPI 2.6 specification for Twilio''s public WebSocket APIs: - **Media Streams** — Bidirectional and one-way raw audio over WebSocket. Twilio acts as the WebSocket *client* and connects out to a cus'
   name: Twilio Real-Time WebSocket APIs
@@ -1784,7 +1769,7 @@ modified: '2026-07-17'
 name: Twilio
 nav: Providers
 network: true
-overview: 'Twilio publishes 115 APIs on the [APIs.io](https://apis.io/) network, including A2p API, Access Tokens API, Accounts API, and 112 more. Tagged areas include Authentication, Communications, Contact Center, Email, and IoT.
+overview: 'Twilio publishes 112 APIs on the [APIs.io](https://apis.io/) network, including A2p API, Access Tokens API, Accounts API, and 109 more. Tagged areas include Authentication, Communications, Contact Center, Email, and IoT.
 
 
   The Twilio catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -1795,7 +1780,7 @@ plans:
 - name: Twilio Plans Pricing
   plan_count: 2
   slug: twilio-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Twilio Rate Limits
@@ -1835,7 +1820,7 @@ rules:
   slug: twilio-rules
 score:
   band: exemplar
-  composite: 72.9
+  composite: 73.5
   coverage:
     artifact_dirs: 38
     catalog_earned: 57.5
@@ -1843,11 +1828,11 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 73.7
     contract_governance: 33.3
-    contract_quality: 70.9
+    contract_quality: 73.4
     developer_ergonomics: 79.8
     discoverability: 66.7
     operational_transparency: 71.1
@@ -1859,7 +1844,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 115
+      total: 112
     mcp: first-party
     skills: first-party
   regulatory:
@@ -1869,7 +1854,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

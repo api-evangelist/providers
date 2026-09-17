@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
   slug: chime-authentication-api
 - baseURL: https://api.chimebank.com/chime/v1
   baseurl_source: declared
-  description: OAuth 2.0 authorization and token management
-  name: Chime OAuth API
-  slug: chime-oauth-api
-- baseURL: https://api.chimebank.com/chime/v1
-  baseurl_source: declared
   description: Access account statements
   name: Chime Statements API
   slug: chime-statements-api
@@ -70,6 +65,11 @@ apis:
   description: Access user account information
   name: Chime Users API
   slug: chime-users-api
+- baseURL: https://api.chimebank.com/chime/v1
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token management
+  name: Chime O Auth API
+  slug: chime-oauth-api
 artifact_total: 27
 collections:
 - collection_type: open
@@ -203,7 +203,7 @@ modified: '2026-06-13'
 name: Chime
 nav: Providers
 network: true
-overview: 'Chime publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, OAuth API, Statements API, and 2 more. Tagged areas include Fintech, Neobank, Banking, Checking Accounts, and Savings Accounts.
+overview: 'Chime publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Statements API, Transactions API, and 2 more. Tagged areas include Fintech, Neobank, Banking, Checking Accounts, and Savings Accounts.
 
 
   The Chime catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -214,7 +214,7 @@ plans:
 - name: Chime Plans Pricing
   plan_count: 4
   slug: chime-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Chime Rate Limits
@@ -263,7 +263,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

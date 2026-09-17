@@ -27,7 +27,7 @@ overview: 'Frontrow is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Frontrow''s developer surface includes engineering blog.'
-random_paper: 15
+random_paper: 17
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontrow/refs/heads/main/screenshots/frontrow-2026-07-25T215237.png
 slug: frontrow
 tags:

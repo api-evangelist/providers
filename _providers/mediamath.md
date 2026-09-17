@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -452,6 +452,10 @@ collections:
   name: Campaigns Ad Servers Verticals API
   slug: open-mediamath-verticals-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mediamath.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/capabilities/mediamath-capability-edges.yml
   title: ''
@@ -1673,7 +1677,7 @@ mcp_servers:
 - description: ''
   name: MediaMath MCP Server
   slug: mediamath-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: MediaMath
 nav: Providers
 network: true
@@ -1683,7 +1687,7 @@ overview: 'MediaMath publishes 56 APIs on the [APIs.io](https://apis.io/) networ
   The MediaMath catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  MediaMath''s developer surface includes authentication, documentation, engineering blog, support, academy / training, code examples, API reference, and 40 more developer resources.'
+  MediaMath''s developer surface includes authentication, documentation, engineering blog, support, academy / training, code examples, API reference, and 41 more developer resources.'
 plans:
 - name: Mediamath Plans
   plan_count: 2
@@ -1739,7 +1743,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1769,5 +1773,5 @@ tags:
 - Creative Management
 - Reporting
 - Analytics
-website: https://apidocs.mediamath.com/
+website: https://mediamath.com
 ---

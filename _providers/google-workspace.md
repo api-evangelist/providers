@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -129,11 +129,6 @@ apis:
   slug: google-workspace-groups-api
 - baseURL: https://gmail.googleapis.com
   baseurl_source: declared
-  description: Manage organizational units in a Google Workspace domain
-  name: Google Workspace OrgUnits API
-  slug: google-workspace-orgunits-api
-- baseURL: https://gmail.googleapis.com
-  baseurl_source: declared
   description: Manage user accounts in a Google Workspace domain
   name: Google Workspace Users API
   slug: google-workspace-users-api
@@ -155,6 +150,11 @@ apis:
   description: The Gmail API from Google Workspace APIs — 4 operation(s) for gmail.
   name: Google Workspace APIs Gmail API
   slug: google-suites-gmail-api
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: Manage organizational units in a Google Workspace domain
+  name: Google Workspace Org Units API
+  slug: google-workspace-org-units-api
 arazzos:
 - description: Confirm a user exists, then list every group the user belongs to.
   name: Google Workspace Audit a User's Group Memberships
@@ -552,7 +552,7 @@ modified: '2026-05-19'
 name: Google Workspace
 nav: Providers
 network: true
-overview: 'Google Workspace publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Groups API, OrgUnits API, Users API, and 3 more. Tagged areas include Calendar, Collaboration, Email, Productivity, and Storage.
+overview: 'Google Workspace publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Groups API, Users API, APIs Calendar API, and 3 more. Tagged areas include Calendar, Collaboration, Email, Productivity, and Storage.
 
 
   The Google Workspace catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -563,7 +563,7 @@ plans:
 - name: Google Workspace Plans Pricing
   plan_count: 4
   slug: google-workspace-plans-pricing
-random_paper: 19
+random_paper: 7
 rate_limits:
 - limit_count: 7
   name: Google Workspace Rate Limits
@@ -622,7 +622,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

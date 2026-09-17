@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: NestJS is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications. Built with TypeScript and inspired by Angular, it provides an out-of-the-box applicat
@@ -130,7 +130,7 @@ modified: '2026-03-26'
 name: NestJS
 nav: Providers
 network: true
-overview: 'NestJS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Frameworks, GraphQL, Microservices, Node.js, and REST.
+overview: 'NestJS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, GraphQL, Microservices, Node.js, and REST.
 
 
   The NestJS catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -141,7 +141,7 @@ plans:
 - name: Nestjs Plans Pricing
   plan_count: 3
   slug: nestjs-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Nestjs Rate Limits
@@ -180,7 +180,7 @@ score:
     score: 100.0
   previous_composite: 27.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -194,12 +194,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: nestjs
 tags:
-- Frameworks
+- Framework
 - GraphQL
 - Microservices
 - Node.js
 - REST
 - TypeScript
-- WebSockets
+- WebSocket
 website: https://nestjs.com/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,7 +90,7 @@ overview: 'Graffer is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Graffer''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 19
+random_paper: 7
 score:
   band: emerging
   composite: 15.8
@@ -124,7 +124,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -405,7 +405,7 @@ modified: '2026-05-30'
 name: Vercel
 nav: Providers
 network: true
-overview: 'Vercel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Chat API, Chats API, and 2 more. Tagged areas include AI Gateways, Gateways, Observability, and Webhook.
+overview: 'Vercel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Chat API, Chats API, and 2 more. Tagged areas include AI Gateway, Gateways, Observability, and Webhook.
 
 
   The Vercel catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -416,7 +416,7 @@ plans:
 - name: Vercel Plans Pricing
   plan_count: 3
   slug: vercel-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Vercel Rate Limits
@@ -482,7 +482,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -507,7 +507,7 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: vercel
 tags:
-- AI Gateways
+- AI Gateway
 - Gateways
 - Observability
 - Webhook

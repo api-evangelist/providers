@@ -30,20 +30,20 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 48.0
-  scored_at: '2026-09-15'
+  score: 49.7
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 25
-  human_in_the_loop: 0
+- acting_count: 79
+  human_in_the_loop: 5
   name: Autocontent Api Agentic Access
-  operation_count: 51
+  operation_count: 165
   slug: autocontent-api-agentic-access
-  summary_line: 51 operations · 25 acting
-api_count: 1
+  summary_line: 165 operations · 79 acting · 5 human-in-the-loop
+api_count: 3
 apis:
 - description: Generate AI-powered podcast episodes from URLs, PDFs, YouTube videos, plain text, or social media feeds. Produces MP3 audio with metadata using NotebookLM-style AI with support for standard voices and
   name: Podcast Generation API
@@ -82,17 +82,132 @@ apis:
   description: The Video API from AutoContent API — 12 operation(s) for video.
   name: AutoContent API Video API
   slug: autocontent-api-video-api
-- baseURL: https://api.autocontentapi.com/v1
-  baseurl_source: declared
-  description: 'The current AutoContent product: a Project-centred, scope-based REST API that turns a website, reusable Knowledge or a bounded topic into first-class content Assets — articles, lead magnets, ebooks, s'
-  name: AutoContent Platform API v1
-  slug: platform-api-v1
 - baseURL: https://api.autocontentapi.com
   baseurl_source: declared
-  description: The original AutoContent surface, served unversioned at https://api.autocontentapi.com with its own JWT credentials and monthly credit plans. 106 operations across 99 paths covering podcasts, explaine
-  name: AutoContent legacy Content API
-  slug: legacy-content-api
-artifact_total: 43
+  description: The account API from AutoContent API — 1 operation(s) for account.
+  name: AutoContent API Account API
+  slug: autocontent-api-account-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The api-keys API from AutoContent API — 2 operation(s) for api-keys.
+  name: AutoContent API API Keys API
+  slug: autocontent-api-api-keys-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The asset-types API from AutoContent API — 1 operation(s) for asset-types.
+  name: AutoContent API Asset Types API
+  slug: autocontent-api-asset-types-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The assets API from AutoContent API — 3 operation(s) for assets.
+  name: AutoContent API Assets API
+  slug: autocontent-api-assets-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The avatars API from AutoContent API — 2 operation(s) for avatars.
+  name: AutoContent API Avatars API
+  slug: autocontent-api-avatars-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Billing and invoices operations
+  name: AutoContent API Billing API
+  slug: autocontent-api-billing-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The collections API from AutoContent API — 1 operation(s) for collections.
+  name: AutoContent API Collections API
+  slug: autocontent-api-collections-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The content-loop-runs API from AutoContent API — 2 operation(s) for content-loop-runs.
+  name: AutoContent API Content Loop Runs API
+  slug: autocontent-api-content-loop-runs-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The content-loops API from AutoContent API — 4 operation(s) for content-loops.
+  name: AutoContent API Content Loops API
+  slug: autocontent-api-content-loops-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Data table assets generated per token
+  name: AutoContent API Data Tables API
+  slug: autocontent-api-data-tables-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Advanced research operations
+  name: AutoContent API Deep Research API
+  slug: autocontent-api-deep-research-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Briefing document assets generated per token
+  name: AutoContent API Documents API
+  slug: autocontent-api-documents-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Social media feed management operations
+  name: AutoContent API Feeds API
+  slug: autocontent-api-feeds-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Upload and manage private files for resources
+  name: AutoContent API Files API
+  slug: autocontent-api-files-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The generations API from AutoContent API — 6 operation(s) for generations.
+  name: AutoContent API Generations API
+  slug: autocontent-api-generations-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Infographic assets generated per token
+  name: AutoContent API Infographics API
+  slug: autocontent-api-infographics-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The models API from AutoContent API — 1 operation(s) for models.
+  name: AutoContent API Models API
+  slug: autocontent-api-models-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Project context management for content generation
+  name: AutoContent API Projects API
+  slug: autocontent-api-projects-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The Public API from AutoContent API — 4 operation(s) for public.
+  name: AutoContent API Public API
+  slug: autocontent-api-public-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Quiz assets generated per token
+  name: AutoContent API Quizzes API
+  slug: autocontent-api-quizzes-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: Slide deck assets generated per token
+  name: AutoContent API Slide Decks API
+  slug: autocontent-api-slide-decks-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The sources API from AutoContent API — 2 operation(s) for sources.
+  name: AutoContent API Sources API
+  slug: autocontent-api-sources-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The voices API from AutoContent API — 2 operation(s) for voices.
+  name: AutoContent API Voices API
+  slug: autocontent-api-voices-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: The webhooks API from AutoContent API — 2 operation(s) for webhooks.
+  name: AutoContent API Webhooks API
+  slug: autocontent-api-webhooks-api
+- baseURL: https://api.autocontentapi.com
+  baseurl_source: declared
+  description: X (Twitter) operations
+  name: AutoContent API X API
+  slug: autocontent-api-x-api
+artifact_total: 66
 asyncapis:
 - description: ''
   name: Autocontent Api Webhooks
@@ -120,6 +235,16 @@ collections:
   name: AutoContent API
   slug: open-autocontent-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/overlays/autocontent-api-platform-v1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/autocontent-api-platform-v1-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/overlays/autocontent-api-legacy-content-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/autocontent-api-legacy-content-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/agentic-access/autocontent-api-agentic-access.yml
   title: ''
@@ -308,18 +433,18 @@ modified: '2026-09-04'
 name: AutoContent API
 nav: Providers
 network: true
-overview: 'AutoContent API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Dedicated Account API, Podcast API, and 4 more. Tagged areas include Artificial Intelligence, Audio, Content Generation, Podcasts, and Video.
+overview: 'AutoContent API publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Content API, Dedicated Account API, Podcast API, and 27 more. Tagged areas include Artificial Intelligence, Audio, Content Generation, Podcasts, and Video.
 
 
   The AutoContent API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AutoContent API''s developer surface includes authentication, engineering blog, documentation, signup flow, pricing, API reference, getting-started guide, and 24 more developer resources.'
+  AutoContent API''s developer surface includes authentication, engineering blog, documentation, signup flow, pricing, API reference, getting-started guide, and 26 more developer resources.'
 plans:
 - name: Autocontent Api Plans Pricing
   plan_count: 4
   slug: autocontent-api-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 9
   name: Autocontent Api Rate Limits
@@ -330,8 +455,8 @@ scopes:
   slug: autocontent-api-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 46.5
+  band: strong
+  composite: 59.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 64.0
@@ -339,11 +464,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.9
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 8.7
+    contract_quality: 60.2
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 47.4
@@ -355,12 +480,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 30
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

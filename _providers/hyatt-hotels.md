@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -128,7 +128,7 @@ press:
 - date: '2026-05-25'
   title: 'Transforming Hospitality: AI''s Game-Changing Role in Hotels'
   url: https://transformhospitality.com/blog/transforming-hospitality-ais-game-changing-role-in-hotels/
-random_paper: 15
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Hyatt Hotels Rate Limits
@@ -158,7 +158,7 @@ score:
     - north-america
   previous_composite: 6.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

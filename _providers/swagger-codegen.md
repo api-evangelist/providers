@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 26.1
-  scored_at: '2026-09-15'
+  score: 23.6
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,26 +46,6 @@ apis:
 - description: The Swagger Codegen command-line interface for generating code artifacts locally. Available as a JAR file and Docker image. Supports the same generators as the online API with additional template cust
   name: Swagger Codegen CLI
   slug: swagger-codegen-cli
-- baseURL: https://generator3.swagger.io/api
-  baseurl_source: declared
-  description: Code generation endpoints for clients, servers, and documentation
-  name: Swagger Codegen Generation API
-  slug: swagger-codegen-generation-api
-- baseURL: https://generator3.swagger.io/api
-  baseurl_source: declared
-  description: Discover available generator languages and types
-  name: Swagger Codegen Languages API
-  slug: swagger-codegen-languages-api
-- baseURL: https://generator3.swagger.io/api
-  baseurl_source: declared
-  description: Retrieve per-language configuration options
-  name: Swagger Codegen Options API
-  slug: swagger-codegen-options-api
-- baseURL: https://generator3.swagger.io/api
-  baseurl_source: declared
-  description: Template rendering and intermediate model generation
-  name: Swagger Codegen Utilities API
-  slug: swagger-codegen-utilities-api
 - baseURL: https://generator3.swagger.io/api
   baseurl_source: declared
   description: The clients API from Swagger Codegen — 9 operation(s) for clients.
@@ -81,7 +61,7 @@ apis:
   description: The servers API from Swagger Codegen — 4 operation(s) for servers.
   name: Swagger Codegen Servers API
   slug: swagger-codegen-servers-api
-artifact_total: 29
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -102,6 +82,26 @@ collections:
   name: Swagger Generator API
   slug: open-swagger-generator
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/overlays/swagger-codegen-generation-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/swagger-codegen-generation-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/overlays/swagger-codegen-languages-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/swagger-codegen-languages-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/overlays/swagger-codegen-options-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/swagger-codegen-options-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/overlays/swagger-codegen-utilities-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/swagger-codegen-utilities-api-overlay.yaml
 - group: build
   title: ''
   type: CodeOfConduct
@@ -317,18 +317,18 @@ modified: '2026-08-06'
 name: Swagger Codegen
 nav: Providers
 network: true
-overview: 'Swagger Codegen publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 4 more. Tagged areas include Client Libraries, Code Generation, Open-Source, OpenAPI, and SDK.
+overview: 'Swagger Codegen publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clients API, Documentation API, and Servers API. Tagged areas include Client Libraries, Code Generation, Open-Source, OpenAPI, and SDK.
 
 
   The Swagger Codegen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Swagger Codegen''s developer surface includes developer portal, documentation, release notes, CLI, authentication, changelog, sandbox, and 34 more developer resources.'
+  Swagger Codegen''s developer surface includes developer portal, documentation, release notes, CLI, authentication, changelog, sandbox, and 38 more developer resources.'
 plans:
 - name: Swagger Codegen Plans Pricing
   plan_count: 3
   slug: swagger-codegen-plans-pricing
-random_paper: 10
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Swagger Codegen Rate Limits
@@ -357,7 +357,7 @@ rules:
   slug: swagger-codegen-rules
 score:
   band: strong
-  composite: 56.2
+  composite: 54.8
   coverage:
     artifact_dirs: 30
     catalog_earned: 56.5
@@ -365,11 +365,11 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 52.6
     contract_governance: 31.8
-    contract_quality: 52.5
+    contract_quality: 47.2
     developer_ergonomics: 80.4
     discoverability: 64.8
     operational_transparency: 52.6
@@ -378,14 +378,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 85.7
+      callable: 66.7
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

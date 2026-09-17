@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'First-party hosted Model Context Protocol server that exposes the same ad index to AI assistants (Claude, Codex, Cursor, Gemini). Streamable HTTP at https://api.adsmom.com/mcp, protected by OAuth 2.0 '
@@ -130,10 +130,10 @@ common:
   type: APIReference
   url: https://adsmom.com/product/api
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/_original/adsmom-inc-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/adsmom-inc-openapi.json
+  url: openapi/_original/adsmom-inc-openapi.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/mcp/adsmom-inc-mcp.yml
   title: ''
@@ -251,7 +251,7 @@ mcp_servers:
 - description: ''
   name: Adsmom Inc. MCP Server
   slug: adsmom-inc-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Adsmom Inc.
 nav: Providers
 network: true
@@ -263,7 +263,7 @@ plans:
 - name: Adsmom Inc Plans
   plan_count: 3
   slug: adsmom-inc-plans
-random_paper: 13
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Adsmom Inc Rate Limits
@@ -302,7 +302,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Authenticated backend API for Verse, served at api.verse.inc over the Connect RPC protocol (gRPC-compatible; advertises Connect-Protocol-Version and Authorization headers, and OPTIONS/GET/POST/PATCH/D
@@ -85,7 +85,7 @@ overview: 'Verse publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Verse''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: minimal
   composite: 8.2
@@ -106,7 +106,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 8.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

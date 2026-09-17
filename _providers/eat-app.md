@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ modified: '2026-07-05'
 name: Eat App
 nav: Providers
 network: true
-overview: 'Eat App publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Concierge - Availability API, Concierge - Guests API, Concierge - Reference API, and 4 more. Tagged areas include Restaurant, Reservations, Table Management, Hospitality, and Bookings.
+overview: 'Eat App publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Concierge - Availability API, Concierge - Guests API, Concierge - Reference API, and 4 more. Tagged areas include Restaurant, Reservations, Table Management, Hospitality, and Booking.
 
 
   Eat App''s developer surface includes authentication, documentation, signup flow, engineering blog, and 9 more developer resources.'
@@ -186,7 +186,7 @@ plans:
 - name: Eat App Plans Pricing
   plan_count: 5
   slug: eat-app-plans-pricing
-random_paper: 8
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Eat App Rate Limits
@@ -218,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -239,7 +239,7 @@ tags:
 - Reservations
 - Table Management
 - Hospitality
-- Bookings
+- Booking
 - Guest CRM
 - Availability
 website: https://eatapp.co

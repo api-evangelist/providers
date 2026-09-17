@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: General-purpose real-time REST API for the ROLLER platform. Retrieve products, sessions and availability, and create and manage real-time bookings to power external checkout and booking journeys. Auth
@@ -180,14 +180,14 @@ modified: '2026-07-21'
 name: ROLLER
 nav: Providers
 network: true
-overview: 'ROLLER publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venue Management, Attractions, Ticketing, and Bookings.
+overview: 'ROLLER publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venue Management, Attractions, Ticketing, and Booking.
 
 
   The ROLLER catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   ROLLER''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Roller Rate Limits
@@ -220,7 +220,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -246,7 +246,7 @@ tags:
 - Venue Management
 - Attractions
 - Ticketing
-- Bookings
+- Booking
 - Point-of-Sale
 - Payments
 - Leisure

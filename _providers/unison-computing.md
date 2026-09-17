@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 10.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The API powering the Unison Share web application, including the APIs for syncing code with UCM and browsing projects, branches, and definitions. Unison Share also acts as the OAuth2 (with PKCE) and O
@@ -174,11 +174,11 @@ modified: '2026-07-21'
 name: Unison Computing
 nav: Providers
 network: true
-overview: 'Unison Computing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Programming Languages, Cloud Computing, Developer Tools, and Functional Programming.
+overview: 'Unison Computing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Programming Language, Cloud Computing, Developer Tools, and Functional Programming.
 
 
   Unison Computing''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: thin
   composite: 30.7
@@ -206,7 +206,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -225,7 +225,7 @@ security:
 slug: unison-computing
 tags:
 - Company
-- Programming Languages
+- Programming Language
 - Cloud Computing
 - Developer Tools
 - Functional Programming

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -46,11 +46,6 @@ agentic_access:
   summary_line: 103 operations · 59 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://cloud.soda.io
-  baseurl_source: declared
-  description: The Soda Cloud public REST API (v4). 103 operations across 15 resources — datasources, datasets, discovered datasets, data contracts, checks, data standards, monitors, scans, incidents, notification r
-  name: Soda Cloud API v4
-  slug: soda-data
 - baseURL: https://cloud.soda.io
   baseurl_source: declared
   description: The Attributes surface of the Soda Cloud v4 API — 4 operation(s) across 2 path(s).
@@ -76,11 +71,6 @@ apis:
   description: The Datasets surface of the Soda Cloud v4 API — 24 operation(s) across 17 path(s).
   name: Soda Datasets API
   slug: soda-data-datasets-api
-- baseURL: https://cloud.soda.io
-  baseurl_source: declared
-  description: The Datasources surface of the Soda Cloud v4 API — 18 operation(s) across 11 path(s).
-  name: Soda Datasources API
-  slug: soda-data-datasources-api
 - baseURL: https://cloud.soda.io
   baseurl_source: declared
   description: The Discovered Datasets surface of the Soda Cloud v4 API — 1 operation(s) across 1 path(s).
@@ -126,7 +116,12 @@ apis:
   description: The Utility surface of the Soda Cloud v4 API — 1 operation(s) across 1 path(s).
   name: Soda Utility API
   slug: soda-data-utility-api
-artifact_total: 32
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Soda Cloud API Datasource Endpoints
+  name: Soda Data Sources API
+  slug: soda-data-data-sources-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Soda Data Webhooks
@@ -154,6 +149,11 @@ collections:
   name: Soda Cloud REST API
   slug: open-soda-data
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/overlays/soda-data-datasources-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/soda-data-datasources-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -343,25 +343,25 @@ modified: '2026-08-29'
 name: Soda
 nav: Providers
 network: true
-overview: 'Soda publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Cloud API v4, Attributes API, Checks API, and 13 more. Tagged areas include AIOps, Data Quality, Data Observability, Data Contracts, and Data Governance.
+overview: 'Soda publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Checks API, Contracts API, and 12 more. Tagged areas include AIOps, Data Quality, Data Observability, Data Contracts, and Data Governance.
 
 
   The Soda catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Soda''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Soda''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Soda Data Plans Pricing
   plan_count: 3
   slug: soda-data-plans-pricing
-random_paper: 17
+random_paper: 20
 rate_limits:
 - limit_count: 6
   name: Soda Data Rate Limits
   slug: soda-data-rate-limits
 score:
   band: exemplar
-  composite: 71.6
+  composite: 71.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 64.0
@@ -369,11 +369,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 68.7
+    contract_quality: 69.2
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 73.7
@@ -384,12 +384,12 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
+      marker_coverage: 0.0
       total: 15
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

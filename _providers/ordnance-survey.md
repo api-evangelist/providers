@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -86,11 +86,6 @@ apis:
   slug: ordnance-survey-find-api
 - baseURL: https://api.os.uk/features/ngd/ofa/v1
   baseurl_source: declared
-  description: Returns a metadata document describing the WFS service provided by the server as well as valid WFS operations and parameters.
-  name: Ordnance Survey Get Capabilities API
-  slug: ordnance-survey-getcapabilities-api
-- baseURL: https://api.os.uk/features/ngd/ofa/v1
-  baseurl_source: declared
   description: Ordnance Survey NGD API – Features
   name: Ordnance Survey Landing Page API
   slug: ordnance-survey-landing-page-api
@@ -114,11 +109,6 @@ apis:
   description: Find all addresses in a polygon or multi-polygon object.
   name: Ordnance Survey Polygon API
   slug: ordnance-survey-polygon-api
-- baseURL: https://api.os.uk/features/ngd/ofa/v1
-  baseurl_source: declared
-  description: A search based on a property’s postcode
-  name: Ordnance Survey Postcode API
-  slug: ordnance-survey-postcode-api
 - baseURL: https://api.os.uk/features/ngd/ofa/v1
   baseurl_source: declared
   description: Find all addresses that intersect a given circle.
@@ -151,11 +141,6 @@ apis:
   slug: ordnance-survey-tile-request-api
 - baseURL: https://api.os.uk/features/ngd/ofa/v1
   baseurl_source: declared
-  description: The Tile Sets API from Ordnance Survey — 2 operation(s) for tile sets.
-  name: Ordnance Survey Tile Sets API
-  slug: ordnance-survey-tile-sets-api
-- baseURL: https://api.os.uk/features/ngd/ofa/v1
-  baseurl_source: declared
   description: The Tiling Schemes API from Ordnance Survey — 2 operation(s) for tiling schemes.
   name: Ordnance Survey Tiling Schemes API
   slug: ordnance-survey-tiling-schemes-api
@@ -169,6 +154,21 @@ apis:
   description: The Vector Tiles API from Ordnance Survey — 2 operation(s) for vector tiles.
   name: Ordnance Survey Vector Tiles API
   slug: ordnance-survey-vector-tiles-api
+- baseURL: https://api.os.uk/search/match/v1
+  baseurl_source: declared
+  description: Returns a metadata document describing the WFS service provided by the server as well as valid WFS operations and parameters.
+  name: Ordnance Survey Get Capabilities API
+  slug: ordnance-survey-get-capabilities-api
+- baseURL: https://api.os.uk/search/match/v1
+  baseurl_source: declared
+  description: A search based on a property’s postcode
+  name: Ordnance Survey Post Code API
+  slug: ordnance-survey-post-code-api
+- baseURL: https://api.os.uk/search/match/v1
+  baseurl_source: declared
+  description: The Tilesets API from Ordnance Survey — 2 operation(s) for tilesets.
+  name: Ordnance Survey Tilesets API
+  slug: ordnance-survey-tilesets-api
 artifact_total: 50
 collections:
 - collection_type: postman
@@ -543,7 +543,7 @@ plans:
 - name: Ordnance Survey Plans
   plan_count: 3
   slug: ordnance-survey-plans
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Ordnance Survey Rate Limits
@@ -555,7 +555,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 57.9
+  composite: 58.8
   coverage:
     artifact_dirs: 25
     catalog_earned: 59.0
@@ -563,11 +563,11 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 48.7
     contract_governance: 18.2
-    contract_quality: 42.3
+    contract_quality: 45.8
     developer_ergonomics: 64.9
     discoverability: 72.2
     operational_transparency: 68.4
@@ -585,7 +585,7 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 4
+      derived: 2
       marker_coverage: 52.2
       total: 23
     mcp: derived
@@ -597,7 +597,7 @@ score:
     regime_id: government
     score: 68.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

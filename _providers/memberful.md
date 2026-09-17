@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://ACCOUNT.memberful.com/api/graphql
@@ -122,7 +122,7 @@ modified: '2026-07-05'
 name: Memberful
 nav: Providers
 network: true
-overview: 'Memberful publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Members API, Subscriptions API, Plans and Passes API, and 1 more. Tagged areas include Memberships, Subscription, Payments, Creators, and GraphQL.
+overview: 'Memberful publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Members API, Subscriptions API, Plans and Passes API, and 1 more. Tagged areas include Membership, Subscription, Payments, Creators, and GraphQL.
 
 
   Memberful''s developer surface includes documentation and 8 more developer resources.'
@@ -130,7 +130,7 @@ plans:
 - name: Memberful Plans Pricing
   plan_count: 3
   slug: memberful-plans-pricing
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Memberful Rate Limits
@@ -161,7 +161,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +179,7 @@ security:
   summary_line: disclosure policy published
 slug: memberful
 tags:
-- Memberships
+- Membership
 - Subscription
 - Payments
 - Creators

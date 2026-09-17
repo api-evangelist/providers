@@ -1,16 +1,4 @@
 ---
-access_model:
-  confidence: low
-  label: Unknown
-  onboarding: unknown
-  pricing: unknown
-  public: false
-  source:
-  - authentication
-  - security
-  - sandbox
-  trial: false
-  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -29,19 +17,19 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-09-15'
+  score: 28.4
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: 'REST API for accepting bKash payments — token-based auth (Grant/Refresh Token), Checkout and Tokenized Checkout (create/execute/query payment, create/execute agreement), Refund, Instant Payout (B2C), '
-  name: bKash Payment Gateway (PGW)
-  slug: bkash-payment-gateway-pgw
-artifact_total: 4
+- description: Merchant payment API for accepting bKash payments — create, execute, query and refund tokenized payments; grant/refresh token auth.
+  name: bKash Tokenized Checkout API
+  slug: bkash-tokenized-checkout-api
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Bkash Webhooks
@@ -50,12 +38,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://bka.sh/
-- group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/security/bkash-domain-security.yml
-  title: ''
-  type: DomainSecurity
-  url: security/bkash-domain-security.yml
+  url: https://www.bkash.com
 - group: start
   title: ''
   type: DeveloperPortal
@@ -64,134 +47,66 @@ common:
   title: ''
   type: Documentation
   url: https://developer.bka.sh/docs
-- group: docs
-  title: ''
-  type: APIReference
-  url: https://developer.bka.sh/reference
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://developer.bka.sh/docs
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/bKash-developer
-- group: operate
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/changelog/bkash-changelog.yml
-  title: ''
-  type: ChangeLog
-  url: changelog/bkash-changelog.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/llms/bkash-llms.txt
   title: ''
   type: LLMsTxt
   url: llms/bkash-llms.txt
 - group: auth
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/authentication/bkash-authentication.yml
+  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/security/bkash-domain-security.yml
   title: ''
-  type: Authentication
-  url: authentication/bkash-authentication.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/errors/bkash-error-codes.yml
-  title: ''
-  type: ErrorCatalog
-  url: errors/bkash-error-codes.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/asyncapi/bkash-webhooks.yml
-  title: ''
-  type: Webhooks
-  url: asyncapi/bkash-webhooks.yml
-- group: start
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/sandbox/bkash-sandbox.yml
-  title: ''
-  type: Sandbox
-  url: sandbox/bkash-sandbox.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/conventions/bkash-conventions.yml
-  title: ''
-  type: Conventions
-  url: conventions/bkash-conventions.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/conventions/bkash-conventions.yml
-  title: ''
-  type: Idempotency
-  url: conventions/bkash-conventions.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/lifecycle/bkash-lifecycle.yml
-  title: ''
-  type: Lifecycle
-  url: lifecycle/bkash-lifecycle.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/conformance/bkash-conformance.yml
-  title: ''
-  type: Conformance
-  url: conformance/bkash-conformance.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/data-model/bkash-data-model.yml
-  title: ''
-  type: DataModel
-  url: data-model/bkash-data-model.yml
-- group: design
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/components/bkash-components.yml
-  title: ''
-  type: Components
-  url: components/bkash-components.yml
-- group: build
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/packages/bkash-packages.yml
-  title: ''
-  type: Packages
-  url: packages/bkash-packages.yml
-- group: agent
-  href: https://raw.githubusercontent.com/api-evangelist/bkash/refs/heads/main/mcp/bkash-mcp.yml
-  title: ''
-  type: X-MCPServerCandidate
-  url: mcp/bkash-mcp.yml
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://developer.bka.sh/usage-plan
-- group: operate
-  title: ''
-  type: Support
-  url: https://www.bkash.com/en/support
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.bkash.com/en/page/tokenized_checkout
-created: '2026-07-17'
-description: bKash is Bangladesh's largest mobile financial services (MFS) provider, offering a Payment Gateway (PGW) that lets online and mobile merchants accept bKash wallet payments through secure REST APIs. The developer platform (developer.bka.sh, public beta "Inferno Dragon") documents Checkout (hosted iframe/URL), Tokenized Checkout (agreement-based PIN-only payments), Instant Payout (B2C disbursement), Add Wallet, Auth and Capture, Subscriptions, and real-time webhook Instant Payment Notifications. Integration follows a token-based flow — Grant Token, Create Payment, Execute Payment, Query, Refund — with a self-service sandbox (service-name.sandbox.bka.sh) and production (service-name.pay.bka.sh) environments. bKash is a portfolio company associated with the SoftBank Vision Fund and is majority owned by BRAC Bank, with investment from Ant Group, the Bill & Melinda Gates Foundation, and IFC.
-image: https://developer.bka.sh/favicon.ico
+  type: DomainSecurity
+  url: security/bkash-domain-security.yml
+created: '2026-09-16'
+description: bKash is Bangladesh's leading mobile financial services (MFS) provider, offering send money, payments, cash-out and a tokenized checkout API for merchants to accept bKash payments. The Payment Gateway (PGW) exposes token management, checkout and tokenized checkout, refunds and B2C instant payout over a REST/JSON interface. Backed by BRAC Bank and Ant Group.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-18'
+mcp_servers:
+- description: Candidate MCP server tool surface derived from bKash Payment Gateway documented operations. bKash publishes no official hosted/remote MCP server; this is a starting point (not authoritative), one tool
+  name: bKash MCP Server
+  slug: bkash-mcp-server
+modified: '2026-09-16'
 name: bKash
 nav: Providers
 network: true
-overview: 'bKash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Payment Gateway, and Mobile Financial Services.
+overview: 'bKash publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Mobile Financial Services, Fintech, Checkout, and Bangladesh.
 
 
   The bKash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  bKash''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, sandbox, pricing, and 17 more developer resources.'
-random_paper: 17
+  bKash''s developer surface includes documentation and 5 more developer resources.'
+plans:
+- name: Bkash Plans Pricing
+  plan_count: 0
+  slug: bkash-plans-pricing
+random_paper: 15
+rate_limits:
+- limit_count: 2
+  name: Bkash Rate Limits
+  slug: bkash-rate-limits
 score:
   band: thin
-  composite: 32.7
+  composite: 30.2
   coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    artifact_dirs: 18
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
-    access_clarity: 10.5
+    access_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 41.6
-    developer_ergonomics: 42.9
+    developer_ergonomics: 32.1
     discoverability: 75.9
-    operational_transparency: 26.3
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -206,9 +121,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 32.8
+    score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -226,14 +141,12 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: bkash
 tags:
-- Company
-- Fintech
 - Payments
-- Payment Gateway
 - Mobile Financial Services
-- Digital Wallet
-- Bangladesh
+- Fintech
 - Checkout
-- Webhook
-website: https://bka.sh/
+- Bangladesh
+- Digital Wallet
+- Payment Gateway
+website: https://www.bkash.com
 ---

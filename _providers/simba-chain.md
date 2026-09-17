@@ -38,31 +38,116 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://blocks.simbachain.com/api/member-service
-  baseurl_source: declared
-  description: The organization, user, role, permission and API-credential control plane behind SIMBA Build. Creates and manages organisations, domains, invites, org-scoped and custom system roles, bulk user imports
-  name: SIMBA Blocks Member Service API
-  slug: simba-chain-member-service-api
-- baseURL: https://blocks.simbachain.com/api/member-service-validator
-  baseurl_source: declared
-  description: SIMBA's OAuth 2.0 / OpenID Connect authorization server and token validator (the "member service validator"). Publishes an OIDC discovery document and a JWKS, issues tokens over the authorization_code
-  name: SIMBA Blocks Authentication Service API
-  slug: simba-chain-authentication-api
 - description: The SIMBA Build dynamic API generator. When a smart contract is deployed into an application, Blocks auto-generates REST endpoints for every method and public variable of that contract — POST to invok
   name: SIMBA Blocks Platform Service (Dynamic Contract API)
   slug: simba-chain-platform-service-api
 - description: A live, unauthenticated remote Model Context Protocol server published on SIMBA's own documentation host. tools/list returns four tools — searchDocumentation, getPage, askQuestion and sendFeedback — t
   name: SIMBA Blocks Documentation MCP Server
   slug: simba-chain-documentation-mcp
-artifact_total: 11
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Authentication API from SIMBA Chain — 9 operation(s) for authentication.
+  name: SIMBA Chain Authentication API
+  slug: simba-chain-authentication-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Bulk Users Import Requests API from SIMBA Chain — 2 operation(s) for bulk users import requests.
+  name: SIMBA Chain Bulk Users Import Requests API
+  slug: simba-chain-bulk-users-import-requests-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The DeviceAppAdmin API from SIMBA Chain — 3 operation(s) for deviceappadmin.
+  name: SIMBA Chain Device App Admin API
+  slug: simba-chain-deviceappadmin-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The DeviceAppRegistration API from SIMBA Chain — 2 operation(s) for deviceappregistration.
+  name: SIMBA Chain Device App Registration API
+  slug: simba-chain-deviceappregistration-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Domains API from SIMBA Chain — 4 operation(s) for domains.
+  name: SIMBA Chain Domains API
+  slug: simba-chain-domains-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Events API from SIMBA Chain — 1 operation(s) for events.
+  name: SIMBA Chain Events API
+  slug: simba-chain-events-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Invites API from SIMBA Chain — 8 operation(s) for invites.
+  name: SIMBA Chain Invites API
+  slug: simba-chain-invites-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Organisations API from SIMBA Chain — 4 operation(s) for organisations.
+  name: SIMBA Chain Organisations API
+  slug: simba-chain-organisations-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Passkeys API from SIMBA Chain — 5 operation(s) for passkeys.
+  name: SIMBA Chain Passkeys API
+  slug: simba-chain-passkeys-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Permissions API from SIMBA Chain — 5 operation(s) for permissions.
+  name: SIMBA Chain Permissions API
+  slug: simba-chain-permissions-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Probes API from SIMBA Chain — 4 operation(s) for probes.
+  name: SIMBA Chain Probes API
+  slug: simba-chain-probes-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Roles API from SIMBA Chain — 6 operation(s) for roles.
+  name: SIMBA Chain Roles API
+  slug: simba-chain-roles-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The ServiceAdmin API from SIMBA Chain — 2 operation(s) for serviceadmin.
+  name: SIMBA Chain Service Admin API
+  slug: simba-chain-serviceadmin-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Templates API from SIMBA Chain — 2 operation(s) for templates.
+  name: SIMBA Chain Templates API
+  slug: simba-chain-templates-api
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The Users API from SIMBA Chain — 11 operation(s) for users.
+  name: SIMBA Chain Users API
+  slug: simba-chain-users-api
+- baseURL: https://blocks.simbachain.com/api/platform-service
+  baseurl_source: declared
+  description: The Client Credentials API from SIMBA Chain — 10 operation(s) for client credentials.
+  name: SIMBA Chain Client Credentials API
+  slug: simba-chain-client-credentials-api
+- baseURL: https://blocks.simbachain.com/api/platform-service
+  baseurl_source: declared
+  description: The Two Factor API from SIMBA Chain — 7 operation(s) for two factor.
+  name: SIMBA Chain Two Factor API
+  slug: simba-chain-two-factor-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Simba Chain Subscriptions Webhooks
   slug: simba-chain-subscriptions-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/overlays/simba-chain-member-service-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/simba-chain-member-service-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/overlays/simba-chain-member-service-validator-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/simba-chain-member-service-validator-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/security/simba-chain-domain-security.yml
   title: ''
@@ -227,18 +312,18 @@ modified: '2026-08-27'
 name: SIMBA Chain
 nav: Providers
 network: true
-overview: 'SIMBA Chain publishes 2 APIs on the [APIs.io](https://apis.io/) network: SIMBA Blocks Member Service API and SIMBA Blocks Authentication Service API. Tagged areas include Company, Blockchain, Supply Chain, Traceability, and Digital Product Passport.
+overview: 'SIMBA Chain publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Bulk Users Import Requests API, Device App Admin API, and 14 more. Tagged areas include Company, Blockchain, Supply Chain, Traceability, and Digital Product Passport.
 
 
   The SIMBA Chain catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SIMBA Chain''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, changelog, and 26 more developer resources.'
+  SIMBA Chain''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, changelog, and 28 more developer resources.'
 plans:
 - name: Simba Chain Plans Pricing
   plan_count: 0
   slug: simba-chain-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Simba Chain Rate Limits
@@ -250,25 +335,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.3
+  composite: 52.0
   coverage:
     artifact_dirs: 22
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 50.7
+    contract_quality: 51.4
     developer_ergonomics: 73.2
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 26.3
   previous_composite: 52.3
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 17
     mcp: first-party
     skills: derived
   regulatory:
@@ -278,7 +368,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

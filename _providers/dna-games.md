@@ -20,7 +20,7 @@ name: DNA Games
 nav: Providers
 network: true
 overview: DNA Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Social Games, Game Development, and Casino Games.
-random_paper: 16
+random_paper: 19
 slug: dna-games
 tags:
 - Company

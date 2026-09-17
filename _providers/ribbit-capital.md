@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Ribbit Capital
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 7
 slug: ribbit-capital
 tags:
 - Venture Capital

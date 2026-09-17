@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
-api_count: 21
+  scored_at: '2026-09-16'
+api_count: 42
 apis:
 - description: Central campus API developer portal. Catalogs 37 campus APIs across six categories, renders each published contract with Swagger UI, and runs registration, App/consumer-key creation and the API Access
   name: UCSB API Developer Portal
@@ -42,111 +42,6 @@ apis:
 - description: The single API front door for the campus, at api.ucsb.edu. Every campus API is published as a proxy on it and it enforces the ucsb-api-key application entitlement before a request reaches a backend we
   name: UCSB Campus API Gateway
   slug: campus-api-gateway
-- baseURL: https://api.ucsb.edu/academics/curriculums
-  baseurl_source: declared
-  description: Search and retrieve the UCSB schedule of classes for a quarter — classes, sections, final exams, space availability and general-education codes. The most substantial public academic contract UCSB publ
-  name: UCSB Academic Curriculums
-  slug: academic-curriculums
-- baseURL: https://api.ucsb.edu/academics/gradprograms/v1
-  baseurl_source: declared
-  description: List UCSB graduate degree programs and retrieve one by id, with department, degree types and application detail, from the Graduate Division. Published as Swagger 2.0, 2 paths, base https://api.ucsb.ed
-  name: UCSB Academic Graduate Programs
-  slug: academic-graduate-programs
-- baseURL: https://api.ucsb.edu/academics
-  baseurl_source: declared
-  description: 'The Office of the Registrar''s quarter calendar — first/last day of classes and finals, the three registration passes, fee deadline and add/drop deadlines. The keystone contract of the estate: everythi'
-  name: UCSB Academic Quarter Calendar
-  slug: academic-quarter-calendar
-- baseURL: https://api.ucsb.edu/academics/private/barcquartercalendar/v1
-  baseurl_source: declared
-  description: Quarter and term calendar as the BARC student billing system sees it, which is deliberately distinct from the Registrar calendar. Private tier. Published as Swagger 2.0, 2 paths, base https://api.ucsb
-  name: UCSB BARC Quarter Calendar
-  slug: barc-quarter-calendar
-- baseURL: https://api.ucsb.edu/students/private/barcstudents/v1
-  baseurl_source: declared
-  description: Student records as held by BARC, the campus Billing, Accounts Receivable and Collections system. Private tier; the contract is public, the data is not. Published as Swagger 2.0, 1 path, base https://a
-  name: UCSB BARC Students API
-  slug: barc-students-api
-- baseURL: https://api.ucsb.edu/academics/clas/schedules/v1
-  baseurl_source: declared
-  description: Subjects and skills workshops offered by Campus Learning Assistance Services. One of only two UCSB contracts published as OpenAPI 3.0.1, and the only one that requires the ucsb-api-version header on e
-  name: UCSB CLAS Schedules
-  slug: clas-schedules
-- baseURL: https://api.ucsb.edu/administration/financial/barc/classcode/v2
-  baseurl_source: declared
-  description: Lookup of BARC class codes, which determine a student billing category. Access Approval Required. Published as Swagger 2.0, 2 paths, base https://api.ucsb.edu/administration/financial/barc/classcode/v
-  name: UCSB ClassCode Lookup Service
-  slug: classcode-lookup-service
-- baseURL: https://api.ucsb.edu/administration/financial/accounts
-  baseurl_source: declared
-  description: Department, cost centre, cost type and project-code chartfields from the campus financial system. Published as OpenAPI 3.0.1 and the only contract that declares test and dev environments alongside pro
-  name: UCSB Department Chartfield
-  slug: department-chartfield
-- baseURL: https://api.ucsb.edu/students/private/deptcourses
-  baseurl_source: declared
-  description: Registrar extract of a department course list with sections, time/locations, instructors and concurrent courses. Private tier. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/students/priv
-  name: UCSB Department Course Extract
-  slug: department-course-extract
-- baseURL: https://api.ucsb.edu/employees/private/employeejoblookup
-  baseurl_source: declared
-  description: Employment and job data drawn from UCPath — employee records, job codes, job class codes and employment status. Private tier; the most sensitive contract UCSB publishes a spec for. Published as Swagge
-  name: UCSB Employee Job
-  slug: employee-job
-- baseURL: https://api.ucsb.edu/academics/
-  baseurl_source: declared
-  description: Campus academic events list. The smallest contract in the estate — one GET, no declared schema. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/academics/.
-  name: UCSB Events
-  slug: events
-- baseURL: https://gradpoint.ucsb.edu/webservices/public/applverifications
-  baseurl_source: declared
-  description: Graduate Division application verification service. The one published contract that does NOT run on the Campus API Gateway — it is served directly from gradpoint.ucsb.edu, which sits behind campus ADF
-  name: UCSB Grad Application Verifications
-  slug: grad-application-verifications
-- baseURL: https://api.ucsb.edu/students/private
-  baseurl_source: declared
-  description: Registrar service backing student access to Santa Barbara Metropolitan Transit District bus service. Private tier; the campus-life corner of the estate. Published as Swagger 2.0, 1 path, base https://
-  name: UCSB MTD Access
-  slug: mtd-access
-- baseURL: https://api.ucsb.edu/administration/financial/peoplesoft/fauvalidation/v2
-  baseurl_source: declared
-  description: 'Validation of PeopleSoft Functional Accounting Unit chartstring combinations. A POST-based validation service and one of only three write-bearing contracts UCSB publishes. Published as Swagger 2.0, 1 '
-  name: UCSB PeopleSoft FAU (Functional Accounting Unit) Combination Service
-  slug: peoplesoft-fau-functional-accounting-unit-combination-service
-- baseURL: https://api.ucsb.edu/students
-  baseurl_source: declared
-  description: A student’s declared majors and minors. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 3 paths, base https://api.ucsb.edu/students.
-  name: UCSB Student Academic Programs (Majors / Minors)
-  slug: student-academic-programs-majors-minors
-- baseURL: https://api.ucsb.edu/students
-  baseurl_source: declared
-  description: Basic and extended student demographic and enrollment records. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 2 paths, base https://api.ucsb.edu/students.
-  name: UCSB Student Basic Student Info
-  slug: student-basic-student-info
-- baseURL: https://api.ucsb.edu/students/courses
-  baseurl_source: declared
-  description: The courses a student is enrolled in for a quarter. Access Approval Required; FERPA-governed. Its base path /students/courses is the exact nesting UCSB’s own published design standard tells campus tea
-  name: UCSB Student Courses
-  slug: student-courses
-- baseURL: https://api.ucsb.edu/students
-  baseurl_source: declared
-  description: Thirty-nine reference tables from the Student Information System — majors, minors, colleges, departments, divisions, grades, grading options, classifications, pronouns, gender identity, instruction ty
-  name: UCSB Student Record Code Lookups
-  slug: student-record-code-lookups
-- baseURL: https://api.ucsb.edu/students/registrations
-  baseurl_source: declared
-  description: Student registration records and registration blocks for a quarter. Access Approval Required; one of three write-bearing contracts. Published as Swagger 2.0, 3 paths, base https://api.ucsb.edu/student
-  name: UCSB Student Registrations
-  slug: student-registrations
-- baseURL: https://api.ucsb.edu/students
-  baseurl_source: declared
-  description: The roster of students enrolled in a course section. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/students.
-  name: UCSB Student Rosters
-  slug: student-rosters
-- baseURL: https://api.ucsb.edu/students/schedules
-  baseurl_source: declared
-  description: A student’s class schedule with meeting times, locations and instructors. Access Approval Required; FERPA-governed. Published as Swagger 2.0, 1 path, base https://api.ucsb.edu/students/schedules.
-  name: UCSB Student Schedules
-  slug: student-schedules
 - description: 'UCSB operates its own Shibboleth identity provider, "Passport", at passport.identity.ucsb.edu, registered in InCommon as entityID urn:mace:incommon:ucsb.edu. Its SAML 2.0 metadata is machine-readable '
   name: UCSB Identity Federation (Passport / InCommon)
   slug: identity-federation
@@ -159,7 +54,282 @@ apis:
 - description: UCSB’s open-access scholarship collection inside eScholarship, the University of California’s systemwide repository operated by the California Digital Library. It IS OAI-PMH harvestable (https://escho
   name: UCSB on eScholarship
   slug: escholarship
-artifact_total: 53
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The AdmitLevels API from University of California, Santa Barbara — 1 operation(s) for admitlevels.
+  name: University of California, Santa Barbara Admit Levels API
+  slug: ucsb-admitlevels-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Classes API from University of California, Santa Barbara — 2 operation(s) for classes.
+  name: University of California, Santa Barbara Classes API
+  slug: ucsb-classes-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Classifications API from University of California, Santa Barbara — 1 operation(s) for classifications.
+  name: University of California, Santa Barbara Classifications API
+  slug: ucsb-classifications-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The ClassLevels API from University of California, Santa Barbara — 1 operation(s) for classlevels.
+  name: University of California, Santa Barbara Class Levels API
+  slug: ucsb-classlevels-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The ClassList API from University of California, Santa Barbara — 1 operation(s) for classlist.
+  name: University of California, Santa Barbara Class List API
+  slug: ucsb-classlist-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The ClassSection API from University of California, Santa Barbara — 1 operation(s) for classsection.
+  name: University of California, Santa Barbara Class Section API
+  slug: ucsb-classsection-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The ClassSpaceAvailability API from University of California, Santa Barbara — 1 operation(s) for classspaceavailability.
+  name: University of California, Santa Barbara Class Space Availability API
+  slug: ucsb-classspaceavailability-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Colleges API from University of California, Santa Barbara — 1 operation(s) for colleges.
+  name: University of California, Santa Barbara Colleges API
+  slug: ucsb-colleges-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The CourseRepeats API from University of California, Santa Barbara — 1 operation(s) for courserepeats.
+  name: University of California, Santa Barbara Course Repeats API
+  slug: ucsb-courserepeats-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Courses API from University of California, Santa Barbara — 1 operation(s) for courses.
+  name: University of California, Santa Barbara Courses API
+  slug: ucsb-courses-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The CourseStatuses API from University of California, Santa Barbara — 1 operation(s) for coursestatuses.
+  name: University of California, Santa Barbara Course Statuses API
+  slug: ucsb-coursestatuses-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Days API from University of California, Santa Barbara — 1 operation(s) for days.
+  name: University of California, Santa Barbara Days API
+  slug: ucsb-days-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The DegreeStatus API from University of California, Santa Barbara — 1 operation(s) for degreestatus.
+  name: University of California, Santa Barbara Degree Status API
+  slug: ucsb-degreestatus-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Departments API from University of California, Santa Barbara — 3 operation(s) for departments.
+  name: University of California, Santa Barbara Departments API
+  slug: ucsb-departments-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Divisions API from University of California, Santa Barbara — 1 operation(s) for divisions.
+  name: University of California, Santa Barbara Divisions API
+  slug: ucsb-divisions-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Emphasis API from University of California, Santa Barbara — 2 operation(s) for emphasis.
+  name: University of California, Santa Barbara Emphasis API
+  slug: ucsb-emphasis-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Employees API from University of California, Santa Barbara — 7 operation(s) for employees.
+  name: University of California, Santa Barbara Employees API
+  slug: ucsb-employees-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Events API from University of California, Santa Barbara — 1 operation(s) for events.
+  name: University of California, Santa Barbara Events API
+  slug: ucsb-events-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The FeeStatus API from University of California, Santa Barbara — 1 operation(s) for feestatus.
+  name: University of California, Santa Barbara Fee Status API
+  slug: ucsb-feestatus-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Finals API from University of California, Santa Barbara — 1 operation(s) for finals.
+  name: University of California, Santa Barbara Finals API
+  slug: ucsb-finals-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The FWTMN001 API from University of California, Santa Barbara — 1 operation(s) for fwtmn001.
+  name: University of California, Santa Barbara FWTMN001 API
+  slug: ucsb-fwtmn001-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The FWTMN006 API from University of California, Santa Barbara — 1 operation(s) for fwtmn006.
+  name: University of California, Santa Barbara FWTMN006 API
+  slug: ucsb-fwtmn006-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The GenderIdentity API from University of California, Santa Barbara — 1 operation(s) for genderidentity.
+  name: University of California, Santa Barbara Gender Identity API
+  slug: ucsb-genderidentity-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Get Active or Specific ClassCode API from University of California, Santa Barbara — 1 operation(s) for get active or specific classcode.
+  name: University of California, Santa Barbara Get Active or Specific ClassCode API
+  slug: ucsb-get-active-or-specific-classcode-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Get all Active ClassCodes API from University of California, Santa Barbara — 1 operation(s) for get all active classcodes.
+  name: University of California, Santa Barbara Get all Active ClassCodes API
+  slug: ucsb-get-all-active-classcodes-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Grades API from University of California, Santa Barbara — 1 operation(s) for grades.
+  name: University of California, Santa Barbara Grades API
+  slug: ucsb-grades-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The GradingOptions API from University of California, Santa Barbara — 1 operation(s) for gradingoptions.
+  name: University of California, Santa Barbara Grading Options API
+  slug: ucsb-gradingoptions-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The InstructionTypes API from University of California, Santa Barbara — 1 operation(s) for instructiontypes.
+  name: University of California, Santa Barbara Instruction Types API
+  slug: ucsb-instructiontypes-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The InstructorFunctions API from University of California, Santa Barbara — 1 operation(s) for instructorfunctions.
+  name: University of California, Santa Barbara Instructor Functions API
+  slug: ucsb-instructorfunctions-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The InternationalStudents API from University of California, Santa Barbara — 1 operation(s) for internationalstudents.
+  name: University of California, Santa Barbara International Students API
+  slug: ucsb-internationalstudents-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Majors API from University of California, Santa Barbara — 4 operation(s) for majors.
+  name: University of California, Santa Barbara Majors API
+  slug: ucsb-majors-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Minors API from University of California, Santa Barbara — 3 operation(s) for minors.
+  name: University of California, Santa Barbara Minors API
+  slug: ucsb-minors-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The MultiEthnicity API from University of California, Santa Barbara — 1 operation(s) for multiethnicity.
+  name: University of California, Santa Barbara Multi Ethnicity API
+  slug: ucsb-multiethnicity-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Objectives API from University of California, Santa Barbara — 2 operation(s) for objectives.
+  name: University of California, Santa Barbara Objectives API
+  slug: ucsb-objectives-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The ObjMajEmps API from University of California, Santa Barbara — 1 operation(s) for objmajemps.
+  name: University of California, Santa Barbara Obj Maj Emps API
+  slug: ucsb-objmajemps-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Organizations API from University of California, Santa Barbara — 1 operation(s) for organizations.
+  name: University of California, Santa Barbara Organizations API
+  slug: ucsb-organizations-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Perms API from University of California, Santa Barbara — 1 operation(s) for perms.
+  name: University of California, Santa Barbara Perms API
+  slug: ucsb-perms-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Programs API from University of California, Santa Barbara — 2 operation(s) for programs.
+  name: University of California, Santa Barbara Programs API
+  slug: ucsb-programs-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Pronouns API from University of California, Santa Barbara — 2 operation(s) for pronouns.
+  name: University of California, Santa Barbara Pronouns API
+  slug: ucsb-pronouns-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Quarters API from University of California, Santa Barbara — 2 operation(s) for quarters.
+  name: University of California, Santa Barbara Quarters API
+  slug: ucsb-quarters-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Registration API from University of California, Santa Barbara — 2 operation(s) for registration.
+  name: University of California, Santa Barbara Registration API
+  slug: ucsb-registration-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The RegistrationBlocks API from University of California, Santa Barbara — 1 operation(s) for registrationblocks.
+  name: University of California, Santa Barbara Registration Blocks API
+  slug: ucsb-registrationblocks-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The RegStatus API from University of California, Santa Barbara — 1 operation(s) for regstatus.
+  name: University of California, Santa Barbara Reg Status API
+  slug: ucsb-regstatus-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The RepeatTypes API from University of California, Santa Barbara — 1 operation(s) for repeattypes.
+  name: University of California, Santa Barbara Repeat Types API
+  slug: ucsb-repeattypes-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The RequirementCourses API from University of California, Santa Barbara — 1 operation(s) for requirementcourses.
+  name: University of California, Santa Barbara Requirement Courses API
+  slug: ucsb-requirementcourses-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Requirements API from University of California, Santa Barbara — 1 operation(s) for requirements.
+  name: University of California, Santa Barbara Requirements API
+  slug: ucsb-requirements-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Rosters API from University of California, Santa Barbara — 1 operation(s) for rosters.
+  name: University of California, Santa Barbara Rosters API
+  slug: ucsb-rosters-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Schedules API from University of California, Santa Barbara — 7 operation(s) for schedules.
+  name: University of California, Santa Barbara Schedules API
+  slug: ucsb-schedules-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The SchoolTypes API from University of California, Santa Barbara — 1 operation(s) for schooltypes.
+  name: University of California, Santa Barbara School Types API
+  slug: ucsb-schooltypes-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Sessions API from University of California, Santa Barbara — 2 operation(s) for sessions.
+  name: University of California, Santa Barbara Sessions API
+  slug: ucsb-sessions-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Students API from University of California, Santa Barbara — 3 operation(s) for students.
+  name: University of California, Santa Barbara Students API
+  slug: ucsb-students-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The StudyLoadStatus API from University of California, Santa Barbara — 1 operation(s) for studyloadstatus.
+  name: University of California, Santa Barbara Study Load Status API
+  slug: ucsb-studyloadstatus-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Subjects API from University of California, Santa Barbara — 2 operation(s) for subjects.
+  name: University of California, Santa Barbara Subjects API
+  slug: ucsb-subjects-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Uc Fau Validation API from University of California, Santa Barbara — 1 operation(s) for uc fau validation.
+  name: University of California, Santa Barbara Uc Fau Validation API
+  slug: ucsb-uc-fau-validation-api
+- baseURL: https://developer.ucsb.edu/
+  baseurl_source: declared
+  description: The Verifications API from University of California, Santa Barbara — 2 operation(s) for verifications.
+  name: University of California, Santa Barbara Verifications API
+  slug: ucsb-verifications-api
+artifact_total: 87
 common:
 - group: company
   title: ''
@@ -386,7 +556,7 @@ modified: '2026-08-30'
 name: University of California, Santa Barbara
 nav: Providers
 network: true
-overview: 'University of California, Santa Barbara publishes 21 APIs on the [APIs.io](https://apis.io/) network, including UCSB Academic Curriculums, UCSB Academic Graduate Programs, UCSB Academic Quarter Calendar, and 18 more. Tagged areas include Education, Higher Education, University, Public Research University, and UC System.
+overview: 'University of California, Santa Barbara publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Admit Levels API, Classes API, Classifications API, and 52 more. Tagged areas include Education, Higher Education, University, Public Research University, and UC System.
 
 
   The University of California, Santa Barbara catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -397,7 +567,7 @@ plans:
 - name: Ucsb Plans Pricing
   plan_count: 2
   slug: ucsb-plans-pricing
-random_paper: 9
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Ucsb Rate Limits
@@ -420,21 +590,21 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 53.4
+  composite: 53.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 63.3
+    catalog_earned: 60.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.8
+    catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 52.6
     contract_governance: 22.0
-    contract_quality: 53.1
+    contract_quality: 56.1
     developer_ergonomics: 57.1
-    discoverability: 64.8
+    discoverability: 59.3
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -450,7 +620,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 55
   regulatory:
     applies: true
     matched_via: tags
@@ -458,7 +628,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

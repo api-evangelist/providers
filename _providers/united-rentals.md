@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
 - baseURL: https://api.unitedrentals.com/v1
   baseurl_source: declared
   description: Rental reservations and orders
-  name: United Rentals Rentals API
+  name: United Rentals API
   slug: united-rentals-rentals-api
 artifact_total: 27
 collections:
@@ -200,7 +200,7 @@ jsonld:
   property_count: 32
   slug: united-rentals-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: United Rentals
 nav: Providers
 network: true
@@ -231,7 +231,7 @@ press:
 - date: '2026-05-25'
   title: United Rentals Expands Digital Customer Experience with ...
   url: https://www.businesswire.com/news/home/20260519107330/en/United-Rentals-Expands-Digital-Customer-Experience-with-Equipment-Agent-Launch-in-ChatGPT
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: United Rentals Rate Limits
@@ -285,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,8 +53,8 @@ apis:
 - baseURL: https://api.wayfair.com/v1/graphql
   baseurl_source: declared
   description: GraphQL query and mutation operations for supplier management.
-  name: Wayfair GraphQL API
-  slug: wayfair-graphql-api
+  name: Wayfair Graph QL API
+  slug: wayfair-graph-ql-api
 artifact_total: 46
 collections:
 - collection_type: open
@@ -228,7 +228,7 @@ modified: '2026-05-19'
 name: Wayfair
 nav: Providers
 network: true
-overview: 'Wayfair publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and GraphQL API. Tagged areas include E-Commerce, Furniture, Home Goods, Retail, and Suppliers.
+overview: 'Wayfair publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Graph QL API. Tagged areas include E-Commerce, Furniture, Home Goods, Retail, and Suppliers.
 
 
   The Wayfair catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -239,7 +239,7 @@ plans:
 - name: Wayfair Plans Pricing
   plan_count: 3
   slug: wayfair-plans-pricing
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Wayfair Rate Limits
@@ -293,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

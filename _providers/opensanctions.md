@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,11 +47,31 @@ api_count: 1
 apis:
 - baseURL: https://api.opensanctions.org
   baseurl_source: declared
-  description: REST API for screening people, companies, vessels and other entities against sanctions, watchlist and PEP data. Query-by-example matching returns scored candidates with per-feature explanations; free-
-  name: OpenSanctions Screening API
-  slug: opensanctions-screening-api
-artifact_total: 9
+  description: Endpoints for fetching data from the API, either related to individual entities, or for bulk data access in various forms.
+  name: OpenSanctions Data access API
+  slug: opensanctions-data-access-api
+- baseURL: https://api.opensanctions.org
+  baseurl_source: declared
+  description: Endpoints for conducting a user-facing entity search or matching a local data store against the given dataset.
+  name: OpenSanctions Matching API
+  slug: opensanctions-matching-api
+- baseURL: https://api.opensanctions.org
+  baseurl_source: declared
+  description: The Reconciliation Service provides four separate endpoints that work in concert to implement the data matching API used by OpenRefine, Wikidata and several other services and utilities.
+  name: OpenSanctions Reconciliation API
+  slug: opensanctions-reconciliation-api
+- baseURL: https://api.opensanctions.org
+  baseurl_source: declared
+  description: Service metadata endpoints for health checking and getting the application metadata to be used in client applications.
+  name: OpenSanctions System information API
+  slug: opensanctions-system-information-api
+artifact_total: 12
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/overlays/opensanctions-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/opensanctions-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/agentic-access/opensanctions-agentic-access.yml
   title: ''
@@ -245,22 +265,22 @@ modified: '2026-08-27'
 name: OpenSanctions
 nav: Providers
 network: true
-overview: 'OpenSanctions publishes 1 API on the [APIs.io](https://apis.io/) network: Screening API. Tagged areas include Sanctions Screening, Anti-Money Laundering, Politically Exposed Persons, Compliance, and Financial Crime.
+overview: 'OpenSanctions publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data access API, Matching API, Reconciliation API, and 1 more. Tagged areas include Sanctions Screening, Anti-Money Laundering, Politically Exposed Persons, Compliance, and Financial Crime.
 
 
-  OpenSanctions'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 33 more developer resources.'
+  OpenSanctions'' developer surface includes engineering blog, documentation, API reference, getting-started guide, support, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Opensanctions Plans Pricing
   plan_count: 4
   slug: opensanctions-plans-pricing
-random_paper: 5
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Opensanctions Rate Limits
   slug: opensanctions-rate-limits
 score:
   band: exemplar
-  composite: 74.6
+  composite: 73.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 61.0
@@ -268,11 +288,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 54.4
+    contract_quality: 48.3
     developer_ergonomics: 80.4
     discoverability: 83.3
     operational_transparency: 76.3
@@ -281,10 +301,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: first-party
     skills: derived
   regulatory:
@@ -294,7 +314,7 @@ score:
     regime_id: government
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

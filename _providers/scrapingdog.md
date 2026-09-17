@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Proxy API for Web scraping
@@ -73,7 +73,7 @@ overview: 'ScrapingDog publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   ScrapingDog''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 14
+random_paper: 3
 score:
   band: minimal
   composite: 8.1
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

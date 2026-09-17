@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-09-13'
 name: HollyFrontier
 nav: Providers
 network: true
-overview: HollyFrontier is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Energy, Oil and Gas, Petroleum Refining, and Fuels.
+overview: HollyFrontier is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Energy, Oil and Gas, Petroleum Refining, and Fuel.
 press:
 - date: '2026-05-25'
   title: HollyFrontier Corporation (HFC) CEO George Damiris on ...
@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: HollyFrontier Corporation Third Quarter 2021 Earnings ...
   url: http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2021-10-4-hollyfrontier-corporation-third-quarter-2021-earnings-release-and-conference-webcast
-random_paper: 18
+random_paper: 17
 score:
   band: minimal
   composite: 3.3
@@ -129,7 +129,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -147,7 +147,7 @@ tags:
 - Energy
 - Oil and Gas
 - Petroleum Refining
-- Fuels
+- Fuel
 - Lubricants
 - Specialty Chemicals
 - Dallas

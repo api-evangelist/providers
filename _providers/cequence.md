@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: API Spyder is a SaaS-based, agentless external discovery service that provides an attacker's view into an organization's public-facing API hosts, hosting providers, and API-specific exposures includin
@@ -195,7 +195,7 @@ plans:
 - name: Cequence Plans Pricing
   plan_count: 0
   slug: cequence-plans-pricing
-random_paper: 1
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Cequence Rate Limits
@@ -229,7 +229,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

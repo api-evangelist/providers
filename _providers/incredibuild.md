@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Standard REST APIs exposed by the Incredibuild Coordinator for managing build groups and users, and a Build History API that returns build telemetry as JSON. Requests authenticate with a custom API ke
@@ -121,7 +121,7 @@ overview: 'Incredibuild publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Incredibuild''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 9 more developer resources.'
-random_paper: 2
+random_paper: 8
 score:
   band: thin
   composite: 27.0
@@ -142,7 +142,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 27.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

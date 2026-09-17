@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 12
-  human_in_the_loop: 0
+- acting_count: 195
+  human_in_the_loop: 3
   name: Punchh Agentic Access
-  operation_count: 17
+  operation_count: 288
   slug: punchh-agentic-access
-  summary_line: 17 operations · 12 acting
+  summary_line: 288 operations · 195 acting · 3 human-in-the-loop
 api_count: 15
 apis:
 - baseURL: https://{server_name}.punchh.com
@@ -795,7 +795,7 @@ plans:
 - name: Punchh Plans Pricing
   plan_count: 1
   slug: punchh-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Punchh Rate Limits
@@ -858,7 +858,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -92,11 +92,6 @@ apis:
   slug: attio-notes-api
 - baseURL: https://api.attio.com
   baseurl_source: declared
-  description: The OAuth API from Attio — 2 operation(s) for oauth.
-  name: Attio OAuth API
-  slug: attio-oauth-api
-- baseURL: https://api.attio.com
-  baseurl_source: declared
   description: The Objects API from Attio — 2 operation(s) for objects.
   name: Attio Objects API
   slug: attio-objects-api
@@ -130,6 +125,11 @@ apis:
   description: Entries within a list, referencing a parent record.
   name: Attio List Entries API
   slug: attio-list-entries-api
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The OAuth API from Attio — 2 operation(s) for oauth.
+  name: Attio O Auth API
+  slug: attio-oauth-api
 artifact_total: 44
 collections:
 - collection_type: open
@@ -273,7 +273,7 @@ modified: '2026-08-08'
 name: Attio
 nav: Providers
 network: true
-overview: 'Attio publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Call Recordings API, Comments API, and 14 more. Tagged areas include CRM, Sales, Contacts, Companies, and Pipeline.
+overview: 'Attio publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Call Recordings API, Comments API, and 14 more. Tagged areas include CRM, Sales, Contacts, Companies, and Pipelines.
 
 
   Attio''s developer surface includes authentication, documentation, pricing, signup flow, and 11 more developer resources.'
@@ -281,7 +281,7 @@ plans:
 - name: Attio Plans Pricing
   plan_count: 4
   slug: attio-plans-pricing
-random_paper: 20
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Attio Rate Limits
@@ -319,7 +319,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -340,7 +340,7 @@ tags:
 - Sales
 - Contacts
 - Companies
-- Pipeline
+- Pipelines
 - Workflows
 website: https://attio.com
 ---

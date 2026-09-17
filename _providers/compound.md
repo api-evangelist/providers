@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GraphQL API for querying Compound Finance v2 protocol data via The Graph subgraph, including markets, accounts, borrows, repays, liquidations, and token transfers.
@@ -40,6 +40,10 @@ apis:
   slug: compound-finance-graphql-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://compound.finance
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/compound/refs/heads/main/security/compound-vulnerability-disclosure.yml
   title: ''
@@ -58,12 +62,12 @@ graphqls:
   slug: compound-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/compound.png
 layout: provider
-modified: '2026-06-14'
+modified: '2026-09-16'
 name: Compound Finance
 nav: Providers
 network: true
 overview: Compound Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Lending, Borrowing, Ethereum, and Blockchain.
-random_paper: 8
+random_paper: 11
 score:
   band: emerging
   composite: 17.6
@@ -84,7 +88,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -109,4 +113,5 @@ tags:
 - Blockchain
 - Finance
 - Cryptocurrency
+website: https://compound.finance
 ---

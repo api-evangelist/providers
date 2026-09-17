@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -63,11 +63,6 @@ apis:
   slug: 99-minutos-locations-api
 - baseURL: https://delivery.99minutos.com
   baseurl_source: declared
-  description: The oauth API from 99 Minutos — 1 operation(s) for oauth.
-  name: 99 Minutos oauth API
-  slug: 99-minutos-oauth-api
-- baseURL: https://delivery.99minutos.com
-  baseurl_source: declared
   description: The Orders API from 99 Minutos — 5 operation(s) for orders.
   name: 99 Minutos Orders API
   slug: 99-minutos-orders-api
@@ -91,6 +86,11 @@ apis:
   description: The webhooks API from 99 Minutos — 3 operation(s) for webhooks.
   name: 99 Minutos webhooks API
   slug: 99-minutos-webhooks-api
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The oauth API from 99 Minutos — 1 operation(s) for oauth.
+  name: 99 Minutos OAUTH API
+  slug: 99-minutos-oauth-api
 artifact_total: 25
 asyncapis:
 - description: ''
@@ -301,7 +301,7 @@ rate_limits:
   slug: 99-minutos-rate-limits
 score:
   band: developing
-  composite: 44.9
+  composite: 45.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -309,11 +309,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 43.4
     contract_governance: 4.5
-    contract_quality: 57.1
+    contract_quality: 60.5
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 39.5
@@ -336,7 +336,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

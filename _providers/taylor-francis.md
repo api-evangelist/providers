@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The Taylor & Francis Content API provides programmatic access to eBook and chapter downloads from the taylorfrancis.com platform. Using DOI-based identifiers, institutional subscribers can retrieve PD
@@ -119,7 +119,7 @@ plans:
 - name: Taylor Francis Plans Pricing
   plan_count: 3
   slug: taylor-francis-plans-pricing
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Taylor Francis Rate Limits
@@ -150,7 +150,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -31,17 +31,37 @@ agentic_access:
   operation_count: 40
   slug: actionpower-agentic-access
   summary_line: 40 operations · 28 acting
-api_count: 2
+api_count: 3
 apis:
-- baseURL: https://apis.daglo.ai
-  baseurl_source: declared
-  description: REST API for ActionPower's speech and language stack, served at https://apis.daglo.ai and authenticated with a bearer API token issued from the daglo Developers console. The published production contr
-  name: daglo Cloud API
-  slug: daglo-cloud-api
 - description: Bidirectional gRPC streaming speech recognition served from apis.daglo.ai. The provider publishes the proto3 service definition (package dagloapis.speech.v1, rpc StreamingRecognize) in its developer g
   name: daglo Realtime Streaming STT (gRPC)
   slug: daglo-realtime-streaming-stt-grpc
-artifact_total: 8
+- baseURL: https://apis.daglo.ai
+  baseurl_source: declared
+  description: The Image API from Actionpower — 7 operation(s) for image.
+  name: Actionpower Image API
+  slug: actionpower-image-api
+- baseURL: https://apis.daglo.ai
+  baseurl_source: declared
+  description: The NLP API from Actionpower — 7 operation(s) for nlp.
+  name: Actionpower NLP API
+  slug: actionpower-nlp-api
+- baseURL: https://apis.daglo.ai
+  baseurl_source: declared
+  description: The STT API from Actionpower — 5 operation(s) for stt.
+  name: Actionpower STT API
+  slug: actionpower-stt-api
+- baseURL: https://apis.daglo.ai
+  baseurl_source: declared
+  description: The TTS API from Actionpower — 1 operation(s) for tts.
+  name: Actionpower TTS API
+  slug: actionpower-tts-api
+- baseURL: https://apis.daglo.ai
+  baseurl_source: declared
+  description: The Video API from Actionpower — 10 operation(s) for video.
+  name: Actionpower Video API
+  slug: actionpower-video-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Actionpower Daglo Webhooks
@@ -224,7 +244,7 @@ modified: '2026-09-06'
 name: Actionpower
 nav: Providers
 network: true
-overview: 'Actionpower publishes 1 API on the [APIs.io](https://apis.io/) network: daglo Cloud API. Tagged areas include Speech Recognition, Speech-to-Text, Text-to-Speech, Natural Language Processing, and Artificial Intelligence.
+overview: 'Actionpower publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Image API, NLP API, STT API, and 2 more. Tagged areas include Speech Recognition, Speech-to-Text, Text-to-Speech, Natural Language Processing, and Artificial Intelligence.
 
 
   The Actionpower catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -235,28 +255,28 @@ plans:
 - name: Actionpower Plans Pricing
   plan_count: 3
   slug: actionpower-plans-pricing
-random_paper: 19
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Actionpower Rate Limits
   slug: actionpower-rate-limits
 score:
-  band: developing
-  composite: 47.3
+  band: strong
+  composite: 57.2
   coverage:
     artifact_dirs: 23
-    catalog_earned: 57.0
+    catalog_earned: 60.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 58.0
+    catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.9
   facets:
     access_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 25.0
+    contract_quality: 62.2
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 81.5
     operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -270,15 +290,15 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 2
-      marker_coverage: 100.0
-      total: 2
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 5
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

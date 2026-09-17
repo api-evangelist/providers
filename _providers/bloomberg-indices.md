@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Access index constituent data, weights, analytics, total returns, and historical data for Bloomberg's family of fixed income, equity, and multi-asset indices via BLPAPI and Data License.
@@ -47,6 +47,10 @@ apis:
   slug: galaxy-crypto-index
 artifact_total: 17
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -97,19 +101,19 @@ finops:
   slug: bloomberg-indices-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-indices.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Indices
 nav: Providers
 network: true
 overview: 'Bloomberg Indices publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Indices, Fixed Income, Equity, Commodities, and Benchmarks.
 
 
-  Bloomberg Indices'' developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Indices'' developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Indices Plans Pricing
   plan_count: 3
   slug: bloomberg-indices-plans-pricing
-random_paper: 11
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Bloomberg Indices Rate Limits
@@ -134,7 +138,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -164,5 +168,5 @@ use_cases:
   name: Structured Product Design
 - description: Measure portfolio risk relative to Bloomberg index benchmarks.
   name: Risk Measurement
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

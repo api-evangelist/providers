@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 23
-  human_in_the_loop: 0
+- acting_count: 80
+  human_in_the_loop: 3
   name: Airbus Oneatlas Agentic Access
-  operation_count: 36
+  operation_count: 161
   slug: airbus-oneatlas-agentic-access
-  summary_line: 36 operations · 23 acting
+  summary_line: 161 operations · 80 acting · 3 human-in-the-loop
 api_count: 7
 apis:
 - description: OneAtlas Data Living Library is a platform that provides users with access to a diverse range of geospatial data and satellite imagery. The library is constantly updated with the latest data, ensuring
@@ -74,11 +74,6 @@ apis:
   description: Allows users to query their transactions.
   name: Airbus OneAtlas accounting/transactions API
   slug: airbus-oneatlas-accounting-transactions-api
-- baseURL: https://data.api.oneatlas.airbus.com
-  baseurl_source: spec
-  description: The APIkey management API from Airbus OneAtlas — 2 operation(s) for apikey management.
-  name: Airbus OneAtlas APIkey management API
-  slug: airbus-oneatlas-apikey-management-api
 - baseURL: https://data.api.oneatlas.airbus.com
   baseurl_source: spec
   description: The Attempts API from Airbus OneAtlas — 1 operation(s) for attempts.
@@ -169,11 +164,6 @@ apis:
   description: The Notify API from Airbus OneAtlas — 2 operation(s) for notify.
   name: Airbus OneAtlas Notify API
   slug: airbus-oneatlas-notify-api
-- baseURL: https://data.api.oneatlas.airbus.com
-  baseurl_source: spec
-  description: The Opensearch API from Airbus OneAtlas — 1 operation(s) for opensearch.
-  name: Airbus OneAtlas Opensearch API
-  slug: airbus-oneatlas-opensearch-api
 - baseURL: https://order.api.oneatlas.airbus.com
   baseurl_source: spec
   description: The Ordering API from Airbus OneAtlas — 5 operation(s) for ordering.
@@ -279,6 +269,16 @@ apis:
   description: The Workspaces API from Airbus OneAtlas — 10 operation(s) for workspaces.
   name: Airbus OneAtlas Workspaces API
   slug: airbus-oneatlas-workspaces-api
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The API Key Management API from Airbus OneAtlas — 2 operation(s) for api key management.
+  name: Airbus OneAtlas API Key Management API
+  slug: airbus-oneatlas-api-key-management-api
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Open Search API from Airbus OneAtlas — 1 operation(s) for open search.
+  name: Airbus OneAtlas Open Search API
+  slug: airbus-oneatlas-open-search-api
 artifact_total: 355
 collections:
 - collection_type: open
@@ -2463,7 +2463,7 @@ modified: '2026-05-19'
 name: Airbus OneAtlas
 nav: Providers
 network: true
-overview: 'Airbus OneAtlas publishes 49 APIs on the [APIs.io](https://apis.io/) network, including OneAtlas Data Living Library, OneAtlas Data Pay-Per-Order API, OneAtlas Data Pay-Per-Order Tasking API, and 46 more. Tagged areas include Imagery and Satellites.
+overview: 'Airbus OneAtlas publishes 49 APIs on the [APIs.io](https://apis.io/) network, including OneAtlas Data Living Library, OneAtlas Data Pay-Per-Order API, OneAtlas Data Pay-Per-Order Tasking API, and 46 more. Tagged areas include Imagery and Satellite.
 
 
   The Airbus OneAtlas catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -2474,7 +2474,7 @@ plans:
 - name: Airbus Oneatlas Plans Pricing
   plan_count: 4
   slug: airbus-oneatlas-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Airbus Oneatlas Rate Limits
@@ -2513,7 +2513,7 @@ rules:
   slug: oneatlas-spectral-rules
 score:
   band: thin
-  composite: 38.4
+  composite: 39.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 53.5
@@ -2521,11 +2521,11 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 56.4
+    contract_quality: 58.8
     developer_ergonomics: 38.1
     discoverability: 50.0
     operational_transparency: 44.7
@@ -2538,7 +2538,7 @@ score:
       marker_coverage: 0.0
       total: 44
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -2560,6 +2560,6 @@ security:
 slug: airbus-oneatlas
 tags:
 - Imagery
-- Satellites
+- Satellite
 website: https://www.airbus.com/
 ---

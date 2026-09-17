@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -248,11 +248,11 @@ modified: '2026-07-19'
 name: Hakuna
 nav: Providers
 network: true
-overview: 'Hakuna publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Company API, Management API, and 7 more. Tagged areas include Company, Time Tracking, HR, Workforce Management, and Absence Management.
+overview: 'Hakuna publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Company API, Management API, and 7 more. Tagged areas include Company, Time Tracking, Human Resources, Workforce Management, and Absence Management.
 
 
   Hakuna''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 17 more developer resources.'
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Hakuna Rate Limits
@@ -295,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -314,7 +314,7 @@ slug: hakuna
 tags:
 - Company
 - Time Tracking
-- HR
+- Human Resources
 - Workforce Management
 - Absence Management
 - Project Tracking

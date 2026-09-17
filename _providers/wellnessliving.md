@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -249,7 +249,7 @@ plans:
 - name: Wellnessliving Plans Pricing
   plan_count: 4
   slug: wellnessliving-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Wellnessliving Rate Limits
@@ -293,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -315,7 +315,7 @@ tags:
 - Spa
 - Business Management
 - Scheduling
-- Memberships
+- Membership
 - Point-of-Sale
 website: https://www.wellnessliving.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -115,7 +115,7 @@ overview: 'Blume is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Blume''s developer surface includes documentation, engineering blog, support, signup flow, authentication, and 9 more developer resources.'
-random_paper: 8
+random_paper: 5
 score:
   band: emerging
   composite: 21.2
@@ -140,7 +140,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -165,7 +165,7 @@ tags:
 - E-Commerce
 - Consumer
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - MCP
 website: https://blume.com

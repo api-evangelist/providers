@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ modified: '2026-08-11'
 name: QR Code Crafter
 nav: Providers
 network: true
-overview: 'QR Code Crafter publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Dynamic Qr API, Dynamic Qr Vaults API, .netlify API, and 2 more. Tagged areas include QR Code, QR Code Generation, Static Qr, Dynamic QR, and dynamic redirects.
+overview: 'QR Code Crafter publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Dynamic Qr API, Dynamic Qr Vaults API, .netlify API, and 2 more. Tagged areas include QR Codes, QR Code Generation, Static Qr, Dynamic QR, and dynamic redirects.
 
 
   QR Code Crafter''s developer surface includes documentation, API reference, pricing, support, authentication, changelog, code examples, and 23 more developer resources.'
@@ -233,7 +233,7 @@ plans:
 - name: Qr Code Crafter Plans Pricing
   plan_count: 1
   slug: qr-code-crafter-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Qr Code Crafter Rate Limits
@@ -268,7 +268,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -285,7 +285,7 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: qr-code-crafter
 tags:
-- QR Code
+- QR Codes
 - QR Code Generation
 - Static Qr
 - Dynamic QR

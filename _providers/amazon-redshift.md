@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -100,6 +100,10 @@ collections:
   name: Amazon Redshift Data Metadata Statement Management API
   slug: open-amazon-redshift-statement-management-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -475,7 +479,7 @@ jsonld:
   property_count: 0
   slug: amazon-redshift-data-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Redshift
 nav: Providers
 network: true
@@ -485,12 +489,12 @@ overview: 'Amazon Redshift publishes 4 APIs on the [APIs.io](https://apis.io/) n
   The Amazon Redshift catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Redshift''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, FAQ, pricing, and 9 more developer resources.'
+  Amazon Redshift''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, FAQ, pricing, and 10 more developer resources.'
 plans:
 - name: Amazon Redshift Plans Pricing
   plan_count: 3
   slug: amazon-redshift-plans-pricing
-random_paper: 15
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Redshift Rate Limits
@@ -544,7 +548,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -589,4 +593,5 @@ use_cases:
   name: ETL Pipeline Processing
 - description: Run on-demand analytical queries without provisioning clusters using Redshift Serverless and Data API.
   name: Serverless Ad-Hoc Queries
+website: https://amazon.com
 ---

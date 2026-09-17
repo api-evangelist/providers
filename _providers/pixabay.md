@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Search and retrieve royalty-free images, illustrations, and vectors. Filter by category, image type, orientation, color, and more. Returns image URLs at multiple resolutions.
@@ -97,12 +97,12 @@ modified: '2026-05-08'
 name: Pixabay
 nav: Providers
 network: true
-overview: Pixabay publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Stock Media, Image, Videos, Illustrations, and Free.
+overview: Pixabay publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Stock Media, Image, Video, Illustrations, and Free.
 plans:
 - name: Pixabay Plans Pricing
   plan_count: 1
   slug: pixabay-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Pixabay Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 14.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -147,7 +147,7 @@ slug: pixabay
 tags:
 - Stock Media
 - Image
-- Videos
+- Video
 - Illustrations
 - Free
 - Search

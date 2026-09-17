@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -70,11 +70,6 @@ apis:
   slug: oracle-primavera-projects-api
 - baseURL: https://{host}/p6ws/rest/v1
   baseurl_source: declared
-  description: Resource assignment operations
-  name: Oracle Primavera ResourceAssignments API
-  slug: oracle-primavera-resourceassignments-api
-- baseURL: https://{host}/p6ws/rest/v1
-  baseurl_source: declared
   description: Resource and role management
   name: Oracle Primavera Resources API
   slug: oracle-primavera-resources-api
@@ -83,6 +78,11 @@ apis:
   description: Work Breakdown Structure management
   name: Oracle Primavera WBS API
   slug: oracle-primavera-wbs-api
+- baseURL: https://{host}/p6ws/rest/v1
+  baseurl_source: declared
+  description: Resource assignment operations
+  name: Oracle Primavera Resource Assignments API
+  slug: oracle-primavera-resource-assignments-api
 artifact_total: 34
 collections:
 - collection_type: postman
@@ -260,7 +260,7 @@ plans:
 - name: Oracle Primavera Plans Pricing
   plan_count: 3
   slug: oracle-primavera-plans-pricing
-random_paper: 4
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Oracle Primavera Rate Limits
@@ -308,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ modified: '2026-05-19'
 name: Pexels
 nav: Providers
 network: true
-overview: 'Pexels publishes 3 APIs on the [APIs.io](https://apis.io/) network: Collections API, Photos API, and Videos API. Tagged areas include Photos, Stock Media, and Videos.
+overview: 'Pexels publishes 3 APIs on the [APIs.io](https://apis.io/) network: Collections API, Photos API, and Videos API. Tagged areas include Photos, Stock Media, and Video.
 
 
   Pexels'' developer surface includes authentication, developer portal, documentation, signup flow, and 7 more developer resources.'
@@ -145,7 +145,7 @@ plans:
 - name: Pexels Plans Pricing
   plan_count: 3
   slug: pexels-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Pexels Rate Limits
@@ -177,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -197,6 +197,6 @@ slug: pexels
 tags:
 - Photos
 - Stock Media
-- Videos
+- Video
 website: https://www.pexels.com/
 ---

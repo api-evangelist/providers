@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 356
   human_in_the_loop: 4
@@ -101,11 +101,6 @@ apis:
   slug: zoho-inventory-invoices-api
 - baseURL: https://www.zohoapis.com/inventory/v1
   baseurl_source: declared
-  description: ItemGroups Module
-  name: Zoho Inventory itemgroups API
-  slug: zoho-inventory-itemgroups-api
-- baseURL: https://www.zohoapis.com/inventory/v1
-  baseurl_source: declared
   description: Items Module
   name: Zoho Inventory items API
   slug: zoho-inventory-items-api
@@ -141,16 +136,6 @@ apis:
   slug: zoho-inventory-picklists-api
 - baseURL: https://www.zohoapis.com/inventory/v1
   baseurl_source: declared
-  description: PriceLists Module
-  name: Zoho Inventory pricelists API
-  slug: zoho-inventory-pricelists-api
-- baseURL: https://www.zohoapis.com/inventory/v1
-  baseurl_source: declared
-  description: PurchaseOrders Module
-  name: Zoho Inventory purchaseorders API
-  slug: zoho-inventory-purchaseorders-api
-- baseURL: https://www.zohoapis.com/inventory/v1
-  baseurl_source: declared
   description: PurchaseReceives Module
   name: Zoho Inventory purchasereceives API
   slug: zoho-inventory-purchasereceives-api
@@ -176,26 +161,6 @@ apis:
   slug: zoho-inventory-retainer-invoices-api
 - baseURL: https://www.zohoapis.com/inventory/v1
   baseurl_source: declared
-  description: SalesOrders Module
-  name: Zoho Inventory salesorders API
-  slug: zoho-inventory-salesorders-api
-- baseURL: https://www.zohoapis.com/inventory/v1
-  baseurl_source: declared
-  description: SalesReturns Module
-  name: Zoho Inventory salesreturns API
-  slug: zoho-inventory-salesreturns-api
-- baseURL: https://www.zohoapis.com/inventory/v1
-  baseurl_source: declared
-  description: Serial Numbers Module
-  name: Zoho Inventory serialnumbers API
-  slug: zoho-inventory-serialnumbers-api
-- baseURL: https://www.zohoapis.com/inventory/v1
-  baseurl_source: declared
-  description: ShipmentOrders Module
-  name: Zoho Inventory shipmentorders API
-  slug: zoho-inventory-shipmentorders-api
-- baseURL: https://www.zohoapis.com/inventory/v1
-  baseurl_source: declared
   description: Bin Locations Module
   name: Zoho Inventory storagelocations API
   slug: zoho-inventory-storagelocations-api
@@ -211,11 +176,6 @@ apis:
   slug: zoho-inventory-taxes-api
 - baseURL: https://www.zohoapis.com/inventory/v1
   baseurl_source: declared
-  description: TransferOrders Module
-  name: Zoho Inventory transferorders API
-  slug: zoho-inventory-transferorders-api
-- baseURL: https://www.zohoapis.com/inventory/v1
-  baseurl_source: declared
   description: Units of Measurement Module
   name: Zoho Inventory unit_of_measurement API
   slug: zoho-inventory-unit-of-measurement-api
@@ -229,6 +189,46 @@ apis:
   description: Vendor-Credits Module
   name: Zoho Inventory vendor-credits API
   slug: zoho-inventory-vendor-credits-api
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: ItemGroups Module
+  name: Zoho Inventory Item groups API
+  slug: zoho-inventory-item-groups-api
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: PriceLists Module
+  name: Zoho Inventory Price Lists API
+  slug: zoho-inventory-price-lists-api
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: PurchaseOrders Module
+  name: Zoho Inventory Purchase Orders API
+  slug: zoho-inventory-purchase-orders-api
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: SalesOrders Module
+  name: Zoho Inventory Sales Orders API
+  slug: zoho-inventory-sales-orders-api
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: SalesReturns Module
+  name: Zoho Inventory Sales Returns API
+  slug: zoho-inventory-sales-returns-api
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: Serial Numbers Module
+  name: Zoho Inventory Serial Numbers API
+  slug: zoho-inventory-serial-numbers-api
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: ShipmentOrders Module
+  name: Zoho Inventory Shipment Orders API
+  slug: zoho-inventory-shipment-orders-api
+- baseURL: https://www.zohoapis.com/inventory/v1
+  baseurl_source: declared
+  description: TransferOrders Module
+  name: Zoho Inventory Transfer Orders API
+  slug: zoho-inventory-transfer-orders-api
 artifact_total: 124
 collections:
 - collection_type: open
@@ -574,7 +574,7 @@ plans:
 - name: Zoho Inventory Plans Pricing
   plan_count: 5
   slug: zoho-inventory-plans-pricing
-random_paper: 8
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Zoho Inventory Rate Limits
@@ -622,7 +622,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

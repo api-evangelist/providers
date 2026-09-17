@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: The core open-source, git-native desktop API client (a lightweight Postman/Insomnia alternative). Compose and send HTTP, REST, GraphQL, and gRPC requests, organize them into collections, manage enviro
@@ -116,7 +116,7 @@ plans:
 - name: Bruno Api Plans Pricing
   plan_count: 4
   slug: bruno-api-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Bruno Api Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 25.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Banuba Face AR SDK provides AR face effects, beauty filters, and face tracking for mobile (iOS/Android), web, and desktop applications. The SDK includes real-time face detection, 3D face tracking,
@@ -166,7 +166,7 @@ plans:
 - name: Banuba Plans Pricing
   plan_count: 3
   slug: banuba-plans-pricing
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Banuba Rate Limits
@@ -212,7 +212,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 23.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

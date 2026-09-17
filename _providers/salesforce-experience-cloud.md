@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -110,11 +110,6 @@ apis:
   description: CMS folder management
   name: Salesforce Experience Cloud Folders API
   slug: salesforce-experience-cloud-folders-api
-- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
-  baseurl_source: declared
-  description: GraphQL query and mutation operations
-  name: Salesforce Experience Cloud GraphQL API
-  slug: salesforce-experience-cloud-graphql-api
 - baseURL: https://yourInstance.salesforce.com/services/data/v59.0
   baseurl_source: declared
   description: Knowledge article operations within communities
@@ -202,11 +197,6 @@ apis:
   slug: salesforce-experience-cloud-sites-api
 - baseURL: https://yourInstance.salesforce.com/services/data/v59.0
   baseurl_source: declared
-  description: Salesforce object operations
-  name: Salesforce Experience Cloud sObjects API
-  slug: salesforce-experience-cloud-sobjects-api
-- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
-  baseurl_source: declared
   description: Site template management
   name: Salesforce Experience Cloud Templates API
   slug: salesforce-experience-cloud-templates-api
@@ -225,6 +215,16 @@ apis:
   description: API version discovery
   name: Salesforce Experience Cloud Versions API
   slug: salesforce-experience-cloud-versions-api
+- baseURL: https://yourInstance.salesforce.com/services/Soap/m/59.0
+  baseurl_source: declared
+  description: GraphQL query and mutation operations
+  name: Salesforce Experience Cloud Graph QL API
+  slug: salesforce-experience-cloud-graph-ql-api
+- baseURL: https://yourInstance.salesforce.com/services/Soap/m/59.0
+  baseurl_source: declared
+  description: Salesforce object operations
+  name: Salesforce Experience Cloud s Objects API
+  slug: salesforce-experience-cloud-s-objects-api
 arazzos:
 - description: Create an Account, add a Contact under it, then open a Case for that Contact.
   name: Salesforce Experience Cloud Account Contact Case Onboarding
@@ -1080,7 +1080,7 @@ plans:
 - name: Salesforce Experience Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-experience-cloud-plans-pricing
-random_paper: 1
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Salesforce Experience Cloud Rate Limits
@@ -1139,7 +1139,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

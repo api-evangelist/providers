@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://customer-api.debitura.com
@@ -73,11 +73,6 @@ apis:
   slug: debitura-me-api
 - baseURL: https://customer-api.debitura.com
   baseurl_source: declared
-  description: The OAuth API from Debitura — 1 operation(s) for oauth.
-  name: Debitura O Auth API
-  slug: debitura-oauth-api
-- baseURL: https://customer-api.debitura.com
-  baseurl_source: declared
   description: Payments
   name: Debitura Payments API
   slug: debitura-payments-api
@@ -103,11 +98,6 @@ apis:
   slug: debitura-tasks-api
 - baseURL: https://customer-api.debitura.com
   baseurl_source: declared
-  description: Test Cases
-  name: Debitura Test Cases API
-  slug: debitura-testcases-api
-- baseURL: https://customer-api.debitura.com
-  baseurl_source: declared
   description: Test Webhooks
   name: Debitura Test Webhooks API
   slug: debitura-testwebhooks-api
@@ -118,14 +108,24 @@ apis:
   slug: debitura-users-api
 - baseURL: https://customer-api.debitura.com
   baseurl_source: declared
-  description: Webhooks
-  name: Debitura Webhook Events API
-  slug: debitura-webhookevents-api
-- baseURL: https://customer-api.debitura.com
-  baseurl_source: declared
   description: Manage webhook subscriptions and inspect the delivery event log. Create subscriptions to receive real-time notifications for case lifecycle events, payments, and chats. Use GET /webhooks/events to ver
   name: Debitura Webhooks API
   slug: debitura-webhooks-api
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: The OAuth API from Debitura — 1 operation(s) for oauth.
+  name: Debitura O Auth API
+  slug: debitura-oauth-api
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Test Cases
+  name: Debitura Test Cases API
+  slug: debitura-test-cases-api
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Webhooks
+  name: Debitura Webhook Events API
+  slug: debitura-webhook-events-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -137,18 +137,23 @@ collections:
 - collection_type: open
   name: Debitura Referral Partner API
   slug: open-debitura-referral-partner-api
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://debitura.com
 created: '2026-08-01'
 description: 'Debitura is an API-first international debt collection platform covering cross-border B2B and B2C receivables. It publishes three separate public REST APIs, one per role in the network rather than one API with role-gated endpoints: the Customer API for creditors uploading invoices to collection and tracking cases, the Referral Partner API for platforms embedding collection as a referral and tracking revenue share, and the Collection Partner API for collection agencies operating cases on the platform. All three are OpenAPI 3.0.4, each on its own host, and each authenticates with an API key in the XApiKey header; the Customer API additionally accepts a bearer token, and the Referral Partner API exposes OAuth operations for minting them. Webhooks appear in all three, each with a paired test surface for exercising events before going live. Debitura publishes its own APIs.json at docs.debitura.com, which is how this profile was built.'
 layout: provider
-modified: '2026-08-01'
+modified: '2026-09-16'
 name: Debitura
 nav: Providers
 network: true
 overview: Debitura publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Cases API, Clients API, Contracts API, and 17 more. Tagged areas include Debt Collection, Accounts Receivable, Debt Recovery, Fintech, and Payments.
-random_paper: 8
+random_paper: 12
 score:
   band: emerging
-  composite: 18.4
+  composite: 19.1
   coverage:
     artifact_dirs: 4
     catalog_earned: 38.0
@@ -156,11 +161,11 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 55.9
+    contract_quality: 58.6
     developer_ergonomics: 9.5
     discoverability: 70.4
     operational_transparency: 0.0
@@ -179,7 +184,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -194,4 +199,5 @@ tags:
 - Payments
 - Invoicing
 - Webhook
+website: https://debitura.com
 ---

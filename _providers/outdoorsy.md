@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 150
   human_in_the_loop: 2
@@ -91,11 +91,6 @@ apis:
   description: The Bookings API from Outdoorsy — 9 operation(s) for bookings.
   name: Outdoorsy Bookings API
   slug: outdoorsy-bookings-api
-- baseURL: https://api.outdoorsy.com/v0
-  baseurl_source: declared
-  description: The bookingServices API from Outdoorsy — 4 operation(s) for bookingservices.
-  name: Outdoorsy Booking Services API
-  slug: outdoorsy-bookingservices-api
 - baseURL: https://api.outdoorsy.com/v0
   baseurl_source: declared
   description: The bookingTransactions API from Outdoorsy — 3 operation(s) for bookingtransactions.
@@ -178,11 +173,6 @@ apis:
   slug: outdoorsy-gethomepageparks-api
 - baseURL: https://api.outdoorsy.com/v0
   baseurl_source: declared
-  description: The GiftCards API from Outdoorsy — 3 operation(s) for giftcards.
-  name: Outdoorsy Gift Cards API
-  slug: outdoorsy-giftcards-api
-- baseURL: https://api.outdoorsy.com/v0
-  baseurl_source: declared
   description: The ics-calendars API from Outdoorsy — 5 operation(s) for ics-calendars.
   name: Outdoorsy Ics Calendars API
   slug: outdoorsy-ics-calendars-api
@@ -206,11 +196,6 @@ apis:
   description: The messages API from Outdoorsy — 3 operation(s) for messages.
   name: Outdoorsy Messages API
   slug: outdoorsy-messages-api
-- baseURL: https://api.outdoorsy.com/v0
-  baseurl_source: declared
-  description: The messageTemplates API from Outdoorsy — 2 operation(s) for messagetemplates.
-  name: Outdoorsy Message Templates API
-  slug: outdoorsy-messagetemplates-api
 - baseURL: https://api.outdoorsy.com/v0
   baseurl_source: declared
   description: The notes-to-renters API from Outdoorsy — 2 operation(s) for notes-to-renters.
@@ -313,11 +298,6 @@ apis:
   slug: outdoorsy-transactions-api
 - baseURL: https://api.outdoorsy.com/v0
   baseurl_source: declared
-  description: The twoFactorAuth API from Outdoorsy — 3 operation(s) for twofactorauth.
-  name: Outdoorsy Two Factor Auth API
-  slug: outdoorsy-twofactorauth-api
-- baseURL: https://api.outdoorsy.com/v0
-  baseurl_source: declared
   description: The usageBasedItems API from Outdoorsy — 2 operation(s) for usagebaseditems.
   name: Outdoorsy Usage Based Items API
   slug: outdoorsy-usagebaseditems-api
@@ -356,6 +336,26 @@ apis:
   description: The wishlists API from Outdoorsy — 9 operation(s) for wishlists.
   name: Outdoorsy Wishlists API
   slug: outdoorsy-wishlists-api
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The Booking services API from Outdoorsy — 4 operation(s) for booking services.
+  name: Outdoorsy Booking services API
+  slug: outdoorsy-booking-services-api
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The Gift Cards API from Outdoorsy — 3 operation(s) for gift cards.
+  name: Outdoorsy Gift Cards API
+  slug: outdoorsy-gift-cards-api
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The Message Templates API from Outdoorsy — 2 operation(s) for message templates.
+  name: Outdoorsy Message Templates API
+  slug: outdoorsy-message-templates-api
+- baseURL: https://api.outdoorsy.com/v0
+  baseurl_source: declared
+  description: The Two Factor Auth API from Outdoorsy — 3 operation(s) for two factor auth.
+  name: Outdoorsy Two Factor Auth API
+  slug: outdoorsy-two-factor-auth-api
 artifact_total: 130
 collections:
 - collection_type: open
@@ -701,28 +701,28 @@ overview: 'Outdoorsy publishes 62 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Outdoorsy''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 8
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Outdoorsy Rate Limits
   slug: outdoorsy-rate-limits
 score:
   band: developing
-  composite: 43.2
+  composite: 45.6
   coverage:
     artifact_dirs: 21
-    catalog_earned: 32.0
+    catalog_earned: 42.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 83.0
+    catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 47.4
+    contract_quality: 49.6
     developer_ergonomics: 73.2
-    discoverability: 51.9
+    discoverability: 70.4
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -734,7 +734,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 12.9
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 62
@@ -747,7 +747,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -769,7 +769,7 @@ tags:
 - Marketplace
 - Rentals
 - Recreational Vehicles
-- Bookings
+- Booking
 - Search
 - Payments
 - Insurance

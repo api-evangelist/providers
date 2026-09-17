@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://catalog.lib.kyushu-u.ac.jp/mmd/mmd_api/oai-pmh/
-  baseurl_source: declared
-  description: Live OAI-PMH 2.0 metadata harvesting interface for the Kyushu University Institutional Repository (QIR) and the library's other digital collections, run by Kyushu University Library on the university'
-  name: Kyushu University Institutional Repository (QIR) OAI-PMH
-  slug: qir-oai-pmh
 - description: Quarterly full-metadata TSV exports for the Kyushu University Library digital collections, distributed through the Handle system under the university's own 2324 prefix. Covers the institutional reposi
   name: QIR / Kyushu University Collections Bulk Metadata (TSV via Handle)
   slug: qir-bulk-tsv
@@ -62,6 +57,11 @@ apis:
 - description: Kyushu University's research computing service, operated by the Research Institute for Information Technology (RIIT) around the Genkai supercomputer. Three machine-facing portals run on the university
   name: Genkai Supercomputer System (Research Institute for Information Technology)
   slug: genkai-research-computing
+- baseURL: https://catalog.lib.kyushu-u.ac.jp/mmd/mmd_api/oai-pmh/
+  baseurl_source: declared
+  description: Verbs describing the repository itself — its identity, its metadata formats and its sets.
+  name: Kyushu University Repository API
+  slug: kyushu-repository-api
 artifact_total: 18
 common:
 - group: company
@@ -125,10 +125,10 @@ common:
   type: AITooling
   url: https://guides.lib.kyushu-u.ac.jp/AI-and-academia
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/openapi/kyushu-qir-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/openapi/_original/kyushu-qir-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/kyushu-qir-oai-pmh-openapi.yml
+  url: openapi/_original/kyushu-qir-oai-pmh-openapi.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/conformance/kyushu-conformance.yml
   title: ''
@@ -206,11 +206,11 @@ jsonld:
   property_count: 1
   slug: kyushu-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-09-16'
 name: Kyushu University
 nav: Providers
 network: true
-overview: 'Kyushu University publishes 1 API on the [APIs.io](https://apis.io/) network: Institutional Repository (QIR) OAI-PMH. Tagged areas include University, Higher Education, Education, Research, and Japan.
+overview: 'Kyushu University publishes 1 API on the [APIs.io](https://apis.io/) network: Repository API. Tagged areas include University, Higher Education, Education, Research, and Japan.
 
 
   The Kyushu University catalog on APIs.io includes 1 JSON-LD context.
@@ -221,7 +221,7 @@ plans:
 - name: Kyushu Plans Pricing
   plan_count: 2
   slug: kyushu-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Kyushu Rate Limits
@@ -266,7 +266,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

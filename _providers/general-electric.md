@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ press:
 - date: '2024-03-18'
   title: GE Vernova’s Power Conversion business to supply integrated full electric propulsion systems for the Republic of Singapore Navy’s Multi-Role Combat Vessel program
   url: https://www.ge.com/news/press-releases/ge-vernova-power-conversion-supply-integrated-full-electric-propulsion-systems-singapore-navy-multi-role-combat-vessel
-random_paper: 5
+random_paper: 16
 score:
   band: minimal
   composite: 4.5
@@ -122,7 +122,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

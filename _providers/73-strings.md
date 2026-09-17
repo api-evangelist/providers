@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
   description: The **Asset Info APIs**, a RESTful service on 73 Strings, provides detailed company insights, enabling efficient portfolio management, investment analysis, and seamless data retrieval across an organi
   name: 73 Strings Asset Info API
   slug: 73-strings-asset-info-api
-- baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
-  baseurl_source: declared
-  description: The **Captable APIs**, a RESTful service on 73 Strings, provides comprehensive capital table data including securities, equity, cash positions, and key financial metrics for entities within an organiz
-  name: 73 Strings Captable API
-  slug: 73-strings-captable-api
 - baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
   baseurl_source: declared
   description: The **Documents APIs**, a RESTful service on 73 Strings, provides a comprehensive information of the uploaded documents affiliated with the company in the funds across an organization in the 73 String
@@ -74,8 +69,13 @@ apis:
 - baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
   baseurl_source: declared
   description: The <b>Transaction APIs</b> enable external enterprise customers to <b>ingest and retrieve transaction ledger records</b> within the <b>73 Strings platform</b>.<br><br>These APIs are intended for <b>c
-  name: 73 Strings Transaction API API
+  name: 73 Strings Transaction API
   slug: 73-strings-transaction-api-api
+- baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
+  baseurl_source: declared
+  description: The **Captable APIs**, a RESTful service on 73 Strings, provides comprehensive capital table data including securities, equity, cash positions, and key financial metrics for entities within an organiz
+  name: 73 Strings cap table API
+  slug: 73-strings-cap-table-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -253,11 +253,11 @@ description: 73 Strings is an AI-powered financial technology company serving al
   Lane, Golub Capital and Broadhaven.
 image: https://backend.73strings.com/wp-content/uploads/73-Intelligence_image-1.png
 layout: provider
-modified: '2026-08-05'
+modified: '2026-09-16'
 name: 73 Strings
 nav: Providers
 network: true
-overview: '73 Strings publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Asset Info API, Captable API, Documents API, and 3 more. Tagged areas include Private Markets, Valuation, Portfolio Monitoring, Private Equity, and Private Credit.
+overview: '73 Strings publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Asset Info API, Documents API, Financial Data API, and 3 more. Tagged areas include Private Markets, Valuation, Portfolio Monitoring, Private Equity, and Private Credit.
 
 
   73 Strings'' developer surface includes authentication, documentation, API reference, signup flow, support, engineering blog, and 26 more developer resources.'
@@ -306,7 +306,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Partner/enterprise integration surface for Playroll's Employer of Record product - hire, onboard, and manage full-time employees in 180+ countries through Playroll's owned entities without your busine
@@ -109,7 +109,7 @@ modified: '2026-07-01'
 name: Playroll
 nav: Providers
 network: true
-overview: 'Playroll publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HR, Employer of Record, Global Payroll, Contractor Management, and Global Employment.
+overview: 'Playroll publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Human Resources, Employer of Record, Global Payroll, Contractor Management, and Global Employment.
 
 
   Playroll''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -117,7 +117,7 @@ plans:
 - name: Playroll Plans Pricing
   plan_count: 4
   slug: playroll-plans-pricing
-random_paper: 18
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Playroll Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -156,7 +156,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: playroll
 tags:
-- HR
+- Human Resources
 - Employer of Record
 - Global Payroll
 - Contractor Management

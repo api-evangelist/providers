@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: microsoft-sql-server-agentic-access
   summary_line: 12 operations · 7 acting
-api_count: 32
+api_count: 30
 apis:
 - description: .NET API for managing and administering SQL Server programmatically.
   name: SQL Server Management Objects (SMO) API
@@ -92,15 +92,9 @@ apis:
   description: The Data API Builder API from Microsoft SQL Server — 2 operation(s) for data api builder.
   name: Microsoft SQL Server Data API Builder API
   slug: microsoft-sql-server-data-api-builder-api
-- description: Native database engine APIs for connecting and executing queries against SQL Server.
-  name: SQL Server Database Engine API
-  slug: sql-server-database-engine-api
 - description: .NET API for programmatically managing SQL Server instances and databases.
   name: SQL Server Management Objects (SMO)
   slug: sql-server-management-objects-smo
-- description: REST API for managing and accessing SQL Server Reporting Services.
-  name: SQL Server Reporting Services (SSRS) API
-  slug: sql-server-reporting-services-ssrs-api
 - description: ODBC driver API for connecting applications to SQL Server.
   name: ODBC Driver for SQL Server
   slug: odbc-driver-for-sql-server
@@ -146,7 +140,7 @@ apis:
 - description: PowerShell cmdlets for managing SQL Server instances, databases, and resources from the command line.
   name: SQL Server PowerShell Module
   slug: sql-server-powershell-module
-artifact_total: 48
+artifact_total: 46
 collections:
 - collection_type: open
   name: API Collection
@@ -390,7 +384,7 @@ plans:
 - name: Microsoft Sql Server Plans Pricing
   plan_count: 3
   slug: microsoft-sql-server-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Sql Server Rate Limits
@@ -431,7 +425,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 17
 apis:
 - description: The shop authorization flow lets a Shopee seller grant a registered partner application access to their shop. The partner receives a per-shop access token (and refresh token) used for all subsequent v
@@ -89,6 +89,10 @@ apis:
   slug: first-mile
 artifact_total: 21
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://shopee.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/shopee/refs/heads/main/security/shopee-domain-security.yml
   title: ''
@@ -142,19 +146,19 @@ finops:
   slug: shopee-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shopee.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: Shopee
 nav: Providers
 network: true
 overview: 'Shopee publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Southeast Asia, Cross-Border, and Order.
 
 
-  Shopee''s developer surface includes documentation and 10 more developer resources.'
+  Shopee''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Shopee Plans Pricing
   plan_count: 1
   slug: shopee-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Shopee Rate Limits
@@ -184,7 +188,7 @@ score:
     - southeast-asia
   previous_composite: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -206,5 +210,5 @@ tags:
 - Product
 - Logistics
 - Shopee
-website: https://open.shopee.com/
+website: https://shopee.com
 ---

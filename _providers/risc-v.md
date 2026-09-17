@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: The canonical RISC-V Instruction Set Architecture specifications including the Unprivileged ISA (RV32I/RV64I base integer instructions) and Privileged Architecture specification. Freely available as r
@@ -147,7 +147,7 @@ modified: '2026-05-02'
 name: RISC-V International
 nav: Providers
 network: true
-overview: 'RISC-V International publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include C API, Compiler, Hardware, Instruction Set Architecture, and Linux Foundation.
+overview: 'RISC-V International publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include C API, Compilers, Hardware, Instruction Set Architecture, and Linux Foundation.
 
 
   The RISC-V International catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -158,7 +158,7 @@ plans:
 - name: Risc V Plans Pricing
   plan_count: 3
   slug: risc-v-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Risc V Rate Limits
@@ -194,7 +194,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 23.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -209,13 +209,13 @@ security:
 slug: risc-v
 tags:
 - C API
-- Compiler
+- Compilers
 - Hardware
 - Instruction Set Architecture
 - Linux Foundation
 - Open Hardware
 - Open-Source
-- Processor
+- Processors
 - RISC-V
 - Simulator
 website: https://riscv.org/

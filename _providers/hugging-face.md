@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -298,6 +298,10 @@ collections:
   name: Hugging Face Dataset Viewer Audio Users API
   slug: open-hugging-face-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://huggingface.co
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/capabilities/hugging-face-capability-edges.yml
   title: ''
@@ -1640,22 +1644,22 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Hugging Face
 nav: Providers
 network: true
-overview: 'Hugging Face publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Chat Completions API, and 18 more.
+overview: 'Hugging Face publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Chat Completions API, and 18 more. Tagged areas include Computer-Vision, Embeddings, Image-Generation, and LLM.
 
 
   The Hugging Face catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Hugging Face''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 49 more developer resources.'
+  Hugging Face''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 50 more developer resources.'
 plans:
 - name: Hugging Face Plans Pricing
   plan_count: 8
   slug: hugging-face-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Hugging Face Rate Limits
@@ -1711,11 +1715,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1769,6 +1770,11 @@ skills:
 - name: transformers-js
   slug: transformers-js
 slug: hugging-face
+tags:
+- Computer-Vision
+- Embeddings
+- Image-Generation
+- LLM
 use_cases:
 - description: Rapidly prototype AI applications by running inference on pre-trained models without infrastructure setup.
   name: ML Model Prototyping

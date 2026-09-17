@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,11 +52,6 @@ apis:
   description: Air freight bookings.
   name: Maersk AirBookings API
   slug: maersk-line-airbookings-api
-- baseURL: https://api.maersk.com
-  baseurl_source: spec
-  description: Electronic bill of lading lifecycle.
-  name: Maersk BillOfLading API
-  slug: maersk-line-billoflading-api
 - baseURL: https://api.maersk.com
   baseurl_source: spec
   description: Create and manage ocean shipment bookings.
@@ -97,6 +92,11 @@ apis:
   description: Verified Gross Mass declarations.
   name: Maersk VGM API
   slug: maersk-line-vgm-api
+- baseURL: https://api.maersk.com
+  baseurl_source: spec
+  description: Electronic bill of lading lifecycle.
+  name: Maersk Bill of Lading API
+  slug: maersk-line-bill-of-lading-api
 artifact_total: 81
 collections:
 - collection_type: open
@@ -401,7 +401,7 @@ modified: '2026-05-25'
 name: Maersk
 nav: Providers
 network: true
-overview: 'Maersk publishes 10 APIs on the [APIs.io](https://apis.io/) network, including AirBookings API, BillOfLading API, Bookings API, and 7 more. Tagged areas include Shipping, Logistics, Container Shipping, Ocean Freight, and Air Freight.
+overview: 'Maersk publishes 10 APIs on the [APIs.io](https://apis.io/) network, including AirBookings API, Bookings API, Containers API, and 7 more. Tagged areas include Shipping, Logistics, Container Shipping, Ocean Freight, and Air Freight.
 
 
   The Maersk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -412,7 +412,7 @@ plans:
 - name: Maersk Line Plans Pricing
   plan_count: 5
   slug: maersk-line-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Maersk Line Rate Limits
@@ -471,7 +471,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

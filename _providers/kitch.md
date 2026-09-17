@@ -33,7 +33,7 @@ name: Kitch
 nav: Providers
 network: true
 overview: Kitch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Food Delivery, Order Management, and Point-of-Sale.
-random_paper: 6
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitch/refs/heads/main/screenshots/kitch-2026-07-25T223859.png
 slug: kitch
 tags:

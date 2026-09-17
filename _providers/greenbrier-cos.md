@@ -33,36 +33,91 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://tankcar.gbrx.com
   baseurl_source: declared
-  description: Public, unauthenticated JSON API behind the Greenbrier Gauge Table Directory. Given a railcar reporting mark and car number it returns the car's certified gauge table — tare weight, shell full capacit
-  name: Greenbrier Tank Car Gauge Table API
-  slug: greenbrier-cos-gauge-table-api
-- baseURL: https://www.gbrx.com/wp-json
+  description: Product categories, tags, brands and attribute vocabularies.
+  name: Greenbrier Companies Catalog API
+  slug: greenbrier-cos-catalog-api
+- baseURL: https://tankcar.gbrx.com
   baseurl_source: declared
-  description: Public, unauthenticated read access to the Greenbrier railcar product catalog — the `railcars` custom post type behind www.gbrx.com and its four purpose-built taxonomies (railcar type, cargo type, flu
-  name: Greenbrier Railcar Catalog API
-  slug: greenbrier-cos-railcar-catalog-api
-- baseURL: https://www.gbrx.com/wp-json
+  description: oEmbed discovery for gbrx.com URLs.
+  name: Greenbrier Companies Discovery API
+  slug: greenbrier-cos-discovery-api
+- baseURL: https://tankcar.gbrx.com
   baseurl_source: declared
-  description: Public, unauthenticated read access to the Greenbrier aftermarket railcar parts catalog served by the WooCommerce Store API on www.gbrx.com. Verified live on 2026-09-12 at 207 products across 140 prod
-  name: Greenbrier Aftermarket Parts Store API
-  slug: greenbrier-cos-parts-store-api
-- baseURL: https://www.gbrx.com/wp-json
+  description: Downloadable Pdf, Csv and Txt renderings of a gauge table.
+  name: Greenbrier Companies Export API
+  slug: greenbrier-cos-export-api
+- baseURL: https://tankcar.gbrx.com
   baseurl_source: declared
-  description: Public, unauthenticated read access to the Greenbrier press room and Perspectives & Updates archive via the WordPress core REST API. Verified live on 2026-09-12 at 245 published posts across 3 categor
-  name: Greenbrier Press Room API
-  slug: greenbrier-cos-press-room-api
-- baseURL: https://www.gbrx.com/wp-json
+  description: Innage/outage capacity curves for a specific tank car.
+  name: Greenbrier Companies Gauge Tables API
+  slug: greenbrier-cos-gauge-tables-api
+- baseURL: https://tankcar.gbrx.com
   baseurl_source: declared
-  description: Public, unauthenticated read access to the static marketing, services, investor and policy pages of www.gbrx.com, plus the cross-content search endpoint and the oEmbed discovery endpoint. Verified liv
-  name: Greenbrier Site Content and Discovery API
-  slug: greenbrier-cos-site-content-api
-artifact_total: 10
+  description: Static site pages — services, manufacturing, leasing, investors, careers, policies.
+  name: Greenbrier Companies Pages API
+  slug: greenbrier-cos-pages-api
+- baseURL: https://tankcar.gbrx.com
+  baseurl_source: declared
+  description: Greenbrier press releases, announcements and Perspectives & Updates articles.
+  name: Greenbrier Companies Posts API
+  slug: greenbrier-cos-posts-api
+- baseURL: https://tankcar.gbrx.com
+  baseurl_source: declared
+  description: Aftermarket railcar replacement parts.
+  name: Greenbrier Companies Products API
+  slug: greenbrier-cos-products-api
+- baseURL: https://tankcar.gbrx.com
+  baseurl_source: declared
+  description: Greenbrier railcar models — covered hoppers, tank cars, gondolas, boxcars, intermodal and automotive equipment.
+  name: Greenbrier Companies Railcars API
+  slug: greenbrier-cos-railcars-api
+- baseURL: https://tankcar.gbrx.com
+  baseurl_source: declared
+  description: The railcar reporting marks for which Greenbrier holds gauge tables.
+  name: Greenbrier Companies Reporting Marks API
+  slug: greenbrier-cos-reporting-marks-api
+- baseURL: https://tankcar.gbrx.com
+  baseurl_source: declared
+  description: Cross-content search over posts, pages and railcars.
+  name: Greenbrier Companies Search API
+  slug: greenbrier-cos-search-api
+- baseURL: https://tankcar.gbrx.com
+  baseurl_source: declared
+  description: Post categories and tags.
+  name: Greenbrier Companies Taxonomies API
+  slug: greenbrier-cos-taxonomies-api
+artifact_total: 16
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/overlays/greenbrier-cos-gauge-table-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/greenbrier-cos-gauge-table-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/overlays/greenbrier-cos-railcar-catalog-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/greenbrier-cos-railcar-catalog-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/overlays/greenbrier-cos-parts-store-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/greenbrier-cos-parts-store-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/overlays/greenbrier-cos-press-room-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/greenbrier-cos-press-room-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/overlays/greenbrier-cos-site-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/greenbrier-cos-site-content-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -149,10 +204,10 @@ modified: '2026-09-12'
 name: Greenbrier Companies
 nav: Providers
 network: true
-overview: 'Greenbrier Companies publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Greenbrier Tank Car Gauge Table API, Greenbrier Railcar Catalog API, Greenbrier Aftermarket Parts Store API, and 2 more. Tagged areas include Rail, Railcars, Freight, Transportation, and Manufacturing.
+overview: 'Greenbrier Companies publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Discovery API, Export API, and 8 more. Tagged areas include Rail, Railcars, Freight, Transportation, and Manufacturing.
 
 
-  Greenbrier Companies'' developer surface includes engineering blog, support, and 14 more developer resources.'
+  Greenbrier Companies'' developer surface includes engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Greenbrier Cos Plans Pricing
   plan_count: 0
@@ -173,7 +228,7 @@ press:
 - date: '2026-05-25'
   title: Greenbrier Cos. (GBX,N) reports earnings for Qtr to Aug 31
   url: https://www.nytimes.com/1994/11/11/business/greenbrier-cos-gbxn-reports-earnings-for-qtr-to-aug-31.html
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Greenbrier Cos Rate Limits
@@ -192,7 +247,7 @@ score:
   facets:
     access_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 13.1
+    contract_quality: 13.0
     developer_ergonomics: 20.8
     discoverability: 75.9
     operational_transparency: 0.0
@@ -201,13 +256,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 5
+      derived: 11
       marker_coverage: 100.0
-      total: 5
+      total: 11
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: MODIFI's partnership API supports trade finance transaction requests, financing status evaluation, and transaction management.
@@ -41,6 +41,10 @@ apis:
   slug: modifi
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://modifi.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/modifi/refs/heads/main/security/modifi-domain-security.yml
   title: ''
@@ -62,7 +66,7 @@ finops:
   slug: modifi-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modifi.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: MODIFI
 nav: Providers
 network: true
@@ -71,7 +75,7 @@ plans:
 - name: Modifi Plans Pricing
   plan_count: 3
   slug: modifi-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Modifi Rate Limits
@@ -96,7 +100,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 11.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -114,4 +118,5 @@ tags:
 - Financing
 - Partnerships
 - Transaction
+website: https://modifi.com
 ---

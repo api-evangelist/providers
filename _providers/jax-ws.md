@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Jakarta EE specification for XML web services, formerly JSR 224 JAX-WS. Defines annotations such as @WebService, @WebMethod, and @WebParam, as well as runtime APIs for SOAP-based web service provi
@@ -76,7 +76,7 @@ modified: '2026-04-28'
 name: JAX-WS
 nav: Providers
 network: true
-overview: 'JAX-WS publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Jakarta EE, Java, JAX-WS, SOAP, and Standard.
+overview: 'JAX-WS publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Jakarta EE, Java, JAX-WS, SOAP, and Standards.
 
 
   JAX-WS''s developer surface includes documentation and 3 more developer resources.'
@@ -84,7 +84,7 @@ plans:
 - name: Jax Ws Plans Pricing
   plan_count: 3
   slug: jax-ws-plans-pricing
-random_paper: 14
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Jax Ws Rate Limits
@@ -109,7 +109,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -127,7 +127,7 @@ tags:
 - Java
 - JAX-WS
 - SOAP
-- Standard
+- Standards
 - Web Services
 - XML
 website: https://jakarta.ee/specifications/xml-web-services/

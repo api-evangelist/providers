@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,11 +46,6 @@ api_count: 1
 apis:
 - baseURL: https://storagetransfer.googleapis.com
   baseurl_source: declared
-  description: Operations for managing on-premises transfer agent pools
-  name: Google Cloud Transfer Service AgentPools API
-  slug: google-cloud-transfer-service-agentpools-api
-- baseURL: https://storagetransfer.googleapis.com
-  baseurl_source: declared
   description: Operations for managing transfer jobs
   name: Google Cloud Transfer Service TransferJobs API
   slug: google-cloud-transfer-service-transferjobs-api
@@ -59,6 +54,11 @@ apis:
   description: Operations for monitoring transfer operations
   name: Google Cloud Transfer Service TransferOperations API
   slug: google-cloud-transfer-service-transferoperations-api
+- baseURL: https://storagetransfer.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing on-premises transfer agent pools
+  name: Google Cloud Transfer Service Agent Pools API
+  slug: google-cloud-transfer-service-agent-pools-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -148,7 +148,7 @@ modified: '2026-05-19'
 name: Google Cloud Transfer Service
 nav: Providers
 network: true
-overview: 'Google Cloud Transfer Service publishes 3 APIs on the [APIs.io](https://apis.io/) network: AgentPools API, TransferJobs API, and TransferOperations API. Tagged areas include Azure, Cloud Storage, Data Transfer, Migration, and S3.
+overview: 'Google Cloud Transfer Service publishes 3 APIs on the [APIs.io](https://apis.io/) network: TransferJobs API, TransferOperations API, and Agent Pools API. Tagged areas include Azure, Cloud Storage, Data Transfer, Migration, and S3.
 
 
   The Google Cloud Transfer Service catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -159,7 +159,7 @@ plans:
 - name: Google Cloud Transfer Service Plans Pricing
   plan_count: 3
   slug: google-cloud-transfer-service-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Cloud Transfer Service Rate Limits
@@ -207,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

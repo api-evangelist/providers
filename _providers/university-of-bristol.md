@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://research-information.bris.ac.uk/ws/oai
-  baseurl_source: declared
-  description: 'The one institution-operated, keyless, machine-readable API surface the University of Bristol publishes. OAI-PMH 2.0 metadata harvesting for the University of Bristol Research Portal, served from the '
-  name: University of Bristol Research Portal OAI-PMH
-  slug: research-portal-oai-pmh
 - description: Bristol operates its own Shibboleth identity provider at idp.bris.ac.uk, publishing SAML 2.0 metadata anonymously at /idp/shibboleth (200, application/xml, 5,990 bytes) and registered in the UK Access
   name: University of Bristol Identity Provider (Shibboleth / SAML 2.0)
   slug: idp-shibboleth
@@ -54,6 +49,11 @@ apis:
 - description: TENANT RELATIONSHIP, NOT A BRISTOL CONTRACT. Bristol's library discovery layer is an OCLC WorldCat Discovery tenancy at bris.on.worldcat.org — an institution-specific subdomain on the vendor's platfor
   name: University of Bristol Library Discovery (OCLC WorldCat Discovery)
   slug: library-discovery-worldcat
+- baseURL: https://research-information.bris.ac.uk/ws/oai
+  baseurl_source: declared
+  description: OpenArchives Initiative Protocol for Metadata Harvesting 2.0 verbs.
+  name: University of Bristol OAI PMH API
+  slug: university-of-bristol-oai-pmh-api
 artifact_total: 12
 common:
 - group: company
@@ -181,7 +181,7 @@ modified: '2026-08-30'
 name: University of Bristol
 nav: Providers
 network: true
-overview: 'University of Bristol publishes 1 API on the [APIs.io](https://apis.io/) network: Research Portal OAI-PMH. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
+overview: 'University of Bristol publishes 1 API on the [APIs.io](https://apis.io/) network: OAI PMH API. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
   The University of Bristol catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -192,7 +192,7 @@ plans:
 - name: University Of Bristol Plans Pricing
   plan_count: 2
   slug: university-of-bristol-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: University Of Bristol Rate Limits
@@ -249,7 +249,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

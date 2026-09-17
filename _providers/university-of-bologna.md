@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 12
 apis:
 - description: Institution-operated CKAN open data portal serving the standard CKAN Action API over University of Bologna datasets. Verified live 2026-09-01 — https://dati.unibo.it/api/3/action/package_list returned
@@ -188,7 +188,7 @@ plans:
 - name: University Of Bologna Plans Pricing
   plan_count: 2
   slug: university-of-bologna-plans-pricing
-random_paper: 0
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: University Of Bologna Rate Limits
@@ -229,7 +229,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ modified: '2026-06-12'
 name: Semantic Scholar
 nav: Providers
 network: true
-overview: 'Semantic Scholar publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Author Data API, Incremental Updates API, Paper Data API, and 3 more. Tagged areas include Academic, Research, Papers, Citations, and Authors.
+overview: 'Semantic Scholar publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Author Data API, Incremental Updates API, Paper Data API, and 3 more. Tagged areas include Academic, Research, Paper, Citations, and Authors.
 
 
   The Semantic Scholar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -231,7 +231,7 @@ plans:
 - name: Semantic Scholar Plans Pricing
   plan_count: 3
   slug: semantic-scholar-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Semantic Scholar Rate Limits
@@ -281,7 +281,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -300,7 +300,7 @@ slug: semantic-scholar
 tags:
 - Academic
 - Research
-- Papers
+- Paper
 - Citations
 - Authors
 - Scientific Literature

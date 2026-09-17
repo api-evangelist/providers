@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -314,6 +314,10 @@ collections:
   name: Sitecore XM Cloud REST API
   slug: open-sitecore-xm-cloud-rest-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sitecore.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/capabilities/sitecore-capability-edges.yml
   title: ''
@@ -407,22 +411,22 @@ jsonld:
   property_count: 14
   slug: sitecore-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Sitecore
 nav: Providers
 network: true
-overview: 'Sitecore publishes 29 APIs on the [APIs.io](https://apis.io/) network, including CDP Stream API, Audit API, Authentication API, and 26 more.
+overview: 'Sitecore publishes 29 APIs on the [APIs.io](https://apis.io/) network, including CDP Stream API, Audit API, Authentication API, and 26 more. Tagged areas include Headless CMS, Customer Data Platform, and Content Management.
 
 
   The Sitecore catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Sitecore''s developer surface includes authentication and 10 more developer resources.'
+  Sitecore''s developer surface includes authentication and 11 more developer resources.'
 plans:
 - name: Sitecore Plans Pricing
   plan_count: 1
   slug: sitecore-plans-pricing
-random_paper: 1
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Sitecore Rate Limits
@@ -486,11 +490,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -506,4 +507,9 @@ security:
   slug: sitecore-domain-security
   summary_line: TLSv1.3 · DMARC
 slug: sitecore
+tags:
+- Headless CMS
+- Customer Data Platform
+- Content Management
+website: https://sitecore.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -100,6 +100,10 @@ collections:
   name: Oracle Database 19c - Oracle REST Data Services (ORDS) AutoREST SQL API
   slug: open-oracle-database-19c-sql-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/agentic-access/oracle-database-19c-agentic-access.yml
   title: ''
@@ -184,7 +188,7 @@ jsonld:
   property_count: 14
   slug: oracle-database-19c-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Oracle Database 19c
 nav: Providers
 network: true
@@ -194,12 +198,12 @@ overview: 'Oracle Database 19c publishes 4 APIs on the [APIs.io](https://apis.io
   The Oracle Database 19c catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Database 19c''s developer surface includes authentication, pricing, and 9 more developer resources.'
+  Oracle Database 19c''s developer surface includes authentication, pricing, and 10 more developer resources.'
 plans:
 - name: Oracle Database 19C Plans Pricing
   plan_count: 5
   slug: oracle-database-19c-plans-pricing
-random_paper: 3
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Oracle Database 19C Rate Limits
@@ -247,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -272,4 +276,5 @@ tags:
 - Oracle
 - REST
 - SQL
+website: https://oracle.com
 ---

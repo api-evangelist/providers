@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,7 +101,7 @@ name: Tamara Mellon
 nav: Providers
 network: true
 overview: Tamara Mellon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Footwear, Luxury, and Retail.
-random_paper: 20
+random_paper: 2
 scopes:
 - name: Tamara Mellon Scopes
   scope_count: 0
@@ -130,7 +130,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

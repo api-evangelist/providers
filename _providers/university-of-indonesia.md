@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: api.ui.ac.id is a Kong Enterprise 3.3.1.0 API gateway operated by the university on its own network. Every probed path — /, /v1, /status, /docs, /openapi.json, /oauth2/token, /.well-known/openid-confi
@@ -179,7 +179,7 @@ jsonld:
   property_count: 4
   slug: university-of-indonesia-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-09-16'
 name: University of Indonesia
 nav: Providers
 network: true
@@ -194,7 +194,7 @@ plans:
 - name: University Of Indonesia Plans Pricing
   plan_count: 2
   slug: university-of-indonesia-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: University Of Indonesia Rate Limits
@@ -234,7 +234,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -256,9 +256,10 @@ tags:
 - Research Repository
 - OAI-PMH
 - Identity
-- Single Sign-On
+- SSO
 - Learning Management
 - Library
 - API Gateway
+- Identity Federation
 website: https://www.ui.ac.id/
 ---

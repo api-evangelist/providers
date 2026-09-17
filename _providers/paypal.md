@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -46,15 +46,10 @@ api_count: 14
 apis:
 - baseURL: https://api-m.sandbox.paypal.com
   baseurl_source: spec
-  description: The Activate API from PayPal — 2 operation(s) for activate.
-  name: PayPal Activate API
-  slug: paypal-activate-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
   description: Use the `/authorizations` resource to show details for, capture payment for, reauthorize, and void authorized payments.
   name: PayPal Authorizations API
   slug: paypal-authorizations-api
-- baseURL: https://api-m.sandbox.paypal.com
+- baseURL: https://api-m.paypal.com/v1/reporting
   baseurl_source: spec
   description: Use the `/balances` resource to list balances.
   name: PayPal Balances API
@@ -66,24 +61,9 @@ apis:
   slug: paypal-billing-api
 - baseURL: https://api-m.sandbox.paypal.com
   baseurl_source: spec
-  description: The Cancel API from PayPal — 1 operation(s) for cancel.
-  name: PayPal Cancel API
-  slug: paypal-cancel-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
-  description: The Capture API from PayPal — 1 operation(s) for capture.
-  name: PayPal Capture API
-  slug: paypal-capture-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
   description: Use the `/captures` resource to show details for and refund a captured payment.
   name: PayPal Captures API
   slug: paypal-captures-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
-  description: The Deactivate API from PayPal — 1 operation(s) for deactivate.
-  name: PayPal Deactivate API
-  slug: paypal-deactivate-api
 - baseURL: https://api-m.sandbox.paypal.com
   baseurl_source: spec
   description: Use the `/disputes` resource with a dispute ID and an action to:<ul><li>Accept a claim.</li><li>Accept an offer to resolve a dispute.</li><li>Acknowledge the return of an item related to a dispute.</l
@@ -126,16 +106,6 @@ apis:
   slug: paypal-payouts-item-api
 - baseURL: https://api-m.sandbox.paypal.com
   baseurl_source: spec
-  description: The Plans API from PayPal — 5 operation(s) for plans.
-  name: PayPal Plans API
-  slug: paypal-plans-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
-  description: The Pricing API from PayPal — 1 operation(s) for pricing.
-  name: PayPal Pricing API
-  slug: paypal-pricing-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
   description: Use `/products` resource to create and manage products.
   name: PayPal Products API
   slug: paypal-products-api
@@ -144,16 +114,6 @@ apis:
   description: Use the `/refunds` resource to show refund details.
   name: PayPal Refunds API
   slug: paypal-refunds-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
-  description: The Revise API from PayPal — 1 operation(s) for revise.
-  name: PayPal Revise API
-  slug: paypal-revise-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
-  description: The Schemes API from PayPal — 1 operation(s) for schemes.
-  name: PayPal Schemes API
-  slug: paypal-schemes-api
 - baseURL: https://api-m.sandbox.paypal.com
   baseurl_source: spec
   description: Use the `/search-invoices` resource to search for and list invoices that match search criteria.
@@ -171,16 +131,6 @@ apis:
   slug: paypal-simulate-event-api
 - baseURL: https://api-m.sandbox.paypal.com
   baseurl_source: spec
-  description: The Subscriptions API from PayPal — 8 operation(s) for subscriptions.
-  name: PayPal Subscriptions API
-  slug: paypal-subscriptions-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
-  description: The Suspend API from PayPal — 1 operation(s) for suspend.
-  name: PayPal Suspend API
-  slug: paypal-suspend-api
-- baseURL: https://api-m.sandbox.paypal.com
-  baseurl_source: spec
   description: 'Use the `/templates` resource to create, list, show details for, update, and delete invoice templates. Use the `/templates` resource when you create a third-party invoicing application. For instance, '
   name: PayPal Templates API
   slug: paypal-templates-api
@@ -194,7 +144,7 @@ apis:
   description: Use the `/trackers-batch` resource to add tracking information for multiple PayPal transactions.
   name: PayPal Trackers-Batch API
   slug: paypal-trackers-batch-api
-- baseURL: https://api-m.sandbox.paypal.com
+- baseURL: https://api-m.paypal.com/v1/reporting
   baseurl_source: spec
   description: The Transactions API from PayPal — 2 operation(s) for transactions.
   name: PayPal Transactions API
@@ -229,7 +179,7 @@ apis:
   description: Use the `/webhooks-lookup` resource to create, list, show details for, and delete webhook lookups.
   name: PayPal Webhooks-Lookup API
   slug: paypal-webhooks-lookup-api
-artifact_total: 747
+artifact_total: 737
 collections:
 - collection_type: postman
   name: Paypal Subscriptions Authorizations Activate API
@@ -2450,7 +2400,7 @@ modified: '2026-05-30'
 name: PayPal
 nav: Providers
 network: true
-overview: 'PayPal publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Activate API, Authorizations API, Balances API, and 34 more. Tagged areas include Billing, Commerce, Disputes, Invoices, and Order.
+overview: 'PayPal publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Balances API, Billing API, and 24 more. Tagged areas include Billing, Commerce, Disputes, Invoices, and Order.
 
 
   The PayPal catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -2461,7 +2411,7 @@ plans:
 - name: Paypal Plans Pricing
   plan_count: 7
   slug: paypal-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Paypal Rate Limits
@@ -2484,7 +2434,7 @@ scopes:
   summary_line: 39 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.3
+  composite: 53.2
   coverage:
     artifact_dirs: 26
     catalog_earned: 44.3
@@ -2492,11 +2442,11 @@ score:
     catalog_gap: 70.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 55.3
     contract_governance: 9.8
-    contract_quality: 63.1
+    contract_quality: 62.5
     developer_ergonomics: 51.2
     discoverability: 66.7
     operational_transparency: 26.3
@@ -2507,7 +2457,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 38
+      total: 28
   regulatory:
     applies: true
     matched_via: tags
@@ -2515,7 +2465,7 @@ score:
     regime_id: payments
     score: 70.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

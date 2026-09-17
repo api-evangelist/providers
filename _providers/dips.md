@@ -23,19 +23,64 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
-- baseURL: https://api.dips.no/dips.oauth
-  baseurl_source: declared
-  description: DIPS Federation Service (DFS) is the OpenID Connect provider and OAuth 2.0 authorization server in front of every Open DIPS API. Built on IdentityServer4 and certified by the OpenID Foundation, it sup
-  name: DIPS Federation Service
-  slug: dips-federation-service
 - description: The DIPS HL7 FHIR R4 API exposes core clinical and administrative data from the DIPS Arena EHR — Patient, Person, RelatedPerson, Practitioner, PractitionerRole, Organization, Location, HealthcareServi
   name: DIPS FHIR R4 API
   slug: dips-fhir-r4-api
-artifact_total: 7
+- baseURL: https://api.dips.no/dips.oauth
+  baseurl_source: declared
+  description: The Account API from DIPS — 2 operation(s) for account.
+  name: DIPS Account API
+  slug: dips-account-api
+- baseURL: https://api.dips.no/dips.oauth
+  baseurl_source: declared
+  description: The Connect API from DIPS — 7 operation(s) for connect.
+  name: DIPS Connect API
+  slug: dips-connect-api
+- baseURL: https://api.dips.no/dips.oauth
+  baseurl_source: declared
+  description: The Consent API from DIPS — 1 operation(s) for consent.
+  name: DIPS Consent API
+  slug: dips-consent-api
+- baseURL: https://api.dips.no/dips.oauth
+  baseurl_source: declared
+  description: The * API from DIPS — 1 operation(s) for *.
+  name: DIPS * API
+  slug: dips-default-api
+- baseURL: https://api.dips.no/dips.oauth
+  baseurl_source: declared
+  description: The Home API from DIPS — 1 operation(s) for home.
+  name: DIPS Home API
+  slug: dips-home-api
+- baseURL: https://api.dips.no/dips.oauth
+  baseurl_source: declared
+  description: The Login API from DIPS — 1 operation(s) for login.
+  name: DIPS Login API
+  slug: dips-login-api
+- baseURL: https://api.dips.no/dips.oauth
+  baseurl_source: declared
+  description: The Status API from DIPS — 2 operation(s) for status.
+  name: DIPS Status API
+  slug: dips-status-api
+- baseURL: https://api.dips.no/dips.oauth
+  baseurl_source: declared
+  description: The .well Known API from DIPS — 2 operation(s) for .well known.
+  name: DIPS .well Known API
+  slug: dips-well-known-api
+- baseURL: https://api.dips.no/fhir
+  baseurl_source: declared
+  description: The User Role API from DIPS — 2 operation(s) for user role.
+  name: DIPS User Role API
+  slug: dips-user-role-api
+artifact_total: 15
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/overlays/dips-federation-service-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/dips-federation-service-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/security/dips-domain-security.yml
   title: ''
@@ -161,15 +206,15 @@ modified: '2026-09-02'
 name: DIPS
 nav: Providers
 network: true
-overview: 'DIPS publishes 1 API on the [APIs.io](https://apis.io/) network: Federation Service. Tagged areas include Company, Healthcare, Electronic Health Records, Health IT, and FHIR.
+overview: 'DIPS publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Connect API, Consent API, and 6 more. Tagged areas include Company, Healthcare, Electronic Health Records, Health IT, and FHIR.
 
 
-  DIPS''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, sandbox, and 19 more developer resources.'
+  DIPS''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, sandbox, and 20 more developer resources.'
 plans:
 - name: Dips Plans Pricing
   plan_count: 1
   slug: dips-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Dips Rate Limits
@@ -181,21 +226,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.0
+  composite: 53.7
   coverage:
     artifact_dirs: 19
-    catalog_earned: 45.0
+    catalog_earned: 48.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 55.3
     contract_governance: 18.2
-    contract_quality: 45.9
+    contract_quality: 46.7
     developer_ergonomics: 73.2
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -212,7 +257,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 9
     mcp: derived
     skills: derived
   regulatory:
@@ -222,7 +267,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

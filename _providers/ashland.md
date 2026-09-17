@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Ashland''s digital product finder tool enables customers to search and filter the specialty chemicals portfolio by application, industry, function, and chemistry type to identify the right ingredients '
@@ -41,6 +41,10 @@ apis:
   slug: product-finder
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ashland.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/ashland/refs/heads/main/security/ashland-domain-security.yml
   title: ''
@@ -80,14 +84,14 @@ integrations:
 - description: Ashland conducts B2B procurement and supplier management through enterprise SAP systems.
   name: SAP Supplier Portal
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Ashland
 nav: Providers
 network: true
 overview: 'Ashland publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Specialty Chemicals, Pharmaceuticals, Personal Care, and Industrial.
 
 
-  Ashland''s developer surface includes developer portal, support, and 2 more developer resources.'
+  Ashland''s developer surface includes developer portal, support, and 3 more developer resources.'
 plans:
 - name: Ashland Plans Pricing
   plan_count: 3
@@ -108,7 +112,7 @@ press:
 - date: ''
   title: Pomerantz Law Firm Investigates Claims On Behalf of ...
   url: https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-ashland-inc
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Ashland Rate Limits
@@ -138,7 +142,7 @@ score:
     - north-america
   previous_composite: 14.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -164,5 +168,5 @@ use_cases:
   name: Personal Care Product Development
 - description: Manufacturers incorporate Ashland specialties into coatings, adhesives, construction materials, and oilfield applications for performance enhancement.
   name: Industrial Applications
-website: https://www.ashland.com/
+website: https://ashland.com
 ---

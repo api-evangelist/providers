@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Clearskies Customer Context Graph exposed as a single remote Model Context Protocol server. Connected AI clients (Claude, ChatGPT, Cursor, n8n, Retool) query unified, identity-resolved customer co
@@ -185,7 +185,7 @@ plans:
 - name: Scratchpad Plans Pricing
   plan_count: 0
   slug: scratchpad-plans-pricing
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Scratchpad Rate Limits
@@ -218,7 +218,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

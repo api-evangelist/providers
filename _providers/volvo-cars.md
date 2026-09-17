@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Receive vehicle data and send commands to the vehicle. Vehicle data covers status, diagnostics, statistics, and metadata — including odometer, fuel amount, tyre pressures, brake status, engine status,
@@ -49,6 +49,10 @@ apis:
   slug: volvo-cars-energy-device-api
 artifact_total: 18
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://volvocars.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/volvo-cars/refs/heads/main/security/volvo-cars-domain-security.yml
   title: ''
@@ -196,15 +200,15 @@ features:
 - Open Source Program Office and an active GitHub organization (developer-portal-api-samples, automotive-media-sample, web-platform-examples, and more).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/volvo-cars.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: Volvo Cars
 nav: Providers
 network: true
-overview: 'Volvo Cars publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connected Vehicle API, Energy API, and Location API. Tagged areas include Automotive, Connected Vehicle, Electric Vehicles, Telematics, and Android Automotive.
+overview: 'Volvo Cars publishes 3 APIs on the [APIs.io](https://apis.io/) network: Connected Vehicle API, Energy API, and Location API. Tagged areas include Automotive, Connected Vehicles, Electric Vehicles, Telematics, and Android Automotive.
 
 
-  Volvo Cars'' developer surface includes developer portal, documentation, getting-started guide, engineering blog, code examples, tooling, support, and 21 more developer resources.'
-random_paper: 7
+  Volvo Cars'' developer surface includes developer portal, documentation, getting-started guide, engineering blog, code examples, tooling, support, and 22 more developer resources.'
+random_paper: 2
 score:
   band: thin
   composite: 29.7
@@ -233,7 +237,7 @@ score:
     - nordics
   previous_composite: 29.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -248,12 +252,12 @@ security:
 slug: volvo-cars
 tags:
 - Automotive
-- Connected Vehicle
+- Connected Vehicles
 - Electric Vehicles
 - Telematics
 - Android Automotive
 - OEM
 - Mobility
 - Sweden
-website: https://developer.volvocars.com/
+website: https://volvocars.com
 ---

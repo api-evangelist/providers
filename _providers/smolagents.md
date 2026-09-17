@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The core smolagents Python library providing CodeAgent and ToolCallingAgent classes for building AI agents that write Python code or structured JSON to call tools and orchestrate multi-agent systems. '
@@ -167,7 +167,7 @@ plans:
 - name: Smolagents Plans Pricing
   plan_count: 5
   slug: smolagents-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 21
   name: Smolagents Rate Limits
@@ -195,7 +195,7 @@ score:
     score: 100.0
   previous_composite: 39.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

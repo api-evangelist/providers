@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://iqsms.airtel.in/api/v1
   baseurl_source: declared
   description: <strong>Call Detail Record (CDR)</strong> is the detailed record of the call, which contains various call details such as Time, Date, Duration, Caller_ID, Destination_Number, Status, recording URL, et
-  name: Bharti Airtel Airtel IQ Sample CDR(Call Data Record) API
+  name: Bharti Airtel IQ Sample CDR(Call Data Record) API
   slug: bharti-airtel-airtel-iq-sample-cdr-call-data-record-api-api
 - baseURL: https://iqsms.airtel.in/api/v1
   baseurl_source: declared
@@ -362,18 +362,18 @@ description: 'Bharti Airtel Limited is an Indian multinational telecommunication
   complete OpenAPI 3.0 catalogues (43 and 19 operations) as Redoc pages that need no login. The network-API side — the CAMARA and GSMA Open Gateway surface that defines this sector — is the opposite: Airtel is a GSMA Open Gateway signatory, a founding operator shareholder in Aduna (the Ericsson-led network-API joint venture), and has commercially launched a CAMARA SIM Swap API to Indian banks through a federated Jio/Vi/Airtel channel, yet it publishes no CAMARA endpoint, no CAMARA specification, no CIBA authorization surface and no network-API developer portal of its own. Developers reach Airtel''s network capabilities only through aggregators — Aduna, and Nokia''s Network as Code platform — never directly. Its own "Airtel API Marketplace" at developers.airtel.in is a login wall, and its original 2017 Smart API partner programme at openapi.airtel.in/smartapi survives as an unmaintained legacy portal.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Bharti Airtel
 nav: Providers
 network: true
-overview: 'Bharti Airtel publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Authorization API, Account Details API, Airtel IQ Sample CDR(Call Data Record) API, and 16 more. Tagged areas include Telecommunications, India, Mobile Network Operator, Network APIs, and CAMARA.
+overview: 'Bharti Airtel publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Authorization API, Account Details API, IQ Sample CDR(Call Data Record) API, and 16 more. Tagged areas include Telecommunications, India, Mobile Network Operator, Network APIs, and CAMARA.
 
 
   The Bharti Airtel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Bharti Airtel''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, developer console, and 35 more developer resources.'
-random_paper: 18
+random_paper: 0
 scopes:
 - name: Bharti Airtel Scopes
   scope_count: 4
@@ -381,7 +381,7 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode/implicit
 score:
   band: developing
-  composite: 50.3
+  composite: 49.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 32.0
@@ -389,11 +389,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 58.5
+    contract_quality: 56.9
     developer_ergonomics: 56.5
     discoverability: 66.7
     operational_transparency: 7.9
@@ -422,7 +422,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -463,5 +463,6 @@ tags:
 - Identity Verification
 - Carrier Billing
 - Consent Management
+- Machine-to-Machine
 website: https://www.airtel.in/
 ---

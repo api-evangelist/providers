@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Fiix CMMS API provides programmatic access to maintenance management data including assets, work orders, purchase orders, parts inventory, users, and maintenance schedules. Supports CRUD operation
@@ -106,7 +106,7 @@ overview: 'Fiix Software publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Fiix Software''s developer surface includes documentation, engineering blog, YouTube channel, pricing, support, and 6 more developer resources.'
-random_paper: 8
+random_paper: 10
 score:
   band: emerging
   composite: 18.3
@@ -127,7 +127,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

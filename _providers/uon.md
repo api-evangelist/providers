@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: UON's institutional identity provider, publishing machine-readable SAML 2.0 metadata at a stable URL. entityID https://idp.newcastle.edu.au/idp/shibboleth, shibmd:Scope newcastle.edu.au, SingleSignOnS
@@ -137,7 +137,7 @@ plans:
 - name: Uon Plans Pricing
   plan_count: 2
   slug: uon-plans-pricing
-random_paper: 2
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Uon Rate Limits
@@ -177,7 +177,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -205,6 +205,6 @@ tags:
 - Research Repository
 - Course Catalog
 - DataCite
-- Tenant
+- Tenants
 website: https://www.newcastle.edu.au/
 ---

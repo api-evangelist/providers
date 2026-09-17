@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -287,7 +287,7 @@ modified: '2026-08-26'
 name: Selenium
 nav: Providers
 network: true
-overview: 'Selenium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cookies API, Elements API, Navigation API, and 3 more. Tagged areas include Automation, Browsers, End-to-End Testing, Quality Assurance, and Testing.
+overview: 'Selenium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cookies API, Elements API, Navigation API, and 3 more. Tagged areas include Automation, Browser, End-to-End Testing, Quality Assurance, and Testing.
 
 
   The Selenium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -298,7 +298,7 @@ plans:
 - name: Selenium Plans Pricing
   plan_count: 0
   slug: selenium-plans-pricing
-random_paper: 5
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Selenium Rate Limits
@@ -333,7 +333,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -351,7 +351,7 @@ security:
 slug: selenium
 tags:
 - Automation
-- Browsers
+- Browser
 - End-to-End Testing
 - Quality Assurance
 - Testing

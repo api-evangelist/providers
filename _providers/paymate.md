@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Legacy India API (PMXClients service). Twelve JSON-over-POST methods let a business add vendors and customers as contacts, book and approve vendor payments, raise collection requests, generate hosted '
@@ -211,7 +211,7 @@ plans:
 - name: Paymate Plans Pricing
   plan_count: 6
   slug: paymate-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Paymate Rate Limits
@@ -258,7 +258,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

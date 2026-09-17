@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -107,6 +107,10 @@ collections:
   name: Space-Track Ancillary Tracking and Impact Prediction API
   slug: open-spacetrack-tracking-and-impact-prediction-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://space-track.org
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/spacetrack/refs/heads/main/agentic-access/spacetrack-agentic-access.yml
   title: ''
@@ -199,22 +203,22 @@ jsonld:
   property_count: 43
   slug: context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Space-Track
 nav: Providers
 network: true
-overview: 'Space-Track publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ancillary API, Authentication API, Conjunction Data API, and 4 more. Tagged areas include Space, Satellites, TLE, Orbital Data, and Space Surveillance.
+overview: 'Space-Track publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ancillary API, Authentication API, Conjunction Data API, and 4 more. Tagged areas include Space, Satellite, TLE, Orbital Data, and Space Surveillance.
 
 
   The Space-Track catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Space-Track''s developer surface includes authentication, developer portal, documentation, and 11 more developer resources.'
+  Space-Track''s developer surface includes authentication, developer portal, documentation, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -257,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -275,12 +279,12 @@ security:
 slug: spacetrack
 tags:
 - Space
-- Satellites
+- Satellite
 - TLE
 - Orbital Data
 - Space Surveillance
 - Debris Tracking
 - Conjunction Data
 - US Military
-website: https://www.space-track.org
+website: https://space-track.org
 ---

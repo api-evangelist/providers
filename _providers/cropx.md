@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Cloud Farm Management Software for growers and agronomists. Modules cover farm / field / crop data, device management, irrigation scheduling, disease monitoring, nutrition tracking, effluent managemen
@@ -92,7 +92,7 @@ plans:
 - name: Cropx Plans Pricing
   plan_count: 1
   slug: cropx-plans-pricing
-random_paper: 10
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Cropx Rate Limits
@@ -119,7 +119,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

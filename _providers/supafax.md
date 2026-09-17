@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -105,11 +105,11 @@ modified: '2026-07-21'
 name: Supafax
 nav: Providers
 network: true
-overview: 'Supafax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Calendar, AI Assistant, and AI Agent.
+overview: 'Supafax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Calendar, AI Assistant, and AI Agents.
 
 
   Supafax''s developer surface includes pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
   band: emerging
   composite: 18.1
@@ -130,7 +130,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -156,7 +156,7 @@ tags:
 - Email
 - Calendar
 - AI Assistant
-- AI Agent
+- AI Agents
 - Email Automation
 - Productivity
 - Y Combinator

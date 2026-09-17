@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Access Bloomberg ESG scores, environmental metrics, social indicators, and governance data for thousands of publicly listed companies globally. Data sourced directly from company disclosures and stand
@@ -47,6 +47,10 @@ apis:
   slug: green-bond-data
 artifact_total: 18
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -97,19 +101,19 @@ finops:
   slug: bloomberg-esg-products-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-esg-products.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg ESG Products
 nav: Providers
 network: true
 overview: 'Bloomberg ESG Products publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ESG, Sustainability, Environmental Data, Social Data, and Governance Data.
 
 
-  Bloomberg ESG Products'' developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg ESG Products'' developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Esg Products Plans Pricing
   plan_count: 3
   slug: bloomberg-esg-products-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Bloomberg Esg Products Rate Limits
@@ -134,7 +138,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -166,5 +170,5 @@ use_cases:
   name: Sustainable Product Development
 - description: Assess and disclose climate-related financial risks in portfolios.
   name: Climate Risk Assessment
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

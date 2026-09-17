@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: Asynchronous payouts designed for Money Transfer Organizations (MTOs) and disbursement partners. Partners create payments to mobile money wallets, cash pickup points, and bank accounts; results are de
@@ -167,11 +167,11 @@ modified: '2026-05-24'
 name: Onafriq
 nav: Providers
 network: true
-overview: 'Onafriq publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Mobile Money, Remittance, Cross-Border Payments, and Disbursements.
+overview: 'Onafriq publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Mobile Money, Remittances, Cross-Border Payments, and Disbursements.
 
 
   Onafriq''s developer surface includes developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 10.4
@@ -205,7 +205,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -225,7 +225,7 @@ slug: onafriq
 tags:
 - Payments
 - Mobile Money
-- Remittance
+- Remittances
 - Cross-Border Payments
 - Disbursements
 - Payouts

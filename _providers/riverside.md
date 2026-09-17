@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-05-19'
 name: Riverside
 nav: Providers
 network: true
-overview: 'Riverside publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Exports API, Productions API, Recordings API, and 1 more. Tagged areas include Podcast, Video Recording, Media, Content Creation, and Audio.
+overview: 'Riverside publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Exports API, Productions API, Recordings API, and 1 more. Tagged areas include Podcasts, Video Recording, Media, Content Creation, and Audio.
 
 
   The Riverside catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -213,7 +213,7 @@ plans:
 - name: Riverside Plans Pricing
   plan_count: 3
   slug: riverside-plans-pricing
-random_paper: 7
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Riverside Rate Limits
@@ -267,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -284,7 +284,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: riverside
 tags:
-- Podcast
+- Podcasts
 - Video Recording
 - Media
 - Content Creation

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 62.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -46,11 +46,6 @@ agentic_access:
   summary_line: 186 operations · 112 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- baseURL: https://api.instantly.ai/api/v2/campaigns
-  baseurl_source: declared
-  description: The Campaigns API from Instantly — 10 operation(s) for campaigns.
-  name: Instantly Campaigns API
-  slug: instantly-ai-campaigns-api
 - baseURL: https://api.instantly.ai/api/v2
   baseurl_source: declared
   description: An email account that can be used to send campaigns
@@ -66,21 +61,6 @@ apis:
   description: Endpoints related to analytics
   name: Instantly Analytics API
   slug: instantly-ai-analytics-api
-- baseURL: https://api.instantly.ai/api/v2
-  baseurl_source: declared
-  description: API Key
-  name: Instantly API Key API
-  slug: instantly-ai-apikey-api
-- baseURL: https://api.instantly.ai/api/v2
-  baseurl_source: declared
-  description: Audit log records for tracking system activities
-  name: Instantly Audit Log API
-  slug: instantly-ai-auditlog-api
-- baseURL: https://api.instantly.ai/api/v2
-  baseurl_source: declared
-  description: A background job that can be used to perform long-running tasks
-  name: Instantly Background Job API
-  slug: instantly-ai-backgroundjob-api
 - baseURL: https://api.instantly.ai/api/v2
   baseurl_source: declared
   description: A blocked email or domain
@@ -123,11 +103,6 @@ apis:
   slug: instantly-ai-email-api
 - baseURL: https://api.instantly.ai/api/v2
   baseurl_source: declared
-  description: A single email verification
-  name: Instantly Email Verification API
-  slug: instantly-ai-emailverification-api
-- baseURL: https://api.instantly.ai/api/v2
-  baseurl_source: declared
   description: Analytics data for individual emails in inbox placement tests
   name: Instantly Inbox Placement Analytics API
   slug: instantly-ai-inboxplacementanalytics-api
@@ -158,11 +133,6 @@ apis:
   slug: instantly-ai-leadlist-api
 - baseURL: https://api.instantly.ai/api/v2
   baseurl_source: declared
-  description: OAuth authentication endpoints for connecting Google and Microsoft email accounts
-  name: Instantly O Auth API
-  slug: instantly-ai-oauth-api
-- baseURL: https://api.instantly.ai/api/v2
-  baseurl_source: declared
   description: An enrichment can take different forms, such as email enrichment or LinkedIn enrichment. Leads may be imported from SuperSearch using the dedicated endpoint, or enriched directly within a list or camp
   name: Instantly Super Search Enrichment API
   slug: instantly-ai-supersearchenrichment-api
@@ -171,11 +141,6 @@ apis:
   description: A webhook subscription for receiving event notifications
   name: Instantly Webhook API
   slug: instantly-ai-webhook-api
-- baseURL: https://api.instantly.ai/api/v2
-  baseurl_source: declared
-  description: A webhook event that was sent or attempted to be sent
-  name: Instantly Webhook Event API
-  slug: instantly-ai-webhookevent-api
 - baseURL: https://api.instantly.ai/api/v2
   baseurl_source: declared
   description: A workspace entity representing a workspace
@@ -196,7 +161,37 @@ apis:
   description: A member of a workspace with associated user details
   name: Instantly Workspace Member API
   slug: instantly-ai-workspacemember-api
-artifact_total: 43
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: OAuth authentication endpoints for connecting Google and Microsoft email accounts
+  name: Instantly O Auth API
+  slug: instantly-ai-oauth-api
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: API Key
+  name: Instantly API Key API
+  slug: instantly-ai-api-key-api
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: Audit log records for tracking system activities
+  name: Instantly Audit Log API
+  slug: instantly-ai-audit-log-api
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A background job that can be used to perform long-running tasks
+  name: Instantly Background Job API
+  slug: instantly-ai-background-job-api
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A single email verification
+  name: Instantly Email Verification API
+  slug: instantly-ai-email-verification-api
+- baseURL: https://api.instantly.ai/api/v2
+  baseurl_source: declared
+  description: A webhook event that was sent or attempted to be sent
+  name: Instantly Webhook Event API
+  slug: instantly-ai-webhook-event-api
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Instantly Ai Webhooks
@@ -452,7 +447,7 @@ modified: '2026-08-13'
 name: Instantly
 nav: Providers
 network: true
-overview: 'Instantly publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Account API, Account Campaign Mapping API, and 27 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Lead Database.
+overview: 'Instantly publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Campaign Mapping API, Analytics API, and 26 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Lead Database.
 
 
   The Instantly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -463,7 +458,7 @@ plans:
 - name: Instantly Ai Plans Pricing
   plan_count: 13
   slug: instantly-ai-plans-pricing
-random_paper: 6
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Instantly Ai Rate Limits
@@ -487,7 +482,7 @@ score:
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 70.1
+    contract_quality: 70.3
     developer_ergonomics: 78.6
     discoverability: 81.5
     operational_transparency: 50.0
@@ -499,11 +494,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 30
+      total: 29
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

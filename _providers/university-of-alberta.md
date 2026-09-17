@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: The university's own SAML 2.0 identity provider metadata document, served from its own domain. It declares entityID https://login.ualberta.ca/saml2/idp/metadata.php, an IDPSSODescriptor with SingleSig
@@ -205,7 +205,7 @@ plans:
 - name: University Of Alberta Plans Pricing
   plan_count: 2
   slug: university-of-alberta-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: University Of Alberta Rate Limits
@@ -245,7 +245,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

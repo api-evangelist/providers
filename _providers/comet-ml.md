@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'The Comet REST API exposes read endpoints (workspace, project, experiment data), write endpoints (data submission), and Model Production Monitoring (MPM) endpoints. Authentication uses an API key via '
@@ -133,7 +133,7 @@ modified: '2026-05-19'
 name: Comet
 nav: Providers
 network: true
-overview: 'Comet publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ML, MLOps, GenAI, Experiment Tracking, and Model Monitoring.
+overview: 'Comet publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include MLS, MLOps, Generative AI, Experiment Tracking, and Model Monitoring.
 
 
   Comet''s developer surface includes developer portal, pricing, engineering blog, and 14 more developer resources.'
@@ -141,7 +141,7 @@ plans:
 - name: Comet Ml Plans Pricing
   plan_count: 1
   slug: comet-ml-plans-pricing
-random_paper: 0
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Comet Ml Rate Limits
@@ -171,7 +171,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -195,9 +195,9 @@ skills:
   slug: opik
 slug: comet-ml
 tags:
-- ML
+- MLS
 - MLOps
-- GenAI
+- Generative AI
 - Experiment Tracking
 - Model Monitoring
 website: https://www.comet.com/

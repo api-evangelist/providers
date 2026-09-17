@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 1
@@ -252,11 +252,6 @@ apis:
   slug: increase-lockbox-recipients-api
 - baseURL: https://api.increase.com
   baseurl_source: declared
-  description: The Oauth API from Increase — 1 operation(s) for oauth.
-  name: Increase Oauth API
-  slug: increase-oauth-api
-- baseURL: https://api.increase.com
-  baseurl_source: declared
   description: The Oauth Applications API from Increase — 2 operation(s) for oauth applications.
   name: Increase Oauth Applications API
   slug: increase-oauth-applications-api
@@ -328,8 +323,13 @@ apis:
 - baseURL: https://api.increase.com
   baseurl_source: declared
   description: The Increase API API from Increase — 0 operation(s) for increase api.
-  name: Increase Increase API
+  name: Increase API
   slug: increase-increase-api-api
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Oauth API from Increase — 1 operation(s) for oauth.
+  name: Increase OAUTH API
+  slug: increase-oauth-api
 artifact_total: 122
 collections:
 - collection_type: open
@@ -603,7 +603,7 @@ finops:
   slug: increase-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/increase.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-09-16'
 name: Increase
 nav: Providers
 network: true
@@ -615,7 +615,7 @@ plans:
 - name: Increase Plans Pricing
   plan_count: 1
   slug: increase-plans-pricing
-random_paper: 2
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Increase Rate Limits
@@ -653,7 +653,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

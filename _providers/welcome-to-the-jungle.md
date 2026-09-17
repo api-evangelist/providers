@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: REST API over Welcome to the Jungle Solutions recruiting and employer-branding data. Bearer-token (OAuth access token) authentication with a published scope model, JSON request and response bodies, pa
@@ -187,7 +187,7 @@ plans:
 - name: Welcome To The Jungle Plans Pricing
   plan_count: 0
   slug: welcome-to-the-jungle-plans-pricing
-random_paper: 18
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Welcome To The Jungle Rate Limits
@@ -228,7 +228,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -252,7 +252,6 @@ tags:
 - Job
 - Employer Branding
 - Talent Acquisition
-- HR Tech
 - France
 website: https://www.welcometothejungle.com/en
 ---

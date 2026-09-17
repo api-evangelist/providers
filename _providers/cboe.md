@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Cboe LiveVol All Access API is a REST API suite offering quote and trade details for equities and options via live, delayed, and historical endpoints. Endpoint groups cover Market at a Glance (opt
@@ -182,7 +182,7 @@ plans:
 - name: Cboe Plans Pricing
   plan_count: 3
   slug: cboe-plans-pricing
-random_paper: 10
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Cboe Rate Limits
@@ -221,7 +221,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -245,7 +245,7 @@ tags:
 - Derivatives
 - Volatility
 - Financial Markets
-- Exchanges
+- Exchange
 - Trading
 website: https://www.cboe.com/
 ---

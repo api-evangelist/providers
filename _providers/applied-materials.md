@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ press:
 - date: '2026-05-25'
   title: Applied Materials Debuts New Gear For Making AI Chips
   url: https://www.investors.com/news/technology/amat-stock-applied-materials-new-gear-ai-chips/
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Applied Materials Rate Limits
@@ -249,7 +249,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

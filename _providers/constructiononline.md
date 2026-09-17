@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the ConstructionOnline platform that lets approved Business and Enterprise customers programmatically read and write projects, contacts, schedules, daily logs, change orders, budgets, and
@@ -110,7 +110,7 @@ plans:
 - name: Constructiononline Plans Pricing
   plan_count: 3
   slug: constructiononline-plans-pricing
-random_paper: 15
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Constructiononline Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 17.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

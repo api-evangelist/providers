@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Hoplite platform API at api.hoplite.sh. Documented through the developer docs (no public OpenAPI published as of this profiling). Surfaces include model-provider discovery (GET /api/model-provider
@@ -156,7 +156,7 @@ overview: 'Hoplite publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Hoplite''s developer surface includes documentation, getting-started guide, pricing, signup flow, CLI, authentication, and 14 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: thin
   composite: 36.4
@@ -180,7 +180,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

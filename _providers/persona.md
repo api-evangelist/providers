@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 28
   slug: persona-agentic-access
   summary_line: 28 operations · 18 acting
-api_count: 1
+api_count: 8
 apis:
 - baseURL: https://withpersona.com/api/v1
   baseurl_source: declared
@@ -80,41 +80,41 @@ apis:
   description: Manage webhook subscriptions for asynchronous event delivery.
   name: Persona Webhooks API
   slug: persona-webhooks-api
-- baseURL: https://api.withpersona.com/api/v1
+- baseURL: https://withpersona.com/api/v1
   baseurl_source: declared
   description: Grouped Persona objects for manual review.
   name: Persona Cases API
-  slug: withpersona-cases-api
-- baseURL: https://api.withpersona.com/api/v1
+  slug: persona-cases-api
+- baseURL: https://withpersona.com/api/v1
   baseurl_source: declared
   description: Device-intelligence records.
   name: Persona Devices API
-  slug: withpersona-devices-api
-- baseURL: https://api.withpersona.com/api/v1
+  slug: persona-devices-api
+- baseURL: https://withpersona.com/api/v1
   baseurl_source: declared
   description: Files collected during verification.
   name: Persona Documents API
-  slug: withpersona-documents-api
-- baseURL: https://api.withpersona.com/api/v1
+  slug: persona-documents-api
+- baseURL: https://withpersona.com/api/v1
   baseurl_source: declared
   description: Immutable record of everything that happens in an account.
   name: Persona Events API
-  slug: withpersona-events-api
-- baseURL: https://api.withpersona.com/api/v1
+  slug: persona-events-api
+- baseURL: https://withpersona.com/api/v1
   baseurl_source: declared
   description: Bulk-load data into Persona lists.
   name: Persona Importers API
-  slug: withpersona-importers-api
-- baseURL: https://api.withpersona.com/api/v1
+  slug: persona-importers-api
+- baseURL: https://withpersona.com/api/v1
   baseurl_source: declared
   description: Individual sessions within an Inquiry.
   name: Persona Inquiry Sessions API
-  slug: withpersona-inquiry-sessions-api
-- baseURL: https://api.withpersona.com/api/v1
+  slug: persona-inquiry-sessions-api
+- baseURL: https://withpersona.com/api/v1
   baseurl_source: declared
   description: Automation runs triggered by verification results or events.
   name: Persona Workflows API
-  slug: withpersona-workflows-api
+  slug: persona-workflows-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -252,28 +252,28 @@ plans:
 - name: Persona Plans Pricing
   plan_count: 3
   slug: persona-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Persona Rate Limits
   slug: persona-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 43.3
   coverage:
     artifact_dirs: 11
-    catalog_earned: 41.0
+    catalog_earned: 44.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 61.8
     contract_governance: 0.0
-    contract_quality: 51.6
+    contract_quality: 54.9
     developer_ergonomics: 41.7
-    discoverability: 66.7
+    discoverability: 72.2
     operational_transparency: 18.4
   previous_composite: 42.0
   provenance:
@@ -284,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

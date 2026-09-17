@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Bloomberg Open API (BLPAPI) provides programmatic access to Bloomberg's market data, reference data, historical data and intraday tick data. It is an event-driven session protocol rather than an H
@@ -45,6 +45,10 @@ apis:
   slug: bloomberg-data-license
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -191,19 +195,19 @@ finops:
   slug: bloomberg-data-sets-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-data-sets.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Data Sets
 nav: Providers
 network: true
 overview: 'Bloomberg Data Sets publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Datasets, Financial-Services, Market Data, and Reference Data.
 
 
-  Bloomberg Data Sets'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 23 more developer resources.'
+  Bloomberg Data Sets'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 24 more developer resources.'
 plans:
 - name: Bloomberg Data Sets Plans Pricing
   plan_count: 0
   slug: bloomberg-data-sets-plans-pricing
-random_paper: 10
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Bloomberg Data Sets Rate Limits
@@ -242,7 +246,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -272,5 +276,5 @@ tags:
 - Historical Data
 - Financial Data
 - Data Licensing
-website: https://professional.bloomberg.com/support/api-library/
+website: https://bloomberg.com
 ---

@@ -24,7 +24,7 @@ created: '2026-07-17'
 description: 'Packfleet was an all-electric last-mile parcel courier based in London, delivering for hundreds of merchant customers using a zero-emission electric-van fleet with a focus on sustainable, reliable next-day delivery. Backed by Creandum as a venture-funded climate-logistics company, Packfleet wound down its independent brand in March 2025, with its deliveries transitioned to DHL. No public developer API, documentation, or developer portal was ever published; this profile is retained as a network record. Enriched: no API surface (company now operates as DHL).'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/packfleet.png
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Packfleet
 nav: Providers
 network: true
@@ -46,5 +46,6 @@ tags:
 - Couriers
 - Electric Vehicles
 - Sustainability
+- Defunct
 website: https://packfleet.com/
 ---

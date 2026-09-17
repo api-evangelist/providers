@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: GraphQL API for programmatically querying and mutating content in BaseHub repositories. Authenticated via x-basehub-token header, with a TypeScript-native SDK that generates type-safe clients from the
@@ -100,7 +100,7 @@ overview: 'BaseHub publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   BaseHub''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: emerging
   composite: 22.2
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

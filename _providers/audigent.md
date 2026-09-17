@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Public, anonymous identity-resolution endpoint that returns Audigent's cookieless Hadron ID (plus hadronIdv2 and the legacy haloId) for the calling browser. Called by the Prebid.js hadronIdSystem user
@@ -196,7 +196,7 @@ plans:
 - name: Audigent Plans Pricing
   plan_count: 0
   slug: audigent-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Audigent Rate Limits
@@ -226,7 +226,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -250,7 +250,7 @@ tags:
 - Data
 - Identity
 - Programmatic
-- Audience
+- Audiences
 - Marketing
 - Privacy
 - Prebid

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The HAL+JSON REST API of ANU's self-hosted DSpace 7.6.7 repository, reachable anonymously at /server/api for the root and discovery resources; /server/api/core/items returns 401, so the surface is gen
@@ -132,10 +132,10 @@ common:
   type: Policies
   url: https://policies.anu.edu.au/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-quantum-numbers-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/_original/anu-quantum-numbers-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/anu-quantum-numbers-openapi.yml
+  url: openapi/_original/anu-quantum-numbers-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/json-schema/anu-quantum-numbers-response-schema.json
   title: ''
@@ -242,7 +242,7 @@ jsonld:
   property_count: 7
   slug: anu-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: Australian National University
 nav: Providers
 network: true
@@ -257,7 +257,7 @@ plans:
 - name: Anu Plans Pricing
   plan_count: 3
   slug: anu-plans-pricing
-random_paper: 9
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Anu Rate Limits
@@ -318,7 +318,7 @@ score:
     regime_id: education
     score: 79.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

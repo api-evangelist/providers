@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -101,11 +101,6 @@ apis:
   slug: ocrolus-legacy-cash-flow-analytics-deprecated-api
 - baseURL: https://api.ocrolus.com
   baseurl_source: declared
-  description: The Oauth API from Ocrolus — 1 operation(s) for oauth.
-  name: Ocrolus Oauth API
-  slug: ocrolus-oauth-api
-- baseURL: https://api.ocrolus.com
-  baseurl_source: declared
   description: The Org Level Webhooks API from Ocrolus — 8 operation(s) for org level webhooks.
   name: Ocrolus Org Level Webhooks API
   slug: ocrolus-org-level-webhooks-api
@@ -124,6 +119,11 @@ apis:
   description: The Webhooks API from Ocrolus — 4 operation(s) for webhooks.
   name: Ocrolus Webhooks API
   slug: ocrolus-webhooks-api
+- baseURL: https://api.ocrolus.com
+  baseurl_source: declared
+  description: The Oauth API from Ocrolus — 1 operation(s) for oauth.
+  name: Ocrolus OAUTH API
+  slug: ocrolus-oauth-api
 artifact_total: 56
 asyncapis:
 - description: ''
@@ -451,7 +451,7 @@ overview: 'Ocrolus publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Ocrolus'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 38 more developer resources.'
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Ocrolus Rate Limits
@@ -470,7 +470,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 61.4
+    contract_quality: 61.3
     developer_ergonomics: 42.3
     discoverability: 81.5
     operational_transparency: 69.7
@@ -500,7 +500,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

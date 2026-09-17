@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Provision and manage employees in an Awardco instance. Awardco's public documentation names Create User, Import Users (bulk), and Reset User Password endpoints, all flagged as sensitive and permission
@@ -103,7 +103,7 @@ modified: '2026-07-10'
 name: Awardco
 nav: Providers
 network: true
-overview: 'Awardco publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employee Recognition, Rewards, Engagement, HR Tech, and Incentives.
+overview: 'Awardco publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employee Recognition, Rewards, Engagement, Human Resources, and Incentives.
 
 
   Awardco''s developer surface includes documentation, authentication, engineering blog, and 6 more developer resources.'
@@ -111,7 +111,7 @@ plans:
 - name: Awardco Plans Pricing
   plan_count: 6
   slug: awardco-plans-pricing
-random_paper: 2
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Awardco Rate Limits
@@ -138,7 +138,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -155,7 +155,7 @@ tags:
 - Employee Recognition
 - Rewards
 - Engagement
-- HR Tech
+- Human Resources
 - Incentives
 - Points
 website: https://www.awardco.com

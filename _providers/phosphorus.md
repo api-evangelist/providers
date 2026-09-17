@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 24.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://{tenant}.phosphorus.io
@@ -185,7 +185,7 @@ plans:
 - name: Phosphorus Plans Pricing
   plan_count: 0
   slug: phosphorus-plans-pricing
-random_paper: 2
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Phosphorus Rate Limits
@@ -219,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

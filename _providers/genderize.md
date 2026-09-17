@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ modified: '2026-06-13'
 name: Genderize.io
 nav: Providers
 network: true
-overview: 'Genderize.io publishes 1 API on the [APIs.io](https://apis.io/) network: Gender Prediction API. Tagged areas include Gender, Name, Prediction, Demographics, and Machine-Learning.
+overview: 'Genderize.io publishes 1 API on the [APIs.io](https://apis.io/) network: Gender Prediction API. Tagged areas include Gender, Name, Predictions, Demographics, and Machine-Learning.
 
 
   The Genderize.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -173,7 +173,7 @@ plans:
 - name: Genderize Plans Pricing
   plan_count: 3
   slug: genderize-plans-pricing
-random_paper: 12
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Genderize Rate Limits
@@ -217,7 +217,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -233,7 +233,7 @@ slug: genderize
 tags:
 - Gender
 - Name
-- Prediction
+- Predictions
 - Demographics
 - Machine-Learning
 - Statistics

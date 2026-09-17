@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.hevn.finance/api/v1
-  baseurl_source: declared
-  description: The 2FA API from Hevn Inc — 10 operation(s) for 2fa.
-  name: Hevn Inc 2FA API
-  slug: hevn-inc-2fa-api
 - baseURL: https://api.hevn.finance/api/v1
   baseurl_source: declared
   description: The Activity API from Hevn Inc — 2 operation(s) for activity.
@@ -62,11 +57,6 @@ apis:
   description: The auth API from Hevn Inc — 7 operation(s) for auth.
   name: Hevn Inc auth API
   slug: hevn-inc-auth-api
-- baseURL: https://api.hevn.finance/api/v1
-  baseurl_source: declared
-  description: The B2B API from Hevn Inc — 10 operation(s) for b2b.
-  name: Hevn Inc B2B API
-  slug: hevn-inc-b2b-api
 - baseURL: https://api.hevn.finance/api/v1
   baseurl_source: declared
   description: The Balance API from Hevn Inc — 20 operation(s) for balance.
@@ -192,6 +182,16 @@ apis:
   description: The Xero API from Hevn Inc — 10 operation(s) for xero.
   name: Hevn Inc Xero API
   slug: hevn-inc-xero-api
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The 2 FA API from Hevn Inc — 10 operation(s) for 2 fa.
+  name: Hevn Inc 2 FA API
+  slug: hevn-inc-2-fa-api
+- baseURL: https://api.hevn.finance/api/v1
+  baseurl_source: declared
+  description: The B2 B API from Hevn Inc — 10 operation(s) for b2 b.
+  name: Hevn Inc B2 B API
+  slug: hevn-inc-b2-b-api
 artifact_total: 66
 collections:
 - collection_type: open
@@ -424,11 +424,11 @@ modified: '2026-07-19'
 name: Hevn Inc
 nav: Providers
 network: true
-overview: 'Hevn Inc publishes 31 APIs on the [APIs.io](https://apis.io/) network, including 2FA API, Activity API, apps API, and 28 more. Tagged areas include Company, Financial-Services, Fintech, Banking, and Payments.
+overview: 'Hevn Inc publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Activity API, apps API, apps-transfer API, and 28 more. Tagged areas include Company, Financial-Services, Fintech, Banking, and Payments.
 
 
   Hevn Inc''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, authentication, and 20 more developer resources.'
-random_paper: 15
+random_paper: 0
 score:
   band: developing
   composite: 40.1
@@ -464,7 +464,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

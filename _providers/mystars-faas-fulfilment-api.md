@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,25 +20,42 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.3
-  scored_at: '2026-09-15'
+  score: 39.7
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: REST/HTTP API for pricing, recipient eligibility checks, product catalog, and Telegram Stars/Premium order lifecycle, with X-Api-Key auth and signed webhooks. OpenAPI contract and llms.txt are adverti
-  name: MyStars FaaS Fulfilment API
-  slug: mystars-faas-fulfilment-api
-artifact_total: 7
+- baseURL: https://api.mystars.tg
+  baseurl_source: declared
+  description: The MyStars FaaS — Fulfilment API API from MyStars FaaS — Fulfilment API — 0 operation(s) for mystars faas — fulfilment api.
+  name: MyStars FaaS — Fulfilment API MyStars FaaS — Fulfilment API
+  slug: mystars-faas-fulfilment-api-mystars-faas-fulfilment-api-api
+- baseURL: https://api.mystars.tg
+  baseurl_source: declared
+  description: Create, inspect, list and cancel fulfilment orders.
+  name: MyStars FaaS — Fulfilment API Orders API
+  slug: mystars-faas-fulfilment-api-orders-api
+- baseURL: https://api.mystars.tg
+  baseurl_source: declared
+  description: Quote a price; list supported payment currencies and products.
+  name: MyStars FaaS — Fulfilment API Pricing API
+  slug: mystars-faas-fulfilment-api-pricing-api
+- baseURL: https://api.mystars.tg
+  baseurl_source: declared
+  description: Resolve a recipient and check delivery eligibility before ordering.
+  name: MyStars FaaS — Fulfilment API Recipients API
+  slug: mystars-faas-fulfilment-api-recipients-api
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Mystars Faas Fulfilment Api Webhooks
@@ -187,7 +204,7 @@ modified: '2026-09-03'
 name: MyStars FaaS — Fulfilment API
 nav: Providers
 network: true
-overview: 'MyStars FaaS — Fulfilment API publishes 1 API on the [APIs.io](https://apis.io/) network: MyStars FaaS Fulfilment API. Tagged areas include Telegram, telegram-stars, telegram-premium, Payments, and Crypto.
+overview: 'MyStars FaaS — Fulfilment API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MyStars FaaS — Fulfilment API, Orders API, Pricing API, and 1 more. Tagged areas include Telegram, telegram-stars, telegram-premium, Payments, and Crypto.
 
 
   The MyStars FaaS — Fulfilment API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -198,14 +215,14 @@ plans:
 - name: Mystars Faas Fulfilment Api Plans Pricing
   plan_count: 0
   slug: mystars-faas-fulfilment-api-plans-pricing
-random_paper: 16
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Mystars Faas Fulfilment Api Rate Limits
   slug: mystars-faas-fulfilment-api-rate-limits
 score:
   band: developing
-  composite: 47.7
+  composite: 51.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -213,11 +230,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.5
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 48.1
+    contract_quality: 61.9
     developer_ergonomics: 54.2
     discoverability: 75.9
     operational_transparency: 63.2
@@ -228,7 +245,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 4
     mcp: derived
     skills: derived
   regulatory:
@@ -238,7 +255,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

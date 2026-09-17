@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: 'The Yarn command-line interface — `yarn` — provides install, add, remove, up, run, exec, dlx, info, why, pack, rebuild, dedupe, node, bin, search, upgrade-interactive, and stage commands for managing '
@@ -255,14 +255,14 @@ modified: '2026-05-25'
 name: Yarn
 nav: Providers
 network: true
-overview: 'Yarn publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Package Manager, JavaScript, Node.js, Monorepo, and Workspaces.
+overview: 'Yarn publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Package Manager, JavaScript, Node.js, Monorepo, and Workspace.
 
 
   The Yarn catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   Yarn''s developer surface includes developer portal, getting-started guide, documentation, changelog, and 33 more developer resources.'
-random_paper: 11
+random_paper: 17
 rules:
 - effective_rule_count: 5
   extends: []
@@ -294,7 +294,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -312,7 +312,7 @@ tags:
 - JavaScript
 - Node.js
 - Monorepo
-- Workspaces
+- Workspace
 - Plug'n'Play
 - Open-Source
 - Berry

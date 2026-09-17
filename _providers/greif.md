@@ -32,16 +32,296 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.greif.com/wp-json
   baseurl_source: declared
-  description: The WordPress REST API served by Greif's corporate website at https://www.greif.com/wp-json — 554 routes across 39 namespaces, 182 of them under wp/v2, discovered by probing the API host root on 2026-
-  name: Greif WordPress REST API
-  slug: greif-wordpress-rest-api
-artifact_total: 5
+  description: The block-directory API from Greif — 1 operation(s) for block-directory.
+  name: Greif Block Directory API
+  slug: greif-block-directory-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The block-patterns API from Greif — 2 operation(s) for block-patterns.
+  name: Greif Block Patterns API
+  slug: greif-block-patterns-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The block-renderer API from Greif — 1 operation(s) for block-renderer.
+  name: Greif Block Renderer API
+  slug: greif-block-renderer-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The block-types API from Greif — 3 operation(s) for block-types.
+  name: Greif Block Types API
+  slug: greif-block-types-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The blocks API from Greif — 6 operation(s) for blocks.
+  name: Greif Blocks API
+  slug: greif-blocks-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The categories API from Greif — 2 operation(s) for categories.
+  name: Greif Categories API
+  slug: greif-categories-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The comments API from Greif — 2 operation(s) for comments.
+  name: Greif Comments API
+  slug: greif-comments-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The e-floating-buttons API from Greif — 6 operation(s) for e-floating-buttons.
+  name: Greif E Floating Buttons API
+  slug: greif-e-floating-buttons-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The elementor_library API from Greif — 4 operation(s) for elementor_library.
+  name: Greif Elementor Library API
+  slug: greif-elementor-library-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The elementor_snippet API from Greif — 2 operation(s) for elementor_snippet.
+  name: Greif Elementor Snippet API
+  slug: greif-elementor-snippet-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The font-collections API from Greif — 2 operation(s) for font-collections.
+  name: Greif Font Collections API
+  slug: greif-font-collections-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The font-families API from Greif — 4 operation(s) for font-families.
+  name: Greif Font Families API
+  slug: greif-font-families-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The global-styles API from Greif — 5 operation(s) for global-styles.
+  name: Greif Global Styles API
+  slug: greif-global-styles-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The greif_custom_table API from Greif — 2 operation(s) for greif_custom_table.
+  name: Greif Greif Custom Table API
+  slug: greif-greif-custom-table-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The index API from Greif — 1 operation(s) for index.
+  name: Greif Index API
+  slug: greif-index-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The jet-menu API from Greif — 6 operation(s) for jet-menu.
+  name: Greif Jet Menu API
+  slug: greif-jet-menu-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The leadership-council API from Greif — 4 operation(s) for leadership-council.
+  name: Greif Leadership Council API
+  slug: greif-leadership-council-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The market API from Greif — 6 operation(s) for market.
+  name: Greif Market API
+  slug: greif-market-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The media API from Greif — 4 operation(s) for media.
+  name: Greif Media API
+  slug: greif-media-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The menu-items API from Greif — 4 operation(s) for menu-items.
+  name: Greif Menu Items API
+  slug: greif-menu-items-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The menu-locations API from Greif — 2 operation(s) for menu-locations.
+  name: Greif Menu Locations API
+  slug: greif-menu-locations-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The menus API from Greif — 2 operation(s) for menus.
+  name: Greif Menus API
+  slug: greif-menus-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The navigation API from Greif — 6 operation(s) for navigation.
+  name: Greif Navigation API
+  slug: greif-navigation-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The pages API from Greif — 6 operation(s) for pages.
+  name: Greif Pages API
+  slug: greif-pages-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The pattern-directory API from Greif — 1 operation(s) for pattern-directory.
+  name: Greif Pattern Directory API
+  slug: greif-pattern-directory-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The plugins API from Greif — 2 operation(s) for plugins.
+  name: Greif Plugins API
+  slug: greif-plugins-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The posts API from Greif — 6 operation(s) for posts.
+  name: Greif Posts API
+  slug: greif-posts-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The product API from Greif — 6 operation(s) for product.
+  name: Greif Product API
+  slug: greif-product-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The product_attribute API from Greif — 2 operation(s) for product_attribute.
+  name: Greif Product Attribute API
+  slug: greif-product-attribute-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The product_capacity API from Greif — 2 operation(s) for product_capacity.
+  name: Greif Product Capacity API
+  slug: greif-product-capacity-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The product_category API from Greif — 2 operation(s) for product_category.
+  name: Greif Product Category API
+  slug: greif-product-category-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The product_market API from Greif — 2 operation(s) for product_market.
+  name: Greif Product Market API
+  slug: greif-product-market-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The product_material API from Greif — 2 operation(s) for product_material.
+  name: Greif Product Material API
+  slug: greif-product-material-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The product_tag API from Greif — 2 operation(s) for product_tag.
+  name: Greif Product Tag API
+  slug: greif-product-tag-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The regional_availability API from Greif — 2 operation(s) for regional_availability.
+  name: Greif Regional Availability API
+  slug: greif-regional-availability-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The sales-contact API from Greif — 4 operation(s) for sales-contact.
+  name: Greif Sales Contact API
+  slug: greif-sales-contact-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The search API from Greif — 1 operation(s) for search.
+  name: Greif Search API
+  slug: greif-search-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The settings API from Greif — 1 operation(s) for settings.
+  name: Greif Settings API
+  slug: greif-settings-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The sidebars API from Greif — 2 operation(s) for sidebars.
+  name: Greif Sidebars API
+  slug: greif-sidebars-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The statuses API from Greif — 2 operation(s) for statuses.
+  name: Greif Statuses API
+  slug: greif-statuses-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The store_location API from Greif — 2 operation(s) for store_location.
+  name: Greif Store Location API
+  slug: greif-store-location-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The sustainability_items API from Greif — 6 operation(s) for sustainability_items.
+  name: Greif Sustainability Items API
+  slug: greif-sustainability-items-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The tags API from Greif — 2 operation(s) for tags.
+  name: Greif Tags API
+  slug: greif-tags-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The taxonomies API from Greif — 2 operation(s) for taxonomies.
+  name: Greif Taxonomies API
+  slug: greif-taxonomies-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The technology API from Greif — 6 operation(s) for technology.
+  name: Greif Technology API
+  slug: greif-technology-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The template-parts API from Greif — 7 operation(s) for template-parts.
+  name: Greif Template Parts API
+  slug: greif-template-parts-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The templates API from Greif — 7 operation(s) for templates.
+  name: Greif Templates API
+  slug: greif-templates-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The themes API from Greif — 2 operation(s) for themes.
+  name: Greif Themes API
+  slug: greif-themes-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The types API from Greif — 2 operation(s) for types.
+  name: Greif Types API
+  slug: greif-types-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The users API from Greif — 6 operation(s) for users.
+  name: Greif Users API
+  slug: greif-users-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The visibility API from Greif — 2 operation(s) for visibility.
+  name: Greif Visibility API
+  slug: greif-visibility-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The widget-types API from Greif — 4 operation(s) for widget-types.
+  name: Greif Widget Types API
+  slug: greif-widget-types-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The widgets API from Greif — 2 operation(s) for widgets.
+  name: Greif Widgets API
+  slug: greif-widgets-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The wp_pattern_category API from Greif — 2 operation(s) for wp_pattern_category.
+  name: Greif Wp Pattern Category API
+  slug: greif-wp-pattern-category-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The wpsl_store_category API from Greif — 2 operation(s) for wpsl_store_category.
+  name: Greif Wpsl Store Category API
+  slug: greif-wpsl-store-category-api
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The wpsl_stores API from Greif — 6 operation(s) for wpsl_stores.
+  name: Greif Wpsl Stores API
+  slug: greif-wpsl-stores-api
+artifact_total: 60
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/greif/refs/heads/main/overlays/greif-wordpress-rest-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/greif-wordpress-rest-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/greif/refs/heads/main/security/greif-domain-security.yml
   title: ''
@@ -156,10 +436,10 @@ modified: '2026-09-12'
 name: Greif
 nav: Providers
 network: true
-overview: 'Greif publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Packaging, Industrial, Manufacturing, Sustainability, and Fortune 1000.
+overview: 'Greif publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Block Directory API, Block Patterns API, Block Renderer API, and 53 more. Tagged areas include Packaging, Industrial, Manufacturing, Sustainability, and Fortune 1000.
 
 
-  Greif''s developer surface includes authentication, engineering blog, support, YouTube channel, and 19 more developer resources.'
+  Greif''s developer surface includes authentication, engineering blog, support, YouTube channel, and 20 more developer resources.'
 plans:
 - name: Greif Plans Pricing
   plan_count: 0
@@ -180,28 +460,28 @@ press:
 - date: '2026-05-25'
   title: Greif Inc. Class A (GEF) reports earnings - Quartz
   url: https://qz.com/greif-inc-class-a-gef-reports-earnings-1851727534
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Greif Rate Limits
   slug: greif-rate-limits
 score:
   band: thin
-  composite: 28.7
+  composite: 28.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 37.0
+    catalog_earned: 34.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 54.5
+    contract_quality: 54.4
     developer_ergonomics: 20.8
-    discoverability: 68.5
+    discoverability: 63.0
     operational_transparency: 0.0
   previous_composite: 28.7
   provenance:
@@ -210,11 +490,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 56
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

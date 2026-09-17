@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -114,7 +114,7 @@ apis:
 - baseURL: https://api.e2b.app
   baseurl_source: declared
   description: The E2B Sandbox Events And Webhooks API API from E2B — 0 operation(s) for e2b sandbox events and webhooks api.
-  name: E2B E2B Sandbox Events And Webhooks API
+  name: E2B Sandbox Events And Webhooks API
   slug: e2b-dev-e2b-sandbox-events-and-webhooks-api-api
 artifact_total: 73
 collections:
@@ -455,11 +455,11 @@ jsonld:
   property_count: 11
   slug: e2b-dev-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: E2B
 nav: Providers
 network: true
-overview: 'E2B publishes 13 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, admin API, api-keys API, and 10 more. Tagged areas include Artificial Intelligence, Agents, Code Execution, Code Interpreter, and Sandboxes.
+overview: 'E2B publishes 13 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, admin API, api-keys API, and 10 more. Tagged areas include Artificial Intelligence, Agents, Code Execution, Code Interpreter, and Sandbox.
 
 
   The E2B catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -470,7 +470,7 @@ plans:
 - name: E2B Dev Plans Pricing
   plan_count: 3
   slug: e2b-dev-plans-pricing
-random_paper: 4
+random_paper: 19
 rate_limits:
 - limit_count: 8
   name: E2B Dev Rate Limits
@@ -488,7 +488,7 @@ rules:
   slug: e2b-dev-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.1
+  composite: 65.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 86.3
@@ -496,11 +496,11 @@ score:
     catalog_gap: 28.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 81.6
     contract_governance: 9.8
-    contract_quality: 70.4
+    contract_quality: 76.0
     developer_ergonomics: 82.1
     discoverability: 64.8
     operational_transparency: 52.6
@@ -513,7 +513,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -538,9 +538,9 @@ tags:
 - Agents
 - Code Execution
 - Code Interpreter
-- Sandboxes
+- Sandbox
 - Firecracker
-- MicroVMs
+- MicroVM
 - Computer Use
 - Desktop Sandbox
 - Templates

@@ -29,7 +29,7 @@ name: MoPub
 nav: Providers
 network: true
 overview: MoPub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Advertising, AdTech, and Monetization.
-random_paper: 1
+random_paper: 19
 screenshot: https://raw.githubusercontent.com/api-evangelist/mopub/refs/heads/main/screenshots/mopub-2026-08-07T184256.png
 slug: mopub
 tags:

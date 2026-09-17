@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Subscription-based, pre-built healthcare data feeds and scoring APIs that augment a client's internal datasets with PurpleLab's proprietary claims scoring, forecasting, ranking and segmentation. Purpl
@@ -172,7 +172,7 @@ plans:
 - name: Purplelab Plans Pricing
   plan_count: 0
   slug: purplelab-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Purplelab Rate Limits
@@ -211,7 +211,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

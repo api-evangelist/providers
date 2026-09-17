@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - baseURL: https://leafforlife.com/wp-json
@@ -75,14 +75,14 @@ apis:
   slug: leaf4life-posts-api
 - baseURL: https://leafforlife.com/wp-json
   baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for URLs on leafforlife.com. Verified anonymously against the site root — provider_name "LEAF4life". This is the only formally standardised interface the deployment implem
-  name: LEAF4Life oEmbed API
-  slug: leaf4life-oembed-api
-- baseURL: https://leafforlife.com/wp-json
-  baseurl_source: declared
   description: Comment collection — registered, zero items.
   name: LEAF4Life Comments API
   slug: leaf4life-comments-api
+- baseURL: https://leafforlife.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for URLs on this site.
+  name: LEAF4Life o Embed API
+  slug: leaf4life-o-embed-api
 artifact_total: 13
 common:
 - group: company
@@ -190,7 +190,7 @@ plans:
 - name: Leaf4Life Plans Pricing
   plan_count: 0
   slug: leaf4life-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Leaf4Life Rate Limits
@@ -235,7 +235,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Private application API powering the Ediphi preconstruction platform and its "Last Mile" automation (Excel integration, reporting). No public OpenAPI/Swagger specification or developer documentation i
@@ -103,7 +103,7 @@ overview: 'Ediphi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ediphi''s developer surface includes support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 18
+random_paper: 11
 score:
   band: emerging
   composite: 15.8
@@ -124,7 +124,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 15.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

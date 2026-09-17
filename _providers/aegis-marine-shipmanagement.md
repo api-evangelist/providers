@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
-api_count: 7
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - baseURL: https://aegisships.com/wp-json
   baseurl_source: declared
@@ -48,11 +48,6 @@ apis:
   slug: aegis-marine-shipmanagement-media-api
 - baseURL: https://aegisships.com/wp-json
   baseurl_source: declared
-  description: Anonymous, unauthenticated read access to the two content taxonomies on aegisships.com — one category term (News) and 25 post tags. Every term reports a count of zero because the site publishes no pos
-  name: Aegis Marine Shipmanagement Taxonomy API
-  slug: aegis-marine-shipmanagement-taxonomy-api
-- baseURL: https://aegisships.com/wp-json
-  baseurl_source: declared
   description: Anonymous, unauthenticated cross-content search over aegisships.com, returning lightweight id, title, url, type and subtype records. Verified live at 15 searchable objects, all of them pages.
   name: Aegis Marine Shipmanagement Search API
   slug: aegis-marine-shipmanagement-search-api
@@ -63,16 +58,36 @@ apis:
   slug: aegis-marine-shipmanagement-discovery-api
 - baseURL: https://aegisships.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for aegisships.com URLs, returning embeddable rich metadata — title, provider, dimensions and iframe HTML — for any page on the site without parsing its markup.
-  name: Aegis Marine Shipmanagement oEmbed API
-  slug: aegis-marine-shipmanagement-oembed-api
-- baseURL: https://aegisships.com/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO endpoint returning the rendered head metadata, and its parsed schema.org JSON-LD graph, for any aegisships.com URL — a structured-data view of every page without scraping the HTML. Pr
   name: Aegis Marine Shipmanagement SEO Metadata API
   slug: aegis-marine-shipmanagement-seo-api
-artifact_total: 12
+- baseURL: https://aegisships.com/wp-json
+  baseurl_source: declared
+  description: The Categories API from Aegis Marine Shipmanagement — 2 operation(s) for categories.
+  name: Aegis Marine Shipmanagement Categories API
+  slug: aegis-marine-shipmanagement-categories-api
+- baseURL: https://aegisships.com/wp-json
+  baseurl_source: declared
+  description: The Tags API from Aegis Marine Shipmanagement — 2 operation(s) for tags.
+  name: Aegis Marine Shipmanagement Tags API
+  slug: aegis-marine-shipmanagement-tags-api
+- baseURL: https://aegisships.com/wp-json
+  baseurl_source: declared
+  description: The o Embed API from Aegis Marine Shipmanagement — 1 operation(s) for o embed.
+  name: Aegis Marine Shipmanagement o Embed API
+  slug: aegis-marine-shipmanagement-o-embed-api
+artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/overlays/aegis-marine-shipmanagement-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aegis-marine-shipmanagement-oembed-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/overlays/aegis-marine-shipmanagement-taxonomy-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aegis-marine-shipmanagement-taxonomy-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -211,45 +226,45 @@ modified: '2026-09-09'
 name: Aegis Marine Shipmanagement
 nav: Providers
 network: true
-overview: 'Aegis Marine Shipmanagement publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Media API, Taxonomy API, and 4 more. Tagged areas include Company, Shipping, Ship Management, Maritime, and Marine Transportation.
+overview: 'Aegis Marine Shipmanagement publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Media API, Search API, and 5 more. Tagged areas include Company, Shipping, Ship Management, Maritime, and Marine Transportation.
 
 
-  Aegis Marine Shipmanagement''s developer surface includes authentication, code examples, and 21 more developer resources.'
+  Aegis Marine Shipmanagement''s developer surface includes authentication, code examples, and 23 more developer resources.'
 plans:
 - name: Aegis Marine Shipmanagement Plans Pricing
   plan_count: 0
   slug: aegis-marine-shipmanagement-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Aegis Marine Shipmanagement Rate Limits
   slug: aegis-marine-shipmanagement-rate-limits
 score:
   band: emerging
-  composite: 23.6
+  composite: 23.0
   coverage:
     artifact_dirs: 17
-    catalog_earned: 40.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 21.1
     contract_governance: 18.2
-    contract_quality: 16.4
+    contract_quality: 16.5
     developer_ergonomics: 13.7
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 0.0
   previous_composite: 23.6
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 8
       marker_coverage: 100.0
-      total: 7
+      total: 8
     mcp: derived
     skills: derived
   regulatory:
@@ -259,7 +274,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

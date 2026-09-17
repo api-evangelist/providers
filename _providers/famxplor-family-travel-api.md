@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-09-15'
+  score: 28.3
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,10 +45,25 @@ api_count: 1
 apis:
 - baseURL: https://api.famxplor.com
   baseurl_source: declared
-  description: The First API 100% Dedicated to Family Travel. Designed for developers, travel apps, and businesses, the Famxplor API delivers personalized, family-focused recommendations tested and loved by real fam
-  name: Famxplor Family Travel API
-  slug: famxplor-family-travel-api
-artifact_total: 8
+  description: The Activities API from Famxplor Family Travel API — 1 operation(s) for activities.
+  name: Famxplor Family Travel API Activities API
+  slug: famxplor-family-travel-api-activities-api
+- baseURL: https://api.famxplor.com
+  baseurl_source: declared
+  description: The Nearest Activities API from Famxplor Family Travel API — 1 operation(s) for nearest activities.
+  name: Famxplor Family Travel API Nearest Activities API
+  slug: famxplor-family-travel-api-nearest-activities-api
+- baseURL: https://api.famxplor.com
+  baseurl_source: declared
+  description: The Nearest Posts API from Famxplor Family Travel API — 1 operation(s) for nearest posts.
+  name: Famxplor Family Travel API Nearest Posts API
+  slug: famxplor-family-travel-api-nearest-posts-api
+- baseURL: https://api.famxplor.com
+  baseurl_source: declared
+  description: The Travel Time API from Famxplor Family Travel API — 1 operation(s) for travel time.
+  name: Famxplor Family Travel API Travel Time API
+  slug: famxplor-family-travel-api-travel-time-api
+artifact_total: 11
 common:
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/agentic-access/famxplor-family-travel-api-agentic-access.yml
@@ -197,7 +212,7 @@ modified: '2026-09-07'
 name: Famxplor Family Travel API
 nav: Providers
 network: true
-overview: 'Famxplor Family Travel API publishes 1 API on the [APIs.io](https://apis.io/) network: Famxplor Family Travel API. Tagged areas include Activities, Family, Travel, Artificial Intelligence, and MCP.
+overview: 'Famxplor Family Travel API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Nearest Activities API, Nearest Posts API, and 1 more. Tagged areas include Activities, Family, Travel, Artificial Intelligence, and MCP.
 
 
   Famxplor Family Travel API''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, API reference, code examples, and 21 more developer resources.'
@@ -205,14 +220,14 @@ plans:
 - name: Famxplor Family Travel Api Plans Pricing
   plan_count: 4
   slug: famxplor-family-travel-api-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Famxplor Family Travel Api Rate Limits
   slug: famxplor-family-travel-api-rate-limits
 score:
-  band: thin
-  composite: 38.4
+  band: developing
+  composite: 48.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 64.0
@@ -220,11 +235,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.0
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 17.0
+    contract_quality: 57.1
     developer_ergonomics: 32.7
     discoverability: 68.5
     operational_transparency: 31.6
@@ -233,15 +248,15 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
-      derived: 1
-      marker_coverage: 100.0
-      total: 1
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 4
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

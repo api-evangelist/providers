@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.1
-  scored_at: '2026-09-15'
+  score: 37.6
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -33,11 +33,92 @@ agentic_access:
   summary_line: 18 operations · 3 acting
 api_count: 1
 apis:
-- description: REST/JSON API for CEP-to-CNEFE point resolution, address search, proximity/radius queries, and Receita Federal business lookups. Includes a hosted MCP server and agent-native discovery artifacts.
-  name: PontoFato API
-  slug: pontofato-api
-artifact_total: 9
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Apis.json API from PontoFato — 1 operation(s) for apis.json.
+  name: PontoFato Apis.json API
+  slug: pontofato-apis-json-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Buscar API from PontoFato — 1 operation(s) for buscar.
+  name: PontoFato Buscar API
+  slug: pontofato-buscar-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Cep API from PontoFato — 2 operation(s) for cep.
+  name: PontoFato Cep API
+  slug: pontofato-cep-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Contact API from PontoFato — 1 operation(s) for contact.
+  name: PontoFato Contact API
+  slug: pontofato-contact-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Credito API from PontoFato — 1 operation(s) for credito.
+  name: PontoFato Credito API
+  slug: pontofato-credito-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Empresas API from PontoFato — 1 operation(s) for empresas.
+  name: PontoFato Empresas API
+  slug: pontofato-empresas-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Health API from PontoFato — 1 operation(s) for health.
+  name: PontoFato Health API
+  slug: pontofato-health-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Local API from PontoFato — 1 operation(s) for local.
+  name: PontoFato Local API
+  slug: pontofato-local-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Mcp API from PontoFato — 1 operation(s) for mcp.
+  name: PontoFato MCP API
+  slug: pontofato-mcp-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Metrics API from PontoFato — 1 operation(s) for metrics.
+  name: PontoFato Metrics API
+  slug: pontofato-metrics-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Okf API from PontoFato — 1 operation(s) for okf.
+  name: PontoFato Okf API
+  slug: pontofato-okf-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The PontoFato API from PontoFato — 1 operation(s) for pontofato.
+  name: PontoFato Ponto Fato API
+  slug: pontofato-pontofato-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Proximo API from PontoFato — 1 operation(s) for proximo.
+  name: PontoFato Proximo API
+  slug: pontofato-proximo-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Raio API from PontoFato — 1 operation(s) for raio.
+  name: PontoFato Raio API
+  slug: pontofato-raio-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The Vizinhanca API from PontoFato — 1 operation(s) for vizinhanca.
+  name: PontoFato Vizinhanca API
+  slug: pontofato-vizinhanca-api
+- baseURL: https://pontofato.com
+  baseurl_source: declared
+  description: The .well Known API from PontoFato — 1 operation(s) for .well known.
+  name: PontoFato .well Known API
+  slug: pontofato-well-known-api
+artifact_total: 24
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://pontofato.com/mcp
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/pontofato/refs/heads/main/agentic-access/pontofato-agentic-access.yml
   title: ''
@@ -166,22 +247,22 @@ modified: '2026-09-05'
 name: PontoFato
 nav: Providers
 network: true
-overview: 'PontoFato publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Brazilian CEP, address geocoding, IBGE CNEFE, Geospatial, and latitude/longitude.
+overview: 'PontoFato publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Apis.json API, Buscar API, Cep API, and 13 more. Tagged areas include Brazilian CEP, address geocoding, IBGE CNEFE, Geospatial, and latitude/longitude.
 
 
-  PontoFato''s developer surface includes authentication, getting-started guide, pricing, support, and 20 more developer resources.'
+  PontoFato''s developer surface includes authentication, getting-started guide, pricing, support, and 21 more developer resources.'
 plans:
 - name: Pontofato Plans Pricing
   plan_count: 3
   slug: pontofato-plans-pricing
-random_paper: 20
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Pontofato Rate Limits
   slug: pontofato-rate-limits
 score:
   band: developing
-  composite: 43.8
+  composite: 49.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 57.0
@@ -189,11 +270,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.8
   facets:
     access_clarity: 57.9
     contract_governance: 18.2
-    contract_quality: 26.7
+    contract_quality: 49.8
     developer_ergonomics: 38.7
     discoverability: 75.9
     operational_transparency: 26.3
@@ -201,6 +282,11 @@ score:
   provenance:
     agentic_access: derived
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 16
     mcp: first-party
     skills: derived
   regulatory:
@@ -210,8 +296,8 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

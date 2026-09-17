@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 14
 common:
@@ -165,7 +165,7 @@ press:
 - date: '2026-05-25'
   title: Church & Dwight Leverages Data & AI for E-commerce ...
   url: https://www.linkedin.com/posts/consumer-goods-technology_church-dwight-looks-to-ai-to-capture-consumer-activity-7424529260817772544-Q6Qg
-random_paper: 1
+random_paper: 9
 score:
   band: minimal
   composite: 3.3
@@ -197,7 +197,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

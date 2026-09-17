@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for searching scientific reagents, experimental data, literature, antibodies, and accelerating preclinical drug discovery workflows. Provides programmatic access to BenchSci's curated databas
@@ -119,7 +119,7 @@ plans:
 - name: Benchsci Plans Pricing
   plan_count: 3
   slug: benchsci-plans-pricing
-random_paper: 12
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Benchsci Rate Limits
@@ -150,7 +150,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

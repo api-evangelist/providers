@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -79,11 +79,6 @@ apis:
   description: Lean-back, ruleset-governed (DMCA, GVL) radio listening sessions.
   name: 7digital Interactive Radio API
   slug: 7digital-interactive-radio-api
-- baseURL: https://api.7digital.com/1.2
-  baseurl_source: declared
-  description: Resolve an end-user's country from an IP address.
-  name: 7digital IpLookup API
-  slug: 7digital-iplookup-api
 - baseURL: https://api.7digital.com/1.2
   baseurl_source: declared
   description: Stream / preview / subscription play reporting required for licensor royalty calculations.
@@ -159,6 +154,11 @@ apis:
   description: Partner-scoped user directory operations — find and update users.
   name: 7digital Users API
   slug: 7digital-users-api
+- baseURL: https://api.7digital.com/1.2
+  baseurl_source: declared
+  description: Resolve an end-user's country from an IP address.
+  name: 7digital IP Lookup API
+  slug: 7digital-ip-lookup-api
 artifact_total: 310
 collections:
 - collection_type: postman
@@ -1071,7 +1071,7 @@ plans:
 - name: 7Digital Plans Pricing
   plan_count: 1
   slug: 7digital-plans-pricing
-random_paper: 12
+random_paper: 19
 rate_limits:
 - limit_count: 7
   name: 7Digital Rate Limits
@@ -1125,7 +1125,7 @@ score:
       marker_coverage: 100.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

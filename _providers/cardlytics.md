@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 41.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 86 operations · 36 acting · 2 human-in-the-loop
 api_count: 6
 apis:
-- baseURL: https://api.cardlytics.com
-  baseurl_source: declared
-  description: The AdGroups API from Cardlytics — 8 operation(s) for adgroups.
-  name: Cardlytics Ad Groups API
-  slug: cardlytics-adgroups-api
 - baseURL: https://api.cardlytics.com
   baseurl_source: declared
   description: The Ads API from Cardlytics — 10 operation(s) for ads.
@@ -70,11 +65,6 @@ apis:
   description: The Audiences API from Cardlytics — 6 operation(s) for audiences.
   name: Cardlytics Audiences API
   slug: cardlytics-audiences-api
-- baseURL: https://api.cardlytics.com
-  baseurl_source: declared
-  description: The AuditLogs API from Cardlytics — 1 operation(s) for auditlogs.
-  name: Cardlytics Audit Logs API
-  slug: cardlytics-auditlogs-api
 - baseURL: https://api.cardlytics.com
   baseurl_source: declared
   description: The Authentication API from Cardlytics — 1 operation(s) for authentication.
@@ -112,11 +102,6 @@ apis:
   slug: cardlytics-pricingmodels-api
 - baseURL: https://api.cardlytics.com
   baseurl_source: declared
-  description: The PurchaseCategories API from Cardlytics — 2 operation(s) for purchasecategories.
-  name: Cardlytics Purchase Categories API
-  slug: cardlytics-purchasecategories-api
-- baseURL: https://api.cardlytics.com
-  baseurl_source: declared
   description: The Redemptions API from Cardlytics — 1 operation(s) for redemptions.
   name: Cardlytics Redemptions API
   slug: cardlytics-redemptions-api
@@ -135,6 +120,21 @@ apis:
   description: The session-controller API from Cardlytics — 1 operation(s) for session-controller.
   name: Cardlytics Session Controller API
   slug: cardlytics-session-controller-api
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Ad Groups API from Cardlytics — 8 operation(s) for ad groups.
+  name: Cardlytics Ad Groups API
+  slug: cardlytics-ad-groups-api
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Audit Logs API from Cardlytics — 1 operation(s) for audit logs.
+  name: Cardlytics Audit Logs API
+  slug: cardlytics-audit-logs-api
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Purchase Categories API from Cardlytics — 2 operation(s) for purchase categories.
+  name: Cardlytics Purchase Categories API
+  slug: cardlytics-purchase-categories-api
 artifact_total: 29
 asyncapis:
 - description: ''
@@ -336,7 +336,7 @@ modified: '2026-08-12'
 name: Cardlytics
 nav: Providers
 network: true
-overview: 'Cardlytics publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Ads API, Ads Controller API, and 15 more. Tagged areas include Company, Advertising, Commerce Media, Card-Linked Offers, and Purchase Intelligence.
+overview: 'Cardlytics publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Ads Controller API, Audience Reach API, and 15 more. Tagged areas include Company, Advertising, Commerce Media, Card-Linked Offers, and Purchase Intelligence.
 
 
   The Cardlytics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -347,7 +347,7 @@ plans:
 - name: Cardlytics Plans Pricing
   plan_count: 0
   slug: cardlytics-plans-pricing
-random_paper: 3
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Cardlytics Rate Limits
@@ -371,7 +371,7 @@ score:
   facets:
     access_clarity: 43.4
     contract_governance: 4.5
-    contract_quality: 54.1
+    contract_quality: 54.0
     developer_ergonomics: 54.2
     discoverability: 92.6
     operational_transparency: 47.4
@@ -380,7 +380,7 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 44.4
       derived: 0
       marker_coverage: 0.0
       total: 18
@@ -396,7 +396,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

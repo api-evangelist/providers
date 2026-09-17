@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 2.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ overview: 'UptimeHealth is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   UptimeHealth''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 9
+random_paper: 14
 score:
   band: emerging
   composite: 14.6
@@ -117,7 +117,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

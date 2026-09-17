@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -126,6 +126,10 @@ collections:
   name: MuleSoft Anypoint Platform Applications Organizations API
   slug: open-mulesoft-organizations-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mulesoft.com
 - group: other
   title: ''
   type: ParentCompany
@@ -574,7 +578,7 @@ jsonld:
   property_count: 7
   slug: mulesoft-context
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: MuleSoft
 nav: Providers
 network: true
@@ -584,12 +588,12 @@ overview: 'MuleSoft publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The MuleSoft catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  MuleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, changelog, and 34 more developer resources.'
+  MuleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, changelog, and 35 more developer resources.'
 plans:
 - name: Mulesoft Plans Pricing
   plan_count: 4
   slug: mulesoft-plans-pricing
-random_paper: 18
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Mulesoft Rate Limits
@@ -643,7 +647,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -677,5 +681,5 @@ use_cases:
   name: Customer 360
 - description: Connect AI agents to enterprise systems, models, and vector stores to orchestrate complex agentic workflows.
   name: AI Agent Integration
-website: https://anypoint.mulesoft.com/exchange/portals/anypoint-platform/
+website: https://mulesoft.com
 ---

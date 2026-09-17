@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Epic's HL7 FHIR R4 (4.0.1) REST API, aligned to the US Core implementation guides and exposing 59 resource types (Patient, Encounter, Observation, Condition, MedicationRequest, DiagnosticReport, Docum
@@ -243,7 +243,7 @@ plans:
 - name: Epic Systems Plans Pricing
   plan_count: 2
   slug: epic-systems-plans-pricing
-random_paper: 15
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Epic Systems Rate Limits
@@ -290,7 +290,7 @@ score:
     regime_id: health
     score: 77.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

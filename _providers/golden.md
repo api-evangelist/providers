@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,17 +49,17 @@ apis:
 - baseURL: https://golden.com/api/v2/public
   baseurl_source: declared
   description: The Entity API API from Golden — 2 operation(s) for entity api.
-  name: Golden Entity API API
+  name: Golden Entity API
   slug: golden-entity-api-api
 - baseURL: https://golden.com/api/v2/public
   baseurl_source: declared
   description: The Query API API from Golden — 2 operation(s) for query api.
-  name: Golden Query API API
+  name: Golden Query API
   slug: golden-query-api-api
 - baseURL: https://golden.com/api/v2/public
   baseurl_source: declared
   description: The Schema API API from Golden — 4 operation(s) for schema api.
-  name: Golden Schema API API
+  name: Golden Schema API
   slug: golden-schema-api-api
 artifact_total: 12
 collections:
@@ -205,11 +205,11 @@ description: 'Golden is a company-data and knowledge-graph platform that builds 
   live and reachable.'
 image: https://golden.com/static/images/38d57130206f78fb48c9.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Golden
 nav: Providers
 network: true
-overview: 'Golden publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entity API API, Query API API, and Schema API API. Tagged areas include Company, Knowledge Graph, Company Data, Data, and Entities.
+overview: 'Golden publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entity API, Query API, and Schema API. Tagged areas include Company, Knowledge Graph, Company Data, Data, and Entities.
 
 
   Golden''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 20 more developer resources.'
@@ -217,7 +217,7 @@ plans:
 - name: Golden Plans Pricing
   plan_count: 4
   slug: golden-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Golden Rate Limits
@@ -252,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

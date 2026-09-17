@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Internal REST API that powers checkout on the Perpay Marketplace. Handles product ordering, spending-limit enforcement, and installment plan creation for approved consumers. Access is limited to Perpa
@@ -138,7 +138,7 @@ plans:
 - name: Perpay Plans Pricing
   plan_count: 1
   slug: perpay-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Perpay Rate Limits
@@ -169,7 +169,7 @@ score:
     regime_id: payments
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

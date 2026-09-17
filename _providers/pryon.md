@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -59,11 +59,6 @@ apis:
   description: The Content Service API from Pryon — 16 operation(s) for content service.
   name: Pryon Content Service API
   slug: pryon-content-service-api
-- baseURL: https://api.pryon.net
-  baseurl_source: declared
-  description: The ContentService API from Pryon — 13 operation(s) for contentservice.
-  name: Pryon Content Service API
-  slug: pryon-contentservice-api
 - baseURL: https://api.pryon.net
   baseurl_source: declared
   description: The Exchange API from Pryon — 3 operation(s) for exchange.
@@ -111,11 +106,6 @@ apis:
   slug: pryon-knowledge-collection-service-api
 - baseURL: https://api.pryon.net
   baseurl_source: declared
-  description: The KnowledgeCollectionService API from Pryon — 11 operation(s) for knowledgecollectionservice.
-  name: Pryon Knowledge Collection Service API
-  slug: pryon-knowledgecollectionservice-api
-- baseURL: https://api.pryon.net
-  baseurl_source: declared
   description: The KnowledgeDomain API from Pryon — 17 operation(s) for knowledgedomain.
   name: Pryon Knowledge Domain API
   slug: pryon-knowledgedomain-api
@@ -156,15 +146,15 @@ apis:
   slug: pryon-subjects-api
 - baseURL: https://api.pryon.net
   baseurl_source: declared
-  description: The TextToSpeech API from Pryon — 1 operation(s) for texttospeech.
-  name: Pryon Text To Speech API
-  slug: pryon-texttospeech-api
-- baseURL: https://api.pryon.net
-  baseurl_source: declared
   description: The UserDefinedMetadata API from Pryon — 9 operation(s) for userdefinedmetadata.
   name: Pryon User Defined Metadata API
   slug: pryon-userdefinedmetadata-api
-artifact_total: 76
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Text To Speech API from Pryon — 1 operation(s) for text to speech.
+  name: Pryon Text To Speech API
+  slug: pryon-text-to-speech-api
+artifact_total: 74
 asyncapis:
 - description: ''
   name: Pryon Events
@@ -463,17 +453,17 @@ modified: '2026-08-02'
 name: Pryon
 nav: Providers
 network: true
-overview: 'Pryon publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connector Service External API, Content Service API, and 21 more. Tagged areas include Artificial Intelligence, Retrieval Augmented Generation, Enterprise Search, Knowledge-Management, and Generative AI.
+overview: 'Pryon publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Connector Service External API, Content Service API, and 19 more. Tagged areas include Artificial Intelligence, RAG, Enterprise Search, Knowledge-Management, and Generative AI.
 
 
   The Pryon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Pryon''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, changelog, and 24 more developer resources.'
-random_paper: 1
+random_paper: 18
 score:
   band: developing
-  composite: 41.6
+  composite: 41.4
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -481,11 +471,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 60.9
+    contract_quality: 60.4
     developer_ergonomics: 39.9
     discoverability: 81.5
     operational_transparency: 10.5
@@ -494,14 +484,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 95.7
+      callable: 85.7
       derived: 0
       marker_coverage: 0.0
-      total: 24
+      total: 22
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -523,7 +513,7 @@ security:
 slug: pryon
 tags:
 - Artificial Intelligence
-- Retrieval Augmented Generation
+- RAG
 - Enterprise Search
 - Knowledge-Management
 - Generative AI

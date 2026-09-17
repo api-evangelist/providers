@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,11 +57,6 @@ apis:
 - description: 'unAPI 1 discovery service returning the alternate metadata formats available for LUP records, which is how reference managers such as Zotero autodiscover Lund records. No authentication required. The '
   name: Lund University Publications unAPI
   slug: lup-unapi
-- baseURL: https://lup.lub.lu.se/student-papers/search
-  baseurl_source: declared
-  description: Keyless REST/JSON(P) search over LUP Student Papers, a second Lund University Libraries repository holding student theses and degree projects, with its own record model — courseCode, courseTerm, stude
-  name: LUP Student Papers Search API
-  slug: lup-student-papers
 - description: OAI-PMH 2.0 harvesting endpoint for the LUP Student Papers repository. Identify confirms repositoryName "Lund University Publications - Student Papers" and repositoryIdentifier lup-student-papers.lub.
   name: LUP Student Papers OAI-PMH
   slug: lup-student-papers-oai
@@ -74,7 +69,7 @@ apis:
 - description: Lund's tenant deployment of Elsevier Pure, branded LUCRIS, covering researchers, organisations, outputs, projects, datasets and activities at portal.research.lu.se. The data and the deployment are Lun
   name: Lund University Research Portal (LUCRIS / Elsevier Pure)
   slug: research-portal
-artifact_total: 25
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -234,7 +229,7 @@ modified: '2026-08-30'
 name: Lund University
 nav: Providers
 network: true
-overview: 'Lund University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Publications Search API and LUP Student Papers Search API. Tagged areas include University, Higher Education, Education, Sweden, and Europe.
+overview: 'Lund University publishes 1 API on the [APIs.io](https://apis.io/) network: Publications Search API. Tagged areas include University, Higher Education, Education, Sweden, and Europe.
 
 
   The Lund University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -245,7 +240,7 @@ plans:
 - name: Lund Plans Pricing
   plan_count: 2
   slug: lund-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Lund Rate Limits
@@ -273,7 +268,7 @@ rules:
   slug: lund-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 51.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 72.3
@@ -281,11 +276,11 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.9
   facets:
     access_clarity: 39.5
     contract_governance: 28.0
-    contract_quality: 26.8
+    contract_quality: 66.4
     developer_ergonomics: 45.2
     discoverability: 59.3
     operational_transparency: 26.3
@@ -303,9 +298,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 50.0
-      total: 2
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
   regulatory:
     applies: true
     matched_via: tags
@@ -313,8 +308,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

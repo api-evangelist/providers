@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Forta GraphQL API exposes the network's alerts and blockchain project threat-intelligence data. A single GraphQL endpoint accepts POST queries authenticated with a Bearer API key; the primary root
@@ -166,7 +166,7 @@ overview: 'Forta publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Forta''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 15
+random_paper: 12
 score:
   band: developing
   composite: 42.8
@@ -189,7 +189,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

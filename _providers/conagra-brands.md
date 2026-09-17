@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Read-only OData v3 service that supplies product and brand data to Conagra's consumer brand websites. The service document at /odata advertises six entity sets; two of them resolve — Products (2,267 r
@@ -143,7 +143,7 @@ plans:
 - name: Conagra Brands Plans Pricing
   plan_count: 0
   slug: conagra-brands-plans-pricing
-random_paper: 3
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Conagra Brands Rate Limits
@@ -176,7 +176,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

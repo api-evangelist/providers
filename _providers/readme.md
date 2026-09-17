@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -61,11 +61,6 @@ apis:
   description: Manage ReadMe API keys
   name: ReadMe API Keys API
   slug: readme-api-keys-api
-- baseURL: https://api.readme.com/v2
-  baseurl_source: declared
-  description: Manage API definitions and reference pages
-  name: ReadMe APIs API
-  slug: readme-apis-api
 - baseURL: https://api.readme.com/v2
   baseurl_source: declared
   description: Manage versions and branches
@@ -111,6 +106,11 @@ apis:
   description: Search knowledge base content
   name: ReadMe Search API
   slug: readme-search-api
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Manage API definitions and reference pages
+  name: ReadMe AP Is API
+  slug: readme-apis-api
 arazzos:
 - description: Create a branch (version), add a category, and seed it with a first guide.
   name: ReadMe Stand Up A New Version With Starter Docs
@@ -473,7 +473,7 @@ plans:
 - name: Readme Plans Pricing
   plan_count: 3
   slug: readme-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Readme Rate Limits
@@ -513,7 +513,7 @@ rules:
   slug: readme-rules
 score:
   band: developing
-  composite: 50.7
+  composite: 51.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 57.5
@@ -521,11 +521,11 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 53.9
     contract_governance: 28.8
-    contract_quality: 62.4
+    contract_quality: 64.8
     developer_ergonomics: 52.4
     discoverability: 66.7
     operational_transparency: 34.2
@@ -538,7 +538,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

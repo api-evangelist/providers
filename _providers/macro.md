@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Official hosted (remote) Model Context Protocol server for Macro. Connects AI clients over OAuth to search, read and act across a Macro workspace — email, messages, tasks, docs, threads, entities and '
@@ -149,7 +149,7 @@ overview: 'Macro publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Macro''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 13 more developer resources.'
-random_paper: 5
+random_paper: 2
 score:
   band: thin
   composite: 28.7
@@ -174,7 +174,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

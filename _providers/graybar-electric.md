@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Graybar's Azure API Management developer portal. The portal is publicly reachable and serves a sign-in/sign-up flow and a single published product ("Starter", the Azure APIM default), but the anonymou
@@ -126,7 +126,7 @@ press:
 - date: '2026-05-25'
   title: Explore how Graybar stays connected to customers
   url: https://www.sap.com/asset/dynamic/2025/03/febfef39-f87e-0010-bca6-c68f7e60039b.html
-random_paper: 15
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Graybar Electric Rate Limits
@@ -154,7 +154,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

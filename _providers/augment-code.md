@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: 'Cosmos is Augment''s unified agents platform for agentic software development at organizational scale. It bundles specialized agents — Work Dispatcher (triage), PR Author (first commit through merge), '
@@ -134,7 +134,7 @@ modified: '2026-05-23'
 name: Augment Code
 nav: Providers
 network: true
-overview: 'Augment Code publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Coding Agent, Context Engine, IDE Plugin, Cosmos, and Auggie CLI.
+overview: 'Augment Code publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Coding Agents, Context Engine, IDE Plugin, Cosmos, and Auggie CLI.
 
 
   Augment Code''s developer surface includes developer portal, documentation, engineering blog, signup flow, pricing, support, and 4 more developer resources.'
@@ -142,7 +142,7 @@ plans:
 - name: Augment Code Plans Pricing
   plan_count: 1
   slug: augment-code-plans-pricing
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Augment Code Rate Limits
@@ -167,7 +167,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 27.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -185,7 +185,7 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: augment-code
 tags:
-- AI Coding Agent
+- AI Coding Agents
 - Context Engine
 - IDE Plugin
 - Cosmos

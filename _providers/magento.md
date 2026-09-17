@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -354,11 +354,11 @@ jsonld:
   property_count: 8
   slug: magento-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Magento
 nav: Providers
 network: true
-overview: 'Magento publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Adobe Commerce Webhooks, Adobe Commerce Eventing, Authentication API, and 10 more.
+overview: 'Magento publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Adobe Commerce Webhooks, Adobe Commerce Eventing, Authentication API, and 10 more. Tagged areas include E-Commerce, Catalog, and Headless Commerce.
 
 
   The Magento catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -369,7 +369,7 @@ plans:
 - name: Magento Plans Pricing
   plan_count: 3
   slug: magento-plans-pricing
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Magento Rate Limits
@@ -422,11 +422,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -446,4 +443,8 @@ security:
   slug: magento-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
 slug: magento
+tags:
+- E-Commerce
+- Catalog
+- Headless Commerce
 ---

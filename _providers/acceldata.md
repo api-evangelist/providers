@@ -30,22 +30,22 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 56.3
-  scored_at: '2026-09-15'
+  score: 53.8
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 2
+- acting_count: 76
   human_in_the_loop: 0
   name: Acceldata Agentic Access
-  operation_count: 9
+  operation_count: 149
   slug: acceldata-agentic-access
-  summary_line: 9 operations · 2 acting
+  summary_line: 149 operations · 76 acting
 api_count: 3
 apis:
 - baseURL: https://api.acceldata.app/v1
@@ -83,21 +83,151 @@ apis:
   description: Manage users and user invitations
   name: Acceldata Users API
   slug: acceldata-users-api
-- baseURL: https://{adoc-host}
+- baseURL: https://api.acceldata.app/v1
   baseurl_source: declared
-  description: 'The ADOC data catalog surface: discover and search assets, read asset metadata, schema, samples, relationships and lineage, apply tags and labels, and create, schedule, execute and read the results of'
-  name: Acceldata Catalog API
-  slug: acceldata-catalog-api
-- baseURL: https://{adoc-host}
+  description: List and revoke API keys belonging to individual users or across the realm. API keys authenticate programmatic requests made on behalf of a user.
+  name: Acceldata API Keys API
+  slug: acceldata-api-keys-api
+- baseURL: https://api.acceldata.app/v1
   baseurl_source: declared
-  description: 'Tenant administration for ADOC: user and service-user lifecycle (create, update, disable), user group management, client role assignment, and API key issuance and revocation. SCIM-managed users and gr'
-  name: Acceldata Administration API
-  slug: acceldata-administration-api
-- baseURL: https://{adoc-host}
+  description: The Asset Activity API from Acceldata — 2 operation(s) for asset activity.
+  name: Acceldata Asset Activity API
+  slug: acceldata-asset-activity-api
+- baseURL: https://api.acceldata.app/v1
   baseurl_source: declared
-  description: Create and manage tag keys and values, search across tagged key/value pairs, and associate or retrieve unified tags on catalog entities — assets, policies, rules, rulesets, UDFs and labelers. A gRPC-t
-  name: Acceldata Tag Services API
+  description: The Asset Configuration API from Acceldata — 1 operation(s) for asset configuration.
+  name: Acceldata Asset Configuration API
+  slug: acceldata-asset-configuration-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Asset Metadata API from Acceldata — 1 operation(s) for asset metadata.
+  name: Acceldata Asset Metadata API
+  slug: acceldata-asset-metadata-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Asset Sampling API from Acceldata — 2 operation(s) for asset sampling.
+  name: Acceldata Asset Sampling API
+  slug: acceldata-asset-sampling-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Asset Tags & Labels API from Acceldata — 4 operation(s) for asset tags & labels.
+  name: Acceldata Asset Tags & Labels API
+  slug: acceldata-asset-tags-labels-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Asset Types API from Acceldata — 1 operation(s) for asset types.
+  name: Acceldata Asset Types API
+  slug: acceldata-asset-types-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Asset UDF Variables API from Acceldata — 2 operation(s) for asset udf variables.
+  name: Acceldata Asset UDF Variables API
+  slug: acceldata-asset-udf-variables-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Asset Watch API from Acceldata — 2 operation(s) for asset watch.
+  name: Acceldata Asset Watch API
+  slug: acceldata-asset-watch-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Assign and remove client (platform) roles for a user. Client roles determine which platform-wide actions a user can perform, independent of any domain-scoped access.
+  name: Acceldata Client Roles API
+  slug: acceldata-client-roles-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Custom Assets API from Acceldata — 1 operation(s) for custom assets.
+  name: Acceldata Custom Assets API
+  slug: acceldata-custom-assets-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Data Cadence Rules API from Acceldata — 3 operation(s) for data cadence rules.
+  name: Acceldata Data Cadence Rules API
+  slug: acceldata-data-cadence-rules-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Data Drift Rules API from Acceldata — 8 operation(s) for data drift rules.
+  name: Acceldata Data Drift Rules API
+  slug: acceldata-data-drift-rules-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete user groups, and view the roles available to a group. Groups let administrators assign roles and permissions to multiple users at once instead of managing them ind
+  name: Acceldata Group Management API
+  slug: acceldata-group-management-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Profile Anomaly Rules API from Acceldata — 5 operation(s) for profile anomaly rules.
+  name: Acceldata Profile Anomaly Rules API
+  slug: acceldata-profile-anomaly-rules-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Self-service account operations, such as triggering a forgot-password email for a user.
+  name: Acceldata Profile Update API
+  slug: acceldata-profile-update-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Reconciliation Rules API from Acceldata — 12 operation(s) for reconciliation rules.
+  name: Acceldata Reconciliation Rules API
+  slug: acceldata-reconciliation-rules-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Reference Assets API from Acceldata — 1 operation(s) for reference assets.
+  name: Acceldata Reference Assets API
+  slug: acceldata-reference-assets-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Retrieve the client roles currently assigned to a user.
+  name: Acceldata Role Mapping API
+  slug: acceldata-role-mapping-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Rule Configuration API from Acceldata — 2 operation(s) for rule configuration.
+  name: Acceldata Rule Configuration API
+  slug: acceldata-rule-configuration-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Rule Tags API from Acceldata — 1 operation(s) for rule tags.
+  name: Acceldata Rule Tags API
+  slug: acceldata-rule-tags-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Rules API from Acceldata — 2 operation(s) for rules.
+  name: Acceldata Rules API
+  slug: acceldata-rules-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The Schema Drift Rules API from Acceldata — 6 operation(s) for schema drift rules.
+  name: Acceldata Schema Drift Rules API
+  slug: acceldata-schema-drift-rules-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: 'Create, retrieve, update, and manage service users — non-human identities used for automated access and system-to-system integrations in place of personal user API keys. Includes assigning roles to a '
+  name: Acceldata Service Users API
+  slug: acceldata-service-users-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Unified tag association endpoints (associate tags with, and read tags for, catalog entities)
+  name: Acceldata Tag Associations API
+  slug: acceldata-tag-associations-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Create tag keys, add values to a key, and search across tag key/value pairs.
+  name: Acceldata Tags API
   slug: acceldata-tags-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The UDF Templates API from Acceldata — 2 operation(s) for udf templates.
+  name: Acceldata UDF Templates API
+  slug: acceldata-udf-templates-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: The UDF Validation API from Acceldata — 2 operation(s) for udf validation.
+  name: Acceldata UDF Validation API
+  slug: acceldata-udf-validation-api
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Create, retrieve, update, and remove users, and manage their group memberships. Users provisioned through SCIM are synced from the identity provider and have restricted edit and delete operations.
+  name: Acceldata User Management API
+  slug: acceldata-user-management-api
 arazzos:
 - description: List organization users and the platform roles so access can be reviewed against defined permissions.
   name: Acceldata Access Review
@@ -120,7 +250,7 @@ arazzos:
 - description: Resolve a dataset, pull its open alerts, and acknowledge the most severe one.
   name: Acceldata Triage Dataset Alerts
   slug: acceldata-triage-dataset-alerts-workflow
-artifact_total: 105
+artifact_total: 131
 collections:
 - collection_type: postman
   name: Acceldata - Data Observability Cloud API
@@ -150,6 +280,36 @@ collections:
   name: Acceldata - Data Observability Cloud Alerts Users API
   slug: open-acceldata-users-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/overlays/acceldata-catalog-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/acceldata-catalog-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/skills/acceldata-create-and-run-data-quality-policy.md
+  title: ''
+  type: AgentSkill
+  url: skills/acceldata-create-and-run-data-quality-policy.md
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/skills/acceldata-discover-and-tag-assets.md
+  title: ''
+  type: AgentSkill
+  url: skills/acceldata-discover-and-tag-assets.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/overlays/acceldata-administration-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/acceldata-administration-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/skills/acceldata-provision-service-user-and-api-key.md
+  title: ''
+  type: AgentSkill
+  url: skills/acceldata-provision-service-user-and-api-key.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/overlays/acceldata-tags-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/acceldata-tags-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/agentic-access/acceldata-agentic-access.yml
   title: ''
@@ -586,18 +746,18 @@ modified: '2026-08-29'
 name: Acceldata
 nav: Providers
 network: true
-overview: 'Acceldata publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Data Quality Rules API, Datasets API, and 7 more. Tagged areas include AI Agents, Data Management, Data Observability, Data Pipeline, and Data Quality.
+overview: 'Acceldata publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Data Quality Rules API, Datasets API, and 33 more. Tagged areas include AI Agents, Data Management, Data Observability, Data Pipeline, and Data Quality.
 
 
   The Acceldata catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Acceldata''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 44 more developer resources.'
+  Acceldata''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 50 more developer resources.'
 plans:
 - name: Acceldata Plans Pricing
   plan_count: 4
   slug: acceldata-plans-pricing
-random_paper: 11
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Acceldata Rate Limits
@@ -630,36 +790,36 @@ scopes:
   slug: acceldata-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.7
+  band: strong
+  composite: 58.0
   coverage:
     artifact_dirs: 32
-    catalog_earned: 79.5
+    catalog_earned: 59.5
     catalog_earned_first_party: 12.0
-    catalog_gap: 35.5
+    catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 32.7
+    contract_quality: 57.1
     developer_ergonomics: 41.1
-    discoverability: 75.9
+    discoverability: 57.4
     operational_transparency: 36.8
   previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
-      derived: 8
-      marker_coverage: 100.0
-      total: 8
+      callable: 21.6
+      derived: 7
+      marker_coverage: 18.9
+      total: 37
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

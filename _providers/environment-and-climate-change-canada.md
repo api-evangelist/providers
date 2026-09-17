@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'An OGC-standard GeoServer at geo.ec.gc.ca. Probed anonymously on 2026-08-20: the WMS 1.3.0 GetCapabilities request returned HTTP 200 with a valid WMS_Capabilities document titled "ECCC Web Map Service'
@@ -46,7 +46,7 @@ name: Environment and Climate Change Canada
 nav: Providers
 network: true
 overview: Environment and Climate Change Canada publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, OGC, WMS, GIS, and Empty Surface.
-random_paper: 8
+random_paper: 11
 score:
   band: minimal
   composite: 7.8
@@ -72,7 +72,7 @@ score:
     - north-america
   previous_composite: 7.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The GraphQL API behind DNA Script's SYNTAX Console Software — the fleet-management layer customers use to design plate templates, upload oligo sequence files, schedule and start synthesis runs, monito
@@ -142,7 +142,7 @@ overview: 'DNA Script publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   DNA Script''s developer surface includes FAQ, support, engineering blog, product news, YouTube channel, and 16 more developer resources.'
-random_paper: 5
+random_paper: 1
 score:
   band: emerging
   composite: 21.5
@@ -171,7 +171,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

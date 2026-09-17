@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -92,11 +92,6 @@ apis:
   slug: payabli-ghostcard-api
 - baseURL: https://api.payabli.com/api
   baseurl_source: declared
-  description: The hostedPaymentPages API from Payabli — 3 operation(s) for hostedpaymentpages.
-  name: Payabli hostedPaymentPages API
-  slug: payabli-hostedpaymentpages-api
-- baseURL: https://api.payabli.com/api
-  baseurl_source: declared
   description: The Import API from Payabli — 3 operation(s) for import.
   name: Payabli Import API
   slug: payabli-import-api
@@ -105,11 +100,6 @@ apis:
   description: The Invoice API from Payabli — 8 operation(s) for invoice.
   name: Payabli Invoice API
   slug: payabli-invoice-api
-- baseURL: https://api.payabli.com/api
-  baseurl_source: declared
-  description: The lineItem API from Payabli — 3 operation(s) for lineitem.
-  name: Payabli lineItem API
-  slug: payabli-lineitem-api
 - baseURL: https://api.payabli.com/api
   baseurl_source: declared
   description: The Management API from Payabli — 1 operation(s) for management.
@@ -145,11 +135,6 @@ apis:
   description: The Organization API from Payabli — 6 operation(s) for organization.
   name: Payabli Organization API
   slug: payabli-organization-api
-- baseURL: https://api.payabli.com/api
-  baseurl_source: declared
-  description: The paymentLink API from Payabli — 11 operation(s) for paymentlink.
-  name: Payabli paymentLink API
-  slug: payabli-paymentlink-api
 - baseURL: https://api.payabli.com/api
   baseurl_source: declared
   description: The paymentMethodDomain API from Payabli — 5 operation(s) for paymentmethoddomain.
@@ -215,6 +200,21 @@ apis:
   description: The Webhooks API from Payabli — 0 operation(s) for webhooks.
   name: Payabli Webhooks API
   slug: payabli-webhooks-api
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Hosted Payment Pages API from Payabli — 3 operation(s) for hosted payment pages.
+  name: Payabli Hosted Payment Pages API
+  slug: payabli-hosted-payment-pages-api
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Line Item API from Payabli — 3 operation(s) for line item.
+  name: Payabli Line Item API
+  slug: payabli-line-item-api
+- baseURL: https://api.payabli.com/api
+  baseurl_source: declared
+  description: The Payment Link API from Payabli — 11 operation(s) for payment link.
+  name: Payabli Payment Link API
+  slug: payabli-payment-link-api
 artifact_total: 106
 collections:
 - collection_type: postman
@@ -628,7 +628,7 @@ overview: 'Payabli publishes 34 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Payabli''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 35 more developer resources.'
-random_paper: 3
+random_paper: 12
 score:
   band: strong
   composite: 60.0
@@ -665,7 +665,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

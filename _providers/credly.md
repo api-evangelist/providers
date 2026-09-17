@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -152,7 +152,7 @@ modified: '2026-07-05'
 name: Credly
 nav: Providers
 network: true
-overview: 'Credly publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Badge Templates API, Events API, Issued Badges API, and 2 more. Tagged areas include Digital Credentials, Open Badges, Badging, Certifications, and Verifiable Credentials.
+overview: 'Credly publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Badge Templates API, Events API, Issued Badges API, and 2 more. Tagged areas include Digital Credentials, Open Badges, Badging, Certification, and Verifiable Credentials.
 
 
   Credly''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -160,7 +160,7 @@ plans:
 - name: Credly Plans Pricing
   plan_count: 2
   slug: credly-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Credly Rate Limits
@@ -197,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -217,7 +217,7 @@ tags:
 - Digital Credentials
 - Open Badges
 - Badging
-- Certifications
+- Certification
 - Verifiable Credentials
 - Pearson
 website: https://credly.com

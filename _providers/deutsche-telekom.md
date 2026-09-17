@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 6
@@ -94,11 +94,6 @@ apis:
   description: Manage ApiRoadmaps
   name: Deutsche Telekom ApiRoadmap API
   slug: deutsche-telekom-apiroadmap-api
-- baseURL_template: https://{host}/rover/v3
-  baseurl_source: spec_template
-  description: Manage ApiSpecifications
-  name: Deutsche Telekom ApiSpecification API
-  slug: deutsche-telekom-apispecification-api
 - baseURL: https://api.telekom.de/stargate/v2
   baseurl_source: spec
   description: After an API is successful subscribed, you are able to use the API. It is only possible to subscribe to the entire API. It is not possible to subscribe only to a single resource
@@ -161,11 +156,6 @@ apis:
   description: An EventSubscription declares that your application wants to receive events of a specific type. You can configure the delivery mechanism (callback or server-sent events), payload format, and subscribe
   name: Deutsche Telekom EventSubscription API
   slug: deutsche-telekom-eventsubscription-api
-- baseURL: https://api.telekom.de/event/v2
-  baseurl_source: spec
-  description: An EventType is a registry entry representing a known event type. It serves as the canonical reference that both EventExposures and EventSubscriptions point to. EventTypes are identified by a dot-sepa
-  name: Deutsche Telekom EventType API
-  slug: deutsche-telekom-eventtype-api
 - description: The Groups API from Deutsche Telekom — 6 operation(s) for groups.
   name: Deutsche Telekom Groups API
   slug: deutsche-telekom-groups-api
@@ -227,6 +217,16 @@ apis:
 - description: The Users API from Deutsche Telekom — 24 operation(s) for users.
   name: Deutsche Telekom Users API
   slug: deutsche-telekom-users-api
+- baseURL_template: https://{host}/rover/v3
+  baseurl_source: spec_template
+  description: Manage ApiSpecifications
+  name: Deutsche Telekom API Specification API
+  slug: deutsche-telekom-api-specification-api
+- baseURL: https://api.telekom.de/event/v2
+  baseurl_source: spec
+  description: An EventType is a registry entry representing a known event type. It serves as the canonical reference that both EventExposures and EventSubscriptions point to. EventTypes are identified by a dot-sepa
+  name: Deutsche Telekom Event Type API
+  slug: deutsche-telekom-event-type-api
 artifact_total: 115
 collections:
 - collection_type: open
@@ -544,11 +544,11 @@ modified: '2026-05-25'
 name: Deutsche Telekom
 nav: Providers
 network: true
-overview: 'Deutsche Telekom publishes 38 APIs on the [APIs.io](https://apis.io/) network, including ApiChangelog API, ApiExposure API, ApiRoadmap API, and 35 more. Tagged areas include Telecommunications, Telco, Mobile Network Operator, CPaaS, and Network API.
+overview: 'Deutsche Telekom publishes 38 APIs on the [APIs.io](https://apis.io/) network, including ApiChangelog API, ApiExposure API, ApiRoadmap API, and 35 more. Tagged areas include Telecommunications, Telco, Mobile Network Operator, CPaaS, and Network APIs.
 
 
   Deutsche Telekom''s developer surface includes authentication, YouTube channel, documentation, getting-started guide, engineering blog, and 31 more developer resources.'
-random_paper: 13
+random_paper: 1
 scopes:
 - name: Deutsche Telekom Scopes
   scope_count: 13
@@ -556,7 +556,7 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: thin
-  composite: 28.6
+  composite: 28.7
   coverage:
     artifact_dirs: 8
     catalog_earned: 32.0
@@ -564,11 +564,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 48.4
+    contract_quality: 48.9
     developer_ergonomics: 19.0
     discoverability: 59.3
     operational_transparency: 18.4
@@ -595,7 +595,7 @@ score:
     regime_id: telecommunications
     score: 48.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -620,7 +620,7 @@ tags:
 - Telco
 - Mobile Network Operator
 - CPaaS
-- Network API
+- Network APIs
 - 5G
 - Cloud
 - Identity

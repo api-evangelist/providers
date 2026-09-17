@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -190,14 +190,14 @@ apis:
   slug: enphase-enlighten-vpp-api
 - baseURL: https://api.enphaseenergy.com/api/v4
   baseurl_source: declared
-  description: The Device Level Production Monitoring API from Enphase Energy — 3 operation(s) for device level production monitoring.
+  description: The Device Level Production Monitoring API from Enphase Energy — 1 operation(s) for device level production monitoring.
   name: Enphase Energy Device Level Production Monitoring API
-  slug: enphase-energy-device-level-production-monitoring-api
+  slug: enphase-device-level-production-monitoring-api
 - baseURL: https://api.enphaseenergy.com/api/v4
   baseurl_source: declared
   description: The Systems API from Enphase Energy — 13 operation(s) for systems.
   name: Enphase Energy Systems API
-  slug: enphase-energy-systems-api
+  slug: enphase-systems-api
 artifact_total: 42
 asyncapis:
 - description: Server-sent event stream of a single Enphase system's real-time power state. Derived by API Evangelist from the published Monitoring API operation getLiveData, which produces text/event-stream and car
@@ -457,7 +457,7 @@ plans:
 - name: Enphase Plans
   plan_count: 5
   slug: enphase-plans
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 8
   name: Enphase Rate Limits
@@ -469,7 +469,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.6
+  composite: 68.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 61.0
@@ -477,11 +477,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 60.6
+    contract_quality: 61.8
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 68.4
@@ -510,7 +510,7 @@ score:
     regime_id: energy_utilities
     score: 75.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

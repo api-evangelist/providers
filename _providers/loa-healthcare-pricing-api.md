@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Hosted/remote MCP server 'LOA Healthcare Pricing' v1.0.0 over Streamable HTTP with 12 tools for CPT search, procedure suggestions, provider/hospital search, pricing estimates, market pricing, entity p
@@ -192,7 +192,7 @@ plans:
 - name: Loa Healthcare Pricing Api Plans Pricing
   plan_count: 2
   slug: loa-healthcare-pricing-api-plans-pricing
-random_paper: 13
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Loa Healthcare Pricing Api Rate Limits
@@ -237,7 +237,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

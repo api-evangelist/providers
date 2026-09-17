@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: DTE Energy powers OpenAI Stargate with 1.4 GW data ...
   url: https://www.linkedin.com/posts/bill-chiu-b1aba93_expanding-stargate-to-michigan-activity-7392582899608215552-POq5
-random_paper: 4
+random_paper: 0
 score:
   band: minimal
   composite: 2.9
@@ -103,7 +103,7 @@ score:
     - north-america
   previous_composite: 2.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ modified: '2026-07-01'
 name: WorkMotion
 nav: Providers
 network: true
-overview: 'WorkMotion publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Contracts API, Cost Calculator API, and 4 more. Tagged areas include Employer of Record, Global Employment, HR, Payroll, and Onboarding.
+overview: 'WorkMotion publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Contracts API, Cost Calculator API, and 4 more. Tagged areas include Employer of Record, Global Employment, Human Resources, Payroll, and Onboarding.
 
 
   WorkMotion''s developer surface includes authentication, engineering blog, documentation, and 7 more developer resources.'
@@ -175,7 +175,7 @@ plans:
 - name: Workmotion Plans Pricing
   plan_count: 4
   slug: workmotion-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Workmotion Rate Limits
@@ -207,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -226,7 +226,7 @@ slug: workmotion
 tags:
 - Employer of Record
 - Global Employment
-- HR
+- Human Resources
 - Payroll
 - Onboarding
 - Contractors

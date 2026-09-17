@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -701,11 +701,11 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Claude
 nav: Providers
 network: true
-overview: 'Claude publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Message Batches API, Models API, and 3 more. Tagged areas include Artificial Intelligence, Chatbots, Conversational AI, Generative AI, and Large Language Models.
+overview: 'Claude publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Message Batches API, Models API, and 3 more. Tagged areas include Artificial Intelligence, Chatbots, Conversational AI, Generative AI, and LLM.
 
 
   The Claude catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -716,7 +716,7 @@ plans:
 - name: Claude Plans Pricing
   plan_count: 13
   slug: claude-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 38
   name: Claude Rate Limits
@@ -770,7 +770,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -795,7 +795,7 @@ tags:
 - Chatbots
 - Conversational AI
 - Generative AI
-- Large Language Models
+- LLM
 - Machine-Learning
 - Natural Language Processing
 use_cases:

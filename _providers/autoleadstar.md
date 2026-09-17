@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
@@ -240,7 +240,7 @@ modified: '2026-08-14'
 name: AutoLeadStar
 nav: Providers
 network: true
-overview: 'AutoLeadStar publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Appointments API, Audiences API, and 4 more. Tagged areas include Company, Automotive, Customer Data Platform, Marketing Automation, and Dealerships.
+overview: 'AutoLeadStar publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Appointments API, Audiences API, and 4 more. Tagged areas include Company, Automotive, Customer Data Platform, Marketing Automation, and Dealership.
 
 
   AutoLeadStar''s developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, and 21 more developer resources.'
@@ -248,7 +248,7 @@ plans:
 - name: Autoleadstar Plans Pricing
   plan_count: 0
   slug: autoleadstar-plans-pricing
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Autoleadstar Rate Limits
@@ -287,7 +287,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -316,7 +316,7 @@ tags:
 - Automotive
 - Customer Data Platform
 - Marketing Automation
-- Dealerships
+- Dealership
 - Advertising
 - Artificial Intelligence
 - Consent Management

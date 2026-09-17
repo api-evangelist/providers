@@ -16,15 +16,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: templated
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.2
-  scored_at: '2026-09-15'
+  score: 54.6
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 5
@@ -34,20 +34,195 @@ agentic_access:
   summary_line: 167 operations · 98 acting · 5 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://{tenant}.aembit.io
-  baseurl_source: declared
-  description: The Aembit Cloud API is the management and control plane contract for the Aembit platform. It exposes 165 operations across 74 paths for Access Policies, Access Conditions, Client and Server Workloads
-  name: Aembit Cloud API
-  slug: aembit-cloud-api
-- baseURL: https://{tenant}.aembit.io
-  baseurl_source: declared
-  description: The Aembit Edge API is the workload-facing runtime contract. Two operations let a Client Workload bootstrap a session by presenting attestation evidence to a configured Trust Provider (POST /edge/v1/a
-  name: Aembit Edge API
-  slug: aembit-edge-api
 - description: A first-party hosted Model Context Protocol server that gives AI agents and MCP clients read-only access to a tenant's Aembit event logs. Three tools — get_audit_logs, get_auth_events and get_workload
   name: Aembit MCP Server
   slug: aembit-mcp-server
-artifact_total: 12
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Access Authorization Event API from Aembit — 2 operation(s) for access authorization event.
+  name: Aembit Access Authorization Event API
+  slug: aembit-access-authorization-event-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Access Condition API from Aembit — 2 operation(s) for access condition.
+  name: Aembit Access Condition API
+  slug: aembit-access-condition-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Access Condition v2 API from Aembit — 2 operation(s) for access condition v2.
+  name: Aembit Access Condition v2 API
+  slug: aembit-access-condition-v2-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Access Policy (Deprecated) API from Aembit — 4 operation(s) for access policy (deprecated).
+  name: Aembit Access Policy (Deprecated) API
+  slug: aembit-access-policy-deprecated-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Access Policy v2 API from Aembit — 5 operation(s) for access policy v2.
+  name: Aembit Access Policy v2 API
+  slug: aembit-access-policy-v2-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Agent Controller API from Aembit — 3 operation(s) for agent controller.
+  name: Aembit Agent Controller API
+  slug: aembit-agent-controller-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Audit Log API from Aembit — 2 operation(s) for audit log.
+  name: Aembit Audit Log API
+  slug: aembit-audit-log-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Auth API from Aembit — 1 operation(s) for auth.
+  name: Aembit Auth API
+  slug: aembit-auth-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Client Workload API from Aembit — 3 operation(s) for client workload.
+  name: Aembit Client Workload API
+  slug: aembit-client-workload-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Compliance API from Aembit — 1 operation(s) for compliance.
+  name: Aembit Compliance API
+  slug: aembit-compliance-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Content Security API from Aembit — 2 operation(s) for content security.
+  name: Aembit Content Security API
+  slug: aembit-content-security-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Credential Provider (Deprecated) API from Aembit — 4 operation(s) for credential provider (deprecated).
+  name: Aembit Credential Provider (Deprecated) API
+  slug: aembit-credential-provider-deprecated-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Credential Provider Integration API from Aembit — 3 operation(s) for credential provider integration.
+  name: Aembit Credential Provider Integration API
+  slug: aembit-credential-provider-integration-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Credential Provider v2 API from Aembit — 4 operation(s) for credential provider v2.
+  name: Aembit Credential Provider v2 API
+  slug: aembit-credential-provider-v2-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Credentials API from Aembit — 1 operation(s) for credentials.
+  name: Aembit Credentials API
+  slug: aembit-credentials-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The DiscoveryIntegration API from Aembit — 2 operation(s) for discoveryintegration.
+  name: Aembit Discovery Integration API
+  slug: aembit-discoveryintegration-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The DiscoveryServerWorkloadDraft API from Aembit — 1 operation(s) for discoveryserverworkloaddraft.
+  name: Aembit Discovery Server Workload Draft API
+  slug: aembit-discoveryserverworkloaddraft-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Health API from Aembit — 1 operation(s) for health.
+  name: Aembit Health API
+  slug: aembit-health-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Integration API from Aembit — 2 operation(s) for integration.
+  name: Aembit Integration API
+  slug: aembit-integration-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Integration v2 API from Aembit — 2 operation(s) for integration v2.
+  name: Aembit Integration v2 API
+  slug: aembit-integration-v2-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Log Stream API from Aembit — 2 operation(s) for log stream.
+  name: Aembit Log Stream API
+  slug: aembit-log-stream-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The MFA SignOn Policy API from Aembit — 1 operation(s) for mfa signon policy.
+  name: Aembit MFA SignOn Policy API
+  slug: aembit-mfa-signon-policy-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Policy API from Aembit — 1 operation(s) for policy.
+  name: Aembit Policy API
+  slug: aembit-policy-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Resource Set API from Aembit — 2 operation(s) for resource set.
+  name: Aembit Resource Set API
+  slug: aembit-resource-set-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Role API from Aembit — 2 operation(s) for role.
+  name: Aembit Role API
+  slug: aembit-role-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Routing API from Aembit — 2 operation(s) for routing.
+  name: Aembit Routing API
+  slug: aembit-routing-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Server Workload API from Aembit — 2 operation(s) for server workload.
+  name: Aembit Server Workload API
+  slug: aembit-server-workload-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The SignOn Policy API from Aembit — 1 operation(s) for signon policy.
+  name: Aembit SignOn Policy API
+  slug: aembit-signon-policy-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The SSO Identity Provider API from Aembit — 3 operation(s) for sso identity provider.
+  name: Aembit SSO Identity Provider API
+  slug: aembit-sso-identity-provider-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The SSO SignOn Policy API from Aembit — 1 operation(s) for sso signon policy.
+  name: Aembit SSO SignOn Policy API
+  slug: aembit-sso-signon-policy-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Standalone Certificate Authority API from Aembit — 2 operation(s) for standalone certificate authority.
+  name: Aembit Standalone Certificate Authority API
+  slug: aembit-standalone-certificate-authority-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Standalone TLS Decrypt API from Aembit — 1 operation(s) for standalone tls decrypt.
+  name: Aembit Standalone TLS Decrypt API
+  slug: aembit-standalone-tls-decrypt-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The TLS Decrypt API from Aembit — 1 operation(s) for tls decrypt.
+  name: Aembit TLS Decrypt API
+  slug: aembit-tls-decrypt-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Trust Provider API from Aembit — 2 operation(s) for trust provider.
+  name: Aembit Trust Provider API
+  slug: aembit-trust-provider-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Trust Provider Secret API from Aembit — 2 operation(s) for trust provider secret.
+  name: Aembit Trust Provider Secret API
+  slug: aembit-trust-provider-secret-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The User API from Aembit — 3 operation(s) for user.
+  name: Aembit User API
+  slug: aembit-user-api
+- baseURL: https://{tenant}.aembit.io
+  baseurl_source: declared
+  description: The Workload Event API from Aembit — 2 operation(s) for workload event.
+  name: Aembit Workload Event API
+  slug: aembit-workload-event-api
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Aembit Event Surface
@@ -248,7 +423,7 @@ modified: '2026-09-09'
 name: Aembit
 nav: Providers
 network: true
-overview: 'Aembit publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cloud API and Edge API. Tagged areas include Security, Identity, Access Management, Workload Identity, and Non-Human Identity.
+overview: 'Aembit publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Access Authorization Event API, Access Condition API, Access Condition v2 API, and 34 more. Tagged areas include Security, Identity, Access Management, Workload Identity, and Non-Human Identity.
 
 
   The Aembit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -259,14 +434,14 @@ plans:
 - name: Aembit Plans Pricing
   plan_count: 6
   slug: aembit-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Aembit Rate Limits
   slug: aembit-rate-limits
 score:
   band: exemplar
-  composite: 71.5
+  composite: 71.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 61.0
@@ -274,11 +449,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 65.1
+    contract_quality: 66.0
     developer_ergonomics: 76.8
     discoverability: 75.9
     operational_transparency: 84.2
@@ -290,11 +465,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 37
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

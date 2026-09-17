@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api-gateway.airmeet.com/prod
@@ -266,7 +266,7 @@ overview: 'Airmeet publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Airmeet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 24 more developer resources.'
-random_paper: 8
+random_paper: 17
 score:
   band: developing
   composite: 49.0
@@ -296,7 +296,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

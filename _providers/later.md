@@ -33,17 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Later's social media scheduling and management platform providing visual content planning, scheduling, analytics, and influencer marketing capabilities across major social platforms.
   name: Later Social Media Platform
   slug: later-social-media-platform
-- baseURL: https://app.later.com/
-  baseurl_source: declared
-  description: The AccountInvitations API from Later — 5 operation(s) for accountinvitations.
-  name: Later Account Invitations API
-  slug: later-accountinvitations-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
   description: The Action Groups API from Later — 2 operation(s) for action groups.
@@ -74,11 +69,6 @@ apis:
   description: The ActionGroupCustomStatuses API from Later — 5 operation(s) for actiongroupcustomstatuses.
   name: Later Action Group Custom Statuses API
   slug: later-actiongroupcustomstatuses-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
-  description: The ActionGroups API from Later — 14 operation(s) for actiongroups.
-  name: Later Action Groups API
-  slug: later-actiongroups-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
   description: The ActionGroupScheduledMessages API from Later — 3 operation(s) for actiongroupscheduledmessages.
@@ -154,11 +144,6 @@ apis:
   description: The Backfill Analytics API from Later — 2 operation(s) for backfill analytics.
   name: Later Backfill Analytics API
   slug: later-backfill-analytics-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
-  description: The BatchJobs API from Later — 2 operation(s) for batchjobs.
-  name: Later Batch Jobs API
-  slug: later-batchjobs-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
   description: The BazaarVoice API from Later — 2 operation(s) for bazaarvoice.
@@ -301,11 +286,6 @@ apis:
   slug: later-datapoints-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
-  description: The DataSubjectRequest API from Later — 1 operation(s) for datasubjectrequest.
-  name: Later Data Subject Request API
-  slug: later-datasubjectrequest-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
   description: The DBInfluencerAgreementHistoryFields API from Later — 1 operation(s) for dbinfluenceragreementhistoryfields.
   name: Later DB Influencer Agreement History Fields API
   slug: later-dbinfluenceragreementhistoryfields-api
@@ -341,39 +321,14 @@ apis:
   slug: later-email-suppressions-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
-  description: The EmailSettings API from Later — 3 operation(s) for emailsettings.
-  name: Later Email Settings API
-  slug: later-emailsettings-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
   description: The Entitlements API from Later — 2 operation(s) for entitlements.
   name: Later Entitlements API
   slug: later-entitlements-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
-  description: The EventLogs API from Later — 1 operation(s) for eventlogs.
-  name: Later Event Logs API
-  slug: later-eventlogs-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
-  description: The ExchangeRates API from Later — 1 operation(s) for exchangerates.
-  name: Later Exchange Rates API
-  slug: later-exchangerates-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
-  description: The ExpiringAccessTokens API from Later — 1 operation(s) for expiringaccesstokens.
-  name: Later Expiring Access Tokens API
-  slug: later-expiringaccesstokens-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
   description: The Exports API from Later — 4 operation(s) for exports.
   name: Later Exports API
   slug: later-exports-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
-  description: The ExternalClients API from Later — 5 operation(s) for externalclients.
-  name: Later External Clients API
-  slug: later-externalclients-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
   description: The FacebookProfile API from Later — 1 operation(s) for facebookprofile.
@@ -389,11 +344,6 @@ apis:
   description: The Features API from Later — 2 operation(s) for features.
   name: Later Features API
   slug: later-features-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
-  description: The GiftCards API from Later — 3 operation(s) for giftcards.
-  name: Later Gift Cards API
-  slug: later-giftcards-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
   description: The GlobalUser API from Later — 22 operation(s) for globaluser.
@@ -512,7 +462,7 @@ apis:
 - baseURL: https://app.later.com/
   baseurl_source: declared
   description: The LaterInfluencer API from Later — 37 operation(s) for laterinfluencer.
-  name: Later Later Influencer API
+  name: Later Influencer API
   slug: later-laterinfluencer-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
@@ -631,16 +581,6 @@ apis:
   slug: later-openaisearch-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
-  description: The OptIn API from Later — 3 operation(s) for optin.
-  name: Later Opt In API
-  slug: later-optin-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
-  description: The PaymentAccount API from Later — 9 operation(s) for paymentaccount.
-  name: Later Payment Account API
-  slug: later-paymentaccount-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
   description: The PaymentAppAdmins API from Later — 1 operation(s) for paymentappadmins.
   name: Later Payment App Admins API
   slug: later-paymentappadmins-api
@@ -726,11 +666,6 @@ apis:
   slug: later-public-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
-  description: The ReferralProgram API from Later — 1 operation(s) for referralprogram.
-  name: Later Referral Program API
-  slug: later-referralprogram-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
   description: The Reports API from Later — 1 operation(s) for reports.
   name: Later Reports API
   slug: later-reports-api
@@ -806,11 +741,6 @@ apis:
   slug: later-specs-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
-  description: The StripePayments API from Later — 9 operation(s) for stripepayments.
-  name: Later Stripe Payments API
-  slug: later-stripepayments-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
   description: The Subscribers API from Later — 3 operation(s) for subscribers.
   name: Later Subscribers API
   slug: later-subscribers-api
@@ -861,11 +791,6 @@ apis:
   slug: later-tracking-link-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
-  description: The TrackingLinks API from Later — 2 operation(s) for trackinglinks.
-  name: Later Tracking Links API
-  slug: later-trackinglinks-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
   description: The Translations API from Later — 1 operation(s) for translations.
   name: Later Translations API
   slug: later-translations-api
@@ -879,11 +804,6 @@ apis:
   description: The URLMetadata API from Later — 1 operation(s) for urlmetadata.
   name: Later URL Metadata API
   slug: later-urlmetadata-api
-- baseURL: https://app.later.com/
-  baseurl_source: declared
-  description: The UserAccount API from Later — 3 operation(s) for useraccount.
-  name: Later User Account API
-  slug: later-useraccount-api
 - baseURL: https://app.later.com/
   baseurl_source: declared
   description: The Webhooks API from Later — 1 operation(s) for webhooks.
@@ -914,7 +834,82 @@ apis:
   description: The YtbcBrandChannels API from Later — 2 operation(s) for ytbcbrandchannels.
   name: Later Ytbc Brand Channels API
   slug: later-ytbcbrandchannels-api
-artifact_total: 185
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Account Invitations API from Later — 5 operation(s) for account invitations.
+  name: Later Account Invitations API
+  slug: later-account-invitations-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Batch Jobs API from Later — 2 operation(s) for batch jobs.
+  name: Later Batch Jobs API
+  slug: later-batch-jobs-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Data Subject Request API from Later — 1 operation(s) for data subject request.
+  name: Later Data Subject Request API
+  slug: later-data-subject-request-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Email Settings API from Later — 3 operation(s) for email settings.
+  name: Later Email Settings API
+  slug: later-email-settings-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Event Logs API from Later — 1 operation(s) for event logs.
+  name: Later Event Logs API
+  slug: later-event-logs-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Exchange Rates API from Later — 1 operation(s) for exchange rates.
+  name: Later Exchange Rates API
+  slug: later-exchange-rates-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Expiring Access Tokens API from Later — 1 operation(s) for expiring access tokens.
+  name: Later Expiring Access Tokens API
+  slug: later-expiring-access-tokens-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The External Clients API from Later — 5 operation(s) for external clients.
+  name: Later External Clients API
+  slug: later-external-clients-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Gift Cards API from Later — 3 operation(s) for gift cards.
+  name: Later Gift Cards API
+  slug: later-gift-cards-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Opt In API from Later — 3 operation(s) for opt in.
+  name: Later Opt In API
+  slug: later-opt-in-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Payment Account API from Later — 9 operation(s) for payment account.
+  name: Later Payment Account API
+  slug: later-payment-account-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Referral Program API from Later — 1 operation(s) for referral program.
+  name: Later Referral Program API
+  slug: later-referral-program-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Stripe Payments API from Later — 9 operation(s) for stripe payments.
+  name: Later Stripe Payments API
+  slug: later-stripe-payments-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The Tracking Links API from Later — 2 operation(s) for tracking links.
+  name: Later Tracking Links API
+  slug: later-tracking-links-api
+- baseURL: https://app.later.com/
+  baseurl_source: declared
+  description: The User Account API from Later — 3 operation(s) for user account.
+  name: Later User Account API
+  slug: later-user-account-api
+artifact_total: 184
 asyncapis:
 - description: ''
   name: Later Influence Webhooks
@@ -987,10 +982,10 @@ common:
   type: FinOps
   url: finops/later-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/later-influence-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/openapi/_original/later-influence-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/later-influence-api-openapi.json
+  url: openapi/_original/later-influence-api-openapi.json
 - group: docs
   title: ''
   type: APIReference
@@ -1102,11 +1097,11 @@ finops:
   slug: later-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/later.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Later
 nav: Providers
 network: true
-overview: 'Later publishes 175 APIs on the [APIs.io](https://apis.io/) network, including Account Invitations API, Action Groups API, Action Group Brief API, and 172 more. Tagged areas include Social-Media, Scheduling, Instagram, TikTok, and Influencer Marketing.
+overview: 'Later publishes 174 APIs on the [APIs.io](https://apis.io/) network, including Action Groups API, Action Group Brief API, Action Group Bulk Scheduled Messages API, and 171 more. Tagged areas include Social-Media, Scheduling, Instagram, TikTok, and Influencer Marketing.
 
 
   The Later catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1117,14 +1112,14 @@ plans:
 - name: Later Plans Pricing
   plan_count: 0
   slug: later-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Later Rate Limits
   slug: later-rate-limits
 score:
   band: developing
-  composite: 48.3
+  composite: 49.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 27.0
@@ -1132,11 +1127,11 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 68.4
     contract_governance: 4.5
-    contract_quality: 53.2
+    contract_quality: 56.7
     developer_ergonomics: 37.5
     discoverability: 51.9
     operational_transparency: 28.9
@@ -1147,11 +1142,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 175
+      total: 174
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -19,7 +19,7 @@ name: NS8
 nav: Providers
 network: true
 overview: NS8 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fraud Prevention, E-Commerce, Security, and Analytics.
-random_paper: 8
+random_paper: 17
 slug: ns8
 tags:
 - Company

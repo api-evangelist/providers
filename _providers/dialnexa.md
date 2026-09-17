@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 49.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.dialnexa.com
@@ -52,11 +52,6 @@ apis:
   description: The Languages API from DialNexa — 2 operation(s) for languages.
   name: DialNexa Languages API
   slug: dialnexa-languages-api
-- baseURL: https://api.dialnexa.com
-  baseurl_source: declared
-  description: The LLMs API from DialNexa — 3 operation(s) for llms.
-  name: DialNexa LL Ms API
-  slug: dialnexa-llms-api
 - baseURL: https://api.dialnexa.com
   baseurl_source: declared
   description: The Organization Folders API from DialNexa — 2 operation(s) for organization folders.
@@ -92,6 +87,11 @@ apis:
   description: The Workflows API from DialNexa — 3 operation(s) for workflows.
   name: DialNexa Workflows API
   slug: dialnexa-workflows-api
+- baseURL: https://api.dialnexa.com
+  baseurl_source: declared
+  description: The LLMs API from DialNexa — 3 operation(s) for llms.
+  name: DialNexa LL Ms API
+  slug: dialnexa-llms-api
 artifact_total: 20
 asyncapis:
 - description: ''
@@ -278,7 +278,7 @@ plans:
 - name: Dialnexa Plans Pricing
   plan_count: 3
   slug: dialnexa-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Dialnexa Rate Limits
@@ -317,7 +317,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

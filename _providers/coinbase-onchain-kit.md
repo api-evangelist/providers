@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Core @coinbase/onchainkit npm package providing React components and TypeScript utilities for onchain apps. Includes Wallet, Identity, Transaction, Swap, Checkout, Fund, NFT, Token, and Earn component
@@ -120,7 +120,7 @@ plans:
 - name: Coinbase Onchain Kit Plans Pricing
   plan_count: 1
   slug: coinbase-onchain-kit-plans-pricing
-random_paper: 16
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Coinbase Onchain Kit Rate Limits
@@ -151,7 +151,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

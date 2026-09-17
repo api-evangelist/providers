@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 112 operations · 112 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://app.getoutline.com/api
-  baseurl_source: declared
-  description: '`AccessRequests` represent a request by a user for access to a document they do not currently have permission to view. The request can be approved or dismissed by a user with permission to share the d'
-  name: Outline AccessRequests API
-  slug: outline-accessrequests-api
 - baseURL: https://app.getoutline.com/api
   baseurl_source: declared
   description: '`Attachments` represent a file uploaded to cloud storage. They are created before the upload happens from the client and store all the meta information such as file type, size, and location.'
@@ -87,11 +82,6 @@ apis:
   slug: outline-events-api
 - baseURL: https://app.getoutline.com/api
   baseurl_source: declared
-  description: '`FileOperations` represent background jobs for importing or exporting files. You can query the file operation to find the state of progress and any resulting output.'
-  name: Outline FileOperations API
-  slug: outline-fileoperations-api
-- baseURL: https://app.getoutline.com/api
-  baseurl_source: declared
   description: '`Groups` represent a list of users that logically belong together, for example there might be groups for each department in your organization. Groups can be granted access to collections with read or '
   name: Outline Groups API
   slug: outline-groups-api
@@ -100,11 +90,6 @@ apis:
   description: '`OAuthAuthentications` represent individual scoped authentications between Outline and an `OAuthClient`.'
   name: Outline OAuthAuthentications API
   slug: outline-oauthauthentications-api
-- baseURL: https://app.getoutline.com/api
-  baseurl_source: declared
-  description: '`OAuthClients` represent OAuth clients that can be used to authenticate users with third-party services.'
-  name: Outline OAuthClients API
-  slug: outline-oauthclients-api
 - baseURL: https://app.getoutline.com/api
   baseurl_source: declared
   description: '`Revisions` represent a snapshot of a document at a point in time. They are used to keep track of editing and collaboration history – a document can also be restored to a previous revision if necessar'
@@ -135,6 +120,21 @@ apis:
   description: '`Views` represent a compressed record of an individual users views of a document. Individual views are not recorded but a first, last and total is kept per user.'
   name: Outline Views API
   slug: outline-views-api
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`AccessRequests` represent a request by a user for access to a document they do not currently have permission to view. The request can be approved or dismissed by a user with permission to share the d'
+  name: Outline Access Requests API
+  slug: outline-access-requests-api
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`FileOperations` represent background jobs for importing or exporting files. You can query the file operation to find the state of progress and any resulting output.'
+  name: Outline File Operations API
+  slug: outline-file-operations-api
+- baseURL: https://app.getoutline.com/api
+  baseurl_source: declared
+  description: '`OAuthClients` represent OAuth clients that can be used to authenticate users with third-party services.'
+  name: Outline OAuth Clients API
+  slug: outline-oauth-clients-api
 artifact_total: 197
 collections:
 - collection_type: open
@@ -751,7 +751,7 @@ modified: '2026-06-13'
 name: Outline
 nav: Providers
 network: true
-overview: 'Outline publishes 18 APIs on the [APIs.io](https://apis.io/) network, including AccessRequests API, Attachments API, Auth API, and 15 more. Tagged areas include Knowledge Base, Wiki, Documents, Collaboration, and Open-Source.
+overview: 'Outline publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Auth API, Collections API, and 15 more. Tagged areas include Knowledge Base, Wiki, Documents, Collaboration, and Open-Source.
 
 
   The Outline catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -762,7 +762,7 @@ plans:
 - name: Outline Plans Pricing
   plan_count: 4
   slug: outline-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Outline Rate Limits
@@ -797,7 +797,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 62.9
+    contract_quality: 62.7
     developer_ergonomics: 23.8
     discoverability: 68.5
     operational_transparency: 26.3
@@ -814,7 +814,7 @@ score:
       total: 18
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

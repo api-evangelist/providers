@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 46.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 153
+- acting_count: 43
   human_in_the_loop: 0
   name: Crunchbase Data Agentic Access
-  operation_count: 421
+  operation_count: 109
   slug: crunchbase-data-agentic-access
-  summary_line: 421 operations · 153 acting
+  summary_line: 109 operations · 43 acting
 api_count: 6
 apis:
 - description: First-party remote Model Context Protocol server over Streamable HTTP, exposing fourteen tools - five natural-language expert tools, four structured schema/lookup/search tools, four Crunchbase list to
@@ -74,19 +74,7 @@ apis:
   description: The Search API from Crunchbase — 43 operation(s) for search.
   name: Crunchbase Search API
   slug: crunchbase-data-search-api
-- description: Type-ahead suggestions for entities.
-  name: Crunchbase Autocomplete API
-  slug: crunchbase-autocomplete-api
-- description: Feeds of deleted entities for downstream sync.
-  name: Crunchbase Deletes API
-  slug: crunchbase-deletes-api
-- description: Entity lookup endpoints for organizations, people, funding rounds, acquisitions, and IPOs.
-  name: Crunchbase Entities API
-  slug: crunchbase-entities-api
-- description: Full-text and faceted search across entity types.
-  name: Crunchbase Search API
-  slug: crunchbase-search-api
-artifact_total: 25
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -328,7 +316,7 @@ modified: '2026-08-14'
 name: Crunchbase
 nav: Providers
 network: true
-overview: 'Crunchbase publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Deleted Entities API, Entity API, and 6 more. Tagged areas include Company Data, Web Intelligence, Funding Data, Firmographics, and B2B Data.
+overview: 'Crunchbase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Deleted Entities API, Entity API, and 2 more. Tagged areas include Company Data, Web Intelligence, Funding Data, Firmographics, and B2B Data.
 
 
   Crunchbase''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 37 more developer resources.'
@@ -336,7 +324,7 @@ plans:
 - name: Crunchbase Data Plans Pricing
   plan_count: 8
   slug: crunchbase-data-plans-pricing
-random_paper: 18
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Crunchbase Data Rate Limits
@@ -348,19 +336,19 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.3
+  composite: 45.8
   coverage:
     artifact_dirs: 23
-    catalog_earned: 73.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 42.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 31.2
+    contract_quality: 25.3
     developer_ergonomics: 33.9
     discoverability: 81.5
     operational_transparency: 60.5
@@ -376,7 +364,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

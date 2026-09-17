@@ -19,7 +19,7 @@ name: Coho Data
 nav: Providers
 network: true
 overview: Coho Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storage, Data Storage, Software-Defined Storage, and Enterprise Storage.
-random_paper: 19
+random_paper: 0
 slug: coho-data
 tags:
 - Company

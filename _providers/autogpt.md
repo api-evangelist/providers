@@ -34,25 +34,125 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.4
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 3
 apis:
 - baseURL: https://backend.agpt.co/external-api
   baseurl_source: declared
-  description: The documented, third-party-facing REST API of the AutoGPT Platform. Twenty operations that find and run AutoGPT agents, execute individual blocks, create agent graphs, read graph execution results, b
-  name: AutoGPT External API
-  slug: autogpt
-- baseURL: https://backend.agpt.co
+  description: The analytics API from AutoGPT — 2 operation(s) for analytics.
+  name: AutoGPT Analytics API
+  slug: autogpt-analytics-api
+- baseURL: https://backend.agpt.co/external-api
   baseurl_source: declared
-  description: The AutoGPT Platform's own backend API — 293 paths, 347 operations and 458 schemas covering graphs, executions, schedules, the library, the agent marketplace, credits and billing, organizations, works
-  name: AutoGPT Agent Server API
-  slug: autogpt-agent-server
-artifact_total: 10
+  description: The auth-email API from AutoGPT — 1 operation(s) for auth-email.
+  name: AutoGPT Auth Email API
+  slug: autogpt-auth-email-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The blocks API from AutoGPT — 2 operation(s) for blocks.
+  name: AutoGPT Blocks API
+  slug: autogpt-blocks-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The briefings API from AutoGPT — 1 operation(s) for briefings.
+  name: AutoGPT Briefings API
+  slug: autogpt-briefings-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The Copilot Webhooks API from AutoGPT — 6 operation(s) for copilot webhooks.
+  name: AutoGPT Copilot Webhooks API
+  slug: autogpt-copilot-webhooks-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The graphs API from AutoGPT — 3 operation(s) for graphs.
+  name: AutoGPT Graphs API
+  slug: autogpt-graphs-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The health API from AutoGPT — 1 operation(s) for health.
+  name: AutoGPT Health API
+  slug: autogpt-health-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The home API from AutoGPT — 1 operation(s) for home.
+  name: AutoGPT Home API
+  slug: autogpt-home-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The integrations API from AutoGPT — 6 operation(s) for integrations.
+  name: AutoGPT Integrations API
+  slug: autogpt-integrations-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The meta API from AutoGPT — 1 operation(s) for meta.
+  name: AutoGPT Meta API
+  slug: autogpt-meta-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The monitoring API from AutoGPT — 1 operation(s) for monitoring.
+  name: AutoGPT Monitoring API
+  slug: autogpt-monitoring-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The platform-linking API from AutoGPT — 8 operation(s) for platform-linking.
+  name: AutoGPT Platform Linking API
+  slug: autogpt-platform-linking-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The push API from AutoGPT — 3 operation(s) for push.
+  name: AutoGPT Push API
+  slug: autogpt-push-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The search API from AutoGPT — 1 operation(s) for search.
+  name: AutoGPT Search API
+  slug: autogpt-search-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The store API from AutoGPT — 4 operation(s) for store.
+  name: AutoGPT Store API
+  slug: autogpt-store-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The tools API from AutoGPT — 2 operation(s) for tools.
+  name: AutoGPT Tools API
+  slug: autogpt-tools-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The user API from AutoGPT — 1 operation(s) for user.
+  name: AutoGPT User API
+  slug: autogpt-user-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The v1 API from AutoGPT — 77 operation(s) for v1.
+  name: AutoGPT V1 API
+  slug: autogpt-v1-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The v2 API from AutoGPT — 174 operation(s) for v2.
+  name: AutoGPT V2 API
+  slug: autogpt-v2-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The workspace API from AutoGPT — 9 operation(s) for workspace.
+  name: AutoGPT Workspace API
+  slug: autogpt-workspace-api
+- baseURL: https://backend.agpt.co/external-api
+  baseurl_source: declared
+  description: The oauth API from AutoGPT — 9 operation(s) for oauth.
+  name: AutoGPT OAUTH API
+  slug: autogpt-oauth-api
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Autogpt Webhooks
   slug: autogpt-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/autogpt/refs/heads/main/overlays/autogpt-external-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/autogpt-external-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -208,18 +308,18 @@ modified: '2026-08-29'
 name: AutoGPT
 nav: Providers
 network: true
-overview: 'AutoGPT publishes 2 APIs on the [APIs.io](https://apis.io/) network: External API and Agent Server API. Tagged areas include AI Agents, AI Automation, Agent Platform, Workflow-Automation, and MCP.
+overview: 'AutoGPT publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Auth Email API, Blocks API, and 18 more. Tagged areas include AI Agents, AI Automation, Agent Platform, Workflow-Automation, and MCP.
 
 
   The AutoGPT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AutoGPT''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
+  AutoGPT''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
 plans:
 - name: Autogpt Plans Pricing
   plan_count: 4
   slug: autogpt-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Autogpt Rate Limits
@@ -231,29 +331,34 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.1
+  composite: 58.8
   coverage:
     artifact_dirs: 24
-    catalog_earned: 52.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 56.3
+    contract_quality: 56.6
     developer_ergonomics: 66.1
-    discoverability: 75.9
+    discoverability: 81.5
     operational_transparency: 42.1
   previous_composite: 58.1
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 21
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

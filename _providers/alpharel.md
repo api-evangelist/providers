@@ -19,7 +19,7 @@ name: Alpharel
 nav: Providers
 network: true
 overview: Alpharel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Document-Management, Electronic Document Management, Imaging, and Enterprise Software.
-random_paper: 1
+random_paper: 5
 slug: alpharel
 tags:
 - Company

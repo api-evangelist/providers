@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: 'Python API for scripting and extending Maya functionality, providing access to Maya''s scene graph and node architecture. Includes Python API 2.0 with a more Pythonic workflow and improved performance '
@@ -53,6 +53,10 @@ apis:
   slug: maya-bifrost-api
 artifact_total: 24
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://autodesk.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -132,19 +136,19 @@ integrations:
 - description: Interoperability with SideFX Houdini via USD and Alembic for visual effects simulation and procedural content pipelines.
   name: Houdini
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-16'
 name: Autodesk Maya
 nav: Providers
 network: true
 overview: 'Autodesk Maya publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D Graphics, Animation, Game Development, Modeling, and Rendering.
 
 
-  Autodesk Maya''s developer surface includes developer portal, documentation, support, engineering blog, release notes, and 7 more developer resources.'
+  Autodesk Maya''s developer surface includes developer portal, documentation, support, engineering blog, release notes, and 8 more developer resources.'
 plans:
 - name: Autodesk Maya Plans Pricing
   plan_count: 3
   slug: autodesk-maya-plans-pricing
-random_paper: 10
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Autodesk Maya Rate Limits
@@ -169,7 +173,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 24.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -202,5 +206,5 @@ use_cases:
   name: Procedural Content Generation
 - description: Developing studio pipeline tools that automate scene assembly, asset tracking, and data interchange between Maya and other DCC applications.
   name: DCC Pipeline Development
-website: https://www.autodesk.com/developer-network/platform-technologies/maya
+website: https://autodesk.com
 ---

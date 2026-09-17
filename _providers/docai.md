@@ -51,7 +51,7 @@ name: doc.ai
 nav: Providers
 network: true
 overview: doc.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Artificial Intelligence, Health, and Digital Health.
-random_paper: 8
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/docai/refs/heads/main/screenshots/docai-2026-07-25T212200.png
 security:
 - kind: domain-security

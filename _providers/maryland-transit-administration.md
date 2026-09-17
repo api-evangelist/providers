@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Static GTFS feed and GTFS-RT vehicle positions and trip updates for MDOT MTA Local Bus service. Includes GTFS-Fares V2 fare data.
@@ -110,7 +110,7 @@ plans:
 - name: Maryland Transit Administration Plans Pricing
   plan_count: 3
   slug: maryland-transit-administration-plans-pricing
-random_paper: 16
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Maryland Transit Administration Rate Limits
@@ -141,7 +141,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

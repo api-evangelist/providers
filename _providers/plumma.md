@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,15 +31,20 @@ agentic_access:
   operation_count: 1
   slug: plumma-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://connect.plumma.it/services
   baseurl_source: declared
-  description: 'A single-operation aggregation API over mobile network operator intelligence. One POST /api call carries a phone number in E.164 form plus a `commands` array, and returns the requested signals in one '
+  description: The flagship aggregation endpoint.
   name: Plumma CONNECT API
   slug: plumma-connect-api
 artifact_total: 10
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/plumma/refs/heads/main/overlays/plumma-connect-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/plumma-connect-api-overlay.yaml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/plumma/refs/heads/main/conventions/plumma-conventions.yml
   title: ''
@@ -214,12 +219,12 @@ network: true
 overview: 'Plumma publishes 1 API on the [APIs.io](https://apis.io/) network: CONNECT API. Tagged areas include Telecommunications, Network APIs, Italy, Europe, and GSMA Open Gateway.
 
 
-  Plumma''s developer surface includes sandbox, signup flow, authentication, documentation, API reference, support, engineering blog, and 27 more developer resources.'
+  Plumma''s developer surface includes sandbox, signup flow, authentication, documentation, API reference, support, engineering blog, and 28 more developer resources.'
 plans:
 - name: Plumma Plans Pricing
   plan_count: 2
   slug: plumma-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Plumma Rate Limits
@@ -268,7 +273,7 @@ score:
     regime_id: telecommunications
     score: 59.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

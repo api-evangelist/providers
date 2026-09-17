@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,8 +84,8 @@ modified: '2026-07-19'
 name: Knoetic
 nav: Providers
 network: true
-overview: Knoetic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, People Analytics, Human Resources, and Workforce Analytics.
-random_paper: 14
+overview: Knoetic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, People Analytics, Workforce Analytics, and Artificial Intelligence.
+random_paper: 1
 score:
   band: minimal
   composite: 10.6
@@ -106,7 +106,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 10.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -125,9 +125,8 @@ security:
 slug: knoetic
 tags:
 - Company
-- HR Tech
-- People Analytics
 - Human Resources
+- People Analytics
 - Workforce Analytics
 - Artificial Intelligence
 - AI Agents

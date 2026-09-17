@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 339
   human_in_the_loop: 15
@@ -60,11 +60,6 @@ apis:
   description: The application API from Dokploy — 31 operation(s) for application.
   name: Dokploy application API
   slug: dokploy-application-api
-- baseURL: https://your-dokploy-instance.com/api
-  baseurl_source: declared
-  description: The auditLog API from Dokploy — 1 operation(s) for auditlog.
-  name: Dokploy auditLog API
-  slug: dokploy-auditlog-api
 - baseURL: https://your-dokploy-instance.com/api
   baseurl_source: declared
   description: The backup API from Dokploy — 12 operation(s) for backup.
@@ -247,11 +242,6 @@ apis:
   slug: dokploy-settings-api
 - baseURL: https://your-dokploy-instance.com/api
   baseurl_source: declared
-  description: The sshKey API from Dokploy — 7 operation(s) for sshkey.
-  name: Dokploy sshKey API
-  slug: dokploy-sshkey-api
-- baseURL: https://your-dokploy-instance.com/api
-  baseurl_source: declared
   description: The sso API from Dokploy — 10 operation(s) for sso.
   name: Dokploy sso API
   slug: dokploy-sso-api
@@ -285,6 +275,16 @@ apis:
   description: The whitelabeling API from Dokploy — 4 operation(s) for whitelabeling.
   name: Dokploy whitelabeling API
   slug: dokploy-whitelabeling-api
+- baseURL: https://your-dokploy-instance.com/api
+  baseurl_source: declared
+  description: The Audit Log API from Dokploy — 1 operation(s) for audit log.
+  name: Dokploy Audit Log API
+  slug: dokploy-audit-log-api
+- baseURL: https://your-dokploy-instance.com/api
+  baseurl_source: declared
+  description: The SSH Key API from Dokploy — 7 operation(s) for ssh key.
+  name: Dokploy SSH Key API
+  slug: dokploy-ssh-key-api
 artifact_total: 104
 collections:
 - collection_type: open
@@ -551,14 +551,14 @@ plans:
 - name: Dokploy Plans Pricing
   plan_count: 4
   slug: dokploy-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Dokploy Rate Limits
   slug: dokploy-rate-limits
 score:
   band: developing
-  composite: 48.9
+  composite: 49.9
   coverage:
     artifact_dirs: 10
     catalog_earned: 61.0
@@ -566,11 +566,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 50.9
+    contract_quality: 55.0
     developer_ergonomics: 61.9
     discoverability: 63.0
     operational_transparency: 63.2
@@ -583,7 +583,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -607,6 +607,6 @@ tags:
 - Docker Swarm
 - Deployment
 - Traefik
-- Databases
+- Database
 website: https://dokploy.com/
 ---

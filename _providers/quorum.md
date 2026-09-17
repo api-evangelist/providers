@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
 - description: Quorum Production Reporting API provides access to well production volumes, allocations, gas balancing, and regulatory reporting data for upstream oil and gas operations.
   name: Quorum Production Reporting API
   slug: quorum-production-reporting-api
-- baseURL: https://api.quorumsoftware.com/v1
-  baseurl_source: declared
-  description: Division order management
-  name: Quorum Software DivisionOrders API
-  slug: quorum-divisionorders-api
 - baseURL: https://api.quorumsoftware.com/v1
   baseurl_source: declared
   description: Oil and gas lease management
@@ -75,6 +70,11 @@ apis:
   description: Well master data
   name: Quorum Software Wells API
   slug: quorum-wells-api
+- baseURL: https://api.quorumsoftware.com/v1
+  baseurl_source: declared
+  description: Division order management
+  name: Quorum Software Division Orders API
+  slug: quorum-division-orders-api
 artifact_total: 25
 collections:
 - collection_type: open
@@ -177,7 +177,7 @@ modified: '2026-05-19'
 name: Quorum Software
 nav: Providers
 network: true
-overview: 'Quorum Software publishes 5 APIs on the [APIs.io](https://apis.io/) network, including DivisionOrders API, Leases API, Owners API, and 2 more. Tagged areas include Energy, Oil and Gas, Upstream, Land Management, and Royalty Accounting.
+overview: 'Quorum Software publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Leases API, Owners API, Tracts API, and 2 more. Tagged areas include Energy, Oil and Gas, Upstream, Land Management, and Royalty Accounting.
 
 
   The Quorum Software catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -188,7 +188,7 @@ plans:
 - name: Quorum Plans Pricing
   plan_count: 1
   slug: quorum-plans-pricing
-random_paper: 9
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Quorum Rate Limits
@@ -242,7 +242,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

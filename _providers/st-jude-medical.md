@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Merlin.net Patient Care Network is Abbott''s (formerly St. Jude Medical''s) remote cardiac monitoring platform. It allows clinicians to receive scheduled transmissions and daily alert notifications '
@@ -129,7 +129,7 @@ press:
 - date: '2026-05-25'
   title: Cybersecurity
   url: https://www.fda.gov/medical-devices/digital-health-center-excellence/cybersecurity
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: St Jude Medical Rate Limits
@@ -171,7 +171,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

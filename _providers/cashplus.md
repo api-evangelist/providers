@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -214,10 +214,10 @@ common:
   type: Authentication
   url: authentication/cashplus-authentication.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/cashplus-account-information-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/openapi/_original/cashplus-account-information-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/cashplus-account-information-openapi.yml
+  url: openapi/_original/cashplus-account-information-openapi.yml
 - group: company
   title: ''
   type: Website
@@ -340,7 +340,7 @@ description: Cashplus Bank (legal entity Advanced Payment Solutions Limited, reb
   certificates. Cashplus is not one of the CMA9 mandated banks. Alongside the regulated Open Banking surface it runs a first-party partner/developer platform documenting proprietary Identity, Accounts, Applications, Eligibility, Payments, Products, and Transactions APIs for embedded and commercial integrations.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-23'
+modified: '2026-09-16'
 name: Cashplus Bank
 nav: Providers
 network: true
@@ -348,7 +348,7 @@ overview: 'Cashplus Bank publishes 24 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 27 more developer resources.'
-random_paper: 6
+random_paper: 9
 scopes:
 - name: Cashplus Scopes
   scope_count: 3
@@ -402,7 +402,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

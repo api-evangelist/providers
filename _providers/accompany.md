@@ -24,7 +24,7 @@ name: Accompany
 nav: Providers
 network: true
 overview: Accompany is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Relationship Intelligence, Sales Intelligence, and Acquired.
-random_paper: 10
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/accompany/refs/heads/main/screenshots/accompany-2026-07-25T181434.png
 slug: accompany
 tags:

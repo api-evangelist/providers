@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.finage.co.uk
@@ -57,11 +57,6 @@ apis:
   description: The Crypto API from Finage — 6 operation(s) for crypto.
   name: Finage Crypto API
   slug: finage-crypto-api
-- baseURL: https://api.finage.co.uk
-  baseurl_source: declared
-  description: The ETFs API from Finage — 3 operation(s) for etfs.
-  name: Finage ET Fs API
-  slug: finage-etfs-api
 - baseURL: https://api.finage.co.uk
   baseurl_source: declared
   description: The Forex API from Finage — 6 operation(s) for forex.
@@ -97,6 +92,11 @@ apis:
   description: The US Stocks API from Finage — 5 operation(s) for us stocks.
   name: Finage US Stocks API
   slug: finage-us-stocks-api
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The ETFs API from Finage — 3 operation(s) for etfs.
+  name: Finage ET Fs API
+  slug: finage-etfs-api
 artifact_total: 18
 asyncapis:
 - description: 'Finage streams real-time market prices (US stocks, global stocks, forex, crypto, CFD indices, and ETFs) over WebSocket. Each customer is assigned a dedicated WebSocket URL (subdomain + port) shown in '
@@ -271,7 +271,7 @@ plans:
 - name: Finage Plans
   plan_count: 23
   slug: finage-plans
-random_paper: 9
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Finage Rate Limits
@@ -317,7 +317,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

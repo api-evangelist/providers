@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -1117,7 +1117,7 @@ plans:
 - name: Flickr Plans Pricing
   plan_count: 2
   slug: flickr-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Flickr Rate Limits
@@ -1163,7 +1163,7 @@ score:
   facets:
     access_clarity: 73.7
     contract_governance: 28.8
-    contract_quality: 20.3
+    contract_quality: 20.4
     developer_ergonomics: 75.0
     discoverability: 66.7
     operational_transparency: 65.8
@@ -1172,11 +1172,11 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 33
-      marker_coverage: 100.0
+      derived: 32
+      marker_coverage: 97.0
       total: 33
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

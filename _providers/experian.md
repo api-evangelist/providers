@@ -19,56 +19,66 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 39.4
-  scored_at: '2026-09-15'
-api_count: 9
+  score: 41.1
+  scored_at: '2026-09-16'
+api_count: 11
 apis:
-- baseURL: https://api.experianaperture.io
-  baseurl_source: declared
-  description: The consolidated Experian Data Quality REST API — 41 operations across 34 paths covering address search/validate/format/layouts, email validation, phone validation, demographic enrichment, identity ap
-  name: Experian Aperture Data Quality API
-  slug: aperture
-- baseURL: https://api.experianaperture.io
-  baseurl_source: declared
-  description: Real-time international address capture and validation — autocomplete, typedown, single-line, lookup and validate search types across 245+ countries, with custom layouts, prompt sets, dataset discover
-  name: Experian Address Validation API
-  slug: address-validation
-- baseURL: https://api.experianaperture.io
-  baseurl_source: declared
-  description: Real-time email address verification returning a confidence classification (verified, unknown, undeliverable, illegitimate) with optional metadata about the mailbox and domain.
-  name: Experian Email Validation API
-  slug: email-validation
-- baseURL: https://api.experianaperture.io
-  baseurl_source: declared
-  description: Real-time phone number validation and line-type identification across global numbering plans, returning formatted numbers, carrier and connectivity signals.
-  name: Experian Phone Validation API
-  slug: phone-validation
-- baseURL: https://api.experianaperture.io
-  baseurl_source: declared
-  description: Appends demographic, geodemographic, location-insight and property attributes to a validated address or identity key, including Mosaic segmentation and Global Location Insight geocoding.
-  name: Experian Enrichment API
-  slug: enrichment
-- baseURL: https://api.experianaperture.io
-  baseurl_source: declared
-  description: Returns additional contact and identity attributes for a known individual or household, including reverse phone append lookups.
-  name: Experian Identity Append API
-  slug: identity-append
-- baseURL: https://api.experianaperture.io
-  baseurl_source: declared
-  description: Asynchronous batch surface for address, email and phone validation — create a batch, start it, poll status and retrieve results, with up to 10,000 records per address batch.
-  name: Experian Bulk Validation API
-  slug: bulk-validation
 - description: The legacy Experian QAS Pro OnDemand SOAP service, still published and documented by Experian Data Quality. Eleven RPCs (DoSearch, DoRefine, DoGetAddress, DoCanSearch, DoGetLayouts, DoGetPromptSet, Do
   name: Experian Address Validate (Pro OnDemand SOAP)
   slug: address-validate-soap
 - description: The region-partitioned Experian API gateway behind developer.experian.com, fronting credit, business information, KYC/KYB, decisioning and verification products. Each region runs its own OAuth2/OIDC i
   name: Experian Global Developer Platform
   slug: global-developer-platform
-artifact_total: 16
+- baseURL: https://api.experianaperture.io
+  baseurl_source: declared
+  description: The Address Validation API from Experian — 13 operation(s) for address validation.
+  name: Experian Address Validation API
+  slug: experian-address-validation-api
+- baseURL: https://api.experianaperture.io
+  baseurl_source: declared
+  description: The Bulk Address API from Experian — 5 operation(s) for bulk address.
+  name: Experian Bulk Address API
+  slug: experian-bulk-address-api
+- baseURL: https://api.experianaperture.io
+  baseurl_source: declared
+  description: The Bulk Email API from Experian — 5 operation(s) for bulk email.
+  name: Experian Bulk Email API
+  slug: experian-bulk-email-api
+- baseURL: https://api.experianaperture.io
+  baseurl_source: declared
+  description: The Bulk Phone API from Experian — 5 operation(s) for bulk phone.
+  name: Experian Bulk Phone API
+  slug: experian-bulk-phone-api
+- baseURL: https://api.experianaperture.io
+  baseurl_source: declared
+  description: The Email Validation API from Experian — 2 operation(s) for email validation.
+  name: Experian Email Validation API
+  slug: experian-email-validation-api
+- baseURL: https://api.experianaperture.io
+  baseurl_source: declared
+  description: The Enrichment API from Experian — 1 operation(s) for enrichment.
+  name: Experian Enrichment API
+  slug: experian-enrichment-api
+- baseURL: https://api.experianaperture.io
+  baseurl_source: declared
+  description: The Identity Append (USA only) API from Experian — 1 operation(s) for identity append (usa only).
+  name: Experian Identity Append (USA only) API
+  slug: experian-identity-append-usa-only-api
+- baseURL: https://api.experianaperture.io
+  baseurl_source: declared
+  description: The Phone Validation API from Experian — 1 operation(s) for phone validation.
+  name: Experian Phone Validation API
+  slug: experian-phone-validation-api
+- baseURL: https://api.experianaperture.io
+  baseurl_source: declared
+  description: The Reverse Phone Append (USA only) API from Experian — 1 operation(s) for reverse phone append (usa only).
+  name: Experian Reverse Phone Append (USA only) API
+  slug: experian-reverse-phone-append-usa-only-api
+artifact_total: 18
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/security/experian-domain-security.yml
@@ -252,7 +262,7 @@ modified: '2026-09-13'
 name: Experian
 nav: Providers
 network: true
-overview: 'Experian publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Aperture Data Quality API, Address Validation API, Email Validation API, and 4 more. Tagged areas include Company, Credit Bureau, Credit Reporting, Identity Verification, and Fraud Prevention.
+overview: 'Experian publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Address Validation API, Bulk Address API, Bulk Email API, and 6 more. Tagged areas include Company, Credit Bureau, Credit Reporting, Identity Verification, and Fraud Prevention.
 
 
   Experian''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
@@ -260,7 +270,7 @@ plans:
 - name: Experian Plans Pricing
   plan_count: 0
   slug: experian-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Experian Rate Limits
@@ -272,7 +282,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.5
+  composite: 54.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 48.0
@@ -280,11 +290,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 51.6
+    contract_quality: 54.3
     developer_ergonomics: 73.2
     discoverability: 74.1
     operational_transparency: 78.9
@@ -295,11 +305,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

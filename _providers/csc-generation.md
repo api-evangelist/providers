@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Backcountry, a CSC Generation brand, publishes a Universal Commerce Protocol merchant profile at its own /.well-known/ucp declaring UCP 2026-01-23 with both REST and MCP transports for the shopping se
@@ -134,11 +134,11 @@ modified: '2026-08-01'
 name: CSC Generation
 nav: Providers
 network: true
-overview: 'CSC Generation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Agent Commerce, and Artificial Intelligence.
+overview: 'CSC Generation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Agentic Commerce, and Artificial Intelligence.
 
 
   CSC Generation''s developer surface includes authentication and 15 more developer resources.'
-random_paper: 19
+random_paper: 18
 score:
   band: emerging
   composite: 18.6
@@ -163,7 +163,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -184,7 +184,7 @@ tags:
 - Company
 - Retail
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - Artificial Intelligence
 - Universal Commerce Protocol
 - MCP

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'Jane''s documented HTTP API (published as a Swagger UI at api.iheartjane.com/jane-api-docs) for retrieving live store menu products and for generating the access tokens used to authenticate downstream '
@@ -76,7 +76,7 @@ overview: 'Jane (iHeartJane) publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Jane (iHeartJane)''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 1
+random_paper: 17
 score:
   band: minimal
   composite: 10.2
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The 9flats read API over the marketplace''s listing data: search places, fetch a place with its photos, prices, reviews and monthly availability calendar, and fetch a user with their favourites and (fo'
@@ -113,7 +113,7 @@ plans:
 - name: 9Flats Plans Pricing
   plan_count: 0
   slug: 9flats-plans-pricing
-random_paper: 7
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: 9Flats Rate Limits
@@ -146,7 +146,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

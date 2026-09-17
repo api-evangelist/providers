@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,11 +65,16 @@ apis:
   slug: denbury-resources-discovery-api
 - baseURL: https://www.denbury.com/wp-json
   baseurl_source: declared
-  description: Public, unauthenticated oEmbed 1.0 endpoint for Denbury Inc. website URLs, served by WordPress core. Verified live against https://www.denbury.com/ on 2026-09-06.
-  name: Denbury Resources oEmbed API
-  slug: denbury-resources-oembed-api
+  description: oEmbed 1.0 discovery and embed documents for Denbury Inc. URLs.
+  name: Denbury Resources o Embed API
+  slug: denbury-resources-o-embed-api
 artifact_total: 10
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/denbury-resources/refs/heads/main/overlays/denbury-resources-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/denbury-resources-oembed-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -187,7 +192,7 @@ network: true
 overview: 'Denbury Resources publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Media API, Search API, and 2 more. Tagged areas include Acquired, Carbon Capture, CO2 EOR, Energy, and Enhanced Oil Recovery.
 
 
-  Denbury Resources'' developer surface includes support, authentication, code examples, and 20 more developer resources.'
+  Denbury Resources'' developer surface includes support, authentication, code examples, and 21 more developer resources.'
 plans:
 - name: Denbury Resources Plans Pricing
   plan_count: 0
@@ -208,7 +213,7 @@ press:
 - date: '2026-05-25'
   title: Denbury Resources
   url: https://en.wikipedia.org/wiki/Denbury_Resources
-random_paper: 8
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Denbury Resources Rate Limits
@@ -254,7 +259,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

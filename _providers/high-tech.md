@@ -21,7 +21,7 @@ modified: '2026-05-23'
 name: High Tech
 nav: Providers
 network: true
-random_paper: 20
+random_paper: 1
 slug: high-tech
 tags:
 - Arrow Electronics
@@ -31,7 +31,7 @@ tags:
 - Component Data
 - Datasheets
 - Digi-Key
-- Distributors
+- Distributor
 - ECAD
 - Electronic Components
 - Electronics
@@ -41,7 +41,7 @@ tags:
 - IoT
 - Lifecycle
 - Manufacturer Part Number
-- Manufacturers
+- Manufacturer
 - Mouser
 - MPN
 - Nexar

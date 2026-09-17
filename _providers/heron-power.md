@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: 'Heron Power is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Heron Power''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 8
+random_paper: 20
 score:
   band: minimal
   composite: 9.6
@@ -96,7 +96,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -115,7 +115,7 @@ tags:
 - Power Electronics
 - Grid Infrastructure
 - Solid-State Transformers
-- Data Centers
+- Data-Center
 - Renewable Energy
 - Hardware
 website: https://heronpower.com

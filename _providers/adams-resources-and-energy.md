@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 12
 common:
@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: An Affiliate of Tres Energy LLC to Acquire Adams ...
   url: https://www.kslaw.com/news-and-insights/an-affiliate-of-tres-energy-llc-to-acquire-adams-resources-energy-inc-in-take-private-transaction
-random_paper: 14
+random_paper: 1
 score:
   band: minimal
   composite: 3.3
@@ -137,7 +137,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

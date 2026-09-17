@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The foundational API layer of the Bloomberg Platform providing real-time, reference, and historical data access through a socket-based protocol with SDKs for multiple programming languages.
@@ -47,6 +47,10 @@ apis:
   slug: bloomberg-identity-api
 artifact_total: 17
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: other
   title: ''
   type: ParentCompany
@@ -113,14 +117,14 @@ finops:
   slug: bloomberg-platform-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-platform.png
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg Platform
 nav: Providers
 network: true
 overview: 'Bloomberg Platform publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Platform, Infrastructure, Data Distribution, API Gateway, and Integration.
 
 
-  Bloomberg Platform''s developer surface includes developer portal, documentation, support, and 8 more developer resources.'
+  Bloomberg Platform''s developer surface includes developer portal, documentation, support, and 9 more developer resources.'
 plans:
 - name: Bloomberg Platform Plans Pricing
   plan_count: 3
@@ -150,7 +154,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -179,5 +183,5 @@ use_cases:
   name: Trading Infrastructure
 - description: Develop enterprise data platforms consuming Bloomberg data.
   name: Data Platform Development
-website: https://www.bloomberg.com/professional/
+website: https://bloomberg.com
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 16.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 5
 common:
@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: Essendant invests in marketing innovations to help dealers ...
   url: https://www.essendant.com/wp-content/uploads/2024/03/Independent-Dealer-2024-Essendant-Marketing-new.pdf
-random_paper: 20
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Essendant Rate Limits
@@ -168,7 +168,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
 - baseURL: https://api.tyro.com/connect
   baseurl_source: declared
   description: The Payments API from Tyro Payments — 1 operation(s) for payments.
-  name: Tyro Payments Payments API
+  name: Tyro Payments API
   slug: tyro-payments-api
 - baseURL: https://api.tyro.com/connect
   baseurl_source: declared
@@ -415,7 +415,7 @@ created: '2026-07-24'
 description: 'Tyro Payments is an ASX-listed Australian payments company and one of the country''s largest merchant acquirers outside the major banks, holding its own banking licence. Founded in 2003, Tyro provides EFTPOS terminals, in-person and online card acceptance, and integrated payments for more than 70,000 Australian merchants across hospitality, retail and health. Its developer surface, Tyro Connect, is a genuinely API-first platform: a REST API family (served from https://api.tyro.com/connect and secured with OpenID Connect / OAuth 2.0) that links Point of Sale software, ordering, booking, loyalty and reporting apps to Tyro merchants, alongside Tyro.js, mobile SDKs and Tap to Pay (SoftPOS) for card-present and online payments. Home market is Australia.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-07-24'
+modified: '2026-09-16'
 name: Tyro Payments
 nav: Providers
 network: true
@@ -441,7 +441,7 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 66.1
+    contract_quality: 65.9
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 42.1
@@ -470,7 +470,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

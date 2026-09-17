@@ -20,7 +20,7 @@ modified: '2026-04-28'
 name: Customs Procedures
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 19
 slug: customs-procedures
 tags:
 - ATA Carnet
@@ -32,7 +32,7 @@ tags:
 - Drawback
 - Export
 - Free Circulation
-- Imports
+- Import
 - Inward Processing
 - Kyoto Convention
 - Outward Processing

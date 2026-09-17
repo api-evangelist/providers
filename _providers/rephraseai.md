@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: OAuth2 text-to-video generation API — list supported actors and voices, create and export videos of speaking digital avatars, and poll video status. Legacy surface; company acquired by Adobe (Nov 2023
@@ -95,7 +95,7 @@ overview: 'Rephrase.ai publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Rephrase.ai''s developer surface includes documentation, API reference, authentication, and 6 more developer resources.'
-random_paper: 10
+random_paper: 4
 scopes:
 - name: Rephraseai Scopes
   scope_count: 1
@@ -128,7 +128,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

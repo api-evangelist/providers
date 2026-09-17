@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 27
 apis:
 - description: 'First-party open-source Model Context Protocol server for Catalyst Center, published by Cisco under Apache-2.0 at cisco-en-programmability/catc-mcp-oss. It is self-hosted: the operator builds the Dock'
@@ -134,11 +134,6 @@ apis:
   slug: cisco-catalyst-center-networkapplications-api
 - baseURL: https://{catalyst-center-host}/dna/intent/api/v1
   baseurl_source: declared
-  description: Operations related to Catalyst Center - Gets the Network Device details
-  name: Cisco Catalyst Center Network Devices API
-  slug: cisco-catalyst-center-networkdevices-api
-- baseURL: https://{catalyst-center-host}/dna/intent/api/v1
-  baseurl_source: declared
   description: APIs to preview, approve, and cancel (discard) ICAP provisioning intents.
   name: Cisco Catalyst Center Preview Deploy API
   slug: cisco-catalyst-center-preview-deploy-api
@@ -187,6 +182,11 @@ apis:
   description: The virtualNetworkHealthSummaries API from Cisco Catalyst Center — 4 operation(s) for virtualnetworkhealthsummaries.
   name: Cisco Catalyst Center Virtual Network Health Summaries API
   slug: cisco-catalyst-center-virtualnetworkhealthsummaries-api
+- baseURL: http://localhost:7001/v1/mcp
+  baseurl_source: declared
+  description: Operations related to Catalyst Center - Gets the Network Device details
+  name: Cisco Catalyst Center Network Devices API
+  slug: cisco-catalyst-center-network-devices-api
 artifact_total: 38
 asyncapis:
 - description: ''
@@ -566,7 +566,7 @@ plans:
 - name: Cisco Catalyst Center Plans Pricing
   plan_count: 0
   slug: cisco-catalyst-center-plans-pricing
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Cisco Catalyst Center Rate Limits
@@ -585,7 +585,7 @@ score:
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 63.0
+    contract_quality: 62.9
     developer_ergonomics: 73.2
     discoverability: 66.7
     operational_transparency: 65.8
@@ -606,7 +606,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

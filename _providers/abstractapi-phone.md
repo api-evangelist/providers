@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ modified: '2026-07-12'
 name: Abstract API Phone Validation
 nav: Providers
 network: true
-overview: 'Abstract API Phone Validation publishes 1 API on the [APIs.io](https://apis.io/) network: Phone Validation API. Tagged areas include Number Verification, Phone Validation, Phone Number, Phone Number Lookup, and Verification.
+overview: 'Abstract API Phone Validation publishes 1 API on the [APIs.io](https://apis.io/) network: Phone Validation API. Tagged areas include Number Verification, Phone Validation, Phone Numbers, Phone Number Lookup, and Verification.
 
 
   Abstract API Phone Validation''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -127,7 +127,7 @@ plans:
 - name: Abstractapi Phone Plans Pricing
   plan_count: 3
   slug: abstractapi-phone-plans-pricing
-random_paper: 6
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Abstractapi Phone Rate Limits
@@ -165,7 +165,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -185,7 +185,7 @@ slug: abstractapi-phone
 tags:
 - Number Verification
 - Phone Validation
-- Phone Number
+- Phone Numbers
 - Phone Number Lookup
 - Verification
 - Carrier Lookup

@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 97
-  human_in_the_loop: 36
+- acting_count: 49
+  human_in_the_loop: 14
   name: Amex Gbt Agentic Access
-  operation_count: 171
+  operation_count: 84
   slug: amex-gbt-agentic-access
-  summary_line: 171 operations · 97 acting · 36 human-in-the-loop
+  summary_line: 84 operations · 49 acting · 14 human-in-the-loop
 api_count: 17
 apis:
 - baseURL: https://apis.egencia.com/openconnect/api
@@ -462,25 +462,25 @@ common:
   type: Authentication
   url: https://apis.egencia.com/auth/v1/token
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-service-openconnect-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/_original/amex-gbt-service-openconnect-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/amex-gbt-service-openconnect-openapi.json
+  url: openapi/_original/amex-gbt-service-openconnect-openapi.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-service-bi-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/_original/amex-gbt-service-bi-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/amex-gbt-service-bi-openapi.json
+  url: openapi/_original/amex-gbt-service-bi-openapi.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-service-dutyofcare-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/_original/amex-gbt-service-dutyofcare-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/amex-gbt-service-dutyofcare-openapi.json
+  url: openapi/_original/amex-gbt-service-dutyofcare-openapi.json
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/amex-gbt-service-company-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/amex-gbt/refs/heads/main/openapi/_original/amex-gbt-service-company-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/amex-gbt-service-company-openapi.json
+  url: openapi/_original/amex-gbt-service-company-openapi.json
 - group: build
   title: ''
   type: PostmanCollection
@@ -510,7 +510,7 @@ mcp_servers:
 - description: ''
   name: American Express Global Business Travel MCP Server
   slug: american-express-global-business-travel-mcp-server
-modified: '2026-07-28'
+modified: '2026-09-16'
 name: American Express Global Business Travel
 nav: Providers
 network: true
@@ -521,7 +521,7 @@ overview: 'American Express Global Business Travel publishes 26 APIs on the [API
 
 
   American Express Global Business Travel''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 50 more developer resources.'
-random_paper: 12
+random_paper: 19
 scopes:
 - name: Amex Gbt Scopes
   scope_count: 0
@@ -529,7 +529,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.6
+  composite: 47.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -537,11 +537,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 59.6
+    contract_quality: 61.4
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 42.1
@@ -564,7 +564,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -595,7 +595,7 @@ tags:
 - Hotels
 - Rail
 - Car Rental
-- Expense
+- Expenses
 - Duty of Care
 - Reporting
 website: https://www.amexglobalbusinesstravel.com/

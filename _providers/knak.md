@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 58.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - baseURL: https://enterprise.knak.io/api/published/v1
@@ -46,11 +46,6 @@ apis:
   description: The Asset Custom Fieldsets API from Knak — 2 operation(s) for asset custom fieldsets.
   name: Knak Asset Custom Fieldsets API
   slug: knak-asset-custom-fieldsets-api
-- baseURL: https://enterprise.knak.io/api/published/v1
-  baseurl_source: declared
-  description: The AssetFolders API from Knak — 2 operation(s) for assetfolders.
-  name: Knak AssetFolders API
-  slug: knak-assetfolders-api
 - baseURL: https://enterprise.knak.io/api/published/v1
   baseurl_source: declared
   description: The Assets API from Knak — 7 operation(s) for assets.
@@ -101,11 +96,6 @@ apis:
   description: The Modules API from Knak — 3 operation(s) for modules.
   name: Knak Modules API
   slug: knak-modules-api
-- baseURL: https://yourService.com/yourDamApi
-  baseurl_source: declared
-  description: 'Endpoints that need to be implemented to support OAuth2 — the token and authorize endpoints a CUSTOMER exposes so Knak can authenticate against their Custom DAM or Custom Sync Location service. Not a '
-  name: Knak OAuth2 API
-  slug: knak-oauth2-api
 - baseURL: https://enterprise.knak.io/api/published/v1
   baseurl_source: declared
   description: The Project Management API from Knak — 1 operation(s) for project management.
@@ -176,6 +166,16 @@ apis:
   description: The translation_request.created API from Knak — 0 operation(s) for translation_request.created.
   name: Knak Translation Request.created API
   slug: knak-translation-request-created-api
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: Endpoints that need to be implemented to support OAuth2
+  name: Knak O Auth2 API
+  slug: knak-oauth2-api
+- baseURL: https://enterprise.knak.io/api/published/v1
+  baseurl_source: declared
+  description: The Asset Folders API from Knak — 2 operation(s) for asset folders.
+  name: Knak Asset Folders API
+  slug: knak-asset-folders-api
 artifact_total: 58
 asyncapis:
 - description: ''
@@ -452,7 +452,7 @@ modified: '2026-08-13'
 name: Knak
 nav: Providers
 network: true
-overview: 'Knak publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Asset Custom Fieldsets API, AssetFolders API, Assets API, and 24 more. Tagged areas include Company, Email Marketing, Marketing Automation, Landing Pages, and Content Creation.
+overview: 'Knak publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Asset Custom Fieldsets API, Assets API, AvailablePlatforms API, and 24 more. Tagged areas include Company, Email Marketing, Marketing Automation, Landing Pages, and Content Creation.
 
 
   The Knak catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -463,7 +463,7 @@ plans:
 - name: Knak Plans Pricing
   plan_count: 0
   slug: knak-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Knak Rate Limits
@@ -475,7 +475,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 58.9
+  composite: 59.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 52.0
@@ -483,11 +483,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 60.8
+    contract_quality: 62.5
     developer_ergonomics: 58.9
     discoverability: 81.5
     operational_transparency: 65.8
@@ -502,7 +502,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

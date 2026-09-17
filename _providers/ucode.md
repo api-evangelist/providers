@@ -19,7 +19,7 @@ name: UCode
 nav: Providers
 network: true
 overview: UCode is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, STEM, Coding Education, and Kids.
-random_paper: 3
+random_paper: 0
 slug: ucode
 tags:
 - Company

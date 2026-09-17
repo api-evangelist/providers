@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,11 +56,6 @@ apis:
   slug: goalserve-fixtures-api
 - baseURL: https://www.goalserve.com/getfeed
   baseurl_source: declared
-  description: The Live Scores API from GoalServe — 2 operation(s) for live scores.
-  name: GoalServe Live Scores API
-  slug: goalserve-live-scores-api
-- baseURL: https://www.goalserve.com/getfeed
-  baseurl_source: declared
   description: The Player Data API from GoalServe — 1 operation(s) for player data.
   name: GoalServe Player Data API
   slug: goalserve-player-data-api
@@ -74,6 +69,11 @@ apis:
   description: The Team Data API from GoalServe — 1 operation(s) for team data.
   name: GoalServe Team Data API
   slug: goalserve-team-data-api
+- baseURL: https://www.goalserve.com/getfeed
+  baseurl_source: declared
+  description: The Livescores API from GoalServe — 2 operation(s) for livescores.
+  name: GoalServe Livescores API
+  slug: goalserve-livescores-api
 artifact_total: 20
 collections:
 - collection_type: open
@@ -155,7 +155,7 @@ modified: '2026-06-25'
 name: GoalServe
 nav: Providers
 network: true
-overview: 'GoalServe publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Commentaries API, Fixtures API, Live Scores API, and 3 more. Tagged areas include Sports Data, Live Scores, Odds, Fixtures, and Soccer.
+overview: 'GoalServe publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Commentaries API, Fixtures API, Player Data API, and 3 more. Tagged areas include Sports Data, Live Scores, Odds, Fixtures, and Soccer.
 
 
   GoalServe''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -163,7 +163,7 @@ plans:
 - name: Goalserve Plans Pricing
   plan_count: 4
   slug: goalserve-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Goalserve Rate Limits
@@ -195,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

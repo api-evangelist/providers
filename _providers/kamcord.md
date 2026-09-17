@@ -19,7 +19,7 @@ name: Kamcord
 nav: Providers
 network: true
 overview: Kamcord is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Gaming, Video, and Live Streaming.
-random_paper: 2
+random_paper: 11
 slug: kamcord
 tags:
 - Company

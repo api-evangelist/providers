@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -49,36 +49,6 @@ apis:
   description: The A/B Tests API from Leanplum — 3 operation(s) for a/b tests.
   name: Leanplum A/B Tests API
   slug: leanplum-a-b-tests-api
-- baseURL: https://api.leanplum.com/api
-  baseurl_source: declared
-  description: The Content & Variables API from Leanplum — 3 operation(s) for content & variables.
-  name: Leanplum Content & Variables API
-  slug: leanplum-content-variables-api
-- baseURL: https://api.leanplum.com/api
-  baseurl_source: declared
-  description: The Data Export API from Leanplum — 5 operation(s) for data export.
-  name: Leanplum Data Export API
-  slug: leanplum-data-export-api
-- baseURL: https://api.leanplum.com/api
-  baseurl_source: declared
-  description: The Events & Tracking API from Leanplum — 7 operation(s) for events & tracking.
-  name: Leanplum Events & Tracking API
-  slug: leanplum-events-tracking-api
-- baseURL: https://api.leanplum.com/api
-  baseurl_source: declared
-  description: The Messaging API from Leanplum — 3 operation(s) for messaging.
-  name: Leanplum Messaging API
-  slug: leanplum-messaging-api
-- baseURL: https://api.leanplum.com/api
-  baseurl_source: declared
-  description: The Postbacks & Batch API from Leanplum — 2 operation(s) for postbacks & batch.
-  name: Leanplum Postbacks & Batch API
-  slug: leanplum-postbacks-batch-api
-- baseURL: https://api.leanplum.com/api
-  baseurl_source: declared
-  description: The User & Device Attributes API from Leanplum — 4 operation(s) for user & device attributes.
-  name: Leanplum User & Device Attributes API
-  slug: leanplum-user-device-attributes-api
 - baseURL: https://api.leanplum.com/api
   baseurl_source: declared
   description: The Campaigns API from Leanplum — 1 operation(s) for campaigns.
@@ -114,7 +84,7 @@ apis:
   description: The User Information API from Leanplum — 7 operation(s) for user information.
   name: Leanplum User Information API
   slug: leanplum-user-information-api
-artifact_total: 32
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Leanplum Postbacks Webhooks
@@ -328,7 +298,7 @@ modified: '2026-08-13'
 name: Leanplum
 nav: Providers
 network: true
-overview: 'Leanplum publishes 14 APIs on the [APIs.io](https://apis.io/) network, including A/B Tests API, Content & Variables API, Data Export API, and 11 more. Tagged areas include Mobile Marketing, Customer Engagement, Push Notifications, Messaging, and A/B Testing.
+overview: 'Leanplum publishes 8 APIs on the [APIs.io](https://apis.io/) network, including A/B Tests API, Campaigns API, Export Data API, and 5 more. Tagged areas include Mobile Marketing, Customer Engagement, Push Notifications, Messaging, and A/B Testing.
 
 
   The Leanplum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -339,14 +309,14 @@ plans:
 - name: Leanplum Plans Pricing
   plan_count: 2
   slug: leanplum-plans-pricing
-random_paper: 1
+random_paper: 4
 rate_limits:
 - limit_count: 10
   name: Leanplum Rate Limits
   slug: leanplum-rate-limits
 score:
   band: strong
-  composite: 55.5
+  composite: 59.8
   coverage:
     artifact_dirs: 24
     catalog_earned: 60.0
@@ -354,11 +324,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
     access_clarity: 82.9
     contract_governance: 18.2
-    contract_quality: 36.0
+    contract_quality: 53.0
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 57.9
@@ -368,13 +338,13 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 7
-      marker_coverage: 50.0
-      total: 14
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

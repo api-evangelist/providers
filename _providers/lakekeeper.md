@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: '{scheme}://{host}/lakekeeper/v1'
@@ -274,7 +274,7 @@ plans:
 - name: Lakekeeper Plans Pricing
   plan_count: 3
   slug: lakekeeper-plans-pricing
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Lakekeeper Rate Limits
@@ -313,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

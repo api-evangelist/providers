@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -72,16 +72,6 @@ apis:
   slug: microsoft-nuget-flatcontainer-api
 - baseURL: https://api.nuget.org/v3/
   baseurl_source: declared
-  description: The Index.json API from Microsoft NuGet — 1 operation(s) for index.json.
-  name: Microsoft NuGet Index.json API
-  slug: microsoft-nuget-index-json-api
-- baseURL: https://api.nuget.org/v3/
-  baseurl_source: declared
-  description: The Package API from Microsoft NuGet — 2 operation(s) for package.
-  name: Microsoft NuGet Package API
-  slug: microsoft-nuget-package-api
-- baseURL: https://api.nuget.org/v3/
-  baseurl_source: declared
   description: The Query API from Microsoft NuGet — 1 operation(s) for query.
   name: Microsoft NuGet Query API
   slug: microsoft-nuget-query-api
@@ -90,7 +80,7 @@ apis:
   description: The Registration5 Gz Semver2 API from Microsoft NuGet — 2 operation(s) for registration5 gz semver2.
   name: Microsoft NuGet Registration5 Gz Semver2 API
   slug: microsoft-nuget-registration5-gz-semver2-api
-artifact_total: 59
+artifact_total: 57
 collections:
 - collection_type: open
   name: API Collection
@@ -316,7 +306,7 @@ modified: '2026-05-19'
 name: NuGet
 nav: Providers
 network: true
-overview: 'NuGet publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Package Publish API, Registration API, Service Index API, and 6 more. Tagged areas include Package Management, .NET, Packages, Dependencies, and Software Distribution.
+overview: 'NuGet publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Package Publish API, Registration API, Service Index API, and 4 more. Tagged areas include Package Management, .NET, Packages, Dependencies, and Software Distribution.
 
 
   The NuGet catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -327,7 +317,7 @@ plans:
 - name: Nuget Plans Pricing
   plan_count: 1
   slug: nuget-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Nuget Rate Limits
@@ -345,7 +335,7 @@ rules:
   slug: nuget-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.7
+  composite: 49.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 47.3
@@ -353,11 +343,11 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 52.2
+    contract_quality: 52.9
     developer_ergonomics: 57.1
     discoverability: 66.7
     operational_transparency: 23.7
@@ -371,9 +361,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

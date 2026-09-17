@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -115,7 +115,7 @@ overview: 'OCSiAl is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   OCSiAl''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: minimal
   composite: 9.7
@@ -142,7 +142,7 @@ score:
     - europe
   previous_composite: 9.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

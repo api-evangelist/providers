@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ plans:
 - name: Flux Plans Pricing
   plan_count: 3
   slug: flux-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Flux Rate Limits
@@ -251,7 +251,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

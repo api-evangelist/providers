@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Self-service patient check-in and registration - kiosk, tablet, and mobile intake that captures demographics, consent forms, and identity, then writes the completed registration back to the practice's
@@ -81,7 +81,7 @@ overview: 'Clearwave publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Clearwave''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 6.7
@@ -108,7 +108,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

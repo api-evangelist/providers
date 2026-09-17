@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -99,10 +99,7 @@ apis:
   description: The Work Items API from Plane — 2 operation(s) for work items.
   name: Plane Work Items API
   slug: plane-so-work-items-api
-- description: The Plane REST API provides 180+ endpoints for managing all aspects of project management workspaces including projects, work items, cycles, modules, pages, analytics, intake, and team members. The AP
-  name: Plane REST API
-  slug: plane-rest-api
-artifact_total: 32
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -211,7 +208,7 @@ modified: '2026-06-21'
 name: Plane
 nav: Providers
 network: true
-overview: 'Plane publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Cycle Work Items API, Cycles API, Labels API, and 9 more. Tagged areas include Project Management, Issue Tracking, Work Management, Open-Source, and Productivity.
+overview: 'Plane publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cycle Work Items API, Cycles API, Labels API, and 8 more. Tagged areas include Project Management, Issue Tracking, Work Management, Open-Source, and Productivity.
 
 
   Plane''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -219,7 +216,7 @@ plans:
 - name: Plane So Plans Pricing
   plan_count: 6
   slug: plane-so-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Plane So Rate Limits
@@ -252,7 +249,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

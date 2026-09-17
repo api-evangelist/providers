@@ -25,7 +25,7 @@ name: Appurify
 nav: Providers
 network: true
 overview: Appurify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Testing, Quality Assurance, and DevOps.
-random_paper: 19
+random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/appurify/refs/heads/main/screenshots/appurify-2026-07-25T200854.png
 slug: appurify
 tags:

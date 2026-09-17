@@ -43,7 +43,7 @@ name: ChangeTip
 nav: Providers
 network: true
 overview: ChangeTip is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bitcoin, Cryptocurrency, Micropayments, and Payments.
-random_paper: 2
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/changetip/refs/heads/main/screenshots/changetip-2026-07-25T205037.png
 security:
 - kind: domain-security

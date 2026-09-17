@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 5
@@ -274,7 +274,7 @@ overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
 
 
   Go1''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 29 more developer resources.'
-random_paper: 11
+random_paper: 21
 scopes:
 - name: Go1 Scopes
   scope_count: 8
@@ -316,7 +316,7 @@ score:
     regime_id: education
     score: 74.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

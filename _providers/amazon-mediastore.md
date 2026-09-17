@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -282,6 +282,10 @@ collections:
   name: 'AWS Elemental MediaStore #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.CreateContainer #X Amz Target=MediaStore 20170901.UntagResource API'
   slug: open-amazon-mediastore-x-amz-target-mediastore-20170901-untagresource-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1130,7 +1134,7 @@ jsonld:
   property_count: 27
   slug: amazon-mediastore-mediastore-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon MediaStore
 nav: Providers
 network: true
@@ -1140,12 +1144,12 @@ overview: 'Amazon MediaStore publishes 21 APIs on the [APIs.io](https://apis.io/
   The Amazon MediaStore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon MediaStore''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon MediaStore''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Mediastore Plans Pricing
   plan_count: 3
   slug: amazon-mediastore-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Amazon Mediastore Rate Limits
@@ -1199,7 +1203,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1234,5 +1238,5 @@ use_cases:
   name: Media Asset Management
 - description: Serve HLS and DASH segments with consistent performance for video streaming.
   name: Streaming Video Delivery
-website: https://aws.amazon.com/mediastore/
+website: https://amazon.com
 ---

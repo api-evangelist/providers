@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://khazna.ku.ac.ae/ws/oai
-  baseurl_source: declared
-  description: OAI-PMH 2.0 metadata harvesting endpoint for Khazna, Khalifa University's research portal, at https://khazna.ku.ac.ae/ws/oai. Open and anonymous. Identify (probed 2026-09-01, HTTP 200) reports reposit
-  name: Khazna OAI-PMH Repository
-  slug: khazna-oai-pmh
 - description: Khalifa University operates its own Microsoft Entra ID tenant for the ku.ac.ae namespace — tenant id 08fe1c0a-19f5-4f24-a662-fdd5dd460025, getuserrealm.srf reporting NameSpaceType=Managed, DomainName=
   name: Khalifa University Identity Federation (Microsoft Entra ID)
   slug: entra-identity-federation
@@ -68,6 +63,11 @@ apis:
 - description: Public open-source repositories from the Khalifa University Center for Autonomous Robotic Systems (KUCARS) — 71 public repos covering coverage path planning, soft manipulator dynamics, collision detec
   name: KUCARS Open-Source Robotics Research (GitHub)
   slug: kucars
+- baseURL: https://khazna.ku.ac.ae/ws/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs supported by the Khazna repository.
+  name: Khalifa University Oai Pmh API
+  slug: khalifa-oai-pmh-api
 artifact_total: 17
 common:
 - group: company
@@ -175,7 +175,7 @@ modified: '2026-09-01'
 name: Khalifa University
 nav: Providers
 network: true
-overview: 'Khalifa University publishes 1 API on the [APIs.io](https://apis.io/) network: Khazna OAI-PMH Repository. Tagged areas include University, Higher Education, Education, Research, and Research Data.
+overview: 'Khalifa University publishes 1 API on the [APIs.io](https://apis.io/) network: Oai Pmh API. Tagged areas include University, Higher Education, Education, Research, and Research Data.
 
 
   The Khalifa University catalog on APIs.io includes 1 JSON-LD context.
@@ -186,7 +186,7 @@ plans:
 - name: Khalifa Plans Pricing
   plan_count: 2
   slug: khalifa-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Khalifa Rate Limits
@@ -229,7 +229,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

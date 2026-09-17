@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
@@ -203,7 +203,7 @@ overview: 'ubank publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   ubank''s developer surface includes authentication, documentation, support, and 17 more developer resources.'
-random_paper: 4
+random_paper: 1
 scopes:
 - name: Ubank Scopes
   scope_count: 9
@@ -251,7 +251,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

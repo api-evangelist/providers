@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -134,7 +134,7 @@ overview: 'ConverseNow is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   ConverseNow''s developer surface includes engineering blog, signup flow, changelog, and 12 more developer resources.'
-random_paper: 12
+random_paper: 21
 score:
   band: emerging
   composite: 16.4
@@ -155,7 +155,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 16.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

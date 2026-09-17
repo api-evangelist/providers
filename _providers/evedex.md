@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 14
@@ -68,11 +68,6 @@ apis:
   description: The Aml API from EVEDEX — 3 operation(s) for aml.
   name: EVEDEX Aml API
   slug: evedex-aml-api
-- baseURL: https://auth-api.evedex.com
-  baseurl_source: declared
-  description: The ApiKey API from EVEDEX — 3 operation(s) for apikey.
-  name: EVEDEX API Key API
-  slug: evedex-apikey-api
 - baseURL: https://auth-api.evedex.com
   baseurl_source: declared
   description: The Article API from EVEDEX — 2 operation(s) for article.
@@ -305,11 +300,6 @@ apis:
   slug: evedex-message-api
 - baseURL: https://auth-api.evedex.com
   baseurl_source: declared
-  description: The MobileApp API from EVEDEX — 9 operation(s) for mobileapp.
-  name: EVEDEX Mobile App API
-  slug: evedex-mobileapp-api
-- baseURL: https://auth-api.evedex.com
-  baseurl_source: declared
   description: The Module API from EVEDEX — 2 operation(s) for module.
   name: EVEDEX Module API
   slug: evedex-module-api
@@ -330,19 +320,9 @@ apis:
   slug: evedex-notifications-api
 - baseURL: https://auth-api.evedex.com
   baseurl_source: declared
-  description: The Oauth API from EVEDEX — 5 operation(s) for oauth.
-  name: EVEDEX OAUTH API
-  slug: evedex-oauth-api
-- baseURL: https://auth-api.evedex.com
-  baseurl_source: declared
   description: The Order API from EVEDEX — 15 operation(s) for order.
   name: EVEDEX Order API
   slug: evedex-order-api
-- baseURL: https://auth-api.evedex.com
-  baseurl_source: declared
-  description: The PaymentService API from EVEDEX — 1 operation(s) for paymentservice.
-  name: EVEDEX Payment Service API
-  slug: evedex-paymentservice-api
 - baseURL: https://auth-api.evedex.com
   baseurl_source: declared
   description: The Paysystem API from EVEDEX — 1 operation(s) for paysystem.
@@ -368,11 +348,6 @@ apis:
   description: The Product API from EVEDEX — 3 operation(s) for product.
   name: EVEDEX Product API
   slug: evedex-product-api
-- baseURL: https://auth-api.evedex.com
-  baseurl_source: declared
-  description: The Promocodes API from EVEDEX — 4 operation(s) for promocodes.
-  name: EVEDEX Promocodes API
-  slug: evedex-promocodes-api
 - baseURL: https://auth-api.evedex.com
   baseurl_source: declared
   description: The Public profile API from EVEDEX — 2 operation(s) for public profile.
@@ -445,11 +420,6 @@ apis:
   slug: evedex-sharecontent-api
 - baseURL: https://auth-api.evedex.com
   baseurl_source: declared
-  description: The ShortLink API from EVEDEX — 3 operation(s) for shortlink.
-  name: EVEDEX Short Link API
-  slug: evedex-shortlink-api
-- baseURL: https://auth-api.evedex.com
-  baseurl_source: declared
   description: The Simulator API from EVEDEX — 2 operation(s) for simulator.
   name: EVEDEX Simulator API
   slug: evedex-simulator-api
@@ -483,11 +453,6 @@ apis:
   description: The Strategy API from EVEDEX — 4 operation(s) for strategy.
   name: EVEDEX Strategy API
   slug: evedex-strategy-api
-- baseURL: https://auth-api.evedex.com
-  baseurl_source: declared
-  description: The SubAccount API from EVEDEX — 7 operation(s) for subaccount.
-  name: EVEDEX Sub Account API
-  slug: evedex-subaccount-api
 - baseURL: https://auth-api.evedex.com
   baseurl_source: declared
   description: The Subscription API from EVEDEX — 4 operation(s) for subscription.
@@ -588,6 +553,41 @@ apis:
   description: The Yield API from EVEDEX — 2 operation(s) for yield.
   name: EVEDEX Yield API
   slug: evedex-yield-api
+- baseURL: https://docs.evedex.com
+  baseurl_source: declared
+  description: The Oauth API from EVEDEX — 5 operation(s) for oauth.
+  name: EVEDEX OAUTH API
+  slug: evedex-oauth-api
+- baseURL: https://docs.evedex.com
+  baseurl_source: declared
+  description: The API Key API from EVEDEX — 3 operation(s) for api key.
+  name: EVEDEX API Key API
+  slug: evedex-api-key-api
+- baseURL: https://docs.evedex.com
+  baseurl_source: declared
+  description: The Mobile App API from EVEDEX — 9 operation(s) for mobile app.
+  name: EVEDEX Mobile App API
+  slug: evedex-mobile-app-api
+- baseURL: https://docs.evedex.com
+  baseurl_source: declared
+  description: The Payment Service API from EVEDEX — 1 operation(s) for payment service.
+  name: EVEDEX Payment Service API
+  slug: evedex-payment-service-api
+- baseURL: https://docs.evedex.com
+  baseurl_source: declared
+  description: The Promo Codes API from EVEDEX — 4 operation(s) for promo codes.
+  name: EVEDEX Promo Codes API
+  slug: evedex-promo-codes-api
+- baseURL: https://docs.evedex.com
+  baseurl_source: declared
+  description: The Short Link API from EVEDEX — 3 operation(s) for short link.
+  name: EVEDEX Short Link API
+  slug: evedex-short-link-api
+- baseURL: https://docs.evedex.com
+  baseurl_source: declared
+  description: The Sub Account API from EVEDEX — 7 operation(s) for sub account.
+  name: EVEDEX Sub Account API
+  slug: evedex-sub-account-api
 artifact_total: 115
 asyncapis:
 - description: ''
@@ -811,14 +811,14 @@ plans:
 - name: Evedex Plans Pricing
   plan_count: 3
   slug: evedex-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Evedex Rate Limits
   slug: evedex-rate-limits
 score:
   band: strong
-  composite: 54.9
+  composite: 56.5
   coverage:
     artifact_dirs: 23
     catalog_earned: 56.0
@@ -826,11 +826,11 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 49.9
+    contract_quality: 56.3
     developer_ergonomics: 73.2
     discoverability: 66.7
     operational_transparency: 47.4
@@ -852,7 +852,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

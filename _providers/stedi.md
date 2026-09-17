@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -103,11 +103,6 @@ apis:
   description: The Partnerships API from Stedi — 3 operation(s) for partnerships.
   name: Stedi Partnerships API
   slug: stedi-partnerships-api
-- baseURL: https://healthcare.us.stedi.com/2024-04-01
-  baseurl_source: declared
-  description: The Payer API from Stedi — 1 operation(s) for payer.
-  name: Stedi Payer API
-  slug: stedi-payer-api
 - baseURL: https://healthcare.us.stedi.com/2024-04-01
   baseurl_source: declared
   description: The Payers API from Stedi — 4 operation(s) for payers.
@@ -189,7 +184,7 @@ arazzos:
 - description: Create a provider, open an enrollment, upload the signed agreement, and read the enrollment status for X12 835 ERA/EFT transactions.
   name: Stedi Provider Enrollment for X12 835 ERA/EFT
   slug: stedi-provider-enrollment-workflow
-artifact_total: 77
+artifact_total: 76
 asyncapis:
 - description: 'Stedi publishes NO AsyncAPI document of its own. This document was assembled by API Evangelist from Stedi''s own published sources: the V1EventPayload schema in Stedi''s OpenAPI for the Events API, the '
   name: Stedi Event Destinations (webhooks)
@@ -262,6 +257,11 @@ collections:
   name: Stedi Healthcare Claims Claim acknowledgments X12 API
   slug: open-stedi-x12-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/overlays/stedi-payer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/stedi-payer-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/capabilities/stedi-capability-edges.yml
   title: ''
@@ -562,18 +562,18 @@ modified: '2026-08-15'
 name: Stedi
 nav: Providers
 network: true
-overview: 'Stedi publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Claim acknowledgments API, Claim Attachments API, Claim submission API, and 22 more. Tagged areas include EDI, Electronic Data Interchange, Healthcare, Clearinghouse, and X12.
+overview: 'Stedi publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Claim acknowledgments API, Claim Attachments API, Claim submission API, and 21 more. Tagged areas include EDI, Electronic Data Interchange, Healthcare, Clearinghouse, and X12.
 
 
   The Stedi catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Stedi''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, changelog, API reference, and 44 more developer resources.'
+  Stedi''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, changelog, API reference, and 45 more developer resources.'
 plans:
 - name: Stedi Plans Pricing
   plan_count: 3
   slug: stedi-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Stedi Rate Limits
@@ -596,7 +596,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 83.1
+  composite: 84.1
   coverage:
     artifact_dirs: 31
     catalog_earned: 83.3
@@ -604,11 +604,11 @@ score:
     catalog_gap: 31.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 100.0
     contract_governance: 43.2
-    contract_quality: 67.6
+    contract_quality: 71.6
     developer_ergonomics: 73.2
     discoverability: 81.5
     operational_transparency: 84.2
@@ -620,7 +620,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 26
+      total: 25
     mcp: first-party
     skills: derived
   regulatory:
@@ -630,7 +630,7 @@ score:
     regime_id: insurance
     score: 80.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

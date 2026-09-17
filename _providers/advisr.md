@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Advisr REST API exposes the objects inside the Advisr Platform — company, groups, clients, agencies, campaigns (including product summary and detail, product recommendations, geo, audience, presen
@@ -100,7 +100,7 @@ plans:
 - name: Advisr Plans Pricing
   plan_count: 0
   slug: advisr-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Advisr Rate Limits
@@ -133,7 +133,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

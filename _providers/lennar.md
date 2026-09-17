@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'Azure API Management developer portal for Lennar Corporation. Allows developers to discover Lennar APIs, sign up for an API key, read the auto-generated reference, and exercise endpoints from the API '
@@ -106,7 +106,7 @@ press:
 - date: '2026-05-25'
   title: 'Lennar: Statement on Land-Light Strategy'
   url: https://www.prnewswire.com/news-releases/lennar-statement-on-land-light-strategy-302728846.html
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Lennar Rate Limits
@@ -131,7 +131,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

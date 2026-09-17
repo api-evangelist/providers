@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -327,6 +327,10 @@ common:
   title: ''
   type: Postman
   url: https://www.postman.com/kinlaneapi/parallel/overview
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:partnerships@parallel.ai
 created: '2026-07-17'
 description: 'Parallel Web Systems builds web APIs purpose-built for AI agents: a high-accuracy Search API, an Extract API that turns URLs into clean LLM-ready markdown, a Task/Deep Research API with tiered processors (lite through ultra), FindAll for natural-language entity discovery and enrichment, a Monitor API for scheduled web-change tracking, an OpenAI-compatible Responses and Chat Completions pair, and a Memory API that lets agents reuse past research. The platform is API-key authenticated over https://api.parallel.ai, ships official Python and TypeScript SDKs and a CLI, emits Standard Webhooks and SSE event streams, and is SOC 2 Type I/II certified. Its agent surface is unusually complete: an anonymous hosted MCP server whose tools are publicly introspectable, an OAuth-gated Task MCP server, a conformant A2A agent card backed by a live /a2a endpoint, provider-published Agent Skills with a discovery document, an llms.txt, and markdown twins of every documentation page. Pricing is
   pay-as-you-go per request per product. Originally surfaced as a Kleiner Perkins portfolio company and enriched from Parallel''s public developer surface.'
@@ -346,12 +350,12 @@ overview: 'Parallel publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The Parallel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Parallel''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 35 more developer resources.'
+  Parallel''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, support, and 36 more developer resources.'
 plans:
 - name: Parallel Plans Pricing
   plan_count: 1
   slug: parallel-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 7
   name: Parallel Rate Limits
@@ -391,7 +395,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

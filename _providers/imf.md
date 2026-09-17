@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://api.imf.org/external/sdmx/3.0
   baseurl_source: declared
   description: Retrieve actual statistical data observations from IMF datasets
-  name: IMF Data Data API
+  name: IMF Data API
   slug: imf-data-api
 - baseURL: https://api.imf.org/external/sdmx/3.0
   baseurl_source: declared
@@ -162,11 +162,11 @@ jsonld:
   property_count: 0
   slug: imf-api
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: IMF Data
 nav: Providers
 network: true
-overview: 'IMF Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data API and Structure API. Tagged areas include Financial Data, Economic Indicators, Balance of Payments, Exchange Rates, and International Finance.
+overview: 'IMF Data publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Structure API, and 1 more. Tagged areas include Financial Data, Economic Indicators, Balance of Payments, Exchange Rates, and International Finance.
 
 
   The IMF Data catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -177,7 +177,7 @@ plans:
 - name: Imf Plans Pricing
   plan_count: 1
   slug: imf-plans-pricing
-random_paper: 1
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Imf Rate Limits
@@ -226,7 +226,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -87,11 +87,6 @@ apis:
   slug: amazon-macie-custom-data-identifiers-api
 - baseURL: https://macie2.amazonaws.com
   baseurl_source: declared
-  description: The Datasources API from Amazon Macie — 3 operation(s) for datasources.
-  name: Amazon Macie Datasources API
-  slug: amazon-macie-datasources-api
-- baseURL: https://macie2.amazonaws.com
-  baseurl_source: declared
   description: The Findings API from Amazon Macie — 6 operation(s) for findings.
   name: Amazon Macie Findings API
   slug: amazon-macie-findings-api
@@ -118,7 +113,7 @@ apis:
 - baseURL: https://macie2.amazonaws.com
   baseurl_source: declared
   description: The Macie API from Amazon Macie — 2 operation(s) for macie.
-  name: Amazon Macie Macie API
+  name: Amazon Macie API
   slug: amazon-macie-macie-api
 - baseURL: https://macie2.amazonaws.com
   baseurl_source: declared
@@ -165,6 +160,11 @@ apis:
   description: The Usage API from Amazon Macie — 2 operation(s) for usage.
   name: Amazon Macie Usage API
   slug: amazon-macie-usage-api
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Data Sources API from Amazon Macie — 3 operation(s) for data sources.
+  name: Amazon Macie Data Sources API
+  slug: amazon-macie-data-sources-api
 artifact_total: 1363
 collections:
 - collection_type: postman
@@ -318,6 +318,10 @@ collections:
   name: Amazon Macie API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -4234,7 +4238,7 @@ jsonld:
   property_count: 331
   slug: amazon-macie-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Macie
 nav: Providers
 network: true
@@ -4244,12 +4248,12 @@ overview: 'Amazon Macie publishes 24 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Macie catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Macie''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Macie''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Macie Plans Pricing
   plan_count: 3
   slug: amazon-macie-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Macie Rate Limits
@@ -4303,7 +4307,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -4345,5 +4349,5 @@ use_cases:
   name: Security Incident Response
 - description: Build a data inventory and understand where sensitive data lives across the organization.
   name: Data Governance
-website: https://aws.amazon.com/macie/
+website: https://amazon.com
 ---

@@ -43,7 +43,7 @@ overview: 'CODEX.md is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CODEX.md''s developer surface includes documentation, GitHub presence, and 3 more developer resources.'
-random_paper: 8
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/codex-md/refs/heads/main/screenshots/codex-md-2026-06-20T174708.png
 slug: codex-md
 tags:

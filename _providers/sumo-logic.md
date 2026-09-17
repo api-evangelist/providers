@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 9
@@ -52,16 +52,6 @@ apis:
   slug: sumo-logic-accesskeymanagement-api
 - baseURL: https://api.sumologic.com/api
   baseurl_source: declared
-  description: Account Management API. Manage the custom subdomain for the URL used to access your Sumo Logic account. For more information, see [Manage Organization](https://help.sumologic.com/docs/manage/manage-su
-  name: Sumo Logic accountManagement API
-  slug: sumo-logic-accountmanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: App installation API. View and install Sumo Logic Applications that deliver out-of-the-box dashboards, saved searches, and field extraction for popular data sources. For more information, see [Sumo Lo
-  name: Sumo Logic appManagement API
-  slug: sumo-logic-appmanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
   description: App installation API (V2). View and install Sumo Logic Applications that deliver out-of-the-box dashboards, saved searches, and field extraction for popular data sources. For more information, see [Su
   name: Sumo Logic appManagementV2 API
   slug: sumo-logic-appmanagementv2-api
@@ -70,26 +60,6 @@ apis:
   description: Archive Ingestion Management API. Archive Ingestion allows you to ingest data from Archive destinations. You can use this API to ingest data from your Archive with an existing AWS S3 Archive Source. Y
   name: Sumo Logic archiveManagement API
   slug: sumo-logic-archivemanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: Budget Management API.
-  name: Sumo Logic budgetManagement API
-  slug: sumo-logic-budgetmanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: Connection management API. Set up connections to send alerts to other tools. For more information, see [Connections and Integrations](https://help.sumologic.com/?cid=1044).
-  name: Sumo Logic connectionManagement API
-  slug: sumo-logic-connectionmanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: Content management API. You can export, import, delete and copy content in your organization’s Library. For more information, see [Library](https://help.sumologic.com/?cid=5173). You can perform the r
-  name: Sumo Logic contentManagement API
-  slug: sumo-logic-contentmanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: 'Content permissions API. You can share your folders, searches, and dashboards with specific users or roles. For more information, see [Share Content](https://help.sumologic.com/?cid=8675309). You can '
-  name: Sumo Logic contentPermissions API
-  slug: sumo-logic-contentpermissions-api
 - baseURL: https://api.sumologic.com/api
   baseurl_source: declared
   description: Dashboard (New) management API. Dashboard (New) allows you to analyze metric and log data on the same dashboard, in a seamless view. This gives you control over the visual display of metric and log da
@@ -110,11 +80,6 @@ apis:
   description: Dynamic Parsing management API. Dynamic Parsing allows automatic field extraction from your log messages when you run a search. This allows you to view fields from logs without having to manually spec
   name: Sumo Logic dynamicParsingRuleManagement API
   slug: sumo-logic-dynamicparsingrulemanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: Event Analytics (Beta) API. APIs for interacting with events in Sumo Logic.
-  name: Sumo Logic eventAnalytics API
-  slug: sumo-logic-eventanalytics-api
 - baseURL: https://api.sumologic.com/api
   baseurl_source: declared
   description: 'Field Extraction Rule management API. Field Extraction Rules allow you to parse fields from your log messages at the time the messages are ingested eliminating the need to parse fields in your query. '
@@ -217,19 +182,9 @@ apis:
   slug: sumo-logic-partitionmanagement-api
 - baseURL: https://api.sumologic.com/api
   baseurl_source: declared
-  description: Password Policy Management API The password policy controls how user passwords are managed. The "Manage Password Policy" role capability is required to update the password policy. For more information
-  name: Sumo Logic passwordPolicy API
-  slug: sumo-logic-passwordpolicy-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
   description: Policies management API. Policies control the security and share settings of your organization. For more information, see [Security](https://help.sumologic.com/?cid=4041).
   name: Sumo Logic policiesManagement API
   slug: sumo-logic-policiesmanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: Role management API. Roles determine the functions that users are able to perform in Sumo Logic. To manage roles, you must have an administrator role or your role must have been assigned the manage us
-  name: Sumo Logic roleManagement API
-  slug: sumo-logic-rolemanagement-api
 - baseURL: https://api.sumologic.com/api
   baseurl_source: declared
   description: 'Role management API (V2). Roles determine the functions that users are able to perform in Sumo Logic. It also allows to configure access on partitions. To manage roles, you must have an administrator '
@@ -250,11 +205,6 @@ apis:
   description: Schema Base Management APIs.
   name: Sumo Logic schemaBaseManagement API
   slug: sumo-logic-schemabasemanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: APIs to manage scim based users.
-  name: Sumo Logic scimUserManagement API
-  slug: sumo-logic-scimusermanagement-api
 - baseURL: https://api.sumologic.com/api
   baseurl_source: declared
   description: APIs to manage service accounts
@@ -312,11 +262,6 @@ apis:
   slug: sumo-logic-transformationrulemanagement-api
 - baseURL: https://api.sumologic.com/api
   baseurl_source: declared
-  description: User management API. To manage users, you must have the administrator role or your role must have been assigned the manage users and roles capability. For more information, see [Manage Users](https://
-  name: Sumo Logic userManagement API
-  slug: sumo-logic-usermanagement-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
   description: The Collectors API from Sumo Logic — 2 operation(s) for collectors.
   name: Sumo Logic Collectors API
   slug: sumo-logic-collectors-api
@@ -327,30 +272,65 @@ apis:
   slug: sumo-logic-content-api
 - baseURL: https://api.sumologic.com/api
   baseurl_source: declared
-  description: The Dashboards API from Sumo Logic — 2 operation(s) for dashboards.
-  name: Sumo Logic Dashboards API
-  slug: sumo-logic-dashboards-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: The Monitors API from Sumo Logic — 1 operation(s) for monitors.
-  name: Sumo Logic Monitors API
-  slug: sumo-logic-monitors-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
-  description: The Roles API from Sumo Logic — 1 operation(s) for roles.
-  name: Sumo Logic Roles API
-  slug: sumo-logic-roles-api
-- baseURL: https://api.sumologic.com/api
-  baseurl_source: declared
   description: The Search Jobs API from Sumo Logic — 4 operation(s) for search jobs.
   name: Sumo Logic Search Jobs API
   slug: sumo-logic-search-jobs-api
 - baseURL: https://api.sumologic.com/api
   baseurl_source: declared
-  description: The Users API from Sumo Logic — 2 operation(s) for users.
-  name: Sumo Logic Users API
-  slug: sumo-logic-users-api
-artifact_total: 143
+  description: Account Management API. Manage the custom subdomain for the URL used to access your Sumo Logic account. For more information, see Manage Organization.
+  name: Sumo Logic Account Management API
+  slug: sumo-logic-account-management-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: App installation API. View and install Sumo Logic Applications that deliver out-of-the-box dashboards, saved searches, and field extraction for popular data sources. For more information, see Sumo Log
+  name: Sumo Logic App Management API
+  slug: sumo-logic-app-management-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Budget Management API.
+  name: Sumo Logic budget management API
+  slug: sumo-logic-budget-management-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Connection management API. Set up connections to send alerts to other tools. For more information, see Connections and Integrations.
+  name: Sumo Logic Connection Management API
+  slug: sumo-logic-connection-management-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Content management API.
+  name: Sumo Logic Content Management API
+  slug: sumo-logic-content-management-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Content permissions API. You can share your folders, searches, and dashboards with specific users or roles. For more information, see Share Content. You can perform the request as a Content Administra
+  name: Sumo Logic Content Permissions API
+  slug: sumo-logic-content-permissions-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Event Analytics (Beta) API. APIs for interacting with events in Sumo Logic.
+  name: Sumo Logic event analytics API
+  slug: sumo-logic-event-analytics-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Password Policy Management API The password policy controls how user passwords are managed. The "Manage Password Policy" role capability is required to update the password policy. For more information
+  name: Sumo Logic Password Policy API
+  slug: sumo-logic-password-policy-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: Role management API. Roles determine the functions that users are able to perform in Sumo Logic. To manage roles, you must have an administrator role or your role must have been assigned the manage us
+  name: Sumo Logic Role Management API
+  slug: sumo-logic-role-management-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: APIs to manage scim based users.
+  name: Sumo Logic SCIM User Management API
+  slug: sumo-logic-scim-user-management-api
+- baseURL: https://api.sumologic.com/api
+  baseurl_source: declared
+  description: User management API. To manage users, you must have the administrator role or your role must have been assigned the manage users and roles capability. For more information, see Manage Users.
+  name: Sumo Logic User Management API
+  slug: sumo-logic-user-management-api
+artifact_total: 139
 asyncapis:
 - description: 'AsyncAPI description of Sumo Logic''s outbound webhook surfaces. Sumo Logic delivers alert and recovery notifications via HTTP POST to user-configured webhook connections. Each connection type targets '
   name: Sumo Logic Webhook Connections
@@ -672,7 +652,7 @@ modified: '2026-08-08'
 name: Sumo Logic
 nav: Providers
 network: true
-overview: 'Sumo Logic publishes 61 APIs on the [APIs.io](https://apis.io/) network, including accessKeyManagement API, accountManagement API, appManagement API, and 58 more. Tagged areas include Logging, Observability, Security, Monitoring, and Analytics.
+overview: 'Sumo Logic publishes 57 APIs on the [APIs.io](https://apis.io/) network, including accessKeyManagement API, appManagementV2 API, archiveManagement API, and 54 more. Tagged areas include Logging, Observability, Security, Monitoring, and Analytics.
 
 
   The Sumo Logic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -683,7 +663,7 @@ plans:
 - name: Sumo Logic Plans Pricing
   plan_count: 3
   slug: sumo-logic-plans-pricing
-random_paper: 15
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Sumo Logic Rate Limits
@@ -723,21 +703,21 @@ rules:
   slug: sumo-logic-rules
 score:
   band: developing
-  composite: 45.0
+  composite: 43.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 55.5
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.5
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 71.9
+    contract_quality: 72.1
     developer_ergonomics: 52.4
-    discoverability: 63.0
+    discoverability: 44.4
     operational_transparency: 26.3
   previous_composite: 45.0
   provenance:
@@ -746,10 +726,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 61
+      total: 57
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

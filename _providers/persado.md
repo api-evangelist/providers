@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'A production remote Model Context Protocol server operated by Persado at https://api.persado.com/mcp. Discovered by probing the API host: the RFC 9728 protected-resource document names the resource ve'
@@ -156,7 +156,7 @@ plans:
 - name: Persado Plans Pricing
   plan_count: 0
   slug: persado-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Persado Rate Limits
@@ -189,7 +189,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

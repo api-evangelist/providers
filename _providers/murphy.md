@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ name: Murphy
 nav: Providers
 network: true
 overview: Murphy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Artificial Intelligence, Debt Collection, and Voice AI.
-random_paper: 5
+random_paper: 17
 score:
   band: emerging
   composite: 12.1
@@ -106,7 +106,7 @@ score:
     - france-iberia
   previous_composite: 12.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

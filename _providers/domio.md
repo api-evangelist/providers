@@ -26,7 +26,7 @@ name: Domio
 nav: Providers
 network: true
 overview: Domio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Travel, Hospitality, and Lodging.
-random_paper: 11
+random_paper: 8
 slug: domio
 tags:
 - Company
@@ -35,7 +35,7 @@ tags:
 - Hospitality
 - Lodging
 - Short-Term Rental
-- Accommodations
+- Accommodation
 - Real-Estate
 - Consumer
 ---

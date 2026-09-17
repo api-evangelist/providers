@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
   description: Company CRM records
   name: Twenty companies API
   slug: twenty-companies-api
-- baseURL: https://api.twenty.com/rest/core
+- baseURL: https://api.twenty.com/rest/metadata
   baseurl_source: spec
   description: Custom field metadata management
   name: Twenty fields API
@@ -59,16 +59,11 @@ apis:
   description: Note records associated with CRM objects
   name: Twenty notes API
   slug: twenty-notes-api
-- baseURL: https://api.twenty.com/rest/core
+- baseURL: https://api.twenty.com/rest/metadata
   baseurl_source: spec
   description: Custom object metadata management
   name: Twenty objects API
   slug: twenty-objects-api
-- baseURL: https://api.twenty.com/rest/core
-  baseurl_source: spec
-  description: OpenAPI schema discovery
-  name: Twenty openapi API
-  slug: twenty-openapi-api
 - baseURL: https://api.twenty.com/rest/core
   baseurl_source: spec
   description: Opportunity/deal CRM records
@@ -79,7 +74,7 @@ apis:
   description: Person/contact CRM records
   name: Twenty people API
   slug: twenty-people-api
-- baseURL: https://api.twenty.com/rest/core
+- baseURL: https://api.twenty.com/rest/metadata
   baseurl_source: spec
   description: Custom relation metadata management
   name: Twenty relations API
@@ -92,28 +87,12 @@ apis:
 - description: Auto-generated GraphQL API over the same workspace schema, exposing queries, mutations, batch upserts via plural object names, and relation traversal for the Core API (/graphql) and Metadata API (/met
   name: Twenty GraphQL API
   slug: twenty-crm-graphql-api
-- description: Core API CRUD over company records.
-  name: Twenty Companies API
-  slug: twenty-crm-companies-api
-- description: Metadata API management of field definitions.
-  name: Twenty Metadata - Fields API
-  slug: twenty-crm-metadata-fields-api
-- description: Metadata API management of object definitions.
-  name: Twenty Metadata - Objects API
-  slug: twenty-crm-metadata-objects-api
-- description: Core API CRUD over note records.
-  name: Twenty Notes API
-  slug: twenty-crm-notes-api
-- description: Core API CRUD over opportunity records.
-  name: Twenty Opportunities API
-  slug: twenty-crm-opportunities-api
-- description: Core API CRUD over person records.
-  name: Twenty People API
-  slug: twenty-crm-people-api
-- description: Core API CRUD over task records.
-  name: Twenty Tasks API
-  slug: twenty-crm-tasks-api
-artifact_total: 43
+- baseURL: https://api.twenty.com/graphql
+  baseurl_source: declared
+  description: OpenAPI schema discovery
+  name: Twenty Open API
+  slug: twenty-open-api-api
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -268,7 +247,7 @@ modified: 2026-06-12
 name: Twenty
 nav: Providers
 network: true
-overview: 'Twenty publishes 16 APIs on the [APIs.io](https://apis.io/) network, including companies API, fields API, notes API, and 13 more. Tagged areas include CRM, Open-Source, REST, GraphQL, and Webhook.
+overview: 'Twenty publishes 9 APIs on the [APIs.io](https://apis.io/) network, including companies API, fields API, notes API, and 6 more. Tagged areas include CRM, Open-Source, REST, GraphQL, and Webhook.
 
 
   The Twenty catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -279,7 +258,7 @@ plans:
 - name: Twenty Plans Pricing
   plan_count: 3
   slug: twenty-plans-pricing
-random_paper: 11
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Twenty Rate Limits
@@ -297,7 +276,7 @@ rules:
   slug: twenty-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.0
+  composite: 47.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 80.3
@@ -305,12 +284,12 @@ score:
     catalog_gap: 34.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 73.7
-    developer_ergonomics: 32.1
+    developer_ergonomics: 31.0
     discoverability: 50.0
     operational_transparency: 36.8
   previous_composite: 48.0
@@ -323,7 +302,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

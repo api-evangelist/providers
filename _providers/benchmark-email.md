@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 3
@@ -91,12 +91,12 @@ apis:
 - baseURL: https://clientapi.benchmarkemail.com
   baseurl_source: declared
   description: Email template and layout management
-  name: Benchmark Email Email Editor API
+  name: Benchmark Email Editor API
   slug: benchmark-email-email-editor-api
 - baseURL: https://clientapi.benchmarkemail.com
   baseurl_source: declared
   description: Email Email Rss Creation
-  name: Benchmark Email Email  Email Rss Creation API
+  name: Benchmark Email Rss Creation API
   slug: benchmark-email-email-email-rss-creation-api
 - baseURL: https://clientapi.benchmarkemail.com
   baseurl_source: declared
@@ -206,17 +206,17 @@ apis:
 - baseURL: https://clientapi.benchmarkemail.com
   baseurl_source: declared
   description: Email campaign related endpoints
-  name: Benchmark Email Email Campaign API
+  name: Benchmark Email Campaign API
   slug: benchmark-email-email-campaign-api
 - baseURL: https://clientapi.benchmarkemail.com
   baseurl_source: declared
   description: Email domain related endpoints
-  name: Benchmark Email Email Domain API
+  name: Benchmark Email Domain API
   slug: benchmark-email-email-domain-api
 - baseURL: https://clientapi.benchmarkemail.com
   baseurl_source: declared
   description: Email template related endpoints
-  name: Benchmark Email Email Template API
+  name: Benchmark Email Template API
   slug: benchmark-email-email-template-api
 - baseURL: https://clientapi.benchmarkemail.com
   baseurl_source: declared
@@ -529,7 +529,7 @@ mcp_servers:
 - description: Benchmark Email ships a live, anonymous, remote MCP server at https://developers.benchmarkemail.io/mcp. A tools/list call over Streamable HTTP returned three tools verbatim (saved to mcp/benchmark-ema
   name: Benchmark Email Documentation MCP Server
   slug: benchmark-email-documentation-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Benchmark Email
 nav: Providers
 network: true
@@ -544,7 +544,7 @@ plans:
 - name: Benchmark Email Plans Pricing
   plan_count: 3
   slug: benchmark-email-plans-pricing
-random_paper: 13
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Benchmark Email Rate Limits
@@ -595,7 +595,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

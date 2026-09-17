@@ -33,22 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'SCIM 2.0 surface for provisioning Venminder platform users — list, get, search, create and patch Users using urn:ietf:params:scim:schemas:core:2.0:User plus the urn:ietf:params:scim:schemas:extension:'
   name: Venminder SCIM 2.0 User Provisioning API
   slug: venminder-scim-api
-- baseURL: https://rsd.venminder.com
-  baseurl_source: declared
-  description: The BusinessUnit API from Venminder (Digital Comply) — 1 operation(s) for businessunit.
-  name: Venminder (Digital Comply) BusinessUnit API
-  slug: venminder-digital-comply-businessunit-api
-- baseURL: https://rsd.venminder.com
-  baseurl_source: declared
-  description: The ClientInformation API from Venminder (Digital Comply) — 1 operation(s) for clientinformation.
-  name: Venminder (Digital Comply) ClientInformation API
-  slug: venminder-digital-comply-clientinformation-api
 - baseURL: https://rsd.venminder.com
   baseurl_source: declared
   description: The Contact API from Venminder (Digital Comply) — 1 operation(s) for contact.
@@ -114,6 +104,16 @@ apis:
   description: The Venmonitor API from Venminder (Digital Comply) — 1 operation(s) for venmonitor.
   name: Venminder (Digital Comply) Venmonitor API
   slug: venminder-digital-comply-venmonitor-api
+- baseURL: https://rsd.venminder.com/scim/v2
+  baseurl_source: declared
+  description: The Business Unit API from Venminder (Digital Comply) — 1 operation(s) for business unit.
+  name: Venminder (Digital Comply) Business Unit API
+  slug: venminder-digital-comply-business-unit-api
+- baseURL: https://rsd.venminder.com/scim/v2
+  baseurl_source: declared
+  description: The Client information API from Venminder (Digital Comply) — 1 operation(s) for client information.
+  name: Venminder (Digital Comply) Client information API
+  slug: venminder-digital-comply-client-information-api
 artifact_total: 35
 collections:
 - collection_type: open
@@ -305,11 +305,11 @@ modified: '2026-07-21'
 name: Venminder (Digital Comply)
 nav: Providers
 network: true
-overview: 'Venminder (Digital Comply) publishes 15 APIs on the [APIs.io](https://apis.io/) network, including BusinessUnit API, ClientInformation API, Contact API, and 12 more. Tagged areas include Company, Third-Party Risk Management, Vendor Management, Risk, and Compliance.
+overview: 'Venminder (Digital Comply) publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Contact API, Contracts API, Data API, and 12 more. Tagged areas include Company, Third-Party Risk Management, Vendor Management, Risk, and Compliance.
 
 
   Venminder (Digital Comply)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
-random_paper: 16
+random_paper: 10
 scopes:
 - name: Venminder Digital Comply Scopes
   scope_count: 1
@@ -317,7 +317,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 44.0
+  composite: 43.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -325,11 +325,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 49.4
+    contract_quality: 46.9
     developer_ergonomics: 60.1
     discoverability: 75.9
     operational_transparency: 18.4
@@ -337,14 +337,14 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 15
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

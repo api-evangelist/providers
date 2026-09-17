@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol (MCP) endpoint published on Zipline's marketing site (getzipline.com), declared by the site's own RFC 9728 OAuth Protected Resource Metadata. The endpoint liv
@@ -172,7 +172,7 @@ plans:
 - name: Retail Zipline Plans Pricing
   plan_count: 0
   slug: retail-zipline-plans-pricing
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Retail Zipline Rate Limits
@@ -210,7 +210,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

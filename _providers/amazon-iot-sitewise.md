@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -117,14 +117,14 @@ apis:
   slug: amazon-iot-sitewise-tags-resourcearn-api
 - baseURL: https://iotsitewise.amazonaws.com
   baseurl_source: declared
-  description: The Tags#resourceArn&tagKeys API from Amazon IoT SiteWise — 1 operation(s) for tags#resourcearn&tagkeys.
-  name: Amazon IoT SiteWise Tags#resourceArn&tagKeys API
-  slug: amazon-iot-sitewise-tags-resourcearn-tagkeys-api
+  description: The Tags#resource Arn&tag Keys API from Amazon IoT SiteWise — 1 operation(s) for tags#resource arn&tag keys.
+  name: Amazon IoT SiteWise Tags#resource Arn&tag Keys API
+  slug: amazon-iot-sitewise-tags-resource-arn-tag-keys-api
 - baseURL: https://iotsitewise.amazonaws.com
   baseurl_source: declared
-  description: The Timeseries API from Amazon IoT SiteWise — 5 operation(s) for timeseries.
-  name: Amazon IoT SiteWise Timeseries API
-  slug: amazon-iot-sitewise-timeseries-api
+  description: The Time Series API from Amazon IoT SiteWise — 5 operation(s) for time series.
+  name: Amazon IoT SiteWise Time Series API
+  slug: amazon-iot-sitewise-time-series-api
 artifact_total: 650
 collections:
 - collection_type: postman
@@ -2109,7 +2109,7 @@ plans:
 - name: Amazon Iot Sitewise Plans Pricing
   plan_count: 3
   slug: amazon-iot-sitewise-plans-pricing
-random_paper: 13
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Sitewise Rate Limits
@@ -2163,7 +2163,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

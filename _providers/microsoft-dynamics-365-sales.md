@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -89,17 +89,17 @@ apis:
   slug: microsoft-dynamics-365-sales-quotes-api
 - baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
   baseurl_source: declared
-  description: Sales order records
-  name: Microsoft Dynamics 365 Sales SalesOrders API
-  slug: microsoft-dynamics-365-sales-salesorders-api
-- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
-  baseurl_source: declared
   description: Activity tasks
   name: Microsoft Dynamics 365 Sales Tasks API
   slug: microsoft-dynamics-365-sales-tasks-api
 - description: Microsoft's hosted Model Context Protocol server for Dynamics 365 Sales. Exposes 20 sales tools to any MCP-capable agent — lead and account research, competitor research, engagement summaries, lead qu
   name: Dynamics 365 Sales MCP Server
   slug: dynamics-365-sales-mcp-server
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: Sales order records
+  name: Microsoft Dynamics 365 Sales Sales Orders API
+  slug: microsoft-dynamics-365-sales-sales-orders-api
 artifact_total: 34
 asyncapis:
 - description: ''
@@ -143,6 +143,11 @@ collections:
   name: Microsoft Dataverse Web API (Dynamics 365 Sales)
   slug: open-microsoft-dynamics-365-sales
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/overlays/microsoft-dynamics-365-sales-salesorders-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/microsoft-dynamics-365-sales-salesorders-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/agentic-access/microsoft-dynamics-365-sales-agentic-access.yml
   title: ''
@@ -370,12 +375,12 @@ overview: 'Microsoft Dynamics 365 Sales publishes 10 APIs on the [APIs.io](https
   The Microsoft Dynamics 365 Sales catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Microsoft Dynamics 365 Sales'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, API reference, getting-started guide, and 39 more developer resources.'
+  Microsoft Dynamics 365 Sales'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, API reference, getting-started guide, and 40 more developer resources.'
 plans:
 - name: Microsoft Dynamics 365 Sales Plans Pricing
   plan_count: 4
   slug: microsoft-dynamics-365-sales-plans-pricing
-random_paper: 0
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Microsoft Dynamics 365 Sales Rate Limits
@@ -415,7 +420,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

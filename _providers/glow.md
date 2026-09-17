@@ -29,7 +29,7 @@ name: Glow
 nav: Providers
 network: true
 overview: Glow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Podcasting, Media, Monetization, and Subscription.
-random_paper: 0
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/glow/refs/heads/main/screenshots/glow-2026-07-25T215929.png
 security:
 - kind: domain-security

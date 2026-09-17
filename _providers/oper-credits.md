@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://developers.opercredits.com/
@@ -244,11 +244,6 @@ apis:
   slug: oper-credits-sign-in-api
 - baseURL: https://developers.opercredits.com/
   baseurl_source: declared
-  description: The Sign Up API from Oper Credits — 4 operation(s) for sign up.
-  name: Oper Credits Sign Up API
-  slug: oper-credits-sign-up-api
-- baseURL: https://developers.opercredits.com/
-  baseurl_source: declared
   description: The Simulators API from Oper Credits — 15 operation(s) for simulators.
   name: Oper Credits Simulators API
   slug: oper-credits-simulators-api
@@ -275,7 +270,7 @@ apis:
 - baseURL: https://developers.opercredits.com/
   baseurl_source: declared
   description: The Third Party Api API from Oper Credits — 1 operation(s) for third party api.
-  name: Oper Credits Third Party Api API
+  name: Oper Credits Third Party Api
   slug: oper-credits-third-party-api-api
 - baseURL: https://developers.opercredits.com/
   baseurl_source: declared
@@ -297,6 +292,11 @@ apis:
   description: Your Webhooks tag description
   name: Oper Credits Webhooks API
   slug: oper-credits-webhooks-api
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Signup API from Oper Credits — 4 operation(s) for signup.
+  name: Oper Credits Signup API
+  slug: oper-credits-signup-api
 artifact_total: 110
 asyncapis:
 - description: ''
@@ -586,18 +586,18 @@ created: '2026-07-17'
 description: Oper Credits is a Belgian digital mortgage origination platform (Brussels, founded 2019) that lets banks, lenders, insurers, and brokers offer and process end-to-end digital mortgages. Its white-labelled, multi-tenant Oper Connect platform exposes a JWT-authenticated REST API organized around the loan request as the central object, under which borrowers, properties, offers, documents, guarantees, and decisions are nested, plus a versioned loan-request webhook surface and an AI underwriting agent ("Herman") that automates document collection, extraction, verification, and policy analysis. The platform is ISO/IEC 27001 certified and GDPR compliant.
 image: https://cdn.prod.website-files.com/64f9bcce0d3210a55e4458ee/6530e0daf5885d89e8bf233f_Screenshot%202023-10-19%20at%2009.54.44.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Oper Credits
 nav: Providers
 network: true
-overview: 'Oper Credits publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Agent Documents API, Appointment Booking Websites API, Approvals API, and 49 more. Tagged areas include Company, Mortgages, Lending, Credit, and Fintech.
+overview: 'Oper Credits publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Agent Documents API, Appointment Booking Websites API, Approvals API, and 49 more. Tagged areas include Company, Mortgage, Lending, Credit, and Fintech.
 
 
   The Oper Credits catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Oper Credits'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 21 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: developing
   composite: 42.9
@@ -620,7 +620,7 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 52
@@ -637,7 +637,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -663,7 +663,7 @@ security:
 slug: oper-credits
 tags:
 - Company
-- Mortgages
+- Mortgage
 - Lending
 - Credit
 - Fintech

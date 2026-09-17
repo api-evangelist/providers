@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -193,10 +193,10 @@ common:
   type: DomainSecurity
   url: security/mattermark-domain-security.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/mattermark-rest-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/openapi/_original/mattermark-rest-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/mattermark-rest-api-openapi.yml
+  url: openapi/_original/mattermark-rest-api-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/graphql/mattermark.graphql
   title: ''
@@ -226,11 +226,11 @@ created: '2026-07-17'
 description: Mattermark is a business-intelligence platform for data-driven deal making, providing profiles on roughly four million companies and twenty million key contacts along with their investors, funding events, and news. Relaunched as an independent company, Mattermark exposes its dataset through a REST API (api.mattermark.com) and a GraphQL API (eapi.mattermark.com), both authenticated with a Bearer API key and queryable with the Mattermark Search Filter Language (MSFL). Originally an a16z / Slow Ventures / Version One Ventures-backed startup, it is tracked in the API Evangelist network as a company profile.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mattermark.png
 layout: provider
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Mattermark
 nav: Providers
 network: true
-overview: 'Mattermark publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Complex Queries API, Funding Events API, and 3 more. Tagged areas include Company, Business Intelligence, Company Data, Investors, and Funding.
+overview: 'Mattermark publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Complex Queries API, Funding Events API, and 3 more. Tagged areas include Company, Business Intelligence, Company Data, Investor, and Funding.
 
 
   Mattermark''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 23 more developer resources.'
@@ -238,7 +238,7 @@ plans:
 - name: Mattermark Plans Pricing
   plan_count: 4
   slug: mattermark-plans-pricing
-random_paper: 9
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Mattermark Rate Limits
@@ -273,7 +273,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -293,7 +293,7 @@ tags:
 - Company
 - Business Intelligence
 - Company Data
-- Investors
+- Investor
 - Funding
 - Sales Intelligence
 - Market Research

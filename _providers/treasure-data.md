@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 235
   human_in_the_loop: 25
@@ -207,7 +207,7 @@ apis:
 - baseURL: https://api.treasuredata.com/v3/bulk_loads
   baseurl_source: declared
   description: The Data Connector Restrictions API from Treasure Data — 1 operation(s) for data connector restrictions.
-  name: Treasure Data Data Connector Restrictions API
+  name: Treasure Data Connector Restrictions API
   slug: treasure-data-data-connector-restrictions-api
 - baseURL: https://api.treasuredata.com/v3/bulk_loads
   baseurl_source: declared
@@ -249,11 +249,6 @@ apis:
   description: In Audience Studio, a journey represents a timeline of events that can help you motivate a customer’s behavior about your product. After marketers create journey stages, they can further analyze and r
   name: Treasure Data Journeys API
   slug: treasure-data-journeys-api
-- baseURL: https://api.treasuredata.com/v3/bulk_loads
-  baseurl_source: declared
-  description: The KnowledgeBase API from Treasure Data — 3 operation(s) for knowledgebase.
-  name: Treasure Data Knowledge Base API
-  slug: treasure-data-knowledgebase-api
 - baseURL: https://api.treasuredata.com/v3/bulk_loads
   baseurl_source: declared
   description: The Log API from Treasure Data — 2 operation(s) for log.
@@ -379,6 +374,11 @@ apis:
   description: The WorkflowExecutor API from Treasure Data — 1 operation(s) for workflowexecutor.
   name: Treasure Data Workflow Executor API
   slug: treasure-data-workflowexecutor-api
+- baseURL: https://api.treasuredata.com/v3/bulk_loads
+  baseurl_source: declared
+  description: The Knowledge Base API from Treasure Data — 3 operation(s) for knowledge base.
+  name: Treasure Data Knowledge Base API
+  slug: treasure-data-knowledge-base-api
 artifact_total: 97
 asyncapis:
 - description: ''
@@ -688,7 +688,7 @@ mcp_servers:
 - description: 'Treasure Data ships two distinct Model Context Protocol servers. The official product server, @treasuredata/mcp-server, is a local stdio server run with npx that exposes 23 tools over the TD API, the '
   name: Treasure Data MCP Servers
   slug: treasure-data-mcp-servers
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Treasure Data
 nav: Providers
 network: true
@@ -703,7 +703,7 @@ plans:
 - name: Treasure Data Plans Pricing
   plan_count: 3
   slug: treasure-data-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 17
   name: Treasure Data Rate Limits
@@ -726,7 +726,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.3
+  composite: 74.6
   coverage:
     artifact_dirs: 31
     catalog_earned: 80.3
@@ -734,11 +734,11 @@ score:
     catalog_gap: 34.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 93.4
     contract_governance: 43.2
-    contract_quality: 66.5
+    contract_quality: 67.9
     developer_ergonomics: 81.0
     discoverability: 75.9
     operational_transparency: 73.7
@@ -754,7 +754,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

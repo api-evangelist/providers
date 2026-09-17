@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,11 +63,6 @@ apis:
   slug: osisoft-pi-attributes-api
 - baseURL: https://piwebapi.example.com/piwebapi
   baseurl_source: declared
-  description: Batch and parallel request execution
-  name: osisoft-pi BatchRequests API
-  slug: osisoft-pi-batchrequests-api
-- baseURL: https://piwebapi.example.com/piwebapi
-  baseurl_source: declared
   description: PI Data Archive server management
   name: osisoft-pi DataServers API
   slug: osisoft-pi-dataservers-api
@@ -91,6 +86,11 @@ apis:
   description: Time-series data streams
   name: osisoft-pi Streams API
   slug: osisoft-pi-streams-api
+- baseURL: https://api.aveva.com
+  baseurl_source: declared
+  description: Batch and parallel request execution
+  name: OSIsoft PI System Batch Requests API
+  slug: osisoft-pi-batch-requests-api
 artifact_total: 32
 collections:
 - collection_type: open
@@ -228,11 +228,11 @@ jsonld:
   property_count: 23
   slug: osisoft-pi-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: OSIsoft PI System
 nav: Providers
 network: true
-overview: 'OSIsoft PI System publishes 8 APIs on the [APIs.io](https://apis.io/) network, including osisoft-pi AssetServers API, osisoft-pi Attributes API, osisoft-pi BatchRequests API, and 5 more.
+overview: 'OSIsoft PI System publishes 8 APIs on the [APIs.io](https://apis.io/) network, including osisoft-pi AssetServers API, osisoft-pi Attributes API, osisoft-pi DataServers API, and 5 more. Tagged areas include Manufacturing, Cloud, IoT, and Time Series.
 
 
   The OSIsoft PI System catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -243,7 +243,7 @@ plans:
 - name: Osisoft Pi Plans Pricing
   plan_count: 1
   slug: osisoft-pi-plans-pricing
-random_paper: 8
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Osisoft Pi Rate Limits
@@ -285,11 +285,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -313,5 +310,10 @@ security:
   slug: osisoft-pi-trust-center
   summary_line: trust center published
 slug: osisoft-pi
+tags:
+- Manufacturing
+- Cloud
+- IoT
+- Time Series
 website: https://www.aveva.com/
 ---

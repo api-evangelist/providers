@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -86,11 +86,6 @@ apis:
   slug: pipedream-mcp-api
 - baseURL: https://api.pipedream.com/v1
   baseurl_source: declared
-  description: The OAuth API from Pipedream — 1 operation(s) for oauth.
-  name: Pipedream OAuth API
-  slug: pipedream-oauth-api
-- baseURL: https://api.pipedream.com/v1
-  baseurl_source: declared
   description: The Projects API from Pipedream — 4 operation(s) for projects.
   name: Pipedream Projects API
   slug: pipedream-projects-api
@@ -124,6 +119,11 @@ apis:
   description: The Webhooks API from Pipedream — 2 operation(s) for webhooks.
   name: Pipedream Webhooks API
   slug: pipedream-webhooks-api
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The OAuth API from Pipedream — 1 operation(s) for oauth.
+  name: Pipedream O Auth API
+  slug: pipedream-oauth-api
 arazzos:
 - description: List a user's accounts for an app, inspect one, and remove all accounts for that app.
   name: Pipedream Audit and Clean Up Accounts by App
@@ -1062,7 +1062,7 @@ plans:
 - name: Pipedream Plans Pricing
   plan_count: 4
   slug: pipedream-plans-pricing
-random_paper: 6
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Pipedream Rate Limits
@@ -1121,7 +1121,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

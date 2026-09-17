@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 56.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -128,7 +128,17 @@ apis:
   description: Morningstar's AI integration surface - the Morningstar Agent API at agents.morningstar.com plus an MCP server exposing datapoint lookup and editorial research tools to AI agents, with a published agen
   name: Morningstar Agent API
   slug: morningstar-agent-api
-artifact_total: 142
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: The oauth API from Morningstar — 1 operation(s) for oauth.
+  name: Morningstar OAUTH API
+  slug: morningstar-oauth-api
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: The Datapoints API from Morningstar — 3 operation(s) for datapoints.
+  name: Morningstar Datapoints API
+  slug: morningstar-datapoints-api
+artifact_total: 144
 collections:
 - collection_type: open
   name: API Collection
@@ -673,11 +683,11 @@ modified: '2026-07-22'
 name: Morningstar
 nav: Providers
 network: true
-overview: 'Morningstar publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Time Series API, Screener APIs, and 11 more. Tagged areas include Financial, Market Data, Investing, Stocks, and Funds.
+overview: 'Morningstar publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Time Series API, Screener APIs, and 13 more. Tagged areas include Financial, Market Data, Investing, Stocks, and Fund.
 
 
   Morningstar''s developer surface includes authentication, developer portal, documentation, support, sandbox, API reference, getting-started guide, and 31 more developer resources.'
-random_paper: 7
+random_paper: 16
 scopes:
 - name: Morningstar Scopes
   scope_count: 4
@@ -697,7 +707,7 @@ score:
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 56.6
+    contract_quality: 56.5
     developer_ergonomics: 73.8
     discoverability: 64.8
     operational_transparency: 28.9
@@ -714,7 +724,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 117
+      total: 116
     mcp: first-party
     skills: first-party
   regulatory:
@@ -724,7 +734,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -749,11 +759,11 @@ tags:
 - Market Data
 - Investing
 - Stocks
-- Funds
+- Fund
 - Real-Time
 - Reference Data
 - Portfolio Analytics
 - Research
-- Indexes
+- Index
 website: https://www.morningstar.com/
 ---

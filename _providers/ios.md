@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 0
@@ -123,11 +123,6 @@ apis:
   slug: ios-analyticsreportrequests-api
 - baseURL: https://api.appstoreconnect.apple.com
   baseurl_source: declared
-  description: The AnalyticsReports API from iOS — 3 operation(s) for analyticsreports.
-  name: iOS AnalyticsReports API
-  slug: ios-analyticsreports-api
-- baseURL: https://api.appstoreconnect.apple.com
-  baseurl_source: declared
   description: The AnalyticsReportSegments API from iOS — 1 operation(s) for analyticsreportsegments.
   name: iOS AnalyticsReportSegments API
   slug: ios-analyticsreportsegments-api
@@ -141,11 +136,6 @@ apis:
   description: The AppAvailabilities API from iOS — 4 operation(s) for appavailabilities.
   name: iOS AppAvailabilities API
   slug: ios-appavailabilities-api
-- baseURL: https://api.appstoreconnect.apple.com
-  baseurl_source: declared
-  description: The AppCategories API from iOS — 6 operation(s) for appcategories.
-  name: iOS AppCategories API
-  slug: ios-appcategories-api
 - baseURL: https://api.appstoreconnect.apple.com
   baseurl_source: declared
   description: The AppClipAdvancedExperienceImages API from iOS — 2 operation(s) for appclipadvancedexperienceimages.
@@ -213,11 +203,6 @@ apis:
   slug: ios-appeventlocalizations-api
 - baseURL: https://api.appstoreconnect.apple.com
   baseurl_source: declared
-  description: The AppEvents API from iOS — 4 operation(s) for appevents.
-  name: iOS AppEvents API
-  slug: ios-appevents-api
-- baseURL: https://api.appstoreconnect.apple.com
-  baseurl_source: declared
   description: The AppEventScreenshots API from iOS — 2 operation(s) for appeventscreenshots.
   name: iOS AppEventScreenshots API
   slug: ios-appeventscreenshots-api
@@ -236,11 +221,6 @@ apis:
   description: The AppInfos API from iOS — 19 operation(s) for appinfos.
   name: iOS AppInfos API
   slug: ios-appinfos-api
-- baseURL: https://api.appstoreconnect.apple.com
-  baseurl_source: declared
-  description: The AppPreviews API from iOS — 2 operation(s) for apppreviews.
-  name: iOS AppPreviews API
-  slug: ios-apppreviews-api
 - baseURL: https://api.appstoreconnect.apple.com
   baseurl_source: declared
   description: The AppPreviewSets API from iOS — 4 operation(s) for apppreviewsets.
@@ -431,11 +411,6 @@ apis:
   description: The BetaTesterInvitations API from iOS — 1 operation(s) for betatesterinvitations.
   name: iOS BetaTesterInvitations API
   slug: ios-betatesterinvitations-api
-- baseURL: https://api.appstoreconnect.apple.com
-  baseurl_source: declared
-  description: The BetaTesters API from iOS — 9 operation(s) for betatesters.
-  name: iOS BetaTesters API
-  slug: ios-betatesters-api
 - baseURL: https://api.appstoreconnect.apple.com
   baseurl_source: declared
   description: The BuildBetaDetails API from iOS — 4 operation(s) for buildbetadetails.
@@ -818,11 +793,6 @@ apis:
   slug: ios-marketplacewebhooks-api
 - baseURL: https://api.appstoreconnect.apple.com
   baseurl_source: declared
-  description: The MerchantIds API from iOS — 4 operation(s) for merchantids.
-  name: iOS MerchantIds API
-  slug: ios-merchantids-api
-- baseURL: https://api.appstoreconnect.apple.com
-  baseurl_source: declared
   description: The Metrics API from iOS — 15 operation(s) for metrics.
   name: iOS Metrics API
   slug: ios-metrics-api
@@ -923,11 +893,6 @@ apis:
   slug: ios-subscriptiongrouplocalizations-api
 - baseURL: https://api.appstoreconnect.apple.com
   baseurl_source: declared
-  description: The SubscriptionGroups API from iOS — 6 operation(s) for subscriptiongroups.
-  name: iOS SubscriptionGroups API
-  slug: ios-subscriptiongroups-api
-- baseURL: https://api.appstoreconnect.apple.com
-  baseurl_source: declared
   description: The SubscriptionGroupSubmissions API from iOS — 1 operation(s) for subscriptiongroupsubmissions.
   name: iOS SubscriptionGroupSubmissions API
   slug: ios-subscriptiongroupsubmissions-api
@@ -1008,11 +973,6 @@ apis:
   slug: ios-users-api
 - baseURL: https://api.appstoreconnect.apple.com
   baseurl_source: declared
-  description: The WebhookDeliveries API from iOS — 1 operation(s) for webhookdeliveries.
-  name: iOS WebhookDeliveries API
-  slug: ios-webhookdeliveries-api
-- baseURL: https://api.appstoreconnect.apple.com
-  baseurl_source: declared
   description: The WebhookPings API from iOS — 1 operation(s) for webhookpings.
   name: iOS WebhookPings API
   slug: ios-webhookpings-api
@@ -1026,6 +986,46 @@ apis:
   description: The WinBackOffers API from iOS — 4 operation(s) for winbackoffers.
   name: iOS WinBackOffers API
   slug: ios-winbackoffers-api
+- baseURL: https://api.storekit.itunes.apple.com
+  baseurl_source: declared
+  description: The Analytics Reports API from iOS — 3 operation(s) for analytics reports.
+  name: iOS Analytics Reports API
+  slug: ios-analytics-reports-api
+- baseURL: https://api.storekit.itunes.apple.com
+  baseurl_source: declared
+  description: The App Categories API from iOS — 6 operation(s) for app categories.
+  name: iOS App Categories API
+  slug: ios-app-categories-api
+- baseURL: https://api.storekit.itunes.apple.com
+  baseurl_source: declared
+  description: The App Events API from iOS — 4 operation(s) for app events.
+  name: iOS App Events API
+  slug: ios-app-events-api
+- baseURL: https://api.storekit.itunes.apple.com
+  baseurl_source: declared
+  description: The App Previews API from iOS — 2 operation(s) for app previews.
+  name: iOS App Previews API
+  slug: ios-app-previews-api
+- baseURL: https://api.storekit.itunes.apple.com
+  baseurl_source: declared
+  description: The Beta Testers API from iOS — 9 operation(s) for beta testers.
+  name: iOS Beta Testers API
+  slug: ios-beta-testers-api
+- baseURL: https://api.storekit.itunes.apple.com
+  baseurl_source: declared
+  description: The Merchant IDs API from iOS — 4 operation(s) for merchant ids.
+  name: iOS Merchant IDs API
+  slug: ios-merchant-ids-api
+- baseURL: https://api.storekit.itunes.apple.com
+  baseurl_source: declared
+  description: The Subscription groups API from iOS — 6 operation(s) for subscription groups.
+  name: iOS Subscription groups API
+  slug: ios-subscription-groups-api
+- baseURL: https://api.storekit.itunes.apple.com
+  baseurl_source: declared
+  description: The Webhook Deliveries API from iOS — 1 operation(s) for webhook deliveries.
+  name: iOS Webhook Deliveries API
+  slug: ios-webhook-deliveries-api
 arazzos:
 - description: Create a new App Store version, add its primary localization, and attach a build.
   name: iOS Create an App Store Version
@@ -2451,7 +2451,7 @@ plans:
 - name: Ios Plans Pricing
   plan_count: 5
   slug: ios-plans-pricing
-random_paper: 16
+random_paper: 1
 rate_limits:
 - limit_count: 7
   name: Ios Rate Limits
@@ -2522,7 +2522,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

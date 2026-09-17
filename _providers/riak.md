@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -63,7 +63,7 @@ apis:
 - baseURL: http://<your-riak-host>:8098
   baseurl_source: declared
   description: The Riak KV HTTP API API from Riak KV — 1 operation(s) for riak kv http api.
-  name: Riak KV Riak KV HTTP API API
+  name: Riak KV Riak KV HTTP API
   slug: riak-riak-kv-http-api-api
 - baseURL: http://<your-riak-host>:8098
   baseurl_source: declared
@@ -166,15 +166,15 @@ created: '2026-05-11'
 description: 'Riak KV is a distributed NoSQL key-value database originally developed by Basho Technologies, designed for high availability, fault tolerance, and horizontal scalability across commodity hardware. Riak exposes two client-facing APIs: a RESTful HTTP API for basic GET, PUT, POST, and DELETE operations, and a higher-performance Protocol Buffers (PBC) API spoken over TCP. Both APIs support buckets, objects, secondary indexes, search, MapReduce, and CRDT data types.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/riak.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: Riak KV
 nav: Providers
 network: true
-overview: 'Riak KV publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Mapred API, Ping API, Riak KV HTTP API API, and 3 more. Tagged areas include Database, NoSQL, Key-Value Store, Distributed Systems, and Open-Source.
+overview: 'Riak KV publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Mapred API, Ping API, Riak KV HTTP API, and 3 more. Tagged areas include Database, NoSQL, Key-Value Store, Distributed Systems, and Open-Source.
 
 
   Riak KV''s developer surface includes authentication, documentation, and 11 more developer resources.'
-random_paper: 3
+random_paper: 5
 score:
   band: thin
   composite: 26.4
@@ -202,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

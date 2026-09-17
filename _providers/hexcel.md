@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: HexTow continuous carbon fiber product family — Hexcel is the world's largest producer of aerospace-grade carbon fiber. Fibers are qualified on most major commercial aircraft programs and used in prim
@@ -132,7 +132,7 @@ overview: 'Hexcel publishes 6 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Hexcel''s developer surface includes product news and 7 more developer resources.'
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
   composite: 8.7
@@ -158,7 +158,7 @@ score:
     - north-america
   previous_composite: 8.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

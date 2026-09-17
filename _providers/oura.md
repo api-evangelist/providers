@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -102,12 +102,12 @@ apis:
 - baseURL: https://api.ouraring.com/v2
   baseurl_source: declared
   description: The Ring Battery Level Routes API from Oura Ring — 1 operation(s) for ring battery level routes.
-  name: Oura Ring Ring Battery Level Routes API
+  name: Oura Ring Battery Level Routes API
   slug: oura-ring-battery-level-routes-api
 - baseURL: https://api.ouraring.com/v2
   baseurl_source: declared
   description: The Ring Configuration scope includes information about the user's ring(s). This includes the model, size, color, etc.
-  name: Oura Ring Ring Configuration Routes API
+  name: Oura Ring Configuration Routes API
   slug: oura-ring-configuration-routes-api
 - baseURL: https://api.ouraring.com/v2
   baseurl_source: declared
@@ -410,7 +410,7 @@ jsonld:
   property_count: 48
   slug: oura-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Oura Ring
 nav: Providers
 network: true
@@ -425,7 +425,7 @@ plans:
 - name: Oura Plans Pricing
   plan_count: 2
   slug: oura-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Oura Rate Limits
@@ -479,7 +479,7 @@ score:
     regime_id: health
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

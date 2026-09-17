@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -101,6 +101,10 @@ collections:
   name: SAP S/4HANA Sales Order Partners Text API
   slug: open-sap-s4hana-text-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sap.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/capabilities/sap-s4hana-capability-edges.yml
   title: ''
@@ -414,17 +418,17 @@ jsonld:
   property_count: 0
   slug: sap-s4hana-sales-order-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: SAP S/4HANA
 nav: Providers
 network: true
-overview: 'SAP S/4HANA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Partners API, Pricing Elements API, Sales Order Items API, and 3 more. Tagged areas include Business Applications, Cloud, Enterprise Resource Planning, ERP, and Finance.
+overview: 'SAP S/4HANA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Partners API, Pricing Elements API, Sales Order Items API, and 3 more. Tagged areas include Business Applications, Cloud, ERP, Finance, and Human Resources.
 
 
   The SAP S/4HANA catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SAP S/4HANA''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, and 19 more developer resources.'
+  SAP S/4HANA''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, and 20 more developer resources.'
 plans:
 - name: Sap S4Hana Plans Pricing
   plan_count: 1
@@ -488,7 +492,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -511,7 +515,6 @@ slug: sap-s4hana
 tags:
 - Business Applications
 - Cloud
-- Enterprise Resource Planning
 - ERP
 - Finance
 - Human Resources
@@ -532,5 +535,5 @@ use_cases:
   name: Financial Close
 - description: Track inbound and outbound deliveries, inventory movements, and material documents in real time.
   name: Supply Chain Visibility
-website: https://api.sap.com
+website: https://sap.com
 ---

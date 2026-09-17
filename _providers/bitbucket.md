@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -106,11 +106,6 @@ apis:
   slug: bitbucket-properties-api
 - baseURL: https://api.bitbucket.org/2.0
   baseurl_source: declared
-  description: 'Pull requests are a feature that makes it easier for developers to collaborate using Bitbucket. They provide a user-friendly web interface for discussing proposed changes before integrating them into '
-  name: Bitbucket Pullrequests API
-  slug: bitbucket-pullrequests-api
-- baseURL: https://api.bitbucket.org/2.0
-  baseurl_source: declared
   description: The refs resource allows you access branches and tags in a repository. By default, results will be in the order the underlying source control system returns them and identical to the ordering one sees
   name: Bitbucket Refs API
   slug: bitbucket-refs-api
@@ -159,6 +154,11 @@ apis:
   description: A workspace is where you create repositories, collaborate on your code, and organize different streams of work in your Bitbucket Cloud account. Workspaces replace the use of teams and users in API cal
   name: Bitbucket Workspaces API
   slug: bitbucket-workspaces-api
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: 'Pull requests are a feature that makes it easier for developers to collaborate using Bitbucket. They provide a user-friendly web interface for discussing proposed changes before integrating them into '
+  name: Bitbucket Pull Requests API
+  slug: bitbucket-pull-requests-api
 artifact_total: 127
 asyncapis:
 - description: Bitbucket Cloud webhooks deliver event payloads to a subscriber URL via HTTP POST whenever a configured event occurs in a repository or workspace. Each event request includes an X-Event-Key header ide
@@ -508,7 +508,7 @@ plans:
 - name: Bitbucket Plans Pricing
   plan_count: 3
   slug: bitbucket-plans-pricing
-random_paper: 12
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Bitbucket Rate Limits
@@ -553,7 +553,7 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.4
+  composite: 61.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 70.5
@@ -561,11 +561,11 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 52.6
     contract_governance: 28.8
-    contract_quality: 78.4
+    contract_quality: 80.6
     developer_ergonomics: 39.3
     discoverability: 63.0
     operational_transparency: 26.3
@@ -578,7 +578,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

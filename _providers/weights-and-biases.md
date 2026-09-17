@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ modified: '2026-05-08'
 name: Weights & Biases
 nav: Providers
 network: true
-overview: 'Weights & Biases publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Costs API, Feedback API, and 6 more. Tagged areas include ML, MLOps, Experiment Tracking, Model Registry, and GenAI.
+overview: 'Weights & Biases publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Costs API, Feedback API, and 6 more. Tagged areas include MLS, MLOps, Experiment Tracking, Model Registry, and Generative AI.
 
 
   Weights & Biases'' developer surface includes authentication, developer portal, pricing, and 14 more developer resources.'
@@ -231,7 +231,7 @@ plans:
 - name: Weights And Biases Plans Pricing
   plan_count: 1
   slug: weights-and-biases-plans-pricing
-random_paper: 6
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Weights And Biases Rate Limits
@@ -266,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -287,10 +287,10 @@ security:
   summary_line: disclosure policy published
 slug: weights-and-biases
 tags:
-- ML
+- MLS
 - MLOps
 - Experiment Tracking
 - Model Registry
-- GenAI
+- Generative AI
 website: https://wandb.ai/
 ---

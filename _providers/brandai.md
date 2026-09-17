@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'A hosted, remote Model Context Protocol server that lets an AI agent read a company''s Brand OS — brands, machine-readable brand rules and artifacts — and write back Brand Check validations, artifacts '
@@ -170,7 +170,7 @@ plans:
 - name: Brandai Plans Pricing
   plan_count: 0
   slug: brandai-plans-pricing
-random_paper: 7
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Brandai Rate Limits
@@ -208,7 +208,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ apis:
 - baseURL: https://restcountries.com/v3.1
   baseurl_source: declared
   description: Country lookup and search endpoints
-  name: REST Countries Countries API
+  name: REST Countries API
   slug: rest-countries-countries-api
 artifact_total: 46
 collections:
@@ -282,7 +282,7 @@ jsonld:
   property_count: 0
   slug: rest-countries-context
 layout: provider
-modified: '2026-08-08'
+modified: '2026-09-16'
 name: REST Countries
 nav: Providers
 network: true
@@ -297,7 +297,7 @@ plans:
 - name: Rest Countries Plans Pricing
   plan_count: 2
   slug: rest-countries-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Rest Countries Rate Limits
@@ -351,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -378,9 +378,9 @@ tags:
 - Reference Data
 - Currency
 - Language
-- Capitals
+- Capital
 - Regions
 - Subregions
-- Translations
+- Translation
 website: https://restcountries.com
 ---

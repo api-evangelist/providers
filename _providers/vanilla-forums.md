@@ -36,14 +36,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://open.vanillaforums.com/api/v2
-  baseurl_source: declared
-  description: The Addons API from Vanilla Forums — 2 operation(s) for addons.
-  name: Vanilla Forums Addons API
-  slug: vanilla-forums-addons-api
 - baseURL: https://open.vanillaforums.com/api/v2
   baseurl_source: declared
   description: The AI Processing Preferences API from Vanilla Forums — 1 operation(s) for ai processing preferences.
@@ -121,11 +116,6 @@ apis:
   slug: vanilla-forums-dashboard-api
 - baseURL: https://open.vanillaforums.com/api/v2
   baseurl_source: declared
-  description: The DataSource API from Vanilla Forums — 3 operation(s) for datasource.
-  name: Vanilla Forums DataSource API
-  slug: vanilla-forums-datasource-api
-- baseURL: https://open.vanillaforums.com/api/v2
-  baseurl_source: declared
   description: The Discussion Statuses API from Vanilla Forums — 3 operation(s) for discussion statuses.
   name: Vanilla Forums Discussion Statuses API
   slug: vanilla-forums-discussion-statuses-api
@@ -149,11 +139,6 @@ apis:
   description: The Emails API from Vanilla Forums — 3 operation(s) for emails.
   name: Vanilla Forums Emails API
   slug: vanilla-forums-emails-api
-- baseURL: https://open.vanillaforums.com/api/v2
-  baseurl_source: declared
-  description: The emailTemplates API from Vanilla Forums — 4 operation(s) for emailtemplates.
-  name: Vanilla Forums emailTemplates API
-  slug: vanilla-forums-emailtemplates-api
 - baseURL: https://open.vanillaforums.com/api/v2
   baseurl_source: declared
   description: The Exports API from Vanilla Forums — 3 operation(s) for exports.
@@ -329,7 +314,17 @@ apis:
   description: The Widgets API from Vanilla Forums — 2 operation(s) for widgets.
   name: Vanilla Forums Widgets API
   slug: vanilla-forums-widgets-api
-artifact_total: 122
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Add Ons API from Vanilla Forums — 2 operation(s) for add ons.
+  name: Vanilla Forums Add Ons API
+  slug: vanilla-forums-add-ons-api
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Data Source API from Vanilla Forums — 3 operation(s) for data source.
+  name: Vanilla Forums Data Source API
+  slug: vanilla-forums-data-source-api
+artifact_total: 121
 asyncapis:
 - description: ''
   name: Vanilla Forums Webhooks
@@ -667,21 +662,21 @@ modified: '2026-07-21'
 name: Vanilla Forums
 nav: Providers
 network: true
-overview: 'Vanilla Forums publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Addons API, AI Processing Preferences API, AI Settings API, and 55 more. Tagged areas include Community, Forums, Community Management, Webhook, and Customer Experience.
+overview: 'Vanilla Forums publishes 57 APIs on the [APIs.io](https://apis.io/) network, including AI Processing Preferences API, AI Settings API, Analytics API, and 54 more. Tagged areas include Community, Forums, Community Management, Webhook, and Customer Experience.
 
 
   The Vanilla Forums catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Vanilla Forums'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
-random_paper: 7
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Vanilla Forums Rate Limits
   slug: vanilla-forums-rate-limits
 score:
   band: developing
-  composite: 51.0
+  composite: 51.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -689,11 +684,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 51.4
+    contract_quality: 54.3
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 73.7
@@ -704,11 +699,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 58
+      total: 57
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -28,7 +28,7 @@ name: Makeably
 nav: Providers
 network: true
 overview: Makeably is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, E-Commerce, Custom Goods, and Handmade.
-random_paper: 19
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/makeably/refs/heads/main/screenshots/makeably-2026-07-25T225938.png
 slug: makeably
 tags:
@@ -37,6 +37,6 @@ tags:
 - E-Commerce
 - Custom Goods
 - Handmade
-- Startup
+- Startups
 - Defunct
 ---

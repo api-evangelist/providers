@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -368,7 +368,7 @@ modified: '2026-05-19'
 name: OpenRouter
 nav: Providers
 network: true
-overview: 'OpenRouter publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Credits API, and 4 more. Tagged areas include Artificial Intelligence, Gateway, Large Language Models, and Router.
+overview: 'OpenRouter publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Credits API, and 4 more. Tagged areas include Artificial Intelligence, Gateways, LLM, and Router.
 
 
   The OpenRouter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -379,7 +379,7 @@ plans:
 - name: Openrouter Plans Pricing
   plan_count: 3
   slug: openrouter-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Openrouter Rate Limits
@@ -423,7 +423,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -445,8 +445,8 @@ security:
 slug: openrouter
 tags:
 - Artificial Intelligence
-- Gateway
-- Large Language Models
+- Gateways
+- LLM
 - Router
 website: https://openrouter.ai/
 ---

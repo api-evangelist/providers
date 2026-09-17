@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,8 +105,8 @@ apis:
 - baseURL: https://developer.nps.gov/api/v1
   baseurl_source: declared
   description: Visitor centers
-  name: Department of the Interior VisitorCenters API
-  slug: department-of-the-interior-visitorcenters-api
+  name: Department of the Interior Visitor Centers API
+  slug: department-of-the-interior-visitor-centers-api
 artifact_total: 41
 collections:
 - collection_type: open
@@ -232,7 +232,7 @@ plans:
 - name: Department Of The Interior Plans Pricing
   plan_count: 1
   slug: department-of-the-interior-plans-pricing
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Department Of The Interior Rate Limits
@@ -291,7 +291,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

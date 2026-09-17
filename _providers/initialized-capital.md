@@ -21,14 +21,14 @@ modified: '2026-07-17'
 name: Initialized Capital
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 17
 slug: initialized-capital
 tags:
 - Venture Capital
 - Seed
 - Enterprise Saas
 - Consumer
-- Marketplaces
+- Marketplace
 - Fintech
 - Crypto
 - Healthcare

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Programmatic access to the TypeScript compiler. The Compiler API allows developers to parse TypeScript files into ASTs, perform type checking, emit JavaScript, and transform code programmatically.
@@ -197,7 +197,7 @@ modified: '2026-05-19'
 name: TypeScript
 nav: Providers
 network: true
-overview: 'TypeScript publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Compiler, JavaScript, Language Service, Programming Language, and Static Typing.
+overview: 'TypeScript publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Compilers, JavaScript, Language Service, Programming Language, and Static Typing.
 
 
   The TypeScript catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -208,7 +208,7 @@ plans:
 - name: Typescript Plans Pricing
   plan_count: 3
   slug: typescript-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Typescript Rate Limits
@@ -247,7 +247,7 @@ score:
     score: 100.0
   previous_composite: 44.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -265,7 +265,7 @@ skills:
   slug: ts-maintain-reduce-repro
 slug: typescript
 tags:
-- Compiler
+- Compilers
 - JavaScript
 - Language Service
 - Programming Language

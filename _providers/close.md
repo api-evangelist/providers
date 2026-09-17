@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 57.4
-  scored_at: '2026-09-15'
+  score: 59.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -45,316 +45,6 @@ agentic_access:
   summary_line: 286 operations · 160 acting
 api_count: 2
 apis:
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activities API from Close — 1 operation(s) for subpackage_activities.
-  name: Close subpackage_activities API
-  slug: close-subpackage-activities-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesCalls API from Close — 2 operation(s) for subpackage_activitiescalls.
-  name: Close subpackage_activitiesCalls API
-  slug: close-subpackage-activitiescalls-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesCreations API from Close — 2 operation(s) for subpackage_activitiescreations.
-  name: Close subpackage_activitiesCreations API
-  slug: close-subpackage-activitiescreations-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesCustomActivities API from Close — 2 operation(s) for subpackage_activitiescustomactivities.
-  name: Close subpackage_activitiesCustomActivities API
-  slug: close-subpackage-activitiescustomactivities-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesEmails API from Close — 2 operation(s) for subpackage_activitiesemails.
-  name: Close subpackage_activitiesEmails API
-  slug: close-subpackage-activitiesemails-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesEmailThreads API from Close — 2 operation(s) for subpackage_activitiesemailthreads.
-  name: Close subpackage_activitiesEmailThreads API
-  slug: close-subpackage-activitiesemailthreads-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesFormSubmissions API from Close — 2 operation(s) for subpackage_activitiesformsubmissions.
-  name: Close subpackage_activitiesFormSubmissions API
-  slug: close-subpackage-activitiesformsubmissions-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesLeadMerges API from Close — 2 operation(s) for subpackage_activitiesleadmerges.
-  name: Close subpackage_activitiesLeadMerges API
-  slug: close-subpackage-activitiesleadmerges-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesLeadStatusChanges API from Close — 2 operation(s) for subpackage_activitiesleadstatuschanges.
-  name: Close subpackage_activitiesLeadStatusChanges API
-  slug: close-subpackage-activitiesleadstatuschanges-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesMeetings API from Close — 3 operation(s) for subpackage_activitiesmeetings.
-  name: Close subpackage_activitiesMeetings API
-  slug: close-subpackage-activitiesmeetings-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesNotes API from Close — 2 operation(s) for subpackage_activitiesnotes.
-  name: Close subpackage_activitiesNotes API
-  slug: close-subpackage-activitiesnotes-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesOpportunityStatusChanges API from Close — 2 operation(s) for subpackage_activitiesopportunitystatuschanges.
-  name: Close subpackage_activitiesOpportunityStatusChanges API
-  slug: close-subpackage-activitiesopportunitystatuschanges-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesSms API from Close — 2 operation(s) for subpackage_activitiessms.
-  name: Close subpackage_activitiesSms API
-  slug: close-subpackage-activitiessms-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesTaskCompletions API from Close — 2 operation(s) for subpackage_activitiestaskcompletions.
-  name: Close subpackage_activitiesTaskCompletions API
-  slug: close-subpackage-activitiestaskcompletions-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_activitiesWhatsappMessages API from Close — 2 operation(s) for subpackage_activitieswhatsappmessages.
-  name: Close subpackage_activitiesWhatsappMessages API
-  slug: close-subpackage-activitieswhatsappmessages-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_blockedPhoneNumbers API from Close — 3 operation(s) for subpackage_blockedphonenumbers.
-  name: Close subpackage_blockedPhoneNumbers API
-  slug: close-subpackage-blockedphonenumbers-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_bulkActionsDelete API from Close — 2 operation(s) for subpackage_bulkactionsdelete.
-  name: Close subpackage_bulkActionsDelete API
-  slug: close-subpackage-bulkactionsdelete-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_bulkActionsEdit API from Close — 2 operation(s) for subpackage_bulkactionsedit.
-  name: Close subpackage_bulkActionsEdit API
-  slug: close-subpackage-bulkactionsedit-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_bulkActionsEmail API from Close — 2 operation(s) for subpackage_bulkactionsemail.
-  name: Close subpackage_bulkActionsEmail API
-  slug: close-subpackage-bulkactionsemail-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_bulkActionsSequenceSubscriptions API from Close — 2 operation(s) for subpackage_bulkactionssequencesubscriptions.
-  name: Close subpackage_bulkActionsSequenceSubscriptions API
-  slug: close-subpackage-bulkactionssequencesubscriptions-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_comments API from Close — 4 operation(s) for subpackage_comments.
-  name: Close subpackage_comments API
-  slug: close-subpackage-comments-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_connectedAccounts API from Close — 2 operation(s) for subpackage_connectedaccounts.
-  name: Close subpackage_connectedAccounts API
-  slug: close-subpackage-connectedaccounts-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_contacts API from Close — 2 operation(s) for subpackage_contacts.
-  name: Close subpackage_contacts API
-  slug: close-subpackage-contacts-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customActivityTypes API from Close — 2 operation(s) for subpackage_customactivitytypes.
-  name: Close subpackage_customActivityTypes API
-  slug: close-subpackage-customactivitytypes-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customFieldsActivity API from Close — 2 operation(s) for subpackage_customfieldsactivity.
-  name: Close subpackage_customFieldsActivity API
-  slug: close-subpackage-customfieldsactivity-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customFieldSchemas API from Close — 1 operation(s) for subpackage_customfieldschemas.
-  name: Close subpackage_customFieldSchemas API
-  slug: close-subpackage-customfieldschemas-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customFieldsContact API from Close — 2 operation(s) for subpackage_customfieldscontact.
-  name: Close subpackage_customFieldsContact API
-  slug: close-subpackage-customfieldscontact-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customFieldsCustomObject API from Close — 2 operation(s) for subpackage_customfieldscustomobject.
-  name: Close subpackage_customFieldsCustomObject API
-  slug: close-subpackage-customfieldscustomobject-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customFieldsLead API from Close — 2 operation(s) for subpackage_customfieldslead.
-  name: Close subpackage_customFieldsLead API
-  slug: close-subpackage-customfieldslead-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customFieldsOpportunity API from Close — 2 operation(s) for subpackage_customfieldsopportunity.
-  name: Close subpackage_customFieldsOpportunity API
-  slug: close-subpackage-customfieldsopportunity-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customFieldsShared API from Close — 4 operation(s) for subpackage_customfieldsshared.
-  name: Close subpackage_customFieldsShared API
-  slug: close-subpackage-customfieldsshared-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customObjects API from Close — 2 operation(s) for subpackage_customobjects.
-  name: Close subpackage_customObjects API
-  slug: close-subpackage-customobjects-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_customObjectTypes API from Close — 2 operation(s) for subpackage_customobjecttypes.
-  name: Close subpackage_customObjectTypes API
-  slug: close-subpackage-customobjecttypes-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_dialers API from Close — 2 operation(s) for subpackage_dialers.
-  name: Close subpackage_dialers API
-  slug: close-subpackage-dialers-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_emailTemplates API from Close — 3 operation(s) for subpackage_emailtemplates.
-  name: Close subpackage_emailTemplates API
-  slug: close-subpackage-emailtemplates-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_events API from Close — 2 operation(s) for subpackage_events.
-  name: Close subpackage_events API
-  slug: close-subpackage-events-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_exports API from Close — 4 operation(s) for subpackage_exports.
-  name: Close subpackage_exports API
-  slug: close-subpackage-exports-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_fieldEnrichment API from Close — 1 operation(s) for subpackage_fieldenrichment.
-  name: Close subpackage_fieldEnrichment API
-  slug: close-subpackage-fieldenrichment-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_files API from Close — 1 operation(s) for subpackage_files.
-  name: Close subpackage_files API
-  slug: close-subpackage-files-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_groups API from Close — 4 operation(s) for subpackage_groups.
-  name: Close subpackage_groups API
-  slug: close-subpackage-groups-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_integrationLinks API from Close — 2 operation(s) for subpackage_integrationlinks.
-  name: Close subpackage_integrationLinks API
-  slug: close-subpackage-integrationlinks-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_leads API from Close — 3 operation(s) for subpackage_leads.
-  name: Close subpackage_leads API
-  slug: close-subpackage-leads-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_leadStatuses API from Close — 2 operation(s) for subpackage_leadstatuses.
-  name: Close subpackage_leadStatuses API
-  slug: close-subpackage-leadstatuses-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_memberships API from Close — 3 operation(s) for subpackage_memberships.
-  name: Close subpackage_memberships API
-  slug: close-subpackage-memberships-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_opportunities API from Close — 2 operation(s) for subpackage_opportunities.
-  name: Close subpackage_opportunities API
-  slug: close-subpackage-opportunities-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_opportunityStatuses API from Close — 2 operation(s) for subpackage_opportunitystatuses.
-  name: Close subpackage_opportunityStatuses API
-  slug: close-subpackage-opportunitystatuses-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_organizations API from Close — 1 operation(s) for subpackage_organizations.
-  name: Close subpackage_organizations API
-  slug: close-subpackage-organizations-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_outcomes API from Close — 2 operation(s) for subpackage_outcomes.
-  name: Close subpackage_outcomes API
-  slug: close-subpackage-outcomes-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_phoneNumbers API from Close — 3 operation(s) for subpackage_phonenumbers.
-  name: Close subpackage_phoneNumbers API
-  slug: close-subpackage-phonenumbers-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_pipelines API from Close — 2 operation(s) for subpackage_pipelines.
-  name: Close subpackage_pipelines API
-  slug: close-subpackage-pipelines-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_playbooks API from Close — 4 operation(s) for subpackage_playbooks.
-  name: Close subpackage_playbooks API
-  slug: close-subpackage-playbooks-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_reporting API from Close — 8 operation(s) for subpackage_reporting.
-  name: Close subpackage_reporting API
-  slug: close-subpackage-reporting-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_roles API from Close — 2 operation(s) for subpackage_roles.
-  name: Close subpackage_roles API
-  slug: close-subpackage-roles-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_schedulingLinks API from Close — 8 operation(s) for subpackage_schedulinglinks.
-  name: Close subpackage_schedulingLinks API
-  slug: close-subpackage-schedulinglinks-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_sendAs API from Close — 3 operation(s) for subpackage_sendas.
-  name: Close subpackage_sendAs API
-  slug: close-subpackage-sendas-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_sequences API from Close — 4 operation(s) for subpackage_sequences.
-  name: Close subpackage_sequences API
-  slug: close-subpackage-sequences-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_smartViews API from Close — 2 operation(s) for subpackage_smartviews.
-  name: Close subpackage_smartViews API
-  slug: close-subpackage-smartviews-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_smsTemplates API from Close — 2 operation(s) for subpackage_smstemplates.
-  name: Close subpackage_smsTemplates API
-  slug: close-subpackage-smstemplates-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_tasks API from Close — 2 operation(s) for subpackage_tasks.
-  name: Close subpackage_tasks API
-  slug: close-subpackage-tasks-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_unsubscribedEmails API from Close — 2 operation(s) for subpackage_unsubscribedemails.
-  name: Close subpackage_unsubscribedEmails API
-  slug: close-subpackage-unsubscribedemails-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_users API from Close — 4 operation(s) for subpackage_users.
-  name: Close subpackage_users API
-  slug: close-subpackage-users-api
-- baseURL: https://api.close.com/api/v1
-  baseurl_source: declared
-  description: The subpackage_webhooks API from Close — 2 operation(s) for subpackage_webhooks.
-  name: Close subpackage_webhooks API
-  slug: close-subpackage-webhooks-api
 - baseURL: https://api.close.com/api/v1
   baseurl_source: declared
   description: The activities API from Close — 1 operation(s) for activities.
@@ -675,7 +365,7 @@ apis:
   description: The webhooks API from Close — 2 operation(s) for webhooks.
   name: Close Webhooks API
   slug: close-webhooks-api
-artifact_total: 211
+artifact_total: 149
 asyncapis:
 - description: ''
   name: Close Webhooks
@@ -1137,7 +827,7 @@ modified: '2026-08-13'
 name: Close
 nav: Providers
 network: true
-overview: 'Close publishes 126 APIs on the [APIs.io](https://apis.io/) network, including subpackage_activities API, subpackage_activitiesCalls API, subpackage_activitiesCreations API, and 123 more. Tagged areas include CRM, Sales Engagement, Inside Sales, Calling, and SMS.
+overview: 'Close publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Activities.calls API, Activities.creations API, and 61 more. Tagged areas include CRM, Sales Engagement, Inside Sales, Calling, and SMS.
 
 
   The Close catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1148,7 +838,7 @@ plans:
 - name: Close Plans Pricing
   plan_count: 7
   slug: close-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Close Rate Limits
@@ -1160,21 +850,21 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 78.8
+  composite: 79.8
   coverage:
     artifact_dirs: 25
-    catalog_earned: 61.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 63.1
+    contract_quality: 64.8
     developer_ergonomics: 66.1
-    discoverability: 70.4
+    discoverability: 75.9
     operational_transparency: 97.4
   previous_composite: 78.8
   provenance:
@@ -1184,7 +874,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 126
+      total: 64
     mcp: first-party
     skills: derived
   regulatory:
@@ -1200,7 +890,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

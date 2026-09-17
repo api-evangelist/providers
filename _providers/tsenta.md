@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Tsenta's backend API (api.autojobs.me) powers the job-matching, resume tailoring, and application-submission agent, and is exposed to AI clients as a hosted MCP server authorized over OAuth 2.0 (autho
@@ -170,7 +170,7 @@ overview: 'Tsenta publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tsenta''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 19 more developer resources.'
-random_paper: 4
+random_paper: 17
 score:
   band: thin
   composite: 32.0
@@ -194,7 +194,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -223,7 +223,7 @@ tags:
 - AI Agents
 - Automation
 - Applicant Tracking
-- Career
+- Careers
 - MCP
 - Y Combinator
 website: https://tsenta.com

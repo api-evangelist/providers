@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -94,6 +94,10 @@ collections:
   name: Oracle Financials General Ledger Budgetary Control Ledger Balances API
   slug: open-oracle-financials-ledger-balances-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/capabilities/oracle-financials-capability-edges.yml
   title: ''
@@ -180,7 +184,7 @@ json_structures:
   property_count: 0
   slug: oracle-financials-structure
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Oracle Financials
 nav: Providers
 network: true
@@ -190,12 +194,12 @@ overview: 'Oracle Financials publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Oracle Financials catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Oracle Financials'' developer surface includes authentication, getting-started guide, support, and 9 more developer resources.'
+  Oracle Financials'' developer surface includes authentication, getting-started guide, support, and 10 more developer resources.'
 plans:
 - name: Oracle Financials Plans Pricing
   plan_count: 2
   slug: oracle-financials-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Oracle Financials Rate Limits
@@ -238,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -263,4 +267,5 @@ tags:
 - Expense Management
 - Financial Management
 - General Ledger
+website: https://oracle.com
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Faraway Platform API surfaces the developer platform behind Faraway''s interoperable gaming ecosystem. Its API reference (login-gated) and llms.txt index are published at docs.faraway.com; the API '
@@ -98,7 +98,7 @@ overview: 'Faraway publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Faraway''s developer surface includes documentation, API reference, signup flow, support, and 7 more developer resources.'
-random_paper: 12
+random_paper: 21
 score:
   band: emerging
   composite: 18.0
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for managing global employment operations including international hiring, employee records, payroll processing, benefits administration, onboarding, offboarding, and compliance management acr
@@ -111,7 +111,7 @@ modified: '2026-06-13'
 name: Velocity Global
 nav: Providers
 network: true
-overview: 'Velocity Global publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Employer of Record, Global Employment, HR, Payroll, and Compliance.
+overview: 'Velocity Global publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Employer of Record, Global Employment, Human Resources, Payroll, and Compliance.
 
 
   Velocity Global''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
@@ -119,7 +119,7 @@ plans:
 - name: Velocity Global Plans Pricing
   plan_count: 1
   slug: velocity-global-plans-pricing
-random_paper: 16
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Velocity Global Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -164,7 +164,7 @@ slug: velocity-global
 tags:
 - Employer of Record
 - Global Employment
-- HR
+- Human Resources
 - Payroll
 - Compliance
 - International Hiring

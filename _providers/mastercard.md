@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 76
-  human_in_the_loop: 1
+- acting_count: 171
+  human_in_the_loop: 4
   name: Mastercard Agentic Access
-  operation_count: 106
+  operation_count: 237
   slug: mastercard-agentic-access
-  summary_line: 106 operations · 76 acting · 1 human-in-the-loop
+  summary_line: 237 operations · 171 acting · 4 human-in-the-loop
 api_count: 37
 apis:
 - description: 'The Universal Specification Submission API is currently being used by Mastercard Issuers to submit PAN related events for the Account Level Management suite of services: Enhanced Value, Product Gradua'
@@ -138,7 +138,7 @@ apis:
   name: Mastercard Loyalty Promotions
   slug: mastercard-loyalty-promotions
 - description: "The Mastercard Send Funding service enables a registered Program Participant (such as a Financial Institution or digital player) to secure funds from a consumer\x19s sending account (known as the Funding"
-  name: Mastercard Mastercard Send Funding
+  name: Mastercard Send Funding
   slug: mastercard-mastercard-send-funding
 - description: The Mastercard Send Person-to-Person (P2P) services enable registered Program Participants (such as banks, issuers, and digital players) to provide P2P payment solutions that enable consumers/individu
   name: Mastercard Send Person-to-Person
@@ -357,11 +357,6 @@ apis:
   slug: mastercard-alerts-merchants-api
 - baseURL: https://api.example.com
   baseurl_source: declared
-  description: The Apis API from Mastercard — 2 operation(s) for apis.
-  name: Mastercard Apis API
-  slug: mastercard-apis-api
-- baseURL: https://api.example.com
-  baseurl_source: declared
   description: The API provides ability for the lender to approve a BNPL loan during purchase.
   name: Mastercard Approvals API
   slug: mastercard-approvals-api
@@ -542,11 +537,6 @@ apis:
   slug: mastercard-field-mapping-api
 - baseURL: https://api.example.com
   baseurl_source: declared
-  description: The Footprints API from Mastercard — 1 operation(s) for footprints.
-  name: Mastercard Footprints API
-  slug: mastercard-footprints-api
-- baseURL: https://api.example.com
-  baseurl_source: declared
   description: The Fraud API from Mastercard — 2 operation(s) for fraud.
   name: Mastercard Fraud API
   slug: mastercard-fraud-api
@@ -592,11 +582,6 @@ apis:
   slug: mastercard-lost-stolen-api
 - baseURL: https://api.example.com
   baseurl_source: declared
-  description: The Mastercard API from Mastercard — 1 operation(s) for mastercard.
-  name: Mastercard Mastercard API
-  slug: mastercard-mastercard-api
-- baseURL: https://api.example.com
-  baseurl_source: declared
   description: The Member API from Mastercard — 6 operation(s) for member.
   name: Mastercard Member API
   slug: mastercard-member-api
@@ -625,11 +610,6 @@ apis:
   description: The Offers API from Mastercard — 1 operation(s) for offers.
   name: Mastercard Offers API
   slug: mastercard-offers-api
-- baseURL: https://api.example.com
-  baseurl_source: declared
-  description: The Otps API from Mastercard — 1 operation(s) for otps.
-  name: Mastercard Otps API
-  slug: mastercard-otps-api
 - baseURL: https://api.example.com
   baseurl_source: declared
   description: Operations related to PAN Blocks.
@@ -750,7 +730,17 @@ apis:
   description: The Widgets API from Mastercard — 1 operation(s) for widgets.
   name: Mastercard Widgets API
   slug: mastercard-widgets-api
-artifact_total: 1952
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Apis API from Mastercard — 2 operation(s) for apis.
+  name: Mastercard APIS API
+  slug: mastercard-apis-api
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Otps API from Mastercard — 1 operation(s) for otps.
+  name: Mastercard Otps API
+  slug: mastercard-otps-api
+artifact_total: 1950
 collections:
 - collection_type: open
   name: API Collection
@@ -1347,6 +1337,10 @@ collections:
   name: Mastercard Bill Payment Validator Account Opening Widgets API
   slug: open-mastercard-widgets-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://mastercard.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/capabilities/mastercard-capability-edges.yml
   title: ''
@@ -6223,17 +6217,17 @@ jsonld:
   property_count: 0
   slug: mastercard-unified-checkout-solutions-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Mastercard
 nav: Providers
 network: true
-overview: 'Mastercard publishes 101 APIs on the [APIs.io](https://apis.io/) network, including Business Payment Controls, Community Pass Digital Identity (CPDI) and Acceptance (CPA), Commerce Pass (CxP), and 98 more. Tagged areas include Credit Cards, Digital Identity, Financial-Services, Fraud Detection, and Open Banking.
+overview: 'Mastercard publishes 99 APIs on the [APIs.io](https://apis.io/) network, including Business Payment Controls, Community Pass Digital Identity (CPDI) and Acceptance (CPA), Commerce Pass (CxP), and 96 more. Tagged areas include Credit Cards, Digital Identity, Financial-Services, Fraud Detection, and Open Banking.
 
 
   The Mastercard catalog on APIs.io includes 20 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Mastercard''s developer surface includes authentication, developer portal, engineering blog, signup flow, support, code examples, and 41 more developer resources.'
+  Mastercard''s developer surface includes authentication, developer portal, engineering blog, signup flow, support, code examples, and 42 more developer resources.'
 plans:
 - name: Mastercard Plans Pricing
   plan_count: 1
@@ -6254,7 +6248,7 @@ press:
 - date: '2026-05-25'
   title: Mastercard unveils new tools and collaborations to power ...
   url: https://www.mastercard.com/us/en/news-and-trends/press/2025/september/mastercard-unveils-new-tools-and-collaborations-to-power-smarter,-safer-agentic-commerce.html
-random_paper: 12
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Mastercard Rate Limits
@@ -6295,7 +6289,7 @@ score:
   facets:
     access_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 63.9
+    contract_quality: 63.8
     developer_ergonomics: 81.0
     discoverability: 57.4
     operational_transparency: 52.6
@@ -6306,7 +6300,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 166
+      total: 164
   regulatory:
     applies: true
     matched_via: tags
@@ -6314,7 +6308,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -6354,5 +6348,5 @@ use_cases:
 - Bill payment validation and processing
 - Commercial virtual card management
 - Dispute resolution and chargeback management
-website: https://developer.mastercard.com/
+website: https://mastercard.com
 ---

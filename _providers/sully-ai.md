@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST API for ambient clinical documentation: upload audio or open a WebSocket stream, generate structured SOAP / custom-template clinical notes, extract medical codes (ICD-10, CPT, SNOMED), and receiv'
@@ -131,7 +131,7 @@ overview: 'Sully AI publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Sully AI''s developer surface includes documentation, engineering blog, support, GitHub presence, and 15 more developer resources.'
-random_paper: 18
+random_paper: 2
 score:
   band: emerging
   composite: 19.0
@@ -158,7 +158,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -191,7 +191,7 @@ tags:
 - Speech-to-Text
 - Audio Transcription
 - Real-Time Streaming
-- WebSockets
+- WebSocket
 - Webhook
 - EHR Integration
 - Epic

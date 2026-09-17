@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -309,7 +309,7 @@ press:
 - date: '2026-05-25'
   title: Target's Using Artificial Intelligence to Make Your Shopping ...
   url: https://corporate.target.com/news-features/article/2023/12/artificial-intelligence
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Target Rate Limits
@@ -370,7 +370,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

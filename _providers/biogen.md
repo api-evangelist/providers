@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,11 +55,11 @@ apis:
   description: Available Biogen API services
   name: Biogen Services API
   slug: biogen-services-api
-- baseURL: https://dev1.api.biogen.com
+- baseURL: https://developer.biogen.com
   baseurl_source: declared
-  description: 'Service and package export lookups on Biogen''s non-production API gateway. This is the only Biogen API whose machine-readable definition is published anonymously — Biogen serves it as a Mashery/Boomi '
-  name: Biogen CDP Export API (Non-Production)
-  slug: biogen-cdp-export-api
+  description: Service and package export lookups across the Biogen non-production API estate
+  name: Biogen Export API
+  slug: biogen-export-api
 artifact_total: 44
 collections:
 - collection_type: open
@@ -75,6 +75,16 @@ collections:
   name: Biogen Developer Keys Services API
   slug: open-biogen-services-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/overlays/biogen-cdp-export-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/biogen-cdp-export-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/skills/biogen-export-lookup.md
+  title: ''
+  type: AgentSkill
+  url: skills/biogen-export-lookup.md
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/agentic-access/biogen-agentic-access.yml
   title: ''
@@ -284,13 +294,13 @@ modified: '2026-09-04'
 name: Biogen
 nav: Providers
 network: true
-overview: 'Biogen publishes 3 APIs on the [APIs.io](https://apis.io/) network: Keys API, Services API, and CDP Export API (Non-Production). Tagged areas include Biotechnology, Healthcare, Life Sciences, Pharmaceuticals, and Neurology.
+overview: 'Biogen publishes 3 APIs on the [APIs.io](https://apis.io/) network: Keys API, Services API, and Export API. Tagged areas include Biotechnology, Healthcare, Life Sciences, Pharmaceuticals, and Neurology.
 
 
   The Biogen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Biogen''s developer surface includes authentication, developer portal, documentation, sandbox, support, engineering blog, and 20 more developer resources.'
+  Biogen''s developer surface includes authentication, developer portal, documentation, sandbox, support, engineering blog, and 22 more developer resources.'
 plans:
 - name: Biogen Plans Pricing
   plan_count: 1
@@ -311,7 +321,7 @@ press:
 - date: '2026-05-25'
   title: FINANCIAL RESULTS AND BUSINESS UPDATE
   url: https://investors.biogen.com/static-files/0612f509-be22-438f-b817-3acba3917b0b
-random_paper: 19
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Biogen Rate Limits
@@ -374,7 +384,7 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

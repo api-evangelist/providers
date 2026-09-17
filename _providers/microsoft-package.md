@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -74,9 +74,9 @@ apis:
   slug: microsoft-package-search-api
 - baseURL: https://api.nuget.org/v3/index.json
   baseurl_source: declared
-  description: The ServiceIndex API from Microsoft Package — 1 operation(s) for serviceindex.
-  name: Microsoft Package ServiceIndex API
-  slug: microsoft-package-serviceindex-api
+  description: The Service Index API from Microsoft Package — 1 operation(s) for service index.
+  name: Microsoft Package Service Index API
+  slug: microsoft-package-service-index-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -158,7 +158,7 @@ plans:
 - name: Microsoft Package Plans Pricing
   plan_count: 3
   slug: microsoft-package-plans-pricing
-random_paper: 0
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Microsoft Package Rate Limits
@@ -190,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

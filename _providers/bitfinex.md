@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://docs.bitfinex.com/docs
@@ -78,7 +78,7 @@ overview: 'Bitfinex publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Bitfinex''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 17
+random_paper: 21
 rules:
 - effective_rule_count: 33
   extends:
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

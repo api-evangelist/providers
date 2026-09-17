@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Tenant-scoped REST API for retrieving events, alerts, incidents, audit logs, network and application telemetry, and for managing policies, IoCs, and configuration on the Netskope platform. Authenticat
@@ -93,7 +93,7 @@ overview: 'Netskope publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Netskope''s developer surface includes documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 12
+random_paper: 15
 score:
   band: emerging
   composite: 12.5
@@ -114,7 +114,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 12.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

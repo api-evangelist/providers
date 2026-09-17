@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ overview: 'pfSense publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   pfSense''s developer surface includes authentication, documentation, pricing, engineering blog, and 11 more developer resources.'
-random_paper: 0
+random_paper: 8
 score:
   band: thin
   composite: 31.8
@@ -199,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

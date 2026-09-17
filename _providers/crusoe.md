@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 4
@@ -252,16 +252,6 @@ apis:
   slug: crusoe-roles-api
 - baseURL: https://api.cloud.crusoe.ai/v1
   baseurl_source: declared
-  description: The S3Buckets API from Crusoe — 7 operation(s) for s3buckets.
-  name: Crusoe S3 Buckets API
-  slug: crusoe-s3buckets-api
-- baseURL: https://api.cloud.crusoe.ai/v1
-  baseurl_source: declared
-  description: The S3Keys API from Crusoe — 2 operation(s) for s3keys.
-  name: Crusoe S3 Keys API
-  slug: crusoe-s3keys-api
-- baseURL: https://api.cloud.crusoe.ai/v1
-  baseurl_source: declared
   description: The SCIM API from Crusoe — 4 operation(s) for scim.
   name: Crusoe SCIM API
   slug: crusoe-scim-api
@@ -322,11 +312,6 @@ apis:
   slug: crusoe-vm-operations-api
 - baseURL: https://api.cloud.crusoe.ai/v1
   baseurl_source: declared
-  description: The VMs API from Crusoe — 6 operation(s) for vms.
-  name: Crusoe V Ms API
-  slug: crusoe-vms-api
-- baseURL: https://api.cloud.crusoe.ai/v1
-  baseurl_source: declared
   description: The VPC Firewall Rule Operations API from Crusoe — 2 operation(s) for vpc firewall rule operations.
   name: Crusoe VPC Firewall Rule Operations API
   slug: crusoe-vpc-firewall-rule-operations-api
@@ -358,148 +343,22 @@ apis:
 - description: The Crusoe Cloud API is the primary control plane for provisioning and managing GPU compute, storage, networking, Kubernetes clusters, identity, and billing on Crusoe's vertically integrated AI cloud.
   name: Crusoe Cloud API
   slug: cloud-api
-- description: The Audit Logs API from Crusoe — 1 operation(s) for audit logs.
-  name: Crusoe Audit Logs API
-  slug: crusoe-energy-audit-logs-api
-- description: The AutoCluster Operations API from Crusoe — 1 operation(s) for autocluster operations.
-  name: Crusoe AutoCluster Operations API
-  slug: crusoe-energy-autocluster-operations-api
-- description: The AutoClusters API from Crusoe — 2 operation(s) for autoclusters.
-  name: Crusoe AutoClusters API
-  slug: crusoe-energy-autoclusters-api
-- description: The Billing API from Crusoe — 3 operation(s) for billing.
-  name: Crusoe Billing API
-  slug: crusoe-energy-billing-api
-- description: The Capacities API from Crusoe — 1 operation(s) for capacities.
-  name: Crusoe Capacities API
-  slug: crusoe-energy-capacities-api
-- description: The Custom Image Operations API from Crusoe — 2 operation(s) for custom image operations.
-  name: Crusoe Custom Image Operations API
-  slug: crusoe-energy-custom-image-operations-api
-- description: The Custom Images API from Crusoe — 3 operation(s) for custom images.
-  name: Crusoe Custom Images API
-  slug: crusoe-energy-custom-images-api
-- description: The Disk Operations API from Crusoe — 2 operation(s) for disk operations.
-  name: Crusoe Disk Operations API
-  slug: crusoe-energy-disk-operations-api
-- description: The Disks API from Crusoe — 2 operation(s) for disks.
-  name: Crusoe Disks API
-  slug: crusoe-energy-disks-api
-- description: The Entities API from Crusoe — 1 operation(s) for entities.
-  name: Crusoe Entities API
-  slug: crusoe-energy-entities-api
-- description: The Feature Flags API from Crusoe — 1 operation(s) for feature flags.
-  name: Crusoe Feature Flags API
-  slug: crusoe-energy-feature-flags-api
-- description: The IB Networks API from Crusoe — 2 operation(s) for ib networks.
-  name: Crusoe IB Networks API
-  slug: crusoe-energy-ib-networks-api
-- description: The IB Partitions API from Crusoe — 2 operation(s) for ib partitions.
-  name: Crusoe IB Partitions API
-  slug: crusoe-energy-ib-partitions-api
-- description: The Identities API from Crusoe — 1 operation(s) for identities.
-  name: Crusoe Identities API
-  slug: crusoe-energy-identities-api
-- description: The Images API from Crusoe — 2 operation(s) for images.
-  name: Crusoe Images API
-  slug: crusoe-energy-images-api
-- description: The InferenceAPIKey API from Crusoe — 1 operation(s) for inferenceapikey.
-  name: Crusoe InferenceAPIKey API
-  slug: crusoe-energy-inferenceapikey-api
-- description: The Instance Groups API from Crusoe — 2 operation(s) for instance groups.
-  name: Crusoe Instance Groups API
-  slug: crusoe-energy-instance-groups-api
-- description: The Instance Templates API from Crusoe — 2 operation(s) for instance templates.
-  name: Crusoe Instance Templates API
-  slug: crusoe-energy-instance-templates-api
-- description: The Internal Load Balancer Operations API from Crusoe — 2 operation(s) for internal load balancer operations.
-  name: Crusoe Internal Load Balancer Operations API
-  slug: crusoe-energy-internal-load-balancer-operations-api
-- description: The Internal Load Balancers API from Crusoe — 2 operation(s) for internal load balancers.
-  name: Crusoe Internal Load Balancers API
-  slug: crusoe-energy-internal-load-balancers-api
-- description: The Kubernetes Cluster Operations API from Crusoe — 2 operation(s) for kubernetes cluster operations.
-  name: Crusoe Kubernetes Cluster Operations API
-  slug: crusoe-energy-kubernetes-cluster-operations-api
-- description: The Kubernetes Clusters API from Crusoe — 3 operation(s) for kubernetes clusters.
-  name: Crusoe Kubernetes Clusters API
-  slug: crusoe-energy-kubernetes-clusters-api
-- description: The Kubernetes Node Pool Operations API from Crusoe — 2 operation(s) for kubernetes node pool operations.
-  name: Crusoe Kubernetes Node Pool Operations API
-  slug: crusoe-energy-kubernetes-node-pool-operations-api
-- description: The Kubernetes Node Pools API from Crusoe — 4 operation(s) for kubernetes node pools.
-  name: Crusoe Kubernetes Node Pools API
-  slug: crusoe-energy-kubernetes-node-pools-api
-- description: The Kubernetes Versions API from Crusoe — 1 operation(s) for kubernetes versions.
-  name: Crusoe Kubernetes Versions API
-  slug: crusoe-energy-kubernetes-versions-api
-- description: The Load Balancer Operations API from Crusoe — 2 operation(s) for load balancer operations.
-  name: Crusoe Load Balancer Operations API
-  slug: crusoe-energy-load-balancer-operations-api
-- description: The Load Balancers API from Crusoe — 2 operation(s) for load balancers.
-  name: Crusoe Load Balancers API
-  slug: crusoe-energy-load-balancers-api
-- description: The Locations API from Crusoe — 1 operation(s) for locations.
-  name: Crusoe Locations API
-  slug: crusoe-energy-locations-api
-- description: The Projects API from Crusoe — 2 operation(s) for projects.
-  name: Crusoe Projects API
-  slug: crusoe-energy-projects-api
-- description: The Quotas API from Crusoe — 2 operation(s) for quotas.
-  name: Crusoe Quotas API
-  slug: crusoe-energy-quotas-api
-- description: The Reservations API from Crusoe — 3 operation(s) for reservations.
-  name: Crusoe Reservations API
-  slug: crusoe-energy-reservations-api
-- description: The Roles API from Crusoe — 3 operation(s) for roles.
-  name: Crusoe Roles API
-  slug: crusoe-energy-roles-api
-- description: The Slurm Clusters API from Crusoe — 2 operation(s) for slurm clusters.
-  name: Crusoe Slurm Clusters API
-  slug: crusoe-energy-slurm-clusters-api
-- description: The Slurm Node Pools API from Crusoe — 2 operation(s) for slurm node pools.
-  name: Crusoe Slurm Node Pools API
-  slug: crusoe-energy-slurm-node-pools-api
-- description: The Snapshot Operations API from Crusoe — 2 operation(s) for snapshot operations.
-  name: Crusoe Snapshot Operations API
-  slug: crusoe-energy-snapshot-operations-api
-- description: The Snapshots API from Crusoe — 2 operation(s) for snapshots.
-  name: Crusoe Snapshots API
-  slug: crusoe-energy-snapshots-api
-- description: The SSH Keys API from Crusoe — 1 operation(s) for ssh keys.
-  name: Crusoe SSH Keys API
-  slug: crusoe-energy-ssh-keys-api
-- description: The Tokens API from Crusoe — 1 operation(s) for tokens.
-  name: Crusoe Tokens API
-  slug: crusoe-energy-tokens-api
-- description: The Usage API from Crusoe — 3 operation(s) for usage.
-  name: Crusoe Usage API
-  slug: crusoe-energy-usage-api
-- description: The VM Operations API from Crusoe — 2 operation(s) for vm operations.
-  name: Crusoe VM Operations API
-  slug: crusoe-energy-vm-operations-api
-- description: The VMs API from Crusoe — 6 operation(s) for vms.
-  name: Crusoe VMs API
-  slug: crusoe-energy-vms-api
-- description: The VPC Firewall Rule Operations API from Crusoe — 2 operation(s) for vpc firewall rule operations.
-  name: Crusoe VPC Firewall Rule Operations API
-  slug: crusoe-energy-vpc-firewall-rule-operations-api
-- description: The VPC Firewall Rules API from Crusoe — 2 operation(s) for vpc firewall rules.
-  name: Crusoe VPC Firewall Rules API
-  slug: crusoe-energy-vpc-firewall-rules-api
-- description: The VPC Network Operations API from Crusoe — 2 operation(s) for vpc network operations.
-  name: Crusoe VPC Network Operations API
-  slug: crusoe-energy-vpc-network-operations-api
-- description: The VPC Networks API from Crusoe — 2 operation(s) for vpc networks.
-  name: Crusoe VPC Networks API
-  slug: crusoe-energy-vpc-networks-api
-- description: The VPC Subnet Operations API from Crusoe — 2 operation(s) for vpc subnet operations.
-  name: Crusoe VPC Subnet Operations API
-  slug: crusoe-energy-vpc-subnet-operations-api
-- description: The VPC Subnets API from Crusoe — 2 operation(s) for vpc subnets.
-  name: Crusoe VPC Subnets API
-  slug: crusoe-energy-vpc-subnets-api
-artifact_total: 180
+- baseURL: https://api.inference.crusoecloud.com/v1
+  baseurl_source: declared
+  description: The VMs API from Crusoe — 6 operation(s) for vms.
+  name: Crusoe V Ms API
+  slug: crusoe-vms-api
+- baseURL: https://api.inference.crusoecloud.com/v1
+  baseurl_source: declared
+  description: The S3 Buckets API from Crusoe — 7 operation(s) for s3 buckets.
+  name: Crusoe S3 Buckets API
+  slug: crusoe-s3-buckets-api
+- baseURL: https://api.inference.crusoecloud.com/v1
+  baseurl_source: declared
+  description: The S3 Keys API from Crusoe — 2 operation(s) for s3 keys.
+  name: Crusoe S3 Keys API
+  slug: crusoe-s3-keys-api
+artifact_total: 133
 asyncapis:
 - description: ''
   name: Crusoe Webhooks
@@ -895,14 +754,14 @@ modified: '2026-08-04'
 name: Crusoe
 nav: Providers
 network: true
-overview: 'Crusoe publishes 108 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, AutoCluster Operations API, Auto Clusters API, and 105 more. Tagged areas include AI Infrastructure, Cloud Computing, GPU Compute, Machine-Learning, and Inference.
+overview: 'Crusoe publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, AutoCluster Operations API, Auto Clusters API, and 58 more. Tagged areas include AI Infrastructure, Cloud Computing, GPU Compute, Machine-Learning, and Inference.
 
 
   The Crusoe catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Crusoe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
-random_paper: 6
+random_paper: 19
 score:
   band: developing
   composite: 53.6
@@ -944,7 +803,7 @@ score:
     regime_id: energy_utilities
     score: 43.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

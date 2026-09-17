@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Payhawk spend management features including expenses, corporate cards, transactions, employees, custom fields, fund accounts, bank statements, and webhook subscr
@@ -140,7 +140,7 @@ plans:
 - name: Payhawk Plans Pricing
   plan_count: 3
   slug: payhawk-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Payhawk Rate Limits
@@ -173,7 +173,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

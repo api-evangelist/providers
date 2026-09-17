@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -79,7 +79,7 @@ name: GE HealthCare Technologies
 nav: Providers
 network: true
 overview: GE HealthCare Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Healthcare, Medical Devices, and Medical Imaging.
-random_paper: 15
+random_paper: 1
 score:
   band: minimal
   composite: 3.9
@@ -111,7 +111,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

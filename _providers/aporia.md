@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Coralogix AI Guardrails is the post-acquisition continuation of Aporia's guardrails product, intercepting prompts and responses between applications and LLMs to enforce policies covering hallucination
@@ -141,7 +141,7 @@ plans:
 - name: Aporia Plans Pricing
   plan_count: 1
   slug: aporia-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Aporia Rate Limits
@@ -172,7 +172,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

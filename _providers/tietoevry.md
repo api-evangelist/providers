@@ -20,7 +20,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -36,34 +36,149 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.0
-  scored_at: '2026-09-15'
-api_count: 24
+  score: 32.1
+  scored_at: '2026-09-16'
+api_count: 48
 apis:
-- baseURL: https://openbanking.api.tietoevry.com
-  baseurl_source: declared
-  description: PSD2-compliant Access to Account (XS2A) APIs implementing the Berlin Group NextGenPSD2 framework, plus Tietoevry premium extensions beyond the PSD2 mandate. Covers account information (AIS), payment i
-  name: Tietoevry Open Banking XS2A APIs
-  slug: tietoevry-openbanking-xs2a
-- baseURL: https://aggregation.api.tieto.com
-  baseurl_source: declared
-  description: A single-integration aggregation layer over Nordic and Baltic banks, exposing provider discovery, end-user management and aggregated XS2A operations (accounts, balances, transactions, consents, confir
-  name: Tietoevry Financial API Aggregation
-  slug: tietoevry-financial-api-aggregation
-- baseURL: https://payments.api.tieto.com/live/v1/sepadd
-  baseurl_source: declared
-  description: 'A SEPA Direct Debit gateway for Creditor and Debtor roles, allowing creditors to initiate payments, cancel (reverse) them and issue refunds, and debtors to reject payments and raise chargebacks, with '
-  name: Tietoevry SEPA Direct Debits
-  slug: tietoevry-sepa-direct-debits
 - description: A credit platform used by banks and financial institutions in 20+ countries to manage virtually any type of credit, organised around loan origination, loan life cycle and collection. The developer por
   name: Tietoevry Credit Cloud
   slug: tietoevry-credit-cloud
-artifact_total: 9
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for establish and managing account information consent.
+  name: TietoEVRY Account consent service API
+  slug: tietoevry-account-consent-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for managing account information.
+  name: TietoEVRY Account Information Service API
+  slug: tietoevry-account-information-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations, which are executed for multiple destination providers.
+  name: TietoEVRY Aggregated services API
+  slug: tietoevry-aggregated-services-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for bulk payments.
+  name: TietoEVRY Bulk Payment Initiation Service API
+  slug: tietoevry-bulk-payment-initiation-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for managing card account information.
+  name: TietoEVRY Card account information service API
+  slug: tietoevry-card-account-information-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for managing card information.
+  name: TietoEVRY Card information service API
+  slug: tietoevry-card-information-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for receiving funds confirmation.
+  name: TietoEVRY Confirmation of Funds Service API
+  slug: tietoevry-confirmation-of-funds-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for establish and managing confirmation of funds consent.
+  name: TietoEVRY Confirmation of Funds Service consent API
+  slug: tietoevry-confirmation-of-funds-service-consent-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operation for creditors
+  name: TietoEVRY Creditor API
+  slug: tietoevry-creditor-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operation for debtors
+  name: TietoEVRY Debtor API
+  slug: tietoevry-debtor-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for managing anonymous End Users.
+  name: TietoEVRY End User management API
+  slug: tietoevry-end-user-management-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for payments.
+  name: TietoEVRY Payment Initiation Service API
+  slug: tietoevry-payment-initiation-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for recalling the payments.
+  name: TietoEVRY Payment Recall Initiation Service API
+  slug: tietoevry-payment-recall-initiation-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for periodic payments.
+  name: TietoEVRY Periodic Payment Initiation Service API
+  slug: tietoevry-periodic-payment-initiation-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for establishing Pre-step SCA
+  name: TietoEVRY Pre-step SCA service API
+  slug: tietoevry-pre-step-sca-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Retrieve information about providers.
+  name: TietoEVRY Provider information API
+  slug: tietoevry-provider-information-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations to request for payments.
+  name: TietoEVRY Request to pay Initiation Service API
+  slug: tietoevry-request-to-pay-initiation-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Signing Baskets Service
+  name: TietoEVRY Signing Baskets Service API
+  slug: tietoevry-signing-baskets-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations to create subscription.
+  name: TietoEVRY Subscription Initiation Service API
+  slug: tietoevry-subscription-initiation-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for managing user roles.
+  name: TietoEVRY User Roles service API
+  slug: tietoevry-user-roles-service-api
+- baseURL: https://openbanking.api.tietoevry.com
+  baseurl_source: declared
+  description: Operations for managing users.
+  name: TietoEVRY Users service API
+  slug: tietoevry-users-service-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Tietoevry Sepa Direct Debit Webhooks
   slug: tietoevry-sepa-direct-debit-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/overlays/tietoevry-tieto-xs2a-accounts-v1-3-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tietoevry-tieto-xs2a-accounts-v1-3-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/overlays/tietoevry-tieto-xs2a-payments-v1-3-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tietoevry-tieto-xs2a-payments-v1-3-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/overlays/tietoevry-openbanking-xs2a-swagger-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tietoevry-openbanking-xs2a-swagger-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/overlays/tietoevry-financial-api-aggregation-swagger-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tietoevry-financial-api-aggregation-swagger-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/overlays/tietoevry-sepa-direct-debit-api-gateway-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/tietoevry-sepa-direct-debit-api-gateway-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/security/tietoevry-domain-security.yml
   title: ''
@@ -208,25 +323,25 @@ modified: '2026-09-02'
 name: TietoEVRY
 nav: Providers
 network: true
-overview: 'TietoEVRY publishes 3 APIs on the [APIs.io](https://apis.io/) network: Open Banking XS2A APIs, Financial API Aggregation, and SEPA Direct Debits. Tagged areas include Company, Banking, Open Banking, PSD2, and XS2A.
+overview: 'TietoEVRY publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account consent service API, Account Information Service API, Aggregated services API, and 18 more. Tagged areas include Company, Banking, Open Banking, PSD2, and XS2A.
 
 
   The TietoEVRY catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TietoEVRY''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 23 more developer resources.'
+  TietoEVRY''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 28 more developer resources.'
 plans:
 - name: Tietoevry Plans Pricing
   plan_count: 0
   slug: tietoevry-plans-pricing
-random_paper: 16
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Tietoevry Rate Limits
   slug: tietoevry-rate-limits
 score:
   band: developing
-  composite: 41.9
+  composite: 41.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 43.0
@@ -234,11 +349,11 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 27.6
     contract_governance: 18.2
-    contract_quality: 59.0
+    contract_quality: 58.5
     developer_ergonomics: 23.2
     discoverability: 72.2
     operational_transparency: 47.4
@@ -254,10 +369,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 91.7
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 24
+      total: 21
     mcp: derived
     skills: derived
   regulatory:
@@ -267,7 +382,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

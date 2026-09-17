@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for location intelligence — location scores, neighborhood profiles, geographies, points of interest, demographics, schools, value drivers, similar neighborhoods, location snapshot, market sta
@@ -109,7 +109,7 @@ overview: 'Local Logic publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Local Logic''s developer surface includes documentation, support, engineering blog, pricing, signup flow, GitHub presence, authentication, and 6 more developer resources.'
-random_paper: 2
+random_paper: 16
 score:
   band: emerging
   composite: 22.9
@@ -130,7 +130,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: API for accessing SPDX open standard resources for software bill of materials, license compliance, and software supply chain transparency information.
@@ -82,7 +82,7 @@ plans:
 - name: Spdx Plans Pricing
   plan_count: 3
   slug: spdx-plans-pricing
-random_paper: 6
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Spdx Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 12.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

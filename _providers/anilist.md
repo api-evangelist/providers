@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,14 +48,14 @@ apis:
   slug: anilist-graphql-api-v2
 - baseURL: https://graphql.anilist.co
   baseurl_source: declared
-  description: GraphQL query and mutation endpoint
-  name: AniList GraphQL API
-  slug: anilist-graphql-api
+  description: OAuth2 authorization code and implicit grant endpoints
+  name: AniList O Auth2 API
+  slug: anilist-oauth2-api
 - baseURL: https://graphql.anilist.co
   baseurl_source: declared
-  description: OAuth2 authorization code and implicit grant endpoints
-  name: AniList OAuth2 API
-  slug: anilist-oauth2-api
+  description: GraphQL query and mutation endpoint
+  name: AniList Graph QL API
+  slug: anilist-graph-ql-api
 artifact_total: 125
 collections:
 - collection_type: open
@@ -497,14 +497,14 @@ modified: '2026-05-30'
 name: AniList
 nav: Providers
 network: true
-overview: 'AniList publishes 2 APIs on the [APIs.io](https://apis.io/) network: GraphQL API and OAuth2 API. Tagged areas include Anime, Manga, Entertainment, Media, and Social.
+overview: 'AniList publishes 2 APIs on the [APIs.io](https://apis.io/) network: O Auth2 API and Graph QL API. Tagged areas include Anime, Manga, Entertainment, Media, and Social.
 
 
   The AniList catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
   AniList''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, developer console, sandbox, and 22 more developer resources.'
-random_paper: 0
+random_paper: 8
 rules:
 - effective_rule_count: 5
   extends: []
@@ -534,7 +534,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.7
+  composite: 40.5
   coverage:
     artifact_dirs: 19
     catalog_earned: 55.5
@@ -542,11 +542,11 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 38.2
     contract_governance: 13.6
-    contract_quality: 29.1
+    contract_quality: 28.5
     developer_ergonomics: 71.4
     discoverability: 81.5
     operational_transparency: 18.4
@@ -559,7 +559,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

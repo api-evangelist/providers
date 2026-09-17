@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 3
@@ -62,11 +62,6 @@ apis:
   slug: finos-admin-api
 - baseURL: https://yourpodURL.symphony.com/pod
   baseurl_source: spec
-  description: The AppEntitlement API from FINOS — 2 operation(s) for appentitlement.
-  name: FINOS AppEntitlement API
-  slug: finos-appentitlement-api
-- baseURL: https://yourpodURL.symphony.com/pod
-  baseurl_source: spec
   description: The Application API from FINOS — 4 operation(s) for application.
   name: FINOS Application API
   slug: finos-application-api
@@ -75,11 +70,6 @@ apis:
   description: The Attachments API from FINOS — 1 operation(s) for attachments.
   name: FINOS Attachments API
   slug: finos-attachments-api
-- baseURL: youragentURL.symphony.com/agent
-  baseurl_source: spec
-  description: The AuditTrail API from FINOS — 1 operation(s) for audittrail.
-  name: FINOS AuditTrail API
-  slug: finos-audittrail-api
 - description: The CertificateAuthentication API from FINOS — 2 operation(s) for certificateauthentication.
   name: FINOS CertificateAuthentication API
   slug: finos-certificateauthentication-api
@@ -91,11 +81,6 @@ apis:
   description: The Connection API from FINOS — 6 operation(s) for connection.
   name: FINOS Connection API
   slug: finos-connection-api
-- baseURL: youragentURL.symphony.com/agent
-  baseurl_source: spec
-  description: The Datafeed API from FINOS — 3 operation(s) for datafeed.
-  name: FINOS Datafeed API
-  slug: finos-datafeed-api
 - baseURL: youragentURL.symphony.com/agent
   baseurl_source: spec
   description: The Datahose API from FINOS — 1 operation(s) for datahose.
@@ -201,6 +186,21 @@ apis:
   description: The Violations API from FINOS — 7 operation(s) for violations.
   name: FINOS Violations API
   slug: finos-violations-api
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The App Entitlement API from FINOS — 2 operation(s) for app entitlement.
+  name: FINOS App Entitlement API
+  slug: finos-app-entitlement-api
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Audit Trail API from FINOS — 1 operation(s) for audit trail.
+  name: FINOS Audit Trail API
+  slug: finos-audit-trail-api
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Data Feed API from FINOS — 3 operation(s) for data feed.
+  name: FINOS Data Feed API
+  slug: finos-data-feed-api
 artifact_total: 73
 collections:
 - collection_type: open
@@ -381,7 +381,7 @@ modified: '2026-05-19'
 name: FINOS
 nav: Providers
 network: true
-overview: 'FINOS publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Admin API, AppEntitlement API, Application API, and 27 more. Tagged areas include Financial-Services, Fintech, Linux Foundation, and Open-Source.
+overview: 'FINOS publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Application API, Attachments API, and 27 more. Tagged areas include Financial-Services, Fintech, Linux Foundation, and Open-Source.
 
 
   FINOS''s developer surface includes documentation, engineering blog, and 13 more developer resources.'
@@ -389,14 +389,14 @@ plans:
 - name: Finos Plans Pricing
   plan_count: 5
   slug: finos-plans-pricing
-random_paper: 18
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Finos Rate Limits
   slug: finos-rate-limits
 score:
   band: thin
-  composite: 28.9
+  composite: 29.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 39.0
@@ -404,11 +404,11 @@ score:
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 46.0
+    contract_quality: 48.5
     developer_ergonomics: 21.4
     discoverability: 55.6
     operational_transparency: 39.5
@@ -421,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 30
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

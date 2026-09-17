@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -59,16 +59,6 @@ apis:
   description: The Activity API from PracticePanther — 2 operation(s) for activity.
   name: PracticePanther Activity API
   slug: practicepanther-activity-api
-- baseURL: https://app.practicepanther.com
-  baseurl_source: declared
-  description: The CustomField API from PracticePanther — 1 operation(s) for customfield.
-  name: PracticePanther CustomField API
-  slug: practicepanther-customfield-api
-- baseURL: https://app.practicepanther.com
-  baseurl_source: declared
-  description: The EmailTemplate API from PracticePanther — 1 operation(s) for emailtemplate.
-  name: PracticePanther EmailTemplate API
-  slug: practicepanther-emailtemplate-api
 - baseURL: https://app.practicepanther.com
   baseurl_source: declared
   description: The Expense API from PracticePanther — 2 operation(s) for expense.
@@ -111,19 +101,9 @@ apis:
   slug: practicepanther-relationship-api
 - baseURL: https://app.practicepanther.com
   baseurl_source: declared
-  description: The SalesTax API from PracticePanther — 2 operation(s) for salestax.
-  name: PracticePanther SalesTax API
-  slug: practicepanther-salestax-api
-- baseURL: https://app.practicepanther.com
-  baseurl_source: declared
   description: The Tag API from PracticePanther — 1 operation(s) for tag.
   name: PracticePanther Tag API
   slug: practicepanther-tag-api
-- baseURL: https://app.practicepanther.com
-  baseurl_source: declared
-  description: The TimeEntry API from PracticePanther — 2 operation(s) for timeentry.
-  name: PracticePanther TimeEntry API
-  slug: practicepanther-timeentry-api
 - baseURL: https://app.practicepanther.com
   baseurl_source: declared
   description: The User API from PracticePanther — 1 operation(s) for user.
@@ -191,11 +171,6 @@ apis:
   slug: practicepanther-v1depositslipspdf-api
 - baseURL: https://app.practicepanther.com
   baseurl_source: declared
-  description: The V1Expenses API from PracticePanther — 1 operation(s) for v1expenses.
-  name: PracticePanther V1Expenses API
-  slug: practicepanther-v1expenses-api
-- baseURL: https://app.practicepanther.com
-  baseurl_source: declared
   description: The V1FirmPayments API from PracticePanther — 6 operation(s) for v1firmpayments.
   name: PracticePanther V1FirmPayments API
   slug: practicepanther-v1firmpayments-api
@@ -244,6 +219,31 @@ apis:
   description: The V1TrustbooksOnboardingNotifications API from PracticePanther — 1 operation(s) for v1trustbooksonboardingnotifications.
   name: PracticePanther V1TrustbooksOnboardingNotifications API
   slug: practicepanther-v1trustbooksonboardingnotifications-api
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Custom Field API from PracticePanther — 1 operation(s) for custom field.
+  name: PracticePanther Custom Field API
+  slug: practicepanther-custom-field-api
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Email Template API from PracticePanther — 1 operation(s) for email template.
+  name: PracticePanther Email Template API
+  slug: practicepanther-email-template-api
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Sales tax API from PracticePanther — 2 operation(s) for sales tax.
+  name: PracticePanther Sales tax API
+  slug: practicepanther-sales-tax-api
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The Time entry API from PracticePanther — 2 operation(s) for time entry.
+  name: PracticePanther Time entry API
+  slug: practicepanther-time-entry-api
+- baseURL: https://app.practicepanther.com
+  baseurl_source: declared
+  description: The v1 - Expenses API from PracticePanther — 1 operation(s) for v1 - expenses.
+  name: PracticePanther v1 - Expenses API
+  slug: practicepanther-v1-expenses-api
 artifact_total: 110
 collections:
 - collection_type: open
@@ -538,7 +538,7 @@ plans:
 - name: Practicepanther Plans Pricing
   plan_count: 4
   slug: practicepanther-plans-pricing
-random_paper: 1
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Practicepanther Rate Limits
@@ -561,7 +561,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 38.3
+  composite: 38.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 63.3
@@ -569,11 +569,11 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 53.0
+    contract_quality: 55.6
     developer_ergonomics: 23.8
     discoverability: 59.3
     operational_transparency: 15.8
@@ -586,7 +586,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

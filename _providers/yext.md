@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - baseURL: https://api.yextapis.com/v2
   baseurl_source: declared
   description: 'NOTE: You need a sandbox account to test your Administrative API integration. Contact your Account Manager to have one created for you.'
-  name: Yext Administrative API API
+  name: Yext Administrative API
   slug: yext-administrative-api-api
 - baseURL: https://api.yextapis.com/v2
   baseurl_source: declared
@@ -83,7 +83,7 @@ apis:
 - baseURL: https://api.yextapis.com/v2
   baseurl_source: declared
   description: The Content API API from Yext — 2 operation(s) for content api.
-  name: Yext Content API API
+  name: Yext Content API
   slug: yext-content-api-api
 - baseURL: https://api.yextapis.com/v2
   baseurl_source: declared
@@ -118,7 +118,7 @@ apis:
 - baseURL: https://api.yextapis.com/v2
   baseurl_source: declared
   description: The Live API API from Yext — 21 operation(s) for live api.
-  name: Yext Live API API
+  name: Yext Live API
   slug: yext-live-api-api
 - baseURL: https://api.yextapis.com/v2
   baseurl_source: declared
@@ -339,11 +339,11 @@ jsonld:
   property_count: 75
   slug: yext-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Yext
 nav: Providers
 network: true
-overview: 'Yext publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Accounts API, Administrative API API, and 19 more. Tagged areas include Digital Presence, Business Listings, Location Data, Reviews, and AI Search.
+overview: 'Yext publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Accounts API, Administrative API, and 19 more. Tagged areas include Digital Presence, Business Listings, Location Data, Reviews, and AI Search.
 
 
   The Yext catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -354,7 +354,7 @@ plans:
 - name: Yext Plans Pricing
   plan_count: 5
   slug: yext-plans-pricing
-random_paper: 17
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Yext Rate Limits
@@ -398,7 +398,7 @@ score:
       total: 24
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

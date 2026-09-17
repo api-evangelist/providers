@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -45,16 +45,6 @@ agentic_access:
   summary_line: 70 operations · 32 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://api.givebutter.com/v1
-  baseurl_source: declared
-  description: The Givebutter API is a REST API for the Givebutter fundraising and donor-management platform. It is organized around resources, speaks JSON, and authenticates with an account-level Bearer API key. Gi
-  name: Givebutter
-  slug: givebutter
-- baseURL: https://api.givebutter.com/v1
-  baseurl_source: declared
-  description: The Campaign Discount Codes API from Givebutter — 5 operation(s) for campaign discount codes. Split by tag from Givebutter's own published OpenAPI at https://givebutter.com/docs/api.json (harvested 20
-  name: Givebutter Campaign Discount Codes API
-  slug: givebutter-discount-codes-api
 - baseURL: https://api.givebutter.com/v1
   baseurl_source: declared
   description: The Campaign Members API from Givebutter — 3 operation(s) for campaign members. Split by tag from Givebutter's own published OpenAPI at https://givebutter.com/docs/api.json (harvested 2026-09-12).
@@ -122,11 +112,6 @@ apis:
   slug: givebutter-pledges-api
 - baseURL: https://api.givebutter.com/v1
   baseurl_source: declared
-  description: The Recurring Plans API from Givebutter — 2 operation(s) for recurring plans. Split by tag from Givebutter's own published OpenAPI at https://givebutter.com/docs/api.json (harvested 2026-09-12).
-  name: Givebutter Recurring Plans API
-  slug: givebutter-plans-api
-- baseURL: https://api.givebutter.com/v1
-  baseurl_source: declared
   description: The Sso Accounts API from Givebutter — 1 operation(s) for sso accounts. Split by tag from Givebutter's own published OpenAPI at https://givebutter.com/docs/api.json (harvested 2026-09-12).
   name: Givebutter Sso Accounts API
   slug: givebutter-sso-accounts-api
@@ -155,7 +140,17 @@ apis:
   description: The Webhooks API from Givebutter — 5 operation(s) for webhooks. Split by tag from Givebutter's own published OpenAPI at https://givebutter.com/docs/api.json (harvested 2026-09-12).
   name: Givebutter Webhooks API
   slug: givebutter-webhooks-api
-artifact_total: 44
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Campaign Discount Codes API from Givebutter — 2 operation(s) for campaign discount codes.
+  name: Givebutter Campaign Discount Codes API
+  slug: givebutter-campaign-discount-codes-api
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Recurring Plans API from Givebutter — 2 operation(s) for recurring plans.
+  name: Givebutter Recurring Plans API
+  slug: givebutter-recurring-plans-api
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Givebutter Webhooks
@@ -195,6 +190,10 @@ collections:
   name: Givebutter API
   slug: open-givebutter
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.givebutter.com/mcp
 - group: company
   title: ''
   type: Website
@@ -377,6 +376,10 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/givebutter
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:support@givebutter.com
 created: '2025-01-07'
 description: Givebutter is a fundraising and donor-management platform for nonprofits, offering donation forms, fundraising pages, events, auctions and a donor CRM at no subscription cost. It publishes a public REST API at api.givebutter.com/v1 described by its own OpenAPI 3.1 (70 operations across campaigns, contacts, households, transactions, funds, payouts, recurring plans, pledges, messages and webhooks), an embeddable widgets library of custom elements, a hosted MCP server at mcp.givebutter.com protected by OAuth 2.1, an A2A agent card and a provider-authored agent skill.
 finops:
@@ -396,18 +399,18 @@ modified: '2026-09-12'
 name: Givebutter
 nav: Providers
 network: true
-overview: 'Givebutter publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Givebutter, Campaign Discount Codes API, Campaign Members API, and 19 more. Tagged areas include Donations, Fundraising, Non-Profit, CRM, and Payments.
+overview: 'Givebutter publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Campaign Members API, Campaign Teams API, Campaign Tickets API, and 18 more. Tagged areas include Donations, Fundraising, Non-Profit, CRM, and Payments.
 
 
   The Givebutter catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Givebutter''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, support, engineering blog, and 33 more developer resources.'
+  Givebutter''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, support, engineering blog, and 35 more developer resources.'
 plans:
 - name: Givebutter Plans Pricing
   plan_count: 2
   slug: givebutter-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Givebutter Rate Limits
@@ -419,7 +422,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.7
+  composite: 69.1
   coverage:
     artifact_dirs: 25
     catalog_earned: 56.0
@@ -427,11 +430,11 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.6
   facets:
     access_clarity: 89.5
     contract_governance: 18.2
-    contract_quality: 64.1
+    contract_quality: 61.8
     developer_ergonomics: 71.4
     discoverability: 75.9
     operational_transparency: 39.5
@@ -453,7 +456,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

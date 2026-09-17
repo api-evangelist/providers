@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,7 +82,7 @@ modified: '2026-07-18'
 name: Blindmate
 nav: Providers
 network: true
-overview: 'Blindmate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dating, Social, Matchmaking, and Mobile Apps.
+overview: 'Blindmate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dating, Social, Matchmaking, and Mobile App.
 
 
   Blindmate''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
@@ -107,7 +107,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -129,7 +129,7 @@ tags:
 - Dating
 - Social
 - Matchmaking
-- Mobile Apps
+- Mobile App
 - Consumer
 - Privacy
 website: https://blindmate.app

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 46.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
 - baseURL: https://logging.googleapis.com
   baseurl_source: declared
   description: The Google Cloud Logging API API from Google Cloud Logging — 1 operation(s) for google cloud logging api.
-  name: Google Cloud Logging Google Cloud Logging API API
+  name: Google Cloud Logging Google Cloud Logging API
   slug: google-cloud-logging-google-cloud-logging-api-api
 - baseURL: https://logging.googleapis.com
   baseurl_source: declared
@@ -384,7 +384,7 @@ mcp_servers:
 - description: ''
   name: Cloud Logging MCP server
   slug: cloud-logging-mcp-server
-modified: '2026-09-12'
+modified: '2026-09-16'
 name: Google Cloud Logging
 nav: Providers
 network: true
@@ -396,7 +396,7 @@ plans:
 - name: Google Cloud Logging Plans Pricing
   plan_count: 1
   slug: google-cloud-logging-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 8
   name: Google Cloud Logging Rate Limits
@@ -436,7 +436,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

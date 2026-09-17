@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 18
 apis:
 - description: 'Naver Search API returns search results across Naver''s catalogs: blog, news, book, encyclopedia, café article, knowledge-in (Kin), web document, image, shopping product, and academic document. Each ca'
@@ -189,7 +189,7 @@ plans:
 - name: Naver Plans Pricing
   plan_count: 1
   slug: naver-plans-pricing
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Naver Rate Limits
@@ -227,7 +227,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -246,7 +246,7 @@ tags:
 - Maps
 - Cloud Platform
 - Artificial Intelligence
-- Korea
+- South Korea
 - Authentication
 - SMS
 - OCR

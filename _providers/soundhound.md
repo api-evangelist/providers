@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Houndify platform provides HTTP and WebSocket APIs that accept text or audio queries and return actionable JSON responses. Built on SoundHound's Speech-to-Meaning and Deep Meaning Understanding te
@@ -44,6 +44,10 @@ apis:
   slug: soundhound-music-fingerprint-identification-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://soundhound.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/security/soundhound-domain-security.yml
   title: ''
@@ -101,14 +105,14 @@ finops:
   slug: soundhound
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soundhound.png
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: SoundHound
 nav: Providers
 network: true
 overview: 'SoundHound publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Voice AI, Conversational AI, Music Recognition, Audio Intelligence, and Speech Recognition.
 
 
-  SoundHound''s developer surface includes engineering blog, GitHub presence, signup flow, and 9 more developer resources.'
+  SoundHound''s developer surface includes engineering blog, GitHub presence, signup flow, and 10 more developer resources.'
 plans:
 - name: Houndify Voice Ai
   plan_count: 2
@@ -116,7 +120,7 @@ plans:
 - name: Music Id
   plan_count: 2
   slug: music-id
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Houndify Voice Ai
@@ -144,7 +148,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -164,4 +168,5 @@ tags:
 - Audio Intelligence
 - Speech Recognition
 - Natural Language Processing
+website: https://soundhound.com
 ---

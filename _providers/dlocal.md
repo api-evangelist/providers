@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -524,7 +524,7 @@ modified: 2026-06-13
 name: dLocal
 nav: Providers
 network: true
-overview: 'dLocal publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Payouts API, Accounts API, Balance API, and 12 more. Tagged areas include Payments, Emerging Markets, Payins, Payouts, and Fintech.
+overview: 'dLocal publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Payouts API, Accounts API, Balance API, and 12 more. Tagged areas include Payments, Emerging Markets, Pay-In, Payouts, and Fintech.
 
 
   The dLocal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -535,7 +535,7 @@ plans:
 - name: Dlocal Plans Pricing
   plan_count: 1
   slug: dlocal-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Dlocal Rate Limits
@@ -602,7 +602,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -621,7 +621,7 @@ slug: dlocal
 tags:
 - Payments
 - Emerging Markets
-- Payins
+- Pay-In
 - Payouts
 - Fintech
 - Latin America

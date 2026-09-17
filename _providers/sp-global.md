@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 63.7
-  scored_at: '2026-09-15'
+  score: 66.2
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -84,7 +84,12 @@ apis:
 - description: Data and analytics catalog spanning S&P Global business units (Market Intelligence, Ratings, Commodity Insights/Platts, Mobility, Sustainable1, Indices, Dow Jones) plus third-party vendors. Distributi
   name: S&P Global Marketplace
   slug: sp-marketplace
-artifact_total: 220
+- baseURL: https://kfinance.kensho.com
+  baseurl_source: declared
+  description: The Funding Rounds API from S&P Global — 2 operation(s) for funding rounds.
+  name: S&P Global Funding Rounds API
+  slug: sp-global-funding-rounds-api
+artifact_total: 221
 asyncapis:
 - description: Real-time streaming transcription WebSocket API from Kensho Technologies (a wholly-owned S&P Global subsidiary). Companion to the Kensho Scribe v2 batch REST API. Streams uncompressed PCM audio chunks
   name: Kensho Scribe Real Time API
@@ -873,7 +878,7 @@ modified: '2026-07-22'
 name: S&P Global
 nav: Providers
 network: true
-overview: 'S&P Global publishes 6 APIs on the [APIs.io](https://apis.io/) network, including LLM-Ready API (kFinance), Kensho Extract API, Kensho NERD API, and 3 more. Tagged areas include Capital IQ, Commodity Insights, Credit Ratings, Document Extraction, and ESG.
+overview: 'S&P Global publishes 7 APIs on the [APIs.io](https://apis.io/) network, including LLM-Ready API (kFinance), Kensho Extract API, Kensho NERD API, and 4 more. Tagged areas include Capital IQ, Commodity Insights, Credit Ratings, Document Extraction, and ESG.
 
 
   The S&P Global catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -884,7 +889,7 @@ plans:
 - name: Sp Global Plans Pricing
   plan_count: 7
   slug: sp-global-plans-pricing
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Sp Global Rate Limits
@@ -929,7 +934,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode/refresh_token
 score:
   band: strong
-  composite: 65.7
+  composite: 66.3
   coverage:
     artifact_dirs: 31
     catalog_earned: 70.5
@@ -937,11 +942,11 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 67.1
     contract_governance: 47.0
-    contract_quality: 69.8
+    contract_quality: 72.5
     developer_ergonomics: 89.3
     discoverability: 72.2
     operational_transparency: 36.8
@@ -957,7 +962,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

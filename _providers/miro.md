@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -191,11 +191,6 @@ apis:
   slug: miro-mind-map-nodes-experimental-api
 - baseURL: https://api.miro.com/v2
   baseurl_source: declared
-  description: The OAuth API from Miro — 1 operation(s) for oauth.
-  name: Miro OAuth API
-  slug: miro-oauth-api
-- baseURL: https://api.miro.com/v2
-  baseurl_source: declared
   description: The Organization Members API from Miro — 2 operation(s) for organization members.
   name: Miro Organization Members API
   slug: miro-organization-members-api
@@ -299,6 +294,11 @@ apis:
   description: The User groups API from Miro — 2 operation(s) for user groups.
   name: Miro User groups API
   slug: miro-user-groups-api
+- baseURL: https://api.miro.com/v2
+  baseurl_source: declared
+  description: The OAuth API from Miro — 1 operation(s) for oauth.
+  name: Miro O Auth API
+  slug: miro-oauth-api
 artifact_total: 112
 collections:
 - collection_type: open
@@ -550,7 +550,7 @@ plans:
 - name: Miro Plans Pricing
   plan_count: 4
   slug: miro-plans-pricing
-random_paper: 19
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Miro Rate Limits
@@ -562,21 +562,21 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.8
+  composite: 34.7
   coverage:
     artifact_dirs: 11
-    catalog_earned: 33.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 82.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 60.1
     developer_ergonomics: 27.4
-    discoverability: 44.4
+    discoverability: 63.0
     operational_transparency: 13.2
   previous_composite: 32.8
   provenance:
@@ -587,7 +587,7 @@ score:
       marker_coverage: 0.0
       total: 51
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ press:
 - date: '2026-05-25'
   title: Healthcare's Quiet AI Boom Is Creating a New Class of ...
   url: https://www.prnewswire.com/news-releases/healthcares-quiet-ai-boom-is-creating-a-new-class-of-breakout-contenders-302465869.html
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Aptargroup Rate Limits
@@ -249,7 +249,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

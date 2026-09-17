@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Porsche ID API Portal is where Porsche AG publishes and manages the APIs that integrate Porsche ID, its customer identity platform. It is not a public API programme: the portal''s own FAQ states "W'
@@ -184,7 +184,7 @@ plans:
 - name: Porsche Plans Pricing
   plan_count: 0
   slug: porsche-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Porsche Rate Limits
@@ -226,7 +226,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -255,7 +255,7 @@ tags:
 - Connected Car
 - Identity
 - OpenID Connect
-- Design System
+- Design Systems
 - Open-Source
 - Germany
 website: https://www.porsche.com/

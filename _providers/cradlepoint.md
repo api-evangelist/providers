@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -62,19 +62,9 @@ apis:
   slug: cradlepoint-accounts-api
 - baseURL: https://www.cradlepointecm.com/api/v2/
   baseurl_source: declared
-  description: Audit / activity logs across accounts
-  name: Cradlepoint ActivityLogs API
-  slug: cradlepoint-activitylogs-api
-- baseURL: https://www.cradlepointecm.com/api/v2/
-  baseurl_source: declared
   description: Outbound webhook destinations for alert delivery
   name: Cradlepoint AlertPushDestinations API
   slug: cradlepoint-alertpushdestinations-api
-- baseURL: https://www.cradlepointecm.com/api/v2/
-  baseurl_source: declared
-  description: Alert monitoring rule configuration
-  name: Cradlepoint AlertRules API
-  slug: cradlepoint-alertrules-api
 - baseURL: https://www.cradlepointecm.com/api/v2/
   baseurl_source: declared
   description: Generated alerts
@@ -100,6 +90,16 @@ apis:
   description: Router (edge device) management
   name: Cradlepoint Routers API
   slug: cradlepoint-routers-api
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Audit / activity logs across accounts
+  name: Cradlepoint Activity Logs API
+  slug: cradlepoint-activity-logs-api
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Alert monitoring rule configuration
+  name: Cradlepoint Alert Rules API
+  slug: cradlepoint-alert-rules-api
 artifact_total: 37
 collections:
 - collection_type: open
@@ -301,7 +301,7 @@ modified: '2026-05-25'
 name: Cradlepoint
 nav: Providers
 network: true
-overview: 'Cradlepoint publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ActivityLogs API, AlertPushDestinations API, and 6 more. Tagged areas include Wireless WAN, 5G, LTE, Edge, and Branch Networking.
+overview: 'Cradlepoint publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AlertPushDestinations API, Alerts API, and 6 more. Tagged areas include Wireless WAN, 5G, LTE, Edge, and Branch Networking.
 
 
   The Cradlepoint catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -312,7 +312,7 @@ plans:
 - name: Cradlepoint Plans Pricing
   plan_count: 5
   slug: cradlepoint-plans-pricing
-random_paper: 18
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Cradlepoint Rate Limits
@@ -371,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 5
+- acting_count: 16
   human_in_the_loop: 0
   name: Power Platform Agentic Access
-  operation_count: 13
+  operation_count: 40
   slug: power-platform-agentic-access
-  summary_line: 13 operations · 5 acting
+  summary_line: 40 operations · 16 acting
 api_count: 2
 apis:
 - description: OData v4.0 compliant Web API for Microsoft Dataverse, providing RESTful data storage, business logic, and entity management capabilities across the Power Platform.
@@ -99,12 +99,32 @@ apis:
 - description: The unified REST API for Power Platform administration, at https://api.powerplatform.com/{namespace}/{resource}?api-version={version}. Namespaces include licensing, appmanagement, environmentmanagemen
   name: Power Platform API
   slug: power-platform-api
-- baseURL: https://management.azure.com/
+- baseURL: https://[org].api.crm.dynamics.com/api/data/v9.2
   baseurl_source: declared
-  description: The Microsoft.PowerPlatform Azure Resource Manager provider - 19 operations over enterprisePolicies, accounts, privateEndpointConnections and privateLinkResources, covering customer-managed encryption
-  name: Power Platform Enterprise Policies (Azure Resource Manager)
-  slug: microsoft-power-platform-enterprise-policies
-artifact_total: 157
+  description: The Accounts API from Microsoft Power Platform APIs — 3 operation(s) for accounts.
+  name: Microsoft Power Platform APIs Accounts API
+  slug: power-platform-accounts-api
+- baseURL: https://[org].api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: The EnterprisePolicies API from Microsoft Power Platform APIs — 3 operation(s) for enterprisepolicies.
+  name: Microsoft Power Platform APIs Enterprise Policies API
+  slug: power-platform-enterprisepolicies-api
+- baseURL: https://[org].api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: The Operations API from Microsoft Power Platform APIs — 1 operation(s) for operations.
+  name: Microsoft Power Platform APIs Operations API
+  slug: power-platform-operations-api
+- baseURL: https://[org].api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: The PrivateLinkResources API from Microsoft Power Platform APIs — 2 operation(s) for privatelinkresources.
+  name: Microsoft Power Platform APIs Private Link Resources API
+  slug: power-platform-privatelinkresources-api
+- baseURL: https://[org].api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: declared
+  description: The Private Endpoint Connections API from Microsoft Power Platform APIs — 2 operation(s) for private endpoint connections.
+  name: Microsoft Power Platform APIs Private Endpoint Connections API
+  slug: power-platform-private-endpoint-connections-api
+artifact_total: 161
 asyncapis:
 - description: ''
   name: Power Platform Webhooks
@@ -141,6 +161,11 @@ collections:
   name: Microsoft Power Platform REST Applications Licensing API
   slug: open-power-platform-licensing-api
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/skills/power-platform-enterprise-policy-governance.md
+  title: ''
+  type: AgentSkill
+  url: skills/power-platform-enterprise-policy-governance.md
 - group: start
   title: ''
   type: Portal
@@ -654,18 +679,18 @@ modified: '2026-05-19'
 name: Microsoft Power Platform APIs
 nav: Providers
 network: true
-overview: 'Microsoft Power Platform APIs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Environments API, Flow Runs API, and 4 more. Tagged areas include Business Applications, Copilot Studio, Dataverse, Low-Code, and Microsoft.
+overview: 'Microsoft Power Platform APIs publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Environments API, Flow Runs API, and 8 more. Tagged areas include Business Applications, Copilot Studio, Dataverse, Low-Code, and Microsoft.
 
 
   The Microsoft Power Platform APIs catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Platform APIs'' developer surface includes developer portal, pricing, getting-started guide, signup flow, CLI, changelog, sandbox, and 45 more developer resources.'
+  Microsoft Power Platform APIs'' developer surface includes developer portal, pricing, getting-started guide, signup flow, CLI, changelog, sandbox, and 46 more developer resources.'
 plans:
 - name: Power Platform Plans Pricing
   plan_count: 9
   slug: power-platform-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 10
   name: Power Platform Rate Limits
@@ -699,7 +724,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 76.4
+  composite: 75.9
   coverage:
     artifact_dirs: 34
     catalog_earned: 50.5
@@ -707,11 +732,11 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 76.3
     contract_governance: 31.8
-    contract_quality: 71.5
+    contract_quality: 69.2
     developer_ergonomics: 83.9
     discoverability: 66.7
     operational_transparency: 65.8
@@ -726,7 +751,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -736,7 +761,7 @@ score:
     regime_id: energy_utilities
     score: 71.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

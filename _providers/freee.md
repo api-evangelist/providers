@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ modified: '2026-07-12'
 name: freee
 nav: Providers
 network: true
-overview: 'freee publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account Items API, Attendance API, Companies API, and 9 more. Tagged areas include Accounting, Bookkeeping, HR, Payroll, and Invoicing.
+overview: 'freee publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account Items API, Attendance API, Companies API, and 9 more. Tagged areas include Accounting, Bookkeeping, Human Resources, Payroll, and Invoicing.
 
 
   freee''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -215,7 +215,7 @@ plans:
 - name: Freee Plans Pricing
   plan_count: 5
   slug: freee-plans-pricing
-random_paper: 15
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Freee Rate Limits
@@ -254,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -273,7 +273,7 @@ slug: freee
 tags:
 - Accounting
 - Bookkeeping
-- HR
+- Human Resources
 - Payroll
 - Invoicing
 - Finance

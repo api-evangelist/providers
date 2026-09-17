@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   slug: cyberark-policies-api
 - baseURL: https://conjur.example.com
   baseurl_source: declared
-  description: Retrieve public keys associated with users and hosts.
-  name: CyberArk PublicKeys API
-  slug: cyberark-publickeys-api
-- baseURL: https://conjur.example.com
-  baseurl_source: declared
   description: Inspect resources (hosts, users, groups, layers, variables) and check permissions.
   name: CyberArk Resources API
   slug: cyberark-resources-api
@@ -90,6 +85,11 @@ apis:
   description: Store and retrieve secret values bound to variable resources.
   name: CyberArk Secrets API
   slug: cyberark-secrets-api
+- baseURL: https://conjur.example.com
+  baseurl_source: declared
+  description: Retrieve public keys associated with users and hosts.
+  name: CyberArk Public Keys API
+  slug: cyberark-public-keys-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -264,7 +264,7 @@ plans:
 - name: Cyberark Plans Pricing
   plan_count: 4
   slug: cyberark-plans-pricing
-random_paper: 11
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Cyberark Rate Limits
@@ -318,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

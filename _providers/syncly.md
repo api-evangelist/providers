@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -136,10 +136,10 @@ common:
   type: Security
   url: https://syncly.app/security
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/syncly-social-mcp-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/_original/syncly-social-mcp-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/syncly-social-mcp-openapi.json
+  url: openapi/_original/syncly-social-mcp-openapi.json
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/mcp/syncly-tool-crosswalk.yml
   title: ''
@@ -198,7 +198,7 @@ mcp_servers:
 - description: ''
   name: Syncly Social MCP Server
   slug: syncly-social-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Syncly
 nav: Providers
 network: true
@@ -210,7 +210,7 @@ plans:
 - name: Syncly Plans Pricing
   plan_count: 3
   slug: syncly-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Syncly Rate Limits
@@ -250,7 +250,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,9 +65,9 @@ apis:
   slug: quarkus-metrics-api
 - baseURL: http://localhost:8080
   baseurl_source: spec
-  description: The OpenAPI API from Quarkus — 2 operation(s) for openapi.
-  name: Quarkus OpenAPI API
-  slug: quarkus-openapi-api
+  description: The Open API API from Quarkus — 2 operation(s) for open api.
+  name: Quarkus Open API
+  slug: quarkus-open-api-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -159,7 +159,7 @@ modified: '2026-05-19'
 name: Quarkus
 nav: Providers
 network: true
-overview: 'Quarkus publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Dev UI API, Health API, Info API, and 2 more. Tagged areas include Cloud-Native, Frameworks, GraalVM, Java, and Kubernetes.
+overview: 'Quarkus publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Dev UI API, Health API, Info API, and 2 more. Tagged areas include Cloud-Native, Framework, GraalVM, Java, and Kubernetes.
 
 
   The Quarkus catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -170,7 +170,7 @@ plans:
 - name: Quarkus Plans Pricing
   plan_count: 3
   slug: quarkus-plans-pricing
-random_paper: 3
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Quarkus Rate Limits
@@ -213,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -240,7 +240,7 @@ skills:
 slug: quarkus
 tags:
 - Cloud-Native
-- Frameworks
+- Framework
 - GraalVM
 - Java
 - Kubernetes

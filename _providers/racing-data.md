@@ -33,13 +33,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Developer API for real-time and historical motorsports data across multiple racing series.
   name: Racing Data
   slug: racing-data
 artifact_total: 4
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://racing-data.org
 created: '2025-02-06'
 description: Racing Data is a developer-focused API providing real-time updates and historical statistics across racing series, including Formula One, IndyCar, and others. It is intended for building custom data sets and analytics experiences on top of motorsports data.
 finops:
@@ -48,7 +53,7 @@ finops:
   slug: racing-data-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/racing-data.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Racing Data
 nav: Providers
 network: true
@@ -57,7 +62,7 @@ plans:
 - name: Racing Data Plans Pricing
   plan_count: 3
   slug: racing-data-plans-pricing
-random_paper: 12
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Racing Data Rate Limits
@@ -82,7 +87,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -96,4 +101,5 @@ tags:
 - Racing
 - Statistics
 - Real-Time Data
+website: https://racing-data.org
 ---

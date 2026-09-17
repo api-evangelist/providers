@@ -19,7 +19,7 @@ name: Durata Therapeutics
 nav: Providers
 network: true
 overview: Durata Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Life Sciences, and Health.
-random_paper: 9
+random_paper: 3
 slug: durata-therapeutics
 tags:
 - Company

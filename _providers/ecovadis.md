@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: 'The EcoVadis API serves as a pivotal link, connecting your systems, applications, or platforms with EcoVadis'' vast repository of sustainability insights. Its primary function is facilitating seamless '
@@ -110,11 +110,11 @@ modified: '2026-07-25'
 name: Ecovadis
 nav: Providers
 network: true
-overview: 'Ecovadis publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Businesses, Environment, Ratings, and Sustainability.
+overview: 'Ecovadis publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Business, Environment, Ratings, and Sustainability.
 
 
   Ecovadis'' developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 6
+random_paper: 10
 score:
   band: emerging
   composite: 11.6
@@ -135,7 +135,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -153,7 +153,7 @@ security:
   summary_line: ISO 27001
 slug: ecovadis
 tags:
-- Businesses
+- Business
 - Environment
 - Ratings
 - Sustainability

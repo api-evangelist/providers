@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,11 +80,16 @@ apis:
   slug: aira-technologies-users-api
 - baseURL: https://aira-technology.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for aira-technology.com URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any post, page, article or event.
-  name: Aira Technologies oEmbed API
-  slug: aira-technologies-oembed-api
+  description: oEmbed 1.0 provider endpoint.
+  name: Aira Technologies o Embed API
+  slug: aira-technologies-o-embed-api
 artifact_total: 15
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aira-technologies/refs/heads/main/overlays/aira-technologies-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aira-technologies-oembed-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -228,12 +233,12 @@ network: true
 overview: 'Aira Technologies publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Articles API, and 7 more. Tagged areas include Company, Telecommunications, Wireless, Artificial Intelligence, and Machine-Learning.
 
 
-  Aira Technologies'' developer surface includes engineering blog, authentication, code examples, and 26 more developer resources.'
+  Aira Technologies'' developer surface includes engineering blog, authentication, code examples, and 27 more developer resources.'
 plans:
 - name: Aira Technologies Plans Pricing
   plan_count: 0
   slug: aira-technologies-plans-pricing
-random_paper: 20
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Aira Technologies Rate Limits
@@ -279,7 +284,7 @@ score:
     regime_id: telecommunications
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

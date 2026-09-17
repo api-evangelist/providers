@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ modified: '2026-07-12'
 name: Shippit
 nav: Providers
 network: true
-overview: 'Shippit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Book API, Label API, Merchant API, and 3 more. Tagged areas include Shipping, Logistics, Fulfillment, Australia, and APAC.
+overview: 'Shippit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Book API, Label API, Merchant API, and 3 more. Tagged areas include Shipping, Logistics, Fulfillment, Australia, and Asia Pacific.
 
 
   Shippit''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -169,7 +169,7 @@ plans:
 - name: Shippit Plans Pricing
   plan_count: 3
   slug: shippit-plans-pricing
-random_paper: 13
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Shippit Rate Limits
@@ -214,7 +214,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -235,11 +235,11 @@ tags:
 - Logistics
 - Fulfillment
 - Australia
-- APAC
+- Asia Pacific
 - Multi-Carrier
 - Labels
 - Tracking
-- Parcels
+- Parcel
 - E-commerce Logistics
 - Software-as-a-Service
 website: https://www.shippit.com

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Reference resources and tooling for SOA governance, service registries, and enterprise service management. Includes patterns for service discovery, versioning, SLA management, and policy enforcement i
@@ -136,7 +136,7 @@ plans:
 - name: Soa Plans Pricing
   plan_count: 3
   slug: soa-plans-pricing
-random_paper: 8
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Soa Rate Limits
@@ -172,7 +172,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 20.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

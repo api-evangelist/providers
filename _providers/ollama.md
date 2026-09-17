@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -381,7 +381,7 @@ modified: '2026-05-19'
 name: Ollama
 nav: Providers
 network: true
-overview: 'Ollama publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Chat API, Chat Completions API, and 8 more. Tagged areas include Artificial Intelligence, Large Language Models, and Models.
+overview: 'Ollama publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Chat API, Chat Completions API, and 8 more. Tagged areas include Artificial Intelligence, LLM, and Models.
 
 
   Ollama''s developer surface includes authentication, documentation, FAQ, signup flow, pricing, GitHub presence, engineering blog, and 46 more developer resources.'
@@ -389,14 +389,14 @@ plans:
 - name: Ollama Plans Pricing
   plan_count: 4
   slug: ollama-plans-pricing
-random_paper: 0
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Ollama Rate Limits
   slug: ollama-rate-limits
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 39.8
   coverage:
     artifact_dirs: 10
     catalog_earned: 31.0
@@ -404,11 +404,11 @@ score:
     catalog_gap: 84.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 47.3
+    contract_quality: 49.9
     developer_ergonomics: 54.8
     discoverability: 40.7
     operational_transparency: 39.5
@@ -421,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -439,7 +439,7 @@ security:
 slug: ollama
 tags:
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Models
 website: https://ollama.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Us Citizenship And Immigration Services Plans Pricing
   plan_count: 3
   slug: us-citizenship-and-immigration-services-plans-pricing
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Us Citizenship And Immigration Services Rate Limits
@@ -208,7 +208,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

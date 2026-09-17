@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.graphiant.com
@@ -259,11 +259,6 @@ apis:
   slug: graphiant-notification-api
 - baseURL: https://api.graphiant.com
   baseurl_source: declared
-  description: The Notificationlist API from Graphiant — 1 operation(s) for notificationlist.
-  name: Graphiant Notificationlist API
-  slug: graphiant-notificationlist-api
-- baseURL: https://api.graphiant.com
-  baseurl_source: declared
   description: The Notificationmutelist API from Graphiant — 4 operation(s) for notificationmutelist.
   name: Graphiant Notificationmutelist API
   slug: graphiant-notificationmutelist-api
@@ -367,6 +362,11 @@ apis:
   description: The Ztagent API from Graphiant — 2 operation(s) for ztagent.
   name: Graphiant Ztagent API
   slug: graphiant-ztagent-api
+- baseURL: https://api.graphiant.com
+  baseurl_source: declared
+  description: The Notification List API from Graphiant — 1 operation(s) for notification list.
+  name: Graphiant Notification List API
+  slug: graphiant-notification-list-api
 artifact_total: 71
 asyncapis:
 - description: ''
@@ -489,10 +489,10 @@ common:
   type: X
   url: https://x.com/graphiant
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/openapi/graphiant-portal-openapi-original.json
+  href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/openapi/_original/graphiant-portal-openapi-original.json
   title: ''
   type: OpenAPI
-  url: openapi/graphiant-portal-openapi-original.json
+  url: openapi/_original/graphiant-portal-openapi-original.json
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/packages/graphiant-packages.yml
   title: ''
@@ -625,7 +625,7 @@ description: Graphiant is a Network-as-a-Service (NaaS) provider that replaces f
   account switching. Graphiant publishes the OpenAPI bundle that generates its open-source Python and Go SDKs, ships a graphiant CLI, and maintains an Ansible collection of NaaS playbooks.
 image: https://cdn.prod.website-files.com/67d32c440becfce0b9a701db/67dd287e7799445a06559bab_favicon.svg
 layout: provider
-modified: '2026-08-01'
+modified: '2026-09-16'
 name: Graphiant
 nav: Providers
 network: true
@@ -636,24 +636,24 @@ overview: 'Graphiant publishes 66 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Graphiant''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 47 more developer resources.'
-random_paper: 13
+random_paper: 12
 score:
   band: strong
-  composite: 58.1
+  composite: 58.8
   coverage:
     artifact_dirs: 20
-    catalog_earned: 34.0
+    catalog_earned: 29.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 81.0
+    catalog_gap: 86.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 51.4
+    contract_quality: 58.1
     developer_ergonomics: 68.5
-    discoverability: 70.4
+    discoverability: 61.1
     operational_transparency: 60.5
   open_source:
     applies: true
@@ -669,7 +669,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

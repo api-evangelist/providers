@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -64,11 +64,6 @@ apis:
   description: Fees applied to bookings and quotes.
   name: OwnerRez Fees API
   slug: ownerrez-fees-api
-- baseURL: https://api.ownerrez.com/v2
-  baseurl_source: declared
-  description: Definitions of custom fields.
-  name: OwnerRez FieldDefinitions API
-  slug: ownerrez-fielddefinitions-api
 - baseURL: https://api.ownerrez.com/v2
   baseurl_source: declared
   description: Custom field values attached to records.
@@ -111,11 +106,6 @@ apis:
   slug: ownerrez-properties-api
 - baseURL: https://api.ownerrez.com/v2
   baseurl_source: declared
-  description: Availability and criteria search across properties.
-  name: OwnerRez PropertySearch API
-  slug: ownerrez-propertysearch-api
-- baseURL: https://api.ownerrez.com/v2
-  baseurl_source: declared
   description: Price quotes generated for a stay.
   name: OwnerRez Quotes API
   slug: ownerrez-quotes-api
@@ -156,9 +146,19 @@ apis:
   slug: ownerrez-users-api
 - baseURL: https://api.ownerrez.com/v2
   baseurl_source: declared
+  description: Definitions of custom fields.
+  name: OwnerRez Field Definitions API
+  slug: ownerrez-field-definitions-api
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
+  description: Availability and criteria search across properties.
+  name: OwnerRez Property Search API
+  slug: ownerrez-property-search-api
+- baseURL: https://api.ownerrez.com/v2
+  baseurl_source: declared
   description: Outbound webhook subscriptions and their event categories.
-  name: OwnerRez WebhookSubscriptions API
-  slug: ownerrez-webhooksubscriptions-api
+  name: OwnerRez Webhook Subscriptions API
+  slug: ownerrez-webhook-subscriptions-api
 artifact_total: 54
 collections:
 - collection_type: open
@@ -306,7 +306,7 @@ modified: '2026-07-03'
 name: OwnerRez
 nav: Providers
 network: true
-overview: 'OwnerRez publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Deposits API, Discounts API, and 20 more. Tagged areas include Vacation Rental, Short-Term Rental, Property Management, Hospitality, and Bookings.
+overview: 'OwnerRez publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Deposits API, Discounts API, and 20 more. Tagged areas include Vacation Rentals, Short-Term Rental, Property Management, Hospitality, and Booking.
 
 
   OwnerRez''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -314,7 +314,7 @@ plans:
 - name: Ownerrez Plans Pricing
   plan_count: 3
   slug: ownerrez-plans-pricing
-random_paper: 10
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Ownerrez Rate Limits
@@ -351,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -368,11 +368,11 @@ security:
   summary_line: TLSv1.2 · DMARC
 slug: ownerrez
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Short-Term Rental
 - Property Management
 - Hospitality
-- Bookings
+- Booking
 - Channel Manager
 website: https://www.ownerrez.com
 ---

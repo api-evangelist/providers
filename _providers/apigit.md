@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 4
 apis:
-- baseURL: https://api.apigit.com/v1
-  baseurl_source: declared
-  description: Manage API definitions and designs.
-  name: APIGit APIs API
-  slug: apigit-apis-api
 - baseURL: https://api.apigit.com/v1
   baseurl_source: declared
   description: Manage dynamic mock servers.
@@ -65,6 +60,11 @@ apis:
   description: Manage API tests.
   name: APIGit Tests API
   slug: apigit-tests-api
+- baseURL: https://api.apigit.com/v1
+  baseurl_source: declared
+  description: Manage API definitions and designs.
+  name: APIGit AP Is API
+  slug: apigit-apis-api
 artifact_total: 38
 collections:
 - collection_type: open
@@ -182,7 +182,7 @@ modified: '2026-05-19'
 name: APIGit
 nav: Providers
 network: true
-overview: 'APIGit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including APIs API, Mocks API, Repositories API, and 1 more. Tagged areas include API Design, API Lifecycle, Developer Tools, Documentation, and Git.
+overview: 'APIGit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Mocks API, Repositories API, Tests API, and 1 more. Tagged areas include API Design, API Lifecycle, Developer Tools, Documentation, and Git.
 
 
   The APIGit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -193,7 +193,7 @@ plans:
 - name: Apigit Plans Pricing
   plan_count: 3
   slug: apigit-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Apigit Rate Limits
@@ -247,7 +247,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

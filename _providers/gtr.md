@@ -25,7 +25,7 @@ name: GTR
 nav: Providers
 network: true
 overview: GTR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accelerator, Mobile Games, Gaming, and Game Publishing.
-random_paper: 18
+random_paper: 3
 slug: gtr
 tags:
 - Company

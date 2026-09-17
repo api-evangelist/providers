@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -130,11 +130,11 @@ modified: '2026-07-28'
 name: Virgin Australia
 nav: Providers
 network: true
-overview: 'Virgin Australia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Australia, Aviation, Airline, and Distribution.
+overview: 'Virgin Australia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Australia, Aviation, Airlines, and Distribution.
 
 
   Virgin Australia''s developer surface includes engineering blog, privacy policy, legal docs, documentation, support, and 15 more developer resources.'
-random_paper: 7
+random_paper: 16
 score:
   band: emerging
   composite: 11.7
@@ -164,7 +164,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -181,7 +181,7 @@ tags:
 - Travel
 - Australia
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - GDS
 - NDC

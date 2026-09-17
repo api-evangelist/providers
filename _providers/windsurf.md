@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,19 +76,10 @@ apis:
   slug: windsurf-usageconfiguration-api
 - baseURL: https://windsurf.com
   baseurl_source: declared
-  description: The UserAnalytics API from Windsurf — 1 operation(s) for useranalytics.
-  name: Windsurf UserAnalytics API
-  slug: windsurf-useranalytics-api
-- description: Code completion and Cascade AI usage analytics
-  name: Windsurf analytics API
-  slug: windsurfrules-analytics-api
-- description: Usage configuration and credit balance management
-  name: Windsurf billing API
-  slug: windsurfrules-billing-api
-- description: Team and user analytics
-  name: Windsurf teams API
-  slug: windsurfrules-teams-api
-artifact_total: 26
+  description: The User Analytics API from Windsurf — 1 operation(s) for user analytics.
+  name: Windsurf User Analytics API
+  slug: windsurf-user-analytics-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -196,7 +187,7 @@ modified: '2026-05-08'
 name: Windsurf
 nav: Providers
 network: true
-overview: 'Windsurf publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CascadeAnalytics API, CreditBalance API, CustomAnalytics API, and 5 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Editor, Agents, and Cascade.
+overview: 'Windsurf publishes 5 APIs on the [APIs.io](https://apis.io/) network, including CascadeAnalytics API, CreditBalance API, CustomAnalytics API, and 2 more. Tagged areas include Artificial Intelligence, Developer Tools, Code Editor, Agents, and Cascade.
 
 
   Windsurf''s developer surface includes authentication, engineering blog, documentation, pricing, API reference, and 11 more developer resources.'
@@ -204,7 +195,7 @@ plans:
 - name: Windsurf Plans Pricing
   plan_count: 1
   slug: windsurf-plans-pricing
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Windsurf Rate Limits
@@ -236,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

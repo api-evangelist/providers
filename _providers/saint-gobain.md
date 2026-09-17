@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'Saint-Gobain is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Saint-Gobain''s developer surface includes GitHub presence and 10 more developer resources.'
-random_paper: 15
+random_paper: 2
 score:
   band: minimal
   composite: 6.4
@@ -121,7 +121,7 @@ score:
     - global
   previous_composite: 6.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

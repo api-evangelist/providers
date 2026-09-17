@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 4.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The single HTTP endpoint VEIR declares in its own RFC 9727 API catalog. It returns veir.com page content as text/markdown for agent consumption. Probed 2026-08-05: it returns HTTP 200 with content-typ'
@@ -140,11 +140,11 @@ modified: '2026-08-05'
 name: VEIR
 nav: Providers
 network: true
-overview: 'VEIR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electricity, Data Centers, and Infrastructure.
+overview: 'VEIR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electricity, Data-Center, and Infrastructure.
 
 
   VEIR''s developer surface includes engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 18
+random_paper: 20
 scopes:
 - name: Veir Scopes
   scope_count: 3
@@ -178,7 +178,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -199,7 +199,7 @@ tags:
 - Company
 - Energy
 - Electricity
-- Data Centers
+- Data-Center
 - Infrastructure
 - Superconductors
 - Content

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://api.gocobalt.io/api/v2
   baseurl_source: declared
   description: Generate hosted portal URLs for linked accounts.
-  name: Cobalt Cobalt Hosted API
+  name: Cobalt Hosted API
   slug: cobalt-cobalt-hosted-api
 - baseURL: https://api.gocobalt.io/api/v2
   baseurl_source: declared
@@ -1378,11 +1378,11 @@ jsonld:
   property_count: 7
   slug: cobalt-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Cobalt
 nav: Providers
 network: true
-overview: 'Cobalt publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Cobalt Hosted API, Config API, and 7 more. Tagged areas include Automation, Embedded iPaaS, and Integration.
+overview: 'Cobalt publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Hosted API, Config API, and 7 more. Tagged areas include Automation, Embedded iPaaS, and Integration.
 
 
   The Cobalt catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1393,7 +1393,7 @@ plans:
 - name: Cobalt Plans Pricing
   plan_count: 3
   slug: cobalt-plans-pricing
-random_paper: 20
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Cobalt Rate Limits
@@ -1447,7 +1447,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

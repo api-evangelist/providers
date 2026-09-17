@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://xentral.xentral.biz
@@ -83,11 +83,6 @@ apis:
   slug: xentral-credit-note-tag-api
 - baseURL: https://xentral.xentral.biz
   baseurl_source: declared
-  description: CreditNote
-  name: Xentral CreditNote API
-  slug: xentral-creditnote-api
-- baseURL: https://xentral.xentral.biz
-  baseurl_source: declared
   description: Represents the address associated with a specific customer, including details such as location, contact information, and address type.
   name: Xentral Customer Address API
   slug: xentral-customer-address-api
@@ -126,11 +121,6 @@ apis:
   description: Delivery Terms
   name: Xentral Delivery Terms API
   slug: xentral-delivery-terms-api
-- baseURL: https://xentral.xentral.biz
-  baseurl_source: declared
-  description: DeliveryNote
-  name: Xentral DeliveryNote API
-  slug: xentral-deliverynote-api
 - baseURL: https://xentral.xentral.biz
   baseurl_source: declared
   description: Get documentation about our data catalog, tables and columns.
@@ -186,11 +176,6 @@ apis:
   description: Returns a collection with all liabilities.
   name: Xentral Liability API
   slug: xentral-liability-api
-- baseURL: https://xentral.xentral.biz
-  baseurl_source: declared
-  description: Manage options for products.
-  name: Xentral Matrixproduct API
-  slug: xentral-matrixproduct-api
 - baseURL: https://xentral.xentral.biz
   baseurl_source: declared
   description: Offer
@@ -313,11 +298,6 @@ apis:
   slug: xentral-purchase-price-api
 - baseURL: https://xentral.xentral.biz
   baseurl_source: declared
-  description: PurchaseOrder
-  name: Xentral PurchaseOrder API
-  slug: xentral-purchaseorder-api
-- baseURL: https://xentral.xentral.biz
-  baseurl_source: declared
   description: Create, manage and export reports and report results based on SQL queries against your data.
   name: Xentral Query API
   slug: xentral-query-api
@@ -348,11 +328,6 @@ apis:
   slug: xentral-return-reason-api
 - baseURL: https://xentral.xentral.biz
   baseurl_source: declared
-  description: ReturnOrder
-  name: Xentral ReturnOrder API
-  slug: xentral-returnorder-api
-- baseURL: https://xentral.xentral.biz
-  baseurl_source: declared
   description: Revenue Account Mapping configurations
   name: Xentral Revenue Account Mapping API
   slug: xentral-revenue-account-mapping-api
@@ -376,21 +351,6 @@ apis:
   description: SalesPrices determine the prices used in sales to customers.
   name: Xentral Sales Price API
   slug: xentral-sales-price-api
-- baseURL: https://xentral.xentral.biz
-  baseurl_source: declared
-  description: SalesOrder
-  name: Xentral SalesOrder API
-  slug: xentral-salesorder-api
-- baseURL: https://xentral.xentral.biz
-  baseurl_source: declared
-  description: SalesPrice
-  name: Xentral SalesPrice API
-  slug: xentral-salesprice-api
-- baseURL: https://xentral.xentral.biz
-  baseurl_source: declared
-  description: ServiceOrder
-  name: Xentral ServiceOrder API
-  slug: xentral-serviceorder-api
 - baseURL: https://xentral.xentral.biz
   baseurl_source: declared
   description: Settings represents the application's configurations.
@@ -491,7 +451,22 @@ apis:
   description: Manage webhooks.
   name: Xentral Webhook API
   slug: xentral-webhook-api
-artifact_total: 186
+- baseURL: https://xentral.xentral.biz
+  baseurl_source: declared
+  description: Manage options for products.
+  name: Xentral Matrix Product API
+  slug: xentral-matrix-product-api
+- baseURL: https://xentral.xentral.biz
+  baseurl_source: declared
+  description: ReturnOrder
+  name: Xentral Return Order API
+  slug: xentral-return-order-api
+- baseURL: https://xentral.xentral.biz
+  baseurl_source: declared
+  description: ServiceOrder
+  name: Xentral Service Order API
+  slug: xentral-service-order-api
+artifact_total: 181
 collections:
 - collection_type: open
   name: API Collection
@@ -930,11 +905,11 @@ modified: '2026-07-21'
 name: Xentral
 nav: Providers
 network: true
-overview: 'Xentral publishes 90 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounting Export API, AuthPlatform API, and 87 more. Tagged areas include Company, ERP, E-Commerce, Fulfillment, and Warehousing.
+overview: 'Xentral publishes 85 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounting Export API, AuthPlatform API, and 82 more. Tagged areas include Company, ERP, E-Commerce, Fulfillment, and Warehousing.
 
 
   Xentral''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Xentral Rate Limits
@@ -946,7 +921,7 @@ scopes:
   summary_line: 100 scopes
 score:
   band: developing
-  composite: 45.8
+  composite: 45.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 42.0
@@ -954,11 +929,11 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 61.7
+    contract_quality: 62.0
     developer_ergonomics: 52.4
     discoverability: 70.4
     operational_transparency: 31.6
@@ -977,11 +952,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 90
+      total: 85
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

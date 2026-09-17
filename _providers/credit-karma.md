@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -124,11 +124,11 @@ modified: '2026-08-08'
 name: Credit Karma
 nav: Providers
 network: true
-overview: 'Credit Karma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Credit Scores, and Credit Monitoring.
+overview: 'Credit Karma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Credit Score, and Credit Monitoring.
 
 
   Credit Karma''s developer surface includes support, engineering blog, and 15 more developer resources.'
-random_paper: 7
+random_paper: 16
 score:
   band: minimal
   composite: 9.8
@@ -157,7 +157,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -182,7 +182,7 @@ tags:
 - Company
 - Fintech
 - Personal Finance
-- Credit Scores
+- Credit Score
 - Credit Monitoring
 - Lending
 - Consumer Finance

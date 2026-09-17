@@ -23,20 +23,145 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://api.webscale.com/v2
   baseurl_source: declared
-  description: The Webscale v2 control-plane REST API. 151 operations across 25 resource collections — applications and web controls, address sets, URL maps, clusters, environments and stacks, servers, builders, mon
-  name: Webscale APIs
-  slug: webscale-apis
-artifact_total: 8
+  description: The Accounts API from Webscale Networks — 2 operation(s) for accounts.
+  name: Webscale Networks Accounts API
+  slug: webscale-networks-accounts-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Address sets API from Webscale Networks — 5 operation(s) for address sets.
+  name: Webscale Networks Address sets API
+  slug: webscale-networks-address-sets-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Application test API from Webscale Networks — 1 operation(s) for application test.
+  name: Webscale Networks Application test API
+  slug: webscale-networks-application-test-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: An application configures the Webscale service for a group of related websites.
+  name: Webscale Networks Applications API
+  slug: webscale-networks-applications-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Builders API from Webscale Networks — 2 operation(s) for builders.
+  name: Webscale Networks Builders API
+  slug: webscale-networks-builders-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Clusters API from Webscale Networks — 4 operation(s) for clusters.
+  name: Webscale Networks Clusters API
+  slug: webscale-networks-clusters-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Environments API from Webscale Networks — 4 operation(s) for environments.
+  name: Webscale Networks Environments API
+  slug: webscale-networks-environments-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Files API from Webscale Networks — 8 operation(s) for files.
+  name: Webscale Networks Files API
+  slug: webscale-networks-files-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Groups API from Webscale Networks — 4 operation(s) for groups.
+  name: Webscale Networks Groups API
+  slug: webscale-networks-groups-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Labelers API from Webscale Networks — 1 operation(s) for labelers.
+  name: Webscale Networks Labelers API
+  slug: webscale-networks-labelers-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Log schemas API from Webscale Networks — 1 operation(s) for log schemas.
+  name: Webscale Networks Log schemas API
+  slug: webscale-networks-log-schemas-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Logs API from Webscale Networks — 4 operation(s) for logs.
+  name: Webscale Networks Logs API
+  slug: webscale-networks-logs-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Metrics API from Webscale Networks — 8 operation(s) for metrics.
+  name: Webscale Networks Metrics API
+  slug: webscale-networks-metrics-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Monitors API from Webscale Networks — 3 operation(s) for monitors.
+  name: Webscale Networks Monitors API
+  slug: webscale-networks-monitors-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Reports API from Webscale Networks — 1 operation(s) for reports.
+  name: Webscale Networks Reports API
+  slug: webscale-networks-reports-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Roles API from Webscale Networks — 4 operation(s) for roles.
+  name: Webscale Networks Roles API
+  slug: webscale-networks-roles-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Secrets API from Webscale Networks — 2 operation(s) for secrets.
+  name: Webscale Networks Secrets API
+  slug: webscale-networks-secrets-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Servers API from Webscale Networks — 3 operation(s) for servers.
+  name: Webscale Networks Servers API
+  slug: webscale-networks-servers-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Service users API from Webscale Networks — 2 operation(s) for service users.
+  name: Webscale Networks Service users API
+  slug: webscale-networks-service-users-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The SSH Hosts API from Webscale Networks — 3 operation(s) for ssh hosts.
+  name: Webscale Networks SSH Hosts API
+  slug: webscale-networks-ssh-hosts-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The SSH Public Keys API from Webscale Networks — 2 operation(s) for ssh public keys.
+  name: Webscale Networks SSH Public Keys API
+  slug: webscale-networks-ssh-public-keys-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Tasks API from Webscale Networks — 3 operation(s) for tasks.
+  name: Webscale Networks Tasks API
+  slug: webscale-networks-tasks-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Templates API from Webscale Networks — 2 operation(s) for templates.
+  name: Webscale Networks Templates API
+  slug: webscale-networks-templates-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The URL maps API from Webscale Networks — 2 operation(s) for url maps.
+  name: Webscale Networks URL maps API
+  slug: webscale-networks-url-maps-api
+- baseURL: https://api.webscale.com/v2
+  baseurl_source: declared
+  description: The Users API from Webscale Networks — 13 operation(s) for users.
+  name: Webscale Networks Users API
+  slug: webscale-networks-users-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Webscale Networks Webhooks
   slug: webscale-networks-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/overlays/webscale-networks-webscale-apis-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/webscale-networks-webscale-apis-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/security/webscale-networks-domain-security.yml
   title: ''
@@ -200,25 +325,25 @@ modified: '2026-09-04'
 name: Webscale Networks
 nav: Providers
 network: true
-overview: 'Webscale Networks publishes 1 API on the [APIs.io](https://apis.io/) network: Webscale APIs. Tagged areas include E-Commerce, Cloud Hosting, Content Delivery Network, Application Delivery, and Web Application Firewall.
+overview: 'Webscale Networks publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Address sets API, Application test API, and 22 more. Tagged areas include E-Commerce, Cloud Hosting, CDN, Application Delivery, and Web Application Firewall.
 
 
   The Webscale Networks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Webscale Networks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
+  Webscale Networks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 28 more developer resources.'
 plans:
 - name: Webscale Networks Plans Pricing
   plan_count: 3
   slug: webscale-networks-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Webscale Networks Rate Limits
   slug: webscale-networks-rate-limits
 score:
   band: strong
-  composite: 61.4
+  composite: 61.8
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -226,11 +351,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 60.4
+    contract_quality: 62.1
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 42.1
@@ -241,11 +366,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 25
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -271,7 +396,7 @@ slug: webscale-networks
 tags:
 - E-Commerce
 - Cloud Hosting
-- Content Delivery Network
+- CDN
 - Application Delivery
 - Web Application Firewall
 - Edge Computing

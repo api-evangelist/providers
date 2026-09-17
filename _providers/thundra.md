@@ -48,7 +48,7 @@ name: Thundra
 nav: Providers
 network: true
 overview: Thundra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Observability, Serverless, APM, and Monitoring.
-random_paper: 2
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/thundra/refs/heads/main/screenshots/thundra-2026-09-02T163647.png
 security:
 - kind: domain-security

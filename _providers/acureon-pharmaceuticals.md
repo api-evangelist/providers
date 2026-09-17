@@ -25,7 +25,7 @@ name: Acureon Pharmaceuticals
 nav: Providers
 network: true
 overview: Acureon Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Biotechnology, Life Sciences, and Healthcare.
-random_paper: 11
+random_paper: 8
 slug: acureon-pharmaceuticals
 tags:
 - Company

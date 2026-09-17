@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ modified: '2026-06-13'
 name: Random User Generator
 nav: Providers
 network: true
-overview: 'Random User Generator publishes 1 API on the [APIs.io](https://apis.io/) network: Users API. Tagged areas include Test Data, Synthetic Data, Mock Data, Open-Source, and Public API.
+overview: 'Random User Generator publishes 1 API on the [APIs.io](https://apis.io/) network: Users API. Tagged areas include Test Data, Synthetic Data, Mock Data, Open-Source, and Public APIs.
 
 
   The Random User Generator catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -202,7 +202,7 @@ plans:
 - name: Randomuser Plans Pricing
   plan_count: 1
   slug: randomuser-plans-pricing
-random_paper: 17
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Randomuser Rate Limits
@@ -259,7 +259,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -284,7 +284,7 @@ tags:
 - Synthetic Data
 - Mock Data
 - Open-Source
-- Public API
+- Public APIs
 - Free API
 use_cases:
 - description: Populate UI mockups, design comps, and Storybook fixtures with realistic users.

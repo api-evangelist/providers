@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: Ansible Automation Controller Inventories Projects API
   slug: open-ansible-automation-platform-projects-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ansible.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/agentic-access/ansible-automation-platform-agentic-access.yml
   title: ''
@@ -201,7 +205,7 @@ jsonld:
   property_count: 9
   slug: ansible-automation-platform-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Ansible Automation Platform
 nav: Providers
 network: true
@@ -211,7 +215,7 @@ overview: 'Ansible Automation Platform publishes 4 APIs on the [APIs.io](https:/
   The Ansible Automation Platform catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ansible Automation Platform''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 9 more developer resources.'
+  Ansible Automation Platform''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 10 more developer resources.'
 plans:
 - name: Ansible Automation Platform Plans Pricing
   plan_count: 3
@@ -260,7 +264,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -293,5 +297,5 @@ use_cases:
   name: Security Compliance
 - description: Automate network device configuration and management across multi-vendor environments.
   name: Network Automation
-website: https://docs.ansible.com/
+website: https://ansible.com
 ---

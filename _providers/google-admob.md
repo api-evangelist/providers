@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -67,11 +67,6 @@ apis:
   slug: google-admob-adunitmappings-api
 - baseURL: https://admob.googleapis.com
   baseurl_source: declared
-  description: The adUnits API from Google AdMob — 2 operation(s) for adunits.
-  name: Google AdMob Ad Units API
-  slug: google-admob-adunits-api
-- baseURL: https://admob.googleapis.com
-  baseurl_source: declared
   description: The apps API from Google AdMob — 2 operation(s) for apps.
   name: Google AdMob Apps API
   slug: google-admob-apps-api
@@ -100,6 +95,11 @@ apis:
   description: The networkReport API from Google AdMob — 2 operation(s) for networkreport.
   name: Google AdMob Network Report API
   slug: google-admob-networkreport-api
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The Ad Units API from Google AdMob — 2 operation(s) for ad units.
+  name: Google AdMob Ad Units API
+  slug: google-admob-ad-units-api
 artifact_total: 30
 collections:
 - collection_type: open
@@ -346,7 +346,7 @@ finops:
   slug: google-admob-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-admob.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Google AdMob
 nav: Providers
 network: true
@@ -361,7 +361,7 @@ plans:
 - name: Google Admob Plans Pricing
   plan_count: 0
   slug: google-admob-plans-pricing
-random_paper: 0
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Google Admob Rate Limits
@@ -412,7 +412,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -442,7 +442,7 @@ tags:
 - Advertising
 - App Monetization
 - Mobile Advertising
-- Mobile Apps
+- Mobile App
 - Reports
 - Reporting
 website: https://admob.google.com

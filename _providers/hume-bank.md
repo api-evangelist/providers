@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
+- acting_count: 3
   human_in_the_loop: 0
   name: Hume Bank Agentic Access
-  operation_count: 2
+  operation_count: 19
   slug: hume-bank-agentic-access
-  summary_line: 2 operations
+  summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
 - baseURL: https://ibankob.humebank.com.au/OpenBanking/cds-au/v1/banking/products
@@ -222,7 +222,7 @@ overview: 'Hume Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Hume Bank''s developer surface includes authentication, documentation, API reference, pricing, support, and 18 more developer resources.'
-random_paper: 6
+random_paper: 8
 score:
   band: thin
   composite: 36.5
@@ -266,7 +266,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

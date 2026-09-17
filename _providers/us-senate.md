@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ plans:
 - name: Us Senate Plans Pricing
   plan_count: 3
   slug: us-senate-plans-pricing
-random_paper: 14
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Us Senate Rate Limits
@@ -224,7 +224,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

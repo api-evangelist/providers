@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Develop lightweight in-game applications using simple HTML and JavaScript, ensuring ease of use and quick deployment.
@@ -106,7 +106,7 @@ plans:
 - name: Overwolf Plans Pricing
   plan_count: 3
   slug: overwolf-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Overwolf Rate Limits
@@ -131,7 +131,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 21.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

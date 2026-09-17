@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,18 +52,18 @@ apis:
 - baseURL: https://compute.googleapis.com/compute/v1
   baseurl_source: declared
   description: Manage forwarding rules for directing traffic
-  name: Google Cloud Load Balancing ForwardingRules API
-  slug: google-cloud-load-balancing-forwardingrules-api
+  name: Google Cloud Load Balancing Forwarding Rules API
+  slug: google-cloud-load-balancing-forwarding-rules-api
 - baseURL: https://compute.googleapis.com/compute/v1
   baseurl_source: declared
   description: Manage health checks for backend services
-  name: Google Cloud Load Balancing HealthChecks API
-  slug: google-cloud-load-balancing-healthchecks-api
+  name: Google Cloud Load Balancing Health Checks API
+  slug: google-cloud-load-balancing-health-checks-api
 - baseURL: https://compute.googleapis.com/compute/v1
   baseurl_source: declared
   description: Manage URL maps for routing traffic
-  name: Google Cloud Load Balancing UrlMaps API
-  slug: google-cloud-load-balancing-urlmaps-api
+  name: Google Cloud Load Balancing URL maps API
+  slug: google-cloud-load-balancing-url-maps-api
 artifact_total: 23
 collections:
 - collection_type: postman
@@ -192,7 +192,7 @@ modified: '2026-05-19'
 name: Google Cloud Load Balancing
 nav: Providers
 network: true
-overview: 'Google Cloud Load Balancing publishes 4 APIs on the [APIs.io](https://apis.io/) network, including BackendServices API, ForwardingRules API, HealthChecks API, and 1 more. Tagged areas include Google Cloud, Infrastructure, Load Balancing, Networking, and Traffic Management.
+overview: 'Google Cloud Load Balancing publishes 4 APIs on the [APIs.io](https://apis.io/) network, including BackendServices API, Forwarding Rules API, Health Checks API, and 1 more. Tagged areas include Google Cloud, Infrastructure, Load Balancing, Networking, and Traffic Management.
 
 
   The Google Cloud Load Balancing catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -203,7 +203,7 @@ plans:
 - name: Google Cloud Load Balancing Plans Pricing
   plan_count: 3
   slug: google-cloud-load-balancing-plans-pricing
-random_paper: 4
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Google Cloud Load Balancing Rate Limits
@@ -251,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -21,11 +21,11 @@ modified: '2026-05-03'
 name: XSLT
 nav: Providers
 network: true
-random_paper: 18
+random_paper: 19
 slug: xslt
 tags:
 - Data Transformation
-- Standard
+- Standards
 - W3C
 - XML
 - XSLT

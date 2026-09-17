@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,7 +62,7 @@ name: 6 Waves
 nav: Providers
 network: true
 overview: 6 Waves is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Games, Mobile Games, and Game Publishing.
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 9.2
@@ -88,7 +88,7 @@ score:
     - greater-china
   previous_composite: 9.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

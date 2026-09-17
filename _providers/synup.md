@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: First-party remote Model Context Protocol server enumerating 126 tools in its published tool table across six surfaces (Locations, Listings, Reviews, Rankings, Posts & Social, Account & Insights). Ten
@@ -167,15 +167,15 @@ common:
   type: GettingStarted
   url: https://developer.synup.com/synup-local-seo-api-getting-started-doc-824500
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-api-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/_original/synup-api-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/synup-api-openapi.yml
+  url: openapi/_original/synup-api-openapi.yml
 - group: design
-  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-webhooks-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/_original/synup-webhooks-openapi.yml
   title: ''
   type: Webhooks
-  url: openapi/synup-webhooks-openapi.yml
+  url: openapi/_original/synup-webhooks-openapi.yml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/mcp/synup-mcp.yml
   title: ''
@@ -366,7 +366,7 @@ mcp_servers:
 - description: 'Synup ships a first-party remote MCP server that exposes the same surface area as the Synup dashboard as agent tools: locations, listings, reviews, rankings, local and social posts, flows, account and'
   name: Synup MCP Server
   slug: synup-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Synup
 nav: Providers
 network: true
@@ -381,7 +381,7 @@ plans:
 - name: Synup Plans Pricing
   plan_count: 3
   slug: synup-plans-pricing
-random_paper: 8
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Synup Rate Limits
@@ -393,7 +393,7 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 61.8
+  composite: 62.1
   coverage:
     artifact_dirs: 28
     catalog_earned: 71.0
@@ -401,11 +401,11 @@ score:
     catalog_gap: 44.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 77.6
     contract_governance: 19.7
-    contract_quality: 72.6
+    contract_quality: 73.7
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 26.3
@@ -420,7 +420,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

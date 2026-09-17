@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Valero Energy Corporation SEC filings and financial data available through the SEC EDGAR system. Includes 10-K, 10-Q, earnings releases, and other regulatory filings. Accessible via the SEC EDGAR API '
@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: Valero to run refineries up to 95% of capacity in Q2 2026, ...
   url: https://www.reuters.com/business/energy/valero-run-refineries-up-95-capacity-q2-2026-conf-call-2026-04-30/
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Valero Energy Rate Limits
@@ -177,7 +177,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

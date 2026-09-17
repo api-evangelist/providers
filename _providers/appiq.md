@@ -19,7 +19,7 @@ name: AppIQ
 nav: Providers
 network: true
 overview: AppIQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, and Defunct.
-random_paper: 14
+random_paper: 11
 slug: appiq
 tags:
 - Company

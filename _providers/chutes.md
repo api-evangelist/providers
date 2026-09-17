@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,7 +53,7 @@ apis:
 - baseURL: https://llm.chutes.ai/v1
   baseurl_source: declared
   description: Deploy, list, retrieve, update, and delete chutes.
-  name: Chutes Chutes API
+  name: Chutes API
   slug: chutes-chutes-api
 - baseURL: https://llm.chutes.ai/v1
   baseurl_source: declared
@@ -144,11 +144,11 @@ finops:
   slug: chutes-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chutes.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-09-16'
 name: Chutes
 nav: Providers
 network: true
-overview: 'Chutes publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Chutes API, Images API, and 1 more. Tagged areas include Artificial Intelligence, LLM, Inference, Serverless, and GPU.
+overview: 'Chutes publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Images API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Inference, Serverless, and GPU.
 
 
   The Chutes catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -159,7 +159,7 @@ plans:
 - name: Chutes Plans Pricing
   plan_count: 5
   slug: chutes-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 6
   name: Chutes Rate Limits
@@ -203,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

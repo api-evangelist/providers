@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -118,7 +118,7 @@ overview: 'Unweave is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Unweave''s developer surface includes engineering blog, changelog, pricing, support, documentation, CLI, and 10 more developer resources.'
-random_paper: 7
+random_paper: 15
 score:
   band: emerging
   composite: 19.9
@@ -145,7 +145,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 19.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

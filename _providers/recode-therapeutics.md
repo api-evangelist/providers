@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - baseURL: https://recodetx.com/wp-json
@@ -257,14 +257,14 @@ modified: '2026-08-05'
 name: ReCode Therapeutics
 nav: Providers
 network: true
-overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 4 more. Tagged areas include Company, Genetic Medicines, Biotechnology, biopharmaceuticals, and mRNA.
+overview: 'ReCode Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Embed API, and 4 more. Tagged areas include Company, Genetic Medicine, Biotechnology, Biopharmaceutical, and mRNA.
 
 
   The ReCode Therapeutics catalog on APIs.io includes 1 JSON-LD context.
 
 
   ReCode Therapeutics'' developer surface includes product news, authentication, and 31 more developer resources.'
-random_paper: 15
+random_paper: 10
 score:
   band: thin
   composite: 28.7
@@ -304,7 +304,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -323,9 +323,9 @@ security:
 slug: recode-therapeutics
 tags:
 - Company
-- Genetic Medicines
+- Genetic Medicine
 - Biotechnology
-- biopharmaceuticals
+- Biopharmaceutical
 - mRNA
 - gene-correction
 - Lipid Nanoparticles

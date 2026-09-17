@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Redis operations
-  name: microsoft-azure-cache-for-redis Redis API
+  name: microsoft-azure-cache-for-redis API
   slug: microsoft-azure-cache-for-redis-redis-api
 artifact_total: 13
 collections:
@@ -133,11 +133,11 @@ finops:
   slug: microsoft-azure-cache-for-redis-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-cache-for-redis.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Microsoft Azure Cache For Redis
 nav: Providers
 network: true
-overview: 'Microsoft Azure Cache For Redis publishes 2 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-cache-for-redis Operations API and microsoft-azure-cache-for-redis Redis API.
+overview: 'Microsoft Azure Cache For Redis publishes 2 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-cache-for-redis Operations API and microsoft-azure-cache-for-redis API.
 
 
   Microsoft Azure Cache For Redis'' developer surface includes authentication, developer portal, pricing, support, engineering blog, and 8 more developer resources.'
@@ -145,7 +145,7 @@ plans:
 - name: Microsoft Azure Cache For Redis Plans Pricing
   plan_count: 3
   slug: microsoft-azure-cache-for-redis-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Cache For Redis Rate Limits
@@ -185,7 +185,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

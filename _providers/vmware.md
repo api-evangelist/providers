@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -188,11 +188,6 @@ apis:
   slug: vmware-content-library-api
 - baseURL: https://{{vcenter}}/api
   baseurl_source: declared
-  description: Datacenter management for organizing vSphere inventory
-  name: VMware Datacenters API
-  slug: vmware-datacenters-api
-- baseURL: https://{{vcenter}}/api
-  baseurl_source: declared
   description: Datastore management including browsing, capacity monitoring, and storage configuration
   name: VMware Datastores API
   slug: vmware-datastores-api
@@ -246,11 +241,16 @@ apis:
   description: Virtual machine power state operations including power on, power off, suspend, reset, and guest shutdown
   name: VMware VM Power API
   slug: vmware-vm-power-api
-- baseURL: https://{{vcenter}}/api
+- baseURL: https://{{vcenter}}/sdk
   baseurl_source: declared
   description: Virtual machine lifecycle management including creation, power operations, cloning, migration, and configuration
-  name: VMware VMs API
+  name: VMware V Ms API
   slug: vmware-vms-api
+- baseURL: https://{{vcenter}}/sdk
+  baseurl_source: declared
+  description: Datacenter management for organizing vSphere inventory
+  name: VMware Data Centers API
+  slug: vmware-data-centers-api
 artifact_total: 311
 collections:
 - collection_type: postman
@@ -1129,7 +1129,7 @@ modified: '2026-08-21'
 name: VMware
 nav: Providers
 network: true
-overview: 'VMware publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Content Library API, Datacenters API, and 12 more. Tagged areas include Cloud Computing, Container Management, Hybrid Cloud, Infrastructure, and Virtualization.
+overview: 'VMware publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Content Library API, Datastores API, and 12 more. Tagged areas include Cloud Computing, Container Management, Hybrid Cloud, Infrastructure, and Virtualization.
 
 
   The VMware catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1140,7 +1140,7 @@ plans:
 - name: Vmware Plans Pricing
   plan_count: 1
   slug: vmware-plans-pricing
-random_paper: 7
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Vmware Rate Limits
@@ -1194,7 +1194,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

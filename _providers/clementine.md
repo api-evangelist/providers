@@ -19,7 +19,7 @@ name: Clementine
 nav: Providers
 network: true
 overview: Clementine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Defunct, Enterprise Communication, and Messaging.
-random_paper: 10
+random_paper: 4
 slug: clementine
 tags:
 - Company

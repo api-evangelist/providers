@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -79,12 +79,12 @@ apis:
 - baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
   baseurl_source: declared
   description: Obtain the list of accounts authorised to be shared by the customer. Account API is a consumer API. To access data you'll need the customer's consent.</p><h3 style="margin-top:30px;">Host URL</h3><p>C
-  name: Commonwealth Bank Accounts API API
+  name: Commonwealth Bank Accounts API
   slug: commonwealth-bank-accounts-api-api
 - baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
   baseurl_source: declared
   description: 'Obtain the balance for a single specified account. Balances API is a consumer API. To access data you''ll need the customer''s consent.</p><h3 style="margin-top:30px;">Host URL</h3><p>CommBank requests '
-  name: Commonwealth Bank Balances API API
+  name: Commonwealth Bank Balances API
   slug: commonwealth-bank-balances-api-api
 - baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
   baseurl_source: declared
@@ -124,27 +124,27 @@ apis:
 - baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
   baseurl_source: declared
   description: Access a customer's basic contact details. The customer may choose to share their personal or organisation details. Customer API is a consumer API. To access data you'll need the customer's consent.</
-  name: Commonwealth Bank Customer API API
+  name: Commonwealth Bank Customer API
   slug: commonwealth-bank-customer-api-api
 - baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
   baseurl_source: declared
   description: Obtain a list of pre-registered payees authorised to be shared by the customer. Payees API is a consumer API. To access data you'll need the customer's consent.</p><h3 style="margin-top:30px;">Host UR
-  name: Commonwealth Bank Payees API API
+  name: Commonwealth Bank Payees API
   slug: commonwealth-bank-payees-api-api
 - baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
   baseurl_source: declared
   description: Get details on available CommBank products including deposit and transaction accounts, credit cards, home loans, personal loans, and offset accounts. Information available through the API includes eli
-  name: Commonwealth Bank Products API API
+  name: Commonwealth Bank Products API
   slug: commonwealth-bank-products-api-api
 - baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
   baseurl_source: declared
   description: Obtain the Regular Payment details authorised to be shared by the customer. Regular Payments API is a consumer API. To access data you'll need the customer's consent.</p><h3 style="margin-top:30px;">H
-  name: Commonwealth Bank Regular Payments API API
+  name: Commonwealth Bank Regular Payments API
   slug: commonwealth-bank-regular-payments-api-api
 - baseURL: https://api.commbank.com.au/public/cds-au/v1/banking/products
   baseurl_source: declared
   description: Obtain the list of transactions for a CommBank account and details for each transaction. Transaction API is a consumer API. To access data you'll need the customer's consent. Seven years’ worth of tra
-  name: Commonwealth Bank Transaction API API
+  name: Commonwealth Bank Transaction API
   slug: commonwealth-bank-transaction-api-api
 artifact_total: 65
 collections:
@@ -380,15 +380,15 @@ integrations:
 - description: Major card scheme acquiring and issuing partnerships.
   name: Mastercard and Visa
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Commonwealth Bank
 nav: Providers
 network: true
-overview: 'Commonwealth Bank publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API API, Balances API API, Banking Account Balances API, and 11 more. Tagged areas include Financial, Banks, Consumer Banking, Business Banking, and Open Banking.
+overview: 'Commonwealth Bank publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balances API, Banking Account Balances API, and 11 more. Tagged areas include Financial, Banks, Consumer Banking, Business Banking, and Open Banking.
 
 
   Commonwealth Bank''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
-random_paper: 8
+random_paper: 13
 scopes:
 - name: Commonwealth Bank Scopes
   scope_count: 10
@@ -408,7 +408,7 @@ score:
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 12.6
+    contract_quality: 12.5
     developer_ergonomics: 58.9
     discoverability: 66.7
     operational_transparency: 36.8
@@ -424,7 +424,7 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 50.0
       derived: 14
       marker_coverage: 100.0
       total: 14
@@ -437,7 +437,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

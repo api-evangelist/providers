@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The CAOC publishes its charter, membership roster, meeting summaries, working group output, and federal acquisition guidance through Acquisition.gov. The Council does not expose a dedicated developer '
@@ -141,7 +141,7 @@ plans:
 - name: Chief Acquisition Officers Council Plans Pricing
   plan_count: 0
   slug: chief-acquisition-officers-council-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Chief Acquisition Officers Council Rate Limits
@@ -172,7 +172,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

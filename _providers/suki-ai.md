@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -427,7 +427,7 @@ plans:
 - name: Suki Ai Plans Pricing
   plan_count: 1
   slug: suki-ai-plans-pricing
-random_paper: 19
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Suki Ai Rate Limits
@@ -488,7 +488,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

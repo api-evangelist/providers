@@ -58,7 +58,7 @@ overview: 'ThriveFantasy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   ThriveFantasy''s developer surface includes signup flow and 7 more developer resources.'
-random_paper: 9
+random_paper: 8
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrivefantasy/refs/heads/main/screenshots/thrivefantasy-2026-09-02T163636.png
 security:
 - kind: domain-security

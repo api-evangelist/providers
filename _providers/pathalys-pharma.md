@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - baseURL: https://pathalys.com/wp-json
@@ -204,7 +204,7 @@ plans:
 - name: Pathalys Pharma Plans Pricing
   plan_count: 0
   slug: pathalys-pharma-plans-pricing
-random_paper: 15
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Pathalys Pharma Rate Limits
@@ -244,7 +244,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

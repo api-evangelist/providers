@@ -39,7 +39,7 @@ overview: 'MXML is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   MXML''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 5
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/mxml/refs/heads/main/screenshots/mxml-2026-06-20T185912.png
 slug: mxml
 tags:

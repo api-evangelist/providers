@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -64,11 +64,6 @@ apis:
   description: The domains API from UpGuard — 3 operation(s) for domains.
   name: UpGuard domains API
   slug: upguard-domains-api
-- baseURL: https://cyber-risk.upguard.com/api/public
-  baseurl_source: declared
-  description: The ips API from UpGuard — 4 operation(s) for ips.
-  name: UpGuard ips API
-  slug: upguard-ips-api
 - baseURL: https://cyber-risk.upguard.com/api/public
   baseurl_source: declared
   description: The labels API from UpGuard — 1 operation(s) for labels.
@@ -134,6 +129,11 @@ apis:
   description: The webhooks API from UpGuard — 3 operation(s) for webhooks.
   name: UpGuard webhooks API
   slug: upguard-webhooks-api
+- baseURL: https://cyber-risk.upguard.com/api/public
+  baseurl_source: declared
+  description: The ips API from UpGuard — 4 operation(s) for ips.
+  name: UpGuard Ips API
+  slug: upguard-ips-api
 artifact_total: 43
 asyncapis:
 - description: ''
@@ -368,7 +368,7 @@ overview: 'UpGuard publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   UpGuard''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 4
+random_paper: 12
 score:
   band: developing
   composite: 50.4
@@ -399,7 +399,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

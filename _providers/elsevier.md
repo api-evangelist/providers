@@ -13,6 +13,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,7 +24,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,50 +35,20 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 37.4
-  scored_at: '2026-09-15'
+  score: 40.3
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
+- acting_count: 1
   human_in_the_loop: 0
   name: Elsevier Agentic Access
-  operation_count: 8
+  operation_count: 106
   slug: elsevier-agentic-access
-  summary_line: 8 operations
-api_count: 1
+  summary_line: 106 operations · 1 acting
+api_count: 8
 apis:
-- baseURL: https://api.elsevier.com/content
-  baseurl_source: declared
-  description: Scopus delivers a comprehensive view of the world of research, allowing tracking, analysis, and visualization of research data across publishers, journals, books, conference proceedings, and trade pub
-  name: Elsevier Scopus APIs
-  slug: elsevier-scopus-apis
-- baseURL: https://api.elsevier.com/content
-  baseurl_source: declared
-  description: ScienceDirect APIs expose peer-reviewed full-text scientific, technical and medical content from all scholarly publications indexed by ScienceDirect, Elsevier's premier scientific platform.
-  name: Elsevier ScienceDirect APIs
-  slug: elsevier-sciencedirect-apis
-- baseURL: https://api.elsevier.com/analytics/scival
-  baseurl_source: declared
-  description: The SciVal API gives access to a comprehensive set of metrics for researchers (Scopus Author profiles) and 8,500+ institutions available in SciVal, Elsevier's platform for research performance benchma
-  name: Elsevier SciVal API
-  slug: elsevier-scival-api
-- baseURL: https://api.elsevier.com/content
-  baseurl_source: declared
-  description: Engineering Village APIs provide programmatic access to engineering research literature, indexed publications, and engineering-focused content across multiple databases.
-  name: Elsevier Engineering Village API
-  slug: elsevier-engineering-village-api
 - description: Embase APIs provide access to biomedical and pharmacological abstracts and indexing for life sciences research, drug development, and evidence-based medicine.
   name: Elsevier Embase API
   slug: elsevier-embase-api
-- baseURL: https://api.elsevier.com/content
-  baseurl_source: declared
-  description: 'The Retrieval APIs return a single record by identifier across the Elsevier corpus — abstracts, full-text articles, article objects, entitlements, author profiles and affiliation profiles — reachable '
-  name: Elsevier Retrieval APIs
-  slug: elsevier-retrieval-apis
-- baseURL: https://api.elsevier.com/content
-  baseurl_source: declared
-  description: 'The Metadata APIs cover citation counts, the Citations Overview, and serial and non-serial title metadata and search — the bibliographic layer over Scopus rather than the content itself. Six paths on '
-  name: Elsevier Metadata APIs
-  slug: elsevier-metadata-apis
 - description: Elsevier's COUNTER Code of Practice Release 5 and 5.1 API, delivering standards-compliant usage statistics and reports over SUSHI. Base https://api.elsevier.com/sushi/ for COP5 and https://api.elsevie
   name: Elsevier COUNTER SUSHI API
   slug: elsevier-sushi-api
@@ -91,7 +62,147 @@ apis:
   description: The Search API from Elsevier — 3 operation(s) for search.
   name: Elsevier Search API
   slug: elsevier-search-api
-artifact_total: 22
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Abstract Citation count API
+  name: Elsevier Abstract Citation Count API
+  slug: elsevier-abstract-citation-count-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Abstract Retrieval API
+  name: Elsevier Abstract Retrieval API
+  slug: elsevier-abstract-retrieval-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Affiliation Retrieval API
+  name: Elsevier Affiliation Retrieval API
+  slug: elsevier-affiliation-retrieval-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Affiliation Search API
+  name: Elsevier Affiliation Search API
+  slug: elsevier-affiliation-search-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Article Entitlement Retrieval API
+  name: Elsevier Article Entitlement Retrieval API
+  slug: elsevier-article-entitlement-retrieval-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Article Metadata API
+  name: Elsevier Article Metadata API
+  slug: elsevier-article-metadata-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Article Retrieval API
+  name: Elsevier Article Retrieval API
+  slug: elsevier-article-retrieval-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Author Retrieval API
+  name: Elsevier Author Retrieval API
+  slug: elsevier-author-retrieval-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Author Search API
+  name: Elsevier Author Search API
+  slug: elsevier-author-search-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Citations Overview API
+  name: Elsevier Citations Overview API
+  slug: elsevier-citations-overview-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Engineering Village Retrieval API
+  name: Elsevier Engineering Village Retrieval API
+  slug: elsevier-engineering-village-retrieval-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Engineering Village Search API
+  name: Elsevier Engineering Village Search API
+  slug: elsevier-engineering-village-search-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Nonserial Title API
+  name: Elsevier Nonserial Title API
+  slug: elsevier-nonserial-title-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Object Retrieval API
+  name: Elsevier Object Retrieval API
+  slug: elsevier-object-retrieval-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: ScienceDirect Search V2 API
+  name: Elsevier Science Direct Search V2 API
+  slug: elsevier-sciencedirect-search-v2-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Author Lookup API API from Elsevier — 4 operation(s) for scival author lookup api.
+  name: Elsevier SciVal Author Lookup API
+  slug: elsevier-scival-author-lookup-api-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Country Group Lookup API V1 API from Elsevier — 3 operation(s) for scival country group lookup api v1.
+  name: Elsevier SciVal Country Group Lookup API V1 API
+  slug: elsevier-scival-country-group-lookup-api-v1-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Country Lookup API V1 API from Elsevier — 4 operation(s) for scival country lookup api v1.
+  name: Elsevier SciVal Country Lookup API V1 API
+  slug: elsevier-scival-country-lookup-api-v1-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Institution Group Lookup API V1 API from Elsevier — 3 operation(s) for scival institution group lookup api v1.
+  name: Elsevier SciVal Institution Group Lookup API V1 API
+  slug: elsevier-scival-institution-group-lookup-api-v1-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Institution Lookup API V1 API from Elsevier — 7 operation(s) for scival institution lookup api v1.
+  name: Elsevier SciVal Institution Lookup API V1 API
+  slug: elsevier-scival-institution-lookup-api-v1-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Publication Lookup API V1 API from Elsevier — 2 operation(s) for scival publication lookup api v1.
+  name: Elsevier SciVal Publication Lookup API V1 API
+  slug: elsevier-scival-publication-lookup-api-v1-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Scopus Source Lookup API API from Elsevier — 3 operation(s) for scival scopus source lookup api.
+  name: Elsevier SciVal Scopus Source Lookup API
+  slug: elsevier-scival-scopus-source-lookup-api-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Subject Area Lookup API API from Elsevier — 3 operation(s) for scival subject area lookup api.
+  name: Elsevier SciVal Subject Area Lookup API
+  slug: elsevier-scival-subject-area-lookup-api-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Topic Cluster Lookup API API from Elsevier — 7 operation(s) for scival topic cluster lookup api.
+  name: Elsevier SciVal Topic Cluster Lookup API
+  slug: elsevier-scival-topic-cluster-lookup-api-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal Topic Lookup API API from Elsevier — 7 operation(s) for scival topic lookup api.
+  name: Elsevier SciVal Topic Lookup API
+  slug: elsevier-scival-topic-lookup-api-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: The SciVal World Lookup API API from Elsevier — 1 operation(s) for scival world lookup api.
+  name: Elsevier SciVal World Lookup API
+  slug: elsevier-scival-world-lookup-api-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Scopus Search API
+  name: Elsevier Scopus Search API
+  slug: elsevier-scopus-search-api
+- baseURL: https://api.elsevier.com/content
+  baseurl_source: declared
+  description: Serial Title API
+  name: Elsevier Serial Title API
+  slug: elsevier-serial-title-api
+artifact_total: 44
 collections:
 - collection_type: open
   name: API Collection
@@ -106,6 +217,36 @@ collections:
   name: Elsevier Scopus APIs
   slug: open-elsevier
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/overlays/elsevier-scopus-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/elsevier-scopus-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/overlays/elsevier-sciencedirect-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/elsevier-sciencedirect-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/overlays/elsevier-scival-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/elsevier-scival-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/overlays/elsevier-engineering-village-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/elsevier-engineering-village-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/overlays/elsevier-retrieval-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/elsevier-retrieval-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/overlays/elsevier-metadata-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/elsevier-metadata-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -296,15 +437,15 @@ modified: '2026-09-06'
 name: Elsevier
 nav: Providers
 network: true
-overview: 'Elsevier publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Scopus APIs, ScienceDirect APIs, SciVal API, and 5 more. Tagged areas include Content, Journals, Medical, Research, and Scientific.
+overview: 'Elsevier publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Abstract API, Search API, Abstract Citation Count API, and 27 more. Tagged areas include Content, Journals, Medical, Research, and Scientific.
 
 
-  Elsevier''s developer surface includes authentication, changelog, release notes, sandbox, developer console, developer portal, documentation, and 32 more developer resources.'
+  Elsevier''s developer surface includes authentication, changelog, release notes, sandbox, developer console, developer portal, documentation, and 38 more developer resources.'
 plans:
 - name: Elsevier Plans Pricing
   plan_count: 3
   slug: elsevier-plans-pricing
-random_paper: 2
+random_paper: 5
 rate_limits:
 - limit_count: 36
   name: Elsevier Rate Limits
@@ -316,7 +457,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.9
+  composite: 60.7
   coverage:
     artifact_dirs: 26
     catalog_earned: 64.0
@@ -324,11 +465,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 81.6
     contract_governance: 4.5
-    contract_quality: 51.6
+    contract_quality: 50.7
     developer_ergonomics: 62.5
     discoverability: 68.5
     operational_transparency: 50.0
@@ -339,8 +480,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 77.8
-      total: 9
+      marker_coverage: 93.3
+      total: 30
     mcp: derived
     skills: derived
   regulatory:
@@ -350,7 +491,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

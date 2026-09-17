@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-08-21'
 name: SAP Business ByDesign
 nav: Providers
 network: true
-overview: 'SAP Business ByDesign publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, CRM API, Financials API, and 5 more. Tagged areas include ERP, Cloud, Mid-Market, Financials, and CRM.
+overview: 'SAP Business ByDesign publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, CRM API, Financials API, and 5 more. Tagged areas include ERP, Cloud, Mid-Market, Financial, and CRM.
 
 
   The SAP Business ByDesign catalog on APIs.io includes 1 JSON-LD context.
@@ -227,7 +227,7 @@ plans:
 - name: Sap Bydesign Plans Pricing
   plan_count: 4
   slug: sap-bydesign-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Sap Bydesign Rate Limits
@@ -264,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ tags:
 - ERP
 - Cloud
 - Mid-Market
-- Financials
+- Financial
 - CRM
 - Procurement
 - Supply Chain

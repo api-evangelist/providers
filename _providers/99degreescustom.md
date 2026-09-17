@@ -28,7 +28,7 @@ name: 99degrees Custom
 nav: Providers
 network: true
 overview: 99degrees Custom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Contract Manufacturing, Apparel, and Textiles.
-random_paper: 4
+random_paper: 20
 slug: 99degreescustom
 tags:
 - Company

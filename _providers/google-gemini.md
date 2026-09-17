@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -113,6 +113,10 @@ collections:
   name: Google Gemini Content Generation Embeddings API
   slug: open-google-gemini-embeddings-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://google.dev
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/agentic-access/google-gemini-agentic-access.yml
   title: ''
@@ -281,7 +285,7 @@ jsonld:
   property_count: 23
   slug: google-gemini-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-09-16'
 name: Google Gemini
 nav: Providers
 network: true
@@ -291,12 +295,12 @@ overview: 'Google Gemini publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Google Gemini catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Google Gemini''s developer surface includes authentication, support, engineering blog, and 14 more developer resources.'
+  Google Gemini''s developer surface includes authentication, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Google Gemini Plans Pricing
   plan_count: 7
   slug: google-gemini-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 7
   name: Google Gemini Rate Limits
@@ -350,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -384,5 +388,5 @@ tags:
 - LLM
 - Machine-Learning
 - Multi-Modal
-website: https://ai.google.dev/
+website: https://google.dev
 ---

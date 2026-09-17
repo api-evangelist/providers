@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -255,7 +255,7 @@ plans:
 - name: Liveblocks Plans Pricing
   plan_count: 1
   slug: liveblocks-plans-pricing
-random_paper: 20
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Liveblocks Rate Limits
@@ -287,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -321,6 +321,6 @@ tags:
 - Comments
 - Threads
 - Notification
-- WebSockets
+- WebSocket
 website: https://liveblocks.io
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -100,11 +100,6 @@ apis:
   slug: energyx-store-api
 - baseURL: https://energyx.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for energyx.com URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any post, page, press release, video or product on the sit
-  name: EnergyX oEmbed API
-  slug: energyx-oembed-api
-- baseURL: https://energyx.com/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any energyx.com URL — a structured-data view of every page without scraping the HTML.
   name: EnergyX SEO Metadata API
   slug: energyx-seo-api
@@ -133,6 +128,11 @@ apis:
   description: The product catalog as WordPress core content records.
   name: EnergyX Products API
   slug: energyx-products-api
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint.
+  name: EnergyX o Embed API
+  slug: energyx-o-embed-api
 artifact_total: 38
 collections:
 - collection_type: open
@@ -181,6 +181,11 @@ collections:
   name: EnergyX Videos API
   slug: open-energyx-videos-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/overlays/energyx-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/energyx-oembed-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/capabilities/energyx-capability-edges.yml
   title: ''
@@ -371,12 +376,12 @@ network: true
 overview: 'EnergyX publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Leadership API, and 15 more. Tagged areas include Company, Lithium, Direct Lithium Extraction, Critical Minerals, and Battery Technology.
 
 
-  EnergyX''s developer surface includes engineering blog, product news, FAQ, YouTube channel, authentication, code examples, and 34 more developer resources.'
+  EnergyX''s developer surface includes engineering blog, product news, FAQ, YouTube channel, authentication, code examples, and 35 more developer resources.'
 plans:
 - name: Energyx Plans Pricing
   plan_count: 0
   slug: energyx-plans-pricing
-random_paper: 14
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Energyx Rate Limits
@@ -422,7 +427,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

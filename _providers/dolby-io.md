@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -220,6 +220,10 @@ collections:
   name: Dolby OptiView Real-time Streaming ABR Ladders Webhooks API
   slug: open-dolby-io-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://dolby.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/capabilities/dolby-io-capability-edges.yml
   title: ''
@@ -545,7 +549,7 @@ jsonld:
   property_count: 8
   slug: dolby-io-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Dolby.io
 nav: Providers
 network: true
@@ -555,12 +559,12 @@ overview: 'Dolby.io publishes 14 APIs on the [APIs.io](https://apis.io/) network
   The Dolby.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dolby.io''s developer surface includes CLI, authentication, developer portal, documentation, getting-started guide, signup flow, pricing, and 52 more developer resources.'
+  Dolby.io''s developer surface includes CLI, authentication, developer portal, documentation, getting-started guide, signup flow, pricing, and 53 more developer resources.'
 plans:
 - name: Dolby Io Plans Pricing
   plan_count: 4
   slug: dolby-io-plans-pricing
-random_paper: 1
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Dolby Io Rate Limits
@@ -616,7 +620,7 @@ score:
       total: 14
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -652,5 +656,5 @@ tags:
 - Millicast
 - THEOlive
 - THEOplayer
-website: https://optiview.dolby.com
+website: https://dolby.com
 ---

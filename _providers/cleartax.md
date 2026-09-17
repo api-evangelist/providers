@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Generate, cancel, and retrieve GST e-invoices (IRN) and e-waybills, including government IRP/NIC-compatible endpoints, DSC PDF signing, and bulk operations.
@@ -55,6 +55,10 @@ apis:
   slug: clear-invoicing-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://cleartax.in
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/security/cleartax-vulnerability-disclosure.yml
   title: ''
@@ -158,15 +162,15 @@ created: '2026-07-17'
 description: Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises. Clear exposes a suite of developer APIs through its documentation portal at docs.cleartax.in, including the Clear Finance Cloud (CFC) ingestion APIs, the GST 2.0 / GSP filing API, the Max ITC input-tax-credit reconciliation API, the GLS API, the E-Invoicing and E-Waybill APIs (with government IRP/NIC-compatible endpoints and DSC signing), the Invoicing API, and KSA (Saudi Arabia) e-invoicing APIs. APIs authenticate with a client secret exchanged for an access token and run against production (api.clear.in) and sandbox (api-sandbox.clear.in) hosts.
 image: https://github.com/ClearTax.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Cleartax
 nav: Providers
 network: true
 overview: 'Cleartax publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Tax, GST, E-Invoicing, and Compliance.
 
 
-  Cleartax''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 15 more developer resources.'
-random_paper: 12
+  Cleartax''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
+random_paper: 16
 score:
   band: thin
   composite: 36.1
@@ -200,7 +204,7 @@ score:
     regime_id: government
     score: 48.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -232,5 +236,5 @@ tags:
 - India
 - Financial Automation
 - Government
-website: https://docs.cleartax.in/cleartax-docs
+website: https://cleartax.in
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -84,7 +84,7 @@ modified: '2026-04-28'
 name: NuStar Energy
 nav: Providers
 network: true
-overview: 'NuStar Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Pipelines, Storage, Terminals, and Fortune 1000.
+overview: 'NuStar Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Pipelines, Storage, Terminal, and Fortune 1000.
 
 
   NuStar Energy''s developer surface includes product news and 9 more developer resources.'
@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Sunoco LP completes acquisition of NuStar Energy
   url: https://www.facebook.com/nustarenergy1/posts/we-are-pleased-to-announce-that-effective-may-3-2024-sunoco-lp-completed-its-acq/960027296127588/
-random_paper: 20
+random_paper: 0
 score:
   band: minimal
   composite: 5.0
@@ -137,7 +137,7 @@ score:
     regime_id: energy_utilities
     score: 5.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -148,7 +148,7 @@ tags:
 - Energy
 - Pipelines
 - Storage
-- Terminals
+- Terminal
 - Fortune 1000
 website: https://www.nustar-energy.com
 ---

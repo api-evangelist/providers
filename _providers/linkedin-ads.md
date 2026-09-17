@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,19 +48,9 @@ apis:
   slug: marketing-api
 - baseURL: https://api.linkedin.com
   baseurl_source: declared
-  description: The AdAccounts API from LinkedIn Marketing API — 5 operation(s) for adaccounts.
-  name: LinkedIn Marketing API AdAccounts API
-  slug: linkedin-ads-adaccounts-api
-- baseURL: https://api.linkedin.com
-  baseurl_source: declared
   description: The AdBudgetPricing API from LinkedIn Marketing API — 1 operation(s) for adbudgetpricing.
   name: LinkedIn Marketing API AdBudgetPricing API
   slug: linkedin-ads-adbudgetpricing-api
-- baseURL: https://api.linkedin.com
-  baseurl_source: declared
-  description: The AdTargetingEntities API from LinkedIn Marketing API — 1 operation(s) for adtargetingentities.
-  name: LinkedIn Marketing API AdTargetingEntities API
-  slug: linkedin-ads-adtargetingentities-api
 - baseURL: https://api.linkedin.com
   baseurl_source: declared
   description: The AdTargetingFacets API from LinkedIn Marketing API — 1 operation(s) for adtargetingfacets.
@@ -68,9 +58,19 @@ apis:
   slug: linkedin-ads-adtargetingfacets-api
 - baseURL: https://api.linkedin.com
   baseurl_source: declared
-  description: The AudienceCounts API from LinkedIn Marketing API — 1 operation(s) for audiencecounts.
-  name: LinkedIn Marketing API AudienceCounts API
-  slug: linkedin-ads-audiencecounts-api
+  description: The Ad Accounts API from LinkedIn Marketing API — 5 operation(s) for ad accounts.
+  name: LinkedIn Marketing API Ad Accounts API
+  slug: linkedin-ads-ad-accounts-api
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The Ad Targeting Entities API from LinkedIn Marketing API — 1 operation(s) for ad targeting entities.
+  name: LinkedIn Marketing API Ad Targeting Entities API
+  slug: linkedin-ads-ad-targeting-entities-api
+- baseURL: https://api.linkedin.com
+  baseurl_source: declared
+  description: The Audience Counts API from LinkedIn Marketing API — 1 operation(s) for audience counts.
+  name: LinkedIn Marketing API Audience Counts API
+  slug: linkedin-ads-audience-counts-api
 artifact_total: 21
 asyncapis:
 - description: ''
@@ -99,6 +99,21 @@ collections:
   name: LinkedIn Marketing API
   slug: open-linkedin-ads
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/overlays/linkedin-ads-adaccounts-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/linkedin-ads-adaccounts-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/overlays/linkedin-ads-adtargetingentities-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/linkedin-ads-adtargetingentities-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/overlays/linkedin-ads-audiencecounts-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/linkedin-ads-audiencecounts-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/agentic-access/linkedin-ads-agentic-access.yml
   title: ''
@@ -276,18 +291,18 @@ modified: '2026-08-13'
 name: LinkedIn Marketing API
 nav: Providers
 network: true
-overview: 'LinkedIn Marketing API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AdAccounts API, AdBudgetPricing API, AdTargetingEntities API, and 2 more. Tagged areas include Advertising, Marketing, LinkedIn, Lead Generation, and Audience Targeting.
+overview: 'LinkedIn Marketing API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AdBudgetPricing API, AdTargetingFacets API, Ad Accounts API, and 2 more. Tagged areas include Advertising, Marketing, LinkedIn, Lead Generation, and Audience Targeting.
 
 
   The LinkedIn Marketing API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LinkedIn Marketing API''s developer surface includes authentication, documentation, signup flow, support, engineering blog, sandbox, changelog, and 30 more developer resources.'
+  LinkedIn Marketing API''s developer surface includes authentication, documentation, signup flow, support, engineering blog, sandbox, changelog, and 33 more developer resources.'
 plans:
 - name: Linkedin Ads Plans Pricing
   plan_count: 2
   slug: linkedin-ads-plans-pricing
-random_paper: 6
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Linkedin Ads Rate Limits
@@ -327,7 +342,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

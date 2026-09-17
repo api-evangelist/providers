@@ -25,7 +25,7 @@ name: Ahlijasa
 nav: Providers
 network: true
 overview: Ahlijasa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Laundry, On-Demand, and Marketplace.
-random_paper: 10
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahlijasa/refs/heads/main/screenshots/ahlijasa-2026-07-25T195331.png
 slug: ahlijasa
 tags:

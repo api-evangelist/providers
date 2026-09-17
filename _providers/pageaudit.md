@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,15 +16,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 38.3
-  scored_at: '2026-09-15'
+  score: 40.8
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -33,11 +34,126 @@ agentic_access:
   summary_line: 38 operations · 16 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: REST/HTTP API for one-shot technical SEO audits plus micro-tools, with a hosted MCP server, llms.txt, and OKF knowledge bundle. OpenAPI 3.1.0 covering 38 endpoints and 26 structures.
-  name: PageAudit API
-  slug: pageaudit-api
-artifact_total: 9
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Apis.json API from PageAudit — 1 operation(s) for apis.json.
+  name: PageAudit Apis.json API
+  slug: pageaudit-apis-json-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Audit API from PageAudit — 1 operation(s) for audit.
+  name: PageAudit Audit API
+  slug: pageaudit-audit-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Audits API from PageAudit — 3 operation(s) for audits.
+  name: PageAudit Audits API
+  slug: pageaudit-audits-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Auth API from PageAudit — 4 operation(s) for auth.
+  name: PageAudit Auth API
+  slug: pageaudit-auth-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Badge API from PageAudit — 2 operation(s) for badge.
+  name: PageAudit Badge API
+  slug: pageaudit-badge-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Billing API from PageAudit — 1 operation(s) for billing.
+  name: PageAudit Billing API
+  slug: pageaudit-billing-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Contact API from PageAudit — 1 operation(s) for contact.
+  name: PageAudit Contact API
+  slug: pageaudit-contact-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Credito API from PageAudit — 1 operation(s) for credito.
+  name: PageAudit Credito API
+  slug: pageaudit-credito-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Gate API from PageAudit — 1 operation(s) for gate.
+  name: PageAudit Gate API
+  slug: pageaudit-gate-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Guest API from PageAudit — 1 operation(s) for guest.
+  name: PageAudit Guest API
+  slug: pageaudit-guest-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Health API from PageAudit — 1 operation(s) for health.
+  name: PageAudit Health API
+  slug: pageaudit-health-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Mcp API from PageAudit — 1 operation(s) for mcp.
+  name: PageAudit MCP API
+  slug: pageaudit-mcp-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Me API from PageAudit — 1 operation(s) for me.
+  name: PageAudit Me API
+  slug: pageaudit-me-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Metrics API from PageAudit — 1 operation(s) for metrics.
+  name: PageAudit Metrics API
+  slug: pageaudit-metrics-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Okf API from PageAudit — 1 operation(s) for okf.
+  name: PageAudit Okf API
+  slug: pageaudit-okf-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The PageAudit API from PageAudit — 1 operation(s) for pageaudit.
+  name: PageAudit Page Audit API
+  slug: pageaudit-pageaudit-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The R API from PageAudit — 1 operation(s) for r.
+  name: PageAudit R API
+  slug: pageaudit-r-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Shared API from PageAudit — 1 operation(s) for shared.
+  name: PageAudit Shared API
+  slug: pageaudit-shared-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Tabs API from PageAudit — 3 operation(s) for tabs.
+  name: PageAudit Tabs API
+  slug: pageaudit-tabs-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Tools API from PageAudit — 4 operation(s) for tools.
+  name: PageAudit Tools API
+  slug: pageaudit-tools-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The Visit API from PageAudit — 1 operation(s) for visit.
+  name: PageAudit Visit API
+  slug: pageaudit-visit-api
+- baseURL: https://pageaudit.online
+  baseurl_source: declared
+  description: The .well Known API from PageAudit — 1 operation(s) for .well known.
+  name: PageAudit .well Known API
+  slug: pageaudit-well-known-api
+artifact_total: 30
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://pageaudit.online/okf/index.md
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://pageaudit.online/mcp
 - group: company
   title: ''
   type: Website
@@ -173,22 +289,22 @@ modified: '2026-09-07'
 name: PageAudit
 nav: Providers
 network: true
-overview: 'PageAudit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Technical SEO, SEO auditing, Developer Tools, agent-native, and MCP.
+overview: 'PageAudit publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Apis.json API, Audit API, Audits API, and 19 more. Tagged areas include Technical SEO, SEO auditing, Developer Tools, agent-native, and MCP.
 
 
-  PageAudit''s developer surface includes authentication, pricing, and 23 more developer resources.'
+  PageAudit''s developer surface includes authentication, pricing, and 25 more developer resources.'
 plans:
 - name: Pageaudit Plans Pricing
   plan_count: 3
   slug: pageaudit-plans-pricing
-random_paper: 3
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Pageaudit Rate Limits
   slug: pageaudit-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 46.0
   coverage:
     artifact_dirs: 17
     catalog_earned: 61.0
@@ -196,11 +312,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.6
   facets:
     access_clarity: 63.2
     contract_governance: 18.2
-    contract_quality: 35.2
+    contract_quality: 53.6
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 36.8
@@ -212,11 +328,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 22
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -41,7 +41,7 @@ name: NowRx
 nav: Providers
 network: true
 overview: NowRx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Pharmacy, Healthcare, and Prescription Delivery.
-random_paper: 7
+random_paper: 2
 slug: nowrx
 tags:
 - Company

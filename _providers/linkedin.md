@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -376,29 +376,24 @@ apis:
   slug: talent-solutions-api
 - baseURL: https://api.linkedin.com/v2/
   baseurl_source: declared
-  description: Manage ad accounts
-  name: Microsoft LinkedIn AdAccounts API
-  slug: microsoft-linkedin-adaccounts-api
-- baseURL: https://api.linkedin.com/v2/
-  baseurl_source: declared
   description: Manage ad account user permissions
   name: Microsoft LinkedIn AdAccountUsers API
   slug: microsoft-linkedin-adaccountusers-api
-- baseURL: https://api.linkedin.com/v2/
+- baseURL: https://api.linkedin.com
   baseurl_source: declared
   description: Manage campaign groups
-  name: Microsoft LinkedIn AdCampaignGroups API
-  slug: microsoft-linkedin-adcampaigngroups-api
-- baseURL: https://api.linkedin.com/v2/
+  name: LinkedIn Ad Campaign Groups API
+  slug: linkedin-ad-campaign-groups-api
+- baseURL: https://api.linkedin.com
   baseurl_source: declared
   description: Manage campaigns
-  name: Microsoft LinkedIn AdCampaigns API
-  slug: microsoft-linkedin-adcampaigns-api
-- baseURL: https://api.linkedin.com/v2/
+  name: LinkedIn Ad Campaigns API
+  slug: linkedin-ad-campaigns-api
+- baseURL: https://api.linkedin.com
   baseurl_source: declared
   description: Manage creatives
-  name: Microsoft LinkedIn AdCreatives API
-  slug: microsoft-linkedin-adcreatives-api
+  name: LinkedIn Ad Creatives API
+  slug: linkedin-ad-creatives-api
 arazzos:
 - description: Confirm an organization exists and then publish a text share authored by it.
   name: LinkedIn Create an Organization Share
@@ -445,7 +440,7 @@ arazzos:
 - description: Register a video upload for an owner, then confirm the resulting video asset resolves.
   name: LinkedIn Upload a Video and Verify the Asset
   slug: linkedin-upload-video-and-verify-workflow
-artifact_total: 880
+artifact_total: 879
 asyncapis:
 - description: ''
   name: Linkedin Webhooks
@@ -749,6 +744,26 @@ collections:
   name: LinkedIn Compliance Events Access Control User Streaming API
   slug: open-linkedin-user-streaming-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-adaccounts-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/linkedin-adaccounts-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-adcampaigngroups-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/linkedin-adcampaigngroups-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-adcampaigns-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/linkedin-adcampaigns-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/overlays/linkedin-adcreatives-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/linkedin-adcreatives-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -3278,13 +3293,13 @@ modified: '2026-08-13'
 name: LinkedIn
 nav: Providers
 network: true
-overview: 'LinkedIn publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Consumer API, Access Control API, Account Management API, and 67 more. Tagged areas include Business, Careers, Marketing, Professional Networking, and Recruiting.
+overview: 'LinkedIn publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Consumer API, Access Control API, Account Management API, and 66 more. Tagged areas include Business, Careers, Marketing, Professional Networking, and Recruiting.
 
 
   The LinkedIn catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  LinkedIn''s developer surface includes signup flow, getting-started guide, sandbox, code examples, changelog, authentication, documentation, and 107 more developer resources.'
+  LinkedIn''s developer surface includes signup flow, getting-started guide, sandbox, code examples, changelog, authentication, documentation, and 111 more developer resources.'
 plans:
 - name: Linkedin Plans Pricing
   plan_count: 8
@@ -3305,7 +3320,7 @@ press:
 - date: '2026-05-25'
   title: AI's Impact on Local News Production
   url: https://www.linkedin.com/top-content/artificial-intelligence/ai-in-journalism/ai-s-impact-on-local-news-production/
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Linkedin Rate Limits
@@ -3363,11 +3378,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 69
+      total: 68
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 12
@@ -57,11 +57,6 @@ apis:
   description: Read and write custom field values on Objectives, Key Results, Work Items, and Users
   name: WorkBoard custom-attributes API
   slug: workboard-custom-attributes-api
-- baseURL: https://www.myworkboard.com/wb/apis
-  baseurl_source: declared
-  description: '[WorkBoard''s help center documentation on Datastreams.](https://support.workboard.com/hc/en-us/articles/360006666652-Pushing-Business-Data-into-Workboard-with-Data-Streams#pushing-business-data-into-w'
-  name: WorkBoard Datastream API
-  slug: workboard-datastream-api
 - baseURL: https://www.myworkboard.com/wb/apis
   baseurl_source: declared
   description: The Goal (Objective) API from WorkBoard — 5 operation(s) for goal (objective).
@@ -102,6 +97,11 @@ apis:
   description: '[WorkBoard''s help center documentation on Workstreams.](https://support.workboard.com/hc/en-us/articles/115005163567-Workstreams#workstreams-0-0)'
   name: WorkBoard Workstream API
   slug: workboard-workstream-api
+- baseURL: https://myworkboard.com/wb/apis/scim
+  baseurl_source: declared
+  description: WorkBoard's help center documentation on Datastreams.
+  name: WorkBoard Data Stream API
+  slug: workboard-data-stream-api
 artifact_total: 32
 asyncapis:
 - description: ''
@@ -306,17 +306,17 @@ modified: '2026-07-21'
 name: WorkBoard
 nav: Providers
 network: true
-overview: 'WorkBoard publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activity (Action Items) API, custom-attributes API, Datastream API, and 8 more. Tagged areas include OKRs, Strategy Execution, Goals, Key Results, and Enterprise.
+overview: 'WorkBoard publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activity (Action Items) API, custom-attributes API, Goal (Objective) API, and 8 more. Tagged areas include OKRs, Strategy Execution, Goals, Key Results, and Enterprise.
 
 
   The WorkBoard catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   WorkBoard''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 5
+random_paper: 3
 score:
   band: developing
-  composite: 49.9
+  composite: 50.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -324,11 +324,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 59.3
+    contract_quality: 61.7
     developer_ergonomics: 42.3
     discoverability: 68.5
     operational_transparency: 52.6
@@ -344,7 +344,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 12
@@ -173,7 +173,7 @@ apis:
 - baseURL: https://solaris-host.example.com/api/v1
   baseurl_source: declared
   description: Individual zone operations including configuration, lifecycle, and resource management
-  name: Solaris Zones Zones API
+  name: Solaris Zones API
   slug: solaris-zones-zones-api
 artifact_total: 414
 collections:
@@ -1411,11 +1411,11 @@ jsonld:
   property_count: 0
   slug: solaris-zones-management-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Solaris Zones
 nav: Providers
 network: true
-overview: 'Solaris Zones publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Archive Creation API, Archive Deployment API, Archive Information API, and 23 more. Tagged areas include Containers, Kernel Zones, Operating Systems, Oracle, and RAD.
+overview: 'Solaris Zones publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Archive Creation API, Archive Deployment API, Archive Information API, and 23 more. Tagged areas include Containers, Kernel Zones, Operating System, Oracle, and RAD.
 
 
   The Solaris Zones catalog on APIs.io includes 11 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1426,7 +1426,7 @@ plans:
 - name: Solaris Zones Plans Pricing
   plan_count: 1
   slug: solaris-zones-plans-pricing
-random_paper: 4
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Solaris Zones Rate Limits
@@ -1480,7 +1480,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1499,7 +1499,7 @@ slug: solaris-zones
 tags:
 - Containers
 - Kernel Zones
-- Operating Systems
+- Operating System
 - Oracle
 - RAD
 - Resource Management

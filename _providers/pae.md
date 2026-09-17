@@ -39,7 +39,7 @@ overview: 'PAE is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   PAE''s developer surface includes GitHub presence and 3 more developer resources.'
-random_paper: 16
+random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/pae/refs/heads/main/screenshots/pae-2026-06-20T191319.png
 slug: pae
 tags:

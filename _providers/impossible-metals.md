@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://impossiblemetals.com/wp-json
@@ -88,11 +88,6 @@ apis:
   slug: impossible-metals-media-api
 - baseURL: https://impossiblemetals.com/wp-json
   baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint.
-  name: Impossible Metals O Embed API
-  slug: impossible-metals-oembed-api
-- baseURL: https://impossiblemetals.com/wp-json
-  baseurl_source: declared
   description: The Organizers API from Impossible Metals — 3 operation(s) for organizers.
   name: Impossible Metals Organizers API
   slug: impossible-metals-organizers-api
@@ -126,6 +121,11 @@ apis:
   description: The Venues API from Impossible Metals — 3 operation(s) for venues.
   name: Impossible Metals Venues API
   slug: impossible-metals-venues-api
+- baseURL: https://impossiblemetals.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint.
+  name: Impossible Metals o Embed API
+  slug: impossible-metals-o-embed-api
 artifact_total: 22
 common:
 - group: other
@@ -323,14 +323,14 @@ plans:
 - name: Impossible Metals Plans Pricing
   plan_count: 0
   slug: impossible-metals-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Impossible Metals Rate Limits
   slug: impossible-metals-rate-limits
 score:
   band: emerging
-  composite: 20.9
+  composite: 21.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -338,11 +338,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 29.6
+    contract_quality: 30.6
     developer_ergonomics: 20.8
     discoverability: 74.1
     operational_transparency: 0.0
@@ -362,7 +362,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

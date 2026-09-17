@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 11
 apis:
 - baseURL: https://intersight.com
@@ -100,11 +100,6 @@ apis:
   description: The catalystsdwan API from Cisco Intersight — 16 operation(s) for catalystsdwan.
   name: Cisco Intersight Catalystsdwan API
   slug: intersight-catalystsdwan-api
-- baseURL: https://intersight.com
-  baseurl_source: declared
-  description: The certificatemanagement API from Cisco Intersight — 4 operation(s) for certificatemanagement.
-  name: Cisco Intersight Certificatemanagement API
-  slug: intersight-certificatemanagement-api
 - baseURL: https://intersight.com
   baseurl_source: declared
   description: The chassis API from Cisco Intersight — 14 operation(s) for chassis.
@@ -272,11 +267,6 @@ apis:
   slug: intersight-ipmioverlan-api
 - baseURL: https://intersight.com
   baseurl_source: declared
-  description: The ippool API from Cisco Intersight — 16 operation(s) for ippool.
-  name: Cisco Intersight Ippool API
-  slug: intersight-ippool-api
-- baseURL: https://intersight.com
-  baseurl_source: declared
   description: The iqnpool API from Cisco Intersight — 12 operation(s) for iqnpool.
   name: Cisco Intersight Iqnpool API
   slug: intersight-iqnpool-api
@@ -372,21 +362,6 @@ apis:
   slug: intersight-ntp-api
 - baseURL: https://intersight.com
   baseurl_source: declared
-  description: The oauth API from Cisco Intersight — 4 operation(s) for oauth.
-  name: Cisco Intersight OAUTH API
-  slug: intersight-oauth-api
-- baseURL: https://intersight.com
-  baseurl_source: declared
-  description: The onprem API from Cisco Intersight — 8 operation(s) for onprem.
-  name: Cisco Intersight Onprem API
-  slug: intersight-onprem-api
-- baseURL: https://intersight.com
-  baseurl_source: declared
-  description: The openapi API from Cisco Intersight — 10 operation(s) for openapi.
-  name: Cisco Intersight Openapi API
-  slug: intersight-openapi-api
-- baseURL: https://intersight.com
-  baseurl_source: declared
   description: The oprs API from Cisco Intersight — 4 operation(s) for oprs.
   name: Cisco Intersight Oprs API
   slug: intersight-oprs-api
@@ -400,11 +375,6 @@ apis:
   description: The os API from Cisco Intersight — 17 operation(s) for os.
   name: Cisco Intersight Os API
   slug: intersight-os-api
-- baseURL: https://intersight.com
-  baseurl_source: declared
-  description: The partnerintegration API from Cisco Intersight — 18 operation(s) for partnerintegration.
-  name: Cisco Intersight Partnerintegration API
-  slug: intersight-partnerintegration-api
 - baseURL: https://intersight.com
   baseurl_source: declared
   description: The pci API from Cisco Intersight — 20 operation(s) for pci.
@@ -625,8 +595,42 @@ apis:
   description: The workload API from Cisco Intersight — 14 operation(s) for workload.
   name: Cisco Intersight Workload API
   slug: intersight-workload-api
+- baseURL: https://intersight.com
+  baseurl_source: declared
+  description: The oauth API from Cisco Intersight — 4 operation(s) for oauth.
+  name: Cisco Intersight OAUTH API
+  slug: intersight-oauth-api
+- baseURL: https://intersight.com
+  baseurl_source: declared
+  description: The certificate management API from Cisco Intersight — 4 operation(s) for certificate management.
+  name: Cisco Intersight certificate management API
+  slug: intersight-certificate-management-api
+- baseURL: https://intersight.com
+  baseurl_source: declared
+  description: The IP Pool API from Cisco Intersight — 16 operation(s) for ip pool.
+  name: Cisco Intersight IP Pool API
+  slug: intersight-ip-pool-api
+- baseURL: https://intersight.com
+  baseurl_source: declared
+  description: The On Prem API from Cisco Intersight — 8 operation(s) for on prem.
+  name: Cisco Intersight On Prem API
+  slug: intersight-on-prem-api
+- baseURL: https://intersight.com
+  baseurl_source: declared
+  description: The Open API API from Cisco Intersight — 10 operation(s) for open api.
+  name: Cisco Intersight Open API
+  slug: intersight-open-api-api
+- baseURL: https://intersight.com
+  baseurl_source: declared
+  description: The Partner Integration API from Cisco Intersight — 18 operation(s) for partner integration.
+  name: Cisco Intersight Partner Integration API
+  slug: intersight-partner-integration-api
 artifact_total: 124
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://intersight.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/intersight/refs/heads/main/capabilities/intersight-capability-edges.yml
   title: ''
@@ -861,19 +865,19 @@ created: '2026-08-19'
 description: 'Cisco Intersight is Cisco''s SaaS operations platform for UCS servers, HyperFlex clusters, Nexus fabrics, third-party storage and virtualization, covering provisioning, firmware lifecycle, workload optimization, telemetry and Kubernetes service delivery. Cisco publishes the full OpenAPI 3.0.2 contract for the platform anonymously — 3,963 operations across 2,448 paths and 5,612 schemas, split into twelve per-service documents plus a combined document, served from cdn.intersight.com and refreshed on every production release. Every operation carries a summary, a tag and a unique operationId. The API uses OData-style query semantics ($filter, $top, $skip, $select, $expand, $apply), HTTP-signature or OAuth2 authorization-code authentication with 54 role scopes, RFC 7240 Prefer: respond-async for long-running work, and conditional requests (If-Match / If-None-Match) for lost-update protection.'
 image: https://cdn.intersight.com/components/ucs-an-common/1.0.11-20260717085249663/images/social/socialMediaPreviewImage1024.png
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: Cisco Intersight
 nav: Providers
 network: true
 overview: 'Cisco Intersight publishes 117 APIs on the [APIs.io](https://apis.io/) network, including Aaa API, Access API, Adapter API, and 114 more. Tagged areas include Infrastructure, Cloud Operations, Data-Center, Compute, and Networking.
 
 
-  Cisco Intersight''s developer surface includes developer portal, documentation, API reference, changelog, pricing, sandbox, authentication, and 42 more developer resources.'
+  Cisco Intersight''s developer surface includes developer portal, documentation, API reference, changelog, pricing, sandbox, authentication, and 43 more developer resources.'
 plans:
 - name: Intersight Plans Pricing
   plan_count: 2
   slug: intersight-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Intersight Rate Limits
@@ -912,7 +916,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -949,5 +953,5 @@ tags:
 - Orchestration
 - Telemetry
 - Firmware Management
-website: https://intersight.com/apidocs/introduction/overview/
+website: https://intersight.com
 ---

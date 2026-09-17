@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ modified: '2026-05-23'
 name: Reka
 nav: Providers
 network: true
-overview: 'Reka publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Clips API, Models API, and 6 more. Tagged areas include Artificial Intelligence, Multi-Modal, Large Language Models, Vision, and Speech.
+overview: 'Reka publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Clips API, Models API, and 6 more. Tagged areas include Artificial Intelligence, Multi-Modal, LLM, Vision, and Speech.
 
 
   Reka''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
@@ -210,7 +210,7 @@ plans:
 - name: Reka Plans Pricing
   plan_count: 1
   slug: reka-plans-pricing
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Reka Rate Limits
@@ -242,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -265,7 +265,7 @@ slug: reka
 tags:
 - Artificial Intelligence
 - Multi-Modal
-- Large Language Models
+- LLM
 - Vision
 - Speech
 - Foundation Models

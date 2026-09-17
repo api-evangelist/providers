@@ -46,7 +46,7 @@ overview: 'Stamplay is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Stamplay''s developer surface includes CLI and 4 more developer resources.'
-random_paper: 14
+random_paper: 17
 slug: stamplay
 tags:
 - Company

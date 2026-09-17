@@ -33,19 +33,44 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.7
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping APIs. Files use the .apib extension with media type text/vnd.apiblueprint
   name: API Blueprint
   slug: api-blueprint
 - baseURL: https://api.apiblueprint.org
   baseurl_source: declared
-  description: The API Blueprint API is the parsing service operated at api.apiblueprint.org by the API Blueprint project. It parses API Blueprint and Swagger 2.0 documents into the Refract Parse Result Namespace (A
-  name: API Blueprint API
-  slug: api-blueprint-api
-artifact_total: 20
+  description: Compose an API description format from API Elements.
+  name: API Blueprint Composer API
+  slug: api-blueprint-composer-api
+- baseURL: https://api.apiblueprint.org
+  baseurl_source: declared
+  description: Parse an API description format into API Elements.
+  name: API Blueprint Parser API
+  slug: api-blueprint-parser-api
+- baseURL: https://api.apiblueprint.org
+  baseurl_source: declared
+  description: Entry point listing the available affordances.
+  name: API Blueprint Service Root API
+  slug: api-blueprint-service-root-api
+- baseURL: https://api.apiblueprint.org
+  baseurl_source: declared
+  description: Convert an API description between formats through a JSON envelope. Advertised by the live service root; absent from the provider's published contract.
+  name: API Blueprint Transform API
+  slug: api-blueprint-transform-api
+- baseURL: https://api.apiblueprint.org
+  baseurl_source: declared
+  description: Validate an API description and return its annotations. Advertised by the live service root; absent from the provider's published contract.
+  name: API Blueprint Validate API
+  slug: api-blueprint-validate-api
+artifact_total: 24
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/overlays/api-blueprint-parsing-service-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/api-blueprint-parsing-service-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -191,22 +216,22 @@ modified: '2026-09-02'
 name: API Blueprint
 nav: Providers
 network: true
-overview: 'API Blueprint publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, Specification Language, Markdown, Documentation, and API Description Language.
+overview: 'API Blueprint publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Composer API, Parser API, Service Root API, and 2 more. Tagged areas include API Design, Specification Language, Markdown, Documentation, and API Description Language.
 
 
-  API Blueprint''s developer surface includes documentation, CLI, changelog, support, and 20 more developer resources.'
+  API Blueprint''s developer surface includes documentation, CLI, changelog, support, and 21 more developer resources.'
 plans:
 - name: Api Blueprint Plans Pricing
   plan_count: 0
   slug: api-blueprint-plans-pricing
-random_paper: 17
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Api Blueprint Rate Limits
   slug: api-blueprint-rate-limits
 score:
   band: developing
-  composite: 41.2
+  composite: 40.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 41.0
@@ -214,11 +239,11 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 18.4
     contract_governance: 4.5
-    contract_quality: 60.7
+    contract_quality: 58.1
     developer_ergonomics: 70.8
     discoverability: 59.3
     operational_transparency: 18.4
@@ -229,11 +254,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 5
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

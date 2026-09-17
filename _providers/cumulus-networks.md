@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: 'Cumulus Networks is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cumulus Networks'' developer surface includes documentation and 4 more developer resources.'
-random_paper: 19
+random_paper: 4
 score:
   band: minimal
   composite: 7.2
@@ -92,7 +92,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

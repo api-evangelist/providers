@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: How Onity Group is making use of AI | Ocwen Financial ...
   url: https://www.linkedin.com/posts/ocwen-financial-solutions_how-onity-group-is-making-use-of-ai-activity-7348750741127204864-Hk_x
-random_paper: 6
+random_paper: 0
 score:
   band: minimal
   composite: 3.2
@@ -96,7 +96,7 @@ score:
       reason: never_enriched
   previous_composite: 3.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

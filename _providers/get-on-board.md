@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.getonbrd.com/api/v0/
@@ -49,7 +49,7 @@ apis:
 - baseURL: https://www.getonbrd.com/api/v0/
   baseurl_source: declared
   description: Private board integration
-  name: Get On Board Board+ API
+  name: Get On Board+ API
   slug: get-on-board-board-api
 - baseURL: https://www.getonbrd.com/api/v0/
   baseurl_source: declared
@@ -360,18 +360,18 @@ created: '2026-07-17'
 description: Get on Board (getonbrd.com) is the leading tech-recruitment platform and applicant tracking system (ATS) for Latin America, connecting companies with a talent database of 1M+ technology professionals. Companies post jobs, run structured hiring processes, and access candidate profiles. Get on Board publishes a public REST API (v0) with an OpenAPI 3.0 specification, a sandbox environment, outbound webhooks, and a first-party Ruby client library. The public API exposes job categories, company profiles, published jobs, and a job search endpoint with no authentication; a private Companies API (API-key authenticated, subscription-gated) covers jobs, applications, hiring processes, professionals, company shells, and webhook management. Surfaced as a portfolio company of 500 Global and enriched by the API Evangelist pipeline.
 image: https://d2dgum4gsvdsrq.cloudfront.net/assets/og_images/og-image-4d63c74882f757bdb9589139bc6475e094fec168aeba32184c24b0f5a8de8a35.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Get On Board
 nav: Providers
 network: true
-overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Board+ API, and 19 more. Tagged areas include Company, Recruitment, Job, Hiring, and ATS.
+overview: 'Get On Board publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Get On Board+ API, and 19 more. Tagged areas include Company, Recruitment, Job, Hiring, and ATS.
 
 
   The Get On Board catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Get On Board''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, sandbox, and 22 more developer resources.'
-random_paper: 17
+random_paper: 7
 score:
   band: developing
   composite: 43.8
@@ -406,7 +406,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

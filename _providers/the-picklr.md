@@ -37,19 +37,79 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.3
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://thepicklr.com/wp-json
-  baseurl_source: declared
-  description: The public read surface of thepicklr.com, served by WordPress core and the site's plugins. Anonymous GET returns the franchise's own published content — 157 club location records, 53 pages, 23 blog po
-  name: The Picklr WordPress REST API
-  slug: the-picklr-wordpress-rest-api
 - description: 'Three Model Context Protocol endpoints registered under the mcp REST namespace on thepicklr.com, exposed by the Novamira WordPress plugin (v1.11.4). The canonical one, /wp-json/mcp/novamira-oauth, is '
   name: The Picklr MCP Server
   slug: the-picklr-mcp-server
-artifact_total: 8
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The categories API from The Picklr — 2 operation(s) for categories.
+  name: The Picklr Categories API
+  slug: the-picklr-categories-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The club_clinics API from The Picklr — 2 operation(s) for club_clinics.
+  name: The Picklr Club Clinics API
+  slug: the-picklr-club-clinics-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The event API from The Picklr — 2 operation(s) for event.
+  name: The Picklr Event API
+  slug: the-picklr-event-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The location API from The Picklr — 2 operation(s) for location.
+  name: The Picklr Location API
+  slug: the-picklr-location-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The media API from The Picklr — 2 operation(s) for media.
+  name: The Picklr Media API
+  slug: the-picklr-media-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The pages API from The Picklr — 2 operation(s) for pages.
+  name: The Picklr Pages API
+  slug: the-picklr-pages-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The posts API from The Picklr — 2 operation(s) for posts.
+  name: The Picklr Posts API
+  slug: the-picklr-posts-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The press API from The Picklr — 2 operation(s) for press.
+  name: The Picklr Press API
+  slug: the-picklr-press-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The search API from The Picklr — 1 operation(s) for search.
+  name: The Picklr Search API
+  slug: the-picklr-search-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The tags API from The Picklr — 2 operation(s) for tags.
+  name: The Picklr Tags API
+  slug: the-picklr-tags-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The taxonomies API from The Picklr — 1 operation(s) for taxonomies.
+  name: The Picklr Taxonomies API
+  slug: the-picklr-taxonomies-api
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The types API from The Picklr — 1 operation(s) for types.
+  name: The Picklr Types API
+  slug: the-picklr-types-api
+artifact_total: 19
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/the-picklr/refs/heads/main/overlays/the-picklr-wordpress-rest-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/the-picklr-wordpress-rest-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/the-picklr/refs/heads/main/security/the-picklr-domain-security.yml
   title: ''
@@ -162,15 +222,15 @@ modified: '2026-08-30'
 name: The Picklr
 nav: Providers
 network: true
-overview: 'The Picklr publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Company, Sports, Pickleball, Fitness, and Franchising.
+overview: 'The Picklr publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Club Clinics API, Event API, and 9 more. Tagged areas include Company, Sports, Pickleball, Fitness, and Franchising.
 
 
-  The Picklr''s developer surface includes engineering blog, pricing, authentication, and 18 more developer resources.'
+  The Picklr''s developer surface includes engineering blog, pricing, authentication, and 19 more developer resources.'
 plans:
 - name: The Picklr Plans Pricing
   plan_count: 6
   slug: the-picklr-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: The Picklr Rate Limits
@@ -203,9 +263,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 12
       marker_coverage: 100.0
-      total: 1
+      total: 12
     mcp: first-party
     skills: derived
   regulatory:
@@ -215,7 +275,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

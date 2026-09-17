@@ -37,14 +37,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 8
-  human_in_the_loop: 8
+- acting_count: 50
+  human_in_the_loop: 0
   name: Hitpay Agentic Access
-  operation_count: 12
+  operation_count: 92
   slug: hitpay-agentic-access
-  summary_line: 12 operations · 8 acting · 8 human-in-the-loop
+  summary_line: 92 operations · 50 acting
 api_count: 2
 apis:
 - baseURL: https://api.hit-pay.com/v1
@@ -524,7 +524,7 @@ plans:
 - name: Hitpay Plans Pricing
   plan_count: 3
   slug: hitpay-plans-pricing
-random_paper: 4
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Hitpay Rate Limits
@@ -543,7 +543,7 @@ score:
   facets:
     access_clarity: 78.9
     contract_governance: 18.2
-    contract_quality: 62.7
+    contract_quality: 62.6
     developer_ergonomics: 69.6
     discoverability: 75.9
     operational_transparency: 47.4
@@ -570,7 +570,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

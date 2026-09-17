@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ modified: '2026-06-13'
 name: TrackingMore
 nav: Providers
 network: true
-overview: 'TrackingMore publishes 3 APIs on the [APIs.io](https://apis.io/) network: Air Waybills API, Couriers API, and Trackings API. Tagged areas include Logistics, Shipping, Tracking, Parcels, and Webhook.
+overview: 'TrackingMore publishes 3 APIs on the [APIs.io](https://apis.io/) network: Air Waybills API, Couriers API, and Trackings API. Tagged areas include Logistics, Shipping, Tracking, Parcel, and Webhook.
 
 
   The TrackingMore catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -217,7 +217,7 @@ plans:
 - name: Trackingmore Plans
   plan_count: 4
   slug: trackingmore-plans
-random_paper: 5
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Trackingmore Rate Limits
@@ -260,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -280,7 +280,7 @@ tags:
 - Logistics
 - Shipping
 - Tracking
-- Parcels
+- Parcel
 - Webhook
 - E-Commerce
 website: https://www.trackingmore.com/

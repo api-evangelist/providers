@@ -11,35 +11,175 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.2
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 36.8
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://api.ams.fortify.com
-  baseurl_source: declared
-  description: The REST API behind OpenText Core Application Security, still branded Fortify on Demand across the contract and the tooling. 159 operations over 125 paths cover applications, releases, static, dynamic
-  name: OpenText Core Application Security (Fortify on Demand) API
-  slug: fortify-on-demand-api
 - description: The Webroot Unity API is the multi-tenant REST platform OpenText Cybersecurity partners and managed service providers use to reach Webroot and Secure Cloud services — endpoint status, Global Site Mana
   name: Webroot Unity API
   slug: webroot-unity-api
-artifact_total: 9
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Applications API from OpenText Cybersecurity — 15 operation(s) for applications.
+  name: OpenText Cybersecurity Applications API
+  slug: opentext-cybersecurity-applications-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Attributes API from OpenText Cybersecurity — 2 operation(s) for attributes.
+  name: OpenText Cybersecurity Attributes API
+  slug: opentext-cybersecurity-attributes-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The AuditTemplate API from OpenText Cybersecurity — 1 operation(s) for audittemplate.
+  name: OpenText Cybersecurity Audit Template API
+  slug: opentext-cybersecurity-audittemplate-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The FortifyOnDemandConnectNetworks API from OpenText Cybersecurity — 1 operation(s) for fortifyondemandconnectnetworks.
+  name: OpenText Cybersecurity Fortify On Demand Connect Networks API
+  slug: opentext-cybersecurity-fortifyondemandconnectnetworks-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The MultiFactorAuthorizationCode API from OpenText Cybersecurity — 1 operation(s) for multifactorauthorizationcode.
+  name: OpenText Cybersecurity Multi Factor Authorization Code API
+  slug: opentext-cybersecurity-multifactorauthorizationcode-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Notifications API from OpenText Cybersecurity — 3 operation(s) for notifications.
+  name: OpenText Cybersecurity Notifications API
+  slug: opentext-cybersecurity-notifications-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Releases API from OpenText Cybersecurity — 15 operation(s) for releases.
+  name: OpenText Cybersecurity Releases API
+  slug: opentext-cybersecurity-releases-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Reports API from OpenText Cybersecurity — 7 operation(s) for reports.
+  name: OpenText Cybersecurity Reports API
+  slug: opentext-cybersecurity-reports-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Scans API from OpenText Cybersecurity — 8 operation(s) for scans.
+  name: OpenText Cybersecurity Scans API
+  slug: opentext-cybersecurity-scans-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The TenantEntitlements API from OpenText Cybersecurity — 2 operation(s) for tenantentitlements.
+  name: OpenText Cybersecurity Tenant Entitlements API
+  slug: opentext-cybersecurity-tenantentitlements-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The TenantHeatMaps API from OpenText Cybersecurity — 1 operation(s) for tenantheatmaps.
+  name: OpenText Cybersecurity Tenant Heat Maps API
+  slug: opentext-cybersecurity-tenantheatmaps-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Tenants API from OpenText Cybersecurity — 2 operation(s) for tenants.
+  name: OpenText Cybersecurity Tenants API
+  slug: opentext-cybersecurity-tenants-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The TenantSummary API from OpenText Cybersecurity — 1 operation(s) for tenantsummary.
+  name: OpenText Cybersecurity Tenant Summary API
+  slug: opentext-cybersecurity-tenantsummary-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The UserApplicationAccess API from OpenText Cybersecurity — 2 operation(s) for userapplicationaccess.
+  name: OpenText Cybersecurity User Application Access API
+  slug: opentext-cybersecurity-userapplicationaccess-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The UserGroupApplicationAccess API from OpenText Cybersecurity — 2 operation(s) for usergroupapplicationaccess.
+  name: OpenText Cybersecurity User Group Application Access API
+  slug: opentext-cybersecurity-usergroupapplicationaccess-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Users API from OpenText Cybersecurity — 2 operation(s) for users.
+  name: OpenText Cybersecurity Users API
+  slug: opentext-cybersecurity-users-api
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: The Vulnerabilities API from OpenText Cybersecurity — 20 operation(s) for vulnerabilities.
+  name: OpenText Cybersecurity Vulnerabilities API
+  slug: opentext-cybersecurity-vulnerabilities-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The API Key Management API from OpenText Cybersecurity — 5 operation(s) for api key management.
+  name: OpenText Cybersecurity API Key Management API
+  slug: opentext-cybersecurity-api-key-management-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The DAST Automated Scans API from OpenText Cybersecurity — 9 operation(s) for dast automated scans.
+  name: OpenText Cybersecurity DAST Automated Scans API
+  slug: opentext-cybersecurity-dast-automated-scans-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The Dynamic Scans API from OpenText Cybersecurity — 6 operation(s) for dynamic scans.
+  name: OpenText Cybersecurity Dynamic Scans API
+  slug: opentext-cybersecurity-dynamic-scans-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The Event Logs API from OpenText Cybersecurity — 1 operation(s) for event logs.
+  name: OpenText Cybersecurity Event Logs API
+  slug: opentext-cybersecurity-event-logs-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The Lookup Items API from OpenText Cybersecurity — 1 operation(s) for lookup items.
+  name: OpenText Cybersecurity Lookup Items API
+  slug: opentext-cybersecurity-lookup-items-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The Mobile Scans API from OpenText Cybersecurity — 3 operation(s) for mobile scans.
+  name: OpenText Cybersecurity Mobile Scans API
+  slug: opentext-cybersecurity-mobile-scans-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The Open Source Components API from OpenText Cybersecurity — 2 operation(s) for open source components.
+  name: OpenText Cybersecurity Open Source Components API
+  slug: opentext-cybersecurity-open-source-components-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The Open Source Scans API from OpenText Cybersecurity — 1 operation(s) for open source scans.
+  name: OpenText Cybersecurity Open Source Scans API
+  slug: opentext-cybersecurity-open-source-scans-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The Personal Access Tokens API from OpenText Cybersecurity — 3 operation(s) for personal access tokens.
+  name: OpenText Cybersecurity Personal Access Tokens API
+  slug: opentext-cybersecurity-personal-access-tokens-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The Static Scans API from OpenText Cybersecurity — 6 operation(s) for static scans.
+  name: OpenText Cybersecurity Static Scans API
+  slug: opentext-cybersecurity-static-scans-api
+- baseURL: https://unityapi.webrootcloudav.com
+  baseurl_source: declared
+  description: The User Management API from OpenText Cybersecurity — 3 operation(s) for user management.
+  name: OpenText Cybersecurity User Management API
+  slug: opentext-cybersecurity-user-management-api
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Opentext Cybersecurity Webroot Unity Webhooks
   slug: opentext-cybersecurity-webroot-unity-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/overlays/opentext-cybersecurity-fortify-on-demand-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/opentext-cybersecurity-fortify-on-demand-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/opentext-cybersecurity/refs/heads/main/security/opentext-cybersecurity-domain-security.yml
   title: ''
@@ -252,18 +392,18 @@ modified: '2026-09-13'
 name: OpenText Cybersecurity
 nav: Providers
 network: true
-overview: 'OpenText Cybersecurity publishes 1 API on the [APIs.io](https://apis.io/) network: OpenText Core Application Security (Fortify on Demand) API. Tagged areas include Cybersecurity, Application Security, Vulnerability Management, SAST, and DAST.
+overview: 'OpenText Cybersecurity publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Attributes API, Audit Template API, and 25 more. Tagged areas include Cybersecurity, Application Security, Vulnerability Management, SAST, and DAST.
 
 
   The OpenText Cybersecurity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OpenText Cybersecurity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 36 more developer resources.'
+  OpenText Cybersecurity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 37 more developer resources.'
 plans:
 - name: Opentext Cybersecurity Plans Pricing
   plan_count: 0
   slug: opentext-cybersecurity-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Opentext Cybersecurity Rate Limits
@@ -274,8 +414,8 @@ scopes:
   slug: opentext-cybersecurity-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.2
+  band: strong
+  composite: 56.6
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -283,21 +423,26 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.4
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 48.1
+    contract_quality: 57.8
     developer_ergonomics: 78.6
     discoverability: 75.9
     operational_transparency: 52.6
   previous_composite: 54.2
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 28
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

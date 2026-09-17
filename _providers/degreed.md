@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 13.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Degreed REST API provides HTTP-based access to manage learning data within the Degreed platform. It covers user management, learning content (articles, books, courses, videos, podcasts, events), p
@@ -41,6 +41,10 @@ apis:
   slug: degreed-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://degreed.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/degreed/refs/heads/main/security/degreed-trust-center.yml
   title: ''
@@ -76,7 +80,7 @@ jsonld:
   property_count: 8
   slug: degreed-context
 layout: provider
-modified: 2026-06-13
+modified: '2026-09-16'
 name: Degreed
 nav: Providers
 network: true
@@ -88,7 +92,7 @@ plans:
 - name: Degreed Plans Pricing
   plan_count: 3
   slug: degreed-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Degreed Rate Limits
@@ -115,7 +119,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -139,4 +143,5 @@ tags:
 - Workforce Upskilling
 - E-Learning
 - HR Technology
+website: https://degreed.com
 ---

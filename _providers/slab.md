@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,9 +47,9 @@ api_count: 1
 apis:
 - baseURL: https://api.slab.com/v1/graphql
   baseurl_source: declared
-  description: The GraphQL API from Slab — 1 operation(s) for graphql.
-  name: Slab GraphQL API
-  slug: slab-graphql-api
+  description: The Graph QL API from Slab — 1 operation(s) for graph ql.
+  name: Slab Graph QL API
+  slug: slab-graph-ql-api
 artifact_total: 12
 collections:
 - collection_type: open
@@ -133,7 +133,7 @@ modified: '2026-06-21'
 name: Slab
 nav: Providers
 network: true
-overview: 'Slab publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Knowledge Base, Wiki, Documentation, Collaboration, and GraphQL.
+overview: 'Slab publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Knowledge Base, Wiki, Documentation, Collaboration, and GraphQL.
 
 
   Slab''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -141,7 +141,7 @@ plans:
 - name: Slab Plans Pricing
   plan_count: 4
   slug: slab-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Slab Rate Limits
@@ -173,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

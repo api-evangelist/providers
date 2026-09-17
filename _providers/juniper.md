@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -290,103 +290,7 @@ apis:
 - description: Python-based tool for snapshot and verification of network device configurations.
   name: Juniper JSNAPy
   slug: juniper-jsnapy
-- description: Alarm monitoring, acknowledgment, and notification configuration.
-  name: Juniper Networks Alarms API
-  slug: juniper-networks-alarms-api
-- description: Network state anomaly detection and reporting.
-  name: Juniper Networks Anomalies API
-  slug: juniper-networks-anomalies-api
-- description: User login, logout, and token management.
-  name: Juniper Networks Authentication API
-  slug: juniper-networks-authentication-api
-- description: BGP router and peering configuration.
-  name: Juniper Networks BGP Routers API
-  slug: juniper-networks-bgp-routers-api
-- description: Blueprint lifecycle management for data center network intent, including staging, commit, and deployment.
-  name: Juniper Networks Blueprints API
-  slug: juniper-networks-blueprints-api
-- description: Wireless and wired client session monitoring and statistics.
-  name: Juniper Networks Clients API
-  slug: juniper-networks-clients-api
-- description: Configuration management, templates, and deployment.
-  name: Juniper Networks Configuration API
-  slug: juniper-networks-configuration-api
-- description: Design resources including logical devices, interface maps, rack types, templates, and config templates.
-  name: Juniper Networks Design API
-  slug: juniper-networks-design-api
-- description: Device discovery, management, and monitoring operations.
-  name: Juniper Networks Devices API
-  slug: juniper-networks-devices-api
-- description: Floating IP pool and association management.
-  name: Juniper Networks Floating IPs API
-  slug: juniper-networks-floating-ips-api
-- description: Intent-Based Analytics probes and dashboards.
-  name: Juniper Networks IBA API
-  slug: juniper-networks-iba-api
-- description: AI-driven network insights, anomaly detection, and Marvis recommendations.
-  name: Juniper Networks Insights API
-  slug: juniper-networks-insights-api
-- description: Device claiming, unclaiming, and inventory management.
-  name: Juniper Networks Inventory API
-  slug: juniper-networks-inventory-api
-- description: Asynchronous job tracking and management.
-  name: Juniper Networks Jobs API
-  slug: juniper-networks-jobs-api
-- description: Floor plan and map management for site RF planning.
-  name: Juniper Networks Maps API
-  slug: juniper-networks-maps-api
-- description: Device and session monitoring operations.
-  name: Juniper Networks Monitoring API
-  slug: juniper-networks-monitoring-api
-- description: Network address translation rule management.
-  name: Juniper Networks NAT API
-  slug: juniper-networks-nat-api
-- description: Network policy rules for traffic control between virtual networks.
-  name: Juniper Networks Network Policies API
-  slug: juniper-networks-network-policies-api
-- description: Organization-level settings, licenses, and inventory management.
-  name: Juniper Networks Organizations API
-  slug: juniper-networks-organizations-api
-- description: Tenant project management.
-  name: Juniper Networks Projects API
-  slug: juniper-networks-projects-api
-- description: Resource pool management for ASN, IP, and VNI allocation.
-  name: Juniper Networks Resources API
-  slug: juniper-networks-resources-api
-- description: Script management and execution on managed devices.
-  name: Juniper Networks Scripts API
-  slug: juniper-networks-scripts-api
-- description: Security group rules for workload micro-segmentation.
-  name: Juniper Networks Security Groups API
-  slug: juniper-networks-security-groups-api
-- description: Security policy and zone management.
-  name: Juniper Networks Security Policies API
-  slug: juniper-networks-security-policies-api
-- description: Network function service instance management.
-  name: Juniper Networks Service Instances API
-  slug: juniper-networks-service-instances-api
-- description: Site creation, configuration, and management within organizations.
-  name: Juniper Networks Sites API
-  slug: juniper-networks-sites-api
-- description: System information and operational commands.
-  name: Juniper Networks System API
-  slug: juniper-networks-system-api
-- description: Managed system (device) agent lifecycle and telemetry.
-  name: Juniper Networks Systems API
-  slug: juniper-networks-systems-api
-- description: User and role-based access control management.
-  name: Juniper Networks Users API
-  slug: juniper-networks-users-api
-- description: Virtual network creation and management.
-  name: Juniper Networks Virtual Networks API
-  slug: juniper-networks-virtual-networks-api
-- description: IPsec VPN tunnel configuration.
-  name: Juniper Networks VPN API
-  slug: juniper-networks-vpn-api
-- description: Wireless LAN configuration including SSIDs, security, and VLAN assignment.
-  name: Juniper Networks WLANs API
-  slug: juniper-networks-wlans-api
-artifact_total: 219
+artifact_total: 187
 collections:
 - collection_type: open
   name: API Collection
@@ -895,7 +799,7 @@ modified: '2026-05-19'
 name: Juniper Networks
 nav: Providers
 network: true
-overview: 'Juniper Networks publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Allowlists and Blocklists API, Analytics API, Audit Logs API, and 76 more. Tagged areas include Artificial Intelligence, Automation, Cloud, Enterprise, and Networking.
+overview: 'Juniper Networks publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Allowlists and Blocklists API, Analytics API, Audit Logs API, and 44 more. Tagged areas include Artificial Intelligence, Automation, Cloud, Enterprise, and Networking.
 
 
   The Juniper Networks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -906,7 +810,7 @@ plans:
 - name: Juniper Plans Pricing
   plan_count: 1
   slug: juniper-plans-pricing
-random_paper: 9
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Juniper Rate Limits
@@ -949,7 +853,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

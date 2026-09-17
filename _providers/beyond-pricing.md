@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -71,11 +71,6 @@ apis:
   slug: beyond-pricing-listings-api
 - baseURL: https://developers.beyondpricing.com/api/v1
   baseurl_source: declared
-  description: The OAuth2 API from Beyond Pricing — 1 operation(s) for oauth2.
-  name: Beyond Pricing OAuth2 API
-  slug: beyond-pricing-oauth2-api
-- baseURL: https://developers.beyondpricing.com/api/v1
-  baseurl_source: declared
   description: The Users API from Beyond Pricing — 3 operation(s) for users.
   name: Beyond Pricing Users API
   slug: beyond-pricing-users-api
@@ -84,6 +79,11 @@ apis:
   description: The Webhooks API from Beyond Pricing — 0 operation(s) for webhooks.
   name: Beyond Pricing Webhooks API
   slug: beyond-pricing-webhooks-api
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The OAuth2 API from Beyond Pricing — 1 operation(s) for oauth2.
+  name: Beyond Pricing O Auth2 API
+  slug: beyond-pricing-oauth2-api
 artifact_total: 21
 asyncapis:
 - description: ''
@@ -265,14 +265,14 @@ modified: '2026-07-18'
 name: Beyond Pricing
 nav: Providers
 network: true
-overview: 'Beyond Pricing publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 5 more. Tagged areas include Company, Short-Term Rentals, Vacation Rentals, Revenue Management, and Dynamic Pricing.
+overview: 'Beyond Pricing publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 5 more. Tagged areas include Company, Short-Term Rental, Vacation Rentals, Revenue Management, and Dynamic Pricing.
 
 
   The Beyond Pricing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Beyond Pricing''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 24 more developer resources.'
-random_paper: 6
+random_paper: 4
 scopes:
 - name: Beyond Pricing Scopes
   scope_count: 9
@@ -308,7 +308,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -326,7 +326,7 @@ security:
 slug: beyond-pricing
 tags:
 - Company
-- Short-Term Rentals
+- Short-Term Rental
 - Vacation Rentals
 - Revenue Management
 - Dynamic Pricing

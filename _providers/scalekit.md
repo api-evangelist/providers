@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ finops:
   slug: scalekit-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scalekit.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Scalekit
 nav: Providers
 network: true
@@ -200,7 +200,7 @@ plans:
 - name: Scalekit Plans Pricing
   plan_count: 5
   slug: scalekit-plans-pricing
-random_paper: 8
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Scalekit Rate Limits
@@ -238,7 +238,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -261,5 +261,6 @@ tags:
 - Identity
 - B2B SaaS
 - Agent Auth
+- Identity Federation
 website: https://www.scalekit.com
 ---

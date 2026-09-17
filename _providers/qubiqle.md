@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -70,16 +70,6 @@ apis:
   slug: qubiqle-invoices-api
 - baseURL: https://api.ottimate.com/v1
   baseurl_source: declared
-  description: The oauth API from Qubiqle — 1 operation(s) for oauth.
-  name: Qubiqle oauth API
-  slug: qubiqle-oauth-api
-- baseURL: https://api.ottimate.com/v1
-  baseurl_source: declared
-  description: The purchaseOrders API from Qubiqle — 3 operation(s) for purchaseorders.
-  name: Qubiqle purchaseOrders API
-  slug: qubiqle-purchaseorders-api
-- baseURL: https://api.ottimate.com/v1
-  baseurl_source: declared
   description: The receipts API from Qubiqle — 3 operation(s) for receipts.
   name: Qubiqle receipts API
   slug: qubiqle-receipts-api
@@ -88,6 +78,16 @@ apis:
   description: The vendors API from Qubiqle — 3 operation(s) for vendors.
   name: Qubiqle vendors API
   slug: qubiqle-vendors-api
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The oauth API from Qubiqle — 1 operation(s) for oauth.
+  name: Qubiqle OAUTH API
+  slug: qubiqle-oauth-api
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The Purchase Orders API from Qubiqle — 3 operation(s) for purchase orders.
+  name: Qubiqle Purchase Orders API
+  slug: qubiqle-purchase-orders-api
 arazzos:
 - description: Upload an invoice document, retrieve the created invoice, code it, then mark it exported.
   name: Invoice capture to export
@@ -291,7 +291,7 @@ overview: 'Qubiqle publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Qubiqle''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 25 more developer resources.'
-random_paper: 20
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Qubiqle Rate Limits
@@ -337,7 +337,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

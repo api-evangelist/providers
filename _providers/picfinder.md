@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: WebSocket API for AI image inference powered by the RunWare / DiffusionMaster platform. Supports text-to-image and image-to-image generation, model / LoRA selection, ControlNet, inpainting, outpaintin
@@ -130,7 +130,7 @@ overview: 'PicFinder publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   PicFinder''s developer surface includes documentation, API reference, signup flow, support, authentication, and 12 more developer resources.'
-random_paper: 3
+random_paper: 2
 score:
   band: emerging
   composite: 19.7
@@ -153,7 +153,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

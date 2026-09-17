@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://portal.geniemode.com
@@ -201,7 +201,7 @@ apis:
 - baseURL: https://portal.geniemode.com
   baseurl_source: declared
   description: Geniemode Entity Controller
-  name: Geniemode Geniemode Entity Controller API
+  name: Geniemode Entity Controller API
   slug: geniemode-geniemode-entity-controller-api
 - baseURL: https://portal.geniemode.com
   baseurl_source: declared
@@ -500,11 +500,6 @@ apis:
   slug: geniemode-web-engage-controller-api
 - baseURL: https://portal.geniemode.com
   baseurl_source: declared
-  description: Workflow Controller
-  name: Geniemode Workflow Controller API
-  slug: geniemode-workflow-controller-api
-- baseURL: https://portal.geniemode.com
-  baseurl_source: declared
   description: Workflow Step Controller
   name: Geniemode Workflow Step Controller API
   slug: geniemode-workflow-step-controller-api
@@ -513,6 +508,11 @@ apis:
   description: Workflow Step Order Map Controller
   name: Geniemode Workflow Step Order Map Controller API
   slug: geniemode-workflow-step-order-map-controller-api
+- baseURL: https://portal.geniemode.com
+  baseurl_source: declared
+  description: Workflow Controller
+  name: Geniemode work flow controller API
+  slug: geniemode-work-flow-controller-api
 artifact_total: 99
 common:
 - group: other
@@ -596,7 +596,7 @@ created: '2026-08-21'
 description: Geniemode (Geniemode Global Pvt Ltd) is a Gurugram, India based B2B cross-border sourcing and supply-chain technology company founded in 2021 by Amit Sharma and Tanuj Gangwani. It runs an asset-light sourcing platform that connects global retail buyers in home textiles, furniture, apparel and accessories with a vetted manufacturer network, covering product discovery and design collaboration, sampling, quality control, factory and raw-material management, logistics, customs and invoicing. Its technology surface is an internal operations and partner portal at portal.geniemode.com, built on Spring Boot, whose Springfox-generated Swagger 2.0 contract is served publicly while every operation itself sits behind authentication. Geniemode publishes no developer program, SDKs, pricing or public API documentation.
 image: https://assets.geniemode.com/geniemode-assets/websiteImages/MainLogoMinified.png
 layout: provider
-modified: '2026-08-21'
+modified: '2026-09-16'
 name: Geniemode
 nav: Providers
 network: true
@@ -648,7 +648,7 @@ score:
       total: 95
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

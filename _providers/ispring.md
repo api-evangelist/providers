@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 3
@@ -211,6 +211,10 @@ collections:
   name: Learn Rest Api assignments webhook API
   slug: open-ispring-webhook-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ispringhelpdocs.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/capabilities/ispring-capability-edges.yml
   title: ''
@@ -881,7 +885,7 @@ json_schemas:
   property_count: 4
   slug: WorkLeaveStatusData
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: iSpring Learn
 nav: Providers
 network: true
@@ -891,12 +895,12 @@ overview: 'iSpring Learn publishes 20 APIs on the [APIs.io](https://apis.io/) ne
   The iSpring Learn catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  iSpring Learn''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, and 12 more developer resources.'
+  iSpring Learn''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, and 13 more developer resources.'
 plans:
 - name: Ispring Plans Pricing
   plan_count: 3
   slug: ispring-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Ispring Rate Limits
@@ -945,7 +949,7 @@ score:
     regime_id: education
     score: 37.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -967,11 +971,12 @@ tags:
 - Learning Management System
 - Training
 - Courses
-- Enrollments
+- Enrollment
 - User
 - Group
 - Reporting
 - Webhook
 - SCORM
 - Corporate Training
+website: https://ispringhelpdocs.com
 ---

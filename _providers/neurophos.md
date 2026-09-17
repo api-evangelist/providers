@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A live, unauthenticated Model Context Protocol endpoint served from the neurophos.com host and advertised in the company's own llms.txt. It is provided by the Wix site platform rather than authored by
@@ -112,7 +112,7 @@ overview: 'Neurophos publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Neurophos'' developer surface includes authentication, product news, and 10 more developer resources.'
-random_paper: 8
+random_paper: 5
 score:
   band: minimal
   composite: 10.8
@@ -136,7 +136,7 @@ score:
     conformance: derived
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

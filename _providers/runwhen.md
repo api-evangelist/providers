@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 10
@@ -101,11 +101,6 @@ apis:
   description: The explorer API from RunWhen — 8 operation(s) for explorer.
   name: RunWhen explorer API
   slug: runwhen-explorer-api
-- baseURL: https://papi.beta.runwhen.com
-  baseurl_source: declared
-  description: The Graphql API from RunWhen — 1 operation(s) for graphql.
-  name: RunWhen Graphql API
-  slug: runwhen-graphql-api
 - baseURL: https://papi.beta.runwhen.com
   baseurl_source: declared
   description: The health API from RunWhen — 4 operation(s) for health.
@@ -238,11 +233,6 @@ apis:
   slug: runwhen-slo-v4-api
 - baseURL: https://papi.beta.runwhen.com
   baseurl_source: declared
-  description: The slos API from RunWhen — 4 operation(s) for slos.
-  name: RunWhen slos API
-  slug: runwhen-slos-api
-- baseURL: https://papi.beta.runwhen.com
-  baseurl_source: declared
   description: The slx-v4 API from RunWhen — 3 operation(s) for slx-v4.
   name: RunWhen slx-v4 API
   slug: runwhen-slx-v4-api
@@ -301,6 +291,16 @@ apis:
   description: The workspaces API from RunWhen — 72 operation(s) for workspaces.
   name: RunWhen workspaces API
   slug: runwhen-workspaces-api
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The slos API from RunWhen — 4 operation(s) for slos.
+  name: RunWhen Slos API
+  slug: runwhen-slos-api
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The Graph QL API from RunWhen — 1 operation(s) for graph ql.
+  name: RunWhen Graph QL API
+  slug: runwhen-graph-ql-api
 artifact_total: 108
 collections:
 - collection_type: open
@@ -600,7 +600,7 @@ overview: 'RunWhen publishes 51 APIs on the [APIs.io](https://apis.io/) network,
 
 
   RunWhen''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 19
+random_paper: 5
 scopes:
 - name: Runwhen Scopes
   scope_count: 3
@@ -608,7 +608,7 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 46.5
+  composite: 45.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -616,11 +616,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 56.0
+    contract_quality: 50.6
     developer_ergonomics: 54.2
     discoverability: 75.9
     operational_transparency: 18.4
@@ -629,14 +629,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 1
       marker_coverage: 2.0
       total: 51
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

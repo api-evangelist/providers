@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The ISNetworld API is a RESTful, bearer-token authenticated HTTP API that lets ISN subscribers download their own ISNetworld data — company profile scorecards, connected contractor lists and related c
@@ -135,7 +135,7 @@ plans:
 - name: Isn Plans Pricing
   plan_count: 0
   slug: isn-plans-pricing
-random_paper: 15
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Isn Rate Limits
@@ -169,7 +169,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

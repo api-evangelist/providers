@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -135,6 +135,10 @@ collections:
   name: Aptos Node Accounts View API
   slug: open-aptos-view-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aptos.dev
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -917,7 +921,7 @@ jsonld:
   property_count: 0
   slug: aptos-schema
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Aptos
 nav: Providers
 network: true
@@ -927,12 +931,12 @@ overview: 'Aptos publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
   The Aptos catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Aptos'' developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 16 more developer resources.'
+  Aptos'' developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 17 more developer resources.'
 plans:
 - name: Aptos Plans Pricing
   plan_count: 3
   slug: aptos-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Aptos Rate Limits
@@ -975,7 +979,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

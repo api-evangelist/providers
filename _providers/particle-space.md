@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ modified: '2026-06-21'
 name: Particle Space
 nav: Providers
 network: true
-overview: 'Particle Space publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Address Search API, Comparables API, Listings API, and 2 more. Tagged areas include Real-Estate, Property Data, PropTech, Listings, and Valuations.
+overview: 'Particle Space publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Address Search API, Comparables API, Listings API, and 2 more. Tagged areas include Real-Estate, Property Data, PropTech, Listings, and Valuation.
 
 
   Particle Space''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -154,7 +154,7 @@ plans:
 - name: Particle Space Plans Pricing
   plan_count: 3
   slug: particle-space-plans-pricing
-random_paper: 14
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Particle Space Rate Limits
@@ -186,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -203,6 +203,6 @@ tags:
 - Property Data
 - PropTech
 - Listings
-- Valuations
+- Valuation
 website: https://particlespace.com/
 ---

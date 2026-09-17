@@ -23,16 +23,121 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.5
-  scored_at: '2026-09-15'
-api_count: 25
+  scored_at: '2026-09-16'
+api_count: 26
 apis:
 - baseURL: https://www.51offer.com
   baseurl_source: declared
-  description: The public JSON API surface of the 51offer official study-abroad site. 51offer serves its own Swagger 1.2 resource listing and 24 resource declarations, unauthenticated, at https://www.51offer.com/api
-  name: 51offer Horizon Site API
-  slug: 51offer-horizon-site-api
-artifact_total: 5
+  description: diy材料申请信息控制层
+  name: 51offer Diym API
+  slug: 51offer-diym-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: 顾问控制层
+  name: 51offer Ng Adviser API
+  slug: 51offer-ngadviser-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: 大总管服务控制层
+  name: 51offer Ng Alliance API
+  slug: 51offer-ngalliance-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: 渠道限时兑换礼包相关控制层
+  name: 51offer Ng Delivery Channel API
+  slug: 51offer-ngdeliverychannel-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: Diy服务控制层
+  name: 51offer Ng Diy API
+  slug: 51offer-ngdiy-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: Diy申请支付服务控制
+  name: 51offer Ngdiyapplypay API
+  slug: 51offer-ngdiyapplypay-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: diy选校控制器
+  name: 51offer Ngdiychoose School API
+  slug: 51offer-ngdiychooseschool-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: diy定位通知服务
+  name: 51offer Ngdiypositioningnotice API
+  slug: 51offer-ngdiypositioningnotice-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: Diy选校控制器前置
+  name: 51offer Ngdiyselectschool API
+  slug: 51offer-ngdiyselectschool-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: diy单品页控制器
+  name: 51offer Ngdiysinglepage API
+  slug: 51offer-ngdiysinglepage-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: 双十二活动服务控制层
+  name: 51offer Ng Double Twelve API
+  slug: 51offer-ngdoubletwelve-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: Enroll Controller
+  name: 51offer Ng Enroll API
+  slug: 51offer-ngenroll-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: GPA计算器
+  name: 51offer Ng Gpa Calc API
+  slug: 51offer-nggpacalc-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: H5首页控制层
+  name: 51offer Ng Home API
+  slug: 51offer-nghome-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: 语培口语批改
+  name: 51offer Ng Lan Correct API
+  slug: 51offer-nglancorrect-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: 商城控制层
+  name: 51offer Ng Mall API
+  slug: 51offer-ngmall-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: 51品牌节支付优惠券
+  name: 51offer Ng Pay Coupon API
+  slug: 51offer-ngpaycoupon-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: 文章图片更新控制层
+  name: 51offer Ng Pic API
+  slug: 51offer-ngpic-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: 订单退款控制层
+  name: 51offer Ngrefund API
+  slug: 51offer-ngrefund-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: Sign Controller
+  name: 51offer Ng Sign API
+  slug: 51offer-ngsign-api
+- baseURL: https://www.51offer.com
+  baseurl_source: declared
+  description: runway用户控制层
+  name: 51offer Ng User Info API
+  slug: 51offer-nguserinfo-api
+artifact_total: 25
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/51offer/refs/heads/main/overlays/51offer-horizon-site-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/51offer-horizon-site-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/51offer/refs/heads/main/security/51offer-domain-security.yml
   title: ''
@@ -136,22 +241,22 @@ modified: '2026-09-05'
 name: 51offer
 nav: Providers
 network: true
-overview: '51offer publishes 1 API on the [APIs.io](https://apis.io/) network: Horizon Site API. Tagged areas include Company, Education, Study Abroad, Higher Education, and University Applications.
+overview: '51offer publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Diym API, Ng Adviser API, Ng Alliance API, and 18 more. Tagged areas include Company, Education, Study Abroad, Higher Education, and University Applications.
 
 
-  51offer''s developer surface includes authentication, signup flow, support, engineering blog, and 17 more developer resources.'
+  51offer''s developer surface includes authentication, signup flow, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: 51Offer Plans Pricing
   plan_count: 0
   slug: 51offer-plans-pricing
-random_paper: 2
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: 51Offer Rate Limits
   slug: 51offer-rate-limits
 score:
   band: emerging
-  composite: 22.0
+  composite: 21.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.0
@@ -159,11 +264,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 17.1
     contract_governance: 4.5
-    contract_quality: 17.7
+    contract_quality: 16.4
     developer_ergonomics: 24.4
     discoverability: 74.1
     operational_transparency: 2.6
@@ -179,9 +284,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 21
       marker_coverage: 100.0
-      total: 1
+      total: 21
     mcp: derived
     skills: derived
   regulatory:
@@ -191,7 +296,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

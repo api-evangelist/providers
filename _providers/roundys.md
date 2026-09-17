@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: As a Kroger subsidiary, Roundy's stores (Pick 'n Save, Metro Market, Mariano's) are accessible through the Kroger Developer Platform product catalog API. The API enables searching and browsing product
@@ -148,7 +148,7 @@ press:
 - date: '2026-05-25'
   title: Kroger Outlines Plan to Redefine the Way America Eats ...
   url: https://www.prnewswire.com/news-releases/kroger-outlines-plan-to-redefine-the-way-america-eats-and-to-deliver-value-for-customers--shareholders-300534819.html
-random_paper: 11
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Roundys Rate Limits
@@ -184,7 +184,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,25 +47,20 @@ api_count: 2
 apis:
 - baseURL: https://apps.fas.usda.gov/OpenData
   baseurl_source: declared
-  description: The USDA Foreign Agricultural Service Open Data API provides programmatic access to U.S. agricultural trade data, including the Global Agricultural Trade System (GATS), Export Sales Reporting (ESR), a
-  name: USDA FAS Open Data API
-  slug: fas-open-data
+  description: The ESR Data API - United States Weekly Export Sales of Agricultural Commodity Data API from Foreign Agricultural Service — 7 operation(s) for esr data api - united states weekly export sales of agric
+  name: Foreign Agricultural Service ESR Data API - United States Weekly Export Sales of Agricultural Commodity Data API
+  slug: foreign-agricultural-service-esr-data-api-united-states-weekly-export-sales-of-agricultural-commodity-data-api
 - baseURL: https://apps.fas.usda.gov/OpenData
   baseurl_source: declared
-  description: U.S. Weekly Export Sales of Agricultural Commodity Data
-  name: Foreign Agricultural Service ESR API
-  slug: foreign-agricultural-service-esr-api
+  description: The GATS Data API - US Census and UN ComTrade Import Export & Re-Export Data API from Foreign Agricultural Service — 19 operation(s) for gats data api - us census and un comtrade import export & re-ex
+  name: Foreign Agricultural Service GATS Data API - US Census and UN ComTrade Import Export & Re-Export Data API
+  slug: foreign-agricultural-service-gats-data-api-us-census-and-un-comtrade-import-export-re-export-data-api
 - baseURL: https://apps.fas.usda.gov/OpenData
   baseurl_source: declared
-  description: Global Agricultural Trade System
-  name: Foreign Agricultural Service GATS API
-  slug: foreign-agricultural-service-gats-api
-- baseURL: https://apps.fas.usda.gov/OpenData
-  baseurl_source: declared
-  description: Production, Supply and Distribution
-  name: Foreign Agricultural Service PSD API
-  slug: foreign-agricultural-service-psd-api
-artifact_total: 16
+  description: 'The PSD Data API - Production, Supply and Distribution Forecast Data of World Agricultural Commodities API from Foreign Agricultural Service — 9 operation(s) for psd data api - production, supply and '
+  name: Foreign Agricultural Service PSD Data API - Production, Supply and Distribution Forecast Data of World Agricultural Commodities API
+  slug: foreign-agricultural-service-psd-data-api-production-supply-and-distribution-forecast-data-of-world-agricultural-commodities-api
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -83,6 +78,21 @@ collections:
   name: USDA FAS Open Data Services
   slug: open-foreign-agricultural-service
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/overlays/foreign-agricultural-service-esr-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/foreign-agricultural-service-esr-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/overlays/foreign-agricultural-service-gats-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/foreign-agricultural-service-gats-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/overlays/foreign-agricultural-service-psd-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/foreign-agricultural-service-psd-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/agentic-access/foreign-agricultural-service-agentic-access.yml
   title: ''
@@ -202,22 +212,22 @@ modified: '2026-09-10'
 name: Foreign Agricultural Service
 nav: Providers
 network: true
-overview: 'Foreign Agricultural Service publishes 4 APIs on the [APIs.io](https://apis.io/) network, including USDA FAS Open Data API, ESR API, GATS API, and 1 more. Tagged areas include Agriculture, Federal-Government, Trade, Open Data, and Commodities.
+overview: 'Foreign Agricultural Service publishes 3 APIs on the [APIs.io](https://apis.io/) network: ESR Data API - United States Weekly Export Sales of Agricultural Commodity Data API, GATS Data API - US Census and UN ComTrade Import Export & Re-Export Data API, and PSD Data API - Production, Supply and Distribution Forecast Data of World Agricultural Commodities API. Tagged areas include Agriculture, Federal-Government, Trade, Open Data, and Commodities.
 
 
-  Foreign Agricultural Service''s developer surface includes authentication, API reference, signup flow, support, and 19 more developer resources.'
+  Foreign Agricultural Service''s developer surface includes authentication, API reference, signup flow, support, and 22 more developer resources.'
 plans:
 - name: Foreign Agricultural Service Plans Pricing
   plan_count: 1
   slug: foreign-agricultural-service-plans-pricing
-random_paper: 7
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Foreign Agricultural Service Rate Limits
   slug: foreign-agricultural-service-rate-limits
 score:
-  band: thin
-  composite: 32.4
+  band: developing
+  composite: 43.8
   coverage:
     artifact_dirs: 21
     catalog_earned: 48.0
@@ -225,11 +235,11 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.4
   facets:
     access_clarity: 52.6
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 45.6
     developer_ergonomics: 44.6
     discoverability: 68.5
     operational_transparency: 10.5
@@ -251,8 +261,8 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

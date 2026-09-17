@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'RESTful print-on-demand API that lets businesses integrate Blurb''s book, magazine, and notebook printing and fulfillment into their own platforms. Orders and real-time fulfillment updates are handled '
@@ -101,7 +101,7 @@ overview: 'Blurb publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Blurb''s developer surface includes documentation, getting-started guide, pricing, support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 10
+random_paper: 7
 score:
   band: emerging
   composite: 23.4
@@ -127,7 +127,7 @@ score:
     - north-america
   previous_composite: 23.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Flask is a lightweight WSGI web application framework for Python. It is commonly used as a foundation for building HTTP APIs and web services. While Flask itself does not expose an HTTP API, it ships '
@@ -118,7 +118,7 @@ modified: '2026-04-28'
 name: Flask
 nav: Providers
 network: true
-overview: 'Flask publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Frameworks, Lightweight, Microframework, pallets, and Python.
+overview: 'Flask publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Framework, Lightweight, Microframework, pallets, and Python.
 
 
   The Flask catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -129,7 +129,7 @@ plans:
 - name: Flask Plans Pricing
   plan_count: 3
   slug: flask-plans-pricing
-random_paper: 4
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Flask Rate Limits
@@ -165,7 +165,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -179,7 +179,7 @@ security:
   summary_line: TLSv1.3
 slug: flask
 tags:
-- Frameworks
+- Framework
 - Lightweight
 - Microframework
 - pallets

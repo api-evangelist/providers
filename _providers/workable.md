@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -75,7 +75,9 @@ apis:
   description: Read the company's department list used to scope job postings and reporting.
   name: Workable Departments API
   slug: workable-departments-api
-- description: Define and read custom attributes attached to candidates, jobs, and requisitions for tenant-specific reporting and automation.
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: Define and read custom attributes attached to candidates, jobs, and requisitions for tenant-specific reporting and automation.
   name: Workable Custom Attributes API
   slug: workable-custom-attributes-api
 - description: Read activity-log entries for candidates and jobs (stage moves, comments, evaluations) for audit and integration use cases.
@@ -124,11 +126,6 @@ apis:
   slug: workable-candidates-api
 - baseURL_template: https://{subdomain}.workable.com/spi/v3
   baseurl_source: spec_template
-  description: The CustomAttributes API from Workable — 2 operation(s) for customattributes.
-  name: Workable CustomAttributes API
-  slug: workable-customattributes-api
-- baseURL_template: https://{subdomain}.workable.com/spi/v3
-  baseurl_source: spec_template
   description: The Departments API from Workable — 3 operation(s) for departments.
   name: Workable Departments API
   slug: workable-departments-api
@@ -169,11 +166,6 @@ apis:
   slug: workable-requisitions-api
 - baseURL_template: https://{subdomain}.workable.com/spi/v3
   baseurl_source: spec_template
-  description: The ReviewCycles API from Workable — 2 operation(s) for reviewcycles.
-  name: Workable ReviewCycles API
-  slug: workable-reviewcycles-api
-- baseURL_template: https://{subdomain}.workable.com/spi/v3
-  baseurl_source: spec_template
   description: The Stages API from Workable — 1 operation(s) for stages.
   name: Workable Stages API
   slug: workable-stages-api
@@ -184,14 +176,24 @@ apis:
   slug: workable-subscriptions-api
 - baseURL_template: https://{subdomain}.workable.com/spi/v3
   baseurl_source: spec_template
-  description: The TimeOff API from Workable — 4 operation(s) for timeoff.
-  name: Workable TimeOff API
-  slug: workable-timeoff-api
+  description: The Custom Attributes API from Workable — 2 operation(s) for custom attributes.
+  name: Workable Custom Attributes API
+  slug: workable-custom-attributes-api
 - baseURL_template: https://{subdomain}.workable.com/spi/v3
   baseurl_source: spec_template
-  description: The TimeTracking API from Workable — 3 operation(s) for timetracking.
-  name: Workable TimeTracking API
-  slug: workable-timetracking-api
+  description: The Review Cycles API from Workable — 2 operation(s) for review cycles.
+  name: Workable Review Cycles API
+  slug: workable-review-cycles-api
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Time Off API from Workable — 4 operation(s) for time off.
+  name: Workable Time Off API
+  slug: workable-time-off-api
+- baseURL_template: https://{subdomain}.workable.com/spi/v3
+  baseurl_source: spec_template
+  description: The Time Tracking API from Workable — 3 operation(s) for time tracking.
+  name: Workable Time Tracking API
+  slug: workable-time-tracking-api
 artifact_total: 65
 collections:
 - collection_type: open
@@ -350,7 +352,7 @@ modified: '2026-05-08'
 name: Workable
 nav: Providers
 network: true
-overview: 'Workable publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Candidates API, Stages API, and 21 more. Tagged areas include HR, ATS, Recruiting, Sourcing, and Video Interviews.
+overview: 'Workable publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Candidates API, Stages API, and 22 more. Tagged areas include Human Resources, ATS, Recruiting, Sourcing, and Video Interviews.
 
 
   Workable''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 13 more developer resources.'
@@ -358,7 +360,7 @@ plans:
 - name: Workable Plans Pricing
   plan_count: 7
   slug: workable-plans-pricing
-random_paper: 15
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Workable Rate Limits
@@ -390,7 +392,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -411,12 +413,12 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, GDPR
 slug: workable
 tags:
-- HR
+- Human Resources
 - ATS
 - Recruiting
 - Sourcing
 - Video Interviews
-- Assessments
+- Assessment
 - Software-as-a-Service
 website: https://www.workable.com/
 ---

@@ -34,29 +34,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 16
+- acting_count: 35
   human_in_the_loop: 0
   name: Aws Api Gateway Agentic Access
-  operation_count: 32
+  operation_count: 65
   slug: aws-api-gateway-agentic-access
-  summary_line: 32 operations · 16 acting
-api_count: 3
+  summary_line: 65 operations · 35 acting
+api_count: 13
 apis:
 - description: The API Gateway Portals control plane (introduced November 19, 2025) lets you create branded developer portals that catalog REST APIs. A portal contains PortalProducts (logical groupings of REST APIs)
   name: Amazon API Gateway Portals
   slug: aws-api-gateway-portals
-- baseURL: https://apigateway.{region}.amazonaws.com
-  baseurl_source: declared
-  description: Manage API keys
-  name: Amazon API Gateway ApiKeys API
-  slug: aws-api-gateway-apikeys-api
-- baseURL: https://apigateway.{region}.amazonaws.com
-  baseurl_source: declared
-  description: The Apis API from Amazon API Gateway — 2 operation(s) for apis.
-  name: Amazon API Gateway Apis API
-  slug: aws-api-gateway-apis-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Manage authorizers
@@ -89,11 +79,6 @@ apis:
   slug: aws-api-gateway-resources-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
-  description: Manage REST API definitions
-  name: Amazon API Gateway RestApis API
-  slug: aws-api-gateway-restapis-api
-- baseURL: https://apigateway.{region}.amazonaws.com
-  baseurl_source: declared
   description: Manage routes within an API
   name: Amazon API Gateway Routes API
   slug: aws-api-gateway-routes-api
@@ -102,11 +87,6 @@ apis:
   description: Manage deployment stages
   name: Amazon API Gateway Stages API
   slug: aws-api-gateway-stages-api
-- baseURL: https://apigateway.{region}.amazonaws.com
-  baseurl_source: declared
-  description: Manage usage plans
-  name: Amazon API Gateway UsagePlans API
-  slug: aws-api-gateway-usageplans-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Build real-time two-way communication applications with WebSocket APIs.
@@ -122,52 +102,57 @@ apis:
   baseurl_source: declared
   description: Operations for managing API keys
   name: Amazon API Gateway API Keys API
-  slug: amazon-api-gateway-api-keys-api
+  slug: aws-api-gateway-api-keys-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for managing base path mappings
   name: Amazon API Gateway Base Path Mappings API
-  slug: amazon-api-gateway-base-path-mappings-api
+  slug: aws-api-gateway-base-path-mappings-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for managing API documentation
   name: Amazon API Gateway Documentation API
-  slug: amazon-api-gateway-documentation-api
+  slug: aws-api-gateway-documentation-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for managing custom domain names
   name: Amazon API Gateway Domain Names API
-  slug: amazon-api-gateway-domain-names-api
+  slug: aws-api-gateway-domain-names-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for managing gateway responses
   name: Amazon API Gateway Gateway Responses API
-  slug: amazon-api-gateway-gateway-responses-api
+  slug: aws-api-gateway-gateway-responses-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for managing API data models
   name: Amazon API Gateway Models API
-  slug: amazon-api-gateway-models-api
+  slug: aws-api-gateway-models-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for managing request validators
   name: Amazon API Gateway Request Validators API
-  slug: amazon-api-gateway-request-validators-api
-- baseURL: https://apigateway.{region}.amazonaws.com
-  baseurl_source: declared
-  description: Operations for creating and managing REST APIs
-  name: Amazon API Gateway REST APIs API
-  slug: amazon-api-gateway-rest-apis-api
+  slug: aws-api-gateway-request-validators-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for managing usage plans and throttling
   name: Amazon API Gateway Usage Plans API
-  slug: amazon-api-gateway-usage-plans-api
+  slug: aws-api-gateway-usage-plans-api
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Apis API from Amazon API Gateway — 2 operation(s) for apis.
+  name: Amazon API Gateway APIS API
+  slug: aws-api-gateway-apis-api
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing REST APIs
+  name: Amazon API Gateway REST APIs API
+  slug: aws-api-gateway-rest-apis-api
 - baseURL: https://apigateway.{region}.amazonaws.com
   baseurl_source: declared
   description: Operations for managing VPC links
-  name: Amazon API Gateway VPC Links API
-  slug: amazon-api-gateway-vpc-links-api
+  name: Amazon API Gateway Vpclinks API
+  slug: aws-api-gateway-vpclinks-api
 arazzos:
 - description: Verify a REST API exists, attach a method to one of its resources, and publish a fresh deployment.
   name: AWS API Gateway Add a Method and Redeploy
@@ -205,7 +190,7 @@ arazzos:
 - description: Create an HTTP API, attach an authorizer, and add a route that uses it.
   name: AWS API Gateway Secure an HTTP API with an Authorizer
   slug: aws-api-gateway-secure-http-api-authorizer-workflow
-artifact_total: 260
+artifact_total: 257
 asyncapis:
 - description: Amazon API Gateway WebSocket APIs enable real-time two-way communication between clients and backend services. Clients connect via WebSocket protocol and exchange messages through routes that map to L
   name: Amazon API Gateway WebSocket API
@@ -1042,11 +1027,11 @@ jsonld:
   property_count: 1
   slug: aws-api-gateway-v2-stages-context
 layout: provider
-modified: '2026-05-29'
+modified: '2026-09-16'
 name: Amazon API Gateway
 nav: Providers
 network: true
-overview: 'Amazon API Gateway publishes 23 APIs on the [APIs.io](https://apis.io/) network, including ApiKeys API, Apis API, Authorizers API, and 20 more. Tagged areas include API Gateway, Cloud, REST, HTTP, and WebSocket.
+overview: 'Amazon API Gateway publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Authorizers API, Connections API, Deployments API, and 17 more. Tagged areas include API Gateway, Cloud, REST, HTTP, and WebSocket.
 
 
   The Amazon API Gateway catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 31 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1057,7 +1042,7 @@ plans:
 - name: Aws Api Gateway Plans Pricing
   plan_count: 6
   slug: aws-api-gateway-plans-pricing
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 12
   name: Aws Api Gateway Rate Limits
@@ -1096,22 +1081,22 @@ rules:
     warn: 21
   slug: aws-api-gateway-spectral-rules
 score:
-  band: strong
-  composite: 64.9
+  band: exemplar
+  composite: 68.9
   coverage:
     artifact_dirs: 22
-    catalog_earned: 56.5
+    catalog_earned: 76.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.0
   facets:
     access_clarity: 76.3
     contract_governance: 28.8
-    contract_quality: 74.1
+    contract_quality: 82.8
     developer_ergonomics: 67.9
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 52.6
   previous_composite: 64.9
   provenance:
@@ -1120,9 +1105,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 22
+      total: 19
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

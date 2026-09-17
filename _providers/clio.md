@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 4
@@ -146,12 +146,12 @@ apis:
 - baseURL: https://app.clio.com/api/v4
   baseurl_source: declared
   description: The Clio Payments Links API from Clio — 2 operation(s) for clio payments links.
-  name: Clio Clio Payments Links API
+  name: Clio Payments Links API
   slug: clio-clio-payments-links-api
 - baseURL: https://app.clio.com/api/v4
   baseurl_source: declared
   description: Payments allow users to record that funds (from checks, cash, credit cards, etc.) have been transferred from a client to the firm. In order to pay Bills, Payments must be [allocated](https://help.clio
-  name: Clio Clio Payments Payments API
+  name: Clio Payments API
   slug: clio-clio-payments-payments-api
 - baseURL: https://app.clio.com/api/v4
   baseurl_source: declared
@@ -833,7 +833,7 @@ jsonld:
   property_count: 9
   slug: clio-context
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: Clio
 nav: Providers
 network: true
@@ -844,7 +844,7 @@ overview: 'Clio publishes 83 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Clio''s developer surface includes documentation, pricing, signup flow, developer portal, authentication, support, engineering blog, and 16 more developer resources.'
-random_paper: 3
+random_paper: 5
 rules:
 - effective_rule_count: 51
   extends:
@@ -859,21 +859,21 @@ rules:
   slug: clio-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 45.2
   coverage:
     artifact_dirs: 9
-    catalog_earned: 47.0
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 68.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 35.5
     contract_governance: 54.5
-    contract_quality: 64.3
+    contract_quality: 64.2
     developer_ergonomics: 40.5
-    discoverability: 44.4
+    discoverability: 53.7
     operational_transparency: 21.1
   previous_composite: 44.3
   provenance:
@@ -884,7 +884,7 @@ score:
       marker_coverage: 0.0
       total: 83
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

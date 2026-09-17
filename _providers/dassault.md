@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -70,11 +70,6 @@ apis:
   slug: dassault-accreditations-api
 - baseURL: https://apigw-prd.3ds.com
   baseurl_source: declared
-  description: This section defines the operations related to API keys . Current API key management still requires some interaction with Dassault Systèmes Information System (IS) team. This process will likely be up
-  name: Dassault Systèmes apikeys API
-  slug: dassault-apikeys-api
-- baseURL: https://apigw-prd.3ds.com
-  baseurl_source: declared
   description: This section defines the operations related to leads and opportunities for sales pipeline management. These ressources are managed with 'MySalesPipeline' application which implements Dassault Systèmes
   name: Dassault Systèmes leads-opportunities API
   slug: dassault-leads-opportunities-api
@@ -93,6 +88,11 @@ apis:
   description: This section defines all the operations related to price lists, including the search of price lists for a specfic partner.
   name: Dassault Systèmes price-lists API
   slug: dassault-price-lists-api
+- baseURL: https://apigw-prd.3ds.com
+  baseurl_source: declared
+  description: This section defines the operations related to API keys .
+  name: Dassault Systèmes API Keys API
+  slug: dassault-api-keys-api
 artifact_total: 175
 collections:
 - collection_type: open
@@ -645,7 +645,7 @@ modified: '2026-06-13'
 name: Dassault Systèmes
 nav: Providers
 network: true
-overview: 'Dassault Systèmes publishes 6 APIs on the [APIs.io](https://apis.io/) network, including accreditations API, apikeys API, leads-opportunities API, and 3 more. Tagged areas include 3DEXPERIENCE, PLM, CAD, Manufacturing, and SolidWorks.
+overview: 'Dassault Systèmes publishes 6 APIs on the [APIs.io](https://apis.io/) network, including accreditations API, leads-opportunities API, orders API, and 3 more. Tagged areas include 3DEXPERIENCE, PLM, CAD, Manufacturing, and SolidWorks.
 
 
   The Dassault Systèmes catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -656,7 +656,7 @@ plans:
 - name: Dassault Plans Pricing
   plan_count: 3
   slug: dassault-plans-pricing
-random_paper: 4
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Dassault Rate Limits
@@ -699,7 +699,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

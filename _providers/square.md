@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 3
@@ -55,16 +55,6 @@ apis:
   slug: transfer-orders-api
 - baseURL: https://connect.squareup.com
   baseurl_source: spec
-  description: The ApplePay API from Square — 1 operation(s) for applepay.
-  name: Square ApplePay API
-  slug: square-applepay-api
-- baseURL: https://connect.squareup.com
-  baseurl_source: spec
-  description: The BankAccounts API from Square — 3 operation(s) for bankaccounts.
-  name: Square BankAccounts API
-  slug: square-bankaccounts-api
-- baseURL: https://connect.squareup.com
-  baseurl_source: spec
   description: The BookingCustomAttributes API from Square — 6 operation(s) for bookingcustomattributes.
   name: Square BookingCustomAttributes API
   slug: square-bookingcustomattributes-api
@@ -78,11 +68,6 @@ apis:
   description: The Cards API from Square — 3 operation(s) for cards.
   name: Square Cards API
   slug: square-cards-api
-- baseURL: https://connect.squareup.com
-  baseurl_source: spec
-  description: The CashDrawers API from Square — 3 operation(s) for cashdrawers.
-  name: Square CashDrawers API
-  slug: square-cashdrawers-api
 - baseURL: https://connect.squareup.com
   baseurl_source: spec
   description: The Catalog API from Square — 13 operation(s) for catalog.
@@ -100,19 +85,9 @@ apis:
   slug: square-customercustomattributes-api
 - baseURL: https://connect.squareup.com
   baseurl_source: spec
-  description: The CustomerGroups API from Square — 2 operation(s) for customergroups.
-  name: Square CustomerGroups API
-  slug: square-customergroups-api
-- baseURL: https://connect.squareup.com
-  baseurl_source: spec
   description: The Customers API from Square — 10 operation(s) for customers.
   name: Square Customers API
   slug: square-customers-api
-- baseURL: https://connect.squareup.com
-  baseurl_source: spec
-  description: The CustomerSegments API from Square — 2 operation(s) for customersegments.
-  name: Square CustomerSegments API
-  slug: square-customersegments-api
 - baseURL: https://connect.squareup.com
   baseurl_source: spec
   description: The Devices API from Square — 4 operation(s) for devices.
@@ -138,11 +113,6 @@ apis:
   description: The GiftCardActivities API from Square — 1 operation(s) for giftcardactivities.
   name: Square GiftCardActivities API
   slug: square-giftcardactivities-api
-- baseURL: https://connect.squareup.com
-  baseurl_source: spec
-  description: The GiftCards API from Square — 6 operation(s) for giftcards.
-  name: Square GiftCards API
-  slug: square-giftcards-api
 - baseURL: https://connect.squareup.com
   baseurl_source: spec
   description: The Inventory API from Square — 13 operation(s) for inventory.
@@ -188,11 +158,6 @@ apis:
   description: The MobileAuthorization API from Square — 1 operation(s) for mobileauthorization.
   name: Square MobileAuthorization API
   slug: square-mobileauthorization-api
-- baseURL: https://connect.squareup.com
-  baseurl_source: spec
-  description: The OAuth API from Square — 3 operation(s) for oauth.
-  name: Square OAuth API
-  slug: square-oauth-api
 - baseURL: https://connect.squareup.com
   baseurl_source: spec
   description: The OrderCustomAttributes API from Square — 6 operation(s) for ordercustomattributes.
@@ -260,9 +225,44 @@ apis:
   slug: square-vendors-api
 - baseURL: https://connect.squareup.com
   baseurl_source: spec
-  description: The WebhookSubscriptions API from Square — 5 operation(s) for webhooksubscriptions.
-  name: Square WebhookSubscriptions API
-  slug: square-webhooksubscriptions-api
+  description: The OAuth API from Square — 3 operation(s) for oauth.
+  name: Square O Auth API
+  slug: square-oauth-api
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Apple Pay API from Square — 1 operation(s) for apple pay.
+  name: Square Apple Pay API
+  slug: square-apple-pay-api
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Bank Accounts API from Square — 3 operation(s) for bank accounts.
+  name: Square Bank Accounts API
+  slug: square-bank-accounts-api
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Cash Drawers API from Square — 3 operation(s) for cash drawers.
+  name: Square Cash Drawers API
+  slug: square-cash-drawers-api
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Customer Groups API from Square — 2 operation(s) for customer groups.
+  name: Square Customer Groups API
+  slug: square-customer-groups-api
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Customer Segments API from Square — 2 operation(s) for customer segments.
+  name: Square Customer Segments API
+  slug: square-customer-segments-api
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Gift Cards API from Square — 6 operation(s) for gift cards.
+  name: Square Gift Cards API
+  slug: square-gift-cards-api
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Webhook Subscriptions API from Square — 5 operation(s) for webhook subscriptions.
+  name: Square Webhook Subscriptions API
+  slug: square-webhook-subscriptions-api
 artifact_total: 202
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Square webhook event surface. Square delivers HTTPS POST notifications to a subscriber-provided `notification_url` whenever an event occurs on a seller''s account. Each '
@@ -1073,7 +1073,7 @@ modified: '2026-06-03'
 name: Square
 nav: Providers
 network: true
-overview: 'Square publishes 42 APIs on the [APIs.io](https://apis.io/) network, including ApplePay API, BankAccounts API, BookingCustomAttributes API, and 39 more. Tagged areas include Restaurant, Bookings, Catalog, Checkout, and Customers.
+overview: 'Square publishes 42 APIs on the [APIs.io](https://apis.io/) network, including BookingCustomAttributes API, Bookings API, Cards API, and 39 more. Tagged areas include Restaurant, Booking, Catalog, Checkout, and Customers.
 
 
   The Square catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -1084,7 +1084,7 @@ plans:
 - name: Square Plans Pricing
   plan_count: 4
   slug: square-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Square Rate Limits
@@ -1129,21 +1129,21 @@ scopes:
   summary_line: 58 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 75.7
+  composite: 74.8
   coverage:
     artifact_dirs: 29
-    catalog_earned: 50.5
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 64.5
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 73.1
     developer_ergonomics: 82.1
-    discoverability: 51.9
+    discoverability: 42.6
     operational_transparency: 60.5
   previous_composite: 75.7
   provenance:
@@ -1161,7 +1161,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1183,7 +1183,7 @@ security:
 slug: square
 tags:
 - Restaurant
-- Bookings
+- Booking
 - Catalog
 - Checkout
 - Customers
@@ -1194,7 +1194,7 @@ tags:
 - Inventory
 - Invoicing
 - Labor
-- Locations
+- Location
 - Loyalty
 - Merchants
 - Order

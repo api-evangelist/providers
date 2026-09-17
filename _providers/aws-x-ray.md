@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -72,11 +72,6 @@ apis:
   slug: aws-x-ray-service-graph-api
 - baseURL: https://xray.{region}.amazonaws.com
   baseurl_source: declared
-  description: The TagResource API from AWS X-Ray — 1 operation(s) for tagresource.
-  name: AWS X-Ray TagResource API
-  slug: aws-x-ray-tagresource-api
-- baseURL: https://xray.{region}.amazonaws.com
-  baseurl_source: declared
   description: The Tags API from AWS X-Ray — 1 operation(s) for tags.
   name: AWS X-Ray Tags API
   slug: aws-x-ray-tags-api
@@ -87,9 +82,14 @@ apis:
   slug: aws-x-ray-traces-api
 - baseURL: https://xray.{region}.amazonaws.com
   baseurl_source: declared
-  description: The UntagResource API from AWS X-Ray — 1 operation(s) for untagresource.
-  name: AWS X-Ray UntagResource API
-  slug: aws-x-ray-untagresource-api
+  description: The Tag Resource API from AWS X-Ray — 1 operation(s) for tag resource.
+  name: AWS X-Ray Tag Resource API
+  slug: aws-x-ray-tag-resource-api
+- baseURL: https://xray.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Untag Resource API from AWS X-Ray — 1 operation(s) for untag resource.
+  name: AWS X-Ray Untag Resource API
+  slug: aws-x-ray-untag-resource-api
 artifact_total: 111
 collections:
 - collection_type: postman
@@ -453,7 +453,7 @@ plans:
 - name: Aws X Ray Plans Pricing
   plan_count: 3
   slug: aws-x-ray-plans-pricing
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Aws X Ray Rate Limits
@@ -507,7 +507,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

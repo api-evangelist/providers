@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: The Api API from Microsoft Azure API Management — 4 operation(s) for api.
-  name: Microsoft Azure API Management Api API
+  name: Microsoft Azure API Management Api
   slug: microsoft-azure-api-management-api-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
@@ -99,11 +99,6 @@ apis:
   slug: microsoft-azure-api-management-apipolicy-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
-  description: The ApiProduct API from Microsoft Azure API Management — 1 operation(s) for apiproduct.
-  name: Microsoft Azure API Management ApiProduct API
-  slug: microsoft-azure-api-management-apiproduct-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
   description: The ApiRelease API from Microsoft Azure API Management — 2 operation(s) for apirelease.
   name: Microsoft Azure API Management ApiRelease API
   slug: microsoft-azure-api-management-apirelease-api
@@ -112,11 +107,6 @@ apis:
   description: The ApiRevision API from Microsoft Azure API Management — 1 operation(s) for apirevision.
   name: Microsoft Azure API Management ApiRevision API
   slug: microsoft-azure-api-management-apirevision-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
-  description: The APIs API from Microsoft Azure API Management — 2 operation(s) for apis.
-  name: Microsoft Azure API Management APIs API
-  slug: microsoft-azure-api-management-apis-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: The ApiSchema API from Microsoft Azure API Management — 2 operation(s) for apischema.
@@ -234,11 +224,6 @@ apis:
   slug: microsoft-azure-api-management-group-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
-  description: The GroupUser API from Microsoft Azure API Management — 2 operation(s) for groupuser.
-  name: Microsoft Azure API Management GroupUser API
-  slug: microsoft-azure-api-management-groupuser-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
   description: The Health API from Microsoft Azure API Management — 2 operation(s) for health.
   name: Microsoft Azure API Management Health API
   slug: microsoft-azure-api-management-health-api
@@ -284,19 +269,9 @@ apis:
   slug: microsoft-azure-api-management-product-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
-  description: The ProductApi API from Microsoft Azure API Management — 2 operation(s) for productapi.
-  name: Microsoft Azure API Management ProductApi API
-  slug: microsoft-azure-api-management-productapi-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
   description: The ProductApiLink API from Microsoft Azure API Management — 2 operation(s) for productapilink.
   name: Microsoft Azure API Management ProductApiLink API
   slug: microsoft-azure-api-management-productapilink-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
-  description: The ProductGroup API from Microsoft Azure API Management — 2 operation(s) for productgroup.
-  name: Microsoft Azure API Management ProductGroup API
-  slug: microsoft-azure-api-management-productgroup-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: The ProductGroupLink API from Microsoft Azure API Management — 2 operation(s) for productgrouplink.
@@ -317,11 +292,6 @@ apis:
   description: The ProductSubscription API from Microsoft Azure API Management — 1 operation(s) for productsubscription.
   name: Microsoft Azure API Management ProductSubscription API
   slug: microsoft-azure-api-management-productsubscription-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
-  description: The ProductTag API from Microsoft Azure API Management — 2 operation(s) for producttag.
-  name: Microsoft Azure API Management ProductTag API
-  slug: microsoft-azure-api-management-producttag-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: The ProductWiki API from Microsoft Azure API Management — 2 operation(s) for productwiki.
@@ -364,29 +334,9 @@ apis:
   slug: microsoft-azure-api-management-user-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
-  description: The UserGroup API from Microsoft Azure API Management — 1 operation(s) for usergroup.
-  name: Microsoft Azure API Management UserGroup API
-  slug: microsoft-azure-api-management-usergroup-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
-  description: The UserIdentity API from Microsoft Azure API Management — 1 operation(s) for useridentity.
-  name: Microsoft Azure API Management UserIdentity API
-  slug: microsoft-azure-api-management-useridentity-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
   description: The Users API from Microsoft Azure API Management — 1 operation(s) for users.
   name: Microsoft Azure API Management Users API
   slug: microsoft-azure-api-management-users-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
-  description: The UserSubscription API from Microsoft Azure API Management — 1 operation(s) for usersubscription.
-  name: Microsoft Azure API Management UserSubscription API
-  slug: microsoft-azure-api-management-usersubscription-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
-  description: The UserToken API from Microsoft Azure API Management — 1 operation(s) for usertoken.
-  name: Microsoft Azure API Management UserToken API
-  slug: microsoft-azure-api-management-usertoken-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: The Workspace API from Microsoft Azure API Management — 2 operation(s) for workspace.
@@ -397,6 +347,56 @@ apis:
   description: The WorkspacePolicy API from Microsoft Azure API Management — 2 operation(s) for workspacepolicy.
   name: Microsoft Azure API Management WorkspacePolicy API
   slug: microsoft-azure-api-management-workspacepolicy-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The APIs API from Microsoft Azure API Management — 2 operation(s) for apis.
+  name: Microsoft Azure API Management AP Is API
+  slug: microsoft-azure-api-management-apis-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Api Product API from Microsoft Azure API Management — 1 operation(s) for api product.
+  name: Microsoft Azure API Management Api Product API
+  slug: microsoft-azure-api-management-api-product-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Group User API from Microsoft Azure API Management — 2 operation(s) for group user.
+  name: Microsoft Azure API Management Group User API
+  slug: microsoft-azure-api-management-group-user-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Product API API from Microsoft Azure API Management — 2 operation(s) for product api.
+  name: Microsoft Azure API Management Product API
+  slug: microsoft-azure-api-management-product-api-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Product Group API from Microsoft Azure API Management — 2 operation(s) for product group.
+  name: Microsoft Azure API Management Product Group API
+  slug: microsoft-azure-api-management-product-group-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Product Tag API from Microsoft Azure API Management — 2 operation(s) for product tag.
+  name: Microsoft Azure API Management Product Tag API
+  slug: microsoft-azure-api-management-product-tag-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The User Group API from Microsoft Azure API Management — 1 operation(s) for user group.
+  name: Microsoft Azure API Management User Group API
+  slug: microsoft-azure-api-management-user-group-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The User Identity API from Microsoft Azure API Management — 1 operation(s) for user identity.
+  name: Microsoft Azure API Management User Identity API
+  slug: microsoft-azure-api-management-user-identity-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The User Subscription API from Microsoft Azure API Management — 1 operation(s) for user subscription.
+  name: Microsoft Azure API Management User Subscription API
+  slug: microsoft-azure-api-management-user-subscription-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The User Token API from Microsoft Azure API Management — 1 operation(s) for user token.
+  name: Microsoft Azure API Management User Token API
+  slug: microsoft-azure-api-management-user-token-api
 arazzos:
 - description: Send a chat completion through the AI gateway, then embed the same prompt for retrieval.
   name: Azure API Management AI Gateway Chat and Embed
@@ -1395,11 +1395,11 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-22'
+modified: '2026-09-16'
 name: Microsoft Azure API Management
 nav: Providers
 network: true
-overview: 'Microsoft Azure API Management publishes 70 APIs on the [APIs.io](https://apis.io/) network, including AI API, Api API, ApiDiagnostic API, and 67 more. Tagged areas include A2A, AI Gateway, API Center, API Gateway, and API Management.
+overview: 'Microsoft Azure API Management publishes 70 APIs on the [APIs.io](https://apis.io/) network, including AI API, ApiDiagnostic API, and 68 more. Tagged areas include A2A, AI Gateway, API Center, API Gateway, and API Management.
 
 
   The Microsoft Azure API Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1410,7 +1410,7 @@ plans:
 - name: Microsoft Azure Api Management Plans Pricing
   plan_count: 8
   slug: microsoft-azure-api-management-plans-pricing
-random_paper: 11
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Microsoft Azure Api Management Rate Limits
@@ -1444,7 +1444,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 67.0
+  composite: 67.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 67.5
@@ -1452,11 +1452,11 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 76.3
     contract_governance: 28.8
-    contract_quality: 57.0
+    contract_quality: 58.5
     developer_ergonomics: 89.3
     discoverability: 77.8
     operational_transparency: 52.6
@@ -1465,11 +1465,11 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 13
-      marker_coverage: 17.6
+      derived: 10
+      marker_coverage: 13.5
       total: 74
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

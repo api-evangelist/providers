@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the VOS360 media processing platform — manage assets, channels, services, live events, storage and packaging, DRM/encryption, graphics and jobs. Secured with OAuth 2.0 (Bearer access toke
@@ -109,7 +109,7 @@ overview: 'Harmonic Inc. publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Harmonic Inc.''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 7 more developer resources.'
-random_paper: 8
+random_paper: 19
 score:
   band: emerging
   composite: 18.9
@@ -136,7 +136,7 @@ score:
     regime_id: telecommunications
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

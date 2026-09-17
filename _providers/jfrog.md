@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 3
@@ -110,11 +110,6 @@ apis:
   description: ML experiment tracking
   name: JFrog Experiments API
   slug: jfrog-experiments-api
-- baseURL: https://myserver.jfrog.io/artifactory/api
-  baseurl_source: declared
-  description: GraphQL query interface for package and CVE data
-  name: JFrog GraphQL API
-  slug: jfrog-graphql-api
 - baseURL: https://myserver.jfrog.io/artifactory/api
   baseurl_source: declared
   description: User group management
@@ -310,6 +305,11 @@ apis:
   description: Worker lifecycle management
   name: JFrog Workers API
   slug: jfrog-workers-api
+- baseURL: https://myserver.jfrog.io/artifactory/api
+  baseurl_source: declared
+  description: GraphQL query interface for package and CVE data
+  name: JFrog Graph QL API
+  slug: jfrog-graph-ql-api
 arazzos:
 - description: Create a group then a user in that group via the Access service.
   name: JFrog Access Create User With Group
@@ -1344,7 +1344,7 @@ plans:
 - name: Jfrog Plans Pricing
   plan_count: 8
   slug: jfrog-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Jfrog Rate Limits
@@ -1387,7 +1387,7 @@ score:
       marker_coverage: 0.0
       total: 53
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

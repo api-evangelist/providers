@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Prizeout partner integration surface. A partner loads the first-party JavaScript publisher SDK (prizeout-publisher-sdk.js), or the native iOS/Android SDK, and passes partner credentials plus a use
@@ -183,7 +183,7 @@ plans:
 - name: Prizeout Plans Pricing
   plan_count: 0
   slug: prizeout-plans-pricing
-random_paper: 16
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Prizeout Rate Limits
@@ -217,7 +217,7 @@ score:
     regime_id: banking_open_finance
     score: 46.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -249,7 +249,7 @@ tags:
 - Gift Cards
 - Payouts
 - Financial-Services
-- Credit Unions
+- Credit Union
 - Banking
 - Loyalty
 - Embedded Finance

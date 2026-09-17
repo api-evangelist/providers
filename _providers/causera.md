@@ -32,8 +32,8 @@ modified: '2026-07-20'
 name: Causera
 nav: Providers
 network: true
-overview: Causera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startup, 500 Global, Portfolio, and Defunct.
-random_paper: 5
+overview: Causera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startups, 500 Global, Portfolio, and Defunct.
+random_paper: 14
 screenshot: https://raw.githubusercontent.com/api-evangelist/causera/refs/heads/main/screenshots/causera-2026-07-25T204815.png
 security:
 - kind: domain-security
@@ -43,7 +43,7 @@ security:
 slug: causera
 tags:
 - Company
-- Startup
+- Startups
 - 500 Global
 - Portfolio
 - Defunct

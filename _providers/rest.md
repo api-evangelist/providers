@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: 'Representational State Transfer (REST) is an architectural style originally defined by Roy Fielding. REST provides six guiding constraints: client-server separation, statelessness, cacheability, unifo'
@@ -127,7 +127,7 @@ plans:
 - name: Rest Plans Pricing
   plan_count: 3
   slug: rest-plans-pricing
-random_paper: 5
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Rest Rate Limits
@@ -163,7 +163,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

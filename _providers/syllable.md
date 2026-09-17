@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -586,7 +586,7 @@ overview: 'Syllable publishes 41 APIs on the [APIs.io](https://apis.io/) network
 
 
   Syllable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
-random_paper: 16
+random_paper: 20
 score:
   band: strong
   composite: 61.9
@@ -623,7 +623,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

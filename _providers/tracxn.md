@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'Programmatic access to Tracxn''s private-market database. Version 3.0 is current and version 2.2 is formally announced for deprecation. A uniform JSON-over-HTTPS contract: every data endpoint is a POST'
@@ -218,7 +218,7 @@ plans:
 - name: Tracxn Plans Pricing
   plan_count: 0
   slug: tracxn-plans-pricing
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 9
   name: Tracxn Rate Limits
@@ -252,7 +252,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -277,7 +277,7 @@ tags:
 - Venture Capital
 - Startups
 - Company Data
-- Investors
+- Investor
 - Funding
 website: https://tracxn.com
 ---

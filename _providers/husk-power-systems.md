@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -123,7 +123,7 @@ overview: 'Husk Power Systems is profiled on the [APIs.io](https://apis.io/) net
 
 
   Husk Power Systems'' developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 13
+random_paper: 12
 score:
   band: emerging
   composite: 11.6
@@ -159,7 +159,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

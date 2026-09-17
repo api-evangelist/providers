@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 135 operations · 57 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://api.brushfire.com
-  baseurl_source: declared
-  description: The AccessCodes API from Brushfire — 3 operation(s) for accesscodes.
-  name: Brushfire AccessCodes API
-  slug: brushfire-accesscodes-api
 - baseURL: https://api.brushfire.com
   baseurl_source: declared
   description: The Accounts API from Brushfire — 3 operation(s) for accounts.
@@ -125,6 +120,11 @@ apis:
   description: The Sessions API from Brushfire — 10 operation(s) for sessions.
   name: Brushfire Sessions API
   slug: brushfire-sessions-api
+- baseURL: https://api.brushfire.com
+  baseurl_source: declared
+  description: The Access Codes API from Brushfire — 3 operation(s) for access codes.
+  name: Brushfire Access Codes API
+  slug: brushfire-access-codes-api
 artifact_total: 39
 collections:
 - collection_type: open
@@ -245,7 +245,7 @@ modified: '2026-07-05'
 name: Brushfire
 nav: Providers
 network: true
-overview: 'Brushfire publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AccessCodes API, Accounts API, Attendees API, and 13 more. Tagged areas include Event Ticketing, Registration, Event, Ticketing, and Check-in.
+overview: 'Brushfire publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attendees API, Cart API, and 13 more. Tagged areas include Event Ticketing, Registration, Event, Ticketing, and Check-in.
 
 
   Brushfire''s developer surface includes authentication, documentation, API reference, signup flow, and 8 more developer resources.'
@@ -253,14 +253,14 @@ plans:
 - name: Brushfire Plans Pricing
   plan_count: 5
   slug: brushfire-plans-pricing
-random_paper: 4
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Brushfire Rate Limits
   slug: brushfire-rate-limits
 score:
   band: thin
-  composite: 34.1
+  composite: 34.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 60.0
@@ -268,11 +268,11 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 51.3
+    contract_quality: 54.0
     developer_ergonomics: 19.0
     discoverability: 68.5
     operational_transparency: 21.1
@@ -291,7 +291,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

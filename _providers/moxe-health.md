@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -275,7 +275,7 @@ modified: '2026-07-24T12:00:00Z'
 name: Moxe Health
 nav: Providers
 network: true
-overview: 'Moxe Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Claims API and Patient API. Tagged areas include Healthcare, United States, Interoperability, Clinical Data, and Payer.
+overview: 'Moxe Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Claims API and Patient API. Tagged areas include Healthcare, United States, Interoperability, Clinical Data, and Payers.
 
 
   Moxe Health''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, engineering blog, support, and 34 more developer resources.'
@@ -283,7 +283,7 @@ plans:
 - name: Moxe Health Plans Pricing
   plan_count: 0
   slug: moxe-health-plans-pricing
-random_paper: 3
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Moxe Health Rate Limits
@@ -342,7 +342,7 @@ score:
     regime_id: health
     score: 73.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -371,8 +371,8 @@ tags:
 - United States
 - Interoperability
 - Clinical Data
-- Payer
-- Provider
+- Payers
+- Providers
 - EHR
 - Health Data Exchange
 - Claims

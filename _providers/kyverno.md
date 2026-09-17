@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -71,11 +71,6 @@ apis:
   slug: kyverno-policies-api
 - baseURL: http://localhost:8080
   baseurl_source: spec
-  description: Namespaced policy report endpoints
-  name: Kyverno PolicyReports API
-  slug: kyverno-policyreports-api
-- baseURL: http://localhost:8080
-  baseurl_source: spec
   description: Policy result query endpoints
   name: Kyverno Results API
   slug: kyverno-results-api
@@ -84,6 +79,11 @@ apis:
   description: Policy source listing endpoints
   name: Kyverno Sources API
   slug: kyverno-sources-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Namespaced policy report endpoints
+  name: Kyverno Policy Reports API
+  slug: kyverno-policy-reports-api
 artifact_total: 26
 collections:
 - collection_type: open
@@ -230,7 +230,7 @@ plans:
 - name: Kyverno Plans Pricing
   plan_count: 3
   slug: kyverno-plans-pricing
-random_paper: 5
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Kyverno Rate Limits
@@ -282,7 +282,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 50.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Goldmane is the Calico flow aggregation and network-observability service introduced in Calico Open Source 3.30. It exposes a gRPC API for querying aggregated flow data — List for point-in-time querie
@@ -47,11 +47,6 @@ apis:
 - description: A read-only REST API on the Calico Cloud SaaS management plane that returns the same vCPU usage and managed-cluster data shown on the Usage Metrics page, for capacity planning, FinOps and license-comp
   name: Calico Cloud Usage API
   slug: calico-cloud-usage-api
-- baseURL: https://kubernetes.default.svc/apis/projectcalico.org/v3
-  baseurl_source: declared
-  description: The apis API from Tigera — 1 operation(s) for apis.
-  name: Tigera APIS API
-  slug: tigera-apis-api
 - baseURL: https://kubernetes.default.svc/apis/projectcalico.org/v3
   baseurl_source: declared
   description: The projectcalicoOrg API from Tigera — 1 operation(s) for projectcalicoorg.
@@ -67,6 +62,11 @@ apis:
   description: The version API from Tigera — 1 operation(s) for version.
   name: Tigera Version API
   slug: tigera-version-api
+- baseURL: https://goldmane.calico-system.svc:7443
+  baseurl_source: declared
+  description: The apis API from Tigera — 1 operation(s) for apis.
+  name: Tigera APIS API
+  slug: tigera-apis-api
 artifact_total: 19
 asyncapis:
 - description: ''
@@ -312,14 +312,14 @@ modified: '2026-08-05'
 name: Tigera
 nav: Providers
 network: true
-overview: 'Tigera publishes 4 APIs on the [APIs.io](https://apis.io/) network, including APIS API, Projectcalico Org API, Projectcalico Org V3 API, and 1 more. Tagged areas include Company, Kubernetes, Networking, Network Security, and Container Security.
+overview: 'Tigera publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Projectcalico Org API, Projectcalico Org V3 API, Version API, and 1 more. Tagged areas include Company, Kubernetes, Networking, Network Security, and Container Security.
 
 
   The Tigera catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Tigera''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
-random_paper: 6
+random_paper: 20
 scopes:
 - name: Tigera Scopes
   scope_count: 1
@@ -327,7 +327,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 51.9
+  composite: 52.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 32.0
@@ -335,11 +335,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
-    contract_quality: 47.5
+    contract_quality: 49.5
     developer_ergonomics: 73.2
     discoverability: 66.7
     operational_transparency: 44.7
@@ -357,7 +357,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

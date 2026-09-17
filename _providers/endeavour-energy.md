@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ overview: 'Endeavour Energy publishes 2 APIs on the [APIs.io](https://apis.io/) 
 
 
   Endeavour Energy''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 34 more developer resources.'
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Endeavour Energy Rate Limits
@@ -320,7 +320,7 @@ score:
     regime_id: energy_utilities
     score: 70.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

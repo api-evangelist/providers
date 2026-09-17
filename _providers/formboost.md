@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Single public unauthenticated HTTP endpoint (POST https://formboost.app/f/{alias}) that accepts JSON or form-encoded submissions. Returns 202 to JSON clients and 302 to HTML form posts. Discovery via '
@@ -193,7 +193,7 @@ plans:
 - name: Formboost Plans Pricing
   plan_count: 4
   slug: formboost-plans-pricing
-random_paper: 0
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Formboost Rate Limits
@@ -221,7 +221,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

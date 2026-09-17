@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 66
@@ -120,11 +120,6 @@ apis:
   slug: cal-com-me-api
 - baseURL: https://api.cal.com/v2
   baseurl_source: declared
-  description: The OAuth2 API from Cal.com — 2 operation(s) for oauth2.
-  name: Cal.com OAuth2 API
-  slug: cal-com-oauth2-api
-- baseURL: https://api.cal.com/v2
-  baseurl_source: declared
   description: The Schedules API from Cal.com — 3 operation(s) for schedules.
   name: Cal.com Schedules API
   slug: cal-com-schedules-api
@@ -156,6 +151,11 @@ apis:
 - description: REST API providing full programmatic control over Cal.com resources including calendars, event types, bookings, schedules, teams, and organizations. Supports OAuth and API key authentication with rate
   name: Cal.com REST API v2
   slug: rest-api-v2
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The OAuth2 API from Cal.com — 2 operation(s) for oauth2.
+  name: Cal.com O Auth2 API
+  slug: cal-com-oauth2-api
 artifact_total: 56
 asyncapis:
 - description: AsyncAPI definition for Cal.com's webhook surface. Cal.com webhooks are HTTP POST deliveries from Cal.com to a developer-defined `subscriberUrl` registered via the Cal.com Webhooks API (`/v2/webhooks`
@@ -317,7 +317,7 @@ plans:
 - name: Cal Com Plans Pricing
   plan_count: 6
   slug: cal-com-plans-pricing
-random_paper: 17
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Cal Com Rate Limits
@@ -362,7 +362,7 @@ score:
       total: 22
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

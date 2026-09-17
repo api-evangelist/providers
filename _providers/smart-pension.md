@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 0
@@ -122,11 +122,6 @@ apis:
   description: The BankAccountDetail API from Smart Pension — 2 operation(s) for bankaccountdetail.
   name: Smart Pension Bank Account Detail API
   slug: smart-pension-bankaccountdetail-api
-- baseURL: https://api.autoenrolment.co.uk
-  baseurl_source: declared
-  description: The BankAccountDetails API from Smart Pension — 4 operation(s) for bankaccountdetails.
-  name: Smart Pension Bank Account Details API
-  slug: smart-pension-bankaccountdetails-api
 - baseURL: https://api.autoenrolment.co.uk
   baseurl_source: declared
   description: The Batch API from Smart Pension — 1 operation(s) for batch.
@@ -227,11 +222,6 @@ apis:
   description: The CompanyFees API from Smart Pension — 2 operation(s) for companyfees.
   name: Smart Pension Company Fees API
   slug: smart-pension-companyfees-api
-- baseURL: https://api.autoenrolment.co.uk
-  baseurl_source: declared
-  description: The CompanyLookup API from Smart Pension — 2 operation(s) for companylookup.
-  name: Smart Pension Company Lookup API
-  slug: smart-pension-companylookup-api
 - baseURL: https://api.autoenrolment.co.uk
   baseurl_source: declared
   description: The CompanyLookups API from Smart Pension — 1 operation(s) for companylookups.
@@ -392,11 +382,6 @@ apis:
   description: The ExternalEmployeeDataAvailability API from Smart Pension — 1 operation(s) for externalemployeedataavailability.
   name: Smart Pension External Employee Data Availability API
   slug: smart-pension-externalemployeedataavailability-api
-- baseURL: https://api.autoenrolment.co.uk
-  baseurl_source: declared
-  description: The FeatureFlags API from Smart Pension — 1 operation(s) for featureflags.
-  name: Smart Pension Feature Flags API
-  slug: smart-pension-featureflags-api
 - baseURL: https://api.autoenrolment.co.uk
   baseurl_source: declared
   description: The Funds API from Smart Pension — 1 operation(s) for funds.
@@ -605,12 +590,12 @@ apis:
 - baseURL: https://api.autoenrolment.co.uk
   baseurl_source: declared
   description: The PensionForecast API from Smart Pension — 1 operation(s) for pensionforecast.
-  name: Smart Pension Pension Forecast API
+  name: Smart Pension Forecast API
   slug: smart-pension-pensionforecast-api
 - baseURL: https://api.autoenrolment.co.uk
   baseurl_source: declared
   description: The PensionForecastInputs API from Smart Pension — 1 operation(s) for pensionforecastinputs.
-  name: Smart Pension Pension Forecast Inputs API
+  name: Smart Pension Forecast Inputs API
   slug: smart-pension-pensionforecastinputs-api
 - baseURL: https://api.autoenrolment.co.uk
   baseurl_source: declared
@@ -789,9 +774,24 @@ apis:
   slug: smart-pension-valuations-api
 - baseURL: https://api.autoenrolment.co.uk
   baseurl_source: declared
-  description: The VerificationChecks API from Smart Pension — 3 operation(s) for verificationchecks.
+  description: The Bank Account Details API from Smart Pension — 4 operation(s) for bank account details.
+  name: Smart Pension Bank Account Details API
+  slug: smart-pension-bank-account-details-api
+- baseURL: https://api.autoenrolment.co.uk
+  baseurl_source: declared
+  description: The Company Lookup API from Smart Pension — 2 operation(s) for company lookup.
+  name: Smart Pension Company Lookup API
+  slug: smart-pension-company-lookup-api
+- baseURL: https://api.autoenrolment.co.uk
+  baseurl_source: declared
+  description: The Feature Flags API from Smart Pension — 1 operation(s) for feature flags.
+  name: Smart Pension Feature Flags API
+  slug: smart-pension-feature-flags-api
+- baseURL: https://api.autoenrolment.co.uk
+  baseurl_source: declared
+  description: The Verification Checks API from Smart Pension — 3 operation(s) for verification checks.
   name: Smart Pension Verification Checks API
-  slug: smart-pension-verificationchecks-api
+  slug: smart-pension-verification-checks-api
 artifact_total: 303
 collections:
 - collection_type: open
@@ -1407,7 +1407,7 @@ description: Smart Pension is a UK defined contribution workplace pension master
   for machine-to-machine partners), with three sandboxed environments and self-serve partner registration.
 image: https://cdn.prod.website-files.com/5ce68aba5375cabb8f952335/5d8a243dcd466e77cc8dc3b6_Z-V12-Social-GeneralTile.png
 layout: provider
-modified: '2026-08-05'
+modified: '2026-09-16'
 name: Smart Pension
 nav: Providers
 network: true
@@ -1415,7 +1415,7 @@ overview: 'Smart Pension publishes 149 APIs on the [APIs.io](https://apis.io/) n
 
 
   Smart Pension''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 16
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Smart Pension Rate Limits
@@ -1427,7 +1427,7 @@ scopes:
   summary_line: 41 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.6
+  composite: 57.3
   coverage:
     artifact_dirs: 23
     catalog_earned: 46.0
@@ -1435,11 +1435,11 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 51.5
+    contract_quality: 54.2
     developer_ergonomics: 66.1
     discoverability: 63.0
     operational_transparency: 60.5
@@ -1463,7 +1463,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

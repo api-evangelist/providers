@@ -34,28 +34,38 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.3
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
-- baseURL: https://sts.kfupm.edu.sa
-  baseurl_source: declared
-  description: KFUPM's own identity provider at sts.kfupm.edu.sa (Microsoft AD FS). Publishes signed SAML 2.0 federation metadata (80 KB, entityID http://sts.kfupm.edu.sa/adfs/services/trust, IDPSSODescriptor with H
-  name: KFUPM Identity Federation (SAML 2.0 + OpenID Connect)
-  slug: identity-federation
-- baseURL: https://eprints.kfupm.edu.sa/cgi/oai2
-  baseurl_source: declared
-  description: 'Live OAI-PMH 2.0 harvesting interface for the KFUPM ePrints institutional repository (EPrints 3.4.1), self-hosted on the university''s own domain. repositoryIdentifier eprints.kfupm.edu.sa, adminEmail '
-  name: KFUPM ePrints OAI-PMH Repository Interface
-  slug: eprints-oai-pmh
-- baseURL: https://eprints.kfupm.edu.sa/cgi
-  baseurl_source: declared
-  description: Record-level and search-level JSON from the same self-hosted KFUPM ePrints repository, served without authentication. /cgi/export/eprint/{eprintid}/JSON/{filename} returns the full record as applicati
-  name: KFUPM ePrints Export & Search (JSON)
-  slug: eprints-export
 - description: KFUPM runs an Elsevier Pure research information system at pure.kfupm.edu.sa and its Pure Web Services REST API is reachable at /ws/api, authenticated with a Pure api-key header. The deployment, the t
   name: KFUPM Elsevier Pure Web Services (tenant deployment)
   slug: pure-tenant
-artifact_total: 12
+- baseURL: https://sts.kfupm.edu.sa
+  baseurl_source: declared
+  description: Unauthenticated metadata endpoints. All three fetched live 2026-08-30.
+  name: King Fahd University of Petroleum & Minerals Discovery API
+  slug: kfupm-discovery-api
+- baseURL: https://sts.kfupm.edu.sa
+  baseurl_source: declared
+  description: Record-level export in a named format.
+  name: King Fahd University of Petroleum & Minerals Export API
+  slug: kfupm-export-api
+- baseURL: https://sts.kfupm.edu.sa
+  baseurl_source: declared
+  description: OAI-PMH 2.0 protocol requests. All six verbs verified live 2026-08-30.
+  name: King Fahd University of Petroleum & Minerals Oai Pmh API
+  slug: kfupm-oai-pmh-api
+- baseURL: https://sts.kfupm.edu.sa
+  baseurl_source: declared
+  description: Free-text search with a machine-readable output format.
+  name: King Fahd University of Petroleum & Minerals Search API
+  slug: kfupm-search-api
+- baseURL: https://pure.kfupm.edu.sa/ws/api
+  baseurl_source: declared
+  description: OAuth 2.0 / OpenID Connect endpoints as declared by KFUPM's own discovery document.
+  name: King Fahd University of Petroleum & Minerals Oauth2 API
+  slug: kfupm-oauth2-api
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -181,7 +191,7 @@ modified: '2026-08-30'
 name: King Fahd University of Petroleum & Minerals
 nav: Providers
 network: true
-overview: 'King Fahd University of Petroleum & Minerals publishes 3 APIs on the [APIs.io](https://apis.io/) network: KFUPM Identity Federation (SAML 2.0 + OpenID Connect), KFUPM ePrints OAI-PMH Repository Interface, and KFUPM ePrints Export & Search (JSON). Tagged areas include University, Higher Education, Education, Research, and Saudi Arabia.
+overview: 'King Fahd University of Petroleum & Minerals publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Export API, Oai Pmh API, and 2 more. Tagged areas include University, Higher Education, Education, Research, and Saudi Arabia.
 
 
   King Fahd University of Petroleum & Minerals'' developer surface includes engineering blog, authentication, and 21 more developer resources.'
@@ -189,7 +199,7 @@ plans:
 - name: Kfupm Plans Pricing
   plan_count: 2
   slug: kfupm-plans-pricing
-random_paper: 1
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Kfupm Rate Limits
@@ -201,7 +211,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 39.6
+  composite: 39.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 54.3
@@ -209,11 +219,11 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 34.2
     contract_governance: 3.8
-    contract_quality: 57.0
+    contract_quality: 56.3
     developer_ergonomics: 23.8
     discoverability: 74.1
     operational_transparency: 7.9
@@ -231,7 +241,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
@@ -239,7 +249,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

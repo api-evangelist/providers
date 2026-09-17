@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -54,22 +54,22 @@ apis:
   description: Application and Application Instance Lice Cycle Management
   name: Global System for Mobile Communications Application API
   slug: global-system-for-mobile-communications-application-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/application-profiles/v0.3'
   baseurl_source: spec_template
   description: Operations to define, read and manage an application's thresholds for network quality (latency, jitter, loss, throughput)
   name: Global System for Mobile Communications Application Profiles API
   slug: global-system-for-mobile-communications-application-profiles-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/call-forwarding-signal/v0.2'
   baseurl_source: spec_template
   description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
   name: Global System for Mobile Communications Call Forwarding Information Retrieval API
   slug: global-system-for-mobile-communications-call-forwarding-information-retrieval-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/sim-swap/v1'
   baseurl_source: spec_template
   description: The Check SIM Swap API from Global System for Mobile Communications — 1 operation(s) for check sim swap.
   name: Global System for Mobile Communications Check SIM Swap API
   slug: global-system-for-mobile-communications-check-sim-swap-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/connectivity-insights-subscriptions/v0.4/check-network-quality'
   baseurl_source: spec_template
   description: Create and manage a subscription to receive periodic connectivity insights
   name: Global System for Mobile Communications Connectivity Insights Subscriptions API
@@ -84,112 +84,87 @@ apis:
   description: Edge Cloud Zones Availability
   name: Global System for Mobile Communications Edge Cloud API
   slug: global-system-for-mobile-communications-edge-cloud-api
-- baseURL_template: '{apiRoot}/{basePath}'
-  baseurl_source: spec_template
-  description: Operations to manage event subscription on geofencing events for leaving and entering an area
-  name: Global System for Mobile Communications Geofencing Subscriptions API
-  slug: global-system-for-mobile-communications-geofencing-subscriptions-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/home-devices-qod/v0.4'
   baseurl_source: spec_template
   description: QoD control operations for home devices
   name: Global System for Mobile Communications Home Devices QoD API
   slug: global-system-for-mobile-communications-home-devices-qod-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/location-retrieval/v0.3'
   baseurl_source: spec_template
   description: Retrieve the location of a device
   name: Global System for Mobile Communications Location Retrieval API
   slug: global-system-for-mobile-communications-location-retrieval-api
-- baseURL_template: '{apiRoot}/{basePath}'
-  baseurl_source: spec_template
-  description: Verification of the location of a device
-  name: Global System for Mobile Communications Location Verification API
-  slug: global-system-for-mobile-communications-location-verification-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/kyc-match/v0.2'
   baseurl_source: spec_template
   description: Operations to match a customer identity against the account data bound to their phone number.
   name: Global System for Mobile Communications Match API
   slug: global-system-for-mobile-communications-match-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/connectivity-insights/v0.4'
   baseurl_source: spec_template
   description: Read the network's level of confidence that it can meet the quality thresholds for a given application profile and end user device.
   name: Global System for Mobile Communications Network Quality API
   slug: global-system-for-mobile-communications-network-quality-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/carrier-billing/v0.3'
   baseurl_source: spec_template
   description: Operations to manage One Step Payment procedure
   name: Global System for Mobile Communications One Step Payment API
   slug: global-system-for-mobile-communications-one-step-payment-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/one-time-password-sms/v1'
   baseurl_source: spec_template
   description: API operations to manage OTP codes
   name: Global System for Mobile Communications OTP Management API
   slug: global-system-for-mobile-communications-otp-management-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/carrier-billing/v0.3'
   baseurl_source: spec_template
   description: Operations to obtain information about payments
   name: Global System for Mobile Communications Payment API
   slug: global-system-for-mobile-communications-payment-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/number-verification/v1'
   baseurl_source: spec_template
   description: API operation to return the phone number associated to the access token.
   name: Global System for Mobile Communications Phone Number Share API
   slug: global-system-for-mobile-communications-phone-number-share-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/number-verification/v1'
   baseurl_source: spec_template
   description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
   name: Global System for Mobile Communications Phone Number Verify API
   slug: global-system-for-mobile-communications-phone-number-verify-api
-- baseURL_template: '{apiRoot}/{basePath}'
-  baseurl_source: spec_template
-  description: Operations to retrieve population density information.
-  name: Global System for Mobile Communications Population Density Data API
-  slug: global-system-for-mobile-communications-population-density-data-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/quality-on-demand/v0.11'
   baseurl_source: spec_template
   description: Manage QoS sessions
   name: Global System for Mobile Communications QoS Sessions API
   slug: global-system-for-mobile-communications-qos-sessions-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/sim-swap/v1'
   baseurl_source: spec_template
   description: The Retrieve SIM Swap Date API from Global System for Mobile Communications — 1 operation(s) for retrieve sim swap date.
   name: Global System for Mobile Communications Retrieve SIM Swap Date API
   slug: global-system-for-mobile-communications-retrieve-sim-swap-date-api
 - baseURL_template: '{apiRoot}/{basePath}'
   baseurl_source: spec_template
-  description: Operation to get device roaming status and country information (if roaming) synchronously
-  name: Global System for Mobile Communications Roaming Status Retrieval API
-  slug: global-system-for-mobile-communications-roaming-status-retrieval-api
-- baseURL_template: '{apiRoot}/{basePath}'
-  baseurl_source: spec_template
   description: The Send SMS API from Global System for Mobile Communications — 1 operation(s) for send sms.
   name: Global System for Mobile Communications Send SMS API
   slug: global-system-for-mobile-communications-send-sms-api
-- baseURL_template: '{apiRoot}/{basePath}'
-  baseurl_source: spec_template
-  description: Operation to manage event subscription on sms delivery event (swapped)
-  name: Global System for Mobile Communications SMS Delivery Notification Subscription API
-  slug: global-system-for-mobile-communications-sms-delivery-notification-subscription-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/traffic-influence/vwip'
   baseurl_source: spec_template
   description: Reads existing TrafficInfluence resources
   name: Global System for Mobile Communications Traffic Influence API Read API
   slug: global-system-for-mobile-communications-traffic-influence-api-read-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/traffic-influence/vwip'
   baseurl_source: spec_template
   description: Creates of modifies a TrafficInfluence resource
   name: Global System for Mobile Communications Traffic Influence API Write API
   slug: global-system-for-mobile-communications-traffic-influence-api-write-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/carrier-billing/v0.3'
   baseurl_source: spec_template
   description: Operations to manage Two Step Payment procedure
   name: Global System for Mobile Communications Two Step Payment API
   slug: global-system-for-mobile-communications-two-step-payment-api
-- baseURL_template: '{apiRoot}/{basePath}'
+- baseURL_template: '{apiRoot}/call-forwarding-signal/v0.2'
   baseurl_source: spec_template
   description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: Global System for Mobile Communications Unconditional Call Forwarding Information Retrieval API
   slug: global-system-for-mobile-communications-unconditional-call-forwarding-information-retrieval-api
-artifact_total: 90
+artifact_total: 85
 collections:
 - collection_type: open
   name: API Collection
@@ -427,7 +402,7 @@ modified: '2026-05-19'
 name: Global System for Mobile Communications
 nav: Providers
 network: true
-overview: 'Global System for Mobile Communications publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Application API, Application Profiles API, Call Forwarding Information Retrieval API, and 25 more. Tagged areas include Mobile, Networking, Networks, Standards, and Telco.
+overview: 'Global System for Mobile Communications publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Application API, Application Profiles API, Call Forwarding Information Retrieval API, and 20 more. Tagged areas include Mobile, Networking, Networks, Standards, and Telco.
 
 
   Global System for Mobile Communications'' developer surface includes authentication, engineering blog, and 12 more developer resources.'
@@ -435,14 +410,14 @@ plans:
 - name: Global System For Mobile Communications Plans Pricing
   plan_count: 3
   slug: global-system-for-mobile-communications-plans-pricing
-random_paper: 6
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Global System For Mobile Communications Rate Limits
   slug: global-system-for-mobile-communications-rate-limits
 score:
   band: thin
-  composite: 34.0
+  composite: 33.5
   coverage:
     artifact_dirs: 11
     catalog_earned: 36.0
@@ -450,11 +425,11 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 55.7
+    contract_quality: 53.8
     developer_ergonomics: 28.6
     discoverability: 50.0
     operational_transparency: 13.2
@@ -465,7 +440,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 28
+      total: 23
   regulatory:
     applies: true
     matched_via: tags
@@ -473,7 +448,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

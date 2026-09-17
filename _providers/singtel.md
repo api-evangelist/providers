@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 7
 apis:
 - description: Network-based verification that the mobile number a user declares is the number of the SIM the request is actually coming from, used to replace or reinforce SMS OTP. Singtel documents this as the CAMA
@@ -171,7 +171,7 @@ overview: 'Singtel publishes 7 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Singtel''s developer surface includes engineering blog, support, documentation, and 20 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: emerging
   composite: 19.8
@@ -207,7 +207,7 @@ score:
     regime_id: telecommunications
     score: 39.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

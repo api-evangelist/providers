@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ modified: '2026-05-08'
 name: Pinata
 nav: Providers
 network: true
-overview: 'Pinata publishes 2 APIs on the [APIs.io](https://apis.io/) network: Auth API and Files API. Tagged areas include Web3, IPFS, Storage, and Gateway.
+overview: 'Pinata publishes 2 APIs on the [APIs.io](https://apis.io/) network: Auth API and Files API. Tagged areas include Web3, IPFS, Storage, and Gateways.
 
 
   Pinata''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
@@ -152,7 +152,7 @@ plans:
 - name: Pinata Plans Pricing
   plan_count: 5
   slug: pinata-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Pinata Rate Limits
@@ -184,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -204,6 +204,6 @@ tags:
 - Web3
 - IPFS
 - Storage
-- Gateway
+- Gateways
 website: https://pinata.cloud/
 ---

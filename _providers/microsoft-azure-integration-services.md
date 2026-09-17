@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: Services operations
-  name: Microsoft Azure Integration Services Services API
+  name: Microsoft Azure Integration Services API
   slug: microsoft-azure-integration-services-services-api
 artifact_total: 17
 collections:
@@ -178,11 +178,11 @@ finops:
   slug: microsoft-azure-integration-services-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-integration-services.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Microsoft Azure Integration Services
 nav: Providers
 network: true
-overview: 'Microsoft Azure Integration Services publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Services API. Tagged areas include API Management, Enterprise, Event-Driven, Integration, and Messaging.
+overview: 'Microsoft Azure Integration Services publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Operations API, and 1 more. Tagged areas include API Management, Enterprise, Event-Driven, Integration, and Messaging.
 
 
   Microsoft Azure Integration Services'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 14 more developer resources.'
@@ -190,7 +190,7 @@ plans:
 - name: Microsoft Azure Integration Services Plans Pricing
   plan_count: 3
   slug: microsoft-azure-integration-services-plans-pricing
-random_paper: 7
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Integration Services Rate Limits
@@ -227,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

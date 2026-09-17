@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: RSS feed providing the latest articles and news from The New Stack covering cloud native, DevOps, AI, and open source technologies. Feed follows RSS 2.0 with Dublin Core and WordPress content extensio
@@ -161,7 +161,7 @@ plans:
 - name: The New Stack Plans Pricing
   plan_count: 3
   slug: the-new-stack-plans-pricing
-random_paper: 15
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: The New Stack Rate Limits
@@ -197,7 +197,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

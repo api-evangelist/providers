@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -106,7 +106,7 @@ press:
 - date: '2020-01-15'
   title: John "JT" Helms Elected Secretary of National Agricultural Aviation Association (NAAA)
   url: https://oldrepublic.com/news/john-jt-helms-elected-secretary-of-national-agricultural-aviation-association-naaa
-random_paper: 17
+random_paper: 1
 score:
   band: minimal
   composite: 2.8
@@ -133,7 +133,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

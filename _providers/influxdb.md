@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -137,11 +137,6 @@ apis:
   slug: influxdb-notificationendpoints-api
 - baseURL: https://cloud2.influxdata.com/api/v2
   baseurl_source: declared
-  description: The NotificationRules API from InfluxDB — 4 operation(s) for notificationrules.
-  name: InfluxDB NotificationRules API
-  slug: influxdb-notificationrules-api
-- baseURL: https://cloud2.influxdata.com/api/v2
-  baseurl_source: declared
   description: Manage your [organization](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#organization). An organization is a workspace for a group of users. Organizations can be used to separate diff
   name: InfluxDB Organizations API
   slug: influxdb-organizations-api
@@ -185,11 +180,6 @@ apis:
   description: The Setup API from InfluxDB — 2 operation(s) for setup.
   name: InfluxDB Setup API
   slug: influxdb-setup-api
-- baseURL: https://cloud2.influxdata.com/api/v2
-  baseurl_source: declared
-  description: The Signin API from InfluxDB — 1 operation(s) for signin.
-  name: InfluxDB Signin API
-  slug: influxdb-signin-api
 - baseURL: https://cloud2.influxdata.com/api/v2
   baseurl_source: declared
   description: The Signout API from InfluxDB — 1 operation(s) for signout.
@@ -245,6 +235,16 @@ apis:
   description: Write time series data to [buckets](https://docs.influxdata.com/influxdb/cloud/reference/glossary/#bucket).
   name: InfluxDB Write API
   slug: influxdb-write-api
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Notification Rules API from InfluxDB — 4 operation(s) for notification rules.
+  name: InfluxDB Notification Rules API
+  slug: influxdb-notification-rules-api
+- baseURL: https://cloud2.influxdata.com/api/v2
+  baseurl_source: declared
+  description: The Sign In API from InfluxDB — 1 operation(s) for sign in.
+  name: InfluxDB Sign In API
+  slug: influxdb-sign-in-api
 artifact_total: 91
 collections:
 - collection_type: open
@@ -487,7 +487,7 @@ plans:
 - name: Influxdb Plans Pricing
   plan_count: 3
   slug: influxdb-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Influxdb Rate Limits
@@ -519,7 +519,7 @@ score:
       marker_coverage: 0.0
       total: 41
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

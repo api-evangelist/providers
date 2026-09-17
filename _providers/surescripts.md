@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: 'Publicly documented HL7 FHIR Release 4 API for retrieving medication history panels and near-real-time Prescription Notifications for enrolled patient populations. Panels and notifications are pulled '
@@ -203,7 +203,7 @@ plans:
 - name: Surescripts Plans Pricing
   plan_count: 0
   slug: surescripts-plans-pricing
-random_paper: 5
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Surescripts Rate Limits
@@ -237,7 +237,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://openbanking.api.rabobank.com.au/public/cds-au/v1/banking/products
@@ -213,7 +213,7 @@ overview: 'Rabobank Australia publishes 7 APIs on the [APIs.io](https://apis.io/
 
 
   Rabobank Australia''s developer surface includes authentication, API reference, documentation, support, and 18 more developer resources.'
-random_paper: 16
+random_paper: 17
 scopes:
 - name: Rabobank Australia Scopes
   scope_count: 10
@@ -261,7 +261,7 @@ score:
     regime_id: banking_open_finance
     score: 54.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

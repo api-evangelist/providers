@@ -31,7 +31,7 @@ tags:
 - Developer Tools
 - Infrastructure
 - Enterprise Software
-- Marketplaces
+- Marketplace
 - Artificial Intelligence
 - Fintech
 - United States

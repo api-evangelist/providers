@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -94,7 +94,7 @@ apis:
 - baseURL: https://api.getpinch.com.au
   baseurl_source: declared
   description: The Payments API from Pinch Payments — 7 operation(s) for payments.
-  name: Pinch Payments Payments API
+  name: Pinch Payments API
   slug: pinch-payments-payments-api
 - baseURL: https://api.getpinch.com.au
   baseurl_source: declared
@@ -381,7 +381,7 @@ mcp_servers:
 - description: ''
   name: Pinch API Docs MCP
   slug: pinch-api-docs-mcp
-modified: '2026-07-24'
+modified: '2026-09-16'
 name: Pinch Payments
 nav: Providers
 network: true
@@ -392,7 +392,7 @@ overview: 'Pinch Payments publishes 17 APIs on the [APIs.io](https://apis.io/) n
 
 
   Pinch Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, and 31 more developer resources.'
-random_paper: 7
+random_paper: 4
 scopes:
 - name: Pinch Payments Scopes
   scope_count: 1
@@ -441,7 +441,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

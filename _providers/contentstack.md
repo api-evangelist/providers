@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -379,6 +379,10 @@ collections:
   name: Contentstack Analytics Accounts Voice Profiles API
   slug: open-contentstack-voice-profiles-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://contentstack.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/capabilities/contentstack-capability-edges.yml
   title: ''
@@ -765,7 +769,7 @@ jsonld:
   property_count: 13
   slug: contentstack-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Contentstack
 nav: Providers
 network: true
@@ -775,12 +779,12 @@ overview: 'Contentstack publishes 33 APIs on the [APIs.io](https://apis.io/) net
   The Contentstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Contentstack''s developer surface includes authentication and 13 more developer resources.'
+  Contentstack''s developer surface includes authentication and 14 more developer resources.'
 plans:
 - name: Contentstack Plans Pricing
   plan_count: 3
   slug: contentstack-plans-pricing
-random_paper: 16
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Contentstack Rate Limits
@@ -848,7 +852,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -868,4 +872,5 @@ security:
   slug: contentstack-trust-center
   summary_line: SOC 2, ISO 27001, GDPR
 slug: contentstack
+website: https://contentstack.com
 ---

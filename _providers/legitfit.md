@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: LegitFit's Model Context Protocol server — a JSON-RPC 2.0 endpoint that exposes LegitFit resources to AI agents. Protected by OAuth 2.1 (authorization_code with PKCE S256) and gated by the mcp:read an
@@ -135,7 +135,7 @@ overview: 'LegitFit publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   LegitFit''s developer surface includes authentication, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 16
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Legitfit Rate Limits
@@ -182,7 +182,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -205,7 +205,7 @@ tags:
 - Gym Management
 - Studio Management
 - Scheduling
-- Memberships
+- Membership
 - Payments
 - Software-as-a-Service
 - MCP

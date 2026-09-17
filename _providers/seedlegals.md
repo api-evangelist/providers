@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -120,7 +120,7 @@ overview: 'SeedLegals is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   SeedLegals'' developer surface includes pricing, engineering blog, support, signup flow, authentication, and 10 more developer resources.'
-random_paper: 20
+random_paper: 15
 scopes:
 - name: Seedlegals Scopes
   scope_count: 7
@@ -149,7 +149,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

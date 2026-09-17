@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,11 +91,6 @@ apis:
   slug: american-gene-technologies-international-news-releases-api
 - baseURL: https://www.americangene.com/wp-json
   baseurl_source: declared
-  description: The oEmbed API from American Gene Technologies — 1 operation(s) for oembed.
-  name: American Gene Technologies O Embed API
-  slug: american-gene-technologies-international-oembed-api
-- baseURL: https://www.americangene.com/wp-json
-  baseurl_source: declared
   description: The Pages API from American Gene Technologies — 2 operation(s) for pages.
   name: American Gene Technologies Pages API
   slug: american-gene-technologies-international-pages-api
@@ -139,6 +134,11 @@ apis:
   description: The Young Minds API from American Gene Technologies — 2 operation(s) for young minds.
   name: American Gene Technologies Young Minds API
   slug: american-gene-technologies-international-young-minds-api
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The o Embed API from American Gene Technologies — 1 operation(s) for o embed.
+  name: American Gene Technologies o Embed API
+  slug: american-gene-technologies-international-o-embed-api
 artifact_total: 42
 collections:
 - collection_type: open
@@ -385,7 +385,7 @@ overview: 'American Gene Technologies publishes 19 APIs on the [APIs.io](https:/
 
 
   American Gene Technologies'' developer surface includes engineering blog, product news, support, FAQ, YouTube channel, authentication, code examples, and 32 more developer resources.'
-random_paper: 13
+random_paper: 18
 score:
   band: emerging
   composite: 20.3
@@ -427,7 +427,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

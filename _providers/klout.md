@@ -52,7 +52,7 @@ name: Klout
 nav: Providers
 network: true
 overview: Klout is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Social-Media, Social Analytics, and Influence Scoring.
-random_paper: 13
+random_paper: 9
 security:
 - kind: domain-security
   name: Klout Domain Security

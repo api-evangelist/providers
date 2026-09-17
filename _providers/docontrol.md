@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 34.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,9 +55,9 @@ apis:
   slug: docontrol-authentication-api
 - baseURL: https://apollo-gateway-v4-api.prod.docontrol.io
   baseurl_source: declared
-  description: The GraphQL API from DoControl — 1 operation(s) for graphql.
-  name: DoControl GraphQL API
-  slug: docontrol-graphql-api
+  description: The Graph QL API from DoControl — 1 operation(s) for graph ql.
+  name: DoControl Graph QL API
+  slug: docontrol-graph-ql-api
 artifact_total: 16
 collections:
 - collection_type: open
@@ -73,6 +73,11 @@ collections:
   name: DoControl API
   slug: open-docontrol
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/overlays/docontrol-graphql-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/docontrol-graphql-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/agentic-access/docontrol-agentic-access.yml
   title: ''
@@ -242,15 +247,15 @@ modified: '2026-09-06'
 name: DoControl
 nav: Providers
 network: true
-overview: 'DoControl publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and GraphQL API. Tagged areas include Data Security, SaaS Security, Data Access Governance, Data Loss Prevention, and Insider Risk Management.
+overview: 'DoControl publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Graph QL API. Tagged areas include Data Security, SaaS Security, Data Access Governance, Data Loss Prevention, and Insider Risk Management.
 
 
-  DoControl''s developer surface includes authentication, documentation, changelog, API reference, getting-started guide, support, engineering blog, and 26 more developer resources.'
+  DoControl''s developer surface includes authentication, documentation, changelog, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
 plans:
 - name: Docontrol Plans Pricing
   plan_count: 0
   slug: docontrol-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Docontrol Rate Limits
@@ -285,7 +290,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

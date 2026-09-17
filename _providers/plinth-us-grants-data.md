@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 54.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://data.useplinth.com/api
@@ -226,7 +226,7 @@ plans:
 - name: Plinth Us Grants Data Plans Pricing
   plan_count: 4
   slug: plinth-us-grants-data-plans-pricing
-random_paper: 8
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: Plinth Us Grants Data Rate Limits
@@ -283,7 +283,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

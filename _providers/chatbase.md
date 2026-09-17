@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ modified: '2026-06-20'
 name: Chatbase
 nav: Providers
 network: true
-overview: 'Chatbase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Chatbots API, Contacts API, and 2 more. Tagged areas include Artificial Intelligence, Chatbots, AI Agent, Customer-Support, and Conversational AI.
+overview: 'Chatbase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Chatbots API, Contacts API, and 2 more. Tagged areas include Artificial Intelligence, Chatbots, AI Agents, Customer-Support, and Conversational AI.
 
 
   Chatbase''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -174,7 +174,7 @@ plans:
 - name: Chatbase Plans Pricing
   plan_count: 6
   slug: chatbase-plans-pricing
-random_paper: 8
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Chatbase Rate Limits
@@ -206,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -233,7 +233,7 @@ slug: chatbase
 tags:
 - Artificial Intelligence
 - Chatbots
-- AI Agent
+- AI Agents
 - Customer-Support
 - Conversational AI
 website: https://www.chatbase.co

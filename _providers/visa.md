@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -161,27 +161,27 @@ apis:
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Retrieve notification history for accounts and manage customer profiles for alert delivery.
-  name: Visa Alert History API API
+  name: Visa Alert History API
   slug: visa-alert-history-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Manage cardholder alert delivery preferences including mobile numbers, email addresses, and device identifiers for notification delivery.
-  name: Visa Alerts Preference Management API API
+  name: Visa Alerts Preference Management API
   slug: visa-alerts-preference-management-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Search for Visa and Plus ATM locations by geographic coordinates, address, or other criteria to help cardholders find nearby cash access points.
-  name: Visa ATM Locator API API
+  name: Visa ATM Locator API
   slug: visa-atm-locator-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Data API will provide the APIs to expose the commercial data (i.e. card financial, invoice data) and authorization data through RESTful Services. The idea is to create an Enterprise Service with Restf
-  name: Visa Authorization Data API API
+  name: Visa Authorization Data API
   slug: visa-authorization-data-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Initiate, track, and manage large-value cross-border B2B payment transactions with direct settlement capabilities.
-  name: Visa B2B Connect API API
+  name: Visa B2B Connect API
   slug: visa-b2b-connect-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
@@ -196,12 +196,12 @@ apis:
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Commercial Data API will provide the APIs to expose the commercial data i.e. card financial and invoice data through RESTful Services. The idea is to create an Enterprise Service with Restful architec
-  name: Visa Business Data Corporate Setup API API
+  name: Visa Business Data Corporate Setup API
   slug: visa-business-data-corporate-setup-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Commercial Data API will provide the APIs to expose the commercial data i.e. card financial and invoice data through RESTful Services. The idea is to create an Enterprise Service with Restful architec
-  name: Visa Business Data Transactions API API
+  name: Visa Business Data Transactions API
   slug: visa-business-data-transactions-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
@@ -211,32 +211,32 @@ apis:
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Retrieve information about where a cardholder's Visa payment credentials are stored on file with participating merchants.
-  name: Visa Card on File Data Inquiry API API
+  name: Visa Card on File Data Inquiry API
   slug: visa-card-on-file-data-inquiry-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: The Click to Pay Checkout API enables merchants to initiate and complete checkout transactions using stored Visa credentials, providing consumers with a seamless and secure payment experience.
-  name: Visa CTP Checkout API API
+  name: Visa CTP Checkout API
   slug: visa-ctp-checkout-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: The Consumer Management API allows SRC Initiators to manage consumer profiles, including enrollment, identity verification, and credential management within the Click to Pay ecosystem.
-  name: Visa CTP Consumer Management API API
+  name: Visa CTP Consumer Management API
   slug: visa-ctp-consumer-management-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Register consumer accounts and manage payment rules and thresholds that define which transaction types to block or alert on.
-  name: Visa Customer Rules API API
+  name: Visa Customer Rules API
   slug: visa-customer-rules-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Retrieve tokenized data signals and insights from Visa's payment network for use in personalization, risk assessment, and business analytics.
-  name: Visa Data Tokens API API
+  name: Visa Data Tokens API
   slug: visa-data-tokens-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: The Foreign Exchange Rates API provides an easy access to the Visas currency conversion rate for a given currency pair.
-  name: Visa Foreign Exchange Rates API API
+  name: Visa Foreign Exchange Rates API
   slug: visa-foreign-exchange-rates-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
@@ -246,12 +246,12 @@ apis:
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Push and pull funds to and from Visa accounts for real-time money movement use cases including person-to-person transfers, business disbursements, and account funding transactions.
-  name: Visa Funds Transfer API API
+  name: Visa Funds Transfer API
   slug: visa-funds-transfer-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: The Funds Transfer Attributes Inquiry API is often used with a funds transfer to/from a Visa payment account to determine key characteristics of a recipient card before initiating the transfer like co
-  name: Visa Funds Transfer Attributes Inquiry API API
+  name: Visa Funds Transfer Attributes Inquiry API
   slug: visa-funds-transfer-attributes-inquiry-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
@@ -271,32 +271,32 @@ apis:
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: API that enables issuers to source acquirer BIN data directly from Visa
-  name: Visa Issuer API API
+  name: Visa Issuer API
   slug: visa-issuer-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Issuers can place stop advices in VAU to block specific merchants from receiving an automatic VAU credential update (e.g., following reported fraud) while still allowing their cardholder to transact w
-  name: Visa Issuer Stop Advice API API
+  name: Visa Issuer Stop Advice API
   slug: visa-issuer-stop-advice-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Search for merchants by name and location to retrieve Visa merchant identifiers and related details.
-  name: Visa Merchant Search API API
+  name: Visa Merchant Search API
   slug: visa-merchant-search-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Discover nearby Visa-accepting merchants based on geographic coordinates or address information.
-  name: Visa Nearby Merchants API API
+  name: Visa Nearby Merchants API
   slug: visa-nearby-merchants-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Retrieve offer data available to the caller, filtered by various offer attributes such as merchant, category, location, and date range.
-  name: Visa Offers Data API API
+  name: Visa Offers Data API
   slug: visa-offers-data-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: The Payment Account Validation API allows applications to run validations of the payment account before processing a transaction ensuring greater probability of success and allowing for a more seamles
-  name: Visa Payment Account Validation API API
+  name: Visa Payment Account Validation API
   slug: visa-payment-account-validation-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
@@ -306,12 +306,12 @@ apis:
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: 'PushNotification is a generic data channel to send Commercial Data to the end user over VDP. This API has capability to send Authorization data sets, Enhanced Data , Transaction data and Starter Data '
-  name: Visa Push Authorization Data API API
+  name: Visa Push Authorization Data API
   slug: visa-push-authorization-data-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Retrieve reference data values used for offer filtering criteria including merchant categories, countries, and offer types.
-  name: Visa Reference Data API API
+  name: Visa Reference Data API
   slug: visa-reference-data-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
@@ -341,7 +341,7 @@ apis:
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Enrich transaction data with additional merchant information including street addresses, URLs, logos, and contact details.
-  name: Visa Transaction Enrichment API API
+  name: Visa Transaction Enrichment API
   slug: visa-transaction-enrichment-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
@@ -351,42 +351,42 @@ apis:
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: URL Generation API
-  name: Visa URL Generation API API
+  name: Visa URL Generation API
   slug: visa-url-generation-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: The API is used to onboard and register companies, users and cards in Commercial Space
-  name: Visa VCS Enrollment API API
+  name: Visa VCS Enrollment API
   slug: visa-vcs-enrollment-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Visa Account Updater Acquirer API
-  name: Visa Visa Account Updater Acquirer API API
+  name: Visa Account Updater Acquirer API
   slug: visa-visa-account-updater-acquirer-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Visa Account Updater Merchant API for merchant enrollment and search.
-  name: Visa Visa Account Updater Merchant API API
+  name: Visa Account Updater Merchant API
   slug: visa-visa-account-updater-merchant-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: 'VCPE supports issuers that want to offer instant/digital issuance or re-issuance; as well as allow their cardholders to upgrade and downgrade cards in their banking app and enjoy new rewards programs '
-  name: Visa Visa Card Program Enrollment  API
+  name: Visa Card Program Enrollment API
   slug: visa-visa-card-program-enrollment-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Visa Consent Management API
-  name: Visa Visa Consent Management API API
+  name: Visa Consent Management API
   slug: visa-visa-consent-management-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: Visa Supplier Matching Service
-  name: Visa Visa Supplier Matching Service API API
+  name: Visa Supplier Matching Service API
   slug: visa-visa-supplier-matching-service-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
   description: VISA Supplier Matching Service
-  name: Visa Visa Supplier Matching Service Bulk API API
+  name: Visa Supplier Matching Service Bulk API
   slug: visa-visa-supplier-matching-service-bulk-api-api
 - baseURL: https://sandbox.api.visa.com
   baseurl_source: spec
@@ -747,7 +747,7 @@ jsonld:
   property_count: 8
   slug: visa-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Visa
 nav: Providers
 network: true
@@ -778,7 +778,7 @@ press:
 - date: '2026-05-25'
   title: Visa's 30-Year AI Legacy Fuels Launch of New Global AI ...
   url: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20076.html
-random_paper: 15
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Visa Rate Limits
@@ -838,7 +838,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

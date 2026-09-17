@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful API for Tryton ERP providing access to all business modules including financial accounting, stock/inventory, sales, purchasing, and production. Supports standard HTTP methods with JSON payload
@@ -101,7 +101,7 @@ modified: '2026-06-13'
 name: Tryton
 nav: Providers
 network: true
-overview: 'Tryton publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include ERP, Enterprise Resource Planning, Accounting, Inventory, and Sales.
+overview: 'Tryton publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include ERP, Accounting, Inventory, Sales, and Purchasing.
 
 
   Tryton''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
@@ -109,7 +109,7 @@ plans:
 - name: Tryton Plans Pricing
   plan_count: 2
   slug: tryton-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Tryton Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -149,7 +149,6 @@ security:
 slug: tryton
 tags:
 - ERP
-- Enterprise Resource Planning
 - Accounting
 - Inventory
 - Sales

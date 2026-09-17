@@ -32,12 +32,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 42.4
-  scored_at: '2026-09-15'
+  score: 39.9
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 6
@@ -47,11 +47,6 @@ agentic_access:
   summary_line: 238 operations · 147 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://api.wise.com/v2
-  baseurl_source: declared
-  description: To manage certain aspects of the 3D Secure (3DS) authentication, you will need to integrate with the following APIs.
-  name: Wise 3ds API
-  slug: wise-3ds-api
 - baseURL: https://api.wise.com/v2
   baseurl_source: declared
   description: Activity represents a snapshot of a performed action for a profile.
@@ -287,6 +282,11 @@ apis:
   description: Webhook events are notifications sent by Wise to your server when specific actions occur. Subscribe to events using the [Webhook](/api-reference/webhook) endpoints at the application or profile level.
   name: Wise Webhook Event API
   slug: wise-webhook-event-api
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: To manage certain aspects of the 3D Secure (3DS) authentication, you will need to integrate with the following APIs.
+  name: Wise 3 DS API
+  slug: wise-3-ds-api
 artifact_total: 107
 asyncapis:
 - description: AsyncAPI 2.6 description of the Wise Platform webhook surface. Wise pushes HTTP `POST` notifications to subscriber-defined HTTPS endpoints when events occur against profiles, transfers, balances, card
@@ -543,7 +543,7 @@ modified: '2026-05-30'
 name: Wise
 nav: Providers
 network: true
-overview: 'Wise publishes 48 APIs on the [APIs.io](https://apis.io/) network, including 3ds API, activity API, address API, and 45 more. Tagged areas include Payments, FX, Cross-Border, Banking, and Multi-Currency.
+overview: 'Wise publishes 48 APIs on the [APIs.io](https://apis.io/) network, including activity API, address API, balance API, and 45 more. Tagged areas include Payments, FX, Cross-Border, Banking, and Multi-Currency.
 
 
   The Wise catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -554,7 +554,7 @@ plans:
 - name: Wise Plans Pricing
   plan_count: 3
   slug: wise-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Wise Rate Limits
@@ -604,7 +604,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

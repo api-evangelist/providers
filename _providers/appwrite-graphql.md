@@ -32,11 +32,11 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Appwrite GraphQL API provides a unified GraphQL endpoint at /v1/graphql that exposes all Appwrite platform resources including databases, users, storage buckets, and cloud functions. It supports s
-  name: Appwrite GraphQL GraphQL API
+  name: Appwrite GraphQL API
   slug: graphql-api
 artifact_total: 3
 common:
@@ -92,7 +92,7 @@ graphqls:
   slug: appwrite-graphql-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appwrite-graphql.png
 layout: provider
-modified: 2026-06-14
+modified: '2026-09-16'
 name: Appwrite GraphQL
 nav: Providers
 network: true
@@ -100,7 +100,7 @@ overview: 'Appwrite GraphQL publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Appwrite GraphQL''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 13
+random_paper: 0
 score:
   band: emerging
   composite: 23.1
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

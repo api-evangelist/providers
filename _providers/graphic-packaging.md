@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Read-only HTTP JSON API serving Graphic Packaging International's open job requisitions from careers.graphicpkg.com. Four tools — search_jobs, get_job, list_departments and list_locations — are select
@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: '10-K: Annual report [Section 13 and 15(d), not S-K Item 405]'
   url: https://investors.graphicpkg.com/sec-filings/all-sec-filings/content/0001408075-26-000009/gpk-20251231.htm
-random_paper: 11
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Graphic Packaging Rate Limits
@@ -171,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

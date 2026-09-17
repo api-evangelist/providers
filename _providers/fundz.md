@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Company profiles, funding rounds, SEC filings and fund formations, keyed to real-time business events.
@@ -280,7 +280,7 @@ plans:
 - name: Fundz Plans
   plan_count: 0
   slug: fundz-plans
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Fundz Rate Limits
@@ -320,7 +320,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

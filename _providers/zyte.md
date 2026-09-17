@@ -33,24 +33,29 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://api.zyte.com/v1
-  baseurl_source: declared
-  description: 'A single POST /extract operation that retrieves any public URL through Zyte''s automatic ban-avoidance network and returns any combination of raw HTTP body, browser-rendered HTML, screenshots, network '
-  name: Zyte API
-  slug: zyte
-- baseURL: https://zyte-api-stats.zyte.com
-  baseurl_source: declared
-  description: Read recorded Zyte API usage — request volume, cost, response times and status codes — filtered and grouped by domain, API key label, response code, requested feature, extraction type and customer-sup
-  name: Zyte API Stats API
-  slug: zyte-stats-api
 - description: The HTTP API for Scrapy Cloud, Zyte's hosted platform for running Scrapy spiders. Schedule, stop, update and delete jobs; list and count queued work; read job metadata, logs, requests and scraped item
   name: Scrapy Cloud API
   slug: zyte-scrapy-cloud
+- baseURL: https://api.zyte.com/v1
+  baseurl_source: declared
+  description: The Extract API from Zyte — 1 operation(s) for extract.
+  name: Zyte Extract API
+  slug: zyte-extract-api
+- baseURL: https://api.zyte.com/v1
+  baseurl_source: declared
+  description: The Stats API from Zyte — 2 operation(s) for stats.
+  name: Zyte Stats API
+  slug: zyte-stats-api
 artifact_total: 10
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zyte/refs/heads/main/overlays/zyte-zyte-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zyte-zyte-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -229,36 +234,36 @@ modified: '2026-08-29'
 name: Zyte
 nav: Providers
 network: true
-overview: 'Zyte publishes 2 APIs on the [APIs.io](https://apis.io/) network, including API Stats API, and 1 more. Tagged areas include Crawling, Data Extraction, Scraping, Web Scraping, and Proxies.
+overview: 'Zyte publishes 2 APIs on the [APIs.io](https://apis.io/) network: Extract API and Stats API. Tagged areas include Crawling, Data Extraction, Scraping, Web Scraping, and Proxies.
 
 
-  Zyte''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Zyte''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Zyte Plans Pricing
   plan_count: 5
   slug: zyte-plans-pricing
-random_paper: 19
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Zyte Rate Limits
   slug: zyte-rate-limits
 score:
   band: strong
-  composite: 56.7
+  composite: 57.2
   coverage:
     artifact_dirs: 23
-    catalog_earned: 67.0
+    catalog_earned: 64.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 61.8
     contract_governance: 4.5
-    contract_quality: 50.3
+    contract_quality: 54.4
     developer_ergonomics: 76.2
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 65.8
   previous_composite: 56.7
   provenance:
@@ -271,7 +276,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

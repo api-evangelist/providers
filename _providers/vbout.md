@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 20
+- acting_count: 56
   human_in_the_loop: 0
   name: Vbout Agentic Access
-  operation_count: 37
+  operation_count: 108
   slug: vbout-agentic-access
-  summary_line: 37 operations · 20 acting
+  summary_line: 108 operations · 56 acting
 api_count: 2
 apis:
 - baseURL: https://api.vbout.com/1
@@ -48,11 +48,6 @@ apis:
   description: The Account API from VBOUT — 2 operation(s) for account.
   name: VBOUT Account API
   slug: vbout-account-api
-- baseURL: https://api.vbout.com/1
-  baseurl_source: declared
-  description: The AIchatbot API from VBOUT — 4 operation(s) for aichatbot.
-  name: VBOUT AIchatbot API
-  slug: vbout-aichatbot-api
 - baseURL: https://api.vbout.com/1
   baseurl_source: declared
   description: The Application API from VBOUT — 1 operation(s) for application.
@@ -73,11 +68,6 @@ apis:
   description: The Email Marketing API from VBOUT — 10 operation(s) for email marketing.
   name: VBOUT Email Marketing API
   slug: vbout-email-marketing-api
-- baseURL: https://api.vbout.com/1
-  baseurl_source: declared
-  description: The EmailMarketing API from VBOUT — 25 operation(s) for emailmarketing.
-  name: VBOUT EmailMarketing API
-  slug: vbout-emailmarketing-api
 - baseURL: https://api.vbout.com/1
   baseurl_source: declared
   description: The Goals API from VBOUT — 6 operation(s) for goals.
@@ -110,15 +100,15 @@ apis:
   slug: vbout-social-media-api
 - baseURL: https://api.vbout.com/1
   baseurl_source: declared
-  description: The SocialMedia API from VBOUT — 7 operation(s) for socialmedia.
-  name: VBOUT SocialMedia API
-  slug: vbout-socialmedia-api
-- baseURL: https://api.vbout.com/1
-  baseurl_source: declared
   description: The Users & Workflow API from VBOUT — 9 operation(s) for users & workflow.
   name: VBOUT Users & Workflow API
   slug: vbout-users-workflow-api
-artifact_total: 37
+- baseURL: https://api.vbout.com/1
+  baseurl_source: declared
+  description: The AI Chatbot API from VBOUT — 4 operation(s) for ai chatbot.
+  name: VBOUT AI Chatbot API
+  slug: vbout-ai-chatbot-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Vbout Webhooks
@@ -354,7 +344,7 @@ modified: '2026-08-13'
 name: VBOUT
 nav: Providers
 network: true
-overview: 'VBOUT publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, AIchatbot API, Application API, and 12 more. Tagged areas include Marketing Automation, Email Marketing, Social-Media, Lead Management, and Landing Pages.
+overview: 'VBOUT publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Application API, Automation API, and 10 more. Tagged areas include Marketing Automation, Email Marketing, Social-Media, Lead Management, and Landing Pages.
 
 
   The VBOUT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -365,14 +355,14 @@ plans:
 - name: Vbout Plans Pricing
   plan_count: 4
   slug: vbout-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Vbout Rate Limits
   slug: vbout-rate-limits
 score:
   band: strong
-  composite: 54.8
+  composite: 54.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 57.0
@@ -380,11 +370,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 69.7
     contract_governance: 4.5
-    contract_quality: 53.3
+    contract_quality: 53.8
     developer_ergonomics: 73.2
     discoverability: 68.5
     operational_transparency: 47.4
@@ -396,11 +386,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 15
+      total: 13
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

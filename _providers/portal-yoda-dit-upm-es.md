@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: CKAN API for UPM YODA Open Data Portal, ~201 datasets.
@@ -93,7 +93,7 @@ plans:
 - name: Portal Yoda Dit Upm Es Plans Pricing
   plan_count: 0
   slug: portal-yoda-dit-upm-es-plans-pricing
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Portal Yoda Dit Upm Es Rate Limits
@@ -132,7 +132,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

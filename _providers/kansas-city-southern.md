@@ -56,7 +56,7 @@ press:
 - date: '2026-05-25'
   title: 'CPKC''s AI Strategy: Analysis of Dominance in Rail ...'
   url: https://www.klover.ai/cpkc-ai-strategy-analysis-of-dominance-in-rail-transportation-ai/
-random_paper: 2
+random_paper: 14
 screenshot: https://raw.githubusercontent.com/api-evangelist/kansas-city-southern/refs/heads/main/screenshots/kansas-city-southern-2026-06-20T183915.png
 slug: kansas-city-southern
 tags:

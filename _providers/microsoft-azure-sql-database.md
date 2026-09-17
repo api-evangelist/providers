@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,14 +62,14 @@ apis:
   slug: microsoft-azure-sql-database-failovergroups-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
-  description: The FirewallRules API from Azure SQL Database — 2 operation(s) for firewallrules.
-  name: Azure SQL Database FirewallRules API
-  slug: microsoft-azure-sql-database-firewallrules-api
-- baseURL: https://management.azure.com/
-  baseurl_source: declared
   description: The Servers API from Azure SQL Database — 3 operation(s) for servers.
   name: Azure SQL Database Servers API
   slug: microsoft-azure-sql-database-servers-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Firewall Rules API from Azure SQL Database — 2 operation(s) for firewall rules.
+  name: Azure SQL Database Firewall Rules API
+  slug: microsoft-azure-sql-database-firewall-rules-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -94,6 +94,10 @@ collections:
   name: Azure SQL Database REST API
   slug: open-microsoft-azure-sql-database
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://microsoft.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/agentic-access/microsoft-azure-sql-database-agentic-access.yml
   title: ''
@@ -165,19 +169,19 @@ finops:
   slug: microsoft-azure-sql-database-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-sql-database.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Azure SQL Database
 nav: Providers
 network: true
 overview: 'Azure SQL Database publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Databases API, ElasticPools API, FailoverGroups API, and 2 more. Tagged areas include Database, SQL, and Relational Database.
 
 
-  Azure SQL Database''s developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 8 more developer resources.'
+  Azure SQL Database''s developer surface includes authentication, developer portal, pricing, documentation, getting-started guide, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Microsoft Azure Sql Database Plans Pricing
   plan_count: 3
   slug: microsoft-azure-sql-database-plans-pricing
-random_paper: 11
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Sql Database Rate Limits
@@ -209,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -229,5 +233,5 @@ tags:
 - Database
 - SQL
 - Relational Database
-website: https://portal.azure.com/
+website: https://microsoft.com
 ---

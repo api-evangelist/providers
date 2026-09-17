@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Mural Public API supports OAuth 2.0 with scopes, image and file uploads to murals, and CRUD on workspaces, rooms, murals, widgets, and members. Includes published rate limits, pagination, and erro
@@ -117,7 +117,7 @@ plans:
 - name: Mural Plans Pricing
   plan_count: 1
   slug: mural-plans-pricing
-random_paper: 20
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Mural Rate Limits
@@ -142,7 +142,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 18.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

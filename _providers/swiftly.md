@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The GraphQL API that backs Swiftly-built retailer mobile apps and websites. Exposes 45 queries and 11 mutations across offers and coupons, product catalog and barcode lookup, store and chain directori
@@ -162,7 +162,7 @@ overview: 'Swiftly publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Swiftly''s developer surface includes engineering blog, product news, support, authentication, and 20 more developer resources.'
-random_paper: 9
+random_paper: 16
 score:
   band: thin
   composite: 27.7
@@ -192,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

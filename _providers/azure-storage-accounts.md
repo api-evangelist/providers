@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -69,11 +69,6 @@ apis:
   description: The Operations API from Azure Storage Accounts — 1 operation(s) for operations.
   name: Azure Storage Accounts Operations API
   slug: azure-storage-accounts-operations-api
-- baseURL: https://{accountName}.blob.core.windows.net
-  baseurl_source: declared
-  description: The PrivateEndpointConnections API from Azure Storage Accounts — 1 operation(s) for privateendpointconnections.
-  name: Azure Storage Accounts PrivateEndpointConnections API
-  slug: azure-storage-accounts-privateendpointconnections-api
 - baseURL: https://{accountName}.blob.core.windows.net
   baseurl_source: declared
   description: The PrivateLinkResources API from Azure Storage Accounts — 1 operation(s) for privatelinkresources.
@@ -116,11 +111,6 @@ apis:
   slug: azure-storage-account-operations-api
 - baseURL: https://{account}.blob.core.windows.net
   baseurl_source: declared
-  description: The PrivateEndpointConnections API from Azure Storage Account — 1 operation(s) for privateendpointconnections.
-  name: Azure Storage Account PrivateEndpointConnections API
-  slug: azure-storage-account-privateendpointconnections-api
-- baseURL: https://{account}.blob.core.windows.net
-  baseurl_source: declared
   description: The PrivateLinkResources API from Azure Storage Account — 1 operation(s) for privatelinkresources.
   name: Azure Storage Account PrivateLinkResources API
   slug: azure-storage-account-privatelinkresources-api
@@ -134,7 +124,12 @@ apis:
   description: The StorageAccounts API from Azure Storage Account — 11 operation(s) for storageaccounts.
   name: Azure Storage Account StorageAccounts API
   slug: azure-storage-account-storageaccounts-api
-artifact_total: 185
+- baseURL: https://{accountName}.blob.core.windows.net
+  baseurl_source: declared
+  description: The Private Endpoint Connections API from Azure Storage Accounts — 1 operation(s) for private endpoint connections.
+  name: Azure Storage Accounts Private Endpoint Connections API
+  slug: azure-storage-accounts-private-endpoint-connections-api
+artifact_total: 184
 collections:
 - collection_type: postman
   name: StorageManagementClient BlobContainers API
@@ -700,7 +695,7 @@ modified: '2026-05-19'
 name: Azure Storage Accounts
 nav: Providers
 network: true
-overview: 'Azure Storage Accounts publishes 18 APIs on the [APIs.io](https://apis.io/) network, including BlobContainers API, BlobService API, LocationUsage API, and 15 more. Tagged areas include Azure, Blob Storage, Cloud Storage, File Storage, and Queue Storage.
+overview: 'Azure Storage Accounts publishes 17 APIs on the [APIs.io](https://apis.io/) network, including BlobContainers API, BlobService API, LocationUsage API, and 14 more. Tagged areas include Azure, Blob Storage, Cloud Storage, File Storage, and Queue Storage.
 
 
   The Azure Storage Accounts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -711,7 +706,7 @@ plans:
 - name: Azure Storage Accounts Plans Pricing
   plan_count: 3
   slug: azure-storage-accounts-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Azure Storage Accounts Rate Limits
@@ -770,7 +765,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

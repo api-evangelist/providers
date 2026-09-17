@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.2
-  scored_at: '2026-09-15'
+  score: 27.7
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,11 +69,6 @@ apis:
   description: The IRIS DSpace REST root document, exposing version metadata and a HAL hypermedia catalogue of 92 link relations. On 2026-09-01 it reported irisVersion 1.3.13 and irisRole "follower" — drifted from t
   name: IRIS Repository API root (DSpace REST)
   slug: university-of-lausanne-iris-repository-dspace-rest-api-api
-- baseURL: https://api.unil.ch/iris/server/oai/request
-  baseurl_source: declared
-  description: 'OAI-PMH 2.0 metadata harvesting for IRIS, on UNIL''s own host. Two contexts answer anonymously: /oai/request (11 metadata prefixes — oai_dc, qdc, dim, mods, marc, rdf, ore, mets, didl, etdms, uketd_dc '
-  name: IRIS OAI-PMH
-  slug: university-of-lausanne-oai-pmh-api
 - description: UNIL's own Shibboleth identity provider, entityID https://aai.unil.ch/idp/shibboleth, carrying an IDPSSODescriptor with OrganizationName "unil.ch", OrganizationDisplayName "Université de Lausanne" and
   name: UNIL Shibboleth Identity Provider (SAML 2.0 metadata)
   slug: unil-shibboleth-idp
@@ -83,7 +78,7 @@ apis:
 - description: UNIL's entry in the Research Organization Registry, https://ror.org/019whta54, established 1537, domain unil.ch, cross-walked to Fundref 501100006390, GRID grid.9851.5, ISNI 0000 0001 2165 4204 and Wi
   name: ROR organisation registration
   slug: ror-registration
-artifact_total: 32
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -276,7 +271,7 @@ modified: '2026-09-01'
 name: University of Lausanne
 nav: Providers
 network: true
-overview: 'University of Lausanne publishes 6 APIs on the [APIs.io](https://apis.io/) network, including SPICA Atlas Projects.json API, SPICA Atlas Projects API, IRIS Repository Core API (DSpace REST), and 3 more. Tagged areas include Education, Higher Education, University, Switzerland, and Open Science.
+overview: 'University of Lausanne publishes 5 APIs on the [APIs.io](https://apis.io/) network, including SPICA Atlas Projects.json API, SPICA Atlas Projects API, IRIS Repository Core API (DSpace REST), and 2 more. Tagged areas include Education, Higher Education, University, Switzerland, and Open Science.
 
 
   The University of Lausanne catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -287,7 +282,7 @@ plans:
 - name: University Of Lausanne Plans Pricing
   plan_count: 2
   slug: university-of-lausanne-plans-pricing
-random_paper: 12
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: University Of Lausanne Rate Limits
@@ -316,7 +311,7 @@ rules:
   slug: university-of-lausanne-rules
 score:
   band: developing
-  composite: 49.7
+  composite: 49.6
   coverage:
     artifact_dirs: 19
     catalog_earned: 60.8
@@ -324,11 +319,11 @@ score:
     catalog_gap: 54.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 47.4
     contract_governance: 35.6
-    contract_quality: 58.9
+    contract_quality: 58.4
     developer_ergonomics: 33.3
     discoverability: 85.2
     operational_transparency: 7.9
@@ -348,7 +343,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 100.0
-      total: 6
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
@@ -356,7 +351,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

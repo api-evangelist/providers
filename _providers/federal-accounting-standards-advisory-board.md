@@ -32,15 +32,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://fasab.gov/wp-json
   baseurl_source: declared
-  description: The anonymous, read-only WordPress REST API behind fasab.gov. Serves FASAB's site pages (Standards & Guidance, handbook-by-chapter, active and archived projects, board and ASIC meeting material, brief
-  name: FASAB Public Content API (WordPress REST)
-  slug: federal-accounting-standards-advisory-board-wp-content
-artifact_total: 6
+  description: Public author records for FASAB staff who publish content.
+  name: Federal Accounting Standards Advisory Board Authors API
+  slug: federal-accounting-standards-advisory-board-authors-api
+- baseURL: https://fasab.gov/wp-json
+  baseurl_source: declared
+  description: Route index, content types, taxonomies, statuses and oEmbed.
+  name: Federal Accounting Standards Advisory Board Discovery API
+  slug: federal-accounting-standards-advisory-board-discovery-api
+- baseURL: https://fasab.gov/wp-json
+  baseurl_source: declared
+  description: The media library of uploaded files and images.
+  name: Federal Accounting Standards Advisory Board Documents API
+  slug: federal-accounting-standards-advisory-board-documents-api
+- baseURL: https://fasab.gov/wp-json
+  baseurl_source: declared
+  description: Posts and comments.
+  name: Federal Accounting Standards Advisory Board News API
+  slug: federal-accounting-standards-advisory-board-news-api
+- baseURL: https://fasab.gov/wp-json
+  baseurl_source: declared
+  description: FASAB site pages — standards and guidance, projects, board meetings, ASIC, training, resources.
+  name: Federal Accounting Standards Advisory Board Pages API
+  slug: federal-accounting-standards-advisory-board-pages-api
+- baseURL: https://fasab.gov/wp-json
+  baseurl_source: declared
+  description: Cross-type site search.
+  name: Federal Accounting Standards Advisory Board Search API
+  slug: federal-accounting-standards-advisory-board-search-api
+- baseURL: https://fasab.gov/wp-json
+  baseurl_source: declared
+  description: Categories, tags and the Link Library taxonomies.
+  name: Federal Accounting Standards Advisory Board Taxonomy API
+  slug: federal-accounting-standards-advisory-board-taxonomy-api
+artifact_total: 12
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/security/federal-accounting-standards-advisory-board-domain-security.yml
@@ -56,10 +86,10 @@ common:
   type: Website
   url: https://fasab.gov/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/federal-accounting-standards-advisory-board-wp-content-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/openapi/_original/federal-accounting-standards-advisory-board-wp-content-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/federal-accounting-standards-advisory-board-wp-content-openapi.yml
+  url: openapi/_original/federal-accounting-standards-advisory-board-wp-content-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/federal-accounting-standards-advisory-board/refs/heads/main/authentication/federal-accounting-standards-advisory-board-authentication.yml
   title: ''
@@ -145,11 +175,11 @@ examples:
   slug: federal-accounting-standards-advisory-board-error-401
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/federal-accounting-standards-advisory-board.png
 layout: provider
-modified: '2026-09-09'
+modified: '2026-09-16'
 name: Federal Accounting Standards Advisory Board
 nav: Providers
 network: true
-overview: 'Federal Accounting Standards Advisory Board publishes 1 API on the [APIs.io](https://apis.io/) network: FASAB Public Content API (WordPress REST). Tagged areas include Accounting, Federal-Government, Standards, Financial Reporting, and Government.
+overview: 'Federal Accounting Standards Advisory Board publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authors API, Discovery API, Documents API, and 4 more. Tagged areas include Accounting, Federal-Government, Standards, Financial Reporting, and Government.
 
 
   Federal Accounting Standards Advisory Board''s developer surface includes authentication, engineering blog, support, and 17 more developer resources.'
@@ -157,7 +187,7 @@ plans:
 - name: Federal Accounting Standards Advisory Board Plans Pricing
   plan_count: 0
   slug: federal-accounting-standards-advisory-board-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Federal Accounting Standards Advisory Board Rate Limits
@@ -185,9 +215,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 7
       marker_coverage: 100.0
-      total: 1
+      total: 7
     mcp: derived
     skills: derived
   regulatory:
@@ -197,7 +227,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -53,19 +53,27 @@ apis:
 - description: Python SDK for submitting jobs to Azure Quantum. Supports Q#, Qiskit, Cirq, and pass-through provider input formats; manages workspaces, jobs, sessions, and target queries against the Workspace data-p
   name: Azure Quantum Python SDK
   slug: azure-quantum-python-sdk
-- description: The Offerings API from Microsoft Azure Quantum — 1 operation(s) for offerings.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Offerings API from Microsoft Azure Quantum — 1 operation(s) for offerings.
   name: Microsoft Azure Quantum Offerings API
   slug: microsoft-quantum-offerings-api
-- description: The Operations API from Microsoft Azure Quantum — 1 operation(s) for operations.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Operations API from Microsoft Azure Quantum — 1 operation(s) for operations.
   name: Microsoft Azure Quantum Operations API
   slug: microsoft-quantum-operations-api
 - description: The Subscriptions API from Microsoft Azure Quantum — 12 operation(s) for subscriptions.
   name: Microsoft Azure Quantum Subscriptions API
   slug: microsoft-quantum-subscriptions-api
-- description: The SuiteOffers API from Microsoft Azure Quantum — 1 operation(s) for suiteoffers.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The SuiteOffers API from Microsoft Azure Quantum — 1 operation(s) for suiteoffers.
   name: Microsoft Azure Quantum SuiteOffers API
   slug: microsoft-quantum-suiteoffers-api
-- description: The Workspaces API from Microsoft Azure Quantum — 6 operation(s) for workspaces.
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: The Workspaces API from Microsoft Azure Quantum — 6 operation(s) for workspaces.
   name: Microsoft Azure Quantum Workspaces API
   slug: microsoft-quantum-workspaces-api
 arazzos:
@@ -492,7 +500,7 @@ plans:
 - name: Microsoft Quantum Plans Pricing
   plan_count: 9
   slug: microsoft-quantum-plans-pricing
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 8
   name: Microsoft Quantum Rate Limits
@@ -515,7 +523,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials/implicit
 score:
   band: strong
-  composite: 64.8
+  composite: 66.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 77.3
@@ -523,11 +531,11 @@ score:
     catalog_gap: 37.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 92.1
     contract_governance: 9.8
-    contract_quality: 53.6
+    contract_quality: 59.9
     developer_ergonomics: 67.9
     discoverability: 66.7
     operational_transparency: 68.4
@@ -535,12 +543,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 80.0
       derived: 0
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

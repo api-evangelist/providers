@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://management.azure.com/
   baseurl_source: declared
   description: ExpressRoute Circuits operations
-  name: Azure ExpressRoute ExpressRoute Circuits API
+  name: Azure ExpressRoute Circuits API
   slug: microsoft-azure-express-route-expressroute-circuits-api
 - baseURL: https://management.azure.com/
   baseurl_source: declared
@@ -129,11 +129,11 @@ finops:
   slug: microsoft-azure-express-route-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-express-route.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Azure ExpressRoute
 nav: Providers
 network: true
-overview: 'Azure ExpressRoute publishes 2 APIs on the [APIs.io](https://apis.io/) network: ExpressRoute Circuits API and Operations API. Tagged areas include ExpressRoute, Hybrid Network, Private Connectivity, and WAN.
+overview: 'Azure ExpressRoute publishes 2 APIs on the [APIs.io](https://apis.io/) network: Circuits API and Operations API. Tagged areas include ExpressRoute, Hybrid Network, Private Connectivity, and WAN.
 
 
   Azure ExpressRoute''s developer surface includes authentication, developer portal, pricing, support, and 8 more developer resources.'
@@ -141,7 +141,7 @@ plans:
 - name: Microsoft Azure Express Route Plans Pricing
   plan_count: 3
   slug: microsoft-azure-express-route-plans-pricing
-random_paper: 2
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Express Route Rate Limits
@@ -178,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

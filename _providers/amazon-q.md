@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -106,6 +106,10 @@ collections:
   name: Amazon Q Business API
   slug: open-amazon-q
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -425,7 +429,7 @@ jsonld:
   property_count: 4
   slug: amazon-q-openapi-message-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Q
 nav: Providers
 network: true
@@ -435,12 +439,12 @@ overview: 'Amazon Q publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Amazon Q catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 42 more developer resources.'
+  Amazon Q''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, FAQ, support, and 43 more developer resources.'
 plans:
 - name: Amazon Q Plans Pricing
   plan_count: 7
   slug: amazon-q-plans-pricing
-random_paper: 6
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Amazon Q Rate Limits
@@ -497,7 +501,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -526,5 +530,5 @@ tags:
 - Assistant
 - Enterprise
 - Generative AI
-website: https://aws.amazon.com/q/
+website: https://amazon.com
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The single first-party API behind the Adgager platform and the dash.adgager.com client dashboard. A Laravel Lighthouse GraphQL endpoint exposing 118 queries and 141 mutations over the platform''s core '
@@ -101,7 +101,7 @@ modified: '2026-09-07'
 name: Adgager
 nav: Providers
 network: true
-overview: 'Adgager publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Research, Consumer Insights, Survey, and Advertising.
+overview: 'Adgager publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Research, Consumer Insights, Surveys, and Advertising.
 
 
   Adgager''s developer surface includes pricing, support, engineering blog, and 11 more developer resources.'
@@ -109,7 +109,7 @@ plans:
 - name: Adgager Plans Pricing
   plan_count: 8
   slug: adgager-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Adgager Rate Limits
@@ -145,7 +145,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -165,7 +165,7 @@ tags:
 - Company
 - Market Research
 - Consumer Insights
-- Survey
+- Surveys
 - Advertising
 - Advertising Effectiveness
 - Brand Measurement

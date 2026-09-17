@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
@@ -74,7 +74,7 @@ apis:
 - baseURL: https://demo.cyware.com/ctixapi
   baseurl_source: declared
   description: Create Intel via Open API
-  name: Cyware Create Intel via Open API API
+  name: Cyware Create Intel via Open API
   slug: cyware-create-intel-via-open-api-api
 - baseURL: https://demo.cyware.com/ctixapi
   baseurl_source: declared
@@ -481,7 +481,7 @@ mcp_servers:
 - description: ''
   name: Cyware MCP Server
   slug: cyware-mcp-server
-modified: '2026-08-04'
+modified: '2026-09-16'
 name: Cyware
 nav: Providers
 network: true
@@ -492,7 +492,7 @@ overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cyware''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Cyware Rate Limits
@@ -528,13 +528,13 @@ score:
     conformance: first-party
     contracts:
       callable: 0.0
-      derived: 33
-      marker_coverage: 97.1
+      derived: 34
+      marker_coverage: 100.0
       total: 34
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

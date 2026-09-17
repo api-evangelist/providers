@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,32 +11,81 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 35.6
+  scored_at: '2026-09-16'
+api_count: 4
 apis:
-- description: Programmatic access to Featureflip — projects, environments, feature flags, variations, targeting, segments, and SDK keys. Bearer-token auth (ffp_ personal / ffs_ service tokens).
-  name: Management API
-  slug: management-api
-- description: High-performance feature flag evaluation service for SDKs, with client and SDK endpoints for evaluation, identify, streaming, flags, and events.
-  name: Evaluation API
-  slug: evaluation-api
 - description: Documentation for the @featureflip/mcp server, a local stdio process run via npx that calls the Management API on your behalf using a bearer token.
   name: MCP Server (local)
   slug: mcp-server-local
-artifact_total: 9
+- baseURL: https://api.featureflip.io
+  baseurl_source: declared
+  description: Client SDK endpoints for browser-side feature flag evaluation. All endpoints require a valid Client SDK key passed via the Authorization header. Unlike server SDK endpoints, these evaluate flags serve
+  name: Featureflip Client SDK API
+  slug: featureflip-client-sdk-api
+- baseURL: https://api.featureflip.io
+  baseurl_source: declared
+  description: Environments within a resolved organization + project — one level deeper than ProjectsController. Every route here carries `{org}`, so ResolveTenantFilter has already resolved + access-checked it befo
+  name: Featureflip Environments API
+  slug: featureflip-environments-api
+- baseURL: https://api.featureflip.io
+  baseurl_source: declared
+  description: 'Feature flags within a resolved organization + project — mirrors EnvironmentsController''s resolve-then-dispatch shape one level deeper. `{project}` is resolved key-or-guid, scoped to the resolved org '
+  name: Featureflip Feature Flags API
+  slug: featureflip-feature-flags-api
+- baseURL: https://api.featureflip.io
+  baseurl_source: declared
+  description: 'The caller''s own identity. This route has no `{org}` segment, so ResolveTenantFilter is a pass-through here — the caller is read entirely from the authenticated principal (via GetCurrentUserQuery for '
+  name: Featureflip Me API
+  slug: featureflip-me-api
+- baseURL: https://api.featureflip.io
+  baseurl_source: declared
+  description: The caller's organizations. `List` has no `{org}` segment (pass-through tenant filter) and dispatches ListOrganizationsQuery, which already scopes to the caller's own memberships. `Get` carries `{org}
+  name: Featureflip Organizations API
+  slug: featureflip-organizations-api
+- baseURL: https://api.featureflip.io
+  baseurl_source: declared
+  description: Projects within a resolved organization. Every route here carries `{org}`, so ResolveTenantFilter has already resolved + access-checked it before any action runs — dispatched commands/queries always u
+  name: Featureflip Projects API
+  slug: featureflip-projects-api
+- baseURL: https://api.featureflip.io
+  baseurl_source: declared
+  description: SDK keys within a resolved organization + project + environment — one level deeper than EnvironmentsController. Every action resolves `{project}` (key-or-guid, scoped to the resolved org, with the ser
+  name: Featureflip SDK Keys API
+  slug: featureflip-sdk-keys-api
+- baseURL: https://api.featureflip.io
+  baseurl_source: declared
+  description: SDK endpoints for feature flag evaluation and configuration retrieval. All endpoints require a valid SDK key passed via the Authorization header.
+  name: Featureflip Server SDK API
+  slug: featureflip-server-sdk-api
+- baseURL: https://api.featureflip.io
+  baseurl_source: declared
+  description: 'User segments within a resolved organization + project — mirrors EnvironmentsController''s resolve-then-dispatch shape one level deeper. `{project}` is resolved key-or-guid, scoped to the resolved org '
+  name: Featureflip User Segments API
+  slug: featureflip-user-segments-api
+artifact_total: 16
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/featureflip/refs/heads/main/overlays/featureflip-management-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/featureflip-management-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/featureflip/refs/heads/main/overlays/featureflip-evaluation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/featureflip-evaluation-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -167,18 +216,18 @@ modified: '2026-09-13'
 name: Featureflip
 nav: Providers
 network: true
-overview: 'Featureflip publishes 2 APIs on the [APIs.io](https://apis.io/) network: Management API and Evaluation API. Tagged areas include Feature Flags, Feature Management, feature flag cleanup, Progressive Delivery, and Experimentation.
+overview: 'Featureflip publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Client SDK API, Environments API, Feature Flags API, and 6 more. Tagged areas include Feature Flags, Feature Management, feature flag cleanup, Progressive Delivery, and Experimentation.
 
 
   The Featureflip catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Featureflip''s developer surface includes authentication, changelog, documentation, getting-started guide, pricing, engineering blog, support, and 19 more developer resources.'
+  Featureflip''s developer surface includes authentication, changelog, documentation, getting-started guide, pricing, engineering blog, support, and 21 more developer resources.'
 plans:
 - name: Featureflip Plans Pricing
   plan_count: 4
   slug: featureflip-plans-pricing
-random_paper: 20
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Featureflip Rate Limits
@@ -196,22 +245,22 @@ rules:
     warn: 0
   slug: featureflip-spectral
 score:
-  band: developing
-  composite: 50.1
+  band: strong
+  composite: 55.3
   coverage:
     artifact_dirs: 18
-    catalog_earned: 52.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.2
   facets:
     access_clarity: 76.3
     contract_governance: 33.3
-    contract_quality: 33.3
+    contract_quality: 51.9
     developer_ergonomics: 66.1
-    discoverability: 72.2
+    discoverability: 77.8
     operational_transparency: 21.1
   previous_composite: 50.1
   provenance:
@@ -220,12 +269,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 9
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

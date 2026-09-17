@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -646,7 +646,7 @@ plans:
 - name: Gnosis Safe Plans Pricing
   plan_count: 4
   slug: gnosis-safe-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 8
   name: Gnosis Safe Rate Limits
@@ -664,7 +664,7 @@ rules:
   slug: gnosis-safe-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.6
+  composite: 42.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 75.3
@@ -672,11 +672,11 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 54.6
+    contract_quality: 53.3
     developer_ergonomics: 35.7
     discoverability: 68.5
     operational_transparency: 52.6
@@ -687,7 +687,7 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 12
@@ -698,7 +698,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

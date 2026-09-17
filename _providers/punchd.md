@@ -24,7 +24,7 @@ name: Punchd
 nav: Providers
 network: true
 overview: Punchd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, Mobile, and Small Business.
-random_paper: 12
+random_paper: 4
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchd/refs/heads/main/screenshots/punchd-2026-09-02T152325.png
 slug: punchd
 tags:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -47,11 +47,6 @@ agentic_access:
   summary_line: 73 operations · 50 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: /api/v1
-  baseurl_source: spec
-  description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps tha
-  name: N8n
-  slug: n8n
 - baseURL: https://app.n8n.cloud/api/v1
   baseurl_source: declared
   description: Operations about security audit
@@ -99,11 +94,6 @@ apis:
   slug: n8n-projects-api
 - baseURL: https://app.n8n.cloud/api/v1
   baseurl_source: declared
-  description: Operations about source control
-  name: N8n SourceControl API
-  slug: n8n-sourcecontrol-api
-- baseURL: https://app.n8n.cloud/api/v1
-  baseurl_source: declared
   description: Operations about tags
   name: N8n Tags API
   slug: n8n-tags-api
@@ -122,7 +112,52 @@ apis:
   description: Operations about workflows
   name: N8n Workflow API
   slug: n8n-workflow-api
-artifact_total: 59
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about evaluation test runs
+  name: n8n Evaluation API
+  slug: n8n-evaluation-api
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about log streaming destinations
+  name: n8n Log Streaming API
+  slug: n8n-logstreaming-api
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Beta — breaking changes may still occur without major version bump.
+  name: n8n N8n Package API
+  slug: n8n-n8npackage-api
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about LDAP settings
+  name: n8n Settings Ldap API
+  slug: n8n-settingsldap-api
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about OpenTelemetry settings
+  name: n8n Settings Otel API
+  slug: n8n-settingsotel-api
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about OIDC SSO settings
+  name: n8n Settings SSO Oidc API
+  slug: n8n-settingsssooidc-api
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about SAML SSO settings
+  name: n8n Settings SSO Saml API
+  slug: n8n-settingsssosaml-api
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about the instance security policy settings
+  name: n8n security policy API
+  slug: n8n-security-policy-api
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about source control
+  name: n8n Source Control API
+  slug: n8n-source-control-api
+artifact_total: 66
 collections:
 - collection_type: open
   name: API Collection
@@ -417,7 +452,7 @@ modified: '2026-09-03'
 name: n8n
 nav: Providers
 network: true
-overview: 'n8n publishes 15 APIs on the [APIs.io](https://apis.io/) network, including N8n, Audit API, CommunityPackage API, and 12 more. Tagged areas include Agents, Artificial Intelligence, Integration, Workflows, and Automation.
+overview: 'n8n publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Audit API, CommunityPackage API, Credential API, and 19 more. Tagged areas include Agents, Artificial Intelligence, Integration, Workflows, and Automation.
 
 
   n8n''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 37 more developer resources.'
@@ -425,7 +460,7 @@ plans:
 - name: N8N Plans Pricing
   plan_count: 4
   slug: n8n-plans-pricing
-random_paper: 3
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: N8N Rate Limits
@@ -437,21 +472,21 @@ scopes:
   summary_line: 67 scopes
 score:
   band: strong
-  composite: 62.9
+  composite: 64.3
   coverage:
     artifact_dirs: 31
-    catalog_earned: 41.0
+    catalog_earned: 46.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 58.4
+    contract_quality: 60.2
     developer_ergonomics: 85.7
-    discoverability: 66.7
+    discoverability: 75.9
     operational_transparency: 55.3
   previous_composite: 62.9
   provenance:
@@ -460,12 +495,12 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 6.7
-      total: 15
+      marker_coverage: 0.0
+      total: 22
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

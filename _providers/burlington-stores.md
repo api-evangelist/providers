@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: 'Burlington''s consumer storefront: shopping, store locator, gift cards, loyalty and credit card servicing. No public API is published behind it. Every /.well-known/ path, /openapi.json and /llms.txt on'
@@ -147,7 +147,7 @@ press:
 - date: '2026-05-25'
   title: AI Data Scientist
   url: https://burlingtonstores.jobs/edgewater-park-nj/ai-data-scientist/082546BFFE0B470D9805F15D5CE0AE3C/job/
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Burlington Stores Rate Limits
@@ -174,7 +174,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

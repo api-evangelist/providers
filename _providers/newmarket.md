@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -98,7 +98,7 @@ press:
 - date: '2026-03-31'
   title: NewMarket Corporation Schedules Conference Call and Webcast to Review First Quarter 2026 Results
   url: https://www.newmarket.com/news/2026/03/newmarket-corporation-schedules-conference-call-and-webcast-to-review-first-quarter-2026-results/
-random_paper: 8
+random_paper: 6
 score:
   band: minimal
   composite: 4.6
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

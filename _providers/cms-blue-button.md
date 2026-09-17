@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,8 +67,8 @@ apis:
 - baseURL: https://api.bluebutton.cms.gov/v2/fhir
   baseurl_source: declared
   description: OpenID Connect userinfo for the authorizing beneficiary.
-  name: CMS Blue Button 2.0 UserInfo API
-  slug: cms-blue-button-userinfo-api
+  name: CMS Blue Button 2.0 User Info API
+  slug: cms-blue-button-user-info-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -167,7 +167,7 @@ plans:
 - name: Cms Blue Button Plans Pricing
   plan_count: 2
   slug: cms-blue-button-plans-pricing
-random_paper: 14
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Cms Blue Button Rate Limits
@@ -205,7 +205,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

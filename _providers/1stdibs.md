@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Official remote Model Context Protocol server (com.1stdibs/1stDibs) for browsing and searching luxury design items on the 1stDibs marketplace. Streamable-HTTP transport, API-key authentication.
@@ -91,7 +91,7 @@ overview: '1stdibs publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   1stdibs'' developer surface includes support and 7 more developer resources.'
-random_paper: 5
+random_paper: 16
 score:
   band: emerging
   composite: 13.1
@@ -114,7 +114,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

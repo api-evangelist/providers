@@ -15,25 +15,92 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 30.4
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 35.4
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- description: 'REST API for real-time Uruguayan exchange rates: every quote across 40+ houses, per-house and per-currency drill-down, historical evolution with statistics, branch locations and geocoding, BCU referen'
-  name: Cambio Uruguay API
-  slug: cambio-uruguay-api
 - description: First-party MCP server for AI agents, shipped both as a hosted anonymous Streamable HTTP endpoint and as the npx-runnable npm package cambio-uruguay-mcp. Seven read-only tools — rates, best house, con
   name: Cambio Uruguay MCP Server
   slug: cambio-uruguay-mcp-server
-artifact_total: 9
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: 'Guía de problemas con la aduana uruguaya: hechos legales citados, procedimientos y testimonios de r/uruguay'
+  name: Cambio Uruguay Aduana API
+  slug: cambio-uruguay-aduana-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: Endpoints de inteligencia artificial para análisis de mercado y generación de insights
+  name: Cambio Uruguay AI Insights API
+  slug: cambio-uruguay-ai-insights-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: The Banks API from Cambio Uruguay — 1 operation(s) for banks.
+  name: Cambio Uruguay Banks API
+  slug: cambio-uruguay-banks-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: Endpoints para datos del Banco Central del Uruguay
+  name: Cambio Uruguay BCU API
+  slug: cambio-uruguay-bcu-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: Endpoints de depuración para monitorear el estado interno del servicio
+  name: Cambio Uruguay Debug API
+  slug: cambio-uruguay-debug-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: Endpoints para datos históricos y evolución de monedas
+  name: Cambio Uruguay Evolution API
+  slug: cambio-uruguay-evolution-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: Endpoints para obtener datos de tipos de cambio
+  name: Cambio Uruguay Exchange Data API
+  slug: cambio-uruguay-exchange-data-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: Endpoints para servicios de geocodificación
+  name: Cambio Uruguay Geocoding API
+  slug: cambio-uruguay-geocoding-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: Endpoints para verificar el estado del servicio
+  name: Cambio Uruguay Health API
+  slug: cambio-uruguay-health-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: The Indicators API from Cambio Uruguay — 7 operation(s) for indicators.
+  name: Cambio Uruguay Indicators API
+  slug: cambio-uruguay-indicators-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: Endpoints para obtener información de ubicaciones
+  name: Cambio Uruguay Locations API
+  slug: cambio-uruguay-locations-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: Endpoints para obtener parámetros válidos del sistema
+  name: Cambio Uruguay Parameters API
+  slug: cambio-uruguay-parameters-api
+- baseURL: https://api.cambio-uruguay.com
+  baseurl_source: declared
+  description: 'Cotizaciones de la región: el dólar y los cruces en Argentina, Brasil, Paraguay, Chile, Bolivia y Uruguay, con series diarias y comparación de rutas'
+  name: Cambio Uruguay Regional API
+  slug: cambio-uruguay-regional-api
+artifact_total: 21
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cambio-uruguay/refs/heads/main/overlays/cambio-uruguay-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cambio-uruguay-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -148,22 +215,22 @@ modified: '2026-09-07'
 name: Cambio Uruguay
 nav: Providers
 network: true
-overview: 'Cambio Uruguay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency, Exchange Rates, Finance, Uruguay, and Latin America.
+overview: 'Cambio Uruguay publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Aduana API, AI Insights API, Banks API, and 10 more. Tagged areas include Currency, Exchange Rates, Finance, Uruguay, and Latin America.
 
 
-  Cambio Uruguay''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
+  Cambio Uruguay''s developer surface includes documentation, API reference, support, authentication, and 18 more developer resources.'
 plans:
 - name: Cambio Uruguay Plans Pricing
   plan_count: 1
   slug: cambio-uruguay-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Cambio Uruguay Rate Limits
   slug: cambio-uruguay-rate-limits
 score:
   band: thin
-  composite: 29.5
+  composite: 35.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -171,11 +238,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.6
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 26.7
+    contract_quality: 49.0
     developer_ergonomics: 35.1
     discoverability: 75.9
     operational_transparency: 15.8
@@ -187,11 +254,16 @@ score:
   previous_composite: 29.5
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

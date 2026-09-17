@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 63.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 12
 apis:
 - baseURL: https://api.plce.opengov.com/plce
@@ -49,11 +49,6 @@ apis:
   description: Activity Log APIs allow you to retrieve historical changes and actions performed on entities in the system. Activity logs track create, update, soft delete, and hard delete operations. Employee access
   name: OpenGov Activity Logs API
   slug: opengov-activity-logs-api
-- baseURL: https://api.plce.opengov.com/plce
-  baseurl_source: declared
-  description: The adminSettings API from OpenGov — 1 operation(s) for adminsettings.
-  name: OpenGov Admin Settings API
-  slug: opengov-adminsettings-api
 - baseURL: https://api.plce.opengov.com/plce
   baseurl_source: declared
   description: Approval Steps are one step type that can be found in a record's workflow.
@@ -86,19 +81,9 @@ apis:
   slug: opengov-categories-api
 - baseURL: https://api.plce.opengov.com/plce
   baseurl_source: declared
-  description: The changeOrder API from OpenGov — 1 operation(s) for changeorder.
-  name: OpenGov Change Order API
-  slug: opengov-changeorder-api
-- baseURL: https://api.plce.opengov.com/plce
-  baseurl_source: declared
   description: The changeOrderByPo API from OpenGov — 10 operation(s) for changeorderbypo.
   name: OpenGov Change Order By Po API
   slug: opengov-changeorderbypo-api
-- baseURL: https://api.plce.opengov.com/plce
-  baseurl_source: declared
-  description: Operations for retrieving Chart of Accounts data.
-  name: OpenGov Chart Of Accounts API
-  slug: opengov-chartofaccounts-api
 - baseURL: https://api.plce.opengov.com/plce
   baseurl_source: declared
   description: Inspection Results include Checklist Results for any checklist item that was inspected.
@@ -261,11 +246,6 @@ apis:
   slug: opengov-ledger-entries-api
 - baseURL: https://api.plce.opengov.com/plce
   baseurl_source: declared
-  description: The lineItem API from OpenGov — 3 operation(s) for lineitem.
-  name: OpenGov Line Item API
-  slug: opengov-lineitem-api
-- baseURL: https://api.plce.opengov.com/plce
-  baseurl_source: declared
   description: Location Flags can be added to individual Locations to tag them with certain characteristics.
   name: OpenGov Location Flags API
   slug: opengov-location-flags-api
@@ -304,11 +284,6 @@ apis:
   description: Project APIs allow you to work with projects that group related records
   name: OpenGov Projects API
   slug: opengov-projects-api
-- baseURL: https://api.plce.opengov.com/plce
-  baseurl_source: declared
-  description: The purchaseOrder API from OpenGov — 13 operation(s) for purchaseorder.
-  name: OpenGov Purchase Order API
-  slug: opengov-purchaseorder-api
 - baseURL: https://api.plce.opengov.com/plce
   baseurl_source: declared
   description: The purchaseOrderType API from OpenGov — 1 operation(s) for purchaseordertype.
@@ -549,6 +524,31 @@ apis:
   description: The vendors API from OpenGov — 5 operation(s) for vendors.
   name: OpenGov Vendors API
   slug: opengov-vendors-api
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Admin Settings API from OpenGov — 1 operation(s) for admin settings.
+  name: OpenGov Admin Settings API
+  slug: opengov-admin-settings-api
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Change Order API from OpenGov — 1 operation(s) for change order.
+  name: OpenGov Change Order API
+  slug: opengov-change-order-api
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Operations for retrieving Chart of Accounts data.
+  name: OpenGov Chart Of Accounts API
+  slug: opengov-chart-of-accounts-api
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Line Item API from OpenGov — 3 operation(s) for line item.
+  name: OpenGov Line Item API
+  slug: opengov-line-item-api
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Purchase Order API from OpenGov — 13 operation(s) for purchase order.
+  name: OpenGov Purchase Order API
+  slug: opengov-purchase-order-api
 artifact_total: 212
 asyncapis:
 - description: ''
@@ -1044,14 +1044,14 @@ modified: '2026-08-04'
 name: OpenGov
 nav: Providers
 network: true
-overview: 'OpenGov publishes 102 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Activity Logs API, Admin Settings API, and 99 more. Tagged areas include Government, GovTech, Public Sector, Permitting, and Licensing.
+overview: 'OpenGov publishes 102 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Activity Logs API, Approval Steps API, and 99 more. Tagged areas include Government, GovTech, Public Sector, Permitting, and Licensing.
 
 
   The OpenGov catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   OpenGov''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 30 more developer resources.'
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Opengov Rate Limits
@@ -1063,7 +1063,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.5
+  composite: 49.7
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -1071,11 +1071,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 26.3
     contract_governance: 4.5
-    contract_quality: 65.6
+    contract_quality: 66.2
     developer_ergonomics: 23.2
     discoverability: 68.5
     operational_transparency: 36.8
@@ -1096,7 +1096,7 @@ score:
     regime_id: government
     score: 77.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

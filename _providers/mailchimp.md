@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 0
@@ -48,11 +48,6 @@ apis:
 - description: An open source, API-first, modular commerce stack built using Node.js, React, and GraphQL. Formerly known as Reaction Commerce, the project has been discontinued but documentation remains available.
   name: Mailchimp Open Commerce
   slug: mailchimp-open-commerce
-- baseURL: https://server.api.mailchimp.com/3.0
-  baseurl_source: declared
-  description: Manage the allowlist of email addresses that bypass the rejection blacklist.
-  name: Mailchimp Allowlists API
-  slug: mailchimp-allowlists-api
 - baseURL: https://server.api.mailchimp.com/3.0
   baseurl_source: declared
   description: The Automations API from Mailchimp — 13 operation(s) for automations.
@@ -83,11 +78,6 @@ apis:
   description: The Exports API from Mailchimp — 7 operation(s) for exports.
   name: Mailchimp Exports API
   slug: mailchimp-exports-api
-- baseURL: https://server.api.mailchimp.com/3.0
-  baseurl_source: declared
-  description: Manage dedicated IP addresses associated with the account.
-  name: Mailchimp IPs API
-  slug: mailchimp-ips-api
 - baseURL: https://server.api.mailchimp.com/3.0
   baseurl_source: declared
   description: The Lists API from Mailchimp — 11 operation(s) for lists.
@@ -165,16 +155,6 @@ apis:
   slug: mailchimp-accountexport-api
 - baseURL: https://{open-commerce-host}/graphql
   baseurl_source: declared
-  description: The accountExports API from Mailchimp — 1 operation(s) for accountexports.
-  name: Mailchimp Account Exports API
-  slug: mailchimp-accountexports-api
-- baseURL: https://{open-commerce-host}/graphql
-  baseurl_source: declared
-  description: The activityFeed API from Mailchimp — 1 operation(s) for activityfeed.
-  name: Mailchimp Activity Feed API
-  slug: mailchimp-activityfeed-api
-- baseURL: https://{open-commerce-host}/graphql
-  baseurl_source: declared
   description: The audiences API from Mailchimp — 2 operation(s) for audiences.
   name: Mailchimp Audiences API
   slug: mailchimp-audiences-api
@@ -205,29 +185,9 @@ apis:
   slug: mailchimp-contacts-api
 - baseURL: https://{open-commerce-host}/graphql
   baseurl_source: declared
-  description: The customerJourneys API from Mailchimp — 1 operation(s) for customerjourneys.
-  name: Mailchimp Customer Journeys API
-  slug: mailchimp-customerjourneys-api
-- baseURL: https://{open-commerce-host}/graphql
-  baseurl_source: declared
-  description: The facebookAds API from Mailchimp — 2 operation(s) for facebookads.
-  name: Mailchimp Facebook Ads API
-  slug: mailchimp-facebookads-api
-- baseURL: https://{open-commerce-host}/graphql
-  baseurl_source: declared
-  description: The fileManager API from Mailchimp — 5 operation(s) for filemanager.
-  name: Mailchimp File Manager API
-  slug: mailchimp-filemanager-api
-- baseURL: https://{open-commerce-host}/graphql
-  baseurl_source: declared
   description: The inbound API from Mailchimp — 9 operation(s) for inbound.
   name: Mailchimp Inbound API
   slug: mailchimp-inbound-api
-- baseURL: https://{open-commerce-host}/graphql
-  baseurl_source: declared
-  description: The landingPages API from Mailchimp — 5 operation(s) for landingpages.
-  name: Mailchimp Landing Pages API
-  slug: mailchimp-landingpages-api
 - baseURL: https://{open-commerce-host}/graphql
   baseurl_source: declared
   description: The mctemplates API from Mailchimp — 4 operation(s) for mctemplates.
@@ -255,11 +215,6 @@ apis:
   slug: mailchimp-sms-campaigns-api
 - baseURL: https://{open-commerce-host}/graphql
   baseurl_source: declared
-  description: The templateFolders API from Mailchimp — 2 operation(s) for templatefolders.
-  name: Mailchimp Template Folders API
-  slug: mailchimp-templatefolders-api
-- baseURL: https://{open-commerce-host}/graphql
-  baseurl_source: declared
   description: The urls API from Mailchimp — 4 operation(s) for urls.
   name: Mailchimp URLS API
   slug: mailchimp-urls-api
@@ -268,6 +223,51 @@ apis:
   description: The verifiedDomains API from Mailchimp — 3 operation(s) for verifieddomains.
   name: Mailchimp Verified Domains API
   slug: mailchimp-verifieddomains-api
+- baseURL: https://{open-commerce-host}/graphql
+  baseurl_source: declared
+  description: The ips API from Mailchimp — 13 operation(s) for ips.
+  name: Mailchimp Ips API
+  slug: mailchimp-ips-api
+- baseURL: https://{open-commerce-host}/graphql
+  baseurl_source: declared
+  description: The Account Exports API from Mailchimp — 1 operation(s) for account exports.
+  name: Mailchimp Account Exports API
+  slug: mailchimp-account-exports-api
+- baseURL: https://{open-commerce-host}/graphql
+  baseurl_source: declared
+  description: The Activity Feed API from Mailchimp — 1 operation(s) for activity feed.
+  name: Mailchimp Activity Feed API
+  slug: mailchimp-activity-feed-api
+- baseURL: https://{open-commerce-host}/graphql
+  baseurl_source: declared
+  description: The Allow Lists API from Mailchimp — 3 operation(s) for allow lists.
+  name: Mailchimp Allow Lists API
+  slug: mailchimp-allow-lists-api
+- baseURL: https://{open-commerce-host}/graphql
+  baseurl_source: declared
+  description: The customer Journeys API from Mailchimp — 1 operation(s) for customer journeys.
+  name: Mailchimp customer Journeys API
+  slug: mailchimp-customer-journeys-api
+- baseURL: https://{open-commerce-host}/graphql
+  baseurl_source: declared
+  description: The facebook Ads API from Mailchimp — 2 operation(s) for facebook ads.
+  name: Mailchimp facebook Ads API
+  slug: mailchimp-facebook-ads-api
+- baseURL: https://{open-commerce-host}/graphql
+  baseurl_source: declared
+  description: The File Manager API from Mailchimp — 5 operation(s) for file manager.
+  name: Mailchimp File Manager API
+  slug: mailchimp-file-manager-api
+- baseURL: https://{open-commerce-host}/graphql
+  baseurl_source: declared
+  description: The Landing Pages API from Mailchimp — 5 operation(s) for landing pages.
+  name: Mailchimp Landing Pages API
+  slug: mailchimp-landing-pages-api
+- baseURL: https://{open-commerce-host}/graphql
+  baseurl_source: declared
+  description: The Template Folders API from Mailchimp — 2 operation(s) for template folders.
+  name: Mailchimp Template Folders API
+  slug: mailchimp-template-folders-api
 arazzos:
 - description: Subscribe a member to an audience and attach an internal note to them.
   name: Mailchimp Add Member and Attach a Note
@@ -1586,7 +1586,7 @@ modified: '2026-08-13'
 name: Mailchimp
 nav: Providers
 network: true
-overview: 'Mailchimp publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Allowlists API, Automations API, Batches API, and 41 more. Tagged areas include Campaigns, Email Marketing, Marketing Automation, Newsletters, and Transactional Email.
+overview: 'Mailchimp publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Batches API, Campaigns API, and 41 more. Tagged areas include Campaigns, Email Marketing, Marketing Automation, Newsletters, and Transactional Email.
 
 
   The Mailchimp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -1597,7 +1597,7 @@ plans:
 - name: Mailchimp Plans Pricing
   plan_count: 4
   slug: mailchimp-plans-pricing
-random_paper: 3
+random_paper: 2
 rate_limits:
 - limit_count: 7
   name: Mailchimp Rate Limits
@@ -1660,7 +1660,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

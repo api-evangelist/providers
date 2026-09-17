@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,11 +43,6 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- baseURL: https://eks.amazonaws.com
-  baseurl_source: spec
-  description: Operations for managing EKS add-ons
-  name: Amazon EKS Addons API
-  slug: amazon-eks-addons-api
 - baseURL: https://eks.amazonaws.com
   baseurl_source: spec
   description: Operations for managing EKS clusters
@@ -63,6 +58,11 @@ apis:
   description: Operations for managing EKS managed node groups
   name: Amazon EKS Node Groups API
   slug: amazon-eks-node-groups-api
+- baseURL: https://eks.amazonaws.com
+  baseurl_source: spec
+  description: Operations for managing EKS add-ons
+  name: Amazon EKS Add Ons API
+  slug: amazon-eks-add-ons-api
 artifact_total: 122
 collections:
 - collection_type: open
@@ -490,7 +490,7 @@ modified: '2026-05-19'
 name: Amazon EKS
 nav: Providers
 network: true
-overview: 'Amazon EKS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Addons API, Clusters API, Fargate Profiles API, and 1 more. Tagged areas include Container Orchestration, Containers, EKS, and Kubernetes.
+overview: 'Amazon EKS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Fargate Profiles API, Node Groups API, and 1 more. Tagged areas include Container Orchestration, Containers, EKS, and Kubernetes.
 
 
   The Amazon EKS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -501,7 +501,7 @@ plans:
 - name: Amazon Eks Plans Pricing
   plan_count: 1
   slug: amazon-eks-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Amazon Eks Rate Limits
@@ -555,7 +555,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://app.herondata.io/api
@@ -42,11 +42,6 @@ apis:
   description: The Analytics API from Heron — 1 operation(s) for analytics.
   name: Heron Analytics API
   slug: heron-analytics-api
-- baseURL: https://app.herondata.io/api
-  baseurl_source: declared
-  description: The AppStore API from Heron — 1 operation(s) for appstore.
-  name: Heron App Store API
-  slug: heron-appstore-api
 - baseURL: https://app.herondata.io/api
   baseurl_source: declared
   description: The Authentication API from Heron — 1 operation(s) for authentication.
@@ -84,19 +79,9 @@ apis:
   slug: heron-crmintegrations-api
 - baseURL: https://app.herondata.io/api
   baseurl_source: declared
-  description: The EmailTemplates API from Heron — 2 operation(s) for emailtemplates.
-  name: Heron Email Templates API
-  slug: heron-emailtemplates-api
-- baseURL: https://app.herondata.io/api
-  baseurl_source: declared
   description: The End Users API from Heron — 3 operation(s) for end users.
   name: Heron End Users API
   slug: heron-end-users-api
-- baseURL: https://app.herondata.io/api
-  baseurl_source: declared
-  description: The EndUserAccounts API from Heron — 1 operation(s) for enduseraccounts.
-  name: Heron End User Accounts API
-  slug: heron-enduseraccounts-api
 - baseURL: https://app.herondata.io/api
   baseurl_source: declared
   description: The EndUserAttributes API from Heron — 1 operation(s) for enduserattributes.
@@ -157,11 +142,6 @@ apis:
   description: The EndUserRules API from Heron — 1 operation(s) for enduserrules.
   name: Heron End User Rules API
   slug: heron-enduserrules-api
-- baseURL: https://app.herondata.io/api
-  baseurl_source: declared
-  description: The EndUsers API from Heron — 20 operation(s) for endusers.
-  name: Heron End Users API
-  slug: heron-endusers-api
 - baseURL: https://app.herondata.io/api
   baseurl_source: declared
   description: The EnrichedTransactions API from Heron — 2 operation(s) for enrichedtransactions.
@@ -277,7 +257,22 @@ apis:
   description: The Workflows API from Heron — 22 operation(s) for workflows.
   name: Heron Workflows API
   slug: heron-workflows-api
-artifact_total: 56
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The App Store API from Heron — 1 operation(s) for app store.
+  name: Heron App Store API
+  slug: heron-app-store-api
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The Email Templates API from Heron — 2 operation(s) for email templates.
+  name: Heron Email Templates API
+  slug: heron-email-templates-api
+- baseURL: https://app.herondata.io/api
+  baseurl_source: declared
+  description: The End User Accounts API from Heron — 1 operation(s) for end user accounts.
+  name: Heron End User Accounts API
+  slug: heron-end-user-accounts-api
+artifact_total: 55
 asyncapis:
 - description: 'Heron sends webhook notifications about the progress of asynchronous processes (end-user processing/review and PDF document parsing) to a URL you configure in the Heron dashboard (Settings tab). Each '
   name: Heron Webhooks
@@ -360,10 +355,10 @@ common:
   type: GitHubOrganization
   url: https://github.com/heron-data
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/openapi/heron-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/openapi/_original/heron-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/heron-openapi.json
+  url: openapi/_original/heron-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/overlays/heron-openapi-overlay.yaml
   title: ''
@@ -491,11 +486,11 @@ mcp_servers:
 - description: Heron ships a hosted, remote MCP server for its DOCUMENTATION, not for its REST API. The three published tools search, read and give feedback on docs.herondata.io — they do not create end users, uploa
   name: Heron MCP Server
   slug: heron-mcp-server
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Heron
 nav: Providers
 network: true
-overview: 'Heron publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, App Store API, Authentication API, and 45 more. Tagged areas include Company, Financial-Services, Document Automation, Underwriting, and Lending.
+overview: 'Heron publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Broker Funder Policies API, and 44 more. Tagged areas include Company, Financial-Services, Document Automation, Underwriting, and Lending.
 
 
   The Heron catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -506,28 +501,28 @@ plans:
 - name: Heron Plans Pricing
   plan_count: 0
   slug: heron-plans-pricing
-random_paper: 15
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Heron Rate Limits
   slug: heron-rate-limits
 score:
   band: strong
-  composite: 64.8
+  composite: 63.6
   coverage:
     artifact_dirs: 23
-    catalog_earned: 42.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 73.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 59.4
+    contract_quality: 62.1
     developer_ergonomics: 78.6
-    discoverability: 70.4
+    discoverability: 51.9
     operational_transparency: 73.7
   previous_composite: 64.8
   provenance:
@@ -536,7 +531,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 48
+      total: 47
     mcp: first-party
     skills: first-party
   regulatory:
@@ -552,7 +547,7 @@ score:
     regime_id: insurance
     score: 62.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

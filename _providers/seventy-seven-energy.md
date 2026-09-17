@@ -64,7 +64,7 @@ press:
 - date: '2026-05-25'
   title: Oklahoma Department of Agriculture, Food and Forestry
   url: https://www.facebook.com/OklahomaAg/posts/-internship-opportunity-we-are-looking-for-a-qualified-collegiate-student-to-joi/1277918744369735/
-random_paper: 9
+random_paper: 21
 security:
 - kind: domain-security
   name: Seventy Seven Energy Domain Security

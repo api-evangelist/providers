@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://atlas.hellosafe.com/api/v1/travel
@@ -41,10 +41,7 @@ apis:
   description: Price a trip and read the catalogue vocabulary.
   name: HelloSafe Quotes API
   slug: hellosafe-quotes-api
-- description: REST API for travel-insurance reference data, quoting, tracked link minting, and signed conversion postbacks. The conversion postback and tracked deep links are live today; quote-and-bind travel endpo
-  name: HelloSafe Travel Insurance API
-  slug: hellosafe-travel-insurance-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/hellosafe/refs/heads/main/capabilities/hellosafe-capability-edges.yml
@@ -81,8 +78,8 @@ modified: '2026-08-25'
 name: HelloSafe
 nav: Providers
 network: true
-overview: HelloSafe publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversion API, Links API, Quotes API, and 1 more. Tagged areas include Travel Insurance, Insurance Distribution, Pricing, and Travel.
-random_paper: 2
+overview: 'HelloSafe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion API, Links API, and Quotes API. Tagged areas include Travel Insurance, Insurance Distribution, Pricing, and Travel.'
+random_paper: 1
 score:
   band: thin
   composite: 30.0
@@ -116,7 +113,7 @@ score:
     regime_id: insurance
     score: 12.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

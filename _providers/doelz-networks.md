@@ -19,7 +19,7 @@ name: Doelz Networks
 nav: Providers
 network: true
 overview: Doelz Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Data Communications, Telecommunications, and LAN.
-random_paper: 10
+random_paper: 6
 slug: doelz-networks
 tags:
 - Company

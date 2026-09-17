@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://api.democracy.works/v2
@@ -76,11 +76,11 @@ apis:
   description: The Voting Locations API from Democracy Works — 1 operation returning polling places, early-voting sites and ballot drop boxes for a street address, with hours, open/close dates, coordinates, source a
   name: Democracy Works Voting Locations API
   slug: democracy-works-voting-locations-api
-- baseURL: https://api.democracy.works
+- baseURL: https://api.democracy.works/v2
   baseurl_source: declared
-  description: The first generation of the Democracy Works Elections API — 3 operations for upcoming elections and state election authorities. Still served at the unversioned base path and still documented (it is wh
-  name: Democracy Works Elections API v1 (legacy)
-  slug: democracy-works-elections-v1-api
+  description: The Election Authorities API from Democracy Works — 2 operation(s) for election authorities.
+  name: Democracy Works Election Authorities API
+  slug: democracy-works-election-authorities-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -96,6 +96,11 @@ collections:
   name: Democracy Works Exports API
   slug: open-democracy-works-exports-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/overlays/democracy-works-elections-v1-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/democracy-works-elections-v1-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/authentication/democracy-works-authentication.yml
   title: ''
@@ -258,12 +263,12 @@ overview: 'Democracy Works publishes 9 APIs on the [APIs.io](https://apis.io/) n
   The Democracy Works catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Democracy Works'' developer surface includes authentication, developer portal, engineering blog, documentation, API reference, support, changelog, and 22 more developer resources.'
+  Democracy Works'' developer surface includes authentication, developer portal, engineering blog, documentation, API reference, support, changelog, and 23 more developer resources.'
 plans:
 - name: Democracy Works Plans Pricing
   plan_count: 0
   slug: democracy-works-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Democracy Works Rate Limits
@@ -292,7 +297,7 @@ rules:
   slug: democracy-works-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.6
+  composite: 56.5
   coverage:
     artifact_dirs: 26
     catalog_earned: 81.0
@@ -300,11 +305,11 @@ score:
     catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 18.4
     contract_governance: 87.9
-    contract_quality: 68.4
+    contract_quality: 68.3
     developer_ergonomics: 55.4
     discoverability: 81.5
     operational_transparency: 26.3
@@ -325,7 +330,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

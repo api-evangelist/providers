@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,22 +68,7 @@ apis:
 - description: The State Farm Homeowners Insurance API enables mortgage lenders, real estate platforms, and partner networks to offer homeowners insurance quoting and policy integration. Supports closing day insuran
   name: Homeowners Insurance API
   slug: homeowners-insurance-api
-- baseURL: https://api.statefarm.com/v1
-  baseurl_source: declared
-  description: Coverage options and details
-  name: State Farm Insurance Coverage API
-  slug: state-farm-insurance-coverage-api
-- baseURL: https://api.statefarm.com/v1
-  baseurl_source: declared
-  description: Renters insurance policy operations
-  name: State Farm Insurance Policies API
-  slug: state-farm-insurance-policies-api
-- baseURL: https://api.statefarm.com/v1
-  baseurl_source: declared
-  description: Renters insurance quote operations
-  name: State Farm Insurance Quotes API
-  slug: state-farm-insurance-quotes-api
-artifact_total: 29
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -229,11 +214,11 @@ jsonld:
   property_count: 11
   slug: state-farm-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: State Farm
 nav: Providers
 network: true
-overview: 'State Farm publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Coverage API, Policies API, Quotes API, and 3 more.
+overview: 'State Farm publishes 3 APIs on the [APIs.io](https://apis.io/) network: Coverage API, Policies API, and Quotes API. Tagged areas include Insurance, Mortgage, Auto Insurance, Vehicles, and Embedded Insurance.
 
 
   The State Farm catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -244,7 +229,7 @@ plans:
 - name: State Farm Plans Pricing
   plan_count: 1
   slug: state-farm-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: State Farm Rate Limits
@@ -277,22 +262,22 @@ scopes:
   slug: state-farm-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: thin
-  composite: 37.8
+  band: developing
+  composite: 45.5
   coverage:
     artifact_dirs: 18
-    catalog_earned: 56.5
+    catalog_earned: 61.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.7
   facets:
     access_clarity: 34.2
     contract_governance: 28.8
     contract_quality: 64.9
     developer_ergonomics: 26.2
-    discoverability: 53.7
+    discoverability: 63.0
     operational_transparency: 10.5
   previous_composite: 37.8
   provenance:
@@ -301,13 +286,16 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 3
   regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 72.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -326,5 +314,12 @@ security:
   slug: state-farm-vulnerability-disclosure
   summary_line: Bugcrowd · security.txt · contact published
 slug: state-farm
+tags:
+- Insurance
+- Mortgage
+- Auto Insurance
+- Vehicles
+- Embedded Insurance
+- B2B
 website: https://www.statefarm.com
 ---

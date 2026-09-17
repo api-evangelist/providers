@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -643,10 +643,10 @@ common:
   type: APIReference
   url: https://www.infobip.com/docs/api
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-platform-full-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/_original/infobip-platform-full-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/infobip-platform-full-openapi.json
+  url: openapi/_original/infobip-platform-full-openapi.json
 - group: docs
   title: ''
   type: OpenAPIEndpoint
@@ -905,7 +905,7 @@ mcp_servers:
 - description: ''
   name: Infobip MCP Server
   slug: infobip-mcp-server
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Infobip
 nav: Providers
 network: true
@@ -916,7 +916,7 @@ overview: 'Infobip publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 104 more developer resources.'
-random_paper: 8
+random_paper: 17
 rate_limits:
 - limit_count: 44
   name: Infobip Rate Limits
@@ -972,7 +972,7 @@ score:
     regime_id: telecommunications
     score: 93.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

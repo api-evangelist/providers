@@ -23,16 +23,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.synsense.ai/wp-json
   baseurl_source: declared
-  description: 'The public WordPress REST API served at https://www.synsense.ai/wp-json. Fully anonymous and read-only for the content surface, it exposes SynSense''s own custom post types as JSON — products, partner '
-  name: SynSense Website Content API
-  slug: website-content-api
-artifact_total: 6
+  description: Awards and recognition.
+  name: aiCTX (now SynSense) Awards API
+  slug: aictx-awards-api
+- baseURL: https://www.synsense.ai/wp-json
+  baseurl_source: declared
+  description: Open roles at SynSense.
+  name: aiCTX (now SynSense) Careers API
+  slug: aictx-careers-api
+- baseURL: https://www.synsense.ai/wp-json
+  baseurl_source: declared
+  description: Offices and their country/city taxonomies.
+  name: aiCTX (now SynSense) Company API
+  slug: aictx-company-api
+- baseURL: https://www.synsense.ai/wp-json
+  baseurl_source: declared
+  description: Site pages, media attachments and authors.
+  name: aiCTX (now SynSense) Content API
+  slug: aictx-content-api
+- baseURL: https://www.synsense.ai/wp-json
+  baseurl_source: declared
+  description: Self-describing index, content types, taxonomies, statuses and site search.
+  name: aiCTX (now SynSense) Discovery API
+  slug: aictx-discovery-api
+- baseURL: https://www.synsense.ai/wp-json
+  baseurl_source: declared
+  description: SynSense news posts.
+  name: aiCTX (now SynSense) News API
+  slug: aictx-news-api
+- baseURL: https://www.synsense.ai/wp-json
+  baseurl_source: declared
+  description: SynSense partner organisations and their categories.
+  name: aiCTX (now SynSense) Partners API
+  slug: aictx-partners-api
+- baseURL: https://www.synsense.ai/wp-json
+  baseurl_source: declared
+  description: SynSense product entries and their categories.
+  name: aiCTX (now SynSense) Products API
+  slug: aictx-products-api
+- baseURL: https://www.synsense.ai/wp-json
+  baseurl_source: declared
+  description: Post categories and tags.
+  name: aiCTX (now SynSense) Taxonomy API
+  slug: aictx-taxonomy-api
+artifact_total: 14
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/aictx/refs/heads/main/overlays/aictx-website-content-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/aictx-website-content-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -148,22 +193,22 @@ modified: '2026-09-14'
 name: aiCTX (now SynSense)
 nav: Providers
 network: true
-overview: 'aiCTX (now SynSense) publishes 1 API on the [APIs.io](https://apis.io/) network: SynSense Website Content API. Tagged areas include Company, Neuromorphic Computing, Artificial Intelligence, Semiconductors, and Edge Computing.
+overview: 'aiCTX (now SynSense) publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Awards API, Careers API, Company API, and 6 more. Tagged areas include Company, Neuromorphic Computing, Artificial Intelligence, Semiconductors, and Edge Computing.
 
 
-  aiCTX (now SynSense)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, and 17 more developer resources.'
+  aiCTX (now SynSense)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, and 18 more developer resources.'
 plans:
 - name: Aictx Plans Pricing
   plan_count: 0
   slug: aictx-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Aictx Rate Limits
   slug: aictx-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 45.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -171,11 +216,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 57.8
+    contract_quality: 56.0
     developer_ergonomics: 66.1
     discoverability: 68.5
     operational_transparency: 21.1
@@ -186,11 +231,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

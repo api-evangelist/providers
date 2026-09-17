@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -98,11 +98,6 @@ apis:
   description: Manage network restrictions, bans, and SSL enforcement.
   name: Supabase Network API
   slug: supabase-network-api
-- baseURL_template: https://{project_ref}.supabase.co/auth/v1
-  baseurl_source: spec_template
-  description: OAuth social login provider endpoints.
-  name: Supabase OAuth API
-  slug: supabase-oauth-api
 - baseURL_template: https://{project_ref}.supabase.co/storage/v1
   baseurl_source: spec_template
   description: Upload, download, move, copy, and delete files within storage buckets.
@@ -148,6 +143,11 @@ apis:
   description: Endpoints for managing the currently authenticated user profile.
   name: Supabase User Management API
   slug: supabase-user-management-api
+- baseURL_template: https://{project_ref}.supabase.co/auth/v1
+  baseurl_source: spec_template
+  description: OAuth social login provider endpoints.
+  name: Supabase O Auth API
+  slug: supabase-oauth-api
 artifact_total: 85
 asyncapis:
 - description: 'The Supabase Realtime API enables real-time communication over WebSocket connections using the Phoenix Channel protocol (v2). It supports three main features: Postgres Changes for subscribing to INSER'
@@ -358,7 +358,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Supabase
 nav: Providers
 network: true
@@ -373,7 +373,7 @@ plans:
 - name: Supabase Plans Pricing
   plan_count: 4
   slug: supabase-plans-pricing
-random_paper: 12
+random_paper: 16
 rate_limits:
 - limit_count: 8
   name: Supabase Rate Limits
@@ -439,7 +439,7 @@ score:
       total: 20
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -478,5 +478,6 @@ tags:
 - Storage
 - Edge Functions
 - Database
+- Identity Federation
 website: https://supabase.com
 ---

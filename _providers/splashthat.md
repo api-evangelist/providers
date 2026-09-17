@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.splashthat.com
@@ -51,6 +51,10 @@ collections:
   name: Splash API v2.2
   slug: postman-splashthat-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://splashthat.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/security/splashthat-domain-security.yml
   title: ''
@@ -177,7 +181,7 @@ jsonld:
   property_count: 15
   slug: splashthat-context
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Splash
 nav: Providers
 network: true
@@ -187,12 +191,12 @@ overview: 'Splash publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Splash catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Splash''s developer surface includes documentation, support, engineering blog, pricing, status page, API reference, authentication, and 18 more developer resources.'
+  Splash''s developer surface includes documentation, support, engineering blog, pricing, status page, API reference, authentication, and 19 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -225,7 +229,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -250,4 +254,5 @@ tags:
 - Ticketing
 - Check-in
 - Analytics
+website: https://splashthat.com
 ---

@@ -19,7 +19,7 @@ name: Standard Treasury
 nav: Providers
 network: true
 overview: Standard Treasury is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 4
+random_paper: 7
 slug: standard-treasury
 tags:
 - Company

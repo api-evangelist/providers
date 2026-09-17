@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The APIs.json specification defines a machine-readable JSON or YAML format for describing API operations. Unlike OpenAPI which describes the technical interface of a single API, APIs.json describes th
@@ -268,7 +268,7 @@ plans:
 - name: Apis Json Plans Pricing
   plan_count: 0
   slug: apis-json-plans-pricing
-random_paper: 13
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Apis Json Rate Limits
@@ -316,7 +316,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -338,7 +338,7 @@ tags:
 - API Operations
 - Machine-Readable
 - Specification
-- Standard
+- Standards
 use_cases:
 - description: API providers publish APIs.json files at their domain root so that search engines like APIs.io can automatically discover and index all their APIs without manual submission.
   name: API Discovery

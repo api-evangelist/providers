@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -230,7 +230,7 @@ plans:
 - name: Make Plans Pricing
   plan_count: 5
   slug: make-plans-pricing
-random_paper: 15
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Make Rate Limits
@@ -263,7 +263,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

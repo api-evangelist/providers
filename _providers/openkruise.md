@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - baseURL: https://kubernetes.example.com/apis/apps.kruise.io/v1beta1
   baseurl_source: declared
   description: The Apis API from OpenKruise — 9 operation(s) for apis.
-  name: OpenKruise Apis API
+  name: OpenKruise APIS API
   slug: openkruise-apis-api
 artifact_total: 11
 collections:
@@ -128,7 +128,7 @@ modified: '2026-04-28'
 name: OpenKruise
 nav: Providers
 network: true
-overview: 'OpenKruise publishes 1 API on the [APIs.io](https://apis.io/) network: Apis API. Tagged areas include Cloud-Native, Controllers, Deployment, Incubating, and Kubernetes.
+overview: 'OpenKruise publishes 1 API on the [APIs.io](https://apis.io/) network: APIS API. Tagged areas include Cloud-Native, Controller, Deployment, Incubating, and Kubernetes.
 
 
   OpenKruise''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -136,7 +136,7 @@ plans:
 - name: Openkruise Plans Pricing
   plan_count: 3
   slug: openkruise-plans-pricing
-random_paper: 1
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Openkruise Rate Limits
@@ -168,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -186,7 +186,7 @@ security:
 slug: openkruise
 tags:
 - Cloud-Native
-- Controllers
+- Controller
 - Deployment
 - Incubating
 - Kubernetes

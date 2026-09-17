@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 64.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 11
-  human_in_the_loop: 0
+- acting_count: 53
+  human_in_the_loop: 1
   name: Adobe Analytics Agentic Access
-  operation_count: 25
+  operation_count: 103
   slug: adobe-analytics-agentic-access
-  summary_line: 25 operations · 11 acting
+  summary_line: 103 operations · 53 acting · 1 human-in-the-loop
 api_count: 11
 apis:
 - description: The Livestream API is a reporting feature in Adobe Analytics that allows clients to receive traffic data processed by Adobe Analytics in real time. Hits are streamed to the client on a hit-by-hit basi
@@ -116,12 +116,12 @@ apis:
 - baseURL: https://analytics.adobe.io/api
   baseurl_source: spec
   description: The analytics Cloud Locations account API for user token
-  name: Adobe Analytics Analytics Cloud Locations Account API
+  name: Adobe Analytics Cloud Locations Account API
   slug: adobe-analytics-analytics-cloud-locations-account-api-api
 - baseURL: https://analytics.adobe.io/api
   baseurl_source: spec
   description: The analytics Cloud Locations Location API for user token
-  name: Adobe Analytics Analytics Cloud Locations Location API
+  name: Adobe Analytics Cloud Locations Location API
   slug: adobe-analytics-analytics-cloud-locations-location-api-api
 - baseURL: https://analytics.adobe.io/api
   baseurl_source: spec
@@ -1020,7 +1020,7 @@ mcp_servers:
 - description: Adobe publishes an official, Adobe-hosted (remote) Model Context Protocol server for Adobe Analytics. It lets MCP clients (Claude, ChatGPT, Cursor) discover components (report suites, dimensions, metr
   name: Adobe Analytics MCP Server
   slug: adobe-analytics-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Adobe Analytics
 nav: Providers
 network: true
@@ -1035,7 +1035,7 @@ plans:
 - name: Adobe Analytics Plans Pricing
   plan_count: 3
   slug: adobe-analytics-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Adobe Analytics Rate Limits
@@ -1091,7 +1091,7 @@ score:
   facets:
     access_clarity: 71.1
     contract_governance: 33.3
-    contract_quality: 66.7
+    contract_quality: 66.6
     developer_ergonomics: 66.7
     discoverability: 72.2
     operational_transparency: 65.8
@@ -1110,7 +1110,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

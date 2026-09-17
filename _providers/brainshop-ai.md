@@ -33,7 +33,7 @@ name: Brainshop.ai
 nav: Providers
 network: true
 overview: Brainshop.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development, Public APIs, and Defunct.
-random_paper: 16
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainshop-ai/refs/heads/main/screenshots/brainshop-ai-2026-08-07T162741.png
 slug: brainshop-ai
 tags:

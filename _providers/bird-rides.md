@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -322,7 +322,7 @@ modified: '2026-05-25'
 name: Bird
 nav: Providers
 network: true
-overview: 'Bird publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Geofencing API, Pricing API, and 4 more. Tagged areas include Micromobility, Shared Mobility, Electric Scooters, E-Scooters, and E-Bikes.
+overview: 'Bird publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Geofencing API, Pricing API, and 4 more. Tagged areas include Micromobility, Shared Mobility, Electric Scooters, E-Scooter, and E-Bikes.
 
 
   The Bird catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -333,7 +333,7 @@ plans:
 - name: Bird Rides Plans Pricing
   plan_count: 4
   slug: bird-rides-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Bird Rides Rate Limits
@@ -381,7 +381,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -398,7 +398,7 @@ tags:
 - Micromobility
 - Shared Mobility
 - Electric Scooters
-- E-Scooters
+- E-Scooter
 - E-Bikes
 - Bike Share
 - Transportation

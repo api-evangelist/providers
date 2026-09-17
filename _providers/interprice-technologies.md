@@ -34,7 +34,7 @@ name: InterPrice Technologies
 nav: Providers
 network: true
 overview: InterPrice Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Financial-Services, Fintech, and Capital Markets.
-random_paper: 12
+random_paper: 8
 slug: interprice-technologies
 tags:
 - Company

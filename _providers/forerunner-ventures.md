@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Forerunner Ventures
 nav: Providers
 network: true
-random_paper: 15
+random_paper: 7
 slug: forerunner-ventures
 tags:
 - Venture Capital

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for the SafetyCulture platform — inspections, templates, assets, actions, issues, users, groups, schedules, training, credentials, and webhooks. Bearer-token auth over HTTPS.
@@ -201,14 +201,14 @@ modified: '2026-07-21'
 name: SafetyCulture
 nav: Providers
 network: true
-overview: 'SafetyCulture publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Safety, Inspections, and Workplace Operations.
+overview: 'SafetyCulture publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Safety, Inspection, and Workplace Operations.
 
 
   The SafetyCulture catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   SafetyCulture''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 25 more developer resources.'
-random_paper: 17
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Safetyculture Rate Limits
@@ -237,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -266,7 +266,7 @@ tags:
 - Company
 - Business Applications
 - Safety
-- Inspections
+- Inspection
 - Workplace Operations
 - EHS
 - Compliance

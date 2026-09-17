@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Package info and download stats on jsDelivr CDN
@@ -64,7 +64,7 @@ overview: 'jsDelivr publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   jsDelivr''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 6
+random_paper: 9
 score:
   band: minimal
   composite: 7.4
@@ -91,7 +91,7 @@ score:
       reason: never_enriched
   previous_composite: 7.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

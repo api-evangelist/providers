@@ -19,7 +19,7 @@ name: AeroFS
 nav: Providers
 network: true
 overview: AeroFS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, File Sync, and File Sharing.
-random_paper: 10
+random_paper: 2
 slug: aerofs
 tags:
 - Company

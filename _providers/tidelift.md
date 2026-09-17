@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 2
@@ -178,6 +178,10 @@ collections:
   name: Tidelift External Alignments Vulnerabilities API
   slug: open-tidelift-vulnerabilities-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tidelift.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/overlays/tidelift-subscriber-api-overlay.yaml
   title: ''
@@ -322,7 +326,7 @@ created: '2026-07-17'
 description: Tidelift provides open-source software supply-chain management for enterprises. Its platform combines package intelligence (maintenance, quality, end-of-life, and vulnerability signals) with catalogs of approved dependencies, policy and license standards enforcement, SBOM import/export, and "alignment" of projects against an organization's standards. Tidelift is distinctive for paying the open-source maintainers ("lifters") behind the packages enterprises rely on. The Tidelift External API (OpenAPI 3.0, Bearer API-key auth) exposes catalogs, violations, projects, groups, packages, releases, vulnerabilities, licenses, and reporting. Tidelift was acquired by Sonar in 2025; the API and developer surface remain active.
 image: https://api.tidelift.com/docs/assets/tidelift_logo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Tidelift
 nav: Providers
 network: true
@@ -332,11 +336,11 @@ overview: 'Tidelift publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Tidelift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tidelift''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 23 more developer resources.'
-random_paper: 13
+  Tidelift''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 24 more developer resources.'
+random_paper: 17
 score:
   band: thin
-  composite: 38.6
+  composite: 38.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -344,11 +348,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 58.4
+    contract_quality: 58.0
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 36.8
@@ -364,7 +368,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -394,5 +398,5 @@ tags:
 - License Compliance
 - Vulnerability Management
 - Developer Tools
-website: https://api.tidelift.com/docs/
+website: https://tidelift.com
 ---

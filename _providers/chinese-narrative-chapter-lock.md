@@ -23,16 +23,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://culturebiz-xianxia-lock.onrender.com
   baseurl_source: declared
-  description: REST API for locking chapter-scoped terminology in Chinese webnovel localization. Core endpoint POST /v1/lock returns locked terms, title entities, a character bible, and a glossary CSV. Documented by
-  name: cultureBiz chapter-lock
-  slug: culturebiz-chapter-lock
-artifact_total: 5
+  description: The CultureBiz Chapter Lock API from Chinese Narrative Chapter Lock — 1 operation(s) for culturebiz chapter lock.
+  name: Chinese Narrative Chapter Lock CultureBiz Chapter Lock API
+  slug: chinese-narrative-chapter-lock-culturebiz-chapter-lock-api
+- baseURL: https://culturebiz-xianxia-lock.onrender.com
+  baseurl_source: declared
+  description: The Docs API from Chinese Narrative Chapter Lock — 1 operation(s) for docs.
+  name: Chinese Narrative Chapter Lock Docs API
+  slug: chinese-narrative-chapter-lock-docs-api
+- baseURL: https://culturebiz-xianxia-lock.onrender.com
+  baseurl_source: declared
+  description: The Examples API from Chinese Narrative Chapter Lock — 1 operation(s) for examples.
+  name: Chinese Narrative Chapter Lock Examples API
+  slug: chinese-narrative-chapter-lock-examples-api
+- baseURL: https://culturebiz-xianxia-lock.onrender.com
+  baseurl_source: declared
+  description: The Go API from Chinese Narrative Chapter Lock — 1 operation(s) for go.
+  name: Chinese Narrative Chapter Lock Go API
+  slug: chinese-narrative-chapter-lock-go-api
+- baseURL: https://culturebiz-xianxia-lock.onrender.com
+  baseurl_source: declared
+  description: The Health API from Chinese Narrative Chapter Lock — 1 operation(s) for health.
+  name: Chinese Narrative Chapter Lock Health API
+  slug: chinese-narrative-chapter-lock-health-api
+- baseURL: https://culturebiz-xianxia-lock.onrender.com
+  baseurl_source: declared
+  description: The Lock API from Chinese Narrative Chapter Lock — 1 operation(s) for lock.
+  name: Chinese Narrative Chapter Lock Lock API
+  slug: chinese-narrative-chapter-lock-lock-api
+- baseURL: https://culturebiz-xianxia-lock.onrender.com
+  baseurl_source: declared
+  description: The Metrics API from Chinese Narrative Chapter Lock — 1 operation(s) for metrics.
+  name: Chinese Narrative Chapter Lock Metrics API
+  slug: chinese-narrative-chapter-lock-metrics-api
+- baseURL: https://culturebiz-xianxia-lock.onrender.com
+  baseurl_source: declared
+  description: The Use API from Chinese Narrative Chapter Lock — 2 operation(s) for use.
+  name: Chinese Narrative Chapter Lock Use API
+  slug: chinese-narrative-chapter-lock-use-api
+artifact_total: 12
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/overlays/chinese-narrative-chapter-lock-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/chinese-narrative-chapter-lock-openapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/chinese-narrative-chapter-lock/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -69,22 +114,22 @@ modified: '2026-09-05'
 name: Chinese Narrative Chapter Lock
 nav: Providers
 network: true
-overview: 'Chinese Narrative Chapter Lock publishes 1 API on the [APIs.io](https://apis.io/) network: cultureBiz chapter-lock. Tagged areas include Localization, Translation, NLP, terminology-management, and Cat.
+overview: 'Chinese Narrative Chapter Lock publishes 8 APIs on the [APIs.io](https://apis.io/) network, including CultureBiz Chapter Lock API, Docs API, Examples API, and 5 more. Tagged areas include Localization, Translation, NLP, terminology-management, and Cats.
 
 
-  Chinese Narrative Chapter Lock''s developer surface includes pricing and 5 more developer resources.'
+  Chinese Narrative Chapter Lock''s developer surface includes pricing and 7 more developer resources.'
 plans:
 - name: Chinese Narrative Chapter Lock Plans Pricing
   plan_count: 2
   slug: chinese-narrative-chapter-lock-plans-pricing
-random_paper: 7
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Chinese Narrative Chapter Lock Rate Limits
   slug: chinese-narrative-chapter-lock-rate-limits
 score:
-  band: emerging
-  composite: 25.6
+  band: thin
+  composite: 26.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 42.0
@@ -92,11 +137,11 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 31.6
     contract_governance: 4.5
-    contract_quality: 34.7
+    contract_quality: 37.8
     developer_ergonomics: 18.5
     discoverability: 70.4
     operational_transparency: 0.0
@@ -108,10 +153,15 @@ score:
   previous_composite: 25.6
   provenance:
     conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -131,7 +181,7 @@ tags:
 - Translation
 - NLP
 - terminology-management
-- Cat
+- Cats
 - MT-preprocessing
 - chinese-language
 - Web Novels

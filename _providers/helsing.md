@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: 'Altra is Helsing''s reconnaissance-strike software platform. It fuses multi-sensor and multi-drone data feeds to cover wider areas, identify targets, and coordinate strikes. Altra is the AI layer that '
@@ -62,6 +62,10 @@ apis:
   slug: sg-1-fathom
 artifact_total: 32
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://helsing.ai
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/helsing/refs/heads/main/security/helsing-domain-security.yml
   title: ''
@@ -136,19 +140,19 @@ integrations:
 - description: Operational user of HF-1 strike drones in the defence against Russia's invasion.
   name: Government of Ukraine
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: Helsing
 nav: Providers
 network: true
 overview: 'Helsing publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Defense AI, European Defense, Autonomy, Loitering Munitions, and Underwater Autonomy.
 
 
-  Helsing''s developer surface includes developer portal, engineering blog, support, and 3 more developer resources.'
+  Helsing''s developer surface includes developer portal, engineering blog, support, and 4 more developer resources.'
 plans:
 - name: Helsing Plans Pricing
   plan_count: 1
   slug: helsing-plans-pricing
-random_paper: 11
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Helsing Rate Limits
@@ -179,7 +183,7 @@ score:
     - europe
   previous_composite: 18.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

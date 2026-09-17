@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ overview: 'GoCardless publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   GoCardless'' developer surface includes authentication, sandbox, changelog, documentation, pricing, signup flow, support, and 16 more developer resources.'
-random_paper: 13
+random_paper: 7
 rules:
 - effective_rule_count: 33
   extends:
@@ -359,7 +359,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

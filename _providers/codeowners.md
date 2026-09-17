@@ -51,7 +51,7 @@ overview: 'CODEOWNERS is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CODEOWNERS''s developer surface includes documentation, tooling, and 5 more developer resources.'
-random_paper: 10
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeowners/refs/heads/main/screenshots/codeowners-2026-06-20T174703.png
 slug: codeowners
 tags:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.power2sme.com/api/ws/v4
@@ -236,7 +236,7 @@ modified: '2026-07-20'
 name: Power2SME
 nav: Providers
 network: true
-overview: 'Power2SME publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Bank Master API, Customer Contact API, Email Verification API, and 14 more. Tagged areas include Company, Marketplaces, SME, Procurement, and India.
+overview: 'Power2SME publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Bank Master API, Customer Contact API, Email Verification API, and 14 more. Tagged areas include Company, Marketplace, SME, Procurement, and India.
 
 
   Power2SME''s developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
@@ -255,7 +255,7 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 45.9
+    contract_quality: 45.7
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 0.0
@@ -277,7 +277,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -295,7 +295,7 @@ security:
 slug: power2sme
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - SME
 - Procurement
 - India

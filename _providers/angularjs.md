@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The AngularJS (Angular.js, version 1.x) core framework API for building dynamic single-page web applications using JavaScript. AngularJS introduced the MVC pattern to front-end development, two-way da
@@ -114,7 +114,7 @@ plans:
 - name: Angularjs Plans Pricing
   plan_count: 3
   slug: angularjs-plans-pricing
-random_paper: 1
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Angularjs Rate Limits
@@ -139,7 +139,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -196,6 +196,10 @@ collections:
   name: Oracle REST Data Services (ORDS) REST API
   slug: open-ords-rest-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -357,7 +361,7 @@ jsonld:
   property_count: 21
   slug: oracle-apex-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Oracle APEX
 nav: Providers
 network: true
@@ -367,12 +371,12 @@ overview: 'Oracle APEX publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The Oracle APEX catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle APEX''s developer surface includes authentication, documentation, engineering blog, YouTube channel, pricing, getting-started guide, release notes, and 12 more developer resources.'
+  Oracle APEX''s developer surface includes authentication, documentation, engineering blog, YouTube channel, pricing, getting-started guide, release notes, and 13 more developer resources.'
 plans:
 - name: Oracle Apex Plans Pricing
   plan_count: 3
   slug: oracle-apex-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Oracle Apex Rate Limits
@@ -420,7 +424,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -461,4 +465,5 @@ use_cases:
   name: Data Management Portals
 - description: Integrate generative AI features into business applications for intelligent data processing and insights.
   name: AI-Enhanced Applications
+website: https://oracle.com
 ---

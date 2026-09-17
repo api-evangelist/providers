@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -120,11 +120,6 @@ apis:
   slug: worldpay-beneficial-owners-api
 - baseURL: https://access.worldpay.com
   baseurl_source: declared
-  description: The CardPayments API from Worldpay — 2 operation(s) for cardpayments.
-  name: Worldpay CardPayments API
-  slug: worldpay-cardpayments-api
-- baseURL: https://access.worldpay.com
-  baseurl_source: declared
   description: The CardVerifications API from Worldpay — 2 operation(s) for cardverifications.
   name: Worldpay CardVerifications API
   slug: worldpay-cardverifications-api
@@ -133,11 +128,6 @@ apis:
   description: The Exemptions API from Worldpay — 1 operation(s) for exemptions.
   name: Worldpay Exemptions API
   slug: worldpay-exemptions-api
-- baseURL: https://access.worldpay.com
-  baseurl_source: declared
-  description: The ForeignExchange API from Worldpay — 5 operation(s) for foreignexchange.
-  name: Worldpay ForeignExchange API
-  slug: worldpay-foreignexchange-api
 - baseURL: https://access.worldpay.com
   baseurl_source: declared
   description: The Fraudsight API from Worldpay — 1 operation(s) for fraudsight.
@@ -200,11 +190,6 @@ apis:
   slug: worldpay-payment-pages-api
 - baseURL: https://access.worldpay.com
   baseurl_source: declared
-  description: The PaymentQueries API from Worldpay — 3 operation(s) for paymentqueries.
-  name: Worldpay PaymentQueries API
-  slug: worldpay-paymentqueries-api
-- baseURL: https://access.worldpay.com
-  baseurl_source: declared
   description: Create and maintain payout instruments.
   name: Worldpay Payout instruments API
   slug: worldpay-payout-instruments-api
@@ -248,6 +233,21 @@ apis:
   description: The VerifiedTokens API from Worldpay — 2 operation(s) for verifiedtokens.
   name: Worldpay VerifiedTokens API
   slug: worldpay-verifiedtokens-api
+- baseURL: https://access.worldpay.com
+  baseurl_source: declared
+  description: The Card Payments API from Worldpay — 2 operation(s) for card payments.
+  name: Worldpay Card Payments API
+  slug: worldpay-card-payments-api
+- baseURL: https://access.worldpay.com
+  baseurl_source: declared
+  description: The Foreign Exchange API from Worldpay — 5 operation(s) for foreign exchange.
+  name: Worldpay Foreign Exchange API
+  slug: worldpay-foreign-exchange-api
+- baseURL: https://access.worldpay.com
+  baseurl_source: declared
+  description: The Payment Queries API from Worldpay — 3 operation(s) for payment queries.
+  name: Worldpay Payment Queries API
+  slug: worldpay-payment-queries-api
 artifact_total: 87
 collections:
 - collection_type: open
@@ -472,14 +472,14 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Rate Limits
   slug: rate-limits
 score:
   band: developing
-  composite: 45.8
+  composite: 45.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 51.0
@@ -487,11 +487,11 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 61.1
+    contract_quality: 61.5
     developer_ergonomics: 50.0
     discoverability: 81.5
     operational_transparency: 21.1
@@ -510,7 +510,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

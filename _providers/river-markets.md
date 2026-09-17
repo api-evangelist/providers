@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -72,13 +72,8 @@ apis:
 - baseURL: https://api.rivermarkets.com
   baseurl_source: declared
   description: Search and discover prediction markets across Kalshi and Polymarket.
-  name: River Markets markets API
+  name: River Markets API
   slug: river-markets-markets-api
-- baseURL: https://api.rivermarkets.com
-  baseurl_source: declared
-  description: The orderbooks API from River Markets — 2 operation(s) for orderbooks.
-  name: River Markets orderbooks API
-  slug: river-markets-orderbooks-api
 - baseURL: https://api.rivermarkets.com
   baseurl_source: declared
   description: Place and manage orders on prediction market exchanges.
@@ -109,6 +104,11 @@ apis:
   description: The watchlists API from River Markets — 4 operation(s) for watchlists.
   name: River Markets watchlists API
   slug: river-markets-watchlists-api
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: The Order Books API from River Markets — 2 operation(s) for order books.
+  name: River Markets Order Books API
+  slug: river-markets-order-books-api
 artifact_total: 31
 asyncapis:
 - description: 'Real-time WebSocket streams over wss://api.rivermarkets.com. Client frames are JSON text; server frames are orjson-serialized UTF-8 bytes. Handshake auth uses the Ed25519 signed-request flow moved to '
@@ -275,7 +275,7 @@ created: '2026-07-17'
 description: River Markets is a unified prime brokerage for prediction markets, consolidating multiple exchanges — Kalshi, Polymarket, and Polymarket US (with Novig and Rothera planned) — behind a single account, order-management system, and REST + WebSocket API. Every contract across all venues is assigned a unified River ID, so professional and institutional traders can search markets, place and route orders (including icebergs, pegs, stop-losses, and take-profits with smart order routing), track positions and P&L across isolated subaccounts, and stream live fills, orderbooks, orders, and trade prints from one integration. Requests are Ed25519-signed so the private key never leaves the client process. Founded by ex-BlackRock and high-frequency trading quants and backed by Y Combinator (Spring 2026).
 image: https://rivermarkets.com/favicon.ico
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: River Markets
 nav: Providers
 network: true
@@ -286,7 +286,7 @@ overview: 'River Markets publishes 13 APIs on the [APIs.io](https://apis.io/) ne
 
 
   River Markets'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 19 more developer resources.'
-random_paper: 12
+random_paper: 14
 score:
   band: thin
   composite: 35.8
@@ -323,7 +323,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

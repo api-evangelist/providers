@@ -35,7 +35,7 @@ name: Superpedestrian
 nav: Providers
 network: true
 overview: Superpedestrian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Micromobility, Transportation, Mobility, and Electric Scooters.
-random_paper: 13
+random_paper: 2
 slug: superpedestrian
 tags:
 - Company

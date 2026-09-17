@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Model Context Protocol server for tday, and the agent-facing entry point to the platform. It ships in two deployments that front the same nine tools: a hosted remote endpoint at https://tday.com/api/m'
@@ -188,7 +188,7 @@ plans:
 - name: Tdaycom Plans Pricing
   plan_count: 3
   slug: tdaycom-plans-pricing
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Tdaycom Rate Limits
@@ -222,7 +222,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

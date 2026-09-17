@@ -19,7 +19,7 @@ name: I2 Technologies Inc (THINK SYSTEMS)
 nav: Providers
 network: true
 overview: I2 Technologies Inc (THINK SYSTEMS) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Supply Chain Management, Enterprise Software, and Defunct.
-random_paper: 12
+random_paper: 11
 slug: i2-technologies-inc-think-systems
 tags:
 - Company

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -251,6 +251,10 @@ collections:
   name: Leonardo.AI Video Generation API
   slug: open-leonardo-ai-video-generation
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://leonardo.ai
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/capabilities/leonardo-ai-capability-edges.yml
   title: ''
@@ -503,7 +507,7 @@ jsonld:
   property_count: 7
   slug: leonardo-ai-context
 layout: provider
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Leonardo.AI
 nav: Providers
 network: true
@@ -513,12 +517,12 @@ overview: 'Leonardo.AI publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   The Leonardo.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Leonardo.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, tooling, signup flow, and 39 more developer resources.'
+  Leonardo.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, tooling, signup flow, and 40 more developer resources.'
 plans:
 - name: Leonardo Ai Plans Pricing
   plan_count: 5
   slug: leonardo-ai-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Leonardo Ai Rate Limits
@@ -583,7 +587,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

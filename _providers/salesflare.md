@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -59,11 +59,6 @@ apis:
   description: The AISetings API from Salesflare — 1 operation(s) for aisetings.
   name: Salesflare AISetings API
   slug: salesflare-aisetings-api
-- baseURL: https://api.salesflare.com
-  baseurl_source: declared
-  description: The AISettings API from Salesflare — 1 operation(s) for aisettings.
-  name: Salesflare AISettings API
-  slug: salesflare-aisettings-api
 - baseURL: https://api.salesflare.com
   baseurl_source: declared
   description: The Calls API from Salesflare — 2 operation(s) for calls.
@@ -144,6 +139,11 @@ apis:
   description: The Workflows API from Salesflare — 4 operation(s) for workflows.
   name: Salesflare Workflows API
   slug: salesflare-workflows-api
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The AI Settings API from Salesflare — 1 operation(s) for ai settings.
+  name: Salesflare AI Settings API
+  slug: salesflare-ai-settings-api
 artifact_total: 56
 collections:
 - collection_type: open
@@ -210,6 +210,11 @@ collections:
   name: Salesflare Accounts Workflows API
   slug: open-salesflare-workflows-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/overlays/salesflare-aisettings-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/salesflare-aisettings-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/agentic-access/salesflare-agentic-access.yml
   title: ''
@@ -404,12 +409,12 @@ overview: 'Salesflare publishes 20 APIs on the [APIs.io](https://apis.io/) netwo
   The Salesflare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Salesflare''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, signup flow, and 26 more developer resources.'
+  Salesflare''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, signup flow, and 27 more developer resources.'
 plans:
 - name: Salesflare Plans Pricing
   plan_count: 3
   slug: salesflare-plans-pricing
-random_paper: 8
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Salesflare Rate Limits
@@ -460,7 +465,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -57,11 +57,6 @@ apis:
   description: The Code List API from UNICEF Data — 3 operation(s) for code list.
   name: UNICEF Data Code List API
   slug: unicef-data-code-list-api
-- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
-  baseurl_source: declared
-  description: The Codelist API from UNICEF Data — 4 operation(s) for codelist.
-  name: UNICEF Data Codelist API
-  slug: unicef-data-codelist-api
 - baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
   baseurl_source: declared
   description: The CollectionProcess API from UNICEF Data — 1 operation(s) for collectionprocess.
@@ -90,13 +85,8 @@ apis:
 - baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
   baseurl_source: declared
   description: The Data Browser API from UNICEF Data — 1 operation(s) for data browser.
-  name: UNICEF Data Data Browser API
+  name: UNICEF Data Browser API
   slug: unicef-data-data-browser-api
-- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
-  baseurl_source: declared
-  description: The DataSource API from UNICEF Data — 1 operation(s) for datasource.
-  name: UNICEF Data DataSource API
-  slug: unicef-data-datasource-api
 - baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
   baseurl_source: declared
   description: The Group API from UNICEF Data — 2 operation(s) for group.
@@ -122,11 +112,6 @@ apis:
   description: The Language API from UNICEF Data — 1 operation(s) for language.
   name: UNICEF Data Language API
   slug: unicef-data-language-api
-- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
-  baseurl_source: declared
-  description: The Reference datasets API from UNICEF Data — 8 operation(s) for reference datasets.
-  name: UNICEF Data Reference datasets API
-  slug: unicef-data-reference-datasets-api
 - baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
   baseurl_source: declared
   description: The Region API from UNICEF Data — 4 operation(s) for region.
@@ -172,7 +157,17 @@ apis:
   description: The YearAssignmentMethod API from UNICEF Data — 1 operation(s) for yearassignmentmethod.
   name: UNICEF Data YearAssignmentMethod API
   slug: unicef-data-yearassignmentmethod-api
-artifact_total: 65
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Data Source API from UNICEF Data — 1 operation(s) for data source.
+  name: UNICEF Data Data Source API
+  slug: unicef-data-data-source-api
+- baseURL: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/
+  baseurl_source: declared
+  description: The Reference Data Sets API from UNICEF Data — 8 operation(s) for reference data sets.
+  name: UNICEF Data Reference Data Sets API
+  slug: unicef-data-reference-data-sets-api
+artifact_total: 64
 collections:
 - collection_type: open
   name: API Collection
@@ -381,11 +376,11 @@ jsonld:
   property_count: 5
   slug: unicef-sdmx-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: UNICEF Data
 nav: Providers
 network: true
-overview: 'UNICEF Data publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Basemap API, Code List API, Codelist API, and 22 more. Tagged areas include Children, Child Welfare, Global Health, Statistics, and SDG.
+overview: 'UNICEF Data publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Basemap API, Code List API, CollectionProcess API, and 21 more. Tagged areas include Children, Child Welfare, Global Health, Statistics, and SDG.
 
 
   The UNICEF Data catalog on APIs.io includes 3 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -396,7 +391,7 @@ plans:
 - name: Unicef Data Plans Pricing
   plan_count: 3
   slug: unicef-data-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Unicef Data Rate Limits
@@ -414,7 +409,7 @@ rules:
   slug: unicef-data-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 37.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 68.3
@@ -422,11 +417,11 @@ score:
     catalog_gap: 46.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 53.4
+    contract_quality: 52.6
     developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 5.3
@@ -437,7 +432,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 25
+      total: 24
   regulatory:
     applies: true
     matched_via: tags
@@ -445,7 +440,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

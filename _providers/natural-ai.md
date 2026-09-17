@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 67.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 6
@@ -90,11 +90,6 @@ apis:
   slug: natural-ai-parties-api
 - baseURL: https://api.natural.com
   baseurl_source: declared
-  description: Payment request management
-  name: Natural AI PaymentRequests API
-  slug: natural-ai-paymentrequests-api
-- baseURL: https://api.natural.com
-  baseurl_source: declared
   description: Payment management
   name: Natural AI Payments API
   slug: natural-ai-payments-api
@@ -118,6 +113,11 @@ apis:
   description: Webhook endpoint management
   name: Natural AI Webhooks API
   slug: natural-ai-webhooks-api
+- baseURL: https://api.natural.com
+  baseurl_source: declared
+  description: Payment request management
+  name: Natural AI Payment Requests API
+  slug: natural-ai-payment-requests-api
 artifact_total: 53
 asyncapis:
 - description: ''
@@ -411,7 +411,7 @@ overview: 'Natural AI publishes 15 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Natural AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, changelog, and 31 more developer resources.'
-random_paper: 19
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Natural Ai Rate Limits
@@ -423,7 +423,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.0
+  composite: 63.6
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -431,11 +431,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 66.0
+    contract_quality: 64.4
     developer_ergonomics: 75.0
     discoverability: 75.9
     operational_transparency: 50.0
@@ -457,7 +457,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

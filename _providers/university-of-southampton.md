@@ -33,34 +33,44 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.8
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
-- baseURL: https://data.southampton.ac.uk/
-  baseurl_source: declared
-  description: 'Institution-built, institution-hosted linked open data covering the physical and organisational University: buildings and sites, term dates, organisational structure, research facilities, points of se'
-  name: University of Southampton Open Data Service (Linked Data)
-  slug: open-data-linked-data
 - description: The University's own Shibboleth 3.x Identity Provider, entityID https://webauth.soton.ac.uk/shibboleth, asserting shibmd:Scope soton.ac.uk. Its entity descriptor is published both by the IdP itself an
   name: Shibboleth SAML Identity Provider (UK Access Management Federation)
   slug: shibboleth-saml-idp
-- baseURL: https://eprints.soton.ac.uk/cgi/oai2
-  baseurl_source: declared
-  description: 'Live, open OAI-PMH 2.0 metadata harvesting for ePrints Soton, the University''s institutional research repository. Verified 2026-08-30: Identify returned repositoryName ''ePrints Soton'', repositoryIdent'
-  name: ePrints Soton OAI-PMH Interface
-  slug: eprints-oai-pmh
-- baseURL: https://eprints.soton.ac.uk/rest
-  baseurl_source: declared
-  description: Read-only REST interface over the ePrints Soton data model, exposing the repository's eprint, user and subject datasets. Unauthenticated. Individual records dereference by identifier with a format ext
-  name: ePrints Soton REST Interface
-  slug: eprints-rest
 - description: 'The University''s tenancy of Elsevier Pure, its Current Research Information System, at pure.soton.ac.uk. Pure is now the system of record: researchers deposit into Pure and outputs flow onward to ePri'
   name: Elsevier Pure CRIS tenancy
   slug: pure-cris-tenancy
 - description: The University's tenancy of Figshare for research data, at southampton.figshare.com. Live and reachable but fronted by an AWS WAF bot challenge — HTTP 202 with header x-amzn-waf-action:challenge and a
   name: Figshare research data repository tenancy
   slug: figshare-tenancy
-artifact_total: 14
+- baseURL: https://data.southampton.ac.uk/
+  baseurl_source: declared
+  description: DCAT catalogue of the datasets the service publishes.
+  name: University of Southampton Catalogue API
+  slug: university-of-southampton-catalogue-api
+- baseURL: https://data.southampton.ac.uk/
+  baseurl_source: declared
+  description: Enumeration of the repository's exposed datasets.
+  name: University of Southampton Datasets API
+  slug: university-of-southampton-datasets-api
+- baseURL: https://data.southampton.ac.uk/
+  baseurl_source: declared
+  description: Individual repository records.
+  name: University of Southampton Eprints API
+  slug: university-of-southampton-eprints-api
+- baseURL: https://data.southampton.ac.uk/
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
+  name: University of Southampton OAI PMH API
+  slug: university-of-southampton-oai-pmh-api
+- baseURL: https://data.southampton.ac.uk/
+  baseurl_source: declared
+  description: Dereferenceable resource URIs for campus concepts.
+  name: University of Southampton Resources API
+  slug: university-of-southampton-resources-api
+artifact_total: 16
 common:
 - group: company
   title: ''
@@ -211,7 +221,7 @@ modified: '2026-08-30'
 name: University of Southampton
 nav: Providers
 network: true
-overview: 'University of Southampton publishes 3 APIs on the [APIs.io](https://apis.io/) network: Open Data Service (Linked Data), ePrints Soton OAI-PMH Interface, and ePrints Soton REST Interface. Tagged areas include University, Higher Education, Education, Russell Group, and United Kingdom.
+overview: 'University of Southampton publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalogue API, Datasets API, Eprints API, and 2 more. Tagged areas include University, Higher Education, Education, Russell Group, and United Kingdom.
 
 
   The University of Southampton catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -222,7 +232,7 @@ plans:
 - name: University Of Southampton Plans Pricing
   plan_count: 3
   slug: university-of-southampton-plans-pricing
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: University Of Southampton Rate Limits
@@ -245,7 +255,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 40.8
+  composite: 40.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 76.3
@@ -253,11 +263,11 @@ score:
     catalog_gap: 38.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 60.5
     contract_governance: 3.8
-    contract_quality: 20.2
+    contract_quality: 19.9
     developer_ergonomics: 28.6
     discoverability: 74.1
     operational_transparency: 34.2
@@ -274,9 +284,9 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 5
       marker_coverage: 100.0
-      total: 3
+      total: 5
   regulatory:
     applies: true
     matched_via: tags
@@ -284,7 +294,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

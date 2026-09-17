@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -107,6 +107,10 @@ collections:
   name: EBANX FX Tokenization API
   slug: open-ebanx-tokenization-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://ebanx.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/agentic-access/ebanx-agentic-access.yml
   title: ''
@@ -173,7 +177,7 @@ jsonld:
   property_count: 0
   slug: ebanx-context
 layout: provider
-modified: '2026-05-24'
+modified: '2026-09-16'
 name: EBANX
 nav: Providers
 network: true
@@ -183,12 +187,12 @@ overview: 'EBANX publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The EBANX catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  EBANX''s developer surface includes authentication and 3 more developer resources.'
+  EBANX''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Ebanx Plans Pricing
   plan_count: 2
   slug: ebanx-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Ebanx Rate Limits
@@ -265,7 +269,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -291,7 +295,7 @@ tags:
 - Payouts
 - Foreign Exchange
 - Tokenization
-- LatAm
+- Latin America
 - Emerging Markets
 - Pix
 - Boleto
@@ -300,4 +304,5 @@ tags:
 - PSE
 - Cross-Border
 - Webhook
+website: https://ebanx.com
 ---

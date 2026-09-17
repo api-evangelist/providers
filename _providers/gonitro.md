@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -50,26 +50,6 @@ apis:
   slug: gonitro-authentication-api
 - baseURL: https://api.gonitro.dev
   baseurl_source: declared
-  description: The Conversions API from GoNitro — 1 operation(s) for conversions.
-  name: GoNitro Conversions API
-  slug: gonitro-conversions-api
-- baseURL: https://api.gonitro.dev
-  baseurl_source: declared
-  description: The Extractions API from GoNitro — 1 operation(s) for extractions.
-  name: GoNitro Extractions API
-  slug: gonitro-extractions-api
-- baseURL: https://api.gonitro.dev
-  baseurl_source: declared
-  description: The Generations API from GoNitro — 1 operation(s) for generations.
-  name: GoNitro Generations API
-  slug: gonitro-generations-api
-- baseURL: https://api.gonitro.dev
-  baseurl_source: declared
-  description: The Jobs API from GoNitro — 2 operation(s) for jobs.
-  name: GoNitro Jobs API
-  slug: gonitro-jobs-api
-- baseURL: https://api.gonitro.dev
-  baseurl_source: declared
   description: The Platform API from GoNitro — 6 operation(s) for platform.
   name: GoNitro Platform API
   slug: gonitro-platform-api
@@ -78,16 +58,11 @@ apis:
   description: The Sign API from GoNitro — 22 operation(s) for sign.
   name: GoNitro Sign API
   slug: gonitro-sign-api
-- baseURL: https://api.gonitro.dev
-  baseurl_source: declared
-  description: The Transformations API from GoNitro — 1 operation(s) for transformations.
-  name: GoNitro Transformations API
-  slug: gonitro-transformations-api
 arazzos:
 - description: Authenticate, create an envelope, add a document, participant, and signature field, then send it for signing.
   name: Create and send a Nitro Sign envelope
   slug: gonitro-create-and-send-envelope
-artifact_total: 32
+artifact_total: 27
 asyncapis:
 - description: Event surface for Nitro. Sign delivers envelope lifecycle webhooks (HTTP POST) signed with RFC 9421 HTTP Message Signatures (HMAC-SHA256; headers Content-Digest, Signature-Input, Signature). One webho
   name: Nitro Sign & PDF Services Webhooks
@@ -326,17 +301,17 @@ modified: '2026-07-19'
 name: GoNitro
 nav: Providers
 network: true
-overview: 'GoNitro publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Conversions API, Extractions API, and 5 more. Tagged areas include Company, Documents, PDF, E-Signature, and Electronic Signatures.
+overview: 'GoNitro publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Platform API, and Sign API. Tagged areas include Company, Documents, PDF, E-Signature, and Electronic Signature.
 
 
   The GoNitro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   GoNitro''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 14
+random_paper: 0
 score:
   band: strong
-  composite: 56.9
+  composite: 56.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -344,11 +319,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 65.9
+    contract_quality: 63.8
     developer_ergonomics: 63.7
     discoverability: 75.9
     operational_transparency: 50.0
@@ -360,11 +335,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 3
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -389,7 +364,7 @@ tags:
 - Documents
 - PDF
 - E-Signature
-- Electronic Signatures
+- Electronic Signature
 - Document Automation
 - Document Conversion
 - Data Extraction

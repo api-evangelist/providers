@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://app.run.ai
@@ -64,11 +64,6 @@ apis:
   slug: runai-applications-api
 - baseURL: https://app.run.ai
   baseurl_source: declared
-  description: The audit log provides audit trail information for user activity, changes to business objects and other important information. For more information, see [Audit log](https://run-ai-docs.nvidia.com/saas
-  name: NVIDIA Run:ai AuditLogs API
-  slug: runai-auditlogs-api
-- baseURL: https://app.run.ai
-  baseurl_source: declared
   description: Use these endpoints to create, manage and delete NVIDIA Run:ai Kubernetes clusters.
   name: NVIDIA Run:ai Clusters API
   slug: runai-clusters-api
@@ -87,16 +82,6 @@ apis:
   description: Credentials are used to unlock protected resources such as applications, containers, and other assets. For more information, see [Credentials](https://run-ai-docs.nvidia.com/saas/workloads-in-nvidia-r
   name: NVIDIA Run:ai Credentials API
   slug: runai-credentials-api
-- baseURL: https://app.run.ai
-  baseurl_source: declared
-  description: Data source assets.
-  name: NVIDIA Run:ai Datasources API
-  slug: runai-datasources-api
-- baseURL: https://app.run.ai
-  baseurl_source: declared
-  description: The Datavolumes API from NVIDIA Run:ai — 5 operation(s) for datavolumes.
-  name: NVIDIA Run:ai Datavolumes API
-  slug: runai-datavolumes-api
 - baseURL: https://app.run.ai
   baseurl_source: declared
   description: Departments, in the hierarchy of resource allocation, are above Projects. A Department can contain multiple Projects, and has its own quotas. A Department's quota supersedes the total of the Project q
@@ -164,11 +149,6 @@ apis:
   slug: runai-nfs-api
 - baseURL: https://app.run.ai
   baseurl_source: declared
-  description: 'Node pools assist in managing heterogeneous resources effectively. A node pool is a set of nodes grouped into a bucket of resources using a predefined (for example, GPU-Type) or administrator-defined '
-  name: NVIDIA Run:ai NodePools API
-  slug: runai-nodepools-api
-- baseURL: https://app.run.ai
-  baseurl_source: declared
   description: 'Nodes are worker machines in Kubernetes and may be either a virtual or a physical machine, depending on the cluster. Each Node is managed by the NVIDIA Run:ai control plane. For more information, see '
   name: NVIDIA Run:ai Nodes API
   slug: runai-nodes-api
@@ -182,11 +162,6 @@ apis:
   description: Use to get notification types.
   name: NVIDIA Run:ai Notification Types API
   slug: runai-notification-types-api
-- baseURL: https://app.run.ai
-  baseurl_source: declared
-  description: Notification Channels are the medium through which notifications are sent.
-  name: NVIDIA Run:ai NotificationChannels API
-  slug: runai-notificationchannels-api
 - baseURL: https://app.run.ai
   baseurl_source: declared
   description: The NVIDIA NIM API provides endpoints to create and manage workloads that deploy NVIDIA Inference Microservices (NIM) through the NIM Operator. These workloads package optimized NVIDIA model servers a
@@ -347,6 +322,31 @@ apis:
   description: A Workspace is a simplified tool for researchers to conduct experiments, build AI models, access standard MLOps tools, and collaborate with their peers. Workspaces abstract complex concepts related to
   name: NVIDIA Run:ai Workspaces API
   slug: runai-workspaces-api
+- baseURL: https://app.run.ai
+  baseurl_source: declared
+  description: The audit log provides audit trail information for user activity, changes to business objects and other important information. For more information, see Audit log.
+  name: NVIDIA Run:ai Audit Logs API
+  slug: runai-audit-logs-api
+- baseURL: https://app.run.ai
+  baseurl_source: declared
+  description: Data source assets.
+  name: NVIDIA Run:ai Data Sources API
+  slug: runai-data-sources-api
+- baseURL: https://app.run.ai
+  baseurl_source: declared
+  description: The Data Volumes API from NVIDIA Run:ai — 5 operation(s) for data volumes.
+  name: NVIDIA Run:ai Data Volumes API
+  slug: runai-data-volumes-api
+- baseURL: https://app.run.ai
+  baseurl_source: declared
+  description: 'Node pools assist in managing heterogeneous resources effectively. A node pool is a set of nodes grouped into a bucket of resources using a predefined (for example, GPU-Type) or administrator-defined '
+  name: NVIDIA Run:ai Node Pools API
+  slug: runai-node-pools-api
+- baseURL: https://app.run.ai
+  baseurl_source: declared
+  description: Notification Channels are the medium through which notifications are sent.
+  name: NVIDIA Run:ai Notification Channels API
+  slug: runai-notification-channels-api
 artifact_total: 127
 collections:
 - collection_type: open
@@ -681,7 +681,7 @@ overview: 'NVIDIA Run:ai publishes 62 APIs on the [APIs.io](https://apis.io/) ne
 
 
   NVIDIA Run:ai''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 22 more developer resources.'
-random_paper: 18
+random_paper: 15
 score:
   band: developing
   composite: 41.7
@@ -696,7 +696,7 @@ score:
   facets:
     access_clarity: 27.6
     contract_governance: 4.5
-    contract_quality: 58.2
+    contract_quality: 57.9
     developer_ergonomics: 66.1
     discoverability: 51.9
     operational_transparency: 26.3
@@ -711,7 +711,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

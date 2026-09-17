@@ -1,6 +1,6 @@
 {
- "total": 26,
- "shown": 26,
+ "total": 29,
+ "shown": 29,
  "limit": 1000,
  "bands": [
   {
@@ -16,18 +16,18 @@
      "slug": "us-dot",
      "description": "The U.S. Department of Transportation (DOT) is the federal transportation regulator for the United States, the deepest travel market in the world. In aviation DOT is not a participant in the distribution chain — it is the counterweight to it: through the Office of the Secretary it writes and enforces 14 CFR Part 256 on electronic airline information systems (explicitly naming global distribution systems, corporate booking tools and internet flight search tools), Part 257 on code-share disclosure, Part 250 on oversales, Part 259 on enhanced passenger protections, Part 260 on fare and ancillary fee refunds, and 399.84 on full-fare advertising. Its Bureau of Transportation Statistics is the sole authoritative source for US airline economics — T-100 segment traffic, Form 41 financials, the Consumer Airfare Report city-pair fare tables, denied boardings and mishandled baggage — published as free Socrata SODA APIs. Its Federal Aviation Administration operates a Gravitee API portal at api.faa.gov whose public catalog is enumerable without login and serves genuinely open, unauthenticated OpenAPI 3.0.1 services for national airspace delay status and aeronautical chart product releases, alongside gated APIs for pilot records and safety reporting. Beyond aviation the operating administrations each run their own surface: NHTSA publishes anonymous vehicle, recall, complaint and safety-rating APIs; FRA publishes SOAP/WSDL rail safety services; FMCSA issues the department's only self-serve API key behind a Login.gov account. API posture, honestly: transportation.gov itself is bot-blocked (HTTP 403 to any non-browser client) and publishes no departmental OpenAPI, there is no OAuth, no idempotency key, no RFC 9457 errors, no Sunset headers and no security.txt anywhere — but the data surfaces underneath are open, unmetered, public domain and fully bulk-exportable. This is a provider with an excellent exit path and no commercial lock-in of any kind.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/screenshots/us-dot-2026-08-17T082655.png",
-     "score": 52.0,
+     "score": 53.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.0,
-      "contract_quality": 54.6,
+      "contract_quality": 59.8,
       "contract_governance": 4.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -65,18 +65,18 @@
      "name": "American Express Global Business Travel",
      "slug": "amex-gbt",
      "description": "American Express Global Business Travel (Amex GBT, NYSE GBTG, headquartered in New York) is the largest business-to-business travel platform in the world, operating in more than 140 countries under the Amex GBT, Egencia and Ovation brands, with CWT acquired in September 2025. Its home market is the United States. In the travel distribution chain Amex GBT is an intermediary rather than a supplier - a travel management company that aggregates air, hotel, rail, car and ground content sourced through the GDS layer, through NDC and through direct supplier connections, then resells it to corporate travel programmes with policy, approval, duty-of-care and reporting wrapped around it. It holds no inventory of its own, but it does hold the booking record, and that is where the switching cost lives. Its API posture is genuinely open at the documentation layer and firmly closed at the runtime layer. The Egencia Developer Center publishes thirteen named APIs and SPIs, and every one of them serves a real, anonymously retrievable OpenAPI 3.1.0 document from apis.egencia.com - no login, no key, no click-through. The identity surface is standards-based (SCIM 2.0 user provisioning over OAuth 2.0 client credentials); the booking, approval, expense, receipt, duty-of-care and reporting surfaces are proprietary Egencia shapes with no OpenTravel, HTNG or IATA NDC schema anywhere in them. Runtime access is customer-account gated - Egencia's own documentation states that \"the values for client id and client secret will be provided to the Client after on-boarding to Egencia API platform\", and every production endpoint returns 401 to an anonymous caller. So - public contracts, gated runtime, a real documented bulk data export in the BI Transactions API, and API terms Egencia reserves the right to change in its sole discretion.",
-     "score": 46.6,
+     "score": 47.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 59.6,
+      "contract_quality": 61.4,
       "contract_governance": 4.5,
       "operational_transparency": 42.1,
       "developer_ergonomics": 58.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 44.4,
      "agent_band": "agent-ready",
@@ -119,7 +119,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 46.8,
      "agent_band": "agent-ready",
@@ -162,7 +162,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -205,7 +205,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -240,9 +240,102 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 1,
-   "shown": 1,
+   "count": 3,
+   "shown": 3,
    "providers": [
+    {
+     "name": "NPP Australia (AP+)",
+     "slug": "npp-australia",
+     "description": "NPP Australia is the operator of the New Payments Platform (NPP), Australia's national real-time, data-rich, account-to-account payments infrastructure that settles 24 hours a day, 365 days a year across more than 100 connected banks, credit unions, fintechs and government agencies. Since 2021 NPP Australia has been a wholly owned subsidiary of Australian Payments Plus (AP+), the entity formed by amalgamating NPP Australia, BPAY Group and eftpos. On top of the core clearing-and-settlement rail, NPP operates two overlay services: PayID, an addressing service that maps a mobile number, email, ABN or organisation ID to a bank account, and PayTo, a real-time mandated-debit capability that gives consumers visibility and control over recurring and one-off account debits. Its home market is Australia, and it sits alongside the Consumer Data Right as the country's payments spine. Its API posture is that of a scheme and rail operator rather than a self-serve PSP: NPP Australia itself does not sell a public API, but it publishes the ISO 20022-aligned NPP API Framework that defines the mandatory technical approach and data attributes NPP Participants implement, and AP+ runs a (registration-gated) developer portal plus a SWIFT-hosted API sandbox. The consumable APIs are offered by NPP Participants, not by NPP Australia.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/screenshots/npp-australia-2026-08-07T185651.png",
+     "score": 30.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 60.7,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 39.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 15.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 6
+    },
+    {
+     "name": "jService",
+     "slug": "jservice",
+     "description": "jService is an open source Ruby on Rails trivia API that serves approximately 200,000 Jeopardy! questions, answers, and categories scraped from the J! Archive fan site. The original public deployment at jservice.io is no longer operational, but the project (sottenad/jService, MIT licensed) remains available for self-hosting against PostgreSQL. The API exposes random clues, final Jeopardy clues, filtered clue queries, category listings, single-category lookup, and invalid-clue reporting under /api/*.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/screenshots/jservice-2026-06-20T183813.png",
+     "score": 30.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 63.7,
+      "contract_governance": 28.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "agent_score": 21.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
     {
      "name": "FlixBus",
      "slug": "flixbus",
@@ -259,7 +352,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -291,7 +384,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 8
     }
    ],
    "open": true
@@ -301,8 +394,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 11,
-   "shown": 11,
+   "count": 12,
+   "shown": 12,
    "providers": [
     {
      "name": "VIA Rail Canada",
@@ -320,7 +413,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -352,7 +445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 9
     },
     {
      "name": "Norfolk Southern",
@@ -370,7 +463,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -395,7 +488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 10
     },
     {
      "name": "Greenbrier Companies",
@@ -407,13 +500,13 @@
      "band_label": "Emerging",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 13.1,
+      "contract_quality": 13.0,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 46.0,
      "agent_band": "agent-native",
@@ -438,7 +531,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 11
     },
     {
      "name": "Trainline",
@@ -456,7 +549,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -481,7 +574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "Union Pacific",
@@ -499,7 +592,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -524,7 +617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 13
     },
     {
      "name": "Amtrak",
@@ -542,7 +635,7 @@
       "developer_ergonomics": 13.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -574,7 +667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 14
     },
     {
      "name": "Westinghouse Air Brake Technologies Corporation",
@@ -592,92 +685,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Selectron",
-     "slug": "selectron",
-     "description": "Selectron Systems AG is a Swiss rail-vehicle automation and safety supplier founded in 1956 in Lyss, Switzerland, and part of the Knorr-Bremse Group since 2015. Its core business is the Train Control and Management System (TCMS): freely programmable safety controllers and vehicle control units, centralised and decentralised remote I/O (Smartio RIOM), driver-cab displays and HMIs, wheel-slide protection, Ethernet switches, routers, converters and train-bus gateways, plus a rail cybersecurity line (Security Gateway, Threat Detection Solution with Irdeto, PKI and Cyber Resilience Act services). Engineering tooling ships as the Symphony Suite (Maestro Designer, CAP1131, SIM1131, POUtest1131, TOP1131, WDLD1131, SAND) distributed through the login-gated Cockpit portal. Products are certified to ISO/TS 22163 (IRIS), EN 61508 SIL 3, EN 50129 SIL 2, EN 50128 SIL 2 and IEC 62443 SL 2. Selectron publishes no public web API, developer portal or machine-readable contract.",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 14
-    },
-    {
-     "name": "Railinc",
-     "slug": "railinc",
-     "description": "Railinc, a wholly owned subsidiary of the Association of American Railroads, delivers IT and information services to the North American freight rail industry. Railinc's suite of APIs empowers customers to simplify and automate business processes essential to the lifecycle of freight rail operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/railinc/refs/heads/main/screenshots/railinc-2026-06-20T192531.png",
-     "score": 16.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -705,6 +713,91 @@
      "rank": 15
     },
     {
+     "name": "Selectron",
+     "slug": "selectron",
+     "description": "Selectron Systems AG is a Swiss rail-vehicle automation and safety supplier founded in 1956 in Lyss, Switzerland, and part of the Knorr-Bremse Group since 2015. Its core business is the Train Control and Management System (TCMS): freely programmable safety controllers and vehicle control units, centralised and decentralised remote I/O (Smartio RIOM), driver-cab displays and HMIs, wheel-slide protection, Ethernet switches, routers, converters and train-bus gateways, plus a rail cybersecurity line (Security Gateway, Threat Detection Solution with Irdeto, PKI and Cyber Resilience Act services). Engineering tooling ships as the Symphony Suite (Maestro Designer, CAP1131, SIM1131, POUtest1131, TOP1131, WDLD1131, SAND) distributed through the login-gated Cockpit portal. Products are certified to ISO/TS 22163 (IRIS), EN 61508 SIL 3, EN 50129 SIL 2, EN 50128 SIL 2 and IEC 62443 SL 2. Selectron publishes no public web API, developer portal or machine-readable contract.",
+     "score": 17.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 16
+    },
+    {
+     "name": "Railinc",
+     "slug": "railinc",
+     "description": "Railinc, a wholly owned subsidiary of the Association of American Railroads, delivers IT and information services to the North American freight rail industry. Railinc's suite of APIs empowers customers to simplify and automate business processes essential to the lifecycle of freight rail operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/railinc/refs/heads/main/screenshots/railinc-2026-06-20T192531.png",
+     "score": 16.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 14.3,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
      "name": "Maryland Transit Administration",
      "slug": "maryland-transit-administration",
      "description": "The Maryland Transit Administration (MDOT MTA) supports open transit data initiatives and makes resources available to developers and applications. It primarily uses the General Transit Feed Specification (GTFS) and GTFS-RT to convey schedule, geographic, fare, vehicle position, and trip update data for Local Bus, Light Rail, Metro Subway, MARC Train, and Commuter Bus services in a standardized format.",
@@ -720,7 +813,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -752,121 +845,25 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
-    },
-    {
-     "name": "Comply365",
-     "slug": "comply365",
-     "description": "Comply365 is an enterprise SaaS provider of operational content, safety, and training management software for highly regulated, safety-critical industries including airlines, defense, rail, and MRO (maintenance, repair, and overhaul). Its AI-powered platform unifies three mission-critical products: ContentManager365 for authoring, managing, and distributing controlled operational documentation and manuals; SafetyManager365 for safety reporting, investigation, and root-cause analysis; and TrainingManager365 for workforce readiness and compliance training. Comply365 helps regulated operators shorten document change cycles, maintain regulatory compliance, and connect frontline teams to the current, approved content they need. The company is an Insight Partners portfolio company and is an ISO 27001 and ISO 9001 certified organization.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comply365/refs/heads/main/screenshots/comply365-2026-07-25T210154.png",
-     "score": 15.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 9,
-   "shown": 9,
-   "providers": [
-    {
-     "name": "Fairlyne",
-     "slug": "fairlyne",
-     "description": "Fairlyne is a French travel-technology company offering a white-label Resale-as-a-Service platform that lets travel brands turn no-shows and low-yield bookings into new revenue by allowing passengers and guests to resell non-refundable tickets and reservations. Founded in 2021 by former Accor executives Gilles de Richemond and Michael d'Eboli, the platform serves airlines, railway and road-transport operators, and hospitality chains, and powers programs such as SNCF Ouigo's resale experience. Fairlyne raised a 3M EUR seed round from Speedinvest, Kima Ventures, Evolem, and FJ Labs. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Fairlyne. No public developer API or documentation portal has been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fairlyne/refs/heads/main/screenshots/fairlyne-2026-07-25T214152.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-15",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 18
     },
     {
-     "name": "Canadian National Railway",
-     "slug": "canadian-national-railway",
-     "description": "Canadian National Railway (CN) is the largest railway network in Canada and one of the largest in North America spanning over 20,000 route miles. CN transports goods across an integrated network linking the Atlantic and Pacific coasts with the Gulf of Mexico. CN offers shipper APIs, EDI integration, the eBusiness portal, and the CN ONE mobile app for shipment tracking, ordering, billing, and rate management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-national-railway/refs/heads/main/screenshots/canadian-national-railway-2026-06-20T173917.png",
-     "score": 10.3,
-     "band": "minimal",
-     "band_label": "Minimal",
+     "name": "Kamal",
+     "slug": "kamal-deploy",
+     "description": "Kamal is an open-source deployment tool from 37signals (DHH / Basecamp) for deploying containerized web applications to any infrastructure — bare metal, cloud VMs, or a mix — with zero-downtime rolling restarts. Originally built for Rails apps, Kamal works with any web application that can be packaged as a Docker container. It uses SSHKit to drive remote commands over SSH and pairs with kamal-proxy, a lightweight HTTP proxy written in Go that seamlessly switches request traffic between old and new containers during a deploy. Kamal is imperative and Capistrano-like in feel, with a single `config/deploy.yml` describing servers, image, registry, accessories, env, secrets, and proxy/SSL settings. Capabilities include auto-provisioning Docker on new servers, remote builds, asset bridging, accessory services (databases, Redis, cron sidecars), automatic TLS via Let's Encrypt, host- and path-based routing, and hooks for custom pre/post-deploy logic. Kamal is the operational backbone of 37signals' on-premises exit from major cloud providers and powers their ONCE product line. Kamal itself is a CLI tool, not a hosted service — there is no public REST API, no SDK, and no paid tier. The project is released under the MIT License and developed openly on GitHub under the `basecamp` organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kamal-deploy/refs/heads/main/screenshots/kamal-deploy-2026-06-20T183906.png",
+     "score": 15.9,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 38.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -894,22 +891,22 @@
      "rank": 19
     },
     {
-     "name": "Humatics",
-     "slug": "humatics",
-     "description": "Humatics Corporation is a Waltham, Massachusetts microlocation company founded in 2015 by MIT professor David Mindell and led by CEO James Kinsey. It builds radio-frequency positioning systems — ultra-wideband beacons, RF-pulse ranging, radar and inertial sensors fused in software — that locate people, vehicles and robots at centimeter- to millimeter-scale precision. Two product lines are on sale today: MILO, a sub-millimeter positioning system for industrial automation and in-motion robotics, advertised as compatible with Yaskawa, Mitsubishi Electric, FANUC, Universal Robots and KUKA; and Mobility, a rail and transit portfolio covering the FOCUS track-geometry monitoring kit and the Humatics Rail Navigation System (HRNS), used on New York City MTA subway signalling projects. Humatics publishes no developer portal, no API documentation and no machine-readable description of any product API. Two rounds of probing humatics.com returned HTTP 404 for every /.well-known/ path, /llms.txt, /openapi.json, /openapi.yaml, /swagger.json, /api-docs and /graphql; *.humatics.com is a DNS wildcard onto one retired address, so api., docs., developer., portal. and status. resolve but time out on connect. The only machine-readable HTTP interface on any Humatics host is the WordPress REST API of the marketing site itself at humatics.com/wp-json/ — 375 routes across 19 stock core and commercial-plugin namespaces, exposing pages and posts rather than positioning, and so recorded as evidence rather than catalogued as a Humatics API. The GitHub organization github.com/Humatics is real and public, but 31 of its 33 repositories are forks of third-party embedded and robotics open source (Fast-RTPS, Fast-CDR, FreeRTOS, Orange Pi BSP, Yocto meta-layers, EIPScanner, donkeycar); the two non-forks are internal tools. There is no first-party SDK, client library or specification, and no package named humatics exists on npm or PyPI. Marketing material for the earlier KinetIQ OS / Spatial Intelligence Platform referenced an \"extensible API\", but no public interface for it was ever documented, and the news host that carried those announcements (now.humatics.com) no longer answers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/humatics/refs/heads/main/screenshots/humatics-2026-08-07T170400.png",
-     "score": 9.6,
-     "band": "minimal",
-     "band_label": "Minimal",
+     "name": "Comply365",
+     "slug": "comply365",
+     "description": "Comply365 is an enterprise SaaS provider of operational content, safety, and training management software for highly regulated, safety-critical industries including airlines, defense, rail, and MRO (maintenance, repair, and overhaul). Its AI-powered platform unifies three mission-critical products: ContentManager365 for authoring, managing, and distributing controlled operational documentation and manuals; SafetyManager365 for safety reporting, investigation, and root-cause analysis; and TrainingManager365 for workforce readiness and compliance training. Comply365 helps regulated operators shorten document change cycles, maintain regulatory compliance, and connect frontline teams to the current, approved content they need. The company is an Insight Partners portfolio company and is an ISO 27001 and ISO 9001 certified organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comply365/refs/heads/main/screenshots/comply365-2026-07-25T210154.png",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -935,24 +932,34 @@
       "agentic_commerce": false
      },
      "rank": 20
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 9,
+   "shown": 9,
+   "providers": [
     {
-     "name": "SilverRail",
-     "slug": "silverrail",
-     "description": "SilverRail Technologies is a rail technology company that powers global rail ecommerce and distribution. Its platform spans journey planning, ticketing, and onboard information, aiming to transform the rail experience for travelers while making rail retail easier and more profitable for operators, travel agencies, and distributors. SilverRail connects rail carriers and sellers so rail inventory can be searched, booked, and ticketed across markets. The company was surfaced in the API Evangelist network as a portfolio company of Accel and Canaan Partners. As of this enrichment pass SilverRail runs a corporate marketing site (Next.js) but publishes no public developer portal, API reference, OpenAPI specification, SDKs, or /.well-known discovery documents; its API and distribution capabilities appear to be delivered through partner/enterprise integration rather than a self-serve public API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/silverrail/refs/heads/main/screenshots/silverrail-2026-09-02T155515.png",
-     "score": 8.9,
+     "name": "Fairlyne",
+     "slug": "fairlyne",
+     "description": "Fairlyne is a French travel-technology company offering a white-label Resale-as-a-Service platform that lets travel brands turn no-shows and low-yield bookings into new revenue by allowing passengers and guests to resell non-refundable tickets and reservations. Founded in 2021 by former Accor executives Gilles de Richemond and Michael d'Eboli, the platform serves airlines, railway and road-transport operators, and hospitality chains, and powers programs such as SNCF Ouigo's resale experience. Fairlyne raised a 3M EUR seed round from Speedinvest, Kima Ventures, Evolem, and FJ Labs. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Fairlyne. No public developer API or documentation portal has been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fairlyne/refs/heads/main/screenshots/fairlyne-2026-07-25T214152.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -980,6 +987,135 @@
      "rank": 21
     },
     {
+     "name": "Canadian National Railway",
+     "slug": "canadian-national-railway",
+     "description": "Canadian National Railway (CN) is the largest railway network in Canada and one of the largest in North America spanning over 20,000 route miles. CN transports goods across an integrated network linking the Atlantic and Pacific coasts with the Gulf of Mexico. CN offers shipper APIs, EDI integration, the eBusiness portal, and the CN ONE mobile app for shipment tracking, ordering, billing, and rate management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-national-railway/refs/heads/main/screenshots/canadian-national-railway-2026-06-20T173917.png",
+     "score": 10.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
+    },
+    {
+     "name": "Humatics",
+     "slug": "humatics",
+     "description": "Humatics Corporation is a Waltham, Massachusetts microlocation company founded in 2015 by MIT professor David Mindell and led by CEO James Kinsey. It builds radio-frequency positioning systems — ultra-wideband beacons, RF-pulse ranging, radar and inertial sensors fused in software — that locate people, vehicles and robots at centimeter- to millimeter-scale precision. Two product lines are on sale today: MILO, a sub-millimeter positioning system for industrial automation and in-motion robotics, advertised as compatible with Yaskawa, Mitsubishi Electric, FANUC, Universal Robots and KUKA; and Mobility, a rail and transit portfolio covering the FOCUS track-geometry monitoring kit and the Humatics Rail Navigation System (HRNS), used on New York City MTA subway signalling projects. Humatics publishes no developer portal, no API documentation and no machine-readable description of any product API. Two rounds of probing humatics.com returned HTTP 404 for every /.well-known/ path, /llms.txt, /openapi.json, /openapi.yaml, /swagger.json, /api-docs and /graphql; *.humatics.com is a DNS wildcard onto one retired address, so api., docs., developer., portal. and status. resolve but time out on connect. The only machine-readable HTTP interface on any Humatics host is the WordPress REST API of the marketing site itself at humatics.com/wp-json/ — 375 routes across 19 stock core and commercial-plugin namespaces, exposing pages and posts rather than positioning, and so recorded as evidence rather than catalogued as a Humatics API. The GitHub organization github.com/Humatics is real and public, but 31 of its 33 repositories are forks of third-party embedded and robotics open source (Fast-RTPS, Fast-CDR, FreeRTOS, Orange Pi BSP, Yocto meta-layers, EIPScanner, donkeycar); the two non-forks are internal tools. There is no first-party SDK, client library or specification, and no package named humatics exists on npm or PyPI. Marketing material for the earlier KinetIQ OS / Spatial Intelligence Platform referenced an \"extensible API\", but no public interface for it was ever documented, and the news host that carried those announcements (now.humatics.com) no longer answers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/humatics/refs/heads/main/screenshots/humatics-2026-08-07T170400.png",
+     "score": 9.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
+    },
+    {
+     "name": "SilverRail",
+     "slug": "silverrail",
+     "description": "SilverRail Technologies is a rail technology company that powers global rail ecommerce and distribution. Its platform spans journey planning, ticketing, and onboard information, aiming to transform the rail experience for travelers while making rail retail easier and more profitable for operators, travel agencies, and distributors. SilverRail connects rail carriers and sellers so rail inventory can be searched, booked, and ticketed across markets. The company was surfaced in the API Evangelist network as a portfolio company of Accel and Canaan Partners. As of this enrichment pass SilverRail runs a corporate marketing site (Next.js) but publishes no public developer portal, API reference, OpenAPI specification, SDKs, or /.well-known discovery documents; its API and distribution capabilities appear to be delivered through partner/enterprise integration rather than a self-serve public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/silverrail/refs/heads/main/screenshots/silverrail-2026-09-02T155515.png",
+     "score": 8.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-16",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 24
+    },
+    {
      "name": "BT Group",
      "slug": "bt-com",
      "description": "BT Group plc (British Telecommunications) is the United Kingdom's largest fixed-line, broadband, and mobile communications provider, headquartered in London with operations spanning consumer, business, wholesale, and global enterprise markets. The group is organised around three customer-facing brands — BT, EE, and Plusnet — and a wholesale division that sells capacity and access to other communications providers. BT Group operates the UK's largest mobile network (EE), runs fibre and copper access through Openreach (a legally separate group company), and provides networked IT and security services to multinational enterprises and the UK public sector. The group publishes a public developer programme at developer.bt.com that exposes a growing catalogue of REST APIs across two main domains: charging and crediting (Direct Carrier Billing, Crediting, Premium SMS) and digital identity / fraud prevention (SIM Swap, Network Identity, Call Divert Protection), alongside wholesale and operational APIs (Broadband One, Quote Management, Address Management, Appointment Management, Product and Network Availability, HubCo Voice, Global Voice Services, IMEI Lookup, Home Network, Rail Insights, Location Insights for London, and a Travel Journey API Platform). The portal supports sandbox onboarding with Client ID / Client Secret OAuth 2.0 credentials and progression to production under a commercial agreement with an account team. In April 2025 BT announced a federated API management partnership with Kong (Kong Konnect) to consolidate its previously fragmented API estate, strengthen governance, and offer a self-service developer experience across the group.",
@@ -995,7 +1131,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1027,7 +1163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 25
     },
     {
      "name": "CSX Corporation",
@@ -1045,7 +1181,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1070,7 +1206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 26
     },
     {
      "name": "Enviri (formerly Harsco)",
@@ -1088,7 +1224,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1113,7 +1249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 27
     },
     {
      "name": "Kansas City Southern",
@@ -1156,7 +1292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 28
     },
     {
      "name": "Trinity Industries",
@@ -1173,7 +1309,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-15",
+     "scored_at": "2026-09-16",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1198,7 +1334,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 29
     }
    ]
   }

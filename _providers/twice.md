@@ -24,7 +24,7 @@ name: Twice
 nav: Providers
 network: true
 overview: Twice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Marketplace, Fashion, and Resale.
-random_paper: 15
+random_paper: 12
 slug: twice
 tags:
 - Company

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 14
@@ -170,11 +170,6 @@ apis:
   slug: mtn-group-channel-vas-controller-api
 - baseURL: https://api.mtn.com/accountDecisioning/v1
   baseurl_source: declared
-  description: The channelService API from MTN Group — 1 operation(s) for channelservice.
-  name: MTN Group Channel Service API
-  slug: mtn-group-channelservice-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
   description: The Communication API from MTN Group — 4 operation(s) for communication.
   name: MTN Group Communication API
   slug: mtn-group-communication-api
@@ -225,11 +220,6 @@ apis:
   slug: mtn-group-customer-characteristics-api
 - baseURL: https://api.mtn.com/accountDecisioning/v1
   baseurl_source: declared
-  description: The Customer Information API from MTN Group — 1 operation(s) for customer information.
-  name: MTN Group Customer Information API
-  slug: mtn-group-customer-information-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
   description: The Customer KYC API from MTN Group — 7 operation(s) for customer kyc.
   name: MTN Group Customer KYC API
   slug: mtn-group-customer-kyc-api
@@ -243,11 +233,6 @@ apis:
   description: The Customer Promotion API from MTN Group — 3 operation(s) for customer promotion.
   name: MTN Group Customer Promotion API
   slug: mtn-group-customer-promotion-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
-  description: The customerBill API from MTN Group — 2 operation(s) for customerbill.
-  name: MTN Group Customer Bill API
-  slug: mtn-group-customerbill-api
 - baseURL: https://api.mtn.com/accountDecisioning/v1
   baseurl_source: declared
   description: The customerBillOnDemand API from MTN Group — 2 operation(s) for customerbillondemand.
@@ -305,16 +290,6 @@ apis:
   slug: mtn-group-events-subscription-api
 - baseURL: https://api.mtn.com/accountDecisioning/v1
   baseurl_source: declared
-  description: The FinancialAccount API from MTN Group — 4 operation(s) for financialaccount.
-  name: MTN Group Financial Account API
-  slug: mtn-group-financialaccount-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
-  description: The fraudManagement API from MTN Group — 2 operation(s) for fraudmanagement.
-  name: MTN Group Fraud Management API
-  slug: mtn-group-fraudmanagement-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
   description: The GENEYSIS-EEC-TOKENS API from MTN Group — 1 operation(s) for geneysis-eec-tokens.
   name: MTN Group GENEYSIS EEC TOKENS API
   slug: mtn-group-geneysis-eec-tokens-api
@@ -323,11 +298,6 @@ apis:
   description: The Get access token API from MTN Group — 1 operation(s) for get access token.
   name: MTN Group Get access token API
   slug: mtn-group-get-access-token-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
-  description: The getInfo API from MTN Group — 1 operation(s) for getinfo.
-  name: MTN Group Get Info API
-  slug: mtn-group-getinfo-api
 - baseURL: https://api.mtn.com/accountDecisioning/v1
   baseurl_source: declared
   description: The hub API from MTN Group — 2 operation(s) for hub.
@@ -385,11 +355,6 @@ apis:
   slug: mtn-group-member-summary-api
 - baseURL: https://api.mtn.com/accountDecisioning/v1
   baseurl_source: declared
-  description: The Mobile Ads Service API from MTN Group — 1 operation(s) for mobile ads service.
-  name: MTN Group Mobile Ads Service API
-  slug: mtn-group-mobile-ads-service-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
   description: The MoMo API from MTN Group — 1 operation(s) for momo.
   name: MTN Group Mo Mo API
   slug: mtn-group-momo-api
@@ -418,11 +383,6 @@ apis:
   description: The NumberRecycleService API from MTN Group — 1 operation(s) for numberrecycleservice.
   name: MTN Group Number Recycle Service API
   slug: mtn-group-numberrecycleservice-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
-  description: The OrderFulfillment API from MTN Group — 1 operation(s) for orderfulfillment.
-  name: MTN Group Order Fulfillment API
-  slug: mtn-group-orderfulfillment-api
 - baseURL: https://api.mtn.com/accountDecisioning/v1
   baseurl_source: declared
   description: The organization API from MTN Group — 2 operation(s) for organization.
@@ -605,16 +565,6 @@ apis:
   slug: mtn-group-service-api
 - baseURL: https://api.mtn.com/accountDecisioning/v1
   baseurl_source: declared
-  description: The serviceOrder API from MTN Group — 2 operation(s) for serviceorder.
-  name: MTN Group Service Order API
-  slug: mtn-group-serviceorder-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
-  description: The shoppingCart API from MTN Group — 6 operation(s) for shoppingcart.
-  name: MTN Group Shopping Cart API
-  slug: mtn-group-shoppingcart-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
   description: The siebel API from MTN Group — 3 operation(s) for siebel.
   name: MTN Group Siebel API
   slug: mtn-group-siebel-api
@@ -725,11 +675,6 @@ apis:
   slug: mtn-group-urlcreate-api
 - baseURL: https://api.mtn.com/accountDecisioning/v1
   baseurl_source: declared
-  description: The Usage Historical Information API from MTN Group — 1 operation(s) for usage historical information.
-  name: MTN Group Usage Historical Information API
-  slug: mtn-group-usage-historical-information-api
-- baseURL: https://api.mtn.com/accountDecisioning/v1
-  baseurl_source: declared
   description: The Usage Limit Adjust API from MTN Group — 1 operation(s) for usage limit adjust.
   name: MTN Group Usage Limit Adjust API
   slug: mtn-group-usage-limit-adjust-api
@@ -778,7 +723,47 @@ apis:
   description: The Verify a Partner's FInancial Resources API from MTN Group — 1 operation(s) for verify a partner's financial resources.
   name: MTN Group Verify a Partner's FInancial Resources API
   slug: mtn-group-verify-a-partner-s-financial-resources-api
-artifact_total: 260
+- baseURL: https://sandbox.momodeveloper.mtn.com/collection
+  baseurl_source: declared
+  description: The Channel Service API from MTN Group — 1 operation(s) for channel service.
+  name: MTN Group Channel Service API
+  slug: mtn-group-channel-service-api
+- baseURL: https://sandbox.momodeveloper.mtn.com/collection
+  baseurl_source: declared
+  description: The Customer Bill API from MTN Group — 2 operation(s) for customer bill.
+  name: MTN Group Customer Bill API
+  slug: mtn-group-customer-bill-api
+- baseURL: https://sandbox.momodeveloper.mtn.com/collection
+  baseurl_source: declared
+  description: The Financial Account API from MTN Group — 4 operation(s) for financial account.
+  name: MTN Group Financial Account API
+  slug: mtn-group-financial-account-api
+- baseURL: https://sandbox.momodeveloper.mtn.com/collection
+  baseurl_source: declared
+  description: The Fraud Management API from MTN Group — 2 operation(s) for fraud management.
+  name: MTN Group Fraud Management API
+  slug: mtn-group-fraud-management-api
+- baseURL: https://sandbox.momodeveloper.mtn.com/collection
+  baseurl_source: declared
+  description: The Get Info API from MTN Group — 1 operation(s) for get info.
+  name: MTN Group Get Info API
+  slug: mtn-group-get-info-api
+- baseURL: https://sandbox.momodeveloper.mtn.com/collection
+  baseurl_source: declared
+  description: The Order Fulfillment API from MTN Group — 1 operation(s) for order fulfillment.
+  name: MTN Group Order Fulfillment API
+  slug: mtn-group-order-fulfillment-api
+- baseURL: https://sandbox.momodeveloper.mtn.com/collection
+  baseurl_source: declared
+  description: The Service Order API from MTN Group — 2 operation(s) for service order.
+  name: MTN Group Service Order API
+  slug: mtn-group-service-order-api
+- baseURL: https://sandbox.momodeveloper.mtn.com/collection
+  baseurl_source: declared
+  description: The Shopping Cart API from MTN Group — 6 operation(s) for shopping cart.
+  name: MTN Group Shopping Cart API
+  slug: mtn-group-shopping-cart-api
+artifact_total: 257
 asyncapis:
 - description: ''
   name: Mtn Group Webhooks
@@ -1919,7 +1904,7 @@ modified: '2026-07-25'
 name: MTN Group
 nav: Providers
 network: true
-overview: 'MTN Group publishes 144 APIs on the [APIs.io](https://apis.io/) network, including Accessible to 3PP API, Accessible to USSD Gateway API, Activation API, and 141 more. Tagged areas include Telecommunications, South Africa, Africa, Mobile Network Operator, and Network APIs.
+overview: 'MTN Group publishes 141 APIs on the [APIs.io](https://apis.io/) network, including Accessible to 3PP API, Accessible to USSD Gateway API, Activation API, and 138 more. Tagged areas include Telecommunications, South Africa, Africa, Mobile Network Operator, and Network APIs.
 
 
   The MTN Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1934,7 +1919,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 55.6
+  composite: 55.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -1942,11 +1927,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 58.3
+    contract_quality: 59.1
     developer_ergonomics: 66.1
     discoverability: 75.9
     operational_transparency: 18.4
@@ -1960,10 +1945,10 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 91.6
+      callable: 90.7
       derived: 0
       marker_coverage: 0.0
-      total: 144
+      total: 141
     mcp: derived
     skills: derived
   regulatory:
@@ -1973,7 +1958,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - baseURL: https://api.tosspayments.com
   baseurl_source: declared
   description: Confirm, retrieve, and cancel payments.
-  name: Toss Payments Payments API
+  name: Toss Payments API
   slug: toss-payments-payments-api
 - baseURL: https://api.tosspayments.com
   baseurl_source: declared
@@ -167,11 +167,11 @@ finops:
   slug: toss-payments-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toss-payments.png
 layout: provider
-modified: '2026-07-12'
+modified: '2026-09-16'
 name: Toss Payments
 nav: Providers
 network: true
-overview: 'Toss Payments publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Cash Receipts API, Payments API, and 4 more. Tagged areas include Payments, Payment Gateway, South Korea, Cards, and Easy Pay.
+overview: 'Toss Payments publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Cash Receipts API, and 5 more. Tagged areas include Payments, Payment Gateway, South Korea, Cards, and Easy Pay.
 
 
   Toss Payments'' developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -179,7 +179,7 @@ plans:
 - name: Toss Payments Plans Pricing
   plan_count: 3
   slug: toss-payments-plans-pricing
-random_paper: 18
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Toss Payments Rate Limits
@@ -224,7 +224,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -246,7 +246,7 @@ tags:
 - South Korea
 - Cards
 - Easy Pay
-- Virtual Account
+- Virtual Accounts
 - Billing
 - Checkout
 - Fintech

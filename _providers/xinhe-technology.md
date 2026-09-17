@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ plans:
 - name: Xinhe Technology Plans Pricing
   plan_count: 0
   slug: xinhe-technology-plans-pricing
-random_paper: 10
+random_paper: 19
 score:
   band: minimal
   composite: 7.5
@@ -116,7 +116,7 @@ score:
     - greater-china
   previous_composite: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

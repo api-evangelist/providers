@@ -26,12 +26,12 @@ created: '2026-09-05'
 description: 1sm was a New York City revenue-operations (RevOps) analytics startup founded in 2020 by James Weitzman, Chris Lonardo and Jordan Josloff. It raised a $375K pre-seed round announced in July 2020 while in the Techstars NYC 2020 accelerator class, and pitched itself as the first no-code RevOps analytics platform — integrating a company's existing sales and marketing tools into one unified view of buyer personas and ideal customer profiles, with forward-looking analytics predicting which messaging would drive clicks, meetings and closed deals. The product never advanced past a public beta waitlist and no public API, SDK, webhook surface or developer program was ever shipped. As of September 2026 the company's former domain, 1sm.io, is registered to a third party — Nocode ltd of Paphos, Cyprus, the entity behind the Latenode automation platform — which republishes the archived July 2020 marketing page with injected affiliate copy and a "Contact the Domain Owner" footer, so that
   host is deliberately NOT wired as this company's Website pointer.
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: 1sm
 nav: Providers
 network: true
 overview: 1sm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Revenue Operations, Sales, and Marketing.
-random_paper: 0
+random_paper: 9
 slug: 1sm
 tags:
 - Company
@@ -41,4 +41,5 @@ tags:
 - Marketing
 - Business Intelligence
 - Software-as-a-Service
+- Defunct
 ---

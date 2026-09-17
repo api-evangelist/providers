@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -57,11 +57,6 @@ apis:
   slug: segments-ai-labels-api
 - baseURL: https://api.segments.ai
   baseurl_source: declared
-  description: The Labelsets API from Segments.ai — 2 operation(s) for labelsets.
-  name: Segments.ai Labelsets API
-  slug: segments-ai-labelsets-api
-- baseURL: https://api.segments.ai
-  baseurl_source: declared
   description: The Releases API from Segments.ai — 2 operation(s) for releases.
   name: Segments.ai Releases API
   slug: segments-ai-releases-api
@@ -70,6 +65,11 @@ apis:
   description: The Samples API from Segments.ai — 2 operation(s) for samples.
   name: Segments.ai Samples API
   slug: segments-ai-samples-api
+- baseURL: https://api.segments.ai
+  baseurl_source: declared
+  description: The Label Sets API from Segments.ai — 2 operation(s) for label sets.
+  name: Segments.ai Label Sets API
+  slug: segments-ai-label-sets-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -156,7 +156,7 @@ modified: '2026-06-21'
 name: Segments.ai
 nav: Providers
 network: true
-overview: 'Segments.ai publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Labels API, Labelsets API, and 2 more. Tagged areas include Data Labeling, Computer-Vision, Point Cloud, Annotation, and Machine-Learning.
+overview: 'Segments.ai publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Labels API, Releases API, and 2 more. Tagged areas include Data Labeling, Computer-Vision, Point Cloud, Annotation, and Machine-Learning.
 
 
   Segments.ai''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -164,7 +164,7 @@ plans:
 - name: Segments Ai Plans Pricing
   plan_count: 3
   slug: segments-ai-plans-pricing
-random_paper: 4
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Segments Ai Rate Limits
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

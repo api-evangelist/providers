@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 0
@@ -277,11 +277,6 @@ apis:
   slug: phrase-spaces-api
 - baseURL: https://api.phrase.com/v2
   baseurl_source: declared
-  description: The Style guides API from Phrase — 2 operation(s) for style guides.
-  name: Phrase Style guides API
-  slug: phrase-style-guides-api
-- baseURL: https://api.phrase.com/v2
-  baseurl_source: declared
   description: The Tags API from Phrase — 2 operation(s) for tags.
   name: Phrase Tags API
   slug: phrase-tags-api
@@ -330,6 +325,11 @@ apis:
   description: The Webhooks API from Phrase — 3 operation(s) for webhooks.
   name: Phrase Webhooks API
   slug: phrase-webhooks-api
+- baseURL: https://api.phrase.com/v2
+  baseurl_source: declared
+  description: The Styleguides API from Phrase — 2 operation(s) for styleguides.
+  name: Phrase Styleguides API
+  slug: phrase-styleguides-api
 artifact_total: 122
 collections:
 - collection_type: open
@@ -595,28 +595,28 @@ plans:
 - name: Phrase Plans Pricing
   plan_count: 3
   slug: phrase-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Phrase Rate Limits
   slug: phrase-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 37.4
   coverage:
     artifact_dirs: 12
-    catalog_earned: 33.0
+    catalog_earned: 43.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 82.0
+    catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 32.9
     contract_governance: 0.0
-    contract_quality: 63.5
+    contract_quality: 63.4
     developer_ergonomics: 31.0
-    discoverability: 51.9
+    discoverability: 70.4
     operational_transparency: 10.5
   previous_composite: 35.6
   provenance:
@@ -627,7 +627,7 @@ score:
       marker_coverage: 0.0
       total: 57
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

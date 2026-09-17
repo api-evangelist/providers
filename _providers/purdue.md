@@ -25,27 +25,17 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 23.0
-  scored_at: '2026-09-15'
+  score: 20.5
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://www.rcac.purdue.edu/api
-  baseurl_source: declared
-  description: The Rosen Center for Advanced Computing publishes its own OpenAPI 3.0.0 description at www.rcac.purdue.edu/api - 206 paths and 452 operations covering research computing groups and their members, depa
-  name: Purdue RCAC API
-  slug: purdue-rcac-api
-- baseURL: https://api.hfs.purdue.edu/menus/v2
-  baseurl_source: declared
-  description: A public, keyless HTTP API operated by Purdue University Housing and Food Services at api.hfs.purdue.edu, serving dining-court locations, published daily menus by location and date, and per-item nutri
-  name: Purdue HFS Dining Menus API
-  slug: purdue-hfs-dining-menus-api
 - description: The Purdue University Research Repository exposes an OAI-PMH 2.0 endpoint for harvesting research dataset metadata, supporting the standard verbs (Identify, ListSets, ListMetadataFormats, ListIdentifi
   name: PURR OAI-PMH Metadata API
   slug: purr-oaipmh
@@ -61,7 +51,172 @@ apis:
 - description: Purdue.io is an OData v4 API over Purdue's course catalog, started in 2015 as a Computer Science senior design project and still maintained by its community. It is genuinely useful and genuinely about
   name: Purdue.io Course Catalog API (community-built, third-party)
   slug: purdueio-course-catalog-api
-artifact_total: 17
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Allocations API from Purdue University — 3 operation(s) for allocations.
+  name: Purdue University Allocations API
+  slug: purdue-allocations-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Contactreports API from Purdue University — 11 operation(s) for contactreports.
+  name: Purdue University Contactreports API
+  slug: purdue-contactreports-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Courses API from Purdue University — 7 operation(s) for courses.
+  name: Purdue University Courses API
+  slug: purdue-courses-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Finder API from Purdue University — 10 operation(s) for finder.
+  name: Purdue University Finder API
+  slug: purdue-finder-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Groups API from Purdue University — 14 operation(s) for groups.
+  name: Purdue University Groups API
+  slug: purdue-groups-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The History API from Purdue University — 2 operation(s) for history.
+  name: Purdue University History API
+  slug: purdue-history-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Impact API from Purdue University — 6 operation(s) for impact.
+  name: Purdue University Impact API
+  slug: purdue-impact-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Issues API from Purdue University — 6 operation(s) for issues.
+  name: Purdue University Issues API
+  slug: purdue-issues-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: Nutrition and allergen detail for a single menu item.
+  name: Purdue University Items API
+  slug: purdue-items-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Knowledge API from Purdue University — 7 operation(s) for knowledge.
+  name: Purdue University Knowledge API
+  slug: purdue-knowledge-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Listeners API from Purdue University — 2 operation(s) for listeners.
+  name: Purdue University Listeners API
+  slug: purdue-listeners-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: Dining courts, quick-bite and on-the-go retail locations.
+  name: Purdue University Locations API
+  slug: purdue-locations-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Logs API from Purdue University — 2 operation(s) for logs.
+  name: Purdue University Logs API
+  slug: purdue-logs-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Mail API from Purdue University — 1 operation(s) for mail.
+  name: Purdue University Mail API
+  slug: purdue-mail-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Mailer API from Purdue University — 2 operation(s) for mailer.
+  name: Purdue University Mailer API
+  slug: purdue-mailer-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Media API from Purdue University — 11 operation(s) for media.
+  name: Purdue University Media API
+  slug: purdue-media-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Menus API from Purdue University — 6 operation(s) for menus.
+  name: Purdue University Menus API
+  slug: purdue-menus-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Messages API from Purdue University — 4 operation(s) for messages.
+  name: Purdue University Messages API
+  slug: purdue-messages-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The News API from Purdue University — 12 operation(s) for news.
+  name: Purdue University News API
+  slug: purdue-news-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Orders API from Purdue University — 15 operation(s) for orders.
+  name: Purdue University Orders API
+  slug: purdue-orders-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Pages API from Purdue University — 2 operation(s) for pages.
+  name: Purdue University Pages API
+  slug: purdue-pages-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Publications API from Purdue University — 4 operation(s) for publications.
+  name: Purdue University Publications API
+  slug: purdue-publications-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Queues API from Purdue University — 22 operation(s) for queues.
+  name: Purdue University Queues API
+  slug: purdue-queues-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The RCAC API API from Purdue University — 1 operation(s) for rcac api.
+  name: Purdue University RCAC API
+  slug: purdue-rcac-api-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Resources API from Purdue University — 11 operation(s) for resources.
+  name: Purdue University Resources API
+  slug: purdue-resources-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Search API from Purdue University — 1 operation(s) for search.
+  name: Purdue University Search API
+  slug: purdue-search-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Software API from Purdue University — 4 operation(s) for software.
+  name: Purdue University Software API
+  slug: purdue-software-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Storage API from Purdue University — 16 operation(s) for storage.
+  name: Purdue University Storage API
+  slug: purdue-storage-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Tags API from Purdue University — 2 operation(s) for tags.
+  name: Purdue University Tags API
+  slug: purdue-tags-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Themes API from Purdue University — 2 operation(s) for themes.
+  name: Purdue University Themes API
+  slug: purdue-themes-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Unixgroups API from Purdue University — 4 operation(s) for unixgroups.
+  name: Purdue University Unixgroups API
+  slug: purdue-unixgroups-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Users API from Purdue University — 15 operation(s) for users.
+  name: Purdue University Users API
+  slug: purdue-users-api
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Widgets API from Purdue University — 2 operation(s) for widgets.
+  name: Purdue University Widgets API
+  slug: purdue-widgets-api
+artifact_total: 48
 common:
 - group: company
   title: ''
@@ -205,7 +360,7 @@ modified: '2026-08-30'
 name: Purdue University
 nav: Providers
 network: true
-overview: 'Purdue University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Purdue RCAC API and Purdue HFS Dining Menus API. Tagged areas include University, Higher Education, Education, United States, and Indiana.
+overview: 'Purdue University publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Contactreports API, Courses API, and 30 more. Tagged areas include University, Higher Education, Education, United States, and Indiana.
 
 
   The Purdue University catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -216,7 +371,7 @@ plans:
 - name: Purdue Plans Pricing
   plan_count: 2
   slug: purdue-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Purdue Rate Limits
@@ -235,21 +390,21 @@ rules:
   slug: purdue-openapi-spectral-rules
 score:
   band: developing
-  composite: 47.7
+  composite: 51.6
   coverage:
     artifact_dirs: 15
-    catalog_earned: 85.3
+    catalog_earned: 82.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 29.8
+    catalog_gap: 32.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.9
   facets:
     access_clarity: 50.0
     contract_governance: 58.3
-    contract_quality: 41.8
+    contract_quality: 59.3
     developer_ergonomics: 35.7
-    discoverability: 68.5
+    discoverability: 63.0
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -263,9 +418,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
-      marker_coverage: 100.0
-      total: 2
+      derived: 2
+      marker_coverage: 6.1
+      total: 33
   regulatory:
     applies: true
     matched_via: tags
@@ -273,7 +428,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

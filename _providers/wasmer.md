@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,9 +50,9 @@ apis:
   slug: wasmer-cli
 - baseURL: https://registry.wasmer.io/graphql
   baseurl_source: declared
-  description: The GraphQL API from Wasmer — 1 operation(s) for graphql.
-  name: Wasmer GraphQL API
-  slug: wasmer-graphql-api
+  description: The Graph QL API from Wasmer — 1 operation(s) for graph ql.
+  name: Wasmer Graph QL API
+  slug: wasmer-graph-ql-api
 artifact_total: 13
 collections:
 - collection_type: open
@@ -136,7 +136,7 @@ modified: '2026-06-20'
 name: Wasmer
 nav: Providers
 network: true
-overview: 'Wasmer publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include WebAssembly, Wasm, Registry, Edge, and Runtime.
+overview: 'Wasmer publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include WebAssembly, Wasm, Registry, Edge, and Runtime.
 
 
   Wasmer''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -144,7 +144,7 @@ plans:
 - name: Wasmer Plans Pricing
   plan_count: 3
   slug: wasmer-plans-pricing
-random_paper: 4
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Wasmer Rate Limits
@@ -176,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

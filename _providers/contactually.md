@@ -29,7 +29,7 @@ name: Contactually
 nav: Providers
 network: true
 overview: Contactually is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Real-Estate, Contact Management, and Relationships.
-random_paper: 18
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/contactually/refs/heads/main/screenshots/contactually-2026-07-25T210315.png
 security:
 - kind: domain-security

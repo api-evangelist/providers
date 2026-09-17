@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Adaptive Shield REST API v1 provides programmatic access to SaaS security posture data including alerts, user and device inventory, integration configurations, security check results, violations, '
@@ -185,7 +185,7 @@ plans:
 - name: Adaptive Shield Plans Pricing
   plan_count: 0
   slug: adaptive-shield-plans-pricing
-random_paper: 12
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Adaptive Shield Rate Limits
@@ -213,7 +213,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

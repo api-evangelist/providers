@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The You.com Search API returns real-time web search results tailored for AI agents and LLMs, with controls for freshness, category, and result shape.
@@ -112,7 +112,7 @@ modified: '2026-05-23'
 name: You.com
 nav: Providers
 network: true
-overview: 'You.com publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Search, AI Search, LLMs, AI Agents, and Research.
+overview: 'You.com publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Search, AI Search, LLM, AI Agents, and Research.
 
 
   You.com''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
@@ -120,7 +120,7 @@ plans:
 - name: You Com Plans Pricing
   plan_count: 1
   slug: you-com-plans-pricing
-random_paper: 20
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: You Com Rate Limits
@@ -147,7 +147,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -166,7 +166,7 @@ slug: you-com
 tags:
 - Search
 - AI Search
-- LLMs
+- LLM
 - AI Agents
 - Research
 - News

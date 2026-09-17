@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: RYSE's Universal Commerce Protocol (UCP) shopping service, exposed over MCP at https://www.helloryse.com/api/ucp/mcp. Anonymous tools/list returns 13 tools with full JSON Schema input contracts coveri
@@ -192,7 +192,7 @@ plans:
 - name: Ryse Plans Pricing
   plan_count: 0
   slug: ryse-plans-pricing
-random_paper: 10
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Ryse Rate Limits
@@ -226,7 +226,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

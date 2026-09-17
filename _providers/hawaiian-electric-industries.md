@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The public Esri ArcGIS Online feature-service catalog Hawaiian Electric serves under tenant gfBpz2hbsVDgru6D. Twenty-three FeatureServers are shared publicly and answer anonymous queries: the External'
@@ -135,7 +135,7 @@ press:
 - date: '2026-05-25'
   title: 'Wall Street Recap: Can Hawaiian Electric Industries Inc. (HWI) stock ...'
   url: https://www.fitnessatfive.com/ati-del/258/Can-Hawaiian-Electric-Industries-Inc.-(HWI)-stock-sustain-institutional-flows
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Hawaiian Electric Industries Rate Limits
@@ -168,7 +168,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

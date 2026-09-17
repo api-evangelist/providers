@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -282,6 +282,10 @@ collections:
   name: Facebook Graph Ad Accounts Users API
   slug: open-facebook-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://facebook.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -677,7 +681,7 @@ jsonld:
   property_count: 14
   slug: facebook-marketing-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Facebook
 nav: Providers
 network: true
@@ -687,7 +691,7 @@ overview: 'Facebook publishes 21 APIs on the [APIs.io](https://apis.io/) network
   The Facebook catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Facebook''s developer surface includes authentication, developer portal, getting-started guide, changelog, engineering blog, support, FAQ, and 14 more developer resources.'
+  Facebook''s developer surface includes authentication, developer portal, getting-started guide, changelog, engineering blog, support, FAQ, and 15 more developer resources.'
 plans:
 - name: Facebook Plans Pricing
   plan_count: 4
@@ -708,7 +712,7 @@ press:
 - date: '2026-05-25'
   title: 'Introducing the Meta AI App: A New Way to Access Your AI ...'
   url: https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/
-random_paper: 7
+random_paper: 12
 rate_limits:
 - limit_count: 12
   name: Facebook Rate Limits
@@ -762,7 +766,7 @@ score:
       marker_coverage: 100.0
       total: 27
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -802,5 +806,5 @@ use_cases:
   name: Analytics and Insights
 - description: Integrate product catalogs and shopping experiences with Facebook and Instagram shops.
   name: E-Commerce Integration
-website: https://developers.facebook.com
+website: https://facebook.com
 ---

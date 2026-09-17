@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - description: Desktop browser for macOS and Windows, organized around Spaces, Profiles, Tabs, Split View, and Themes. Built on Chromium.
@@ -112,7 +112,7 @@ plans:
 - name: Arc Browser Plans Pricing
   plan_count: 1
   slug: arc-browser-plans-pricing
-random_paper: 14
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Arc Browser Rate Limits
@@ -137,7 +137,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

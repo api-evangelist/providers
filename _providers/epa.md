@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -368,11 +368,6 @@ apis:
   slug: epa-glossary-api
 - baseURL: https://aqs.epa.gov/data/api
   baseurl_source: declared
-  description: GraphQL endpoint for complex queries beyond REST capabilities.
-  name: EPA — U.S. Environmental Protection Agency GraphQL API
-  slug: epa-graphql-api
-- baseURL: https://aqs.epa.gov/data/api
-  baseurl_source: declared
   description: The Health API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for health.
   name: EPA — U.S. Environmental Protection Agency Health API
   slug: epa-health-api
@@ -451,11 +446,6 @@ apis:
   description: The MATS Methods API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for mats methods.
   name: EPA — U.S. Environmental Protection Agency MATS Methods API
   slug: epa-mats-methods-api
-- baseURL: https://aqs.epa.gov/data/api
-  baseurl_source: declared
-  description: API availability, change history, field definitions, known issues.
-  name: EPA — U.S. Environmental Protection Agency Meta Data API
-  slug: epa-meta-data-api
 - baseURL: https://aqs.epa.gov/data/api
   baseurl_source: declared
   description: The Metadata API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for metadata.
@@ -593,11 +583,6 @@ apis:
   slug: epa-sample-data-api
 - baseURL: https://aqs.epa.gov/data/api
   baseurl_source: declared
-  description: Account registration.
-  name: EPA — U.S. Environmental Protection Agency Sign Up API
-  slug: epa-sign-up-api
-- baseURL: https://aqs.epa.gov/data/api
-  baseurl_source: declared
   description: The Spans API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for spans.
   name: EPA — U.S. Environmental Protection Agency Spans API
   slug: epa-spans-api
@@ -711,7 +696,17 @@ apis:
   description: UV index hourly and daily forecast endpoints.
   name: EPA — U.S. Environmental Protection Agency UV Index API
   slug: epa-uv-index-api
-artifact_total: 2291
+- baseURL: https://frsqueryprd-api.epa.gov/facilityiptqueryprd
+  baseurl_source: declared
+  description: GraphQL endpoint for complex queries beyond REST capabilities.
+  name: EPA — U.S. Environmental Protection Agency Graph QL API
+  slug: epa-graph-ql-api
+- baseURL: https://frsqueryprd-api.epa.gov/facilityiptqueryprd
+  baseurl_source: declared
+  description: Account registration.
+  name: EPA — U.S. Environmental Protection Agency Signup API
+  slug: epa-signup-api
+artifact_total: 2290
 collections:
 - collection_type: postman
   name: EPA Air Quality System (AQS) Account Type Codes API
@@ -7352,7 +7347,7 @@ modified: '2026-05-29'
 name: EPA — U.S. Environmental Protection Agency
 nav: Providers
 network: true
-overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on the [APIs.io](https://apis.io/) network, including Account Type Codes API, Accounts API, Air Emission Testing API, and 125 more. Tagged areas include Government, Environmental, Open Data, Air Quality, and Water Quality.
+overview: 'EPA — U.S. Environmental Protection Agency publishes 127 APIs on the [APIs.io](https://apis.io/) network, including Account Type Codes API, Accounts API, Air Emission Testing API, and 124 more. Tagged areas include Government, Environmental, Open Data, Air Quality, and Water Quality.
 
 
   The EPA — U.S. Environmental Protection Agency catalog on APIs.io includes 23 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -7363,7 +7358,7 @@ plans:
 - name: Epa Plans Pricing
   plan_count: 0
   slug: epa-plans-pricing
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 11
   name: Epa Rate Limits
@@ -7392,7 +7387,7 @@ rules:
   slug: epa-rules
 score:
   band: strong
-  composite: 65.2
+  composite: 66.0
   coverage:
     artifact_dirs: 28
     catalog_earned: 82.5
@@ -7400,11 +7395,11 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 50.0
     contract_governance: 33.3
-    contract_quality: 68.0
+    contract_quality: 71.0
     developer_ergonomics: 83.9
     discoverability: 75.9
     operational_transparency: 42.1
@@ -7416,7 +7411,7 @@ score:
       callable: 94.4
       derived: 0
       marker_coverage: 0.0
-      total: 128
+      total: 127
     skills: derived
   regulatory:
     applies: true
@@ -7425,7 +7420,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

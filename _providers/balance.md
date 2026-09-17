@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Balance's v2 REST API for B2B payments, net-terms financing, invoicing, and accounts-receivable automation. Reference documentation is hosted on a password-gated ReadMe.io portal (access requested via
@@ -140,7 +140,7 @@ overview: 'Balance publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Balance''s developer surface includes documentation, engineering blog, support, signup flow, changelog, and 14 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: thin
   composite: 35.1
@@ -170,7 +170,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -44,7 +44,7 @@ name: Metacrine
 nav: Providers
 network: true
 overview: Metacrine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Biotechnology, Pharmaceuticals, and Life Sciences.
-random_paper: 7
+random_paper: 6
 slug: metacrine
 tags:
 - Company

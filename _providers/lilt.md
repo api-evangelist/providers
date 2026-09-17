@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 51.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.lilt.com
@@ -329,7 +329,7 @@ overview: 'Lilt publishes 13 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lilt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 17
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Lilt Rate Limits
@@ -368,7 +368,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

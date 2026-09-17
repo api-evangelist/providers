@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -99,7 +99,7 @@ modified: '2026-08-13'
 name: PUBLY
 nav: Providers
 network: true
-overview: 'PUBLY is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Content, Media, Career, and Membership.
+overview: 'PUBLY is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Content, Media, Careers, and Membership.
 
 
   PUBLY''s developer surface includes support, pricing, signup flow, and 6 more developer resources.'
@@ -107,7 +107,7 @@ plans:
 - name: Publy Plans Pricing
   plan_count: 2
   slug: publy-plans-pricing
-random_paper: 10
+random_paper: 6
 score:
   band: emerging
   composite: 19.9
@@ -135,7 +135,7 @@ score:
     - japan-korea
   previous_composite: 19.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -152,11 +152,11 @@ tags:
 - Company
 - Content
 - Media
-- Career
+- Careers
 - Membership
 - Subscription
-- Newsletter
+- Newsletters
 - Professional Development
-- Korea
+- South Korea
 website: https://publy.co
 ---

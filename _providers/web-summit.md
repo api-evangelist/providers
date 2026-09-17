@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Web Summit attendee platform provides conference scheduling, attendee discovery, and networking capabilities through the Web Summit mobile app and web portal. Attendees can browse sessions, discov
@@ -141,7 +141,7 @@ modified: '2026-05-19'
 name: Web Summit
 nav: Providers
 network: true
-overview: 'Web Summit publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conference, Event, Networking, and Technology.
+overview: 'Web Summit publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Conferences, Event, Networking, and Technology.
 
 
   Web Summit''s developer surface includes documentation, pricing, engineering blog, support, YouTube channel, and 10 more developer resources.'
@@ -149,7 +149,7 @@ plans:
 - name: Web Summit Plans Pricing
   plan_count: 3
   slug: web-summit-plans-pricing
-random_paper: 5
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Web Summit Rate Limits
@@ -174,7 +174,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -188,7 +188,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: web-summit
 tags:
-- Conference
+- Conferences
 - Event
 - Networking
 - Technology

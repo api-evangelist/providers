@@ -23,20 +23,65 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://portal.zeronetworks.com/api/v1
   baseurl_source: declared
-  description: 'The Zero Networks platform REST API, exposing the segmentation and identity control surface of the Zero Networks console: assets and asset protection state, inbound and outbound segmentation rules, MF'
-  name: Zero Networks Platform API
-  slug: zero-networks-platform
-artifact_total: 6
+  description: API calls related to AE Exclusions.
+  name: Zero Networks AE Exclusions API
+  slug: zero-networks-ae-exclusions-api
+- baseURL: https://portal.zeronetworks.com/api/v1
+  baseurl_source: declared
+  description: API calls related to Assets.
+  name: Zero Networks Assets API
+  slug: zero-networks-assets-api
+- baseURL: https://portal.zeronetworks.com/api/v1
+  baseurl_source: declared
+  description: API calls related to Custom Groups.
+  name: Zero Networks Groups Custom API
+  slug: zero-networks-groups-custom-api
+- baseURL: https://portal.zeronetworks.com/api/v1
+  baseurl_source: declared
+  description: The Internal Access Policy API from Zero Networks — 2 operation(s) for internal access policy.
+  name: Zero Networks Internal Access Policy API
+  slug: zero-networks-internal-access-policy-api
+- baseURL: https://portal.zeronetworks.com/api/v1
+  baseurl_source: declared
+  description: API calls related to Inbound MFA policies.
+  name: Zero Networks MFA Inbound API
+  slug: zero-networks-mfa-inbound-api
+- baseURL: https://portal.zeronetworks.com/api/v1
+  baseurl_source: declared
+  description: API calls related to Outbound MFA policies.
+  name: Zero Networks MFA Outbound API
+  slug: zero-networks-mfa-outbound-api
+- baseURL: https://portal.zeronetworks.com/api/v1
+  baseurl_source: declared
+  description: API calls related to Inbound rules.
+  name: Zero Networks Rules Inbound API
+  slug: zero-networks-rules-inbound-api
+- baseURL: https://portal.zeronetworks.com/api/v1
+  baseurl_source: declared
+  description: API calls related to Outbound rules.
+  name: Zero Networks Rules Outbound API
+  slug: zero-networks-rules-outbound-api
+- baseURL: https://portal.zeronetworks.com/api/v1
+  baseurl_source: declared
+  description: API calls related to RPC Rules
+  name: Zero Networks Rules RPC API
+  slug: zero-networks-rules-rpc-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Zero Networks Webhooks
   slug: zero-networks-webhooks
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/overlays/zero-networks-platform-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/zero-networks-platform-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/zero-networks/refs/heads/main/security/zero-networks-domain-security.yml
   title: ''
@@ -146,13 +191,13 @@ modified: '2026-09-05'
 name: Zero Networks
 nav: Providers
 network: true
-overview: 'Zero Networks publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Security, Network Security, Microsegmentation, Zero Trust, and Identity.
+overview: 'Zero Networks publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AE Exclusions API, Assets API, Groups Custom API, and 6 more. Tagged areas include Security, Network Security, Microsegmentation, Zero Trust, and Identity.
 
 
   The Zero Networks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zero Networks'' developer surface includes support, engineering blog, signup flow, and 19 more developer resources.'
+  Zero Networks'' developer surface includes support, engineering blog, signup flow, and 20 more developer resources.'
 plans:
 - name: Zero Networks Plans Pricing
   plan_count: 0
@@ -164,7 +209,7 @@ rate_limits:
   slug: zero-networks-rate-limits
 score:
   band: developing
-  composite: 44.9
+  composite: 44.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -172,11 +217,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 65.8
+    contract_quality: 65.5
     developer_ergonomics: 37.5
     discoverability: 75.9
     operational_transparency: 26.3
@@ -187,11 +232,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 9
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

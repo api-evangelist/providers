@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 60.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 72
   slug: convertkit-agentic-access
   summary_line: 72 operations · 39 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.kit.com/v4
   baseurl_source: declared
@@ -122,7 +122,7 @@ apis:
   baseurl_source: declared
   description: Account, creator profile, and account-level statistics
   name: Kit Account API
-  slug: kit-account-api
+  slug: convertkit-account-api
 artifact_total: 217
 asyncapis:
 - description: ''
@@ -764,6 +764,10 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/context.json
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:help@kit.com
 created: '2026-06-13'
 description: Kit (formerly ConvertKit) is a creator email marketing platform whose REST API v4 covers subscribers, tags, custom fields, forms and landing pages, sequences, broadcasts, snippets, posts, purchases, segments and webhooks across 72 operations on https://api.kit.com/v4. It authenticates with an X-Kit-Api-Key header for personal automation or OAuth 2.0 (PKCE, dynamic client registration, rotating single-use refresh tokens) for apps published to the Kit App Store, and uses cursor-based pagination, an OAuth-only bulk namespace with async callbacks, and eventually-consistent list reads. Kit also runs two remote MCP servers - an OAuth-gated one that acts on a creator's account and an anonymous read-only documentation server - publishes an A2A agent card and an Agent Skill from its developer docs host, and ships llms.txt. Its only first-party API client is a PHP SDK.
 examples:
@@ -1308,12 +1312,12 @@ overview: 'Kit publishes 15 APIs on the [APIs.io](https://apis.io/) network, inc
   The Kit catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
-  Kit''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 114 more developer resources.'
+  Kit''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 115 more developer resources.'
 plans:
 - name: Convertkit Plans Pricing
   plan_count: 3
   slug: convertkit-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Convertkit Rate Limits
@@ -1336,7 +1340,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 82.8
+  composite: 84.1
   coverage:
     artifact_dirs: 32
     catalog_earned: 72.3
@@ -1344,11 +1348,11 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 100.0
     contract_governance: 43.2
-    contract_quality: 66.9
+    contract_quality: 72.1
     developer_ergonomics: 71.4
     discoverability: 75.9
     operational_transparency: 92.1
@@ -1370,7 +1374,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1402,7 +1406,7 @@ tags:
 - Newsletters
 - Sequences
 - Forms
-- Broadcasts
+- Broadcast
 - Webhook
 - MCP
 - Agents

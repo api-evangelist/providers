@@ -19,7 +19,7 @@ name: Zerigo
 nav: Providers
 network: true
 overview: Zerigo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 5
+random_paper: 18
 slug: zerigo
 tags:
 - Company

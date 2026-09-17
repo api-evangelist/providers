@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 12
 common:
@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: Westlake Chemical Partners LP Announces First Quarter 2026 ...
   url: https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-5-5-westlake-chemical-partners-lp-announces-first-quarter-2026-results
-random_paper: 9
+random_paper: 15
 score:
   band: emerging
   composite: 11.6
@@ -134,7 +134,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

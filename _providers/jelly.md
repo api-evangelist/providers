@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Jelly's GraphQL API for costing and kitchen management. Single POST endpoint at api.getjelly.co.uk with bearer-token auth and public introspection; exposes kitchens, ingredients, recipes, dishes, menu
@@ -155,7 +155,7 @@ overview: 'Jelly publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Jelly''s developer surface includes documentation, pricing, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 19
+random_paper: 16
 score:
   band: thin
   composite: 32.0
@@ -180,7 +180,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

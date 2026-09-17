@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,10 +95,10 @@ common:
   type: WellKnown
   url: well-known/liquid-death-well-known.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/openapi/liquid-death-storefront-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/openapi/_original/liquid-death-storefront-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/liquid-death-storefront-openapi.yml
+  url: openapi/_original/liquid-death-storefront-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/overlays/liquid-death-storefront-overlay.yaml
   title: ''
@@ -230,7 +230,7 @@ mcp_servers:
 - description: ''
   name: Liquid Death MCP Server
   slug: liquid-death-mcp-server
-modified: '2026-08-01'
+modified: '2026-09-16'
 name: Liquid Death
 nav: Providers
 network: true
@@ -238,7 +238,7 @@ overview: 'Liquid Death publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Liquid Death''s developer surface includes documentation, getting-started guide, authentication, FAQ, support, engineering blog, and 28 more developer resources.'
-random_paper: 14
+random_paper: 1
 scopes:
 - name: Liquid Death Scopes
   scope_count: 4
@@ -274,7 +274,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

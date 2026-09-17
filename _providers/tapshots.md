@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -60,8 +60,8 @@ modified: '2026-07-21'
 name: Tapshots
 nav: Providers
 network: true
-overview: Tapshots is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Mobile, Video Capture, and Survey.
-random_paper: 4
+overview: Tapshots is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Mobile, Video Capture, and Surveys.
+random_paper: 6
 score:
   band: minimal
   composite: 5.0
@@ -88,7 +88,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -100,7 +100,7 @@ tags:
 - Video
 - Mobile
 - Video Capture
-- Survey
+- Surveys
 - Market Research
 - Video Production
 website: https://videokits.com

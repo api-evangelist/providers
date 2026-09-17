@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -112,8 +112,29 @@ apis:
 - baseURL: https://graph.microsoft.com
   baseurl_source: declared
   description: The Directory Roles API from Microsoft Active Directory — 2 operation(s) for directory roles.
-  name: Microsoft Active Directory Directory Roles API
+  name: Microsoft Active Directory Roles API
   slug: microsoft-active-directory-directory-roles-api
+- description: Authentication library for Azure AD (being replaced by MSAL).
+  name: Azure AD Authentication Library (ADAL)
+  slug: azure-ad-authentication-library-adal
+- description: Modern authentication library for Microsoft identity platform.
+  name: Microsoft Authentication Library (MSAL)
+  slug: microsoft-authentication-library-msal
+- description: 'The Microsoft identity platform provides authentication and authorization services using standards-compliant implementations of OAuth 2.0 and OpenID Connect, enabling developers to build applications '
+  name: Microsoft Identity Platform
+  slug: microsoft-identity-platform
+- description: Microsoft Entra Verified ID is a managed verifiable credentials service that enables organizations to issue, manage, and verify decentralized identity credentials based on W3C standards.
+  name: Microsoft Entra Verified ID API
+  slug: microsoft-entra-verified-id-api
+- description: Microsoft Entra ID Governance APIs in Microsoft Graph enable automated access reviews, entitlement management, lifecycle workflows, and privileged identity management for identity governance scenarios
+  name: Microsoft Entra ID Governance API
+  slug: microsoft-entra-id-governance-api
+- description: Microsoft Entra ID supports SCIM 2.0 protocol for automatic user and group provisioning to cloud applications, enabling automated identity lifecycle management through standardized REST APIs.
+  name: Microsoft Entra SCIM Provisioning API
+  slug: microsoft-entra-scim-provisioning-api
+- description: The Microsoft Entra PowerShell module provides cmdlets for managing Microsoft Entra resources programmatically, built on the Microsoft Graph PowerShell SDK.
+  name: Microsoft Entra PowerShell
+  slug: microsoft-entra-powershell
 arazzos:
 - description: Resolve a user by UPN, read their full profile, then list their group memberships and manager.
   name: Active Directory Audit User Group Memberships
@@ -154,7 +175,7 @@ arazzos:
 - description: Resolve an application by name, read it, then patch its web redirect URIs and description.
   name: Active Directory Update Application Redirect URIs
   slug: active-directory-update-application-redirect-uris-workflow
-artifact_total: 88
+artifact_total: 95
 collections:
 - collection_type: postman
   name: Microsoft Graph Applications and Service Principals API
@@ -473,7 +494,7 @@ jsonld:
   property_count: 69
   slug: active-directory-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Microsoft Active Directory
 nav: Providers
 network: true
@@ -488,7 +509,7 @@ plans:
 - name: Active Directory Plans Pricing
   plan_count: 8
   slug: active-directory-plans-pricing
-random_paper: 3
+random_paper: 12
 rate_limits:
 - limit_count: 7
   name: Active Directory Rate Limits
@@ -521,22 +542,22 @@ scopes:
   slug: active-directory-scopes
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 56.5
+  band: developing
+  composite: 53.4
   coverage:
     artifact_dirs: 19
-    catalog_earned: 71.5
+    catalog_earned: 53.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.5
+    catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.1
   facets:
     access_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 76.4
+    contract_quality: 70.0
     developer_ergonomics: 72.6
-    discoverability: 72.2
+    discoverability: 57.4
     operational_transparency: 26.3
   previous_composite: 56.5
   provenance:
@@ -547,7 +568,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

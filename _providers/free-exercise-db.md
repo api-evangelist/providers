@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Read-only, unauthenticated dataset surface. The provider's own README documents consumption as an HTTPS GET of the combined exercises.json array (873 records) or of a single exercise document, with im
@@ -147,7 +147,7 @@ plans:
 - name: Free Exercise Db Plans Pricing
   plan_count: 0
   slug: free-exercise-db-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Free Exercise Db Rate Limits
@@ -181,7 +181,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -201,7 +201,7 @@ tags:
 - Exercise
 - Health
 - Public Domain
-- Dataset
+- Datasets
 - JSON-Schema
 - Workouts
 website: https://yuhonas.github.io/free-exercise-db/

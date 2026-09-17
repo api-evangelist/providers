@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Generates a Lovable application from a shareable URL or prompt. Programmatic entry point for creating apps and sharing links without revealing implementation details. Early release; more endpoints pla
@@ -118,7 +118,7 @@ plans:
 - name: Lovable Plans Pricing
   plan_count: 1
   slug: lovable-plans-pricing
-random_paper: 6
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Lovable Rate Limits
@@ -145,7 +145,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

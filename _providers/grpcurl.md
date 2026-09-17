@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: grpcurl is an open source command-line tool for interacting with gRPC servers, like curl for gRPC with support for service reflection and JSON encoding.
@@ -85,7 +85,7 @@ plans:
 - name: Grpcurl Plans Pricing
   plan_count: 3
   slug: grpcurl-plans-pricing
-random_paper: 11
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Grpcurl Rate Limits
@@ -113,7 +113,7 @@ score:
     score: 25.0
   previous_composite: 13.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

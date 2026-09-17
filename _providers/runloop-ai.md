@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 8
@@ -50,11 +50,6 @@ apis:
   description: The agents API from Runloop — 5 operation(s) for agents.
   name: Runloop agents API
   slug: runloop-ai-agents-api
-- baseURL: https://api.runloop.ai
-  baseurl_source: declared
-  description: The apikeys API from Runloop — 1 operation(s) for apikeys.
-  name: Runloop apikeys API
-  slug: runloop-ai-apikeys-api
 - baseURL: https://api.runloop.ai
   baseurl_source: declared
   description: The axons API from Runloop — 7 operation(s) for axons.
@@ -165,6 +160,11 @@ apis:
   description: The streaming API from Runloop — 2 operation(s) for streaming.
   name: Runloop streaming API
   slug: runloop-ai-streaming-api
+- baseURL: https://api.runloop.ai
+  baseurl_source: declared
+  description: The API Keys API from Runloop — 1 operation(s) for api keys.
+  name: Runloop API Keys API
+  slug: runloop-ai-api-keys-api
 arazzos:
 - description: Create and complete a storage object, generate its download URL, then boot a devbox and pull the artifact into it.
   name: Runloop Bootstrap a Devbox from an Object Artifact
@@ -727,7 +727,7 @@ modified: '2026-05-25'
 name: Runloop
 nav: Providers
 network: true
-overview: 'Runloop publishes 24 APIs on the [APIs.io](https://apis.io/) network, including agents API, apikeys API, axons API, and 21 more. Tagged areas include Artificial Intelligence, AI Agents, Coding Agents, Sandboxes, and Devboxes.
+overview: 'Runloop publishes 24 APIs on the [APIs.io](https://apis.io/) network, including agents API, axons API, Benchmark API, and 21 more. Tagged areas include Artificial Intelligence, AI Agents, Coding Agents, Sandbox, and Devboxes.
 
 
   The Runloop catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -738,7 +738,7 @@ plans:
 - name: Runloop Ai Plans Pricing
   plan_count: 4
   slug: runloop-ai-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Runloop Ai Rate Limits
@@ -767,7 +767,7 @@ rules:
   slug: runloop-ai-rules
 score:
   band: strong
-  composite: 61.1
+  composite: 61.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 82.5
@@ -775,11 +775,11 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 78.9
     contract_governance: 28.8
-    contract_quality: 74.0
+    contract_quality: 73.6
     developer_ergonomics: 65.5
     discoverability: 68.5
     operational_transparency: 31.6
@@ -792,7 +792,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -816,7 +816,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Coding Agents
-- Sandboxes
+- Sandbox
 - Devboxes
 - Code Execution
 - Evaluation

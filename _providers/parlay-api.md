@@ -18,21 +18,271 @@ agent_readiness:
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 32.4
-  scored_at: '2026-09-15'
-api_count: 1
+  score: 34.1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://parlay-api.com
   baseurl_source: declared
-  description: 'REST API for live and historical sports odds, player props, prediction-market prices, arbitrage/EV scanning, and account webhooks, with keyless sandbox and try surfaces, credit-based metering, and an '
-  name: ParlayAPI
-  slug: parlayapi
-artifact_total: 7
+  description: The Acceptable Use API from ParlayAPI — 1 operation(s) for acceptable use.
+  name: ParlayAPI Acceptable Use API
+  slug: parlay-api-acceptable-use-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Account API from ParlayAPI — 1 operation(s) for account.
+  name: ParlayAPI Account API
+  slug: parlay-api-account-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Affiliates API from ParlayAPI — 1 operation(s) for affiliates.
+  name: ParlayAPI Affiliates API
+  slug: parlay-api-affiliates-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The agent API from ParlayAPI — 3 operation(s) for agent.
+  name: ParlayAPI Agent API
+  slug: parlay-api-agent-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The alerts API from ParlayAPI — 2 operation(s) for alerts.
+  name: ParlayAPI Alerts API
+  slug: parlay-api-alerts-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The auth API from ParlayAPI — 6 operation(s) for auth.
+  name: ParlayAPI Auth API
+  slug: parlay-api-auth-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Badge API from ParlayAPI — 1 operation(s) for badge.
+  name: ParlayAPI Badge API
+  slug: parlay-api-badge-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The billing API from ParlayAPI — 9 operation(s) for billing.
+  name: ParlayAPI Billing API
+  slug: parlay-api-billing-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Calculators API from ParlayAPI — 8 operation(s) for calculators.
+  name: ParlayAPI Calculators API
+  slug: parlay-api-calculators-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Changelog.json API from ParlayAPI — 1 operation(s) for changelog.json.
+  name: ParlayAPI Changelog.json API
+  slug: parlay-api-changelog-json-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The clv API from ParlayAPI — 1 operation(s) for clv.
+  name: ParlayAPI Clv API
+  slug: parlay-api-clv-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Collections API from ParlayAPI — 2 operation(s) for collections.
+  name: ParlayAPI Collections API
+  slug: parlay-api-collections-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The dashboard API from ParlayAPI — 3 operation(s) for dashboard.
+  name: ParlayAPI Dashboard API
+  slug: parlay-api-dashboard-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Datasets API from ParlayAPI — 2 operation(s) for datasets.
+  name: ParlayAPI Datasets API
+  slug: parlay-api-datasets-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Discovery API from ParlayAPI — 7 operation(s) for discovery.
+  name: ParlayAPI Discovery API
+  slug: parlay-api-discovery-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Divergence.json API from ParlayAPI — 1 operation(s) for divergence.json.
+  name: ParlayAPI Divergence.json API
+  slug: parlay-api-divergence-json-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Dmca API from ParlayAPI — 1 operation(s) for dmca.
+  name: ParlayAPI Dmca API
+  slug: parlay-api-dmca-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The event_markets API from ParlayAPI — 3 operation(s) for event_markets.
+  name: ParlayAPI Event Markets API
+  slug: parlay-api-event-markets-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Exchange API from ParlayAPI — 1 operation(s) for exchange.
+  name: ParlayAPI Exchange API
+  slug: parlay-api-exchange-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Exchanges API from ParlayAPI — 1 operation(s) for exchanges.
+  name: ParlayAPI Exchanges API
+  slug: parlay-api-exchanges-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Go API from ParlayAPI — 1 operation(s) for go.
+  name: ParlayAPI Go API
+  slug: parlay-api-go-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Health API from ParlayAPI — 3 operation(s) for health.
+  name: ParlayAPI Health API
+  slug: parlay-api-health-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Historical API from ParlayAPI — 13 operation(s) for historical.
+  name: ParlayAPI Historical API
+  slug: parlay-api-historical-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Key API from ParlayAPI — 1 operation(s) for key.
+  name: ParlayAPI Key API
+  slug: parlay-api-key-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Keys API from ParlayAPI — 1 operation(s) for keys.
+  name: ParlayAPI Keys API
+  slug: parlay-api-keys-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Legal API from ParlayAPI — 7 operation(s) for legal.
+  name: ParlayAPI Legal API
+  slug: parlay-api-legal-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The live API from ParlayAPI — 14 operation(s) for live.
+  name: ParlayAPI Live API
+  slug: parlay-api-live-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: Live odds, in-play arbs, and SSE streaming for active games.
+  name: ParlayAPI Live & In-Play API
+  slug: parlay-api-live-in-play-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Metadata API from ParlayAPI — 34 operation(s) for metadata.
+  name: ParlayAPI Metadata API
+  slug: parlay-api-metadata-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Metrics API from ParlayAPI — 1 operation(s) for metrics.
+  name: ParlayAPI Metrics API
+  slug: parlay-api-metrics-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Moves.json API from ParlayAPI — 1 operation(s) for moves.json.
+  name: ParlayAPI Moves.json API
+  slug: parlay-api-moves-json-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Odds Drop API from ParlayAPI — 1 operation(s) for odds drop.
+  name: ParlayAPI Odds Drop API
+  slug: parlay-api-odds-drop-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The ParlayAPI API from ParlayAPI — 2 operation(s) for parlayapi.
+  name: ParlayAPI Parlay API
+  slug: parlay-api-parlayapi-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Partners API from ParlayAPI — 1 operation(s) for partners.
+  name: ParlayAPI Partners API
+  slug: parlay-api-partners-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: Kalshi and Polymarket prediction-market prices including crypto.
+  name: ParlayAPI Prediction Markets API
+  slug: parlay-api-prediction-markets-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Pricing API from ParlayAPI — 1 operation(s) for pricing.
+  name: ParlayAPI Pricing API
+  slug: parlay-api-pricing-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Privacy API from ParlayAPI — 1 operation(s) for privacy.
+  name: ParlayAPI Privacy API
+  slug: parlay-api-privacy-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The public_support API from ParlayAPI — 1 operation(s) for public_support.
+  name: ParlayAPI Public Support API
+  slug: parlay-api-public-support-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: Auth-less deterministic responses for integration testing without credits.
+  name: ParlayAPI Sandbox API
+  slug: parlay-api-sandbox-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Sgp API from ParlayAPI — 1 operation(s) for sgp.
+  name: ParlayAPI Sgp API
+  slug: parlay-api-sgp-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: OpenAPI and AsyncAPI specs describing the REST and streaming surfaces.
+  name: ParlayAPI Specification API
+  slug: parlay-api-specification-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Sports & Odds API from ParlayAPI — 34 operation(s) for sports & odds.
+  name: ParlayAPI Sports & Odds API
+  slug: parlay-api-sports-odds-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Sse API from ParlayAPI — 2 operation(s) for sse.
+  name: ParlayAPI Sse API
+  slug: parlay-api-sse-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Stats API from ParlayAPI — 1 operation(s) for stats.
+  name: ParlayAPI Stats API
+  slug: parlay-api-stats-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Terms API from ParlayAPI — 1 operation(s) for terms.
+  name: ParlayAPI Terms API
+  slug: parlay-api-terms-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Try API from ParlayAPI — 6 operation(s) for try.
+  name: ParlayAPI Try API
+  slug: parlay-api-try-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Verdict API from ParlayAPI — 2 operation(s) for verdict.
+  name: ParlayAPI Verdict API
+  slug: parlay-api-verdict-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The webhooks API from ParlayAPI — 5 operation(s) for webhooks.
+  name: ParlayAPI Webhooks API
+  slug: parlay-api-webhooks-api
+- baseURL: https://parlay-api.com
+  baseurl_source: declared
+  description: The Widget API from ParlayAPI — 1 operation(s) for widget.
+  name: ParlayAPI Widget API
+  slug: parlay-api-widget-api
+artifact_total: 55
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/parlay-api/refs/heads/main/mcp/parlay-api-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/parlay-api-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/parlay-api/refs/heads/main/overlays/parlay-api-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/parlay-api-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -157,44 +407,49 @@ modified: '2026-09-07'
 name: ParlayAPI
 nav: Providers
 network: true
-overview: 'ParlayAPI publishes 1 API on the [APIs.io](https://apis.io/) network: ParlayAPI. Tagged areas include Sports, Odds, Betting Data, Sports Data, and Prediction Markets.
+overview: 'ParlayAPI publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Acceptable Use API, Account API, Affiliates API, and 46 more. Tagged areas include Sports, Odds, Betting Data, Sports Data, and Prediction Markets.
 
 
-  ParlayAPI''s developer surface includes authentication, changelog, support, engineering blog, signup flow, and 19 more developer resources.'
+  ParlayAPI''s developer surface includes authentication, changelog, support, engineering blog, signup flow, and 21 more developer resources.'
 plans:
 - name: Parlay Api Plans Pricing
   plan_count: 6
   slug: parlay-api-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 8
   name: Parlay Api Rate Limits
   slug: parlay-api-rate-limits
 score:
   band: strong
-  composite: 57.7
+  composite: 57.2
   coverage:
     artifact_dirs: 22
-    catalog_earned: 61.0
+    catalog_earned: 58.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 51.1
+    contract_quality: 51.4
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 70.4
     operational_transparency: 84.2
   previous_composite: 57.7
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 49
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

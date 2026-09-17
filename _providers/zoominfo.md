@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 30
-  human_in_the_loop: 0
+- acting_count: 90
+  human_in_the_loop: 5
   name: Zoominfo Agentic Access
-  operation_count: 99
+  operation_count: 199
   slug: zoominfo-agentic-access
-  summary_line: 99 operations · 30 acting
+  summary_line: 199 operations · 90 acting · 5 human-in-the-loop
 api_count: 7
 apis:
 - baseURL: https://api.zoominfo.com
@@ -78,7 +78,7 @@ apis:
 - baseURL: https://api.zoominfo.com
   baseurl_source: declared
   description: Use the Compliance endpoints to request and return data related to data privacy and opt-out compliance for contacts stored in the ZoomInfo database.
-  name: ZoomInfo Compliance API API
+  name: ZoomInfo Compliance API
   slug: zoominfo-compliance-api-api
 - baseURL: https://api.zoominfo.com
   baseurl_source: declared
@@ -158,7 +158,7 @@ apis:
 - baseURL: https://api.zoominfo.com
   baseurl_source: declared
   description: The Websights API identifies anonymous website traffic by resolving IP addresses (IPv4 & IPv6) to return company and ISP profiles and IP geolocation details. **Company vs. ISP response data** If the I
-  name: ZoomInfo WebSights API API
+  name: ZoomInfo WebSights API
   slug: zoominfo-websights-api-api
 - baseURL: https://api.zoominfo.com
   baseurl_source: declared
@@ -3246,7 +3246,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: ZoomInfo
 nav: Providers
 network: true
@@ -3261,7 +3261,7 @@ plans:
 - name: Zoominfo Plans Pricing
   plan_count: 3
   slug: zoominfo-plans-pricing
-random_paper: 20
+random_paper: 1
 rate_limits:
 - limit_count: 6
   name: Zoominfo Rate Limits
@@ -3307,7 +3307,7 @@ score:
   facets:
     access_clarity: 100.0
     contract_governance: 33.3
-    contract_quality: 82.6
+    contract_quality: 82.5
     developer_ergonomics: 89.3
     discoverability: 75.9
     operational_transparency: 92.1
@@ -3323,7 +3323,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

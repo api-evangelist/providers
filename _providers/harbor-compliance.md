@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://api.harborcompliance.com/v1
   baseurl_source: spec
   description: Annual reports, compliance filings, and deadline tracking.
-  name: Harbor Compliance Compliance Filings API
+  name: Harbor Compliance Filings API
   slug: harbor-compliance-compliance-filings-api
 - baseURL: https://api.harborcompliance.com/v1
   baseurl_source: spec
@@ -210,11 +210,11 @@ jsonld:
   property_count: 5
   slug: harbor-compliance-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Harbor Compliance
 nav: Providers
 network: true
-overview: 'Harbor Compliance publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Compliance Filings API, Entities API, Jurisdictions API, and 3 more. Tagged areas include Business Licensing, Compliance, Legal, and Regulatory.
+overview: 'Harbor Compliance publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Filings API, Entities API, Jurisdictions API, and 3 more. Tagged areas include Business Licensing, Compliance, Legal, and Regulatory.
 
 
   The Harbor Compliance catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -225,7 +225,7 @@ plans:
 - name: Harbor Compliance Plans Pricing
   plan_count: 3
   slug: harbor-compliance-plans-pricing
-random_paper: 12
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Harbor Compliance Rate Limits
@@ -268,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

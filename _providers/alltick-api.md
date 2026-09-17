@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Token-authenticated WebSocket streaming API for real-time market data. Two endpoints — wss://quote.alltick.co/quote-stock-b-ws-api for equities and wss://quote.alltick.co/quote-b-ws-api for forex, cry
@@ -221,7 +221,7 @@ plans:
 - name: Alltick Api Plans Pricing
   plan_count: 8
   slug: alltick-api-plans-pricing
-random_paper: 7
+random_paper: 21
 rate_limits:
 - limit_count: 13
   name: Alltick Api Rate Limits
@@ -255,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

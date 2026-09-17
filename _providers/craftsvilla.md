@@ -25,7 +25,7 @@ name: Craftsvilla
 nav: Providers
 network: true
 overview: Craftsvilla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Marketplace, Retail, and Fashion.
-random_paper: 3
+random_paper: 13
 security:
 - kind: domain-security
   name: Craftsvilla Domain Security

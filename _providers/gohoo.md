@@ -25,7 +25,7 @@ name: gohoo
 nav: Providers
 network: true
 overview: gohoo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Supply Chain, and China.
-random_paper: 15
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/gohoo/refs/heads/main/screenshots/gohoo-2026-07-25T220013.png
 slug: gohoo
 tags:

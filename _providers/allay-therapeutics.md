@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.allaytx.com/wp-json
@@ -52,11 +52,6 @@ apis:
   description: Media library. `X-WP-Total` reports 161 attachments, but only one attachment (id 1503) is returned to an anonymous caller; the remainder are attached to non-public parents.
   name: Allay Therapeutics Media API
   slug: allay-therapeutics-media-api
-- baseURL: https://www.allaytx.com/wp-json
-  baseurl_source: declared
-  description: oEmbed 1.0 provider endpoint for www.allaytx.com URLs.
-  name: Allay Therapeutics Oembed API
-  slug: allay-therapeutics-oembed-api
 - baseURL: https://www.allaytx.com/wp-json
   baseurl_source: declared
   description: Corporate pages. 9 published at harvest time — Home, About Us, Our Science, Pipeline, News, Careers, Contact Us, Privacy Notices, Terms of Service.
@@ -77,6 +72,11 @@ apis:
   description: 'Categories and tags. Four categories are registered — Press Releases (14), In The News (4), Presentations and Publications (1), Uncategorized (0). The post_tag taxonomy holds three unused placeholder '
   name: Allay Therapeutics Taxonomy API
   slug: allay-therapeutics-taxonomy-api
+- baseURL: https://www.allaytx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for www.allaytx.com URLs.
+  name: Allay Therapeutics o Embed API
+  slug: allay-therapeutics-o-embed-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -227,7 +227,7 @@ overview: 'Allay Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   Allay Therapeutics'' developer surface includes product news, authentication, and 22 more developer resources.'
-random_paper: 4
+random_paper: 3
 score:
   band: thin
   composite: 35.9
@@ -262,7 +262,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

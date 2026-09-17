@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -125,11 +125,6 @@ apis:
   slug: vital-io-team-api
 - baseURL: https://api.us.junction.com
   baseurl_source: declared
-  description: The timeseries API from Vital — 80 operation(s) for timeseries.
-  name: Vital timeseries API
-  slug: vital-io-timeseries-api
-- baseURL: https://api.us.junction.com
-  baseurl_source: declared
   description: The user API from Vital — 16 operation(s) for user.
   name: Vital user API
   slug: vital-io-user-api
@@ -143,6 +138,11 @@ apis:
   description: The lab-testing API from Vital — 0 operation(s) for lab-testing.
   name: Vital Lab Testing API
   slug: vital-io-lab-testing-api
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The Time Series API from Vital — 80 operation(s) for time series.
+  name: Vital Time Series API
+  slug: vital-io-time-series-api
 arazzos:
 - description: Confirm phlebotomy coverage for an address, place an at-home order, find a slot, and book it.
   name: Vital Schedule an At-Home Phlebotomy Draw
@@ -745,7 +745,7 @@ plans:
 - name: Vital Io Plans Pricing
   plan_count: 4
   slug: vital-io-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Vital Io Rate Limits
@@ -810,7 +810,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

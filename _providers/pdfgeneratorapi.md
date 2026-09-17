@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ modified: '2026-06-25'
 name: PDF Generator API
 nav: Providers
 network: true
-overview: 'PDF Generator API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Documents API, Templates API, and Workspaces API. Tagged areas include PDF, Document Generation, Templates, Reporting, and Workspaces.
+overview: 'PDF Generator API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Documents API, Templates API, and Workspaces API. Tagged areas include PDF, Document Generation, Templates, Reporting, and Workspace.
 
 
   PDF Generator API''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -147,7 +147,7 @@ plans:
 - name: Pdfgeneratorapi Plans Pricing
   plan_count: 7
   slug: pdfgeneratorapi-plans-pricing
-random_paper: 20
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Pdfgeneratorapi Rate Limits
@@ -179,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -200,6 +200,6 @@ tags:
 - Document Generation
 - Templates
 - Reporting
-- Workspaces
+- Workspace
 website: https://pdfgeneratorapi.com
 ---

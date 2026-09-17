@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://researchrepository.ucd.ie/server/oai/request
-  baseurl_source: declared
-  description: 'Keyless, anonymous OAI-PMH 2.0 metadata harvesting for UCD''s open-access institutional repository. Verified live 2026-08-30: all six verbs return HTTP 200 with a well-formed envelope, ListIdentifiers '
-  name: Research Repository UCD — OAI-PMH 2.0
-  slug: oai-pmh
 - description: UCD's SAML 2.0 Shibboleth Identity Provider, and the institution's only authentication surface it runs itself. It is machine-readable by definition — a federated IdP publishes SAML metadata — and is t
   name: University College Dublin Identity Provider (Shibboleth / Edugate / eduGAIN)
   slug: identity-federation
@@ -56,6 +51,11 @@ apis:
 - description: UCD Library's discovery layer runs on Serials Solutions (Clarivate/ProQuest) under a customer key, not on a UCD host. It exposes a search interface for people, not a documented public API, and no spec
   name: UCD Library discovery (Serials Solutions / Clarivate)
   slug: library-discovery
+- baseURL: https://researchrepository.ucd.ie/server/oai/request
+  baseurl_source: declared
+  description: OAI-PMH 2.0 harvesting verbs.
+  name: University College Dublin OAI PMH API
+  slug: ucd-oai-pmh-api
 artifact_total: 12
 common:
 - group: company
@@ -243,7 +243,7 @@ modified: '2026-08-30'
 name: University College Dublin
 nav: Providers
 network: true
-overview: 'University College Dublin publishes 1 API on the [APIs.io](https://apis.io/) network: Research Repository UCD — OAI-PMH 2.0. Tagged areas include University, Higher Education, Education, Ireland, and Europe.
+overview: 'University College Dublin publishes 1 API on the [APIs.io](https://apis.io/) network: OAI PMH API. Tagged areas include University, Higher Education, Education, Ireland, and Europe.
 
 
   University College Dublin''s developer surface includes documentation, support, engineering blog, authentication, and 24 more developer resources.'
@@ -251,7 +251,7 @@ plans:
 - name: Ucd Plans Pricing
   plan_count: 2
   slug: ucd-plans-pricing
-random_paper: 1
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Ucd Rate Limits
@@ -297,7 +297,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

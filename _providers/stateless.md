@@ -19,7 +19,7 @@ name: Stateless
 nav: Providers
 network: true
 overview: Stateless is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Network Automation, Network Function Virtualization, and Multi-Cloud.
-random_paper: 18
+random_paper: 16
 slug: stateless
 tags:
 - Company

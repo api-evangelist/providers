@@ -23,16 +23,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://hiringindex.p.rapidapi.com
   baseurl_source: declared
-  description: 'Three read-only endpoints over an index of live job postings read straight from thirteen applicant tracking systems: search postings by a shared filter (title, keyword, location, salary, work arrangem'
-  name: Hiring Index API
-  slug: hiring-index-api
-artifact_total: 6
+  description: Aggregates over the same filter - the thing no one else in the category ships
+  name: Hiring Index Insights API
+  slug: hiring-index-insights-api
+- baseURL: https://hiringindex.p.rapidapi.com
+  baseurl_source: declared
+  description: A single job posting by id
+  name: Hiring Index Job API
+  slug: hiring-index-job-api
+- baseURL: https://hiringindex.p.rapidapi.com
+  baseurl_source: declared
+  description: Paged job search over a filter
+  name: Hiring Index Search API
+  slug: hiring-index-search-api
+artifact_total: 8
 common:
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/hiring-index/refs/heads/main/mcp/hiring-index-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/hiring-index-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/hiring-index/refs/heads/main/overlays/hiring-index-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/hiring-index-openapi-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/hiring-index/refs/heads/main/security/hiring-index-domain-security.yml
   title: ''
@@ -135,22 +155,22 @@ modified: '2026-09-14'
 name: Hiring Index
 nav: Providers
 network: true
-overview: 'Hiring Index publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Job, Hiring Data, Labor Market, HR, and Recruiting.
+overview: 'Hiring Index publishes 3 APIs on the [APIs.io](https://apis.io/) network: Insights API, Job API, and Search API. Tagged areas include Job, Hiring Data, Labor Market, Human Resources, and Recruiting.
 
 
-  Hiring Index''s developer surface includes authentication, getting-started guide, pricing, signup flow, engineering blog, support, and 14 more developer resources.'
+  Hiring Index''s developer surface includes authentication, getting-started guide, pricing, signup flow, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Hiring Index Plans Pricing
   plan_count: 5
   slug: hiring-index-plans-pricing
-random_paper: 4
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Hiring Index Rate Limits
   slug: hiring-index-rate-limits
 score:
   band: strong
-  composite: 56.1
+  composite: 55.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 61.0
@@ -158,11 +178,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 57.8
+    contract_quality: 57.1
     developer_ergonomics: 70.8
     discoverability: 75.9
     operational_transparency: 36.8
@@ -173,11 +193,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 3
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -196,7 +216,7 @@ tags:
 - Job
 - Hiring Data
 - Labor Market
-- HR
+- Human Resources
 - Recruiting
 - Job Postings
 - Market Intelligence

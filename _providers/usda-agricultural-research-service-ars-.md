@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -81,6 +81,10 @@ collections:
   name: USDA FoodData Central API
   slug: open-usda-ars-fooddata-central
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://usda.gov
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/agentic-access/usda-agricultural-research-service-ars--agentic-access.yml
   title: ''
@@ -132,7 +136,7 @@ jsonld:
   property_count: 17
   slug: usda-agricultural-research-service-ars--context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: USDA Agricultural Research Service (ARS)
 nav: Providers
 network: true
@@ -142,12 +146,12 @@ overview: 'USDA Agricultural Research Service (ARS) publishes 3 APIs on the [API
   The USDA Agricultural Research Service (ARS) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  USDA Agricultural Research Service (ARS)''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
+  USDA Agricultural Research Service (ARS)''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
 plans:
 - name: Usda Agricultural Research Service Ars  Plans Pricing
   plan_count: 3
   slug: usda-agricultural-research-service-ars--plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Usda Agricultural Research Service Ars  Rate Limits
@@ -207,7 +211,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -230,4 +234,5 @@ tags:
 - Nutrition
 - Open Data
 - Research
+website: https://usda.gov
 ---

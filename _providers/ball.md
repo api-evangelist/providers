@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 12
 common:
@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: Reflecting its commitment to delivering advisor-first ...
   url: https://www.facebook.com/RaymondJames/posts/reflecting-its-commitment-to-delivering-advisor-first-technology-the-firm-has-an/1394319819394063/
-random_paper: 12
+random_paper: 15
 rules:
 - effective_rule_count: 7
   extends: []
@@ -149,7 +149,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 11.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

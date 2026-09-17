@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 39.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Cross-cutting account API for the useapi.net subscription itself — retrieve account details and the configured service accounts, set the default replyUrl webhook applied to every API, and query per-bo
@@ -52,11 +52,6 @@ apis:
   description: Dreamina API v1 by useapi.net
   name: useapi.net Dreamina API
   slug: useapi-dreamina-api
-- baseURL: https://api.useapi.net/v1/google-flow
-  baseurl_source: declared
-  description: InsightFaceSwap API v1 by useapi.net
-  name: useapi.net Faceswap API
-  slug: useapi-faceswap-api
 - baseURL: https://api.useapi.net/v1/google-flow
   baseurl_source: declared
   description: FlowMusic API v1 by useapi.net
@@ -79,11 +74,6 @@ apis:
   slug: useapi-kling-api
 - baseURL: https://api.useapi.net/v1/google-flow
   baseurl_source: declared
-  description: MiniMax API v1 by useapi.net
-  name: useapi.net Minimax API
-  slug: useapi-minimax-api
-- baseURL: https://api.useapi.net/v1/google-flow
-  baseurl_source: declared
   description: Mureka API v1 by useapi.net
   name: useapi.net Mureka API
   slug: useapi-mureka-api
@@ -102,6 +92,16 @@ apis:
   description: TemPolor API v1 by useapi.net
   name: useapi.net Tempolor API
   slug: useapi-tempolor-api
+- baseURL: https://api.useapi.net/v2/account
+  baseurl_source: declared
+  description: InsightFaceSwap API v1 by useapi.net
+  name: useapi.net Face Swap API
+  slug: useapi-face-swap-api
+- baseURL: https://api.useapi.net/v2/account
+  baseurl_source: declared
+  description: MiniMax API v1 by useapi.net
+  name: useapi.net Mini Max API
+  slug: useapi-mini-max-api
 artifact_total: 28
 asyncapis:
 - description: ''
@@ -376,14 +376,14 @@ modified: '2026-07-27'
 name: useapi.net
 nav: Providers
 network: true
-overview: 'useapi.net publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Dreamina API, Faceswap API, and 9 more. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image-Generation.
+overview: 'useapi.net publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Dreamina API, Flowmusic API, and 9 more. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image-Generation.
 
 
   The useapi.net catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   useapi.net''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 41 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: developing
   composite: 41.4
@@ -398,7 +398,7 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 21.7
+    contract_quality: 21.8
     developer_ergonomics: 75.6
     discoverability: 75.9
     operational_transparency: 34.2
@@ -413,7 +413,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

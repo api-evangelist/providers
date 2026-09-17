@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 24
 apis:
 - baseURL: https://maps.gnosis.earth/ogcapi
@@ -31,7 +31,7 @@ apis:
   description: The API API from Open Geospatial Consortium (OGC) — 7 operation(s) for api.
   name: Open Geospatial Consortium (OGC) API
   slug: ogc-api-api
-- baseURL: https://api.georobotix.io/ogc/t18/api
+- baseURL: https://example.org/edr
   baseurl_source: spec
   description: Essential characteristics of the information available from the API.
   name: Open Geospatial Consortium (OGC) Capabilities API
@@ -41,12 +41,12 @@ apis:
   description: description of a catalog offered by this API
   name: Open Geospatial Consortium (OGC) Collection API
   slug: ogc-collection-api
-- baseURL: https://www.example.org/edr
+- baseURL: https://example.org/edr
   baseurl_source: spec
   description: Data queries available.
   name: Open Geospatial Consortium (OGC) Collection data queries API
   slug: ogc-collection-data-queries-api
-- baseURL: https://www.example.org/edr
+- baseURL: https://example.org/edr
   baseurl_source: spec
   description: Description of the information available from the collections
   name: Open Geospatial Consortium (OGC) Collection metadata API
@@ -109,12 +109,12 @@ apis:
 - description: The Functions API from Open Geospatial Consortium (OGC) — 1 operation(s) for functions.
   name: Open Geospatial Consortium (OGC) Functions API
   slug: ogc-functions-api
-- baseURL: https://www.example.org/edr
+- baseURL: https://example.org/edr
   baseurl_source: spec
   description: Data queries available on instances of the collection.
   name: Open Geospatial Consortium (OGC) Instance data queries API
   slug: ogc-instance-data-queries-api
-- baseURL: https://www.example.org/edr
+- baseURL: https://example.org/edr
   baseurl_source: spec
   description: Description of the information available from the instances of a collection
   name: Open Geospatial Consortium (OGC) Instance metadata API
@@ -199,10 +199,7 @@ apis:
   description: The Vector Tiles API from Open Geospatial Consortium (OGC) — 12 operation(s) for vector tiles.
   name: Open Geospatial Consortium (OGC) Vector Tiles API
   slug: ogc-vector-tiles-api
-- description: The server API from Open Geospatial Consortium (OGC) — 3 operation(s) for server.
-  name: Open Geospatial Consortium (OGC) Server API
-  slug: ogc-server-api
-artifact_total: 38
+artifact_total: 37
 common:
 - group: company
   title: ''
@@ -288,8 +285,8 @@ modified: '2026-08-20'
 name: Open Geospatial Consortium (OGC)
 nav: Providers
 network: true
-overview: Open Geospatial Consortium (OGC) publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Capabilities API, Collection API, and 36 more. Tagged areas include OGC, OGC API, Geospatial, GIS, and Standards.
-random_paper: 19
+overview: Open Geospatial Consortium (OGC) publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Capabilities API, Collection API, and 35 more. Tagged areas include OGC, OGC API, Geospatial, GIS, and Standards.
+random_paper: 5
 score:
   band: emerging
   composite: 21.6
@@ -304,7 +301,7 @@ score:
   facets:
     access_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 57.4
+    contract_quality: 57.6
     developer_ergonomics: 0.0
     discoverability: 55.6
     operational_transparency: 18.4
@@ -312,12 +309,12 @@ score:
   provenance:
     conformance: unknown
     contracts:
-      callable: 36.8
+      callable: 35.1
       derived: 0
       marker_coverage: 0.0
-      total: 38
+      total: 37
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

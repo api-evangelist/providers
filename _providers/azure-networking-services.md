@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-09-15'
+  score: 24.8
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 41 operations · 14 acting
 api_count: 2
 apis:
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The LoadBalancers API from Azure Networking Services — 16 operation(s) for loadbalancers.
-  name: Azure Networking Services LoadBalancers API
-  slug: azure-networking-services-loadbalancers-api
 - baseURL: https://management.azure.com
   baseurl_source: declared
   description: The Subnets API from Azure Networking Services — 2 operation(s) for subnets.
@@ -64,11 +59,6 @@ apis:
   description: The VirtualNetworkPeerings API from Azure Networking Services — 2 operation(s) for virtualnetworkpeerings.
   name: Azure Networking Services VirtualNetworkPeerings API
   slug: azure-networking-services-virtualnetworkpeerings-api
-- baseURL: https://management.azure.com
-  baseurl_source: declared
-  description: The VirtualNetworks API from Azure Networking Services — 3 operation(s) for virtualnetworks.
-  name: Azure Networking Services VirtualNetworks API
-  slug: azure-networking-services-virtualnetworks-api
 - description: Distribute traffic across multiple virtual machines and services with Azure Load Balancer.
   name: Azure Load Balancer API
   slug: azure-load-balancer-api
@@ -122,26 +112,6 @@ apis:
   slug: azure-web-application-firewall-api
 - baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
   baseurl_source: declared
-  description: Operations for managing backend address pools that define the group of resources to receive load-balanced traffic.
-  name: Azure Networking Backend Address Pools API
-  slug: microsoft-azure-networking-backend-address-pools-api
-- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
-  baseurl_source: declared
-  description: Operations for managing health probes that monitor the health status of backend resources.
-  name: Azure Networking Load Balancer Probes API
-  slug: microsoft-azure-networking-load-balancer-probes-api
-- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
-  baseurl_source: declared
-  description: Operations for creating, updating, deleting, and listing Azure Load Balancer resources.
-  name: Azure Networking Load Balancers API
-  slug: microsoft-azure-networking-load-balancers-api
-- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
-  baseurl_source: declared
-  description: Operations for managing load balancing rules that define how traffic is distributed to backend pool members.
-  name: Azure Networking Load Balancing Rules API
-  slug: microsoft-azure-networking-load-balancing-rules-api
-- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
-  baseurl_source: declared
   description: Operations operations
   name: Azure Networking Operations API
   slug: microsoft-azure-networking-operations-api
@@ -152,15 +122,15 @@ apis:
   slug: microsoft-azure-networking-subnets-api
 - baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
   baseurl_source: declared
-  description: Operations for creating and managing peering connections between virtual networks.
-  name: Azure Networking Virtual Network Peerings API
-  slug: microsoft-azure-networking-virtual-network-peerings-api
-- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
-  baseurl_source: declared
   description: Operations for creating, updating, deleting, and listing Azure Virtual Networks within subscriptions and resource groups.
   name: Azure Networking Virtual Networks API
   slug: microsoft-azure-networking-virtual-networks-api
-artifact_total: 215
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Load Balancers API from Azure Networking Services — 16 operation(s) for load balancers.
+  name: Azure Networking Services Load Balancers API
+  slug: azure-networking-services-load-balancers-api
+artifact_total: 209
 collections:
 - collection_type: postman
   name: NetworkManagementClient LoadBalancers API
@@ -869,7 +839,7 @@ modified: '2026-05-19'
 name: Azure Networking Services
 nav: Providers
 network: true
-overview: 'Azure Networking Services publishes 13 APIs on the [APIs.io](https://apis.io/) network, including LoadBalancers API, Subnets API, Subscriptions API, and 10 more. Tagged areas include Azure, Cloud, Infrastructure, Microsoft, and Networking.
+overview: 'Azure Networking Services publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Subnets API, Subscriptions API, VirtualNetworkPeerings API, and 4 more. Tagged areas include Azure, Cloud, Infrastructure, Microsoft, and Networking.
 
 
   The Azure Networking Services catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -880,7 +850,7 @@ plans:
 - name: Azure Networking Services Plans Pricing
   plan_count: 3
   slug: azure-networking-services-plans-pricing
-random_paper: 1
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Azure Networking Services Rate Limits
@@ -914,21 +884,21 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 56.5
+  composite: 56.8
   coverage:
     artifact_dirs: 19
-    catalog_earned: 63.5
+    catalog_earned: 66.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.5
+    catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 53.9
     contract_governance: 28.8
-    contract_quality: 57.8
+    contract_quality: 56.9
     developer_ergonomics: 58.3
-    discoverability: 77.8
+    discoverability: 83.3
     operational_transparency: 52.6
   previous_composite: 56.5
   provenance:
@@ -937,9 +907,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

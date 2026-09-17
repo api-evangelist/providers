@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -73,11 +73,6 @@ apis:
   description: The Delivery API from Bright Data — 2 operation(s) for delivery.
   name: Bright Data Delivery API
   slug: bright-data-delivery-api
-- baseURL: https://api.brightdata.com
-  baseurl_source: spec
-  description: The IPs API from Bright Data — 2 operation(s) for ips.
-  name: Bright Data IPs API
-  slug: bright-data-ips-api
 - baseURL: https://api.brightdata.com
   baseurl_source: spec
   description: The Lookup API from Bright Data — 6 operation(s) for lookup.
@@ -123,6 +118,11 @@ apis:
   description: The Zones API from Bright Data — 3 operation(s) for zones.
   name: Bright Data Zones API
   slug: bright-data-zones-api
+- baseURL: https://api.brightdata.com
+  baseurl_source: spec
+  description: The IPs API from Bright Data — 2 operation(s) for ips.
+  name: Bright Data I Ps API
+  slug: bright-data-ips-api
 arazzos:
 - description: Inspect a marketplace dataset's metadata, read a snapshot, and deliver it to cloud.
   name: Bright Data Marketplace Dataset Snapshot and Deliver
@@ -547,7 +547,7 @@ plans:
 - name: Bright Data Plans Pricing
   plan_count: 17
   slug: bright-data-plans-pricing
-random_paper: 3
+random_paper: 17
 rate_limits:
 - limit_count: 8
   name: Bright Data Rate Limits
@@ -602,7 +602,7 @@ score:
       total: 16
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

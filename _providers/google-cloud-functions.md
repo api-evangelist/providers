@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,7 +47,7 @@ apis:
 - baseURL: https://cloudfunctions.googleapis.com
   baseurl_source: declared
   description: Operations for managing cloud functions
-  name: Google Cloud Functions Functions API
+  name: Google Cloud Functions API
   slug: google-cloud-functions-functions-api
 - baseURL: https://cloudfunctions.googleapis.com
   baseurl_source: declared
@@ -192,11 +192,11 @@ jsonld:
   property_count: 3
   slug: google-cloud-functions-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Cloud Functions
 nav: Providers
 network: true
-overview: 'Google Cloud Functions publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Functions API, Locations API, Operations API, and 1 more. Tagged areas include Event-Driven, Functions, Google Cloud, and Serverless.
+overview: 'Google Cloud Functions publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Operations API, and 2 more. Tagged areas include Event-Driven, Functions, Google Cloud, and Serverless.
 
 
   The Google Cloud Functions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -207,7 +207,7 @@ plans:
 - name: Google Cloud Functions Plans Pricing
   plan_count: 3
   slug: google-cloud-functions-plans-pricing
-random_paper: 0
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Google Cloud Functions Rate Limits
@@ -255,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

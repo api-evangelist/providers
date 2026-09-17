@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -47,24 +47,9 @@ api_count: 2
 apis:
 - baseURL: https://cockroachlabs.cloud
   baseurl_source: declared
-  description: Manage API keys for programmatic access, including creation, retrieval, listing, updating, and deletion.
-  name: CockroachDB APIKeys API
-  slug: cockroachdb-apikeys-api
-- baseURL: https://cockroachlabs.cloud
-  baseurl_source: declared
-  description: Retrieve audit log events for the organization to support compliance and security investigations.
-  name: CockroachDB AuditLogs API
-  slug: cockroachdb-auditlogs-api
-- baseURL: https://cockroachlabs.cloud
-  baseurl_source: declared
   description: Authenticate to the Cluster API by creating and terminating API sessions. Session tokens are passed via the X-Cockroach-API-Session header on subsequent requests.
   name: CockroachDB Auth API
   slug: cockroachdb-auth-api
-- baseURL: https://cockroachlabs.cloud
-  baseurl_source: declared
-  description: Manage cluster backups, backup configurations, and restore operations for CockroachDB clusters.
-  name: CockroachDB BackupRestore API
-  slug: cockroachdb-backuprestore-api
 - baseURL: https://cockroachlabs.cloud
   baseurl_source: declared
   description: Retrieve invoices and billing information for the CockroachDB Cloud organization.
@@ -117,11 +102,6 @@ apis:
   slug: cockroachdb-logexport-api
 - baseURL: https://cockroachlabs.cloud
   baseurl_source: declared
-  description: Configure maintenance windows and blackout periods for cluster upgrade scheduling.
-  name: CockroachDB MaintenanceWindows API
-  slug: cockroachdb-maintenancewindows-api
-- baseURL: https://cockroachlabs.cloud
-  baseurl_source: declared
   description: Configure metric export integrations including AWS CloudWatch, Datadog, and Prometheus.
   name: CockroachDB MetricExport API
   slug: cockroachdb-metricexport-api
@@ -137,29 +117,14 @@ apis:
   slug: cockroachdb-organizations-api
 - baseURL: https://cockroachlabs.cloud
   baseurl_source: declared
-  description: Manage private endpoint services and connections for secure VPC-level access to clusters.
-  name: CockroachDB PrivateEndpoints API
-  slug: cockroachdb-privateendpoints-api
-- baseURL: https://cockroachlabs.cloud
-  baseurl_source: declared
   description: List and inspect range information for the cluster, including hot ranges by node and detailed information for specific range IDs.
   name: CockroachDB Ranges API
   slug: cockroachdb-ranges-api
 - baseURL: https://cockroachlabs.cloud
   baseurl_source: declared
-  description: Manage role-based access control, including assigning and removing roles for users across organization, folder, and cluster scopes.
-  name: CockroachDB RoleManagement API
-  slug: cockroachdb-rolemanagement-api
-- baseURL: https://cockroachlabs.cloud
-  baseurl_source: declared
   description: Retrieve alerting rules templates for use with Prometheus-compatible alerting systems.
   name: CockroachDB Rules API
   slug: cockroachdb-rules-api
-- baseURL: https://cockroachlabs.cloud
-  baseurl_source: declared
-  description: Manage service accounts used for machine-to-machine authentication within the organization.
-  name: CockroachDB ServiceAccounts API
-  slug: cockroachdb-serviceaccounts-api
 - baseURL: https://cockroachlabs.cloud
   baseurl_source: declared
   description: List active SQL sessions across all nodes of the cluster, with optional filtering by username.
@@ -175,6 +140,41 @@ apis:
   description: Manage cluster version deferral policies to delay automatic CockroachDB version upgrades.
   name: CockroachDB VersionDeferral API
   slug: cockroachdb-versiondeferral-api
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage API keys for programmatic access, including creation, retrieval, listing, updating, and deletion.
+  name: CockroachDB API Keys API
+  slug: cockroachdb-api-keys-api
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Retrieve audit log events for the organization to support compliance and security investigations.
+  name: CockroachDB Audit Logs API
+  slug: cockroachdb-audit-logs-api
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage cluster backups, backup configurations, and restore operations for CockroachDB clusters.
+  name: CockroachDB Backup Restore API
+  slug: cockroachdb-backup-restore-api
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Configure maintenance windows and blackout periods for cluster upgrade scheduling.
+  name: CockroachDB Maintenance Windows API
+  slug: cockroachdb-maintenance-windows-api
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage private endpoint services and connections for secure VPC-level access to clusters.
+  name: CockroachDB Private Endpoints API
+  slug: cockroachdb-private-endpoints-api
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage role-based access control, including assigning and removing roles for users across organization, folder, and cluster scopes.
+  name: CockroachDB Role Management API
+  slug: cockroachdb-role-management-api
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage service accounts used for machine-to-machine authentication within the organization.
+  name: CockroachDB Service Accounts API
+  slug: cockroachdb-service-accounts-api
 artifact_total: 207
 asyncapis:
 - description: AsyncAPI description of CockroachDB CHANGEFEED INTO sinks. CockroachDB Enterprise CHANGEFEEDs stream row-level change data to external systems. This document models the publicly documented sink target
@@ -755,7 +755,7 @@ modified: '2026-05-19'
 name: CockroachDB
 nav: Providers
 network: true
-overview: 'CockroachDB publishes 26 APIs on the [APIs.io](https://apis.io/) network, including APIKeys API, AuditLogs API, Auth API, and 23 more. Tagged areas include Cluster Management, Cloud, Database, Distributed SQL, and Infrastructure.
+overview: 'CockroachDB publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Billing API, Clusters API, and 23 more. Tagged areas include Cluster Management, Cloud, Database, Distributed SQL, and Infrastructure.
 
 
   The CockroachDB catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -766,7 +766,7 @@ plans:
 - name: Cockroachdb Plans Pricing
   plan_count: 3
   slug: cockroachdb-plans-pricing
-random_paper: 5
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Cockroachdb Rate Limits
@@ -831,7 +831,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

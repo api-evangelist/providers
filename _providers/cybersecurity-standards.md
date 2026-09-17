@@ -22,7 +22,7 @@ modified: '2026-04-28'
 name: Cybersecurity Standards
 nav: Providers
 network: true
-random_paper: 15
+random_paper: 10
 slug: cybersecurity-standards
 tags:
 - CIS Controls
@@ -30,7 +30,7 @@ tags:
 - CSF
 - Cybersecurity
 - FedRAMP
-- Frameworks
+- Framework
 - HIPAA
 - HITRUST
 - Information Security

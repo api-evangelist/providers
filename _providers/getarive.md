@@ -39,7 +39,7 @@ overview: 'ARIVE is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   ARIVE''s developer surface includes legal docs and 3 more developer resources.'
-random_paper: 15
+random_paper: 19
 screenshot: https://raw.githubusercontent.com/api-evangelist/getarive/refs/heads/main/screenshots/getarive-2026-07-25T215716.png
 slug: getarive
 tags:

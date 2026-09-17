@@ -34,14 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://api.research-repository.uwa.edu.au/ws/oai
-  baseurl_source: declared
-  description: An open, unauthenticated OAI-PMH 2.0 metadata harvesting endpoint operated by UWA on its own host. All six protocol verbs returned 200 on 2026-08-30 with no credential presented. Identify reports admi
-  name: UWA Research Repository OAI-PMH
-  slug: oai-pmh
 - description: UWA operates its own Shibboleth identity provider and publishes signed SAML 2.0 federation metadata at https://idp.uwa.edu.au/idp/shibboleth (200, 5,081 bytes). The document is an EntityDescriptor wit
   name: UWA Shibboleth Identity Provider (SAML 2.0 metadata)
   slug: identity-federation
@@ -54,6 +49,11 @@ apis:
 - description: UWA Library discovery, served from onesearch.library.uwa.edu.au and redirecting to an Ex Libris Primo VE application scoped to vid=61UWA_INST. The tenancy is UWA's; the discovery platform, its APIs an
   name: UWA Library OneSearch (Ex Libris Primo VE tenancy)
   slug: library-catalog
+- baseURL: https://api.research-repository.uwa.edu.au/ws/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs exposed by the UWA research repository.
+  name: University of Western Australia Oai Pmh API
+  slug: uwa-oai-pmh-api
 artifact_total: 10
 common:
 - group: company
@@ -164,7 +164,7 @@ modified: '2026-08-30'
 name: University of Western Australia
 nav: Providers
 network: true
-overview: 'University of Western Australia publishes 1 API on the [APIs.io](https://apis.io/) network: UWA Research Repository OAI-PMH. Tagged areas include Education, Higher Education, University, Australia, and Group of Eight.
+overview: 'University of Western Australia publishes 1 API on the [APIs.io](https://apis.io/) network: Oai Pmh API. Tagged areas include Education, Higher Education, University, Australia, and Group of Eight.
 
 
   University of Western Australia''s developer surface includes engineering blog, support, authentication, and 19 more developer resources.'
@@ -172,7 +172,7 @@ plans:
 - name: Uwa Plans Pricing
   plan_count: 2
   slug: uwa-plans-pricing
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Uwa Rate Limits
@@ -217,7 +217,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

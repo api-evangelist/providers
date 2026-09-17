@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Microsoft Azure Cdn Plans Pricing
   plan_count: 3
   slug: microsoft-azure-cdn-plans-pricing
-random_paper: 0
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Cdn Rate Limits
@@ -185,7 +185,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

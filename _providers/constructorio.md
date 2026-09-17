@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 34
 apis:
 - description: Remote, anonymously reachable Model Context Protocol server published by Constructor that exposes documentation search/fetch and OpenAPI endpoint discovery tools to AI coding tools such as Claude, Cur
@@ -540,7 +540,7 @@ overview: 'Constructor.io publishes 38 APIs on the [APIs.io](https://apis.io/) n
 
 
   Constructor.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 44 more developer resources.'
-random_paper: 10
+random_paper: 8
 scopes:
 - name: Constructorio Scopes
   scope_count: 37
@@ -560,7 +560,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 61.4
+    contract_quality: 61.2
     developer_ergonomics: 57.7
     discoverability: 75.9
     operational_transparency: 22.4
@@ -575,7 +575,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -103,11 +103,6 @@ apis:
   slug: hiro-mempool-api
 - baseURL: https://api.mainnet.hiro.so
   baseurl_source: declared
-  description: Read-only endpoints to obtain microblocks details
-  name: Hiro Microblocks API
-  slug: hiro-microblocks-api
-- baseURL: https://api.mainnet.hiro.so
-  baseurl_source: declared
   description: Endpoints related to Stacks block production and mining.
   name: Hiro Mining API
   slug: hiro-mining-api
@@ -171,6 +166,11 @@ apis:
   description: Endpoints to obtain transaction details and to broadcast transactions to the network
   name: Hiro Transactions API
   slug: hiro-transactions-api
+- baseURL: https://api.platform.hiro.so
+  baseurl_source: declared
+  description: Read-only endpoints to obtain microblocks details
+  name: Hiro Micro Blocks API
+  slug: hiro-micro-blocks-api
 artifact_total: 57
 collections:
 - collection_type: open
@@ -315,7 +315,7 @@ plans:
 - name: Hiro Plans Pricing
   plan_count: 3
   slug: hiro-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Hiro Rate Limits
@@ -334,7 +334,7 @@ score:
   facets:
     access_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 53.4
+    contract_quality: 53.2
     developer_ergonomics: 23.8
     discoverability: 74.1
     operational_transparency: 7.9
@@ -347,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

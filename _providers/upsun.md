@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.upsun.com
@@ -157,11 +157,6 @@ apis:
   description: The Organizations API from Upsun — 4 operation(s) for organizations.
   name: Upsun Organizations API
   slug: upsun-organizations-api
-- baseURL: https://api.upsun.com
-  baseurl_source: declared
-  description: The PhoneNumber API from Upsun — 2 operation(s) for phonenumber.
-  name: Upsun PhoneNumber API
-  slug: upsun-phonenumber-api
 - baseURL: https://api.upsun.com
   baseurl_source: declared
   description: The Profiles API from Upsun — 2 operation(s) for profiles.
@@ -287,6 +282,11 @@ apis:
   description: These endpoints can be used to retrieve vouchers associated with a particular user as well as apply a voucher to a particular user.
   name: Upsun Vouchers API
   slug: upsun-vouchers-api
+- baseURL: https://api.upsun.com
+  baseurl_source: declared
+  description: The Phone Number API from Upsun — 2 operation(s) for phone number.
+  name: Upsun Phone Number API
+  slug: upsun-phone-number-api
 artifact_total: 158
 asyncapis:
 - description: ''
@@ -794,7 +794,7 @@ overview: 'Upsun publishes 50 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Upsun''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, developer console, and 32 more developer resources.'
-random_paper: 4
+random_paper: 21
 scopes:
 - name: Upsun Scopes
   scope_count: 1
@@ -829,7 +829,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

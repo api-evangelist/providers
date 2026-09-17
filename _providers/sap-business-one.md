@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -50,11 +50,6 @@ apis:
 - description: COM-based Data Interface API for the SQL Server edition of SAP Business One providing programmatic access to business objects, master data, and transactional documents. The companion DI Server exposes
   name: SAP Business One DI API
   slug: di-api
-- baseURL: https://<load-balancer>:50000/b1s/v2
-  baseurl_source: declared
-  description: The BusinessPartners API from SAP Business One — 1 operation(s) for businesspartners.
-  name: SAP Business One BusinessPartners API
-  slug: sap-business-one-businesspartners-api
 - baseURL: https://<load-balancer>:50000/b1s/v2
   baseurl_source: declared
   description: The BusinessPartners('{CardCode}') API from SAP Business One — 1 operation(s) for businesspartners('{cardcode}').
@@ -95,6 +90,11 @@ apis:
   description: The Orders({DocEntry}) API from SAP Business One — 1 operation(s) for orders({docentry}).
   name: SAP Business One Orders({DocEntry}) API
   slug: sap-business-one-orders-docentry-api
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The Business Partners API from SAP Business One — 1 operation(s) for business partners.
+  name: SAP Business One Business Partners API
+  slug: sap-business-one-business-partners-api
 artifact_total: 26
 collections:
 - collection_type: open
@@ -204,11 +204,11 @@ modified: '2026-08-21'
 name: SAP Business One
 nav: Providers
 network: true
-overview: 'SAP Business One publishes 9 APIs on the [APIs.io](https://apis.io/) network, including BusinessPartners API, BusinessPartners(''{CardCode}'') API, CompanyService GetCompanyInfo API, and 6 more. Tagged areas include ERP, Enterprise Resource Planning, Accounting, Inventory Management, and CRM.
+overview: 'SAP Business One publishes 9 APIs on the [APIs.io](https://apis.io/) network, including BusinessPartners(''{CardCode}'') API, CompanyService GetCompanyInfo API, Invoices API, and 6 more. Tagged areas include ERP, Accounting, Inventory Management, CRM, and Small Business.
 
 
   SAP Business One''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 16
+random_paper: 6
 score:
   band: thin
   composite: 33.1
@@ -236,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -258,7 +258,6 @@ security:
 slug: sap-business-one
 tags:
 - ERP
-- Enterprise Resource Planning
 - Accounting
 - Inventory Management
 - CRM

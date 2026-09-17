@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ press:
 - date: '2026-05-25'
   title: Frontier Launches Network-as-a-Service for ...
   url: https://www.businesswire.com/news/home/20240125901225/en/Frontier-Launches-Network-as-a-Service-for-Business-Customers
-random_paper: 16
+random_paper: 11
 score:
   band: minimal
   composite: 2.6
@@ -97,7 +97,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

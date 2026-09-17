@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -182,11 +182,11 @@ modified: '2026-05-24'
 name: Mukuru
 nav: Providers
 network: true
-overview: 'Mukuru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Remittance, Money Transfer, Cross-Border Payments, Africa, and South Africa.
+overview: 'Mukuru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Remittances, Money Transfer, Cross-Border Payments, Africa, and South Africa.
 
 
   Mukuru''s developer surface includes signup flow, engineering blog, legal docs, GitHub presence, YouTube channel, and 29 more developer resources.'
-random_paper: 9
+random_paper: 21
 score:
   band: minimal
   composite: 8.4
@@ -218,7 +218,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -232,7 +232,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: mukuru
 tags:
-- Remittance
+- Remittances
 - Money Transfer
 - Cross-Border Payments
 - Africa
@@ -240,7 +240,7 @@ tags:
 - Diaspora
 - Mobile Money
 - Wallets
-- Prepaid Card
+- Prepaid Cards
 - Funeral Insurance
 - Disbursements
 - Collection

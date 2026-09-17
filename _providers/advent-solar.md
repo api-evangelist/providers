@@ -18,13 +18,13 @@ modified: '2026-09-15'
 name: Advent Solar
 nav: Providers
 network: true
-overview: Advent Solar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Photovoltaic, Renewable Energy, and Clean Energy.
-random_paper: 14
+overview: Advent Solar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Solar, Photovoltaics, Renewable Energy, and Clean Energy.
+random_paper: 0
 slug: advent-solar
 tags:
 - Company
 - Solar
-- Photovoltaic
+- Photovoltaics
 - Renewable Energy
 - Clean Energy
 - Manufacturing

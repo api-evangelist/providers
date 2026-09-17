@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ plans:
 - name: Plans
   plan_count: 8
   slug: plans
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 11
   name: Rate Limits
@@ -256,7 +256,7 @@ score:
     regime_id: government
     score: 33.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

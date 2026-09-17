@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -304,7 +304,7 @@ plans:
 - name: Elastic Observability Plans Pricing
   plan_count: 2
   slug: elastic-observability-plans-pricing
-random_paper: 9
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Elastic Observability Rate Limits
@@ -339,7 +339,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

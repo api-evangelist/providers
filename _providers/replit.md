@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ modified: '2026-05-19'
 name: Replit
 nav: Providers
 network: true
-overview: 'Replit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Deployments API, Repls API, and Users API. Tagged areas include Code, Compiling, Developer Tools, Development Environment, and Programming Languages.
+overview: 'Replit publishes 3 APIs on the [APIs.io](https://apis.io/) network: Deployments API, Repls API, and Users API. Tagged areas include Code, Compiling, Developer Tools, Development Environment, and Programming Language.
 
 
   The Replit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -211,7 +211,7 @@ plans:
 - name: Replit Plans Pricing
   plan_count: 3
   slug: replit-plans-pricing
-random_paper: 5
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Replit Rate Limits
@@ -265,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -290,7 +290,7 @@ tags:
 - Compiling
 - Developer Tools
 - Development Environment
-- Programming Languages
+- Programming Language
 - Version Control
 website: https://replit.com
 ---

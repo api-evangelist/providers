@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Internal REST API for managing Strikingly website content, sections, blog posts, store products, form submissions, and membership settings. Access is provided through the Strikingly platform using OAu
@@ -113,7 +113,7 @@ plans:
 - name: Strikingly Plans Pricing
   plan_count: 4
   slug: strikingly-plans-pricing
-random_paper: 12
+random_paper: 4
 rate_limits:
 - limit_count: 15
   name: Strikingly Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 26.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

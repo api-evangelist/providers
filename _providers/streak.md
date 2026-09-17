@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -59,11 +59,6 @@ apis:
   slug: streak-fields-api
 - baseURL: https://api.streak.com/api
   baseurl_source: declared
-  description: The Newsfeed API from Streak — 1 operation(s) for newsfeed.
-  name: Streak Newsfeed API
-  slug: streak-newsfeed-api
-- baseURL: https://api.streak.com/api
-  baseurl_source: declared
   description: The Pipelines API from Streak — 2 operation(s) for pipelines.
   name: Streak Pipelines API
   slug: streak-pipelines-api
@@ -82,6 +77,11 @@ apis:
   description: The Webhooks API from Streak — 1 operation(s) for webhooks.
   name: Streak Webhooks API
   slug: streak-webhooks-api
+- baseURL: https://api.streak.com/api
+  baseurl_source: declared
+  description: The News Feed API from Streak — 1 operation(s) for news feed.
+  name: Streak News Feed API
+  slug: streak-news-feed-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -176,11 +176,11 @@ modified: '2026-05-11'
 name: Streak
 nav: Providers
 network: true
-overview: 'Streak publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Boxes API, Fields API, Newsfeed API, and 4 more. Tagged areas include CRM, Sales, Gmail, Pipeline Management, and Email Tracking.
+overview: 'Streak publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Boxes API, Fields API, Pipelines API, and 4 more. Tagged areas include CRM, Sales, Gmail, Pipeline Management, and Email Tracking.
 
 
   Streak''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: thin
   composite: 31.0
@@ -209,7 +209,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

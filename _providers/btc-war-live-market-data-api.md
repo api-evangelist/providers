@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 55.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://btcwar.net
@@ -59,10 +59,10 @@ common:
   type: MCPServer
   url: https://btcwar.net/mcp
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/openapi/btc-war-live-market-data-api-market-data-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/openapi/_original/btc-war-live-market-data-api-market-data-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/btc-war-live-market-data-api-market-data-openapi.yml
+  url: openapi/_original/btc-war-live-market-data-api-market-data-openapi.yml
 - group: design
   href: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/arazzo/btc-war-live-market-data-api-arazzo.json
   title: ''
@@ -247,7 +247,7 @@ mcp_servers:
 - description: Read-only, sourced and timestamped Binance Spot USDT market observations.
   name: BTC War Live Market Data API MCP Server
   slug: btc-war-live-market-data-api-mcp-server-2
-modified: '2026-08-11'
+modified: '2026-09-16'
 name: BTC War Live Market Data API
 nav: Providers
 network: true
@@ -262,7 +262,7 @@ plans:
 - name: Btc War Live Market Data Api Plans Pricing
   plan_count: 1
   slug: btc-war-live-market-data-api-plans-pricing
-random_paper: 1
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Btc War Live Market Data Api Rate Limits
@@ -303,7 +303,7 @@ score:
     regime_id: securities_market_data
     score: 48.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -342,6 +342,6 @@ tags:
 - agent-native
 - Arazzo
 - JSON-Schema
-- AgentSkill
+- Agent Skills
 website: https://www.btcwar.net/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST API (v1) for integration partners to synchronize property-management data with Yuhu: companies, sites/projects, buildings, unit types, units, site staff, roles and permissions, leases, tenants, s'
@@ -41,6 +41,10 @@ apis:
   slug: yuhu-partners-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://yuhu.io
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/yuhu/refs/heads/main/security/yuhu-domain-security.yml
   title: ''
@@ -144,15 +148,15 @@ created: '2026-07-17'
 description: Yuhu is a cloud-based rental lifecycle management platform for multifamily and single-family property managers, covering leasing, prospects and applications, tenants and leases, buildings and units, service requests, notices, amenities, showings, rentable items, and rent payments (EFT/ACH pre-authorized debit). Founded in Toronto in 2015 and acquired by HappyCo in November 2022, Yuhu is now part of HappyCo's Happy Property suite. Yuhu exposes a REST Partners API (v1) at api.yuhu.io that lets integration partners and PMS systems synchronize companies, sites, buildings, unit types, units, leases, tenants, service requests, notices, and payments using OAuth 2.0 client-credentials bearer tokens, upsert-style writes, synchronous and asynchronous batch endpoints, and per-resource hourly rate limits.
 image: https://cdn.prod.website-files.com/6414ce4dcbfbc386d105ceb9/64784cb7f5cd8d6fe9023736_HappCo-logo-Navy.svg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Yuhu
 nav: Providers
 network: true
 overview: 'Yuhu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, PropTech, Real-Estate, and Multifamily.
 
 
-  Yuhu''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 18
+  Yuhu''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 16 more developer resources.'
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Yuhu Rate Limits
@@ -186,7 +190,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -213,5 +217,5 @@ tags:
 - Leasing
 - Payments
 - Partners API
-website: https://developer.yuhu.io/
+website: https://yuhu.io
 ---

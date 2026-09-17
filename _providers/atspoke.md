@@ -24,7 +24,7 @@ name: atSpoke
 nav: Providers
 network: true
 overview: atSpoke is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Saas, Help Desk, Service Desk, and Employee Support.
-random_paper: 3
+random_paper: 11
 slug: atspoke
 tags:
 - Company
@@ -32,7 +32,7 @@ tags:
 - Help Desk
 - Service Desk
 - Employee Support
-- HR
+- Human Resources
 - ITSM
 - Acquired
 - Defunct

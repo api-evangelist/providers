@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -84,11 +84,6 @@ apis:
   slug: arcadia-power-meters-api
 - baseURL: https://api.arcadia.com/plug
   baseurl_source: declared
-  description: Access token issuance.
-  name: Arcadia OAuth API
-  slug: arcadia-power-oauth-api
-- baseURL: https://api.arcadia.com/plug
-  baseurl_source: declared
   description: Top-level organization resource.
   name: Arcadia Organizations API
   slug: arcadia-power-organizations-api
@@ -112,6 +107,11 @@ apis:
   description: Asynchronous events for statement, meter, and credential lifecycle.
   name: Arcadia Webhooks API
   slug: arcadia-power-webhooks-api
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Access token issuance.
+  name: Arcadia O Auth API
+  slug: arcadia-power-oauth-api
 artifact_total: 69
 collections:
 - collection_type: postman
@@ -363,7 +363,7 @@ plans:
 - name: Arcadia Power Plans Pricing
   plan_count: 4
   slug: arcadia-power-plans-pricing
-random_paper: 9
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Arcadia Power Rate Limits
@@ -412,7 +412,7 @@ score:
     regime_id: energy_utilities
     score: 37.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

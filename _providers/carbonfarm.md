@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://cms.int.carbonfarm.app
@@ -185,14 +185,14 @@ plans:
 - name: Carbonfarm Plans Pricing
   plan_count: 0
   slug: carbonfarm-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Carbonfarm Rate Limits
   slug: carbonfarm-rate-limits
 score:
   band: thin
-  composite: 28.6
+  composite: 28.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 32.0
@@ -200,11 +200,11 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 17.1
     contract_governance: 18.2
-    contract_quality: 53.1
+    contract_quality: 52.5
     developer_ergonomics: 20.8
     discoverability: 59.3
     operational_transparency: 2.6
@@ -219,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

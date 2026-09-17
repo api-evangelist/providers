@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 400
   human_in_the_loop: 151
@@ -172,11 +172,6 @@ apis:
   slug: extole-javascript-core-extensions-api
 - baseURL: https://api.extole.io
   baseurl_source: declared
-  description: The Optout API from Extole — 1 operation(s) for optout.
-  name: Extole Optout API
-  slug: extole-optout-api
-- baseURL: https://api.extole.io
-  baseurl_source: declared
   description: The Persons API from Extole — 28 operation(s) for persons.
   name: Extole Persons API
   slug: extole-persons-api
@@ -265,6 +260,11 @@ apis:
   description: The Zone Rendering API from Extole — 2 operation(s) for zone rendering.
   name: Extole Zone Rendering API
   slug: extole-zone-rendering-api
+- baseURL: https://api.extole.io
+  baseurl_source: declared
+  description: The opt Out API from Extole — 1 operation(s) for opt out.
+  name: Extole opt Out API
+  slug: extole-opt-out-api
 artifact_total: 99
 asyncapis:
 - description: ''
@@ -638,7 +638,7 @@ plans:
 - name: Extole Plans Pricing
   plan_count: 0
   slug: extole-plans-pricing
-random_paper: 6
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Extole Rate Limits
@@ -674,7 +674,7 @@ score:
   facets:
     access_clarity: 43.4
     contract_governance: 63.6
-    contract_quality: 66.8
+    contract_quality: 66.9
     developer_ergonomics: 58.9
     discoverability: 81.5
     operational_transparency: 63.2
@@ -690,7 +690,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

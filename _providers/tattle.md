@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Tattle describes an open, REST-based API and an API-first design ("Modern REST APIs with comprehensive documentation for custom integrations") enabling two-way data synchronization with restaurant POS
@@ -118,7 +118,7 @@ plans:
 - name: Tattle Plans Pricing
   plan_count: 6
   slug: tattle-plans-pricing
-random_paper: 3
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Tattle Rate Limits
@@ -143,7 +143,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

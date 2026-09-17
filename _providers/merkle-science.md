@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.kybb.app.merklescience.com/api/v1
@@ -182,7 +182,7 @@ overview: 'Merkle Science publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Merkle Science''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, sandbox, and 19 more developer resources.'
-random_paper: 8
+random_paper: 7
 score:
   band: developing
   composite: 40.8
@@ -212,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

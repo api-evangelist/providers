@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 53.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Hosted remote Model Context Protocol server exposing 18 Toksta tools — campaigns, creator discovery, lists, enrichment, content-fit and audience-fit analysis, and job control — to Claude and ChatGPT c
@@ -235,7 +235,7 @@ plans:
 - name: Toksta Plans Pricing
   plan_count: 0
   slug: toksta-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Toksta Rate Limits
@@ -259,7 +259,7 @@ score:
   facets:
     access_clarity: 11.8
     contract_governance: 18.2
-    contract_quality: 54.2
+    contract_quality: 54.5
     developer_ergonomics: 58.9
     discoverability: 75.9
     operational_transparency: 31.6
@@ -274,7 +274,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

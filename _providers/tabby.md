@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 42.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -432,6 +432,10 @@ common:
   title: ''
   type: Overlay
   url: overlays/tabby-disputes-api-overlay.yaml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:help@tabby.ai
 created: '2026-05-24'
 description: Tabby is the MENA region's largest buy-now-pay-later (BNPL) provider, founded in 2019 by Hosam Arab (ex-Namshi) and Daniil Barkalov, originally in Dubai and now headquartered in Riyadh ahead of a planned IPO. Tabby reached a $3.3B valuation in a February 2025 Series E ($160M co-led by Blue Pool Capital and Hassana Investment Company), making it the most valuable fintech in the Middle East, and reports 15M+ users, 40,000+ merchants, and $10B+ in annualized transaction volume across KSA, UAE, and Kuwait. The Tabby API powers split-purchase checkouts (Pay-in-4 interest-free, monthly plans up to 12 months), payment lifecycle management, webhooks, and dispute resolution, complemented by Tabby Card (Visa-enabled), Tabby Shop discovery, Tabby Care purchase protection, and the Tabby Plus loyalty programme. Public developer surface includes a versioned REST API across two regional hosts (api.tabby.ai for UAE/Kuwait, api.tabby.sa for KSA), an OpenAPI 3.1 specification, iOS / Android /
   Flutter / React Native SDKs, and certified Magento 2, Shopify, WooCommerce, Salla, Zid, OpenCart, ExpandCart, Matjrah, Salesforce, and Odoo plugins.
@@ -498,12 +502,12 @@ overview: 'Tabby publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Tabby catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Tabby''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, API reference, and 70 more developer resources.'
+  Tabby''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, API reference, and 71 more developer resources.'
 plans:
 - name: Tabby Plans Pricing
   plan_count: 3
   slug: tabby-plans-pricing
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Tabby Rate Limits
@@ -573,7 +577,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -598,6 +602,6 @@ tags:
 - MENA
 - Payments
 - Saudi Arabia
-- UAE
+- United Arab Emirates
 website: https://tabby.ai
 ---

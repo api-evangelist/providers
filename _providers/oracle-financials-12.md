@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: API for managing general ledger operations including journals, budgets, and financial reporting.
@@ -62,6 +62,10 @@ apis:
   slug: oracle-projects-api
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/oracle-financials-12/refs/heads/main/security/oracle-financials-12-domain-security.yml
   title: ''
@@ -103,14 +107,14 @@ finops:
   slug: oracle-financials-12-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oracle-financials-12.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-16'
 name: Oracle Financials 12
 nav: Providers
 network: true
 overview: 'Oracle Financials 12 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Oracle General Ledger API, Oracle Accounts Payable API, and Oracle Accounts Receivable API. Tagged areas include Accounting, E-Business Suite, Enterprise, ERP, and Financial Management.
 
 
-  Oracle Financials 12''s developer surface includes developer portal, authentication, and 6 more developer resources.'
+  Oracle Financials 12''s developer surface includes developer portal, authentication, and 7 more developer resources.'
 plans:
 - name: Oracle Financials 12 Plans Pricing
   plan_count: 3
@@ -140,7 +144,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 26.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -161,5 +165,5 @@ tags:
 - Financial Management
 - Oracle
 - Release 12
-website: https://support.oracle.com
+website: https://oracle.com
 ---

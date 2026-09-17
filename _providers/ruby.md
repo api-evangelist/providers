@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ apis:
 - baseURL: https://rubygems.org/api/v1
   baseurl_source: declared
   description: The Gems API from Ruby Programming Language and Popular API Gems — 4 operation(s) for gems.
-  name: Ruby Programming Language and Popular API Gems Gems API
+  name: Ruby Programming Language and Popular API Gems API
   slug: ruby-gems-api
 - baseURL: https://rubygems.org/api/v1
   baseurl_source: declared
@@ -338,18 +338,18 @@ jsonld:
   property_count: 17
   slug: ruby-context
 layout: provider
-modified: '2026-05-23'
+modified: '2026-09-16'
 name: Ruby Programming Language and Popular API Gems
 nav: Providers
 network: true
-overview: 'Ruby Programming Language and Popular API Gems publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Activity API, API Keys API, Downloads API, and 6 more. Tagged areas include Programming Language, Ruby, HTTP, REST, and API Clients.
+overview: 'Ruby Programming Language and Popular API Gems publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Activity API, API Keys API, Downloads API, and 6 more. Tagged areas include Programming Language, Ruby, HTTP, REST, and API Client.
 
 
   The Ruby Programming Language and Popular API Gems catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
   Ruby Programming Language and Popular API Gems'' developer surface includes authentication, documentation, getting-started guide, release notes, engineering blog, and 21 more developer resources.'
-random_paper: 9
+random_paper: 10
 rules:
 - effective_rule_count: 5
   extends: []
@@ -399,7 +399,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -427,8 +427,8 @@ tags:
 - Ruby
 - HTTP
 - REST
-- API Clients
-- Frameworks
+- API Client
+- Framework
 - Libraries
 - Package Registry
 use_cases:

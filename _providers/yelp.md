@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -106,6 +106,10 @@ collections:
   name: Yelp Fusion API
   slug: open-yelp
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://yelp.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -434,7 +438,7 @@ jsonld:
   property_count: 80
   slug: yelp-fusion-api-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-09-16'
 name: Yelp
 nav: Providers
 network: true
@@ -444,12 +448,12 @@ overview: 'Yelp publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The Yelp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 30 more developer resources.'
+  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 31 more developer resources.'
 plans:
 - name: Yelp Plans Pricing
   plan_count: 5
   slug: yelp-plans-pricing
-random_paper: 1
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Yelp Rate Limits
@@ -506,7 +510,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -543,5 +547,5 @@ use_cases:
   name: Conversational Concierge
 - description: Embed curated local event listings into apps and sites.
   name: Local Events Listings
-website: https://www.yelp.com/developers
+website: https://yelp.com
 ---

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: The MoMo All-in-One (AIO v2) merchant payment gateway. One integration covers MoMo e-wallet, domestic ATM card, credit card, Apple Pay, Google Pay, Buy Now Pay Later, Quick Pay POS scanner, collection
@@ -235,7 +235,7 @@ plans:
 - name: Momo Plans Pricing
   plan_count: 0
   slug: momo-plans-pricing
-random_paper: 20
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Momo Rate Limits
@@ -279,7 +279,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -303,7 +303,7 @@ tags:
 - Digital Wallet
 - Payment Gateway
 - QR Payments
-- Disbursement
+- Disbursements
 - Buy Now Pay Later
 - E-Commerce
 - Vietnam

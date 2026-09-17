@@ -18,21 +18,60 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 33.1
-  scored_at: '2026-09-15'
+  score: 34.9
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://edge.arakelproof.space
   baseurl_source: declared
-  description: Read-only REST API providing compact market context, topic-specific context, and richer decision-support context for AI agents. Payment-gated via x402 (USDC on Base); no API key or signup. Also expose
-  name: EventEdge Oracle Agent Context API
-  slug: eventedge-oracle-agent-context-api
-artifact_total: 6
+  description: Unsigned calldata for the customer's own wallet to send.
+  name: EventEdge Oracle Cancellation API
+  slug: eventedge-oracle-cancellation-api
+- baseURL: https://edge.arakelproof.space
+  baseurl_source: declared
+  description: A single payment to a single recipient.
+  name: EventEdge Oracle One-time payments API
+  slug: eventedge-oracle-one-time-payments-api
+- baseURL: https://edge.arakelproof.space
+  baseurl_source: declared
+  description: Signed once by the customer, charged by your renewal job.
+  name: EventEdge Oracle Recurring payments API
+  slug: eventedge-oracle-recurring-payments-api
+- baseURL: https://edge.arakelproof.space
+  baseurl_source: declared
+  description: A transfer from the merchant's own wallet back to the wallet that paid.
+  name: EventEdge Oracle Refunds API
+  slug: eventedge-oracle-refunds-api
+- baseURL: https://edge.arakelproof.space
+  baseurl_source: declared
+  description: Liveness.
+  name: EventEdge Oracle Service API
+  slug: eventedge-oracle-service-api
+- baseURL: https://edge.arakelproof.space
+  baseurl_source: declared
+  description: The Subscriptions API from EventEdge Oracle — 1 operation(s) for subscriptions.
+  name: EventEdge Oracle Subscriptions API
+  slug: eventedge-oracle-subscriptions-api
+artifact_total: 11
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://edge.arakelproof.space/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/eventedge-oracle/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/eventedge-oracle/refs/heads/main/overlays/eventedge-oracle-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/eventedge-oracle-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -48,19 +87,19 @@ modified: '2026-09-15'
 name: EventEdge Oracle
 nav: Providers
 network: true
-overview: 'EventEdge Oracle publishes 1 API on the [APIs.io](https://apis.io/) network: Agent Context API. Tagged areas include Prediction Markets, x402, AI Agents, Polymarket, and Kalshi.'
+overview: EventEdge Oracle publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cancellation API, One-time payments API, Recurring payments API, and 3 more. Tagged areas include Prediction Markets, x402, AI Agents, Polymarket, and Kalshi.
 plans:
 - name: Eventedge Oracle Plans Pricing
   plan_count: 0
   slug: eventedge-oracle-plans-pricing
-random_paper: 9
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Eventedge Oracle Rate Limits
   slug: eventedge-oracle-rate-limits
 score:
   band: thin
-  composite: 30.7
+  composite: 29.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 35.0
@@ -68,24 +107,27 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.9
   facets:
     access_clarity: 10.5
     contract_governance: 18.2
-    contract_quality: 55.2
+    contract_quality: 51.6
     developer_ergonomics: 30.4
     discoverability: 72.2
     operational_transparency: 0.0
+  previous_composite: 30.7
   provenance:
     conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 6
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

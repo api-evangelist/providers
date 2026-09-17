@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -91,11 +91,11 @@ modified: '2026-07-18'
 name: BetterUp
 nav: Providers
 network: true
-overview: 'BetterUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, Coaching, Leadership Development, and Professional Development.
+overview: 'BetterUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Coaching, Leadership Development, and Professional Development.
 
 
   BetterUp''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 14
+random_paper: 17
 score:
   band: emerging
   composite: 17.2
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -135,7 +135,7 @@ security:
 slug: betterup
 tags:
 - Company
-- HR Tech
+- Human Resources
 - Coaching
 - Leadership Development
 - Professional Development

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.dyno-agents.app
@@ -300,7 +300,7 @@ plans:
 - name: Dyno Plans Pricing
   plan_count: 0
   slug: dyno-plans-pricing
-random_paper: 1
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Dyno Rate Limits
@@ -345,7 +345,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

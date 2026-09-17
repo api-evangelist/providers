@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,11 +125,11 @@ modified: '2026-07-20'
 name: Openspec
 nav: Providers
 network: true
-overview: 'Openspec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Spec-Driven Development, AI Coding Assistants, Developer Tools, CLI, and Specifications.
+overview: 'Openspec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Spec-Driven Development, AI Coding Assistants, Developer Tools, CLI, and Specification.
 
 
   Openspec''s developer surface includes documentation, getting-started guide, API reference, changelog, support, CLI, and 13 more developer resources.'
-random_paper: 0
+random_paper: 3
 score:
   band: emerging
   composite: 21.8
@@ -153,7 +153,7 @@ score:
     score: 60.0
   previous_composite: 21.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -171,7 +171,7 @@ tags:
 - AI Coding Assistants
 - Developer Tools
 - CLI
-- Specifications
+- Specification
 - Context Engineering
 - Open-Source
 - Coding Agents

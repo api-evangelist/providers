@@ -34,27 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.1
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
-- baseURL: https://vantage-us.abbyy.com
-  baseurl_source: declared
-  description: Public REST API for ABBYY Vantage intelligent document processing. Create transactions, upload and order files, launch AI skills for classification, extraction and OCR, poll transaction status, downlo
-  name: ABBYY Vantage Processing REST API
-  slug: abbyy-vantage-processing
-- baseURL: https://vantage-us.abbyy.com
-  baseurl_source: declared
-  description: Reporting REST API for ABBYY Vantage. Downloads CSV extracts from the Business Processing Reporting Warehouse (transaction-level step timings, skill versions, reviewer detail) and the Analytics Report
-  name: ABBYY Vantage Reporting API
-  slug: abbyy-vantage-reporting
 - description: REST API for ABBYY FlexiCapture Cloud for Invoices. Uploads files, runs invoice capture tasks, downloads results, and maintains business-unit and vendor master-data sets plus model training. HTTP Basi
   name: ABBYY FlexiCapture Cloud for Invoices API
   slug: abbyy-flexicapture-invoices
 - description: Hosted, unauthenticated Model Context Protocol server over the public ABBYY documentation corpus. Exposes semantic search, a read-only virtual documentation filesystem, and a feedback tool, plus an MC
   name: ABBYY Documentation MCP Server
   slug: abbyy-docs-mcp
-artifact_total: 12
+- baseURL: https://vantage-us.abbyy.com
+  baseurl_source: declared
+  description: The CatalogRecords API from ABBYY — 3 operation(s) for catalogrecords.
+  name: ABBYY Catalog Records API
+  slug: abbyy-catalogrecords-api
+- baseURL: https://vantage-us.abbyy.com
+  baseurl_source: declared
+  description: The Catalogs API from ABBYY — 5 operation(s) for catalogs.
+  name: ABBYY Catalogs API
+  slug: abbyy-catalogs-api
+- baseURL: https://vantage-us.abbyy.com
+  baseurl_source: declared
+  description: The Invites API from ABBYY — 1 operation(s) for invites.
+  name: ABBYY Invites API
+  slug: abbyy-invites-api
+- baseURL: https://vantage-us.abbyy.com
+  baseurl_source: declared
+  description: The Report API from ABBYY — 5 operation(s) for report.
+  name: ABBYY Report API
+  slug: abbyy-report-api
+- baseURL: https://vantage-us.abbyy.com
+  baseurl_source: declared
+  description: The Report v1 API from ABBYY — 3 operation(s) for report v1.
+  name: ABBYY Report v1 API
+  slug: abbyy-report-v1-api
+- baseURL: https://vantage-us.abbyy.com
+  baseurl_source: declared
+  description: The Skills API from ABBYY — 2 operation(s) for skills.
+  name: ABBYY Skills API
+  slug: abbyy-skills-api
+- baseURL: https://vantage-us.abbyy.com
+  baseurl_source: declared
+  description: The Transactions API from ABBYY — 11 operation(s) for transactions.
+  name: ABBYY Transactions API
+  slug: abbyy-transactions-api
+- baseURL: https://api-us.flexicapture.com
+  baseurl_source: declared
+  description: The Transaction Documents API from ABBYY — 4 operation(s) for transaction documents.
+  name: ABBYY Transaction Documents API
+  slug: abbyy-transaction-documents-api
+artifact_total: 18
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/overlays/abbyy-vantage-processing-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abbyy-vantage-processing-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/abbyy/refs/heads/main/overlays/abbyy-vantage-reporting-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/abbyy-vantage-reporting-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -234,15 +274,15 @@ modified: '2026-08-29'
 name: ABBYY
 nav: Providers
 network: true
-overview: 'ABBYY publishes 2 APIs on the [APIs.io](https://apis.io/) network: Vantage Processing REST API and Vantage Reporting API. Tagged areas include AI Automation, Document Processing, OCR, Intelligent Document Processing, and Data Extraction.
+overview: 'ABBYY publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Catalog Records API, Catalogs API, Invites API, and 5 more. Tagged areas include AI Automation, Document Processing, OCR, Intelligent Document Processing, and Data Extraction.
 
 
-  ABBYY''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, and 29 more developer resources.'
+  ABBYY''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, and 31 more developer resources.'
 plans:
 - name: Abbyy Plans Pricing
   plan_count: 0
   slug: abbyy-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Abbyy Rate Limits
@@ -266,7 +306,7 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 54.6
+    contract_quality: 54.3
     developer_ergonomics: 71.4
     discoverability: 81.5
     operational_transparency: 42.1
@@ -277,11 +317,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 8
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

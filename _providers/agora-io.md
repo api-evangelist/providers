@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 11
 apis:
 - description: The Agora Video Calling API enables real-time, interactive video communication with sub-200ms global latency. Supports one-to-one calls, group calls, and multi-host scenarios across mobile, web, deskt
@@ -288,7 +288,7 @@ overview: 'Agora publishes 11 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Agora''s developer surface includes developer portal, documentation, API reference, developer console, signup flow, pricing, authentication, and 35 more developer resources.'
-random_paper: 6
+random_paper: 13
 score:
   band: thin
   composite: 30.6
@@ -311,7 +311,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -74,6 +74,10 @@ collections:
   name: Ready Player Me Assets Avatars API
   slug: open-ready-player-me-avatars-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://readyplayer.me
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/ready-player-me/refs/heads/main/agentic-access/ready-player-me-agentic-access.yml
   title: ''
@@ -257,7 +261,7 @@ jsonld:
   property_count: 8
   slug: ready-player-me-context
 layout: provider
-modified: '2026-08-26'
+modified: '2026-09-16'
 name: Ready Player Me
 nav: Providers
 network: true
@@ -267,12 +271,12 @@ overview: 'Ready Player Me publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Ready Player Me catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ready Player Me''s developer surface includes authentication, YouTube channel, support, tooling, and 26 more developer resources.'
+  Ready Player Me''s developer surface includes authentication, YouTube channel, support, tooling, and 27 more developer resources.'
 plans:
 - name: Ready Player Me Plans Pricing
   plan_count: 3
   slug: ready-player-me-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Ready Player Me Rate Limits
@@ -327,7 +331,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -351,4 +355,5 @@ tags:
 - Unreal
 - Web
 - Mobile
+website: https://readyplayer.me
 ---

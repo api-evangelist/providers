@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Official open-source Model Context Protocol server (Java) exposing 14 WhoisFreaks domain-intelligence tools to MCP-compatible AI clients. Distributed as source and as the whoisfreaks/mcp-server Docker
@@ -429,7 +429,7 @@ plans:
 - name: Whoisfreaks Plans
   plan_count: 5
   slug: whoisfreaks-plans
-random_paper: 14
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Whoisfreaks Rate Limits
@@ -463,7 +463,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

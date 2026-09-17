@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -467,7 +467,7 @@ overview: 'CMS — Centers for Medicare & Medicaid Services publishes 25 APIs on
 
 
   CMS — Centers for Medicare & Medicaid Services'' developer surface includes authentication, developer portal, support, sandbox, engineering blog, privacy policy, documentation, and 28 more developer resources.'
-random_paper: 7
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Cms Gov Rate Limits
@@ -532,7 +532,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

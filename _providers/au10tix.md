@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://eus-api.au10tixservices.com
@@ -133,7 +133,7 @@ plans:
 - name: Au10Tix Plans Pricing
   plan_count: 1
   slug: au10tix-plans-pricing
-random_paper: 1
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Au10Tix Rate Limits
@@ -158,7 +158,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 29.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

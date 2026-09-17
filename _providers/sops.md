@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The SOPS decrypt Go package provides programmatic access to SOPS-encrypted files from Go applications. It supports decryption of YAML, JSON, ENV, INI, and binary formats using configured key managemen
@@ -146,7 +146,7 @@ plans:
 - name: Sops Plans Pricing
   plan_count: 3
   slug: sops-plans-pricing
-random_paper: 12
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Sops Rate Limits
@@ -182,7 +182,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 19.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

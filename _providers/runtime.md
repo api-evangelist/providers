@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The hosted Runtime Cloud API — manage sandboxed coding-agent sessions, org templates, deployments, guardrails, secrets, knowledge and skill directives, and activity telemetry. Authenticated with scope
@@ -178,11 +178,11 @@ modified: '2026-07-21'
 name: Runtime
 nav: Providers
 network: true
-overview: 'Runtime publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coding Agents, Developer Tools, AI Infrastructure, and Sandboxes.
+overview: 'Runtime publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Coding Agents, Developer Tools, AI Infrastructure, and Sandbox.
 
 
   Runtime''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 16
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Runtime Rate Limits
@@ -214,7 +214,7 @@ score:
   provenance:
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -240,7 +240,7 @@ tags:
 - Coding Agents
 - Developer Tools
 - AI Infrastructure
-- Sandboxes
+- Sandbox
 - Agent Orchestration
 - DevOps
 - Cloud

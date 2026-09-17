@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - baseURL: http://localhost:8181
   baseurl_source: declared
   description: The Enterprise OPA REST API API from Styra — 1 operation(s) for enterprise opa rest api.
-  name: Styra Enterprise OPA REST API API
+  name: Styra Enterprise OPA REST API
   slug: styra-enterprise-opa-rest-api-api
 - baseURL: http://localhost:8181
   baseurl_source: declared
@@ -203,7 +203,7 @@ created: '2026-07-17'
 description: Styra is the company that created Open Policy Agent (OPA), the Cloud Native Computing Foundation graduated policy engine, and commercialized it as Enterprise OPA and Styra DAS (Declarative Authorization Service) for policy-as-code authorization across Kubernetes, microservices, APIs, and data. Styra was acquired by Akamai in December 2024; the styra.com and docs.styra.com properties no longer resolve, but OPA remains the de facto standard for cloud-native authorization and the open-source technical surface (GitHub, published SDKs, the OpenAPI spec, and gRPC protobufs) is active. The Enterprise OPA / OPA REST API evaluates Rego policy decisions, batch decisions, and partial-evaluation "data filtering" that compiles authorization into UCAST or SQL conditions. Backed originally by Accel and Battery Ventures.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/styra.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Styra
 nav: Providers
 network: true
@@ -211,7 +211,7 @@ overview: 'Styra publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Styra''s developer surface includes documentation, API reference, authentication, CLI, changelog, and 18 more developer resources.'
-random_paper: 17
+random_paper: 13
 score:
   band: thin
   composite: 29.4
@@ -248,7 +248,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

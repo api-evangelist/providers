@@ -35,7 +35,7 @@ name: Accelus
 nav: Providers
 network: true
 overview: Accelus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Medical Technology, Healthcare, and Spine Surgery.
-random_paper: 1
+random_paper: 10
 security:
 - kind: domain-security
   name: Accelus Domain Security

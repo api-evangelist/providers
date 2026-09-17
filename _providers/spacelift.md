@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,8 +51,8 @@ apis:
 - baseURL: https://{account}.app.spacelift.io/graphql
   baseurl_source: declared
   description: Spacelift GraphQL endpoint
-  name: Spacelift GraphQL API
-  slug: spacelift-graphql-api
+  name: Spacelift Graph QL API
+  slug: spacelift-graph-ql-api
 artifact_total: 20
 collections:
 - collection_type: postman
@@ -182,7 +182,7 @@ modified: '2026-05-02'
 name: Spacelift
 nav: Providers
 network: true
-overview: 'Spacelift publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Infrastructure as Code, FinOps, DevOps, Platform Engineering, and Terraform.
+overview: 'Spacelift publishes 1 API on the [APIs.io](https://apis.io/) network: Graph QL API. Tagged areas include Infrastructure as Code, FinOps, DevOps, Platform Engineering, and Terraform.
 
 
   The Spacelift catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -193,7 +193,7 @@ plans:
 - name: Spacelift Plans Pricing
   plan_count: 3
   slug: spacelift-plans-pricing
-random_paper: 10
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Spacelift Rate Limits
@@ -239,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

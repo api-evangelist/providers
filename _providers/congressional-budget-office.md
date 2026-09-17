@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Downloadable budget and economic data accompanying CBO's Budget and Economic Outlook reports. Includes 10-year projections of revenues, outlays, deficits, debt, employment, GDP, interest rates, and hi
@@ -92,7 +92,7 @@ modified: '2026-04-28'
 name: Congressional Budget Office
 nav: Providers
 network: true
-overview: 'Congressional Budget Office publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Budget, CBO, Economic Projections, Federal-Government, and Legislative Branch.
+overview: 'Congressional Budget Office publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Budgets, CBO, Economic Projections, Federal-Government, and Legislative Branch.
 
 
   Congressional Budget Office''s developer surface includes documentation and 7 more developer resources.'
@@ -100,7 +100,7 @@ plans:
 - name: Congressional Budget Office Plans Pricing
   plan_count: 3
   slug: congressional-budget-office-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Congressional Budget Office Rate Limits
@@ -131,7 +131,7 @@ score:
     regime_id: government
     score: 18.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -145,7 +145,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: congressional-budget-office
 tags:
-- Budget
+- Budgets
 - CBO
 - Economic Projections
 - Federal-Government

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 124
@@ -241,7 +241,7 @@ plans:
 - name: Nexad Plans Pricing
   plan_count: 4
   slug: nexad-plans-pricing
-random_paper: 3
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Nexad Rate Limits
@@ -271,7 +271,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

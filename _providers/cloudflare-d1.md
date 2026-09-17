@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -269,7 +269,7 @@ plans:
 - name: Cloudflare D1 Plans Pricing
   plan_count: 2
   slug: cloudflare-d1-plans-pricing
-random_paper: 12
+random_paper: 19
 rate_limits:
 - limit_count: 25
   name: Cloudflare D1 Rate Limits
@@ -312,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

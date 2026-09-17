@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ modified: '2026-07-03'
 name: Smoobu
 nav: Providers
 network: true
-overview: 'Smoobu publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Apartments API, Guests API, Messaging API, and 3 more. Tagged areas include Vacation Rental, Channel Manager, Property Management, Short-Term Rental, and Reservations.
+overview: 'Smoobu publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Apartments API, Guests API, Messaging API, and 3 more. Tagged areas include Vacation Rentals, Channel Manager, Property Management, Short-Term Rental, and Reservations.
 
 
   Smoobu''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -172,7 +172,7 @@ plans:
 - name: Smoobu Plans Pricing
   plan_count: 4
   slug: smoobu-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Smoobu Rate Limits
@@ -204,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -221,7 +221,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: smoobu
 tags:
-- Vacation Rental
+- Vacation Rentals
 - Channel Manager
 - Property Management
 - Short-Term Rental

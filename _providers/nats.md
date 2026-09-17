@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,11 +60,6 @@ apis:
   description: The Accounts API from NATS — 1 operation(s) for accounts.
   name: NATS Accounts API
   slug: nats-accounts-api
-- baseURL: http://localhost:8222
-  baseurl_source: declared
-  description: Cluster, gateway, and leaf node endpoints
-  name: NATS Clustering API
-  slug: nats-clustering-api
 - baseURL: http://localhost:8222
   baseurl_source: declared
   description: The Connections API from NATS — 1 operation(s) for connections.
@@ -105,12 +100,7 @@ apis:
   description: The Subscriptions API from NATS — 1 operation(s) for subscriptions.
   name: NATS Subscriptions API
   slug: nats-subscriptions-api
-- baseURL: http://localhost:8222
-  baseurl_source: declared
-  description: Server monitoring and status endpoints
-  name: NATS Monitoring API
-  slug: nats-monitoring-api
-artifact_total: 37
+artifact_total: 35
 asyncapis:
 - description: NATS provides cloud-native messaging with core pub-sub, request-reply, and queue group patterns, plus JetStream for persistent streaming with streams, consumers, key-value stores, and object stores.
   name: NATS Core and JetStream Messaging API
@@ -275,7 +265,7 @@ modified: '2026-05-19'
 name: NATS
 nav: Providers
 network: true
-overview: 'NATS publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, JetStream Management API, Accounts API, and 10 more. Tagged areas include Cloud-Native, IoT, Message Broker, Microservices, and Pub-Sub.
+overview: 'NATS publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, JetStream Management API, Accounts API, and 8 more. Tagged areas include Cloud-Native, IoT, Message Broker, Microservices, and Pub-Sub.
 
 
   The NATS catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -286,7 +276,7 @@ plans:
 - name: Nats Plans Pricing
   plan_count: 8
   slug: nats-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 8
   name: Nats Rate Limits
@@ -327,7 +317,7 @@ score:
   facets:
     access_clarity: 28.6
     contract_governance: 13.6
-    contract_quality: 58.8
+    contract_quality: 58.9
     developer_ergonomics: 50.0
     discoverability: 66.7
     operational_transparency: 28.9
@@ -338,9 +328,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 11
+      total: 9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

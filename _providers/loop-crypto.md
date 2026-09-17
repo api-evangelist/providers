@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API for accepting crypto and stablecoin payments — customers, entities, merchants, tokens, payments, payouts, and webhooks. Authenticated with api-key and entity-id headers; URI-path versioned (v
@@ -47,6 +47,10 @@ asyncapis:
   name: Loop Crypto Webhooks
   slug: loop-crypto-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://loopcrypto.xyz
 - group: start
   title: ''
   type: DeveloperPortal
@@ -139,7 +143,7 @@ created: '2026-07-17'
 description: 'Loop Crypto is a crypto and stablecoin payment processor that lets merchants, billing software, and e-commerce platforms accept crypto and stablecoin payments end to end: charging a wallet, storing payment methods, accepting stablecoins, ERC-20 tokens, and Solana SPL tokens, and settling to merchants in either fiat or crypto. Loop offers payment links, an embeddable Pay/PayIn checkout component, a white-labelable Connect widget, and a REST API (v1/v2, api-key + entity-id header auth) covering customers, entities, merchants, tokens, payments, payouts, and webhooks, plus out-of-the-box integrations with Stripe, Chargebee, and OpenPay. Backed by a16z. NOTE: Loop is winding down and folding into Lead; the service was sunset on 2026-02-13 and is not recommended for new integrations.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loop-crypto.png
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Loop Crypto
 nav: Providers
 network: true
@@ -149,8 +153,8 @@ overview: 'Loop Crypto publishes 1 API on the [APIs.io](https://apis.io/) networ
   The Loop Crypto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Loop Crypto''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 12 more developer resources.'
-random_paper: 5
+  Loop Crypto''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 13 more developer resources.'
+random_paper: 16
 score:
   band: thin
   composite: 30.4
@@ -177,7 +181,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -203,5 +207,5 @@ tags:
 - Billing
 - Solana
 - Ethereum
-website: https://docs.loopcrypto.xyz
+website: https://loopcrypto.xyz
 ---

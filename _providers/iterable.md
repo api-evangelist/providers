@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 25
-  human_in_the_loop: 0
+- acting_count: 121
+  human_in_the_loop: 1
   name: Iterable Agentic Access
-  operation_count: 48
+  operation_count: 192
   slug: iterable-agentic-access
-  summary_line: 48 operations · 25 acting
+  summary_line: 192 operations · 121 acting · 1 human-in-the-loop
 api_count: 2
 apis:
 - baseURL: https://api.iterable.com
@@ -100,19 +100,9 @@ apis:
   slug: iterable-experiments-api
 - baseURL: https://api.iterable.com
   baseurl_source: declared
-  description: Manage in-app messages and retrieve in-app message content for mobile and web clients.
-  name: Iterable InApp API
-  slug: iterable-inapp-api
-- baseURL: https://api.iterable.com
-  baseurl_source: declared
   description: Create and manage subscriber lists. Subscribe and unsubscribe users from lists. Retrieve list metadata and membership.
   name: Iterable Lists API
   slug: iterable-lists-api
-- baseURL: https://api.iterable.com
-  baseurl_source: declared
-  description: Manage message types that categorize the kinds of messages sent through channels.
-  name: Iterable MessageTypes API
-  slug: iterable-messagetypes-api
 - baseURL: https://api.iterable.com
   baseurl_source: declared
   description: Store and retrieve key-value metadata tables for use in personalization and campaign logic.
@@ -138,11 +128,6 @@ apis:
   description: Manage user profiles, update user fields, bulk update users, get user data by email or userId, and delete users.
   name: Iterable Users API
   slug: iterable-users-api
-- baseURL: https://api.iterable.com
-  baseurl_source: declared
-  description: Send web push notifications and manage web push subscription tokens.
-  name: Iterable WebPush API
-  slug: iterable-webpush-api
 - baseURL: https://api.iterable.com
   baseurl_source: declared
   description: Trigger workflow enrollments and manage journey-based automation workflows.
@@ -185,10 +170,20 @@ apis:
   slug: iterable-webhooks-api
 - baseURL: https://api.iterable.com
   baseurl_source: declared
-  description: The WhatsApp API from Iterable — 2 operation(s) for whatsapp.
+  description: The Message types API from Iterable — 2 operation(s) for message types.
+  name: Iterable Message types API
+  slug: iterable-message-types-api
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The Web Push API from Iterable — 3 operation(s) for web push.
+  name: Iterable Web Push API
+  slug: iterable-web-push-api
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The Whats App API from Iterable — 2 operation(s) for whats app.
   name: Iterable Whats App API
-  slug: iterable-whatsapp-api
-artifact_total: 117
+  slug: iterable-whats-app-api
+artifact_total: 116
 asyncapis:
 - description: Iterable system webhooks send real-time event data from an Iterable project to external systems via HTTP POST requests whenever specified events occur. System webhooks can be configured to fire on ema
   name: Iterable System Webhooks
@@ -315,6 +310,21 @@ collections:
   name: Iterable Export Campaigns Workflows API
   slug: open-iterable-workflows-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/overlays/iterable-inapp-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/iterable-inapp-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/overlays/iterable-messagetypes-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/iterable-messagetypes-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/overlays/iterable-webpush-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/iterable-webpush-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/capabilities/iterable-capability-edges.yml
   title: ''
@@ -634,18 +644,18 @@ modified: '2026-08-13'
 name: Iterable
 nav: Providers
 network: true
-overview: 'Iterable publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Export API, Campaigns API, Catalogs API, and 23 more. Tagged areas include Cross-Channel Messaging, Customer Engagement, Email, Marketing Automation, and Push Notifications.
+overview: 'Iterable publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Export API, Campaigns API, Catalogs API, and 22 more. Tagged areas include Cross-Channel Messaging, Customer Engagement, Email, Marketing Automation, and Push Notifications.
 
 
   The Iterable catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Iterable''s developer surface includes CLI, changelog, API reference, getting-started guide, authentication, documentation, support, and 41 more developer resources.'
+  Iterable''s developer surface includes CLI, changelog, API reference, getting-started guide, authentication, documentation, support, and 44 more developer resources.'
 plans:
 - name: Iterable Plans Pricing
   plan_count: 3
   slug: iterable-plans-pricing
-random_paper: 0
+random_paper: 4
 rate_limits:
 - limit_count: 54
   name: Iterable Rate Limits
@@ -686,7 +696,7 @@ score:
   facets:
     access_clarity: 65.8
     contract_governance: 33.3
-    contract_quality: 68.9
+    contract_quality: 68.8
     developer_ergonomics: 79.8
     discoverability: 75.9
     operational_transparency: 81.6
@@ -698,7 +708,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 27
+      total: 26
     mcp: first-party
     skills: first-party
   regulatory:
@@ -708,7 +718,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

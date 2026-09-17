@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,9 +60,9 @@ apis:
   slug: helidon-metrics-api
 - baseURL: http://localhost:8080
   baseurl_source: spec
-  description: The OpenAPI API from Helidon — 1 operation(s) for openapi.
-  name: Helidon OpenAPI API
-  slug: helidon-openapi-api
+  description: The Open API API from Helidon — 1 operation(s) for open api.
+  name: Helidon Open API
+  slug: helidon-open-api-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -142,7 +142,7 @@ modified: '2026-05-19'
 name: Helidon
 nav: Providers
 network: true
-overview: 'Helidon publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Info API, Metrics API, and 1 more. Tagged areas include Cloud-Native, Frameworks, Java, MicroProfile, and Microservices.
+overview: 'Helidon publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Info API, Metrics API, and 1 more. Tagged areas include Cloud-Native, Framework, Java, MicroProfile, and Microservices.
 
 
   The Helidon catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -153,7 +153,7 @@ plans:
 - name: Helidon Plans Pricing
   plan_count: 3
   slug: helidon-plans-pricing
-random_paper: 4
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Helidon Rate Limits
@@ -196,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -211,7 +211,7 @@ security:
 slug: helidon
 tags:
 - Cloud-Native
-- Frameworks
+- Framework
 - Java
 - MicroProfile
 - Microservices

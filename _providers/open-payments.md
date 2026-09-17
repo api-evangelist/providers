@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Open Payments Plans Pricing
   plan_count: 1
   slug: open-payments-plans-pricing
-random_paper: 16
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Open Payments Rate Limits
@@ -193,7 +193,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

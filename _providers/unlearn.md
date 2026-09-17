@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,11 +78,11 @@ modified: '2026-07-21'
 name: Unlearn
 nav: Providers
 network: true
-overview: 'Unlearn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Artificial Intelligence, Clinical Trials, and Digital Twins.
+overview: 'Unlearn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Artificial Intelligence, Clinical Trials, and Digital Twin.
 
 
   Unlearn''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 1
+random_paper: 9
 score:
   band: emerging
   composite: 11.5
@@ -109,7 +109,7 @@ score:
     regime_id: health
     score: 17.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -127,7 +127,7 @@ tags:
 - Biotech
 - Artificial Intelligence
 - Clinical Trials
-- Digital Twins
+- Digital Twin
 - Machine-Learning
 - Healthcare
 website: https://unlearn.ai

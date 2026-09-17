@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -321,6 +321,10 @@ collections:
   name: Oracle EBS Supply Chain Management API
   slug: open-supply-chain-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://oracle.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/capabilities/oracle-e-business-suite-capability-edges.yml
   title: ''
@@ -1544,7 +1548,7 @@ jsonld:
   property_count: 0
   slug: supply-chain-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Oracle E-Business Suite
 nav: Providers
 network: true
@@ -1554,12 +1558,12 @@ overview: 'Oracle E-Business Suite publishes 22 APIs on the [APIs.io](https://ap
   The Oracle E-Business Suite catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle E-Business Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, support, engineering blog, and 35 more developer resources.'
+  Oracle E-Business Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Oracle E Business Suite Plans Pricing
   plan_count: 4
   slug: oracle-e-business-suite-plans-pricing
-random_paper: 7
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Oracle E Business Suite Rate Limits
@@ -1613,7 +1617,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1643,5 +1647,5 @@ use_cases:
 - Exchange EDI documents with trading partners
 - Build custom integrations via REST and SOAP services
 - Synchronize EBS data with external systems
-website: https://developer.oracle.com/
+website: https://oracle.com
 ---

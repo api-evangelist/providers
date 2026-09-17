@@ -24,14 +24,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.6
-  scored_at: '2026-09-15'
-api_count: 4
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- baseURL: https://api.wego.com
-  baseurl_source: declared
-  description: 'The public Wego API: resolve travel locations, create asynchronous flight and hotel searches, read ranked results, open one trip or hotel, list fares and room rates, and build wego.com booking or shar'
-  name: Wego API
-  slug: wego-api
 - description: 'The affiliate metasearch API: partners add Wego flight and hotel comparison to their own site or app. Client-credentials OAuth2, create a search, poll for results, then hand travelers off to Wego part'
   name: Wego Marketplace (Affiliate) API
   slug: wego-affiliate
@@ -41,7 +36,42 @@ apis:
 - description: B2B distribution API for partners to pull static property content, price hotel rates for search criteria, and complete the full booking flow (price-check, book, cancel, retrieve). OAuth2 client-creden
   name: Wego Hotel B2B Distribution API
   slug: wego-distribution-hotel
-artifact_total: 11
+- baseURL: https://api.wego.com
+  baseurl_source: declared
+  description: Country-keyed reference data an agent can call before any search, and combine. `getCountryHolidays` returns a market's public holidays for spotting long weekends; `getVisaFreeDestinations` returns whe
+  name: Wego Countries API
+  slug: wego-countries-api
+- baseURL: https://api.wego.com
+  baseurl_source: declared
+  description: 'Send feedback about the Wego CLI/API experience. `submitFeedback` records an optional category plus at least one of a rating (1-5) or a free-text message (the CLI''s `wego feedback`); a category alone '
+  name: Wego Feedback API
+  slug: wego-feedback-api
+- baseURL: https://api.wego.com
+  baseurl_source: declared
+  description: 'The flight funnel: `createFlightSearch` starts an async search, `getFlightSearchResults` reads ranked snapshots while providers answer, `getFlightTrip` opens one trip with every fare. Fares with `kind'
+  name: Wego Flights API
+  slug: wego-flights-api
+- baseURL: https://api.wego.com
+  baseurl_source: declared
+  description: The Health API from Wego — 1 operation(s) for health.
+  name: Wego Health API
+  slug: wego-health-api
+- baseURL: https://api.wego.com
+  baseurl_source: declared
+  description: 'The hotel funnel, same shape as flights: `createHotelSearch`, `getHotelSearchResults` for ranked hotels, `getHotel` for static detail, `getHotelRates` for bookable rooms and rates (cheapest first, wit'
+  name: Wego Hotels API
+  slug: wego-hotels-api
+- baseURL: https://api.wego.com
+  baseurl_source: declared
+  description: Turn free text into typed travel locations. `getPlaces` resolves a city, airport, district or hotel name to results carrying the codes the flight and hotel searches take as input. `getNearbyPlaces` an
+  name: Wego Places API
+  slug: wego-places-api
+- baseURL: https://api.wego.com
+  baseurl_source: declared
+  description: The authenticated caller. `getCurrentUser` returns the identity behind the bearer token (the CLI's `wego whoami`).
+  name: Wego User API
+  slug: wego-user-api
+artifact_total: 17
 common:
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/wego/refs/heads/main/security/wego-trust-center.yml
@@ -209,7 +239,7 @@ modified: '2026-09-04'
 name: Wego
 nav: Providers
 network: true
-overview: 'Wego publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Flights, Hotels, and Metasearch.
+overview: 'Wego publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Countries API, Feedback API, Flights API, and 4 more. Tagged areas include Company, Travel, Flights, Hotels, and Metasearch.
 
 
   Wego''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, sandbox, and 26 more developer resources.'
@@ -217,7 +247,7 @@ plans:
 - name: Wego Plans Pricing
   plan_count: 0
   slug: wego-plans-pricing
-random_paper: 14
+random_paper: 16
 rate_limits:
 - limit_count: 6
   name: Wego Rate Limits
@@ -229,29 +259,34 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.9
+  composite: 51.1
   coverage:
     artifact_dirs: 20
-    catalog_earned: 52.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 51.6
+    contract_quality: 54.6
     developer_ergonomics: 76.2
-    discoverability: 81.5
+    discoverability: 75.9
     operational_transparency: 34.2
   previous_composite: 50.9
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 7
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

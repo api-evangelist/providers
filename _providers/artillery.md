@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 11.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Artillery Cloud is the hosted platform behind the open source Artillery CLI: it runs distributed load and Playwright E2E tests at scale across AWS Lambda, AWS Fargate and Azure ACI, stores and retains'
@@ -259,7 +259,7 @@ plans:
 - name: Artillery Plans Pricing
   plan_count: 4
   slug: artillery-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 12
   name: Artillery Rate Limits
@@ -291,7 +291,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

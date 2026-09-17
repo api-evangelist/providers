@@ -32,19 +32,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: The HTTP and A2A surface of Booz Allen's Agent Foundry agent baseline, an Apache-2.0 composition root that teams fork and deploy in their own environment. It serves three REST groups — /api/v1/query (
   name: Agent Foundry — Strands Base Agent API
   slug: booz-allen-hamilton-agent-foundry-strands-base-agent
-- baseURL: https://{palm-host}/api
+- baseURL: https://{agent-host}/api/v1
   baseurl_source: declared
-  description: The published OpenAPI of PALM (Prompt & Agent Library Marketplace), Booz Allen's model-agnostic enterprise LLM chat and agent platform. The document is real but minimal — one operation, POST /user-sto
-  name: PALM Prompt Library API
-  slug: booz-allen-hamilton-palm
+  description: The agile API from Booz Allen Hamilton — 1 operation(s) for agile.
+  name: Booz Allen Hamilton Agile API
+  slug: booz-allen-hamilton-agile-api
 artifact_total: 16
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/booz-allen-hamilton/refs/heads/main/overlays/booz-allen-hamilton-palm-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/booz-allen-hamilton-palm-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/booz-allen-hamilton/refs/heads/main/security/booz-allen-hamilton-domain-security.yml
   title: ''
@@ -216,10 +221,10 @@ modified: '2026-09-14'
 name: Booz Allen Hamilton
 nav: Providers
 network: true
-overview: 'Booz Allen Hamilton publishes 1 API on the [APIs.io](https://apis.io/) network: PALM Prompt Library API. Tagged areas include Artificial Intelligence, Consulting, Cybersecurity, Defense, and Federal-Government.
+overview: 'Booz Allen Hamilton publishes 1 API on the [APIs.io](https://apis.io/) network: Agile API. Tagged areas include Artificial Intelligence, Consulting, Cybersecurity, Defense, and Federal-Government.
 
 
-  Booz Allen Hamilton''s developer surface includes GitHub presence, engineering blog, changelog, and 27 more developer resources.'
+  Booz Allen Hamilton''s developer surface includes GitHub presence, engineering blog, changelog, and 28 more developer resources.'
 plans:
 - name: Booz Allen Hamilton Plans Pricing
   plan_count: 0
@@ -240,7 +245,7 @@ press:
 - date: '2026-05-25'
   title: Booz Allen outlines tech strategy and key risks
   url: https://www.stocktitan.net/sec-filings/BAH/10-k-booz-allen-hamilton-holding-corp-files-annual-report-f81cdf47fedf.html
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Booz Allen Hamilton Rate Limits
@@ -280,7 +285,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

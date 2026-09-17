@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Access, create, and edit member records - the central pivot of the Glofox data model, spanning leads, active members, and ex-members (soft-deleted via an active flag rather than hard-deleted). The doc
@@ -119,7 +119,7 @@ modified: '2026-07-03'
 name: Glofox
 nav: Providers
 network: true
-overview: 'Glofox publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Gym Management, Boutique Fitness, Class Scheduling, and Bookings.
+overview: 'Glofox publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fitness, Gym Management, Boutique Fitness, Class Scheduling, and Booking.
 
 
   Glofox''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
@@ -127,7 +127,7 @@ plans:
 - name: Glofox Plans Pricing
   plan_count: 3
   slug: glofox-plans-pricing
-random_paper: 4
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Glofox Rate Limits
@@ -152,7 +152,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 23.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -174,8 +174,8 @@ tags:
 - Gym Management
 - Boutique Fitness
 - Class Scheduling
-- Bookings
-- Memberships
+- Booking
+- Membership
 - Leads
 - ABC Fitness
 - CDC Webhooks

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
   slug: google-photos-albums-api
 - baseURL: https://photoslibrary.googleapis.com/v1
   baseurl_source: declared
-  description: The MediaItems API from Google Photos Library — 2 operation(s) for mediaitems.
-  name: Google Photos Library MediaItems API
-  slug: google-photos-mediaitems-api
-- baseURL: https://photoslibrary.googleapis.com/v1
-  baseurl_source: declared
   description: The MediaItems:search API from Google Photos Library — 1 operation(s) for mediaitems:search.
   name: Google Photos Library MediaItems:search API
   slug: google-photos-mediaitems-search-api
@@ -64,6 +59,11 @@ apis:
   description: The SharedAlbums API from Google Photos Library — 1 operation(s) for sharedalbums.
   name: Google Photos Library SharedAlbums API
   slug: google-photos-sharedalbums-api
+- baseURL: https://photoslibrary.googleapis.com/v1
+  baseurl_source: declared
+  description: The Media Items API from Google Photos Library — 2 operation(s) for media items.
+  name: Google Photos Library Media Items API
+  slug: google-photos-media-items-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -156,7 +156,7 @@ modified: '2026-05-19'
 name: Google Photos Library
 nav: Providers
 network: true
-overview: 'Google Photos Library publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Albums API, MediaItems API, MediaItems:search API, and 1 more. Tagged areas include Albums, Google, Image, Media, and Photos.
+overview: 'Google Photos Library publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Albums API, MediaItems:search API, SharedAlbums API, and 1 more. Tagged areas include Albums, Google, Image, Media, and Photos.
 
 
   The Google Photos Library catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -167,7 +167,7 @@ plans:
 - name: Google Photos Plans Pricing
   plan_count: 3
   slug: google-photos-plans-pricing
-random_paper: 7
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Google Photos Rate Limits
@@ -215,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

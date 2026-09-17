@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Credit-metered REST API over IMAI's creator database of 380M+ influencers across Instagram, TikTok and YouTube. Documented capabilities are keyword and filter search, AI search, influencer reports, au
@@ -201,7 +201,7 @@ plans:
 - name: Stagwell Plans Pricing
   plan_count: 8
   slug: stagwell-plans-pricing
-random_paper: 6
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Stagwell Rate Limits
@@ -234,7 +234,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

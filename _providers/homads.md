@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://homads.com
@@ -107,7 +107,7 @@ plans:
 - name: Homads Plans Pricing
   plan_count: 2
   slug: homads-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Homads Rate Limits
@@ -137,7 +137,7 @@ score:
     - north-america
   previous_composite: 24.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

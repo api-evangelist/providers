@@ -30,7 +30,7 @@ name: Lynda.com
 nav: Providers
 network: true
 overview: Lynda.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Education, EdTech, and Online Learning.
-random_paper: 15
+random_paper: 19
 screenshot: https://raw.githubusercontent.com/api-evangelist/lyndacom/refs/heads/main/screenshots/lyndacom-2026-07-25T225750.png
 security:
 - kind: domain-security

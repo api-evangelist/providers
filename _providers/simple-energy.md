@@ -24,7 +24,7 @@ name: Simple Energy
 nav: Providers
 network: true
 overview: Simple Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, and Defunct.
-random_paper: 1
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/simple-energy/refs/heads/main/screenshots/simple-energy-2026-09-02T155531.png
 slug: simple-energy
 tags:

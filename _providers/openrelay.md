@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'OpenAI-compatible chat completions API (POST /v1/chat/completions) and, for supporting models, an Anthropic-compatible Messages API (POST /v1/messages). Drop-in: point the official OpenAI SDKs at the '
@@ -122,14 +122,14 @@ apis:
   slug: openrelay-usage-api
 - baseURL: https://api.openrelay.inc
   baseurl_source: declared
-  description: 'GPU virtual machines: lifecycle, disks, SSH access, and console links.'
-  name: OpenRelay VMs API
-  slug: openrelay-vms-api
-- baseURL: https://api.openrelay.inc
-  baseurl_source: declared
   description: Subscribe to platform events with signed HTTP callbacks.
   name: OpenRelay Webhooks API
   slug: openrelay-webhooks-api
+- baseURL: https://inference.openrelay.inc/v1
+  baseurl_source: declared
+  description: 'GPU virtual machines: lifecycle, disks, SSH access, and console links.'
+  name: OpenRelay V Ms API
+  slug: openrelay-vms-api
 artifact_total: 43
 asyncapis:
 - description: ''
@@ -365,7 +365,7 @@ overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 
 
   OpenRelay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
-random_paper: 9
+random_paper: 7
 score:
   band: developing
   composite: 47.9
@@ -395,7 +395,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

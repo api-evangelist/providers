@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -57,9 +57,9 @@ apis:
   slug: lightricks-upload-api
 - baseURL: https://api.ltx.video
   baseurl_source: declared
-  description: The videoGeneration API from Lightricks — 5 operation(s) for videogeneration.
-  name: Lightricks videoGeneration API
-  slug: lightricks-videogeneration-api
+  description: The Video Generation API from Lightricks — 5 operation(s) for video generation.
+  name: Lightricks Video Generation API
+  slug: lightricks-video-generation-api
 artifact_total: 13
 collections:
 - collection_type: open
@@ -271,11 +271,11 @@ modified: '2026-07-19'
 name: Lightricks
 nav: Providers
 network: true
-overview: 'Lightricks publishes 3 APIs on the [APIs.io](https://apis.io/) network: asyncVideoGeneration API, upload API, and videoGeneration API. Tagged areas include Company, Consumer, Artificial Intelligence, Generative AI, and Video.
+overview: 'Lightricks publishes 3 APIs on the [APIs.io](https://apis.io/) network: asyncVideoGeneration API, upload API, and Video Generation API. Tagged areas include Company, Consumer, Artificial Intelligence, Generative AI, and Video.
 
 
   Lightricks'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
-random_paper: 5
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Lightricks Rate Limits
@@ -315,7 +315,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

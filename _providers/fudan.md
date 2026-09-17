@@ -33,21 +33,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.5
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://id.fudan.edu.cn/idp
-  baseurl_source: declared
-  description: The OpenID Connect provider Fudan operates for campus single sign-on at id.fudan.edu.cn. Issuer https://id.fudan.edu.cn/idp. The discovery document and the JWKS are both served anonymously and were ca
-  name: Fudan University Unified Identity — OpenID Connect
-  slug: identity-oidc
 - description: Fudan's SAML 2.0 identity provider, entityID https://idpfudan.fudan.edu.cn/idp/shibboleth, asserting scope fudan.edu.cn. It is registered with CARSI, China's education federation, and interfederated i
   name: Fudan University Shibboleth Identity Provider (CARSI / eduGAIN)
   slug: identity-saml
 - description: 'Fudan''s institutional research data repository, operated by the Research Center for Social Sciences. It moved off Dataverse: dvn.fudan.edu.cn now only meta-refreshes to rdr.fudan.edu.cn/datahome, whic'
   name: Fudan University Social Science Data Platform (复旦大学社会科学数据平台)
   slug: research-data-platform
-artifact_total: 14
+- baseURL: https://id.fudan.edu.cn/idp
+  baseurl_source: declared
+  description: End-user authentication and token issuance.
+  name: Fudan University Authorization API
+  slug: fudan-authorization-api
+- baseURL: https://id.fudan.edu.cn/idp
+  baseurl_source: declared
+  description: Machine-readable metadata about the provider.
+  name: Fudan University Discovery API
+  slug: fudan-discovery-api
+- baseURL: https://id.fudan.edu.cn/idp
+  baseurl_source: declared
+  description: Claims about the authenticated end user.
+  name: Fudan University Identity API
+  slug: fudan-identity-api
+artifact_total: 16
 common:
 - group: company
   title: ''
@@ -187,7 +197,7 @@ modified: '2026-08-30'
 name: Fudan University
 nav: Providers
 network: true
-overview: 'Fudan University publishes 1 API on the [APIs.io](https://apis.io/) network: Unified Identity — OpenID Connect. Tagged areas include University, Higher Education, Education, China, and Shanghai.
+overview: 'Fudan University publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Discovery API, and Identity API. Tagged areas include University, Higher Education, Education, China, and Shanghai.
 
 
   The Fudan University catalog on APIs.io includes 1 JSON-LD context.
@@ -198,7 +208,7 @@ plans:
 - name: Fudan Plans Pricing
   plan_count: 2
   slug: fudan-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Fudan Rate Limits
@@ -210,7 +220,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.4
+  composite: 30.5
   coverage:
     artifact_dirs: 16
     catalog_earned: 66.3
@@ -218,11 +228,11 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 28.9
     contract_governance: 3.8
-    contract_quality: 28.2
+    contract_quality: 28.5
     developer_ergonomics: 19.0
     discoverability: 59.3
     operational_transparency: 23.7
@@ -238,9 +248,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 1
+      derived: 3
       marker_coverage: 100.0
-      total: 1
+      total: 3
   regulatory:
     applies: true
     matched_via: tags
@@ -248,7 +258,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -277,6 +287,6 @@ tags:
 - C9 League
 - Identity Federation
 - Research Data
-- Single Sign-On
+- SSO
 website: https://www.fudan.edu.cn
 ---

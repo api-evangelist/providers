@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -55,11 +55,6 @@ apis:
   description: Movie and show certification reference data.
   name: Trakt Certifications API
   slug: trakt-certifications-api
-- baseURL: https://api.trakt.tv
-  baseurl_source: declared
-  description: Lightweight social "now watching" check-ins.
-  name: Trakt Checkin API
-  slug: trakt-checkin-api
 - baseURL: https://api.trakt.tv
   baseurl_source: declared
   description: Comment threads, replies, likes, reactions.
@@ -107,11 +102,6 @@ apis:
   slug: trakt-notes-api
 - baseURL: https://api.trakt.tv
   baseurl_source: declared
-  description: Authorization Code and Device OAuth flows.
-  name: Trakt OAuth API
-  slug: trakt-oauth-api
-- baseURL: https://api.trakt.tv
-  baseurl_source: declared
   description: Person metadata, filmography, lists.
   name: Trakt People API
   slug: trakt-people-api
@@ -155,6 +145,16 @@ apis:
   description: Profiles, settings, follows, friends, social activity, comments, watching.
   name: Trakt Users API
   slug: trakt-users-api
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Authorization Code and Device OAuth flows.
+  name: Trakt O Auth API
+  slug: trakt-oauth-api
+- baseURL: https://api.trakt.tv
+  baseurl_source: declared
+  description: Lightweight social "now watching" check-ins.
+  name: Trakt Check In API
+  slug: trakt-check-in-api
 artifact_total: 122
 collections:
 - collection_type: postman
@@ -595,7 +595,7 @@ modified: '2026-05-30'
 name: Trakt
 nav: Providers
 network: true
-overview: 'Trakt publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Certifications API, Checkin API, and 19 more. Tagged areas include Video, Movies, Television, Media Tracking, and Scrobble.
+overview: 'Trakt publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Certifications API, Comments API, and 19 more. Tagged areas include Video, Movies, Television, Media Tracking, and Scrobble.
 
 
   The Trakt catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -606,7 +606,7 @@ plans:
 - name: Trakt Plans Pricing
   plan_count: 3
   slug: trakt-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Trakt Rate Limits
@@ -663,7 +663,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

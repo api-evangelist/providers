@@ -33,69 +33,144 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
+- acting_count: 8
+  human_in_the_loop: 1
   name: Citizens Financial Group Agentic Access
-  operation_count: 4
+  operation_count: 21
   slug: citizens-financial-group-agentic-access
-  summary_line: 4 operations
-api_count: 12
+  summary_line: 21 operations · 8 acting · 1 human-in-the-loop
+api_count: 24
 apis:
 - description: Citizens Open Banking API is the FDX-aligned API surface launched in Q1 2025 that gives business, commercial, wealth, and private- banking customers a single endpoint to share account balances, transa
   name: Citizens Open Banking API
   slug: citizens-open-banking-api
-- baseURL: https://api.citizensbank.com/fdx/v1.0
-  baseurl_source: declared
-  description: The Citizens Accounts API is the FDX-aligned account surface - account list, account detail, transactions, contact and payment networks - for authorized retrieval of Citizens Bank customer account inf
+- description: The Citizens Accounts API is the FDX-aligned account surface - account list, account detail, transactions, contact and payment networks - for authorized retrieval of Citizens Bank customer account inf
   name: Citizens Accounts API
   slug: citizens-accounts-api
-- baseURL: https://api.citizensbank.com/fdx/v1.0
-  baseurl_source: declared
-  description: The Citizens Statements API enables authorized retrieval of Citizens Bank customer monthly statements for personal financial management and document workflows. Two operations - list an account's state
+- description: The Citizens Statements API enables authorized retrieval of Citizens Bank customer monthly statements for personal financial management and document workflows. Two operations - list an account's state
   name: Citizens Statements API
   slug: citizens-statements-api
-- baseURL: https://apis.citizensbank.com/v3/payments
-  baseurl_source: declared
-  description: The Citizens Payments API initiates RTP and ACH payment instructions, retrieves payment status, and checks whether a counterparty routing number is reachable on The Clearing House RTP network before a
-  name: Citizens Payments API
-  slug: citizens-payments-api
-- baseURL: https://apis.citizensbank.com/v1/account-validation
-  baseurl_source: declared
-  description: The Citizens Account Validation API verifies a payee's account number, routing number and beneficiary name before an irrevocable payment is sent, returning an account status (open, closed, unverified,
-  name: Citizens Account Validation API
-  slug: citizens-account-validation-api
-- baseURL: https://apis.citizensbank.com/v1/account-transfer
-  baseurl_source: declared
-  description: The Citizens Account Transfer API moves funds near real-time between accounts a client already holds at Citizens. Single same-day transfers only - batch and future-dated transfers are not supported in
-  name: Citizens Account Transfer API
-  slug: citizens-account-transfer-api
-- baseURL: https://apis.citizensbank.com/v1/information-reporting
-  baseurl_source: declared
-  description: The Citizens Information Reporting API lets an authenticated consumer retrieve the authorized account list, deposit account balances and transaction history for Citizens Bank checking and savings acco
-  name: Citizens Information Reporting API
-  slug: citizens-information-reporting-api
-- baseURL: https://api.citizensbank.com/authorize/v1.0
-  baseurl_source: declared
-  description: The Citizens Authorize API is the Citizens identity provider that authenticates a partner and grants access to bank resources such as accounts and transactions. The published contract declares only th
+- description: The Citizens Authorize API is the Citizens identity provider that authenticates a partner and grants access to bank resources such as accounts and transactions. The published contract declares only th
   name: Citizens Authorize API
   slug: citizens-authorize-api
-- baseURL: https://sandboxapi.citizensbank.com/v1/atm-locator
-  baseurl_source: declared
-  description: The Citizens ATM Locator API enables searching for Citizens Bank ATMs throughout the USA using zip code, street address, or geographical coordinates, returning location, hours of operation and whether
+- description: The Citizens ATM Locator API enables searching for Citizens Bank ATMs throughout the USA using zip code, street address, or geographical coordinates, returning location, hours of operation and whether
   name: Citizens ATM Locator API
   slug: citizens-atm-locator-api
-- baseURL: https://sandboxapi.citizensbank.com/v1/branch-locator
-  baseurl_source: declared
-  description: The Citizens Branch Locator API enables searching for Citizens Bank branches throughout the USA using zip code, street address, geographical coordinates or routing number. Like the ATM Locator it is p
+- description: The Citizens Branch Locator API enables searching for Citizens Bank branches throughout the USA using zip code, street address, geographical coordinates or routing number. Like the ATM Locator it is p
   name: Citizens Branch Locator API
   slug: citizens-branch-locator-api
 - description: Citizens Pay is the buy-now-pay-later embedded financing platform offered by Citizens Bank. The Citizens Pay developer portal that previously exposed merchant integration, underwriting and installment
   name: Citizens Pay API
   slug: citizens-pay-api
-artifact_total: 21
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Account Transfer API from Citizens Financial Group — 1 operation(s) for account transfer.
+  name: Citizens Financial Group Account Transfer API
+  slug: citizens-financial-group-account-transfer-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Accounts API from Citizens Financial Group — 7 operation(s) for accounts.
+  name: Citizens Financial Group Accounts API
+  slug: citizens-financial-group-accounts-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Get Account Inquiry Status API from Citizens Financial Group — 1 operation(s) for get account inquiry status.
+  name: Citizens Financial Group Get Account Inquiry Status API
+  slug: citizens-financial-group-get-account-inquiry-status-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Information Reporting API from Citizens Financial Group — 3 operation(s) for information reporting.
+  name: Citizens Financial Group Information Reporting API
+  slug: citizens-financial-group-information-reporting-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Initiate Account Validation Inquiry API from Citizens Financial Group — 1 operation(s) for initiate account validation inquiry.
+  name: Citizens Financial Group Initiate Account Validation Inquiry API
+  slug: citizens-financial-group-initiate-account-validation-inquiry-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Initiate Payment API from Citizens Financial Group — 1 operation(s) for initiate payment.
+  name: Citizens Financial Group Initiate Payment API
+  slug: citizens-financial-group-initiate-payment-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Latitude API from Citizens Financial Group — 1 operation(s) for latitude.
+  name: Citizens Financial Group Latitude API
+  slug: citizens-financial-group-latitude-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Participant Status API from Citizens Financial Group — 1 operation(s) for participant status.
+  name: Citizens Financial Group Participant Status API
+  slug: citizens-financial-group-participant-status-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Payment Status API from Citizens Financial Group — 1 operation(s) for payment status.
+  name: Citizens Financial Group Payment Status API
+  slug: citizens-financial-group-payment-status-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Postalcode API from Citizens Financial Group — 1 operation(s) for postalcode.
+  name: Citizens Financial Group Postalcode API
+  slug: citizens-financial-group-postalcode-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Revoke API from Citizens Financial Group — 1 operation(s) for revoke.
+  name: Citizens Financial Group Revoke API
+  slug: citizens-financial-group-revoke-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The Routingnumber API from Citizens Financial Group — 1 operation(s) for routingnumber.
+  name: Citizens Financial Group Routingnumber API
+  slug: citizens-financial-group-routingnumber-api
+- baseURL: https://api.citizensbank.com/fdx/v1.0
+  baseurl_source: declared
+  description: The State API from Citizens Financial Group — 1 operation(s) for state.
+  name: Citizens Financial Group State API
+  slug: citizens-financial-group-state-api
+artifact_total: 30
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/overlays/citizens-financial-group-payments-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citizens-financial-group-payments-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/skills/citizens-financial-group-initiate-payment.md
+  title: ''
+  type: AgentSkill
+  url: skills/citizens-financial-group-initiate-payment.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/overlays/citizens-financial-group-account-validation-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citizens-financial-group-account-validation-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/skills/citizens-financial-group-validate-payee-account.md
+  title: ''
+  type: AgentSkill
+  url: skills/citizens-financial-group-validate-payee-account.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/overlays/citizens-financial-group-account-transfer-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citizens-financial-group-account-transfer-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/skills/citizens-financial-group-transfer-between-own-accounts.md
+  title: ''
+  type: AgentSkill
+  url: skills/citizens-financial-group-transfer-between-own-accounts.md
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/overlays/citizens-financial-group-information-reporting-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/citizens-financial-group-information-reporting-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/skills/citizens-financial-group-report-balances-and-transactions.md
+  title: ''
+  type: AgentSkill
+  url: skills/citizens-financial-group-report-balances-and-transactions.md
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/agentic-access/citizens-financial-group-agentic-access.yml
   title: ''
@@ -284,18 +359,18 @@ modified: '2026-09-05'
 name: Citizens Financial Group
 nav: Providers
 network: true
-overview: 'Citizens Financial Group publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Citizens Accounts API, Citizens Statements API, Citizens Payments API, and 6 more. Tagged areas include Banking, Buy Now Pay Later, Financial-Services, FDX, and Locator.
+overview: 'Citizens Financial Group publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Citizens Accounts API, Citizens Statements API, Citizens Authorize API, and 15 more. Tagged areas include Banking, Buy Now Pay Later, Financial-Services, FDX, and Locator.
 
 
   The Citizens Financial Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Citizens Financial Group''s developer surface includes developer portal, documentation, API reference, sandbox, support, authentication, and 31 more developer resources.'
+  Citizens Financial Group''s developer surface includes developer portal, documentation, API reference, sandbox, support, authentication, and 39 more developer resources.'
 plans:
 - name: Citizens Financial Group Plans Pricing
   plan_count: 11
   slug: citizens-financial-group-plans-pricing
-random_paper: 17
+random_paper: 11
 rate_limits:
 - limit_count: 8
   name: Citizens Financial Group Rate Limits
@@ -319,21 +394,21 @@ scopes:
   summary_line: 5 scopes
 score:
   band: exemplar
-  composite: 67.1
+  composite: 68.1
   coverage:
     artifact_dirs: 23
-    catalog_earned: 85.0
+    catalog_earned: 82.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 30.0
+    catalog_gap: 33.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 67.1
     contract_governance: 63.6
-    contract_quality: 52.0
+    contract_quality: 58.5
     developer_ergonomics: 51.8
-    discoverability: 64.8
+    discoverability: 59.3
     operational_transparency: 42.1
   previous_composite: 67.1
   provenance:
@@ -342,8 +417,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 12
+      marker_coverage: 30.8
+      total: 13
     mcp: derived
     skills: derived
   regulatory:
@@ -353,7 +428,7 @@ score:
     regime_id: banking_open_finance
     score: 88.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

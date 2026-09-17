@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -48,12 +48,12 @@ apis:
 - baseURL: https://datapipeline.amazonaws.com
   baseurl_source: declared
   description: Operations for managing pipeline object definitions
-  name: Amazon Data Pipeline Pipeline Objects API
+  name: Amazon Data Pipeline Objects API
   slug: amazon-data-pipeline-pipeline-objects-api
 - baseURL: https://datapipeline.amazonaws.com
   baseurl_source: declared
   description: Operations for managing pipeline execution and task runs
-  name: Amazon Data Pipeline Pipeline Runs API
+  name: Amazon Data Pipeline Runs API
   slug: amazon-data-pipeline-pipeline-runs-api
 - baseURL: https://datapipeline.amazonaws.com
   baseurl_source: declared
@@ -117,6 +117,10 @@ collections:
   name: AWS Data Pipeline API
   slug: open-amazon-data-pipeline
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/agentic-access/amazon-data-pipeline-agentic-access.yml
   title: ''
@@ -424,22 +428,22 @@ jsonld:
   property_count: 30
   slug: amazon-data-pipeline-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Data Pipeline
 nav: Providers
 network: true
-overview: 'Amazon Data Pipeline publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Pipeline Objects API, Pipeline Runs API, Pipelines API, and 1 more. Tagged areas include Data Processing, ETL, Workflows, Data Pipeline, and Automation.
+overview: 'Amazon Data Pipeline publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Objects API, Runs API, Pipelines API, and 1 more. Tagged areas include Data Processing, ETL, Workflows, Data Pipeline, and Automation.
 
 
   The Amazon Data Pipeline catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Data Pipeline''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 23 more developer resources.'
+  Amazon Data Pipeline''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 24 more developer resources.'
 plans:
 - name: Amazon Data Pipeline Plans Pricing
   plan_count: 3
   slug: amazon-data-pipeline-plans-pricing
-random_paper: 5
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Amazon Data Pipeline Rate Limits
@@ -493,7 +497,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -534,5 +538,5 @@ use_cases:
   name: Data Lake Ingestion
 - description: Replicate DynamoDB tables or S3 data across AWS regions using scheduled pipeline copy activities for disaster recovery.
   name: Cross-Region Data Replication
-website: https://aws.amazon.com/datapipeline/
+website: https://amazon.com
 ---

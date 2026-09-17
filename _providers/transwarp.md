@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST interface of the Transwarp Hippo distributed vector database. The published reference covers database and table operations, data writes, import/export (standalone mode), index operations, vector '
@@ -110,11 +110,11 @@ modified: '2026-07-21'
 name: Transwarp
 nav: Providers
 network: true
-overview: 'Transwarp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Databases, Vector Databases, and Artificial Intelligence.
+overview: 'Transwarp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Big Data, Database, Vector Database, and Artificial Intelligence.
 
 
   Transwarp''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, support, and 8 more developer resources.'
-random_paper: 7
+random_paper: 4
 score:
   band: emerging
   composite: 21.5
@@ -142,7 +142,7 @@ score:
     - greater-china
   previous_composite: 21.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -158,8 +158,8 @@ slug: transwarp
 tags:
 - Company
 - Big Data
-- Databases
-- Vector Databases
+- Database
+- Vector Database
 - Artificial Intelligence
 - Data Analytics
 - Graph Databases

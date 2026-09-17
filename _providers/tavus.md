@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -63,11 +63,6 @@ apis:
   description: The Guardrails API from Tavus — 2 operation(s) for guardrails.
   name: Tavus Guardrails API
   slug: tavus-guardrails-api
-- baseURL: https://tavusapi.com
-  baseurl_source: declared
-  description: The Lipsync API from Tavus — 2 operation(s) for lipsync.
-  name: Tavus Lipsync API
-  slug: tavus-lipsync-api
 - baseURL: https://tavusapi.com
   baseurl_source: declared
   description: The Objectives API from Tavus — 2 operation(s) for objectives.
@@ -108,6 +103,11 @@ apis:
   description: The Voices API from Tavus — 1 operation(s) for voices.
   name: Tavus Voices API
   slug: tavus-voices-api
+- baseURL: https://tavusapi.com
+  baseurl_source: declared
+  description: The Lip Sync API from Tavus — 2 operation(s) for lip sync.
+  name: Tavus Lip Sync API
+  slug: tavus-lip-sync-api
 artifact_total: 34
 collections:
 - collection_type: open
@@ -237,7 +237,7 @@ plans:
 - name: Tavus Plans Pricing
   plan_count: 1
   slug: tavus-plans-pricing
-random_paper: 17
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Tavus Rate Limits
@@ -270,7 +270,7 @@ score:
       total: 12
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

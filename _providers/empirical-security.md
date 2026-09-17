@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,14 +50,14 @@ apis:
   slug: empirical-security-cve-groups-api
 - baseURL: https://app.empiricalsecurity.com/api
   baseurl_source: declared
-  description: Retrieve CVE detail, scores, malware hashes and history.
-  name: Empirical Security CVEs API
-  slug: empirical-security-cves-api
-- baseURL: https://app.empiricalsecurity.com/api
-  baseurl_source: declared
   description: Query CVEs using Empirical search syntax.
   name: Empirical Security Search API
   slug: empirical-security-search-api
+- baseURL: https://app.empiricalsecurity.com/api
+  baseurl_source: declared
+  description: Retrieve CVE detail, scores, malware hashes and history.
+  name: Empirical Security CV Es API
+  slug: empirical-security-cves-api
 artifact_total: 11
 collections:
 - collection_type: open
@@ -191,11 +191,11 @@ modified: '2026-07-19'
 name: Empirical Security
 nav: Providers
 network: true
-overview: 'Empirical Security publishes 3 APIs on the [APIs.io](https://apis.io/) network: CVE Groups API, CVEs API, and Search API. Tagged areas include Company, Security, Cybersecurity, Vulnerability Management, and Vulnerability Prioritization.
+overview: 'Empirical Security publishes 3 APIs on the [APIs.io](https://apis.io/) network: CVE Groups API, Search API, and CV Es API. Tagged areas include Company, Security, Cybersecurity, Vulnerability Management, and Vulnerability Prioritization.
 
 
   Empirical Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 14
+random_paper: 13
 scopes:
 - name: Empirical Security Scopes
   scope_count: 1
@@ -231,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

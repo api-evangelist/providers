@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,7 +94,7 @@ press:
 - date: '2026-05-25'
   title: Crestwood Equity Expands Footprint in Bakken, Powder ...
   url: https://www.industrialinfo.com/news/article/crestwood-equity-expands-footprint-in-bakken-powder-river-basin--275780
-random_paper: 3
+random_paper: 10
 score:
   band: minimal
   composite: 3.3
@@ -121,7 +121,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

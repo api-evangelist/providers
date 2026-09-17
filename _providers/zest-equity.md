@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -271,14 +271,14 @@ modified: '2026-07-21'
 name: Zest Equity
 nav: Providers
 network: true
-overview: 'Zest Equity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contracts API, Investors API, and 5 more. Tagged areas include Company, Fintech, Private Markets, SPV, and Investments.
+overview: 'Zest Equity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Contracts API, Investors API, and 5 more. Tagged areas include Company, Fintech, Private Markets, SPV, and Investment.
 
 
   The Zest Equity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Zest Equity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 23 more developer resources.'
-random_paper: 17
+random_paper: 6
 score:
   band: developing
   composite: 47.4
@@ -309,7 +309,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -330,7 +330,7 @@ tags:
 - Fintech
 - Private Markets
 - SPV
-- Investments
+- Investment
 - Escrow
 - Fund Administration
 - MENA

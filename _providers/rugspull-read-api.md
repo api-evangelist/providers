@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 32.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ collections:
   name: Rugspull Read API
   slug: open-rugspull-read-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://rugspull.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/agentic-access/rugspull-read-api-agentic-access.yml
   title: ''
@@ -219,19 +223,19 @@ created: '2026-07-19'
 description: A read-only, GET-only discovery-cache REST API for Rugspull, a self-described high-risk parody DeFi protocol on BNB Smart Chain (chain id 56). Exposes rebuildable discovery/indexed-event data with no write, settlement, or transaction-proxy operations; on-chain BSC contracts remain the source of financial truth. Unauthenticated, free, best-effort, with no published rate limits or SLA.
 image: https://rugspull.com/assets/og-mechanism.png
 layout: provider
-modified: '2026-08-11'
+modified: '2026-09-16'
 name: Rugspull Read API
 nav: Providers
 network: true
 overview: 'Rugspull Read API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Indexer API, Market API, Objects API, and 2 more. Tagged areas include BNB Smart Chain, BSC, wbnb, Read Only, and OpenAPI.
 
 
-  Rugspull Read API''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, code examples, and 22 more developer resources.'
+  Rugspull Read API''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, code examples, and 23 more developer resources.'
 plans:
 - name: Rugspull Read Api Plans Pricing
   plan_count: 0
   slug: rugspull-read-api-plans-pricing
-random_paper: 9
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Rugspull Read Api Rate Limits
@@ -266,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -299,4 +303,5 @@ tags:
 - Web3
 - crypto-market-data
 - Indexer
+website: https://rugspull.com
 ---

@@ -34,22 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-09-15'
-api_count: 9
+  scored_at: '2026-09-16'
+api_count: 19
 apis:
-- baseURL: https://exchange-1.gems.msi.umn.edu
-  baseurl_source: declared
-  description: Ten agricultural, climate and geospatial data APIs operated by GEMS Informatics at the University of Minnesota — biotic risk, climate, crop calendar, elevation, hydrology, land cover, market accessibi
-  name: GEMS Informatics Exchange APIs
-  slug: gems-exchange-apis
 - description: A suite of APIs published by the OIT Integrations Team over the University's Common Data Layer — person, class, employee, student academic, organization, HR and term information. Served from a Univers
   name: Common Good APIs
   slug: common-good-apis
-- baseURL: https://umedia.lib.umn.edu
-  baseurl_source: declared
-  description: A read-only JSON API over UMedia, the University of Minnesota Libraries digital collections platform. Any search or item URL returns JSON when ".json" is appended, with Blacklight bracket facet syntax
-  name: UMedia Digital Collections JSON API
-  slug: umedia-digital-collections
 - description: The University of Minnesota Digital Conservancy, which also holds DRUM (Data Repository for the University of Minnesota), runs DSpace 10.0 on University infrastructure. Its OAI-PMH 2.0 endpoint answer
   name: UMN Digital Conservancy — OAI-PMH and DSpace REST
   slug: digital-conservancy-oai-pmh
@@ -71,7 +61,42 @@ apis:
 - description: UMedia's digital objects are delivered over the IIIF Image API 2.1 from the Libraries' OCLC CONTENTdm instance at cdm16022.contentdm.oclc.org, which every UMedia record points to in its `object` and `
   name: UMedia IIIF image delivery (OCLC CONTENTdm tenant)
   slug: contentdm-iiif
-artifact_total: 24
+- baseURL: https://exchange-1.gems.msi.umn.edu
+  baseurl_source: declared
+  description: The catchment API from University of Minnesota — 9 operation(s) for catchment.
+  name: University of Minnesota Catchment API
+  slug: university-of-minnesota-catchment-api
+- baseURL: https://exchange-1.gems.msi.umn.edu
+  baseurl_source: declared
+  description: The dataset API from University of Minnesota — 14 operation(s) for dataset.
+  name: University of Minnesota Dataset API
+  slug: university-of-minnesota-dataset-api
+- baseURL: https://exchange-1.gems.msi.umn.edu
+  baseurl_source: declared
+  description: The Item API from University of Minnesota — 1 operation(s) for item.
+  name: University of Minnesota Item API
+  slug: university-of-minnesota-item-api
+- baseURL: https://exchange-1.gems.msi.umn.edu
+  baseurl_source: declared
+  description: The lake API from University of Minnesota — 6 operation(s) for lake.
+  name: University of Minnesota Lake API
+  slug: university-of-minnesota-lake-api
+- baseURL: https://exchange-1.gems.msi.umn.edu
+  baseurl_source: declared
+  description: The Pedtools API from University of Minnesota — 1 operation(s) for pedtools.
+  name: University of Minnesota Pedtools API
+  slug: university-of-minnesota-pedtools-api
+- baseURL: https://exchange-1.gems.msi.umn.edu
+  baseurl_source: declared
+  description: The Search.json API from University of Minnesota — 1 operation(s) for search.json.
+  name: University of Minnesota Search.json API
+  slug: university-of-minnesota-search-json-api
+- baseURL: https://integration-boomi.umn.edu/prd/ws/rest/
+  baseurl_source: declared
+  description: The Co P API from University of Minnesota — 1 operation(s) for co p.
+  name: University of Minnesota Co P API
+  slug: university-of-minnesota-co-p-api
+artifact_total: 29
 common:
 - group: company
   title: ''
@@ -241,7 +266,7 @@ modified: '2026-09-01'
 name: University of Minnesota
 nav: Providers
 network: true
-overview: 'University of Minnesota publishes 2 APIs on the [APIs.io](https://apis.io/) network: GEMS Informatics Exchange APIs and UMedia Digital Collections JSON API. Tagged areas include University, Higher Education, Education, Research, and United States.
+overview: 'University of Minnesota publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Catchment API, Dataset API, Item API, and 4 more. Tagged areas include University, Higher Education, Education, Research, and United States.
 
 
   The University of Minnesota catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -252,7 +277,7 @@ plans:
 - name: University Of Minnesota Plans Pricing
   plan_count: 2
   slug: university-of-minnesota-plans-pricing
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: University Of Minnesota Rate Limits
@@ -275,19 +300,19 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.4
+  composite: 53.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 74.3
+    catalog_earned: 78.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 40.8
+    catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 63.2
     contract_governance: 3.8
-    contract_quality: 65.3
+    contract_quality: 66.2
     developer_ergonomics: 42.9
     discoverability: 74.1
     operational_transparency: 23.7
@@ -302,10 +327,10 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 28.6
       derived: 0
       marker_coverage: 0.0
-      total: 10
+      total: 7
   regulatory:
     applies: true
     matched_via: tags
@@ -313,7 +338,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

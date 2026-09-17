@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ collections:
   name: Europeana Search and Record API
   slug: open-europeana
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://europeana.eu
 - group: operate
   title: ''
   type: IssueTracker
@@ -145,19 +149,19 @@ finops:
   slug: europeana-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/europeana.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Europeana
 nav: Providers
 network: true
 overview: 'Europeana publishes 2 APIs on the [APIs.io](https://apis.io/) network: Record API and Search API. Tagged areas include Archives, Cultural Heritage, Europe, Libraries, and Museums.
 
 
-  Europeana''s developer surface includes authentication, developer portal, product news, changelog, getting-started guide, signup flow, and 10 more developer resources.'
+  Europeana''s developer surface includes authentication, developer portal, product news, changelog, getting-started guide, signup flow, and 11 more developer resources.'
 plans:
 - name: Europeana Plans Pricing
   plan_count: 3
   slug: europeana-plans-pricing
-random_paper: 15
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Europeana Rate Limits
@@ -194,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -218,5 +222,5 @@ tags:
 - Libraries
 - Museums
 - Search
-website: https://pro.europeana.eu/
+website: https://europeana.eu
 ---

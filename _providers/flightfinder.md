@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,25 +16,77 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 35.4
-  scored_at: '2026-09-15'
-api_count: 2
+  score: 43.0
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
-- description: REST/JSON over the merged corpus. 17 paths / 18 operations in the served OpenAPI 3.0.3. Keyless GET tier, CORS open, RateLimit-* headers on every response, per-record licence and attribution.
-  name: FlightFinder Aviation Safety Data API
-  slug: flightfinder-aviation-safety-data-api
 - description: First-party remote MCP server over Streamable HTTP (JSON-RPC 2.0, protocol 2025-06-18) exposing nine read tools over the same corpus. Anonymous — no key, no account, no install. Probed live on 2026-09
   name: FlightFinder Aviation Safety MCP Server
   slug: flightfinder-aviation-safety-mcp-server
-artifact_total: 7
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Aircraft API from FlightFinder — 1 operation(s) for aircraft.
+  name: FlightFinder Aircraft API
+  slug: flightfinder-aircraft-api
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Airports API from FlightFinder — 1 operation(s) for airports.
+  name: FlightFinder Airports API
+  slug: flightfinder-airports-api
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Drone Sightings API from FlightFinder — 2 operation(s) for drone sightings.
+  name: FlightFinder Drone Sightings API
+  slug: flightfinder-drone-sightings-api
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Events API from FlightFinder — 2 operation(s) for events.
+  name: FlightFinder Events API
+  slug: flightfinder-events-api
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Keys API from FlightFinder — 2 operation(s) for keys.
+  name: FlightFinder Keys API
+  slug: flightfinder-keys-api
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Laser Strikes API from FlightFinder — 3 operation(s) for laser strikes.
+  name: FlightFinder Laser Strikes API
+  slug: flightfinder-laser-strikes-api
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Narratives API from FlightFinder — 1 operation(s) for narratives.
+  name: FlightFinder Narratives API
+  slug: flightfinder-narratives-api
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Ping API from FlightFinder — 1 operation(s) for ping.
+  name: FlightFinder Ping API
+  slug: flightfinder-ping-api
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Sources API from FlightFinder — 1 operation(s) for sources.
+  name: FlightFinder Sources API
+  slug: flightfinder-sources-api
+- baseURL: https://himaxym.com/api/v1/data
+  baseurl_source: declared
+  description: The Wildlife Strikes API from FlightFinder — 3 operation(s) for wildlife strikes.
+  name: FlightFinder Wildlife Strikes API
+  slug: flightfinder-wildlife-strikes-api
+artifact_total: 16
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/flightfinder/refs/heads/main/overlays/flightfinder-aviation-safety-data-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/flightfinder-aviation-safety-data-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -190,22 +243,22 @@ modified: '2026-09-03'
 name: FlightFinder
 nav: Providers
 network: true
-overview: 'FlightFinder publishes 1 API on the [APIs.io](https://apis.io/) network: Aviation Safety Data API. Tagged areas include Aviation, Aviation Safety, Accident Data, Open Data, and Public Domain.
+overview: 'FlightFinder publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Aircraft API, Airports API, Drone Sightings API, and 7 more. Tagged areas include Aviation, Aviation Safety, Accident Data, Open Data, and Public Domain.
 
 
-  FlightFinder''s developer surface includes authentication, sandbox, API reference, getting-started guide, signup flow, support, engineering blog, and 25 more developer resources.'
+  FlightFinder''s developer surface includes authentication, sandbox, API reference, getting-started guide, signup flow, support, engineering blog, and 26 more developer resources.'
 plans:
 - name: Flightfinder Plans Pricing
   plan_count: 3
   slug: flightfinder-plans-pricing
-random_paper: 10
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Flightfinder Rate Limits
   slug: flightfinder-rate-limits
 score:
-  band: developing
-  composite: 51.9
+  band: strong
+  composite: 58.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.0
@@ -213,17 +266,22 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.8
   facets:
     access_clarity: 76.3
     contract_governance: 0.0
-    contract_quality: 26.7
+    contract_quality: 54.1
     developer_ergonomics: 70.8
     discoverability: 87.0
     operational_transparency: 31.6
   previous_composite: 51.9
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 10
     mcp: first-party
     skills: derived
   regulatory:
@@ -233,8 +291,8 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 0.0

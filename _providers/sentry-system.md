@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 46.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -262,11 +262,6 @@ apis:
   description: Manage user feedback submissions
   name: Sentry User Feedback API
   slug: sentry-system-user-feedback-api
-- baseURL: https://sentry.io/api/0
-  baseurl_source: declared
-  description: Retrieve user-related information
-  name: Sentry Users API
-  slug: sentry-system-users-api
 - description: 'Sentry provides official SDKs for 22+ platforms including JavaScript, Python, PHP, .NET, Java, Go, Ruby, Rust, Android, Apple, React Native, Unity, and Unreal Engine. Each SDK provides error capture, '
   name: Sentry SDK API
   slug: sentry-sdk-api
@@ -310,7 +305,7 @@ arazzos:
 - description: Find a high-priority unresolved issue in an organization, inspect it, then assign and resolve it.
   name: Sentry Triage and Resolve an Issue
   slug: sentry-system-triage-resolve-issue-workflow
-artifact_total: 212
+artifact_total: 211
 collections:
 - collection_type: postman
   name: Sentry Alerts API
@@ -1039,7 +1034,7 @@ modified: '2026-06-20'
 name: Sentry
 nav: Providers
 network: true
-overview: 'Sentry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Check-Ins API, Client Keys API, and 42 more. Tagged areas include APM, Application Monitoring, Bug Tracking, Developer Tools, and Error Tracking.
+overview: 'Sentry publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Check-Ins API, Client Keys API, and 41 more. Tagged areas include APM, Application Monitoring, Bug Tracking, Developer Tools, and Error Tracking.
 
 
   The Sentry catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1097,10 +1092,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 44
+      total: 43
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

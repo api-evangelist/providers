@@ -19,7 +19,7 @@ name: Hologix
 nav: Providers
 network: true
 overview: Hologix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Order Management, B2B, and Manufacturing.
-random_paper: 6
+random_paper: 14
 slug: hologix
 tags:
 - Company

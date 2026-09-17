@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.7
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://revistas.uniandes.edu.co/index.php/index/oai
-  baseurl_source: declared
-  description: OAI-PMH 2.0 metadata harvesting interface for the Revistas Uniandes scholarly journal portal — the only Universidad de los Andes surface found that serves an anonymous automated client real data. Veri
-  name: Revistas Uniandes - OAI-PMH
-  slug: revistas-oai
 - description: The Open Journal Systems v1 REST API on the university's own journal host. Present and answering — /index.php/{journal}/api/v1/* returns a structured JSON 403 ({"error":"api.403.unauthorized"}) rather
   name: Revistas Uniandes - OJS REST API
   slug: revistas-rest
@@ -74,6 +69,11 @@ apis:
 - description: Research Organization Registry record for the institution. ROR ID 02mhbdp94, established 1948, declared domain uniandes.edu.co, with cross-registry identifiers Funder Registry 501100006070, GRID grid.
   name: ROR 02mhbdp94 - Universidad de los Andes
   slug: ror-record
+- baseURL: https://revistas.uniandes.edu.co/index.php/index/oai
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting 2.0 verbs.
+  name: University of Los Andes Colombia OAI PMH API
+  slug: university-of-los-andes-colombia-oai-pmh-api
 artifact_total: 18
 common:
 - group: company
@@ -119,10 +119,10 @@ common:
   type: Conformance
   url: conformance/university-of-los-andes-colombia-conformance.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-los-andes-colombia/refs/heads/main/openapi/university-of-los-andes-colombia-revistas-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-los-andes-colombia/refs/heads/main/openapi/_original/university-of-los-andes-colombia-revistas-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-los-andes-colombia-revistas-oai-pmh-openapi.yml
+  url: openapi/_original/university-of-los-andes-colombia-revistas-oai-pmh-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/university-of-los-andes-colombia/refs/heads/main/security/university-of-los-andes-colombia-domain-security.yml
   title: ''
@@ -213,11 +213,11 @@ jsonld:
   property_count: 7
   slug: university-of-los-andes-colombia-context
 layout: provider
-modified: '2026-09-01'
+modified: '2026-09-16'
 name: University of Los Andes Colombia
 nav: Providers
 network: true
-overview: 'University of Los Andes Colombia publishes 1 API on the [APIs.io](https://apis.io/) network: Revistas Uniandes - OAI-PMH. Tagged areas include University, Higher Education, Education, Colombia, and Latin America.
+overview: 'University of Los Andes Colombia publishes 1 API on the [APIs.io](https://apis.io/) network: OAI PMH API. Tagged areas include University, Higher Education, Education, Colombia, and Latin America.
 
 
   The University of Los Andes Colombia catalog on APIs.io includes 1 JSON-LD context.
@@ -228,7 +228,7 @@ plans:
 - name: University Of Los Andes Colombia Plans Pricing
   plan_count: 2
   slug: university-of-los-andes-colombia-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: University Of Los Andes Colombia Rate Limits
@@ -271,7 +271,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for CaltechDATA. Verified live 2026-08-19 via the Identify verb (repositoryName CaltechDATA, protocolVersion 2.0) and via ListMetadataFormats, which advertises
@@ -146,15 +146,15 @@ common:
   type: Support
   url: https://library.caltech.edu/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-caltechdata-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/_original/caltech-caltechdata-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/caltech-caltechdata-openapi.yml
+  url: openapi/_original/caltech-caltechdata-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/caltech-scedc-fdsn-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/openapi/_original/caltech-scedc-fdsn-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/caltech-scedc-fdsn-openapi.yml
+  url: openapi/_original/caltech-scedc-fdsn-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/json-schema/caltech-caltechdata-record-schema.json
   title: ''
@@ -250,7 +250,7 @@ jsonld:
   property_count: 6
   slug: caltech-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: California Institute of Technology
 nav: Providers
 network: true
@@ -265,7 +265,7 @@ plans:
 - name: Caltech Plans Pricing
   plan_count: 2
   slug: caltech-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Caltech Rate Limits
@@ -321,7 +321,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

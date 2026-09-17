@@ -29,7 +29,7 @@ name: Snapette
 nav: Providers
 network: true
 overview: Snapette is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, E-Commerce, Mobile, and Shopping.
-random_paper: 7
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapette/refs/heads/main/screenshots/snapette-2026-09-02T155959.png
 security:
 - kind: domain-security

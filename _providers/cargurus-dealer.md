@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ modified: '2026-07-10'
 name: CarGurus
 nav: Providers
 network: true
-overview: 'CarGurus publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Car Selector API, Dealer Reviews API, Dealer Stats API, and 1 more. Tagged areas include Automotive, Marketplace, Car Listings, Dealer, and Vehicle Pricing.
+overview: 'CarGurus publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Car Selector API, Dealer Reviews API, Dealer Stats API, and 1 more. Tagged areas include Automotive, Marketplace, Car Listings, Dealers, and Vehicle Pricing.
 
 
   CarGurus'' developer surface includes documentation, signup flow, engineering blog, and 8 more developer resources.'
@@ -165,7 +165,7 @@ plans:
 - name: Cargurus Dealer Plans Pricing
   plan_count: 3
   slug: cargurus-dealer-plans-pricing
-random_paper: 9
+random_paper: 2
 score:
   band: thin
   composite: 35.8
@@ -193,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -209,7 +209,7 @@ tags:
 - Automotive
 - Marketplace
 - Car Listings
-- Dealer
+- Dealers
 - Vehicle Pricing
 - Reviews
 - Inventory

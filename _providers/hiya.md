@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Branded calling API to register outbound originating numbers, manage Connect phone numbers and managed brands, upload and manage brand logos, and read branded-phones cache and billing analytics so bus
@@ -161,7 +161,7 @@ overview: 'Hiya publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Hiya''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 7
+random_paper: 9
 score:
   band: thin
   composite: 28.8
@@ -188,7 +188,7 @@ score:
     regime_id: telecommunications
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

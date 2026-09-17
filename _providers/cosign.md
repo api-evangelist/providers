@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: Cosign is a command-line tool for signing, verifying, and storing container images and OCI artifacts. It supports keyless signing, hardware-backed keys, KMS providers, in-toto and SLSA attestations, a
@@ -229,7 +229,7 @@ modified: '2026-09-07'
 name: Cosign
 nav: Providers
 network: true
-overview: 'Cosign publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sigstore Rekor API (consumed) and Sigstore Fulcio API (consumed). Tagged areas include Apache 2.0, Attestations, CLI, Code Signing, and Containers.
+overview: 'Cosign publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sigstore Rekor API (consumed) and Sigstore Fulcio API (consumed). Tagged areas include Apache 2.0, Attestation, CLI, Code Signing, and Containers.
 
 
   Cosign''s developer surface includes documentation, getting-started guide, release notes, engineering blog, CLI, changelog, sandbox, and 31 more developer resources.'
@@ -237,7 +237,7 @@ plans:
 - name: Cosign Plans Pricing
   plan_count: 0
   slug: cosign-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Cosign Rate Limits
@@ -266,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -289,7 +289,7 @@ security:
 slug: cosign
 tags:
 - Apache 2.0
-- Attestations
+- Attestation
 - CLI
 - Code Signing
 - Containers

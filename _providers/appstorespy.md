@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ modified: '2026-08-22'
 name: AppstoreSpy
 nav: Providers
 network: true
-overview: 'AppstoreSpy publishes 6 APIs on the [APIs.io](https://apis.io/) network, including App Store API, Events API, Google Play API, and 3 more. Tagged areas include Mobile Apps, App Store Optimization, Market Intelligence, App Analytics, and Google Play.
+overview: 'AppstoreSpy publishes 6 APIs on the [APIs.io](https://apis.io/) network, including App Store API, Events API, Google Play API, and 3 more. Tagged areas include Mobile App, App Store Optimization, Market Intelligence, App Analytics, and Google Play.
 
 
   AppstoreSpy''s developer surface includes authentication, API reference, pricing, signup flow, support, engineering blog, and 18 more developer resources.'
@@ -204,7 +204,7 @@ plans:
 - name: Appstorespy Plans Pricing
   plan_count: 4
   slug: appstorespy-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Appstorespy Rate Limits
@@ -239,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -256,7 +256,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: appstorespy
 tags:
-- Mobile Apps
+- Mobile App
 - App Store Optimization
 - Market Intelligence
 - App Analytics

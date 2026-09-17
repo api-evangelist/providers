@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -151,11 +151,11 @@ modified: '2026-05-11'
 name: Breathe HR
 nav: Providers
 network: true
-overview: 'Breathe HR publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Account API, Employees API, and 2 more. Tagged areas include HR, HRIS, Human Resources, Employee Management, and Absence Management.
+overview: 'Breathe HR publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Account API, Employees API, and 2 more. Tagged areas include Human Resources, HRIS, Employee Management, Absence Management, and Holiday Tracking.
 
 
   Breathe HR''s developer surface includes authentication, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 7
+random_paper: 4
 score:
   band: thin
   composite: 31.7
@@ -191,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -208,13 +208,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: breathe-hr
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Employee Management
 - Absence Management
 - Holiday Tracking
 - SMB
-- UK
+- United Kingdom
 website: https://www.breathehr.com
 ---

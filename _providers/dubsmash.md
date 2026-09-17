@@ -24,7 +24,7 @@ name: Dubsmash
 nav: Providers
 network: true
 overview: Dubsmash is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Video, Mobile, and Consumer.
-random_paper: 15
+random_paper: 19
 slug: dubsmash
 tags:
 - Company

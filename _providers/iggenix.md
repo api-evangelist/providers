@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -112,9 +112,9 @@ apis:
   slug: iggenix-discovery-api
 - baseURL: https://iggenix.com/wp-json
   baseurl_source: declared
-  description: The oEmbed 1.0 provider endpoints iggenix.com registers, exposed as JSON by the WordPress REST API. Anonymously readable; returns an oEmbed rich/link response for any iggenix.com URL, which is how thi
-  name: IgGenix oEmbed API
-  slug: iggenix-oembed-api
+  description: The o Embed API from IgGenix — 2 operation(s) for o embed.
+  name: IgGenix o Embed API
+  slug: iggenix-o-embed-api
 artifact_total: 19
 common:
 - group: agent
@@ -241,7 +241,7 @@ plans:
 - name: Iggenix Plans Pricing
   plan_count: 0
   slug: iggenix-plans-pricing
-random_paper: 12
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Iggenix Rate Limits
@@ -282,7 +282,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

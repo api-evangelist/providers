@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -122,6 +122,10 @@ collections:
   name: Amazon AppSync Api Keys Types API
   slug: open-amazon-appsync-types-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/overlays/amazon-appsync-openapi-overlay.yaml
   title: ''
@@ -871,7 +875,7 @@ mcp_servers:
 - description: ''
   name: Amazon AppSync MCP Server
   slug: amazon-appsync-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon AppSync
 nav: Providers
 network: true
@@ -881,8 +885,8 @@ overview: 'Amazon AppSync publishes 9 APIs on the [APIs.io](https://apis.io/) ne
   The Amazon AppSync catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon AppSync''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 8
+  Amazon AppSync''s developer surface includes authentication and 11 more developer resources.'
+random_paper: 5
 rules:
 - effective_rule_count: 6
   extends: []
@@ -934,7 +938,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -966,4 +970,5 @@ use_cases:
 - Build offline-capable mobile apps with automatic conflict resolution
 - Expose DynamoDB tables, Lambda functions, and OpenSearch as GraphQL APIs
 - Implement federated GraphQL across multiple teams with Merged APIs
+website: https://amazon.com
 ---

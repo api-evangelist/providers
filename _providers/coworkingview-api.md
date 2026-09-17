@@ -23,17 +23,79 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: Read-only REST API to list, filter and fetch coworking spaces; no API key required for reads, production doubles as sandbox. OpenAPI 3.1 spec declared at coworkingview.com/openapi.json.
-  name: CoworkingView REST API
-  slug: coworkingview-rest-api
 - description: 'Hosted MCP server (Streamable HTTP) exposing 10 read-only tools for searching, comparing and fetching coworking spaces, market rates, locations, operators and guides. Independently health-verified on '
   name: CoworkingView MCP Server
   slug: coworkingview-mcp-server
-artifact_total: 7
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The config API from CoworkingView API — 1 operation(s) for config.
+  name: CoworkingView API Config API
+  slug: coworkingview-api-config-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The facets API from CoworkingView API — 1 operation(s) for facets.
+  name: CoworkingView API Facets API
+  slug: coworkingview-api-facets-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The geo API from CoworkingView API — 1 operation(s) for geo.
+  name: CoworkingView API Geo API
+  slug: coworkingview-api-geo-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The health API from CoworkingView API — 1 operation(s) for health.
+  name: CoworkingView API Health API
+  slug: coworkingview-api-health-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The leads API from CoworkingView API — 2 operation(s) for leads.
+  name: CoworkingView API Leads API
+  slug: coworkingview-api-leads-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The market API from CoworkingView API — 1 operation(s) for market.
+  name: CoworkingView API Market API
+  slug: coworkingview-api-market-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The operators API from CoworkingView API — 1 operation(s) for operators.
+  name: CoworkingView API Operators API
+  slug: coworkingview-api-operators-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The places API from CoworkingView API — 1 operation(s) for places.
+  name: CoworkingView API Places API
+  slug: coworkingview-api-places-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The properties API from CoworkingView API — 3 operation(s) for properties.
+  name: CoworkingView API Properties API
+  slug: coworkingview-api-properties-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The rankings API from CoworkingView API — 1 operation(s) for rankings.
+  name: CoworkingView API Rankings API
+  slug: coworkingview-api-rankings-api
+- baseURL: https://api.coworkingview.com
+  baseurl_source: declared
+  description: The search API from CoworkingView API — 1 operation(s) for search.
+  name: CoworkingView API Search API
+  slug: coworkingview-api-search-api
+artifact_total: 17
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/coworkingview-api/refs/heads/main/overlays/coworkingview-api-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/coworkingview-api-openapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/coworkingview-api/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -70,19 +132,19 @@ modified: '2026-09-15'
 name: CoworkingView API
 nav: Providers
 network: true
-overview: 'CoworkingView API publishes 1 API on the [APIs.io](https://apis.io/) network: CoworkingView REST API. Tagged areas include Co-Working, Flexible Workspace, Real-Estate, Location Services, and Search.'
+overview: CoworkingView API publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Config API, Facets API, Geo API, and 8 more. Tagged areas include Co-Working, Flexible Workspace, Real-Estate, Location Services, and Search.
 plans:
 - name: Coworkingview Api Plans Pricing
   plan_count: 0
   slug: coworkingview-api-plans-pricing
-random_paper: 17
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Coworkingview Api Rate Limits
   slug: coworkingview-api-rate-limits
 score:
-  band: emerging
-  composite: 25.2
+  band: thin
+  composite: 28.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -90,24 +152,27 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 3.6
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 47.6
     developer_ergonomics: 42.3
     discoverability: 75.9
     operational_transparency: 7.9
+  previous_composite: 25.2
   provenance:
     conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
+  trend: flat
   upsert:
     applies: true
     score: 0.0

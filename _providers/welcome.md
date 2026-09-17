@@ -30,7 +30,7 @@ name: Welcome
 nav: Providers
 network: true
 overview: Welcome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Travel, Acquired, and Defunct.
-random_paper: 13
+random_paper: 0
 security:
 - kind: domain-security
   name: Welcome Domain Security

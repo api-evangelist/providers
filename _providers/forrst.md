@@ -34,7 +34,7 @@ name: Forrst
 nav: Providers
 network: true
 overview: Forrst is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Community, Design, Developers, and Feedback.
-random_paper: 0
+random_paper: 12
 screenshot: https://raw.githubusercontent.com/api-evangelist/forrst/refs/heads/main/screenshots/forrst-2026-07-25T214951.png
 security:
 - kind: domain-security

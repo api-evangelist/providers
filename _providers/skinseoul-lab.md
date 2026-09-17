@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -44,12 +44,12 @@ created: '2026-07-17'
 description: Skinseoul Lab operates skin-seoul.com, a direct-to-consumer Korean beauty (K-beauty) e-commerce brand selling skincare and cosmetics to international customers, backed by 500 Global. Its public presence is a Next.js storefront fronted by Cloudflare with an Express commerce backend; enrichment probing (2026-07-21) found no public developer API, documentation, developer portal, or /.well-known/ discovery surface. The api.skin-seoul.com host returns only a plaintext "OK" health response, indicating an internal storefront backend rather than a documented public API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skinseoul-lab.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Skinseoul Lab
 nav: Providers
 network: true
 overview: Skinseoul Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Beauty, Skincare, and Cosmetics.
-random_paper: 14
+random_paper: 17
 score:
   band: minimal
   composite: 5.0
@@ -76,7 +76,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -94,5 +94,6 @@ tags:
 - Retail
 - Consumer
 - D2C
+- Direct to Consumer
 website: https://skin-seoul.com
 ---

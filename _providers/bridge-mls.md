@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -92,11 +92,6 @@ apis:
   slug: bridge-mls-openhouse-api
 - baseURL: https://api.bridgedataoutput.com/api/v2/OData
   baseurl_source: declared
-  description: The OpenHouses API from Bridge — 1 operation(s) for openhouses.
-  name: Bridge OpenHouses API
-  slug: bridge-mls-openhouses-api
-- baseURL: https://api.bridgedataoutput.com/api/v2/OData
-  baseurl_source: declared
   description: RESO Property resource (listings)
   name: Bridge Property API
   slug: bridge-mls-property-api
@@ -105,6 +100,11 @@ apis:
   description: The Webhooks API from Bridge — 3 operation(s) for webhooks.
   name: Bridge Webhooks API
   slug: bridge-mls-webhooks-api
+- baseURL: https://api.bridgedataoutput.com/api/v2
+  baseurl_source: declared
+  description: The Open Houses API from Bridge — 1 operation(s) for open houses.
+  name: Bridge Open Houses API
+  slug: bridge-mls-open-houses-api
 artifact_total: 67
 collections:
 - collection_type: postman
@@ -378,7 +378,7 @@ plans:
 - name: Bridge Mls Plans Pricing
   plan_count: 3
   slug: bridge-mls-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Bridge Mls Rate Limits
@@ -396,7 +396,7 @@ rules:
   slug: bridge-mls-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.9
+  composite: 56.8
   coverage:
     artifact_dirs: 15
     catalog_earned: 88.3
@@ -404,11 +404,11 @@ score:
     catalog_gap: 26.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 73.7
     contract_governance: 9.8
-    contract_quality: 65.4
+    contract_quality: 65.1
     developer_ergonomics: 46.4
     discoverability: 74.1
     operational_transparency: 47.4
@@ -427,7 +427,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

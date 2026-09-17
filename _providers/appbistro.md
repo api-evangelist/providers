@@ -24,7 +24,7 @@ name: AppBistro
 nav: Providers
 network: true
 overview: AppBistro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Facebook, App Marketplace, Social-Media, and White Label.
-random_paper: 14
+random_paper: 12
 slug: appbistro
 tags:
 - Company

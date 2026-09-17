@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -76,14 +76,14 @@ apis:
   slug: tata-communications-report-api
 - baseURL: https://move-external-apim-prod.azure-api.net
   baseurl_source: declared
-  description: The SenderId API from Tata Communications — 1 operation(s) for senderid.
-  name: Tata Communications Sender ID API
-  slug: tata-communications-senderid-api
-- baseURL: https://move-external-apim-prod.azure-api.net
-  baseurl_source: declared
   description: The TOP 25 CDR by account Id & Time Frame API from Tata Communications — 1 operation(s) for top 25 cdr by account id & time frame.
   name: Tata Communications TOP 25 CDR by account Id & Time Frame API
   slug: tata-communications-top-25-cdr-by-account-id-time-frame-api
+- baseURL: https://move-external-apim-prod.azure-api.net
+  baseurl_source: declared
+  description: The Sender ID API from Tata Communications — 1 operation(s) for sender id.
+  name: Tata Communications Sender ID API
+  slug: tata-communications-sender-id-api
 artifact_total: 17
 asyncapis:
 - description: ''
@@ -284,10 +284,10 @@ overview: 'Tata Communications publishes 6 APIs on the [APIs.io](https://apis.io
 
 
   Tata Communications'' developer surface includes authentication, code examples, sandbox, documentation, signup flow, engineering blog, developer portal, and 30 more developer resources.'
-random_paper: 10
+random_paper: 4
 score:
   band: developing
-  composite: 47.8
+  composite: 48.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 40.0
@@ -295,11 +295,11 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 43.3
+    contract_quality: 45.3
     developer_ergonomics: 54.2
     discoverability: 81.5
     operational_transparency: 10.5
@@ -328,7 +328,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

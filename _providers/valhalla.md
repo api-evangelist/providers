@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -137,6 +137,10 @@ collections:
   name: Valhalla Routing Expansion Trace Route API
   slug: open-valhalla-trace-route-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://valhalla.github.io
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/valhalla/refs/heads/main/agentic-access/valhalla-agentic-access.yml
   title: ''
@@ -218,7 +222,7 @@ jsonld:
   property_count: 56
   slug: valhalla-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Valhalla
 nav: Providers
 network: true
@@ -228,12 +232,12 @@ overview: 'Valhalla publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The Valhalla catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Valhalla''s developer surface includes GitHub presence, documentation, and 8 more developer resources.'
+  Valhalla''s developer surface includes GitHub presence, documentation, and 9 more developer resources.'
 plans:
 - name: Open Source
   plan_count: 2
   slug: open-source
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Openstreetmap De
@@ -276,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -299,4 +303,5 @@ tags:
 - Travel
 - Transportation
 - Open-Source
+website: https://valhalla.github.io
 ---

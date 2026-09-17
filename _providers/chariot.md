@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 53.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -150,11 +150,6 @@ apis:
   slug: chariot-organizations-api
 - baseURL: https://api.givechariot.com
   baseurl_source: declared
-  description: The paymentSources API from Chariot — 2 operation(s) for paymentsources.
-  name: Chariot paymentSources API
-  slug: chariot-paymentsources-api
-- baseURL: https://api.givechariot.com
-  baseurl_source: declared
   description: The Programs API from Chariot — 2 operation(s) for programs.
   name: Chariot Programs API
   slug: chariot-programs-api
@@ -185,9 +180,14 @@ apis:
   slug: chariot-unintegrated-grants-api
 - baseURL: https://api.givechariot.com
   baseurl_source: declared
-  description: The verificationRequests API from Chariot — 2 operation(s) for verificationrequests.
-  name: Chariot verificationRequests API
-  slug: chariot-verificationrequests-api
+  description: The Payment Sources API from Chariot — 2 operation(s) for payment sources.
+  name: Chariot Payment Sources API
+  slug: chariot-payment-sources-api
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Verification Requests API from Chariot — 2 operation(s) for verification requests.
+  name: Chariot Verification Requests API
+  slug: chariot-verification-requests-api
 artifact_total: 94
 asyncapis:
 - description: ''
@@ -569,7 +569,7 @@ overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 11
+random_paper: 20
 scopes:
 - name: Chariot Scopes
   scope_count: 4
@@ -611,7 +611,7 @@ score:
     regime_id: banking_open_finance
     score: 63.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

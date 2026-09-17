@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -87,11 +87,11 @@ modified: '2026-07-18'
 name: Avant Arte
 nav: Providers
 network: true
-overview: 'Avant Arte is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplaces, Art, E-Commerce, and Collectibles.
+overview: 'Avant Arte is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Art, E-Commerce, and Collectibles.
 
 
   Avant Arte''s developer surface includes support, signup flow, and 8 more developer resources.'
-random_paper: 3
+random_paper: 21
 score:
   band: emerging
   composite: 15.3
@@ -112,7 +112,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -131,11 +131,11 @@ security:
 slug: avant-arte
 tags:
 - Company
-- Marketplaces
+- Marketplace
 - Art
 - E-Commerce
 - Collectibles
 - Contemporary Art
-- Prints
+- Print
 website: https://avantarte.com/
 ---

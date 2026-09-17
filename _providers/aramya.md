@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,7 +70,7 @@ created: '2026-07-17'
 description: Aramya is a direct-to-consumer (D2C) women's ethnic wear brand from India, operated by DSLR Technologies Pvt. Ltd. and based in Jaipur, Rajasthan. Founded by Ankush Goyal, Aramya sells premium cotton kurtas, kurta sets, bottoms, dresses, co-ord sets, and dupattas with a strong focus on inclusive sizing (XS to 10XL) and affordable, comfortable everyday, office, and occasion wear. The brand runs on a Shopify-based storefront at aramya.in with weekly launches, cash on delivery, and free returns, and has raised multiple rounds (seed, pre-Series A, and an ~INR 80 Cr Series A) co-led by Accel India and Z47 (formerly Matrix Partners India). Aramya is a consumer retail brand and does not publish a public developer API; it does publish an llms.txt describing its shopping surface for AI assistants.
 image: https://assets.aramya.in/next-assets/production/images/website_link_banner.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Aramya
 nav: Providers
 network: true
@@ -78,7 +78,7 @@ overview: 'Aramya is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aramya''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 5
+random_paper: 19
 score:
   band: emerging
   composite: 11.4
@@ -106,7 +106,7 @@ score:
     - india-south-asia
   previous_composite: 11.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -128,5 +128,6 @@ tags:
 - D2C
 - Apparel
 - India
+- Direct to Consumer
 website: https://aramya.in/
 ---

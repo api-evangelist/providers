@@ -24,7 +24,7 @@ name: Distelli
 nav: Providers
 network: true
 overview: Distelli is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Deployment, Continuous Delivery, and Containers.
-random_paper: 18
+random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/distelli/refs/heads/main/screenshots/distelli-2026-07-25T212119.png
 slug: distelli
 tags:

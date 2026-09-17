@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 46.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The ESS Pod Storage Service implements the Solid Protocol over HTTP — LDP-style container and resource CRUD in RDF (Turtle, JSON-LD) and binary form, with Access Control Policy (ACP) resources, canoni
@@ -276,7 +276,7 @@ plans:
 - name: Inrupt Plans Pricing
   plan_count: 0
   slug: inrupt-plans-pricing
-random_paper: 2
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Inrupt Rate Limits
@@ -321,7 +321,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

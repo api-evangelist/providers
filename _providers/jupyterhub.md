@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 4
@@ -72,11 +72,6 @@ apis:
   slug: jupyterhub-groups-api
 - baseURL: http://localhost:8000/hub/api
   baseurl_source: declared
-  description: OAuth2 authorization endpoints.
-  name: JupyterHub OAuth2 API
-  slug: jupyterhub-oauth2-api
-- baseURL: http://localhost:8000/hub/api
-  baseurl_source: declared
   description: Configurable HTTP proxy management.
   name: JupyterHub Proxy API
   slug: jupyterhub-proxy-api
@@ -100,6 +95,11 @@ apis:
   description: User account management.
   name: JupyterHub Users API
   slug: jupyterhub-users-api
+- baseURL: http://localhost:8000/hub/api
+  baseurl_source: declared
+  description: OAuth2 authorization endpoints.
+  name: JupyterHub O Auth2 API
+  slug: jupyterhub-oauth2-api
 artifact_total: 37
 collections:
 - collection_type: open
@@ -266,7 +266,7 @@ plans:
 - name: Jupyterhub Plans Pricing
   plan_count: 3
   slug: jupyterhub-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Jupyterhub Rate Limits
@@ -320,7 +320,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

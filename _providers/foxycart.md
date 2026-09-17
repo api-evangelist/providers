@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'The Foxy Hypermedia API (hAPI) is a RESTful hypermedia API implementing HATEOAS design, giving developers complete control over Foxy store accounts. Supports managing stores, customers, transactions, '
@@ -113,7 +113,7 @@ plans:
 - name: Foxycart Plans Pricing
   plan_count: 4
   slug: foxycart-plans-pricing
-random_paper: 19
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Foxycart Rate Limits
@@ -144,7 +144,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

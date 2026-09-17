@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 7
-  human_in_the_loop: 0
+- acting_count: 71
+  human_in_the_loop: 11
   name: Authelia Agentic Access
-  operation_count: 12
+  operation_count: 111
   slug: authelia-agentic-access
-  summary_line: 12 operations · 7 acting
+  summary_line: 111 operations · 71 acting · 11 human-in-the-loop
 api_count: 1
 apis:
 - description: Authelia acts as an OpenID Certified OpenID Connect 1.0 Provider supporting Authorization Code, Implicit, and Hybrid flows with PKCE, PAR, and various token endpoint authentication methods.
@@ -50,20 +50,65 @@ apis:
   slug: authelia-oidc-provider
 - baseURL: https://auth.example.com
   baseurl_source: declared
-  description: The full first-party Authelia HTTP API — the portal, authorization, authentication, second factor, user information, session elevation, password reset/change and OpenID Connect 1.0 surfaces. Described
-  name: Authelia API
-  slug: authelia-api
+  description: Authentication endpoints
+  name: Authelia Authentication API
+  slug: authelia-authentication-api
 - baseURL: https://auth.example.com
   baseurl_source: declared
-  description: Well-known discovery endpoints.
-  name: Authelia Discovery API
-  slug: authelia-discovery-api
+  description: Authorization endpoints
+  name: Authelia Authorization API
+  slug: authelia-authorization-api
 - baseURL: https://auth.example.com
   baseurl_source: declared
-  description: OpenID Connect 1.0 / OAuth 2.0 provider endpoints.
-  name: Authelia OIDC API
-  slug: authelia-oidc-api
-artifact_total: 39
+  description: First Factor Authentication
+  name: Authelia First Factor API
+  slug: authelia-first-factor-api
+- baseURL: https://auth.example.com
+  baseurl_source: declared
+  description: OAuth 2.0 Endpoints
+  name: Authelia OAuth 2.0 API
+  slug: authelia-oauth-2-0-api
+- baseURL: https://auth.example.com
+  baseurl_source: declared
+  description: OpenID Connect 1.0 Endpoints
+  name: Authelia OpenID Connect 1.0 API
+  slug: authelia-openid-connect-1-0-api
+- baseURL: https://auth.example.com
+  baseurl_source: declared
+  description: Password change endpoint
+  name: Authelia Password Change API
+  slug: authelia-password-change-api
+- baseURL: https://auth.example.com
+  baseurl_source: declared
+  description: Password reset endpoints
+  name: Authelia Password Reset API
+  slug: authelia-password-reset-api
+- baseURL: https://auth.example.com
+  baseurl_source: declared
+  description: TOTP, WebAuthn and Duo endpoints
+  name: Authelia Second Factor API
+  slug: authelia-second-factor-api
+- baseURL: https://auth.example.com
+  baseurl_source: declared
+  description: Configuration, health and state endpoints
+  name: Authelia State API
+  slug: authelia-state-api
+- baseURL: https://auth.example.com
+  baseurl_source: declared
+  description: User session elevation endpoints
+  name: Authelia User Elevation API
+  slug: authelia-user-elevation-api
+- baseURL: https://auth.example.com
+  baseurl_source: declared
+  description: User configuration endpoints
+  name: Authelia User Information API
+  slug: authelia-user-information-api
+- baseURL: https://auth.example.com
+  baseurl_source: declared
+  description: General utilities used in several operations
+  name: Authelia Utilities API
+  slug: authelia-utilities-api
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -78,6 +123,11 @@ collections:
   name: Authelia OpenID Connect 1.0 Endpoints
   slug: open-authelia
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/overlays/authelia-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/authelia-api-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -333,15 +383,15 @@ modified: '2026-09-06'
 name: Authelia
 nav: Providers
 network: true
-overview: 'Authelia publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, OIDC API, and 1 more. Tagged areas include Authentication, Authorization, LDAP, MFA, and Open-Source.
+overview: 'Authelia publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Authorization API, First Factor API, and 9 more. Tagged areas include Authentication, Authorization, LDAP, MFA, and Open-Source.
 
 
-  Authelia''s developer surface includes authentication, documentation, changelog, support, CLI, API reference, getting-started guide, and 37 more developer resources.'
+  Authelia''s developer surface includes authentication, documentation, changelog, support, CLI, API reference, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Authelia Plans Pricing
   plan_count: 0
   slug: authelia-plans-pricing
-random_paper: 5
+random_paper: 9
 rate_limits:
 - limit_count: 11
   name: Authelia Rate Limits
@@ -380,11 +430,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 12
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

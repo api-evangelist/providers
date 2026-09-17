@@ -19,7 +19,7 @@ name: BlueStripe Software
 nav: Providers
 network: true
 overview: BlueStripe Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Application Performance Management, APM, and Monitoring.
-random_paper: 12
+random_paper: 5
 slug: bluestripe-software
 tags:
 - Company

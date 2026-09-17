@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - baseURL: https://{infinibox_host}/api/rest
@@ -227,7 +227,7 @@ overview: 'Infinidat publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Infinidat''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 20 more developer resources.'
-random_paper: 5
+random_paper: 4
 score:
   band: thin
   composite: 32.7
@@ -257,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

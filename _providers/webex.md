@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 989
   human_in_the_loop: 84
@@ -291,9 +291,6 @@ apis:
 - description: The Guest Management API from Webex — 2 operation(s) for guest management.
   name: Webex Guest Management API
   slug: webex-guest-management-api
-- description: The HDS API from Webex — 7 operation(s) for hds.
-  name: Webex HDS API
-  slug: webex-hds-api
 - description: The Historical Analytics APIs API from Webex — 3 operation(s) for historical analytics apis.
   name: Webex Historical Analytics APIs API
   slug: webex-historical-analytics-apis-api
@@ -316,22 +313,22 @@ apis:
   name: Webex Invitees API
   slug: webex-invitees-api
 - description: The Journey - Customer Identification API API from Webex — 7 operation(s) for journey - customer identification api.
-  name: Webex Journey - Customer Identification API API
+  name: Webex Journey - Customer Identification API
   slug: webex-journey-customer-identification-api-api
 - description: The Journey - Data Ingestion API API from Webex — 1 operation(s) for journey - data ingestion api.
-  name: Webex Journey - Data Ingestion API API
+  name: Webex Journey - Data Ingestion API
   slug: webex-journey-data-ingestion-api-api
 - description: The Journey - Profile Creation & Insights API API from Webex — 11 operation(s) for journey - profile creation & insights api.
-  name: Webex Journey - Profile Creation & Insights API API
+  name: Webex Journey - Profile Creation & Insights API
   slug: webex-journey-profile-creation-insights-api-api
 - description: The Journey - Subscription API API from Webex — 1 operation(s) for journey - subscription api.
-  name: Webex Journey - Subscription API API
+  name: Webex Journey - Subscription API
   slug: webex-journey-subscription-api-api
 - description: The Journey - Trigger Actions API API from Webex — 4 operation(s) for journey - trigger actions api.
-  name: Webex Journey - Trigger Actions API API
+  name: Webex Journey - Trigger Actions API
   slug: webex-journey-trigger-actions-api-api
 - description: The Journey - Workspace management API API from Webex — 2 operation(s) for journey - workspace management api.
-  name: Webex Journey - Workspace management API API
+  name: Webex Journey - Workspace management API
   slug: webex-journey-workspace-management-api-api
 - description: The Licenses API from Webex — 3 operation(s) for licenses.
   name: Webex Licenses API
@@ -576,9 +573,6 @@ apis:
 - description: The Workspaces API from Webex — 3 operation(s) for workspaces.
   name: Webex Workspaces API
   slug: webex-workspaces-api
-- description: The xAPI API from Webex — 3 operation(s) for xapi.
-  name: Webex xAPI API
-  slug: webex-xapi-api
 - description: The Activities API from Webex — 3 operation(s) for activities.
   name: Webex Activities API
   slug: webex-activities-api
@@ -624,7 +618,10 @@ apis:
 - description: The Workspace Call Settings API from Webex — 3 operation(s) for workspace call settings.
   name: Webex Workspace Call Settings API
   slug: webex-workspace-call-settings-api
-artifact_total: 4640
+- description: The x API API from Webex — 3 operation(s) for x api.
+  name: Webex x API
+  slug: webex-x-api-api
+artifact_total: 4639
 asyncapis:
 - description: ''
   name: Review
@@ -1729,6 +1726,10 @@ collections:
   name: Webex Admin Address Book xAPI API
   slug: open-webex-xapi-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://webex.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/capabilities/webex-capability-edges.yml
   title: ''
@@ -14068,22 +14069,22 @@ jsonld:
   property_count: 9
   slug: webex-wholesale-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: Webex
 nav: Providers
 network: true
-overview: 'Webex publishes 193 APIs on the [APIs.io](https://apis.io/) network, including Address Book API, Admin Audit Events API, Agent Personal Greeting Files API, and 190 more. Tagged areas include Calling, Collaboration, Communications, Enterprise, and Messaging.
+overview: 'Webex publishes 192 APIs on the [APIs.io](https://apis.io/) network, including Address Book API, Admin Audit Events API, Agent Personal Greeting Files API, and 189 more. Tagged areas include Calling, Collaboration, Communications, Enterprise, and Messaging.
 
 
   The Webex catalog on APIs.io includes 1 event-driven AsyncAPI specification, 9 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Webex''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 29 more developer resources.'
+  Webex''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 30 more developer resources.'
 plans:
 - name: Webex Plans Pricing
   plan_count: 3
   slug: webex-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Webex Rate Limits
@@ -14117,7 +14118,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 55.8
+  composite: 55.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 57.5
@@ -14125,11 +14126,11 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 36.8
     contract_governance: 28.8
-    contract_quality: 66.7
+    contract_quality: 65.2
     developer_ergonomics: 67.9
     discoverability: 59.3
     operational_transparency: 26.3
@@ -14138,11 +14139,11 @@ score:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
+      derived: 8
       marker_coverage: 100.0
-      total: 193
+      total: 192
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -14178,5 +14179,5 @@ use_cases:
   name: Unified Communications Administration
 - description: Use webhooks to trigger business workflows when messages are sent, meetings start, or rooms change.
   name: Event-Driven Workflows
-website: https://developer.webex.com/
+website: https://webex.com
 ---

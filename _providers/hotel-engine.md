@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,11 +53,6 @@ apis:
   slug: hotel-engine-catalogservice-api
 - baseURL: https://partner-api.engine.com
   baseurl_source: declared
-  description: The ContentService API from Engine — 2 operation(s) for contentservice.
-  name: Engine Content Service API
-  slug: hotel-engine-contentservice-api
-- baseURL: https://partner-api.engine.com
-  baseurl_source: declared
   description: The LodgingBookingService API from Engine — 5 operation(s) for lodgingbookingservice.
   name: Engine Lodging Booking Service API
   slug: hotel-engine-lodgingbookingservice-api
@@ -66,6 +61,11 @@ apis:
   description: The LodgingShoppingService API from Engine — 2 operation(s) for lodgingshoppingservice.
   name: Engine Lodging Shopping Service API
   slug: hotel-engine-lodgingshoppingservice-api
+- baseURL: https://partner-api.engine.com
+  baseurl_source: declared
+  description: The Content Service API from Engine — 2 operation(s) for content service.
+  name: Engine Content Service API
+  slug: hotel-engine-content-service-api
 artifact_total: 15
 collections:
 - collection_type: open
@@ -237,11 +237,11 @@ modified: '2026-08-04'
 name: Engine
 nav: Providers
 network: true
-overview: 'Engine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog Service API, Content Service API, Lodging Booking Service API, and 1 more. Tagged areas include Company, Travel, Business Travel, Lodging, and Hotels.
+overview: 'Engine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog Service API, Lodging Booking Service API, Lodging Shopping Service API, and 1 more. Tagged areas include Company, Travel, Business Travel, Lodging, and Hotels.
 
 
   Engine''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 18
+random_paper: 5
 rate_limits:
 - limit_count: 16
   name: Hotel Engine Rate Limits
@@ -282,7 +282,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

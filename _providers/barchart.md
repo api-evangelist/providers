@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,61 +46,6 @@ api_count: 2
 apis:
 - baseURL: https://ondemand.websol.barchart.com
   baseurl_source: declared
-  description: Grain bids, commodity statistics, fuel, and crop data.
-  name: Barchart Commodities & Agriculture API
-  slug: barchart-commodities-agriculture-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Splits, dividends, earnings, and calendars.
-  name: Barchart Corporate Actions & Earnings API
-  slug: barchart-corporate-actions-earnings-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Spot crypto quotes and history.
-  name: Barchart Cryptocurrency API
-  slug: barchart-cryptocurrency-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Company profiles and financial statements.
-  name: Barchart Fundamentals API
-  slug: barchart-fundamentals-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Futures and options market data and analytics.
-  name: Barchart Futures & Options API
-  slug: barchart-futures-options-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Historical tick, minute, and end-of-day time series.
-  name: Barchart History API
-  slug: barchart-history-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Financial news and SEC filings.
-  name: Barchart News & Filings API
-  slug: barchart-news-filings-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Real-time, delayed, and end-of-day price quotes.
-  name: Barchart Quotes API
-  slug: barchart-quotes-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Instrument metadata and bulk equities by exchange.
-  name: Barchart Reference & Equities API
-  slug: barchart-reference-equities-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Technical studies, signals, and chart images.
-  name: Barchart Technicals & Charts API
-  slug: barchart-technicals-charts-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: Current conditions and forecasts.
-  name: Barchart Weather API
-  slug: barchart-weather-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
   description: The Charts and Analytics API from Barchart — 5 operation(s) for charts and analytics.
   name: Barchart Charts and Analytics API
   slug: barchart-charts-and-analytics-api
@@ -109,11 +54,6 @@ apis:
   description: The Cryptocurrency Data API from Barchart — 2 operation(s) for cryptocurrency data.
   name: Barchart Cryptocurrency Data API
   slug: barchart-cryptocurrency-data-api
-- baseURL: https://ondemand.websol.barchart.com
-  baseurl_source: declared
-  description: The ETFs API from Barchart — 2 operation(s) for etfs.
-  name: Barchart ET Fs API
-  slug: barchart-etfs-api
 - baseURL: https://ondemand.websol.barchart.com
   baseurl_source: declared
   description: The Leaderboards and Lists API from Barchart — 3 operation(s) for leaderboards and lists.
@@ -149,7 +89,12 @@ apis:
   description: The Splits, Dividends, and Earnings API from Barchart — 8 operation(s) for splits, dividends, and earnings.
   name: Barchart Splits, Dividends, and Earnings API
   slug: barchart-splits-dividends-and-earnings-api
-artifact_total: 52
+- baseURL: https://ondemand.websol.barchart.com
+  baseurl_source: declared
+  description: The ETFs API from Barchart — 2 operation(s) for etfs.
+  name: Barchart ET Fs API
+  slug: barchart-etfs-api
+artifact_total: 41
 collections:
 - collection_type: postman
   name: Barchart OnDemand Commodities & Agriculture API
@@ -278,10 +223,10 @@ common:
   type: FinOps
   url: finops/barchart-finops.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-ondemand-official-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/_original/barchart-ondemand-official-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/barchart-ondemand-official-openapi.yml
+  url: openapi/_original/barchart-ondemand-official-openapi.yml
 - group: build
   href: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/packages/barchart-packages.yml
   title: ''
@@ -396,11 +341,11 @@ finops:
   slug: barchart-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/barchart.png
 layout: provider
-modified: '2026-07-22'
+modified: '2026-09-16'
 name: Barchart
 nav: Providers
 network: true
-overview: 'Barchart publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Commodities & Agriculture API, Corporate Actions & Earnings API, Cryptocurrency API, and 18 more. Tagged areas include Market Data, Financial Data, Commodities, Futures, and Options.
+overview: 'Barchart publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Charts and Analytics API, Cryptocurrency Data API, Leaderboards and Lists API, and 7 more. Tagged areas include Market Data, Financial Data, Commodities, Futures, and Options.
 
 
   Barchart''s developer surface includes authentication, documentation, signup flow, getting-started guide, support, pricing, engineering blog, and 28 more developer resources.'
@@ -408,14 +353,14 @@ plans:
 - name: Barchart Plans Pricing
   plan_count: 3
   slug: barchart-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Barchart Rate Limits
   slug: barchart-rate-limits
 score:
   band: strong
-  composite: 60.2
+  composite: 58.6
   coverage:
     artifact_dirs: 24
     catalog_earned: 64.0
@@ -423,12 +368,12 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 54.3
-    developer_ergonomics: 67.3
+    contract_quality: 53.7
+    developer_ergonomics: 60.1
     discoverability: 68.5
     operational_transparency: 50.0
   previous_composite: 60.2
@@ -439,7 +384,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 21
+      total: 10
     mcp: derived
     skills: derived
   regulatory:
@@ -449,7 +394,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

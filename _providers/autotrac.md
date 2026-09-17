@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: 'The AutoTrac Supervisor Web platform provides fleet management capabilities for monitoring vehicle locations, managing fleet operations, generating reports, and coordinating driver assignments across '
@@ -91,7 +91,7 @@ plans:
 - name: Autotrac Plans Pricing
   plan_count: 3
   slug: autotrac-plans-pricing
-random_paper: 6
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Autotrac Rate Limits
@@ -123,7 +123,7 @@ score:
     - latin-america
   previous_composite: 12.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

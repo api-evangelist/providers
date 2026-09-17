@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The UCP-conforming Model Context Protocol endpoint Virtuix serves from its own domain. Thirteen tools cover catalog search and lookup, product detail, cart create/update/cancel, checkout create/update
@@ -165,7 +165,7 @@ modified: '2026-09-04'
 name: Virtuix
 nav: Providers
 network: true
-overview: 'Virtuix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Virtual Reality, Gaming, Hardware, Agent Commerce, and MCP.
+overview: 'Virtuix publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Virtual Reality, Gaming, Hardware, Agentic Commerce, and MCP.
 
 
   Virtuix''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
@@ -173,7 +173,7 @@ plans:
 - name: Virtuix Plans Pricing
   plan_count: 0
   slug: virtuix-plans-pricing
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Virtuix Rate Limits
@@ -206,7 +206,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -226,7 +226,7 @@ tags:
 - Virtual Reality
 - Gaming
 - Hardware
-- Agent Commerce
+- Agentic Commerce
 - MCP
 - Universal Commerce Protocol
 - Esports

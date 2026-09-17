@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -205,6 +205,10 @@ collections:
   name: AWS SimSpace Weaver Createsnapshot Tags API
   slug: open-amazon-simspace-weaver-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -773,7 +777,7 @@ jsonld:
   property_count: 38
   slug: amazon-simspace-weaver-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon SimSpace Weaver
 nav: Providers
 network: true
@@ -783,12 +787,12 @@ overview: 'Amazon SimSpace Weaver publishes 14 APIs on the [APIs.io](https://api
   The Amazon SimSpace Weaver catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon SimSpace Weaver''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon SimSpace Weaver''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Simspace Weaver Plans Pricing
   plan_count: 3
   slug: amazon-simspace-weaver-plans-pricing
-random_paper: 13
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Amazon Simspace Weaver Rate Limits
@@ -842,7 +846,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -878,5 +882,5 @@ use_cases:
   name: Emergency Response
 - description: Run large-scale defense and logistics simulations.
   name: Defense Simulations
-website: https://aws.amazon.com/simspaceweaver/
+website: https://amazon.com
 ---

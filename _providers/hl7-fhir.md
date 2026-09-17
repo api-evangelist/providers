@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,11 +68,6 @@ apis:
   slug: hl7-fhir-encounter-api
 - baseURL: https://fhir-server.example.com/fhir/R5
   baseurl_source: declared
-  description: Medication prescriptions and orders
-  name: HL7 FHIR MedicationRequest API
-  slug: hl7-fhir-medicationrequest-api
-- baseURL: https://fhir-server.example.com/fhir/R5
-  baseurl_source: declared
   description: Clinical measurements, lab results, vital signs
   name: HL7 FHIR Observation API
   slug: hl7-fhir-observation-api
@@ -81,6 +76,11 @@ apis:
   description: Patient demographic and identity resources
   name: HL7 FHIR Patient API
   slug: hl7-fhir-patient-api
+- baseURL: https://fhir-server.example.com/fhir/R5
+  baseurl_source: declared
+  description: Medication prescriptions and orders
+  name: HL7 FHIR Medication Request API
+  slug: hl7-fhir-medication-request-api
 artifact_total: 26
 collections:
 - collection_type: open
@@ -211,7 +211,7 @@ plans:
 - name: Hl7 Fhir Plans Pricing
   plan_count: 3
   slug: hl7-fhir-plans-pricing
-random_paper: 2
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Hl7 Fhir Rate Limits
@@ -265,7 +265,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

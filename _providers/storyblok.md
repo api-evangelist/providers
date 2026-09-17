@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -63,11 +63,6 @@ apis:
   description: Components define the schema and field structure for story content. This includes managing component definitions, field types, and component groups.
   name: Storyblok Components API
   slug: storyblok-components-api
-- baseURL: https://api.storyblok.com/v2/cdn
-  baseurl_source: declared
-  description: Datasources are reusable key-value collections used for options lists, translations, and configuration data within Storyblok spaces.
-  name: Storyblok Datasources API
-  slug: storyblok-datasources-api
 - baseURL: https://api.storyblok.com/v2/cdn
   baseurl_source: declared
   description: URL-based image transformation operations applied by constructing a specific path structure following the base asset URL. All operations require the /m/ path segment prefix.
@@ -98,6 +93,11 @@ apis:
   description: Webhooks allow external services to be notified when events occur in a Storyblok space, such as story publication or asset upload. The Management API provides full CRUD operations for webhook configur
   name: Storyblok Webhooks API
   slug: storyblok-webhooks-api
+- baseURL: https://api.storyblok.com/v2/cdn
+  baseurl_source: declared
+  description: Datasources are reusable key-value collections used for options lists, translations, and configuration data within Storyblok spaces.
+  name: Storyblok Data Sources API
+  slug: storyblok-data-sources-api
 arazzos:
 - description: Sign an asset upload, create a story that references the asset, then publish it.
   name: Storyblok Asset to Story
@@ -487,7 +487,7 @@ plans:
 - name: Storyblok Plans Pricing
   plan_count: 5
   slug: storyblok-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 6
   name: Storyblok Rate Limits
@@ -554,7 +554,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

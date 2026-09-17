@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -278,6 +278,10 @@ collections:
   name: AppDynamics Alert and Respond Actions Transaction Detection Export/Import API
   slug: open-appdynamics-transaction-detection-export-import-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://appdynamics.com
 - group: other
   title: ''
   type: ParentCompany
@@ -542,7 +546,7 @@ jsonld:
   property_count: 11
   slug: appdynamics-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: AppDynamics
 nav: Providers
 network: true
@@ -552,12 +556,12 @@ overview: 'AppDynamics publishes 25 APIs on the [APIs.io](https://apis.io/) netw
   The AppDynamics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AppDynamics'' developer surface includes authentication, documentation, getting-started guide, pricing, support, code examples, and 18 more developer resources.'
+  AppDynamics'' developer surface includes authentication, documentation, getting-started guide, pricing, support, code examples, and 19 more developer resources.'
 plans:
 - name: Appdynamics Plans Pricing
   plan_count: 7
   slug: appdynamics-plans-pricing
-random_paper: 1
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Appdynamics Rate Limits
@@ -600,7 +604,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -636,5 +640,5 @@ use_cases:
   name: Business Impact Analysis
 - description: Automate incident response workflows by integrating AppDynamics alerting with ticketing systems.
   name: Automated Incident Response
-website: https://developer.cisco.com/site/appdynamics/
+website: https://appdynamics.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,11 +85,6 @@ apis:
   slug: daring-foods-posts-api
 - baseURL: https://daring.com/wp-json
   baseurl_source: declared
-  description: Public oEmbed 1.0 provider endpoint for daring.com URLs, returning embeddable rich metadata - title, author, thumbnail and iframe markup - for any recipe, product or marketing page in a single unauthe
-  name: Daring Foods oEmbed API
-  slug: daring-foods-oembed-api
-- baseURL: https://daring.com/wp-json
-  baseurl_source: declared
   description: Public Yoast SEO head endpoint returning the rendered SEO metadata and full schema.org JSON-LD graph for any daring.com URL - the most structured description of a Daring recipe or product available fr
   name: Daring Foods SEO Metadata API
   slug: daring-foods-seo-api
@@ -113,6 +108,11 @@ apis:
   description: The `post_tag` taxonomy. Registered but empty on this site (0 terms).
   name: Daring Foods Tags API
   slug: daring-foods-tags-api
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint.
+  name: Daring Foods o Embed API
+  slug: daring-foods-o-embed-api
 artifact_total: 32
 collections:
 - collection_type: open
@@ -161,6 +161,11 @@ collections:
   name: Daring Foods Taxonomy Tags API
   slug: open-daring-foods-tags-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/overlays/daring-foods-oembed-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/daring-foods-oembed-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/capabilities/daring-foods-capability-edges.yml
   title: ''
@@ -304,8 +309,8 @@ network: true
 overview: 'Daring Foods publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Recipes API, Retail Products API, Foodservice Products API, and 11 more. Tagged areas include Company, Food, Consumer Packaged Goods, Plant-Based, and Alternative Protein.
 
 
-  Daring Foods'' developer surface includes support, FAQ, authentication, code examples, and 25 more developer resources.'
-random_paper: 16
+  Daring Foods'' developer surface includes support, FAQ, authentication, code examples, and 26 more developer resources.'
+random_paper: 3
 score:
   band: thin
   composite: 37.7
@@ -336,7 +341,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.leo1.in
   baseurl_source: declared
   description: General system endpoints for the API.
-  name: Leo1 api API
+  name: Leo1 api
   slug: leo1-api-api
 - baseURL: https://api.leo1.in
   baseurl_source: declared
@@ -433,21 +433,21 @@ created: '2026-07-17'
 description: LEO1 is a Mumbai-based education fintech founded in 2017 that operates an all-in-one campus and financial platform for Indian educational institutions. The company issues co-branded student and alumni prepaid cards, collects and reconciles institutional fees, and originates fee-financing (education loan) journeys that convert lump-sum tuition into instalments while giving institutes regularized cash flow. LEO1 exposes the LEO1 Fees SDK — a documented server-to-server and web checkout integration that lets an institute ERP start a fee transaction, embed the hosted checkout, and receive payment-gateway and fee-finance webhook notifications — backed by a public OpenAPI 3.0.2 description covering student, fee-due, fee-collection, payment, NACH/eNACH mandate, refund, penalty, waiver, settlement and institute administration operations. Backed by QED Investors, LEO1 reports partnerships with 31+ institution groups serving over half a million students across India.
 image: https://dn9oz5dl4ecgb.cloudfront.net/LEO1_Famous_card.png
 layout: provider
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Leo1
 nav: Providers
 network: true
-overview: 'Leo1 publishes 32 APIs on the [APIs.io](https://apis.io/) network, including api API, auth API, Common Fee Type API, and 29 more. Tagged areas include Company, Fintech, Education, Payments, and Student Loans.
+overview: 'Leo1 publishes 32 APIs on the [APIs.io](https://apis.io/) network, including auth API, Common Fee Type API, and 30 more. Tagged areas include Company, Fintech, Education, Payments, and Student Loans.
 
 
   The Leo1 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Leo1''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 21 more developer resources.'
-random_paper: 12
+random_paper: 17
 score:
   band: developing
-  composite: 41.3
+  composite: 40.0
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -455,11 +455,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.3
   facets:
     access_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 58.3
+    contract_quality: 53.0
     developer_ergonomics: 25.6
     discoverability: 75.9
     operational_transparency: 7.9
@@ -474,7 +474,7 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 32
@@ -487,7 +487,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

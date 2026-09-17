@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: 'Public Gateway API for the Agentic Storefront product: conversational discovery and chat, catalog/collection browsing, cart and checkout sessions, virtual try-on, orders and shipments, user profile an'
@@ -211,7 +211,7 @@ overview: 'Swap publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Swap''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, signup flow, and 23 more developer resources.'
-random_paper: 2
+random_paper: 3
 score:
   band: developing
   composite: 49.5
@@ -248,7 +248,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

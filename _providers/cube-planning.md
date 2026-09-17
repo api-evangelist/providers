@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -75,16 +75,6 @@ apis:
   slug: cube-planning-canvases-api
 - baseURL: https://api.cubesoftware.com
   baseurl_source: declared
-  description: The ChatMessages API from Cube Planning — 2 operation(s) for chatmessages.
-  name: Cube Planning ChatMessages API
-  slug: cube-planning-chatmessages-api
-- baseURL: https://api.cubesoftware.com
-  baseurl_source: declared
-  description: The ChatSessions API from Cube Planning — 2 operation(s) for chatsessions.
-  name: Cube Planning ChatSessions API
-  slug: cube-planning-chatsessions-api
-- baseURL: https://api.cubesoftware.com
-  baseurl_source: declared
   description: The ChatSettings API from Cube Planning — 1 operation(s) for chatsettings.
   name: Cube Planning ChatSettings API
   slug: cube-planning-chatsettings-api
@@ -113,11 +103,6 @@ apis:
   description: Connections to external source systems allow Cube to automatically import source dimensions and transaction data.
   name: Cube Planning Connections API
   slug: cube-planning-connections-api
-- baseURL: https://api.cubesoftware.com
-  baseurl_source: declared
-  description: The ContentType API from Cube Planning — 2 operation(s) for contenttype.
-  name: Cube Planning ContentType API
-  slug: cube-planning-contenttype-api
 - baseURL: https://api.cubesoftware.com
   baseurl_source: declared
   description: The cube API from Cube Planning — 2 operation(s) for cube.
@@ -205,18 +190,13 @@ apis:
   slug: cube-planning-permissions-api
 - baseURL: https://api.cubesoftware.com
   baseurl_source: declared
-  description: The permissionsets API from Cube Planning — 2 operation(s) for permissionsets.
-  name: Cube Planning permissionsets API
-  slug: cube-planning-permissionsets-api
-- baseURL: https://api.cubesoftware.com
-  baseurl_source: declared
   description: The PlanModeSessions API from Cube Planning — 1 operation(s) for planmodesessions.
   name: Cube Planning PlanModeSessions API
   slug: cube-planning-planmodesessions-api
 - baseURL: https://api.cubesoftware.com
   baseurl_source: declared
   description: The Planning Table API from Cube Planning — 4 operation(s) for planning table.
-  name: Cube Planning Planning Table API
+  name: Cube Planning Table API
   slug: cube-planning-planning-table-api
 - baseURL: https://api.cubesoftware.com
   baseurl_source: declared
@@ -253,6 +233,26 @@ apis:
   description: The Workflow API from Cube Planning — 5 operation(s) for workflow.
   name: Cube Planning Workflow API
   slug: cube-planning-workflow-api
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Chat Messages API from Cube Planning — 2 operation(s) for chat messages.
+  name: Cube Planning Chat Messages API
+  slug: cube-planning-chat-messages-api
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Chat Sessions API from Cube Planning — 2 operation(s) for chat sessions.
+  name: Cube Planning Chat Sessions API
+  slug: cube-planning-chat-sessions-api
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Content Type API from Cube Planning — 2 operation(s) for content type.
+  name: Cube Planning Content Type API
+  slug: cube-planning-content-type-api
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Permission Sets API from Cube Planning — 2 operation(s) for permission sets.
+  name: Cube Planning Permission Sets API
+  slug: cube-planning-permission-sets-api
 artifact_total: 90
 collections:
 - collection_type: open
@@ -513,7 +513,7 @@ created: '2026-07-17'
 description: Cube (Cube Software) is a financial planning & analysis (FP&A) platform that positions itself as an "agentic finance layer" — giving finance teams clean, decision-ready data everywhere FP&A happens by harmonizing data across their existing tool stack (ERPs, accounting, HRIS, CRM, data warehouses, and spreadsheets like Excel and Google Sheets) and automating planning, budgeting, and forecasting workflows. Cube exposes a public REST API at api.cubesoftware.com with 296 operations across 16 tags — dimensions, formulas, data tables, cube data exports, dashboards, connections, tags, attributes, and company/user administration — secured with OAuth 2.0 authorization-code + PKCE and multi-tenant via an X-Company-ID header. Cube is a Battery Ventures portfolio company. Enriched by the API Evangelist pipeline from Cube's public OpenAPI and developer surface.
 image: https://www.cubesoftware.com/hubfs/cube-favicon-2.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Cube Planning
 nav: Providers
 network: true
@@ -521,7 +521,7 @@ overview: 'Cube Planning publishes 42 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Cube Planning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 13
+random_paper: 17
 scopes:
 - name: Cube Planning Scopes
   scope_count: 3
@@ -529,7 +529,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.1
+  composite: 50.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -537,11 +537,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 52.6
+    contract_quality: 53.0
     developer_ergonomics: 49.4
     discoverability: 75.9
     operational_transparency: 15.8
@@ -557,7 +557,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

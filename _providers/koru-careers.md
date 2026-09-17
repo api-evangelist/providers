@@ -26,7 +26,7 @@ name: Koru Careers
 nav: Providers
 network: true
 overview: Koru Careers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruiting, Talent Acquisition, and People Analytics.
-random_paper: 17
+random_paper: 3
 slug: koru-careers
 tags:
 - Company
@@ -34,7 +34,7 @@ tags:
 - Recruiting
 - Talent Acquisition
 - People Analytics
-- Assessments
+- Assessment
 - Hiring
 - Defunct
 ---

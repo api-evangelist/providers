@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Core REST API for managing QRadar SIEM functionality including offenses, assets, rules, and searches.
@@ -110,7 +110,7 @@ plans:
 - name: Qradar Plans Pricing
   plan_count: 3
   slug: qradar-plans-pricing
-random_paper: 5
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Qradar Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 20.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

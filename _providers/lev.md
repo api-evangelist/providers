@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 54.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -97,7 +97,7 @@ apis:
 - baseURL: https://api.lev.com/api/external/v2
   baseurl_source: declared
   description: The Lev API Documentation API from Lev — 1 operation(s) for lev api documentation.
-  name: Lev Lev API Documentation API
+  name: Lev API Documentation API
   slug: lev-lev-api-documentation-api
 - baseURL: https://api.lev.com/api/external/v2
   baseurl_source: declared
@@ -414,7 +414,7 @@ mcp_servers:
 - description: ''
   name: Lev
   slug: lev
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Lev
 nav: Providers
 network: true
@@ -426,7 +426,7 @@ plans:
 - name: Lev Plans
   plan_count: 4
   slug: lev-plans
-random_paper: 12
+random_paper: 19
 rate_limits:
 - limit_count: 6
   name: Lev Rate Limits
@@ -472,7 +472,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -25,7 +25,7 @@ name: gammastar
 nav: Providers
 network: true
 overview: gammastar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Radiotherapy, and Oncology.
-random_paper: 12
+random_paper: 11
 screenshot: https://raw.githubusercontent.com/api-evangelist/gammastar/refs/heads/main/screenshots/gammastar-2026-07-25T215432.png
 slug: gammastar
 tags:

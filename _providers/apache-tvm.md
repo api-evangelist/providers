@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The TVM Python API provides a comprehensive interface for model compilation, optimization, and deployment. Key modules include tvm.relay for defining and optimizing computational graphs, tvm.auto_sche
@@ -138,7 +138,7 @@ modified: '2026-04-19'
 name: Apache TVM
 nav: Providers
 network: true
-overview: 'Apache TVM publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Compiler, Deep Learning, Edge Computing, and Model Optimization.
+overview: 'Apache TVM publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Compilers, Deep Learning, Edge Computing, and Model Optimization.
 
 
   Apache TVM''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 8 more developer resources.'
@@ -146,7 +146,7 @@ plans:
 - name: Apache Tvm Plans Pricing
   plan_count: 3
   slug: apache-tvm-plans-pricing
-random_paper: 11
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Apache Tvm Rate Limits
@@ -174,7 +174,7 @@ score:
     score: 40.0
   previous_composite: 25.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -193,7 +193,7 @@ security:
 slug: apache-tvm
 tags:
 - Artificial Intelligence
-- Compiler
+- Compilers
 - Deep Learning
 - Edge Computing
 - Model Optimization

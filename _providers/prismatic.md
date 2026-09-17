@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -47,14 +47,14 @@ api_count: 2
 apis:
 - baseURL: https://app.prismatic.io
   baseurl_source: spec
-  description: Prismatic provides a GraphQL-based API for you to build, deploy, and support your integrations programmatically. While Prismatic recommends that new users use the web app or Prismatic CLI tool (prism)
-  name: Prismatics GraphQL API
-  slug: prismatics-graphql-api
-- baseURL: https://app.prismatic.io
-  baseurl_source: spec
   description: Authentication endpoints for obtaining, refreshing, and revoking JWT tokens used to access the Prismatic API
   name: Prismatic Authentication API
   slug: prismatic-authentication-api
+- baseURL: https://app.prismatic.io
+  baseurl_source: spec
+  description: GraphQL API endpoint for querying and mutating Prismatic resources including customers, integrations, instances, and components
+  name: Prismatic Graph QL API
+  slug: prismatic-graph-ql-api
 arazzos:
 - description: Get a short-lived token from an active web session, then list components.
   name: Prismatic Browser Session List Components
@@ -775,7 +775,7 @@ modified: '2026-05-22'
 name: Prismatic
 nav: Providers
 network: true
-overview: 'Prismatic publishes 2 APIs on the [APIs.io](https://apis.io/) network: Prismatics GraphQL API and Authentication API. Tagged areas include Embedded iPaaS, Integration, Workflows, Connectors, and AI Agents.
+overview: 'Prismatic publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Graph QL API. Tagged areas include Embedded iPaaS, Integration, Workflows, Connectors, and AI Agents.
 
 
   The Prismatic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -786,7 +786,7 @@ plans:
 - name: Prismatic Plans Pricing
   plan_count: 3
   slug: prismatic-plans-pricing
-random_paper: 6
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Prismatic Rate Limits
@@ -841,7 +841,7 @@ score:
       total: 2
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

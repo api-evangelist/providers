@@ -28,7 +28,7 @@ name: Around
 nav: Providers
 network: true
 overview: Around is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video Conferencing, Collaboration, and Remote Work.
-random_paper: 19
+random_paper: 11
 screenshot: https://raw.githubusercontent.com/api-evangelist/around/refs/heads/main/screenshots/around-2026-07-25T201233.png
 slug: around
 tags:

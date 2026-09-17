@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 17
@@ -91,6 +91,10 @@ collections:
   name: HashiCorp Vault API
   slug: open-hashicorp-vault
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://hashicorp.com
 - group: other
   title: ''
   type: ParentCompany
@@ -157,26 +161,26 @@ json_structures:
   property_count: 0
   slug: hashicorp-structure
 layout: provider
-modified: '2026-08-21'
+modified: '2026-09-16'
 name: HashiCorp
 nav: Providers
 network: true
 overview: 'HashiCorp publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Identity API, Secrets API, and 1 more. Tagged areas include Cloud, DevOps, Infrastructure, and Platform.
 
 
-  HashiCorp''s developer surface includes developer portal, getting-started guide, support, engineering blog, and 9 more developer resources.'
+  HashiCorp''s developer surface includes developer portal, getting-started guide, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Hashicorp Plans Pricing
   plan_count: 6
   slug: hashicorp-plans-pricing
-random_paper: 16
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Hashicorp Rate Limits
   slug: hashicorp-rate-limits
 score:
   band: thin
-  composite: 29.2
+  composite: 29.4
   coverage:
     artifact_dirs: 13
     catalog_earned: 36.0
@@ -184,11 +188,11 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 26.3
     contract_governance: 0.0
-    contract_quality: 35.3
+    contract_quality: 36.3
     developer_ergonomics: 36.9
     discoverability: 50.0
     operational_transparency: 26.3
@@ -201,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -218,5 +222,5 @@ tags:
 - DevOps
 - Infrastructure
 - Platform
-website: https://developer.hashicorp.com/
+website: https://hashicorp.com
 ---

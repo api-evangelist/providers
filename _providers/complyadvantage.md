@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,33 +25,28 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: platform
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 36.2
-  scored_at: '2026-09-15'
+  score: 47.3
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 10
-  human_in_the_loop: 0
+- acting_count: 93
+  human_in_the_loop: 2
   name: Complyadvantage Agentic Access
-  operation_count: 19
+  operation_count: 184
   slug: complyadvantage-agentic-access
-  summary_line: 19 operations · 10 acting
+  summary_line: 184 operations · 93 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- baseURL: https://api.mesh.complyadvantage.com
-  baseurl_source: declared
-  description: ComplyAdvantage's newer Mesh platform API, authenticated with OAuth2 bearer tokens (24-hour validity). Covers the full customer lifecycle - customer creation and screening (sync or async), risk scorin
-  name: ComplyAdvantage Mesh Platform API
-  slug: complyadvantage-mesh-platform-api
 - baseURL: https://api.complyadvantage.com
   baseurl_source: declared
   description: Comments, tags, assignment, and match status workflow on searches.
@@ -72,7 +67,117 @@ apis:
   description: Users on your ComplyAdvantage account.
   name: ComplyAdvantage Users API
   slug: complyadvantage-users-api
-artifact_total: 20
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Accounts API from ComplyAdvantage — 2 operation(s) for accounts.
+  name: ComplyAdvantage Accounts API
+  slug: complyadvantage-accounts-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Alerts & Risks API from ComplyAdvantage — 8 operation(s) for alerts & risks.
+  name: ComplyAdvantage Alerts & Risks API
+  slug: complyadvantage-alerts-risks-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Audit API from ComplyAdvantage — 6 operation(s) for audit.
+  name: ComplyAdvantage Audit API
+  slug: complyadvantage-audit-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Authentication API from ComplyAdvantage — 2 operation(s) for authentication.
+  name: ComplyAdvantage Authentication API
+  slug: complyadvantage-authentication-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Batch Processing API from ComplyAdvantage — 3 operation(s) for batch processing.
+  name: ComplyAdvantage Batch Processing API
+  slug: complyadvantage-batch-processing-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Case Workflows API from ComplyAdvantage — 3 operation(s) for case workflows.
+  name: ComplyAdvantage Case Workflows API
+  slug: complyadvantage-case-workflows-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Cases API from ComplyAdvantage — 12 operation(s) for cases.
+  name: ComplyAdvantage Cases API
+  slug: complyadvantage-cases-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Clients API from ComplyAdvantage — 3 operation(s) for clients.
+  name: ComplyAdvantage Clients API
+  slug: complyadvantage-clients-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Custom Fields API from ComplyAdvantage — 2 operation(s) for custom fields.
+  name: ComplyAdvantage Custom Fields API
+  slug: complyadvantage-custom-fields-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Custom Lists API from ComplyAdvantage — 6 operation(s) for custom lists.
+  name: ComplyAdvantage Custom Lists API
+  slug: complyadvantage-custom-lists-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Customers API from ComplyAdvantage — 13 operation(s) for customers.
+  name: ComplyAdvantage Customers API
+  slug: complyadvantage-customers-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Email Configurations API from ComplyAdvantage — 3 operation(s) for email configurations.
+  name: ComplyAdvantage Email Configurations API
+  slug: complyadvantage-email-configurations-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Enrichment API from ComplyAdvantage — 10 operation(s) for enrichment.
+  name: ComplyAdvantage Enrichment API
+  slug: complyadvantage-enrichment-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Exports API from ComplyAdvantage — 3 operation(s) for exports.
+  name: ComplyAdvantage Exports API
+  slug: complyadvantage-exports-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The IAM API from ComplyAdvantage — 5 operation(s) for iam.
+  name: ComplyAdvantage IAM API
+  slug: complyadvantage-iam-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Labels API from ComplyAdvantage — 3 operation(s) for labels.
+  name: ComplyAdvantage Labels API
+  slug: complyadvantage-labels-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Onboarding API from ComplyAdvantage — 3 operation(s) for onboarding.
+  name: ComplyAdvantage Onboarding API
+  slug: complyadvantage-onboarding-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Payment Screening API from ComplyAdvantage — 7 operation(s) for payment screening.
+  name: ComplyAdvantage Payment Screening API
+  slug: complyadvantage-payment-screening-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Regulatory Reporting API from ComplyAdvantage — 4 operation(s) for regulatory reporting.
+  name: ComplyAdvantage Regulatory Reporting API
+  slug: complyadvantage-regulatory-reporting-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Screening Configurations API from ComplyAdvantage — 4 operation(s) for screening configurations.
+  name: ComplyAdvantage Screening Configurations API
+  slug: complyadvantage-screening-configurations-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Transactions API from ComplyAdvantage — 10 operation(s) for transactions.
+  name: ComplyAdvantage Transactions API
+  slug: complyadvantage-transactions-api
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: The Webhooks API from ComplyAdvantage — 3 operation(s) for webhooks.
+  name: ComplyAdvantage Webhooks API
+  slug: complyadvantage-webhooks-api
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Complyadvantage Webhooks
@@ -298,7 +403,7 @@ modified: '2026-08-27'
 name: ComplyAdvantage
 nav: Providers
 network: true
-overview: 'ComplyAdvantage publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Mesh Platform API, Case Management API, Monitored Searches API, and 2 more. Tagged areas include Anti-Money Laundering, AML, Fraud Detection, Sanctions Screening, and Compliance.
+overview: 'ComplyAdvantage publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Case Management API, Monitored Searches API, Searches API, and 23 more. Tagged areas include Anti-Money Laundering, AML, Fraud Detection, Sanctions Screening, and Compliance.
 
 
   The ComplyAdvantage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -309,7 +414,7 @@ plans:
 - name: Complyadvantage Plans Pricing
   plan_count: 3
   slug: complyadvantage-plans-pricing
-random_paper: 3
+random_paper: 15
 rate_limits:
 - limit_count: 4
   name: Complyadvantage Rate Limits
@@ -320,8 +425,8 @@ scopes:
   slug: complyadvantage-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 49.6
+  band: strong
+  composite: 63.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 64.0
@@ -329,11 +434,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 13.8
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 9.3
+    contract_quality: 64.6
     developer_ergonomics: 57.7
     discoverability: 75.9
     operational_transparency: 50.0
@@ -345,12 +450,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 26
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
-  trend: flat
+  scored_at: '2026-09-16'
+  trend: rising
   upsert:
     applies: true
     score: 33.3

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Public REST API for the Wordsmith legal AI platform. Lets developers ask questions of Wordsmith Assistants with optional file attachments, poll question status, list available assistants, generate pre
@@ -182,7 +182,7 @@ overview: 'Wordsmith publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wordsmith''s developer surface includes engineering blog, documentation, API reference, authentication, getting-started guide, pricing, academy / training, and 24 more developer resources.'
-random_paper: 6
+random_paper: 3
 score:
   band: emerging
   composite: 16.2
@@ -209,7 +209,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 16.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -233,7 +233,7 @@ tags:
 - Document Generation
 - Playbooks
 - Templates
-- AI Assistants
+- AI Assistant
 - AI Agents
 - Agentic AI
 - Slack

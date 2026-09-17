@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 0
@@ -213,17 +213,17 @@ apis:
 - baseURL: https://connect.patsnap.com
   baseurl_source: declared
   description: Patsnap Academy Course APIs.
-  name: Patsnap Patsnap Academy Course API
+  name: Patsnap Academy Course API
   slug: patsnap-patsnap-academy-course-api
 - baseURL: https://connect.patsnap.com
   baseurl_source: declared
   description: Patsnap Analysis Report APIs.
-  name: Patsnap Patsnap Analysis Report API
+  name: Patsnap Analysis Report API
   slug: patsnap-patsnap-analysis-report-api
 - baseURL: https://connect.patsnap.com
   baseurl_source: declared
   description: Patsnap LLM APIs.
-  name: Patsnap Patsnap LLM API
+  name: Patsnap LLM API
   slug: patsnap-patsnap-llm-api
 - baseURL: https://connect.patsnap.com
   baseurl_source: declared
@@ -567,7 +567,7 @@ mcp_servers:
 - description: ''
   name: Patsnap MCP Server
   slug: patsnap-mcp-server
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Patsnap
 nav: Providers
 network: true
@@ -575,7 +575,7 @@ overview: 'Patsnap publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Patsnap''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 3
+random_paper: 11
 score:
   band: developing
   composite: 48.9
@@ -612,7 +612,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

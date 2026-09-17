@@ -20,7 +20,7 @@ modified: '2026-07-17'
 name: Bullpen Capital
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 15
 slug: bullpen-capital
 tags:
 - Venture Capital
@@ -29,7 +29,7 @@ tags:
 - Series A
 - Gaming
 - Fintech
-- Marketplaces
+- Marketplace
 - Commerce
 - Health
 - North America

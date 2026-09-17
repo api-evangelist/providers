@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -61,7 +61,19 @@ apis:
   description: The Bloomberg Open API (BLPAPI) Core — the foundational service-oriented, socket-based API used by the Desktop API, Server API (SAPI), B-PIPE, and Bloomberg Platform products. Provides Request/Respons
   name: Bloomberg BLPAPI Core
   slug: bloomberg-blpapi-core
-artifact_total: 74
+- description: 'BLPAPI is Bloomberg''s core programming interface for the Bloomberg Terminal Desktop API, Server API (SAPI), B-PIPE, and Platform products. It exposes a unified asynchronous session/event/subscription '
+  name: Bloomberg BLPAPI (Desktop API)
+  slug: bloomberg-blpapi-desktop-api
+- description: Bloomberg's flagship enterprise market data feed, delivering normalized, consolidated, real-time and reference data across all asset classes with Bloomberg's entitlement and identifier infrastructure.
+  name: Bloomberg B-PIPE
+  slug: bloomberg-b-pipe
+- description: Bulk reference, pricing, regulatory, and alternative-data delivery service covering over 50 million securities and 30,000+ fields. Accessed via REST API (HAPI / Bloomberg Enterprise Access Point), SFT
+  name: Bloomberg Data License (DL / BEAP)
+  slug: bloomberg-data-license-dl-beap
+- description: 'Bloomberg''s flagship subscription product — a desktop application delivering real-time market data, news, analytics, trading, messaging, and research to financial professionals globally. The Terminal '
+  name: Bloomberg Terminal
+  slug: bloomberg-terminal
+artifact_total: 78
 asyncapis:
 - description: Event surface of the Bloomberg Open API (BLPAPI) Subscription paradigm. Clients call Session.subscribe(SubscriptionList) over a BLPAPI SDK session (Desktop API localhost:8194 or SAPI/B-PIPE host); str
   name: Bloomberg BLPAPI Market Data Subscriptions
@@ -134,6 +146,10 @@ collections:
   name: Bloomberg BLPAPI Core
   slug: open-blpapi-core
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bloomberg.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -536,7 +552,7 @@ jsonld:
   property_count: 0
   slug: blpapi-core-context
 layout: provider
-modified: '2026-08-27'
+modified: '2026-09-16'
 name: Bloomberg
 nav: Providers
 network: true
@@ -546,12 +562,12 @@ overview: 'Bloomberg publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Bloomberg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 63 more developer resources.'
+  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 64 more developer resources.'
 plans:
 - name: Bloomberg Plans Pricing
   plan_count: 2
   slug: bloomberg-plans-pricing
-random_paper: 8
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Bloomberg Rate Limits
@@ -585,7 +601,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 59.0
+  composite: 61.1
   coverage:
     artifact_dirs: 31
     catalog_earned: 67.5
@@ -593,9 +609,9 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 34.2
+    access_clarity: 44.7
     contract_governance: 47.0
     contract_quality: 66.4
     developer_ergonomics: 67.3
@@ -619,7 +635,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -660,5 +676,5 @@ use_cases:
   name: Algorithmic Trading
 - description: Access regulatory and compliance data through Data License for reporting requirements.
   name: Regulatory Reporting
-website: https://developer.bloomberg.com/
+website: https://bloomberg.com
 ---

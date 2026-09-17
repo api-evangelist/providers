@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,11 +43,6 @@ agentic_access:
   summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
-- baseURL: https://{domain}.egnyte.com/pubapi
-  baseurl_source: declared
-  description: The File System API from Egnyte — 2 operation(s) for file system.
-  name: Egnyte File System API
-  slug: egnyte-file-system-api
 - baseURL: https://{domain}.egnyte.com/pubapi
   baseurl_source: declared
   description: The Groups API from Egnyte — 1 operation(s) for groups.
@@ -68,6 +63,11 @@ apis:
   description: The Users API from Egnyte — 2 operation(s) for users.
   name: Egnyte Users API
   slug: egnyte-users-api
+- baseURL: https://{domain}.egnyte.com/pubapi
+  baseurl_source: declared
+  description: The Filesystem API from Egnyte — 2 operation(s) for filesystem.
+  name: Egnyte Filesystem API
+  slug: egnyte-filesystem-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -208,11 +208,11 @@ modified: '2026-05-19'
 name: Egnyte
 nav: Providers
 network: true
-overview: 'Egnyte publishes 5 APIs on the [APIs.io](https://apis.io/) network, including File System API, Groups API, Links API, and 2 more. Tagged areas include File Sharing, Content Collaboration, Enterprise Storage, Document-Management, and Governance.
+overview: 'Egnyte publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Groups API, Links API, Permissions API, and 2 more. Tagged areas include File Sharing, Content Collaboration, Enterprise Storage, Document-Management, and Governance.
 
 
   Egnyte''s developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 1
+random_paper: 14
 scopes:
 - name: Egnyte Scopes
   scope_count: 6
@@ -245,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

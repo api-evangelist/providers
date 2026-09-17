@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,11 +100,11 @@ modified: '2026-07-20'
 name: plancraft
 nav: Providers
 network: true
-overview: 'plancraft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Construction, Trades, and Handwerk.
+overview: 'plancraft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Construction, Trade, and Handwerk.
 
 
   plancraft''s developer surface includes support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 10
+random_paper: 9
 score:
   band: emerging
   composite: 13.9
@@ -133,7 +133,7 @@ score:
     - europe
   previous_composite: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -154,7 +154,7 @@ tags:
 - Company
 - Software-as-a-Service
 - Construction
-- Trades
+- Trade
 - Handwerk
 - Field Service
 - Invoicing

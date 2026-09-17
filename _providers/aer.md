@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
@@ -276,16 +276,16 @@ common:
   type: AgentSkill
   url: skills/_index.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/cds-common-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/openapi/_original/cds-common-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/cds-common-api-openapi.json
+  url: openapi/_original/cds-common-api-openapi.json
 created: '2026-07-27'
 description: 'The Australian Energy Regulator (AER) is the independent national economic regulator of Australia''s energy markets, established under the Competition and Consumer Act 2010 and operating alongside the ACCC. It sets network revenues and prices, enforces the National Electricity, Gas and Energy Retail Rules, monitors wholesale and retail market conduct, sets the Default Market Offer, keeps the public registers of authorised retailers and exemptions, and operates Energy Made Easy, the government price-comparison service. Its API posture is the strongest found among Australian energy regulators and it is genuinely implemented rather than merely mandated. The AER is a designated data holder under the Competition and Consumer (Consumer Data Right) Rules 2020 and it serves the Consumer Data Standards energy Product Reference Data endpoints — Get Generic Plans and Get Generic Plan Detail — anonymously, with no accreditation, no API key and no signup, returning live retail plan, tariff,
   fee, discount and eligibility data for the six jurisdictions that adopted the National Energy Customer Framework. Verified on 2026-07-27, 79 of the 84 energy data-holder brands in the ACCC CDR Register point their productBaseUri at the AER''s own host, cdr.energymadeeasy.gov.au, which makes the regulator the actual operator of the product-data API layer for nearly the whole Australian retail energy industry. The split matters: the AER''s open surface is product and tariff data only. It holds and exposes no individual consumer usage or billing data — the CDR consumer endpoints 404 on its host — because those flow from retailers as primary data holders and AEMO as the secondary data holder gateway, behind ACCC accreditation, OAuth2/OIDC and mTLS. The AER''s own market statistics, wholesale performance reporting and public registers are published as web pages, charts and document downloads, not as an API, and no developer., developers., api., docs. or data. subdomain resolves.'
 image: https://www.aer.gov.au/sites/default/files/2023-08/logo-2x.png
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: Australian Energy Regulator
 nav: Providers
 network: true
@@ -293,7 +293,7 @@ overview: 'Australian Energy Regulator publishes 9 APIs on the [APIs.io](https:/
 
 
   Australian Energy Regulator''s developer surface includes documentation, API reference, engineering blog, getting-started guide, support, authentication, changelog, and 35 more developer resources.'
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Aer Rate Limits
@@ -340,7 +340,7 @@ score:
     regime_id: energy_utilities
     score: 43.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

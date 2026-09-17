@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -203,11 +203,6 @@ apis:
   slug: rwth-aachen-university-resourcegraphcontent-api
 - baseURL: https://coscine.rwth-aachen.de/coscine/api/
   baseurl_source: declared
-  description: Endpoints for the resource types.
-  name: RWTH Aachen University ResourceType API
-  slug: rwth-aachen-university-resourcetype-api
-- baseURL: https://coscine.rwth-aachen.de/coscine/api/
-  baseurl_source: declared
   description: Endpoints for the gitlab resource types.
   name: RWTH Aachen University ResourceTypeGitLab API
   slug: rwth-aachen-university-resourcetypegitlab-api
@@ -228,11 +223,6 @@ apis:
   slug: rwth-aachen-university-self-api
 - baseURL: https://coscine.rwth-aachen.de/coscine/api/
   baseurl_source: declared
-  description: Endpoints for the api tokens of a user.
-  name: RWTH Aachen University SelfApiToken API
-  slug: rwth-aachen-university-selfapitoken-api
-- baseURL: https://coscine.rwth-aachen.de/coscine/api/
-  baseurl_source: declared
   description: Endpoints for the current current session.
   name: RWTH Aachen University SelfSession API
   slug: rwth-aachen-university-selfsession-api
@@ -246,11 +236,6 @@ apis:
   description: Provides endpoints for managing raw file content in blob storage for project resources, including downloading, uploading, and updating files.
   name: RWTH Aachen University StorageContent API
   slug: rwth-aachen-university-storagecontent-api
-- baseURL: https://coscine.rwth-aachen.de/coscine/api/
-  baseurl_source: declared
-  description: Endpoints for system status messages.
-  name: RWTH Aachen University SystemStatus API
-  slug: rwth-aachen-university-systemstatus-api
 - baseURL: https://coscine.rwth-aachen.de/coscine/api/
   baseurl_source: declared
   description: Endpoints for the titles.
@@ -289,6 +274,21 @@ apis:
 - description: The RWTH IT Center self-hosts a GitLab instance at git.rwth-aachen.de used across the university's institutes, and it is also where Coscine itself is developed. The GitLab REST API v4 is reachable and
   name: RWTH GitLab REST API (self-hosted)
   slug: gitlab
+- baseURL: https://publications.rwth-aachen.de/oai2d
+  baseurl_source: declared
+  description: Endpoints for the resource types.
+  name: RWTH Aachen University Resource Type API
+  slug: rwth-aachen-university-resource-type-api
+- baseURL: https://publications.rwth-aachen.de/oai2d
+  baseurl_source: declared
+  description: Endpoints for the api tokens of a user.
+  name: RWTH Aachen University Self API Token API
+  slug: rwth-aachen-university-self-api-token-api
+- baseURL: https://publications.rwth-aachen.de/oai2d
+  baseurl_source: declared
+  description: Endpoints for system status messages.
+  name: RWTH Aachen University System Status API
+  slug: rwth-aachen-university-system-status-api
 artifact_total: 115
 collections:
 - collection_type: open
@@ -595,7 +595,7 @@ plans:
 - name: Rwth Aachen University Plans Pricing
   plan_count: 2
   slug: rwth-aachen-university-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Rwth Aachen University Rate Limits
@@ -623,7 +623,7 @@ rules:
   slug: rwth-aachen-university-rules
 score:
   band: developing
-  composite: 48.5
+  composite: 49.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 64.3
@@ -631,11 +631,11 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 64.0
+    contract_quality: 66.6
     developer_ergonomics: 42.9
     discoverability: 55.6
     operational_transparency: 26.3
@@ -663,7 +663,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

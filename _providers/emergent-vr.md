@@ -24,7 +24,7 @@ name: Emergent VR *
 nav: Providers
 network: true
 overview: Emergent VR * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Virtual Reality, VR, and Media.
-random_paper: 19
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/emergent-vr/refs/heads/main/screenshots/emergent-vr-2026-07-25T213243.png
 slug: emergent-vr
 tags:

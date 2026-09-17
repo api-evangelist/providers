@@ -53,7 +53,7 @@ overview: 'LendUp is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   LendUp''s developer surface includes support and 6 more developer resources.'
-random_paper: 18
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendup/refs/heads/main/screenshots/lendup-2026-07-25T224909.png
 security:
 - kind: domain-security

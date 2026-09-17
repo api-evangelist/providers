@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 104
 apis:
 - baseURL: https://{server}:{port}/ers/config
@@ -77,16 +77,6 @@ apis:
   slug: cisco-ise-activedirectories-api
 - baseURL: https://{server}:{port}/ers/config
   baseurl_source: declared
-  description: The activedirectory API from Cisco Identity Services Engine — 29 operation(s) for activedirectory.
-  name: Cisco Identity Services Engine Activedirectory API
-  slug: cisco-ise-activedirectory-api
-- baseURL: https://{server}:{port}/ers/config
-  baseurl_source: declared
-  description: The ADGroups API from Cisco Identity Services Engine — 1 operation(s) for adgroups.
-  name: Cisco Identity Services Engine AD Groups API
-  slug: cisco-ise-adgroups-api
-- baseURL: https://{server}:{port}/ers/config
-  baseurl_source: declared
   description: The Admin Groups API from Cisco Identity Services Engine — 4 operation(s) for admin groups.
   name: Cisco Identity Services Engine Admin Groups API
   slug: cisco-ise-admin-groups-api
@@ -95,11 +85,6 @@ apis:
   description: The Admin Users API from Cisco Identity Services Engine — 4 operation(s) for admin users.
   name: Cisco Identity Services Engine Admin Users API
   slug: cisco-ise-admin-users-api
-- baseURL: https://{server}:{port}/ers/config
-  baseurl_source: declared
-  description: The adminuser API from Cisco Identity Services Engine — 11 operation(s) for adminuser.
-  name: Cisco Identity Services Engine Adminuser API
-  slug: cisco-ise-adminuser-api
 - baseURL: https://{server}:{port}/ers/config
   baseurl_source: declared
   description: The adresourcereservation API from Cisco Identity Services Engine — 8 operation(s) for adresourcereservation.
@@ -202,11 +187,6 @@ apis:
   slug: cisco-ise-ctsmatrix-api
 - baseURL: https://{server}:{port}/ers/config
   baseurl_source: declared
-  description: The customattributes API from Cisco Identity Services Engine — 3 operation(s) for customattributes.
-  name: Cisco Identity Services Engine Customattributes API
-  slug: cisco-ise-customattributes-api
-- baseURL: https://{server}:{port}/ers/config
-  baseurl_source: declared
   description: The Data Access API from Cisco Identity Services Engine — 2 operation(s) for data access.
   name: Cisco Identity Services Engine Data Access API
   slug: cisco-ise-data-access-api
@@ -215,11 +195,6 @@ apis:
   description: The Dataconnect Services API from Cisco Identity Services Engine — 5 operation(s) for dataconnect services.
   name: Cisco Identity Services Engine Dataconnect Services API
   slug: cisco-ise-dataconnect-services-api
-- baseURL: https://{server}:{port}/ers/config
-  baseurl_source: declared
-  description: The deploymentinfo API from Cisco Identity Services Engine — 1 operation(s) for deploymentinfo.
-  name: Cisco Identity Services Engine Deploymentinfo API
-  slug: cisco-ise-deploymentinfo-api
 - baseURL: https://{server}:{port}/ers/config
   baseurl_source: declared
   description: The Device Admin - MFA Rules API from Cisco Identity Services Engine — 3 operation(s) for device admin - mfa rules.
@@ -337,11 +312,6 @@ apis:
   slug: cisco-ise-endpointcertificate-api
 - baseURL: https://{server}:{port}/ers/config
   baseurl_source: declared
-  description: The endpointgroup API from Cisco Identity Services Engine — 3 operation(s) for endpointgroup.
-  name: Cisco Identity Services Engine Endpointgroup API
-  slug: cisco-ise-endpointgroup-api
-- baseURL: https://{server}:{port}/ers/config
-  baseurl_source: declared
   description: The endpoints API from Cisco Identity Services Engine — 5 operation(s) for endpoints.
   name: Cisco Identity Services Engine Endpoints API
   slug: cisco-ise-endpoints-api
@@ -390,11 +360,6 @@ apis:
   description: The guesttype API from Cisco Identity Services Engine — 4 operation(s) for guesttype.
   name: Cisco Identity Services Engine Guesttype API
   slug: cisco-ise-guesttype-api
-- baseURL: https://{server}:{port}/ers/config
-  baseurl_source: declared
-  description: The guestuser API from Cisco Identity Services Engine — 13 operation(s) for guestuser.
-  name: Cisco Identity Services Engine Guestuser API
-  slug: cisco-ise-guestuser-api
 - baseURL: https://{server}:{port}/ers/config
   baseurl_source: declared
   description: The hotspotportal API from Cisco Identity Services Engine — 2 operation(s) for hotspotportal.
@@ -847,11 +812,6 @@ apis:
   slug: cisco-ise-subscriber-api
 - baseURL: https://{server}:{port}/ers/config
   baseurl_source: declared
-  description: The supportbundle API from Cisco Identity Services Engine — 1 operation(s) for supportbundle.
-  name: Cisco Identity Services Engine Supportbundle API
-  slug: cisco-ise-supportbundle-api
-- baseURL: https://{server}:{port}/ers/config
-  baseurl_source: declared
   description: The supportbundledownload API from Cisco Identity Services Engine — 3 operation(s) for supportbundledownload.
   name: Cisco Identity Services Engine Supportbundledownload API
   slug: cisco-ise-supportbundledownload-api
@@ -1025,7 +985,52 @@ apis:
   description: The Workload Connection API from Cisco Identity Services Engine — 30 operation(s) for workload connection.
   name: Cisco Identity Services Engine Workload Connection API
   slug: cisco-ise-workload-connection-api
-artifact_total: 204
+- baseURL: https://{server}:{port}/ers/config
+  baseurl_source: declared
+  description: The guestsmtpnotificationconfiguration API from Cisco Identity Services Engine — 3 operation(s) for guestsmtpnotificationconfiguration.
+  name: Cisco Identity Services Engine Guestsmtpnotificationconfiguration API
+  slug: cisco-ise-guestsmtpnotificationconfiguration-api
+- baseURL: https://{server}:{port}/ers/config
+  baseurl_source: declared
+  description: The Active Directory API from Cisco Identity Services Engine — 29 operation(s) for active directory.
+  name: Cisco Identity Services Engine Active Directory API
+  slug: cisco-ise-active-directory-api
+- baseURL: https://{server}:{port}/ers/config
+  baseurl_source: declared
+  description: The Ad Groups API from Cisco Identity Services Engine — 1 operation(s) for ad groups.
+  name: Cisco Identity Services Engine Ad Groups API
+  slug: cisco-ise-ad-groups-api
+- baseURL: https://{server}:{port}/ers/config
+  baseurl_source: declared
+  description: The Admin User API from Cisco Identity Services Engine — 11 operation(s) for admin user.
+  name: Cisco Identity Services Engine Admin User API
+  slug: cisco-ise-admin-user-api
+- baseURL: https://{server}:{port}/ers/config
+  baseurl_source: declared
+  description: The Custom Attributes API from Cisco Identity Services Engine — 3 operation(s) for custom attributes.
+  name: Cisco Identity Services Engine Custom Attributes API
+  slug: cisco-ise-custom-attributes-api
+- baseURL: https://{server}:{port}/ers/config
+  baseurl_source: declared
+  description: The Deployment Info API from Cisco Identity Services Engine — 1 operation(s) for deployment info.
+  name: Cisco Identity Services Engine Deployment Info API
+  slug: cisco-ise-deployment-info-api
+- baseURL: https://{server}:{port}/ers/config
+  baseurl_source: declared
+  description: The Endpoint Group API from Cisco Identity Services Engine — 7 operation(s) for endpoint group.
+  name: Cisco Identity Services Engine Endpoint Group API
+  slug: cisco-ise-endpoint-group-api
+- baseURL: https://{server}:{port}/ers/config
+  baseurl_source: declared
+  description: The Guest User API from Cisco Identity Services Engine — 29 operation(s) for guest user.
+  name: Cisco Identity Services Engine Guest User API
+  slug: cisco-ise-guest-user-api
+- baseURL: https://{server}:{port}/ers/config
+  baseurl_source: declared
+  description: The support Bundle API from Cisco Identity Services Engine — 1 operation(s) for support bundle.
+  name: Cisco Identity Services Engine support Bundle API
+  slug: cisco-ise-support-bundle-api
+artifact_total: 205
 asyncapis:
 - description: ''
   name: Cisco Ise Webhooks
@@ -1399,7 +1404,7 @@ modified: '2026-08-19'
 name: Cisco Identity Services Engine
 nav: Providers
 network: true
-overview: 'Cisco Identity Services Engine publishes 197 APIs on the [APIs.io](https://apis.io/) network, including Acct Status API, Acct Status TT API, ACI Connection API, and 194 more. Tagged areas include Identity, Network Access, Zero Trust, Security, and Policy.
+overview: 'Cisco Identity Services Engine publishes 198 APIs on the [APIs.io](https://apis.io/) network, including Acct Status API, Acct Status TT API, ACI Connection API, and 195 more. Tagged areas include Identity, Network Access, Zero Trust, Security, and Policy.
 
 
   The Cisco Identity Services Engine catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -1410,14 +1415,14 @@ plans:
 - name: Cisco Ise Plans Pricing
   plan_count: 6
   slug: cisco-ise-plans-pricing
-random_paper: 13
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Cisco Ise Rate Limits
   slug: cisco-ise-rate-limits
 score:
   band: strong
-  composite: 65.5
+  composite: 64.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 57.0
@@ -1425,11 +1430,11 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.1
   facets:
     access_clarity: 78.9
     contract_governance: 4.5
-    contract_quality: 59.9
+    contract_quality: 55.5
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 65.8
@@ -1438,9 +1443,9 @@ score:
     conformance: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 100.0
-      total: 197
+      derived: 26
+      marker_coverage: 99.5
+      total: 198
     mcp: derived
     skills: derived
   regulatory:
@@ -1450,7 +1455,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

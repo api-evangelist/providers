@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -62,7 +62,7 @@ apis:
 - baseURL: https://{tuva-empi-host}/api/v1
   baseurl_source: declared
   description: The health-check API from Tuva Health — 1 operation(s) for health-check.
-  name: Tuva Health Health Check API
+  name: Tuva Health Check API
   slug: tuva-health-health-check-api
 - baseURL: https://{tuva-empi-host}/api/v1
   baseurl_source: declared
@@ -244,11 +244,11 @@ description: 'Tuva Health, Inc. is a United States healthcare data company behin
   documented OpenAPI 3.0.3 contract - but that too is customer-deployed from OCI images, so there is no Tuva-operated API host. The company pairs the open-source project with a commercial Core Platform and named services. Home market is the United States.'
 image: https://www.tuvahealth.com/img/TuvaHealthLogo-White@4x.png
 layout: provider
-modified: '2026-08-15'
+modified: '2026-09-16'
 name: Tuva Health
 nav: Providers
 network: true
-overview: 'Tuva Health publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Data Sources API, Health Check API, and 5 more. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
+overview: 'Tuva Health publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Data Sources API, Check API, and 5 more. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
 
 
   Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, support, API reference, authentication, and 26 more developer resources.'
@@ -256,7 +256,7 @@ plans:
 - name: Tuva Health Plans Pricing
   plan_count: 0
   slug: tuva-health-plans-pricing
-random_paper: 10
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Tuva Health Rate Limits
@@ -303,7 +303,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -148,11 +148,6 @@ apis:
   description: The DeleteRule API from Amazon VPC Lattice — 1 operation(s) for deleterule.
   name: Amazon VPC Lattice DeleteRule API
   slug: amazon-vpc-lattice-deleterule-api
-- baseURL: https://vpc-lattice.amazonaws.com
-  baseurl_source: declared
-  description: The DeleteService API from Amazon VPC Lattice — 1 operation(s) for deleteservice.
-  name: Amazon VPC Lattice DeleteService API
-  slug: amazon-vpc-lattice-deleteservice-api
 - baseURL: https://vpc-lattice.amazonaws.com
   baseurl_source: declared
   description: The DeleteServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetwork.
@@ -285,11 +280,6 @@ apis:
   slug: amazon-vpc-lattice-listresourcegateways-api
 - baseURL: https://vpc-lattice.amazonaws.com
   baseurl_source: declared
-  description: The ListRules API from Amazon VPC Lattice — 1 operation(s) for listrules.
-  name: Amazon VPC Lattice ListRules API
-  slug: amazon-vpc-lattice-listrules-api
-- baseURL: https://vpc-lattice.amazonaws.com
-  baseurl_source: declared
   description: The ListServiceNetworkResourceAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkresourceassociations.
   name: Amazon VPC Lattice ListServiceNetworkResourceAssociations API
   slug: amazon-vpc-lattice-listservicenetworkresourceassociations-api
@@ -315,24 +305,9 @@ apis:
   slug: amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api
 - baseURL: https://vpc-lattice.amazonaws.com
   baseurl_source: declared
-  description: The ListServices API from Amazon VPC Lattice — 1 operation(s) for listservices.
-  name: Amazon VPC Lattice ListServices API
-  slug: amazon-vpc-lattice-listservices-api
-- baseURL: https://vpc-lattice.amazonaws.com
-  baseurl_source: declared
-  description: The ListTagsForResource API from Amazon VPC Lattice — 1 operation(s) for listtagsforresource.
-  name: Amazon VPC Lattice ListTagsForResource API
-  slug: amazon-vpc-lattice-listtagsforresource-api
-- baseURL: https://vpc-lattice.amazonaws.com
-  baseurl_source: declared
   description: The ListTargetGroups API from Amazon VPC Lattice — 1 operation(s) for listtargetgroups.
   name: Amazon VPC Lattice ListTargetGroups API
   slug: amazon-vpc-lattice-listtargetgroups-api
-- baseURL: https://vpc-lattice.amazonaws.com
-  baseurl_source: declared
-  description: The ListTargets API from Amazon VPC Lattice — 1 operation(s) for listtargets.
-  name: Amazon VPC Lattice ListTargets API
-  slug: amazon-vpc-lattice-listtargets-api
 - baseURL: https://vpc-lattice.amazonaws.com
   baseurl_source: declared
   description: The PutAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for putauthpolicy.
@@ -353,16 +328,6 @@ apis:
   description: The StartDomainVerification API from Amazon VPC Lattice — 1 operation(s) for startdomainverification.
   name: Amazon VPC Lattice StartDomainVerification API
   slug: amazon-vpc-lattice-startdomainverification-api
-- baseURL: https://vpc-lattice.amazonaws.com
-  baseurl_source: declared
-  description: The TagResource API from Amazon VPC Lattice — 1 operation(s) for tagresource.
-  name: Amazon VPC Lattice TagResource API
-  slug: amazon-vpc-lattice-tagresource-api
-- baseURL: https://vpc-lattice.amazonaws.com
-  baseurl_source: declared
-  description: The UntagResource API from Amazon VPC Lattice — 1 operation(s) for untagresource.
-  name: Amazon VPC Lattice UntagResource API
-  slug: amazon-vpc-lattice-untagresource-api
 - baseURL: https://vpc-lattice.amazonaws.com
   baseurl_source: declared
   description: The UpdateAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for updateaccesslogsubscription.
@@ -390,11 +355,6 @@ apis:
   slug: amazon-vpc-lattice-updaterule-api
 - baseURL: https://vpc-lattice.amazonaws.com
   baseurl_source: declared
-  description: The UpdateService API from Amazon VPC Lattice — 1 operation(s) for updateservice.
-  name: Amazon VPC Lattice UpdateService API
-  slug: amazon-vpc-lattice-updateservice-api
-- baseURL: https://vpc-lattice.amazonaws.com
-  baseurl_source: declared
   description: The UpdateServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for updateservicenetwork.
   name: Amazon VPC Lattice UpdateServiceNetwork API
   slug: amazon-vpc-lattice-updateservicenetwork-api
@@ -408,6 +368,46 @@ apis:
   description: The UpdateTargetGroup API from Amazon VPC Lattice — 1 operation(s) for updatetargetgroup.
   name: Amazon VPC Lattice UpdateTargetGroup API
   slug: amazon-vpc-lattice-updatetargetgroup-api
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The Delete Service API from Amazon VPC Lattice — 1 operation(s) for delete service.
+  name: Amazon VPC Lattice Delete Service API
+  slug: amazon-vpc-lattice-delete-service-api
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The List Rules API from Amazon VPC Lattice — 1 operation(s) for list rules.
+  name: Amazon VPC Lattice List Rules API
+  slug: amazon-vpc-lattice-list-rules-api
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The List Services API from Amazon VPC Lattice — 1 operation(s) for list services.
+  name: Amazon VPC Lattice List Services API
+  slug: amazon-vpc-lattice-list-services-api
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The List Tags For Resource API from Amazon VPC Lattice — 1 operation(s) for list tags for resource.
+  name: Amazon VPC Lattice List Tags For Resource API
+  slug: amazon-vpc-lattice-list-tags-for-resource-api
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The List Targets API from Amazon VPC Lattice — 1 operation(s) for list targets.
+  name: Amazon VPC Lattice List Targets API
+  slug: amazon-vpc-lattice-list-targets-api
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The Tag Resource API from Amazon VPC Lattice — 1 operation(s) for tag resource.
+  name: Amazon VPC Lattice Tag Resource API
+  slug: amazon-vpc-lattice-tag-resource-api
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The Untag Resource API from Amazon VPC Lattice — 1 operation(s) for untag resource.
+  name: Amazon VPC Lattice Untag Resource API
+  slug: amazon-vpc-lattice-untag-resource-api
+- baseURL: https://vpc-lattice.amazonaws.com
+  baseurl_source: declared
+  description: The Update Service API from Amazon VPC Lattice — 1 operation(s) for update service.
+  name: Amazon VPC Lattice Update Service API
+  slug: amazon-vpc-lattice-update-service-api
 artifact_total: 161
 collections:
 - collection_type: open
@@ -750,7 +750,7 @@ plans:
 - name: Amazon Vpc Lattice Plans Pricing
   plan_count: 3
   slug: amazon-vpc-lattice-plans-pricing
-random_paper: 1
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Amazon Vpc Lattice Rate Limits
@@ -794,7 +794,7 @@ score:
       marker_coverage: 0.0
       total: 74
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

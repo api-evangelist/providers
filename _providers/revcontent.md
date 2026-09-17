@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -74,11 +74,6 @@ apis:
   slug: revcontent-helpers-api
 - baseURL: https://api.revcontent.io
   baseurl_source: declared
-  description: Create, edit, list and enable/disable child accounts under a parent account.
-  name: RevContent Sub Accounts API
-  slug: revcontent-sub-accounts-api
-- baseURL: https://api.revcontent.io
-  baseurl_source: declared
   description: Per-campaign widget targeting and widget-level bid overrides.
   name: RevContent Targeting API
   slug: revcontent-targeting-api
@@ -102,6 +97,11 @@ apis:
   description: Publisher widget inventory, geo statistics and Sub ID reporting.
   name: RevContent Widget API
   slug: revcontent-widget-api
+- baseURL: https://api.revcontent.io
+  baseurl_source: declared
+  description: Create, edit, list and enable/disable sub accounts under a parent account.
+  name: RevContent Subaccounts API
+  slug: revcontent-subaccounts-api
 artifact_total: 62
 collections:
 - collection_type: open
@@ -141,6 +141,11 @@ collections:
   name: RevContent Widget API
   slug: open-revcontent-widgets-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/overlays/revcontent-sub-accounts-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/revcontent-sub-accounts-api-overlay.yaml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/overlays/revcontent-boosts-api-overlay.yaml
   title: ''
@@ -446,12 +451,12 @@ overview: 'RevContent publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
   The RevContent catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  RevContent''s developer surface includes authentication, code examples, changelog, documentation, API reference, getting-started guide, support, and 35 more developer resources.'
+  RevContent''s developer surface includes authentication, code examples, changelog, documentation, API reference, getting-started guide, support, and 36 more developer resources.'
 plans:
 - name: Revcontent Plans Pricing
   plan_count: 0
   slug: revcontent-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Revcontent Rate Limits
@@ -502,7 +507,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

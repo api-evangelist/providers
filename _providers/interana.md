@@ -34,7 +34,7 @@ name: Interana
 nav: Providers
 network: true
 overview: Interana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Behavioral Analytics, Event Analytics, and Big Data.
-random_paper: 10
+random_paper: 14
 screenshot: https://raw.githubusercontent.com/api-evangelist/interana/refs/heads/main/screenshots/interana-2026-07-25T222702.png
 slug: interana
 tags:

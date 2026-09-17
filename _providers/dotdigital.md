@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 38.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 2
@@ -98,19 +98,9 @@ apis:
   slug: dotdigital-apidatafield-api
 - baseURL: https://r1-api.dotdigital.com/v2
   baseurl_source: declared
-  description: The ApiDocument API from Dotdigital — 5 operation(s) for apidocument.
-  name: Dotdigital API Document API
-  slug: dotdigital-apidocument-api
-- baseURL: https://r1-api.dotdigital.com/v2
-  baseurl_source: declared
   description: The ApiEcommerce API from Dotdigital — 4 operation(s) for apiecommerce.
   name: Dotdigital API Ecommerce API
   slug: dotdigital-apiecommerce-api
-- baseURL: https://r1-api.dotdigital.com/v2
-  baseurl_source: declared
-  description: The ApiImage API from Dotdigital — 3 operation(s) for apiimage.
-  name: Dotdigital API Image API
-  slug: dotdigital-apiimage-api
 - baseURL: https://r1-api.dotdigital.com/v2
   baseurl_source: declared
   description: The ApiPreference API from Dotdigital — 14 operation(s) for apipreference.
@@ -168,11 +158,6 @@ apis:
   slug: dotdigital-bulk-validation-api
 - baseURL: https://r1-api.dotdigital.com/v2
   baseurl_source: declared
-  description: The Campaign Templates API from Dotdigital — 2 operation(s) for campaign templates.
-  name: Dotdigital Campaign Templates API
-  slug: dotdigital-campaign-templates-api
-- baseURL: https://r1-api.dotdigital.com/v2
-  baseurl_source: declared
   description: The Channels API from Dotdigital — 1 operation(s) for channels.
   name: Dotdigital Channels API
   slug: dotdigital-channels-api
@@ -181,11 +166,6 @@ apis:
   description: The Chat API from Dotdigital — 2 operation(s) for chat.
   name: Dotdigital Chat API
   slug: dotdigital-chat-api
-- baseURL: https://r1-api.dotdigital.com/v2
-  baseurl_source: declared
-  description: The Contact data fields API from Dotdigital — 2 operation(s) for contact data fields.
-  name: Dotdigital Contact data fields API
-  slug: dotdigital-contact-data-fields-api
 - baseURL: https://r1-api.dotdigital.com/v2
   baseurl_source: declared
   description: The Contacts API from Dotdigital — 6 operation(s) for contacts.
@@ -211,11 +191,6 @@ apis:
   description: The Documents API from Dotdigital — 3 operation(s) for documents.
   name: Dotdigital Documents API
   slug: dotdigital-documents-api
-- baseURL: https://r1-api.dotdigital.com/v2
-  baseurl_source: declared
-  description: The Ecommerce API from Dotdigital — 1 operation(s) for ecommerce.
-  name: Dotdigital Ecommerce API
-  slug: dotdigital-ecommerce-api
 - baseURL: https://r1-api.dotdigital.com/v2
   baseurl_source: declared
   description: The Email Campaigns API from Dotdigital — 39 operation(s) for email campaigns.
@@ -283,11 +258,6 @@ apis:
   slug: dotdigital-omnichannel-api-api
 - baseURL: https://r1-api.dotdigital.com/v2
   baseurl_source: declared
-  description: The Pages and forms API from Dotdigital — 6 operation(s) for pages and forms.
-  name: Dotdigital Pages and forms API
-  slug: dotdigital-pages-and-forms-api
-- baseURL: https://r1-api.dotdigital.com/v2
-  baseurl_source: declared
   description: The Preferences and subscriptions API from Dotdigital — 13 operation(s) for preferences and subscriptions.
   name: Dotdigital Preferences and subscriptions API
   slug: dotdigital-preferences-and-subscriptions-api
@@ -301,11 +271,6 @@ apis:
   description: The Scoring API from Dotdigital — 4 operation(s) for scoring.
   name: Dotdigital Scoring API
   slug: dotdigital-scoring-api
-- baseURL: https://r1-api.dotdigital.com/v2
-  baseurl_source: declared
-  description: The Segments API from Dotdigital — 2 operation(s) for segments.
-  name: Dotdigital Segments API
-  slug: dotdigital-segments-api
 - baseURL: https://r1-api.dotdigital.com/v2
   baseurl_source: declared
   description: The Single number API from Dotdigital — 1 operation(s) for single number.
@@ -338,11 +303,6 @@ apis:
   slug: dotdigital-webhooks-api-api
 - baseURL: https://r1-api.dotdigital.com/v2
   baseurl_source: declared
-  description: The WhatsApp API from Dotdigital — 2 operation(s) for whatsapp.
-  name: Dotdigital Whats App API
-  slug: dotdigital-whatsapp-api
-- baseURL: https://r1-api.dotdigital.com/v2
-  baseurl_source: declared
   description: The WhatsApp configurations API from Dotdigital — 1 operation(s) for whatsapp configurations.
   name: Dotdigital WhatsApp configurations API
   slug: dotdigital-whatsapp-configurations-api
@@ -356,7 +316,22 @@ apis:
   description: The WhatsApp templates API from Dotdigital — 2 operation(s) for whatsapp templates.
   name: Dotdigital WhatsApp templates API
   slug: dotdigital-whatsapp-templates-api
-artifact_total: 117
+- baseURL: https://marketing.developer.dotdigital.com/mcp
+  baseurl_source: declared
+  description: The API / Document API from Dotdigital — 5 operation(s) for api / document.
+  name: Dotdigital API / Document API
+  slug: dotdigital-api-document-api
+- baseURL: https://marketing.developer.dotdigital.com/mcp
+  baseurl_source: declared
+  description: The API Image API from Dotdigital — 3 operation(s) for api image.
+  name: Dotdigital API Image API
+  slug: dotdigital-api-image-api
+- baseURL: https://marketing.developer.dotdigital.com/mcp
+  baseurl_source: declared
+  description: The Whats App API from Dotdigital — 2 operation(s) for whats app.
+  name: Dotdigital Whats App API
+  slug: dotdigital-whats-app-api
+artifact_total: 112
 asyncapis:
 - description: ''
   name: Dotdigital Webhooks
@@ -740,7 +715,7 @@ modified: '2026-08-13'
 name: Dotdigital
 nav: Providers
 network: true
-overview: 'Dotdigital publishes 62 APIs on the [APIs.io](https://apis.io/) network, including Accounts and Utilities API, API Account API, API Address Book API, and 59 more. Tagged areas include Marketing Automation, Email Marketing, SMS, MMS, and WhatsApp.
+overview: 'Dotdigital publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Accounts and Utilities API, API Account API, API Address Book API, and 54 more. Tagged areas include Marketing Automation, Email Marketing, SMS, MMS, and WhatsApp.
 
 
   The Dotdigital catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -751,7 +726,7 @@ plans:
 - name: Dotdigital Plans Pricing
   plan_count: 1
   slug: dotdigital-plans-pricing
-random_paper: 11
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Dotdigital Rate Limits
@@ -770,7 +745,7 @@ score:
   facets:
     access_clarity: 72.4
     contract_governance: 4.5
-    contract_quality: 68.7
+    contract_quality: 68.9
     developer_ergonomics: 47.0
     discoverability: 75.9
     operational_transparency: 52.6
@@ -782,7 +757,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 62
+      total: 57
     mcp: first-party
     skills: derived
   regulatory:
@@ -796,7 +771,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Dework runs a public GraphQL API (Apollo Server) at api.dework.xyz/graphql that powers the Dework web app, plus a NestJS health endpoint at api.dework.xyz/health. The endpoint is live but undocumented
@@ -99,7 +99,7 @@ overview: 'Dework publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Dework''s developer surface includes documentation, getting-started guide, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 1
+random_paper: 14
 score:
   band: emerging
   composite: 15.8
@@ -120,7 +120,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 asyncapis:
@@ -117,7 +117,7 @@ overview: 'Spare Payments is profiled on the [APIs.io](https://apis.io/) network
 
 
   Spare Payments'' developer surface includes documentation, API reference, support, changelog, and 10 more developer resources.'
-random_paper: 16
+random_paper: 13
 score:
   band: thin
   composite: 27.4
@@ -144,7 +144,7 @@ score:
     regime_id: education
     score: 25.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

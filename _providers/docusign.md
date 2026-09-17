@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 7
@@ -131,11 +131,6 @@ apis:
   slug: docusign-authentication-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
-  description: The Billing resource provides methods that allow you to manage the billing plans,associated with an account.
-  name: Docusign BillingPlans API
-  slug: docusign-billingplans-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
   description: The ChunkedUploads resource provides methods to complete integrity checks, and to add, commit, retrieve, initiate and delete chunked uploads.
   name: Docusign ChunkedUploads API
   slug: docusign-chunkeduploads-api
@@ -149,11 +144,6 @@ apis:
   description: The ClosingStatuses API from Docusign — 1 operation(s) for closingstatuses.
   name: Docusign ClosingStatuses API
   slug: docusign-closingstatuses-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: The CloudStorage resource provides methods that allow you to list files stored on your cloud storage provider.
-  name: Docusign CloudStorage API
-  slug: docusign-cloudstorage-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
   description: 'The CloudStorageProviders resource provides methods that allow you to manage the cloud storage providers associate with an account. The following providers are supported: * Google Drive * Dropbox * Bo'
@@ -199,11 +189,6 @@ apis:
   description: The Currencies API from Docusign — 1 operation(s) for currencies.
   name: Docusign Currencies API
   slug: docusign-currencies-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: The CustomTabs resource provides methods that allow you create and manage custom tabs based on the existing DocuSign tabs. You can create a tab with pre-defined properties, such as a text tab with a c
-  name: Docusign CustomTabs API
-  slug: docusign-customtabs-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
   description: The DataSet resource provides methods that allow you to fetch organization event data. The `dataSet` path parameter must be set to `monitor`.
@@ -346,16 +331,6 @@ apis:
   slug: docusign-formdetails-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
-  description: With the appropriate permissions, form administrators at your company can create form groups, or curated set of forms gathered from the association **form libraries** to which DocuSign provides access
-  name: Docusign FormGroups API
-  slug: docusign-formgroups-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: The FormLibraries API from Docusign — 2 operation(s) for formlibraries.
-  name: Docusign FormLibraries API
-  slug: docusign-formlibraries-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
   description: The FormProviders API from Docusign — 1 operation(s) for formproviders.
   name: Docusign FormProviders API
   slug: docusign-formproviders-api
@@ -369,21 +344,6 @@ apis:
   description: The Groups resource provides methods that allow you to manage groups for the account. Groups can be used to help manage users by associating users with a group. A group can be associated with a Permis
   name: Docusign Groups API
   slug: docusign-groups-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: The GroupUsers resource provides methods that allow you to manage the users in a group.
-  name: Docusign GroupUsers API
-  slug: docusign-groupusers-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: Methods to get a list of identity providers.
-  name: Docusign IdentityProviders API
-  slug: docusign-identityproviders-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: The IdentityVerifications API from Docusign — 1 operation(s) for identityverifications.
-  name: Docusign IdentityVerifications API
-  slug: docusign-identityverifications-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
   description: The Invoices resource provides methods that allow you to manage the invoices for an account.
@@ -436,11 +396,6 @@ apis:
   slug: docusign-powerforms-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
-  description: In the console, these are the values that can appear on a room's **Details** tab in the **Property type** field.
-  name: Docusign PropertyTypes API
-  slug: docusign-propertytypes-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
   description: Manage envelope recipients including signers, carbon copy recipients, certified deliveries, and other recipient types.
   name: Docusign Recipients API
   slug: docusign-recipients-api
@@ -454,11 +409,6 @@ apis:
   description: The RequestLogs resource provide methods that allow you to retrieve and delete the API request log files. The log files contain the API requests associated with your integration. They can aid you in t
   name: Docusign RequestLogs API
   slug: docusign-requestlogs-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: Methods to get a list of reserved domains.
-  name: Docusign ReservedDomains API
-  slug: docusign-reserveddomains-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
   description: The Resources resource provides a method which retrieves the base resources that are available.
@@ -489,11 +439,6 @@ apis:
   description: A room can hold documents, envelopes, a list of tasks comprising a workflow, and other related information. You can invite others to this space and assign them permissions on a per-room basis.
   name: Docusign Rooms API
   slug: docusign-rooms-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: You can use a room template to set the transaction side and task lists for rooms. For example, a broker can create a room template for agents to use. You can enable the room template for all regions a
-  name: Docusign RoomTemplates API
-  slug: docusign-roomtemplates-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
   description: The SellerDecisionTypes API from Docusign — 1 operation(s) for sellerdecisiontypes.
@@ -554,11 +499,6 @@ apis:
   description: The TaskResponsibilityTypes API from Docusign — 1 operation(s) for taskresponsibilitytypes.
   name: Docusign TaskResponsibilityTypes API
   slug: docusign-taskresponsibilitytypes-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: The TaskStatuses API from Docusign — 1 operation(s) for taskstatuses.
-  name: Docusign TaskStatuses API
-  slug: docusign-taskstatuses-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
   description: The TemplateBulkRecipients resource provide methods that allow you manage the bulk recipient file for an template. The bulk recipient CSV (Comma Separated Value) file contains the list of recipient na
@@ -651,19 +591,9 @@ apis:
   slug: docusign-usercustomsettings-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
-  description: Methods for exporting a user list.
-  name: Docusign UserExport API
-  slug: docusign-userexport-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
   description: Methods to import users. To ensure your CSV is properly formatted, use the [Sample Bulk Add CSV file](https://admin.docusign.com/static-resources/organization-user-import.csv) as a template. You can a
   name: Docusign UserImport API
   slug: docusign-userimport-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: The UserProfiles resource provides methods that allow you to manage a user's profile.
-  name: Docusign UserProfiles API
-  slug: docusign-userprofiles-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
   description: Methods to manage users in an account.
@@ -681,16 +611,6 @@ apis:
   slug: docusign-usersocialaccountlogins-api
 - baseURL: https://demo.docusign.net/restapi
   baseurl_source: declared
-  description: Methods to get information about workflow instances.
-  name: Docusign WorkflowInstanceManagement API
-  slug: docusign-workflowinstancemanagement-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
-  description: Returns the history of the workflow instance steps.
-  name: Docusign WorkflowManagement API
-  slug: docusign-workflowmanagement-api
-- baseURL: https://demo.docusign.net/restapi
-  baseurl_source: declared
   description: Method to trigger a workflow.
   name: Docusign WorkflowTrigger API
   slug: docusign-workflowtrigger-api
@@ -704,6 +624,86 @@ apis:
   description: The Workspaces resource provides methods that allow you to manage workspaces.
   name: Docusign Workspaces API
   slug: docusign-workspaces-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: The Billing resource provides methods that allow you to manage the billing plans,associated with an account.
+  name: Docusign Billing Plans API
+  slug: docusign-billing-plans-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: The CloudStorage resource provides methods that allow you to list files stored on your cloud storage provider.
+  name: Docusign Cloud Storage API
+  slug: docusign-cloud-storage-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: The CustomTabs resource provides methods that allow you create and manage custom tabs based on the existing DocuSign tabs.
+  name: Docusign Custom Tabs API
+  slug: docusign-custom-tabs-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: With the appropriate permissions, form administrators at your company can create form groups, or curated set of forms gathered from the association **form libraries** to which DocuSign provides access
+  name: Docusign Form Groups API
+  slug: docusign-form-groups-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: The Form Libraries API from Docusign — 2 operation(s) for form libraries.
+  name: Docusign Form Libraries API
+  slug: docusign-form-libraries-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: The GroupUsers resource provides methods that allow you to manage the users in a group.
+  name: Docusign Group Users API
+  slug: docusign-group-users-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: Methods to get a list of identity providers.
+  name: Docusign Identity Providers API
+  slug: docusign-identity-providers-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: The Identity Verifications API from Docusign — 1 operation(s) for identity verifications.
+  name: Docusign Identity Verifications API
+  slug: docusign-identity-verifications-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: In the console, these are the values that can appear on a room's **Details** tab in the **Property type** field.
+  name: Docusign Property Types API
+  slug: docusign-property-types-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: Methods to get a list of reserved domains.
+  name: Docusign Reserved Domains API
+  slug: docusign-reserved-domains-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: You can use a room template to set the transaction side and task lists for rooms. For example, a broker can create a room template for agents to use. You can enable the room template for all regions a
+  name: Docusign Room Templates API
+  slug: docusign-room-templates-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: The Task Statuses API from Docusign — 1 operation(s) for task statuses.
+  name: Docusign Task Statuses API
+  slug: docusign-task-statuses-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: Methods for exporting a user list.
+  name: Docusign User Export API
+  slug: docusign-user-export-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: The UserProfiles resource provides methods that allow you to manage a user's profile.
+  name: Docusign User Profiles API
+  slug: docusign-user-profiles-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: Methods to get information about workflow instances.
+  name: Docusign Workflow Instance Management API
+  slug: docusign-workflow-instance-management-api
+- baseURL: https://demo.docusign.net/webforms
+  baseurl_source: declared
+  description: Returns the history of the workflow instance steps.
+  name: Docusign Workflow Management API
+  slug: docusign-workflow-management-api
 arazzos:
 - description: Resolve a template, then fan out multiple template-based envelopes to a list of recipients in one workflow run.
   name: DocuSign Bulk Send From Template
@@ -1871,7 +1871,7 @@ modified: '2026-05-19'
 name: Docusign
 nav: Providers
 network: true
-overview: 'Docusign publishes 129 APIs on the [APIs.io](https://apis.io/) network, including Workspaces API, AccountBrands API, AccountConsumerDisclosures API, and 126 more. Tagged areas include Agreements, Contracts, Digital Transaction Management, Documents, and Electronic Signatures.
+overview: 'Docusign publishes 129 APIs on the [APIs.io](https://apis.io/) network, including Workspaces API, AccountBrands API, AccountConsumerDisclosures API, and 126 more. Tagged areas include Agreements, Contracts, Digital Transaction Management, Documents, and Electronic Signature.
 
 
   The Docusign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1882,7 +1882,7 @@ plans:
 - name: Docusign Plans Pricing
   plan_count: 4
   slug: docusign-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Docusign Rate Limits
@@ -1927,7 +1927,7 @@ scopes:
   summary_line: 13 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 64.0
+  composite: 64.1
   coverage:
     artifact_dirs: 22
     catalog_earned: 59.5
@@ -1935,11 +1935,11 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 75.9
+    contract_quality: 76.3
     developer_ergonomics: 75.0
     discoverability: 59.3
     operational_transparency: 55.3
@@ -1952,7 +1952,7 @@ score:
       marker_coverage: 0.0
       total: 128
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1973,7 +1973,7 @@ tags:
 - Contracts
 - Digital Transaction Management
 - Documents
-- Electronic Signatures
+- Electronic Signature
 - E-Signature
 website: https://www.docusign.com/
 ---

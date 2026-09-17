@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 12
 apis:
 - description: Exposes Moodle functionality as web services so external programs can integrate with a Moodle site for users, courses, enrollments, grading, and other operations. Supports REST, XML-RPC, and SOAP prot
@@ -127,7 +127,7 @@ plans:
 - name: Moodle Plans Pricing
   plan_count: 3
   slug: moodle-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Moodle Rate Limits
@@ -158,7 +158,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

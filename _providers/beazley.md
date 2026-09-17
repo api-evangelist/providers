@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -77,11 +77,6 @@ apis:
   description: The Definitions API from Beazley — 2 operation(s) for definitions.
   name: Beazley Definitions API
   slug: beazley-definitions-api
-- baseURL: https://api.beazley.com/riskcapture/v2
-  baseurl_source: declared
-  description: The Faqs API from Beazley — 2 operation(s) for faqs.
-  name: Beazley Faqs API
-  slug: beazley-faqs-api
 - baseURL: https://api.beazley.com/riskcapture/v2
   baseurl_source: declared
   description: The Health API from Beazley — 1 operation(s) for health.
@@ -142,6 +137,11 @@ apis:
   description: The Search API from Beazley — 1 operation(s) for search.
   name: Beazley Search API
   slug: beazley-search-api
+- baseURL: https://api.beazley.com/riskcapture/v2
+  baseurl_source: declared
+  description: The Faqs API from Beazley — 2 operation(s) for faqs.
+  name: Beazley Faqs API
+  slug: beazley-faqs-api
 artifact_total: 39
 collections:
 - collection_type: open
@@ -401,7 +401,7 @@ plans:
 - name: Beazley Plans
   plan_count: 9
   slug: beazley-plans
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 8
   name: Beazley Rate Limits
@@ -450,7 +450,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

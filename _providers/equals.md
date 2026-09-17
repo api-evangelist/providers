@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 56.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -133,10 +133,10 @@ common:
   type: APIReference
   url: https://docs.equals.com/docs/memories-api
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/openapi/equals-memories-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/openapi/_original/equals-memories-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/equals-memories-openapi.yml
+  url: openapi/_original/equals-memories-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/authentication/equals-authentication.yml
   title: ''
@@ -215,6 +215,10 @@ common:
   title: ''
   type: ChangeLog
   url: changelog/equals-changelog.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:help@equals.com
 created: '2026-07-17'
 description: Equals is an AI analytics platform that builds trusted spreadsheets and dashboards for revenue operations and go-to-market teams. It connects directly to databases and SaaS tools — PostgreSQL, MySQL, BigQuery, Snowflake, Redshift, Azure SQL, Supabase, Stripe, Salesforce, HubSpot, Intercom, and more — syncs data into a managed Equals Warehouse powered by Snowflake, and layers a familiar spreadsheet calculation, pivot, and charting surface with AI-powered querying on top. Teams use it to establish a single source of truth for metrics like ARR, pipeline, and retention, then auto-distribute live dashboards to Slack and email. Equals exposes a hosted Model Context Protocol (MCP) server so agents can discover workbooks, query connected datasources, and ask natural-language questions of company data.
 image: https://avatars.githubusercontent.com/u/16228084?v=4
@@ -223,19 +227,19 @@ mcp_servers:
 - description: ''
   name: Equals MCP Server
   slug: equals-mcp-server
-modified: '2026-08-14'
+modified: '2026-09-16'
 name: Equals
 nav: Providers
 network: true
 overview: 'Equals publishes 1 API on the [APIs.io](https://apis.io/) network: Memories API. Tagged areas include Company, Analytics, Spreadsheets, Business Intelligence, and Dashboards.
 
 
-  Equals'' developer surface includes documentation, getting-started guide, support, pricing, signup flow, API reference, authentication, and 28 more developer resources.'
+  Equals'' developer surface includes documentation, getting-started guide, support, pricing, signup flow, API reference, authentication, and 29 more developer resources.'
 plans:
 - name: Equals Plans Pricing
   plan_count: 3
   slug: equals-plans-pricing
-random_paper: 0
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Equals Rate Limits
@@ -270,7 +274,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

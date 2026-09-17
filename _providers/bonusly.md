@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ modified: '2026-07-10'
 name: Bonusly
 nav: Providers
 network: true
-overview: 'Bonusly publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Bonuses API, Company API, and 3 more. Tagged areas include Employee Recognition, Rewards, Employee Engagement, HR, and Company Culture.
+overview: 'Bonusly publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Bonuses API, Company API, and 3 more. Tagged areas include Employee Recognition, Rewards, Employee Engagement, Human Resources, and Company Culture.
 
 
   Bonusly''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -171,7 +171,7 @@ plans:
 - name: Bonusly Plans Pricing
   plan_count: 4
   slug: bonusly-plans-pricing
-random_paper: 3
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Bonusly Rate Limits
@@ -204,7 +204,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -224,7 +224,7 @@ tags:
 - Employee Recognition
 - Rewards
 - Employee Engagement
-- HR
+- Human Resources
 - Company Culture
 - Bonuses
 website: https://bonusly.com

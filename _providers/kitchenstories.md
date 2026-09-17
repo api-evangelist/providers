@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.kitchenstories.io/api
@@ -443,7 +443,7 @@ overview: 'Kitchen Stories publishes 37 APIs on the [APIs.io](https://apis.io/) 
 
 
   Kitchen Stories'' developer surface includes support, engineering blog, signup flow, pricing, and 17 more developer resources.'
-random_paper: 7
+random_paper: 1
 score:
   band: thin
   composite: 38.3
@@ -458,7 +458,7 @@ score:
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 50.5
+    contract_quality: 50.6
     developer_ergonomics: 28.0
     discoverability: 70.4
     operational_transparency: 2.6
@@ -481,7 +481,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

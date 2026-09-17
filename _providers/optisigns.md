@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 5
 apis:
 - baseURL: https://graphql-gateway.optisigns.com/graphql
@@ -135,7 +135,7 @@ plans:
 - name: Optisigns Plans Pricing
   plan_count: 6
   slug: optisigns-plans-pricing
-random_paper: 5
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Optisigns Rate Limits
@@ -160,7 +160,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 36.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: Aquila is QuEra's 256-qubit neutral-atom quantum computer, the first publicly accessible neutral-atom QPU. It runs Analog Hamiltonian Simulation (AHS) programs and is accessed programmatically through
@@ -61,6 +61,10 @@ apis:
   slug: bloqade-shuttle-lanes
 artifact_total: 24
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://quera.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -166,15 +170,15 @@ features:
 - No public QuEra-operated REST API — programmatic access is via AWS Braket task API and Bloqade SDKs
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quera-computing.png
 layout: provider
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: QuEra Computing
 nav: Providers
 network: true
 overview: 'QuEra Computing publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Neutral Atom, Analog Hamiltonian Simulation, AWS Braket, and Aquila.
 
 
-  QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 15 more developer resources.'
-random_paper: 15
+  QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 16 more developer resources.'
+random_paper: 7
 score:
   band: emerging
   composite: 23.9
@@ -203,7 +207,7 @@ score:
     score: 50.0
   previous_composite: 23.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -227,5 +231,5 @@ tags:
 - Quantum Error Correction
 - Bloqade
 - Hardware
-website: https://www.quera.com/
+website: https://quera.com
 ---

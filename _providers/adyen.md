@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 43.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -196,11 +196,6 @@ apis:
   description: The checkAccountHolder API from Adyen — 1 operation(s) for checkaccountholder.
   name: Adyen checkAccountHolder API
   slug: adyen-checkaccountholder-api
-- baseURL: https://cal-test.adyen.com
-  baseurl_source: declared
-  description: The checkBalance API from Adyen — 1 operation(s) for checkbalance.
-  name: Adyen checkBalance API
-  slug: adyen-checkbalance-api
 - baseURL: https://cal-test.adyen.com
   baseurl_source: declared
   description: The closeAccount API from Adyen — 1 operation(s) for closeaccount.
@@ -443,11 +438,6 @@ apis:
   slug: adyen-keys-api
 - baseURL: https://cal-test.adyen.com
   baseurl_source: declared
-  description: The legalEntities API from Adyen — 14 operation(s) for legalentities.
-  name: Adyen legalEntities API
-  slug: adyen-legalentities-api
-- baseURL: https://cal-test.adyen.com
-  baseurl_source: declared
   description: The Links API from Adyen — 2 operation(s) for links.
   name: Adyen Links API
   slug: adyen-links-api
@@ -678,11 +668,6 @@ apis:
   slug: adyen-transactions-api
 - baseURL: https://cal-test.adyen.com
   baseurl_source: declared
-  description: The Transactionstatus API from Adyen — 1 operation(s) for transactionstatus.
-  name: Adyen Transactionstatus API
-  slug: adyen-transactionstatus-api
-- baseURL: https://cal-test.adyen.com
-  baseurl_source: declared
   description: The transferFunds API from Adyen — 1 operation(s) for transferfunds.
   name: Adyen transferFunds API
   slug: adyen-transferfunds-api
@@ -718,11 +703,6 @@ apis:
   slug: adyen-updateaccountholderstate-api
 - baseURL: https://cal-test.adyen.com
   baseurl_source: declared
-  description: The updateNotificationConfiguration API from Adyen — 1 operation(s) for updatenotificationconfiguration.
-  name: Adyen updateNotificationConfiguration API
-  slug: adyen-updatenotificationconfiguration-api
-- baseURL: https://cal-test.adyen.com
-  baseurl_source: declared
   description: The uploadDocument API from Adyen — 1 operation(s) for uploaddocument.
   name: Adyen uploadDocument API
   slug: adyen-uploaddocument-api
@@ -736,6 +716,26 @@ apis:
   description: The voidTransaction API from Adyen — 1 operation(s) for voidtransaction.
   name: Adyen voidTransaction API
   slug: adyen-voidtransaction-api
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Check Balance API from Adyen — 1 operation(s) for check balance.
+  name: Adyen Check Balance API
+  slug: adyen-check-balance-api
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Legal Entities API from Adyen — 14 operation(s) for legal entities.
+  name: Adyen Legal Entities API
+  slug: adyen-legal-entities-api
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Transaction Status API from Adyen — 1 operation(s) for transaction status.
+  name: Adyen Transaction Status API
+  slug: adyen-transaction-status-api
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The update Notification Configuration API from Adyen — 1 operation(s) for update notification configuration.
+  name: Adyen update Notification Configuration API
+  slug: adyen-update-notification-configuration-api
 arazzos:
 - description: Authorise a card payment then adjust the authorised amount.
   name: Adyen Checkout Payment and Amount Update
@@ -22440,7 +22440,7 @@ plans:
 - name: Adyen Plans Pricing
   plan_count: 2
   slug: adyen-plans-pricing
-random_paper: 4
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Adyen Rate Limits
@@ -22479,7 +22479,7 @@ rules:
   slug: adyen-spectral-rules
 score:
   band: strong
-  composite: 65.4
+  composite: 65.3
   coverage:
     artifact_dirs: 27
     catalog_earned: 63.5
@@ -22487,11 +22487,11 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 65.8
     contract_governance: 28.8
-    contract_quality: 75.3
+    contract_quality: 75.1
     developer_ergonomics: 65.5
     discoverability: 72.2
     operational_transparency: 44.7
@@ -22510,7 +22510,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ plans:
 - name: Leia Plans
   plan_count: 6
   slug: leia-plans
-random_paper: 12
+random_paper: 15
 scopes:
 - name: Leia Scopes
   scope_count: 20
@@ -292,7 +292,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

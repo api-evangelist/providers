@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 41.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -51,11 +51,6 @@ apis:
   description: The Add Cash App Pay To Your Site API from Cash App — 0 operation(s) for add cash app pay to your site.
   name: Cash App Add Cash App Pay To Your Site API
   slug: cash-app-add-cash-app-pay-to-your-site-api
-- baseURL: https://api.cash.app/network/v1
-  baseurl_source: declared
-  description: The apiKeys API from Cash App — 2 operation(s) for apikeys.
-  name: Cash App API Keys API
-  slug: cash-app-apikeys-api
 - baseURL: https://api.cash.app/network/v1
   baseurl_source: declared
   description: The balances API from Cash App — 2 operation(s) for balances.
@@ -84,18 +79,13 @@ apis:
 - baseURL: https://api.cash.app/network/v1
   baseurl_source: declared
   description: The App Default API from Cash App — 39 operation(s) for app default.
-  name: Cash App App Default API
+  name: Cash App Default API
   slug: cash-app-default-api
 - baseURL: https://api.cash.app/network/v1
   baseurl_source: declared
   description: The disputes API from Cash App — 8 operation(s) for disputes.
   name: Cash App Disputes API
   slug: cash-app-disputes-api
-- baseURL: https://api.cash.app/network/v1
-  baseurl_source: declared
-  description: The feePlans API from Cash App — 2 operation(s) for feeplans.
-  name: Cash App Fee Plans API
-  slug: cash-app-feeplans-api
 - baseURL: https://api.cash.app/network/v1
   baseurl_source: declared
   description: The Grants Afterpay API from Cash App — 0 operation(s) for grants afterpay.
@@ -141,6 +131,16 @@ apis:
   description: The Webhooks API from Cash App — 3 operation(s) for webhooks.
   name: Cash App Webhooks API
   slug: cash-app-webhooks-api
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The API Keys API from Cash App — 2 operation(s) for api keys.
+  name: Cash App API Keys API
+  slug: cash-app-api-keys-api
+- baseURL: https://api.cash.app/network/v1
+  baseurl_source: declared
+  description: The Fee Plans API from Cash App — 2 operation(s) for fee plans.
+  name: Cash App Fee Plans API
+  slug: cash-app-fee-plans-api
 artifact_total: 50
 asyncapis:
 - description: ''
@@ -440,18 +440,18 @@ mcp_servers:
 - description: ''
   name: Cash App MCP Server
   slug: cash-app-mcp-server
-modified: '2026-07-23'
+modified: '2026-09-16'
 name: Cash App
 nav: Providers
 network: true
-overview: 'Cash App publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Add Cash App Pay To Your Site API, API Keys API, Balances API, and 16 more. Tagged areas include Financial-Services, Payments, United States, Fintech, and Neobank.
+overview: 'Cash App publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Add Cash App Pay To Your Site API, Balances API, Billing Agreements (Deprecated) API, and 16 more. Tagged areas include Financial-Services, Payments, United States, Fintech, and Neobank.
 
 
   The Cash App catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Cash App''s developer surface includes API reference, authentication, documentation, support, getting-started guide, signup flow, changelog, and 38 more developer resources.'
-random_paper: 4
+random_paper: 11
 scopes:
 - name: Cash App Scopes
   scope_count: 4
@@ -500,7 +500,7 @@ score:
     regime_id: payments
     score: 70.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

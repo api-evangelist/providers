@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 8.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - description: The Glia platform REST API. Serves operators, sites, engagements, queues and reporting resources over api.glia.com (US) and api.glia.eu (EU). Authentication is a bearer token minted from an API key id
@@ -218,11 +218,11 @@ modified: '2026-08-04'
 name: Glia
 nav: Providers
 network: true
-overview: 'Glia publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Contact Center, Banking, and Credit Unions.
+overview: 'Glia publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Contact Center, Banking, and Credit Union.
 
 
   Glia''s developer surface includes documentation, API reference, engineering blog, support, pricing, CLI, authentication, and 28 more developer resources.'
-random_paper: 14
+random_paper: 17
 score:
   band: developing
   composite: 41.0
@@ -258,7 +258,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -288,7 +288,7 @@ tags:
 - Customer Service
 - Contact Center
 - Banking
-- Credit Unions
+- Credit Union
 - Financial-Services
 - Conversational AI
 - Voice

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
@@ -59,11 +59,6 @@ apis:
   slug: opera-dspreport-api
 - baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
   baseurl_source: declared
-  description: Listing and inspecting uploads.
-  name: Opera File Management API
-  slug: opera-filemanagement-api
-- baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
-  baseurl_source: declared
   description: Publisher revenue and delivery reporting.
   name: Opera Publisher Report API
   slug: opera-publisherreport-api
@@ -72,6 +67,11 @@ apis:
   description: TUS resumable upload session lifecycle.
   name: Opera Upload API
   slug: opera-upload-api
+- baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
+  baseurl_source: declared
+  description: Listing and inspecting uploads.
+  name: Opera File Management API
+  slug: opera-file-management-api
 artifact_total: 16
 collections:
 - collection_type: open
@@ -271,7 +271,7 @@ plans:
 - name: Opera Plans Pricing
   plan_count: 0
   slug: opera-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Opera Rate Limits
@@ -305,7 +305,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

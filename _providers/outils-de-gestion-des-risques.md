@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 created: '2026-03-16'
@@ -44,7 +44,7 @@ name: Outils De Gestion Des Risques
 nav: Providers
 network: true
 overview: Outils De Gestion Des Risques is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include France, Risk Management, Compliance, and Governance.
-random_paper: 12
+random_paper: 6
 score:
   band: minimal
   composite: 4.1
@@ -81,7 +81,7 @@ score:
       reason: never_enriched
   previous_composite: 4.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

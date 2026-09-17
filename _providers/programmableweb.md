@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'ProgrammableWeb maintained the world''s largest directory of open web APIs, mashups, and developer tools. The directory documented over 19,000 APIs and served as the primary resource for API discovery '
@@ -99,7 +99,7 @@ plans:
 - name: Programmableweb Plans Pricing
   plan_count: 3
   slug: programmableweb-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Programmableweb Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 10.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

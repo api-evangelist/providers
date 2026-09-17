@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -59,11 +59,6 @@ apis:
   description: An incoming webhook triggers data set row creation or updates from external systems. Use these endpoints to create, view, update, and delete incoming webhooks for a data set.
   name: Process Street Data Set Incoming Webhooks API
   slug: process-street-data-set-incoming-webhooks-api
-- baseURL: https://public-api.process.st/api/v1.1
-  baseurl_source: declared
-  description: A data set is a structured collection of records that can be linked to workflow form fields. Use these endpoints to manage data sets and their records.
-  name: Process Street Data Sets API
-  slug: process-street-data-sets-api
 - baseURL: https://public-api.process.st/api/v1.1
   baseurl_source: declared
   description: A file upload is a two-step upload for large files. Create one to get an upload URL and a `fileUploadId`, send the file's bytes to that URL, then attach the upload to a target (form field value, attac
@@ -184,6 +179,11 @@ apis:
   description: A workflow is a reusable process template that defines the structure, tasks, and form fields for a repeatable process. Use these endpoints to browse and inspect your organization's workflows.
   name: Process Street Workflows API
   slug: process-street-workflows-api
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A data set is a structured collection of records that can be linked to workflow form fields. Use these endpoints to manage data sets and their records.
+  name: Process Street Datasets API
+  slug: process-street-datasets-api
 artifact_total: 64
 asyncapis:
 - description: ''
@@ -407,7 +407,7 @@ overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) n
 
 
   Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 5
+random_paper: 1
 score:
   band: developing
   composite: 44.7
@@ -438,7 +438,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

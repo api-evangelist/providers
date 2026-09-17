@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 11
@@ -133,11 +133,6 @@ apis:
   description: The DB Connections API from Auth0 — 1 operation(s) for db connections.
   name: Auth0 DB Connections API
   slug: auth0-db-connections-api
-- baseURL: https://your-tenant.auth0.com/api/v2
-  baseurl_source: declared
-  description: The DbConnections API from Auth0 — 1 operation(s) for dbconnections.
-  name: Auth0 DbConnections API
-  slug: auth0-dbconnections-api
 - baseURL: https://your-tenant.auth0.com/api/v2
   baseurl_source: declared
   description: The Deprecated > Authenticate API from Auth0 — 2 operation(s) for deprecated > authenticate.
@@ -476,7 +471,7 @@ arazzos:
 - description: Create an API (resource server), create a non-interactive client, and grant the client access to the API.
   name: Auth0 Provision Machine-to-Machine Application
   slug: auth0-provision-m2m-app-workflow
-artifact_total: 2802
+artifact_total: 2801
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Auth0''s two primary outbound event-delivery surfaces: 1. Log Streams — Custom Webhook (HTTP) destination Auth0 streams tenant log events to a customer-hosted HTTPS endpoint'
   name: Auth0 Log Streams and Actions Event Delivery
@@ -8741,11 +8736,11 @@ mcp_servers:
 - description: ''
   name: Auth0 MCP Server
   slug: auth0-mcp-server
-modified: '2026-05-30'
+modified: '2026-09-16'
 name: Auth0
 nav: Providers
 network: true
-overview: 'Auth0 publishes 73 APIs on the [APIs.io](https://apis.io/) network, including actions API, anomaly API, Assertions API, and 70 more. Tagged areas include AI Agents, Authentication, Authorization, FGA, and Identity Management.
+overview: 'Auth0 publishes 72 APIs on the [APIs.io](https://apis.io/) network, including actions API, anomaly API, Assertions API, and 69 more. Tagged areas include AI Agents, Authentication, Authorization, FGA, and Identity Management.
 
 
   The Auth0 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 5 Spectral governance rulesets.
@@ -8849,9 +8844,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 73
+      total: 72
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -8896,6 +8891,7 @@ tags:
 - SAML
 - Security
 - SCIM
+- Identity Federation
 use_cases:
 - description: Add secure, scalable authentication to customer-facing web and mobile applications with social login and passwordless options.
   name: Customer Identity

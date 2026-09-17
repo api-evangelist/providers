@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -170,6 +170,10 @@ collections:
   name: Veritas InfoScale REST Alerts Volumes API
   slug: open-veritas-infoscale-volumes-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://veritas.com
 - group: operate
   title: ''
   type: IssueTracker
@@ -366,7 +370,7 @@ jsonld:
   property_count: 38
   slug: veritas-infoscale-rest-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Veritas InfoScale
 nav: Providers
 network: true
@@ -376,12 +380,12 @@ overview: 'Veritas InfoScale publishes 10 APIs on the [APIs.io](https://apis.io/
   The Veritas InfoScale catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Veritas InfoScale''s developer surface includes authentication, developer portal, support, documentation, getting-started guide, training material, engineering blog, and 16 more developer resources.'
+  Veritas InfoScale''s developer surface includes authentication, developer portal, support, documentation, getting-started guide, training material, engineering blog, and 17 more developer resources.'
 plans:
 - name: Veritas Infoscale Plans Pricing
   plan_count: 1
   slug: veritas-infoscale-plans-pricing
-random_paper: 16
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Veritas Infoscale Rate Limits
@@ -438,7 +442,7 @@ score:
       marker_coverage: 100.0
       total: 11
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -478,5 +482,5 @@ use_cases:
   name: Container Storage
 - description: Protect databases with application-consistent snapshots, online data migration, and real-time replication without application downtime.
   name: Database Protection
-website: https://my.veritas.com
+website: https://veritas.com
 ---

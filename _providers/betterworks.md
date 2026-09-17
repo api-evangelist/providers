@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The BetterWorks REST API enables programmatic access to goals, milestones, employee data, feedback, recognition, calibration data, and performance ratings. Developers can retrieve complete goal detail
@@ -124,7 +124,7 @@ modified: 2026-06-13
 name: BetterWorks
 nav: Providers
 network: true
-overview: 'BetterWorks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include OKR, Performance Management, Goals, Employee Data, and HR.
+overview: 'BetterWorks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include OKRs, Performance Management, Goals, Employee Data, and Human Resources.
 
 
   The BetterWorks catalog on APIs.io includes 1 JSON-LD context.
@@ -135,7 +135,7 @@ plans:
 - name: Betterworks Plans Pricing
   plan_count: 3
   slug: betterworks-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Betterworks Rate Limits
@@ -160,7 +160,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 33.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -174,14 +174,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: betterworks
 tags:
-- OKR
+- OKRs
 - Performance Management
 - Goals
 - Employee Data
-- HR
+- Human Resources
 - Enterprise
 - Feedback
-- Check-ins
+- Check-in
 - Continuous Performance
 - People Analytics
 website: https://www.betterworks.com/

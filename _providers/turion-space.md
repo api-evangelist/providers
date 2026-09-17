@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 5.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: First-party REST API gateway behind the STARFIRE customer dashboard. Route prefixes observed in the provider's own published dashboard bundle include /api/v1/tasking-orders, /api/v1/images/, /api/v1/t
@@ -116,7 +116,7 @@ modified: '2026-09-01'
 name: Turion Space
 nav: Providers
 network: true
-overview: 'Turion Space publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Satellites, Space Domain Awareness, and Non-Earth Imaging.
+overview: 'Turion Space publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Satellite, Space Domain Awareness, and Non-Earth Imaging.
 
 
   Turion Space''s developer surface includes engineering blog and 11 more developer resources.'
@@ -124,7 +124,7 @@ plans:
 - name: Turion Space Plans Pricing
   plan_count: 0
   slug: turion-space-plans-pricing
-random_paper: 3
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Turion Space Rate Limits
@@ -152,7 +152,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -172,7 +172,7 @@ slug: turion-space
 tags:
 - Company
 - Space
-- Satellites
+- Satellite
 - Space Domain Awareness
 - Non-Earth Imaging
 - Earth Observation

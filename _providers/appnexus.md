@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful JSON API for the AppNexus/Xandr programmatic advertising platform - manage advertisers, campaigns, line items, creatives, placements, inventory, deals, and pull reporting. Token authentication
@@ -198,7 +198,7 @@ plans:
 - name: Appnexus Plans Pricing
   plan_count: 0
   slug: appnexus-plans-pricing
-random_paper: 2
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Appnexus Rate Limits
@@ -230,7 +230,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 25
@@ -69,11 +69,6 @@ apis:
   description: The Containers API from Weka — 17 operation(s) for containers.
   name: Weka Containers API
   slug: weka-containers-api
-- baseURL: https://api.docs.weka.io/api/v2
-  baseurl_source: declared
-  description: The DataService API from Weka — 1 operation(s) for dataservice.
-  name: Weka DataService API
-  slug: weka-dataservice-api
 - baseURL: https://api.docs.weka.io/api/v2
   baseurl_source: declared
   description: The Default network API from Weka — 1 operation(s) for default network.
@@ -267,8 +262,13 @@ apis:
 - baseURL: https://api.docs.weka.io/api/v2
   baseurl_source: declared
   description: The Weka home API from Weka — 6 operation(s) for weka home.
-  name: Weka Weka home API
+  name: Weka home API
   slug: weka-weka-home-api
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Data Service API from Weka — 1 operation(s) for data service.
+  name: Weka Data Service API
+  slug: weka-data-service-api
 artifact_total: 95
 collections:
 - collection_type: open
@@ -537,7 +537,7 @@ created: '2026-07-17'
 description: WEKA (WekaIO, Inc.) builds NeuralMesh, a software-defined, high-performance data platform for AI, machine learning, and HPC workloads. Its container-native storage system delivers a unified namespace across NVMe SSD and object storage, running on bare metal and across AWS, Azure, GCP, and OCI. WEKA clusters expose a RESTful management API (served at /api/v2 on port 14000) that automates filesystems, quotas, snapshots, S3 buckets, multi-tenancy, users, KMS, alerts, and events, with a first-party CLI, Kubernetes CSI driver and operator, and Terraform modules. The company is backed by Norwest Venture Partners and others.
 image: https://cdn.sanity.io/images/ult5g8gw/production/3f976b57b4400a41163bc68d67ffb770d0a3b923-1200x675.jpg
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Weka
 nav: Providers
 network: true
@@ -545,24 +545,24 @@ overview: 'Weka publishes 45 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Weka''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 20 more developer resources.'
-random_paper: 4
+random_paper: 6
 score:
   band: developing
-  composite: 45.1
+  composite: 46.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 27.0
+    catalog_earned: 32.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 53.0
+    contract_quality: 53.2
     developer_ergonomics: 73.2
-    discoverability: 57.4
+    discoverability: 66.7
     operational_transparency: 36.8
   previous_composite: 45.1
   provenance:
@@ -576,7 +576,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

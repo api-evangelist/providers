@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: RESTful Open API for managing TikTok Shop seller accounts, products, orders, fulfillment, returns and refunds, logistics, finance, and promotions. Authentication uses OAuth 2.0 with App ID and app sec
@@ -85,7 +85,7 @@ overview: 'TikTok Shop API publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   TikTok Shop API''s developer surface includes documentation, signup flow, support, and 5 more developer resources.'
-random_paper: 15
+random_paper: 5
 score:
   band: emerging
   composite: 14.7
@@ -106,7 +106,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

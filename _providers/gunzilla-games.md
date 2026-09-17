@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The public Ethereum-compatible JSON-RPC endpoint for the GUNZ L1 chain, an Avalanche subnet running Subnet-EVM. It inherits the full EVM API surface of an Ethereum node (eth_*, net_*, web3_*), plus th
@@ -202,7 +202,7 @@ overview: 'Gunzilla Games publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Gunzilla Games'' developer surface includes documentation, API reference, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Gunzilla Games Rate Limits
@@ -231,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

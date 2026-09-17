@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.6
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
-- baseURL: https://curis.ku.dk/ws/oai
-  baseurl_source: declared
-  description: A complete, unauthenticated OAI-PMH 2.0 repository operated by the university on its own host. verb=Identify names the repository "University of Copenhagen", gives adminEmail curis@adm.ku.dk and attri
-  name: University of Copenhagen CURIS OAI-PMH Repository Interface
-  slug: curis-oai-pmh
 - description: The university publishes a signed SAML 2.0 EntityDescriptor at https://id.ku.dk/nidp/saml2/metadata (200, 24,737 bytes, text/xml), entityID https://id.ku.dk/nidp/saml2/metadata. Three ku.dk SAML entit
   name: University of Copenhagen SAML 2.0 Identity Provider
   slug: identity-federation
@@ -62,6 +57,11 @@ apis:
 - description: 'github.com/ku-kom is the university''s GitHub account — a User account rather than an Organization, named "University of Copenhagen" and linked to www.ku.dk — publishing 52 public repositories: the KU '
   name: University of Copenhagen Web Platform Source (ku-kom)
   slug: ku-kom-github
+- baseURL: https://curis.ku.dk/ws/oai
+  baseurl_source: declared
+  description: The six OAI-PMH 2.0 verbs, all dispatched from a single path by query parameter.
+  name: University of Copenhagen OAI PMH API
+  slug: university-of-copenhagen-oai-pmh-api
 artifact_total: 14
 common:
 - group: auth
@@ -110,10 +110,10 @@ common:
   type: CourseCatalog
   url: https://kurser.ku.dk/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/university-of-copenhagen/refs/heads/main/openapi/university-of-copenhagen-curis-oai-pmh-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/university-of-copenhagen/refs/heads/main/openapi/_original/university-of-copenhagen-curis-oai-pmh-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/university-of-copenhagen-curis-oai-pmh-openapi.yml
+  url: openapi/_original/university-of-copenhagen-curis-oai-pmh-openapi.yml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/university-of-copenhagen/refs/heads/main/authentication/university-of-copenhagen-authentication.yml
   title: ''
@@ -173,11 +173,11 @@ jsonld:
   property_count: 6
   slug: university-of-copenhagen-context
 layout: provider
-modified: '2026-08-30'
+modified: '2026-09-16'
 name: University of Copenhagen
 nav: Providers
 network: true
-overview: 'University of Copenhagen publishes 1 API on the [APIs.io](https://apis.io/) network: CURIS OAI-PMH Repository Interface. Tagged areas include Education, Higher Education, University, Research, and Denmark.
+overview: 'University of Copenhagen publishes 1 API on the [APIs.io](https://apis.io/) network: OAI PMH API. Tagged areas include Education, Higher Education, University, Research, and Denmark.
 
 
   The University of Copenhagen catalog on APIs.io includes 1 JSON-LD context.
@@ -188,7 +188,7 @@ plans:
 - name: University Of Copenhagen Plans Pricing
   plan_count: 2
   slug: university-of-copenhagen-plans-pricing
-random_paper: 16
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: University Of Copenhagen Rate Limits
@@ -232,7 +232,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

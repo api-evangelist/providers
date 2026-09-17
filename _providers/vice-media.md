@@ -15,32 +15,47 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-09-15'
-api_count: 3
+  score: 27.2
+  scored_at: '2026-09-16'
+api_count: 5
 apis:
-- baseURL: https://www.vice.com/wp-json
-  baseurl_source: declared
-  description: The live WordPress REST API served by vice.com. 601 routes are declared by the route-discovery document at https://www.vice.com/wp-json/, which the site advertises in the head of every page as <link r
-  name: VICE WordPress REST API
-  slug: vice-media-wordpress-rest-api
-- baseURL: https://video.vice.com/wp-json
-  baseurl_source: declared
-  description: 'A second WordPress install answering on video.vice.com with 586 declared routes and the same core content namespaces, advertised the same way in the page head. Its public archive is effectively empty '
-  name: VICE Video WordPress REST API
-  slug: vice-media-video-wordpress-rest-api
 - description: An authenticated platform gateway on api.vice.com, running nginx in front of an Express service that identifies itself as "api-auth 1.13.2" in the x-app-version response header. Every path probed anon
   name: VICE Platform API
   slug: vice-media-platform-api
-artifact_total: 8
+- baseURL: https://www.vice.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoints — discovery and proxy for embeddable representations of VICE articles and videos.
+  name: Vice Media Oembed/1.0 API
+  slug: vice-media-oembed-1-0-api
+- baseURL: https://www.vice.com/wp-json
+  baseurl_source: declared
+  description: REST API index / namespace and route discovery.
+  name: Vice Media Root API
+  slug: vice-media-root-api
+- baseURL: https://www.vice.com/wp-json
+  baseurl_source: declared
+  description: WordPress Abilities API — the registry of named abilities an agent can discover and run. Read and run are capability-gated (observed HTTP 401 anonymously).
+  name: Vice Media Wp Abilities/v1 API
+  slug: vice-media-wp-abilities-v1-api
+- baseURL: https://www.vice.com/wp-json
+  baseurl_source: declared
+  description: WordPress core content API — posts, pages, media, custom post types (sections, profiles, products), taxonomies (categories, tags, bylines, brands, platform languages), search, types, statuses and sett
+  name: Vice Media Wp/v2 API
+  slug: vice-media-wp-v2-api
+artifact_total: 10
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/vice-media/refs/heads/main/overlays/vice-media-video-wp-rest-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/vice-media-video-wp-rest-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -186,22 +201,22 @@ modified: '2026-09-04'
 name: Vice Media
 nav: Providers
 network: true
-overview: 'Vice Media publishes 2 APIs on the [APIs.io](https://apis.io/) network: VICE WordPress REST API and VICE Video WordPress REST API. Tagged areas include Company, Media, Publishing, News, and Digital Media.
+overview: 'Vice Media publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Oembed/1.0 API, Root API, Wp Abilities/v1 API, and 1 more. Tagged areas include Company, Media, Publishing, News, and Digital Media.
 
 
-  Vice Media''s developer surface includes engineering blog, pricing, signup flow, authentication, and 26 more developer resources.'
+  Vice Media''s developer surface includes engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
 plans:
 - name: Vice Media Plans Pricing
   plan_count: 3
   slug: vice-media-plans-pricing
-random_paper: 14
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Vice Media Rate Limits
   slug: vice-media-rate-limits
 score:
   band: thin
-  composite: 33.8
+  composite: 34.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 52.0
@@ -209,11 +224,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 12.9
+    contract_quality: 17.2
     developer_ergonomics: 16.1
     discoverability: 81.5
     operational_transparency: 13.2
@@ -222,18 +237,17 @@ score:
     conformance: first-party
     contracts:
       callable: 100.0
-      derived: 2
+      derived: 6
       marker_coverage: 100.0
-      total: 2
+      total: 6
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Vice Media Authentication

@@ -24,7 +24,7 @@ name: Beryllium
 nav: Providers
 network: true
 overview: Beryllium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fantasy Sports, Sports, Trading, and Gaming.
-random_paper: 15
+random_paper: 13
 screenshot: https://raw.githubusercontent.com/api-evangelist/beryllium/refs/heads/main/screenshots/beryllium-2026-07-25T202743.png
 slug: beryllium
 tags:

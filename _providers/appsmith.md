@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,14 +52,14 @@ apis:
   slug: appsmith-applications-api
 - baseURL: https://app.appsmith.com/api/v1
   baseurl_source: declared
-  description: Connected datasource management
-  name: Appsmith Datasources API
-  slug: appsmith-datasources-api
-- baseURL: https://app.appsmith.com/api/v1
-  baseurl_source: declared
   description: Workspace organization and management
   name: Appsmith Workspaces API
   slug: appsmith-workspaces-api
+- baseURL: https://app.appsmith.com/api/v1
+  baseurl_source: declared
+  description: Connected datasource management
+  name: Appsmith Data Sources API
+  slug: appsmith-data-sources-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -289,7 +289,7 @@ modified: '2026-09-04'
 name: Appsmith
 nav: Providers
 network: true
-overview: 'Appsmith publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Datasources API, and Workspaces API. Tagged areas include Low-Code, Open-Source, Internal Tools, Workflow-Automation, and Developer Tools.
+overview: 'Appsmith publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Workspaces API, and Data Sources API. Tagged areas include Low-Code, Open-Source, Internal Tools, Workflow-Automation, and Developer Tools.
 
 
   The Appsmith catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -300,7 +300,7 @@ plans:
 - name: Appsmith Plans Pricing
   plan_count: 3
   slug: appsmith-plans-pricing
-random_paper: 9
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Appsmith Rate Limits
@@ -360,7 +360,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -19,7 +19,7 @@ name: Lytro
 nav: Providers
 network: true
 overview: Lytro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Camera, Photography, Light Field, and Imaging.
-random_paper: 3
+random_paper: 20
 slug: lytro
 tags:
 - Company

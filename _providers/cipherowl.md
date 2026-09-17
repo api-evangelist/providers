@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -53,12 +53,12 @@ apis:
 - baseURL: https://svc.cipherowl.ai
   baseurl_source: declared
   description: Manage organization-scoped screening overrides (allowlists and denylists) for blockchain addresses.
-  name: CipherOwl Private Data API API
+  name: CipherOwl Private Data API
   slug: cipherowl-private-data-api-api
 - baseURL: https://svc.cipherowl.ai
   baseurl_source: declared
   description: Screen blockchain addresses for risk, retrieve risk reasons, breakdowns, scores, and generate reports.
-  name: CipherOwl SRR API API
+  name: CipherOwl SRR API
   slug: cipherowl-srr-api-api
 arazzos:
 - description: Screen a blockchain address, and when it is risky, drill down through score, breakdown, and path-level evidence, then generate an analyst-ready risk assessment. Seeded with co-sandbox test values so a
@@ -79,6 +79,10 @@ collections:
   name: CipherOwl Onchain Service SRR API API
   slug: open-cipherowl-srr-api-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://cipherowl.ai
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/overlays/cipherowl-openapi-overlay.yaml
   title: ''
@@ -227,15 +231,15 @@ mcp_servers:
 - description: ''
   name: CipherOwl MCP Server
   slug: cipherowl-mcp-server
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: CipherOwl
 nav: Providers
 network: true
-overview: 'CipherOwl publishes 3 APIs on the [APIs.io](https://apis.io/) network: Onchain Service API, Private Data API API, and SRR API API. Tagged areas include Blockchain, Compliance, Crypto, Security, and Risk.
+overview: 'CipherOwl publishes 3 APIs on the [APIs.io](https://apis.io/) network: Onchain Service API, Private Data API, and SRR API. Tagged areas include Blockchain, Compliance, Crypto, Security, and Risk.
 
 
-  CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 7
+  CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+random_paper: 5
 score:
   band: developing
   composite: 53.6
@@ -266,7 +270,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -301,5 +305,5 @@ tags:
 - Digital Assets
 - Stablecoins
 - Web3
-website: https://readme.cipherowl.ai/
+website: https://cipherowl.ai
 ---

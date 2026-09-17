@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.signal-ai.com
@@ -132,6 +132,10 @@ collections:
   name: Signal AI Affinity Topics API
   slug: open-signal-ai-topics-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://signal-ai.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/security/signal-ai-domain-security.yml
   title: ''
@@ -283,19 +287,19 @@ mcp_servers:
 - description: ''
   name: Signal AI MCP Server
   slug: signal-ai-mcp-server
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Signal AI
 nav: Providers
 network: true
 overview: 'Signal AI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Affinity API, Categories API, Content Metrics API, and 8 more. Tagged areas include Company, Media Intelligence, Reputation Management, Risk Intelligence, and News.
 
 
-  Signal AI''s developer surface includes authentication, documentation, engineering blog, support, changelog, API reference, getting-started guide, and 24 more developer resources.'
+  Signal AI''s developer surface includes authentication, documentation, engineering blog, support, changelog, API reference, getting-started guide, and 25 more developer resources.'
 plans:
 - name: Signal Ai Plans Pricing
   plan_count: 0
   slug: signal-ai-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 8
   name: Signal Ai Rate Limits
@@ -334,7 +338,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -361,5 +365,5 @@ tags:
 - ESG
 - Artificial Intelligence
 - Analytics
-website: https://signal-ai.com/solutions/api
+website: https://signal-ai.com
 ---

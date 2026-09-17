@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 19
 common:
@@ -196,11 +196,11 @@ modified: '2026-05-23'
 name: Axsome Therapeutics
 nav: Providers
 network: true
-overview: 'Axsome Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include biopharmaceuticals, Biotechnology, Pharmaceuticals, Healthcare, and Life Sciences.
+overview: 'Axsome Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biopharmaceutical, Biotechnology, Pharmaceuticals, Healthcare, and Life Sciences.
 
 
   The Axsome Therapeutics catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 0
+random_paper: 15
 score:
   band: emerging
   composite: 15.5
@@ -227,7 +227,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -241,7 +241,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: axsome-therapeutics
 tags:
-- biopharmaceuticals
+- Biopharmaceutical
 - Biotechnology
 - Pharmaceuticals
 - Healthcare

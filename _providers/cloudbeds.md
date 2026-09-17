@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -60,19 +60,9 @@ apis:
   slug: cloudbeds-access-token-api
 - baseURL: https://hotels.cloudbeds.com/api/v1.3
   baseurl_source: declared
-  description: The DeleteWebhook API from Cloudbeds — 1 operation(s) for deletewebhook.
-  name: Cloudbeds DeleteWebhook API
-  slug: cloudbeds-deletewebhook-api
-- baseURL: https://hotels.cloudbeds.com/api/v1.3
-  baseurl_source: declared
   description: The GetAvailableRoomTypes API from Cloudbeds — 1 operation(s) for getavailableroomtypes.
   name: Cloudbeds GetAvailableRoomTypes API
   slug: cloudbeds-getavailableroomtypes-api
-- baseURL: https://hotels.cloudbeds.com/api/v1.3
-  baseurl_source: declared
-  description: The GetDashboard API from Cloudbeds — 1 operation(s) for getdashboard.
-  name: Cloudbeds GetDashboard API
-  slug: cloudbeds-getdashboard-api
 - baseURL: https://hotels.cloudbeds.com/api/v1.3
   baseurl_source: declared
   description: The GetGuest API from Cloudbeds — 1 operation(s) for getguest.
@@ -135,11 +125,6 @@ apis:
   slug: cloudbeds-getusers-api
 - baseURL: https://hotels.cloudbeds.com/api/v1.3
   baseurl_source: declared
-  description: The GetWebhooks API from Cloudbeds — 1 operation(s) for getwebhooks.
-  name: Cloudbeds GetWebhooks API
-  slug: cloudbeds-getwebhooks-api
-- baseURL: https://hotels.cloudbeds.com/api/v1.3
-  baseurl_source: declared
   description: The PostCharge API from Cloudbeds — 1 operation(s) for postcharge.
   name: Cloudbeds PostCharge API
   slug: cloudbeds-postcharge-api
@@ -193,11 +178,26 @@ apis:
   description: The PutReservation API from Cloudbeds — 1 operation(s) for putreservation.
   name: Cloudbeds PutReservation API
   slug: cloudbeds-putreservation-api
-- baseURL: https://hotels.cloudbeds.com/api/v1.3
+- baseURL: https://hotels.cloudbeds.com/api/v1.2
   baseurl_source: declared
-  description: The Userinfo API from Cloudbeds — 1 operation(s) for userinfo.
-  name: Cloudbeds Userinfo API
-  slug: cloudbeds-userinfo-api
+  description: The Delete Webhook API from Cloudbeds — 1 operation(s) for delete webhook.
+  name: Cloudbeds Delete Webhook API
+  slug: cloudbeds-delete-webhook-api
+- baseURL: https://hotels.cloudbeds.com/api/v1.2
+  baseurl_source: declared
+  description: The Get Dashboard API from Cloudbeds — 1 operation(s) for get dashboard.
+  name: Cloudbeds Get Dashboard API
+  slug: cloudbeds-get-dashboard-api
+- baseURL: https://hotels.cloudbeds.com/api/v1.2
+  baseurl_source: declared
+  description: The Get Webhooks API from Cloudbeds — 1 operation(s) for get webhooks.
+  name: Cloudbeds Get Webhooks API
+  slug: cloudbeds-get-webhooks-api
+- baseURL: https://hotels.cloudbeds.com/api/v1.2
+  baseurl_source: declared
+  description: The User Info API from Cloudbeds — 1 operation(s) for user info.
+  name: Cloudbeds User Info API
+  slug: cloudbeds-user-info-api
 artifact_total: 82
 collections:
 - collection_type: open
@@ -416,7 +416,7 @@ modified: '2026-05-24'
 name: Cloudbeds
 nav: Providers
 network: true
-overview: 'Cloudbeds publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, DeleteWebhook API, GetAvailableRoomTypes API, and 26 more. Tagged areas include Hospitality, Hotels, PMS, Property Management, and Channel Manager.
+overview: 'Cloudbeds publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, GetAvailableRoomTypes API, GetGuest API, and 26 more. Tagged areas include Hospitality, Hotels, PMS, Property Management, and Channel Manager.
 
 
   The Cloudbeds catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -427,7 +427,7 @@ plans:
 - name: Cloudbeds Plans Pricing
   plan_count: 2
   slug: cloudbeds-plans-pricing
-random_paper: 4
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Cloudbeds Rate Limits
@@ -460,7 +460,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.0
+  composite: 33.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 65.3
@@ -468,11 +468,11 @@ score:
     catalog_gap: 49.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 13.2
     contract_governance: 25.0
-    contract_quality: 62.6
+    contract_quality: 65.3
     developer_ergonomics: 19.0
     discoverability: 61.1
     operational_transparency: 7.9
@@ -496,7 +496,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

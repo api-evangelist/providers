@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://www.ascend-adv.com/wp-json
@@ -52,11 +52,6 @@ apis:
   description: Media library attachments.
   name: Ascend Advanced Therapies Media API
   slug: ascend-advanced-therapies-media-api
-- baseURL: https://www.ascend-adv.com/wp-json
-  baseurl_source: declared
-  description: oEmbed discovery for site URLs.
-  name: Ascend Advanced Therapies oEmbed API
-  slug: ascend-advanced-therapies-oembed-api
 - baseURL: https://www.ascend-adv.com/wp-json
   baseurl_source: declared
   description: Static site pages.
@@ -77,6 +72,11 @@ apis:
   description: Categories and tags.
   name: Ascend Advanced Therapies Taxonomy API
   slug: ascend-advanced-therapies-taxonomy-api
+- baseURL: https://www.ascend-adv.com/wp-json
+  baseurl_source: declared
+  description: oEmbed discovery for site URLs.
+  name: Ascend Advanced Therapies o Embed API
+  slug: ascend-advanced-therapies-o-embed-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -195,7 +195,7 @@ overview: 'Ascend Advanced Therapies publishes 8 APIs on the [APIs.io](https://a
 
 
   Ascend Advanced Therapies'' developer surface includes engineering blog and 16 more developer resources.'
-random_paper: 0
+random_paper: 13
 score:
   band: thin
   composite: 31.2
@@ -231,7 +231,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

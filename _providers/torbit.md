@@ -29,7 +29,7 @@ name: Torbit
 nav: Providers
 network: true
 overview: Torbit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Performance, Real User Monitoring, Front-End Optimization, and Acquired.
-random_paper: 9
+random_paper: 0
 security:
 - kind: domain-security
   name: Torbit Domain Security

@@ -29,7 +29,7 @@ name: Little Eye
 nav: Providers
 network: true
 overview: Little Eye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blog, Technology News, and Defunct.
-random_paper: 14
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/little-eye/refs/heads/main/screenshots/little-eye-2026-07-25T225343.png
 security:
 - kind: domain-security

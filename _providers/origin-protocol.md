@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.originprotocol.com
@@ -56,11 +56,6 @@ apis:
   description: The cache API from Origin Protocol — 1 operation(s) for cache.
   name: Origin Protocol cache API
   slug: origin-protocol-cache-api
-- baseURL: https://api.originprotocol.com
-  baseurl_source: declared
-  description: The coingecko API from Origin Protocol — 7 operation(s) for coingecko.
-  name: Origin Protocol coingecko API
-  slug: origin-protocol-coingecko-api
 - baseURL: https://api.originprotocol.com
   baseurl_source: declared
   description: The defillama API from Origin Protocol — 2 operation(s) for defillama.
@@ -99,7 +94,7 @@ apis:
 - baseURL: https://api.originprotocol.com
   baseurl_source: declared
   description: The protocol API from Origin Protocol — 8 operation(s) for protocol.
-  name: Origin Protocol protocol API
+  name: Origin Protocol API
   slug: origin-protocol-protocol-api
 - baseURL: https://api.originprotocol.com
   baseurl_source: declared
@@ -121,6 +116,11 @@ apis:
   description: The token API from Origin Protocol — 12 operation(s) for token.
   name: Origin Protocol token API
   slug: origin-protocol-token-api
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The coin gecko API from Origin Protocol — 7 operation(s) for coin gecko.
+  name: Origin Protocol coin gecko API
+  slug: origin-protocol-coin-gecko-api
 artifact_total: 38
 collections:
 - collection_type: open
@@ -246,7 +246,7 @@ created: '2026-07-17'
 description: Origin Protocol builds permissionless DeFi infrastructure for yield-bearing tokens on Ethereum and L2s. Its products include Origin Ether (OETH) and Super OETH liquid-staking tokens, the Origin Dollar (OUSD) yield-bearing stablecoin, Origin Sonic (OS), the Automated Redemption Manager (ARM) arbitrage vaults, and the OGN governance/value-accrual token backed by protocol-revenue buybacks. Origin publishes a public read-only Analytics REST API (api.originprotocol.com) that wraps its origin-squid indexer, exposing yield, supply, collateral, revenue, and buyback data. Backed by Pantera Capital; surfaced into the API Evangelist network and enriched from Origin's own developer surfaces.
 image: https://docs.originprotocol.com/~gitbook/image
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-16'
 name: Origin Protocol
 nav: Providers
 network: true
@@ -254,10 +254,10 @@ overview: 'Origin Protocol publishes 17 APIs on the [APIs.io](https://apis.io/) 
 
 
   Origin Protocol''s developer surface includes documentation, API reference, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 0
+random_paper: 13
 score:
   band: thin
-  composite: 28.8
+  composite: 29.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -265,11 +265,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 44.7
+    contract_quality: 48.8
     developer_ergonomics: 42.3
     discoverability: 75.9
     operational_transparency: 13.2
@@ -284,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

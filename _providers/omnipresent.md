@@ -60,7 +60,7 @@ name: Omnipresent
 nav: Providers
 network: true
 overview: Omnipresent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Employment, Payroll, and Employer of Record.
-random_paper: 7
+random_paper: 16
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnipresent/refs/heads/main/screenshots/omnipresent-2026-09-02T150843.png
 security:
 - kind: domain-security

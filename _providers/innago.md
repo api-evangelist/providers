@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -123,6 +123,10 @@ collections:
   name: Innago Expenses Tenants API
   slug: open-innago-tenants-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://innago.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/innago/refs/heads/main/capabilities/innago-capability-edges.yml
   title: ''
@@ -205,7 +209,7 @@ jsonld:
   property_count: 0
   slug: innago
 layout: provider
-modified: '2026-06-13'
+modified: '2026-09-16'
 name: Innago
 nav: Providers
 network: true
@@ -215,12 +219,12 @@ overview: 'Innago publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Innago catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Innago''s developer surface includes authentication, pricing, engineering blog, signup flow, and 9 more developer resources.'
+  Innago''s developer surface includes authentication, pricing, engineering blog, signup flow, and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -269,7 +273,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -294,4 +298,5 @@ tags:
 - Tenants
 - Invoicing
 - Payments
+website: https://innago.com
 ---

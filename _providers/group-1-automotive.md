@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ modified: '2026-08-28'
 name: Group 1 Automotive
 nav: Providers
 network: true
-overview: 'Group 1 Automotive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Automotive, Automotive Retail, Vehicle Inventory, and Dealerships.
+overview: 'Group 1 Automotive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Automotive, Automotive Retail, Vehicle Inventory, and Dealership.
 
 
   Group 1 Automotive''s developer surface includes support and 10 more developer resources.'
@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: Recent Press | Group 1
   url: https://www.piedpiperpsi.com/press/?tag=group+1
-random_paper: 12
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Group 1 Automotive Rate Limits
@@ -158,7 +158,7 @@ score:
     agentic_access: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -175,7 +175,7 @@ tags:
 - Automotive
 - Automotive Retail
 - Vehicle Inventory
-- Dealerships
+- Dealership
 - Retail
 - Agentic Access
 - llms-txt

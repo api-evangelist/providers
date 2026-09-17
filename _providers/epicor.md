@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Epicor Kinetic Open REST API exposes all ERP capabilities through OData v4 compliant endpoints covering business objects, processes, reports, Business Activity Queries (BAQs), and custom Epicor Fu
@@ -101,7 +101,7 @@ overview: 'Epicor publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Epicor''s developer surface includes documentation, engineering blog, YouTube channel, pricing, support, and 5 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: emerging
   composite: 12.2
@@ -122,7 +122,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 12.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

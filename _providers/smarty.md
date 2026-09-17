@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,11 +51,6 @@ apis:
   slug: smarty-lookup-api
 - baseURL: https://us-street.api.smarty.com/street-address
   baseurl_source: declared
-  description: Operation invlovling reverse geocoding
-  name: Smarty reverse-geo API
-  slug: smarty-reverse-geo-api
-- baseURL: https://us-street.api.smarty.com/street-address
-  baseurl_source: declared
   description: The street-address API from Smarty — 1 operation(s) for street-address.
   name: Smarty street-address API
   slug: smarty-street-address-api
@@ -67,14 +62,14 @@ apis:
 - baseURL: https://us-street.api.smarty.com/street-address
   baseurl_source: declared
   description: The US Extract API API from Smarty — 1 operation(s) for us extract api.
-  name: Smarty US Extract API API
+  name: Smarty US Extract API
   slug: smarty-us-extract-api-api
 - baseURL: https://us-street.api.smarty.com/street-address
   baseurl_source: declared
   description: The Verify API from Smarty — 1 operation(s) for verify.
   name: Smarty Verify API
   slug: smarty-verify-api
-artifact_total: 31
+artifact_total: 30
 collections:
 - collection_type: postman
   name: International Address Autocomplete Lookup API
@@ -237,11 +232,11 @@ jsonld:
   property_count: 46
   slug: smarty-context
 layout: provider
-modified: '2026-06-12'
+modified: '2026-09-16'
 name: Smarty
 nav: Providers
 network: true
-overview: 'Smarty publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Lookup API, reverse-geo API, street-address API, and 3 more. Tagged areas include Address Verification, Geocoding, Address Autocomplete, ZIP Code, and Address Intelligence.
+overview: 'Smarty publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Lookup API, street-address API, us-enrichment API, and 2 more. Tagged areas include Address Verification, Geocoding, Address Autocomplete, ZIP Code, and Address Intelligence.
 
 
   The Smarty catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -252,7 +247,7 @@ plans:
 - name: Smarty Plans Pricing
   plan_count: 5
   slug: smarty-plans-pricing
-random_paper: 0
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Smarty Rate Limits
@@ -270,7 +265,7 @@ rules:
   slug: smarty-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.7
+  composite: 48.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 86.3
@@ -278,11 +273,11 @@ score:
     catalog_gap: 28.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 61.9
+    contract_quality: 62.0
     developer_ergonomics: 25.0
     discoverability: 74.1
     operational_transparency: 65.8
@@ -293,9 +288,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

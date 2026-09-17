@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -74,22 +74,22 @@ apis:
 - baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
   baseurl_source: declared
   description: Energy Account Balance endpoints
-  name: Simply Energy Energy Account Balances API
+  name: Simply Energy Account Balances API
   slug: simply-energy-energy-account-balances-api
 - baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
   baseurl_source: declared
   description: Energy Account Billing endpoints
-  name: Simply Energy Energy Account Billing API
+  name: Simply Energy Account Billing API
   slug: simply-energy-energy-account-billing-api
 - baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
   baseurl_source: declared
   description: Energy Account endpoints
-  name: Simply Energy Energy Accounts API
+  name: Simply Energy Accounts API
   slug: simply-energy-energy-accounts-api
 - baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
   baseurl_source: declared
   description: Energy Plan endpoints
-  name: Simply Energy Energy Plans API
+  name: Simply Energy Plans API
   slug: simply-energy-energy-plans-api
 artifact_total: 17
 collections:
@@ -271,7 +271,7 @@ created: '2026-07-27'
 description: Simply Energy is the former brand of the Australian electricity and gas retailer that now trades as ENGIE, operated by IPower Pty Ltd (ACN 111 267 228) and IPower 2 Pty Ltd (ABN 24 070 374 293) trading as ENGIE (ABN 67 269 241 237), together with Simply Energy Solutions Pty Ltd. The business carried the Simply Energy name for seventeen years before rebranding to ENGIE in April 2024, and supplies more than 700,000 residential and business accounts across Victoria, South Australia, New South Wales, Queensland and Western Australia. It sits on the retail tier of the National Electricity Market value chain, buying wholesale energy and billing end customers, rather than in generation, transmission or distribution. Its API posture is entirely a product of statutory mandate, and in this case the mandate is genuinely implemented rather than merely claimed. The company is a designated Consumer Data Right energy data holder (data holder provider number DH002028) and is listed on the live
   CDR Register under the ENGIE brand. Its unauthenticated CDR Generic Plans endpoint, hosted for it by the Australian Energy Regulator's Energy Made Easy service, returns 2,452 real ENGIE tariff plans conforming to the Consumer Data Standards energy schemas, and its own registered public base URI serves the Consumer Data Standards discovery endpoints with correct x-v version negotiation. Everything else is closed. Customer usage, billing, service point and DER data are available only to ACCC accredited data recipients with explicit consumer consent, there is no developer portal, no self-serve API keys, no published OpenID Connect discovery document, and no open grid, market or system data of any kind.
 layout: provider
-modified: '2026-07-27'
+modified: '2026-09-16'
 name: Simply Energy
 nav: Providers
 network: true
@@ -279,7 +279,7 @@ overview: 'Simply Energy publishes 9 APIs on the [APIs.io](https://apis.io/) net
 
 
   Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 31 more developer resources.'
-random_paper: 0
+random_paper: 1
 rate_limits:
 - limit_count: 14
   name: Simply Energy Rate Limits
@@ -332,7 +332,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

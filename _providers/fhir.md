@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 0
@@ -43,12 +43,6 @@ agentic_access:
   summary_line: 274 operations · 121 acting
 api_count: 1
 apis:
-- description: The AllergyIntolerance API from Fast Healthcare Interoperability Resources — 5 operation(s) for allergyintolerance.
-  name: Fast Healthcare Interoperability Resources AllergyIntolerance API
-  slug: fhir-allergyintolerance-api
-- description: The CarePlan API from Fast Healthcare Interoperability Resources — 5 operation(s) for careplan.
-  name: Fast Healthcare Interoperability Resources CarePlan API
-  slug: fhir-careplan-api
 - description: The CareTeam API from Fast Healthcare Interoperability Resources — 5 operation(s) for careteam.
   name: Fast Healthcare Interoperability Resources CareTeam API
   slug: fhir-careteam-api
@@ -64,9 +58,6 @@ apis:
 - description: The DiagnosticReport API from Fast Healthcare Interoperability Resources — 5 operation(s) for diagnosticreport.
   name: Fast Healthcare Interoperability Resources DiagnosticReport API
   slug: fhir-diagnosticreport-api
-- description: The DocumentReference API from Fast Healthcare Interoperability Resources — 5 operation(s) for documentreference.
-  name: Fast Healthcare Interoperability Resources DocumentReference API
-  slug: fhir-documentreference-api
 - description: The Encounter API from Fast Healthcare Interoperability Resources — 5 operation(s) for encounter.
   name: Fast Healthcare Interoperability Resources Encounter API
   slug: fhir-encounter-api
@@ -79,9 +70,6 @@ apis:
 - description: The Goal API from Fast Healthcare Interoperability Resources — 5 operation(s) for goal.
   name: Fast Healthcare Interoperability Resources Goal API
   slug: fhir-goal-api
-- description: The HealthcareService API from Fast Healthcare Interoperability Resources — 5 operation(s) for healthcareservice.
-  name: Fast Healthcare Interoperability Resources HealthcareService API
-  slug: fhir-healthcareservice-api
 - description: The History API from Fast Healthcare Interoperability Resources — 1 operation(s) for history.
   name: Fast Healthcare Interoperability Resources  History API
   slug: fhir-history-api
@@ -100,9 +88,6 @@ apis:
 - description: The MedicationDispense API from Fast Healthcare Interoperability Resources — 5 operation(s) for medicationdispense.
   name: Fast Healthcare Interoperability Resources MedicationDispense API
   slug: fhir-medicationdispense-api
-- description: The MedicationRequest API from Fast Healthcare Interoperability Resources — 5 operation(s) for medicationrequest.
-  name: Fast Healthcare Interoperability Resources MedicationRequest API
-  slug: fhir-medicationrequest-api
 - description: The Metadata API from Fast Healthcare Interoperability Resources — 1 operation(s) for metadata.
   name: Fast Healthcare Interoperability Resources Metadata API
   slug: fhir-metadata-api
@@ -118,9 +103,6 @@ apis:
 - description: The Practitioner API from Fast Healthcare Interoperability Resources — 5 operation(s) for practitioner.
   name: Fast Healthcare Interoperability Resources Practitioner API
   slug: fhir-practitioner-api
-- description: The PractitionerRole API from Fast Healthcare Interoperability Resources — 5 operation(s) for practitionerrole.
-  name: Fast Healthcare Interoperability Resources PractitionerRole API
-  slug: fhir-practitionerrole-api
 - description: The Procedure API from Fast Healthcare Interoperability Resources — 5 operation(s) for procedure.
   name: Fast Healthcare Interoperability Resources Procedure API
   slug: fhir-procedure-api
@@ -142,6 +124,24 @@ apis:
 - description: The Specimen API from Fast Healthcare Interoperability Resources — 5 operation(s) for specimen.
   name: Fast Healthcare Interoperability Resources Specimen API
   slug: fhir-specimen-api
+- description: The Allergy Intolerance API from Fast Healthcare Interoperability Resources — 5 operation(s) for allergy intolerance.
+  name: Fast Healthcare Interoperability Resources Allergy Intolerance API
+  slug: fhir-allergy-intolerance-api
+- description: The Care plan API from Fast Healthcare Interoperability Resources — 5 operation(s) for care plan.
+  name: Fast Healthcare Interoperability Resources Care plan API
+  slug: fhir-care-plan-api
+- description: The Document Reference API from Fast Healthcare Interoperability Resources — 5 operation(s) for document reference.
+  name: Fast Healthcare Interoperability Resources Document Reference API
+  slug: fhir-document-reference-api
+- description: The Healthcare Service API from Fast Healthcare Interoperability Resources — 5 operation(s) for healthcare service.
+  name: Fast Healthcare Interoperability Resources Healthcare Service API
+  slug: fhir-healthcare-service-api
+- description: The Medication Request API from Fast Healthcare Interoperability Resources — 5 operation(s) for medication request.
+  name: Fast Healthcare Interoperability Resources Medication Request API
+  slug: fhir-medication-request-api
+- description: The Practitioner Role API from Fast Healthcare Interoperability Resources — 5 operation(s) for practitioner role.
+  name: Fast Healthcare Interoperability Resources Practitioner Role API
+  slug: fhir-practitioner-role-api
 artifact_total: 73
 collections:
 - collection_type: open
@@ -289,12 +289,12 @@ modified: '2026-05-19'
 name: Fast Healthcare Interoperability Resources
 nav: Providers
 network: true
-overview: Fast Healthcare Interoperability Resources publishes 33 APIs on the [APIs.io](https://apis.io/) network, including AllergyIntolerance API, CarePlan API, CareTeam API, and 30 more. Tagged areas include Healthcare, Standards, and Interoperability.
+overview: Fast Healthcare Interoperability Resources publishes 33 APIs on the [APIs.io](https://apis.io/) network, including CareTeam API, Condition API, Coverage API, and 30 more. Tagged areas include Healthcare, Standards, and Interoperability.
 plans:
 - name: Fhir Plans Pricing
   plan_count: 3
   slug: fhir-plans-pricing
-random_paper: 5
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Fhir Rate Limits
@@ -332,7 +332,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

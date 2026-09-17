@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -298,7 +298,7 @@ plans:
 - name: Pagar Me Plans Pricing
   plan_count: 3
   slug: pagar-me-plans-pricing
-random_paper: 1
+random_paper: 8
 score:
   band: thin
   composite: 34.9
@@ -334,7 +334,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -367,13 +367,13 @@ tags:
 - Stone Co
 - Pix
 - Boleto
-- Credit Card
+- Credit Cards
 - Marketplace
 - Split Payments
 - Subscription
 - Recurring Billing
 - Anti-Fraud
-- 3DS
+- 3D
 - Checkout
 - Payment Links
 - Webhook

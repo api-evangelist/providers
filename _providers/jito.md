@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -104,6 +104,10 @@ collections:
   name: Jito Block Engine JSON-RPC Bundles Transactions API
   slug: open-jito-transactions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://jito.wtf
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/agentic-access/jito-agentic-access.yml
   title: ''
@@ -363,7 +367,7 @@ jsonld:
   property_count: 0
   slug: jito-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: Jito Labs
 nav: Providers
 network: true
@@ -373,12 +377,12 @@ overview: 'Jito Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Jito Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Jito Labs'' developer surface includes developer portal, documentation, developer console, code examples, tooling, and 35 more developer resources.'
+  Jito Labs'' developer surface includes developer portal, documentation, developer console, code examples, tooling, and 36 more developer resources.'
 plans:
 - name: Jito Plans Pricing
   plan_count: 3
   slug: jito-plans-pricing
-random_paper: 18
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Jito Rate Limits
@@ -443,7 +447,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -498,5 +502,5 @@ use_cases:
   name: Restaked Security
 - description: Solana validators run Jito-Solana plus jito-relayer to participate in the bundle auction and capture MEV rewards.
   name: Validator Operations
-website: https://www.jito.network
+website: https://jito.wtf
 ---

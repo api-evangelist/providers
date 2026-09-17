@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: Sear
 
 
   Wahi''s developer surface includes authentication, support, engineering blog, and 19 more developer resources.'
-random_paper: 5
+random_paper: 7
 score:
   band: thin
   composite: 38.0
@@ -222,7 +222,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

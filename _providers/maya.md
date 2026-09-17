@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 9
 apis:
 - description: Modern Python API for Maya scripting and plugin development, offering improved performance and a more Pythonic interface compared to API 1.0.
@@ -146,7 +146,7 @@ plans:
 - name: Maya Plans Pricing
   plan_count: 3
   slug: maya-plans-pricing
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Maya Rate Limits
@@ -177,7 +177,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 10.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

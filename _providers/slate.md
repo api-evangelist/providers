@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Slate is an open-source static site generator for creating beautiful, three-panel API documentation from Markdown files. Originally created by Robert Lord in 2013 at TripIt and later maintained by the
@@ -41,6 +41,10 @@ apis:
   slug: slate
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://slatedocs.github.io
 - group: company
   title: ''
   type: LinkedIn
@@ -147,7 +151,7 @@ jsonld:
   property_count: 7
   slug: slate-context
 layout: provider
-modified: '2026-05-02'
+modified: '2026-09-16'
 name: Slate
 nav: Providers
 network: true
@@ -157,12 +161,12 @@ overview: 'Slate publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Slate catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Slate''s developer surface includes GitHub presence, getting-started guide, documentation, changelog, code examples, and 14 more developer resources.'
+  Slate''s developer surface includes GitHub presence, getting-started guide, documentation, changelog, code examples, and 15 more developer resources.'
 plans:
 - name: Slate Plans Pricing
   plan_count: 3
   slug: slate-plans-pricing
-random_paper: 12
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Slate Rate Limits
@@ -198,7 +202,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -214,4 +218,5 @@ tags:
 - Ruby
 - Static Site Generator
 - Three-Panel
+website: https://slatedocs.github.io
 ---

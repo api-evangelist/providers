@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -249,7 +249,7 @@ modified: 2026-06-13
 name: Keka HR
 nav: Providers
 network: true
-overview: 'Keka HR publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Attendance API, Authentication API, and 11 more. Tagged areas include HR, Human Resources, Payroll, Attendance, and Leave Management.
+overview: 'Keka HR publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Attendance API, Authentication API, and 11 more. Tagged areas include Human Resources, Payroll, Attendance, Leave Management, and Performance Management.
 
 
   The Keka HR catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -260,7 +260,7 @@ plans:
 - name: Keka Plans Pricing
   plan_count: 3
   slug: keka-plans-pricing
-random_paper: 13
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Keka Rate Limits
@@ -316,7 +316,7 @@ score:
       total: 14
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -333,7 +333,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: keka
 tags:
-- HR
 - Human Resources
 - Payroll
 - Attendance

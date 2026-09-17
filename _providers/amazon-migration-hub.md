@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -238,6 +238,10 @@ collections:
   name: 'AWS Migration Hub #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.AssociateCreatedArtifact #X Amz Target=AWSMigrationHub.PutResourceAttributes API'
   slug: open-amazon-migration-hub-x-amz-target-awsmigrationhub-putresourceattributes-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1050,7 +1054,7 @@ jsonld:
   property_count: 30
   slug: amazon-migration-hub-migration-hub-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Migration Hub
 nav: Providers
 network: true
@@ -1060,12 +1064,12 @@ overview: 'Amazon Migration Hub publishes 17 APIs on the [APIs.io](https://apis.
   The Amazon Migration Hub catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Migration Hub''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Migration Hub''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Migration Hub Plans Pricing
   plan_count: 3
   slug: amazon-migration-hub-plans-pricing
-random_paper: 9
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Amazon Migration Hub Rate Limits
@@ -1119,7 +1123,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1156,5 +1160,5 @@ use_cases:
   name: Multi-Tool Orchestration
 - description: Generate progress reports and status updates for stakeholders.
   name: Migration Reporting
-website: https://aws.amazon.com/migration-hub/
+website: https://amazon.com
 ---

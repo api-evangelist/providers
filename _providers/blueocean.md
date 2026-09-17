@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://poseidon.blueocean.ai/api
@@ -83,11 +83,6 @@ apis:
   slug: blueocean-mock-mcp-api
 - baseURL: https://poseidon.blueocean.ai/api
   baseurl_source: declared
-  description: The oauth_providers API from BlueOcean — 15 operation(s) for oauth_providers.
-  name: BlueOcean OAUTH Providers API
-  slug: blueocean-oauth-providers-api
-- baseURL: https://poseidon.blueocean.ai/api
-  baseurl_source: declared
   description: The pinecone_api API from BlueOcean — 1 operation(s) for pinecone_api.
   name: BlueOcean Pinecone API
   slug: blueocean-pinecone-api-api
@@ -131,6 +126,11 @@ apis:
   description: The user_memory API from BlueOcean — 8 operation(s) for user_memory.
   name: BlueOcean User Memory API
   slug: blueocean-user-memory-api
+- baseURL: https://poseidon.blueocean.ai/api
+  baseurl_source: declared
+  description: The oauth_providers API from BlueOcean — 15 operation(s) for oauth_providers.
+  name: BlueOcean OAUTH Providers API
+  slug: blueocean-oauth-providers-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -270,7 +270,7 @@ score:
       total: 19
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

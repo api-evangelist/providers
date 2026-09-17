@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The Logiwa Integration API is an RPC-over-HTTP interface with 81 documented operations covering products and kits, shipment orders and order details, purchase orders, receipt orders and receiving, inv
@@ -192,7 +192,7 @@ plans:
 - name: Logiwa Plans Pricing
   plan_count: 0
   slug: logiwa-plans-pricing
-random_paper: 13
+random_paper: 5
 rate_limits:
 - limit_count: 6
   name: Logiwa Rate Limits
@@ -231,7 +231,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

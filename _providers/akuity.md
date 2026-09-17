@@ -35,24 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
-- baseURL: https://akuity.cloud/api/v1
-  baseurl_source: declared
-  description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
-  name: Akuity API Key Service API
-  slug: akuity-apikeyservice-api
 - baseURL: https://akuity.cloud/api/v1
   baseurl_source: declared
   description: The ArgoCDService API from Akuity — 111 operation(s) for argocdservice.
   name: Akuity Argo CD Service API
   slug: akuity-argocdservice-api
-- baseURL: https://akuity.cloud/api/v1
-  baseurl_source: declared
-  description: The AuthService API from Akuity — 4 operation(s) for authservice.
-  name: Akuity Auth Service API
-  slug: akuity-authservice-api
 - baseURL: https://akuity.cloud/api/v1
   baseurl_source: declared
   description: The CustomRoleService API from Akuity — 2 operation(s) for customroleservice.
@@ -78,6 +68,16 @@ apis:
   description: The SystemService API from Akuity — 14 operation(s) for systemservice.
   name: Akuity System Service API
   slug: akuity-systemservice-api
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The Api Key Service API from Akuity — 4 operation(s) for api key service.
+  name: Akuity Api Key Service API
+  slug: akuity-api-key-service-api
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The Auth Service API from Akuity — 4 operation(s) for auth service.
+  name: Akuity Auth Service API
+  slug: akuity-auth-service-api
 artifact_total: 23
 asyncapis:
 - description: ''
@@ -293,7 +293,7 @@ modified: '2026-08-06'
 name: Akuity
 nav: Providers
 network: true
-overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Key Service API, Argo CD Service API, Auth Service API, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, ArgoCD, and Kargo.
+overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Argo CD Service API, Custom Role Service API, Extension Service API, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, ArgoCD, and Kargo.
 
 
   The Akuity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -304,7 +304,7 @@ plans:
 - name: Akuity Plans
   plan_count: 3
   slug: akuity-plans
-random_paper: 12
+random_paper: 3
 score:
   band: exemplar
   composite: 71.5
@@ -334,7 +334,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

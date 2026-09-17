@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,19 +45,19 @@ api_count: 1
 apis:
 - baseURL: https://meet.googleapis.com
   baseurl_source: declared
-  description: The conferenceRecords API from Google Meet — 7 operation(s) for conferencerecords.
-  name: Google Meet conferenceRecords API
-  slug: google-meet-conferencerecords-api
-- baseURL: https://meet.googleapis.com
-  baseurl_source: declared
   description: The Google Meet API API from Google Meet — 2 operation(s) for google meet api.
-  name: Google Meet Google Meet API API
+  name: Google Meet Google Meet API
   slug: google-meet-google-meet-api-api
 - baseURL: https://meet.googleapis.com
   baseurl_source: declared
   description: The Spaces API from Google Meet — 1 operation(s) for spaces.
   name: Google Meet Spaces API
   slug: google-meet-spaces-api
+- baseURL: https://meet.googleapis.com
+  baseurl_source: declared
+  description: The Conference Records API from Google Meet — 7 operation(s) for conference records.
+  name: Google Meet Conference Records API
+  slug: google-meet-conference-records-api
 artifact_total: 18
 collections:
 - collection_type: open
@@ -129,11 +129,11 @@ jsonld:
   property_count: 6
   slug: json-ld
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Google Meet
 nav: Providers
 network: true
-overview: 'Google Meet publishes 3 APIs on the [APIs.io](https://apis.io/) network: conferenceRecords API, Google Meet API API, and Spaces API. Tagged areas include Google, Google Workspace, Meetings, Recordings, and Transcripts.
+overview: 'Google Meet publishes 3 APIs on the [APIs.io](https://apis.io/) network: Google Meet API, Spaces API, and Conference Records API. Tagged areas include Google, Google Workspace, Meetings, Recording, and Transcripts.
 
 
   The Google Meet catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -144,7 +144,7 @@ plans:
 - name: Google Meet Plans Pricing
   plan_count: 3
   slug: google-meet-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Google Meet Rate Limits
@@ -198,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -218,7 +218,7 @@ tags:
 - Google
 - Google Workspace
 - Meetings
-- Recordings
+- Recording
 - Transcripts
 - Video Conferencing
 website: https://www.google.com/

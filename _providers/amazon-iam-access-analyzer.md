@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
 - baseURL: https://access-analyzer.amazonaws.com
   baseurl_source: declared
   description: The Analyzer API from Amazon IAM Access Analyzer — 4 operation(s) for analyzer.
-  name: Amazon IAM Access Analyzer Analyzer API
+  name: Amazon IAM Access Analyzer API
   slug: amazon-iam-access-analyzer-analyzer-api
 - baseURL: https://access-analyzer.amazonaws.com
   baseurl_source: declared
@@ -1599,7 +1599,7 @@ jsonld:
   property_count: 146
   slug: amazon-iam-access-analyzer-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon IAM Access Analyzer
 nav: Providers
 network: true
@@ -1614,7 +1614,7 @@ plans:
 - name: Amazon Iam Access Analyzer Plans Pricing
   plan_count: 3
   slug: amazon-iam-access-analyzer-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Access Analyzer Rate Limits
@@ -1674,7 +1674,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

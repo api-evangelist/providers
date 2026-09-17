@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -60,11 +60,6 @@ apis:
   description: The Analytics API from LI.FI — 4 operation(s) for analytics.
   name: LI.FI Analytics API
   slug: lifi-analytics-api
-- baseURL: https://li.quest
-  baseurl_source: declared
-  description: The Calldata API from LI.FI — 1 operation(s) for calldata.
-  name: LI.FI Calldata API
-  slug: lifi-calldata-api
 - baseURL: https://li.quest
   baseurl_source: declared
   description: The Chains API from LI.FI — 1 operation(s) for chains.
@@ -135,6 +130,11 @@ apis:
   description: The Tools API from LI.FI — 1 operation(s) for tools.
   name: LI.FI Tools API
   slug: lifi-tools-api
+- baseURL: https://order.li.fi
+  baseurl_source: declared
+  description: The Call Data API from LI.FI — 1 operation(s) for call data.
+  name: LI.FI Call Data API
+  slug: lifi-call-data-api
 artifact_total: 42
 collections:
 - collection_type: open
@@ -365,18 +365,18 @@ modified: '2026-07-19'
 name: LI.FI
 nav: Providers
 network: true
-overview: 'LI.FI publishes 17 APIs on the [APIs.io](https://apis.io/) network, including advanced API, Analytics API, Calldata API, and 14 more. Tagged areas include Company, Crypto Web3, Blockchain, Cross-Chain, and Bridges.
+overview: 'LI.FI publishes 17 APIs on the [APIs.io](https://apis.io/) network, including advanced API, Analytics API, Chains API, and 14 more. Tagged areas include Company, Crypto Web3, Blockchain, Cross-Chain, and Bridge.
 
 
   LI.FI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 0
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Lifi Rate Limits
   slug: lifi-rate-limits
 score:
   band: strong
-  composite: 55.5
+  composite: 56.1
   coverage:
     artifact_dirs: 23
     catalog_earned: 49.0
@@ -384,11 +384,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 38.2
     contract_governance: 4.5
-    contract_quality: 48.3
+    contract_quality: 50.6
     developer_ergonomics: 80.4
     discoverability: 75.9
     operational_transparency: 76.3
@@ -410,7 +410,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -435,7 +435,7 @@ tags:
 - Crypto Web3
 - Blockchain
 - Cross-Chain
-- Bridges
+- Bridge
 - DEX Aggregation
 - DeFi
 - Payments

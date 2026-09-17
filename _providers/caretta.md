@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 47.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol server that gives compatible AI clients OAuth-scoped access to the Caretta calls, transcripts and todos the signed-in user can already see. Seven documented tools cover l
@@ -169,10 +169,6 @@ common:
   title: ''
   type: DataModel
   url: data-model/caretta-data-model.yml
-- group: operate
-  title: ''
-  type: Support
-  url: mailto:hello@caretta.so
 - group: commercial
   href: https://raw.githubusercontent.com/api-evangelist/caretta/refs/heads/main/plans/caretta-plans-pricing.yml
   title: ''
@@ -202,12 +198,12 @@ overview: 'Caretta publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Caretta catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Caretta''s developer surface includes engineering blog, signup flow, documentation, getting-started guide, authentication, support, and 24 more developer resources.'
+  Caretta''s developer surface includes engineering blog, signup flow, documentation, getting-started guide, authentication, and 24 more developer resources.'
 plans:
 - name: Caretta Plans Pricing
   plan_count: 0
   slug: caretta-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Caretta Rate Limits
@@ -219,7 +215,7 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 41.0
+  composite: 40.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -227,21 +223,21 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: -0.9
   facets:
     access_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 41.6
-    developer_ergonomics: 57.1
+    developer_ergonomics: 52.4
     discoverability: 75.9
     operational_transparency: 7.9
-  previous_composite: 40.1
+  previous_composite: 41.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

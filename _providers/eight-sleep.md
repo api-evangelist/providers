@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -176,7 +176,7 @@ plans:
 - name: Eight Sleep Plans Pricing
   plan_count: 3
   slug: eight-sleep-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Eight Sleep Rate Limits
@@ -214,7 +214,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

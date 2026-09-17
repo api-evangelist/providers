@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -60,11 +60,6 @@ apis:
   description: Manage data source connections
   name: SAP Business Intelligence Connections API
   slug: sap-bi-connections-api
-- baseURL: https://[tenant].sapanalytics.cloud/api/v1
-  baseurl_source: declared
-  description: Manage data replication and transformation flows
-  name: SAP Business Intelligence Data Flows API
-  slug: sap-bi-data-flows-api
 - baseURL: https://[tenant].sapanalytics.cloud/api/v1
   baseurl_source: declared
   description: Import data into models
@@ -155,6 +150,11 @@ apis:
   description: Manage analytical and relational views
   name: SAP Business Intelligence Views API
   slug: sap-bi-views-api
+- baseURL: https://[host]:[port]
+  baseurl_source: declared
+  description: Manage data replication and transformation flows
+  name: SAP Business Intelligence Dataflows API
+  slug: sap-bi-dataflows-api
 artifact_total: 139
 collections:
 - collection_type: open
@@ -236,6 +236,10 @@ collections:
   name: SAP Business Intelligence SAP Analytics Cloud Catalog Views API
   slug: open-sap-bi-views-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sap.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/agentic-access/sap-bi-agentic-access.yml
   title: ''
@@ -605,22 +609,22 @@ jsonld:
   property_count: 9
   slug: sap-bi-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: SAP Business Intelligence
 nav: Providers
 network: true
-overview: 'SAP Business Intelligence publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Connections API, Data Flows API, and 18 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, Reporting, and SAP.
+overview: 'SAP Business Intelligence publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Connections API, Data Import API, and 18 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, Reporting, and SAP.
 
 
   The SAP Business Intelligence catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP Business Intelligence''s developer surface includes authentication, developer portal, support, engineering blog, and 21 more developer resources.'
+  SAP Business Intelligence''s developer surface includes authentication, developer portal, support, engineering blog, and 22 more developer resources.'
 plans:
 - name: Sap Bi Plans Pricing
   plan_count: 1
   slug: sap-bi-plans-pricing
-random_paper: 5
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Sap Bi Rate Limits
@@ -679,7 +683,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -705,5 +709,5 @@ tags:
 - Data Visualization
 - Reporting
 - SAP
-website: https://api.sap.com/
+website: https://sap.com
 ---

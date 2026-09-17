@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: bound
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 29.0
-  scored_at: '2026-09-15'
+  score: 33.7
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -50,22 +50,22 @@ apis:
 - description: High-level JavaScript API for embedding and extending Qlik Sense visualizations and mashups.
   name: Qlik Sense Capabilities
   slug: qlik-sense-capabilities
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}/api/odag/v1
   baseurl_source: spec_template
   description: ODAG service metadata
   name: Qlik Sense Enterprise About API
   slug: qlik-sense-enterprise-about-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage user access types and license allocations
   name: Qlik Sense Enterprise Access Type API
   slug: qlik-sense-enterprise-access-type-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage Qlik Sense applications including import, export, copy, publish, and reload
   name: Qlik Sense Enterprise App API
   slug: qlik-sense-enterprise-app-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage application objects such as sheets, stories, and bookmarks
   name: Qlik Sense Enterprise App Object API
@@ -75,22 +75,22 @@ apis:
   description: Retrieve information about installed components
   name: Qlik Sense Enterprise Components API
   slug: qlik-sense-enterprise-components-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage shared and app-specific content libraries
   name: Qlik Sense Enterprise Content Library API
   slug: qlik-sense-enterprise-content-library-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage custom properties for tagging and categorizing entities
   name: Qlik Sense Enterprise Custom Property API
   slug: qlik-sense-enterprise-custom-property-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage data connections used by Qlik Sense applications for loading data from external sources
   name: Qlik Sense Enterprise Data Connection API
   slug: qlik-sense-enterprise-data-connection-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage visualization extensions
   name: Qlik Sense Enterprise Extension API
@@ -100,67 +100,67 @@ apis:
   description: Retrieve configured external URL information
   name: Qlik Sense Enterprise External URLs API
   slug: qlik-sense-enterprise-external-urls-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4243/qps
   baseurl_source: spec_template
   description: Health check and service status endpoints
   name: Qlik Sense Enterprise Health API
   slug: qlik-sense-enterprise-health-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage Qlik Sense license information including LEF download and license status
   name: Qlik Sense Enterprise License API
   slug: qlik-sense-enterprise-license-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Audit license rule evaluations and access type assignments
   name: Qlik Sense Enterprise License Audit API
   slug: qlik-sense-enterprise-license-audit-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage license rules that control automatic license assignment
   name: Qlik Sense Enterprise License Rule API
   slug: qlik-sense-enterprise-license-rule-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}/api/odag/v1
   baseurl_source: spec_template
   description: Manage navigation links that connect selection apps to template apps for on-demand app generation
   name: Qlik Sense Enterprise Links API
   slug: qlik-sense-enterprise-links-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4243/qps
   baseurl_source: spec_template
   description: Engine load balancing decisions for distributing app sessions across Qlik Sense Engine Services
   name: Qlik Sense Enterprise Load Balancing API
   slug: qlik-sense-enterprise-load-balancing-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Subscribe to and manage change notifications
   name: Qlik Sense Enterprise Notification API
   slug: qlik-sense-enterprise-notification-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage and execute reload tasks
   name: Qlik Sense Enterprise Reload Task API
   slug: qlik-sense-enterprise-reload-task-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}/api/odag/v1
   baseurl_source: spec_template
   description: Manage on-demand app generation requests including submission, status tracking, and app lifecycle operations
   name: Qlik Sense Enterprise Requests API
   slug: qlik-sense-enterprise-requests-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage security rules and access control
   name: Qlik Sense Enterprise Security Rule API
   slug: qlik-sense-enterprise-security-rule-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage server nodes in a multi-node deployment
   name: Qlik Sense Enterprise Server Node API
   slug: qlik-sense-enterprise-server-node-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4243/qps
   baseurl_source: spec_template
   description: Manage user sessions including listing, retrieving, and deleting sessions
   name: Qlik Sense Enterprise Session API
   slug: qlik-sense-enterprise-session-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage streams for organizing and distributing apps
   name: Qlik Sense Enterprise Stream API
@@ -170,12 +170,12 @@ apis:
   description: Retrieve system-level information about the Qlik Sense site
   name: Qlik Sense Enterprise System Info API
   slug: qlik-sense-enterprise-system-info-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: The Tag API from Qlik Sense Enterprise — 2 operation(s) for tag.
   name: Qlik Sense Enterprise Tag API
   slug: qlik-sense-enterprise-tag-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Start and stop tasks including reload and external program tasks
   name: Qlik Sense Enterprise Task API
@@ -185,17 +185,17 @@ apis:
   description: Retrieve third-party software information
   name: Qlik Sense Enterprise Third Party API
   slug: qlik-sense-enterprise-third-party-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4243/qps
   baseurl_source: spec_template
   description: Manage proxy sessions by user identity
   name: Qlik Sense Enterprise User API
   slug: qlik-sense-enterprise-user-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage user directory connectors and synchronization settings
   name: Qlik Sense Enterprise User Directory API
   slug: qlik-sense-enterprise-user-directory-api
-- baseURL_template: https://{server}/api/about/v1
+- baseURL_template: https://{server}:4242/qrs
   baseurl_source: spec_template
   description: Manage virtual proxy configurations
   name: Qlik Sense Enterprise Virtual Proxy API
@@ -632,7 +632,7 @@ plans:
 - name: Qlik Sense Enterprise Plans Pricing
   plan_count: 1
   slug: qlik-sense-enterprise-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Qlik Sense Enterprise Rate Limits
@@ -675,7 +675,7 @@ score:
       marker_coverage: 0.0
       total: 30
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

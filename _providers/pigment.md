@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 19 operations · 11 acting
 api_count: 1
 apis:
-- baseURL: https://pigment.app/api
-  baseurl_source: declared
-  description: The ApplicationApi API from Pigment — 1 operation(s) for applicationapi.
-  name: Pigment ApplicationApi API
-  slug: pigment-applicationapi-api
 - baseURL: https://pigment.app/api
   baseurl_source: declared
   description: The BlocksApi API from Pigment — 1 operation(s) for blocksapi.
@@ -67,11 +62,6 @@ apis:
   slug: pigment-exportv1-api
 - baseURL: https://pigment.app/api
   baseurl_source: declared
-  description: The ImportApi API from Pigment — 3 operation(s) for importapi.
-  name: Pigment ImportApi API
-  slug: pigment-importapi-api
-- baseURL: https://pigment.app/api
-  baseurl_source: declared
   description: The ImportConfigurationApi API from Pigment — 1 operation(s) for importconfigurationapi.
   name: Pigment ImportConfigurationApi API
   slug: pigment-importconfigurationapi-api
@@ -85,6 +75,16 @@ apis:
   description: The ViewApi API from Pigment — 1 operation(s) for viewapi.
   name: Pigment ViewApi API
   slug: pigment-viewapi-api
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The Application API API from Pigment — 1 operation(s) for application api.
+  name: Pigment Application API
+  slug: pigment-application-api-api
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The Import API API from Pigment — 3 operation(s) for import api.
+  name: Pigment Import API
+  slug: pigment-import-api-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -264,18 +264,18 @@ modified: '2026-07-20'
 name: Pigment
 nav: Providers
 network: true
-overview: 'Pigment publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ApplicationApi API, BlocksApi API, Export API, and 5 more. Tagged areas include Company, Enterprise Software, Business Planning, Financial Planning, and FP&A.
+overview: 'Pigment publishes 8 APIs on the [APIs.io](https://apis.io/) network, including BlocksApi API, Export API, ExportV1 API, and 5 more. Tagged areas include Company, Enterprise Software, Business Planning, Financial Planning, and FP&A.
 
 
   Pigment''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 24 more developer resources.'
-random_paper: 0
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Pigment Rate Limits
   slug: pigment-rate-limits
 score:
   band: developing
-  composite: 47.4
+  composite: 47.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 45.0
@@ -283,11 +283,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 47.3
+    contract_quality: 48.6
     developer_ergonomics: 66.7
     discoverability: 75.9
     operational_transparency: 34.2
@@ -296,14 +296,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 8
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -62,11 +62,6 @@ apis:
   slug: amazon-supply-chain-data-integration-flows-api
 - baseURL: https://scn.amazonaws.com
   baseurl_source: declared
-  description: The Data Lake API from Amazon Supply Chain — 3 operation(s) for data lake.
-  name: Amazon Supply Chain Data Lake API
-  slug: amazon-supply-chain-data-lake-api
-- baseURL: https://scn.amazonaws.com
-  baseurl_source: declared
   description: The Instances API from Amazon Supply Chain — 2 operation(s) for instances.
   name: Amazon Supply Chain Instances API
   slug: amazon-supply-chain-instances-api
@@ -75,6 +70,11 @@ apis:
   description: The Tags API from Amazon Supply Chain — 1 operation(s) for tags.
   name: Amazon Supply Chain Tags API
   slug: amazon-supply-chain-tags-api
+- baseURL: https://scn.amazonaws.com
+  baseurl_source: declared
+  description: The Datalake API from Amazon Supply Chain — 3 operation(s) for datalake.
+  name: Amazon Supply Chain Datalake API
+  slug: amazon-supply-chain-datalake-api
 artifact_total: 58
 collections:
 - collection_type: postman
@@ -117,6 +117,10 @@ collections:
   name: AWS Supply Chain Bill of Materials Tags API
   slug: open-amazon-supply-chain-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -287,7 +291,7 @@ jsonld:
   property_count: 23
   slug: amazon-supply-chain-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Supply Chain
 nav: Providers
 network: true
@@ -297,12 +301,12 @@ overview: 'Amazon Supply Chain publishes 6 APIs on the [APIs.io](https://apis.io
   The Amazon Supply Chain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Supply Chain''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Supply Chain''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Supply Chain Plans Pricing
   plan_count: 3
   slug: amazon-supply-chain-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Amazon Supply Chain Rate Limits
@@ -356,7 +360,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -394,5 +398,5 @@ use_cases:
   name: ERP Data Integration
 - description: Use ML models to forecast demand and optimize inventory levels.
   name: Demand Forecasting
-website: https://aws.amazon.com/supply-chain/
+website: https://amazon.com
 ---

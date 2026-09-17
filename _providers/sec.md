@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -58,12 +58,12 @@ apis:
 - baseURL: https://data.sec.gov
   baseurl_source: declared
   description: This API reports the status of the EDGAR system. This resource requires presentation of a Filer API Token only.
-  name: SEC EDGAR EDGAR Operational Status API API
+  name: SEC EDGAR Operational Status API
   slug: sec-edgar-operational-status-api-api
 - baseURL: https://data.sec.gov
   baseurl_source: declared
   description: A set of API endpoints that allows you to verify permissions, get filer information, manage CCC, manage individuals, and manage delegations.
-  name: SEC EDGAR Filer Management API API
+  name: SEC EDGAR Filer Management API
   slug: sec-filer-management-api-api
 - baseURL: https://data.sec.gov
   baseurl_source: declared
@@ -78,12 +78,12 @@ apis:
 - baseURL: https://data.sec.gov
   baseurl_source: declared
   description: Submission of filings to EDGAR by API can be made through the Submission API. The Submission API requires the presentation of a Filer API Token in combination with a User API Token. Optionally, filers
-  name: SEC EDGAR Submission API API
+  name: SEC EDGAR Submission API
   slug: sec-submission-api-api
 - baseURL: https://data.sec.gov
   baseurl_source: declared
   description: The Submission Status API provides information from the EDGAR system. It requires a Filer API Token and accession number(s). To obtain information about a submission through the Submission Status API,
-  name: SEC EDGAR Submission Status API API
+  name: SEC EDGAR Submission Status API
   slug: sec-submission-status-api-api
 - baseURL: https://data.sec.gov
   baseurl_source: declared
@@ -93,27 +93,17 @@ apis:
 - description: The SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system provides REST APIs for accessing company filings, XBRL financial data, and full-text search across SEC submissions. APIs deliv
   name: SEC EDGAR Company Filings API
   slug: sec-edgar-company-filings-api
-- baseURL: https://efts.sec.gov
-  baseurl_source: declared
-  description: Aggregated company financial facts
-  name: sec-edgar Company Facts API
-  slug: sec-edgar-company-facts-api
-- baseURL: https://efts.sec.gov
+- baseURL: https://data.sec.gov
   baseurl_source: declared
   description: Full-text search across all EDGAR filings
-  name: sec-edgar Full-Text Search API
-  slug: sec-edgar-full-text-search-api
-- baseURL: https://efts.sec.gov
-  baseurl_source: declared
-  description: Company filing submission history
-  name: sec-edgar Submissions API
-  slug: sec-edgar-submissions-api
-- baseURL: https://efts.sec.gov
+  name: SEC EDGAR Full-Text Search API
+  slug: sec-full-text-search-api
+- baseURL: https://data.sec.gov
   baseurl_source: declared
   description: Structured XBRL financial data
-  name: sec-edgar XBRL API
-  slug: sec-edgar-xbrl-api
-artifact_total: 37
+  name: SEC EDGAR XBRL API
+  slug: sec-xbrl-api
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -253,11 +243,11 @@ jsonld:
   property_count: 40
   slug: sec-context
 layout: provider
-modified: '2026-06-12'
+modified: '2026-09-16'
 name: SEC EDGAR
 nav: Providers
 network: true
-overview: 'SEC EDGAR publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Company Concept API, Company Facts API, EDGAR Operational Status API API, and 10 more. Tagged areas include Financial Data, SEC, EDGAR, Public Company Filings, and XBRL.
+overview: 'SEC EDGAR publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Company Concept API, Company Facts API, Operational Status API, and 8 more. Tagged areas include Financial Data, SEC, EDGAR, Public Company Filings, and XBRL.
 
 
   The SEC EDGAR catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -268,7 +258,7 @@ plans:
 - name: Sec Plans Pricing
   plan_count: 1
   slug: sec-plans-pricing
-random_paper: 0
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Sec Rate Limits
@@ -298,7 +288,7 @@ score:
   facets:
     access_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 68.9
+    contract_quality: 69.0
     developer_ergonomics: 31.0
     discoverability: 74.1
     operational_transparency: 26.3
@@ -309,7 +299,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 11
   regulatory:
     applies: true
     matched_via: tags
@@ -317,7 +307,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

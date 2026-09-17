@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'ARRIS Group publishes no API. The entry is retained to record the measurement: probed 2026-09-07, no OpenAPI, Swagger, AsyncAPI, GraphQL SDL, MCP endpoint, agent card or Postman collection was found o'
@@ -145,7 +145,7 @@ press:
 - date: '2026-05-25'
   title: Arris Wins 4K STB Deal With Altice
   url: https://www.lightreading.com/network-technology/arris-wins-4k-stb-deal-with-altice
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Arris Group Rate Limits
@@ -176,7 +176,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

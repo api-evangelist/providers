@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: Murphy Oil Corporation announces second quarter 2023 ...
   url: https://energynow.com/2023/08/murphy-oil-corporation-announces-second-quarter-2023-financial-and-operating-results-strategic-portfolio-repositioning/
-random_paper: 17
+random_paper: 12
 score:
   band: minimal
   composite: 1.2
@@ -114,7 +114,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

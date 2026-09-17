@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -255,7 +255,7 @@ overview: 'Akeneo publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Akeneo''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
-random_paper: 18
+random_paper: 11
 scopes:
 - name: Akeneo Scopes
   scope_count: 36
@@ -288,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

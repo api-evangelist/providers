@@ -32,16 +32,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.1
-  scored_at: '2026-09-15'
-api_count: 3
+  scored_at: '2026-09-16'
+api_count: 6
 apis:
 - baseURL: https://striim.stoplight.io
   baseurl_source: declared
-  description: 'REST API to create and manage (deploy, start, stop, undeploy, drop) Striim applications, execute TQL commands, retrieve monitoring and file lineage data, plus WActionStore queries (GET /wactions/def, '
-  name: Striim Application Management REST API
-  slug: striim-application-management-rest-api
-artifact_total: 7
+  description: The application API from Striim — 4 operation(s) for application.
+  name: Striim Application API
+  slug: striim-application-api
+- baseURL: https://striim.stoplight.io
+  baseurl_source: declared
+  description: The applicationMetadata API from Striim — 2 operation(s) for applicationmetadata.
+  name: Striim Application Metadata API
+  slug: striim-applicationmetadata-api
+- baseURL: https://striim.stoplight.io
+  baseurl_source: declared
+  description: The checkpoint API from Striim — 1 operation(s) for checkpoint.
+  name: Striim Checkpoint API
+  slug: striim-checkpoint-api
+- baseURL: https://striim.stoplight.io
+  baseurl_source: declared
+  description: The monitoring API from Striim — 1 operation(s) for monitoring.
+  name: Striim Monitoring API
+  slug: striim-monitoring-api
+- baseURL: https://striim.stoplight.io
+  baseurl_source: declared
+  description: The template API from Striim — 3 operation(s) for template.
+  name: Striim Template API
+  slug: striim-template-api
+- baseURL: https://striim.stoplight.io
+  baseurl_source: declared
+  description: The tqlfiles API from Striim — 2 operation(s) for tqlfiles.
+  name: Striim Tqlfiles API
+  slug: striim-tqlfiles-api
+- baseURL: https://striim.stoplight.io
+  baseurl_source: declared
+  description: The tungsten API from Striim — 1 operation(s) for tungsten.
+  name: Striim Tungsten API
+  slug: striim-tungsten-api
+artifact_total: 13
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/overlays/striim-tql-files-5-4-0-2-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/striim-tql-files-5-4-0-2-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/overlays/striim-application-management-3-10-3-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/striim-application-management-3-10-3-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/overlays/striim-application-management-3-10-1-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/striim-application-management-3-10-1-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -167,22 +212,22 @@ modified: '2026-09-03'
 name: Striim
 nav: Providers
 network: true
-overview: 'Striim publishes 1 API on the [APIs.io](https://apis.io/) network: Application Management REST API. Tagged areas include Data, Streaming, Change Data Capture, Real-Time, and Data Integration.
+overview: 'Striim publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Application API, Application Metadata API, Checkpoint API, and 4 more. Tagged areas include Data, Streaming, Change Data Capture, Real-Time, and Data Integration.
 
 
-  Striim''s developer surface includes authentication, engineering blog, changelog, sandbox, pricing, support, and 18 more developer resources.'
+  Striim''s developer surface includes authentication, engineering blog, changelog, sandbox, pricing, support, and 21 more developer resources.'
 plans:
 - name: Striim Plans Pricing
   plan_count: 4
   slug: striim-plans-pricing
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Striim Rate Limits
   slug: striim-rate-limits
 score:
   band: developing
-  composite: 47.4
+  composite: 47.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 52.0
@@ -190,11 +235,11 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 78.9
     contract_governance: 4.5
-    contract_quality: 52.4
+    contract_quality: 50.6
     developer_ergonomics: 44.6
     discoverability: 74.1
     operational_transparency: 18.4
@@ -205,11 +250,11 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 7
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

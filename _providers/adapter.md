@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -46,7 +46,7 @@ apis:
 - baseURL: https://api.adapter.com
   baseurl_source: declared
   description: The Adapter API API from Adapter — 1 operation(s) for adapter api.
-  name: Adapter Adapter API API
+  name: Adapter API
   slug: adapter-adapter-api-api
 - baseURL: https://api.adapter.com
   baseurl_source: declared
@@ -100,19 +100,9 @@ apis:
   slug: adapter-management-api
 - baseURL: https://api.adapter.com
   baseurl_source: declared
-  description: The Oauth API from Adapter — 1 operation(s) for oauth.
-  name: Adapter Oauth API
-  slug: adapter-oauth-api
-- baseURL: https://api.adapter.com
-  baseurl_source: declared
   description: The oauth-connect API from Adapter — 3 operation(s) for oauth-connect.
   name: Adapter oauth-connect API
   slug: adapter-oauth-connect-api
-- baseURL: https://api.adapter.com
-  baseurl_source: declared
-  description: The oauth2 API from Adapter — 2 operation(s) for oauth2.
-  name: Adapter oauth2 API
-  slug: adapter-oauth2-api
 - baseURL: https://api.adapter.com
   baseurl_source: declared
   description: The Openapi.json API from Adapter — 1 operation(s) for openapi.json.
@@ -170,9 +160,19 @@ apis:
   slug: adapter-webhook-api
 - baseURL: https://api.adapter.com
   baseurl_source: declared
-  description: The Whatsapp API from Adapter — 2 operation(s) for whatsapp.
-  name: Adapter Whatsapp API
-  slug: adapter-whatsapp-api
+  description: The Oauth API from Adapter — 1 operation(s) for oauth.
+  name: Adapter OAUTH API
+  slug: adapter-oauth-api
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The oauth2 API from Adapter — 2 operation(s) for oauth2.
+  name: Adapter Oauth2 API
+  slug: adapter-oauth2-api
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Whats App API from Adapter — 2 operation(s) for whats app.
+  name: Adapter Whats App API
+  slug: adapter-whats-app-api
 artifact_total: 57
 collections:
 - collection_type: open
@@ -365,15 +365,15 @@ created: '2026-07-17'
 description: 'Adapter is a cognition API — a persistent memory and knowledge-graph layer that sits alongside AI models so understanding is already available when agents need answers. Founded by Adam Ghetti and David Bader, Adapter continuously reads and connects a user''s data (calendar, contacts, messages, email, conversations) into a living knowledge graph, grounding every response in cited sources and surfacing hidden connections across sources rather than starting each query from scratch. The Adapter API exposes multi-model conversation/completion endpoints, knowledge-graph and memory queries, life-radar events, reminders, multi-channel messaging, reranking, and an OAuth 2.0 + hosted MCP surface (mcp:read) for agent access. Tagline: "Give your model a mind."'
 image: https://framerusercontent.com/images/jeqjDUjgYoFJr6KfWmg7Kvi2Rs.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-16'
 name: Adapter
 nav: Providers
 network: true
-overview: 'Adapter publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Adapter API API, assets API, auth API, and 23 more. Tagged areas include Company, Artificial Intelligence, Cognition, Knowledge Graph, and Memory.
+overview: 'Adapter publishes 26 APIs on the [APIs.io](https://apis.io/) network, including assets API, auth API, and 24 more. Tagged areas include Company, Artificial Intelligence, Cognition, Knowledge Graph, and Memory.
 
 
   Adapter''s developer surface includes authentication, engineering blog, signup flow, support, and 18 more developer resources.'
-random_paper: 2
+random_paper: 11
 scopes:
 - name: Adapter Scopes
   scope_count: 2
@@ -381,7 +381,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.0
+  composite: 31.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -389,11 +389,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.2
   facets:
     access_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 51.6
+    contract_quality: 46.9
     developer_ergonomics: 20.8
     discoverability: 75.9
     operational_transparency: 0.0
@@ -402,14 +402,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 26
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

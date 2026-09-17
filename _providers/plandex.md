@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -503,7 +503,7 @@ modified: '2026-05-29'
 name: Plandex
 nav: Providers
 network: true
-overview: 'Plandex publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Branches API, Context API, and 12 more. Tagged areas include Artificial Intelligence, AI Coding Agent, Developer Tools, Open-Source, and CLI.
+overview: 'Plandex publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Branches API, Context API, and 12 more. Tagged areas include Artificial Intelligence, AI Coding Agents, Developer Tools, Open-Source, and CLI.
 
 
   The Plandex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -514,7 +514,7 @@ plans:
 - name: Plandex Plans Pricing
   plan_count: 3
   slug: plandex-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Plandex Rate Limits
@@ -568,7 +568,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -588,7 +588,7 @@ solutions:
   name: Plandex Cloud — Integrated Models Mode (Historical)
 tags:
 - Artificial Intelligence
-- AI Coding Agent
+- AI Coding Agents
 - Developer Tools
 - Open-Source
 - CLI

@@ -31,7 +31,7 @@ name: Listrunner
 nav: Providers
 network: true
 overview: Listrunner is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Clinical Collaboration, and Care Coordination.
-random_paper: 18
+random_paper: 10
 screenshot: https://raw.githubusercontent.com/api-evangelist/listrunner/refs/heads/main/screenshots/listrunner-2026-07-25T225331.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: NachoNacho is a SaaS procurement and subscription management marketplace helping businesses discover, buy, and manage software subscriptions.
@@ -82,7 +82,7 @@ plans:
 - name: Nachonacho Plans Pricing
   plan_count: 3
   slug: nachonacho-plans-pricing
-random_paper: 13
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Nachonacho Rate Limits
@@ -109,7 +109,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

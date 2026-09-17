@@ -28,7 +28,7 @@ name: Drawbridge Networks
 nav: Providers
 network: true
 overview: Drawbridge Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Network Security, Microsegmentation, and Defunct.
-random_paper: 15
+random_paper: 9
 screenshot: https://raw.githubusercontent.com/api-evangelist/drawbridge-networks/refs/heads/main/screenshots/drawbridge-networks-2026-07-25T212346.png
 slug: drawbridge-networks
 tags:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The DRINKOTEC API is the integration surface for DRINKOTEC's connected beverage dispensing systems and its LOOP360 beverage productivity platform, used to expand DRINKOTEC functionality with third-par
@@ -42,6 +42,10 @@ apis:
   slug: drinkotec
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://drinkotec.ch
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/security/drinkotec-domain-security.yml
   title: ''
@@ -88,19 +92,19 @@ finops:
   slug: drinkotec-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/drinkotec.png
 layout: provider
-modified: '2026-09-06'
+modified: '2026-09-16'
 name: DRINKOTEC
 nav: Providers
 network: true
 overview: 'DRINKOTEC publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Beverages, Beverage Dispensing, Hospitality, Point-of-Sale, and IoT.
 
 
-  DRINKOTEC''s developer surface includes engineering blog and 4 more developer resources.'
+  DRINKOTEC''s developer surface includes engineering blog and 5 more developer resources.'
 plans:
 - name: Drinkotec Plans Pricing
   plan_count: 0
   slug: drinkotec-plans-pricing
-random_paper: 18
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Drinkotec Rate Limits
@@ -131,7 +135,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -156,4 +160,5 @@ tags:
 - IoT
 - Analytics
 - Payments
+website: https://drinkotec.ch
 ---

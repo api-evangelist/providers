@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,14 +56,14 @@ apis:
   slug: red-hat-enterprise-linux-8-advisories-api
 - baseURL: https://api.access.redhat.com/management/v1
   baseurl_source: declared
-  description: Common Vulnerabilities and Exposures data for Red Hat products
-  name: Red Hat Enterprise Linux 8 CVEs API
-  slug: red-hat-enterprise-linux-8-cves-api
-- baseURL: https://api.access.redhat.com/management/v1
-  baseurl_source: declared
   description: OVAL XML definitions for vulnerability scanning
   name: Red Hat Enterprise Linux 8 OVAL API
   slug: red-hat-enterprise-linux-8-oval-api
+- baseURL: https://localhost:9090/cockpit
+  baseurl_source: declared
+  description: Common Vulnerabilities and Exposures data for Red Hat products
+  name: Red Hat Enterprise Linux 8 CV Es API
+  slug: red-hat-enterprise-linux-8-cves-api
 artifact_total: 30
 collections:
 - collection_type: open
@@ -247,7 +247,7 @@ modified: '2026-08-06'
 name: Red Hat Enterprise Linux 8
 nav: Providers
 network: true
-overview: 'Red Hat Enterprise Linux 8 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Advisories API, CVEs API, and OVAL API. Tagged areas include Enterprise, Linux, Operating System, Red Hat, and RHEL.
+overview: 'Red Hat Enterprise Linux 8 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Advisories API, OVAL API, and CV Es API. Tagged areas include Enterprise, Linux, Operating System, Red Hat, and RHEL.
 
 
   The Red Hat Enterprise Linux 8 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -258,7 +258,7 @@ plans:
 - name: Red Hat Enterprise Linux 8 Plans Pricing
   plan_count: 6
   slug: red-hat-enterprise-linux-8-plans-pricing
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Red Hat Enterprise Linux 8 Rate Limits
@@ -312,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

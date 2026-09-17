@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for Harvard Dataverse. Identify returns repositoryName "Harvard Dataverse Dataverse OAI Archive" with adminEmail support@dataverse.harvard.edu, earliest datest
@@ -144,11 +144,6 @@ apis:
   slug: harvard-edit-api
 - baseURL: https://dataverse.harvard.edu/api
   baseurl_source: declared
-  description: The ExternalTools API from Harvard University — 2 operation(s) for externaltools.
-  name: Harvard University External Tools API
-  slug: harvard-externaltools-api
-- baseURL: https://dataverse.harvard.edu/api
-  baseurl_source: declared
   description: The Files API from Harvard University — 21 operation(s) for files.
   name: Harvard University Files API
   slug: harvard-files-api
@@ -244,11 +239,6 @@ apis:
   slug: harvard-search-api
 - baseURL: https://dataverse.harvard.edu/api
   baseurl_source: declared
-  description: The Sendfeedback API from Harvard University — 1 operation(s) for sendfeedback.
-  name: Harvard University Sendfeedback API
-  slug: harvard-sendfeedback-api
-- baseURL: https://dataverse.harvard.edu/api
-  baseurl_source: declared
   description: Uploads a logo for a dataset
   name: Harvard University Upload Dataset Logo API
   slug: harvard-uploaddatasetlogo-api
@@ -262,6 +252,16 @@ apis:
   description: The Workflows API from Harvard University — 1 operation(s) for workflows.
   name: Harvard University Workflows API
   slug: harvard-workflows-api
+- baseURL: https://dataverse.harvard.edu/oai
+  baseurl_source: declared
+  description: The External Tools API from Harvard University — 2 operation(s) for external tools.
+  name: Harvard University External Tools API
+  slug: harvard-external-tools-api
+- baseURL: https://dataverse.harvard.edu/oai
+  baseurl_source: declared
+  description: The Send Feedback API from Harvard University — 1 operation(s) for send feedback.
+  name: Harvard University Send Feedback API
+  slug: harvard-send-feedback-api
 artifact_total: 66
 common:
 - group: other
@@ -378,15 +378,15 @@ common:
   type: SecurityDisclosure
   url: https://www.harvard.edu/security-issue/
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-dataverse-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/_original/harvard-dataverse-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/harvard-dataverse-openapi.yml
+  url: openapi/_original/harvard-dataverse-openapi.yml
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/harvard-lil-legal-ed-skills-hub-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/openapi/_original/harvard-lil-legal-ed-skills-hub-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/harvard-lil-legal-ed-skills-hub-openapi.yml
+  url: openapi/_original/harvard-lil-legal-ed-skills-hub-openapi.yml
 - group: docs
   href: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/json-schema/harvard-librarycloud-item.schema.json
   title: ''
@@ -509,7 +509,7 @@ jsonld:
   property_count: 3
   slug: harvard-context
 layout: provider
-modified: '2026-08-19'
+modified: '2026-09-16'
 name: Harvard University
 nav: Providers
 network: true
@@ -524,7 +524,7 @@ plans:
 - name: Harvard Plans Pricing
   plan_count: 2
   slug: harvard-plans-pricing
-random_paper: 9
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Harvard Rate Limits
@@ -547,21 +547,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.9
+  composite: 43.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 68.8
+    catalog_earned: 57.8
     catalog_earned_first_party: 0.0
-    catalog_gap: 46.3
+    catalog_gap: 57.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.2
   facets:
     access_clarity: 52.6
     contract_governance: 11.4
-    contract_quality: 59.3
+    contract_quality: 50.4
     developer_ergonomics: 28.6
-    discoverability: 59.3
+    discoverability: 50.0
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -574,9 +574,9 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 100.0
+      callable: 2.6
       derived: 0
-      marker_coverage: 100.0
+      marker_coverage: 0.0
       total: 38
   regulatory:
     applies: true
@@ -585,7 +585,7 @@ score:
     regime_id: education
     score: 68.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -29,15 +29,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 47.2
-  scored_at: '2026-09-15'
+  score: 44.7
+  scored_at: '2026-09-16'
 api_count: 3
 apis:
 - baseURL: https://infrahub-api.nexgencloud.com/v1
@@ -147,11 +147,6 @@ apis:
   slug: nexgen-cloud-email-opt-in-out-api
 - baseURL: https://infrahub-api.nexgencloud.com/v1
   baseurl_source: declared
-  description: 'Email preference endpoints control which optional email notifications Hyperstack sends to your account. Use them to read your current preferences and change them, individually or all at once. See the '
-  name: NexGen Cloud Email Preferences API
-  slug: nexgen-cloud-email-preferences-api
-- baseURL: https://infrahub-api.nexgencloud.com/v1
-  baseurl_source: declared
   description: An environment is a logical container for resources within a region. Use environments to separate development, staging, and production resources, or to isolate per-team workloads. Most resource endpoi
   name: NexGen Cloud Environment API
   slug: nexgen-cloud-environment-api
@@ -210,11 +205,6 @@ apis:
   description: Invite endpoints add and manage users within an organization. Invite a user by email; they accept the invitation and gain access to the organization with the role you specified.
   name: NexGen Cloud Invite API
   slug: nexgen-cloud-invite-api
-- baseURL: https://infrahub-api.nexgencloud.com/v1
-  baseurl_source: declared
-  description: A keypair is an SSH public/private key pair used to authenticate into virtual machines after deployment. Generate the keypair locally, register the public key with Hyperstack, then reference the keypa
-  name: NexGen Cloud Keypair API
-  slug: nexgen-cloud-keypair-api
 - baseURL: https://infrahub-api.nexgencloud.com/v1
   baseurl_source: declared
   description: Collections of your own documents that models can search at inference time.
@@ -365,7 +355,12 @@ apis:
   description: Voucher endpoints redeem promotional codes to add credit to your account. Vouchers are single-use.
   name: NexGen Cloud Vouchers API
   slug: nexgen-cloud-vouchers-api
-artifact_total: 72
+- baseURL: https://infrahub-api.nexgencloud.com/v1
+  baseurl_source: declared
+  description: Keypair APIs
+  name: NexGen Cloud Key Pair API
+  slug: nexgen-cloud-key-pair-api
+artifact_total: 71
 asyncapis:
 - description: ''
   name: Nexgen Cloud Webhooks
@@ -559,7 +554,7 @@ modified: '2026-08-26'
 name: NexGen Cloud
 nav: Providers
 network: true
-overview: 'NexGen Cloud publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Alive API, API Key API, and 62 more. Tagged areas include Company, Cloud, GPU, Artificial Intelligence, and Machine-Learning.
+overview: 'NexGen Cloud publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Alive API, API Key API, and 61 more. Tagged areas include Company, Cloud, GPU, Artificial Intelligence, and Machine-Learning.
 
 
   The NexGen Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -570,28 +565,28 @@ plans:
 - name: Nexgen Cloud Plans Pricing
   plan_count: 4
   slug: nexgen-cloud-plans-pricing
-random_paper: 7
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Nexgen Cloud Rate Limits
   slug: nexgen-cloud-rate-limits
 score:
   band: strong
-  composite: 64.3
+  composite: 65.6
   coverage:
     artifact_dirs: 23
-    catalog_earned: 47.0
+    catalog_earned: 57.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 68.0
+    catalog_gap: 58.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 69.0
+    contract_quality: 66.9
     developer_ergonomics: 66.1
-    discoverability: 57.4
+    discoverability: 75.9
     operational_transparency: 63.2
   previous_composite: 64.3
   provenance:
@@ -600,11 +595,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 65
+      total: 64
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

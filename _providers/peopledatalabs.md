@@ -34,14 +34,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 8
+- acting_count: 15
   human_in_the_loop: 0
   name: Peopledatalabs Agentic Access
-  operation_count: 21
+  operation_count: 46
   slug: peopledatalabs-agentic-access
-  summary_line: 21 operations · 8 acting
+  summary_line: 46 operations · 15 acting
 api_count: 2
 apis:
 - baseURL: https://api.peopledatalabs.com/v5
@@ -86,16 +86,6 @@ apis:
   slug: peopledatalabs-subscription-api
 - baseURL: https://api.peopledatalabs.com/v5
   baseurl_source: declared
-  description: 'The Preview Enrichment API from People Data Labs — 1 operation returning a preview of a person match: a small set of identity fields plus booleans indicating which further fields exist on the record, '
-  name: People Data Labs Preview Enrichment API
-  slug: peopledatalabs-preview-enrichment-api
-- baseURL: https://api.peopledatalabs.com/v5
-  baseurl_source: declared
-  description: The Subject Request API from People Data Labs — 1 operation returning a CSV of PDL Person IDs belonging to data subjects who have opted out of People Data Labs data, so downstream systems can delete t
-  name: People Data Labs Subject Request API
-  slug: peopledatalabs-subject-request-api
-- baseURL: https://api.peopledatalabs.com/v5
-  baseurl_source: declared
   description: Company enrichment and search operations.
   name: People Data Labs Company API
   slug: peopledatalabs-company-api
@@ -114,7 +104,12 @@ apis:
   description: Person enrichment, search, and identification operations.
   name: People Data Labs Person API
   slug: peopledatalabs-person-api
-artifact_total: 39
+- baseURL: https://api.peopledatalabs.com/v5
+  baseurl_source: declared
+  description: The job_title API from People Data Labs — 1 operation(s) for job_title.
+  name: People Data Labs Job Title API
+  slug: peopledatalabs-job-title-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Peopledatalabs Webhooks
@@ -169,6 +164,16 @@ collections:
   name: People Data Labs API
   slug: open-peopledatalabs
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/overlays/peopledatalabs-preview-enrichment-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/peopledatalabs-preview-enrichment-api-overlay.yaml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/overlays/peopledatalabs-subject-request-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/peopledatalabs-subject-request-api-overlay.yaml
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/agentic-access/peopledatalabs-agentic-access.yml
   title: ''
@@ -385,25 +390,25 @@ modified: '2026-08-14'
 name: People Data Labs
 nav: Providers
 network: true
-overview: 'People Data Labs publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Cleaner Endpoints API, Company Endpoints API, and 11 more. Tagged areas include Data Enrichment, Web Intelligence, Person Data, Company Data, and B2B Data.
+overview: 'People Data Labs publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Cleaner Endpoints API, Company Endpoints API, and 10 more. Tagged areas include Data Enrichment, Web Intelligence, Person Data, Company Data, and B2B Data.
 
 
   The People Data Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  People Data Labs'' developer surface includes authentication, documentation, engineering blog, developer portal, signup flow, pricing, support, and 37 more developer resources.'
+  People Data Labs'' developer surface includes authentication, documentation, engineering blog, developer portal, signup flow, pricing, support, and 39 more developer resources.'
 plans:
 - name: Peopledatalabs Plans Pricing
   plan_count: 4
   slug: peopledatalabs-plans-pricing
-random_paper: 3
+random_paper: 21
 rate_limits:
 - limit_count: 7
   name: Peopledatalabs Rate Limits
   slug: peopledatalabs-rate-limits
 score:
-  band: strong
-  composite: 66.0
+  band: exemplar
+  composite: 66.8
   coverage:
     artifact_dirs: 26
     catalog_earned: 64.0
@@ -411,11 +416,11 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 82.9
     contract_governance: 18.2
-    contract_quality: 58.4
+    contract_quality: 61.3
     developer_ergonomics: 81.0
     discoverability: 75.9
     operational_transparency: 73.7
@@ -427,11 +432,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 13
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

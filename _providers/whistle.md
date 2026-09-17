@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Whistle is a cross-platform HTTP, HTTPS, HTTP/2, WebSocket, and TCP debugging proxy tool. It lets developers intercept, inspect, and modify network traffic using a rule-based configuration system. Fea
@@ -118,7 +118,7 @@ modified: '2026-05-03'
 name: Whistle
 nav: Providers
 network: true
-overview: 'Whistle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Debugging Proxy, Proxy, Network Debugging, HTTP, and HTTPS.
+overview: 'Whistle publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Debugging Proxy, Proxy, Network Debugging, HTTP, and WebSocket.
 
 
   The Whistle catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -129,7 +129,7 @@ plans:
 - name: Whistle Plans Pricing
   plan_count: 3
   slug: whistle-plans-pricing
-random_paper: 12
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Whistle Rate Limits
@@ -165,7 +165,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 26.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -183,7 +183,6 @@ tags:
 - Proxy
 - Network Debugging
 - HTTP
-- HTTPS
 - WebSocket
 - Developer Tools
 website: https://wproxy.org/whistle/

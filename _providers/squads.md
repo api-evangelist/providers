@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: TypeScript and Rust SDKs plus a CLI for creating and operating Squads multisigs (smart accounts) on Solana — creating multisigs, proposing, approving and executing transactions, and managing program-u
@@ -175,7 +175,7 @@ overview: 'Squads publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Squads'' developer surface includes documentation, getting-started guide, API reference, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
-random_paper: 6
+random_paper: 19
 score:
   band: developing
   composite: 41.2
@@ -207,7 +207,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

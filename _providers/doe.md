@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 278
   slug: doe-agentic-access
   summary_line: 278 operations · 53 acting · 4 human-in-the-loop
-api_count: 1
+api_count: 10
 apis:
 - description: NREL/NLR Developer Network electricity APIs covering utility rates, electricity costs, generation, transmission, delivery, and monitoring. Includes OpenEI Utility Rates API providing access to utility
   name: NLR Electricity APIs
@@ -158,51 +158,51 @@ apis:
 - description: The DOE participates in Data.gov by publishing thousands of dataset records under the doe-gov organization. These datasets cover energy consumption, generation, environmental impact, R&D, and more, an
   name: Department of Energy Open Data Catalog
   slug: open-data-catalog
-- baseURL: https://api.eia.gov/v2
+- baseURL: https://developer.nlr.gov/api/
   baseurl_source: declared
   description: The Co2 Emissions API from Department of Energy — 1 operation(s) for co2 emissions.
   name: Department of Energy Co2 Emissions API
-  slug: department-of-energy-co2-emissions-api
-- baseURL: https://api.eia.gov/v2
+  slug: doe-co2-emissions-api
+- baseURL: https://developer.nlr.gov/api/
   baseurl_source: declared
   description: The EIA Open Data API V2 API from Department of Energy — 1 operation(s) for eia open data api v2.
   name: Department of Energy EIA Open Data API V2 API
-  slug: department-of-energy-eia-open-data-api-v2-api
-- baseURL: https://api.eia.gov/v2
+  slug: doe-eia-open-data-api-v2-api
+- baseURL: https://developer.nlr.gov/api/
   baseurl_source: declared
   description: The Electricity API from Department of Energy — 2 operation(s) for electricity.
   name: Department of Energy Electricity API
-  slug: department-of-energy-electricity-api
-- baseURL: https://api.eia.gov/v2
+  slug: doe-electricity-api
+- baseURL: https://developer.nlr.gov/api/
   baseurl_source: declared
   description: The International API from Department of Energy — 1 operation(s) for international.
   name: Department of Energy International API
-  slug: department-of-energy-international-api
-- baseURL: https://api.eia.gov/v2
+  slug: doe-international-api
+- baseURL: https://developer.nlr.gov/api/
   baseurl_source: declared
   description: The Natural Gas API from Department of Energy — 1 operation(s) for natural gas.
   name: Department of Energy Natural Gas API
-  slug: department-of-energy-natural-gas-api
-- baseURL: https://api.eia.gov/v2
+  slug: doe-natural-gas-api
+- baseURL: https://developer.nlr.gov/api/
   baseurl_source: declared
   description: The Nuclear Outages API from Department of Energy — 1 operation(s) for nuclear outages.
   name: Department of Energy Nuclear Outages API
-  slug: department-of-energy-nuclear-outages-api
-- baseURL: https://api.eia.gov/v2
+  slug: doe-nuclear-outages-api
+- baseURL: https://developer.nlr.gov/api/
   baseurl_source: declared
   description: The Petroleum API from Department of Energy — 1 operation(s) for petroleum.
   name: Department of Energy Petroleum API
-  slug: department-of-energy-petroleum-api
-- baseURL: https://api.eia.gov/v2
+  slug: doe-petroleum-api
+- baseURL: https://developer.nlr.gov/api/
   baseurl_source: declared
   description: The Seriesid API from Department of Energy — 1 operation(s) for seriesid.
   name: Department of Energy Seriesid API
-  slug: department-of-energy-seriesid-api
-- baseURL: https://api.eia.gov/v2
+  slug: doe-seriesid-api
+- baseURL: https://developer.nlr.gov/api/
   baseurl_source: declared
   description: The Total Energy API from Department of Energy — 1 operation(s) for total energy.
   name: Department of Energy Total Energy API
-  slug: department-of-energy-total-energy-api
+  slug: doe-total-energy-api
 artifact_total: 82
 collections:
 - collection_type: open
@@ -412,7 +412,7 @@ plans:
 - name: Doe Plans Pricing
   plan_count: 5
   slug: doe-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Doe Rate Limits
@@ -430,21 +430,21 @@ rules:
   slug: doe-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.8
+  composite: 47.3
   coverage:
     artifact_dirs: 15
-    catalog_earned: 63.3
+    catalog_earned: 66.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.8
+    catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 73.7
     contract_governance: 9.8
-    contract_quality: 49.7
+    contract_quality: 57.4
     developer_ergonomics: 31.0
-    discoverability: 68.5
+    discoverability: 74.1
     operational_transparency: 21.1
   previous_composite: 44.8
   provenance:
@@ -461,7 +461,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

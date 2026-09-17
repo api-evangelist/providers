@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -228,6 +228,10 @@ collections:
   name: Workday Absence Management Accruals Worker Preferences API
   slug: open-workday-tracking-system-worker-preferences-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://workday.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -667,7 +671,7 @@ jsonld:
   property_count: 36
   slug: workday-tracking-system-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Workday Tracking System
 nav: Providers
 network: true
@@ -677,12 +681,12 @@ overview: 'Workday Tracking System publishes 13 APIs on the [APIs.io](https://ap
   The Workday Tracking System catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Tracking System''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, pricing, support, and 29 more developer resources.'
+  Workday Tracking System''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, pricing, support, and 30 more developer resources.'
 plans:
 - name: Workday Tracking System Plans Pricing
   plan_count: 1
   slug: workday-tracking-system-plans-pricing
-random_paper: 14
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Workday Tracking System Rate Limits
@@ -736,7 +740,7 @@ score:
       marker_coverage: 100.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -786,5 +790,5 @@ use_cases:
   name: Compliance Reporting
 - description: Apply targeted accrual overrides to correct worker balances following payroll or eligibility changes.
   name: Accrual Adjustment Workflows
-website: https://developer.workday.com
+website: https://workday.com
 ---

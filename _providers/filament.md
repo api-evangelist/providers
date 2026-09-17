@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://orderbook.filament.finance/sei
@@ -148,7 +148,7 @@ overview: 'Filament publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Filament''s developer surface includes documentation, API reference, getting-started guide, engineering blog, sandbox, authentication, and 13 more developer resources.'
-random_paper: 8
+random_paper: 12
 score:
   band: emerging
   composite: 24.2
@@ -178,7 +178,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 48.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 20
+- acting_count: 60
   human_in_the_loop: 0
   name: Adobe Agentic Access
-  operation_count: 22
+  operation_count: 96
   slug: adobe-agentic-access
-  summary_line: 22 operations · 20 acting
+  summary_line: 96 operations · 60 acting
 api_count: 4
 apis:
 - description: Extract text, images, tables, and more from native and scanned PDFs into structured JSON using AI technology.
@@ -1214,7 +1214,7 @@ press:
 - date: '2026-05-25'
   title: Adobe (@Adobe) / Posts / X
   url: https://x.com/Adobe
-random_paper: 3
+random_paper: 1
 rate_limits:
 - limit_count: 10
   name: Adobe Rate Limits
@@ -1243,21 +1243,21 @@ rules:
   slug: adobe-spectral-rules
 score:
   band: exemplar
-  composite: 78.5
+  composite: 79.4
   coverage:
     artifact_dirs: 38
-    catalog_earned: 80.5
+    catalog_earned: 85.5
     catalog_earned_first_party: 24.0
-    catalog_gap: 34.5
+    catalog_gap: 29.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 100.0
     contract_governance: 47.0
     contract_quality: 73.6
     developer_ergonomics: 95.8
-    discoverability: 57.4
+    discoverability: 66.7
     operational_transparency: 78.9
   previous_composite: 78.5
   provenance:
@@ -1271,7 +1271,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1302,7 +1302,7 @@ tags:
 - Digital Asset Management
 - Document Services
 - E-Commerce
-- E-Signatures
+- E-Signature
 - Experience Cloud
 - Generative AI
 - Marketing

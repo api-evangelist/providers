@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -51,11 +51,6 @@ apis:
 - description: 'Mezmo''s open-source agentic orchestration framework. Apache 2.0 Rust framework for composing AI agents from declarative TOML config, with MCP tool integration, RAG pipelines (Qdrant, Bedrock KB), and '
   name: AURA Agent Framework
   slug: mezmo-aura
-- baseURL: https://api.mezmo.com/v3
-  baseurl_source: spec
-  description: The AuditEvents API from Mezmo — 1 operation(s) for auditevents.
-  name: Mezmo AuditEvents API
-  slug: mezmo-auditevents-api
 - baseURL: https://api.mezmo.com/v3
   baseurl_source: spec
   description: The Classification API from Mezmo — 3 operation(s) for classification.
@@ -131,6 +126,11 @@ apis:
   description: The Tasks API from Mezmo — 2 operation(s) for tasks.
   name: Mezmo Tasks API
   slug: mezmo-tasks-api
+- baseURL: https://api.mezmo.com/v3
+  baseurl_source: spec
+  description: The Audit Events API from Mezmo — 1 operation(s) for audit events.
+  name: Mezmo Audit Events API
+  slug: mezmo-audit-events-api
 artifact_total: 77
 collections:
 - collection_type: postman
@@ -442,7 +442,7 @@ modified: '2026-09-15'
 name: Mezmo
 nav: Providers
 network: true
-overview: 'Mezmo publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AuditEvents API, Classification API, Deployments API, and 13 more. Tagged areas include Observability, Logs, Telemetry, Telemetry Pipeline, and Log Management.
+overview: 'Mezmo publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Classification API, Deployments API, Destinations API, and 13 more. Tagged areas include Observability, Logs, Telemetry, Telemetry Pipeline, and Log Management.
 
 
   The Mezmo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -453,7 +453,7 @@ plans:
 - name: Mezmo Plans Pricing
   plan_count: 2
   slug: mezmo-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Mezmo Rate Limits
@@ -490,7 +490,7 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 47.4
     contract_governance: 28.8
@@ -498,7 +498,7 @@ score:
     developer_ergonomics: 58.3
     discoverability: 64.8
     operational_transparency: 68.4
-  previous_composite: 52.6
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     contracts:
@@ -508,7 +508,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

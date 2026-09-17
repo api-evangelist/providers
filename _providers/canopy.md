@@ -34,15 +34,75 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 42.6
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - baseURL: https://app.usecanopy.com/api/v1.0.0
   baseurl_source: declared
-  description: The Canopy Connect API returns structured property and casualty insurance data directly from 400+ carriers in real time. Applications can verify coverage, retrieve policy documents, pull driver and ve
-  name: Canopy Connect API
-  slug: canopy-connect-api
-artifact_total: 11
+  description: Collect consent to skip the consent page in the SDK
+  name: Canopy Connect Consent API
+  slug: canopy-consent-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Allows you to look up driver/household data
+  name: Canopy Connect Enrichment API
+  slug: canopy-enrichment-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Collection of miscellaneous API routes
+  name: Canopy Connect Misc API
+  slug: canopy-misc-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Manage synced accounts
+  name: Canopy Connect Monitorings API
+  slug: canopy-monitorings-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Manage Policy Check team setting
+  name: Canopy Connect Policy Check Team Setting API
+  slug: canopy-policy-check-team-setting-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Used to get policy form data
+  name: Canopy Connect Policy Forms API
+  slug: canopy-policy-forms-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Search verified Auto ID Cards, Auto insurance policies and Home insurance policies from major insurance carriers without the need for login credentials.
+  name: Canopy Connect Policy Search API
+  slug: canopy-policy-search-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Get Pull data and download documents
+  name: Canopy Connect Pulls API
+  slug: canopy-pulls-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Manage servicing actions
+  name: Canopy Connect Servicings API
+  slug: canopy-servicings-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Get, create, delete Teams
+  name: Canopy Connect Teams API
+  slug: canopy-teams-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Get, create, update and delete Webhooks
+  name: Canopy Connect Webhooks API
+  slug: canopy-webhooks-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Allows you to create a fully whitelabeled experience
+  name: Canopy Connect Whitelabel API
+  slug: canopy-whitelabel-api-api
+- baseURL: https://app.usecanopy.com/api/v1.0.0
+  baseurl_source: declared
+  description: Get, create, update, and delete Widgets
+  name: Canopy Connect Widgets API
+  slug: canopy-widgets-api-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Canopy Webhooks
@@ -210,7 +270,7 @@ modified: '2026-09-05'
 name: Canopy Connect
 nav: Providers
 network: true
-overview: 'Canopy Connect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Insurance, Casualty, Financial-Services, Homeowners Insurance, and Insurance.
+overview: 'Canopy Connect publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Consent API, Enrichment API, Misc API, and 10 more. Tagged areas include Auto Insurance, Casualty, Financial-Services, Homeowners Insurance, and Insurance.
 
 
   The Canopy Connect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -221,7 +281,7 @@ plans:
 - name: Canopy Plans Pricing
   plan_count: 3
   slug: canopy-plans-pricing
-random_paper: 20
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Canopy Rate Limits
@@ -233,7 +293,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 71.0
+  composite: 73.0
   coverage:
     artifact_dirs: 24
     catalog_earned: 52.0
@@ -241,17 +301,22 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 61.9
+    contract_quality: 65.5
     developer_ergonomics: 73.2
     discoverability: 87.0
     operational_transparency: 21.1
   previous_composite: 71.0
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 13
     mcp: first-party
     skills: derived
   regulatory:
@@ -259,9 +324,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 80.3
+    score: 87.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

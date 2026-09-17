@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: 'Atlas Energy : Resource Partners, L.P. | MarketScreener'
   url: https://www.marketscreener.com/quote/stock/TARGA-ENERGY-LP-30731/news/Atlas-Energy-Resource-Partners-L-P-Announces-Pricing-of-Class-D-Cumulative-Redeemable-Perpetua-19104180/
-random_paper: 4
+random_paper: 12
 score:
   band: minimal
   composite: 1.7
@@ -105,7 +105,7 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

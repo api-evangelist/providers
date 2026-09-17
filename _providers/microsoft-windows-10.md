@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -1462,7 +1462,7 @@ plans:
 - name: Microsoft Windows 10 Plans Pricing
   plan_count: 5
   slug: microsoft-windows-10-plans-pricing
-random_paper: 16
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Microsoft Windows 10 Rate Limits
@@ -1492,7 +1492,7 @@ score:
   facets:
     access_clarity: 43.4
     contract_governance: 9.8
-    contract_quality: 57.4
+    contract_quality: 57.3
     developer_ergonomics: 65.5
     discoverability: 75.9
     operational_transparency: 34.2
@@ -1505,7 +1505,7 @@ score:
       marker_coverage: 0.0
       total: 77
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The original CB Insights REST API — 11 documented GET operations over organizations, deals (fundings, investments, portfolio exits), people, business relationships, expert collections and the credit l
@@ -60,11 +60,6 @@ apis:
   description: The ChatCBI API from CB Insights — 3 operation(s) for chatcbi.
   name: CB Insights Chat CBI API
   slug: cb-insights-chatcbi-api
-- baseURL: https://api.cbinsights.com
-  baseurl_source: declared
-  description: This dataset contains information about funding deals, cap table history, M&As, IPOs, and CBI-generated insights that extract key themes.
-  name: CB Insights Financial Transactions API
-  slug: cb-insights-financialtransactions-api
 - baseURL: https://api.cbinsights.com
   baseurl_source: declared
   description: This dataset contains profiles on private companies, public companies, and investors. Includes general information like location, headcount, and industry, as well as proprietary data like business mod
@@ -100,6 +95,11 @@ apis:
   description: The StrategyMap API from CB Insights — 1 operation(s) for strategymap.
   name: CB Insights Strategy Map API
   slug: cb-insights-strategymap-api
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: This dataset contains information about funding deals, cap table history, M&As, IPOs, and CBI-generated insights that extract key themes.
+  name: CB Insights Financial Transactions API
+  slug: cb-insights-financial-transactions-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -337,7 +337,7 @@ plans:
 - name: Cb Insights Plans Pricing
   plan_count: 0
   slug: cb-insights-plans-pricing
-random_paper: 2
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Cb Insights Rate Limits
@@ -349,7 +349,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 52.4
+  composite: 53.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 50.0
@@ -357,11 +357,11 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 60.5
     contract_governance: 33.3
-    contract_quality: 52.8
+    contract_quality: 55.5
     developer_ergonomics: 58.9
     discoverability: 68.5
     operational_transparency: 39.5
@@ -381,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

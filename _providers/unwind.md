@@ -42,7 +42,7 @@ name: Unwind Me
 nav: Providers
 network: true
 overview: Unwind Me is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Massage, Wellness, On-Demand Services, and Consumer.
-random_paper: 10
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/unwind/refs/heads/main/screenshots/unwind-2026-09-02T165105.png
 security:
 - kind: domain-security

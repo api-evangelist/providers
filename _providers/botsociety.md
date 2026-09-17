@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://app.botsociety.io
@@ -169,11 +169,11 @@ modified: '2026-07-18'
 name: BotSociety
 nav: Providers
 network: true
-overview: 'BotSociety publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Designs API, Messages API, and 1 more. Tagged areas include Company, Chatbots, Conversational AI, Voice Assistants, and Bot Design.
+overview: 'BotSociety publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Designs API, Messages API, and 1 more. Tagged areas include Company, Chatbots, Conversational AI, Voice Assistant, and Bot Design.
 
 
   BotSociety''s developer surface includes documentation, API reference, authentication, changelog, and 14 more developer resources.'
-random_paper: 1
+random_paper: 15
 score:
   band: emerging
   composite: 16.1
@@ -203,7 +203,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -223,7 +223,7 @@ tags:
 - Company
 - Chatbots
 - Conversational AI
-- Voice Assistants
+- Voice Assistant
 - Bot Design
 - Prototyping
 - Developer Tools

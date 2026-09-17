@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - baseURL: https://elasticbeanstalk.amazonaws.com
   baseurl_source: declared
   description: The Amazon Elastic Beanstalk AWS Elastic Beanstalk API API from Amazon Elastic Beanstalk — 1 operation(s) for amazon elastic beanstalk aws elastic beanstalk api.
-  name: Amazon Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API API
+  name: Amazon Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API
   slug: amazon-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api
 - baseURL: https://elasticbeanstalk.amazonaws.com
   baseurl_source: declared
@@ -108,6 +108,10 @@ collections:
   name: Amazon Elastic Beanstalk AWS Elastic Beanstalk API
   slug: open-amazon-elastic-beanstalk
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/agentic-access/amazon-elastic-beanstalk-agentic-access.yml
   title: ''
@@ -325,22 +329,22 @@ jsonld:
   property_count: 3
   slug: amazon-elastic-beanstalk-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Elastic Beanstalk
 nav: Providers
 network: true
-overview: 'Amazon Elastic Beanstalk publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Amazon Elastic Beanstalk AWS Elastic Beanstalk API API, #CreateEnvironment API, #DescribeEnvironments API, and 1 more. Tagged areas include Amazon Web Services, Auto-Scaling, Deployment, Elastic Beanstalk, and Platform-as-a-Service.
+overview: 'Amazon Elastic Beanstalk publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Amazon Elastic Beanstalk AWS Elastic Beanstalk API, #CreateEnvironment API, #DescribeEnvironments API, and 1 more. Tagged areas include Amazon Web Services, Auto-Scaling, Deployment, Elastic Beanstalk, and Platform-as-a-Service.
 
 
   The Amazon Elastic Beanstalk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Elastic Beanstalk''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 26 more developer resources.'
+  Amazon Elastic Beanstalk''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 27 more developer resources.'
 plans:
 - name: Amazon Elastic Beanstalk Plans Pricing
   plan_count: 3
   slug: amazon-elastic-beanstalk-plans-pricing
-random_paper: 11
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Beanstalk Rate Limits
@@ -394,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -434,5 +438,5 @@ use_cases:
   name: Microservices Deployment
 - description: Perform zero-downtime deployments using environment URL swapping
   name: Blue-Green Deployments
-website: https://aws.amazon.com/elasticbeanstalk/
+website: https://amazon.com
 ---

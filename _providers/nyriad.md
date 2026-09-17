@@ -19,7 +19,7 @@ name: Nyriad
 nav: Providers
 network: true
 overview: Nyriad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 17
+random_paper: 9
 slug: nyriad
 tags:
 - Company

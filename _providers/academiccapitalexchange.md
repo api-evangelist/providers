@@ -28,7 +28,7 @@ name: Academic Capital Exchange
 nav: Providers
 network: true
 overview: Academic Capital Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Financial-Services, Lending, and Student Loans.
-random_paper: 3
+random_paper: 0
 slug: academiccapitalexchange
 tags:
 - Company

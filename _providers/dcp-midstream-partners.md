@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 9.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -169,7 +169,7 @@ press:
 - date: '2026-05-25'
   title: DCP Midstream Benefits from Eagle Ford, DJ Basin Assets in ...
   url: https://www.industrialinfo.com/news/article/dcp-midstream-benefits-from-eagle-ford-dj-basin-assets-in-2014-puts-2015-growth-capex-at-300-million--246924
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Dcp Midstream Partners Rate Limits
@@ -202,7 +202,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

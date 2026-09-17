@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Publicly served SOAP 1.1 / 1.2 web service behind the USADATA Leads Portal and Leads Module. The WSDL is served anonymously from the production API host and declares 24 operations covering the full li
@@ -170,7 +170,7 @@ plans:
 - name: Usadata Inc Plans Pricing
   plan_count: 0
   slug: usadata-inc-plans-pricing
-random_paper: 6
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Usadata Inc Rate Limits
@@ -204,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

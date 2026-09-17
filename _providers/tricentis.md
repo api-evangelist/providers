@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 44.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 5
@@ -369,19 +369,9 @@ apis:
   slug: tricentis-test-suite-api
 - baseURL: https://apitryout.qtestnet.com/
   baseurl_source: declared
-  description: The testcases API from Tricentis — 2 operation(s) for testcases.
-  name: Tricentis Testcases API
-  slug: tricentis-testcases-api
-- baseURL: https://apitryout.qtestnet.com/
-  baseurl_source: declared
   description: The testrunlogs API from Tricentis — 2 operation(s) for testrunlogs.
   name: Tricentis Testrunlogs API
   slug: tricentis-testrunlogs-api
-- baseURL: https://apitryout.qtestnet.com/
-  baseurl_source: declared
-  description: The testruns API from Tricentis — 2 operation(s) for testruns.
-  name: Tricentis Testruns API
-  slug: tricentis-testruns-api
 - baseURL: https://apitryout.qtestnet.com/
   baseurl_source: declared
   description: The Tests API from Tricentis — 2 operation(s) for tests.
@@ -402,11 +392,6 @@ apis:
   description: The Tests|Test Analysis API from Tricentis — 1 operation(s) for tests|test analysis.
   name: Tricentis Tests|Test Analysis API
   slug: tricentis-tests-test-analysis-api
-- baseURL: https://apitryout.qtestnet.com/
-  baseurl_source: declared
-  description: The testsuites API from Tricentis — 2 operation(s) for testsuites.
-  name: Tricentis Testsuites API
-  slug: tricentis-testsuites-api
 - baseURL: https://apitryout.qtestnet.com/
   baseurl_source: declared
   description: Tosca Integration API
@@ -557,7 +542,12 @@ apis:
   description: The Workspaces API from Tricentis — 5 operation(s) for workspaces.
   name: Tricentis Workspaces API
   slug: tricentis-workspaces-api
-artifact_total: 213
+- baseURL: https://apitryout.qtestnet.com/
+  baseurl_source: declared
+  description: The Test Suites API from Tricentis — 2 operation(s) for test suites.
+  name: Tricentis Test Suites API
+  slug: tricentis-test-suites-api
+artifact_total: 211
 asyncapis:
 - description: ''
   name: Tricentis Qtest Webhooks
@@ -1082,14 +1072,14 @@ modified: '2026-08-02'
 name: Tricentis
 nav: Providers
 network: true
-overview: 'Tricentis publishes 102 APIs on the [APIs.io](https://apis.io/) network, including Access Files API, Action API, Administration of users API, and 99 more. Tagged areas include Company, Testing, Test Automation, Quality Engineering, and Test Management.
+overview: 'Tricentis publishes 100 APIs on the [APIs.io](https://apis.io/) network, including Access Files API, Action API, Administration of users API, and 97 more. Tagged areas include Company, Testing, Test Automation, Quality Engineering, and Test Management.
 
 
   The Tricentis catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Tricentis'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 36 more developer resources.'
-random_paper: 15
+random_paper: 13
 scopes:
 - name: Tricentis Scopes
   scope_count: 1
@@ -1097,7 +1087,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 64.7
+  composite: 64.9
   coverage:
     artifact_dirs: 23
     catalog_earned: 37.0
@@ -1105,11 +1095,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 60.6
+    contract_quality: 61.4
     developer_ergonomics: 85.7
     discoverability: 75.9
     operational_transparency: 60.5
@@ -1124,14 +1114,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 83.5
+      callable: 68.3
       derived: 0
       marker_coverage: 0.0
-      total: 103
+      total: 101
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 18.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -95,11 +95,6 @@ apis:
   slug: dapr-secrets-api
 - baseURL: http://localhost:3500
   baseurl_source: spec
-  description: Service-to-service invocation operations.
-  name: Dapr ServiceInvocation API
-  slug: dapr-serviceinvocation-api
-- baseURL: http://localhost:3500
-  baseurl_source: spec
   description: State management operations.
   name: Dapr State API
   slug: dapr-state-api
@@ -108,6 +103,11 @@ apis:
   description: Workflow orchestration operations.
   name: Dapr Workflow API
   slug: dapr-workflow-api
+- baseURL: http://localhost:3500
+  baseurl_source: spec
+  description: Service-to-service invocation operations.
+  name: Dapr Service Invocation API
+  slug: dapr-service-invocation-api
 artifact_total: 59
 asyncapis:
 - description: The Dapr Pub/Sub AsyncAPI defines the event-driven messaging interfaces for Dapr publish and subscribe operations. Applications publish events to topics and subscribe to receive events using the Cloud
@@ -329,7 +329,7 @@ plans:
 - name: Dapr Plans Pricing
   plan_count: 1
   slug: dapr-plans-pricing
-random_paper: 3
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Dapr Rate Limits
@@ -394,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

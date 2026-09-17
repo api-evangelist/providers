@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The REST API surface of the 10x SuperCore platform, covering parties, subscriptions, arrangements, transaction/deposit/loan/credit-card products, repayment schedules, interest overrides, cards, statem
@@ -192,7 +192,7 @@ plans:
 - name: 10X Banking Technology Services Plans Pricing
   plan_count: 0
   slug: 10x-banking-technology-services-plans-pricing
-random_paper: 10
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: 10X Banking Technology Services Rate Limits
@@ -234,7 +234,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

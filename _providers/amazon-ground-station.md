@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   description: The Contacts API from Amazon Ground Station — 1 operation(s) for contacts.
   name: Amazon Ground Station Contacts API
   slug: amazon-ground-station-contacts-api
-- baseURL: https://groundstation.amazonaws.com
-  baseurl_source: declared
-  description: The DataflowEndpointGroup API from Amazon Ground Station — 2 operation(s) for dataflowendpointgroup.
-  name: Amazon Ground Station DataflowEndpointGroup API
-  slug: amazon-ground-station-dataflowendpointgroup-api
 - baseURL: https://groundstation.amazonaws.com
   baseurl_source: declared
   description: The Ephemerides API from Amazon Ground Station — 1 operation(s) for ephemerides.
@@ -105,6 +100,11 @@ apis:
   description: The Tags API from Amazon Ground Station — 2 operation(s) for tags.
   name: Amazon Ground Station Tags API
   slug: amazon-ground-station-tags-api
+- baseURL: https://groundstation.amazonaws.com
+  baseurl_source: declared
+  description: The Dataflow Endpoint Group API from Amazon Ground Station — 2 operation(s) for dataflow endpoint group.
+  name: Amazon Ground Station Dataflow Endpoint Group API
+  slug: amazon-ground-station-dataflow-endpoint-group-api
 artifact_total: 578
 collections:
 - collection_type: postman
@@ -183,6 +183,10 @@ collections:
   name: AWS Ground Station Agent Tags API
   slug: open-amazon-ground-station-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1852,7 +1856,7 @@ jsonld:
   property_count: 155
   slug: amazon-ground-station-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Ground Station
 nav: Providers
 network: true
@@ -1862,12 +1866,12 @@ overview: 'Amazon Ground Station publishes 12 APIs on the [APIs.io](https://apis
   The Amazon Ground Station catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Ground Station''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 12 more developer resources.'
+  Amazon Ground Station''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Ground Station Plans Pricing
   plan_count: 3
   slug: amazon-ground-station-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Ground Station Rate Limits
@@ -1921,7 +1925,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1961,5 +1965,5 @@ use_cases:
   name: Communications Relay
 - description: Support space-based scientific missions with managed data collection and downlink.
   name: Scientific Research
-website: https://aws.amazon.com/ground-station/
+website: https://amazon.com
 ---

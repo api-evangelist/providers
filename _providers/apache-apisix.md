@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: Manage API consumers and their credentials.
   name: Apache APISIX Consumers API
   slug: apache-apisix-consumers-api
-- baseURL: http://127.0.0.1:9180/apisix/admin
+- baseURL: http://127.0.0.1:9090
   baseurl_source: spec
   description: Runtime diagnostic operations.
   name: Apache APISIX Diagnostics API
@@ -68,12 +68,12 @@ apis:
   description: Manage global plugin rules applied to all requests.
   name: Apache APISIX Global Rules API
   slug: apache-apisix-global-rules-api
-- baseURL: http://127.0.0.1:9180/apisix/admin
+- baseURL: http://127.0.0.1:9090
   baseurl_source: spec
   description: Monitor the health status of upstream nodes.
   name: Apache APISIX Health Check API
   slug: apache-apisix-health-check-api
-- baseURL: http://127.0.0.1:9180/apisix/admin
+- baseURL: http://127.0.0.1:9090
   baseurl_source: spec
   description: Inspect the runtime configuration of the APISIX instance.
   name: Apache APISIX Introspection API
@@ -502,7 +502,7 @@ plans:
 - name: Apache Apisix Plans Pricing
   plan_count: 3
   slug: apache-apisix-plans-pricing
-random_paper: 7
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Apache Apisix Rate Limits
@@ -531,7 +531,7 @@ rules:
   slug: apache-apisix-spectral-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 48.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 58.5
@@ -539,11 +539,11 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 62.1
+    contract_quality: 61.2
     developer_ergonomics: 40.5
     discoverability: 66.7
     operational_transparency: 36.8
@@ -559,7 +559,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

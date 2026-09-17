@@ -24,7 +24,7 @@ name: Cleargraph
 nav: Providers
 network: true
 overview: Cleargraph is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Search, Analytics, and Graph.
-random_paper: 20
+random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleargraph/refs/heads/main/screenshots/cleargraph-2026-07-25T205547.png
 slug: cleargraph
 tags:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Tailor Embedded gives partner platforms programmatic access to Tailor Brands' business formation and compliance engine — LLC formation, EIN issuance, registered agent service and annual reports — so S
@@ -134,7 +134,7 @@ plans:
 - name: Tailor Brands Plans Pricing
   plan_count: 0
   slug: tailor-brands-plans-pricing
-random_paper: 7
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Tailor Brands Rate Limits
@@ -167,7 +167,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

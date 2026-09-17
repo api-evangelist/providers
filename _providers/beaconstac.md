@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 53.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: REST API (v2.0) to programmatically create static and dynamic QR Codes across 20+ campaign types, apply design templates, generate codes in bulk from CSV/XLSX, manage Digital Business Cards, leads and
@@ -243,7 +243,7 @@ plans:
 - name: Beaconstac Plans Pricing
   plan_count: 0
   slug: beaconstac-plans-pricing
-random_paper: 14
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Beaconstac Rate Limits
@@ -289,7 +289,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

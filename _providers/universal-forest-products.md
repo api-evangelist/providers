@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/912767/000091276723000013/ufpi-20230502x8k.htm
-random_paper: 14
+random_paper: 0
 score:
   band: minimal
   composite: 9.5
@@ -118,7 +118,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 36.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: 'Enigma''s primary programmatic surface: a Relay-style GraphQL API over the business knowledge graph. Query Brand, LegalEntity, OperatingLocation, Address, Person, and Industry entities via connection-b'
@@ -240,7 +240,7 @@ plans:
 - name: Enigma Analytics Plans Pricing
   plan_count: 4
   slug: enigma-analytics-plans-pricing
-random_paper: 0
+random_paper: 10
 rate_limits:
 - limit_count: 12
   name: Enigma Analytics Rate Limits
@@ -274,7 +274,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

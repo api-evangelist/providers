@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.marketstack.com/v2
@@ -74,11 +74,6 @@ apis:
   slug: marketstack-end-of-day-api
 - baseURL: https://api.marketstack.com/v2
   baseurl_source: declared
-  description: The ETFs API from Marketstack — 2 operation(s) for etfs.
-  name: Marketstack ET Fs API
-  slug: marketstack-etfs-api
-- baseURL: https://api.marketstack.com/v2
-  baseurl_source: declared
   description: The Exchanges API from Marketstack — 9 operation(s) for exchanges.
   name: Marketstack Exchanges API
   slug: marketstack-exchanges-api
@@ -112,6 +107,11 @@ apis:
   description: The Timezones API from Marketstack — 1 operation(s) for timezones.
   name: Marketstack Timezones API
   slug: marketstack-timezones-api
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The ETFs API from Marketstack — 2 operation(s) for etfs.
+  name: Marketstack ET Fs API
+  slug: marketstack-etfs-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -268,14 +268,14 @@ plans:
 - name: Marketstack Plans
   plan_count: 5
   slug: marketstack-plans
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Marketstack Rate Limits
   slug: marketstack-rate-limits
 score:
   band: strong
-  composite: 55.6
+  composite: 56.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 61.0
@@ -283,11 +283,11 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 46.4
+    contract_quality: 49.1
     developer_ergonomics: 60.1
     discoverability: 75.9
     operational_transparency: 47.4
@@ -308,7 +308,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - baseURL: https://api.bridgedataoutput.com/api/v2
   baseurl_source: declared
   description: The RESO Web API API from Bridge Interactive — 7 operation(s) for reso web api.
-  name: Bridge Interactive RESO Web API API
+  name: Bridge Interactive RESO Web API
   slug: bridge-interactive-reso-web-api-api
 artifact_total: 18
 collections:
@@ -148,7 +148,7 @@ finops:
   slug: bridge-interactive-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bridge-interactive.png
 layout: provider
-modified: '2026-06-21'
+modified: '2026-09-16'
 name: Bridge Interactive
 nav: Providers
 network: true
@@ -192,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -19,7 +19,7 @@ name: imgfave
 nav: Providers
 network: true
 overview: imgfave is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 0
+random_paper: 9
 slug: imgfave
 tags:
 - Company

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -217,7 +217,7 @@ modified: '2026-07-01'
 name: Fourthwall
 nav: Providers
 network: true
-overview: 'Fourthwall publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Gifting API, Giveaways API, and 9 more. Tagged areas include Creator Commerce, E-Commerce, Merch, Storefront, and Memberships.
+overview: 'Fourthwall publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Gifting API, Giveaways API, and 9 more. Tagged areas include Creator Commerce, E-Commerce, Merch, Storefront, and Membership.
 
 
   Fourthwall''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -225,7 +225,7 @@ plans:
 - name: Fourthwall Plans Pricing
   plan_count: 2
   slug: fourthwall-plans-pricing
-random_paper: 4
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Fourthwall Rate Limits
@@ -263,7 +263,7 @@ score:
       total: 12
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -288,7 +288,7 @@ tags:
 - E-Commerce
 - Merch
 - Storefront
-- Memberships
+- Membership
 - Donations
 - Print on Demand
 website: https://fourthwall.com/

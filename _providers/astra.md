@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Astra's REST API (v1) for embedding instant money movement — accounts, users, cards, transfers, payment instruments, and Routines — authorized via OAuth 2.0 and delivered with webhooks for asynchronou
@@ -45,6 +45,10 @@ asyncapis:
   name: Astra Webhooks
   slug: astra-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://astra.finance
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/security/astra-domain-security.yml
   title: ''
@@ -142,7 +146,7 @@ created: '2026-07-17'
 description: Astra (Astra Finance, Inc.) is a financial technology company providing an all-in-one instant payments API that lets product teams embed real-time money movement between bank accounts and debit cards. The platform powers instant disbursements and payouts, instant account funding, accelerated bank transfers, card-to-account movement, cross-border payments, and automated "Routines," with built-in compliance, fraud detection, and chargeback management. Developers integrate over a versioned REST API (v1) using OAuth 2.0 authorization for end-user money movement plus client-credential authorization for administrative operations, with webhooks for asynchronous updates and a full sandbox environment for testing.
 image: https://astrafi.com/static/images/favicons/apple-touch-icon.png
 layout: provider
-modified: '2026-07-18'
+modified: '2026-09-16'
 name: Astra
 nav: Providers
 network: true
@@ -152,8 +156,8 @@ overview: 'Astra publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Astra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Astra''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 14
+  Astra''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 15 more developer resources.'
+random_paper: 11
 score:
   band: developing
   composite: 40.4
@@ -188,7 +192,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -218,5 +222,5 @@ tags:
 - Instant Payments
 - Bank Transfers
 - Disbursements
-website: https://docs.astra.finance/
+website: https://astra.finance
 ---

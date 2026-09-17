@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -65,7 +65,7 @@ apis:
 - baseURL: http://localhost:8888
   baseurl_source: declared
   description: The Jupyter Server REST API API from Jupyter — 1 operation(s) for jupyter server rest api.
-  name: Jupyter Jupyter Server REST API API
+  name: Jupyter Server REST API
   slug: jupyter-jupyter-server-rest-api-api
 - baseURL: http://localhost:8888
   baseurl_source: declared
@@ -212,11 +212,11 @@ finops:
   slug: jupyter-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jupyter.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Jupyter
 nav: Providers
 network: true
-overview: 'Jupyter publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Config API, Contents API, Jupyter Server REST API API, and 6 more. Tagged areas include Data Science, Education, Interactive Computing, Notebooks, and Python.
+overview: 'Jupyter publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Config API, Contents API, Server REST API, and 6 more. Tagged areas include Data Science, Education, Interactive Computing, Notebooks, and Python.
 
 
   Jupyter''s developer surface includes documentation, engineering blog, support, YouTube channel, and 13 more developer resources.'
@@ -224,7 +224,7 @@ plans:
 - name: Jupyter Plans Pricing
   plan_count: 3
   slug: jupyter-plans-pricing
-random_paper: 10
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Jupyter Rate Limits
@@ -265,7 +265,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

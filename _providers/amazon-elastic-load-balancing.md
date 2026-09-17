@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,6 +131,10 @@ collections:
   name: Amazon Elastic Load Balancing v2 API
   slug: open-amazon-elastic-load-balancing
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/capabilities/amazon-elastic-load-balancing-capability-edges.yml
   title: ''
@@ -477,7 +481,7 @@ jsonld:
   property_count: 6
   slug: amazon-elastic-load-balancing-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Elastic Load Balancing
 nav: Providers
 network: true
@@ -487,12 +491,12 @@ overview: 'Amazon Elastic Load Balancing publishes 5 APIs on the [APIs.io](https
   The Amazon Elastic Load Balancing catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Elastic Load Balancing''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 32 more developer resources.'
+  Amazon Elastic Load Balancing''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 33 more developer resources.'
 plans:
 - name: Amazon Elastic Load Balancing Plans Pricing
   plan_count: 3
   slug: amazon-elastic-load-balancing-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Load Balancing Rate Limits
@@ -546,7 +550,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -586,5 +590,5 @@ use_cases:
   name: Container Load Balancing
 - description: Distribute global traffic across multiple AWS regions
   name: Multi-Region Traffic Management
-website: https://aws.amazon.com/elasticloadbalancing/
+website: https://amazon.com
 ---

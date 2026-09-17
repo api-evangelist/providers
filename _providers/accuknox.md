@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 31.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Token-authenticated REST API behind the AccuKnox SaaS console, serving asset inventory, security findings, AI/ML model risk (ModelKnox) and tenant configuration under an /api/v1/ path prefix. Served p
@@ -206,7 +206,7 @@ plans:
 - name: Accuknox Plans Pricing
   plan_count: 0
   slug: accuknox-plans-pricing
-random_paper: 20
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Accuknox Rate Limits
@@ -239,7 +239,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

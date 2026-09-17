@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'Enterprise REST API for the Storyclash influencer marketing platform. Three documented endpoints under https://app.storyclash.com/external-api/: GET /campaigns lists the authenticated customer''s campa'
@@ -188,7 +188,7 @@ plans:
 - name: Storyclash Plans Pricing
   plan_count: 3
   slug: storyclash-plans-pricing
-random_paper: 8
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Storyclash Rate Limits
@@ -222,7 +222,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

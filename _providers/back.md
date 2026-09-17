@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,11 +82,11 @@ modified: '2026-07-18'
 name: Back
 nav: Providers
 network: true
-overview: 'Back is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Experience, HR, Help Desk, and Internal Support.
+overview: 'Back is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Experience, Human Resources, Help Desk, and Internal Support.
 
 
   Back''s developer surface includes pricing and 8 more developer resources.'
-random_paper: 2
+random_paper: 5
 score:
   band: emerging
   composite: 14.0
@@ -113,7 +113,7 @@ score:
     - europe
   previous_composite: 14.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -133,7 +133,7 @@ slug: back
 tags:
 - Company
 - Employee Experience
-- HR
+- Human Resources
 - Help Desk
 - Internal Support
 - Workflow-Automation

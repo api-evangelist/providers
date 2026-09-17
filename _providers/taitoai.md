@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 3.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -100,11 +100,11 @@ modified: '2026-07-21'
 name: Taito.ai
 nav: Providers
 network: true
-overview: 'Taito.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, HR, People Operations, and HRIS.
+overview: 'Taito.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Human Resources, People Operations, and HRIS.
 
 
   Taito.ai''s developer surface includes pricing, engineering blog, and 10 more developer resources.'
-random_paper: 12
+random_paper: 21
 score:
   band: emerging
   composite: 14.7
@@ -134,7 +134,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -154,7 +154,7 @@ slug: taitoai
 tags:
 - Company
 - Artificial Intelligence
-- HR
+- Human Resources
 - People Operations
 - HRIS
 - Performance Management

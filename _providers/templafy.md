@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://api.templafy.com/v3
@@ -52,11 +52,6 @@ apis:
   description: The DataSourceItems API from Templafy — 2 operation(s) for datasourceitems.
   name: Templafy DataSourceItems API
   slug: templafy-datasourceitems-api
-- baseURL: https://api.templafy.com/v3
-  baseurl_source: declared
-  description: The DataSources API from Templafy — 2 operation(s) for datasources.
-  name: Templafy DataSources API
-  slug: templafy-datasources-api
 - baseURL: https://api.templafy.com/v3
   baseurl_source: declared
   description: The Documents API from Templafy — 3 operation(s) for documents.
@@ -89,11 +84,6 @@ apis:
   slug: templafy-links-api
 - baseURL: https://api.templafy.com/v3
   baseurl_source: declared
-  description: The Pdfs API from Templafy — 2 operation(s) for pdfs.
-  name: Templafy Pdfs API
-  slug: templafy-pdfs-api
-- baseURL: https://api.templafy.com/v3
-  baseurl_source: declared
   description: The Presentations API from Templafy — 3 operation(s) for presentations.
   name: Templafy Presentations API
   slug: templafy-presentations-api
@@ -122,6 +112,16 @@ apis:
   description: The TextElements API from Templafy — 3 operation(s) for textelements.
   name: Templafy TextElements API
   slug: templafy-textelements-api
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Pdfs API from Templafy — 2 operation(s) for pdfs.
+  name: Templafy Pdfs API
+  slug: templafy-pdfs-api
+- baseURL: https://api.templafy.com/v3
+  baseurl_source: declared
+  description: The Data Sources API from Templafy — 2 operation(s) for data sources.
+  name: Templafy Data Sources API
+  slug: templafy-data-sources-api
 artifact_total: 38
 collections:
 - collection_type: open
@@ -313,10 +313,10 @@ overview: 'Templafy publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Templafy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 5
+random_paper: 8
 score:
   band: developing
-  composite: 47.1
+  composite: 47.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -324,11 +324,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 47.4
     contract_governance: 4.5
-    contract_quality: 55.7
+    contract_quality: 58.5
     developer_ergonomics: 64.3
     discoverability: 75.9
     operational_transparency: 26.3
@@ -342,7 +342,7 @@ score:
       total: 17
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

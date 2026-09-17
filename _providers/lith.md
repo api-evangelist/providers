@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 2
 common:
@@ -140,11 +140,11 @@ modified: '2026-07-19'
 name: Lithium Finance
 nav: Providers
 network: true
-overview: 'Lithium Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, DeFi, Oracles, and NFT.
+overview: 'Lithium Finance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, DeFi, Oracle, and NFT.
 
 
   Lithium Finance''s developer surface includes documentation, getting-started guide, support, and 19 more developer resources.'
-random_paper: 13
+random_paper: 15
 score:
   band: emerging
   composite: 17.0
@@ -167,7 +167,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -188,7 +188,7 @@ tags:
 - Company
 - Crypto
 - DeFi
-- Oracles
+- Oracle
 - NFT
 - Asset Valuation
 - Smart Contracts

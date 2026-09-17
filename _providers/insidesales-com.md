@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Access-key protected HTTP API that lets an organization or a third-party application download call recordings produced by Playbooks, and — with the second permission enabled — start and pause recordin
@@ -157,7 +157,7 @@ plans:
 - name: Insidesales Com Plans Pricing
   plan_count: 0
   slug: insidesales-com-plans-pricing
-random_paper: 3
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Insidesales Com Rate Limits
@@ -184,7 +184,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

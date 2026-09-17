@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 48
 apis:
 - description: Hosted Model Context Protocol server for Splunk Observability Cloud, using the streamable HTTP transport. Twelve tools across metrics/SignalFlow, APM and alerting. Authenticated with X-SF-REALM and X-
@@ -175,11 +175,6 @@ apis:
   slug: splunk-observability-signalflow-api
 - baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
   baseurl_source: declared
-  description: The SLOs API from Splunk Observability Cloud — 4 operation(s) for slos.
-  name: Splunk Observability Cloud SL Os API
-  slug: splunk-observability-slos-api
-- baseURL: https://api.{REALM}.observability.splunkcloud.com/v2
-  baseurl_source: declared
   description: The Splunk Observability Cloud Audit Events API from Splunk Observability Cloud — 1 operation(s) for splunk observability cloud audit events.
   name: Splunk Observability Cloud Splunk Observability Cloud Audit Events API
   slug: splunk-observability-splunk-observability-cloud-audit-events-api
@@ -283,6 +278,11 @@ apis:
   description: The Teams API from Splunk Observability Cloud — 4 operation(s) for teams.
   name: Splunk Observability Cloud Teams API
   slug: splunk-observability-teams-api
+- baseURL: https://region-pdx10.api.scs.splunk.com/system/mcp-gateway/v1/
+  baseurl_source: declared
+  description: The SLOs API from Splunk Observability Cloud — 4 operation(s) for slos.
+  name: Splunk Observability Cloud SL Os API
+  slug: splunk-observability-slos-api
 artifact_total: 58
 asyncapis:
 - description: The SignalFlow streaming analytics service. A client opens a WebSocket connection, authenticates with a session token within 5 seconds, then starts computations on named channels and receives control,
@@ -758,14 +758,14 @@ plans:
 - name: Splunk Observability Plans Pricing
   plan_count: 10
   slug: splunk-observability-plans-pricing
-random_paper: 0
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Splunk Observability Rate Limits
   slug: splunk-observability-rate-limits
 score:
   band: strong
-  composite: 60.8
+  composite: 61.0
   coverage:
     artifact_dirs: 22
     catalog_earned: 47.0
@@ -773,11 +773,11 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 24.2
+    contract_quality: 24.9
     developer_ergonomics: 73.2
     discoverability: 57.4
     operational_transparency: 81.6
@@ -792,7 +792,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

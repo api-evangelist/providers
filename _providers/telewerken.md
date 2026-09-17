@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -84,7 +84,7 @@ overview: 'Telewerken is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Telewerken''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 7
+random_paper: 0
 rules:
 - effective_rule_count: 5
   extends: []
@@ -128,7 +128,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

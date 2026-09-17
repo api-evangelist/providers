@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Historical public REST API for the 8tracks internet-radio platform. Exposes mix discovery and search, per-session play tokens, playback control (play/next/skip/report), similar-mix recommendation, and
@@ -42,6 +42,10 @@ apis:
   slug: 8tracks-api-v3
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://8tracks.com
 - group: start
   title: ''
   type: DeveloperPortal
@@ -97,15 +101,15 @@ created: '2026-07-17'
 description: 8tracks was a San Francisco-based internet radio and social music-streaming service that let people create and share handcrafted playlists ("mixes") of at least eight tracks, discover mixes by mood, activity, genre, and tag, and play them back through the web, iOS, and Android apps. Founded in 2008, it grew to more than eight million monthly listeners by 2014 before declining. 8tracks published a public REST API (v2/v3) that exposed mix discovery, playback token sessions, track skip/report events, and user likes/favorites, but stopped issuing new API keys in February 2015. The company ceased operations on December 31, 2019, briefly relaunched under BackBeat Inc. in April 2020, and the service has been inactive since. This profile documents the historical API surface and web properties.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/8tracks.png
 layout: provider
-modified: '2026-07-17'
+modified: '2026-09-16'
 name: 8Tracks
 nav: Providers
 network: true
 overview: '8Tracks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Streaming, Radio, and Playlists.
 
 
-  8Tracks'' developer surface includes documentation, API reference, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 11
+  8Tracks'' developer surface includes documentation, API reference, engineering blog, authentication, and 8 more developer resources.'
+random_paper: 0
 score:
   band: emerging
   composite: 13.4
@@ -131,7 +135,7 @@ score:
     - north-america
   previous_composite: 13.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -156,5 +160,5 @@ tags:
 - Audio
 - Media
 - Entertainment
-website: https://8tracks.com/developers
+website: https://8tracks.com
 ---

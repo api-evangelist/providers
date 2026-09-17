@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Chargefox's Open Charge Point Interface implementation in the Charge Point Operator role, used for roaming so that another network's drivers can authorise, charge and be billed on Chargefox infrastruc
@@ -231,14 +231,14 @@ overview: 'Chargefox publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Chargefox''s developer surface includes authentication, documentation, API reference, engineering blog, support, getting-started guide, code examples, and 27 more developer resources.'
-random_paper: 6
+random_paper: 5
 rate_limits:
 - limit_count: 25
   name: Chargefox Rate Limits
   slug: chargefox-rate-limits
 score:
   band: developing
-  composite: 50.2
+  composite: 50.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 49.0
@@ -246,11 +246,11 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 35.5
     contract_governance: 18.2
-    contract_quality: 50.3
+    contract_quality: 53.1
     developer_ergonomics: 58.9
     discoverability: 68.5
     operational_transparency: 50.0
@@ -278,7 +278,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -308,7 +308,7 @@ tags:
 - OCPI
 - Charge Point Operator
 - Roaming
-- Fleets
+- Fleet
 - Mobility
 - Charging Sessions
 - Electrification

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.tastelabs.com
@@ -50,7 +50,7 @@ apis:
 - baseURL: https://api.tastelabs.com
   baseurl_source: declared
   description: The Taste Engine API API from Taste — 1 operation(s) for taste engine api.
-  name: Taste Taste Engine API API
+  name: Taste Engine API
   slug: taste-taste-engine-api-api
 artifact_total: 9
 collections:
@@ -139,18 +139,18 @@ created: '2026-07-17'
 description: Taste Labs is a San Francisco research lab and infrastructure company building "the taste layer for AI" — decoding subjective design domains to end AI slop. Its Taste Engine API extracts brand and design guidelines from a reference site or a prior submission and enhances website and slide-deck prompts so AI generation stays on-brand, returning an enhanced prompt plus structured brand context and reasoning. The company is backed by CRV and Amplify Partners and runs the TasteMakers community program. This profile was enriched from the provider's live public surface, including the Taste Engine API OpenAPI.
 image: https://cdn.prod.website-files.com/6a1d5baf94efef5f7c435fc3/6a306ae79b1ce1b28e27e16b_taste_Logo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Taste
 nav: Providers
 network: true
-overview: 'Taste publishes 3 APIs on the [APIs.io](https://apis.io/) network: health API, Prompt Enhancement API, and Taste Engine API API. Tagged areas include Company, Artificial Intelligence, Design, Machine-Learning, and Developer Tools.
+overview: 'Taste publishes 3 APIs on the [APIs.io](https://apis.io/) network: health API, Prompt Enhancement API, and Engine API. Tagged areas include Company, Artificial Intelligence, Design, Machine-Learning, and Developer Tools.
 
 
   Taste''s developer surface includes engineering blog, authentication, and 12 more developer resources.'
-random_paper: 20
+random_paper: 17
 score:
   band: emerging
-  composite: 23.0
+  composite: 21.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -158,11 +158,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 49.4
+    contract_quality: 44.0
     developer_ergonomics: 16.1
     discoverability: 75.9
     operational_transparency: 0.0
@@ -170,14 +170,14 @@ score:
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

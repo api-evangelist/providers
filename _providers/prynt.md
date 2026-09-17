@@ -25,7 +25,7 @@ name: Prynt
 nav: Providers
 network: true
 overview: Prynt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Defunct.
-random_paper: 6
+random_paper: 1
 screenshot: https://raw.githubusercontent.com/api-evangelist/prynt/refs/heads/main/screenshots/prynt-2026-09-02T152253.png
 slug: prynt
 tags:

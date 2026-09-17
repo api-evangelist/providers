@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: Public, keyless JSON API behind the Carolina Digital Repository, UNC Libraries' institutional repository for digitized special collections, theses, dissertations and research output. GET /services/api
@@ -199,7 +199,7 @@ plans:
 - name: University Of North Carolina At Chapel Hill Plans Pricing
   plan_count: 2
   slug: university-of-north-carolina-at-chapel-hill-plans-pricing
-random_paper: 18
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: University Of North Carolina At Chapel Hill Rate Limits
@@ -239,7 +239,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

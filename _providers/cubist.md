@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 13
@@ -125,11 +125,6 @@ apis:
   slug: cubist-mmi-api
 - baseURL: https://prod.signer.cubist.dev
   baseurl_source: declared
-  description: The OAuth2 API from Cubist — 7 operation(s) for oauth2.
-  name: Cubist OAuth2 API
-  slug: cubist-oauth2-api
-- baseURL: https://prod.signer.cubist.dev
-  baseurl_source: declared
   description: The Org API from Cubist — 1 operation(s) for org.
   name: Cubist Org API
   slug: cubist-org-api
@@ -193,6 +188,11 @@ apis:
   description: The Users In Role API from Cubist — 2 operation(s) for users in role.
   name: Cubist Users In Role API
   slug: cubist-users-in-role-api
+- baseURL: https://prod.signer.cubist.dev
+  baseurl_source: declared
+  description: The OAuth2 API from Cubist — 7 operation(s) for oauth2.
+  name: Cubist O Auth2 API
+  slug: cubist-oauth2-api
 artifact_total: 66
 collections:
 - collection_type: open
@@ -437,11 +437,11 @@ modified: '2026-07-18'
 name: Cubist
 nav: Providers
 network: true
-overview: 'Cubist publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Audit API, and 27 more. Tagged areas include Company, Developer Tools, Key Management, Wallets, and Digital Signatures.
+overview: 'Cubist publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Audit API, and 27 more. Tagged areas include Company, Developer Tools, Key Management, Wallets, and Digital Signature.
 
 
   Cubist''s developer surface includes documentation, engineering blog, support, authentication, sandbox, CLI, and 24 more developer resources.'
-random_paper: 20
+random_paper: 12
 scopes:
 - name: Cubist Scopes
   scope_count: 135
@@ -449,7 +449,7 @@ scopes:
   summary_line: 135 scopes
 score:
   band: developing
-  composite: 47.7
+  composite: 47.5
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -457,11 +457,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 53.2
+    contract_quality: 52.5
     developer_ergonomics: 51.8
     discoverability: 75.9
     operational_transparency: 13.2
@@ -483,7 +483,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -508,7 +508,7 @@ tags:
 - Developer Tools
 - Key Management
 - Wallets
-- Digital Signatures
+- Digital Signature
 - Security
 - Blockchain
 - Web3

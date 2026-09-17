@@ -33,14 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://orthanc.uclouvain.be/demo/
-  baseurl_source: declared
-  description: 'Orthanc is a free and open-source, vendor-neutral DICOM server and medical-imaging ecosystem. UCLouvain describes itself as "the innovation engine behind Orthanc": the project is led by its author Seb'
-  name: Orthanc API
-  slug: orthanc-api
 - description: 'Open Data @ UCLouvain is the institution''s research-data repository, running Dataverse 6.8 on UCLouvain infrastructure at dataverse.uclouvain.be and minting DOIs under UCLouvain''s own Crossref prefix '
   name: Open Data @ UCLouvain -- Dataverse deployment (Native + Search API)
   slug: dataverse-native-api
@@ -65,7 +60,57 @@ apis:
 - description: UCLouvain runs its own Shibboleth identity provider and publishes signed SAML 2.0 entity metadata at a stable, unauthenticated URL. entityID https://idp.uclouvain.be/idp/shibboleth, shibmd:Scope uclou
   name: UCLouvain Shibboleth Identity Provider -- SAML 2.0 metadata
   slug: identity-federation
-artifact_total: 15
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The Instances API from UCLouvain — 51 operation(s) for instances.
+  name: UCLouvain Instances API
+  slug: uclouvain-instances-api
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The Jobs API from UCLouvain — 7 operation(s) for jobs.
+  name: UCLouvain Jobs API
+  slug: uclouvain-jobs-api
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The Logs API from UCLouvain — 8 operation(s) for logs.
+  name: UCLouvain Logs API
+  slug: uclouvain-logs-api
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The Networking API from UCLouvain — 37 operation(s) for networking.
+  name: UCLouvain Networking API
+  slug: uclouvain-networking-api
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The Other API from UCLouvain — 6 operation(s) for other.
+  name: UCLouvain Other API
+  slug: uclouvain-other-api
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The Patients API from UCLouvain — 32 operation(s) for patients.
+  name: UCLouvain Patients API
+  slug: uclouvain-patients-api
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The Series API from UCLouvain — 33 operation(s) for series.
+  name: UCLouvain Series API
+  slug: uclouvain-series-api
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The Studies API from UCLouvain — 34 operation(s) for studies.
+  name: UCLouvain Studies API
+  slug: uclouvain-studies-api
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The System API from UCLouvain — 33 operation(s) for system.
+  name: UCLouvain System API
+  slug: uclouvain-system-api
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: The Tracking changes API from UCLouvain — 2 operation(s) for tracking changes.
+  name: UCLouvain Tracking changes API
+  slug: uclouvain-tracking-changes-api
+artifact_total: 24
 common:
 - group: company
   title: ''
@@ -176,7 +221,7 @@ modified: '2026-08-30'
 name: UCLouvain
 nav: Providers
 network: true
-overview: 'UCLouvain publishes 1 API on the [APIs.io](https://apis.io/) network: Orthanc API. Tagged areas include University, Higher Education, Education, Belgium, and Private Research University.
+overview: 'UCLouvain publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Instances API, Jobs API, Logs API, and 7 more. Tagged areas include University, Higher Education, Education, Belgium, and Private Research University.
 
 
   UCLouvain''s developer surface includes documentation, API reference, authentication, and 18 more developer resources.'
@@ -184,14 +229,14 @@ plans:
 - name: Uclouvain Plans Pricing
   plan_count: 2
   slug: uclouvain-plans-pricing
-random_paper: 16
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Uclouvain Rate Limits
   slug: uclouvain-rate-limits
 score:
   band: thin
-  composite: 32.4
+  composite: 33.0
   coverage:
     artifact_dirs: 10
     catalog_earned: 44.0
@@ -199,11 +244,11 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 45.5
+    contract_quality: 48.1
     developer_ergonomics: 28.6
     discoverability: 68.5
     operational_transparency: 7.9
@@ -219,8 +264,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 1
+      marker_coverage: 0.0
+      total: 10
   regulatory:
     applies: true
     matched_via: tags
@@ -228,7 +273,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

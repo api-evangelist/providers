@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -77,6 +77,10 @@ collections:
   name: Marriott Developer Availability Reservations API
   slug: open-marriott-international-reservations-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://marriott.com
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/agentic-access/marriott-international-agentic-access.yml
   title: ''
@@ -113,14 +117,14 @@ finops:
   slug: marriott-international-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marriott-international.png
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Marriott International
 nav: Providers
 network: true
 overview: 'Marriott International publishes 3 APIs on the [APIs.io](https://apis.io/) network: Availability API, Properties API, and Reservations API. Tagged areas include Fortune 500.
 
 
-  Marriott International''s developer surface includes authentication and 5 more developer resources.'
+  Marriott International''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Marriott International Plans Pricing
   plan_count: 1
@@ -178,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -200,4 +204,5 @@ security:
 slug: marriott-international
 tags:
 - Fortune 500
+website: https://marriott.com
 ---

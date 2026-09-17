@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 139
@@ -92,11 +92,6 @@ apis:
   slug: katana-customeraddresscontroller-api
 - baseURL: https://api.katanamrp.com/v1
   baseurl_source: declared
-  description: The CustomerController API from Katana — 2 operation(s) for customercontroller.
-  name: Katana CustomerController API
-  slug: katana-customercontroller-api
-- baseURL: https://api.katanamrp.com/v1
-  baseurl_source: declared
   description: The CustomFieldDefinitionController API from Katana — 2 operation(s) for customfielddefinitioncontroller.
   name: Katana CustomFieldDefinitionController API
   slug: katana-customfielddefinitioncontroller-api
@@ -112,11 +107,6 @@ apis:
   slug: katana-demandforecastcontroller-api
 - baseURL: https://api.katanamrp.com/v1
   baseurl_source: declared
-  description: The FactoryController API from Katana — 1 operation(s) for factorycontroller.
-  name: Katana FactoryController API
-  slug: katana-factorycontroller-api
-- baseURL: https://api.katanamrp.com/v1
-  baseurl_source: declared
   description: The InventoryController API from Katana — 2 operation(s) for inventorycontroller.
   name: Katana InventoryController API
   slug: katana-inventorycontroller-api
@@ -130,11 +120,6 @@ apis:
   description: The ItemsCustomFieldsCollectionController API from Katana — 1 operation(s) for itemscustomfieldscollectioncontroller.
   name: Katana ItemsCustomFieldsCollectionController API
   slug: katana-itemscustomfieldscollectioncontroller-api
-- baseURL: https://api.katanamrp.com/v1
-  baseurl_source: declared
-  description: The LocationController API from Katana — 2 operation(s) for locationcontroller.
-  name: Katana LocationController API
-  slug: katana-locationcontroller-api
 - baseURL: https://api.katanamrp.com/v1
   baseurl_source: declared
   description: The MakeToOrderMOController API from Katana — 3 operation(s) for maketoordermocontroller.
@@ -342,29 +327,44 @@ apis:
   slug: katana-unlinkvariantbinlocationcontroller-api
 - baseURL: https://api.katanamrp.com/v1
   baseurl_source: declared
-  description: The UsersController API from Katana — 2 operation(s) for userscontroller.
-  name: Katana UsersController API
-  slug: katana-userscontroller-api
-- baseURL: https://api.katanamrp.com/v1
-  baseurl_source: declared
   description: The VariantBinLocationController API from Katana — 1 operation(s) for variantbinlocationcontroller.
   name: Katana VariantBinLocationController API
   slug: katana-variantbinlocationcontroller-api
 - baseURL: https://api.katanamrp.com/v1
   baseurl_source: declared
-  description: The VariantController API from Katana — 2 operation(s) for variantcontroller.
-  name: Katana VariantController API
-  slug: katana-variantcontroller-api
-- baseURL: https://api.katanamrp.com/v1
-  baseurl_source: declared
-  description: The WebhookController API from Katana — 2 operation(s) for webhookcontroller.
-  name: Katana WebhookController API
-  slug: katana-webhookcontroller-api
-- baseURL: https://api.katanamrp.com/v1
-  baseurl_source: declared
   description: The WebhookLogsController API from Katana — 1 operation(s) for webhooklogscontroller.
   name: Katana WebhookLogsController API
   slug: katana-webhooklogscontroller-api
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The Customer Controller API from Katana — 2 operation(s) for customer controller.
+  name: Katana Customer Controller API
+  slug: katana-customer-controller-api
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The Factory Controller API from Katana — 1 operation(s) for factory controller.
+  name: Katana Factory Controller API
+  slug: katana-factory-controller-api
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The Location Controller API from Katana — 2 operation(s) for location controller.
+  name: Katana Location Controller API
+  slug: katana-location-controller-api
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The Users Controller API from Katana — 2 operation(s) for users controller.
+  name: Katana Users Controller API
+  slug: katana-users-controller-api
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The Variant Controller API from Katana — 2 operation(s) for variant controller.
+  name: Katana Variant Controller API
+  slug: katana-variant-controller-api
+- baseURL: https://api.katanamrp.com/v1
+  baseurl_source: declared
+  description: The webhook controller API from Katana — 2 operation(s) for webhook controller.
+  name: Katana webhook controller API
+  slug: katana-webhook-controller-api
 artifact_total: 135
 asyncapis:
 - description: ''
@@ -723,14 +723,14 @@ overview: 'Katana publishes 64 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Katana''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 15
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Katana Rate Limits
   slug: katana-rate-limits
 score:
   band: developing
-  composite: 50.1
+  composite: 53.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -738,11 +738,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.2
   facets:
     access_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 48.4
+    contract_quality: 52.4
     developer_ergonomics: 44.6
     discoverability: 75.9
     operational_transparency: 60.5
@@ -758,11 +758,11 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
-    score: 0.0
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/katana/refs/heads/main/screenshots/katana-2026-07-25T223530.png
 security:
 - kind: authentication

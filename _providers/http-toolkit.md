@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -205,7 +205,7 @@ modified: '2026-06-13'
 name: HTTP Toolkit
 nav: Providers
 network: true
-overview: 'HTTP Toolkit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including client API, config API, interceptors API, and 1 more. Tagged areas include HTTP, HTTPS, Debugging, Proxy, and Interception.
+overview: 'HTTP Toolkit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including client API, config API, interceptors API, and 1 more. Tagged areas include HTTP, Debugging, Proxy, Interception, and Mocking.
 
 
   The HTTP Toolkit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -216,7 +216,7 @@ plans:
 - name: Http Toolkit Plans Pricing
   plan_count: 3
   slug: http-toolkit-plans-pricing
-random_paper: 7
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Http Toolkit Rate Limits
@@ -262,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -280,7 +280,6 @@ security:
 slug: http-toolkit
 tags:
 - HTTP
-- HTTPS
 - Debugging
 - Proxy
 - Interception

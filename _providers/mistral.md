@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -60,11 +60,6 @@ apis:
   description: Batch inference job operations
   name: Mistral AI Batch Jobs API
   slug: mistral-batch-jobs-api
-- baseURL: https://api.mistral.ai/v1
-  baseurl_source: declared
-  description: Chat completion operations
-  name: Mistral AI Chat API
-  slug: mistral-chat-api
 - baseURL: https://api.mistral.ai/v1
   baseurl_source: declared
   description: Text embedding operations
@@ -129,7 +124,7 @@ apis:
 - description: Audio transcription API powered by Voxtral for speech-to-text with diarization, word-level timestamps, and streaming.
   name: Mistral AI Audio Transcription API
   slug: mistral-ai-audio-transcription-api
-artifact_total: 147
+artifact_total: 146
 asyncapis:
 - description: 'AsyncAPI definition for Mistral AI streaming completion endpoints. Mistral is OpenAI-compatible and delivers streamed completions as Server-Sent Events (SSE) over HTTP when `stream: true` is set on th'
   name: Mistral AI Streaming Completions API
@@ -619,11 +614,11 @@ jsonld:
   property_count: 11
   slug: mistral-context
 layout: provider
-modified: '2026-08-08'
+modified: '2026-09-16'
 name: Mistral AI
 nav: Providers
 network: true
-overview: 'Mistral AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Audio API, Batch Jobs API, and 12 more.
+overview: 'Mistral AI publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Audio API, Batch Jobs API, and 11 more. Tagged areas include Embeddings, Machine-Learning, Agents, OCR, and LLM.
 
 
   The Mistral AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -634,7 +629,7 @@ plans:
 - name: Mistral Plans Pricing
   plan_count: 6
   slug: mistral-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Mistral Rate Limits
@@ -663,21 +658,21 @@ rules:
   slug: mistral-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.3
+  composite: 53.2
   coverage:
     artifact_dirs: 20
-    catalog_earned: 51.5
+    catalog_earned: 56.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 43.4
     contract_governance: 13.6
     contract_quality: 74.0
     developer_ergonomics: 58.3
-    discoverability: 70.4
+    discoverability: 79.6
     operational_transparency: 42.1
   previous_composite: 52.3
   provenance:
@@ -686,12 +681,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
+      total: 12
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -707,5 +699,11 @@ security:
   slug: mistral-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: mistral
+tags:
+- Embeddings
+- Machine-Learning
+- Agents
+- OCR
+- LLM
 website: https://mistral.ai
 ---

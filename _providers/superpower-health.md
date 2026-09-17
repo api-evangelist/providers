@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 15.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://superpower.com
@@ -70,6 +70,10 @@ collections:
   name: Superpower
   slug: open-superpower-health
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://superpower.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/security/superpower-health-domain-security.yml
   title: ''
@@ -87,19 +91,19 @@ finops:
   slug: superpower-health-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superpower-health.png
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Superpower
 nav: Providers
 network: true
 overview: 'Superpower publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Biomarker Testing, Results & Health Scores, AI Health Chat, and 2 more. Tagged areas include Health, Longevity, Lab Testing, Biomarkers, and Preventive Health.
 
 
-  Superpower''s developer surface includes engineering blog and 1 more developer resources.'
+  Superpower''s developer surface includes engineering blog and 2 more developer resources.'
 plans:
 - name: Superpower Health Plans Pricing
   plan_count: 2
   slug: superpower-health-plans-pricing
-random_paper: 6
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Superpower Health Rate Limits
@@ -130,7 +134,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -151,4 +155,5 @@ tags:
 - Preventive Health
 - Consumer Health
 - No Public API
+website: https://superpower.com
 ---

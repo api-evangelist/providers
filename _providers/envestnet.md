@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 25.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -110,11 +110,6 @@ apis:
   slug: envestnet-payment-processor-api
 - baseURL: /
   baseurl_source: spec
-  description: Provider Accounts API
-  name: Envestnet ProviderAccounts API
-  slug: envestnet-provideraccounts-api
-- baseURL: /
-  baseurl_source: spec
   description: Providers API
   name: Envestnet Providers API
   slug: envestnet-providers-api
@@ -148,6 +143,11 @@ apis:
   description: The View API from Envestnet — 11 operation(s) for view.
   name: Envestnet View API
   slug: envestnet-view-api
+- baseURL: /
+  baseurl_source: spec
+  description: Provider Accounts API
+  name: Envestnet Provider Accounts API
+  slug: envestnet-provider-accounts-api
 artifact_total: 447
 collections:
 - collection_type: open
@@ -1497,7 +1497,7 @@ plans:
 - name: Envestnet Plans Pricing
   plan_count: 2
   slug: envestnet-plans-pricing
-random_paper: 1
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Envestnet Rate Limits
@@ -1546,7 +1546,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

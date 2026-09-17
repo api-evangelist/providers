@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -180,10 +180,10 @@ common:
   type: PrivacyPolicy
   url: https://pushtech.com/privacy_policy
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-cendyn-crm-openapi.yml
+  href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/_original/push-cendyn-crm-openapi.yml
   title: ''
   type: OpenAPI
-  url: openapi/push-cendyn-crm-openapi.yml
+  url: openapi/_original/push-cendyn-crm-openapi.yml
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/overlays/push-cendyn-crm-overlay.yaml
   title: ''
@@ -284,7 +284,7 @@ description: Push (PUSHTech, now operating as Cendyn CRM after its acquisition b
   without a redirect; the old hostnames no longer resolve. Cendyn CRM publishes no OpenAPI, no AsyncAPI, no MCP server, no agent card and no /.well-known/ documents; the machine-readable artifacts in this repo are derived by API Evangelist from the provider's own published HTML reference.
 image: https://pushtech.com/favicon.ico
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Push
 nav: Providers
 network: true
@@ -299,7 +299,7 @@ plans:
 - name: Push Plans Pricing
   plan_count: 0
   slug: push-plans-pricing
-random_paper: 7
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Push Rate Limits
@@ -340,7 +340,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

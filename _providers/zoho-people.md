@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ modified: '2026-05-23'
 name: Zoho People
 nav: Providers
 network: true
-overview: 'Zoho People publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendance API, Automation API, Dashboard API, and 4 more. Tagged areas include HR, HRMS, Human Resources, HRIS, and Employee Management.
+overview: 'Zoho People publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendance API, Automation API, Dashboard API, and 4 more. Tagged areas include Human Resources, HRMS, HRIS, Employee Management, and Attendance.
 
 
   The Zoho People catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -249,7 +249,7 @@ plans:
 - name: Zoho People Plans Pricing
   plan_count: 5
   slug: zoho-people-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Zoho People Rate Limits
@@ -308,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -329,9 +329,8 @@ security:
   summary_line: security.txt · contact published
 slug: zoho-people
 tags:
-- HR
-- HRMS
 - Human Resources
+- HRMS
 - HRIS
 - Employee Management
 - Attendance

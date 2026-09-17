@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST API for the Ermeo connected-operator platform. Authenticated with OAuth 2.0 (Bearer access tokens), it lets external systems read and write equipment, forms, reports, and field data so customers '
@@ -113,7 +113,7 @@ overview: 'Ermeo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ermeo''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 11
+random_paper: 8
 score:
   band: emerging
   composite: 17.2
@@ -136,7 +136,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -160,7 +160,7 @@ tags:
 - Field Operations
 - Industrial
 - Maintenance
-- Inspections
+- Inspection
 - Software-as-a-Service
 website: https://www.ermeo.com/en/
 ---

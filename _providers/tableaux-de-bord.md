@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   slug: tableaux-de-bord-dashboards-api
 - baseURL: https://your-grafana-instance.com
   baseurl_source: declared
-  description: Manage data source connections
-  name: Tableaux De Bord Datasources API
-  slug: tableaux-de-bord-datasources-api
-- baseURL: https://your-grafana-instance.com
-  baseurl_source: declared
   description: Organize dashboards in folders
   name: Tableaux De Bord Folders API
   slug: tableaux-de-bord-folders-api
@@ -88,6 +83,11 @@ apis:
   description: Manage Grafana users
   name: Tableaux De Bord Users API
   slug: tableaux-de-bord-users-api
+- baseURL: https://your-metabase-instance.com
+  baseurl_source: declared
+  description: Manage data source connections
+  name: Tableaux De Bord Data Sources API
+  slug: tableaux-de-bord-data-sources-api
 artifact_total: 32
 collections:
 - collection_type: open
@@ -212,7 +212,7 @@ plans:
 - name: Tableaux De Bord Plans Pricing
   plan_count: 3
   slug: tableaux-de-bord-plans-pricing
-random_paper: 14
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Tableaux De Bord Rate Limits
@@ -255,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -130,7 +130,7 @@ overview: 'Onlia is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Onlia''s developer surface includes engineering blog, support, developer portal, and 16 more developer resources.'
-random_paper: 6
+random_paper: 3
 score:
   band: emerging
   composite: 11.7
@@ -164,7 +164,7 @@ score:
     regime_id: insurance
     score: 21.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

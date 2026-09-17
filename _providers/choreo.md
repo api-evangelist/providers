@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -49,11 +49,6 @@ apis:
   description: Monitoring alerts for APIs and components.
   name: Choreo Alerts API
   slug: choreo-alerts-api
-- baseURL: https://devportal.choreo.dev/api/v1
-  baseurl_source: spec
-  description: The Apis API from Choreo — 4 operation(s) for apis.
-  name: Choreo Apis API
-  slug: choreo-apis-api
 - baseURL: https://devportal.choreo.dev/api/v1
   baseurl_source: spec
   description: Generate OAuth 2.0 and API key credentials.
@@ -124,6 +119,11 @@ apis:
   description: API usage statistics and request metrics.
   name: Choreo Usage API
   slug: choreo-usage-api
+- baseURL: https://devportal.choreo.dev/api/v1
+  baseurl_source: spec
+  description: The Apis API from Choreo — 4 operation(s) for apis.
+  name: Choreo APIS API
+  slug: choreo-apis-api
 artifact_total: 94
 collections:
 - collection_type: postman
@@ -413,7 +413,7 @@ modified: '2026-05-19'
 name: Choreo
 nav: Providers
 network: true
-overview: 'Choreo publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Apis API, Application Keys API, and 13 more. Tagged areas include Ai Apps, API Management, CI/CD, Cloud-Native, and DevOps.
+overview: 'Choreo publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Application Keys API, Applications API, and 13 more. Tagged areas include Ai Apps, API Management, CI/CD, Cloud-Native, and DevOps.
 
 
   The Choreo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -424,7 +424,7 @@ plans:
 - name: Choreo Plans Pricing
   plan_count: 3
   slug: choreo-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Choreo Rate Limits
@@ -472,7 +472,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

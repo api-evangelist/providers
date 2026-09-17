@@ -23,27 +23,177 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 54.0
-  scored_at: '2026-09-15'
+  score: 59.4
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.withone.ai
   baseurl_source: declared
-  description: One is the current successor brand to IntegrationOS and Pica. It provides agent infrastructure with a unified CLI for 250+ platforms and 50,000+ tools, managed OAuth (AuthKit), multi-step Flows, memor
-  name: One (successor to IntegrationOS / Pica)
-  slug: successor
-artifact_total: 10
+  description: Manage connection access restrictions
+  name: IntegrationOS Access API
+  slug: integration-os-access-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Search and list available actions for platforms
+  name: IntegrationOS Actions API
+  slug: integration-os-actions-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: View cron run history for AI agents
+  name: IntegrationOS AI Agent Cron Runs API
+  slug: integration-os-ai-agent-cron-runs-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Manage AI agents for automation and orchestration
+  name: IntegrationOS AI Agents API
+  slug: integration-os-ai-agents-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Manage secrets for AI agent runner pods
+  name: IntegrationOS AI Runner Secrets API
+  slug: integration-os-ai-runner-secrets-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Manage AI agent runner pods
+  name: IntegrationOS AI Runners API
+  slug: integration-os-ai-runners-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Manage AI skills with session or secret key authentication
+  name: IntegrationOS AI Skills API
+  slug: integration-os-ai-skills-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: AuthKit initialization and token management
+  name: IntegrationOS Auth Kit API
+  slug: integration-os-authkit-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: The Billing API from IntegrationOS — 1 operation(s) for billing.
+  name: IntegrationOS Billing API
+  slug: integration-os-billing-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: List and retrieve connection definitions
+  name: IntegrationOS Connection Definitions API
+  slug: integration-os-connection-definitions-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: List and retrieve connection OAuth definitions
+  name: IntegrationOS Connection OAuth Definitions API
+  slug: integration-os-connection-oauth-definitions-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Manage connections
+  name: IntegrationOS Connections API
+  slug: integration-os-connections-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: List available connectors
+  name: IntegrationOS Connectors API
+  slug: integration-os-connectors-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: The Event Access API from IntegrationOS — 6 operation(s) for event access.
+  name: IntegrationOS Event Access API
+  slug: integration-os-event-access-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Search knowledge base
+  name: IntegrationOS Knowledge API
+  slug: integration-os-knowledge-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: 'The live customer link: status, API-key rotation, and the customer-facing connect flow'
+  name: IntegrationOS Link API
+  slug: integration-os-link-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: 'Agency-side lifecycle of customer link invitations: send, list, resend, revoke'
+  name: IntegrationOS Link Invitations API
+  slug: integration-os-link-invitations-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Agency-side templates that produce per-customer link invitations
+  name: IntegrationOS Link Templates API
+  slug: integration-os-link-templates-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: The Marketplace API from IntegrationOS — 5 operation(s) for marketplace.
+  name: IntegrationOS Marketplace API
+  slug: integration-os-marketplace-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: The OAuth Authorizations API from IntegrationOS — 2 operation(s) for oauth authorizations.
+  name: IntegrationOS OAuth Authorizations API
+  slug: integration-os-oauth-authorizations-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: The OAuth Clients API from IntegrationOS — 7 operation(s) for oauth clients.
+  name: IntegrationOS OAuth Clients API
+  slug: integration-os-oauth-clients-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Programmatically manage organizations, their members, invitations, AuthKit configuration, and API keys with a service-account API key
+  name: IntegrationOS Organizations API
+  slug: integration-os-organizations-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Proxy requests to external APIs through configured connections
+  name: IntegrationOS Passthrough API
+  slug: integration-os-passthrough-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Programmatically manage projects inside an organization — including members, invitations, and project-scoped API keys — with a service-account API key
+  name: IntegrationOS Projects API
+  slug: integration-os-projects-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: User management
+  name: IntegrationOS Users API
+  slug: integration-os-users-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Manage vault connections with detailed views
+  name: IntegrationOS Vault API
+  slug: integration-os-vault-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: The Webhook Events API from IntegrationOS — 2 operation(s) for webhook events.
+  name: IntegrationOS Webhook Events API
+  slug: integration-os-webhook-events-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Manage webhook relay endpoints, events, and deliveries
+  name: IntegrationOS Webhook Relay API
+  slug: integration-os-webhook-relay-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Manage webhook subscriptions and events
+  name: IntegrationOS Webhook Subscriptions API
+  slug: integration-os-webhook-subscriptions-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: Identify the caller behind a secret key
+  name: IntegrationOS Whoami API
+  slug: integration-os-whoami-api
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: The OAuth API from IntegrationOS — 7 operation(s) for oauth.
+  name: IntegrationOS O Auth API
+  slug: integration-os-oauth-api
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Integration Os Webhooks
@@ -118,10 +268,10 @@ common:
   type: HistoricalGitHub
   url: https://github.com/integration-os
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/integration-os/refs/heads/main/openapi/integration-os-one-api-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/integration-os/refs/heads/main/openapi/_original/integration-os-one-api-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/integration-os-one-api-openapi.json
+  url: openapi/_original/integration-os-one-api-openapi.json
 - group: agent
   href: https://raw.githubusercontent.com/api-evangelist/integration-os/refs/heads/main/mcp/integration-os-mcp.yml
   title: ''
@@ -269,6 +419,10 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/withoneai
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:hello@withone.ai
 created: '2026-03-27'
 description: 'IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider''s own changelog records the step as "Pica is now One". One is an agent infrastructure platform: authenticated access to 789 platforms and 111,176 actions through a unified CLI, managed OAuth (AuthKit), multi-step Flows, inbound webhook Relay, and both a hosted and a local Model Context Protocol server. This record preserves the IntegrationOS history and profiles the active successor''s published surface, including its OpenAPI 3.1.0 contract (248 operations), its four-tool MCP server, its llms.txt and its agent.json.'
 finops:
@@ -281,22 +435,22 @@ mcp_servers:
 - description: One ships BOTH a hosted remote MCP server and a local-stdio server, and the provider documents them as two ways to reach the same four tools. The remote endpoint is reachable and OAuth-gated; the loca
   name: IntegrationOS MCP Server
   slug: integrationos-mcp-server
-modified: '2026-09-13'
+modified: '2026-09-16'
 name: IntegrationOS
 nav: Providers
 network: true
-overview: 'IntegrationOS publishes 1 API on the [APIs.io](https://apis.io/) network: One (successor to IntegrationOS / Pica). Tagged areas include Agent Infrastructure, AI Agents, Connectors, Historical, and Integration.
+overview: 'IntegrationOS publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Access API, Actions API, AI Agent Cron Runs API, and 28 more. Tagged areas include Agent Infrastructure, AI Agents, Connectors, Historical, and Integration.
 
 
   The IntegrationOS catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  IntegrationOS''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, CLI, sandbox, and 41 more developer resources.'
+  IntegrationOS''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, CLI, sandbox, and 42 more developer resources.'
 plans:
 - name: Integration Os Plans Pricing
   plan_count: 4
   slug: integration-os-plans-pricing
-random_paper: 10
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Integration Os Rate Limits
@@ -318,30 +472,35 @@ scopes:
   slug: integration-os-scopes
   summary_line: 38 scopes · authorizationCode
 score:
-  band: strong
-  composite: 64.9
+  band: exemplar
+  composite: 67.5
   coverage:
     artifact_dirs: 27
-    catalog_earned: 64.0
+    catalog_earned: 61.0
     catalog_earned_first_party: 24.0
-    catalog_gap: 51.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 47.6
+    contract_quality: 60.5
     developer_ergonomics: 85.7
-    discoverability: 75.9
+    discoverability: 70.4
     operational_transparency: 76.3
   previous_composite: 64.9
   provenance:
     conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 31
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

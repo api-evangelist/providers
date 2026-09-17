@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ overview: 'FITCO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   FITCO''s developer surface includes pricing, engineering blog, and 5 more developer resources.'
-random_paper: 8
+random_paper: 5
 score:
   band: emerging
   composite: 11.0
@@ -110,7 +110,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -129,8 +129,8 @@ tags:
 - Gym Management
 - Software-as-a-Service
 - Latin America
-- Bookings
-- Memberships
+- Booking
+- Membership
 - Payments
 - Wellness
 - Boutique Fitness

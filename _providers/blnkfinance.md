@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 52.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Managed Cloud REST surface covering OAuth auth, a Proxy API to a Core instance, Data API, Filters API, Alerts API, and the MCP endpoint. Auth via API keys or OAuth.
@@ -290,6 +290,10 @@ common:
   title: ''
   type: ToolCrosswalk
   url: mcp/blnkfinance-tool-crosswalk.yml
+- group: operate
+  title: ''
+  type: Contact
+  url: mailto:sales@blnkfinance.com
 created: '2026-08-26'
 description: Open-source double-entry ledger for financial products (wallets, loans, payouts, escrow, cards). Available as self-hosted Blnk Core (OSS engine) and Blnk Cloud (managed), plus Blnk Watch for transaction monitoring. Exposes REST APIs with a public OpenAPI spec, hosted MCP servers, llms.txt, and installable agent skills.
 image: https://blnkfinance.com/_astro/og-default.4FpZOtzr.png
@@ -311,12 +315,12 @@ overview: 'Blnk Finance publishes 8 APIs on the [APIs.io](https://apis.io/) netw
   The Blnk Finance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Blnk Finance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 35 more developer resources.'
+  Blnk Finance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 36 more developer resources.'
 plans:
 - name: Blnkfinance Plans Pricing
   plan_count: 4
   slug: blnkfinance-plans-pricing
-random_paper: 13
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Blnkfinance Rate Limits
@@ -365,7 +369,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

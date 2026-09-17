@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: The PebblePost JavaScript tag is the provider's public client-side integration surface. Brands drop a script on their site that populates a window._pp array with a Brand ID (brid) and Brand Customer I
@@ -194,7 +194,7 @@ plans:
 - name: Pebblepost Plans Pricing
   plan_count: 0
   slug: pebblepost-plans-pricing
-random_paper: 1
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Pebblepost Rate Limits
@@ -226,7 +226,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: Threshold-key Auth Network nodes that issue and recover key shares anchored to OAuth/social/passkey identity providers. Accessed primarily through the Web3Auth client SDK rather than as a developer-fa
@@ -109,7 +109,7 @@ plans:
 - name: Web3Auth Plans Pricing
   plan_count: 4
   slug: web3auth-plans-pricing
-random_paper: 5
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Web3Auth Rate Limits
@@ -142,7 +142,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

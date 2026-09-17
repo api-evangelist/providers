@@ -33,7 +33,7 @@ name: Fanbread
 nav: Providers
 network: true
 overview: Fanbread is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Venture Backed, 500 Global, and Media.
-random_paper: 0
+random_paper: 5
 security:
 - kind: domain-security
   name: Fanbread Domain Security

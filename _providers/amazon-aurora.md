@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -98,6 +98,10 @@ collections:
   name: Amazon Aurora DB Cluster Endpoints Global Clusters API
   slug: open-amazon-aurora-global-clusters-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/overlays/amazon-aurora-openapi-overlay.yaml
   title: ''
@@ -674,7 +678,7 @@ mcp_servers:
 - description: ''
   name: Amazon Aurora MCP Server
   slug: amazon-aurora-mcp-server
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon Aurora
 nav: Providers
 network: true
@@ -684,8 +688,8 @@ overview: 'Amazon Aurora publishes 6 APIs on the [APIs.io](https://apis.io/) net
   The Amazon Aurora catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Aurora''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 18
+  Amazon Aurora''s developer surface includes authentication and 11 more developer resources.'
+random_paper: 21
 rules:
 - effective_rule_count: 5
   extends: []
@@ -737,7 +741,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -769,4 +773,5 @@ use_cases:
 - Financial applications requiring ACID compliance
 - Global applications needing low-latency multi-region access
 - Development and testing with fast database cloning
+website: https://amazon.com
 ---

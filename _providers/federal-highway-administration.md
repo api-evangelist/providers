@@ -33,19 +33,74 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.2
-  scored_at: '2026-09-15'
-api_count: 2
+  scored_at: '2026-09-16'
+api_count: 1
 apis:
 - description: The Federal Highway Administration provides stewardship over the Nation's highways, bridges and tunnels.
   name: Federal Highway Administration
   slug: federal-highway-administration
 - baseURL: http://localhost:8080
   baseurl_source: spec
-  description: Open-source REST API published by the FHWA Saxton Transportation Operations Laboratory (STOL). It sits between mobile applications and a Multi-Access Edge Computing V2X broker, and provides Keycloak-b
-  name: FHWA V2X App API
-  slug: v2x-app-api
-artifact_total: 7
+  description: Authentication and authorization for Registration and Deposit endpoints
+  name: Federal Highway Administration Authentication API
+  slug: federal-highway-administration-authentication-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The configuration-rest-controller API from Federal Highway Administration — 3 operation(s) for configuration-rest-controller.
+  name: Federal Highway Administration Configuration Rest Controller API
+  slug: federal-highway-administration-configuration-rest-controller-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: V2X Message Deposit endpoints for deployment to the ETX MQTT Broker
+  name: Federal Highway Administration Deposit API
+  slug: federal-highway-administration-deposit-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Geofence deployment management endpoints
+  name: Federal Highway Administration Geofence Deployments API
+  slug: federal-highway-administration-geofence-deployments-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Geofence expiration management endpoints
+  name: Federal Highway Administration Geofence Expiration API
+  slug: federal-highway-administration-geofence-expiration-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Path management endpoints for GeoJSON-like path data
+  name: Federal Highway Administration Path Management API
+  slug: federal-highway-administration-path-management-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: ETX client registration and connection management endpoints
+  name: Federal Highway Administration Registration API
+  slug: federal-highway-administration-registration-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Secret configuration endpoints
+  name: Federal Highway Administration Secret Management API
+  slug: federal-highway-administration-secret-management-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: TIM ITIS phrases and metadata configuration endpoints
+  name: Federal Highway Administration TIM Configuration API
+  slug: federal-highway-administration-tim-configuration-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Endpoints for managing user registration limits
+  name: Federal Highway Administration User Limits Management API
+  slug: federal-highway-administration-user-limits-management-api
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Endpoints for managing vendor-wide registration limits
+  name: Federal Highway Administration Vendor Limits Management API
+  slug: federal-highway-administration-vendor-limits-management-api
+artifact_total: 17
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/overlays/federal-highway-administration-v2x-app-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/federal-highway-administration-v2x-app-api-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/federal-highway-administration/refs/heads/main/authentication/federal-highway-administration-authentication.yml
   title: ''
@@ -153,22 +208,22 @@ modified: '2026-09-09'
 name: Federal Highway Administration
 nav: Providers
 network: true
-overview: 'Federal Highway Administration publishes 1 API on the [APIs.io](https://apis.io/) network: FHWA V2X App API. Tagged areas include Federal-Government, Transportation, Highways, Bridges, and Connected Vehicles.
+overview: 'Federal Highway Administration publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Configuration Rest Controller API, Deposit API, and 8 more. Tagged areas include Federal-Government, Transportation, Highways, Bridge, and Connected Vehicles.
 
 
-  Federal Highway Administration''s developer surface includes authentication, documentation, support, changelog, and 16 more developer resources.'
+  Federal Highway Administration''s developer surface includes authentication, documentation, support, changelog, and 17 more developer resources.'
 plans:
 - name: Federal Highway Administration Plans Pricing
   plan_count: 0
   slug: federal-highway-administration-plans-pricing
-random_paper: 10
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Federal Highway Administration Rate Limits
   slug: federal-highway-administration-rate-limits
 score:
   band: thin
-  composite: 32.5
+  composite: 32.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 35.0
@@ -176,11 +231,11 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 7.9
     contract_governance: 0.0
-    contract_quality: 53.1
+    contract_quality: 51.6
     developer_ergonomics: 28.0
     discoverability: 66.7
     operational_transparency: 18.4
@@ -191,7 +246,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 11
     mcp: derived
     skills: derived
   regulatory:
@@ -201,7 +256,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -221,7 +276,7 @@ tags:
 - Federal-Government
 - Transportation
 - Highways
-- Bridges
+- Bridge
 - Connected Vehicles
 - V2X
 - Open-Source

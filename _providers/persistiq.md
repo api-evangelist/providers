@@ -35,14 +35,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 5
+- acting_count: 13
   human_in_the_loop: 0
   name: Persistiq Agentic Access
-  operation_count: 13
+  operation_count: 27
   slug: persistiq-agentic-access
-  summary_line: 13 operations · 5 acting
+  summary_line: 27 operations · 13 acting
 api_count: 2
 apis:
 - baseURL: https://api.persistiq.com
@@ -142,10 +142,10 @@ common:
   type: AgentSkill
   url: skills/persistiq-handle-campaign-replies.md
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/persistiq-api-v1-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/openapi/_original/persistiq-api-v1-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/persistiq-api-v1-openapi.json
+  url: openapi/_original/persistiq-api-v1-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/overlays/persistiq-openapi-overlay.yaml
   title: ''
@@ -292,7 +292,7 @@ created: '2026-07-17'
 description: PersistIQ is a sales engagement platform for small teams to find new customers, start conversations, and personalize sales outreach at scale from one place. It combines prospect research (Chrome extension), multi-channel outreach (email, calls, tasks), campaign management with A/B testing, performance analytics, and CRM integrations. PersistIQ exposes a REST API (v1) for users, leads (prospects), lead statuses and fields, tags, campaigns (including duplication and inbox replies), activity events, Do Not Contact domains, and a webhook plugin carrying five events. It is specified by PersistIQ's own OpenAPI 3.0.1 document, served from the API host at /api-docs/v1/swagger.json. Authentication is a single company-wide API key sent in the x-api-key header, with page-number pagination and a documented 100 request/minute per-key rate limit.
 image: https://persistiq.com/favicon.ico
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: PersistIQ
 nav: Providers
 network: true
@@ -307,14 +307,14 @@ plans:
 - name: Persistiq Plans Pricing
   plan_count: 0
   slug: persistiq-plans-pricing
-random_paper: 9
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Persistiq Rate Limits
   slug: persistiq-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 49.8
   coverage:
     artifact_dirs: 22
     catalog_earned: 45.0
@@ -322,11 +322,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 56.8
+    contract_quality: 59.3
     developer_ergonomics: 56.5
     discoverability: 75.9
     operational_transparency: 47.4
@@ -342,7 +342,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

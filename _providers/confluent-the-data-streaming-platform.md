@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 49.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 5
@@ -44,13 +44,8 @@ agentic_access:
   operation_count: 523
   slug: confluent-the-data-streaming-platform-agentic-access
   summary_line: 523 operations · 269 acting · 5 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- baseURL: https://api.confluent.cloud
-  baseurl_source: declared
-  description: The Confluent Cloud REST API is the management plane for Confluent Cloud. It is used to manage organizations, environments, Kafka and Flink clusters, service accounts, API keys, role bindings, network
-  name: Confluent Cloud REST API
-  slug: cloud-rest-api
 - description: The Kafka REST API (Confluent REST Proxy in self-managed deployments, Kafka REST in Cloud) provides HTTP access to Apache Kafka topics, consumers, partitions, brokers, and ACLs. Clients without a nati
   name: Confluent Kafka REST API
   slug: kafka-rest-api
@@ -68,30 +63,585 @@ apis:
   slug: flink-rest-api
 - baseURL: https://api.confluent.cloud
   baseurl_source: declared
-  description: The API Keys API from Confluent | the Data Streaming Platform — 2 operation(s) for api keys.
-  name: Confluent | the Data Streaming Platform API Keys API
-  slug: confluent-the-data-streaming-platform-api-keys-api
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) AccessPoint objects represent network connections i'
+  name: Confluent | the Data Streaming Platform Access Points (networking/v1) API
+  slug: confluent-the-data-streaming-platform-access-points-networking-v1-api
 - baseURL: https://api.confluent.cloud
   baseurl_source: declared
-  description: The Clusters API from Confluent | the Data Streaming Platform — 2 operation(s) for clusters.
-  name: Confluent | the Data Streaming Platform Clusters API
-  slug: confluent-the-data-streaming-platform-clusters-api
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform ACL (v3) API
+  slug: confluent-the-data-streaming-platform-acl-v3-api
 - baseURL: https://api.confluent.cloud
   baseurl_source: declared
-  description: The Environments API from Confluent | the Data Streaming Platform — 2 operation(s) for environments.
-  name: Confluent | the Data Streaming Platform Environments API
-  slug: confluent-the-data-streaming-platform-environments-api
+  description: '[![Preview](https://img.shields.io/badge/Lifecycle%20Stage-Preview-%2300afba)](#section/Versioning/API-Lifecycle-Policy) `Agent` models an AI agent that uses a specified model, prompt, and set of tool'
+  name: Confluent | the Data Streaming Platform Agents (sql/v1) API
+  slug: confluent-the-data-streaming-platform-agents-sql-v1-api
 - baseURL: https://api.confluent.cloud
   baseurl_source: declared
-  description: The Organizations API from Confluent | the Data Streaming Platform — 2 operation(s) for organizations.
-  name: Confluent | the Data Streaming Platform Organizations API
-  slug: confluent-the-data-streaming-platform-organizations-api
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `ApiKey` objects represent access to different part'
+  name: Confluent | the Data Streaming Platform API Keys (iam/v2) API
+  slug: confluent-the-data-streaming-platform-api-keys-iam-v2-api
 - baseURL: https://api.confluent.cloud
   baseurl_source: declared
-  description: The Service Accounts API from Confluent | the Data Streaming Platform — 2 operation(s) for service accounts.
-  name: Confluent | the Data Streaming Platform Service Accounts API
-  slug: confluent-the-data-streaming-platform-service-accounts-api
-artifact_total: 41
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) A `quota` object represents a quota configuration f'
+  name: Confluent | the Data Streaming Platform Applied Quotas (service-quota/v1) API
+  slug: confluent-the-data-streaming-platform-applied-quotas-service-quota-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) A Catalog Integration represents configuration rela'
+  name: Confluent | the Data Streaming Platform Catalog Integrations (tableflow/v1) API
+  slug: confluent-the-data-streaming-platform-catalog-integrations-tableflow-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `CertificateAuthority` objects represent signing ce'
+  name: Confluent | the Data Streaming Platform Certificate Authorities (iam/v2) API
+  slug: confluent-the-data-streaming-platform-certificate-authorities-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Identitypool` objects represent workload identitie'
+  name: Confluent | the Data Streaming Platform Certificate Identity Pools (iam/v2) API
+  slug: confluent-the-data-streaming-platform-certificate-identity-pools-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `ClientQuota` objects represent Client Quotas you c'
+  name: Confluent | the Data Streaming Platform Client Quotas (kafka-quotas/v1) API
+  slug: confluent-the-data-streaming-platform-client-quotas-kafka-quotas-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform Cluster Linking (v3) API
+  slug: confluent-the-data-streaming-platform-cluster-linking-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform Cluster (v3) API
+  slug: confluent-the-data-streaming-platform-cluster-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Clusters` objects represent Apache Kafka Clusters '
+  name: Confluent | the Data Streaming Platform Clusters (cmk/v2) API
+  slug: confluent-the-data-streaming-platform-clusters-cmk-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Cluster` represents a ksqlDB runtime that you can '
+  name: Confluent | the Data Streaming Platform Clusters (ksqldbcm/v2) API
+  slug: confluent-the-data-streaming-platform-clusters-ksqldbcm-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Deprecated](https://img.shields.io/badge/Lifecycle%20Stage-Deprecated-%23ff005c)](#section/Versioning/API-Lifecycle-Policy) `Clusters` objects represent Schema Registry Clusters on Confluent Cloud.'
+  name: Confluent | the Data Streaming Platform Clusters (srcm/v2) API
+  slug: confluent-the-data-streaming-platform-clusters-srcm-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Clusters` objects represent Schema Registry Cluste'
+  name: Confluent | the Data Streaming Platform Clusters (srcm/v3) API
+  slug: confluent-the-data-streaming-platform-clusters-srcm-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to test schema compatibility. Rela'
+  name: Confluent | the Data Streaming Platform Compatibility (v1) API
+  slug: confluent-the-data-streaming-platform-compatibility-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) A Compute Pool represents a set of compute resource'
+  name: Confluent | the Data Streaming Platform Compute Pools (fcpm/v2) API
+  slug: confluent-the-data-streaming-platform-compute-pools-fcpm-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to manage and query schema compati'
+  name: Confluent | the Data Streaming Platform Config (v1) API
+  slug: confluent-the-data-streaming-platform-config-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform Configs (v3) API
+  slug: confluent-the-data-streaming-platform-configs-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Connect Artifact` objects represent collection of '
+  name: Confluent | the Data Streaming Platform Connect Artifacts (cam/v1) API
+  slug: confluent-the-data-streaming-platform-connect-artifacts-cam-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Preview](https://img.shields.io/badge/Lifecycle%20Stage-Preview-%2300afba)](#section/Versioning/API-Lifecycle-Policy) `ConnectCluster` object represent Confluent Platform Connect clusters registere'
+  name: Confluent | the Data Streaming Platform Connect Clusters (usm/v1) API
+  slug: confluent-the-data-streaming-platform-connect-clusters-usm-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Connection` represents a core resource used to mod'
+  name: Confluent | the Data Streaming Platform Connections (sql/v1) API
+  slug: confluent-the-data-streaming-platform-connections-sql-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) API for Managed Connectors or Custom Connectors in '
+  name: Confluent | the Data Streaming Platform Connectors (connect/v1) API
+  slug: confluent-the-data-streaming-platform-connectors-connect-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform Consumer Group (v3) API
+  slug: confluent-the-data-streaming-platform-consumer-group-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `ConsumerSharedResource` object contains details of'
+  name: Confluent | the Data Streaming Platform Consumer Shared Resources (cdx/v1) API
+  slug: confluent-the-data-streaming-platform-consumer-shared-resources-cdx-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `ConsumerShare` object respresents the share that y'
+  name: Confluent | the Data Streaming Platform Consumer Shares (cdx/v1) API
+  slug: confluent-the-data-streaming-platform-consumer-shares-cdx-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to retrieve information about sche'
+  name: Confluent | the Data Streaming Platform Contexts (v1) API
+  slug: confluent-the-data-streaming-platform-contexts-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Cost` objects represent the aggregated billing cos'
+  name: Confluent | the Data Streaming Platform Costs (billing/v1) API
+  slug: confluent-the-data-streaming-platform-costs-billing-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Early Access](https://img.shields.io/badge/Lifecycle%20Stage-Early%20Access-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) [![Request Access To Custom Code Logging API EA](https://img.shield'
+  name: Confluent | the Data Streaming Platform Custom Code Loggings (ccl/v1) API
+  slug: confluent-the-data-streaming-platform-custom-code-loggings-ccl-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) CustomConnectPluginVersion objects represent Custom'
+  name: Confluent | the Data Streaming Platform Custom Connect Plugin Versions (ccpm/v1) API
+  slug: confluent-the-data-streaming-platform-custom-connect-plugin-versions-ccpm-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) CustomConnectPlugins objects represent Custom Conne'
+  name: Confluent | the Data Streaming Platform Custom Connect Plugins (ccpm/v1) API
+  slug: confluent-the-data-streaming-platform-custom-connect-plugins-ccpm-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) CustomConnectorPlugins objects represent Custom Con'
+  name: Confluent | the Data Streaming Platform Custom Connector Plugins (connect/v1) API
+  slug: confluent-the-data-streaming-platform-custom-connector-plugins-connect-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) List of supported runtime languages for Custom Conn'
+  name: Confluent | the Data Streaming Platform Custom Connector Runtimes (connect/v1) API
+  slug: confluent-the-data-streaming-platform-custom-connector-runtimes-connect-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to create, retrieve, update, and d'
+  name: Confluent | the Data Streaming Platform Data Encryption Keys (v1) API
+  slug: confluent-the-data-streaming-platform-data-encryption-keys-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Add, remove, and update DNS forwarder for your gate'
+  name: Confluent | the Data Streaming Platform DNS Forwarders (networking/v1) API
+  slug: confluent-the-data-streaming-platform-dns-forwarders-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) DNS record objects are associated with Confluent Cl'
+  name: Confluent | the Data Streaming Platform DNS Records (networking/v1) API
+  slug: confluent-the-data-streaming-platform-dns-records-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) An Endpoint object represents a Fully Qualified Dom'
+  name: Confluent | the Data Streaming Platform Endpoints (endpoint/v1) API
+  slug: confluent-the-data-streaming-platform-endpoints-endpoint-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Early Access](https://img.shields.io/badge/Lifecycle%20Stage-Early%20Access-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) [![Request Access To Partner v2](https://img.shields.io/badge/-Requ'
+  name: Confluent | the Data Streaming Platform Entitlements (partner/v2) API
+  slug: confluent-the-data-streaming-platform-entitlements-partner-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to create, retrieve, update, and d'
+  name: Confluent | the Data Streaming Platform Entity (v1) API
+  slug: confluent-the-data-streaming-platform-entity-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Environment` objects represent an isolated namespa'
+  name: Confluent | the Data Streaming Platform Environments (org/v2) API
+  slug: confluent-the-data-streaming-platform-environments-org-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to create, retrieve, update, and d'
+  name: Confluent | the Data Streaming Platform Exporters (v1) API
+  slug: confluent-the-data-streaming-platform-exporters-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) FlinkArtifact objects represent Flink Artifacts on '
+  name: Confluent | the Data Streaming Platform Flink Artifacts (artifact/v1) API
+  slug: confluent-the-data-streaming-platform-flink-artifacts-artifact-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) A Gateway represents a slice of traffic capacity in'
+  name: Confluent | the Data Streaming Platform Gateways (networking/v1) API
+  slug: confluent-the-data-streaming-platform-gateways-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `GroupMapping` objects establish relationships betw'
+  name: Confluent | the Data Streaming Platform Group Mappings (iam/v2/sso) API
+  slug: confluent-the-data-streaming-platform-group-mappings-iam-v2-sso-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `IdentityPool` objects represent groups of identiti'
+  name: Confluent | the Data Streaming Platform Identity Pools (iam/v2) API
+  slug: confluent-the-data-streaming-platform-identity-pools-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `IdentityProvider` objects represent external OAuth'
+  name: Confluent | the Data Streaming Platform Identity Providers (iam/v2) API
+  slug: confluent-the-data-streaming-platform-identity-providers-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) You can create an `Integration` to specify how we c'
+  name: Confluent | the Data Streaming Platform Integrations (notifications/v1) API
+  slug: confluent-the-data-streaming-platform-integrations-notifications-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Provider Integration` objects represent access to '
+  name: Confluent | the Data Streaming Platform Integrations (pim/v1) API
+  slug: confluent-the-data-streaming-platform-integrations-pim-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Early Access](https://img.shields.io/badge/Lifecycle%20Stage-Early%20Access-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) [![Request Access To Provider Integration](https://img.shields.io/b'
+  name: Confluent | the Data Streaming Platform Integrations (pim/v2) API
+  slug: confluent-the-data-streaming-platform-integrations-pim-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Invitation` objects represent invitations to invit'
+  name: Confluent | the Data Streaming Platform Invitations (iam/v2) API
+  slug: confluent-the-data-streaming-platform-invitations-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) IP Addresses Related guide: [Use Public Egress IP a'
+  name: Confluent | the Data Streaming Platform IP Addresses (networking/v1) API
+  slug: confluent-the-data-streaming-platform-ip-addresses-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The IP Filter Summary endpoint returns an aggregati'
+  name: Confluent | the Data Streaming Platform IP Filter Summaries (iam/v2) API
+  slug: confluent-the-data-streaming-platform-ip-filter-summaries-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `IP Filter` objects are bindings between IP Groups '
+  name: Confluent | the Data Streaming Platform IP Filters (iam/v2) API
+  slug: confluent-the-data-streaming-platform-ip-filters-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Definitions of networks which can be named and refe'
+  name: Confluent | the Data Streaming Platform IP Groups (iam/v2) API
+  slug: confluent-the-data-streaming-platform-ip-groups-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `JWKS` objects represent public key sets for a spec'
+  name: Confluent | the Data Streaming Platform Jwks (iam/v2) API
+  slug: confluent-the-data-streaming-platform-jwks-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Preview](https://img.shields.io/badge/Lifecycle%20Stage-Preview-%2300afba)](#section/Versioning/API-Lifecycle-Policy) `KafkaCluster` object represent Confluent Platform Kafka clusters registered wi'
+  name: Confluent | the Data Streaming Platform Kafka Clusters (usm/v1) API
+  slug: confluent-the-data-streaming-platform-kafka-clusters-usm-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to create, retrieve, update, and d'
+  name: Confluent | the Data Streaming Platform Key Encryption Keys (v1) API
+  slug: confluent-the-data-streaming-platform-key-encryption-keys-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Key` objects represent customer managed keys on de'
+  name: Confluent | the Data Streaming Platform Keys (byok/v1) API
+  slug: confluent-the-data-streaming-platform-keys-byok-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) API for managing the lifecycle for a Managed Connec'
+  name: Confluent | the Data Streaming Platform Lifecycle (connect/v1) API
+  slug: confluent-the-data-streaming-platform-lifecycle-connect-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) API for Managed connectors in Confluent Cloud.'
+  name: Confluent | the Data Streaming Platform Managed Connector Plugins (connect/v1) API
+  slug: confluent-the-data-streaming-platform-managed-connector-plugins-connect-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `MaterializedTableVersion` represents a specific ve'
+  name: Confluent | the Data Streaming Platform Materialized Table Versions (sql/v1) API
+  slug: confluent-the-data-streaming-platform-materialized-table-versions-sql-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `MaterializedTable` represents a core resource used'
+  name: Confluent | the Data Streaming Platform Materialized Tables (sql/v1) API
+  slug: confluent-the-data-streaming-platform-materialized-tables-sql-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to create, retrieve, update, and d'
+  name: Confluent | the Data Streaming Platform Modes (v1) API
+  slug: confluent-the-data-streaming-platform-modes-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) A Network Link Enpoint is associated with a Private'
+  name: Confluent | the Data Streaming Platform Network Link Endpoints (networking/v1) API
+  slug: confluent-the-data-streaming-platform-network-link-endpoints-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) List of incoming Network Link Enpoints associated w'
+  name: Confluent | the Data Streaming Platform Network Link Service Associations (networking/v1) API
+  slug: confluent-the-data-streaming-platform-network-link-service-associations-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Network Link Service is associated with a Private L'
+  name: Confluent | the Data Streaming Platform Network Link Services (networking/v1) API
+  slug: confluent-the-data-streaming-platform-network-link-services-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Network` represents a network (VPC) in Confluent C'
+  name: Confluent | the Data Streaming Platform Networks (networking/v1) API
+  slug: confluent-the-data-streaming-platform-networks-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The type of notifications (and their corresponding '
+  name: Confluent | the Data Streaming Platform Notification Types (notifications/v1) API
+  slug: confluent-the-data-streaming-platform-notification-types-notifications-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) OAuth Token is a [JSON Web Token (JWT)](https://www'
+  name: Confluent | the Data Streaming Platform OAuth Tokens (sts/v1) API
+  slug: confluent-the-data-streaming-platform-oauth-tokens-sts-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) API for managing the offsets for a Managed Connecto'
+  name: Confluent | the Data Streaming Platform Offsets (connect/v1) API
+  slug: confluent-the-data-streaming-platform-offsets-connect-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Stream sharing opt in options ## The Opt Ins Model '
+  name: Confluent | the Data Streaming Platform Opt Ins (cdx/v1) API
+  slug: confluent-the-data-streaming-platform-opt-ins-cdx-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `OrgComputePoolConfig` manages compute pool configu'
+  name: Confluent | the Data Streaming Platform Org Compute Pool Configs (fcpm/v2) API
+  slug: confluent-the-data-streaming-platform-org-compute-pool-configs-fcpm-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Organization` objects represent a customer organiz'
+  name: Confluent | the Data Streaming Platform Organizations (org/v2) API
+  slug: confluent-the-data-streaming-platform-organizations-org-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Early Access](https://img.shields.io/badge/Lifecycle%20Stage-Early%20Access-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) [![Request Access To Partner v2](https://img.shields.io/badge/-Requ'
+  name: Confluent | the Data Streaming Platform Organizations (partner/v2) API
+  slug: confluent-the-data-streaming-platform-organizations-partner-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform Partition (v3) API
+  slug: confluent-the-data-streaming-platform-partition-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Add or remove VPC/VNet peering connections between '
+  name: Confluent | the Data Streaming Platform Peerings (networking/v1) API
+  slug: confluent-the-data-streaming-platform-peerings-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Request a presigned upload URL for new Flink Artifa'
+  name: Confluent | the Data Streaming Platform Presigned Urls (artifact/v1) API
+  slug: confluent-the-data-streaming-platform-presigned-urls-artifact-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Request a presigned upload URL for new Connect Arti'
+  name: Confluent | the Data Streaming Platform Presigned Urls (cam/v1) API
+  slug: confluent-the-data-streaming-platform-presigned-urls-cam-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Request a presigned upload URL for new Custom Conne'
+  name: Confluent | the Data Streaming Platform Presigned Urls (ccpm/v1) API
+  slug: confluent-the-data-streaming-platform-presigned-urls-ccpm-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Request a presigned upload URL for new Custom Conne'
+  name: Confluent | the Data Streaming Platform Presigned Urls (connect/v1) API
+  slug: confluent-the-data-streaming-platform-presigned-urls-connect-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Add or remove access to PrivateLink endpoints by AW'
+  name: Confluent | the Data Streaming Platform Private Link Accesses (networking/v1) API
+  slug: confluent-the-data-streaming-platform-private-link-accesses-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) PrivateLink attachment connection objects represent'
+  name: Confluent | the Data Streaming Platform Private Link Attachment Connections (networking/v1) API
+  slug: confluent-the-data-streaming-platform-private-link-attachment-connections-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) PrivateLink attachment objects represent reservatio'
+  name: Confluent | the Data Streaming Platform Private Link Attachments (networking/v1) API
+  slug: confluent-the-data-streaming-platform-private-link-attachments-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `ProviderSharedResource` object contains details of'
+  name: Confluent | the Data Streaming Platform Provider Shared Resources (cdx/v1) API
+  slug: confluent-the-data-streaming-platform-provider-shared-resources-cdx-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `ProviderShare` object respresents the share that y'
+  name: Confluent | the Data Streaming Platform Provider Shares (cdx/v1) API
+  slug: confluent-the-data-streaming-platform-provider-shares-cdx-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform Records (v3) API
+  slug: confluent-the-data-streaming-platform-records-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Region` objects represent cloud provider regions a'
+  name: Confluent | the Data Streaming Platform Regions (fcpm/v2) API
+  slug: confluent-the-data-streaming-platform-regions-fcpm-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Region` objects represent cloud provider regions w'
+  name: Confluent | the Data Streaming Platform Regions (rtce/v1) API
+  slug: confluent-the-data-streaming-platform-regions-rtce-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Deprecated](https://img.shields.io/badge/Lifecycle%20Stage-Deprecated-%23ff005c)](#section/Versioning/API-Lifecycle-Policy) `Region` objects represent cloud provider regions available when placing '
+  name: Confluent | the Data Streaming Platform Regions (srcm/v2) API
+  slug: confluent-the-data-streaming-platform-regions-srcm-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Region` objects represent cloud provider regions w'
+  name: Confluent | the Data Streaming Platform Regions (tableflow/v1) API
+  slug: confluent-the-data-streaming-platform-regions-tableflow-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `ResourcePreference` objects represent the intent o'
+  name: Confluent | the Data Streaming Platform Resource Preferences (notifications/v1) API
+  slug: confluent-the-data-streaming-platform-resource-preferences-notifications-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `ResourceSubscription` objects represent the intent'
+  name: Confluent | the Data Streaming Platform Resource Subscriptions (notifications/v1) API
+  slug: confluent-the-data-streaming-platform-resource-subscriptions-notifications-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) A role binding grants a Principal a role on resourc'
+  name: Confluent | the Data Streaming Platform Role Bindings (iam/v2) API
+  slug: confluent-the-data-streaming-platform-role-bindings-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) An RtceTopic represents a customer''s Kafka topic en'
+  name: Confluent | the Data Streaming Platform Rtce Topics (rtce/v1) API
+  slug: confluent-the-data-streaming-platform-rtce-topics-rtce-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to create, retrieve, update, and d'
+  name: Confluent | the Data Streaming Platform Schemas (v1) API
+  slug: confluent-the-data-streaming-platform-schemas-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Gets a list of all available scopes for applied quo'
+  name: Confluent | the Data Streaming Platform Scopes (service-quota/v1) API
+  slug: confluent-the-data-streaming-platform-scopes-service-quota-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to search for entities. Related gu'
+  name: Confluent | the Data Streaming Platform Search (v1) API
+  slug: confluent-the-data-streaming-platform-search-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `ServiceAccount` objects are typically used to repr'
+  name: Confluent | the Data Streaming Platform Service Accounts (iam/v2) API
+  slug: confluent-the-data-streaming-platform-service-accounts-iam-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform Share Group (v3) API
+  slug: confluent-the-data-streaming-platform-share-group-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) Encrypted Token shared with consumer ## The Shared '
+  name: Confluent | the Data Streaming Platform Shared Tokens (cdx/v1) API
+  slug: confluent-the-data-streaming-platform-shared-tokens-cdx-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Early Access](https://img.shields.io/badge/Lifecycle%20Stage-Early%20Access-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) [![Request Access To Partner v2](https://img.shields.io/badge/-Requ'
+  name: Confluent | the Data Streaming Platform Signup (partner/v2) API
+  slug: confluent-the-data-streaming-platform-signup-partner-v2-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `StatementException` represents an exception of a `'
+  name: Confluent | the Data Streaming Platform Statement Exceptions (sql/v1) API
+  slug: confluent-the-data-streaming-platform-statement-exceptions-sql-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `StatementResult` represents a result of a `Stateme'
+  name: Confluent | the Data Streaming Platform Statement Results (sql/v1) API
+  slug: confluent-the-data-streaming-platform-statement-results-sql-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: Execute SQL statements against queryable topics and read their results. A statement that resolves quickly returns its results inline; a long-running one is assigned a background job that can be polled
+  name: Confluent | the Data Streaming Platform Statements (query/v1alpha1) API
+  slug: confluent-the-data-streaming-platform-statements-query-v1alpha1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Statement` represents a core resource used to mode'
+  name: Confluent | the Data Streaming Platform Statements (sql/v1) API
+  slug: confluent-the-data-streaming-platform-statements-sql-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) API for requesting the status or the tasks for a Ma'
+  name: Confluent | the Data Streaming Platform Status (connect/v1) API
+  slug: confluent-the-data-streaming-platform-status-connect-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Early Access](https://img.shields.io/badge/Lifecycle%20Stage-Early%20Access-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform Streams Group (v3) API
+  slug: confluent-the-data-streaming-platform-streams-group-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to create, retrieve, update, and d'
+  name: Confluent | the Data Streaming Platform Subjects (v1) API
+  slug: confluent-the-data-streaming-platform-subjects-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `Subscription` objects represent the intent of the '
+  name: Confluent | the Data Streaming Platform Subscriptions (notifications/v1) API
+  slug: confluent-the-data-streaming-platform-subscriptions-notifications-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) A Tableflow Topic represents configuration related '
+  name: Confluent | the Data Streaming Platform Tableflow Topics (tableflow/v1) API
+  slug: confluent-the-data-streaming-platform-tableflow-topics-tableflow-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Preview](https://img.shields.io/badge/Lifecycle%20Stage-Preview-%2300afba)](#section/Versioning/API-Lifecycle-Policy) `Tool` models a reusable tool resource backed by a connection that can be refer'
+  name: Confluent | the Data Streaming Platform Tools (sql/v1) API
+  slug: confluent-the-data-streaming-platform-tools-sql-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy)'
+  name: Confluent | the Data Streaming Platform Topic (v3) API
+  slug: confluent-the-data-streaming-platform-topic-v3-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) AWS Transit Gateway Attachments Related guide: [API'
+  name: Confluent | the Data Streaming Platform Transit Gateway Attachments (networking/v1) API
+  slug: confluent-the-data-streaming-platform-transit-gateway-attachments-networking-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Generally Available](https://img.shields.io/badge/Lifecycle%20Stage-Generally%20Available-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) The API allows you to create, retrieve, update, and d'
+  name: Confluent | the Data Streaming Platform Types (v1) API
+  slug: confluent-the-data-streaming-platform-types-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![Early Access](https://img.shields.io/badge/Lifecycle%20Stage-Early%20Access-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) [![Request Access To User Notifications API v1](https://img.shields'
+  name: Confluent | the Data Streaming Platform User Notifications (notifications/v1) API
+  slug: confluent-the-data-streaming-platform-user-notifications-notifications-v1-api
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: '[![General Availability](https://img.shields.io/badge/Lifecycle%20Stage-General%20Availability-%2345c6e8)](#section/Versioning/API-Lifecycle-Policy) `User` objects represent individuals who may access'
+  name: Confluent | the Data Streaming Platform Users (iam/v2) API
+  slug: confluent-the-data-streaming-platform-users-iam-v2-api
+artifact_total: 151
 asyncapis:
 - description: ''
   name: Confluent The Data Streaming Platform Webhooks
@@ -119,6 +669,11 @@ collections:
   name: Confluent Cloud REST API (selected)
   slug: open-confluent-the-data-streaming-platform
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/confluent-the-data-streaming-platform/refs/heads/main/overlays/confluent-the-data-streaming-platform-cloud-apis-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/confluent-the-data-streaming-platform-cloud-apis-overlay.yaml
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/confluent-the-data-streaming-platform/refs/heads/main/scopes/confluent-the-data-streaming-platform-scopes.yml
   title: ''
@@ -350,18 +905,18 @@ modified: '2026-09-05'
 name: Confluent | the Data Streaming Platform
 nav: Providers
 network: true
-overview: 'Confluent | the Data Streaming Platform publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Confluent Cloud REST API, API Keys API, Clusters API, and 3 more. Tagged areas include Apache Flink, Apache Kafka, Confluent Cloud, Connectors, and Data Streaming.
+overview: 'Confluent | the Data Streaming Platform publishes 116 APIs on the [APIs.io](https://apis.io/) network, including Access Points (networking/v1) API, ACL (v3) API, Agents (sql/v1) API, and 113 more. Tagged areas include Apache Flink, Apache Kafka, Confluent Cloud, Connectors, and Data Streaming.
 
 
   The Confluent | the Data Streaming Platform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Confluent | the Data Streaming Platform''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, training material, CLI, and 41 more developer resources.'
+  Confluent | the Data Streaming Platform''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, training material, CLI, and 42 more developer resources.'
 plans:
 - name: Confluent The Data Streaming Platform Plans Pricing
   plan_count: 5
   slug: confluent-the-data-streaming-platform-plans-pricing
-random_paper: 7
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Confluent The Data Streaming Platform Rate Limits
@@ -373,21 +928,21 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 72.9
+  composite: 72.5
   coverage:
     artifact_dirs: 26
-    catalog_earned: 52.0
+    catalog_earned: 39.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 59.6
+    contract_quality: 67.4
     developer_ergonomics: 85.7
-    discoverability: 75.9
+    discoverability: 51.9
     operational_transparency: 52.6
   previous_composite: 72.9
   provenance:
@@ -397,11 +952,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 116
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

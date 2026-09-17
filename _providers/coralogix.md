@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Coralogix is an observability platform providing log analytics, metrics, tracing, and AI-powered insights.
@@ -93,7 +93,7 @@ plans:
 - name: Coralogix Plans Pricing
   plan_count: 3
   slug: coralogix-plans-pricing
-random_paper: 2
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Coralogix Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 23.0
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

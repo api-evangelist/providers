@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 27.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -150,7 +150,7 @@ overview: 'AI Arena is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AI Arena''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, changelog, authentication, and 15 more developer resources.'
-random_paper: 10
+random_paper: 18
 score:
   band: thin
   composite: 33.4
@@ -174,7 +174,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

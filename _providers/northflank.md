@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 4
 apis:
-- baseURL: https://api.northflank.com/v1
-  baseurl_source: declared
-  description: The Addons API from Northflank — 2 operation(s) for addons.
-  name: Northflank Addons API
-  slug: northflank-addons-api
 - baseURL: https://api.northflank.com/v1
   baseurl_source: declared
   description: The Jobs API from Northflank — 2 operation(s) for jobs.
@@ -65,6 +60,11 @@ apis:
   description: The Services API from Northflank — 2 operation(s) for services.
   name: Northflank Services API
   slug: northflank-services-api
+- baseURL: https://api.northflank.com/v1
+  baseurl_source: declared
+  description: The Add Ons API from Northflank — 2 operation(s) for add ons.
+  name: Northflank Add Ons API
+  slug: northflank-add-ons-api
 artifact_total: 19
 collections:
 - collection_type: open
@@ -151,7 +151,7 @@ modified: '2026-05-19'
 name: Northflank
 nav: Providers
 network: true
-overview: 'Northflank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Addons API, Jobs API, Projects API, and 1 more. Tagged areas include Cloud Deployment, Developer Experience, Internal Developer Platform, and Platform Engineering.
+overview: 'Northflank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Projects API, Services API, and 1 more. Tagged areas include Cloud Deployment, Developer Experience, Internal Developer Platform, and Platform Engineering.
 
 
   Northflank''s developer surface includes authentication, engineering blog, documentation, and 9 more developer resources.'
@@ -159,7 +159,7 @@ plans:
 - name: Northflank Plans Pricing
   plan_count: 3
   slug: northflank-plans-pricing
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Northflank Rate Limits
@@ -191,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -107,11 +107,6 @@ apis:
   slug: kontomatik-score-api
 - baseURL: https://api.kontomatik.com/v1
   baseurl_source: spec
-  description: Redirection-based bank authentication flow
-  name: Kontomatik SignIn API
-  slug: kontomatik-signin-api
-- baseURL: https://api.kontomatik.com/v1
-  baseurl_source: spec
   description: Bank statement PDF parsing
   name: Kontomatik Statements API
   slug: kontomatik-statements-api
@@ -125,6 +120,11 @@ apis:
   description: Vendor / counterparty recognition (beta)
   name: Kontomatik Vendors API
   slug: kontomatik-vendors-api
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Redirection-based bank authentication flow
+  name: Kontomatik Sign In API
+  slug: kontomatik-sign-in-api
 artifact_total: 70
 collections:
 - collection_type: open
@@ -385,7 +385,7 @@ plans:
 - name: Kontomatik Plans Pricing
   plan_count: 2
   slug: kontomatik-plans-pricing
-random_paper: 18
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Kontomatik Rate Limits
@@ -451,7 +451,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 35.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 8
@@ -76,11 +76,6 @@ apis:
   slug: smartcat-clientindustry-api
 - baseURL: https://smartcat.com/api/integration/v1
   baseurl_source: declared
-  description: The CustomFields API from Smartcat — 1 operation(s) for customfields.
-  name: Smartcat CustomFields API
-  slug: smartcat-customfields-api
-- baseURL: https://smartcat.com/api/integration/v1
-  baseurl_source: declared
   description: The Directories API from Smartcat — 2 operation(s) for directories.
   name: Smartcat Directories API
   slug: smartcat-directories-api
@@ -99,11 +94,6 @@ apis:
   description: The FileDisassemblingAlgorithmPresets API from Smartcat — 2 operation(s) for filedisassemblingalgorithmpresets.
   name: Smartcat FileDisassemblingAlgorithmPresets API
   slug: smartcat-filedisassemblingalgorithmpresets-api
-- baseURL: https://smartcat.com/api/integration/v1
-  baseurl_source: declared
-  description: The FileManagement API from Smartcat — 4 operation(s) for filemanagement.
-  name: Smartcat FileManagement API
-  slug: smartcat-filemanagement-api
 - baseURL: https://smartcat.com/api/integration/v1
   baseurl_source: declared
   description: The Glossary API from Smartcat — 7 operation(s) for glossary.
@@ -189,6 +179,16 @@ apis:
   description: The Vendor API from Smartcat — 2 operation(s) for vendor.
   name: Smartcat Vendor API
   slug: smartcat-vendor-api
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Custom Fields API from Smartcat — 1 operation(s) for custom fields.
+  name: Smartcat Custom Fields API
+  slug: smartcat-custom-fields-api
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The File Management API from Smartcat — 4 operation(s) for file management.
+  name: Smartcat File Management API
+  slug: smartcat-file-management-api
 artifact_total: 64
 asyncapis:
 - description: ''
@@ -440,10 +440,10 @@ overview: 'Smartcat publishes 29 APIs on the [APIs.io](https://apis.io/) network
 
 
   Smartcat''s developer surface includes changelog, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 2
+random_paper: 5
 score:
   band: strong
-  composite: 58.5
+  composite: 59.2
   coverage:
     artifact_dirs: 22
     catalog_earned: 37.0
@@ -451,11 +451,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 47.0
+    contract_quality: 49.8
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 50.0
@@ -471,7 +471,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

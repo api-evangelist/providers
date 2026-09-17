@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 17.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,11 +47,6 @@ apis:
 - description: Versioned REST API (v3) for managing Doppler workplaces, projects, environments, configs, secrets, dynamic secrets, service tokens, service accounts, integrations, audit logs, and webhooks. Authentica
   name: Doppler REST API
   slug: rest-api
-- baseURL: https://api.doppler.com/v3
-  baseurl_source: declared
-  description: The ActivityLogs API from Doppler — 1 operation(s) for activitylogs.
-  name: Doppler ActivityLogs API
-  slug: doppler-activitylogs-api
 - baseURL: https://api.doppler.com/v3
   baseurl_source: declared
   description: The Auth API from Doppler — 1 operation(s) for auth.
@@ -79,14 +74,19 @@ apis:
   slug: doppler-secrets-api
 - baseURL: https://api.doppler.com/v3
   baseurl_source: declared
-  description: The ServiceTokens API from Doppler — 1 operation(s) for servicetokens.
-  name: Doppler ServiceTokens API
-  slug: doppler-servicetokens-api
-- baseURL: https://api.doppler.com/v3
-  baseurl_source: declared
   description: The Webhooks API from Doppler — 1 operation(s) for webhooks.
   name: Doppler Webhooks API
   slug: doppler-webhooks-api
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The Activity Logs API from Doppler — 1 operation(s) for activity logs.
+  name: Doppler Activity Logs API
+  slug: doppler-activity-logs-api
+- baseURL: https://api.doppler.com/v3
+  baseurl_source: declared
+  description: The Service Tokens API from Doppler — 1 operation(s) for service tokens.
+  name: Doppler Service Tokens API
+  slug: doppler-service-tokens-api
 artifact_total: 24
 collections:
 - collection_type: open
@@ -189,11 +189,11 @@ modified: '2026-05-11'
 name: Doppler
 nav: Providers
 network: true
-overview: 'Doppler publishes 8 APIs on the [APIs.io](https://apis.io/) network, including ActivityLogs API, Auth API, Configs API, and 5 more. Tagged areas include Secrets Management, SecretOps, DevOps, Configuration Management, and Security.
+overview: 'Doppler publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Configs API, Environments API, and 5 more. Tagged areas include Secrets Management, SecretOps, DevOps, Configuration Management, and Security.
 
 
   Doppler''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: thin
   composite: 31.4
@@ -221,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

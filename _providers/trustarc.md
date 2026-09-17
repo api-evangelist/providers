@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 38.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 17
@@ -198,11 +198,6 @@ apis:
   slug: trustarc-nymity-api
 - baseURL: https://login.truste.com
   baseurl_source: declared
-  description: The PermissionProfiles API from TrustArc — 5 operation(s) for permissionprofiles.
-  name: TrustArc Permission Profiles API
-  slug: trustarc-permissionprofiles-api
-- baseURL: https://login.truste.com
-  baseurl_source: declared
   description: The Preface API from TrustArc — 3 operation(s) for preface.
   name: TrustArc Preface API
   slug: trustarc-preface-api
@@ -258,11 +253,6 @@ apis:
   slug: trustarc-userprofiles-activations-api
 - baseURL: https://login.truste.com
   baseurl_source: declared
-  description: The UserProfiles API from TrustArc — 11 operation(s) for userprofiles.
-  name: TrustArc User Profiles API
-  slug: trustarc-userprofiles-api
-- baseURL: https://login.truste.com
-  baseurl_source: declared
   description: The UserProfiles-Users API from TrustArc — 4 operation(s) for userprofiles-users.
   name: TrustArc User Profiles Users API
   slug: trustarc-userprofiles-users-api
@@ -311,6 +301,16 @@ apis:
   description: The Xauths API from TrustArc — 4 operation(s) for xauths.
   name: TrustArc Xauths API
   slug: trustarc-xauths-api
+- baseURL: https://{your-ccm-domain}
+  baseurl_source: declared
+  description: The Permission Profiles API from TrustArc — 5 operation(s) for permission profiles.
+  name: TrustArc Permission Profiles API
+  slug: trustarc-permission-profiles-api
+- baseURL: https://{your-ccm-domain}
+  baseurl_source: declared
+  description: The User Profiles API from TrustArc — 11 operation(s) for user profiles.
+  name: TrustArc User Profiles API
+  slug: trustarc-user-profiles-api
 artifact_total: 64
 asyncapis:
 - description: ''
@@ -598,7 +598,7 @@ plans:
 - name: Trustarc Plans Pricing
   plan_count: 0
   slug: trustarc-plans-pricing
-random_paper: 6
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Trustarc Rate Limits
@@ -610,7 +610,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 50.6
+  composite: 51.6
   coverage:
     artifact_dirs: 25
     catalog_earned: 34.0
@@ -618,11 +618,11 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 23.7
     contract_governance: 18.2
-    contract_quality: 55.5
+    contract_quality: 59.4
     developer_ergonomics: 63.7
     discoverability: 63.0
     operational_transparency: 50.0
@@ -638,7 +638,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -685,7 +685,7 @@ tags:
 - AI Governance
 - Responsible AI
 - Compliance
-- Certifications
+- Certification
 - RegTech
 - Trust Center
 - Enterprise Saas

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 21.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 48 operations · 25 acting
 api_count: 1
 apis:
-- baseURL: https://api.openpay.mx/v1
-  baseurl_source: declared
-  description: Manage customer bank accounts used as payout destinations.
-  name: Openpay BankAccounts API
-  slug: openpay-bankaccounts-api
 - baseURL: https://api.openpay.mx/v1
   baseurl_source: declared
   description: Store and manage cards at merchant or customer level.
@@ -100,6 +95,11 @@ apis:
   description: Register and manage webhook endpoints for event notifications.
   name: Openpay Webhooks API
   slug: openpay-webhooks-api
+- baseURL: https://api.openpay.mx/v1
+  baseurl_source: declared
+  description: Manage customer bank accounts used as payout destinations.
+  name: Openpay Bank Accounts API
+  slug: openpay-bank-accounts-api
 artifact_total: 30
 collections:
 - collection_type: open
@@ -200,7 +200,7 @@ modified: '2026-06-21'
 name: Openpay
 nav: Providers
 network: true
-overview: 'Openpay publishes 11 APIs on the [APIs.io](https://apis.io/) network, including BankAccounts API, Cards API, Charges API, and 8 more. Tagged areas include Payments, Fintech, Cards, SPEI, and Subscription.
+overview: 'Openpay publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Cards API, Charges API, Customers API, and 8 more. Tagged areas include Payments, Fintech, Cards, SPEI, and Subscription.
 
 
   Openpay''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -208,7 +208,7 @@ plans:
 - name: Openpay Plans Pricing
   plan_count: 2
   slug: openpay-plans-pricing
-random_paper: 8
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Openpay Rate Limits
@@ -246,7 +246,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

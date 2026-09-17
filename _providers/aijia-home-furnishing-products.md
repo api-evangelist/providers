@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 3
 common:
@@ -79,12 +79,12 @@ modified: '2026-09-14'
 name: Aijia Home Furnishing Products
 nav: Providers
 network: true
-overview: Aijia Home Furnishing Products is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Furnishing, Furniture, Interior Design, and Home Improvement.
+overview: Aijia Home Furnishing Products is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Furnishings, Furniture, Interior Design, and Home Improvement.
 plans:
 - name: Aijia Home Furnishing Products Plans Pricing
   plan_count: 0
   slug: aijia-home-furnishing-products-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Aijia Home Furnishing Products Rate Limits
@@ -116,7 +116,7 @@ score:
     - greater-china
   previous_composite: 5.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -130,7 +130,7 @@ security:
 slug: aijia-home-furnishing-products
 tags:
 - Company
-- Home Furnishing
+- Home Furnishings
 - Furniture
 - Interior Design
 - Home Improvement

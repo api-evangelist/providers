@@ -29,7 +29,7 @@ name: Seculert
 nav: Providers
 network: true
 overview: Seculert is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Threat Detection, Security, and Analytics.
-random_paper: 10
+random_paper: 13
 security:
 - kind: domain-security
   name: Seculert Domain Security

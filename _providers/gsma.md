@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -72,19 +72,9 @@ apis:
   slug: gsma-check-device-swap-api
 - baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
   baseurl_source: declared
-  description: operation to perform a sim swap check for a past period
-  name: GSMA Check SIM Swap API
-  slug: gsma-check-sim-swap-api
-- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
-  baseurl_source: declared
   description: The **Debit Mandates** APIs allow a mobile money customer to provide prior approval for payments to be taken from their account by a requesting payee. If the amount limit field is not supplied, the pa
   name: GSMA Debit Mandates API
   slug: gsma-debit-mandates-api
-- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
-  baseurl_source: declared
-  description: Operations to get the current reachability status of a device
-  name: GSMA Device reachability status API
-  slug: gsma-device-reachability-status-api
 - baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
   baseurl_source: declared
   description: Find the closest Edge Cloud Zone to the user device.
@@ -110,11 +100,6 @@ apis:
   description: Retrieve the location of a device
   name: GSMA Location Retrieval API
   slug: gsma-location-retrieval-api
-- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
-  baseurl_source: declared
-  description: Verification of the location of a device
-  name: GSMA Location Verification API
-  slug: gsma-location-verification-api
 - baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
   baseurl_source: declared
   description: Operations to match a customer identity against the account data bound to their phone number.
@@ -147,11 +132,6 @@ apis:
   slug: gsma-phone-number-verify-api
 - baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
   baseurl_source: declared
-  description: Operations to retrieve population density information.
-  name: GSMA Population Density Data API
-  slug: gsma-population-density-data-api
-- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
-  baseurl_source: declared
   description: Manage QoS sessions
   name: GSMA QoS Sessions API
   slug: gsma-qos-sessions-api
@@ -172,16 +152,6 @@ apis:
   slug: gsma-retrieve-device-swap-date-api
 - baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
   baseurl_source: declared
-  description: operation to retrieve latest SIM swap change date
-  name: GSMA Retrieve SIM Swap Date API
-  slug: gsma-retrieve-sim-swap-date-api
-- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
-  baseurl_source: declared
-  description: Operation to get device roaming status and country information (if roaming) synchronously
-  name: GSMA Roaming status retrieval API
-  slug: gsma-roaming-status-retrieval-api
-- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
-  baseurl_source: declared
   description: 'Supporting APIs consist of the following: - **Heartbeat API:** Used for monitoring purposes and establishes whether the system of an API provider is in a state that enables a client to submit a reques'
   name: GSMA Supporting API
   slug: gsma-supporting-api
@@ -200,7 +170,7 @@ apis:
   description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: GSMA Unconditional Call Forwarding information retrieval API
   slug: gsma-unconditional-call-forwarding-information-retrieval-api
-artifact_total: 55
+artifact_total: 49
 asyncapis:
 - description: ''
   name: Gsma Webhooks
@@ -517,14 +487,14 @@ modified: '2026-07-25'
 name: GSMA
 nav: Providers
 network: true
-overview: 'GSMA publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorisation Codes API, Bills API, and 28 more. Tagged areas include Telecommunications, United Kingdom, Standards, Trade Association, and Network APIs.
+overview: 'GSMA publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorisation Codes API, Bills API, and 22 more. Tagged areas include Telecommunications, United Kingdom, Standards, Trade Association, and Network APIs.
 
 
   The GSMA catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   GSMA''s developer surface includes authentication, documentation, sandbox, YouTube channel, changelog, API reference, getting-started guide, and 49 more developer resources.'
-random_paper: 4
+random_paper: 6
 scopes:
 - name: Gsma Scopes
   scope_count: 30
@@ -532,7 +502,7 @@ scopes:
   summary_line: 30 scopes
 score:
   band: strong
-  composite: 57.0
+  composite: 56.9
   coverage:
     artifact_dirs: 25
     catalog_earned: 37.0
@@ -540,11 +510,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 58.7
+    contract_quality: 58.3
     developer_ergonomics: 73.2
     discoverability: 68.5
     operational_transparency: 44.7
@@ -564,7 +534,7 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 31
+      total: 25
     mcp: derived
     skills: derived
   regulatory:
@@ -574,7 +544,7 @@ score:
     regime_id: telecommunications
     score: 80.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

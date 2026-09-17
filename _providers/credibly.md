@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: 'REST API (V2) enabling approved broker and referral partners to submit loan applications, upload supporting documentation, receive webhook-based status updates, identify outstanding stipulations, and '
@@ -113,7 +113,7 @@ plans:
 - name: Credibly Plans Pricing
   plan_count: 7
   slug: credibly-plans-pricing
-random_paper: 6
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Credibly Rate Limits
@@ -144,7 +144,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

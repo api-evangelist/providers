@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -80,7 +80,7 @@ name: Opsani
 nav: Providers
 network: true
 overview: Opsani is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Optimization, Kubernetes, Cloud-Native, and Machine-Learning.
-random_paper: 20
+random_paper: 12
 score:
   band: minimal
   composite: 10.4
@@ -115,7 +115,7 @@ score:
     score: 25.0
   previous_composite: 10.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

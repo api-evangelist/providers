@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://{subscription}.bonitacloud.com/bonita
@@ -190,11 +190,6 @@ apis:
   description: CustomUserValue
   name: Bonitasoft Custom User Value API
   slug: bonitasoft-customuservalue-api
-- baseURL: https://{subscription}.bonitacloud.com/bonita
-  baseurl_source: declared
-  description: Configure how Bonita automatically deletes obsolete business data. A retention rule applies to a specific business object type and defines when its instances become eligible for deletion based on a re
-  name: Bonitasoft Data Retention API
-  slug: bonitasoft-dataretention-api
 - baseURL: https://{subscription}.bonitacloud.com/bonita
   baseurl_source: declared
   description: Delegate human tasks from one user (the delegator) to another (the delegate) for a bounded period and a whitelist of processes. Delegation grants the delegate visibility and execution rights on the de
@@ -420,6 +415,11 @@ apis:
   description: UserTask
   name: Bonitasoft User Task API
   slug: bonitasoft-usertask-api
+- baseURL: https://{subscription}.bonitacloud.com/bonita
+  baseurl_source: declared
+  description: Configure how Bonita automatically deletes obsolete business data. A retention rule applies to a specific business object type and defines when its instances become eligible for deletion based on a re
+  name: Bonitasoft Data Retention API
+  slug: bonitasoft-data-retention-api
 artifact_total: 81
 common:
 - group: commercial
@@ -612,28 +612,28 @@ plans:
 - name: Bonitasoft Plans Pricing
   plan_count: 4
   slug: bonitasoft-plans-pricing
-random_paper: 10
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Bonitasoft Rate Limits
   slug: bonitasoft-rate-limits
 score:
   band: strong
-  composite: 64.3
+  composite: 63.3
   coverage:
     artifact_dirs: 23
-    catalog_earned: 54.0
+    catalog_earned: 49.0
     catalog_earned_first_party: 20.0
-    catalog_gap: 61.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 51.4
+    contract_quality: 51.1
     developer_ergonomics: 85.1
-    discoverability: 63.0
+    discoverability: 53.7
     operational_transparency: 50.0
   previous_composite: 64.3
   provenance:
@@ -646,7 +646,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

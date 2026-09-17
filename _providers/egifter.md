@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The eGifter API is a powerful tool that allows developers to integrate digital gifting capabilities into their applications and websites. With this API, users can easily send personalized gift cards f
@@ -41,6 +41,10 @@ apis:
   slug: egifter
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://egifter.com
 - group: auth
   href: https://raw.githubusercontent.com/api-evangelist/egifter/refs/heads/main/security/egifter-domain-security.yml
   title: ''
@@ -74,19 +78,19 @@ finops:
   slug: egifter-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/egifter.png
 layout: provider
-modified: '2026-07-25'
+modified: '2026-09-16'
 name: eGifter
 nav: Providers
 network: true
 overview: 'eGifter publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Gift Cards.
 
 
-  eGifter''s developer surface includes engineering blog, FAQ, and 4 more developer resources.'
+  eGifter''s developer surface includes engineering blog, FAQ, and 5 more developer resources.'
 plans:
 - name: Egifter Plans Pricing
   plan_count: 3
   slug: egifter-plans-pricing
-random_paper: 7
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Egifter Rate Limits
@@ -117,7 +121,7 @@ score:
     regime_id: payments
     score: 15.6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -132,4 +136,5 @@ security:
 slug: egifter
 tags:
 - Gift Cards
+website: https://egifter.com
 ---

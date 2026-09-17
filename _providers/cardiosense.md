@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 11.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: A live Model Context Protocol endpoint served from the Cardiosense corporate host. It is a WordPress MCP Adapter deployment over the website's content and abilities rather than a product API for the C
@@ -144,7 +144,7 @@ overview: 'Cardiosense publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Cardiosense''s developer surface includes engineering blog, authentication, and 17 more developer resources.'
-random_paper: 13
+random_paper: 2
 scopes:
 - name: Cardiosense Scopes
   scope_count: 0
@@ -185,7 +185,7 @@ score:
     regime_id: health
     score: 51.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

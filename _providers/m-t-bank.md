@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: Institutional payment initiation product listed in M&T's Banking and Treasury API group on the developer portal. Per-product reference is available after Entra login and Azure APIM subscription.
@@ -140,7 +140,7 @@ overview: 'M&T Bank publishes 10 APIs on the [APIs.io](https://apis.io/) network
 
 
   M&T Bank''s developer surface includes documentation, getting-started guide, support, engineering blog, and 10 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: emerging
   composite: 11.2
@@ -174,7 +174,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

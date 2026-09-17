@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 22.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,17 +45,17 @@ apis:
 - baseURL: https://backup.us-east-1.amazonaws.com
   baseurl_source: declared
   description: Operations for starting and monitoring backup jobs
-  name: Amazon Backup Backup Jobs API
+  name: Amazon Backup Jobs API
   slug: amazon-backup-backup-jobs-api
 - baseURL: https://backup.us-east-1.amazonaws.com
   baseurl_source: declared
   description: Operations for creating and managing backup plans
-  name: Amazon Backup Backup Plans API
+  name: Amazon Backup Plans API
   slug: amazon-backup-backup-plans-api
 - baseURL: https://backup.us-east-1.amazonaws.com
   baseurl_source: declared
   description: Operations for creating and managing backup vaults
-  name: Amazon Backup Backup Vaults API
+  name: Amazon Backup Vaults API
   slug: amazon-backup-backup-vaults-api
 - baseURL: https://backup.us-east-1.amazonaws.com
   baseurl_source: declared
@@ -216,18 +216,18 @@ jsonld:
   property_count: 4
   slug: amazon-backup-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-16'
 name: Amazon Backup
 nav: Providers
 network: true
-overview: 'Amazon Backup publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Backup Jobs API, Backup Plans API, Backup Vaults API, and 1 more. Tagged areas include Backup, Data Protection, Disaster Recovery, Storage, and Compliance.
+overview: 'Amazon Backup publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Plans API, Vaults API, and 1 more. Tagged areas include Backup, Data Protection, Disaster Recovery, Storage, and Compliance.
 
 
   The Amazon Backup catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   Amazon Backup''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, status page, and 19 more developer resources.'
-random_paper: 19
+random_paper: 1
 rules:
 - effective_rule_count: 5
   extends: []
@@ -268,7 +268,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

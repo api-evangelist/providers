@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -166,11 +166,11 @@ modified: '2026-05-25'
 name: Bidgely
 nav: Providers
 network: true
-overview: 'Bidgely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Smart Meters, Energy Disaggregation, and Non-Intrusive Load Monitoring.
+overview: 'Bidgely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Smart Meter, Energy Disaggregation, and Non-Intrusive Load Monitoring.
 
 
   Bidgely''s developer surface includes product news, GitHub presence, YouTube channel, and 27 more developer resources.'
-random_paper: 1
+random_paper: 10
 score:
   band: minimal
   composite: 4.0
@@ -197,7 +197,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -213,12 +213,12 @@ slug: bidgely
 tags:
 - Energy
 - Utilities
-- Smart Meters
+- Smart Meter
 - Energy Disaggregation
 - Non-Intrusive Load Monitoring
 - Artificial Intelligence
 - Machine-Learning
-- GenAI
+- Generative AI
 - Agentic AI
 - Demand-Side Management
 - Demand Response

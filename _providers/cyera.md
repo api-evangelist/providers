@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 14.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Versioned REST API (v1 / v3) for programmatic access to Cyera's data discovery, classification, access-exposure, and risk findings. Secured with OAuth 2.0 client_credentials (Client ID + Client Secret
@@ -169,7 +169,7 @@ overview: 'Cyera publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cyera''s developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, authentication, and 18 more developer resources.'
-random_paper: 7
+random_paper: 4
 scopes:
 - name: Cyera Scopes
   scope_count: 3
@@ -198,7 +198,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

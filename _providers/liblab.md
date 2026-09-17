@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 6.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 4
 apis:
 - description: Cloud-based generator that produces customizable, type-safe SDKs in seven target stacks (TypeScript, Python, Java, .NET, Go, PHP, Terraform) from OpenAPI 2.0/3.0/3.1 or Postman Collections. CLI and CI
@@ -195,7 +195,7 @@ plans:
 - name: Liblab Plans Pricing
   plan_count: 5
   slug: liblab-plans-pricing
-random_paper: 5
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Liblab Rate Limits
@@ -220,7 +220,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 28.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

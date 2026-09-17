@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 4
 common:
@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: 2025 Columbia-Dream Sports AI Innovation Symposium
   url: https://www.newswise.com/articles/2025-columbia-dream-sports-ai-innovation-symposium
-random_paper: 9
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Cablevision Systems Rate Limits
@@ -131,7 +131,7 @@ score:
     regime_id: telecommunications
     score: 8.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

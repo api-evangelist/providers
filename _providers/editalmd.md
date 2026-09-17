@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,26 +16,137 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-09-15'
+  score: 40.1
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: Public REST API over Brazil's PNCP procurement portal with full-text tender search, tender sheets and deadlines, edital markdown, eligibility extraction, alerts and watchers. Also exposes a hosted MCP
-  name: EditalMD API
-  slug: editalmd-api
-artifact_total: 9
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Alertas API from EditalMD — 3 operation(s) for alertas.
+  name: EditalMD Alertas API
+  slug: editalmd-alertas-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Apis.json API from EditalMD — 1 operation(s) for apis.json.
+  name: EditalMD Apis.json API
+  slug: editalmd-apis-json-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Busca API from EditalMD — 1 operation(s) for busca.
+  name: EditalMD Busca API
+  slug: editalmd-busca-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Cnaes API from EditalMD — 1 operation(s) for cnaes.
+  name: EditalMD Cnaes API
+  slug: editalmd-cnaes-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Compra API from EditalMD — 1 operation(s) for compra.
+  name: EditalMD Compra API
+  slug: editalmd-compra-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Credito API from EditalMD — 1 operation(s) for credito.
+  name: EditalMD Credito API
+  slug: editalmd-credito-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Documento API from EditalMD — 2 operation(s) for documento.
+  name: EditalMD Documento API
+  slug: editalmd-documento-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Dono API from EditalMD — 3 operation(s) for dono.
+  name: EditalMD Dono API
+  slug: editalmd-dono-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Editalmd API from EditalMD — 1 operation(s) for editalmd.
+  name: EditalMD Editalmd API
+  slug: editalmd-editalmd-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Feed.json API from EditalMD — 1 operation(s) for feed.json.
+  name: EditalMD Feed.json API
+  slug: editalmd-feed-json-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Feed.xml API from EditalMD — 1 operation(s) for feed.xml.
+  name: EditalMD Feed.xml API
+  slug: editalmd-feed-xml-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Health API from EditalMD — 1 operation(s) for health.
+  name: EditalMD Health API
+  slug: editalmd-health-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Mcp API from EditalMD — 1 operation(s) for mcp.
+  name: EditalMD MCP API
+  slug: editalmd-mcp-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Metrics API from EditalMD — 1 operation(s) for metrics.
+  name: EditalMD Metrics API
+  slug: editalmd-metrics-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Okf API from EditalMD — 1 operation(s) for okf.
+  name: EditalMD Okf API
+  slug: editalmd-okf-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Recibo API from EditalMD — 1 operation(s) for recibo.
+  name: EditalMD Recibo API
+  slug: editalmd-recibo-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Vigias API from EditalMD — 3 operation(s) for vigias.
+  name: EditalMD Vigias API
+  slug: editalmd-vigias-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The Visit API from EditalMD — 1 operation(s) for visit.
+  name: EditalMD Visit API
+  slug: editalmd-visit-api
+- baseURL: https://editalmd.com/api/
+  baseurl_source: declared
+  description: The .well Known API from EditalMD — 1 operation(s) for .well known.
+  name: EditalMD .well Known API
+  slug: editalmd-well-known-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Editalmd Webhooks
   slug: editalmd-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://editalmd.com/mcp
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/editalmd/refs/heads/main/mcp/editalmd-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/editalmd-mcp.yml
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/editalmd/refs/heads/main/overlays/editalmd-openapi-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/editalmd-openapi-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/editalmd/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -91,25 +203,25 @@ modified: '2026-09-05'
 name: EditalMD
 nav: Providers
 network: true
-overview: 'EditalMD publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GovTech, Public Procurement, Brazil, PNCP, and Legal & Compliance.
+overview: 'EditalMD publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Alertas API, Apis.json API, Busca API, and 16 more. Tagged areas include GovTech, Public Procurement, Brazil, PNCP, and Legal & Compliance.
 
 
   The EditalMD catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  EditalMD''s developer surface includes pricing and 8 more developer resources.'
+  EditalMD''s developer surface includes pricing and 12 more developer resources.'
 plans:
 - name: Editalmd Plans Pricing
   plan_count: 0
   slug: editalmd-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Editalmd Rate Limits
   slug: editalmd-rate-limits
 score:
   band: developing
-  composite: 43.5
+  composite: 45.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 45.0
@@ -117,11 +229,11 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 26.3
     contract_governance: 18.2
-    contract_quality: 50.5
+    contract_quality: 57.8
     developer_ergonomics: 30.4
     discoverability: 75.9
     operational_transparency: 39.5
@@ -139,7 +251,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 19
     mcp: first-party
     skills: derived
   regulatory:
@@ -149,7 +261,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

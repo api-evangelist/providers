@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -50,11 +50,6 @@ apis:
   description: The AsyncJobs API from GoSpotCheck — 1 operation(s) for asyncjobs.
   name: GoSpotCheck AsyncJobs API
   slug: gospotcheck-asyncjobs-api
-- baseURL: https://api.gospotcheck.com
-  baseurl_source: declared
-  description: The CatalogItems API from GoSpotCheck — 2 operation(s) for catalogitems.
-  name: GoSpotCheck CatalogItems API
-  slug: gospotcheck-catalogitems-api
 - baseURL: https://api.gospotcheck.com
   baseurl_source: declared
   description: The Catalogs API from GoSpotCheck — 2 operation(s) for catalogs.
@@ -110,6 +105,11 @@ apis:
   description: The Users API from GoSpotCheck — 4 operation(s) for users.
   name: GoSpotCheck Users API
   slug: gospotcheck-users-api
+- baseURL: https://api.gospotcheck.com
+  baseurl_source: declared
+  description: The Catalog Items API from GoSpotCheck — 2 operation(s) for catalog items.
+  name: GoSpotCheck Catalog Items API
+  slug: gospotcheck-catalog-items-api
 artifact_total: 33
 collections:
 - collection_type: open
@@ -315,11 +315,11 @@ modified: '2026-07-19'
 name: GoSpotCheck
 nav: Providers
 network: true
-overview: 'GoSpotCheck publishes 13 APIs on the [APIs.io](https://apis.io/) network, including AsyncJobs API, CatalogItems API, Catalogs API, and 10 more. Tagged areas include Company, Retail Execution, Field Service, Data Collection, and Surveys.
+overview: 'GoSpotCheck publishes 13 APIs on the [APIs.io](https://apis.io/) network, including AsyncJobs API, Catalogs API, CustomViews API, and 10 more. Tagged areas include Company, Retail Execution, Field Service, Data Collection, and Surveys.
 
 
   GoSpotCheck''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 26 more developer resources.'
-random_paper: 2
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Gospotcheck Rate Limits
@@ -354,7 +354,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

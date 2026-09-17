@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.7
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 17
 apis:
 - baseURL: https://api.toq.io/wallet/api
@@ -591,7 +591,7 @@ overview: 'Toqio publishes 49 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Toqio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 24 more developer resources.'
-random_paper: 10
+random_paper: 6
 scopes:
 - name: Toqio Scopes
   scope_count: 3
@@ -611,7 +611,7 @@ score:
   facets:
     access_clarity: 25.0
     contract_governance: 18.2
-    contract_quality: 57.2
+    contract_quality: 57.1
     developer_ergonomics: 49.4
     discoverability: 81.5
     operational_transparency: 22.4
@@ -636,7 +636,7 @@ score:
     regime_id: payments
     score: 71.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -661,6 +661,6 @@ tags:
 - Corporate Banking
 - Lending
 - Compliance
-- SMEs
+- SME
 website: https://toqio.co
 ---

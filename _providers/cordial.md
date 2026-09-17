@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: '0.2'
   score: 62.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -467,7 +467,7 @@ plans:
 - name: Cordial Plans Pricing
   plan_count: 0
   slug: cordial-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Cordial Rate Limits
@@ -524,7 +524,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

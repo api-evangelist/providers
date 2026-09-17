@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.1
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -65,11 +65,6 @@ apis:
   description: The Datapoints API from Lightup — 1 operation(s) for datapoints.
   name: Lightup Datapoints API
   slug: lightup-datapoints-api
-- baseURL: https://app.demo.lightup.ai
-  baseurl_source: declared
-  description: The Datasources API from Lightup — 3 operation(s) for datasources.
-  name: Lightup Datasources API
-  slug: lightup-datasources-api
 - baseURL: https://app.demo.lightup.ai
   baseurl_source: declared
   description: The Health check API from Lightup — 1 operation(s) for health check.
@@ -105,6 +100,11 @@ apis:
   description: The Workspaces API from Lightup — 2 operation(s) for workspaces.
   name: Lightup Workspaces API
   slug: lightup-workspaces-api
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Data Sources API from Lightup — 3 operation(s) for data sources.
+  name: Lightup Data Sources API
+  slug: lightup-data-sources-api
 artifact_total: 31
 collections:
 - collection_type: open
@@ -310,10 +310,10 @@ overview: 'Lightup publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lightup''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 9
+random_paper: 17
 score:
   band: developing
-  composite: 48.9
+  composite: 49.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -321,11 +321,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 44.2
+    contract_quality: 46.6
     developer_ergonomics: 61.3
     discoverability: 75.9
     operational_transparency: 28.9
@@ -341,7 +341,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

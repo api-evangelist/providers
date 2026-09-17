@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -86,11 +86,6 @@ apis:
   slug: procurify-locations-api
 - baseURL: https://api.procurify.com/
   baseurl_source: declared
-  description: The oauth API from Procurify — 1 operation(s) for oauth.
-  name: Procurify oauth API
-  slug: procurify-oauth-api
-- baseURL: https://api.procurify.com/
-  baseurl_source: declared
   description: The order-items API from Procurify — 1 operation(s) for order-items.
   name: Procurify order-items API
   slug: procurify-order-items-api
@@ -129,6 +124,11 @@ apis:
   description: The vendors API from Procurify — 2 operation(s) for vendors.
   name: Procurify vendors API
   slug: procurify-vendors-api
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The oauth API from Procurify — 1 operation(s) for oauth.
+  name: Procurify OAUTH API
+  slug: procurify-oauth-api
 artifact_total: 385
 collections:
 - collection_type: open
@@ -1325,7 +1325,7 @@ plans:
 - name: Procurify Plans Pricing
   plan_count: 2
   slug: procurify-plans-pricing
-random_paper: 8
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Procurify Rate Limits
@@ -1373,7 +1373,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

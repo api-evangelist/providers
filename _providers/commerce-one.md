@@ -100,7 +100,7 @@ overview: 'Commerce One publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Commerce One''s developer surface includes documentation, API reference, getting-started guide, support, FAQ, code examples, changelog, and 9 more developer resources.'
-random_paper: 13
+random_paper: 0
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-one/refs/heads/main/screenshots/commerce-one-2026-07-25T210126.png
 security:
 - kind: domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Real-time surcharge calculation API. The caller sends a base transaction amount and payment-method details (card brand and type) and receives the permitted surcharge amount, evaluated against U.S. sta
@@ -130,7 +130,7 @@ plans:
 - name: Yeeld Plans Pricing
   plan_count: 0
   slug: yeeld-plans-pricing
-random_paper: 6
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Yeeld Rate Limits
@@ -168,7 +168,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

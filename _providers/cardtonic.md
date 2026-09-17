@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 26.8
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - description: The Cardtonic Gift Card Developer API enables merchants and platforms to integrate gift card services into their websites, mobile apps, and point-of-sale systems. The API exposes a catalog of more tha
   name: Cardtonic Gift Card Developer API
@@ -47,15 +47,35 @@ apis:
   slug: bill-payments
 - baseURL: https://api.cardtonic.com/v1
   baseurl_source: declared
-  description: The Cardtonic Business API is the account, credential and compliance layer of Cardtonic's developer program, and the only Cardtonic surface with a published machine-readable contract. It covers busine
-  name: Cardtonic Business API
-  slug: business-api
-artifact_total: 11
+  description: The Auth API from Cardtonic — 6 operation(s) for auth.
+  name: Cardtonic Auth API
+  slug: cardtonic-auth-api
+- baseURL: https://api.cardtonic.com/v1
+  baseurl_source: declared
+  description: The User API from Cardtonic — 8 operation(s) for user.
+  name: Cardtonic User API
+  slug: cardtonic-user-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
   slug: open-cardtonic
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/overlays/cardtonic-business-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/cardtonic-business-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/mcp/cardtonic-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/cardtonic-mcp.yml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/skills/_index.yml
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -197,22 +217,22 @@ modified: '2026-09-05'
 name: Cardtonic
 nav: Providers
 network: true
-overview: 'Cardtonic publishes 1 API on the [APIs.io](https://apis.io/) network: Business API. Tagged areas include Africa, Bill Payments, eSIM, Finance, and Fintech.
+overview: 'Cardtonic publishes 2 APIs on the [APIs.io](https://apis.io/) network: Auth API and User API. Tagged areas include Africa, Bill Payments, eSIM, Finance, and Fintech.
 
 
-  Cardtonic''s developer surface includes documentation, API reference, signup flow, engineering blog, support, and 24 more developer resources.'
+  Cardtonic''s developer surface includes documentation, API reference, signup flow, engineering blog, support, and 27 more developer resources.'
 plans:
 - name: Cardtonic Plans Pricing
   plan_count: 1
   slug: cardtonic-plans-pricing
-random_paper: 6
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Cardtonic Rate Limits
   slug: cardtonic-rate-limits
 score:
   band: developing
-  composite: 53.3
+  composite: 53.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 51.0
@@ -220,11 +240,11 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 71.1
     contract_governance: 18.2
-    contract_quality: 43.5
+    contract_quality: 43.9
     developer_ergonomics: 54.2
     discoverability: 66.7
     operational_transparency: 28.9
@@ -239,8 +259,8 @@ score:
     contracts:
       callable: 100.0
       derived: 0
-      marker_coverage: 100.0
-      total: 1
+      marker_coverage: 0.0
+      total: 2
     mcp: derived
     skills: derived
   regulatory:
@@ -250,7 +270,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

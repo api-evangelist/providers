@@ -18,7 +18,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -27,22 +27,22 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 44.0
-  scored_at: '2026-09-15'
+  score: 43.6
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 5
-  human_in_the_loop: 0
+- acting_count: 97
+  human_in_the_loop: 57
   name: Fis Agentic Access
-  operation_count: 8
+  operation_count: 241
   slug: fis-agentic-access
-  summary_line: 8 operations · 5 acting
+  summary_line: 241 operations · 97 acting · 57 human-in-the-loop
 api_count: 2
 apis:
 - description: FIS (Fidelity National Information Services) provides core banking platforms including the Systematics suite. APIs bridge mainframe-based account processing, transaction management, and loan servicing
@@ -76,15 +76,395 @@ apis:
   description: Domestic and international wire transfer operations
   name: FIS Global Wire Transfers API
   slug: fis-wire-transfers-api
-- baseURL: https://api.railz.ai
-  baseurl_source: declared
-  description: FIS Accounting Data as a Service (shipped as Railz before FIS acquired it) reads and writes a business's accounting, banking and commerce data through an authorised connection to that business's own s
-  name: FIS Accounting Data as a Service
-  slug: fis-accounting-data-as-a-service
 - description: FIS Code Connect is the developer marketplace exposing FIS APIs across payments, banking, capital markets, and wealth management products. Access to most APIs requires a partner agreement and authenti
   name: FIS Code Connect API Marketplace
   slug: code-connect
-artifact_total: 30
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Account API from FIS Global — 1 operation(s) for account.
+  name: FIS Global Account API
+  slug: fis-account-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The AccountControllerV2 API from FIS Global — 3 operation(s) for accountcontrollerv2.
+  name: FIS Global Account Controller V2 API
+  slug: fis-accountcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The AccountingTransaction API from FIS Global — 1 operation(s) for accountingtransaction.
+  name: FIS Global Accounting Transaction API
+  slug: fis-accountingtransaction-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The AccountingTransactionControllerV2 API from FIS Global — 1 operation(s) for accountingtransactioncontrollerv2.
+  name: FIS Global Accounting Transaction Controller V2 API
+  slug: fis-accountingtransactioncontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Aging API from FIS Global — 2 operation(s) for aging.
+  name: FIS Global Aging API
+  slug: fis-aging-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The AgingControllerV2 API from FIS Global — 2 operation(s) for agingcontrollerv2.
+  name: FIS Global Aging Controller V2 API
+  slug: fis-agingcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Attachment API from FIS Global — 1 operation(s) for attachment.
+  name: FIS Global Attachment API
+  slug: fis-attachment-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The AttachmentControllerV2 API from FIS Global — 1 operation(s) for attachmentcontrollerv2.
+  name: FIS Global Attachment Controller V2 API
+  slug: fis-attachmentcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Bank API from FIS Global — 4 operation(s) for bank.
+  name: FIS Global Bank API
+  slug: fis-bank-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The BankControllerV2 API from FIS Global — 9 operation(s) for bankcontrollerv2.
+  name: FIS Global Bank Controller V2 API
+  slug: fis-bankcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Bill API from FIS Global — 4 operation(s) for bill.
+  name: FIS Global Bill API
+  slug: fis-bill-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The BillControllerV2 API from FIS Global — 7 operation(s) for billcontrollerv2.
+  name: FIS Global Bill Controller V2 API
+  slug: fis-billcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Budget API from FIS Global — 1 operation(s) for budget.
+  name: FIS Global Budget API
+  slug: fis-budget-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Businesses API from FIS Global — 8 operation(s) for businesses.
+  name: FIS Global Businesses API
+  slug: fis-businesses-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The BusinessValuation API from FIS Global — 1 operation(s) for businessvaluation.
+  name: FIS Global Business Valuation API
+  slug: fis-businessvaluation-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The BusinessValuationControllerV2 API from FIS Global — 1 operation(s) for businessvaluationcontrollerv2.
+  name: FIS Global Business Valuation Controller V2 API
+  slug: fis-businessvaluationcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Connection API from FIS Global — 2 operation(s) for connection.
+  name: FIS Global Connection API
+  slug: fis-connection-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The ConnectionControllerV2 API from FIS Global — 2 operation(s) for connectioncontrollerv2.
+  name: FIS Global Connection Controller V2 API
+  slug: fis-connectioncontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The ContactControllerV2 API from FIS Global — 1 operation(s) for contactcontrollerv2.
+  name: FIS Global Contact Controller V2 API
+  slug: fis-contactcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Credit API from FIS Global — 2 operation(s) for credit.
+  name: FIS Global Credit API
+  slug: fis-credit-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The CreditControllerV2 API from FIS Global — 2 operation(s) for creditcontrollerv2.
+  name: FIS Global Credit Controller V2 API
+  slug: fis-creditcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Customer API from FIS Global — 2 operation(s) for customer.
+  name: FIS Global Customer API
+  slug: fis-customer-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The CustomerControllerV2 API from FIS Global — 4 operation(s) for customercontrollerv2.
+  name: FIS Global Customer Controller V2 API
+  slug: fis-customercontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Data API from FIS Global — 3 operation(s) for data.
+  name: FIS Global Data API
+  slug: fis-data-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The DataControllerV2 API from FIS Global — 6 operation(s) for datacontrollerv2.
+  name: FIS Global Data Controller V2 API
+  slug: fis-datacontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Deposit API from FIS Global — 1 operation(s) for deposit.
+  name: FIS Global Deposit API
+  slug: fis-deposit-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The DepositControllerV2 API from FIS Global — 1 operation(s) for depositcontrollerv2.
+  name: FIS Global Deposit Controller V2 API
+  slug: fis-depositcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Dispute API from FIS Global — 1 operation(s) for dispute.
+  name: FIS Global Dispute API
+  slug: fis-dispute-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The DisputeControllerV2 API from FIS Global — 1 operation(s) for disputecontrollerv2.
+  name: FIS Global Dispute Controller V2 API
+  slug: fis-disputecontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Estimate API from FIS Global — 1 operation(s) for estimate.
+  name: FIS Global Estimate API
+  slug: fis-estimate-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The EstimateControllerV2 API from FIS Global — 1 operation(s) for estimatecontrollerv2.
+  name: FIS Global Estimate Controller V2 API
+  slug: fis-estimatecontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The ExpenseControllerV2 API from FIS Global — 1 operation(s) for expensecontrollerv2.
+  name: FIS Global Expense Controller V2 API
+  slug: fis-expensecontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The File API from FIS Global — 1 operation(s) for file.
+  name: FIS Global File API
+  slug: fis-file-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialBenchmarking API from FIS Global — 1 operation(s) for financialbenchmarking.
+  name: FIS Global Financial Benchmarking API
+  slug: fis-financialbenchmarking-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialBenchmarkingControllerV2 API from FIS Global — 1 operation(s) for financialbenchmarkingcontrollerv2.
+  name: FIS Global Financial Benchmarking Controller V2 API
+  slug: fis-financialbenchmarkingcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialForecast API from FIS Global — 1 operation(s) for financialforecast.
+  name: FIS Global Financial Forecast API
+  slug: fis-financialforecast-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialForecastControllerV2 API from FIS Global — 1 operation(s) for financialforecastcontrollerv2.
+  name: FIS Global Financial Forecast Controller V2 API
+  slug: fis-financialforecastcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialFraudRisk API from FIS Global — 1 operation(s) for financialfraudrisk.
+  name: FIS Global Financial Fraud Risk API
+  slug: fis-financialfraudrisk-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialFraudRiskControllerV2 API from FIS Global — 1 operation(s) for financialfraudriskcontrollerv2.
+  name: FIS Global Financial Fraud Risk Controller V2 API
+  slug: fis-financialfraudriskcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialRatio API from FIS Global — 1 operation(s) for financialratio.
+  name: FIS Global Financial Ratio API
+  slug: fis-financialratio-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialRatioControllerV2 API from FIS Global — 1 operation(s) for financialratiocontrollerv2.
+  name: FIS Global Financial Ratio Controller V2 API
+  slug: fis-financialratiocontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialStatement API from FIS Global — 3 operation(s) for financialstatement.
+  name: FIS Global Financial Statement API
+  slug: fis-financialstatement-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The FinancialStatementControllerV2 API from FIS Global — 6 operation(s) for financialstatementcontrollerv2.
+  name: FIS Global Financial Statement Controller V2 API
+  slug: fis-financialstatementcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Inventory API from FIS Global — 2 operation(s) for inventory.
+  name: FIS Global Inventory API
+  slug: fis-inventory-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The InventoryControllerV2 API from FIS Global — 2 operation(s) for inventorycontrollerv2.
+  name: FIS Global Inventory Controller V2 API
+  slug: fis-inventorycontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Invoice API from FIS Global — 3 operation(s) for invoice.
+  name: FIS Global Invoice API
+  slug: fis-invoice-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The InvoiceControllerV2 API from FIS Global — 5 operation(s) for invoicecontrollerv2.
+  name: FIS Global Invoice Controller V2 API
+  slug: fis-invoicecontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Journal API from FIS Global — 2 operation(s) for journal.
+  name: FIS Global Journal API
+  slug: fis-journal-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The JournalControllerV2 API from FIS Global — 5 operation(s) for journalcontrollerv2.
+  name: FIS Global Journal Controller V2 API
+  slug: fis-journalcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Order API from FIS Global — 1 operation(s) for order.
+  name: FIS Global Order API
+  slug: fis-order-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The OrderControllerV2 API from FIS Global — 1 operation(s) for ordercontrollerv2.
+  name: FIS Global Order Controller V2 API
+  slug: fis-ordercontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The PaymentMethodControllerV2 API from FIS Global — 1 operation(s) for paymentmethodcontrollerv2.
+  name: FIS Global Payment Method Controller V2 API
+  slug: fis-paymentmethodcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The PayrollTransaction API from FIS Global — 1 operation(s) for payrolltransaction.
+  name: FIS Global Payroll Transaction API
+  slug: fis-payrolltransaction-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The PortfolioMetrics API from FIS Global — 1 operation(s) for portfoliometrics.
+  name: FIS Global Portfolio Metrics API
+  slug: fis-portfoliometrics-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The PortfolioMetricsControllerV2 API from FIS Global — 1 operation(s) for portfoliometricscontrollerv2.
+  name: FIS Global Portfolio Metrics Controller V2 API
+  slug: fis-portfoliometricscontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The ProbabilityOfDefault API from FIS Global — 1 operation(s) for probabilityofdefault.
+  name: FIS Global Probability Of Default API
+  slug: fis-probabilityofdefault-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The ProbabilityOfDefaultControllerV2 API from FIS Global — 1 operation(s) for probabilityofdefaultcontrollerv2.
+  name: FIS Global Probability Of Default Controller V2 API
+  slug: fis-probabilityofdefaultcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Product API from FIS Global — 1 operation(s) for product.
+  name: FIS Global Product API
+  slug: fis-product-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The ProductControllerV2 API from FIS Global — 1 operation(s) for productcontrollerv2.
+  name: FIS Global Product Controller V2 API
+  slug: fis-productcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The PurchaseOrderControllerV2 API from FIS Global — 1 operation(s) for purchaseordercontrollerv2.
+  name: FIS Global Purchase Order Controller V2 API
+  slug: fis-purchaseordercontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Refunds API from FIS Global — 2 operation(s) for refunds.
+  name: FIS Global Refunds API
+  slug: fis-refunds-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Reports API from FIS Global — 10 operation(s) for reports.
+  name: FIS Global Reports API
+  slug: fis-reports-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Sandbox API from FIS Global — 2 operation(s) for sandbox.
+  name: FIS Global Sandbox API
+  slug: fis-sandbox-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The TaxBenchmarking API from FIS Global — 1 operation(s) for taxbenchmarking.
+  name: FIS Global Tax Benchmarking API
+  slug: fis-taxbenchmarking-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The TaxBenchmarkingControllerV2 API from FIS Global — 1 operation(s) for taxbenchmarkingcontrollerv2.
+  name: FIS Global Tax Benchmarking Controller V2 API
+  slug: fis-taxbenchmarkingcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The TaxRateControllerV2 API from FIS Global — 2 operation(s) for taxratecontrollerv2.
+  name: FIS Global Tax Rate Controller V2 API
+  slug: fis-taxratecontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The TrackingCategory API from FIS Global — 1 operation(s) for trackingcategory.
+  name: FIS Global Tracking Category API
+  slug: fis-trackingcategory-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The TrackingCategoryControllerV2 API from FIS Global — 1 operation(s) for trackingcategorycontrollerv2.
+  name: FIS Global Tracking Category Controller V2 API
+  slug: fis-trackingcategorycontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Transaction API from FIS Global — 1 operation(s) for transaction.
+  name: FIS Global Transaction API
+  slug: fis-transaction-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The TransactionControllerV2 API from FIS Global — 1 operation(s) for transactioncontrollerv2.
+  name: FIS Global Transaction Controller V2 API
+  slug: fis-transactioncontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The TrialBalance API from FIS Global — 1 operation(s) for trialbalance.
+  name: FIS Global Trial Balance API
+  slug: fis-trialbalance-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The TrialBalanceControllerV2 API from FIS Global — 1 operation(s) for trialbalancecontrollerv2.
+  name: FIS Global Trial Balance Controller V2 API
+  slug: fis-trialbalancecontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Vendor API from FIS Global — 2 operation(s) for vendor.
+  name: FIS Global Vendor API
+  slug: fis-vendor-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The VendorControllerV2 API from FIS Global — 5 operation(s) for vendorcontrollerv2.
+  name: FIS Global Vendor Controller V2 API
+  slug: fis-vendorcontrollerv2-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Visualizations API from FIS Global — 16 operation(s) for visualizations.
+  name: FIS Global Visualizations API
+  slug: fis-visualizations-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Purchase Order API from FIS Global — 1 operation(s) for purchase order.
+  name: FIS Global Purchase Order API
+  slug: fis-purchase-order-api
+- baseURL: https://api.fisglobal.com
+  baseurl_source: declared
+  description: The Tax Rate API from FIS Global — 1 operation(s) for tax rate.
+  name: FIS Global Tax Rate API
+  slug: fis-tax-rate-api
+artifact_total: 106
 asyncapis:
 - description: ''
   name: Fis Webhooks
@@ -112,6 +492,11 @@ collections:
   name: FIS Payments Accounts Wire Transfers API
   slug: open-fis-wire-transfers-api
 common:
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/overlays/fis-accounting-data-as-a-service-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/fis-accounting-data-as-a-service-overlay.yaml
 - group: company
   title: ''
   type: InvestorRelations
@@ -316,18 +701,18 @@ modified: '2026-09-10'
 name: FIS Global
 nav: Providers
 network: true
-overview: 'FIS Global publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Payments API, and 3 more. Tagged areas include Banking, Core Banking, Financial-Services, Payments, and Fintech.
+overview: 'FIS Global publishes 82 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Payments API, and 79 more. Tagged areas include Banking, Core Banking, Financial-Services, Payments, and Fintech.
 
 
   The FIS Global catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  FIS Global''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, signup flow, and 32 more developer resources.'
+  FIS Global''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, signup flow, and 33 more developer resources.'
 plans:
 - name: Fis Plans Pricing
   plan_count: 2
   slug: fis-plans-pricing
-random_paper: 7
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Fis Rate Limits
@@ -350,31 +735,31 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.8
+  composite: 61.7
   coverage:
     artifact_dirs: 29
-    catalog_earned: 57.3
+    catalog_earned: 54.3
     catalog_earned_first_party: 8.0
-    catalog_gap: 57.8
+    catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 68.4
     contract_governance: 14.4
-    contract_quality: 70.3
+    contract_quality: 73.7
     developer_ergonomics: 47.0
-    discoverability: 59.3
+    discoverability: 53.7
     operational_transparency: 52.6
   previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 93.9
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 82
     mcp: first-party
     skills: derived
   regulatory:
@@ -382,9 +767,9 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 67.1
+    score: 77.2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -36,20 +36,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 40.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 577
-  human_in_the_loop: 12
+- acting_count: 265
+  human_in_the_loop: 5
   name: Plaid Agentic Access
-  operation_count: 577
+  operation_count: 265
   slug: plaid-agentic-access
-  summary_line: 577 operations · 577 acting · 12 human-in-the-loop
+  summary_line: 265 operations · 265 acting · 5 human-in-the-loop
 api_count: 71
 apis:
 - baseURL: https://production.plaid.com
   baseurl_source: declared
   description: The Plaid API from Plaid — 256 operation(s) for plaid.
-  name: Plaid Plaid API
+  name: Plaid API
   slug: plaid-plaid-api
 artifact_total: 92
 asyncapis:
@@ -522,11 +522,11 @@ graphqls:
   slug: plaid-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plaid.png
 layout: provider
-modified: '2026-07-23'
+modified: '2026-09-16'
 name: Plaid
 nav: Providers
 network: true
-overview: 'Plaid publishes 1 API on the [APIs.io](https://apis.io/) network: Plaid API. Tagged areas include Financial, Fintech, Open Banking, Bank Accounts, and Data Aggregation.
+overview: 'Plaid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial, Fintech, Open Banking, Bank Accounts, and Data Aggregation.
 
 
   The Plaid catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -537,7 +537,7 @@ plans:
 - name: Plaid Plans Pricing
   plan_count: 3
   slug: plaid-plans-pricing
-random_paper: 18
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Plaid Rate Limits
@@ -614,7 +614,7 @@ score:
     regime_id: banking_open_finance
     score: 63.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

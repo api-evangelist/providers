@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 5.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The OpenID Connect issuer Glacier Bank serves at connect.glacierbank.com for its Jack Henry Banno Digital Toolkit tenant. Issuer https://connect.glacierbank.com/a/consumer/api/v0/oidc; the base URL fo
@@ -129,7 +129,7 @@ plans:
 - name: Glacier Bancorp Plans Pricing
   plan_count: 1
   slug: glacier-bancorp-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Glacier Bancorp Rate Limits
@@ -167,7 +167,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

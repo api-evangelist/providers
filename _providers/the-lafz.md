@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 7.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The Lafz direct-to-consumer storefront on Shopify, with an agent-commerce surface over the Universal Commerce Protocol (UCP) MCP server plus read-only product/collection JSON endpoints and Shopify cus
@@ -122,7 +122,7 @@ overview: 'The Lafz publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   The Lafz''s developer surface includes authentication, support, engineering blog, and 11 more developer resources.'
-random_paper: 18
+random_paper: 3
 score:
   band: emerging
   composite: 16.0
@@ -147,7 +147,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -172,6 +172,6 @@ tags:
 - E-Commerce
 - Halal
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 website: https://thelafz.com
 ---

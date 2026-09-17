@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -60,11 +60,6 @@ apis:
   slug: dreamfactory-app-api
 - baseURL: https://{instance}/api/v2/system
   baseurl_source: declared
-  description: Application group management
-  name: DreamFactory AppGroup API
-  slug: dreamfactory-appgroup-api
-- baseURL: https://{instance}/api/v2/system
-  baseurl_source: declared
   description: Cross-Origin Resource Sharing configuration
   name: DreamFactory CORS API
   slug: dreamfactory-cors-api
@@ -73,11 +68,6 @@ apis:
   description: Custom settings management
   name: DreamFactory Custom API
   slug: dreamfactory-custom-api
-- baseURL: https://{instance}/api/v2/system
-  baseurl_source: declared
-  description: Email template management
-  name: DreamFactory EmailTemplate API
-  slug: dreamfactory-emailtemplate-api
 - baseURL: https://{instance}/api/v2/system
   baseurl_source: declared
   description: Environment information
@@ -123,6 +113,16 @@ apis:
   description: User management
   name: DreamFactory User API
   slug: dreamfactory-user-api
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Application group management
+  name: DreamFactory App Group API
+  slug: dreamfactory-app-group-api
+- baseURL: https://{instance}/api/v2/system
+  baseurl_source: declared
+  description: Email template management
+  name: DreamFactory Email Template API
+  slug: dreamfactory-email-template-api
 artifact_total: 109
 asyncapis:
 - description: Asynchronous event model for the DreamFactory System API. DreamFactory provides a comprehensive event scripting system that fires events before and after every API call, allowing server-side scripts (
@@ -342,7 +342,7 @@ plans:
 - name: Dreamfactory Plans Pricing
   plan_count: 3
   slug: dreamfactory-plans-pricing
-random_paper: 0
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Dreamfactory Rate Limits
@@ -396,7 +396,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

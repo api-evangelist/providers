@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://i6eal.de
@@ -319,7 +319,7 @@ overview: 'i6eal Open AI Data API publishes 17 APIs on the [APIs.io](https://api
 
 
   i6eal Open AI Data API''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 19 more developer resources.'
-random_paper: 10
+random_paper: 3
 score:
   band: developing
   composite: 47.4
@@ -363,7 +363,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

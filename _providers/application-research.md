@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 29.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -176,11 +176,6 @@ apis:
   slug: application-research-products-api
 - baseURL: https://api.score.dev/v1
   baseurl_source: declared
-  description: Resource group operations
-  name: Application Research ResourceGroups API
-  slug: application-research-resourcegroups-api
-- baseURL: https://api.score.dev/v1
-  baseurl_source: declared
   description: Operations for managing component resources
   name: Application Research Resources API
   slug: application-research-resources-api
@@ -224,6 +219,11 @@ apis:
   description: Score workload management operations
   name: Application Research Workloads API
   slug: application-research-workloads-api
+- baseURL: https://api.score.dev/v1
+  baseurl_source: declared
+  description: Resource group operations
+  name: Application Research Resource Groups API
+  slug: application-research-resource-groups-api
 artifact_total: 416
 collections:
 - collection_type: open
@@ -1376,7 +1376,7 @@ modified: '2026-05-19'
 name: Application Research
 nav: Providers
 network: true
-overview: 'Application Research publishes 36 APIs on the [APIs.io](https://apis.io/) network, including API Resources API, Applications API, Bundles API, and 33 more. Tagged areas include Application Dependencies, Cloud-Native, Integration, Research, and Specifications.
+overview: 'Application Research publishes 36 APIs on the [APIs.io](https://apis.io/) network, including API Resources API, Applications API, Bundles API, and 33 more. Tagged areas include Application Dependencies, Cloud-Native, Integration, Research, and Specification.
 
 
   The Application Research catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1387,7 +1387,7 @@ plans:
 - name: Application Research Plans Pricing
   plan_count: 1
   slug: application-research-plans-pricing
-random_paper: 4
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Application Research Rate Limits
@@ -1421,19 +1421,19 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 36.4
+  composite: 34.7
   coverage:
     artifact_dirs: 18
-    catalog_earned: 64.5
+    catalog_earned: 54.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.5
+    catalog_gap: 60.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.7
   facets:
     access_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 74.1
+    contract_quality: 67.3
     developer_ergonomics: 21.4
     discoverability: 50.0
     operational_transparency: 7.9
@@ -1446,7 +1446,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1467,7 +1467,7 @@ tags:
 - Cloud-Native
 - Integration
 - Research
-- Specifications
+- Specification
 - Workload Specifications
 use_cases:
 - description: Define an application once and deploy it across Kubernetes, Docker, or cloud platforms

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 39.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 7
@@ -60,7 +60,7 @@ apis:
 - baseURL: https://api.anaconda.cloud/api
   baseurl_source: declared
   description: The AI Navigator API API from Anaconda — 1 operation(s) for ai navigator api.
-  name: Anaconda AI Navigator API API
+  name: Anaconda AI Navigator API
   slug: anaconda-ai-navigator-api-api
 - baseURL: https://api.anaconda.cloud/api
   baseurl_source: declared
@@ -82,11 +82,6 @@ apis:
   description: Channel management endpoints
   name: Anaconda Channels API
   slug: anaconda-channels-api
-- baseURL: https://api.anaconda.cloud/api
-  baseurl_source: declared
-  description: The cves API from Anaconda — 20 operation(s) for cves.
-  name: Anaconda Cves API
-  slug: anaconda-cves-api
 - baseURL: https://api.anaconda.cloud/api
   baseurl_source: declared
   description: The diagnosis API from Anaconda — 1 operation(s) for diagnosis.
@@ -162,6 +157,11 @@ apis:
   description: The websocket API from Anaconda — 3 operation(s) for websocket.
   name: Anaconda Websocket API
   slug: anaconda-websocket-api
+- baseURL: https://api.anaconda.org
+  baseurl_source: declared
+  description: The cves API from Anaconda — 20 operation(s) for cves.
+  name: Anaconda Cves API
+  slug: anaconda-cves-api
 artifact_total: 55
 asyncapis:
 - description: ''
@@ -462,18 +462,18 @@ mcp_servers:
 - description: ''
   name: Anaconda MCP Server
   slug: anaconda-mcp-server
-modified: '2026-08-02'
+modified: '2026-09-16'
 name: Anaconda
 nav: Providers
 network: true
-overview: 'Anaconda publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI Navigator API API, Artifacts API, and 19 more. Tagged areas include Company, Data Science, Machine-Learning, Artificial Intelligence, and Package Management.
+overview: 'Anaconda publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI Navigator API, Artifacts API, and 19 more. Tagged areas include Company, Data Science, Machine-Learning, Artificial Intelligence, and Package Management.
 
 
   The Anaconda catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   Anaconda''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
-random_paper: 2
+random_paper: 7
 scopes:
 - name: Anaconda Scopes
   scope_count: 3
@@ -493,7 +493,7 @@ score:
   facets:
     access_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 62.5
+    contract_quality: 62.6
     developer_ergonomics: 73.2
     discoverability: 72.2
     operational_transparency: 34.2
@@ -502,14 +502,14 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 77.3
       derived: 0
       marker_coverage: 0.0
       total: 22
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

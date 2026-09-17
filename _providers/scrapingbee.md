@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -60,12 +60,12 @@ apis:
 - baseURL: https://app.scrapingbee.com/api/v1
   baseurl_source: declared
   description: Structured Google SERP results (web, news, maps, images).
-  name: ScrapingBee Google Search API API
+  name: ScrapingBee Google Search API
   slug: scrapingbee-google-search-api-api
 - baseURL: https://app.scrapingbee.com/api/v1
   baseurl_source: declared
   description: Headless-browser scraping with proxy rotation, screenshots, and AI extraction.
-  name: ScrapingBee HTML API API
+  name: ScrapingBee HTML API
   slug: scrapingbee-html-api-api
 artifact_total: 19
 collections:
@@ -210,11 +210,11 @@ mcp_servers:
 - description: ''
   name: ScrapingBee MCP Server
   slug: scrapingbee-mcp-server
-modified: '2026-05-25'
+modified: '2026-09-16'
 name: ScrapingBee
 nav: Providers
 network: true
-overview: 'ScrapingBee publishes 2 APIs on the [APIs.io](https://apis.io/) network: Google Search API API and HTML API API. Tagged areas include AI Extraction, Anti-Bot, Data Aggregation, Data Extraction, and Headless Browser.
+overview: 'ScrapingBee publishes 2 APIs on the [APIs.io](https://apis.io/) network: Google Search API and HTML API. Tagged areas include AI Extraction, Anti-Bot, Data Aggregation, Data Extraction, and Headless Browser.
 
 
   ScrapingBee''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, support, and 19 more developer resources.'
@@ -222,7 +222,7 @@ plans:
 - name: Scrapingbee Plans Pricing
   plan_count: 3
   slug: scrapingbee-plans-pricing
-random_paper: 0
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Scrapingbee Rate Limits
@@ -254,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.8
-  scored_at: '2026-09-15'
-api_count: 1
+  scored_at: '2026-09-16'
+api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata harvesting over Enlighten, the University of Glasgow's EPrints institutional repository of research outputs — journal articles, conference papers, books, book sections and theses.
   name: Enlighten Publications OAI-PMH
@@ -45,11 +45,6 @@ apis:
 - description: OAI-PMH 2.0 metadata harvesting over Enlighten Theses, the University of Glasgow's electronic theses repository, with records back to 2012-12-10. Offers oai_dc, didl, mets, oai_bibl, rdf and uketd_dc,
   name: Enlighten Theses OAI-PMH
   slug: theses-oai
-- baseURL: https://eprints.gla.ac.uk/rest
-  baseurl_source: declared
-  description: 'An anonymous read interface over the Enlighten repositories that the University of Glasgow does not document or advertise anywhere: a dataset index at /rest/, an object index per dataset, a full EPrin'
-  name: Enlighten EPrints REST API
-  slug: enlighten-rest
 - description: The University of Glasgow's virtual learning environment, self-hosted on Moodle, exposes a live LTI 1.3 Advantage platform surface — a public JWKS at /mod/lti/certs.php carrying one RS256 signing key,
   name: Moodle VLE — LTI 1.3 Platform and Web Services
   slug: moodle-lti
@@ -62,6 +57,11 @@ apis:
 - description: The library's research guides and databases A-Z, operated for the university by Springshare on a Glasgow-scoped LibGuides subdomain. Any machine access runs on Springshare's LibGuides API with site cr
   name: LibGuides (Springshare tenancy)
   slug: libguides
+- baseURL: https://eprints.gla.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: Dataset and object traversal over the EPrints repository.
+  name: University of Glasgow Repository API
+  slug: university-of-glasgow-repository-api
 artifact_total: 15
 common:
 - group: company
@@ -201,7 +201,7 @@ modified: '2026-08-30'
 name: University of Glasgow
 nav: Providers
 network: true
-overview: 'University of Glasgow publishes 1 API on the [APIs.io](https://apis.io/) network: Enlighten EPrints REST API. Tagged areas include University, Higher Education, Education, United Kingdom, and Scotland.
+overview: 'University of Glasgow publishes 1 API on the [APIs.io](https://apis.io/) network: Repository API. Tagged areas include University, Higher Education, Education, United Kingdom, and Scotland.
 
 
   The University of Glasgow catalog on APIs.io includes 1 JSON-LD context.
@@ -212,7 +212,7 @@ plans:
 - name: University Of Glasgow Plans Pricing
   plan_count: 2
   slug: university-of-glasgow-plans-pricing
-random_paper: 18
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: University Of Glasgow Rate Limits
@@ -258,7 +258,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

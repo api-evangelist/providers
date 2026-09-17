@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 28.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 759
   human_in_the_loop: 29
@@ -50,16 +50,6 @@ apis:
   description: The activations API from Spectro Cloud — 1 operation(s) for activations.
   name: Spectro Cloud activations API
   slug: spectro-cloud-activations-api
-- baseURL: https://api.spectrocloud.com
-  baseurl_source: declared
-  description: The apiKeys API from Spectro Cloud — 3 operation(s) for apikeys.
-  name: Spectro Cloud apiKeys API
-  slug: spectro-cloud-apikeys-api
-- baseURL: https://api.spectrocloud.com
-  baseurl_source: declared
-  description: The appDeployments API from Spectro Cloud — 9 operation(s) for appdeployments.
-  name: Spectro Cloud appDeployments API
-  slug: spectro-cloud-appdeployments-api
 - baseURL: https://api.spectrocloud.com
   baseurl_source: declared
   description: The appProfiles API from Spectro Cloud — 11 operation(s) for appprofiles.
@@ -77,11 +67,6 @@ apis:
   slug: spectro-cloud-auth-api
 - baseURL: https://api.spectrocloud.com
   baseurl_source: declared
-  description: The cloudaccounts API from Spectro Cloud — 32 operation(s) for cloudaccounts.
-  name: Spectro Cloud cloudaccounts API
-  slug: spectro-cloud-cloudaccounts-api
-- baseURL: https://api.spectrocloud.com
-  baseurl_source: declared
   description: The cloudconfigs API from Spectro Cloud — 87 operation(s) for cloudconfigs.
   name: Spectro Cloud cloudconfigs API
   slug: spectro-cloud-cloudconfigs-api
@@ -90,11 +75,6 @@ apis:
   description: The clouds API from Spectro Cloud — 95 operation(s) for clouds.
   name: Spectro Cloud clouds API
   slug: spectro-cloud-clouds-api
-- baseURL: https://api.spectrocloud.com
-  baseurl_source: declared
-  description: The clustergroups API from Spectro Cloud — 10 operation(s) for clustergroups.
-  name: Spectro Cloud clustergroups API
-  slug: spectro-cloud-clustergroups-api
 - baseURL: https://api.spectrocloud.com
   baseurl_source: declared
   description: The clusterprofiles API from Spectro Cloud — 26 operation(s) for clusterprofiles.
@@ -110,11 +90,6 @@ apis:
   description: The dashboard API from Spectro Cloud — 61 operation(s) for dashboard.
   name: Spectro Cloud dashboard API
   slug: spectro-cloud-dashboard-api
-- baseURL: https://api.spectrocloud.com
-  baseurl_source: declared
-  description: The datasinks API from Spectro Cloud — 1 operation(s) for datasinks.
-  name: Spectro Cloud datasinks API
-  slug: spectro-cloud-datasinks-api
 - baseURL: https://api.spectrocloud.com
   baseurl_source: declared
   description: The edge-mgmt API from Spectro Cloud — 64 operation(s) for edge-mgmt.
@@ -255,6 +230,31 @@ apis:
   description: The workspaces API from Spectro Cloud — 14 operation(s) for workspaces.
   name: Spectro Cloud workspaces API
   slug: spectro-cloud-workspaces-api
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The API Keys API from Spectro Cloud — 3 operation(s) for api keys.
+  name: Spectro Cloud API Keys API
+  slug: spectro-cloud-api-keys-api
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The App Deployments API from Spectro Cloud — 9 operation(s) for app deployments.
+  name: Spectro Cloud App Deployments API
+  slug: spectro-cloud-app-deployments-api
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The Cloud Accounts API from Spectro Cloud — 32 operation(s) for cloud accounts.
+  name: Spectro Cloud Cloud Accounts API
+  slug: spectro-cloud-cloud-accounts-api
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The cluster groups API from Spectro Cloud — 10 operation(s) for cluster groups.
+  name: Spectro Cloud cluster groups API
+  slug: spectro-cloud-cluster-groups-api
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The Data Sinks API from Spectro Cloud — 1 operation(s) for data sinks.
+  name: Spectro Cloud Data Sinks API
+  slug: spectro-cloud-data-sinks-api
 artifact_total: 90
 collections:
 - collection_type: open
@@ -556,18 +556,18 @@ modified: '2026-07-21'
 name: Spectro Cloud
 nav: Providers
 network: true
-overview: 'Spectro Cloud publishes 42 APIs on the [APIs.io](https://apis.io/) network, including activations API, apiKeys API, appDeployments API, and 39 more. Tagged areas include Company, Infrastructure, Kubernetes, Cloud-Native, and Cluster Management.
+overview: 'Spectro Cloud publishes 42 APIs on the [APIs.io](https://apis.io/) network, including activations API, appProfiles API, audits API, and 39 more. Tagged areas include Company, Infrastructure, Kubernetes, Cloud-Native, and Cluster Management.
 
 
   Spectro Cloud''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 28 more developer resources.'
-random_paper: 4
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Spectro Cloud Rate Limits
   slug: spectro-cloud-rate-limits
 score:
   band: strong
-  composite: 57.2
+  composite: 57.9
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -575,11 +575,11 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 44.9
+    contract_quality: 47.7
     developer_ergonomics: 73.2
     discoverability: 75.9
     operational_transparency: 26.3
@@ -588,14 +588,14 @@ score:
     agentic_access: derived
     conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 95.2
       derived: 0
       marker_coverage: 0.0
       total: 42
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -33,14 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 65.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 17
-  human_in_the_loop: 0
+- acting_count: 263
+  human_in_the_loop: 5
   name: Scope3 Agentic Access
-  operation_count: 30
+  operation_count: 466
   slug: scope3-agentic-access
-  summary_line: 30 operations · 17 acting
+  summary_line: 466 operations · 263 acting · 5 human-in-the-loop
 api_count: 4
 apis:
 - baseURL: https://aiapi.scope3.com
@@ -585,7 +585,7 @@ plans:
 - name: Scope3 Plans Pricing
   plan_count: 3
   slug: scope3-plans-pricing
-random_paper: 1
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Scope3 Rate Limits
@@ -609,7 +609,7 @@ score:
   facets:
     access_clarity: 69.7
     contract_governance: 18.2
-    contract_quality: 61.3
+    contract_quality: 61.5
     developer_ergonomics: 66.7
     discoverability: 81.5
     operational_transparency: 65.8
@@ -625,7 +625,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

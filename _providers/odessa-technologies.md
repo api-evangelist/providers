@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 10
 apis:
 - description: Unified lease and loan management platform delivering originations, servicing, and remarketing on a single asset-level data model with an API-first integration framework, low-code configuration toolin
@@ -140,7 +140,7 @@ overview: 'Odessa Technologies publishes 10 APIs on the [APIs.io](https://apis.i
 
 
   Odessa Technologies'' developer surface includes engineering blog, GitHub presence, and 13 more developer resources.'
-random_paper: 15
+random_paper: 10
 score:
   band: minimal
   composite: 9.5
@@ -166,7 +166,7 @@ score:
     - north-america
   previous_composite: 9.5
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

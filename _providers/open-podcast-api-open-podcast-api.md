@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 6
 apis:
 - description: Authenticate users against an Open Podcast compliant server, establishing the session used for subsequent subscription, action, and device endpoints.
@@ -93,7 +93,7 @@ modified: '2026-04-28'
 name: Open Podcast API
 nav: Providers
 network: true
-overview: 'Open Podcast API publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Episodes, Open Standards, Podcasts, and Subscription.
+overview: 'Open Podcast API publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Audio, Episodes, Open Standard, Podcasts, and Subscription.
 
 
   Open Podcast API''s developer surface includes documentation and 5 more developer resources.'
@@ -101,7 +101,7 @@ plans:
 - name: Open Podcast Api Open Podcast Api Plans Pricing
   plan_count: 3
   slug: open-podcast-api-open-podcast-api-plans-pricing
-random_paper: 8
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Open Podcast Api Open Podcast Api Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -142,7 +142,7 @@ slug: open-podcast-api-open-podcast-api
 tags:
 - Audio
 - Episodes
-- Open Standards
+- Open Standard
 - Podcasts
 - Subscription
 - Sync

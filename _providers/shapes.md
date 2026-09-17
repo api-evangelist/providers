@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 16.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://api.shapes.inc/v1/
@@ -50,7 +50,7 @@ apis:
 - baseURL: https://api.shapes.inc/v1/
   baseurl_source: declared
   description: The Shapes API from Shapes — 1 operation(s) for shapes.
-  name: Shapes Shapes API
+  name: Shapes API
   slug: shapes-shapes-api
 artifact_total: 10
 collections:
@@ -184,15 +184,15 @@ mcp_servers:
 - description: ''
   name: Shapes MCP Server
   slug: shapes-mcp-server
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: Shapes
 nav: Providers
 network: true
-overview: 'Shapes publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chat API, Models API, and Shapes API. Tagged areas include Company, Artificial Intelligence, AI Agents, Chat, and Social.
+overview: 'Shapes publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Models API, and 1 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Chat, and Social.
 
 
   Shapes'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: developing
   composite: 42.9
@@ -222,7 +222,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -25,33 +25,84 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: '0.2'
-  score: 35.5
-  scored_at: '2026-09-15'
+  score: 44.1
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- description: Create and track orders that combine e-signature, remote online notarization and tracked delivery. 35 documented paths across Onboarding, Orders, Sandbox, Closing Rooms, Closing Passports, Proof Passp
-  name: SignSealShip Partner API
-  slug: partner-api
 - description: 'Statute-cited remote online notarization requirements for all 50 U.S. states and the District of Columbia: effective date, notary fee cap, identity-verification standard, record-retention period, sign'
   name: Remote online notarization requirements by U.S. jurisdiction
   slug: ron-laws-dataset
-artifact_total: 11
+- baseURL: https://signsealship.com
+  baseurl_source: declared
+  description: Room-level, hash-chained, KMS-sealed evidence manifests.
+  name: SignSealShip Partner API Closing Passports API
+  slug: signsealship-closing-passports-api
+- baseURL: https://signsealship.com
+  baseurl_source: declared
+  description: Verified Closing Rooms — one shareable page per transaction.
+  name: SignSealShip Partner API Closing Rooms API
+  slug: signsealship-closing-rooms-api
+- baseURL: https://signsealship.com
+  baseurl_source: declared
+  description: Your workspace's go-live checklist and tenant-scoped analytics.
+  name: SignSealShip Partner API Launchpad & Analytics API
+  slug: signsealship-launchpad-analytics-api
+- baseURL: https://signsealship.com
+  baseurl_source: declared
+  description: Request partner API access.
+  name: SignSealShip Partner API Onboarding API
+  slug: signsealship-onboarding-api
+- baseURL: https://signsealship.com
+  baseurl_source: declared
+  description: B2B order intake — create sign / notarize / ship orders, track them, and mint Stripe hosted checkout.
+  name: SignSealShip Partner API Orders API
+  slug: signsealship-orders-api
+- baseURL: https://signsealship.com
+  baseurl_source: declared
+  description: Seal and verify a single executed PDF.
+  name: SignSealShip Partner API Proof Passport API
+  slug: signsealship-proof-passport-api
+- baseURL: https://signsealship.com
+  baseurl_source: declared
+  description: Deterministic lifecycle simulation for TEST orders (sss_pk_test_ keys) — real state machine, real signed webhooks, no live money.
+  name: SignSealShip Partner API Sandbox API
+  slug: signsealship-sandbox-api
+- baseURL: https://signsealship.com
+  baseurl_source: declared
+  description: Signed event delivery and subscription management.
+  name: SignSealShip Partner API Webhooks API
+  slug: signsealship-webhooks-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Signsealship Webhooks
   slug: signsealship-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://sign-seal-ship.main-kill-isr.mintlify.me/mcp
+- group: other
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/overlays/signsealship-partner-api-overlay.yaml
+  title: ''
+  type: Overlay
+  url: overlays/signsealship-partner-api-overlay.yaml
+- group: agent
+  href: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/mcp/signsealship-mcp.yml
+  title: ''
+  type: MCPServer
+  url: mcp/signsealship-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -182,35 +233,35 @@ description: E-signature, remote online notarization coordination, document veri
 image: https://signsealship.com/brand/icon-512.png
 layout: provider
 mcp_servers:
-- description: 'Mintlify DOCUMENTATION-SEARCH MCP on a mintlify.me preview host -- not the Partner API and not a first-party host. Answers initialize with 200. Declared in docs.signsealship.com/.well-known/mcp.json, '
+- description: ''
   name: SignSealShip Partner API MCP Server
   slug: signsealship-partner-api-mcp-server
-- description: 'Probed profile of the declared MCP server, including the required deployment block (mode: remote, auth: none, verified: probed).'
+- description: ''
   name: SignSealShip Partner API MCP Server
   slug: signsealship-partner-api-mcp-server-2
 modified: '2026-09-01'
 name: SignSealShip Partner API
 nav: Providers
 network: true
-overview: 'SignSealShip Partner API publishes 1 API on the [APIs.io](https://apis.io/) network: SignSealShip Partner API. Tagged areas include Notarization, Remote Online Notarization, Electronic Signature, Document Verification, and Legal Technology.
+overview: 'SignSealShip Partner API publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Closing Passports API, Closing Rooms API, Launchpad & Analytics API, and 5 more. Tagged areas include Notarization, Remote Online Notarization, Electronic Signature, Document Verification, and Legal Technology.
 
 
   The SignSealShip Partner API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SignSealShip Partner API''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, changelog, and 21 more developer resources.'
+  SignSealShip Partner API''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, changelog, and 24 more developer resources.'
 plans:
 - name: Signsealship Plans Pricing
   plan_count: 4
   slug: signsealship-plans-pricing
-random_paper: 9
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Signsealship Rate Limits
   slug: signsealship-rate-limits
 score:
   band: strong
-  composite: 61.6
+  composite: 66.1
   coverage:
     artifact_dirs: 21
     catalog_earned: 58.0
@@ -218,11 +269,11 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.5
   facets:
     access_clarity: 84.2
     contract_governance: 4.5
-    contract_quality: 48.1
+    contract_quality: 66.3
     developer_ergonomics: 69.0
     discoverability: 77.8
     operational_transparency: 86.8
@@ -233,11 +284,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 1
+      total: 8
     mcp: first-party
     skills: unknown
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

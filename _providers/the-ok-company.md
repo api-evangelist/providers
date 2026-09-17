@@ -24,14 +24,14 @@ modified: '2026-09-15'
 name: The OK Company
 nav: Providers
 network: true
-overview: The OK Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Mobile Apps, Parenting, and Children.
+overview: The OK Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Mobile App, Parenting, and Children.
 random_paper: 2
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-ok-company/refs/heads/main/screenshots/the-ok-company-2026-09-02T163405.png
 slug: the-ok-company
 tags:
 - Company
 - Consumer
-- Mobile Apps
+- Mobile App
 - Parenting
 - Children
 - EdTech

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -45,21 +45,6 @@ agentic_access:
   summary_line: 44 operations · 44 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- baseURL: https://states.amazonaws.com
-  baseurl_source: declared
-  description: Operations for starting, stopping, describing, and listing executions
-  name: Amazon Step Functions Executions API
-  slug: amazon-step-functions-executions-api
-- baseURL: https://states.amazonaws.com
-  baseurl_source: declared
-  description: Operations for retrieving execution history events
-  name: Amazon Step Functions History API
-  slug: amazon-step-functions-history-api
-- baseURL: https://states.amazonaws.com
-  baseurl_source: declared
-  description: Operations for creating, updating, describing, and deleting state machines
-  name: Amazon Step Functions State Machines API
-  slug: amazon-step-functions-state-machines-api
 - baseURL: https://states.amazonaws.com
   baseurl_source: declared
   description: 'The #X Amz Target=AWSStepFunctions.CreateActivity API from Amazon Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.createactivity.'
@@ -230,7 +215,7 @@ apis:
   description: 'The #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API from Amazon Step Functions — 1 operation(s) for #x amz target=awsstepfunctions.updatestatemachinealias.'
   name: 'Amazon Step Functions #X Amz Target=AWSStepFunctions.UpdateStateMachineAlias API'
   slug: amazon-step-functions-x-amz-target-awsstepfunctions-updatestatemachinealias-api
-artifact_total: 503
+artifact_total: 500
 collections:
 - collection_type: postman
   name: Amazon Step Functions Executions API
@@ -461,6 +446,10 @@ collections:
   name: Amazon Step Functions API
   slug: open-amazon-step-functions
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://amazon.com
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1685,22 +1674,22 @@ jsonld:
   property_count: 118
   slug: amazon-step-functions-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: Amazon Step Functions
 nav: Providers
 network: true
-overview: 'Amazon Step Functions publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Executions API, History API, State Machines API, and 34 more. Tagged areas include Orchestration, Serverless, State Machine, and Workflows.
+overview: 'Amazon Step Functions publishes 34 APIs on the [APIs.io](https://apis.io/) network, including #X Amz Target=AWSStepFunctions.CreateActivity API, #X Amz Target=AWSStepFunctions.CreateStateMachine API, #X Amz Target=AWSStepFunctions.CreateStateMachineAlias API, and 31 more. Tagged areas include Orchestration, Serverless, State Machine, and Workflows.
 
 
   The Amazon Step Functions catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Step Functions'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Step Functions'' developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Step Functions Plans Pricing
   plan_count: 3
   slug: amazon-step-functions-plans-pricing
-random_paper: 2
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Step Functions Rate Limits
@@ -1729,21 +1718,21 @@ rules:
   slug: amazon-step-functions-spectral-rules
 score:
   band: developing
-  composite: 54.1
+  composite: 52.3
   coverage:
     artifact_dirs: 17
-    catalog_earned: 58.5
+    catalog_earned: 48.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.5
+    catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 71.1
+    contract_quality: 71.4
     developer_ergonomics: 58.3
-    discoverability: 61.1
+    discoverability: 42.6
     operational_transparency: 26.3
   previous_composite: 54.1
   provenance:
@@ -1752,9 +1741,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 37
+      total: 34
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -1792,5 +1781,5 @@ use_cases:
   name: IT Automation
 - description: Orchestrate SageMaker model training, evaluation, and deployment.
   name: ML Model Training Pipelines
-website: https://aws.amazon.com/step-functions/
+website: https://amazon.com
 ---

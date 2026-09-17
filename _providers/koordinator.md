@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Koordinator QoS-based scheduling system for hybrid workloads on Kubernetes with colocation and resource optimization.
@@ -82,7 +82,7 @@ plans:
 - name: Koordinator Plans Pricing
   plan_count: 3
   slug: koordinator-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Koordinator Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

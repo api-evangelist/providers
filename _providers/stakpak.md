@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -347,7 +347,7 @@ overview: 'StakPak publishes 20 APIs on the [APIs.io](https://apis.io/) network,
 
 
   StakPak''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, CLI, and 20 more developer resources.'
-random_paper: 16
+random_paper: 3
 score:
   band: developing
   composite: 44.5
@@ -362,7 +362,7 @@ score:
   facets:
     access_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 51.1
+    contract_quality: 51.3
     developer_ergonomics: 70.8
     discoverability: 75.9
     operational_transparency: 18.4
@@ -381,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

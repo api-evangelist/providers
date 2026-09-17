@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 30.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - baseURL: https://{shop}.onshopbase.com/admin
@@ -66,11 +66,6 @@ apis:
   description: The Customer API from Beeketing — 4 operation(s) for customer.
   name: Beeketing Customer API
   slug: beeketing-customer-api
-- baseURL: https://{shop}.onshopbase.com/admin
-  baseurl_source: declared
-  description: The DiscountCode API from Beeketing — 3 operation(s) for discountcode.
-  name: Beeketing Discount Code API
-  slug: beeketing-discountcode-api
 - baseURL: https://{shop}.onshopbase.com/admin
   baseurl_source: declared
   description: You can use the domain resource to view
@@ -171,6 +166,11 @@ apis:
   description: The Webhook API from Beeketing — 2 operation(s) for webhook.
   name: Beeketing Webhook API
   slug: beeketing-webhook-api
+- baseURL: https://{shop}.onshopbase.com/admin
+  baseurl_source: declared
+  description: The Discount Code API from Beeketing — 3 operation(s) for discount code.
+  name: Beeketing Discount Code API
+  slug: beeketing-discount-code-api
 artifact_total: 33
 asyncapis:
 - description: ''
@@ -299,10 +299,10 @@ common:
   type: LLMsTxt
   url: llms/beeketing-llms.txt
 - group: docs
-  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-shopbase-admin-openapi.json
+  href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/_original/beeketing-shopbase-admin-openapi.json
   title: ''
   type: OpenAPI
-  url: openapi/beeketing-shopbase-admin-openapi.json
+  url: openapi/_original/beeketing-shopbase-admin-openapi.json
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/overlays/beeketing-shopbase-admin-overlay.yaml
   title: ''
@@ -350,7 +350,7 @@ created: '2026-07-17'
 description: 'Beeketing began as a Vietnam-founded e-commerce marketing startup (backed by 500 Global) that built conversion-optimization apps for Shopify and other online stores, and evolved into OpenCommerce Group — the operator of ShopBase, a cross-border commerce platform serving 100,000+ merchants across 195 countries alongside PrintBase and PlusBase. The developer surface is the ShopBase Developer Platform: a Shopify-style REST Admin API (plus a GraphQL Admin API) for building public and private apps, themes, and payment gateways. It is secured with OAuth 2.0 authorization-code flow (public apps) or HTTP Basic auth (private apps), scoped with granular access scopes, and supports webhooks, leaky-bucket rate limiting, an app/theme store, and a Storefront SDK. A machine-readable contract is published: a Swagger 2.0 document of 97 paths, 153 operations and 268 definitions, served at https://api-doc.shopbase.com/public-swagger.json and rendered with ReDoc.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beeketing.png
 layout: provider
-modified: '2026-08-13'
+modified: '2026-09-16'
 name: Beeketing
 nav: Providers
 network: true
@@ -377,7 +377,7 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.5
+  composite: 62.2
   coverage:
     artifact_dirs: 25
     catalog_earned: 47.0
@@ -385,11 +385,11 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 69.7
     contract_governance: 18.2
-    contract_quality: 59.9
+    contract_quality: 58.7
     developer_ergonomics: 73.2
     discoverability: 57.4
     operational_transparency: 47.4
@@ -410,7 +410,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

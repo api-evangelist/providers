@@ -43,7 +43,7 @@ name: Shoreline Biosciences
 nav: Providers
 network: true
 overview: Shoreline Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Cell Therapy, and Immunotherapy.
-random_paper: 10
+random_paper: 17
 security:
 - kind: domain-security
   name: Shoreline Biosciences Domain Security

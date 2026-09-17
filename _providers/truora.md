@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -299,7 +299,7 @@ modified: '2026-07-17'
 name: Truora
 nav: Providers
 network: true
-overview: 'Truora publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Checks API, Continuous Monitoring API, and 2 more. Tagged areas include Identity Verification, KYC, Background Checks, Fraud Prevention, and LatAm.
+overview: 'Truora publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Checks API, Continuous Monitoring API, and 2 more. Tagged areas include Identity Verification, KYC, Background Checks, Fraud Prevention, and Latin America.
 
 
   The Truora catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -310,7 +310,7 @@ plans:
 - name: Truora Plans Pricing
   plan_count: 3
   slug: truora-plans-pricing
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Truora Rate Limits
@@ -355,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -384,7 +384,7 @@ tags:
 - KYC
 - Background Checks
 - Fraud Prevention
-- LatAm
+- Latin America
 - WhatsApp
 website: https://www.truora.com/
 ---

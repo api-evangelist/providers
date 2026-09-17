@@ -36,7 +36,7 @@ overview: 'Noteable is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Noteable''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 2
+random_paper: 6
 screenshot: https://raw.githubusercontent.com/api-evangelist/noteable/refs/heads/main/screenshots/noteable-2026-08-07T185544.png
 slug: noteable
 tags:

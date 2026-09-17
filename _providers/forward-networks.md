@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 31.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 2
@@ -112,7 +112,7 @@ apis:
 - baseURL: https://fwd.app/api
   baseurl_source: declared
   description: Create, list, rename, or delete model networks
-  name: Forward Networks Networks API
+  name: Forward Networks API
   slug: forward-networks-networks-api
 - baseURL: https://fwd.app/api
   baseurl_source: declared
@@ -352,7 +352,7 @@ mcp_servers:
 - description: Open-source MCP server (Go, stdio transport) published in the Forward Networks GitHub org. Exposes 54 tools plus 6 workflow prompts and a network-context resource, validated against the official Forwa
   name: Forward Networks MCP Server
   slug: forward-networks-mcp-server
-modified: '2026-07-19'
+modified: '2026-09-16'
 name: Forward Networks
 nav: Providers
 network: true
@@ -360,7 +360,7 @@ overview: 'Forward Networks publishes 20 APIs on the [APIs.io](https://apis.io/)
 
 
   Forward Networks'' developer surface includes documentation, authentication, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 15
+random_paper: 1
 score:
   band: developing
   composite: 41.8
@@ -391,7 +391,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

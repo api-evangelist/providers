@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 8
 apis:
 - description: OceanMedallion is Carnival Corporation's wearable IoT device and experience platform deployed across Princess Cruises and being adopted across other Carnival brands. The medallion enables keyless stat
@@ -132,11 +132,11 @@ modified: '2026-05-16'
 name: Carnival Corporation
 nav: Providers
 network: true
-overview: 'Carnival Corporation publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cruise Lines, Travel, Hospitality, Mobile Apps, and Loyalty.
+overview: 'Carnival Corporation publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cruise Lines, Travel, Hospitality, Mobile App, and Loyalty.
 
 
   Carnival Corporation''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 14
+random_paper: 3
 score:
   band: minimal
   composite: 8.9
@@ -157,7 +157,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -174,7 +174,7 @@ tags:
 - Cruise Lines
 - Travel
 - Hospitality
-- Mobile Apps
+- Mobile App
 - Loyalty
 - Wearables
 use_cases:

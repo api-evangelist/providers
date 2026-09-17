@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://gbfs.api.ridedott.com/public/v2
@@ -217,7 +217,7 @@ overview: 'Dott publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Dott''s developer surface includes documentation, API reference, getting-started guide, engineering blog, code examples, authentication, and 17 more developer resources.'
-random_paper: 2
+random_paper: 3
 score:
   band: developing
   composite: 43.4
@@ -253,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -276,7 +276,7 @@ tags:
 - Micromobility
 - Mobility
 - E-Scooter
-- E-Bike
+- E-Bikes
 - GBFS
 - Shared Mobility
 - Smart City

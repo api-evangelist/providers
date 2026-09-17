@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 0
 common:
@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Priceline Launches New AI-Powered Trip Intelligence ...
   url: https://www.hotelnewsresource.com/article130195.html
-random_paper: 3
+random_paper: 17
 score:
   band: minimal
   composite: 3.9
@@ -99,7 +99,7 @@ score:
       reason: never_enriched
   previous_composite: 3.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

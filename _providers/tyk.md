@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -56,19 +56,9 @@ apis:
   slug: tyk-analytics-api
 - baseURL: https://tyk.io/
   baseurl_source: declared
-  description: Use the endpoints under this tags to update,add ,delete and fetch the classic APIs.
-  name: Tyk APIs API
-  slug: tyk-apis-api
-- baseURL: https://tyk.io/
-  baseurl_source: declared
   description: An API template is an asset managed by Tyk Dashboard that is used as the starting point - a blueprint - from which you can create a new Tyk OAS API definition. <br/> Templates are used only during the
   name: Tyk Assets API
   slug: tyk-assets-api
-- baseURL: https://tyk.io/
-  baseurl_source: declared
-  description: The AuditLogs API from Tyk — 1 operation(s) for auditlogs.
-  name: Tyk AuditLogs API
-  slug: tyk-auditlogs-api
 - baseURL: https://tyk.io/
   baseurl_source: declared
   description: An API request made using Basic Authentication will have an Authorization header that contains the API key. The value of the Authorization header will be in the form:</br> `Basic base64Encode(username
@@ -109,11 +99,6 @@ apis:
   description: Since the Dashboard can have multiple URLs associated with it. It is possible to force a URL reload by calling an API endpoint of the Dashboard API.
   name: Tyk Dashboard URL Reload API
   slug: tyk-dashboard-url-reload-api
-- baseURL: https://tyk.io/
-  baseurl_source: declared
-  description: The Dataplanes API from Tyk — 1 operation(s) for dataplanes.
-  name: Tyk Dataplanes API
-  slug: tyk-dataplanes-api
 - baseURL: https://tyk.io/
   baseurl_source: declared
   description: The Debug API from Tyk — 3 operation(s) for debug.
@@ -166,11 +151,6 @@ apis:
   slug: tyk-oas-apis-api
 - baseURL: https://tyk.io/
   baseurl_source: declared
-  description: Use the endpoints in this tag to manage OAuth flow.
-  name: Tyk Oauth API
-  slug: tyk-oauth-api
-- baseURL: https://tyk.io/
-  baseurl_source: declared
   description: 'The Tyk Dashboard permission system can be extended by writing custom rules using an Open Policy Agent (OPA). The rules engine works on top of your Dashboard API, which means you can control not only '
   name: Tyk Open Policy Agent API
   slug: tyk-open-policy-agent-api
@@ -217,18 +197,13 @@ apis:
 - baseURL: https://tyk.io/
   baseurl_source: declared
   description: The Tyk API from Tyk — 3 operation(s) for tyk.
-  name: Tyk Tyk API
+  name: Tyk API
   slug: tyk-tyk-api
 - baseURL: https://tyk.io/
   baseurl_source: declared
   description: '**Note: Applies only to Tyk Gateway Community Edition** <br/>'
-  name: Tyk Tyk OAS APIs API
+  name: Tyk OAS APIs
   slug: tyk-tyk-oas-apis-api
-- baseURL: https://tyk.io/
-  baseurl_source: declared
-  description: 'When you have a large number of users and teams with different access requirements, instead of setting permissions per user, you can create a user group and configure the permissions for all users in '
-  name: Tyk UserGroup API
-  slug: tyk-usergroup-api
 - baseURL: https://tyk.io/
   baseurl_source: declared
   description: The admin portion of the users API gives you the ability to manage password reset policies for your Dashboard users.
@@ -239,6 +214,31 @@ apis:
   description: Webhooks are a great way to let external applications know about the status of a user, an API or an event that has occurred in the Tyk gateway <br/> You can create webhooks that you can then re-use in
   name: Tyk Webhooks API
   slug: tyk-webhooks-api
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Use the endpoints under this tags to update,add ,delete and fetch the classic APIs.
+  name: Tyk AP Is API
+  slug: tyk-apis-api
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Use the endpoints in this tag to manage OAuth flow.
+  name: Tyk OAUTH API
+  slug: tyk-oauth-api
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Audit Logs API from Tyk — 1 operation(s) for audit logs.
+  name: Tyk Audit Logs API
+  slug: tyk-audit-logs-api
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The data planes API from Tyk — 1 operation(s) for data planes.
+  name: Tyk data planes API
+  slug: tyk-data-planes-api
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: 'When you have a large number of users and teams with different access requirements, instead of setting permissions per user, you can create a user group and configure the permissions for all users in '
+  name: Tyk User Group API
+  slug: tyk-user-group-api
 artifact_total: 801
 collections:
 - collection_type: postman
@@ -2623,11 +2623,11 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-08-03'
+modified: '2026-09-16'
 name: Tyk
 nav: Providers
 network: true
-overview: 'Tyk publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Additional Permissions API, Analytics API, APIs API, and 36 more. Tagged areas include API Gateway, API Management, GraphQL, and Open-Source.
+overview: 'Tyk publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Additional Permissions API, Analytics API, Assets API, and 36 more. Tagged areas include API Gateway, API Management, GraphQL, and Open-Source.
 
 
   The Tyk catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -2638,7 +2638,7 @@ plans:
 - name: Tyk Plans Pricing
   plan_count: 5
   slug: tyk-plans-pricing
-random_paper: 8
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Tyk Rate Limits
@@ -2667,21 +2667,21 @@ rules:
   slug: tyk-spectral-rules
 score:
   band: strong
-  composite: 57.4
+  composite: 54.5
   coverage:
     artifact_dirs: 21
-    catalog_earned: 61.5
+    catalog_earned: 45.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
+    catalog_gap: 69.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.9
   facets:
     access_clarity: 57.9
     contract_governance: 28.8
-    contract_quality: 65.8
+    contract_quality: 61.7
     developer_ergonomics: 65.5
-    discoverability: 66.7
+    discoverability: 48.1
     operational_transparency: 52.6
   previous_composite: 57.4
   provenance:
@@ -2692,7 +2692,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

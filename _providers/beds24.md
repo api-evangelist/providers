@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 19.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -176,7 +176,7 @@ modified: '2026-07-03'
 name: Beds24
 nav: Providers
 network: true
-overview: 'Beds24 publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Bookings API, and 5 more. Tagged areas include Vacation Rental, Hotel, Channel Manager, Property Management System, and Booking Engine.
+overview: 'Beds24 publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Bookings API, and 5 more. Tagged areas include Vacation Rentals, Hotels, Channel Manager, Property Management System, and Booking Engine.
 
 
   Beds24''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -184,7 +184,7 @@ plans:
 - name: Beds24 Plans Pricing
   plan_count: 5
   slug: beds24-plans-pricing
-random_paper: 12
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Beds24 Rate Limits
@@ -216,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -233,8 +233,8 @@ security:
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 slug: beds24
 tags:
-- Vacation Rental
-- Hotel
+- Vacation Rentals
+- Hotels
 - Channel Manager
 - Property Management System
 - Booking Engine

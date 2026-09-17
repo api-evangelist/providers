@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ modified: '2026-06-13'
 name: Splitit
 nav: Providers
 network: true
-overview: 'Splitit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Eligibility API, Installment Plans API, and 1 more. Tagged areas include Payments, Installments, Buy Now Pay Later, Credit Card, and Fintech.
+overview: 'Splitit publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Eligibility API, Installment Plans API, and 1 more. Tagged areas include Payments, Installments, Buy Now Pay Later, Credit Cards, and Fintech.
 
 
   The Splitit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -261,7 +261,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 0
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Rate Limits
@@ -311,7 +311,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -331,7 +331,7 @@ tags:
 - Payments
 - Installments
 - Buy Now Pay Later
-- Credit Card
+- Credit Cards
 - Fintech
 - E-Commerce
 website: https://www.splitit.com/

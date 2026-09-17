@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 24.8
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -82,14 +82,14 @@ apis:
   slug: ambassador-modules-api
 - baseURL_template: https://{ambassador-host}:8877
   baseurl_source: spec_template
-  description: Manage rate limiting configuration for controlling request throughput to backend services using labels and descriptors.
-  name: Ambassador RateLimits API
-  slug: ambassador-ratelimits-api
-- baseURL_template: https://{ambassador-host}:8877
-  baseurl_source: spec_template
   description: Manage TLSContext resources that configure TLS settings for Ambassador, including certificates, protocols, and cipher suites.
   name: Ambassador TLSContexts API
   slug: ambassador-tlscontexts-api
+- baseURL_template: https://{ambassador-host}:8877
+  baseurl_source: spec_template
+  description: Manage rate limiting configuration for controlling request throughput to backend services using labels and descriptors.
+  name: Ambassador Rate Limits API
+  slug: ambassador-rate-limits-api
 artifact_total: 159
 collections:
 - collection_type: open
@@ -625,7 +625,7 @@ plans:
 - name: Ambassador Plans Pricing
   plan_count: 4
   slug: ambassador-plans-pricing
-random_paper: 3
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Ambassador Rate Limits
@@ -682,7 +682,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

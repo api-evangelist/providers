@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 2
 apis:
 - description: REST API for Gretel's synthetic data platform. Lets you ingest data, manage projects, train models, run record handlers, and pull artifacts. Used as the backend for the gretel-client Python SDK and CL
@@ -117,7 +117,7 @@ plans:
 - name: Gretel Ai Plans Pricing
   plan_count: 1
   slug: gretel-ai-plans-pricing
-random_paper: 8
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Gretel Ai Rate Limits
@@ -145,7 +145,7 @@ score:
     score: 25.0
   previous_composite: 20.9
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false

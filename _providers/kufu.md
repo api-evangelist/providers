@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 23.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - baseURL: https://app.smarthr.jp/api/v1
@@ -247,14 +247,14 @@ modified: '2026-07-19'
 name: KUFU
 nav: Providers
 network: true
-overview: 'KUFU publishes 2 APIs on the [APIs.io](https://apis.io/) network: カスタム家族項目テンプレート API and Webhook API. Tagged areas include Company, Human Resources, HR Tech, Payroll, and Employee Data.
+overview: 'KUFU publishes 2 APIs on the [APIs.io](https://apis.io/) network: カスタム家族項目テンプレート API and Webhook API. Tagged areas include Company, Human Resources, Payroll, Employee Data, and Software-as-a-Service.
 
 
   The KUFU catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
   KUFU''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
-random_paper: 2
+random_paper: 3
 score:
   band: strong
   composite: 56.6
@@ -297,7 +297,7 @@ score:
     regime_id: insurance
     score: 62.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -324,7 +324,6 @@ slug: kufu
 tags:
 - Company
 - Human Resources
-- HR Tech
 - Payroll
 - Employee Data
 - Software-as-a-Service

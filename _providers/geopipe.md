@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 0.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 0
 artifact_total: 1
 common:
@@ -83,11 +83,11 @@ modified: '2026-07-19'
 name: Geopipe
 nav: Providers
 network: true
-overview: 'Geopipe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D, Digital Twins, Geospatial, and Gaming.
+overview: 'Geopipe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D, Digital Twin, Geospatial, and Gaming.
 
 
   Geopipe''s developer surface includes signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 10
+random_paper: 19
 score:
   band: minimal
   composite: 9.3
@@ -108,7 +108,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 9.3
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -124,7 +124,7 @@ slug: geopipe
 tags:
 - Company
 - 3D
-- Digital Twins
+- Digital Twin
 - Geospatial
 - Gaming
 - Simulation

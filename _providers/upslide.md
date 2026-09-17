@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 12.2
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: Official remote MCP (Model Context Protocol) server that connects AI assistants such as Claude Desktop and Microsoft 365 Copilot to the UpSlide add-in. Exposes selected UpSlide features (Excel link li
@@ -156,7 +156,7 @@ overview: 'UpSlide publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   UpSlide''s developer surface includes developer portal, documentation, support, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
-random_paper: 2
+random_paper: 10
 score:
   band: thin
   composite: 30.6
@@ -181,7 +181,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -206,7 +206,7 @@ tags:
 - Microsoft-365
 - PowerPoint
 - Excel
-- AI Assistants
+- AI Assistant
 - MCP
 website: https://upslide.com/
 ---

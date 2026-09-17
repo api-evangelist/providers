@@ -33,19 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 34.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
-- baseURL: https://api.resend.com
-  baseurl_source: declared
-  description: The Apis API from Resend — 2 operation(s) for apis.
-  name: Resend Apis API
-  slug: resend-apis-api
-- baseURL: https://api.resend.com
-  baseurl_source: declared
-  description: The Audience API from Resend — 3 operation(s) for audience.
-  name: Resend Audience API
-  slug: resend-audience-api
 - baseURL: https://api.resend.com
   baseurl_source: declared
   description: Create and manage Audiences through the Resend API.
@@ -53,24 +43,9 @@ apis:
   slug: resend-audiences-api
 - baseURL: https://api.resend.com
   baseurl_source: declared
-  description: The Batch API from Resend — 1 operation(s) for batch.
-  name: Resend Batch API
-  slug: resend-batch-api
-- baseURL: https://api.resend.com
-  baseurl_source: declared
   description: The Broadcasts API from Resend — 2 operation(s) for broadcasts.
   name: Resend Broadcasts API
   slug: resend-broadcasts-api
-- baseURL: https://api.resend.com
-  baseurl_source: declared
-  description: The Cancel API from Resend — 1 operation(s) for cancel.
-  name: Resend Cancel API
-  slug: resend-cancel-api
-- baseURL: https://api.resend.com
-  baseurl_source: declared
-  description: Create and manage Contacts through the Resend API.
-  name: Resend Contacts API
-  slug: resend-contacts-api
 - baseURL: https://api.resend.com
   baseurl_source: declared
   description: Create and manage domains through the Resend API.
@@ -78,19 +53,9 @@ apis:
   slug: resend-domains-api
 - baseURL: https://api.resend.com
   baseurl_source: declared
-  description: The Email API from Resend — 3 operation(s) for email.
-  name: Resend Email API
-  slug: resend-email-api
-- baseURL: https://api.resend.com
-  baseurl_source: declared
   description: Start sending emails through the Resend API.
   name: Resend Emails API
   slug: resend-emails-api
-- baseURL: https://api.resend.com
-  baseurl_source: declared
-  description: The Keys API from Resend — 2 operation(s) for keys.
-  name: Resend Keys API
-  slug: resend-keys-api
 - baseURL: https://api.resend.com
   baseurl_source: declared
   description: The Send API from Resend — 1 operation(s) for send.
@@ -98,10 +63,10 @@ apis:
   slug: resend-send-api
 - baseURL: https://api.resend.com
   baseurl_source: declared
-  description: The Verify API from Resend — 1 operation(s) for verify.
-  name: Resend Verify API
-  slug: resend-verify-api
-artifact_total: 64
+  description: The Apis API from Resend — 2 operation(s) for apis.
+  name: Resend APIS API
+  slug: resend-apis-api
+artifact_total: 57
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the Resend webhook surface. Resend delivers webhook events to subscriber-configured HTTPS endpoints using Svix as the underlying delivery and signing infrastructure. Every '
   name: Resend Webhooks
@@ -354,7 +319,7 @@ modified: '2026-05-29'
 name: Resend
 nav: Providers
 network: true
-overview: 'Resend publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Apis API, Audience API, Audiences API, and 10 more. Tagged areas include Email, Developer Tools, Transactional Email, and Marketing Email.
+overview: 'Resend publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Broadcasts API, Domains API, and 3 more. Tagged areas include Email, Developer Tools, Transactional Email, and Marketing Email.
 
 
   The Resend catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -365,7 +330,7 @@ plans:
 - name: Resend Plans Pricing
   plan_count: 3
   slug: resend-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Resend Rate Limits
@@ -404,7 +369,7 @@ rules:
   slug: resend-rules
 score:
   band: developing
-  composite: 53.5
+  composite: 54.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 68.5
@@ -412,11 +377,11 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 70.2
+    contract_quality: 72.9
     developer_ergonomics: 44.0
     discoverability: 66.7
     operational_transparency: 63.2
@@ -426,10 +391,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 13
+      total: 6
     mcp: first-party
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

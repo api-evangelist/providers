@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 27.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,13 +48,8 @@ apis:
   slug: chat-api
 - baseURL: https://chat.googleapis.com
   baseurl_source: declared
-  description: The CustomEmojis API from Google Chat Integrations for Workspace — 1 operation(s) for customemojis.
-  name: Google Chat Integrations for Workspace CustomEmojis API
-  slug: google-chat-integrations-for-workspace-customemojis-api
-- baseURL: https://chat.googleapis.com
-  baseurl_source: declared
   description: The Google Chat API API from Google Chat Integrations for Workspace — 1 operation(s) for google chat api.
-  name: Google Chat Integrations for Workspace Google Chat API API
+  name: Google Chat Integrations for Workspace Google Chat API
   slug: google-chat-integrations-for-workspace-google-chat-api-api
 - baseURL: https://chat.googleapis.com
   baseurl_source: declared
@@ -81,6 +76,11 @@ apis:
   description: The Spaces API from Google Chat Integrations for Workspace — 1 operation(s) for spaces.
   name: Google Chat Integrations for Workspace Spaces API
   slug: google-chat-integrations-for-workspace-spaces-api
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Custom Emojis API from Google Chat Integrations for Workspace — 1 operation(s) for custom emojis.
+  name: Google Chat Integrations for Workspace Custom Emojis API
+  slug: google-chat-integrations-for-workspace-custom-emojis-api
 artifact_total: 22
 collections:
 - collection_type: open
@@ -176,15 +176,15 @@ created: '2026-05-11'
 description: Google Chat is the messaging and collaboration platform built into Google Workspace, allowing teams to chat in direct messages, group conversations, and spaces with threaded discussions, file sharing, tasks, and Chat app integrations. The Google Chat REST API lets developers build Chat apps that send messages, manage spaces and members, post cards, handle slash commands, react to events, and integrate external services into Workspace conversations. Authentication uses OAuth 2.0 (user credentials for user-impersonating calls) or service-account credentials for app-bot calls.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-chat-integrations-for-workspace.png
 layout: provider
-modified: '2026-05-11'
+modified: '2026-09-16'
 name: Google Chat Integrations for Workspace
 nav: Providers
 network: true
-overview: 'Google Chat Integrations for Workspace publishes 7 APIs on the [APIs.io](https://apis.io/) network, including CustomEmojis API, Google Chat API API, Members API, and 4 more. Tagged areas include Google Workspace, Team Chat, Messaging, Collaboration, and Chat Apps.
+overview: 'Google Chat Integrations for Workspace publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Google Chat API, Members API, Message API, and 4 more. Tagged areas include Google Workspace, Team Chat, Messaging, Collaboration, and Chat Apps.
 
 
   Google Chat Integrations for Workspace''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 16
+random_paper: 10
 scopes:
 - name: Google Chat Integrations For Workspace Scopes
   scope_count: 3
@@ -217,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -243,7 +243,7 @@ tags:
 - Messaging
 - Collaboration
 - Chat Apps
-- Spaces
+- Space
 - Slash Commands
 - Bots
 website: https://workspace.google.com/products/chat/

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 37.4
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 0
@@ -44,11 +44,6 @@ agentic_access:
   summary_line: 177 operations · 102 acting
 api_count: 1
 apis:
-- baseURL: https://hosted.weblate.org/api/
-  baseurl_source: declared
-  description: Added in version 4.4.1.
-  name: Weblate addons API
-  slug: weblate-addons-api
 - baseURL: https://hosted.weblate.org/api/
   baseurl_source: declared
   description: The categories API from Weblate — 5 operation(s) for categories.
@@ -154,6 +149,11 @@ apis:
   description: Notifications sent by Weblate.
   name: Weblate Webhooks API
   slug: weblate-webhooks-api
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Added in version 4.4.1.
+  name: Weblate Add Ons API
+  slug: weblate-add-ons-api
 artifact_total: 63
 collections:
 - collection_type: open
@@ -339,7 +339,7 @@ modified: '2026-06-13'
 name: Weblate
 nav: Providers
 network: true
-overview: 'Weblate publishes 22 APIs on the [APIs.io](https://apis.io/) network, including addons API, categories API, changes API, and 19 more. Tagged areas include Localization, Translation, Internationalization, Open-Source, and Continuous Localization.
+overview: 'Weblate publishes 22 APIs on the [APIs.io](https://apis.io/) network, including categories API, changes API, component-lists API, and 19 more. Tagged areas include Localization, Translation, Internationalization, Open-Source, and Continuous Localization.
 
 
   The Weblate catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -350,7 +350,7 @@ plans:
 - name: Weblate Plans Pricing
   plan_count: 10
   slug: weblate-plans-pricing
-random_paper: 5
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Weblate Rate Limits
@@ -368,7 +368,7 @@ rules:
   slug: weblate-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.4
+  composite: 44.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 75.3
@@ -376,11 +376,11 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 60.0
+    contract_quality: 63.8
     developer_ergonomics: 21.4
     discoverability: 68.5
     operational_transparency: 52.6
@@ -393,7 +393,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

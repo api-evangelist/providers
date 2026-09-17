@@ -36,14 +36,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 33.6
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
-- acting_count: 75
+- acting_count: 22
   human_in_the_loop: 0
   name: Openadr Alliance Agentic Access
-  operation_count: 152
+  operation_count: 51
   slug: openadr-alliance-agentic-access
-  summary_line: 152 operations · 75 acting
+  summary_line: 51 operations · 22 acting
 api_count: 4
 apis:
 - baseURL: http://localhost:8081/openadr3
@@ -353,7 +353,7 @@ plans:
 - name: Openadr Alliance Plans
   plan_count: 10
   slug: openadr-alliance-plans
-random_paper: 19
+random_paper: 9
 scopes:
 - name: Openadr Alliance Scopes
   scope_count: 9
@@ -361,7 +361,7 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: strong
-  composite: 58.5
+  composite: 58.4
   coverage:
     artifact_dirs: 27
     catalog_earned: 54.3
@@ -369,11 +369,11 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 76.3
     contract_governance: 22.0
-    contract_quality: 71.8
+    contract_quality: 71.4
     developer_ergonomics: 66.1
     discoverability: 64.8
     operational_transparency: 26.3
@@ -405,7 +405,7 @@ score:
     regime_id: energy_utilities
     score: 60.1
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true

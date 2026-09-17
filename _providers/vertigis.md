@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 2.5
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 api_count: 1
 apis:
 - description: The VertiGIS Studio Reporting REST API generates reports and printed maps from spatial and non-spatial data. Jobs are submitted, polled, and their artifacts retrieved over HTTP; first-party JavaScript
@@ -41,6 +41,10 @@ apis:
   slug: vertigis-studio-reporting-rest-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://vertigisstudio.com
 - group: start
   title: ''
   type: DeveloperPortal
@@ -140,15 +144,15 @@ created: '2026-07-17'
 description: VertiGIS is a geographic information systems (GIS) software provider that builds tools helping utilities, telecommunications, energy, public sector, and land management organizations connect their business processes with location technology. Its flagship VertiGIS Studio suite (formerly Geocortex) extends Esri ArcGIS with low-code applications for web and mobile mapping, report generation, printing, and business-process automation. VertiGIS exposes a developer platform of JavaScript, TypeScript, C#, and Python SDKs plus a hosted Reporting REST API for automating report and print jobs, documented at the VertiGIS Studio Developer Center. VertiGIS was assembled by Battery Ventures around Latitude Geographics and operates a portfolio of GIS brands including Geocortex, GEONIS, WebOffice, ProOffice, UT for ArcGIS, 3A for ArcGIS, and ConnectMaster.
 image: https://www.vertigis.com/wp-content/uploads/2021/03/VertiGIS_Logo.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-09-16'
 name: VertiGIS
 nav: Providers
 network: true
 overview: 'VertiGIS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GIS, Geospatial, Mapping, and ArcGIS.
 
 
-  VertiGIS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, CLI, and 14 more developer resources.'
-random_paper: 16
+  VertiGIS''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, CLI, and 15 more developer resources.'
+random_paper: 19
 score:
   band: thin
   composite: 28.3
@@ -175,7 +179,7 @@ score:
     regime_id: energy_utilities
     score: 29.7
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: false
@@ -209,5 +213,5 @@ tags:
 - Developer Tools
 - Workflow-Automation
 - Utilities
-website: https://developers.vertigisstudio.com/
+website: https://vertigisstudio.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 20.9
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -271,6 +271,10 @@ collections:
   name: TIBCO BusinessEvents Agents Users API
   slug: open-tibco-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://tibco.com
 - group: other
   href: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/capabilities/tibco-capability-edges.yml
   title: ''
@@ -399,7 +403,7 @@ jsonld:
   property_count: 13
   slug: tibco-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-16'
 name: TIBCO
 nav: Providers
 network: true
@@ -409,12 +413,12 @@ overview: 'TIBCO publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
   The TIBCO catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  TIBCO''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, and 15 more developer resources.'
+  TIBCO''s developer surface includes authentication, developer portal, documentation, support, engineering blog, GitHub presence, and 16 more developer resources.'
 plans:
 - name: Tibco Plans Pricing
   plan_count: 1
   slug: tibco-plans-pricing
-random_paper: 4
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Tibco Rate Limits
@@ -484,7 +488,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -508,5 +512,5 @@ tags:
 - Integration
 - Messaging
 - Real-Time Data
-website: https://developer.tibco.com
+website: https://tibco.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: '0.2'
   score: 32.3
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 0
@@ -45,11 +45,6 @@ agentic_access:
   summary_line: 113 operations · 72 acting
 api_count: 1
 apis:
-- baseURL: https://api.conekta.io
-  baseurl_source: declared
-  description: The Antifraud API from Conekta — 4 operation(s) for antifraud.
-  name: Conekta Antifraud API
-  slug: conekta-antifraud-api
 - baseURL: https://api.conekta.io
   baseurl_source: declared
   description: The Api Keys API from Conekta — 2 operation(s) for api keys.
@@ -170,6 +165,11 @@ apis:
   description: The Webhooks API from Conekta — 3 operation(s) for webhooks.
   name: Conekta Webhooks API
   slug: conekta-webhooks-api
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The anti Fraud API from Conekta — 4 operation(s) for anti fraud.
+  name: Conekta anti Fraud API
+  slug: conekta-anti-fraud-api
 artifact_total: 88
 collections:
 - collection_type: open
@@ -489,7 +489,7 @@ modified: '2026-05-24'
 name: Conekta
 nav: Providers
 network: true
-overview: 'Conekta publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Antifraud API, Api Keys API, Balances API, and 22 more. Tagged areas include Payments, Payment Processing, Cards, Cash, and OXXO.
+overview: 'Conekta publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Api Keys API, Balances API, Charges API, and 22 more. Tagged areas include Payments, Payment Processing, Cards, Cash, and OXXO.
 
 
   The Conekta catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -500,7 +500,7 @@ plans:
 - name: Conekta Plans Pricing
   plan_count: 5
   slug: conekta-plans-pricing
-random_paper: 6
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Conekta Rate Limits
@@ -529,7 +529,7 @@ rules:
   slug: conekta-rules
 score:
   band: strong
-  composite: 55.0
+  composite: 54.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 79.5
@@ -537,11 +537,11 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.1
   facets:
     access_clarity: 63.2
     contract_governance: 13.6
-    contract_quality: 71.4
+    contract_quality: 71.2
     developer_ergonomics: 56.0
     discoverability: 68.5
     operational_transparency: 42.1
@@ -567,7 +567,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.22.0
-  scored_at: '2026-09-15'
+  scored_at: '2026-09-16'
   trend: flat
   upsert:
     applies: true
@@ -592,7 +592,6 @@ tags:
 - SPEI
 - Mexico
 - Latin America
-- LatAm
 - Fintech
 - Subscription
 - Anti-Fraud

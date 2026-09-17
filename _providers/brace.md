@@ -61,12 +61,12 @@ created: '2026-08-08'
 description: 'Brace (Brace Software, Inc., brace.ai) was a Culver City, California fintech founded in 2017 by Eric Rachmel and Amr Mohamed that rebuilt mortgage default servicing as software. Its Default Management Platform covered the end-to-end loss-mitigation lifecycle for servicers, lenders and investors — a homeowner engagement portal, a centralized responsive application, a rules and underwriting engine, document classification and data extraction, and event-driven communications and reporting — replacing the paper-based, inconsistent default workflows used by top U.S. mortgage servicers. The company raised a reported ~$30M and was acquired by Boston-based mortgage technology firm Stavvy, announced 1 August 2023, folding Brace''s loss-mitigation platform into Stavvy''s eClosing, digital notarization and foreclosure suite. Brace does not survive as an independent surface: brace.ai now 301-redirects every path to stavvy.com/mortgage-servicing-solution, and no docs., developer., api.
   or app. subdomain resolves in DNS. No public API, developer portal, machine-readable specification or SDK was ever published under the Brace brand — the Wayback CDX index for brace.ai carries no developer or API path — so this profile records identity and exit rather than an API surface.'
 layout: provider
-modified: '2026-09-15'
+modified: '2026-09-16'
 name: Brace
 nav: Providers
 network: true
 overview: Brace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mortgage, Mortgage Servicing, Loss Mitigation, and Default Servicing.
-random_paper: 5
+random_paper: 3
 screenshot: https://raw.githubusercontent.com/api-evangelist/brace/refs/heads/main/screenshots/brace-2026-09-02T144940.png
 security:
 - kind: domain-security
@@ -85,5 +85,6 @@ tags:
 - Real-Estate
 - Workflow-Automation
 - Acquired
+- Defunct
 website: https://brace.ai/
 ---
